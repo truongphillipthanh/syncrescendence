@@ -1,0 +1,10 @@
+Sam Witteveen is a prominent figure in the artificial intelligence (AI) community, known as the co-founder and CEO of the Singapore-based AI consultancy, Red Dragon AI. A recognized expert in machine learning, he is also a Google Developer Expert (GDE) and a frequent speaker on AI topics. 
+Professional career and expertise
+- Red Dragon AI: Witteveen co-founded Red Dragon AI in 2017 to provide specialized consulting, prototyping, and training to help companies integrate deep learning and generative AI into their operations. The consultancy is particularly focused on conversational AI, natural language understanding (NLU), and digital humans. Red Dragon AI has been involved in AI research and published its first paper on large language models (LLMs) in 2018.
+- Google Developer Expert: He was part of the first group of 12 Machine Learning GDEs appointed worldwide in 2017. As a GDE, he has worked closely with Google's product teams, including GCP and DeepMind.
+- Public speaker and educator: Witteveen has given numerous talks at industry events, including TensorFlow World and PyCon SEA. He maintains a popular YouTube channel, @samwitteveenai, where he explains complex AI concepts in an accessible way for a broader audience.
+- Industry focus: He focuses on making AI accessible to businesses of all sizes, showing them how to use AI to automate tasks, enhance customer experience, and inform business decisions. His work extends to the development of autonomous AI agents. 
+Key themes in his work
+- Practical application of AI: Witteveen concentrates on the practical application of AI technologies, moving from theoretical models to functional, agent-based applications that solve business problems.
+- The future of AI: He explores the evolving AI landscape, from the early days of deep learning to the current era of LLMs and autonomous agents.
+- Building the AI ecosystem: Through his consultancy and educational content, he plays a significant role in developing the AI ecosystem by helping technical teams and startups build effective AI solutions. 

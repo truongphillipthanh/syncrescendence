@@ -1,0 +1,977 @@
+https://www.youtube.com/watch?v=OD5UzhaDWfg
+The Intelligence of Us: Rethinking Minds in the Age of AI | Blaise Agüera y Arcas | TEDxCatawba
+37,084 views  Aug 7, 2025
+World renowned AI researcher, Agüera y Arcas, invites us to rethink what it means to be intelligent—and even what it means to be human. As the boundaries between people, machines, and ecosystems blur, he explores a deeper understanding of intelligence as something fluid, nested, and shared. This talk challenges our assumptions about cognition, identity, and progress, encouraging us to see artificial and natural minds not as separate, but as deeply intertwined. With clarity and care, Agüera y Arcas paints a future where collaboration—not control—defines our relationship with emerging intelligences. It's a bold vision for what comes next, grounded in wonder and humility. Blaise Agüera y Arcas is a VP and Fellow at Google, and Google’s CTO of Technology & Society. He leads an organization working on basic research in AI, especially the foundations of neural computing, active inference, evolution, and sociality. In his tenure at Google he has led the design of augmentative, privacy-first, and collectively beneficial applications, including on-device ML for Android phones, wearables, and the Internet of Things; and he is the inventor of Federated Learning, an approach to training neural networks in a distributed setting that avoids sharing user data. Blaise also founded the Artists and Machine Intelligence program, and has been an active participant in cross-disciplinary dialogs about AI and ethics, fairness and bias, policy, and risk. Until 2014 he was a Distinguished Engineer at Microsoft. Outside the tech world, Blaise has worked on computational humanities projects including the digital reconstruction of Sergei Prokudin-Gorskii’s color photography at the Library of Congress, and the use of computer vision techniques to shed new light on Gutenberg’s printing technology. Blaise has given TED talks on Sead­ragon and Pho­to­synth (2007, 2012), Bing Maps (2010), and machine creativity (2016), and gave a keynote at NeurIPS on social intelligence (2019). In 2008, he was awarded MIT’s TR35 prize.  In 2018 and 2019 he taught the course “Intelligent Machinery, Identity, and Ethics” at the University of Washington, placing computing and AI in a broader historical and philosophical context. He has authored numerous papers, essays, op eds, and book chapters, as well two books: a novella, Ubi Sunt, and an interdisciplinary nonfiction work, Who Are We Now? (review by the Financial Times here). His upcoming book, What Is Intelligence?, will be published by MIT Press in 2025. This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at https://www.ted.com/tedx
+
+---
+
+0:03
+[Music]
+0:05
+[Applause]
+0:09
+So my background is in computational
+0:12
+neuroscience and applied math. Um I went
+0:15
+to Google uh about 12 years ago and uh
+0:19
+my my first number of years that that I
+0:22
+was working there. The the main project
+0:24
+was to add AI features to Android and
+0:27
+Pixel phones. So uh most of the AI uh in
+0:31
+in those phones uh over those years came
+0:33
+from uh teams that I built. Uh some of
+0:35
+these features are things like uh face
+0:38
+unlocking and um music recognition. This
+0:41
+feature called now playing. Uh we built
+0:44
+um predictors of next words for uh for
+0:46
+the keyboard uh the the Google keyboard
+0:48
+Gboard. And um you know these these
+0:52
+things were called AI but um they
+0:56
+weren't they weren't really AI in the
+0:57
+sense that researchers meant when they
+1:00
+invented that term back in the 1950s. Uh
+1:03
+you know when when we uh thought about
+1:05
+AI as kids it probably wasn't uh you
+1:07
+know face recognizers or handrail
+1:09
+recognizers or or something like that.
+1:12
+uh and that was why the term artificial
+1:14
+narrow intelligence and artificial
+1:16
+general intelligence were invented in
+1:18
+order to draw that distinction. So um
+1:21
+artificial narrow intelligence is uh is
+1:23
+models that are trained for doing
+1:24
+specific tasks like these. Artificial
+1:26
+general intelligence is you know a robot
+1:29
+you can have a conversation with and um
+1:32
+and we didn't have artificial general
+1:33
+intelligence but we did have these uh
+1:35
+models for doing things like next word
+1:37
+prediction. We always assumed that these
+1:40
+statistical models for next word
+1:42
+prediction were uh inherently going to
+1:44
+be very limited because you know if the
+1:47
+first word is Humpty then it's easy to
+1:49
+statistically predict that the next word
+1:51
+is going to be dumpty but if you know
+1:53
+the previous words are a word problem a
+1:55
+mathematical word problem or or a story
+1:57
+and the next word is you know how does a
+1:59
+character in that story feel at this
+2:00
+moment or something of course statistics
+2:03
+won't be enough to uh to answer that
+2:05
+those are problems that are called AI
+2:07
+complete
+2:08
+Uh so it was quite a shock when we
+2:11
+basically scaled up the same sorts of
+2:13
+models and um and built things like um
+2:18
+Mina and Lambda in 2020 2021 uh and
+2:22
+found that they could actually answer
+2:24
+those kinds of questions. Uh they were
+2:26
+able to solve all of those kinds of
+2:29
+general AI problems. Um, and this was a
+2:31
+bit of a shock because they really are
+2:34
+uh in some sense just autocomplete,
+2:37
+but uh you know the the neuroscientist
+2:39
+in me maybe shouldn't have been uh so
+2:41
+shocked because there is there is at
+2:43
+least one theory uh in in neuroscience
+2:46
+that goes back a long way uh at least to
+2:49
+Helmholtz in the 19th century certainly
+2:51
+to the cyberneticists in the 1940s that
+2:54
+brains basically are autocomplete that
+2:57
+uh that the reason we develop nervous
+2:59
+systems is to predict the future given
+3:02
+the past in order to be able to affect
+3:04
+it. Uh so you know there is some sense
+3:06
+in which uh like these the fact that
+3:08
+these models that that just predict the
+3:10
+next word uh you know end up being
+3:12
+intelligent uh is validation of of an
+3:16
+old idea in neuroscience. Um so this was
+3:20
+quite this is quite a shock but uh you
+3:22
+know I began around the same time to uh
+3:24
+to write books. Uh a lot of these books,
+3:27
+in fact, all of them are questions. Uh
+3:30
+even the first one, which was fiction in
+3:32
+2022, uh Ubisund is Latin for where are
+3:35
+they? Uh and the other ones all have
+3:37
+question marks at the end, so you know
+3:38
+they're questions. Uh it's taken me a
+3:40
+while to figure out what the uh
+3:42
+underlying theme or the question was
+3:44
+behind all of these all of these books
+3:46
+that I began uh writing around this time
+3:48
+that that uh that it started to become
+3:50
+clear what AI was really um about and
+3:52
+what it told us about ourselves. Uh the
+3:54
+last of these books are just coming out
+3:56
+in September. Uh what is intelligence is
+3:58
+you know addresses that one head on but
+4:01
+um yeah the other ones are are uh as I
+4:03
+said fiction, social science uh and
+4:06
+theoretical biology.
+4:08
+And um I I think that if there's an
+4:11
+underlying theme behind all of these,
+4:13
+it's the idea of major evolutionary
+4:16
+transitions, which is a concept that was
+4:18
+introduced by two evolutionary
+4:20
+biologists uh Yor Safari and John
+4:22
+Maynard Smith uh in in the 1990s. And uh
+4:26
+the the question they were asking is why
+4:29
+does life become more complex over time?
+4:32
+You know, why is it that we began on
+4:33
+Earth with single-sellled organisms and
+4:36
+uh and then we we got multisellular
+4:38
+organisms somewhere in there the cells
+4:41
+became more complex when when
+4:43
+mitochondria made their way into uh
+4:46
+archa and we we got ukarotes. Um why do
+4:49
+those multisellular animals become more
+4:51
+intelligent over time and form societies
+4:53
+and eventually launch spacecraft and do
+4:54
+all kinds of crazy things like this and
+4:56
+even develop AI? So um they called these
+5:00
+major evolutionary transitions. Uh their
+5:02
+initial list is uh you know includes
+5:05
+some of the events that I've just
+5:06
+described and they've added a few since
+5:07
+then and I think we're going through
+5:09
+another of these right now which is the
+5:11
+uh the emergence of AI.
+5:14
+So uh what do these transitions have in
+5:16
+common? Well um why do they happen? Uh
+5:19
+is life actually becoming more complex
+5:21
+and why is that why is that taking
+5:22
+place? And are we in the end times? Um,
+5:27
+no, I don't think we're in the end
+5:28
+times. Uh, yes. Uh, life is becoming
+5:30
+more complex. And I think the answer to
+5:33
+the question of why is a very
+5:35
+counterintuitive one and one that one
+5:37
+that I've I've only come to appreciate
+5:39
+in the last year or so, uh, which is
+5:41
+that I think life is computational. Um,
+5:45
+it's kind of right there in in in Smith
+5:47
+and Smiley's paper when they say these
+5:49
+these changes involved changes in the
+5:52
+way information is stored and
+5:54
+transmitted which which is computation
+5:57
+and indeed the uh the original model for
+6:00
+uh the theoretical model for computation
+6:02
+for a computer uh which was introduced
+6:05
+by Alan Turing in the 19 in the 1930s is
+6:08
+sort of a very simplified version of a
+6:10
+machine like that one. It's a tape uh
+6:12
+and it follows instructions to move that
+6:16
+tape left or right by one square at a
+6:18
+time and read, write or erase symbols on
+6:20
+that tape. What touring proved was that
+6:23
+a very very minimal system like this one
+6:25
+could compute anything that can be
+6:26
+computed given enough time and enough
+6:28
+tape. And um the point here really is
+6:33
+that this is a minimal system for
+6:35
+following instructions in order to carry
+6:37
+out a function. Now um I think of
+6:40
+touring as one of the two um fathers of
+6:43
+computer science. The other one was John
+6:45
+Vonoyman and Vonoyman had a really
+6:49
+profound insight that has not been fully
+6:50
+appreciated uh also in the 1940s uh
+6:54
+early 1950s. Um he published it in a in
+6:57
+a paper that that didn't come out until
+6:59
+after his death uh in the theory of
+7:01
+self-reproducing automata. And his
+7:03
+insight was as follows. uh he he was
+7:06
+thinking about how it is that uh a thing
+7:10
+made out of Legos, let's say, can float
+7:12
+around on a pond uh in which there are
+7:14
+lots of loose Legos floating and how it
+7:18
+can take those Legos and assemble
+7:20
+another robot like itself out of those
+7:22
+out of those pieces. It seems a little
+7:24
+bit like lifting yourself up by your own
+7:26
+bootstraps to make something as complex
+7:27
+as you are. And he realized that what
+7:30
+that would require is for that robot to
+7:33
+have a tape inside itself, an
+7:35
+instruction tape that says how to build
+7:37
+me. And uh to have something that he
+7:40
+called a universal constructor, which
+7:42
+would be able to follow the instructions
+7:43
+on that tape to assemble whatever the
+7:46
+tape says. And as long as the
+7:48
+instructions for building the universal
+7:49
+constructor itself are included on the
+7:51
+tape, then you can have reproduction,
+7:54
+you can have healing, you can have
+7:55
+growth. Basically, you can have life.
+7:57
+because what I've just described of
+7:59
+course is exactly the way a cell works
+8:00
+or in fact the way our bodies work and
+8:03
+um and and the the really uh the kicker
+8:06
+is that this universal constructor is a
+8:09
+universal touring machine. In other
+8:10
+words uh that that thing at the core of
+8:14
+all of our cells of every living system
+8:16
+is literally mathematically formally a
+8:19
+computer. So in that sense I think you
+8:21
+know the the insight was vanoyman's life
+8:23
+is computational at its heart. You can't
+8:26
+reproduce without computation. you can't
+8:27
+grow, you can't heal without computation
+8:29
+in every cell. Uh so my my team and I
+8:33
+were exploring this idea uh last year
+8:36
+and uh we we published a paper in in
+8:38
+June of 2024 called computational life,
+8:41
+how well-formed self-replicating
+8:43
+programs emerge from simple interaction.
+8:45
+Uh that uh that really showed how it is
+8:49
+that self-replication can emerge out of
+8:51
+nothing. uh this is the problem that
+8:54
+sort of flumxed Darwin when he thought
+8:56
+about you know how it is that evolving
+8:58
+systems could have arisen in the first
+8:59
+place. Darwin understood how evolution
+9:01
+worked once you had something like this
+9:03
+tape once you had reproduction once you
+9:05
+had selection for fitness. But what he
+9:08
+really didn't understand is how life
+9:09
+could arise in the first place. Um if
+9:11
+you're religious of course you have one
+9:13
+kind of idea about how that might have
+9:15
+happened. But Darwin was interested in a
+9:17
+naturalistic explanation as we were. And
+9:20
+um the experiment that we did uh
+9:22
+involved the following. So we we took um
+9:25
+a very simple touring language whose uh
+9:29
+name I won't I won't say so that I don't
+9:31
+have to be beeped out. Um this language
+9:33
+was not named by us. It was invented in
+9:35
+the 90s by an amateur juggler and
+9:37
+computer scientist. Um which explains a
+9:41
+lot. Uh so it's it's a very minimal
+9:43
+computer language. It's based on only
+9:45
+eight instructions. Uh those eight
+9:47
+instructions are exactly touring tape or
+9:50
+touring machine like they involve a head
+9:52
+on a tape. The instructions are move
+9:54
+left one square, move right one square,
+9:56
+increment the bite at the head,
+9:58
+decrement the bite at the t at the head,
+10:00
+and there are four other ones. They're
+10:02
+very very simple, but with just those
+10:04
+eight instructions based on Turing's
+10:05
+theorems, we know that you can build uh
+10:07
+any computer you like. You can run
+10:09
+Windows with with nothing but these
+10:10
+eight instructions.
+10:12
+Uh so uh that's the uh that's the eight
+10:16
+instructions and what they do if you uh
+10:18
+if you must know. Uh so uh the
+10:20
+experiment involved taking um lots of
+10:23
+tapes uh short ones so length 64 uh and
+10:27
+starting by filling them with random
+10:28
+bytes. So they're just random tapes. Um
+10:32
+I'm I'm uh just printing a bunch of them
+10:34
+here. Uh and I'm only writing the uh the
+10:37
+instructions the the bytes that end up
+10:38
+being instructions which is one in 32 of
+10:40
+them. Remember, there are only eight
+10:41
+instructions. There are 256 possible
+10:43
+bytes. So, every tape only has one or
+10:46
+two instructions on it. And uh and they
+10:48
+don't do anything interesting, right?
+10:49
+These are not real programs. The the
+10:52
+recipe consists of taking two of these
+10:54
+tapes at random out of the soup,
+10:56
+sticking them together, running them,
+10:59
+taking them back apart, and putting them
+11:01
+back in the soup. And that's it. And
+11:03
+then repeating that over and over, kind
+11:05
+of as if they were molecules in a
+11:07
+solution. And uh if you do that, I'll
+11:10
+show you what happens uh on my laptop.
+11:13
+Uh this was pretty much the first time
+11:14
+that I got it to run. So I just like
+11:16
+took out my phone and and and took a
+11:18
+video of my screen. You begin with
+11:20
+random bites and after a few million
+11:22
+interactions, uh something really
+11:24
+magical happens, which is that programs
+11:27
+emerge. And these programs are complex.
+11:30
+They're full of instructions and they're
+11:31
+quite hard to reverse engineer. Um what
+11:34
+on earth are they doing? Uh well,
+11:36
+they're reproducing. Uh so those
+11:38
+programs are copying themselves. Um why?
+11:41
+Well, because once a program can copy
+11:44
+itself, then that means that it will
+11:47
+still exist in the future. Something
+11:49
+that can't copy itself will get
+11:51
+overwritten by something else that can
+11:52
+copy itself. Uh you know, we talk about
+11:55
+about some matter being robust uh or uh
+11:58
+or being durable. If if you have a a
+12:00
+statue made out of granite, it's highly
+12:02
+durable. But still, the only thing that
+12:04
+can happen is for it to break over time,
+12:06
+for it to gradually blur and erase. But
+12:09
+if something can replicate itself, then
+12:11
+it will exist forever. And and so there
+12:13
+is a stability about things that can
+12:15
+replicate themselves that makes them uh
+12:17
+if you like selected for in ways that
+12:20
+inanimate matter is not selected for.
+12:22
+And uh and so that's why that's why they
+12:24
+emerge because ultimately they're the
+12:26
+things that persist through time. Um but
+12:28
+there's there's a remaining mystery here
+12:30
+which is you know in this case there
+12:32
+were only 8,000 tapes uh starting you
+12:34
+know the length 64 that doesn't seem
+12:37
+like enough randomness to um to produce
+12:40
+these very complex programs. How do we
+12:43
+get from uh you know from only a few
+12:45
+instructions, a couple of instructions
+12:46
+per tape to these very complex programs?
+12:49
+And um you know when this when this
+12:51
+happens we we we get you know and these
+12:53
+these programs are are too complex if
+12:54
+you like to arise uh in a in a purely
+12:56
+random way from that starting point. It
+12:58
+looks almost like intelligent design. Uh
+13:01
+why is that happening? Um this is by the
+13:04
+way what um what that looks like in
+13:05
+terms of uh amount of computation
+13:08
+happening uh in in that soup. So I've
+13:10
+I've drawn here the first 10 million
+13:12
+interactions in a particular run. Each
+13:14
+interaction is a dot. The x-axis is time
+13:17
+and the y-axis is how much computation
+13:19
+took place in that interaction. And what
+13:20
+you can see is that there is a
+13:22
+discontinuous transition right at six
+13:24
+million interactions in this particular
+13:25
+case where suddenly the soup starts to
+13:28
+compute because the process of copying
+13:30
+or replicating is a computational
+13:31
+process. So you can think about this
+13:33
+almost like two phases of matter. On the
+13:35
+left is a phase of matter that is
+13:37
+disordered like a gas and on the right
+13:39
+is a phase of matter that you could call
+13:41
+life. It's purposive.
+13:44
+All right. So why does it become more
+13:45
+complex over time? Well, um Lyn
+13:48
+Margulus, I think came up with the
+13:50
+answer back in 1969. Uh she was the one
+13:53
+who figured out that um that ukarotes,
+13:56
+the complex cells like the ones that
+13:58
+make up our bodies, uh are made out of
+14:01
+mitochondria that uh that made their way
+14:04
+inside other cells in in an act that she
+14:06
+called symbioenesis. Uh in other words,
+14:08
+a symbiosis between two parts that made
+14:10
+something more complex than those parts,
+14:12
+made a whole more complex than those
+14:14
+parts. And it turns out that that's
+14:16
+exactly the same thing that's happening
+14:17
+in the soup. uh when when you first
+14:19
+start running this thing, you
+14:21
+occasionally get a single bite that
+14:22
+manages to replicate itself. Uh and what
+14:26
+happens is that those individual bytes
+14:28
+sometimes team up. That is to say, they
+14:30
+manage to find themselves next to each
+14:32
+other and the pair can reproduce better
+14:33
+than one of them could on its own. And
+14:35
+that process repeats and ladders up and
+14:37
+that's how you get complexity. It's
+14:39
+basically all about teamwork. and and
+14:42
+that that form of teamwork is is just as
+14:44
+natural as uh as evolutionary selection
+14:47
+itself and it's a key part of the way
+14:49
+evolution works we now believe
+14:52
+and that's the same process that uh that
+14:54
+has led to the human intelligence
+14:57
+explosion when we look at at how it is
+14:59
+that we ca we went from being individual
+15:02
+stupid animals to collectively brilliant
+15:04
+animals as we are today. It really has
+15:07
+nothing to do with what's going on in
+15:09
+individual brains and everything to do
+15:10
+with how we collaborate together. Uh,
+15:12
+you know, I sometimes joke that, you
+15:14
+know, if you take an average
+15:15
+Manhattanite out of their apartment and
+15:17
+ask them why does the toilet flush when
+15:19
+you push the button, they won't know,
+15:21
+right? Individually, we don't know a
+15:23
+lot, but collectively through teamwork,
+15:25
+we know a great deal. And and it's that
+15:27
+collective intelligence that we really
+15:29
+are talking about when when we when we
+15:31
+talk about human intelligence, not not
+15:33
+what we can do individually. And uh and
+15:36
+there's a kind of arms race, a friendly
+15:37
+arms race if you like that happens when
+15:40
+people are trying to predict each other.
+15:43
+Uh as uh as you try to predict others,
+15:45
+as you try to model their minds, uh your
+15:48
+brain has to become more complex. But
+15:51
+then when you're trying to be when
+15:53
+you're the subject of that prediction,
+15:54
+then somebody else has to be more
+15:55
+complex in order to predict your mind
+15:57
+and so on. And that's the kind of
+15:59
+oneupsmanship that has led to to this to
+16:01
+these intelligence explosions. We can
+16:03
+see that that the brains of different
+16:05
+animals uh become larger as their troop
+16:08
+sizes grow or looked at another way as
+16:10
+the troop sizes grow their brains have
+16:12
+to become bigger and uh and we've seen
+16:14
+these social intelligence explosions not
+16:16
+only in humans but also in whales and in
+16:18
+in the smarter birds like parrots and in
+16:21
+a couple of other places. So uh scaling
+16:24
+cooperation and competition uh is the
+16:27
+way intelligence rises the way
+16:28
+complexity rises. It's all a part of the
+16:30
+same process. And this is the connection
+16:32
+between the last two books that I've
+16:34
+written. What What is life and and what
+16:35
+is intelligence? Um I I've come to think
+16:37
+about life as a self-constructing
+16:40
+computational phase of matter that
+16:42
+complexifies through symbioenesis and of
+16:45
+intelligence as the ability to predict
+16:47
+and influence one's future which
+16:48
+complexifies through symbioenesis.
+16:50
+They're kind of one in the same thing.
+16:53
+All right. So I just want to leave you
+16:55
+with a few points uh to end. First, um,
+16:59
+we have been thinking about AI as this
+17:02
+kind of alien invader, this other other
+17:04
+that that comes to us, you know, in in
+17:06
+in the in the 2020s. And I've
+17:09
+increasingly come to realize that that's
+17:10
+not the case. Uh, it's uh, for one
+17:13
+thing, we we got AI when we began to
+17:16
+train it on on human experience. Uh, and
+17:18
+so it is about as human as it gets from
+17:21
+an information standpoint. Uh, it also
+17:23
+is computational just like us. And in
+17:26
+that sense, it's a part of that same
+17:28
+evolutionary process that's been going
+17:30
+on on Earth for more than four billion
+17:32
+years. Biology is computational, too.
+17:36
+It's been a long time since individual
+17:37
+humans were the pinnacle of intelligence
+17:39
+on Earth. It's human society as a whole
+17:42
+collective that is intelligent in that
+17:44
+way. And AI is increasingly a part of
+17:47
+that collective intelligent fabric. In
+17:49
+that sense also, it's not alien. It's
+17:51
+actually a part of of what we are in
+17:54
+some bigger sense. Humanity is
+17:56
+collectively brilliant. Humanity plus AI
+17:58
+is going to be even more collectively
+18:00
+brilliant. And finally, this symbiosis
+18:03
+that's emerging between AI and humanity.
+18:05
+You know, I don't want to be too
+18:06
+polyiana about it. Symbiosis can be
+18:08
+hard. They can be disruptive. They can
+18:10
+they can lead to um to complexity. Uh
+18:14
+they can lead to civilizational troubles
+18:16
+of various kinds, but ultimately they're
+18:19
+rich and positive. Uh that's how they've
+18:21
+been for the last four billion years.
+18:23
+And I have no reason to expect that this
+18:25
+next one uh won't be as well. Uh and I
+18:28
+will um I will end there. Thank you all
+18:30
+so much.
+18:33
+[Music]
+18:36
+[Applause]

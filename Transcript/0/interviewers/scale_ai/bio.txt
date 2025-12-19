@@ -1,0 +1,30 @@
+Scale AI is a data-centric artificial intelligence company that provides the data infrastructure necessary for building and deploying AI applications, particularly large language models and computer vision models. Founded in 2016 by Alexandr Wang and Lucy Guo, the company began by offering data labeling services and has since grown into a comprehensive platform for the entire AI lifecycle. 
+
+Founding and background
+- Initial focus: Scale AI was founded to address the critical need for high-quality training data, a bottleneck in AI development. The company initially focused on data annotation services for autonomous vehicles, labeling millions of images and sensor data to train self-driving systems.
+- Early growth: Led by Alexandr Wang, who dropped out of MIT to launch the company, Scale AI quickly became a "unicorn" (a privately held startup valued at over $1 billion). It attracted major clients like Waymo and demonstrated rapid growth in its early years.
+- Co-founder transition: In the company's early days, co-founder Lucy Guo eventually departed due to disagreements over company direction. 
+
+Core offerings and products
+Scale AI has evolved from a pure data-labeling service into a full-stack AI platform. Its key products include: 
+- Scale Data Engine: A flagship product that helps machine learning teams manage the entire data lifecycle, including collection, curation, annotation, training, and evaluation.
+- Scale Generative AI Platform: A platform introduced in 2023 for enterprises to build, customize, and evaluate large language models and other generative AI applications. It leverages the Scale Data Engine to incorporate and refine enterprise-specific data.
+- Scale Donovan: A product designed for U.S. government and defense applications, which processes and organizes classified data (such as emails, satellite imagery, and intelligence reports) to aid decision-making.
+- Human-in-the-loop services: The company maintains a large, global team of human annotators who work alongside machine-learning-powered tools to ensure high-quality, accurately labeled datasets. 
+
+Customers and market impact
+Scale AI serves a wide range of clients, from leading AI research labs to Fortune 500 companies and government agencies. 
+- Key customers: Past and present customers include OpenAI, Meta, Microsoft, the U.S. Army, General Motors, and Toyota.
+- Industry significance: The company is a key player in the AI ecosystem, providing the essential data and tools needed to train sophisticated AI models.
+- Strategic partnerships and investments: In mid-2025, Meta made a significant investment in Scale AI, which included bringing founder Alexandr Wang in to lead Meta's superintelligence AI unit. This move prompted Scale AI to name an interim CEO and restructure its workforce, cutting 14% of its staff. 
+
+Mission and business model
+Scale AI's stated mission is to "develop reliable AI systems for the world's most important decisions". 
+- Underlying philosophy: The company's core belief is that better data leads to better AI. By providing high-quality data and advanced tools, it helps organizations accelerate their AI development and deployment.
+- Financials: The company has achieved a high valuation, attracting major investment and demonstrating strong revenue growth. 
+
+Challenges and controversies
+Like many fast-growing tech companies, Scale AI has faced some controversies:
+- Workforce issues: Past concerns have been raised about the company's work culture and management.
+- Competition and pricing: The company operates in a competitive market for data annotation services, with some rivals offering lower prices.
+- Security and focus: Following the strategic changes in 2025, some have criticized the company for losing focus on its core product and have raised security concerns. 

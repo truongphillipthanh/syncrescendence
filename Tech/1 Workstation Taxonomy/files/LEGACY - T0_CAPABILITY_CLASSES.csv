@@ -1,0 +1,33 @@
+capability_id,capability_name,parent_capability_id,depth,description,transformation_type
+TEXT,TEXT,TEXT,INTEGER,TEXT,TEXT
+CAP_GEN,Generate,NULL,0,Create new content from prompts or parameters,creative
+CAP_GEN_TXT,Generate Text,CAP_GEN,1,Produce written content across formats,creative
+CAP_GEN_IMG,Generate Image,CAP_GEN,1,Synthesize visual content from descriptions,creative
+CAP_GEN_AUD,Generate Audio,CAP_GEN,1,Create sound or music from specifications,creative
+CAP_GEN_VID,Generate Video,CAP_GEN,1,Produce moving images from prompts,creative
+CAP_GEN_COD,Generate Code,CAP_GEN,1,Write functional software from requirements,creative
+CAP_TRN,Transform,NULL,0,Convert existing content between states or formats,procedural
+CAP_TRN_EDT,Edit,CAP_TRN,1,Modify existing content while preserving type,procedural
+CAP_TRN_CNV,Convert,CAP_TRN,1,Change format or modality of content,procedural
+CAP_TRN_ENH,Enhance,CAP_TRN,1,Improve quality or fidelity of existing content,procedural
+CAP_TRN_EXT,Extract,CAP_TRN,1,Pull specific elements from larger content,procedural
+CAP_ANL,Analyze,NULL,0,Examine content to derive insights or patterns,analytical
+CAP_ANL_UND,Understand,CAP_ANL,1,Comprehend meaning or structure of content,analytical
+CAP_ANL_CLS,Classify,CAP_ANL,1,Categorize content into taxonomies,analytical
+CAP_ANL_CMP,Compare,CAP_ANL,1,Identify similarities and differences,analytical
+CAP_ANL_SUM,Summarize,CAP_ANL,1,Distill key information from larger corpus,analytical
+CAP_ORG,Organize,NULL,0,Structure and arrange information for retrieval,architectural
+CAP_ORG_STR,Store,CAP_ORG,1,Persist content for future access,architectural
+CAP_ORG_TAG,Tag,CAP_ORG,1,Add metadata for categorical retrieval,architectural
+CAP_ORG_LNK,Link,CAP_ORG,1,Create associative connections between items,architectural
+CAP_ORG_SRC,Search,CAP_ORG,1,Query and retrieve specific content,architectural
+CAP_CON,Connect,NULL,0,Enable communication or data exchange,relational
+CAP_CON_SHR,Share,CAP_CON,1,Distribute content to other entities or users,relational
+CAP_CON_COL,Collaborate,CAP_CON,1,Enable multi-user simultaneous work,relational
+CAP_CON_SYN,Synchronize,CAP_CON,1,Maintain consistency across distributed locations,relational
+CAP_CON_INT,Integrate,CAP_CON,1,Bridge between different tools or services,relational
+CAP_AUT,Automate,NULL,0,Execute sequences without human intervention,autonomous
+CAP_AUT_SCH,Schedule,CAP_AUT,1,Trigger actions based on time or events,autonomous
+CAP_AUT_WRK,Workflow,CAP_AUT,1,Chain multiple operations into sequences,autonomous
+CAP_AUT_AGT,Agent,CAP_AUT,1,Pursue goals with adaptive decision-making,autonomous
+CAP_AUT_MON,Monitor,CAP_AUT,1,Track state and notify on condition changes,autonomous

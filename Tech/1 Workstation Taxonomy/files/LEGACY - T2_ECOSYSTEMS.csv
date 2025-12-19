@@ -1,0 +1,12 @@
+ecosystem_id,ecosystem_name,provider,founding_year,core_value_prop,auth_integration,data_portability,api_maturity,platform_lock_in,status,description
+TEXT,TEXT,TEXT,INTEGER,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT
+ECO_GGL,Google Workspace,Google,2006,Integrated productivity with search DNA,oauth2,high,mature,medium,active,Gmail|Drive|Calendar|Docs ecosystem
+ECO_MSF,Microsoft 365,Microsoft,1990,Enterprise productivity and Office compatibility,azure_ad,medium,mature,high,active,Office|Teams|OneDrive|Azure integration
+ECO_APL,Apple,Apple,1976,Device ecosystem with seamless handoff,apple_id,medium,limited,high,active,macOS|iOS|iCloud native integration
+ECO_ANT,Anthropic,Anthropic,2021,Constitutional AI and Claude models,api_key,high,mature,low,active,Claude API and products ecosystem
+ECO_OAI,OpenAI,OpenAI,2015,Frontier AI models and tools,api_key,high,mature,low,active,GPT models and ChatGPT products
+ECO_ADB,Adobe Creative Cloud,Adobe,1982,Professional creative tools standard,adobe_id,low,mature,high,active,Photoshop|Illustrator|Premiere suite
+ECO_ATL,Atlassian,Atlassian,2002,Software development collaboration,sso,medium,mature,medium,active,Jira|Confluence|Bitbucket integration
+ECO_NTN,Notion,Notion Labs,2016,All-in-one workspace flexibility,notion_auth,low,limited,medium,active,Proprietary database ecosystem
+ECO_FIG,Figma,Figma Inc,2012,Collaborative design platform,figma_auth,medium,limited,medium,active,Design and prototyping tools
+ECO_VRC,Vercel,Vercel,2015,Frontend deployment optimization,github_oauth,high,mature,low,active,Next.js and deployment platform

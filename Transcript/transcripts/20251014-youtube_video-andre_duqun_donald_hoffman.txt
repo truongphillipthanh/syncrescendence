@@ -1,0 +1,3572 @@
+https://www.youtube.com/watch?v=xaeafKPfs1M
+The Greatest Discovery About Reality & the Consciousness Behind It | Donald Hoffman
+249,678 views  Oct 14, 2025  Know Thyself Podcast - Full Episodes
+Cognitive scientist and author Donald Hoffman returns to share discoveries reshaping how we understand perception, consciousness, and reality itself. Drawing from evolutionary game theory and quantum physics, he reveals why we don’t see the world as it truly is—and what that means for science, spirituality, and awareness. Hoffman bridges rigorous mathematics with timeless wisdom, showing how awakening to truth means seeing through the interface of perception to what lies beyond.
+
+15% off Bon Charge order (Code KNOWTHYSELF):
+https://boncharge.com/knowthyself
+
+Up to 43% off MUDWTR order + free frother:
+https://mudwtr.com/knowthyself
+
+To get your free shilajit today:
+https://fractalforest.co/knowthyself
+
+Andrés Book Recs: https://www.knowthyselfpodcast.com/bo...
+
+___________
+00:00 Intro
+03:45 The Probability of Seeing the Truth
+10:20 Fitness vs. Truth in Evolutionary Theory
+17:30 The Limits of Our Perception
+24:15 How Language Shapes Reality
+31:10 States of Consciousness and Altered Perception
+38:50 The Virtual Headset of Space and Time
+42:04 Ad: Bon Charge
+46:35 Physics Agrees: Spacetime Is Doomed
+54:25 The Mystery of the Observer
+1:02:10 No Theory of Everything
+1:10:40 Consciousness vs. Physicalism
+1:19:15 Neural Correlates and the Illusion of Causation
+1:27:45 The Case for Consciousness as Fundamental
+1:29:38 Ads: MUDWTR, Fractal Forest
+1:36:20 From Science to Spirituality
+1:45:10 Introducing Markov Chains
+1:53:30 The Birth of Trace Logic
+2:04:20 Time Dilation and the Mathematics of Perception
+2:18:10 Beyond the Headset: Infinite Consciousness
+2:36:30 Science, Mystery, and Humility
+2:54:40 Conclusion
+___________
+
+Episode Resources: 
+https://x.com/donalddhoffman
+https://www.amazon.com/The-Case-Again...
+
+  / andreduqum  
+  / knowthyself  
+   / @knowthyselfpodcast  
+https://www.knowthyselfpodcast.com
+
+Listen to the show:
+Spotify: https://spoti.fi/4bZMq9l
+Apple: https://apple.co/4iATICX
+
+---
+
+Intro
+0:00
+Most of us assume that what you see is what you get. We assume that the moon is there even if you don't look. The bottom line is the probability is zero.
+0:06
+All right? So reality is not the way that we perceive it. You don't see the truth. The reason is
+0:11
+because it's infinitely complicated. If a tree falls in the forest and no one's around to perceive it, does it still
+0:16
+make a sound? This has been a big problem in science until I discovered the trace logic. And just 6 months ago,
+0:22
+I think I found the key that I've been looking for for 40 years. This is the first time I've actually talked about
+0:27
+this. But the interesting thing is spiritual traditions have been saying this for thousands of years. And now the
+0:33
+best science says that the best science does not say you're just a lump of atoms that happens to have some consciousness.
+0:39
+Now the smart money is on yeah you and I are one. From this bigger point of view
+0:44
+there's infinite exploration and the exploration is you. And a lot of the exploration will be done as the mystical
+0:50
+traditions have said in silence. And that silence itself is tapping into this infinite wisdom that everybody is.
+1:03
+Hey everyone, welcome back to the know thyself podcast. Our guest today is back for the third time. We love him so much
+1:10
+and I'm excited to dive into this conversation exploring uh the nature of reality and its many different aspects.
+1:17
+He is a cognitive psychologist, an author, a consciousness researcher, and
+1:23
+somebody whose extensive research and both consciousness and evolutionary game theory has positioned him uniquely to be
+1:30
+a pioneer in emerging discoveries around the nature of reality that really shakes
+1:35
+up our intuitions and notions of what it is in the first place. Donald Hoffman. Thank you, Andre.
+1:40
+Good to be back. It's great to be here again, the third time. Thank you very much for having me back. Yeah, I think it's going to be great to
+1:46
+set a bit of the framework and set the stage, not assuming people have t tuned into the previous two conversations. Uh
+1:53
+let's start off very baseline. Can you explain to the layman how we
+1:58
+don't see reality as it is? Right. So, most of us assume that what
+2:03
+you see is what you get. I see a car. That's because there really is a car there. I see the moon. That's because
+2:08
+the moon really is there. And so forth. And and we assume those who know
+2:14
+evolutionary theory, for example, might say, well, and the reason we know that we see the truth is because we evolved
+2:19
+to be fit. And to be fit, you should see the truth, right? The the more accurate your perceptions are, the better you
+2:25
+should see the truth about reality. And those who think that uh this isn't
+2:30
+reality, if you know, if you don't think that car is real, if you step in front of it, you'll find out that it is real. That it can it can hurt you. So those
+2:37
+are the kinds of intuitions that that we all have and
+2:42
+it just turns out when you look at evolutionary theory carefully. So Darwin didn't have
+2:49
+mathematics. He he gave a a beautiful theory but there wasn't any mathematics but John Maynard Smith in the 1970s
+2:56
+mathematized Darwin's ideas and it's a field called evolutionary game theory.
+3:01
+And so now we can take out Darwin's ideas and look at mathematical theorems
+3:06
+about what's entailed by his theory. And you can ask the question, what is the probability that organisms are shaped by
+3:15
+evolution to see aspects of reality as it is truthfully?
+3:21
+And the bottom line is the probability is zero. That's that's the the bottom line.
+3:27
+When you do the math, the probability is zero. And the and the reason it's slightly technical but but not too hard
+3:33
+and and that is there's something called the fitness functions right they describe for a given organism if you
+3:40
+take this action and you're in this state what the consequences the fitness consequences will be for you and by
+The Probability of Seeing the Truth
+3:47
+fitness you know evolutionary theory of course means the chances of successfully
+3:52
+reproducing. So that's the the measure of fitness that we're talking about the probability of reproducing successfully.
+4:00
+So when you look at these fitness payoff functions since they're what's shaping the sensory
+4:08
+systems of the organisms, right? That's what's shaping evolution in in evolutionary game theory. These fitness payoff functions, they depend on the
+4:15
+state of the world, the organism, its actions, and you get a payoff. Like for example, just to be very concrete, if if
+4:21
+I'm a human being and I'm standing in the middle of the 405 freeway at 10:00
+4:27
+in the morning, that's a bad place to be and my fitness payoff is death, right? That's that's really a dumb thing to do.
+4:34
+So whereas, you know, so you can see you have you take an organism, put it in a place, put it in an action, and then you
+4:40
+get a number, you know, thumbs up or thumbs down for your for your fitness payoffs. So these are functions and for
+4:46
+those who know some mathematics they are just functions and it turns out there's no constraint on these functions in
+4:53
+evolutionary theory. There's no constraint that says they only have to be continuous or they have to be
+4:59
+quadratic or there there's just no there's no constraint from the theory. So Darwin's theory doesn't tell us these
+5:06
+are the kinds of functions. So given that we ask what is the probability? We
+5:11
+can just look at the space of all possible fitness payoff functions and ask how many of them will shape
+5:19
+organisms to perceive aspects of reality.
+5:24
+Very very you can just assess it with mathematics and it turns out 0%. Zero it
+5:31
+doesn't mean none but it means 0%. So if you're a betting person um the the good
+5:37
+bet is against seeing the truth. Now, someone can come back and say,
+5:42
+"Well, I don't like that." I mean, and most a lot of people do. They come back and say, "I don't like that." And my
+5:48
+attitude is that's perfectly fine. I have no skin in the game. I don't care.
+5:54
+I'm just telling you what the current theory says. The current theory says all fitness payoff functions are equally
+6:00
+likely. And I say, "Okay, they're all equally likely. Then the probability that you see the truth is zero." Now,
+6:06
+someone can come along and say, "Well, then I'll I'll show you why they're not all all equally likely." perfectly fine with me. Go ahead and and do that. But I
+6:12
+haven't seen anybody do that. But that is the right response to to my Now here's here's a response that I get a
+6:19
+lot that is I think um a mistaken response.
+6:25
+The response is, look, Darwin started his theory with physical organisms
+6:34
+competing in space and time for physical resources like mates and food and so
+6:40
+forth. And now you're saying you're using
+6:45
+Darwin's theory, a mathematical version of it, to prove that the probability
+6:51
+that space and time and organisms and food and and and so forth um are almost
+6:56
+surely not the nature of reality. So Hoffen, you should go learn some logic. You started with the assumption
+7:04
+of space and time and physical objects and payoffs, you know, you know, fitness payoffs for for food and so forth. And
+7:12
+now you're saying that that physical stuff is not the nature of reality. You've shot yourself in the foot logically. So go back and learn some
+7:20
+logic. And and this is actually I mean this is not just informal. I mean there
+7:25
+are philosophers who've published papers on this where they in prestigious journals where they make exactly this
+7:32
+kind of argument that I've I've caught myself in a logical bind. And so so this
+7:39
+raises an important point about science and it's very elementary.
+7:45
+Scientific theories start with assumptions. Like Einstein,
+7:52
+the special theory of relativity, he started with the assumption that um the
+7:57
+speed of light is the same in all inertial frames and that there is no special inertial
+8:04
+frame. The laws of physics are the same in all inertial frames. And he said if you grant me those two
+8:11
+assumptions then he could build actually um relativistic spacetime with all the
+8:19
+the changing clocks and and meter stick lengths and the whole bit came from those assumptions
+8:25
+and but he didn't didn't explain the assumptions he assumed those assumptions
+8:33
+and actually toward the end of his life Einstein said I still don't know what light is I've spent my life thinking
+8:39
+about light and working on light and and I don't know so he doesn't know why the
+8:45
+speed of light is the same in all inertial frames or why all inertial frames have the same laws of physics.
+8:51
+But those are his assumptions. And this is true of any scientific theory. And when you say that, by the way, you
+8:56
+just mean the speed limit on the universe essentially, right? This that yeah, nothing can go
+9:02
+faster than the speed of light. Mhm. So, and he didn't want to spend most of his life figuring out why, but just kind of
+9:08
+went with that assumption. Well, I think Einstein wondered a lot about why. Yeah. But like but he couldn't answer
+9:15
+the question if you assume it then you get the structure of what we call manowski space coming coming out of it.
+9:22
+Um and you and of course I think you can with any scientific theory you can say
+9:28
+I'll give you a new set of assumptions that are deeper and from my new set of assumptions I'll explain your previous
+9:35
+assumptions. But but here's the key point. No scientific theory
+9:42
+can ever be a theory of everything. Period.
+9:47
+Anybody who doesn't have a wink and a nod when they talk about their theory of everything is missing the point. I think
+9:53
+a lot of brilliant physicists who talk about a theory of everything know that they're not talking about a theory of everything. But you they really just
+9:59
+mean the unification of you know certain the theories that that are not unified now.
+10:07
+But there are a lot of people who think that we could get a theory of everything. And I'm saying no. Never.
+10:13
+Even if we worked for a billion years and had a billion Einstein's working for a billion years, we would never have the theory of everything. We we'd get 0% of
+Fitness vs. Truth in Evolutionary Theory
+10:21
+reality. And the reason is every theory starts with assumptions and it doesn't explain its assumptions. It assumes
+10:27
+them. And therefore, every theory has two properties. If it's if it's a
+10:35
+good theory, it has a scope of explanation. So there is a scope of things that it can explain.
+10:42
+By the way, most theories don't. Mo most theories, and you I get them in emails a lot. Most theories have no scope
+10:48
+whatsoever. There there's nothing there. But a good theory has a scope, but it's a it's a limited scope. It's not
+10:54
+everything. It's not a theory of everything. And then so they have a scope and they can tell you if it's a
+11:00
+good theory, they'll give you mathematics to explore that scope.
+11:05
+But if it's a great theory, not just a good theory, but a great theory, it will give you the tools to figure out the
+11:13
+limits of explanation that were entailed by the very assumptions that started the
+11:19
+theory. Because a theory must start with assumptions, it has limited scope. The
+11:24
+only question is does the theory itself give you the tools? Is it great theory to give you the tools to find that
+11:31
+necessary limit or not? And what I'm saying is Darwin's theory with John
+11:37
+Maynard Smith's mathematics of evolutionary game theory is a great theory. We knew upfront that it couldn't
+11:43
+be the final theory of everything. And it turns out to have the tools to say that its very foundational assumptions
+11:51
+of course are not the final truth. But we knew that that's true for any scientific theory. You give me a
+11:57
+scientific theory, tell me its assumptions, and I will tell you something that's not the final truth.
+12:02
+Those assumptions, the So, a theory that gives you assumptions that
+12:09
+let you come back and tell you that those assumptions aren't the final word on truth is a great theory. And those
+12:16
+are the theories that we look for. So, so it's for those who have said that I'm shooting myself in my in the foot, they
+12:23
+completely misunderstand the foundations of science itself and the scientific enterprise.
+12:30
+It's not the the false interpretation is science is the crawling towards the
+12:36
+ultimate truth and we're going to get there. Maybe who knows, maybe this century we'll get there. That's just
+12:43
+false. The right approach or I'll put it this way a deeper approach to
+12:49
+understanding science is to note that every scientific theory starts with its own assumptions and therefore
+12:56
+it has limited scope of explanation and if it's a great theory it will use its
+13:03
+own assumptions to show the limits of those assumptions and to show that they can't be the final but most theories
+13:09
+aren't that good. I mean Einstein's theory it's Einstein's theory I must say together with quantum mechanics. So
+13:14
+quantum field theory together with um which brings together quantum mechanics and and Einstein theory and and also
+13:21
+general relativity together that package tells us that spaceime cannot be
+13:26
+fundamental. Um so that's in the physics side and in Darwin's theory is Darwin's
+13:32
+theory by itself agrees that physical objects in spaceime can't be fundamental. So here we have quantum
+13:39
+field theory and
+13:45
+evolutionary theory telling us that spacetime and its objects are not
+13:50
+fundamental. Now we already knew that none of our
+13:56
+assumptions are fundamental. It's just great to have the these theories being
+14:01
+so powerful that they're telling us that the that these assumptions are not fundamental. So that's the that's the
+14:06
+fundamental orientation that people need to have about this thing. It it's not about shooting yourself in the foot. No
+14:13
+theory has the final assumptions. Some theories are so deep that their
+14:19
+assumptions tell you that the assumptions aren't true. They're not the final word. But most theories aren't
+14:24
+that good. We're going to keep diving into all of that. uh but to to keep
+14:30
+making our way through this in a digestible manner. I'm curious because when you speak to how
+14:36
+the likelihood that evolution has shaped sensory systems to you know see objective reality is effectively zero
+14:43
+and you know perception is reality in so many ways as as a human beings. We kind
+14:49
+of share generally a a similar sense um through our sense perceptions and sense
+14:54
+organs, this experience of life. And it seems like we see reality as it is
+15:00
+because it's ubiquitous within our experience. It's all we've known. And yet, I think what's helpful in seeing
+15:05
+and breaking down this notion of it being connected to what reality actually is seeing the variance in how uh
+15:13
+perception occurs within all all life. And so I'm curious what comes to mind when you think about all the different
+15:21
+uh life life forms and and uh animals and their sense organs and how they
+15:27
+perceive reality. Uh where if you put them side by side to us, our experience
+15:33
+of life is completely different and yet we both feel like it's the way reality is to us because it is for us. Well,
+15:40
+that that's a a great question and there's a lot to say on that, but one thing I'll I'll start with is is to
+15:46
+point out that I actually don't know what your perceptions are like, right?
+15:51
+I can assume assume that, you know, I we I pick up
+15:56
+this cup and I say, "Yeah, it's sort of a a cup has got some bins in it and it's got some tea in it." And you would you
+16:02
+would agree, but I have no idea what your experience is. I assume that it's
+16:08
+very much like mine and Part of this is because we we learn to talk by something
+16:13
+called ostensive definition. So if you're a child, you know, and and your
+16:19
+mom or your dad is there and you're like 18 months old and and it's time for you to learn some words and there's a rabbit
+16:26
+on the floor and uh mom or dad points and says rabbit and if the child's at
+16:31
+the right age, they get it. You only have to point once or twice and say rabbit. And but if the child right if
+16:39
+you did it when they were 6 months old it doesn't work. It doesn't work. And if you do it with a a rat it doesn't work.
+16:46
+If you take a rat and point to a rabbit and say rabbit it doesn't work. It why does it work with a child? Well, the
+16:53
+child already had its own experience and
+17:00
+conceptualization, so to speak, organization of it as as a rabbit. And
+17:06
+and so all you do as a parent is you name, you give the words for the
+17:13
+experience that the child already has. You're not giving the experiences. The child's experience is whatever it is as
+17:20
+for and and you don't know how how can you ever know for for all I know your
+17:26
+world could be utterly different in conscious experiences now now you of course you have some
+The Limits of Our Perception
+17:31
+empirical evidence for this but but it is also just important to highlight that even within the spectrum
+17:37
+of human experience there is variance that we do know of and there is also a lot of variance that we don't know of
+17:43
+that we just assume that is the same that's right so in color. So, we assume I I talk about the the green plants here
+17:50
+and and you know, a little bit of red in the carpet and so forth. Um, and I assume that your experience of red and
+17:56
+green and so forth is very very similar to mine. But there are women called tetrafms who have four color photo
+18:05
+receptors instead of three. Most of us have just um short, medium, and long wavelength photo receptors. And these women have four instead of just three.
+18:14
+And they're called tetrofilms. and they in in I I'm actually friends with someone who's done research on this,
+18:20
+Kimberly Jameson and others who have done research on this and they they can do genetic tests and they find these
+18:26
+women that have um you know the gene for being tetrahilms and put them in psychophysical experiments where you
+18:32
+test their color discriminations and they're finer than ours. They actually have different color boundaries and
+18:38
+finer discriminations. They can see, you know, maybe an order of magnitude more
+18:43
+colors than than we can. So we we already have empirical evidence. Again,
+18:48
+we don't we don't know what it's like to be a tetra. I don't know what it's like. I mean, no guy could ever know. And most
+18:54
+women could could never know. Um but even if you're a tri chromat
+19:04
+experience, like I assume, and I'm I'm not saying it's a bad assumption. I'm not I if I had to bet I'd say there's no
+19:12
+reason for me to to disbelieve. But I'm just I just want to point out that it's a belief. It's not a
+19:21
+proven fact. It's a belief that your perceptions are similar to mine. Here
+19:26
+here's here's a fun technological thing that someone could do. I think that you we could write a
+19:34
+multi-person AI firstperson game
+19:39
+where people around the world could be, you know, put on a headset, be immersed in a game that they're all playing
+19:45
+internationally, but each headset is actually a very, very different looking
+19:51
+game, but there's a translation. So maybe I'm playing tennis in this one and
+19:56
+you're playing bad mitten in that one and someone else is is is playing uh you know Grand Theft Auto over there and and
+20:04
+we're all playing together. I even though you're playing Grand Theft Auto, I think you're playing tennis with me
+20:09
+and and and I think that you could actually coordinate that such that I'm playing and we all we're all
+20:16
+interacting, but then when you change headsets, you go, "Holy smoke, you were playing a completely different game than
+20:21
+I thought you were playing." And and I think that that would be fun to do to really shake people up and show that
+20:27
+that you the assumption. Now, now again, I'm not claiming that we're not seeing
+20:33
+the same game, but I'm saying it would be fun to shake up the assumption that we are by putting
+20:39
+together a multiplayer VR situation where as you change you like a dozen
+20:46
+different headsets and every one of them is a different world and you're doing something entirely different in that world and yet they're all coordinated.
+20:52
+Mhm. So, so that I think that's eminently possible and that would really go a long
+20:58
+way to shaking people up. Um, and again, for all I know, your experiences are
+21:04
+very much like mine. Yeah. And but it is interesting how we
+21:10
+are really only always speaking in approximations and language is always
+21:16
+going to be futile in it. It helps us kind of speak about reality in a sort of
+21:22
+agreed upon shared sense that is a lie fundamentally but like we can just kind of approximate what we perceive on the
+21:30
+less than 1% available to us on the electromagnetic spectrum. Yes. Um, but we know that before we even
+21:38
+get into different animals and what their experience is like that depending on the state of consciousness that we're
+21:44
+in and we could very subtly tweak our biochemistry,
+21:52
+exogenously, endogenously, um, psychedelics, many different things.
+21:58
+and the uh the experience of reality changes so drastically by very minor
+22:05
+changes. Uh so it's just yeah fascinating little DMT and you're in a different world
+22:10
+completely different world and and then for a lot of people then shakes up very much the assumption that what I'm seeing
+22:18
+is is reality. I haven't done it. Yeah. But lots of people contact me and say, "I have done it and I I like your
+22:24
+theory because when I go on DMT, it it it says you're and so I I didn't come up with a theory because of DMT, but I get
+22:31
+people with DMT saying this really works. I've seen a lot of comments on
+22:36
+previous episodes of both the ones we've done and others where people who have explored psychedelics or DMP for example
+22:43
+have really resonated because there is this fundamental uh I guess effect of
+22:48
+your work which is shaking up our notion of preconceived notions of reality and uh and so yeah let's keep going. So what
+22:55
+yeah what are some other examples of life that has different access to
+23:01
+different parts of the electromagnetic spectrum with their own sense organs that you find interesting? Right. So uh some birds can see the
+23:09
+polarization of light and they use it to navigate. I can't see the polarization of light. I I don't know what it would
+23:14
+be like to experience the polarization of light. You can get a little sense of it if you wear sunglasses, right? and
+23:20
+and you know things look darker when I look over there and a little bit brighter when I look over there. So you
+23:25
+can get some sense of it but but we're not actually built with polarization. Um
+23:31
+there are all sorts of um well there are animals
+23:37
+that see frequencies of light that we can't see ultraviolet or infrared. Um,
+23:44
+it's it's truly stunning the the the range of
+23:49
+other experiences. There are some that can experience electric fields. So, they
+23:55
+actually have electro receptors and they can and they actually use it in like I
+24:00
+guess in in water, sharks and so forth. I'm not not sure about sharks, but but certain animals can use electric fields
+24:06
+to detect prey and and capture prey. And again, I have no idea what it would be like to have an electric field around me
+24:12
+and using that to to detect prey. There there are some wonderful books out there
+How Language Shapes Reality
+24:18
+um about just how different the animal senses are. So, it's easy to find find
+24:24
+books. Mhm. All right. So, reality is not the
+24:30
+way that we perceive it. I think we can all agree upon that. And uh so then walk
+24:36
+us through a little bit closer now to your understanding of sort of spaceime being a headset. How do you bridge us
+24:42
+into the into the deeper implications of your work exploring consciousness? And um yeah, when you say spacetime is like
+24:50
+a headset that we're wearing, right? Just like when you're playing Grand Theft Auto, it seems like this
+24:56
+reality and if you have a VR headset that you're playing, it seems like the the reality that you're immersed in because you're so plugged into it and
+25:02
+it's so enchanting in your experience of it, right? Um but uh if real if perception is not
+25:08
+objective reality, then what is perception? Right? So we can go back to evolutionary
+25:14
+theory on this. So if I'm saying Darwin's theory entails not that we see
+25:20
+objective reality, but it's shaping us to be fit. What what does that mean? I mean, most of us think, well, the only
+25:27
+way you could be fit is to see reality. And these virtual reality games give a
+25:33
+different idea about that. If you're playing Grand Theft Auto VR, then what
+25:39
+you're really interacting with in in this situation are millions of diodes and resistors and voltages and some
+25:45
+supercomputer somewhere. And it in principle, you could play the game by
+25:50
+toggling millions of voltages per second in exactly the right sequence. You'd
+25:56
+have to be really really good, but it would be millions of voltages per second. It have to be exactly the right sequence. If we ever anybody who's who's
+26:02
+programmed, you get one bit wrong and the whole thing falls apart. So, so you
+26:07
+could do that, but you would lose if you were tried to even if you wrote the program, you would lose if you were
+26:13
+trying to toggle all those bits one by one against someone who had just a VR headset and had a steering wheel,
+26:19
+virtual steering wheel and was trying to play the game that way. and that so the person with the headset with the VR
+26:25
+headset is going to be more fit more likely to win at playing the game of Grand Theft Auto than the person who
+26:33
+sees the reality and can toggle the bits. And so that's the notion of fitness that comes out of Darwin. Um you
+26:39
+don't see the truth and I think the reason is because it's
+26:45
+infinitely complicated. Reality whatever it is is infinitely complicated. There's no way period to
+26:52
+understand it in a in a so it's just off the table. It would defeat the purpose of having an
+26:58
+experience that allows us to effectively navigate anything. That's right. So all we can all we So
+27:04
+reality is what it is and it's it's infinitely complicated. We have a little
+27:12
+trivial three-dimensional space, one-dimensional time headset that takes this infinity of complexity and puts it
+27:19
+down into what looks to us like a complicated world, but it's 0% of the complexity of reality. 0%.
+27:26
+And and and that's what Darwin's theory is telling us is this is a headset that
+27:33
+is there to keep you alive in this particular game. The game of
+27:39
+being a human being reproducing, having a job, whatever. In that game,
+27:45
+this is the headset you need to to to play that game. If you're an elephant, it's a different game. If you're a worm,
+27:50
+it's a different different headset. But spacetime then
+27:55
+is not the final ground of being.
+28:01
+It's a trivial headset. It's a trivial framework compared to what's available.
+28:08
+And I should say that, you know, I've used Darwin on this, but someone might
+28:13
+say, well, look, you know, Darwin's not a physicist. He's not an expert in spacetime. I mean, we should go to those
+28:20
+people, the experts. And those experts are so-called high energy theoretical physicists. That's the right group of
+28:27
+scientists. What do they say? Do they come along and say, "No, Darwin was
+28:32
+wrong. Space time is fundamental and get used to it. Darwin was just wrong." No, they don't say that at all. They they
+28:37
+say, and you know, I'm saying like Nemo Connie Jamemed um David Gross and others
+28:44
+um say spacetime is doomed. By that they mean it's not fundamental.
+28:50
+It it falls apart um at 10us 33 cm 10 theus 43 seconds at
+29:00
+what's called the plank scale. It ceases to have any operational meaning. And so physicists
+29:07
+again high energy theoretical physicists. So when I say physicists I'm short for high energy theoretical
+29:13
+physicists in this context. So these physicists are saying that that spacetime is not fundamental and we have
+29:20
+to look for a deeper mathematical framework entirely outside of spaceime
+29:27
+and that's not just a distant wish. They're doing it now. The European
+29:33
+Research Council has a 10 million euro um enterprise funding of roughly you
+29:40
+know dozens or even a hundred I think um physicists and mathematicians who are
+29:45
+finding what they call positive geometries outside of spaceime. It's it's it's really quite exciting. They're
+29:50
+finding these like the amplitude or is that Yeah, the amplitude is one of them. The cosmological polytope um associ
+29:58
+and and and other other structures. So they're they're they're finding these like almost like these monoliths outside
+30:05
+of space time. These these the these big structures, complicated geometric
+30:10
+structures, and they they allow you to actually predict correctly the
+30:16
+probabilities of interactions. The this called scattering amplitudes for interactions of particles in spaceime.
+30:22
+So so they know they're on to something and the math is much easier. what would take millions of terms to compute within
+30:27
+spacetime through like some gluons and and um photons and
+30:34
+whatever um and quarks interacting they can do um much much more simply outside
+30:41
+of space time. Is it a rudimentary understanding to say like you wouldn't expect to go into a vacant field where
+30:47
+no one has been and there's no form of intelligence and see a Taj Mahal structure there for example that would
+30:53
+denote that there is some sort of there was a intelligence weaving some sort of
+30:59
+structure or a builder an architect to some degree when you look at these
+31:05
+cosmological polytopes that you discover in the mathematical sphere like
+States of Consciousness and Altered Perception
+31:11
+what Is that what question does that raise about I guess the meaning or why they're there?
+31:17
+Well, it raises all sorts of questions like like we didn't know what to expect.
+31:22
+You know, we're we're taking our first little peaks outside of space time just in the last say 15 20 years, right?
+31:28
+We're we're you know we realized I think they knew before that that spacetime wasn't fundamental. But what do you do?
+31:36
+How do you go outside of spaceime? what's your your research agenda to do
+31:41
+that? How do you how do you do that? And so it's it's taken some very very clever researchers to to to sort of say, well,
+31:48
+how are we going to go out? I mean, I can't even see outside spacetime. So, it's going to be with mathematics and and intuition and and logic that we're
+31:55
+going to have to try to go outside of spaceime. And so what they're finding so they are surprised they're finding these
+32:01
+geometric structures and I and the volumes are coding probabilities of particle
+32:08
+interactions and the the structure of the vertices and and and so forth. The
+32:16
+the edges is is coding for things like what the unitary
+32:23
+evolutions and so forth and and so it's really it's really
+32:28
+It's a bit surprising. They're not seeing what they're not showing is the dynamics, right? You might say, "Well, I
+32:34
+expect to go outside of spaceime and see a something moving." Although it's hard
+32:40
+to know what what it means to be moving outside of spaceime, right? I mean, moving in spaceime means over time
+32:46
+something changes space position. So, so you want some kind of dynamics, but not
+32:52
+a dynamics inside spaceime. So, I think that I mean
+32:57
+They're brilliant. They're finding what they what they can find. Um,
+33:03
+but it's not a dynamical system. It's a it's a these objects that encode the
+33:08
+dynamics that we can see inside space time. So, it's connected to dynamics we see inside spaceime. But it what they
+33:14
+what I haven't seen them doing is saying, I'm going to posit this
+33:19
+dynamical system outside of spaceime and then show how it projects to the dynamics we see inside spaceime. Um, so
+33:26
+it's it's it's more it's more of the of the line of we step outside spacetime. What can we find outside in terms of
+33:34
+geometries that will predict what we see inside spacetime? You have to go outside of spaceime. Now it's the game is not
+33:42
+complete inside spacetime. You have to step outside spaceime. So that's going to be really critical for theories of consciousness too.
+33:48
+What's the oneliner or twoliner for people like uh when you say spacetime,
+33:53
+what are you what are you speaking to directly? What is spacetime? Under Newton Newtonian physics, space
+34:00
+was three-dimensional and uklidian and time was the same in all places in
+34:07
+space. So there was one big clock and everybody had the same clock and
+34:14
+space itself was nice and uklidium. Einstein
+34:21
+in the special theory and general theory effectively said it was it was actually
+34:26
+Einstein's teacher who put this together manowski permanency but based on Einstein's work that space and time
+34:33
+together form a single mathematical object that Menowski we now call manowski space but and we call it
+34:39
+spacetime and in which you can trade off a little bit of space for a little bit of time.
+34:45
+So, as opposed to having a single clock that's true for all observers,
+34:51
+there are different clocks for different observers depending on how fast you move and
+34:57
+and different lengths of rulers depending on how how fast you move. So, so it's it's it's not the nice clean
+35:05
+neat space that we had with Newton. This is really much more interesting where
+35:11
+space and time trade off. There's no universal clock. your clock if if if you're moving I mean the fact that I
+35:17
+just moved like this with respect to you means my clock moved differently than yours during that time we have we had different clocks and also links were
+35:24
+different for us you see this as an example in the movie like interstellar where he goes on a space mission and
+35:31
+depending on where he goes obviously time relative to the human clock on earth is different and he comes back in
+35:37
+like 30 plus years or whatever has elapsed in a earthly time um but it
+35:43
+might have And I don't I forgot what it was, maybe like a certain amount of 6 months or a year or something in terms
+35:49
+of how far where he went. That that's right. So if if
+35:54
+if you're moving with respect to me, I'm I'm you know, I'm sitting here. I'm thinking of myself as being still and
+36:01
+you're moving past me at at a uniform speed. If if you're at a uniform speed with respect to me, you're not
+36:06
+accelerating, then I will see your clock as going slower. And if you as you approach the speed of light, if you're
+36:12
+going near the speed of light, I will see your clock very very close to not moving at all. And if you are going the
+36:18
+speed of light, I will see your clock has stopped. But similarly, if if if I'm not accelerating with respect to you.
+36:24
+So, and you're looking at me, you're going to see my clock going slower.
+36:29
+You're going to think your clock is going just fine. You're going to see my So, it Now, if you accelerate, that's
+36:35
+different. Acceleration is not relative. It's it's absolute. So there so so that
+36:42
+that gets more complicated. Wouldn't it be true then somebody at the core of the
+36:49
+earth or maybe you just say like at sea level would be traveling time would be
+36:54
+moving faster for them than somebody like at at the top of a Mount Everest or something.
+36:59
+That is that that is true. The the the clock depends on the gravitational
+37:04
+field. Mhm. um where you are, but it's because time moves slower in the mountains,
+37:13
+right? But but because you're having you're accelerating less. So So it has to do with the acceleration. It's all comparative. Yeah,
+37:19
+that's right. Um okay. Yeah, we can there's so many sidebars here, but let's just kind of
+37:25
+get back to the notion that our perception is obviously not
+37:31
+objective reality. And to go further down the rabbit hole of psychosis. Um or
+37:38
+I joke but really to what it means to be saying is to to see and understand
+37:43
+experience reality closer to objective the objective sense. Um things are not
+37:49
+rendered when they are not perceived. Right. So for people that for when that's a if that's a foreign notion to
+37:56
+people, can you explain what that means both in the mathematical sense and yeah the philos philosophical sense I guess.
+38:02
+Yeah, that's a really an important point and and and that is that
+38:08
+we assume that the moon is there even if you don't look. Of course it's there.
+38:13
+And that car on the freeway is there even if you don't look. And if you don't believe it, don't look away. And when it
+38:18
+hits you, you'll know that it was real. Right? So people will say you it it it exists whether or not you look and and
+38:25
+I'm saying that the car that you perceive is very much like if you have a VR
+38:30
+headset on you're playing Grand Theft Auto and you're looking around and and you look down, you see your steering
+38:36
+wheel. So there's a steering wheel when you look because you're rendering it. But if I look off to the side now, since
+38:43
+I'm not seeing the steering wheel, there's there is no steering wheel. There's no steering wheel anywhere at
+38:49
+all. that that steering wheel is gone except for potentially somebody else's experience who's rendering it.
+The Virtual Headset of Space and Time
+38:54
+Yeah. But they'll have their own experience, right? So, but but but if you look inside the supercomput, there's
+39:00
+no wheel in there. There's just digital bits and and circuits and software. So,
+39:05
+the I render the car, I render the steering wheel when I look and I garbage
+39:10
+collect it. I get rid of it when when I look away. Someone else may look but but
+39:16
+their experience of a steering wheel is not my experience of a steering wheel. It's their experience. Mine mine is
+39:21
+gone. There is no in in the real supercomput there is no steering wheel anywhere. There's just bits. So that's
+39:28
+what I'm claiming is true of all of the world that we see around us. You render the moon when you look and there is no
+39:35
+moon when you don't look. I render my foot when I look and there is no foot
+39:41
+when I don't look. When you say there is no would you apply that to people because when you say there's no Don when
+39:48
+I don't render him yet in your experience Don is certainly there and in somebody else's experience you're
+39:54
+certainly there. That gets that's a very deep question because now it gets to the question of what am I really and what
+40:01
+are you really right? So if if you wanted to say no, Don is really just a
+40:08
+160lb piece of human flesh and blood and
+40:14
+so forth and that's all there is to Donna. I would say um
+40:20
+that's within the space-time framework and we know that the space-time framework is not fundamental. No object in spaceime is fundamental and
+40:29
+that includes your body or my body. Whatever you are,
+40:35
+you are not an object in spacetime. To the contrary, spacetime and
+40:42
+everything inside spaceime is a creation of yours on the fly. So, I'm turning the
+40:50
+whole ontology around. Most of us assume that we are little 100 to 200 300lb
+40:58
+objects inside a vast space-time universe. I'm saying that's
+41:03
+false. That vast space-time universe is a tiny
+41:09
+headset that you're using that you'll discard and it's just one of countless
+41:15
+headsets that you whatever you are can use. So,
+41:21
+so when you ask, you know, is Dawn really there? Well, in this VR game of
+41:28
+space and time, this pretty trivial headset, Hoffman's body is rendered when
+41:33
+you see it or when I see it. And I don't know that what you see is what I see at all. We use the same words because we
+41:39
+learned them by ostensive definition from our mothers and our mothers use the same words in the same context.
+41:45
+Um, and I'm not saying they're not the same. They may be, but we don't know. But but
+41:51
+whatever I am is not an object in spacetime. Spacetime is a trivial
+41:57
+trivial framework for us to experience a
+42:03
+projection of who we are. Hey guys, if you're looking to add a
+Ad: Bon Charge
+42:08
+simple but powerful health tool to your daily or weekly routine, I recommend checking out Bond Charg's red light
+42:15
+devices. I usually use mine during my morning meditation and it's helped with everything from energy and mood to skin
+42:22
+health and sleep. Red light therapy is backed by thousands of studies and it's a great way to get healthy light
+42:27
+exposure without messing up your circadian rhythm. Boncharge stands out because their devices have the lowest
+42:33
+EMF levels. There's no flicker and they have both near infrared and red light in one lightweight device. They ship
+42:40
+worldwide and also have an array of other sciencebacked wellness products worth exploring. If you want to try it
+42:45
+out, you can go to bondcharge.com/nolithself and use code know for 15% off. That's b
+42:53
+a r ge.com/nolithself. All bond charge products are HSA and FSA
+43:00
+eligible, giving you taxfree savings of up to 40%. I hope you enjoy. Back to the show.
+43:07
+So when you say the very well-known phrase or question of if a tree falls in the forest and no
+43:13
+one's around to perceive it, does it still make a sound? I suppose it begs
+43:19
+the question of what do you what do you mean make a sound? Because that is a subjective experience to an observer and
+43:26
+if there is no such observer then it would not. Is that right?
+43:32
+Right. That's what what I'm is saying is that and this gets to yeah so yes it
+43:39
+gets to a very deep point though and that is that what do we mean by making an observation
+43:44
+and this has been a big problem in science so in Newton
+43:49
+it was assumed that the observer just sees reality as it is and you could ignore the observer because the observer
+43:55
+didn't affect what was being observed so Newton didn't really need a theory of the observer you just see the truth
+44:03
+With Einstein, there's a notion of an observer, but it's mostly just uh
+44:09
+different observers are different clocks and coordinate systems. And there's no really deep theory of the
+44:16
+observer beyond the clocks. In quantum theory, now
+44:22
+you're forced to consider what you mean by an observer because quantum theory
+44:29
+says that when you don't observe a system,
+44:35
+it evolves according to what's called the Schroinger equation. That's a unitary evolution.
+44:42
+But when you observe a system then empirical experiments you know tell
+44:50
+us that what happens is not a unitary evolution.
+44:56
+you get a single answer like for electron or a photon maybe having some
+45:02
+kind of quantum evolution under the Schroinger equation and but when you then and and the superp position of all
+45:07
+these different paths it could be taking but when you make a measurement you get a dot on the screen here and so that's
+45:15
+where the electron or the photon landed and so you get a single answer and
+45:22
+that's not a unitary process and and So that raises a a deep deep question about
+45:28
+what do we mean by an observer and and quantum mechanics really can't avoid it.
+45:36
+The problem is that if if you want to say well it's an observer is just any
+45:42
+physical measuring device and many quantum theorists have said that it's just a physical measuring device that
+45:50
+takes the superp position and gives you a single well no
+45:56
+shortinger evolution described physical device can do that.
+46:02
+A device that does that does not satisfy the shortinger equation.
+46:08
+So we have a problem. If the universe
+46:14
+behaves one way under the Schroinger equation when you don't when you don't observe,
+46:19
+you can't just call in a measuring device and say, "Well, it it does it." What is your theory of the measuring device? Is it a is it a quantum theory?
+46:27
+Then give me your unitary operator. A unitary operator can't give you a single output. So what are we talking about
+46:33
+here? you can't be done. They'll say, well, you can do it with what they call decoherence. Well, we can um
+Physics Agrees: Spacetime Is Doomed
+46:41
+the bottom line is decoherence doesn't solve the problem. Decoherence gets rid of the complex numbers, the complex
+46:48
+amplitudes and it can give you a real
+46:54
+set of probabilities. So, you can a set of outcomes with real probabilities, but
+46:59
+it doesn't it doesn't give you a single outcome. So decoherence doesn't solve the problem either. It it gives you um a
+47:06
+mix what we call a mixed state for probabilities, real probabilities, not complex amplitudes, real
+47:13
+probabilities of of outcomes. But that's not what happens in an experiment. We get a single answer. So if decoar is
+47:20
+going to work, I want you to give me a single answer, not a probability on
+47:26
+answers. So that's so that and Frank Wilchek who a Nobel Prize winner for his
+47:32
+work in in quantum chromodynamics I think points this out that we you know
+47:37
+quantum mechanics needs a theory of the observer um that that's that's really an
+47:43
+open nasty problem. So right now science does not have
+47:49
+a universally nothing close to a universally agreed on theory of the observer. this it's considered one of
+47:55
+the big open problems by quant you know by Nobel prize winners in in in quantum physics to to solve that problem. So
+48:03
+what is an observer right now? Science doesn't have an answer. It does not have an answer.
+48:14
+How do you explain why the physicalist notion and paradigm of consciousness
+48:19
+cannot explain a single qualia or experience like the reason for that? Um
+48:26
+and and then yeah we'll just set the stage a bit more of how consciousness comes into
+48:32
+all this right so we have been talking about conscious experiences and most of my my
+48:39
+colleagues in cognitive neuroscience who are studying consciousness are physicists
+48:44
+um and they're brilliant. They're good friends and colleagues and they're brilliant and they're assuming that
+48:51
+space and time are fundamental and that certain physical systems in
+48:56
+spaceime that have certain properties will give rise to conscious experiences.
+49:03
+So, so again, it's a space-time framework. Presumably at the big bang there were no conscious experiences. we,
+49:09
+you know, space and time and physical objects just didn't have the right kind of causal or functional properties to
+49:15
+generate or instantiate consciousness. But after billions of years of
+49:20
+evolution, you know, you start getting the right kinds of causal structures or functional structures and and and so so
+49:28
+they're they're you know, again, these are friends and colleagues. They're they're brilliant and they have you know
+49:33
+for example integrated information theory that there are certain causal structures that are um identical to
+49:40
+certain conscious experiences um or global workspace theory again certain functional properties uh there
+49:47
+there's you know orchestrated collapse of quantum states of microtubules for Ben rose and hammeroff and there's
+49:53
+there's many um I'm just mentioning a few and
+50:01
+But the theme behind all of them is there is a physical substrate in space and time that's necessary.
+50:09
+And if that substrate has the right properties, the right causal and functional
+50:15
+properties generally then it will give rise to life and and then if it has even
+50:25
+more precise properties that living thing will then give rise to consciousness. So from the mech
+50:30
+mechanistic or deterministic lens that since from the origin of the big bang to the development of sense organs in
+50:38
+neurology that enough unconscious complexity would develop in a human brain for example that would then give
+50:44
+rise to a certain point of an experience of itself aka consciousness awareness.
+50:49
+And but yet the the smell of a flower or the
+50:56
+taste of a chocolate or mint that has yet to be and probably never
+51:01
+will be especially through your understanding be explained through the physicalist notion like the experience
+51:06
+of something right. So so yes so some physicists will
+51:12
+say that that physical systems with right properties will give rise to conscious experiences. Others like Dan
+51:18
+Dennett would say they give rise to the illusion of of conscious experiences. Uh
+51:25
+as a hard-nosed scientist uh I want explanations of specific
+51:32
+conscious experiences. Right? So no one has put a gun to my friends and colleagues heads to say you must come up
+51:39
+with a physicalist framework and explain the taste of mint in that framework. known that they've chosen to do that and
+51:46
+they they're they're making claims that there are causal structures that are identical to the taste of men. For
+51:53
+example, integrated information theory says there's a matrix. You can actually write down a marov matrix. It's a it's a
+51:59
+square array of numbers like it could be 10 rows and 10 columns. So it has a 100 numbers in it and each row is a
+52:06
+probability measure and that's going to give you your causal structure. So no nonsense. there's this this mathematical
+52:12
+model there. And that is, you know, if it's the right causal structure, it will be the taste of mint or the smell of
+52:18
+garlic or whatever it might be. So, I didn't tell them to do that. I didn't say they had to do that. No one told
+52:24
+them that. They've chosen to do that. So, as a scientist, I say, "Okay, well, so you're proposing that theory. So,
+52:30
+great. Give me one." There's literally trillions of experiences that humans can have. Trillions.
+52:37
+Should be like shooting fish in a barrel. Pick one. Pick any experience that you want to and give me your
+52:42
+matrix. Tell me, you know, if it's, you know, is it a,000 by,000? Is it 1253 by
+52:49
+1253? What's the principal reason for why it has to have that number of rows and columns? And then if it's like a,000
+52:56
+by,000. Well, there's a million numbers. 1,000 times 1,000 is a million. So there's a million numbers. And as a
+53:03
+scientist, you need to tell me why each number is exactly each one of those million numbers is exactly the value it
+53:08
+is. and why that's necessary for this to be the causal structure of mint.
+53:14
+Again, I didn't tell you to do this. No one put a gun to your head. You're offering this theory and I'm just being
+53:20
+a hard no scientist and saying, "Okay, that's your theory. Give me one. Give me a particular case." And I do this at
+53:26
+conferences all the time. I my my buddies are up there and they know I'm going to do it. And the answer in every
+53:33
+case is they can't give one. There's trillions of experiences and zero have
+53:40
+been explained. Zero. And it's not because these people are dumb. They are brilliant. They are some of them are
+53:48
+geniuses. You can't construct conscious experiences from unconscious
+53:54
+ingredients. Can't be done. Just that simple. And so that's 99%
+54:01
+of the research in the cognitive neuroscience of consciousness is of this
+54:08
+type. And here's here's why
+54:14
+they do it. There are incredible neural coralates of conscious experiences. Anybody who
+54:21
+studied in this area knows hundreds of there's hundreds of well-known neural
+The Mystery of the Observer
+54:27
+coralates of conscious experiences. I've studied them myself. It's it's a
+54:33
+worthwhile area of study. I've been a participant in fMRI and EEG experiments
+54:38
+and and and so forth. I'm not against it. I'm I'm for it. I'm a co-author on some. It's it's good stuff. It's good to
+54:46
+find coralates, neural coralates of conscious experiences. And we even find
+54:53
+neural coralates where we can predict from your brain activity several seconds before you can tell me what you're going
+54:59
+to experience or or think or or do. So I can actually beat you to the punch. So
+55:06
+most people say that hands click case closed. Case closed. I mean,
+55:12
+if I can read your neural activity ahead of time and and know what you are going to do before you can tell me what you're
+55:18
+going to do, clearly your brain caused it. Not at all. Absolutely not.
+55:23
+Correlation, even prior, you know, prior activity doesn't entail causation. It
+55:30
+just doesn't. Roosters crow near sunrise
+55:37
+but and they're highly correlated and that doesn't mean that the rooster crows
+55:43
+cause sunrise train station. You see a bunch of 100 people gather at a at a particular train
+55:50
+station and all of a sudden a train arrives. So just by looking at the people, oh there's lots of people
+55:57
+gathering. I can predict, you know, 10 minutes ahead of time there's going to be a train coming. Right. Is it is the
+56:03
+train come because all the people are there? No. There's something deeper that you can't see. There's a schedule that's
+56:10
+coordinating both the activity of the people and the activity of the train. That's the deeper thing that's going on
+56:15
+here. So, and that's what I'm proposing is yeah, there are these correlations and sure brain activity in many cases um
+56:22
+precedes um the experience or or precedes the action or even your knowledge of what you're going to do and
+56:28
+you can predict it from the brain. That absolutely in no way entails that brain activity
+56:35
+even exists when it's not perceived. It doesn't. So, and I'm saying think
+56:41
+about again the the train schedule. It's just this is something that you didn't see. It's something there's people and
+56:46
+there's the train. What you're not seeing is this train schedule which is different. It's it's deeper. I'm saying
+56:52
+there's something outside of spaceime that's if we're going to talk about causes and effects. I'm not even sure
+56:58
+Mhm. outside of spaceime that we we should do that. But if if if we're going
+57:03
+to talk about causes and effects, it would be outside of spaceime that we'd look for those causes.
+57:09
+So let's go a bit more into your modeling of conscious observers and
+57:14
+marov chains. What what are those? How would you explain that to the layman? Right. So
+57:21
+and I should put that in in a context. Yeah. Right. So why that way? Why the why go after it
+57:27
+this way? Because the idea that consciousness is fundamental is prior to space and time
+57:34
+um is not new, right? You know, spiritual traditions um and idealist philosophies and and so forth have um in
+57:43
+some cases said this for thousands of years. And it was those kinds of
+57:50
+traditions that um were sort of against science. likely the church imprisoned
+57:56
+Galileo for heresy for dis disregarding certain spiritual
+58:02
+doctrines that they had um and on you know he had to recant some of his
+58:08
+science um and so there's this long history between science and and and
+58:15
+spiritual views that take consciousness as fundamental and and in from the science point of view we freed ourselves
+58:21
+from the arrogant dogmatism of many of those
+58:27
+traditions. And we we said, "Let's do our own
+58:32
+experiments. Forget authority. We don't care about authority. We want to do
+58:38
+experiments, write down mathematical descriptions of what we see, and build our theories."
+58:45
+And it works. Authority doesn't work. If you look at all the technologies that we
+58:51
+have around here, you know, cameras, watches, cell phones,
+58:59
+how many of those were invented by spiritual traditions? Zero. How many were in invented by physicalist
+59:05
+science? All of them. So based on what works, you would say spirituality,
+59:15
+there's no beef there. It hasn't produced anything. And the spac-time view has produced
+59:22
+science and all the technology. The the church argued that their authority was
+59:28
+based on lots of miracles that then they should be taken seriously because of all the miracles. Um
+59:35
+today all the miracles are from science. I can talk to someone on the other side of the world right now by by phone. To
+59:42
+someone in 1850 that would have been indistinguishable from a miracle. and it's science. So, so when I say
+59:51
+consciousness is fundamental, it's in this big context that that we have to look at that that was said for a long
+59:58
+long time. Science was the middle finger to that. Basically, it was saying, "No,
+1:00:04
+we're going to do something hard-nosed here. We're going to do experiments in space and time with physical stuff." And
+1:00:10
+look at now we're the ones that have the miracles on our side. You know, the if you want authority, we have the miracles, not you.
+1:00:18
+But now I'm saying it's time for us to step back and look at this whole thing. I'm I'm not going back to the authority.
+1:00:25
+I don't care less about authority. Couldn't care less. I think it's it was misused against Galileo and I have no
+1:00:33
+interest in it. But the idea that spacetime isn't fundamental and that somehow consciousness might be
+1:00:38
+fundamental, I think is worth pursuing. But we have to say from the get-go
+1:00:45
+that idea has given us absolutely no technology and no precise mathematics
+1:00:51
+which if it then somehow through making this rigorous does bear fruit and technology will open up a whole new era
+1:01:00
+which we can get into but you know I want to I want to I want to make our way through the Markoff chains and
+1:01:05
+right so so that's now the Markoff chains come up because the here's here's the issue.
+1:01:13
+We need our first theory of consciousness, qua consciousness outside
+1:01:18
+of spacetime. That first theory that's mathematically precise and can make
+1:01:24
+predictions about things in spaceime. So there have been quasi theories you might
+1:01:30
+call them. But no theories that say I start with consciousness with this mathematical
+1:01:36
+model outside of spaceime show you exactly how it projects into spaceime and make predictions that are testable
+1:01:42
+inside spacetime. There's nothing on the table and if you and and so you know I
+1:01:49
+want to really be clear about this. I was hard-nosed about the my physicist
+1:01:54
+colleagues and friends saying how many conscious experiences you can explain
+1:02:00
+zero. Okay. And we're clear. You can explain zero. And you and you've been at this
+1:02:06
+for decades now. Now let's turn it around for the spiritual traditions.
+No Theory of Everything
+1:02:11
+You've been at it for millennia. Not just decades. You've been at it for millennia. How much how many of your
+1:02:17
+theories can now explain manowski space and curved space time Einstein and and
+1:02:22
+give us the standard model part? Zero. There's nothing on the board. So both sides have nothing literally nothing on
+1:02:30
+the board in terms of starting with physics and and booting up consciousness. There's nothing on the board. Starting with consciousness and
+1:02:38
+booting up physics, there's nothing on the board. So that that's the state of play. So what I'm trying to do now is to
+1:02:45
+put something on the board. And I'm convinced that the physicists can't
+1:02:51
+do it because not because I'm a cognitive scientist and they don't like physics. It's because the high energy
+1:02:58
+theoretical physicists tell us spacetime is doomed. Okay, they're the expert and
+1:03:04
+I knew it anyway because no theory is the final word. Spacetime can't be the final word. That's just an
+1:03:10
+assumption. And my theory is also going to have its own limits, but at least they'll be
+1:03:16
+broader than the space-time limits. So I'm proposing that we can model
+1:03:22
+consciousness with these things called markup chains. And I'll explain just intuitively what what that means. Very
+1:03:29
+very simple. I'll use a traffic light like I do in my little paper. Suppose you're sitting in
+1:03:36
+your car waiting at a traffic light and you're looking, you know, because you have to pay attention. It's red, of
+1:03:41
+course. And you know that you so that's your experience. I'm seeing red and a little
+1:03:47
+bit it turns green and then if you if you stay if you're stupid to stay there
+1:03:52
+for a while it'll turn yellow and it'll turn red. So you you get with the traffic light you can see there's three
+1:03:59
+experiences. You can have red, green, and yellow. And there's also a sequence
+1:04:04
+that you'll see if I'm look if I see red now then um
+1:04:11
+if I can say what's what's what what will I see next right what so the next
+1:04:16
+thing I'll see is green and then if I see green now the next thing I'll see is yellow so I can write a little matrix
+1:04:22
+you know if red now the probability is zero that I'll see red next um
+1:04:27
+probability is zero that I'll see yellow next but probability is one that I'll see green next. And so for for yellow I
+1:04:33
+can say well probability is zero I'll see red next and so forth but probability is um one let's see if it's
+1:04:40
+yellow then I will see red I'm sorry if it's yellow I'll see red next but I won't see green next and so forth. So there's a sequence of experiences and
+1:04:47
+probabilities attached to those sequences and you could take that traffic light analogy and now put it to
+1:04:54
+the human experience which doesn't just have three options but trillions of experiences. Trillions. That's right. So, so now
+1:05:01
+go from three. I did three to keep it simple, but you can just see about the transitions, but you have trillions of experiences. So, now I'm going to model
+1:05:08
+you with a pretty big matrix. It's a trillion by a trillion. That's a big number. I don't even know what a trillion squared is. It's it's it's a
+1:05:14
+big number. So, there's a trillion squared transition probabilities in this thing.
+1:05:19
+And and that's what I'm going to use to describe. Is there inherent limitations there? Cuz would you say there is a an a
+1:05:26
+fixed finite number of possible experiences on offer in human perception or is it potentially infinite?
+1:05:32
+My guess is that our experiences in this particular headset of space and time are
+1:05:42
+immense but 0% of the total possible experiences
+1:05:47
+that that that are outside of this headset. So, so I'm I'm not sure if if if it if our experience in the headset
+1:05:55
+is infinite or not, but even if it's infinite, it's 0% of the infinity beyond. Uhhuh. And a trillion by trillion is a
+1:06:01
+big enough database. That's enough for going. Yeah. That's enough to challenge my my little
+1:06:07
+computer. And and so that's that's couldn't be simpler, right? I mean, the it's it's
+1:06:13
+basically saying you have it's very simple. You have experiences and they change. I'll just write down the
+1:06:19
+probabilities that they change. So, of course, I'm not telling you what an
+1:06:24
+experience is. I'm just saying I'm going to start with experiences. Instead of starting with space and time and
+1:06:30
+physical objects and trying to explain experiences, which hasn't worked, you know, we can't
+1:06:37
+explain the taste of mint even. I'm going to say, okay, every assump every theory starts with certain assumptions.
+1:06:43
+My assumption is going to be experiences. That's where my explanation stops. Where did the experiences come
+1:06:49
+from? I don't know. For the physicalist, where does spaceime come from? I don't know. But I'm starting with spacetime.
+1:06:56
+Same here. I don't know where the conscious experiences come from, but that's where I'm starting because no theory of of in science is ever the
+1:07:03
+final theory. It makes assumptions. So, yeah, is my theory not the final theory? Absolutely not. I'm starting with
+1:07:08
+experiences and I then to be a good scientist have to show
+1:07:13
+where spacetime comes from. So that's so I have to get Minowski space. I have to
+1:07:19
+get Einstein's time dilations. Right? If you're moving faster than if you're moving past me,
+1:07:26
+you're I see your clock moving slow, but you see my clock moving slow if we're in
+1:07:31
+uniform um motion, non accelerated. And I also have to explain why your
+1:07:38
+meter stick looks shorter to me and my meter stick looks shorter to you. So no
+1:07:44
+one's come any come close to doing that kind of thing starting with conscious experiences. This is where trace logic comes in
+1:07:50
+now. I can do I can do this like I can do this and this is something we've just discovered since the last time we
+1:07:55
+talked. I I didn't have this. I was looking at traces. So So I I have to tell you what the trace logic is but
+1:08:01
+I'll just say at top level where we're going. It turns out that there are ways of relating different observers by by
+1:08:08
+this notion of trace and this relationship among observers that we can specify mathematically turns out to give
+1:08:15
+us Einstein's time dilations and space contractions and
+1:08:21
+in a very nice clean quantitative way I mean not not just a hand wave but
+1:08:26
+quantitatively for a particular class of these marov matrices
+1:08:32
+and then a larger class I think will give us the curved space times. And those two classes together are 0% of
+1:08:40
+the Markov matrices, which is all the rest of this universe I've been talking about that's outside
+1:08:46
+of spaceime. And our headset sees 0% of it. But at least I can show you
+1:08:53
+exactly I I'm proposing how to get exactly Manowski space and and curve
+1:09:00
+spacetime from from this trace logic. So, so the so here's the idea of the trace logic.
+1:09:09
+Let's go back to the traffic light. Keep it simple. Suppose I'm looking at the red, green, and
+1:09:16
+yellow traffic light. And let's let's suppose it's um a dysfunctional sort of
+1:09:22
+a messed up traffic light. So, the probabilities are aren't nice and clean. Red could stay red or it could go green
+1:09:28
+or yellow and so forth. And suppose that you're looking. So I'm looking and you're looking, but you can
+1:09:34
+only see red and yellow. I can see red, green, and yellow, but you can only see red and yellow. And suppose I'm going to
+1:09:41
+take my matrix and add one thing to it. Every time I transition,
+1:09:48
+my experience transitions from like maybe red goes to green or red maybe red goes back to red. It's a transition from
+1:09:54
+red to itself. I'm going to increment a counter each time a transition happens. So, I've got
+1:10:01
+a counter and I'm seeing red, green, and yellow. And you and I are looking at the same light, but you only see red and
+1:10:07
+yellow. You don't see the green. What's going to happen to your counter compared to my counter? Well, I'm going to be
+1:10:15
+going click every time red, green, or yellow appears. You're only going to click when red and yellow appear. So,
+1:10:22
+your clock is going to go slower than mine. It's that simple. It's just that simple.
+1:10:28
+I'm I'm proposing that time dilation in Einstein's theory comes from the fact
+1:10:35
+that these these are so-called enhanced Markoff chains. They're enhanced in the sense that they're Markoff chains with a counter. They're sometimes called
+Consciousness vs. Physicalism
+1:10:42
+space-time chains. In in technical books like Daniel Ravuza's Marov chains book,
+1:10:47
+they're called spacetime marov chains, but I'll call them enhanced chains. Your counter, if you only see red and yellow,
+1:10:54
+will go will count fewer because you don't see the green. You only see red
+1:11:00
+and yellow. I see the green, so I get a click for green, but you don't get a click. That's why your counter is going slower. Now,
+1:11:07
+that's not quite deep enough because as I said earlier, it's not just the case that your clock
+1:11:14
+looks slower to me, but it's also the case that for you, my clock looks like
+1:11:21
+it's going slower to you. So, I gave a simple example. I have to give it just a
+1:11:26
+slightly more complicated one to get the full Einstein thing. Suppose we have a light that has red, yellow, green, and
+1:11:32
+blue. Okay? And you see red, yellow, green,
+1:11:40
+and I see yellow, green, and blue. So I don't see red, you don't see blue.
+1:11:47
+We both see yellow and green.
+1:11:52
+Now, when I look at you, I I all I can see of
+1:11:58
+you is you under my yellow, green, and blue
+1:12:05
+looking because that's all I see is yellow, green, and blue. You only see red, yellow, red, yellow, and green. So,
+1:12:10
+all of all of me that you can see is the yellow and green. That's all you can see of me. And all I can see of you is the
+1:12:16
+yellow and and green. So from my point of view, I'm getting clicks for every yellow, green, and
+1:12:22
+blue, but you're only getting clicks for yellow and green. So your clock is looks
+1:12:28
+like it's going slower to me, but from your point of view, you're getting clicks for every red, yellow, and green.
+1:12:33
+I'm only getting the yellow and green. So I'm going slower with respect to you. So we get the symmetry of Einstein.
+1:12:39
+So So it it's by the way, I had this trace logic for probably more than a
+1:12:44
+year. I was working on it and you f first I I discovered that it was a logic. So that was a new apparently a a
+1:12:52
+new contribution to the theory of marov chains that and I should say what what what what
+1:12:58
+that contribution is and what what it means by the trace
+1:13:04
+if I have the red yellow and green just the red yellow and green
+1:13:10
+and I look I can only see the say the red and yellow whatever probabilities
+1:13:17
+were governing red yellow and are now going to they're going to control I now I just see red and yellow
+1:13:24
+so I'm going to get just a 2x two matrix right because red could go to red or red can go to yellow can go to yellow can go
+1:13:29
+to red so I'm going to get a 2x2 matrix of probabilities but it will be controlled by the 3x3 there's some 3x3
+1:13:36
+matrix that's controlling the red yellow and green that you see but but it will uniquely determine what you should see
+1:13:43
+on the 2x two that's the trace the the the smaller matrix that's determined by
+1:13:49
+the bigger one is called the trace of the bigger one and it's unique in general there's so if I have a big M
+1:13:56
+markoff matrix on a on a trillion states and I take a trace on 10 that that new
+1:14:04
+probabilities on just the 10 states will be completely determined by the trillion by trillion but so what I discovered was
+1:14:11
+and I um I I I should say I proposed this and then a mathematician friend of
+1:14:16
+mine Jayton Pash proved it So, so when I say I discovered it, I needed a real mathematician to truly discover it. So,
+1:14:23
+Chayon and I discovered it together. We proved that it's a so-called partial order or he proved it. He proved that
+1:14:30
+it's a partial order. I proposed it's a partial order. And so, that's what we mean by a logic is that technically it's
+1:14:36
+it's a partial order. It gives you the notion of and and or negation and implication and so for all the things
+1:14:42
+that you would need for a logic you know like to say that um if
+1:14:48
+John is a bachelor then John is a man right that's entailed by that if you
+1:14:53
+know and things like that if if you could take conjunctions disjunctions and so forth of propositions
+1:15:00
+so it turns out we get an entire logic on the space of markoff chains and so I call it the trace logic
+1:15:07
+And this is a new discovery. So we just discovered in the last year and I had it for a year and a half. And after it was
+1:15:14
+a year later I was looking at this. It was just a few months ago maybe six months ago. I was looking at and I
+1:15:20
+noticed what I just had described to you that oh wow at at this stopping light your my one person's counter could be
+1:15:28
+going slower than my counter you know because of this trace thing. Could
+1:15:34
+no could could Einstein's time dilations come out of that? No, that would that
+1:15:40
+would be that would be too good to be true. Well, and and if that was that wouldn't be enough. I have to get
+1:15:45
+Einstein's spatial contractions. The ruler sticks have to So I said, well, okay, let me let's see if this real.
+1:15:52
+What notion of ruler stick can we get out of markoff chains? Right. Well, I've got a clock, so that's that's easy. What
+1:15:58
+about the ruler stick? Well, it turns out, so I went and did some homework and it was there's a ruler
+1:16:06
+stick that was discovered in 2017, so just eight years ago, published by
+1:16:12
+Doyle and Snell, two mathematicians. And so if you have the states of a marov
+1:16:19
+chain like the red, green, and yellow, you can talk about the distance between states as a function of how long does it
+1:16:28
+take to get on average from the red say to the green and back to the red. Now if
+1:16:36
+it's a if it's traffic light, so you go a good traffic light goes red,
+1:16:42
+green, yellow, red, green, yellow. Okay? And it's just in a cycle like that. It's a cycle. Then the commute time, the time
+1:16:49
+it takes to get from red to say green and back again is three because you have
+1:16:55
+to go sodium starting red one step to green then to yellow and back to red.
+1:17:00
+That's three. And for this it's the commute time is the same from green to yellow is three. From yellow to red is
+1:17:07
+three is all of them are three. So for for an n cycle, if you have a cycle of n
+1:17:12
+states, the commute time is n.
+1:17:18
+And what Doyle and Snell proved is the commute time
+1:17:23
+is the square of the distance. So the distance is the square root of the
+1:17:31
+commute time, the uklidian distance. And so
+1:17:36
+I say, okay, so we actually now know what the notion of distance is. So does it work? I've got Einstein's
+1:17:44
+time dilation or time, you know, slowing down of time. Do I get the rulers
+1:17:52
+contracting? And they have to contract, by the way, in Einstein's theory, the same factor. The the factor that is
+1:17:58
+affecting the time has to be the same factor that's affecting the distance. This is called the Lorren factor
+1:18:05
+in special relativity and and the answer is the two factors
+1:18:11
+for marov chains are not the same for almost every matrix
+1:18:18
+the 0% of the matrices have the right thing but that 0% are the
+1:18:24
+end cycles. So what we find then is I get the same
+1:18:31
+quote unquote lorren factor exactly as I'm supposed to for Einstein if I only look at marov chains that are n cycles.
+1:18:38
+You might say well that's not fair. I mean you're just picking out the ones that work. Well Einstein only used light
+1:18:46
+to build spa the flat spacetime only light. And he used the property that
+1:18:52
+light has the same speed in all inertial frames. That was that's all he needed. He only needed light.
+1:18:58
+So that that then puts a new burden on me. I now have to say what mass means
+1:19:03
+and what what light means. So because light is massless. So so photons of light have no mass. And in Einstein's
+1:19:10
+theory, anything that goes the speed of light has no mass. And if you have mass, you
+Neural Correlates and the Illusion of Causation
+1:19:18
+never travel the speed of light. That's that's just the way it is. Why? That's
+1:19:23
+just the way it is. Again the theory stop. Yeah. So I have to have a theory now of what
+1:19:30
+is the mass of an of a marov chain. I also have to have the
+1:19:36
+notion of a speed. So the the commute time that I just talked about which is the average time it takes to get you
+1:19:44
+know the expected time to get from one state to another. You can now ask for a mark of for all the states. What's the
+1:19:49
+average commute time between all the states? And the average will be for the an end cycle will be n. The commute time
+1:19:57
+will be n. And it turns out that is the the fastest commute time. That is the
+1:20:04
+the the the fastest. Any other markoff chain that's not an end cycle will have
+1:20:10
+a longer time. So these are the fastest. So I the one matrix that works for me to
+1:20:16
+get Einstein's time deations and length contractions to be exactly the same is
+1:20:22
+the only matrix that is the fastest matrix in this commute time sense the average commute time and if I there's
+1:20:30
+good reasons and I can explain why we can talk about something called the entropy rate of a markoff chain as the
+1:20:38
+mass. So the idea about mass is something that's more massive is more
+1:20:45
+influential. It interacts more with stuff, right? If you're close to, you know,
+1:20:50
+like if you're on Jupiter, you'd be sucked down much more hard than than you're sucked down on Earth. And if you're on the moon, I mean, you can see
+1:20:56
+the astronauts were jumping way up much higher than they could do on Earth. The the the moon was not as influential on
+1:21:02
+more gravitas. More more gravitas. Abs. Absolutely. So, so the idea is there's some notion of of
+1:21:10
+influence that we needed to capture in markoff chains. And I I'm proposing um
+1:21:15
+something called the ent what's called the entropy rate. Entropy rate is a big important thing in
+1:21:20
+information theory. Um it it tells you how much you can compress data and so forth. So it's error correcting codes
+1:21:27
+and data compression. Entropy rate is a big big deal in this. So it's not a it's not a new idea of mine. This was like at
+1:21:34
+the foundations of information theory. Entropy rate is like right there at the center. So it was not hard for me to
+1:21:39
+look at it and go that's probably the entropy rate because that's that's the the entropy rate is zero for the end
+1:21:47
+cycles and so they have zero mass.
+1:21:54
+So what so here's the here I'll I'll summarize it. I'm proposing
+1:22:00
+that these cyclic matrices correspond to photons in spaceime.
+1:22:07
+They project because they have no mass. They have no mass and they're the fastest things. Does that mean there's a correlation
+1:22:12
+between light and conscious experience? Is that the stretch? Well, so so I'm these are this is
+1:22:18
+conscious experience and I'm proposing how the very structure of spaceime
+1:22:24
+is just a conscious experience. The very the Manowski structure of spacetime is
+1:22:31
+literally coming from the structure of conscious experience and this this trace logic entirely. And so
+1:22:40
+entropy rate is projecting to mass. Zero entropy rate is projecting to zero mass.
+1:22:48
+The only things that have zero entropy rate move at the speed of light. So what
+1:22:53
+Einstein couldn't explain, he had to assume. I'm explaining. I'm saying that
+1:23:00
+the reason massive objects cannot travel at the speed of light is because no matrix with
+1:23:07
+positive entropy rate has a commute time as as fast as the n cycles. They just
+1:23:13
+don't. That's why. Why is the speed of light the same for all observers in all
+1:23:19
+inertial frames? because the trace of an end cycle is an end cycle when I take so
+1:23:26
+it's always the same speed one state per step one new state per step in an end
+1:23:32
+cycle so what what Einstein has to assume oh and so so Einstein has to
+1:23:38
+assume that the speed of light is the same in all inertial frames and I don't I explain why it's the same and why is
+1:23:44
+there no preferred inertial frame the answer is because in this trace logic of
+1:23:50
+of matrix. There's no top matrix. There's you can go to infinity in
+1:23:56
+infinite number of directions and there's no top. So there's no special final
+1:24:02
+inertial frame. So so the bottom line is
+1:24:07
+a theory of consciousness outside of spacetime with these marov matrices. Identify
+1:24:14
+mass as the entropy rate. Identify the clock counter as is is projecting to
+1:24:21
+time. Identify the commute times between states as projecting to distance
+1:24:28
+and you get manowski space coming up. Now
+1:24:33
+I've shown it qualitatively here. Uh what we have to do now is to show ma
+1:24:40
+with mathematical precision. I can take um discrete mark of n cycles maybe three
+1:24:49
+of them for example interacting and as n goes to infinity I have to show
+1:24:56
+that I can get in probably using something called Laurent Gromov
+1:25:03
+housedorf techniques prove that I get exactly the structure
+1:25:10
+of manowski So that that hasn't been proven but but we know that's what you're working on now. Yeah. Yeah.
+1:25:16
+We're working on that now. So but what we do have is qualitatively we get the space contraction the time
+1:25:23
+dilation they match. The interesting thing is I mentioned that
+1:25:31
+Doyle and and uh his colleague that wrote the
+1:25:36
+Doyles paper um on Marov chains that the commute time
+1:25:42
+is the square of the uklitian distance. So the ukitian distance has to be the
+1:25:49
+square root. So what I so to make things work I need to also take the time
+1:25:54
+counter the counter of the conscious agents and take its square root to get the time and spaceime. So now you might
+1:26:03
+say well that seems like a cluge. It's very interesting. In physics there's something called
+1:26:09
+charge par time symmetry CPT symmetry.
+1:26:16
+And I think we're going to get that from the fact that when we take the square root, you you can have either plus or
+1:26:22
+minus. When I take the commute time and take the square root of it to get the distance, well, there's a plus distance
+1:26:28
+and a minus distance. And when I take the time square root, again, there'll be a plus and minus
+1:26:34
+time. I believe that that will give us what's called CPT symmetry in in in physics, which which has been shown
+1:26:40
+empirically. So if this is right, then not only do I explain why the speed of
+1:26:46
+light is the same in all inertial frames, why no massive object can ever travel at the speed of light, why all
+1:26:52
+why no inertial frame is special, but also where CPT symmetry comes from. It
+1:26:58
+comes from the fact that the conscious agent dynamics is not inside spaceime
+1:27:04
+and we need to take square roots to get the space lengths and clock times that
+1:27:10
+we see inside spacetime. It's that fact that gives us the CPT symmetry. So,
+1:27:17
+so I should say summarize what we have and what we don't. What we have is a trace logic that's
+1:27:23
+secure. That's a new contribution to the theory of marov chains. That trace logic
+1:27:28
+for n cycles gives us exactly the right
+1:27:34
+contractions of length and time forming calcium space when for
+1:27:41
+other matrices those contractions will be different the lengths and time contractions will be different and for
+The Case for Consciousness as Fundamental
+1:27:48
+those some of them I'm proposing this we haven't proved that they will project
+1:27:55
+two curved spacetimes because the lengths and times are are are different. They're not exactly the same. So you
+1:28:00
+won't get flat space time. You'll get curved. I think that that will be a larger class of matrices that that work,
+1:28:07
+but I think there'll still be 0% of all the matrices. And my guess is that
+1:28:12
+almost all the matrices in consciousness space are too complicated. They'll have
+1:28:18
+things like they'll have expander graphs and other weird properties to them that will preclude them from projecting into
+1:28:26
+spaceime. So spacetime isn't the final reality. It's a trivial
+1:28:32
+0% of the new reality that's unfolding when we step outside of spaceime and say
+1:28:38
+let's what's our our simplest most drop deadad stupid model of consciousness we
+1:28:43
+can come up with. That's what I came up with came up with the stupidest drop deadad simple model. You have
+1:28:50
+experiences and they change probabilistically. Okay, what can we do with that? Doesn't sound very promising,
+1:28:56
+right? Going to get all of space-time physics out of that
+1:29:01
+small chance. And that was my until I discovered the trace logic. And then all of a sudden in the last six months, I
+1:29:08
+realized, holy smoke, it could be this simple. It's really
+1:29:14
+what is the trace logic? It's saying how the experiences of different observers
+1:29:21
+mesh. That's what it's about. It's all about observers and their experiences. There's
+1:29:28
+an infinite class of observers and we can talk about
+1:29:34
+their time counters and observers that see smaller set of states than me, their
+Ads: MUDWTR, Fractal Forest
+1:29:39
+time counter is going to go slower than mine and so forth. Hey fam, one thing that brings me a lot
+1:29:45
+of joy is having a warm, nourishing drink to start my day. But I don't drink coffee. And that's why I love Mud Water.
+1:29:52
+Their original blend is a coffee alternative made with four functional mushrooms. So you get natural energy and
+1:29:58
+focus, but with just a fraction of the caffeine and coffee. There's no jitters, no crash. They've also got a matcha
+1:30:05
+blend and two caffeine-free blends, Rest and Gold. Rest is perfect for winding
+1:30:11
+down at night and Gold is a turmeric blend with ashwagandha and chamomile which helps you chill out in the
+1:30:17
+evenings. After a long day, I like to add a little bit of honey in their coconut creamer and it's like a sweet
+1:30:22
+treat that makes your body feel good. Every ingredient is 100% organic,
+1:30:27
+non-GMO, gluten-free, sugar-free, and vegan. So, you're putting good stuff in your body. If you want to give them a
+1:30:32
+try, head to mudwater.com/nowlessself to grab your starter kit. Right now, our
+1:30:38
+community gets up to 43% off your entire order, plus a free rechargeable frother
+1:30:44
+and free shipping. That's mud wtr.com/now.
+1:30:49
+Link in bio. As always, I hope you dig it. Hey guys, a quick one. One of the
+1:30:55
+hidden challenges of modern life is mineral depletion. Our soil is not as
+1:31:00
+nutrient-rich as it once was. It's invisible and yet it affects us so much.
+1:31:06
+So a lot of us are running on empty without even knowing it. The result is impaired immune function, fatigue,
+1:31:12
+muscle weakness, cognitive issues, and so much more. That's where chiligy comes in. Chiligy is a nutrient-dense resin
+1:31:20
+containing a wide spectrum of over 84 essential minerals, humic acid, and
+1:31:25
+fulvic acid to help restore balance and replenish what your body is missing. Supplementing with it throughout your
+1:31:31
+week can immediately support those depletions. Looks like this. You can just take it directly or put it in some
+1:31:36
+liquid or a beverage of your choice. Fractal Forest is the company. They are a research collective restoring
+1:31:42
+meaningful connection between humanity and the earth. They only source goldra
+1:31:47
+triple refined and filtered chiligy from the purest of places. So the quality is the best that you can get. They're
+1:31:54
+giving up to 40% off with subscription on any of their products. Or just try it out for free with a 10ml bottle. Just
+1:32:01
+pay shipping. You can go to fractalforest.co/ co/now thyself or use code know thyself at checkout to get
+1:32:07
+your trilogy today. I hope you enjoy. Back to the episode.
+1:32:12
+Can I try I want to try to explain this back to you to see if I actually understand it or at least an aspect of
+1:32:19
+it cuz I was kind of I think whenever I'm preparing for something especially something that can get pretty rigorous
+1:32:25
+in the scientific side, I try to like write it out to be able to explain
+1:32:30
+it to myself and see if I actually understand it. So quantum mechanics says that particles
+1:32:37
+are described by wave functions. Yes. Probability waves that evolve smoothly
+1:32:42
+but collapse when measured. Um and so your point basically is that if you look
+1:32:49
+at the long-term dynamics of these markoff chains instead of the step-by-step
+1:32:54
+uh transitions, the math looks identical to quantum wave functions. Right? That's something I haven't talked
+1:32:59
+about yet here. Okay. Right. But so in other words, quantum theory is what you see when you zoom out on the probabilistic flow of
+1:33:05
+conscious experiences. So quantum states aren't fundamental. They're the shadow of deeper dynamics of consciousness.
+1:33:12
+Right. I know you kind of alluded to a little bit earlier, but I haven't spoken directly to the kind of correlation there between the two.
+1:33:17
+Yeah, I should I should say a little bit about that. So So what I've done so far is to talk about how a theory of
+1:33:24
+consciousness with the Marov chains and the trace logic could give rise to the structure of Einstein's
+1:33:31
+um Minowski space spacetime but of course quantum theory is extremely
+1:33:37
+important and so how does that come out of this right um and so here's here's
+1:33:43
+the remarkable thing that my my collaborator Chaitton Pash um discovered about 10 years ago or so if you look at
+1:33:53
+I've been talking about the stepby-step markoff chain if it's red now the light and then maybe it'll turn green next and
+1:33:58
+then yellow and so forth that's step by But then when you zoom out, if you step back, you know, sort that's
+1:34:03
+sort of like looking at a movie one frame at a time. But if you step back and you try to look at the whole movie in in real time, you get a different
+1:34:09
+different picture. And when we look at Markov chain, not a step by step, we look back at the big picture of what's
+1:34:15
+happening in the dynamics of the markup chain, the big movie. We call that the um well the way you do that is you
+1:34:22
+compute what are called the harmonic functions of these enhanced chains. So you compute the harmonic functions and
+1:34:28
+they tell you the long-term behavior these harmonic functions. And what Chayton discovered is these harmonic
+1:34:34
+functions are exactly the same mathematical functions as quantum wave
+1:34:40
+functions for free particles. So the quantum wave functions for free particles and the harmonic functions of
+1:34:48
+the markoff chains that we're looking at are the same thing. What does that mean? So it means that
+1:34:53
+we're proposing that spacetime is constructed just by
+1:35:00
+the end cycles of markoff chains in the way I just described and quantum wave
+1:35:05
+functions are describing not the detailed dynamics of conscious
+1:35:11
+experiences they're giving just the top level picture of it not the step by step
+1:35:16
+we have in other words in this consciousness framework I'm telling you every step of the way what's going on.
+1:35:23
+And in the space-time headset, quantum mechanics just says, you don't need to look at all those details. Here's just
+1:35:28
+what's happening long term. You only get to see the the big long-term picture. I'm showing you that what's are called
+1:35:35
+the hidden variables. This is what's called a hidden variables theory of quantum mechanics. Okay? So, these
+1:35:43
+hidden variables are things that you you don't see inside. They're they're hidden to um quantum mechanics. Quantum
+1:35:50
+mechanics doesn't describe them, but they're right there in the harmonic
+1:35:56
+functions of the Markov chains. And what's interesting about the harmonic functions, right, everything is real.
+1:36:02
+All the numbers are real in my markoff chain. All the probabilities are real and so forth. But when you take these harmonic functions, you get complex
+1:36:08
+numbers as part of taking the harmonic function. So where does all the weirdness of complex amplitudes come
+1:36:14
+from? It's because you're not looking at the full reality. you're getting the top level gloss harmonic functions and those
+From Science to Spirituality
+1:36:23
+use complex numbers to describe the long-term behavior of it. So, so we get
+1:36:29
+spacetime and quantum theory coming out. Now, I I'm saying this at the top level.
+1:36:34
+I I I already said a theorem that we need to prove about spacetime, right? So we have to prove that the the Lorent
+1:36:43
+Gromov housef convergence works from n cycles to
+1:36:49
+to manowski space. And then we have to prove that that sim similar kind of convergence will work for curved
+1:36:55
+spacetime for a slightly larger class of of of
+1:37:00
+matrices. And and then we need to show for example um
+1:37:06
+well two things. first why we're not violating Bell's theorem.
+1:37:14
+So there's something called Bell's theorem which says there aren't any hidden variables theory roughly. So here
+1:37:21
+I am not saying I've got a hidden variable theory of quantum mechanics. Most people in the know would say well
+1:37:27
+John Bell proved that there aren't any. So you're off your rocker. What what John Bell proved was that there were no
+1:37:35
+hidden variables theories that were measurement, independent,
+1:37:42
+local, and deterministic.
+1:37:47
+But our theory is not measurement independent. In fact, it's observers. If
+1:37:54
+anything's measurement dependent, they're observers. So, we have a measurement dependent system. is probabilistic and it's not
+1:38:01
+deterministic. So, so John Bell's theorem is true and it doesn't apply to
+1:38:07
+us because we're non-local. We're not we're we're
+1:38:12
+not deterministic and we're measurement dependent. So, so, so Bell's theorem is
+1:38:18
+true and it doesn't rule out our hidden variables theory at at all. So, so we
+1:38:25
+now have to prove so that that part's clear. But now what we have to prove is there's something
+1:38:30
+called the borne rule in quantum theory. The Borne rule says
+1:38:35
+if you have this quantum complex amplitude the wave function you
+1:38:42
+have to take the amplitude squared to find out the probability of various outcomes occurring. That's very famous
+1:38:49
+Borne rule. So,
+1:38:54
+I've done some a little work on it and I think it's going to be true. But until you prove it, but I'll put it this way.
+1:39:01
+I see no obstruction at all. I see no obstruction to getting curved spacetime. I see no obstruction
+1:39:07
+to getting the Borne rule. Um, but
+1:39:12
+these are very very technical mathematical issues. Um, and so until we
+1:39:18
+have it, we we can only I So I won't promise more than I've can say right now. What we do have is
+1:39:26
+the trace logic is real. That's that's that's not going away. The time dilation
+1:39:32
+space contraction for the n cycles, that's not going away. That that'll be there. um the claim that that will give
+1:39:40
+rise specifically to Manowski space. We know the theorem that needs to be proven and we haven't proven it yet but I don't
+1:39:47
+see any obstructions but but again I'm just a cognitive scientist um so this is real math so we'll see uh I I don't see
+1:39:55
+any obstructions right now but it may we may need some really hard-nosed
+1:40:01
+technical mathematical physicists to to bring this stuff home. So, so we've it's
+1:40:07
+just been in the last few weeks that I've even known that these are the theorems we need to prove. So, this is this is brand new. This is the first
+1:40:14
+time I've actually talked about this. It's exciting. Yeah, it's pretty exciting. It is exciting. And I know probably
+1:40:19
+aspects of it can definitely go over many people's head. I know for for different parts it does. It does for me like it
+1:40:25
+there's there's a lot to digest there. But the spark notes, correct me if I'm
+1:40:31
+wrong, is that if the bedrock of modern physics and relativity and quantum
+1:40:36
+theory can naturally fall out of this theory or this model of conscious observers, then it kind of reverses the
+1:40:44
+chain of causality of what we think consciousness is coming out of a coming
+1:40:49
+out of matter. Rather, it's the other way around. That that's exactly right. And this is something that the physicist John
+1:40:55
+Wheeler was was pointing to. So you you got it right. And and and John Wheeler was pointing in this direction. He had a
+1:41:01
+paper in 1989 that's called the it from bit paper. But he was he was basically saying somehow it's all it's got to be from his
+1:41:09
+point of view all these observer participency interactions
+1:41:14
+has to be the fundamental thing. And somehow he said that has to give rise to
+1:41:19
+the structure of spacetime and quantum theory. didn't know how but but he he just felt like we can't start inside
+1:41:25
+spaceime we have to start with the observer participency thing and and and
+1:41:31
+so so the reason he's he's taken seriously is I mean he was like the adviser for Richard Feman and he he
+1:41:37
+himself was an incredible physicist on his own right so so so
+1:41:42
+and he in his from bit paper wheeler cited I mean I've been I should say I've
+1:41:48
+been working on this stuff um for a long time almost 40 years. So I mean it's
+1:41:54
+it's not like I decided to work on consciousness outside of spacetime. I've been working on it since
+1:41:59
+89 85. So it's been literally 40 years
+1:42:06
+80 1985 and in 1989 I published a book with two mathematicians okay
+1:42:12
+called observer mechanics. So you know you can see I was already I've been this is not like a new gig for me
+1:42:18
+and and Wheeler cited my book. So in his it forbit paper he cites my book as an example of the kind of thing that we
+1:42:24
+might want try to do in this observer participency kind of thing and I I read Wheeler's paper of course and and and
+1:42:32
+I agreed with him and I we tried to get into observer mechanics but we didn't have the trace logic and I didn't have
+1:42:38
+the trace logic until a year and a half ago and I didn't know what I had until 6 months ago. So, so I've been after this
+1:42:46
+for for 40 years. And just six months ago, I think I found the key that I've been looking for for for 40 years. And
+1:42:54
+so, and it's also what the kind of thing that that Frank Wilchek was saying is we need to have some notion of the observer
+1:43:01
+as as as as a a foundational concept. So, what I'm saying is that Wheeler was
+1:43:06
+right. It's all these acts of observer participy that somehow build spacetime
+1:43:12
+and the thing that coordinates them is the trace logic. It's the trace logic
+1:43:19
+which is just the coordination of how your experiences and my experience are how your clock is related to my clock.
+1:43:24
+How and how the the distances between your experiences are related to the distances and my experiences. That the
+1:43:30
+trace logic does all of that and when we compress it down we get spaceime. So
+1:43:36
+physics from this point of view the space-time physics is nothing but a beautiful way
+1:43:43
+of coordinating all the experiences of the observers. So
+1:43:50
+it changes the whole thing around. Yeah. We thought of ourselves
+1:43:55
+in science for the last four centuries as as little
+1:44:02
+tiny physical objects in an immense physical
+1:44:07
+universe whose consciousness emerge from unconscious ingredients. And this is turning the whole picture
+1:44:13
+around. Spacetime is not fundamental. We know that it falls apart of the plank scale. It can't be fundamental. That
+1:44:20
+picture can't be right. But Wheeler's picture is a deeper
+1:44:25
+picture. Observer participancy outside of spaceime gets somehow
+1:44:32
+fashioned into the structure that we call spacetime. But the it's the consciousness that's first. It's
+1:44:39
+fundamental and it gives rise to what we call spacetime. And it's the trace logic.
+1:44:46
+And and and and by the way, the trace logic is not hard.
+1:44:53
+I could have thought about it 40 years ago. I just didn't think about it. It's it's not that hard. Uh I don't know
+1:45:01
+why it took me 40 years. I'm I'm not that bright. Do you remember the moment that came to you? You said you were in a car or were
+1:45:07
+I was I was at I think I was at home and
+Introducing Markov Chains
+1:45:14
+we one problem that we've been working on is how do observers or what we call conscious agents but we'll call them
+1:45:20
+observer how do they combine and I have you know Chaitton Pash and Robert Prrenner two really good
+1:45:27
+brilliant friends of mine longtime collaborators and they they had been debating back and forth about a new way
+1:45:33
+of combination and And I looked at what they were saying and I just looked at
+1:45:39
+and it felt wrong and and but but when I felt that it was wrong, I also felt
+1:45:44
+here's why it's wrong and all of a sudden I saw the trace logic. It was it was so it was in
+1:45:50
+reaction to the trying to figure out how to combine observers and and seeing
+1:45:56
+their ideas, seeing that I disagreed with those ideas and asking myself why do I disagree with
+1:46:02
+those ideas? And that's when I saw the trace logic structure. All of a sudden, I just saw it.
+1:46:09
+I said because in the trace logic, it turns out it gives you a way to join two
+1:46:16
+consciousnesses into a single new conscious observer. And that so it was that problem. How do I take two separate
+1:46:22
+consciousness that maybe overlap? Maybe we have some similar conscious experiences, but how do we join them
+1:46:30
+together into a coherent new observer? The trace logic does that. It tells you
+1:46:36
+exactly what that what that that join means. So it's something I didn't talk about. This is actually in terms of the
+1:46:41
+theory of consciousness. This is also a breakthrough. It's a it's a breakthrough that says if
+1:46:47
+you have two consciousnesses that do overlap, what is the unique bigger consciousness
+1:46:54
+that could be made out of them that traces down properly to each of the two separate consciousness? Infinite shared space or source which is
+1:47:02
+the origin of shared experience. Well, well, so these are prior to that. So the the the well the source is deeper
+1:47:09
+than output. The what you're talking about the source is is even deeper. This was just a step up on the trace logic
+1:47:15
+itself. So how do I go from two conscious consciousnesses, two Markoff chains to a slightly bigger markoff
+1:47:21
+chain that properly contracts down to the two? So it's it's very much like
+1:47:29
+the way I think about it. You have two hemispheres in your brain, a left and a
+1:47:35
+right. And there are some experiments which
+1:47:41
+have been done with split brain patients. So people who had
+1:47:46
+problems with epilepsy that couldn't be cured or controlled with drugs.
+1:47:53
+Um there were, you know, surgeries done where you would
+1:47:59
+take off the top of the skull, take a knife. The guys who did this was a guy
+1:48:05
+named Joe Bogan's one of the surgeons. I actually was friends with him. We would meet periodically at um UCI and and talk
+1:48:13
+consciousness and so forth. But Joe Bogan would take a scalpel and cut the
+1:48:18
+corpus colossum which is a so you have two hemispheres. There's an Ethernet cable between them connecting them and
+1:48:26
+he cut that cable part of it or all of it depending on the on the patient. And what they found was the the hemispheres
+1:48:34
+now had their their biggest connection was severed. There are some smaller connections, but the biggest connection was was severed. And Michael Gazan and
+1:48:42
+others then did some experiments on these patients and found that you know
+1:48:48
+they wanted to know what's going on what what does this connection do and what happens when you separate the
+1:48:53
+hemispheres and early experiments couldn't find anything different about these people. Um, so some people
+1:49:00
+thought, well, the only thing the uh corpus colossum does is is is put epileptic seizures from one hemisphere
+1:49:06
+to the other. That's all that's all it's good for. Well, no, of course that's not the case. So, what Gazanica found was
+1:49:11
+that he he could isolate information to the hemispheres. It turns out that the
+1:49:18
+right hemisphere only sees the left visual field. Left hemisphere sees only the right visual field. And the left
+1:49:24
+hemisphere gets input from the right side of the body. the right hemisphere gets input from the left side of the
+1:49:29
+body. So if you give information to just the left visual field quickly before you
+1:49:36
+can do an eye movement, you can send something just to the left visual field and only the right hemisphere sees it.
+1:49:41
+Or put something in the right visual field, only the left hemisphere sees it. But if it's on there for more than a tenth of a second, then you'll get an
+1:49:47
+eye movement and both hemispheres will see it. So that's why they didn't they couldn't figure it out before they, you know, people were doing eye movements
+1:49:52
+and both hemispheres got the information. So, but Gazanaga learned to and and Roger Sperry. So, I should, you
+1:49:59
+know, Sperry won the Nobel Prize for this. So, it would be We just had Ian McGillchrist in here, too. We were actually speaking about
+1:50:04
+this. Okay. Very, very good. Yeah. So, so what you find is that the two hemispheres
+1:50:09
+have very different personalities in some cases. In one case, the left hemisphere wanted to be uh have a desk
+1:50:15
+job and the right hemisphere wanted to be a race car driver. The left hemisphere believes in God, the right hemisphere is an atheist or or vice
+1:50:21
+versa. So, so here's the notion of joint. So, I said all that for this
+1:50:26
+trace joint. Somehow
+1:50:32
+you have two hemispheres which if we cut the corpus close enough show that they are
+1:50:37
+different personalities with different religious beliefs, different job aspirations. They're
+1:50:45
+different. It seems like maybe part of the human condition is we're born with
+1:50:50
+two. We're actually you're not just one person. You're two people. And what you are learning to do in this body is join
+1:50:56
+them. How do I create the join? The two becoming one.
+1:51:01
+Two becoming one and cooperating. And for a lot of us, it's not an easy process. I get pissed off at myself and
+1:51:08
+what are you doing that for? And you can imagine actually in some of these with the corpus close and cut, the hands
+1:51:15
+fight each other. The left hand and the right hand fight. So, so that's in all of us that. So, so this join of the
+1:51:21
+trace logic I I I was after it because I understood Roger Sperry's work and and
+1:51:27
+Joe Bogan. I mean, I knew Joe Bogan personally. We're friends. I knew all this stuff. It's very clear that there's
+1:51:33
+some kind of separate person's consciousnesses that are being integrated. And the corpus colossum is
+1:51:39
+not the whole story, but it's it's the physical aspect of of it. And so I was after that join in the trace logic
+1:51:48
+because I I knew that that would be the key thing. If if this was going to work, it would have it would be that to give
+1:51:54
+us our first principled theory of how separate consciousnesses can join
+1:51:59
+together because this has been a big problem in consciousness first theories.
+1:52:05
+It's the combination problem. This if you look it up if you just Google the
+1:52:10
+combination problem in pansychus theories of consciousness you'll see there's a big literature basically it's
+1:52:16
+it's like can't be done you if now pansyus theories are very different from
+1:52:23
+my theory what is the combination problem for people that don't know so the combination problem is how if if
+1:52:28
+I have um two separate consciousnesses
+1:52:33
+can they be combined into a single consciousness can Can can the subjects
+1:52:38
+of experience be combined and can the experiences themselves be combined? So there's the subject combination problem
+1:52:44
+and the experience combination problem and and um
+1:52:50
+they're very you know um it's it's an ancient ancient problem. Um
+1:52:57
+there are the received opinion was that this is going to be difficult if if not
+1:53:04
+impossible. um to to combine the different experiences.
+1:53:11
+Um so so so I knew that that would you know that's that's been out there for a long
+1:53:18
+time. Everybody says can't be done and certainly you you can't combine subjects
+1:53:23
+of of experience. Um the very famous psychologist William
+The Birth of Trace Logic
+1:53:30
+James in his principles of psychology has a very famous paragraph in there about you can't combine the subjects of
+1:53:38
+experience. You if you have a 10 different people or 100 different people um how how are you going to combine
+1:53:44
+them? You can tell them all the same thing but it's going to be 100 different people thinking the same thing. Not the subjects don't combine. So,
+1:53:52
+so I I was, you know, these are this has been a long-standing problem and I was
+1:53:58
+hoping that somehow this theory of, you know, conscious agents with the Marco stuff would give me some tools for
+1:54:04
+understanding how consciousness could combine because it seems like that's
+1:54:09
+going on there. The corpus colossum seems to be something that's mediating that in the case of of our two
+1:54:14
+hemispheres. And so you can see why we're I was going after this notion of join but I didn't
+1:54:20
+have a principled way of coming at the join
+1:54:26
+and it was the comp the the trace logic is where and then and the trace logic all of a sudden by seeing this partial
+1:54:33
+order this this logic it automatically has a join and that solves the problem but what I had to do
+1:54:39
+was step back and see the bigger picture and see there's a whole logic so don't just think about the join
+1:54:45
+Think about an entire logic on the space of consciousnesses and when you see the whole logic on it then the join falls
+1:54:52
+out and and so it was that insight it's like so so what is the logic is the
+1:54:58
+trace is the trace a partial order being a trace is that a partial order
+1:55:06
+and I could im immediately see there there's three things you have to have for a partial order it has to be reflexive
+1:55:12
+um symmetric and um transitive and I could see the first two but I couldn't
+1:55:18
+see the transitive. I it looked to me like transit there it was going to be transitive as well. Um
+1:55:25
+so I I could see two out of the three right away. I and the third one looked
+1:55:30
+really I mean it looked pretty
+1:55:36
+pretty secure to me but you know math is math. So I I said it I told my my my
+1:55:43
+longtime collaborator Chayan we have collaborated about 40 years. So we're we're good friends.
+1:55:50
+I I said I think I've found this logic that I think the trace is a logic on the
+1:55:55
+space of all Marco chains. And he said Don it's too pretty. Can't be true. It's just too pretty. And he was taking off
+1:56:01
+for a conference in in England. So he he flew. But when he landed in Heathrow he
+1:56:06
+said well I'll give it a shot. And there in Heathro he proved it. He proved that. He proved the the transitivity and then
+1:56:13
+we knew we had a logic and then I but it took me almost a year
+1:56:19
+to see okay cuz I was I was focused on the join and combination problem and that stuff and so I was really pretty h
+1:56:25
+I thought I'd gotten everything out of it that I possibly could and I was very very happy but just one day I noticed well wait the trace the counter
+1:56:34
+is going to click fewer times on the trace than on the bigger one.
+1:56:40
+could no I I couldn't get spacetime out of this. No way. But I decided to check
+1:56:45
+it out and and it's been a six-month fun ride. Um I can't believe it. So I didn't
+1:56:52
+expect to get spacetime. I was just trying to get the combination problem. Yeah. And
+1:56:58
+length contractions and time contractions. Unbelievable. I can't believe I got it.
+1:57:03
+You just ordered a a single meal and the whole buffet came with it. It it it came with it. and and and
+1:57:10
+then the fact that it it was the square that the dis the the commute times are the square of the
+1:57:17
+distances is it must be there I mean a good sign that there's a
+1:57:23
+inherent simplicity I suppose or beauty to something that is coherent. Uh so
+1:57:28
+like there's not maybe maybe not always the case but
+1:57:34
+throughout many different innovations and discoveries in the past there is an inherent beauty to the simplicity of the
+1:57:40
+discovery which seems almost uh like too good to be true at first. I
+1:57:45
+I I couldn't agree more. And what's what's really interesting about the trace logic is there's no wiggle room.
+1:57:51
+It's fixed. I can't play with it. It either worked or it didn't.
+1:57:57
+So, so I knew I I was either going to get Einstein's theory or not. There was no way for me to fiddle this thing
+1:58:04
+because the the the the trace logic can't be fiddled with. That's I mean the trace is the trace end of story. It's a
+1:58:10
+So, it either did it or not. So, I it was too good to be true. I couldn't
+1:58:17
+believe that it that it worked. So, yeah. assigning
+1:58:22
+physical interpretations of properties of the matrix is no there's no place
+1:58:27
+really to fudge there commute times are commute times that's you you can't fudge
+1:58:34
+entropy rate is entropy rate to to say if you ask what are the properties that could be mass entropy rate is it and so
+1:58:42
+it either worked or it didn't if the entropy rate being zero didn't correspond to the matrices that that
+1:58:47
+moved fastest then it would be game over for me the whole will be over. So, so right now there's no room to fudge at
+1:58:54
+all in any of this, which is makes me feel very very comfortable because that it will either completely unravel and
+1:59:00
+and we'll see the one thread that doesn't work and the whole thing unravels or the or the thing is really going to take off. I'm hoping it takes
+1:59:07
+off and it looks like it's taking off because at every step I've said, "Okay,
+1:59:12
+this has to be true or the whole thing won't work. Let me go check." It is true. Unbelievable. I've been surprised
+1:59:19
+time and again that it's worked. So even as as Chaitan said, he he thought the whole thing was too beautiful to be
+1:59:25
+true. Yeah. So we both thought at every step this is too pretty to be true. It's it's you know the party's going to be over and we
+1:59:31
+haven't seen the party over yet. So but the fact is it can't be fudged. So if
+1:59:38
+the party's over, it will show us the party's over, which is the
+1:59:43
+reward of the scientific mind to go after disproving things that you would
+1:59:49
+like to be true to to make it rigorous, right? And uh absolutely and and of course what I said
+1:59:55
+earlier about all scientific theories applies to to my theory. There's a going to be a limited scope
+2:00:00
+for this theory of conscious agents and the trace logic. But
+2:00:06
+all I'm trying to do right now is to show that the scope is bigger than spacetime and the scope includes
+2:00:12
+spacetime that we can actually build spaceime from the trace logic of conscious. So I'm not saying that this
+2:00:17
+is a final theory of everything. No, I will be very clear. This is 0% of reality. My theory is 0% of reality, but
+2:00:24
+it's a bigger 0% than spacetime. And and if I can show how spacetime is a smaller 0% than my bigger 0% of reality, that's
+2:00:32
+a step. Science will always and only know 0% of reality. Always and only. But
+2:00:41
+we should do it for many reasons we'll continue to get into. Now, what is minimizing surprise
+2:00:48
+uh and uh how it comes into all of this for people that have like zero context of what that means,
+2:00:54
+right? So the idea of minimizing surprise
+2:01:00
+um is is quite big now in in cognos science and and elsewhere. Um Carl
+2:01:06
+Rston's and his collaborators are using it and it's related to intelligence in
+2:01:11
+in in the following way. I mean I'm not going to say it's all there is to intelligence but it's an
+2:01:17
+important aspect of intelligence. If every time I did something I was surprised,
+2:01:23
+like every time I went went to pick up this cup, it fell down and crashed. Every time I put on a shirt, I ripped a
+2:01:29
+hole in it. Every time I walked up the stairs, I fell on my face. Well, to the
+2:01:34
+extent that I'm surprised, I'm not very smart. So, in some sense, the more
+2:01:40
+surprised you are, the less intelligent you are. Now, now again, I'm I'm not at
+2:01:45
+all saying that's the only aspect of intelligence, but it is intelligence is
+2:01:50
+not less than no surprise or or minimal surprise. Now,
+2:01:57
+suppose I have a a big markup matrix. Well, I'll just say the bottom line. Trace minimizes surprise. That's the
+2:02:03
+trace logic is the logic of minimizing surprise. when you have a probabilistic situation, you don't know what's going
+2:02:09
+to happen and all you can do is write down a marov dynamics of it. Um, and and
+2:02:15
+then if you have limited information, I can only see this these set of states. I can't see the whole traffic light. I can only see red and green or whatever,
+2:02:22
+but I want to minimize surprise. The trace is the minimal surprise answer. So
+2:02:28
+the trace logic is the logic of minimizing surprise and in that sense it is the logic of intelligence. So now
+2:02:36
+there are there are new companies working to go past large language models of artificial intelligence. I'm using um
+2:02:45
+the free energy principle to to minimizing free energy to to minimize surprise. What they really want to do is
+2:02:50
+minimize surprise but they can't do it directly. So they minimize free energy.
+2:02:56
+The trace logic does it directly. It tells you exactly what the answer is. You give me any context and you give me
+2:03:03
+a subset of variables. The trace is the minimum surprise answer. If you want to take two probabilistic systems, you know
+2:03:09
+both probab probabilistic systems and you want to know what's the minimal
+2:03:14
+surprise system that includes them both. It's the
+2:03:20
+join of the trace logic the the disjunction of the trace logic. So it is
+2:03:26
+the the the logic of surprise. So I I didn't know this at first. I was only
+2:03:32
+thinking about just consciousness combining and trying to solve the combination problem. Then I was
+2:03:38
+interested in wow maybe spacetime comes out of it you know because of the changing clocks. But then more recently
+2:03:44
+I've realized no this is this minimizes surprise this is actually logic of of intelligence. So it could actually be of
+2:03:50
+value tech technologically to be the a core mathematical principle behind a new
+2:03:57
+generation of artificial intelligences, which would be great fun for me because as I mentioned to you,
+2:04:04
+I I was in the AI lab at MIT from 1979 to 1983.
+2:04:11
+took class with Marvin Minsky, worked with Mertold Horn and David Maher and
+2:04:17
+Eric Grimson and Ellen Hilddrth. I mean the I'm friends with all the pioneers in
+Time Dilation and the Mathematics of Perception
+2:04:22
+the early AI computational vision work there and John Hollerback. Um so it's
+2:04:31
+it's a it's a real love of mine the artificial intelligence and to have the
+2:04:36
+trace logic actually be a logic of intelligence is blows my mind as well. So I Once I worked on the consciousness side
+2:04:42
+of things, I may want to switch over and look at the AI side of it as well. Yeah,
+2:04:49
+so much to explore there as well. I'm curious because it's been alluded to throughout
+2:04:54
+the conversation about when we're talking about the experience of a conscious observer. As a human being, we
+2:04:59
+have this experience which to a degree there is an overlap in what we think your experience is. And I'm curious how
+2:05:07
+you think of as you introduced in your essay that you sent me the sense of
+2:05:12
+infinite shared space or the source in which our experience is derived. What do
+2:05:18
+you what do you make of that source in which experience is dry from? That's a that's a good question. So
+2:05:27
+when you write down a mark of chain like for the red, green, yellow traffic
+2:05:32
+light, you mathematically you before you can write down the matrix, you have to specify what we call a measurable space.
+2:05:39
+This is a mathematical name. But all it means is you need to tell me what states are going to be in your markup chain
+2:05:45
+like red, green, and yellow. So you have to say there are three straits and they're red, green, and yellow. And then you have to put a structure called an
+2:05:52
+algebra on them. But basically, so it's a measurable space. You list the states and you put
+2:05:57
+some kind of structure on them. Now,
+2:06:03
+if you have five states, then you need to have, you know, even if it's red, green, yellow, blue, orange, light, then
+2:06:08
+you need to have five states in a bigger measurable space. in the trace logic.
+2:06:14
+If you're going to think about all these matrices in the in the context of the trace logic, then they can't each have their
+2:06:22
+own little measurable space because you have to be able to relate all of them together. So you need a big measurable space in which they're all on. So
+2:06:29
+effectively an infinite measurable space. So I need to write down an infinite measurable space of all
+2:06:35
+possible conscious experiences with its own sigma algebra which is the the logic
+2:06:41
+the um structure on it. So I can't just write down three. It's it's infinite and it's the same for all
+2:06:49
+observers. All these different traces are all different observers. So the logic itself forces me. It says,
+2:06:56
+"Don, you cannot just talk about a three-state measurable space and then a 10 state. You have to put them all on
+2:07:04
+one. They're all derived from one big measurable structure."
+2:07:10
+Now, so then and we're this is the mathematics forcing. So at at just just a couple weeks ago, I said, "Okay, so
+2:07:16
+what is the mathematics trying to tell me here?" I mean, so I I'm I've been working on the matrices and their trans
+2:07:21
+transitions. I'm studying that. I'm getting spaceime dilations and so forth coming out of it.
+2:07:28
+But what about this deeper structure? It's just sitting there. It's timeless. It's there for every different observer.
+2:07:34
+And it's and in some sense all the experiences are popping out of this deep
+2:07:40
+structure. Sounds very mystical. It sounds very mystical to me. I was like,
+2:07:46
+what do but but but it's math. I have to write it down. I'm
+2:07:52
+forced to write it down. And so I'm forced to ask myself, what's my interpretation of this? I've got my
+2:07:58
+interpretation of the states and their transitions. They're experiences and changing experiences. What is this
+2:08:05
+structure that's timeless from which in some sense all these experiences are coming out of and the
+2:08:11
+answer is I don't know. This is where my understanding stops. So I just call it source because it's the source of all
+2:08:17
+the experiences. and but it's a timeless source and it's the same for all observers and it's the
+2:08:25
+foundation from which all observers all traces spring. So then I I agree. Then I
+2:08:31
+at that point I thought, wait a minute, that does sound quite mystical and and and very much like what mystics have
+2:08:38
+been saying for for thousands of years that that we're all derived from one source
+2:08:44
+and in some sense we're we're just different
+2:08:50
+emanations they would say from the source. I would say we're different headsets that the source has put on the different traces are different headsets
+2:08:57
+by which the the source looks at itself. So that's the way I'm thinking about it now is that there is this source. I
+2:09:05
+can't say anything more about it than that than except what the mathematics
+2:09:10
+says right now which is it's the same for all observers. So
+2:09:16
+Andre and Don are from the same source, just different
+2:09:23
+headsets. It's the source talking to the source through Andre and Don headsets.
+2:09:30
+And I can't say anything more about the source. I can say we can write down a measurable structure for it. There's a
+2:09:36
+sigma algebra. So I can say all that stuff. But that's where my that's the limits of
+2:09:41
+my theory. Every theory has limits. There we go. The other limits are my probabilities. The prob when you see a
+2:09:47
+probability in a theory, that's where the explanation stops because probability is where I can't say
+2:09:55
+anything more. I'll write down a probability measure. So, so my theory has the limits right there in our face.
+2:10:01
+Um but the limit it points right where the spiritual traditions have pointed
+2:10:07
+saying that there is some source and they will say it transcends any
+2:10:12
+description. You can point to it with words but as
+2:10:18
+the da da says the the towel that can be spoken of is not the true and that the
+2:10:25
+same is true of science. the the science can point to it. Um
+2:10:31
+but and we can describe perspectives on it. So for example, space-time perspective that particular headset,
+2:10:39
+our mathematical descriptions can be more or less accurate descriptions of that particular
+2:10:46
+projection or trace of the one source.
+2:10:51
+So, so not any it's not the case that everything is equal and my theory, you know, earth, air, fire and water is just
+2:10:57
+as good as the standard model of particle. No, not at all. In a headset,
+2:11:03
+certain theories are better and certain theories are worse, provably.
+2:11:09
+So, so the science is right to be really hard-nosed about the theories. Absolutely. Most theories are going to
+2:11:15
+be wrong about our headset. But when we go outside the headset, it's going to be
+2:11:20
+again just a broader headset that we're looking at. So again, it'll be more true
+2:11:25
+or false. But ultimately, you know that all of our theories, even our best hard-nosed theories are 0% of reality.
+2:11:33
+But at least we want to get that 0% right. And most theories are not even right about that 0%. So that's why most
+2:11:40
+non-scientific theories aren't worth the time.
+2:11:45
+They they you know, science gets 0% but it gets it right.
+2:11:51
+Yeah. I'm curious how you would describe what
+2:11:56
+I've heard you explain of infinite infinities. If there's an potentially
+2:12:02
+infinite amount of available experiences, that means that there would then be an
+2:12:08
+infinite amount of conscious observers. So what does that point to about the
+2:12:14
+scope of reality beyond the headset? It's the headset, our space-time
+2:12:21
+headset. You we think of spaceime as the final reality. No, it's 0%. It's literally 0% of
+2:12:27
+reality. And in the Marov dynamics that I'm looking at, it's 0 I
+2:12:33
+can say what 0% corresponds to Mowski space. Um, I'm looking to be able to say
+2:12:39
+what what slightly larger 0% corresponds to curved space times. And then the
+2:12:45
+99.99999% of it basically 100% of it will be
+2:12:50
+beyond anything that could be actually presented in space and time. Again, partly for technical reasons like again
+2:12:56
+expander graphs for the markoff chains and as opposed you know things that wouldn't work well for general
+2:13:02
+relativity. So, so but the interesting thing is I mean spiritual traditions have been
+2:13:08
+saying this for thousands of years but now we have a new mathematical
+2:13:14
+framework where we can say at least for one step out of spaceime headset here is
+2:13:19
+a description of the infinities these markoff chains that don't project into
+2:13:24
+spaceime even curve spacetime they don't project this is a first model to explore of the
+2:13:33
+kinds of infinities of possibilities outside of our space-time hazard. Before we all we could say in the spiritual
+2:13:39
+traditions was um it's it's beyond what you can see of in space and time. All of a sudden now we have a mathematical
+2:13:45
+model that says well I'm not the final reality either. But here is a way that we can talk about the next step outside
+2:13:52
+of the headset and there's infinite there's an infinite number of new things to explore here.
+2:13:57
+So there's plenty to explore and that infinite number of new things to explore here is 0%
+2:14:04
+of reality, but it's infinitely bigger than the 0% that we had now. So we've just expanded to a new an infinitely
+2:14:11
+larger space that's 0% of the final reality. And that's the way science will
+2:14:16
+always progress if it progresses. What this really makes me think of is
+2:14:24
+if you look on the planet right now, we very much so have medieval minds and modern tools. We have
+2:14:31
+Mhm. uh incredibly increasingly exponent exponential uh technologies that in a
+2:14:39
+time where we face this meta crisis where we could you know the wisdom to hold those tools is not to the same
+2:14:46
+degree we have and what these tools can do. You look from bioweapons to AIS
+2:14:52
+you know all all over the place. We need a uh radical transformation in
+2:14:58
+consciousness and and change in paradigm. And it seems like the way that
+2:15:04
+could effectively happen is by these deeper understandings becoming
+2:15:09
+self-evident by the scientific method and and them becoming rigorous. You know, if you are able to effectively
+2:15:15
+prove to the analytical mind that we have this shared space, that we are one
+2:15:21
+consciousness. A lot of the what what we've been exploring today that to me
+2:15:28
+changes the what the the scientific paradigm and prevailent notion of what
+2:15:34
+reality is like on a on a widespread scale to where it feels like the one of
+2:15:39
+the if not the only saving graces um in the coming decades where if we if
+2:15:45
+it if something that discoveries like this don't come at this time humanity
+2:15:50
+very much though is in a position where you know we could go extinct. So
+2:15:57
+that's I I just feel like the immensity of it and it doesn't it rarely happens on this podcast where I'm having a
+2:16:02
+conversation around something to somebody who's at the leading forefront of a discovery that I feel like truly
+2:16:08
+can be completely worldchanging. So yeah, it just feels like I feel like both the beauty and the weight of
+2:16:14
+conversations like this. Yeah, I think that's an important point about this and
+2:16:19
+that is that if the spiritual traditions have said for a long long time that that we all are from from the one but there's
+2:16:27
+been no beef right as we talked about before it gives us no technology the
+2:16:32
+physicalist framework gives us all the technology it gives us all the miracles no miracles are uncontested miracles are
+2:16:39
+coming from the spiritual side so it's easy for people to dismiss we're all on
+2:16:45
+and you should love your neighbor as yourself and and and so forth because you that doesn't work. It doesn't give us technology. Um and so you're just a
+2:16:54
+physical system. Your consciousness emerges from your brain somehow. And when your brain
+2:17:00
+is destroyed, you're gone. And you and I are definitely not connected. We're we're just separate bits of matter. that
+2:17:06
+that whole framework changes. If we have a theory of consciousness that actually
+2:17:12
+transcends what physicalist science can do, then all of a sudden now the smart
+2:17:19
+money is no longer on physicalist reductionist kinds of views.
+2:17:25
+If the if the new technology and the new deeper scientific theory shows that spacetime is not fundamental and it has
+2:17:31
+this, you know, like with the trace logic, this clean implication that there's one
+2:17:38
+source and and it just falls right out of the mathematics. There's again no handwave and that that one ma
+2:17:45
+mathematical structure actually if it you know and again I haven't proven it but if it does give us manowsky space
+2:17:52
+and curve space time and so forth the borne rule and these things I talked about then all of a sudden it changes
+2:17:57
+the game. Now the smart money is on. Yeah, you and I are one. You I should
+2:18:06
+love my neighbor as myself because my neighbor is myself just looking at me. So whatever I do to you, I'm really
+Beyond the Headset: Infinite Consciousness
+2:18:13
+doing to myself. And now the best science says that. The best science does
+2:18:18
+not say you're just a lump of atoms that happens to have some consciousness and you're competing with me for resources
+2:18:25
+and I can do whatever I want to to you because you're nothing. You're just a pack of
+2:18:31
+neurons. I was good friends with Francis Crick. He was a wonderful man. I had lot lots
+2:18:39
+of time with him and and enjoyed talking with him. But in his book, you know, um,
+2:18:44
+the astonishing hypothesis says you're nothing but a pack of neurons. And, and of course, he was a gentleman. He didn't treat people as a pack of neurons. But,
+2:18:51
+but, but, but, but, but, but, but, but, but, but, but a science that says you're just a pack of neurons will lead a lot of people to have
+2:18:59
+more exploitative ways of Yeah, it can lead them. And again, I'm
+2:19:04
+not saying that Francis was that way, of course. Of course. Or any or any of these any of my colleagues. So my
+2:19:11
+colleagues are wonderful people. They're brilliant, hardworking and moral and and and so forth. They're
+2:19:17
+they're they're wonder. But I'm just saying that what does the philosophy itself entail?
+2:19:23
+Um they've risen above the philosophy that physicalism entails.
+2:19:29
+But with if now all of a sudden the new miracles are coming really from a theory
+2:19:34
+beyond spacetime. If we can actually get new technology outside of spaceime and a theory that actually works outside of
+2:19:41
+spaceime, then all of a sudden it's no longer just some airfairyical stuff to
+2:19:47
+say, yeah, you're all one. It's it's it's now the burden of proof is on the person who
+2:19:53
+wants to say, "No, we're not all one." Can you speculate then what would be
+2:19:58
+some of the most impactful innovations from discoveries
+2:20:04
+outside of spaceime? Uh it seems like in so many ways they're taking stuff straight out of sci-fi
+2:20:10
+films. It it yeah it blows my mind what what the possibilities are. But the one
+2:20:16
+way to think about it I uh is to again think about the Grand Theft Auto um example and suppose you're a wizard at
+2:20:23
+Grand Theft Auto. you've done it for years and you're the best in the world, you can drive your car faster than anybody, you can do all the tricks
+2:20:28
+inside the game, that's quite an accomplishment. But if I'm the geek who
+2:20:34
+wrote the code for Grand Theft Auto, I'm not stuck inside the rules of Grand
+2:20:39
+Theft Auto. I make the rules of Grand Theft Auto and I can play with them and I can take the gas tank of the wizard
+2:20:47
+and empty it. I can give him a flat tire or I can make his car move from point A to point B without going through the
+2:20:52
+space. I can just transport it not through space but effectively around the space. I can do miracles
+2:21:00
+visa v the person inside Grand Theft Auto. What I can do is miraculous because I'm not inside Grand Theft Auto
+2:21:07
+space. I'm creating it. So if as soon as we're not inside spaceime the
+2:21:12
+technologies if once we understand how to work with technologies outside of spaceime it's like being able to write
+2:21:18
+the code of Grand Theft Auto outside of Grand Theft Auto. Anything's possible.
+2:21:24
+Literally, all the technology that we have now is trivial. Absolutely trivial
+2:21:29
+compared to what we can do. What you can do inside Grand Theft Auto is trivial compared to what the the hacker can do
+2:21:35
+who's writing the code. Would you would you list a few? Sure.
+2:21:40
+One one thing is
+2:21:46
+the Andromeda galaxy. Our nearest galaxy is like 2.3 or four million lighty years
+2:21:53
+away. That's our nearest galaxy and there are billions of galaxies at least billions
+2:22:00
+of galaxies. So getting there is a bit of a problem. Getting to our nearest
+2:22:05
+neighbor is a bit of a problem going through space. Yeah. But you have to abide by the speed limit. Yeah. Yeah. You can only go the speed of
+2:22:10
+light and so it's and if you're massive and hopefully we we will retain our
+2:22:16
+mass. We can't go the speed of light. So, as long as you want to have a body, you cannot go the speed of light. And
+2:22:22
+and and so, um, even your great great great great
+2:22:27
+grandkids, you put them on the ship, they're not going to get there in time. And that's our nearest galaxy. So, there's this whole
+2:22:34
+46 billion lighty years across that we can see or 90 92 if you look both directions or something. some massive
+2:22:41
+thing billions of light years across and we can't get to the one that's only, you know, 2.3 million lighty years away, you
+2:22:46
+know, much less the tens of billions. So,
+2:22:52
+but if spacetime is the final reality, then we're stuck. We have to go through spaceime and oh boy, we'll just have to
+2:22:59
+go faster and and have great great grandkids. But if spaceime is just a headset and we learn the software, we
+2:23:06
+can just move ourselves from here to there, just like the person in the geek can take the Grand Theft Auto car and
+2:23:13
+say, "It's no longer at uh Lincoln and and Fifth Street, it's now over here in 23rd Street and so forth and just give
+2:23:21
+them the new coordinates and and there you are in in the in the new location. So we will be able to have technologies
+2:23:28
+that are indistinguishable from magic." Interstellar travel. What else?
+2:23:34
+Good question. I I've been so busy with It's fun to speculate. Yeah, just let's let's let me see what
+2:23:40
+other technologies um because you can see my my focus has been more on
+2:23:46
+the the technology itself. One step at a time, but but that one was obvious. The the
+2:23:52
+Andromeda galaxy thing was obvious. Well,
+2:23:59
+well, we may be able to warp spaceime itself once we time travel.
+2:24:07
+Yeah, because time itself is is merely a a projection.
+2:24:13
+Seems like you could bend reality at your will. In many ways you you will be able to but not in the
+2:24:19
+way that most people would think where if I just focus and concentrate hard
+2:24:25
+enough I can change it. This this will this will be technology. This will be
+2:24:32
+but it's going to be an interesting kind of technology. So here's here's here's the trick about
+2:24:37
+it. The only tools we have are in spacetime,
+2:24:45
+right? So we have to understand how those tools
+2:24:51
+are related to the structures outside of spaceime and that's why I'm working on on the
+2:24:57
+mathematics of that. We have to reverse engineer our headset in great detail. So
+2:25:03
+for example, cognitive neuroscience is the study of the brain and most of us have in my
+2:25:09
+field have thought of the brain as creating consciousness and it doesn't. But I still think we need more money for
+2:25:16
+cognitive neuroscience because what we have to do is reverse engineer the brain and ask what is the nature of this
+2:25:22
+conscious agent dynamics outside of spaceime that projects into what we call
+2:25:28
+neurons and neural activity synapses and so forth because that's how our headset
+2:25:33
+is being created. So once we understand cognitive neuroscience better and understand how to pull it back to the
+2:25:39
+dynamics of conscious agents and the trace logic outside of spaceime. So so we're really understanding the details
+2:25:46
+of our trace. What is our trace that's giving us this
+2:25:51
+space-time headset? Then we'll be in a position to say okay
+2:25:59
+what tools within the because right now all I can do is use tools inside this trace. Now, I haven't thought about
+2:26:04
+that. Is there is there any way for me to get tools outside the trace? That I don't know. I'll have to think about
+2:26:10
+that. Maybe. But but certainly we can use tools inside the trace. But we'd have to know exactly how those tools get
+2:26:17
+pulled back into operations behind spacetime in the conscious agent. And once we understand that, then we'll be
+2:26:24
+able to manipulate things. You know, it depend on how crude that
+2:26:29
+mapping is because it may we may be precluded from doing too much in the in
+2:26:35
+the world behind spacetime if our tools in the pullback are too crude. But my guess is that there'll be even if they
+2:26:42
+are crude, there'll be some new magic that we can do anyway. But but then
+2:26:47
+there's the question of can we directly start to access tools
+2:26:53
+not through our headset and some spiritual traditions have talked about that kind of thing where you
+2:27:01
+you aren't limited by the space-time headset.
+2:27:07
+I and I'm I'm not I'm not writing anything away, but but I'm saying right
+2:27:13
+now those things are are on the schm mystical side of things where it doesn't mean they're not true. It
+2:27:19
+just means that if they're true, they're not made rigorous enough yet for for someone hard-nosed like me.
+2:27:26
+Yeah. But they may be true, and I would want a hard-nosed way of saying that they work
+2:27:33
+and why they work. Um I mean again spec through speculation
+2:27:38
+but if it is technically possible and we get there one day whoever would be the pioneer and therefore have controller
+2:27:45
+ownership first would essentially have the capacity to play God and that raises so
+2:27:53
+many moral questions and power imbalances and uh I know it's further down the line and
+2:27:59
+it's not here yet but if that is the case and these technologies are birthed um who whatever individual organization
+2:28:07
+country has access to such technology first. I mean that would just completely
+2:28:14
+change the hierarchy of completely. What what I would
+2:28:21
+hope maybe even expect is that someone who really understands this theory
+2:28:27
+of consciousness well enough to be able to do that technology would deeply grasp
+2:28:36
+its implication that what you do to others is literally what you're doing to
+2:28:43
+yourself. Not figuratively, not not some platitude. You are literally when you
+2:28:51
+torture that person, you are literally torturing torturing yourself.
+2:28:59
+If they really grasp that, then I think they'll be careful at how
+2:29:06
+they open Pandora's box. It's a good wish. It's a good wish. And
+2:29:11
+but your but your point is well taken. I'm not dismissing your point at all. It's well taken. No, it's just a thought, I think. No,
+2:29:17
+it's it's a good it's an important thought. Mhm. What other what other thoughts around
+2:29:22
+when you look at the Fermy paradox? Yeah. And you look at how big and vast this universe is with seemingly no observable
+2:29:30
+life. Why is it so silent out there? If there is potentially probabilistically so many more
+2:29:36
+inhabitable planets with similar conditions to Earth, yet we cannot pick
+2:29:41
+up signs of alien life. Right. I'm just curious your thought
+2:29:47
+process around how alien life could very much so be operating through different
+2:29:53
+rule sets or a different headset in which would explain why we cannot in
+2:29:58
+this third dimension interact or seem to pick up them to the same degree we would we would uh originally think. Um, so I'm
+2:30:05
+curious what your thoughts are on are there if there are potential alien life
+2:30:11
+out there in the universe which would be more probable than not uh that might be very well operating within a different
+2:30:18
+headset of sorts, different dimension if you will. That's right. And it's been a
+2:30:25
+bit of a puzzle as you mentioned the permy fermy paradox that it's a huge
+2:30:31
+universe billions of light years across. Um
+2:30:38
+if there's life out there why haven't we seen it? What what what's going on here? And right now there are no
+2:30:44
+uncontroversial bits of evidence that of of life anywhere else except here on Earth. So,
+2:30:51
+it's it's quite an interesting paradox. And I mean, there's a a great book by Sarah Mari Walker. She's worked with Lee
+2:30:58
+Cronin and others on on assembly theory of of life. Um, very very interesting
+2:31:04
+theory. And I've had the pleasure of talking with Lee and on a podcast and discussing it with them.
+2:31:11
+And they they have have a a nice interesting model of life where it's it
+2:31:17
+you have um the assembly index for objects and the more complicated the
+2:31:22
+more steps minimum steps required to build an object the greater its assembly index. And if you have multiple copies
+2:31:29
+of a object with high assembly index, then they suggest that that's that's indic indicative of some higher
+2:31:37
+information processing system of life. And so it's an interesting
+2:31:45
+theory, but it's still inside spaceime. And even if it's if you try to expand it
+2:31:52
+outside of spaceime, it's still a more computational kind of model of life, an
+2:31:58
+information processing kind of model of of life. So
+2:32:04
+my my framework is different from from from that. And I'm saying that life
+2:32:09
+itself is fundamental. There's no inanimate information process that gives
+2:32:16
+rise rise to it. So it doesn't emerge from
+2:32:21
+information processing of inanimate systems that life itself consciousness
+2:32:27
+is is is fundamental. So then your question becomes even stronger the you
+2:32:33
+know well okay if life is fundamental why don't we see it man just here on
+2:32:40
+earth that's that's very very strange. So how can isn't this isn't the firmy
+2:32:45
+par paradox really good evidence for the physicalist point of view. Look it was
+2:32:50
+all just matter from the beginning. We're just lucky on this one planet that that matter got complicated enough that
+2:32:55
+life and consciousness emerged. So get rid of your consciousness first theories. The very lack of life and
+2:33:01
+consciousness elsewhere shows that the physicalism is really the way of thinking about things. And and so I turn
+2:33:07
+that around and say look life is all around us. consciousness is is fundamental. We have a headset that
+2:33:14
+gives us 0% of that reality. It's so
+2:33:20
+the the headset is losing all this information. So So the aliens, where are
+2:33:26
+they? You know, they're all around you. They're screened off by your headset.
+2:33:32
+What we what you can see are other people. You can see organisms and worms and so forth. You can see live and
+2:33:38
+bacteria and so forth. Um, but when I look at a rock, most of us say, "Well,
+2:33:43
+when you look at a rock, um, you're interacting with something that's fundamentally inanimate. It's not not
+2:33:49
+living at all." And I say, "Not at all. You're interacting with a consciousness,
+2:33:55
+the same consciousness that that you are, but your headset has given up. Your
+2:34:01
+headset says, "Look, I I'm not telling you all reality. I'm telling you 0% of reality.
+2:34:07
+And all I'm going to tell you now is I'm telling you about a rock. Behind that rock there's an infinitely complicated
+2:34:14
+consciousness of course living. So life is there as well. So there is no
+2:34:20
+principle distinction between living and non-living things. That's not a
+2:34:25
+principal distinction. And people who've been working on the problem of life have been trying to give
+2:34:31
+a definition. What is the principal distinction between living and non-living? And haven't been able to do it. And again, they're brilliant. The
+2:34:39
+reason they can't do it is because it's the wrong problem. The problem is your
+2:34:47
+headset is screening off life. It can't deal
+2:34:53
+with the profoundity of life. And so it desiccates it. Literally desiccates life
+2:34:58
+into inanimate what we call inanimate ma matter. But behind that inanimate matter, if you could take off the
+2:35:05
+headset, there's life and consciousness that would blow
+2:35:10
+you away. So where are they? They're all around you. Just take off your headset.
+2:35:15
+Actually, it it makes a lot more sense when you look at things like the Firmeny paradox and you're trying to
+2:35:24
+find out why there isn't as much life bursting out there in the universe to the degree we would would assume. Um but
+2:35:31
+when you look at it from the lens of the limitations of our own headset then you could see oh okay it's just we we have a
+2:35:39
+very limited scope on on what we can perceive through as life you know in the
+2:35:44
+cosmos. Absolutely. And you know we we've always been told to be humble and and we always
+2:35:51
+feel like well maybe I should be humble but of course I that's just me trying to
+2:35:56
+be good. But when you look at life through this
+2:36:02
+lens, for example, with trace logic, and you realize that you know 0% of reality,
+2:36:09
+then then it's no longer just sort of like a good idea to be humble. It's sort of like it's in your face. If you're not
+2:36:15
+humble, you're just flat stupid. So So humility is just being intelligent and
+2:36:21
+and being proud and arrogant is is is is being really dumb.
+2:36:26
+Yeah. It's really stupid. So, so if you think you've got the theory of everything and we're that close to, you
+Science, Mystery, and Humility
+2:36:33
+know, we're just a little bit more past the standard model, then it's easy to be arrogant because we're we're close to to
+2:36:39
+to knowing everything. But when you realize even if you get that next step past the
+2:36:44
+standard model, you know 0% of reality. Why is that good news? That there would
+2:36:50
+be no final theory of everything. That reality itself will always transcend any theory we have of it. Why is that good
+2:36:57
+news? Because you'll never be bored. You'll never be bored. Because from this
+2:37:02
+point of this bigger point of view, you are the one, the source. And
+2:37:08
+there's literally no end of exploration of who you are and who your neighbor is.
+2:37:15
+So your your neighbor and and even that little worm is a window.
+2:37:20
+An aphid, a bacterium are all windows. Even just a rock are windows on infinite
+2:37:30
+exploration. So imagine a world in which at some point you'll know everything.
+2:37:36
+That's a pretty boring world. Now now I know it all that that's all it was. That's that. Well, I
+2:37:44
+think that's not the world we're in. We're in a world in which there's infinite exploration and the
+2:37:49
+exploration is you. You are. But you transcend any scientific
+2:37:56
+exploration. I'm a scientist. So when I say that, I'm not saying don't do science. I spend my
+2:38:02
+life doing science. I'm all for science. But I'm all for doing it very humbly and saying
+2:38:09
+I'm here learning 0% of myself, but it's
+2:38:14
+a true representation as true as I can of this perspective on myself. But this is just one of countless perspectives.
+2:38:23
+And when I die, I take this headset off and it's time for a different
+2:38:29
+perspective. So, so and all the time I'm seeing all the different I mean these beautiful
+2:38:34
+plants a different headset perspective uh on the on the one
+2:38:40
+consciousness. So that it's great because there's never going to be boredom. There's infinite exploration
+2:38:49
+and a lot of the exploration will be done as the mystical traditions have said in silence. So I think that there's
+2:38:56
+and I do this now myself in in my own scientific um research. Of course you do your
+2:39:02
+mathematics, you do your you study hard, no nonsense, no BS. But then if I want
+2:39:07
+new creative ideas, I put it all aside and just sit in silence. And that silence itself is tapping into this
+2:39:16
+infinite wisdom that everybody is. I think breeds reverence back into the
+2:39:24
+human experience where from the purely reductionistic lens not that everybody
+2:39:30
+embodies that uh the perspective of if it's all just bound a bundle of atoms
+2:39:37
+really the the best thing that you could do is extract the most of it. You know you
+2:39:43
+could use it to your benefit how you will. there's no inherent moral value or
+2:39:48
+effect uh uh externally in that in that aspect. But from this perspective when you flip
+2:39:55
+it on its head in this chain of causality I am reminded of Thomas Barry's quote
+2:40:01
+that the universe is a communion of subjects not a collection of objects.
+2:40:07
+Yes. Very very good. And the vidantic lens of Indrris net are you familiar with that imagery? Yeah. it
+2:40:13
+to me when you explain the trace logic and marovian chain like if it it maps on
+2:40:19
+perfectly with it almost because there is this wide net and within each jewel
+2:40:24
+is reflected the the the others within it and so it it brings the coherence and
+2:40:31
+and connection of all life into that into that image. I'm curious your thoughts there because it seems so
+2:40:36
+consilient. I I I I agree on both both points. First, your point about that being a
+2:40:42
+physicist doesn't necessarily mean that you're immoral. In fact, I have many many good physicalist friends and and
+2:40:47
+they're wonderful people and I trust them completely with my life and my kids and and so forth. So, I'm I'm not so I'm
+2:40:54
+not not saying that. I'm just saying as you said that these philosophies tend to have logical conclusions that move in in
+2:41:01
+different directions. But I I agree with your point also about Indra's net that there's something very very
+2:41:08
+similar in spirit and and so this could be you know the the trace logic could be a first mathematical
+2:41:15
+statement of indet and and and in saying that I would say not that it completely
+2:41:22
+exhausts what the idea of indet but it's the first precise mathematical statement
+2:41:28
+that we could give in maybe indet is pointing to something even deeper. Right? Maybe the trace logic is just the
+2:41:34
+first baby step we're taking outside of spaceime and and we will find hopefully
+2:41:40
+much much deeper structures um and and and maybe thousands and
+2:41:47
+thousands of iterations of that all at some point you know exploring the
+2:41:53
+metaphor of of Indra's net more and more precisely deeper levels. I I maybe an inexhaustible
+2:41:59
+um direction to explore. And so I don't want to say, "Yeah, I done it with the
+2:42:04
+trace logic." I would say, "No, maybe I've taken the first scientific baby step in that direction." And hey, we
+2:42:10
+took a baby step in that direction. And let's let's first nail this one down. Let's really
+2:42:17
+get the math completely secure on this. So we So every step outside our previous
+2:42:23
+series has to be really secure. Once we got that nailed down, then let's look outside the limits of the the trace
+2:42:29
+logic. Okay, that was fun. Now, let's go on to the next thing. What what's And maybe the end net will still be a guide.
+2:42:35
+Maybe it won't, but maybe it will be a guide to the next deeper step.
+2:42:42
+To me, this has so many far-reaching implications on what it means to be a human. What is life? What is death?
+2:42:49
+How does this to you change what death is? If there is no clear
+2:42:55
+demarcation of a boundary between life and death as we were speaking to earlier, and death is then merely taking off of
+2:43:04
+the headset. Um, yeah. What What does that change? What's your perspective on
+2:43:09
+that? Well, first I don't want to sound like more spiritual than I am. Someone put a gun to my head, I'd be afraid. I'd
+2:43:15
+probably wet my pants. So, so I'll just put that on the table right away. So, anything that I say after this that
+2:43:20
+sounds like I'm super spiritual, I'll just put that right on the table. Okay. So, but now I'll try to think out of the
+2:43:27
+box. Death from this this framework um conscious agents and the trace logic
+2:43:35
+is merely taking off a headset. And there's an infinite number of headsets. And
+2:43:41
+in some sense, the whole point of being here is just to look at myself from this perspective.
+2:43:48
+Nothing that I build here is going to last. If I build an empire worth a trillion
+2:43:56
+dollars, I'm going to walk away from it. Whether I like like it or not, I'm going to walk
+2:44:03
+away from it. Everything every any book I write is going to burn or be
+2:44:08
+destroyed. anything. So nothing you do here lasts. So it's not about making
+2:44:14
+some physical structure that's going to last forever because it's not. So what is it about? It's not about
+2:44:21
+being important. Who was the most important person in 1753?
+2:44:26
+Couldn't care less. Who cares who was the richest person in 1844? I don't care. No one cares. No one's going to
+2:44:33
+care. It's not important. So what what is this all about? Because nothing that
+2:44:39
+nothing that you build lasts. No one that you love is going to live forever
+2:44:46
+from this from in this framework. It was really not about
+2:44:51
+living here forever in this little headset. It was enjoying this view of myself from this headset, learning about
+2:44:59
+myself and not being attached to this. This is just one view. This is not me.
+2:45:04
+This is a really a really interesting view of me. Wow, this is really neat.
+2:45:09
+You know, going to work, doing a job, cooking food, having kids, meeting
+2:45:15
+people, doing podcasts. Interesting perspective on myself. And I'm going to walk away from all this and none of it
+2:45:21
+will go with me. I'm I just leave it behind. But that was a perspective on
+2:45:27
+myself. And there's an infinite number of these the
+2:45:34
+once I learn to get with the pro not to be afraid not to cling to what I already know. If I can just learn to enjoy the
+2:45:42
+ride. This actually gets to the minimizing surprise stuff. So the trace logic
+2:45:47
+actually is is a little bit about this. Here I am in a particular trace.
+2:45:54
+One way to think about growing up in this framework is moving to a bigger trace, right? Expanding my horizon, move
+2:46:02
+move to a bigger trace. Well, when you do that, if I'm on a little trace and
+2:46:07
+I'm going to expand to a bigger trace, all of my transition probabilities, all the probabilities of, you know, if if I'm seeing red now, what's the
+2:46:13
+probability I'll see green? Or if I do this with my cup now, what's the probability that it'll fall? Those
+2:46:18
+probabilities are all going to change. So, growing up means
+2:46:26
+not resisting the unexpected
+2:46:31
+because the transition probabilities are different on the join on the bigger
+2:46:37
+space. Your your minimal surprise model worked for your conscious states. It
+2:46:46
+doesn't work if you want to expand your consciousness. You have to change all of your transition probabilities to be a
+2:46:52
+new consciousness in the new domain. That means you have to be willing to not
+2:46:59
+resist surprise. You have to be willing to so when the spiritual traditions say
+2:47:04
+you must accept what is. That's that's the key. That is the step in spiritual growth. Accept what is. That turns out
+2:47:11
+the trace logic completely agrees to go from where I am to the next bigger
+2:47:18
+next bigger step of join. I have to not resist all the changes in the probabilities
+2:47:26
+that are required for the new join. That's what it means to be at the new joint. And then once again as I go even
+2:47:32
+bigger I will have to not resist those. So what the trace logic is saying is it actually again I it either works or it
+2:47:39
+doesn't. I I'm not smart enough to make this stuff up. I mean, I just saw the trace logic, so it probably isn't true.
+2:47:46
+And and so it's not me. It's just really just the trace logic itself is so amazing.
+2:47:52
+It basically says what the spiritual traditions have been saying, and that is at every step, if you want to grow,
+2:47:58
+don't resist surprise. It makes me think about how the species
+2:48:04
+that survives is not the smartest or strongest, but the most adaptable, the
+2:48:10
+one that is uh has the capacity to be flexible and and change with the
+2:48:15
+uncertainty of times. And um there is a great in the Buddhist
+2:48:23
+tradition sort of understanding of the yard stick for your own degree of
+2:48:29
+growth is essentially your equinimity throughout the everchanging impermanent phenomena arising and passing away. and
+2:48:36
+na this impermanent flow of experience that we're always um moving through in
+2:48:41
+life and our ability to not stay attached to one experience positive or
+2:48:47
+negative. Yes. As uh like that's that's a that's a real growth as a human being. I I I
+2:48:54
+completely agree and and in some sense the the trace logic itself is just the logic of the experiences but the the
+2:49:02
+measurable space behind it is what you're pointing to and the spiritual traditions are pointing to that is the
+2:49:07
+the real deep you and that doesn't get changed or affected by
+2:49:14
+all the play of experiences. So so that equinimity makes sense in this trace
+2:49:19
+logic framework. actually it doesn't in the physicalist framework. In the physicalist framework um your life hangs
+2:49:26
+by a thread and if something goes wrong with your body it's extinguished. So you need to
+2:49:32
+do everything you can to try to stay as long as alive as because otherwise your consciousness is extinguished and that's
+2:49:38
+completely game over for you. This other framework says no
+2:49:44
+your consciousness is secure. The play of forms is just a headset that
+2:49:51
+you're trying on and you have you you are so deep and infinite that you can play with an infinite number of headsets
+2:49:58
+and and never ex you know completely explore your who you are. So, so there's
+2:50:05
+no reason to be afraid. But within the headset, it was is
+2:50:10
+interesting though, I guess, putting on a headset for the for the source to put on the headset.
+2:50:17
+It goes in with both feet. Let me I'm not just going to sort of put
+2:50:23
+on this headset. I'm going to put on this headset. Fully assume the role of a separate self. That's that's that's right. I'm going to
+2:50:29
+I'm going to really go in and I'm going to be afraid. I'm gonna let my and I'm gonna have dramas
+2:50:35
+and I'm gonna murder myself. In other I'm gonna really go into this whole thing and and experience the whole
+2:50:43
+thing. Otherwise, it's not really looking myself completely from that perspective.
+2:50:48
+So, it seems to be that as well that that you really do look at yourself from
+2:50:57
+that perspective and you go all in. So much so that you lose for a while who you are and then you have to wake up to
+2:51:03
+who you are. And that's why if you put a gun to me, I would pee in my pants because I haven't completely awakened to
+2:51:09
+who I am, right? I I can see now, but
+2:51:17
+the process of really integrating that in and understanding who I am as the one is
+2:51:26
+still a process that I'm going through. And for me, having this mathematics is a help. Yeah.
+2:51:32
+Yeah. To me, it brings a lot of gratitude for the contrast of the good
+2:51:37
+and bad things that we perceive in our life. You know, I just think of on the macro scale of like the most grotesque
+2:51:44
+assassinations and uh calamities that are happening in the planet in contrast
+2:51:49
+with the most beautiful grace and devotional love and outpouring and um
+2:51:55
+like the the full contrast of what's available within human experience is quite astounding. And when it comes to
+2:52:01
+our own personal life and our own personal struggles and different things, I think it brings some gratitude in the
+2:52:07
+picture that we get to have the experience of many different versions
+2:52:12
+and different feelings and emotions and what they all uniquely reveal about who
+2:52:17
+we are and our true essence. Yes. Um, and I know this is something that you've personally also been on in your
+2:52:23
+own health journey with long co with your with your with your heart. I'm curious what has come up for you on
+2:52:30
+the human emotional because there's of course the logical side where you can see and and phil you know philosophize
+2:52:36
+about a lot of these different things. Um but what when it comes to approaching your own human insecurity you know and
+2:52:43
+not just what a potential you know death or disease would mean for the people that love you but also the urgency of
+2:52:50
+your work and the imminent discoveries that are coming to bear fruit. I'm just curious how is how have you navigated
+2:52:56
+your own process around around the uncertainties of your health and the whole process? Well, it certainly has
+2:53:03
+put um my assumptions that I'm just a space-time physical object right in
+2:53:08
+front of my face. And I can see that, you know, the fears that I have um of death, you know, going to an operation
+2:53:16
+for my I have had two heart surgeries and I've had my heart started restarted
+2:53:22
+with a electric shock five times and so forth since co it's been it's been
+2:53:27
+not uh the way I had anticipated the last 5 years to be. Um but CO completely
+2:53:34
+changed the game and it put my mortality front and center. I mean, I I think I mentioned last time I texted my wife
+2:53:39
+goodbye um one in the hospital one time. So, it it certainly has um I've had the
+2:53:47
+headset removal right in my face a few times and and the headset's going to be removed.
+2:53:53
+Um, and there's nothing like having it almost removed number of times in the last 5 years to
+2:54:00
+um, have it not just be an abstract possibility, but but an in-your-face
+2:54:05
+reality and to see how I feel about it and to see see the the fears that are there and um, to f I mean, of course,
+2:54:13
+this is complete fact and I would have, you know, even 5 years ago said, "Yeah, of course I'm going to die." But but not
+2:54:21
+now. Not now. Maybe in 40 years or something like that, but not not now. And I can sort of you can sort of ignore
+2:54:26
+it and put it away. But when you're on the in the hospital and you're texting your wife goodbye, it's no longer, you know, an abstract possibility. So, it's
+2:54:35
+it I think it's helped me in looking outside of spacetime more and
+Conclusion
+2:54:40
+and but I then still see myself getting my
+2:54:46
+sense of importance or who I am by what I might accomplish, what I might discover. And so I have to look at that
+2:54:53
+and go okay to the extent that I get my sense of who I am by what I might discover and how important that might
+2:55:00
+be. Then to that extent that I still don't really know who I am because who I am is infinitely greater than that. So,
+2:55:07
+if I'm still looking to to to be important in some way, then then I
+2:55:14
+don't realize who I am and and and who you are that
+2:55:20
+I I like watching these videos um um by some Canadians called Just for Laughs
+2:55:26
+Gags and they they put people in all these unusual situations and they and they're
+2:55:33
+they all take them very very seriously. all they're worried or they're and then all of a sudden they find it's a gag and and you see the at the end people start
+2:55:40
+laughing and belly and they and and it's and I and I watch them all the time it
+2:55:45
+it helps to laugh and so forth is really good for you but it's also what life is like we're taking it all seriously and
+2:55:51
+and so forth but take the headset off and laugh and and that's what happens in these gags. you you you're you're taking
+2:55:57
+it all seriously. Uh and and then all of a sudden you find out the whole thing was a gag and then you and you just have
+2:56:02
+then people have a good belly laugh about it. And so there's that aspect about do your best while you're in the
+2:56:09
+headset. Um but don't take yourself too seriously. Um the egoic self too
+2:56:17
+seriously. But the thing to take seriously very seriously is that you are
+2:56:23
+the source that's infinite but so is your neighbor is this your source that's infinite and you know
+2:56:31
+this think about this in in the context of death this is one big importance
+2:56:36
+symbol from Christianity right the deepest symbol in Christianity is Jesus on the cross being tortured to
+2:56:46
+death in the most cruel way that people could imagine and having it hours the
+2:56:53
+most utter cruel pain. And what did he say while he was in the process of
+2:57:00
+watching the people who were hatefully killing him in the worst way that they
+2:57:05
+could come up with? He said, "Forgive them. They don't know what they're doing."
+2:57:11
+That's the deepest spiritual thing I've ever heard right there. And that, you
+2:57:17
+know, that is the centerpiece of Christianity and I think of all true
+2:57:23
+religion is to to have that attitude even in the face of people who are doing
+2:57:29
+that to you. Now, I'm not saying I'm anywhere near Jesus. No, if I was on the cross there, I'm I'm sure I'd be pissed
+2:57:35
+off and I'd be But I'm I'm saying that that's where my own theory says I should
+2:57:41
+go to that transcendent way of being that that trans but Hoffman's emotions are not there. My mind is saying here's
+2:57:47
+the theory that's going to take me there. I have a lot of spiritual growing up to do and all of us do. But that's
+2:57:54
+where the deep part of Christianity and any true religion. It's not in killing
+2:58:00
+the unbelievers, being angry with people that disagree with you.
+2:58:06
+It's forgiving them in the very moment in which they're hurting you.
+2:58:14
+And if we do that, our country will be a very different kind of country.
+2:58:21
+It's a different level of compassion when you hold the awareness of actions that are coming from a place of
+2:58:27
+unconsciousness or unawareness where it's really hurting the person doing it as well. Of course, as well as other
+2:58:33
+people that it's hurting in the external world. But you can have compassion for
+2:58:39
+seeing people as phenomenas unto themselves. You know, like if you see
+2:58:44
+somebody who does a horrific thing and hurts a lot of people, but then you come
+2:58:49
+to find out they have a brain tumor pressing on their amydala, it puts a different context into the picture of,
+2:58:56
+okay, I can have a bit more compassion for it wasn't full there wasn't full agency there. I just think that it's
+2:59:01
+fascinating that you can extrapolate that all the way down that there are many different forces within us that we
+2:59:08
+would not say that are consciously chosen but for the circumstances we were raised in or whatever. Like you know
+2:59:16
+people need to be held responsible for their actions and still uh we get to
+2:59:21
+have a have more compassion for all of the experiences that led them to
+2:59:27
+the point in which they would do those things. I I completely agree and and and and again Jesus on this was very very
+2:59:34
+clear in I think Matthew chapter 7 in the sermon on the mount he says flat out
+2:59:39
+judge not period don't judge any he couldn't be clear
+2:59:45
+there was no exceptions he just said don't judge other people period and then
+2:59:50
+he said but and he he also didn't say judge yourself he said notice he just
+2:59:55
+said notice the speck that's in your eye don't judge the other person for the the they say that the just notice the log
+3:00:03
+that's in your own eye, but don't judge the your brother or your sister for the speck that's in in their eye. So it it
+3:00:09
+that is the heart of Christianity. Anything that involves hatred of the
+3:00:16
+disbelievers, judging of other people is absolutely not
+3:00:22
+Christ. Absolutely not. Christ is absolutely no judgment. complete compassion, complete love for your
+3:00:28
+enemies. Love your enemies. Um, love
+3:00:33
+anybody who's needy. That's that's the heart and and soul and the deep thing is
+3:00:39
+what we've been talking about earlier. When you love your neighbor, you are
+3:00:45
+loving yourself. That's the the deep deep thing. When you don't judge someone else, you're not judging yourself.
+3:00:52
+Do you notice the spec Jesus said notice the log in your own eye? But he didn't
+3:00:57
+say judge yourself for it. He just said notice it. And that's only as soon as you notice it, you're not you're no
+3:01:03
+longer stuck in it. Oh yeah. Oh yeah. I'm afraid. Oh yeah, I was mistreating
+3:01:08
+that person. Oh, I was judging that person. So I'm not going to judge myself because I was judging you. I'm going to just notice. And that's, you know, I
+3:01:16
+wanted to kill all those people because they oh well that's, you know, okay, I'm not going to beat myself up. Okay, I'm just going to Okay, I noticed I was very
+3:01:22
+angry. I wanted to beat you. Okay, is Jesus mad at me? No, he said he he
+3:01:27
+wasn't mad at the people who were killing him. So, he's not mad at me. It's a very very different place. And
+3:01:33
+the only way it makes sense is to realize that everybody is the source
+3:01:38
+seen from a different perspective. That's the only way it makes sense. And I think for some of us having the
+3:01:44
+intellectual comprehension of that is is is supportive. And then for many you know the taste or the experience of that
+3:01:51
+being so and through meditative contemplative practices move the needle more uh we can take it where we get it
+3:01:59
+you know all of it's welcome. Absolutely. And someone who's who's you know a slow learner like me has to do both.
+3:02:05
+I'm I'm right there with you Don. I am always so fulfilled by the
+3:02:11
+conversation that we get to have and it's such a honor honestly to be able to have this discussion, explore the
+3:02:18
+emerging discoveries you're when you get fired up about all of it. Um, and then
+3:02:24
+all the implications for how it changes when we leave these chairs and when people turn off this podcast to move
+3:02:31
+through life with a bit more empathy, with a bit more understanding, with a bit more awe and curiosity. And uh, I
+3:02:37
+think that's a great thing. It was a great pleasure. Thank you very much, Andre. Yeah. Is there anywhere you want to
+3:02:42
+point people to uh any last uh things that are coming out or Yeah.
+3:02:48
+just where do you want to point people towards if they want to get more familiar with you, your work? Well, my book um the case against reality is more
+3:02:56
+about the evolutionary side. There's a little chapter about consciousness being fundamental at at the at the very end.
+3:03:04
+And I'm working on a paper on the trace logic that will be publishing a couple papers on it. One mathematical and and
+3:03:12
+so forth. So there's nothing yet on the trace logic that people can read. So this is like my first time I've really
+3:03:18
+been this deep in public with with the trace logic, but um
+3:03:24
+there I'm hoping within a couple months there there will be something out there that I can I can give to you and you can
+3:03:30
+if you want to send it to your audience. um sweet public publication. So, this is actually earlier even before my publications are
+3:03:36
+out on it. So, no, I'm I feel very grateful to get early access to some of the papers and things that you're sharing. It's it's so
+3:03:42
+fascinating. Thank you. Thank you everybody for tuning in to this episode of the Know Thyself podcast. Let us know in which
+3:03:50
+ways this was impactful to you and I'll see you next time. Thanks, Don. Thank you.
+3:03:59
+[Music]

@@ -1,0 +1,20 @@
+entity_id,capability_id,proficiency,context_suitability,cost_efficiency,notes
+TEXT,TEXT,TEXT,TEXT,TEXT,TEXT
+# Sample records showing how entities map to capabilities
+ENT_CUR,CAP_CDEDT,expert,focused,medium,Best for sustained coding sessions with AI assistance
+ENT_CUR,CAP_PYEDT,expert,focused,medium,Excellent Python support with intelligent completions
+ENT_CUR,CAP_JSEDT,expert,focused,medium,Strong JavaScript/TypeScript support
+ENT_VIM,CAP_CDEDT,expert,any,high,Lightweight and fast for quick edits
+ENT_VIM,CAP_PYEDT,intermediate,any,high,Requires configuration for full Python support
+ENT_NOT,CAP_NOTTKN,expert,any,medium,Primary note-taking with database capabilities
+ENT_NOT,CAP_NOTDB,expert,focused,medium,Best database-style notes organization
+ENT_NOT,CAP_TASKMGT,intermediate,any,medium,Basic task management within notes
+ENT_NOT,CAP_PROJMGT,basic,focused,medium,Limited project management features
+ENT_OBS,CAP_NOTTKN,expert,focused,high,Excellent for personal knowledge management
+ENT_OBS,CAP_NOTMD,expert,focused,high,Native markdown with graph view
+ENT_MID,CAP_IMGGEN,expert,deliberative,low,Premium aesthetic quality but Discord-based
+ENT_MID,CAP_ARGEN,expert,deliberative,low,Exceptional artistic and stylized results
+ENT_CLO,CAP_CDEDT,expert,focused,low,AI-first coding with conversational interface
+ENT_CLO,CAP_PYEDT,expert,focused,low,Strong Python reasoning capabilities
+ENT_RAY,CAP_NOTTKN,basic,reactive,high,Quick capture only no organization
+ENT_FIG,CAP_IMGEDT,expert,focused,medium,Professional-grade design editing

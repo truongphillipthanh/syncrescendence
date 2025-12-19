@@ -1,0 +1,1520 @@
+https://www.youtube.com/watch?v=i9kiuGIHlMY
+Google’s NotebookLM is Getting Even More Powerful
+71,857 views  Premiered Oct 21, 2025  4 products
+Tiago Forte tagged products below. Learn more
+
+Building a Second Brain
+$15.49
+shop.buildingasecondbrain.com/products/building-a-second-brain?variant=47619458105664&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorJpH4bmHW1tBi30Y2RsJS9XjJ5b6ZxKPoCtZhhzG22sACGne_vjcY
+ 
+
+The PARA Method
+$12.00
+shop.buildingasecondbrain.com/products/the-para-method?variant=47619460006208&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorgNMG2HRqFoMhpTqKQKYlAwZpYp12qtvLzUCa3P0N-IY2eResAx4g
+ 
+
+Pillars of Productivity
+$249.00
+shop.buildingasecondbrain.com/products/pillars-of-productivity?variant=47619454206272&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorB9iZt80gTAdvz-rHacVVRmhSCZUf7lcXtUXNc9y0uUUEZ4kBRLKY
+ 
+
+BASB Foundation
+$499.00
+shop.buildingasecondbrain.com/products/basb-foundation?variant=47619449389376&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOop0k8ckEgdXwx0I_N9FXo67bzMaeyOlrjkb5fSREoHpj0LnLs89utk
+🧠 Get my official NotebookLM notebook – ask questions and get AI coaching on Building a Second Brain: https://bit.ly/42MCM6K
+
+🚀 Join the next cohort of Second Brain Enterprise: https://bit.ly/4oexf1i
+
+If you're buried in articles, PDFs, and research but can't find time to actually use what you've saved, NotebookLM's updates solve this. 
+
+I'm demonstrating five features using real examples from my book project: 
+
+AI-generated presentations from my sources
+Mobile app for learning anywhere
+Expert-curated collections you can instantly use
+Built-in source discovery
+Mind maps that reveal connections you'd otherwise miss
+
+This works whether you're studying for exams, researching for a project, or trying to make sense of information you've collected. NotebookLM is completely free and unlike ChatGPT, it works specifically with your sources to give you personalized insights rather than generic answers.
+
+Visit https://notebooklm.google.com to sign up for a free NotebookLM account using your Google login
+
+👉 Check out my "Master NotebookLM" playlist    • How to Use NotebookLM (Google's AI "Tool f...  
+👉 Check out my “Level 1: Understanding the fundamentals” playlist:    • Tired of Lost Notes? The Simple System to ...  
+📊 Complete video overview from the demo:    • 📊 NotebookLM Video Overview - An Intention...  
+🗣️Voice dictation tool I use in this video: https://wisprflow.ai/
+
+#NotebookLM #AI #productivity 
+
+CHAPTERS:
+00:00 - 00:19 Introduction
+00:19 - 00:40 The Five Updates
+00:40 - 03:23 Video Overviews
+03:23 - 05:31 Generated Results
+05:31 - 09:45 Mobile App
+09:45 - 13:07 Public Notebooks
+13:07 - 13:30 The BASB Notebook
+13:30 - 16:22 Source Discovery
+16:22 - 19:48 Outline Generation
+19:48 - 22:35 Mind Maps
+22:35 - 23:41 Other Features
+23:41 - 25:31 NotebookLM vs Other AI Tools
+25:31 - 26:26 The CODE Method Still Applies
+26:26 - 27:20 Foundation Systems
+-----------------------
+💌 Join our weekly newsletter for more tips and resources: https://fortelabs.com/subscribe/ 
+
+📚ORDER MY BEST-SELLING BOOKS
+🧠 Building a Second Brain: A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential: https://www.buildingasecondbrain.com/...
+📂The PARA Method: Simplify, Organize, and Master Your Digital Life: https://www.buildingasecondbrain.com/...
+
+👩‍🎓 TAKE MY SELF-PACED COURSES
+1️⃣ Pillars of Productivity: https://www.buildingasecondbrain.com/pop
+2️⃣ BASB Foundation: https://www.buildingasecondbrain.com/...
+
+🤓  TEST YOUR PRODUCTIVITY POTENTIAL
+Take our Productivity Pulse Check to evaluate your daily habits and find out where you can make improvements. Take the quiz now: https://fortelabs.typeform.com/pulsec...
+
+👋 CONNECT WITH ME
+📬  My weekly newsletter: https://fortelabs.com/subscribe
+👩‍💻 LinkedIn:   / tiagoforte  
+🌐 My website: https://www.buildingasecondbrain.com/
+💌 My blog: https://fortelabs.com/blog/
+🐦‍⬛ X: http://x.com/fortelabs
+🟦 Facebook:   / fortelabs  
+🤳Instagram:   / fortelabsco  
+
+---
+
+Introduction
+0:00
+Have you ever wished there was a way to
+0:02
+turn an endless social media dune scroll
+0:04
+into a learning session? Found an
+0:06
+interesting article? If only there were
+0:08
+a way to create a podcast and listen to
+0:10
+it on your commute home. Upload a bunch
+0:12
+of research papers and generate a video
+0:14
+presentation while you are making
+0:16
+dinner. There is a way. Here's what I'll
+The Five Updates
+0:20
+cover in this video. five major updates
+0:22
+that shift Notebook LM from a notetaking
+0:25
+and productivity tool to a complete
+0:28
+learning and research platform. I'll
+0:31
+show you real demos of every single new
+0:33
+feature using my actual real projects,
+0:36
+no theoretical examples. Are you ready?
+0:39
+Let's dive in. You've probably seen
+Video Overviews
+0:41
+Notebook LM's audio overviews feature,
+0:44
+which have gone massively viral over the
+0:46
+last year or so. But sometimes that's
+0:48
+not enough. Sometimes you need to not
+0:51
+only hear but see the data, the
+0:54
+diagrams, the quotes, the images. Here
+0:56
+we are in the notebook LM interface. I'm
+0:59
+going to go ahead and create a new
+1:01
+notebook where I can now add a new batch
+1:03
+of sources. So, I'll go ahead and click
+1:06
+add, and I'll open up this folder that I
+1:09
+have here on the side, which is all the
+1:12
+files and folders related to one of my
+1:14
+biggest current projects, which is a
+1:16
+book that I'm writing, which will come
+1:17
+out next year on the practice of an
+1:20
+annual life review. So, as I've been
+1:22
+doing research for my book, I've been
+1:24
+finding different academic papers and
+1:26
+research studies. But here's the thing,
+1:28
+I'm only about two months away from my
+1:30
+manuscript deadline. I don't really have
+1:33
+time to comb meticulously through new
+1:36
+research. I feel this pull like there
+1:38
+could be something interesting, an
+1:39
+anecdote, a story, a piece of data that
+1:42
+could support the arguments I'm making
+1:43
+in my book, but I just do not have time
+1:46
+to read them in the traditional way. So,
+1:48
+what I'm going to do is select all and
+1:51
+drag these five PDFs, all of which are
+1:54
+academic papers, into the sources
+1:56
+window. So the first thing I like to do
+1:58
+is just to click on each individual
+2:00
+source because it will generate this
+2:02
+little summary of just this one source.
+2:04
+So now I have just kind of a rough sense
+2:06
+of the diversity of topics that these
+2:09
+five sources cover. Moving on from the
+2:11
+sources panel here on the left, I'll go
+2:13
+ahead and close that so we have more
+2:15
+space. I could go straight to the chat
+2:17
+panel here in the middle and start
+2:19
+asking it questions. But as I think
+2:21
+about that, I don't even know which
+2:23
+questions to ask. I need a little more
+2:25
+context on what I'm working with here.
+2:27
+What is the what does the landscape of
+2:30
+information look like that's represented
+2:32
+by these five sources? So, let's
+2:34
+actually go all the way over here to the
+2:36
+studio panel. And you'll notice that
+2:37
+there's a new option right here called
+2:39
+video overview. So, what I'm going to do
+2:42
+is click the little edit icon and give
+2:45
+it a little bit of guidance. I'll do
+2:47
+this by holding down a key on my
+2:49
+keyboard and then just speaking because
+2:50
+I use a text transcription tool that's
+2:53
+also AI powered called Whisper Flow. So
+2:56
+that's what you'll see here. I'm writing
+2:58
+a book on annual life reviews including
+3:01
+why they're so important, how to do them
+3:03
+successfully, what they have to do with
+3:05
+achievement and productivity. Can you
+3:07
+please give me an overview and summary
+3:09
+of these five sources in video form so
+3:12
+that I can decide whether or not they
+3:15
+have any relevance to the book I'm
+3:16
+writing and whether I might be able to
+3:18
+include them as sources. There you go.
+3:20
+Then I'm going to hit generate. That
+Generated Results
+3:23
+took about 10 or 15 minutes, but now I
+3:25
+can click on this video right here and
+3:28
+let's see what I came up with.
+3:29
+Welcome to the explainer. Today we're
+3:32
+going to talk about building something
+3:34
+really powerful. A framework for an
+3:36
+annual review that actually sticks. One
+3:38
+that can genuinely change your life. All
+3:41
+right, let's kick things off with a
+3:43
+quote that yeah, it might feel a little
+3:44
+too real for a lot of us. It's from a
+3:47
+2015 study on professional identity. And
+3:50
+man, does it nail that feeling that's
+3:52
+just so common in work culture today.
+3:54
+So, does that sound familiar? If you're
+3:57
+nodding your head right now, feeling
+3:58
+that constant tugofwar with work, then
+4:00
+you are absolutely in the right place.
+4:03
+That tension, that's our starting line
+4:05
+for figuring out how to build a more
+4:06
+intentional life. Okay, so let's dig
+4:09
+into this feeling because it turns out
+4:11
+it's not just you. It's a real thing.
+4:13
+And that right there is the big idea. An
+4:16
+annual life review is an act of
+4:18
+authorship. You are literally taking the
+4:21
+time to read the chapter that just ended
+4:23
+to really understand it and then to
+4:24
+consciously plot out the next one. So
+4:27
+what we've built here is a complete
+4:29
+architecture for a more intentional
+4:31
+life. It's a structure for reflection
+4:33
+that leads directly to action, which
+4:36
+leaves just one question for you. What
+4:38
+story are you going to write? And what's
+4:40
+the very first if then plan you're going
+4:42
+to create to start building it?
+4:44
+You can find a link to the full
+4:45
+presentation in the description below if
+4:47
+you want to check it out. What we just
+4:49
+witnessed is honestly one of the most
+4:52
+mind-blowing things I've seen. I can say
+4:54
+as someone who spent almost the last 2
+4:56
+years immersed in the topic uh that this
+4:59
+little video overview was about that
+5:01
+that was excellent. Think about what
+5:03
+just happened. I just threw five pretty
+5:05
+random papers. It not only summarized
+5:08
+those sources, but it linked them
+5:10
+together in a way that would have taken
+5:12
+any human many many hours at least. This
+5:15
+is such a powerful medium for learning
+5:17
+because visuals plus audio plus
+5:20
+narrative is really how humans have
+5:22
+shared knowledge for millennia. It's
+5:24
+such a more natural way for us to absorb
+5:27
+information than reading a cold, stale
+5:30
+document. But if you think about it,
+Mobile App
+5:32
+most learning doesn't happen like this,
+5:34
+sitting quietly at a desk for hours at a
+5:37
+time with zero distractions. It happens
+5:39
+when you stumble across that interesting
+5:41
+article on your lunch break or you're
+5:44
+listening to a podcast while walking
+5:46
+your dog. As long as Notebook LM was
+5:48
+limited to desktop only, it really meant
+5:51
+missing most of these what I call
+5:53
+microlearning opportunities. But not
+5:55
+anymore. They now have a mobile app. All
+5:59
+right. So, let's say that I'm taking a
+6:02
+little break during my workday. Here's a
+6:05
+kind of infographic that caught my eye
+6:07
+about seven proven models for change
+6:10
+management. That's something I'm really
+6:11
+interested in these days. So, I'll go
+6:13
+ahead and tap it and then I'll hit the
+6:15
+share button down here at the bottom
+6:17
+right and then share via. And you can
+6:20
+see I now have the notebook LM app as
+6:23
+one of my share destinations. So, I'll
+6:25
+go ahead and tap that. So, you'll see
+6:27
+the first thing it asks me is which
+6:29
+notebook I want to add this to. So I
+6:30
+could easily add it to one of my
+6:31
+existing notebooks. But let's go ahead
+6:33
+and create a new one with the button
+6:35
+down at the bottom. You can see down
+6:37
+here at the very bottom of the screen,
+6:38
+it's the same three panels that you see
+6:41
+in the desktop version, which is
+6:42
+sources, chat, and studio. So I'll go
+6:44
+ahead and move over to the chat panel,
+6:47
+and just ask using the audio
+6:49
+transcription tool built into my
+6:51
+smartphone, what is the single most
+6:54
+effective method for change management
+6:57
+recommended by this source? and how
+6:59
+could I use it to help organizations
+7:01
+adopt AI and then hit send. So let's see
+7:05
+what it came up with. Interesting. So
+7:07
+the response is the source does not
+7:09
+recommend a single most effective method
+7:12
+for change management. It depends on the
+7:14
+suitability for the specific type and
+7:16
+size of the change initiative. That
+7:18
+actually makes a lot of sense. So I'm
+7:20
+glad that it kind of pushed back on me.
+7:22
+So let's go down a little bit and see
+7:23
+what it recommends for my specific
+7:25
+situation of helping organizations adopt
+7:28
+AI. So here we see for small behavioral
+7:30
+changes related to AI adoption,
+7:33
+encouraging employees to use a new AI
+7:35
+powered tool for a specific task, nudge
+7:38
+theory could be effective. So I could
+7:39
+ask more about that. For individual
+7:41
+performance changes, the ADCAR model
+7:44
+might be appropriate. So you can see
+7:46
+it's it's given me not just a single
+7:48
+recommended approach, but kind of a
+7:50
+buffet of different options that I could
+7:52
+try. This is really taking what was
+7:54
+originally a static piece of content
+7:56
+that was completely not customized to me
+7:59
+that someone posted on LinkedIn and
+8:01
+bringing it into my context, customizing
+8:04
+it and personalizing it for what I am
+8:06
+trying to accomplish, which just saves
+8:08
+me a tremendous amount of cognitive
+8:10
+effort, which is effort that I can then
+8:12
+put into actually implementing this
+8:13
+advice. So, this is fascinating. This is
+8:16
+already giving me some really concrete
+8:17
+examples, some practical takeaways that
+8:20
+I could take into my consulting with
+8:21
+companies. Let's try one more thing,
+8:23
+which is to head over to studio and go
+8:26
+ahead and generate an audio overview.
+8:28
+You can see right down here it says this
+8:30
+may take a few minutes, but there's no
+8:32
+need to stick around. So, I could put my
+8:34
+smartphone down. I could even exit the
+8:36
+Notebook Len app. I could lock my phone
+8:39
+and the system would keep generating in
+8:41
+the background, which is nice. That took
+8:43
+about 4 minutes and we can now listen to
+8:45
+it.
+8:46
+Okay, let's unpack this. Imagine pouring
+8:48
+I mean countless hours, huge energy,
+8:52
+significant resources into what you
+8:54
+really believe is a brilliant idea for
+8:56
+change.
+8:56
+Yeah. Something transformative.
+8:58
+Exactly.
+8:58
+So imagine how you could use this. You
+9:00
+generated this over five or 10 minutes
+9:03
+on your lunch break during work. You
+9:05
+could then on your commute back home
+9:06
+that same day spend the 10 or 11 minutes
+9:10
+it takes to listen to that podcast.
+9:12
+You've now successfully linked together
+9:15
+and integrated what were previously
+9:17
+these disconnected little bits of time
+9:19
+throughout your day into a cohesive
+9:21
+learning journey even though you don't
+9:23
+have hours to spend in your day. I hope
+9:25
+you can see through this that this
+9:27
+boundary between work time and learning
+9:30
+time is just completely dissolving. This
+9:33
+app is really bringing the power of
+9:35
+AIdriven learning and AIdriven research
+9:38
+to all those little microlearning
+9:40
+opportunities that you have throughout
+9:42
+the day and throughout the week where a
+9:44
+desktop or laptop computer just doesn't
+Public Notebooks
+9:46
+fit. But this also raises a bigger
+9:48
+question. Why should it be so difficult
+9:50
+to find highquality reliable sources
+9:53
+especially when experts have already
+9:56
+organized that research for you? The
+9:59
+notebook LM team last year added the
+10:01
+ability to make a notebook public. What
+10:05
+you're seeing here is a featured
+10:06
+notebook. This is a publicly available
+10:09
+notebook that was put together by
+10:11
+best-selling author Eric Toppel, who is
+10:13
+a professor at Scripps and has written a
+10:16
+lot and researched about longevity. How
+10:18
+do you live long and how do you live
+10:20
+well? So, think about how valuable this
+10:21
+is. How long would it take you to go
+10:24
+individually and find and vet and add
+10:27
+each one of these sources? Instead, an
+10:30
+existing expert, in this case, Topel has
+10:33
+done it all for you. So, you can see
+10:34
+here it automatically creates a summary
+10:37
+of the collection of sources here in the
+10:39
+middle just to kind of orient you around
+10:42
+what you're looking at. But I have a
+10:43
+specific question which is I have quite
+10:46
+a bit of cancer history in my family in
+10:49
+both my parents and my grandparents.
+10:52
+What is Eric Toppel's best advice for
+10:55
+how I can live my life now in my 40s so
+10:58
+that I can avoid cancer for the rest of
+11:01
+my life? He underscores that no
+11:03
+intervention can offer a 100% guarantee
+11:06
+against cancer, but a comprehensive
+11:08
+lifestyle approach is his best advice.
+11:11
+So here you can see his advice around
+11:14
+diet, avoiding ultrarocessed foods,
+11:16
+limiting sugar, prioritizing good
+11:19
+carbohydrates and fiber. I'm already
+11:21
+realizing that this is comprehensive but
+11:23
+also a little bit overwhelming. So I
+11:25
+think I'm going to now draw on notebook
+11:28
+LM's broad knowledge of even other
+11:31
+topics beyond this notebook and ask
+11:33
+something very specific and practical. I
+11:36
+live in Mexico with my family and we
+11:39
+have someone who cooks lunch every day
+11:41
+for us in the afternoon. Could you
+11:43
+please give me a recipe list and a meal
+11:47
+plan for a full week of her cooking that
+11:50
+takes into account all the advice in
+11:52
+this chat? Okay, it's a set of
+11:54
+guidelines. So, it's summarizing the
+11:56
+guidelines up here, but then it has done
+11:58
+what I specifically asked, which is what
+12:01
+do we actually eat on Monday, on
+12:03
+Tuesday, on Wednesday. So, you can see
+12:06
+baked fish with roasted root vegetables,
+12:09
+black bean and quinoa bowl, chicken, and
+12:11
+colorful stir fry. I mean, this looks
+12:13
+honestly pretty delicious. I think I'll
+12:15
+even go one step further and say,
+12:17
+"Please get all of the meals described
+12:19
+in this meal plan. Identify every single
+12:22
+ingredient that I will need to prepare
+12:24
+them, and then put them into a grocery
+12:26
+list that is organized according to the
+12:29
+sections of a typical grocery store."
+12:31
+And there we go. We have produce
+12:32
+section, all the vegetables we'll need,
+12:34
+fruits, meat, and seafood counter,
+12:36
+dairy, pantry. What these public and
+12:39
+featured notebooks really mean is that
+12:41
+once someone has put together a
+12:43
+thoughtful, thorough collection of
+12:45
+sources on any topic anywhere in the
+12:47
+world, instead of having to sort of
+12:49
+passively listen to a podcast or watch a
+12:51
+YouTube video, you can go in like this
+12:53
+and interact with their entire body of
+12:55
+work in one central place. These sharing
+12:58
+capabilities mean that we can all now
+13:01
+kind of reallocate our time and effort
+13:04
+from knowledge gathering to knowledge
+The BASB Notebook
+13:07
+synthesizing. Speaking of which, I've
+13:10
+actually taken advantage of the new
+13:12
+public sharing options to create an
+13:14
+official building a second brain
+13:17
+notebook. It includes all my books I've
+13:19
+written, all my articles, all my
+13:21
+podcasts, all my YouTube videos,
+13:23
+including ones like this one, and even
+13:25
+more that hasn't been public. which it's
+13:28
+taken me over a decade to research and
+Source Discovery
+13:30
+produce. But there's still a bottleneck.
+13:34
+Even with expert curated notebooks like
+13:36
+this one, what happens when you need
+13:38
+sources for your specific project? The
+13:41
+hardest part of research or at least the
+13:43
+most consuming part has always been the
+13:45
+hunt, finding credible, highquality
+13:48
+resources in the first place. Notebook
+13:50
+LM now has a way for you to discover new
+13:54
+sources right within the interface. Let
+13:57
+me show you what that looks like. So,
+13:58
+I'll go ahead and create a new notebook.
+14:01
+And then you'll see there's a new button
+14:03
+right up here in the add sources little
+14:06
+dialogue window which says discover
+14:08
+sources. So, notice what's happening
+14:10
+here. Instead of having to open up a
+14:12
+dozen or two random tabs, instead of
+14:14
+having to do searches on Google or on
+14:17
+YouTube or look on social media or
+14:20
+wherever you find your sources, you can
+14:22
+just do it right here. So for my book on
+14:24
+annual reviews, I recently heard about a
+14:27
+concept called infraian rhythms. So I'd
+14:30
+like to know more about that. So I'll go
+14:32
+ahead and ask it. Find highquality
+14:35
+researchbacked sources about infraian
+14:38
+rhythms, including multi-day, weekly,
+14:42
+monthly, and yearly time scales. Try to
+14:45
+find anything that might be relevant and
+14:47
+useful for a book that I'm writing on
+14:49
+annual life reviews. All right, so you
+14:52
+can see that just took about 20 seconds
+14:55
+and it's curated around 10 different
+14:58
+sources. I think it usually defaults to
+15:00
+10. So, you can either just go ahead and
+15:03
+leave all the boxes checked. You could
+15:05
+also uncheck certain ones if you don't
+15:06
+think they're relevant. And to know
+15:08
+whether they're relevant, you can just
+15:10
+click this button right here, and it
+15:12
+will open the original source in a new
+15:14
+window. These all look pretty valid to
+15:16
+me. You can see it's a mix of web pages,
+15:19
+blog posts, as well as YouTube videos,
+15:21
+which is nice. I'll go ahead and hit
+15:23
+import. All right, that took about 30
+15:26
+seconds. And now that these are loaded
+15:29
+into the main notebook element
+15:31
+interface, I can click on each one as I
+15:33
+usually do and just get a little summary
+15:35
+of what these are about. So just based
+15:38
+on that, this looks like a really
+15:39
+excellent selection of sources. This
+15:41
+summary here in the middle is also a
+15:44
+summary of all 10 sources. So if I
+15:46
+didn't want to go in individually, I
+15:47
+could just get a, you know, an overview
+15:49
+of the entire group of them all at once.
+15:51
+But I think the first thing I'm going to
+15:53
+do since I'm I'm still trying to just
+15:55
+wrap my head around this collection of
+15:57
+sources that it's discovered is to click
+16:00
+each one of the studio types. Audio
+16:02
+overview, let's do a video overview.
+16:05
+Let's do a mind map. And let's do a
+16:09
+briefing doc. So, at this point, I would
+16:11
+probably step away, go have lunch, go
+16:13
+for a walk, maybe do some exercise, and
+16:15
+just let my AI research assistant go and
+16:18
+create each of these different types of
+16:20
+outputs. All right, so the briefing doc
+Outline Generation
+16:23
+was ready the soonest, which is usually
+16:25
+the case. This sounds really
+16:27
+fascinating. So, I actually now want to
+16:29
+see if AI can help me understand how all
+16:33
+of this research, which is really quite
+16:34
+extensive, might be directly applicable
+16:37
+to the book I'm writing. So, I think
+16:39
+what I'll do is convert it to source by
+16:41
+clicking this button right here. And you
+16:42
+can see it was added right there. And
+16:44
+then I think what I'll do is actually
+16:46
+deselect all the other sources and only
+16:49
+select that one. And then I can ask it,
+16:52
+can you tell me ideas for how this
+16:54
+research and these findings might be
+16:57
+relevant and useful in a book I'm
+16:59
+writing on annual life reviews? And
+17:01
+there we go. So, it's given me several
+17:03
+ideas. Uh, integrating multi-year life
+17:06
+cycles. That is something I had not
+17:07
+considered that I could definitely
+17:08
+incorporate. So this is excellent. And
+17:11
+in fact, I even want to go beyond this
+17:13
+now. So what I'm going to do to kind of
+17:15
+do even one more of those passes, one
+17:17
+more of those loops, is let's go ahead
+17:19
+and remove all these research sources
+17:21
+because we've sort of summarized and
+17:23
+distilled them pretty well. Then what
+17:25
+I'm going to do is do another round of
+17:28
+discovering sources. This time though,
+17:30
+I'll search Google Drive and I think
+17:33
+make the scope of what I'm looking for a
+17:35
+little broader. search my Google Drive
+17:37
+and find any potential source that's
+17:40
+related to our relationship to time or
+17:43
+the impact of different rhythms or
+17:46
+patterns in time on human psychology or
+17:50
+motivation or cognition. So, this is
+17:53
+interesting. It's finding um the outline
+17:56
+of the current book that I'm writing.
+17:57
+So, I think I'll actually unselect that.
+17:59
+But I'm seeing some of my Readwise
+18:01
+highlights from books I've read, some
+18:03
+highlights and excerpts from the book
+18:05
+The Body Keeps the Score, which I hadn't
+18:07
+considered relevant to this. Some blog
+18:09
+posts I've written, which could have
+18:11
+some of my personal story anecdotes and
+18:13
+writing samples that I've done in the
+18:15
+past. So, that seems interesting.
+18:17
+All right, that took a few minutes
+18:19
+because a couple of these sources are
+18:21
+hundreds of thousands of words long. But
+18:24
+now what I'm going to do since I have
+18:26
+another batch of sources is say draft an
+18:29
+outline for a chapter in my book that is
+18:32
+all about the science and research of
+18:36
+humans relationship to time and how
+18:39
+rhythms at different scales including
+18:41
+hourly, daily, weekly, monthly, yearly
+18:45
+have an impact on how we think, feel,
+18:48
+and perform. And there we go. The
+18:50
+rhythms of life. understanding our
+18:51
+relationship with time, self, and
+18:53
+performance. So, I'm going to go ahead
+18:55
+and close these two other panels so that
+18:58
+I can see looks like one section is an
+19:01
+introduction, time, our most elusive
+19:03
+dimension, the micro rhythms, the mess
+19:06
+rhythm. So, it's broken it up into kind
+19:08
+of small, medium, and large size
+19:11
+rhythms, which makes a lot of sense.
+19:13
+Wow. Excellent. What this really means
+19:15
+is that the research bottleneck is
+19:17
+shifting. The question which has been
+19:20
+the question for so many years and
+19:21
+decades and centuries which is where is
+19:24
+the good information? Can I get my hands
+19:26
+on the good information? that has
+19:29
+shifted now to what unique insights,
+19:33
+what unique perspective, what unique
+19:35
+angle can I extract or distill from this
+19:39
+information based on what's unique to
+19:41
+me, my life history, my existing
+19:44
+knowledge and expertise, my way of
+19:45
+seeing the world or of seeing this
+Mind Maps
+19:48
+subject. But here's what happens next.
+19:50
+You've got all these highquality
+19:52
+credible sources, but once again,
+19:54
+there's a new different problem. You
+19:57
+can't see how they connect. You're
+19:58
+reading them still in a way linearly one
+20:01
+at a time, quickly forgetting what you
+20:03
+just read in the previous one and
+20:05
+therefore potentially missing patterns
+20:07
+and connections between them. Sometimes
+20:09
+your brain needs to zoom out from the
+20:12
+nitty-gritty details to the big picture
+20:14
+so that you can then know which details
+20:17
+you want to zoom back into. This is
+20:19
+where interactive mind maps are so
+20:21
+incredibly useful. Let's use the example
+20:24
+of the notebook we were just looking at
+20:26
+about the rhythms in human life. You can
+20:29
+see a few things. First of all, it's
+20:30
+somewhat interactive. You can click and
+20:33
+drag the mind map around and then it's
+20:36
+broken down for you what are the main
+20:38
+subtopics, the main parts of this big
+20:42
+topic called biological rhythms. So,
+20:44
+let's say I want to know more about one.
+20:46
+For example, seasonal cycles in human
+20:48
+psychology. You can see that it kind of
+20:50
+opens up and shows me the next layer of
+20:52
+subtopics. Every time you see one of
+20:54
+these little right-facing arrows, that
+20:56
+means you can click it and see another
+20:58
+layer of detail. So, let's see.
+21:00
+Cognitive performance. That's the one
+21:02
+I'm most interested in. And it looks
+21:04
+like we end up with really specific
+21:06
+concrete examples like Alzheimer's,
+21:08
+seasonal effective disorder. I'm
+21:10
+actually most interested since my book
+21:12
+is not really about um medical
+21:14
+conditions. I'm interested in healthy
+21:16
+adults and how their attention might
+21:18
+shift. So, if I click on that sub
+21:21
+subtopic, it actually opens up a new
+21:24
+chat that is specifically related to
+21:27
+that thing that I clicked. It looks like
+21:29
+uh it's giving me a bit more detail,
+21:31
+which is even in healthy adults,
+21:34
+sustained attention and working memory
+21:36
+varies uh their cognitive performance
+21:39
+varies according to the seasons. It
+21:41
+looks like it's based on meteorological
+21:43
+changes like sunlight and temperature,
+21:45
+but also ecological factors. So my
+21:48
+question here is, what time of year is
+21:52
+cognitive performance the highest in
+21:54
+humans on average? Interesting. So it
+21:56
+looks like in healthy adults, at least
+21:58
+the sources that I have so far do not
+22:00
+specify what time of year, cognitive
+22:02
+functions are best, but in Alzheimer's
+22:04
+patients, their symptoms are more severe
+22:07
+in the winter and early spring. So
+22:10
+interesting. I've reached a little bit
+22:11
+of a dead end, at least in terms of what
+22:13
+I am trying to learn. But this could
+22:15
+absolutely be the starting point of a
+22:17
+whole another loop, right? I could click
+22:19
+right here and say save to note. So you
+22:21
+can see it saves that response as a
+22:23
+note. I could then convert it to a
+22:25
+source. And then I could even do another
+22:27
+round of discovering sources and try to
+22:29
+find sources that do indicate what time
+22:32
+of year cognitive performance is
+22:34
+highest. Now you've seen the five major
+Other Features
+22:36
+updates, but before we talk about when
+22:38
+to use them strategically, let me just
+22:40
+rapid fire through some kind of smaller
+22:43
+changes that also do affect how you'll
+22:45
+actually implement this. New audio
+22:48
+overview types. So you can now choose a
+22:50
+deep dive mode where it really gets deep
+22:53
+into the details. You can choose a brief
+22:55
+mode if you want something short and
+22:56
+quick. You can use a critique where it's
+22:59
+actually criticizing and trying to
+23:01
+disprove the content of the sources or
+23:04
+you can use a debate format where
+23:06
+there's two people debating back and
+23:07
+forth. You can choose the length of the
+23:10
+audio overview that you want, short,
+23:12
+medium, or long. There is now a student
+23:15
+version of Notebook LM that is designed
+23:17
+to be used in educational settings like
+23:19
+schools, which has stricter privacy for
+23:22
+minors. It doesn't train on the data
+23:24
+that you put into it ever. And they even
+23:27
+have a $9.99 per month student discount
+23:29
+that you can use to get this more
+23:31
+affordably. And last but not least, it
+23:33
+can now work with PDFs. You can either
+23:36
+upload the PDF in its entirety or you
+23:38
+can just provide a link and it will go
+23:40
+find the contents of that PDF itself.
+NotebookLM vs Other AI Tools
+23:42
+Now, zooming out for a second, here's
+23:44
+the strategic question that determines
+23:47
+whether this actually changes how you
+23:50
+work and how you study. When should you
+23:52
+use Notebook LM instead of an LLM such
+23:56
+as say chat GPT or CLOD? There's really
+23:59
+three very specific scenarios in which
+24:02
+Notebook LM beats ChatGpt or Claude. The
+24:05
+first is when working with massive
+24:07
+information sets. Notebook LM is based
+24:10
+on Gemini which has a 25 million token
+24:14
+context. when you have a lot of
+24:16
+documents, a lot of data that you're
+24:18
+trying to dump in there, Notebook LM is
+24:20
+a great choice. The second scenario is
+24:22
+when accuracy and precise citations
+24:26
+really matter. If you're doing any kind
+24:28
+of highstakes work, whether it's in
+24:29
+science or in health or it's for a test
+24:32
+or it's for a client, and you really
+24:34
+need to know that the responses it's
+24:37
+giving you are correct, that it's not
+24:39
+hallucinating, and you need to be able
+24:41
+to click a citation and verify for
+24:44
+yourself that it's correct. Notebook LM
+24:46
+is one of the best, if not the best AI
+24:49
+tool that is really source grounded.
+24:51
+They don't try to hide sources. They
+24:53
+don't try to make you forget about where
+24:55
+this is coming from. They actually make
+24:57
+sources first class citizens in your
+25:00
+work with AI which is really rare I
+25:02
+found among other AI tools. And third,
+25:05
+Notebook LM is I would say the best
+25:08
+choice these days if you learn best
+25:11
+through audio or visual mediums. There
+25:14
+are other AI tools that have visual and
+25:16
+audio formats, but you kind of have to
+25:18
+piece them together. You have to do some
+25:20
+custom stuff. You have to move content
+25:22
+from one place to another. Notebook LM
+25:24
+is almost the only one that has all of
+25:27
+that integrated into a single very
+25:29
+userfriendly interface. But here's the
+The CODE Method Still Applies
+25:31
+deeper principle that I think Notebook
+25:33
+LM is built on. Your unique collection
+25:36
+of information, your information, your
+25:39
+notes, your thoughts, your ideas, your
+25:42
+research has become more valuable in the
+25:46
+age of AI, not less. Notebook LM and
+25:49
+similar tools actually represent the
+25:51
+evolution that I predicted way back in
+25:53
+my book building a second brain. We're
+25:55
+increasingly moving from collecting
+25:57
+information to cultivating insights. The
+26:00
+code method that I first formulated
+26:02
+years ago is still just as valid. I
+26:05
+would say even more valid than before.
+26:07
+You have to capture information. You
+26:09
+have to organize it. You have to distill
+26:11
+it with the help of notebook LM and
+26:13
+other AI tools. And eventually at some
+26:16
+point you really need to express it. All
+26:18
+of that can now happen at AI speed. Your
+26:21
+current knowledge isn't being replaced
+26:23
+by AI. It's being amplified by it.
+Foundation Systems
+26:26
+Notebook LM is a very powerful tool. But
+26:28
+to truly transform how you work with
+26:31
+information. You need some foundational
+26:33
+systems in place first. Things like how
+26:35
+to manage your to-do list, how to handle
+26:37
+your email, how to organize your digital
+26:40
+world, and even just take notes
+26:42
+effectively. I've created a
+26:44
+comprehensive playlist on digital
+26:46
+productivity and information management
+26:48
+that walks you through all the key
+26:51
+strategies from streamlining your daily
+26:53
+workflows to implementing frameworks
+26:56
+like my parah method to building project
+26:58
+management skills that give you real
+27:01
+control and focus. The future belongs to
+27:04
+those who can combine systematic
+27:07
+information management with AI
+27:08
+augmentation. What I recommend is that
+27:11
+you start with these systems and then
+27:13
+you supercharge them with AI. Subscribe
+27:15
+below if you'd like more guidance from
+27:17
+me on exactly how to do that.

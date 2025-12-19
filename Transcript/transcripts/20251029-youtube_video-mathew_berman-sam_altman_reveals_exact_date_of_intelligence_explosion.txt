@@ -1,0 +1,968 @@
+Sam Altman reveals exact date of intelligence explosion
+67,672 views  Oct 29, 2025
+Experience the future of design workflow with Recraft's Chat mode. Join the waitlist for free here: https://go.recraft.ai/MatthewBerman_C...
+
+Download One Hundred Ways to Use AI Guide 👇🏼
+http://bit.ly/3WLNzdV
+
+Download Humanities Last Prompt Engineering Guide (free) 👇🏼
+https://bit.ly/4kFhajz
+
+Join My Newsletter for Regular AI Updates 👇🏼
+https://forwardfuture.ai
+
+Discover The Best AI Tools👇🏼
+https://tools.forwardfuture.ai
+
+My Links 🔗
+👉🏻 X: https://x.com/matthewberman
+👉🏻 Forward Future X: https://x.com/forward_future_
+👉🏻 Instagram:   / matthewberman_ai  
+👉🏻 Discord:   / discord  
+👉🏻 TikTok:   / matthewberman_ai  
+
+Media/Sponsorship Inquiries ✅ 
+https://bit.ly/44TC45V
+
+Links:
+https://openai.com/live/
+
+---
+
+Transcript
+
+
+0:00
+We think it is plausible that by
+0:02
+September of next year we have sort of a
+0:04
+intern level AI research assistant and
+0:07
+that by March of 2028 we have like a a
+0:10
+legitimate AI researcher and this is the
+0:12
+core thrust of our research program.
+0:13
+Open AAI just finished their corporate
+0:16
+restructuring. They have a brand new
+0:19
+deal with Microsoft. They're continuing
+0:21
+their partnership and they did a live
+0:23
+stream and here's the thing. Sam Alman
+0:25
+and Jakob Pachaki gave an incredible Q&A
+0:28
+in which they revealed the exact date
+0:32
+for AGI. I couldn't believe they gave
+0:35
+such a precise date yet here we are. Let
+0:37
+me break down the entire live stream for
+0:39
+you. And a big thanks to Recraft for
+0:41
+sponsoring this video. More on them
+0:43
+later. So, first here is their timeline.
+0:46
+Look at this. We are here October 2025
+0:49
+in September 2026. Such a specific date.
+0:54
+automated AI research intern as they
+0:56
+describe it. Basically, a pretty good AI
+0:59
+researcher that can help facilitate AI
+1:02
+research. But here is where it gets
+1:04
+crazy. March 2028. It's hard for me to
+1:09
+imagine how they were able to come up
+1:10
+with such a precise date for this, but
+1:13
+automated AI research. Now, if you
+1:15
+remember back to the intelligence
+1:17
+explosion timeline from the situational
+1:20
+awareness paper, it actually came almost
+1:24
+at the exact time that open AI is
+1:27
+predicting. But when we have automated
+1:30
+AI research, then the acceleration of AI
+1:35
+is only limited by how much compute we
+1:38
+can throw at it. That is the time in
+1:40
+which we have what's shown here, the
+1:42
+intelligence explosion. And that is when
+1:44
+we rapidly hit super intelligence
+1:47
+shortly after. And so that is really
+1:50
+what open AI as a research lab is
+1:53
+heading towards. And I think that's
+1:55
+really what all of the frontier labs are
+1:58
+heading towards, which is whoever
+2:00
+reaches self-improving artificial
+2:03
+intelligence first just wins. Everyone
+2:06
+else loses. And that's because once you
+2:08
+hit self-improving AI, it's recursive.
+2:11
+it improves on its improvement and the
+2:14
+rate of improvement grows and once you
+2:16
+hit that how is anybody else supposed to
+2:18
+catch up and so that is why Mark
+2:20
+Zuckerberg is willing to misallocate
+2:22
+hundreds of billions of dollars because
+2:24
+the downside of missing the boat on AI
+2:29
+is far greater than a few measly
+2:31
+hundreds of billions of dollars and
+2:33
+obviously that's what Sam Alman believes
+2:35
+as well now another thing they covered
+2:37
+is the duration of automated tasks that
+2:40
+chatt And AI in general is able to
+2:43
+complete. And I keep hearing frontier
+2:46
+model companies talk about this. What
+2:48
+happens if AI can complete tasks
+2:50
+autonomously for 5 days or 5 months or 5
+2:53
+years? Well, that's what we're seeing
+2:55
+here. Right now, we can do 5 seconds, 5
+2:58
+minutes, 5 hours, but 5 days we're not
+3:01
+quite there. Then from there, we're
+3:03
+going to see five weeks, five months,
+3:05
+and fiveyear tasks. But of course, as
+3:08
+I've been saying for a while, it's not
+3:09
+just about the duration. It's about what
+3:11
+you can actually accomplish within that
+3:13
+duration. It's about how efficient you
+3:15
+can be with your token usage with the
+3:18
+compute during the duration. So again,
+3:21
+it's not just the duration. It is very
+3:24
+much about the efficiency as well. But
+3:25
+tying it back to the intelligence
+3:27
+explosion, remember at this point when
+3:30
+models can run autonomously for extended
+3:32
+periods of time, the only limiter, the
+3:36
+only thing preventing us from ramping up
+3:38
+the quality, from ramping up the
+3:40
+performance of artificial intelligence
+3:42
+is how much compute we can actually
+3:44
+throw at it. But of course, this type of
+3:46
+AI doesn't only need to be applied to AI
+3:50
+research. Imagine biomed research.
+3:52
+Imagine trying to have new material
+3:55
+science and drug discovery. All of these
+3:58
+things in which we have autonomous AI
+4:01
+researchers just completely running on
+4:03
+their own discovering incredible things
+4:05
+for humanity and the only thing we have
+4:07
+to do is provide it with sand and
+4:09
+electricity. And by the way, let me just
+4:11
+pause for a second and tell you about
+4:12
+the sponsor of today's video, Recraft.
+4:15
+Are you still wasting time jumping
+4:16
+between your AI chats and design canvas?
+4:19
+Recraft's new chat mode ends that for
+4:22
+good. So, imagine this. You generate a
+4:24
+logo, drag it into the chat, and say,
+4:26
+"Create a full brand kit from this.
+4:29
+Social posts, posters, mockups, all in
+4:32
+minutes." And at the end, you have a
+4:34
+consistent set of full brand assets that
+4:36
+you can use immediately. This is the
+4:38
+magic of Recraft's new chat mode. It's a
+4:40
+powerful AI chat assistant within
+4:43
+infinite canvas. Start in chat for
+4:45
+lightning fast exploration and then
+4:47
+switch to canvas for pixel perfect
+4:49
+control. No more switching between apps.
+4:52
+The entire creative process from first
+4:54
+prompt to final assets happens now in
+4:57
+one place. So stop just generating
+4:59
+images. Start creating with precision.
+5:02
+Join the beta chat mode weight list
+5:04
+today. Link in the description. Let them
+5:06
+know I sent you. Recraft has been a
+5:08
+phenomenal partner. Now back to the
+5:10
+video. The next thing I want to cover
+5:12
+from this live stream is what they call
+5:13
+chain of thought faithfulness. And it's
+5:16
+super interesting because I had not
+5:18
+heard OpenAI's thoughts on this before.
+5:20
+Let's watch it together and I'll give
+5:22
+you my thoughts along the way.
+5:23
+Starting from our first reasoning
+5:24
+models, we've been pursuing this new
+5:26
+direction interpretability. And the idea
+5:28
+is to keep parts of the model's internal
+5:31
+reasoning free from supervision. So
+5:34
+don't look at it during training and
+5:38
+thus let it remain representative of the
+5:41
+model's internal process. Um
+5:45
+so we refrain from from from kind of
+5:49
+guiding the model to think good thoughts
+5:51
+and and and and so let it let let it
+5:54
+remain a bit more faithful to to to what
+5:57
+it actually thinks. Right? And this is
+5:58
+not guaranteed to work of course, right?
+6:01
+we cannot make uh mathematical proofs
+6:04
+about deep learning and so this is
+6:06
+something we study. Uh but there are two
+6:08
+reasons to be optimistic. One reason is
+6:10
+that we have seen very promising
+6:11
+empirical results. Uh this is a
+6:14
+technology we employed a lot internally.
+6:16
+Uh we use this to understand um how our
+6:20
+models u um train h how their
+6:25
+propensities evolve over training.
+6:27
+So let me just describe what he's
+6:28
+talking about real quick. He is talking
+6:30
+about being able to trust the model to
+6:33
+have aligned models and look at their
+6:36
+chain of thought which is kind of the
+6:37
+reasoning steps they take before
+6:39
+providing you with an answer and having
+6:41
+trust that it is first aligned with
+6:44
+human incentives and it's actually
+6:46
+stating what it does really believe
+6:49
+rather than trying to react to what we
+6:51
+want it to believe and that'll make AI
+6:53
+in general much more safe and so to
+6:56
+really enable that kind of insight into
+6:58
+what the model's thinking. He's
+7:00
+basically saying, "Let the model run.
+7:02
+Let the model think and we're not going
+7:04
+to look at it along the way. We're going
+7:05
+to look at it after and see what it
+7:07
+thought without any human intervention
+7:09
+along the way."
+7:10
+And secondly, uh it is scalable and in
+7:13
+the sense that explicitly we make the
+7:15
+scalable objective not adversarial to
+7:17
+our ability to monitor the model. Um
+7:21
+and of course an objective not being
+7:24
+adversarial to the ability to monitor
+7:26
+the model is only half the battle. Um,
+7:29
+and you know, ideally you want it to to
+7:31
+to get it to help with monitoring the
+7:33
+model. And so this is something we're
+7:34
+we're researching quite heavily.
+7:36
+Um, but one important thing to
+7:38
+underscore about chain of thought
+7:39
+faithfulness is it's somewhat fragile.
+7:42
+Um it really requires drawing this clean
+7:45
+boundary uh and having this clear
+7:47
+abstraction uh and having restraint in
+7:50
+in what ways you can access the chain of
+7:52
+thought and this is something that is
+7:54
+present uh at OpenAI from algorithm
+7:57
+design to the way we design our products
+7:59
+right so so if you look at the chain of
+8:02
+thought summaries in CHP uh if we didn't
+8:05
+have the chain of summarizer if we just
+8:07
+make the chain of fully visible at all
+8:09
+times right that would make it kind part
+8:11
+of the overall experience and over time
+8:13
+it will be very difficult to not subject
+8:15
+it to any supervision.
+8:17
+Um and so long term we believe that by
+8:19
+preserving some amount of this
+8:20
+controlled privacy for the models uh we
+8:23
+can retain the ability to understand
+8:25
+their inner process.
+8:26
+I find that so interesting. He's
+8:28
+basically like because we're able to
+8:30
+give the models privacy. We're going to
+8:33
+leave them alone, allow them to think
+8:35
+what they want to think, it'll actually
+8:38
+give us more insights into how they
+8:40
+think. And I guess that makes sense, but
+8:41
+it's almost like treating these models
+8:44
+like a human. And that does rub me a
+8:47
+little bit the wrong way, but I find it
+8:50
+fascinating. Let's keep going.
+8:51
+And we believe this can be a very
+8:53
+impactful technique uh as we move
+8:54
+towards these very capable longunning
+8:57
+systems. Um I'll hand back to some.
+9:00
+Okay, that's very hard to follow uh with
+9:02
+the rest of this and obviously that's
+9:04
+the most important part of what we have
+9:05
+to say. But um you know just to to
+9:07
+reiterate uh we may be totally wrong. We
+9:10
+have set goals and missed them miserably
+9:11
+before. But with the picture we see, we
+9:13
+think it is plausible that by September
+9:16
+of next year, we have sort of a intern
+9:19
+level AI research assistant and that by
+9:22
+March of 2028, which I believe is almost
+9:24
+5 years to the month after the launch of
+9:26
+GPT4. Um, we have like a legitimate AI
+9:30
+researcher and this is the core thrust
+9:31
+of our research program.
+9:32
+All right. Next, he talks about OpenAI's
+9:34
+infrastructure plan. And to think that
+9:36
+they were grand before, well, let me go
+9:39
+through it with you right now. Again,
+9:41
+OpenAI's current infrastructure, current
+9:44
+30 plus GAWW currently being built, $1.4
+9:49
+trillion worth. A lot of people when
+9:52
+they saw his original Stargate plan for
+9:55
+7 trillion in funding to build out the
+9:58
+greatest AI infrastructure in the world
+10:01
+laughed. They thought 7 trillion, that
+10:03
+that's a mistake, right? That can't be
+10:05
+right. Well, he's already $1.4 trillion
+10:08
+of the way there. Crazy. And so the
+10:11
+thing he's going to talk about next is
+10:13
+building a factory to build AI
+10:16
+factories. It is not enough just to
+10:19
+build the factories. You have to build
+10:20
+the factory that builds the other
+10:21
+factories. And what they are talking
+10:23
+about internally, not committed to yet,
+10:25
+is a gigawatt per week coming out of a
+10:28
+factory that can produce that, which is
+10:30
+insane. And here is their first true
+10:33
+mention of robotics. Let me play this
+10:35
+clip.
+10:35
+To do this will require a ton of
+10:37
+innovation, a ton of partnerships,
+10:39
+obviously a lot of revenue growth. Um,
+10:41
+we'll have to repurpose our thoughts
+10:43
+about robotics to help us build data
+10:44
+centers instead of doing all the other
+10:46
+things. Um, but this is where we'd like
+10:48
+to go and over the coming months we are
+10:50
+going to do a lot of work to see if we
+10:51
+can get here. Um, it will be some time
+10:53
+before we're in a financial position
+10:55
+where we could actually pull the trigger
+10:56
+and get going on this.
+10:57
+All right. Next, he talks about the new
+10:59
+structure of Open AI. Remember, there
+11:02
+was the for-profit, there was the
+11:04
+nonprofit, there was the drama with Elon
+11:06
+Musk, there was the public benefit
+11:08
+corporation, and now everything is
+11:10
+finalized. The relationship with
+11:11
+Microsoft is finalized. We know how much
+11:13
+they own. We know what that partnership
+11:15
+looks like. We know what the IP
+11:16
+ownership looks like. So, let me show
+11:18
+you. First, it is much more simple.
+11:21
+There's the OpenAI Foundation which is
+11:23
+the nonprofit and the Open AAI group
+11:26
+which is a public benefit corporation. A
+11:28
+public benefit corporation is a company
+11:31
+in which its mission is not only to
+11:33
+deliver shareholder value but also to
+11:36
+deliver some kind of other mission. An
+11:38
+example of that is Patagonia which I
+11:40
+believe is kind of the most famous
+11:41
+public benefit corporation at least
+11:43
+historically until now. Now here are
+11:45
+some interesting tidbits. The nonprofit
+11:48
+governs the public benefit corporation.
+11:50
+It owns 26% of PBC equity and a little
+11:53
+asterisk warrant to potentially receive
+11:55
+more equity in the future. Uses
+11:58
+resources of ownership and the PBC can
+12:00
+attract the resources required to
+12:02
+succeed at OpenAI's mission. What does
+12:04
+that mean? That means fundraising and
+12:06
+inevitably an IPO. And he says the
+12:09
+OpenAI Foundation is going to be the
+12:12
+biggest nonprofit ever. The OpenAI
+12:14
+Foundation is also making a $25 billion
+12:17
+commitment to two very important areas
+12:20
+of AI. One, health and curing diseases,
+12:23
+and two, AI resilience. And next, he
+12:26
+goes through a bunch of Q&A questions.
+12:29
+And some of them are very interesting,
+12:30
+and his answers are just as interesting.
+12:32
+So, the first question Sam Alman gets is
+12:34
+about advertising and addictiveness of
+12:38
+social products and how Sora seems to be
+12:40
+following that same path of products
+12:43
+like Facebook and Tik Tok and Instagram.
+12:47
+And here's what he thinks and he is very
+12:49
+honest about it. He says, "Yeah, I'm
+12:51
+very worried. Let's watch."
+12:52
+We're definitely worried about this. Uh
+12:54
+I worry about it not just for things
+12:56
+like Sora and Tik Tok and ads and chbt
+12:59
+which are maybe known problems that we
+13:01
+can design carefully but you know we
+13:03
+have certainly seen people develop
+13:05
+relationships with chatbots that we
+13:07
+didn't expect and there can clearly be
+13:09
+addictive behavior there given the
+13:11
+dynamics and competition in the in the
+13:13
+world. I suspect some companies will
+13:15
+offer very addictive new kinds of
+13:17
+products. Um and I think you'll have to
+13:19
+just judge us on our actions. We'll have
+13:20
+to you know we'll make some mistakes.
+13:23
+We'll try to roll back models that are
+13:24
+problematic. If we ship Sora and it
+13:26
+becomes super addictive and not about
+13:28
+creation, we'll, you know, cancel the
+13:30
+product and you'll you'll have to just
+13:31
+judge us on that. My hope and belief is
+13:34
+that we will not make the same mistakes
+13:36
+that companies before us have made. Uh I
+13:38
+don't think they meant to make them
+13:39
+either. It's uh you know, we're all kind
+13:41
+of discovering this together. We
+13:43
+probably will make new ones, though, and
+13:44
+we'll just have to evolve quickly and
+13:46
+have a tight feedback loop. We we can
+13:48
+imagine all sorts of ways this
+13:50
+technology does incredible good in the
+13:51
+world. also obvious bad ones and um you
+13:55
+know we're guided by a mission where
+13:56
+we'll just continuously evolve evolve
+13:58
+the product.
+13:59
+All right. Next he gets asked if GPT40
+14:02
+is going to be around for a while.
+14:03
+We have no plans to sunset 40. Uh we are
+14:07
+not going to promise to keep it around
+14:08
+till the heat death of the universe
+14:10
+either. But we we understand that it's a
+14:12
+product that some of our users really
+14:13
+love. We also hope other people
+14:15
+understand why um it was not a model
+14:18
+that we thought was healthy for miners
+14:20
+to be using. Um, we hope that we build
+14:23
+better models over time that people like
+14:25
+more. You know, the people you have a
+14:26
+relationship with in your life, they
+14:27
+evolve and get smarter and change a
+14:29
+little bit over time. And we think that
+14:31
+we hope that the same thing will happen.
+14:34
+But yeah, no, no plans to uh no plans to
+14:36
+sunset for currently.
+14:37
+All right. Next, Yakob is going to be
+14:39
+asked when will AGI happen? I love this
+14:42
+and I love Sam just looking at him and
+14:44
+asking him the question. So, I'm going
+14:46
+to play that part real quick and then
+14:47
+give Yakob the chance to answer it.
+14:49
+Here's a good anonymous question for
+14:51
+Yakob. When will AGI happen?
+14:54
+Um, I think in in some number of years
+14:57
+we'll look back at these years and we'll
+15:00
+say, you know, this was kind of the
+15:01
+transition period when AGI happened. I
+15:03
+think as Sam said like early on adopting
+15:05
+we thought about AGI kind of emotionally
+15:07
+as this like thing that is like the kind
+15:10
+of ultimate solution of all the problems
+15:12
+and and and um it's it's this like
+15:15
+single point um for which there is
+15:18
+before and after I think um we found
+15:22
+that it's uh a bit more continuous than
+15:23
+that and so in particular for like
+15:25
+various kind of benchmarks that you know
+15:27
+seemed like kind of the obvious like
+15:29
+milestones towards AGI I think I think
+15:31
+we now think of them as kind of like
+15:32
+indicating like you know roughly how far
+15:35
+away we are in years. And so uh you know
+15:38
+if you look at a succession of of of of
+15:40
+milestones such as computers beating
+15:42
+humans at chess and then at go and then
+15:46
+uh you know computers being able to
+15:47
+speak in natural language and computers
+15:49
+being able to solve math problems right
+15:52
+I think well they clearly kind of get uh
+15:54
+closer together. I I would say I think
+15:56
+it's the AGI term has become hugely
+15:59
+overloaded and as Jakob said it'll be
+16:00
+this process over a number of years that
+16:03
+we're in the middle of. Uh but one of
+16:05
+the reasons we wanted to present what we
+16:07
+did today is I think it's much more
+16:10
+useful to say our intention our goal is
+16:12
+by March of 2028 to have a true
+16:13
+automated AI researcher and define what
+16:15
+that means uh than it is to sort of try
+16:18
+to you know satisfy everyone with a
+16:20
+definition of AGI. All right. So, next,
+16:22
+how about when GPT6? Let's watch.
+16:24
+Shindy says, "When GPT6?" I think I
+16:27
+think I think uh in time wise, maybe
+16:29
+that's more of a question for you. I
+16:30
+don't know either exactly when we'll
+16:31
+call it that, but I think a clear
+16:33
+message from us is say 6 months from
+16:35
+now, probably sooner. We expect to have
+16:38
+huge steps forward in model capability.
+16:40
+Next, Sam Alman is going to say, "When
+16:42
+we're going to get a Windows version of
+16:43
+Chachib Atlas,
+16:45
+when is Chacht Atlas for Windows
+16:47
+coming?" asks Lars. Uh I don't know an
+16:49
+exact time frame. some number of months
+16:51
+I would guess. Uh it's it's definitely
+16:53
+something we want to do and more
+16:55
+generally this idea that we can build
+16:57
+experiences like browsers and new
+16:59
+devices that let you take AI with you
+17:00
+that get towards this sort of ambient
+17:03
+always helpful uh assistant rather than
+17:06
+something you just query and response.
+17:08
+Uh this will be a very this will be a
+17:10
+very important direction for us to to
+17:12
+push more on.
+17:13
+And thanks once again to Recraft for
+17:15
+sponsoring this video. I'll drop a link
+17:17
+for them down below. Check them out.
+17:18
+They've been a great partner to this
+17:20
+channel. Let them know I sent you. So,
+17:22
+that's it. Those are all the most
+17:23
+interesting bits from this live stream.
+17:25
+If you enjoyed this video, please
+17:26
+consider giving a like and subscribe.
+17:28
+and I'll see you in the next

@@ -1,0 +1,13 @@
+log_id,entity_id,timestamp,action_type,duration_seconds,context_spatial,context_attentional,context_temporal,trigger_method,success,notes
+TEXT,TEXT,TIMESTAMP,TEXT,INTEGER,TEXT,TEXT,TEXT,TEXT,BOOLEAN,TEXT
+# Sample records showing usage patterns
+LOG_001,ENT_CUR,2025-01-15 09:23:45,launch,7245,fixed,focused,sustained,keyboard_shortcut,TRUE,Morning coding session on React project
+LOG_002,ENT_RAY,2025-01-15 09:23:38,search,3,fixed,focused,reactive,keyboard_shortcut,TRUE,Used to launch Cursor
+LOG_003,ENT_NOT,2025-01-15 10:45:12,access,1842,fixed,divided,deliberative,browser_tab,TRUE,Research note review during meeting
+LOG_004,ENT_CLO,2025-01-15 14:15:33,launch,423,fixed,focused,reactive,terminal_command,TRUE,Quick bug fix in terminal
+LOG_005,ENT_MID,2025-01-15 15:30:22,access,2156,fixed,immersed,deliberative,browser_tab,TRUE,Generated concept art for presentation
+LOG_006,ENT_CUR,2025-01-15 16:12:11,resume,3891,fixed,focused,sustained,window_switch,TRUE,Continued React work after meeting
+LOG_007,ENT_OBS,2025-01-15 19:45:33,launch,956,situated,glanceable,reactive,launcher,TRUE,Evening journal entry on laptop
+LOG_008,ENT_GPT,2025-01-15 20:12:45,access,234,situated,divided,reactive,mobile_app,TRUE,Quick question while cooking
+LOG_009,ENT_FIG,2025-01-16 10:00:15,launch,9234,fixed,immersed,sustained,keyboard_shortcut,TRUE,All-day design sprint
+LOG_010,ENT_RAY,2025-01-16 10:00:10,search,2,fixed,focused,reactive,keyboard_shortcut,TRUE,Used to launch Figma

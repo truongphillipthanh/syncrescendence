@@ -1,0 +1,19 @@
+context_id,context_name,dimension,spectrum_low,spectrum_high,description
+TEXT,TEXT,TEXT,TEXT,TEXT,TEXT
+CTX_SPA_FIX,Fixed,spatial,stationary,mobile,Immobile workstation with external peripherals
+CTX_SPA_SIT,Situated,spatial,stationary,mobile,Laptop on stable surface with moderate peripherals
+CTX_SPA_AMB,Ambulatory,spatial,stationary,mobile,Movement while interacting with handheld device
+CTX_ATT_FOC,Focused,attentional,single,divided,Sustained single-task concentration
+CTX_ATT_DIV,Divided,attentional,single,divided,Attention split across multiple concurrent tasks
+CTX_ATT_IMM,Immersed,attentional,single,divided,Flow state with minimal external awareness
+CTX_ATT_GLN,Glanceable,attentional,single,divided,Brief intermittent attention between other activities
+CTX_TMP_REA,Reactive,temporal,immediate,extended,Real-time response to emerging stimuli
+CTX_TMP_DEL,Deliberative,temporal,immediate,extended,Unhurried analysis and decision-making
+CTX_TMP_SUS,Sustained,temporal,immediate,extended,Extended engagement over hours or days
+CTX_SOC_SOL,Solitary,social,private,public,Individual work without observers
+CTX_SOC_COL,Collaborative,social,private,public,Synchronous multi-user interaction
+CTX_SOC_INT,Intimate,social,private,public,Presence of trusted individuals
+CTX_SOC_PUB,Public,social,private,public,Visible to strangers or general audience
+CTX_RSK_REC,Recreational,risk,low,high,Leisure activity with minimal consequences
+CTX_RSK_PRO,Productive,risk,low,high,Work output with professional implications
+CTX_RSK_MIS,Mission-critical,risk,low,high,Outcomes with severe failure consequences

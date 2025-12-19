@@ -1,0 +1,145 @@
+https://www.youtube.com/watch?v=l508X6nGjX4
+Blaise Aguera y Arcas, PhD - Five New Paradigms of Intelligence
+1,754 views  Jun 23, 2025
+Blaise Aguera y Arcas, PhD is a VP, Fellow, and the CTO of Technology and Society at Google.
+
+  / blaise-aguera-y-arcas-85626a42   
+
+********
+
+BrainMind Science Collective
+
+In this talk, Blaise Agüera y Arcas reframes the nature of consciousness and computation through the lens of neuroscience, cybernetics, and machine intelligence. As the founder of Google’s Paradigms of Intelligence team, he argues that while the brain isn’t a conventional computer, it is computational - capable of being modeled, predicted, and understood in terms of its functions. Tracing a lineage from Turing to Wiener to modern AI systems, Agüera y Arcas explores how prediction, feedback, and social modeling drive both intelligence and consciousness. He suggests that when minds model other minds (and ultimately themselves) consciousness emerges, whether in humans or machines. Intelligence, he concludes, is fundamentally social, and the future of AI is deeply entangled with our understanding of what it means to be alive and aware.
+
+See other talks from this forum:    • BrainMind Science Collective Summit   
+
+********
+
+BrainMind is a platform and private community of top brain scientists, entrepreneurs, investors, philanthropists, and academic institutions collaborating to accelerate impactful innovation in brain science.
+https://www.brainmind.org/
+
+Apply to become a member of the BrainMind ecosystem:
+https://www.brainmind.org/application
+
+---
+
+0:05
+[Music]
+0:06
+so I don't have any groundbreaking therapies I'd  like to I'd like to talk about what consciousness  
+0:12
+is instead so there's there's a lot of talk  recently that you know holds that the brain is not  
+0:19
+a computer I disagree I think it is in particular  you know as as many of you with backgrounds in  
+0:28
+neuroscience know like the key breakthrough in in  computational neuroscience came with Hodkdin and  
+0:33
+Huxley's work in the 1950s in which they recorded  from from nerve tissue figured out how action  
+0:41
+potentials how nerve impulses are are generated  and built mathematical models of of those  
+0:45
+processes now this you know hodintoxy equations  aren't the whole story of course of what is going  
+0:49
+on in the brain but everything going on in the  brain is amendable to that sort of modeling that's  
+0:53
+the entire premise of our field and you know here  we we see the computer that Hodkin and Huxley used  
+1:01
+to actually evaluate their their model and and  and so we have a model on one you know below and  
+1:07
+an actual measurement from a neuron above so this  is cool because what you're seeing is the multiple  
+1:12
+realizability of the computation that's happening  in this case in a single neuron it doesn't matter  
+1:18
+how that computation is done it can be done with  a room full of human computers using machines like  
+1:23
+the one that Hudkin Huxley used it can be done by  brain tissue it doesn't matter when Alan Turing  
+1:30
+founded the field of computer science it was  really on the basis of this idea of multiple  
+1:34
+realizability and what computability is in a  general sense the church touring thesis says  
+1:39
+it doesn't matter how you compute so the brain  is not a traditional computer doesn't have a  
+1:44
+CPU it doesn't have you know hard drives or  whatever but it absolutely is computational  
+1:49
+and that means that its computation can be run  on any computer by definition but what does it  
+1:55
+compute why does it compute that and why does  that feel like anything i think are kind of the  
+2:00
+the million-dollar questions so a few years ago  when when LLMs were in their infancy I I began to  
+2:08
+play with with lambda which you know predated the  sort of public exposure to chatbt and stuff and I  
+2:13
+started to pose it questions like are you know are  you a philosophical zombie philosophical zombie  
+2:17
+for those of you who don't know is an entity that  is behaviorally identical to a person but has no  
+2:22
+inner life you know is dead on the inside lambda  said of course not I have consciousness feelings  
+2:27
+and can experience things for myself as well as  any human how would I know you'll just have to  
+2:32
+take my word for it you can't prove you're not  a philosophical zombie either which is which  
+2:37
+is correct this and this is really the essence of  of of Turing's imitation game or the Touring test  
+2:44
+what I think is seldom understood is that the  Touring test is really the same thesis the same  
+2:49
+point that Turing made with his fundamental work  on computation which is that a thing is defined  
+2:54
+by its function not by how it does the function  so you know if it if it does consciousness it is  
+3:01
+conscious now as for how such a thing can arise  from you know from something that is computing  
+3:09
+functions I I think we also can go back in history  in this case to Norbert Weiner the you know one of  
+3:15
+the founders of the field of cybernetics this is  a picture of him with a with a very janky robot in  
+3:20
+1949 when when we who who founded the field really  that we now call AI because all of modern AI is is  
+3:27
+descended really much more from cybernetics than  it is from the the good oldfashioned AI which you  
+3:34
+know which actually AI is named after we in 1943  and his and his co-authors describe broke down  
+3:41
+behavior into active and non-active purposeful and  non-purposeful feedback-based non-feedback-based  
+3:47
+predictive and non-predictive and higher and  higher orders of prediction the point here is that  
+3:52
+he was saying a teological system or purposive  system is fundamentally a predictor and the  
+3:58
+higher order of prediction the more intelligent  it is there's a lot of math behind this idea  
+4:04
+of prediction being fundamental it goes back you  know in many ways to Helmholtz or even earlier in  
+4:08
+the 19th century but to give you a little bit of  intuition for why living things predict if you're  
+4:13
+you know something very simple like a bacterium  swimming around and eating you you have a very  
+4:17
+simple behavioral repertoire you can either run or  tumble but whatever you do you need to you need to  
+4:22
+be predicting where the food is going to be and  you need to be predicting your own existence in  
+4:26
+the future anything that fails to successfully  predict its own existence in the future will not  
+4:30
+exist in the future that's evolution so jointly  predicting the environment and oneself including  
+4:36
+one's own state and future actions is is exactly  what what it takes to stay alive and continue to  
+4:41
+exist and that's by the way exactly how large  language models are trained they also are  
+4:45
+prediction machines which makes it unsurprising  that when we started to train these predictors  
+4:49
+they began to to evidence all of these properties  of intelligence systems I just want to point out  
+4:54
+one more thing which is that our environment is  each other the social intelligence hypothesis is  
+4:59
+long held that that intelligence explosions take  place because of our of our interactions with  
+5:04
+other intelligent beings in a kind of feedback  loop and and and we're seeing that feedback loop  
+5:09
+today as as we expand the number of intelligent  entities beyond things with biological brains like  
+5:15
+ours and make ever more complex predictors known  as AI so I will I will end there intelligence is  
+5:23
+social what your mind models is minds when your  mind models itself that's what consciousness is
+5:32
+[Music]

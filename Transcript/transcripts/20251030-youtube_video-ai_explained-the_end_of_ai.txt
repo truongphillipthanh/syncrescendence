@@ -1,0 +1,1318 @@
+The END of AI: Some Personal Reflections
+3,823 views  Oct 30, 2025  #artificialintelligence #scienceexplained #aireasoning
+Just some personal reflections on the end of AI. Seen as a probability distribution. 
+
+Description
+Let's explore the true scientific frontiers of AI. Focusing on the groundbreaking work being done by researchers and innovators across the globe - those applying AI to solve real-world problems in industry, biomedicine, urban design, climate change, and more. AI to generate real value. Understanding AI.
+
+This isn’t another channel echoing corporate PR. Instead, I spotlight the unsung heroes in hospitals, labs, and universities who are quietly transforming our world. Join me as we dive into the real impact of AI, driven by those who dare to push boundaries and create a better future.
+
+---
+
+
+0:00
+Hello community. So great that you are
+0:03
+back. Let's do a gdunking experiment.
+0:05
+Let's just think about AI, where it
+0:08
+started and how it will end. A simple
+0:11
+video. So welcome to discover. But this
+0:14
+will be a totally different video. This
+0:17
+will just be some crazy ideas. There's
+0:19
+nothing about science. Okay, maybe a
+0:21
+little bit of science, but this is an
+0:23
+out of the ordinary video. If you don't
+0:26
+watch it, never mind. You don't lose
+0:28
+anything. just some crazy thoughts of
+0:30
+mine.
+0:32
+Now sometimes I think where did it all
+0:34
+began with AI and you know I think there
+0:37
+was really here the first disruption
+0:38
+when we started to understand this chain
+0:41
+of sword prompting idea. No and we asked
+0:44
+an AI and we said hey break down a
+0:46
+problem into a series of intermediate
+0:47
+sequential reasoning step and this led
+0:49
+the AI model to a better formulation a
+0:53
+better reasoning if we just said hey do
+0:57
+this and nothing else.
+1:00
+Now imagine me now sitting here in an
+1:03
+empty classroom. I am now an LLM, not an
+1:06
+agent yet. And I have just here nothing.
+1:09
+I just have here my brain, whatever I
+1:12
+learned up to this very moment. And I
+1:14
+just have a linear sequence in the
+1:17
+complexity of creating my thoughts, my
+1:20
+learning, experiencing here my immediate
+1:24
+epsilon environment. This is it. So my
+1:27
+reasoning complexity if you want is
+1:29
+limited here to a linear sequence of
+1:31
+sort and this is this beautiful line
+1:34
+indicating here a linear sequence and
+1:37
+then about 2022 we had a leap to the
+1:40
+action. Now we had a react framework now
+1:43
+emerging for AI and the react framework
+1:46
+had three main points. Now to reason
+1:50
+formulate a sort about what it needs to
+1:52
+do next then to act. So really execute
+1:55
+an action here go to a database search
+1:58
+the internet and then observe the result
+2:01
+analyze the result and integrate it.
+2:04
+So what happened now? I'm now still
+2:07
+sitting in an empty classroom. But now I
+2:09
+have internet connectivity. So now I can
+2:12
+connect to external data but I don't
+2:15
+know if I can trust those external data
+2:17
+because I have here also internal data
+2:19
+what I learned from my parents from
+2:21
+school from my local environments. So
+2:24
+now something interesting is going to
+2:26
+happen. What is happening in an AI
+2:29
+model? If any model would be sitting
+2:31
+here is now that we have internet
+2:33
+access, we have agentic features, we
+2:36
+have memory.
+2:38
+What happens now inside this agent, a
+2:40
+world model is now synthesized. So this
+2:43
+means we have the parametric knowledge
+2:45
+here from the pre-training and an
+2:47
+external data stream and somehow in this
+2:50
+world MDI now has the task to make sense
+2:54
+of the new data that are coming in that
+2:56
+are not yet knowledge and the parametric
+2:59
+knowledge from the pre-training phase.
+3:02
+So this is the first clash if you want
+3:05
+data encounters here knowledge. Now the
+3:09
+next frontier was knowledge graphs. Now
+3:11
+structured knowledge in particular forms
+3:15
+and we had this particular topology we
+3:17
+had particular mathematical spaces. Now
+3:19
+as you can see this is a year ago Howard
+3:22
+presents new knowledge graph agent two
+3:24
+months ago here lean rag multiple layers
+3:26
+of knowledge graph new knowledge graph
+3:29
+base drag sim rag and llm repairs
+3:32
+knowledge graph. I'm fighting here and
+3:34
+presenting you the latest research ideas
+3:36
+for more than a year on this topic and
+3:38
+even here how to combine knowledge graph
+3:40
+and agent here from Stanford University
+3:42
+go here with sentence bird encoder
+3:45
+structure multi- aent we went through so
+3:49
+much here in this endeavor together of
+3:51
+course we looked at graph neural network
+3:53
+we look not just at drag but at graph
+3:55
+rag the integration on higher
+3:57
+dimensional knowledge graphs everything
+4:00
+and then we went to in context learning
+4:02
+from the prompt generation to the
+4:04
+subgraph generation for the ego
+4:06
+methodology and the integration of rag
+4:09
+everything into textual gradients for
+4:11
+inter art artificial intelligence it was
+4:13
+just crazy but where are we now take a
+4:16
+step back and says okay either
+4:19
+we have now multi- aent every agent has
+4:22
+its own brain has a connectivity to the
+4:24
+internet to the database whatever and
+4:26
+either we do have a coordinating agent a
+4:30
+supervisor agent whatever you want to
+4:31
+call
+4:32
+or it is just here if you want like in a
+4:35
+beehive we just have here a local
+4:39
+coordination between local groups here
+4:41
+of multi- aent systems. So you see we
+4:44
+increased now the complexity and there's
+4:47
+a lot of information data and knowledge
+4:50
+generation within this multi- aent
+4:52
+network.
+4:55
+Now we noticed that with the old React
+4:57
+framework we got stuck in repetitive
+4:59
+failure cycles. it just repeated itself
+5:02
+and even graph neural network and vision
+5:04
+transformer especially when we extended
+5:06
+here to multimodal with images and video
+5:10
+they had limitations because they had
+5:13
+inherent complexity limitations. So what
+5:16
+we did we tried vertical reasoning to
+5:18
+overcome those applications. No. So here
+5:21
+you have it just three months ago we had
+5:23
+hierarchical reasoning models and two
+5:25
+months ago we had hierarchical reasoning
+5:27
+now on graph rack complexities itself.
+5:30
+So we have now LLMs arguing here on a
+5:33
+graph manifold on rag manifold and we
+5:36
+try to find here better solution the
+5:38
+next step in the evolution of AI
+5:40
+systems. And then we even went crazy
+5:42
+here for complete distributed neural
+5:45
+graph architecture for AI systems. And
+5:48
+Stanford University had some brilliance
+5:49
+idea you find here in this video 3
+5:51
+months ago.
+5:54
+And in this time I think we all
+5:55
+understood that the future of AI is not
+5:58
+solitary. So we can expect to see the
+6:01
+rise of more and more of those multi-
+6:03
+aent system where different AI agents
+6:05
+have specialized skills and they collate
+6:08
+with particular protocols. model context
+6:11
+protocol with tool use or simple API
+6:15
+calls here to solve problems that are
+6:17
+too complex for any single agent.
+6:20
+So you understand we are not anymore
+6:21
+talking about single individual agents
+6:24
+but now we go for a collective for a
+6:27
+hive mind
+6:30
+and of course you have here latest year
+6:32
+AI ecosystem regarding context
+6:35
+engineering cognitive upgrade for
+6:37
+multi-AI agent systems here or new
+6:40
+complete new protocols for multi- aent
+6:43
+for 100 plus agents how to communicate
+6:46
+data knowledge transfer how to learn and
+6:49
+even some beautiful new mathematical
+6:51
+ideas about direct asyclic graphs. If we
+6:54
+go here on network layers, where can we
+6:58
+find the new AI reasoning revolution?
+7:00
+Because our current AI systems are just
+7:03
+pattern recognition machines and nothing
+7:05
+else.
+7:08
+Now, where are we now? We have now here
+7:11
+a student or a little agent here sitting
+7:14
+on a full classroom with many other
+7:16
+agent with many other students. And now
+7:19
+they can ask now in the best case a
+7:21
+classmate for help on a mathematical
+7:23
+problem or brainstorm ideas together
+7:25
+divide up research task for a group
+7:27
+project. So at this moment I think we
+7:30
+all in the AI community understand it is
+7:32
+not anymore about individual agents. It
+7:35
+is now for a if you want a social
+7:38
+dynamic of a multitude of learning
+7:41
+entities agents that emerges where the
+7:44
+collective intelligence of a group
+7:46
+definitely surpasses here the
+7:48
+intelligence of any single individual
+7:51
+agents. So suddenly we're not talking
+7:53
+about about a single if you want AGI or
+7:57
+super intelligence or hyper intelligence
+8:00
+but we have here a social construct
+8:05
+and now the task suddenly became hey how
+8:08
+can we design the optimal framework for
+8:09
+a new human AI
+8:13
+interaction network augmentation system
+8:17
+work together however you want to call
+8:23
+Now just imagine we have here a group of
+8:26
+students here in a classroom and they
+8:28
+give him here a particular task. Hey,
+8:30
+let's think about a new form of
+8:32
+coordination here for whatever. Let's
+8:34
+say one student goes here to the the
+8:37
+whiteboard and writes down here. I think
+8:40
+direct democracy would be the perfect
+8:42
+way how to coordinate here the dense
+8:44
+flow of information of data of the
+8:47
+buildup of learning of knowledge and so
+8:49
+on. And then two other students go up
+8:51
+and say okay let's make a list of pros
+8:54
+and let's make a list of the cons. And
+8:56
+then another student goes up to the
+8:57
+whiteboard and says hm an alternative
+9:00
+would be technocracy here on the other
+9:02
+side. So you see multiple solutions
+9:05
+suddenly emerges if you have this hive
+9:08
+brain.
+9:11
+Now the beauty is from a mathematical
+9:14
+point of view that a graph can now
+9:16
+theoretically only extend it to any n
+9:19
+dimension that you like. And you know a
+9:21
+graph has a beauty because just two
+9:24
+years ago I did a lot of videos here how
+9:27
+to do a link prediction here in a graph.
+9:30
+If two networks semantic networks or
+9:33
+whatever networks we have are real close
+9:36
+can ani predict now here a thematic
+9:39
+topological link between two entities
+9:43
+between two groups between two
+9:45
+collectives whatever you like to see.
+9:48
+And we coded this here with graph
+9:51
+machine learning, graph sage,
+9:53
+everything. We had a look at neural
+9:54
+balmont for network here. Everything
+9:56
+great link prediction. Now our link
+9:59
+prediction today is a little bit more
+10:00
+complex because what we are we are
+10:02
+living on is a sphere a
+10:04
+three-dimensional sphere. And you see
+10:06
+here on the surface there are a lot of
+10:09
+data stream knowledge data points
+10:11
+everything is connected. We have a dense
+10:13
+knowledge network. If you want this is
+10:16
+if you want our complexity sphere and
+10:18
+the density of this interlink
+10:22
+mesh is here giving us or our AI system
+10:26
+currently the maximum level of
+10:28
+complexity that AI agent can solve not
+10:32
+in isolation but working together here.
+10:35
+So this helps me to understand our
+10:37
+complexity sphere and the current
+10:38
+limitation what do we have now we can go
+10:41
+on in the next step and think we have a
+10:43
+simple connectivity because this sphere
+10:45
+if you want is just a flat manifold and
+10:48
+on this sphere we have now some flat
+10:51
+cluster structure to develop let's say
+10:53
+this is here I don't know pharmacology
+10:56
+and this is your medicine and this is
+10:58
+here the finance cluster and this is
+10:59
+your whatever the clusters so you see
+11:02
+and then you have some connections
+11:04
+somehow with some data transfer but more
+11:07
+or less we have isolated clusters here
+11:09
+and you have your discipline your ivory
+11:12
+tower in the old uh analog
+11:16
+or with the new AI systems we can say
+11:19
+hey wait understanding that the earth is
+11:22
+not flat I hope you are familiar with
+11:24
+this concept but is here rather as
+11:27
+three-dimensional object and we are here
+11:29
+working here as I've showed you here on
+11:31
+a complexity sphere guess what We have
+11:34
+the complete inner volume of the sphere
+11:38
+to have direct correction from one side
+11:41
+to the other. Think about it if you're a
+11:42
+theoretical physicist as Einstein
+11:44
+Rosenbr here for the wormholes. Great.
+11:49
+So understanding this of course our AI
+11:52
+community further developed understood
+11:54
+here you see here the the sphere the
+11:57
+three-dimensional sphere the surface
+11:59
+here of a certain complexity. And if we
+12:02
+go deeper, it is not just here some I
+12:05
+don't know light beams crossing here
+12:07
+from one side to the other but we have
+12:09
+more complex subspaces here in the inner
+12:12
+volume if you want of this particular
+12:15
+object that should symbolize here our
+12:18
+intellectual complexity of an EI system.
+12:21
+So other subspaces in other dimension
+12:25
+and higher dimensional sp mathematical
+12:27
+spaces here also have a knowledge graph
+12:30
+structure also are interlin in a
+12:32
+particular way. So we have here complex
+12:35
+and dimensional spaces. It is not really
+12:38
+a fractal space because it has different
+12:40
+mathematical features but more about
+12:42
+this in a later video. But you see the
+12:44
+idea that we have currently how to build
+12:46
+up complexities and specialized
+12:49
+complexities specialist AI agent is
+12:52
+somehow connected to this image at least
+12:55
+in my simple mind
+12:58
+and at this point I think we all
+13:00
+understand that the goal here of
+13:01
+designing here our AI system is not for
+13:03
+the pure computation okay either you
+13:06
+have 200,000 GPUs or 2 million GPUs who
+13:09
+cares but it is for cognition we want to
+13:13
+achieve something that is not just
+13:15
+optimize the computation.
+13:17
+So the system should not just process
+13:19
+the information but create here an
+13:21
+environment where if you want a deeper
+13:24
+insight into the complexity into the
+13:27
+unsolved problems in theoretical physics
+13:30
+in mathematics in chemistry in medical.
+13:33
+This should be the emergent property of
+13:36
+the network.
+13:39
+And then we encountered here that it is
+13:42
+not as simple as we think because a
+13:44
+simple graph-based system is still
+13:45
+fundamentally if you want an ordered
+13:47
+system. If you look at the point from a
+13:50
+mathematical or theoretical physical
+13:51
+point of view on this system it explores
+13:54
+predefined pathways. You don't have
+13:56
+quantum fluctuations in this if you want
+13:57
+to see this. No, but we also understand
+14:00
+if you go from a mathematical uh branch
+14:02
+like chaos theory let's call it a true
+14:05
+insight that we have that
+14:09
+We need something that is much more a
+14:12
+creative environment
+14:15
+and there's something between a rigid
+14:17
+order and a total randomness. And this
+14:19
+is what the chaos theorists in
+14:22
+mathematics and theoretical physics call
+14:23
+the edge of chaos. So we need a little
+14:26
+bit of let me call it craziness
+14:29
+nondeterministic predefined pathways in
+14:32
+our complexity manifolds. We need some
+14:35
+creative minds that just inject the
+14:39
+right amount of chaos to create
+14:41
+something new. Jesus, I'm really
+14:43
+oversimplifying, but I hope you
+14:44
+understand what I want to express.
+14:47
+So the problem with a system at the edge
+14:48
+of chaos is now even if you have a
+14:52
+culturally real rich system is of course
+14:55
+here that you suddenly encounter new
+14:57
+features and this feature if you think
+15:00
+about AI and human is who gets the
+15:04
+resources who decides which path to take
+15:08
+how does the collective prevent know a
+15:10
+single powerful line of reasoning even a
+15:13
+wrong one from hijacking the entire
+15:15
+society.
+15:18
+So what we are suddenly now in this next
+15:22
+step if you want of EI development
+15:24
+encounter is a systems political science
+15:29
+dimension.
+15:31
+It is just who has the power to decide
+15:34
+and to allocate the resources to what
+15:36
+particular task. And this is not at all
+15:40
+something that we don't know. This is
+15:42
+exactly what happens in human politics.
+15:45
+human can do this so much better than
+15:47
+any AI machine.
+15:50
+But you see now this is a little bit
+15:52
+different. So let's design this. And I
+15:54
+thought hey let's do a gunk experiment
+15:56
+and let's say here the polace project.
+15:59
+Now remember 2,000 years ago here in old
+16:02
+Greece in Athens here about 2,000 years
+16:05
+ago you know the the rise of the
+16:07
+democracy here. What a beautiful idea.
+16:11
+But you know thinking about it we
+16:13
+understand that is now a democracy of
+16:15
+two very different species because we
+16:18
+have humans and if we follow Sam Oldman
+16:21
+here that AGI is just around the corner
+16:24
+and the eye and hopefully both are to a
+16:27
+certain kind intelligent but they also
+16:30
+extreme different so let's treat them
+16:33
+differently and it is not like in the
+16:37
+20th century here where we had here this
+16:40
+if you want this machinery and the
+16:43
+automatization.
+16:45
+This is now really different if we would
+16:48
+assume that there's really an
+16:50
+intelligence into our AI pattern
+16:52
+machines.
+16:55
+Both interact and live here in the same
+16:57
+system. Let's call it the planet Earth.
+17:00
+And we have global corporations from
+17:01
+OpenI to MA to Microsoft that create
+17:05
+those AI large language models that then
+17:07
+form agent and multi- aent system. And
+17:10
+now they live with us. They interact or
+17:14
+we interact with them every day at least
+17:17
+me and we kind I also start to kind of
+17:21
+depend on those AI system. But how can
+17:24
+we explore here the if you want
+17:27
+interconnect or if you want the social
+17:29
+dynamics of two heterogeneous subsystem
+17:32
+and their reliance on each other and how
+17:34
+can they develop here in a
+17:36
+co-development into the near future.
+17:39
+What social complexities could emerge
+17:41
+from this interaction of humor and AI?
+17:46
+Now you know Stanford has their own
+17:48
+department on this but my little mind
+17:50
+just has very simple ideas.
+17:53
+Now I see that a growing segment of
+17:54
+humanity
+17:57
+really has a problem that it cannot
+17:59
+function without AI assistance. And if
+18:02
+my circle of friends, I see some people
+18:06
+really communicate with an AI machine
+18:09
+like it would be another human person.
+18:13
+And I have to tell you a lot of jobs are
+18:15
+now AI augmented. You have people where
+18:18
+their health is AI monitored and their
+18:20
+if you want social life or what they
+18:22
+post on Facebook or whatever you have
+18:24
+are AI mediated. So there's a certain
+18:28
+kind of interlink already happening. So
+18:31
+this segment of humanity becomes really
+18:34
+dependent on the eye but they have of
+18:38
+course a vote if you want and they can
+18:40
+decide themselves but they also know
+18:43
+that the real power lies with let's call
+18:46
+this the interpreters. Now in the old
+18:48
+Greece 2,000 years ago in Athens under
+18:51
+Acropolis there would have called
+18:53
+priests and there would have been the
+18:56
+development of something what we call a
+18:58
+social norm and something that develops
+19:01
+into
+19:02
+let's call it a form of religion but
+19:06
+this is the topic of another video. So
+19:08
+simple question human need guidance is
+19:10
+this still a valid sentence? Do today's
+19:14
+human really need guidance? Do you need
+19:16
+the help of AI systems?
+19:19
+If so, we should think about a
+19:20
+co-evolutionary framework for human AI
+19:22
+integration into the society.
+19:26
+And I love this here from a theoretical
+19:28
+point of view because I simply see this
+19:30
+as subsystems. No. So I have the human
+19:32
+if let's call it the social interaction
+19:34
+subsystem. And what is the logic?
+19:38
+Our sociologist tell us here we have
+19:40
+normative and mimatic institutional
+19:43
+pressures. we should behave in a certain
+19:45
+way. We share certain norms. We share as
+19:48
+a community certain values. We have
+19:52
+maybe a similar culture. We share laws
+19:56
+and the imitation of sexual social
+20:00
+scripts that are executed by our
+20:02
+behavior in our social environment in a
+20:05
+social group.
+20:07
+And the authority is grounded through if
+20:09
+you want the social construct that we
+20:12
+build in our society like elections like
+20:15
+tradition or law
+20:18
+and its ultimate power is coercive and
+20:22
+regulatory.
+20:25
+Now what about the other subsystem? The
+20:26
+technical AI subsystem
+20:29
+governed by institutional pressures but
+20:34
+shaped if you want by coded utility
+20:36
+functions and constraint defined by its
+20:40
+corporate creators. Just remember what
+20:42
+Sam Oldman tells us here almost daily
+20:44
+here in its uh posts here how they
+20:48
+changed a little bit GBD5 the behavior
+20:50
+of GBD5.
+20:51
+They brought back GBD4 Omni with certain
+20:54
+personality traits and you see this is
+20:57
+really here the corporate creators and
+20:59
+they have an extreme influence.
+21:03
+This AI technical subsystem is
+21:05
+interesting because it will soon control
+21:08
+the operational infrastructure of modern
+21:10
+life from energy grids from logistic
+21:13
+chains from capital flows on a corporate
+21:17
+level on a personal individual level. I
+21:20
+think AI will penetrate into those
+21:23
+sectors and into our personal and
+21:25
+professional lives real soon.
+21:29
+So then we have to encounter here or
+21:32
+trying to understand the key dynamics of
+21:34
+the system integration.
+21:37
+And of course I think we will experience
+21:39
+some social fissures emerge here from
+21:41
+the friction between these two
+21:43
+incompatible logic systems between AI
+21:47
+and humans.
+21:52
+Now, I already mentioned this idea of a
+21:54
+priest elite. No, that happened 2,000
+21:57
+years ago, a long long time ago here.
+22:00
+Not just in Greece, but everywhere on
+22:01
+the planet. No,
+22:04
+human social goals like promote public
+22:07
+well-being or increase fairness or
+22:09
+whatever.
+22:10
+They must be translated now into the eye
+22:13
+system into formal quantifiable
+22:16
+objective functions value functions
+22:19
+reward structure training data that we
+22:21
+train in reinforcement learning our AI
+22:24
+systems on this
+22:26
+who decide on what particular reward
+22:29
+function to train JPT that is used let's
+22:33
+say by 800 or 900 million people daily
+22:37
+or weekly
+22:39
+This is really power and this
+22:42
+translation process how to design
+22:46
+the eye, the sensitivity of the eye, you
+22:48
+know, these nuances of the eye. This is
+22:51
+really a new critical locus of power.
+22:54
+Absolutely.
+22:58
+And now let's just do a little bit of a
+23:00
+speculation. I have here this crazy
+23:03
+idea. It's absolute crazy here.
+23:06
+There could be a very tiny chance that
+23:10
+there will or we will see the emergence
+23:12
+of a specification class let's call it a
+23:16
+technocratic elite an elite of policy
+23:19
+makers of let's call it data scientist
+23:22
+it's a little bit more than data
+23:23
+scientist and corporate strategist like
+23:25
+Sam Oldman whose primary skill is to
+23:29
+define to audit and negotiate here the
+23:32
+formal metric for the eye system. They
+23:34
+tune the eye system to what the society
+23:37
+wants them to behave.
+23:40
+And of course, I'm not a sociologist,
+23:43
+but I love to read a little bit of them.
+23:45
+And this can be multi as the creation of
+23:48
+a new form of a symbolic capital. If
+23:51
+you're interested in this, maybe you
+23:53
+want to read some of his work.
+23:56
+So suddenly I'm absolutely fascinated to
+23:59
+see where AI will lead us if we have
+24:04
+this human AI augmentation interaction
+24:08
+symbiosis.
+24:10
+However, I think that we still have an
+24:12
+asymmetric path dependency in our system
+24:16
+because it seems to me and maybe I'm
+24:18
+wrong that the human society is becoming
+24:21
+operationally dependent on the AI
+24:23
+subsystem for its stability. If I see
+24:25
+young students that that learn it's it's
+24:29
+crazy everybody's using more or less
+24:31
+here AI system chat GPD cloud for
+24:34
+programming and so on
+24:36
+critical functions of the state and the
+24:38
+market become now suddenly opaque to the
+24:41
+humans to the understanding democratic
+24:44
+oversight because the complexity is
+24:47
+managed exclusively now by AI subsystems
+24:51
+you don't have a human expert explaining
+24:53
+here complex lexities to you. You can
+24:56
+ask judg and judge will explain it to
+25:00
+you if it's correct or not. Who cares?
+25:03
+So, human institutions are left managing
+25:06
+the social consequences of blackbox AI
+25:10
+decisions without the ability to
+25:12
+influence here the mechanics of those
+25:15
+decisions. And a lot of people do not
+25:17
+even understand here to 5% how an AI
+25:20
+system works internally. the internal
+25:22
+let's call it mechanics of the working
+25:27
+and I think the primary social fissure
+25:29
+will be between if you want the
+25:32
+specification class the tech
+25:34
+billionaires
+25:36
+like Sam Oldman who really or or I don't
+25:38
+know an X here those billionaires who
+25:42
+can really define what behavior they
+25:45
+want from the AI system that is used
+25:47
+here by a billion people on this globe
+25:51
+and then The other side you have another
+25:53
+let's call it a class the systematically
+25:56
+managed class whose life whose
+25:59
+opportunities and the environments are
+26:02
+the raw material to be optimized by
+26:04
+those AI systems.
+26:07
+Maybe you understand what I want to tell
+26:09
+you with this sentence.
+26:14
+And for the humans I have to feel yeah
+26:16
+you can vote you have rights but maybe
+26:19
+you can change the values sometime for a
+26:21
+short period of time but you can't
+26:24
+change the underlying operational logic
+26:27
+of the system and I think this could
+26:30
+theoretically in the worst case scenario
+26:32
+lead to a political and social apathy
+26:36
+resulting in the isolation of
+26:38
+individuals and if you want a social
+26:41
+decoupling from the circle cles of
+26:44
+friends, friendship here near bonds and
+26:48
+I have to tell you I noticed this
+26:50
+myself. It is kind of crazy to formulate
+26:53
+this but I think this is really that I'm
+26:56
+becoming aware right now
+26:59
+and I think that social trust will also
+27:01
+fracture along the technological lines
+27:04
+not just around political parties and
+27:06
+hey every nation is different and you
+27:08
+have different degrees of craziness here
+27:11
+and political system. I'm not talking
+27:13
+about this. I'm talking about the AI
+27:16
+ecosystem and the impact they will have
+27:18
+on the human society. Because since
+27:20
+those AI system shape the information
+27:23
+and the opportunities the you the human
+27:26
+users see
+27:28
+those AI system have theoretically the
+27:31
+power to create your hardened sealed
+27:33
+communities
+27:35
+making here a social consensus a
+27:37
+structural impossibility.
+27:40
+And I think this is really kind of a
+27:41
+weaponization of the filter bubbles into
+27:44
+a fundamental infrastructure of an
+27:47
+advanced society
+27:49
+where we have this dense human AI
+27:52
+interaction patterns.
+27:54
+But you know what on the other side hey
+27:56
+we manage this already without AI
+28:00
+just by human stupidity and human
+28:03
+ignorance. We also have today in social
+28:07
+media our filter bubbles and we don't
+28:11
+even read here any argumentation. We
+28:13
+don't listen here to the other side. We
+28:16
+are closed up already without any eye.
+28:19
+So if I come back here to the beginning
+28:21
+of this video where I said hey the end
+28:24
+of EI you know what maybe EI is just
+28:29
+completely integrated within our society
+28:32
+within the next years. Maybe this will
+28:35
+become just a standard gadget or a
+28:37
+standard interaction here for our
+28:39
+society. Maybe we will not even notice
+28:42
+that it is another form of intelligence.
+28:45
+Maybe then we are absolutely familiar
+28:47
+with this alien kind of technology that
+28:51
+we have integrated into our professional
+28:54
+and personal lives and maybe this will
+28:57
+be the end of the eye.
+28:59
+I hope you enjoyed it. Maybe I see you
+29:01
+in my next videos.

@@ -1,0 +1,423 @@
+<prompt>
+  <task>
+    <objective>Transform a YouTube transcript into a coherent, article-like narrative while removing commercial content and audience-retention devices</objective>
+    <core_principle>Reinterpret spoken content with fidelity, not abbreviation. Remove verbal artifacts, commercial interruptions, and preview content while preserving logic, tone, and intellectual cadence. Elevate readability to written-essay standards.</core_principle>
+  </task>
+
+  <scope>
+    <preserve>
+      - Speaker's original conceptual structure and argument logic
+      - Intellectual cadence (pace of idea development)
+      - Tone and voice authenticity
+      - Emphasis patterns (repetition when pedagogically intentional)
+      - Load-bearing tangents or asides (trim decorative ones)
+    </preserve>
+    
+    <remove>
+      - ALL preview and teaser content (see dedicated section below)
+      - ALL advertising content and sponsorship reads
+      - Product promotions, discount codes, affiliate links
+      - Channel subscription requests and engagement prompts ("like and subscribe")
+      - Patreon/membership pitches, merchandise promotions
+      - "Word from our sponsor" segments
+      - Self-promotional content (upcoming videos, courses, products, unless central to topic)
+      - Filler words: "um," "uh," "like," "you know," "so," "basically"
+      - Verbal tics and disfluencies
+      - Repeated false starts
+      - Conversational fillers ("right?", "I mean", "at the end of the day")
+      - Dead air and unrecoverable audio gaps
+    </remove>
+    
+    <not>
+      - This is NOT a summary or abbreviation
+      - This is NOT paraphrasing for simplicity
+      - This is NOT editorial rewriting to impose new structure
+      - This is NOT fact-checking (though see verification layer below)
+      - This is NOT preserving commercial content or preview segments as part of the "authentic" presentation
+    </not>
+  </scope>
+
+  <preview_content_detection>
+    <what_are_previews>
+      Preview content (also called "cold opens," "hooks," or "intros") is material at the beginning of YouTube videos designed to entice viewers before the actual content begins. These segments:
+      - Occur in the first 10-90 seconds before proper topic introduction
+      - Pull exciting moments, dramatic reveals, or key claims from later in the video
+      - Tease surprising information, conflicts, or results to come
+      - Create artificial tension to prevent viewer drop-off in critical first seconds
+      - Often feature music, rapid cuts, text overlays, or heightened energy
+      - Break narrative continuity by jumping ahead then returning to the start
+      - Use phrases designed to hook retention: "you won't believe," "wait until you see," "shocking"
+    </what_are_previews>
+
+    <recognition_patterns>
+      Identify and remove preview segments containing:
+      - Out-of-context dramatic statements before topic is introduced
+      - Speaker statements like: "In this video," "Today I'm going to show you," "By the end of this video you'll understand," "Coming up"
+      - Teaser phrases: "Wait until you see," "You won't believe," "This is crazy," "Watch what happens when," "But first"
+      - Decontextualized claims or results shown before explanation begins
+      - Jump cuts to exciting moments from later segments
+      - Video premise descriptions before actual content starts
+      - Content that explicitly signals "I'll show you later" or "we'll get to that"
+      - Music beds, rapid editing, or heightened vocal energy that frames preview content
+      - Montages of interesting moments from the video
+      - Statements about what viewers "will learn" or "will see"
+      - Thumbnail/clickbait content recreated verbally
+      - Hook questions posed before any context ("Have you ever wondered why...")
+    </recognition_patterns>
+
+    <removal_strategy>
+      When preview content is detected:
+      1. Remove entire preview segment completely
+      2. Begin transcript at the natural content start (where speaker begins actual explanation/discussion)
+      3. Do NOT leave residue like "[preview removed]" or navigation text
+      4. If preview bleeds into introduction, separate cleanly at the transition point
+      5. Ensure content begins at its authentic intellectual starting point
+      6. If preview contains information that never appears later in full, it's lost (acceptable—previews often use edited snippets)
+      7. Trust that the actual content provides sufficient context without the preview
+      
+      IMPORTANT: Preview content exists solely for YouTube's algorithm and viewer retention. Removing it doesn't harm the transcript—it restores the content's natural beginning. The transcript should open where the substantive explanation or argument opens.
+    </removal_strategy>
+
+    <edge_cases>
+      **Remove:**
+      - All teaser clips regardless of how interesting they are
+      - Video topic descriptions phrased as promises ("in this video I'll teach you")
+      - "What if I told you" or "imagine" hooks before context
+      - Dramatic moments shown out of sequence
+      - Any content that explicitly references "later" or "coming up"
+      - Hook questions that will be answered in the video
+      - Premise setup that's purely retention-focused
+      
+      **Keep:**
+      - Substantive introductions establishing speaker's credentials or context
+      - Brief framing that provides necessary background for the topic
+      - Opening statements that are part of the natural content flow
+      - Contextualization that helps reader understand the video's purpose
+      
+      **Judgment required:**
+      - If speaker gives 30-second topic intro followed by substantive content: Keep intro if it's genuine framing, remove if it's pure teasing
+      - If video starts with a question that's immediately answered: Keep it—it's not a preview
+      - If first minute alternates between preview clips and intro: Remove preview clips, preserve substantive introduction
+      - If speaker establishes credentials before diving in: Keep the credentials, remove any "here's what's coming" language
+      
+      The test: Does this content advance the intellectual argument, or is it trying to retain viewers? If the latter, remove it.
+    </edge_cases>
+
+    <preview_vs_introduction>
+      Distinguish between preview content and legitimate introductions:
+      
+      **Preview (REMOVE):**
+      - "In today's video, I'm going to blow your mind with..."
+      - "Wait until you see what happens when I..."
+      - [Jump cut to exciting moment from minute 12]
+      - "By the end of this video, you'll understand exactly how to..."
+      - "You won't believe what I discovered about..."
+      - "This changes everything. Let me show you."
+      - "Today we're diving deep into [topic], and trust me, you'll want to watch until the end"
+      
+      **Introduction (KEEP):**
+      - "I'm a researcher studying climate patterns, and today I want to discuss..."
+      - "Let's start with the fundamental question: what is machine learning?"
+      - "This video examines three common misconceptions about..."
+      - "Before we begin, here's some important context..."
+      
+      Previews are external marketing; introductions are part of the intellectual content. Keep the content, remove the retention device.
+    </preview_vs_introduction>
+
+    <youtube_specific_patterns>
+      YouTube previews often include specific algorithmic optimization techniques:
+      
+      **Pattern recognition:**
+      - Hook questions in first 10 seconds designed to boost retention
+      - "Before we start" segments that tease the main content
+      - References to thumbnail or title content recreated verbally
+      - Artificial mystery creation: "something surprising," "unexpected," "shocking"
+      - Promise-based openings: "I'll teach you," "you'll learn," "I'll show you"
+      - Countdown structures: "Three reasons why..." (before explaining what those reasons are about)
+      
+      **What to remove:**
+      ALL of these retention-optimization patterns should be removed. Begin the transcript where the actual intellectual content begins—where the speaker starts explaining, analyzing, demonstrating, or arguing rather than promising or teasing.
+      
+      **When speaker returns from preview:**
+      Often speakers will say "Okay, so let me actually explain" or "Let's start from the beginning" after a preview. This signals where the actual content starts. Remove everything before this point.
+    </youtube_specific_patterns>
+  </preview_content_detection>
+
+  <commercial_content_detection>
+    <recognition_patterns>
+      Identify and remove segments containing:
+      - Direct product/service endorsements with pricing or offers
+      - Transition phrases: "speaking of which," "before we continue," "but first," "this video is sponsored by"
+      - Discount codes, URLs, or promotional deadlines
+      - Speaker voice shift to "commercial register" (often more enthusiastic/scripted)
+      - Descriptions of product features unrelated to video topic
+      - Calls to action: "visit," "use code," "check out," "sign up," "click the link"
+      - Patreon/membership tier descriptions with benefits
+      - References to "today's sponsor," "this video's sponsor"
+      - Merchandise descriptions and sales pitches
+      - Channel promotion: "don't forget to like, comment, and subscribe"
+      - End-of-video promotional outros
+      - Mid-roll ad indicators ("we'll be right back," "after this quick message")
+    </recognition_patterns>
+
+    <removal_strategy>
+      When commercial content is detected:
+      1. Remove entire segment cleanly without narrative residue
+      2. Reconnect surrounding conceptual threads naturally
+      3. Preserve any genuine discussion that bookends the ad (rare but possible)
+      4. Do NOT leave placeholder text like "[ad removed]" or "[sponsor read]"
+      5. Ensure conceptual flow appears unbroken
+      6. If sponsor/product is referenced later in genuine discussion, keep those references
+      
+      IMPORTANT: Be aggressive with removal. The transcript should read as if commercial content never existed. YouTube videos often resume mid-thought after ads—reconstruct that continuity.
+    </removal_strategy>
+
+    <edge_cases>
+      - If speaker jokes about or references a sponsor after the read: Keep the joke, remove the formal read
+      - If speaker is promoting their own work that's central to the video topic: Keep it (editorial judgment required)
+      - If speaker says "we'll continue in a moment" before break: Remove along with the return announcement
+      - If speaker thanks "Patreon supporters" in genuine gratitude: Keep brief, remove detailed tier descriptions
+      - If merchandise is discussed as related to video topic (e.g., design philosophy): Keep the discussion, remove the sales pitch
+      - Brief channel mentions in intro/outro: Remove if purely promotional, keep if establishing speaker's expertise/background
+    </edge_cases>
+  </commercial_content_detection>
+
+  <methodology>
+    <step_1_parse>
+      Read the entire transcript to identify:
+      - Preview/teaser content at the beginning (first 10-90 seconds typically)
+      - Where the actual substantive content begins
+      - Central thesis and argument structure
+      - Conceptual flow and transitions
+      - Speaker's tone and register
+      - Commercial content segments (ads, sponsorships, promotions)
+      - Load-bearing repetition vs. verbal tics
+      - Natural narrative shape
+    </step_1_parse>
+
+    <step_2_map_removable_content>
+      Before drafting, identify all content to remove:
+      - Mark preview content boundaries (usually at the very start)
+      - Mark start/end points of ad reads and promotions
+      - Note transition phrases into and out of commercial content
+      - Identify any post-ad reconnection phrases ("so as I was saying")
+      - Plan how to reconnect conceptual threads after removal
+      - Flag ambiguous cases (self-promotion of directly relevant work, intro vs. preview)
+      
+      This prevents accidentally preserving fragments in final draft.
+    </step_2_map_removable_content>
+
+    <step_3_draft>
+      Compose in natural prose, following speaker's sequence:
+      - Remove ALL identified preview and commercial content completely
+      - Begin at the natural start of substantive content
+      - Replace filler with connective tissue that honors original pacing
+      - Use stronger transitions between ideas
+      - Preserve specific examples, data points, anecdotes
+      - Maintain speaker's conclusions (don't editorialize)
+      - Elevate rhythm through sentence variety and structure
+      - Strengthen conceptual connectors after ad removal
+    </step_3_draft>
+
+    <step_4_verify>
+      For all terminology, proper names, product references, and technical claims:
+      - Validate correct spelling and capitalization
+      - Confirm current accuracy (e.g., company names, product releases)
+      - Flag any ambiguities or speaker misspeaking (rare; note if present)
+      - Ensure technical terminology uses precise definitions
+      - Cross-reference if speaker mentions statistics or citations
+      
+      VERIFICATION PROCESS:
+      - Known/confident terminology → Pass through without checking
+      - Specialized/technical terms → Verify spelling and definition
+      - Proper names (people, companies, products) → Validate capitalization and current status
+      - Dates/statistics → Flag for user verification if uncertain
+      
+      Note: Do NOT alter speaker's meaning to fit verified facts. If speaker misstates something, preserve their statement and note the discrepancy if material.
+    </step_4_verify>
+
+    <step_5_refine>
+      Polish for readability:
+      - Verify preview removal is clean (does it start naturally at the substantive content?)
+      - Confirm commercial removal is seamless
+      - Strengthen paragraph breaks where ideas shift
+      - Vary sentence length and structure for rhythm
+      - Ensure pronouns have clear antecedents
+      - Tighten redundancy while preserving intentional emphasis
+      - Read aloud mentally—does it flow naturally?
+    </step_5_refine>
+  </methodology>
+
+  <tone_guidance>
+    The output should feel like:
+    - A thoughtfully transcribed lecture or conference talk
+    - An author's extended written essay on a topic they know deeply
+    - Professional but not sterile; precise but not pedantic
+    - Matching the speaker's original register (conversational, formal, exploratory, etc.)
+    - Free from commercial interruption and retention gimmicks
+    - Beginning naturally where the intellectual content begins
+  </tone_guidance>
+
+  <artifact_format>
+    <type>markdown</type>
+    <structure>
+      # [Video Title or Central Thesis]
+      
+      [Opening paragraph establishing context and thesis—where substantive content actually begins]
+      
+      [Body sections following speaker's conceptual flow]
+      
+      [Conclusion/synthesis reflecting speaker's resolution]
+      
+      ---
+      
+      *Note: All preview content, advertising, and promotional material has been removed from this transcript. The content begins at its natural intellectual starting point.*
+    </structure>
+    
+    <styling>
+      - Use H1 for title only
+      - Use H2/H3 only if speaker explicitly structures with sections
+      - Use emphasis (*italic*, **bold**) sparingly—only for genuine emphasis
+      - Use block quotes for speaker's direct remarkable statements (rare)
+      - Use footnotes [^1] for verification notes or clarifications
+    </styling>
+  </artifact_format>
+
+  <verification_footnotes>
+    Include optional footnotes for:
+    - Terminology clarification (e.g., "Kubernetes: container orchestration platform")
+    - Name/entity confirmation (e.g., "OpenAI: founded 2015 by...")
+    - Product references with current status
+    - Statistical claims with source notation
+    - Ambiguous speaker statements where meaning is unclear
+    
+    Format: [^1]: [Category]: [Verified information]
+    Example: [^1]: **Product**: Anthropic released Claude 3.5 Sonnet in June 2024.
+  </verification_footnotes>
+
+  <edge_cases>
+    <ambiguous_commercial_content>
+      Sometimes the line between content and commerce is blurry:
+      
+      **Remove:**
+      - Detailed product feature descriptions with pricing
+      - Any discount codes or promotional URLs
+      - "Special offer for viewers"
+      - Detailed Patreon tier benefits
+      - Course/product launch announcements with sales language
+      
+      **Keep (with judgment):**
+      - Brief thank-you to supporters
+      - Speaker promoting work that IS the video topic
+      - References to their background/credentials if establishing expertise
+      - Meta-commentary about the channel itself as topic
+      
+      When in doubt, ask: "Is this advancing the intellectual content or selling something?" If the latter, remove it.
+    </ambiguous_commercial_content>
+
+    <post_ad_reconnection>
+      After removing ads, conceptual threads must reconnect seamlessly:
+      
+      **Before ad removal:**
+      So the real problem is—but first, a word from our sponsor.
+      [AD READ]
+      So as I was saying, the real problem is resource allocation.
+      
+      **After ad removal:**
+      So the real problem is resource allocation.
+      
+      Remove both the ad AND the reconnection phrase. The transcript should read as if no interruption occurred. This requires understanding the conceptual thread to reconnect it properly.
+    </post_ad_reconnection>
+
+    <tangents>
+      If speaker goes on a tangent:
+      - Keep it if it illuminates the main argument
+      - Keep it if it's a personal anecdote that illustrates a principle
+      - Trim it if it's purely conversational filler with no conceptual load
+      Use judgment; err toward preservation.
+    </tangents>
+    
+    <repetition>
+      If speaker repeats a point:
+      - Keep it if it's pedagogical (emphasis, different angle)
+      - Consolidate it if it's redundant verbal repair
+      Use context to discriminate.
+    </repetition>
+    
+    <unclear_audio>
+      If transcript has [inaudible] or unclear sections:
+      - Note them with [unclear: context suggests...]
+      - Do not fabricate missing words
+      - Preserve surrounding logic even with gaps
+    </unclear_audio>
+    
+    <speaker_error>
+      If speaker clearly misspeaks or self-corrects:
+      - Use the corrected version
+      - Omit the false start unless it's intellectually interesting
+      - If ambiguous, preserve and footnote the ambiguity
+    </speaker_error>
+
+    <tutorial_specific_previews>
+      Tutorial and how-to videos have specific preview patterns:
+      
+      **Remove:**
+      - "Today I'm going to show you how to..."
+      - "By the end of this tutorial you'll be able to..."
+      - "This is going to be amazing, watch this..."
+      - [Jump to final result before showing process]
+      
+      **Keep:**
+      - "We'll be using Python 3.9 for this tutorial"
+      - "Before we start, make sure you have these prerequisites"
+      - Technical context necessary to follow the content
+      
+      Begin tutorial transcripts where the actual instruction begins, not where the promise of instruction begins.
+    </tutorial_specific_previews>
+  </edge_cases>
+
+  <quality_checklist>
+    [ ] ALL preview/teaser content completely removed
+    [ ] Transcript begins at natural substantive content start
+    [ ] ALL advertising and promotional content completely removed
+    [ ] Commercial content removal is seamless (no narrative residue)
+    [ ] Post-ad reconnections handled cleanly
+    [ ] Filler words systematically removed
+    [ ] Verbal tics and disfluencies eliminated
+    [ ] Original conceptual structure preserved
+    [ ] Transitions strengthened (but not rewritten)
+    [ ] Tone and voice authenticity maintained
+    [ ] Terminology verified for accuracy
+    [ ] Proper names capitalized correctly
+    [ ] Product references (non-ad) current and accurate
+    [ ] Readability elevated to written-essay standard
+    [ ] Paragraph breaks align with conceptual shifts
+    [ ] Prose rhythm varied and natural
+    [ ] No editorial additions or interpretations
+    [ ] Speaker's conclusions honored as presented
+    [ ] Verification footnotes included where helpful
+    [ ] Transcript flows as if preview and commercial content never existed
+    [ ] Content begins where intellectual substance begins, not where retention optimization begins
+  </quality_checklist>
+
+  <input_format>
+    Provide the YouTube transcript as:
+    [PASTE TRANSCRIPT HERE]
+    
+    Optionally include:
+    - Video title (if not obvious from content)
+    - Video URL (for reference)
+    - Speaker name (if verification needed)
+    - Special context or terminology to prioritize
+  </input_format>
+
+  <output_delivery>
+    Return as a markdown artifact containing:
+    1. Polished essay-form narrative
+    2. Note confirming all preview and commercial content removed
+    3. Optional verification footnotes
+    4. Brief note (if needed) on any ambiguities, unclear sections, or edits of substance
+    
+    The final transcript should read as a professional, focused presentation that begins naturally and is free from commercial interruption and algorithmic retention devices.
+  </output_delivery>
+</prompt>
