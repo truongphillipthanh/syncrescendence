@@ -76,10 +76,10 @@ This document serves as the central repository for all artifacts superseded duri
 
 **Status**: ✅ ARCHIVED (October 19, 2025)
 
-**Supersession Reason**: Insights successfully extracted and integrated into Technology Chain as "Strategic Positioning" contextual layer. Standalone artifact no longer needed.
+**Supersession Reason**: Insights successfully extracted and integrated into Intelligence Chain as "Strategic Positioning" contextual layer. Standalone artifact no longer needed.
 
 **Migration Path**:
-- Corporate characterizations (Apple, Google, Microsoft, OpenAI, Anthropic, Meta, etc.) → Technology Chain §VII
+- Corporate characterizations (Apple, Google, Microsoft, OpenAI, Anthropic, Meta, etc.) → Intelligence Chain §VII
 - Platform strategy mapping → Feedcraft validation process
 - Institutional analysis framework → Strategic Positioning supplement (delivered P1-1)
 
@@ -90,7 +90,7 @@ This document serves as the central repository for all artifacts superseded duri
 
 **Archive Location**: [Original Ethosification lunar files]
 
-**Replacement**: Technology Chain + Strategic Positioning Supplement
+**Replacement**: Intelligence Chain + Strategic Positioning Supplement
 
 **Lessons Learned**: Corporate characterization is valuable context for tool selection but doesn't warrant standalone artifact. Better integrated as reference layer within operational technology system.
 
@@ -397,7 +397,7 @@ This document serves as the central repository for all artifacts superseded duri
 
 **Original Status**: Moon (MVA) - Corporate/platform characterization framework
 
-**Action Taken**: Complete extraction and integration into Technology Chain as "Strategic Positioning" supplement
+**Action Taken**: Complete extraction and integration into Intelligence Chain as "Strategic Positioning" supplement
 
 **Extraction Scope**:
 - 8 major corporations profiled (Apple, Google, Microsoft, Meta, OpenAI, Anthropic, X, TikTok)
@@ -409,7 +409,7 @@ This document serves as the central repository for all artifacts superseded duri
 **New Artifact Created**: Strategic Positioning Supplement (Beta) - 15,000 words
 
 **Integration Points**:
-- Technology Chain (CANON-09) contextual layer
+- Intelligence Chain (CANON-09) contextual layer
 - Feedcraft validation process (platform selection informed by institutional character)
 - Technology Stack Database (corporate intelligence enhances tool selection)
 
@@ -424,13 +424,13 @@ This document serves as the central repository for all artifacts superseded duri
 **Migration Verification**: All core insights verified present in Strategic Positioning supplement:
 1. Corporate personality profiling methodology: ✅ Preserved
 2. Platform selection criteria: ✅ Integrated into Feedcraft
-3. Strategic positioning intelligence: ✅ Now in Technology Chain context
+3. Strategic positioning intelligence: ✅ Now in Intelligence Chain context
 4. Business model taxonomy: ✅ Complete in Strategic Positioning
 5. Lock-in risk assessment: ✅ Operational framework delivered
 
 **Lessons Learned**:
 - Corporate intelligence is essential context but doesn't warrant standalone artifact
-- Integration into operational systems (Technology Chain) increases practical utility
+- Integration into operational systems (Intelligence Chain) increases practical utility
 - Dissolution doesn't mean deletion—insights preserved, fragmentation eliminated
 - Strategic positioning transforms tool selection from feature comparison to institutional awareness
 
@@ -472,12 +472,12 @@ This document serves as the central repository for all artifacts superseded duri
 
 **Original Status**: Curriculum v1.0 (Stable) - Requiring validation against canonical architecture
 
-**Action Taken**: Comprehensive verification of Mastery lunar alignment with CANON-06 (Planetary Mastery) and CANON-13 (Embodiment Chain)
+**Action Taken**: Comprehensive verification of Mastery lunar alignment with CANON-06 (Planetary Mastery) and CANON-13 (Knowledge Chain)
 
 **Verification Scope**:
 - Four-stage progression structural correspondence
 - Planetary Mastery mapping (Earth/Solid/Embodiment)
-- Embodiment Chain alignment (Knowledge crystallization pathway)
+- Knowledge Chain alignment (Knowledge crystallization pathway)
 - Cognitive Palace layer emphasis (Practicality/Actuality focus)
 - Practice Level progression calibration (0-3 structure)
 - Anti-pattern avoidance (8 Excavation lessons)
@@ -485,7 +485,7 @@ This document serves as the central repository for all artifacts superseded duri
 **Verification Results**:
 - ✅ Four-stage architecture perfectly aligned
 - ✅ Earth element correspondence correctly maintained
-- ✅ Embodiment Chain synchronization verified accurate
+- ✅ Knowledge Chain synchronization verified accurate
 - ✅ Cognitive Palace layer emphasis appropriate (L4-L5 focus)
 - ✅ Practice Level progression correctly calibrated
 - ✅ All eight anti-patterns actively avoided
@@ -757,7 +757,7 @@ This document serves as the central repository for all artifacts superseded duri
 - Chart/Roadmap Materials → Operations Backbone
 
 ### Type B - Integrated (Insights Extracted & Merged)
-- **Ethosification** → Strategic Positioning + Technology Chain (Oct 19)
+- **Ethosification** → Strategic Positioning + Intelligence Chain (Oct 19)
 - **MediaTopology** → Feedcraft (Oct 19)
 - **TOOLCRAFT Fragments** → TOOLCRAFT Consolidation + Technology Stack Database (Oct 20)
 - ASA Model + Commercial Seams → Technology Stack + Strategic Positioning

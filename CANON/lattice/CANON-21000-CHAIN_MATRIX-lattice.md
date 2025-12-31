@@ -32,7 +32,7 @@ This matrix documents the dependency relationships between all six causal chains
 - **Assessors**: Readiness evaluation for stage advancement
 - **Architects**: Integration logic and synchronization requirements
 
-**Critical Recognition**: Technology Chain operates with **dual ontology**—functioning BOTH as foundational substrate enabling all other chains AND as developmental trajectory with its own four-stage progression.
+**Critical Recognition**: Intelligence Chain operates with **dual ontology**—functioning BOTH as foundational substrate enabling all other chains AND as developmental trajectory with its own four-stage progression.
 
 ---
 
@@ -66,7 +66,7 @@ This matrix documents the dependency relationships between all six causal chains
 
 ## COMPREHENSIVE DEPENDENCY MATRIX
 
-### TECHNOLOGY CHAIN: Intelligence Amplification Substrate
+### INTELLIGENCE CHAIN: Intelligence Amplification Substrate
 
 **Ontological Status**: BOTH substrate infrastructure AND developmental chain
 
@@ -111,7 +111,7 @@ This matrix documents the dependency relationships between all six causal chains
 
 ---
 
-### SENSING CHAIN: Information/Perception Development
+### INFORMATION CHAIN: Information/Perception Development
 
 **Essential Nature**: Reliable information acquisition and processing capability
 
@@ -163,7 +163,7 @@ This matrix documents the dependency relationships between all six causal chains
 
 ---
 
-### COHERENCE CHAIN: Insight/Meaning-Making Development
+### INSIGHT CHAIN: Insight/Meaning-Making Development
 
 **Essential Nature**: Framework construction and conceptual integration capability
 
@@ -225,7 +225,7 @@ This matrix documents the dependency relationships between all six causal chains
 
 ---
 
-### EFFICACY CHAIN: Expertise/Economic Capability Development
+### EXPERTISE CHAIN: Expertise/Economic Capability Development
 
 **Essential Nature**: Strategic decision-making and resource generation capacity
 
@@ -285,7 +285,7 @@ This matrix documents the dependency relationships between all six causal chains
 
 ---
 
-### EMBODIMENT CHAIN: Knowledge/Skill Crystallization Development
+### KNOWLEDGE CHAIN: Knowledge/Skill Crystallization Development
 
 **Essential Nature**: Physical capability and embodied knowledge integration
 
@@ -345,7 +345,7 @@ This matrix documents the dependency relationships between all six causal chains
 
 ---
 
-### TRANSCENDENCE CHAIN: Wisdom/Meta-Awareness Development
+### WISDOM CHAIN: Wisdom/Meta-Awareness Development
 
 **Essential Nature**: Meta-cognitive capacity and wisdom integration
 
@@ -532,7 +532,7 @@ This matrix documents the dependency relationships between all six causal chains
 
 ---
 
-## TECHNOLOGY CHAIN: SPECIAL CONSIDERATIONS
+## INTELLIGENCE CHAIN: SPECIAL CONSIDERATIONS
 
 ### Dual Ontology Explained
 
@@ -742,7 +742,7 @@ The chain dependency logic synchronizes with three developmental timelines:
 
 Understanding chain interdependencies transforms development from haphazard exploration to systematic cultivation. Key recognitions:
 
-**Technology Chain Priority**: Begin immediately, maintain continuously—it's both substrate and chain
+**Intelligence Chain Priority**: Begin immediately, maintain continuously—it's both substrate and chain
 
 **Hard Dependencies Matter**: Violating these creates predictable failures requiring remediation
 

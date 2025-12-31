@@ -215,7 +215,7 @@ All development activities align with Modal 1 capabilities while preparing infra
                      ║                                      ║
            ┌─────────▼──────────────────────      ┌───────────▼──────────────────┐
            │ PLANETARY ACUMEN (Air)     │      │    COGNITIVE PALACE          │
-           │ Perception • Sensing Chain │      │    Seven-Layer Substrate     │
+           │ Perception • Information   │      │    Seven-Layer Substrate     │
            │ CANON-31100 / CANON-31000  │      │    CANON-20000               │
            │ Layers 1-2: Imag-Potent    │      │    Reality → Strategic       │
            └────────────────────────────┘      └──────────────────────────────┘
@@ -1459,7 +1459,7 @@ This section addresses the eight most common failure modes practitioners encount
 1. **Immediate Grounding** (within 24 hours)
    - Stop all cosmological study completely
    - Return to Scale: 1-Micro practices exclusively
-   - Focus on Embodiment Chain (CANON-34100, CANON-34000)
+   - Focus on Knowledge Chain (CANON-34100, CANON-34000)
    - Engage physical practices (movement, somatic work)
 
 2. **Behavioral Reality Check** (week 1)

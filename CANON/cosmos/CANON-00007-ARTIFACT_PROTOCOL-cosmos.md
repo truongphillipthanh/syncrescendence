@@ -137,7 +137,7 @@ Moons (Planetary Orbit):
 
 Satellites (Chain Orbit):
 - Stage-specific guidance, tools, or case studies for individual chains
-- Example: "Technology Chain Stage 2 Toolkit: AI Collaboration Templates"
+- Example: "Intelligence Chain Stage 2 Toolkit: AI Collaboration Templates"
 - Requirements: Must serve single chain advancement clearly
 
 Asteroids (System-Wide):
