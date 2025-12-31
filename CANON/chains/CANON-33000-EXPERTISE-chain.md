@@ -4,7 +4,7 @@ name: Expertise Chain
 identity: Expertise Chain - Expertise Orbital Path
 tier: CANON
 type: chain
-version: 1.0.0
+version: 2.0.0
 status: canonical
 created: 2025-10-17
 updated: 2025-12-30

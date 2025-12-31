@@ -4,7 +4,7 @@ name: Coherence Synthesis System
 identity: Coherence Synthesis & Lunar Mastery System
 tier: CANON
 type: lunar
-version: 2.2.0
+version: 2.0.0
 status: canonical
 created: 2025-10-17
 updated: 2025-12-30
@@ -14,7 +14,7 @@ planetary: COHERENCE
 parent: CANON-32100
 ---
 
-# CANON-32110: COHERENCE SYNTHESIS & LUNAR MASTERY SYSTEM v2.2
+# CANON-32110: COHERENCE SYNTHESIS & LUNAR MASTERY SYSTEM
 ## The Five Degrees of Meaning-Making Integration (Master Schema Version)
 
 ---

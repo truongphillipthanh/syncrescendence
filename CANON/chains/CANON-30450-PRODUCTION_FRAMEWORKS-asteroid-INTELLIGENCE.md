@@ -6,7 +6,7 @@ tier: CANON
 type: asteroid
 chain: INTELLIGENCE
 parent: CANON-30400
-version: 1.0.0
+version: 2.0.0
 status: canonical
 created: 2025-12-30
 updated: 2025-12-30

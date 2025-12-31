@@ -4,7 +4,7 @@ name: Syncrescendent Quickstart
 identity: QUICKSTART
 tier: CANON
 type: cosmos
-version: 2.3.0
+version: 2.0.0
 status: canonical
 created: 2025-10-01
 updated: 2025-12-30
@@ -12,10 +12,9 @@ change_velocity: quarterly
 synopsis: Five-minute assessment and entry pathway selection for new practitioners—self-assessment across six dimensions with appropriate starting point identification.
 ---
 
-# CANON-00009: SYNCRESCENDENT QUICKSTART v2.3
+# CANON-00009: SYNCRESCENDENT QUICKSTART
 ## Five-Minute Assessment & Entry Pathway
 
-> **Version**: 2.3 Unified (Preservative Coalescence Complete)
 > **Date**: November 11, 2025
 > **Purpose**: Practitioner self-assessment and appropriate entry pathway selection
 > **Scope**: New practitioner → First practice decision within 30 minutes

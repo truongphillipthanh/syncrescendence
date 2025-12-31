@@ -4,7 +4,7 @@ name: Business Operations Enhancements
 identity: Business Operations Backbone v1.2 Enhancements
 tier: CANON
 type: satellite
-version: 1.2.0
+version: 2.0.0
 status: canonical
 created: 2025-10-17
 updated: 2025-12-30
@@ -15,7 +15,7 @@ lunar: BIZ_BACKBONE
 parent: CANON-33110
 ---
 
-# BUSINESS OPERATIONS BACKBONE: v1.2 ENHANCEMENTS
+# BUSINESS OPERATIONS BACKBONE: ENHANCEMENTS
 ## Content Production Pace Revision + Consulting Protocol Specification
 
 ---

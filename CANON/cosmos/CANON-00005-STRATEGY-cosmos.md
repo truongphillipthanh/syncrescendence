@@ -4,7 +4,7 @@ name: Syncrescendent Strategy
 identity: STRATEGY
 tier: CANON
 type: cosmos
-version: 2.3.0
+version: 2.0.0
 status: canonical
 created: 2025-10-01
 updated: 2025-12-30

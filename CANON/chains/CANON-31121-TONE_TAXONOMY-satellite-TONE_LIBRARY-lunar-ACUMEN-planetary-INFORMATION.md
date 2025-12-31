@@ -4,7 +4,7 @@ name: Tone Library Taxonomy
 identity: Tone Library Complete Taxonomy Reference
 tier: CANON
 type: satellite
-version: 1.0.0
+version: 2.0.0
 status: canonical
 created: 2025-10-17
 updated: 2025-12-30

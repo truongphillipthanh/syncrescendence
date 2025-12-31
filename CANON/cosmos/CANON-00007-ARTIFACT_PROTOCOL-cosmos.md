@@ -4,7 +4,7 @@ name: Artifact Production Protocol
 identity: ARTIFACT_PROTOCOL
 tier: CANON
 type: cosmos
-version: 1.0.0
+version: 2.0.0
 status: canonical
 created: 2025-10-19
 updated: 2025-12-30

@@ -4,7 +4,7 @@ name: Content Production Protocol
 identity: CONTENT_PROTOCOL
 tier: CANON
 type: cosmos
-version: 1.0.0
+version: 2.0.0
 status: canonical
 created: 2025-11-11
 updated: 2025-12-30

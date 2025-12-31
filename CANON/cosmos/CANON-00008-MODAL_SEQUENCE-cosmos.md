@@ -4,7 +4,7 @@ name: Modal Sequence Architecture
 identity: MODAL_SEQUENCE
 tier: CANON
 type: cosmos
-version: 1.0.0
+version: 2.0.0
 status: canonical
 created: 2025-11-10
 updated: 2025-12-30

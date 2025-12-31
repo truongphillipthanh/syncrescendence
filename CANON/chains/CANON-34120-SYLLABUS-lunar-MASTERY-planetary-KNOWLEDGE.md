@@ -4,7 +4,7 @@ name: Mastery Syllabus
 identity: Mastery Lunar Syllabus
 tier: CANON
 type: lunar
-version: 1.1.0
+version: 2.0.0
 status: canonical
 created: 2025-10-17
 updated: 2025-12-30
@@ -14,7 +14,7 @@ planetary: MASTERY
 parent: CANON-34100
 ---
 
-# MASTERY LUNAR: SYLLABUS v1.1
+# MASTERY LUNAR: SYLLABUS
 ## Tactical Implementation Pathways - October 2025 Tool Ecosystem
 
 ---

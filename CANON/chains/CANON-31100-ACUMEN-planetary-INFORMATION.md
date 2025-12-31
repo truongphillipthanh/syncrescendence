@@ -4,7 +4,7 @@ name: Planetary Acumen
 identity: Planetary Acumen - Air Element Sensing Modality
 tier: CANON
 type: planetary
-version: 2.3.0
+version: 2.0.0
 status: canonical
 created: 2025-10-17
 updated: 2025-12-30

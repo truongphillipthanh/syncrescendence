@@ -4,14 +4,14 @@ name: Lunar Navigation
 identity: LUNAR_NAV
 tier: CANON
 type: lattice
-version: 2.2.0
+version: 2.0.0
 status: canonical
 created: 2025-10-17
 updated: 2025-12-30
 synopsis: Progressive disclosure architecture for Coherence-Transcendence systems using five orthogonal dimensions to guide practitioner mastery through lunar degree progression
 ---
 
-# CANON-23000: LUNAR NAVIGATION v2.2
+# CANON-23000: LUNAR NAVIGATION
 ## Progressive Disclosure Architecture for Coherence-Transcendence Systems
 
 > **Canonical Status**: Core Pathway Document  
