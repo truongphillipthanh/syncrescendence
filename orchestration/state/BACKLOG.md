@@ -1,78 +1,106 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Oracle-Claude Coordination
-**Last Updated**: 2025-12-30T17:35:00
+**Last Updated**: 2025-12-30T18:15:00
 
 ---
 
 ## ACTIVE SPRINT
 
 ### In Progress
-- None currently
+- [x] DIRECTIVE-021: Phase 3 Reconnaissance ← COMPLETE
 
-### Ready for Execution
-- [ ] CANON-30500: Platform Primitives canonization (42K source)
-- [ ] Manifest auto-generation: Update CANON-00002 from frontmatter
+### Ready for Execution (Awaiting Directives)
+- [ ] Stream A: Old numbering update (4 files, 100+ refs)
+- [ ] Stream B: Chain name alignment (30+ files) ← NEEDS ORACLE DECISION
+- [ ] Stream C: Version normalization (65 files)
 
 ### Blocked / Awaiting Decision
-- None currently
+- **Chain naming convention**: Oracle6 must decide Option A/B/C before Stream B
+
+---
+
+## PHASE 3 TASK BREAKDOWN (From Reconnaissance)
+
+### Stream A: Old Numbering Update (READY)
+**Priority**: HIGH
+**Files**: 4
+**Estimated edits**: ~100
+
+| File | Edits Needed |
+|------|--------------|
+| CANON-00000-SCHEMA-cosmos.md | ~50 references |
+| CANON-00007-ARTIFACT_PROTOCOL-cosmos.md | ~40 references |
+| CANON-21000-CHAIN_MATRIX-lattice.md | ~5 references |
+| CANON-99000-HISTORICAL-meta.md | Review (may be intentional) |
+
+**Approach**: Find-replace with mapping table:
+- CANON-1 → CANON-00001
+- CANON-9 → CANON-30000
+- etc.
+
+### Stream B: Chain Name Alignment (DECISION NEEDED)
+**Priority**: HIGH
+**Files**: 30+
+**Estimated edits**: ~200
+
+**DECISION REQUIRED**:
+- Option A: Update prose to new names (Intelligence, Information, Insight, Expertise, Knowledge, Wisdom)
+- Option B: Keep old names in prose (Technology, Sensing, Coherence, Efficacy, Embodiment, Transcendence)
+- Option C: Use both with pattern
+
+**Parallelization** (after decision):
+- B1: cosmos/ tier (8 files)
+- B2: chains/CANON-30xxx (13 files)
+- B3: chains/CANON-31xxx (13 files)
+- B4: chains/CANON-32xxx through CANON-35xxx (17 files)
+
+### Stream C: Version Normalization (AFTER A+B)
+**Priority**: MEDIUM
+**Files**: 65
+**Target Version**: 2.0.0
+
+**Approach**: Batch frontmatter update after content annealment complete
+
+### Stream D: Inline Version Removal (LOW)
+**Priority**: LOW
+**Files**: ~5
+**Approach**: Remove version text from body, rely on frontmatter
 
 ---
 
 ## NEAR-TERM BACKLOG
 
 ### Structural Completion
-- [x] Full metadata rollout (all 61 CANON files) ← COMPLETE
-- [x] Tech Lunar crown jewel (CANON-30400) ← COMPLETE
-- [x] Tech Lunar asteroids (CANON-30410-30450) ← COMPLETE
-- [ ] Platform primitives (CANON-30500, staged)
-- [ ] Manifest auto-generation (CANON-00002 populated from frontmatter)
-- [x] Cross-reference validation audit ← COMPLETE
+- [x] Full metadata rollout ← COMPLETE
+- [x] Tech Lunar canonization ← COMPLETE
+- [x] Phase 3 reconnaissance ← COMPLETE
+- [ ] CANON-30500: Platform Primitives (42K source)
+- [ ] Manifest auto-generation (CANON-00002 from frontmatter)
 
-### Documentation
-- [ ] Archive scaffolding files (move specs to permanent locations)
-- [ ] Update CANON-00000 schema with new documents
-- [ ] README updates across tiers
+### Phase 3 Content Annealment
+- [ ] Stream A: Old numbering update
+- [ ] Stream B: Chain name alignment
+- [ ] Stream C: Version normalization
+- [ ] Remove inline version references
+- [ ] Prose coherence pass
 
 ---
 
 ## MID-TERM BACKLOG
 
-### Content Annealment (NOT STARTED)
-- [ ] Internal terminology audit (within document prose)
-- [ ] Definition consolidation (single-source definitions)
-- [ ] Version reconciliation (all to v2.0.0)
-- [ ] Prose coherence pass
-- [ ] Dependency graph creation
-
 ### IIC Constellation
-- [ ] Configure remaining accounts (Acumen, Coherence, Mastery, Transcendence)
+- [ ] Configure remaining accounts
 - [ ] Cross-IIC coordination patterns
 - [ ] Platform-specific prompt refinement
 
 ### Exempla Population
-- [ ] First case study (real implementation example)
-- [ ] First worked example (step-by-step demonstration)
+- [ ] First case study
+- [ ] First worked example
 
 ### Content Processing
-- [ ] YouTube processing pipeline activation
-- [ ] ~80 subscriptions systematic processing
-- [ ] Content → CANON integration workflow
-
----
-
-## LONG-TERM BACKLOG
-
-### Activation Phase
-- [ ] Obsidian graph verification
-- [ ] Full IIC account configuration
-- [ ] Cross-IIC coordination testing
-- [ ] Content processing pipeline deployment
-
-### Automation
-- [ ] Metadata validation scripts
-- [ ] Cross-reference checker
-- [ ] Manifest generator from frontmatter
-- [ ] Naming convention enforcer
+- [ ] YouTube processing pipeline
+- [ ] ~80 subscriptions processing
+- [ ] Content → CANON workflow
 
 ---
 
@@ -80,71 +108,52 @@
 
 ### Oracle4 (Pre-DIRECTIVE-017)
 - [x] Defrag execution (658 → 136 files)
-- [x] QUEUE-36000 created (philosophical foundations)
-- [x] QUEUE-35121 created (neurodivergent implementation)
-- [x] Three-tier architecture established
 
 ### Oracle5 - DIRECTIVE-017 (Holistic Reconception)
-- [x] Coherence audit completed
-- [x] GENESIS layer designed
-- [x] Nomenclature specification produced
-- [x] Five-tier architecture specified
+- [x] Coherence audit
+- [x] GENESIS layer design
+- [x] Nomenclature specification
 
 ### Oracle5 - DIRECTIVE-018 (Execution)
-- [x] GENESIS layer created (4 documents)
-- [x] Nomenclature reform executed (58 files renamed)
-- [x] QUEUE-36000 absorbed into GENESIS-001
-- [x] CANON-35121 created from QUEUE-35121
-- [x] EXEMPLA bootstrapped with templates
-- [x] Coherence distillation analysis completed
-- [x] Tech Lunar canonization plan produced
-- [x] OPERATIONAL/README.md paths corrected
+- [x] GENESIS layer creation
+- [x] Nomenclature reform (58 files renamed)
+- [x] EXEMPLA bootstrapped
 
 ### Oracle5 - DIRECTIVE-019 (Orchestration Restoration)
-- [x] orchestration/ directory structure created
-- [x] ALPHA/ consolidated to orchestration/scaffolding/
-- [x] BETA/ consolidated to orchestration/scaffolding/
-- [x] CURRENT_STATE.md created
-- [x] BACKLOG.md created
-- [x] Directives archived
-- [x] Execution report generated
+- [x] orchestration/ infrastructure
 
 ### Oracle5 - DIRECTIVE-020 (Phase 2 Completion)
-- [x] Metadata schema review
-- [x] Pilot implementation (5 documents)
-- [x] Full rollout (all 61 CANON files)
-- [x] GENESIS files verified (already had frontmatter)
-- [x] Validation script created
-- [x] Cross-reference validation complete
-- [x] Execution report: EXECUTION_LOG-2025-12-30-020B.md
+- [x] Metadata schema rollout
+- [x] Cross-reference validation
 
 ### Oracle5 - DIRECTIVE-020A (Phase 2 Alpha)
-- [x] ARCHIVE/ verified (already complete from prior session)
-- [x] CANON-30400 verified (crown jewel exists)
-- [x] CANON-30410 verified (cognitive architecture exists)
-- [x] CANON-30420 created (multi-agent orchestration)
-- [x] CANON-30430 created (memory systems)
-- [x] CANON-30440 created (safety and alignment)
-- [x] CANON-30450 created (production frameworks)
-- [x] QUEUE/PENDING_REVIEW/tech/ deleted (canonized)
-- [x] Execution report: EXECUTION_LOG-2025-12-30-020A.md
-- [x] State files updated
+- [x] CANON-30420 through CANON-30450 created
+- [x] Tech Lunar canonization complete
+
+### Oracle6 - DIRECTIVE-021 (Phase 3 Reconnaissance)
+- [x] Current state verified
+- [x] Terminology survey (65 files)
+- [x] Cross-reference audit (100+ old refs found)
+- [x] Version inventory complete
+- [x] Definition sources mapped
+- [x] RECONNAISSANCE_REPORT.md created
+- [x] Parallelization strategy defined
 
 ---
 
 ## GOALS
 
 ### Immediate Goal
-Complete Tech Lunar canonization and maintain Oracle visibility ← ACHIEVED
+Complete Phase 3 content annealment (awaiting Oracle6 directive)
 
 ### Near-Term Goal
 Platform primitives (CANON-30500), manifest auto-generation
 
 ### Mid-Term Goal
-Content annealment (internal coherence, not just structural)
+IIC constellation activation, content processing pipeline
 
 ### Long-Term Goal
-Operational cognitive system with IIC constellation active and content flowing
+Operational cognitive system with Field Node infrastructure
 
 ---
 
@@ -155,24 +164,24 @@ Operational cognitive system with IIC constellation active and content flowing
 |--------|--------|---------|--------|
 | CANON naming compliance | 100% | 100% | COMPLETE |
 | Metadata coverage | 100% | 100% | COMPLETE |
-| Cross-ref validation | 100% | 100% | COMPLETE |
 | Directory organization | Complete | Complete | COMPLETE |
-| Tech Lunar canonization | 100% | 100% | COMPLETE |
+| Phase 3 reconnaissance | Complete | Complete | COMPLETE |
 
-### Content Health
+### Content Health (Phase 3 Targets)
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
+| Old numbering removed | 0 refs | 100+ refs | NEEDS WORK |
+| Chain name consistency | 100% | ~30% | NEEDS WORK |
+| Version alignment | 2.0.0 | 5 versions | NEEDS WORK |
 | Terminology consistency | 100% | ~70% | NEEDS AUDIT |
-| Version alignment | v2.0.0 | Mixed | NEEDS WORK |
-| Definition consolidation | Single-source | Scattered | NEEDS WORK |
 
 ### Visibility Health
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
 | Orchestration infrastructure | Active | Active | COMPLETE |
 | State tracking | Current | Current | COMPLETE |
-| Directive archival | Complete | In Progress | CONTINUING |
+| Reconnaissance complete | Yes | Yes | COMPLETE |
 
 ---
 
-*Backlog updated after DIRECTIVE-020A execution. Provides persistent state across sessions.*
+*Backlog updated after DIRECTIVE-021 execution. Phase 3 parallelization ready pending Oracle6 chain naming decision.*
