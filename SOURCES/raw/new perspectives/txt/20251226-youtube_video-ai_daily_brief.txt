@@ -1,0 +1,1446 @@
+https://www.youtube.com/watch?v=HcyUUvxkykE
+51 Charts Explaining AI in 2026
+4,492 views  Premiered Dec 26, 2025  The AI Breakdown
+51 charts map the AI landscape heading into 2026—showing why capabilities keep accelerating (reasoning tokens, longer task horizons, usable long-context), even as progress stays jagged and bottlenecked by process + verification. The episode then zooms out to the big forces shaping next year: hyperscaler data-center spend, shifting R&D vs inference tradeoffs, and a markets picture defined by explosive chatbot adoption, massive capital flows, and intensifying lab competition (OpenAI vs Anthropic vs a resurgent Google, with China rising fast in open source). It closes with the real-world implications—enterprise ROI and the "agents are still early" reality, vibe-coding's impact on how engineering teams reorganize, and the growing jobs/politics debate as AI narratives, youth employment, and local data-center fights heat up.
+
+Brought to you by:
+KPMG – Go to www.kpmg.us/ai to learn more about how KPMG can help you drive value with our AI solutions.
+Vanta - Simplify compliance - https://vanta.com/nlw 
+
+The AI Daily Brief helps you understand the most important news and discussions in AI. 
+Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+Get it ad free at 
+Join our Discord: https://bit.ly/aibreakdown
+
+---
+
+0:00
+Today we are looking at 51 charts that
+0:02
+tell the story of artificial
+0:03
+intelligence heading into next year. Now
+0:07
+we are in the midst of endofear episodes
+0:10
+which is a combination of course of both
+0:12
+looking back and looking forward. And
+0:14
+this episode is all about the charts
+0:15
+that sit right at that intersection.
+0:17
+There are charts that tell us where AI
+0:19
+is today and give us some idea of what
+0:21
+we should be planning on heading into
+0:22
+2026. Given that there are 51 of these
+0:25
+things, I am going to rip through them.
+0:27
+So, buckle up and let's talk about the
+0:29
+51 charts that explain AI in 2026.
+0:32
+Quick note on the production of this.
+0:34
+The charts were all sourced entirely by
+0:36
+me. Part of my process for preparing
+0:38
+this show is spending a ton of time on
+0:39
+X/ Twitter and using those bookmarks
+0:41
+heavily. And I have a folder where I
+0:43
+actually keep these types of charts. So,
+0:45
+step one was just going back and looking
+0:46
+at the charts that I thought were most
+0:48
+reflective of the current moment and had
+0:49
+something to say about the year we're
+0:50
+heading into. The second part of the
+0:52
+process was outlining a somewhat rough
+0:54
+organization of which charts I wanted to
+0:56
+include. From there, I turned it over to
+0:58
+Claude, Chatbt, and Gemini to see how
+1:00
+they would organize it. I liked Opus 4.5
+1:02
+best, so we went with that with a few
+1:04
+tweaks. And then I handed that and the
+1:06
+charts off to Gen Spark and Manis to put
+1:08
+it all together. And while Gen Spark
+1:10
+looked much better, it made some really
+1:12
+weird leaps in terms of how it was
+1:13
+describing things and had some errors.
+1:15
+So, ultimately, we went with Manis,
+1:17
+which was then exported to Google Drive
+1:18
+for a final edit by me. Apologies for
+1:21
+those of you who don't care about that.
+1:22
+I just think a lot of you are also
+1:23
+interested in the operator and
+1:24
+production side of AI. So I like telling
+1:26
+you how these things get put together.
+1:28
+All right, as you can see, we've divided
+1:30
+this into seven categories.
+1:32
+Capabilities, infrastructure, markets,
+1:33
+economics, vibe, coding, jobs, and
+1:35
+politics. We kick off with capabilities.
+1:38
+First chart comes from Open Router and
+1:40
+is the reasoning versus non-reasoning
+1:42
+token trends over time. You've probably
+1:43
+seen this one a couple times now.
+1:45
+Basically, at the beginning of 2025,
+1:47
+reasoning models were not yet really a
+1:49
+thing. OpenAI had announced 01 preview
+1:51
+back in September, and it had finally
+1:53
+become available at the very end of
+1:54
+December, but we were just starting to
+1:56
+get our hands on these things. That
+1:58
+would change dramatically over the
+1:59
+course of the last year, and by November
+2:00
+of 2025, reasoning tokens represented
+2:02
+meaningfully over 50%. This has brought
+2:05
+with it new capabilities, new use cases,
+2:07
+and new ways of thinking about how we
+2:08
+scale. Our next chart is the one that
+2:10
+for much of this year held up the entire
+2:12
+world. It felt like this is the chart
+2:15
+from meter that measures the time
+2:17
+horizon of software engineering tasks
+2:18
+that different LLMs can complete at 50
+2:21
+and 80% success rates. So the task
+2:23
+duration here is not how long the model
+2:25
+works for independently. It's how long
+2:27
+in human equivalent time a task can
+2:29
+complete. Coming into this year, meter
+2:32
+had shown a doubling of capability
+2:33
+roughly every 7 months, but it had
+2:35
+started to inch up to closer to 4 months
+2:37
+and this year reified that 4-month
+2:39
+doubling time. In these charts, you can
+2:41
+see the seven-month doubling line in
+2:43
+green and the five-month doubling line
+2:44
+in red. And you can see how at 50% it
+2:47
+hues really closely to the four-month
+2:48
+line. And at 80%, it's mostly on the
+2:51
+4-month line with a few recent ones in
+2:53
+between the four and the 7-month line.
+2:55
+Now, whether it's 7 months or 4 months,
+2:57
+the point is capabilities have not
+2:59
+plateaued. They continue to increase
+3:00
+dramatically and quickly. We are also
+3:03
+seeing major efficiency gains. This
+3:05
+chart shows the performance efficiency
+3:07
+of Gemini 3 Flash, which is better
+3:09
+performing than Gemini 2.5 Pro, which
+3:11
+was state-of-the-art just a few months
+3:13
+ago, for around a third of the cost,
+3:15
+especially as we move into a world where
+3:17
+production workloads are getting bigger
+3:18
+and bigger and we are consuming more
+3:20
+tokens. The fact that it's not just
+3:22
+capabilities, but also efficiency and
+3:23
+cost that are improving is a big deal.
+3:26
+Another measure of the efficiency gains
+3:27
+came with 5.2's performance on the ARC
+3:29
+AGI1 exam. The ARC AGI benchmark folks
+3:33
+noted that between a tweaked 03 model
+3:35
+last year and GPT 5.2 this year, there
+3:38
+was a 390% efficiency gain in a single
+3:41
+year. Now, what this all adds up to in
+3:43
+terms of when we get AGI is kind of
+3:45
+anyone's guess. As you can see from this
+3:47
+chart, people are all over the place in
+3:49
+terms of when they think we're actually
+3:51
+going to get AGI. By the way, there's no
+3:53
+common definition of AGI, and there are
+3:55
+even plenty of folks out there who think
+3:56
+that the term is getting more and more
+3:58
+meaningless. One interesting note is
+4:00
+that I think that if anything, people's
+4:02
+timelines actually got moved back
+4:04
+slightly heading into 2026 from where
+4:06
+they were heading into 2025 despite all
+4:08
+these capability gains. Andre Carpathy
+4:11
+in particular in a big interview he did
+4:12
+might have single-handedly set back the
+4:14
+timeline a couple of years. Now, as we
+4:16
+look at these new releases, they are not
+4:18
+just incremental. In many cases, they
+4:20
+are solving key challenges. The charts
+4:22
+we have here are for a long context test
+4:24
+that basically tests how an LLM's
+4:26
+performance degrades the more context
+4:28
+you give it. With GBT 51, which is like
+4:31
+a month old at this point, you can see
+4:33
+the performance on this test went from
+4:35
+around 85 or 90% at 8K tokens to a
+4:38
+little under 50% at 256K tokens. Whereas
+4:41
+with GBT 52 thinking, it was at 100% to
+4:44
+start and stayed very close all the way
+4:46
+to the end. This makes that context
+4:48
+window actually usable in a way that it
+4:50
+just wasn't before, which is extremely
+4:52
+powerful and opens up new use cases.
+4:54
+Still, AI capabilities, as much as they
+4:56
+are evolving, are not evolving evenly.
+4:59
+There are a bunch of different versions
+5:00
+of this chart that have different size
+5:02
+of spikes depending on how good you
+5:03
+think AI is. But the idea here is that
+5:05
+AI progress is not uniform. It is
+5:07
+instead jagged, where a model can be
+5:09
+superhuman at certain tasks and
+5:11
+unbelievably incompetent at basic things
+5:13
+that a kid could do. This jaggedness is
+5:15
+a key facet of AI and is part of the
+5:17
+challenge in implementing it well.
+5:19
+Indeed, when it comes to what slows down
+5:21
+AI, there are a set of three different
+5:23
+bottlenecks. This chart comes from a
+5:25
+recent essay by Professor Ethan Malik
+5:27
+who organized it into capability
+5:28
+bottlenecks, process bottlenecks, and
+5:30
+verification bottlenecks. Capability
+5:32
+bottlenecks are the ones we think about
+5:34
+most, the weaknesses in AI and that
+5:35
+jagged performance. Process bottlenecks
+5:38
+are the ones that we really started to
+5:39
+reconcile with this year. The things
+5:41
+that make it hard to overlay AI onto
+5:44
+existing systems, particularly in the
+5:45
+enterprise, and have it do what it's
+5:47
+able to do. A third layer, which we talk
+5:49
+about not very much, is a new category
+5:51
+that is native and endemic to AI, which
+5:53
+is verification bottlenecks. Basically,
+5:56
+where humans become crucial to reviewing
+5:57
+edge cases and ensuring final accuracy,
+6:00
+which is often a whole new set of
+6:01
+processes that humans need to be
+6:02
+organized around. I feel like in some
+6:05
+ways the first profession to really
+6:06
+reconcile with these verification
+6:08
+bottlenecks is software engineering
+6:10
+which has seen such a shift over the
+6:12
+course of this year in how AI and
+6:13
+agentic coding supports what they do but
+6:15
+has created all these new challenges and
+6:17
+shifted a lot of the work to that
+6:18
+verification step. Regardless of the
+6:21
+challenges, one thing that this year
+6:22
+showed is a massive explosion of
+6:24
+diversity in the model set. The major
+6:26
+labs are putting out more different
+6:27
+types of models that have different
+6:29
+strengths and weaknesses and are
+6:30
+optimized for different types of use
+6:31
+cases. But Chinese labs have also
+6:33
+exploded and become a major player when
+6:35
+it comes to the choices that builders
+6:36
+have access to. Next up, we move to
+6:39
+infrastructure. Obviously, the big theme
+6:42
+of this year, which will continue to
+6:44
+dominate heading into next year, is the
+6:45
+hyperscalers making just historically
+6:47
+large capital investments into AI
+6:49
+infrastructure in the form of data
+6:50
+centers. This represents one of the
+6:52
+largest coordinated technology
+6:54
+investments in history and something
+6:55
+that the market has really had to
+6:56
+reconcile and wrap its head around. The
+6:59
+level of investment is why people are
+7:00
+asking questions about whether the
+7:02
+output of AI and the revenue that comes
+7:04
+from that can possibly justify it. And
+7:06
+yet all of the big labs feel exactly the
+7:09
+same, which is, as Mark Zuckerberg has
+7:11
+articulated many times this year, it is
+7:13
+a much greater risk to underinvest than
+7:15
+to overinvest. Another expression that
+7:17
+we got that tells the story of the
+7:19
+moment in such a simple chart is the
+7:21
+capital going into office construction
+7:22
+versus data center construction. This
+7:25
+was actually from a couple months ago
+7:26
+and I'm sure that it is actually fully
+7:27
+flipped at this point. But starting in
+7:29
+2023, you see a shift where less capital
+7:32
+is going into offices and more capital
+7:34
+is going into data centers. And sometime
+7:36
+in the middle to the late part of 2025,
+7:38
+those lines actually over overlapped
+7:39
+where we're now seeing more money spent
+7:41
+on data center construction than on
+7:42
+office construction. Now, one of the
+7:45
+things that some people ask is how much
+7:46
+all of this new infrastructure really
+7:48
+matters. This chart shows that slower
+7:50
+growth in compute could lead to
+7:52
+substantial delays of possibly years in
+7:54
+terms of certain capability milestones.
+7:57
+Now, it's a whole separate question as
+7:58
+to whether there are actually benefits
+8:00
+to those delays. For example, if you ask
+8:02
+Bernie Sanders, there absolutely are.
+8:04
+But the point that this chart is trying
+8:05
+to make is that there will be
+8:06
+consequences to the speed of AI
+8:08
+development if these labs don't have
+8:10
+access to the comput that they're
+8:11
+looking for. And this chart shows that
+8:13
+as much as the labs have to service
+8:15
+their existing customers, they are still
+8:17
+heavily investing in the future. Now,
+8:19
+this is 2024, and I'd be interested to
+8:20
+see an update for 2025, but in 24, you
+8:23
+can see OpenAI's R&D compute was 5
+8:26
+billion as opposed to its inference
+8:28
+compute, which was at about 2 billion.
+8:30
+I'm not sure that they were able to
+8:31
+maintain this ratio this year. Given the
+8:33
+release of their images model, which was
+8:35
+their most viral moment of the year,
+8:37
+plus the release of Sora, plus just
+8:39
+continued growth in their base usage,
+8:41
+you have to think that servicing their
+8:42
+existing customers, started to compete
+8:44
+with R&D a little bit more this year in
+8:46
+ways that could be challenging heading
+8:47
+into the future. Certainly, there is
+8:49
+scuttlebuck going around that some folks
+8:50
+inside OpenAI aren't particularly happy
+8:52
+about how that ratio looks right now.
+8:55
+From there, we move into markets. The
+8:58
+first chart to note is sort of the most
+8:59
+obvious. The chatbot adoption is
+9:02
+absolutely massive and faster than
+9:03
+anything else we've ever seen before. I
+9:05
+hardly need to spend a lot of time on
+9:06
+this, but we now have two chat bots in
+9:08
+Chad GBT and Gemini that are absolutely
+9:11
+careening towards a billion active
+9:12
+users. Something that it took the
+9:14
+previous fastest growing technologies 5
+9:16
+plus years at the very minimum to
+9:18
+achieve. Still, if there was one chart
+9:20
+that defined AI for markets this year,
+9:22
+it's all of the various permutations of
+9:24
+this circularity chart. This shows how
+9:27
+much revenue and dealmaking flows
+9:28
+between the major players like Microsoft
+9:30
+OpenAI and Oracle. Now to some, this
+9:33
+chart is exhibit A in why AI is a house
+9:35
+of cards. But of course, what this chart
+9:38
+is missing is a visualization of the
+9:40
+very significant and real revenue that
+9:42
+is also coming in to help fuel this. Of
+9:44
+course, the revenue isn't even close to
+9:46
+the total scale of dealm right now, but
+9:48
+it is growing faster than anything we've
+9:49
+ever seen, and we really have barely
+9:51
+started to scratch the surface on
+9:52
+monetization. Still, this chart is as
+9:55
+good a rorshack test as we have for how
+9:56
+you feel about the markets heading into
+9:58
+the next year. Paired with this, we have
+10:00
+a recent chart of OpenAI's estimated
+10:01
+balance sheet that shows just how much
+10:03
+external capital they're going to need
+10:05
+to get to the point where they're
+10:06
+actually profitable. Now, so far, it
+10:08
+doesn't seem like they're going to have
+10:09
+any problem accessing that capital. The
+10:11
+most recent rumors are that they are
+10:12
+raising tens of billions of dollars, if
+10:14
+not up to a hundred billion dollars at
+10:15
+an $830 billion valuation, suggesting
+10:18
+that capital markets are very
+10:20
+comfortable with what they're seeing
+10:21
+from OpenAI and very willing to fund
+10:23
+this party to keep going. Now, for those
+10:25
+who are AI bears, one of the things that
+10:27
+they are concerned about is the
+10:29
+reduction in inference costs where as
+10:31
+models get good enough, AI products can
+10:33
+actually run on much cheaper, simpler
+10:35
+GPUs and computers. They worry that if
+10:37
+that happens, all of this massive
+10:38
+investment in complex architectures
+10:40
+doesn't really make sense anymore. One
+10:43
+investor I saw called this chart the
+10:45
+most important and misunderstood chart
+10:46
+in AI. Now, it should be noted that not
+10:49
+everyone agrees with this and there are
+10:50
+lots of counterarguments, but if we are
+10:52
+trying to understand where the market's
+10:53
+head is at heading into next year, this
+10:55
+is a key consideration. Now, we move
+10:57
+into some model competition. Anthropic
+11:00
+by any measure had a very good year.
+11:02
+Their market share in coding was massive
+11:04
+and that dragged their market share
+11:05
+across the enterprise up as well.
+11:07
+According to Menllo Ventures estimates,
+11:09
+they now claim 40% of the enterprise
+11:11
+market ahead of OpenAI. Google also saw
+11:14
+a lot of growth in enterprise this year
+11:15
+as well. And as fast as OpenAI's revenue
+11:18
+has been growing, Anthropics has been
+11:20
+growing even faster. They went from a
+11:22
+billion dollars annualized at the
+11:23
+beginning of this year and will end the
+11:25
+year at somewhere around 8 or 9 billion.
+11:27
+It seems open AI started around 4
+11:30
+billion and will end the year at 13 or
+11:31
+14 billion which is absolutely
+11:33
+incredible but still growing more slowly
+11:35
+than Anthropic at least for the moment.
+11:38
+Still, if you are just taking a step
+11:39
+back and don't have a particular horse
+11:40
+in this race, the thing to note is just
+11:42
+the incredible pace of revenue growth
+11:44
+for both of these companies which has to
+11:47
+be bullish for their ability to actually
+11:48
+make good on all these big deals that
+11:50
+they're signing over the course of the
+11:51
+next 5 years. Another key story of 2025
+11:54
+that sets up the battle for 2026 is of
+11:56
+course the massive resurgence of Google.
+11:59
+You can see this moment around the
+12:00
+launch of GPT5 which also happened to be
+12:03
+the launch of the first version of Nano
+12:04
+Banana that Gemini really starts to take
+12:06
+off. The release of Gemini 3 has also
+12:09
+purportedly even increased this
+12:10
+competition and Gemini is absolutely
+12:12
+surging heading into next year. Another
+12:15
+way that you can see this expressed is
+12:16
+in the betting markets where the
+12:17
+likelihood that Alphabet is the largest
+12:19
+company by the end of next June has
+12:21
+increased significantly. Nvidia held a
+12:24
+commanding percentage of that at the
+12:25
+beginning of the year and Alphabet is
+12:27
+now creeping up on them. Now, the other
+12:29
+way to see the sentiment shift between
+12:30
+OpenAI and Alphabet is in the basket of
+12:33
+correlated stocks. Bloomberg and Morgan
+12:35
+Stanley put together a basket of stocks
+12:37
+that are exposed to Alphabet and a
+12:38
+basket of stocks that are exposed to
+12:40
+OpenAI and showed how around November
+12:43
+they started diverging with the Alphabet
+12:45
+exposed stocks continuing to rise and
+12:46
+the OpenAI exposed stocks taking a bit
+12:48
+of a hit. Now, this doesn't mean
+12:50
+anything fundamental. It just means a
+12:52
+shift in what markets believe. But it's
+12:54
+a pretty clear and dramatic signal of
+12:55
+where things are. Still, if you are one
+12:57
+who is just looking at the performance
+12:59
+of these different models, I think one
+13:00
+of the most powerful charts is this one,
+13:02
+which shows that no one stays on top for
+13:04
+long. OpenAI introduces the world's most
+13:07
+powerful model, followed by Anthropic,
+13:08
+who introduces the world's most powerful
+13:10
+model, followed by Gemini, who
+13:11
+introduces the world's most powerful
+13:12
+model, followed by Grock, who introduces
+13:14
+the world's most powerful model. On and
+13:15
+on forever, Infinity, just from a
+13:18
+performance capability standpoint, this
+13:19
+is absolutely the chart that best shows
+13:22
+what we are going to experience
+13:23
+throughout 2026. I strongly believe.
+13:26
+However, if we're talking about the
+13:28
+competition between the labs, we do have
+13:30
+to give China its due. This chart shows
+13:32
+the massive increase in China as a share
+13:35
+of open- source tokens. At the beginning
+13:37
+of the year, it was all meta and mistrol
+13:40
+with almost nothing coming from China.
+13:42
+By the end of the year, it was something
+13:43
+like 80% Chinese models. They are a
+13:46
+factor heading into next year and will
+13:48
+be a bigger factor throughout 2026.
+13:51
+Next up, we move over to economics, by
+13:53
+which we mean the impact of AI. We've
+13:56
+talked already a little bit about how
+13:57
+the cost of using AI has fallen
+13:59
+precipitously. What's interesting, of
+14:00
+course, is that Javvon's paradox has
+14:02
+fully locked in, and the total amount
+14:04
+that enterprises are spending on AI has
+14:06
+gone nothing but up. In fact, price
+14:08
+decreases are fueling usage growth as
+14:10
+price decreases unlock new types of use
+14:12
+cases that were uneconomical before.
+14:15
+This has led to enterprise AI being the
+14:16
+fastest scaling software category in
+14:18
+history. According to Menllo's
+14:20
+estimates, it now captures 6% of the
+14:21
+$300 billion global SAS market. Now, it
+14:24
+should be noted that I don't think that
+14:26
+the total addressable market for AI is
+14:27
+the $300 billion global SAS market. I
+14:29
+think it is multiples larger than that.
+14:31
+But still, even in historically
+14:33
+slowmoving and lumbering enterprise
+14:34
+adoption, things are moving very, very
+14:36
+quickly. What's more, despite some
+14:39
+rumors to the contrary, companies are
+14:41
+actually seeing measurable ROI from AI
+14:43
+even now. In a Wharton study of
+14:45
+something like 800 executives, around
+14:47
+75% reported positive ROI from their AI
+14:50
+investments. On our AI ROI benchmarking
+14:53
+study, we found 82% saw current positive
+14:57
+ROI. Of the remainder, by the way, only
+14:59
+5 12% were currently at negative ROI.
+15:02
+And even those that were at negative ROI
+15:04
+anticipated that becoming ROI positive
+15:06
+by next year. In fact, 96% of overall
+15:09
+respondents anticipated positive ROI
+15:11
+within the next 12 months. And across
+15:13
+the entire sample, 37% almost 4 in 10
+15:16
+were already seeing high ROI from their
+15:18
+use cases, reporting either significant
+15:21
+or transformational impact. In another
+15:23
+chart from our ROI study, we also found
+15:26
+a correlation between how diverse an
+15:28
+organization's use of AI was and how
+15:29
+much benefit they got. We organized
+15:31
+impact into eight different benefit
+15:32
+categories. And we found that when an
+15:34
+organization had use cases with just one
+15:36
+benefit type, their ROI was lower than
+15:38
+organizations that had four different
+15:40
+benefit types who were lower than
+15:42
+organizations who had all eight
+15:43
+different benefit types in a pretty
+15:45
+significant way. Three was a measure of
+15:47
+modest ROI. Four was a measure of
+15:49
+significant ROI. Organizations that had
+15:51
+one benefit type were just over the edge
+15:53
+of modest at 3.13. And organizations
+15:55
+that had eight benefit types were
+15:56
+starting to creep on significant at
+15:58
+3.65.
+15:59
+What about the idea of 2025 as the year
+16:01
+of agents? Well, it turns out in
+16:03
+practice agents remain nent. In that
+16:06
+same Menllo study, they found about 10
+16:08
+times as much money being spent on
+16:09
+assistants and co-pilots than were being
+16:11
+spent on agents so far. In our ROI
+16:13
+study, we found something similar. We
+16:15
+divided use cases into three categories:
+16:17
+assisted, automated, and agentic, and
+16:19
+found 57% were in the assisted category,
+16:22
+30% were in the automation category
+16:24
+where the AI was managing a discrete
+16:26
+workflow, and 14% were in that agentic
+16:28
+category of autonomous work execution.
+16:31
+One more in the economic section that is
+16:33
+under discussed, but I think is going to
+16:34
+be extremely important next year. I
+16:36
+anticipate that we're going to start
+16:37
+seeing a much deeper integration of ads
+16:39
+into the AI landscape. There are a
+16:41
+variety of reasons for that, but they
+16:43
+are not just about the business model
+16:45
+needs of the labs, although that's a
+16:46
+part of it. LLMs also appear to be a
+16:48
+really good platform for ads. Check out
+16:51
+these recent numbers from Similar Web.
+16:53
+They looked at the average minutes spent
+16:54
+on site after referral, the average page
+16:56
+views on site after referral, and the
+16:58
+average conversion rate of referrals. If
+17:00
+the source was ChatGBT versus Google and
+17:03
+in each case, ChatGBT absolutely thumped
+17:05
+Google. The average minutes spent on
+17:07
+site were three times higher from
+17:09
+referrals from ChatGBT. Average page
+17:11
+views were 25% higher and the conversion
+17:13
+rate jumped from 5% to 7%. Basically,
+17:16
+people who are finding sites through LLM
+17:19
+are more high intented appear than your
+17:21
+average Google browser, which again
+17:22
+makes it a great place for sponsored
+17:24
+links and ads. Next up, let's look at a
+17:27
+category that was extremely important to
+17:28
+2025. Vibe coding. Our first chart is
+17:31
+just vibe coding grew really fast. We
+17:34
+saw multiple companies surge into the
+17:35
+nine figures of revenue. Some like
+17:37
+cursor creep up on a billion dollars in
+17:39
+ARR and some like Claude Code blow past
+17:42
+that. The combination of meaningful
+17:44
+token cost and high consumption plus
+17:46
+implications for other use cases in LLM
+17:48
+made coding related performance become
+17:50
+the industry's number one priority. As
+17:52
+we head into next year, however,
+17:54
+especially engineering organizations are
+17:56
+trying to figure out how to redesign
+17:57
+themselves around AI coding. A chart
+17:59
+that I've seen from Swix, Shaun Wang,
+18:01
+and others is this semi async valley of
+18:03
+death chart. It looks at agent autonomy
+18:06
+and measures the experience or observed
+18:07
+productivity at various autonomy levels.
+18:10
+On the one end of the spectrum, when
+18:11
+coding agents are extremely responsive
+18:13
+in very fast order, they can be
+18:15
+extremely valuable for deep work focus
+18:16
+on the hardest problems. On the other
+18:18
+end of the spectrum, when they have a
+18:20
+lot of autonomy, they can be great for
+18:21
+simpler texts that are handled in the
+18:23
+background. The challenge is in the
+18:25
+middle range where as the chart puts it,
+18:27
+it's not enough to delegate and it's not
+18:28
+fun to wait. Now, different
+18:30
+organizations are handling this
+18:31
+differently and I think Swix even has
+18:33
+some questions around whether this is
+18:34
+exactly the right way to think about
+18:35
+things. But for our purposes, this chart
+18:37
+represents not just the semi- async
+18:39
+valley of death, but just the broader
+18:40
+set of questions that engineering
+18:41
+organizations are going through heading
+18:43
+into next year to redesign themselves
+18:44
+around AI coding. The reason that this
+18:47
+matters outside of software engineering
+18:48
+is that I believe that they are the
+18:50
+first department that will fully
+18:51
+reorganize themselves around AI
+18:53
+capabilities and in so doing set a
+18:55
+template that other departments and
+18:56
+functions can start to follow. Another
+18:59
+interesting chart showing the impact of
+19:00
+vibe coding. After a long period of
+19:02
+being flat in 2024 and 2025, we started
+19:06
+to see the number of apps and games
+19:07
+released to the app store going back up.
+19:10
+The jump in 2025 was particularly acute,
+19:12
+going up 25% in a year. Some are
+19:14
+attributing this to the rise of vibe
+19:16
+coding and I think that that's right.
+19:18
+Now for our last two sections, we move
+19:20
+into the society level issues and the
+19:22
+charts that will shape some of the big
+19:23
+debates that we're about to have. This
+19:25
+chart has been absolutely everywhere.
+19:28
+The idea of a K-shaped economy where
+19:30
+stocks and asset owners are doing great
+19:32
+and everyone else is doing not so great
+19:34
+has become fairly standard belief at
+19:35
+this point and there are many who want
+19:37
+to attribute it to the launch of
+19:38
+ChachiBT. Now, there are a ton of other
+19:40
+factors like the rate hiking cycle and
+19:42
+the return to the mean after postcoid
+19:44
+over hiring. But when it comes to
+19:46
+politics and society level
+19:47
+conversations, narratives can often
+19:48
+matter more than nuance. And there are
+19:51
+some parts of the economic challenge for
+19:52
+people, whether attributable to AI or
+19:54
+not, that are undeniable. For example,
+19:58
+we have the highest youth unemployment
+19:59
+rate we've had since about 2015, if you
+20:01
+don't take into account the CO spike.
+20:03
+What's more, to the extent that we are
+20:06
+seeing patterns that are maybe actually
+20:08
+attributable to AI, it does look like
+20:11
+early career folks are being hit the
+20:12
+hardest. This is a chart of the
+20:14
+headcount over time organized by
+20:16
+different career sectors. And you could
+20:18
+see towards the end of 2022, there's a
+20:20
+divergence between the mid and senior
+20:22
+career folks with early career really
+20:24
+falling off. To the extent that AI is
+20:27
+taking on all of the junior tasks, there
+20:29
+is going to be a really interesting
+20:30
+challenge for us around how people
+20:32
+bridge from their early career to their
+20:34
+midcareer. Now, some folks are starting
+20:36
+to think about where the job disruption
+20:38
+is likely to come. There were about a
+20:40
+million studies this year that were less
+20:42
+studies and more predictions of which
+20:43
+types of jobs are going to be most
+20:45
+subject to disruption. One really
+20:47
+valuable chart came out of Stanford who
+20:49
+divided tasks and roles based on where
+20:51
+workers desired automation and based on
+20:53
+where AI was actually capable of
+20:55
+automation. Roles and tasks where
+20:58
+workers desired automation and where AI
+21:00
+was capable is what they called the
+21:01
+green light zone. Tasks where automation
+21:04
+desire was high but automation
+21:05
+capability was low, they called the R&D
+21:07
+opportunity zone. Tasks where capability
+21:10
+was high but desire was low is what they
+21:12
+called the red light zone. And
+21:13
+unfortunately, some others looked there
+21:15
+and found that a lot of, for example,
+21:16
+why cominator startups were working in
+21:18
+that red light zone, which I think more
+21:20
+than anything reflects just the fact
+21:21
+that we need to be having these
+21:23
+conversations more around where we
+21:24
+actually want automation. Now, as
+21:27
+narratives take hold of AI labor
+21:29
+disruption, some studies are also
+21:31
+pointing out that counterfactually,
+21:33
+that's not necessarily the only thing
+21:35
+that's showing up. A recent study, for
+21:37
+example, showed that in terms of both
+21:39
+wage growth and overall job growth,
+21:41
+occupations with high AI exposure, at
+21:43
+least right now, are growing much more
+21:45
+significantly than those with low
+21:46
+exposure.
+21:48
+All of which sets us up for the politics
+21:50
+conversation. Miriam Webster's word of
+21:52
+the year was slop. And I had tweeted
+21:54
+that I think that it tells you all you
+21:56
+need to know about the difference of our
+21:57
+perspective inside the AI industry than
+21:59
+outside that it was slop and not
+22:01
+something like vibe coding that was the
+22:03
+word of the year. And yet, as much as it
+22:06
+seems like AI is going to become an
+22:07
+issue, at least for right now, most
+22:10
+folks don't rate it super highly as
+22:12
+something they care about. Only 7% of
+22:14
+people pulled had AI in their top five
+22:16
+most important issues. That said, they
+22:19
+definitely don't want companies to have
+22:20
+a free hand. Recent polling around the
+22:23
+White House executive order to ban state
+22:24
+level regulation had pretty strong
+22:27
+opposition. 55% opposed to just 18%
+22:29
+supporting it with 27% not sure. And
+22:32
+while broadly the issue may not be
+22:34
+clear, data center politics are starting
+22:36
+to emerge as a local issue. It's still
+22:38
+very nent, but in a couple of elections
+22:40
+we saw this year, it was a meaningful
+22:42
+part of the discourse. I would expect to
+22:44
+see a lot more of that heading into the
+22:45
+midterms next year. So there you have
+22:48
+it, my friends. 51 charts that explain
+22:50
+AI heading into 2026. Hopefully this was
+22:53
+an interesting lens to look at things
+22:54
+through. I will have a link to this
+22:56
+presentation if you want to download it
+22:57
+on aidbrief.ai.
+22:59
+For now, that is going to do it for
+23:00
+today's episode. I'd appreciate you
+23:01
+watching or listening.

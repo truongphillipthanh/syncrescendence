@@ -1,0 +1,1457 @@
+https://www.youtube.com/watch?v=LOk48ld2lBc
+The Future of Engineering A Discipline Evolving to Meet Tomorrow's Challenges and Megatrends
+180 views  Oct 24, 2025  #engineering #engineeringstudent #eit
+Engineering matters. It is the backbone of every nation. It drives innovation, enables progress, and shapes the future of our world.
+
+Explore the Future of Engineering through the lens of the megatrends that will define the next decade. This session delves into key aspects of Industry 4.0, drawing from 77 identified megatrends, including technological advancements, smart automation, robotics, workforce dynamics, and emerging economic and business imperatives.
+
+As engineering disciplines evolve to meet tomorrow’s challenges, this session offers a comprehensive view of the future of smart manufacturing.
+
+Led by a globally recognized authority on strategy, you will gain strategic insight, fresh management perspectives, and practical operational guidance tailored for the future.
+
+Key takeaways 
+-Explore megatrends that shape the next decade.
+-Explore practical steps for integrating technology and collaboration in engineering.
+-Learn strategic imperatives for evolving disciplines to meet global challenges.
+
+Presenter
+Prof. Henrik von Scheel, Industry 4.0 Originator, Strategist and Futurist
+
+Prof. Henrik von Scheel is best known as the originator of the 4th Industrial Revolution and a driving force behind today’s defining digital themes.
+
+He co-founded Strategic Intelligence, the platform that powers global trends reports and strategic insights for the World Economic Forum.
+
+Prof. von Scheel serves on the Advisory Council for the EU’s Artificial Intelligence Act and the EU Climate Change Board, where he plays a key role in shaping the Green Deal, FIT for 55, and the Carbon Border Adjustment Mechanism (CBAM), covering Scope 1–3 emissions.
+
+As a Professor of Strategy Management, he has devoted over two decades to strategy research and futures studies. He is the co-author of 153 business, architecture, and IT standards, including Business Decision-Making Notations, the SAP implementation method, and comprehensive Business-IT alignment frameworks.
+
+His work has influenced more than 24 national economies, contributed to measurable GDP growth, triggered major global themes, set industry standards, and impacted 23% of the fastest-growing companies on the Fortune 500 list.
+
+Recognized by the Financial Times as the “leading authority on strategy,” Prof. von Scheel has reshaped modern management thinking. Sheikh Mohammed bin Rashid Al Maktoum, Ruler of Dubai, has acknowledged him as “the most influential management thinker of our times.”
+__
+The Engineering Institute of Technology (EIT) is one of the only institutes in the world specializing in Engineering. We deliver industry-focused professional certificates, diplomas, advanced diplomas, undergraduate and graduate certificates, bachelor’s and master’s degrees, and a Doctor of Engineering to students from over 160 countries.
+--
+FOLLOW US!
+Website: www.eit.edu.au
+Instagram: www.instagram.com/eit_engineering_training
+Facebook: www.facebook.com/EngineeringInstituteofTechnology
+LinkedIn: www.linkedin.com/school/engineering-institute-of-technology
+Twitter:   / enginstoftech  
+TikTok: @eit_engineering_training
+--
+All content in this video is current as of the date of upload.
+--
+EIT CRICOS Provider Number: 03567C | EIT Institute of Higher Education: PRV14008 | EIT RTO Provider Number: 51971
+--
+#eit #engineeringinstituteoftechnology #engineering #engineeringstudent #studyengineering #thefutureofengineering #megatrends #4ir #technicalwebinar
+
+---
+
+0:31
+Hello everyone and welcome to today's webinar. Uh my name is Tippiso and I am
+0:36
+the marketing assistant from the Engineering Institute of Technology. I'd like to welcome you all to today's
+0:43
+webinar. It proves to be different as well as exciting. Uh if this is your
+0:49
+regular and you always attend the webinars, please note that this one is going to be a little bit different. Uh
+0:55
+however, it's just going to be as enjoyable uh as you all note. So I'm
+1:00
+going to skip the formalities of the day uh so that we get right into the business of it. I would like to mention
+1:07
+that you are going to receive a recording as well as the copy of the slides uh for this particular webinar as
+1:13
+per norm uh and you can as well as receive a certificate of attendance.
+1:18
+Please note that we will send them in about two business days. Please make sure to monitor uh your email inboxes so
+1:25
+that you are aware uh where you'll receive them. So today's webinar presentation uh is going to be quite
+1:32
+exciting. we have professor Hank Vaniel. Uh he is actually a professor and an
+1:38
+industrial 4.0 originator and strategist. So he's going to be taking
+1:44
+us through this particular webinar. All I need for you guys to do for me right now is actually confirm that you can
+1:50
+hear and see me clearly so that when the professor takes over the slides and uploads his presentation uh we know that
+1:57
+you are able to hear and see us clearly. As I've mentioned, the certificate of attendance and information pertaining to
+2:04
+it will be shared as perm and I'll do so at the end of the webinar. Any questions, please make sure that you
+2:10
+also leave them in the chat box or Q&A function. Uh, and then let's just get into the business of things. Could I
+2:17
+please have a thumbs up uh if you can hear and see me clearly.
+2:23
+Thank you so much. Much appreciated. Thank you so much, DSA. Uh, Professor
+2:29
+Henrik, you may go ahead and upload your slides as well as your presentation for the day. Uh, and I will do uh, the
+2:36
+business of the day, which is answer any questions that come through and wait for the post Q&A session so that you are
+2:41
+able to answer uh, our participants for the day. Thank you so much guys for attending. I will see you at the end of
+2:47
+the presentation.
+2:56
+Hello. Hello everybody. As you all here, I'm excited to be with
+3:02
+you together for the next 45 minutes. I think it's a good idea you use the thumbs thumbs up because I will ask
+3:08
+rhetorical questions or if you like something, take some screenshot of it, share it. Some of it will be new for
+3:14
+you. I'm a professor in economics and a professor in strategy. I teach at two
+3:19
+universities on engineering and my big passion is actually um focusing on the
+3:25
+future of engineering because co the core and the heart of the fourth
+3:31
+industrial revolution which I will go through I will go through a little bit about your capabilities development in
+3:37
+terms of what is changing in um in your cross competencies that you need to comply or apply in the next couple of
+3:44
+years as engineers and how the discipline is changing then I will talk a little bit about um some of the key
+3:51
+mega trends that are in energy in manufacturing and supply chain and then I'll open up for question. This will be
+4:00
+um um a speedy and interactive session. So the first element I want to focus on
+4:07
+is you and I will um start with that because the centerpiece of the fourth
+4:13
+industrial revolutions are you as people and that's why I'm
+4:18
+introducing the fourth industrial revolution on how it's actually working and I will come to that actually in the
+4:25
+middle of the fourth industrial revolution. I will I will focus on it based on what are we in which situation
+4:31
+are we now. So, do anybody of you feel that the world is in changing in all
+4:38
+sides and corners?
+4:44
+That should be a thumbs up. If you feel the world is changing. If you don't feel the world is changing, that's a thumbs
+4:49
+down. Do you think it's changing more than
+4:54
+traditional? So can you all see my screen?
+5:06
+Yes, we can see your screen professor. Perfect. Because then I'm actually just see the situation we are in today is
+5:13
+that we are in something called the third um the third the fourth wave of
+5:19
+the fourth industrial revolution. So what you're seeing now is mega trends colliding together and as trends collide
+5:26
+together they creating um a paradigm shift and a paradigm shift is something
+5:32
+that happens rare. I know marketing they use the term a lot but a paradigm shift
+5:38
+happens quite rarely and um when a paradigm shift hits it hits the water
+5:44
+and everything around it changes and in the economic revolution the biggest
+5:49
+change is in three different waves. So um we are going through right now a
+5:55
+monitoring reset system. So we have a monitoring system which is the central
+6:00
+banking system. We have the stock market system and we have the real economy. These three econ economies are not
+6:08
+related to each other. So you all feel inflation coming. You all feel the stock
+6:14
+markets the richer get richer. But your own economy in terms of your inflation
+6:19
+rate minimum within the last two years your inflation rate your buying power
+6:24
+has decreased by 10%. What you actually experience is there's an economic power shift towards the east and the east is
+6:31
+the silk road. So that's from China all the way over to um Turkey all that way
+6:38
+and there's an economic power shift that they are the ones that are in charge. That's 75% of manufacturing and that's
+6:44
+the largest um workforce and supply chain is there. What you are experiencing right now is that Europe is
+6:51
+aggressively going to war because then in a recession there's a geopolitical reset where everybody is trying to grow
+6:59
+but they're unable to grow. So the only way out if you cannot grow is actually a
+7:04
+war and we have globalization reset. So if you haven't noticed um one and a half
+7:10
+years ago or two years ago um MBS the prince of Saudi Arabia he went off the
+7:17
+petro dollar and the petro dollar was the only element where the rest of the
+7:22
+world paid the US debt down that's the marriage between US dollar gold and oil
+7:28
+so everything should be bought on US currency hence everybody was paying the down US depth MBS decided you can buy
+7:36
+oil in whatever whatever currency you want. That means when the new president
+7:42
+of the USA came in, the Federal Reserve only comes in to a president to an
+7:49
+incoming president if they do um accord. And an accord has only been written two
+7:56
+times before. So that's the third accord. The accord is when there's a monitoring reset system. They are
+8:02
+describing an age pages. Look it up at the web on on the internet. is called Malago accord. They are describing in
+8:09
+certain phases what the US will do. They will decrease the value of the US dollar. They will increase to get
+8:17
+manufacturing back and they will implement tariffs. If these three things are not working, they will go to war. So
+8:25
+the reasons why US is doing that they had over 70 to 90 years mingled in the
+8:31
+world economic powers and they're losing that power. So there's an globalization
+8:38
+reset that is happening a multipleization there will be wars for the next 10
+8:43
+years. So these wars are a reset system in a monitoring system. The reasons why
+8:50
+I'm starting off where we are right now is because then we go back seeing where did we come from and where are we moving
+8:56
+because this is this creates clarity for you to see which situation are we in
+9:02
+now. How come the richer become richer? The poorer can barely come by. How come
+9:08
+all organizations are structured by shareholder values and are raising capitals in the fund but the last three
+9:15
+years there's no merchant acquisition. there's no IPO. So these are the alarm
+9:21
+clocks that are shouting out what is coming. What you see that one part of the world is growing and expanding and
+9:29
+the other part of the world is colliding together. So this is what's called the economic revolution. It's a power shift
+9:36
+towards the east. So the east is also part of Africa because the silk road
+9:41
+goes down to Africa. South Africa goes to Africa, Middle East and and Central
+9:47
+Europe. This is the situation that we are in right now. So the economic pillar is the backbone of any economy.
+9:55
+But any economy is always based on manufacturing or supply chain. And the
+10:01
+backbone of that is normally energy and trade and how the economy works. So what
+10:07
+you're looking at right now is the fourth industrial revolution, the first industrial revolution, the second industrial revolution and the third
+10:14
+industrial revolution. And the backbone of each revolution has actually been engineering.
+10:22
+engineering um in the first one um decided on how we can use steam powers,
+10:28
+how we can do the assembly line, how we can structure work and they they they
+10:33
+used material to engineer their way out. In every industrial revolution,
+10:39
+engineers have been the guys that have been inventing stuff, making stuff and reorganizing stuff. They've been
+10:45
+changing the way we work, changing the way materials are using, changing the
+10:51
+way we transport, changing the way we're doing financing. Engineering has been the backbone of everything in society.
+10:59
+So as the field is a very structured scientific field, it becomes a bigger
+11:06
+and bigger responsibility for engineers to innovate certain aspects to it. And
+11:11
+that's what I want to go through with you. So as you see the energy source that is coming here right we're also on
+11:17
+a crossroad because the renewable energies are we using since 2022
+11:25
+we're increasing every year our input output of fossil oil to produce
+11:31
+renewable energies. Renewable energies are not that renewable. They're not
+11:36
+lasting very long. The life cycle is no longer than 5 to 10 years. if that's an electric cars or if that's a solar panel
+11:44
+or whatever. So they're not really giving the effect back that we're desiring even though we're focusing on
+11:50
+it. So that's one of the field where we need to focus on to focus to get a
+11:55
+better cleaner source of energy, more sustainable water and a better way we we
+12:01
+we can drive most of these elements. So the reasons why I'm showing you this piece, the fourth indust revolution, it
+12:08
+looks for your picture a little bit more like this. There are 77 mega trends that
+12:15
+are colliding in the fourth fourth industrial revolution. The fourth industrial revolutions is the collisions
+12:21
+of the digital world, the physical world and the virtual world. So when I did the strategy for Germany in 2008, we did the
+12:29
+strategy because we were in in recession in Europe and the mother of Europe is
+12:34
+Germany and normally in strategy you go in and look at productivity. You need to restart productivity for three four
+12:42
+quarters before you can grow. That's called organic growth and then you do competitive growth and some other parts
+12:48
+of growth. And what we realized there at this time
+12:54
+trends mega trends is one thing that was there only for 5 to 10 years and you can
+13:00
+easily react on it. In 2008,
+13:06
+mobile phones, big data, internet and um
+13:11
+and and cloud were and and consumerism were all colliding and so on. Your phone
+13:17
+when you look here was not the same in 2008 than it is today. Internet was
+13:22
+divided. So today it's virtually, physically and digitally. So everything
+13:28
+is connected into one. And this world has increased since then. These 77 mega
+13:34
+trends are divided into science and technology trends, regulatory trends,
+13:39
+workforce trends, environmental trends, globalization trends, demographic trends, economic trends and consumer
+13:46
+trends. And there are normal archetypes and archetypes is has normally an
+13:51
+inclination towards something. So when you look at AI, AI has an archetype that
+13:57
+it can do transformation for productivity and growth or innovation. So it depends on what you
+14:04
+use it for everything it has a certain inclination to something. So the important element I want to demonstrate
+14:10
+to you here is that since everybody is obsessed with technology the driver of
+14:18
+the next decade would not necessarily come from technology.
+14:24
+We think it will come from technology but it's the combination and collic
+14:29
+collision of all these other trends that are making the shift towards that. That's why the economic power shift is
+14:36
+towards the east. So that's a quite an important element to it and I want to go through some of these skills that are
+14:42
+relevant for that. So when you see the fourth industrial revolution, the fourth industrial revolution emerges
+14:48
+in eight evolutionary stages. The first one is digitalization. It's
+14:54
+IoT. Today it's called AI OT. So most AI projects are by design today 90%
+15:01
+digitalization. Digitalization is quite easy. You do it by digital sensory connectivity.
+15:08
+Then you do it by digital engineering. So you connect devices with machines
+15:13
+with systems with people. And then you go to the next level where you go digital operations. These faces are the
+15:20
+faces that you go and within each phase you use AI. So AI I will demystify that
+15:26
+a little bit later but that's where we're getting at now. Right? So then we have technology revolution technology
+15:33
+revolutions with robots 3D printing and all of this. And in 2008, people thought
+15:39
+when I was talking about AI that I was smoking and they told me, Henry,
+15:46
+in 2016, they were all afraid that their jobs would be taken. And in 2018,
+15:53
+we got the noral um networks, the neural connections. But AI has been there for
+15:58
+quite a while. AI is categorization categor classification of data. How you
+16:05
+use algorithms to do machine learning. How you are um using rags and other
+16:12
+parts to segment data to get more out of it. Then we have virtualization of data. We have um augmentations of data. We
+16:20
+have all these pieces that we use. Today we call it all AI but it's business
+16:25
+intelligence. All of this is all part of it. Today it's under this big umbrella of AI but AI is something very specific.
+16:32
+It's the automation of intelligence at it emerges in eight different um waves. I'm going through that with you in a
+16:39
+second. Then we have the environment revolution. The environment revolution is a regulatory force. So suddenly you
+16:47
+realize oops one of it is technology the other one is technology. Then you have one which is mainly a regulatory
+16:54
+revolution. And the environmental revolution is the Paris agreement, Coyoto agreement where all countries
+16:59
+agreed on scope one, scope two and scope three. And scope one and scope two and
+17:06
+scope three. I was part of forming that in the European Union is actually how do companies pollute less
+17:13
+in terms of scope one direct income. So water and energy consumption they have
+17:20
+and how much they pollute with the water that come out and energy. Scope two is how are they sourcing products, which
+17:27
+type of energy are they using, how are they packaging, how are they distributing, how they're shipping out
+17:34
+and all of this in one cycle. So they can have a circular in decrease on their
+17:40
+pollution. Scope one and scope two are both reporting
+17:45
+and scope three is the inherit send between one supplier to another supplier
+17:51
+to another supplier to another supplier until it comes out. So scope one and scope two is a reporting element. It's a
+17:59
+little bit like I'm writing you as a as a participant a sin letter like the
+18:05
+Catholic Church in the 200 years ago and the I declare you a sinner and you can
+18:11
+only buy your way out by reporting. So you need to demonstrate via report that
+18:17
+you're good but that report needs to be validated because you cannot say that you are net zero. You have to validate
+18:23
+you every year improve. So that's called deduction where they get tax deduction
+18:28
+in every country. Scope three works a little bit different. Scope three is where I gather one product to another
+18:35
+product to another product together to assemble it to transport it to ship it until the products in Germany.
+18:43
+Whoever receives the product in Germany every time it crosses the border you have to pay for example Cban
+18:50
+um where you have to based on the product either you have subsidized the product in the country
+18:56
+or you are paying the tax when you go over so scope one scope two and scope
+19:01
+three is a taxation element but most companies can profit around 5% in eida
+19:07
+when they're proactively in it so it's the first time regulations as a
+19:12
+regulatory revolution is there to decrease the pollution that manufacturers and suppliers are doing
+19:19
+and actually getting a benefit out of it to invest more to get less pollution out
+19:25
+and the last couple of years has shown that companies are doing it and it's actually working but it's all starting
+19:31
+next year actively where they deduction from it so most of them will panic so
+19:36
+whatever you design in products or whatever you design you have to have that in mind both on scope one and scope
+19:43
+two and scope three because they are the regulations and somehow in this world we
+19:48
+have decided on some funny thing everything has a life cycle except
+19:54
+regulations regulations never die so this is something you have to have in back
+20:00
+mountain and then we have the economic revolution we just went through wave one and wave two and wave three and we are
+20:06
+currently in wave two that means we will be in 10 year period of war. And war is
+20:13
+not necessarily bad. War is where we're resetting the pillars on trade,
+20:18
+resetting the pillars on manufacturing, resetting the pillars on innovation, doing something better and even more
+20:26
+effective. That's where engineering really comes in. So then we have the bio
+20:32
+revolution that is coming. I'm going through this in a second. the consumer revolution going through this fusion um
+20:38
+science revolution and the quantum revolution. I will go through each of them in details because then you realize
+20:44
+holy macaroni the future is actually based on engineering
+20:50
+and what is changing in engineering that engineering has the ability to focus on this and one of it is that the
+20:57
+discipline is changing one of it discipline moves out of its core discipline to add more to it and the
+21:04
+other part is that we're going back to fundamental research because part of that fundamental research we hadn't done
+21:10
+really well. So that is in summary the fourth industrial revolution how it's moving
+21:17
+and I'm now moving into each of these pillars and now a short word on AI right
+21:22
+so the reality check on AI is a little bit more like this we have symbolic AI and we have narrow
+21:29
+AI symbolic n and narrow AI they already work just nobody talks about it that's
+21:35
+machine learning and that's robotic process optimization so 10 years ago
+21:42
+Mckenzie and Deoid, they went out to the world preaching robotic process optimization like this was God's gift to
+21:49
+mankind. The funny thing is nobody talks about it today
+21:55
+because today they are selling large language models. So what most companies
+22:01
+need is robotic process optimization. It's just cheap. you can buy for 500 euros your robotic process optimization
+22:08
+for forecast planning budgeting for HR recruitment for all these simple elements 95% of AI projects fail with
+22:17
+enterprise information so this is where you need to go back to the fundamentals
+22:23
+so AI by design is a colonization tool you have very big
+22:30
+players that are infringing on intellectual capital stealing your information and
+22:36
+reselling your information. So, um, large language models
+22:43
+work for consumers really well. They're very very limited in how they work with
+22:49
+corporate information and very very limit on specialization tools. So when
+22:54
+you look at the big providers for health care, IBM's solution and all these other ones, they work for journals, they work
+23:02
+for all medicine's information, all of this, but they're quite limited to how
+23:07
+they work and structure their data. So you need to be specialized in building
+23:13
+your own rats, your own machine learning agents that are localized where you own
+23:19
+your own information and you use your own mathematical models to work on this.
+23:25
+So a golden rule I can give you here, don't use the large language models
+23:31
+where the open source is closed. use one where you have for example Grock you can
+23:39
+download the mathematic matable formulas you can reuse them on your own servers so you have an ability to learn and
+23:46
+relearn and that's one of the most important elements the way you can structure your data in this
+23:53
+then you have the other parts you have generative type AI and artificial
+23:58
+generative intelligence these two things are do not exist it's marketing that they are racing
+24:05
+capital for this to work. We are fooled because they look like us but they are not us. So there are eight disciplines
+24:12
+in AI and one of the disciplines is language. So it's a replications on what
+24:19
+we are doing. So when I'm talking I'm nothing else than a large language models. I'm forming my words as I'm
+24:26
+speaking. My thoughts and my words are not necessarily connected. So this is quite
+24:34
+important to understand. So it reflects something that we are but we need to learn to author our own information and
+24:41
+structure our own information. And then the big AI revolution actually happens in the bio revolution because
+24:48
+most of what we are are organisms are by design algorithms and algorithms is what
+24:55
+we are based on. So this will be the big revolution that is the one that is coming and I will go through this but I
+25:01
+want to highlight to you one thing here that you as engineers need to focus on
+25:08
+very very much. The idea of prototyping is core to engineering studies.
+25:15
+Prototyping is that you're going through a one element and you are intentionally
+25:20
+looking for the mistakes to learn something out of it. So large language models is an easy way
+25:29
+to get information but it avoids for you the mistakes. So you're not seeing or
+25:35
+learning the same way. So you can easily write uh Porter's uh value chain and you can
+25:42
+it will give you description but next week you cannot repeat the same element. If you're not written down Porter's
+25:48
+value chain you're trying to do it and you failed with it a couple of times. The learning of this does not work. So
+25:54
+the way we learn and the way we innovate as humans is actually by doing mistakes
+26:01
+and engineering has that discipline at the core that we're doing prototyping to explore
+26:08
+where we go wrong to go back to do it differently and that's an important thing that we need to re-emphasize. So
+26:14
+when you look at from an engineering perspective, engineering consists of three different disciplines. Enterprise
+26:21
+engineering which are the principles of design think um
+26:27
+um design thinking, design principles, planning concepts, structural concepts,
+26:32
+quality concepts, integration concepts and testing. So that's classification, categorization, simplification
+26:39
+um of working out of the complex elements or decomposing. Right? So decomposing to a simple by order right
+26:46
+so you take a car and you split in thousand pieces to see how you can structure and order in a different way
+26:52
+together right so for this piece enterprise engineering the most important element you need for this is a
+26:59
+model of understanding so this is a principle we need to go back to we learn
+27:04
+in school but we are derating from so let me show you
+27:10
+a model of understanding And I guess you have all seen it but I just want to show it to you because
+27:17
+sometimes you see something and you learn in school but you just leave it behind.
+27:23
+Right? So if you all can see the screen this is a simplified model of understanding right.
+27:30
+So this is strategic tactical
+27:36
+and operational. That's a normal organization. So within that you have strategic, you have strategy, planning,
+27:43
+forecasting, budgeting and value. And you see how they're going forth and back. This is a very simplified way you
+27:50
+do it. This is a more complex model of understanding of an enterprise. What
+27:58
+pieces work with what? It's the same model just in with semantics and
+28:03
+ontology. So you're relating the things together. what sends out, what receives,
+28:08
+what can be modeled, and what can be changed. So,
+28:14
+I'm going back again to the presentation. Have you all seen a model of understanding before? Just thumbs up if
+28:20
+you've seen one.
+28:30
+Just thumbs up if you've seen a model of understanding before. Okay, that's good. And so the reasons
+28:38
+why this model of understanding is really really important because in the
+28:44
+model of understanding you can decompose something, how it relates together to to
+28:50
+decompose it and to assemble again because part of this is how we look at things, how it relates, what affects it
+28:57
+and what do we need to change. This is where the transformation and the innovation comes in. And then we have
+29:03
+the other pieces that we have which is enterprise modeling and enterprise
+29:08
+modeling. Enterprise modeling has come in from the element where we are designing business
+29:15
+models to rules information modeling. So data and infrastructure enterprise
+29:22
+architecture. We do measurements. We do process notations. Process notations are
+29:27
+decision cycles in information flow, data flow, performance flow. Right? We do performance modeling, service
+29:34
+modeling and value modeling. So enterprise architecture from the discipline of a core enterprise
+29:41
+architecture has moved into the core of an how an organization works and how it
+29:46
+operates within that organization. So that's also capability modeling within services. So you structure the people
+29:53
+you structure how they form, how they design, how the organiz is designed, how
+29:59
+financing works. So beyond organizing an engineering tool, you actually go into
+30:05
+the IT elements to it. So if you want to build a drone, if you want to build a robot, this is where these two pieces
+30:11
+come together. And then you have the enterprise architecture which is the element of architecting the
+30:19
+backbone for the serviceoriented solution information flow process flow technology and solution flow. Each of
+30:25
+them are the relationship connectivity design and physical expectations of
+30:30
+something. So from conceptual to physical. So this is where IoT comes in.
+30:35
+This is where AI relates to the other three. This is where these three worlds
+30:40
+collide together. And there's no other discipline where this is happening. That means in biioinformatics,
+30:47
+nanotechnology, all of these disciplines, they all collide together in these three worlds together. So even
+30:53
+though if you learned in school some pieces of it, today your discipline includes all of these three disciplines.
+31:00
+So you have to relate to them in terms of how you do your ontology,
+31:06
+semantics, object description of the nature. So what is the nature of this? Is this
+31:12
+non-core? Is it core differentiating? Right? How can I model it? What's the description of it? What is the
+31:18
+relationship to and what rules does it have? Right? So let me ask you, this is
+31:23
+where I'm just going to ask a question to everybody. Right? Do you all know what semantics and
+31:28
+anttology is?
+31:40
+Have you worked with it before? So the ontology is the meaning of a
+31:47
+word. And so for example, when you look at me,
+31:53
+I'm a dad, I have a wife, I have children, I um
+32:01
+Right. So uh I'm a grandfather. So for my children, I'm a coach. I'm a taxi
+32:08
+driver. I'm a supporter. I'm a financeier. I'm a project manager.
+32:15
+Right? And to my wife, I'm a I'm a lover. I'm um husband. I'm a um peer.
+32:25
+I'm so many things. But I'm to my sons, I'm not a lover. Right? So the word is
+32:31
+that I'm a father. I'm a grandfather and I'm a husband and I'm a lover. is the
+32:36
+hat I carry of what it is to be me. But being me is the relationship to who I'm
+32:44
+have a semantic. So the semantic is the relationship I have to my wife, the relationship I have to my um um sons or
+32:52
+to my grandchildren. So this is how you create a model of understanding and the model of understanding is how you
+32:58
+decompose it. So you're defining the archetype of something what is core and you cannot split it anymore. And then
+33:05
+you see how's this archetype relating to the other pieces and then you're
+33:11
+creating step by step. So a piece of advice I'm doing here for myself
+33:16
+normally every morning I have in my at home I have two whiteboards and I write
+33:21
+every month I have two questions of unsolved problems
+33:28
+and these unsolved problems I'm creating thereby a classification
+33:34
+and a categorization and the classification is a simple by order and I looking at the archetypes
+33:41
+and Then I look at how they relate to each other and then I decompose it and then I assemble again. And it's not that
+33:48
+I'm going to the internet a large language models to find a solution. I'm training my brain to see what I cannot
+33:55
+see. So semantics and ontologies is a core tool within engineering.
+34:01
+categorization, classification, decomposing are the tools box you have as engineers to see things, make a model
+34:09
+of understanding how you can change it, how you can alter it and you do scenario thinking, prototyping until you get out
+34:15
+to it. So this is the core tool you will use for anything in your discipline. So
+34:21
+I'm sharing the slides again. Um
+34:28
+I guess I was already sharing them.
+34:34
+Good. So why is this important? Because the discipline of an engineer
+34:41
+relates to any organizations in terms of the trends are coming. You can see them
+34:46
+in a visual element in your value chain where you do a strategic positioning. You can do a business model where you do
+34:55
+strategic tactical operational in terms of running the business or developing the business. This is normally what
+35:00
+you're involved in. Then you have your service model, your capability modeling with people, right? And you have your
+35:06
+operating model, your information model, data model, technology model, inf infrastructure model. Suddenly you
+35:13
+realize, holy smokes, Henrik, you just went through all of these principles we have. So some of the principles are in
+35:19
+systems, some of them are digital, some of them are virtual, right? And some of them are physical. And they are the four
+35:25
+worlds that you are going from one rainbow color to the other color. You're
+35:30
+the only one in your discipline that does that. So you have to be really good
+35:36
+at moving from one piece to the other piece. You have to have this hunger for knowledge to constantly learn new things
+35:42
+and new elements because you are the guys that need to manage strategy, the
+35:48
+physical world to develop stuff and systems. So this goes forth and back. So
+35:53
+let's move to the bio revolution. The bio revolution is the biggest AI
+35:58
+revolution that is coming and as I was mentioning the first out of the eight
+36:04
+discipline in AI is language models. The second one is AI molecular data and AI
+36:11
+molecular data. There is 100 times more data out there in the world than
+36:16
+language models. will be finished in two years in that the large language monster has consumed all information then it's
+36:24
+just producing crap comes out with more mistakes. So AI molecular data is our
+36:31
+cellular data. So the secret with our cellular data it's the binding of it the
+36:37
+information that it has and it's based on algorithms how it's binding. So as
+36:42
+our cells can carry data if you didn't know it our cells are 99% empty space
+36:49
+the rest of it is the cellular wall and the cellular information that is in there. So your cell can already carry
+36:57
+information. So what you will see the next couple of years is bios so living software is
+37:04
+moving in that direction. Biocomputing so bio machines and cyber physical
+37:11
+systems. These three elements is how your nervous system will work, how your DNA strings are working and how your
+37:18
+body, your chemical body is interacting with the algorithms that you're programming within these three layers.
+37:24
+Then you have the promise of cure is how promise of cure is going to to that it
+37:31
+will be customized element in terms of your body how you have evolved and uh
+37:36
+how your body can work on and that agriculture the future of food biotech agriculture how we have come the last 80
+37:44
+years in terms of we can harvest even more it will even change far more the
+37:49
+one thing we have care be careful about is that we're not using losing biod diversity
+37:56
+than smart material. Do you know why plastic is so difficult
+38:01
+for us? Plastic is so difficult for us because it's a molecular binding that is so
+38:08
+strong. It lets no air in. So it cannot decompose.
+38:14
+So will we develop material where we can decompose it? Yes.
+38:21
+Think about it. The future of food and the future of material relates to each other. The orange you eat today was not
+38:28
+the orange 200 years ago. The strawberry you eat today is also not the strawberry
+38:34
+you ate at that time. These strawberries has been polonized, polonized,
+38:40
+polonized, polonized. The orange was a gift to the Dutch king, right? That's
+38:45
+why they love the orange colors in Holland. So this is part of the biggest
+38:51
+change that you will see there where all data and information comes from outside
+38:58
+to your body. Think about the speed of how you put your data into your
+39:03
+information is in terms of how fast you can transform your data from here to here and that will change that will
+39:10
+change quite radically. Then we have the bio interface. It's where our reality
+39:15
+changes. So the bio revolution will be the biggest AI revolution. So what you see
+39:22
+today in AI is AI language models. The biggest AI revolution will happen in AI
+39:28
+molecular data. And molecular data will be open for everybody and shared for
+39:35
+everybody.
+39:42
+The after the bio revolution we have the consumer revolution and the consumer revolution emerges after the bio
+39:49
+revolution because today when you are on the internet you are the product when
+39:55
+you gather your data and web 3.0 was
+40:01
+always designed to come before blockchain or AI but they were so hungry
+40:06
+for money that they were more willing to have the money than protect the consumers. So web 3.0 is still to be
+40:14
+built and merged in the consumer revolution. That means you own your
+40:19
+information like they are doing in Europe right now. So you own your pictures, your
+40:25
+information, your medical data, all of this you you own. So you can monetize it
+40:31
+later. So the privacy, the ability to monetize what you own,
+40:37
+whatever information, attention you give, you also earn money on. that is shifting in the consumer revolution. It
+40:43
+changed the way that we consume and how companies are interacting with us. So
+40:48
+that's the big big shift. That's why it's the revolution after the bio revolution. And then we're coming to the
+40:55
+fusion revolution. That's your biggest revolution. That's unlimited energy,
+41:01
+abundant water from desanitation, interplanetary uh species traveling to whatever like
+41:08
+like these big guys wants to do. It would be an economic reset on the monitoring system. It would be a change
+41:15
+on the society on how society works because the consumer revolution will change society. Humans will be a
+41:22
+bioobotic elements where we are our bi by by biometrics life cycle will change
+41:29
+based on this. I'm not talking about living forever. I'm talking about optimizing our intention and willpower
+41:37
+and optimizing our bi biology. And then there will be a future on trans um
+41:45
+transportation. In all of these, they're driven by engineers, they're driven by you guys. So most of this is futuristic,
+41:53
+but it's not that far off, right? Nuclear fusion, salt infusion,
+42:00
+molten view fusion, water desanitation, it's already happening. So all of this
+42:06
+is not that far off, but it needs engineers like you that are imagining the future and inventing the future.
+42:14
+So my saying to this is always the more technology we driven we become the more
+42:20
+human humanity we need to become in there. So think about the following things. Humans we are the only ones who
+42:27
+have the ability to adapt. We are emotional beings and because we
+42:33
+are emotional beings our output is not always both based on machines. So in the
+42:41
+first two revolutions we replaced our
+42:46
+workforce hands with horsepower or machines. Right? In
+42:52
+the third and fourth revolution we're exchanging our brain power
+42:57
+for automation. But that doesn't replace the humans. The human is still the centerpiece of any evolution. And we
+43:05
+need to make sure that the human is there. Then we come to the quantum revolutions. I know most of you will not
+43:11
+really touch this because this is only something between China and US and then
+43:16
+in Switzerland and Germany maybe but it's a discipline that is is is the
+43:22
+science of crazy science.
+43:28
+If you probably listened quite carefully to your physics schools you realize both
+43:34
+Einstein and Nilso are right. So, um,
+43:40
+if you look, if this would be a pen and I'm putting I have 100 million
+43:47
+fibers here and I put in one of it one ticky,
+43:54
+where do you think the one tab comes out here? on the same one or on one of the other
+44:02
+ones or on any one.
+44:07
+The answer is quite simple. It comes wherever I'm looking at. So with this I'm changing both the past I'm changing
+44:15
+on where it was actually I'm moving back in time. So there's quantum is the the
+44:21
+science of the freaks. That means it it um
+44:27
+the high the lower down you go, the more quantum you have, the higher up you go,
+44:33
+the more physical science you have. So we need to go back to some of the fundamental physics and chemistry that
+44:40
+we have and rethink the different models. So some of these things are
+44:46
+already quite real. So when you see what is proven and what has an impact today and what is theoretically that will be
+44:53
+coming there right quantum communications is already real quantum
+44:59
+entanglement meaning that I can sit here and I have entangled two atoms he has
+45:06
+the same machine and I have the same machines we have split the two atoms and wherever I'm moving this it's moving in
+45:13
+the same direction so we can communicate without any connection between us. That's called quantum communications.
+45:21
+Then we have quantum computer, quantum cryptologology and quantum machine learning. These four elements are
+45:28
+already real. Then you have most of them are evolving or in prototyping and are
+45:34
+in testing. So you can ask yourself am I'm touching them and I'm interested in
+45:40
+them and I'm interested to move below that. Right? Because when you have quantum energy storage,
+45:47
+our biggest problem today with energy storage, it actually doesn't last very long. Lasts 5 years, 10 years. So yes,
+45:56
+then we use the material. But if we can move towards a better, more efficient and sustainable way to do that, holy
+46:03
+smokes, then we can really move towards electronics elements. Electronics today
+46:10
+is seems like a dead horse riding because the capital of return the
+46:15
+storage element the infrastructure all of this is not proving it has it's like
+46:21
+machine learning in AI it has hit like a death well and we need engineers to
+46:27
+bring us out of the death valley so energy storage is a big theme we need to
+46:32
+get you guys to focus on and work on so this was quite short about the fourth
+46:40
+industrial revolution. I think it gave you a picture in reality. I'm taking you very very quickly
+46:48
+through some you can take a picture you will get them. They are the trend radars I'm doing for the world economic forums.
+46:54
+That's why you see I'm doing that with the different universities. You can see which trends are affecting which
+47:00
+industries in which way and what are they implementing and how they implemented are depending on you. So this is from for manufacturing. This is
+47:07
+for supply chain. This is for energy. So there's energy generations, energy
+47:13
+storage and energy transportation or getting it from A to B. So you can take
+47:18
+a picture of it. You will get the presentation anyway. But this is the shortest version I want to get at. This is the piece I want to close off with
+47:24
+before I'm opening up for questions. Right? Your discipline is under a huge
+47:30
+change. That means you need to learn more technology in terms of which
+47:35
+merging technologies are merging up and how can you use your
+47:41
+basic discipline on engineer engineering um engineering IT or strategy and
+47:48
+engineering architecture you're going across all of these fields then financial engineering so how you do
+47:55
+inventory financing how you do setup in terms of assets how you can leverage assets You're using the same disciplines
+48:02
+you're using for engineering you use for financing. Financing works silos. You
+48:07
+are the only one that can look I'm decomposing it and I'm assembling it. You look at the profit and loss and
+48:13
+saying okay how do we need to model the profit and loss. This is your discipline. The same thing with
+48:19
+businesses. Businesses have a certain structure and you need to redesign business engineering to say good should
+48:27
+we change the structure we have today on inc is with shareholders should we sh change it with a shares and b
+48:33
+shareholders so we instead of having a stock market out then we create a stock market inside the company this is where
+48:39
+you guys need to come in because that's a discipline of business modeling it
+48:45
+where you understand the rules of engagement of the structure of the organization on how it works. That's why
+48:51
+you move into corporate engineering. Right? So then I'm proposing that you
+48:57
+guys hold the key for the future of work.
+49:02
+And the future of work is quite simple. The future of work is
+49:07
+you have program management, portfolio management, um project management and portfolio
+49:14
+management. Project management is over 150 years old. It's nothing else than a
+49:20
+gun chart within that if the portfolio management changes the project
+49:26
+management changes and when the PR management changes the program management changes. So if you change the organizations you're moving the head
+49:33
+like this. The link between portfolio management project management
+49:38
+and program management is often not established. This is your job to establish this link in terms of
+49:45
+performance SBOS's, performance measurements, roles, activities, right? If you align them together, you
+49:52
+strengthen the organization for performance and output. This is your job by the way, right? Then you need to
+49:59
+foster more humanentric cross discipline. You need to add new skills
+50:04
+to your disciplines and always have the human as the centerpiece of this. And my final
+50:11
+element that is a strategic imperative for you. We have been really really bad
+50:17
+and I'm going out of the presentation so you can have the last slide here. All
+50:23
+right. So I can see your face. We have been really really bad as research.
+50:30
+And I'm not blaming you guys. You probably written some research. Most research today, I'm a professor in
+50:36
+economics and strategy is not real research.
+50:44
+Most are a gathering of reports that are gathering something.
+50:50
+I'm so disappointed by the current generations on the research. I'm advising them to take some of the
+50:57
+biggest problems, do a model of understanding, try to solve the problem, but they want to go for what is what
+51:04
+they can get an output on and what they are making sure that they can succeed. the most valuable research. If you do a
+51:11
+research on a problem and the conclusion is that we tried this and this and this
+51:16
+was the outcome that means in four or five years later somebody in the same
+51:21
+discipline comes in and sees your research and say oh he had this approach and that was the outcome. Ah I think if
+51:27
+we change this pieces he's in a different field he can leverage it. So our research today is not based on
+51:34
+things that are not working. It's only based on success stories and we need good to go back to basic physics, basic
+51:41
+chemistry, rethink some of our basic models and allow ourself in research to
+51:47
+focus on mistakes. Hypothesis do the research come with the outcome
+51:54
+and be honest about it even if it doesn't work because that would be the biggest value for you guys later when
+52:00
+you try to build something and you cannot see it, you cannot work with it. That's the dis discipline that you need
+52:05
+to work on. So in closing for you guys,
+52:11
+I believe you live in one of the most exciting times.
+52:16
+We are under the biggest change ever. And you guys that are in the sound of my
+52:22
+voice, the future's on your shoulder to engineer the future, to think about it,
+52:29
+to challenge old principles, to decompose, to reassess. The biggest gift
+52:37
+that you have been given as a human is your ability to think strategically.
+52:43
+So use your time when you have I use my time in the
+52:48
+morning where I'm alone to think about things not because I want to solve something because I want to train my
+52:55
+brain when I'm driving my car. I drive a Porsche Panamera Turbo S. I'm not using
+53:01
+my GPS. Why? Because I need to train my brain indirectly. Right? So use your
+53:08
+most powerful tool to train them. Try to see what is not seen. The big difference
+53:14
+between you and AI is very simple. AI only works from the known. When you and
+53:21
+I work together, you come from one area, you come from another area. So as we come from two
+53:28
+areas, you and I have the ability to touch the unknown. And that's the unique
+53:33
+thing we have as human beings. So thank you very much for your time. I think the field that you live in as engineers are
+53:39
+one of the most exciting fields. The biggest innovation is currently happening in manufacturing and supply
+53:44
+chain if that's the field of your interest because that's where products are developed. That's where machines are
+53:50
+developed. That's where um the future resides on in manufacturing. So thank
+53:57
+you very much for your time and my opening up for question. Thank you so much professor Hill. It was
+54:04
+quite an interesting one. uh today. So you actually do have a couple of questions and ladies and gentlemen I did
+54:11
+ask for questions from the beginning. So it is going to work on a first confessor basis. If your questions come too late
+54:19
+then it means we will not be moving forward with your questions. So the first question that I have professor is
+54:26
+from Charles and he asks what frameworks should be established for regulating AIdriven biotechnological
+54:33
+uh innovations and whilst you're answering that I will upload the information for the certificates of
+54:38
+attendance. So I'm actually leading with Dr. Abia
+54:44
+Hadak the world economic formed regulatory intelligence committee where
+54:49
+we have gathered all the countries together to create best practices on how we can regulate that I'm establishing
+54:56
+for the world economic forum tons of committees I'm only participating in three in the regulatory ones in a
+55:04
+manufacturing one and in the supply chain one because I want to make a real big difference there so um the
+55:10
+regulatoratory aspects on AI is different Right. So the US has barely none,
+55:17
+Europe is overregulated and and China is um doing their own
+55:24
+stuff. Australia has gone baloney. They have just overloaded everything. So
+55:29
+Europe is taking the following approach. We have AI regulations one which protects the consumer and their
+55:35
+information. I've been working on this. I'm also working on the second one which is this AI act two which is focused on
+55:41
+number one um children below 16 should not have access to social media that's already implemented in in the Nordic
+55:48
+countries that will come to the other ones too number two um people under 21
+55:53
+should not have access to large language models because it in interferes with human development and number two um all
+56:00
+chips that are running 24/7 uh needs to have a tax model to them so they can be able to compensate the
+56:08
+governments to um reskill people. So we have a tight element on regulations. I'm
+56:14
+talking quite a lot to governments to help them and support them. Um for governments regulations is difficult.
+56:21
+It's very very difficult um because first they're not technology guys.
+56:26
+Secondly, once they write it in law, you need the approval of God, Muhammad, and Allah and Buddha all at the same table
+56:34
+to approve that it's not relevant anymore. So once they write it in the pen, it cannot be unwritten. So they're
+56:40
+very careful to do anything. So this is something um that is quite important
+56:46
+question. So Tom asked a very long question. However, I've just gone on to summarize
+56:52
+it. Basically, what it's asking is, is it still worth it to learn or master a software skill that isn't based on AI or
+57:00
+will AI become so advanced that the only jobs that will matter will be a real
+57:06
+world handon work experience like uh field engineering? Would it still be of
+57:12
+interest for someone to learn a software or should they get field um should they get skills rather uh in fields that are
+57:19
+of hands-on working? So what you hear about AI isn't hype.
+57:25
+It's the big guy selling you something. If you do AI yourself, you do robotic
+57:30
+process optimization on an existing system. If you build your own farm, right, you have classification,
+57:37
+categorization of data, you have mathematical models, you do um machine learning, you deep machine learnings
+57:44
+which are mathematical models that are linked together. I can show you the whole list. You can download them for
+57:49
+free. You categorize data, you censor data, you supervise data, you you do
+57:56
+unsupervised learning. So the machine produces outcomes and you optimize the outcome of the machine. The difference
+58:02
+is really are you giving this to large language models or you keeping that data yourself. That means it's the same thing
+58:08
+as a model of understanding. You're creating the data flow model of understanding to understand the output
+58:13
+and input. The big problems with large language models, they don't know how it
+58:19
+does it. And that's the first alarm clock for you engineers. If you don't
+58:25
+understand something that comes with an output, you step back and says, "Oops, I need to understand how the input and
+58:32
+output works." Why? Because if you don't understand it, you cannot model it. It's actually really important. Um, so it's
+58:39
+the same thing if you look at the car and says, "Whoa, why is the car moving forward?" You decompose the machine. You
+58:44
+look at the wheels. You look at all of this. So you know which wheel can I optimize? Can I run on smaller wheels?
+58:50
+Which material do I need for the wheels? Okay. Can I run besides can I run it on
+58:55
+water or just can only run on gasoline? Right? This is what you do as engineers. And that's important that you do that in
+59:02
+AI too. So whatever they tell you, don't drink the Kool-Aid. You have to learn it
+59:08
+to understand it yourself. So AI is part of the IT part of engineering. You need
+59:14
+to understand technology, architecture, information flow, data flow. You need to
+59:20
+understand this because you are the ones who model this for the business and you model this for engineering. So you have
+59:25
+these three disciplines. So just saying well large language model will work. I'm not going to work it anymore. I'm going to raise my fingers. Oops. You're the
+59:33
+only ones that can do the right thing for us. If you understand it, you can put brakes in it. You can put securities
+59:39
+bottles in it. You can structure it and so on. I would not trust the guys that
+59:45
+are earning money on it. So I do believe John's question is the
+59:51
+same as uh the previous question. He's just asking is it worth it to master the field or just look at reskilling in
+59:58
+another field to which I believe you just answered. Um Elijah asked, "How can
+1:00:04
+I incorporate let me ask a different Is it worthwhile for you if you do
+1:00:10
+robotics and you do drones? Robotics and drones you can buy cheap.
+1:00:18
+If you need to do software for robotic and drones, you customize the software. If you use
+1:00:24
+robotics to drive to drive over a field and you need to sensor and connect it in a certain way, you cannot download that
+1:00:32
+program. You need to develop that AI program yourself. You need to write the
+1:00:37
+code yourself. You cannot ask large language mod just to write it because it's a very customized model. If you
+1:00:43
+have a drone going over the mine to scan the mine and you look for gold or you
+1:00:49
+look for what you are the guys that needs to think okay what is the composition of gold and copper and water
+1:00:56
+or diamonds right you are the guys that are going into that field and you need to customize it so is it worthwhile
+1:01:03
+going there yes because AI needs to be highly specialized in a field and who's
+1:01:08
+highly specialized you guys. So there's two questions similar again
+1:01:16
+however one is for civil engineering and then the other is for chemical engineering disciplines. So the same
+1:01:22
+question is how does one incorporate AI in either civil engineering disciplines
+1:01:28
+uh and the other in chemical engineering. This is to answer both Elijah as well as Michael.
+1:01:34
+So in if you go in chemical so chemical engineering I would go in nanotechnology
+1:01:40
+biioinformatics right they're highly chemical elements and then I would focus
+1:01:46
+on within that element you have a very different version of AI because AI works
+1:01:52
+on language and pro probabilities of languages but a monocular data is not
+1:01:59
+the same way so it's it's it's a DNA string you take and you squeeze it
+1:02:05
+around like this and you squeeze it and you put in a thousand pieces and then you drill it out and you see which piece
+1:02:11
+relates to what in which manner what can I model so you're not you're doing drug discovery modeling so AI modeling not AI
+1:02:19
+machine learning so you use still software and programming but you use it
+1:02:24
+towards something very different what is the binding elements you can do with this and that and this so don't think
+1:02:31
+because large language models are there that everything in AI guys done. I rely on you guys to saying okay this is the
+1:02:38
+noise from here I need to go down there right
+1:02:44
+so uh another question um I've actually closed the questions uh professor so
+1:02:49
+these are the questions that you have to answer and then after that we will close the session so Leslie asked what
+1:02:55
+disciplines can boost or can one is a mechanical engineering um professional
+1:03:02
+or with a mechanical engineering uh background can they adapt into these
+1:03:07
+mega trends? So he wants to know as someone who's in mechanical engineering how can they boost these skills and
+1:03:13
+adapt them to the mega trends of uh today's topic.
+1:03:18
+So trends are forces and drivers that come from outside. I think the biggest adoption you can do as yourself is that
+1:03:25
+you develop the hardcore skills of an engineer. The decomposing, conceptual thinking,
+1:03:33
+physical thinking, relationship thinking, classification, categorization, data, all of this,
+1:03:39
+right? But that you develop yourself. You de you develop yourself your
+1:03:44
+personal self to see at something. And I would expect everybody of you
+1:03:50
+who's on the call that you when you look at an apple that you look at the apple with awe and say, "Wow, how beautiful."
+1:03:58
+You cut the apple and you see the outer shell, you see the apple, you see the seeds in it and all of this. And even
+1:04:05
+though you can describe the apple and all of this, it's still an awe that should take you as an engineers away and
+1:04:12
+see, okay, how can I create a model of understanding of this? How can I learn more of this? How can I see more of
+1:04:18
+this? So, what I'm asking you to do is to train yourself to be hungry. Train
+1:04:24
+yourself to view the things differently. Train yourself to be that each of you
+1:04:30
+are one of the guys that will challenge
+1:04:35
+old models to find something new. The world is going through a radical change
+1:04:40
+and we need people like you that are willing to find solutions that it will
+1:04:45
+become a smarter, a wealthier and a healthier earth. And
+1:04:52
+that's the foundation for me in closing to decide on how do you make sure that
+1:04:57
+this world becomes a better future for all. It's only because everybody if they can get smarter, wealthier and
+1:05:04
+healthier. Not few but all. So this should be your principle as engineers.
+1:05:10
+How can you design this? I put my faith in you guys and with a little blessings
+1:05:16
+I can give you. I hope that you um have can have the ability to see what is not
+1:05:22
+seen. I hope you one of you guys will find solutions for things that nobody's
+1:05:27
+looking for. Uh, professor, do you still have time to take about four more questions?
+1:05:34
+Sure. Okay. So, Isabelle asks, "Are there any resources that you could share to help
+1:05:41
+to help people rather uh in deeper realistic and more insightful research?
+1:05:46
+As you mentioned, you're quite disappointed uh with the material from research these days. So, she's asking
+1:05:52
+for resources for such. Oh, very very good.
+1:05:57
+So the research is today it's so disappointing. It's so um diversity
+1:06:03
+identity driven that I mean like we the we have got so little output on research
+1:06:10
+and we have so little fundamental research. Some of the fundamental elements in physics and chemistry we
+1:06:17
+have not even solved. So I would suggest if you find one of these problem I have
+1:06:22
+20 of these problems I have on my list go through them and says oh we still don't have an answer to that why don't
+1:06:29
+we have an answer to that and think about it and challenge it right so um if
+1:06:35
+if I want to add something to you right we are in a generation
+1:06:41
+um where we're looking for about ourself right but here's the funny part our own
+1:06:49
+evolution ution depends on other people. When I got married, it changed me. When
+1:06:56
+I got children, it changed me. So, what I'm recommending for you in your
+1:07:02
+personal evolution to see more to be better at things is not only train
+1:07:07
+yourself, but also commit yourself to marriage. Commit yourself to be
+1:07:13
+responsible for something. It changes the way that you look at things. I have grandchildren now and I see how they see
+1:07:21
+the world. They look at it differently. I see my
+1:07:26
+children. I see my wife and through that I see more. So if you want to see more
+1:07:33
+in your life, if you want to be gifted to develop more, it's actually probably
+1:07:38
+by committing to something. Um so we do have another question. I do
+1:07:46
+believe in Song is asking or before inissor asks where do you rate
+1:07:52
+environmental engineering on future innovation as well as growth.
+1:07:58
+So where do what where do you rate environmental engineering on future innovation or
+1:08:05
+growth? Zero.
+1:08:12
+We are just mind masturbating.
+1:08:18
+We can do far better in putting down the pollution. We can do far better than this. I work with the biggest
+1:08:23
+organizations and regulation is only set up that they're only blessed. They only
+1:08:29
+rewarded. They could do such a leap frog but they only do that much because they
+1:08:34
+have to do every year a 10% improvement. So companies are not
+1:08:40
+doing I do 10% improvement on polluting less. No, no, they're waiting. Okay, I can take the slap this year, next year
+1:08:47
+and then I do a big push but not too much because then I have these three, right? So we can do more.
+1:08:55
+We can do far far more on in in terms of this, right? So our challenge with
+1:09:02
+environmental innovation is that the people that are responsible for sustainability today in organizations
+1:09:08
+they are people that came from marketing that moved over to sustainability and
+1:09:15
+sustainability is moving the financial officer needs to move in together with
+1:09:20
+the marketing because before it's about how great they are now it needs to be about the numbers because companies are
+1:09:26
+only moving to hardcore sustainab ability to decrease the pollution when
+1:09:32
+it matters in the pocket. Okay. And Cis asks for instrumentation
+1:09:41
+uh for an instrumentation and automation engineer or engineers rather uh how do
+1:09:46
+how does it relate to the future technology? Um I'm reading it as it is.
+1:09:52
+I'm not sure what he meant but from my understanding he's asking how does instrumentation and automation tie into
+1:09:59
+the future technology especially in an era where there is AI models
+1:10:06
+so AI is normally used for automating so if you look at a warehouse and you look at an assembly line or warehouse
+1:10:12
+management and so on right you're using it in anything which is noncore so when you look at any object normally right
+1:10:19
+you normally look and saying okay I should optimize and integrate
+1:10:25
+the 60 to 80% should be automated because it's noncore everything which is
+1:10:32
+in nature this is the principle you do in engineering first what is the nature of this is this noncore then you
+1:10:38
+automatically know if it's non-core I can automate it integrate it and align it you can use AI principle into it then
+1:10:45
+you say everything which is unique in nature or complex in nature so when is
+1:10:51
+complex in nature like warehouse management you realize oops if I use the
+1:10:57
+same the principles to non-core I automate it then I'm doing something wrong I'm siloing what it's doing and
+1:11:04
+because it's complex in nature it needs to move all the time because it's performancedriven so warehouse
+1:11:10
+management you do digitalization you don't do automation so digitalization is different than AI
+1:11:17
+automation right so it's the nature Natures what you do with it. When it's
+1:11:24
+unique or strategic in nature, you either have risk assessment to it,
+1:11:29
+governance to it or forecast to it. Right? So the nature of what it is
+1:11:35
+decides on how you use. So these are I'm telling you engineering principles. So
+1:11:41
+engineering principles is also life cycles. life cycle of information, life cycle of
+1:11:48
+processes, of activities and outcomes. And the life cycles decide in which life
+1:11:53
+cycle you are which principles you will use.
+1:11:58
+So I'm just teaching you the same principles that are in engineering. So you're just moving away from the
+1:12:04
+theory to the practice. So here is our last question for today's
+1:12:11
+webinar. Uh Charlie asks if you can please provide info or resources for
+1:12:16
+understanding and implementing AI modeling and creating the customized uh
+1:12:22
+artificial intelligence models. I'm guessing that you are talking about
+1:12:28
+so if you have robotic process optimization search on the internet robotic process
+1:12:35
+optimiz I think I have the slide here somewhere for you guys.
+1:12:44
+Let me see if I
+1:12:56
+good. I'm just sharing the slides with you very fast. So you can see you you
+1:13:02
+will not get this one. So take the screenshot of it. Right. So this is the hype cycle of AI. Right? So if you look
+1:13:10
+here, these models are nothing else than mathematical models that you use.
+1:13:18
+So you can download them free from the internet. Machine learning, all these models are
+1:13:25
+free. Vector databases, all these models are free. If you come up here, you need an
+1:13:33
+experts to it. But this none of this is is something where you say well Henrik
+1:13:39
+well this is rocket science. No it's not rocket science. If you're in data and you do machine learning you are hardcore
+1:13:47
+going into mathematics. You're doing mathematical formulas supervised learning and non-supervised
+1:13:54
+learning. You're programming it in this way and this way. You can download models free from Groc. Brock is the only
+1:14:01
+large language models that shares all its sources for free. You can download
+1:14:06
+the mathematical models. You should be so excited about it. You should anybody
+1:14:12
+you should not use open source anymore. You should only use crop. Why? Because
+1:14:17
+you should support as an engineer somebody that shares opensource information that you can take these
+1:14:23
+mathematical models and build your own one in Africa to say, "Oh, I like these ones will work. I think I'm using this
+1:14:30
+for my drone solution for the props because today you don't get it anywhere else, right? And I must say uh Elon Musk
+1:14:39
+is probably a figure that is on both sides, good and bad, but in this side he
+1:14:44
+does the right thing, right? Our field is closed on AI mathematical formula and
+1:14:51
+he's the only one who opens it up for everybody. So you should praise him from
+1:14:57
+your own form so you can use it. That is it. We are done ladies and
+1:15:03
+gentlemen. Thank you so much Professor Henrik. It was quite entertaining as much as it was informative. Uh ladies
+1:15:10
+and gentlemen, you will receive uh a copy of this recording as well as the
+1:15:15
+information that the professor has provided us with. Thank you so much, Professor Hendrik. It was a pleasure.
+1:15:21
+Enjoy the rest of your

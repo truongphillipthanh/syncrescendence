@@ -1,0 +1,796 @@
+https://www.youtube.com/watch?v=ULszsXDyjMY
+How AI Agents Will Transform in 2026 (a16z Big Ideas)
+39,166 views  Dec 22, 2025  The a16z Show
+AI is moving from chat to action.
+
+In this episode of Big Ideas 2026, we unpack three shifts shaping what comes next for AI products. The change is not just smarter models, but software itself taking on a new form.
+
+You will hear from Marc Andrusko on the shift from prompting to execution, Stephanie Zhang on what it means to build machine-legible software, and Olivia Moore on why voice agents are becoming practical, deployable systems rather than demos.
+
+Together, these ideas tell a single story. Interfaces shift from chat to action, design shifts from human-first to agent-readable, and work shifts to agentic execution. AI stops being something you ask, and becomes something that does.
+
+Timecodes:
+0:00  Introduction: The Future of AI Interfaces
+0:30  The Death of the Prompt Box
+1:09  AI as the Ultimate Employee
+2:28  Proactive AI in CRM and Workflows
+4:09  Designing for Agents, Not Humans
+5:28  Machine Legibility and Content Creation
+8:48  The Rise of AI Voice Agents
+9:25  Voice AI in Healthcare, Finance, and Recruiting
+11:01  Challenges and Opportunities in Voice AI
+12:32  Consumer Voice AI and Wellness
+13:01  Building with Voice AI: Tools and Platforms
+
+Resources: 
+Follow Marc Andrusko on X:   / mandrusko1  
+Follow Stephanie Zhang on X:   / steph_zhang    
+Follow Olivia Moore on X:   / omooretweets  
+
+Read more of our 2026 Big Ideas
+Part 1: https://a16z.com/newsletter/big-ideas...
+Part 2: https://a16z.com/newsletter/big-ideas...
+Part 3: https://a16z.com/newsletter/big-ideas...
+
+Stay Updated: 
+If you enjoyed this episode, be sure to like, subscribe, and share with your friends!
+
+Find a16z on X: https://x.com/a16z 
+Find a16z on LinkedIn:   / a16z   
+Listen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RD...
+Listen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast...
+Follow our host: https://x.com/eriktorenberg
+
+Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details, please see a16z.com/disclosures.
+
+---
+
+Introduction: The Future of AI Interfaces
+0:00
+Welcome to Big Ideas for 2026. We'll
+0:02
+hear from Mark Andrew on the evolution
+0:04
+of AI user interfaces and how the way we
+0:06
+interact with intelligent systems is
+0:08
+fundamentally changing. Stephanie Zayn
+0:10
+discusses what it means to design for
+0:12
+agents rather than humans, a shift
+0:14
+that's reshaping product development.
+0:16
+And Olivia Moore will share her thoughts
+0:17
+on the rise of AI voice agents and their
+0:19
+growing role in our daily lives. These
+0:21
+aren't just predictions. They're
+0:23
+insights from the people working
+0:24
+directly with the founders and companies
+0:26
+building tomorrow's future.
+The Death of the Prompt Box
+0:30
+I'm Mark Andrew, a partner on our AI
+0:33
+apps investing team. My big idea for
+0:35
+2026 is the death of the prompt box as
+0:38
+the primary user interface for AI
+0:40
+applications. The next wave of apps will
+0:43
+require way less prompting. They'll
+0:45
+observe what you're doing and intervene
+0:46
+proactively with actions for you to
+0:48
+review. The opportunity we're attacking
+0:50
+used to be the 300 to400 billion of
+0:54
+software spend annually in the world.
+0:57
+Now what we're excited about is the $13
+0:59
+trillion of labor spend that exists in
+1:01
+the US alone. It's made the market
+1:03
+opportunity or the TAM for software
+1:05
+about 30 times bigger. If you start from
+1:07
+there and then you think about okay if
+AI as the Ultimate Employee
+1:09
+all of us want this software to be doing
+1:11
+work for us ideally it's doing work with
+1:15
+at least if not more competency than a
+1:17
+human could right and so um I like to
+1:20
+think about like well what do the best
+1:22
+employees do? What do the best human
+1:23
+employees do? and and I've recently been
+1:25
+talking about this graphic that was
+1:27
+floating around on Twitter. It's a
+1:28
+pyramid of like the five types of
+1:30
+employees and and the ones with the most
+1:32
+agency and why they're the best. So, if
+1:33
+you start at the bottom rung of the
+1:34
+pyramid, it's like people who identify a
+1:37
+problem and then come to you and ask for
+1:38
+help and ask what to do. And that's like
+1:40
+the lowest agency employee. But, uh if
+1:42
+you go to the S tier, like the the most
+1:44
+high agency employee you could possibly
+1:46
+have, they identify a problem. They do
+1:49
+research necessary to diagnose where the
+1:51
+problem came from. They look into a
+1:53
+number of possible solutions. They
+1:55
+implement one of those solutions and
+1:56
+then they keep you in the loop or they
+1:58
+come to you at the very last minute and
+1:59
+say like, do you approve of this
+2:00
+solution I found? And that's what I
+2:01
+think the future of AI apps will be. And
+2:03
+I think that's what everyone wants and
+2:04
+that's what we're all working toward. So
+2:06
+I feel pretty confident that we're
+2:06
+almost there. I think LLMs have
+2:08
+continued to get better and faster and
+2:10
+cheaper. And I think there's a world in
+2:12
+which the user behavior will still
+2:14
+necessitate a human in the loop at the
+2:17
+very end to sort of approve things
+2:18
+certainly in high stakes contexts. But I
+2:20
+think the models are more than capable
+2:23
+of getting to a point where it's
+2:24
+suggesting something really smart on
+2:25
+your behalf and you basically just have
+2:27
+to click accept. As you guys know, I'm
+Proactive AI in CRM and Workflows
+2:28
+pretty obsessed with the notion of an AI
+2:31
+native CRM. And I think this is like a
+2:33
+perfect example of what these proactive
+2:35
+applications could look like. So in
+2:37
+today's universe, a salesperson might go
+2:39
+open their CRM, explore all the open
+2:42
+opportunities they have, look at their
+2:44
+calendar for that day, and try to think
+2:45
+about, okay, what are the actions I can
+2:47
+take right now to have the greatest
+2:48
+impact on my funnel and my ability to
+2:50
+close deals with the CRM of tomorrow.
+2:52
+Your AI agent or your AI CRM should be
+2:55
+doing all these things on your behalf in
+2:57
+perpetuity, identifying not only like
+3:00
+the most obvious opportunities that are
+3:01
+in your pipeline, but going through your
+3:03
+emails from the last 2 years and
+3:05
+harvesting, you know, this was once a
+3:06
+warm lead and you kind of let it die,
+3:08
+like maybe we should send them this
+3:09
+email to to drum them back up into your
+3:11
+process, right? So, I think there are so
+3:13
+many ways in which drafting an email,
+3:15
+harvesting your calendar, going through
+3:17
+your old your old call notes, like the
+3:20
+the opportunities are just endless. The
+3:22
+ordinary user will still want that last
+3:25
+mile approval almost 100% of the time.
+3:28
+They will want the human part of the
+3:30
+human in the loop to be the final
+3:32
+decision maker. And that's great. I
+3:33
+think that's like the natural way in
+3:34
+which this will evolve. I can imagine a
+3:36
+world in which the power user is
+3:38
+basically taking a lot of extra effort
+3:41
+to train whichever AI app it's using to
+3:43
+have as much context about their
+3:44
+behavior and how they perform their work
+3:46
+as humanly possible. These will utilize
+3:48
+larger context windows. These will
+3:50
+utilize memory that's been baked into a
+3:52
+lot of these LLMs and make it such that
+3:53
+the power user can really trust the
+3:55
+application to do 99.9% of the work or
+3:59
+maybe even 100 and they'll pride
+4:00
+themselves on the number of tasks that
+4:03
+get done without a human needing to
+4:04
+approve them.
+Designing for Agents, Not Humans
+4:09
+Hi, my name is Stephan Deng and I'm an
+4:11
+investing partner on the A16 ZR team. My
+4:15
+big idea for 2026 is creating for
+4:17
+agents, not for humans. Something I'm
+4:19
+super excited about for 2026 is that
+4:22
+people have to start changing the way
+4:23
+they create. And this ranges from
+4:26
+creating content to designing
+4:28
+applications. People are starting to
+4:30
+interface with systems like the web or
+4:32
+their applications with agents as an
+4:35
+intermediary. And what mattered for
+4:37
+human consumption won't matter the same
+4:39
+way for agent consumption. When I was in
+4:42
+high school, I took journalism. And in
+4:45
+journalism, we learn the importance of
+4:47
+starting with the five W's and H in the
+4:49
+lead paragraph for news articles and to
+4:51
+start with a hook for features. Why? For
+4:54
+human attention. Maybe a human would
+4:56
+miss the deeply relevant, insightful
+4:58
+statement buried on page 5, but an agent
+5:01
+won't. For years, we've optimized for
+5:04
+predictable human behavior. You want to
+5:06
+be one of the first search results back
+5:07
+from Google. You want to be one of the
+5:09
+first items listed on Amazon. And this
+5:11
+optimization is not just for the web but
+5:14
+as we design software too. Apps were
+5:16
+designed for human eyes and clicks.
+5:19
+Designers optimized for good UI and
+5:21
+intuitive flows. But as agent usage
+5:24
+grows visual design becomes less central
+5:26
+to overall comprehension. Before during
+Machine Legibility and Content Creation
+5:29
+incidents engineers would go into their
+5:31
+graphana dashboards and try to piece
+5:33
+together what was going on. Now AISR
+5:35
+take in telemetry data. They'll analyze
+5:37
+that data and they'll report back with
+5:40
+hypotheses and insights directly into
+5:42
+Slack for humans to read. Before sales
+5:45
+teams would have to click through and
+5:46
+navigate Salesforce or other CRM to
+5:49
+gather information. Now agents will take
+5:52
+that data and summarize insights for
+5:55
+them. We're no longer designing for
+5:56
+humans, but for agents. The new
+5:59
+optimization isn't visual hierarchy, but
+6:01
+machine legibility. and that will change
+6:04
+the way we create and the tools that we
+6:05
+use to do it. It is a question we don't
+6:08
+know the answer to what agents are
+6:10
+looking for, but all we know is that
+6:12
+agents do a much better job at, you
+6:14
+know, reading all of the text in an
+6:16
+article versus maybe a human would just
+6:18
+read, you know, the first couple
+6:19
+paragraphs. There are a bunch of tools
+6:21
+out there that different organizations
+6:23
+use to just make sure that they show up
+6:26
+when consumers are prompting chat GBT
+6:29
+asking for the best corporate card or
+6:31
+the best shoes to buy. And so there's
+6:33
+like a bunch of what we call GEO tools
+6:36
+out there in the market that people are
+6:38
+using, but um everybody is asking the
+6:41
+question what AI agents want to see. I
+6:43
+love this question. um when humans may
+6:46
+choose to exit the loop entirely. We're
+6:48
+already seeing that happen in some
+6:50
+cases. Our portfolio company Decagon is
+6:52
+answering questions for a lot of their
+6:54
+customers already autonomously. But for
+6:58
+other cases, security operations or
+7:01
+incident resolution, we typically see a
+7:05
+little bit more human in the loop where
+7:06
+the AI agent takes first stab at trying
+7:09
+to figure out what the issue is, running
+7:11
+the analysis and serving to the humans
+7:14
+different potential situations. Those
+7:17
+tend to be cases of higher liability,
+7:20
+more complex analyses, uh, that we see
+7:23
+humans staying in the loop and will
+7:25
+probably stay in the loop for much
+7:27
+longer until the models and the
+7:30
+technology get to incredibly high
+7:32
+accuracy. I don't know if agents will be
+7:35
+watching Instagram reels. Um, it's
+7:37
+really interesting, at least on the tech
+7:39
+side. It is really important to optimize
+7:43
+for that machine legibility piece.
+7:45
+optimized for insight, optimized for
+7:49
+relevance especially versus in you know
+7:53
+in the past it was more about hooking
+7:56
+people in capturing attention in flashy
+7:59
+ways. What we're seeing already is case
+8:02
+of high volume hyperpersonalized
+8:05
+content. And maybe you don't create one
+8:10
+extremely relevant article, extremely
+8:13
+relevant and insightful article, but
+8:16
+maybe you're creating extremely high
+8:19
+volumes of lowquality content, but
+8:22
+addressing different things that you may
+8:26
+think an agent wants to see. almost like
+8:28
+the equivalent of keywords in the era of
+8:30
+agents where cost of creation of content
+8:33
+kind of goes to zero and it's really
+8:35
+easy to create high volumes of content.
+8:37
+That's a potential risk around just high
+8:40
+volumes of things to be able to try to
+8:42
+capture Asian attention.
+The Rise of AI Voice Agents
+8:48
+I'm Olivia Moore and I'm a partner on
+8:50
+our AI applications investing team. My
+8:53
+big idea for 2026 is that AI voice
+8:56
+agents will start to take up space. In
+8:58
+2025, we saw voice agents break out from
+9:01
+something that seemed more like science
+9:02
+fiction into something that real
+9:04
+enterprises are buying and deploying at
+9:07
+scale. I'm excited to see voice agent
+9:09
+platforms expand working across
+9:11
+platforms and modalities to handle full
+9:14
+tasks and bring us closer to the true AI
+9:17
+employee vision. So, we've seen nearly
+9:19
+every vertical have enterprise customers
+9:21
+that are testing voice agents. if not
+9:23
+deploying them at pretty significant
+9:24
+scale. Healthcare is probably the
+Voice AI in Healthcare, Finance, and Recruiting
+9:26
+biggest one here. We're seeing voice
+9:28
+agents in nearly every part of the
+9:30
+health care stack. Calls to insurers,
+9:33
+pharmacies, suppliers, but also in
+9:35
+perhaps more surprisingly patientf
+9:37
+facing calls. It could be things like
+9:39
+scheduling and reminders that are kind
+9:41
+of table stakes, but also even more
+9:43
+sensitive calls like postsurgery
+9:46
+follow-up calls or even intake calls for
+9:48
+psychiatry are being handled by voice
+9:50
+AI. I think honestly a big driver here
+9:52
+is just the high turnover and the
+9:54
+difficulty in staffing in healthcare
+9:56
+right now which makes voice agents that
+9:58
+can perform with some reliability a
+10:00
+pretty good solution. Another category
+10:02
+that's like that is banking and
+10:04
+financial services. You would think
+10:06
+there's so much compliance and
+10:07
+regulation that voice AI can't operate
+10:10
+there yet. But it turns out this is an
+10:12
+area where voice AI actually outperforms
+10:14
+because humans are actually very good at
+10:16
+violating compliance and regulations and
+10:20
+voice AI can get it every time and
+10:22
+importantly you can track how voice AI
+10:24
+is performing over time. Lastly, I would
+10:26
+say another area where voice has taken
+10:28
+off is recruiting. This is everything
+10:31
+from retail frontline jobs to
+10:34
+entry-level engineering roles to even
+10:36
+mid-level consulting roles. With Voice
+10:38
+AI, you can create an experience for
+10:40
+candidates where they can interview
+10:42
+instantly at whatever time works for
+10:44
+them and then they're sent through the
+10:45
+rest of the human recruiting process.
+10:46
+We've seen big improvements on accuracy
+10:48
+and latency this year as the underlying
+10:50
+models get better and better. Actually,
+10:52
+in some cases, I've heard of voice agent
+10:54
+companies slowing down their agent or
+10:57
+introducing background noise to make it
+10:59
+sound more like a human. When it comes
+11:00
+to BPOS's and call centers, I think some
+Challenges and Opportunities in Voice AI
+11:03
+of them are going to see a softer
+11:04
+transition and others are going to maybe
+11:06
+see a a harder cliff when it comes to
+11:08
+the threat from from AI and specifically
+11:10
+voice AI. It's kind of like how people
+11:12
+say AI isn't going to take your job. A
+11:14
+human using AI will. What we're seeing
+11:16
+is a lot of end customers may still want
+11:19
+to just buy the solution, not buy
+11:21
+technology that they have to implement.
+11:22
+So, they might still use a call center
+11:24
+or BO in the kind of near to medium
+11:26
+term, but they're probably going to use
+11:28
+one that's going to offer a cheaper
+11:30
+price or be able to do more volume
+11:32
+because they're utilizing AI.
+11:33
+Interestingly, there's a couple
+11:35
+geographies where humans are still
+11:37
+actually cheaper on a permanent basis
+11:40
+than kind of best-in-class voice AI. And
+11:42
+so, it'll be interesting to see as the
+11:43
+models get better if costs come down
+11:45
+there. And then call centers in those
+11:47
+markets might face a little bit more of
+11:48
+a threat than they do now. AI is
+11:50
+actually remarkably good at multilingual
+11:53
+conversations and heavy accents. Oftent
+11:55
+times I'll be on a meeting and there'll
+11:57
+be maybe a word or a phrase I don't
+11:58
+catch. Um, and I'll check like my
+12:00
+granola transcripts and it has it down
+12:02
+perfectly. So I think that's a good
+12:04
+example of what most ASR or speechtoext
+12:07
+providers can do. Now there's a couple
+12:09
+use cases that I'm hoping we see a lot
+12:11
+more of next year. Anything government.
+12:13
+So we were investors in prepared 911. If
+12:16
+you can run 911 calls and and they were
+12:19
+the non-emergency calls, but if you can
+12:20
+run that with voice AI, you should be
+12:22
+able to run DMV calls and anything else
+12:25
+government related that right now is so
+12:27
+frustrating as a consumer and so
+12:29
+frustrating if you're the worker on the
+12:31
+other end of the phone. I'm also really
+Consumer Voice AI and Wellness
+12:33
+intrigued to see more in consumer voice
+12:35
+AI. It's mostly been B2B so far just
+12:38
+because it's so obvious to replace or
+12:40
+supplement a human on the phone with
+12:42
+much lower cost AI. One category in
+12:44
+consumer voice that I'm excited about is
+12:46
+around kind of health and wellness more
+12:49
+broadly. We're already seeing voice
+12:51
+companions take off in assisted living
+12:53
+facilities and nursing homes, both as a
+12:55
+companion for again the residents, but
+12:58
+also they can kind of track different
+12:59
+measures of wellness over time. We see
+Building with Voice AI: Tools and Platforms
+13:01
+voice AI as more of an industry than a
+13:03
+market, which in our opinion means
+13:05
+there's going to be winners across and
+13:08
+at every layer of the stack. If you're
+13:09
+interested in voice AI or or if you want
+13:11
+to build in voice AI, I would recommend
+13:13
+you check out the models. There's lots
+13:15
+of amazing platforms like 11 Labs where
+13:17
+you can test both creating your own
+13:19
+voice and creating your own voice agent
+13:21
+and you get a really good sense of
+13:23
+what's possible and what's to come.

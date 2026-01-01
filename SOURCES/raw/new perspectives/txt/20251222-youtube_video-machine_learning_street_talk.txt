@@ -1,0 +1,940 @@
+https://www.youtube.com/watch?v=AWqvBdqCAAE
+The "Final Boss" of Deep Learning
+45,930 views  Dec 22, 2025
+We often think of Large Language Models (LLMs) as all-knowing, but as the team reveals, they still struggle with the logic of a second-grader. Why can't ChatGPT reliably add large numbers? Why does it "hallucinate" the laws of physics? The answer lies in the architecture. This episode explores how *Category Theory*—an ultra-abstract branch of mathematics—could provide the "Periodic Table" for neural networks, turning the "alchemy" of modern AI into a rigorous science.
+
+In this deep-dive exploration, Andrew Dudzik*, *Petar Velichkovich*, *Taco Cohen*, *Bruno Gavranović*, and *Paul Lessard join host Tim Scarfe to discuss the fundamental limitations of today's AI and the radical mathematical framework that might fix them.
+
+---
+
+Key Insights in This Episode:
+
+The "Addition" Problem: Andrew Dudzik explains why LLMs don't actually "know" math—they just recognize patterns. When you change a single digit in a long string of numbers, the pattern breaks because the model lacks the internal "machinery" to perform a simple carry operation.
+Beyond Alchemy: Tim Scarfe argues that deep learning is currently in its "alchemy" phase—we have powerful results, but we lack a unifying theory. Category Theory is proposed as the framework to move AI from trial-and-error to principled engineering. [00:13:49]
+Algebra with Colors: To make Category Theory accessible, the guests use brilliant analogies—like thinking of matrices as magnets with colors that only snap together when the types match. This "partial compositionality" is the secret to building more complex internal reasoning. [00:09:17]
+Synthetic vs. Analytic Math: Paul Lessard breaks down the philosophical shift needed in AI research: moving from "Analytic" math (what things are made of) to "Synthetic" math (how things behave and relate to one another). [00:23:41]
+The 4D Carry: In a mind-blowing conclusion, the team discusses how simple algorithmic tasks, like "carrying the one" in addition, actually relate to complex geometric structures like *Hopf Fibrations*. [00:39:30]
+
+---
+
+Why This Matters for AGI
+If we want AI to solve the world's hardest scientific problems, it can't just be a "stochastic parrot." It needs to internalize the rules of logic and computation. By imbuing neural networks with categorical priors, researchers are attempting to build a future where AI doesn't just predict the next word—it understands the underlying structure of the universe.
+
+---
+TIMESTAMPS:
+00:00:00 The Failure of LLM Addition & Physics
+00:01:26 Tool Use vs Intrinsic Model Quality
+00:03:07 Efficiency Gains via Internalization
+00:04:28 Geometric Deep Learning & Equivariance
+00:07:05 Limitations of Group Theory
+00:09:17 Category Theory: Algebra with Colors
+00:11:25 The Systematic Guide of Lego-like Math
+00:13:49 The Alchemy Analogy & Unifying Theory
+00:15:33 Information Destruction & Reasoning
+00:18:00 Pathfinding & Monoids in Computation
+00:20:15 System 2 Reasoning & Error Awareness
+00:23:31 Analytic vs Synthetic Mathematics
+00:25:52 Morphisms & Weight Tying Basics
+00:26:48 2-Categories & Weight Sharing Theory
+00:28:55 Higher Categories & Emergence
+00:31:41 Compositionality & Recursive Folds
+00:34:05 Syntax vs Semantics in Network Design
+00:36:14 Homomorphisms & Multi-Sorted Syntax
+00:39:30 The Carrying Problem & Hopf Fibrations
+
+---
+REFERENCES:
+Company:
+Model:
+[00:01:05] Veo
+https://deepmind.google/models/veo/
+[00:01:10] Genie
+https://deepmind.google/blog/genie-3-...
+Paper:
+[00:04:30] Geometric Deep Learning Blueprint
+https://arxiv.org/abs/2104.13478
+[00:16:45] AlphaGeometry
+https://deepmind.google/blog/alphageo...
+[00:16:55] AlphaCode
+https://arxiv.org/abs/2203.07814
+[00:17:05] FunSearch
+https://www.nature.com/articles/s4158...
+[00:37:00] Attention Is All You Need
+https://arxiv.org/abs/1706.03762
+[00:43:00] Categorical Deep Learning
+https://arxiv.org/abs/2402.15332
+
+Thanks to ly3xqhl8g9 on our Discord server for the draft show review!
+
+---
+
+The Failure of LLM Addition & Physics
+0:00
+language models cannot do addition. Um, not really. I keep seeing claims that
+0:05
+they can and every time I see this claim, I go again to chat GPT and so on and check and they can't. And uh, what
+0:12
+they can do is learn patterns which work a lot of the time, but you can always
+0:17
+trip them up by doing something like okay, so if you ask chat GPT, what is a
+0:23
+bunch of eights plus a bunch of ones with a two at the end? it will get the correct answer because it will recognize
+0:29
+the trick. It'll say, "Ah, that's just one and a bunch of zeros." It'll know that you're trying to trick it. But if
+0:35
+now you change one of the eights to a seven, now it has to actually know what it's doing. It has to actually sort of
+0:41
+walk up, hit the seven, and stop sort of propagating zeros. And it simply fails.
+0:47
+It uh it either chokes and makes up some nonsense or it says it's one with a bunch of zeros anyway. like it
+0:54
+definitely can't add in the in the the basic way that that we know how to do
+1:00
+algorithmically that humans learn. And so like really teasing apart on a very basic uh level like Newton's three laws
+1:07
+of motion has it encapsulated it um whether that's VO or Genie have these
+1:13
+models encapsulated the physics of that 100% accurately and right now they're not they're kind of approximations and
+1:19
+they look um realistic when you just casually look at them they're not accurate enough yet to rely on for say
+1:25
+robotics just because we can achieve some level of moving the needle by hooking up a
+Tool Use vs Intrinsic Model Quality
+1:30
+really potent tool to a language model doesn't mean that we shouldn't think about what would the next generation of
+1:37
+these models look like and how can we make them intrinsically better because even if you have the best tool in the
+1:43
+world that is not going to save you if you cannot predict the right inputs for that tool. Even some of the current
+1:49
+frontier models uh they will as you probably know perform hundreds of billions of multiplications just to
+1:55
+produce a single token of output. Yet they cannot reliably multiply even
+2:01
+relatively small numbers together without failing. Right? So this is something that to me hints at a great
+2:08
+misalignment between what we are training these systems to do and how we're building them and what we might
+2:14
+want to use them for downstream. especially if we're doing reasoning or if we're doing science. But it seems
+2:19
+like let's say an LLM if you teach it properly you can just teach it to do let's say addition up to some failure of
+2:27
+its memory just like with humans we might forget a digit or we forget to carry over or so you know we do the
+2:32
+algorithm wrong sometimes with some uh probability up to that it can learn this this procedure of adding longdigit uh
+2:41
+numbers you know it's is it neural is it symbolic uh it's doing something some algorithm something symbolic perhaps
+2:48
+uh but it's doing that with its neural machinery and the neural machinery also allows it to well first of all absorb
+2:55
+tons and tons of world knowledge and deal with the vagueness of concepts
+3:00
+right the fact that that things don't exactly want to fit your good old fashioned AI symbolic theory most of the
+Efficiency Gains via Internalization
+3:07
+time we've all played with MCP servers we know that we can hook tools up to these things why not just call a calculator
+3:14
+Andrew argues that tool use isn't enough right we still need to be thinking about the actual architecture underneath it
+3:20
+still matters. Internalizing things I think has a chance to be a lot more stable. The
+3:26
+relationship between neural nets and tools is somewhat complicated. I think
+3:32
+you can do a lot with it. You can do a lot of interesting search but there are
+3:38
+a few disadvantages. One is you may have to call the model a bunch of times because it may get an answer but it may
+3:45
+not be the answer it was expecting. So it might have to rethink things and go back. Like imagine a situation where you
+3:51
+had some complex reasoning problem where along the way you had to do a series of
+3:56
+little additions. You just had to sort of okay so then this and then this and then oh how many of these are there?
+4:02
+Okay. And then how many of these and so on. And you it could be quite complicated to kind of keep calling out
+4:09
+to a tool and then going back and then calling out to a tool and then going back and you know it seems like there
+4:17
+are big efficiency gains if you're able to equip the model itself to just do
+4:22
+certain kinds of basic computation or reasoning internally. So yeah, geometric deep learning was a pretty interesting
+Geometric Deep Learning & Equivariance
+4:29
+episode uh and certainly a very exciting period in my own research and uh and
+4:36
+what I've done together with the team. Already in that very first episodes that we did together with geometric deep
+4:42
+learning, there was a hint of discussion about how geometric deep learning might not necessarily be enough. It will
+4:48
+require us potentially to broaden our lens on what we mean by geometric deep learning. And this is something we're
+4:54
+already very actively thinking about. I think one of our co-authors, Taco Cohen, actually thought much more deeply about
+5:00
+this. Like I hinted at the fact that groups which are the bread and butter of
+5:05
+geometric deep learning might not be enough for uh fitting the concept of
+5:11
+aligning to computation which is my personal motivation. Right? So for those who are not familiar, geometric deep
+5:17
+learning uh fundamentally builds itself on the concept of constructing neural networks in a way that is what we call
+5:25
+equivariant to symmetry transformations. So what this means in a nutshell is if I
+5:30
+transform my input in some way, I should get predictable outputs with my neural network if that transformation is
+5:37
+something that I find to be irrelevant. One standard example is translations of images. So if I have a picture of a cat
+5:43
+and I decide to shift it by a certain number of pixels, it is still a picture of a cat. That hasn't changed. I've just
+5:49
+changed the way I'm looking at that cat. So I would like to build my model to be what we call translation equivariant
+5:55
+such that when I do apply such a shift, I will still get the same output that this is indeed a cat. uh in a similar
+6:03
+manner graph machine learning which is an area that I'm personally really passionate about deals with extracting
+6:08
+useful representations of graph structure data like molecules but uh graphs have this inherent property that
+6:15
+uh there's many different ways you can show them to the model and typically you have to present them using some kind of
+6:20
+say adjacency matrix of nodes by nodes but what happens if I decide to permute the order in which I show you those
+6:26
+nodes so I permute the matrixes rows rows and columns accordingly this is still the same graph I would still want
+6:32
+to get exactly the same outputs on that graph. Right? So I can build into my models this notion of permutation
+6:39
+equivariance which guarantees that even if I permute my nodes, I'm still going
+6:44
+to get predictable outputs and basically identical outputs up to permutation for
+6:49
+those permuted graphs. And this is a really important property because it reduces almost exponentially basically
+6:56
+the amount of data you need to fit a system like that to a satisfactory amount of behavior. And it should come
+7:01
+as no surprise that transformers at their heart are permutation equariant models. Once you've put token
+Limitations of Group Theory
+7:08
+embeddings, position embeddings into tokens, you can permute them all you want. You'll get exactly the same
+7:13
+response. If you wanted to learn that kind of symmetry with a simple MLP of tokens that would have taken you
+7:19
+exponentially more data than the trillions that we currently use to train these models. So likely a data you wouldn't be able to find. We looked at
+7:26
+geometric deep learning from a group symmetry point of view which is a very nice way to describe spatial
+7:32
+regularities and spatial symmetries but it's not necessarily the best way to
+7:37
+talk about say invariance of generic computation which you would find in algorithms right it's like I have input
+7:43
+that satisfies certain preconditions I want to say something about once I push it through this function it should
+7:49
+satisfy certain post conditions this is not the kind of thing we can very easily express using the language of group
+7:54
+theory However, it is something that perhaps we could express more nicely using the language of category theory.
+8:00
+I do think that some very high level priors uh are probably a good idea and perhaps even necessary. In my PhD, I
+8:08
+worked a lot on building uh knowledge about symmetries into neural networks.
+8:13
+And I think uh for for many problems, you know, knowledge about symmetries is
+8:19
+something that uh first of all gives you a lot of bang for the buck. You we know from from physics already and now from
+8:25
+empirical results in in machine learning that building these things into neural networks or putting a constraint on your
+8:31
+physical theory based on symmetries gives you a lot of information or it really restricts the space of of
+8:37
+hypothesis and at the same time it doesn't bias uh your model if indeed
+8:43
+your problem has this symmetry. So I think that that that kind of that's the kind of thing we should be be looking
+8:49
+for this kind of very high level abstract prior not trying to encode you
+8:54
+know going back to the example I gave just now the fact that light switches make lights go on that we can figure out
+9:00
+from data from reading text on the internet at scale uh from trial and error uh learning in an interactive
+9:07
+environment perhaps the fact that there is space like 3D space uh and that your
+9:12
+2D images are a projection of that maybe that that a useful prior category theory is very much in the eye
+Category Theory: Algebra with Colors
+9:18
+of the beholder. Uh I think in the first instance for me category theory uh
+9:25
+categories are a very mundane thing from pure mathematics where I come from. Uh
+9:30
+and category theory means you know when you study categories for their own sake but everybody uses categories. The
+9:36
+question is what exactly are they? And I really come from algebra and a lot of my
+9:42
+motivation comes from studying algebra. And one way you can think about categories is algebra with colors. So uh
+9:52
+you know we can imagine sort of typical algebra. So for example, let's say we're multiplying square matrices. I can sort
+9:59
+of think of each square matrix as a little magnet and I just sort of hook them up together and they just stick and
+10:05
+you kind of you know you get a bigger and bigger magnet and and everything makes sense. But now suppose I had
+10:12
+special magnets that had colors on each side and I could only connect them if the colors were the same. Uh and that
+10:19
+sounds a bit weird but it's exactly what happens with non-square matrices. uh when we uh multiply two matrices we we
+10:27
+have to follow a rule that they are not allowed to be multiplied unless the numbers match up. If I have an M byN
+10:34
+matrix and I want to multiply on the left with an L byM matrix, I can do that because the M's are the same, but
+10:40
+otherwise I I can't. There's a kind of color violation. So, uh, the point is a
+10:45
+situation where we want to be able to compose things, um, to to hook them up
+10:51
+together, uh, but we can't always do it. That's basically what categories are
+10:56
+designed to cover. And, uh, I think the the matrix example illustrates they're
+11:01
+not so mysterious. It's just when you want to be talking about for example many different sized vector spaces at
+11:08
+once as you often do in neural networks because you have uh sort of hybrid
+11:14
+shapes of with uh you know uh dimensions of of different sizes and so on. You end
+11:20
+up you end up wanting something where you take this sort of partial compositionality into account.
+The Systematic Guide of Lego-like Math
+11:25
+I think this the this um geometric deep learning blueprint that we described there can be generalized. Yeah. category
+11:33
+theory made a lot of things click for me it or I'm hoping let's say that it will
+11:38
+allow us to generalize this methodology of geometric deep learning and equivariance to not just reason about
+11:44
+symmetries but far more general kinds of structures and structure preserving maps
+11:50
+could it help there in the sense that you know um we we imbue the models with these geometrical prior and we think
+11:56
+these high resolution prior describe the physical world that that we're in could this category thinking allow us to
+12:02
+somehow bring all of those together in some new way. Well, you can certainly see how they're all instances of the same thing. Uh so
+12:08
+those those things once you learn them uh you they start coming back everywhere. And what's very nice about
+12:15
+the category theoretic way of thinking is that it's extremely systematic and it tends to guide you in the right
+12:22
+direction because uh well the examples I've given you already uh show that
+12:27
+right this this notion of equivariance that's something that someone thinking about groups and group representation
+12:34
+and so on will come up with and find to be a very useful concept for mathematical reasoning.
+12:39
+uh but it it falls out automatically if you if you already know category theory and you just define the categories of
+12:46
+relevance here this define your group as a as a as a category for example then
+12:51
+you just follow the definitions you say well okay so what is a funtor from my category to the category of sets for
+12:56
+example okay it's it's mapping like this that that gives you the definition of a group representation and then you look
+13:03
+at what is a natural transformation between such funtors you write out the definition you find oh okay it's an
+13:08
+equarian app in this case. And so it tends to produce meaningful definitions
+13:14
+that domain experts like in a mathematical domain will have independently come up with very often.
+13:21
+And so it uh it's uh it's for lazy people who don't want to or uncreative people. You know, you don't have to be
+13:28
+clever. You you just have to follow the rules and be very systematic and outcome these very natural definitions and a
+13:35
+kind of mathematics that just works very nicely. everything fits together just like with Lego pieces or something,
+13:41
+right? They always fit exactly. Uh yeah, that allows you to build these elaborate
+13:46
+uh mathematical structures that that have nice properties. There's a historical analogy worth keeping in mind. Before the periodic
+The Alchemy Analogy & Unifying Theory
+13:53
+table, before we understood protons and electrons, practitioners of alchemy made real advances, but without a principled
+14:00
+foundation. Deep learning today may be in a similar position. We have powerful empirical results, but we lack the
+14:06
+fundamental theory that would let us derive new architectures rather than just stumbling upon them. Categorical
+14:13
+deep learning is an attempt to find that periodic table for neural networks. Deep
+14:19
+learning, despite its remarkable success, is a field permeated by ad hoc design choices. Neural network
+14:26
+architectures have all these knobs and tweaks that we can't formally justify
+14:32
+just yet. There is no unifying framework for deep learning. Um there is no
+14:37
+unifying framework that that would explain the probabilistic perspective, the neuroscience perspective and merely
+14:43
+just the gradient-based iterative updating perspective. In fact, in the future, we might look at deep learning
+14:48
+very differently. And our claim is that category theory will become the unifying deep learning framework.
+14:55
+But you seem to be making the argument that the interpolative function space of neural networks can model algorithms more closely to real world problems.
+15:02
+potentially finding more efficient and pragmatic solutions than those classically proposed by computer scientists. We are working in this
+15:08
+highdimensional space which is not necessarily easily interpretable or composable because you have no easy way
+15:15
+of saying for example in in theoretical computer science if you want to compose two algorithms you're working with them
+15:20
+in a very abstract space which means that you know you can easily reason about stitching the output of one to the
+15:25
+input of another whereas you cannot make that easy of a claim about latent spaces
+15:31
+of two neural networks. Right? Geometric deep learning is powerful, but it
+Information Destruction & Reasoning
+15:36
+assumes all transformations are invertible. What happens when computation destroys information?
+15:43
+Strictly speaking, I wasn't planning to talk about any of that stuff at the time. It was very much work in progress
+15:48
+and just kind of trapped in my head as a collection of possible ideas, but not something I remotely knew how to execute
+15:55
+on. Right? But, uh, I was very passionate about algorithmic reasoning at the time as well. I still am and I
+16:01
+still believe that like building machine learning models that are capable to align to classical computation is going
+16:08
+to be really really important to address the shortcomings that are not so easily plugged by just gathering a better data
+16:14
+set. Like fundamentally some of these things are likely to be restricted to
+16:20
+not be able to easily generalize outside of the distribution you've trained them on. and especially for reasoning
+16:25
+problems that is the case. When you think about all of the big scientific advances that were done with large
+16:31
+language models, for example, up to this date, I would argue most of the ones I'm personally familiar with are a result of
+16:38
+a careful combination of a large language model and an algorithmic procedure in the background which
+16:43
+actually makes sure to give it robustness properties. So think about things like fun search uh like alpha
+16:49
+code, like alpha geometry. All of these systems have discovered new knowledge in computer science uh in competitive
+16:56
+programming in uh uh in even you know geometry problems at the IMO but in all
+17:02
+cases you've hooked up a language model to either a genetic algorithm or some clustering mechanism or a tier prover
+17:09
+which all have very nice correctness guarantees which then you know if you can run this uh model for sufficiently
+17:15
+many times to kind of correct itself using the algorithm you can end up with really nice solutions. The problem with
+17:21
+geometric deep learning is that as I said it talks about symmetries. So permutations or circular shifts those
+17:27
+are generally things that have very specific and rigid behaviors in typically one of the things we assume
+17:33
+about symmetries is that they are invertible. So basically that uh whenever I permute nodes I can always
+17:39
+permute them back. I haven't lost any information. And usually with images when we do shifts we actually pad the
+17:45
+image with zeros to make sure that no image data is lost and things like that. So basically it always assumes that it's
+17:51
+still the same input. We haven't lost any information. Now why is this a problem for me who is really interested
+17:57
+in aligning models to classical algorithmic computation? Well, as any computer scientist will know, many
+Pathfinding & Monoids in Computation
+18:04
+programs you write will delete some of the data or destroy some of the data. So that is no longer a symmetry. You cannot
+18:10
+invert it. Maybe one simple example is other than just the you know naive example of I'm going to take a list and
+18:16
+delete half of its elements for no reason. Uh let's start with you know path finding. So we talk a lot about
+18:22
+algorithms like Dystra or Bellman Ford inside a computer science curriculum. In short those are algorithms that starting
+18:28
+with a directed weighted graph predict what are the shortest paths uh lengths inside that graph. All right. Now, the
+18:35
+thing is there are many, many different graphs with different weights that are going to have exactly the same shortest
+18:42
+paths and potentially even the same shortest path lengths. However, those graphs are different. And
+18:48
+once you've applied the transformations of Dystra's algorithm or Bman Ford algorithm, you'll have lost the
+18:53
+information that is contained about the graph in the final output of that algorithm. Right? Because many different
+18:58
+graphs will be compressed to exactly the same output. Right? So this is not an
+19:03
+operation I can describe using a symmetry and then this journey gradually
+19:09
+like it took me a while to realize how we can be formal about this how can we try to put some theory on this and even
+19:15
+now down the line how can we build some practical models using this and I was fortunate enough to uh to start chatting
+19:21
+with Andrew who is my colleague at deep mind uh who uh has a category theory
+19:26
+background and he's been thinking himself about some of these problems in the past. So uh it it was a great match
+19:32
+because together with him it it was a long way but we managed to gradually relax the constraints of what a group is
+19:39
+giving us. We first uh looked at removing the invertability part which led us to monoids and then we derived
+19:45
+some interesting theory and asynchrony invariance in models using monoids and uh now we're also looking into uh
+19:52
+removing the second constraint of groups which is the requirement that every single computation must compose with
+19:58
+every other piece of computation. As you might also know in computer science you cannot always do that. you must make the
+20:03
+output of your first function match the input type of the second one otherwise they can't compose. So this now leads us
+20:11
+to categories and uh well that's what led us now to categorical deep learning things like intentionality and planning
+System 2 Reasoning & Error Awareness
+20:16
+and system two and reasoning and stuff like that. I think you're placing the assumption that there's something
+20:22
+standard about that. Yeah, exactly. I mean and to some extent
+20:28
+there is because for a lot of these algorithms we have even proofs that they will arrive at optimal solutions if you
+20:33
+give them enough time and put them in the right context and I actually think it's going to it should be a synergy
+20:38
+right because as you said with modern largecale deep learning systems we actually stand a chance to map really
+20:45
+complicated noisy real world scenarios into a space where those algorithms
+20:51
+might become applicable right now the main argument that uh maybe we are trying to make in some part here is that
+20:58
+uh asking the model to both do that translation and robustly invoke the algorithm is likely a bit too much to
+21:06
+ask because among other things you've said fixed computational budget that's already one recipe for failure as inputs
+21:12
+get larger because as you know for example multiplication as I mentioned is an algorithm which is a is a problem for
+21:19
+which we don't really have a super efficient algorithm yet the best known one is n login and that one relies on
+21:24
+like complicated number theoretic constructions, let's say. So most people know just the n squ quadratic algorithm
+21:30
+for multiplication. So the amount of resources that you need to reliably multiply two numbers will grow and
+21:37
+sometimes super linearly uh based on the size of those two numbers and currently
+21:43
+uh our systems can cope with that implicitly if you add things like chain of thought which gives the model more
+21:48
+thinking time and so on. But fundamentally all of those things are patches that might help for a particular
+21:53
+class of problems but then fail somewhere else just because of the nature of how complicated the entire space of computational problems is.
+22:00
+Right? So basically I believe in a future where the neural network will
+22:05
+deal with the understanding of the world with the translation of what's happening in the world into some abstract space
+22:10
+which might just be high dimensional embeddings by the way that's also plausible and then there will be some
+22:15
+component that we have baked into the system either through priors or through very careful losses or even through
+22:21
+combining systems with tools which has already proved really really useful that will actually then execute that
+22:27
+computation in a way that we can reason about it and I should stress by the What I mean by reasoning is not 100%
+22:33
+accuracy on every single inputs. I find that humans can reason and humans are not 100% accurate on every single input
+22:38
+you give to them. Right? As as you can see, if you ask me to multiply two numbers that are like 50 digits long, I
+22:44
+will definitely make some failures if you ask me to do that. But you know the point is that like uh what I would like
+22:51
+is that uh a system understands the amount of effort that needs to go into doing some kind of computation and maybe
+22:57
+at least to give me some either an estimate of how likely it is to make mistakes or uh some notion even some
+23:04
+notion of I'm sorry the problem you've asked me to do is too computationally large for my capabilities. I would like
+23:09
+to just back off and not answer. Right? Currently systems are not trained to do that. They're trained to always try to give you an answer. Right? which is very
+23:16
+different to to that. So basically uh I'm fine with making mistakes but I
+23:21
+would really like some awareness of when mistakes might happen and how big they will be which when you apply algorithms
+23:26
+you often have that. So you can have correctness guarantees as well as you know convergence guarantees and things like that. But you're probably thinking
+Analytic vs Synthetic Mathematics
+23:33
+why do we need to use such abstract mathematics in the first place? Well, this kind of structured thinking can
+23:39
+actually help us see what actually matters. To introduce the notion of structuralist
+23:44
+mathematics and then the best known example of structure structuralist mathematics category theory. I would
+23:50
+like to begin with the distinction between analytic mathematics and synthetic mathematics. And the usual two
+23:57
+examples that are given for this is the geometry of Decart versus the geometry
+24:03
+of Uklit. For Decart, lines are solution sets to equations. Whereas for Uklid,
+24:10
+lines are precisely that which is stretched out between two points. What's the essential distinction here? In
+24:15
+analytic mathematics, stuff is made of stuff, right? There's always some question of okay, I have to have some
+24:22
+common foundation from which everything is built and all of my lemmas, theorems,
+24:28
+etc., everything eventually boils down to a computation in that more basic substance. On the other hand, in
+24:34
+synthetic mathematics, it's like I don't need to go I don't need to know what like the inside of a line is. That
+24:41
+doesn't matter. The point is I only abstract what are the principles by which I can make inference on lines and
+24:47
+their relationships to each other. Right? The point is you get rid of everything that is inaccessible to your
+24:53
+logic. Right? So you get rid of all of this stuff that you might call detail, but it's not even detail. It's noise. It
+24:59
+because it doesn't have any content for that which you can know. Right? Right? And so therefore it's completely irrelevant. So synthetic mathematics
+25:05
+gets rid of all of that and focuses just on how you can produce more knowledge. Right? And so then to explain at least
+25:11
+what I mean by a structuralist mathematics is I want a synthetic mathematics of structure right what is
+25:17
+structure you know in the context of machine learning we've got lots of notion everyone says structure right the best known and best studied example of
+25:24
+that structure is group actions right all of geometric deep learning is about group actions but that's only one that's
+25:30
+like one pin prick in the vault right that's just like one thing right there are lots of other things say that come from theoretical computer science the
+25:37
+notion of thing things being lists or you know things being trees all of these other various like algebraic structures.
+25:43
+So you want like a single you know language in which all of these various kinds of structure can be described
+25:49
+elegantly. This is exactly why we appeal to category theory in in the simplest possible terms. What
+Morphisms & Weight Tying Basics
+25:54
+do you mean by two categories? Right. Right. So if we talk about a category as as a a collection of things
+26:01
+and relationships between them these relationships are encoded as as something we call morphisms. These are
+26:07
+like generalized functions. These are just arrows. We draw them as arrows. Before we go any further, let's ground what weight tying actually means.
+26:14
+Imagine an RNN processing a sentence word by word. And at every time step, it uses the same neural network cell, the
+26:20
+same weights to process each word. That is weight timing, right? Forcing multiple parts of a computation to share
+26:28
+identical parameters. In traditional machine learning, we do just this, right? We code it up, but there's no
+26:33
+formal theory explaining when this is valid or what structure it preserves. I know it sounds abstract, but it just
+26:39
+means that we can prove when weight tying is correct and derive new architectures where weight tying is
+26:45
+guaranteed to preserve the structure that we actually care about. But often if we focus on two two objects and look
+2-Categories & Weight Sharing Theory
+26:51
+at all the maps between them, all these morphisms. So these are a set in a category. There's a set of morphisms.
+26:57
+But now if you take the ethos of category theory and and not just have a set of things, but we try to relate that
+27:02
+set with some some ways between them. We if you look at this set of morphisms between two objects. Now if we add the
+27:09
+notion or or start describing the ways these morphisms could be related the properties they need to satisfy which is
+27:15
+also some kind of composition. Uh then we get start getting at the notion of a two category which is objects morphisms
+27:22
+but two morphisms as as ways of relating them. Category theory talks about these relationships between um objects, you
+27:29
+know, as morphisms. But what about relationships between the morphisms,
+27:34
+right? Right. So the these are these that we call two morphisms or two cells. And these are the things we we use to
+27:41
+model um to model some aspects of neural networks that we deem are important. We
+27:46
+shouldn't just think of them as categories. They're not just maps. uh but they have this high we can think of them certainly like this but that that
+27:53
+does not encode a lot of the interesting things we want to have about them and this is I think the idea of higher categories where you start modeling
+27:59
+something with purely categories and you realize ah well all along I have been forgetting about this other important
+28:05
+thing so you start putting more stuff into your theory while still trying to make it consistent and the particular
+28:10
+way we encode these hieromorphisms or what they what we use them for I think the most important thing is weight
+28:15
+sharing so we get a comprehensive theory of how to do weightaring sharing in a way that's that's not particularly tied
+28:22
+to smooth spaces, you know, vector vector spaces that can it's it's one that works for manifolds. It's also one
+28:27
+that works that we have now used, you know, me and my collaborators uh in my PhD that we have used to connect to game
+28:34
+theory where we talk about economic agents that have some strategies and if you want two agents to operate with the
+28:40
+same strategy, we do weight sharing there. So there's all these different fields where you can specify what these are and the level of abstraction of a
+28:46
+two two cell is the one which really gets to the essence of that without
+28:51
+having any specificity about the kind of thing you're studying built in. You could presumably just go to the
+Higher Categories & Emergence
+28:57
+third order and to the fourth order. I mean even with um with self attention transformers they um model these two
+29:04
+tpples uh you know which is like a second you know like a first order relationship but you could have third order fourth order and so on. Is is two
+29:12
+morphisms enough or should we go deeper than that? Well, depending on who you ask, you will get very opinionated
+29:18
+answers. But generally, you know, I it's when I started learning category theory, I was like, well, I'm never going to go to two categories. That seems
+29:24
+complicated. Now, I say, I'm never going to go higher than two categories because that seems too complicated. But people do three categories, infinity
+29:31
+categories. And and you can really start building up these relationships higher and higher and get this really comprehensive theory that that becomes a
+29:38
+very different beast in some ways. There is a school of thought that our brain works in this way. So we think
+29:44
+using like the the these symbols and these categories and so on and then there's and then there's the notion of
+29:50
+the universe is a certain way and we understand the universe with that kind of interface. So it's almost like the
+29:55
+driver for this is here's an interface here's how we think here's how the universe works. Let's program computers
+30:01
+in that way. That's that's that's a that's a big question. Uh it's it's
+30:08
+what what happens with these things is that when we start adding more levels, right, more is different. And that's the
+30:13
+thing we start seeing in higher categories. When we add different kinds of relationships and morphism, you start
+30:19
+seeing these things that can be perhaps more most aptly described as emergent effects, right? Because if you have two
+30:25
+things and you want to study their behavior as a composite, well, you can either study their behavior individually
+30:31
+and look at the joint behavior or you can compose the systems and look at the behavior of the composite. And what we often found
+30:37
+is these are not the same. In many compositional cases, these are isomeorphic, but often there's a map going one way but not the other. So you
+30:43
+have to track, you start to track since this isn't an equality anymore, you have to start tracking this higher self. But
+30:49
+now this itself might be a part of another system that gives rise to this plethora and levels and levels of
+30:54
+emergent effects. So that's one of the problems with higher category theory is that it's just so hard for us for with
+31:00
+our complexity of mind to do this. Um so it's certainly an open question of what is the best substrate how to encode
+31:06
+these things and people have done a lot of work in in programming language theory of encoding not just data
+31:11
+structures and and algorithms but but type theories that that these algorithms are hosted in in some categorical way.
+31:18
+People who believe in strong e emergence think that there is no reductionism. But even with basic weak emergence, the
+31:25
+analytical shortcut between the theories at different scales are computationally
+31:30
+intractable. It's very difficult to go between them. But we want to have some kind of a theoretical framework that captures the whole thing, right? You
+31:37
+know, captures the the the emergent organization as well as what's going on underneath. So, so this is one of the
+Compositionality & Recursive Folds
+31:42
+goals that you could say is one of the goals of category theory is to find some fundamental abstractions that give rise
+31:49
+to these very simple principles. Often when you look at some systems or some phenomena, it's very complicated. But if
+31:54
+you're lucky enough and if you set up the good foundations, it's always, oh wait, it was very simple all along. I I
+31:59
+I looked at it the wrong way. So I don't know what where this could go. But we
+32:04
+are certainly striving to make things as compositional as as they could be. uh and in many of these fields where we
+32:11
+have a pl plenty of experimental evidence uh and lack of good theories category theory has a very good uh
+32:18
+vantage point and just a lot of practical benefit of let's stop and and
+32:23
+see what's the good vantage point here does two morphisms allow us to think about weight tying
+32:30
+absolutely so if we think about a parametric morphism uh as as so it's a map from A to B with a parametric B we
+32:36
+can of we often want to change the parameter space we often want to say do the weight tying which you know in
+32:41
+practice means we start from a smaller weight space and copy the weights in particular uh so a twoorphism in the two
+32:48
+category of parametric functions is is a reparameterization so it's a it's a map between two parametric morphisms that
+32:56
+that is somehow somehow coherent there's some diagrams that have to be satisfied but essentially they encode that one is
+33:02
+obtained by pre-omposing some weight some form of weight tying but it doesn't have to be just copying right that's the
+33:08
+thing we're finding uh it can it can be arbitrary relationships between the weights. So one of one of the things
+33:13
+that these two cells and two morphisms allow us is to see this algebraic structure encoded as relationships
+33:20
+between the weights. And then that goes again into what category is about. It's about finding relationships between
+33:25
+objects and this. So so absolutely. So here's the key connection to programming. In functional languages we
+33:32
+define data types like lists recursively. A list is either empty or it's an element followed by another
+33:38
+list. Categorically, this is an algebra for an endo funtor. The structure map of
+33:45
+the algebra packages together all of the constructors of the data type. And the homorphism from this algebra is exactly
+33:51
+what programmers call a fold. A function that consumes the list by recursively applying some operation. So the
+33:59
+framework is describing the very structure of recursive computation.
+Syntax vs Semantics in Network Design
+34:05
+when you write code, you you uh encounter syntax errors. You don't so much encounter semantics errors. So the
+34:12
+syntax is really quite grounded in the things that you're actually typing in when you're when you're writing
+34:18
+something whether it's an ordinary algorithm, whether it's a network architecture uh etc. Uh the semantics is
+34:25
+much more about like how can programs behave and you know one example of this
+34:31
+for u we have something like list types. So lists are defined by a type
+34:37
+constructor. Given a type t you have another type list of t. So what are the
+34:42
+semantics of lists? Well the semantics of lists are really things that are foldable sort of foldable types. So like
+34:50
+uh numbers with addition they're a sort of foldable type. If I have a list of numbers I can just add them to sort of
+34:57
+remove the list. Uh and now these these foldable types mathematicians have a
+35:03
+very different name for them monoids uh which are a more general kind of group.
+35:09
+But in any case like that's sort of the the semantics of lists. And uh before I
+35:16
+say something about syntax, let me say that our paper is really mostly exploring things from the semantic
+35:22
+angle. Why is this? Uh it's because two different syntaxes can describe the same
+35:29
+thing uh very easily. Uh you know we could uh have a an arithmetic theory
+35:36
+where we have addition and we also have negation or we could instead have
+35:42
+subtraction. And you can describe the same things in those two different languages, but the
+35:47
+languages really are different. They give you the same semantics, but the syntaxes are different. And so when
+35:54
+doing mathematical analysis, when proving theorems, it's often really beneficial to work uh from a semantic
+36:01
+point of view. But it's worth really emphasizing that if you want to compare this work to some other work that's done
+36:09
+on equivariance and so on, that work is often being done from a syntactic angle.
+Homomorphisms & Multi-Sorted Syntax
+36:15
+So let's pause to state the central claim of categorical deep learning. The proposal is basically that a neural
+36:21
+network layer should be viewed as a homorphism between two algebbras for the
+36:26
+same endofuncta. The endofuncta describes the kind of computation a
+36:31
+network needs to respect. Be it a group action, a list fold or an automaton
+36:37
+transition. And the algebbras describe how that computation transforms the
+36:42
+specific data. The homorphism is then a function that maps between these two data representations while preserving
+36:50
+the computational structure. When this homorphism is a group action, you recover geometric deep learning. But the
+36:57
+framework itself is far more general. So what is the syntax for example of of
+37:04
+the action of a group? It's really you kind of say well I I want to just think
+37:10
+I have like one kind of thing and then each group element takes that thing and
+37:17
+makes it sort of sends it back to itself. So I have sort of a single type and then each group action does
+37:23
+something to that type. So I might have some points in the plane and my group might be rotations and reflections that
+37:29
+move those points around, but I'm still in the plane. But it turns out that this
+37:35
+one sorted syntax isn't enough to uh to even capture uh basic type constructors
+37:43
+in in computer science. So for example, lists, you cannot deal with the syntax
+37:49
+of lists using just a single sort. you need a multi-orted syntax. So the the
+37:56
+way that you can do this is to say well think of we have sort of uh zero tupils,
+38:02
+one tupil, two tupils etc. And then given a k tupil I might be able to make
+38:09
+some other kind of tupil an l tupil by taking elements of my kupil and making
+38:15
+them into some lists ls right uh so that's that's a syntax in the same way
+38:22
+that group elements were a syntax and it's it does have compositionality if I
+38:28
+uh have a way of packing things in uh from a tupil into a bunch of lists then
+38:34
+I can pack those lists into other tupils of lists. Um but it's clear that this is
+38:41
+first of all many sorted and then also differs from the group case because all
+38:46
+of this is highly non-invertible, right? There's um uh you you can't sort of by
+38:53
+packing things more and more and more into lists eventually undo the lists, right? You just get more lists. But we
+38:59
+basically construct a model for the syntax. And in the case of groups, a model in sets means a set acted on by
+39:07
+the group. Uh while for example, a model in vector spaces would mean a vector representation of the group. Um whereas
+39:15
+in the case of the syntax for lists, you just get what I was calling before
+39:21
+foldable types or monoids. uh things that are able to perform these syntactic
+39:27
+operations in the expected way. Like there's just something uh where the
+The Carrying Problem & Hopf Fibrations
+39:33
+mathematical reasoning just works better if you expand your universe of objects a
+39:39
+little bit even if you only care about the original objects. So this is a lesson that mathematicians have learned
+39:45
+many times and it's sort of why a lot of people will prefer to work on the
+39:51
+semantic side u at least in the first instance. It turns out that there's something very
+39:56
+very basic in mathematics that we all learned in elementary school um that has
+40:02
+sort of been overlooked in the design of GNN's and that's the notion of a carry.
+40:08
+So what exactly is a carry? Well, suppose that I am able to implement a device, a a number wheel uh that can do
+40:18
+arithmetic modulo 10. So 0 through 9 on it. And now I want to build a kind of
+40:24
+composite wheel that can do arithmetic modulo 100. So what do I need to do? I
+40:30
+need sort of this little mechanism that when it when the wheel goes from 9 to zero, it turns the next wheel by one. uh
+40:38
+and this is very simple but it's extremely at odds with the way that GNN's have been conceived of in the past
+40:45
+because in the past you generally you send the whole state but there's no information
+40:52
+in the state the information is only in the change of the state but it's even worse than that even if
+40:58
+you sent the change in the state that's not enough information because if I went from 9 to zero is it because I added one
+41:03
+is it because I added 11 is it because I subtracted nine it turns out that It's quite uh it's quite subtle
+41:12
+to uh get this kind of thing to work in the presence of gradient descent. So it
+41:19
+somehow is a very fundamental aspect of how we assemble more complicated computational
+41:26
+operations from simpler ones. I mean one of the first things that you do if you're describing a CPU is you have to
+41:32
+describe an adder. This is already something that we're struggling to do in in GNN terms. It
+41:40
+turns out that this behavior is easy to get when you do discrete mathematics and
+41:46
+very complicated to get when you do continuous mathematics. Uh you can easily give this number wheel
+41:54
+example. Everybody understands it because they know how to do addition. But getting it to happen in a way such
+42:00
+that everything is continuous turns out to be really interesting. Uh the
+42:06
+simplest examples of this phenomenon uh don't occur until you're dealing with three-dimensional manifolds. So you
+42:13
+would need to be thinking about things in fourdimensional space. And the simplest example that we know of is the
+42:20
+so-called hop vibration. This is a situation where uh you can decompose a three-dimensional
+42:28
+sphere. So that's a sphere in four dimensions. Uh you can project it onto a two-dimensional sphere so that all of
+42:35
+the pre-im images are one-dimensional spheres or circles. And the threedimensional sphere is very
+42:41
+different from the product of the one and two dimensional spheres just the same way that Z mod 100 is very
+42:47
+different from the product of Z mod 10 with Z mod 10. uh and so this is something that I'm
+42:53
+personally very excited about right now coming out of this asynchrony work is uh are there ways to exploit this type of
+Categorical Deep Learning
+43:00
+geometric subtlety to create uh the phenomenon of carrying and actually
+43:06
+properly model this aspect of algorithmic reasoning and and start to
+43:11
+build actual CPUs in neural networks. So their claim is quite straightforward at
+43:16
+the end of the day. Deep learning has two languages constraints and implementation and we lack a single
+43:23
+framework that cleanly links them together. Categorical deep learning produces the bridge right using a
+43:30
+universal algebra in a two category of parametric maps. It recovers geometric deep learning as a special case while
+43:36
+naturally expressing things like recursion, weight tying and non-invertible computation. Now if you
+43:42
+want the formal story go and read their paper the link is in the description especially the sections on par weight
+43:49
+tying and recovering uh geometric deep learning. Um, cool. Thanks for watching.

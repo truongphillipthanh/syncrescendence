@@ -1,0 +1,612 @@
+https://www.youtube.com/watch?v=Hk_-zZ-gbtk
+My 2026 AI Predictions (We're Accelerating)
+3,053 views  Dec 22, 2025
+My 2026 AI Predictions (We're Accelerating)
+
+https://www.skool.com/community-found...
+
+Socials:
+Follow me on X: https://x.com/NeilMcDevitt_
+
+Subscribe!
+
+---
+
+0:00
+What is up everybody? Neil here. Welcome back to the channel. 2025 has been quite
+0:05
+the year. We started off this year with 01. Then we got 03 and then we got GPT5.
+0:15
+Um, and if we look at 01 and we look at where we are now, it's like two
+0:21
+completely different things. It's like what what the hell just happened? How did things change so fast with cloud
+0:28
+code with Opus 4.5 with uh codeex and GPT 5.2?
+0:36
+These things are very good. It's like holy things aren't slowing down.
+0:41
+There was no wall. What the hell is 2026 going to look like? And that's what I
+0:47
+want to talk about today. We're going to cover five different categories. Frontier model development. So like
+0:54
+basically model features, model capabilities, what are they gaining and stuff like that. Uh physical AI, so AI
+1:02
+for the physical world like robots and stuff, right? Impacts on
+1:07
+entrepreneurship, market dynamics, um the economy. Then we'll go into
+1:13
+impacts on jobs, so mainly focused on labor markets. And then we're going to talk about impacts on scientific
+1:20
+discovery. And that's probably the biggest one because if you look at it, every single thing in the economy, every
+1:28
+single thing in human nature is directly like attached to the rate at which we're
+1:33
+discovering new things in science. And with those new things in science, we can create new technologies, which creates
+1:39
+greater GDP growth, greater human abundance, and all of these different things like electrification,
+1:46
+uh, combustion engines, all of these different things, right? So
+1:51
+all of this is huge, but the scientific discovery is going to be starting next year and that's the insane parts. Let's
+1:58
+get into it. Okay, starting off with the frontier model development. So I think there's about four to five big things
+2:06
+that are going to happen next year. First, we're going to see people going from chat bots to operating systems. So
+2:13
+if you look at cloud code, cloud code is already the beginnings of this. And if you look at the cloud desktop app with
+2:21
+cloud code, in the desktop app, they effectively have a wrapper around the
+2:27
+CLI for your computer, your command line interface, your terminal. They have a wrapper within the cloud desktop app
+2:35
+around that thing. And this is making a more intuitive and native approach for
+2:42
+humans to talk to their computer to operate the entire computer.
+2:48
+So I think we're going to see power users leaving the web interface where the ability for the AI to manipulate the
+2:55
+entire computer is very minimal and then go to the desktop app where it integrates with the operating system,
+3:01
+the command line interface directly. And at this point, you effectively have the AI coming closer and closer to the
+3:07
+operating system. And at this point, you can have the AI pretty much control your
+3:13
+entire computer. It is a much better engineer than most people. Um, it'll be
+3:19
+an highly effective software engineer in your back pocket that can operate the entire problem space of the computer. It
+3:25
+can even pull up the web whenever it wants to and then operate within the web as well. and effectively the new way of
+3:31
+operating with a computer will be talking to it, not using it. We're already starting to see the first signs
+3:36
+of this with cloud code in the codec cli. These two things are changing the world as we speak, but the future is
+3:44
+already here. It's just not evenly distributed. So, that's number one, from chat bots to operating systems. And as
+3:51
+these models become more general, um this is going to be a huge thing that I
+3:57
+don't think people really understand. the AGI will be in the CLI is the way
+4:03
+you should think about it. So that's number one. Number two is better memory.
+4:09
+We're already starting to see this with GPT 5.2. If you've gone deep with GPT5.2
+4:14
+too and you're using it to actually solve problems and you're using it to reason about things and uh actually like
+4:20
+make progress in certain areas. The ability for this thing to retrieve
+4:26
+information from conversations that you've had months ago or years or like a year ago and pull that into the
+4:33
+conversation at the right time whenever when it's actually useful and it uses that to recombine information and come
+4:39
+up with some cool insights. This is like a look into 2026 with GPT
+4:45
+5.2 and we already have it in 2025 which is insane. Um so the beginning towards the middle
+4:53
+of 2026 I think we're going to see models that are much better at doing this. Uh Sam Alman said they're
+4:58
+releasing another model that's going to be a substantial leap above GPT 5.2 the
+5:04
+first quarter of 2026. Gro 5 is also coming the first quarter of 2026.
+5:09
+There's going to be a lot of things happening in the first quarter of 2026, right? And um I think better memory is
+5:16
+going to be one of them. And it's going to be, like I said, able to feel like it
+5:21
+almost has a magical infinite context window whenever it comes to retrieving
+5:27
+memories and intuitively recombining them with insights that you're having in the moment of the conversation. And then
+5:33
+one of the things I'm personally excited for is shared memory from that chat experience across the CLI. So your CLI
+5:43
+will also have access to the same memory as your web interface, right? And you
+5:49
+can use chatpt the same way you would use it in the web interface now in the CLI which comes back again to what we
+5:57
+were talking about with the cloud desktop app that has like that wrapper around the CLI. That's effectively what
+6:04
+they're building, right? And I think we're going to see OpenAI do this, Gemini do this, all the frontier model companies are going to start to focus
+6:10
+around the CLI but make it a much more intuitive interface. And I think that's going to be like the the computer AGI,
+6:17
+like the Star Trek computer, if you will, where you talk to the computer and it just does things far better than any
+6:23
+human could do it on the computer. That's coming. It's starting already. It's going to be here by the end of next
+6:28
+year. It'll be pretty much practically fully here. Um, so that's number two is
+6:34
+the better memory and uh unified memory across web and the CLI,
+6:39
+which is going to be absolutely insane. I don't I don't think people really understand the the implications of that
+6:46
+one. Um, number three is multimodal reasoning, better multimodal reasoning.
+6:52
+We currently have some multimodal reasoning, but I think it's going to be approaching near humanlike levels,
+6:58
+whether it's understanding web interfaces, understanding uh user
+7:03
+experience, user interfaces, and actually how to design these things. Um, if you're using cursor or you're using
+7:08
+the coding agents, you probably take a lot of screenshots of your user interface and say, "Hey, can we fix
+7:14
+these things a little bit?" And you put it in there and explain. And sometimes the models really understand what you're
+7:19
+trying to talk about. Sometimes they don't, but they don't really have like a good grasp on what is a good user
+7:25
+interface, what is a good user experience, what is the best for these types of things. And some people have
+7:31
+beliefs that they'll never get good at that. I think that's objectively wrong. Anything that we can verify, we can
+7:36
+train these things on and it will be automated. So we can easily say, oh that user experience is good, that user
+7:43
+experience is bad. Meaning it's a verifiable task, which means these things are going to get better than all
+7:49
+of us at doing those types of things. And I think we're going to start to see towards the middle to end of 2026 the
+7:57
+models surpassing humans at a lot of those different things or surpassing the majority of humans. I'll say that. Um,
+8:05
+so the multimodal reasoning will be across video, spatial awareness, uh,
+8:11
+understanding what they're looking at on user interfaces and understanding user experience better, actual design and
+8:16
+stuff like this. I think they're going to get a whole lot better at those types of reasoning capabilities and they're
+8:22
+going to just like intuitively understand things around those around those things. And
+8:28
+many people will say, "No, that's something that only humans will have." Um no because if you can verify the
+8:33
+output you can train these models to do it. That's all that matters. Anything that is verifiable is automatable to the
+8:39
+extent that uh let's say uh we're trying to get worldclass poetry out of one of
+8:45
+these models. Right now they're not good at world worldclass poetry. But the thing is you can get really good poets
+8:51
+to just uh say oh that's a really good poem and they keep verifying those poems and the reinforcement learning is
+8:58
+learning how to do fantastic poems. So yeah, we're going to get worldclass UX UI out of these things. World class
+9:04
+poems, worldclass creativity, and it's going to be like uh Picasso
+9:09
+eventually, but we're we're still a little bit aways from that. But I think we're going to start to see that happening a lot more in 2026, and people
+9:16
+are going to be like, well, well, man. Um, next is continuous learning. I think
+9:22
+Q1 we're going to see early primitives of continuous learning. And towards the end of 2026, we'll see continuous
+9:29
+learning satisfy most people's definitions of what is required for AGI.
+9:35
+Um Q1 Gro 5, the first model trained on the Blackwell GPUs will be dropping. And
+9:41
+Elon said it's going to have a form of continuous learning. Uh this will probably look something more like it's
+9:46
+adapting to the behavior that the human wants and it's not really learning like really big skills or anything, but it's
+9:52
+like fitting the behavior that the human wants it to have. And then eventually towards the end of 2026, these things
+9:57
+will start to gain their own skills as they're learning on on while doing the job. Um,
+10:03
+now I don't think it'll be like amazingly amazing at gaining these new
+10:08
+skills by the end of 2026. Um, towards the end of 2027, I think it will be
+10:13
+pretty good. It'll be like, "Holy these things are learning quick on the fly." Um, but yeah, I think we'll see
+10:20
+the signs of continuous learning in 2026 and it's going to be pretty good. It'll be like, "Wow, that was kind of
+10:25
+surprising. I didn't think we would be here already." Kind of like if we look at 2025, we went from the 01 model to
+10:31
+where we are today. It's like, "Holy I didn't think we would be here already." At least it's it's like that for me. Um, I think we're going to see
+10:38
+something very similar. Next, diffusion uh reasoning models. So we hear a lot
+10:45
+about large language models doing reasoning and the reasoning paradigm system two thinking whatever you want to
+10:51
+call it. I think we're going to see more diffusion models doing reasoning. So if you look at Tesla FSD is it is a
+10:58
+diffusionbased model Tesla FSD full self-driving diffusion based model. Elon
+11:04
+was talking about update version 14.3 for the Tesla and he said the diffusion
+11:10
+model is going to be doing a lot more reasoning about the environment. Right now it's really good at self-driving. It's really good at doing some types of
+11:17
+reasoning, but they're going to be doing so much more reasoning to the extent that it's going to like enter a parking
+11:23
+lot, reason about the parking lot and how people are parked. Understand like, okay, I should probably park here or
+11:28
+park there. Uh, the parking lot's actually a little too full. I'm just going to drop the person off at the door, go find the parking spot, and then
+11:34
+whenever they come out, they can click summon and I go pick them up, right? Um, that's what Elon said, uh, version 14 is
+11:41
+going to be able to do. The reasoning of the diffusion models is getting a lot better. If you if we look at Nano Banana
+11:46
+Pro, it's also a hint at reasoning and diffusion models. Uh, Nano Banana Pro
+11:52
+has fantastic spatial reasoning. It's a lot more intuitive and it understands what you're trying to do a lot better.
+11:58
+that's leaning towards the AGI for image generation, right? So, I think Nano
+12:04
+Banana Pro will uh these things are going to start to like be good at engineering as we really crack the
+12:11
+reasoning. Once as we really crack the reasoning and these things can have like better mathematical model reasoning
+12:17
+types of things within them. I don't even know exactly how it would work but um these things are going to be able to
+12:24
+create like engineering level structures where things are actually dimensionally correct in these sorts of things. Um and
+12:30
+I think that's going to have massive implications and it's going to start in 2026 and not many people are ready for
+12:36
+it. It's going to be awesome in my opinion. Cool. Next is physical AI.
+12:42
+So, this is getting into like robotics and world models and things of this nature. So, we kind of touched on that a
+12:49
+little bit with like diffusion uh reasoning models. That's a little bit of like world models and stuff like this,
+12:55
+but um I think they're going to like robots are going to be really good
+13:00
+pretty soon. People are going to be a little surprised. If you look at the Tesla FSD, it's already really good.
+13:06
+It's already very surprising. It's already like holy But uh this is going to start to happen for like
+13:12
+general purpose humanoids as well. I do think we still have some time before
+13:17
+humanoids are capable enough to be in a house just because you're going to need
+13:23
+engineers to watch over these things. And the only reason is because of the hardware, not the software. The software
+13:29
+is going to be there pretty soon, but the hardware is still brittle. Um if you look at the hands, it's very hard to
+13:35
+make them dextrous. And if you are a cracked team of engineers like the engineers at Tesla that have like the
+13:41
+crazy Optimus hand, that's insanely amazing engineering, but the hand still
+13:46
+burns out, right? You have to have an engineer following these things around,
+13:51
+switching out the hands whenever they burn out. Um, so I think these things will be fantastic in like warehousing
+13:57
+and manufacturing and uh very structured uh environments,
+14:03
+but they're not going to be really good at like uh being in the home yet. I
+14:09
+think it'll happen probably around 2027 to 28 28 we'll see them enter the homes
+14:14
+and stuff, but 2026 is going to be more so like pilots and manufacturing and
+14:19
+stuff like this. But I what I will say is within the uh product demos and stuff
+14:25
+in 2026, we're going to be like, "Holy shit." Like, "Holy damn, those are crazy. This
+14:32
+is like uh yeah, this is getting to like the iRoot stuff pretty soon." That's I
+14:38
+think that's where we're approaching very very quickly here. Um, one of the things I am excited for though are
+14:44
+robotic arms. Not humanoids, but robotic arms because they're going to be much more precise. going to be much more
+14:50
+generally capable. There's a company called Microactory that I recommend looking into where there's like this
+14:56
+small robotic environment where there's two robotic arms and they can generalize about different things and build
+15:02
+devices. That's something that's already starting to happen. Uh 2026 we're going to see exponential growth in those types
+15:08
+of categories. And um yeah, the alien dreadnot factory is basically here. It's
+15:15
+been here for a while in China, but um we're going to be accelerating them quite a bit. So,
+15:23
+what are the implications on all of this or from all of this on entrepreneurship?
+15:30
+So, this one really hits home for me because this is what I've been my entire life, right? Um, this is why I started
+15:36
+making this YouTube channel originally is I wanted to learn about AI because I knew it was going to be like the most
+15:42
+revolutionary technology of our time and I want to capitalize on it as an
+15:47
+entrepreneur at the best way I can. So, this really hits home for me and this is one that I've been thinking about like
+15:54
+for years. So, yeah, let's get into it. Entrepreneurship is obviously becoming
+16:01
+more of operational leverage rather than team building. I think that one's pretty obvious. If you look at the guy on the
+16:07
+image here, he's basically talking to this team of AI agents where he has this
+16:12
+intuitive user interface where he's just kind of like talking to a digital person. And then those digital people
+16:18
+can handle massive complexity on the other side of that. Massive complexity
+16:23
+on the back end. And then your user interface is very simple. It's natural language. It's very human. That's huge,
+16:29
+right? The thing I don't think people really realize is
+16:36
+what this really does to the economy because as we mentioned previously, if we look back at what's currently
+16:42
+happening with frontier models, we're going from chat bots to operating systems, right? we're we're getting
+16:49
+better memory, multimodal reasoning, almost like humanlike understanding of UIUX, these sorts of things, continuous
+16:56
+learning, and uh we're going to start to get diffusion model reasoning, these sorts of things. So, as these models be
+17:03
+gain these skills, they become more general. Um software engineering is also something that's going to be pretty
+17:08
+solved pretty soon. I don't know if you noticed, Opus 4.5 is quite good, but
+17:14
+it's still primitive compared to what we're going to be getting in 2026, right? It's quite bad compared to what
+17:20
+we're going to be getting in 2026. And I would bet all my marbles on that. Um I
+17:25
+think uh towards the second quarter to third quarter of 2026, we're going to
+17:31
+effectively have like automated software companies that usually would take like 20 to 30 people to run. Um, and I I I
+17:40
+think that's like objectively obvious at this point because with these tools, just building the software, you can
+17:46
+build it as fast as about three to five people already. And then there's going to be tools such as Arvar from OpenAI.
+17:52
+If you haven't seen Arvar, it's an autonomous agent that is always looking
+17:57
+for bugs and stuff like this and maintaining the codebase. So with the ability to push out software
+18:05
+at the rate of like three to five people and it's going to be more soon. It'll probably be like 5 to 10 by the time we get to Q2 2026. And then you have like
+18:13
+three Arvarks looking around your codebase making sure it's maintained properly.
+18:18
+That's like a 20 person or maybe not 20 10 to 20 people team, right? You have a good team at that point. You you don't
+18:26
+really need an actual team to build a startup anymore. Um, so that's where we're at genuinely. We're like at the
+18:32
+beginning of this today. So what does this actually do? Because if
+18:38
+you think about it, what we are effectively getting as these tools become this capable is services. It's
+18:44
+not that you pay humans for services anymore. The service is native. The service is in your pocket. Instead of
+18:50
+paying $5,000 per month to an agency, you have $20 per month in your pocket.
+18:56
+That's massive. That's insane implications. So what this does is it actually eats the entire
+19:03
+services economy online. A lot of different agencies, a lot of service based businesses, a lot of consultants
+19:09
+are going to turn into AI rappers basically. Um, not like the thin layered
+19:16
+AI wrapper. There's like the AI wrapper that's like it's literally chatbt with a super thin wrapper of the UI and that's
+19:23
+it. Those are stupid. What I mean by AI wrapper is, and it's probably not even
+19:28
+AI wrapper is probably the wrong term. Um, what I mean by an like an autonomous productized service is you have the
+19:37
+chatbot, the LLM in there, but you're eating massive amounts of complexity on the back end. So, you probably have like
+19:43
+different vector databases, you have different uh distribution and automation across different things. Um maybe you
+19:50
+have some uh there you can you can imagine what I'm kind of talking about like a vert
+19:55
+vertical uh uh vertical software solving a specific vertical problem that eats a
+20:01
+lot of complexity and has a very minimal user interface increasing the discrepancy between user
+20:07
+inputs and the outputs they receive. That's happening right now. We can already technically build those things
+20:13
+with the capability of the current models. The models are quite good. They're insanely capable already.
+20:19
+um we can already start to build those types of things, but those things are going to exponentially happen next year
+20:24
+to rates that I don't think people really understand. Agency businesses will be software applications that you
+20:30
+pay 20 bucks per month for instead of 5,000 um instead of 5,000 bucks per month, right? Um and that's going to
+20:36
+happen across the entire online service industry. What do you know? Um
+20:43
+so yeah, this is something again I don't think many people are really thinking about. Um, so the question you need to
+20:49
+ask yourself if you're selling a service to somebody or selling anything at all to anybody is why does this customer
+20:55
+that I'm selling to even need to exist in the first place? If their business model is obsolete and I'm selling them
+21:00
+things, if I'm selling them B2B SAS, whatever I'm selling them, if their business model is obsolete, that means I
+21:07
+have no more customers, right? So there there's like so many different implications that you can go down along
+21:12
+the uh second and third order consequences, the chain of the chain of uh the chain of actions and see like
+21:19
+okay this is going to this is going to change everything very fast. Um also as
+21:26
+we mentioned prices deflates and really at the end the AI augmented generalist
+21:31
+wins. People who understand how to think and how to learn and people who can digest con uh digest concept uh topics
+21:40
+and tear them down to the irreducible principles and reason from there. These are the people who win in the future. As
+21:47
+long as you are somebody who can learn how to learn, learn how to think and look at any problem space, any topic,
+21:54
+any anything and tear it bound tear it down to the constituent parts and then reason from there, you're golden because
+22:01
+now you're a generalist that can apply AI to fill the gaps. You're a generalist that applies the specialist technology
+22:07
+to fill the gaps just like this guy in the image, right?
+22:12
+That's where we're going. Cool. Impacts on jobs. Um,
+22:19
+this one's interesting because like basic software development, like if you're an entrylevel software engineer
+22:26
+or programmer, whatever you want to call it, um, these are going to start to be
+22:31
+impacted pretty hard. Same thing for like legal research or financial analysis or customer support. I don't
+22:38
+think these things are going to be hired hiring very soon. However, on the flip side of that, I think there is going to
+22:44
+be massive new opportunity that way out the the opportunity will be so big that
+22:52
+um it might take time for people to like adjust and realize what that opportunity is, but it'll be so big that the
+22:58
+opportunity will be like 10 times bigger than all of these things combined, right?
+23:03
+And that's the thing about this technology is everybody thinks it's a replacing technology and it does replace
+23:09
+people who fail to adapt but as long as you accelerate with the technology and you are adapting and you're learning
+23:14
+it's an enabling technology. It's not a replacing technology fundamentally. Um
+23:20
+and I think that's what a lot of people get mixed up is people think we're going to this like solved world like a post
+23:26
+scarcity utopia which I do think the future will kind of be post scarce relatively to it is today.
+23:32
+Um, if you look at uh today versus 300 years ago, we already live in post
+23:38
+scarcity. Uh, if you extrapolate it out a decade from now, I think we're going to see almost 300 years worth of change
+23:44
+within the next decade or two. Yeah. Like anything that you can imagine that
+23:50
+uh like most of your needs will be met. Pretty much all of your all of your needs, let's put it that way, all of
+23:56
+your needs will be met. Everything else is a vanity metric from that point. So AI will uh AI will be not replacing
+24:05
+jobs. It's just like raising the bar for entry. And I've mentioned this before in past videos. I I I think replacing is
+24:13
+not the right term. I think it's just raising the bar for entry. And it's changing it fundamentally. And I think
+24:19
+jobs, it depends on your definition here. Jobs will go away. Work will not.
+24:25
+And jobs maybe you maybe we'll call them jobs in the future. Maybe we won't. I don't really know. But meaning work,
+24:32
+labor, these types of things aren't going away. The title job might be going
+24:38
+away, but even then, we might look at the future things and look at them today as they're not jobs, but maybe by the time we get there, we're still calling
+24:44
+them jobs for some reason. So, that's that's my nuance to take here. Um, but I
+24:49
+will say 2026, I think we're going to see the beginnings of uh AI really
+24:55
+starting to change the labor markets. Um, now this is the big one, right? This
+25:01
+is the really big one. Biology acceleration, self-driving labs and
+25:07
+simul simulation over trial and error. Biology acceleration, self drive,
+25:13
+self-driving lab, simulation over trial and error. Huge. So, let's break this down. If we look at biology right now,
+25:21
+we have things like protein folding models like alpha fold and then we have uh these large language models like GPT
+25:27
+5.2. GPD 5.2 is the best scientific model on Earth right now. It's not even close.
+25:34
+Um, people like David Sinclair are doing research in biology and they're using
+25:40
+protein folding models and then they're putting it within models like GPT 5.2 and they can use this as like a unified
+25:46
+model to reason across large amounts of data that they can't reason across as a human as quickly as these models can.
+25:53
+and um they're using them to do recombunatory innovation to find novel things. This is happening today.
+25:59
+And if you think about it, all of innovation is just recombining insights from other insights that have had that
+26:05
+have happened before. So, and then then and then that gives you new insights, right? Recombinatory innovation. These
+26:11
+models are already doing this. That's what a lot of people don't understand is these models are already
+26:16
+doing this. This is already happening. Recombinatory innovation is already here. Um, it's going to continue to do this at
+26:23
+accelerating paces. So, um, yeah, I'll just say this. Biology
+26:31
+acceleration will keep accelerating. It's already accelerating a lot. The compounding continues, right? Um, next
+26:38
+is selfdriving labs. In biology, in material science, AI will drive robotic
+26:46
+wet labs and the AI will formulate a hypothesis, instruct instruct a robot to
+26:51
+mix the chemicals, observe the uh results and learn from the failure and design the next experiment 247 without
+26:58
+sleep. And obviously there will be like human oversight. Um whenever the the human is
+27:05
+awake, they'll look at it, right? And then the robots will go while the human is sleeping. And then the human wakes up and then they look at it and they make
+27:12
+sure they're like steering it in the right direction and that's it. Um,
+27:17
+obviously that's going to accelerate science. Next is simulation over trial and error.
+27:23
+Um, I think this one's pretty amazing. I I'm not sure if that'll happen next year, but I expect it to happen within
+27:29
+the next handful of years. So imagine simulations with like physics
+27:35
+grade accuracy and you're doing like simulated biology within these things.
+27:41
+Again this might not happen next year but I expect it to happen within the ne the next handful of years. This is when
+27:47
+we get to like the ray cur as well longevity escape velocity type of talk because whenever you have the acceler
+27:54
+accelerated biology we just talked about the top of doing like protein folding and then having these super intelligent
+28:01
+basically unified models to reason about those things and then we have self-driving labs to do these
+28:06
+experiments and then we have um simulation over trial and error where we can simulate instead of actually like
+28:15
+trying to go through the current process of uh doing um R&D and all that stuff.
+28:23
+This is this is like very like insane. The what I kind of think about is like
+28:30
+we're all going to have our own DNA sequences like very soon every single
+28:35
+human in a first world country and then very soon all the other countries as well. We're all gonna have our own
+28:42
+genome sequenced and we're gonna have like GPT6 or GPT7 to reason about
+28:48
+everything that's happening within the data that we're collecting all the time within our specific bodies. And um we'll
+28:54
+basically be able to have like a pipeline of information that we can reason about and understand very simply
+29:00
+because the the AI systems are digesting it for us and we'll know what's going on inside of us. And then maybe one day
+29:07
+we'll have like bespoke medicines not too far after that where these self-driving labs, these self-driving
+29:13
+whatevers, these simulation biology machines, you get the point, are basically coming up with medicines for
+29:21
+our specific needs, um, gene therapies for our specific needs, all of these different things. And
+29:28
+you have like designer drugs, designer medication, designer whatever. That's
+29:34
+not far if you really think about it. And yeah, this is kind of where we get and get back to like the Ray Kurszswwell
+29:41
+longevity escape velocity type of thought process. And then once it gets really good, once
+29:48
+we can really do this, um, who says you can't like upgrade yourself, become
+29:53
+something more, right? That's going to be happening pretty soon. So, let's let's wrap this all up into one solid
+30:01
+conclusion. My meta prediction for 2026 is it's going to feel simultaneously
+30:08
+like AI is everywhere and simultaneously like AI is overhyped depending on what
+30:14
+you're measuring right and um I think the hype the hype cycle will dip the hype cycle will do its thing whatever
+30:21
+but the underlying capability curves are just going to keep climbing and that's kind of what we've been watching a lot
+30:27
+of people are talking about the AI bubble a lot of people are like oh this is overhyped and I'm just like holy Look at this progress. So the people who
+30:34
+stay building through out uh the next trough or whatever,
+30:40
+those people are going to own the next decade. And it's as simple as that. The people who are focused on the hype are
+30:45
+going to do their thing. They're going to just pair it with the information they hear on the internet. But the people who are actually down on the
+30:52
+ground working with these tools, actually building with the technology and really witnessing and observing the
+30:58
+things that are actually happening and you're accelerating with the technology and adapting with it very well. These
+31:04
+are the people that own the next decade while everybody else is focused on the hype. That being said, I'm going to wrap up the video here. I will see you in the
+31:10
+next

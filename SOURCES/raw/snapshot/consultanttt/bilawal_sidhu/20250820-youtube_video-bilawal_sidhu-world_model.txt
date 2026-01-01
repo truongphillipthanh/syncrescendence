@@ -1,0 +1,1200 @@
+https://www.youtube.com/watch?v=VslvofY16I0
+Why Is Nobody Talking About AI World Models?
+
+47,983 views  Aug 20, 2025  #aivideo #Genie3 #aitools
+AI isn’t just generating videos anymore — it’s generating entire worlds. 🌍
+In this deep dive, I’ll break down the rise of AI World Models: Google’s Genie 3, NVIDIA’s Cosmos, and OpenAI’s Sora — and why they’re the closest thing yet to a real-life Holodeck.  
+
+As an Ex-Googler who spent years building real-world models, I’ll show you how these systems work, where they’re headed, and why this race will reshape robotics, virtual reality, and the future of content itself. IMO this tech is bigger than LLMs and a key part of AGI people miss completely. 
+
+Covered in this video:  
+• Google Genie 3: Interactive video generation and single-image 3D reconstruction.
+• NVIDIA Cosmos & Omniverse: The hybrid approach to building digital twins for Embodied AI using game engine and 3d simulation technology.
+• The World Model Wars: How Google, OpenAI (Sora), Runway, and NVIDIA are competing.
+• Synthetic Data Revolution: A look at startups like Parallel Domain, Bifrost, and Sky Engine AI.
+• The Rendering Stack of Reality: The grand challenge of creating simulations that scale from a single object to an entire city.
+
+Chapters:
+00:00 Introduction
+00:39 1. Dream Worlds at 24 FPS
+01:46 2. Painting the Third Dimension
+03:03 3. The World Model Wars
+05:27 4. Robot Jungle Gyms
+08:23 5. Synthetic Data Revolution
+11:06 6. Cities That Think
+14:07 7. The Holodeck Approaches
+17:49 8. The Rendering Stack of Reality
+
+#WorldModels #Genie3 #NVIDIAComos
+
+Subscribe for more in-depth AI & creative tech videos! 👉 ‪@bilawalsidhu‬ 
+
+Join My Newsletter: https://spatialintelligence.ai
+Connect with me on X/Twitter here: https://x.com/bilawalsidhu
+Everywhere else here: https://bilawal.ai
+Business inquiries: team@metaversity.us 
+
+Bio: 
+Bilawal Sidhu is a creator, engineer, and product builder obsessed with blending reality and imagination using art and science. Bilawal is the technology curator for TED Talks, and a venture scout for Andreessen Horowitz. With more than a decade of experience in the tech industry, he spent six years as a product manager at Google, where he worked on spatial computing and 3D maps. His work has been featured in major publications including Bloomberg, Forbes, BBC, CNBC, and Fortune, among others. Bilawal’s journey into computer graphics began at 11, when he fell in love with seamlessly blending 3D into real life footage. Since then, he's captivated over 1.5M subscribers, garnering more than 500M+ views across his platforms. Driven by a mission to empower the next generation of artists and entrepreneurs, Bilawal openly shares AI-assisted workflows and industry insights on social media. When he’s not working, you can find Bilawal expanding his collection of electric guitars.
+
+TED: https://www.ted.com/speakers/bilawal_...
+
+#aitools #googlegenie3 #aivideo #googledeepmind
+
+---
+
+Introduction
+0:00
+With Genie 3, Google didn't just launch
+0:02
+a prototype. It planted the seeds of
+0:04
+entirely new realities nested within our
+0:07
+own. A place where worlds generate
+0:09
+themselves, machines learn inside them,
+0:13
+and the lines between simulation and
+0:15
+reality start to blur. Now, I spent
+0:17
+years working on real world models at
+0:20
+Google. So, I'm going to give you an
+0:21
+insider perspective on what tech like
+0:24
+Genie 3 and Cosmos means for the AI and
+0:27
+spatial computing industry. Combine this
+0:29
+with enterprisegrade simulation
+0:31
+technology that's been evolving for
+0:33
+years. Generative world models have real
+0:36
+implications for 3D today. So let's get
+0:38
+into it.
+1. Dream Worlds at 24 FPS
+0:41
+All right. So quick primer on Genie.
+0:43
+Essentially there's a model where you
+0:44
+provide a text prompt, a starting image,
+0:47
+or even a video like Rui did over here.
+0:50
+and you can suddenly take control just
+0:52
+like you would in a video game and start
+0:55
+playing this experience with the model
+0:57
+generating the world you should be
+0:59
+seeing in real time at 24 frames per
+1:02
+second. The results are fantastic.
+1:04
+There's also open source variants of
+1:05
+this tech such as the very appropriately
+1:08
+named Matrix Game 2.0 uh which is
+1:11
+basically trained on a bunch of video
+1:12
+game and GTA footage. But what makes
+1:14
+Genie different is of course that this
+1:16
+is trained on the entirety of YouTube,
+1:18
+right? This is the motherload of visual
+1:20
+data sets. It almost makes it feel like
+1:24
+playing a dream, right? Like this
+1:26
+controlled hallucination of reality and
+1:28
+it makes you wonder the nature of our
+1:30
+own existence. But not to go too deep
+1:32
+down the rabbit hole, take a look at
+1:34
+this example of Google researchers
+1:36
+playing with Genie 3 in a conference
+1:38
+room where suddenly that video is put
+1:40
+inside a Genie 3 world and now you have
+1:43
+a simulation within a simulation.
+2. Painting the Third Dimension
+1:46
+[Music]
+1:47
+Now, a really cool byproduct of this
+1:49
+model that's seen the visual complexity
+1:51
+of the world and can generate worlds on
+1:53
+demand is that it can basically do
+1:55
+oneshot or single image 3D
+1:58
+reconstruction. You can take this old
+2:00
+famous painting of Socrates and turn it
+2:03
+into this explorable 3D world. And just
+2:06
+consider for a second that all of this
+2:08
+consistency is an emergent property of
+2:11
+the model just getting bigger rather
+2:13
+than the developers giving it some
+2:15
+explicit underlying representation like
+2:17
+a textured 3D mesh or a neural radiance
+2:20
+field. To put this to the test, I
+2:22
+basically took that Genie 3 world in
+2:24
+painted out the UI did an upscale in
+2:26
+Topaz and trained a Gaussian splat and a
+2:29
+texture 3D mesh. And suddenly you can
+2:31
+step inside this painting of Socrates
+2:34
+from 1787.
+2:36
+This is genuinely better than any image
+2:39
+to 3D model I've seen. Here's the
+2:40
+texture 3D mesh version which is also
+2:42
+really really good. You can drop this
+2:44
+into any app that you love. Blender,
+2:46
+Unreal Engine, the list goes on. And if
+2:48
+you're curious, I've left links to both
+2:50
+of these models on my Twitter post so
+2:52
+you can check it out over there. I'll
+2:54
+also leave it in the description below.
+2:56
+I tried this same result with the famous
+2:58
+Nighthawks painting and the results are
+3:01
+equally stellar,
+3. The World Model Wars
+3:04
+but Google is far from the only one.
+3:06
+Nvidia's got Cosmos. That's their
+3:08
+version of a world foundation model,
+3:10
+really focused on physical AI, which
+3:12
+we'll explore in a second. Uh Runway has
+3:14
+been talking about general world models
+3:16
+since late 2023. And the idea at least
+3:19
+goes back to 2017. So, Crystalall says
+3:22
+like, "If you want to understand why
+3:23
+suddenly everyone's investing in video
+3:24
+generation world models, re-watch this
+3:26
+video from 2023." This is of course on
+3:29
+the heels of the G3 launch. So, of
+3:32
+course, the Genie 3 co-author dropped uh
+3:35
+oh, and our ICML paper from 2021 on
+3:39
+augmented world models. And of course,
+3:41
+Crystal Ball clapback saying it's like,
+3:43
+oh, and this 2018 paper world models by
+3:46
+Schmidt Huber. Schmid Hub, one of the
+3:48
+godfathers of AI and a a rather
+3:50
+controversial figure if you want to look
+3:51
+into him. And of course, Elon, not one
+3:53
+to be left out of the fun, says we will
+3:56
+have real time in 2 months. So, I guess
+3:59
+Grock's going to have real time video
+4:01
+generation in a short while, too. Now,
+4:03
+if we even go back to the launch of
+4:05
+Sora, they also talked about video
+4:07
+generation as world simulators. sort of
+4:09
+this idea that if you want to create an
+4:11
+AI that understands the physical world,
+4:15
+a good way to test its understanding of
+4:17
+the physical world is to have it
+4:20
+generate the real world and have those
+4:22
+be plausible and ideally factual
+4:25
+reconstructions or renditions of uh what
+4:28
+you would expect in reality. And really,
+4:30
+if you take a step back, all of these
+4:32
+companies are essentially trying to
+4:33
+recreate the hollow deck from Star Trek,
+4:35
+right? like sort of this idea of being
+4:38
+able to generate worlds and experiences
+4:40
+on demand that you can step inside and
+4:43
+interact with just like you would with a
+4:45
+video game except this video game is
+4:48
+indistinguishable from reality. Now
+4:50
+look, there are different ways of going
+4:51
+about creating these world models,
+4:53
+right? With Genie 3, Google is basically
+4:55
+taking all of YouTube and training this
+4:58
+model on it and suddenly it can predict
+5:00
+what the next frame should be given a
+5:02
+set of input events. That's kind of all
+5:04
+it needs to do. And it turns out the
+5:06
+bitter lesson is bittersweet for a
+5:08
+reason because as you keep scaling up
+5:10
+the data sets and the compute that you
+5:12
+throw at it, it turns out you just get
+5:14
+consistency as an emergent property. And
+5:16
+it may well be that you keep scaling up
+5:18
+this type of an approach and suddenly
+5:20
+you would have something that would be
+5:22
+like an Unreal Engine 6 with all of the
+5:24
+physics that you've come to expect from
+5:26
+it.
+4. Robot Jungle Gyms
+5:28
+Now Nvidia and other players in the
+5:30
+space are taking more of a hybrid
+5:32
+approach. This is how they're thinking
+5:34
+about this problem of creating a
+5:36
+simulated digital twin of reality. This
+5:39
+implies this is a twin of something that
+5:41
+exists in the physical world. So, we
+5:43
+have a factual rendition of it. What do
+5:44
+we mean when we're talking about robot
+5:46
+simulations? And why do these world
+5:48
+models need to play into it? Well, think
+5:50
+about a self-driving car, for example.
+5:52
+It's got some sensors, maybe has LAR,
+5:54
+some RGB cameras. It can perceive the
+5:56
+world, and that that produces these
+5:58
+sensor tokens. And maybe you have some
+6:00
+directions you're giving your car. car
+6:02
+is like, "Yo, take me home and take the
+6:03
+highway." That produces these text
+6:05
+tokens that goes into this policy model
+6:07
+that basically produces action tokens,
+6:09
+meaning like steering commands or maybe
+6:11
+way points on the road in 3D space that
+6:14
+it needs to take next to and essentially
+6:16
+get you home. Um, so what happens is you
+6:19
+want in a robotic simulation for the
+6:21
+system to be able to take that action
+6:23
+token, right, and then predict the next
+6:26
+world state. That's where the simulation
+6:28
+is so important because that prediction
+6:30
+needs to be as close to the real world
+6:32
+as possible. Like the margin of error is
+6:34
+non-existent. Otherwise, you're going to
+6:36
+have a dangerous robot in the real
+6:37
+world. And we don't want that, right?
+6:39
+Nvidia is taking a hybrid approach where
+6:41
+they're taking the best of classical 3D
+6:43
+approaches and blending them with
+6:45
+generative AI. Let me explain what that
+6:47
+means. So, for example, you may have
+6:49
+this amazing radiance field of a
+6:51
+racetrack, right? Like that's super
+6:52
+cool. This is very close to what the
+6:55
+actual camera saw, but you do need the
+6:57
+mesh reconstruction, right? So your
+6:59
+physics engine knows how exactly to
+7:01
+react and respond to the surfaces that
+7:03
+exist in the world. So then when you
+7:05
+take all of those pieces together of a
+7:06
+classical approach, of a generative
+7:09
+approach, you get something like this
+7:10
+where you can basically reproduce the
+7:12
+input and create infinite variations.
+7:16
+So, for example, if you want to create a
+7:18
+scenario where an animal walks in front
+7:20
+of a car, boom, you've got a really good
+7:22
+clip and now you augment it with
+7:23
+different types of animals. Maybe you're
+7:25
+walking through San Francisco and you
+7:27
+want to see it up in flames, which I
+7:28
+guess happens on the regular these days.
+7:30
+So, I don't know, maybe you'd be able to
+7:32
+capture that in real life. But you can
+7:34
+create all sorts of other variations,
+7:36
+seasonality, weather conditions, the
+7:39
+list goes on. And this gets powerful,
+7:40
+right? because suddenly you can start
+7:42
+using these world models as sort of like
+7:43
+a jungle gym for robots, a generative
+7:45
+training facility. So if you've got, you
+7:47
+know, if you have a robot that's
+7:49
+collected data in one environment,
+7:51
+suddenly you can have that one skill
+7:53
+replicated across all sorts of new
+7:55
+environments, you could also perhaps
+7:57
+have it do many skills in the same
+7:59
+environment and then of course many new
+8:01
+skills in many new environments, right?
+8:03
+And so you can imagine how a very small
+8:06
+amount of really good real world data
+8:08
+can be augmented with synthetic training
+8:10
+data to create a much larger corpus for
+8:13
+your robot to train on. So who knew your
+8:15
+robot would be docking every single
+8:17
+night and dreaming just like we do,
+8:19
+thinking about how it can do a better
+8:21
+job the next day?
+5. Synthetic Data Revolution
+8:24
+Robotics is very clearly a data problem.
+8:27
+The reason we've had such an easy time
+8:29
+with text and code generation, things
+8:31
+like that, is because we've got the
+8:33
+mother lode of data on the internet.
+8:35
+We've spent decades essentially creating
+8:38
+a digital twin of all human knowledge
+8:40
+and creativity. And that's what everyone
+8:42
+is training off the public internet
+8:44
+right now. On the video side, you've got
+8:46
+some advantages if you own something
+8:48
+like YouTube or maybe you're like Bite
+8:50
+Dance and you own Tik Tok, etc. But for
+8:52
+this type of firsterson view video that
+8:55
+you need for like a robot, let's say
+8:57
+doing a bunch of tasks, a humanoid robot
+8:59
+specifically, it's super challenging.
+9:00
+And same thing with driving, right?
+9:02
+Despite all the dash cam footage,
+9:04
+despite all the street view footage, you
+9:06
+do not have enough observations of the
+9:08
+physical world. Now, there are a bunch
+9:10
+of companies that are doing this type of
+9:12
+synthetic training data generation for,
+9:15
+you know, autonomous driving startups.
+9:16
+In fact, Scale AAI, which was recently
+9:18
+purchased by Meta, got their start doing
+9:20
+this type of labeling that you see over
+9:22
+here. But these companies take all of
+9:25
+that data and kind of create the final
+9:27
+output that you'd need to train on for
+9:29
+all the scenarios that you perhaps care
+9:31
+about that you haven't captured in the
+9:33
+real world. And as you can see, they're
+9:35
+doing this with a mix of, you know, kind
+9:37
+of photoggramometric and neural
+9:39
+reconstruction approaches combined with
+9:41
+traditional game engines and simulation
+9:44
+combined with generative AI perhaps to
+9:46
+give it that final pass to make it look
+9:48
+more like that fisheye sensor in a rainy
+9:50
+environment, you know, when you'd see it
+9:52
+on a car itself. So, you can think of
+9:54
+something like Bifrost, which is another
+9:56
+company doing this stuff, essentially as
+9:57
+this like hybrid game engine where you
+9:59
+can do all of these things, right? Like
+10:01
+maybe there's a real world reference
+10:03
+that you're trying to replicate an
+10:04
+interesting scenario on and you
+10:06
+essentially get this like Unreal Engine
+10:08
+cloudstream builder environment to kind
+10:10
+of build it all out. Let's say you're
+10:12
+training an autonomous amphibian vessel.
+10:14
+Boom. Suddenly you've got that type of
+10:16
+data. And then somebody comes to you and
+10:18
+says, I need different weather and
+10:19
+lighting conditions. And well, boom, you
+10:21
+just go about doing that. And the beauty
+10:23
+of doing this synthetically, especially
+10:25
+with explicit 3D game engines or 3D
+10:28
+content creation tools, is the fact that
+10:30
+everything is already annotated, right?
+10:33
+Like all your annotations are basically
+10:36
+given to you for free, which you can
+10:38
+then pass along to some ML model. So
+10:39
+it's really good at detecting, let's
+10:41
+say, if the seat belt is on or off. Is
+10:43
+the driver paying attention? Which
+10:44
+direction were they looking in? And you
+10:46
+could transfer that headpose data, not
+10:48
+just bounding boxes, uh, to your model.
+10:50
+And so that's sort of the beauty of
+10:52
+generative AI. This love this guy taking
+10:55
+a yawn. Um, you know, so for the
+10:57
+uninitiated, some of these cars have
+10:59
+this attention awareness feature where,
+11:00
+you know, if you're not paying attention
+11:02
+uh to the road, looking at your phone,
+11:04
+etc., it'll start nudging you
+11:05
+essentially.
+6. Cities That Think
+11:08
+Now, this doesn't just imply to robots
+11:10
+in the traditional sense, like a car or
+11:12
+a humanoid robot. It also applies to
+11:14
+facilities or buildings or even entire
+11:17
+cities. So this is what Nvidia means
+11:19
+when they're talking about bringing
+11:20
+physical AI to cities and industrial
+11:22
+infrastructure. And if you think about
+11:24
+it, this is exactly the kind of
+11:25
+infrastructure where you need systems to
+11:27
+be able to navigate, but you also
+11:29
+already have a bunch of sensors in these
+11:30
+spaces and places. Traffic is a really
+11:32
+good example, right? So this is a
+11:34
+company called Data from Sky. And
+11:35
+basically what their tech lets you do is
+11:38
+if you've got, you know, CCTV cameras or
+11:41
+you're doing a drone survey, it can
+11:43
+track every single car across camera
+11:45
+view. So it'll detect a car, give it a
+11:48
+stable ID, an identifier, and make sure
+11:51
+that ID is persistent across every
+11:53
+single camera view that you get. And
+11:56
+this is a really good way of, for
+11:57
+example, surveying how dense is traffic
+12:00
+at different times of day. There's one
+12:02
+way to do that, which is how Google does
+12:04
+it with the location data on your phone,
+12:06
+but that's so coarse grain and it needs
+12:08
+to be aggregated over very many users to
+12:11
+be privacy preserving. In this case, you
+12:13
+can get a far more binary grain view of
+12:15
+what's going on in an actual moment. So,
+12:18
+of course, extending our analogy, you
+12:20
+can take something like Blender and the
+12:21
+city generator plugin for it and create
+12:24
+a synthetic rendition of that exact
+12:26
+intersection and layer on those actual
+12:28
+tracks. So, you've got very close to
+12:30
+realworld traffic patterns inside your
+12:33
+simulation in which you could, let's
+12:35
+say, ask a car to drive around and do
+12:37
+things. So, this gets very powerful,
+12:39
+right? Suddenly both static and dynamic
+12:42
+objects from the real world can be
+12:44
+imported into the simulation where you
+12:46
+create all sorts of permutations and
+12:48
+combinations. So to give you some
+12:50
+examples, let's say I've got this real
+12:52
+world capture of the Loi Garden in New
+12:54
+Delhi. Suddenly I can imagine it in
+12:56
+different lighting conditions using
+12:58
+tools like runways ALF. Right here is me
+13:00
+using runway ALF and Luma's video model
+13:03
+for more of a media and entertainment
+13:04
+use case. But you can imagine for like
+13:06
+public safety if you want to train
+13:08
+drones to be able to fly around after
+13:10
+let's say a disaster has just happened
+13:12
+well you want to train it on a
+13:14
+destructed version of the city. Now if
+13:15
+you saw my Google Earth documentary then
+13:17
+you know Google has amassed all this
+13:19
+historical imagery. But think about it
+13:21
+if you can look back in time you can
+13:24
+also use AI to predict forwards in time
+13:27
+too. And Google actually took a huge
+13:29
+step towards this like bringing together
+13:31
+something like a chat GPT for Earth. So
+13:34
+think about it, right? Like you've got
+13:35
+all of this optical data, this radar
+13:37
+data, LAR data, climate data about every
+13:40
+single part of the world. What if we
+13:41
+just break up the world into these 10x
+13:44
+10 meter squares and just create
+13:46
+embeddings for them? Essentially distill
+13:48
+down and create these compact summaries
+13:50
+of all that data that you can literally
+13:53
+ask questions to just like chat GPT.
+13:56
+We're going to have this on every
+13:57
+possible scale that you can imagine from
+14:00
+the world to your country to your city
+14:02
+to your home where you can go and ask
+14:05
+questions to your home.
+7. The Holodeck Approaches
+14:08
+Now, of course, not only can we train
+14:10
+robots in these simulations, but we'll
+14:12
+step inside them too with VR headsets.
+14:14
+So, let's talk about the implications
+14:16
+for media and entertainment, both
+14:18
+immersive content and also just general
+14:20
+flat content we distribute freely on the
+14:22
+internet. Now, going back to the hollow
+14:24
+deck idea, the fact that with some of
+14:26
+these fully generative interactive world
+14:28
+models, you're already embodied. You can
+14:30
+step inside of puddles and recreate the
+14:32
+physics that you can see. I think this
+14:34
+is the killer use case for AR VR, right?
+14:37
+Like Google's got their XR headsets
+14:39
+coming out. Of course, they're thinking
+14:41
+about how generative media plays into
+14:43
+that. And just think about it, since
+14:44
+we've got an interactive world, creating
+14:46
+that 65 mm interpupilary distance to
+14:49
+create steroscopic depth is so possible.
+14:51
+And you can do it without a game engine.
+14:53
+Even if it's you just creating, let's
+14:55
+say, a fisheye rendition of the world
+14:57
+that you see, then another model for
+15:00
+upscaling it, another model for doing 2D
+15:02
+to 3D conversion, like to create an even
+15:05
+faster, lower latency pipeline to go
+15:07
+from like 24 fps to like 100 fps. I
+15:11
+could see that being more of an
+15:12
+engineering problem than a research one
+15:14
+at this point. So, in my opinion, the
+15:15
+holiday is closer than you think. It's
+15:18
+certainly closer than I thought. Now, of
+15:20
+course, we also talked about how you can
+15:22
+use these type of models to do 3D
+15:24
+reconstructions of the world and extract
+15:26
+3D models or 3D radiance fields, right?
+15:29
+So, you can extract 3D models out of
+15:31
+these and use them in your traditional
+15:33
+virtual production workflows, right?
+15:34
+Like if you want to frame that shot of
+15:36
+the talent walking by and record that
+15:38
+with your phone camera just to see
+15:41
+exactly what it'll look like, record
+15:42
+those takes and then render them
+15:44
+properly on the computer. You can
+15:46
+totally do that. In fact, tools like
+15:48
+Jetet even let you bring in that
+15:50
+Gaussian splat and previsualize and use
+15:52
+it for previs on the phone itself, which
+15:55
+is really cool. Now, I've talked about
+15:56
+this in the past, but I'm really really
+15:58
+bullish on this hybrid approach, right?
+16:00
+Clearly, it's the thing that works right
+16:02
+now as we wait for fully neural or fully
+16:05
+generative approaches to reach that
+16:07
+level of simulation accuracy that you
+16:09
+can get um you know, with explicit 3D
+16:12
+approaches. My vision there is
+16:14
+essentially you've got this 3D
+16:15
+environment that you flesh out. You
+16:16
+define, hey, these are the sets that I
+16:18
+care about. These are the actors that I
+16:20
+care about. These are the props. This is
+16:22
+the time of day. This is the look that
+16:24
+I'm going for. And then you essentially
+16:26
+go into director mode, sort of like you
+16:27
+can today with something like convey
+16:29
+sim, which lets you create these sort of
+16:31
+like AI agents that are inside Unreal
+16:33
+Engine. And they give you a very
+16:35
+lightweight guey, by the way, to go
+16:37
+create that without even need to touch
+16:38
+Unreal yourself. And then you can go and
+16:41
+essentially talk to these characters and
+16:43
+actually command them to do things too.
+16:45
+Suddenly you're like the director on set
+16:48
+feeling like James Cameron in your
+16:50
+freaking basement commanding your roster
+16:52
+of talent to get exactly the shots that
+16:55
+you want. So definitely check out convey
+16:57
+sim as well if you want to play around
+16:58
+with these technologies and think you
+17:00
+could take something like this and run
+17:01
+it through runway alif or your favorite
+17:04
+videotovideo model of choice like luma.
+17:06
+In fact, if you want to see a workflow
+17:08
+not so much optimized for talking
+17:10
+characters, but everything else all in
+17:13
+one UI, you got to check out this really
+17:16
+cool tool called Intangible. And
+17:18
+essentially, this is exactly what it
+17:19
+does, right? And essentially, what you
+17:20
+can do in this tool is use natural
+17:22
+language to describe the scene that you
+17:23
+want to create. It'll populate the world
+17:25
+with actual explicit 3D assets that you
+17:27
+can move around. you frame the cameras
+17:29
+just the right way and then you can use
+17:31
+something like Flux and then V3 all in
+17:34
+one interface to take it all the way. So
+17:36
+having this combination of the
+17:38
+editability of a 3D environment all in a
+17:40
+browser along with the creativity of
+17:43
+generative models feels like a really
+17:46
+really cool hybrid pipeline that is
+17:48
+super underrated.
+8. The Rendering Stack of Reality
+17:51
+Now to wrap things up let me talk to you
+17:53
+about the future of 3D. You know, every
+17:55
+year when sigraph happens, it really
+17:57
+puts it into focus for me just how much
+17:59
+of an unsolved problem computer graphics
+18:01
+and simulation really is. And this
+18:03
+example might tell you why. Think about
+18:05
+it. Let's say you wanted to create a
+18:06
+photorealistic rendition of a bowl of
+18:08
+strawberries down to the microructures,
+18:11
+the multi-layered materials, the
+18:13
+freaking fur that you see on these
+18:16
+strawberries. You could probably do it
+18:18
+in a modern 3D tool. Absolutely could do
+18:20
+it. You certainly do it with an AI
+18:22
+generator. But then consider that that
+18:24
+bowl of cherries actually sits on a
+18:26
+breakfast table that itself sits in this
+18:28
+apartment building that sits in this
+18:30
+block inside of a massive city. To have
+18:33
+simulations of the real world that scale
+18:35
+seamlessly from strawberry scale down to
+18:38
+city scale is a very open-ended problem.
+18:41
+as Aaron Lefon said, who's the VP of
+18:43
+research at NVIDIA, that we're going to
+18:45
+need completely new tools so that
+18:46
+artists can even conceptualize, create,
+18:48
+and iterate like order of magnitudes
+18:50
+faster than you can today to make sense
+18:52
+of this exact scale to have a simulation
+18:55
+of the world inside your computer. And
+18:58
+to be honest, we don't even know the 3D
+19:00
+representations we'll need to get there.
+19:02
+Is it going to be, you know, radiance
+19:03
+field stuff like Gaussian splatting?
+19:05
+We've got triangle splatting now. Is it
+19:07
+going to be like this hybrid approach of
+19:09
+bounding boxes plus fully generative? Is
+19:12
+it going to be completely generative end
+19:14
+to end? The bitter lesson reigns
+19:16
+supreme. We just end up creating enough
+19:17
+synthetic training data from all these
+19:20
+simulations so that we can just get it
+19:21
+all for free from one blackbox neural
+19:23
+network. Maybe. Not to mention, we're
+19:25
+going to need entirely new ways of
+19:27
+generating 3D content. Like the
+19:29
+metaverse is a rather empty place
+19:31
+without interesting 3D content. and
+19:33
+we're just starting to scratch the
+19:34
+surface of what we can do with those
+19:37
+type of approaches. So, I don't think
+19:38
+anyone knows which approach is going to
+19:40
+re supreme and win in the end. Is it
+19:42
+going to be a fully neural approach like
+19:44
+G3 or is it going to be some sort of a
+19:46
+hybrid approach like we saw with
+19:48
+Intangible or what Nvidia is doing with
+19:50
+Omniverse Plus Cosmos? But what I do
+19:52
+know is that we are just scratching the
+19:54
+surface of what we need to create both
+19:56
+the ultimate digital twin of reality and
+19:59
+the real world hollow deck. And damn, it
+20:02
+really makes you appreciate whoever
+20:03
+wrote the rendering stack for reality.
+20:05
+That's it for this video. Bolav signing
+20:07
+off and I'll see y'all in the next one.

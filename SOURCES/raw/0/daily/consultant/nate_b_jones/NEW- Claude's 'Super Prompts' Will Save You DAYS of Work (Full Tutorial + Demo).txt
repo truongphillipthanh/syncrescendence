@@ -1,0 +1,708 @@
+https://www.youtube.com/watch?v=UaJhYp7Tql4
+NEW: Claude's 'Super Prompts' Will Save You DAYS of Work (Full Tutorial + Demo)
+39,687 views  Oct 17, 2025  SEATTLE
+My site: https://natebjones.com
+Full Story w/ Prompts: https://natesnewsletter.substack.com/...
+My substack: https://natesnewsletter.substack.com/
+_______________________
+Claude's new skills feature is a super prompt—but people are sleeping on it.
+
+The common story is that it’s just another prompt shortcut — but there's SO much more to it and it's NOT just for Claude
+
+In this video, I share the inside scoop on how Claude’s skills system changes the game for LLMs:
+• Why “skills” break the tyranny of the prompt and enable composable AI work
+• How to build and reuse these Lego-brick capabilities in Claude, ChatGPT, and Gemini
+• What makes this the first real path toward automating complex, multi-step workflows
+• Where the real limits still are — and why clear prompts still matter
+
+For operators and builders, this is a new level of leverage: the start of promptless productivity, not the end of prompting.
+
+Chapters
+00:00 Revolutionizing AI Interaction with Claude
+02:37 Building Skills: The New Era of AI Capabilities
+04:53 Creating and Utilizing Skills Effectively
+06:58 Leveraging Skills Across Multiple Platforms
+09:31 The Importance of Clear Prompting in AI
+11:36 The Future of AI Skills and Super Prompting
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+---
+
+Revolutionizing AI Interaction with Claude
+0:00
+I think that this is one of the biggest
+0:01
+pieces of news in the entire year.
+0:03
+Claude launched a way for us to get past
+0:06
+the tyranny of the prompt and I worked
+0:08
+out a way to use that same technique
+0:11
+outside Claude in Chad GPT in Gemini and
+0:13
+other places. We're going to dive into
+0:15
+the whole thing, but the first piece I
+0:18
+want you to realize is that everything
+0:20
+has been prompt dependent and that has
+0:22
+made hard work really difficult.
+0:24
+Basically, if you want to do something
+0:25
+complicated like a PowerPoint or an
+0:27
+Excel or a full financial analysis, it's
+0:30
+possible, but it's really been prompt
+0:32
+dependent. And anything we can do that
+0:34
+makes it slightly easier, slightly less
+0:37
+dependent on the prompt is a really big
+0:39
+deal because it makes it so much easier
+0:41
+for so many more people to do that hard
+0:44
+work. That is what we got today from
+0:47
+Claude. It's called the skills launch.
+0:50
+And the idea is that you have these
+0:52
+composable Lego bricks. They're called
+0:54
+capabilities in your settings section.
+0:56
+I'm going to show you here in a second.
+0:58
+And all you have to do is enable
+1:02
+capabilities that Claude can call in any
+1:05
+conversation in any combination. And so
+1:09
+I'll give you a specific example. One of
+1:11
+the things that has been difficult for
+1:13
+people to do with AI has been a
+1:15
+complicated task like figuring out a job
+1:18
+search strategy. So let's say you need
+1:20
+to identify candidate job postings. You
+1:23
+need to compose a resume that fits those
+1:25
+job postings. You need to make sure that
+1:27
+your search strategy actually works for
+1:28
+those jobs. That your targeting strategy
+1:30
+works for outreach. This is complicated
+1:32
+work. Normally it would take a lot of
+1:34
+prompts. It would take many prompts in a
+1:36
+row. Some people sign up for tools and
+1:38
+services for this. What you can do with
+1:40
+Claude is you can make skills that refer
+1:44
+to this complicated work and give Claude
+1:47
+special instructions to do it well. Like
+1:48
+your job search strategy could instruct
+1:51
+Claude specifically what sites you
+1:52
+prefer, what job family and roles you
+1:55
+prefer, what levels you prefer, what
+1:56
+compensation you want. And all of that
+1:58
+would be stored inside this Lego brick
+2:01
+of context that Claude can go and call.
+2:04
+Not when you have to tag it. You don't
+2:06
+have to remember it. You just have to
+2:08
+say, "Hey, I'm trying to think about
+2:10
+what job search strategy I should use
+2:12
+for this week." And then give it some
+2:14
+context about your last few weeks, your
+2:16
+learnings. Help me figure it out. Claude
+2:18
+will look at that initial prompt,
+2:20
+understand you're talking about job
+2:21
+search, and go dig up a skill and use it
+2:24
+on the fly. It's super intuitive. And
+2:26
+the magical thing is because of the way
+2:30
+they've simplified the the file
+2:32
+structure, the Lego brick, it's just a
+2:33
+markdown file. you can use this other
+2:36
+places and that's what I figured out. So
+Building Skills: The New Era of AI Capabilities
+2:38
+I'm going to show you that too. You can
+2:39
+use it in Chad GPT in Gemini. And what
+2:42
+this does is it makes the whole process
+2:45
+of doing a difficult complicated
+2:48
+multi-step piece of work so much easier.
+2:50
+And so this is not just a story about
+2:53
+can we make PowerPoints easier, can we
+2:55
+make Excel easier, can we make job
+2:57
+search easier. It's a story about can we
+3:01
+do hard work with much less effort. It's
+3:04
+like Claude gave us a lever, a 10X lever
+3:07
+on our prompting. And so without further
+3:10
+ado, I'm going to jump in. And the first
+3:12
+thing I'm going to show you is sort of
+3:13
+the the settings page, how this actually
+3:15
+looks when you when you sign up for it.
+3:17
+But we won't spend much time there.
+3:19
+We're going to spend most of our time
+3:20
+diving into how you create these because
+3:22
+the magic of this is that you are not
+3:24
+locked in to whatever the Anthropic and
+3:27
+Claude team give you. You can make these
+3:29
+yourself. And I can make them for you.
+3:32
+And I have. I'm making them for you.
+3:33
+It's so exciting because we can
+3:35
+basically make these big packages that
+3:38
+help us to effectively do lots and lots
+3:42
+of complex work. Another example is
+3:43
+vendor AI vendor risk estimation, AI
+3:46
+vendor build by solution estimates,
+3:48
+super complicated work. You can have a
+3:50
+skill for that now. You don't have to
+3:51
+write a gigantic prompt in the same way
+3:53
+you did. You can just say, "Hey, please
+3:55
+assess this vendor." And it will call
+3:58
+the skill. It will be so much more
+3:59
+intuitive. I'm so excited for this. All
+4:01
+right. So, with that in mind, let's
+4:03
+check out that Claude capability screen.
+4:04
+Okay. Here we are. We are looking at the
+4:06
+skills that are in Claude. Now, this is
+4:08
+my Claude and I want to show you that
+4:11
+there are both standard skills and
+4:13
+custom skills here. Standard skills,
+4:15
+you're going to see brand guidelines,
+4:17
+canvas design, MCP builder. These are
+4:19
+all skills that Claude provides for us
+4:22
+as a way of getting this whole ecosystem
+4:24
+started. I created prompting pattern
+4:27
+library and it says so added by me right
+4:29
+59 minutes ago. and it says what it is
+4:31
+and it's basically a file of prompting
+4:34
+best practices so that if I talk about
+4:36
+how I want to create a great prompt, it
+4:38
+will just invoke prompting pattern
+4:40
+library and make that so much easier.
+4:42
+This is super easy to enable. All you
+4:44
+have to do is just enable the skill
+4:48
+section at the top and then enable these
+4:50
+toggles piece by piece down here and
+4:52
+you're done. All right, I want to show
+Creating and Utilizing Skills Effectively
+4:54
+you an actual skill that I'm building.
+4:57
+So, I said, "Claude, can you help me
+4:58
+build a skill for strategizing job
+5:00
+search?" And I want you to note that
+5:02
+this is not the world's best prompt. And
+5:04
+I did that on purpose. I wanted to call
+5:06
+out that it's possible to build a good
+5:08
+skill and it doesn't have to be perfect.
+5:11
+The prompt doesn't have to be perfect.
+5:12
+So, I I just laid out a bunch of things
+5:15
+that I wanted, guidance on how to
+5:16
+interview the user, how to target the
+5:18
+job, etc. And so, Claude then starts to
+5:21
+think about how to create skills. And it
+5:23
+turns out that one of the things that
+5:24
+Enthropic released, which I think is
+5:26
+really smart, is documentation for
+5:28
+Claude on creating skills. So Claude
+5:30
+read the instruction manual for creating
+5:32
+these this skill and then came back and
+5:34
+said, "This is really great. I see this.
+5:36
+I have some questions. Here's some
+5:38
+questions about how I should analyze the
+5:39
+company's news strategies that are most
+5:41
+important, etc." I came back with a
+5:44
+response. I gave it some examples. I had
+5:46
+an LLM help me build some of this and
+5:48
+then said, "Great, excellent details.
+5:50
+I'm going to start building." And so it
+5:51
+has now spent the last five or so
+5:53
+minutes building this skill and it comes
+5:56
+back with a job search strategist zip
+5:58
+file. It's a complete skill done. It's
+6:01
+as easy as that. I can now download this
+6:03
+zip file and re-upload it to Claude in
+6:07
+the capabilities section and I will have
+6:10
+a usable job search strategist skill.
+6:12
+Now, if I want to make it better, which
+6:14
+is always one of the things I focus on,
+6:16
+I always think about how I can evaluate
+6:18
+this skill through the lens of another
+6:20
+LLM. And so, I can take this skill over
+6:23
+to chat GPT and I can say, "Hey, can you
+6:26
+just crack open this zip file, look
+6:27
+inside, and can you assess whether or
+6:31
+not this is high quality and make
+6:33
+specific recommendations for how to
+6:35
+improve it?" And then I can pull that
+6:36
+Chad GPT critique, bring it back into
+6:39
+Claude, and have Claude further improve
+6:41
+the skill. So, I'm not just sitting here
+6:43
+taking what Claude gives me. I'm
+6:44
+actually trying to use a multi LLM
+6:46
+strategy to make this skill as useful as
+6:48
+I possibly can. Now, let's jump over to
+6:50
+chat GPT and I'll show you how I can use
+6:54
+a skill that I developed in Claude for
+6:56
+Claude in Chat GPT. All right, here we
+Leveraging Skills Across Multiple Platforms
+6:58
+are in chat GPT. You see that I've
+7:01
+uploaded a zip file. This is literally
+7:02
+the exact same zip file that I would
+7:05
+upload if I was in CLA. I am uploading
+7:08
+it per chat because that's how chat GPT
+7:10
+works. And all I say is, "Using this
+7:12
+file, can you help me come up with a
+7:13
+really strong prompt for instructing an
+7:14
+LLM to build a PowerPoint? You'll need
+7:16
+to crack open the file to do so." So, it
+7:18
+opens the file and it immediately comes
+7:20
+up with a very strong PowerPoint. I
+7:22
+don't have to give it all of this. It
+7:24
+reads it in the file. And so, look, I
+7:27
+love the cloud interface. It's very
+7:29
+intuitive for it to call in the skills.
+7:31
+I think that's a lovely touch. But I can
+7:33
+use the exact same files in a chat, GPT
+7:37
+chat, and get a great result. I can use
+7:40
+them in a Gemini chat and get a great
+7:41
+result. And nobody is talking about
+7:43
+that. Nobody is saying that really what
+7:45
+has been invented is a way of working
+7:47
+with AI that gives you composable Lego
+7:49
+bricks. I think that's fantastic. And so
+7:51
+you can just pop this in and all you
+7:54
+have to do is build the ones you want.
+7:55
+And I gave you some of those tips on how
+7:57
+you build them. You literally just say
+7:58
+what you want and work with Claude to
+8:00
+build it. And Claude has the skill
+8:02
+creation. And you could do the same
+8:04
+thing with chat GPT to be honest. You
+8:06
+can say, "I want you to create a
+8:07
+markdown file." The markdown file needs
+8:09
+to be a complete clear set of
+8:11
+instructions to help a LLM accomplish a
+8:15
+very complex task. In addition, please
+8:17
+create these other file types that help
+8:18
+the LLM do the task. If it's an analysis
+8:21
+uh file, you may want to give the LLM
+8:24
+some specific instructions about how to
+8:26
+analyze, etc. And then you put it all
+8:29
+together into a zip file and you're
+8:30
+done. And you have your skill and you
+8:32
+can upload that and say, "Hey, refer to
+8:34
+this skill. This is how I like things
+8:36
+done." You might be wondering now what
+8:38
+things should be skills. What things
+8:41
+should be skills? The answer is quite
+8:43
+simple. If it is something that you
+8:45
+would want to onboard someone with,
+8:48
+let's say you have an employee and you
+8:50
+want to onboard them and train them,
+8:52
+super easy. Just give them a skill.
+8:55
+That's what this is for. That's the
+8:56
+level we're at. If it's a one-off task,
+8:58
+if you're not going to repeat it, if
+9:00
+it's not very high value, don't do a
+9:02
+skill. It's just too much trouble. But
+9:04
+if it's something where it's like, "No,
+9:05
+I'm going to be doing this repeatedly."
+9:07
+If I had someone doing this for me, I
+9:09
+would give them some training. I would
+9:11
+give them some onboarding materials.
+9:12
+That's when you need the skill. And the
+9:15
+beauty of the whole ecosystem is that we
+9:17
+can all just like create the skills and
+9:19
+trade them around and they'll grow. And
+9:21
+I think that that is part of what makes
+9:23
+this so powerful is that it's not locked
+9:25
+into anthropic. People will come up with
+9:28
+ways to use these exact files and other
+9:30
+interfaces. I guarantee that people will
+The Importance of Clear Prompting in AI
+9:32
+come up with ways to use these exact
+9:34
+same Claude skills folders and files in
+9:37
+a dozen other tools in the next month
+9:39
+because they're so powerful. So, I'm
+9:40
+really excited about this. If you are
+9:42
+asking me what is the catch, where do I
+9:45
+need to be careful? I would tell you
+9:47
+this. We were using the skills before we
+9:51
+knew they existed. So, when I did my
+9:53
+video on Excel, when I did my video on
+9:55
+PowerPoint, Claude was using those
+9:58
+skills. And what I found in practice
+10:00
+weeks ago and since as I've been working
+10:02
+with those tools daily is that even
+10:04
+though the skills are like a massive 10x
+10:08
+step up in helping you get stuff done. I
+10:10
+like watch the video on powerpoints.
+10:12
+Like it creates incredible powerpoints
+10:14
+that save days of work. Like it's a it's
+10:16
+a phenomenal job. You still need to
+10:18
+prompt well. It does not get you away
+10:21
+from prompting well when you do serious
+10:23
+work. Prompting well is like giving this
+10:26
+massive cool skill package clear
+10:29
+direction. And so it doesn't have to be
+10:30
+as long a prompt, but it has to be very
+10:33
+clear and unambiguous about where you
+10:34
+want to take all of this power, all of
+10:36
+this context you've got. So that's if
+10:39
+you want to catch, that's the catch. You
+10:41
+still got to be clear in what you're
+10:42
+asking for, but you don't have to be as
+10:45
+lengthy as you used to have to be. Like
+10:47
+if I had to do a complicated piece of
+10:48
+work like the job search thing, I would
+10:50
+honestly not even do it in one chat. I
+10:52
+would just do it in multiple chats,
+10:54
+right? And you ask for this and then you
+10:55
+ask for this and then you ask for this,
+10:57
+like help me with my resume, help me
+10:58
+with my job search, etc. And you have to
+11:00
+sort of reinvent the prompt and reinvent
+11:02
+the context every time. The power of
+11:04
+this is you can do that much more
+11:06
+complicated work in a much less heavy
+11:09
+lift way. That is why I call them super
+11:12
+prompts because it's like we've taken
+11:14
+this load that we've all had to carry
+11:16
+for prompting for so long and it's like
+11:18
+lifted it. It's like yes, you still have
+11:20
+to be clear. It's good to be clear about
+11:22
+what you want. It's good to bring your
+11:23
+specific context. Bring that specific
+11:25
+job description, right? Bring the
+11:27
+specific experience you have that nobody
+11:29
+else has, right? But you don't have to
+11:31
+carry as heavy a load on just explaining
+11:33
+everything in exhaustive detail as you
+11:35
+used to have to. And that is a huge
+The Future of AI Skills and Super Prompting
+11:38
+breakthrough for all of us. I am so
+11:40
+excited for that. So, I'm putting
+11:41
+together a whole set of Claude skills
+11:44
+that you can use in chat GPT and Gemini.
+11:46
+You can use them in Claude, of course. I
+11:48
+can't wait to show them to you. I'll
+11:49
+have them out with this video on the
+11:50
+substack. It's going to be great. We are
+11:52
+just at the beginning of this and I want
+11:54
+to give you like a great get started
+11:55
+pack so you're off to the races on using
+11:57
+cloud skills. Have fun with your new
+11:59
+super prompting powers.

@@ -1,0 +1,840 @@
+https://www.youtube.com/watch?v=61IJSZ6GOuU
+I Spent 200 Hours Teaching AI Writing—Here Are 6 Principles Everyone Gets WRONG (+ Demo Prompt)
+5,751 views  Oct 24, 2025  SEATTLE
+My site: https://natebjones.com
+Full Story w/ Prompt: https://natesnewsletter.substack.com/...
+My substack: https://natesnewsletter.substack.com/
+_______________________
+AI slop at work is killing businesses. 
+
+The common story is that this is all the model's fault — but the reality is that AI mostly exposes how unclear our thinking and standards have been all along.
+
+In this video, I share the inside scoop on AI-assisted business writing:
+• Why most teams are drowning in AI-generated documents
+• How to define concrete quality criteria AI can follow
+• What “intent-driven” writing means and how to build it in
+• Where to use AI not just for writing, but for evaluation too
+
+The takeaway: teams that articulate clear standards and goals will thrive with AI; everyone else will drown in AI slop.
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+---
+
+0:00
+AI has dropped the cost of business
+0:02
+writing to nearly zero. And most of the
+0:04
+businesses I work with or know about are
+0:06
+drowning in AI documents and have huge
+0:08
+issues with AI business writing. This
+0:11
+video is how you troubleshoot those.
+0:14
+What the principles are for using AI
+0:16
+well in business writing situations. And
+0:17
+then I'm going to walk through an actual
+0:20
+example of a prompt I'm using that sets
+0:22
+a much higher bar for AI business
+0:24
+writing than I've typically seen. And
+0:26
+we'll just go through it. So, first
+0:27
+let's get into the principles. The first
+0:29
+thing I want you to keep in mind overall
+0:31
+is that the real bottleneck in AI
+0:33
+assisted writing is never capability of
+0:35
+AI. People think it's the model. It's
+0:37
+not the model. Don't let anyone tell you
+0:39
+it's the model. It's organizational
+0:41
+ability to articulate what constitutes
+0:44
+good work. And typically that means
+0:46
+we've relied on individuals to have
+0:48
+instincts for what constitutes good work
+0:51
+instead of actual structured information
+0:55
+about what constitute good work. AI
+0:57
+forces tacet knowledge into explicit
+0:59
+standards and that is very very hard for
+1:02
+most businesses. You cannot rely on I
+1:04
+know it when I see it because AI cannot
+1:06
+read your mind. It is not that good.
+1:08
+It's never going to be that good. Every
+1:10
+quality criteria needs to be concrete
+1:12
+enough to specify, to test, and to
+1:15
+verify. That is the only way through on
+1:18
+the business writing side. And if people
+1:19
+say, "Well, I don't have time for that."
+1:20
+I've got to ask you, do you have time
+1:22
+for the business writing you're drowning
+1:24
+in? because I have lost track of the
+1:27
+number of people who are like I cannot
+1:30
+keep up with the business writing. It is
+1:31
+too much like people are sending me AI
+1:33
+slop at work. Well, the quality criteria
+1:36
+needs to be defined to make that go
+1:38
+away. So, what does that actually look
+1:39
+like? First, understand that there is a
+1:42
+specification bottleneck. The barrier is
+1:45
+not how fast can I write this anymore.
+1:47
+It is how clearly can I articulate what
+1:49
+I need. Every time you have ambiguity in
+1:52
+your specs for a doc, that is amplified
+1:55
+through generation. It is not reduced.
+1:57
+People sometimes think AI can reduce
+2:00
+ambiguity by adding detail, but anyone
+2:02
+who's worked with AI a lot will tell you
+2:04
+it doesn't reduce ambiguity, it enhances
+2:06
+it. And when it adds helpful detail, it
+2:08
+makes it worse. So the organizations
+2:10
+that succeed are actually not those with
+2:13
+the best writers. I know that's very
+2:14
+counterintuitive. They are those who can
+2:16
+articulate the quality standards
+2:19
+explicitly enough to encode them in
+2:22
+prompts that you can work with. Now,
+2:23
+writers can absolutely help with that.
+2:26
+Good writers are hard to find, but we
+2:28
+are moving from raw ability to generate
+2:31
+text according to a congruent prompt
+2:34
+framework or a congruent template as a
+2:36
+goal. And we're getting into a world
+2:38
+where we are just needing to specify our
+2:42
+requirements really, really clearly. It
+2:44
+reminds me of like wearing a product hat
+2:45
+and defining product requirements. Very,
+2:47
+very similar except now your product is
+2:50
+the dock. You also have a fundamental
+2:52
+evaluation issue because of the number
+2:55
+of prompts. I've talked in the past
+2:56
+about how we have this issue with
+2:58
+résumés. Really, it's with all knowledge
+3:00
+work in the business. We don't have time
+3:03
+to evaluate everything that got done,
+3:06
+which means that we have to figure out
+3:08
+how to scale evaluation. That is one of
+3:10
+the fundamental challenges for
+3:12
+businesses that want to go faster. And I
+3:14
+believe firmly that scaling evaluation
+3:17
+means putting AI on the evaluation side,
+3:20
+not just the writing side. And I want to
+3:22
+talk about that a little bit more
+3:24
+because I I think we miss that. It is
+3:27
+absolutely possible. I've done it. I've
+3:29
+written I'm writing a prompt for this
+3:30
+article to talk through how you evaluate
+3:33
+and build a prompt. Build a Claude skill
+3:36
+that helps you to evaluate. I've done
+3:38
+it. I'm doing it. it. You can make your
+3:41
+job so much easier if you are just
+3:43
+willing to let AI take a first pass and
+3:45
+give it really clear requirements on
+3:47
+what good looks like. I also want to go
+3:49
+beyond just hey you need to specify. The
+3:52
+other core issue is that we typically
+3:54
+have longstanding information
+3:56
+architecture problems in our documents
+3:58
+at work that we just paper over and that
+4:02
+we are not going to be able to paper
+4:03
+over when AI is writing. Because
+4:05
+fundamentally what AI does is it exposes
+4:08
+information asymmetries,
+4:10
+informationational vagueness that
+4:12
+previously hid in a lot of our writing
+4:14
+because people wrote it and you just
+4:16
+assumed that people were doing their
+4:17
+best thinking. One of the good things
+4:19
+about the AI age is we now don't assume
+4:23
+that everyone's doing their best
+4:25
+thinking which means we critique more
+4:26
+which is actually healthy. So when we're
+4:29
+critiquing I want us to think of a few
+4:31
+things in this information architecture
+4:33
+bucket. One documents really ought to be
+4:36
+written for goals and decisions and they
+4:38
+aren't always. And so if you can't tell
+4:40
+if this document enables person X to
+4:43
+make choice Y or if this well structured
+4:46
+information enables you to make a big
+4:48
+decision, if you if you don't know what
+4:50
+it looks like and why you're reading it,
+4:52
+it's it was going to be useless anyway,
+4:54
+right? But now we blame the AI. Your
+4:56
+goal at this point is actually to get
+4:58
+rid of that vagueness you tolerated in
+5:00
+the past in the business and define
+5:02
+theformational architecture of the
+5:05
+document. Your structure is the business
+5:08
+logic, not just a template. So many
+5:10
+times if someone gives you like a
+5:12
+product requirements document or if they
+5:14
+give you a business memo or a press
+5:17
+release, when they give it to a human,
+5:19
+you get a template. You actually don't
+5:22
+get the logical underpinnings of the doc
+5:25
+and people end up learning it from
+5:27
+experience. Templates just let you fill
+5:29
+in the boxes without thinking. And when
+5:31
+you hand AI only a template in the
+5:34
+prompt, that is what you get. And that
+5:36
+is why so often when I'm called in to
+5:38
+help with business writing prompts,
+5:39
+people say, "I don't know what I did
+5:41
+wrong. I gave it the template and it
+5:44
+filled out the template and it's
+5:45
+terrible. It's crap." Well, you didn't
+5:48
+give it the the business logic. You
+5:50
+didn't give it a a decision interface to
+5:53
+work against. You didn't give it a goal
+5:54
+for the document. That's why your
+5:56
+writing is terrible. If you don't give
+5:58
+it that intent, the business writing is
+6:00
+going to fail. So, the other piece here,
+6:03
+this is very counterintuitive. You can't
+6:05
+just give it a goal and give it business
+6:07
+logic. In my experience, you also have
+6:10
+to give good failure tests. You have to
+6:15
+insist that you know what bad looks
+6:19
+like. Isn't that funny? Isn't that
+6:20
+counterintuitive? But if you're trying
+6:22
+to tell the AI how to do something well,
+6:24
+it really helps if you have five to
+6:26
+seven examples of the kinds of quality
+6:29
+problems you have with these kinds of
+6:31
+documents. It's like, wow, this
+6:32
+technical specification document is
+6:35
+really overspeced on the design and
+6:39
+insists on a microservices architecture
+6:41
+when we don't use that. Great. That's a
+6:43
+failure example. Or this press release,
+6:46
+it is way too hypy and I hate the hype
+6:49
+in this press release. It doesn't
+6:50
+respect the actual product capabilities.
+6:53
+This executive summary and this
+6:55
+executive memo is too vague. I need more
+6:58
+specificity. understand where your
+7:00
+organization today fails to communicate
+7:02
+information and you will understand how
+7:05
+to work with AI to write better. This is
+7:08
+I'm going to repeat it again a people
+7:10
+problem at root. It is not the model's
+7:12
+fault here people. It is our ability in
+7:16
+organizations to communicate intent
+7:19
+clearly that is governing our ability to
+7:22
+work with AI and we're not doing it
+7:24
+well. I want to tease out some of the
+7:25
+organizational dynamics too.
+7:27
+Specifically, one of the things that
+7:28
+I've noticed that's subtle but painful.
+7:30
+We are converging on voice because of AI
+7:33
+and that is leading to
+7:35
+informationational loss in business
+7:37
+systems. So, we have an AI default voice
+7:40
+and too few people understand how to
+7:42
+push that voice into something that
+7:44
+communicates their their intent clearly.
+7:46
+I'm not talking about style here. I'm
+7:48
+talking about the ability to communicate
+7:51
+clearly with what really matters. And I
+7:53
+think the default voice that AI has
+7:55
+obscures that, right? The default voice
+7:57
+is diplomatically hedged. It's pseudo
+8:00
+comprehensive. It's stylistically
+8:02
+extremely bland. And you don't have the
+8:04
+ability to carry conviction with that
+8:06
+voice. If you want to make a bet, you
+8:08
+don't have the ability to articulate
+8:10
+real specificity, but in the same
+8:12
+document to articulate this area is
+8:15
+vague and uncertain, and I want to admit
+8:16
+that upfront. Good quality writing has
+8:19
+that range. And AI, if you just prompt
+8:22
+it vanilla, does not. And that leads to
+8:25
+critical information loss. And that is
+8:27
+part of why businesses feel like they're
+8:28
+drowning. This information is not super
+8:30
+high quality. And I'm going to say
+8:32
+again, it is absolutely possible to do
+8:34
+that. You can make highquality documents
+8:36
+with AI. The last thing I want to call
+8:38
+out before I go over and I show what I
+8:41
+mean is iteration diagnosis. So this is
+8:44
+sounds really complicated but very
+8:45
+simply we need to diagnose the failure
+8:48
+of people to iterate well with writing.
+8:51
+In other words, people are trying to say
+8:54
+make it better on their business
+8:55
+documents and that is all they're
+8:57
+writing and it's terrible and it's not
+8:59
+working. But no one knows how to do it
+9:01
+better unless they're educated. And what
+9:03
+they don't realize is that it is a
+9:05
+people problem to communicate intent and
+9:09
+that they have to specify their intent
+9:10
+more clearly if they're not getting a
+9:12
+draft they like. So I'm going to come
+9:14
+back to the like the core of this issue
+9:16
+and then I'm going to show you how I'm
+9:17
+addressing it with a specific prompt. I
+9:19
+actually put together a whole bunch of
+9:20
+prompts and a claude skills for this cuz
+9:22
+I want you to be equipped and I'm going
+9:24
+to show you one of the prompts and how
+9:25
+it works. So the thing to remember is
+9:27
+because AI assisted writing is exploding
+9:30
+because organizations are drowning. We
+9:32
+have that AI generation problem. The
+9:34
+cost of information is zero. We need to
+9:37
+therefore put a premium on our intent.
+9:41
+Otherwise, we degradeformational signal
+9:43
+through our businesses and it is hard to
+9:45
+make decisions and we feel like we're
+9:47
+drowning and it has real career
+9:48
+implications and real dollars and cents
+9:50
+implications. I am passionate about good
+9:52
+business writing. I love it. It is
+9:54
+getting hard to find because people
+9:56
+don't know how to prompt. Let's get to
+9:58
+an actual. Okay, this is an example of a
+10:00
+prompt that I think is highquality. It
+10:02
+is also designed to be modular and
+10:04
+changeable so you can make it the way
+10:06
+you want. Let's get into it. This is for
+10:08
+meeting notes. It's the simplest
+10:09
+possible one. I have a bunch of other
+10:11
+prompts for more complex docs. Meeting
+10:13
+notes are overlooked because most of the
+10:14
+time if you go into a generic AI
+10:16
+transcript and you get meeting notes is
+10:18
+just a generic summary that's very
+10:20
+vanilla of what was there. I wanted to
+10:22
+be more opinionated because I wanted to
+10:24
+carry through the principle that you
+10:25
+need to have intent around what you're
+10:27
+doing. So we have contacts, date,
+10:29
+attendees which should be pullable from
+10:31
+the meeting note raw purpose of meeting
+10:34
+input provided and you can paste your
+10:36
+transcript there and then you're asking
+10:38
+for a very specific output and you can
+10:40
+modify this when I tell you why I put
+10:42
+what I did. Your goal here is to create
+10:45
+notes that help the team execute, right?
+10:49
+Execute on what was discussed. There is
+10:51
+a specific goal for this. The notes are
+10:53
+used in and then there's a context for
+10:54
+this, right? You can decide where
+10:55
+they're used. You then have a required
+10:57
+structure. Did you make decisions? Do
+10:59
+you have action items? Are there open
+11:01
+questions that were discussed? What were
+11:03
+the key discussion points? The vanilla
+11:05
+notes I get. Look, I love granola. I
+11:07
+love some otter. Right there. There's
+11:09
+these AI notes. They do not do this.
+11:11
+They do not help you encode intent. It
+11:14
+is up to you to bring this level of
+11:16
+clarity. And I want to help, but there's
+11:19
+no substitute for that intent. The AI
+11:21
+won't bring it. You have constraints.
+11:24
+You have a total length that you have to
+11:26
+keep to. You have decisions. You have to
+11:27
+define an owner by name. You have action
+11:30
+items. You cannot include pleasantries
+11:33
+or general discussions. You may not
+11:35
+infer. You may not guess. This is the
+11:38
+tone. And then here are validation
+11:40
+quality checks. Every decision must have
+11:42
+a name decision maker. Every action item
+11:44
+must have an owner. No action item is
+11:45
+allowed to be vague. Open questions must
+11:47
+have or assigned owners. If any check
+11:50
+fails, revise before outputting. Is this
+11:53
+perfect? No prompt is perfect. Is this
+11:56
+going to get you a long way on intent?
+11:58
+Yes. And then I want to get into, and I
+12:00
+do, why the prompt works, right? It
+12:02
+communicates purpose. It communicates
+12:04
+structure as logic. And you can change
+12:05
+that structure if you want a different
+12:07
+intent. There's an eval mode. There's a
+12:08
+failure mode. Well, let's look at how to
+12:11
+customize it, right? And I include that,
+12:12
+too, right? For your workflow. You can
+12:14
+change it up. You can change it to your
+12:16
+organization's voice. You can have
+12:18
+different meeting types. You can have a
+12:19
+sprint goal instead. You can have
+12:21
+failure modes that are different. And
+12:23
+then I can give you an example of an
+12:24
+output, right? This is what a good
+12:25
+output looks like. This is what a
+12:26
+terrible output looks like, right? And
+12:28
+this is very similar to the AI notes I
+12:30
+get generically. Frankly, Chad GPT
+12:32
+launched a meeting notes feature that
+12:33
+looks a lot like that top part. This is
+12:35
+part of how I know we're losing good
+12:37
+quality business intelligence. Like the
+12:39
+bottom example is going to be much more
+12:43
+informative for the business than the
+12:45
+top. So please, please, I have a bunch
+12:48
+of these prompts. I don't care if you
+12:50
+use my prompts or not, but please put
+12:53
+intent
+12:55
+into your business AI writing. That is
+12:58
+the key. And if prompts help you scale
+13:00
+that across the business, if Claude's
+13:01
+skills help you scale that across the
+13:03
+business, I built both of those. That's
+13:05
+great. But that there is no substitute.
+13:08
+You you cannot get away from the need
+13:11
+for humans to define what good looks
+13:14
+like for AI and to define requirements.
+13:16
+And to be honest with you, that is the
+13:18
+thing I'm excited about. We have sat for
+13:20
+a long time with the assumption that
+13:22
+human best effort is kind of the bar for
+13:25
+docs and we just all have like I worked
+13:27
+at Amazon and we had like a bar for docs
+13:29
+that floated around best based on the
+13:31
+best human writer in the team in the
+13:33
+department etc. You don't have to have
+13:35
+that anymore. You can have a really
+13:37
+consistent highquality bar and you can
+13:39
+know whether someone is writing to that
+13:41
+bar or not. And people ask me all the
+13:43
+time, well does this mean people won't
+13:44
+think anymore? I I dare you. I dare you.
+13:48
+Are you going to think less if you go
+13:50
+through this process? If you actually
+13:52
+define intent for your business with
+13:54
+writing, no, you are going to think
+13:56
+more. You are going to think harder.
+13:58
+You're going to have to work harder to
+13:59
+communicate all of this to people
+14:01
+because so much of it was vague and
+14:02
+lived in people's heads. Well, not
+14:04
+anymore. And the reason why you're going
+14:06
+to have to do this is because the
+14:08
+alternative is not what we had pre202
+14:11
+where everyone wrote everything. The
+14:13
+alternative is AI slot forever because
+14:17
+AI is out of the box. Everyone's using
+14:19
+it and everybody I know at work that's
+14:21
+drowning in AI docs, which is a lot of
+14:23
+people. Well, that's not going to stop.
+14:26
+The people making them aren't going to
+14:27
+stop because they think it's productive.
+14:29
+We need AI education that emphasizes
+14:32
+quality, that emphasizes the different
+14:35
+ways we need to think. I hope this video
+14:36
+has helped you think about how our
+14:38
+brains need to change to communicate
+14:40
+effectively with AI when we are writing.
+14:43
+Best of luck out there and may you long
+14:46
+save and long preserve your business
+14:48
+from AI slop and bad business writing. I
+14:51
+hope these tips have helped.

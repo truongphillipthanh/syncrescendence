@@ -1,0 +1,772 @@
+https://www.youtube.com/watch?v=BkJyVjq457w
+AI Is Coming For These 3 Industries In 2026 (a16z Big Ideas)
+
+10,553 views  Dec 26, 2025  The a16z Show
+AI is reshaping the foundations of industry, finance, and enterprise software.
+
+In part two of Big Ideas 2026, we explore three shifts redefining how systems scale. Ryan McEntush breaks down the rise of the electro-industrial stack and the challenge of building a U.S. ecosystem to power modern industry. Angela Strange explains why financial services and insurance are reaching a tipping point, where replacing legacy systems unlocks unified data, parallel workflows, and major margin gains. Sarah Wang looks ahead to a dynamic agent layer that overtakes traditional systems of record.
+
+Together, these ideas point to a clear shift: advantage moves from software to systems, from fragmented plumbing to AI-native platforms, and from static records to agent-driven execution.
+
+Timestamps: 
+0:00  Big Ideas 2026
+0:36  The Electro-Industrial Stack (Ryan McEntush)
+0:56  America vs. China: Industrial Ecosystems
+2:12  Blending Talent and Building Prestige
+3:56  The Importance of Supply Chains
+4:22 A Turning Point in Financial Services (Angela Strange)
+4:49  AI-Native Infrastructure and System Unification
+5:35  Expanding Categories and 10x Winners
+6:24  Why Now? The Drivers of Change
+7:25  Opportunities for Early Adopters
+8:06  The Power of Unified Data
+8:55  Call to Founders: The Opportunity in 2026
+9:23  The Dynamic Agent Layer (Sarah Wang)
+9:50  From Systems of Record to Dynamic Agents
+10:28  The ITSM Example and Agent Layer Value
+11:19  The Race for Better Solutions
+
+Resource: 
+Follow Ryan on X:   / rmcentush  
+Follow Angela on X:   / astrange  
+Follow Sarah Wang on X:   / sarahdingwang   
+
+Read more all of our 2026 Big Ideas
+Part 1: https://a16z.com/newsletter/big-ideas...
+Part 2: https://a16z.com/newsletter/big-ideas...
+Part 3: https://a16z.com/newsletter/big-ideas...
+
+Stay Updated:
+
+If you enjoyed this episode, be sure to like, subscribe, and share with your friends!
+
+Find a16z on X:   / a16z  
+
+Find a16z on LinkedIn:   / a16z  
+
+Listen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RD...
+
+Listen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast...
+
+Follow our host: https://x.com/eriktorenberg
+
+Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures.
+
+Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see [a16z.com/disclosures](http://a16z.com/disclosures).
+
+---
+
+Big Ideas 2026
+0:00
+Welcome to part two of our 2026 Big
+0:02
+Ideas. Ryan Macintosh explores the rise
+0:04
+of what he calls the electro-industrial
+0:06
+stack, a new foundation for how we build
+0:08
+and power America's industrial future.
+0:11
+Angela Strange identifies a critical
+0:12
+turning point in financial services and
+0:14
+insurance where decades old systems are
+0:16
+finally ready for reinvention. And Sarah
+0:19
+Wang reveals how a dynamic agent layer
+0:21
+is emerging to overtake traditional
+0:22
+systems of record fundamentally changing
+0:24
+how enterprise software operates. These
+0:26
+aren't just forecasts. their firsthand
+0:28
+perspectives from investors driving
+0:30
+change across American dynamism,
+0:32
+financial services, and enterprise
+0:33
+technology.
+0:35
+My name is Ryan McIntosh. I'm an
+The Electro-Industrial Stack (Ryan McEntush)
+0:37
+investing partner on the American
+0:38
+Dynamism team. My big idea for 2026 is
+0:41
+that the electro-industrial stack will
+0:43
+move the world. The next industrial
+0:44
+evolution won't just happen in
+0:46
+factories, but inside the machines that
+0:47
+power them. This is the rise of the
+0:49
+electroindustrial stack. Combined tech
+0:51
+that powers electric vehicles, drones,
+0:53
+data centers, and all of modern
+0:55
+manufacturing. I I think there are
+America vs. China: Industrial Ecosystems
+0:57
+common uh tropes people report on.
+0:59
+People talk about China's so far ahead
+1:01
+uh we can't catch up. And actually, you
+1:03
+know, you go back a couple years ago and
+1:05
+people were saying, you know, China's
+1:06
+very far behind and America's incredibly
+1:08
+fast. So, we've seen sort of like a
+1:09
+whiplash and now it's the opposite. I
+1:11
+think the reality is that uh you know,
+1:13
+the technology that China has, America
+1:15
+can do. Uh we're very good at uh
+1:18
+engineering. We're very good at doing
+1:19
+specific things. And in fact even like
+1:21
+the you know recent stuff around rare
+1:23
+earth for example rare earth separation
+1:25
+and processing we know how to do this we
+1:27
+can do this we can do it incredibly
+1:28
+fast. The real challenge is building the
+1:30
+ecosystem to do this industrially at
+1:32
+scale and doing it at a low cost.
+1:34
+Another example you know people
+1:36
+typically talk about is is companies
+1:37
+like SpaceX or Android these large
+1:39
+businesses that need to move incredibly
+1:41
+fast and thus vertically integrate. In
+1:42
+many ways they're vertically integrating
+1:44
+by necessity not strategy. There just
+1:46
+isn't an ecosystem of companies that can
+1:48
+scale with them. That is not the case in
+1:49
+China. There are tier one, two, three
+1:51
+suppliers, components, raw materials
+1:54
+that exist in those ecosystems as well
+1:56
+as the, you know, the institutions and
+1:58
+uh uh political bodies that allow them
+2:00
+to move incredibly fast. Those are the
+2:02
+things that might take years or decades
+2:04
+for us to catch up to China. We can do
+2:06
+the technology, but everything else
+2:08
+needs to grow with it, or else we're
+2:09
+just moving the bottleneck. So if you
+2:11
+want to build uh the electro-industrial
+Blending Talent and Building Prestige
+2:13
+stack or the core components that feed
+2:16
+into these technologies in the United
+2:17
+States uh you need to blend Silicon
+2:20
+Valley software talent and culture uh
+2:23
+with industrial veterans. Even companies
+2:25
+like SpaceX, they were pulling
+2:26
+propulsion talent from people who worked
+2:28
+on you know shuttle program and various
+2:30
+old school contractors when Shawwell
+2:32
+came from aerospace corporation. Like
+2:34
+there there is a there is a world where
+2:35
+you need this actual expertise. You need
+2:37
+to know what's been tried before. There
+2:38
+are smart people ex out there in these
+2:41
+other companies, but you need to be able
+2:42
+to move a lot faster. There's a lot of
+2:44
+advantages of software today. So, you
+2:46
+need to be able to get the software
+2:47
+talent that may not exist in these
+2:48
+companies previously. You also want to
+2:50
+colllocate engineering and manufacturing
+2:53
+concepts like design for manufacturing
+2:55
+uh are something that you know when
+2:56
+you're tightly integrated on the same
+2:58
+footprint or in the same ecosystem uh
+3:00
+you can move a lot faster. And I think
+3:02
+also you need to build prestige around
+3:03
+the mission. Um, for a lot of sort of
+3:05
+traditional Silicon Valley talent, the
+3:08
+smartest people can work on a number of
+3:09
+problems and there are a lot of problems
+3:11
+that are worthy of working on. Some of
+3:12
+them pay more than others. So, you need
+3:15
+to attach sort of a a prestige or a
+3:17
+purpose to what you're working on and uh
+3:20
+use that to to attract the top talent.
+3:22
+The way that software will affect the
+3:24
+physical world is through these sort of
+3:26
+embodied electrified components. And
+3:28
+it's not just, you know, not just a
+3:30
+humanoid robot or an electric vehicle,
+3:32
+but it's the batteries, it's the power
+3:33
+electronics, it's the compute, it it's
+3:36
+it's the motors. All these things we're
+3:38
+going to need to either reshore or
+3:40
+vertically integrate within the
+3:41
+companies who are building the end
+3:43
+product. These are, you know, very
+3:44
+technical. These require a lot of
+3:46
+expertise. These are very difficult
+3:48
+problems to solve. But the companies who
+3:50
+solve it and the countries who have the
+3:52
+talent base to in order to support it
+3:54
+are the ones who are going to win in the
+3:55
+21st century. And as software and
+The Importance of Supply Chains
+3:57
+artificial intelligence get stronger and
+3:59
+they start having you know more of a
+4:01
+presence in in automation and industrial
+4:04
+military owning these supply chains is
+4:06
+going to become even more important. And
+4:08
+I think as we you know look forward 50
+4:10
+100 years owning the supply chains today
+4:12
+are going to have a lot of effects of
+4:13
+who controls both the sort of economic
+4:15
+and military uh powers uh in in the
+4:18
+future.
+A Turning Point in Financial Services (Angela Strange)
+4:22
+I'm Angela Strange, a general partner on
+4:24
+the AI applications fund. And my big
+4:27
+idea for 2026 is there will be a
+4:30
+dramatic turning point coming to
+4:32
+financial services and insurance where
+4:34
+finally the risk of not replacing legacy
+4:37
+systems will exceed the risk of change.
+4:40
+It's already happening. Major
+4:42
+institutions will let long-standing
+4:44
+contracts lapse and implement their
+4:47
+newer AI native competitors. Why? The
+AI-Native Infrastructure and System Unification
+4:50
+next generation of infrastructure
+4:52
+doesn't just add AI. They unify the data
+4:54
+from legacy cores, from external
+4:57
+systems, from unstructured data into a
+4:59
+new system of record, enabling FIS not
+5:01
+only to scale, but to take full
+5:03
+advantage of AI. When this happens,
+5:06
+there are three major changes that are
+5:08
+important for both customers and
+5:09
+builders. One, workflows will finally
+5:13
+become parallelized. No more bouncing
+5:15
+between screens, cut pasting data. For
+5:18
+instance, your mortgage team could see
+5:20
+the 400 plus tasks that are needed to
+5:23
+underwrite your loan, do them in
+5:25
+parallel, and even have agents do some
+5:27
+of the more mundane ones for you to
+5:29
+check later. Second, the categories as
+5:32
+we know them are going to expand. For
+Expanding Categories and 10x Winners
+5:35
+instance, customer data from onboarding,
+5:37
+KYC, KYB, transaction monitoring, even
+5:41
+how those customers behave with your
+5:42
+customer service team could all sit into
+5:44
+a single risk platform. brings together
+5:47
+fraud, risk, compliance much more
+5:49
+effectively. And then third, most
+5:52
+excitingly for the builders, the new
+5:53
+winners here will be 10x bigger. Not
+5:56
+only because those software categories
+5:58
+are bigger, but because software is able
+6:01
+to consume a lot of the labor that
+6:03
+humans didn't want to do anyways or that
+6:05
+banks or insurance companies couldn't
+6:06
+hire for fast enough. So, as the saying
+6:09
+goes, it's not AI that's the
+6:11
+competition, it's your competitors using
+6:13
+AI. So the best banks, the best
+6:15
+insurance companies will fix their
+6:17
+plumbing and enable them to take full
+6:19
+advantage and be the most competitive
+6:20
+going into the next decade. Companies
+6:22
+have been talking about this for
+6:23
+decades. Why is it different now?
+Why Now? The Drivers of Change
+6:26
+Primarily three reasons. One, we have to
+6:29
+remember that many of these companies
+6:31
+still live on mainframes, decades old
+6:34
+mainframes, and their systems were
+6:36
+already on the verge of breaking with
+6:38
+the scale. Two, now companies see that
+6:41
+they're leaving a lot of revenue on the
+6:43
+table by not being able to take
+6:45
+advantage of AI. For instance, in
+6:48
+insurance, underwriters sometimes can't
+6:50
+even get to the demand that they have
+6:52
+because they're not able to process it
+6:54
+fast enough. They can't bring in the
+6:55
+documents. They can't scan them. This is
+6:57
+a huge revenue upside that can be
+6:59
+captured if you get the right system and
+7:01
+you layer AI on top. Third, there are
+7:04
+strong viable options of this next
+7:07
+generation of AI first software built by
+7:10
+entrepreneurs who deeply understand your
+7:12
+industry, are deeply technical, and have
+7:15
+entirely rearchitected your platforms to
+7:18
+one enable you to scale and two be
+7:20
+incredibly flexible in terms of how you
+7:22
+can add AI on now and in the future. I
+Opportunities for Early Adopters
+7:25
+see a ton of opportunity here and
+7:27
+potentially a dramatic reordering of the
+7:30
+winners and losers of incumbent
+7:32
+companies based on who become the early
+7:36
+adopters of some of these new platforms.
+7:38
+And we're already seeing it. There's
+7:40
+some banks and there's some insurance
+7:41
+companies that are starting to get the
+7:43
+reputation of being forward thinking,
+7:46
+easier to work with, wanting to lean in.
+7:48
+And those companies in some areas like
+7:50
+mortgage servicing have been able to
+7:51
+turn areas of their business from 5%
+7:53
+margin businesses to 50% margin
+7:56
+businesses. And you imagine doing that
+7:58
+across your company as quickly as
+7:59
+possible. It's going to make a much
+8:01
+bigger difference against your
+8:03
+competitor that maybe takes 2 or 3 years
+8:05
+to catch up. One of the reasons as an
+The Power of Unified Data
+8:07
+investor that I get so excited about
+8:09
+infrastructure is that it's beautiful
+8:12
+infrastructure that enables beautiful
+8:15
+consumer experiences and beautiful
+8:17
+business experiences.
+8:19
+For instance, why does your bank market
+8:22
+products to you that you already have?
+8:24
+It's because your customer data sits in
+8:27
+all of these different sectors. Why
+8:29
+can't customer service agent A answer
+8:31
+questions about customer service B if
+8:33
+you call in about your banking
+8:35
+operations? Now, imagine the future of a
+8:38
+unified data layer and incredibly smart
+8:41
+people supplemented by agents that can
+8:45
+understand your needs, help you with any
+8:47
+product you already have, anticipate
+8:49
+your needs in the future. That would be
+8:51
+a beautiful experience for both
+8:53
+customers and businesses. In 2026, we're
+Call to Founders: The Opportunity in 2026
+8:56
+going to see a dramatic acceleration for
+8:58
+any company that has built a new AI
+9:01
+first platform that sells into this
+9:03
+large industry. But the opportunity is
+9:06
+massive. So if you are a founder who
+9:08
+deeply understands or is deeply curious
+9:10
+about any archaic aspect of banking or
+9:14
+insurance, the opportunity is now. You
+9:16
+can build your software faster and
+9:18
+customers are ready to buy.
+The Dynamic Agent Layer (Sarah Wang)
+9:23
+I'm Sarah Wang, general partner on A16Z
+9:26
+Growth, and my big idea for 2026 is that
+9:28
+systems of record start to lose their
+9:30
+edge. A passive system of record layer
+9:33
+stops making sense when agents can
+9:35
+independently execute on unsigned
+9:37
+intent. I expect to see a new dynamic
+9:39
+agent layer that actually makes sense
+9:41
+for employees to replace legacy systems
+9:43
+of record. This is a very exciting
+9:45
+development on the long road of
+9:47
+inserting intelligence into companies. I
+9:49
+don't say that systems of record are
+From Systems of Record to Dynamic Agents
+9:51
+losing privacy lightly at all. I used to
+9:53
+work at a firm that almost exclusively
+9:56
+invested in ERPs and other systems of
+9:59
+record because of the stickiness of the
+10:01
+data gravity. There was a wave of SAS
+10:03
+2.0 that was wellunded and tried and
+10:07
+failed to take on the system of record
+10:09
+mostly through a better UI. This is the
+10:11
+first time that we've seen a genuine
+10:12
+threat to that and that's because the
+10:14
+distance between intent and execution is
+10:17
+collapsing and that's creating not a 20
+10:20
+to 50% better experience for the user
+10:23
+but how you get to that magical TEDex.
+10:26
+Let's take the concrete example of ITSM
+The ITSM Example and Agent Layer Value
+10:29
+IT service management. This has
+10:31
+traditionally been the domain of
+10:32
+powerhouse company Service Now. I
+10:35
+chatted with a head of IT recently who
+10:37
+told me for the first time in his two
+10:39
+decade long career he believed that IT
+10:42
+support was fundamentally going to
+10:43
+change. It will look completely
+10:45
+different in 5 years. So why is that? If
+10:47
+you think about the way that the old
+10:49
+systems work, how long it takes to do
+10:51
+something like request access to new
+10:53
+software in the firm and you contrast
+10:55
+that with the ITSM agents that are
+10:58
+arriving. They plug into your stack and
+11:00
+this type of request becomes nearly
+11:03
+instantaneous. Through advancements in
+11:05
+LLM, you can now extract intent. You can
+11:08
+classify the request type. You can map
+11:09
+it to a known workflow, identify user
+11:12
+entities, and the request from the user
+11:15
+becomes fulfilled in a way that is
+11:17
+efficient and accurate. So, we think
+The Race for Better Solutions
+11:19
+there's a couple of valuable layers in
+11:20
+this new paradigm. Of course, there's
+11:22
+the foundation model layer. We believe
+11:23
+that stays valuable. Um, but it's really
+11:26
+the emerging agent layer that sits as
+11:29
+close as possible to the user and is
+11:31
+collecting data on that user,
+11:32
+understanding user preferences that we
+11:34
+think acrru value in the future. Based
+11:36
+on everything that we're seeing in the
+11:38
+wild, we believe this is a huge
+11:40
+opportunity for new players to come in
+11:42
+and win. Why is that? We're in a phase
+11:44
+right now where the product is getting
+11:47
+better on a weekly, if not daily, basis,
+11:49
+and you need teams that move fast. If
+11:52
+you're going to collapse intent and
+11:54
+execution, what bridges that is actually
+11:56
+having an accurate or reliable solution
+11:58
+for your customer. Otherwise, they're
+12:00
+not going to use it. They're not going
+12:01
+to trust the agent that you're building.
+12:02
+That's why we're starting to see even
+12:04
+agents built on top of classic iconic
+12:07
+platforms like Data Dog lose to some of
+12:09
+the new AI SRE companies like a a
+12:12
+Resolve or a Traversal. We're extremely
+12:14
+excited about this opportunity and 2026
+12:16
+is going to be the year that the dynamic
+12:18
+agent layer overtakes the system of
+12:20
+record.
+12:24
+[Music]

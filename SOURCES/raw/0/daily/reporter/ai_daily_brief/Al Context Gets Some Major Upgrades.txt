@@ -1,0 +1,798 @@
+https://www.youtube.com/watch?v=ZGOVzdxNrQg
+AI Context Gets Some Major Upgrades
+4,871 views  Premiered Oct 24, 2025  The AI Breakdown
+AI is getting smarter by remembering more. This episode breaks down major upgrades across Claude, OpenAI, and Microsoft—each racing to give their models better long-term memory, deeper business context, and shared collaboration tools. From Claude’s new memory buckets to OpenAI’s Company Knowledge and Microsoft’s Copilot “second brain,” it’s clear the future of AI is all about context.
+
+Brought to you by:
+KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
+
+The AI Daily Brief helps you understand the most important news and discussions in AI. 
+Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+Get it ad free at 
+Join our Discord: https://bit.ly/aibreakdown
+
+---
+
+0:00
+Everywhere you look, every new feature
+0:02
+announcement seems in some way or
+0:03
+another to be about providing AI models
+0:05
+with better context. Welcome back to the
+0:08
+AI daily brief. I am on record saying
+0:10
+that I think that the two big themes for
+0:13
+AI heading into 2026 are context and
+0:17
+ROI. And with a set of announcements
+0:19
+this week, you'd almost think that these
+0:22
+companies were trying to frontr run the
+0:23
+entire side of that context theme by
+0:26
+getting a whole new set of features into
+0:28
+place. In fact, there's so much going on
+0:30
+that even stalwarts like Professor Ethan
+0:31
+Malik are having trouble keeping up. On
+0:33
+Thursday, he tweeted, "Lots of scattered
+0:35
+AI announcements in the past couple of
+0:37
+days that are pretty valuable for
+0:38
+business use cases from Microsoft,
+0:40
+OpenAI, Google, and Anthropic around
+0:42
+memory, business context, and teamwork
+0:44
+with AI. Real issues. Now, I just need
+0:47
+time to try some of them out myself.
+0:50
+First up, we have Anthropics Claude
+0:52
+getting a memory upgrade. Memory is the
+0:56
+absolute Achilles heel when it comes to
+0:58
+productive LLM use. If you have spent
+1:01
+time having to reintroduce your LLM to a
+1:04
+whole slew of context or background
+1:06
+about a particular issue that is
+1:08
+relevant for the prompt that you're
+1:09
+trying to give it, you'll know just what
+1:11
+a pain this is. You also might have
+1:13
+experienced that challenge where you
+1:15
+thought that it had all of the
+1:16
+background context, but then all of a
+1:18
+sudden out of nowhere it just behaves as
+1:20
+though it has forgotten everything. And
+1:22
+yet still one of the biggest reasons, if
+1:24
+not the biggest reason, that I have
+1:26
+stuck pretty closely to chat GBT as my
+1:28
+main tool, even though I use all of the
+1:30
+popular chat bots at various points, is
+1:32
+that it has a better set of memory and
+1:34
+context around my work. Well, now with
+1:36
+this new upgrade, Claude is getting its
+1:38
+own version of memory. This first became
+1:40
+available to team and enterprise users
+1:42
+in September, but is now rolling out to
+1:44
+paid subscribers more broadly. And the
+1:46
+simple idea is to give Claude access to
+1:48
+previous conversations so that you don't
+1:50
+have to do all of that sort of
+1:51
+background and reminding every single
+1:53
+time. Now, Enthropic says that they're
+1:55
+trying to be extremely transparent
+1:57
+around how memory works. The new
+2:00
+features allow users to both search and
+2:01
+reference chats as well as to generate
+2:03
+memories from chat history. When it does
+2:06
+that memory generation, it gives people
+2:08
+the ability to see what things Claude
+2:10
+actually remembers. It provides a memory
+2:12
+summary, is transparent about which
+2:14
+chats it comes from, and also tries to
+2:16
+give you more controls around turning
+2:17
+memories off. The Verge writes, "You
+2:19
+could tell Claw to focus on specific
+2:21
+memories or quote forget an old job
+2:23
+entirely." They're also effectively
+2:25
+trying to create distinct memory spaces
+2:27
+or project-based memory organization so
+2:30
+that the memory itself can be organized
+2:31
+into different buckets. Now, this is a
+2:33
+real issue right now. I've called it in
+2:35
+the past context confusion. And where I
+2:37
+see it most acutely in my interaction
+2:39
+with chatbt is that it has a hard time
+2:41
+understanding where AI daily brief as a
+2:44
+business begins and ends as opposed to
+2:45
+super intelligent which although related
+2:48
+via me are two separate things with
+2:50
+different revenue streams, different
+2:51
+goals, different players involved. And
+2:53
+so I'm excited to see if Anthropic's
+2:55
+approach to this can actually help solve
+2:57
+for that sort of context confusion
+2:58
+issue. They're also allowing people to
+3:01
+import memories from other platforms
+3:02
+like Chat GPT and Gemini and export
+3:05
+memories from Claude so that there isn't
+3:06
+memory lockin. Most people are just
+3:08
+straight up excited about this. Although
+3:10
+Ruin Dong does note that one of the
+3:12
+potentially negative things that comes
+3:14
+with increased memory is the expansion
+3:16
+of what personal data people are
+3:18
+comfortable giving their AI. She writes,
+3:20
+"People's tolerance for AI storing their
+3:22
+data keeps growing because for users
+3:23
+it's usability. Just like in the mobile
+3:26
+era, we once feared apps knowing too
+3:27
+much and exposing us too easily. Then we
+3:29
+started worrying about not being seen
+3:31
+enough. The wheel of history turns
+3:33
+again. Now, speaking of history, we also
+3:36
+recently talked about a new feature from
+3:37
+Anthropic called skills. Skills are
+3:40
+basically a way to create little
+3:41
+packages of context that the Claude
+3:43
+models can call on when they make sense.
+3:45
+And it's a way to both improve the
+3:47
+context that Claude has access to as
+3:48
+well as improve the efficiency of the
+3:50
+model because they can use a less
+3:51
+sophisticated model to figure out which
+3:53
+of those skills they should be drawing
+3:55
+upon for a particular query or prompt
+3:56
+and then only deploy the real aggressive
+3:58
+use of tokens when they are in that
+4:00
+right skills context. Well, as Alex
+4:02
+Albert, who is anthropic big Claude
+4:04
+Hypeman on Twitter, points out with this
+4:06
+chart, GitHub stars for anthropic skills
+4:08
+are growing at a much faster rate
+4:10
+initially even than MCP. Now, real ones
+4:13
+might remember that MCP, while it was
+4:15
+initially interesting to people, took a
+4:17
+few months to really hit its inflection
+4:18
+point around March of this year and then
+4:20
+had that sort of parabolic growth curve.
+4:23
+Skills though, at least so far, has been
+4:24
+just straight up into the right. Next
+4:27
+up, we move to OpenAI, who has announced
+4:28
+a direct business context feature called
+4:30
+company knowledge. OpenAI CEO of
+4:33
+applications Fiji Simo writes, "It
+4:35
+brings all the context from your apps,
+4:36
+Slack, Google Drive, GitHub, etc.
+4:38
+together in chat GBT so you can get
+4:40
+answers that are specific to your
+4:42
+business. Company knowledge is basically
+4:44
+exactly what it sounds like. The idea is
+4:46
+that a huge amount of the relevant
+4:48
+context for a particular business lives
+4:50
+inside the documents and history of the
+4:51
+other applications that that business
+4:53
+uses. Think conversations in Slack,
+4:55
+planning documents in Google Docs,
+4:57
+contacts in HubSpot, you name it.
+4:59
+Company knowledge is a more simplified
+5:01
+user experience that gives enterprise
+5:03
+users access to all of that information.
+5:05
+In the announcement post, they write,
+5:07
+"Chachbt can help with almost any
+5:09
+question, but the context you need to
+5:10
+get work done often lives in your
+5:12
+internal tools, docs, files, messages,
+5:14
+emails, tickets, and project trackers.
+5:16
+Those tools don't always connect to each
+5:18
+other, and the most accurate answer is
+5:19
+often spread across them. With company
+5:21
+knowledge, the information in your
+5:23
+connected apps like Slack, SharePoint,
+5:25
+Google Drive, and GitHub becomes more
+5:27
+useful and accessible. For example, if
+5:29
+you have an upcoming client call,
+5:30
+ChatGBT can create a briefing for you
+5:32
+based on recent messages from your
+5:34
+account channel in Slack. key details
+5:35
+from emails with your client and the
+5:37
+last call notes in Google Docs and any
+5:39
+escalations from intercom support
+5:40
+tickets since your last meeting. Now,
+5:42
+this is one of those absolutely duh
+5:44
+features that is just totally essential
+5:46
+and completely game-changing for
+5:48
+enterprise users. This sort of
+5:50
+enterprise search is so valuable that
+5:52
+companies like Glean have built a 9-f
+5:54
+figureure revenue business around just
+5:56
+this core feature. If you are using a
+5:58
+version of chatbt that has company
+6:00
+knowledge enabled, under the ask
+6:02
+anything bar, there should be a little
+6:03
+button that says company knowledge. And
+6:05
+when you click it, it gives you the
+6:06
+ability to add all of the connected apps
+6:07
+that you use at work. As it's working
+6:09
+and drawing upon those sources, it
+6:11
+shares its chain of thought so you can
+6:12
+follow along and see what's happening.
+6:13
+And importantly, it provides citations
+6:15
+of the sources it used to inform its
+6:17
+responses along with the specific
+6:19
+snippets that it drew from, giving you
+6:21
+the ability to dive deeper into that
+6:22
+original source to both double checkck
+6:24
+the work or to go deeper on some
+6:26
+particular question. Now, it seems like
+6:28
+the search model that they're using is
+6:30
+pretty sophisticated, at least in terms
+6:31
+of how they're describing it. They claim
+6:33
+that it's smart enough to understand
+6:35
+conflicting details and can run multiple
+6:37
+searches to resolve those details. It
+6:39
+can also provide comprehensive responses
+6:41
+that don't just rely on one source. In
+6:44
+other words, it's not necessarily
+6:45
+optimized to just find the fastest
+6:47
+answer. It's got a prerogative around
+6:48
+comprehensiveness. And it even has the
+6:50
+ability to rank sources by recency and
+6:52
+quality, making it so that you don't
+6:54
+necessarily have to specify time or
+6:56
+dates for it to get you the most
+6:58
+relevant and recent information. Now, of
+7:00
+course, they also give a whole bunch of
+7:01
+provisors and guarantees around privacy.
+7:03
+And one interesting note is that when
+7:05
+the company knowledge feature is turned
+7:06
+on, chatbt does not have access to
+7:08
+search the web or to create charts and
+7:10
+images. You can manually turn it off
+7:12
+mid-stream and continue working in the
+7:14
+same conversation to use those
+7:16
+capabilities and it doesn't lose that
+7:18
+existing context, but right now they're
+7:20
+separate features. The reason for that,
+7:22
+as Andrew, who's the AI ops lead at
+7:24
+Bergkshire Gray, points out, is that
+7:25
+it's actually powered by a new model.
+7:28
+Andrew writes quietest agent release
+7:29
+I've seen. What he's referring to is
+7:31
+this. It's powered by a version of GPT5
+7:34
+that's trained to look across multiple
+7:36
+sources to give more comprehensive and
+7:37
+accurate answers. In other words, this
+7:40
+is a version of GPT5 that is optimized
+7:42
+for this particular use case. I imagine
+7:44
+that this is going to be an extremely
+7:47
+unlocking feature for a huge number of
+7:49
+enterprise users. Certainly, the people
+7:51
+at OpenAI who are using it are already
+7:52
+reporting positive results and I would
+7:54
+expect this to become completely deer
+7:56
+and a huge competitive advantage for
+7:59
+Chat GPT's enterprise version. One other
+8:01
+interesting OpenAI announcement. On
+8:04
+Thursday of this week, the company also
+8:05
+announced that it had bought the
+8:06
+bombastically named software
+8:08
+applications, Inc., which is the
+8:09
+2-year-old AI startup behind Sky, which
+8:12
+they describe as a powerful natural
+8:13
+language interface for the Mac. From the
+8:15
+blog post, with Sky, AI works alongside
+8:18
+you, whether you're writing, planning,
+8:19
+coding, or managing your day. Sky
+8:21
+understands what's on your screen and
+8:23
+can take action using your apps. You'll
+8:25
+remember when we talked about the AI
+8:27
+browser that the two perspective value
+8:29
+propositions of that are on the one hand
+8:31
+agent mode and the ability for the
+8:33
+browser to actually do things for you.
+8:35
+But that my feeling about that set of
+8:37
+benefits is that they are kind of locked
+8:39
+in for the future as opposed to
+8:40
+something that's going to be super
+8:41
+relevant right now. Whereas the
+8:43
+immediate benefit is the ability to use
+8:45
+your chatbot with the context of what's
+8:47
+on your screen. Instead of having to
+8:49
+drag a tweet that you're drafting over
+8:50
+into chat GPT, if you've got the sidebar
+8:53
+pulled up on the window, it can just see
+8:54
+what you're drafting, which is a
+8:56
+reduction in the cognitive load that
+8:57
+comes with context switching. Sky is
+8:59
+something similar to that, but instead
+9:01
+of it being a browser, it's your entire
+9:02
+operating system that they have the
+9:03
+context of. A video shows someone
+9:06
+grabbing a message from iMessage and
+9:07
+dragging it into the Sky window and that
+9:09
+being able to unlock a whole set of next
+9:11
+steps, including putting it on a
+9:12
+calendar, really making this an
+9:14
+operating system parallel to the context
+9:16
+benefits of the AI browser. Most people
+9:19
+were just absolutely gobsmacked that
+9:21
+Apple had let this team who's so deeply
+9:24
+integrated into the Mac operating system
+9:27
+go to OpenAI.
+9:29
+Finally, on this theme of context
+9:30
+getting an upgrade, we have the fall
+9:32
+announcements for Microsoft Copilot.
+9:34
+Now, they set this up as a broad release
+9:37
+with a bunch of different pieces. And
+9:39
+while Microsoft AI CEO Mustafa Sullyman
+9:41
+said that the announcements all boil
+9:43
+down to the one core idea of them
+9:45
+betting on humanist AI, I think that the
+9:47
+subtext is all about context. So, there
+9:50
+are a couple different ways that this is
+9:51
+manifest. One interesting one is
+9:53
+co-pilot groups. Copilot groups are kind
+9:56
+of exactly what you would imagine. If
+9:58
+you are using co-pilot to plan or
+10:00
+brainstorm or iterate on something that
+10:02
+involves a group, maybe you're planning
+10:04
+a trip with friends or you're thinking
+10:05
+through a problem with classmates.
+10:07
+Groups allows any particular co-pilot
+10:10
+conversation to become a group thread.
+10:12
+The friend trip planning example was the
+10:14
+one they gave in their demo video. After
+10:16
+getting the conversation started, a link
+10:18
+populated that the prompter could use to
+10:19
+invite a set of their friends to all be
+10:21
+part of the conversation. Now, this is
+10:23
+obviously quite valuable for that use
+10:25
+case, but I kind of imagine this being
+10:26
+the type of feature that quickly becomes
+10:28
+table stakes across all of the different
+10:30
+tools. I just think that there are
+10:31
+enough times when you want to be
+10:33
+actively engaging with other people,
+10:35
+particularly in the work context, where
+10:38
+it's going to be more valuable to bring
+10:39
+them into the conversation early as
+10:41
+opposed to just sharing a link to the
+10:42
+conversation later. One of the things
+10:44
+that happens at Super Intelligent all
+10:45
+the time is one of us will have some
+10:47
+extended thread with one of the tools
+10:49
+and then have to catch people up by
+10:51
+using the link to that conversation that
+10:53
+they then have to go back through and
+10:54
+read and try to grock. This way just
+10:56
+seems much more efficient and again
+10:57
+reduces context switching. They also
+11:00
+explicitly added what they call deeper
+11:02
+memory and shared context. In their
+11:04
+announcement blog, they write, "Copilot
+11:06
+now has long-term memory, helping you
+11:07
+keep track of your thoughts and to-do
+11:09
+list almost like a second brain. With
+11:11
+memory and personalization, you can ask
+11:12
+co-pilot to remember important
+11:14
+information like training for a marathon
+11:15
+or an anniversary, then recall it during
+11:17
+future interactions. We're also
+11:19
+beginning to roll out the ability to
+11:20
+reference explicitly past conversations,
+11:23
+making it easier to pick up where you
+11:24
+left off after some time has passed.
+11:26
+Then, hearkening to the company
+11:27
+knowledge features that we were just
+11:29
+discussing. They're also adding
+11:30
+connectors. With connectors, you can
+11:32
+link Copilot to One Drive, Outlook,
+11:34
+Gmail, Google Drive, Calendar, etc., and
+11:37
+bring all of that context into your
+11:38
+co-pilot conversations. Microsoft, of
+11:41
+course, also got its own version of an
+11:42
+AI browser with them explicitly saying
+11:44
+that co-pilot mode in Edge is evolving
+11:46
+into a full AI browser. We've already
+11:49
+extensively covered the context
+11:50
+implications of that and they're also
+11:52
+using their integration with the Windows
+11:54
+operating system to, as they put it,
+11:55
+turn every Windows 11 PC into an AI PC.
+11:59
+Of course, for many, there's no bigger
+12:00
+news from this Microsoft announcement of
+12:02
+the return of Clippy, who is this time
+12:04
+named Mo. But for me, as you can tell,
+12:06
+this announcement is all just about
+12:08
+making AI work better by giving it more
+12:10
+information about the person who's
+12:11
+piloting it. I think we are going to see
+12:13
+more and more efforts around memory,
+12:16
+long-term context, understanding, but
+12:18
+there is no doubt that after this week,
+12:19
+context has gotten a big upgrade. For
+12:22
+now, that's going to do it for the AI
+12:23
+daily brief. Appreciate you listening or
+12:25
+watching as always and until next time,
+12:27
+peace.

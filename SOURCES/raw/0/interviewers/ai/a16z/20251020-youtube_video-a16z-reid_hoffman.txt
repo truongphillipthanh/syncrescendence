@@ -1,0 +1,1080 @@
+https://www.youtube.com/watch?v=brjL6iyoEhI
+Reid Hoffman on Al, Consciousness, and the Future of Labor
+27,066 views  Oct 20, 2025  The a16z Podcast
+Reid Hoffman has been at the center of every major tech shift, from co-founding LinkedIn and helping build PayPal to investing early in OpenAI. In this conversation, he looks ahead to the next transformation: how artificial intelligence will reshape work, science, and what it means to be human.
+In this episode, Reid joins Erik Torenberg and Alex Rampell to talk about what AI means for human progress, where Silicon Valley’s blind spots lie, and why the biggest breakthroughs will come from outside the obvious productivity apps. They discuss why reasoning still limits today’s AI, whether consciousness is required for true intelligence, and how to design systems that augment, not replace, people.
+
+Reid also reflects on LinkedIn’s durability, the next generation of AI-native companies, and what friendship and purpose mean in an era where machines can simulate almost anything. This is a sweeping, high-level conversation at the intersection of technology, philosophy, and humanity.
+
+Timestamps:
+00:00 The Spirit of Silicon Valley
+00:27 Web 2.0 Lessons & the Seven Deadly Sins
+01:15 Investing in AI & Silicon Valley Blind Spots
+03:40 From Productivity Tools to Drug Discovery
+05:45 Will AI Replace Doctors?
+09:40 Limits of LLMs and Reasoning
+13:00 Credentialism vs. Competence
+15:00 Bits vs. Atoms: The Robotics Challenge
+18:00 AI Savants & Context Awareness
+20:10 Software Eating Labor & the “Lazy and Rich” Heuristic
+24:25 Scaling Laws and the Future of AI
+31:15 Consciousness and Agency in AI
+35:45 Philosophy, Idealism & Simulation Theory
+38:15 LinkedIn’s Durability & Network Effects
+47:00 Friendship & Human Connection in the AI Era
+
+Stay Updated: 
+If you enjoyed this episode, be sure to like, subscribe, and share with your friends!
+
+Resources:
+Follow Reid on X: ​​x.com/reidhoffman
+Follow Alex on X: x.com/arampell
+Find a16z on X: https://x.com/a16z 
+Find a16z on LinkedIn:   / a16z   
+Listen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RD...
+Listen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast...
+Follow our host: https://x.com/eriktorenberg
+
+Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures
+
+
+---
+
+
+The Spirit of Silicon Valley
+0:00
+This is actually one of the things that I think people don't realize about Silicon Valley. You start with what's the amazing thing that you can suddenly
+0:06
+create. Lots of these companies and you go, "What's your business model?" They go, "I don't know." They're like, "Yeah, we're going to try to work it out, but I
+0:13
+can create something amazing here." And that's actually one of the fundamental, call it the religion of Silicon Valley
+0:19
+and the knowledge of Silicon Valley that I so much love and admire and embody.
+0:26
+Re welcome podcast. It's great to be here. So Reed, you're one of the most successful web 2
+Web 2.0 Lessons & the Seven Deadly Sins
+0:32
+investors of of that era. You know, Facebook, uh, LinkedIn obviously, which you co-created, Airbnb, many, many
+0:37
+others. And you had several frameworks that helped you do that. One of which was the seven deadly sins, which we talk about often and love. As you're thinking
+0:43
+about AI investing, what what's a framework or worldview that you take to your AI investing?
+0:49
+So obviously we're all looking through a glass darkly looking through a fog with
+0:55
+strobe lights that don't really you know are hard to understand what's going on. So we're all navigating this new this
+1:01
+new universe. So I don't don't know if I have as Christopher but the seven deadly sins still work because that's a
+1:07
+question of what is infrastruct psychological infrastructure across all 8 billion plus human beings.
+1:14
+But I'd say there's a couple things. The first is um there is going to be a set of things
+Investing in AI & Silicon Valley Blind Spots
+1:22
+that are the kind of the obvious line of sight obvious line of sight bunch of stuff with chat bots bunch of stuff
+1:28
+productivity coding assistance you know da d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d and so and by the way that's still worth investing in but obviously obvious
+1:35
+line of sight means it's obvious to everybody line of sight and so so you
+1:41
+know uh doing a differential investment is harder. The second area is well what
+1:47
+does this mean because too often people say in an area of disruption that everything changes as opposed to significant things change. So like you
+1:54
+were mentioning web 2 and LinkedIn and and obviously you know part of this with a platform change you go okay well are
+2:01
+there now new LinkedIns that are possible because of AI or something like that and obviously given my own heritage
+2:06
+I would love LinkedIn to be that but you know it's it's whatever I'm always pro innovation entrepreneurship best
+2:11
+possible thing for humanity um but like what are the kind of more traditional like the kind of things that
+2:18
+haven't changed network effects you know enterprise integration you other kinds
+2:23
+of things that that the new platform um upsets the apple cart, but you're still
+2:29
+going to be putting that apple cart kind of back together in some way. And what is that? And then the third um which is
+2:36
+probably where I've been putting most of my time has been what I think of as Silicon Valley blind spots because what
+2:44
+we tend to be like Silicon Valley is is one of the most amazing places in the world. there's a network of intense
+2:51
+coopetition, learning, you know, invention, you know, kind of uh building new
+2:57
+things, etc., which is just great. But we also have our cannons. We have our
+3:03
+kind of blind spots. And a classic one for us tends to be um well, everything should be done in CS, everything should
+3:08
+be done software, everything should be done in bits. And that's the most relevant thing because by the way, it's a great area to invest. Um, but it was
+3:15
+like, okay, what are the areas where the AI revolution will be magical but won't
+3:20
+be within the Silicon Valley blind spots? And that's probably where I've been putting the majority of my
+3:28
+co-founding time, invention time, um, you know, kind of investment time,
+3:35
+etc. Because like I think usually a blind spot on something that's very very big.
+From Productivity Tools to Drug Discovery
+3:40
+Yeah. Right. is precisely the kinds of things that you go, okay, you have a a long
+3:46
+runway to create something that could be like another one of the iconic companies.
+3:51
+Yeah. Let's go deeper on that because we were also talking just just before this about how people focus so much on the
+3:57
+productivity side, the workflow sides, but they're missing other other elements or so. Say more about other other things
+4:02
+that you find more interesting now. Well, so um
+4:08
+so one of the things I, you know, kind of told my partners back at Greylock in 2015, so it's like 10 years ago, um was
+4:15
+I said, "Look, there's going to be a bunch of different things on productivity around AI. Um I'll help,
+4:22
+right?" Like, you know, I'll you know, you have uh companies you want me to to work with that you're doing. Great.
+4:28
+That's awesome. You know, enterprise productivity, etc. You know, things that Greylock tends to specialize on. But I
+4:34
+said actually in fact what I think that's here getting the blind spots
+4:40
+is um is also going to be some things like you know what you know as you guys
+4:46
+both know Mattis AI um which is how do we create a drug discovery factory that
+4:52
+works at the speed of software right now obviously there's regulatory obviously there's biological bits
+4:58
+obviously d and so there's it won't be purely a speed of software but how do we do this And they said, "Oh, well, what
+5:04
+do you know about biology?" And the answer is zero. Well, it maybe not quite zero. You know, been on the board of Biohub for 10
+5:11
+years. I'm on the board of Arc, etc. Like, I've been thinking about the intersection of the worlds of atoms and
+5:16
+the worlds of bits. And you have biological bits which are kind of halfway between atoms and bits in various ways. I've been thinking about
+5:22
+this a lot and kind of what the things are, not so much with a specific company focus as much as a what are things that
+5:29
+elevate human life, you know, kind of focus. part of the reason why Biohub, part of the reason why ARC um but then I was
+5:36
+like well wait a minute actually now with AI and you have the acceleration because like for example um actually
+5:43
+this detour will be fun. Um so roughly also around 10 years ago I was asked to
+Will AI Replace Doctors?
+5:49
+give a uh a talk to the Stanford Long-Term Planning Commission and um
+5:56
+what I told them uh was that they should uh basically divert and and put all of
+6:03
+their energy into AI tools for every single discipline. And this is well before chat GBT and all
+6:09
+the rest. And the metaphor I used was a search metaphor because think if you had
+6:14
+a custom search productivity tool in every single discipline. Now back then I
+6:19
+could imagine it I could build one for every discipline other than theoretical math or theoretical physics. Today you
+6:26
+might even be able to do theoretical math and theoretical physics. Right. Exactly. And so do that like transform
+6:33
+knowledge generation, knowledge communication, knowledge analysis. Well, that kind of same thing now thinking,
+6:38
+well, well, the biological system is still too complex to simulate. We've got all these amazing things with LLMs, but
+6:46
+like the classic Silicon Valley blind spot is, oh, we'll just put it all in simulation and drugs will fall out, right? That
+6:54
+simulation is difficult. Now part of the insight that you begin to see from like
+6:59
+the work with alpha you know glow and alpha zero is because like people just think ah physical material is going to
+7:05
+take quantum muning. Now quantum computing could do really amazing things but actually simply doing prediction and
+7:12
+getting that prediction right and by the way it doesn't have to be right 100% of the time. It has to be right like 1% of
+7:18
+the time because you can validate the other 99% weren't w were right and then finding that one thing. And so literally
+7:24
+it's like it's not a needle in a hay stack. It's like a needle in a solar
+7:29
+system, right? And it's like but you could possibly do that. And that's part of what led to like okay Silicon Valley
+7:36
+will classically go we'll put it all in simulation and that will solve it. Nope, that's not going to work. Or oh no,
+7:42
+we're going to have a super intelligent drug researcher and that will be two years down the thing. I actually look
+7:48
+maybe someday, not soon. Right? So anyway, that was the kind of thing that
+7:54
+was the the the in other different areas. Now, part of it's also um you
+7:59
+know, kind of uh what a lot of people don't realize actually if I'm not going too long I'll go I'll
+8:05
+go to the other example that that I gave because you'll love this. Um this will echo some of our
+8:11
+conversations from 101 15 years ago. Um so um I am prepping for a debate about
+8:21
+on Sunday this week on whether or not AIS will replace all doctors in a small
+8:27
+number of years. Now the procase is very easy which is we have massively
+8:32
+increasing capabilities. If you look at chat GBT today, um you'd go like for
+8:38
+example, advice to everyone who's listening to this, if you're not using chat GBT or equivalent as a second
+8:44
+opinion, you're out of your mind. You're ignorant. You get a serious result.
+8:49
+Check it as a second opinion. And by the way, if it diverse, then go get a third. Um and so the diagnostic capabilities,
+8:56
+these are much better knowledge stores than any human being on the planet. So
+9:02
+you go well if a doctor is just a knowledge store yeah that's going away.
+9:08
+However the question is actually think that really do mean doctor and it's not like
+9:13
+oh someone who holds your hand and says oh it's okay etc. Um you know I actually
+9:19
+think there will be a a position for a doctor 10 years from now 20 years from
+9:24
+now. It won't be as the knowledge store. It will be as a user of the as an expert
+9:30
+user of the knowledge store, but it's not going to be, oh, because I went to med school for 10 years and I memorized
+9:37
+things intensely, that's why I'm a doctor. That's all going away. Great. That part, but that but there's a lot of
+Limits of LLMs and Reasoning
+9:44
+other parts to being a doctor now. So, I went to Chat GBT Pro, you know, using
+9:50
+deep research. I went to Claude, you know, uh, 4 Opus 4.5 deep research. I
+9:57
+went to Gemini Ultra. I went to co-pilot deep research. And I in all of these
+10:04
+things, I was doing everything I knew about prompting for to give me the best possible arguments for my position
+10:09
+because I thought, well, I'm about to debate on AI. Of course, I should be using AI debate.
+10:15
+The answers were B minus or B despite absolute topping. And I'm not like maybe
+10:21
+there's probably better prompters in the world, but I've been doing this since I got access to GPD4 6 months before the
+10:28
+public did. Right? So I' I've got some experience in the whole prompting thing. It's not like I'm an amateur prompter.
+10:35
+And so I looked at this and I went, "Oh, this is very interesting and a telling of where current LLMs are limited in
+10:42
+their reasoning capabilities." because um what it did is it basically did you
+10:48
+know 10 to 15 minutes of like 32 GPU compute clusters doing inference
+10:55
+bringing off all in amazing work relative to a work that an analyst would have produced in 3 days was produced in
+11:01
+10 minutes and of course I set it up all in parallel you know with different browser tabs all all going into the
+11:07
+different systems and then ran the comparisons across them everything but its flaw was is that it was giving me a
+11:15
+consensus opinion about how articles in good magazines, good things are arguing
+11:21
+for that position today. And all of that was weak because it was kind of like, oh, you need to have
+11:27
+humans cross-check the diagnosis, right? Like was a common theme across this. I'm like, well, by the way, very clearly we
+11:35
+know as technologists that human cross-checking the diagnosis, we're going to have AI cross-checking the
+11:40
+diagnosis. We're going to have AI cross-checking the AI are cross-checking the diagnosis. And sure, there'll be humans around here somewhere, but like
+11:47
+that's not going to be the central place to say in 20 years doctors are going to be cross-checking the diagnosis. Cuz by
+11:53
+the way, what doctors should be learning very quickly is if you believe something different than the consensus opinion
+11:59
+that an AI gives you, you'd better have a very good reason and you're going to go do some investigation. Doesn't mean
+12:06
+the AI is always right. That's actually part of what you're like what we're going to need in all of our professions
+12:11
+is is more sideways thinking, more lateral thinking. The okay, this is good consensus opinion. Now, what if it's not
+12:18
+consensus opinion? That's what doctors need to be doing. That's what lawyers will need to be doing. That's what coders will need to
+12:24
+be doing. You know, that's what it is. And LLMs are still pretty structurally limited there.
+12:29
+Well, it's funny. My my favorite saying is by Richard Feman. Science is the belief in the ignorance of experts.
+12:34
+Yes. And there are so many professions where the credentialism is the expertness, right? It's like it's it's
+12:40
+if this then that. And it's like I have MD, therefore I know. I have JD, therefore I know. And that's that's why
+12:47
+coding is actually a little bit ahead of it because it's like I don't care where you got your degree. This is a it's kind of ahead of the rest of society. Now, um
+12:54
+it's funny, Milton Friedman one time got asked um because he was you famous libertarian, don't you think that brain
+Credentialism vs. Competence
+13:00
+surgeons should be credentials? And it's like yeah, the market will figure that out. seems kind of crazy, right? But
+13:05
+that's how we we now do coding when you're in the world of bits. Um, but it feels like a lot of the reasons why you
+13:11
+have this, you know, very not not very advanced thinking is because so much of it is built upon layers of
+13:18
+credentialism. And that's that's a very good huristic. Historically, it has been. If you have a doctor that
+13:23
+graduated at the top of their class from Harvard Medical School, it's like probably a good doctor. Yes. And by the way, you critically wanted that.
+13:29
+Yes. Three years ago, right? Right. They just like, "No, no, I need someone who has the knowledge base." You have it. Great. Right.
+13:35
+But now we have a knowledge base. Yeah, I totally agree. That was the reason I was saying you would love this because
+13:40
+it echoes of our expertise. I thought you were going to get into um you know, Bits versus Adam atoms where it's kind of interesting
+13:45
+right now where it's like all this highv value work like Goldman Sachs sellside analyst, that's deep research, right?
+13:51
+Whereas Fold by Laundry, that's $100,000 of capex. So it doesn't work as well as somebody that you could pay $10 an hour
+13:57
+to. And it's like the atoms stuff is so hard to actually disrupt. Yes. Um and
+14:03
+we're going to get there eventually, but that's where Silicon Valley certainly has a blind spot. But it's like a capex versus opex or like you know bits versus
+14:09
+Adams. Yeah. Adams is another part, but that's also the reason why bio because bios are the are the are the are the bitty atoms.
+14:15
+Yes. Yes. Yes. Right. And what's the what's the best explanation for why it's so hard to figure out fold folding laundry but so
+14:21
+easy to figure out? Um well it's actually not that hard to figure out or why it's taken us much longer much
+14:27
+more expensive because we couldn't it would have been hard to foresee that in advance. Well I remember I talked to Ilia about this a few years ago and it's like why
+14:33
+is it that if you read an Asimov no no novel where it talked about like how you know people will cook for you and fold
+14:39
+your lawn like why have none of these things happened. Um and it's like well you just never had a brain that was smart enough. This was part of the
+14:44
+problem is that you could I mean yes you have things like you know how do you actually pick up this water bottle and it turns out your hands are very very
+14:50
+well like why are humans more advanced than every other species. So there are two reasons number one is we have
+14:55
+opposable thumbs and then number two is we've come up with a language system that we could pass down from generation to generation which is writing dolphins
+Bits vs. Atoms: The Robotics Challenge
+15:02
+are very smart like there was actually a whole theory which is it wasn't just brain size it was brain to body size
+15:09
+so humans were the highest. Nope. Not true. And now that we've actually measured every single animal, there are a lot of
+15:15
+animals that have more brain over body size. Um like that that that ratio is in tilt of an elephant or of a dolphin or I
+15:22
+forgot the numbers, but there are a bunch that are actually more advanced than humans, but they don't have opposable thumbs. And because of that, they never developed writing. So they
+15:28
+can't actually iterate from generation to generation. And humans did. And then of course like the human condition was
+15:33
+like it was this and then the industrial revolution then it went like that and now it's continued like this. By the way, this is the reason why in the last
+15:40
+four or five years, one of the things I realized is, you know, um because of the classic uh uh classification of human
+15:46
+beings as homo sapiens. I actually think we're homo because it's that iteration through technology. Yes. Yes. Exactly.
+15:53
+Whatever version, writing, typing, you know, but it's we iterate through technology. That's the actual thing goes
+16:00
+to future generations, builds on science, you know, all the rest of it. And that's what I think is really key. Yeah. A couple other explanations could
+16:07
+be that we have more training data on white collar work than sort of you know pick picking things up or or some people
+16:13
+make this evolutionary argument that we've been using our disposable thumbs for way longer than we've been say you know reading
+16:19
+well yeah it's the the lizard brain like most of your brain is not the neoortex and like that's the like draw and paint
+16:24
+and everything else which is actually very very hard. you can't find a dolphin that can draw or paint. And that's probably because they don't have opposable thumbs, but it's also like
+16:31
+maybe that part of the brain hasn't developed, but you have like you have billions of years of evolution for these somewhat autonomous responses
+16:38
+like fight or flight that's been around for a long long time well before drawing and painting. But I think the main issue
+16:44
+is just like you have battery chemistry problems. Like I can't like it turns out like a lithium ion battery is pretty
+16:50
+cool, but the energy density of that is terrible relative to ATP with cells, right? Like you have all of these
+16:56
+reasons why robotics don't work, but first and foremost is the brain was never very good. So you had robotics
+17:02
+like Fenoo, which makes assembly line robots. Those work really well, but it's like very deterministic or highly
+17:08
+deterministic. But once you go into like, you know, multiple degrees of freedom, you have to get so many things to work. And the capex, it's like I need
+17:14
+$100,000 to have a robot fold my laundry. And we have so many extra people that will do that work. The
+17:20
+economics never made sense. But this is why Japan is a leader in robotics. because they can't hire anybody. So
+17:26
+therefore, I might as well build true story, I went bowling in Japan and they had a robot to give like a vending
+17:32
+machine robot that would give you your bowling shoes and then it would clean the bowling shoes, right? And it's like
+17:38
+you would never build that here because you'd hire some guy from the local high school and he'd go do that. Yeah. And much cheaper and actually more
+17:44
+effective. But it's this capex like the capex line and the opex line when they cross then it's like oo I should build robots. So
+17:50
+that's the other thing that you probably need. But if the cost goes down then of course it it goes in in favor of capex versus opex.
+17:56
+I think there's other couple things to go in deeper on the robot side. So one is the density the the the the bits to
+AI Savants & Context Awareness
+18:04
+value. Yeah. Right. So like in language when we encapsulated all these things even into like romance novels there's a high bits
+18:11
+to value whereas when you're kind of in the whole world there's a lot of like
+18:17
+how do you we abstract from all those bits and how do you abstract them? There's another part of it which is kind
+18:22
+of common sense awareness like this is one of the things that like when I look at you know GBD2 3 4 5 it's a
+18:29
+progression of sants right and the soants are amazing it doesn't mean the savant but but like when it makes
+18:35
+mistakes like as a classic thing so Microsoft has had running for years now
+18:40
+agents talking to each other long form like just like let's go for a year and do that and see what happens and so
+18:47
+often they get into like oh thank you no thank you. No, thank you. One month
+18:52
+later, thank you. No, thank you. Which human beings are like, stop, right? Like just like it's and that's like a that's
+18:58
+a simple way of putting the context awareness thing of saying no, no, no, no. Let's let's stay very context aware.
+19:05
+And even as magical as the progression has been, like much much better data,
+19:11
+much much better reasoning, much much better uh personalization, etc., etc., context awareness only is a proxy of
+19:18
+that. Yeah. Yeah. I want to go deeper on um your question about doctor's read and
+19:24
+because Alex, we just released one of your talks around you software eating labor and I'm curious where you how you
+19:29
+what sort of frameworks you have for thinking about what spaces are going to have more of this co-pilot model versus what spaces it's going to be sort of
+19:35
+replacing the work entirely. I have I wish I could I'm going to use an LM to go predict the future, but I'm going to get a B minus. So maybe I'll
+19:42
+answer I get a B+. Um I think a lot of it is like the natural like there there's this skumorphic version which is
+19:48
+okay. Well, I I trust the doctor. Everybody trusts the doctor. The heristic is where did you go to medical school? Apparently, twothirds of doctors
+19:54
+now use open evidence. Um, which is like chat GPT, but it ingested the New England Journal of Medicine have like a license to that.
+20:01
+So, um, yeah, Daniel Nadler, good. Um, Ken, right? So, yeah. So, so that
+20:07
+seems like there's no reason not to do that. Like my my seven deadly sins version, uh, I'll simplify it, which is
+Software Eating Labor & the “Lazy and Rich” Heuristic
+20:12
+like everybody wants to be lazier and richer. M so if this is a way that I can like get more patients and do less work of course
+20:19
+people are going to use this there's no reason not to but does it replace that particular thing and actually most of
+20:25
+like the the software eats labor thing it doesn't actually eat labor right now the thing that's working the best is not
+20:30
+like hey I have a product where everybody's going to lose their job nobody's going to buy that product it's very very hard to get that distributed
+20:36
+as opposed to I will give you this magic product that allows you to be lazier obviously it's not framed this way like
+20:41
+lazy and rich sounds kind of uh you know not not great but I'm going to let you work fewer hours and make more money.
+20:47
+And that's that's a very killer combo. And if you have a product like that, um, and it's delivered by somebody that
+20:53
+already has that heruristic of expertise, these are just going to go one after another and get adopted,
+20:59
+adopted, adopted. And then eventually you're going to have cases like the one that you mentioned where if you don't use chat GPT when you get a medical
+21:05
+diagnosis, you're insane. But that has not fully diffused across the population. Well,
+21:10
+it's barely diffused. No, I know. Yes. No, but you were saying not fully. I mean, part of the reason everyone start doing it.
+21:16
+Yes. 100%. Well, it's funny because it's the fastest growing product of all time. Again, it's barely, you know. Well, that's why I'm convinced that AI
+21:22
+is massively underhyped because in in Silicon Valley, you might not make that claim. Maybe it's overhyped. Maybe valuation, whatever.
+21:28
+We all we all don't think it's overhyped. Um, but I think once I meet somebody in the real world and I show them this
+21:33
+stuff, they have no idea. And part of it is like they see the IBM Watson commercials and like, "Oh, that's AI." No, that's not AI, right? Or they see
+21:39
+the fake AI. They've seen chat GPT two years ago. It didn't solve a problem. And uh it's funny. I I made this blog
+21:46
+post. You know, back back when when you were my investor at Trial Pay, I called it never judge people on the present. And this is a mistake. It's it's a
+21:52
+category error that a lot of big company people make, but I mean that almost metaphorically. And the way that I wrote this blog post was I found a video of
+21:59
+Tiger Woods. He was two and a half years old. He hit a perfectly straight drive and uh he was on, you know, not the I
+22:06
+think the Tonight Show or something. And there were two ways of watching that video. You could say, "Well, I'm 44. or I can hit a drive much further than that
+22:12
+kid, which is correct. Or you can say, "Wow, if that 2 and a halfyear-old kid keeps that up, he could be really, really good."
+22:17
+And most people judge things on the present. Yes. And that's why it's underhyped because it's like they tried it at some point in time.
+22:23
+Um there's a distribution of when they tried it, like probabilistically it's in the past and like, "Oh, that didn't work for my use case. It doesn't work." And
+22:30
+that's that's that's bad. But so I think it's going to diffuse largely around this like lazy rich like concept. And
+22:37
+that's where a lot of these things have taken off. And I see it less at the very very big companies because you have a
+22:43
+principal agent problem at the very big companies. Like okay my company made money or save money. I'm a director of
+22:48
+XYZ. Like all I know is that I want to leave earlier and get promoted. Yeah. And how does that actually help me? It
+22:55
+helps the ethereal being of the corporation. Whereas at a smaller business or a sole proprietor or an
+23:00
+individual doctor where I run a dermatology clinic and somehow I can have five times as many patients or I'm
+23:05
+a plaintiff's attorney, I can have five times as many settlements. It's like, of course, I'm going to use that because I get to be lazier and richer.
+23:12
+Yeah. Yep. 100%. I think it's a great model. By the way, the other one you reminding me, uh, Ethan Mullik, uh, has a quote
+23:19
+here that I use often that every Yes. The worst AI you're ever going to use is the AI you're using today. Correct.
+23:24
+Because it's to remind you, use it tomorrow. Yeah. Yeah. Yeah. And a lot of the skeptics, it's exactly this. It's like, well, I tried it two
+23:30
+months ago and it didn't solve this problem. Therefore, it's bad. It's because you're judging it on the present. Like, you have to extrapolate.
+23:35
+Um, and you don't want to get like too extrapolatory on like, you know, oh, LLMs have this. Like, you actually have
+23:41
+I feel like the two types of people that are underhyping AI are people that know nothing and people that know everything.
+23:47
+It's really interesting. It's like the meme where it's like, you know, the idiot meme, right? It's like the people, but it's in Yeah, it's like the people
+23:53
+in the the this part of the distribution are correct. Normally, the meme is the opposite. It's like these part these people are smart even though they're
+23:58
+dumb. These people are smart even though they're smart. everybody here like this is this part of the curve is actually correct because they're the ones that
+24:04
+are using it to get richer and be lazier. The other thing I also tell people is if you haven't found a use of AI that helps
+24:12
+you on something serious today, not just write a sonet sonnet for your kid's birthday or you know I've got these
+24:18
+ingredients in my fridge. What should I make? Do those too. But if you haven't for something like work for like something is serious about what
+24:24
+you're doing, you're not trying hard enough. Yeah. Yeah. It isn't that it work does everything. Like for example, I still think if I put
+Scaling Laws and the Future of AI
+24:30
+in like how should Reed Hoffman make money investing in AI and I'll go try that again or I suspect I will still get
+24:37
+what I think is the bozo business professor answer versus the actual game name of the game. But um
+24:46
+everyone should be trying and I you know like for example we put when we get decks we put them in and say give me a
+24:52
+due diligence plan. Right. If not everybody here doing that that's a mistake. Yeah. cuz you five minutes you get one
+25:00
+and you go oh no not two not five oh but three is good and it would have taken me a day to getting to about three.
+25:07
+Yeah. Yeah. Um in terms of let's go back to extrapolation. Obviously the last few years have had incredible um growth. You
+25:14
+you were involved of course with open eyes since the beginning. When we look for the next few years um is a broader
+25:19
+question as to whether scaling laws will hold whether sort of the limitations um or how far we can get with with LLMs. um
+25:26
+do we need another breakthrough of a different kind? What is your view on some of these questions?
+25:31
+So one of the things we you know we all swim in this universe of extrapolating
+25:37
+the future. One of the things that's great about Silicon Valley and so you get such things as you know theories of singularity theories of super
+25:44
+intelligence theory of exponential getting to super intelligence soon and
+25:50
+what I find is usually the mistake in that is not the fact that extrapolating
+25:55
+the future that's smart and people need to do that and far too few people people do I think I remember liking your post
+26:00
+and helping promote it if I recall um but it's the notion Well, what curve
+26:08
+is that? Like if it's a savant curve, that's different than oh my gosh, it's
+26:14
+an apotheiois and now it's God, you know? You know, it's like no, no, no, it'll be an even more amazing savant
+26:21
+than we have. But by the way, if it's only savant, there's always room for us. There's always rooms for the generalist
+26:27
+and the cross checker and the context awareness and all the rest of it. Now, maybe maybe it'll cross over a threshold
+26:33
+or not. maybe it won't you know like I think there's a bunch of different questions there but that extrapolation
+26:38
+too often goes well it's exponential so in two and a half years magic and you're
+26:44
+like well look it is magic but it's not all magic is the is the kind of way of doing it now so my own personal belief
+26:52
+is that um look so the critics of LMS make a
+26:57
+mistake in that and you know we can go through all the different critics oh not knowledge representation it It screws up
+27:04
+on, you know, prime numbers and, you know, blah blah blah blah blah. We've all How many Rs in strawberry? Yes. Exactly. Exactly. You know, like,
+27:11
+wow, see, it's broken. And you're like, you're missing the magic, right? Like,
+27:16
+yes, maybe there's some structural things that over time, even in 3 to 5 years, will continue to be a difficult
+27:22
+problem for LLMs. But AI is not just the one LLM to rule them all. It's a
+27:28
+combination of models. We already have combination of models. We use diffusion models for various image and video
+27:33
+tasks. Now, by the way, they wouldn't work al without also having the LLMs in order to have the ontology to say create
+27:40
+me an Eric Torberg as a Star Trek captain, you know, going out to, you
+27:46
+know, explore the universe and meeting first contact with the Vulcans and so forth, which, you know, now with our
+27:52
+phone, we could do that, right? and it will be there uh courtesy open AI uh and
+27:58
+you know VO because Google's model is also very good but it needs LM for that but the thing that people don't track is
+28:04
+it's going to be LLMs and a fusion models and I think other things with a
+28:10
+with a fabric across them now one of the interesting questions is is the fabric fundamental LLMs is the fabric other
+28:16
+things I think that's a TBD on this and the degree to which it gets to intelligence is an interesting question
+28:22
+now one of the things I think is a Um, you know, like I I talked to all the critics intensely, not because I
+28:29
+necessarily agree with the criticism, but I'm trying to get to the what's the kernel of insight. Yeah. And like one of the things that I um
+28:36
+loved about, you know, kind of a set of recent conversations with Stuart Russell was say, hey, if we could actually get
+28:41
+the fabric of these models to be more predictable,
+28:46
+that would greatly uh allay the fears of what happens if something goes a muck.
+28:53
+Well, okay, let's try to do that. Now, I don't think the whole verification of outputs like like logical like we can't
+28:59
+even do verification of coding, right? Like verification strikes me as very hard. Now, brilliant man. Maybe we'll
+29:05
+figure it out. But the um but but on the other hand, the hey, this is a good
+29:10
+goal. Can we make that more programmable, reliable? I think that is
+29:17
+a good goal that people that very smart people should be working on. And by the way, smart AIs Well, that's some of the
+29:24
+math side is like if you think about the the foundation of the world. I mean, uh, philosophy is the basis of
+29:29
+everything. Actually, math cames from philosophy. It's called the cartisian plane after Decart. You know, you're a philosophy. You know this, right? So,
+29:34
+you have you have uh philosophy, math, physics, like why did Newton build
+29:39
+calculus to understand the real world? So, math, physics, physics gets you chemistry, chemistry gets you biology,
+29:46
+and then biology gets you psychology. So, that's kind of the stack. So if you solve math, that's actually quite
+29:52
+interesting because um there's a professor at Rutgers Contovich who's written about this a lot. Um and I find
+29:58
+this part fascinating just as a former mathematician because there are some very very hard problems.
+30:04
+Um there there's a rumor that the Navier Stokes equation is going to be solved by deep mind which would be huge. That's
+30:09
+one of the clay math problems. But you know the reman hypothesis like this is not like there's no eval. Yes.
+30:15
+Right. If it's like uh this is why if you look at the progression of AI there is the Amy the American Invitational
+30:21
+Math Examination where you the answers are all just like three it's just integers it's like 0 to 9999 is the
+30:28
+answer and then of course you can keep trying different things and then you either get the right answer or you don't and it's very very easy to do that whereas once you get to proofs
+30:35
+very very hard yes um and if you solve that I mean is that AGI no because the goalposts keep
+30:41
+changing on AGI but math is just so interesting AGI is AI we haven't invented. Exactly. Exactly. It's the correlary to
+30:48
+it's like, you know, if the worst AI you're going to try is today, well, a AGI is what you're going to have tomorrow, right? It's the same same kind
+30:54
+of thing. But math is a very very interesting one as well because you have these things. It's not like solving high
+31:00
+school math, right? This is like if you're able to actually logically construct a proof for something and then validate it. Um
+31:06
+there's a whole programming language called lean which is for that like that that stuff is also fascinating. So there's so many different vectors of
+31:11
+attack which is uh the other the other way of thinking about it. Fascinating. So, as you just mentioned, Alex Reed,
+Consciousness and Agency in AI
+31:17
+you're a philosophy major, but you're also very interested in deep in neuroscience. And some people say that,
+31:22
+hey, we'll never create AI with its own consciousness because we don't understand our own consciousness. We don't understand how our own brain
+31:28
+works. Um, and and then there's broader question as, oh, will AI have its own goals or will have its own agency? Uh,
+31:34
+what what is sort of your view on on some of these questions surrounding consciousness relates to AI? Well, consciousness is its own
+31:42
+fireball, which I will say a few things about. I think agency and goals is almost
+31:49
+certain. Um there is a question I think this is one of the areas where we want to ex um
+31:55
+have some clarity and control that was a little bit like the the kind of question what kind of compute fabric holds it
+32:01
+together because you can't get complex problem solving without it being able to set its
+32:06
+own minimum sub goals and other kinds of things and so so goal setting and behavior and inference from it and
+32:13
+that's where you get the classic kind of like well you tell it to maximize you tell it to maximize paper clips and it tries to convert the entire planet into
+32:20
+paper clips and there's one thing that's definitely old computer that which is no
+32:25
+context awareness something I even worry about modern AI systems but on the other hand it's like look if you're actually
+32:31
+creating intelligence they don't go oh let me let like let me just go try to
+32:36
+convert everything into paper clips it's like it's it's actually in fact not that simple in terms of how it plays now um
+32:43
+now consciousness is an interesting question because you got some very smart people Roger Penrose um who I actually
+32:48
+interviewed way back and on Emperor's New Mind, speaking of mathematicians um
+32:53
+and um you know who are like look actually in fact there's some thing about our form of intelligence our form
+33:01
+of of of computational intelligence that's quantum based that has to do with how our physics work that has to do with
+33:08
+things like t tubulars and so forth and by the way it's not impossible like that's that's that's a it's a coherent
+33:14
+theory from a very smart mathematician like one of the world's smartest
+33:19
+right? Like it's kind of in the category of there's other people as smart, but there's no one smarter, right, in in in
+33:25
+that convective. And so so that's possible. Um I don't think you need consciousness for um goal setting uh or
+33:34
+reasoning. Um I'm not even sure you need consciousness for certain forms of self-awareness. There may be some forms
+33:41
+of self-awareness that consciousness is necessary for. It's a tricky thing. philosophers have been trying to address
+33:47
+this not very well for as long as we've got records of philosophy, right? And
+33:53
+and philosophers agree. I'm not philosophers wouldn't think I was throwing him under the bus with this. They're like, "Yeah, this is a hard problem because it ties to agency and
+34:00
+free will and a bunch of other things." And and I think that the right thing to do is keep an open mind. Now part of
+34:05
+keeping an open mind I think u Mustafa Sulleman wrote a very good piece in the last month or two on like
+34:10
+semi-consciousness which is we make too many mistakes all of the touring test that piece of brilliance which is um
+34:17
+well it talks to us so therefore it's fully intelligence and all the rest and so similarly you had that kind of you
+34:24
+know kind of nutty event from that Google engineer said I asked this earlier model was it conscious and it
+34:30
+said yes so therefore it is yes QED you're like no no no It's like you have to be not misled by that kind
+34:37
+of thing. And like for example, you know, the kind of thing that you know what what I actually think most people
+34:44
+obsess about the wrong things when it comes to AI. They obsess about the climate change stuff because actually in
+34:50
+fact if you apply intelligence at the scale and availability of electricity, you're going to help climate change.
+34:56
+You're going to solve grids and appliances and a bunch of other stuff. It's just like no, this will be net
+35:01
+super positive. And by the way, you already see elements of it. U Google applied its algorithms to its own data
+35:07
+centers which are u some of the best tuned grid systems in the world. 40%
+35:12
+energy savings. I mean just you just d and just applying it. So that's the mistake. But one of the areas I think is
+35:18
+this question around like what is the way that we want children growing up with AIS? What is
+35:25
+their epistemology? What is their learning curves? You know what are the things that kind of play to this?
+35:30
+because that kind of question is something that we want to be very intentional about in terms of how we're
+35:36
+doing it. And I think that's like like if you want to go ask a good question that you should be trying to get good
+35:42
+answers that you could do something again and contributing good answers to, that's a good one. Yeah. Well, the the most cogent argument
+Philosophy, Idealism & Simulation Theory
+35:49
+that I've heard against free will uh is just that we are biochemical machines. So if you want to test somebody's free will, get them very hungry, very angry,
+35:56
+like all of these things where it's just there's a hormone. It's like norepinephrine, it's like that makes you act a particular way, it's like an
+36:02
+override. Yes. So you have this like free will thing, but then you just insert a certain chemical and then like boom, it changes.
+36:09
+Are you saying you're not a cartisian? You don't have a little pineal gland that connects the two sentences. I don't I don't know. So it's true. I
+36:16
+mean just like like hanger is Yeah. I'm hangry. Like that's a thing. Yes. And you know what what is the like do do you
+36:22
+actually want if you're developing super intelligence do you want to have this like kind of silly override? I mean the
+36:28
+reason why people go to jail sometimes that are perfectly normal is they get very angry. They do things that are kind
+36:33
+of like out of character but it's actually not out of character if you think about this free will override of just like chemicals going through your
+36:39
+bloodstream which is kind of crazy to think about. Look, since we're on a geeky nerdy podcast, I'm going to say two geeky nerdy things are. One, the
+36:46
+classic one is people say, "Yes, we are biochemical machines, but let's not be overly simplistic on what a biochemical machine is." That's like the Penrose,
+36:52
+quantum computing, etc. And you get to this weird stuff in quantum, which is
+36:58
+well, it's it it's of probabilistic dual superpositional form until it's
+37:03
+measured. Why is there magic in measurement? And is that magic and measurement something that's conscious?
+37:08
+You know, blah blah blah. know there's a bunch of stuff there. The the other um thing that I think is interesting that
+37:15
+we're seeing as a resurgence in philosophy a little bit is idealism. Like we would have thought as physical
+37:20
+materialists that that we go no idealists were disproven. They're gone. But actually beginning to say no
+37:27
+actually in fact what exists is thinking and that all of the physical things
+37:32
+around us come from that thinking. And obviously we see versions of this because you know I find myself
+37:39
+entertained frequently here in Silicon Valley by people saying we're living in a simulation. I know it. You know it. And you're like well your simulation
+37:46
+theory is very much like Christian intelligent design theory. It's the I have things that I can't explain. So
+37:53
+therefore creator no therefore simulation. No therefore creator of simulation. You're like no no no but I
+38:00
+you know. So clearly I'm not an idealist but that's why I see some resurgence of idealism happening.
+38:06
+I suspect geeky I suspect we'll solve for AGI before we solve for for various definitions of AGI
+38:12
+before we solve for the hard problems of uh of consciousness. Yes. Um I want to return to uh LinkedIn how
+LinkedIn’s Durability & Network Effects
+38:18
+we began the conversation because we were lucky to or I was lucky to work many years with you. We would get
+38:24
+pitches uh every week about a LinkedIn disruptor last 20 years. Right. Yes. And so and
+38:30
+nothing's come even close. No. And so it's fascinating. I'm curious why people p sort of underrated how hard it
+38:37
+was and people have this about Twitter too or other things that kind of look simple perhaps but are actually very
+38:42
+very difficult to unseat and have a lot of staying power. And and it's interesting you know Open AI they said
+38:48
+they're coming out with a job service to quote use AI to help find the perfect matches between what companies need and what workers can offer. I'm curious how
+38:55
+you think about sort of LinkedIn's durability. So look, I obviously think LinkedIn is durable, but first and
+39:00
+foremost, I I kind of look at this as humanity, society, industry. So first and foremost is what are the things that
+39:07
+are good for humanity, then what's good for society, then what's good for industry. And by the way, we do industry to be good for society, humanity. It's
+39:13
+not an it's not oppositional. It's just a you know, how you're making these decisions and what you're thinking about. So I would be delighted if there
+39:20
+were new amazing things that helped people um you know kind of uh make
+39:26
+productive work, find productive work in make them do them. We're having going to have all this job transition uh coming
+39:33
+from technological disruption with AI like it would be awesome. I of course would be extra awesome if it was
+39:39
+LinkedIn bringing it just given my own personal craft of my hands and pride at what we built and all the rest. Now the
+39:47
+thing with LinkedIn and you know Alex was with me on a lot of this journey uh you know as I sought his advice on
+39:53
+various things um the the LinkedIn was
+39:59
+one of those things where it's where the turtle eventually actually in fact like grows into something huge because for
+40:06
+many many years the general scuttlebutt in Silicon Valley was LinkedIn was the was the the dull boring useless thing
+40:14
+etc. And it was going to be Frenster. Probably most people listening to this don't know what Fster is. Then MySpace.
+40:20
+Maybe a few people have heard of that, right? You know, and then of course we got, you know, Facebook and Meta and,
+40:26
+you know, Tik Tok and all the rest. And part of the thing for LinkedIn is it's built a network that's hard to build,
+40:33
+right? Because it doesn't have the same sizzle and pizzazz that photo sharing has. It doesn't have the same sizzle and
+40:39
+pizzazz that you know um you know like one of the things that uh you know you
+40:45
+were referencing the seven deadly sins comment um and back when I started doing that 2002 yes I left my walker at the
+40:52
+door um uh the the thing that I used to say was uh Twitter was identity I
+40:57
+actually mistook it it's wrath right and so it doesn't have the wrath you know kind of component of it and so um and so
+41:05
+the uh you know the that and you said with LinkedIn LinkedIn's greed great you
+41:11
+know because seven deadly sins kind of u you know because because that's you know a motivation that's very common across a
+41:16
+lot of human beings rich and lazy yes exactly and so or you know you
+41:21
+you're putting it in the punchy way but simply being productive yeah more value creation and acrewing some of that value
+41:28
+to yourself and so um and so I think the reason why it's been difficult to create a uh a
+41:36
+disruptor to LinkedIn is it's a very hard network to build. It's actually not easy. And um and by staying really true
+41:44
+to it, you end up getting a lot of people going, well, this is this is where I am for that. And now I have a network of people with this and we are
+41:51
+here together collaborating and doing stuff together. And that's the thing that a new thing would have to be. Um,
+41:58
+and you know I uh you know I uh when I saw GBD4
+42:04
+um and uh knew that uh Microsoft had access to this. I called the LinkedIn
+42:10
+people and said you guys have got to get in the room to see this, right? because
+42:16
+you need to start thinking about what are the ways we help people more with that because you start with this is
+42:21
+actually one of the things that I think people don't realize about Silicon Valley because you know the general discussion is oh you're trying to make
+42:26
+all this money through equity and all this revenue of course you know business people are trying to do that but they don't realize is you start with what's
+42:33
+the amazing thing that you can suddenly create and part of it is like lots of these companies like get started with
+42:39
+and you go what's your business model you go I don't know like yeah we're going to try to work it out but I can
+42:44
+create something amazing here and that's actually one of the fundamental like places of what they you know call it the
+42:51
+religion of Silicon Valley and the knowledge of Silicon Valley that I so much you know love and admire and
+42:57
+embody. That's that's actually a question that I have. So I'll say one thing. It's a huge compliment to LinkedIn. It's anti-fragile.
+43:03
+Yes. And that like Facebook, oh nobody goes there anymore. It's like the yogi bear and it's too crowded. Nobody goes there anymore. It's oh there were too many
+43:09
+parents there and there's always been a new one. Like where did Snap like how did Snap start? like all these other networks started because people didn't
+43:15
+want to hang out with their boomer parents. Um my my kid won't let me follow him on Instagram, right? It's like he doesn't want to use Facebook. So
+43:21
+LinkedIn has has survived through all of that. But you referenced something that I think is a very interesting uh point
+43:26
+which is back in like web two it was like get lots of traffic, get amazing retention, you know, smile curve and
+43:33
+then you will figure out monetization. Yes. And like that isn't happening right now. It's not like get lot Yes. It happened
+43:39
+with chat GBT was like it's $20 a month. Yes. Right. like the monetization was kind of built in very very clear
+43:44
+subscription versus like become giant. Yes. Build a giant like do you think there will be new ones of those with AI?
+43:51
+Yes. And there will be new kind of premium. It's it's part of our tool chest. Now part of the reason why it's more tricky especially when you're doing
+43:56
+open AI is because the the um like the cogs are changed a little. Yes. Right.
+44:02
+For now. Yes. No. No. Like and so you just can't. This is one of the reasons why at PayPal we had to change to like
+44:08
+we as you know because you were close to us there like we had to change to a paid model because we're like oh look we have
+44:13
+exponentiating volume which means exponentiating cost curve which means despite having raised hundreds of
+44:19
+millions of dollars we could literally count the we could point to the hour that we'd go out of business right
+44:24
+because you know no you can't have an exponentiating cost curve. So I think that's one of the reasons why some of it has been different in AI because you
+44:31
+like you can't have an exponentiating cost curve without at least a following revenue curve, right?
+44:36
+But it's it's almost no fun. It's like Pinterest. It's like how are they going to make money now? Big public company. It's like there were a lot of these
+44:42
+during that era and now it's like they're burning lots of money. They're raising lots of money but the subscription revenue is baked in from
+44:48
+day zero and that's that's the fundament. But they have to because of the cost. They have to. Exactly. Yeah. Um, so I'm I'm waiting for like one of these like,
+44:54
+you know, net new companies that appeals to probably one of the seven deadly sins that the the new counterpart. Yeah. Well, I'd be happy to work on it
+45:01
+with you. Yes. Well, and it's fascinating. Some people have tried sort of different angles on
+45:06
+LinkedIn. One that I was curious about a few years ago was sort of this idea of could you get um what's on LinkedIn is
+45:11
+rums but not necessarily references. But the same way that résumés are viral, references are like anti or antimatic
+45:17
+and people don't want them on the internet. If there was a data set that people wanted on the internet, LinkedIn would have would have done it to some
+45:23
+degree. But uh yeah, I think most people who try these attempts don't kind of appreciate um sort of the subtleties of
+45:30
+uh and I've actually I mean we do have the equivalent of book blurb references. Yes. Endorsements.
+45:36
+You don't have a negative reference. Well, but but by the way, part of the reason why negative references is you have complexity in social relationships.
+45:42
+That's the negative virality point that you were just making. And then you also have complexity on like you know kind of
+45:49
+not just legal liability but social relationships and a bunch of other stuff. Now LinkedIn is still the best way to find a negative reference. I mean
+45:56
+that's actually one of the things that that I use LinkedIn to figure out who might know a person
+46:02
+and I have a standard email. You've probably gotten a bunch of these from me where I've where I've I email people
+46:07
+saying um could you rate this person for me from 1 to 10 or or reply call me.
+46:15
+negative. What? Yes. Yes. Right. And when you get a call me, you're like, "Okay, don't even need to take the call." Yeah.
+46:21
+Yeah. I understand. Right. Right. And by the way, sometimes you go when a person writes back 10, you're
+46:27
+like, "Really?" Like best person, you know, right? But what you're looking for
+46:32
+is like a set of eight nines. Yeah. And if you get a set of eight and nines, like you may still call and get some get some information, but you're like,
+46:38
+"Okay, I got a I got a quick referential information." Whereas, by the way, more often than not, you know, when you're
+46:44
+checking someone you really know, you you get a couple call mess because because my and it's just that quick because email one sentence thing, get
+46:51
+back, call me. You're like, "Okay, I understand." Yeah. Um, we have about 10 minutes left. Just
+46:57
+logistics check. Um, a couple last things we'll get into. Um, is there anything you wanted to make sure? But we can do this again. This is always
+Friendship & Human Connection in the AI Era
+47:03
+fun. Yes. Yeah. That's great. the um I'm curious Reed as you've sort of continued to
+47:08
+uplevel in your career and have more opportunities and they seem to compound especially you know post-selling LinkedIn h how have you decided where is
+47:15
+the highest leverage use for for your time where can you have the the the the biggest impact what's your mental framework for
+47:21
+so I mean one of the things that I'm sure I speak for all three of us is an amazing
+47:28
+time to be alive I mean this AI and the transformation of what it means for evolving homo techn and what what is
+47:35
+possible in life and in society and work and all the rest just amazing and so I
+47:41
+stay as uh involved with that as I possibly can like it has to be something that's so
+47:48
+important that I will stop doing that you know now within that you know part
+47:54
+of that was you know co-founding manusi with Sedart Mukerji who's the CEO emperor uh author of emperor all malades
+48:02
+um inventor of um some T- cell therapies. So it's like like for example getting an instruction from him on the
+48:07
+FDA process, you know, that's the kind of thing that makes us all run screaming for the hills, right? As a as an
+48:14
+instance. Um and so uh you know that kind of stuff, but also um you know like
+48:20
+one of the things I think is really important is as technology drives more and more of everything that's going on
+48:26
+in society, how do we make government more intelligent on technology? And so, you know, every kind of um, you know,
+48:32
+kind of well-ordered western democracy, um, I've done been doing this for at least 20 to 25 years. If if a minister,
+48:40
+you know, or kind of senior person from a from a democracy comes and asks for advice, I give it to them. So, you know,
+48:47
+just last week, I was in France talking with McCron because he's trying to figure out like, how do I help French
+48:53
+industry, French society, French people? What are the things I need to be doing? you know, if all the frontier models are
+49:00
+going to be built in the US and maybe China, what does that mean for how I help, you know, our people and so forth
+49:05
+and and he's doing the exact right thing, which is I understand that I have a potential challenge. What do I do to
+49:12
+help my people? Yeah. How do I reach out? How do I talk? Sure, they've got my straw. They've got some other things, but like how do I
+49:18
+maximally help what I'm doing? And so, putting a bunch of time into that as well. Yeah. I remember seeing your your your
+49:24
+calendar and it was what seemed like seven days a week meetings absolutely stacked and one of the ways in which
+49:30
+I've gone to six and a half days. Okay. I'm glad you calm down. One of the ways in which you're able to do that one
+49:36
+it's important problems but two you you work on projects with friends sometimes over over decades and you you maybe
+49:42
+we'll close here. You've thought a lot about friendship. You've you've you've written about it. You've spoken about it. I'm I'm curious what you found um
+49:48
+most remarkable or most surprising um about French where you think more people should appreciate especially as we enter
+49:53
+this AI era where people yeah sort of are questioning you know the next generation what's there going to be relationship to friends I actually am going to write a bunch
+50:00
+about this specifically because AI is now bringing some very important things that people need to understand which is
+50:07
+friendship is a joint relationship it's not a oh you're just loyal to me or oh you just do things for me oh this person
+50:13
+does things for me well there's a lot of people who do things for you. Your bus driver does things for you, you know, like like but that doesn't mean that
+50:20
+you're friends. Friends, like for example, like a classic way of putting is like, "Oh, I had a really bad day and I show up my friend Alex and I want to
+50:27
+talk to him and then Alex like, "Oh my god, here's my day." I'm like, "Oh, your day is much worse." We're going to talk about your day versus my day, right? You
+50:34
+know, that's the kind of thing that happens because what I think fundamentally happens with friends is two people agree to help each other
+50:41
+become the best possible versions of themselves. Yeah. And by the way, sometimes that leads to friendship conversations that
+50:48
+are tough love. They're like, "Yeah, you're [ __ ] this up and I need to talk to you about it." Right? It's not
+50:53
+I tell you like, you know, the the whole syopency phase and AI thing and all. It's not that. It's like how do
+51:00
+how do I help you? But as part of also the thing that I uh I gave the um
+51:06
+commencement speech at Vanderbilt a few years back and was on friendship and part of it was to say look part of
+51:11
+friends is not just does does Alex help me but Alex allows me to help him right
+51:19
+and as part of that that's part of how I become a deeper friend I learn things from it's not just help that helping
+51:24
+Alex that joint relationship is really important and you're going to see all kinds of nutty people saying oh I have
+51:31
+your AI friend right here. It's like no you don't. It's not a birectional relationship. Maybe awesome companion
+51:37
+like just spectacular but it's not a friend. And you need to understand like part of friend is part of when we begin
+51:42
+to realize that life's not just about us that we that it's a team sport. We go into it together. Um that sometimes, you
+51:49
+know, friendship conversations are wonderful and difficult, you know, and that kind of thing. And I think that's
+51:54
+what's really important. And and now that you know we've got this blurriness that AI has created, it's like shoot I
+52:01
+have to go write some of this very soon so that people understand how to navigate it and why they should not
+52:06
+think about AI anytime soon. Yeah. As friends. Well, one one thing I've
+52:12
+always appreciated about you as well is you're able to be friends with people for whom you have disagreements with or people for whom you know you are uh not
+52:19
+close to for a few years but you can reconnect and sort of uh yeah that ability is um yeah it's about us making each other the
+52:26
+better versions of ourselves and and sometimes that you know sometimes those go through rough patches. Yeah. I think it's a great place to
+52:32
+close Reed. Thanks so much for coming on the podcast. My pleasure and I hope we do this again. Yeah. Excellent.

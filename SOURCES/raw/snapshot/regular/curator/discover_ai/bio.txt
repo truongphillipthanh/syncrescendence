@@ -1,0 +1,13 @@
+Discover AI (@code4AI) is a YouTube channel and content platform focused on exploring the scientific frontiers of artificial intelligence. Unlike a venture capital podcast or a platform dedicated to simplifying research for beginners, Discover AI targets a more advanced audience with its deep dives into groundbreaking work from research labs around the world. 
+
+Discover AI's focus
+The content on Discover AI is centered on cutting-edge, academic AI research, and it is curated for those who want to move beyond superficial explanations of AI concepts. 
+- Target audience: Developers, researchers, and advanced enthusiasts who can appreciate the technical details of complex AI models and systems.
+- Key topics: The channel's videos often break down recent pre-print papers and academic research into various areas, including:
+    - Multi-agent systems: Detailed explorations of frameworks and protocols for complex AI agent interactions.
+    - Large language models (LLMs):Discussions on phenomena like "grokking" and the internal reasoning and knowledge of LLMs.
+    - AI for real-world problems: Applications in fields like biomedicine, urban design, and climate change are highlighted to show how AI creates tangible value.
+- Approach: Discover AI focuses on providing detailed, scientific explanations of how these AI systems work, often referencing specific research papers and their authors. 
+
+Who is behind Discover AI?
+Information about the specific individuals behind Discover AI is not publicly available on the channel or associated content. In contrast to channels like Two Minute Papers, which are person-driven, Discover AI is presented as a content-focused resource. For example, a post on X by Tolga Birdal (a researcher at MIT) references a Discover AI video, suggesting the channel collaborates with or draws from the work of researchers in the field, rather than being hosted by a single public figure. The channel's strength lies in its curation and presentation of high-quality, scientifically robust content, rather than in the persona of a single host. 

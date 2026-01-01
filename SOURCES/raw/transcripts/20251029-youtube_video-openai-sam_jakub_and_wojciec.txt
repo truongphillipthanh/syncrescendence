@@ -1,0 +1,1174 @@
+0:06
+Hello, I'm Sam. This is our chief scientist, Yakob. And we have a bunch of updates to share today about OpenAI. Um,
+0:12
+obviously the news of today is our new structure. We're going to get to that near the end, but there's a lot of other important context we would like to share
+0:18
+first. Given the importance of a lot of this, we're going to go into uh an unusual level of transparency about some
+0:24
+of our specific research goals and infrastructure plans and product, but we think it's uh you know sort of very much
+0:29
+in the public interest at this point to cover all of this. So our mission at OpenAI in both the nonprofit and our new
+0:35
+PBC is to ensure that artificial general intelligence benefits all of humanity. As we get closer to building this, we
+0:41
+have new insights into what that is going to mean. There was a time earlier on in OpenAI
+0:47
+where we thought that AI would or AGI would be sort of this oracular thing in the sky and it would make all these
+0:52
+wonderful things for us and we now have a sharper view of that which is we want to create tools and then we want people
+0:59
+to use them to create the future. We want to empower people with AI as much as possible and then trust that the
+1:04
+process that has been working for human history of people building um better and better things with newer and better
+1:10
+tools will continue to go on. We we can now see a vision where we help build a
+1:16
+personal AGI that people can use anywhere with all of these different tools, access to all these different services and systems to help with work
+1:23
+and personal life and their personal life. And as AI gets better and better, as AI can even do things like discover
+1:29
+or help discover new science, what people will be able to create with that um to make all of society better and
+1:35
+their own lives more fulfilled, we think should be quite incredible. There are three core pillars we think
+1:41
+about for OpenAI. Research, product, and infrastructure. We have to succeed at the research required to build AGI. We
+1:47
+have to build a platform that makes it easy and powerful to use. And we have to build enough infrastructure such that
+1:53
+people can use at a low cost all of this amazing AI that they'd like. Here's a
+1:58
+little like cartoon of how we think about our world. So, at the bottom layer here, we have chips, racks, and the
+2:04
+systems around them, the data centers that these go into, and the energy. Uh we'll talk more about the first three today in energy another time. Then we
+2:10
+train models on top of these. Then we have an open AI account on top of that. We have a browser now uh called Atlas
+2:17
+and we have devices coming um in the next few years that you'll be able to take AI with you everywhere. And we have
+2:23
+a few first party apps like Chachi Pine and Sor and we'll have more over time. But mostly what we're excited about is
+2:28
+this big puzzle piece in the upper right. We're finally getting to a world where we can see that people are going
+2:34
+to be able to build incredible services uh with AI starting with our API with apps and chatbt new enterprise platform
+2:40
+that we'll have over time uh an open account and way way more and people will be able to fit all of the kind of like
+2:48
+current things in the world and many more into this new AI world and we want to enable that and we we believe the
+2:53
+world will build just a huge amount of value for um for all of us. So that's kind of what we see the economic picture
+3:00
+looking like. But one of the things that we've thought about for a long time and we really see happening now or starting
+3:05
+to happen now, glimmers of it, green shoots, whatever you want to call it, is the uh impact that AI will have on science. And um although the economic
+3:12
+impact from that previous slide will be huge for the long-term quality of life uh and improvement that and change in
+3:18
+society, AI that can autonomously discover new science or help people discover new science uh faster will be I
+3:26
+think one of the most important things and something that we're really trying to wrap our heads around. So I'm going
+3:31
+to hand this over to Yakob to talk about research and as I mentioned uh we're going to share a lot about our internal goals and our picture of where thing
+3:38
+where things are. Thanks Sam. Um at the core we are a
+3:44
+research laboratory focused on understanding a technology called deep learning. And so a particular focus of
+3:51
+ours is um understanding uh what happens as you scale up training deep learning
+3:56
+systems. Um and one consequence we discuss a lot
+4:02
+there uh is AGI artificial general intelligence. But we find that um in
+4:08
+some way even this maybe understates a bit um the magnitude of um the possible
+4:16
+progress and change here. Um and so in particular we believe uh that it is
+4:22
+possible that deep learning systems are less than a decade away from super intelligence. So systems that are
+4:31
+smarter uh than all of us on uh a large number of of of of critical
+4:39
+axis and um this is of course a a serious thing
+4:46
+right there's uh a lot of implications of this to grapple with and one uh
+4:53
+particular focusing impact of this technology um and the technologies
+4:58
+leading up to it and something that we organize our entire research program around is the potential uh to accelerate
+5:06
+scientific discovery um to accelerate the development of new technology.
+5:12
+Um we believe that this will be uh perhaps the most significant uh long-term impact
+5:21
+of AI development. um and it will fundamentally change the pace of progress on on on developing new
+5:28
+technologies. Um and so thinking about how far along
+5:33
+we are uh uh towards these goals, uh one good way to think about progress is to
+5:40
+look at the time horizon that it would take people to accomplish the task that the models can perform. And so this is
+5:47
+something that has been extending rapidly over the past few years. Um so
+5:53
+where the current generation of models is at right now is about five hours. So
+5:58
+um if you you can see this by looking at the models matching the best people in
+6:03
+competition such as the international Olympics or informatics and we believe that this horizon will
+6:09
+continue to extend rapidly and this is in part as a result of algorithmic innovation and a part uh just scaling
+6:17
+deep learning further and in particular scaling um along this um new axis um in
+6:23
+context compute also called test time compute uh where we really see orders and orders of magnitude to go. Um so
+6:31
+this is roughly how much time the model spends thinking right and if you look at how much time the model's currently
+6:36
+spent thinking about problems and if you think about how much compute how much time you would like to spend on problems
+6:43
+that really matter such as scientific breakthroughs you should be okay using entire data centers. Uh and so there is
+6:49
+there is really quite a way to go there. Um and anticipating this progress uh we
+6:57
+of course make plans around it internally and we want to provide some transparency around our thinking there
+7:03
+and so we want to take this maybe somewhat unusual step of sharing our internal goals and goal timelines uh
+7:09
+towards these very powerful systems and you know these particular dates we absolutely may be quite wrong about them
+7:16
+uh but this is how we currently think this is currently how how how we plan and organize and So as a research
+7:22
+organization that is working on automating research, naturally we are thinking about how does this impact our
+7:29
+own work and uh how will AI systems that accelerate development of future AI
+7:35
+systems look like? How can they empower um research like alignment? And so uh we
+7:41
+are making plans around getting to quite capable AI research interns that can meaningfully accelerate our researchers
+7:48
+by expanding a a significant amount of compute um by
+7:54
+September of next year. So we believe that is actually quite close. Um and
+7:59
+then we uh look towards getting a system capable of autonomously delivering on
+8:05
+larger research projects and a meaningful uh fully automated AI researcher uh by March of 2028.
+8:14
+Um and so of course as we look towards these very capable systems uh we think a
+8:19
+lot about safety and alignment right and in fact a lot of our work uh both on
+8:26
+deployments and safety uh but also just on on on understanding deep learning and
+8:32
+development capability side we can think of preparation for these very capable models. Um safety is a multiaceted
+8:39
+problem and so the way we generally structure our thinking uh are these five
+8:44
+layers ranging from uh factors that are most internal to the model to ones that
+8:50
+are most external. And so at the core right and what we believe is the most important uh long-term safety question
+8:57
+for super intelligence is value alignment. So to put this um
+9:05
+this value alignment uh you can think of as
+9:10
+what is what is really the thing that the AI fundamentally cares about uh can it adhere to some high level principles
+9:17
+u what will it do if it's given unclear and conflicting objectives u does it
+9:23
+laugh humanity um and the reason we believe that kind
+9:30
+of this this high level uh um
+9:35
+um objectives or or or or principles driving the AI are so important is that
+9:41
+as we get to the systems that are thinking for very long, uh as they become very smart, as they tackle
+9:47
+problems that are uh um at the edge or perhaps beyond human ability, uh really
+9:53
+getting to like complete specifications becomes quite difficult. Uh and so we
+9:59
+have to rely on this on this deeper alignment. Um then there's goal alignment. Um, does
+10:05
+the agent uh interact with people? How does it interact with people? How does it um do it following instructions? Um,
+10:15
+then reliability. Um, can the AI correctly calibrate its predictions? Uh,
+10:21
+can it be reliable on easy tasks, express uncertainty on hard ones, can it deal with environments that are a little
+10:27
+bit unfamili unfamiliar? Um then we have adversarial robustness which is very related to reliability but
+10:33
+it's about adversarial settings. So can can the AI withstand target attacks from human or AI adversaries.
+10:41
+And then the outer layer is systemic safety which are guarantees about the behavior of the overall system that do
+10:47
+not rely on the AI's intelligence or alignment. Um so for example this can be
+10:53
+security or what data does the AI have access to? um or um um uh um what
+11:02
+devices it can use. And so we invest in multiple research directions across these domains. And we have seen uh quite
+11:11
+a lot of progress also come from just the general uh development and improving understanding of deep learning uh as a
+11:18
+whole. And uh I want to I I want to take a slightly deeper technical dive here.
+11:24
+Um and talk about a particular direction. Uh value alignment is a hard
+11:30
+problem, right? It's definitely not solved yet. Um however, there is a new promising tool that aids our study of
+11:36
+it. Uh and that is chain of fun faithfulness. Uh it's something we
+11:42
+invest in very heavily. Um, starting from our first reasoning models, we've been pursuing this new direction in
+11:48
+interpretability. And the idea is to keep parts of the model's internal
+11:53
+reasoning free from supervision. So don't look at it during training and
+11:59
+thus let it remain representative of the model's internal process. Um,
+12:06
+so we refrain from from from from kind of guiding the model to think good
+12:12
+thoughts and and and and and so let it let let it remain a bit more faithful to to to what it actually thinks, right?
+12:20
+And this is not guaranteed to work, of course, right? We cannot make uh mathematical proofs about deep learning.
+12:27
+And so this is something we study. Uh but there are two reasons to be optimistic. One reason is that we have
+12:33
+seen very promising empirical results. Uh this is a technology we employed a lot internally. Uh we use this to
+12:40
+understand um how our models u um train
+12:45
+h how their propensities evolve over training. Uh also we have had successful
+12:52
+external collaborations on investigating the models propensity scheme for example.
+12:57
+Um and secondly uh it is scalable and in the sense that explicitly we make the
+13:04
+scalable objective not adversarial to our ability to monitor the model. Um
+13:10
+and of course an objective not being adversarial to the ability to monitor the model is only half the battle. Um
+13:18
+and you know ideally you want it to to to get it to help with monitoring the model. And so this is something we're
+13:23
+we're researching quite heavily. Um but one important thing to underscore about train of thought faithfulness is
+13:29
+it's somewhat fragile. Um it really requires drawing this clean boundary uh
+13:35
+and having this clear abstraction uh and having restraint in in what ways you can
+13:40
+access the chain of thought and this is something that is present uh at OpenAI from algorithm design to the way we
+13:47
+design our products right so so if you look at the chain of thought summaries in chat GPT uh if we didn't have the
+13:55
+chain of summarizer if we just make the chain of f fully visible at all times right that would make it kind part of
+14:01
+the overall experience over time it will be very difficult to not subjected to any supervision.
+14:06
+Um and so longterm we believe that by preserving some amount of this controlled privacy for the models uh we
+14:13
+can retain the ability to understand their inner process and we believe this can be a very impactful technique uh as
+14:18
+we move towards these very capable longunning systems. Um and I'll hand back to Tom.
+14:25
+Okay, that's very hard to follow uh with the rest of this and obviously that's the most important part of what we have to say. But um you know just to to
+14:32
+reiterate uh we may be totally wrong. We have set goals and missed them miserably before. But with the picture we see we
+14:37
+think it is plausible that by September of next year we have sort of a intern
+14:43
+level AI research assistant and that by March of 2028 which I believe is almost
+14:48
+5 years to the month after the launch of GPT4. um we have like a a legitimate AI
+14:54
+researcher and this is the core thrust of our research program. There are two other areas we want to talk about uh
+14:59
+product and then infrastructure. On the product side, as we make this incredible progress with
+15:06
+deep learning, we want to make it useful to people to sort of invent the future as we mentioned. And um what that's
+15:11
+looked like traditionally for us as an AI super assistant inside of Chacht, but we're now really going to evolve to a
+15:17
+platform uh that other people will build on top of and all of the pieces that need to fit in uh of the world um you
+15:23
+know will be built by others. Before we go talk about that, wanted to just show a quick video of how people are using
+15:28
+GPT5. Some of the ways people are using GPT5 in Chacht today.
+15:34
+I'm a quantum physicist. I'm a nail technician, human iminologist. I'm a steel worker, a designer and developer, a professor of
+15:40
+economics. I basically go fishing for a living. GPT5 is able to predict the outcomes of
+15:47
+experiments that we haven't even done. Can you create a part numbering system
+15:53
+that's easy for my guys in the shop? I want to catch dungeonous crab in the
+16:00
+Bay Area. Here I would ask a question about the application of a certain quantum operator. This one gives me a
+16:06
+very detailed mathematics. I ask for basically a camera app where I can draw real time in the air.
+16:14
+We have a theme. We have a direction to go. Let's go from a million or infinite amount of ideas to like give me 10 or
+16:20
+20. You just start testing it. You know, you tell it jokes. You ask it questions like
+16:26
+what should economists do? Different baits I can use, different water depths, all this information that
+16:32
+it would take years to figure out on your own. A lot of trial and error. It's
+16:37
+tremendous for brainstorming. It's back and forth. I can kind of easily follow the
+16:42
+reasoning. I don't need to trust the result. I can just look what did you do? GBD5 just like did this um in one shot.
+16:51
+A 101 part numbers. It would have taken weeks for me to number this and it would have made me go crosseyed.
+16:57
+[Music] Uh Yakob will join me back for Q&A in a
+17:03
+little bit, but we're going to have one special guest on before before the end. Um we love that. We want much more of
+17:09
+that. We want that everywhere. So we want open AI to be a platform that people and companies can build on top
+17:15
+of. We can sort of see our way now to an AI cloud where this is not just in chat GPD. This is not just services that we
+17:21
+create, but we want to expose our technology for as many people to build the things that people will depend on
+17:27
+and use and create with as possible. I think this this quote or at least this like idea is originally from Bill Gates.
+17:33
+um at least that's where I first heard it that you know you've built a platform when there's more value created by
+17:38
+people building on the platform than by the platform builder builder and that's our goal um and that's our goal like
+17:44
+next year we we really think we can now take this technology and this user base and this sort of framework we've built
+17:50
+and get the whole world to build amazing new companies and services and applications on top of it
+17:56
+to do that uh there will be many things that we have to evolve towards but there's two foundational principles as
+18:02
+we as we move towards being in this platform that I wanted to touch on. Um, one is about user freedom. If this is
+18:08
+going to be a platform that all sorts of people are building, uh, on using, um, creating with, people around the world
+18:15
+have very different needs and desires and there will of course be some very broad bounds, but we want users to have
+18:20
+a lot of u control and customization of how they of how they use it. Now, I
+18:26
+made, you know, one of my many stupid mistakes when I tried to talk about this recently. Uh, I wish I had used an
+18:31
+example other than erotica. thought there was an understandable difference between erotica and pornbots. But in any
+18:36
+case, we were trying to show the point we're trying to get across is that people need a lot of flexibility and people want to use these things in
+18:42
+different ways and we want to treat our adult users like adults. In our own first party services, we may have, you
+18:48
+know, tighter guidelines, but AI is going to become such an important part of people's lives. The freedom of human
+18:54
+expression is going to need to be there. Along with that, we think that world will need to think about privacy in a
+19:00
+different way than they have for previous kinds of technology. Privacy is important for all sorts of technology, of course, but privacy for AI will be
+19:07
+especially important. People are using this technology in a different way than they've used the technologies of the past. They're talking to it like they
+19:13
+would to their doctor, their lawyer, their spouse. Um, they're sharing the most intimate details of their lives.
+19:19
+And of course, we need strong technical protections on that privacy of that privacy. But we also think we need
+19:25
+strong um policy protections of that privacy. We've talked about concepts like AI privilege. Um but really strong
+19:32
+protections if AI is going to be this fundamental platform in people's lives seem super important to us.
+19:38
+Okay. And then I want to go on to infrastructure. So I know there's been a lot of confusion about sort of where we
+19:44
+are in our infrastructure buildout and we figured we would just be super transparent about that. So where we are today, um all of our commitments total a
+19:51
+little bit over 30 gawatts of uh of infrastructure buildout. Um and that's
+19:56
+about a $1.4 trillion total uh financial obligation for us over the next many
+20:01
+years. Um this is what we've committed to so far. We of course hope to do much
+20:06
+more, but given the picture we see today, given what we think we can see for revenue growth, our ability to raise
+20:11
+capital, this is what we're currently comfortable with. This requires a ton of partnerships. We've talked about uh many
+20:18
+of our great chip partners. Uh there are people building the data centers for us, land, energy. Uh there will be chip fab
+20:23
+facilities. This is already getting to require quite a lot of supply chain innovation. And we're thrilled to get to
+20:29
+work with uh AMD, Broadcom, Google, Microsoft, Nvidia, Oracle, SoftBank, many others to really make this happen.
+20:35
+But this is still early. if the if the work that Yakob talks about comes to
+20:40
+fruition, which we think it will, and if the economic value of these things um happen and people want to use all these
+20:47
+services, we're going to need much more than this. So, I want to be clear, we're not committing to this yet, but we are
+20:53
+having conversations about it. Our aspiration is that we can build an infrastructure factory where we can
+20:58
+create 1 gawatt a week of uh compute and we aspirationally would like to get that
+21:04
+cost down significantly um to like $20 billion a gigawatt over the 5year life
+21:09
+cycle of uh you know that equipment. To do this will require a ton of innovation, a ton of partnerships,
+21:15
+obviously a lot of revenue growth. Um we'll have to repurpose our thoughts about robotics to help us build data
+21:21
+centers instead of doing all the other things. Um, but this is where we'd like to go and over the coming months we are
+21:26
+going to do a lot of work to see if we can get here. Um, it will be some time before we're in a financial position
+21:31
+where we could actually pull the trigger and get going on this. 1 gawatt is like a big number, but I figured we would
+21:37
+show a little video to put this into perspective. Um, this is a data center
+21:42
+that we're building in Abene, Texas. This is the first Stargate site. We're doing several of these now around the country, but this one is the furthest
+21:48
+along. There's like many thousands of people that work here every day just doing the construction at the site.
+21:54
+There's probably hundreds of thousands or millions of people that work in the supply chain to make all this happen to
+21:59
+design these chips, to fab these chips, to put them together. Um there, you know, there's all of the work that goes
+22:04
+into this for energy. There's an enormous amount of stuff that has to happen um for each one gigawatt. And we
+22:10
+want to figure out how we can make this way more efficient and way cheaper and way more scalable so that we can deliver
+22:16
+on the infrastructure that the research roadmap requires and that all of the ways that people will want to use this
+22:22
+need um to enable that uh we have a new structure. So um maybe you saw before
+22:30
+this like crazy convoluted uh diagram of all of the open entities. Now it's much simpler. We have a nonprofit called the
+22:37
+open air foundation that is in control of uh where the board sits uh or where
+22:43
+uh let's come back to the board uh where the board also sits and uh owns a slice of our PBC public benefit corporation
+22:50
+called OpenAI group. So uh nonprofit and control public benefit corporation sits under it. Um we hope for the OpenAI
+22:59
+Foundation to be the biggest nonprofit ever. As I mentioned now uh a few times,
+23:04
+science is one of the ways that we think the world most improves along with the institutions that broadly distribute the
+23:10
+benefits of that. So the science will not be the only thing that the nonprofit
+23:15
+funds, but it will be an important first major area of the things that we do. The nonprofit will govern the PBC. It will
+23:22
+initially own about 26% of the PBC equity, but that can increase over time with warrants if if we perform really
+23:28
+well. and it will use these resources to uh pursue what we think are the best
+23:34
+benefits of AI uh given where the technology is and what society needs. The PBC uh will operate more like a
+23:40
+normal company. It will have the same mission. Um it will be bound to that mission. Um and you know in matters of
+23:46
+safety will only be bound to that mission but it will be able to attract the resources that we need for that gigantic infrastructure buildout to
+23:52
+serve the research and product goals that we have. So, the initial focus of
+23:58
+the the foundation, we'll do more things over time, but we want to knock something out of the out of the park,
+24:03
+uh, hopefully first, is a $25 billion commitment to use AI to help cure disease. There are a lot of ways this
+24:09
+can happen. Um, generating data, um, you know, using a lot of compute grants to grants to scientists and also for AI
+24:17
+resilience. Um AI resilience is a new and I think very important area and I'd like to invite uh our co-founder of
+24:23
+Voyche up to talk about what this will what this will look like. Hello
+24:28
+glad to be here. Thanks for being here. So um term AI resilience is um little
+24:34
+bit broader than what we historically thought about AI safety. So in case of
+24:40
+the uh resilience we think that advanced AI comes with risks and disruptions and
+24:46
+we would like to have an ecosystem of organizations that uh can help to um
+24:54
+solve a number of these problems. Um so let me give you an example to better
+24:59
+illustrate it. Um we all believe that AI uh will advance in biology and as it
+25:06
+advances in biology there is a there is a risk that some bad actor could use AI
+25:11
+to create manmade pandemics. So the on the safety level the mitigation would be
+25:18
+to make sure that the models uh block the queries that have to do with a
+25:25
+viology. Um however um if you consider the entire entire um AI uh industry it's
+25:33
+very likely that even if open AI blocks it someone could use uh different models
+25:39
+out there and still uh produce pathogens and um the in case of resilience we
+25:46
+don't want just to block it but also have a uh rapid response if the problem
+25:51
+would occur. So when I think about the uh risks uh and disruptions there are
+25:57
+just many the the mental health is one of them bio is another one another one
+26:03
+uh job displacement might be another one and we think that we need the ecosystem and maybe a good analogy that I like is
+26:10
+cyber security so at the beginning of internet uh it was actually it was a place that
+26:18
+people didn't feel comfortable putting their credit card numbers because it was so easy to get hacked and uh when there
+26:25
+was a virus people were giving each other a call to disconnect the computer from internet and we got a long way at
+26:33
+the moment there's entire infrastructure of cyber security companies they are protecting uh um the critical
+26:40
+infrastructure governments corporations and individual users to such extent that
+26:46
+people are willing to put the most personal data uh online to have life
+26:53
+savings um be online. Um yeah, so the the cyber security got really far and we
+26:59
+think that something analogous will be present for AI that there will be AI
+27:04
+resilience layer and uh I'm really excited that the uh nonprofit uh will
+27:11
+help out uh to stimulate it to create such an ecosystem. So am I. I think this is an important
+27:17
+time to be doing this and I'm very excited to that you're going to like figure out how how we how we go off and make it happen. So again, these are not
+27:24
+the only things that the nonprofit will fund, but we're excited about these as the first two using AI to develop cures
+27:32
+and uh treatments for diseases and this new AI resilience effort as we figure
+27:37
+out what the deployment of AGI into society is going to look like.
+27:42
+So we mentioned that those are our three pillars, but you know what what if this all works? We we think it is plausible
+27:48
+that in 2026 we start to see the models of that year begin to make small discoveries. By 2028 medium or maybe
+27:55
+even larger discoveries and you know who knows what 2030 and 2032 are going to
+28:00
+look like. If AI can keep advancing science as has happened in the past um
+28:07
+we think the future can be very bright. Of course, we think it's very important that humans can self-determine our way
+28:12
+through this future. But the open space that new scientific advances give us is quite impressive. So, we asked Sora to
+28:20
+help us imagine a radically better future by looking at the past. And we are particularly interested in how the
+28:26
+history of science builds on itself discovery after discovery. This is what we hope will happen with AI. You know,
+28:33
+this is going to be 200 years of science. But if you can do these 200 years of compounding discoveries of the
+28:38
+scaffolding building up on each other not in 200 years but in 20 years or in two years and if you look at how much
+28:45
+this this is accelerated think about what could be possible before you can imagine a world uh where a radically
+28:51
+better future becomes quite possible. You have a data center here that is discovering a cure for cancer. A data
+28:56
+center there that's making the best entertainment ever. A data center here that's helping you find your future
+29:02
+husband or wife. This one is building rockets and helping you colonize space. This one is helping to solve the climate crisis. So, we did all this stuff the
+29:08
+oldfashioned way. Um, and now with the help of AI, we'll be able to shape what comes next, uh, with maybe much more
+29:15
+power. So, we talked a little about AI medicine. We're very excited about robots. Um, we really think energy is
+29:21
+very, very important to the world. We want to figure out what personalized education can mean, design novel
+29:26
+materials, and probably a ton of other things that we can't even think of yet. So as we head into this next phase of
+29:33
+open AI and more importantly than that this continual progress in deep learning um we thank you for joining us today and
+29:40
+we're going to try something new now which is we're going to just answer questions. If this works it's something we are we'll try more in the future.
+29:46
+Yakob is going to rejoin for this Q&A. Thank you very much. Um but uh this is a new format for us.
+29:52
+So bear with us as we try it this first time again. If if um if this is useful it's something we'll do uh again a lot
+29:58
+more. and we're going to try to just answer questions in the order they are most upvoted. Um,
+30:05
+are we good to go? All right, let's see how this works. So, uh, you can put questions in the Vimeo link and we will just start answering them. So, from
+30:12
+Caleb, we've warned that the tech is becoming addictive and eroding the tech is becoming addictive and eroding trust
+30:17
+yet Sora mimics Tik Tok and Chach may add ads. Why repeat the same patterns you criticized and how will you build
+30:24
+build rebuild trust through actions and not just words? We're definitely worried about this. Uh I worry about it not just
+30:30
+for things like Sora and Tik Tok and ads and chatbt which are maybe known problems that we can design carefully
+30:36
+but you know we have certainly seen people develop relationships with chat bots that we didn't expect and there can
+30:42
+clearly be addictive behavior there given the dynamics and competition in the in the world. I suspect some
+30:48
+companies will offer very addictive new kinds of products. Um and I think you'll have to just judge us on our actions.
+30:54
+We'll have to you know we'll make some mistakes. We'll try to roll back models that are problematic. If we ship Sora
+31:00
+and it becomes super addictive and not about creation, we'll, you know, cancel the product and you'll you'll have to
+31:05
+just judge us on that. My hope and belief is that we will not make the same mistakes that companies before us have
+31:11
+made. Uh I don't think they meant to make them either. It's uh you know, we're all kind of discovering this together. We probably will make new ones
+31:18
+though and we'll just have to evolve quickly and have a tight feedback loop. We we can imagine all sorts of ways this
+31:23
+technology does incredible good in the world. also obvious bad ones and um you
+31:29
+know we're guided by a mission where we'll just continuously evolve evolve the product. Um one thing that we are
+31:35
+quite hopeful about for in terms of um what we optim optimize for in in uh
+31:41
+products like chat GPT or or Sora is thinking about um optimizing for the very long term which is naturally very
+31:48
+aligned with uh how we think in general about extending uh the horizon on which the models can work productively. Um
+31:57
+and so we believe that quite a lot of development is possible there and we can
+32:02
+eventually get the models that really optimize for um long-term uh
+32:08
+satisfaction and and and well-being instead of just short-term signals.
+32:14
+Um okay, next question. Will we have an option to keep the for model uh permanently after adult mode is
+32:19
+installed? We don't need a safer models responsible adults. Um, we have no plans to sunset 40. Uh, we
+32:28
+are not going to promise to keep it around till the heat death of the universe either, but we we understand that it's a product that some of our
+32:33
+users really love. We also hope other people understand why um it was not a model that we thought was healthy for
+32:40
+miners to be using. Um, we hope that we build better models over time that
+32:45
+people like more. You know, the people you have a relationship with in your life, they evolve and get smarter and change a little bit over time. And we
+32:52
+think that we hope that the same thing will happen. But yeah, no, no plans to uh no plans to sunset 40 currently.
+33:00
+Uh wow, we have a lot of for questions. All right, we're not going to in the interest of time, we will not go through uh all of these, but but yeah, we don't,
+33:07
+you know, we want people to have models that they want to use. We don't want people to feel like we're routing them around models. Um, and you know, we we
+33:15
+want adults to make choices as adults as long as we think we're not, you know,
+33:21
+selling heroin or whatever, which also you you shouldn't you shouldn't do. Um, so people that want to have emotional
+33:27
+speech, uh, as we've said, we want to allow more of that and we plan to. Okay, here's a good anonymous question for
+33:32
+Yakob. When will AGI happen? Um
+33:38
+so I think I think in in some number of years we'll look
+33:45
+back at these years and we'll say you know this was kind of the transition period when AGI happened. Um I think you
+33:53
+know what one way we thought about um I think as as some said like early on
+33:59
+adopting we thought about AGI kind of emotionally as this like thing that is like the kind of ultimate solution of
+34:06
+all the problems and and and um it's it's this like single point um for which
+34:12
+there is before and after and um I think
+34:18
+um we found that it's a bit more continuous than that. Um
+34:24
+and and so in particular for like various kind of benchmarks that you know seemed at uh um
+34:33
+seem like kind of the obvious like milestones towards AGI. I think I think we now think of them as kind of like indicating like you know roughly how far
+34:41
+away we are in years. And so uh you know if you look at a succession of of of of
+34:46
+milestones such as computers beating humans at chess and then at go and then
+34:52
+uh you know computers being able to speak in natural language and computers being able to solve math problems right
+34:57
+I think well they clearly kind of get uh closer together. Um
+35:05
+yeah, I I would say I think it's the AGI term has become hugely overloaded and as
+35:10
+Jakob said, it'll be this process over a number of years that we're in the middle of. Uh but one of the reasons we wanted
+35:17
+to present what we did today is I think it's much more useful to say our intention our goal is by March of 2028
+35:23
+to have a true automated AI researcher um and define what that means uh than it
+35:28
+is to sort of try to you know satisfy everyone with a definition of AGI and and maybe one other thing to mention
+35:34
+right like I think like one kind of counterintuitive thing here is that obviously we're working with like a pretty complicated technology we're
+35:40
+trying to understand all these algorithms and maybe initially we kind imagined that like AGI is the moment
+35:46
+once you where you kind of have figured out all the answers and and and and it's kind of the the final thing and I think
+35:53
+now we increasingly realize that you know there is kind of a some some curve of intelligence maybe a
+35:59
+multi-dimensional one and you know humans are somewhere on it and as you scale deep learning as you develop these
+36:04
+new algorithms like eventually well you kind of inch closer to that point and eventually and eventually will surpass
+36:10
+it and you know already have surpassed on multiple axis um and and and so and
+36:15
+that doesn't actually mean you have solved all the problems around it which is something we we need to seriously think about.
+36:21
+Can you give us an idea of how far ahead internal models are compared to deployed ones?
+36:26
+Um I think um
+36:36
+we we have quite strong expectations for our for for for our next models. Um so I
+36:42
+think I think we we expect quite rapid progress over the next uh uh couple
+36:47
+months and a year. Um
+36:52
+yeah I think um but we we haven't been like withholding
+36:59
+something something uh extremely crazy. Yeah. One of the ways this uh kind of
+37:04
+often works in practice is there's like a lot of pieces that we develop and that you know they're all kind of hard one
+37:09
+victories and then we know that when we put them together um we will have something quite impressive and we're
+37:15
+able to predict that fairly well. Uh part of our goal today is to say that um we have a lot of those pieces. It's not
+37:21
+like we're kind of currently sitting on this giant, you know, thing that we're not showing to the world, but that we
+37:27
+expect by a year from now, certainly with this September of 2026 goal
+37:34
+that we have a a like I mean not likely, we have a realistic shot at a like tremendously
+37:40
+important step forward in capability. Um, what is OpenAI? Ronin asks, "What is
+37:46
+OpenAI's stance on partnering with labs like Anthropic, Gemini, or XAI for joint research, compute sharing, and safety
+37:51
+efforts?" Uh, we think this is going to be increasingly important on the safety front. Uh, labs will need to share
+37:57
+safety techniques, safety standards. Um, you can imagine a time when the whole
+38:02
+world would say, uh, okay, before we hit a recursive self-improvement phase, we really need to all carefully study this
+38:08
+together. Um, we welcome that collaboration. I think it'll be quite important. Um one thing to mention on the on the on chain of thought
+38:14
+faithfulness that I talked about earlier um we actually have um started talking
+38:20
+about establishing industry arms and and we started some some joint investigations with researchers from
+38:25
+Google and entropic uh and and and some other labs and uh yeah that's something I'm very excited about and I think that
+38:32
+is an example of something where we can really benefit from collaborating across multiple labs.
+38:37
+Anonymous asks, "Will you ever open source some of your old models like the original GPT4?" Um, we might do those as
+38:43
+museum artifacts someday, but they're not like GPT4 is not a particularly useful open source
+38:48
+model. It's big. It's not that good. Uh, you know, we could probably make something that is beyond the power of GPT4 at a very tiny scale. Uh, that
+38:56
+actually would be useful to people. So, for useful things, I expect more things like that. For uh for fun museum
+39:02
+artifacts, yeah, someday, who who knows? Like I think there could be a lot of cool things like that. Another anonymous
+39:08
+or maybe the same one asks, "Will you admit that your new model is inferior to the previous one and that you're ruining your company with your arrogance and
+39:13
+greed while ignoring users needs?" Um, I believe that it is inferior to you for
+39:20
+your use case and we would like to build models that are better for your use case. on the whole uh we think for most
+39:25
+users it's a it's a better and more capable model but we definitely have learned things about the 40 to5 upgrade
+39:31
+and we will try to do much better in the future both about better continuity and about making sure that our model gets
+39:38
+better for most users not just sort of people that are using AI for science or coding or for whatever
+39:44
+uh Y asks will there ever be a version of chatbt meant for personal connection and reflection not only business or
+39:50
+education yeah for sure this is this We think this is a wonderful use of AI. Um, we're very touched by how much this
+39:57
+has meant to people's lives. We get all of us get a ton of emails and outreach from users about how Chacht has helped
+40:04
+people in difficult personal situations or to live a better life. And like this is what we're here for. I mean, this is
+40:10
+like as important as anything that we do. Like we we love to hear about
+40:15
+scientific progress. We love to hear about people that, you know, got diagnosed with the disease and got cured.
+40:20
+The personal stories are incredibly important to us and we're thrilled about that and we absolutely want to offer uh
+40:26
+such a service. Your safety oh
+40:31
+uh okay two parts of this two questions that are about tide uh from G and anonymous. Your safety routing breaks
+40:38
+user trust and workflows by overriding our choices. Will you commit to revoking this paternalistic policy for all consenting adult users and stop treating
+40:44
+us like children? Uh when do users get control over routing? Where's the transparency on safety and censorship?
+40:49
+Why can't adults pick their own models? Yeah, I I don't think the way we handled uh the model routing was our best thing
+40:55
+ever. There there are some real problems with forro. Um and we have seen a problem where people are forming people
+41:02
+that are in fragile psychiatric situations using a model like 40 can get
+41:07
+into a worse one. um most adult users can use those fine, but we do, as we've mentioned, we have an obligation to
+41:12
+protect minor users. And we also um have an obligation to protect adult users who
+41:18
+are not in a frame of mind where, you know, we're reasonably likely that they're choosing what they really want
+41:23
+and we're not causing them harm. as we build age verification um in and as we
+41:28
+are able to differentiate users that are having like a true um mental health crisis from users who are not uh we of
+41:36
+course want to give people more user freedom as we mentioned that's one of our our platform principles um so yes
+41:42
+expect improvement there and I don't think this was our best work and how we communicated the previous roll out
+41:48
+how we strike the right balance between protecting people and allowing adults to speak about difficult things without feeling policed
+41:55
+you want to say anything there?
+42:02
+Yeah. So, so, so the definitely there is a problem where um we we we
+42:10
+aim to lay out the kind of high high level um
+42:15
+policies and and guidelines for the model in in in the spec uh that we um
+42:21
+that we develop for for CH GBT. But um
+42:27
+the the the the space of of of of of situations you can
+42:34
+find yourself in is is is is enormous and and and um and at some point kind of
+42:39
+like establishing the the right boundaries really becomes a a tough intelligence problem. Um and so we are
+42:48
+seeing uh improved results on this matrix from reasoning models and from expanding uh
+42:56
+more more reasoning on on thinking about this uh uh software uh software
+43:03
+questions and and and trade-offs. Um, of course, this is like a bit more
+43:08
+difficult to train for also than uh math problems, for example. And and so this
+43:13
+is something that we're uh researching quite heavily. Uh Kate says, "When in December will
+43:19
+adult mode come? Will it have more than just NSFW? when writing even slight conflict when writing triggers filters
+43:25
+on for uh I don't know exactly when in December it will ship but yes the goal is um when you are writing when you are
+43:32
+using open AAI to help chat to help you with creative writing um you it should be much more permissive in in many
+43:38
+categories than the previous uh models are again we want this and we know users want this too um if this is going to be
+43:45
+your personal tool it should help you with what you're doing and every time you hit a content filter for something
+43:51
+that uh you know feels like it shouldn't. We we understand how annoying that is. So
+43:57
+uh we are uh we're going to try to fix that with adult mode. There may be new problems that we face, but we want to
+44:04
+give people uh more flexibility. Uh anonymous says, "Why does your idea
+44:09
+of safety require lying to users about what model they're actually using?" Uh again, I think we mis rolled this one out, but the goal here was to let people
+44:15
+continue to use Forro, but in the situations where Foro has behavior that we think is actually really harmful
+44:21
+before we have all of the age gain in that we'd like to kick it uh to to put the user into a model where they are not
+44:28
+going to have some of the mental health problems that we faced with for um FORO was an interesting challenge. It's a
+44:34
+model that uh some users really love and it was a model that was causing some users harm that they really didn't want
+44:41
+and I don't think this is the last time we'll face challenges like this with a model. Um but we are trying to figure
+44:46
+out the right the right way to balance that. Um will we legacy models back for adults
+44:52
+without rewriting rewriting? Yes. Uh, y, will the December update officially clarify OpenAI's position on human AI
+45:00
+emotional bonds? Uh, or will restrictions continue implicitly defining such connections as harmful worldwide?
+45:07
+I I don't know what it means to have an official position like we build this tool, you can use it the way you want.
+45:13
+If if you want to have like a small R relationship and you're getting something like empathy or friendship
+45:19
+that matters to you and your life out of a model, like it's very important to us that the model faithfully communicate
+45:24
+what it is and what it isn't. But if you as the user are finding value in that support, again, we think that's awesome.
+45:30
+Like we we are very touched by the stories of people who find
+45:36
+value, utility, a better life in the emotional support or other kinds of support they get from these models.
+45:43
+Kylo says, "How is OpenAI increasingly allowing so many features for the free version users?" I can answer this from a
+45:49
+product and business perspective, but Jakob, I think it might be useful for you to just talk about the incredible rate at which models are getting more
+45:56
+capable for lower prices and less amounts of compute. Um yeah, we we are
+46:01
+seeing quite a lot of uh um
+46:07
+ability as we get to like the new frontiers of intelligence to to to reduce the cost for that quite quite
+46:13
+quickly. Um and so yeah, especially especially with
+46:18
+reasoning models, we've seen uh that actually quite uh quite cheap models
+46:26
+when allowed some some additional test time compute can become much more capable. Um
+46:33
+yeah, and so this is uh this is something that I expect will continue. And so um yeah, as we talk kind of about
+46:41
+about um you know, getting to these um new frontiers and automating research
+46:46
+and so forth, I I I expect that the cost of of of a lot of that will will keep
+46:51
+falling quite a lot too. So yeah, our our
+46:57
+we talk a lot about the increase in model capability and for you know pushing forward science that's that's
+47:04
+hugely important. One of the most amazing things that I've observed about
+47:09
+AI is over the last few years, the sort of price of a particular unit of intelligence has fallen about 40x per
+47:16
+year for the last few years. Um, so when we first,
+47:22
+you know, when we first had like GPT3, we thought it was very cool and it was at this cost that was kind of hard and
+47:28
+like GP3 scale models now basically run for free like on a phone or something. um the cost of a model that's as smart
+47:34
+as GPT4 at the time we launch it relative now has fallen hugely and we
+47:40
+expect this trend to keep going. Now we still think we need a ton of infrastructure because what we continue
+47:45
+to find is the cheaper we can make it the more people want to use it and I expect that only to increase but our
+47:50
+goal is to drive the you know cost of intelligence down and down and down and have people use it for more and more
+47:56
+things that will allow us to continue to offer lots of features for free. Um, but
+48:02
+that will also mean, I think, that people who really want to spend a lot on pushing AI to the limit to cure a disease or figure out how to build a
+48:08
+better rocket or whatever will spend a huge amount. Um, we are committed to continuing to put the best technology we
+48:16
+can uh as long as we can make the business model even sort of work into the free tier and you should expect a
+48:21
+lot more from us there over time. Uh, okay. Anonymous asks, "Will an age
+48:29
+will an age verification start that allows users to opt out of the safety route or a waiver that could be signed
+48:34
+releasing open air from any liability?" Um, we're not going to like do again, we're not going to do the equivalent of
+48:40
+selling heroin or whatever, uh, even if you sign a liability. But yes, on the on the principle of treat adult users like
+48:47
+adults, if you're age verified, you will get quite a lot of of flexibility. We think that's important and clearly it
+48:53
+resonates with the people asking these questions. Um, anonymous also asks, "Is chatbt the ask jeieves of AI?" We sure
+49:00
+hope not. We don't think it will be. Uh, okay. Since we only have 10 minutes
+49:07
+left, we're going to um, and some of these touch other things that we've uh,
+49:13
+we've already touched on. We're going to skip down through some of the same questions and try to get to more. Uh, in future qu sessions, we can um, do more
+49:20
+of these if we don't get to everything here. Um,
+49:25
+just as the Macintosh, no asks, just how the Macintosh was the precursor to the iPhone, do you see Chacht as the OpenAI
+49:30
+product or do you see it as a precursor to something much greater that truly reshapes the world?
+49:36
+Um, so I would say like as a research lab,
+49:42
+um, well, we haven't set out to build a a
+49:47
+chatbot originally, although I think we've since come to appreciate how aligned this this product is with with
+49:53
+our overall mission. Um, and we of course expect Chad GPT to continue to
+49:59
+become better and and and and be this way um for people to interact with
+50:04
+increasingly advanced AI. Um but we do anticipate that uh eventually AI systems
+50:11
+will be capable of um creating valuable artifacts of actually
+50:19
+pushing scientific progress forward as we were discussing and um I believe that
+50:24
+will be the the real lasting legacy of AI. I I think the chat interface is a
+50:31
+great interface. It won't be the only interface, but the way that people use these systems um will
+50:38
+change hugely over time. If you think about what Yakob shared earlier of the 5-second, 5 minute, 5 hour tasks, um if
+50:45
+you think about a 5year or five century task that would take something that would take humans, it's hard to even think about what that means. But
+50:52
+probably you want a different kind of of product experience. I also think you probably will want this to feel more
+50:58
+like a sort of ambient always present companion. Like right now you can ask
+51:03
+Chacht something. It can do something for you. But it'd be really nice to have a service that was sort of just
+51:08
+observing your life and proactively helping you when you needed it and you know helping you come up with better ideas and just I I think we can probably
+51:15
+push very hard in in that direction. Um Neil asks, "I love GPT 4.5. It's by
+51:22
+far the best on the market for writing and it's the main reason I pay for Pro. Could we get some clarity on its future, please?
+51:28
+Um, we think we're going to have models that are much better than 4.5 very soon uh and for writing much much better. We
+51:35
+plan to keep it around until we have a model that is a huge step forward in uh writing. But, you know, we'd like to we
+51:43
+don't think 4.5 is that good anymore. We'd like to offer something much much better. But yeah, we are definitely not done with that direction of research. Uh and
+51:50
+yeah, we we expect combining combining that with with uh other things we're working on, we'll get wheels are
+51:57
+dramatically better than 4.5 on all axis. Do you have uh any sense of timing
+52:03
+to share about when you think we have a model that is dramatically better than 4.5 on on this kind of task like writing
+52:08
+and also anything about like how far that's going to go? Um next year I think is definitely
+52:16
+what I expect. Um, when is Chach Atlas for Windows coming? asks Lars. Uh, I don't know an
+52:24
+exact time frame. Some number of months, I would guess. Uh, it's it's definitely something we want to do. And more
+52:29
+generally, this idea that we can build experiences like browsers and new devices that let you take AI with you
+52:35
+that get towards this sort of ambient always helpful uh assistant rather than
+52:40
+something you just query in response. uh this will be a very this will be a very important direction for us to to push
+52:47
+more on. Will you disclose the documents with the opinions of the 170 experts so that
+52:53
+we'll have some transparency regarding the new justifications for model behavior? Um I will ask Fiji Simo uh how
+52:59
+she'd like to handle that, but I think we could I don't know exactly what we'll be able to share, but I think we should do something there. And I I think more
+53:07
+um more transparency there is a good thing. Anonymous says, "I've been a prouser since month two. As a researcher
+53:13
+and fiction writer, I feel GPT helps me think clearer. I lost the question." Um,
+53:20
+sorry, that was a really good question. Let me try to find it again. Uh, clearer but not freer. Has
+53:26
+imagination become an optimization casualty? What do you think?
+53:33
+Um it is
+53:40
+I think it is definitely possible for current systems that uh you know like I
+53:45
+think if you compare a model like 4.5 to a model like 03 I would expect that like there will be trade-offs there. I I
+53:52
+think there are definitely like transitory as we like figure out our way around these technologies and so again like I expect this will this will get
+53:59
+better. Yeah, I I I think there are going to be
+54:07
+population scale like one one of the sort of strange things I've noticed is people in real life talking in like
+54:13
+CHBTE uh where they sort of use some of the quirks of of things ChachiBT says and I
+54:19
+I think there will be other things like this where there's like this co-evolution of people and the
+54:25
+technology in ways we can't totally predict but my expectation is over time people are much more capable, much more
+54:32
+creative, think much more expansively and much more broadly than they do today. Um, and we start
+54:39
+we certainly see examples of this uh where people are just like I never would have been able to keep this in my head. I never would have been able to have
+54:44
+this idea. And then we hear other examples where people say, you know, I've outsourced my thinking and I just do what this thing tells me. And
+54:50
+obviously we're much more excited about the former than the latter. Um, can you help us understand why you
+54:58
+build emotionally intelligent models and then criticize people for using using it for accessibility reasons when it comes
+55:03
+to processing emotions and mental health? Uh, again, we think that's a good thing. We want that. Uh, we're
+55:08
+happy about that. There the same model that can do that can also be used to
+55:14
+encourage delusions and mentally fragile users. And what we want is people who are using these models intentionally.
+55:20
+The model is not deceiving the user about what it is and what it isn't. the model's being helpful, the model's helping a user accomplish their goals.
+55:26
+We want more of that and less of anything that would feel like the model tricking a user, for lack of a more
+55:32
+scientific word. Um, I totally get we totally get the the frustration here like to, you know, whenever you're
+55:39
+trying to stop something that is causing harm, you stop some perfectly good use as well. Um, but please understand the
+55:45
+place we're coming from here is trying to provide a service to adults that are
+55:50
+aware of it and that are getting real value from it and not cause unintended harm to people who who don't want that
+55:55
+along along the way. Um, all right. Given that we have just a couple of minutes left, let's see if there's any
+56:00
+questions in very other directions that we should try to get to.
+56:14
+Okay. Uh, when do you think massive jobs loss will happen due to AI from Razi?
+56:27
+So I think I think already we are at a point where I think
+56:33
+a lot of the um um the gap that stops that stops present
+56:42
+models from like being able to perform a lot of um intellectual jobs. uh it's
+56:48
+more about um integrations and interfaces uh than maybe raw intellectual
+56:56
+capability. Um and so I think we definitely have to
+57:02
+uh think about that um uh think about
+57:08
+automation of of of a lot of jobs is something that um will be happening over the next years. And I think this is a
+57:15
+big uh thing for for for for us to to
+57:21
+collectively think about like what are uh
+57:28
+what are the jobs that will will replace those and uh and what are the kind of
+57:33
+new pursuits that we'll that that we'll all engage on. This is a question from me not from uh
+57:38
+not from the live stream. What what do you think meaning will look like? Uh what do you think the jobs of the future will look like? How do you think when AI
+57:45
+automates a lot of the current things like how do you think we'll derive our fulfillment and spend our time?
+57:51
+Um I I expect um
+58:02
+yeah well I I think this is a this is a quite um
+58:09
+philosophical question. I think I I think can go in many directions but some things I expect I think the high level
+58:21
+goal setting right like picking what pursuits uh um
+58:27
+we're we're chasing that is something will remain human and and
+58:33
+uh and I think that that is something that a lot of people will derive meaning from. Um, I think also just the ability
+58:40
+to understand so much more about the world, the wide the incredible variety of of of
+58:48
+new knowledge and new also entertainment, but al also
+58:53
+uh um just intelligence that that that that that
+58:58
+will be in the world. I think I think will uh will provide quite a lot of meaning and fulfillment for people.
+59:04
+Okay, rapid fire, two minutes. Uh Shindi says when GBT6
+59:11
+um I think I think I think uh in some ways maybe that's more of a question for you
+59:17
+uh in that like um I think I think with with with GPD with GPD 5 uh we have uh
+59:24
+with previous models right like uh like GPD4 GPD3 like we've kind of like kept very tight uh connection of like how h
+59:33
+how we're training new models like what are the products that we ship And as I was just saying like I think
+59:38
+right now there's a lot to do on the kind of integration side and on on the uh so for example with GPT5 is the kind
+59:45
+of the the first time we really bring reasoning models as kind of our our flagship our main flagship model. Um and
+59:53
+so uh we're we're not coupling like these releases and these products as tightly to our research program anymore.
+1:00:00
+Yeah. Um I don't know either exactly when we'll call it that but I think a clear message from us is say 6 months
+1:00:06
+from now probably sooner we expect to have huge steps forward in model capability. Felix asks is an IPO still
+1:00:12
+planned and how would the structure then look like? Are there rules in place for increasing capital? Um we don't have
+1:00:18
+like specific plans or this is exactly when it's going to happen but I think it it's fair to say it is the most likely
+1:00:24
+path for us given the capital needs that we'll have in sort of the size of the company. Um, but you know that's not
+1:00:30
+like a top of- mind thing for us right now. Alec asks, "You mentioned being comfortable with the 1.4 trillion of
+1:00:36
+investment. What level of revenues would you need to support this over time? What will be the largest revenue driver? It can't just be a per user subscription."
+1:00:43
+Um, you know, eventually we need to get to hundreds of billions of a year in revenue and and we're on a pretty steep
+1:00:48
+curve towards that. I expect enterprise to be a huge revenue driver for us, but I think consumer really will be too. And
+1:00:54
+it won't just be the subscript subscription, but we'll have new products, devices, tons of other things there as well. Uh, and this says nothing
+1:01:03
+about like what it would really mean to have AI discovery and science and all of the revenue uh um possibilities that
+1:01:09
+that would unlock. And as we see more of that, we will uh we will increase spend on infrastructure. Okay. Um, we are out
+1:01:16
+of time. Thank you all very much for joining us and the questions. and we will try to learn from this format and iterate on it and keep doing uh these
+1:01:22
+sorts of Q&A. Thank you very much.

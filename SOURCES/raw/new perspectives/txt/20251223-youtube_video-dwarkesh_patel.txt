@@ -1,0 +1,750 @@
+https://www.youtube.com/watch?v=_zgnSbu5GqE
+What are we scaling?
+69,220 views  Dec 23, 2025
+Read the transcript here:
+https://www.dwarkesh.com/p/thoughts-o...
+
+Toby Ord: How Well Does RL Scale https://www.tobyord.com/writing/how-w...
+
+Beren Millidge: Most Algorithmic Progress is Data Progress by https://www.beren.io/2025-08-02-Most-...
+
+TIMESTAMPS
+00:00:13 What are we scaling?
+00:03:11 The value of human labor
+00:05:19 Economic diffusion lag is cope
+00:06:36 Goal-post shifting is justified
+00:08:23 RL scaling
+00:09:33 Broadly deployed intelligence explosion
+
+---
+
+0:00
+I'm confused why some people have super
+0:01
+short timelines yet at the same time are
+0:03
+bullish on scaling up reinforcement
+0:05
+learning a top LLMs. If we're actually
+0:08
+close to a humanlike learner, then this
+0:09
+whole approach of training on verifiable
+0:11
+outcomes is doomed.
+0:15
+Now, currently the labs are trying to
+0:17
+bake in a bunch of skills into these
+0:19
+models through mid-training. There's an
+0:21
+entire supply chain of companies that
+0:23
+are building RL environments which teach
+0:25
+the model how to navigate a web browser
+0:27
+or use Excel to build financial models.
+0:30
+Now either these models will soon learn
+0:32
+on the job in a self-directed way which
+0:34
+will make all this freebaking pointless
+0:36
+or they won't which means that AGI is
+0:38
+not imminent. Humans don't have to go
+0:40
+through the special training phase where
+0:41
+they need to rehearse every single piece
+0:43
+of software that they might ever need to
+0:44
+use on the job. Baron Millig made an
+0:46
+interesting point about this in a recent
+0:47
+blog post he wrote. He writes, quote,
+0:50
+"When we see frontier models improving
+0:51
+at various benchmarks, we should think
+0:53
+not just about the increased scale and
+0:54
+the clever ML research ideas, but the
+0:57
+billions of dollars that are paid to
+0:59
+PhDs, MDs, and other experts to write
+1:02
+questions and provide example answers
+1:04
+and reasoning targeting these precise
+1:06
+capabilities. You can see this tension
+1:08
+most vividly in robotics. In some
+1:10
+fundamental sense, robotics is an
+1:12
+algorithms problem, not a hardware or a
+1:14
+data problem. With very little training,
+1:16
+a human can learn how to tell or operate
+1:18
+current hardware to do useful work. So
+1:20
+if you actually had a humanlike learner,
+1:22
+robotics would be in large part a solved
+1:24
+problem. But the fact that we don't have
+1:25
+such a learner makes it necessary to go
+1:27
+out into a thousand different homes and
+1:29
+practice a million times on how to pick
+1:31
+up dishes or fold laundry. Now, one
+1:33
+counter argument I've heard from the
+1:34
+people who think we're going to have a
+1:36
+takeoff within the next 5 years is that
+1:38
+we have to do all this cludgy RL in
+1:41
+service of building a superhuman AI
+1:43
+researcher. And then the million copies
+1:45
+of this automated Ilia can go figure out
+1:47
+how to solve robust and efficient
+1:49
+learning from experience. This just
+1:50
+gives me the vibes of that old joke,
+1:52
+we're losing money on every sale, but
+1:54
+we'll make it up in volume. Somehow,
+1:56
+this automated researcher is going to
+1:57
+figure out the algorithm for AGI, which
+1:59
+is a problem that humans have been
+2:01
+banging their head against for the
+2:02
+better half of a century, while not
+2:04
+having the basic learning capabilities
+2:06
+that children have. I find it super
+2:08
+implausible. Besides, even if that's
+2:10
+what you believe, it doesn't describe
+2:12
+how the labs are approaching
+2:14
+reinforcement learning from verifiable
+2:15
+reward. You don't need to pre-bake in a
+2:18
+consultant skill at crafting PowerPoint
+2:20
+slides in order to automate Ilia. So
+2:22
+clearly, the lab's actions hint at a
+2:24
+worldview where these models will
+2:25
+continue to fare poorly at
+2:26
+generalization and on the job learning,
+2:28
+thus making it necessary to build in the
+2:31
+skills that we hope will be economically
+2:33
+useful beforehand into these models.
+2:36
+Another counter argument you can make is
+2:37
+that even if the model could learn these
+2:40
+skills on the job, it is just so much
+2:41
+more efficient to build in these skills
+2:44
+once during trading rather than again
+2:47
+for each user and each company. And
+2:49
+look, it makes a ton of sense to just
+2:50
+bake influency with common tools like
+2:52
+browsers and terminals. And indeed, one
+2:54
+of the key advantages that AGIS will
+2:56
+have is this greater capacity to share
+2:58
+knowledge across copies. But people are
+3:00
+really underrating how much company and
+3:02
+context specific skills are required to
+3:05
+do most jobs. And there just isn't
+3:07
+currently a robust efficient way for AIS
+3:10
+to pick up these skills.
+3:15
+I was recently at a dinner with a AI
+3:17
+researcher and a biologist. And it
+3:19
+turned out the biologist had long
+3:21
+timelines. And so we were asking about
+3:23
+why she had these long timelines. And
+3:24
+then she said, you know, one part of
+3:26
+work recently in the lab has involved
+3:28
+looking at slides and deciding if the
+3:30
+dot in that slide is actually a
+3:32
+macroofage or just looks like a
+3:34
+macroofage. And the AI researcher, as
+3:36
+you might anticipate, responded, look,
+3:38
+image classification is a textbook deep
+3:40
+learning problem. This is death center
+3:42
+in the kind of thing that we could train
+3:43
+these models to do. And I thought this
+3:46
+is a very interesting exchange because
+3:47
+it illustrated a key crux between me and
+3:50
+the people who expect transformative
+3:52
+economic impact within the next few
+3:53
+years. Human workers are valuable
+3:55
+precisely because we don't need to build
+3:58
+in the schley training bloops for every
+4:00
+single small part of their job. It's not
+4:03
+net productive to build a custom
+4:04
+training pipeline to identify what
+4:06
+macrofages look like given the specific
+4:09
+way that this lab prepares slides and
+4:11
+then another training loop for the next
+4:13
+lab specific microtask and so on. What
+4:16
+you actually need is an AI that can
+4:18
+learn from semantic feedback or from
+4:20
+self-directed experience and then
+4:22
+generalize the way a human does. Every
+4:24
+day you have to do a 100 things that
+4:26
+require judgment, situational awareness,
+4:29
+and skills and context that are learned
+4:30
+on the job. These tasks differ not just
+4:33
+across different people but even from
+4:35
+one day to the next for the same person.
+4:38
+It is not possible to automate even a
+4:40
+single job by just baking in a
+4:43
+predefined set of skills let alone all
+4:45
+the jobs. In fact, I think people are
+4:47
+really underestimating how big a deal
+4:48
+actual AI will be because they are just
+4:50
+imagining more of this current regime.
+4:52
+They're not thinking about billions of
+4:54
+humanlike intelligences on a server
+4:56
+which can copy and merge all the
+4:57
+learnings. And to be clear, I expect
+4:59
+this, which is to say I expect actual
+5:01
+brain-like intelligences within the next
+5:04
+decade or two, which is pretty [ __ ]
+5:05
+crazy.
+5:09
+Sometimes people will say that the
+5:10
+reason that AIs are more widely deployed
+5:13
+right now across firms and already
+5:15
+providing lots of value outside of
+5:17
+coding is that technology takes a long
+5:19
+time to diffuse. And I think this is
+5:21
+cope. I think people are using this code
+5:23
+to gloss over the fact that these models
+5:25
+just lack the capabilities that are
+5:26
+necessary for broad economic value. If
+5:28
+these models actually were like humans
+5:30
+on a server, they'd diffuse incredibly
+5:32
+quickly. In fact, they'd be so much
+5:34
+easier to integrate and onboard than a
+5:36
+normal human employee is. They could
+5:38
+read your entire Slack and drive within
+5:40
+minutes. And they could immediately
+5:42
+distill all the skills that your other
+5:43
+AI employees have. Plus, the hiring
+5:46
+market for humans is very much like a
+5:48
+lemons market where it's hard to tell
+5:50
+who the good people are beforehand. And
+5:53
+then obviously hiring somebody who turns
+5:54
+out to be bad is very costly. This is
+5:57
+just not a dynamic that you would have
+5:59
+to face or worry about if you're just
+6:02
+spinning up another instance of a vetted
+6:04
+hi model. So for these reasons, I expect
+6:06
+it's going to be much easier to diffuse
+6:08
+AI labor into firms than it is to hire a
+6:11
+person. And companies hire people all
+6:13
+the time. If the capabilities were
+6:15
+actually at AGI level, people would be
+6:17
+willing to spend trillions of dollars a
+6:19
+year buying tokens that these models
+6:22
+produce. Knowledge workers across the
+6:24
+world cumulatively earn tens of
+6:26
+trillions of dollars a year in wages.
+6:28
+And the reason that labs are orders of
+6:30
+magnitude off this figure right now is
+6:32
+that the models are nowhere near as
+6:35
+capable as human knowledge workers.
+6:39
+Now you might be like look how can the
+6:41
+standard have suddenly become labs have
+6:43
+to earn tens of trillions of dollars of
+6:44
+revenue a year right like until recently
+6:46
+people were saying can these models
+6:48
+reason do these models have common sense
+6:50
+are they just doing pattern recognition
+6:52
+and obviously AI bulls are right to
+6:55
+criticize AI bears for repeatedly moving
+6:58
+these goalpost and this is very often
+7:00
+fair it's easy to underestimate the
+7:02
+progress that AI has made over the last
+7:04
+decade but some amount of goalpost
+7:06
+shifting is actually justified if If you
+7:08
+showed me Gemini 3 in 2020, I would have
+7:10
+been certain that it could automate half
+7:12
+of knowledge work. And so we keep
+7:14
+solving what we thought were the
+7:15
+sufficient bottlenecks to AGI. We have
+7:17
+models that have general understanding.
+7:19
+They have few shot learning. They have
+7:20
+reasoning. And yet we still don't have
+7:23
+AGI. So what is a rational response to
+7:26
+observing this? I think it's totally
+7:28
+reasonable to look at this and say, "Oh,
+7:30
+actually there's much more to
+7:31
+intelligence and labor than I previously
+7:33
+realized." And while we're really close
+7:35
+and in many ways have surpassed what I
+7:38
+would have previously defined as AGI in
+7:40
+the past, the fact that model companies
+7:43
+are not making the trillions of dollars
+7:44
+in revenue that would be implied by AGI
+7:48
+clearly reveals that my previous
+7:50
+definition of AGI was too narrow. And I
+7:52
+expect this to keep happening into the
+7:54
+future. I expect that by 2030, the labs
+7:56
+will have made significant progress on
+7:59
+my hobby horse of continual learning and
+8:01
+the models will be earning hundreds of
+8:03
+billions of dollars in revenue a year,
+8:04
+but they won't have automated all
+8:06
+knowledge work. And I'll be like, look,
+8:08
+we made a lot of progress, but we
+8:10
+haven't hit AGI yet. We also need these
+8:12
+other capabilities. We need X, Y, and Z
+8:15
+capabilities in these models. Models
+8:17
+keep getting more impressive at the rate
+8:18
+that the short timelines people predict,
+8:20
+but more useful at the rate that the
+8:22
+long timelines people predict.
+8:28
+It's worth asking what are we scaling
+8:30
+with pre-trading? We had this extremely
+8:33
+clean and general trend in improvement
+8:35
+in loss across multiples orders of
+8:37
+magnitude in compute. Albeit this was on
+8:39
+a power law which is as weak as
+8:42
+exponential growth is strong. But people
+8:44
+are trying to launder the prestige that
+8:46
+three training scaling has, which is
+8:48
+almost as predictable as a physical law
+8:50
+of the universe to justify bullish
+8:53
+predictions about reinforcement learning
+8:55
+from verifiable reward for which we have
+8:57
+no welfare publicly known trend. And
+9:00
+when intrepid researchers do try to
+9:02
+piece together the implications from
+9:03
+scarce public data points, they get
+9:05
+pretty bearish results. For example,
+9:07
+Toby Board has a great post where he
+9:09
+cleverly connects the dots between the
+9:11
+different O series benchmarks and this
+9:14
+suggested to him that quote we need
+9:16
+something like a millionx scale up in
+9:18
+total RL compute to give a boost similar
+9:20
+to a single GPT level. End quote.
+9:27
+So people have spent a lot of time
+9:29
+talking about the possibility of a
+9:31
+software in the singularity where AI
+9:32
+models will write the code that
+9:35
+generates a smarter successor system or
+9:37
+a software plus hardware singularity
+9:39
+where AIs also improve their successor's
+9:42
+computing hardware. However, all these
+9:43
+scenarios neglect what I think will be
+9:45
+the main driver of further improvements
+9:48
+at top AGI continual learning. Again,
+9:51
+think about how humans become more
+9:52
+capable than anything. It's mostly from
+9:54
+experience in the relevant domain. Over
+9:57
+conversation, Baron Miller made this
+9:58
+interesting suggestion that the future
+10:00
+might look like continual learning
+10:02
+agents who are all going out and they're
+10:04
+doing different jobs and they're
+10:05
+generating value and then they're
+10:06
+bringing back all their learnings to the
+10:08
+hive mind model which does some kind of
+10:11
+bash distillation on all of these
+10:13
+agents. The agents themselves could be
+10:15
+quite specialized containing what
+10:16
+Karpathi called the cognitive core plus
+10:19
+knowledge and skills relevant to the job
+10:21
+they're being deployed to do. Solving
+10:23
+continual learning won't be a singular
+10:26
+one and done achievement. Instead, it
+10:27
+will feel like solving in context
+10:29
+learning. Now, GBT3 already demonstrated
+10:32
+in context learning could be very
+10:33
+powerful in 2020. It's uh in context
+10:36
+learning capabilities were so
+10:37
+remarkable. The title of the GPT3 paper
+10:39
+was language models are a few shot
+10:41
+learners. But of course, we didn't solve
+10:43
+in context learning when GPD3 came out.
+10:45
+And indeed, there's still plenty of
+10:46
+progress that still has to be made from
+10:48
+comprehension to context length. I
+10:50
+expect a similar progression with
+10:53
+continual learning. Labs will probably
+10:55
+release something next year which they
+10:56
+call continual learning and which will
+10:58
+in fact count as progress towards
+11:00
+continual learning. But human level on
+11:03
+the job learning may take another 5 to
+11:05
+10 years to iron out. This is why I
+11:08
+don't expect some kind of runaway gains
+11:10
+from the first model that cracks
+11:12
+continual learning that's getting more
+11:14
+and more widely deployed and capable. If
+11:16
+you had fully solved continual learning
+11:18
+drop out of nowhere, then sure, it might
+11:19
+be game set match as SAT put it on the
+11:22
+podcast when I asked him about this body
+11:24
+disability. But that's probably not
+11:25
+what's going to happen. Instead, some
+11:27
+lab is going to figure out how to get
+11:28
+some initial traction on this problem
+11:30
+and then playing around with this
+11:31
+feature will make it clear how it was
+11:34
+implemented and then other labs will
+11:36
+soon replicate the breakthrough and
+11:38
+improve it slightly. Besides, I just
+11:40
+have some prior that the competition
+11:41
+will stay pretty fierce between all
+11:43
+these model companies. And this is
+11:44
+informed by the observation that all
+11:46
+these previous supposed flywheels,
+11:48
+whether that's user engagement on chat
+11:50
+or synthetic data or whatever, have done
+11:53
+very little to diminish the greater and
+11:54
+greater competition between model
+11:56
+companies. Every month or so, the big
+11:58
+three model companies will rotate around
+11:59
+the podium, and the other competitors
+12:01
+are not that far behind. There seems to
+12:03
+be some force, and this is potentially
+12:05
+talent poaching. It's potentially the
+12:06
+rumor mill SF or just normal reverse
+12:09
+engineering which has so far neutralized
+12:11
+any runaway advantage that a single lab
+12:13
+might have had. This was an narration of
+12:15
+an essay that I originally released on
+12:17
+my blog at dwarcash.com. I'm going be
+12:20
+publishing a lot more essays. I found
+12:21
+it's actually quite helpful in ironing
+12:23
+out my thoughts before interviews. If
+12:24
+you want to stay up to date with those,
+12:26
+you can subscribe atash.com.
+12:28
+Otherwise, I'll see you for the next
+12:30
+podcast. Cheers.

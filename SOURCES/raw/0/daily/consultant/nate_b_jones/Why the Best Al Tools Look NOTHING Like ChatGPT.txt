@@ -1,0 +1,625 @@
+https://www.youtube.com/watch?v=ywIK4dNGFZU
+Why the Best AI Tools Look NOTHING Like ChatGPT
+13,496 views  Oct 20, 2025  SEATTLE
+My site: https://natebjones.com
+Full Story w/ Prompt: https://natesnewsletter.substack.com/...
+My substack: https://natesnewsletter.substack.com/
+_______________________
+What’s really happening with the new wave of AI tools?
+The common story is that better prompts and smarter models drive success — but the reality is more complicated.
+
+In this video, I share the inside scoop on what separates fast-growing AI products from the pack:
+• Why the best tools don’t look like ChatGPT
+• How top builders collapse the distance between AI and output
+• What “AI where you work” actually means in practice
+• Where new LLM-powered interfaces are quietly winning
+
+The takeaway: the next generation of AI adoption won’t come from chatbots — it’ll come from tools that merge directly with the work itself.
+
+Chapters
+00:00 The Evolution of AI Tools
+02:17 Innovative Tools Transforming Workflows
+08:36 Key Principles for AI Success
+
+Subscribe for daily AI strategy and news.
+For deeper playbooks and analysis: https://natesnewsletter.substack.com/
+
+---
+
+The Evolution of AI Tools
+0:00
+I did a survey of hundreds of AI tools
+0:02
+and the best AI tools out there today do
+0:05
+not look like chat GPT and I wanted to
+0:07
+do a whole video breaking down the
+0:09
+patterns I learned digging into these
+0:12
+new tool launches because everybody's
+0:14
+building AI chat interfaces it seems
+0:15
+like and the companies actually starting
+0:17
+to drive adoption, print money, and grow
+0:20
+fast are building something else
+0:22
+entirely. And here's what I learned as I
+0:24
+laded up all of these tools that I
+0:26
+looked into. The winning pattern isn't
+0:29
+better prompts plus smarter models
+0:31
+equals AI. The winning pattern is
+0:34
+collapsing the distance between AI and
+0:37
+the artifact that you need to ship. In
+0:39
+other words, the best tools do not look
+0:41
+like chat GPT because they operate where
+0:44
+your work already lives and they output
+0:46
+the exact thing that you would otherwise
+0:48
+produce manually. So, I looked at
+0:51
+hundreds of tools and I picked the top,
+0:54
+call it 12 to 15 tools that are going to
+0:58
+matter the most because they illustrate
+1:01
+this new way of working. Think of these
+1:03
+as canaries in the coal mine, right?
+1:06
+Like they illustrate new ways of working
+1:08
+that bring the AI and the artifact close
+1:10
+together. You're going to see more tools
+1:11
+like this in the future. And I think
+1:13
+it's really important that we find them
+1:15
+because otherwise we default to the
+1:16
+brands we know. We default to Anthropic,
+1:18
+we default to Chad GPT, etc. Let's not
+1:20
+do that. Instead, let's look for tools
+1:23
+that are new, innovative, give us direct
+1:26
+outputs that are useful, and most
+1:28
+important of all, have the potential to
+1:30
+replace something in the budget. That
+1:31
+was one of my standards when I was
+1:33
+evaluating these tools because I don't
+1:35
+know about you, but for me, it is not
+1:37
+worth it to add yet another AI tool to
+1:39
+the stack if I'm having to add to the
+1:41
+budget, too. I want to have the
+1:43
+potential to trade something out of the
+1:44
+software budget and put something new
+1:46
+in. And that's my goal here. So, I'm
+1:48
+going to run through four of them that I
+1:50
+think really illustrate the trend, and
+1:51
+I'm going to put the whole list down on
+1:53
+Substack for you to check out. The thing
+1:54
+that I want you to keep in mind as we go
+1:56
+through this tool list is how different
+1:58
+these are from the conventional AI
+2:01
+workflow. Think about it. The
+2:02
+conventional AI workflow is you leave
+2:04
+your work surface, your database, your
+2:06
+editor, your chat, whatever, and you
+2:07
+describe what you want somewhere else
+2:09
+with the AI, and then you copy the
+2:11
+output back, and then you manually
+2:13
+finish up that last mile. People think
+2:15
+that's AI but that is the gap actually
+Innovative Tools Transforming Workflows
+2:17
+where AI productivity goes to die and
+2:20
+these tools show it. So let's get to the
+2:22
+first tool. So this is Dreamlit.
+2:24
+Dreamlit builds transactional emails
+2:27
+inside Superbase in natural chat. You
+2:29
+just describe it. You preview it with
+2:31
+large live database rows and you send.
+2:34
+That's it. You can vibe code your way to
+2:36
+an email campaign. The reason this
+2:39
+matters is that this is illustrating how
+2:41
+durable the vibe coding mega trend is.
+2:44
+The idea of an entire startup that
+2:47
+combines vibe coding and superbase but
+2:49
+isn't a website builder would not have
+2:51
+been possible without lovable, without
+2:53
+bolt, without these tools that make vibe
+2:56
+coding a thing. It is now such a big
+2:58
+deal. It is possible to build an entire
+3:00
+startup that just focuses on helping
+3:04
+vibe coders to run email campaigns. And
+3:06
+so instead of copying over query results
+3:08
+or SQL results from your database rows
+3:10
+in Superbase into another tool like
+3:12
+Mailchimp, you are actually writing
+3:14
+emails where your current vibecoded
+3:16
+operation operational data already
+3:19
+flows. So the database console becomes
+3:21
+the email builder, right? This is the
+3:23
+inversion. Instead of bringing the data
+3:25
+to the AI, you're bringing the AI to
+3:27
+where the data lives. That is the theme.
+3:29
+We see that with other tools that are
+3:30
+coming out that I'll talk about as well.
+3:32
+The key is the AI should exist where
+3:35
+that work substrate already occurs and
+3:38
+vibe coders have made it so that
+3:39
+superbase is where so much operational
+3:42
+data lives. It just makes sense for a
+3:43
+tool like Dreamlet to I love this
+3:45
+because it takes the existing motion the
+3:47
+existing workflow that vibe coders
+3:49
+already use and says why not just do
+3:51
+this for emails where your data lives.
+3:52
+It's it's a no-brainer if you're in that
+3:54
+space. Let's go to tool number two. Tool
+3:56
+number two is Stricks. It's a security
+3:59
+agent with a difference. It doesn't just
+4:01
+report vulnerabilities. It exploits the
+4:03
+vulnerabilities. It's okay. It's okay.
+4:05
+It exploits them first. It captures
+4:07
+proof and then it files findings. In
+4:10
+other words, Stricks knows that security
+4:13
+professionals are not just going to say,
+4:15
+"AI told me it's true." Right? Security
+4:17
+professionals are cautious. The ones I
+4:20
+talk to are still trying to figure out
+4:22
+how AI plays a productive role inside a
+4:26
+defense perimeter. Strick solves that by
+4:29
+forcing AI to prove its work. So instead
+4:31
+of asking, can I trust this AI security
+4:33
+analysis, you can say, I don't care
+4:36
+whether I trust the analysis, I trust
+4:38
+the exploit log. I can see that the
+4:40
+vulnerability is real because there was
+4:42
+an exploit. So if stricks can't prove
+4:44
+it, Stricks just doesn't report it. The
+4:47
+pattern is pretty simple. Deterministic
+4:49
+verification here beats probabilistic
+4:52
+claims. When you're coming to enterprise
+4:54
+software, there's a bunch of startups.
+4:56
+I've started to see a bunch of tools
+4:57
+I've started to see that insist on
+5:00
+showing receipts instead of confidence
+5:02
+scores. And that is a big theme we're
+5:04
+going to see already this year, already
+5:06
+in some of the tools I found and going
+5:07
+into next year. Let's get to tool number
+5:09
+three. Tool number three is called MEM
+5:11
+2.0. It is calendar and Slack monitoring
+5:15
+that proactively surfaces relevant notes
+5:18
+before your next meeting. You don't ask,
+5:20
+it just knows. And so most of your best
+5:22
+context already exists in notes, right?
+5:25
+And the problem we always have, I know I
+5:27
+have, is that I write the notes and it
+5:28
+goes into this giant pile. Maybe it's in
+5:30
+a word doc, maybe it's in Apple notes,
+5:32
+maybe it's like typed as an extra note
+5:33
+in granola, whatever, and I forget about
+5:36
+it. MEM's job is not to generate new
+5:39
+content for you. Unlike most AI, right?
+5:41
+MEM's job is to resurface the right
+5:44
+content at decision time. So the
+5:46
+interaction flips from write a query to
+5:48
+generate to observe the context around
+5:51
+you and then retrieve the alert. In
+5:54
+other words, MEM is a memory prosthetic.
+5:56
+MEM is not a content engine. And the
+5:59
+pattern that makes sense here is that
+6:01
+recall will beat generation for
+6:03
+knowledge work if the recall is
+6:05
+accurate, useful, timely, and correct.
+6:07
+And that is what MEM seeks to do. And
+6:09
+I'm super interested in this pattern
+6:11
+because I think we're going to see a lot
+6:12
+of cases where we already have the
+6:14
+knowledge inside the enterprise, inside
+6:16
+your notes somewhere, and just bringing
+6:18
+it back proactively is tremendously
+6:20
+useful. Let's get to tool number four.
+6:22
+Caesar is a super interesting tool. It's
+6:25
+brand new. You can vibe code your way to
+6:26
+an agent. Sure, we've all seen that
+6:28
+before, but this is an agent that clicks
+6:30
+buttons across web, desktop, and mobile
+6:34
+when APIs don't exist. It's an extension
+6:36
+of computer use for agents. What's
+6:39
+interesting here is that two big
+6:41
+automation paths are emerging right now.
+6:42
+deep integrations like uh there there's
+6:45
+tools that like comet right the browser
+6:47
+I've talked about they use API or data
+6:49
+interfaces to interact but tools like
+6:51
+Caesar control everything else they go
+6:54
+where tools don't they go where the data
+6:57
+ins and outs aren't written yet and if
+7:00
+we're honest that's most of the web I
+7:02
+have really complicated feelings about
+7:05
+these tools and that's part of why I'm
+7:06
+surfacing them I think that there is a
+7:09
+tremendous amount of potential in
+7:12
+getting LLMs to operate interfaces the
+7:15
+way we do, even if it's a hard problem.
+7:18
+And I think tools like Caesar point the
+7:20
+way toward a solution. This is a
+7:23
+pragmatic solution that will exceed API
+7:27
+stability for longtail applications.
+7:29
+Right? I'm saying like if you have a set
+7:33
+of integrations that you need to keep an
+7:34
+eye on for example and you want to write
+7:36
+an agent that just keeps an eye on a
+7:38
+bunch of integrations for you that are
+7:39
+in your longtail something like Caesar
+7:41
+is going to beat datari integrations
+7:43
+that are driven by MCP servers because
+7:45
+not everyone's going to have an MCP
+7:46
+server in other words if you can just
+7:48
+own the interface the user sees then you
+7:51
+can actually automate it and even if for
+7:54
+some apps the data integration is going
+7:56
+to be stronger and faster the advantage
+7:58
+that this app has that Caesar has is
+8:00
+that it goes everywhere. What I compare
+8:02
+it to is the idea that you have a jeep
+8:06
+that can go all terrain, any road,
+8:08
+doesn't matter, up the dirt track into
+8:11
+Moab National Park if that's your thing
+8:13
+on rock. That's fine, right? Like the
+8:15
+Jeep can go anywhere. Caesar can go
+8:16
+anywhere. Now, it may not be the fastest
+8:18
+car, right? Like if you need a Ferrari
+8:22
+to run on a racetrack, you're not going
+8:24
+to go with this solution, but it's going
+8:26
+to get the job done regardless. And I
+8:28
+think that that calls out yet again how
+8:31
+we are pushing AI to be where we are. We
+8:34
+are pushing AI into the human interface.
+Key Principles for AI Success
+8:36
+So we've looked at a few of these tools.
+8:37
+There's a bunch more. Let's zoom back a
+8:39
+little bit. Let's pull back to the
+8:41
+unified patterns that we see. Number
+8:43
+one, these tools collapse the gap
+8:46
+between output and shipped work. I want
+8:48
+to reiterate that Dreamlet ships emails
+8:50
+from the database console. Stricks ships
+8:53
+exploit validated reports right into
+8:55
+your issue tracker. MEM is going to ship
+8:57
+reminders before your meeting starts
+8:59
+right where you are. Caesar ships
+9:01
+completed tasks across apps without an
+9:03
+API. And this shifts buyer questions. It
+9:07
+shifts our expectations, which is why
+9:10
+I'm doing this video. Instead of can AI
+9:12
+do this, which I hear way too often, I
+9:15
+want us to be asking a better question.
+9:17
+Does this tool own the last mile to the
+9:21
+work artifact I need? That is so much
+9:23
+more useful. And if it doesn't, go find
+9:26
+one that does because I bet it exists.
+9:28
+So, who's going to win in this space? If
+9:30
+we zoom back, these are four example
+9:33
+tools. I did not pick them for special
+9:34
+reasons other than they seem to have
+9:36
+utility. They have great reviews and
+9:39
+they operate against this principle and
+9:41
+I think they're worth highlighting,
+9:42
+right? Nobody paid me for this. I'm just
+9:44
+trying to highlight some examples for
+9:45
+you. The principles that will separate
+9:47
+winners in this space from losers, from
+9:50
+rappers, from zombies are pretty simple.
+9:52
+I think after looking at hundreds of
+9:54
+apps, I think I can boil it down. Data
+9:56
+proximity is going to win. Operate where
+9:59
+your work already flows. So, it's less
+10:01
+work and you don't have to open a
+10:03
+separate portal. This is something I
+10:04
+think that Dreamlet does a great job of
+10:06
+highlighting. If you are already there
+10:08
+and the AI is already there, you're just
+10:10
+going to win. Determinism is back is the
+10:13
+second principle, right? Determinism
+10:14
+over vibes. having proof, having
+10:17
+citations, having verified diffs, having
+10:19
+exploits you can show like stricks, it's
+10:22
+going to be confident scores. Just prove
+10:24
+it, right? If the AI can prove it,
+10:26
+great. Third is if you own the artifact,
+10:30
+not the draft, you're going to win. If
+10:32
+it is good enough to be the actual
+10:34
+email, if it is good enough to be the
+10:36
+actual report in the task, you're not
+10:38
+leaving the tool. So the companies that
+10:40
+are building these, they're not trying
+10:42
+to replace Chad GPT. They're asking what
+10:45
+if AI lived inside the tools you already
+10:47
+use and finished the work instead of
+10:49
+just starting it. And I think that's a
+10:51
+pretty interesting takeaway and a pretty
+10:54
+interesting trend we're not talking
+10:55
+enough about in October 2025. Good luck.
+10:58
+What tool will you use?
