@@ -1,262 +1,380 @@
-# EVALUATIVE STANDARDS
-## 18-Lens Framework for Decision Evaluation
-**Last Updated**: 2025-12-31
-**Purpose**: Consistent evaluation methodology for all Oracle decisions
+# STANDARDS: The 18 Evaluative Lenses
+## Decision Framework for Syncrescendence
+**Generated**: 2025-12-31 (Oracle7)
+**Purpose**: Provide consistent evaluation criteria for all strategic decisions
+**Status**: Constitutional — do not modify without Principal approval
 
 ---
 
-## THE 18 LENSES
+## OVERVIEW
 
-### Strategic Alignment Lenses (1-4)
+Every strategic decision must be evaluated against these 18 lenses. A decision that fails more than 6 lenses should be reconsidered.
 
-#### 1. Syncrescendent Route
-**Question**: Does this advance the Syncrescendence mission?
-**Evaluation**:
-- ✓ Aligns with core principles (sovereignty, coherence, efficacy, mastery, transcendence)
-- ✓ Advances Principal's stated goals
-- ✗ Diverges from mission
-- ✗ Creates competing priorities
+**Scoring**:
+- ✓ = Passes (supports this principle)
+- ⚠️ = Neutral/Mixed (neither supports nor contradicts)
+- ✗ = Fails (contradicts this principle)
 
-#### 2. Bitter Lesson
-**Question**: Will this scale with compute/context?
-**Evaluation**:
-- ✓ Simple structures that scale
-- ✓ Leverage model capabilities
-- ✓ Avoid brittle hand-engineering
-- ✗ Requires increasing manual intervention
-- ✗ Depends on specific model versions
-
-#### 3. Antifragile
-**Question**: Does the system gain from stress/chaos?
-**Evaluation**:
-- ✓ System strengthens through pruning
-- ✓ Errors inform improvement
-- ✓ Redundancy where needed
-- ✗ Single points of failure
-- ✗ Fragile to change
-
-#### 4. Meet the Moment
-**Question**: Does this address current need?
-**Evaluation**:
-- ✓ Solves immediate problem
-- ✓ Enables blocked work
-- ✗ Premature optimization
-- ✗ Solves hypothetical problem
+**Threshold**: Minimum 12/18 lenses must pass for approval.
 
 ---
 
-### Analysis Quality Lenses (5-7)
+## THE ORIGINAL NINE (Oracle4)
 
-#### 5. Steelman/Redteam
-**Question**: Were alternatives seriously considered?
-**Evaluation**:
-- ✓ Multiple options generated
-- ✓ Each option steelmanned (best version)
-- ✓ Each option redteamed (failure modes)
-- ✗ First idea accepted without alternatives
-- ✗ Strawman alternatives
+### 1. Syncrescendent Route
+**Question**: Does this follow the continuous, recursive amplification path?
 
-#### 6. Personal Idiosyncrasies
-**Question**: Does this respect Principal's neurodivergent needs?
-**Evaluation**:
-- ✓ AuDHD-friendly structure
-- ✓ Cognitive load management
-- ✓ Context persistence (working memory support)
-- ✗ Assumes neurotypical patterns
-- ✗ Creates cognitive burden
+**Evaluation Criteria**:
+- Does it maintain continuity with prior decisions?
+- Does it enable future evolution?
+- Does it serve the civilizational sensing infrastructure vision?
 
-#### 7. Potency without Resolution Loss
-**Question**: Is maximum resolution preserved?
-**Evaluation**:
-- ✓ Nuance retained
-- ✓ Details accessible
-- ✓ Summary + depth available
-- ✗ Over-simplified
-- ✗ Critical context lost
+**Red Flags**:
+- Discontinuities that break accumulated context
+- Dead ends that don't enable future growth
+- Scope reduction that abandons the mission
 
 ---
 
-### Accessibility Lenses (8-9)
+### 2. Bitter Lesson Scaling
+**Question**: Does this leverage computation rather than hand-crafted features?
 
-#### 8. Agentify
-**Question**: Is this machine-navigable?
-**Evaluation**:
-- ✓ Structured for model consumption
-- ✓ Clear metadata
-- ✓ Consistent formatting
-- ✗ Requires human interpretation
-- ✗ Ambiguous structure
+**Evaluation Criteria**:
+- Will this scale with increasing model capability?
+- Does it rely on general methods over specific solutions?
+- Will it become MORE valuable as AI improves?
 
-#### 9. Human-Navigable
-**Question**: Is this human-readable?
-**Evaluation**:
-- ✓ Clear prose
-- ✓ Logical organization
-- ✓ Findable content
-- ✗ Obscure jargon
-- ✗ Poor organization
+**Red Flags**:
+- Hand-crafted rules that AI will obsolete
+- Solutions that fight model nature
+- Complexity that doesn't scale
+
+**The Bitter Lesson** (Sutton): "The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective."
 
 ---
 
-### Systems Lenses (10-14)
+### 3. Antifragile
+**Question**: Does this gain from disorder rather than merely resist it?
 
-#### 10. Systems Thinking
-**Question**: Are second-order effects considered?
-**Evaluation**:
-- ✓ Dependencies mapped
-- ✓ Feedback loops identified
-- ✓ Unintended consequences anticipated
-- ✗ Isolated thinking
-- ✗ Ignores ripple effects
+**Evaluation Criteria**:
+- Will disruption strengthen this?
+- Does it improve through failure and iteration?
+- Is it designed for volatility, not stability?
 
-#### 11. Lean
-**Question**: Does this eliminate waste?
-**Evaluation**:
-- ✓ Minimal viable solution
-- ✓ No redundant work
-- ✓ Flow optimized
-- ✗ Over-engineering
-- ✗ Duplicate effort
+**Red Flags**:
+- Fragile dependencies
+- Single points of failure
+- Rigidity disguised as stability
 
-#### 12. Six Sigma
-**Question**: Does this reduce defects?
-**Evaluation**:
-- ✓ Error rates decrease
-- ✓ Quality improves
-- ✓ Consistency increases
-- ✗ Introduces new failure modes
-- ✗ Quality degradation
-
-#### 13. Kaizen
-**Question**: Does this enable continuous improvement?
-**Evaluation**:
-- ✓ Learnings captured
-- ✓ Feedback loops established
-- ✓ Iteration supported
-- ✗ One-time fix
-- ✗ No improvement mechanism
-
-#### 14. 80/20
-**Question**: Is this high-leverage?
-**Evaluation**:
-- ✓ Small effort, large impact
-- ✓ Addresses root cause
-- ✗ Large effort, small impact
-- ✗ Symptoms not cause
+**Antifragile Spectrum**: Fragile (breaks under stress) → Robust (resists stress) → Antifragile (gains from stress)
 
 ---
 
-### Foundational Lenses (15-18)
+### 4. Meet the Moment
+**Question**: Does this serve current needs while preparing for future states?
 
-#### 15. Occam's Razor
-**Question**: Is this the simplest solution?
-**Evaluation**:
-- ✓ Minimal complexity
-- ✓ Fewest moving parts
-- ✗ Unnecessary complexity
-- ✗ Over-architected
+**Evaluation Criteria**:
+- Is this relevant NOW (Modal 1 era)?
+- Does it avoid premature optimization?
+- Does it prepare for Modal 2/3 without blocking current progress?
 
-#### 16. First Principles
-**Question**: Is this derived from fundamentals?
-**Evaluation**:
-- ✓ Based on core truths
-- ✓ Not assumption-dependent
-- ✗ Based on conventions
-- ✗ Cargo-culting
+**Red Flags**:
+- Future-proofing that sacrifices present utility
+- Present-focus that ignores trajectory
+- Temporal misalignment
 
-#### 17. Inversion
-**Question**: What would make this fail?
-**Evaluation**:
-- ✓ Failure modes identified
-- ✓ Mitigations in place
-- ✗ Failure modes ignored
-- ✗ Brittle to edge cases
+---
 
-#### 18. Regret Minimization
-**Question**: Will this be regretted?
-**Evaluation**:
-- ✓ Reversible if wrong
-- ✓ Low downside risk
-- ✓ Optionality preserved
-- ✗ Irreversible damage
-- ✗ High regret potential
+### 5. Steelman & Redteam
+**Question**: Has this been subjected to the strongest possible challenge?
+
+**Evaluation Criteria**:
+- What's the best argument AGAINST this?
+- What would have to be true for this to fail?
+- What's the strongest alternative?
+
+**Red Flags**:
+- Strawman dismissals of alternatives
+- Confirmation bias in evaluation
+- Untested assumptions
+
+**Process**:
+1. State the strongest version of opposing view
+2. Identify conditions that would make this fail
+3. Document why chosen approach is still preferred
+
+---
+
+### 6. Personal Idiosyncrasies
+**Question**: Does this respect the Principal's cognitive profile?
+
+**Principal's Profile**:
+- AuDHD cognitive pattern
+- Macroscopic-holistic processing first, then distillation
+- High verbal working memory, abstract-sequential dominant
+- Requires external scaffolding for execution
+- Prone to seeing connections others miss
+
+**Evaluation Criteria**:
+- Does it provide holistic visibility before detail?
+- Does it accommodate non-linear processing?
+- Does it externalize executive function?
+
+**Red Flags**:
+- Premature reduction before holistic view
+- Sequential-only processing assumptions
+- Demands on working memory without scaffolding
+
+---
+
+### 7. Potency Without Resolution Loss
+**Question**: Does this maintain power without sacrificing nuance?
+
+**Evaluation Criteria**:
+- Is the full complexity preserved?
+- Can the original be reconstructed from this?
+- Has compression introduced distortion?
+
+**Red Flags**:
+- Oversimplification that loses signal
+- Compression that introduces artifacts
+- Abstraction that obscures mechanism
+
+---
+
+### 8. Elegance + Developer Happiness
+**Question**: Is this simple, clear, and satisfying to work with?
+
+**Evaluation Criteria**:
+- Is the mental model intuitive?
+- Does it spark joy to use?
+- Would a sophisticated practitioner appreciate it?
+
+**Red Flags**:
+- Unnecessary complexity
+- Obscure conventions
+- Frustrating interaction patterns
+
+---
+
+### 9. Agentify + Human-Navigable
+**Question**: Can both AI agents and humans effectively use this?
+
+**Evaluation Criteria**:
+- Can an agent parse and traverse this autonomously?
+- Can a human understand it in 5 minutes?
+- Maximum 2 decisions to any file?
+
+**Red Flags**:
+- Agent-hostile structures
+- Human-hostile naming
+- Deep nesting requiring many decisions
+
+---
+
+## THE EXTENDED NINE (Oracle6)
+
+### 10. First Principles
+**Question**: What are the fundamental truths here?
+
+**Evaluation Criteria**:
+- What's the irreducible core?
+- What assumptions are we making?
+- What would Aristotle ask?
+
+**Process**:
+1. List all assumptions
+2. Challenge each assumption
+3. Build up from bedrock truths
+
+---
+
+### 11. Systems Thinking
+**Question**: How do the parts relate to the whole?
+
+**Evaluation Criteria**:
+- What are the feedback loops?
+- What are the emergent properties?
+- Where are the leverage points?
+
+**Red Flags**:
+- Isolated component thinking
+- Ignoring side effects
+- Missing feedback loops
+
+---
+
+### 12. Industrial Engineering
+**Question**: How do we minimize waste and maximize throughput?
+
+**Evaluation Criteria**:
+- What's the bottleneck?
+- What's the rework rate?
+- Where's the unnecessary motion?
+
+**Red Flags**:
+- Hidden rework cycles
+- Unidentified bottlenecks
+- Redundant processes
+
+---
+
+### 13. Complexity Theory
+**Question**: Is this essential complexity or accidental complexity?
+
+**Evaluation Criteria**:
+- Does the complexity serve the problem?
+- Can it be simplified without losing function?
+- Is the complexity intrinsic or imposed?
+
+**Essential Complexity**: Inherent in the problem domain
+**Accidental Complexity**: Introduced by the solution
+
+**Red Flags**:
+- Accidental complexity masquerading as essential
+- Premature abstraction
+- Complexity for its own sake
+
+---
+
+### 14. Permaculture
+**Question**: Is this self-sustaining?
+
+**Evaluation Criteria**:
+- Does it require constant intervention?
+- Does it generate its own inputs?
+- Does it improve over time without maintenance?
+
+**Red Flags**:
+- Dependencies on external inputs
+- Degradation without constant attention
+- Entropy-prone designs
+
+---
+
+### 15. Design Thinking
+**Question**: Is this human-centered?
+
+**Evaluation Criteria**:
+- Who are the users (including Claude agents)?
+- What are their needs?
+- Has this been tested with users?
+
+**Red Flags**:
+- Technology-centered rather than human-centered
+- Untested assumptions about users
+- Ignoring user feedback
+
+---
+
+### 16. Agile
+**Question**: Does this enable rapid iteration?
+
+**Evaluation Criteria**:
+- Can we ship something small and learn?
+- Is feedback built into the process?
+- Can we pivot if needed?
+
+**Red Flags**:
+- Big bang releases
+- No feedback mechanism
+- Rigid commitment to plan
+
+---
+
+### 17. Lean
+**Question**: What's the waste here?
+
+**Seven Wastes** (adapted):
+1. Overproduction — Creating more than needed
+2. Waiting — Blocked work
+3. Transportation — Unnecessary movement
+4. Over-processing — More precision than required
+5. Inventory — Accumulated unprocessed items
+6. Motion — Unnecessary steps
+7. Defects — Errors requiring correction
+
+**Red Flags**:
+- Any of the seven wastes
+- Hidden waste
+- Accepted waste
+
+---
+
+### 18. Six Sigma
+**Question**: What's the defect rate?
+
+**Evaluation Criteria**:
+- How often does this fail?
+- What's the root cause of failures?
+- Is the process capable of meeting requirements?
+
+**Red Flags**:
+- High defect rates accepted as normal
+- Unknown defect rates
+- Defects fixed symptomatically, not systemically
 
 ---
 
 ## APPLICATION METHODOLOGY
 
-### Decision Scoring
+### Step 1: State the Decision
+Clearly articulate what is being decided.
 
-Score each lens: ✓ (pass) or ✗ (fail)
+### Step 2: Apply Each Lens
+For each of the 18 lenses:
+- Score (✓/⚠️/✗)
+- Provide brief rationale
 
-**Thresholds**:
-- 18/18: Exemplary — proceed immediately
-- 15-17/18: Good — proceed with noted caveats
-- 12-14/18: Acceptable — address failing lenses if possible
-- 9-11/18: Marginal — reconsider approach
-- <9/18: Reject — fundamental issues
+### Step 3: Calculate Score
+Count passes (✓). Threshold is 12/18.
 
-### Worked Example: DIRECTIVE-025 Documentation Decision
+### Step 4: Evaluate Failures
+For any lens that fails:
+- Is this a critical failure or acceptable tradeoff?
+- Can the decision be modified to pass this lens?
 
-**Decision**: Retroactive + prospective comprehensive documentation
-
-| Lens | Score | Notes |
-|------|-------|-------|
-| 1. Syncrescendent Route | ✓ | Restores continuity |
-| 2. Bitter Lesson | ✓ | Documentation scales |
-| 3. Antifragile | ✓ | Gains from chaos (more decisions = more learnings) |
-| 4. Meet the Moment | ✓ | Claudes need visibility NOW |
-| 5. Steelman/Redteam | ✓ | Three alternatives evaluated |
-| 6. Personal Idiosyncrasies | ✓ | Provides holistic context |
-| 7. Potency w/o Resolution Loss | ✓ | Maximum resolution preserved |
-| 8. Agentify | ✓ | Structured for model consumption |
-| 9. Human-Navigable | ✓ | Clear organization |
-| 10. Systems Thinking | ✓ | Documentation IS visibility mechanism |
-| 11. Lean | ✓ | Eliminates rework from lost context |
-| 12. Six Sigma | ✓ | Reduces defects (no more fictional claims) |
-| 13. Kaizen | ✓ | Living documents enable iteration |
-| 14. 80/20 | ✓ | High leverage — unlocks all future work |
-| 15. Occam's Razor | ✓ | Documentation is simplest solution |
-| 16. First Principles | ✓ | Context persistence is fundamental |
-| 17. Inversion | ✓ | Failure mode (lost context) already occurred |
-| 18. Regret Minimization | ✓ | More documentation never regretted |
-
-**Score**: 18/18 — APPROVED
+### Step 5: Document
+Record in ORACLE_DECISIONS.md with full evaluation.
 
 ---
 
-## LENS CATEGORIES FOR QUICK REFERENCE
+## WORKED EXAMPLE
 
-### Must-Pass Lenses
-These should rarely fail:
-- Syncrescendent Route (mission alignment)
-- Meet the Moment (current relevance)
-- Regret Minimization (reversibility)
+**Decision**: Should FrontierModels.md be canonized or deleted?
 
-### Trade-Off Lenses
-These may trade against each other:
-- Agentify vs Human-Navigable (balance needed)
-- Lean vs Potency (simplicity vs completeness)
-- 80/20 vs Systems Thinking (quick wins vs holistic)
+| Lens | Score | Rationale |
+|------|-------|-----------|
+| 1. Syncrescendent Route | ✗ | Discontinuous snapshot, not continuous |
+| 2. Bitter Lesson | ✗ | Obsolete in months as models advance |
+| 3. Antifragile | ✗ | Loses value with each new release |
+| 4. Meet the Moment | ✗ | October 2025 is already outdated |
+| 5. Steelman/Redteam | ⚠️ | Could argue historical value |
+| 6. Personal Idiosyncrasies | ✗ | Doesn't serve workflow |
+| 7. Potency w/o Resolution Loss | ✗ | Losing potency daily |
+| 8. Elegance + Dev Happiness | ⚠️ | Reference utility only |
+| 9. Agentify + Human-Navigable | ✗ | Stale data misleads agents |
+| 10. First Principles | ✗ | Contingent on current state |
+| 11. Systems Thinking | ✗ | Disconnected snapshot |
+| 12. Industrial Engineering | ✗ | Requires constant updates |
+| 13. Complexity Theory | ✗ | Accidental complexity (temporal) |
+| 14. Permaculture | ✗ | Requires constant maintenance |
+| 15. Design Thinking | ⚠️ | - |
+| 16. Agile | ✗ | Snapshot resists iteration |
+| 17. Lean | ✗ | Becomes waste as outdated |
+| 18. Six Sigma | ⚠️ | High defect risk (stale info) |
 
-### Quality Lenses
-These indicate thoroughness:
-- Steelman/Redteam (analysis quality)
-- Inversion (failure mode analysis)
-- First Principles (foundational reasoning)
+**Score**: 3/18 (passes: 0, neutral: 3, fails: 15)
 
----
-
-## USAGE IN ORACLE DECISIONS
-
-When documenting a decision in ORACLE_DECISIONS.md:
-
-1. **State the decision** clearly
-2. **List alternatives** considered (Steelman/Redteam)
-3. **Score against lenses** (at least the failing ones)
-4. **Document rationale** for each relevant lens
-5. **Note any trade-offs** accepted
+**Conclusion**: DELETE. Fails 15/18 lenses. Temporal content is fundamentally incompatible with canonical architecture.
 
 ---
 
-**END EVALUATIVE STANDARDS**
+## VERSION HISTORY
+
+**v1.0.0** (2025-12-31): Genesis establishment
+- Complete 18 lenses documented
+- Application methodology defined
+- Worked example provided
+
+*This document is constitutional. Modifications require Principal approval.*

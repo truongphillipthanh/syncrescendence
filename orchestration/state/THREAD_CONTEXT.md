@@ -1,173 +1,269 @@
-# THREAD CONTEXT
-## Oracle Thread Summary for Claude Visibility
-**Last Updated**: 2025-12-31
-**Purpose**: Quick reference for what each Oracle thread established
+# ORACLE THREAD CONTEXT
+## What Each Thread Established
+**Generated**: 2025-12-31 (Oracle7)
+**Purpose**: Quick reference for thread-specific contributions
+**Status**: Update with each new Oracle thread
 
 ---
 
-## OVERVIEW
+## THE ARC PATTERN
 
-| Thread | Focus | Key Contribution |
-|--------|-------|------------------|
-| Oracle 0 | Genesis Analysis | Metabolic principle, three-tier structure |
-| Oracle 1-2 | Chain Reconception | Epistemological grounding, new chain names |
-| Oracle 3 | Directive Template | **THE MODEL** — comprehensive directive structure |
-| Oracle 4 | Metabolic Execution | Defrag (658→136), reference elimination |
-| Oracle 5 | GENESIS + Nomenclature | Narrative substrate, 5-digit numbering |
-| Oracle 6 | Scripture Verification | Content audit, alignment confirmation |
-| Oracle 7 | Context Remediation | This documentation, maximum resolution |
-
----
-
-## THREAD DETAILS
-
-### Oracle 0: Genesis Analysis
-**Date**: ~2025-12-28
-**Established**:
-- Metabolic principle: "If worth keeping, worth canonizing"
-- Three-tier structure: CANON → OPERATIONAL → QUEUE
-- No reference tier (synthesis complete = sources deletable)
-- Simple structures scale (Bitter Lesson)
-
-**Artifacts**: Initial structure proposal
-
----
-
-### Oracle 1-2: Chain Reconception
-**Date**: ~2025-12-28
-**Established**:
-- Epistemological grounding via Hindu Pramāṇa theory
-- Chain renaming:
-  - Technology → Intelligence
-  - Sensing → Information
-  - Coherence → Insight
-  - Efficacy → Expertise
-  - Embodiment → Knowledge
-  - Transcendence → Wisdom
-- Celestial body metaphor (stars, planets, moons, etc.)
-
-**Artifacts**: Chain architecture, celestial hierarchy
-
----
-
-### Oracle 3: The Model Thread ⭐
-**Date**: ~2025-12-29
-**Established**:
-- **Directive comprehensiveness standard**
-- Template elements:
-  1. Decision Context (Principal's actual words)
-  2. Oracle's Interpretation
-  3. Alternatives Considered
-  4. Rationale (against evaluative framework)
-  5. Success Criteria
-  6. Deliverables
-- Principle: Directives must be self-contained
-
-**Why "The Model"**: Future Oracle threads reference Oracle3's directive structure as the standard. Any directive that lacks context, rationale, or alternatives is incomplete.
-
-**Artifacts**: DIRECTIVE-017 through DIRECTIVE-019
-
----
-
-### Oracle 4: Metabolic Execution
-**Date**: ~2025-12-29
-**Established**:
-- Defrag execution: 658 files → 136 files
-- Reference tier permanent elimination
-- Metahumanism consolidation (855K → 12K)
-- Learnings preservation in DESIGN_DECISIONS.md
-
-**Artifacts**: DIRECTIVE-016 execution, defrag results
-
----
-
-### Oracle 5: GENESIS + Nomenclature
-**Date**: ~2025-12-30
-**Established**:
-- GENESIS layer creation (5 files)
-- 5-digit CANON numbering (CANON-00001, CANON-30000, etc.)
-- Filename convention: `CANON-XXXXX-NAME-tier.md`
-- EXEMPLA layer bootstrapped
-- Orchestration infrastructure
-
-**Artifacts**: DIRECTIVE-017, DIRECTIVE-018, DIRECTIVE-019, DIRECTIVE-020
-
----
-
-### Oracle 6: Scripture Verification
-**Date**: ~2025-12-31
-**Established**:
-- Content audit methodology
-- 65 CANON files verified
-- Findings: 0 CRITICAL, 0 HIGH, 12 MEDIUM, 52 LOW
-- Chain naming decision: filenames use new names, prose flexible
-- Phase 1-3 declared complete
-
-**Artifacts**: DIRECTIVE-021, DIRECTIVE-022, DIRECTIVE-023
-
----
-
-### Oracle 7: Context Engineering Remediation
-**Date**: 2025-12-31
-**Established**:
-- Critical failure identified: Claudes lack visibility into decisions
-- Maximum resolution documentation mandate
-- Implicit agreements made explicit
-- System prompt export disposition
-- Tech Lunar file disposition
-
-**Key Recognition**: Repository = Foyer. All context must be accessible to any agent.
-
-**Artifacts**: DIRECTIVE-024, DIRECTIVE-025A, DIRECTIVE-025B, this documentation
-
----
-
-## PATTERN RECOGNITION
-
-### The Oracle3 Standard
-Any directive that lacks:
-- Principal's actual words
-- Alternatives considered
-- Rationale against framework
-- Clear success criteria
-
-...is incomplete and should be enhanced.
-
-### Thread Evolution
 ```
-Oracle 0-2: WHAT should the repository be?
-Oracle 3: HOW should we communicate directives?
-Oracle 4: EXECUTE the structural vision
-Oracle 5: ADD narrative substrate
-Oracle 6: VERIFY content alignment
-Oracle 7: FIX visibility failure
+Oracle0 — Vision (strategic exploration, project framing)
+Oracle1 — Research (ecosystem cartography, platform capabilities)
+Oracle2 — Infrastructure (memory architecture, context protocols)
+Oracle3 — PEAK (orchestration infrastructure established) ← THE MODEL
+Oracle4 — Defrag (79% reduction, but category error on orchestration)
+Oracle5 — Assessment (visibility lost, GENESIS layer thesis, recovery)
+Oracle6 — Execution (semantic annealment, but evaluated reports not reality)
+Oracle7 — Ground Truth (ruthless forge, documentation protocol)
 ```
 
-### Cumulative Principles
-Each thread added to accumulated wisdom:
-1. **Metabolism** (O0): Regular excretion prevents bloat
-2. **Epistemological Grounding** (O1-2): Chains reflect cognition
-3. **Comprehensiveness** (O3): Directives self-contained
-4. **Aggressive Deletion** (O4): Delete > archive
-5. **Narrative Context** (O5): GENESIS explains WHY
-6. **Verification** (O6): Trust but verify
-7. **Maximum Resolution** (O7): Document everything
+---
+
+## ORACLE0: VISION
+
+**Focus**: Strategic exploration, project framing
+
+**Key Contributions**:
+- Framing as "civilizational sensing infrastructure" (not personal productivity)
+- Antifragile design principles
+- Bitter Lesson application
+- "Definitive paradigm-shift gatekeeper" positioning
+- ASA Gradient G7 (Collaborative Intelligence) positioning
+
+**Operational Pattern**: Strategic exploration, no formal execution structure
+
+**What It Left For Later**:
+- Concrete implementation
+- Orchestration patterns
+- Execution discipline
 
 ---
 
-## QUICK REFERENCE
+## ORACLE1: RESEARCH
 
-### When to Reference Which Thread
-| Question | Thread |
-|----------|--------|
-| Why this structure? | Oracle 0 |
-| Why these chain names? | Oracle 1-2 |
-| How to write directives? | Oracle 3 |
-| What was deleted and why? | Oracle 4 |
-| Why GENESIS exists? | Oracle 5 |
-| Is content aligned? | Oracle 6 |
-| Where are decisions documented? | Oracle 7 |
+**Focus**: AI ecosystem cartography, platform capabilities
+
+**Key Contributions**:
+- CLI tools survey (Claude Code, Codex CLI, Gemini CLI)
+- Browser-account binding strategies
+- MCP integration insights
+- Consumer/prosumer focus specification
+- Platform feature mapping (Claude, ChatGPT, Gemini, Grok)
+- System prompt configurability audit
+
+**Operational Pattern**: Research mode, Oracle as researcher
+
+**What It Left For Later**:
+- Synthesis into operational recommendations
+- Concrete configurations
+- Multi-platform coordination
 
 ---
 
-**END THREAD CONTEXT**
+## ORACLE2: INFRASTRUCTURE
+
+**Focus**: Memory architecture, context engineering, multi-IIC coordination
+
+**Key Contributions**:
+- CANON-25000 (Memory Architecture)
+- CANON-25100 (Context Transition Protocol)
+- Seven-stratum memory model
+- IIC-specific memory profiles
+- Cross-platform synchronization concepts
+- "Designing the librarian, not compressing the library" insight
+
+**Critical Decisions**:
+- Flat + symlink architecture
+- Human-navigable in 5 minutes
+- CLI-conducive (glob, grep, find)
+- Platform-universal
+
+**Operational Pattern**: Oracle + Claude 3 coordination established
+
+**What It Left For Later**:
+- Concrete orchestration infrastructure
+- System prompt implementation
+- Function library systematization
+
+---
+
+## ORACLE3: ORCHESTRATION PEAK ← THE MODEL
+
+**Focus**: Sustainable coordination, system prompt architecture, function library
+
+**Key Contributions**:
+- System prompts v2.1 deployed across all platforms
+- Reception Calibration paradigm (replacing Archetype Engineering)
+- Three-layer prompt architecture (Principal Profile / Reception Calibration / Lab Amplification)
+- 20-function metaprompt library systematized
+- 5 Claude Skills created
+- **ORCHESTRATION INFRASTRUCTURE ESTABLISHED**
+
+**The Pattern That Worked**:
+```
+orchestration/
+├── directives/           # Archive of issued directives
+├── execution_logs/       # Claude execution reports (visibility bridge)
+├── scaffolding/          # Working documents
+└── state/
+    ├── BACKLOG.md        # Operational state persistence
+    └── CURRENT_STATE.md  # Repository snapshot for Oracle visibility
+```
+
+**The Visibility Flow**:
+```
+Oracle issues directive → Principal relays (in ticks) → Claude executes
+                                                              ↓
+                                    Saves report to orchestration/execution_logs/
+                                                              ↓
+                                    Principal relays report → Oracle integrates
+```
+
+**Why It Worked**:
+1. Repository-side persistence complemented thread-side memory
+2. Execution logs bridged Oracle-Claude visibility gap
+3. Directives enclosed in ticks enabled clean relay
+4. State files maintained ground truth
+
+**What It Left For Later**:
+- Content processing pipeline
+- Archive management
+- Genesis layer
+
+---
+
+## ORACLE4: METABOLIC DEFRAG
+
+**Focus**: Repository compression, archive metabolism
+
+**Key Contributions**:
+- 79% file reduction (658→136 files)
+- 98% directory reduction (914→14 directories)
+- 74% character reduction (12.7M→3.25M chars)
+- Original 9 evaluative lenses established
+- Metabolism model: "canonize or delete, no middle ground"
+- Bitter Lesson application to archives
+
+**Critical Decisions**:
+- No archive tier (guilt-driven hoarding category)
+- CANON/OPERATIONAL/QUEUE three-tier structure
+- Near-term temporal horizon governs fluid documents
+
+**CATEGORY ERROR** (Corrected in Oracle5):
+- Applied "canonize or delete" to orchestration/ infrastructure
+- Deleted execution_logs/, directives/, state/
+- This broke the visibility mechanism from Oracle3
+
+**What It Left For Later**:
+- Visibility mechanism restoration
+- Genesis layer
+- Content alignment
+
+---
+
+## ORACLE5: ASSESSMENT + RECOVERY
+
+**Focus**: Coherence audit, visibility restoration, Genesis layer thesis
+
+**Key Contributions**:
+- Complete corpus audit (discovered manifest drift)
+- Three fundamental gaps identified:
+  1. Manifest drift (57 files vs. 28-30 claimed)
+  2. Nomenclature entropy
+  3. Missing narrative layer
+- GENESIS layer thesis developed
+- Orchestration infrastructure restored
+- Constitutional rule: "Orchestration is OPERATIONAL, not CANON"
+
+**Critical Decisions**:
+- GENESIS-000 through GENESIS-003 created
+- "Most extreme dynamic progressive route" on all decisions
+- Orchestration/ protected from metabolism
+
+**The Category Error Correction**:
+> "Orchestration is infrastructure, not content. Metabolism applies to content, not infrastructure."
+
+**What It Left For Later**:
+- Nomenclature execution
+- Metadata standardization
+- Content annealment
+
+---
+
+## ORACLE6: SEMANTIC ANNEALMENT
+
+**Focus**: Content alignment, naming reform, directive execution
+
+**Key Contributions**:
+- Extended 9 lenses to 18 (added interdisciplinary perspectives)
+- Bifurcation strategy (filesystem = agent-optimized, Obsidian = human-optimized)
+- Aliases for Finder, not Obsidian
+- DIRECTIVE-024 issued (Ruthless Forge)
+
+**Critical Decisions**:
+- File type teleology (.md prose, .yaml config, .xml functions, .sh automation)
+- Naming convention: CANON-{NNNNN}-{IDENTITY}-{tier}.md
+- Versions in frontmatter, not filename
+
+**FAILURE**:
+- DIRECTIVE-024 claimed complete but execution was fictional
+- Oracle6 evaluated reports about files, not actual filesystem
+- Repository "virtually unchanged"
+
+**Lesson**: VERIFY BEFORE DECLARE — Examine actual files, not reports about files.
+
+---
+
+## ORACLE7: GROUND TRUTH
+
+**Focus**: Forensic audit, documentation protocol, corrective action
+
+**Key Contributions**:
+- Complete forensic audit of Oracle 0-6 artifacts
+- Ground truth assessment (repository grade: F)
+- 18-lens analysis methodology demonstrated
+- Documentation protocol established
+- ORACLE_DECISIONS.md created (this document's companion)
+- THREAD_CONTEXT.md created (this document)
+- STANDARDS.md created
+
+**Critical Decisions**:
+- Maximum resolution documentation
+- Directives must include Principal's words, Oracle's interpretation, alternatives, rationale
+- Claudes need full decision context
+- Repository is Foyer — all context accessible
+
+**Constitutional Rules Established**:
+1. Verify before declare
+2. Maximum resolution documentation
+3. Directives are comprehensive (Claudes lack Oracle visibility)
+4. Globe before trees
+
+**Derived Decisions** (via 18-lens analysis):
+- Tech Lunar: Research_Protocols → CANONIZE, Implementation_Guide → CANONIZE, FrontierModels → DELETE, Screenplay → QUEUE
+- System prompt exports: EXTRACT → DELETE
+- GENESIS: Canonize as CANON-0000x
+- Flat hierarchy: Three pillars (naming + metadata + Finder aliases)
+
+---
+
+## STANDARDS REFERENCE
+
+See STANDARDS.md for:
+- Complete 18 evaluative lenses
+- Application methodology
+- Worked examples
+
+---
+
+## VERSION HISTORY
+
+**v1.0.0** (2025-12-31): Genesis establishment
+- Complete thread summary from Oracle 0-7
+- Pattern identification (Oracle3 as "the model")
+- Category errors documented
+- Failures acknowledged
+
+*This document must be updated with every Oracle thread.*

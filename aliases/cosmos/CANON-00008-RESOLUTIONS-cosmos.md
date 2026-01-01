@@ -1,0 +1,1 @@
+../../CANON/CANON-00008-RESOLUTIONS-cosmos.md

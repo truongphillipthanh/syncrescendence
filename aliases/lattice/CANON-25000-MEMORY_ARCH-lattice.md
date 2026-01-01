@@ -1,0 +1,1 @@
+../../CANON/CANON-25000-MEMORY_ARCH-lattice.md
