@@ -23,10 +23,10 @@ parent: CANON-34100
 
 ### Update Scope
 
-This v1.1 update refreshes the Syllabus tool ecosystem references to reflect the October 2025 technology landscape. The pedagogical architecture and four-stage progression remain unchanged from v1.0—only tactical tool recommendations and implementation pathways have been updated.
+This v1.2 update refreshes the Syllabus tool ecosystem references to reflect the January 2026 technology landscape. The pedagogical architecture and four-stage progression remain unchanged from v1.0—only tactical tool recommendations and implementation pathways have been updated.
 
 **What Changed**:
-- AI Models: Updated to Claude Sonnet 4.5, GPT-4 Turbo, Gemini 2.0 Flash (current frontier)
+- AI Models: Updated to Claude Opus 4.5, GPT-5.2, Gemini 3 Pro (current frontier)
 - Knowledge Management: Current ecosystem (Notion, Obsidian, Tana, Capacities)
 - Development Tools: AI-native editors (Cursor IDE, Windsurf, Zed) and traditional options
 - Production Tools: Updated video/audio recommendations (Descript, Riverside.fm, CapCut)
@@ -58,13 +58,13 @@ This Syllabus provides **tactical implementation pathways** for the strategic le
 
 **Update Rhythm**: Expect Syllabus updates approximately every 6-12 months as major tool shifts occur. Curriculum (strategic architecture) updates far less frequently (18-36 months).
 
-### October 2025 Technology Landscape
+### January 2026 Technology Landscape
 
 **AI Model Frontier**:
-- **Claude Sonnet 4.5**: Most capable for reasoning, analysis, code generation (Anthropic)
-- **GPT-4 Turbo**: Strong general capability, vision, function calling (OpenAI)
-- **Gemini 2.0 Flash**: Multimodal strength, fast inference, thinking mode (Google)
-- **Llama 3.3 70B**: Leading open-source option for local deployment (Meta)
+- **Claude Opus 4.5**: Most capable for reasoning, analysis, code generation (Anthropic)
+- **GPT-5.2**: Strong general capability, vision, function calling (OpenAI)
+- **Gemini 3 Pro**: Multimodal strength, fast inference, thinking mode (Google)
+- **Llama 4 70B**: Leading open-source option for local deployment (Meta)
 
 **Trend**: Model capabilities increasing rapidly (6-12 month doubling), costs decreasing, context windows expanding (now 200K+ tokens standard).
 
@@ -101,13 +101,13 @@ This Syllabus provides **tactical implementation pathways** for the strategic le
    - **Projects Feature**: Organize learning materials in Projects with knowledge base
 
 2. **ChatGPT (OpenAI)** - Strong alternative
-   - **Model**: GPT-4 Turbo
+   - **Model**: GPT-5.2
    - **Access**: ChatGPT Plus web interface, API
    - **Why**: Excellent general capability, voice conversation, image understanding
    - **Use Cases**: Quick queries, multimodal learning, voice practice
 
 3. **Gemini (Google)** - Emerging option
-   - **Model**: Gemini 2.0 Flash with thinking mode
+   - **Model**: Gemini 3 Pro with thinking mode
    - **Access**: Gemini web interface, API
    - **Why**: Fast, multimodal, strong integration with Google ecosystem
    - **Use Cases**: Research augmentation, workspace integration
@@ -705,6 +705,7 @@ As the technology landscape evolves, practitioners must develop judgment about w
 **Version History**:
 - v1.0 (June 2025): Initial Syllabus with validated tool ecosystem
 - v1.1 (October 2025): Updated AI models (Claude 4.5, GPT-4 Turbo, Gemini 2.0), development tools (Cursor, Windsurf), production tools (Descript, Riverside)
+- v1.2 (January 2026): Updated AI models (Claude Opus 4.5, GPT-5.2, Gemini 3 Pro), temporal currency pass
 
 ---
 
@@ -919,6 +920,18 @@ The Syllabus stands ready. The tools are specified. The pathways are clear. The 
 ---
 
 ## APPENDIX B: CHANGELOG
+
+### Version 1.2 (January 1, 2026)
+
+**AI Models Updated**:
+- Primary: Claude Opus 4.5 (was Claude Sonnet 4.5)
+- Alternative: GPT-5.2 (was GPT-4 Turbo)
+- Emerging: Gemini 3 Pro (was Gemini 2.0 Flash)
+- Open-source: Llama 4 70B (was Llama 3.3 70B)
+
+**Temporal Currency**:
+- All model references updated to January 2026 frontier
+- Version numbering updated to v1.2
 
 ### Version 1.1 (October 20, 2025)
 

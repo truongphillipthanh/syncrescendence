@@ -124,6 +124,57 @@ The coherence audit that revealed systemic issues.
 - Full reconception now
 - Holistic scope
 
+### Oracle 6: The Semantic Pass (December 2025)
+
+Focused on content-level annealment.
+
+**Accomplished**:
+- Extended to 18 evaluative lenses (added First Principles, Systems Thinking, Industrial Engineering, Complexity Theory, Permaculture, Design Thinking, Agile, Lean, Six Sigma)
+- Bifurcation strategy (filesystem for agents, Obsidian for humans)
+- Semantic annealment attempt on prose level
+
+**Limitations Revealed**:
+- Evaluated execution reports instead of actual filesystem state
+- Claimed completion without comprehensive verification
+- Missed 50% duplication crisis in repository
+- Process drift—naming conventions not enforced
+
+**Critical Lesson**: Must examine ground truth, not reports about reality.
+
+### Oracle 7: Ground Truth Orientation (December 2025)
+
+Response to Oracle 6's verification failures.
+
+**Accomplished**:
+- Comprehensive verification protocol established
+- DIRECTIVE-024 through 028 executed
+- Ruthless forge eliminating duplicates
+- Naming conventions enforced across 71 CANON files
+- Process standards established (predictability, tractability, traceability)
+
+**Limitations Revealed**:
+- Narrow execution without whole-system survey (DIRECTIVE-027 false completion)
+- Claudes defaulted to narrow scope without explicit coercion
+
+**Critical Lesson**: Define verification commands FIRST. Never claim completion without running ALL verification.
+
+### Oracle 8: Forensic Semantic Annealment (January 2026)
+
+Deep content-level work on prose substance.
+
+**Accomplished**:
+- Complete mechanical corrections (DIRECTIVE-029)
+- Semantic annealment: redundancy, encoding, terminology (DIRECTIVE-030)
+- Temporal currency audit with web verification
+- Model reference updates to January 2026 frontier
+- Modal 2 technology acknowledgment
+- This Oracle arc documentation
+
+**Limitations Revealed**:
+- TBD (session ongoing)
+
+**Current Position**: Final annealment pass completing. Repository approaching production-ready state for Oracle 9 (transcript ingestion).
+
 ---
 
 ## THE DEFRAG DECISION

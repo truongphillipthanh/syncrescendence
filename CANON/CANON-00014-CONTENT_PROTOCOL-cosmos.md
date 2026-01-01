@@ -2342,8 +2342,8 @@ Quality standards must remain consistent across energy states and production tie
 
 ### Leveraging AI for Production Scaling
 
-**Current Frontier** (November 2025):
-- GPT-4, Claude 3.5+, Gemini 2.0 at near-human text quality
+**Current Frontier** (January 2026):
+- GPT-5.x, Claude 4.x, Gemini 3.x at near-human text quality
 - Specialized tools for editing, optimization, research
 - Video tools emerging but not yet Modal 2 ready
 

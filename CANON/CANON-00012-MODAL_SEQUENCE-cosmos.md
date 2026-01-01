@@ -55,6 +55,8 @@ The four modals represent distinct technological exploitation windows:
 - **Modal 3: Embodiment** (2031-2036, approximately 60-72 months)
 - **Modal 4: Transcendence** (2037+, ongoing network expansion)
 
+**Technology Acceleration Note** (January 2026): Modal 2 enabling technologies (video generation models Sora 2, Veo 3, Runway Gen-3) have achieved production-ready status faster than projected. This validates rather than invalidates the Modal Sequence framework—the causal dependency structure remains sound. Modal 1 mastery remains prerequisite for effective Modal 2 exploitation. Current position: Late Modal 1 with Modal 2 tooling emerging. Full Modal 2 transition (practitioner-ready production workflows) expected 2027-2028 as toolchains mature.
+
 **Orthogonality Principle**: Modal Sequence maintains independence from:
 - **Scale** (practitioner sophistication: Micro, Meso, Macro, Meta)
 - **Level** (chain development depth: Initial, Intermediate, Advanced, Mastery)
@@ -85,7 +87,7 @@ Each transformation sufficient alone to reshape civilization; together generatin
 
 **Threshold Dynamics**: Multiple indicators suggest we occupy inflection points, tipping points, phase transitions—nonlinear zones where small interventions produce disproportionate effects. Our capacity to create consequences has outrun our capacity to manage them wisely. Yet threshold dynamics also mean that minimal, calibrated actions can shape disproportionate outcomes. Individual humans leveraging intelligence amplification can demonstrate alternatives that cascade into parallel efforts adapted to diverse contexts.
 
-**The Intelligence-as-Work Paradigm**: Jensen Huang (NVIDIA CEO, company achieving $5 trillion valuation through AI infrastructure) articulates something profound: **intelligence is work itself**. This reframing dissolves the category distinction between human and machine labor—intelligence becomes the fundamental productive force, whether instantiated in carbon or silicon. AI factories produce intelligence as power plants produce electricity, and this intelligence *is* the work being done. The Modal Sequence exploits this reality through systematic progression from abstract computation through embodied demonstration to distributed coordination.
+**The Intelligence-as-Work Paradigm**: Jensen Huang (NVIDIA CEO, company achieving approximately $5 trillion valuation through AI infrastructure) articulates something profound: **intelligence is work itself**. This reframing dissolves the category distinction between human and machine labor—intelligence becomes the fundamental productive force, whether instantiated in carbon or silicon. AI factories produce intelligence as power plants produce electricity, and this intelligence *is* the work being done. The Modal Sequence exploits this reality through systematic progression from abstract computation through embodied demonstration to distributed coordination.
 
 **Economic Equation Shift**: When intelligence is work, throughput per unit energy determines revenue itself—the fundamental economic equation shifts from labor efficiency to intelligence efficiency. This transformation cascades implications:
 - Human labor becoming economically obsolete not through replacement but through radical productivity multiplication (10-100x gains already accessible)
@@ -130,7 +132,7 @@ Each modal develops necessary (though not sufficient) conditions for subsequent 
 ### MODAL 1: ABSTRACTION (2024-2027)
 
 **Technology Foundation**: Language models at approximately 85% maturity (November 2025)  
-**Current Representative Systems**: GPT-4+, Claude 3.5+ (approaching Claude 4 family), Gemini 2.0+, multiple competitive offerings reaching functional parity  
+**Current Representative Systems**: GPT-5.x, Claude 4.x, Gemini 3.x families at production maturity  
 **Timeline**: Approximately 12-18 months remaining before commoditization eliminates differentiation advantage  
 **Current Status** (November 2025): Active, observable plateau dynamics creating "fog of war" regarding additional intelligence extraction potential
 
@@ -147,7 +149,7 @@ Each modal develops necessary (though not sufficient) conditions for subsequent 
 
 **Observable Limitations**:
 - Plateau dynamics creating uncertainty about extractable intelligence ceiling
-- Competitive equilibrium between frontier models (GPT-5, Claude Sonnet 4.5, Gemini 2.5) suggesting natural capability boundary
+- Competitive equilibrium between frontier models (GPT-5.2, Claude Opus 4.5, Gemini 3 Pro) suggesting natural capability boundary
 - Diminishing returns on pure scale increases indicating architectural constraints
 - 12-18 month window before differentiation advantage eliminates through commoditization
 - Coding assistants not yet reaching week-long autonomous project capability (expected 2026-2027)

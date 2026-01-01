@@ -389,7 +389,7 @@ Universal metric across all organizational phases, practitioner scales, and moda
 
 ### Modal 1: Abstraction (Current Focus, ~2024-2027)
 
-**Technology Maturity**: Language models ~85% mature (GPT-4+, Claude Sonnet 4+, Gemini Advanced)
+**Technology Maturity**: Language models ~85% mature (GPT-5.x, Claude 4.x, Gemini 3.x families)
 
 **Strategic Focus**:
 - Text-based frameworks and written synthesis
@@ -500,7 +500,7 @@ Universal metric across all organizational phases, practitioner scales, and moda
 - Content output: 2-3 pieces/week (internal focus)
 
 **Modal 1 Focus**:
-- Language model mastery (GPT-4+, Claude Sonnet 4+)
+- Language model mastery (frontier models: GPT-5.x, Claude 4.x, Gemini 3.x)
 - Writing quality optimization
 - Text-based content production systems
 - Computational thinking development

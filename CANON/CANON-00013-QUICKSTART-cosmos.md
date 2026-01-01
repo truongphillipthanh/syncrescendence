@@ -55,7 +55,7 @@ Intelligence-amplified polymaths willing to demonstrate rather than theorize. Pe
 
 ### Why Timing Matters
 
-We're in the optimal entry window—**Modal 1: Abstraction dominance** (2024-2027). Current AI technology (language models like Claude and GPT-4) is mature and accessible for text-based intelligence work. You have 2-3 years to build computational mastery foundations before the technology landscape shifts toward visual/geometric capabilities (Modal 2: Simulation, ~2027-2030). Early practitioners gain compound advantages through longer runway for recursive amplification.
+We're in the optimal entry window—**Modal 1: Abstraction dominance** (2024-2027). Current AI technology (frontier language models: Claude, GPT, Gemini families) is mature and accessible for text-based intelligence work. You have 2-3 years to build computational mastery foundations before the technology landscape shifts toward visual/geometric capabilities (Modal 2: Simulation, ~2027-2030). Early practitioners gain compound advantages through longer runway for recursive amplification.
 
 ### The Civilizational Context
 
@@ -286,7 +286,7 @@ Your developmental depth within specific chains:
 
 **Modal 1: Abstraction** (2024-2027) ← **You are here**
 - Text-based intelligence, computational mastery
-- Language models (Claude, GPT-4) mature and accessible
+- Frontier language models (Claude, GPT, Gemini families) mature and accessible
 - Newsletter, blog, social media optimal platforms
 - Foundation-building phase for all practitioners
 
@@ -574,7 +574,7 @@ Based on your chosen pathway:
 
 ## FINAL ENCOURAGEMENT
 
-You're joining Syncrescendence during **Modal 1: Abstraction dominance**—the optimal entry point. Current technology (language models like Claude, GPT-4) is mature and accessible. Text-based intelligence work has lowest barriers to entry. You have 2-3 years to master Modal 1 computational foundations before Modal 2 transition pressure arrives (~2027-2028).
+You're joining Syncrescendence during **Modal 1: Abstraction dominance**—the optimal entry point. Current technology (frontier language models: Claude, GPT, Gemini families) is mature and accessible. Text-based intelligence work has lowest barriers to entry. You have 2-3 years to master Modal 1 computational foundations before Modal 2 transition pressure arrives (~2027-2028).
 
 **The 15+ year vision**: Individual practice (now) → Computational mastery (Modal 1, 2024-2027) → Visual demonstration (Modal 2, 2027-2030) → Physical construction (Modal 3, 2031-2036) → Field Node networks (Modal 4, 2037+) → Civilizational demonstration (proof that voluntary coordination at scale is viable).
 

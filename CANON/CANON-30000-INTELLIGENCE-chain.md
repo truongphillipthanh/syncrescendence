@@ -149,7 +149,7 @@ Technology also constitutes a **complete four-stage developmental chain**:
 - **Output Assessment**: Evaluating AI responses for quality and accuracy
 
 **Advancement Criteria**:
-- Can collaborate with Claude/GPT-4 class models effectively
+- Can collaborate with frontier models (Claude 4.x, GPT-5.x, Gemini 3.x) effectively
 - Demonstrates prompting sophistication (gets desired outputs consistently)
 - Manages context windows strategically (maintains conversation coherence)
 - Achieves measurable productivity gains (quantifiable efficiency improvements)
@@ -180,7 +180,7 @@ Technology also constitutes a **complete four-stage developmental chain**:
 
 **Advancement Criteria**:
 - Generates high-quality images consistently (using DALL-E, Midjourney, Stable Diffusion)
-- Analyzes images effectively (using GPT-4V, Claude with vision)
+- Analyzes images effectively (using GPT-5 vision, Claude 4 vision, Gemini 3 vision)
 - Integrates visual and textual thinking fluidly
 - Creates novel visual artifacts serving real purposes
 

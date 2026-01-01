@@ -76,7 +76,7 @@ The significance transcends traditional computer science or linguistics because 
 
 The bootstrap sequence demonstrates how mechanisms of reliable transmission evolve from natural language to formal systems:
 
-Natural language provides the interface for AI collaboration, becoming the programming language for programming languages. Students start by mastering prompt engineering with current frontier architectures—GPT-5, Claude Opus 4.1, Gemini 2.5, Grok v4—learning to encode intention with precision while maintaining semantic richness. They discover that effective prompts combine algorithmic thinking with poetic sensibility, that context windows enforce a kind of haiku-like compression, that few-shot examples teach through demonstration rather than definition.
+Natural language provides the interface for AI collaboration, becoming the programming language for programming languages. Students start by mastering prompt engineering with current frontier architectures—GPT-5.2, Claude Opus 4.5, Gemini 3 Pro, Grok 4.1—learning to encode intention with precision while maintaining semantic richness. They discover that effective prompts combine algorithmic thinking with poetic sensibility, that context windows enforce a kind of haiku-like compression, that few-shot examples teach through demonstration rather than definition.
 
 From natural language, students bootstrap into formal languages and programming paradigms—a progression that mirrors the historical development from spoken language to written symbols to formal systems. Python becomes not syntax to memorize but collaborative medium where AI writes seventy to eighty percent of code while humans maintain architectural vision and semantic coherence. This demonstrates the scaffold principle: each layer enables but doesn't determine the next.
 
@@ -439,7 +439,7 @@ The month-by-month structure enables:
 #### Month 1: Technology Stage 1 Launch + Seven Pulses Establishment
 
 **Content Focus**:
-- **Intelligence Chain Primary**: Prompting literacy, Claude/GPT-4 collaboration basics, context engineering fundamentals (15-20 hours/week)
+- **Intelligence Chain Primary**: Prompting literacy, Claude/GPT/Gemini collaboration basics, context engineering fundamentals (15-20 hours/week)
 - **Seven Pulses Protocol**: Daily practice establishment, energy state calibration (10 min/day)
 - **Chain Overview**: Introduction to all six chains, dependency logic, cosmology (optional based on Practice Level)
 

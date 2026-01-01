@@ -47,7 +47,7 @@ parent: CANON-33110
 
 2. **Attention Economy Threshold**: Content strategy literature and empirical data suggest minimum 12-15 pieces per quarter for nascent audience building. 7 pieces insufficient for sustained engagement.
 
-3. **Production Capability Mismatch**: With AI collaboration (Claude, GPT-4, Gemini) plus TONE LIBRARY systematic protocols, 2-3 pieces/month significantly underutilizes available production capacity.
+3. **Production Capability Mismatch**: With AI collaboration (Claude 4.x, GPT-5.x, Gemini 3.x) plus TONE LIBRARY systematic protocols, 2-3 pieces/month significantly underutilizes available production capacity.
 
 4. **Batch Production Benefits**: Weekly rhythm enables batch production protocols (research Monday, draft Tuesday-Wednesday, polish Thursday, publish Friday) that are more efficient than sporadic creation.
 
@@ -188,7 +188,7 @@ parent: CANON-33110
 - Gather source material and framework connections
 
 **Tuesday-Wednesday: Drafting**
-- Use AI collaboration (Claude/GPT-4) for first drafts
+- Use AI collaboration (Claude/GPT/Gemini) for first drafts
 - Apply appropriate TONE LIBRARY Recipe
 - Generate 2-3x target length, then compress
 - Focus on substance over polish
