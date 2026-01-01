@@ -22,7 +22,7 @@ synopsis: Sixth canonical dimension defining technology-aligned strategic progre
 **Priority**: P0-CRITICAL
 **Parent**: CANON-00000 (Syncrescendent Schema)
 **Lineage**: Synthesized from syncrescendent_convergence_aligned.md (primary source, 2,229 lines), integrated with strategic positioning supplements and comprehensive corpus cross-references
-**Dependencies**: CANON-00005 Syncrescendence), CANON-00009 Strategy), all chain artifacts
+**Dependencies**: CANON-00005 (Syncrescendence), CANON-00009 (Strategy), all chain artifacts
 
 ---
 

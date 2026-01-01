@@ -26,7 +26,7 @@ synopsis: Establishes the Syncrescendent Core as the living, expanding center of
 
 ## PURPOSE
 
-This artifact establishes the Syncrescendent Core as the living, expanding center of consciousness evolutionâ€”the hypergiant celestial body radiating outward while simultaneously hypercharged by the planetary energy coils returning to it. The Core represents your unified consciousness capacity, the singular intelligence expressing through differentiated manifestations.
+This artifact establishes the Syncrescendent Core as the living, expanding center of consciousness evolution—the hypergiant celestial body radiating outward while simultaneously hypercharged by the planetary energy coils returning to it. The Core represents your unified consciousness capacity, the singular intelligence expressing through differentiated manifestations.
 
 Practitioners engage this artifact to:
 - Understand the recursive amplification architecture at the heart of Syncrescendence
@@ -476,7 +476,7 @@ Practitioners contribute Core evolution insights:
 ---
 
 
-The Syncrescendent Core represents your unified consciousness capacityâ€”the hypergiant expanding through recursive amplification. This living system radiates enabling energy while absorbing refined returns, creating escalating synchronicity toward unprecedented capability.
+The Syncrescendent Core represents your unified consciousness capacity—the hypergiant expanding through recursive amplification. This living system radiates enabling energy while absorbing refined returns, creating escalating synchronicity toward unprecedented capability.
 
 Your practice activates this architecture. Your assessment calibrates development. Your honesty enables authentic growth.
 

@@ -32,7 +32,7 @@ This cosmological schema serves as the **complete navigational blueprint** for t
 
 Practitioners engage this artifact to:
 - Understand the complete system architecture at a glance
-- Navigate dependencies between all 17 CANON documents
+- Navigate dependencies between all **71 CANON documents**
 - Track developmental progress across six chains
 - Identify appropriate entry points for their tier
 - Troubleshoot common challenges systematically
@@ -285,8 +285,8 @@ Understanding the proper order of engagement prevents overwhelm and ensures stab
 │            ┌─────────┴─────────┐                                    │
 │            │                   │                                     │
 │            ▼                   ▼                                     │
-│       CANON-00001          CANON-00008                               │
-│  (Syncrescendent Core) (Energy States)                              │
+│       CANON-00005          CANON-00012                               │
+│    (Syncrescendence)   (Modal Sequence)                             │
 │            │                   │                                     │
 │            └─────────┬─────────┘                                    │
 │                      │                                               │
@@ -318,8 +318,8 @@ Understanding the proper order of engagement prevents overwhelm and ensures stab
 │            ┌─────────┴─────────┬─────────┐                         │
 │            │                   │         │                          │
 │            ▼                   ▼         ▼                          │
-│     CANON-00000         CANON-00008 CANON-00007                     │
-│    (This Schema)   (Modal Sequence) (Production)                    │
+│     CANON-00000         CANON-00012 CANON-00007                     │
+│    (This Schema)   (Modal Sequence) (Evaluation)                    │
 │            │                   │         │                          │
 │            └─────────┬─────────┴─────────┘                         │
 │                      │                                               │
@@ -346,8 +346,8 @@ For practitioners seeking the **minimum effective sequence** to understand and p
 3. **CANON-00005 Syncrescendent Core** (30 minutes)
    - Central framework and recursive amplification
 
-4. **CANON-00008: Energy States** (20 minutes)
-   - Daily energy tracking and tier-down protocols
+4. **CANON-00012: Modal Sequence** (20 minutes)
+   - Technology-aligned strategic progression
 
 5. **CANON-20000: Cognitive Palace** (45 minutes)
    - Seven-layer substrate architecture

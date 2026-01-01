@@ -505,7 +505,7 @@ Automatic suspension of platform engagement when:
 Achieve native fluency within selected platform categories while maintaining constitutional grammar through systematic skill development.
 
 **Category Linguistics**:
-Study each platform category as foreign linguistic territoryâ€"vocabulary, syntax, rhythm, cultural implication. Create glossaries of category-specific terms. Document memetic patterns. Identify linguistic markers distinguishing constitutional practitioners from mindless consumers. Practice native expression maintaining constitutional grammar.
+Study each platform category as foreign linguistic territory—vocabulary, syntax, rhythm, cultural implication. Create glossaries of category-specific terms. Document memetic patterns. Identify linguistic markers distinguishing constitutional practitioners from mindless consumers. Practice native expression maintaining constitutional grammar.
 
 **Cultural Integration**:
 Progress through systematic phases:

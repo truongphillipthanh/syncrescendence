@@ -81,7 +81,7 @@ Vervaeke traces the meaning crisis to the collapse of the "nomological order"—
 **Core Insight**: The meaning crisis is not solved by returning to pre-modern frameworks or accepting postmodern nihilism, but by cultivating wisdom traditions' practices within modern understanding—relevance realization, participatory knowing, transformative experience.
 
 **What Syncrescendence Takes**:
-- The Coherence Chain directly addresses meaning-making as developmental capacity
+- The Insight Chain directly addresses meaning-making as developmental capacity
 - The Transcendence Chain integrates wisdom tradition practices (meditation, contemplation, self-inquiry)
 - The framework refuses both nostalgic return and nihilistic acceptance—it synthesizes
 - "Relevance realization" appears as perceptual discrimination in Acumen

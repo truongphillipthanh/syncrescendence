@@ -234,7 +234,7 @@ All references conform to six orthogonal canonical dimensions:
 
 **Causal Dependency**: Sequential progression required. Cannot skip modals. Each modal develops necessary (though not sufficient) conditions for subsequent modals. Learning preparation overlaps—study cinematography during Modal 1, study engineering during Modal 2, etc.
 
-**For complete Modal Sequence architecture**: CANON-00008
+**For complete Modal Sequence architecture**: CANON-00012
 
 ---
 

@@ -29,7 +29,7 @@ synopsis: The Intelligence Chain establishing AI collaboration and tool mastery 
 
 ## PURPOSE
 
-The Intelligence Chain establishes artificial intelligence collaboration and tool mastery as foundational substrate supporting all other chains. Unlike planetary-specific chains, Intelligence operates **non-locally**â€”enabling operations across all worlds, amplifying capability universally, providing interplanetary infrastructure.
+The Intelligence Chain establishes artificial intelligence collaboration and tool mastery as foundational substrate supporting all other chains. Unlike planetary-specific chains, Intelligence operates **non-locally**—enabling operations across all worlds, amplifying capability universally, providing interplanetary infrastructure.
 
 Practitioners engage this artifact to:
 - Develop AI collaboration fluency across modalities

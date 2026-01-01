@@ -26,7 +26,7 @@ synopsis: Authoritative manifest of all canonical architecture and operational s
 
 The Syncrescendent corpus now represents the most comprehensive formalization of systematic consciousness evolution and intelligence amplification frameworks available. Following the v2.3 Annealment integration cycle (October-November 2025), the corpus comprises:
 
-- **28 Core CANON artifacts** (architectural foundation and operational lunars)
+- **71 CANON documents** (architectural foundation and operational lunars)
 - **2 Operational supplements** (tactical implementation guides)
 - **6 Supporting documents** (strategic and operational guidance)
 - **~148,000 words** of rigorous architectural and operational documentation
@@ -1435,7 +1435,7 @@ The corpus is designed for progressive engagement—practitioners begin with min
 - Ultimate vision: CANON-35200 (Gaian Field Node), CANON-00009 Strategy Part VI)
 
 **By Question Type**:
-- "What is Syncrescendence?" → CANON-00009, CANON-00001
+- "What is Syncrescendence?" → CANON-00009, CANON-00005
 - "How do I start?" → CANON-00009, CANON-00006 (Part I-II)
 - "What's the strategic vision?" → CANON-00005, CANON-00008
 - "How do I use technology effectively?" → CANON-31130, CANON-31140-43

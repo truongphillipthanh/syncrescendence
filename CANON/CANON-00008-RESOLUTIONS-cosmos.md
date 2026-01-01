@@ -966,7 +966,7 @@ Hold Levels **lightly as heuristic** rather than **rigidly as ontology**:
 
 3. **Cross-Reference Updates**:
    - All CANON references point to v2.3+ versions
-   - Modal Sequence (CANON-00008) added throughout
+   - Modal Sequence (CANON-00012) added throughout
    - Seven-Layer Stack (CANON-31130) referenced for platform strategy
    - Neurodivergent Adaptations (CANON-35120) for executive function support
 
