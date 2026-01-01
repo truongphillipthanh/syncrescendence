@@ -1,1 +1,0 @@
-../../CANON/CANON-35000-WISDOM-chain.md

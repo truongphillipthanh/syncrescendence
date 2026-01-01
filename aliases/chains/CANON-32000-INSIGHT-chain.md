@@ -1,1 +1,0 @@
-../../CANON/CANON-32000-INSIGHT-chain.md

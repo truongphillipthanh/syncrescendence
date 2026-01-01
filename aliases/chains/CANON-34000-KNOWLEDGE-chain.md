@@ -1,1 +1,0 @@
-../../CANON/CANON-34000-KNOWLEDGE-chain.md

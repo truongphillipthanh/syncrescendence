@@ -1,1 +1,0 @@
-../../CANON/CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md
