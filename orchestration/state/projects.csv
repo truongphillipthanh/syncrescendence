@@ -1,0 +1,10 @@
+id,name,type,status,priority,owner,blocked_by,oracle_scope,modal,due_date,created,updated,notes
+PROJ-001,Transcript Ingestion,initiative,in_progress,P1,Oracle9,null,9,modal1,2026-01-15,2026-01-01,2026-01-02,Pattern proven; 184 raw sources in SOURCES/raw
+PROJ-002,IIC Configuration,initiative,blocked,P1,Oracle10,PROJ-001,10,modal1,2026-02-01,2025-12-29,2026-01-02,Requires enriched corpus
+PROJ-003,Tooling Stack,initiative,blocked,P2,Oracle11,PROJ-002,11,modal1,null,2025-12-29,2026-01-02,GPT-5.2/Grok/MCP/Skills/Notion/Airtable
+PROJ-004,Automation,initiative,blocked,P2,Oracle12,PROJ-003,12,modal1,null,2025-12-29,2026-01-02,Agentification of processes
+PROJ-005,Branding,initiative,blocked,P3,Oracle13,PROJ-002,13,modal1,null,2025-12-29,2026-01-02,Business side elucidation
+PROJ-006,Ontology Project,initiative,blocked,P1,Oracle14,PROJ-003,14,modal1,null,2025-12-29,2026-01-02,Palantir-like operational infrastructure
+PROJ-007,Curriculum,initiative,blocked,P3,Oracle15,PROJ-006,15,modal1,null,2025-12-29,2026-01-02,Teaching Syncrescendence
+PROJ-008,Tech Lunar Canonization,initiative,not_started,P2,TBD,null,TBD,modal1,null,2025-12-30,2026-01-02,306K specs to CANON-30xxx
+PROJ-009,Modal 2 Preparation,initiative,not_started,P3,TBD,null,TBD,modal2,null,2025-12-29,2026-01-02,3D/VFX/Video synthesis runway

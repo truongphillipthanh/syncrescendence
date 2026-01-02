@@ -1,0 +1,25 @@
+Human-AI collaboration requires choreography—not rigid step-by-step procedures but fluid patterns that adapt to context while maintaining coherence. The Hybrid Workflow Compiler provides a language for describing these patterns using the simplest possible elements: atoms of action, bonds that connect them, and catalysts that enable evolution.
+
+**Atoms: Indivisible Operations**
+
+Every collaboration decomposes into atomic operations that cannot be meaningfully subdivided. A human observes. An AI analyzes. A human decides. An AI executes. Both learn. These atoms are like chemical elements—simple in isolation but capable of infinite combination. Each atom is performed by either human, AI, or both together, and represents a complete action that produces some output available for subsequent operations.
+
+The power of atomic decomposition is that it makes complex collaborations comprehensible. Rather than viewing "write a research paper" as an overwhelming whole, we see it as a combination of atoms: human defines question, AI gathers sources, human evaluates relevance, AI synthesizes patterns, human crafts argument, AI checks consistency, both refine iteratively. Each atom is simple enough to understand and modify.
+
+**Bonds: The Connections That Create Flow**
+
+Atoms connect through bonds that carry information, control, or both. A simple arrow (→) indicates sequential flow: one operation must complete before the next begins. A double arrow (⟷) indicates bidirectional exchange: operations inform each other iteratively. Parallel lines (∥) indicate simultaneous operation: multiple atoms executing independently.
+
+Bonds are where the chemistry happens. They determine whether a workflow feels mechanical or organic, whether it preserves human agency or creates subtle dependency, whether it generates creative synthesis or mere mechanical combination. The same atoms connected differently produce entirely different experiences and outcomes.
+
+**Catalysts: The Learning Mechanisms**
+
+What transforms a workflow from static procedure to living process is the catalyst—the learning mechanism that enables evolution. Like chemical catalysts that accelerate reactions without being consumed, learning catalysts observe the workflow's execution, identify patterns of success and failure, and adjust the configuration for next time.
+
+A catalyst might strengthen bonds that produce good results, weaken ones that create friction, introduce new atoms when gaps are discovered, or remove atoms that prove redundant. The catalyst ensures that workflows improve through use rather than degrading into mechanical repetition.
+
+**The Compilation Process**
+
+Writing a workflow becomes like writing a chemical formula. You specify atoms (what needs to happen), bonds (how operations connect), and catalysts (how the workflow learns). The compiler transforms this specification into executable form—not rigid code but adaptive pattern that maintains coherence while allowing variation.
+
+The beauty of this approach is its accessibility. Anyone can write workflows because the language is as simple as chemistry notation, yet from these simple elements, arbitrary complexity can emerge. Like how simple chemical rules generate the complexity of life, simple workflow rules generate the full richness of human-AI collaboration.

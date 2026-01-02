@@ -1,0 +1,14 @@
+view_id,view_name,query_type,base_tables,filter_logic,sort_logic,purpose,use_case
+TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT
+VIEW_CAP,Capability Navigator,lookup,T1_ENTITIES|T3_ENTITY_CAPABILITIES|T2_CAPABILITIES,capability_name LIKE '%?%' AND installed=TRUE,proficiency DESC|context_suitability,Find tools by capability,What can edit PDFs?
+VIEW_CTX,Context Router,lookup,T1_ENTITIES|T3_ENTITY_CAPABILITIES|T0_CONTEXTS,context_spatial=? AND context_attentional=?,proficiency DESC|cost_efficiency DESC,Find optimal tools for current context,What's best for mobile reactive work?
+VIEW_CST,Cost Optimizer,analysis,T1_MODELS|T3_RELATIONSHIPS,modality=? AND status='active',input_cost_per_mtok ASC,Find cheapest model for capability,What's cheapest for text generation?
+VIEW_MOM,Momentum Dashboard,analysis,T3_EVOLUTION_TRACKER,momentum IN ('rising'|'declining'),momentum|days_since_update,Track ecosystem evolution,Which tools are declining?
+VIEW_APP,Apparatus Browser,lookup,T2_APPARATUS,status='active',frequency_weekly DESC,Browse observed workflows,Show my common patterns
+VIEW_DIS,Discovery Queue,lookup,T3_DISCOVERY_QUEUE,decision IS NULL,trial_priority DESC|momentum_signal,Review pending tool discoveries,What should I trial next?
+VIEW_EXT,Feature Extraction,planning,T3_ENTITY_FEATURES,extraction_status='documented'|extraction_status='considering',extraction_priority DESC,Plan primitive harvesting,What features should I extract?
+VIEW_REL,Relationship Graph,analysis,T3_RELATIONSHIPS|T1_ENTITIES,relationship_id=?,strength DESC,Explore entity connections,What competes with Cursor?
+VIEW_STK,Stack Browser,lookup,T2_STACKS,adoption_trend='rising',learning_curve ASC,Explore technology patterns,What are emerging stacks?
+VIEW_ECO,Ecosystem Overview,analysis,T2_ECOSYSTEMS|T1_ENTITIES,platform_lock_in=?,data_portability DESC,Evaluate ecosystem tradeoffs,Compare platform lock-in
+VIEW_USG,Usage Patterns,analysis,T3_USAGE_LOG,entity_id=? AND timestamp > NOW() - INTERVAL 30 DAY,timestamp DESC,Analyze tool usage history,How often do I use Cursor?
+VIEW_DEP,Deprecation Watch,monitoring,T3_EVOLUTION_TRACKER|T3_RELATIONSHIPS,status_signal='deprecated' OR days_since_update > 180,days_since_update DESC,Flag tools needing migration,What needs replacement?

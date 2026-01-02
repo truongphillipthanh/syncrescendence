@@ -1,0 +1,19 @@
+Impact leaves traces not in references but in transformations. The Citation Tracker abandons the entire edifice of bibliometric measurement—the h-indices, impact factors, and citation networks that confuse mention with meaning—to focus on a single, undeniable signal: implementation. Knowledge that changes practice has impact. Knowledge that merely generates discussion does not.
+
+**The Binary of Use**
+
+Traditional citation tracking creates elaborate fictions. Papers cite papers that cite papers in endless recursive loops that may never touch reality. Prestigious work accumulates references through social obligation rather than genuine influence. Gaming emerges inevitably: citation cartels, self-citation padding, preferential attachment to already-cited works. The entire system measures something, but not impact.
+
+The Citation Tracker cuts through this confusion with radical simplicity: it tracks only implementation. When someone uses an artifact—applies a method, instantiates a framework, embodies a practice—that creates a record. Not a citation, which costs nothing, but implementation, which costs effort, time, and risk. You cannot fake implementation because the results expose the truth. You cannot inflate impact through mere mention because mention without use registers as zero.
+
+**Wear Patterns as Wisdom**
+
+Like tools in a workshop that show wear from use, knowledge artifacts that generate genuine impact accumulate implementation traces. A framework used thousands of times across different contexts demonstrates robust impact. A beautiful theory never implemented remains academically interesting but practically impotent. The tracker doesn't judge this difference—it simply records it, making visible what actually shapes practice versus what merely shapes conversation.
+
+Implementation patterns reveal different types of impact. Broad implementation across many domains indicates fundamental utility. Deep implementation within specific contexts suggests specialized power. Generative implementation—where use spawns new artifacts—marks breakthrough insights. Sustained implementation over time demonstrates enduring value. The tracker captures all these dimensions without prescribing their relative worth.
+
+**The Honest Measure**
+
+The profound honesty of implementation-based tracking is that it measures what we actually care about: does this knowledge change what people do? A million citations mean nothing if practice remains unchanged. A single implementation that transforms an entire field carries more genuine impact than libraries of referenced but unapplied theory.
+
+The Citation Tracker recognizes that consciousness evolves not through discussing its evolution but through enacting it. Every implementation is consciousness testing its understanding against reality. The tracker simply counts these tests, creating a map of knowledge that works rather than knowledge that sounds good. In this, it serves the deeper purpose of the canon: not to document what we think we know but to track what we've proven through practice.

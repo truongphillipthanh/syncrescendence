@@ -1,0 +1,795 @@
+https://www.youtube.com/watch?v=OCnjreKdfN4
+Marvel's VFX Team Accidentally Designed Every AI Assistant You Use Today
+757 views  Oct 24, 2025
+Robert Downey Jr. told Iron Man's VFX team: "I act, you do visual effects. I'll do whatever feels comfortable." They'd spent months choreographing hand gestures for holographic interfaces. He ignored all of it. What happened next became the blueprint for Siri, Alexa, and every AI assistant you use today.
+
+I sat down with Ian Dawson, the VFX producer behind Iron Man's J.A.R.V.I.S., to hear the incredible story of how a Marvel movie accidentally shaped the future of AI.
+
+Chapters:
+00:00 Introduction
+00:56 How Marvel Created J.A.R.V.I.S
+03:39 Robert Downey Jr. Rejects VFX Instructions
+04:23 Designing J.A.R.V.I.S
+06:18 Why Creative Vision Should Drive Development
+07:08 J.A.R.V.I.S Comes to Life: NSA, T-Mobile & Hershey's
+10:30 Microsoft Recreates J.A.R.V.I.S in Real Life
+11:10 AI: The Good, the Bad, the Future
+12:16 The Power of Real Experiences as Fantasy Blurs Reality
+
+Subscribe for more in-depth AI & creative tech videos! 👉 ‪@bilawalsidhu‬
+
+Join My Newsletter: https://spatialintelligence.ai
+Connect with me on X/Twitter here: https://x.com/bilawalsidhu
+Everywhere else here: https://bilawal.ai
+Business inquiries: team@metaversity.us
+
+Bio:
+Bilawal Sidhu is a creator, engineer, and product builder obsessed with blending reality and imagination using art and science. Bilawal is the technology curator for TED Talks, and a venture scout for Andreessen Horowitz. With more than a decade of experience in the tech industry, he spent six years as a product manager at Google, where he worked on spatial computing and 3D maps. His work has been featured in major publications including Bloomberg, Forbes, BBC, CNBC, and Fortune, among others. Bilawal’s journey into computer graphics began at 11, when he fell in love with seamlessly blending 3D into real life footage. Since then, he's captivated over 1.5M subscribers, garnering more than 500M+ views across his platforms. Driven by a mission to empower the next generation of artists and entrepreneurs, Bilawal openly shares AI-assisted workflows and industry insights on social media. When he’s not working, you can find Bilawal expanding his collection of electric guitars.
+
+TED: www.ted.com/speakers/bilawal_...
+
+---
+
+Introduction
+0:00
+You know, we were thinking about it in
+0:01
+terms of the script. We weren't thinking
+0:02
+about it and thinking, "Oh, we're
+0:04
+setting here something that people are
+0:06
+going to reference for the future."
+0:07
+That's that wasn't our plan. Our plan
+0:09
+was specifically for how do we deal with
+0:11
+these things in the script, you know? It
+0:13
+just so happened that as time has gone
+0:15
+on, the things that were produced are
+0:18
+able to come to reality now. And it it's
+0:20
+basically informed people on what that
+0:23
+future might look like. I think we're
+0:25
+going to have our own personal
+0:26
+assistants that are going to know
+0:28
+everything about our lives and hopefully
+0:30
+that will make our lives better. Jarvis
+0:33
+is iconic. Today we have the distinct
+0:36
+pleasure of talking to the man behind
+0:38
+Jarvis, Iron Man, and all of this
+0:40
+incredible innovation in visualizing the
+0:43
+future of computing on the silver
+0:45
+screen. There's something super magical
+0:47
+about this intersection of imagination
+0:49
+and technology, and you're going to want
+0:51
+to stick around for this.
+How Marvel Created J.A.R.V.I.S
+0:58
+Hi, my name is Ian Dawson. I'm a visual
+1:00
+effects producer for the last uh 30 plus
+1:03
+years. I'm excited to be here to talk
+1:05
+about my background and uh the future of
+1:08
+AI and AR and technology. I was working
+1:11
+at a company called Prologue and we had
+1:14
+been lucky enough because of my
+1:17
+relationship with Victoria Alonzo having
+1:19
+worked at uh Rhythm and Hughes. She was
+1:21
+the post-producer at the time on the
+1:23
+first Iron Man. And there were about 50
+1:25
+shots that another visual effects
+1:28
+company couldn't complete. It was very
+1:30
+designoriented. It was basically all the
+1:32
+screens and there was one kind of AR
+1:35
+table, right, where he kind of sticks
+1:37
+his hand in and holds up the the first
+1:40
+kind of Iron Man grip kind of
+1:42
+simulation. There was about 50 shots in
+1:44
+that. We completed those, got those
+1:46
+done. And uh when Iron Man 2 came up, it
+1:49
+was about how do we take that into, you
+1:53
+know, what was in Iron Man 1 and a lot
+1:55
+of stuff on screens and kind of take
+1:57
+that into what might be 20, 25, 30 years
+2:01
+into the future.
+2:03
+We don't want to be so far into the
+2:05
+future that it's not feasible to think
+2:07
+that this might happen, but far enough
+2:09
+to where people don't understand
+2:11
+necessarily how that's going to become
+2:13
+reality. So that was kind of the
+2:15
+challenge. And you know there was
+2:16
+basically this not blank pages in a
+2:19
+script but what does this thing look
+2:21
+like? What does that future look like?
+2:23
+There was Jarvis this AI who was helping
+2:26
+you an assistant but how is that going
+2:28
+to become reality in this film? So we
+2:30
+had a an amazing opportunity where we
+2:33
+had about 6 months. Marvel paid us for 6
+2:35
+months to just come up with conceptual
+2:38
+ideas which was fantastic right that
+2:40
+doesn't normally happen. So that we had
+2:42
+a team of probably say about 10 people
+2:44
+at that time just coming up with uh
+2:47
+tests and ideas and uh things that were
+2:50
+related to what was in the script. You
+2:52
+know, we were thinking about it in terms
+2:53
+of the script. We weren't thinking about
+2:55
+it and thinking, oh, we're setting here
+2:57
+something that people are going to
+2:58
+reference for the future. That's that
+3:00
+wasn't our plan. Our plan was
+3:02
+specifically for how do we deal with
+3:03
+these things in the script? You know, it
+3:05
+just so happened that as time has gone
+3:07
+on, the things that were produced are
+3:10
+able to come to reality now. And it it's
+3:12
+basically informed people on what that
+3:15
+future might look like. And films do
+3:17
+that, right? You have Minority Report
+3:18
+that's done that and and other films
+3:20
+along the way that kind of have looked
+3:22
+into the future, given people ideas of
+3:25
+what that future might hold. But while
+3:27
+you're doing it, you at least for me and
+3:29
+I think for a lot of the artists that
+3:31
+were on there, we weren't thinking of it
+3:32
+in terms of, you know, hey, we're going
+3:34
+to influence the future here and what
+3:35
+we're doing. We we were just trying to
+3:37
+solve the immediate problems. Danny had
+Robert Downey Jr. Rejects VFX Instructions
+3:40
+spent a lot of time really working out
+3:42
+and thinking about what are his hand
+3:44
+gestures that Robert Downey Jr. should
+3:46
+do because the thought was, okay, we
+3:48
+need him to manipulate certain things.
+3:49
+We had spent time right in the in the
+3:51
+development doing that human interaction
+3:54
+with graphics. I remember Danny, you
+3:56
+know, we get there and we had at on set
+3:59
+and we had a meeting and Danny started
+4:00
+to go through, you know, some of these
+4:02
+gestures. Robert was kind of like,
+4:04
+"Look, I I act, you do visual effects.
+4:07
+I'm going to do whatever I feel
+4:09
+comfortable doing at that moment
+4:11
+and you guys are just going to have to
+4:12
+work kind of around me, you know." And
+4:15
+luckily, it all worked. The team
+4:18
+the team made it work and uh
+4:20
+dare I say it ultimately made sense.
+Designing J.A.R.V.I.S
+4:25
+We knew that the projection system
+4:27
+doesn't exist. It was a holographic
+4:29
+system. Headsets weren't even
+4:31
+necessarily thought of as, you know, we
+4:33
+were all referencing kind of VR and
+4:35
+nobody was going to walk around with
+4:36
+this big giant headset on not being able
+4:38
+to see their eyes and and things like
+4:40
+that. So everything was kind of based in
+4:43
+this fantasy holographic world. It was
+4:46
+about sort of how do we present that
+4:48
+holographic uh image in a real
+4:51
+environment? How are you going to see
+4:53
+it? How is it represented? It had to be
+4:55
+creative way to do that versus just
+4:58
+solid objects sitting in there. So, I
+5:01
+think the team came up with, you know,
+5:03
+this really interesting line artwork uh
+5:07
+kind of representation kind of like
+5:09
+you're looking at, you know, the
+5:11
+geometry of a model, but not right. It
+5:14
+it had more detail than that. Ilia, if
+5:17
+you look at some of the screen graphics
+5:18
+that were basically was just like a
+5:20
+glass plate and these things were
+5:22
+somehow magically projected inside the
+5:24
+glass plate. Ilia came up with so much
+5:27
+detail in those graphics. It was
+5:29
+mindblowing to see how much detail and
+5:32
+everything functioned, meaning it all
+5:34
+had animation and it felt real. I
+5:38
+realized how do we take this into the
+5:40
+real world? I mean, I I knew of VR and I
+5:43
+knew of AR uh or at least things
+5:47
+interaction like on Minority Report.
+5:49
+John Under Coffler was the MIT graduate
+5:53
+student at the time, but um he ended up
+5:57
+making that in real life, not on glass,
+5:59
+but on a projection screen and being
+6:01
+able to move through data, you know,
+6:04
+real quickly. So, for me, it was like, I
+6:07
+think we could do this in real life. And
+6:09
+I was trying to convince the owner of
+6:11
+the company that you know VR and AR is
+6:13
+an area a new area within the company we
+6:16
+should uh you know delve into. I wanted
+Why Creative Vision Should Drive Development
+6:19
+to bring kind of that design sensibility
+6:22
+from the visual effects and into the
+6:23
+development side of things. Everything
+6:25
+on the development side a lot of times
+6:27
+was being driven by coding not by the
+6:30
+creative drive uh and the creative
+6:32
+vision. And so for me, I have kind of
+6:35
+come from it from a view of let's get
+6:38
+creatives to come up with the conceptual
+6:40
+ideas of what we want to do and then
+6:43
+let's team them up with, you know,
+6:45
+amazing developers who are open to
+6:47
+hearing and listening to these design
+6:50
+ideas. There's always going to be a
+6:53
+time, money, capabilities restriction,
+6:56
+but I think that driving that from a
+6:59
+creative point of view is really, really
+7:01
+important. and you can see kind of the
+7:03
+love and creativity that's infused into
+7:05
+it. It makes such a difference. Are
+J.A.R.V.I.S Comes to Life: NSA, T-Mobile & Hershey's
+7:08
+there some PC's? You mentioned the work
+7:09
+with the NSA. A, can you talk a little
+7:11
+bit more about the work there? And B,
+7:14
+uh, you know, are there other PC's that
+7:15
+come to mind that you're really proud
+7:16
+of?
+7:17
+We sort of knew that there was something
+7:20
+up in the enterprise space. We had got a
+7:23
+call from a friend in the entertainment
+7:25
+business that we had worked for and they
+7:27
+were now consulting for some people at
+7:29
+the NSA and they wanted us to do some UI
+7:32
+interface work to help find needles and
+7:35
+hay stacks. You know, to me that was
+7:38
+kind of like the acknowledgment that hey
+7:40
+there's this UI work that we created
+7:43
+that was fantasy has a potential life in
+7:46
+you know enterprise in the real world.
+7:48
+And so for me that became a big interest
+7:51
+of mine and I kind of I won't say left
+7:53
+visual effects because I was still doing
+7:55
+work in it but I left the company
+7:57
+prologue and I kind of ended up focusing
+7:59
+more on VR and AR work just just see
+8:01
+what was out there see what the
+8:02
+potential was. Yeah to be honest
+8:04
+leverage you know the work that we had
+8:06
+done in Iron Man to that career or to
+8:09
+that space. It was so new that it was
+8:11
+really about people trying to show their
+8:13
+management what the capabilities were of
+8:16
+of these tools of headsets and both in
+8:19
+VR and uh and AR T-Mobile business unit.
+8:24
+They they have drone clients, right?
+8:26
+They might be a drone flying over
+8:28
+pipeline looking for for breaks. Uh
+8:30
+could be a drone in a field doing
+8:32
+something. And so they wanted to create
+8:34
+this uh we called it kind of like the
+8:36
+avatar tree table, but it was a virtual
+8:38
+table and it had the three-dimensional
+8:40
+buildings or city or whatever your
+8:42
+environment was that you were going to
+8:44
+fly the drone in. And then you could
+8:46
+plot on this three-dimensional map the
+8:48
+drone's flight path. And it would show
+8:50
+you in each segmentation of the flight
+8:53
+path
+8:54
+where the signal was coming from, what
+8:56
+its strength was, and it would allow you
+8:58
+to adjust the flight path of the drone
+9:01
+based on the information that you
+9:03
+needed. So by the time the drone got to
+9:05
+this point, it could transmit all the
+9:07
+video that it had,
+9:08
+let's say, captured over the last five
+9:10
+minutes. And if that was good enough,
+9:12
+then you know, you made your flight p
+9:13
+plan accordingly. The big thing about it
+9:15
+was you could do this collaboratively
+9:17
+from multiple locations. So people
+9:19
+putting on a hollow lens and the idea
+9:21
+was that eventually you would get in 15
+9:23
+minutes, you know, would be sent to the
+9:25
+FAA, you'd get FAA approval and boom,
+9:27
+you could go fly your drone. So this was
+9:30
+like a tool that T-Mobile business was
+9:32
+thinking about putting together so that
+9:34
+clients could basically plan out their
+9:36
+drone flights. And for Hershey's,
+9:38
+they're a 100-year-old company that was
+9:40
+been trying to appeal to a younger
+9:42
+audience. And so their whole exploration
+9:45
+originally in in AR was about how do I
+9:48
+get grandma or mom or dad to connect
+9:52
+with someone on a younger generation in
+9:54
+their world. So grandma could buy let's
+9:57
+say a $20 Hershey's kisses coupon and
+10:00
+that would be sent in an email to their
+10:03
+grandson or granddaughter. They could
+10:05
+then go to the store, get a real package
+10:07
+of kisses and then point the phone at
+10:10
+the package. it would recognize it and
+10:11
+all of a sudden there'd be this 3D
+10:14
+message that would come up on the table
+10:16
+that would be from grandma with a
+10:18
+message that said, you know, happy
+10:19
+graduation or something like that,
+10:20
+right? The technologies gotten to a
+10:22
+point where we were thinking more 25
+10:25
+years down the ride. So maybe we're
+10:26
+ahead of where we're supposed to be, but
+10:29
+I got an opportunity to go up to to
+Microsoft Recreates J.A.R.V.I.S in Real Life
+10:31
+Microsoft. They had showed me the
+10:33
+headset co-pilot and they had an ATV, a
+10:36
+real ATV set up, put the headset on me,
+10:39
+said, you know, talk to co-pilot. You
+10:42
+can point to things, you can do
+10:43
+whatever. So, I was like, what's this
+10:45
+part? And they're like, oh, that's the
+10:46
+carburetor, you know, and I'd say, okay,
+10:49
+uh, what part number is that? Co-pilot
+10:51
+would give me the part number, and then
+10:53
+I'd say, okay, how do I replace the
+10:54
+carburetor? and it would literally take
+10:57
+me through a step-by-step instruction,
+10:58
+not only auditory, but visually.
+11:01
+Basically, it was Jarvis. They were
+11:03
+excited that I was there looking at it,
+11:04
+and I was more than excited to see those
+11:07
+two worlds come together. And
+AI: The Good, the Bad, the Future
+11:11
+I have so many fears as well as I have
+11:14
+amazing things, right? generally for
+11:16
+things that you know you could argue are
+11:18
+good or bad. I think we're going to have
+11:20
+our own personal assistants that are
+11:23
+going to know everything about our
+11:24
+lives. And hopefully that will make our
+11:26
+lives better in the sense that
+11:29
+information and everything will be
+11:30
+brought to us based on what we like
+11:33
+versus us having to always go search for
+11:35
+it. searching for it obviously will
+11:36
+always be there as well because we're
+11:38
+going to want you know every day things
+11:39
+change but generally your virtual
+11:42
+assistant is going to be helping you
+11:44
+with those things that you're interested
+11:46
+in and and and bringing that information
+11:48
+to you
+11:49
+almost like preempting your needs.
+11:51
+That's correct. You know, some people
+11:52
+might think that's bad. I think that
+11:54
+there could be great things about that.
+11:55
+On the bad side, let's face it, every
+11:58
+technology that's ever been created by
+12:01
+man, there's been some form of bad thing
+12:03
+that's been done by it, using it for
+12:06
+bad. I'm not hopeful that the human
+12:08
+condition is going to keep the bad from
+12:10
+happening. We can continue to hope and
+12:13
+educate our children and people and try
+12:15
+to do that.
+The Power of Real Experiences as Fantasy Blurs Reality
+12:16
+When you kind of think about that
+12:17
+future, is that is that exciting to you?
+12:19
+Or, you know, maybe in the near future,
+12:21
+you might be orchestrating a bunch of AI
+12:23
+agents. There are people who have these
+12:25
+very specialized skill sets, but are
+12:27
+they all going to be able to adapt to
+12:28
+this new way at some point? Just AI is
+12:30
+going to be cost-effective and I don't
+12:32
+need a hundred million dollars to tell a
+12:34
+story anymore and I don't need a studio
+12:36
+to distri to distribute it. You know,
+12:38
+I've talked to some people who are
+12:39
+funding films and stuff like that. And
+12:42
+not many people are interested in
+12:44
+funding over $5 million right now for a
+12:47
+film. Um because they look at like Anora
+12:49
+that was $6 million and made over
+12:52
+hundred million and won the Oscar and
+12:54
+glass half empty, glass half full. The
+12:55
+glass half full side of me says anybody
+12:59
+can tell a story now. It's all about
+13:01
+what you can envision and what your
+13:03
+story is. You want to do a big sci-fi
+13:06
+kind of movie, you can do that and not
+13:08
+need $50 million and you can tell that
+13:11
+story. I think there's going to be more
+13:14
+interesting stories told. I think we're
+13:17
+gonna be wanting more and more of those
+13:20
+authentic experiences because we're not
+13:22
+going to know what is truly a real thing
+13:25
+and what is fake. I mean, fantasy and
+13:27
+reality are blurring. I think the only
+13:29
+way to combat that
+13:31
+humanwise other than, you know, legality
+13:34
+is wanting that authenticity in those
+13:37
+experiences.
+13:38
+I love that. Go to the ground. Reality.
+13:40
+We know it's real, at least for now.
+13:42
+Yeah. I mean, if if I can go Yeah. I
+13:44
+mean, if I can go to coffee with you and
+13:46
+we're drinking coffee together, that's
+13:47
+as real as it gets, right? I mean,
+13:50
+you know, so true.
+13:52
+I think people are going to cherish that
+13:54
+a lot more. But again, it's the blurring
+13:56
+of those lines is is really critical in
+13:59
+society and keeping society not from
+14:01
+coming unwound.

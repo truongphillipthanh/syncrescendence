@@ -1,0 +1,773 @@
+https://www.youtube.com/watch?v=RTuQVUKhBC4&list=WL
+Inside Cerebras's Insane NEW Data Center (Fastest in the World)
+16,060 views  Oct 23, 2025
+Join me on a tour of the FASTEST data center in the WORLD
+
+Download One Hundred Ways to Use AI Guide 👇🏼
+http://bit.ly/3WLNzdV
+
+Download Humanities Last Prompt Engineering Guide (free) 👇🏼
+https://bit.ly/4kFhajz
+
+Join My Newsletter for Regular AI Updates 👇🏼
+https://forwardfuture.ai
+
+Discover The Best AI Tools👇🏼
+https://tools.forwardfuture.ai
+
+My Links 🔗
+👉🏻 X: https://x.com/matthewberman
+👉🏻 Forward Future X: https://x.com/forward_future_
+👉🏻 Instagram:   / matthewberman_ai  
+👉🏻 Discord:   / discord  
+👉🏻 TikTok:   / matthewberman_ai  
+
+Media/Sponsorship Inquiries ✅ 
+https://bit.ly/44TC45V
+
+Chapters:
+0:00 Intro
+0:55 Inside Cerebras
+1:31 Location
+2:39 Wafer Chip
+3:36 How are they so fast?
+4:16 Cooling
+6:48 Power
+10:23 2nd Data Hall
+11:15 Building in the US
+11:55 The toughest challenge
+13:01 What's next?
+
+---
+
+Intro
+0:00
+You open your AI chatbot. You type in
+0:02
+your prompt and you hit enter.
+0:05
+What happens next? We're pulling back
+0:07
+the veil on the hidden backbone behind
+0:10
+every AI response you see. Beneath the
+0:13
+Oklahoma sky sits an unassuming concrete
+0:16
+building. An AI factory built for one
+0:18
+purpose. Speed.
+0:22
+[Music]
+0:24
+Heat.
+0:28
+[Music]
+0:40
+Heat.
+0:42
+[Music]
+Inside Cerebras
+0:55
+I'm standing in front of Cerebrus' brand
+0:57
+new data center which they just did the
+0:59
+ribbon cutting for and now they are
+1:00
+serving 44 exaflops of new compute power
+1:04
+to their customers. It is the fastest AI
+1:07
+infrastructure on Earth and today we're
+1:09
+going to get a tour and we're going to
+1:10
+be able to speak to the CEO. This
+1:12
+facility delivers 44 exoflops of new
+1:15
+compute to customers, the fastest AI
+1:18
+infrastructure on Earth. Today, we're
+1:21
+going inside to see how Cerebras pushed
+1:24
+past the traditional chip limits and
+1:26
+built this behemoth from the ground up.
+1:28
+Starting with why they chose Oklahoma.
+Location
+1:31
+Andrew, thanks for having us. We are
+1:33
+here at your new Oklahoma data center
+1:36
+for Cerebrris. Why did you choose
+1:38
+Oklahoma? There are a lot of reasons why
+1:40
+you you pick a location. You're looking
+1:42
+for a place with reasonable labor cost.
+1:44
+You're looking for a place you can
+1:45
+build, you can expand. You're looking
+1:47
+for a place with reasonably cost power.
+1:49
+And we found all of those here in
+1:51
+Oklahoma City.
+1:52
+Preparing for Oklahoma's weather shaped
+1:54
+the building itself. Reinforced concrete
+1:56
+designed with tornado resilience in
+1:58
+mind.
+1:59
+When you're choosing a location, do you
+2:01
+have to also think about the energy mix?
+2:03
+Do you have to think about how you're
+2:05
+going to secure the data center? I mean,
+2:07
+Oklahoma is known for tornadoes. What do
+2:09
+you How do you think about that?
+2:11
+Sure. I I I think generally you you
+2:13
+think about the construction of the
+2:15
+building and what it's rated for. That
+2:18
+hits you in your cost of insurance. Your
+2:20
+insurer will come out and look at the
+2:21
+building and be sure it's rated for
+2:23
+whatever natural disaster is in the
+2:26
+area. So, if you have a data center in
+2:27
+Santa Clara, California, which we do, uh
+2:30
+or Stockton, California, those are
+2:32
+obviously rated and prepared for
+2:34
+earthquakes. This is a facility built of
+2:36
+concrete and is is prepared for for
+Wafer Chip
+2:39
+tornadoes.
+2:40
+Speed here comes from one radical idea,
+2:42
+the wafer scale engine, the largest
+2:45
+processor ever built.
+2:46
+How big is a traditional chip as
+2:49
+compared to what we're looking at here.
+2:50
+So th this is uh a chip that's 46,250
+2:54
+uh square millimeters. So it's the size
+2:56
+of a dinner plate for those of you who
+2:58
+don't do metric. A traditional chip was
+3:01
+large if it was over 750 square
+3:04
+millimeters. So this is the size of a
+3:06
+dinner plate and the largest other chip
+3:08
+is the size of a postage stamp or
+3:10
+approximately size of your thumbnail.
+3:12
+Each one of these systems has one chip
+3:16
+and it sits behind the power supplies
+3:20
+and it sits upright.
+3:22
+Traditionally people put chips on
+3:24
+motherboards like this,
+3:25
+right?
+3:27
+We put it upright and it sits about
+3:31
+halfway back.
+3:32
+Got it.
+3:33
+Okay. On the other side of it, it's
+3:35
+cool.
+How are they so fast?
+3:36
+The breakthrough wasn't just size. It
+3:38
+was keeping memory on the chip,
+3:40
+eliminating the offchip latency that
+3:42
+slows traditional GPUs during inference.
+3:45
+We have all our memory on the chip.
+3:49
+Okay.
+3:49
+Other people have their memory off chip.
+3:53
+All right. So that latency time between
+3:55
+that latency time is the reason GPUs are
+4:00
+slow at inference.
+4:02
+That's it.
+4:03
+Got it.
+4:04
+Just that and we're you know 2 and a
+4:06
+half thousand times faster at getting to
+4:09
+data
+4:10
+and then using it.
+4:11
+Okay.
+4:12
+That's what gives this massive
+4:13
+performance advantage. Memory bandage.
+Cooling
+4:16
+One wafer draws 18 kow. To move that
+4:20
+heat, Cerebrris adopted liquid cooling,
+4:23
+an approach they began in 2017. These
+4:26
+are water cooled machines, so they're
+4:28
+unbelievably energy efficient. All
+4:30
+right, the blue line is cold water
+4:34
+coming in and the red line is warm water
+4:37
+going out. And what you see underneath
+4:40
+is the way modern data centers are built
+4:44
+wi with raised floors. So all the water
+4:47
+infrastructure is is underneath. And so
+4:51
+you can see the the cold water, the
+4:53
+chilled water return. So you've got it
+4:55
+chilled water. You've got the orange,
+4:57
+which are valves by a company called
+5:00
+Bimo. And what they do is they tell us
+5:02
+all about the the water pressure and all
+5:04
+the details so we can keep track.
+5:07
+All of it ties into a 6,000 ton chiller
+5:10
+plant that manages temperatures and
+5:12
+humidity deltas to keep the wafers in
+5:15
+their sweet spot. Okay. So, we're here
+5:17
+with Billy, uh, COO of Scale Data
+5:19
+Centers, and tell us exactly what we're
+5:21
+looking at behind us and how the water
+5:24
+is cooled in these machines.
+5:25
+Yeah, so it's a, uh, 6,000 ton liquid
+5:27
+cooled uh, chiller plant uh, producing
+5:30
+uh, chilled water to uh, Cerebrus' uh,
+5:33
+servers. Uh, and we got room to grow
+5:36
+another 6,000 tons of chiller capacity.
+5:39
+So, if as Cerebrus grows, we can grow
+5:41
+chillers. Uh, we send it off in a 42°ree
+5:44
+water. They take it, we we uh hit it hit
+5:47
+it on heat exchangers and heat it back
+5:48
+up to about 70 degrees is what we're
+5:50
+sending to the uh to the wafer chip
+5:53
+itself. It returns back. We got cooling
+5:55
+towers on the outside that takes that
+5:57
+heat exchange uh evaporates it to
+6:00
+cooling towers outside the air and then
+6:01
+it's just a big cycle keeps going.
+6:03
+Why do you heat it up before sending it
+6:06
+to the wafers?
+6:07
+Uh well, we heat it up because it it
+6:09
+will make their wafer more efficient. it
+6:11
+can't handle that cold of water because
+6:12
+a dupoint you get moisture in the
+6:14
+servers and you get condensation in the
+6:16
+servers. So you got to keep that delta t
+6:18
+about a 15 uh degree delta t to keep
+6:21
+moisture out of the servers.
+6:22
+And what approach what technique is
+6:24
+actually cooling the water in these
+6:27
+machines
+6:28
+the chillers the condensing water. So
+6:29
+there's cooling condensing water that
+6:31
+actually cools it off. The chiller
+6:33
+actually produces the cooling itself.
+6:35
+Okay. What you can tell here is the
+6:36
+temperature of the inlet water and you
+6:39
+can tell the temperature of the outlet
+6:41
+water. Right? That that's exactly what's
+6:43
+going on. And we're able to capture this
+6:46
+for every CD, every part.
+Power
+6:48
+High-speed compute demands steady power.
+6:51
+The primary source here, natural gas
+6:54
+converted into electricity with
+6:56
+batteries bridging about 5 minutes until
+6:59
+3 megawatt generators spin up. How they
+7:01
+maintain nearly uninterrupted service.
+7:04
+This is a 3 megawatt generator. It runs
+7:08
+on uh diesel or liquid natural gas and
+7:13
+it is one of the the generators that
+7:15
+powers the room you just saw.
+7:17
+Okay. So, this is a backup generator or
+7:19
+this is currently being used to power
+7:21
+it.
+7:22
+This is a backup generator. This is a
+7:24
+generator that is used if the primary
+7:27
+source has come down.
+7:28
+And what what is the primary source?
+7:30
+primary source is natural gas that has
+7:33
+been
+7:34
+uh converted into electricity. Yeah.
+7:36
+Um and then delivered to to the Rome.
+7:39
+Unbelievable. And I think one of your
+7:41
+colleagues told me this is one of four
+7:43
+in the entire state of Oklahoma.
+7:45
+Yeah. This is a a big boy. Uh these are
+7:49
+uh unbelievably cool generators. Um this
+7:53
+is how we're able to attain uh nearly
+7:56
+perfect uptime, right? is that uh if a
+8:00
+uh if there's a power outage for any
+8:02
+reason, these these bad boys kick on.
+8:05
+All right.
+8:06
+Instantly, no no downtime between the
+8:08
+switch.
+8:08
+Between between the two, you have a
+8:10
+battery backup,
+8:11
+right?
+8:11
+So the the way backups work in data
+8:14
+center is you have batteries whose job
+8:16
+it is to get you about five minutes. So
+8:19
+something comes down, the batteries kick
+8:20
+on immediately before this kicks on.
+8:22
+This kicks on. It takes about five
+8:23
+minutes before usually three, but we you
+8:26
+provision five. And then this bad boy is
+8:28
+delivering all the power you need and
+8:30
+you stay up,
+8:32
+right? And there's three of these.
+8:34
+So let's say the power goes out. Do all
+8:36
+three of these machines kick on at the
+8:38
+same time or are these failovers?
+8:39
+Each one of these is three megawws.
+8:45
+All right. So we have power coming in
+8:48
+different feeds depending on how much
+8:50
+failure how much power we need, right?
+8:52
+one, two, or three of them will kick
+8:54
+kick on for the room you just saw.
+8:56
+Right. So, when I'm hearing from other
+9:00
+um AI factory builders, they're talking
+9:02
+about gigawatt scale, but they're
+9:05
+talking about energy consumption rather
+9:06
+than uh inference output.
+9:09
+Correct.
+9:10
+But obviously you guys are are the
+9:13
+fastest supercomput in the world. Why
+9:16
+why what is why are there different
+9:18
+metrics? Why are they talking about it
+9:19
+differently? Gigawatt is a way to
+9:21
+describe this the capacity of this
+9:23
+entire building.
+9:24
+Okay.
+9:25
+All right. It is a way to say how much
+9:27
+power can we deliver to the compute
+9:30
+total
+9:31
+and nobody has a gigawatt today, right?
+9:34
+The these are still in the future
+9:37
+dreams. Um this is a I don't know top 50
+9:41
+facility in the world.
+9:43
+Um is what you're seeing right now.
+9:45
+There there are bigger but there are few
+9:47
+that are more efficient. I I'm I'm
+9:50
+wondering like because the the energy is
+9:52
+the input, the compute is the output.
+9:55
+Why not talk you guys talk about the
+9:57
+output, why doesn't everybody else talk
+9:58
+about the output? Is that because you
+10:00
+guys are just so much more efficient?
+10:02
+Yeah, because uh uh our numbers look
+10:05
+better than theirs if you talked about
+10:07
+output.
+10:07
+Got it. Yeah. Simple as that.
+10:09
+So far, we have uh seen OKC1, which is
+10:13
+the first data hall. That one's up and
+10:15
+running in production. What we're going
+10:17
+to see right now is OKC 2, the second
+10:20
+data hall that will be in production in
+10:22
+three or four weeks. All right, let's go
+2nd Data Hall
+10:23
+it.
+10:24
+Campus is expanding fast. OKC2, the
+10:27
+second data hall, is nearing completion,
+10:30
+adding capacity for the next wave of
+10:32
+high-speed workloads.
+10:33
+Oh, it's like pretty significantly built
+10:36
+out already,
+10:36
+right? So, in the process of building,
+10:41
+you deploy the racks and the cabling.
+10:44
+So, that's step one, right? that you
+10:46
+roll the racks in and all of them should
+10:49
+be set up exactly the same way. So those
+10:53
+were racks. That's step one. Okay. Step
+10:57
+two
+11:00
+is the machines get inserted.
+11:02
+When these get turned on, how much
+11:04
+additional compute capacity is that
+11:06
+going to offer?
+11:07
+This room will add about 20 exoflaws. So
+11:10
+about 10 times the largest computer uh
+11:13
+that the US owns in the department of
+Building in the US
+11:15
+energy.
+11:16
+The systems are manufactured and
+11:17
+assembled in Militus, California,
+11:20
+keeping the hardware pipeline domestic.
+11:22
+You are choosing to build in the United
+11:24
+States as well as you mentioned the
+11:26
+actual modular cerebrous units are built
+11:29
+in the United States. What why did you
+11:31
+make that decision? What does that give
+11:32
+you?
+11:33
+We manufacture in Militus, California.
+11:36
+We are uh committed to manufacturing in
+11:39
+the US.
+11:40
+Um we uh we package, we assemble. Uh the
+11:44
+final systems you saw are are
+11:47
+manufactured in the US. Um we we think
+11:50
+that uh that's an important part of of
+11:53
+being a good citizen in this economy.
+The toughest challenge
+11:56
+A decade ago, the entire system,
+11:58
+hardware and software, was still just an
+12:01
+idea. The team pushed through a period
+12:03
+when it looked impossible. There was a a
+12:06
+15 or 18month period where we couldn't
+12:09
+do it. We were spending 8 million a
+12:11
+month and we hadn't solved the problem.
+12:14
+Wow.
+12:15
+And then Yeah, that's a lot of money.
+12:17
+And uh our board stayed with us. We used
+12:20
+good engineering methodology. Each
+12:22
+failure we root caused. We figured out
+12:24
+what we had to do not to make that
+12:25
+mistake again. Bang. We made another
+12:28
+mistake. We bumped into something else
+12:30
+again and again and again. And uh and
+12:34
+then one day we set it up and it worked.
+12:37
+And we're standing in a lab about the
+12:39
+size of a small office in a in a
+12:42
+building that wasn't designed for for
+12:44
+hardware. We had the windows open. We
+12:47
+drilled a hole in the wall for for hot
+12:48
+air to be piped out. And the five
+12:52
+founders, we stood there for 30 minutes
+12:53
+and we couldn't speak. That we had
+12:56
+solved a problem that the best in the
+12:58
+world over 75 years were unable to
+What's next?
+13:01
+solve. Expect the fastest real world
+13:04
+transformation in medicine and
+13:06
+education. Two fields overdue for change
+13:09
+that benefit directly from faster, more
+13:11
+accurate models. What aspect of societal
+13:15
+change from AI are you personally most
+13:18
+excited about? A
+13:19
+AI and medicine. I I think AI has a
+13:22
+tremendous amount to offer there. In
+13:25
+part because our techniques previously
+13:27
+have been sort of rudimentary. I think
+13:29
+we should be able to knock years off the
+13:31
+drug design process. Today it's 17 19
+13:34
+years to develop a drug from scratch. Um
+13:38
+we ought to be able to get that to under
+13:39
+10. I'm also excited about education.
+13:42
+I think in many ways uh the way we teach
+13:46
+children has been unchanged since
+13:48
+Alexander the Great was tutored by
+13:51
+Aristotle. AI offers a very different uh
+13:55
+opportunity to change the way we teach
+13:57
+children. Well, Andrew, thank you so
+13:59
+much. Congratulations on everything and
+14:01
+uh I can't wait to see this uh continue
+14:03
+to be built out.
+14:04
+Well, thank you so much for having us.

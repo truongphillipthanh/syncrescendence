@@ -1,0 +1,4 @@
+1. Conduct a thorough and complete survey of every artifact (located within the Claude's Projects Files) as metacognition. This step does not need output tokens.
+2. Identify all artifacts needed to be reproduced (annealed) according to system prompt, calibrated to the most recent annealment guidelines (also located in Project Files) that can be completed in a single thread because of length limits as a concise high level schema.
+3. Produce those updated canonical artifacts in order, and produce as artifacts. DUE TO LENGTH LIMITS PRODUCE THIS STEP AS ARTIFACTS.
+4. Culminate IN-LINE with a report of progress, and a next batch outline, as context engineering.

@@ -1,0 +1,14 @@
+phase_id,phase_name,duration_estimate,dependencies,deliverables,success_criteria,risk_level
+TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT
+PH1,Bedrock Foundation,8-12 hours,None,All T0 tables populated with taxonomy records,Stable classification system operational,low
+PH2,Entity Import,6-10 hours,PH1,T1 tables populated from existing CSVs (Function.csv Models.csv API.csv),447 apps + 42 models classified,low
+PH3,Core Capability Mapping,10-15 hours,PH1 PH2,T2_CAPABILITIES hierarchy + T3_ENTITY_CAPABILITIES junction for top 50 most-used entities,Capability-based navigation functional for primary tools,medium
+PH4,Launcher Integration,4-8 hours,PH1 PH2 PH3,Raycast aliases created + Start app configured + Finder tags synced,Sub-2-second invocation latency achieved,medium
+PH5,Relationship Network,8-12 hours,PH2,T3_RELATIONSHIPS populated with critical powers/competes/requires relationships,Ecosystem dependencies mapped,medium
+PH6,Usage Tracking Setup,12-20 hours,PH2,Automated logging via Raycast hooks + macOS APIs + browser history,Passive usage data flowing to T3_USAGE_LOG,high
+PH7,Feature Primitive Documentation,15-25 hours,PH2 PH5,T3_ENTITY_FEATURES populated for repositories + extraction targets identified,Primitive harvesting roadmap established,medium
+PH8,Evolution Automation,8-15 hours,PH2,RSS scrapers + version checkers + pricing APIs operational + nightly pipeline,T3_EVOLUTION_TRACKER + T3_DISCOVERY_QUEUE auto-populating,high
+PH9,Apparatus Detection,6-10 hours,PH6,Pattern recognition algorithm analyzing T3_USAGE_LOG + T2_APPARATUS crystallizing,At least 3 apparatus auto-detected from usage patterns,high
+PH10,View Construction,4-6 hours,PH1-PH8,All VIEW_DEFINITIONS implemented in Notion/Airtable/SQL,12 analytical perspectives accessible,low
+PH11,Morning Digest,4-8 hours,PH8 PH9,Automated daily summary generation + delivery mechanism,Daily intelligence briefing operational,medium
+PH12,Continuous Optimization,Ongoing,PH1-PH11,Threshold tuning + capability expansion + relationship refinement,Sub-2-second latency maintained as system grows,medium

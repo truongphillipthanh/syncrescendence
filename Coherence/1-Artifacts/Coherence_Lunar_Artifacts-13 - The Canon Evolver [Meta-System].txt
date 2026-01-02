@@ -1,0 +1,25 @@
+Living knowledge doesn't sit still. It grows through use, adapts to context, and evolves to meet new challenges. The Canon Evolver describes how documented wisdom maintains stability while continuously transforming—like a river that remains recognizably itself while its water constantly flows.
+
+**The Paradox of Living Documentation**
+
+Documentation faces an impossible challenge: it must be stable enough to reference yet fluid enough to evolve. Traditional solutions—version control, approval processes, editorial committees—create either chaos or calcification. The Canon Evolver resolves this paradox through a simple principle: let use patterns determine evolution.
+
+When someone reads a document, they leave a trace—not invasive tracking but simple acknowledgment that this knowledge proved useful. When someone contributes a variation, improvement, or challenge, that also creates a trace. Over time, heavily trafficked knowledge strengthens and rises; unused knowledge gradually sediments into archival layers. No committee decides what's canonical—the community decides through practice.
+
+**Geological Versioning**
+
+The canon organizes like Earth's crust: bedrock layers change slowly, requiring enormous force (overwhelming community consensus) to shift. These contain fundamental principles that have proven themselves over time. Sedimentary layers evolve moderately, incorporating new insights that build on established foundations. Surface layers change rapidly, hosting experiments and explorations that might become tomorrow's bedrock or might wash away with the next rain.
+
+This geological metaphor isn't just poetic—it captures how knowledge actually evolves. New insights don't replace old wisdom wholesale but layer atop it, sometimes covering it completely, sometimes revealing deeper truths. Occasionally, volcanic disruptions bring deep knowledge to the surface or subduct surface innovations into the depths.
+
+**Variation Through Stigmergy**
+
+Stigmergy—indirect coordination through environmental traces—explains how ants build complex nests without architects and how Wikipedia grows without central planning. The canon evolves through the same principle. Each use leaves a trace that influences future users. Popular paths become highways. Useful variations get adopted and spread. Obsolete sections fade not through deletion but through simple neglect.
+
+This creates evolution without management. No one needs to decide whether a new insight should become canonical—if practitioners find it useful, they'll reference it, build on it, and strengthen its position in the canon. If it proves hollow, it will naturally fade. The canon becomes wise through the accumulated wisdom of its users.
+
+**Forks and Reconciliation**
+
+Sometimes communities need different versions of truth. Rather than forcing false consensus, the canon can fork—maintaining shared foundations while exploring divergent possibilities. A community focused on AI safety might emphasize different principles than one focused on capability development. Both forks remain valid, maintaining dialogue through shared roots while developing unique branches.
+
+When understanding reconverges, forks can merge, combining accumulated wisdom. Successful innovations from one fork can be adopted by others. Failed experiments serve as warnings. The canon becomes not a single document but a living ecosystem of related knowledge, evolving through variation and selection like life itself.

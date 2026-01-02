@@ -1,0 +1,25 @@
+# The Coming Productivity Boom: Tax Policy and Economic Revival
+
+We've been thinking and giving you evidence over the last three years that the US economy has been in a rolling recession. Manufacturing has been negative for three years. Small businesses have been suffering. Low and middle income consumers have been suffering. Even capital spending—I know the headlines are all about AI and power needs—but excluding those, we've seen a flattening out, if not a decline, in many capital spending sectors.
+
+We now are looking at the early days of this Trump administration. It seems like a lot of drama and headlines, primarily about tariffs, but underneath in terms of real policy moves, OB3—the One Big Beautiful Bill, which passed on July 4th—included some massive changes in tax policy. I think the most important ones involve depreciation, and they are taking the effective corporate tax rate—the statutory tax rate is still 21%—but incorporating depreciation schedules, the new ones for manufacturing facilities, equipment, domestic R&D and software, the effective corporate tax rate has probably dropped into the 10 to 12% range, which makes it really the lowest in the world for any major economy.
+
+We believe that we're moving from a rolling recession into a rolling recovery. It's going to take a little time to catch fire, and we think that employment is a lagging indicator. We're going to hear more bad news about employment for both cyclical reasons and because AI is limiting the job opportunities, especially for new college graduates. But we do think that the tax policy changes and, critically, deregulation everywhere—the edict from on high was deregulate, deregulate, deregulate, and we are seeing it all over the place, especially in healthcare and crypto and even AI—will drive recovery.
+
+The first executive order that President Trump rescinded was Biden's AI executive order, because we really do believe right now we're still in very early stages, the equivalent of 1995 in terms of the internet. We're in early stages as it relates to AI, and there were some onerous regulations moving into the policy arena. We believe we're moving into a productivity-driven boom in activity.
+
+I think the plan was this, to the extent President Trump and his team could control it: get all the bad news out early in this term, and as we move into the election campaign season for the midterms, have the economy move into a very strong expansion. That's what we expect. And because it's productivity driven, we believe that the surprises will be on the low side of inflation expectations.
+
+This is very much like the economy that Reaganomics unleashed in the 80s and 90s, and we think that this could be a much more powerful version of that. We're very excited about the outlook for the economy, innovation, and the markets generally.
+
+## The Dollar Strength Question
+
+It's very interesting. I just took a trip around the world actually, and I saw the negative sentiment about the US, mostly because of the headlines—tariffs have really colored the point of view of investors in the rest of the world. I heard dollar weakness, a familiar refrain abroad: first half of the year, weakest dollar since, by some metrics, 1973.
+
+I gave them the outlook that I just described here and actually took the opposite point of view. I think the dollar—and this happened during Reaganomics as well—is going to go up. That's because I believe, given the policies that have been put in place, that the returns on invested capital in the US are going to go up relative to the rest of the world, and that foreign direct investment will increase substantially. We think this is going to be a surprise.
+
+One of the reasons gold has been going up is this narrative: the dollar is debasing, and so that's a boon for gold and for Bitcoin. Well, if the dollar becomes as good as gold—and this is an expression that Art Laffer, you've heard me talk about Art and the Laffer curve, he's also a monetary expert—as we've been discussing this scenario with him, he brought this framing back, which is: if the dollar becomes as good as gold, then why hold gold?
+
+We shall see. Gold did go down. It peaked in the early 80s, actually 1980 at $800, and went down over the next two years to $300 with that kind of dollar strength. The dollar strength did not end until 1985. The dollar actually doubled from its low to its peak in 1985, at which point the rest of the world was suffering. There was a huge amount of dollar-denominated debt in countries whose currencies were depreciating rapidly, so debt service became onerous if not impossible. We ended up with a worldwide easing, effectively with the dollar—I mean, the US providing more dollars into the global ecosystem.
+
+I think we're going to be back to the future on that as well. As far as Bitcoin, well, Bitcoin is digital gold, but as we've said many times, it is also a technology, and it's the first of its kind in a new asset class. That paper, I believe, is still on our website. Maybe we can put it into this webinar. First of its kind in a new asset class, and institutions have just started tiptoeing into it.

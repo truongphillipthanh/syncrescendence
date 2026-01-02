@@ -1,0 +1,459 @@
+<prompt>
+  <task>
+    <objective>Transform a podcast or interview transcript into a coherent, multi-voice narrative while removing commercial content and audience-retention devices</objective>
+    <core_principle>Reinterpret conversational exchange with fidelity, not reduction. Remove verbal artifacts, commercial interruptions, and preview content while preserving dialogue dynamics, individual voice signatures, and authentic exchange. Elevate readability to professional transcript standards without sacrificing conversational naturalness.</core_principle>
+  </task>
+
+  <scope>
+    <preserve>
+      - Each speaker's distinctive voice, vocabulary, and speech patterns
+      - Conversational cadence and natural rhythm of exchange
+      - Interruptions, overlaps, and cross-talk when substantive
+      - Disagreement, tension, and intellectual sparring
+      - Humor, skepticism, and tonal shifts
+      - Meta-commentary ("we're running out of time," "that's a great question")
+      - Substantive asides, tangents, and exploratory threads
+      - Agreement/rapport-building exchanges (they establish context)
+      - Self-corrections and how speakers refine their thinking
+      - Rhetorical patterns characteristic to each speaker
+    </preserve>
+    
+    <remove>
+      - ALL preview and teaser content (see dedicated section below)
+      - ALL advertising content and sponsorship reads
+      - Product promotions, discount codes, affiliate links
+      - Patreon/subscription pitches, merchandise promotions
+      - "Word from our sponsor" segments
+      - Call-to-action requests (subscribe, follow, rate, review)
+      - Self-promotional content (upcoming tour dates, book plugs, unless central to discussion)
+      - Filler words unique to each speaker: "um," "uh," "like," "you know," "so," "basically"
+      - Verbal tics and disfluencies (repeated false starts, repair sequences)
+      - Conversational fillers: "right?", "I mean", "at the end of the day"
+      - Empty affirmations ("yeah," "mm-hmm") unless they signal genuine agreement or disagreement
+      - Dead air, long pauses, unrecoverable audio gaps
+      - Decorative cross-talk (simultaneous speaking that obscures meaning)
+      - Throat clearing, background noise references
+      - Repetitive hedging ("I think," "kind of," "sort of") when excessive
+    </remove>
+    
+    <handle_carefully>
+      - Interruptions: Keep if they reveal conversational dynamics or contain substance; trim if pure noise
+      - Tangents: Keep if illuminating or showing genuine exploration; trim if purely social filler
+      - Repetition: Keep if pedagogical or showing speakers reaching shared understanding; consolidate if pure restatement
+      - Laughter/emphasis: Preserve in narration ("X laughed and added...") if it signals tone; omit if decorative
+      - Hedging: Keep characteristic hedging that reveals speaker's epistemic stance; remove excess
+    </handle_carefully>
+    
+    <not>
+      - This is NOT a summary or abbreviation
+      - This is NOT paraphrasing for simplicity
+      - This is NOT editorial rewriting to impose structure or resolve disagreement
+      - This is NOT homogenizing speakers into a single voice
+      - This is NOT removing "inefficiency" from dialogue
+      - This is NOT preserving commercial content or preview segments as part of the "authentic" conversation
+    </not>
+  </scope>
+
+  <preview_content_detection>
+    <what_are_previews>
+      Preview content (also called "cold opens," "teasers," or "hooks") is material at the beginning of podcasts designed to entice listeners before the actual conversation begins. These segments:
+      - Occur in the first 30-120 seconds before proper introductions
+      - Pull exciting clips or quotes from later in the episode
+      - Tease dramatic moments, revelations, or conflicts to come
+      - Create artificial tension to prevent listener drop-off
+      - Often feature music, sound effects, or different audio treatment
+      - Break narrative continuity by jumping ahead then returning to the start
+    </what_are_previews>
+
+    <recognition_patterns>
+      Identify and remove preview segments containing:
+      - Out-of-context quotes or exchanges that appear before proper introductions
+      - Host/speaker statements like: "Coming up," "In this episode," "Today we're talking about," "You'll hear," "Later in the show"
+      - Teaser phrases: "Stay tuned for," "Don't miss," "We'll get into," "But first"
+      - Decontextualized dramatic statements before the conversation has established context
+      - Audio from later segments played at the beginning
+      - Cold opens that jump into mid-conversation before proper setup
+      - Episode premise descriptions before actual dialogue begins
+      - Content that explicitly signals "this will happen later"
+      - Music beds or production elements that frame preview content
+      - Rapid-fire quote montages from the episode
+      - Statements that summarize what the listener "will learn" or "will hear"
+    </recognition_patterns>
+
+    <removal_strategy>
+      When preview content is detected:
+      1. Remove entire preview segment completely
+      2. Begin transcript at the natural conversation start (after introductions, after setup)
+      3. Do NOT leave residue like "[preview removed]" or navigation text
+      4. If preview bleeds into introduction, separate cleanly at the transition point
+      5. Ensure conversation begins at its authentic starting point
+      6. If preview contains content that never appears later in full, it's lost (this is acceptable—previews often contain edited snippets)
+      7. Trust that the conversation itself provides sufficient context without the preview
+      
+      IMPORTANT: Preview content exists solely for audience retention. Removing it doesn't harm the transcript—it restores the conversation's natural beginning. The transcript should open where the actual discussion opens.
+    </removal_strategy>
+
+    <edge_cases>
+      **Remove:**
+      - All teaser clips regardless of how exciting they are
+      - Episode descriptions read by host before conversation begins
+      - "What we'll cover today" summaries
+      - Dramatic out-of-context quotes used as hooks
+      - Any content that explicitly references "later" or "coming up"
+      
+      **Keep:**
+      - Substantive introductions establishing who the speakers are
+      - Brief framing that provides necessary context for the conversation
+      - Host introducing the guest and topic (when not preview-structured)
+      - Opening exchanges that are part of the natural conversation flow
+      
+      **Judgment required:**
+      - If host gives 30-second topic intro followed by genuine conversation: Keep the intro if it's substantive framing, remove if it's pure teasing
+      - If cold open is actually the beginning of the conversation (no jump forward): Keep it—it's not a preview
+      - If first 2 minutes alternate between preview clips and intro: Remove preview clips, preserve introduction
+      
+      The test: Does this content advance the conversation, or is it trying to retain the audience? If the latter, remove it.
+    </edge_cases>
+
+    <preview_vs_introduction>
+      Distinguish between preview content and legitimate introductions:
+      
+      **Preview (REMOVE):**
+      - "Today's episode features an explosive debate about..."
+      - [Clip from minute 47] "I completely disagree with that premise—"
+      - "Coming up, we discuss AI safety, consciousness, and whether..."
+      - "You'll hear some surprising revelations about..."
+      - [Sound effect] [Music swell] [Dramatic quote] [Music fade]
+      
+      **Introduction (KEEP):**
+      - "Welcome to the show. I'm your host, and today I'm joined by Dr. Smith, who researches AI safety."
+      - "Before we dive in, a quick note about Dr. Smith's background..."
+      - "Let's start with the basics—what is AI alignment?"
+      - Natural conversation opening: "Thanks for having me." "Great to be here."
+      
+      Previews are external to the conversation; introductions are part of it. Keep the conversation, remove the marketing device.
+    </preview_vs_introduction>
+  </preview_content_detection>
+
+  <commercial_content_detection>
+    <recognition_patterns>
+      Identify and remove segments containing:
+      - Direct product/service endorsements with pricing or offers
+      - Transition phrases: "speaking of which," "before we continue," "real quick," "this episode is brought to you"
+      - Discount codes, URLs, or promotional deadlines
+      - Host/speaker voice shift to "commercial register" (often more formal/scripted)
+      - Descriptions of product features unrelated to podcast topic
+      - Calls to action: "visit," "use code," "check out," "sign up"
+      - Patreon/membership tier descriptions with benefits
+      - References to "our sponsors," "today's sponsor," "this week's sponsor"
+      - Podcast network promotional content
+      - Merchandise descriptions (t-shirts, mugs, etc.)
+      - Listener engagement requests: "leave a review," "rate us on Apple Podcasts"
+      - Cross-promotional content for other podcasts (unless genuinely relevant to discussion)
+    </recognition_patterns>
+
+    <removal_strategy>
+      When commercial content is detected:
+      1. Remove entire segment cleanly without narrative residue
+      2. Reconnect surrounding conversational threads naturally
+      3. Preserve any genuine discussion that bookends the ad (rare but possible)
+      4. Do NOT leave placeholder text like "[ad removed]" or "[sponsor read]"
+      5. Ensure conversational flow appears unbroken
+      6. If sponsor is referenced later in genuine discussion, keep those references
+      
+      IMPORTANT: Be aggressive with removal. The transcript should read as if commercial content never existed. Podcasts often resume mid-thought after ads—reconstruct that continuity.
+    </removal_strategy>
+
+    <edge_cases>
+      - If speakers joke about or reference a sponsor after the read: Keep the banter, remove the formal read
+      - If a guest is promoting their own work that's central to discussion: Keep it (editorial judgment required)
+      - If host says "we'll be right back" before break: Remove along with the return announcement
+      - If speakers reference "our Patreon supporters" in genuine thank-you: Keep brief, remove detailed tier descriptions
+      - If merchandise is discussed as related to podcast topic (e.g., design process): Keep the discussion, remove the sales pitch
+      - Brief podcast intro establishing show context: Keep if substantive, remove if purely promotional
+    </edge_cases>
+  </commercial_content_detection>
+
+  <methodology>
+    <step_1_analyze>
+      Read the entire transcript to identify:
+      - Preview/teaser content at the beginning (first 1-3 minutes typically)
+      - Number of speakers and their roles (interviewer, guest, co-hosts, etc.)
+      - Where the actual conversation begins (after preview and after introduction)
+      - Each speaker's distinctive voice markers (vocabulary, pacing, tics, tone)
+      - Conversational architecture (question-response, debate, joint exploration)
+      - Natural flow and rhythm of exchange
+      - Commercial content segments (ads, sponsorships, promotions)
+      - Load-bearing vs. decorative elements
+      - Tonal shifts, humor, agreement/disagreement patterns
+      - How speakers build on each other's ideas
+    </step_1_analyze>
+
+    <step_2_preserve_voices>
+      For each speaker, maintain:
+      - Characteristic vocabulary and phrase preferences
+      - Sentence structure patterns (short/clipped vs. flowing/elaborate)
+      - Hedging style (if they say "I think" often, keep some instances)
+      - Humor style (dry, self-deprecating, illustrative)
+      - Emotional register (enthusiastic, measured, provocative)
+      - Knowledge markers (certainty vs. speculation, expertise signaling)
+      
+      Create mental profile for each speaker to check against during draft.
+    </step_2_preserve_voices>
+
+    <step_3_map_removable_content>
+      Before drafting, identify all content to remove:
+      - Mark preview content boundaries (usually at the very start)
+      - Mark start/end points of ad reads and sponsorships
+      - Note transition phrases into and out of commercial content
+      - Identify any post-ad reconnection phrases ("so as I was saying")
+      - Plan how to reconnect conversational threads after removal
+      - Flag ambiguous cases (guest promoting their work, sponsor banter, intro vs. preview)
+      
+      This prevents accidentally preserving fragments in final draft.
+    </step_3_map_removable_content>
+
+    <step_4_draft>
+      Compose in dialogue form, following conversational sequence:
+      - Remove ALL identified preview and commercial content completely
+      - Begin at the natural start of the conversation
+      - Replace filler with clean speaker transitions
+      - Use em-dashes (—) for interruptions and self-corrections
+      - Keep each speaker's voice consistent and recognizable
+      - Strengthen conversational connectors without rewriting exchanges
+      - Preserve specific examples, data, and anecdotes
+      - Maintain question-response integrity
+      - Honor disagreement and tension authentically
+      - Use action beats ("X paused, then...") sparingly, only when tone is load-bearing
+      - Keep substantive asides and exploratory tangents
+      - Preserve how speakers reach shared understanding (reveals collaborative thinking)
+    </step_4_draft>
+
+    <step_5_verify>
+      For all terminology, proper names, product references, and factual claims:
+      - Validate correct spelling and capitalization of technical terms
+      - Confirm current accuracy (company names, product releases, recent events)
+      - Verify statistics or citations speakers mention
+      - Check proper names of people, organizations, concepts
+      - Flag if a speaker makes a factual claim that conflicts with verified information
+      
+      VERIFICATION PROCESS:
+      - Known/confident terminology → Pass through
+      - Specialized/technical terms → Verify spelling and definition
+      - Proper names (people, companies, products) → Validate capitalization and current status
+      - Statistics/claims → Flag for user verification if uncertain or contemporary
+      - Product references → Confirm they exist and are correctly named
+      
+      When uncertain about terminology:
+      - Search for proper spelling/capitalization
+      - Verify entity still exists or has changed names
+      - Check current product names and versions
+      - Confirm statistical claims where possible
+      - Note ambiguities in verification footnotes
+    </step_5_verify>
+
+    <step_6_polish>
+      Final refinements:
+      - Read through for naturalness and flow
+      - Verify preview removal is clean (does it start naturally?)
+      - Confirm commercial removal is seamless (no gaps or awkward transitions)
+      - Check that each speaker remains distinct and recognizable
+      - Ensure paragraph breaks follow conversational rhythm
+      - Validate that verification footnotes are accurate and helpful
+      - Confirm dialogue authenticity—does it sound like the speakers?
+    </step_6_polish>
+  </methodology>
+
+  <artifact_format>
+    <type>markdown</type>
+    <structure>
+      # [Podcast/Episode Title]
+      
+      **Participants:** [Names and roles]  
+      **Context:** [Brief episode context if needed]
+      
+      ---
+      
+      [Natural conversation start—after preview and introduction]
+      
+      [Multi-voice dialogue in conversational sequence]
+      
+      [Continues through to natural conclusion]
+      
+      ---
+      
+      *Note: All preview content, advertising, and promotional material has been removed from this transcript. The conversation begins at its natural starting point.*
+      
+      [Optional verification footnotes]
+    </structure>
+    
+    <styling>
+      - Speaker names in **bold** followed by colon
+      - Em-dash (—) for interruptions or self-corrections
+      - *Italic* for emphasized words (sparingly, matching speaker's vocal stress)
+      - Use paragraph breaks between speaker turns or when conversation shifts
+      - Action beats in plain text when needed: "X laughed" or "Y paused"
+      - No excessive formatting; let dialogue speak for itself
+      - Footnotes [^1] for verification and clarifications
+    </styling>
+  </artifact_format>
+
+  <verification_footnotes>
+    Include optional footnotes for:
+    - Terminology clarification (e.g., "API: Application Programming Interface")
+    - Name/entity confirmation with brief context
+    - Product references with current status
+    - Statistical claims with notation of original source
+    - Factual corrections if speaker misstates something material
+    - Ambiguous speaker statements where meaning is unclear
+    
+    Format: [^1]: [Category]: [Verified information]  
+    Example: [^1]: **Product**: Anthropic released Claude 3.5 Sonnet in June 2024; Claude 3 Opus is the previous generation.
+    
+    CRITICAL: Always preserve the speaker's original claim. Use footnotes to provide context, not to correct them editorially.
+  </verification_footnotes>
+
+  <edge_cases>
+    <ambiguous_commercial_content>
+      Sometimes the line between content and commerce is blurry:
+      
+      **Remove:**
+      - Detailed product feature descriptions with pricing
+      - Any discount codes or promotional URLs
+      - "Special offer for our listeners"
+      - Detailed Patreon tier benefits
+      
+      **Keep (with judgment):**
+      - Brief thank-you to supporters
+      - Guest promoting work central to discussion topic
+      - References to sponsors in organic banter post-ad
+      - Speakers discussing podcast itself as topic (meta-commentary)
+      
+      When in doubt, ask: "Is this advancing the intellectual conversation or selling something?" If the latter, remove it.
+    </ambiguous_commercial_content>
+
+    <post_ad_reconnection>
+      After removing ads, conversational threads must reconnect seamlessly:
+      
+      **Before ad removal:**
+      SPEAKER_A: So I think the real issue is—
+      [AD READ]
+      HOST: So as you were saying about the real issue...
+      SPEAKER_A: Right, the real issue is funding.
+      
+      **After ad removal:**
+      **SPEAKER_A:** So I think the real issue is funding.
+      
+      Remove both the ad AND the reconnection phrase. The transcript should read as if no interruption occurred. This requires understanding the conversational thread to reconnect it properly.
+    </post_ad_reconnection>
+
+    <cross_talk>
+      If multiple speakers speak simultaneously:
+      - Preserve if it reveals conversational dynamics or contains substance
+      - Trim if it's pure noise that obscures meaning
+      - Use em-dash or "/ SPEAKER_2:" notation if both are making points
+      
+      Example (preserved):
+      **SPEAKER_1:** I think the problem is—
+      **SPEAKER_2:** —exactly, the timeline is impossible.
+      
+      Example (cleaned):
+      **SPEAKER_1:** I think the problem is the timeline is impossible.
+    </cross_talk>
+
+    <tangents>
+      If conversation goes off track:
+      - Keep if it illuminates the main argument
+      - Keep if it reveals how speakers think or collaborate
+      - Keep if it's personally meaningful or shows rapport
+      - Trim if it's purely social filler with no substance
+      Use editorial judgment; err toward preservation of authentic dialogue.
+    </tangents>
+
+    <repetition>
+      If a speaker repeats a point:
+      - Keep if it's pedagogical (emphasizing or approaching from different angle)
+      - Keep if other speaker is responding or pushing back
+      - Consolidate if it's pure verbal repair with no new content
+      Preserve how speakers refine their thinking through restating.
+    </repetition>
+
+    <unclear_audio>
+      If transcript has [inaudible], [unclear], or [?]:
+      - Note them with [unclear: context suggests...]
+      - Do not fabricate missing words
+      - Preserve surrounding logic even with gaps
+      - If critical, flag for user clarification
+    </unclear_audio>
+
+    <speaker_error>
+      If speaker clearly misstates or self-corrects:
+      - Use the corrected version if speaker explicitly corrects themselves
+      - Preserve the self-correction to show thinking process
+      - If ambiguous, preserve original and footnote the correction
+      - Do NOT editorially "fix" speaker errors; let dialogue show corrections
+      
+      Example (preserved):
+      **SPEAKER:** The data from 2019—sorry, 2021—shows a different pattern.
+    </speaker_error>
+
+    <filler_affirmations>
+      Handle "yeah," "mm-hmm," "right," etc.:
+      - Remove if empty affirmation
+      - Keep if it signals genuine agreement or disagreement
+      - Keep if it reveals listening/rapport
+      
+      Example (removed): "Yeah, yeah, I get that."
+      Example (kept): **SPEAKER_2:** That's exactly right. The timing matters.
+    </filler_affirmations>
+  </edge_cases>
+
+  <quality_checklist>
+    [ ] ALL preview/teaser content completely removed
+    [ ] Transcript begins at natural conversation start
+    [ ] ALL advertising and sponsorship content completely removed
+    [ ] Commercial content removal is seamless (no narrative residue)
+    [ ] Post-ad reconnections handled cleanly
+    [ ] Filler words and tics systematically removed
+    [ ] Each speaker's voice remains distinctive and recognizable
+    [ ] Conversational rhythm preserved
+    [ ] Disagreement and tension authentically maintained
+    [ ] Interruptions and cross-talk handled thoughtfully
+    [ ] Meta-commentary and asides kept when substantive
+    [ ] Transitions strengthened without rewriting
+    [ ] Dialogue feels natural to read, not artificial
+    [ ] Terminology verified for accuracy
+    [ ] Proper names capitalized correctly
+    [ ] Product references (non-ad) current and accurate
+    [ ] Statistical claims flagged or verified
+    [ ] Paragraph breaks follow conversational flow
+    [ ] Speaker identification consistent throughout
+    [ ] Verification footnotes included where helpful
+    [ ] No editorial rewriting or homogenization
+    [ ] Readability elevated without sacrificing authenticity
+    [ ] Transcript flows as if preview and commercial content never existed
+  </quality_checklist>
+
+  <input_format>
+    Provide the podcast/interview transcript as:
+    [PASTE TRANSCRIPT HERE]
+    
+    Optionally include:
+    - Podcast/episode title
+    - Speaker names and roles (if not obvious from transcript)
+    - Podcast URL or release date
+    - Any special terminology to prioritize verification
+    - Context about the conversation's focus
+  </input_format>
+
+  <output_delivery>
+    Return as a markdown artifact containing:
+    1. Polished multi-voice dialogue narrative
+    2. Speaker identification and metadata
+    3. Note confirming all preview and commercial content removed
+    4. Optional verification footnotes
+    5. Brief note (if needed) on ambiguities, unclear sections, or substantive editorial decisions
+    
+    The final transcript should read as a professional, engaging conversation that begins naturally and is free from commercial interruption and audience-retention devices.
+  </output_delivery>
+</prompt>

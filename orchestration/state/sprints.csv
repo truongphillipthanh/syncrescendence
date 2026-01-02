@@ -1,0 +1,2 @@
+id,name,start_date,end_date,status,goal,velocity_planned,velocity_actual,notes
+SPRINT-001,Oracle9-Alpha,2026-01-01,2026-01-07,in_progress,Establish ingestion pattern + restore lost content + operational infrastructure,40,null,First sprint with project tracking

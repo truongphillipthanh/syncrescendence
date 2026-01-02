@@ -1,0 +1,1113 @@
+https://www.youtube.com/watch?v=kWcPg8t1kJ4
+Artificial meat is harder than artificial intelligence — Lewis Bollard
+48,684 views  Aug 7, 2025  Dwarkesh Podcast
+This episode was a deep dive with Lewis Bollard, who leads Open Philanthropy’s strategy for Farmed Animal Welfare, on the surprising economics of the meat industry: Why is factory farming so efficient? How can we make the lives of the 23+ billion animals living on factory farms more bearable? How far off are the moonshots (e.g., brainless chickens, cultivated meats, etc.) to end this mass suffering? And why does the meat industry have such a surprising amount of political influence? For decades, innovation in the meat industry has actually made the conditions for animals worse — can the next few decades of tech reverse this pattern?
+
+𝐅𝐔𝐍𝐃𝐑𝐀𝐈𝐒𝐄𝐑
+If you want to contribute to our fundraiser, you can donate at https://farmkind.giving/dwarkesh. FarmKind will direct your contribution to the most effective charities in animal welfare, and I've personally pledged $250,000 as a donation match to double the impact. Please consider contributing, even if it’s a small amount. And, if you’re considering donating $50k or more, please reach out directly to Lewis and his team by emailing andres@openphilanthropy.org
+
+𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒
+Transcript: https://www.dwarkesh.com/p/lewis-bollard
+Apple Podcasts: https://podcasts.apple.com/us/podcast...
+Spotify: https://open.spotify.com/episode/1skc...
+
+𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒
+00:00:00 – The astonishing efficiency of factory farming
+00:07:18 – It was a mistake making this about diet
+00:09:54 – Tech that’s sparing 100s of millions of animals/year
+00:16:16 – Brainless chickens and higher welfare breeds
+00:28:21 – $1 can prevent 10 years of animal suffering
+00:37:26 – Situation in China and the developing world
+00:41:41 – How the meat lobby got a lock on Congress
+00:53:23 – Business structure of the meat industry
+00:57:42 – Corporate campaigns are underrated
+
+---
+
+The astonishing efficiency of factory farming
+0:00
+Today I'm chatting with Lewis Bollard,  who is Farm Animal Welfare program   director at Open Philanthropy. Open Philanthropy is the  
+0:06
+biggest charity in this animal welfare space. Lewis, thanks so much for coming on the podcast.  Thanks for having me on. First question. At some point we'll have AGI. 
+0:15
+How do you think about the  problem you're trying to solve?  Are you trying to make conditions more  tolerable for the next 10 years until AI  
+0:22
+solves this problem for us? Or is there some reason to   think that the interventions we're  making in terms of improvements,  
+0:29
+like in-ovo sexing or cage-free eggs, etc., will  have an impact beyond this transformative moment? 
+0:37
+The end of factory farming is far from inevitable. Every year we're factory farming about 2% more  
+0:44
+animals globally. There are two   possible trajectories we could go down. One is the trajectory that we have been on  
+0:51
+for the last century, which is that technology  has made factory farming ever more efficient,  
+0:56
+resulted in ever more animals being  abused and ever more intensive ways.  There is a trajectory where we reduce the number  of animals on factory farms, where we reduce the  
+1:04
+suffering of each of those animals. So, even if we get AGI, I am really   optimistic that that will accelerate  forms of technological progress. 
+1:12
+It will bring us better alternative proteins  and it will improve humane technology.  But there are still huge cultural and  political obstacles to alternatives. 
+1:21
+The cultural obstacles are that  most people want real meat.  Most people have the option already of plant-based  meat that tastes about as good as real meat. 
+1:30
+Does it? I don't know. This is a debate. That's   fair. This is a debate. But I don't think  that's just the obstacle that people have.  There are a lot of people who say, "I'm just not  interested in the alternative. I want the real  
+1:39
+thing." Then there's also the political obstacle. Let's say that AGI solves cultivated meat for us. 
+1:47
+Cultivated meat is already  illegal in seven US states.  It might soon be illegal in  the entire European Union. 
+1:53
+By the time we get AGI, will they  even be able to sell it anywhere?  Again, there's a huge amount of good  that technology can do in this space. 
+2:01
+I'm optimistic that AGI  can accelerate that hugely.  But at the same time, we should prepare  for the significant possibility that AGI  
+2:08
+does not end factory farming. This is an incredibly efficient   system that has persisted through all kinds  of technological changes, and could persist  
+2:15
+through this technological change. What is it that makes it so efficient?  The basic efficiency is that the  animal, and the chicken in particular,  
+2:24
+has evolved over a very long time to be a  being that can take in a relatively small  
+2:32
+amount of grain and convert it very efficiently  into a form of protein that people like to eat. 
+2:37
+The feed conversion ratio for chickens, the  amount of grain you put in to get meat out,   is 2x. That grain is incredibly cheap. The  rest of the production process is incredibly  
+2:48
+cheap because they've removed everything  that costs money, treating animals well and   providing comfort and all that stuff. They've just gotten rid of it all. 
+2:54
+They've gotten down to the  point where it's insanely cheap.  You're trying to beat the price of  grain times two, plus a few extra costs. 
+3:03
+That is actually a really hard target to meet. That's why factory farmed chicken   is so insanely cheap today. Maybe an intuition pump here. We've been spending  
+3:11
+on the order of hundreds of billions of dollars  a year in order to replicate human intelligence. 
+3:17
+And human intelligence has been developed—it  depends on when you start counting intelligence  
+3:22
+as having started evolving—but on the  order of hundreds to tens of millions of   years ago, evolution has been trying to  optimize for this intelligence thing. 
+3:31
+And we've had to spend all this  effort in order to replicate it.  Converting calories into meat has  been something that evolution has  
+3:39
+been optimizing for billions of years. Everything from the immune system to   growth factors to delivering nutrition,  etc, texture or whatever… This is what  
+3:49
+evolution is working on the entire time. So it makes sense why this is actually  
+3:54
+such a tough problem. Are you ready to   throw some cold water on your friends? How far away is cultivated meat actually? 
+4:03
+It completely depends on what we do from here. It also depends on what you   mean by cultivated meat. There are companies right now that  
+4:10
+are selling cultivated meat, in very small volumes  at very high price points, which is incredible.  The challenge from here is how do you  scale that and bring the price point  
+4:19
+down to compete with the incredibly low  price point of factory farmed chicken. 
+4:24
+How long it takes to get there,  and indeed whether we get there,   really depends on what happens from here. We are not on a path right now when it comes to  
+4:31
+the amount of venture capital funding available,  when it comes to the current startups available…   We're not on a path to reach cultivated meat  that is cheaper than factory farmed chicken. 
+4:39
+We could get on that path… Ever?  Depends. It’s contingent on AGI and  contingent on what happens with AGI. 
+4:46
+I wouldn't rule it out, but I  don't think it's the default path.  I don't think it's the most likely outcome. Eventually, we'll have nanotech or whatever. 
+4:51
+At that point, raising chickens  can't be the thing to do.  You would think nanotech and bringing robotics  in and all these things… But unless the cost  
+4:57
+of all those things goes down to close to zero,  chickens are just going to be so insanely cheap.  
+5:03
+Maybe. It is totally possible that these AGI  technologies introduce incredible new proteins  
+5:09
+that help solve this problem for us. But I don't think we should rely on it.  First, because they might not be able  to solve some of these problems to the  
+5:16
+point that it is as cheap as chicken. But second, because you still have these   cultural and political barriers. The reason I think this is a very  
+5:22
+interesting example is because whenever  people think about the use of technology  
+5:29
+to improve animal welfare, they're thinking  about cultivated meat, lab meat, etc. 
+5:35
+They're thinking about these  extremely far-off solutions.  Then it makes sense why people who are especially  concerned about this space, the first thought is  
+5:44
+not to just find ways to make the existing  regime more tolerable, but to come up with   some moonshot that changes the whole paradigm. If you look at how much VC investment is going  
+5:53
+towards cultivated meat. Do you have some sense of  
+5:59
+how much goes into it a year? Versus how much VC investment   goes into, "Okay, we've already got the farms. What is it that we need to do to come up with more  
+6:08
+things like putting the eggs through MRIs? Let's do these other small   improvements in welfare"? There's a huge difference.  
+6:15
+The venture capital on humane technology  is probably less than $10 million a year.  $10 million? That would be my guess, whereas  
+6:21
+the venture capital on the alternative proteins  has been in the billions over the last few years. 
+6:27
+Which has probably been motivated,  at least partly, by the sense of,   "We're going to make things more ethical." People might not realize that in the near term,  
+6:35
+to actually make things more ethical, it might  be just better to increase that $10 million pool.  It's good to do both. Both of these are important.  I can see why alternative proteins have a  
+6:46
+more promising allure to investors. First, it could be higher margins.  But second, it feels more like  the electric vehicle or the solar  
+6:53
+that just totally replaces the old practice. It's something totally new that replaces it.  It has that potential for  some portion of the market. 
+7:00
+But what I don't see happening anytime  soon is the entire market switching   over to these alternative proteins. We need alternative proteins to meet  
+7:08
+the world's growing demand for protein so that  we don't just have ever more factory farming.  And we need humane technology  to reduce the suffering within  
+7:16
+the factory farming that does exist. Whenever a discussion like this comes up, it's   often phrased in the context of personal behavior. I think people will be assuming that what we're  
+It was a mistake making this about diet
+7:25
+going to get up to is this  push to make you vegetarian.  I happen to have been vegetarian. I grew up a Hindu, so I've never eaten meat. 
+7:33
+Then I just stayed a vegetarian  after I was no longer a Hindu.  But then I started prepping  to interview you and I'm like… 
+7:46
+I don't know how valuable this is, especially  if you look at some of these online charity   evaluators and you're just like, "A dollar of  your donation will offset this much meat-eating." 
+7:56
+You're like, "What are we doing here?"  But anyways, vegetarianism, overrated? 
+8:02
+I think we made a mistake as a movement  making this about personal diet.  It's great when folks want to make a personal  diet decision, whether that is eating less  
+8:11
+meat or meat from more humane sources, but  the focus should not be on the individual.  This is not how large-scale social change occurs.  We need government reform. We need corporate  
+8:20
+reform. People can be a part of that regardless of  what they eat, regardless of what their diet is. 
+8:27
+We need people to be advocates and  funders and supporters of this cause.  How did we end up in this position? When people think about animal welfare, they think  
+8:36
+PETA, they think of protesters who are encouraging  individuals to give up meat consumption? 
+8:43
+At the same time, these charities,  which are so effective at corporate  
+8:49
+or policy changes, are just so neglected. How did this end up being the landscape  
+8:55
+of animal welfare activism and funding? It's a puzzle. It seems so obvious that you  
+9:03
+can have far larger-scale change at the level  of governmental change and corporate change.  Instead, we get fixated about whether  someone is completely vegan or vegetarian. 
+9:14
+I think what happened is that when people  started learning about this issue initially,   it was just a few people and they felt totally  powerless to achieve larger-scale change. They  
+9:23
+understandably focused on themselves. Then it  started to become a self-fulfilling prophecy. 
+9:30
+It started to become an end in itself, where  it was about personal purity as much as about   the impact you're having on the issue. It's much easier to measure your own  
+9:37
+personal purity than it is to measure your  total impact on reforming factory farming. 
+9:42
+It just became this kind of inward focus. The good news is, that has changed   tremendously in the last decade. The movement has gone from being  
+9:48
+one that was obsessed with personal  purity, obsessed with dietary choices,   to one that is much more obsessed with impact. This is why I really wanted to do this episode. 
+Tech that’s sparing 100s of millions of animals/year
+9:57
+I think people will be aware that there's a  general problem here, but the actual politics,  
+10:03
+the actual economics, the actual state of  the technology landscape here… there might be   interventions which are stupendously effective,  which we overlook just because people are not  
+10:12
+aware of what's actually happening in this space. On that point, to use an analogy from global  
+10:18
+health and poverty. The Against Malaria   Foundation estimates that it saved on the  order of 180,000 lives, which is a lot. 
+10:27
+But then you compare it to China liberalizing,  which brought a billion people out of poverty. 
+10:32
+That's just a many, many orders  of magnitude bigger impact.  In animal welfare, do you have some big  take about what the "China-liberalizing"  
+10:40
+equivalent in this space is? There have been three   large-scale drivers of progress so far. The first has been government policy. 
+10:49
+Advocates got the European Union to  set basic animal welfare standards.  That is billions of animals every year, billions  every year. Then there’s corporate reforms. We  
+11:00
+see the same thing. There's this incredible  scale across these corporate supply chains.  McDonald's just implemented its  pledge to go cage-free in the US. 
+11:08
+That alone is seven million hens every year out  of cages, just in the McDonald's supply chain.   The third lever is technology. One example would  be in-ovo sexing as a new technology that can get  
+11:18
+rid of the need to kill male chicks. In the egg industry,   the unwanted chicks are killed at birth. In-ovo sexing has already spared about  
+11:26
+200 million chicks from that fate. So there are these giant drivers. 
+11:31
+The good news is we're just  getting started with them.  There is the potential, I think, to help tens  of billions of animals through these drivers. 
+11:39
+I want to go into in-ovo sexing. Just the fact that you can have   a new technology and you can have basically  Pareto improvements where things aren't getting  
+11:47
+more expensive… Maybe in the future they'll  actually get cheaper because of this technology.  At the same time, you're having  improvements in animal welfare. 
+11:55
+The problem, of course, with this industry has  been that in the past, increases in efficiency   have been coupled with increases in cruelty. I want to understand whenever the trend  
+12:04
+goes in the opposite direction,  what causes that to be the case?  What is the history of this technology? How  does it work? Why did it take so long for it to  
+12:13
+come into common practice? The historical basis is a  
+12:18
+story of technology doing harm. Initially, the egg industry and the   meat chicken industry separated because they  realized they could grow meat chickens to be  
+12:27
+optimized for weight gain and laying  hens to be optimized for laying eggs.  That meant that the laying-egg  industry had no need for male chicks. 
+12:36
+They couldn't lay eggs and they couldn't  grow fast enough to be meat chickens.  What they decided was to just kill  them on the day they were born. 
+12:43
+The standard practice is that about 8 billion  chicks globally every year are just thrown in  
+12:49
+a giant meat grinder or suffocated in bags the  day they're born. Crazy. This new technology is  
+12:56
+basically the application of existing technologies  to scan the eggs in advance and work out whether  
+13:04
+they're going to be male or female. And then you can just get rid of the male   eggs very early in the incubation phase. This technology went from, 10 years ago,  
+13:13
+just being a vague idea to today where it's  already a third of the European egg industry. 
+13:19
+It just got introduced to the United States. We've got the first eggs coming   out in the United States now. This is a technology that is growing rapidly. 
+13:24
+I'm really optimistic it can  ultimately end this problem globally.  How much was this driven by policy versus the  tech being mature enough for it to be economical? 
+13:33
+It was both. First, there  was some policy up front.  Because advocates had drawn attention  to this practice of killing male chicks. 
+13:41
+There was real impetus by  governments and philanthropists   to support kickstarting this technology. My estimate is it was about $10 million, a very  
+13:49
+little amount of public and philanthropic  money that kickstarted this technology,   got it to a point where startups could  start to implement the technology. 
+13:56
+I'd be curious to understand exactly. MRIs have existed for a while,   PCRs have existed for a while. Why did it take this long  
+14:04
+for this to be economical? What was the nature of that cost curve? 
+14:09
+I'm especially interested to understand this  because it seems to imply… We didn't have  
+14:14
+to come up with some brand-new  tech in order to enable this.  Are there other things where somebody  who is somewhat familiar with the  
+14:22
+technological landscape… People are  always looking for startup ideas.  Should they just spend a couple days at a big  poultry farm or pig farm or something and see  
+14:31
+if things can't be improved? I think there's huge   potential for technologists here. There is a lot of low-hanging fruit. 
+14:38
+This is primarily a commodity business  that has only done things that reduce  
+14:44
+the price or increase production levels. It has not invested in animal welfare. 
+14:49
+And as a result, you find these things  it's doing that just seem archaic.  Like the way that it is castrating piglets is  with a blunt knife and with no pain relief. 
+14:59
+In that case, there was a new technology of  immunocastration, an injection that achieved the   same effects, and it was very easy to develop. I think there are a whole lot of  
+15:08
+other practices like that out there. There's a whole lot of these archaic practices   being done where someone could come in, and with  a little bit of smart work around this and an  
+15:16
+actual focus on animal welfare, bring in solutions  that could potentially help billions of animals. 
+15:21
+One important dynamic to this industry that you've  pointed out is that whenever we have to ruthlessly  
+15:28
+optimize for efficiency in one domain, it causes  all kinds of other problems that we have to then  
+15:35
+make up for with even more cruelty. Think of what we've done to pigs.  We took pigs inside from outdoors and we  selected them to grow faster and to have  
+15:46
+this inadvertent greater aggression, the  first thing they started doing was getting   bored and biting each other's tails. That was a problem, so then we said,  
+15:53
+"We'll cut the tails off." Well, that didn't  work. So then we had to start clipping the   teeth and cutting part of their teeth off. That still wasn't enough when it came to the sows. 
+16:02
+So then we had to put them  in crates to protect them   from any other animal, and that wasn't enough. So then we gave them antibiotics and other drugs. 
+16:08
+At each step, there is a new solution that can't  solve the fundamental underlying parts of the  
+16:14
+problem, and sometimes just makes it worse. Could we make chickens or pigs with no brains? 
+Brainless chickens and higher welfare breeds
+16:21
+Because it’s the suffering we care about. To the extent that their bodies are just these   incredibly well-evolved bioreactors for converting  grain into meat whereas optimization has led to  
+16:35
+more and more cruelty in the past, in this  case, this is the ultimate optimization.  They're not moving around at all. They are literally just a machine  
+16:43
+for producing more meat. The suffering is in some   sense inefficient, if they're pecking at other  animals, if they're catching on wires, etc. 
+16:57
+This is something that it would be  better, even economically, to eliminate.  You're right. The suffering is uneconomical  at the level of an individual animal. 
+17:07
+The animals that we have selected for and  the way we have treated them result in more   of those animals dying, more of them  having all kinds of welfare problems. 
+17:13
+The problem is that it is  collectively more efficient.  If you can cram twice as many animals into a  barn, it doesn't matter if 10% more of them die. 
+17:22
+That's been the underlying model of this industry. The reason welfare gets neglected is that it has a  
+17:27
+slight cost, but the efficiency  gains are so much greater.  I agree we should try and  find things to reverse that.  I am personally more optimistic about  these kinds of incremental reforms. 
+17:35
+The average person listening to  this is not thinking, "Oh yeah,   I'm really pumped for the brainless chickens  to come along and just persuade me." 
+17:43
+But they're not pumped about the  cultivated meat either, right?  No, sure. This is why you need a  whole bunch of different approaches. 
+17:50
+There's no one solution that  is going to satisfy everyone.  What I would say on genetics is that  what feels way more achievable to me in  
+17:57
+the near term is to get rid of the genetic  physical problems that ail these animals.  For instance, we've bred these chickens to be  mutants that collapse under their own weight. 
+18:06
+We know that we can breed for far higher welfare  birds that are still commercially viable. 
+18:12
+Indeed, there are companies, and there are places  like Denmark, where the industry has already moved   entirely toward these higher welfare birds. They have way better welfare outcomes  
+18:19
+that suffer way less. What's different about them?  The first thing about them is that  they are more balanced overall. 
+18:24
+Where the industry has just selected  for rapid breast meat growth and for  
+18:29
+really efficient feed conversion, these  birds have been bred to have robustness.  They have broader legs so  their legs don't collapse. 
+18:37
+They have better cardio systems, so they  don't develop all these cardio problems.  In general, they've just been  bred for welfare outcomes. 
+18:43
+We're just like, "Let's just breed a bunch  of birds and find the ones that die less." 
+18:49
+Are they less economical? They're slightly less economical.   This is why, because they haven't been  ruthlessly selected for those two variables  
+18:57
+of breast meat yield and feed conversion. They cost a little bit more, and this is why   you need advocacy to get people to adopt them. There has been huge advocacy in France,  
+19:06
+in Germany, in Denmark to get this. In fact just last month,   the largest French chicken producer, the LDC  Group, committed to moving its two main brands  
+19:15
+to these higher welfare genetics Why not think that they will just   be eaten up in terms of their welfare impact? To the extent that the economics in the industry  
+19:23
+for a century have been to cram more things in,  to figure out how to optimize along axes which  
+19:31
+just make the animal incredibly unhealthy and  immiserated for longer and in more extreme ways? 
+19:38
+Okay, we'll come up with in-ovo sexing,  but then there will be another thing   which is the equivalent of gestation crates. Why think that even technologically the thing that  
+19:48
+is favored is the suffering-free optimizations? I think you’re right. This is the story of a lot  
+19:55
+of the industry's efforts to improve welfare. There was a study back in the 90s where   they taught chickens how to  select pain relief-laced feed. 
+20:04
+They found the broiler chickens were all  selecting the pain relief-laced feed,   suggesting they were all in chronic pain. The industry said, "Don't worry, we'll address  
+20:12
+it. We'll strengthen their legs." So they went  away and they strengthened their legs for a bit.  Then they were like, "Wow, it's great. The chickens have stronger legs now. 
+20:20
+They can go and eat more stuff and we  can put more weight on those legs."  So then they made them bigger and  essentially undid those gains. 
+20:27
+In recent years we've seen the mortality rate  in the industry rising again and getting worse.  So presumably they've just pushed  so far again in that direction. So  
+20:34
+that's a major risk. This is why you need  the government or corporations involved.  This is why you need the government  setting out a baseline standard saying,  
+20:42
+"You can't go below this welfare floor." For instance in Denmark, the government   is strongly encouraging the move toward these  higher welfare breeds and looking to ban low  
+20:51
+welfare outcome breeds entirely. You need to maintain those   higher welfare outcomes. This is what you need in  
+20:58
+corporate supply chains too. This is also what you see with   the French retailers moving away  from these low welfare breeds. 
+21:03
+You need them to maintain those standards. Because you're right, the industry left on   its own will always find a race to the bottom. Potentially, we could find ways to make animals  
+21:14
+even bigger with the future forms of biological  progress that some of my guests talk about. 
+21:24
+It's already the case that it's better  to eat beef than chicken, because cows   just have so much more meat per brain. What if we just got rid of the myostatin  
+21:33
+inhibitor genes or whatever, and then  now there's even more meat per cow? 
+21:38
+Is that better because you have more meat per  cow, or is it worse because it's potentially going  
+21:44
+to lead to the same dynamic of these overgrown,  more suffering animals? Which way does that tilt? 
+21:53
+I think it probably tilts toward more suffering. This is what you see with the history of  
+21:58
+breeding these chickens to be the  kind of mutants they are today.  They've achieved a 4x gain in  growth rates since the 1950s. 
+22:07
+That has led to a 2x drop in price, and that  has led to a 3x increase in consumption. 
+22:14
+Because consumption has gone up so dramatically,  and the suffering per bird has gone up so  
+22:20
+dramatically, that has outweighed the  benefits of these birds being bigger.  But the consumption might have gone up regardless. So actually then it's not clear. 
+22:32
+To the extent that we hold consumption constant,  and maybe we shouldn't, they would have to be   suffering 4x as much as a chicken in the  1950s for it not to be a net improvement. 
+22:41
+I don't know if you disagree with that. There is an in-between ground solution now. 
+22:47
+The higher welfare breeds that we  are advocating for producers to   adopt are not 1950s growth levels. They grow almost at 2025 growth  
+22:57
+levels scaled back slightly in a way that  enables much larger welfare improvements. 
+23:03
+You don't have to go backwards to the level  of these incredibly slow-growing animals. Some   people will want that. There'll be a market for  like heritage chickens and people who are willing  
+23:11
+to pay for these extremely slow-growing animals. But the more realistic thing at scale is going  
+23:17
+to be these ones that still  grow fast and still get big,   but do so in a way that doesn't totally destroy  their bodies and cause them to suffer so much. 
+23:24
+It's just striking me now that the  way to think about what we're doing  
+23:29
+to these animals is not even… This would  already be just incredibly immoral, finding  
+23:36
+creatures in the wild and then caging them up  and then putting them through awful tortures. 
+23:42
+Rather, we are manufacturing creatures  basically optimized for suffering. 
+23:48
+It's not even like, "We found this chicken and  now we're going to put this in this little cage." 
+23:54
+It's like, "We have designed this chicken  to basically suffer as much as possible. 
+24:00
+We have literally genetically changed it as much  as we can plausibly change it given the technology  
+24:06
+available to us today, in this Frankensteinian  way, to suffer as much as possible." 
+24:14
+That framing just makes it especially gruesome. I agree. This is the story of  
+24:20
+the chicken meat industry. They have just bred and bred   so that these animals suffer more and more. I'll give you another example of that,  
+24:26
+which is the breeding birds. The birds that they have that are   raised for meat are optimized to only survive  until about seven or eight weeks of age. 
+24:35
+Even by that age, a lot of them are  keeling over, getting lame, collapsing.  But they're not at puberty yet. So they need to raise some of these birds past  
+24:43
+puberty to raise the next generation of birds. For those birds to not totally collapse under  
+24:48
+their genetics, they have to starve them. What they do is they give the breeding   birds about 30% of the feed that  the birds would eat on their own. 
+24:57
+They're starving them 70%, because  that is the only way to stop these   birds from completely collapsing under the  genetics that they've inflicted on them. 
+25:06
+In just reading about the accounts of,  for example pigs in gestation crates,  
+25:11
+and the medical symptoms like swollen ankles,  broken bones obviously from chewing the iron bars,  
+25:22
+all the bruises that cause ulcers, tumors,  cancers, pus, etc… These are not rare medical  
+25:32
+emergencies, but the regular anticipated,  expected outcomes across populations of pigs. 
+25:42
+Individual farms will house thousands of them  and, of course, around the world a billion. 
+25:47
+I'm sure you've visited many  of these places yourself   or have had friends who've done so, right? I've visited factory farms. It is every bit as  
+25:57
+bad as it looks on the videos you can find online. It is every bit… The addition you see is,  
+26:04
+first, you hear the noise, the  distress yelps from these animals.  You smell it, it smells awful. But the other thing I noticed,  
+26:12
+I visited one egg factory farm. It's impossible for farmers to provide   individual care to each of these birds. This was a relatively well-run farm. 
+26:20
+Yet I still found a whole lot  of hens stuck in the wire.  Those hens are just going to slowly starve.  Indeed many had. There were a lot of dead birds  
+26:29
+in with the live birds in other cages. That's just because of the scale.  One farmer is trying to look after 200,000 hens. The only thing they can actually do is check the  
+26:38
+feed lines and check the water lines  and remove some of the dead birds.  In fact, that is the work of a factory  farmer, largely removing dead animals. 
+26:46
+It is just this dystopian thing where the  industry presents this picture of, "Oh,   we have individual care for our animals." The scale at which you were doing it  
+26:54
+has totally prohibited having any  kind of individual care like that.  This is an issue where scope sensitivity  is just so insane, the magnitude. 
+27:03
+If this one battery cage farm was the only  thing that existed in the world—if there  
+27:10
+was this one farm in India that had 100,000  chickens which were each just experiencing  
+27:18
+weeks upon weeks of pain through their  life—that would already be a moral emergency. 
+27:23
+But it's so easy to forget that if  there's 10 billion chickens that   are alive at any point in the world. The whole problem is five orders of  
+27:32
+magnitude bigger than this one farm itself. So 100,000 times bigger than this one farm. 
+27:40
+It's just stupendous to comprehend  the scale of the problem.  It's crazy. You see this total confusion in  the laws we pass, for instance, dog fighting. 
+27:51
+It’s a real evil, it's horrific, but we're talking  about thousands of animals. Congress has passed  
+27:56
+multiple laws. Every state has made it a felony. It is being regulated, correctly,   out of existence. Meanwhile, the factory  
+28:04
+farming of pigs occurs on this far greater scale. We've even done the same thing with cockfighting,   which is literally chickens. Again, it's literally thousands  
+28:10
+of chickens. We have rightly banned it.  We've rightly made it felony animal cruelty.  Yet when factory farmers do far worse to a far  larger number of chickens, we call that commerce. 
+1 can prevent 10 years of animal suffering
+28:21
+Okay, so the positive spin on that can be  that, because of how big the problem is and how  
+28:27
+neglected it is, the ability of any one person  to have a big impact might genuinely shock  
+28:33
+them. Let's get into that. You are the biggest  funder in this space, but cumulatively between   you and the others, what is the amount of smart  money that is being allocated to this problem? 
+28:44
+We think less than $300 million is being devoted  to all work globally around every possible  
+28:52
+solution to factory farming across every country. Less than 200 million of that is what   you would consider smart money going to  evidence-based, effective interventions. 
+29:00
+To put that into perspective,  philanthropic climate advocacy   alone is 50 times bigger than that. The work of cat and dog shelters and rescue  
+29:09
+groups in the US alone, 25 times bigger than that. There are individual conservation and poverty  
+29:14
+charities that are 5 to 10x bigger than that. So this is a tiny amount of money  
+29:20
+for the purpose of social reform. Yet it has achieved a huge amount, impacting   hundreds of millions, billions of animals. What would happen if the amount of funding in  
+29:30
+this space doubled from the $200-300 million  you mentioned that is being spent smartly? 
+29:37
+I know you will say there's a bunch of things we  could optimize around. There's so many neglected   issues. But is there an immediate thing which  is the thing that is directly at the margin,  
+29:47
+the next $100 million or the next  $10 million would enable this?  Additional funding would be  transformative. We have a playbook  
+29:53
+that works on a number of these issues. One of the first things would be   holding companies to account for animal  welfare policies they've already made. 
+30:01
+We've got huge numbers of companies that made  commitments to getting rid of battery cages and   are now trying to back out of them or ignore them. With additional campaign funding, we could hold  
+30:09
+them to those, and as a result immediately  improve the conditions of millions of animals. 
+30:14
+For years, the industry used these battery  cages that are these microwave-oven-sized cages. 
+30:20
+They cram as many hens in as they can  and they leave them there for years.  We know consumers don't think  this is acceptable, but the  
+30:28
+industry doesn't disclose their use of them. It's not like when you pick up a pack of eggs,   it has a big thing saying "from caged  hens" or an image of where they came from. 
+30:34
+Advocates went to the largest retailers,  the largest fast-food chains, and said,   "You need to move away from this because  your consumers already expect this of you. 
+30:42
+This is what your consumers clearly want and  they clearly don't accept this practice."  They got pledges from almost all of the largest  food companies, not just in the US but globally,  
+30:52
+to move away from these practices. We're already seeing that this transition   has already spared over 200 million  hens a year from these battery cages. 
+31:01
+The US has gone from less than  10% cage-free to 47% cage-free.  The European Union is now 62%  cage-free. This is a huge transition. 
+31:10
+How did they do this? They captured this basic divide   between what consumers expected was already  happening and what was actually happening. 
+31:19
+I loved this specific example  where there's a super tractable   thing that is immediately available with  the next millions of dollars in funding. 
+31:28
+Is there a particular charity which  works on these campaigns in particular?  I think that one great way to support them is  to support a diversified portfolio of groups. 
+31:38
+There's a group, FarmKind, that allows  people to donate to a variety of groups.  Two of those groups that you can donate to through  that platform, The Humane League and Sinergia  
+31:47
+Animal, are both working on exactly this. I think people might just not be   aware of the ratio of dollars to  suffering averted in this space. 
+31:57
+Can you give some sense of what we're  talking about, dollar to suffering, here? 
+32:02
+The work to get hens out of cages has already  spared over 200 million hens from cages. 
+32:09
+The work to improve the lives of broiler  chickens has already benefited over a  
+32:14
+billion animals. That's just every year. Wait, sorry, it's 200 million a year? 
+32:20
+200 million a year. Sorry, I missed that. I   thought it was cumulative across. No, cumulatively we're already  
+32:26
+well north of 500 million hens. We're into the billions of broiler chickens.  If you assume these things weren't just around the  corner, they weren't just going to happen anyway,  
+32:34
+if you think you probably sped up progress  by years, decades, maybe it would never   have happened… That cumulative impact  over those years and decades is giant. 
+32:44
+We're talking billions, we're  talking tens of billions.  The amount of money spent just on those  corporate reforms was less than $100  
+32:51
+million a year over a couple of years. We're talking about a ratio that is  
+32:56
+far less than 1:10 of a dollar per  year of animal well being improved. 
+33:03
+So you're saying $1 can do more than 10 years of  a better, more humane life? That is stupendous. A  
+33:16
+couple hours of pain is just awful and terrible. You're saying 10 years for a dollar? 
+33:24
+The reason why that’s so  shocking…On its face it's shocking.  But in other areas where you're trying  to do global health or something, first,  
+33:33
+the problem is improving on its own. Second, with the Gates Foundation etc.,   there's tens of billions of dollars  already being poured into the problem. 
+33:39
+It’s the same with climate change, etc. The idea that you would find an   intervention where a single dollar can  go this far is just genuinely crazy. 
+33:53
+It's very unique. The reason this  philanthropic opportunity exists is because   this area has been systematically neglected. Most people, when they think of philanthropy,  
+34:03
+do not think of farmed animals. Most people pile into popular areas   like education and healthcare and climate. As a result, you end up with these outsized  
+34:13
+opportunities that no one has taken advantage of. If the space had billions of dollars in it,  
+34:18
+as other philanthropic areas do, you  would not see opportunities like this.  I won’t bury the lede any longer. I've always been interested in this issue. 
+34:27
+I lost track of it for a  little while, to be honest.  But I encountered you on Twitter and I  started learning more about the issue. 
+34:34
+We chatted a few times in person, and that  motivated me to have you on the podcast and  
+34:41
+also to donate myself. As you mentioned,   FarmKind Giving is this re-grantor. They don't keep any of the money themselves. 
+34:49
+They just regrant it to the most  effective charities in this area.  They're basically like an index fund across  the most effective charities in animal welfare. 
+34:57
+It motivated me to donate to them. So I'm giving $250,000,  
+35:03
+and I'm doing this as a donation match. This is to say that you the listener,  
+35:08
+if you contribute to this donation match,  we can double each other's impacts.  Between the two of us, we can allocate $500,000—if  we saturate this, and I really want to saturate  
+35:18
+this—to the most effective charities in this area. Remember how neglected this area is. 
+35:25
+Lewis, as you were just mentioning, $1 that  is donated in this area corresponds to 10  
+35:32
+years of animal suffering that is averted,  which is just stupendous to think about.  There's no other cost area in the  world which has such a crazy ratio. 
+35:42
+That has to do with how neglected this area is. The positive connotation of that neglectedness  
+35:48
+is just how big an impact any person listening  to this podcast can have. That's the donation  
+35:53
+match. The way you can contribute to it  is to go to farmkind.giving/dwarkesh. 
+36:01
+I also recognize that there's people in the  audience who can do much more than this amount. 
+36:08
+Given how neglected this issue is… Remember,  there's on the order of $100 million or $200   million that is being spent wisely on this topic. One such person listening could double the amount  
+36:20
+of money that is being spent effectively in  this area. That's crazy to think about. If   you are one such person, just think about that. Even if you can't double the amount of money  
+36:28
+that's being spent in the area, you could cause  a double-digit increase in the amount of funding  
+36:34
+that these effective causes are receiving. For those people in the position to contribute  
+36:39
+much more, or at least want to get  their foot in the door and explore   contributions of $50k or higher, Lewis,  what's the best way they can reach you? 
+36:46
+In that case, we'd love to hear from you. People can message me on X, or they can  
+36:53
+reach out to my colleague Andres. That is Andres with one ‘a’. So it is  
+36:58
+andres@openphilanthropy.org. He would love to work  with you, and I'd love to work with you to help  
+37:06
+you spend that money as effectively as possible. Okay, but if you're like the rest of us and  
+37:14
+you need to start off on a more humble basis,  again, your donation would already just have a   huge impact given how neglected the space is.  Again, the link is farmkind.giving/dwarkesh. 
+Situation in China and the developing world
+37:27
+Let's talk about other countries. You  are not only the biggest funder in this  
+37:34
+cause area in the United States, but globally. Obviously, animal suffering in Sri Lanka or China  
+37:40
+is just as bad as animal suffering here. What is especially promising, especially  
+37:46
+given that more people in these  countries will start eating meat?  This problem is getting worse over time. It's getting worse because people are  
+37:53
+getting wealthier and eating more meat. What seems like the most useful intervention,  
+37:59
+or the useful thing to understand,  about what to do about that? 
+38:05
+There are a couple of things. Countries, where their protein consumption   is rapidly growing and there is not yet a  deeply entrenched animal agricultural industry,  
+38:14
+have the ability to do things differently. In particular, they have the ability   to support alternative protein work  without that being politically toxic. 
+38:22
+For example, we see China investing very  heavily in cultivated meat research.  The majority of patents coming out globally  on cultivated meat now are coming out  
+38:30
+from public universities in China. This is a case where the US is being   overtaken because we have this entrenched  industry that is ferociously lobbying. 
+38:39
+I also think there's the potential to  extend animal welfare policies globally.  We're seeing multinationals like Unilever and  Nestlé and even Burger King saying we shouldn't  
+38:49
+have cages in our supply chain globally. This creates the potential to spread best   practices, just in the same way that factory  farming spread from the United States globally. 
+38:58
+But factory farming spread because it was  cheaper, not because there was some law passed  
+39:05
+that everybody else felt the need to copy. That's right. We essentially had  
+39:10
+economic efficiency spread factory farming. In some cases, that can spread higher welfare  
+39:16
+tech, for example, in-ovo sexing technology. Once that has been derisked enough, once it   has been scaled up in Europe and the US, I'm  optimistic it will become cheaper and then it will  
+39:24
+just be scaled out globally for economic reasons. But also, we can spread moral progress. 
+39:30
+We know that people in these countries also  care about animal welfare. I had a fascinating   conversation. I went to a trade show and I talked  with a company that manufactures gestation crates. 
+39:42
+I was like, what do you think about  the future sales of these crates?  They're like, "Well, we already have  stopped selling them in Europe and the US." 
+39:48
+I was like, "Do you think you'll just be able  to sell them in Asia forever?" They're like,   "No way. As Asia gets richer and is on  social media and sees the images and things,  
+39:56
+they're not going to be cool with this either. We know there is a limit to how long we're going   to be able to sell these things for." I think that gives me some optimism. 
+40:04
+As countries get richer, they generally  get more concerned about this issue,   and that then enables them to adopt animal  welfare reforms as we've seen in the West. 
+40:12
+On net, is there a Kuznets curve here? Initially they get wealthy enough to afford the  
+40:20
+most economical forms of meat, which are battery  cages, etc., and then they get even wealthier so  
+40:26
+that they can afford the potentially slightly more  expensive versions of meat which are more humane. 
+40:31
+Or on net, is it just that you keep eating  more meat through this whole process?  Even if it gets slightly more ethical, the  amount of meat consumption will rise 2x or 3x. 
+40:42
+So wealth always correlates  with more suffering, basically.  It's mixed. So far globally, wealth has  heavily correlated with more suffering. 
+40:51
+The drive of people getting richer has led  to them eating far more meat and far more of   that coming from factory farming. We have overwhelmingly seen that  
+40:59
+trend across all countries. In a few European countries,   we are starting to see the dynamic where once  countries have reached a certain degree of wealth,  
+41:08
+they are able to bring about reforms that  actually reduce the total amount of suffering.  I think it is quite likely that Germany has passed  the top of that curve and is now on the other side  
+41:17
+of diminishing total animal suffering. The critical thing to bear in mind   is that this does not happen on its own. In Germany, this happened because there  
+41:24
+are very talented advocates who harnessed  that public opinion and concern to drive   corporate reforms to the retailers and to  drive government policy reforms. We need to  
+41:33
+do that. I don't think you can just count that  people are going to get to a certain degree of   wealth and this is going to happen. I think it only happens if there is  
+41:40
+advocacy to mobilize that public opinion. A difficulty that these animal welfare policies   have had is that even if you outlaw a practice  domestically, to the extent that it's cheaper to  
+How the meat lobby got a lock on Congress
+41:52
+produce meat that way, people will just import  meat produced that way that is made elsewhere. 
+41:59
+States in the US who have tried  to do this have had this problem.  Countries in Europe that have tried  to do this have had this problem. 
+42:06
+How do you solve the lowest common denominator  problem in animal welfare standards? 
+42:12
+It's a huge problem. Advocates in  the US passed ballot measures in   Florida and Arizona to ban gestation crates. Then the pork industry just imported crated  
+42:22
+pork from other states into those states. So advocates then went to California and  
+42:27
+Massachusetts and passed ballot measures that  extended the same standards to the sale of   pork within the state. That you can't sell  
+42:33
+pork from crated pigs anywhere. I think that is a critical move,   and we're seeing the European Union now  considering doing the same thing, imposing  
+42:41
+animal welfare standards equally on imports. That policy is critical to not just ensuring that  
+42:48
+you're not getting these laws undercut, but also  to changing the political dynamic because domestic  
+42:53
+or local farmers are going to be very opposed to  any law if they realize they're just going to get   undercut by out-of-state competition, rightly so. This is a chance to also change that political  
+43:01
+dynamic so they can actually  support the law, knowing that   they are not at a relative disadvantage. Potentially reversed by an upcoming bill, right? 
+43:10
+This is right. The pork industry,  unfortunately, has looked at these   laws in California and Massachusetts and wants  to do everything it can to undermine them. 
+43:20
+It knows this is the only way  it can be effectively regulated,   given that it has an absolute hold on the  legislatures in Iowa and North Carolina,  
+43:27
+which are the main states for pork production. It knows that it needs to stop any other   state from setting production  standards or sales standards. 
+43:35
+It first went to the Supreme Court. It first said this is unconstitutional,   the states can't do this. The Supreme Court  disagreed. We won at the Supreme Court. 
+43:42
+Now it has gone to Congress, and it's saying to  Congress, "You need to wipe out these state laws.  You need to stop them from doing this." The unfortunate thing is the Senate and  
+43:51
+the House are both on track to do that. In the upcoming farm bill, there is   language that would ban states from  passing laws on the sales standard,  
+44:02
+on animal welfare sales standards on goods. Right now, the default path is that that will pass  
+44:07
+as part of the farm bill in the next few months. If advocates are able to pass these laws or  
+44:12
+ballots at the state level, and it's  popular enough that they're passing,   why is it that at the national level they can't  make a ruckus about this and prevent this from  
+44:21
+getting added to the full farm bill? The first problem is structural. At   the state level, they've had to use ballot  measures to get around entrenched lobbies. 
+44:30
+In this case, things start out in the House  and Senate Agricultural Committees, which are   heavily dominated by agricultural interests. The majority of House members signed a letter  
+44:41
+against this in the last Congress, but the vast  majority of them are not on the Ag Committee.  The Ag Committee gets to  decide what's in this bill. 
+44:49
+The House Ag Committee just  hosted a hearing on this.  They only invited lobbyists for the industry. They didn't bother to invite a single  
+44:56
+opposing witness to their hearing. We're also seeing that the industry   is much better organized and funded  on this effort than advocates are. 
+45:03
+The industry is constantly flying out  a bunch of big industrial pork farmers,   claiming they speak for the entire industry,  telling the legislators this is their number  
+45:11
+one priority and absolutely has to be done. By contrast, animal welfare groups are   not getting the same hearing. Legislators are not taking them  
+45:18
+as seriously as they take these Ag lobbies. Shouldn't there be some political constituency  
+45:25
+that's formed by the pork producers who are using  more ethical standards and who are themselves  
+45:32
+being undercut by these Iowa farmers? Why aren't they getting flown out to  
+45:37
+these congressional hearings? That's exactly right. There is   a large constituency of family farmers who  support these laws because it has created a  
+45:45
+new market opportunity for them, where they  can sell their already higher welfare meat   and not be undercut by the industrial stuff. The problem they have is that they are far  
+45:56
+less wealthy and organized than  the industrial pork interests.  They don't have the money to just fly  themselves to D.C. They can't stop farming.  
+46:05
+The people who are actually doing family  farming can't just go to D.C. and hang out   for a week because they need to be farming  and looking after the pigs on their farms. 
+46:12
+But with the meat lobbyists also, given  that it's a commodity business, you would   think that there wouldn't be that much surplus  that they can dedicate to political lobbying. 
+46:21
+Everybody here is not doused in cash. We can't subsidize a couple plane tickets  
+46:28
+for these family farmers. What's going on? There are people who are funding some of  
+46:34
+these family farmers to go to Washington,  D.C., but we could see a far bigger effort.  That voice is being hugely  neglected in the debate. 
+46:40
+The other thing I'll say on the money  the pork industry has is that yes, it's a   commodity business but it's also an oligopoly. You've got a very small number of firms that  
+46:48
+process the vast majority of pigs, and  they do seem to make outsized profits.  So they don't make the kind  of profits you would expect. 
+46:55
+Across these industries, we constantly see  price-fixing scandals and other antitrust scandals   because it's a very small number of companies. It only requires minimal coordination for them  
+47:04
+to make greater profits than  you would think they could.  That might be good for animal welfare in the  sense that if they can extract greater surplus,  
+47:12
+it makes it more possible for them to  potentially invest in animal welfare.  Not that they're necessarily doing  it, but it would make it possible. 
+47:19
+It completely makes it possible. That's  right. The absurdity of this is that the egg  
+47:26
+industry has been saying, "We can't possibly  afford this transition to cage-free eggs."  They, over the last few years of high  egg prices, have made insane profits. 
+47:36
+How much? Cal-Maine,   which is the biggest egg producer, its share  price has doubled over the last few years. 
+47:42
+It's because the price elasticity  for eggs is very inelastic.  You can just keep cranking up the price on even a  very small reduction in supply, and you can then  
+47:52
+take all that surplus. They've been doing that. As  a result, you see a whole lot of these industries  
+47:57
+are actually flush with cash. But is it on the order of   hundreds of millions, billions? It depends on the company. A lot of the egg  
+48:04
+producers are actually relatively smaller. It's the Tyson Foods and things   that are on the billions. But they have the money to  
+48:10
+do these reforms. That is not the constraint. The  constraint is the willingness to do the reforms. 
+48:17
+If the majority of House members have written  this letter, apparently saying that this should   be taken out of the farm bill… They're  the people who are going to vote on this. 
+48:26
+So why is it still going to pass? The problem is this bill stopping  
+48:33
+states from regulating farm animal welfare  meaningfully could not pass on its own. 
+48:38
+If it were put on the floor of the  House and the Senate, it would lose.  This is why they're putting it in the farm bill. The farm bill is this huge piece of legislation  
+48:46
+that includes all the farm subsidies, it  includes all the food stamp assistance. 
+48:51
+This is a bill that is considered  a must-pass piece of legislation   and is decided based on issues that most  politicians consider far bigger than the  
+48:59
+issue of whether the state laws are wiped out. What the industry is banking on is that once   they've got this in the text of the bill,  people aren't going to sink the bill over  
+49:08
+this one provision, and it will sail through  even though it's a deeply unpopular policy.  I want your guide on how to corrupt the  political process in the opposite direction. 
+49:18
+What insights do you have on how to  actually have an impact on how Congress   people or state legislatures vote? The good news here is we have public  
+49:28
+opinion overwhelmingly on our side. That's good. Ease the foot in the mouth I  
+49:35
+caused by saying the word "corrupt." That's right. That's right.   We don't need to be corrupt. The industry needs to be corrupt because  
+49:41
+they are trying to get politicians to do something  that their voters strongly disapprove of. 
+49:46
+What we need to do is mobilize that  base of support and show how real it is. 
+49:52
+We need, for instance, to  mobilize animal welfare advocates.  We need to mobilize farmers who  benefit from higher welfare standards. 
+49:59
+We need to provide them with an equal footing  to the footing that the industry has provided   to the very small number of factory  farmers who have a stake in the system. 
+50:07
+That requires the same  things the industry is doing.  It requires flying people to D.C. It requires getting people to go and talk  
+50:16
+to their politicians in their local district. Yes, it also requires money, because the   industry is putting up so much money. Politicians need to see that there is  
+50:22
+also money on the other side of this issue. What would it actually take to… It's not clear  
+50:29
+what exactly you would do if you wanted  to get this message in front of them. 
+50:36
+Abstractly, you can give money  or whatever, but how does that   actually transfer to political influence? My sense of what the industry does is that they  
+50:44
+get a whole bunch of their executives  to max out on donations to politicians. 
+50:49
+The politicians then give them meetings. I wish this wasn't the way the system worked. 
+50:55
+I wish instead that politicians were actually  just responsive to what the voters want.  But given this is how the system works, I think  that what people need to do is to bind together  
+51:04
+with a couple of other friends who care about this  issue, max out on your donations to a politician,   and then meet with the politician and say,  "I really care about this and I'm watching  
+51:11
+what you do on this issue." Frankly, you don't even need   to just start donating. There are a lot of people  
+51:18
+listening to this who probably already  donate significant amounts to politicians.  If they started saying to those politicians, "By  the way, this is something I really care about,  
+51:26
+and I'm watching what you do on  this issue," I think you would   start to see the political dynamic change. You wrote in one of your recent blog posts  
+51:32
+that the meat lobby spends on the order of  $45 million in any given election cycle. 
+51:38
+They seem to be able to have influence on  the topics they care about, which would be   astounding and make all of us in tech jealous. There are probably people listening to this  
+51:48
+podcast who could spend on the order  of that kind of money on politics.  But the ability of tech to have an  impact on the kinds of issues that  
+51:54
+they care about is quite minuscule compared  to the meat industry. What's going on here?   What's the political economy of meat here? It's a real puzzle. This is an industry  
+52:05
+that accounts for less than 1% of Americans. It’s trying to defend wildly unpopular practices,  
+52:13
+and doesn't even get that much money. Yet they somehow have this total lock   on the legislative process where they can stop  any animal welfare legislation from passing. 
+52:21
+There are a couple of things going on. The first thing is, it's not just them.  They are fighting alongside the  entire agriculture industry. 
+52:28
+There are allied industries, like the insurance  industry and pharma industry, that have a big   stake in factory farming. It's not just the money.  They appeal to this mythos of the American farmer. 
+52:40
+People think the American farmer is the  good, hardworking, salt-of-the earth person.  They sell the image of this person out in the  fields, tending to their chickens and their pigs. 
+52:48
+They don't realize these are factory farmers. And they're extremely well organized,   they have a very formidable lobbying presence  in Washington D.C. and across state capitals. 
+52:58
+They have effectively used that  to block any kind of regulation.  You're telling me that tech  bros aren't as politically  
+53:03
+sympathetic as a salt-of-the-earth farmer? There's this "children's kids book" rule  
+53:09
+of politics, which is that you should never  mess with a character in a children's book.  That's the police, that's the  doctors, that's the farmers. 
+53:17
+I don't think there are any  tech bros in the kids books yet.  The front-end developers  have yet to grace the covers.  That’s right. You should  
+Business structure of the meat industry
+53:23
+describe the sort of franchise hierarchy type  structure of a lot of these meat companies. 
+53:29
+Yes, you would anticipate that the Perdues and  Tysons of the world would want a particular thing  
+53:35
+to happen in terms of political processes. But the farmers who are indebted to these   companies often have an adversarial relationship. Why are they able to form an effective  
+53:44
+political coalition with them? This is a great point. Most people   don't realize that the way these factory farms  are structured is that you have these giant  
+53:52
+corporations like Tyson Foods or Smithfield. They mostly don't own their own farms. 
+53:57
+Instead, they have these contract farmers  who are essentially indentured laborers.  They have a huge loan hanging over  their head and they're farming. 
+54:06
+Why would those people support this? The answer is they often don't.  The agribusiness lobbying associations have  done a very good job of pretending they do. 
+54:16
+They present themselves as  representing the farmers.  But if you look at their boards, if you  look at the people who are actually leading  
+54:22
+these organizations, it's made up of  people from the giant agribusinesses   and the very largest industrial farmers. They do not have small contract farmers  
+54:30
+on the boards of these organizations. It really is a bit of a bait and switch   where they claim to be representing  those family farmers, but they're not. 
+54:36
+What is the reason that these contract farmers  are willing to work with these large businesses? 
+54:42
+People will often say things like, "Uber  is bad for Uber drivers," but I trust   Uber drivers to know what's best for them. Why would these small farmers be working  
+54:49
+with these companies in the first  place if it's uneconomical for them?  It depends. For some people, it is  just the least bad option they have,  
+54:58
+especially if someone just has a little wee bit  of land and they want to preserve that land and   they don't have other skills they can use. I was chatting with this guy, Craig Watts,  
+55:08
+who was a chicken contract farmer for Perdue. He told me that when he got into the business,  
+55:14
+they made all these exorbitant claims to him. They said you're going to be making over   $100,000 within years. They said just get out  
+55:20
+this loan, and it's going to be incredible. They told him all the things that could go right.  Then he got into the business, and they  slowly started eroding the payments to him. 
+55:27
+They slowly started paying him less and less. They slowly got to a point where he was   making less and less money. He wanted out, but by that  
+55:33
+point he couldn't get out because he had  this giant loan hanging over his head.  You've got a bunch of people  who are stuck in the situation. 
+55:39
+There aren't easy alternatives because normally  in one area, there will only be one processor   that has a slaughterhouse in that area. There's no effective competition going on. 
+55:47
+Also, often you're locked in  these long-term contracts as well.  There is an element of people being locked  in this, and then there's an element of  
+55:53
+people just not having better choices. What is the alternative use of that land?  If you didn't work with some  centralized processor, is the  
+56:00
+alternative use of that land for farming? If you've inherited some land and you want   to figure out what to do with  it, what can you do with it? 
+56:07
+Ideally, we would see pasture-based  farming in those places.  It doesn't require that much land, for  instance, to have a pasture-based chicken farm. 
+56:13
+The problem is you would need to find a  processor that you could work with. Normally,  
+56:18
+that just doesn't exist. Normally you've only  got the giant players in an area and they say,  
+56:25
+"We just want commodity production. We don't want to fund you to   do this pasture-raised stuff." You get locked into that contract. 
+56:31
+Oftentimes, people who are doing  pasture-raised production have to create   their entire supply chain by themselves. They literally have to build their own  
+56:37
+slaughterhouse and create their  entire supply chain around that,   which drives up costs massively. Why is that? Because there must be  
+56:42
+enough consumers, even if it's not a majority of  consumers, that there's some economic incentive  
+56:48
+to set up the economies of scale and supply  chains that would make it easier to set up  
+56:54
+such a farm. Why doesn't that exist? There are people who are trying.  Niman Ranch, for instance, has done  this with independent pork farmers. 
+57:01
+There was a big effort to do this by  Cooks Venture with pasture-raised chicken.  Unfortunately, they just went out of business. The reason they went out of business is  
+57:09
+because there is such huge mislabeling  across the industry that it's very hard   to separate out what's actually better. For instance, much factory-farmed chicken  
+57:18
+in the US is sold with the label "all-natural." We know from surveys that people think all-natural  
+57:23
+means the chickens were outside. It actually  means nothing. But if you're trying to sell   your product as pasture-raised next to a  product that says all-natural, and people  
+57:31
+think it means the same thing and your product  costs $2 more, you're not going to get very far. 
+57:36
+So long as we have this rampant mislabeling, it's  very hard for the other players to get ahead. 
+Corporate campaigns are underrated
+57:45
+There's normal bananas and  there's organic bananas.  People are willing to pay quite  a bit more for organic bananas. 
+57:51
+I feel like "pasture-raised" should be  in a similar embedding space as organic. 
+57:56
+Organic is a huge industry even though it  has dubious medical benefits, et cetera. 
+58:03
+Then the problem is not that if  there were accurate labeling,   you'd think there might be consumer demand  to make this a viable, much larger industry. 
+58:11
+It's just that it's very hard for  consumers to identify which is which.  Yes. You actually see that  in the egg sector in the US. 
+58:18
+Within eggs, there is clearer labeling. Cage-free actually means something,   pasture-raised actually means something. You can't just put the all-natural label on. 
+58:25
+What we see is that the pasture-raised  egg sector is growing rapidly.  Even then, it is still handicapped by  the fact that supermarkets use this  
+58:33
+as a price differentiation tool. They know that wealthier consumers   prefer pasture-based eggs and are also less  price-sensitive, so they mark them up heavily. 
+58:42
+The price you see is way inflated  beyond the actual cost difference.  Yet still, that is a rapidly growing sector. This is one thing I wanted to ask you about. 
+58:50
+One point you've often made is that you have to  understand that meat and agriculture generally   is a commodity business. In a commodity business,  
+58:57
+you'd expect all margins to be competed away. I think you said in one of your blog posts that   it costs 19 cents more for a dozen eggs to  be cage-free, but often chains will charge  
+59:05
+on the order of $1.70 more for cage-free eggs. If it's a commodity business, why is it possible  
+59:12
+for supermarkets to extract this extra margin? This is the non-commodity part of the industry. 
+59:18
+The broader context on those retailers is  that almost all the top US retailers have  
+59:24
+made pledges to stop selling eggs from caged hens. A lot of them were meant to do that by this year,  
+59:31
+and a lot of them have not done it. Walmart and Kroger have not followed through.  What they say is, "Our  consumers don't want cage-free  
+59:38
+eggs because they're way more expensive." And it's true, they're way more expensive.  They're selling them for like a  dollar to two dollars more per dozen. 
+59:44
+When you look at the underlying production  costs, it's only 19 cents difference.  What we see is these retailers are using  this as an opportunity to get a big markup  
+59:52
+with less price-sensitive consumers and  are in the process massively hampering   their ability to fulfill their commitments. By contrast, Costco went 100% cage-free. 
+1:00:01
+They followed through on their promise. What we see is they are now selling cage-free   eggs for the same price as Walmart sells its  caged eggs. There is that competitive pressure.  
+1:00:10
+Once cage-free becomes the new baseline,  it does become the commodity market and you   do see those margins competed away. It’s the same thing in states where  
+1:00:17
+they've banned the sale of caged eggs. Cage-free eggs now cost the same thing   as the caged eggs cost next door. You do see that competed away once  
+1:00:24
+it becomes a commodity. It's until it reaches that   point that you're seeing these crazy margins. Interesting. If these companies are already  
+1:00:32
+making these commitments, in many cases following  through on them, to move towards more ethical  
+1:00:38
+ways of procuring meat, procuring eggs, etc…. I think I learned from you that McDonald's has  
+1:00:45
+made these commitments or that Chipotle has made  these commitments. I didn't learn from McDonald's.  
+1:00:51
+What is the reason that this is not a more  prominent part of their own advertising,  
+1:00:56
+given how much consumers care and how  universally popular animal welfare is? 
+1:01:02
+The very best companies are advertising  this, like Vital Farms or NestFresh eggs. 
+1:01:07
+They are out front focusing on the  animal welfare benefits because   they're pasture-raised and it looks amazing. The fundamental problem for the large-scale  
+1:01:14
+companies is they have just made things less bad. It's still really good what they're doing. 
+1:01:20
+Moving from caged to cage-free is incredible. But  there are two problems. One is, their consumers  
+1:01:27
+already thought they weren't using caged eggs. So if they advertise, "Hey, we're cage-free   now," everyone's like, "What? What were you doing all this time? 
+1:01:32
+You didn't tell us you were using caged eggs." And people still might think that even the new  
+1:01:38
+reality is not as good as what  they thought things should be.  They still would rather the animals  were going outside, which they're not. 
+1:01:43
+And in a lot of cases, there  are these phase-ins over time.  So McDonald's is like, "In 10 years' time,  we're going to get rid of the caged eggs." 
+1:01:50
+You don't want to advertise that too loudly  because then people are going to be for the   next 10 years, "I'm eating caged eggs,  and I didn't know that previously." 
+1:01:56
+That is just the unfortunate dynamic. Because this dissonance is so great   between current practices and reality, that  merely getting rid of the worst practices is  
+1:02:04
+not enough to create an advertising claim. Given how fast you're able to secure these   commitments from different corporations,  from retailers to restaurants, etc. 
+1:02:15
+It seems like corporate campaigns are even  more successful than policy. Corporations are  
+1:02:21
+much more receptive. Obviously Perdue  and Tyson are corporations as well. 
+1:02:27
+But the rest of the actual industry of getting  food to consumers just seems incredibly receptive  
+1:02:35
+to these kinds of pressure campaigns. Maybe that's a lever of change that's   especially salient. It's been phenomenally  
+1:02:42
+successful with these consumer facing brands,  like the retailers, the fast food chains.  Advocates have been able to secure over 3,000  corporate animal welfare pledges now globally,  
+1:02:51
+including from all the biggest retailers,  all the biggest fast food chains, affecting   hundreds of millions of animals. The reason for that is twofold. 
+1:02:59
+The first is, there's a totally  different structure from the   structure in place on the legislative side. On the legislative side, if you want to pass an  
+1:03:06
+animal welfare reform in Congress or in any state  legislature, it goes to the Agriculture Committee.  The Agriculture Committee is dominated  by a bunch of people who are in the  
+1:03:14
+pocket of big Ag, and they kill the bill. It never even gets out of that committee,   let alone getting to the whole legislature. If you go to a company, you go to someone who  
+1:03:22
+is a decision maker who is not being lobbied by  industry, or if they are being lobbied, is far   less susceptible to that lobbying than they are. I also think companies have just proven  
+1:03:32
+more responsive to consumers than  politicians are to their voters.  I think politicians have decided that they  need to be responsive on the 10 issues their  
+1:03:41
+voters care most about. Maybe it's fewer than  that. But on low salience issues like this,   they can just ignore what their voters  want and do what their donors are telling  
+1:03:49
+them what to do or what's easier to do. Whereas I think what corporations are   finding is, actually, if consumers are really  outraged about this, then we need to act. 
+1:03:56
+Maybe this is higher on the list of salience  for consumers at a retailer, because they're   not worried about what their taxation policy is. For a retailer, actually, what is the quality  
+1:04:06
+of the goods you are selling? That is a pretty critical factor.  We know from surveys that when  it comes to sustainability,  
+1:04:15
+animal welfare is the top thing people care about. So for all this talk we see from companies about   climate change and prioritizing climate change,  both the McDonald's and the Tysons and so on,  
+1:04:25
+they've all said this is the thing  that consumers actually care about.  Then what is the reason that the animal welfare  movement has gotten so wrapped up with that? 
+1:04:33
+You go to most landing pages for animal  welfare stuff and it'll be, "We're improving  
+1:04:40
+animal lives and we're making farming  more sustainable. We're addressing climate   change." That just seems really strange to me. Okay, we're torturing tens of billions of animals  
+1:04:48
+a year, but then also we're reducing emissions. We'll figure out some other way to reduce   emissions, right? Whatever. How did this  become the same issue in the first place? 
+1:04:57
+There's been this weird conflating. There's  even been this very cynical exploitation   of the climate issue by producers  to not do animal welfare reforms. 
+1:05:06
+So something that Tyson Foods will say is,  "We can't move to these higher welfare breeds   because they would have a slightly bigger carbon  footprint, because they eat a little bit more. 
+1:05:15
+Also, if you let the animals move around a lot,  they expend more calories and that's got a bigger   carbon footprint." It's this total absurdity. I  had a conversation with the SVP for sustainability  
+1:05:25
+at one of the largest meat companies. What they told me was, "Yes, we know   from internal surveys that animal welfare  is actually more important to consumers. 
+1:05:34
+But we are far more responsive to what the fast  food companies and the investors are telling us. 
+1:05:40
+And the fast food companies and the  investors are obsessed with climate."  The ESG stuff? The ESG stuff. I think they've all  
+1:05:46
+made these targets that they need to implement. Those targets are getting much higher priority   than the targets they made on animal welfare. But then why do animal charities… It's not just  
+1:05:57
+a cynical attempt by the meat industry. If you go to animal charity websites,   they'll often also emphasize  sustainability on their landing page. 
+1:06:06
+I understand other people's  psychologies are different, so   I don't want to project the way I think about it. At least whenever I see that, I'm like, "Oh wait,  
+1:06:15
+are you actually optimizing for the thing  that makes this a really salient issue for me?  Or are you just going to optimize for carbon  footprint rather than this incredible amount of  
+1:06:26
+suffering that this industry produces?" So why are they doing this?  Why have your friends roped  sustainability into this area? 
+1:06:35
+I think a lot of people care  about multiple things, right?  They care about animal welfare and  they care about sustainability. 
+1:06:41
+It is true that in certain cases,  these things go hand in hand.  Alternative proteins are both better  for animal welfare and have a smaller  
+1:06:48
+environmental footprint. They are more  sustainable. This is not always the case.  One thing that is wild to me is where  you have people out there telling  
+1:06:56
+people to switch from beef to chicken  because it's better for the climate.  Literally that switch is 23 more animals per  year you'll be consuming, costing several  
+1:07:07
+years worth of suffering in these factory  farms, for a pretty marginal climate impact.  I do think there is often this tendency  that climate just gets total precedence. 
+1:07:16
+It's just seen as obviously more important  than any number of animals suffering.  I actually think that that is more of an elite  narrative than it is what regular people think. 
+1:07:24
+I actually think regular people  are just pretty horrified by   animal suffering and do prioritize that. Lewis, thank you so much for coming on the  
+1:07:31
+podcast and thank you for the work you do. You are allocating the largest amount of  
+1:07:36
+philanthropic funding in this space. You're a cheery fellow but I'm sure,   day in and day out, this is not pleasant work  to do, to learn about these gruesome details  
+1:07:47
+and how we can make the situation better. But it's awesome that you're doing it. 
+1:07:52
+Thank you for coming on,  and thank you for your work.  Thank you very much. And thank you  for both being willing to take on   this tough topic on your podcast and for  making such a generous donation match. 
+1:08:01
+I'm really excited about the  impact you can have there.  Cool. Awesome.

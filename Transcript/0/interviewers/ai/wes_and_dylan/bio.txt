@@ -1,0 +1,14 @@
+The AI Pod by Wes Roth and Dylan Curious, co-hosted by AI influencer Wes Roth and entrepreneur Dylan Curious. It is a long-form interview podcast that delves into the cutting-edge developments of AI and other disruptive technologies. 
+Podcast format and content
+- Interviews with top experts: Roth and Curious interview leading experts, researchers, and developers in AI, robotics, and biotech. Their goal is to provide insightful and deep discussions beyond the surface-level hype often found in the AI space.
+- Deep and accessible analysis: The hosts aim to occupy a "Goldilocks Zone" for their audience. This means the discussions are intelligent and in-depth enough for informed listeners, yet accessible and understandable for those without an expert background.
+- Diverse subject matter: The podcast covers a wide range of forward-looking topics, including:
+- The race toward Artificial General Intelligence (AGI)
+- Robotics and automation
+- The impact of AI on the economy and future of work
+- AI ethics, safety, and regulation
+- The competitive landscape between major tech companies like OpenAI, Google, and Meta
+- Engaging and unfiltered discussions: The hosts often engage in unfiltered, big-picture conversations, exploring both the promises and perils of new technology without sticking to a rigid script. 
+Hosts' approach
+- Wes Roth: As a tech advisor and AI influencer, Roth provides an entrepreneurial perspective, often focusing on the practical application of new technologies and the underlying research.
+- Dylan Curious: An AI educator with a background in startups and organizational science, Curious brings a human-centric, philosophical, and accessible angle to the conversations. He ensures the complex topics are digestible for a broad audience. 

@@ -1,0 +1,833 @@
+https://www.youtube.com/watch?v=sX8NpVvP5_8
+AI Tools That Are Actually Changing 3D & VFX
+31,303 views  Feb 21, 2025  #vfx #3d #artificialintelligence
+Want to know which AI tools are actually transforming 3D and VFX? In this deep dive, I cover everything from 3D gaussian splatting to AI segmentation, multimodal LLMs, and next-gen VFX workflows — focusing on tools you can use TODAY. 
+
+This is my FMX talk, packed with insights on AI-driven 3D, VFX, and creative workflows. Subscribe for more in-depth AI & creative tech breakdowns! 👉 @bilawalsidhu 
+
+Join My Newsletter: https://spatialintelligence.ai
+Connect with me on X/Twitter here: https://x.com/bilawalsidhu
+Everywhere else here: https://bilawal.ai
+Business inquiries: team@metaversity.us 
+
+00:00 Introduction
+00:34 AI has entered the chat...
+01:37 Making VFX: The Old Way vs. The AI-Powered Way  
+02:43 Spatial Intelligence: AI 3D Tools You Need to Know  
+18:53 Visual Intelligence: The AI Revolution in VFX  
+28:43 Generative AI & The Future of Creative Production
+38:47 Conclusion & What's Next 
+
+Bio: 
+Bilawal Sidhu is a creator, engineer, and product builder obsessed with blending reality and imagination using art and science. Bilawal is the technology curator for TED Talks, and a venture scout for Andreessen Horowitz. With more than a decade of experience in the tech industry, he spent six years as a product manager at Google, where he worked on spatial computing and 3D maps. His work has been featured in major publications including Bloomberg, Forbes, BBC, CNBC, and Fortune, among others. Bilawal’s journey into computer graphics began at 11, when he fell in love with seamlessly blending 3D into real life footage. Since then, he's captivated over 1.5M subscribers, garnering more than 500M+ views across his platforms. Driven by a mission to empower the next generation of artists and entrepreneurs, Bilawal openly shares AI-assisted workflows and industry insights on social media. When he’s not working, you can find Bilawal expanding his collection of electric guitars.
+
+TED: https://www.ted.com/speakers/bilawal_...
+Google: https://io.google/2022/speakers/bilaw...
+
+#aitools #artificialintelligence #3d #vfx
+
+---
+
+Introduction
+0:00
+today I'll talk to you about visual AI spatial Ai and a little bit about generative AI The Primitives already at
+0:06
+your disposal that are commercial ready and can be integrated into professional creative pipelines let's get into it
+0:12
+when I was 11 I saw this TV show called Mega Movie Magic and it was just blown away that the same computer I was using
+0:18
+to make dorky cartoony animations could create visuals that were indistinguishable from reality then I
+0:23
+spent a decade in Tech worked on everything from building VR camera systems to YouTube VR content to
+0:29
+literally turning the world into an AR canvas for developers and advancing the next generation of Google Maps so AI
+AI has entered the chat...
+0:35
+while all of this may seem super groundbreaking before I get into all the other stuff I just want to ground it in something that like to says this has
+0:42
+never happened before yet has happened time and time again and so I would say spatial representations which we're
+0:48
+going to talk about are perhaps one example you know whether it was like 1800's paper prototypes or Disney's you
+0:54
+know multiplane cameras or Google's multiplane images you kind of see the essence of the same IDE idea repeat
+1:01
+itself again and again I think the evolution of Animation mirrors this pattern too we had manual rotoscoping
+1:07
+back in the day and now we have ai assisted video toide rotoscoping and hopefully I can bring up quarter digital
+1:13
+in a room full of VFX folks without people uh throwing Tomatoes at me because I've realized it is quite
+1:19
+polarizing but the trend is towards Automation and ease of use what once required super complex workflows let's
+1:25
+say in After Effects is just a couple Clicks in tools like pabs and so there's this democratization of esoteric visual
+1:32
+creation making it accessible to everyone one quick example uh the old way like I make short form content on uh
+Making VFX: The Old Way vs. The AI-Powered Way
+1:39
+YouTube and Tik Tok the old way for me to making things would be this sort of Serial waterfall process that would take
+1:46
+me about a week to do if I use some of the generative AI tools including After Effects and Premiere a little bit for
+1:51
+Polish I can do what took me a week and do it in a day and now you might ask
+1:56
+like oh we got all this extra time are we just going to all pull like a tin th 4our work week and relax on the beach no
+2:02
+we're not of course we're going to put more value on the screen take on more ambitious projects so you know I created
+2:09
+this video in January uh using the workflow I just described it got 37 million views for some reason and there
+2:15
+was a moments in the Zeitgeist where it made sense to make this video around like the Miami Mall incident look that
+2:21
+up later it's freaking hilarious uh if it would have taken me a week to make this I just wouldn't have made this video and so I think we're going to
+2:27
+start deploying visual Creation in spes places situations we would not have otherwised or or to summarize like
+2:34
+Indies can rival the outputs of Studios but Studios will set whole new standards Al together because everyone gets these
+2:42
+superpowers so you might say oh blah that's a cute Tik Tok video like what about AI Primitives that we can get into
+Spatial Intelligence: AI 3D Tools You Need to Know
+2:48
+higher-end workflow so let's talk about that uh so in the me of the presentation I want to start off with spatial
+2:55
+intelligence now you probably heard about photogrammetry it is the Art and Science
+3:00
+of measuring stuff in the real world using images and other sensors uh spatial intelligence is also defined in
+3:07
+the literature as sort of the ability to understand and interpret the spatial data whether it's Maps 3D models Etc you
+3:14
+know essentially we're teaching machines to understand the 3D world that we live in every single day and so as I
+3:21
+mentioned photogrametry is a new in fact that predates computers but what took data centers and sort of large teams of
+3:27
+computer vision experts uh you know like it suddenly became commodity by by the 2010s volumetric rendering and volume
+3:35
+you know like light field rendering isn't new either but what is new is that reality capture has gotten a huge Boost
+3:41
+from machine learning essentially these learned representations that can start modeling the complexity of reality not
+3:47
+just for measuring stuff which was the initial goal of photogrametry hey let's do like surface reconstruction so I can
+3:53
+measure the like rooftop of this building or the size of this curb cut Etc but to recreate the it and
+4:00
+complexity of the real world so enter neural radi Fields you know what you're seeing is in AI literally taking like
+4:06
+100 2D photos for like off an iPhone and almost like spitballing Ray tracing to
+4:12
+create this 3D representation that you can step inside which is really really cool because the initial Nerf paper
+4:19
+dropped in 202 and just in the last couple years we've just seen insane progress which we'll talk about shortly
+4:26
+but like I said again this didn't happen overnights you know people just started paying more attention to it like there
+4:32
+were other learn approaches for example I alluded to multiplan images early on or npis that paved the way for sort of
+4:39
+these uh learned approaches to solving this pseudo light field like problem uh so with Nerfs like you know
+4:45
+basically what is the Nerf like I'll give you a very brief description I also have a beautiful YouTube video on it if you're interested in that like basically
+4:52
+imagine a voxal grid where every voxel has like an RGB and Alpha value that
+4:58
+changes based on the viewing Direction and so the novel part of Nerfs is really like you're learning these like spatio
+5:05
+directional RGB and like density values and kind of modeling the you know complexity of reality and the weights of
+5:11
+this you know MLP this multi-layer perceptron um all this sounds super
+5:16
+fancy but basically you have a neural network where you can query like every single voxel and do basic volume rendering to get photo realistic
+5:23
+Renditions of the world like you're seeing over here and uh you know while it's not technically accurate it is is I
+5:30
+think helpful to think about Nerfs as a neural version of Life Field photography so all the stuff photogrametry like had
+5:36
+a hard time with Reflections refractions transparency translucency you know thin
+5:42
+complex structures are all fair game you know as I mentioned to Crazy progress Nerfs like took like you're rendering at
+5:49
+one frame per second on like you know crazy GPU with like 24 gigs of vram enter gazi and splatting and now you can
+5:56
+do it at 100 frames per second which is amazing and the big trade-off there as you notice is I'm saying an implicit
+6:02
+representation versus an explicit one 3D gausian splatting is also an example sort of what Alena mention is like
+6:09
+sometimes you don't need machine learning you can just use statistical techniques and that's exactly what 3D
+6:14
+gausian splatting does like the paper uses terms like training but there isn't really a neural network involved at all
+6:20
+um so instead of this implicit representation with 3D gausian splatting you get this explicit representation
+6:26
+that is super easy to render it's a bunch to these ellipsoidal Splats called gausian and basically think of it like
+6:34
+Nerfs without the neural rendering bit so this is crazy right like suddenly what was like one frame per second just
+6:39
+like two years ago like if you look at the bottom left there I'm getting like 400 frames per second on some of these
+6:45
+captures on the right I've got in an Unreal Engine and so like suddenly reality capture is a lot more practical
+6:51
+why model something from scratch when it exists in the real world and you can do interesting things with
+6:57
+it and those view dependent effects I alluded to right like um you know transparency transluc translucency you
+7:03
+can kind of see them in in action over here as I like go behind this like backyard scan that I did uh where you
+7:09
+can see some of those light transport effects uh in action and so um you know
+7:14
+3D gaui and splatting models view dependency using this old physics concept called uh spherical harmonics
+7:21
+and so if you want to you know I don't know do compression or whatever you can prune those out and reduce your file
+7:26
+sizes even more uh so there's a bunch of ways you can play with this stuff they're cloud-based solutions that are
+7:31
+commercial friendly Luma Ai and polycam but you also have a bunch of local Solutions so you can train in train on
+7:38
+your machine on premise post shot is one that's recently hit the scene that's what I'm visualizing uh over here uh
+7:44
+super friendly guy it almost reminds me of the UI for like agisoft meta shape or like reality capture if you've used one
+7:50
+of those tools um Nerf studio is amazing where some of the models are commercial friendly some of them are not uh but has
+7:57
+like both a command line interface and a goey if you want to just like duct tape your own pipeline together and finally
+8:03
+if you've never made a Splat one thing I would encourage you to download if you have an iPhone is just go download scane
+8:09
+on your phone I talked about this trajectory from like freaking you know like like 2021 I had to like go get a
+8:15
+bunch of tpus in the cloud to train this stuff to you know 2022 Nvidia dropped instant NGP and I could do it on one
+8:21
+machine then Luma AI hit the scene where I was still using gpus in the cloud now you've got scane that's taking advantage
+8:28
+of like the B apple chips on the on the iPhone and you can train entirely locally in fact it'll start splatting in
+8:35
+real time as your capturing it so you get this realtime uh feedback loop and the data doesn't leave your device which
+8:41
+is kind of wild to think about um there are other other things interesting things you can do on device
+8:47
+as well is like you know there's modeling the complexity of reality but other times you also need a useful
+8:52
+abstraction of reality uh in other words creating this sort of like simplified
+8:58
+semantically meaningful three 3D model of a room that represents like the walls like the room itself like Windows
+9:04
+Furniture basically a 3D floor map and this uses Apple's room capture API which
+9:09
+is also commercial ready you could build it into your own apps and so if you're using it for surveying you need to
+9:14
+quickly capture something on set you could use the simplified geometry to place objects later but you could also
+9:20
+use it for like projection mapping you know light occlusions and other things like that a good starting
+9:26
+point um the other cool thing about you know kind of these explicit representations of 3D gazi and Splats is
+9:33
+like manipulating them right like if you're dealing with this black box implicit neural network like it's super
+9:39
+hard to edit it in traditional tools that you might be accustomed to uh 3dgs
+9:44
+like most of these you know kind of uh like softwares will output a py file a Stanford py file super easy to bring
+9:51
+into whatever else you're using there are plugins for uh you know obviously unity and unreal they're editing tools
+9:57
+super Splat and spline and actually you've got plugins for after effects as well post shot and I real X just dropped
+10:04
+this past week that lets you bring Splats directly into after effects as well and gosh I mean if you've got a you
+10:10
+know go talk to your TD I think it'd be like a week of work to do a 3dgs implementation or whatever the hell else
+10:16
+you're doing it's actually you know that trivial but again with this explicit representation you can edit it far more
+10:23
+easily and if you have any like Point Cloud shaders out there you could very easily adapt those to start working uh
+10:29
+with with these type of things so what are folks doing with it well static Radiance fields are already being used in music videos and commercials and so
+10:36
+two music videos you see on the left over here on the top you've got RL Grimes on the bottom you've got a Zan
+10:41
+Malik video and these videos are like almost doing like kind of bullet timey effects or they're leaning into almost
+10:48
+like the interesting like uh artifacts that you get from these Radiance fields in other words like Radiance feels
+10:54
+degrade far more gracefully than like like a a photogrametry mesh and you can do interesting things especially if
+11:00
+you're going for like a dream like aesthetic on the right a beautiful example by Cody Kur for the NBA they
+11:06
+made like this super janky GoPro like 34 GoPro capture rig and just did some very very cool things with
+11:13
+it um of course y all are professionals I do want to bring up like dedicated capture systems that also produce
+11:19
+Radiance feel so lar surveying is very common in professional settings and honestly lar slam which is like sort of
+11:26
+the way AR tracking works on your phone like simultaneous local ization and mapping like building a map of your room
+11:32
+figuring out where you're within it and constantly refining that map um lar slam
+11:37
+has gone a long way since cartographer slam if you if you're aware of that since the 2010s and so um with tools
+11:44
+like the liol L2 which is by this company called x grids if you want to look them up uh basically give you both
+11:49
+you'll get that liar colored Point Cloud which you will also get a 3D gaussian Splat uh which is kind of cool because
+11:56
+like I want to show you this capture this was done in 15 minutes like this whole capture like so if you're like I
+12:02
+don't know you're the VFX super whatever like you know dit brought on set to very quickly do a capture it's like oh yeah
+12:08
+you have like five minutes to do this scan like best of luck with your photo like you know kind of RGB camera rig to
+12:14
+you know get a good result you can take a capture system like this this one uses a more sophisticated light R sensor that
+12:20
+does millions of points per second and then has an insta 360 camera with a 1-in sensor for RGB attached to it so you
+12:28
+kind of get the best to both worlds and it's kind it's pretty amazing how quickly this is being adopted like all
+12:34
+the people that were hesitant to get into Radiance Fields CU like ah I don't want to deal with neural networks are
+12:39
+now adopting Radiance field and it's very very exciting and perhaps something worth evaluating you know uh we also have to
+12:46
+talk about like volumetric capture rigs right like uh we got Mike Seymour in the audience here Paul Debevic's probably
+12:52
+floating around somewhere like dedicated capture systems and light stages have been around for a while and and sort of
+12:58
+in the consumer world the race is on for you know these tech companies to essentially own your 3D avatar like the
+13:05
+embodied representation of you in a variety of different constructs I'm not going to use the metaverse word but you
+13:10
+know meta's got like codec avatars uh Apple's got their Persona avatars and of course Google's working on Starline uh
+13:18
+but with that what we're also sort of seeing is a Resurgence in other types of capture um you know if you remember like
+13:25
+four or five years ago there was an explosion in interest in like Intel set up a capture volume Microsoft set it up
+13:30
+they licensed it to some places like some of those shutter down but it was all videogrammetry right like the video
+13:36
+version of photogrammetry and like as cool as it was for the time even if you bake in your normal Maps or whatever
+13:42
+like it still looks like freaking GTA and it kind of sucks like it's unless you really like lean into sort of like
+13:47
+the S going for some like cyberpunk aesthetic it kind of look like crap in my opinion but Radiance Fields again are
+13:54
+breathing new life into these Dynamic spatial capture systems and this is where the research is still very early
+14:00
+like I I would say like static Radiance fields are very mature there's some promising early research on like d
+14:06
+Dynamic 3D or 4D gossans and you know key point being there's like tremendous
+14:11
+opportunity for optimization and so like if you ever dealt with these video gretry systems like like the atlasing
+14:18
+the unwrapped UV unwrapped atlases would just shift so much from frame to frame it was like almost impossible to do any
+14:25
+post capture stuff in it like all of those problems are being refined now in this in this uh you know kind of
+14:30
+Radiance fi world because a bunch of other techniques for like frame to- frame and object tracking have just
+14:36
+Advanced a bunch Al so infinite realities does this look them up they're based in London if that's of interest to
+14:41
+you um so another thing I want to talk about is like when people think of spatial intelligence like if you I'll
+14:47
+pause here where's my cursor there we go um you know if you built a 3D model of
+14:52
+the world you can do interesting things with it as well so you know we talked about this like human readable model
+14:57
+which you see on the left like the Sol a realistic 3D World we talked about sort of abstracted representation sort of the
+15:03
+room plant where I don't want all that data like there's a geoinformatics like freaking office next door there's like
+15:09
+in the gis world this format called City gml like which is used for a lot of like you know kind of like land allocation
+15:15
+City Planning things like that but there's also this machine readable model right so if you start building these
+15:21
+maps of the world you can do very interesting things with it such as querying reality so you know you
+15:28
+probably use GPS every single day there's another technique that's out there right now that's called VPS visual
+15:34
+positioning system right and so the idea here being you take that machine readable model you take a photo of the
+15:39
+world and what's happening under the hood is ml is used to extract features that are consistent over time so this
+15:45
+works across like weather condition time of day all that stuff and match it up against that 3D model sort of the
+15:51
+representation you see on the bottom right and here you can see like the re relocalization accuracy is like really
+15:58
+good it's like submeter positional and like a couple degrees of rotational accuracy and so like this is used
+16:04
+heavily now like for again micromobility companies are using it like the AR industry is obviously using it like it's
+16:10
+inside of Google Maps but like the entertainment industry is not really using it for surveying they give you one
+16:15
+example of a company that is well the wild thing about it is it's like available in a 100 plus countries 100
+16:21
+plus countries basically everywhere with street view has been mapped with this level of detail and it's
+16:26
+free um and so like what can you do with that you know like there's also another
+16:32
+beautiful thing out there that's called Google 3D tiles right basically all of Google Earth data uh you know and I had
+16:38
+a chance to work on this with Patrick cozy and the cium team that spoke uh earlier this week available this open
+16:44
+format called ogc 3D ties so you can bring it it to Unreal Houdini whatever you want and so if you take something
+16:50
+like VPS and start combining it with 3D tiles you can make an amazing surveying app so whether you're sitting remotely
+16:56
+and you're like oh that's a location we want to put the camera there we want to capture plates over here let's go do
+17:01
+this that and the other thing these 3D annotations will show up perfectly when you're there in the real world or
+17:07
+conversely when you're in the uh let me just replay this video again if you're in the real world and you place
+17:13
+annotations you can go back and see that global view and have everything available for you in in places uh you
+17:19
+know so what does that mean you could start querying like 3D tiles for cor scin geometry terrain data lighting
+17:25
+information other attributes that are sort of location specific which is super exciting and so you know of course
+17:33
+another thing you can do with this type of you know localization or snapping is you could take your like you know scan ofe scan or your DSLR scan and snap it
+17:40
+against that model sort of like cm's illustrating here so you've got your high res like .5 CM you know 0.25 CM
+17:48
+like high quality Nerf or Radiance field and then you've got like you know like the 3D tiles for context so you don't
+17:53
+have to go capture everything in the city the rest has been done for you and so one cool tool that's doing this is
+18:00
+actually called Cyclops they're they both integrate the geospatial API as well as 3D tiles so if you want to take
+18:06
+a photo of this some of you are already it's like really really cool like you can frame your shot like oh what is it
+18:11
+going to look like when we're right there by Big Ben where where do we want to place our angles like where's the Sun going to be are we going to be in the
+18:17
+shadow where's you know all that type of stuff you can do and what's cool is then you can start recording these as like
+18:23
+fbx files or USD files and then bring them into your existing workflows and again verely if you're there in person
+18:30
+you can like literally turn on the 3D tiles and see it lined up with like submeter accuracy with what the camera
+18:37
+viewfinder is saying so you could do a bunch of interesting things with it I'm sure there are other problems like production problems that you could solve
+18:43
+with this stuff but The Primitives are out there free and waiting to use the 3D tiles uh is paid uh uh but it's it's
+18:50
+fairly cheap I would say all right let's switch gears to visual intelligence all
+Visual Intelligence: The AI Revolution in VFX
+18:56
+right so visual intelligence I'm going to Define as like BAS basically teaching machines to perceive and understand the
+19:01
+world and the contents within it right so basically understanding and being able to act on imagery you can kind of
+19:07
+view both of the buckets like sort of like the spatial visual stuff as like it's classically called computer vision
+19:12
+which is a subset of artificial intelligence uh but these tasks such as estimating human posts uh depth
+19:18
+estimation like coming up with physically based rendering shaders you know semantic or panoptic segmentation
+19:24
+things like that and so what's funny to me is like especially having spent some time in big Tech it's like a bunch of
+19:31
+folks from the VFX industry were slurped up to like basically deploy all of these stuff like as on device models for like
+19:38
+freaking Snapchat filters and now we have sort of like oh cool a hot dog can dance and you can become a hot dog but
+19:44
+now the reverse is happening where these models are being optimized for professional use as well and so like one
+19:49
+example is obviously Wonder Dynamics and so they're bringing monocular pose estimation and you know the funny thing
+19:55
+is a lot of the training data which Elena alluded to earlier uh was really optimized for like monocular captures
+20:01
+off your cell phone because that's how this stuff was used Wonder Dynamics is training their models off of Cinema
+20:07
+cameras with a variety of different lens configurations narrow wideangle lenses so you'll get a much better registration
+20:13
+of like an estimation of your pose and better Precision on recall versus if you use something like offthe shelf for you
+20:20
+know full body pose estimation um so that's monocular move AI is another interesting company that's doing multi
+20:25
+view pose estimation so you've got multiple views of the simultaneously and it can be anything from like a freaking
+20:31
+bunch of iPhones that you put on like you know a couple of like monopods or tripods uh to GoPros to if you really
+20:38
+want to go like you know uh you know professional uh Fleer like Global shutter cameras with like frame or line
+20:44
+level synchronization and then with one like a6000 GPU you can get real-time results that are really really
+20:51
+interesting and amazing and so then you get this moap data and then using tools like casador you can use more
+20:57
+interesting like physics and based approaches to sort of modify that data uh for more uh you know and tweak it
+21:03
+rather than dealing with uh noisy key frames and so forth um next I'd like to start talking
+21:09
+about sort of reskinning and sort of relighting and sort of segmentation all the cool stuff you can do um on the left
+21:15
+obviously as you can see I'm using just AI to relight myself to fill in a fit in a virtual environment and on the right
+21:21
+I'm using depth estimation to kind of take this like blocked out like play blast render from Maya and just trying
+21:27
+different styles on it with generative Ai and so a cool company I want to point out in the state in the space is called
+21:32
+bble it's a South Korea based company that has a close partnership with the the AI lab in NYU and basically what
+21:39
+they do is given just like monocular video of like whatever like uh subject matter you give it they'll basically
+21:46
+Delight it and give you like a PBR Shader so they'll give you your Elbo specular like normal roughness all that
+21:53
+good stuff and you know it can still have this sort of like cadav like quality to it I'm sure like you know may
+22:00
+not pass the the litmus test for a lot lot of y'all uh and if you want to go the next step they offer a neural
+22:06
+rendering solution where they try to emulate those light transport effects um what's cool about their research though
+22:12
+is like they figured out a way to scale outside of light stage data sets and so like even if you use something like
+22:17
+portrait relighting on your pixel phone like a diverse set of subject matter like went into the light stage that Paul
+22:23
+set up like in P Vista and like bunch of captures were done but like how do you go even beyond that for all types of
+22:29
+subject matter they found a clever solution and that paper is online as well and so this can run locally or in
+22:34
+the cloud and they do offer API access now speaking of API access if you
+22:40
+want to give that relighting a try again with your iPhone like I like to say it's cool to go and like explore these things
+22:45
+later but just like literally on your iPhone if you go download sky glass uh you can try a bunch of these Primitives
+22:51
+uh you can do segmentation you'll have a cloud streamed Unreal Engine environment streamed into which it's kind of wild to
+22:57
+think about and then when you uh hit off your render job it'll use the beeple API
+23:02
+and relight it for you and give you a bunch of different passes uh that you can play with as well which is which is
+23:08
+really really cool so it's kind of wild like Pro prosumers are getting these these tools so quickly which like as a
+23:14
+kid I could have only dreamt of all right all right jumping on to like the state-of-the-art and dense
+23:20
+pixel segmentation atena talked about the segment anything model which is very interesting because like she talked
+23:25
+about like a billion images like it basically generalizes to anything like you don't have to have like specific
+23:31
+label data for like a bunch of semantic classes and that itself started a bunch of like interesting research that was
+23:37
+built on it because Again Sam is commercial friendly if I'll check segment anything is rele under released
+23:43
+under Apache 2.0 and then what I'm going to talk about Here track anything is under an equally permissive MIT license
+23:51
+and so track anything is a video object tracking and segmentation tool based on meta Sam and in my opinion it's better
+23:58
+than like rotor brush certainly anything else that's out there and like the robustness of the tracking is amazing
+24:03
+and so like if y'all sat down with your own like you know like pipeline experts and made something that like vectorizes
+24:10
+this output where you could still get that like fine grain control it's going to be better than anything else out
+24:15
+there and I believe this example yeah uses uh e2f gvi researchers have a knack
+24:21
+for not naming things super intuitively for in painting uh as well and in my
+24:26
+opinion it looks better than content aware fils certainly in After Effects so these are Primitives out there that you can build with in the startup space like
+24:33
+xvx folks there are other interesting companies like Electric Sheep is trying to train their own models they got a
+24:40
+bunch of poc's with a bunch of EFX Studios uh to sort of try and rival you know nuke and D Vinci resolve and
+24:46
+certainly run blows Runway out of the water um it's interesting to see that you know of course segment anything is
+24:52
+not on this comparison list um and uh if you do want to play with segment anything by the way in After Effects
+24:57
+there's a PL called mask prompter that you can go play with it's a little unstable but might be a cool way to just
+25:04
+like uh dabble with this stuff if you don't know your way around like a a python command command
+25:11
+line uh keeping in this like line of like foundational models another really crazy paper that came out uh funnily
+25:17
+enough from bite dance is called depth anything uh this is also under Apache 2.0 so you can build commercial stuff
+25:24
+off of it and basically this trend of using unlabeled large scale data in this case like the freaking Treasure Trove
+25:31
+that is like the Tik Tok catalog has been used and sort of overnight we got this like foundational model that
+25:36
+generalizes to all sorts of scenes for monocular depth estimation and uh you know similar to the trend as I mentioned
+25:42
+earlier like you know this didn't happen overnights like if you go back and look at some of the models trained off of
+25:48
+like remember the mannequin challenge on YouTube that was a very interesting data set to extract uh static objects get
+25:55
+depth from various uh directions and then train models off of it um but waiting for you to use and right
+26:00
+now the way it is being used is like Vision Pros like super hot lately uh there's a tool called spatial media
+26:05
+toolkit which just like literally does all the processing again locally uh to do 2D to 3D conversion if you throw your
+26:12
+brains at it imagine what you could do to automate the uh 2D to 3D conversion workflows and a bunch of other stuff
+26:19
+that you could do uh where you need depth estimation um an interesting tool that
+26:25
+isn't quite out there but like I've included it because they uh at least the CEO told me that they've got their it's
+26:30
+in Early Access starting next week is uh simulan um which really brings the best
+26:36
+of a bunch of these Primitives that we're talking about like you know capabilities like image B based lighting
+26:41
+estimation off of like a very narrow Fe field of view like monocular like uh low
+26:46
+dynamic range image has been out there like you know debevic at all the Deep light which is obviously an AR core
+26:52
+there's a similar model that's in AR kit those are the sdks for uh Android and iOS respectfully
+27:01
+respectively um the interesting here is like just doing it for higher production value use cases so you go capture you
+27:07
+know your space very quickly and you've got this ldr Panorama and then you turn that into this HDR Pano um and then also
+27:15
+since like we talked about sort of Slam tracking um since this application is using not just Vision so you know you're
+27:22
+probably used to having high shutter speed trying to use Global shutter cameras to get a good 3D solve if you are using the IMU you can get some
+27:29
+amazing Rock Solid tracks like this and they're working on a way to synchronize and deal with sort of the uh lack of
+27:36
+synchronization between uh phones and cameras as well and like again this is a place where like this would have been a
+27:42
+very hard problem but now ml is making the stuff a lot easier um Wonder Dynamics is taking sort
+27:49
+of a similar approach right like um you basically like yeah you can go into
+27:54
+their tool do monocular like you know pose estimation you can do like light estimation you can do in painting but
+28:00
+then you do oneclick export into Maya blender unreal and then you get everything set up and I mean like as an
+28:06
+artist how exciting is it to have like all that heavy lifting done for you maybe it's like 80% of the way there but
+28:12
+now you're an unreal or Maya whatever and you've got that last mile last meter pixel level control that you are used to
+28:20
+which I think is exciting the other big update i' love to talk about here with Wonder Dynamics is like most of these
+28:25
+pose estimation algorithms happen in screen space so they're not like in 3D they're sort of relative to the camera
+28:31
+view that you're looking at they recently updated that so that now you will get a 3D solve of the environment
+28:36
+and things will be sort of in World space and scen space coordinates which is kind of cool all right this brings me to the
+Generative AI & The Future of Creative Production
+28:43
+last leg of this journey looks like I am doing well on time uh a bit on generative AI I think the next speaker
+28:49
+is going to talk a lot more about gen Ai and the prior speaker did already so I'll just say a few things here which is
+28:55
+you know before Sora came out I thought we' need a hybrid approach I was like ah you know you're going to need like the
+29:01
+explicit control of a 3D engine and maybe diffusion is sort of like you know a new way of sort of like taking it all
+29:08
+the way and if you want consistent characters entities whatever you need to condition it with like sort of this like
+29:15
+3D scene graph that you have explicit control over and then Sora came out and it's like similar to to Atlanta's trend
+29:21
+of like oh let's just throw more data at the problem um of course if you want to see like a funny video of like uh the
+29:27
+opening I to asking about what data set this was trained on uh I think that's a pretty funny video you should go check
+29:32
+it out um it sounds like it was trained off of YouTube but the response is fairly ambiguous and publicly available
+29:39
+data whatever that means um and and what's interesting though is like instead of unreal working sayyan concert
+29:45
+with like sort of these generative AI models what's fascinating here is like they're just taking a bunch of synthetic
+29:51
+training data out of unreal and like you know training off of it so if you look at the Cherry Blossom scene in in
+29:58
+particular you'll notice that people move with this consistency of like the Matrix metahuman scene in unreal it
+30:04
+looks very uncanny this is totally like conjecture here uh but I think like vast
+30:10
+amounts of synthetic training data and the fact that these companies have built their sort of funding Cycles off of more
+30:15
+data and more compute runs is like I think we may be surprised with what these sort of more you know what we may
+30:21
+call like naive approaches would result in and uh you know when I saw this video I'll should replay it this is the one
+30:27
+that like like oh yeah cool like puppies with like snow and blah blah blah I don't care like this I saw I was like holy
+30:33
+this is what I do on my Tik Tok and like a one minute video is like exactly the type of length that I aim for and
+30:39
+imagining doing this the good old fashioned way would have been like nuts right it's like and sure like you I post
+30:45
+this on Twitter and people like well like it doesn't look that good and like here's all these 10 different problems it's like well that's literally the
+30:51
+checklist for researchers to fix in the next iteration and like what would I add to the scene okay yeah maybe there would
+30:57
+be bubbles you know that feels like something if you really understood a world model this person's underwater
+31:02
+maybe there would be Plankton but those are things that would be easy enough for me to add um and uh you know and deal
+31:08
+with here's a SORA video that you probably haven't seen so it was a pleasure for me to co-host the AI
+31:14
+session at Ted uh in Vancouver last week with some amazing AI luminaries and so this is something my buddy Paul trillo
+31:20
+made imagining what the Ted conference would look like in 40 years and I mean
+31:25
+just imagining like like doing this the good old fashioned way again would have obviously taken a lot lot longer and
+31:32
+maybe wouldn't have been as like exciting the one thing that freaked me out was like the growing the meat scene
+31:37
+I was like I'm totally cool with like growing 3D models but I I draw the line at growing the meats but maybe maybe
+31:44
+that's just me um so that's like all the visual stuff that gets a lot of attention I think what isn't talked
+31:51
+about enough especially in the creative and the visual space is like multimodal AI systems r large and like even like
+31:58
+freaking large language models um and the framing I would encourage you to think about this stuff is really to
+32:04
+think about generative AI like content to content you know whether you have text image video and 3D data you can
+32:10
+transform it into text image video and 3D data and every permutation and combination uh there in and you know so
+32:18
+like Gemini by Google likes to call it anything to anything and I think that's just super super exciting like you can
+32:24
+even do crazy things like screen record your after effect screen and then be like yo write like a After Effects
+32:30
+script to replicate what I just did like how crazy is that like I haven't tried this for Mel scripting in Maya but I
+32:36
+encourage you all to go try it it works for blender beautifully as well and so think about the various ways of
+32:41
+automation like automation workflows that you could think about um and the context windows are getting massive
+32:47
+right so you know one of the things Elena said Also earlier was like yo like the heart problem maybe don't do it like
+32:54
+uh and in this case like I think even things like fine-tuning models and like rap like retrieval augmented generation is
+33:00
+like there are many use cases where I think you needed that that I don't think you do because with like models like Gemini and
+33:07
+like literally you could go to AI studio. google.com right now and like just play with this stuff and like make
+33:12
+a bunch of dpus per you've got a million token context window and for for context
+33:17
+that's like all the Harry Potter books like multiple hours of video footage it can also reason over audio so I mean
+33:24
+like I I dropped in like a a freaking driving tour of San Francisco that was 55 minutes and then I had a time stamp
+33:31
+just tell me every single Landmark that it saw and it gave me a really really good rendition right and so imagine as a
+33:38
+part of this like iterative feedback loop where clients seem to think like changes can Happ happen till the very
+33:44
+last moments like what if you could ingest all your shot notes your scripts your storyboards and yes indeed that
+33:50
+client feedback too and then synthesize it right at the very least I think you'd have happier visual effects supervisors
+33:56
+and production managers but you could also distill that down those insights for artists and let like like all these
+34:03
+Knowledge Management Systems everyone talks about on Prem or whatever like you're probably using some variation of Microsoft Google whatever for your like
+34:10
+internal slack and by the way slack like if you look at the terms of service they are absolutely training on your data so
+34:16
+just FYI by the way um is is basically all this data is already digitized and
+34:22
+probably in the cloud already probably at some like much higher quality Enterprise tier and so you can start
+34:27
+deploying these models like gemini or GPT 4 or whatever and start using it maybe not for the stuff that like Disney
+34:34
+or Marvel would never let leave some like server room in it's some non-descript location but all the other
+34:39
+stuff that surrounds making that content um what you can also do is like
+34:44
+reason over multiple clips so like if you create a bunch of generations and like here's the criteria I want you to
+34:50
+look at and then go filter down like I don't know this like asset library of 100 things let's say find the 10 best
+34:56
+clips that I should be evaluating for this purpose you'd be surprised how good of a result you get with some of these
+35:02
+multimodal models like Gemini um all right so in terms of visual creation itself you know I just
+35:09
+talked about how Sora could be amazing but also it turns out like Sora takes like an hour to generate a one minute
+35:14
+clip and like you know has a bunch of like A1 100s purring in the cloud and so of course that'll be optimized and it'll
+35:19
+get faster and maybe it'll follow the same trajectory we saw with Radiance fields from like massive numbers of tpus
+35:25
+to the fraking iPhone in your pocket can do it but I still think for explicit control which I think what a lot of creators do
+35:32
+want for a lot of different scenarios I think it's going to be this hybrid approach right so you'll be mixing
+35:37
+classical 3D and VFX compositing tools with the generative stuff and so I I
+35:42
+wanted to pull up this example by Eric AKA 8 has an amazing YouTube channel by the way if you want to get into these
+35:48
+like how do I do a hybrid blender Maya like comfy UI workflow definitely check out his work it's all like this and I
+35:54
+think the most interesting stuff will probably be done this way because if anyone can type in a text prompt and
+35:59
+make that stuff of like easily like it's just going to get boring very quickly and so I think like as that sort of
+36:05
+floor Rises the ceiling will rise too and it's like content like this that'll break through it but again to just
+36:11
+counteract my skepticism Jensen Hong the infid CEO seems to think the opposite he's like well sorry you know like I
+36:18
+think every pixel will be generated in the future and uh you know I had a chance at GTC to actually ask him about
+36:23
+this prediction and be like can you put a timeline on it and as he'll read some of these like Tom's uh Tom's guide and
+36:29
+other articles you'll see give this very Meandering answer about like The Innovation scurve but he see seems to
+36:35
+think it's like 5 to 10 years out and we're like two years in and so maybe just like your Nvidia GPU does like deep
+36:42
+learning super sampling or dlss maybe there'll just be a chip on your computer that does that for you you know maybe
+36:48
+that'll be the same way ml-based D noising is used in sort of traditional Ray Trace based rendering Solutions and
+36:54
+we'll sort of have a meeting in the middle that will give us that artistic control but also give us space to sort of you know uh uh get a lot more speed
+37:02
+rather than you know somebody was talking about the the uh the Pixar Folks at a talk saying like yeah Toy Story
+37:07
+like took us this long to render now we take like order of magnitude more time per frame than we did back then which
+37:13
+goes back to the point of we're going to put more value on screen but to make that compute accessible not just a Pixar
+37:20
+maybe this hybrid approach will be the way and I will say 5 to 10 years seems
+37:25
+like a very tame uh prediction by Jensen here I think it could be a lot faster so
+37:31
+if I speculate a bit what does that mean and we've got this like chip on your you know uh on your computer that just does
+37:37
+this for you the mid Journey CEO likes to say video games will basically be like it'll be a AI chip in the cloud and
+37:43
+we'll be playing dreams essentially is an interesting to think about and so if I speculate I think we'll be authoring
+37:49
+content at this like higher level of abstraction and an interesting analogy for me is like HTML and like sort of the
+37:55
+document object model if you're familiar with that or if you're like a 3D nerd let's just say a 3D scene graph so again
+38:02
+you like just exert fine grain control on the stuff that matters and then you Outsource all the rest right like if you think about like the commercial and
+38:07
+advertising space The Last Mile customization to get that one 15sec freaking ad localized to a bunch of
+38:14
+different regions for a bunch of different a variations is just insane and that's all largely done manually in
+38:20
+these like super duct tape Pipeline and so you can imagine all the drudgery that will save if you have authored content
+38:26
+at this higher level of abstraction like I don't know like some you know freaking let's just say Toyota ad and like you
+38:32
+know you can change out the background the talent the subject matter based on like whether this is in like Soul South
+38:38
+Korea or Mumbai India right all that customization can happen now there are scary aspects of this too but I'm sure
+38:44
+we'll talk about that stuff on zip panel so in summary in my opinion I think you
+Conclusion & What's Next
+38:50
+need to start investing in all forms of AI today like spatial and visual AI like this stuff is commercial ready ready to
+38:56
+go like you should be be building plugins and doing awesome stuff with it right now generative AI early but
+39:03
+honestly all the large language model stuff that isn't sort of tied perhaps to the ethical concerns of scraping the
+39:09
+whole internet whatever for some reason blog writers are way more okay with their stuff being scraped but not the
+39:14
+New York Times if you if you follow that uh that that lawsuit um I think it's important to start playing with it even
+39:21
+if it's not for visual creation but all the things surrounding it that inform that visual creation process and the
+39:28
+coolest part of all of this is unlike every other wave where you've had this like technological lockin effect oh
+39:34
+we're a Maya shop and we've got like freaking Decades of like you know Maya based you know kind of pipeline tools
+39:39
+that have been built out for large language models and generative models is very easy to swap these things out I
+39:45
+mean like you're literally describing a bunch of these you know instructions in in in like natural language and so there
+39:52
+is no lock in effect it's zero switching cost so like oh you love Gemini you used
+39:58
+it for prototyping but you want to do it all on Prem well llama 3 by meta just dropped go run llama 3 find tune your
+40:04
+own version of that and use that on premise and so I think that's very exciting so lot of your disposal amazing
+40:10
+available tools and I think also I will say to shamelessly plug back to the start an opportunity to create new tools
+40:17
+so again if you are going to build something are building it know someone who's building it an accelerator program
+40:22
+with the funding that I mentioned for 750k over 12 weeks is of interest to you uh definitely go check out speedrun
+40:28
+again that's the URL and feel free to take a photo email and we can talk about it later and with that it's been a
+40:34
+pleasure to be here and hopefully yall Walked Away Learning something new thank you

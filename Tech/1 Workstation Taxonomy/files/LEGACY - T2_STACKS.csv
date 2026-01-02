@@ -1,0 +1,12 @@
+stack_id,stack_name,category,components,primary_use_case,maturity,adoption_trend,learning_curve,description
+TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT
+STK_MERN,MERN Stack,web_dev,MongoDB|Express|React|Node,Full-stack web applications,mature,stable,medium,JavaScript everywhere for rapid development
+STK_JAM,JAMstack,web_dev,JavaScript|APIs|Markup,Static sites with dynamic capabilities,mature,rising,low,Pre-rendered content with API services
+STK_NEXT,Next.js Stack,web_dev,Next.js|React|Vercel,Server-side rendered React apps,mature,rising,medium,Full-stack React with edge deployment
+STK_PYD,Python Data Science,data,Python|Jupyter|Pandas|NumPy,Data analysis and ML workflows,mature,stable,medium,Scientific computing ecosystem
+STK_PYLL,PyTorch Lightning,ml,PyTorch|Lightning|Weights & Biases,Deep learning research and production,mature,rising,high,Simplified PyTorch with experiment tracking
+STK_LNG,LangChain Stack,ai,LangChain|Vector DB|LLM,LLM application development,emerging,rising,medium,Orchestration for AI agent workflows
+STK_RAG,RAG Stack,ai,Embedding Model|Vector DB|LLM,Retrieval-augmented generation,mature,rising,medium,Knowledge-grounded AI responses
+STK_CLDA,Claude Agentic,ai,Claude|MCP|Tools,Autonomous AI task execution,emerging,rising,low,Claude with tool use capabilities
+STK_DVNC,DaVinci Stack,video,DaVinci|Fairlight|Fusion,Professional video post-production,mature,stable,high,Industry-standard video editing
+STK_ADBC,Adobe Creative,design,Photoshop|Illustrator|InDesign,Professional graphic design,mature,stable,high,Industry-standard design tools

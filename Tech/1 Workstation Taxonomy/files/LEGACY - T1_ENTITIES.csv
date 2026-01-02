@@ -1,0 +1,12 @@
+entity_id,entity_name,entity_type,layer_id,state_id,platform,developer,installed,url,description,notes
+TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,BOOLEAN,TEXT,TEXT,TEXT
+# Sample records - actual import from Function.csv will populate this
+ENT_RAY,Raycast,launcher,L0,STA_PRI,macos,Raycast Inc,TRUE,https://raycast.com,Extensible launcher with AI and workflow automation,Primary launcher interface
+ENT_CLO,Claude Code,dev_tool,L4,STA_ACT,cli,Anthropic,TRUE,https://claude.ai/code,Terminal-based agentic coding assistant,Powered by Claude Sonnet
+ENT_CUR,Cursor,ide,L4,STA_ACT,desktop,Anysphere,TRUE,https://cursor.sh,AI-native code editor with conversational interface,Powered by Claude and GPT-4
+ENT_NOT,Notion,knowledge_base,L3,STA_PRI,web_desktop_mobile,Notion Labs,TRUE,https://notion.so,All-in-one workspace with database capabilities,Primary knowledge system
+ENT_OBS,Obsidian,knowledge_base,L3,STA_SEC,desktop_mobile,Obsidian,TRUE,https://obsidian.md,Local-first markdown note system with graph view,Secondary for personal notes
+ENT_FIG,Figma,design_tool,L4,STA_PRI,web_desktop,Figma Inc,TRUE,https://figma.com,Collaborative interface design and prototyping,Primary design tool
+ENT_MID,Midjourney,image_generator,L1,STA_ACT,web_discord,Midjourney Inc,FALSE,https://midjourney.com,Premium aesthetic AI image generation,Discord-based access
+ENT_GPT,ChatGPT,conversational_ai,L1,STA_ACT,web_mobile,OpenAI,FALSE,https://chat.openai.com,Conversational AI assistant with broad capabilities,Powered by GPT-4
+ENT_CLA,Claude,conversational_ai,L1,STA_PRI,web_mobile,Anthropic,FALSE,https://claude.ai,Reasoning-capable AI with superior coding strengths,Primary AI assistant

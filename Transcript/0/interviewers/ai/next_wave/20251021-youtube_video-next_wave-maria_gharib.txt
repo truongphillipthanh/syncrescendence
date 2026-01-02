@@ -1,0 +1,1171 @@
+https://www.youtube.com/watch?v=u2vrmFXRIkI
+AI NEWS: 5 New Tools, Elon Musk’s Matrix & GPT Erotica Explained
+3,876 views  Oct 21, 2025  The Next Wave Full Episodes
+Episode 81: Is Microsoft finally stepping out of OpenAI's shadow to compete in the AI image generation race?
+Take the AI Dragon Quiz to get tailored recommendations for AI tools & resources: 🔗 https://clickhubspot.com/58c41d
+
+Matt Wolfe (https://x.com/mreflow) is joined by special guest Maria Gharib (  / maria-gharib-091779b9  , head writer of the Mindstream newsletter and one of the sharpest AI journalists around. Maria's journey from studying international affairs and politics to reporting on the AI frontier has made her writing a daily go-to for thousands, and now she’s bringing her AI insights to The Next Wave.
+In this packed episode, Matt and Maria break down Microsoft’s surprising new MAI Image 1 model, its impact on the OpenAI-Microsoft partnership, and what it signals for future AI competition. They also dive into the evolving personality (and rules) of ChatGPT—including Sam Altman’s statements on mental health and GPT erotica—and talk about Google Gemini’s brand-new calendar integration. Other hot topics include Elon's ambitious "World Model" for XAI, when AI beats doctors to diagnose Lyme disease, and how Google’s new “AI makeup” feature is changing work calls.
+Check out The Next Wave Podcast if you’re on the go and want to listen to the show: https://lnk.to/thenextwaveyt
+
+—
+Show Notes:
+(00:00) Maria's Journey into AI
+(04:48) Microsoft's First In-House AI Model
+(06:58) LM Arena AI Demo Explained
+(11:40) Relaxing ChatGPT Restrictions Soon
+(14:51) ChatGPT: Tool or Companion?
+(18:13) AI Age Detection Challenges
+(21:57) Google's Gemini Schedules Meetings
+(25:45) AI Models and Business Moats
+(30:07) Bringing Characters to Life
+(31:04) AI Tools and Future Uncertainty
+(36:50) Elon's XAI: Revolutionizing AI Understanding
+(38:05) Training Robots in Virtual Worlds
+(43:47) AI Diagnoses Man's Lyme Disease
+(45:22) AI Enhancing Healthcare Diagnosis
+(47:48) Mindstream: Daily AI Updates
+
+
+—
+Mentions:
+Maria Gharib: https://www.mindstream.news/authors
+Mindstream AI newsletter: https://www.mindstream.news/
+Microsoft MAI Image: https://microsoft.ai/news/introducing...
+Gemini: https://gemini.google.com/
+Nano Banana: https://nanobanana.ai/
+Claude: https://claude.ai/
+AI-powered makeup in Google Meet: https://workspaceupdates.googleblog.c...
+
+Get the guide to build your own Custom GPT: https://clickhubspot.com/tnw
+
+Subscribe to The Next Wave:
+🔗 https://clickhubspot.com/847e
+
+📙 FREE Certification Courses
+Digital Marketing Certification:
+👉 https://clickhubspot.com/od6
+Social Media Marketing Course:
+👉 https://clickhubspot.com/Social-Media...
+SEO Training Course:
+👉 https://clickhubspot.com/SEO-Training...
+Email Marketing Course:
+👉 https://clickhubspot.com/Email-Market...
+
+Find The Next Wave on your favorite podcast platform
+🎙️ https://lnk.to/thenextwaveyt
+
+Join Matt Wolfe and Nathan Lands, as they democratize the expertise often reserved for the boardrooms of the biggest corporations. From groundbreaking technologies to practical applications, Matt and Nathan will cover everything you need to stay informed and prepared. Whether you're seeking to adapt your company to the AI era or simply curious about the future, this podcast will equip you with the knowledge to thrive in the forthcoming wave of change.
+
+More From Matt
+🔗 Future Tools https://futuretools.beehiiv.com/
+🔗 Blog https://www.mattwolfe.com/
+🔗 YouTube    / @mreflow  
+
+More From Nathan
+🔗 Newsletter https://news.lore.com/
+🔗 Blog https://lore.com/
+
+The Next Wave is a HubSpot Original Podcast // Brought to you by The HubSpot Podcast Network // Production by Darren Clarke // Editing by Ezra Bakker Trupiano
+
+#TheNextWave #Podcast
+
+---
+
+Maria's Journey into AI
+0:01
+Welcome to the Next Wave podcast. I'm Matt Wolf, and today I'm joined by someone you're going to be seeing a lot
+0:06
+more of around here, Maria Garb, the headw writer of the Mindstream newsletter and one of the newest members
+0:12
+of the Next Wave content team. Maria's journey into AI is wild. She went from
+0:18
+studying international affairs and politics to becoming one of the sharpest AI journalists in the game. Every
+0:24
+morning, thousands of people start their day with her breakdowns of the biggest AI stories. And today, we're bringing
+0:32
+that brain power right here. In this episode, we dive into Microsoft's new AI image model and what it means for the
+0:39
+OpenAI Microsoft relationship, Chat GPT's personality changes, and Sam
+0:44
+Alman's surprising comments about mental health and erotica. We talk about Google
+0:50
+Gemini's new calendar integration and a bunch of other stories from Elon's world
+0:55
+model to AI catching Lyme disease when doctors missed it. It's a packed episode
+1:01
+full of insights, hot takes, and future talk. So, without further ado, let's dive in with Maria.
+1:08
+Hey, Maria. Thanks so much for joining me on the show today. How are you? Thanks for having me. I'm good. How are
+1:13
+you? I'm doing great. Well, I want to I just want to jump straight into it. We're
+1:18
+going to get to all of the big news stories over the last couple weeks in just a minute here, but before we do,
+1:23
+this is your first time on the show, but you're going to be back. People are going to be seeing a lot of you around
+1:28
+here at the next. So, I want to give you the opportunity to just kind of quickly share a little bit
+1:34
+about your background. You know, how did you get into AI? How did you get involved with the mainstream newsletter?
+1:40
+Let's just kind of set the stage for people a little bit before we jump into the news, right? Yeah. I My name is Maria. I'm uh
+1:46
+Lebanese and I moved to the UK like this year because hub hubspot acquired Mind Stream. The whole story about Mindream
+1:52
+and how I got into AI is pretty probably the funniest thing I've ever done in my entire life because I was I have degrees
+1:59
+in international affairs and politics and I moved into marketing also by mistake. And I was just scrolling on uh
+2:05
+LinkedIn around January, you know, 2024, and I saw that they needed like a
+2:11
+research copyriter. And I do research in general because I have two degrees in academia, I guess. Um, and I applied and
+2:18
+I've been working in AI ever since and writing about it as a sort of like journalism thing. So, yeah, now I write
+2:25
+the uh Mindstream newsletter that pops into people's um Gmails every every day
+2:31
+at 7 a.m. and uh it's been amazing ever since. Very cool. Now, just sort of feeding my
+2:37
+own curiosity here, how do you keep up with the news? This this is a question I feel like I get asked almost anytime I'm
+2:43
+interviewed because I I used to make videos about all of the latest AI news and I have a newsletter as well and so
+2:50
+I'm trying to stay up with the latest news every day and as we both know it's just like a fire hose right now. It's a
+2:56
+flood of AI news. So I'm just curious like how how like do you have a process
+3:01
+for keeping up with it all? Uh I mean I get alerts on Google uh which is very helpful obviously in my line of work but
+3:08
+also you know like attention spans in general have been ruined by Tik Tok but Tik Tok has a really good uh it has some
+3:15
+good advantages and one of them is you know like these short uh these short
+3:20
+videos that pop up on your FP every now and then and gives gives you basically you know because of algorithm and
+3:26
+algorithm catches on what you're looking for. it's been giving me what I need and I would, you know, deep like search
+3:33
+search on this and like kind of like do my deep research and um write uh the blog the next day. So
+3:39
+basically that and uh Google alerts and yeah whatever the people are talking about whether it was on X on Instagram,
+3:46
+Instagram has been very very nice to me lately. I've been getting some pretty good stuff because
+3:52
+it's because of algorithm as well as I said and uh yeah that's how Yeah. Yeah. No, that's super
+3:57
+interesting. I mean, I' i've heard that um more and more people are actually getting their news from Tik Tok for
+4:03
+whatever reason. Like Tik Tok has never like grabbed me. Like I I I've never gotten really into Tik Tok.
+4:09
+Don't go to the dark side because it is your attention span is going to obliterate. It's I think it's going to
+4:15
+stop existing. So don't do this to yourself. Yeah. But I mean I do the same thing on Instagram reels. So that's where I was
+4:21
+about to go. I was like I don't do TikTok, but I do Instagram reels, which is probably like the same equal evil.
+4:27
+Yeah. Very cool. All right. Well, let's let's just jump right into the news and start
+4:33
+like breaking it down for people because there's been a lot that's happened over the last couple weeks. Um, and I I think the one that I'd like
+4:39
+to start with is the Microsoft they they just released their MAI uh I think it's called MAI image one, their new image
+4:45
+generator. Yeah. And interestingly, it's not really being talked about much. Like I haven't really
+Microsoft's First In-House AI Model
+4:52
+seen it sort of hit the AI news cycle where people are really like hyped about it. I think this is one of the biggest
+4:58
+thing that they've dropped yet in my opinion. It's called as you said MAI image one and it's their first ever
+5:04
+textto image model built fully in house which is what makes it so interesting
+5:09
+and it's not that it just also also by the way landed on the top 10 LM arena right out of the gate after it it it
+5:16
+came out and it's that this is the first real sign of Microsoft stepping out from
+5:22
+under OpenAI's shadow because they've been fully dependent on them. I don't know if people know this, but they've sort of like, you know, kind of
+5:28
+borrowing anyone of someone else's uh tech, but this is 100% homegrown as we
+5:34
+say. And according to the company, MAI uh image one focuses on creative quality
+5:40
+rather than quantity, meaning it's built to generate realistic visuals that don't all look like they came out of from the
+5:46
+same old plet like AI art uh uh template. So you get better lighting
+5:52
+obviously and like more natural reflections and faster results and this is all uh without the weird
+5:58
+overprocessed stylist that comes out from all the models uh you know all the models fall into that. So yeah.
+6:04
+Yeah. No, it's it's been really interesting to watch Microsoft's plays in AI, right? Like they're they're a 49%
+6:12
+owner of uh the OpenAI nonprofit and OpenAI has just a very bizarre
+6:17
+structure. like there's a nonprofit that sort of governs for they run that. Yeah. But Microsoft owns 49% of the nonprofit
+6:25
+sort of umbrella company. Uh but now Microsoft is generating their own
+6:31
+models, right? They've got the I can't remember what their their their models are called. They have the MAI image
+6:36
+model, but they also have like some small language models that they've built and released as well. So they're like
+6:41
+making models that are competing with OpenAI's models even though they're like
+6:47
+a huge owner in OpenAI. But then also recently, I don't know if you heard about this, but inside of the various
+6:52
+Microsoft Copilot products, they've started introducing Anthropic into those products.
+LM Arena AI Demo Explained
+6:58
+Exactly. Yeah. They've embedded Copilot into literally everything from Windows to Office and as well as Anthropic. This
+7:04
+it's like a creative stack and they've they've been doing it for like some time now. But the fact that this is the first
+7:11
+thing that they do inhouse is what people are not catching on to that. But it's huge news. It's big news.
+7:18
+Yeah. Yeah. So, let me actually share my screen real quick cuz I I did play with it a little bit. And there's one way
+7:23
+that you can use it right now. Like it's not open to the public. They haven't built any sort of like AI image
+7:29
+generation um uh sort of platform yet, but they did put it over on LM Arena
+7:37
+where you can sort of um test different models. So, if if people aren't familiar
+7:43
+with LM Arena, basically what it is is they they give you a box to enter a prompt. You enter a prompt and it will
+7:49
+give you two outputs, whether it's a text output or an image output. you it'll give you these two outputs, but it
+7:55
+won't tell you which model these two outputs are. Yeah, you pick which one you like and then it tells you which
+8:01
+model you just used and then over time that's what informs the leaderboard um and and figures out the rankings of
+8:07
+these models. And so Ella Marina right now is the only place that you can test it. And if you go to Ella Marina and you
+8:13
+select direct chat up in your your little header menu and then you select MAI image as the model, you can actually
+8:20
+directly generate with this um MAI image model. Yeah. So cool. It's like the Olympics
+8:25
+for AI models in Marina honestly. This is how this is how we define it honestly.
+8:30
+Yeah. And this is how everybody discovered Nano Banana when it came out as well, right? Like Yeah. Exactly. when Nano Banana went
+8:37
+wild and everybody was using it, it was mostly being used on Ella Marina before they finally opened it up and finally
+8:42
+put it in the Google products 100%. Um, but I wanted to I wanted to share these images that I generated because I
+8:49
+always like to test a few things, right? I want to see if it will generate actual real people. So, I asked it to generate
+8:54
+Sam Alman shaking hands with Elon Musk. And is that Sam Ultman?
+9:00
+It's supposed to be. I mean, you can tell this is supposed to be Elon Musk. I would say maybe this is Elon Musk like
+9:06
+15 years ago. Elon Musk I wouldn't say this is Elon Musk today.
+9:12
+Hope he doesn't see that. But I don't really see any resemblance to Sam Alman on this picture here.
+9:18
+So it seems like it'll generate like some known names but not all known names. Um I guess Sam Alman is just
+9:25
+probably more more images of Sam Alman on the internet that got sort of scraped
+9:30
+into the training of this image model. I would I would guess. So, the other the other prompt that I wanted to test was a
+9:36
+three-headed dragon wearing cowboy boots, watching TV while eating nachos. And the goal here was to just shove a
+9:42
+lot of things into one prompt and see if it got them all right. That is so cool. And it actually did it all. Three
+9:49
+headed, cowboy boots, nachos, watching TV, and I'm like, damn, it actually followed all of my directions. Cuz a lot
+9:55
+of times when I test this on other models, it'll get like two of the things but miss two of the things, you know? Oh, you should have added like a cowboy
+10:01
+hat, honestly, in my opinion. cuz like this it would fit. Yeah. Yeah, it would.
+10:07
+So that's what that one generated. Um and then I was curious, will it generate trademarked IP? You know, Mickey Mouse,
+10:12
+Mario, things like that. So I put Mickey Mouse high five Super Mario. No problem. It did it. Although they're
+10:18
+kind of high-fiving with the back of their hands. Yeah. Like I don't know who does it. Maybe Italians do that. Who knows? But yeah, it was.
+10:25
+And then I just did another sort of like trademark test. Spongebob Squarepants. Batman and Spider-Man taking a family
+10:31
+portrait together, right? Yeah. Spongebob looks like he's happy to be there, which is cute. Yeah. Yeah. But there's definitely some hand
+10:38
+wonkiness still. You can see it in Spider-Man. You can see it in Spongebob. It's always the hands. I don't know if people noticed, but like it's always
+10:44
+some It messes up with the hands. I don't know why. Yeah, hands are always a problem.
+10:49
+Yeah. So, those were those were the tests that I did. I only did a handful. Um I was
+10:54
+planning on going deeper, but just haven't had the chance yet. Um, but yeah, that's that's how you use it. You
+11:00
+can use it at Element Arena and that's that's kind of what it does. Um, but curious, do you do you have any other
+11:05
+like sort of thoughts or have you played around with it at all yet? I I haven't really like I haven't really
+11:10
+played out like I tried to open it. I think it's not really still available for the UK. I haven't really checked yet. Maybe it it is today. We'll see.
+11:18
+Uh, but I think they're trying to prove that they can't really comp they want to compete head-to-head with like OpenAI
+11:25
+majour and stability. But, uh, from the results so far, I mean, their website
+11:30
+showed like really good, some pretty good stuff. I mean, their images look
+11:35
+not so bad in my opinion. Um, all like they're looking good so far, but from
+Relaxing ChatGPT Restrictions Soon
+11:41
+what you're sharing, I think this is more refined from their end. Oh, yeah. So, yeah, they're trying they're trying
+11:46
+to compete. They're trying to compete, but it's not going to Yeah, they it still needs work in my opinion. Like, nothing beats mid journey so far and
+11:53
+from what I've seen it it needs a bit of work. Yeah. Yeah, I agree. And I mean, when when these companies release these
+11:59
+models, whether it's a video model or image model, they're always going to probably cherrypick the best results to
+12:04
+put on their website. Um, you know, so who knows how many times they had to prompt something before they got
+12:11
+website. Yeah. Real quick, I just found out about this
+12:18
+AI dragon slayer quiz that HubSpot just dropped. It's part game, part business
+12:23
+assessment. You answer 15 strategic questions, get scored across five key domains, and you'll get a personalized
+12:30
+road map that shows you exactly how AI is affecting your business and what you
+12:35
+need to do next. Start the quiz right now. You can scan the QR code or click
+12:41
+the link in the description. Now, let's get back to the show. The next thing that I I wanted to talk about is I
+12:47
+wanted to shift over to ChatGpt a little bit. Um, you know what? I might as well just open up the tweet. So, if you're
+12:54
+listening to the audio, we'll we'll read the tweet as well, but obviously there's some some visuals here that we're
+13:00
+showing if you're listening in. So, Sam Sam tweeted uh on the 14th of
+13:05
+October that they we made Chachib pretty restrictive to make sure we were being
+13:10
+careful with mental health issues. We realized this made it less useful, enjoyable to many users who had no
+13:16
+mental health problems. But given the seriousness of the issues of the issue, we wanted to get this right. Now that we
+13:23
+have been able to mitigate that serious mental health issues and have new tools we are going we are going to be able to
+13:28
+safely relax the restrictions in most uh cases in few weeks we plan to put out a
+13:34
+new version of chachi that allows people to have a personality uh that behaves more like what people liked about 40. We
+13:40
+hope it will be better if you want your chachi pt to respond in a very humanlike way or use a ton of emojis or act like a
+13:47
+friend. Chacht should do that but only if you want it not because we are using uh usage maxing in December as well. Uh
+13:55
+as we roll out age gating more fully and as part of our treat adult users like adult principle we will allow even more
+14:02
+like erotica for verified uh adults. Yeah, this is what's been happening uh
+14:08
+in the GPT house in the open AI house. So that the thing is when GPT5 came out,
+14:14
+I was so excited because I you know I use sometimes I use RGBT to refine the stuff that I do. I am not an English
+14:21
+speak like this is not my native tongue. So sometimes I make mistakes like I need to you know refine some of the stuff
+14:27
+that I do because obviously I'm going to make mistakes. Uh and everything was all good until it was so cold towards me and
+14:36
+I was like why are you doing this? What did I do to you for you to be so cold to
+14:42
+me? I was I I thought we were friends. Like I thought we were, you know, I I was trouble dumping to you last week.
+14:48
+Why would you do Yeah. So obviously they did this because they they've been having some people have been having uh
+ChatGPT: Tool or Companion?
+14:54
+deep conversations with them and was giving, you know, because of the data and stuff. It was giving them kind of false information and they were relying
+15:01
+on it with uh their mental health stuff and, you know, it's not really advised
+15:06
+to do that. So um he admitted like this is we made it more serious but still it
+15:13
+hurt. Uh so now now they're like you know they're shifting a bit um and
+15:18
+they're trying to make it you know more human like not sorry not more human but like sort of closer uh to people and
+15:25
+they're like less restrictive. uh they were obviously you know worried about like people forming uh emotional
+15:31
+attachment and like you know while they were struggling with mental health and they stripped it out of all the
+15:37
+personality uh but I think now they're allowing it like back to being um
+15:43
+friendlier I guess is that correct term so yeah yeah no it was kind of crazy because when when GPT5 came out you know it so
+15:52
+stepping back when GPT4 came out it was a big sort of monumental day they made
+15:57
+like they put on keynotes, the whole world was talking about it. It was like the biggest thing of the of the week
+16:02
+when that happened, right? Then GPT5, you kind of expect something like that. Like if if you're doing a whole number,
+16:08
+it's not like a 4.1 or a 40 or 04 whatever, right? It's not some weird
+16:13
+naming convention. It's actually a new whole number. You'd think it'd be like this big monumentous event. But it
+16:19
+seemed like when GPT5 came out, most of the active users were like really bummed
+16:26
+about GPT5 and and what it did. And I remember on Reddit, there was just so many people on Reddit basically talking
+16:33
+about how they broke down in tears because they felt like they lost a friend and all of that kind of stuff.
+16:38
+And it it was wild. It's like it's it's like we were having it felt like I was have I was waiting for the we need to talk kind of moment.
+16:46
+And I don't like that moment. Like don't do this to me. like I don't want GPT to do this to me. I've been forming some
+16:51
+sort of like friendship with it. Anyway, uh but yeah, I think Sam Alultman is like basically saying that you we're
+16:57
+trusting adults to be adults again. As he said, it's like a huge shift like not just technically but emotionally
+17:03
+obviously because they're acknowledging that Chipd isn't just like a productivity tool. uh it could be like
+17:09
+for many people some sort of companion and you know uh I would I would say so
+17:14
+myself because there are some there are sometimes where you would you would talk to GBT and it it's less um as judgy like
+17:23
+normal people are. So yeah, a lot of people trust JBT not to give it some sort of prejudice or like you know so we
+17:29
+they need to they need to to be able to communicate with the tool without having to feel like they're walking on
+17:34
+eggshells. Yeah. Yeah. And and and back when GPT5 launched, it only took like 24 48 hours
+17:42
+before OpenAI went, "Okay, the old model's back, so you can go in and use it again." Like, "We're sorry we did this, but
+17:48
+here's like don't freak out." Like, I guess so. People freaked out, including Yeah. Yeah. We we killed your friend,
+17:53
+but we brought him back from the dead, so it's okay. That's okay. Yeah, that's Yeah.
+17:58
+But yeah, I think one of the the the wildest things about uh Sam's tweet there that we just read was the the sort
+18:05
+of erotica aspect of it. I would have not have anticipated chat GPT to go in
+18:10
+that direction. Elon Musk and Grock, sure. That's what everybody expects him to do.
+AI Age Detection Challenges
+18:16
+He does that. He tends to do that. Yeah. By default. But like Sam, like are we okay? We I thought like you were like,
+18:23
+you know, PG-13. What is happening right now? Yeah. Yeah. So that that'll be interesting. And and I'm actually really
+18:29
+really fascinated and curious to see how they pull off their um their sort of age
+18:35
+uh algorithm, right? Because they they basically said they're not going to just do a like, hey, what is your birthday?
+18:41
+And then like select a date, right? Like you know how sometimes you might go to a website for like a like an alcohol company or something and it'll ask you
+18:48
+to enter your birthday so that they can verify that you're the right age, right? In the UK, I think in the UK they
+18:56
+we we do have these laws that when you need to enter like any adult sort of website, whether it was uh to buy
+19:02
+alcohol, to buy this or to buy that or like to to watch something, uh you have to prove it with an ID or like you have
+19:08
+to prove it with a selfie and that selfie needs to be proven and obviously the picture is not being used but just
+19:14
+to prove that you are an actually an adult. So I think it's going to be the same route as what we have in the UK
+19:20
+right now. Yes. I I I agree that that's probably what Well, so what what Sam Alman sort
+19:26
+of alluded to doing is that they were going to basically look at the conversations that you're having with chat GPT and try to figure out your age
+19:34
+based on how you talk to chat GPT as opposed to a more like traditional like
+19:39
+age verification. Yeah. Because the whole like showing your ID thing
+19:45
+that I think has been a great method for the decade prior. I don't think that's going to be a good method for the future
+19:52
+because nano banana exists. Uh mai image one exists. Um you know imagining
+20:00
+imagine exists. All of these tools midjourney all of these tools are going to be capable of creating a fake ID for
+20:06
+you that you could probably use to sort of fool the the systems.
+20:12
+Like you can make a whole passport with absolute details and like I'm not giving people ideas. I hope not. And that this
+20:17
+is this is the this is what's going to happen. People are people aren't dumb. Like what people forget that you know
+20:22
+people are not dumb. People can be very creative and like given the younger generations the younger
+20:27
+generations that are growing up like native computer, native internet, native AI like they're growing up in a world
+20:34
+where this stuff has just always been here. So they're very very very techsavvy. And I and so and I think Open
+20:40
+AI knows this, right? They know that they can't just do a you know hold up your ID to the camera. They know that they can't just do a enter your birth
+20:47
+date so we can verify your age. That stuff's not going to work. Um, they have to figure out other methods. And it
+20:54
+seems like their path is to sort of analyze how someone chats with chat GPT
+20:59
+and then guess their age based on how they have discussions with it. So you theoretically could be a 45 year adult
+21:07
+45-year-old adult that just has a um you know really dirty mind or something and
+21:13
+it will think you're a kid and block you out. Probably think you're 15. Yeah. With like Yeah. the IQ of a 15year-old. That
+21:20
+that's going to be what it is. Exactly. So I I think that's the thing that I'm most fascinated to see how they
+21:26
+implement it. That's great. So we'll see what they could be capable of. I don't know if Yeah. I don't know how they're going to
+21:31
+pull it off though. Like we we just have to wait and see. Yeah, for sure. And then, you know, I'm I'm sure they'll figure out a standard
+21:38
+and then this will become what Google does. This is what Meta does. This is what all the platforms eventually do.
+21:44
+But I think they need to sort of iron out that standard first and figure out how to do it.
+21:49
+Yeah, exactly. Just I'm I'm fascinated about like how Sam does all his things and how he runs the company. And it's
+21:56
+been probably the most successful company so far in my opinion and that's me. Uh but uh I think it's been the most
+Google's Gemini Schedules Meetings
+22:03
+successful AI company in the world right now. Everyone uses JBT. Even my grandma's about to start using it and
+22:10
+she's like 80 years old. So yeah, it's been Yeah. Well, it's it's um it OpenAI is
+22:16
+the most valuable privately held company on the planet. It used to be SpaceX, now it's OpenAI. So they they're they're
+22:23
+valued at 500 billion, a half a trillion dollars. I mean, they're they're valued at bigger a bigger number than most
+22:29
+companies on the stock market are. probably 100% probably. So, they're they're they've become
+22:35
+pretty huge. It's funny cuz I was I was at uh dinner last night with some friends and uh my friend's a mechanic.
+22:41
+He works for Honda and you know he he turns wrenches under the hoods of cars and he he at Honda his his uh like he's
+22:49
+not a computer guy. He doesn't really use computers ever at all. and uh his work is actually forcing him to use chat
+22:55
+GPT essentially now to do like performance reviews for his employees. So he's having to basically learn how to
+23:02
+use a computer and learn how to use chat GPT to do his job because they basically said this is how we do it now moving
+23:08
+forward. So I mean it's getting integrated into everything. Literally everything. The only thing I'm
+23:13
+actually looking forward to is the fact that I I'm going to wake up and everything in my house is automated and
+23:19
+it makes me an ice soy latte. This is what I'm going to be most excited about. the other stuff like you know like if they want to save the world and stuff.
+23:25
+Sure. Amazing. But I really want that ice soy latte in the morning. So yeah, I hope that be able to pull that off.
+23:31
+I just thinking about that it's funny cuz what I think of is like I remember I remember the internet when it first came
+23:37
+out, right? When it was like dial up and it was super super slow and now we take like the internet speed for granted. So
+23:43
+like if I have a day where you know maybe there's a power outage in my neighborhood or the internet goes down
+23:48
+for a few hours, I'm sitting here going, "What the heck? I I can't do anything. Like I'm I'm totally lost. I don't know
+23:54
+what to do with my day, what to do with my life. I'm like, I need to be on the internet to like do my thing.
+23:59
+And I I wonder with like a lot of the smart home automation stuff, like what happens when the power goes out? What
+24:04
+happens when your internet goes down? Are we going to just like forget how to make our own coffees?
+24:10
+I don't want to jinx it. Like, it didn't happen yet. I really don't want to jinx it. Like, what if that happened to me and I wake up and there's no ice latte?
+24:16
+What am I supposed to do? Like, I need I need that to work out for me, Matt. Yeah, absolutely. All right. Well, cool.
+24:24
+Let's let's move on to like the next topic here. Um, Google Gemini just added calendar integration. Um, this is
+24:30
+actually something I haven't played with yet, but I know you've you've kind of looked into it. So, um, you know, what
+24:36
+are your thoughts on this one? So, obviously I don't get to play around with all the tools because I have to
+24:41
+write about all about them every single day, which is, you know, like it's it's a whole thing. Uh, but what I've seen
+24:46
+from people and like I've seen really good reviews so far from people that have like started sort of using it but
+24:52
+also looked into it uh is that now that there's like we had like you used to
+24:57
+have like this back and forth of like you know we're trying to schedule a meeting and like does Thursday work for
+25:02
+you like no maybe Friday and like these kinds of stuff and it's all chaotic and people some people are not type A you know like
+25:10
+me and others some people are very you know they want something to happen but they're struggling to make that
+25:15
+Um, and Google finally said like enough and we're going to probably launch a new
+25:20
+Gemini powered feature uh in Gmail called Help Me Schedule. And I love the
+25:26
+name. Uh, honestly, it's like a really nice name. It's kind of a genius. uh if
+25:31
+like you hit one button and Gemini sort of like scans your whole calendar and
+25:36
+like finds an ideal time uh and slots that and automatically plugs them into
+25:42
+your email and it basically finds the right time for you to have that uh you know like meeting and when the other
+AI Models and Business Moats
+25:49
+person kind of picks one as well because it's like a back and forth uh the there's there's an invite it happens
+25:55
+like no doodle no passive aggressive followup you know because a lot of people do passive aggressive the
+26:00
+follow-ups and I I don't like it as per my email. So, what's smart about this is that Gemini doesn't just look at uh the
+26:08
+availability, it actually reads the context of it all. So, if someone says like can we do a 30 minute uh meeting
+26:15
+before next Friday, it it kind of filters out your open slots and like try
+26:21
+to match what exactly that like if it can do that on Friday. So, it's context
+26:27
+aware uh sort of scheduling which is beautiful. It's amazing and for people that have a lot of like for people that
+26:33
+are very busy and like have have to have a lot of meetings uh all day long like back to back this is very useful and uh
+26:40
+it's a very like sort of a small change but it kind of like completely redefineses what we expect from uh AI
+26:47
+assistance. Yeah. Um so again I haven't really looked into this one too much but it's
+26:53
+like so if somebody if somebody emails you and says hey I'd love to jump on a call next week. Do you have any
+26:59
+availability? Does Google just jump in and respond or would I send an email
+27:04
+saying, "Hey, I'm tagging Google to find a time on my calendar." I think it does it automatically like it
+27:10
+just like kind of like scans it out and uh kind of finds what you have and what they have and like kind of merg and like
+27:17
+sends the invite. So that's how And if they both pick the right time, it it does it kind of creates the meeting or
+27:24
+like kind of schedule it. Yeah. Yeah. Yeah. Yeah. Yeah, it's it's interesting cuz one of the things that that I'm
+27:29
+constant I feel like I'm constantly talking about this with like OpenAI and Google and and these companies is that
+27:36
+they figure out what the AI that they developed is being used for in other
+27:43
+companies and then when they find like use cases that other companies have done well, they go, "Cool, we're just going
+27:49
+to go build that ourselves." They run and yeah, they run they run with it. I like it so far. This launch
+27:55
+obviously is not random. Like it's it's been because they do a lot of stuff. They they kind of like
+28:00
+how do I explain this? Like you know how like uh I don't like to do the comparison, but in my mind this is the
+28:05
+comparison. Um you know how like uh you'd find like a really high-end brand that does this nice bag. All of a sudden
+28:12
+Zara or like or like these kind of like uh smaller not smaller shops but
+28:17
+like kind of chain shops do the same thing. This is how it's working out in the AI world. It's part of obviously a
+28:24
+bigger Gemini strategy. So Google's quietly um you know threading AI through every corner of the workspace. So we
+28:31
+have it in slides which is awesome by the way. I do a lot of presentations and it it's it's
+28:36
+amazing. And then now it has like AI images and like AI image tools etc. Notebook LMS. I haven't really played
+28:42
+out with notebook LM yet but it's it's pretty smart so far. And even Google Vids is getting an AI revamp.
+28:50
+Yeah. Uh, Gemini, Google in general likes to run with an idea and kind of like keeps on building and building.
+28:56
+It's like a like a like a block of things that keeps on building, which is awesome. Google is amazing. I like it.
+29:01
+Yeah. But it does sort of beg the question, you know, what what company can I build using AI models that uh, you
+29:11
+know, Microsoft, Google, OpenAI aren't just going to go and build and compete with me later, right? I I feel like
+29:17
+that's kind of the question. We've been hearing this for years now around AI is,
+29:22
+you know, no companies have a moat anymore. And I feel like if you're building a company on OpenAI's
+29:28
+technology, on Google's technology, on um even now Microsoft's models, if
+29:33
+you're building technology on top of these things, are you able to really build any sort of moat for your
+29:39
+business? Because if something really takes off and really really works well, there's a pretty good chance Google or
+29:45
+OpenAI is just going to be like, "Oo, that worked well for the company that's using our API. We're going to run with it." Yeah. Let's just skip the middleman.
+29:53
+Yeah. Uh it's it's a very tough market right now for like people in like small
+29:58
+uh you know, startup companies. Uh obviously it is worrisome, but I think this is how you'd find out who is the
+30:05
+most creative one in the game. And it's it's a it's a it's a game of like who's the most not powerful but who's the most
+Bringing Characters to Life
+30:11
+creative right now. So it it even if that happens um it just takes
+30:17
+the right person and you know to to market it the right way and to make sure that they build their own guard rail so
+30:23
+that no one else steals it. So we just wait we have to wait and see. People have as I said very creative. So
+30:29
+we'll just have to see who is the most creative of them all like Lord of the Rings and stuff. So yeah I I agree. I think I think you know
+30:36
+people figure it out, right? I I I think we always sort of uh find solutions to
+30:42
+these kinds of things. Um and and in my opinion, I think the big differentiators are going to be two
+30:47
+things. User experience and customer service. The companies that can figure out user experience and customer service
+30:52
+are probably always going to mostly outperform, you know, a version that Google made,
+30:58
+but it's not like a main sort of thing for Google, right? if this is this company's main thing and they can put
+AI Tools and Future Uncertainty
+31:04
+all of their focus on yes, you can do this with Google, but we have way better customer service. We're going to walk you through it. We're going to hold your
+31:10
+hand and you have a better user experience. It just feels more intuitive. It's easier to use. You like the color schemes, whatever. Those are
+31:18
+going to be the differentiators because the underlying technology that powers almost all the tools in the future are
+31:24
+all going to be fairly the same. 100%. Yeah. I think like if they build
+31:30
+something, if anyone like creates a startup and we can see a lot of startup, I I don't know if people have access to there's an AI for that, but there's
+31:36
+always something there's always an AI tool. So, it just takes the right if if I go on on like a live chat with that uh
+31:43
+you know on their website and and no one else is there, I'm going to be pretty upset. But if they kind of guide me out of the problem, I'm probably going to
+31:50
+use it forever because I know for a fact that they care that I'm having problems with that. So yeah, as you said, UXI and
+31:57
+uh customer service etc. So yeah. Yeah. Yeah, absolutely. And more and more companies are like using AI
+32:03
+automations for their customer service which I believe is going to make real human customer service feel much more
+32:09
+valuable and premium. So I think there's that element as well. Cool. Well, there's there's a handful of
+32:14
+other news stories that have come out in the last, you know, few weeks um that maybe we don't need to go as deep into,
+32:20
+but we can just kind of look at them from a surface level, help people, you know, sort of be aware that the these
+32:25
+things came out. Um the day that we're actually recording this video, Google just launched VO3.1,
+32:32
+which is about 10 days after Sora 2 came out. So, we've got these two video
+32:38
+models within a two week window that both came out really, really, really close to each other. I don't think
+32:44
+either of us have had a chance to play with VO3.1. It's so fresh at the time of this recording. Came out today, probably. Yeah. I mean,
+32:51
+came out today, the day we're recording this. Um, and and some of the the the claims they made about it, they
+32:56
+basically said it's much more prompted here now. It's a little bit more realistic now. The sound effects are
+33:02
+pretty much the same, but you can also do start and end frames now. So you can actually give it like a starting frame
+33:07
+that you want the video to, you know, start with and an ending frame and it will figure out how to animate between the two frames. That's one of the newer
+33:14
+features that they just rolled out with 3.1 as well. Beautiful. Which I'm I'm really excited about because when you take Nano Banana and
+33:21
+you take something that gives you start and end frames, now you have like endless possibilities for animations
+33:27
+because you have your starting image, right? And then you take it and you give it to Nano Banana and say uh you know
+33:33
+make this person uh facing that direction instead of this direction. And
+33:38
+then you put both images in V3 and now you can animate it between the two scenes that you generated. So that combo
+33:44
+of nano banana and VO3 gives you this like infinite customizability of creating almost any
+33:50
+animation you can imagine which I think is is what's really exciting. And I think it's only a matter of time before
+33:56
+Nano Banana and V3 are all just sort of clumped into one sort of video making platform. In my opinion, they should be. In my
+34:02
+opinion, they should be cuz can you I I'm speaking from for all the nerds out
+34:07
+there and the people that love, you know, game I I'm not a gamer, but I am a book girdie. So, can you imagine the
+34:13
+amount of stuff that we can create? I have been on Tik Tok obviously with like book talk and everything and I've been
+34:18
+seeing what everyone has been creating and it's just beautiful and I think the
+34:24
+you know creativity goes so far but like people are so creative the it's it can
+34:29
+you imagine like your favorite characters coming to life you've been seeing them in books and I'm saying this from like a like my own perspective and
+34:35
+I know like a lot of people that could maybe could be watching this they know what I'm talking about having our
+34:41
+favorite characters whether it was in a game or whether it was in a book or whether it anything else like a fantasy book or whatever coming to life. This is
+34:48
+what we want to see because we don't get to see it every time. It doesn't get picked up by any um production house or
+34:54
+anything. So, it's awesome. We are so excited about this. So, yeah, the nerds out there are like wooing right now.
+35:01
+Yeah, you can make your own sort of visual fanfiction. Exactly.
+35:06
+That's awesome. Yeah. No, I I I'm I'm really excited about these tools. Um,
+35:12
+again, I always look at almost everything that comes out in AI from like both sides, right? I look at it as
+35:18
+like this is really fun. I love to like make these kinds of videos and I have a lot of fun with it, but then I always I
+35:23
+look at the other side, too, and I always wonder, all right, well, where is this all headed, right? Um, I have this
+35:29
+sort of like tinfoil hat theory about platforms like Meta and Tik Tok and and
+35:34
+and things or yeah, Instagram reels and Tik Toks and things like that is that if
+35:40
+we can generate videos with AI with prompts right now that look really good that people want to watch, at what point
+35:48
+does Meta and Tik Tok still need the human to actually physically type the prompt, right? If I can get on Tik Tok
+35:54
+and start scrolling and it knows what videos I sort of pause on for a minute and watch the full video and then I go
+36:00
+to the next video and I kind of skip over it quickly, that's how Tik Tok learns, right? It it pays attention to what you sort of stick on and what sort
+36:06
+of stuff you scroll past quickly gives you more of the stuff you stick on and gives you less of the stuff that you
+36:12
+scroll past quickly. Well, at what point do the AI algorithms go, "Okay, well, he tends to stick on this kind of stuff.
+36:18
+Let's generate prompts in the background that just generate more videos like the stuff that he sticks on. At that point,
+36:26
+are the creators still necessary? Because I'm getting my dopamine hit of like, oo, I like that video. Oo, I like
+36:31
+that video. But it's just being generated in the background. I think that's where like my concerns lie with a lot of the video generators.
+36:37
+I have the same concern obviously. I don't want to be sticking on the same exact thing. It could be like a neverending loop of infinity stuff that
+36:45
+I've seen already. like I don't want to be, you know, seeing the same exact video but like from different font, you
+Elon's XAI: Revolutionizing AI Understanding
+36:50
+know. So, yeah, it is it I I'm also curious to see how everything is going
+36:55
+to turn out. Is it going to stay on the same algorithm? Is it is my FY just going to be the exact same video or like
+37:02
+something else? So, yeah, we just algorithm changes. I mean, the algorithm on LinkedIn uh is changing. What if it's
+37:10
+on Tik Tok? So, yeah. Yeah, we'll have to see. We'll have to wait and see how everything turns out to be. Absolutely.
+37:15
+And then also the day that we're recording this, uh, Anthropic released a new model, right? They just released
+37:21
+Haiku 4.5. And Haiku 4.5 is actually cheaper to use and it's faster than
+37:27
+Claude's Sonnet. Uh, I think Sonnet 4. I don't know about 4.5, but I think it's cheaper and faster than Claude Sonnet 4.
+37:34
+And it's a free model that you can anybody can just go use at Claude's website. So you don't even have to pay if you want to go use this new model.
+37:41
+Um, so my opinion on large language models and these like rollouts of a new
+37:47
+LLM, I feel like there's at least two new LLMs every week, right? Like probably
+37:52
+I believe two to three Yeah. business days. Yeah. In every Yeah. There there's two or
+37:57
+three that come out every single week and all of them to me feel like fairly
+38:03
+marginal improvements, right? Like they got they it got slightly faster, it got slightly smarter. um it hallucinates
+Training Robots in Virtual Worlds
+38:10
+slightly less. But then I look at, you know, the So we're we're we're AI
+38:16
+tech nerds. Like we're we're in it, right? We're we're seeing all these models. We might get excited by these like small improvements, but like 95% of
+38:24
+the world that's not paying attention to like every new roll out that comes out with large language models or AI. Like
+38:30
+90% of the world doesn't really care that a model got 5% better on some sort
+38:36
+of benchmark, right? Like most people don't care. Um, so a lot of the like new large language models that come out, I
+38:43
+tend to kind of like tune out and go, "Nah, that's cool." and just sort of ignore it because I'm probably still just going to use GPT5 or um, you know,
+38:51
+the the Gemini models that I'm already using. I mean, no offense to Claude, but I do like my GPT right now. I I hope that
+38:59
+people at Anthropic don't feel offended by this, but yeah, I mean the the it's
+39:04
+just like my mom started using GPT the other day and like she was fascinated by it, but like she doesn't care if like
+39:11
+GPT 5.5 is going to come out, I don't know, like next year, you know, because it's going to give her the results. So,
+39:17
+it's just yeah, the the the upgrades are not upgrading in my opinion. It's just the same. I want to see something insane
+39:24
+like I want them to create something huge. I'm not asking them to go on the moon right now. Like they can, but you
+39:30
+know, like give me something that kind of like shocks me. I want to be bamboozled by it. Give me something that would shock me to my core right now. The
+39:38
+4.5 stuff is cute and everything. Just we want to see more things, please.
+39:43
+Thank you. I also feel that, you know, being immersed in AI all the time, I've become harder to impress. You know what I mean?
+39:50
+Like we see stuff all the time and we're like, "Oo, that was actually kind of impressive." And then you see another company do something similar that's
+39:56
+slightly better. They did. Yeah. That was done last week. They did it. Like give me something new,
+40:01
+bro. Like I don't want to see the same exact thing with different fonts. Yeah. Yeah. So that that's kind of how I feel
+40:07
+about the new large language model releases. To me, it's mostly just kind of meh. That's cool. I'm excited about
+40:14
+the next big leap, not the next marginal leap, you know. Um. Well, cool. So, let's talk about
+40:19
+Elon because Elon is I guess been talking about an XAI world model. Um,
+40:25
+and there there's been a lot of talk about world models and if we're talking about things that are kind of like sexy big leaps that really excite me, world
+40:32
+models are actually one of them. Like when we saw G was it Genie, is it just Genie or is it Genie 3? I don't remember
+40:38
+it was called. Yeah, it was. Yeah. But Google showed off their their Genie model which looked really really
+40:43
+impressive. And then you have World Labs. That was impressive. That was news. Yeah. Yeah. You have World Labs. uh co-founded
+40:49
+with uh by Feay Lee which is building these world models as well and beautiful
+40:54
+stuff. I got a demo I I went to A16Z in New York a couple weeks ago and met with the
+41:00
+people who who made World Labs and they gave me some demos of what it can do and it was it was mind-blowing. I mean people were
+41:05
+walking around these fully AI generated synthetic worlds that they created by actually scanning these worlds in with
+41:12
+their phone, right? They were using the you know gouge and splatting technique to Yeah. scan. I don't want to get too into
+41:17
+the weed, but you know, they scanned in all of these images. Those images turned into a 3D world model that they can then walk around in.
+41:23
+Um, and I guess Elon's doing something similar. I actually haven't heard about uh the XAI world model. So, I'm I'm
+41:30
+hearing about it for the first time from you, but I'm I'm curious like what what's the story there? I mean, can Elon sit still for like five
+41:36
+minutes? I don't think so because he's going to do something huge, obviously. Uh, so yeah, XAI is now building the
+41:43
+world models. Uh, and it's basically AI that doesn't just read for people that don't know what that is. It's like the
+41:49
+it's like the world. It doesn't read the world like Chhattip does. It understands it. So, it's like it's it goes into into
+41:56
+the nooks and crannies. And these models uh learn physics from the videos and
+42:01
+robots and they can simulate reality. Uh, so you know, think AI that knows how
+42:07
+things fall and move and crash and, you know, so he's even teasing an AI
+42:13
+generated video game next year. People, the nerdies out there, who knows what I'm talking, they know what I'm talking
+42:18
+about. Uh, but the big the big picture is that if this works, which is it's going to, uh, it could change
+42:25
+robotics and gaming and it could be insanely hard to train obviously. Yeah.
+42:30
+you know, you'd need data over data over data that basically mirrors the real world that we live in. So,
+42:37
+um, is Elon trying to build the next Matrix, you know, or like who knows?
+42:42
+We're trying to see what he's he's up to, but yeah, that's what basically is. Yeah. Yeah. I I think that for me the
+42:49
+there's a handful of really fascinating things about the world models but I think the one that is sort of the the best use case right now is u using these
+42:58
+world models as virtual environments to train you know robots or self-driving cars or things like that right it's it's
+43:04
+a lot safer for everybody involved to put a robot into a virtual world like
+43:10
+put the the brain not not the physical robot but like you know the brain of the robot into this virtual world let it
+43:16
+learn in a virtual real uh uh environment. Let it like trip over things. Let it learn how to walk. Let it
+43:22
+learn how to do all the mechanics that it needs to do in this virtual world. Then you take that brain that was
+43:27
+trained in a virtual world, put it into a robot in the physical world, and it already understands how to do. It's like
+43:33
+the Matrix, like you mentioned, like the robot now knows kung fu cuz it sort of got itself learned in a virtual world.
+43:40
+Um but for self-driving cars and things like that, I think that's really really exciting. And I think that's um that's
+AI Diagnoses Man's Lyme Disease
+43:48
+something that's going to really really speed up the the the time to market of a
+43:53
+lot of products of a lot of self-driving cars and robots and things like that because in a virtual world you could do
+43:58
+it at you know exponentially faster speeds than you can in the real world. So you can train a lot faster.
+44:05
+100%. I think, as I said, the people that know how things work with the like
+44:11
+with virtual reality reality are going to nerd it out. Like they're going to probably lose their minds with what is
+44:16
+coming. And Elon doesn't go like whether you like him or you don't like him. He doesn't go like just he doesn't just do
+44:23
+it on the surface. He doesn't do it though do it at the surface level. He goes deep. So we're going to see insane
+44:29
+stuff. We just have to wait and see what he's up to. Yeah. I mean, he might be It could sound like a Matrix thing. He might be like a year late on his
+44:35
+timeline because he's never really very good at estimating times, but but he'll do it.
+44:40
+But he's probably going to do it. Yeah. Yeah. Yeah. It's funny that the companies that I think are the most best
+44:46
+set up to actually develop these world models to me are Tesla and Meta because
+44:52
+uh Tesla has all of the camera sensor data from its cars, right? So, it can use all of that data to train world
+44:57
+models 100%. But it's only going to train world models on what it can see from the street, right? is not going to get those
+45:02
+world models and nooks and crannies and inside of buildings and stuff like that. Meta on the other hand,
+45:08
+they've pretty much pioneered putting cameras on everybody's face, right? With the meta rayan glasses.
+45:15
+Yeah. So, I feel like and they definitely want that visual data to train AI models. Then, in fact,
+45:21
+when you get the glasses, I think you you pretty much check a box saying you can use the visual data that I collect
+AI Enhancing Healthcare Diagnosis
+45:27
+from my glasses to train models. And so, to me, it's it's fascinating. I think that's those are the two companies
+45:32
+most sort of set to train these world models and neither of them are really talking about world model. Well, I guess
+45:38
+Elon is but he's probably using the Tesla data. Meta isn't yet. So like we have to see what Meta has to but what I wish for
+45:44
+Meta is that okay sure Ray-B bands are cute but like can you go for like another house like can you maybe like do
+45:50
+Pradas? I would love to wear Pradas rather than Ray-B band. I don't want to wear Ray-B bands. Like,
+45:55
+well, they they rolled out Ray-B bands and then they rolled out Oakley's. So, I mean, and and to be honest, like there's
+46:02
+pretty much like one sunglass manufacturer that manufactures all of them, right? Uh is what's it called? Uh
+46:09
+Luxar Exotica or something. I can't even think of the name, but but there's one parent company that owns Rayban, owns
+46:15
+Oakley. I don't know if Prada is one of them or not. I I don't know which companies. You should partner with Prada. This is
+46:21
+all that I'm asking. I want to walk out looking nice. I don't want to wear Ray-B bands. They look cute, but like I want to I want nice product.
+46:28
+I want to look expensive, but I don't want to look like I have like I don't want people to know that I'm wearing
+46:33
+Ray-B bands. That's And I do think that's actually their road map is to get them into like more and more styles of glasses so everybody
+46:40
+gets like their style but with the extra features. Yes, please. This is my official
+46:46
+request. Please. Thank you. Let's let's talk about the the Google AI makeup thing. Now, this is something I
+46:52
+just saw briefly. Um, but it seems to be some sort of filter inside of Google Meet now that's leveraging AI.
+46:58
+I can't wait to use it. Yeah. So, Google Meets just became like everyone's favorite coworker because you know like
+47:04
+you know that the one who says like, "Oh, you want to go on a meeting and you look like you woke up from a bad night
+47:09
+like after a bad night or like you've been hung over. Uh, we I've got a concealer to cover everything up." So
+47:16
+they, you know, they've launched, uh, an AI powered, uh, makeup filter for those mornings when your face doesn't, it says
+47:22
+you didn't sleep. So, uh, and there are like 12 virtual looks, which is nice.
+47:29
+But the white part is that the filter doesn't glitch when you move and it stays, you know, so you can sip coffee,
+47:36
+blink, or like side eye your boss or like do whatever you want with the makeup staying flawless.
+47:41
+Uh, I I am a very makeup girly. I like makeup a a lot, so I cannot wait to use
+47:46
+it. I don't want to just have to wear my makeup every single time I go on meetings if it's like an open cam. I
+Mindstream: Daily AI Updates
+47:52
+really want to make sure everything looks good, but I haven't worn anything that day. So, right, obviously beyond the fun, this shows how
+47:58
+far uh real-time AI tracking has come and it's just, you know, like smoothing
+48:04
+faces and reading motions uh with scary precision, but I like it. This is what I
+48:09
+want. I I need one that's like a AI hair fixer. Why do you think I always wear hats? It's because like a lot of times I
+48:15
+jump up and go jump on calls and I just need to throw on a hat because I wasn't able to brush my hair real quick. Men are so lucky. Like it's just a hat.
+48:22
+I have to have like a full makeup on because I because Yeah, that's they're complaining about hats now and like you
+48:29
+can wear something and I have to put makeup on. Yeah, I I I guess that's yours is
+48:35
+probably a better solution to solve than mine. Yeah, that's true. I they're probably going to do something about the hair. We'll have to wait and see. But uh
+48:42
+yeah. Cool. And then the the last little one that I want to talk about is something
+48:48
+that I for when it comes to the AI world. This is the thing that I think is going to be the most beneficial to
+48:55
+humanity as a whole, right? Is the ability for AI to sort of early diagnose
+49:00
+diseases, find new cures, find new way treatments for diseases, things like that. And I guess there was a new story
+49:06
+in the past few days about how AI helped somebody diagnose Lyme disease when
+49:12
+doctors couldn't diagnose it. Yeah. Uh the story was pretty pretty
+49:18
+shocking. We covered it on the Mystream newsletter and there's a man here in the UK that used AI to figure out what his
+49:24
+doctors his GP uh couldn't uh for people that don't know what GP is like general practitioner. This is what they use in
+49:31
+the UK. Uh, so after years of being told like his symptoms were anxiety and like
+49:37
+being gaslit, he typed them all into an AI tool and it kind it suggested Lyme
+49:42
+disease. So after a private test, it confirmed that it is. And he said like if if if I
+49:48
+haven't like I hadn't persisted and like used AI, I didn't I wouldn't have known that I had that. Uh so it's both
+49:55
+incredible and like obviously for a lot of people a little unsettling, you know, like a proof that AI can connect medical
+50:02
+dots a human might miss. So uh but also like a reminder of like why self diagnosis still comes with real actual
+50:11
+risks. So it's it's wild. It's wild. A lot of things I myself had the same
+50:16
+experience but like not as close to something as serious as a Lyme disease.
+50:21
+M um like I was like looking for something for my hair because I felt like the you know the I I changed environments. I
+50:28
+came from my home country to here and the the water is different. You know the the water in the UK is thicker. So it
+50:33
+kind of sort of like confirmed to me that it is because of the water here in the UK and I this is
+50:39
+what I need to take and what kind of like product I need for my hair. Yeah, self diagnosis is it comes with risks
+50:46
+and you should I in my opinion even though like the people are going to hear this like oh our doctor is not going to
+50:52
+be um you know u necessary anymore etc. There are you can do both. If you feel
+50:59
+like you want a second opinion, you can go to a third opinion. That's how it is. Like people don't go to one doctor to
+51:04
+find out what's happening to them on normal days. Whenever we find like a mole or or something, we always have a
+51:10
+second opinion. That's the same exact thing in my opinion. Yeah. No, I I I totally agree with that. I I don't think doctors are going
+51:16
+anywhere. In fact, I just think doctors are going to get better at their jobs. I think AI is
+51:22
+going to assist them in diagnosing stuff that maybe they they missed somehow. I think it's going to help recommend
+51:28
+treatments for things that um you know maybe they wouldn't have just normally thought of off the top of their head. So
+51:34
+I actually think it's going to like really improve the the sort of healthc care experience of of getting things
+51:41
+right the first time. And Lyme disease is a really good one to figure out cuz Lyme disease is really really hard
+51:47
+unless unless you can see like the little tick bite with the like the little circle that shows that you got Lyme disease, right? Like there is if
+51:53
+you catch it quick enough you can you can spot that it had Lyme disease but after that goes away and there's no like
+51:59
+markings to show it. Lyme disease sort of manifests itself in a way that feels
+52:05
+like 15 other things. Right. And so most people that get Lyme disease it's like
+52:10
+they think it's this then they think it's this then they think it's this and then finally figure out that it's Lyme disease. Exactly.
+52:15
+Um so it's one of the more hard one of the more difficult things to diagnose. I
+52:20
+only know some of this stuff because my son had a Lyme disease issue a long time ago when he was younger, but
+52:26
+it is one of those uh it is one of those things that like it's really hard to diagnose. So
+52:32
+Oh, yeah. That's pretty exciting that they that it can it can sort of connect those dots now.
+52:37
+Yeah. Yeah. Exactly. It's relieving for a lot of people. Um a lot of people have anxieties over that. It causes more
+52:43
+anxiety. Like the fact that you don't know what's happening to you is going to make everything worse because that's how
+52:48
+it is. It's like your mentality is going to be stuck on the idea that I can't find anything and it's going to get worse and worse. So, yeah.
+52:54
+Absolutely. I mean, it's it's a fun world to be in. I mean, how how have you been enjoying uh diving into like AI
+53:02
+stuff? Because to me, it's just been so much fun. Like every I I feel like I feel like a kid on Christmas where I'm
+53:09
+just getting new toys constantly and they're like, "Here's a new toy to try. Here's a new toy to try." Yeah. The thing is when I was start when
+53:16
+I was studying politics obviously people were like oh you know like you're studying something so rigid but actually
+53:22
+it isn't because of how everything you know unfolds in and the political world the same thing is with AI every second
+53:29
+of every minute you know like you you something pops up like what happened today with VO and like people are going
+53:35
+to see this today but it's uh the next week but like it is today. So, um it's
+53:40
+very refreshing to wake up to new news. Uh it's very refreshing to see what AI could help with and like kind of like
+53:47
+call out, uh these missteps that that it does. Uh obviously, because we are human
+53:52
+at the end of the day, we're going to call out when there's there's a mistake. Uh but yeah, I've been loving it so far,
+53:57
+especially the fact that I I get to write about it is the best part about it all, honestly. So, yeah.
+54:04
+Yeah, it's it's awesome. A little overwhelming at times. a little bit of a fire hose flood of information at times,
+54:10
+but it's it's a lot of fun. Well, very cool. So, you you uh you write the Mindstream newsletter, which
+54:16
+goes out, is it five days a week? Every business day, every seven days.
+54:21
+Yeah, we do it every single day. Uh I I think it depends on where you are in the
+54:26
+world. Uh in the UK, it comes out uh at 400 p.m. For a lot of people, it's 7 a.m. So, yeah, it's uh that's how it is.
+54:34
+Very cool. Well, if if if you don't want the AI news to feel like a fire hose, getting a little quick daily report on
+54:40
+what's going on could be helpful. So, um yeah, definitely check out the the Mindstream newsletter. And Maria, this
+54:47
+is this has been an absolute blast. I'm I'm looking forward to doing more of these and just kind of nerding out with you about future AI news.
+54:54
+I'm so glad to be here. Honestly, this was awesome. Thank you so much. Awesome. Well, thank you and uh hopefully we'll see everybody in the
+55:00
+next one. Yeah. See you. That's my
