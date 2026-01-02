@@ -446,12 +446,46 @@ This comet has five asteroid satellites providing detailed specifications:
 
 ---
 
+## PRACTITIONER VALIDATIONS
+
+External sources validate and refine the agentic architecture perspective:
+
+### Timeline Calibration
+
+**Andrej Karpathy** (SOURCE-20251017-001): "It's the decade of agents, not the year of agents. They just don't work yet—not enough intelligence, not multimodal enough, no continual learning."
+
+This validates the "Challenges Persist" assessment (Section 9.1). Current systems lack the cognitive completeness for full autonomy. The 51-72% unsafe behavior rates and 90% failure rate reflect genuine architectural gaps, not implementation issues.
+
+### RL Limitations for Real-World Agents
+
+**Karpathy critique** (SOURCE-20251017-001): "Reinforcement learning is terrible. The core problem is that RL requires a reward signal, and getting that reward signal in the real world is extremely hard."
+
+Implication: Real-world agents require hybrid architectures combining LLM pattern-matching with alternative learning paradigms. Pure RL agents fail outside closed domains (games). This validates the emphasis on human-in-the-loop architectures.
+
+### Experiential Learning Gap
+
+**Richard Sutton** (SOURCE-20250926-001): "LLMs are trained once, deployed, and don't learn from the responses they give. In a true RL system, the agent would be continually learning."
+
+The CoALA framework's Learning module addresses this architecturally, but current implementations lack true continual learning. The "decade of agents" timeline reflects this gap.
+
+### World Model Debate
+
+**Sutton vs. LLM paradigm** (SOURCE-20250926-001): "A world model would enable you to predict what would happen. LLMs predict what a person would say—they don't predict what will happen."
+
+This informs agent architecture design: effective agents need grounded world models, not just text pattern matching. Tool use partially addresses this (grounding in external systems), but fundamental limitations remain.
+
+---
+
 ## VERSION HISTORY
 
 **Version 1.0.0** (December 2025): Genesis establishment
 - Canonized from Technology Lunar - Agents.md
 - Crown jewel of Intelligence Chain technological substrate
 - Establishes definitive agentic architecture reference
+
+**Version 1.1.0** (January 2026): Source integration
+- Added Practitioner Validations section with external source insights
+- Integrated Karpathy, Sutton perspectives on agent timelines and limitations
 
 ---
 
