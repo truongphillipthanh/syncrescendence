@@ -1,1 +1,0 @@
-../../../../SOURCES/raw/20250617-youtube_video-y_combinator-andrej_karpathy.md

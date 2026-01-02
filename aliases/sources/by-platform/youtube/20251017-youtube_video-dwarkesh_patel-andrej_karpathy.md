@@ -1,1 +1,0 @@
-../../../../SOURCES/raw/AGI/20251017-youtube_video-dwarkesh_patel-andrej_karpathy.md

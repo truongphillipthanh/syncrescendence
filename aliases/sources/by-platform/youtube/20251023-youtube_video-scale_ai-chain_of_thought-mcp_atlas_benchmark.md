@@ -1,1 +1,0 @@
-../../../../SOURCES/raw/0/interviewers/scale_ai/20251023-youtube_video-scale_ai-chain_of_thought-mcp_atlas_benchmark.md

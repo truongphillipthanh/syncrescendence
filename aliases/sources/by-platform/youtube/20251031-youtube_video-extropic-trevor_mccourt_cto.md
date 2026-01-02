@@ -1,1 +1,0 @@
-../../../../SOURCES/raw/transcripts/20251031-youtube_video-extropic-trevor_mccourt_cto.md
