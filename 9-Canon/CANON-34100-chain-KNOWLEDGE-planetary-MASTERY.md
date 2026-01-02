@@ -349,6 +349,66 @@ Planetary Mastery corresponds to the **Embodiment Chain**—knowledge crystalliz
 
 ---
 
+## KNOWLEDGE TAXONOMY INTEGRATION
+
+**Reference**: CANON-00016 (Ontological Framework) for complete specifications
+
+### A. The Unified Knowledge Architecture
+
+Mastery development operates across a **five-axis dimensional matrix** that maps all forms of human knowing:
+
+| Axis | Dimension | Mastery Application |
+|------|-----------|---------------------|
+| I | Mode of Access | How you acquire skill (perceptual, inferential, experiential) |
+| II | Content Domain | What you're mastering (physical, conscious, symbolic, ultimate) |
+| III | Transformative Depth | Effect on you as practitioner (skill → wisdom → transmission) |
+| IV | Social Distribution | Who can access this knowledge and how |
+| V | Practical Application | How mastery guides action |
+
+### B. Transformative Depth for Skill Progression
+
+Mastery progresses through **five levels of transformative depth**:
+
+| Level | Characteristic | Stage Alignment |
+|-------|---------------|-----------------|
+| **Informational** | Facts, patterns, basic recognition | Pre-Stage 1 |
+| **Competency** | Technical skill, procedural ability | Stage 1-2 |
+| **Understanding** | Conceptual integration, analysis | Stage 2-3 |
+| **Wisdom** | Practical judgment, embodied knowing | Stage 3-4 |
+| **Transmissive** | Teaching capacity, lineage creation | Stage 4+ |
+
+### C. Civilizational Synthesis for Skill Development
+
+Different traditions offer complementary approaches to mastery:
+
+| Tradition | Core Principle | Mastery Contribution |
+|-----------|---------------|---------------------|
+| **Western** | Method-Based Validation | Systematic, reproducible skill development |
+| **Hindu** | Consciousness Development | Integration of skill with consciousness evolution |
+| **Buddhist** | Interdependence | Recognition of skill as relational, contextual |
+| **Chinese** | Natural Spontaneity | Wu Wei—effortless action as highest mastery |
+| **African** | Collective Being | Skill as community property and responsibility |
+| **Indigenous** | Sacred Reciprocity | Skill development as partnership with reality |
+
+### D. Practical Integration
+
+**For Skill Selection**:
+- Consider which content domains serve your development
+- Balance modes of access (don't rely solely on one learning style)
+- Map chosen skills to chain development requirements
+
+**For Practice Design**:
+- Calibrate practice intensity to transformative depth goal
+- Include embodied, contemplative, and relational dimensions
+- Build toward transmissive capacity from early stages
+
+**For Teaching Development**:
+- Develop validation methods across traditions
+- Build synthesis capacity for cross-domain transfer
+- Cultivate lineage consciousness (teaching as legacy)
+
+---
+
 ## INTEGRATION INTERFACES
 
 **Prerequisites**:

@@ -1,3 +1,4 @@
 date,sprint_id,total_points,completed_points,remaining_points,ideal_remaining
 2026-01-01,SPRINT-001,40,0,40,40
 2026-01-02,SPRINT-001,40,8,32,34
+2026-01-02,SPRINT-001,52,32,20,28

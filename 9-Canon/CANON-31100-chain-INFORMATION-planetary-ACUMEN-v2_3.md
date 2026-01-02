@@ -966,6 +966,60 @@ For detailed tactical implementation guidance, see:
 
 ---
 
+## SECTION X: MEANING TAXONOMY INTEGRATION
+
+**Reference**: CANON-00016 (Ontological Framework) for complete specifications
+
+### A. Meaning as Signal Substrate
+
+Acumen reconnaissance operates not merely on information but on **meaning**—the substrate that makes signals intelligible. Understanding meaning dimensions enables more sophisticated signal qualification.
+
+### B. Semiotic Dimension Application
+
+Every signal in Acumen reconnaissance can be analyzed across **five meaning modalities**:
+
+| Meaning Type | Description | Acumen Application |
+|--------------|-------------|-------------------|
+| **Existential** | Why it matters at all | Priority Band Tier 1 qualification |
+| **Intentional** | What the source meant to convey | Source credibility assessment |
+| **Interpretive** | What you construct from it | Synthesis preparation |
+| **Referential** | What it points toward | Cross-domain connection |
+| **Operational** | How it functions in practice | Actionability assessment |
+
+### C. Fourteen Dimensions for Signal Richness
+
+Full reconnaissance attends to signals across **14 experiential dimensions**:
+
+**Primary Dimensions for Acumen**:
+- **Cognitive**: Abstract principles to concrete methods
+- **Semiotic**: Significance gradients in content
+- **Temporal**: Historical context to future implications
+- **Social**: Individual insight to collective patterns
+
+**Secondary Dimensions** (for deeper synthesis):
+- Psychological, Phenomenological, Volitional, Embodied
+- Behavioral, Characterological, Aesthetic, Linguistic
+- Spiritual, Environmental
+
+### D. Practical Integration
+
+**During Morning Reconnaissance**:
+1. Notice which meaning dimension dominates each signal
+2. Flag signals with cross-dimensional significance (higher value)
+3. Track patterns in which dimensions your sources emphasize
+
+**During Weekly Synthesis**:
+1. Map patterns across dimensional matrix
+2. Identify dimensional gaps in your feed (blind spots)
+3. Seek sources that address underrepresented dimensions
+
+**For Feed Curation**:
+- Balance sources across meaning dimensions
+- Avoid dimensional monoculture (e.g., all cognitive, no embodied)
+- Use dimensional diversity as quality indicator
+
+---
+
 ## CONCLUSION
 
 Planetary Acumen cultivates atmospheric awareness—omnipresent perception permeating all experience. Through four-stage development, practitioners advance from basic pattern recognition toward embodied knowing, contributing refined sensitivity to the Syncrescendent Core.

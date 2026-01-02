@@ -1,10 +1,20 @@
 id,project_id,name,type,status,priority,owner,blocked_by,estimate_hrs,actual_hrs,created,updated,notes
 TASK-001,PROJ-001,Rename transcripts to Principal standard,task,done,P1,Claude_Code,null,2,0.5,2026-01-02,2026-01-02,184 files renamed; mapping saved
 TASK-002,PROJ-001,Update sources.csv with new filenames,task,done,P1,Claude_Code,TASK-001,1,0.1,2026-01-02,2026-01-02,184 entries updated in sources.csv
-TASK-003,PROJ-001,Process remaining paradigm sources,task,not_started,P1,Claude_Code,null,20,null,2026-01-02,2026-01-02,Batch processing of high-value transcripts
+TASK-003,PROJ-001,Process remaining paradigm sources,task,in_progress,P1,Claude_Code,null,20,null,2026-01-02,2026-01-02,Batch processing of high-value transcripts
 TASK-004,PROJ-001,Process strategic sources,task,not_started,P2,Claude_Code,TASK-003,15,null,2026-01-02,2026-01-02,Secondary priority sources
 TASK-005,null,Create project management system,task,done,P1,Claude_Code,null,3,1,2026-01-02,2026-01-02,DIRECTIVE-034B Phase 1 complete
 TASK-006,null,Reconcile QUEUE with roadmap,task,done,P1,Claude_Code,TASK-005,2,0.5,2026-01-02,2026-01-02,DIRECTIVE-034B Phase 3 complete
 TASK-007,null,Triage QUEUE/pending items,task,done,P1,Claude_Code,null,1,0.25,2026-01-02,2026-01-02,Inbox zero achieved
 TASK-008,PROJ-001,Review CONTENT_PROCESSING_QUEUE.md,task,not_started,P2,Claude_Code,null,1,null,2026-01-02,2026-01-02,May have overlapping info with sources.csv
 TASK-009,PROJ-001,Review YOUTUBE_PROCESSING_BACKLOG.md,task,not_started,P2,Claude_Code,null,1,null,2026-01-02,2026-01-02,May have additional sources not in SOURCES/raw
+TASK-010,PROJ-001,Complete Coherence qualified distillation,task,done,P1,DIRECTIVE-035A,null,4,2,2026-01-02,2026-01-02,3.8M recovered content distilled to CANON/ARCHIVE
+TASK-011,null,Create CANON-35210 Metahumanism,task,done,P1,Claude_Code,null,1,0.5,2026-01-02,2026-01-02,Distilled from 924K to ~10K
+TASK-012,null,Create CANON-00016 Ontological Framework,task,done,P1,Claude_Code,null,1,0.5,2026-01-02,2026-01-02,Mental Models integration (564K to 13K)
+TASK-013,null,Create CANON-20010 Dimensional Coordinators,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,Cognitive Palace distillation
+TASK-014,null,Create CANON-20020 Meta-Systems,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,Cognitive Palace distillation
+TASK-015,null,Create ARCHIVE-COGNITIVE-PALACE-FULL,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,908K reference archive
+TASK-016,null,Create ARCHIVE-METAHUMANISM-FULL,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,924K reference archive
+TASK-017,null,Create ARCHIVE-ARTIFACT-PATTERN-LANGUAGE,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,520K reference archive
+TASK-018,null,Integrate Knowledge Taxonomy into CANON-34100,task,done,P1,Claude_Code,null,0.25,0.1,2026-01-02,2026-01-02,Added section to Mastery
+TASK-019,null,Integrate Meaning Taxonomy into CANON-31100,task,done,P1,Claude_Code,null,0.25,0.1,2026-01-02,2026-01-02,Added section to Acumen
