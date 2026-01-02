@@ -1,43 +1,40 @@
 # ARCHIVE
 
-Distilled preservation of material that:
-- Is NOT redundant with GENESIS or CANON
-- Contains implementation specifications or forward visions
-- Passed antifragility test (survives AI capability progression)
-- Earned its position through rigorous compression
+Historical documents preserved for archaeological value. Not actively maintained.
 
 ---
 
 ## Contents
 
-| File | Source | Compression | Purpose |
-|------|--------|-------------|---------|
-| ARCHIVE-COGNITIVE-PALACE-SPECS.md | Coherence/2-CognitivePalace (903K) | 96% (→35K) | Implementation blueprints for 87-component system |
-| ARCHIVE-ARTIFACT-SYSTEM.md | Coherence/1-Artifacts (426K) | 98% (→8K) | 21-artifact pattern language vision |
+### Root Level (Implementation Specs)
 
-**Total**: ~43K preserved from 2.8M source (98.5% compression)
+| File | Source | Purpose |
+|------|--------|---------|
+| ARCHIVE-COGNITIVE-PALACE-SPECS.md | Coherence/2-CognitivePalace | 87-component Meta-Governor architecture |
+| ARCHIVE-ARTIFACT-SYSTEM.md | Coherence/1-Artifacts | 21-artifact pattern language vision |
 
----
+### scaffolding/ (Oracle Process Archaeology)
 
-## Selection Principle
+Historical working documents from Oracle4-9, preserved for process learning:
 
-Archive exists because content:
-1. **Is unique** — Not captured in GENESIS or CANON
-2. **Is specification** — Implementation detail, not exploration
-3. **Survives scrutiny** — "Will this matter with 10x better AI?" → Yes
-
-### What's Here
-
-**Cognitive Palace Specs**: The 87-component Meta-Governor architecture, Seven Pulses Dashboard, layer coordination, cross-layer matrices. CANON-20000 describes *what* the Cognitive Palace is; this describes *how* to build it.
-
-**Artifact System**: The 21-artifact pattern language for community practice infrastructure. Forward vision for collaborative development phases.
-
-### What's NOT Here
-
-- **Metahumanism framework** (923K) — Absorbed into GENESIS-001-LINEAGE
-- **Mental Models** (564K) — Exploratory frameworks, not specifications
-- **Elaborative prose** (830K) — Compressed into tables and YAML
-- **Process artifacts** — Research prompts, intermediate drafts
+| File | Oracle | Purpose |
+|------|--------|---------|
+| ALPHA_ARCHAEOLOGY_REPORT.md | Oracle5 | Restoration reconnaissance |
+| ALPHA_OPERATIONAL_COHERENCE.md | Oracle5 | Operational recovery analysis |
+| ALPHA_REPOSITORY_AUDIT.md | Oracle5 | Structure audit |
+| ALPHA_SYNTHESIS.md | Oracle5 | Synthesis of restoration work |
+| ALPHA_TENSION_MAP.md | Oracle5 | Identified tensions |
+| BETA_METADATA_SCHEMA.md | Oracle5-6 | Early frontmatter spec (superseded by STANDARDS) |
+| BETA_NOMENCLATURE_SPEC.md | Oracle5-6 | Early naming spec (superseded by STANDARDS) |
+| BETA_VALIDATION_REPORT.md | Oracle5-6 | Validation work |
+| CONTENT_ALIGNMENT_AUDIT.md | Oracle6-8 | Semantic alignment work |
+| COSMOS_ALIGNMENT_REPORT.md | Oracle6 | Cosmos structure audit |
+| CURRENT_STATE.md | Oracle7 | Structural snapshot (stale) |
+| DEFRAG_EXECUTION_LOG.md | Oracle4 | Defragmentation log |
+| FORENSIC_SEMANTIC_AUDIT_REPORT.md | Oracle8 | Semantic audit |
+| ORACLE8_STATUS_REPORT.md | Oracle8 | Completion status |
+| RECONNAISSANCE_REPORT.md | Oracle6 | Reconnaissance work |
+| THREAD_TRAJECTORY.md | Oracle6 | Arc planning |
 
 ---
 
@@ -46,7 +43,7 @@ Archive exists because content:
 ```
 GENESIS/     — Why (narrative substrate, philosophical lineage)
 CANON/       — What (constitutional architecture, operational truth)
-ARCHIVE/     — How (preserved implementation specs) ← THIS
+ARCHIVE/     — How/When (preserved specs + process archaeology) ← THIS
 OPERATIONAL/ — Active (living documents, current work)
 QUEUE/       — Pending (time-bounded items)
 EXEMPLA/     — Demonstrations (examples, case studies)
@@ -56,21 +53,13 @@ EXEMPLA/     — Demonstrations (examples, case studies)
 
 ## Usage
 
-These specifications are **reference material** for future implementation:
+These documents are **read-only reference**:
 
-- **Building Cognitive Palace UI**: Reference ARCHIVE-COGNITIVE-PALACE-SPECS.md for Seven Pulses Dashboard, layer coordination, personalization progression
-- **Community Infrastructure**: Reference ARCHIVE-ARTIFACT-SYSTEM.md for pattern language structure
+- **Implementation Specs**: Reference for building Cognitive Palace, community infrastructure
+- **Process Archaeology**: Learn from Oracle progression patterns, avoid repeated mistakes
 
----
-
-## Antifragility Justification
-
-Both preserved documents survive the "10x better AI" test:
-
-**Cognitive Palace Specs** survive because they specify *human cognitive architecture*, not AI implementation. Better AI models don't obsolete the design of how humans want their life-operating-system to function.
-
-**Artifact System** survives because it specifies *social infrastructure* for community practice. Pattern languages for human collaboration remain relevant regardless of AI capability.
+**Do not modify. Extract patterns and learnings, do not revive deprecated approaches.**
 
 ---
 
-*Archive crystallized through rigorous distillation. December 2025.*
+*Archive expanded through DIRECTIVE-034B orchestration hygiene. January 2026.*
