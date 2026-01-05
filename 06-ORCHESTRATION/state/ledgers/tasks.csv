@@ -23,3 +23,10 @@ TASK-021,null,Delete Transcript/ directory,task,done,P1,Claude_Code,TASK-020,0.2
 TASK-022,null,Archive historical Oracle contexts,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-05,2026-01-05,6 Oracle context files moved to 04-ARCHIVE
 TASK-023,null,Triage orchestration/state files,task,done,P1,Claude_Code,TASK-022,0.5,0.25,2026-01-05,2026-01-05,State files verified coherent
 TASK-024,null,Update project management ledgers,task,done,P1,Claude_Code,TASK-023,0.25,0.1,2026-01-05,2026-01-05,tasks.csv burndown.csv updated
+TASK-025,PROJ-001,Numberize orchestration to 06-ORCHESTRATION,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038A
+TASK-026,PROJ-001,Formalize state/ structure,structural,done,P1,Claude_Code_2,null,1.0,1.0,2026-01-05,2026-01-05,DIRECTIVE-038A - dynamic/ledgers/reference/archaeology
+TASK-027,PROJ-001,Create oracle_contexts/ subdirectory,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038A - 8 Oracle contexts formalized
+TASK-028,PROJ-001,Fix DIRECTIVE numbering collisions,hygiene,done,P1,Claude_Code_2,null,0.25,0.25,2026-01-05,2026-01-05,DIRECTIVE-038B - 034A/B → 034C/D
+TASK-029,PROJ-001,Create execution log template,documentation,done,P2,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038B - 01-OPERATIONAL/templates/
+TASK-030,PROJ-001,Document GitHub sync in project management,documentation,done,P2,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038B - PROJ-010 + BACKLOG update
+TASK-031,PROJ-001,Oracle 9 final verification,verification,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038 combined verification

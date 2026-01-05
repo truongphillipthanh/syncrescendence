@@ -8,3 +8,4 @@ PROJ-006,Ontology Project,initiative,blocked,P1,Oracle14,PROJ-003,14,modal1,null
 PROJ-007,Curriculum,initiative,blocked,P3,Oracle15,PROJ-006,15,modal1,null,2025-12-29,2026-01-02,Teaching Syncrescendence
 PROJ-008,Tech Lunar Canonization,initiative,not_started,P2,TBD,null,TBD,modal1,null,2025-12-30,2026-01-02,306K specs to CANON-30xxx
 PROJ-009,Modal 2 Preparation,initiative,not_started,P3,TBD,null,TBD,modal2,null,2025-12-29,2026-01-02,3D/VFX/Video synthesis runway
+PROJ-010,GitHub Synchronization,initiative,not_started,P2,Oracle10+,null,10+,modal1,null,2026-01-05,2026-01-05,Multi-account sync across Claude Code instances

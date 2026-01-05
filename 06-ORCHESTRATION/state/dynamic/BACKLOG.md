@@ -185,3 +185,39 @@ Operational cognitive system with Field Node infrastructure
 ---
 
 *Backlog updated after DIRECTIVE-021 execution. Phase 3 parallelization ready pending Oracle6 chain naming decision.*
+
+---
+
+## PROJ-010: GitHub Synchronization
+
+**Status**: Documented (Out of scope for Oracle 9)
+**Priority**: P2
+**Target**: Oracle 10+
+
+### Context
+
+Repository uploaded to GitHub.com:
+- **Main account**: truongphillipthanh@icloud.com (Account 1)
+- **Contributors**: Accounts 2 and 3 added but need proper access
+- **Current workaround**: Cloning repositories manually
+
+### Requirements
+
+1. **SSH setup**: Claude Code Desktop instances need SSH keys for write access
+2. **Sync mechanism**: Determine if clone auto-updates or needs pull
+3. **Cross-login avoidance**: Minimize authentication friction
+4. **Platform integration**: Eventual sync with ChatGPT, Gemini, Grok web/CLI tools
+
+### Technical Considerations
+
+- GitHub connector available via Claude 1 (Oracle interface)
+- Claude Code Desktops connected to respective GitHub accounts
+- Need to establish parallelization sync protocol
+- Consider branching strategy for parallel execution
+
+### Decision Required (Principal)
+
+- [ ] SSH key exchange protocol
+- [ ] Branch naming convention for parallel streams
+- [ ] Merge/sync frequency
+- [ ] Conflict resolution protocol
