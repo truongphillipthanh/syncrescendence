@@ -1,1 +1,0 @@
-../../CANON/CANON-21000-CHAIN_MATRIX-lattice.md

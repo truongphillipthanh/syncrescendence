@@ -11,10 +11,14 @@
             "id": "3ce809b0fd8eff1c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CANON-00015-MACROSCOPIC_NARRATIVES-cosmos"
             }
           }
         ]

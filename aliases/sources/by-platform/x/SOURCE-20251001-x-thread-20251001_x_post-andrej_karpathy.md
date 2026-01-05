@@ -1,1 +1,0 @@
-../../../../SOURCES/raw/SOURCE-20251001-x-thread-20251001_x_post-andrej_karpathy.md

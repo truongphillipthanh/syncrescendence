@@ -1,1 +1,0 @@
-../../../CANON/CANON-30000-INTELLIGENCE-chain.md

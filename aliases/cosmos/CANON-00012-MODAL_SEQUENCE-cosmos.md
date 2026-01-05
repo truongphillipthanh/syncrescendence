@@ -1,1 +1,0 @@
-../../CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md

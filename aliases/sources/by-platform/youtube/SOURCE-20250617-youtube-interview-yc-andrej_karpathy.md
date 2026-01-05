@@ -1,1 +1,0 @@
-../../../../SOURCES/raw/SOURCE-20250617-youtube-interview-yc-andrej_karpathy.md

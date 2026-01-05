@@ -1,1 +1,0 @@
-../../CANON/CANON-00001-ORIGIN-cosmos.md

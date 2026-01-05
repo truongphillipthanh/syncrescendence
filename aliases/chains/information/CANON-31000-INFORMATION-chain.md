@@ -1,1 +1,0 @@
-../../../CANON/CANON-31000-INFORMATION-chain.md

@@ -1,1 +1,0 @@
-../../CANON/CANON-00014-CONTENT_PROTOCOL-cosmos.md

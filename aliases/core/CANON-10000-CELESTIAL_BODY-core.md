@@ -1,1 +1,0 @@
-../../CANON/CANON-10000-CELESTIAL_BODY-core.md

@@ -1,1 +1,0 @@
-../../CANON/CANON-00013-QUICKSTART-cosmos.md

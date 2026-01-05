@@ -1,1 +1,0 @@
-../../CANON/CANON-22000-INTERFERENCE-lattice.md
