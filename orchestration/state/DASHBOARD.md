@@ -1,7 +1,7 @@
 # SYNCRESCENDENT DASHBOARD
 ## Project Management Overview
-**Generated**: 2026-01-01 23:45:12
-**Current Sprint**: Oracle9-Alpha (Establish ingestion pattern + restore lost content...)
+**Generated**: 2026-01-05 (DIRECTIVE-037B)
+**Current Sprint**: Oracle9-Completion (Repository hygiene + orphan resolution)
 
 ---
 
@@ -11,8 +11,8 @@
 ORACLE ARC PROGRESS
 ═══════════════════════════════════════════════════════════════════
 Oracle 0-8: ████████████████████████████████████████ COMPLETE
-Oracle 9:   ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20% (in progress)
-Oracle 10+: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ BLOCKED
+Oracle 9:   ██████████████████████████████████████░░ 95% (completing)
+Oracle 10+: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ READY
 ═══════════════════════════════════════════════════════════════════
 ```
 
@@ -40,7 +40,7 @@ Oracle 10+: ░░░░░░░░░░░░░░░░░░░░░░�
 |--------|-------|
 | Not Started | 3 |
 | In Progress | 1 |
-| Done | 15 |
+| Done | 24 |
 | Blocked | 0 |
 
 ### Active Tasks
@@ -52,6 +52,16 @@ Oracle 10+: ░░░░░░░░░░░░░░░░░░░░░░�
 | TASK-008 | Review CONTENT_PROCESSING_QUEUE.md | not_started | P2 | PROJ-001 | Claude_Code |
 | TASK-009 | Review YOUTUBE_PROCESSING_BACKLOG.md | not_started | P2 | PROJ-001 | Claude_Code |
 
+### Recent Completions (DIRECTIVE-037B)
+
+| ID | Task | Notes |
+|----|------|-------|
+| TASK-020 | Transcript/ disposition assessment | Full redundancy confirmed |
+| TASK-021 | Delete Transcript/ directory | 316 files deleted |
+| TASK-022 | Archive historical Oracle contexts | 6 files to 04-ARCHIVE |
+| TASK-023 | Triage orchestration/state files | Coherent |
+| TASK-024 | Update project management ledgers | Complete |
+
 ---
 
 ## Current Sprint Burndown
@@ -61,6 +71,7 @@ Points Remaining
   Day 01: ██████████████████████████████ 40
   Day 02: ████████████████████████░░░░░░ 32
   Day 02: ███████████████░░░░░░░░░░░░░░░ 20
+  Day 05: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5
 ```
 
 ---

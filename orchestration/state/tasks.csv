@@ -18,3 +18,8 @@ TASK-016,null,Create ARCHIVE-METAHUMANISM-FULL,task,done,P1,Claude_Code,null,0.5
 TASK-017,null,Create ARCHIVE-ARTIFACT-PATTERN-LANGUAGE,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,520K reference archive
 TASK-018,null,Integrate Knowledge Taxonomy into CANON-34100,task,done,P1,Claude_Code,null,0.25,0.1,2026-01-02,2026-01-02,Added section to Mastery
 TASK-019,null,Integrate Meaning Taxonomy into CANON-31100,task,done,P1,Claude_Code,null,0.25,0.1,2026-01-02,2026-01-02,Added section to Acumen
+TASK-020,null,Transcript/ disposition assessment,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-05,2026-01-05,DIRECTIVE-037B: Full redundancy with 03-SOURCES confirmed
+TASK-021,null,Delete Transcript/ directory,task,done,P1,Claude_Code,TASK-020,0.25,0.1,2026-01-05,2026-01-05,316 files deleted (all redundant with 03-SOURCES)
+TASK-022,null,Archive historical Oracle contexts,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-05,2026-01-05,6 Oracle context files moved to 04-ARCHIVE
+TASK-023,null,Triage orchestration/state files,task,done,P1,Claude_Code,TASK-022,0.5,0.25,2026-01-05,2026-01-05,State files verified coherent
+TASK-024,null,Update project management ledgers,task,done,P1,Claude_Code,TASK-023,0.25,0.1,2026-01-05,2026-01-05,tasks.csv burndown.csv updated

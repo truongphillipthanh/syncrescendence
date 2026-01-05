@@ -1,19 +1,5 @@
-.
-├── ARCHIVE
-│   ├── scaffolding
-│   ├── ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md
-│   ├── ARCHIVE-ARTIFACT-SYSTEM.md
-│   ├── ARCHIVE-COGNITIVE-PALACE-FULL.md
-│   ├── ARCHIVE-COGNITIVE-PALACE-SPECS.md
-│   ├── ARCHIVE-METAHUMANISM-FULL.md
-│   ├── ARCHIVE-PROMPT-ARCHAEOLOGY.md
-│   ├── ARCHIVE-SYSTEM-PROMPTS-v2.1.md
-│   ├── README.md
-│   ├── justification-chatgpt.md
-│   ├── justification-claude.md
-│   ├── justification-gemini.md
-│   └── justification-grok.md
-├── CANON
+/Users/system/Desktop/syncrescendence
+├── 00-CANON
 │   ├── CANON-00000-SCHEMA-cosmos.md
 │   ├── CANON-00001-ORIGIN-cosmos.md
 │   ├── CANON-00002-LINEAGE-cosmos.md
@@ -91,79 +77,60 @@
 │   ├── CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md
 │   ├── CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md
 │   └── CANON-99000-HISTORICAL-meta.md
-├── EXEMPLA
-│   ├── case-studies
-│   ├── worked-examples
-│   └── README.md
-├── OPERATIONAL
+├── 01-OPERATIONAL
+│   ├── README.md
 │   ├── functions
 │   ├── models
+│   ├── operational_engine.md
 │   ├── prompts
-│   ├── scripts
-│   ├── README.md
-│   └── operational_engine.md
-├── QUEUE
+│   └── scripts
+├── 02-QUEUE
+│   ├── QUEUE_DISPOSITION.md
 │   ├── modal1
 │   ├── modal2
-│   ├── pending
-│   └── QUEUE_DISPOSITION.md
-├── SOURCES
-│   ├── processed
-│   ├── raw
+│   └── pending
+├── 03-SOURCES
 │   ├── FRONTMATTER_TEMPLATE.md
 │   ├── README.md
 │   ├── TRANSCRIPT_RECONCILIATION.md
 │   ├── creator_bios.md
 │   ├── filename_mapping.csv
 │   ├── index.md
+│   ├── processed
+│   ├── raw
 │   ├── rename_mapping.csv
 │   └── sources.csv
-├── Tech
-│   ├── 1 Toolcraft Endeavor
-│   ├── 1 Workstation Taxonomy
-│   ├── 2 ContextEngineering
-│   ├── 2 Intelligence Capabilities
-│   ├── 2 Prompting
-│   ├── 3 Systematizing Business
-│   ├── 4 Agents
-│   ├── 4 Organizational Theory
-│   ├── 5-Intellegence Apparatus
-│   ├── Tool Landscape
-│   ├── Technology Lunar - 3-derived-taxonomy.md
-│   ├── Technology Lunar - 4-Inception Characterization.md
-│   ├── Technology Lunar - 5-Nascent Solidification.md
-│   └── Technology Lunar - 6-Initial Toolcraft Synthesis.md
-├── Transcendence
-│   ├── 0 - Survey
-│   ├── 1 - Planetary
-│   ├── 9 - Facet
-│   ├── Profile
-│   ├── inbox
-│   ├── metaphysicalism
-│   ├── monotheism
-│   ├── nontheism
-│   └── way of life code of conduct
-├── Transcript
-│   ├── 0
-│   ├── AGI
-│   ├── Anthropology
-│   ├── Biology
-│   ├── Physical AI
-│   ├── transcripts
-│   ├── 20250617-youtube_video-bilawal_sidhu-harvard_lecture.md
-│   ├── 20250617-youtube_video-bilawal_sidhu-harvard_lecture.txt
-│   ├── 20250617-youtube_video-y_combinator-andrej_karpathy.md
-│   ├── 20250617-youtube_video-y_combinator-andrej_karpathy.txt
-│   ├── Untitled 6.md
-│   └── dwarkesh_sutton.md
-├── orchestration
-│   ├── directives
-│   ├── execution_logs
-│   ├── scaffolding
-│   ├── scripts
-│   └── state
-└── remnants
-    ├── evaluation
-    └── syncrescendence_convergence.md
+├── 04-ARCHIVE
+│   ├── ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md
+│   ├── ARCHIVE-ARTIFACT-SYSTEM.md
+│   ├── ARCHIVE-AUTOPSYCHOGRAPHY.md
+│   ├── ARCHIVE-COGNITIVE-PALACE-FULL.md
+│   ├── ARCHIVE-COGNITIVE-PALACE-SPECS.md
+│   ├── ARCHIVE-METAHUMANISM-FULL.md
+│   ├── ARCHIVE-PROMPT-ARCHAEOLOGY.md
+│   ├── ARCHIVE-SYSTEM-PROMPTS-v2.1.md
+│   ├── ORACLE07_CONTEXT_v1.md
+│   ├── ORACLE08_CONTEXT_v1.md
+│   ├── ORACLE09_CONTEXT_v1.md
+│   ├── ORACLE09_CONTEXT_v2.md
+│   ├── ORACLE09_CONTEXT_v3.md
+│   ├── ORACLE09_EXECUTION_CONTEXT.md
+│   ├── README.md
+│   ├── justification-chatgpt.md
+│   ├── justification-claude.md
+│   ├── justification-gemini.md
+│   ├── justification-grok.md
+│   └── scaffolding
+├── 05-EXEMPLA
+│   ├── README.md
+│   ├── case-studies
+│   └── worked-examples
+└── orchestration
+    ├── directives
+    ├── execution_logs
+    ├── scaffolding
+    ├── scripts
+    ├── state
+    └── state.zip
 
-55 directories, 112 files
+25 directories, 109 files
