@@ -3,12 +3,13 @@
 **Completed**: 2026-01-04
 **Status**: COMPLETE
 **Executor**: Claude Code Desktop
+**Directives**: 036B + 036C (combined execution)
 
 ---
 
 ## Summary
 
-DIRECTIVE-036C executed successfully. Repository hygiene restored through systematic deletion of bloat directories and orphan files.
+DIRECTIVE-036C and 036B executed successfully. Repository hygiene restored through systematic deletion of bloat directories, root-level numbering convention applied, and paradigm sources integrated into CANON.
 
 ---
 
@@ -54,6 +55,15 @@ DIRECTIVE-036C executed successfully. Repository hygiene restored through system
 |--------|-------------|---------|
 | intelligence architecture/youtube_subscription_list.md | CANON-31143 appendix | 219 YouTube subscriptions |
 | 0-prompts/ (33 files) | ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md | Evolution documentation |
+| Transcendence/Profile/Autopsychography | ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md | Principal cognitive profile |
+
+### 036B Additions
+
+| Action | Details |
+|--------|---------|
+| remnants/ deleted | 10 files (evaluation artifacts) |
+| Root numbering applied | 00-CANON, 01-OPERATIONAL, 02-QUEUE, 03-SOURCES, 04-ARCHIVE, 05-EXEMPLA |
+| 4 paradigm sources integrated | Bratton, Walker, Alexander/Kokotajlo, Douglas/Bricken → CANON-00015, CANON-30400 |
 
 ---
 
@@ -61,22 +71,21 @@ DIRECTIVE-036C executed successfully. Repository hygiene restored through system
 
 ```
 syncrescendence/
-├── ARCHIVE/          # Historical artifacts
-├── CANON/            # 79 canonical artifacts
-├── EXEMPLA/          # Case studies, worked examples
-├── OPERATIONAL/      # Prompts, models, functions
-├── QUEUE/            # Modal processing queues
-├── SOURCES/          # 184 paradigm sources indexed
+├── 00-CANON/         # 79 canonical artifacts
+├── 01-OPERATIONAL/   # Prompts, models, functions
+├── 02-QUEUE/         # Modal processing queues
+├── 03-SOURCES/       # 184 paradigm sources indexed
+├── 04-ARCHIVE/       # Historical artifacts
+├── 05-EXEMPLA/       # Case studies, worked examples
 ├── orchestration/    # Directives, logs, state
-├── Tech/             # [Not in scope - Principal decision]
-├── Transcendence/    # [Not in scope - Principal decision]
-├── Transcript/       # [Not in scope - Principal decision]
-└── remnants/         # [Not in scope - Principal decision]
+├── Tech/             # [ORPHAN - Principal decision]
+├── Transcendence/    # [ORPHAN - Principal decision]
+└── Transcript/       # [ORPHAN - Principal decision]
 ```
 
-### Root Level Items: 12 (was 20+)
-- 7 core directories (ARCHIVE, CANON, EXEMPLA, OPERATIONAL, QUEUE, SOURCES, orchestration)
-- 4 directories pending Principal decision (Tech, Transcendence, Transcript, remnants)
+### Root Level Items: 11 (was 20+)
+- 7 core directories (numbered 00-05 + orchestration)
+- 3 orphan directories pending Principal decision (Tech, Transcendence, Transcript)
 - Hidden directories (.claude, .decisions, .git, .obsidian)
 - Config files (.gitattributes, .gitignore)
 
@@ -84,19 +93,14 @@ syncrescendence/
 
 ## Known Deferred Items
 
-### Directories Pending Principal Decision
+### Orphan Directories Pending Principal Decision
 | Directory | Files | Notes |
 |-----------|-------|-------|
-| Tech/ | 559 | Technology lunar content |
-| Transcendence/ | 45 | Wisdom chain content |
-| Transcript/ | 316 | Raw/processed transcripts |
-| remnants/ | 10 | Evaluation artifacts |
+| Tech/ | 559 | Technology lunar content - no prefix = ORPHAN |
+| Transcendence/ | 45 | Wisdom chain content - no prefix = ORPHAN |
+| Transcript/ | 316 | Raw/processed transcripts - no prefix = ORPHAN |
 
-These were not explicitly listed in DIRECTIVE-036C deletion scope. Recommend:
-- Tech/ → Evaluate for CANON integration
-- Transcendence/ → Evaluate for CANON-35xxx integration
-- Transcript/ → May overlap with SOURCES/
-- remnants/ → Archive or delete
+Numbering convention makes orphans glaringly obvious per Principal Correction 3.
 
 ### Oracle10 Priorities
 1. Resolve Tech/Transcendence/Transcript disposition
