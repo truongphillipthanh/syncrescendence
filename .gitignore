@@ -42,3 +42,10 @@ Temporary Items
 tmp/
 temp/
 *.tmp
+
+# Claude local settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Backup files
+*.bak.*
