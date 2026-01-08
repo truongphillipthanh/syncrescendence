@@ -1,0 +1,123 @@
+# Syncrescendence Multi-Claude Coordination
+# Defines zone ownership and conflict prevention
+
+coordination:
+  version: "1.0"
+  updated: "2026-01-08"
+
+  # Account definitions
+  accounts:
+    alpha:
+      name: "Claude Instance Alpha"
+      role: "Primary executor"
+      worktree: "../syncrescendence-alpha"
+      branch_prefix: "alpha/"
+
+    beta:
+      name: "Claude Instance Beta"
+      role: "Parallel executor"
+      worktree: "../syncrescendence-beta"
+      branch_prefix: "beta/"
+
+    gamma:
+      name: "Claude Instance Gamma"
+      role: "Verification/overflow"
+      worktree: "../syncrescendence-gamma"
+      branch_prefix: "gamma/"
+
+    oracle:
+      name: "Oracle Thread"
+      role: "Strategic synthesis (Claude Desktop)"
+      worktree: null
+      branch_prefix: null
+      notes: "Read-only access via GitHub connector"
+
+  # Zone ownership (exclusive write access)
+  zones:
+    alpha:
+      writable:
+        - "04-SOURCES/processed/a-*"
+        - "00-ORCHESTRATION/execution_logs/*-A.md"
+      description: "Stream A processing and logging"
+
+    beta:
+      writable:
+        - "04-SOURCES/processed/b-*"
+        - "00-ORCHESTRATION/execution_logs/*-B.md"
+      description: "Stream B processing and logging"
+
+    gamma:
+      writable:
+        - "04-SOURCES/processed/c-*"
+        - "00-ORCHESTRATION/execution_logs/*-C.md"
+      description: "Stream C processing and logging"
+
+    shared:
+      writable:
+        - "00-ORCHESTRATION/state/*.csv"
+        - "04-SOURCES/sources.csv"
+      pattern: "append_only"
+      description: "Ledgers use append-only pattern with row-level locking"
+
+  # Protected zones (require Principal approval)
+  protected:
+    - "01-CANON/"
+    - "00-ORCHESTRATION/oracle_contexts/"
+    - "CLAUDE.md"
+    - "config/coordination.yaml"
+
+  # Conflict resolution
+  conflict_resolution:
+    strategy: "branch_per_instance"
+    merge_target: "develop"
+    merge_method: "rebase"
+    notes: |
+      Each instance works in isolated branch.
+      PRs merge to develop branch.
+      Main branch updated only after verification.
+
+  # Communication patterns
+  communication:
+    oracle_to_code:
+      method: "directive_files"
+      location: "00-ORCHESTRATION/directives/"
+      pattern: "DIRECTIVE-{number}{stream}.md"
+
+    code_to_oracle:
+      method: "execution_logs"
+      location: "00-ORCHESTRATION/execution_logs/"
+      pattern: "EXECUTION_LOG-{date}-{directive}.md"
+
+    inter_instance:
+      method: "git_branches"
+      notes: "No direct communication; coordinate via shared repository"
+
+  # Ledger conventions
+  ledger_protocol:
+    backup_before_write: true
+    temp_file_pattern: "{name}.csv.tmp"
+    backup_pattern: "{name}.csv.bak.{timestamp}"
+    validation_required: true
+    atomic_rename: true
+
+  # Branch naming conventions
+  branches:
+    feature: "{instance}/feat-{description}"
+    bugfix: "{instance}/fix-{description}"
+    directive: "{instance}/directive-{number}"
+
+  # Commit message format
+  commit_format:
+    pattern: "{type}({scope}): {description}"
+    types:
+      - feat      # New feature
+      - fix       # Bug fix
+      - docs      # Documentation
+      - chore     # Maintenance
+      - refactor  # Code refactoring
+      - test      # Testing
+    scope_examples:
+      - PROJ-001
+      - CANON
+      - SOURCES
+      - ledgers

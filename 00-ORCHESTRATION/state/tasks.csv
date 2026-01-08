@@ -40,3 +40,7 @@ TASK-040,PROJ-011,Create CLAUDE.md,infrastructure,done,P0,Claude_Code_2,null,0.5
 TASK-041,PROJ-011,Create custom commands,infrastructure,done,P0,Claude_Code_2,TASK-040,0.5,0.5,2026-01-08,2026-01-08,4 commands in .claude/commands/project/
 TASK-042,PROJ-011,Create Makefile,infrastructure,done,P0,Claude_Code_2,TASK-040,0.25,0.25,2026-01-08,2026-01-08,5 targets: help verify sync update-ledgers tree clean
 TASK-043,PROJ-011,Configure settings,infrastructure,done,P0,Claude_Code_2,TASK-040,0.25,0.25,2026-01-08,2026-01-08,Permission allowlist in .claude/settings.json
+TASK-044,PROJ-011,Create MCP configuration,infrastructure,done,P0,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,MCP_SETUP.md and mcp.json.template created
+TASK-045,PROJ-011,Create coordination.yaml,infrastructure,done,P0,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,Multi-Claude zone ownership defined with 4 accounts
+TASK-046,PROJ-011,Create worktree setup script,infrastructure,done,P0,Claude_Code_3,null,0.25,0.25,2026-01-08,2026-01-08,setup-worktrees.sh executable
+TASK-047,PROJ-011,Create automation scripts,infrastructure,done,P0,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,sync_ledgers.py verify_all.sh update_dashboard.py enhanced

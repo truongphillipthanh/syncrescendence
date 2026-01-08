@@ -1,7 +1,7 @@
 id,name,type,status,priority,owner,blocked_by,oracle_scope,modal,due_date,created,updated,notes
 PROJ-001,Transcript Ingestion,initiative,complete,P1,Oracle10,null,10,modal1,2026-01-15,2026-01-01,2026-01-05,COMPLETE: 43 processed; 19 integrated; 11 CANON files enriched; pattern proven
-PROJ-002,IIC Configuration,initiative,blocked,P1,Oracle11,PROJ-011,11,modal1,2026-02-01,2025-12-29,2026-01-08,Blocked by PROJ-011 (automation infrastructure)
-PROJ-003,Tooling Stack,initiative,blocked,P2,Oracle11,PROJ-011,11,modal1,null,2025-12-29,2026-01-08,GPT-5.2/Grok/MCP/Skills/Notion/Airtable — blocked by automation infra
+PROJ-002,IIC Configuration,initiative,not_started,P1,Oracle11,null,11,modal1,2026-02-01,2025-12-29,2026-01-08,UNBLOCKED: Ready to start (was blocked by PROJ-011)
+PROJ-003,Tooling Stack,initiative,not_started,P2,Oracle11,null,11,modal1,null,2025-12-29,2026-01-08,UNBLOCKED: GPT-5.2/Grok/MCP/Skills/Notion/Airtable (was blocked by PROJ-011)
 PROJ-004,Automation,initiative,blocked,P2,Oracle12,PROJ-003,12,modal1,null,2025-12-29,2026-01-02,Agentification of processes
 PROJ-005,Branding,initiative,blocked,P3,Oracle13,PROJ-002,13,modal1,null,2025-12-29,2026-01-02,Business side elucidation
 PROJ-006,Ontology Project,initiative,blocked,P1,Oracle14,PROJ-003,14,modal1,null,2025-12-29,2026-01-02,Palantir-like operational infrastructure
@@ -9,4 +9,4 @@ PROJ-007,Curriculum,initiative,blocked,P3,Oracle15,PROJ-006,15,modal1,null,2025-
 PROJ-008,Tech Lunar Canonization,initiative,not_started,P2,TBD,null,TBD,modal1,null,2025-12-30,2026-01-02,306K specs to CANON-30xxx
 PROJ-009,Modal 2 Preparation,initiative,not_started,P3,TBD,null,TBD,modal2,null,2025-12-29,2026-01-02,3D/VFX/Video synthesis runway
 PROJ-010,GitHub Synchronization,initiative,not_started,P2,Oracle10+,null,10+,modal1,null,2026-01-05,2026-01-05,Multi-account sync across Claude Code instances
-PROJ-011,Automation Infrastructure,initiative,in_progress,P0,Oracle10,PROJ-001,10,modal1,2026-01-10,2026-01-08,2026-01-08,CLAUDE.md + commands + MCP — addresses 18-lens #12 and #14
+PROJ-011,Automation Infrastructure,initiative,complete,P0,Oracle10,PROJ-001,10,modal1,2026-01-10,2026-01-08,2026-01-08,COMPLETE: CLAUDE.md + 4 commands + Makefile + MCP + coordination.yaml + 3 scripts — 18-lens #12 and #14 addressed
