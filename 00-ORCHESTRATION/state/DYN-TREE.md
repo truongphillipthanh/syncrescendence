@@ -34,7 +34,11 @@
 │   │   ├── DIRECTIVE-039A.md
 │   │   ├── DIRECTIVE-039B.md
 │   │   ├── DIRECTIVE-040A.md
-│   │   └── DIRECTIVE-040B.md
+│   │   ├── DIRECTIVE-040B.md
+│   │   ├── DIRECTIVE-041A.md
+│   │   ├── DIRECTIVE-041B.md
+│   │   ├── DIRECTIVE-042A.md
+│   │   └── DIRECTIVE-042B.md
 │   ├── execution_logs
 │   │   ├── EXECUTION_LOG-2025-12-30-019.md
 │   │   ├── EXECUTION_LOG-2025-12-30-020A.md
@@ -75,15 +79,21 @@
 │   │   ├── EXECUTION_LOG-2026-01-05-040B.md
 │   │   ├── EXECUTION_LOG-2026-01-08-041A.md
 │   │   ├── EXECUTION_LOG-2026-01-08-041B.md
+│   │   ├── EXECUTION_LOG-2026-01-08-042A.md
+│   │   ├── EXECUTION_LOG-2026-01-08-042B.md
 │   │   ├── RECONSOLIDATION_AUDIT-2026-01-02.md
 │   │   └── TRIAGE_REPORT-2026-01-01.md
 │   ├── oracle_contexts
 │   │   ├── ORACLE_ARC.md
 │   │   ├── ORACLE10_COMPREHENSIVE_ARCHAEOLOGY.md
+│   │   ├── ORACLE10_CONTEXT_FINAL.md
 │   │   ├── ORACLE10_CONTEXT_root.md
 │   │   ├── ORACLE10_CONTEXT_v2.md
+│   │   ├── ORACLE10_CONTEXT_v3.md
+│   │   ├── ORACLE10_CONTEXT_v4.md
 │   │   └── ORACLE10_CONTEXT.md
 │   ├── scripts
+│   │   ├── cleanup_root.sh
 │   │   ├── rename_transcripts.py
 │   │   ├── setup-worktrees.sh
 │   │   ├── sync_ledgers.py
@@ -105,6 +115,7 @@
 │       ├── REF-PROCESSING_PATTERN.md
 │       ├── REF-PROCESSING_ROUTING.md
 │       ├── REF-QUEUE_ROADMAP_MAPPING.md
+│       ├── REF-RESEARCH_ARTIFACTS.md
 │       ├── REF-SOURCES_SCHEMA.md
 │       ├── REF-STANDARDS.md
 │       ├── REF-TRIAGE_PROTOCOL.md
@@ -519,6 +530,7 @@
 │   ├── justification-gemini.md
 │   ├── justification-grok.md
 │   ├── README.md
+│   ├── RESEARCH-20260108-claude_code_optimization.md
 │   ├── SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md
 │   ├── SCAFF-ALPHA_OPERATIONAL_COHERENCE.md
 │   ├── SCAFF-ALPHA_REPOSITORY_AUDIT.md
@@ -541,13 +553,31 @@
 │   ├── CASE-TEMPLATE.md
 │   ├── EXAMPLE-TEMPLATE.md
 │   └── README.md
-├── claude_code_optimization_architecture.md
+├── addtions.md
 ├── CLAUDE.md
 ├── config
 │   ├── coordination.yaml
 │   ├── MCP_SETUP.md
 │   └── mcp.json.template
-├── DIRECTIVE-041A.md
-├── DIRECTIVE-041B.md
 ├── Makefile
-└── ORACLE10_CONTEXT_v3.md
+├── ORACLE10_CULMINATION.md
+├── ORACLE11_INIT.md
+└── system_prompts
+    ├── ASSEMBLED_SYSTEM_PROMPTS_v2.1.md
+    ├── justification-chatgpt.md
+    ├── justification-claude.md
+    ├── justification-gemini.md
+    ├── justification-grok.md
+    ├── new-chatgpt.md
+    ├── new-claude.md
+    ├── new-gemini.md
+    ├── new-grok.md
+    ├── old_A-grok.txt
+    ├── old_b-grok.txt
+    ├── old-chatgpt.md
+    ├── old-claude.md
+    ├── old-gemini.md
+    ├── synthesis-chatgpt.md
+    ├── synthesis-claude.md
+    ├── synthesis-gemini.md
+    └── synthesis-grok.md
