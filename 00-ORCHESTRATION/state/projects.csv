@@ -14,3 +14,4 @@ PROJ-012,Multi-CLI Onboarding,initiative,not_started,P2,Oracle11,PROJ-011,11,mod
 PROJ-013,Claude Project System Prompt,initiative,not_started,P2,Oracle11,PROJ-002,11,modal1,null,2026-01-08,2026-01-08,This Oracle thread's identity layer; Layer 5 in memory architecture
 PROJ-014,Multi-Account Synchronization,initiative,not_started,P2,Oracle11,PROJ-011,11,modal1,null,2026-01-08,2026-01-08,Claude 2/3 web app utilization; context handoff protocols
 PROJ-015,Browser Automation Architecture,initiative,not_started,P3,Oracle12+,PROJ-014,12,modal1,null,2026-01-08,2026-01-08,IIC account cloning; vendor lock-in bypass
+PROJ-016,Skills Conversion,initiative,not_started,P3,Oracle12+,null,12+,modal1,null,2026-01-09,2026-01-09,Convert top 5 functions to Claude Skills format (transcribe_youtube; transcribe_interview; integrate; readize; listenize)

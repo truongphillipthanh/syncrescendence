@@ -50,3 +50,14 @@ TASK-053,null,Update DYN-BACKLOG.md,documentation,done,P1,Claude_Code_3,null,0.2
 TASK-048,null,Root pollution cleanup,hygiene,done,P1,Claude_Code_2,null,0.25,0.25,2026-01-08,2026-01-08,Relocated 6 files from root (directives + oracle contexts)
 TASK-049,null,Research artifact protocol,documentation,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,REF-RESEARCH_ARTIFACTS.md + cleanup_root.sh
 TASK-050,null,Major restructuring commit,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,537 files migrated to new numbering scheme
+TASK-053,PROJ-012,Test Gemini CLI basic operations,task,blocked,P2,Claude_Code,null,1,0.5,2026-01-09,2026-01-09,BLOCKED: Gemini CLI not installed on system
+TASK-054,PROJ-012,Draft GEMINI.md,task,not_started,P2,Claude_Code,TASK-053,0.5,null,2026-01-09,2026-01-09,DIRECTIVE-043A Phase 2 - blocked by TASK-053
+TASK-055,null,Restore system prompt ground truth,task,done,P0,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 1 - synthesis files restored; backups created
+TASK-056,null,Complete queue disposition,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 3 - modal1 cleared; modal2 unchanged
+TASK-057,PROJ-016,Create skills/claude/ directory structure,task,not_started,P3,Claude_Code,null,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-058,PROJ-016,Convert transcribe_youtube.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-059,PROJ-016,Convert transcribe_interview.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-060,PROJ-016,Convert integrate.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-061,PROJ-016,Convert readize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-062,PROJ-016,Convert listenize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-063,null,Document methodology,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 5 - REF-METHODOLOGY.md created
