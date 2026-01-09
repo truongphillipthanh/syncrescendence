@@ -61,3 +61,9 @@ TASK-060,PROJ-016,Convert integrate.xml to Skill,task,not_started,P3,Claude_Code
 TASK-061,PROJ-016,Convert readize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
 TASK-062,PROJ-016,Convert listenize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
 TASK-063,null,Document methodology,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 5 - REF-METHODOLOGY.md created
+TASK-064,PROJ-002,CANON reconnaissance - 8 IIC documents,research,done,P1,Claude_Code,null,2,1.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 1 - 14500+ lines reviewed
+TASK-065,PROJ-002,Memory architecture decisions,planning,done,P1,Claude_Code,TASK-064,1,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 2 - Seven strata mapped to 4 platforms
+TASK-066,PROJ-002,Acumen memory config artifact,documentation,done,P1,Claude_Code,TASK-065,1,0.75,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 3 - 02-OPERATIONAL/memory/acumen-memory-config.md
+TASK-067,PROJ-014,Multi-account sync protocol,documentation,done,P1,Claude_Code,null,1,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 4 - REF-MULTI_ACCOUNT_SYNC.md created
+TASK-068,PROJ-002,Ledger updates,hygiene,done,P1,Claude_Code,TASK-067,0.25,0.25,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 5 - projects.csv + tasks.csv updated
+TASK-069,PROJ-002,Create SCAFF deliverable,documentation,done,P1,Claude_Code,TASK-068,0.5,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 6 - SCAFF-IIC_RECONNAISSANCE.md
