@@ -47,3 +47,6 @@ TASK-047,PROJ-011,Create automation scripts,infrastructure,done,P0,Claude_Code_3
 TASK-051,null,Oracle 10 closure documentation,documentation,done,P1,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,Final summary and handoff prep
 TASK-052,null,Backlog crystallization,planning,done,P1,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,PROJ-012 through PROJ-015 added
 TASK-053,null,Update DYN-BACKLOG.md,documentation,done,P1,Claude_Code_3,null,0.25,0.25,2026-01-08,2026-01-08,Comprehensive backlog refresh
+TASK-048,null,Root pollution cleanup,hygiene,done,P1,Claude_Code_2,null,0.25,0.25,2026-01-08,2026-01-08,Relocated 6 files from root (directives + oracle contexts)
+TASK-049,null,Research artifact protocol,documentation,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,REF-RESEARCH_ARTIFACTS.md + cleanup_root.sh
+TASK-050,null,Major restructuring commit,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,537 files migrated to new numbering scheme

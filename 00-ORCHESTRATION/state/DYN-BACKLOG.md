@@ -1,223 +1,214 @@
-# SYNCRESCENDENCE OPERATIONAL BACKLOG
-## Persistent State for Oracle-Claude Coordination
-**Last Updated**: 2025-12-30T18:15:00
+# Syncrescendence Backlog
+
+**Updated**: 2026-01-08 (Oracle 10 Closure)
 
 ---
 
-## ACTIVE SPRINT
+## Active Projects
 
-### In Progress
-- [x] DIRECTIVE-021: Phase 3 Reconnaissance ← COMPLETE
+### PROJ-002: IIC Configuration
+- **Status**: NOT_STARTED (UNBLOCKED by PROJ-011)
+- **Priority**: P1
+- **Owner**: Oracle11
+- **Scope**: Configure Intelligence Information Constellation across 5 chains
+- **Dependencies**: None (PROJ-001 complete, PROJ-011 complete)
+- **Key Tasks**:
+  - [ ] Acumen IIC setup (Information chain)
+  - [ ] Coherence IIC setup (Insight chain)
+  - [ ] Efficacy IIC setup (Expertise chain)
+  - [ ] Mastery IIC setup (Knowledge chain)
+  - [ ] Transcendence IIC setup (Wisdom chain)
 
-### Ready for Execution (Awaiting Directives)
-- [ ] Stream A: Old numbering update (4 files, 100+ refs)
-- [ ] Stream B: Chain name alignment (30+ files) ← NEEDS ORACLE DECISION
-- [ ] Stream C: Version normalization (65 files)
-
-### Blocked / Awaiting Decision
-- **Chain naming convention**: Oracle6 must decide Option A/B/C before Stream B
-
----
-
-## PHASE 3 TASK BREAKDOWN (From Reconnaissance)
-
-### Stream A: Old Numbering Update (READY)
-**Priority**: HIGH
-**Files**: 4
-**Estimated edits**: ~100
-
-| File | Edits Needed |
-|------|--------------|
-| CANON-00000-SCHEMA-cosmos.md | ~50 references |
-| CANON-00007-ARTIFACT_PROTOCOL-cosmos.md | ~40 references |
-| CANON-21000-CHAIN_MATRIX-lattice.md | ~5 references |
-| CANON-99000-HISTORICAL-meta.md | Review (may be intentional) |
-
-**Approach**: Find-replace with mapping table:
-- CANON-1 → CANON-00001
-- CANON-9 → CANON-30000
-- etc.
-
-### Stream B: Chain Name Alignment (DECISION NEEDED)
-**Priority**: HIGH
-**Files**: 30+
-**Estimated edits**: ~200
-
-**DECISION REQUIRED**:
-- Option A: Update prose to new names (Intelligence, Information, Insight, Expertise, Knowledge, Wisdom)
-- Option B: Keep old names in prose (Technology, Sensing, Coherence, Efficacy, Embodiment, Transcendence)
-- Option C: Use both with pattern
-
-**Parallelization** (after decision):
-- B1: cosmos/ tier (8 files)
-- B2: chains/CANON-30xxx (13 files)
-- B3: chains/CANON-31xxx (13 files)
-- B4: chains/CANON-32xxx through CANON-35xxx (17 files)
-
-### Stream C: Version Normalization (AFTER A+B)
-**Priority**: MEDIUM
-**Files**: 65
-**Target Version**: 2.0.0
-
-**Approach**: Batch frontmatter update after content annealment complete
-
-### Stream D: Inline Version Removal (LOW)
-**Priority**: LOW
-**Files**: ~5
-**Approach**: Remove version text from body, rely on frontmatter
+### PROJ-003: Tooling Stack
+- **Status**: NOT_STARTED
+- **Priority**: P2
+- **Owner**: Oracle11
+- **Blocked By**: None (PROJ-011 complete)
+- **Scope**: GPT-5.2/Grok/MCP/Skills/Notion/Airtable decisions
+- **Key Tasks**:
+  - [ ] Evaluate tool options against 18 lenses
+  - [ ] Select and configure primary tools
+  - [ ] Document integration patterns
 
 ---
 
-## NEAR-TERM BACKLOG
+## Pipeline Projects (Oracle 11+)
 
-### Structural Completion
-- [x] Full metadata rollout ← COMPLETE
-- [x] Tech Lunar canonization ← COMPLETE
-- [x] Phase 3 reconnaissance ← COMPLETE
-- [ ] CANON-30500: Platform Primitives (42K source)
-- [ ] Manifest auto-generation (CANON-00002 from frontmatter)
+### PROJ-012: Multi-CLI Onboarding
+- **Status**: NOT_STARTED
+- **Priority**: P2
+- **Owner**: Oracle11
+- **Blocked By**: None (PROJ-011 complete)
+- **Scope**: Onboard Gemini CLI (operational) and evaluate ChatGPT Codex
+- **Key Decisions**:
+  - Gemini CLI: Ready for integration
+  - ChatGPT Codex: Requires Plus subscription decision
+- **Key Tasks**:
+  - [ ] Create Gemini-equivalent of CLAUDE.md
+  - [ ] Extend coordination.yaml for multi-platform
+  - [ ] Define zone ownership across platforms
+  - [ ] Update MODEL_INDEX.md with CLI capabilities
 
-### Phase 3 Content Annealment
-- [ ] Stream A: Old numbering update
-- [ ] Stream B: Chain name alignment
-- [ ] Stream C: Version normalization
-- [ ] Remove inline version references
-- [ ] Prose coherence pass
+### PROJ-013: Claude Project System Prompt
+- **Status**: NOT_STARTED
+- **Priority**: P2
+- **Owner**: Oracle11
+- **Blocked By**: PROJ-002
+- **Scope**: Define system prompt for Syncrescendence Claude Project
+- **Context**: Currently blank; relies on userMemories + userPreferences
+- **Architecture Layer**: Layer 5 in memory hierarchy
+- **Key Tasks**:
+  - [ ] Define Oracle thread role
+  - [ ] Encode processing patterns
+  - [ ] Include 18-lens reference
+  - [ ] Coordinate with PROJ-002 memory architecture
 
----
+### PROJ-014: Multi-Account Synchronization
+- **Status**: NOT_STARTED
+- **Priority**: P2
+- **Owner**: Oracle11
+- **Blocked By**: None (PROJ-011 complete)
+- **Scope**: Utilize Claude 2/3 web app accounts (currently underutilized)
+- **Problem**: Context drift risk when porting mid-session
+- **Solution Pattern**:
+  - GitHub sync as shared memory
+  - Oracle context as handoff doc
+  - Zone ownership per account
+  - Scheduled limit-based switching
+- **Key Tasks**:
+  - [ ] Define handoff protocol
+  - [ ] Create account utilization schedule
+  - [ ] Test context resumption across accounts
 
-## MID-TERM BACKLOG
-
-### IIC Constellation
-- [ ] Configure remaining accounts
-- [ ] Cross-IIC coordination patterns
-- [ ] Platform-specific prompt refinement
-
-### Exempla Population
-- [ ] First case study
-- [ ] First worked example
-
-### Content Processing
-- [ ] YouTube processing pipeline
-- [ ] ~80 subscriptions processing
-- [ ] Content → CANON workflow
-
----
-
-## COMPLETED (December 2025)
-
-### Oracle4 (Pre-DIRECTIVE-017)
-- [x] Defrag execution (658 → 136 files)
-
-### Oracle5 - DIRECTIVE-017 (Holistic Reconception)
-- [x] Coherence audit
-- [x] GENESIS layer design
-- [x] Nomenclature specification
-
-### Oracle5 - DIRECTIVE-018 (Execution)
-- [x] GENESIS layer creation
-- [x] Nomenclature reform (58 files renamed)
-- [x] EXEMPLA bootstrapped
-
-### Oracle5 - DIRECTIVE-019 (Orchestration Restoration)
-- [x] orchestration/ infrastructure
-
-### Oracle5 - DIRECTIVE-020 (Phase 2 Completion)
-- [x] Metadata schema rollout
-- [x] Cross-reference validation
-
-### Oracle5 - DIRECTIVE-020A (Phase 2 Alpha)
-- [x] CANON-30420 through CANON-30450 created
-- [x] Tech Lunar canonization complete
-
-### Oracle6 - DIRECTIVE-021 (Phase 3 Reconnaissance)
-- [x] Current state verified
-- [x] Terminology survey (65 files)
-- [x] Cross-reference audit (100+ old refs found)
-- [x] Version inventory complete
-- [x] Definition sources mapped
-- [x] RECONNAISSANCE_REPORT.md created
-- [x] Parallelization strategy defined
+### PROJ-015: Browser Automation Architecture
+- **Status**: NOT_STARTED
+- **Priority**: P3
+- **Owner**: Oracle12+
+- **Blocked By**: PROJ-014
+- **Scope**: Clone browsers with full terminal access for IIC accounts
+- **Goal**: Bypass vendor lock-in while retaining first-party features
+- **Key Tasks**:
+  - [ ] Evaluate browser cloning options
+  - [ ] Identify non-replicable first-party features
+  - [ ] Design fallback architecture
 
 ---
 
-## GOALS
+## Completed Projects
 
-### Immediate Goal
-Complete Phase 3 content annealment (awaiting Oracle6 directive)
+### PROJ-001: Transcript Ingestion
+- **Completed**: 2026-01-05 (Oracle 10)
+- **Outcome**: 43 processed sources, 19 integrations, 11 CANON files enriched, pipeline proven
 
-### Near-Term Goal
-Platform primitives (CANON-30500), manifest auto-generation
-
-### Mid-Term Goal
-IIC constellation activation, content processing pipeline
-
-### Long-Term Goal
-Operational cognitive system with Field Node infrastructure
+### PROJ-011: Automation Infrastructure
+- **Completed**: 2026-01-08 (Oracle 10)
+- **Outcome**: CLAUDE.md, 4 commands, Makefile, MCP config, coordination.yaml, 5 scripts
+- **18-Lens Impact**: #12 (Industrial Engineering) and #14 (Permaculture) now PASS
 
 ---
 
-## METRICS
+## Existing Pipeline (Deferred)
 
-### Structural Health
-| Metric | Target | Current | Status |
-|--------|--------|---------|--------|
-| CANON naming compliance | 100% | 100% | COMPLETE |
-| Metadata coverage | 100% | 100% | COMPLETE |
-| Directory organization | Complete | Complete | COMPLETE |
-| Phase 3 reconnaissance | Complete | Complete | COMPLETE |
+### PROJ-008: Tech Lunar Canonization
+- **Status**: NOT_STARTED
+- **Priority**: P2
+- **Scope**: 306K specs to CANON-30xxx
 
-### Content Health (Phase 3 Targets)
-| Metric | Target | Current | Status |
-|--------|--------|---------|--------|
-| Old numbering removed | 0 refs | 100+ refs | NEEDS WORK |
-| Chain name consistency | 100% | ~30% | NEEDS WORK |
-| Version alignment | 2.0.0 | 5 versions | NEEDS WORK |
-| Terminology consistency | 100% | ~70% | NEEDS AUDIT |
+### PROJ-009: Modal 2 Preparation
+- **Status**: NOT_STARTED
+- **Priority**: P3
+- **Scope**: 3D/VFX/Video synthesis runway
 
-### Visibility Health
-| Metric | Target | Current | Status |
-|--------|--------|---------|--------|
-| Orchestration infrastructure | Active | Active | COMPLETE |
-| State tracking | Current | Current | COMPLETE |
-| Reconnaissance complete | Yes | Yes | COMPLETE |
+### PROJ-010: GitHub Synchronization
+- **Status**: ABSORBED into PROJ-011
+- **Notes**: Covered by coordination.yaml and MCP setup
 
 ---
 
-*Backlog updated after DIRECTIVE-021 execution. Phase 3 parallelization ready pending Oracle6 chain naming decision.*
+## Blocked Projects (Dependency Chain)
+
+| Project | Blocked By | Unlock Condition |
+|---------|------------|------------------|
+| PROJ-004 | PROJ-003 | Complete tooling selection |
+| PROJ-005 | PROJ-002 | Complete IIC configuration |
+| PROJ-006 | PROJ-003 | Complete tooling selection |
+| PROJ-007 | PROJ-006 | Complete ontology project |
+| PROJ-015 | PROJ-014 | Complete multi-account sync |
 
 ---
 
-## PROJ-010: GitHub Synchronization
+## Sprint Status
 
-**Status**: Documented (Out of scope for Oracle 9)
-**Priority**: P2
-**Target**: Oracle 10+
+### SPRINT-001 (Oracle 10)
+- **Status**: COMPLETE
+- **Velocity**: 57 points (142% of planned 40)
+- **Completed**: PROJ-001, PROJ-011
+- **Key Achievements**:
+  - 43 sources processed
+  - 19 CANON integrations
+  - Automation infrastructure deployed
+  - 18-lens now 18/18 PASS
 
-### Context
+### SPRINT-002 (Oracle 11) — Planning
+- **Focus**: PROJ-002 (IIC), PROJ-012 (Multi-CLI), PROJ-014 (Sync)
+- **Estimated Points**: TBD
+- **Priority Order**:
+  1. PROJ-002 (P1) — Core IIC architecture
+  2. PROJ-012 (P2) — Expands execution capacity
+  3. PROJ-014 (P2) — Utilizes idle resources
 
-Repository uploaded to GitHub.com:
-- **Main account**: truongphillipthanh@icloud.com (Account 1)
-- **Contributors**: Accounts 2 and 3 added but need proper access
-- **Current workaround**: Cloning repositories manually
+---
 
-### Requirements
+## Dependency Graph
 
-1. **SSH setup**: Claude Code Desktop instances need SSH keys for write access
-2. **Sync mechanism**: Determine if clone auto-updates or needs pull
-3. **Cross-login avoidance**: Minimize authentication friction
-4. **Platform integration**: Eventual sync with ChatGPT, Gemini, Grok web/CLI tools
+```
+COMPLETED                    ACTIVE                      PIPELINE
+---------                    ------                      --------
+PROJ-001 --+---> PROJ-002 --------> PROJ-013
+           |          |
+           |          +-----------> PROJ-005
+           |
+PROJ-011 --+---> PROJ-003 --------> PROJ-004
+           |          |
+           |          +-----------> PROJ-006 -----> PROJ-007
+           |
+           +---> PROJ-012 --------> (platform-specific)
+           |
+           +---> PROJ-014 --------> PROJ-015
+```
 
-### Technical Considerations
+---
 
-- GitHub connector available via Claude 1 (Oracle interface)
-- Claude Code Desktops connected to respective GitHub accounts
-- Need to establish parallelization sync protocol
-- Consider branching strategy for parallel execution
+## Quick Reference
 
-### Decision Required (Principal)
+| Project | Status | Oracle | Priority | Blocked By |
+|---------|--------|--------|----------|------------|
+| PROJ-001 | COMPLETE | 10 | - | - |
+| PROJ-002 | NOT_STARTED | 11 | P1 | None |
+| PROJ-003 | NOT_STARTED | 11 | P2 | None |
+| PROJ-004 | BLOCKED | 12 | P2 | PROJ-003 |
+| PROJ-005 | BLOCKED | 13 | P3 | PROJ-002 |
+| PROJ-006 | BLOCKED | 14 | P1 | PROJ-003 |
+| PROJ-007 | BLOCKED | 15 | P3 | PROJ-006 |
+| PROJ-008 | NOT_STARTED | TBD | P2 | None |
+| PROJ-009 | NOT_STARTED | TBD | P3 | None |
+| PROJ-010 | ABSORBED | - | - | - |
+| PROJ-011 | COMPLETE | 10 | - | - |
+| PROJ-012 | NOT_STARTED | 11 | P2 | None |
+| PROJ-013 | NOT_STARTED | 11 | P2 | PROJ-002 |
+| PROJ-014 | NOT_STARTED | 11 | P2 | None |
+| PROJ-015 | NOT_STARTED | 12+ | P3 | PROJ-014 |
 
-- [ ] SSH key exchange protocol
-- [ ] Branch naming convention for parallel streams
-- [ ] Merge/sync frequency
-- [ ] Conflict resolution protocol
+---
+
+## Oracle 11 Recommended Focus
+
+1. **PROJ-002 (IIC)** — High impact, unblocked, defines information architecture
+2. **PROJ-012 (Multi-CLI)** — Expands execution capacity across platforms
+3. **PROJ-014 (Multi-Account)** — Utilizes idle Claude accounts
+
+**Defer**: PROJ-013 (System Prompt) until PROJ-002 clarifies memory architecture.
+
+---
+
+*Backlog crystallized. Oracle 11 scope defined. Dependencies mapped. Ready for execution.*
