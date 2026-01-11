@@ -67,3 +67,23 @@ TASK-066,PROJ-002,Acumen memory config artifact,documentation,done,P1,Claude_Cod
 TASK-067,PROJ-014,Multi-account sync protocol,documentation,done,P1,Claude_Code,null,1,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 4 - REF-MULTI_ACCOUNT_SYNC.md created
 TASK-068,PROJ-002,Ledger updates,hygiene,done,P1,Claude_Code,TASK-067,0.25,0.25,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 5 - projects.csv + tasks.csv updated
 TASK-069,PROJ-002,Create SCAFF deliverable,documentation,done,P1,Claude_Code,TASK-068,0.5,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 6 - SCAFF-IIC_RECONNAISSANCE.md
+TASK-070,PROJ-012,Create GEMINI.md context file,infrastructure,done,P1,Claude_Code_2,null,0.5,0.25,2026-01-09,2026-01-09,DIRECTIVE-042B - Syncrescendence-adapted for Gemini CLI
+TASK-071,PROJ-012,Create gemini-settings.json template,infrastructure,done,P2,Claude_Code_2,null,0.25,0.1,2026-01-09,2026-01-09,DIRECTIVE-042B - MCP and model configuration
+TASK-072,PROJ-012,Create multi-CLI coordination protocol,documentation,done,P1,Claude_Code_2,null,0.5,0.25,2026-01-09,2026-01-09,DIRECTIVE-042B - REF-MULTI_CLI_COORDINATION.md
+TASK-073,null,Clean up root-level extracted files,hygiene,done,P2,Claude_Code_2,null,0.1,0.05,2026-01-09,2026-01-09,DIRECTIVE-042B - 8 duplicate files removed from root
+TASK-074,PROJ-012,Validate Gemini CLI operations,task,done,P2,Gemini_CLI,null,0.5,0.5,2026-01-09,2026-01-09,Result: APPROVED
+TASK-075,PROJ-002,Create Acumen IIC configuration,task,done,P1,Claude_Code_1,null,1.5,0.75,2026-01-09,2026-01-09,DIRECTIVE-042A - Full account spec 600 lines
+TASK-076,PROJ-002,Create Coherence IIC configuration,task,done,P1,Claude_Code_1,null,1.5,0.75,2026-01-09,2026-01-09,DIRECTIVE-042A - Full account spec 550 lines
+TASK-077,PROJ-002,Create IIC shared protocols,task,done,P1,Claude_Code_1,null,0.5,0.5,2026-01-09,2026-01-09,DIRECTIVE-042A - Integration standards 500 lines
+TASK-078,null,Reclassify AI_Academic_Research.md,hygiene,done,P2,Claude_Code_3,null,0.1,0.05,2026-01-09,2026-01-09,DIRECTIVE-042C - Moved from modal2 to 02-OPERATIONAL/surveys/
+TASK-079,null,Refresh DYN-BACKLOG.md,documentation,done,P2,Claude_Code_3,null,0.5,0.25,2026-01-09,2026-01-09,DIRECTIVE-042C - Complete state refresh for Oracle 11 Blitzkrieg
+TASK-080,PROJ-012,Create CANON-25200 Constellation Architecture,canon,done,P0,Claude_Code_2,null,1.0,0.75,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 1 - Full 5-platform specification
+TASK-081,PROJ-012,Update CANON-25100 with Oracle Pedigree,canon,done,P0,Claude_Code_2,TASK-080,0.5,0.25,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 1 - New PART IX added
+TASK-082,PROJ-012,Create ARCH-INTENTION_COMPASS.md,architecture,done,P0,Claude_Code_2,null,1.0,0.5,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 2 - Full Oracle 0-12 extraction
+TASK-083,PROJ-012,Update coordination.yaml for constellation,infrastructure,done,P1,Claude_Code_2,null,0.25,0.25,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 3 - v2.0 with ChatGPT and routing
+TASK-084,null,Archive research documents,hygiene,done,P0,Claude_Code_3,null,0.5,0.5,2026-01-11,2026-01-11,DIRECTIVE-043B - 4 docs archived (cognitive_profile frontier_models platform_features reconnaissance)
+TASK-085,null,Repository hygiene - orphan files,hygiene,done,P1,Claude_Code_3,TASK-084,0.5,0.25,2026-01-11,2026-01-11,DIRECTIVE-043B - 11 orphan files relocated to proper directories
+TASK-086,null,SCAFF metabolism assessment,assessment,done,P2,Claude_Code_3,TASK-085,0.25,0.1,2026-01-11,2026-01-11,DIRECTIVE-043B - 18 SCAFF files assessed; retained as audit trail
+TASK-087,null,Create DIRECTIVE-043B execution log,documentation,done,P1,Claude_Code_3,TASK-086,0.25,0.25,2026-01-11,2026-01-11,DIRECTIVE-043B - Phase 5 completion
+TASK-088,PROJ-012,Update ARCH-INTENTION_COMPASS with Oracle 12 intentions,task,done,P2,Claude_Code_2,null,0.5,0.5,2026-01-11,2026-01-11,Blitzkrieg 44 - Added 11 new intentions (INT-1209-1218 + INT-P008)
+TASK-089,PROJ-012,Audit tech tree canonization coverage,task,done,P2,Claude_Code_2,TASK-088,0.5,0.5,2026-01-11,2026-01-11,Blitzkrieg 44 - Created ARCH-TECH_TREE_AUDIT.md with comprehensive analysis
