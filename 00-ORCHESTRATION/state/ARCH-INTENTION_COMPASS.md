@@ -67,10 +67,10 @@ Each intention entry contains:
 | INT-1205 | 12 | "intention archaeology compass should be unified" | resolved | This document |
 | INT-1206 | 11 | "Complete Efficacy, Mastery, Transcendence IIC configs" | active | PROJ-002 |
 | INT-1101 | 11 | "Multi-CLI integration validation" | resolved | DIRECTIVE-042B |
-| INT-1210 | 12 | "Canonize Model Manual/Prompting conceptual space" | active | Verify coverage in CANON-31100-ACUMEN, CANON-31120-TONE_LIBRARY, translate.xml |
-| INT-1211 | 12 | "Canonize Platform Features/Ecosystem Leverage" | active | Cross-ref CANON-31142-PLATFORM_GRAMMAR, AI_ECOSYSTEM_SURVEY.md |
-| INT-1212 | 12 | "Canonize Model Qualities/Capabilities/Benchmarks" | active | Cross-ref MODEL_INDEX.md, CANON-30000-INTELLIGENCE |
-| INT-1213 | 12 | "Blitzkrieg model specification protocol" | active | Formalize in CLAUDE.md or coordination.yaml |
+| INT-1210 | 12 | "Canonize Model Manual/Prompting conceptual space" | resolved | ARCH-TECH_TREE_AUDIT.md: 10 CANON files + translate.xml provide sufficient coverage |
+| INT-1211 | 12 | "Canonize Platform Features/Ecosystem Leverage" | resolved | ARCH-TECH_TREE_AUDIT.md: 77 CANON files provide excellent coverage |
+| INT-1212 | 12 | "Canonize Model Qualities/Capabilities/Benchmarks" | resolved | ARCH-TECH_TREE_AUDIT.md: 73 CANON files with correct temporal/evergreen split |
+| INT-1213 | 12 | "Blitzkrieg model specification protocol" | resolved | CLAUDE.md v2.1.0 + coordination.yaml v2.1.0 per DIRECTIVE-044B |
 
 ### BACKLOG (Future Work)
 

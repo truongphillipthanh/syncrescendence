@@ -85,5 +85,8 @@ TASK-084,null,Archive research documents,hygiene,done,P0,Claude_Code_3,null,0.5,
 TASK-085,null,Repository hygiene - orphan files,hygiene,done,P1,Claude_Code_3,TASK-084,0.5,0.25,2026-01-11,2026-01-11,DIRECTIVE-043B - 11 orphan files relocated to proper directories
 TASK-086,null,SCAFF metabolism assessment,assessment,done,P2,Claude_Code_3,TASK-085,0.25,0.1,2026-01-11,2026-01-11,DIRECTIVE-043B - 18 SCAFF files assessed; retained as audit trail
 TASK-087,null,Create DIRECTIVE-043B execution log,documentation,done,P1,Claude_Code_3,TASK-086,0.25,0.25,2026-01-11,2026-01-11,DIRECTIVE-043B - Phase 5 completion
-TASK-088,PROJ-012,Update ARCH-INTENTION_COMPASS with Oracle 12 intentions,task,done,P2,Claude_Code_2,null,0.5,0.5,2026-01-11,2026-01-11,Blitzkrieg 44 - Added 11 new intentions (INT-1209-1218 + INT-P008)
-TASK-089,PROJ-012,Audit tech tree canonization coverage,task,done,P2,Claude_Code_2,TASK-088,0.5,0.5,2026-01-11,2026-01-11,Blitzkrieg 44 - Created ARCH-TECH_TREE_AUDIT.md with comprehensive analysis
+TASK-090,PROJ-012,Formalize model specification protocol in CLAUDE.md,task,done,P2,Claude_Code,null,0.5,0.5,2026-01-11,2026-01-11,Blitzkrieg 44
+TASK-091,PROJ-012,Add model routing to coordination.yaml,task,done,P2,Claude_Code,TASK-090,0.5,0.5,2026-01-11,2026-01-11,Blitzkrieg 44
+TASK-095,PROJ-016,Create intentions.md Skill,skill,done,P2,Claude_Code_3,null,0.5,0.5,2026-01-12,2026-01-12,Blitzkrieg 45 - Intention extraction skill
+TASK-096,PROJ-016,Create pedigree.md Skill,skill,done,P2,Claude_Code_3,TASK-095,0.5,0.5,2026-01-12,2026-01-12,Blitzkrieg 45 - Oracle pedigree skill
+TASK-097,PROJ-012,Resolve INT-1210-1213 per Tech Tree Audit,task,done,P2,Claude_Code_2,null,0.25,0.25,2026-01-12,2026-01-12,Blitzkrieg 45 - All 4 intentions marked resolved based on ARCH-TECH_TREE_AUDIT.md and DIRECTIVE-044B
