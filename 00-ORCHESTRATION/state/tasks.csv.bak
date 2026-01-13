@@ -1,0 +1,69 @@
+id,project_id,name,type,status,priority,owner,blocked_by,estimate_hrs,actual_hrs,created,updated,notes
+TASK-001,PROJ-001,Rename transcripts to Principal standard,task,done,P1,Claude_Code,null,2,0.5,2026-01-02,2026-01-02,184 files renamed; mapping saved
+TASK-002,PROJ-001,Update sources.csv with new filenames,task,done,P1,Claude_Code,TASK-001,1,0.1,2026-01-02,2026-01-02,184 entries updated in sources.csv
+TASK-003,PROJ-001,Process remaining paradigm sources,task,done,P1,Claude_Code,null,20,4,2026-01-02,2026-01-05,26 sources processed via 039A/B
+TASK-004,PROJ-001,Process strategic sources,task,done,P2,Claude_Code,null,15,3,2026-01-02,2026-01-05,Completed with paradigm batch
+TASK-005,null,Create project management system,task,done,P1,Claude_Code,null,3,1,2026-01-02,2026-01-02,DIRECTIVE-034B Phase 1 complete
+TASK-006,null,Reconcile QUEUE with roadmap,task,done,P1,Claude_Code,TASK-005,2,0.5,2026-01-02,2026-01-02,DIRECTIVE-034B Phase 3 complete
+TASK-007,null,Triage QUEUE/pending items,task,done,P1,Claude_Code,null,1,0.25,2026-01-02,2026-01-02,Inbox zero achieved
+TASK-008,PROJ-001,Review CONTENT_PROCESSING_QUEUE.md,task,not_started,P2,Claude_Code,null,1,null,2026-01-02,2026-01-02,May have overlapping info with sources.csv
+TASK-009,PROJ-001,Review YOUTUBE_PROCESSING_BACKLOG.md,task,not_started,P2,Claude_Code,null,1,null,2026-01-02,2026-01-02,May have additional sources not in SOURCES/raw
+TASK-010,PROJ-001,Complete Coherence qualified distillation,task,done,P1,DIRECTIVE-035A,null,4,2,2026-01-02,2026-01-02,3.8M recovered content distilled to CANON/ARCHIVE
+TASK-011,null,Create CANON-35210 Metahumanism,task,done,P1,Claude_Code,null,1,0.5,2026-01-02,2026-01-02,Distilled from 924K to ~10K
+TASK-012,null,Create CANON-00016 Ontological Framework,task,done,P1,Claude_Code,null,1,0.5,2026-01-02,2026-01-02,Mental Models integration (564K to 13K)
+TASK-013,null,Create CANON-20010 Dimensional Coordinators,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,Cognitive Palace distillation
+TASK-014,null,Create CANON-20020 Meta-Systems,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,Cognitive Palace distillation
+TASK-015,null,Create ARCHIVE-COGNITIVE-PALACE-FULL,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,908K reference archive
+TASK-016,null,Create ARCHIVE-METAHUMANISM-FULL,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,924K reference archive
+TASK-017,null,Create ARCHIVE-ARTIFACT-PATTERN-LANGUAGE,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-02,2026-01-02,520K reference archive
+TASK-018,null,Integrate Knowledge Taxonomy into CANON-34100,task,done,P1,Claude_Code,null,0.25,0.1,2026-01-02,2026-01-02,Added section to Mastery
+TASK-019,null,Integrate Meaning Taxonomy into CANON-31100,task,done,P1,Claude_Code,null,0.25,0.1,2026-01-02,2026-01-02,Added section to Acumen
+TASK-020,null,Transcript/ disposition assessment,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-05,2026-01-05,DIRECTIVE-037B: Full redundancy with 03-SOURCES confirmed
+TASK-021,null,Delete Transcript/ directory,task,done,P1,Claude_Code,TASK-020,0.25,0.1,2026-01-05,2026-01-05,316 files deleted (all redundant with 03-SOURCES)
+TASK-022,null,Archive historical Oracle contexts,task,done,P1,Claude_Code,null,0.5,0.25,2026-01-05,2026-01-05,6 Oracle context files moved to 04-ARCHIVE
+TASK-023,null,Triage orchestration/state files,task,done,P1,Claude_Code,TASK-022,0.5,0.25,2026-01-05,2026-01-05,State files verified coherent
+TASK-024,null,Update project management ledgers,task,done,P1,Claude_Code,TASK-023,0.25,0.1,2026-01-05,2026-01-05,tasks.csv burndown.csv updated
+TASK-025,PROJ-001,Numberize orchestration to 06-ORCHESTRATION,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038A
+TASK-026,PROJ-001,Formalize state/ structure,structural,done,P1,Claude_Code_2,null,1.0,1.0,2026-01-05,2026-01-05,DIRECTIVE-038A - dynamic/ledgers/reference/archaeology
+TASK-027,PROJ-001,Create oracle_contexts/ subdirectory,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038A - 8 Oracle contexts formalized
+TASK-028,PROJ-001,Fix DIRECTIVE numbering collisions,hygiene,done,P1,Claude_Code_2,null,0.25,0.25,2026-01-05,2026-01-05,DIRECTIVE-038B - 034A/B → 034C/D
+TASK-029,PROJ-001,Create execution log template,documentation,done,P2,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038B - 01-OPERATIONAL/templates/
+TASK-030,PROJ-001,Document GitHub sync in project management,documentation,done,P2,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038B - PROJ-010 + BACKLOG update
+TASK-031,PROJ-001,Oracle 9 final verification,verification,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-05,2026-01-05,DIRECTIVE-038 combined verification
+TASK-032,PROJ-001,DIRECTIVE-039A Phase 1-2 structural,structural,done,P1,Claude_Code_2,null,1.25,1.08,2026-01-05,2026-01-05,state/ flattened; oracle_contexts/ distilled 9→2
+TASK-033,PROJ-001,DIRECTIVE-039A Phase 3 processing,processing,done,P1,Claude_Code_2,null,1.5,1.5,2026-01-05,2026-01-05,13 paradigm sources processed and qualified
+TASK-034,PROJ-001,DIRECTIVE-039B Phase 1-2 structural,structural,done,P1,Claude_Code_3,null,0.42,0.42,2026-01-05,2026-01-05,ARCHIVE/ scaffolding/ and EXEMPLA/ flattened
+TASK-035,PROJ-001,DIRECTIVE-039B Phase 3 processing,processing,done,P1,Claude_Code_3,null,1.5,1.5,2026-01-05,2026-01-05,13 sources processed; 6 CANON integrations
+TASK-036,PROJ-001,DIRECTIVE-040A hygiene+ledger,hygiene,done,P1,Claude_Code_2,null,0.75,0.75,2026-01-05,2026-01-05,Root cleanup; all ledgers synchronized; 46 processed files
+TASK-037,PROJ-001,DIRECTIVE-040B completion gate,verification,pending,P1,Claude_Code_3,null,1.0,null,2026-01-05,2026-01-05,40+ sources; PROJ-001 complete
+TASK-040,PROJ-011,Create CLAUDE.md,infrastructure,done,P0,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,Constitutional rules deployed at repo root (64 lines)
+TASK-041,PROJ-011,Create custom commands,infrastructure,done,P0,Claude_Code_2,TASK-040,0.5,0.5,2026-01-08,2026-01-08,4 commands in .claude/commands/project/
+TASK-042,PROJ-011,Create Makefile,infrastructure,done,P0,Claude_Code_2,TASK-040,0.25,0.25,2026-01-08,2026-01-08,5 targets: help verify sync update-ledgers tree clean
+TASK-043,PROJ-011,Configure settings,infrastructure,done,P0,Claude_Code_2,TASK-040,0.25,0.25,2026-01-08,2026-01-08,Permission allowlist in .claude/settings.json
+TASK-044,PROJ-011,Create MCP configuration,infrastructure,done,P0,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,MCP_SETUP.md and mcp.json.template created
+TASK-045,PROJ-011,Create coordination.yaml,infrastructure,done,P0,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,Multi-Claude zone ownership defined with 4 accounts
+TASK-046,PROJ-011,Create worktree setup script,infrastructure,done,P0,Claude_Code_3,null,0.25,0.25,2026-01-08,2026-01-08,setup-worktrees.sh executable
+TASK-047,PROJ-011,Create automation scripts,infrastructure,done,P0,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,sync_ledgers.py verify_all.sh update_dashboard.py enhanced
+TASK-051,null,Oracle 10 closure documentation,documentation,done,P1,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,Final summary and handoff prep
+TASK-052,null,Backlog crystallization,planning,done,P1,Claude_Code_3,null,0.5,0.5,2026-01-08,2026-01-08,PROJ-012 through PROJ-015 added
+TASK-053,null,Update DYN-BACKLOG.md,documentation,done,P1,Claude_Code_3,null,0.25,0.25,2026-01-08,2026-01-08,Comprehensive backlog refresh
+TASK-048,null,Root pollution cleanup,hygiene,done,P1,Claude_Code_2,null,0.25,0.25,2026-01-08,2026-01-08,Relocated 6 files from root (directives + oracle contexts)
+TASK-049,null,Research artifact protocol,documentation,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,REF-RESEARCH_ARTIFACTS.md + cleanup_root.sh
+TASK-050,null,Major restructuring commit,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,537 files migrated to new numbering scheme
+TASK-053,PROJ-012,Test Gemini CLI basic operations,task,blocked,P2,Claude_Code,null,1,0.5,2026-01-09,2026-01-09,BLOCKED: Gemini CLI not installed on system
+TASK-054,PROJ-012,Draft GEMINI.md,task,not_started,P2,Claude_Code,TASK-053,0.5,null,2026-01-09,2026-01-09,DIRECTIVE-043A Phase 2 - blocked by TASK-053
+TASK-055,null,Restore system prompt ground truth,task,done,P0,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 1 - synthesis files restored; backups created
+TASK-056,null,Complete queue disposition,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 3 - modal1 cleared; modal2 unchanged
+TASK-057,PROJ-016,Create skills/claude/ directory structure,task,not_started,P3,Claude_Code,null,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-058,PROJ-016,Convert transcribe_youtube.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-059,PROJ-016,Convert transcribe_interview.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-060,PROJ-016,Convert integrate.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-061,PROJ-016,Convert readize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-062,PROJ-016,Convert listenize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-063,null,Document methodology,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 5 - REF-METHODOLOGY.md created
+TASK-064,PROJ-002,CANON reconnaissance - 8 IIC documents,research,done,P1,Claude_Code,null,2,1.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 1 - 14500+ lines reviewed
+TASK-065,PROJ-002,Memory architecture decisions,planning,done,P1,Claude_Code,TASK-064,1,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 2 - Seven strata mapped to 4 platforms
+TASK-066,PROJ-002,Acumen memory config artifact,documentation,done,P1,Claude_Code,TASK-065,1,0.75,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 3 - 02-OPERATIONAL/memory/acumen-memory-config.md
+TASK-067,PROJ-014,Multi-account sync protocol,documentation,done,P1,Claude_Code,null,1,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 4 - REF-MULTI_ACCOUNT_SYNC.md created
+TASK-068,PROJ-002,Ledger updates,hygiene,done,P1,Claude_Code,TASK-067,0.25,0.25,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 5 - projects.csv + tasks.csv updated
+TASK-069,PROJ-002,Create SCAFF deliverable,documentation,done,P1,Claude_Code,TASK-068,0.5,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 6 - SCAFF-IIC_RECONNAISSANCE.md

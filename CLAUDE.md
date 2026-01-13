@@ -1,5 +1,8 @@
 # Syncrescendence Knowledge Management System
 
+**Version**: 2.1.0
+**Last Updated**: 2026-01-11
+
 ## Identity
 This is Syncrescendence, a civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale. You are executing directives as part of a multi-Claude coordination system.
 
@@ -57,6 +60,41 @@ Use these triggers for complex analysis:
 
 Use ultrathink for: architectural decisions, multi-step processing, forensic analysis.
 Do NOT use for: simple lookups, single-file edits, routine commits.
+
+## BLITZKRIEG MODEL SPECIFICATION
+
+When issuing Blitzkrieg directives, Oracle specifies which model to use per stream:
+
+### Model Selection Criteria
+
+| Model | Use When | Characteristics |
+|-------|----------|-----------------|
+| **Opus 4.5** | Comprehensive directives, architectural decisions, complex synthesis | Deep reasoning, better judgment, worth the cost for strategic work |
+| **Sonnet 4.5** | Clear tactical instructions, well-defined tasks, execution-heavy work | Fast, capable, cost-effective when task is well-specified |
+
+### Extended Thinking Specification
+
+Directives may include thinking level guidance:
+- `ultrathink` (~32K tokens) — Complex architectural synthesis
+- `megathink` (~10K tokens) — Moderate complexity reasoning
+- `think` (~4K tokens) — Standard deliberation
+- *(none)* — Let model self-regulate
+
+### Directive Header Format
+
+Each directive should include:
+```yaml
+Stream: A/B
+Model: Opus 4.5 / Sonnet 4.5
+Thinking: ultrathink / megathink / think / default
+Estimated Duration: X minutes
+```
+
+### Default Behavior
+
+- **Oracle strategic synthesis**: Opus 4.5 (ultrathink)
+- **Blitzkrieg execution**: Sonnet 4.5 unless complexity warrants Opus
+- **Repository maintenance**: Sonnet 4.5 (think)
 
 ## Session Management
 - Use /compact before context fills

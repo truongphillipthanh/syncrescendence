@@ -1,6 +1,6 @@
 id,name,type,status,priority,owner,blocked_by,oracle_scope,modal,due_date,created,updated,notes
 PROJ-001,Transcript Ingestion,initiative,complete,P1,Oracle10,null,10,modal1,2026-01-15,2026-01-01,2026-01-05,COMPLETE: 43 processed; 19 integrated; 11 CANON files enriched; pattern proven
-PROJ-002,IIC Configuration,initiative,active,P1,Oracle11,null,11,modal1,2026-02-01,2025-12-29,2026-01-09,ACTIVE: Phase 1-4 complete; Acumen memory config created; multi-account sync protocol documented
+PROJ-002,IIC Configuration,initiative,active,P1,Oracle11,null,11,modal1,2026-02-01,2025-12-29,2026-01-09,ACTIVE: 042A complete; Acumen+Coherence configs + shared protocols (1650 lines); 3/5 IICs remaining
 PROJ-003,Tooling Stack,initiative,not_started,P2,Oracle11,null,11,modal1,null,2025-12-29,2026-01-08,UNBLOCKED: GPT-5.2/Grok/MCP/Skills/Notion/Airtable (was blocked by PROJ-011)
 PROJ-004,Automation,initiative,blocked,P2,Oracle12,PROJ-003,12,modal1,null,2025-12-29,2026-01-02,Agentification of processes
 PROJ-005,Branding,initiative,blocked,P3,Oracle13,PROJ-002,13,modal1,null,2025-12-29,2026-01-02,Business side elucidation
@@ -10,8 +10,8 @@ PROJ-008,Tech Lunar Canonization,initiative,not_started,P2,TBD,null,TBD,modal1,n
 PROJ-009,Modal 2 Preparation,initiative,not_started,P3,TBD,null,TBD,modal2,null,2025-12-29,2026-01-02,3D/VFX/Video synthesis runway
 PROJ-010,GitHub Synchronization,initiative,not_started,P2,Oracle10+,null,10+,modal1,null,2026-01-05,2026-01-05,Multi-account sync across Claude Code instances
 PROJ-011,Automation Infrastructure,initiative,complete,P0,Oracle10,PROJ-001,10,modal1,2026-01-10,2026-01-08,2026-01-08,COMPLETE: CLAUDE.md + 4 commands + Makefile + MCP + coordination.yaml + 3 scripts — 18-lens #12 and #14 addressed
-PROJ-012,Multi-CLI Onboarding,initiative,not_started,P2,Oracle11,PROJ-011,11,modal1,2026-01-20,2026-01-08,2026-01-08,Gemini CLI + Codex decision; platform-specific CLAUDE.md equivalents
+PROJ-012,Platform Constellation Onboarding,initiative,in_progress,P1,Oracle12,PROJ-011,12,modal1,2026-01-20,2026-01-08,2026-01-11,ACTIVE: 5-platform constellation (3 Claude + Gemini + ChatGPT); CANON-25200 created; ChatGPT Plus added (truongphillipthanh@icloud.com)
 PROJ-013,Claude Project System Prompt,initiative,not_started,P2,Oracle11,PROJ-002,11,modal1,null,2026-01-08,2026-01-08,This Oracle thread's identity layer; Layer 5 in memory architecture
 PROJ-014,Multi-Account Synchronization,initiative,active,P2,Oracle11,null,11,modal1,null,2026-01-08,2026-01-09,REF-MULTI_ACCOUNT_SYNC.md created; corpus-first model documented; inter-IIC flow patterns specified
 PROJ-015,Browser Automation Architecture,initiative,not_started,P3,Oracle12+,PROJ-014,12,modal1,null,2026-01-08,2026-01-08,IIC account cloning; vendor lock-in bypass
-PROJ-016,Skills Conversion,initiative,not_started,P3,Oracle12+,null,12+,modal1,null,2026-01-09,2026-01-09,Convert top 5 functions to Claude Skills format (transcribe_youtube; transcribe_interview; integrate; readize; listenize)
+PROJ-016,Skills Conversion,initiative,in_progress,P3,Oracle12+,null,12+,modal1,null,2026-01-09,2026-01-12,ACTIVE: 2 process skills created (intentions.md; pedigree.md); 5 function conversions pending (transcribe_youtube; transcribe_interview; integrate; readize; listenize)

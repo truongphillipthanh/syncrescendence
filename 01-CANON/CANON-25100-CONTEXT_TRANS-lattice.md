@@ -4,10 +4,10 @@ name: Context Transition Protocol
 identity: CONTEXT_TRANS
 tier: CANON
 type: lattice
-version: 2.0.0
+version: 2.1.0
 status: canonical
 created: 2025-10-17
-updated: 2025-12-30
+updated: 2026-01-11
 synopsis: Unified interface for managing cognitive continuity across sessions, threads, and platforms—the librarian's session management system for context transitions
 ---
 
@@ -462,6 +462,118 @@ When MCP achieves universality:
 - Context restoration completeness (measured by follow-up questions needed)
 - Compression ratio achieved vs. semantic fidelity maintained
 - Canonical graduation rate from transition artifacts
+
+---
+
+## PART IX: ORACLE PEDIGREE PROTOCOL
+
+### A. Purpose
+
+As work increasingly moves from web app to repository, traditional handoff documents become less necessary. The Oracle Pedigree provides:
+
+1. **Historical Lineage Tracking**: Oracle 0 → current thread
+2. **Decision Archaeology**: What was decided and why
+3. **Multi-Model Integration**: Tracks decisions across platforms, not just Claude
+
+From Oracle 12 (Principal's words):
+> "The intention archaeology compass should be unified... it's a cache, but it's also a rolling snapshot."
+
+### B. Pedigree vs. Handoff
+
+**Handoff Documents** remain useful for:
+- Session initialization prompts
+- Context restoration across model resets
+- Cross-platform synchronization (push context)
+
+**Oracle Pedigree** supersedes handoff for:
+- Decision archaeology (pull context)
+- Multi-model coordination history
+- Repository-centric workflows
+- Long-term pattern analysis
+
+### C. Pedigree Components
+
+Each Oracle session generates pedigree metadata:
+
+```yaml
+oracle_pedigree:
+  thread_id: "Oracle 12"
+  campaign: "Campaign Phase 2: Architecture"
+  phase: "Construction"
+  date: "2026-01-11"
+
+  decisions:
+    - id: DEC-043A-001
+      principal_words: "retain all 3 Claude Pro accounts"
+      interpretation: "Maximize velocity during critical phase"
+      lenses_applied: [2, 4, 12, 14]  # Bitter Lesson, Meet the Moment, etc.
+      score: "16/18"
+      outcome: "Platform constellation specification"
+
+  artifacts_produced:
+    - CANON-25200-CONSTELLATION_ARCH
+    - ARCH-INTENTION_COMPASS
+    - coordination.yaml update
+
+  handoff_state:
+    open_threads: ["sustainability", "ChatGPT onboarding"]
+    blocked_by: null
+    ready_for: "execution"
+```
+
+### D. Pedigree Location
+
+Pedigree information is distributed across:
+
+| Component | Location | Purpose |
+|-----------|----------|---------|
+| Thread summaries | ARCH-ORACLE_ARC_SUMMARY.md | Historical lineage |
+| Decisions | ARCH-ORACLE_DECISIONS.md | Decision archaeology |
+| Intentions | ARCH-INTENTION_COMPASS.md | Active/resolved intentions |
+| Execution | EXECUTION_LOG-*.md | Implementation records |
+
+### E. Cross-Platform Pedigree
+
+When decisions involve multiple platforms:
+
+```markdown
+## Decision: DEC-043A-001
+**Platforms Involved**: Claude (Oracle, Alpha, Beta), Gemini, ChatGPT
+**Decision Point**: Platform specialization architecture
+**Principal's Words**: "design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid"
+
+### Platform-Specific Implications
+| Platform | Role | Action Required |
+|----------|------|-----------------|
+| Claude Oracle | Architect | Produce CANON-25200 |
+| Claude Alpha | Execute | Implement architecture |
+| Gemini | Ingest | Configure for YouTube |
+| ChatGPT | Review | Codex CLI integration |
+
+### Verification
+- [ ] CANON-25200 created
+- [ ] coordination.yaml updated
+- [ ] Each platform configured
+```
+
+### F. Pedigree Maintenance
+
+**During Oracle Session**:
+1. Capture Principal's words verbatim
+2. Document Oracle's interpretation
+3. Record 18-lens evaluation (if strategic)
+4. Note artifacts produced
+
+**After Oracle Session**:
+1. Update ARCH-ORACLE_ARC_SUMMARY.md with thread summary
+2. Update ARCH-ORACLE_DECISIONS.md with key decisions
+3. Update ARCH-INTENTION_COMPASS.md with new intentions
+4. Git commit with pedigree reference
+
+**Across Sessions**:
+- Pedigree enables any Oracle to understand full decision history
+- Pattern analysis reveals recurring themes
+- Anti-patterns become visible over time
 
 ---
 

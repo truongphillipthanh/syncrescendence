@@ -1,3 +1,42 @@
+---
+
+1.4M	00-ORCHESTRATION
+2.7M	01-CANON
+784K	02-OPERATIONAL
+ 92K	03-QUEUE
+8.7M	04-SOURCES
+576K	05-ARCHIVE
+ 20K	06-EXEMPLA
+4.0K	BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
+4.0K	BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
+8.0K	CANON-31150-PLATFORM_CATALOG-lunar-ACUMEN-planetary-INFORMATION.md
+8.0K	CLAUDE.md
+ 16K	config
+ 12K	DEEP_RESEARCH_PROMPT-Claude_Code_Ecosystem.md
+ 12K	DEEP_RESEARCH_PROMPT-Google_Ecosystem.md
+ 12K	DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md
+ 12K	DIRECTIVE-042A_IIC_FOUNDATION.md
+ 12K	DIRECTIVE-042B_MULTI_CLI.md
+ 12K	DIRECTIVE-042C_OPERATIONAL_HYGIENE.md
+8.0K	DIRECTIVE-042D_GEMINI_VALIDATION.md
+ 12K	DIRECTIVE-043A_CONSTELLATION_ARCHITECTURE.md
+ 20K	DIRECTIVE-043A_INFRASTRUCTURE_OPERATIONS.md
+ 28K	DIRECTIVE-043B_CONTENT_STRATEGY.md
+ 12K	DIRECTIVE-043B_OPERATIONAL_HYGIENE.md
+8.0K	DIRECTIVE-044A.md
+8.0K	DIRECTIVE-044B.md
+ 12K	DIRECTIVE-045A.md
+ 16K	DIRECTIVE-045B.md
+ 64K	google_research.md
+4.0K	Makefile
+ 60K	openai_research.md
+8.0K	ORACLE12_PEDIGREE-045.md
+4.0K	ORACLE12_PEDIGREE.md
+4.0K	ORACLE12_SESSION_DELIVERABLES.md
+160K	system_prompts
+
+---
+
 ├── 00-ORCHESTRATION
 │   ├── directives
 │   │   ├── DIRECTIVE-017_HOLISTIC_RECONCEPTION.md
@@ -81,6 +120,17 @@
 │   │   ├── EXECUTION_LOG-2026-01-08-041B.md
 │   │   ├── EXECUTION_LOG-2026-01-08-042A.md
 │   │   ├── EXECUTION_LOG-2026-01-08-042B.md
+│   │   ├── EXECUTION_LOG-2026-01-09-042A.md
+│   │   ├── EXECUTION_LOG-2026-01-09-042B.md
+│   │   ├── EXECUTION_LOG-2026-01-09-042C.md
+│   │   ├── EXECUTION_LOG-2026-01-09-043A.md
+│   │   ├── EXECUTION_LOG-2026-01-11-043A.md
+│   │   ├── EXECUTION_LOG-2026-01-11-043B.md
+│   │   ├── EXECUTION_LOG-2026-01-11-044A.md
+│   │   ├── EXECUTION_LOG-2026-01-11-044B.md
+│   │   ├── EXECUTION_LOG-2026-01-12-045A.md
+│   │   ├── EXECUTION_LOG-2026-01-12-045B.md
+│   │   ├── ORACLE10_CULMINATION.md
 │   │   ├── RECONSOLIDATION_AUDIT-2026-01-02.md
 │   │   └── TRIAGE_REPORT-2026-01-01.md
 │   ├── oracle_contexts
@@ -92,6 +142,7 @@
 │   │   ├── ORACLE10_CONTEXT_v3.md
 │   │   ├── ORACLE10_CONTEXT_v4.md
 │   │   └── ORACLE10_CONTEXT.md
+│   ├── ORACLE12_CONTEXT.md
 │   ├── scripts
 │   │   ├── cleanup_root.sh
 │   │   ├── rename_transcripts.py
@@ -103,15 +154,21 @@
 │       ├── ARCH-COHERENCE_ABSORPTION_AUDIT.md
 │       ├── ARCH-CRYSTALLINE_CHARACTERISTICS.md
 │       ├── ARCH-DESIGN_DECISIONS.md
+│       ├── ARCH-INTENTION_COMPASS.md
 │       ├── ARCH-ORACLE_ARC_SUMMARY.md
 │       ├── ARCH-ORACLE_DECISIONS.md
+│       ├── ARCH-TECH_TREE_AUDIT.md
 │       ├── burndown.csv
 │       ├── DYN-BACKLOG.md
 │       ├── DYN-DASHBOARD.md
 │       ├── DYN-TREE.md
 │       ├── projects.csv
+│       ├── projects.csv.bak.1767947262
 │       ├── README.md
 │       ├── REF-FOUR_SYSTEMS.md
+│       ├── REF-METHODOLOGY.md
+│       ├── REF-MULTI_ACCOUNT_SYNC.md
+│       ├── REF-MULTI_CLI_COORDINATION.md
 │       ├── REF-PROCESSING_PATTERN.md
 │       ├── REF-PROCESSING_ROUTING.md
 │       ├── REF-QUEUE_ROADMAP_MAPPING.md
@@ -119,8 +176,11 @@
 │       ├── REF-SOURCES_SCHEMA.md
 │       ├── REF-STANDARDS.md
 │       ├── REF-TRIAGE_PROTOCOL.md
+│       ├── SCAFF-IIC_RECONNAISSANCE.md
 │       ├── sprints.csv
-│       └── tasks.csv
+│       ├── tasks.csv
+│       ├── tasks.csv.bak
+│       └── tasks.csv.bak.1767947262
 ├── 01-CANON
 │   ├── CANON-00000-SCHEMA-cosmos.md
 │   ├── CANON-00001-ORIGIN-cosmos.md
@@ -152,6 +212,7 @@
 │   ├── CANON-24000-OMNI_QUALITY-lattice.md
 │   ├── CANON-25000-MEMORY_ARCH-lattice.md
 │   ├── CANON-25100-CONTEXT_TRANS-lattice.md
+│   ├── CANON-25200-CONSTELLATION_ARCH-lattice.md
 │   ├── CANON-30000-INTELLIGENCE-chain.md
 │   ├── CANON-30100-ASA-comet-INTELLIGENCE.md
 │   ├── CANON-30200-POSITIONING-comet-INTELLIGENCE.md
@@ -227,6 +288,13 @@
 │   │   ├── transcribe_youtube.md
 │   │   ├── transcribe_youtube.xml
 │   │   └── translate.xml
+│   ├── gemini-settings.json
+│   ├── GEMINI.md
+│   ├── IIC-Acumen-config.md
+│   ├── IIC-Coherence-config.md
+│   ├── IIC-shared-protocols.md
+│   ├── memory
+│   │   └── acumen-memory-config.md
 │   ├── models
 │   │   ├── MODEL_INDEX.md
 │   │   └── profiles
@@ -253,21 +321,21 @@
 │   │       ├── Gemini-unified-prompt.md
 │   │       ├── Grok-gemknowledge-base.md
 │   │       └── Grok-unified-prompt.md
+│   ├── queues
+│   │   └── YOUTUBE_PROCESSING_BACKLOG.md
 │   ├── README.md
 │   ├── scripts
 │   │   ├── rename_canon.sh
 │   │   └── validate_frontmatter.sh
+│   ├── surveys
+│   │   ├── AI_Academic_Research.md
+│   │   └── AI_ECOSYSTEM_SURVEY.md
 │   └── templates
 │       └── EXECUTION_LOG_TEMPLATE.md
 ├── 03-QUEUE
 │   ├── modal1
-│   │   ├── AI_ECOSYSTEM_SURVEY.md
-│   │   ├── CONTENT_PROCESSING_QUEUE.md
-│   │   ├── QUICK_WINS.md
-│   │   └── YOUTUBE_PROCESSING_BACKLOG.md
 │   ├── modal2
 │   │   ├── AI_3D_VFX.md
-│   │   ├── AI_Academic_Research.md
 │   │   ├── AI_Image_Generators.md
 │   │   ├── AI_Workflows_in_Video_and_VFX.md
 │   │   ├── Physical_AI.md
@@ -517,6 +585,13 @@
 │   ├── sources.csv
 │   └── TRANSCRIPT_RECONCILIATION.md
 ├── 05-ARCHIVE
+│   ├── ARCH-BLITZKRIEG_042_GUIDE.md
+│   ├── ARCH-BLITZKRIEG_043_GUIDE.md
+│   ├── ARCH-COGNITIVE_PROFILE_2026-01.md
+│   ├── ARCH-FRONTIER_MODELS_2026-01.md
+│   ├── ARCH-PLATFORM_FEATURES_2026-01.md
+│   ├── ARCH-RECONNAISSANCE_2026-01.md
+│   ├── ARCH-REVIEW_VS_RETROSPECTIVE.md
 │   ├── ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md
 │   ├── ARCHIVE-ARTIFACT-SYSTEM.md
 │   ├── ARCHIVE-AUTOPSYCHOGRAPHY.md
@@ -524,11 +599,23 @@
 │   ├── ARCHIVE-COGNITIVE-PALACE-SPECS.md
 │   ├── ARCHIVE-METAHUMANISM-FULL.md
 │   ├── ARCHIVE-PROMPT-ARCHAEOLOGY.md
+│   ├── ARCHIVE-QUICK_WINS-2026-01-09.md
 │   ├── ARCHIVE-SYSTEM-PROMPTS-v2.1.md
+│   ├── GEMINI_VALIDATION_REPORT.md
+│   ├── GEMINI_VALIDATION_TEST_PROOF.md
 │   ├── justification-chatgpt.md
 │   ├── justification-claude.md
 │   ├── justification-gemini.md
 │   ├── justification-grok.md
+│   ├── ORACLE11_COMPREHENSIVE_INIT.md
+│   ├── ORACLE11_CONTEXT_BLITZKRIEG.md
+│   ├── ORACLE11_CONTEXT.md
+│   ├── ORACLE11_INIT.md
+│   ├── prompt-backup-043A
+│   │   ├── ChatGPT-unified-prompt.md
+│   │   ├── Claude-unified-prompt.md
+│   │   ├── Gemini-unified-prompt.md
+│   │   └── Grok-unified-prompt.md
 │   ├── README.md
 │   ├── RESEARCH-20260108-claude_code_optimization.md
 │   ├── SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md
@@ -553,15 +640,35 @@
 │   ├── CASE-TEMPLATE.md
 │   ├── EXAMPLE-TEMPLATE.md
 │   └── README.md
-├── addtions.md
+├── BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
+├── BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
+├── CANON-31150-PLATFORM_CATALOG-lunar-ACUMEN-planetary-INFORMATION.md
 ├── CLAUDE.md
 ├── config
 │   ├── coordination.yaml
 │   ├── MCP_SETUP.md
 │   └── mcp.json.template
+├── DEEP_RESEARCH_PROMPT-Claude_Code_Ecosystem.md
+├── DEEP_RESEARCH_PROMPT-Google_Ecosystem.md
+├── DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md
+├── DIRECTIVE-042A_IIC_FOUNDATION.md
+├── DIRECTIVE-042B_MULTI_CLI.md
+├── DIRECTIVE-042C_OPERATIONAL_HYGIENE.md
+├── DIRECTIVE-042D_GEMINI_VALIDATION.md
+├── DIRECTIVE-043A_CONSTELLATION_ARCHITECTURE.md
+├── DIRECTIVE-043A_INFRASTRUCTURE_OPERATIONS.md
+├── DIRECTIVE-043B_CONTENT_STRATEGY.md
+├── DIRECTIVE-043B_OPERATIONAL_HYGIENE.md
+├── DIRECTIVE-044A.md
+├── DIRECTIVE-044B.md
+├── DIRECTIVE-045A.md
+├── DIRECTIVE-045B.md
+├── google_research.md
 ├── Makefile
-├── ORACLE10_CULMINATION.md
-├── ORACLE11_INIT.md
+├── openai_research.md
+├── ORACLE12_PEDIGREE-045.md
+├── ORACLE12_PEDIGREE.md
+├── ORACLE12_SESSION_DELIVERABLES.md
 └── system_prompts
     ├── ASSEMBLED_SYSTEM_PROMPTS_v2.1.md
     ├── justification-chatgpt.md
@@ -581,3 +688,5 @@
     ├── synthesis-claude.md
     ├── synthesis-gemini.md
     └── synthesis-grok.md
+
+33 directories, 619 files
