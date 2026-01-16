@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "packet_types": {
+    "evidence": {
+      "description": "Oracle outputs - findings from corpus sensing",
+      "required_fields": ["id", "timestamp", "actor", "query", "corpus_slice", "findings", "uncertainties"],
+      "optional_fields": ["recommended_probe", "citations", "confidence"],
+      "example": {
+        "id": "EVD-20260115-001",
+        "timestamp": "2026-01-15T00:00:00Z",
+        "actor": "gemini",
+        "query": "What new videos appeared on monitored channels?",
+        "corpus_slice": ["youtube_subscriptions", "last_24h"],
+        "findings": ["New video from [creator]: [title]"],
+        "uncertainties": ["Signal tier not yet assessed"],
+        "recommended_probe": "Assess signal tier via transcript preview"
+      }
+    },
+    "plan": {
+      "description": "Deviser outputs - specifications for execution",
+      "required_fields": ["id", "timestamp", "actor", "evidence_ids", "objective", "deliverables", "acceptance_criteria", "stop_conditions"],
+      "optional_fields": ["estimated_duration", "resource_requirements", "dependencies"],
+      "example": {
+        "id": "PLN-20260115-001",
+        "timestamp": "2026-01-15T00:05:00Z",
+        "actor": "chatgpt",
+        "evidence_ids": ["EVD-20260115-001"],
+        "objective": "Transcribe and qualify new video",
+        "deliverables": ["SOURCE-[date]-[creator].md"],
+        "acceptance_criteria": ["Transcript complete", "Frontmatter valid", "Signal tier assigned"],
+        "stop_conditions": ["Video >4hr without Principal approval", "API error rate >5%"]
+      }
+    },
+    "execution": {
+      "description": "Executor outputs - completed work records",
+      "required_fields": ["id", "timestamp", "actor", "plan_id", "commands_run", "files_changed", "verification_output"],
+      "optional_fields": ["duration", "errors_encountered", "rollback_notes"],
+      "example": {
+        "id": "EXE-20260115-001",
+        "timestamp": "2026-01-15T00:10:00Z",
+        "actor": "claude_code_2",
+        "plan_id": "PLN-20260115-001",
+        "commands_run": ["transcribe_youtube.py [url]", "validate_frontmatter.sh"],
+        "files_changed": ["04-SOURCES/processed/SOURCE-20260115-creator.md"],
+        "verification_output": "Frontmatter valid. Signal tier: STRATEGIC."
+      }
+    },
+    "audit": {
+      "description": "Verification outputs - quality assessment",
+      "required_fields": ["id", "timestamp", "actor", "execution_id", "plan_id", "criteria_results", "drift_analysis", "recommendation"],
+      "optional_fields": ["state_transition_justified", "canon_integration_recommended"],
+      "example": {
+        "id": "AUD-20260115-001",
+        "timestamp": "2026-01-15T00:15:00Z",
+        "actor": "chatgpt",
+        "execution_id": "EXE-20260115-001",
+        "plan_id": "PLN-20260115-001",
+        "criteria_results": {"transcript_complete": true, "frontmatter_valid": true, "signal_tier_assigned": true},
+        "drift_analysis": "No drift from plan",
+        "recommendation": "APPROVE - ready for integration"
+      }
+    },
+    "capability_event": {
+      "description": "Platform self-reports on capability changes",
+      "required_fields": ["id", "timestamp", "platform", "event_type", "details"],
+      "optional_fields": ["routing_impact", "action_required"],
+      "example": {
+        "id": "CAP-20260115-001",
+        "timestamp": "2026-01-15T00:20:00Z",
+        "platform": "gemini",
+        "event_type": "rate_limit_hit",
+        "details": "Video processing quota exhausted for day",
+        "routing_impact": "Route video tasks to alternative or queue",
+        "action_required": false
+      }
+    }
+  },
+  "naming_conventions": {
+    "evidence": "EVD-YYYYMMDD-NNN",
+    "plan": "PLN-YYYYMMDD-NNN",
+    "execution": "EXE-YYYYMMDD-NNN",
+    "audit": "AUD-YYYYMMDD-NNN",
+    "capability": "CAP-YYYYMMDD-NNN"
+  },
+  "file_format": "JSON with .json extension",
+  "location": "/00-ORCHESTRATION/blackboard/{packet_type}/"
+}

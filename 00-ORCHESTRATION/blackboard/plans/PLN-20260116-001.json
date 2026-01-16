@@ -1,0 +1,24 @@
+{
+  "id": "PLN-20260116-001",
+  "timestamp": "2026-01-16T00:36:30Z",
+  "actor": "directive-046a",
+  "evidence_ids": ["EVD-20260116-001"],
+  "objective": "Validate operational primitives by completing state update cycle",
+  "deliverables": [
+    "Updated system_state.json with autonomous_cycles = 1",
+    "Event log entries for full cycle (evidence, plan, execution, audit)",
+    "Execution packet documenting all actions taken"
+  ],
+  "acceptance_criteria": [
+    "State vector timestamp updated to current time",
+    "metrics.autonomous_cycles incremented from 0 to 1",
+    "metrics.packets_created reflects actual packet count",
+    "Event log contains entries for complete IMEP cycle",
+    "No Principal relay required during cycle"
+  ],
+  "stop_conditions": [
+    "Any primitive fails validation",
+    "JSON parsing errors in state files",
+    "File permission errors prevent writes"
+  ]
+}
