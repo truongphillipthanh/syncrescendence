@@ -1,5 +1,6 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
+  "schema_updated": "2026-01-18",
   "packet_types": {
     "evidence": {
       "description": "Oracle outputs - findings from corpus sensing",
@@ -73,6 +74,44 @@
         "routing_impact": "Route video tasks to alternative or queue",
         "action_required": false
       }
+    },
+    "continuation": {
+      "description": "Session handoff packet for cross-platform or cross-session continuity (CONT capsules)",
+      "required_fields": ["id", "timestamp", "source_platform", "target_platform", "session_context", "pending_tasks", "critical_state"],
+      "optional_fields": ["attachments", "hash_manifest", "priority", "expiry", "symbolic_compression"],
+      "notes": "Replaces YAML-ish CONT capsule format. All continuation packets are JSON.",
+      "example": {
+        "id": "CONT-20260118-001",
+        "timestamp": "2026-01-18T15:00:00Z",
+        "source_platform": "chatgpt",
+        "target_platform": "claude_code",
+        "session_context": {
+          "oracle_number": 13,
+          "last_blitzkrieg": "046B",
+          "active_directive": "STRUCTURAL_STABILIZATION_PASS",
+          "repo_state": "pre-defrag with root pollution"
+        },
+        "pending_tasks": [
+          "Execute defrag_apply_v2.sh",
+          "Verify structural compliance",
+          "Update COCKPIT.md post-defrag"
+        ],
+        "critical_state": {
+          "files_to_read": ["CLAUDE.md", "COCKPIT.md", "00-ORCHESTRATION/state/system_state.json"],
+          "decisions_pending": ["OUTGOING/ strategy: keep as exception"],
+          "warnings": ["config/coordination.yaml moves to 02-OPERATIONAL/"]
+        },
+        "attachments": [
+          {"name": "defrag_plan_v2.md", "path": "OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/03_defrag_plan_v2/defrag_plan_v2.md"},
+          {"name": "convictions_v2.md", "path": "OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/02_governance_refresh/convictions_v2.md"}
+        ],
+        "hash_manifest": {
+          "defrag_plan_v2.md": "12bc98035fbdf8f7278dc1d5d2857580dce5667153f3dbfcbd1f556f80501bff"
+        },
+        "priority": "HIGH",
+        "expiry": "2026-01-19T00:00:00Z",
+        "symbolic_compression": "See 02_SYMBOLIC_COMPRESSION.md for condensed context"
+      }
     }
   },
   "naming_conventions": {
@@ -80,8 +119,12 @@
     "plan": "PLN-YYYYMMDD-NNN",
     "execution": "EXE-YYYYMMDD-NNN",
     "audit": "AUD-YYYYMMDD-NNN",
-    "capability": "CAP-YYYYMMDD-NNN"
+    "capability": "CAP-YYYYMMDD-NNN",
+    "continuation": "CONT-YYYYMMDD-NNN"
   },
   "file_format": "JSON with .json extension",
-  "location": "/00-ORCHESTRATION/blackboard/{packet_type}/"
+  "location": "/00-ORCHESTRATION/blackboard/{packet_type}/",
+  "migration_notes": {
+    "continuation_from_yaml": "Prior CONT capsules used YAML-ish markdown format. Convert to JSON using the continuation schema. Key mappings: 'session_context' captures Oracle/Blitzkrieg state, 'pending_tasks' captures action items, 'attachments' replaces inline file references."
+  }
 }

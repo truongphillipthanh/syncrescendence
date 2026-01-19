@@ -1,6 +1,6 @@
 # Syncrescendence Cockpit
 ## System Navigation Index
-**Last Updated**: 2026-01-17
+**Last Updated**: 2026-01-18
 
 ---
 
@@ -22,26 +22,31 @@
 | [CLAUDE.md](./CLAUDE.md) | Constitutional rules | Every Claude Code session |
 | [REF-STANDARDS.md](./00-ORCHESTRATION/state/REF-STANDARDS.md) | 18 evaluative lenses | Before strategic decisions |
 | [system_state.json](./00-ORCHESTRATION/state/system_state.json) | Current state vector | Before any execution |
-| [coordination.yaml](./config/coordination.yaml) | Platform constellation | Multi-agent work |
+| [coordination.yaml](./02-OPERATIONAL/coordination.yaml) | Platform constellation | Multi-agent work |
 
 ---
 
 ## Quick Navigation
 
 ### For Oracle Sessions
-1. Load ORACLE[N]_CONTEXT.md from oracle_contexts/
+1. Load ORACLE[N]_CONTEXT.md from 00-ORCHESTRATION/oracle_contexts/
 2. Check system_state.json for current state
 3. Reference REF-STANDARDS.md for decisions
 
 ### For Execution Sessions
 1. Read CLAUDE.md (constitution)
-2. Check relevant DIRECTIVE-NNN.md
+2. Check relevant DIRECTIVE-NNN.md in 00-ORCHESTRATION/directives/
 3. Write to appropriate zone per coordination.yaml
 
 ### For Source Processing
 1. Consult REF-PROCESSING_PATTERN.md
 2. Update sources.csv with atomic writes
 3. Process raw/ to processed/
+
+### For Structural Maintenance
+1. Run `./00-ORCHESTRATION/scripts/structural_verify.sh`
+2. Review REF-STABILIZATION_PROCEDURE.md for defrag
+3. Ensure OUTGOING/ is uppercase (Constitutional Rule #4)
 
 ---
 
@@ -50,7 +55,8 @@
 1. [ ] Check git status for uncommitted work
 2. [ ] Review system_state.json for current Oracle/Blitzkrieg
 3. [ ] Scan 00-ORCHESTRATION/directives/ for pending work
-4. [ ] Verify no orphan files at root (ls *.md)
+4. [ ] Verify no orphan files at root (`ls *.md | grep -v CLAUDE | grep -v COCKPIT`)
+5. [ ] Run structural_verify.sh if significant changes made
 
 ---
 
@@ -62,6 +68,7 @@
 | Memory mismatch | Trust repo, not platform memory |
 | Collision | Check coordination.yaml zones |
 | Uncertainty | Apply 18 lenses (REF-STANDARDS.md) |
+| Structural drift | Run structural_verify.sh |
 
 ---
 
@@ -69,18 +76,20 @@
 
 ```
 .
-├── CLAUDE.md              # Constitution
+├── CLAUDE.md              # Constitution (v2.2.0)
 ├── COCKPIT.md             # You are here
-├── config/                # Platform coordination
-├── 00-ORCHESTRATION/      # Directives, logs, state
+├── Makefile               # Build/verify commands
+├── 00-ORCHESTRATION/      # Directives, logs, state, scripts
 ├── 01-CANON/              # Protected knowledge
-├── 02-OPERATIONAL/        # Prompts, functions
+├── 02-OPERATIONAL/        # Prompts, functions, coordination.yaml
 ├── 03-QUEUE/              # Pending work
-├── 04-SOURCES/            # Source documents
+├── 04-SOURCES/            # Source documents (raw/, processed/)
 ├── 05-ARCHIVE/            # Historical preservation
 ├── 06-EXEMPLA/            # Templates
-└── OUTGOING/              # Teleology passes
+└── OUTGOING/              # Teleology passes, reinit capsules (EXCEPTION)
 ```
+
+**Root Exceptions**: Only `OUTGOING/` (uppercase) is sanctioned beyond 00-06.
 
 ---
 

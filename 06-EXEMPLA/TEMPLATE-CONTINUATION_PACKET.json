@@ -1,0 +1,55 @@
+{
+  "$schema": "../00-ORCHESTRATION/schemas/packet_protocol.json",
+  "$comment": "Template for CONT (continuation) packets. Fill in required fields, remove unused optional fields.",
+
+  "id": "CONT-YYYYMMDD-NNN",
+  "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+  "source_platform": "chatgpt|claude_code|gemini|other",
+  "target_platform": "chatgpt|claude_code|gemini|other",
+
+  "session_context": {
+    "oracle_number": null,
+    "last_blitzkrieg": "NNN",
+    "active_directive": "DIRECTIVE-NNN or descriptive name",
+    "repo_state": "Brief description of repo state at handoff"
+  },
+
+  "pending_tasks": [
+    "Task 1 - specific action to take",
+    "Task 2 - specific action to take"
+  ],
+
+  "critical_state": {
+    "files_to_read": [
+      "CLAUDE.md",
+      "COCKPIT.md",
+      "other/critical/file.md"
+    ],
+    "decisions_pending": [
+      "Decision 1 that needs Principal input",
+      "Decision 2 with options A/B/C"
+    ],
+    "warnings": [
+      "Important caveat or risk",
+      "Path that moved or will move"
+    ]
+  },
+
+  "$optional_fields_below": "Remove this line and unused fields",
+
+  "attachments": [
+    {
+      "name": "human-readable-name.md",
+      "path": "OUTGOING/PASS_NAME/path/to/file.md"
+    }
+  ],
+
+  "hash_manifest": {
+    "file1.md": "sha256-hash",
+    "file2.md": "sha256-hash"
+  },
+
+  "priority": "HIGH|MEDIUM|LOW",
+  "expiry": "YYYY-MM-DDTHH:MM:SSZ",
+  "symbolic_compression": "Reference to compressed context document if exists"
+}
