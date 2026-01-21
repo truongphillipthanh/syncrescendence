@@ -1,3 +1,11 @@
+---
+id: imep-gemini-oracle
+kind: station_prompt
+scope: project
+target: gemini
+protocol: IMEP v1.0.0
+---
+
 # PROMPT-IMEP-GEMINI-ORACLE
 ## IMEP Oracle Station Prompt (Gemini)
 

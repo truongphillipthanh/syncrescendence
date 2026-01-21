@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bba407bb5cc8304d",
+        "id": "ea63a642a434f6fb",
         "type": "tabs",
         "children": [
           {
-            "id": "3ce809b0fd8eff1c",
+            "id": "70ceb459132caf83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CANON-00015-MACROSCOPIC_NARRATIVES-cosmos"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -74,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +176,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "3ce809b0fd8eff1c",
+  "active": "70ceb459132caf83",
   "lastOpenFiles": [
+    "-OUTGOING/20260119-topology_operationalization/DRIFT_COUNTS.md",
+    "-OUTGOING/20260119-topology_operationalization/MANIFEST.md",
+    "-OUTGOING/20260119-topology_operationalization",
+    "-OUTGOING/test_sensing_sweep.zip",
+    "00-ORCHESTRATION/state/REF-EXPORT_HYGIENE.md",
+    "-OUTGOING/20260119-sensing_sweep/manifest.json",
+    "-OUTGOING/20260119-sensing_sweep/core_candidates.md",
+    "-OUTGOING/20260119-sensing_sweep/drift_map.md",
+    "-OUTGOING/20260119-sensing_sweep/duplication_clusters.md",
+    "-OUTGOING/20260119-sensing_sweep/sensing_report.md",
+    "00-ORCHESTRATION/scripts/create_evidence_pack.sh",
+    "00-ORCHESTRATION/state/REF-OPERATIONAL_TOPOLOGY.md",
+    "-OUTGOING/20260119-sensing_sweep",
+    "05-ARCHIVE/ARCH-oracle_process_archaelogy.md",
+    "00-ORCHESTRATION/state/ARCH-COHERENCE_ABSORPTION_AUDIT.md",
+    "05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md",
     "CANON/CANON-00002-LINEAGE-cosmos.md",
     "CANON/CANON-00003-PRINCIPLES-cosmos.md",
     "CANON-00000-cosmos-SYNCRESCENDENT_SCHEMA.md"

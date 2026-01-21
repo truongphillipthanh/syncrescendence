@@ -2,7 +2,7 @@
 # DEFRAG APPLY - HARDENED VERSION
 # Constitutional cleanup with portable paths and safety checks
 #
-# Version: 3.0.0
+# Version: 4.0.0
 # Created: 2026-01-18
 # Authority: STRUCTURAL_STABILIZATION_PASS
 #
@@ -66,15 +66,28 @@ if [ "$APPROVAL_CONTENT" != "I_APPROVE_DEFRAG_APPLY" ]; then
 fi
 pass "Approval verified"
 
-# PRE-FLIGHT CHECK 2: No lowercase outgoing/ (Constitutional Rule #4)
-# Note: macOS filesystem is case-insensitive, so we check the actual directory name
-log "Checking casing invariant..."
-ACTUAL_OUTGOING=$(ls -1 "$REPO_ROOT" 2>/dev/null | grep -i "^outgoing$" || true)
+# PRE-FLIGHT CHECK 2: No legacy OUTGOING/ or lowercase outgoing/ (Constitutional Rule #4)
+# Canonical form is now -OUTGOING/
+log "Checking exchange directory invariants..."
+LEGACY_OUTGOING=$(ls -1 "$REPO_ROOT" 2>/dev/null | grep -E "^(OUTGOING|outgoing)$" || true)
 
-if [ -n "$ACTUAL_OUTGOING" ] && [ "$ACTUAL_OUTGOING" != "OUTGOING" ]; then
-    error "VIOLATION: lowercase '$ACTUAL_OUTGOING/' exists. This is a constitutional violation. Rename to OUTGOING/ first: git mv $ACTUAL_OUTGOING OUTGOING"
+if [ -n "$LEGACY_OUTGOING" ]; then
+    error "VIOLATION: legacy '$LEGACY_OUTGOING/' exists. Canonical form is -OUTGOING/. Migrate with: git mv $LEGACY_OUTGOING -OUTGOING"
 fi
-pass "OUTGOING/ casing correct (or does not exist)"
+
+# Ensure -OUTGOING/ exists
+if [ ! -d "$REPO_ROOT/-OUTGOING" ]; then
+    log "Creating -OUTGOING/..."
+    mkdir -p "$REPO_ROOT/-OUTGOING"
+fi
+
+# Ensure -INBOX/ exists
+if [ ! -d "$REPO_ROOT/-INBOX" ]; then
+    log "Creating -INBOX/..."
+    mkdir -p "$REPO_ROOT/-INBOX"
+fi
+
+pass "-OUTGOING/ and -INBOX/ exist; no legacy forms"
 
 # PRE-FLIGHT CHECK 3: Git backup
 log "Creating git stash backup..."
@@ -242,11 +255,11 @@ else
     pass "Phase 8 complete (already done)"
 fi
 
-# PHASE 9: OUTGOING/ CLEANUP
-log "=== PHASE 9: OUTGOING/ CLEANUP ==="
+# PHASE 9: -OUTGOING/ CLEANUP
+log "=== PHASE 9: -OUTGOING/ CLEANUP ==="
 
-if [ -d "$REPO_ROOT/OUTGOING" ]; then
-    cd OUTGOING
+if [ -d "$REPO_ROOT/-OUTGOING" ]; then
+    cd "$REPO_ROOT/-OUTGOING"
 
     CLEANED=0
     for dir in DEFRAG_CONVICTION_PASS_20260117_1609 \
@@ -265,7 +278,7 @@ if [ -d "$REPO_ROOT/OUTGOING" ]; then
     cd "$REPO_ROOT"
     pass "Phase 9 complete: $CLEANED redundant directories removed"
 else
-    log "  SKIP: OUTGOING/ not found"
+    log "  SKIP: -OUTGOING/ not found"
     pass "Phase 9 complete"
 fi
 

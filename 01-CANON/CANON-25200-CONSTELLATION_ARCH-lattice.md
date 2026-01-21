@@ -396,7 +396,7 @@ Per coordination.yaml:
 - `01-CANON/` — Canonical documents (require Oracle approval)
 - `00-ORCHESTRATION/oracle_contexts/` — Oracle context files
 - `CLAUDE.md` — Constitutional rules
-- `config/coordination.yaml` — Multi-account coordination
+- `02-OPERATIONAL/coordination.yaml` — Multi-account coordination
 
 ---
 

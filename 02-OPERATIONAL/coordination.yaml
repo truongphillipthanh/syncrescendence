@@ -196,7 +196,7 @@ coordination:
     - "01-CANON/"
     - "00-ORCHESTRATION/oracle_contexts/"
     - "CLAUDE.md"
-    - "config/coordination.yaml"
+    - "02-OPERATIONAL/coordination.yaml"
 
   # Conflict resolution
   conflict_resolution:

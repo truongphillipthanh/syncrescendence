@@ -1,0 +1,11 @@
+platform_id,platform_name,platform_type,vendor,has_projects,has_memory,max_context_tokens
+1,Claude Web,web_app,anthropic,TRUE,TRUE,200000
+2,Claude Desktop,desktop_app,anthropic,FALSE,FALSE,200000
+3,Claude Code,cli,anthropic,FALSE,TRUE,200000
+4,ChatGPT Web,web_app,openai,TRUE,TRUE,128000
+5,ChatGPT Desktop,desktop_app,openai,FALSE,FALSE,128000
+6,Codex CLI,cli,openai,FALSE,TRUE,128000
+7,Gemini Web,web_app,google,TRUE,TRUE,1000000
+8,Gemini CLI,cli,google,FALSE,FALSE,1000000
+9,Grok Web,web_app,xai,FALSE,FALSE,128000
+10,Perplexity Web,web_app,perplexity,FALSE,FALSE,128000

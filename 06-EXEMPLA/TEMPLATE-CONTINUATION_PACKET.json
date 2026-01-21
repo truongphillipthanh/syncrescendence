@@ -40,7 +40,7 @@
   "attachments": [
     {
       "name": "human-readable-name.md",
-      "path": "OUTGOING/PASS_NAME/path/to/file.md"
+      "path": "-OUTGOING/PASS_NAME/path/to/file.md"
     }
   ],
 

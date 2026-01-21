@@ -1,3 +1,11 @@
+---
+id: imep-chatgpt-auditor
+kind: station_prompt
+scope: project
+target: chatgpt
+protocol: IMEP v1.0.0
+---
+
 # PROMPT-IMEP-CHATGPT-AUDITOR
 ## IMEP Auditor Station Prompt (ChatGPT)
 

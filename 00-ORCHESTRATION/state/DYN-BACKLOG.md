@@ -130,6 +130,23 @@ Awaiting Modal 2 visual capabilities:
 2. **PROJ-003**: Tooling stack decisions
 3. **PROJ-002**: Cross-IIC testing
 
+### OPS-TAXONOMY (Oracle 13+)
+Finalize artifact taxonomy + frontmatter schema; add prompt/spec registries; add ops_lint; migrate intake prompts/specs into 02-OPERATIONAL canonical names; ensure validator allows -INBOX dropboxes; plan next step: ingestion script for ChatGPT trifurcated containers.
+
+**Completed (2026-01-18)**:
+- [x] Operations Artifact Taxonomy documented (REF-OPERATIONS_ARTIFACT_TAXONOMY.md)
+- [x] Prompt Registry created (REF-PROMPT_REGISTRY.md)
+- [x] Operations Tree map created (REF-OPERATIONS_TREE.md)
+- [x] ops_lint.sh linter created
+- [x] Intake files migrated from -INBOX to 02-OPERATIONAL with frontmatter
+- [x] ChatGPT container ingestion script created (ingest_chatgpt_container.py/sh)
+
+**Remaining**:
+- [ ] Backfill frontmatter on legacy prompts in prompts/canonical/
+- [ ] Add frontmatter validation to CI/pre-commit
+- [ ] Document slash command registry (CMD-* pattern)
+- [ ] Create schema for prompt frontmatter (SCHEMA-PROMPT_FRONTMATTER.yaml)
+
 ---
 
 ## COMPLETED (Oracle 10-11)

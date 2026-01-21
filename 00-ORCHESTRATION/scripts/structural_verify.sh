@@ -2,7 +2,7 @@
 # STRUCTURAL VERIFICATION SCRIPT
 # Validates constitutional compliance for Syncrescendence repository
 #
-# Version: 1.0.1
+# Version: 2.1.0
 # Created: 2026-01-18
 # Authority: STRUCTURAL_STABILIZATION_PASS
 #
@@ -67,25 +67,34 @@ echo "=== STRUCTURAL VERIFICATION ==="
 echo "Repo: $REPO_ROOT"
 echo ""
 
-# CHECK 1: No lowercase outgoing/ directory
-# Note: macOS filesystem is case-insensitive, so we check the actual directory name
-echo "--- Check 1: Casing Invariant (outgoing/ vs OUTGOING/) ---"
+# CHECK 1: Sanctioned exchange directories (-OUTGOING/, -INBOX/) and forbidden legacy forms
+echo "--- Check 1: Exchange Directory Invariants ---"
 
-# Use ls to get the actual casing of the directory
-ACTUAL_OUTGOING=$(ls -1 "$REPO_ROOT" 2>/dev/null | grep -i "^outgoing$" || true)
+# Check for legacy OUTGOING/ (forbidden) and lowercase outgoing/ (forbidden)
+LEGACY_OUTGOING=$(ls -1 "$REPO_ROOT" 2>/dev/null | grep -E "^(OUTGOING|outgoing)$" || true)
+DASH_OUTGOING=$(ls -1 "$REPO_ROOT" 2>/dev/null | grep "^-OUTGOING$" || true)
+DASH_INBOX=$(ls -1 "$REPO_ROOT" 2>/dev/null | grep "^-INBOX$" || true)
 
-if [ -z "$ACTUAL_OUTGOING" ]; then
-    log_pass "No outgoing directory at root (OK - may not exist yet)"
-    append_report "| Casing Invariant | PASS | No outgoing directory |"
-elif [ "$ACTUAL_OUTGOING" = "OUTGOING" ]; then
-    log_pass "OUTGOING/ exists with correct uppercase casing"
-    append_report "| Casing Invariant | PASS | OUTGOING/ uppercase |"
-else
-    log_fail "VIOLATION: lowercase '$ACTUAL_OUTGOING/' exists at root (should be OUTGOING/)"
-    append_report "| Casing Invariant | FAIL | $ACTUAL_OUTGOING/ wrong casing |"
+if [ -n "$LEGACY_OUTGOING" ]; then
+    log_fail "VIOLATION: legacy '$LEGACY_OUTGOING/' exists at root (use -OUTGOING/ instead)"
+    append_report "| Exchange Dirs | FAIL | Legacy $LEGACY_OUTGOING/ exists |"
     if $FIX_MODE; then
-        log_info "Fix: Rename to OUTGOING/ manually: git mv $ACTUAL_OUTGOING OUTGOING"
+        log_info "Fix: git mv $LEGACY_OUTGOING -OUTGOING"
     fi
+elif [ -z "$DASH_OUTGOING" ]; then
+    log_warn "-OUTGOING/ does not exist (recommended to create)"
+    append_report "| Exchange Dirs | WARN | -OUTGOING/ missing |"
+else
+    log_pass "-OUTGOING/ exists"
+    append_report "| Exchange Dirs | PASS | -OUTGOING/ present |"
+fi
+
+if [ -z "$DASH_INBOX" ]; then
+    log_warn "-INBOX/ does not exist (recommended to create)"
+    append_report "| -INBOX | WARN | -INBOX/ missing |"
+else
+    log_pass "-INBOX/ exists"
+    append_report "| -INBOX | PASS | -INBOX/ present |"
 fi
 
 # CHECK 2: Sanctioned root structure only
@@ -108,7 +117,13 @@ for item in "$REPO_ROOT"/*/; do
     # Check if sanctioned
     case "$dir" in
         0[0-6]-*) ;; # Numbered zones - OK
-        OUTGOING) ;; # Sanctioned exception - OK
+        -OUTGOING) ;; # Sanctioned exception - OK
+        -INBOX) ;; # Sanctioned exception - OK
+        OUTGOING|outgoing)
+            # Legacy form - fail
+            FORBIDDEN_DIRS="$FORBIDDEN_DIRS $dir"
+            ((FORBIDDEN_COUNT++)) || true
+            ;;
         *)
             FORBIDDEN_DIRS="$FORBIDDEN_DIRS $dir"
             ((FORBIDDEN_COUNT++)) || true
@@ -124,7 +139,7 @@ if [ $FORBIDDEN_COUNT -gt 0 ]; then
     append_report "| Root Structure | FAIL | Unsanctioned:$FORBIDDEN_DIRS |"
 else
     log_pass "Only sanctioned directories at root"
-    append_report "| Root Structure | PASS | Zones 00-06 + OUTGOING |"
+    append_report "| Root Structure | PASS | Zones 00-06 + -OUTGOING + -INBOX |"
 fi
 
 # CHECK 3: Orphan files at root (except CLAUDE.md, COCKPIT.md, Makefile)
@@ -218,25 +233,50 @@ else
     append_report "| Stale References | PASS | No stale paths |"
 fi
 
-# CHECK 6: Lowercase outgoing/ references in docs
+# CHECK 6: Legacy OUTGOING/ references in live docs (excluding archival zones)
 echo ""
-echo "--- Check 6: Lowercase 'outgoing/' in Documentation ---"
+echo "--- Check 6: Legacy 'OUTGOING/' References in Live Documentation ---"
 
-# Count lowercase references, excluding proper OUTGOING/ references
-LOWERCASE_REFS=$(grep -rn "outgoing/" --include="*.md" --include="*.sh" . 2>/dev/null | grep -v "OUTGOING/" | wc -l | tr -d ' ')
+# Count legacy OUTGOING/ references in live docs (not -OUTGOING/)
+# Exclude -OUTGOING/, 05-ARCHIVE/, and archived materials
+LEGACY_REFS=$(grep -rn "OUTGOING/" --include="*.md" --include="*.sh" . 2>/dev/null | grep -v "\-OUTGOING/" | grep -v "05-ARCHIVE/" | grep -v "\-OUTGOING" | wc -l | tr -d ' ')
+
+if [ "$LEGACY_REFS" -gt 0 ]; then
+    log_warn "Found $LEGACY_REFS legacy 'OUTGOING/' references in live docs (should be -OUTGOING/)"
+    log_info "(Run: grep -rn 'OUTGOING/' --include='*.md' | grep -v '\-OUTGOING')"
+    append_report "| Legacy Refs | WARN | $LEGACY_REFS in live docs |"
+else
+    log_pass "No legacy OUTGOING/ references in live docs"
+    append_report "| Legacy Refs | PASS | All use -OUTGOING/ |"
+fi
+
+# Also check for lowercase outgoing/
+LOWERCASE_REFS=$(grep -rn "outgoing/" --include="*.md" --include="*.sh" . 2>/dev/null | wc -l | tr -d ' ')
 
 if [ "$LOWERCASE_REFS" -gt 0 ]; then
-    log_warn "Found $LOWERCASE_REFS lowercase 'outgoing/' references in docs"
-    log_info "(Run: grep -rn 'outgoing/' --include='*.md' | grep -v OUTGOING)"
-    append_report "| Lowercase Refs | WARN | $LOWERCASE_REFS in docs |"
+    log_warn "Found $LOWERCASE_REFS lowercase 'outgoing/' references"
+    append_report "| Lowercase Refs | WARN | $LOWERCASE_REFS found |"
 else
     log_pass "No lowercase outgoing/ references"
     append_report "| Lowercase Refs | PASS | None found |"
 fi
 
-# CHECK 7: Continuation packet schema exists
+# CHECK 7: Blitzkrieg infrastructure (informational)
 echo ""
-echo "--- Check 7: Packet Schema Completeness ---"
+echo "--- Check 7: Blitzkrieg Infrastructure ---"
+
+if [ -d "$REPO_ROOT/-INBOX/blitzkrieg_drop" ]; then
+    DROPBOX_FILES=$(ls -1 "$REPO_ROOT/-INBOX/blitzkrieg_drop"/*.md 2>/dev/null | wc -l | tr -d ' ')
+    log_pass "-INBOX/blitzkrieg_drop/ exists ($DROPBOX_FILES files)"
+    append_report "| Blitzkrieg Dropbox | PASS | $DROPBOX_FILES files staged |"
+else
+    log_info "-INBOX/blitzkrieg_drop/ not present (create when needed)"
+    append_report "| Blitzkrieg Dropbox | INFO | Not present |"
+fi
+
+# CHECK 8: Continuation packet schema exists
+echo ""
+echo "--- Check 8: Packet Schema Completeness ---"
 
 if [ -f "00-ORCHESTRATION/schemas/packet_protocol.json" ]; then
     if grep -q '"continuation"' "00-ORCHESTRATION/schemas/packet_protocol.json"; then

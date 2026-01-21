@@ -91,4 +91,4 @@ When running multiple Claude instances, each should:
 2. Have zone-specific write permissions
 3. Use branch prefixes (alpha/, beta/, gamma/)
 
-See `config/coordination.yaml` for zone ownership definitions.
+See `02-OPERATIONAL/coordination.yaml` for zone ownership definitions.

@@ -1,7 +1,7 @@
 # Syncrescendence Knowledge Management System
 
-**Version**: 2.1.0
-**Last Updated**: 2026-01-11
+**Version**: 2.3.0
+**Last Updated**: 2026-01-18
 
 ## Identity
 This is Syncrescendence, a civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale. You are executing directives as part of a multi-Claude coordination system.
@@ -10,8 +10,9 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 
 ### Structural (ABSOLUTE)
 1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-) instead of subdirectories.
-2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06. Do not create unnumbered directories at root.
+2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06 plus sanctioned exceptions. Do not create unnumbered directories at root.
 3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Principal approval for deletions.
+4. **SANCTIONED EXCEPTIONS**: `-OUTGOING/` and `-INBOX/` are the only non-numbered directories permitted at root. Legacy `OUTGOING/` and lowercase `outgoing/` are PROHIBITED.
 
 ### Semantic (ABSOLUTE)
 4. **DISTILLATION SEMANTICS**: "Metabolize/distill" = READ → EXTRACT unique value → COMPRESS → DELETE originals. NOT organizational restructuring.
@@ -31,6 +32,8 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 - `04-SOURCES/` — Source documents (raw/, processed/)
 - `05-ARCHIVE/` — Historical preservation
 - `06-EXEMPLA/` — Templates and examples
+- `-OUTGOING/` — Export staging, reinit capsules, cross-platform handoffs
+- `-INBOX/` — Incoming artifacts from external platforms
 
 ## Critical Commands
 ```bash
@@ -63,38 +66,66 @@ Do NOT use for: simple lookups, single-file edits, routine commits.
 
 ## BLITZKRIEG MODEL SPECIFICATION
 
-When issuing Blitzkrieg directives, Oracle specifies which model to use per stream:
+Blitzkrieg vNext supports three parallel execution lanes (A/B/C) across multiple toolchains.
+Full protocol: `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
+
+### Lane Model
+
+| Lane | Primary Use | Default Assignment |
+|------|-------------|--------------------|
+| **A** | Strategic/architectural | claude_code (Opus) |
+| **B** | Tactical execution | claude_code (Sonnet) or codex_cli |
+| **C** | Validation/secondary | gemini_cli or claude_code (Haiku) |
+
+### Toolchain Options
+
+| Toolchain | Models Available |
+|-----------|------------------|
+| `claude_code` | opus-4.5, sonnet-4.5, haiku |
+| `codex_cli` | codex, gpt-4o |
+| `gemini_cli` | gemini-2.0-flash, gemini-pro |
+| `chatgpt` | gpt-4o, gpt-4o-mini |
+| `other` | operator-configured |
 
 ### Model Selection Criteria
 
 | Model | Use When | Characteristics |
 |-------|----------|-----------------|
-| **Opus 4.5** | Comprehensive directives, architectural decisions, complex synthesis | Deep reasoning, better judgment, worth the cost for strategic work |
-| **Sonnet 4.5** | Clear tactical instructions, well-defined tasks, execution-heavy work | Fast, capable, cost-effective when task is well-specified |
+| **opus-4.5** | Architectural decisions, complex synthesis | Deep reasoning, worth cost for strategic work |
+| **sonnet-4.5** | Well-defined tasks, execution-heavy work | Fast, capable, cost-effective |
+| **haiku** | Quick validations, simple lookups | Fastest, lowest cost |
 
 ### Extended Thinking Specification
 
-Directives may include thinking level guidance:
-- `ultrathink` (~32K tokens) — Complex architectural synthesis
-- `megathink` (~10K tokens) — Moderate complexity reasoning
-- `think` (~4K tokens) — Standard deliberation
-- *(none)* — Let model self-regulate
+| Level | Tokens | Use When |
+|-------|--------|----------|
+| `ultrathink` | ~32K | Architectural synthesis, complex multi-file changes |
+| `megathink` | ~10K | Moderate complexity, multi-step reasoning |
+| `think` | ~4K | Standard deliberation |
+| `default` | auto | Let model self-regulate |
 
-### Directive Header Format
+### Directive Header Format (vNext)
 
-Each directive should include:
 ```yaml
-Stream: A/B
-Model: Opus 4.5 / Sonnet 4.5
-Thinking: ultrathink / megathink / think / default
-Estimated Duration: X minutes
+Lane: A | B | C
+Toolchain: claude_code | codex_cli | gemini_cli | chatgpt | other
+Model: opus-4.5 | sonnet-4.5 | haiku | <custom>
+Thinking: ultrathink | megathink | think | default
+Success_Criteria: [Measurable completion conditions]
+Inputs: [Files this lane reads]
+Outputs: [Files this lane produces]
 ```
 
 ### Default Behavior
 
-- **Oracle strategic synthesis**: Opus 4.5 (ultrathink)
-- **Blitzkrieg execution**: Sonnet 4.5 unless complexity warrants Opus
-- **Repository maintenance**: Sonnet 4.5 (think)
+- **Oracle strategic synthesis**: Lane A, claude_code, opus-4.5 (ultrathink)
+- **Tactical execution**: Lane B, claude_code, sonnet-4.5 (think)
+- **Validation/secondary**: Lane C, gemini_cli or haiku (default)
+
+### Blitzkrieg Commands
+
+- `/project:blitzkrieg_issue <slug>` — Create bundle skeleton with directive templates
+- `/project:blitzkrieg_finalize` — Generate return packet, audio scripts, agent relay JSON
 
 ## Session Management
 - Use /compact before context fills

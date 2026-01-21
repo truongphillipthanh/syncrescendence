@@ -1,3 +1,11 @@
+---
+id: gemini-canonical-system-prompt
+kind: system_prompt
+scope: global
+target: gemini
+version: 2.1
+---
+
 # PROMPT-GEMINI-canonical
 ## Reception Calibration System Prompt
 

@@ -1,3 +1,11 @@
+---
+id: imep-claude-engineer
+kind: station_prompt
+scope: project
+target: claude_code
+protocol: IMEP v1.0.0
+---
+
 # PROMPT-IMEP-CLAUDE-ENGINEER
 ## IMEP Engineer/Executor Station Prompt (Claude Code)
 

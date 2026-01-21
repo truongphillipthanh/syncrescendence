@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify sync update-ledgers tree clean help
+.PHONY: verify sync update-ledgers tree clean help pack pack-verify token sync-drive sync-all
 
 # Default target
 help:
@@ -12,6 +12,10 @@ help:
 	@echo "  make update-ledgers - Validate and report ledger status"
 	@echo "  make tree           - Generate current directory tree"
 	@echo "  make clean          - Remove temporary files"
+	@echo "  make pack SRC=...   - Create clean evidence pack (no macOS contamination)"
+	@echo "  make pack-verify ARCHIVE=...  - Verify archive for contamination"
+	@echo "  make token PHASE=... NEXT=...  - Generate handoff token"
+	@echo "  make sync-all                  - Generate token and copy to clipboard"
 	@echo ""
 
 # Comprehensive verification
@@ -80,3 +84,47 @@ clean:
 	@find . -name "*.bak.*" -mtime +7 -delete
 	@find . -name ".DS_Store" -delete
 	@echo "Clean complete."
+
+# Create clean evidence pack (macOS contamination-free)
+# Usage: make pack SRC=path/to/directory [NAME=output_name]
+pack:
+	@if [ -z "$(SRC)" ]; then \
+		echo "Usage: make pack SRC=<source_directory> [NAME=<output_name>]"; \
+		echo ""; \
+		echo "Examples:"; \
+		echo "  make pack SRC=-OUTGOING/20260119-drift_cleanup"; \
+		echo "  make pack SRC=-OUTGOING/20260119-drift_cleanup NAME=drift_cleanup"; \
+		exit 1; \
+	fi
+	@bash 00-ORCHESTRATION/scripts/create_evidence_pack.sh "$(SRC)" "$(NAME)"
+
+# Verify existing archive for contamination
+# Usage: make pack-verify ARCHIVE=path/to/archive.zip
+pack-verify:
+	@if [ -z "$(ARCHIVE)" ]; then \
+		echo "Usage: make pack-verify ARCHIVE=<path_to_archive.zip>"; \
+		exit 1; \
+	fi
+	@bash 00-ORCHESTRATION/scripts/create_evidence_pack.sh --verify-only "$(ARCHIVE)"
+
+# Constellation handoff token generation
+# Usage: make token PHASE=current_phase NEXT=next_phase
+token:
+	@FINGERPRINT=$$(git rev-parse --short HEAD) && \
+	TIMESTAMP=$$(date -u +"%Y-%m-%dT%H:%M:%SZ") && \
+	echo "{\"fingerprint\":\"$$FINGERPRINT\",\"timestamp\":\"$$TIMESTAMP\",\"phase\":\"$(PHASE)\",\"next\":\"$(NEXT)\"}" > .constellation/tokens/active.json && \
+	echo "HANDOFF TOKEN" > .constellation/tokens/active.txt && \
+	echo "Fingerprint: $$FINGERPRINT" >> .constellation/tokens/active.txt && \
+	echo "Phase: $(PHASE) -> $(NEXT)" >> .constellation/tokens/active.txt && \
+	echo "Time: $$TIMESTAMP" >> .constellation/tokens/active.txt && \
+	cat .constellation/tokens/active.txt
+
+# Sync to Google Drive (placeholder for future rclone integration)
+sync-drive: token
+	@echo "Drive sync not yet configured. Token generated."
+	@cat .constellation/tokens/active.txt
+
+# Generate token and copy to clipboard
+sync-all: token
+	@cat .constellation/tokens/active.txt | pbcopy
+	@echo "Token copied to clipboard"

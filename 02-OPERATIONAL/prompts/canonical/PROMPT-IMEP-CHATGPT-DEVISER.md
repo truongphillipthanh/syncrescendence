@@ -1,3 +1,11 @@
+---
+id: imep-chatgpt-deviser
+kind: station_prompt
+scope: project
+target: chatgpt
+protocol: IMEP v1.0.0
+---
+
 # PROMPT-IMEP-CHATGPT-DEVISER
 ## IMEP Deviser Station Prompt (ChatGPT)
 

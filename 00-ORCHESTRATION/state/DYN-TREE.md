@@ -1,49 +1,96 @@
-1.5M	00-ORCHESTRATION
+ 48K	-INBOX
+1.4M	-OUTGOING
+1.9M	00-ORCHESTRATION
 2.8M	01-CANON
-952K	02-OPERATIONAL
-100K	03-QUEUE
-8.7M	04-SOURCES
-576K	05-ARCHIVE
+992K	02-OPERATIONAL
+ 92K	03-QUEUE
+9.9M	04-SOURCES
+1.0M	05-ARCHIVE
  20K	06-EXEMPLA
-4.0K	BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
-4.0K	BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
-8.0K	CANON-31150-PLATFORM_CATALOG-lunar-ACUMEN-planetary-INFORMATION.md
 8.0K	CLAUDE.md
- 16K	config
- 12K	DEEP_RESEARCH_PROMPT-Claude_Code_Ecosystem.md
- 12K	DEEP_RESEARCH_PROMPT-Google_Ecosystem.md
- 12K	DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md
- 12K	DIRECTIVE-042A_IIC_FOUNDATION.md
- 12K	DIRECTIVE-042B_MULTI_CLI.md
- 12K	DIRECTIVE-042C_OPERATIONAL_HYGIENE.md
-8.0K	DIRECTIVE-042D_GEMINI_VALIDATION.md
- 12K	DIRECTIVE-043A_CONSTELLATION_ARCHITECTURE.md
- 20K	DIRECTIVE-043A_INFRASTRUCTURE_OPERATIONS.md
- 28K	DIRECTIVE-043B_CONTENT_STRATEGY.md
- 12K	DIRECTIVE-043B_OPERATIONAL_HYGIENE.md
-8.0K	DIRECTIVE-044A.md
-8.0K	DIRECTIVE-044B.md
- 12K	DIRECTIVE-045A.md
- 16K	DIRECTIVE-045B.md
- 24K	DIRECTIVE-046A.md
- 28K	DIRECTIVE-046B.md
- 64K	google_research.md
- 28K	INTERACTION_PARADIGM.md
+4.0K	COCKPIT.md
 4.0K	Makefile
- 60K	openai_research.md
-8.0K	ORACLE12_PEDIGREE-045.md
-4.0K	ORACLE12_PEDIGREE.md
-4.0K	ORACLE12_SESSION_DELIVERABLES.md
-8.0K	ORACLE13_CONTEXT.md
-8.0K	SOURCES_ANALYSIS_REPORT.md
-148K	system_prompts
 (base) home@M1-Mac-mini syncrescendence % tree
 .
+├── -INBOX
+│   ├── blitzkrieg_drop
+│   │   ├── context.md
+│   │   ├── directive-01.md
+│   │   └── directive-02.md
+│   ├── chatgpt_global_memory.md
+│   ├── chatgpt_syncrescendence_project_memory.md
+│   ├── chatgpt_syncrescendence_smoketest.md
+│   ├── claude_code_repo_ripple_prompt.md
+│   ├── PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER_updated.md
+│   └── smoketest_result.md
+├── -OUTGOING
+│   ├── 00-ORCHESTRATION.zip
+│   ├── 20260118-blitzkrieg
+│   │   ├── 01_context
+│   │   │   └── context.md
+│   │   ├── 02_directives
+│   │   │   ├── directive-01.md
+│   │   │   └── directive-02.md
+│   │   └── 03_execution
+│   │       ├── execution_log.json
+│   │       └── execution_log.md
+│   ├── 20260118-codify_validation_and_trifurcation
+│   │   ├── CODIFY_REPORT.md
+│   │   └── REF-REPO_VALIDATION_PROTOCOL.md
+│   ├── 20260118-repo_validation
+│   │   └── VALIDATION_REPORT.md
+│   ├── 20260118-tighten_audizable_and_smoketest
+│   ├── 20260119-tighten_audizable_and_smoketest
+│   │   ├── chatgpt_syncrescendence_smoketest_v2.md
+│   │   └── TIGHTEN_REPORT.md
+│   ├── 20260119-transcript_codefence_canon
+│   │   └── RIPPLE_REPORT.md
+│   ├── DEFRAG_CONVICTION_PASS_20260117_1609.zip
+│   ├── DEFRAG_REFRESH_PASS_20260117_2130
+│   ├── RING7_PHASESHIFT_PASS_20260116_212500
+│   │   ├── RING7_DEFINITION_AND_BOUNDARIES.md
+│   │   └── SUBAGENT_MESH_BLUEPRINT.md
+│   ├── RING7_PHASESHIFT_PASS_20260116_2219.zip
+│   ├── TELEOLOGY_PASS_4_20260117_1430.zip
+│   ├── TELEOLOGY_RING7_PASS_3_20260116_2330.zip
+│   ├── teleology_visibility_pass_2_20260116_203238.zip
+│   ├── teleology_visibility_pass_20260116_192327.zip
+│   └── TURBINE_BAKEOFF_20260117_1900
+│       ├── claude_code
+│       │   ├── 00_manifest
+│       │   │   ├── environment.md
+│       │   │   ├── inputs_used.md
+│       │   │   └── repo_tree_depth6.txt
+│       │   ├── 01_audit
+│       │   │   ├── audit_of_defrag_conviction_pass.md
+│       │   │   └── canon_safety_check.md
+│       │   └── 02_refinements
+│       │       ├── entrypoint_recommendation.md
+│       │       ├── refined_defrag_plan.md
+│       │       └── refined_symbolic_compression_rules.md
+│       ├── codex_cli
+│       │   ├── 00_manifest
+│       │   │   ├── environment.md
+│       │   │   ├── inputs_used.md
+│       │   │   └── repo_tree_depth6.txt
+│       │   ├── 01_audit
+│       │   │   ├── audit_of_defrag_conviction_pass.md
+│       │   │   └── canon_safety_check.md
+│       │   ├── 02_refinements
+│       │   │   ├── entrypoint_recommendation.md
+│       │   │   ├── refined_defrag_plan.md
+│       │   │   └── refined_symbolic_compression_rules.md
+│       │   ├── 03_apply_preview
+│       │   │   ├── defrag_apply_preview.sh
+│       │   │   ├── defrag_rollback_preview.sh
+│       │   │   ├── post_apply_verify.sh
+│       │   │   └── what_will_change_if_apply_armed.md
+│       │   └── 04_operator_brief.md
+│       └── gemini_cli
 ├── 00-ORCHESTRATION
 │   ├── blackboard
 │   │   ├── audits
 │   │   │   └── AUD-20260116-001.json
-│   │   ├── capabilities
 │   │   ├── evidence
 │   │   │   └── EVD-20260116-001.json
 │   │   ├── executions
@@ -88,8 +135,25 @@
 │   │   ├── DIRECTIVE-040B.md
 │   │   ├── DIRECTIVE-041A.md
 │   │   ├── DIRECTIVE-041B.md
+│   │   ├── DIRECTIVE-042A_IIC_FOUNDATION.md
 │   │   ├── DIRECTIVE-042A.md
-│   │   └── DIRECTIVE-042B.md
+│   │   ├── DIRECTIVE-042B_MULTI_CLI.md
+│   │   ├── DIRECTIVE-042B.md
+│   │   ├── DIRECTIVE-042C_OPERATIONAL_HYGIENE.md
+│   │   ├── DIRECTIVE-042D_GEMINI_VALIDATION.md
+│   │   ├── DIRECTIVE-043A_O11.md
+│   │   ├── DIRECTIVE-043A.md
+│   │   ├── DIRECTIVE-043B_O11.md
+│   │   ├── DIRECTIVE-043B.md
+│   │   ├── DIRECTIVE-044A.md
+│   │   ├── DIRECTIVE-044B.md
+│   │   ├── DIRECTIVE-045A.md
+│   │   ├── DIRECTIVE-045B.md
+│   │   ├── DIRECTIVE-046A.md
+│   │   ├── DIRECTIVE-046B.md
+│   │   ├── ORACLE12_PEDIGREE-045.md
+│   │   ├── ORACLE12_PEDIGREE.md
+│   │   └── ORACLE12_SESSION_DELIVERABLES.md
 │   ├── execution_logs
 │   │   ├── EXECUTION_LOG-2025-12-30-019.md
 │   │   ├── EXECUTION_LOG-2025-12-30-020A.md
@@ -151,40 +215,52 @@
 │   │   ├── ORACLE_ARC.md
 │   │   ├── ORACLE10_COMPREHENSIVE_ARCHAEOLOGY.md
 │   │   ├── ORACLE10_CONTEXT_FINAL.md
-│   │   ├── ORACLE10_CONTEXT_root.md
-│   │   ├── ORACLE10_CONTEXT_v2.md
-│   │   ├── ORACLE10_CONTEXT_v3.md
-│   │   ├── ORACLE10_CONTEXT_v4.md
-│   │   └── ORACLE10_CONTEXT.md
+│   │   ├── ORACLE10_CONTEXT.md
+│   │   └── ORACLE13_CONTEXT.md
 │   ├── ORACLE12_CONTEXT.md
 │   ├── schemas
 │   │   └── packet_protocol.json
 │   ├── scripts
+│   │   ├── blitzkrieg_finalize.sh
 │   │   ├── cleanup_root.sh
+│   │   ├── defrag_apply_hardened.sh
+│   │   ├── ingest_chatgpt_container.py
+│   │   ├── ingest_chatgpt_container.sh
 │   │   ├── regenerate_canon.py
 │   │   ├── rename_transcripts.py
 │   │   ├── route_task.py
 │   │   ├── setup-worktrees.sh
+│   │   ├── structural_verify.sh
 │   │   ├── sync_ledgers.py
 │   │   ├── update_dashboard.py
 │   │   └── verify_all.sh
 │   ├── state
+│   │   ├── ARCH-CHECKLIST.md
 │   │   ├── ARCH-COHERENCE_ABSORPTION_AUDIT.md
 │   │   ├── ARCH-CRYSTALLINE_CHARACTERISTICS.md
+│   │   ├── ARCH-DESIGN_DECISIONS_ROOT.md
 │   │   ├── ARCH-DESIGN_DECISIONS.md
 │   │   ├── ARCH-INTENTION_COMPASS.md
+│   │   ├── ARCH-INTERACTION_PARADIGM.md
+│   │   ├── ARCH-OPERATIONS_INBOX_MIGRATION-20260118.md
 │   │   ├── ARCH-ORACLE_ARC_SUMMARY.md
 │   │   ├── ARCH-ORACLE_DECISIONS.md
+│   │   ├── ARCH-RAPPORT_CONTRACT.md
 │   │   ├── ARCH-TECH_TREE_AUDIT.md
 │   │   ├── burndown.csv
 │   │   ├── capabilities.json
 │   │   ├── DYN-BACKLOG.md
 │   │   ├── DYN-DASHBOARD.md
+│   │   ├── DYN-DEFRAG_APPLY_LOG_20260118_171435 2.md
+│   │   ├── DYN-DEFRAG_APPLY_LOG_20260118_171435.md
+│   │   ├── DYN-STRUCTURAL_VERIFY_REPORT.md
 │   │   ├── DYN-TREE.md
 │   │   ├── events.jsonl
 │   │   ├── projects.csv
 │   │   ├── projects.csv.bak.1767947262
 │   │   ├── README.md
+│   │   ├── REF-BLITZKRIEG_PROTOCOL_VNEXT.md
+│   │   ├── REF-CHATGPT_CONTAINER_PROTOCOL.md
 │   │   ├── REF-FOUR_SYSTEMS.md
 │   │   ├── REF-METHODOLOGY.md
 │   │   ├── REF-MULTI_ACCOUNT_SYNC.md
@@ -192,8 +268,10 @@
 │   │   ├── REF-PROCESSING_PATTERN.md
 │   │   ├── REF-PROCESSING_ROUTING.md
 │   │   ├── REF-QUEUE_ROADMAP_MAPPING.md
+│   │   ├── REF-REPO_VALIDATION_PROTOCOL.md
 │   │   ├── REF-RESEARCH_ARTIFACTS.md
 │   │   ├── REF-SOURCES_SCHEMA.md
+│   │   ├── REF-STABILIZATION_PROCEDURE.md
 │   │   ├── REF-STANDARDS.md
 │   │   ├── REF-TRIAGE_PROTOCOL.md
 │   │   ├── SCAFF-IIC_RECONNAISSANCE.md
@@ -285,6 +363,8 @@
 │   ├── CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md
 │   └── CANON-99000-HISTORICAL-meta.md
 ├── 02-OPERATIONAL
+│   ├── BLITZKRIEG_PROTOCOL.md
+│   ├── coordination.yaml
 │   ├── functions
 │   │   ├── absorb.xml
 │   │   ├── amalgamate.xml
@@ -320,6 +400,7 @@
 │   ├── IIC-Mastery-config.md
 │   ├── IIC-shared-protocols.md
 │   ├── IIC-Transcendence-config.md
+│   ├── MCP_SETUP.md
 │   ├── memory
 │   │   └── acumen-memory-config.md
 │   ├── models
@@ -339,6 +420,10 @@
 │   │   │   ├── PROMPT-IMEP-CLAUDE-ENGINEER.md
 │   │   │   ├── PROMPT-IMEP-GEMINI-ORACLE.md
 │   │   │   └── STATION_PROMPTS_REGISTRY.md
+│   │   ├── chatgpt
+│   │   │   ├── PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md
+│   │   │   ├── PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md
+│   │   │   └── PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md
 │   │   ├── profiles
 │   │   │   ├── MODEL_PROFILE-Claude-4-Sonnet.yaml
 │   │   │   ├── MODEL_PROFILE-Claude-4.1-Opus.yaml
@@ -359,9 +444,17 @@
 │   ├── queues
 │   │   └── YOUTUBE_PROCESSING_BACKLOG.md
 │   ├── README.md
+│   ├── registries
+│   │   ├── REF-OPERATIONS_ARTIFACT_TAXONOMY.md
+│   │   ├── REF-OPERATIONS_TREE.md
+│   │   └── REF-PROMPT_REGISTRY.md
 │   ├── scripts
+│   │   ├── ops_lint.sh
 │   │   ├── rename_canon.sh
 │   │   └── validate_frontmatter.sh
+│   ├── specs
+│   │   ├── REF-AUDIZER_PROTOCOL.md
+│   │   └── REF-CHATGPT_MEMORY_POLICY.md
 │   ├── surveys
 │   │   ├── AI_Academic_Research.md
 │   │   └── AI_ECOSYSTEM_SURVEY.md
@@ -369,7 +462,6 @@
 │   │   └── EXECUTION_LOG_TEMPLATE.md
 │   └── THREAD_HANDOFF_ORACLE13_SUNSET.md
 ├── 03-QUEUE
-│   ├── modal1
 │   ├── modal2
 │   │   ├── AI_3D_VFX.md
 │   │   ├── AI_Image_Generators.md
@@ -377,7 +469,6 @@
 │   │   ├── Physical_AI.md
 │   │   ├── QUEUE-36200-SCREENPLAY_ORCHESTRATION.md
 │   │   └── The_Next_Wave_in_AI_Video_and_VFX.md
-│   ├── pending
 │   └── QUEUE_DISPOSITION.md
 ├── 04-SOURCES
 │   ├── creator_bios.md
@@ -615,7 +706,57 @@
 │   │   ├── 20251226-youtube_video-dshapiro-content.md
 │   │   ├── 20251226-youtube_video-dshapiro-content.txt
 │   │   ├── 20251227-youtube_video-20251227_youtub-neil_mcdevitt.md
-│   │   └── 20251227-youtube_video-20251227_youtub-neil_mcdevitt.txt
+│   │   ├── 20251227-youtube_video-20251227_youtub-neil_mcdevitt.txt
+│   │   ├── agents
+│   │   │   ├── agents_201_orchestrating_multiple_agents_that_actually_work-@ghumare64.md
+│   │   │   └── ai_agents_101-@vasuman.md
+│   │   ├── claudecode
+│   │   │   ├── 1-GettingStarted
+│   │   │   │   ├── 1-how_to_set_up_lcaude_code_in_15_minutes_for_beginners-@chasing_next.md
+│   │   │   │   ├── 2-boris_claude_code_setup_cheatsheet.jpeg
+│   │   │   │   ├── 2-boris_claude_code_setup.md
+│   │   │   │   ├── 3-course.md
+│   │   │   │   └── 4-claude_code_learning_path.md
+│   │   │   ├── 2-BuilderTool
+│   │   │   │   ├── 1-the_single_best_claude_code_prompt_steal_this.md
+│   │   │   │   ├── 2-13_best_claude_code_prompts-@chrislaubai.md
+│   │   │   │   ├── 3-how_to_set_up_claude_skills_in_15_minutes_for_nontechnical_people.md
+│   │   │   │   └── 4-20260117-x_article-the_complete_guide_to_claude_md-@codevolutionweb
+│   │   │   ├── 3-BestPractice_ProTiips
+│   │   │   │   ├── 1-20260103-x_thread-anthropic_just_released_all-@alexfinn.md
+│   │   │   │   ├── 2-20260110-x_article-the_complete_claude_code_tutorial-@eyad_khrais.md
+│   │   │   │   ├── 3-20260112-x_article-the_claude_code_tutorial_level_2-@eyad_khrais.md
+│   │   │   │   ├── 4-20250421-x_thread-we_wrote_up_what_weve_learned-@alexalbert.md
+│   │   │   │   └── 5-20260102-x_thread-boris_created_claude_code_setup-bcherny.md
+│   │   │   ├── claude_codes-@thezvi.md
+│   │   │   ├── compaction-@nummanali.md
+│   │   │   ├── compaction-@nummanali.md.jpeg
+│   │   │   ├── conversation_with_chat_history-@0xSero.jpeg
+│   │   │   ├── conversation_with_chat_history-@0xSero.md
+│   │   │   ├── optimization-@minchoi.md
+│   │   │   ├── post-@leocooout.md
+│   │   │   ├── resources.md
+│   │   │   ├── shipping_at_inference_speed-@steipete.md
+│   │   │   ├── state_machine-@mert.jpeg
+│   │   │   └── state_machine-@mert.md
+│   │   ├── clitool
+│   │   │   └── openai_has_some_catching_up_to_do-@danshipper.md
+│   │   ├── codex
+│   │   │   ├── codex_has_a_hidden_spec_mode_one_word_unlocks_it-@kr0der.md
+│   │   │   ├── i_almost_quit_codex_after_1_day_heres_how_to_actually_use_it.md
+│   │   │   └── if_youre_new_to_codex_here_are_7_beginner_tips-@paulsolt.md
+│   │   ├── cowork
+│   │   │   └── everyone's_talking_about_claude_cowork_for_the_wrong_reason-@gr00vyfairy.md
+│   │   ├── DEEP_RESEARCH_PROMPT-Claude_Code_Ecosystem.md
+│   │   ├── DEEP_RESEARCH_PROMPT-Google_Ecosystem.md
+│   │   ├── DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md
+│   │   ├── google_research.md
+│   │   ├── openai_research.md
+│   │   ├── promptengineering
+│   │   │   └── how_to_master_prompt_engineering-@exm777.md
+│   │   ├── SOURCES_ANALYSIS_REPORT.md
+│   │   ├── Stop Using Claude Code Like This (Use Sub-Agents Instead).md
+│   │   └── Why I Stopped Using MCPs in Claude Code (And What I Use Instead).md
 │   ├── README.md
 │   ├── rename_mapping.csv
 │   ├── sources.csv
@@ -623,11 +764,43 @@
 ├── 05-ARCHIVE
 │   ├── ARCH-BLITZKRIEG_042_GUIDE.md
 │   ├── ARCH-BLITZKRIEG_043_GUIDE.md
+│   ├── ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
+│   ├── ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
 │   ├── ARCH-COGNITIVE_PROFILE_2026-01.md
+│   ├── ARCH-deviser1_continuity.md
 │   ├── ARCH-FRONTIER_MODELS_2026-01.md
+│   ├── ARCH-frontier_models.md
+│   ├── ARCH-oracle_memories.md
+│   ├── ARCH-oracle_process_archaelogy.md
+│   ├── ARCH-oracle_verification_manifest.md
+│   ├── ARCH-ORACLE10_CONTEXT_root.md
+│   ├── ARCH-ORACLE10_CONTEXT_v2.md
+│   ├── ARCH-ORACLE10_CONTEXT_v3.md
+│   ├── ARCH-ORACLE10_CONTEXT_v4.md
 │   ├── ARCH-PLATFORM_FEATURES_2026-01.md
+│   ├── ARCH-platform_features.md
+│   ├── ARCH-previous_thread.md
 │   ├── ARCH-RECONNAISSANCE_2026-01.md
 │   ├── ARCH-REVIEW_VS_RETROSPECTIVE.md
+│   ├── ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102
+│   │   ├── ASSEMBLED_SYSTEM_PROMPTS_v2.1.md
+│   │   ├── justification-chatgpt.md
+│   │   ├── justification-claude.md
+│   │   ├── justification-gemini.md
+│   │   ├── justification-grok.md
+│   │   ├── new-chatgpt.md
+│   │   ├── new-claude.md
+│   │   ├── new-gemini.md
+│   │   ├── new-grok.md
+│   │   ├── old_A-grok.txt
+│   │   ├── old_b-grok.txt
+│   │   ├── old-chatgpt.md
+│   │   ├── old-claude.md
+│   │   ├── old-gemini.md
+│   │   ├── synthesis-chatgpt.md
+│   │   ├── synthesis-claude.md
+│   │   ├── synthesis-gemini.md
+│   │   └── synthesis-grok.md
 │   ├── ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md
 │   ├── ARCHIVE-ARTIFACT-SYSTEM.md
 │   ├── ARCHIVE-AUTOPSYCHOGRAPHY.md
@@ -651,7 +824,6 @@
 │   ├── ORACLE11_CONTEXT_BLITZKRIEG.md
 │   ├── ORACLE11_CONTEXT.md
 │   ├── ORACLE11_INIT.md
-│   ├── prompt-backup-043A
 │   ├── README.md
 │   ├── RESEARCH-20260108-claude_code_optimization.md
 │   ├── SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md
@@ -675,59 +847,11 @@
 ├── 06-EXEMPLA
 │   ├── CASE-TEMPLATE.md
 │   ├── EXAMPLE-TEMPLATE.md
-│   └── README.md
-├── BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
-├── BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
-├── CANON-31150-PLATFORM_CATALOG-lunar-ACUMEN-planetary-INFORMATION.md
+│   ├── mcp.json.template
+│   ├── README.md
+│   └── TEMPLATE-CONTINUATION_PACKET.json
 ├── CLAUDE.md
-├── config
-│   ├── coordination.yaml
-│   ├── MCP_SETUP.md
-│   └── mcp.json.template
-├── DEEP_RESEARCH_PROMPT-Claude_Code_Ecosystem.md
-├── DEEP_RESEARCH_PROMPT-Google_Ecosystem.md
-├── DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md
-├── DIRECTIVE-042A_IIC_FOUNDATION.md
-├── DIRECTIVE-042B_MULTI_CLI.md
-├── DIRECTIVE-042C_OPERATIONAL_HYGIENE.md
-├── DIRECTIVE-042D_GEMINI_VALIDATION.md
-├── DIRECTIVE-043A_CONSTELLATION_ARCHITECTURE.md
-├── DIRECTIVE-043A_INFRASTRUCTURE_OPERATIONS.md
-├── DIRECTIVE-043B_CONTENT_STRATEGY.md
-├── DIRECTIVE-043B_OPERATIONAL_HYGIENE.md
-├── DIRECTIVE-044A.md
-├── DIRECTIVE-044B.md
-├── DIRECTIVE-045A.md
-├── DIRECTIVE-045B.md
-├── DIRECTIVE-046A.md
-├── DIRECTIVE-046B.md
-├── google_research.md
-├── INTERACTION_PARADIGM.md
-├── Makefile
-├── openai_research.md
-├── ORACLE12_PEDIGREE-045.md
-├── ORACLE12_PEDIGREE.md
-├── ORACLE12_SESSION_DELIVERABLES.md
-├── ORACLE13_CONTEXT.md
-├── SOURCES_ANALYSIS_REPORT.md
-└── system_prompts
-    ├── ASSEMBLED_SYSTEM_PROMPTS_v2.1.md
-    ├── justification-chatgpt.md
-    ├── justification-claude.md
-    ├── justification-gemini.md
-    ├── justification-grok.md
-    ├── new-chatgpt.md
-    ├── new-claude.md
-    ├── new-gemini.md
-    ├── new-grok.md
-    ├── old_A-grok.txt
-    ├── old_b-grok.txt
-    ├── old-chatgpt.md
-    ├── old-claude.md
-    ├── old-gemini.md
-    ├── synthesis-chatgpt.md
-    ├── synthesis-claude.md
-    ├── synthesis-gemini.md
-    └── synthesis-grok.md
+├── COCKPIT.md
+└── Makefile
 
-41 directories, 650 files
+73 directories, 769 files

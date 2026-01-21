@@ -27,7 +27,7 @@ Full rules in [CLAUDE.md](../../CLAUDE.md). Key structural rules:
 |------|---------|
 | **#1 FLAT PRINCIPLE** | Zones are flat; use prefixes (ARCH-, DYN-, REF-) not subdirectories |
 | **#2 NUMBERED DIRECTORIES** | Root is zones 00-06 + sanctioned exceptions only |
-| **#4 CASING INVARIANT** | `OUTGOING/` (uppercase) is canonical. `outgoing/` is prohibited |
+| **#4 EXCHANGE DIR INVARIANT** | `-OUTGOING/` and `-INBOX/` are canonical. Legacy `OUTGOING/` and `outgoing/` are prohibited |
 | **#11 PORTABLE SCRIPTS** | Use `git rev-parse --show-toplevel`, no hardcoded paths |
 
 ### Root Exceptions (Sanctioned)
@@ -37,9 +37,10 @@ Full rules in [CLAUDE.md](../../CLAUDE.md). Key structural rules:
 | `CLAUDE.md` | File | Constitutional rules |
 | `COCKPIT.md` | File | Navigation contract |
 | `Makefile` | File | Build commands |
-| `OUTGOING/` | Directory | Export staging |
+| `-OUTGOING/` | Directory | Export staging, reinit capsules |
+| `-INBOX/` | Directory | Incoming artifacts from external platforms |
 
-**Everything else at root is a violation.**
+**Everything else at root is a violation.** Legacy `OUTGOING/` and lowercase `outgoing/` are PROHIBITED.
 
 ---
 
@@ -126,45 +127,50 @@ git checkout HEAD~1 -- <specific-file>
 
 ---
 
-## Casing Invariant Enforcement
+## Exchange Directory Invariant Enforcement
 
 ### The Rule
 
-`OUTGOING/` (uppercase) is the only valid casing. `outgoing/` is a constitutional violation.
+`-OUTGOING/` and `-INBOX/` (dash-prefixed) are the only valid exchange directories. Legacy `OUTGOING/` and lowercase `outgoing/` are constitutional violations.
 
 ### Detection
 
 ```bash
-# Check actual casing (works on case-insensitive filesystems)
-ls -1 | grep -i "^outgoing$"
+# Check for legacy forms (should return nothing)
+ls -1 | grep -E "^(OUTGOING|outgoing)$"
 
-# Check for lowercase references in docs
-grep -rn "outgoing/" --include="*.md" --include="*.sh" | grep -v "OUTGOING/"
+# Verify canonical forms exist
+ls -1 | grep "^-OUTGOING$"
+ls -1 | grep "^-INBOX$"
+
+# Check for legacy references in live docs
+grep -rn "OUTGOING/" --include="*.md" --include="*.sh" | grep -v "\-OUTGOING/"
 ```
 
 ### Prevention
 
-The hardened defrag script checks for lowercase `outgoing/` and fails fast if found:
+The hardened defrag script checks for legacy forms and fails fast if found:
 
 ```bash
-ACTUAL_OUTGOING=$(ls -1 "$REPO_ROOT" | grep -i "^outgoing$" || true)
-if [ -n "$ACTUAL_OUTGOING" ] && [ "$ACTUAL_OUTGOING" != "OUTGOING" ]; then
-    error "VIOLATION: lowercase '$ACTUAL_OUTGOING/' exists"
+LEGACY_OUTGOING=$(ls -1 "$REPO_ROOT" | grep -E "^(OUTGOING|outgoing)$" || true)
+if [ -n "$LEGACY_OUTGOING" ]; then
+    error "VIOLATION: legacy '$LEGACY_OUTGOING/' exists. Use -OUTGOING/ instead"
 fi
 ```
 
 ### Remediation
 
-If lowercase `outgoing/` exists:
+If legacy `OUTGOING/` exists:
 
 ```bash
-# 1. Check actual casing
-ls -1 | grep -i outgoing
+# 1. Check for legacy forms
+ls -1 | grep -E "^(OUTGOING|outgoing)$"
 
-# 2. Rename to correct casing
-git mv outgoing OUTGOING
+# 2. Migrate to canonical form
+git mv OUTGOING -OUTGOING
 
-# 3. If both exist (shouldn't happen on case-insensitive FS), merge manually
+# 3. Ensure -INBOX/ exists
+mkdir -p -INBOX
 ```
 
 ---
@@ -195,7 +201,8 @@ Use `06-EXEMPLA/TEMPLATE-CONTINUATION_PACKET.json` as starting point.
 ### Storage
 
 Store continuation packets in:
-- `OUTGOING/` for cross-platform handoffs (e.g., `OUTGOING/CHATGPT_REINIT_CONT_CAPSULE_YYYYMMDD_HHMM/`)
+- `-OUTGOING/` for cross-platform handoffs (e.g., `-OUTGOING/YYYYMMDD-deviser_reinit/`)
+- `-INBOX/` for incoming artifacts from external platforms
 - `00-ORCHESTRATION/blackboard/continuation/` for internal tracking
 
 ### Naming Convention
@@ -222,19 +229,22 @@ Prior CONT capsules used markdown with YAML-like structure. Convert to JSON:
 Run these commands to verify structural compliance:
 
 ```bash
-# 1. No lowercase outgoing/ at root
-ls -1 | grep -i "^outgoing$" | grep -v OUTGOING && echo "FAIL" || echo "PASS"
+# 1. No legacy OUTGOING/ or lowercase outgoing/ at root
+ls -1 | grep -E "^(OUTGOING|outgoing)$" && echo "FAIL" || echo "PASS"
 
-# 2. COCKPIT paths valid
+# 2. -OUTGOING/ and -INBOX/ exist
+ls -1 | grep "^-OUTGOING$" && ls -1 | grep "^-INBOX$" && echo "PASS" || echo "FAIL"
+
+# 3. COCKPIT paths valid
 bash 00-ORCHESTRATION/scripts/structural_verify.sh | grep "COCKPIT Paths"
 
-# 3. No orphan files at root
+# 4. No orphan files at root
 ls *.md 2>/dev/null | grep -v CLAUDE | grep -v COCKPIT | wc -l
 
-# 4. No forbidden root directories
-ls -d */ | grep -v "^0[0-6]-" | grep -v "^OUTGOING"
+# 5. No forbidden root directories
+ls -d */ | grep -v "^0[0-6]-" | grep -v "^-OUTGOING" | grep -v "^-INBOX"
 
-# 5. Continuation packet schema valid
+# 6. Continuation packet schema valid
 grep -q '"continuation"' 00-ORCHESTRATION/schemas/packet_protocol.json && echo "PASS"
 ```
 
@@ -268,7 +278,8 @@ Or simply run:
 
 | Issue | Solution |
 |-------|----------|
-| lowercase `outgoing/` | Rename to `OUTGOING/` |
+| Legacy `OUTGOING/` or `outgoing/` | Migrate to `-OUTGOING/`: `git mv OUTGOING -OUTGOING` |
+| Missing `-INBOX/` | Create: `mkdir -p -INBOX` |
 | config/ references after defrag | Update to `02-OPERATIONAL/coordination.yaml` |
 | Orphan files at root | Move to appropriate zone per CLAUDE.md |
 | Broken COCKPIT paths | Update paths after any structural change |
@@ -280,6 +291,7 @@ Or simply run:
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0.0 | 2026-01-18 | Initial formalization of stabilization procedure |
+| 2.0.0 | 2026-01-18 | Migration to -OUTGOING/-INBOX canonical form |
 
 ---
 

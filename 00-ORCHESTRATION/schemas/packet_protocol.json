@@ -102,8 +102,8 @@
           "warnings": ["config/coordination.yaml moves to 02-OPERATIONAL/"]
         },
         "attachments": [
-          {"name": "defrag_plan_v2.md", "path": "OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/03_defrag_plan_v2/defrag_plan_v2.md"},
-          {"name": "convictions_v2.md", "path": "OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/02_governance_refresh/convictions_v2.md"}
+          {"name": "defrag_plan_v2.md", "path": "-OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/03_defrag_plan_v2/defrag_plan_v2.md"},
+          {"name": "convictions_v2.md", "path": "-OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/02_governance_refresh/convictions_v2.md"}
         ],
         "hash_manifest": {
           "defrag_plan_v2.md": "12bc98035fbdf8f7278dc1d5d2857580dce5667153f3dbfcbd1f556f80501bff"

@@ -46,7 +46,7 @@
 ### For Structural Maintenance
 1. Run `./00-ORCHESTRATION/scripts/structural_verify.sh`
 2. Review REF-STABILIZATION_PROCEDURE.md for defrag
-3. Ensure OUTGOING/ is uppercase (Constitutional Rule #4)
+3. Verify `-OUTGOING/` and `-INBOX/` exist; legacy `OUTGOING/` and `outgoing/` are prohibited (Constitutional Rule #4)
 
 ---
 
@@ -86,10 +86,11 @@
 ├── 04-SOURCES/            # Source documents (raw/, processed/)
 ├── 05-ARCHIVE/            # Historical preservation
 ├── 06-EXEMPLA/            # Templates
-└── OUTGOING/              # Teleology passes, reinit capsules (EXCEPTION)
+├── -OUTGOING/             # Export staging, reinit capsules (EXCEPTION)
+└── -INBOX/                # Incoming artifacts from external platforms (EXCEPTION)
 ```
 
-**Root Exceptions**: Only `OUTGOING/` (uppercase) is sanctioned beyond 00-06.
+**Root Exceptions**: Only `-OUTGOING/` and `-INBOX/` (dash-prefixed) are sanctioned beyond 00-06. Legacy `OUTGOING/` and lowercase `outgoing/` are PROHIBITED.
 
 ---
 
