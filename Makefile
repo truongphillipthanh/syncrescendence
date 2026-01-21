@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify sync update-ledgers tree clean help pack pack-verify token sync-drive sync-all
+.PHONY: verify sync update-ledgers tree clean help pack pack-verify token sync-drive sync-all log log-init
 
 # Default target
 help:
@@ -16,6 +16,8 @@ help:
 	@echo "  make pack-verify ARCHIVE=...  - Verify archive for contamination"
 	@echo "  make token PHASE=... NEXT=...  - Generate handoff token"
 	@echo "  make sync-all                  - Generate token and copy to clipboard"
+	@echo "  make log-init DIRECTIVE=...   - Initialize execution log for directive"
+	@echo "  make log DIRECTIVE=... STATUS=...  - Update log status (COMPLETE|PARTIAL|FAILED)"
 	@echo ""
 
 # Comprehensive verification
@@ -128,3 +130,38 @@ sync-drive: token
 sync-all: token
 	@cat .constellation/tokens/active.txt | pbcopy
 	@echo "Token copied to clipboard"
+
+# Execution logging
+LOG_DIR := 00-ORCHESTRATION/execution_logs
+DIRECTIVE ?= UNNAMED
+
+log-init:
+	@mkdir -p $(LOG_DIR)
+	@TIMESTAMP=$$(date -u +"%Y-%m-%dT%H:%M:%SZ") && \
+	DIRECTIVE_FILE="$(LOG_DIR)/DIR-$$(date +%Y%m%d)-$(DIRECTIVE).md" && \
+	if [ ! -f "$$DIRECTIVE_FILE" ]; then \
+		echo "---" > "$$DIRECTIVE_FILE" && \
+		echo "directive_id: DIR-$$(date +%Y%m%d)-$(DIRECTIVE)" >> "$$DIRECTIVE_FILE" && \
+		echo "executed_by: claude-code" >> "$$DIRECTIVE_FILE" && \
+		echo "started_at: $$TIMESTAMP" >> "$$DIRECTIVE_FILE" && \
+		echo "completed_at: " >> "$$DIRECTIVE_FILE" && \
+		echo "status: IN_PROGRESS" >> "$$DIRECTIVE_FILE" && \
+		echo "commit: $$(git rev-parse --short HEAD 2>/dev/null || echo 'uncommitted')" >> "$$DIRECTIVE_FILE" && \
+		echo "---" >> "$$DIRECTIVE_FILE" && \
+		echo "" >> "$$DIRECTIVE_FILE" && \
+		echo "# Execution Log: DIR-$$(date +%Y%m%d)-$(DIRECTIVE)" >> "$$DIRECTIVE_FILE" && \
+		echo "Initialized: $$DIRECTIVE_FILE"; \
+	else \
+		echo "Log exists: $$DIRECTIVE_FILE"; \
+	fi
+
+log:
+	@TIMESTAMP=$$(date -u +"%Y-%m-%dT%H:%M:%SZ") && \
+	DIRECTIVE_FILE="$(LOG_DIR)/DIR-$$(date +%Y%m%d)-$(DIRECTIVE).md" && \
+	if [ -f "$$DIRECTIVE_FILE" ]; then \
+		sed -i '' "s/^completed_at:.*/completed_at: $$TIMESTAMP/" "$$DIRECTIVE_FILE" && \
+		sed -i '' "s/^status:.*/status: $(STATUS)/" "$$DIRECTIVE_FILE" && \
+		echo "Updated: $$DIRECTIVE_FILE with status $(STATUS)"; \
+	else \
+		echo "ERROR: No log found. Run 'make log-init DIRECTIVE=$(DIRECTIVE)' first"; \
+	fi

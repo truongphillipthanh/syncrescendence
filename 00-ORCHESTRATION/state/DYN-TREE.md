@@ -1,30 +1,101 @@
- 48K	-INBOX
-1.4M	-OUTGOING
-1.9M	00-ORCHESTRATION
-2.8M	01-CANON
-992K	02-OPERATIONAL
- 92K	03-QUEUE
-9.9M	04-SOURCES
-1.0M	05-ARCHIVE
- 20K	06-EXEMPLA
-8.0K	CLAUDE.md
-4.0K	COCKPIT.md
-4.0K	Makefile
-(base) home@M1-Mac-mini syncrescendence % tree
+480	-INBOX
+32	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/03_apply_preview
+32	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/02_refinements
+16	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/01_audit
+104	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest
+192	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli
+72	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements
+40	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit
+136	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest
+264	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code
+16	-OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli
+496	-OUTGOING/TURBINE_BAKEOFF_20260117_1900
+0	-OUTGOING/20260118-tighten_audizable_and_smoketest
+16	-OUTGOING/20260119-transcript_codefence_canon
+16	-OUTGOING/20260119-topology_operationalization
+56	-OUTGOING/RING7_PHASESHIFT_PASS_20260116_212500
+16	-OUTGOING/20260118-repo_validation
+16	-OUTGOING/20260118-blitzkrieg/02_directives
+16	-OUTGOING/20260118-blitzkrieg/03_execution
+8	-OUTGOING/20260118-blitzkrieg/01_context
+56	-OUTGOING/20260118-blitzkrieg
+40	-OUTGOING/20260119-sensing_sweep
+8	-OUTGOING/20260119-cognitive_core_v1
+24	-OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130
+256	-OUTGOING/TELEOLOGY_PASS_4_20260117_1430
+24	-OUTGOING/20260118-codify_validation_and_trifurcation
+24	-OUTGOING/20260119-tighten_audizable_and_smoketest
+88	-OUTGOING/20260119-corpus_survey
+2024	-OUTGOING
+1592	00-ORCHESTRATION/directives
+112	00-ORCHESTRATION/oracle_contexts
+920	00-ORCHESTRATION/state
+16	00-ORCHESTRATION/schemas
+880	00-ORCHESTRATION/execution_logs
+240	00-ORCHESTRATION/scripts
+24	00-ORCHESTRATION/templates
+8	00-ORCHESTRATION/blackboard/evidence
+8	00-ORCHESTRATION/blackboard/plans
+8	00-ORCHESTRATION/blackboard/audits
+8	00-ORCHESTRATION/blackboard/executions
+48	00-ORCHESTRATION/blackboard
+3912	00-ORCHESTRATION
+5640	01-CANON
+24	02-OPERATIONAL/registries
+32	02-OPERATIONAL/memory
+24	02-OPERATIONAL/specs
+8	02-OPERATIONAL/models/profiles
+24	02-OPERATIONAL/models
+40	02-OPERATIONAL/scripts
+80	02-OPERATIONAL/prompts/canonical
+160	02-OPERATIONAL/prompts/unified
+32	02-OPERATIONAL/prompts/chatgpt
+40	02-OPERATIONAL/prompts/profiles
+328	02-OPERATIONAL/prompts
+64	02-OPERATIONAL/surveys
+24	02-OPERATIONAL/queues
+888	02-OPERATIONAL/functions
+8	02-OPERATIONAL/templates
+1984	02-OPERATIONAL
+152	03-QUEUE/modal2
+184	03-QUEUE
+760	04-SOURCES/processed
+112	04-SOURCES/raw/claudecode/3-BestPractice_ProTiips
+56	04-SOURCES/raw/claudecode/2-BuilderTool
+512	04-SOURCES/raw/claudecode/1-GettingStarted
+1944	04-SOURCES/raw/claudecode
+24	04-SOURCES/raw/promptengineering
+24	04-SOURCES/raw/codex
+64	04-SOURCES/raw/agents
+16	04-SOURCES/raw/clitool
+16	04-SOURCES/raw/cowork
+18984	04-SOURCES/raw
+20344	04-SOURCES
+296	05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102
+2096	05-ARCHIVE
+40	06-EXEMPLA
+8	AGENTS.md
+16	CLAUDE.md
+8	COCKPIT.md
+16	Makefile
+
 .
 ├── -INBOX
-│   ├── blitzkrieg_drop
-│   │   ├── context.md
-│   │   ├── directive-01.md
-│   │   └── directive-02.md
-│   ├── chatgpt_global_memory.md
-│   ├── chatgpt_syncrescendence_project_memory.md
-│   ├── chatgpt_syncrescendence_smoketest.md
-│   ├── claude_code_repo_ripple_prompt.md
-│   ├── PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER_updated.md
-│   └── smoketest_result.md
+│   ├── accounts.csv
+│   ├── CHATGPT_COMPILER_HANDOFF.md
+│   ├── COCKPIT.md
+│   ├── CONFIGURATION_REGISTRY.md
+│   ├── constellation-architecture.jsx
+│   ├── constellation-configuration.json
+│   ├── constellation-teleology.md
+│   ├── grok-red-team-instructions.md
+│   ├── INTERACTION_DYNAMICS_SPECIFICATION.md
+│   ├── memory-architecture-matrix.md
+│   ├── memory-architecture-teleology.md
+│   ├── platforms.csv
+│   ├── RESOLUTION_PASS_QA.md
+│   └── roles.csv
 ├── -OUTGOING
-│   ├── 00-ORCHESTRATION.zip
 │   ├── 20260118-blitzkrieg
 │   │   ├── 01_context
 │   │   │   └── context.md
@@ -40,17 +111,48 @@
 │   ├── 20260118-repo_validation
 │   │   └── VALIDATION_REPORT.md
 │   ├── 20260118-tighten_audizable_and_smoketest
+│   ├── 20260119-cognitive_core_v1
+│   │   └── EXECUTIVE_BRIEF.md
+│   ├── 20260119-corpus_survey
+│   │   ├── CORE_CANDIDATES.md
+│   │   ├── METABOLISM_MAP.md
+│   │   ├── REFACTOR_RISK_LEDGER.md
+│   │   ├── SURVEY_REPORT.md
+│   │   ├── TOKEN_DRIFT_REPORT.md
+│   │   └── TOPOLOGY_MAP.md
+│   ├── 20260119-sensing_sweep
+│   │   ├── core_candidates.md
+│   │   ├── drift_map.md
+│   │   ├── duplication_clusters.md
+│   │   ├── manifest.json
+│   │   └── sensing_report.md
 │   ├── 20260119-tighten_audizable_and_smoketest
 │   │   ├── chatgpt_syncrescendence_smoketest_v2.md
 │   │   └── TIGHTEN_REPORT.md
+│   ├── 20260119-topology_operationalization
+│   │   ├── DRIFT_COUNTS.md
+│   │   └── MANIFEST.md
 │   ├── 20260119-transcript_codefence_canon
 │   │   └── RIPPLE_REPORT.md
+│   ├── claudecode-report.md
+│   ├── codex-report.md
 │   ├── DEFRAG_CONVICTION_PASS_20260117_1609.zip
 │   ├── DEFRAG_REFRESH_PASS_20260117_2130
+│   ├── geminicli-report.md
 │   ├── RING7_PHASESHIFT_PASS_20260116_212500
 │   │   ├── RING7_DEFINITION_AND_BOUNDARIES.md
 │   │   └── SUBAGENT_MESH_BLUEPRINT.md
 │   ├── RING7_PHASESHIFT_PASS_20260116_2219.zip
+│   ├── TELEOLOGY_PASS_4_20260117_1430
+│   │   ├── 00_INDEX.md
+│   │   ├── 01_ACCOUNT_ENTITLEMENT_LEDGER.md
+│   │   ├── 02_CONCIERGE_COCKPIT_CONSTITUTION.md
+│   │   ├── 03_CHORUS_PROTOCOL_V2.md
+│   │   ├── 04_RING7_SUBSTRATE_IMPLEMENTATION_PLAN.md
+│   │   ├── 05_PACKET_TEMPLATES_MINIMAL_SET.md
+│   │   ├── 06_CRASHOUT_PREVENTION_AND_RECOVERY.md
+│   │   ├── 07_TANGIBLE_TELEOLOGY_ATLAS_README.md
+│   │   └── 07_TANGIBLE_TELEOLOGY_ATLAS.csv
 │   ├── TELEOLOGY_PASS_4_20260117_1430.zip
 │   ├── TELEOLOGY_RING7_PASS_3_20260116_2330.zip
 │   ├── teleology_visibility_pass_2_20260116_203238.zip
@@ -97,6 +199,8 @@
 │   │   │   └── EXE-20260116-001.json
 │   │   └── plans
 │   │       └── PLN-20260116-001.json
+│   ├── cognitive_core.md
+│   ├── decision_atoms.md
 │   ├── directives
 │   │   ├── DIRECTIVE-017_HOLISTIC_RECONCEPTION.md
 │   │   ├── DIRECTIVE-018_EXECUTION_COMPLETION.md
@@ -211,6 +315,8 @@
 │   │   ├── ORACLE10_CULMINATION.md
 │   │   ├── RECONSOLIDATION_AUDIT-2026-01-02.md
 │   │   └── TRIAGE_REPORT-2026-01-01.md
+│   ├── lens_governance.md
+│   ├── model_orchestration.md
 │   ├── oracle_contexts
 │   │   ├── ORACLE_ARC.md
 │   │   ├── ORACLE10_COMPREHENSIVE_ARCHAEOLOGY.md
@@ -223,6 +329,8 @@
 │   ├── scripts
 │   │   ├── blitzkrieg_finalize.sh
 │   │   ├── cleanup_root.sh
+│   │   ├── corpus-survey.sh
+│   │   ├── create_evidence_pack.sh
 │   │   ├── defrag_apply_hardened.sh
 │   │   ├── ingest_chatgpt_container.py
 │   │   ├── ingest_chatgpt_container.sh
@@ -261,10 +369,12 @@
 │   │   ├── README.md
 │   │   ├── REF-BLITZKRIEG_PROTOCOL_VNEXT.md
 │   │   ├── REF-CHATGPT_CONTAINER_PROTOCOL.md
+│   │   ├── REF-EXPORT_HYGIENE.md
 │   │   ├── REF-FOUR_SYSTEMS.md
 │   │   ├── REF-METHODOLOGY.md
 │   │   ├── REF-MULTI_ACCOUNT_SYNC.md
 │   │   ├── REF-MULTI_CLI_COORDINATION.md
+│   │   ├── REF-OPERATIONAL_TOPOLOGY.md
 │   │   ├── REF-PROCESSING_PATTERN.md
 │   │   ├── REF-PROCESSING_ROUTING.md
 │   │   ├── REF-QUEUE_ROADMAP_MAPPING.md
@@ -850,8 +960,9 @@
 │   ├── mcp.json.template
 │   ├── README.md
 │   └── TEMPLATE-CONTINUATION_PACKET.json
+├── AGENTS.md
 ├── CLAUDE.md
 ├── COCKPIT.md
 └── Makefile
 
-73 directories, 769 files
+77 directories, 808 files
