@@ -1,25 +1,32 @@
 #!/bin/bash
 # corpus-survey.sh - Gemini CLI wrapper for corpus analysis
-# Usage: ./corpus-survey.sh [query]
+# Usage: ./corpus-survey.sh [output-dir]
 #
 # This script facilitates Gemini's analysis of the repository corpus
-# by providing structured context and query handling.
+# using the GEMINI-CORPUS-SENSING-PROMPT.md structured prompt.
 
 set -e
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-QUERY="${1:-Analyze the repository structure and summarize key patterns}"
+OUTPUT_DIR="${1:--OUTGOING/$(date +%Y%m%d)-corpus-survey}"
+PROMPT_FILE="00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md"
 
-# Generate context snapshot
+cd "$REPO_ROOT"
+mkdir -p "$OUTPUT_DIR"
+
 echo "=== CORPUS SURVEY ==="
 echo "Repository: $(basename "$REPO_ROOT")"
 echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-echo "Query: $QUERY"
+echo "Output directory: $OUTPUT_DIR"
 echo ""
 
-# Generate tree for context
-echo "=== STRUCTURE ==="
-tree -L 2 -I 'node_modules|.git|__pycache__|*.pyc|.DS_Store' "$REPO_ROOT" 2>/dev/null || find "$REPO_ROOT" -maxdepth 2 -type d -not -path '*/\.*' | head -50
+# Generate file inventory
+echo "Generating file inventory..."
+find . -type f \( -name "*.md" -o -name "*.txt" -o -name "*.csv" -o -name "*.yaml" -o -name "*.json" \) \
+  ! -path "./.git/*" ! -path "./node_modules/*" \
+  -exec wc -c {} \; 2>/dev/null | sort -rn > "$OUTPUT_DIR/file_inventory.txt"
+
+echo "File inventory generated: $OUTPUT_DIR/file_inventory.txt"
 echo ""
 
 # Count key metrics
@@ -27,13 +34,25 @@ echo "=== METRICS ==="
 echo "CANON files: $(find "$REPO_ROOT/01-CANON" -name "*.md" 2>/dev/null | wc -l | tr -d ' ')"
 echo "Source files: $(find "$REPO_ROOT/04-SOURCES" -name "*.md" 2>/dev/null | wc -l | tr -d ' ')"
 echo "State files: $(find "$REPO_ROOT/00-ORCHESTRATION/state" -type f 2>/dev/null | wc -l | tr -d ' ')"
+echo "-INBOX files: $(find "$REPO_ROOT/-INBOX" -type f 2>/dev/null | wc -l | tr -d ' ')"
 echo ""
 
-# If gemini CLI is available, pass the query
+# If gemini CLI is available, run full analysis
 if command -v gemini &> /dev/null; then
-    echo "=== GEMINI ANALYSIS ==="
-    echo "$QUERY" | gemini
+    echo "=== RUNNING GEMINI SENSING SWEEP ==="
+    echo "Using prompt: $PROMPT_FILE"
+    echo ""
+    gemini -p "$(cat "$PROMPT_FILE")" > "$OUTPUT_DIR/SENSING_REPORT.md"
+    echo "Report generated: $OUTPUT_DIR/SENSING_REPORT.md"
 else
-    echo "Note: Gemini CLI not installed. Install with: pip install google-generativeai"
-    echo "For now, use the context above to perform manual analysis."
+    echo "Note: Gemini CLI not installed."
+    echo ""
+    echo "To run Gemini analysis manually:"
+    echo "  1. Install: pip install google-generativeai"
+    echo "  2. Run: gemini -p \"\$(cat $PROMPT_FILE)\" > \"$OUTPUT_DIR/SENSING_REPORT.md\""
+    echo ""
+    echo "For now, use the file inventory for manual analysis."
 fi
+
+echo ""
+echo "=== SURVEY COMPLETE ==="

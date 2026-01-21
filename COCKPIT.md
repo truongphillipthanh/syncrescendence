@@ -1,97 +1,172 @@
-# Syncrescendence Cockpit
-## System Navigation Index
-**Last Updated**: 2026-01-18
+# COCKPIT.md
+## Syncrescendence System Overview
+
+**Version**: 1.0  
+**Updated**: 2026-01-20  
+**Purpose**: 30,000ft orientation for any platform entering the constellation
 
 ---
 
-## Current State
+## What Is Syncrescendence?
 
-| Metric | Value |
-|--------|-------|
-| Current Oracle | 13 |
-| Last Blitzkrieg | 046B |
-| System Mode | Operational |
-| Protected Zones | Intact |
+Syncrescendence is a distributed cognition system designed to demonstrate that individual capability can achieve institutional-scale intelligence through orchestrated AI platforms. It serves as proof-of-concept for navigating civilizational phase transitions where no single intelligence possesses the complete capability matrix for polymathic synthesis.
 
 ---
 
-## Primary Entrypoints
+## The Constellation
 
-| Document | Purpose | When to Read |
-|----------|---------|--------------|
-| [CLAUDE.md](./CLAUDE.md) | Constitutional rules | Every Claude Code session |
-| [REF-STANDARDS.md](./00-ORCHESTRATION/state/REF-STANDARDS.md) | 18 evaluative lenses | Before strategic decisions |
-| [system_state.json](./00-ORCHESTRATION/state/system_state.json) | Current state vector | Before any execution |
-| [coordination.yaml](./02-OPERATIONAL/coordination.yaml) | Platform constellation | Multi-agent work |
+### Three Accounts
+| Account | Email | Auth | Purpose |
+|---------|-------|------|---------|
+| 1 | truongphillipthanh@icloud.com | Apple | Sovereign substrate, owns origin |
+| 2 | icloud.truongphillipthanh@gmail.com | Google | Parallel execution capacity |
+| 3 | truongphillipthanh@gmail.com | Google | Primary interface, ecosystem access |
 
----
-
-## Quick Navigation
-
-### For Oracle Sessions
-1. Load ORACLE[N]_CONTEXT.md from 00-ORCHESTRATION/oracle_contexts/
-2. Check system_state.json for current state
-3. Reference REF-STANDARDS.md for decisions
-
-### For Execution Sessions
-1. Read CLAUDE.md (constitution)
-2. Check relevant DIRECTIVE-NNN.md in 00-ORCHESTRATION/directives/
-3. Write to appropriate zone per coordination.yaml
-
-### For Source Processing
-1. Consult REF-PROCESSING_PATTERN.md
-2. Update sources.csv with atomic writes
-3. Process raw/ to processed/
-
-### For Structural Maintenance
-1. Run `./00-ORCHESTRATION/scripts/structural_verify.sh`
-2. Review REF-STABILIZATION_PROCEDURE.md for defrag
-3. Verify `-OUTGOING/` and `-INBOX/` exist; legacy `OUTGOING/` and `outgoing/` are prohibited (Constitutional Rule #4)
+### Eight Roles
+| Role | Platform | Account | Function |
+|------|----------|---------|----------|
+| INTERPRETER | Claude Web | 3 | Synthesis, ideation, rapport |
+| COMPILER | ChatGPT Web | 1 | Mechanical formatting, templates |
+| DIGESTOR | Gemini Web | 3 | Clarification, TTS optimization |
+| ORACLE | Gemini CLI | 3 | Corpus sensing, evidence packs |
+| EXECUTOR-LEAD | Claude Code | 3 | Mesoscopic implementation (Opus) |
+| PARALLEL-EXEC | Claude Code | 2 | Microscopic tasks (Sonnet x2) |
+| RED TEAM | Grok | 1 | Adversarial challenge |
+| VERIFIER | Perplexity | - | Citation-backed verification |
 
 ---
 
-## Daily Ritual
+## The State Machine
 
-1. [ ] Check git status for uncommitted work
-2. [ ] Review system_state.json for current Oracle/Blitzkrieg
-3. [ ] Scan 00-ORCHESTRATION/directives/ for pending work
-4. [ ] Verify no orphan files at root (`ls *.md | grep -v CLAUDE | grep -v COCKPIT`)
-5. [ ] Run structural_verify.sh if significant changes made
-
----
-
-## Emergency Reference
-
-| Situation | Action |
-|-----------|--------|
-| Crashout | Read crashout_postmortem.md, ground in repo |
-| Memory mismatch | Trust repo, not platform memory |
-| Collision | Check coordination.yaml zones |
-| Uncertainty | Apply 18 lenses (REF-STANDARDS.md) |
-| Structural drift | Run structural_verify.sh |
-
----
-
-## Directory Map
+Content flows through defined states:
 
 ```
-.
-├── CLAUDE.md              # Constitution (v2.2.0)
-├── COCKPIT.md             # You are here
-├── Makefile               # Build/verify commands
-├── 00-ORCHESTRATION/      # Directives, logs, state, scripts
-├── 01-CANON/              # Protected knowledge
-├── 02-OPERATIONAL/        # Prompts, functions, coordination.yaml
-├── 03-QUEUE/              # Pending work
-├── 04-SOURCES/            # Source documents (raw/, processed/)
-├── 05-ARCHIVE/            # Historical preservation
-├── 06-EXEMPLA/            # Templates
-├── -OUTGOING/             # Export staging, reinit capsules (EXCEPTION)
-└── -INBOX/                # Incoming artifacts from external platforms (EXCEPTION)
+CAPTURED → INTERPRETED → COMPILED → STAGED → COMMITTED
+                      ↘ DIGESTED ↗
+                      ↘ SENSED ↗
+                      ↘ VERIFIED ↗
 ```
 
-**Root Exceptions**: Only `-OUTGOING/` and `-INBOX/` (dash-prefixed) are sanctioned beyond 00-06. Legacy `OUTGOING/` and lowercase `outgoing/` are PROHIBITED.
+- **CAPTURED**: Raw ideation in Principal's mind
+- **INTERPRETED**: Structured understanding (Claude Web artifact)
+- **COMPILED**: Formatted artifact (ChatGPT Canvas)
+- **DIGESTED**: Clarified summary (Gemini Docs)
+- **SENSED**: Evidence pack (Gemini CLI output)
+- **VERIFIED**: Externally validated (Perplexity/Grok)
+- **STAGED**: In -OUTGOING/, ready for commit
+- **COMMITTED**: In repository (ground truth)
 
 ---
 
-**This is your cockpit. Everything else is reachable from here.**
+## Ground Truth
+
+The **repository** is ground truth. All platforms verify against it via:
+- **Fingerprint**: 8-character git commit hash
+- **Handoff Token**: State marker transferred between platforms
+
+```
+Repository (Account 1 Origin)
+├── 00-ORCHESTRATION/  # Current operations
+├── 01-CANON/          # Constitutional documents
+├── 02-OPERATIONAL/    # Active work
+├── 03-QUEUE/          # Pending items
+├── 04-SOURCES/        # Raw inputs
+├── 05-ARCHIVE/        # Historical
+├── 06-EXEMPLA/        # Examples
+├── -INBOX/            # Incoming from cloud
+├── -OUTGOING/         # Staged for commit
+└── .constellation/    # State management
+    ├── tokens/
+    ├── state/
+    └── phase-specs/
+```
+
+---
+
+## Handoff Protocol
+
+Transitions between platforms use handoff tokens:
+
+```
+HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM
+├── Fingerprint: [8-char hash]
+├── Phase: N → M
+└── Brief: [What changed]
+```
+
+### Time Targets
+| Transition | Target |
+|------------|--------|
+| Claude → ChatGPT | 30 sec |
+| ChatGPT → Gemini | 20 sec |
+| Gemini → Claude | 15 sec |
+| Any → CLI | 10 sec |
+| CLI → Repository | 5 sec |
+
+---
+
+## Platform Configuration Summary
+
+### Claude Web (INTERPRETER)
+- Project: "Syncrescendence IIC"
+- Memory: Project-specific enabled
+- Connectors: GitHub, Drive, Gmail
+- Strength: Rapport, synthesis, past chat search
+
+### ChatGPT Web (COMPILER)
+- Project: "Syncrescendence Compiler"
+- Memory: PROJECT-ONLY MODE (critical)
+- Strength: Canvas, deterministic output
+- Constraint: No interpretation, explicit specs only
+
+### Gemini Web (DIGESTOR)
+- Gem: "Constellation Digestor"
+- Drive Link: Constellation-State/ (live sync)
+- Strength: 1M context, infinite threads, TTS
+
+### CLI Tools
+- Claude Code: CLAUDE.md config, extended thinking
+- Codex CLI: AGENTS.md config, GitHub integration
+- Gemini CLI: Stateless, 1M context surveys
+
+---
+
+## Current Priorities
+
+1. **Operate minimal cycle**: Test full handoff loop
+2. **Measure actual times**: Validate <30 sec targets
+3. **Configure remaining**: ChatGPT project, Gemini gem
+4. **Automate proven patterns**: rclone, Hazel, Stream Deck
+
+---
+
+## Quick Reference
+
+### Slash Commands
+| Command | Effect |
+|---------|--------|
+| `/blitz` | Parallel directive mode |
+| `/compile` | Begin compilation |
+| `/handoff [next]` | Prepare for platform transition |
+| `/token` | Show current state fingerprint |
+
+### Symbolic Shortcuts
+| Symbol | Meaning |
+|--------|---------|
+| $A1, $A2, $A3 | Account 1, 2, 3 |
+| $INT, $CMP, $DIG | Interpreter, Compiler, Digestor |
+| $FP | Fingerprint |
+| $GT | Ground Truth |
+
+---
+
+## When In Doubt
+
+1. Check the repository (ground truth)
+2. Verify the fingerprint matches
+3. Ask the Principal for clarification
+4. Never assume context not explicitly provided
+
+---
+
+*This document provides orientation. For detailed rationale, see constellation-teleology.md and memory-architecture-teleology.md.*

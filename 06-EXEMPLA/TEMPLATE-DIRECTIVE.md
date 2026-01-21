@@ -1,35 +1,63 @@
 # DIRECTIVE: DIR-YYYYMMDD-NAME
 
-## Preamble
+---
+## DECISION ENVELOPE
+handoff_id: HO-YYYYMMDD-HHMMSS-[source]
+origin_platform: [claude-web|chatgpt|gemini|claude-code]
+origin_session: [thread name or ID]
+destination_platform: [target platform]
+decision_timestamp: YYYY-MM-DDTHH:MM:SSZ
+
+### Decision Context
+trigger: [What prompted this work]
+alternatives_considered:
+  - [Option A]: [why rejected]
+selected_approach: [Chosen option]
+selection_rationale: |
+  [2-5 sentences explaining WHY]
+
+### Assumptions
+- [Assumption that could invalidate directive if wrong]
+
+### Constraints Inherited
+- [Constraint from prior decisions]
+
+### Dependencies
+- prior_handoff: [HO-ID or "none"]
+- requires_completion_of: [prerequisites]
+- blocks: [downstream work]
+
+### Principal Checkpoints
+- [ ] Reviewed decision rationale
+- [ ] Confirmed assumptions still valid
+- [ ] Approved for execution
+---
+
+## PREAMBLE
 ```bash
-# Run immediately upon receiving this directive:
 make log-init DIRECTIVE=NAME
 ```
 
-## Context
-[Why this directive exists—link to Oracle decision or preceding work]
-
-## Objective
+## OBJECTIVE
 [What success looks like]
 
-## Constraints
+## CONSTRAINTS
 [Hard boundaries that must not be violated]
 
-## Deliverables
+## DELIVERABLES
 - [ ] Item 1
 - [ ] Item 2
 
-## Verification
+## VERIFICATION
 ```bash
 # Commands to prove completion
 ```
 
-## Postamble
+## POSTAMBLE
 ```bash
-# Run after all deliverables complete:
 make log STATUS=COMPLETE DIRECTIVE=NAME
-git add 00-ORCHESTRATION/execution_logs/
-git commit -m "log(DIR-YYYYMMDD-NAME): [summary]"
+git add -A
+git commit -m "feat(DIR-YYYYMMDD-NAME): [summary]"
 ```
 
 Append execution evidence to log file before committing.

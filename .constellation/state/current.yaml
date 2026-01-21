@@ -1,4 +1,4 @@
-fingerprint: 37f1f52
-timestamp: 2026-01-21T03:24:22Z
+fingerprint: 35ff524
+timestamp: 2026-01-21T04:13:28Z
 branch: main
-message: feat(constellation): add infrastructure for multi-agent coordination
+message: feat(infra): execution log infrastructure, templates, -INBOX triage
