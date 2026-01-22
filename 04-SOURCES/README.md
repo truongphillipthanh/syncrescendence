@@ -1,6 +1,25 @@
-# SOURCES Directory
+# 04-SOURCES: CURATED REFERENCES
 
-External intelligence input layer for the Syncrescendent apparatus.
+## Purpose (Revised 2026-01-22)
+This directory holds PRESERVATION-WORTHY reference materials.
+
+## What Belongs Here
+- Academic papers worth keeping
+- Primary source documents
+- Canonical blog posts
+- High-value synthesis from external sources
+- Processed transcripts with extracted value
+
+## What Does NOT Belong Here
+- Bulk raw transcripts (externalized to Google ecosystem)
+- Intermediate processing artifacts
+- Bulk imports awaiting triage
+- Low-signal content (filter before entry)
+
+## Teleology
+"Only what deserves permanent preservation in the cognitive core"
+
+---
 
 ## Pipeline Stages
 
@@ -36,11 +55,11 @@ STAGE 4: integrated    → CANON absorption confirmed (sources.csv status='integ
 ## Directory Structure
 
 ```
-03-SOURCES/
+04-SOURCES/
 ├── raw/                    # Stages 1-2 (txt = Stage 1, md = Stage 2)
 ├── processed/              # Stage 3 (integration-ready)
-├── sources.csv             # Master tracking file
-├── filename_mapping.csv    # Rename history
+├── DYN-SOURCES.csv         # Master tracking file
+├── REF-FILENAME_MAPPING.csv # Rename history
 ├── index.md                # Master manifest
 ├── FRONTMATTER_TEMPLATE.md # Processing template
 └── README.md               # This file
@@ -60,12 +79,12 @@ Examples:
 
 - **SOURCES** = External intelligence INPUT (not authored by Principal)
 - **CANON** = Authored synthesis OUTPUT
-- **QUEUE** = Pending work items
-- **ARCHIVE** = Full research corpora (pre-distillation)
+- **QUEUE** = Pending work items (high-signal only)
+- **ARCHIVE** = Short-term memory (30-day TTL)
 
 ## Processing Functions
 
-See `01-OPERATIONAL/functions/` for:
+See `02-OPERATIONAL/functions/` for:
 - `transcribe_youtube.xml` - YouTube video processing
 - `transcribe_interview.xml` - Interview format processing
 - `transcribe_panel.xml` - Panel discussion processing
@@ -74,5 +93,5 @@ See `01-OPERATIONAL/functions/` for:
 ## See Also
 
 - `FRONTMATTER_TEMPLATE.md` — Field definitions and template
-- `sources.csv` — Master tracking spreadsheet
+- `DYN-SOURCES.csv` — Master tracking spreadsheet
 - `index.md` — Master manifest

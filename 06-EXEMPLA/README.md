@@ -1,36 +1,44 @@
----
-id: EXEMPLA-README
-name: EXEMPLA Layer README
-identity: EXEMPLA_README
-tier: EXEMPLA
-type: null
-version: 1.1.0
-status: canonical
-created: 2025-12-30
-updated: 2026-01-05
-synopsis: Navigation guide for the EXEMPLA demonstration layer.
----
+# 06-EXEMPLA: WISDOM LAYER
 
-# EXEMPLA: The Demonstration Layer
+## Purpose (Elevated 2026-01-22)
+This directory encodes CIVILIZATIONAL KNOWLEDGE TRANSFER.
 
----
+## What Belongs Here
+- **Aphorisms**: Compressed wisdom statements
+- **Proverbs**: Operational heuristics with context
+- **Cautionary Tales**: Anti-patterns with narrative
+- **Defrag Learnings**: Extracted wisdom from execution cycles
+- **Phase Markers**: Significant transitions documented
+- **Templates**: Structural patterns for reuse
+- **Case Studies**: Success stories and failure analyses
+- **Worked Examples**: Step-by-step demonstrations
 
-## Purpose
+## Structure
 
-EXEMPLA provides what CANON describes and GENESIS narrates: **concrete demonstration**.
+```
+06-EXEMPLA/
+├── APHORISMS.md              # Compressed wisdom
+├── PROVERBS.md               # Operational heuristics
+├── cautionary-tales/         # Anti-pattern narratives
+├── defrag-learnings/         # Execution cycle wisdom
+├── phase-markers/            # Transition documentation
+├── templates/                # Reusable structures
+├── CASE-*.md                 # Case studies (success/failure)
+└── EXAMPLE-*.md              # Worked examples
+```
 
-Theory without demonstration is abstraction. EXEMPLA grounds the architecture in reality by showing Syncrescendence principles in action—real case studies, worked examples, and documented applications.
+## The Compression Pattern
 
----
+1. Execute a cycle (directive, defrag, annealment)
+2. Extract the teaching: What did this reveal?
+3. Compress to essence: Aphorism, proverb, or tale
+4. Commit to EXEMPLA: Permanent wisdom layer
+5. Archive raw logs: 05-ARCHIVE with 30-day TTL
+6. Let go: Git preserves history; cognitive core stays lean
 
-## Structure (FLAT)
-
-All files at root level with prefix conventions:
-
-| Prefix | Purpose | Template |
-|--------|---------|----------|
-| **CASE-** | Success stories, failure analyses, real-world applications | CASE-TEMPLATE.md |
-| **EXAMPLE-** | Step-by-step walkthroughs and how-to demonstrations | EXAMPLE-TEMPLATE.md |
+## Teleology
+"There are decades when nothing happens, and there are weeks when decades happen."
+This is where we encode what the decades taught us.
 
 ---
 
@@ -40,63 +48,24 @@ All files at root level with prefix conventions:
 |-------|----------|------|
 | **GENESIS** | Why + Origins | Mythopoetic |
 | **CANON** | What + How | Operational |
-| **EXEMPLA** | Demonstration | Evidential |
+| **EXEMPLA** | Demonstration + Wisdom | Evidential + Encoded |
 
-GENESIS provides meaning. CANON provides structure. EXEMPLA provides proof.
-
----
-
-## Case Studies (CASE- prefix)
-
-Each case study documents:
-- **Context**: What problem or aspiration prompted the work
-- **Approach**: Which CANON principles and practices were applied
-- **Process**: What actually happened (including failures)
-- **Results**: What outcomes emerged
-- **Lessons**: What was learned for future application
-
-See `CASE-TEMPLATE.md` for the standard format.
+GENESIS provides meaning. CANON provides structure. EXEMPLA provides proof AND accumulated wisdom.
 
 ---
 
-## Worked Examples (EXAMPLE- prefix)
+## Prefix Conventions
 
-Each worked example walks through:
-- **Goal**: What we're trying to accomplish
-- **Prerequisites**: What you need before starting
-- **Steps**: Detailed walkthrough with actual examples
-- **Verification**: How to confirm success
-- **Variations**: Alternative approaches or adaptations
-
-See `EXAMPLE-TEMPLATE.md` for the standard format.
-
----
-
-## Current State
-
-This layer is **bootstrapped and awaiting population**.
-
-The architecture exists; the demonstrations will accumulate through practice. As practitioners apply Syncrescendent principles and document their work, EXEMPLA grows organically.
-
----
-
-## Contributing
-
-### Adding a Case Study
-
-1. Copy `CASE-TEMPLATE.md` to `CASE-[descriptive-name].md`
-2. Document actual experience (not hypothetical)
-3. Include failures and lessons, not just successes
-4. Connect to specific CANON documents where relevant
-5. Submit for inclusion
-
-### Adding a Worked Example
-
-1. Copy `EXAMPLE-TEMPLATE.md` to `EXAMPLE-[descriptive-name].md`
-2. Test the walkthrough yourself before documenting
-3. Include actual screenshots, code, or artifacts where helpful
-4. Verify steps work for a new practitioner
-5. Submit for inclusion
+| Prefix | Purpose | Template |
+|--------|---------|----------|
+| **APHORISM-** | Compressed wisdom statements | (in APHORISMS.md) |
+| **PROVERB-** | Operational heuristics | (in PROVERBS.md) |
+| **TALE-** | Cautionary tales, anti-patterns | cautionary-tales/ |
+| **LESSON-** | Defrag/session learnings | defrag-learnings/ |
+| **MARKER-** | Phase transition markers | phase-markers/ |
+| **CASE-** | Success/failure case studies | CASE-TEMPLATE.md |
+| **EXAMPLE-** | Step-by-step demonstrations | EXAMPLE-TEMPLATE.md |
+| **TEMPLATE-** | Reusable structural patterns | templates/ |
 
 ---
 
@@ -106,28 +75,29 @@ EXEMPLA content should be:
 - **Real**: Based on actual experience, not theoretical projection
 - **Honest**: Including failures, difficulties, and surprises
 - **Connected**: Referencing relevant CANON documents
-- **Replicable**: Detailed enough for others to learn from
-- **Evolving**: Updated as understanding deepens
+- **Compressed**: Distilled to essence, not verbose
+- **Actionable**: Providing guidance for future decisions
 
 ---
 
-## Relationship to CANON
+## Relationship to Other Tiers
 
-EXEMPLA demonstrates CANON. When you read about the Seven Pulses in CANON-10000, EXEMPLA shows what daily Seven Pulses practice actually looks like over months.
-
-| CANON Document | EXEMPLA Demonstration |
-|----------------|----------------------|
-| CANON-10000 (Celestial Body) | Case study: 90 days of Seven Pulses tracking |
-| CANON-31140 (IIC Constellation) | Worked example: Setting up five-account architecture |
-| CANON-35110 (Transcendence System) | Case study: Degree progression from Recognition to Exploration |
-| CANON-33110 (Business Backbone) | Worked example: Quarterly revenue review using framework |
+```
+00-ORCHESTRATION/ — Coordination infrastructure
+01-CANON/         — What (constitutional, defended)
+02-OPERATIONAL/   — Active (living documents)
+03-QUEUE/         — Synthesis inbox (high-signal only)
+04-SOURCES/       — Curated references (preservation-worthy)
+05-ARCHIVE/       — Short-term memory (30-day TTL)
+06-EXEMPLA/       — Wisdom layer (civilizational knowledge transfer) <- THIS
+```
 
 ---
 
-*Theory instructs. Practice embodies. EXEMPLA bridges.*
+*Theory instructs. Practice embodies. EXEMPLA encodes the lessons.*
 
 ---
 
 **Created**: December 2025
-**Updated**: January 2026 (flattened via DIRECTIVE-039B)
-**Status**: Bootstrapped, awaiting population through practice
+**Elevated**: January 2026 (wisdom layer via DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED)
+**Status**: Active wisdom accumulation

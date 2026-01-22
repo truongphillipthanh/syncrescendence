@@ -234,3 +234,9 @@ log:
 log-view:
 	@echo "=== Recent Execution Logs ===" && \
 	ls -la $(LOG_DIR)/*.md 2>/dev/null | tail -5 || echo "No logs found"
+
+# Quick sync checkpoint (no file generation, just output)
+sync-checkpoint:
+	@echo "SYNC-CHECKPOINT: $$(date -u +"%Y-%m-%dT%H:%M:%SZ")" && \
+	echo "COMMIT: $$(git rev-parse --short HEAD)" && \
+	echo "BRANCH: $$(git rev-parse --abbrev-ref HEAD)"
