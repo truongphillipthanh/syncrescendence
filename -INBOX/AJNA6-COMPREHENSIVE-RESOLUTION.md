@@ -174,7 +174,7 @@ TRACK C: Canon Audit (Gemini CLI)              TRACK D: Platform Prompts (ChatGP
 
 **Week 2: Notation Implementation**
 - Create encode/decode tooling (symbols.yaml, usn encode, usn decode)
-- Pilot on 02-OPERATIONAL (smallest semantic corpus)
+- Pilot on 02-ENGINE (smallest semantic corpus)
 - Test round-trip fidelity
 
 **Week 3: CANON Transformation**
@@ -218,7 +218,7 @@ These don't require notation choice:
 
 | Item | Decision | Default if No Response |
 |------|----------|------------------------|
-| Directory renaming (02-OPERATIONAL → 03-ENGINE) | Yes/No/Defer | Defer |
+| Directory renaming (02-ENGINE → 03-ENGINE) | Yes/No/Defer | Defer |
 | Account 4 & 5 | Formalize or revise to Three-Account | Revise |
 | Flat Principle | Keep or revise to "Clean Hierarchy" | Keep with documented exceptions |
 | Google offload scope | 03-QUEUE only, or 03+04? | Both |
@@ -279,7 +279,7 @@ From your inputs, these are explicitly NOT addressed yet:
 | Pseudo-code structures | IS the USN notation | Week 2-3 |
 | Directory renames | Awaiting decision | When decided |
 | CANON forensic audit | Scoped for Gemini CLI | Week 3 |
-| 02-OPERATIONAL "shitshow" | READMEs now, reorganize after | Week 1 + Week 3 |
+| 02-ENGINE "shitshow" | READMEs now, reorganize after | Week 1 + Week 3 |
 | -OUTGOING items | Triage during infrastructure | Week 1 |
 | Live capability matrix | Create during automation phase | Week 4 |
 | Notion/Airtable/Excel onboarding | After core stabilization | Week 5+ |
@@ -297,9 +297,9 @@ SYSTEM Syncrescendence:
     layers:
         constitution: 01-CANON/ | USN format | immutable core
         orchestration: 00-ORCHESTRATION/ | ledgers + directives | living infra
-        engine: 02-OPERATIONAL/ | functions + prompts | executable
+        engine: 02-ENGINE/ | functions + prompts | executable
         sources: [03-QUEUE, 04-SOURCES] | offload >> Google | raw material
-        memory: 05-ARCHIVE/ | short-term | semantic organization
+        memory: 05-MEMORY/ | short-term | semantic organization
         wisdom: 06-EXEMPLA/ | aphorisms >> annealments | distilled insight
     
     agents:
@@ -341,7 +341,7 @@ end
 3. Encode/decode tooling spec produced
 
 ### Next Week
-1. Pilot USN on 02-OPERATIONAL
+1. Pilot USN on 02-ENGINE
 2. CANON audit begins (Gemini CLI)
 3. Platform prompts rewritten
 

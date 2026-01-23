@@ -12,10 +12,10 @@
 |------|----------------|-----------|-------|
 | `00-ORCHESTRATION/` | Principal, Claude Code | Oracle (directives) | Protected: state/, oracle_contexts/ |
 | `01-CANON/` | Principal | Claude (with approval) | PROTECTED - deletions require approval |
-| `02-OPERATIONAL/` | Claude Code | Principal | Contains coordination.yaml |
+| `02-ENGINE/` | Claude Code | Principal | Contains coordination.yaml |
 | `03-QUEUE/` | Claude Code | Principal | Modal-organized pending work |
 | `04-SOURCES/` | Gemini (raw/), Alpha/Beta (processed/) | Principal | Zone-prefixed outputs |
-| `05-ARCHIVE/` | Claude Code | Principal | Historical preservation |
+| `05-MEMORY/` | Claude Code | Principal | Historical preservation |
 | `06-EXEMPLA/` | Principal | Claude Code | Templates only |
 | `-INBOX/` | External Platforms | Principal | ChatGPT drops, reinit capsules |
 | `-OUTGOING/` | Claude Code | Principal | Export staging, blitzkrieg bundles |
@@ -65,7 +65,7 @@ shared: *.csv (append-only, row-level locking)
 ### Canonical Paths
 | Artifact | Canonical Path |
 |----------|----------------|
-| Coordination Config | `02-OPERATIONAL/coordination.yaml` |
+| Coordination Config | `02-ENGINE/coordination.yaml` |
 | Blitzkrieg Protocol | `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md` |
 | System State | `00-ORCHESTRATION/state/system_state.json` |
 | Structural Verifier | `00-ORCHESTRATION/scripts/structural_verify.sh` |
@@ -95,7 +95,7 @@ Inter-instance:   Git branches (no direct communication)
 |---------|-----------|--------------|
 | `OUTGOING/` at root | Legacy form | `-OUTGOING/` |
 | `outgoing/` at root | Lowercase legacy | `-OUTGOING/` |
-| `config/` at root | Deprecated location | `02-OPERATIONAL/` |
+| `config/` at root | Deprecated location | `02-ENGINE/` |
 | Subdirectories in zones | Flat principle violation | Use naming prefixes |
 | Orphan files at root | Structure violation | Only CLAUDE.md, COCKPIT.md, Makefile |
 
@@ -122,7 +122,7 @@ ls -1 | grep -E "^(OUTGOING|outgoing|config)$"
 rg "OUTGOING/" --glob "*.md" | grep -v "\-OUTGOING/"
 
 # Verify coordination.yaml location
-test -f 02-OPERATIONAL/coordination.yaml && echo "OK" || echo "MISSING"
+test -f 02-ENGINE/coordination.yaml && echo "OK" || echo "MISSING"
 
 # Count orphan files at root
 ls -1 *.md 2>/dev/null | grep -v -E "^(CLAUDE|COCKPIT)\.md$" | wc -l
@@ -136,7 +136,7 @@ Verification writes to: `00-ORCHESTRATION/state/DYN-STRUCTURAL_VERIFY_REPORT.md`
 ## Cross-References
 
 - Detailed topology survey: `-OUTGOING/20260119-corpus_survey/TOPOLOGY_MAP.md`
-- Zone ownership details: `02-OPERATIONAL/coordination.yaml`
+- Zone ownership details: `02-ENGINE/coordination.yaml`
 - Processing pattern: `00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md`
 - 18 evaluative lenses: `00-ORCHESTRATION/state/REF-STANDARDS.md`
 

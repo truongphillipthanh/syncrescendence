@@ -74,7 +74,7 @@ def get_repo_metrics() -> dict:
     metrics['raw_sources'] = count_files('04-SOURCES/raw/*.txt') + count_files('04-SOURCES/raw/*.md')
 
     # OPERATIONAL metrics
-    metrics['function_xmls'] = count_files('02-OPERATIONAL/*.xml')
+    metrics['function_xmls'] = count_files('02-ENGINE/*.xml')
 
     # Integration metrics
     try:

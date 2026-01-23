@@ -84,7 +84,7 @@ Examples:
 
 ## Processing Functions
 
-See `02-OPERATIONAL/functions/` for:
+See `02-ENGINE/functions/` for:
 - `transcribe_youtube.xml` - YouTube video processing
 - `transcribe_interview.xml` - Interview format processing
 - `transcribe_panel.xml` - Panel discussion processing

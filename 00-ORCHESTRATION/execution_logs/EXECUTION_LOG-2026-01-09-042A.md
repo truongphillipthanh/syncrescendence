@@ -38,7 +38,7 @@ Configure the first two IIC accounts (Acumen and Coherence) with complete operat
 ### Phase 2: Acumen Configuration (45 min)
 **Status**: COMPLETE
 
-**Deliverable**: `02-OPERATIONAL/IIC-Acumen-config.md`
+**Deliverable**: `02-ENGINE/IIC-Acumen-config.md`
 **Size**: ~600 lines
 
 **Sections Completed**:
@@ -56,7 +56,7 @@ Configure the first two IIC accounts (Acumen and Coherence) with complete operat
 ### Phase 3: Coherence Configuration (45 min)
 **Status**: COMPLETE
 
-**Deliverable**: `02-OPERATIONAL/IIC-Coherence-config.md`
+**Deliverable**: `02-ENGINE/IIC-Coherence-config.md`
 **Size**: ~550 lines
 
 **Sections Completed**:
@@ -75,7 +75,7 @@ Configure the first two IIC accounts (Acumen and Coherence) with complete operat
 ### Phase 4: Shared Protocols (30 min)
 **Status**: COMPLETE
 
-**Deliverable**: `02-OPERATIONAL/IIC-shared-protocols.md`
+**Deliverable**: `02-ENGINE/IIC-shared-protocols.md`
 **Size**: ~500 lines
 
 **Sections Completed**:
@@ -95,9 +95,9 @@ Configure the first two IIC accounts (Acumen and Coherence) with complete operat
 
 | File | Location | Lines | Status |
 |------|----------|-------|--------|
-| IIC-Acumen-config.md | 02-OPERATIONAL/ | ~600 | COMPLETE |
-| IIC-Coherence-config.md | 02-OPERATIONAL/ | ~550 | COMPLETE |
-| IIC-shared-protocols.md | 02-OPERATIONAL/ | ~500 | COMPLETE |
+| IIC-Acumen-config.md | 02-ENGINE/ | ~600 | COMPLETE |
+| IIC-Coherence-config.md | 02-ENGINE/ | ~550 | COMPLETE |
+| IIC-shared-protocols.md | 02-ENGINE/ | ~500 | COMPLETE |
 | EXECUTION_LOG-2026-01-09-042A.md | 00-ORCHESTRATION/logs/ | ~200 | COMPLETE |
 
 ---
@@ -112,7 +112,7 @@ Configure the first two IIC accounts (Acumen and Coherence) with complete operat
 | Platform matrix comprehensive | ✓ | 6+ platforms per IIC |
 | Seven-Layer Stack specified | ✓ | All 7 layers for each IIC |
 | Claude Project prompts included | ✓ | System prompt frameworks provided |
-| Files in 02-OPERATIONAL/ | ✓ | All 3 config files accessible |
+| Files in 02-ENGINE/ | ✓ | All 3 config files accessible |
 
 ---
 

@@ -383,27 +383,27 @@ mv -INBOX/memory-architecture-teleology.md 01-CANON/CANON-25010-MEMORY_TELEOLOGY
 
 ```bash
 # State fingerprint solution - active protocol (not archived)
-mkdir -p 02-OPERATIONAL/protocols
-mv -INBOX/state-fingerprint-solution.md 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md
+mkdir -p 02-ENGINE/protocols
+mv -INBOX/state-fingerprint-solution.md 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md
 
 # Compiler handoff (if still in -INBOX)
-mkdir -p 02-OPERATIONAL/prompts/canonical
-# mv -INBOX/CHATGPT_COMPILER_HANDOFF.md 02-OPERATIONAL/prompts/canonical/ (if exists)
+mkdir -p 02-ENGINE/prompts/canonical
+# mv -INBOX/CHATGPT_COMPILER_HANDOFF.md 02-ENGINE/prompts/canonical/ (if exists)
 
 # Configuration registry
-mkdir -p 02-OPERATIONAL/registries
-mv -INBOX/CONFIGURATION_REGISTRY.md 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md
+mkdir -p 02-ENGINE/registries
+mv -INBOX/CONFIGURATION_REGISTRY.md 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md
 
 # Memory architecture matrix (operational rules, not philosophy)
-mv -INBOX/memory-architecture-matrix.md 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md
+mv -INBOX/memory-architecture-matrix.md 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md
 ```
 
 ### 3.3 JSX/Diagrams → ARCHIVE or EXEMPLA
 
 ```bash
 # Architecture diagram (superseded by implementation)
-mv -INBOX/constellation-architecture.jsx 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx
-mv -INBOX/constellation-bifurcated-architecture.jsx 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx
+mv -INBOX/constellation-architecture.jsx 05-MEMORY/ARCH-constellation-architecture-v1.jsx
+mv -INBOX/constellation-bifurcated-architecture.jsx 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx
 
 # Process flow diagram (may be useful as example)
 # mv -INBOX/constellation-process-flow.jsx 06-EXEMPLA/EXAMPLE-constellation-process-flow.jsx
@@ -413,9 +413,9 @@ mv -INBOX/constellation-bifurcated-architecture.jsx 05-ARCHIVE/ARCH-constellatio
 
 ```bash
 # Account/platform registries
-mv -INBOX/accounts.csv 02-OPERATIONAL/registries/DYN-ACCOUNTS.csv
-mv -INBOX/platforms.csv 02-OPERATIONAL/registries/DYN-PLATFORMS.csv
-mv -INBOX/roles.csv 02-OPERATIONAL/registries/DYN-ROLES.csv
+mv -INBOX/accounts.csv 02-ENGINE/registries/DYN-ACCOUNTS.csv
+mv -INBOX/platforms.csv 02-ENGINE/registries/DYN-PLATFORMS.csv
+mv -INBOX/roles.csv 02-ENGINE/registries/DYN-ROLES.csv
 ```
 
 ### 3.5 COCKPIT.md Resolution
@@ -456,7 +456,7 @@ mv sources.csv DYN-SOURCES.csv 2>/dev/null || true
 cd ..
 
 # Root orphans
-mv AGENTS.md 02-OPERATIONAL/registries/REF-AGENTS.md 2>/dev/null || true
+mv AGENTS.md 02-ENGINE/registries/REF-AGENTS.md 2>/dev/null || true
 ```
 
 ---
@@ -540,8 +540,8 @@ echo "=== Phase 3: Canonization ==="
 ls 01-CANON/CANON-252*.md
 ls 01-CANON/CANON-250*.md
 ls 01-CANON/CANON-304*.md
-ls 02-OPERATIONAL/protocols/
-ls 02-OPERATIONAL/registries/
+ls 02-ENGINE/protocols/
+ls 02-ENGINE/registries/
 
 echo ""
 echo "=== Phase 4: Nomenclature ==="
@@ -606,7 +606,7 @@ After this directive completes:
 - `.constellation/tokens/archive/` (directory)
 - `.constellation/phase-specs/README.md`
 - `00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md`
-- `02-OPERATIONAL/protocols/` (directory)
+- `02-ENGINE/protocols/` (directory)
 
 ### Moved (Canonized)
 - `-INBOX/constellation-teleology.md` → `01-CANON/CANON-25210-CONSTELLATION_TELEOLOGY-lattice.md`
@@ -614,16 +614,16 @@ After this directive completes:
 - `-INBOX/INTERACTION_DYNAMICS_SPECIFICATION.md` → `01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md`
 
 ### Moved (Operationalized)
-- `-INBOX/state-fingerprint-solution.md` → `02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md`
-- `-INBOX/CONFIGURATION_REGISTRY.md` → `02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md`
-- `-INBOX/memory-architecture-matrix.md` → `02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md`
-- `-INBOX/accounts.csv` → `02-OPERATIONAL/registries/DYN-ACCOUNTS.csv`
-- `-INBOX/platforms.csv` → `02-OPERATIONAL/registries/DYN-PLATFORMS.csv`
-- `-INBOX/roles.csv` → `02-OPERATIONAL/registries/DYN-ROLES.csv`
+- `-INBOX/state-fingerprint-solution.md` → `02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md`
+- `-INBOX/CONFIGURATION_REGISTRY.md` → `02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md`
+- `-INBOX/memory-architecture-matrix.md` → `02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md`
+- `-INBOX/accounts.csv` → `02-ENGINE/registries/DYN-ACCOUNTS.csv`
+- `-INBOX/platforms.csv` → `02-ENGINE/registries/DYN-PLATFORMS.csv`
+- `-INBOX/roles.csv` → `02-ENGINE/registries/DYN-ROLES.csv`
 
 ### Moved (Archived)
-- `-INBOX/constellation-architecture.jsx` → `05-ARCHIVE/ARCH-constellation-architecture-v1.jsx`
-- `-INBOX/constellation-bifurcated-architecture.jsx` → `05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx`
+- `-INBOX/constellation-architecture.jsx` → `05-MEMORY/ARCH-constellation-architecture-v1.jsx`
+- `-INBOX/constellation-bifurcated-architecture.jsx` → `05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx`
 
 ### Renamed (Nomenclature)
 - `00-ORCHESTRATION/state/burndown.csv` → `DYN-BURNDOWN.csv`
@@ -632,7 +632,7 @@ After this directive completes:
 - `04-SOURCES/creator_bios.md` → `REF-CREATOR_BIOS.md`
 - `04-SOURCES/filename_mapping.csv` → `REF-FILENAME_MAPPING.csv`
 - `04-SOURCES/sources.csv` → `DYN-SOURCES.csv`
-- `AGENTS.md` → `02-OPERATIONAL/registries/REF-AGENTS.md`
+- `AGENTS.md` → `02-ENGINE/registries/REF-AGENTS.md`
 
 ### Modified
 - `Makefile` (added log-init, log, log-view, enhanced token targets)

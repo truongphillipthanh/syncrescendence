@@ -89,11 +89,11 @@
 
 ### 03-QUEUE/modal1/ - CLEARED
 All text-based items moved to appropriate locations:
-- AI_ECOSYSTEM_SURVEY.md -> 02-OPERATIONAL/surveys/
-- YOUTUBE_PROCESSING_BACKLOG.md -> 02-OPERATIONAL/queues/
+- AI_ECOSYSTEM_SURVEY.md -> 02-ENGINE/surveys/
+- YOUTUBE_PROCESSING_BACKLOG.md -> 02-ENGINE/queues/
 - CONTENT_PROCESSING_QUEUE.md -> Merged into YOUTUBE_PROCESSING_BACKLOG.md
-- QUICK_WINS.md -> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md
-- AI_Academic_Research.md -> 02-OPERATIONAL/surveys/
+- QUICK_WINS.md -> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md
+- AI_Academic_Research.md -> 02-ENGINE/surveys/
 
 ### 03-QUEUE/modal2/ - DEFERRED
 Awaiting Modal 2 visual capabilities:
@@ -131,14 +131,14 @@ Awaiting Modal 2 visual capabilities:
 3. **PROJ-002**: Cross-IIC testing
 
 ### OPS-TAXONOMY (Oracle 13+)
-Finalize artifact taxonomy + frontmatter schema; add prompt/spec registries; add ops_lint; migrate intake prompts/specs into 02-OPERATIONAL canonical names; ensure validator allows -INBOX dropboxes; plan next step: ingestion script for ChatGPT trifurcated containers.
+Finalize artifact taxonomy + frontmatter schema; add prompt/spec registries; add ops_lint; migrate intake prompts/specs into 02-ENGINE canonical names; ensure validator allows -INBOX dropboxes; plan next step: ingestion script for ChatGPT trifurcated containers.
 
 **Completed (2026-01-18)**:
 - [x] Operations Artifact Taxonomy documented (REF-OPERATIONS_ARTIFACT_TAXONOMY.md)
 - [x] Prompt Registry created (REF-PROMPT_REGISTRY.md)
 - [x] Operations Tree map created (REF-OPERATIONS_TREE.md)
 - [x] ops_lint.sh linter created
-- [x] Intake files migrated from -INBOX to 02-OPERATIONAL with frontmatter
+- [x] Intake files migrated from -INBOX to 02-ENGINE with frontmatter
 - [x] ChatGPT container ingestion script created (ingest_chatgpt_container.py/sh)
 
 **Remaining**:

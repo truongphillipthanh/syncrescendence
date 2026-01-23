@@ -81,9 +81,9 @@ Executed parallel grep searches across `01-CANON/`:
 **2.2 Cross-Reference Verification**
 
 Verified OPERATIONAL cross-references exist:
-- `02-OPERATIONAL/functions/translate.xml` ✓
-- `02-OPERATIONAL/models/MODEL_INDEX.md` ✓
-- `02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md` ✓
+- `02-ENGINE/functions/translate.xml` ✓
+- `02-ENGINE/models/MODEL_INDEX.md` ✓
+- `02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md` ✓
 
 **2.3 Analysis**
 

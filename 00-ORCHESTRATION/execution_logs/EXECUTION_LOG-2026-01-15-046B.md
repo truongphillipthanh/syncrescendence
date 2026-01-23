@@ -85,7 +85,7 @@ $ python3 00-ORCHESTRATION/scripts/regenerate_canon.py 31150
 ### File Existence
 
 ```bash
-$ ls -la 02-OPERATIONAL/IIC-*.md
+$ ls -la 02-ENGINE/IIC-*.md
 -rw-r--r--  1 system  staff  27465 Jan  9 IIC-Acumen-config.md
 -rw-r--r--  1 system  staff  34650 Jan  9 IIC-Coherence-config.md
 -rw-r--r--  1 system  staff  33384 Jan 15 IIC-Efficacy-config.md
@@ -95,7 +95,7 @@ $ ls -la 02-OPERATIONAL/IIC-*.md
 ```
 
 ```bash
-$ ls -la 02-OPERATIONAL/PROTOCOL-*.md
+$ ls -la 02-ENGINE/PROTOCOL-*.md
 -rw-r--r--  1 system  staff  38318 Jan 15 PROTOCOL-ChatGPT-Onboarding.md
 -rw-r--r--  1 system  staff  37297 Jan 15 PROTOCOL-Gemini-Onboarding.md
 ```
@@ -117,13 +117,13 @@ $ ls -la 01-CANON/CANON-31150*.md
 ### Line Counts
 
 ```bash
-$ wc -l 02-OPERATIONAL/IIC-*.md
-     535 02-OPERATIONAL/IIC-Acumen-config.md
-     675 02-OPERATIONAL/IIC-Coherence-config.md
-     650 02-OPERATIONAL/IIC-Efficacy-config.md
-     880 02-OPERATIONAL/IIC-Mastery-config.md
-     839 02-OPERATIONAL/IIC-Transcendence-config.md
-     589 02-OPERATIONAL/IIC-shared-protocols.md
+$ wc -l 02-ENGINE/IIC-*.md
+     535 02-ENGINE/IIC-Acumen-config.md
+     675 02-ENGINE/IIC-Coherence-config.md
+     650 02-ENGINE/IIC-Efficacy-config.md
+     880 02-ENGINE/IIC-Mastery-config.md
+     839 02-ENGINE/IIC-Transcendence-config.md
+     589 02-ENGINE/IIC-shared-protocols.md
     4168 total
 ```
 
@@ -139,11 +139,11 @@ commit a9f31e0
  create mode 100755 00-ORCHESTRATION/scripts/regenerate_canon.py
  create mode 100644 00-ORCHESTRATION/templates/CANON-31150.md.j2
  create mode 100644 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
- create mode 100644 02-OPERATIONAL/IIC-Efficacy-config.md
- create mode 100644 02-OPERATIONAL/IIC-Mastery-config.md
- create mode 100644 02-OPERATIONAL/IIC-Transcendence-config.md
- create mode 100644 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md
- create mode 100644 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md
+ create mode 100644 02-ENGINE/IIC-Efficacy-config.md
+ create mode 100644 02-ENGINE/IIC-Mastery-config.md
+ create mode 100644 02-ENGINE/IIC-Transcendence-config.md
+ create mode 100644 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md
+ create mode 100644 02-ENGINE/PROTOCOL-Gemini-Onboarding.md
 ```
 
 ---

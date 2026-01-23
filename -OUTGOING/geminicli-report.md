@@ -8,7 +8,7 @@
    2. `drift_map.md`: Quantifies specific drift items:
        * 49 legacy outgoing/ or OUTGOING/ textual references.
        * 25 stale config/coordination references (file moved to
-         02-OPERATIONAL).
+         02-ENGINE).
        * ~12 legacy ===AUDIZABLE=== markers.
        * 0 __MACOSX artifacts (clean).
    3. `duplication_clusters.md`: Identifies redundancy in lens

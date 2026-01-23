@@ -6,7 +6,7 @@
   C1: Drift Cleanup
 
   - 6 surgical fixes applied to live operational docs
-  - Fixed config/coordination.yaml → 02-OPERATIONAL/coordination.yaml
+  - Fixed config/coordination.yaml → 02-ENGINE/coordination.yaml
   in 3 files
   - Fixed OUTGOING/ → -OUTGOING/ in 3 files
   - Preserved stratigraphy: 110+ meta-documentation/historical
@@ -37,7 +37,7 @@
 
   ✓ No OUTGOING/ at root
   ✓ -OUTGOING/ exists
-  ✓ coordination.yaml in correct location (02-OPERATIONAL/)
+  ✓ coordination.yaml in correct location (02-ENGINE/)
   ✓ No config/ at root
   ✓ Structural verify: 0 errors, 3 warnings (all
   meta-docs/stratigraphy)

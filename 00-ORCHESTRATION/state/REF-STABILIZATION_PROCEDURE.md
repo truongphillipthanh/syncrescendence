@@ -280,7 +280,7 @@ Or simply run:
 |-------|----------|
 | Legacy `OUTGOING/` or `outgoing/` | Migrate to `-OUTGOING/`: `git mv OUTGOING -OUTGOING` |
 | Missing `-INBOX/` | Create: `mkdir -p -INBOX` |
-| config/ references after defrag | Update to `02-OPERATIONAL/coordination.yaml` |
+| config/ references after defrag | Update to `02-ENGINE/coordination.yaml` |
 | Orphan files at root | Move to appropriate zone per CLAUDE.md |
 | Broken COCKPIT paths | Update paths after any structural change |
 

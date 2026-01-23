@@ -372,7 +372,7 @@ wc -l IIC-*-config.md
 
 ### 2.1 Create ChatGPT Onboarding Protocol
 
-Create `02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md`:
+Create `02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md`:
 
 ```markdown
 # ChatGPT Platform Onboarding Protocol
@@ -473,7 +473,7 @@ From Deep Research findings:
 
 ### 2.2 Create Gemini Onboarding Protocol
 
-Create `02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md`:
+Create `02-ENGINE/PROTOCOL-Gemini-Onboarding.md`:
 
 ```markdown
 # Gemini Platform Onboarding Protocol
@@ -875,8 +875,8 @@ git add IIC-Mastery-config.md
 git add IIC-Transcendence-config.md
 
 # Stage protocols
-git add 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md
-git add 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md
+git add 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md
+git add 02-ENGINE/PROTOCOL-Gemini-Onboarding.md
 
 # Stage metabolic proof
 git add 00-ORCHESTRATION/templates/

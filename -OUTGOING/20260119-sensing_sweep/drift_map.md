@@ -1,7 +1,7 @@
 # Drift Mapping: Legacy & Stale References
 ## Path Casing Drift
 - **Issue**: References to `outgoing/` (lowercase) vs `-OUTGOING/` (uppercase/prefixed).
-- **Count**: ~49 instances identified in previous survey; validation suggests these persist in `02-OPERATIONAL` scripts.
+- **Count**: ~49 instances identified in previous survey; validation suggests these persist in `02-ENGINE` scripts.
 
 ## Configuration Drift
 - **Issue**: Stale `config/coordination` references.

@@ -119,7 +119,7 @@
 
 #### Script 4: `segregate_artifacts.sh` (30 minutes)
 - Moves non-source files out of `SOURCES/raw/`
-- `DEEP_RESEARCH_PROMPT-*.md` → `02-OPERATIONAL/prompts/research/`
+- `DEEP_RESEARCH_PROMPT-*.md` → `02-ENGINE/prompts/research/`
 - **Savings**: 5,675 tokens/year
 
 #### Script 5: `fix_extension_typo.sh` (1 minute)
@@ -243,7 +243,7 @@
    - **Fix**: Script 4 (30 minutes)
 
 5. **FLAT PRINCIPLE Violations** (MEDIUM)
-   - 02-OPERATIONAL/ uses 12 subdirectories
+   - 02-ENGINE/ uses 12 subdirectories
    - Likely intentional but undocumented
    - **Fix**: Document as sanctioned exception
 

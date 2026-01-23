@@ -98,10 +98,10 @@ syncrescendence/
 |   +-- scripts/             # 6 files
 |   +-- state/               # 15+ files (ledgers + references)
 +-- 01-CANON/                # 77 files
-+-- 02-OPERATIONAL/          # 20+ XMLs, prompts, profiles
++-- 02-ENGINE/          # 20+ XMLs, prompts, profiles
 +-- 03-QUEUE/                # Pending items
 +-- 04-SOURCES/              # 184 raw, 46 processed
-+-- 05-ARCHIVE/              # 30+ preserved files
++-- 05-MEMORY/              # 30+ preserved files
 +-- 06-EXEMPLA/              # 3 templates
 +-- config/                  # 3 files (MCP, coordination)
 +-- CLAUDE.md                # Constitutional rules

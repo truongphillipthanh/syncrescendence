@@ -28,7 +28,7 @@ Stream A addresses foundational hygiene, ground truth restoration, and operation
 
 ### 1.1 Problem Statement
 
-The repository's `02-OPERATIONAL/prompts/unified/[Model]-unified-prompt.md` files are **NOT** the authoritative system prompts. Analysis confirms:
+The repository's `02-ENGINE/prompts/unified/[Model]-unified-prompt.md` files are **NOT** the authoritative system prompts. Analysis confirms:
 
 | File | Repository Version | Authoritative Version |
 |------|-------------------|----------------------|
@@ -43,11 +43,11 @@ The synthesis files contain the correctly structured XML prompts with `<system_p
 
 ```bash
 # Navigate to prompts directory
-cd 02-OPERATIONAL/prompts/unified/
+cd 02-ENGINE/prompts/unified/
 
 # Backup current (incorrect) files
-mkdir -p ../../../05-ARCHIVE/prompt-backup-043A/
-cp *-unified-prompt.md ../../../05-ARCHIVE/prompt-backup-043A/
+mkdir -p ../../../05-MEMORY/prompt-backup-043A/
+cp *-unified-prompt.md ../../../05-MEMORY/prompt-backup-043A/
 
 # Copy synthesis files (from outputs or Principal drop)
 # Principal will provide these files at root level
@@ -57,7 +57,7 @@ cp /path/to/synthesis-gemini.md Gemini-unified-prompt.md
 cp /path/to/synthesis-grok.md Grok-unified-prompt.md
 
 # Archive justification files (valuable documentation)
-cp /path/to/justification-*.md ../../../05-ARCHIVE/
+cp /path/to/justification-*.md ../../../05-MEMORY/
 
 # Verify file sizes match expected
 wc -c *-unified-prompt.md
@@ -83,7 +83,7 @@ Resolves DIRECTIVE-043A Phase 1."
 - [ ] Claude-unified-prompt.md contains `<cognitive_profile>` section
 - [ ] Gemini-unified-prompt.md is properly formatted
 - [ ] Grok-unified-prompt.md is properly formatted
-- [ ] All four justification-*.md files in 05-ARCHIVE/
+- [ ] All four justification-*.md files in 05-MEMORY/
 - [ ] Backup of previous versions preserved
 
 ### 1.4 Task Tracking
@@ -214,10 +214,10 @@ Per QUEUE_DISPOSITION.md, execution checklist incomplete:
 ```
 03-QUEUE/
 ├── modal1/
-│   ├── AI_ECOSYSTEM_SURVEY.md        → Move to 02-OPERATIONAL/surveys/
+│   ├── AI_ECOSYSTEM_SURVEY.md        → Move to 02-ENGINE/surveys/
 │   ├── CONTENT_PROCESSING_QUEUE.md   → Merge into YOUTUBE_PROCESSING_BACKLOG
 │   ├── QUICK_WINS.md                 → Archive
-│   └── YOUTUBE_PROCESSING_BACKLOG.md → Move to 02-OPERATIONAL/queues/
+│   └── YOUTUBE_PROCESSING_BACKLOG.md → Move to 02-ENGINE/queues/
 ├── modal2/
 │   └── [6 files - intentional deferral, DO NOT MOVE]
 └── QUEUE_DISPOSITION.md              → Keep for reference
@@ -227,19 +227,19 @@ Per QUEUE_DISPOSITION.md, execution checklist incomplete:
 
 ```bash
 # Create target directories (FLAT PRINCIPLE - no subdirectories within these)
-mkdir -p 02-OPERATIONAL/surveys
-mkdir -p 02-OPERATIONAL/queues
+mkdir -p 02-ENGINE/surveys
+mkdir -p 02-ENGINE/queues
 
 # Move operational documents
-mv 03-QUEUE/modal1/AI_ECOSYSTEM_SURVEY.md 02-OPERATIONAL/surveys/
-mv 03-QUEUE/modal1/YOUTUBE_PROCESSING_BACKLOG.md 02-OPERATIONAL/queues/
+mv 03-QUEUE/modal1/AI_ECOSYSTEM_SURVEY.md 02-ENGINE/surveys/
+mv 03-QUEUE/modal1/YOUTUBE_PROCESSING_BACKLOG.md 02-ENGINE/queues/
 
 # Merge CONTENT_PROCESSING_QUEUE into YOUTUBE_PROCESSING_BACKLOG
 # Append non-YouTube content section
-cat 03-QUEUE/modal1/CONTENT_PROCESSING_QUEUE.md >> 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md
+cat 03-QUEUE/modal1/CONTENT_PROCESSING_QUEUE.md >> 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md
 
 # Archive QUICK_WINS
-mv 03-QUEUE/modal1/QUICK_WINS.md 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md
+mv 03-QUEUE/modal1/QUICK_WINS.md 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md
 
 # Delete processed files from modal1
 rm 03-QUEUE/modal1/CONTENT_PROCESSING_QUEUE.md
@@ -267,11 +267,11 @@ Resolves DIRECTIVE-043A Phase 3."
 
 ### 3.3 Verification Checklist
 
-- [ ] 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md exists
-- [ ] 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md exists
+- [ ] 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md exists
+- [ ] 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md exists
 - [ ] 03-QUEUE/modal1/ is empty (or only .gitkeep)
 - [ ] 03-QUEUE/modal2/ has 6-7 files (unchanged)
-- [ ] 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md exists
+- [ ] 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md exists
 
 ---
 
@@ -531,10 +531,10 @@ Stream A complete. No blocking dependencies for Stream B (IIC Configuration).
 make verify
 
 # Specific checks
-ls 02-OPERATIONAL/prompts/unified/
-wc -c 02-OPERATIONAL/prompts/unified/*-unified-prompt.md
-ls 02-OPERATIONAL/surveys/
-ls 02-OPERATIONAL/queues/
+ls 02-ENGINE/prompts/unified/
+wc -c 02-ENGINE/prompts/unified/*-unified-prompt.md
+ls 02-ENGINE/surveys/
+ls 02-ENGINE/queues/
 ls 03-QUEUE/modal1/
 cat 00-ORCHESTRATION/state/REF-METHODOLOGY.md | head -20
 grep "PROJ-016" 00-ORCHESTRATION/state/projects.csv

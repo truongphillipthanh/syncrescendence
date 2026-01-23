@@ -74,7 +74,7 @@ Add these folders in Hazel:
 - **Conditions**:
   - Date Last Modified is not in the last 30 days
   - Name matches "EXECUTION_LOG-*"
-- **Actions**: Move to `~/Desktop/syncrescendence/05-ARCHIVE/execution-logs/`
+- **Actions**: Move to `~/Desktop/syncrescendence/05-MEMORY/execution-logs/`
 
 ---
 
@@ -119,7 +119,7 @@ After setup, test each rule:
 ### Test 3: Archiving
 1. Check existing execution logs
 2. Manually trigger archive rule (right-click in Hazel)
-3. Verify logs move to `05-ARCHIVE/execution-logs/`
+3. Verify logs move to `05-MEMORY/execution-logs/`
 
 ---
 

@@ -354,7 +354,7 @@ EXEMPLA/     ← NEW: Demonstrations (examples, case studies)
 
 oracle_contexts/     # 9 files - should be 2
 
-05-ARCHIVE/scaffolding/    # VIOLATES FLAT
+05-MEMORY/scaffolding/    # VIOLATES FLAT
 06-EXEMPLA/case-studies/   # VIOLATES FLAT
 06-EXEMPLA/worked-examples/ # VIOLATES FLAT
 ```
@@ -436,10 +436,10 @@ NOT: Create subdirectory hierarchy and move files into it.
 ```
 00-ORCHESTRATION/  (with flat violations in state/)
 01-CANON/          (78 documents, corpus complete)
-02-OPERATIONAL/    (living documents)
+02-ENGINE/    (living documents)
 03-QUEUE/          (pending items, 2-cycle metabolism)
 04-SOURCES/        (raw: 176, processed: 8, integrated: 4)
-05-ARCHIVE/        (scaffolding/ violates flat)
+05-MEMORY/        (scaffolding/ violates flat)
 06-EXEMPLA/        (case-studies/, worked-examples/ violate flat)
 ```
 
@@ -447,7 +447,7 @@ NOT: Create subdirectory hierarchy and move files into it.
 
 1. **00-ORCHESTRATION/state/**: 4 subdirectories → flatten with prefixes
 2. **00-ORCHESTRATION/oracle_contexts/**: 9 files → distill to 2
-3. **05-ARCHIVE/scaffolding/**: nested → flatten
+3. **05-MEMORY/scaffolding/**: nested → flatten
 4. **06-EXEMPLA/**: 2 subdirectories → flatten with prefixes
 
 ### PROJ-001 Mission Status

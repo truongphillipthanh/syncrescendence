@@ -20,7 +20,7 @@ The system state is explicitly partitioned into Mutable, Immutable, Derived, and
 
 ### Immutable State (The "Cold" Store)
 *   **Canon:** `01-CANON/*.md` (Constitutional artifacts, versioned via Git)
-*   **Archive:** `05-ARCHIVE/` (Superseded state, 30-day implicit TTL)
+*   **Archive:** `05-MEMORY/` (Superseded state, 30-day implicit TTL)
 *   **Wisdom Layer:** `06-EXEMPLA/` (Aphorisms, Proverbs - effective constants once written)
 *   **Source Truth:** `.git/` (The only true persistent store)
 

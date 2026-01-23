@@ -37,8 +37,8 @@ Analyze the entire corpus and produce a structured report identifying:
 1. **Semantic Clusters** — Groups of documents that address the same concept but may be fragmented, duplicated, or inconsistently named
 2. **Strays & Orphans** — Documents that don't fit the taxonomy or reference nothing and are referenced by nothing
 3. **Scaffold Residue** — Working documents that served their purpose and should archive (look for prefixes: SCAFF-, WIP-, DRAFT-, TODO-)
-4. **Canonization Candidates** — Documents in -INBOX/, -OUTGOING/, or other staging areas that are mature enough for 01-CANON/ or 02-OPERATIONAL/
-5. **Hidden Intentions** — Documents in 05-ARCHIVE/ or elsewhere that contain unexecuted plans, decisions, or insights worth surfacing
+4. **Canonization Candidates** — Documents in -INBOX/, -OUTGOING/, or other staging areas that are mature enough for 01-CANON/ or 02-ENGINE/
+5. **Hidden Intentions** — Documents in 05-MEMORY/ or elsewhere that contain unexecuted plans, decisions, or insights worth surfacing
 6. **Nomenclature Drift** — Inconsistent naming patterns that violate the established conventions (ARCH-, CANON-, REF-, DYN-, etc.)
 7. **Duplication Clusters** — Near-identical content across multiple files (semantic duplicates, not just filename matches)
 8. **Token Economics** — Documents that exceed reasonable context-load size (>50KB) and should be split or compressed
@@ -48,10 +48,10 @@ Analyze the entire corpus and produce a structured report identifying:
 ```
 00-ORCHESTRATION/  — Coordination infrastructure (directives, state, logs, scripts)
 01-CANON/          — Constitutional documents (stable, high-value)
-02-OPERATIONAL/    — Active working documents (prompts, functions, specs)
+02-ENGINE/    — Active working documents (prompts, functions, specs)
 03-QUEUE/          — Processing queue (staged for work)
 04-SOURCES/        — Source material (raw/, processed/)
-05-ARCHIVE/        — Historical/superseded documents (prefix: ARCH-)
+05-MEMORY/        — Historical/superseded documents (prefix: ARCH-)
 06-EXEMPLA/        — Templates and examples
 -INBOX/            — Unsorted incoming (needs triage)
 -OUTGOING/         — Execution outputs (timestamped batches)
@@ -101,7 +101,7 @@ Total Size: [KB]
 
 | File | Location | Evidence | Action |
 |------|----------|----------|--------|
-| [name] | [path] | [why it's scaffold] | ARCHIVE → 05-ARCHIVE/ARCH-[name] |
+| [name] | [path] | [why it's scaffold] | ARCHIVE → 05-MEMORY/ARCH-[name] |
 
 ## 4. Canonization Candidates
 
@@ -113,7 +113,7 @@ Total Size: [KB]
 
 | File | Location | Intention Found | Status |
 |------|----------|-----------------|--------|
-| [name] | 05-ARCHIVE/ | [what was planned] | [still relevant? / superseded?] |
+| [name] | 05-MEMORY/ | [what was planned] | [still relevant? / superseded?] |
 
 ## 6. Nomenclature Violations
 

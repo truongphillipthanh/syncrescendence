@@ -130,7 +130,7 @@ When a web app conversation produces value that should persist:
 - Is it a directive? → `DIRECTIVE-XXX.md`
 - Is it an execution log? → `EXECUTION_LOG-YYYY-MM-DD-XXX.md`
 - Is it a CANON update? → Specific CANON file
-- Is it operational knowledge? → `02-OPERATIONAL/` document
+- Is it operational knowledge? → `02-ENGINE/` document
 - Is it architectural insight? → `ARCH-*.md`
 
 **Step 2**: Export the relevant portions
@@ -683,7 +683,7 @@ This conversation itself should graduate. The artifacts:
 1. **ORACLE13_CONTEXT.md** → `/00-ORCHESTRATION/oracle_contexts/`
 2. **DIRECTIVE-046A.md** → `/00-ORCHESTRATION/directives/`
 3. **DIRECTIVE-046B.md** → `/00-ORCHESTRATION/directives/`
-4. **This document** (INTERACTION_PARADIGM.md) → `/02-OPERATIONAL/`
+4. **This document** (INTERACTION_PARADIGM.md) → `/02-ENGINE/`
 
 The conversation's value has been extracted into persistent artifacts. The conversation itself can now be released without loss.
 

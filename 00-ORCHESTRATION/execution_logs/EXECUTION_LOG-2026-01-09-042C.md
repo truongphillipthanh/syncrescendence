@@ -21,9 +21,9 @@ Execute queue disposition per documented rules, create PROJ-016 (Skills Conversi
 
 **Current State Found**:
 - `03-QUEUE/modal1/` - EMPTY (already cleared)
-- `02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md` - Already moved
-- `02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md` - Already moved
-- `05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md` - Already archived
+- `02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md` - Already moved
+- `02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md` - Already moved
+- `05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md` - Already archived
 - `03-QUEUE/modal2/` - 6 visual files remaining (correct - deferred to Modal 2)
 
 **Conclusion**: Prior operation (TASK-056) had already executed most queue disposition.
@@ -38,10 +38,10 @@ Per directive, this text-based file should not remain in modal2/ (visual queue).
 
 **Executed**:
 ```bash
-mv 03-QUEUE/modal2/AI_Academic_Research.md 02-OPERATIONAL/surveys/
+mv 03-QUEUE/modal2/AI_Academic_Research.md 02-ENGINE/surveys/
 ```
 
-**Result**: AI_Academic_Research.md now in 02-OPERATIONAL/surveys/ alongside AI_ECOSYSTEM_SURVEY.md
+**Result**: AI_Academic_Research.md now in 02-ENGINE/surveys/ alongside AI_ECOSYSTEM_SURVEY.md
 
 ---
 
@@ -123,12 +123,12 @@ PROJ-016,Skills Conversion,initiative,not_started,P3,Oracle12+,null,12+,modal1,n
 ### 03-QUEUE/pending/
 **Status**: EMPTY
 
-### 02-OPERATIONAL/surveys/
+### 02-ENGINE/surveys/
 **Status**: 2 files
 - AI_ECOSYSTEM_SURVEY.md
 - AI_Academic_Research.md (newly moved)
 
-### 02-OPERATIONAL/queues/
+### 02-ENGINE/queues/
 **Status**: 1 file
 - YOUTUBE_PROCESSING_BACKLOG.md
 
@@ -140,8 +140,8 @@ PROJ-016,Skills Conversion,initiative,not_started,P3,Oracle12+,null,12+,modal1,n
 # Queue state
 ls 03-QUEUE/modal1/  # Empty
 ls 03-QUEUE/modal2/  # 6 files (visual)
-ls 02-OPERATIONAL/surveys/  # 2 files (text)
-ls 02-OPERATIONAL/queues/  # 1 file (workflow)
+ls 02-ENGINE/surveys/  # 2 files (text)
+ls 02-ENGINE/queues/  # 1 file (workflow)
 
 # Ledgers
 wc -l 00-ORCHESTRATION/state/tasks.csv  # 80 lines

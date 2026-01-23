@@ -423,7 +423,7 @@ Global Scope (00-ORCHESTRATION/state/)
   ├─ ARCH-* → Global history (append-only)
   ├─ DYN-* → Global mutable state (ledgers, trees)
   │
-Directory Scope (01-CANON/, 02-OPERATIONAL/, ...)
+Directory Scope (01-CANON/, 02-ENGINE/, ...)
   ├─ CANON-* → Local to CANON namespace (cross-references within)
   ├─ FUNCTION-* → Local to OPERATIONAL namespace
   │

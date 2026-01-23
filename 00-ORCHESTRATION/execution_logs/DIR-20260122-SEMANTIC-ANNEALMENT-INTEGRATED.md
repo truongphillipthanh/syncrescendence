@@ -21,7 +21,7 @@ wisdom layer bootstrap, and infrastructure completion.
 | Token system enhancement | ✅ | sync-checkpoint target added to Makefile |
 | Directory teleology (03-06) | ✅ | All READMEs updated with new purposes |
 | Wisdom layer (06-EXEMPLA) | ✅ | APHORISMS, PROVERBS, tales, learnings created |
-| Avatar directory | ✅ | 02-OPERATIONAL/avatars/ with first avatar |
+| Avatar directory | ✅ | 02-ENGINE/avatars/ with first avatar |
 | Nomenclature fixes | ✅ | Already complete from prior directive |
 | -INBOX triage | ✅ | All Chorus artifacts processed |
 | Corpus index | ✅ | DYN-CORPUS_INDEX.md created |
@@ -35,7 +35,7 @@ wisdom layer bootstrap, and infrastructure completion.
 | Wisdom layer populated | PASS | APHORISMS.md, PROVERBS.md, 1 tale, 1 lesson |
 | Avatar system ready | PASS | IDEATE-ChatGPT-Acc1.md created |
 | -INBOX empty | PASS | All items triaged |
-| Chorus session archived | PASS | 05-ARCHIVE/chorus-session-20260122/ with 9 files |
+| Chorus session archived | PASS | 05-MEMORY/chorus-session-20260122/ with 9 files |
 
 ## Artifacts Created
 
@@ -48,17 +48,17 @@ wisdom layer bootstrap, and infrastructure completion.
 - `templates/TEMPLATE-DIRECTIVE.md` — Enhanced template
 - `templates/TEMPLATE-AVATAR.md` — New template
 
-### 02-OPERATIONAL (Avatars)
+### 02-ENGINE (Avatars)
 - `avatars/README.md` — Avatar system documentation
 - `avatars/IDEATE-ChatGPT-Acc1.md` — First avatar self-documentation
 
 ### Directory READMEs
 - `03-QUEUE/README.md` — SYNTHESIS INBOX
 - `04-SOURCES/README.md` — CURATED REFERENCES
-- `05-ARCHIVE/README.md` — SHORT-TERM MEMORY
+- `05-MEMORY/README.md` — SHORT-TERM MEMORY
 - `06-EXEMPLA/README.md` — WISDOM LAYER
 
-### 05-ARCHIVE (Chorus Session)
+### 05-MEMORY (Chorus Session)
 - `chorus-session-20260122/` — Complete session archive with 9 files
 
 ### Infrastructure
@@ -76,6 +76,6 @@ From this execution:
 ## Continuation Vector
 
 1. **External Second Brain Setup** — Google ecosystem integration
-2. **Claim Atom Schema** — Define schema in 02-OPERATIONAL/schemas/
+2. **Claim Atom Schema** — Define schema in 02-ENGINE/schemas/
 3. **Avatar Self-Documentation** — Other avatars document after demonstrated competency
 4. **Token Economics Pass** — Address 100KB+ CANON files

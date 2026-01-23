@@ -105,7 +105,7 @@ rules:
         pattern: "EXECUTION_LOG-*"
     actions:
       - type: move
-        destination: ~/Desktop/syncrescendence/05-ARCHIVE/execution-logs/
+        destination: ~/Desktop/syncrescendence/05-MEMORY/execution-logs/
       - type: notification
         message: "Execution log archived"
     enabled: true
@@ -121,7 +121,7 @@ rules:
         pattern: "DIRECTIVE-0[0-3]*"  # Directives 000-039
     actions:
       - type: move
-        destination: ~/Desktop/syncrescendence/05-ARCHIVE/directives/
+        destination: ~/Desktop/syncrescendence/05-MEMORY/directives/
       - type: add_tags
         tags: [archived, historical]
     enabled: false  # Disabled by default - enable after review

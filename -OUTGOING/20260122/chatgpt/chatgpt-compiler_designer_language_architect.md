@@ -2569,7 +2569,7 @@ example.	106
 Turing	106
 wave	106
 other.	106
-05-ARCHIVE/	105
+05-MEMORY/	105
 state/	105
 Recommendation	105
 latest	105
@@ -3396,7 +3396,7 @@ bad.	77
 amazing.	77
 AMD	77
 Clean	76
-02-OPERATIONAL/	76
+02-ENGINE/	76
 executive	76
 Antifragile	76
 Lean	76
@@ -5566,7 +5566,7 @@ gate	42
 description:	42
 zones	42
 Atomic	42
-05-ARCHIVE	42
+05-MEMORY	42
 holds	42
 MEMORY	42
 engagement.	42
@@ -6441,7 +6441,7 @@ Values	35
 Developer	35
 Onboarding	35
 cleanly	35
-02-OPERATIONAL	35
+02-ENGINE	35
 Books	35
 slides	35
 Relevant	35
@@ -9010,7 +9010,7 @@ forecasting	24
 filler	24
 Event	24
 lifecycle	24
-02-OPERATIONAL/coordination.yaml	24
+02-ENGINE/coordination.yaml	24
 handled	24
 Auditor	24
 cumulative	24
@@ -10707,7 +10707,7 @@ lattice/	19
 Catalog	19
 ARCH-TECH_TREE_AUDIT.md	19
 activated	19
-02-OPERATIONAL/surveys/	19
+02-ENGINE/surveys/	19
 state:	19
 DIRECTIVE-042A	19
 IDs	19
@@ -11148,7 +11148,7 @@ honors	18
 frontier_models.md	18
 Crystallization	18
 Prior	18
-02-OPERATIONAL/prompts/unified/	18
+02-ENGINE/prompts/unified/	18
 Locate	18
 system_prompts/	18
 EXPERTISE	18
@@ -12141,7 +12141,7 @@ lacking	16
 5-7	16
 violate	16
 second-order	16
-02-OPERATIONAL/scripts/ops_lint.sh	16
+02-ENGINE/scripts/ops_lint.sh	16
 None.	16
 migrated	16
 retained	16
@@ -13228,7 +13228,7 @@ CANON-99000-HISTORICAL-meta.md	14
 38	14
 backups	14
 EXPECTED	14
-02-OPERATIONAL/queues/	14
+02-ENGINE/queues/	14
 RECOVERED	14
 Weight	14
 CANON.	14
@@ -14674,7 +14674,7 @@ Designed	12
 features:	12
 discernment	12
 Aggregation	12
-02-OPERATIONAL/memory/acumen-memory-config.md	12
+02-ENGINE/memory/acumen-memory-config.md	12
 transcribed	12
 use:	12
 Zones	12
@@ -14758,7 +14758,7 @@ busywork	12
 abandoned	12
 anti-pattern	12
 Categorical	12
-02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md	12
+02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md	12
 dropbox	12
 sustains	12
 crystallizes	12
@@ -14854,7 +14854,7 @@ Real-world	12
 on-demand	12
 High-level	12
 cli	12
-02-OPERATIONAL/prompts/	12
+02-ENGINE/prompts/	12
 claude/CLAUDE.md	12
 Keyboard	12
 Virtues:	12
@@ -15708,7 +15708,7 @@ Geopolitical	11
 metahuman	11
 formally	11
 reconstructed	11
-05-ARCHIVE/scaffolding/	11
+05-MEMORY/scaffolding/	11
 Much	11
 Becomes	11
 requires:	11
@@ -15736,7 +15736,7 @@ Retention	11
 cached	11
 Exchange	11
 LEGACY_OUTGOING	11
-02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md	11
+02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md	11
 reinforce	11
 scalability	11
 Reader	11
@@ -16608,7 +16608,7 @@ Reviewed	10
 Normalization	10
 INBOX/COCKPIT.md	10
 git/	10
-02-OPERATIONAL/registries/	10
+02-ENGINE/registries/	10
 YES/NO	10
 ghcr.io/github/github-mcp-server	10
 gamma	10
@@ -17805,10 +17805,10 @@ boundary.	9
 Inherited	9
 spec.	9
 01-CANON/CANON-25010-MEMORY_TELEOLOGY-lattice.md	9
-02-OPERATIONAL/prompts/canonical/	9
+02-ENGINE/prompts/canonical/	9
 registries	9
 DYN-TASKS.csv	9
-02-OPERATIONAL/registries/REF-AGENTS.md	9
+02-ENGINE/registries/REF-AGENTS.md	9
 corpus-survey.sh	9
 CANON-25010	9
 CONTINUATION	9
@@ -17831,7 +17831,7 @@ Scripts	9
 mcp.json.template	9
 Forget	9
 Finalize	9
-05-ARCHIVE/README.md	9
+05-MEMORY/README.md	9
 06-EXEMPLA/README.md	9
 Aphorisms	9
 version-controlled	9
@@ -17846,7 +17846,7 @@ Passes	9
 problems:	9
 registries/	9
 Shorthand	9
-05-ARCHIVE/chorus-session-20260122/	9
+05-MEMORY/chorus-session-20260122/	9
 043	9
 IIC:	9
 acumen.truongphillipthanh	9
@@ -17959,7 +17959,7 @@ audit.	9
 CANON-14	9
 CANON-21000-CHAIN_MATRIX-lattice.md	9
 CANON-00000:	9
-05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md	9
+05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md	9
 00-ORCHESTRATION/state/REF-METHODOLOGY.md	9
 pairing	9
 DIRECTIVE-030	9
@@ -19252,7 +19252,7 @@ Self-contained	8
 Auto-generated	8
 CONST-TEL	8
 Ranges	8
-02-OPERATIONAL/avatars/	8
+02-ENGINE/avatars/	8
 2500	8
 acumen-memory-config.md	8
 virtues:	8
@@ -19333,7 +19333,7 @@ DIRECTIVE-041B.md	8
 YES:	8
 RESEARCH-	8
 NO:	8
-05-ARCHIVE/RESEARCH-	8
+05-MEMORY/RESEARCH-	8
 TASK-049	8
 89	8
 237	8
@@ -19414,7 +19414,7 @@ Snapshot	8
 01_context/context.md	8
 02_pedigree/pedigree.md	8
 empty.	8
-02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md	8
+02-ENGINE/BLITZKRIEG_PROTOCOL.md	8
 inferences	8
 STANDARDS:	8
 ignores	8
@@ -20997,7 +20997,7 @@ CANON-00006-CORPUS-cosmos.md	7
 restructured	7
 mode:	7
 00-06.	7
-02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md	7
+02-ENGINE/prompts/unified/Claude-unified-prompt.md	7
 Configs	7
 meta-level	7
 delegated	7
@@ -21089,7 +21089,7 @@ script:	7
 CANON-00007:	7
 25KB	7
 disk	7
-02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md	7
+02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md	7
 REF-METHODOLOGY.md	7
 REF-METHODOLOGY	7
 Adopted	7
@@ -21122,8 +21122,8 @@ I_APPROVE_DEFRAG_APPLY	7
 undo	7
 VIOLATION:	7
 CONT-YYYYMMDD-NNN	7
-02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md	7
-02-OPERATIONAL/specs/	7
+02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md	7
+02-ENGINE/specs/	7
 nest	7
 tightens	7
 examines	7
@@ -21191,7 +21191,7 @@ DEEP_RESEARCH_PROMPT-Google_Ecosystem.md	7
 DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md	7
 SOURCES_ANALYSIS_REPORT.md	7
 Stopped	7
-02-OPERATIONAL/models/MODEL_INDEX.md	7
+02-ENGINE/models/MODEL_INDEX.md	7
 rent	7
 reversibility.	7
 corpora	7
@@ -23113,7 +23113,7 @@ Desktop/syncrescendence	6
 Chosen	6
 POSTAMBLE	6
 INBOX/memory-architecture-matrix.md	6
-02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md	6
+02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md	6
 INBOX/constellation-bifurcated-architecture.jsx	6
 INBOX/accounts.csv	6
 INBOX/platforms.csv	6
@@ -23244,9 +23244,9 @@ CANON-00010-OPERATIONS-cosmos.md	6
 duplicating	6
 req/min	6
 CLAUDE.md:	6
-02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md	6
-02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md	6
-02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md	6
+02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md	6
+02-ENGINE/prompts/unified/Gemini-unified-prompt.md	6
+02-ENGINE/prompts/unified/Grok-unified-prompt.md	6
 Remembers	6
 Forgets	6
 trajectory:	6
@@ -23343,7 +23343,7 @@ unified.	6
 monthly_cost:	6
 Enforce	6
 NEWNAME	6
-05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md	6
+05-MEMORY/RESEARCH-20260108-claude_code_optimization.md	6
 CANON-00008-RESOLUTIONS	6
 969	6
 committed.	6
@@ -23381,7 +23381,7 @@ CANON-13	6
 CANON-09	6
 2.5KB	6
 3.5KB	6
-02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md	6
+02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md	6
 VERSIONING	6
 CULMINATION	6
 Granularity	6
@@ -23412,7 +23412,7 @@ session_context	6
 pending_tasks	6
 typo	6
 INBOX/blitzkrieg_drop/context.md	6
-02-OPERATIONAL/prompts/chatgpt/	6
+02-ENGINE/prompts/chatgpt/	6
 outward	6
 self-reinforcing	6
 denotation	6
@@ -25420,8 +25420,8 @@ Interface:	6
 Workers	6
 00-ORCHESTRATION/directives/DIRECTIVE-043A.md	6
 00-ORCHESTRATION/directives/DIRECTIVE-043B.md	6
-05-ARCHIVE/ARCH-frontier_models.md	6
-05-ARCHIVE/ARCH-deviser1_continuity.md	6
+05-MEMORY/ARCH-frontier_models.md	6
+05-MEMORY/ARCH-deviser1_continuity.md	6
 oracle_process_archaelogy.md	6
 oracle_verification_manifest.md	6
 APPROVAL_FILE	6
@@ -25817,9 +25817,9 @@ HO-YYYYMMDD-HHMMSS-	5
 HO-ID	5
 INBOX/state-fingerprint-solution.md	5
 INBOX/CONFIGURATION_REGISTRY.md	5
-02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md	5
+02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md	5
 INBOX/constellation-architecture.jsx	5
-05-ARCHIVE/ARCH-constellation-architecture-v1.jsx	5
+05-MEMORY/ARCH-constellation-architecture-v1.jsx	5
 TEST	5
 Blocks:	5
 VECTOR	5
@@ -25857,7 +25857,7 @@ preservation-worthy	5
 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md	5
 01-CANON/CANON-00007-EVALUATION-cosmos.md	5
 ACUMEN_CONTEXT.md	5
-05-ARCHIVE/ARCH-	5
+05-MEMORY/ARCH-	5
 IIC-related	5
 Cross-session	5
 Specifics	5
@@ -25916,9 +25916,9 @@ PEDAGOGICAL	5
 35000	5
 Inter-node	5
 config.md	5
-02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md	5
+02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md	5
 messages/week	5
-02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md	5
+02-ENGINE/PROTOCOL-Gemini-Onboarding.md	5
 finding.	5
 00-ORCHESTRATION/templates/CANON-31150.md.j2	5
 31000	5
@@ -25987,8 +25987,8 @@ misses.	5
 Articles	5
 installed:	5
 ORACLE09_FINAL_CULMINATION.md	5
-05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md	5
-05-ARCHIVE/SCAFF-ORACLE10_INIT.md	5
+05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md	5
+05-MEMORY/SCAFF-ORACLE10_INIT.md	5
 1.08	5
 TASK-033	5
 TASK-034	5
@@ -26068,7 +26068,7 @@ CANON-21000:	5
 9KB	5
 14KB	5
 3KB	5
-05-ARCHIVE/prompt-backup-043A/	5
+05-MEMORY/prompt-backup-043A/	5
 incomplete:	5
 Sprint-Bounded	5
 XP-like	5
@@ -26102,7 +26102,7 @@ Kaizen	5
 00-ORCHESTRATION/scripts/defrag_apply_hardened.sh	5
 LEGACY_OUTGOING/	5
 06-EXEMPLA/TEMPLATE-CONTINUATION_PACKET.json	5
-02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md	5
+02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md	5
 CI	5
 self-reinforce	5
 circumlocution	5
@@ -28654,10 +28654,10 @@ gate.	5
 00-ORCHESTRATION/directives/DIRECTIVE-046A.md	5
 00-ORCHESTRATION/directives/DIRECTIVE-046B.md	5
 00-ORCHESTRATION/oracle_contexts/ORACLE13_CONTEXT.md	5
-05-ARCHIVE/ARCH-platform_features.md	5
-05-ARCHIVE/ARCH-oracle_memories.md	5
-05-ARCHIVE/ARCH-previous_thread.md	5
-05-ARCHIVE/ARCH-oracle_verification_manifest.md	5
+05-MEMORY/ARCH-platform_features.md	5
+05-MEMORY/ARCH-oracle_memories.md	5
+05-MEMORY/ARCH-previous_thread.md	5
+05-MEMORY/ARCH-oracle_verification_manifest.md	5
 Selected	5
 Sufficiency	5
 00-ORCHESTRATION/state/DYN-DASHBOARD.md	5
@@ -29245,14 +29245,14 @@ phase-specific	4
 phase-1-interpret.md	4
 phase-3-digest.md	4
 spec_reference	4
-02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md	4
-02-OPERATIONAL/prompts/canonical	4
+02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md	4
+02-ENGINE/prompts/canonical	4
 INBOX/CHATGPT_COMPILER_HANDOFF.md	4
-02-OPERATIONAL/registries	4
+02-ENGINE/registries	4
 INBOX/constellation-process-flow.jsx	4
-02-OPERATIONAL/registries/DYN-ACCOUNTS.csv	4
-02-OPERATIONAL/registries/DYN-PLATFORMS.csv	4
-02-OPERATIONAL/registries/DYN-ROLES.csv	4
+02-ENGINE/registries/DYN-ACCOUNTS.csv	4
+02-ENGINE/registries/DYN-PLATFORMS.csv	4
+02-ENGINE/registries/DYN-ROLES.csv	4
 overwrite	4
 Wrapper	4
 output-dir	4
@@ -29345,7 +29345,7 @@ Canvas-based	4
 evaporates	4
 o3/o4	4
 design:	4
-02-OPERATIONAL/memory	4
+02-ENGINE/memory	4
 Session:	4
 Proposals	4
 MODAL-SEQ	4
@@ -29617,7 +29617,7 @@ DIRECTIVE-022A	4
 8KB	4
 dog.	4
 Multi-turn	4
-02-OPERATIONAL/queues	4
+02-ENGINE/queues	4
 QUICK_WINS	4
 gitkeep	4
 AI_ECOSYSTEM_SURVEY	4
@@ -29659,7 +29659,7 @@ hash_manifest	4
 Migrated	4
 Retained	4
 backfill	4
-02-OPERATIONAL/scripts/	4
+02-ENGINE/scripts/	4
 Self-Reference	4
 Crystalline	4
 edifice	4
@@ -29960,8 +29960,8 @@ ARCH-COGNITIVE_PROFILE_2026-01.md	4
 GEMINI_VALIDATION_REPORT.md	4
 SCAFF-ORACLE09_FINAL_CULMINATION.md	4
 808	4
-02-OPERATIONAL/functions/translate.xml	4
-02-OPERATIONAL/IIC-	4
+02-ENGINE/functions/translate.xml	4
+02-ENGINE/IIC-	4
 P4	4
 Felt	4
 Multi-dimensional	4
@@ -30005,9 +30005,9 @@ tailoring	4
 cross-session	4
 expiry	4
 availability:	4
-02-OPERATIONAL/IIC-Acumen-config.md	4
-02-OPERATIONAL/IIC-Coherence-config.md	4
-02-OPERATIONAL/IIC-shared-protocols.md	4
+02-ENGINE/IIC-Acumen-config.md	4
+02-ENGINE/IIC-Coherence-config.md	4
+02-ENGINE/IIC-shared-protocols.md	4
 CANON-34000:	4
 20251031	4
 20251224	4
@@ -30025,9 +30025,9 @@ recurrence	4
 69K	4
 exempla	4
 loaded:	4
-02-OPERATIONAL/IIC-Efficacy-config.md	4
-02-OPERATIONAL/IIC-Mastery-config.md	4
-02-OPERATIONAL/IIC-Transcendence-config.md	4
+02-ENGINE/IIC-Efficacy-config.md	4
+02-ENGINE/IIC-Mastery-config.md	4
+02-ENGINE/IIC-Transcendence-config.md	4
 insertions	4
 Short-Term	4
 Met	4
@@ -30093,7 +30093,7 @@ Significantly	4
 90.6	4
 Savings	4
 score:	4
-02-OPERATIONAL/gemini-settings.json	4
+02-ENGINE/gemini-settings.json	4
 00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md	4
 Possibly	4
 769	4
@@ -30179,11 +30179,11 @@ CONCEPTS	4
 CONDITIONS	4
 CAP	4
 DEFINITION	4
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md	4
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md	4
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md	4
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md	4
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md	4
+02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md	4
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md	4
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md	4
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md	4
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md	4
 TRINITY	4
 Provide:	4
 00:12:34	4
@@ -33465,7 +33465,7 @@ Synthesizes	4
 GEMINI-CLI-FORENSIC-PROMPTS.md	4
 00-	4
 actions:	4
-05-ARCHIVE/ARCH-oracle_process_archaeology.md	4
+05-MEMORY/ARCH-oracle_process_archaeology.md	4
 00-ORCHESTRATION/directives/DIRECTIVE-047A.md	4
 00-ORCHESTRATION/directives/DIRECTIVE-047B.md	4
 046	4
@@ -34231,7 +34231,7 @@ PEDIGREE:	3
 blocking.	3
 TASK-094	3
 conflicts:	3
-02-OPERATIONAL/iic/	3
+02-ENGINE/iic/	3
 COMPANION	3
 modal1/:	3
 entry:	3
@@ -34301,7 +34301,7 @@ Feedly	3
 applies.	3
 phase-2-compile.md	3
 constellation/phase-specs	3
-05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx	3
+05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx	3
 3.6	3
 40KB	3
 INBOX/INTERACTION_DYNAMICS_SPECIFICATION.md	3
@@ -34379,7 +34379,7 @@ avatar-instance	3
 Human/social	3
 Fact-checks	3
 validates.	3
-02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md	3
+02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md	3
 index:	3
 state-fingerprint-solution.md	3
 memory-architecture-matrix.md	3
@@ -34719,7 +34719,7 @@ executor.	3
 TRUTH:	3
 satisfies	3
 Re-evaluate	3
-02-OPERATIONAL/surveys	3
+02-ENGINE/surveys	3
 03-QUEUE/modal1/CONTENT_PROCESSING_QUEUE.md	3
 TRACKING	3
 tracking:	3
@@ -34772,10 +34772,10 @@ violations.	3
 YAML-ish	3
 v2.2.0	3
 OUTGOING/-INBOX	3
-02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md	3
-02-OPERATIONAL/specs/REF-CHATGPT_MEMORY_POLICY.md	3
-02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md	3
-02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md	3
+02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md	3
+02-ENGINE/specs/REF-CHATGPT_MEMORY_POLICY.md	3
+02-ENGINE/registries/REF-PROMPT_REGISTRY.md	3
+02-ENGINE/registries/REF-OPERATIONS_TREE.md	3
 dispersing	3
 drawbacks.	3
 articulation.	3
@@ -35102,12 +35102,12 @@ Actual:	3
 nebula	3
 pipeline:	3
 Buddhic	3
-05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md	3
-05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md	3
-05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md	3
-05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md	3
-02-OPERATIONAL/GEMINI.md	3
-05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md	3
+05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md	3
+05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md	3
+05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md	3
+05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md	3
+02-ENGINE/GEMINI.md	3
+05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md	3
 manageable.	3
 Sets	3
 get_repo_metrics	3
@@ -35199,7 +35199,7 @@ blitzkrieg_execution	3
 Messages	3
 PROJ-XXX	3
 TODOs	3
-02-OPERATIONAL/functions/transcribe_interview.py	3
+02-ENGINE/functions/transcribe_interview.py	3
 Gain	3
 Lens-Specific	3
 longest	3
@@ -35815,7 +35815,7 @@ Referencing	3
 Results:	3
 Surprising	3
 00-ORCHESTRATION/state/ARCH-COHERENCE_ABSORPTION_AUDIT.md	3
-05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md	3
+05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md	3
 Alexander/Daniel	3
 Palace:	3
 Artifacts:	3
@@ -39854,7 +39854,7 @@ Combines	3
 Peer-to-peer	3
 Managing	3
 organizer	3
-02-OPERATIONAL/operational_engine.md	3
+02-ENGINE/operational_engine.md	3
 CHORUS-ARCHITECTURE-v3.md	3
 Approve	3
 warn_check	3
@@ -39868,15 +39868,15 @@ DEEP_RESEARCH_PROMPT-	3
 04-SOURCES/raw/codex/	3
 04-SOURCES/raw/cowork/	3
 04-SOURCES/raw/promptengineering/	3
-05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md	3
-05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md	3
-05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md	3
+05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md	3
+05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md	3
+05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md	3
 ORACLE10_CONTEXT_root.md	3
-05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md	3
+05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md	3
 DIRECTIVE_043A_WINNER	3
 DIRECTIVE_043B_WINNER	3
 loser	3
-05-ARCHIVE/ARCH-checklist.md	3
+05-MEMORY/ARCH-checklist.md	3
 detritus	3
 defrag_apply.sh	3
 defrag_rollback.sh	3
@@ -39884,9 +39884,9 @@ B6	3
 OPS_HYG	3
 047	3
 Session-specific	3
-05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md	3
+05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md	3
 045	3
-05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md	3
+05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md	3
 entrypoint	3
 agent-specific	3
 61K	3
@@ -39901,10 +39901,10 @@ RECEIPTS	3
 SOVEREIGNTY	3
 PARTIALLY	3
 00-ORCHESTRATION/state/tasks.csv.bak	3
-02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md	3
-02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md	3
-02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md	3
-02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md	3
+02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md	3
+02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md	3
+02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md	3
+02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md	3
 OUTGOING/DEFRAG_CONVICTION_PASS_20260117_1609.zip	3
 OUTGOING/RING7_PHASESHIFT_PASS_20260116_212500/RING7_DEFINITION_AND_BOUNDARIES.md	3
 OUTGOING/RING7_PHASESHIFT_PASS_20260116_212500/SUBAGENT_MESH_BLUEPRINT.md	3
@@ -40946,7 +40946,7 @@ sync-all:	2
 sync-checkpoint:	2
 BRANCH:	2
 linters	2
-02-OPERATIONAL/functions/	2
+02-ENGINE/functions/	2
 LF	2
 000ft	2
 Microscopic	2
@@ -41214,7 +41214,7 @@ unblocks	2
 process-level	2
 Intention:	2
 conventions:	2
-02-OPERATIONAL/iic/IIC-Acumen-config.md	2
+02-ENGINE/iic/IIC-Acumen-config.md	2
 unblocking	2
 Post-Blitzkrieg	2
 RECLASSIFY	2
@@ -41303,7 +41303,7 @@ SEMANTIC-ANNEALMENT-PHASE1	2
 LOGGING	2
 phase-4-execute.md	2
 state-broadcast	2
-02-OPERATIONAL/protocols	2
+02-ENGINE/protocols	2
 identical:	2
 different:	2
 definitional	2
@@ -41313,7 +41313,7 @@ node_modules/	2
 DIR-20260120-CONSTELLATION-INFRASTRUCTURE.md	2
 00-ORCHESTRATION/execution_logs/DIR-	2
 TEST.md	2
-02-OPERATIONAL/protocols/	2
+02-ENGINE/protocols/	2
 04-SOURCES/REF-	2
 04-SOURCES/DYN-	2
 Resolves:	2
@@ -41399,7 +41399,7 @@ Un-metadata	2
 airlock	2
 04-SOURCES:	2
 PRESERVATION-WORTHY	2
-05-ARCHIVE:	2
+05-MEMORY:	2
 heap.	2
 TRANSFER.	2
 go:	2
@@ -41419,8 +41419,8 @@ function-based	2
 06-EXEMPLA/defrag-learnings/LESSON-20260122-chorus-architecture.md	2
 Proverb	2
 involved:	2
-02-OPERATIONAL/avatars	2
-02-OPERATIONAL/avatars/README.md	2
+02-ENGINE/avatars	2
+02-ENGINE/avatars/README.md	2
 Self-created	2
 Self-Document	2
 underperforms	2
@@ -41439,7 +41439,7 @@ INBOX/claudes-proposal.md	2
 INBOX/chatgpts-proposal.md	2
 INBOX/Screenshot_2026-01-21_at_1_53_39_PM.png	2
 INBOX/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md	2
-05-ARCHIVE/chorus-session-20260122/README.md	2
+05-MEMORY/chorus-session-20260122/README.md	2
 RESOLUTION-v1-CHORUS.md	2
 RESOLUTION-v2-CONNECTORS.md	2
 RESOLUTION-v3-INTEGRATED.md	2
@@ -41458,7 +41458,7 @@ protocols/	2
 wisdom/patterns	2
 APHORISMS	2
 PROVERBS	2
-02-OPERATIONAL/schemas/CLAIM_ATOM.yaml	2
+02-ENGINE/schemas/CLAIM_ATOM.yaml	2
 Content/Strategy	2
 Infrastructure/Operations	2
 25100	2
@@ -41478,7 +41478,7 @@ Acumen-first	2
 purpose-specific	2
 Completes	2
 actual_time	2
-02-OPERATIONAL/memory/	2
+02-ENGINE/memory/	2
 DIRECTIVE-043A.	2
 DIRECTIVE-028:	2
 Disaster	2
@@ -41508,7 +41508,7 @@ canon.	2
 path/to/file2.ext	2
 Postamble	2
 01-CANON/CANON-memory-architecture-teleology.md	2
-02-OPERATIONAL/prompts/canonical/CHATGPT_COMPILER_HANDOFF.md	2
+02-ENGINE/prompts/canonical/CHATGPT_COMPILER_HANDOFF.md	2
 00-ORCHESTRATION/execution_logs/DIR-20260120-CONSTELLATION-INFRASTRUCTURE.md	2
 2026-01-21T03:20:00Z	2
 fires	2
@@ -42279,18 +42279,18 @@ OUTGOING/TELEOLOGY_PASS_4_20260117_1430	2
 00-ORCHESTRATION/oracle_contexts	2
 920	2
 00-ORCHESTRATION/templates	2
-02-OPERATIONAL/models/profiles	2
-02-OPERATIONAL/models	2
-02-OPERATIONAL/scripts	2
-02-OPERATIONAL/prompts/unified	2
-02-OPERATIONAL/prompts/profiles	2
-02-OPERATIONAL/prompts	2
-02-OPERATIONAL/functions	2
-02-OPERATIONAL/templates	2
+02-ENGINE/models/profiles	2
+02-ENGINE/models	2
+02-ENGINE/scripts	2
+02-ENGINE/prompts/unified	2
+02-ENGINE/prompts/profiles	2
+02-ENGINE/prompts	2
+02-ENGINE/functions	2
+02-ENGINE/templates	2
 03-QUEUE/modal2	2
 512	2
 04-SOURCES/raw	2
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102	2
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102	2
 constellation-architecture.jsx	2
 RESOLUTION_PASS_QA.md	2
 VALIDATION_REPORT.md	2
@@ -42502,7 +42502,7 @@ files_to_read	2
 decisions_pending	2
 defrag_plan_v2.md	2
 Backed	2
-05-ARCHIVE/justification-	2
+05-MEMORY/justification-	2
 re-apply	2
 313	2
 Await	2
@@ -42583,7 +42583,7 @@ Zsh	2
 IDEATE-ChatGPT-Acc1.md	2
 chorus-session-20260122/	2
 lobotomy	2
-02-OPERATIONAL/schemas/	2
+02-ENGINE/schemas/	2
 anatoly_yakovenko	2
 111	2
 CONTEXT/	2
@@ -44056,7 +44056,7 @@ OUTGOING/20260119-sensing_sweep/core_candidates.md	2
 OUTGOING/20260119-sensing_sweep/drift_map.md	2
 OUTGOING/20260119-sensing_sweep/duplication_clusters.md	2
 OUTGOING/20260119-sensing_sweep/sensing_report.md	2
-05-ARCHIVE/ARCH-oracle_process_archaelogy.md	2
+05-MEMORY/ARCH-oracle_process_archaelogy.md	2
 NEW_LINE__	2
 nPROJECT	2
 nCANON	2
@@ -51912,9 +51912,9 @@ merge.	2
 TELEOLOGY_PASS_4	2
 tmp/defrag_md_links.txt	2
 Armed	2
-05-ARCHIVE/ARCH-BLITZKRIEG_44.md	2
-05-ARCHIVE/ARCH-BLITZKRIEG_45.md	2
-05-ARCHIVE/ARCH-ORACLE10_CONTEXT.md	2
+05-MEMORY/ARCH-BLITZKRIEG_44.md	2
+05-MEMORY/ARCH-BLITZKRIEG_45.md	2
+05-MEMORY/ARCH-ORACLE10_CONTEXT.md	2
 preview-only.	2
 Read-Only	2
 APPLY.	2
@@ -51956,13 +51956,13 @@ tmp.driveupload	2
 CONTENT_STRATEGY	2
 047A	2
 047B	2
-05-ARCHIVE/ARCH-ORACLE12_PEDIGREE.md	2
-05-ARCHIVE/ARCH-ORACLE12_PEDIGREE-045.md	2
-05-ARCHIVE/ARCH-ORACLE12_SESSION_DELIVERABLES.md	2
+05-MEMORY/ARCH-ORACLE12_PEDIGREE.md	2
+05-MEMORY/ARCH-ORACLE12_PEDIGREE-045.md	2
+05-MEMORY/ARCH-ORACLE12_SESSION_DELIVERABLES.md	2
 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-Claude_Code_Ecosystem.md	2
 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-Google_Ecosystem.md	2
 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md	2
-05-ARCHIVE/ARCH-rapport_contract.md	2
+05-MEMORY/ARCH-rapport_contract.md	2
 parallel-safe	2
 Snapshots	2
 original_name	2
@@ -52151,48 +52151,48 @@ obsidian/workspace.json	2
 01-CANON/CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md	2
 01-CANON/CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md	2
 01-CANON/CANON-99000-HISTORICAL-meta.md	2
-02-OPERATIONAL/functions/absorb.xml	2
-02-OPERATIONAL/functions/amalgamate.xml	2
-02-OPERATIONAL/functions/amplify.xml	2
-02-OPERATIONAL/functions/anneal.xml	2
-02-OPERATIONAL/functions/coalesce.xml	2
-02-OPERATIONAL/functions/compile.xml	2
-02-OPERATIONAL/functions/consolidate.xml	2
-02-OPERATIONAL/functions/convert.xml	2
-02-OPERATIONAL/functions/FUNCTION_INDEX.md	2
-02-OPERATIONAL/functions/harmonize.xml	2
-02-OPERATIONAL/functions/integrate.md	2
-02-OPERATIONAL/functions/integrate.xml	2
-02-OPERATIONAL/functions/listenize.md	2
-02-OPERATIONAL/functions/listenize.xml	2
-02-OPERATIONAL/functions/offload.xml	2
-02-OPERATIONAL/functions/optimize.xml	2
-02-OPERATIONAL/functions/primer.xml	2
-02-OPERATIONAL/functions/readize.md	2
-02-OPERATIONAL/functions/readize.xml	2
-02-OPERATIONAL/functions/reforge.xml	2
-02-OPERATIONAL/functions/transcribe_interview.md	2
-02-OPERATIONAL/functions/transcribe_interview.xml	2
-02-OPERATIONAL/functions/transcribe_panel.xml	2
-02-OPERATIONAL/functions/transcribe_youtube.md	2
-02-OPERATIONAL/functions/transcribe_youtube.xml	2
-02-OPERATIONAL/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml	2
-02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md	2
-02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml	2
-02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml	2
-02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml	2
-02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml	2
-02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Grok-4.yaml	2
-02-OPERATIONAL/prompts/unified/ChatGPT-gemknowledge-base.md	2
-02-OPERATIONAL/prompts/unified/Claude-gemknowledge-base.md	2
-02-OPERATIONAL/prompts/unified/Gemini-gemknowledge-base.md	2
-02-OPERATIONAL/prompts/unified/Grok-gemknowledge-base.md	2
-02-OPERATIONAL/README.md	2
-02-OPERATIONAL/scripts/rename_canon.sh	2
-02-OPERATIONAL/scripts/validate_frontmatter.sh	2
-02-OPERATIONAL/surveys/AI_Academic_Research.md	2
-02-OPERATIONAL/templates/EXECUTION_LOG_TEMPLATE.md	2
-02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md	2
+02-ENGINE/functions/absorb.xml	2
+02-ENGINE/functions/amalgamate.xml	2
+02-ENGINE/functions/amplify.xml	2
+02-ENGINE/functions/anneal.xml	2
+02-ENGINE/functions/coalesce.xml	2
+02-ENGINE/functions/compile.xml	2
+02-ENGINE/functions/consolidate.xml	2
+02-ENGINE/functions/convert.xml	2
+02-ENGINE/functions/FUNCTION_INDEX.md	2
+02-ENGINE/functions/harmonize.xml	2
+02-ENGINE/functions/integrate.md	2
+02-ENGINE/functions/integrate.xml	2
+02-ENGINE/functions/listenize.md	2
+02-ENGINE/functions/listenize.xml	2
+02-ENGINE/functions/offload.xml	2
+02-ENGINE/functions/optimize.xml	2
+02-ENGINE/functions/primer.xml	2
+02-ENGINE/functions/readize.md	2
+02-ENGINE/functions/readize.xml	2
+02-ENGINE/functions/reforge.xml	2
+02-ENGINE/functions/transcribe_interview.md	2
+02-ENGINE/functions/transcribe_interview.xml	2
+02-ENGINE/functions/transcribe_panel.xml	2
+02-ENGINE/functions/transcribe_youtube.md	2
+02-ENGINE/functions/transcribe_youtube.xml	2
+02-ENGINE/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml	2
+02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md	2
+02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml	2
+02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml	2
+02-ENGINE/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml	2
+02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml	2
+02-ENGINE/prompts/profiles/MODEL_PROFILE-Grok-4.yaml	2
+02-ENGINE/prompts/unified/ChatGPT-gemknowledge-base.md	2
+02-ENGINE/prompts/unified/Claude-gemknowledge-base.md	2
+02-ENGINE/prompts/unified/Gemini-gemknowledge-base.md	2
+02-ENGINE/prompts/unified/Grok-gemknowledge-base.md	2
+02-ENGINE/README.md	2
+02-ENGINE/scripts/rename_canon.sh	2
+02-ENGINE/scripts/validate_frontmatter.sh	2
+02-ENGINE/surveys/AI_Academic_Research.md	2
+02-ENGINE/templates/EXECUTION_LOG_TEMPLATE.md	2
+02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md	2
 03-QUEUE/modal2/AI_3D_VFX.md	2
 03-QUEUE/modal2/AI_Image_Generators.md	2
 03-QUEUE/modal2/AI_Workflows_in_Video_and_VFX.md	2
@@ -52432,45 +52432,45 @@ obsidian/workspace.json	2
 04-SOURCES/raw/20251227-youtube_video-20251227_youtub-neil_mcdevitt.md	2
 04-SOURCES/raw/20251227-youtube_video-20251227_youtub-neil_mcdevitt.txt	2
 04-SOURCES/TRANSCRIPT_RECONCILIATION.md	2
-05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md	2
-05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md	2
-05-ARCHIVE/ARCHIVE-ARTIFACT-SYSTEM.md	2
-05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md	2
-05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md	2
-05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md	2
-05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md	2
-05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md	2
-05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md	2
-05-ARCHIVE/ChatGPT-unified-prompt.md	2
-05-ARCHIVE/Claude-unified-prompt.md	2
-05-ARCHIVE/GEMINI_VALIDATION_REPORT.md	2
-05-ARCHIVE/GEMINI_VALIDATION_TEST_PROOF.md	2
-05-ARCHIVE/Gemini-unified-prompt.md	2
-05-ARCHIVE/Grok-unified-prompt.md	2
-05-ARCHIVE/justification-chatgpt.md	2
-05-ARCHIVE/justification-claude.md	2
-05-ARCHIVE/justification-gemini.md	2
-05-ARCHIVE/justification-grok.md	2
-05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md	2
-05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md	2
-05-ARCHIVE/ORACLE11_CONTEXT.md	2
-05-ARCHIVE/ORACLE11_INIT.md	2
-05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md	2
-05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md	2
-05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md	2
-05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md	2
-05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md	2
-05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md	2
-05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md	2
-05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md	2
-05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md	2
-05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md	2
-05-ARCHIVE/SCAFF-CURRENT_STATE.md	2
-05-ARCHIVE/SCAFF-DEFRAG_EXECUTION_LOG.md	2
-05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md	2
-05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md	2
-05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md	2
-05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md	2
+05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md	2
+05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md	2
+05-MEMORY/ARCHIVE-ARTIFACT-SYSTEM.md	2
+05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md	2
+05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md	2
+05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md	2
+05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md	2
+05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md	2
+05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md	2
+05-MEMORY/ChatGPT-unified-prompt.md	2
+05-MEMORY/Claude-unified-prompt.md	2
+05-MEMORY/GEMINI_VALIDATION_REPORT.md	2
+05-MEMORY/GEMINI_VALIDATION_TEST_PROOF.md	2
+05-MEMORY/Gemini-unified-prompt.md	2
+05-MEMORY/Grok-unified-prompt.md	2
+05-MEMORY/justification-chatgpt.md	2
+05-MEMORY/justification-claude.md	2
+05-MEMORY/justification-gemini.md	2
+05-MEMORY/justification-grok.md	2
+05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md	2
+05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md	2
+05-MEMORY/ORACLE11_CONTEXT.md	2
+05-MEMORY/ORACLE11_INIT.md	2
+05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md	2
+05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md	2
+05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md	2
+05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md	2
+05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md	2
+05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md	2
+05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md	2
+05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md	2
+05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md	2
+05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md	2
+05-MEMORY/SCAFF-CURRENT_STATE.md	2
+05-MEMORY/SCAFF-DEFRAG_EXECUTION_LOG.md	2
+05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md	2
+05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md	2
+05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md	2
+05-MEMORY/SCAFF-THREAD_TRAJECTORY.md	2
 06-EXEMPLA/CASE-TEMPLATE.md	2
 06-EXEMPLA/EXAMPLE-TEMPLATE.md	2
 claudecode/compaction-	2
@@ -52488,7 +52488,7 @@ OUTGOING/TELEOLOGY_PASS_4_20260117_1430/07_TANGIBLE_TELEOLOGY_ATLAS.csv	2
 Specs	2
 Delimiter	2
 Surgical	2
-02-OPERATIONAL/MCP_SETUP.md	2
+02-ENGINE/MCP_SETUP.md	2
 Before/After	2
 contract:	2
 FIXED	2
@@ -55204,7 +55204,7 @@ temp/	1
 8-character	1
 memory-architecture-teleology.md.	1
 SURVEY/ANALYSIS	1
-02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md	1
+02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md	1
 EXCEPTIONS	1
 non-numbered	1
 operator-configured	1
@@ -55751,19 +55751,19 @@ assets/	1
 06-EXEMPLA/cautionary-tales	1
 06-EXEMPLA/defrag-learnings	1
 06-EXEMPLA/phase-markers	1
-05-ARCHIVE/chorus-session-20260122	1
+05-MEMORY/chorus-session-20260122	1
 constellation-architecture-v1.jsx	1
-05-ARCHIVE/ARCH-constellation-process-flow.jsx	1
+05-MEMORY/ARCH-constellation-process-flow.jsx	1
 constellation-process-flow.jsx	1
 Principal-Dropped	1
-05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md	1
-05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md	1
-05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md	1
-05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md	1
-05-ARCHIVE/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md	1
-05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md	1
-05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md	1
-05-ARCHIVE/chorus-session-20260122/EVIDENCE-infrastructure-map.png	1
+05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md	1
+05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md	1
+05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md	1
+05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md	1
+05-MEMORY/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md	1
+05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md	1
+05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md	1
+05-MEMORY/chorus-session-20260122/EVIDENCE-infrastructure-map.png	1
 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md	1
 Filed:	1
 overwritten.	1
@@ -55780,7 +55780,7 @@ SENSE-Gemini-Acc3	1
 CRITIQUE-Claude-Acc1	1
 GROUND-Grok	1
 Condense	1
-02-OPERATIONAL/registries/DYN-	1
+02-ENGINE/registries/DYN-	1
 v1-v3	1
 31115	1
 Preferences:	1
@@ -56062,7 +56062,7 @@ syntax-level	1
 00-ORCHESTRATION/state/DYN-BURNDOWN.csv	1
 04-SOURCES/REF-CREATOR_BIOS.md	1
 04-SOURCES/REF-FILENAME_MAPPING.csv	1
-02-OPERATIONAL/COORDINATION.yaml	1
+02-ENGINE/COORDINATION.yaml	1
 06-EXEMPLA/TEMPLATE-MCP_CONFIG.json	1
 s/burndown.csv/DYN-BURNDOWN.csv/g	1
 00-ORCHESTRATION/state/ARCH-COGNITIVE_CORE.md	1
@@ -56075,10 +56075,10 @@ ORACLE12	1
 04-SOURCES/raw/CLAUDECODE-BUILDERTOOL-	1
 04-SOURCES/raw/CLAUDECODE-BESTPRACTICE-	1
 3.1.	1
-05-ARCHIVE/ORACLE10_CONTEXT-superseded.md	1
-02-OPERATIONAL/prompts/GEMINI-CORPUS-SENSING.md	1
-05-ARCHIVE/ARCH-previous_thread-20260123.md	1
-05-ARCHIVE/ARCH-final_interactions-20260123.md	1
+05-MEMORY/ORACLE10_CONTEXT-superseded.md	1
+02-ENGINE/prompts/GEMINI-CORPUS-SENSING.md	1
+05-MEMORY/ARCH-previous_thread-20260123.md	1
+05-MEMORY/ARCH-final_interactions-20260123.md	1
 04-SOURCES/assets/diagrams	1
 INBOX/diagrams	1
 flattened:	1
@@ -56321,7 +56321,7 @@ Therefore:	1
 CONFIRM	1
 REGENERATE	1
 ARCHIVE/EXEMPLA	1
-path/to/syncrescendence/05-ARCHIVE	1
+path/to/syncrescendence/05-MEMORY	1
 path/to/syncrescendence/06-EXEMPLA	1
 timelines/forecasting	1
 Consciousness/emergence	1
@@ -56670,7 +56670,7 @@ now-redundant	1
 REF-MULTI_ACCOUNT_SYNC:	1
 Principal-controlled	1
 Culminations	1
-02-OPERATIONAL/context/	1
+02-ENGINE/context/	1
 Efficacy-relevant	1
 project/gem/thread	1
 creation/update	1
@@ -56889,8 +56889,8 @@ OUTGOING/20260119-corpus_survey	1
 1592	1
 3912	1
 5640	1
-02-OPERATIONAL/specs	1
-02-OPERATIONAL/prompts/chatgpt	1
+02-ENGINE/specs	1
+02-ENGINE/prompts/chatgpt	1
 328	1
 888	1
 1984	1
@@ -57308,7 +57308,7 @@ Lines/Size	1
 45214	1
 43094	1
 30254	1
-02-OPERATIONAL/PROTOCOL-	1
+02-ENGINE/PROTOCOL-	1
 38318	1
 37297	1
 rwxr-xr-x	1
@@ -57781,7 +57781,7 @@ Principal-specific	1
 snapshot-in-time	1
 ORACLE11_	1
 GUIDE.md	1
-05-ARCHIVE/ARCH-BLITZKRIEG_	1
+05-MEMORY/ARCH-BLITZKRIEG_	1
 addtions.md	1
 CANON/operational	1
 5-10.	1
@@ -58012,7 +58012,7 @@ dest_name	1
 perplexity.md	1
 REPO_ROOT/config	1
 REPO_ROOT/system_prompts	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/	1
 REPO_ROOT/.decisions	1
 BASH_SOURCE	1
 SCRIPT_DIR/../..	1
@@ -58154,7 +58154,7 @@ path/to/source.md	1
 04-SOURCES/processed/SOURCE-YYYYMMDD-NNN.md	1
 insert-at	1
 line_number	1
-02-OPERATIONAL/efficacy-memory/	1
+02-ENGINE/efficacy-memory/	1
 execution-patterns.md	1
 tool-optimizations.md	1
 metrics-history.jsonl	1
@@ -58242,7 +58242,7 @@ speaking/writing	1
 Multi-principal	1
 api.syncrescendence.org	1
 Query/response	1
-02-OPERATIONAL/transcendence-memory/	1
+02-ENGINE/transcendence-memory/	1
 coherence-history.jsonl	1
 evolutionary-milestones.md	1
 inter-node-protocols.md	1
@@ -58407,7 +58407,7 @@ Inferring	1
 wants...	1
 Oracle-08:67	1
 Hallucinating	1
-02-OPERATIONAL/nonexistent.md	1
+02-ENGINE/nonexistent.md	1
 CANON-00001:12	1
 CANON-00002:34	1
 unresolved.	1
@@ -58424,7 +58424,7 @@ uncited	1
 coordination.yaml:line-67	1
 opus_4.5:	1
 CLAUDE.md:line-234	1
-02-OPERATIONAL/IIC-Coherence-config.md:line-89	1
+02-ENGINE/IIC-Coherence-config.md:line-89	1
 post-execution	1
 2026-W02	1
 Sender	1
@@ -58666,7 +58666,7 @@ High-adoption	1
 High-reuse	1
 Low-question	1
 Learner-Specific	1
-02-OPERATIONAL/mastery-memory/	1
+02-ENGINE/mastery-memory/	1
 teaching-patterns.md	1
 common-misconceptions.md	1
 effectiveness-data.jsonl	1
@@ -58728,7 +58728,7 @@ SOURCE-YYYYMMDD-platform-format-creator.md	1
 DIRECTIVE-NNN-TITLE.md	1
 claude-parallel/	1
 prompt-registry	1
-02-OPERATIONAL/prompts/.	1
+02-ENGINE/prompts/.	1
 http://json-schema.org/draft-07/schema	1
 2026-01-20T00:00:00Z	1
 atlas_comet	1
@@ -58864,7 +58864,7 @@ model/system	1
 json/yaml	1
 grouped	1
 chatgpt/claude/gemini	1
-02-OPERATIONAL/commands/	1
+02-ENGINE/commands/	1
 tool-native	1
 shell/python/applescript	1
 rag_reference	1
@@ -59017,9 +59017,9 @@ Per-thread	1
 roll-up	1
 Cross-thread	1
 Mediation:	1
-02-OPERATIONAL/memory/CLAUDE-acumen.md	1
+02-ENGINE/memory/CLAUDE-acumen.md	1
 See:	1
-02-OPERATIONAL/feeds/sources.csv	1
+02-ENGINE/feeds/sources.csv	1
 Paradigm/Significant/Confirmatory	1
 Throughout:	1
 next-day	1
@@ -59339,7 +59339,7 @@ CONSTRUCTION	1
 compiler-style	1
 CANON-00005:142	1
 WARNING	1
-02-OPERATIONAL/memory/:3	1
+02-ENGINE/memory/:3	1
 acumen-memory-config	1
 BNF/EBNF	1
 PARSE	1
@@ -79721,7 +79721,7 @@ I_APPROVE_DEFRAG_APPLY.	1
 Preflight	1
 post-approval	1
 moving:	1
-05-ARCHIVE/ARCH-decisions/	1
+05-MEMORY/ARCH-decisions/	1
 On:	1
 RECORDED	1
 RETRIEVAL	1
@@ -79911,7 +79911,7 @@ rq	1
 otherwise:	1
 ARCH-DESIGN_DECISIONS.md:	1
 Manual:	1
-05-ARCHIVE/ARCH-INTERACTION_PARADIGM.md	1
+05-MEMORY/ARCH-INTERACTION_PARADIGM.md	1
 vE	1
 00-ORCHESTRATION/directives/DIRECTIVE-04	1
 01-CANON/CANON	1
@@ -79927,7 +79927,7 @@ EXTRACTION:	1
 SUCCESSOR:	1
 LOCATION:	1
 ARCH-ORACLE	1
-05-ARCHIVE/ARCH-DIRECTIVE-	1
+05-MEMORY/ARCH-DIRECTIVE-	1
 NUM	1
 GIT:	1
 Traceable	1
@@ -80024,18 +80024,18 @@ obsidian/core-plugins.json	1
 00-ORCHESTRATION/oracle_contexts/ORACLE10_CONTEXT_v4.md	1
 00-ORCHESTRATION/state/.DS_Store	1
 01-CANON/.DS_Store	1
-02-OPERATIONAL/.DS_Store	1
-02-OPERATIONAL/functions/.DS_Store	1
-02-OPERATIONAL/models/.DS_Store	1
-02-OPERATIONAL/prompts/.DS_Store	1
-02-OPERATIONAL/prompts/profiles/.DS_Store	1
+02-ENGINE/.DS_Store	1
+02-ENGINE/functions/.DS_Store	1
+02-ENGINE/models/.DS_Store	1
+02-ENGINE/prompts/.DS_Store	1
+02-ENGINE/prompts/profiles/.DS_Store	1
 03-QUEUE/.DS_Store	1
 03-QUEUE/modal1	1
 03-QUEUE/modal2/.DS_Store	1
 03-QUEUE/pending	1
 04-SOURCES/.DS_Store	1
-05-ARCHIVE/.DS_Store	1
-05-ARCHIVE/prompt-backup-043A	1
+05-MEMORY/.DS_Store	1
+05-MEMORY/prompt-backup-043A	1
 06-EXEMPLA/.DS_Store	1
 agents/agents_201_orchestrating_multiple_agents_that_actually_work-	1
 agents/ai_agents_101-	1
@@ -80230,8 +80230,8 @@ Sealed	1
 meta-documentation/stratigraphy	1
 Post-Cleanup	1
 01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md:399	1
-02-OPERATIONAL/MCP_SETUP.md:94	1
-02-OPERATIONAL/coordination.yaml:199	1
+02-ENGINE/MCP_SETUP.md:94	1
+02-ENGINE/coordination.yaml:199	1
 00-ORCHESTRATION/schemas/packet_protocol.json:105-106	1
 044B	1
 Detection/migration	1
@@ -80323,24 +80323,24 @@ file/scope	1
 FM-MESH-004:	1
 Fire-and-forget	1
 zip/folder	1
-Users/home/Desktop/syncrescendence/02-OPERATIONAL	1
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:	1
-02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md:	1
+Users/home/Desktop/syncrescendence/02-ENGINE	1
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:	1
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:	1
+02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md:	1
+02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md:	1
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:	1
+02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:	1
+02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:	1
+02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:	1
+02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md:	1
 INBOX/.DS_Store	1
 INBOX/blitzkrieg_drop	1
 Clean.	1
 Listing	1
-02-OPERATIONAL/prompts/chatgpt:	1
-02-OPERATIONAL/registries:	1
-02-OPERATIONAL/scripts:	1
-02-OPERATIONAL/specs:	1
+02-ENGINE/prompts/chatgpt:	1
+02-ENGINE/registries:	1
+02-ENGINE/scripts:	1
+02-ENGINE/specs:	1
 unique-id	1
 identify.	1
 Cleanliness	1
@@ -80848,29 +80848,29 @@ OUTGOING/geminicli-report.md	1
 04-SOURCES/raw/SOURCES_ANALYSIS_REPORT.md	1
 04-SOURCES/raw/Stop	1
 04-SOURCES/raw/Why	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-claude.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-claude.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-gemini.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md	1
-05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-grok.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-claude.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-claude.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-gemini.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md	1
+05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-grok.md	1
 138B	1
 645B	1
 Surveyor	1
 MISALIGNMENTS	1
-02-OPERATIONAL/models/	1
+02-ENGINE/models/	1
 CANON-30460-INTERACTION_DYNAMICS-comet.md	1
 sampled	1
 listing.	1
@@ -80883,7 +80883,7 @@ CANON-00005-PRIMER	1
 CANON-00005-MANUAL	1
 Theory/Practice	1
 CANON-31141-ACCOUNT_STRATEGY	1
-02-OPERATIONAL/specs/REF-ACCOUNT_SPECS	1
+02-ENGINE/specs/REF-ACCOUNT_SPECS	1
 CANON-34110-PEDAGOGY	1
 EXPULSION	1
 00-ORCHESTRATION/state/DYN-TECH_STRATEGY.md	1
@@ -80917,11 +80917,11 @@ CANON-00018-COGNITIVE_CORE	1
 REF-DECISION_MAKING	1
 TEMPLATE-MCP_CONFIG.json	1
 denotes	1
-05-ARCHIVE/SCAFF-IIC_RECONNAISSANCE.md	1
-05-ARCHIVE/DIRECTIVES/	1
+05-MEMORY/SCAFF-IIC_RECONNAISSANCE.md	1
+05-MEMORY/DIRECTIVES/	1
 EXECUTION_LOG-2025-	1
-05-ARCHIVE/LOGS-2025/	1
-02-OPERATIONAL/DYN-COCKPIT.md	1
+05-MEMORY/LOGS-2025/	1
+02-ENGINE/DYN-COCKPIT.md	1
 unpaid.	1
 VIOLATED	1
 utilization...	1
@@ -80983,7 +80983,7 @@ INBOX/claude_code_repo_ripple_prompt.md	1
 tmp.driveupload/14655.	1
 Temp	1
 1/Part	1
-02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-	1
+02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-	1
 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-	1
 Pedigree/Context/ADR	1
 Config/Coordination	1
@@ -81673,7 +81673,7 @@ codex-cli	1
 IN:	1
 OUT:	1
 pre-2026	1
-02-OPERATIONAL/constellation/	1
+02-ENGINE/constellation/	1
 claude-web.md	1
 chatgpt-compiler.md	1
 gemini-digestor.md	1
@@ -82275,9 +82275,9 @@ personality-construction	1
 self-construction	1
 demolishing	1
 times:	1
-02-OPERATIONAL/iic/IIC-Efficacy-config.md	1
-02-OPERATIONAL/iic/IIC-Mastery-config.md	1
-02-OPERATIONAL/iic/IIC-Transcendence-config.md	1
+02-ENGINE/iic/IIC-Efficacy-config.md	1
+02-ENGINE/iic/IIC-Mastery-config.md	1
+02-ENGINE/iic/IIC-Transcendence-config.md	1
 00-ORCHESTRATION/logs/EXECUTION_LOG-2026-01-12-045A.md	1
 WORK:	1
 Researches:	1
@@ -83889,7 +83889,7 @@ Desktop/syncrescendence/-INBOX/	1
 Desktop/syncrescendence/-OUTGOING/	1
 Dropbox/Syncrescendence-Exports/	1
 Macros	1
-02-OPERATIONAL/prompts/GEMINI-SENSING.md	1
+02-ENGINE/prompts/GEMINI-SENSING.md	1
 OUTGOING/survey-	1
 scripts/expand-symbols.sh	1
 compress:	1
@@ -93108,7 +93108,7 @@ CANON-00006	38
 - YAML frontmatter blocks (`---` ... `---`)
 - Markdown headings (`#`, `##`, ...)
 - Inline directives (`REF-`, `DYN-`, `ARCH-` prefixes)
-- JSON/YAML structured config files in `00-ORCHESTRATION`, `02-OPERATIONAL`
+- JSON/YAML structured config files in `00-ORCHESTRATION`, `02-ENGINE`
 
 ---
 
@@ -93156,10 +93156,10 @@ ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
 --> 00-ORCHESTRATION/blackboard/.DS_Store:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 02-OPERATIONAL/.DS_Store:1
+--> 02-ENGINE/.DS_Store:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 02-OPERATIONAL/prompts/.DS_Store:1
+--> 02-ENGINE/prompts/.DS_Store:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
 --> .tmp.driveupload/15627:1
@@ -93576,22 +93576,22 @@ ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
 --> -OUTGOING/20260122/.DS_Store:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 05-ARCHIVE/.DS_Store:1
+--> 05-MEMORY/.DS_Store:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 05-ARCHIVE/most_recent_completion.zip:1
+--> 05-MEMORY/most_recent_completion.zip:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 05-ARCHIVE/last_5_interactions.zip:1
+--> 05-MEMORY/last_5_interactions.zip:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 05-ARCHIVE/chorus-session-20260122/EVIDENCE-infrastructure-map.png:1
+--> 05-MEMORY/chorus-session-20260122/EVIDENCE-infrastructure-map.png:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 05-ARCHIVE/diagrams-20260120/proposed.png:1
+--> 05-MEMORY/diagrams-20260120/proposed.png:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
---> 05-ARCHIVE/diagrams-20260120/previous.png:1
+--> 05-MEMORY/diagrams-20260120/previous.png:1
 
 ERROR [BIN-UNPARSEABLE:1] Binary or non-text file; lexer cannot tokenize
 --> .constellation/.DS_Store:1
@@ -93639,92 +93639,92 @@ ERROR [ROOT-DIR-NAME:1] Directory name violates root namespace grammar
 
 ## 4. SEMANTIC ERRORS
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -INBOX/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> 00-ORCHESTRATION/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> 00-ORCHESTRATION/blackboard/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
---> 02-OPERATIONAL/.DS_Store:1
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+--> 02-ENGINE/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
---> 02-OPERATIONAL/prompts/.DS_Store:1
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+--> 02-ENGINE/prompts/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> 06-EXEMPLA/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .claude/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .claude/commands/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> 04-SOURCES/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> 04-SOURCES/raw/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/20260118-blitzkrieg/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/20260119-corpus-annealment-survey/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/20250122/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> -OUTGOING/20260122/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
---> 05-ARCHIVE/.DS_Store:1
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+--> 05-MEMORY/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .constellation/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .constellation/tokens/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> 03-QUEUE/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .dispatch/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .dispatch/claude-parallel/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-OPERATIONAL/.DS_Store, 02-OPERATIONAL/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-ARCHIVE/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
+ERROR [DUPLICATE-DEF:1] Symbol '.DS_Store' defined in multiple locations: .DS_Store, -INBOX/.DS_Store, 00-ORCHESTRATION/.DS_Store, 00-ORCHESTRATION/blackboard/.DS_Store, 02-ENGINE/.DS_Store, 02-ENGINE/prompts/.DS_Store, 06-EXEMPLA/.DS_Store, .claude/.DS_Store, .claude/commands/.DS_Store, 04-SOURCES/.DS_Store, 04-SOURCES/raw/.DS_Store, -OUTGOING/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/.DS_Store, -OUTGOING/TURBINE_BAKEOFF_20260117_1900/gemini_cli/.DS_Store, -OUTGOING/20260118-blitzkrieg/.DS_Store, -OUTGOING/DEFRAG_REFRESH_PASS_20260117_2130/.DS_Store, -OUTGOING/20260119-corpus-annealment-survey/.DS_Store, -OUTGOING/20250122/.DS_Store, -OUTGOING/20260122/.DS_Store, 05-MEMORY/.DS_Store, .constellation/.DS_Store, .constellation/tokens/.DS_Store, 03-QUEUE/.DS_Store, .dispatch/.DS_Store, .dispatch/claude-parallel/.DS_Store, .dispatch/claude-lead/.DS_Store
 --> .dispatch/claude-lead/.DS_Store:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'GEMINI' defined in multiple locations: GEMINI.md, 02-OPERATIONAL/GEMINI.md
+ERROR [DUPLICATE-DEF:1] Symbol 'GEMINI' defined in multiple locations: GEMINI.md, 02-ENGINE/GEMINI.md
 --> GEMINI.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'GEMINI' defined in multiple locations: GEMINI.md, 02-OPERATIONAL/GEMINI.md
---> 02-OPERATIONAL/GEMINI.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'GEMINI' defined in multiple locations: GEMINI.md, 02-ENGINE/GEMINI.md
+--> 02-ENGINE/GEMINI.md:1
 
 ERROR [DUPLICATE-DEF:1] Symbol 'DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED' defined in multiple locations: 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md, 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md
 --> 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1
@@ -93732,31 +93732,31 @@ ERROR [DUPLICATE-DEF:1] Symbol 'DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED' def
 ERROR [DUPLICATE-DEF:1] Symbol 'DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED' defined in multiple locations: 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md, 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md
 --> 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
 --> 00-ORCHESTRATION/state/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
---> 02-OPERATIONAL/README.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+--> 02-ENGINE/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
---> 02-OPERATIONAL/avatars/README.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+--> 02-ENGINE/avatars/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
 --> 06-EXEMPLA/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
 --> 04-SOURCES/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
---> 05-ARCHIVE/README.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+--> 05-MEMORY/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
---> 05-ARCHIVE/chorus-session-20260122/README.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+--> 05-MEMORY/chorus-session-20260122/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
 --> .constellation/phase-specs/README.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-OPERATIONAL/README.md, 02-OPERATIONAL/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-ARCHIVE/README.md, 05-ARCHIVE/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
+ERROR [DUPLICATE-DEF:1] Symbol 'README' defined in multiple locations: 00-ORCHESTRATION/state/README.md, 02-ENGINE/README.md, 02-ENGINE/avatars/README.md, 06-EXEMPLA/README.md, 04-SOURCES/README.md, 05-MEMORY/README.md, 05-MEMORY/chorus-session-20260122/README.md, .constellation/phase-specs/README.md, 03-QUEUE/README.md
 --> 03-QUEUE/README.md:1
 
 ERROR [DUPLICATE-DEF:1] Symbol 'REF-REPO_VALIDATION_PROTOCOL' defined in multiple locations: 00-ORCHESTRATION/state/REF-REPO_VALIDATION_PROTOCOL.md, -OUTGOING/20260118-codify_validation_and_trifurcation/REF-REPO_VALIDATION_PROTOCOL.md
@@ -93777,59 +93777,59 @@ ERROR [DUPLICATE-DEF:1] Symbol 'blitzkrieg_finalize' defined in multiple locatio
 ERROR [DUPLICATE-DEF:1] Symbol 'blitzkrieg_finalize' defined in multiple locations: 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh, .claude/commands/project/blitzkrieg_finalize.md
 --> .claude/commands/project/blitzkrieg_finalize.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'ChatGPT-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md, 05-ARCHIVE/ChatGPT-unified-prompt.md
---> 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'ChatGPT-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md, 05-MEMORY/ChatGPT-unified-prompt.md
+--> 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'ChatGPT-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md, 05-ARCHIVE/ChatGPT-unified-prompt.md
---> 05-ARCHIVE/ChatGPT-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'ChatGPT-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md, 05-MEMORY/ChatGPT-unified-prompt.md
+--> 05-MEMORY/ChatGPT-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'Grok-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md, 05-ARCHIVE/Grok-unified-prompt.md
---> 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'Grok-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/Grok-unified-prompt.md, 05-MEMORY/Grok-unified-prompt.md
+--> 02-ENGINE/prompts/unified/Grok-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'Grok-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md, 05-ARCHIVE/Grok-unified-prompt.md
---> 05-ARCHIVE/Grok-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'Grok-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/Grok-unified-prompt.md, 05-MEMORY/Grok-unified-prompt.md
+--> 05-MEMORY/Grok-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'Gemini-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md, 05-ARCHIVE/Gemini-unified-prompt.md
---> 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'Gemini-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/Gemini-unified-prompt.md, 05-MEMORY/Gemini-unified-prompt.md
+--> 02-ENGINE/prompts/unified/Gemini-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'Gemini-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md, 05-ARCHIVE/Gemini-unified-prompt.md
---> 05-ARCHIVE/Gemini-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'Gemini-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/Gemini-unified-prompt.md, 05-MEMORY/Gemini-unified-prompt.md
+--> 05-MEMORY/Gemini-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'Claude-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md, 05-ARCHIVE/Claude-unified-prompt.md
---> 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'Claude-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/Claude-unified-prompt.md, 05-MEMORY/Claude-unified-prompt.md
+--> 02-ENGINE/prompts/unified/Claude-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'Claude-unified-prompt' defined in multiple locations: 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md, 05-ARCHIVE/Claude-unified-prompt.md
---> 05-ARCHIVE/Claude-unified-prompt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'Claude-unified-prompt' defined in multiple locations: 02-ENGINE/prompts/unified/Claude-unified-prompt.md, 05-MEMORY/Claude-unified-prompt.md
+--> 05-MEMORY/Claude-unified-prompt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'listenize' defined in multiple locations: 02-OPERATIONAL/functions/listenize.md, 02-OPERATIONAL/functions/listenize.xml
---> 02-OPERATIONAL/functions/listenize.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'listenize' defined in multiple locations: 02-ENGINE/functions/listenize.md, 02-ENGINE/functions/listenize.xml
+--> 02-ENGINE/functions/listenize.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'listenize' defined in multiple locations: 02-OPERATIONAL/functions/listenize.md, 02-OPERATIONAL/functions/listenize.xml
---> 02-OPERATIONAL/functions/listenize.xml:1
+ERROR [DUPLICATE-DEF:1] Symbol 'listenize' defined in multiple locations: 02-ENGINE/functions/listenize.md, 02-ENGINE/functions/listenize.xml
+--> 02-ENGINE/functions/listenize.xml:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'readize' defined in multiple locations: 02-OPERATIONAL/functions/readize.md, 02-OPERATIONAL/functions/readize.xml
---> 02-OPERATIONAL/functions/readize.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'readize' defined in multiple locations: 02-ENGINE/functions/readize.md, 02-ENGINE/functions/readize.xml
+--> 02-ENGINE/functions/readize.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'readize' defined in multiple locations: 02-OPERATIONAL/functions/readize.md, 02-OPERATIONAL/functions/readize.xml
---> 02-OPERATIONAL/functions/readize.xml:1
+ERROR [DUPLICATE-DEF:1] Symbol 'readize' defined in multiple locations: 02-ENGINE/functions/readize.md, 02-ENGINE/functions/readize.xml
+--> 02-ENGINE/functions/readize.xml:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_youtube' defined in multiple locations: 02-OPERATIONAL/functions/transcribe_youtube.xml, 02-OPERATIONAL/functions/transcribe_youtube.md
---> 02-OPERATIONAL/functions/transcribe_youtube.xml:1
+ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_youtube' defined in multiple locations: 02-ENGINE/functions/transcribe_youtube.xml, 02-ENGINE/functions/transcribe_youtube.md
+--> 02-ENGINE/functions/transcribe_youtube.xml:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_youtube' defined in multiple locations: 02-OPERATIONAL/functions/transcribe_youtube.xml, 02-OPERATIONAL/functions/transcribe_youtube.md
---> 02-OPERATIONAL/functions/transcribe_youtube.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_youtube' defined in multiple locations: 02-ENGINE/functions/transcribe_youtube.xml, 02-ENGINE/functions/transcribe_youtube.md
+--> 02-ENGINE/functions/transcribe_youtube.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_interview' defined in multiple locations: 02-OPERATIONAL/functions/transcribe_interview.xml, 02-OPERATIONAL/functions/transcribe_interview.md
---> 02-OPERATIONAL/functions/transcribe_interview.xml:1
+ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_interview' defined in multiple locations: 02-ENGINE/functions/transcribe_interview.xml, 02-ENGINE/functions/transcribe_interview.md
+--> 02-ENGINE/functions/transcribe_interview.xml:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_interview' defined in multiple locations: 02-OPERATIONAL/functions/transcribe_interview.xml, 02-OPERATIONAL/functions/transcribe_interview.md
---> 02-OPERATIONAL/functions/transcribe_interview.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'transcribe_interview' defined in multiple locations: 02-ENGINE/functions/transcribe_interview.xml, 02-ENGINE/functions/transcribe_interview.md
+--> 02-ENGINE/functions/transcribe_interview.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'integrate' defined in multiple locations: 02-OPERATIONAL/functions/integrate.xml, 02-OPERATIONAL/functions/integrate.md
---> 02-OPERATIONAL/functions/integrate.xml:1
+ERROR [DUPLICATE-DEF:1] Symbol 'integrate' defined in multiple locations: 02-ENGINE/functions/integrate.xml, 02-ENGINE/functions/integrate.md
+--> 02-ENGINE/functions/integrate.xml:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'integrate' defined in multiple locations: 02-OPERATIONAL/functions/integrate.xml, 02-OPERATIONAL/functions/integrate.md
---> 02-OPERATIONAL/functions/integrate.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'integrate' defined in multiple locations: 02-ENGINE/functions/integrate.xml, 02-ENGINE/functions/integrate.md
+--> 02-ENGINE/functions/integrate.md:1
 
 ERROR [DUPLICATE-DEF:1] Symbol 'TEMPLATE-EXECUTION_LOG' defined in multiple locations: 06-EXEMPLA/TEMPLATE-EXECUTION_LOG.md, 06-EXEMPLA/templates/TEMPLATE-EXECUTION_LOG.md
 --> 06-EXEMPLA/TEMPLATE-EXECUTION_LOG.md:1
@@ -94287,35 +94287,35 @@ ERROR [DUPLICATE-DEF:1] Symbol 'execution_log' defined in multiple locations: -O
 ERROR [DUPLICATE-DEF:1] Symbol 'execution_log' defined in multiple locations: -OUTGOING/20260118-blitzkrieg/03_execution/execution_log.json, -OUTGOING/20260118-blitzkrieg/03_execution/execution_log.md
 --> -OUTGOING/20260118-blitzkrieg/03_execution/execution_log.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-grok' defined in multiple locations: 05-ARCHIVE/justification-grok.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md
---> 05-ARCHIVE/justification-grok.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-grok' defined in multiple locations: 05-MEMORY/justification-grok.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md
+--> 05-MEMORY/justification-grok.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-grok' defined in multiple locations: 05-ARCHIVE/justification-grok.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md
---> 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-grok' defined in multiple locations: 05-MEMORY/justification-grok.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md
+--> 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'ARCH-constellation-architecture-v1' defined in multiple locations: 05-ARCHIVE/ARCH-constellation-architecture-v1.md, 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx
---> 05-ARCHIVE/ARCH-constellation-architecture-v1.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'ARCH-constellation-architecture-v1' defined in multiple locations: 05-MEMORY/ARCH-constellation-architecture-v1.md, 05-MEMORY/ARCH-constellation-architecture-v1.jsx
+--> 05-MEMORY/ARCH-constellation-architecture-v1.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'ARCH-constellation-architecture-v1' defined in multiple locations: 05-ARCHIVE/ARCH-constellation-architecture-v1.md, 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx
---> 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx:1
+ERROR [DUPLICATE-DEF:1] Symbol 'ARCH-constellation-architecture-v1' defined in multiple locations: 05-MEMORY/ARCH-constellation-architecture-v1.md, 05-MEMORY/ARCH-constellation-architecture-v1.jsx
+--> 05-MEMORY/ARCH-constellation-architecture-v1.jsx:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-chatgpt' defined in multiple locations: 05-ARCHIVE/justification-chatgpt.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md
---> 05-ARCHIVE/justification-chatgpt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-chatgpt' defined in multiple locations: 05-MEMORY/justification-chatgpt.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md
+--> 05-MEMORY/justification-chatgpt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-chatgpt' defined in multiple locations: 05-ARCHIVE/justification-chatgpt.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md
---> 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-chatgpt' defined in multiple locations: 05-MEMORY/justification-chatgpt.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md
+--> 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-gemini' defined in multiple locations: 05-ARCHIVE/justification-gemini.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md
---> 05-ARCHIVE/justification-gemini.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-gemini' defined in multiple locations: 05-MEMORY/justification-gemini.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md
+--> 05-MEMORY/justification-gemini.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-gemini' defined in multiple locations: 05-ARCHIVE/justification-gemini.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md
---> 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-gemini' defined in multiple locations: 05-MEMORY/justification-gemini.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md
+--> 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-claude' defined in multiple locations: 05-ARCHIVE/justification-claude.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md
---> 05-ARCHIVE/justification-claude.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-claude' defined in multiple locations: 05-MEMORY/justification-claude.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md
+--> 05-MEMORY/justification-claude.md:1
 
-ERROR [DUPLICATE-DEF:1] Symbol 'justification-claude' defined in multiple locations: 05-ARCHIVE/justification-claude.md, 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md
---> 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:1
+ERROR [DUPLICATE-DEF:1] Symbol 'justification-claude' defined in multiple locations: 05-MEMORY/justification-claude.md, 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md
+--> 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:1
 
 ERROR [DUPLICATE-DEF:1] Symbol 'active' defined in multiple locations: .constellation/tokens/active.json, .constellation/tokens/active.txt
 --> .constellation/tokens/active.json:1
@@ -97804,289 +97804,289 @@ ERROR [UNDEFINED-REF:227] Undefined reference 'CANON-00017-AGENTIC_CONSTITUTION'
 --> 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:227
 
 ERROR [UNDEFINED-REF:124] Undefined reference 'CANON-XXXXX'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:124
+--> 02-ENGINE/IIC-Efficacy-config.md:124
 
 ERROR [UNDEFINED-REF:294] Undefined reference 'SOURCE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:294
+--> 02-ENGINE/IIC-Efficacy-config.md:294
 
 ERROR [UNDEFINED-REF:297] Undefined reference 'SOURCE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:297
+--> 02-ENGINE/IIC-Efficacy-config.md:297
 
 ERROR [UNDEFINED-REF:311] Undefined reference 'SOURCE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:311
+--> 02-ENGINE/IIC-Efficacy-config.md:311
 
 ERROR [UNDEFINED-REF:314] Undefined reference 'SOURCE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:314
+--> 02-ENGINE/IIC-Efficacy-config.md:314
 
 ERROR [UNDEFINED-REF:328] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:328
+--> 02-ENGINE/IIC-Efficacy-config.md:328
 
 ERROR [UNDEFINED-REF:459] Undefined reference 'PLN-20260115-001'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:459
+--> 02-ENGINE/IIC-Efficacy-config.md:459
 
 ERROR [UNDEFINED-REF:488] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:488
+--> 02-ENGINE/IIC-Efficacy-config.md:488
 
 ERROR [UNDEFINED-REF:495] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:495
+--> 02-ENGINE/IIC-Efficacy-config.md:495
 
 ERROR [UNDEFINED-REF:505] Undefined reference 'EXE-20260115-001'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:505
+--> 02-ENGINE/IIC-Efficacy-config.md:505
 
 ERROR [UNDEFINED-REF:506] Undefined reference 'PLN-20260115-001'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:506
+--> 02-ENGINE/IIC-Efficacy-config.md:506
 
 ERROR [UNDEFINED-REF:650] Undefined reference 'IIC-Efficacy'
---> 02-OPERATIONAL/IIC-Efficacy-config.md:650
+--> 02-ENGINE/IIC-Efficacy-config.md:650
 
 ERROR [UNDEFINED-REF:530] Undefined reference 'CANON-31140'
---> 02-OPERATIONAL/IIC-Acumen-config.md:530
+--> 02-ENGINE/IIC-Acumen-config.md:530
 
 ERROR [UNDEFINED-REF:531] Undefined reference 'CANON-31141'
---> 02-OPERATIONAL/IIC-Acumen-config.md:531
+--> 02-ENGINE/IIC-Acumen-config.md:531
 
 ERROR [UNDEFINED-REF:532] Undefined reference 'CANON-31130'
---> 02-OPERATIONAL/IIC-Acumen-config.md:532
+--> 02-ENGINE/IIC-Acumen-config.md:532
 
 ERROR [UNDEFINED-REF:839] Undefined reference 'IIC-Transcendence'
---> 02-OPERATIONAL/IIC-Transcendence-config.md:839
+--> 02-ENGINE/IIC-Transcendence-config.md:839
 
 ERROR [UNDEFINED-REF:670] Undefined reference 'CANON-31140'
---> 02-OPERATIONAL/IIC-Coherence-config.md:670
+--> 02-ENGINE/IIC-Coherence-config.md:670
 
 ERROR [UNDEFINED-REF:671] Undefined reference 'CANON-31141'
---> 02-OPERATIONAL/IIC-Coherence-config.md:671
+--> 02-ENGINE/IIC-Coherence-config.md:671
 
 ERROR [UNDEFINED-REF:672] Undefined reference 'CANON-31130'
---> 02-OPERATIONAL/IIC-Coherence-config.md:672
+--> 02-ENGINE/IIC-Coherence-config.md:672
 
 ERROR [UNDEFINED-REF:105] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:105
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:105
 
 ERROR [UNDEFINED-REF:180] Undefined reference 'EVD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:180
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:180
 
 ERROR [UNDEFINED-REF:264] Undefined reference 'EVD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:264
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:264
 
 ERROR [UNDEFINED-REF:296] Undefined reference 'SOURCE-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:296
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:296
 
 ERROR [UNDEFINED-REF:332] Undefined reference 'EVD-20260115-003'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:332
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:332
 
 ERROR [UNDEFINED-REF:369] Undefined reference 'EVD-20250926-001'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:369
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:369
 
 ERROR [UNDEFINED-REF:380] Undefined reference 'CANON-00004'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:380
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:380
 
 ERROR [UNDEFINED-REF:408] Undefined reference 'EVD-20260115-004'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:408
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:408
 
 ERROR [UNDEFINED-REF:437] Undefined reference 'EVD-20260115-005'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:437
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:437
 
 ERROR [UNDEFINED-REF:554] Undefined reference 'CANON-00001'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:554
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:554
 
 ERROR [UNDEFINED-REF:554] Undefined reference 'CANON-00002'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:554
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:554
 
 ERROR [UNDEFINED-REF:577] Undefined reference 'EVD-20260115-006'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:577
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:577
 
 ERROR [UNDEFINED-REF:611] Undefined reference 'EVD-20250926-001'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:611
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:611
 
 ERROR [UNDEFINED-REF:625] Undefined reference 'CANON-00004'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:625
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:625
 
 ERROR [UNDEFINED-REF:625] Undefined reference 'CANON-30400'
---> 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:625
+--> 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:625
 
 ERROR [UNDEFINED-REF:28] Undefined reference 'CANON-31130'
---> 02-OPERATIONAL/IIC-shared-protocols.md:28
+--> 02-ENGINE/IIC-shared-protocols.md:28
 
 ERROR [UNDEFINED-REF:134] Undefined reference 'IIC-to-IIC'
---> 02-OPERATIONAL/IIC-shared-protocols.md:134
+--> 02-ENGINE/IIC-shared-protocols.md:134
 
 ERROR [UNDEFINED-REF:585] Undefined reference 'CANON-31140'
---> 02-OPERATIONAL/IIC-shared-protocols.md:585
+--> 02-ENGINE/IIC-shared-protocols.md:585
 
 ERROR [UNDEFINED-REF:586] Undefined reference 'CANON-31130'
---> 02-OPERATIONAL/IIC-shared-protocols.md:586
+--> 02-ENGINE/IIC-shared-protocols.md:586
 
 ERROR [UNDEFINED-REF:115] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:115
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:115
 
 ERROR [UNDEFINED-REF:132] Undefined reference 'AUD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:132
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:132
 
 ERROR [UNDEFINED-REF:133] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:133
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:133
 
 ERROR [UNDEFINED-REF:134] Undefined reference 'EXE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:134
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:134
 
 ERROR [UNDEFINED-REF:213] Undefined reference 'EVD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:213
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:213
 
 ERROR [UNDEFINED-REF:232] Undefined reference 'SOURCE-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:232
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:232
 
 ERROR [UNDEFINED-REF:240] Undefined reference 'SOURCE-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:240
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:240
 
 ERROR [UNDEFINED-REF:262] Undefined reference 'EXE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:262
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:262
 
 ERROR [UNDEFINED-REF:263] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:263
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:263
 
 ERROR [UNDEFINED-REF:496] Undefined reference 'EVD-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:496
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:496
 
 ERROR [UNDEFINED-REF:502] Undefined reference 'CANON-00004'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:502
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:502
 
 ERROR [UNDEFINED-REF:502] Undefined reference 'CANON-30400'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:502
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:502
 
 ERROR [UNDEFINED-REF:512] Undefined reference 'PLN-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:512
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:512
 
 ERROR [UNDEFINED-REF:517] Undefined reference 'CANON-00004'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:517
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:517
 
 ERROR [UNDEFINED-REF:517] Undefined reference 'CANON-30400'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:517
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:517
 
 ERROR [UNDEFINED-REF:521] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:521
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:521
 
 ERROR [UNDEFINED-REF:522] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:522
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:522
 
 ERROR [UNDEFINED-REF:523] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:523
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:523
 
 ERROR [UNDEFINED-REF:539] Undefined reference 'EXE-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:539
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:539
 
 ERROR [UNDEFINED-REF:540] Undefined reference 'PLN-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:540
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:540
 
 ERROR [UNDEFINED-REF:550] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:550
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:550
 
 ERROR [UNDEFINED-REF:551] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:551
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:551
 
 ERROR [UNDEFINED-REF:552] Undefined reference 'SOURCE-20250926-057'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:552
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:552
 
 ERROR [UNDEFINED-REF:563] Undefined reference 'AUD-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:563
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:563
 
 ERROR [UNDEFINED-REF:564] Undefined reference 'PLN-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:564
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:564
 
 ERROR [UNDEFINED-REF:565] Undefined reference 'EXE-20260115-001'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:565
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:565
 
 ERROR [UNDEFINED-REF:585] Undefined reference 'PLN-20260115-002'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:585
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:585
 
 ERROR [UNDEFINED-REF:598] Undefined reference 'EXE-20260115-002'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:598
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:598
 
 ERROR [UNDEFINED-REF:599] Undefined reference 'PLN-20260115-002'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:599
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:599
 
 ERROR [UNDEFINED-REF:624] Undefined reference 'PLN-20260115-002-v2'
---> 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:624
+--> 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:624
 
 ERROR [UNDEFINED-REF:790] Undefined reference 'SOURCE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/IIC-Mastery-config.md:790
+--> 02-ENGINE/IIC-Mastery-config.md:790
 
 ERROR [UNDEFINED-REF:880] Undefined reference 'IIC-Mastery'
---> 02-OPERATIONAL/IIC-Mastery-config.md:880
+--> 02-ENGINE/IIC-Mastery-config.md:880
 
 ERROR [UNDEFINED-REF:3] Undefined reference 'CANON-25200-CONSTELLATION_ARCH'
---> 02-OPERATIONAL/DYN-COORDINATION.yaml:3
+--> 02-ENGINE/DYN-COORDINATION.yaml:3
 
 ERROR [UNDEFINED-REF:14] Undefined reference 'CANON-25000'
---> 02-OPERATIONAL/memory/acumen-memory-config.md:14
+--> 02-ENGINE/memory/acumen-memory-config.md:14
 
 ERROR [UNDEFINED-REF:90] Undefined reference 'IIC-specific'
---> 02-OPERATIONAL/memory/acumen-memory-config.md:90
+--> 02-ENGINE/memory/acumen-memory-config.md:90
 
 ERROR [UNDEFINED-REF:97] Undefined reference 'CANON-31141-FIVE_ACCOUNT'
---> 02-OPERATIONAL/memory/acumen-memory-config.md:97
+--> 02-ENGINE/memory/acumen-memory-config.md:97
 
 ERROR [UNDEFINED-REF:98] Undefined reference 'CANON-31143-FEED_CURATION'
---> 02-OPERATIONAL/memory/acumen-memory-config.md:98
+--> 02-ENGINE/memory/acumen-memory-config.md:98
 
 ERROR [UNDEFINED-REF:99] Undefined reference 'CANON-31142-PLATFORM_GRAMMAR'
---> 02-OPERATIONAL/memory/acumen-memory-config.md:99
+--> 02-ENGINE/memory/acumen-memory-config.md:99
 
 ERROR [UNDEFINED-REF:156] Undefined reference 'CANON-00012'
---> 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:156
+--> 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:156
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'AUD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:36
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:36
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'EXE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:39
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:39
 
 ERROR [UNDEFINED-REF:40] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:40
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:40
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:36
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:36
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'EVD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:39
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:39
 
 ERROR [UNDEFINED-REF:295] Undefined reference 'DIR-20260120-INBOX-ARCHIVE'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:295
+--> 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:295
 
 ERROR [UNDEFINED-REF:325] Undefined reference 'DIR-20260120-INBOX-ARCHIVE'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:325
+--> 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:325
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'AUD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:36
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:36
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'EXE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:39
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:39
 
 ERROR [UNDEFINED-REF:40] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:40
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:40
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'EXE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:36
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:36
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:39
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:39
 
 ERROR [UNDEFINED-REF:51] Undefined reference 'EVD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:51
+--> 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:51
 
 ERROR [UNDEFINED-REF:52] Undefined reference 'PLN-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:52
+--> 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:52
 
 ERROR [UNDEFINED-REF:53] Undefined reference 'EXE-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:53
+--> 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:53
 
 ERROR [UNDEFINED-REF:54] Undefined reference 'AUD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:54
+--> 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:54
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'EVD-YYYYMMDD-NNN'
---> 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:36
+--> 02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:36
 
 ERROR [UNDEFINED-REF:200] Undefined reference 'CANON-35120'
---> 02-OPERATIONAL/functions/offload.xml:200
+--> 02-ENGINE/functions/offload.xml:200
 
 ERROR [UNDEFINED-REF:2] Undefined reference 'DIR-YYYYMMDD-NAME'
 --> 06-EXEMPLA/TEMPLATE-EXECUTION_LOG.md:2
@@ -99652,1906 +99652,1906 @@ ERROR [UNDEFINED-REF:220] Undefined reference 'CANON-31141'
 --> -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:220
 
 ERROR [UNDEFINED-REF:6] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:6
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:6
 
 ERROR [UNDEFINED-REF:6] Undefined reference 'CANON-20010'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:6
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:6
 
 ERROR [UNDEFINED-REF:6] Undefined reference 'CANON-20020'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:6
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:6
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:17
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:17
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-20010'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:17
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:17
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-20020'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:17
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:17
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:36
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:36
 
 ERROR [UNDEFINED-REF:37] Undefined reference 'CANON-20010'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:37
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:37
 
 ERROR [UNDEFINED-REF:38] Undefined reference 'CANON-20020'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:38
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:38
 
 ERROR [UNDEFINED-REF:57] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md:57
+--> 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md:57
 
 ERROR [UNDEFINED-REF:58] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md:58
+--> 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md:58
 
 ERROR [UNDEFINED-REF:59] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md:59
+--> 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md:59
 
 ERROR [UNDEFINED-REF:79] Undefined reference 'CANON-00004-EVOLUTION'
---> 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md:79
+--> 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md:79
 
 ERROR [UNDEFINED-REF:58] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:58
+--> 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:58
 
 ERROR [UNDEFINED-REF:69] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:69
+--> 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:69
 
 ERROR [UNDEFINED-REF:154] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:154
+--> 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:154
 
 ERROR [UNDEFINED-REF:219] Undefined reference 'CANON-00xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:219
+--> 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:219
 
 ERROR [UNDEFINED-REF:254] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:254
+--> 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:254
 
 ERROR [UNDEFINED-REF:255] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:255
+--> 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:255
 
 ERROR [UNDEFINED-REF:10] Undefined reference 'CANON-35120-NEURODIVERGENT'
---> 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md:10
+--> 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md:10
 
 ERROR [UNDEFINED-REF:11] Undefined reference 'CANON-35121-NEURODIVERGENT_PATTERNS'
---> 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md:11
+--> 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md:11
 
 ERROR [UNDEFINED-REF:22] Undefined reference 'CANON-35120-NEURODIVERGENT'
---> 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md:22
+--> 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md:22
 
 ERROR [UNDEFINED-REF:59] Undefined reference 'CANON-25100'
---> 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:59
+--> 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:59
 
 ERROR [UNDEFINED-REF:60] Undefined reference 'CANON-25200'
---> 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:60
+--> 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:60
 
 ERROR [UNDEFINED-REF:149] Undefined reference 'CANON-25200'
---> 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:149
+--> 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:149
 
 ERROR [UNDEFINED-REF:151] Undefined reference 'CANON-25100'
---> 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:151
+--> 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:151
 
 ERROR [UNDEFINED-REF:24] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:24
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:24
 
 ERROR [UNDEFINED-REF:27] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:27
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:27
 
 ERROR [UNDEFINED-REF:27] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:27
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:27
 
 ERROR [UNDEFINED-REF:33] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:33
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:33
 
 ERROR [UNDEFINED-REF:34] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:34
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:34
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:39
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:39
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:39
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:39
 
 ERROR [UNDEFINED-REF:45] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:45
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:45
 
 ERROR [UNDEFINED-REF:46] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:46
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:46
 
 ERROR [UNDEFINED-REF:47] Undefined reference 'CANON-99000'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:47
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:47
 
 ERROR [UNDEFINED-REF:47] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:47
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:47
 
 ERROR [UNDEFINED-REF:59] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:59
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:59
 
 ERROR [UNDEFINED-REF:70] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:70
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:70
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-00xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:71
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:71
 
 ERROR [UNDEFINED-REF:141] Undefined reference 'CANON-XXXXX'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:141
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:141
 
 ERROR [UNDEFINED-REF:145] Undefined reference 'CANON-XXXXX'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:145
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:145
 
 ERROR [UNDEFINED-REF:239] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:239
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:239
 
 ERROR [UNDEFINED-REF:242] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:242
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:242
 
 ERROR [UNDEFINED-REF:249] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:249
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:249
 
 ERROR [UNDEFINED-REF:251] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:251
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:251
 
 ERROR [UNDEFINED-REF:253] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:253
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:253
 
 ERROR [UNDEFINED-REF:253] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:253
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:253
 
 ERROR [UNDEFINED-REF:262] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:262
+--> 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:262
 
 ERROR [UNDEFINED-REF:6] Undefined reference 'CANON-00011'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:6
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:6
 
 ERROR [UNDEFINED-REF:6] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:6
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:6
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-00011'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:17
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:17
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:17
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:17
 
 ERROR [UNDEFINED-REF:35] Undefined reference 'CANON-00011'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:35
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:35
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:36
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:36
 
 ERROR [UNDEFINED-REF:37] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:37
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:37
 
 ERROR [UNDEFINED-REF:208] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:208
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:208
 
 ERROR [UNDEFINED-REF:209] Undefined reference 'CANON-00011'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:209
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:209
 
 ERROR [UNDEFINED-REF:209] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:209
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:209
 
 ERROR [UNDEFINED-REF:210] Undefined reference 'CANON-00000-00005'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:210
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:210
 
 ERROR [UNDEFINED-REF:244] Undefined reference 'CANON-00011'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:244
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:244
 
 ERROR [UNDEFINED-REF:244] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:244
+--> 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:244
 
 ERROR [UNDEFINED-REF:74] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:74
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:74
 
 ERROR [UNDEFINED-REF:143] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:143
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:143
 
 ERROR [UNDEFINED-REF:212] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:212
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:212
 
 ERROR [UNDEFINED-REF:213] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:213
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:213
 
 ERROR [UNDEFINED-REF:214] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:214
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:214
 
 ERROR [UNDEFINED-REF:214] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:214
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:214
 
 ERROR [UNDEFINED-REF:215] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:215
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:215
 
 ERROR [UNDEFINED-REF:215] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:215
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:215
 
 ERROR [UNDEFINED-REF:215] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:215
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:215
 
 ERROR [UNDEFINED-REF:216] Undefined reference 'CANON-99000'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:216
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:216
 
 ERROR [UNDEFINED-REF:216] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:216
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:216
 
 ERROR [UNDEFINED-REF:219] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:219
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:219
 
 ERROR [UNDEFINED-REF:219] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:219
+--> 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:219
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-CURRENT_STATE.md:71
+--> 05-MEMORY/SCAFF-CURRENT_STATE.md:71
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-CURRENT_STATE.md:71
+--> 05-MEMORY/SCAFF-CURRENT_STATE.md:71
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CURRENT_STATE.md:71
+--> 05-MEMORY/SCAFF-CURRENT_STATE.md:71
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-35200'
---> 05-ARCHIVE/SCAFF-CURRENT_STATE.md:71
+--> 05-MEMORY/SCAFF-CURRENT_STATE.md:71
 
 ERROR [UNDEFINED-REF:130] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/ORACLE11_CONTEXT.md:130
+--> 05-MEMORY/ORACLE11_CONTEXT.md:130
 
 ERROR [UNDEFINED-REF:131] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/ORACLE11_CONTEXT.md:131
+--> 05-MEMORY/ORACLE11_CONTEXT.md:131
 
 ERROR [UNDEFINED-REF:132] Undefined reference 'CANON-31142'
---> 05-ARCHIVE/ORACLE11_CONTEXT.md:132
+--> 05-MEMORY/ORACLE11_CONTEXT.md:132
 
 ERROR [UNDEFINED-REF:133] Undefined reference 'CANON-31143'
---> 05-ARCHIVE/ORACLE11_CONTEXT.md:133
+--> 05-MEMORY/ORACLE11_CONTEXT.md:133
 
 ERROR [UNDEFINED-REF:134] Undefined reference 'CANON-25000'
---> 05-ARCHIVE/ORACLE11_CONTEXT.md:134
+--> 05-MEMORY/ORACLE11_CONTEXT.md:134
 
 ERROR [UNDEFINED-REF:135] Undefined reference 'CANON-25100'
---> 05-ARCHIVE/ORACLE11_CONTEXT.md:135
+--> 05-MEMORY/ORACLE11_CONTEXT.md:135
 
 ERROR [UNDEFINED-REF:205] Undefined reference 'IIC-related'
---> 05-ARCHIVE/ORACLE11_CONTEXT.md:205
+--> 05-MEMORY/ORACLE11_CONTEXT.md:205
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:17
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:17
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:17
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:17
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-35200'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:71
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:71
 
 ERROR [UNDEFINED-REF:72] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:72
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:72
 
 ERROR [UNDEFINED-REF:73] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:73
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:73
 
 ERROR [UNDEFINED-REF:74] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:74
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:74
 
 ERROR [UNDEFINED-REF:75] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:75
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:75
 
 ERROR [UNDEFINED-REF:98] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:98
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:98
 
 ERROR [UNDEFINED-REF:98] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:98
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:98
 
 ERROR [UNDEFINED-REF:98] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:98
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:98
 
 ERROR [UNDEFINED-REF:98] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:98
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:98
 
 ERROR [UNDEFINED-REF:102] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:102
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:102
 
 ERROR [UNDEFINED-REF:102] Undefined reference 'CANON-16'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:102
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:102
 
 ERROR [UNDEFINED-REF:103] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:103
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:103
 
 ERROR [UNDEFINED-REF:103] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:103
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:103
 
 ERROR [UNDEFINED-REF:104] Undefined reference 'CANON-09'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:104
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:104
 
 ERROR [UNDEFINED-REF:104] Undefined reference 'CANON-14'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:104
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:104
 
 ERROR [UNDEFINED-REF:111] Undefined reference 'CANON-7'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:111
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:111
 
 ERROR [UNDEFINED-REF:111] Undefined reference 'CANON-14'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:111
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:111
 
 ERROR [UNDEFINED-REF:112] Undefined reference 'CANON-6'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:112
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:112
 
 ERROR [UNDEFINED-REF:112] Undefined reference 'CANON-13'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:112
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:112
 
 ERROR [UNDEFINED-REF:113] Undefined reference 'CANON-4'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:113
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:113
 
 ERROR [UNDEFINED-REF:113] Undefined reference 'CANON-11'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:113
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:113
 
 ERROR [UNDEFINED-REF:113] Undefined reference 'CANON-5'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:113
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:113
 
 ERROR [UNDEFINED-REF:113] Undefined reference 'CANON-12'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:113
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:113
 
 ERROR [UNDEFINED-REF:114] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:114
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:114
 
 ERROR [UNDEFINED-REF:114] Undefined reference 'CANON-8'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:114
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:114
 
 ERROR [UNDEFINED-REF:115] Undefined reference 'CANON-3'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:115
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:115
 
 ERROR [UNDEFINED-REF:115] Undefined reference 'CANON-10'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:115
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:115
 
 ERROR [UNDEFINED-REF:116] Undefined reference 'CANON-9'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:116
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:116
 
 ERROR [UNDEFINED-REF:117] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:117
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:117
 
 ERROR [UNDEFINED-REF:117] Undefined reference 'CANON-8'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:117
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:117
 
 ERROR [UNDEFINED-REF:117] Undefined reference 'CANON-2'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:117
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:117
 
 ERROR [UNDEFINED-REF:118] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:118
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:118
 
 ERROR [UNDEFINED-REF:118] Undefined reference 'CANON-16'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:118
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:118
 
 ERROR [UNDEFINED-REF:123] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:123
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:123
 
 ERROR [UNDEFINED-REF:124] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:124
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:124
 
 ERROR [UNDEFINED-REF:125] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:125
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:125
 
 ERROR [UNDEFINED-REF:125] Undefined reference 'CANON-16'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:125
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:125
 
 ERROR [UNDEFINED-REF:127] Undefined reference 'CANON-15'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:127
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:127
 
 ERROR [UNDEFINED-REF:133] Undefined reference 'CANON-00'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:133
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:133
 
 ERROR [UNDEFINED-REF:133] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:133
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:133
 
 ERROR [UNDEFINED-REF:139] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:139
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:139
 
 ERROR [UNDEFINED-REF:139] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:139
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:139
 
 ERROR [UNDEFINED-REF:140] Undefined reference 'CANON-2'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:140
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:140
 
 ERROR [UNDEFINED-REF:140] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:140
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:140
 
 ERROR [UNDEFINED-REF:141] Undefined reference 'CANON-3-6'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:141
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:141
 
 ERROR [UNDEFINED-REF:141] Undefined reference 'CANON-3xxxx'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:141
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:141
 
 ERROR [UNDEFINED-REF:142] Undefined reference 'CANON-7'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:142
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:142
 
 ERROR [UNDEFINED-REF:142] Undefined reference 'CANON-35100'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:142
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:142
 
 ERROR [UNDEFINED-REF:143] Undefined reference 'CANON-8'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:143
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:143
 
 ERROR [UNDEFINED-REF:143] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:143
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:143
 
 ERROR [UNDEFINED-REF:144] Undefined reference 'CANON-9'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:144
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:144
 
 ERROR [UNDEFINED-REF:144] Undefined reference 'CANON-30000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:144
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:144
 
 ERROR [UNDEFINED-REF:145] Undefined reference 'CANON-10'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:145
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:145
 
 ERROR [UNDEFINED-REF:145] Undefined reference 'CANON-31000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:145
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:145
 
 ERROR [UNDEFINED-REF:146] Undefined reference 'CANON-11'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:146
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:146
 
 ERROR [UNDEFINED-REF:146] Undefined reference 'CANON-32000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:146
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:146
 
 ERROR [UNDEFINED-REF:147] Undefined reference 'CANON-12'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:147
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:147
 
 ERROR [UNDEFINED-REF:147] Undefined reference 'CANON-33000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:147
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:147
 
 ERROR [UNDEFINED-REF:148] Undefined reference 'CANON-13'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:148
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:148
 
 ERROR [UNDEFINED-REF:148] Undefined reference 'CANON-34000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:148
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:148
 
 ERROR [UNDEFINED-REF:149] Undefined reference 'CANON-14'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:149
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:149
 
 ERROR [UNDEFINED-REF:149] Undefined reference 'CANON-35000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:149
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:149
 
 ERROR [UNDEFINED-REF:150] Undefined reference 'CANON-15'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:150
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:150
 
 ERROR [UNDEFINED-REF:150] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:150
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:150
 
 ERROR [UNDEFINED-REF:151] Undefined reference 'CANON-16'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:151
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:151
 
 ERROR [UNDEFINED-REF:151] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:151
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:151
 
 ERROR [UNDEFINED-REF:152] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:152
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:152
 
 ERROR [UNDEFINED-REF:152] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:152
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:152
 
 ERROR [UNDEFINED-REF:166] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:166
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:166
 
 ERROR [UNDEFINED-REF:167] Undefined reference 'CANON-22000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:167
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:167
 
 ERROR [UNDEFINED-REF:168] Undefined reference 'CANON-33111'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:168
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:168
 
 ERROR [UNDEFINED-REF:169] Undefined reference 'CANON-10000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:169
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:169
 
 ERROR [UNDEFINED-REF:198] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:198
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:198
 
 ERROR [UNDEFINED-REF:198] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:198
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:198
 
 ERROR [UNDEFINED-REF:199] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:199
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:199
 
 ERROR [UNDEFINED-REF:200] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:200
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:200
 
 ERROR [UNDEFINED-REF:201] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:201
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:201
 
 ERROR [UNDEFINED-REF:214] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:214
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:214
 
 ERROR [UNDEFINED-REF:224] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:224
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:224
 
 ERROR [UNDEFINED-REF:224] Undefined reference 'CANON-16'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:224
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:224
 
 ERROR [UNDEFINED-REF:226] Undefined reference 'CANON-09'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:226
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:226
 
 ERROR [UNDEFINED-REF:226] Undefined reference 'CANON-14'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:226
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:226
 
 ERROR [UNDEFINED-REF:267] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:267
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:267
 
 ERROR [UNDEFINED-REF:267] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:267
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:267
 
 ERROR [UNDEFINED-REF:267] Undefined reference 'CANON-21000'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:267
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:267
 
 ERROR [UNDEFINED-REF:276] Undefined reference 'CANON-35xxx'
---> 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:276
+--> 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:276
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-31110'
---> 05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md:71
+--> 05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md:71
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-31143'
---> 05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md:71
+--> 05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md:71
 
 ERROR [UNDEFINED-REF:11] Undefined reference 'CANON-31142-PLATFORM_GRAMMAR'
---> 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:11
+--> 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:11
 
 ERROR [UNDEFINED-REF:12] Undefined reference 'CANON-31140-IIC'
---> 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:12
+--> 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:12
 
 ERROR [UNDEFINED-REF:13] Undefined reference 'CANON-31141-FIVE_ACCOUNT'
---> 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:13
+--> 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:13
 
 ERROR [UNDEFINED-REF:97] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:97
+--> 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:97
 
 ERROR [UNDEFINED-REF:97] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:97
+--> 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:97
 
 ERROR [UNDEFINED-REF:96] Undefined reference 'CANON-31150-PLATFORM_CATALOG'
---> 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:96
+--> 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:96
 
 ERROR [UNDEFINED-REF:44] Undefined reference 'ARCH-constellation-'
---> 05-ARCHIVE/README.md:44
+--> 05-MEMORY/README.md:44
 
 ERROR [UNDEFINED-REF:49] Undefined reference 'SCAFF-ALPHA_'
---> 05-ARCHIVE/README.md:49
+--> 05-MEMORY/README.md:49
 
 ERROR [UNDEFINED-REF:50] Undefined reference 'SCAFF-BETA_'
---> 05-ARCHIVE/README.md:50
+--> 05-MEMORY/README.md:50
 
 ERROR [UNDEFINED-REF:6] Undefined reference 'CANON-35210'
---> 05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md:6
+--> 05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md:6
 
 ERROR [UNDEFINED-REF:36] Undefined reference 'CANON-35210'
---> 05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md:36
+--> 05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md:36
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-35210'
---> 05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md:71
+--> 05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md:71
 
 ERROR [UNDEFINED-REF:110] Undefined reference 'CANON-35210'
---> 05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md:110
+--> 05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md:110
 
 ERROR [UNDEFINED-REF:331] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/ARCH-oracle_verification_manifest.md:331
+--> 05-MEMORY/ARCH-oracle_verification_manifest.md:331
 
 ERROR [UNDEFINED-REF:60] Undefined reference 'CANON-34xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:60
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:60
 
 ERROR [UNDEFINED-REF:61] Undefined reference 'CANON-32xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:61
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:61
 
 ERROR [UNDEFINED-REF:78] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:78
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:78
 
 ERROR [UNDEFINED-REF:134] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:134
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:134
 
 ERROR [UNDEFINED-REF:138] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:138
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:138
 
 ERROR [UNDEFINED-REF:166] Undefined reference 'CANON-32xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:166
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:166
 
 ERROR [UNDEFINED-REF:167] Undefined reference 'CANON-34xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:167
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:167
 
 ERROR [UNDEFINED-REF:168] Undefined reference 'CANON-31xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:168
+--> 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:168
 
 ERROR [UNDEFINED-REF:10] Undefined reference 'CANON-30420-MULTI_AGENT_ORCHESTRATION'
---> 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:10
+--> 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:10
 
 ERROR [UNDEFINED-REF:11] Undefined reference 'CANON-31142-PLATFORM_GRAMMAR'
---> 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:11
+--> 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:11
 
 ERROR [UNDEFINED-REF:12] Undefined reference 'CANON-35120-NEURODIVERGENT'
---> 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:12
+--> 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:12
 
 ERROR [UNDEFINED-REF:86] Undefined reference 'CANON-31141-FIVE_ACCOUNT-satellite-IIC'
---> 05-ARCHIVE/ORACLE11_INIT.md:86
+--> 05-MEMORY/ORACLE11_INIT.md:86
 
 ERROR [UNDEFINED-REF:87] Undefined reference 'CANON-31142-PLATFORM_GRAMMAR-satellite-IIC'
---> 05-ARCHIVE/ORACLE11_INIT.md:87
+--> 05-MEMORY/ORACLE11_INIT.md:87
 
 ERROR [UNDEFINED-REF:88] Undefined reference 'CANON-31143-FEED_CURATION-satellite-IIC'
---> 05-ARCHIVE/ORACLE11_INIT.md:88
+--> 05-MEMORY/ORACLE11_INIT.md:88
 
 ERROR [UNDEFINED-REF:293] Undefined reference 'CANON-31115-IIC_IMPL'
---> 05-ARCHIVE/ORACLE11_INIT.md:293
+--> 05-MEMORY/ORACLE11_INIT.md:293
 
 ERROR [UNDEFINED-REF:294] Undefined reference 'CANON-31140-IIC'
---> 05-ARCHIVE/ORACLE11_INIT.md:294
+--> 05-MEMORY/ORACLE11_INIT.md:294
 
 ERROR [UNDEFINED-REF:295] Undefined reference 'CANON-31141-FIVE_ACCOUNT'
---> 05-ARCHIVE/ORACLE11_INIT.md:295
+--> 05-MEMORY/ORACLE11_INIT.md:295
 
 ERROR [UNDEFINED-REF:296] Undefined reference 'CANON-31142-PLATFORM_GRAMMAR'
---> 05-ARCHIVE/ORACLE11_INIT.md:296
+--> 05-MEMORY/ORACLE11_INIT.md:296
 
 ERROR [UNDEFINED-REF:297] Undefined reference 'CANON-31143-FEED_CURATION'
---> 05-ARCHIVE/ORACLE11_INIT.md:297
+--> 05-MEMORY/ORACLE11_INIT.md:297
 
 ERROR [UNDEFINED-REF:298] Undefined reference 'CANON-25000-MEMORY_ARCH'
---> 05-ARCHIVE/ORACLE11_INIT.md:298
+--> 05-MEMORY/ORACLE11_INIT.md:298
 
 ERROR [UNDEFINED-REF:299] Undefined reference 'CANON-25100-CONTEXT_TRANS'
---> 05-ARCHIVE/ORACLE11_INIT.md:299
+--> 05-MEMORY/ORACLE11_INIT.md:299
 
 ERROR [UNDEFINED-REF:316] Undefined reference 'IIC-related'
---> 05-ARCHIVE/ORACLE11_INIT.md:316
+--> 05-MEMORY/ORACLE11_INIT.md:316
 
 ERROR [UNDEFINED-REF:9] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md:9
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md:9
 
 ERROR [UNDEFINED-REF:15] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md:15
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md:15
 
 ERROR [UNDEFINED-REF:228] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md:228
+--> 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md:228
 
 ERROR [UNDEFINED-REF:103] Undefined reference 'CANON-30xxx'
---> 05-ARCHIVE/ARCHIVE-ARTIFACT-SYSTEM.md:103
+--> 05-MEMORY/ARCHIVE-ARTIFACT-SYSTEM.md:103
 
 ERROR [UNDEFINED-REF:27] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:27
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:27
 
 ERROR [UNDEFINED-REF:43] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:43
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:43
 
 ERROR [UNDEFINED-REF:51] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:51
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:51
 
 ERROR [UNDEFINED-REF:69] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:69
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:69
 
 ERROR [UNDEFINED-REF:70] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:70
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:70
 
 ERROR [UNDEFINED-REF:72] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:72
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:72
 
 ERROR [UNDEFINED-REF:161] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:161
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:161
 
 ERROR [UNDEFINED-REF:161] Undefined reference 'CANON-35100'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:161
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:161
 
 ERROR [UNDEFINED-REF:205] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:205
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:205
 
 ERROR [UNDEFINED-REF:223] Undefined reference 'CANON-31000'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:223
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:223
 
 ERROR [UNDEFINED-REF:242] Undefined reference 'CANON-31100'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:242
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:242
 
 ERROR [UNDEFINED-REF:248] Undefined reference 'CANON-31000'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:248
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:248
 
 ERROR [UNDEFINED-REF:262] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:262
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:262
 
 ERROR [UNDEFINED-REF:268] Undefined reference 'CANON-31100'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:268
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:268
 
 ERROR [UNDEFINED-REF:283] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:283
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:283
 
 ERROR [UNDEFINED-REF:289] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:289
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:289
 
 ERROR [UNDEFINED-REF:304] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:304
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:304
 
 ERROR [UNDEFINED-REF:309] Undefined reference 'CANON-36xxx'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:309
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:309
 
 ERROR [UNDEFINED-REF:407] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:407
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:407
 
 ERROR [UNDEFINED-REF:413] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:413
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:413
 
 ERROR [UNDEFINED-REF:500] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:500
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:500
 
 ERROR [UNDEFINED-REF:514] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:514
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:514
 
 ERROR [UNDEFINED-REF:518] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:518
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:518
 
 ERROR [UNDEFINED-REF:524] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:524
+--> 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:524
 
 ERROR [UNDEFINED-REF:31] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:31
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:31
 
 ERROR [UNDEFINED-REF:54] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:54
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:54
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-XXXXX'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:55
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:55
 
 ERROR [UNDEFINED-REF:91] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:91
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:91
 
 ERROR [UNDEFINED-REF:92] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:92
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:92
 
 ERROR [UNDEFINED-REF:92] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:92
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:92
 
 ERROR [UNDEFINED-REF:93] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:93
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:93
 
 ERROR [UNDEFINED-REF:129] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:129
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:129
 
 ERROR [UNDEFINED-REF:129] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:129
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:129
 
 ERROR [UNDEFINED-REF:134] Undefined reference 'CANON-XXXXX'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:134
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:134
 
 ERROR [UNDEFINED-REF:143] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:143
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:143
 
 ERROR [UNDEFINED-REF:150] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:150
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:150
 
 ERROR [UNDEFINED-REF:182] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:182
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:182
 
 ERROR [UNDEFINED-REF:182] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:182
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:182
 
 ERROR [UNDEFINED-REF:195] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:195
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:195
 
 ERROR [UNDEFINED-REF:235] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:235
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:235
 
 ERROR [UNDEFINED-REF:236] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:236
+--> 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:236
 
 ERROR [UNDEFINED-REF:152] Undefined reference 'CANON-30300-TECH_STACK'
---> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:152
+--> 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:152
 
 ERROR [UNDEFINED-REF:65] Undefined reference 'CANON-00xxx'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:65
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:65
 
 ERROR [UNDEFINED-REF:66] Undefined reference 'CANON-10xxx'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:66
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:66
 
 ERROR [UNDEFINED-REF:67] Undefined reference 'CANON-20xxx'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:67
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:67
 
 ERROR [UNDEFINED-REF:68] Undefined reference 'CANON-3xxxx'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:68
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:68
 
 ERROR [UNDEFINED-REF:150] Undefined reference 'CANON-31100'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:150
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:150
 
 ERROR [UNDEFINED-REF:174] Undefined reference 'CANON-31100-ACUMEN'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:174
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:174
 
 ERROR [UNDEFINED-REF:174] Undefined reference 'CANON-31110-FEEDCRAFT'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:174
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:174
 
 ERROR [UNDEFINED-REF:174] Undefined reference 'CANON-31120-TONE_LIBRARY'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:174
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:174
 
 ERROR [UNDEFINED-REF:177] Undefined reference 'CANON-31141-FIVE_ACCOUNT'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
 
 ERROR [UNDEFINED-REF:177] Undefined reference 'CANON-31140-IIC'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
 
 ERROR [UNDEFINED-REF:177] Undefined reference 'CANON-31100-ACUMEN'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
 
 ERROR [UNDEFINED-REF:177] Undefined reference 'CANON-31000-INFORMATION'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:177
 
 ERROR [UNDEFINED-REF:180] Undefined reference 'CANON-31000-INFORMATION'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:180
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:180
 
 ERROR [UNDEFINED-REF:180] Undefined reference 'CANON-32000-INSIGHT'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:180
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:180
 
 ERROR [UNDEFINED-REF:180] Undefined reference 'CANON-33000-EXPERTISE'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:180
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:180
 
 ERROR [UNDEFINED-REF:183] Undefined reference 'CANON-31141-FIVE_ACCOUNT'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:183
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:183
 
 ERROR [UNDEFINED-REF:183] Undefined reference 'CANON-31142-PLATFORM_GRAMMAR'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:183
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:183
 
 ERROR [UNDEFINED-REF:183] Undefined reference 'CANON-31143-FEED_CURATION'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:183
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:183
 
 ERROR [UNDEFINED-REF:194] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:194
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:194
 
 ERROR [UNDEFINED-REF:195] Undefined reference 'CANON-00009'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:195
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:195
 
 ERROR [UNDEFINED-REF:196] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:196
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:196
 
 ERROR [UNDEFINED-REF:197] Undefined reference 'CANON-31100'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:197
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:197
 
 ERROR [UNDEFINED-REF:198] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:198
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:198
 
 ERROR [UNDEFINED-REF:199] Undefined reference 'CANON-32100'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:199
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:199
 
 ERROR [UNDEFINED-REF:200] Undefined reference 'CANON-33100'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:200
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:200
 
 ERROR [UNDEFINED-REF:201] Undefined reference 'CANON-34100'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:201
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:201
 
 ERROR [UNDEFINED-REF:202] Undefined reference 'CANON-35100'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:202
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:202
 
 ERROR [UNDEFINED-REF:203] Undefined reference 'CANON-35200'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:203
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:203
 
 ERROR [UNDEFINED-REF:204] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:204
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:204
 
 ERROR [UNDEFINED-REF:242] Undefined reference 'CANON-31141-chain-INFORMATION-planetary-ACUMEN-lunar-IIC_CONSTELLATION-satellite-FIVE_ACCOUNT_ARCHITECTURE-v1_0'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:242
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:242
 
 ERROR [UNDEFINED-REF:290] Undefined reference 'CANON-36xxx'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:290
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:290
 
 ERROR [UNDEFINED-REF:291] Undefined reference 'CANON-35121'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:291
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:291
 
 ERROR [UNDEFINED-REF:318] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:318
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:318
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31110'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31115'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31120'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31130'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31142'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:323] Undefined reference 'CANON-31143'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:323
 
 ERROR [UNDEFINED-REF:328] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:328
+--> 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:328
 
 ERROR [UNDEFINED-REF:335] Undefined reference 'IIC-related'
---> 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:335
+--> 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:335
 
 ERROR [UNDEFINED-REF:11] Undefined reference 'CANON-30420-MULTI_AGENT_ORCHESTRATION'
---> 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:11
+--> 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:11
 
 ERROR [UNDEFINED-REF:12] Undefined reference 'CANON-31142-PLATFORM_GRAMMAR'
---> 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:12
+--> 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:12
 
 ERROR [UNDEFINED-REF:13] Undefined reference 'CANON-30400-AGENTIC_ARCHITECTURE'
---> 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:13
+--> 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:13
 
 ERROR [UNDEFINED-REF:64] Undefined reference 'CANON-25000'
---> 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:64
+--> 05-MEMORY/ARCH-oracle_process_archaelogy.md:64
 
 ERROR [UNDEFINED-REF:64] Undefined reference 'CANON-25100'
---> 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:64
+--> 05-MEMORY/ARCH-oracle_process_archaelogy.md:64
 
 ERROR [UNDEFINED-REF:130] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:130
+--> 05-MEMORY/ARCH-oracle_process_archaelogy.md:130
 
 ERROR [UNDEFINED-REF:385] Undefined reference 'CANON-25100'
---> 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:385
+--> 05-MEMORY/ARCH-oracle_process_archaelogy.md:385
 
 ERROR [UNDEFINED-REF:387] Undefined reference 'CANON-25200'
---> 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:387
+--> 05-MEMORY/ARCH-oracle_process_archaelogy.md:387
 
 ERROR [UNDEFINED-REF:88] Undefined reference 'CANON-304xx'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:88
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:88
 
 ERROR [UNDEFINED-REF:111] Undefined reference 'CANON-30400'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:111
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:111
 
 ERROR [UNDEFINED-REF:111] Undefined reference 'CANON-30450'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:111
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:111
 
 ERROR [UNDEFINED-REF:119] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:119
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:119
 
 ERROR [UNDEFINED-REF:119] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:119
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:119
 
 ERROR [UNDEFINED-REF:141] Undefined reference 'CANON-304xx'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:141
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:141
 
 ERROR [UNDEFINED-REF:188] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:188
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:188
 
 ERROR [UNDEFINED-REF:188] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:188
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:188
 
 ERROR [UNDEFINED-REF:188] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:188
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:188
 
 ERROR [UNDEFINED-REF:188] Undefined reference 'CANON-35200'
---> 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:188
+--> 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:188
 
 ERROR [UNDEFINED-REF:2] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:2
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:2
 
 ERROR [UNDEFINED-REF:2] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:2
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:2
 
 ERROR [UNDEFINED-REF:13] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:13
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:13
 
 ERROR [UNDEFINED-REF:14] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:14
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:14
 
 ERROR [UNDEFINED-REF:15] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:15
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:15
 
 ERROR [UNDEFINED-REF:16] Undefined reference 'CANON-00003'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:16
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:16
 
 ERROR [UNDEFINED-REF:17] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:17
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:17
 
 ERROR [UNDEFINED-REF:18] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:18
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:18
 
 ERROR [UNDEFINED-REF:19] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:19
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:19
 
 ERROR [UNDEFINED-REF:20] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:20
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:20
 
 ERROR [UNDEFINED-REF:21] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:21
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:21
 
 ERROR [UNDEFINED-REF:22] Undefined reference 'CANON-00009'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:22
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:22
 
 ERROR [UNDEFINED-REF:23] Undefined reference 'CANON-00010'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:23
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:23
 
 ERROR [UNDEFINED-REF:24] Undefined reference 'CANON-00011'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:24
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:24
 
 ERROR [UNDEFINED-REF:25] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:25
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:25
 
 ERROR [UNDEFINED-REF:26] Undefined reference 'CANON-00013'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:26
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:26
 
 ERROR [UNDEFINED-REF:27] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:27
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:27
 
 ERROR [UNDEFINED-REF:37] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:37
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:37
 
 ERROR [UNDEFINED-REF:37] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:37
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:37
 
 ERROR [UNDEFINED-REF:40] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:40
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:40
 
 ERROR [UNDEFINED-REF:41] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:41
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:41
 
 ERROR [UNDEFINED-REF:47] Undefined reference 'CANON-00010'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:47
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:47
 
 ERROR [UNDEFINED-REF:50] Undefined reference 'CANON-00010'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:50
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:50
 
 ERROR [UNDEFINED-REF:50] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:50
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:50
 
 ERROR [UNDEFINED-REF:51] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:51
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:51
 
 ERROR [UNDEFINED-REF:52] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:52
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:52
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-00010'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:55
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:55
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:55
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:55
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:55
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:55
 
 ERROR [UNDEFINED-REF:57] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:57
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:57
 
 ERROR [UNDEFINED-REF:60] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:60
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:60
 
 ERROR [UNDEFINED-REF:61] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:61
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:61
 
 ERROR [UNDEFINED-REF:62] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:62
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:62
 
 ERROR [UNDEFINED-REF:71] Undefined reference 'CANON-00000-SCHEMA'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:71
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:71
 
 ERROR [UNDEFINED-REF:76] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:76
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:76
 
 ERROR [UNDEFINED-REF:85] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:85
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:85
 
 ERROR [UNDEFINED-REF:85] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:85
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:85
 
 ERROR [UNDEFINED-REF:86] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:86
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:86
 
 ERROR [UNDEFINED-REF:88] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:88
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:88
 
 ERROR [UNDEFINED-REF:105] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:105
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:105
 
 ERROR [UNDEFINED-REF:105] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:105
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:105
 
 ERROR [UNDEFINED-REF:110] Undefined reference 'CANON-00001-ORIGIN'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:110
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:110
 
 ERROR [UNDEFINED-REF:115] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:115
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:115
 
 ERROR [UNDEFINED-REF:122] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:122
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:122
 
 ERROR [UNDEFINED-REF:129] Undefined reference 'CANON-00002-LINEAGE'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:129
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:129
 
 ERROR [UNDEFINED-REF:143] Undefined reference 'CANON-00003-PRINCIPLES'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:143
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:143
 
 ERROR [UNDEFINED-REF:153] Undefined reference 'CANON-00004-EVOLUTION'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:153
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:153
 
 ERROR [UNDEFINED-REF:158] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:158
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:158
 
 ERROR [UNDEFINED-REF:159] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:159
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:159
 
 ERROR [UNDEFINED-REF:172] Undefined reference 'CANON-00005-SYNCRESCENDENCE'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:172
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:172
 
 ERROR [UNDEFINED-REF:177] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:177
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:177
 
 ERROR [UNDEFINED-REF:189] Undefined reference 'CANON-00006-CORPUS'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:189
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:189
 
 ERROR [UNDEFINED-REF:195] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:195
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:195
 
 ERROR [UNDEFINED-REF:196] Undefined reference 'CANON-00009'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:196
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:196
 
 ERROR [UNDEFINED-REF:196] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:196
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:196
 
 ERROR [UNDEFINED-REF:197] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:197
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:197
 
 ERROR [UNDEFINED-REF:198] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:198
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:198
 
 ERROR [UNDEFINED-REF:198] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:198
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:198
 
 ERROR [UNDEFINED-REF:203] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:203
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:203
 
 ERROR [UNDEFINED-REF:210] Undefined reference 'CANON-00007-EVALUATION'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:210
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:210
 
 ERROR [UNDEFINED-REF:215] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:215
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:215
 
 ERROR [UNDEFINED-REF:219] Undefined reference 'CANON-00008-RESOLUTIONS'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:219
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:219
 
 ERROR [UNDEFINED-REF:224] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:224
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:224
 
 ERROR [UNDEFINED-REF:226] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:226
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:226
 
 ERROR [UNDEFINED-REF:226] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:226
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:226
 
 ERROR [UNDEFINED-REF:227] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:227
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:227
 
 ERROR [UNDEFINED-REF:229] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:229
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:229
 
 ERROR [UNDEFINED-REF:229] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:229
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:229
 
 ERROR [UNDEFINED-REF:233] Undefined reference 'CANON-00009-STRATEGY'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:233
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:233
 
 ERROR [UNDEFINED-REF:241] Undefined reference 'CANON-00010-OPERATIONS'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:241
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:241
 
 ERROR [UNDEFINED-REF:246] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:246
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:246
 
 ERROR [UNDEFINED-REF:247] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:247
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:247
 
 ERROR [UNDEFINED-REF:252] Undefined reference 'CANON-00011-ARTIFACT_PROTOCOL'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:252
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:252
 
 ERROR [UNDEFINED-REF:256] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:256
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:256
 
 ERROR [UNDEFINED-REF:260] Undefined reference 'CANON-00012-MODAL_SEQUENCE'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:260
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:260
 
 ERROR [UNDEFINED-REF:265] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:265
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:265
 
 ERROR [UNDEFINED-REF:269] Undefined reference 'CANON-00013-QUICKSTART'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:269
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:269
 
 ERROR [UNDEFINED-REF:273] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:273
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:273
 
 ERROR [UNDEFINED-REF:277] Undefined reference 'CANON-00014-CONTENT_PROTOCOL'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:277
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:277
 
 ERROR [UNDEFINED-REF:281] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:281
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:281
 
 ERROR [UNDEFINED-REF:291] Undefined reference 'CANON-00010'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:291
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:291
 
 ERROR [UNDEFINED-REF:291] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:291
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:291
 
 ERROR [UNDEFINED-REF:291] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:291
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:291
 
 ERROR [UNDEFINED-REF:292] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:292
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:292
 
 ERROR [UNDEFINED-REF:293] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:293
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:293
 
 ERROR [UNDEFINED-REF:294] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:294
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:294
 
 ERROR [UNDEFINED-REF:295] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:295
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:295
 
 ERROR [UNDEFINED-REF:295] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:295
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:295
 
 ERROR [UNDEFINED-REF:295] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:295
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:295
 
 ERROR [UNDEFINED-REF:296] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:296
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:296
 
 ERROR [UNDEFINED-REF:296] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:296
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:296
 
 ERROR [UNDEFINED-REF:296] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:296
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:296
 
 ERROR [UNDEFINED-REF:302] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:302
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:302
 
 ERROR [UNDEFINED-REF:303] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:303
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:303
 
 ERROR [UNDEFINED-REF:304] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:304
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:304
 
 ERROR [UNDEFINED-REF:310] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:310
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:310
 
 ERROR [UNDEFINED-REF:317] Undefined reference 'CANON-00010'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:317
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:317
 
 ERROR [UNDEFINED-REF:318] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:318
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:318
 
 ERROR [UNDEFINED-REF:319] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:319
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:319
 
 ERROR [UNDEFINED-REF:320] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:320
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:320
 
 ERROR [UNDEFINED-REF:321] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:321
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:321
 
 ERROR [UNDEFINED-REF:322] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:322
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:322
 
 ERROR [UNDEFINED-REF:329] Undefined reference 'CANON-30330'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:329
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:329
 
 ERROR [UNDEFINED-REF:330] Undefined reference 'CANON-30340'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:330
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:330
 
 ERROR [UNDEFINED-REF:331] Undefined reference 'QUEUE-36200'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:331
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:331
 
 ERROR [UNDEFINED-REF:334] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:334
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:334
 
 ERROR [UNDEFINED-REF:335] Undefined reference 'CANON-30330'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:335
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:335
 
 ERROR [UNDEFINED-REF:335] Undefined reference 'CANON-30340'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:335
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:335
 
 ERROR [UNDEFINED-REF:336] Undefined reference 'QUEUE-36200'
---> 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:336
+--> 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:336
 
 ERROR [UNDEFINED-REF:5] Undefined reference 'CANON-99000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:5
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:5
 
 ERROR [UNDEFINED-REF:51] Undefined reference 'CANON-1'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:51
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:51
 
 ERROR [UNDEFINED-REF:51] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:51
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:51
 
 ERROR [UNDEFINED-REF:87] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:87
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:87
 
 ERROR [UNDEFINED-REF:88] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:88
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:88
 
 ERROR [UNDEFINED-REF:89] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:89
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:89
 
 ERROR [UNDEFINED-REF:90] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:90
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:90
 
 ERROR [UNDEFINED-REF:93] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:93
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:93
 
 ERROR [UNDEFINED-REF:101] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:101
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:101
 
 ERROR [UNDEFINED-REF:102] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:102
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:102
 
 ERROR [UNDEFINED-REF:103] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:103
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:103
 
 ERROR [UNDEFINED-REF:104] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:104
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:104
 
 ERROR [UNDEFINED-REF:104] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:104
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:104
 
 ERROR [UNDEFINED-REF:105] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:105
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:105
 
 ERROR [UNDEFINED-REF:125] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:125
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:125
 
 ERROR [UNDEFINED-REF:126] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:126
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:126
 
 ERROR [UNDEFINED-REF:127] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:127
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:127
 
 ERROR [UNDEFINED-REF:128] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:128
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:128
 
 ERROR [UNDEFINED-REF:142] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:142
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:142
 
 ERROR [UNDEFINED-REF:142] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:142
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:142
 
 ERROR [UNDEFINED-REF:143] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:143
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:143
 
 ERROR [UNDEFINED-REF:143] Undefined reference 'CANON-34120'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:143
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:143
 
 ERROR [UNDEFINED-REF:147] Undefined reference 'CANON-30450'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:147
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:147
 
 ERROR [UNDEFINED-REF:178] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:178
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:178
 
 ERROR [UNDEFINED-REF:179] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:179
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:179
 
 ERROR [UNDEFINED-REF:180] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:180
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:180
 
 ERROR [UNDEFINED-REF:181] Undefined reference 'CANON-33111'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:181
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:181
 
 ERROR [UNDEFINED-REF:182] Undefined reference 'CANON-31130'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:182
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:182
 
 ERROR [UNDEFINED-REF:209] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:209
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:209
 
 ERROR [UNDEFINED-REF:210] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:210
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:210
 
 ERROR [UNDEFINED-REF:211] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:211
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:211
 
 ERROR [UNDEFINED-REF:212] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:212
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:212
 
 ERROR [UNDEFINED-REF:213] Undefined reference 'CANON-35200'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:213
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:213
 
 ERROR [UNDEFINED-REF:214] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:214
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:214
 
 ERROR [UNDEFINED-REF:215] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:215
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:215
 
 ERROR [UNDEFINED-REF:225] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:225
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:225
 
 ERROR [UNDEFINED-REF:225] Undefined reference 'CANON-24000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:225
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:225
 
 ERROR [UNDEFINED-REF:226] Undefined reference 'CANON-99000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:226
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:226
 
 ERROR [UNDEFINED-REF:252] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:252
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:252
 
 ERROR [UNDEFINED-REF:253] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:253
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:253
 
 ERROR [UNDEFINED-REF:254] Undefined reference 'CANON-00002'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:254
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:254
 
 ERROR [UNDEFINED-REF:255] Undefined reference 'CANON-00003'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:255
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:255
 
 ERROR [UNDEFINED-REF:256] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:256
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:256
 
 ERROR [UNDEFINED-REF:257] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:257
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:257
 
 ERROR [UNDEFINED-REF:258] Undefined reference 'CANON-00006'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:258
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:258
 
 ERROR [UNDEFINED-REF:259] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:259
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:259
 
 ERROR [UNDEFINED-REF:260] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:260
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:260
 
 ERROR [UNDEFINED-REF:261] Undefined reference 'CANON-00009'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:261
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:261
 
 ERROR [UNDEFINED-REF:262] Undefined reference 'CANON-00010'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:262
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:262
 
 ERROR [UNDEFINED-REF:268] Undefined reference 'CANON-10000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:268
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:268
 
 ERROR [UNDEFINED-REF:269] Undefined reference 'CANON-11000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:269
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:269
 
 ERROR [UNDEFINED-REF:275] Undefined reference 'CANON-20000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:275
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:275
 
 ERROR [UNDEFINED-REF:276] Undefined reference 'CANON-21000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:276
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:276
 
 ERROR [UNDEFINED-REF:277] Undefined reference 'CANON-21100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:277
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:277
 
 ERROR [UNDEFINED-REF:278] Undefined reference 'CANON-22000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:278
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:278
 
 ERROR [UNDEFINED-REF:279] Undefined reference 'CANON-23000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:279
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:279
 
 ERROR [UNDEFINED-REF:280] Undefined reference 'CANON-24000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:280
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:280
 
 ERROR [UNDEFINED-REF:281] Undefined reference 'CANON-25000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:281
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:281
 
 ERROR [UNDEFINED-REF:282] Undefined reference 'CANON-25100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:282
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:282
 
 ERROR [UNDEFINED-REF:290] Undefined reference 'CANON-30000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:290
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:290
 
 ERROR [UNDEFINED-REF:291] Undefined reference 'CANON-30100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:291
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:291
 
 ERROR [UNDEFINED-REF:292] Undefined reference 'CANON-30200'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:292
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:292
 
 ERROR [UNDEFINED-REF:293] Undefined reference 'CANON-30300'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:293
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:293
 
 ERROR [UNDEFINED-REF:294] Undefined reference 'CANON-30310'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:294
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:294
 
 ERROR [UNDEFINED-REF:295] Undefined reference 'CANON-30320'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:295
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:295
 
 ERROR [UNDEFINED-REF:296] Undefined reference 'CANON-30400'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:296
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:296
 
 ERROR [UNDEFINED-REF:297] Undefined reference 'CANON-30410'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:297
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:297
 
 ERROR [UNDEFINED-REF:298] Undefined reference 'CANON-30420'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:298
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:298
 
 ERROR [UNDEFINED-REF:299] Undefined reference 'CANON-30430'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:299
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:299
 
 ERROR [UNDEFINED-REF:300] Undefined reference 'CANON-30440'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:300
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:300
 
 ERROR [UNDEFINED-REF:301] Undefined reference 'CANON-30450'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:301
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:301
 
 ERROR [UNDEFINED-REF:307] Undefined reference 'CANON-31000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:307
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:307
 
 ERROR [UNDEFINED-REF:308] Undefined reference 'CANON-31100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:308
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:308
 
 ERROR [UNDEFINED-REF:309] Undefined reference 'CANON-31110'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:309
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:309
 
 ERROR [UNDEFINED-REF:310] Undefined reference 'CANON-31115'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:310
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:310
 
 ERROR [UNDEFINED-REF:311] Undefined reference 'CANON-31120'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:311
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:311
 
 ERROR [UNDEFINED-REF:312] Undefined reference 'CANON-31121'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:312
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:312
 
 ERROR [UNDEFINED-REF:313] Undefined reference 'CANON-31122'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:313
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:313
 
 ERROR [UNDEFINED-REF:314] Undefined reference 'CANON-31130'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:314
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:314
 
 ERROR [UNDEFINED-REF:315] Undefined reference 'CANON-31140'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:315
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:315
 
 ERROR [UNDEFINED-REF:316] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:316
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:316
 
 ERROR [UNDEFINED-REF:317] Undefined reference 'CANON-31142'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:317
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:317
 
 ERROR [UNDEFINED-REF:318] Undefined reference 'CANON-31143'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:318
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:318
 
 ERROR [UNDEFINED-REF:324] Undefined reference 'CANON-32000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:324
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:324
 
 ERROR [UNDEFINED-REF:325] Undefined reference 'CANON-32100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:325
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:325
 
 ERROR [UNDEFINED-REF:326] Undefined reference 'CANON-32110'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:326
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:326
 
 ERROR [UNDEFINED-REF:327] Undefined reference 'CANON-32120'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:327
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:327
 
 ERROR [UNDEFINED-REF:333] Undefined reference 'CANON-33000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:333
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:333
 
 ERROR [UNDEFINED-REF:334] Undefined reference 'CANON-33100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:334
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:334
 
 ERROR [UNDEFINED-REF:335] Undefined reference 'CANON-33110'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:335
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:335
 
 ERROR [UNDEFINED-REF:336] Undefined reference 'CANON-33111'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:336
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:336
 
 ERROR [UNDEFINED-REF:337] Undefined reference 'CANON-33112'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:337
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:337
 
 ERROR [UNDEFINED-REF:343] Undefined reference 'CANON-34000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:343
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:343
 
 ERROR [UNDEFINED-REF:344] Undefined reference 'CANON-34100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:344
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:344
 
 ERROR [UNDEFINED-REF:345] Undefined reference 'CANON-34110'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:345
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:345
 
 ERROR [UNDEFINED-REF:346] Undefined reference 'CANON-34120'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:346
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:346
 
 ERROR [UNDEFINED-REF:352] Undefined reference 'CANON-35000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:352
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:352
 
 ERROR [UNDEFINED-REF:353] Undefined reference 'CANON-35100'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:353
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:353
 
 ERROR [UNDEFINED-REF:354] Undefined reference 'CANON-35110'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:354
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:354
 
 ERROR [UNDEFINED-REF:355] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:355
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:355
 
 ERROR [UNDEFINED-REF:356] Undefined reference 'CANON-35121'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:356
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:356
 
 ERROR [UNDEFINED-REF:357] Undefined reference 'CANON-35200'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:357
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:357
 
 ERROR [UNDEFINED-REF:363] Undefined reference 'CANON-99000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:363
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:363
 
 ERROR [UNDEFINED-REF:396] Undefined reference 'CANON-34110'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:396
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:396
 
 ERROR [UNDEFINED-REF:406] Undefined reference 'CANON-99000'
---> 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:406
+--> 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:406
 
 ERROR [UNDEFINED-REF:4] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:4
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:4
 
 ERROR [UNDEFINED-REF:4] Undefined reference 'CANON-00014'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:4
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:4
 
 ERROR [UNDEFINED-REF:29] Undefined reference 'CANON-00008'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:29
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:29
 
 ERROR [UNDEFINED-REF:29] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:29
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:29
 
 ERROR [UNDEFINED-REF:32] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:32
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:32
 
 ERROR [UNDEFINED-REF:34] Undefined reference 'CANON-00001'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:34
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:34
 
 ERROR [UNDEFINED-REF:34] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:34
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:34
 
 ERROR [UNDEFINED-REF:43] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:43
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:43
 
 ERROR [UNDEFINED-REF:61] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:61
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:61
 
 ERROR [UNDEFINED-REF:75] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:75
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:75
 
 ERROR [UNDEFINED-REF:76] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:76
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:76
 
 ERROR [UNDEFINED-REF:76] Undefined reference 'CANON-00009'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:76
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:76
 
 ERROR [UNDEFINED-REF:78] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:78
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:78
 
 ERROR [UNDEFINED-REF:78] Undefined reference 'CANON-00009'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:78
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:78
 
 ERROR [UNDEFINED-REF:86] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:86
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:86
 
 ERROR [UNDEFINED-REF:110] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:110
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:110
 
 ERROR [UNDEFINED-REF:111] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:111
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:111
 
 ERROR [UNDEFINED-REF:112] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:112
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:112
 
 ERROR [UNDEFINED-REF:120] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:120
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:120
 
 ERROR [UNDEFINED-REF:129] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:129
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:129
 
 ERROR [UNDEFINED-REF:136] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:136
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:136
 
 ERROR [UNDEFINED-REF:165] Undefined reference 'CANON-00005-SYNCRESCENDENCE'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:165
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:165
 
 ERROR [UNDEFINED-REF:191] Undefined reference 'CANON-31141-FIVE_ACCOUNT'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:191
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:191
 
 ERROR [UNDEFINED-REF:206] Undefined reference 'CANON-00004-EVOLUTION'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:206
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:206
 
 ERROR [UNDEFINED-REF:217] Undefined reference 'CANON-00004-EVOLUTION'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:217
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:217
 
 ERROR [UNDEFINED-REF:238] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:238
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:238
 
 ERROR [UNDEFINED-REF:264] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:264
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:264
 
 ERROR [UNDEFINED-REF:272] Undefined reference 'CANON-00004-EVOLUTION'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:272
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:272
 
 ERROR [UNDEFINED-REF:275] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:275
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:275
 
 ERROR [UNDEFINED-REF:276] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:276
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:276
 
 ERROR [UNDEFINED-REF:287] Undefined reference 'CANON-00004'
---> 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:287
+--> 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:287
 
 ERROR [UNDEFINED-REF:18] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:18
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:18
 
 ERROR [UNDEFINED-REF:18] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:18
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:18
 
 ERROR [UNDEFINED-REF:73] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:73
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:73
 
 ERROR [UNDEFINED-REF:97] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:97
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:97
 
 ERROR [UNDEFINED-REF:111] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:111
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:111
 
 ERROR [UNDEFINED-REF:115] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:115
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:115
 
 ERROR [UNDEFINED-REF:115] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:115
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:115
 
 ERROR [UNDEFINED-REF:165] Undefined reference 'CANON-35120'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:165
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:165
 
 ERROR [UNDEFINED-REF:193] Undefined reference 'CANON-17'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:193
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:193
 
 ERROR [UNDEFINED-REF:193] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:193
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:193
 
 ERROR [UNDEFINED-REF:195] Undefined reference 'CANON-XXXXX'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:195
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:195
 
 ERROR [UNDEFINED-REF:206] Undefined reference 'CANON-00xxx'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:206
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:206
 
 ERROR [UNDEFINED-REF:254] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:254
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:254
 
 ERROR [UNDEFINED-REF:262] Undefined reference 'QUEUE-36000'
---> 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:262
+--> 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:262
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:39
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:39
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'CANON-1'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:39
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:39
 
 ERROR [UNDEFINED-REF:39] Undefined reference 'CANON-17'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:39
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:39
 
 ERROR [UNDEFINED-REF:40] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:40
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:40
 
 ERROR [UNDEFINED-REF:41] Undefined reference 'CANON-31120'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:41
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:41
 
 ERROR [UNDEFINED-REF:42] Undefined reference 'CANON-31122'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:42
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:42
 
 ERROR [UNDEFINED-REF:52] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:52
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:52
 
 ERROR [UNDEFINED-REF:53] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:53
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:53
 
 ERROR [UNDEFINED-REF:53] Undefined reference 'CANON-1'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:53
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:53
 
 ERROR [UNDEFINED-REF:53] Undefined reference 'CANON-17'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:53
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:53
 
 ERROR [UNDEFINED-REF:54] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:54
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:54
 
 ERROR [UNDEFINED-REF:54] Undefined reference 'CANON-1'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:54
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:54
 
 ERROR [UNDEFINED-REF:54] Undefined reference 'CANON-17'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:54
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:54
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-21000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:55
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:55
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-09'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:55
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:55
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-14'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:55
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:55
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-30000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:55
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:55
 
 ERROR [UNDEFINED-REF:55] Undefined reference 'CANON-35000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:55
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:55
 
 ERROR [UNDEFINED-REF:56] Undefined reference 'CANON-35110'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:56
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:56
 
 ERROR [UNDEFINED-REF:56] Undefined reference 'CANON-07'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:56
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:56
 
 ERROR [UNDEFINED-REF:56] Undefined reference 'CANON-35100'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:56
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:56
 
 ERROR [UNDEFINED-REF:57] Undefined reference 'CANON-34120'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:57
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:57
 
 ERROR [UNDEFINED-REF:57] Undefined reference 'CANON-06'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:57
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:57
 
 ERROR [UNDEFINED-REF:57] Undefined reference 'CANON-34100'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:57
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:57
 
 ERROR [UNDEFINED-REF:59] Undefined reference 'CANON-21000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:59
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:59
 
 ERROR [UNDEFINED-REF:97] Undefined reference 'CANON-35xxx'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:97
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:97
 
 ERROR [UNDEFINED-REF:133] Undefined reference 'CANON-21000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:133
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:133
 
 ERROR [UNDEFINED-REF:134] Undefined reference 'CANON-23000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:134
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:134
 
 ERROR [UNDEFINED-REF:135] Undefined reference 'CANON-30000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:135
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:135
 
 ERROR [UNDEFINED-REF:144] Undefined reference 'CANON-00000'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:144
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:144
 
 ERROR [UNDEFINED-REF:151] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:151
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:151
 
 ERROR [UNDEFINED-REF:171] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:171
+--> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:171
 
 ERROR [UNDEFINED-REF:105] Undefined reference 'CANON-25010'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:105
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:105
 
 ERROR [UNDEFINED-REF:138] Undefined reference 'CANON-25010'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:138
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:138
 
 ERROR [UNDEFINED-REF:139] Undefined reference 'CANON-25210'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:139
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:139
 
 ERROR [UNDEFINED-REF:144] Undefined reference 'CANON-25010'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:144
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:144
 
 ERROR [UNDEFINED-REF:146] Undefined reference 'CANON-25210'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:146
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:146
 
 ERROR [UNDEFINED-REF:232] Undefined reference 'CANON-25210'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:232
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:232
 
 ERROR [UNDEFINED-REF:238] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:238
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:238
 
 ERROR [UNDEFINED-REF:345] Undefined reference 'CANON-25010'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:345
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:345
 
 ERROR [UNDEFINED-REF:346] Undefined reference 'CANON-25210'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:346
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:346
 
 ERROR [UNDEFINED-REF:347] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:347
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:347
 
 ERROR [UNDEFINED-REF:348] Undefined reference 'CANON-00007'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:348
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:348
 
 ERROR [UNDEFINED-REF:351] Undefined reference 'CANON-252xx'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:351
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:351
 
 ERROR [UNDEFINED-REF:370] Undefined reference 'DIR-YYYYMMDD-X'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:370
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:370
 
 ERROR [UNDEFINED-REF:408] Undefined reference 'CANON-25010'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:408
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:408
 
 ERROR [UNDEFINED-REF:409] Undefined reference 'CANON-25210'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:409
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:409
 
 ERROR [UNDEFINED-REF:125] Undefined reference 'CANON-31115'
---> 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:125
+--> 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:125
 
 ERROR [UNDEFINED-REF:270] Undefined reference 'CANON-25010'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:270
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:270
 
 ERROR [UNDEFINED-REF:270] Undefined reference 'CANON-00012'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:270
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:270
 
 ERROR [UNDEFINED-REF:274] Undefined reference 'CANON-ID'
---> 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:274
+--> 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:274
 
 ERROR [UNDEFINED-REF:245] Undefined reference 'CANON-00005'
---> 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:245
+--> 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:245
 
 ERROR [UNDEFINED-REF:245] Undefined reference 'CANON-31141'
---> 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:245
+--> 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:245
 
 ERROR [UNDEFINED-REF:245] Undefined reference 'CANON-31143'
---> 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:245
+--> 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:245
 
 ERROR [UNDEFINED-REF:35] Undefined reference 'CANON-30400'
---> 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:35
+--> 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:35
 
 ERROR [UNDEFINED-REF:118] Undefined reference 'CANON-30400'
---> 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:118
+--> 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:118
 
 ERROR [UNDEFINED-REF:2] Undefined reference 'CANON-00012'
 --> 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:2
@@ -103996,10 +103996,10 @@ ERROR [UNUSED-DEF:1] Definition '.DS_Store' is never referenced
 --> 00-ORCHESTRATION/blackboard/.DS_Store:1
 
 ERROR [UNUSED-DEF:1] Definition '.DS_Store' is never referenced
---> 02-OPERATIONAL/.DS_Store:1
+--> 02-ENGINE/.DS_Store:1
 
 ERROR [UNUSED-DEF:1] Definition '.DS_Store' is never referenced
---> 02-OPERATIONAL/prompts/.DS_Store:1
+--> 02-ENGINE/prompts/.DS_Store:1
 
 ERROR [UNUSED-DEF:1] Definition '.DS_Store' is never referenced
 --> 06-EXEMPLA/.DS_Store:1
@@ -104044,7 +104044,7 @@ ERROR [UNUSED-DEF:1] Definition '.DS_Store' is never referenced
 --> -OUTGOING/20260122/.DS_Store:1
 
 ERROR [UNUSED-DEF:1] Definition '.DS_Store' is never referenced
---> 05-ARCHIVE/.DS_Store:1
+--> 05-MEMORY/.DS_Store:1
 
 ERROR [UNUSED-DEF:1] Definition '.DS_Store' is never referenced
 --> .constellation/.DS_Store:1
@@ -104092,37 +104092,37 @@ ERROR [UNUSED-DEF:1] Definition 'REF-DECISION_ATOMS' is never referenced
 --> 00-ORCHESTRATION/state/REF-DECISION_ATOMS.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'DYN-PLATFORMS' is never referenced
---> 02-OPERATIONAL/registries/DYN-PLATFORMS.csv:1
+--> 02-ENGINE/registries/DYN-PLATFORMS.csv:1
 
 ERROR [UNUSED-DEF:1] Definition 'DYN-CONSTELLATION_CONFIGURATION' is never referenced
---> 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:1
+--> 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:1
 
 ERROR [UNUSED-DEF:1] Definition 'DYN-ACCOUNTS' is never referenced
---> 02-OPERATIONAL/registries/DYN-ACCOUNTS.csv:1
+--> 02-ENGINE/registries/DYN-ACCOUNTS.csv:1
 
 ERROR [UNUSED-DEF:1] Definition 'DYN-ROLES' is never referenced
---> 02-OPERATIONAL/registries/DYN-ROLES.csv:1
+--> 02-ENGINE/registries/DYN-ROLES.csv:1
 
 ERROR [UNUSED-DEF:1] Definition 'REF-CONFIGURATION_REGISTRY' is never referenced
---> 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md:1
+--> 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'REF-HANDOFF_PROTOCOL_DESIGN' is never referenced
---> 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:1
+--> 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'MODEL_PROFILE-Claude-4.5-Opus' is never referenced
---> 02-OPERATIONAL/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml:1
+--> 02-ENGINE/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml:1
 
 ERROR [UNUSED-DEF:1] Definition 'PROMPT-CHATGPT-COMPILER_HANDOFF' is never referenced
---> 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:1
+--> 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'MODEL_PROFILE-Claude-4.1-Opus' is never referenced
---> 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml:1
+--> 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml:1
 
 ERROR [UNUSED-DEF:1] Definition 'MODEL_PROFILE-Gemini-2.5-Pro' is never referenced
---> 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml:1
+--> 02-ENGINE/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml:1
 
 ERROR [UNUSED-DEF:1] Definition 'REF-STATE_FINGERPRINT_PROTOCOL' is never referenced
---> 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:1
+--> 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:1
 
 ERROR [UNUSED-DEF:1] Definition '15627' is never referenced
 --> .tmp.driveupload/15627:1
@@ -104272,40 +104272,40 @@ ERROR [UNUSED-DEF:1] Definition 'distributed_systems_architect' is never referen
 --> -OUTGOING/20260122/gemini/distributed_systems_architect.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-COCKPIT-v1' is never referenced
---> 05-ARCHIVE/ARCH-COCKPIT-v1.md:1
+--> 05-MEMORY/ARCH-COCKPIT-v1.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-constellation-bifurcated-architecture' is never referenced
---> 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:1
+--> 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-constellation-architecture-v1' is never referenced
---> 05-ARCHIVE/ARCH-constellation-architecture-v1.md:1
+--> 05-MEMORY/ARCH-constellation-architecture-v1.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-constellation-architecture-v1' is never referenced
---> 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx:1
+--> 05-MEMORY/ARCH-constellation-architecture-v1.jsx:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-final_interactions' is never referenced
---> 05-ARCHIVE/ARCH-final_interactions.md:1
+--> 05-MEMORY/ARCH-final_interactions.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-LENS_ANALYSIS_HANDOFF' is never referenced
---> 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:1
+--> 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-constellation-process-flow' is never referenced
---> 05-ARCHIVE/ARCH-constellation-process-flow.jsx:1
+--> 05-MEMORY/ARCH-constellation-process-flow.jsx:1
 
 ERROR [UNUSED-DEF:1] Definition 'most_recent_completion' is never referenced
---> 05-ARCHIVE/most_recent_completion.zip:1
+--> 05-MEMORY/most_recent_completion.zip:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCH-oracle_suggestions' is never referenced
---> 05-ARCHIVE/ARCH-oracle_suggestions.md:1
+--> 05-MEMORY/ARCH-oracle_suggestions.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ARCHIVE-SYSTEM-PROMPTS-v2.1' is never referenced
---> 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:1
+--> 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ORACLE10_CONTEXT-superseded' is never referenced
---> 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:1
+--> 05-MEMORY/ORACLE10_CONTEXT-superseded.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'ASSEMBLED_SYSTEM_PROMPTS_v2.1' is never referenced
---> 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:1
+--> 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:1
 
 ERROR [UNUSED-DEF:1] Definition 'CANON-25010-MEMORY_TELEOLOGY-lattice' is never referenced
 --> 01-CANON/CANON-25010-MEMORY_TELEOLOGY-lattice.md:1
@@ -104360,8 +104360,8 @@ Definition(s):
 - -INBOX/.DS_Store
 - 00-ORCHESTRATION/.DS_Store
 - 00-ORCHESTRATION/blackboard/.DS_Store
-- 02-OPERATIONAL/.DS_Store
-- 02-OPERATIONAL/prompts/.DS_Store
+- 02-ENGINE/.DS_Store
+- 02-ENGINE/prompts/.DS_Store
 - 06-EXEMPLA/.DS_Store
 - .claude/.DS_Store
 - .claude/commands/.DS_Store
@@ -104376,7 +104376,7 @@ Definition(s):
 - -OUTGOING/20260119-corpus-annealment-survey/.DS_Store
 - -OUTGOING/20250122/.DS_Store
 - -OUTGOING/20260122/.DS_Store
-- 05-ARCHIVE/.DS_Store
+- 05-MEMORY/.DS_Store
 - .constellation/.DS_Store
 - .constellation/tokens/.DS_Store
 - 03-QUEUE/.DS_Store
@@ -106009,13 +106009,13 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-034B.md:88
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:116
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:368
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:98
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:98
 - 03-QUEUE/QUEUE_DISPOSITION.md:69
 - 03-QUEUE/QUEUE_DISPOSITION.md:100
 
 ### AI_Academic_Research
 Definition(s):
-- 02-OPERATIONAL/surveys/AI_Academic_Research.md
+- 02-ENGINE/surveys/AI_Academic_Research.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-034D_PROJECT_MANAGEMENT.md:584
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:161
@@ -106041,15 +106041,15 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:129
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:179
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:346
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:99
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:134
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:99
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:134
 - 03-QUEUE/QUEUE_DISPOSITION.md:72
 - 03-QUEUE/QUEUE_DISPOSITION.md:87
 - 03-QUEUE/QUEUE_DISPOSITION.md:122
 
 ### AI_ECOSYSTEM_SURVEY
 Definition(s):
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-034D_PROJECT_MANAGEMENT.md:570
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:304
@@ -106080,15 +106080,15 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:44
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:128
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:93
-- 02-OPERATIONAL/models/MODEL_INDEX.md:186
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:130
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:131
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:132
+- 02-ENGINE/models/MODEL_INDEX.md:186
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:130
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:131
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:132
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:347
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:148
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:93
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:113
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:130
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:148
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:93
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:113
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:130
 - 03-QUEUE/QUEUE_DISPOSITION.md:23
 - 03-QUEUE/QUEUE_DISPOSITION.md:30
 - 03-QUEUE/QUEUE_DISPOSITION.md:117
@@ -106115,7 +106115,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-034B.md:90
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:117
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:369
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:100
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:100
 - 03-QUEUE/QUEUE_DISPOSITION.md:68
 - 03-QUEUE/QUEUE_DISPOSITION.md:99
 
@@ -106136,16 +106136,16 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-034B.md:91
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:118
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:370
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:101
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:101
 - 03-QUEUE/QUEUE_DISPOSITION.md:70
 - 03-QUEUE/QUEUE_DISPOSITION.md:101
 
 ### AJNA5-TRANSITION-PACKET
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md
 Usage(s):
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:40
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:157
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:157
 
 ### APHORISMS
 Definition(s):
@@ -106162,33 +106162,33 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:43
 - 06-EXEMPLA/README.md:20
 - 06-EXEMPLA/README.md:61
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:224
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:479
-- 05-ARCHIVE/chorus-session-20260122/README.md:27
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:224
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:479
+- 05-MEMORY/chorus-session-20260122/README.md:27
 
 ### ARCH-BLITZKRIEG_042_GUIDE
 Definition(s):
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:875
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:622
 
 ### ARCH-BLITZKRIEG_043_GUIDE
 Definition(s):
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:876
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:623
 
 ### ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE
 Definition(s):
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:877
 
 ### ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE
 Definition(s):
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:878
 
@@ -106200,7 +106200,7 @@ Usage(s):
 
 ### ARCH-COCKPIT-v1
 Definition(s):
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md
+- 05-MEMORY/ARCH-COCKPIT-v1.md
 Usage(s):
 - (none)
 
@@ -106212,13 +106212,13 @@ Usage(s):
 
 ### ARCH-COGNITIVE_PROFILE_2026-01
 Definition(s):
-- 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md
+- 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:879
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:13
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:110
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:624
-- 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md:2
+- 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md:2
 
 ### ARCH-COHERENCE_ABSORPTION_AUDIT
 Definition(s):
@@ -106238,9 +106238,9 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:348
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:27
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:158
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:14
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:54
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:251
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:14
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:54
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:251
 
 ### ARCH-DESIGN_DECISIONS
 Definition(s):
@@ -106252,9 +106252,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:28
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:159
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:209
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:15
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:55
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:252
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:15
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:55
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:252
 
 ### ARCH-DESIGN_DECISIONS_ROOT
 Definition(s):
@@ -106264,16 +106264,16 @@ Usage(s):
 
 ### ARCH-FRONTIER_MODELS_2026-01
 Definition(s):
-- 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md
+- 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:881
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:14
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:111
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:89
-- 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md:122
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:89
+- 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md:122
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:625
-- 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:2
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:81
+- 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:2
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:81
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:333
 
 ### ARCH-INTENTION_COMPASS
@@ -106329,9 +106329,9 @@ Usage(s):
 - .claude/skills/intentions.md:159
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:160
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/06_CRASHOUT_PREVENTION_AND_RECOVERY.md:318
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:135
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:150
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:55
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:135
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:150
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:55
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:515
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:532
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:570
@@ -106344,7 +106344,7 @@ Usage(s):
 
 ### ARCH-LENS_ANALYSIS_HANDOFF
 Definition(s):
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md
 Usage(s):
 - (none)
 
@@ -106356,25 +106356,25 @@ Usage(s):
 
 ### ARCH-ORACLE10_CONTEXT_root
 Definition(s):
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:886
 
 ### ARCH-ORACLE10_CONTEXT_v2
 Definition(s):
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:887
 
 ### ARCH-ORACLE10_CONTEXT_v3
 Definition(s):
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:888
 
 ### ARCH-ORACLE10_CONTEXT_v4
 Definition(s):
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:889
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:70
@@ -106388,9 +106388,9 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:354
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:29
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:161
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:16
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:56
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:253
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:16
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:56
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:253
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:530
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:568
 
@@ -106404,25 +106404,25 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:30
 - 00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md:152
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:162
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:17
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:57
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:254
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:17
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:57
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:254
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:531
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:569
 - 01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md:90
 
 ### ARCH-PLATFORM_FEATURES_2026-01
 Definition(s):
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:890
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:15
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:112
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:90
-- 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md:123
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:90
+- 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md:123
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:626
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:2
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:82
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:2
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:82
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:334
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:997
 
@@ -106434,7 +106434,7 @@ Usage(s):
 
 ### ARCH-RECONNAISSANCE_2026-01
 Definition(s):
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B.md:47
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B.md:60
@@ -106444,12 +106444,12 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:16
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:109
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:627
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:139
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:2
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:139
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:2
 
 ### ARCH-REVIEW_VS_RETROSPECTIVE
 Definition(s):
-- 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md
+- 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:894
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:628
@@ -106485,84 +106485,84 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045A.md:152
 - .claude/skills/pedigree.md:168
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:163
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:56
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:56
 
 ### ARCH-constellation-architecture-v1
 Definition(s):
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx
+- 05-MEMORY/ARCH-constellation-architecture-v1.md
+- 05-MEMORY/ARCH-constellation-architecture-v1.jsx
 Usage(s):
 - (none)
 
 ### ARCH-constellation-bifurcated-architecture
 Definition(s):
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx
 Usage(s):
 - (none)
 
 ### ARCH-constellation-process-flow
 Definition(s):
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx
+- 05-MEMORY/ARCH-constellation-process-flow.jsx
 Usage(s):
 - (none)
 
 ### ARCH-deviser1_continuity
 Definition(s):
-- 05-ARCHIVE/ARCH-deviser1_continuity.md
+- 05-MEMORY/ARCH-deviser1_continuity.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:880
 
 ### ARCH-final_interactions
 Definition(s):
-- 05-ARCHIVE/ARCH-final_interactions.md
+- 05-MEMORY/ARCH-final_interactions.md
 Usage(s):
 - (none)
 
 ### ARCH-frontier_models
 Definition(s):
-- 05-ARCHIVE/ARCH-frontier_models.md
+- 05-MEMORY/ARCH-frontier_models.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:882
 
 ### ARCH-oracle_memories
 Definition(s):
-- 05-ARCHIVE/ARCH-oracle_memories.md
+- 05-MEMORY/ARCH-oracle_memories.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:883
 
 ### ARCH-oracle_process_archaelogy
 Definition(s):
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:884
 
 ### ARCH-oracle_suggestions
 Definition(s):
-- 05-ARCHIVE/ARCH-oracle_suggestions.md
+- 05-MEMORY/ARCH-oracle_suggestions.md
 Usage(s):
 - (none)
 
 ### ARCH-oracle_verification_manifest
 Definition(s):
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md
+- 05-MEMORY/ARCH-oracle_verification_manifest.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:885
 
 ### ARCH-platform_features
 Definition(s):
-- 05-ARCHIVE/ARCH-platform_features.md
+- 05-MEMORY/ARCH-platform_features.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:891
 
 ### ARCH-previous_thread
 Definition(s):
-- 05-ARCHIVE/ARCH-previous_thread.md
+- 05-MEMORY/ARCH-previous_thread.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:892
 
 ### ARCHIVE-ARTIFACT-PATTERN-LANGUAGE
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md
+- 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-035A_COHERENCE_DISTILLATION.md:377
 - 00-ORCHESTRATION/directives/DIRECTIVE-035A_COHERENCE_DISTILLATION.md:482
@@ -106579,7 +106579,7 @@ Usage(s):
 
 ### ARCHIVE-ARTIFACT-SYSTEM
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-ARTIFACT-SYSTEM.md
+- 05-MEMORY/ARCHIVE-ARTIFACT-SYSTEM.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-034B_ORCHESTRATION_HYGIENE.md:293
 - 00-ORCHESTRATION/directives/DIRECTIVE-020A_PHASE2_ALPHA.md:29
@@ -106594,7 +106594,7 @@ Usage(s):
 
 ### ARCHIVE-AUTOPSYCHOGRAPHY
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:916
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-037A.md:86
@@ -106603,7 +106603,7 @@ Usage(s):
 
 ### ARCHIVE-COGNITIVE-PALACE-FULL
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md
 Usage(s):
 - 00-ORCHESTRATION/state/tasks.csv.bak.1767947262:16
 - 00-ORCHESTRATION/state/DYN-TREE.md:917
@@ -106618,7 +106618,7 @@ Usage(s):
 
 ### ARCHIVE-COGNITIVE-PALACE-SPECS
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-034B_ORCHESTRATION_HYGIENE.md:294
 - 00-ORCHESTRATION/directives/DIRECTIVE-035A_COHERENCE_DISTILLATION.md:95
@@ -106635,7 +106635,7 @@ Usage(s):
 
 ### ARCHIVE-METAHUMANISM-FULL
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md
+- 05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md
 Usage(s):
 - 00-ORCHESTRATION/state/tasks.csv.bak.1767947262:17
 - 00-ORCHESTRATION/state/DYN-TREE.md:919
@@ -106651,7 +106651,7 @@ Usage(s):
 
 ### ARCHIVE-PROMPT-ARCHAEOLOGY
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md
+- 05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:73
 - 00-ORCHESTRATION/directives/DIRECTIVE-036C-ORACLE9-ACTUAL-COMPLETION.md:272
@@ -106665,20 +106665,20 @@ Usage(s):
 
 ### ARCHIVE-QUICK_WINS-2026-01-09
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:921
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:636
 
 ### ARCHIVE-SYSTEM-PROMPTS-v2.1
 Definition(s):
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md
 Usage(s):
 - (none)
 
 ### ASSEMBLED_SYSTEM_PROMPTS_v2.1
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md
 Usage(s):
 - (none)
 
@@ -106724,7 +106724,7 @@ Usage(s):
 
 ### BLITZKRIEG_PROTOCOL
 Definition(s):
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:476
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:7
@@ -106781,20 +106781,20 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-01-029.md:88
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:196
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:31
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:58
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:102
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:109
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:198
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:224
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:289
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:326
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:496
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:115
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:194
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:369
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:106
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:264
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:295
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:58
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:102
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:109
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:198
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:224
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:289
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:326
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:496
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:115
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:194
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:369
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:106
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:264
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:295
 
 ### CANON-00001-ORIGIN-cosmos
 Definition(s):
@@ -106811,7 +106811,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/RECONSOLIDATION_AUDIT-2026-01-02.md:154
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:197
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:32
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:265
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:265
 
 ### CANON-00002-LINEAGE-cosmos
 Definition(s):
@@ -106860,7 +106860,7 @@ Usage(s):
 - 04-SOURCES/processed/SOURCE-20250320-youtube-lecture-longnow-benjamin_bratton.md:128
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:200
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:35
-- 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md:145
+- 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md:145
 
 ### CANON-00005-SYNCRESCENDENCE-cosmos
 Definition(s):
@@ -106901,7 +106901,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:402
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:202
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:37
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:266
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:266
 
 ### CANON-00007-EVALUATION-cosmos
 Definition(s):
@@ -107041,10 +107041,10 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:414
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-01-030.md:108
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:214
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:200
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:307
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:117
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:380
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:200
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:307
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:117
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:380
 
 ### CANON-11000-FACETS-core
 Definition(s):
@@ -107052,7 +107052,7 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:415
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:215
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:381
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:381
 
 ### CANON-20000-PALACE-lattice
 Definition(s):
@@ -107065,10 +107065,10 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-30-020B.md:33
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:216
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:55
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:199
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:118
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:196
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:382
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:199
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:118
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:196
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:382
 - 01-CANON/CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md:19
 - 01-CANON/CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md:19
 
@@ -107102,9 +107102,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-30-022A.md:46
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:219
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:56
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:104
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:226
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:383
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:104
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:226
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:383
 
 ### CANON-21100-TRI_HELIX-lattice
 Definition(s):
@@ -107112,7 +107112,7 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:420
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:220
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:384
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:384
 
 ### CANON-22000-INTERFERENCE-lattice
 Definition(s):
@@ -107120,8 +107120,8 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:421
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:221
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:299
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:385
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:299
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:385
 
 ### CANON-23000-LUNAR_NAV-lattice
 Definition(s):
@@ -107129,8 +107129,8 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:422
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:222
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:300
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:386
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:300
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:386
 
 ### CANON-24000-OMNI_QUALITY-lattice
 Definition(s):
@@ -107138,8 +107138,8 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:423
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:223
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:301
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:387
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:301
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:387
 
 ### CANON-25000-MEMORY_ARCH-lattice
 Definition(s):
@@ -107150,7 +107150,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:126
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:224
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:57
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:388
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:388
 
 ### CANON-25010-MEMORY_TELEOLOGY-lattice
 Definition(s):
@@ -107169,9 +107169,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043A.md:27
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:225
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:58
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:136
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:308
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:389
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:136
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:308
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:389
 
 ### CANON-25200-CONSTELLATION_ARCH-lattice
 Definition(s):
@@ -107188,7 +107188,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043A.md:26
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:226
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:59
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:134
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:134
 - 01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md:470
 
 ### CANON-25210-CONSTELLATION_TELEOLOGY-lattice
@@ -107211,9 +107211,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-30-020B.md:34
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-01-030.md:109
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:227
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:309
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:119
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:390
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:309
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:119
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:390
 
 ### CANON-30100-ASA-comet-INTELLIGENCE
 Definition(s):
@@ -107224,7 +107224,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:428
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:73
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:228
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:391
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:391
 
 ### CANON-30200-POSITIONING-comet-INTELLIGENCE
 Definition(s):
@@ -107235,7 +107235,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:38
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:74
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:229
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:392
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:392
 
 ### CANON-30300-TECH_STACK-comet-INTELLIGENCE
 Definition(s):
@@ -107245,7 +107245,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:75
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:137
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:230
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:393
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:393
 
 ### CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE
 Definition(s):
@@ -107253,7 +107253,7 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:431
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:231
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:394
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:394
 
 ### CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE
 Definition(s):
@@ -107261,7 +107261,7 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:432
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:232
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:395
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:395
 
 ### CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE
 Definition(s):
@@ -107354,7 +107354,7 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-022B-EXECUTION.md:50
 - 00-ORCHESTRATION/state/DYN-TREE.md:441
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:241
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:396
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:396
 
 ### CANON-31100-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107364,10 +107364,10 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:27
 - 00-ORCHESTRATION/execution_logs/RECONSOLIDATION_AUDIT-2026-01-02.md:155
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:242
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:120
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:155
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:197
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:397
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:120
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:155
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:197
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:397
 
 ### CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107377,7 +107377,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:443
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-01-030.md:111
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:243
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:398
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:398
 
 ### CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107386,8 +107386,8 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:444
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:28
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:244
-- 05-ARCHIVE/ORACLE11_INIT.md:84
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:399
+- 05-MEMORY/ORACLE11_INIT.md:84
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:399
 
 ### CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107397,7 +107397,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:445
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:29
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:245
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:400
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:400
 
 ### CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107405,7 +107405,7 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:446
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:246
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:401
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:401
 
 ### CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107413,7 +107413,7 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:447
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:247
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:402
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:402
 
 ### CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107422,8 +107422,8 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:25
 - 00-ORCHESTRATION/state/DYN-TREE.md:448
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:248
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:328
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:403
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:328
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:403
 
 ### CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107436,10 +107436,10 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:30
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:131
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:249
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:203
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:329
-- 05-ARCHIVE/ORACLE11_INIT.md:85
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:404
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:203
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:329
+- 05-MEMORY/ORACLE11_INIT.md:85
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:404
 
 ### CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107450,16 +107450,16 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:450
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:132
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:250
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:62
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:331
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:328
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:22
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:121
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:198
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:245
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:319
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:405
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:375
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:62
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:331
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:328
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:22
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:121
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:198
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:245
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:319
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:405
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:375
 
 ### CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107470,8 +107470,8 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:87
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:133
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:251
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:330
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:406
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:330
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:406
 
 ### CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION
 Definition(s):
@@ -107480,7 +107480,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:452
 - 00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md:134
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:252
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:407
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:407
 
 ### CANON-31150
 Definition(s):
@@ -107507,7 +107507,7 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/regenerate_canon.py:199
 - 00-ORCHESTRATION/scripts/regenerate_canon.py:207
 - 00-ORCHESTRATION/scripts/regenerate_canon.py:251
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:232
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:232
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/01_audit/audit_of_defrag_conviction_pass.md:35
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:191
 - 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md:447
@@ -107531,7 +107531,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:54
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:54
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:254
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:408
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:408
 
 ### CANON-32100-COHERENCE-planetary-INSIGHT
 Definition(s):
@@ -107541,8 +107541,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:55
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:55
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:255
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:199
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:409
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:199
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:409
 
 ### CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT
 Definition(s):
@@ -107552,8 +107552,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:56
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:56
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:256
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:302
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:410
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:302
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:410
 
 ### CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT
 Definition(s):
@@ -107563,7 +107563,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:57
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:57
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:257
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:411
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:411
 
 ### CANON-33000-EXPERTISE-chain
 Definition(s):
@@ -107573,7 +107573,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:58
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:58
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:258
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:412
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:412
 
 ### CANON-33100-EFFICACY-planetary-EXPERTISE
 Definition(s):
@@ -107584,8 +107584,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:59
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039B.md:178
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:259
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:200
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:413
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:200
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:413
 
 ### CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE
 Definition(s):
@@ -107596,9 +107596,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:60
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039B.md:179
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:260
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:61
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:303
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:414
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:61
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:303
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:414
 
 ### CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE
 Definition(s):
@@ -107608,7 +107608,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:61
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:61
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:261
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:415
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:415
 
 ### CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE
 Definition(s):
@@ -107618,7 +107618,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:62
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:62
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:262
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:416
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:416
 
 ### CANON-34000-KNOWLEDGE-chain
 Definition(s):
@@ -107629,7 +107629,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:63
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:63
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:263
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:417
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:417
 
 ### CANON-34100-MASTERY-planetary-KNOWLEDGE
 Definition(s):
@@ -107639,8 +107639,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:64
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:64
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:264
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:201
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:418
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:201
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:418
 
 ### CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE
 Definition(s):
@@ -107652,7 +107652,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:65
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-01-030.md:110
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:265
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:419
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:419
 
 ### CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE
 Definition(s):
@@ -107663,8 +107663,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:66
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:66
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:266
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:310
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:420
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:310
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:420
 
 ### CANON-35000-WISDOM-chain
 Definition(s):
@@ -107675,7 +107675,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:67
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:67
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:267
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:421
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:421
 
 ### CANON-35100-TRANSCENDENCE-ring-WISDOM
 Definition(s):
@@ -107685,8 +107685,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:68
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:68
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:268
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:202
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:422
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:202
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:422
 
 ### CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM
 Definition(s):
@@ -107696,8 +107696,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:69
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:69
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:269
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:304
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:423
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:304
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:423
 
 ### CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM
 Definition(s):
@@ -107707,9 +107707,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:70
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:70
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:270
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:123
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:204
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:424
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:123
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:204
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:424
 
 ### CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM
 Definition(s):
@@ -107728,9 +107728,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:72
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:72
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:272
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:202
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:203
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:425
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:202
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:203
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:425
 
 ### CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM
 Definition(s):
@@ -107741,7 +107741,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-035A.md:68
 - .claude/settings.local.json:95
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:273
-- 05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md:17
+- 05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md:17
 
 ### CANON-99000-HISTORICAL-meta
 Definition(s):
@@ -107755,12 +107755,12 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-30-022A.md:53
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:274
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:100
-- 05-ARCHIVE/SCAFF-CURRENT_STATE.md:19
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:105
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:132
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:227
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:426
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:58
+- 05-MEMORY/SCAFF-CURRENT_STATE.md:19
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:105
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:132
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:227
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:426
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:58
 
 ### CANON_FORENSIC_AUDIT
 Definition(s):
@@ -107779,16 +107779,16 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039B.md:139
 - 06-EXEMPLA/README.md:66
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:674
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:40
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:287
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:40
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:287
 
 ### CHORUS-ARCHITECTURE-v3
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md
 Usage(s):
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:41
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:15
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:149
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:15
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:149
 
 ### CLAUDE
 Definition(s):
@@ -107950,31 +107950,31 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/structural_verify.sh:145
 - 00-ORCHESTRATION/scripts/structural_verify.sh:163
 - 00-ORCHESTRATION/scripts/cleanup_root.sh:12
-- 02-OPERATIONAL/IIC-Acumen-config.md:331
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:651
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:106
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:183
-- 02-OPERATIONAL/DYN-COORDINATION.yaml:198
-- 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md:109
-- 02-OPERATIONAL/memory/acumen-memory-config.md:177
-- 02-OPERATIONAL/memory/acumen-memory-config.md:178
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:293
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:310
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:316
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:325
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:336
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:435
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:468
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:469
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:479
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:516
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:283
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:37
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:39
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:72
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml:46
-- 02-OPERATIONAL/functions/optimize.xml:41
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:17
+- 02-ENGINE/IIC-Acumen-config.md:331
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:651
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:106
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:183
+- 02-ENGINE/DYN-COORDINATION.yaml:198
+- 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md:109
+- 02-ENGINE/memory/acumen-memory-config.md:177
+- 02-ENGINE/memory/acumen-memory-config.md:178
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:293
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:310
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:316
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:325
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:336
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:435
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:468
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:469
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:479
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:516
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:283
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:37
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:39
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:72
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml:46
+- 02-ENGINE/functions/optimize.xml:41
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:17
 - 06-EXEMPLA/TEMPLATE-CONTINUATION_PACKET.json:24
 - .claude/commands/project/deviser_reint.md:168
 - .claude/commands/project/deviser_reint.md:169
@@ -108129,83 +108129,83 @@ Usage(s):
 - -OUTGOING/20260119-corpus_survey/SURVEY_REPORT.md:16
 - -OUTGOING/20260122/gemini/compiler_designer_language_architect.md:98
 - -OUTGOING/20260122/gemini/compiler_designer_language_architect.md:105
-- 05-ARCHIVE/ARCH-oracle_memories.md:7
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:22
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:22
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:37
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:58
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:79
-- 05-ARCHIVE/ARCH-previous_thread.md:443
-- 05-ARCHIVE/ARCH-previous_thread.md:514
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:131
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:675
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:37
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:88
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:249
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:264
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:282
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:395
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:36
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:47
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:75
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:152
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:296
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:329
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:63
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:13
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:81
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:90
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:41
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:57
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:71
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:371
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:475
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:86
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:112
-- 05-ARCHIVE/ORACLE11_INIT.md:25
-- 05-ARCHIVE/ORACLE11_INIT.md:49
-- 05-ARCHIVE/ORACLE11_INIT.md:99
-- 05-ARCHIVE/ORACLE11_INIT.md:168
-- 05-ARCHIVE/ORACLE11_INIT.md:220
-- 05-ARCHIVE/ORACLE11_INIT.md:231
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:3
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:9
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:11
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:11
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:11
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:11
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:15
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:17
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:26
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:502
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:507
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:682
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:692
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx:14
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:29
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:32
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:114
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:127
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:150
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:156
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:178
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:183
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:218
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:219
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:243
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:17
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:7
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:154
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:368
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:383
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:7
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:40
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:63
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:64
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:285
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:325
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:159
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:182
+- 05-MEMORY/ARCH-oracle_memories.md:7
+- 05-MEMORY/ARCH-COCKPIT-v1.md:22
+- 05-MEMORY/ARCH-COCKPIT-v1.md:22
+- 05-MEMORY/ARCH-COCKPIT-v1.md:37
+- 05-MEMORY/ARCH-COCKPIT-v1.md:58
+- 05-MEMORY/ARCH-COCKPIT-v1.md:79
+- 05-MEMORY/ARCH-previous_thread.md:443
+- 05-MEMORY/ARCH-previous_thread.md:514
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:131
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:675
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:37
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:88
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:249
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:264
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:282
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:395
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:36
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:47
+- 05-MEMORY/ORACLE11_CONTEXT.md:75
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:152
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:296
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:329
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:63
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:13
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:81
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:90
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:41
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:57
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:71
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:371
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:475
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:86
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:112
+- 05-MEMORY/ORACLE11_INIT.md:25
+- 05-MEMORY/ORACLE11_INIT.md:49
+- 05-MEMORY/ORACLE11_INIT.md:99
+- 05-MEMORY/ORACLE11_INIT.md:168
+- 05-MEMORY/ORACLE11_INIT.md:220
+- 05-MEMORY/ORACLE11_INIT.md:231
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:3
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:9
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:11
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:11
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:11
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:11
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:15
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:17
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:26
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:502
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:507
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:682
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:692
+- 05-MEMORY/ARCH-constellation-architecture-v1.jsx:14
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:29
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:32
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:114
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:127
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:150
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:156
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:178
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:183
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:218
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:219
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:243
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:17
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:7
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:154
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:368
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:383
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:7
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:40
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:63
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:64
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:285
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:325
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:159
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:182
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:449
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:911
 - 01-CANON/CANON-25010-MEMORY_TELEOLOGY-lattice.md:274
@@ -108283,13 +108283,13 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/structural_verify.sh:213
 - 00-ORCHESTRATION/scripts/structural_verify.sh:216
 - 00-ORCHESTRATION/scripts/structural_verify.sh:217
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:86
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:108
-- 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md:119
-- 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md:126
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:283
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:110
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:412
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:86
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:108
+- 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md:119
+- 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md:126
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:283
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:110
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:412
 - 06-EXEMPLA/TEMPLATE-CONTINUATION_PACKET.json:25
 - .claude/commands/project/deviser_reint.md:173
 - .claude/commands/project/deviser_reint.md:174
@@ -108332,13 +108332,13 @@ Usage(s):
 - -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:154
 - -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:158
 - -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:220
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:58
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:80
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:677
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:395
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:77
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:107
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:163
+- 05-MEMORY/ARCH-COCKPIT-v1.md:58
+- 05-MEMORY/ARCH-COCKPIT-v1.md:80
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:677
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:395
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:77
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:107
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:163
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:332
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:394
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:787
@@ -108358,13 +108358,13 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260123-LOW-HANGING-FRUIT.md:259
 - 00-ORCHESTRATION/directives/DIR-20260123-LOW-HANGING-FRUIT.md:273
 - 00-ORCHESTRATION/directives/DIR-20260123-LOW-HANGING-FRUIT.md:291
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:80
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:80
 - 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md:99
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:45
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:264
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:33
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:33
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:55
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:264
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:33
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:33
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:55
 
 ### CODIFY_REPORT
 Definition(s):
@@ -108383,7 +108383,7 @@ Usage(s):
 
 ### ChatGPT-gemknowledge-base
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/ChatGPT-gemknowledge-base.md
+- 02-ENGINE/prompts/unified/ChatGPT-gemknowledge-base.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:239
 - 00-ORCHESTRATION/state/DYN-TREE.md:544
@@ -108392,8 +108392,8 @@ Usage(s):
 
 ### ChatGPT-unified-prompt
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md
-- 05-ARCHIVE/ChatGPT-unified-prompt.md
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md
+- 05-MEMORY/ChatGPT-unified-prompt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:238
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:237
@@ -108405,18 +108405,18 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:923
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:97
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:119
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:41
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:41
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:332
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:638
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:76
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:111
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:72
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:194
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:319
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:76
+- 05-MEMORY/ORACLE11_CONTEXT.md:111
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:72
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:194
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:319
 
 ### Claude-gemknowledge-base
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/Claude-gemknowledge-base.md
+- 02-ENGINE/prompts/unified/Claude-gemknowledge-base.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:241
 - 00-ORCHESTRATION/state/DYN-TREE.md:546
@@ -108425,8 +108425,8 @@ Usage(s):
 
 ### Claude-unified-prompt
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md
-- 05-ARCHIVE/Claude-unified-prompt.md
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md
+- 05-MEMORY/Claude-unified-prompt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:240
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:236
@@ -108438,15 +108438,15 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:924
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:99
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:118
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:42
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:42
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:334
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:639
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:75
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:112
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:71
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:160
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:195
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:320
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:75
+- 05-MEMORY/ORACLE11_CONTEXT.md:112
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:71
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:160
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:195
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:320
 
 ### DEEP_RESEARCH_PROMPT-Claude_Code_Ecosystem
 Definition(s):
@@ -108468,8 +108468,8 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:909
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:132
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:732
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:87
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:153
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:87
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:153
 
 ### DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem
 Definition(s):
@@ -108480,8 +108480,8 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:910
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:133
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:733
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:79
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:152
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:79
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:152
 
 ### DEFRAG_CONVICTION_PASS_20260117_1609
 Definition(s):
@@ -108517,7 +108517,7 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260120-EXECUTION-LOG-INFRASTRUCTURE.md:1
 - 00-ORCHESTRATION/execution_logs/DIR-20260120-CONSTELLATION-INFRASTRUCTURE.md:59
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:117
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:117
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:121
 
 ### DIR-20260121-SEMANTIC-ANNEALMENT-PHASE1
@@ -108525,10 +108525,10 @@ Definition(s):
 - 00-ORCHESTRATION/directives/DIR-20260121-SEMANTIC-ANNEALMENT-PHASE1.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260121-SEMANTIC-ANNEALMENT-PHASE1.md:1
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:451
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:479
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:475
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:568
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:451
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:479
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:475
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:568
 
 ### DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED
 Definition(s):
@@ -108541,8 +108541,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:2
 - 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:10
 - 06-EXEMPLA/README.md:102
-- 05-ARCHIVE/README.md:85
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:338
+- 05-MEMORY/README.md:85
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:338
 
 ### DIR-20260123-LOW-HANGING-FRUIT
 Definition(s):
@@ -108551,11 +108551,11 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260123-LOW-HANGING-FRUIT.md:2
 - 00-ORCHESTRATION/directives/DIR-20260123-LOW-HANGING-FRUIT.md:276
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:37
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:329
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:13
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:51
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:147
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:166
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:329
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:13
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:51
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:147
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:166
 
 ### DIRECTIVE-017_HOLISTIC_RECONCEPTION
 Definition(s):
@@ -108823,11 +108823,11 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:181
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040A.md:16
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:69
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:39
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:68
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:69
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:166
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:166
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:39
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:68
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:69
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:166
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:166
 
 ### DIRECTIVE-039B
 Definition(s):
@@ -108851,11 +108851,11 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039B.md:5
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040A.md:17
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:70
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:40
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:70
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:71
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:167
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:167
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:40
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:70
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:71
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:167
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:167
 - 01-CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md:478
 - 01-CANON/CANON-00009-STRATEGY-cosmos.md:787
 - 01-CANON/CANON-33100-EFFICACY-planetary-EXPERTISE.md:403
@@ -108876,7 +108876,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040A.md:18
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040A.md:97
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:71
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:72
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:72
 
 ### DIRECTIVE-040B
 Definition(s):
@@ -108892,7 +108892,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040B.md:1
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040A.md:19
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:72
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:73
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:73
 
 ### DIRECTIVE-041A
 Definition(s):
@@ -108909,7 +108909,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-042A.md:78
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-041B.md:238
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:73
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:55
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:55
 
 ### DIRECTIVE-041B
 Definition(s):
@@ -108930,7 +108930,7 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:74
 - -OUTGOING/20260119-topology_operationalization/MANIFEST.md:55
 - -OUTGOING/20260119-topology_operationalization/DRIFT_COUNTS.md:66
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:56
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:56
 
 ### DIRECTIVE-042A
 Definition(s):
@@ -108952,14 +108952,14 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-042A.md:1
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-042A.md:5
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-042A.md:24
-- 02-OPERATIONAL/IIC-Acumen-config.md:5
-- 02-OPERATIONAL/IIC-Coherence-config.md:5
-- 02-OPERATIONAL/IIC-shared-protocols.md:5
+- 02-ENGINE/IIC-Acumen-config.md:5
+- 02-ENGINE/IIC-Coherence-config.md:5
+- 02-ENGINE/IIC-shared-protocols.md:5
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:75
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:39
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_symbolic_compression_rules.md:251
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:46
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:140
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:46
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:140
 
 ### DIRECTIVE-042A_IIC_FOUNDATION
 Definition(s):
@@ -108976,7 +108976,7 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_symbolic_compression_rules.md:257
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:58
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:735
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:13
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:13
 
 ### DIRECTIVE-042B
 Definition(s):
@@ -109006,8 +109006,8 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:76
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:40
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:24
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:47
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:148
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:47
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:148
 
 ### DIRECTIVE-042B_MULTI_CLI
 Definition(s):
@@ -109023,7 +109023,7 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:40
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:59
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:736
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:14
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:14
 
 ### DIRECTIVE-042C_OPERATIONAL_HYGIENE
 Definition(s):
@@ -109040,7 +109040,7 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:52
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:60
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:737
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:15
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:15
 
 ### DIRECTIVE-042D_GEMINI_VALIDATION
 Definition(s):
@@ -109057,7 +109057,7 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:53
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:61
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:738
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:16
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:16
 
 ### DIRECTIVE-043A
 Definition(s):
@@ -109099,8 +109099,8 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/01_audit/audit_of_defrag_conviction_pass.md:25
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/inputs_used.md:23
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/audit_of_defrag_conviction_pass.md:180
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:119
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:24
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:119
+- 05-MEMORY/ORACLE11_CONTEXT.md:24
 
 ### DIRECTIVE-043A_O11
 Definition(s):
@@ -109157,8 +109157,8 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/01_audit/audit_of_defrag_conviction_pass.md:25
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/inputs_used.md:23
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/audit_of_defrag_conviction_pass.md:180
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:120
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:25
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:120
+- 05-MEMORY/ORACLE11_CONTEXT.md:25
 
 ### DIRECTIVE-043B_O11
 Definition(s):
@@ -109193,9 +109193,9 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:54
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:66
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:743
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:13
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:23
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:24
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:13
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:23
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:24
 
 ### DIRECTIVE-044B
 Definition(s):
@@ -109227,9 +109227,9 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:55
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:66
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:744
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:14
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:29
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:30
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:14
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:29
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:30
 
 ### DIRECTIVE-045A
 Definition(s):
@@ -109254,9 +109254,9 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:56
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:67
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:745
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:15
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:30
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:150
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:15
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:30
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:150
 
 ### DIRECTIVE-045B
 Definition(s):
@@ -109278,9 +109278,9 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:57
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:67
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:746
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:16
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:39
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:151
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:16
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:39
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:151
 
 ### DIRECTIVE-046A
 Definition(s):
@@ -109322,11 +109322,11 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-15-046B.md:332
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-15-046B.md:352
 - 00-ORCHESTRATION/scripts/defrag_apply_hardened.sh:110
-- 02-OPERATIONAL/IIC-Efficacy-config.md:5
-- 02-OPERATIONAL/IIC-Transcendence-config.md:5
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:6
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:6
-- 02-OPERATIONAL/IIC-Mastery-config.md:5
+- 02-ENGINE/IIC-Efficacy-config.md:5
+- 02-ENGINE/IIC-Transcendence-config.md:5
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:6
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:6
+- 02-ENGINE/IIC-Mastery-config.md:5
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/03_apply_preview/what_will_change_if_apply_armed.md:13
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/03_apply_preview/defrag_apply_preview.sh:33
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/02_refinements/refined_defrag_plan.md:29
@@ -109345,7 +109345,7 @@ Usage(s):
 
 ### DYN-ACCOUNTS
 Definition(s):
-- 02-OPERATIONAL/registries/DYN-ACCOUNTS.csv
+- 02-ENGINE/registries/DYN-ACCOUNTS.csv
 Usage(s):
 - (none)
 
@@ -109392,15 +109392,15 @@ Usage(s):
 - .claude/commands/project/blitzkrieg_issue.md:244
 - .claude/skills/pedigree.md:91
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:166
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:84
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:109
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:163
-- 05-ARCHIVE/ORACLE11_INIT.md:285
-- 05-ARCHIVE/ORACLE11_INIT.md:308
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:19
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:389
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:59
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:256
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:84
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:109
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:163
+- 05-MEMORY/ORACLE11_INIT.md:285
+- 05-MEMORY/ORACLE11_INIT.md:308
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:19
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:389
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:59
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:256
 
 ### DYN-BURNDOWN
 Definition(s):
@@ -109416,13 +109416,13 @@ Usage(s):
 
 ### DYN-CONSTELLATION_CONFIGURATION
 Definition(s):
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json
 Usage(s):
 - (none)
 
 ### DYN-COORDINATION
 Definition(s):
-- 02-OPERATIONAL/DYN-COORDINATION.yaml
+- 02-ENGINE/DYN-COORDINATION.yaml
 Usage(s):
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:16
 
@@ -109431,9 +109431,9 @@ Definition(s):
 - 00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md
 Usage(s):
 - 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:27
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:430
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:481
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:22
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:430
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:481
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:22
 
 ### DYN-DASHBOARD
 Definition(s):
@@ -109449,9 +109449,9 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/update_dashboard.py:4
 - 00-ORCHESTRATION/scripts/update_dashboard.py:312
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:167
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:20
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:60
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:257
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:20
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:60
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:257
 
 ### DYN-DEFRAG_APPLY_LOG_20260118_171435
 Definition(s):
@@ -109468,7 +109468,7 @@ Usage(s):
 
 ### DYN-PLATFORMS
 Definition(s):
-- 02-OPERATIONAL/registries/DYN-PLATFORMS.csv
+- 02-ENGINE/registries/DYN-PLATFORMS.csv
 Usage(s):
 - (none)
 
@@ -109485,7 +109485,7 @@ Usage(s):
 
 ### DYN-ROLES
 Definition(s):
-- 02-OPERATIONAL/registries/DYN-ROLES.csv
+- 02-ENGINE/registries/DYN-ROLES.csv
 Usage(s):
 - (none)
 
@@ -109553,10 +109553,10 @@ Usage(s):
 
 ### EVIDENCE-infrastructure-map
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/EVIDENCE-infrastructure-map.png
+- 05-MEMORY/chorus-session-20260122/EVIDENCE-infrastructure-map.png
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1018
-- 05-ARCHIVE/chorus-session-20260122/README.md:22
+- 05-MEMORY/chorus-session-20260122/README.md:22
 
 ### EXAMPLE-TEMPLATE
 Definition(s):
@@ -109569,8 +109569,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039B.md:140
 - 06-EXEMPLA/README.md:67
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:675
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:41
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:288
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:41
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:288
 
 ### EXE-20260116-001
 Definition(s):
@@ -109921,7 +109921,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:303
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042A.md:101
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:120
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:69
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:69
 
 ### EXECUTION_LOG-2026-01-09-042B
 Definition(s):
@@ -109931,7 +109931,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:304
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:122
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:121
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:79
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:79
 
 ### EXECUTION_LOG-2026-01-09-042C
 Definition(s):
@@ -109941,7 +109941,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:305
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:96
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:122
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:85
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:85
 
 ### EXECUTION_LOG-2026-01-09-043A
 Definition(s):
@@ -110031,11 +110031,11 @@ Usage(s):
 
 ### EXECUTION_LOG_TEMPLATE
 Definition(s):
-- 02-OPERATIONAL/templates/EXECUTION_LOG_TEMPLATE.md
+- 02-ENGINE/templates/EXECUTION_LOG_TEMPLATE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:572
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:349
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:244
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:244
 
 ### EXECUTIVE_BRIEF
 Definition(s):
@@ -110061,7 +110061,7 @@ Usage(s):
 
 ### FUNCTION_INDEX
 Definition(s):
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md
+- 02-ENGINE/functions/FUNCTION_INDEX.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:301
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:176
@@ -110076,19 +110076,19 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:93
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:150
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:175
-- 02-OPERATIONAL/README.md:298
-- 02-OPERATIONAL/README.md:308
+- 02-ENGINE/README.md:298
+- 02-ENGINE/README.md:308
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:286
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:242
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:150
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:162
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:110
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:231
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:242
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:150
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:162
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:110
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:231
 
 ### GEMINI
 Definition(s):
 - GEMINI.md
-- 02-OPERATIONAL/GEMINI.md
+- 02-ENGINE/GEMINI.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:77
 - 00-ORCHESTRATION/directives/DIRECTIVE-042C_OPERATIONAL_HYGIENE.md:86
@@ -110144,15 +110144,15 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:172
 - 00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md:1
 - 00-ORCHESTRATION/scripts/corpus-survey.sh:42
-- 02-OPERATIONAL/gemini-settings.json:17
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:1
-- 02-OPERATIONAL/GEMINI.md:49
-- 02-OPERATIONAL/GEMINI.md:75
-- 02-OPERATIONAL/GEMINI.md:76
-- 02-OPERATIONAL/GEMINI.md:89
-- 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md:111
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:1
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:99
+- 02-ENGINE/gemini-settings.json:17
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:1
+- 02-ENGINE/GEMINI.md:49
+- 02-ENGINE/GEMINI.md:75
+- 02-ENGINE/GEMINI.md:76
+- 02-ENGINE/GEMINI.md:89
+- 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md:111
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:1
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:99
 - 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-Google_Ecosystem.md:99
 - 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-Google_Ecosystem.md:112
 - 04-SOURCES/raw/google_research.md:140
@@ -110160,44 +110160,44 @@ Usage(s):
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:44
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:352
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:780
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:676
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:52
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:53
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:72
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:99
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:149
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:167
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:191
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:212
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:296
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:81
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:90
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:151
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:170
-- 05-ARCHIVE/ORACLE11_INIT.md:99
-- 05-ARCHIVE/ORACLE11_INIT.md:322
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:1
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:15
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:35
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:339
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:79
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:369
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:79
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:325
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:160
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:33
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:55
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:676
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:52
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:53
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:72
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:99
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:149
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:167
+- 05-MEMORY/ORACLE11_CONTEXT.md:191
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:212
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:296
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:81
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:90
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:151
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:170
+- 05-MEMORY/ORACLE11_INIT.md:99
+- 05-MEMORY/ORACLE11_INIT.md:322
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:1
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:15
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:35
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:339
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:79
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:369
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:79
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:325
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:160
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:33
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:55
 - 01-CANON/CANON-25210-CONSTELLATION_TELEOLOGY-lattice.md:243
 - 01-CANON/CANON-25210-CONSTELLATION_TELEOLOGY-lattice.md:249
 
 ### GEMINI-CLI-FORENSIC-PROMPTS
 Definition(s):
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md
 Usage(s):
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:38
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:332
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:14
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:148
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:332
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:14
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:148
 
 ### GEMINI-CORPUS-SENSING-PROMPT
 Definition(s):
@@ -110209,16 +110209,16 @@ Usage(s):
 
 ### GEMINI_VALIDATION_REPORT
 Definition(s):
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:925
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:49
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:641
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:88
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:88
 
 ### GEMINI_VALIDATION_TEST_PROOF
 Definition(s):
-- 05-ARCHIVE/GEMINI_VALIDATION_TEST_PROOF.md
+- 05-MEMORY/GEMINI_VALIDATION_TEST_PROOF.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:926
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:642
@@ -110255,7 +110255,7 @@ Usage(s):
 
 ### Gemini-gemknowledge-base
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/Gemini-gemknowledge-base.md
+- 02-ENGINE/prompts/unified/Gemini-gemknowledge-base.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:243
 - 00-ORCHESTRATION/state/DYN-TREE.md:548
@@ -110264,8 +110264,8 @@ Usage(s):
 
 ### Gemini-unified-prompt
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md
-- 05-ARCHIVE/Gemini-unified-prompt.md
+- 02-ENGINE/prompts/unified/Gemini-unified-prompt.md
+- 05-MEMORY/Gemini-unified-prompt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:242
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:238
@@ -110278,18 +110278,18 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-DESIGN_DECISIONS.md:161
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:101
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:120
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:43
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:43
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:336
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:640
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:77
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:113
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:73
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:196
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:321
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:77
+- 05-MEMORY/ORACLE11_CONTEXT.md:113
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:73
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:196
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:321
 
 ### Grok-gemknowledge-base
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/Grok-gemknowledge-base.md
+- 02-ENGINE/prompts/unified/Grok-gemknowledge-base.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:245
 - 00-ORCHESTRATION/state/DYN-TREE.md:550
@@ -110298,8 +110298,8 @@ Usage(s):
 
 ### Grok-unified-prompt
 Definition(s):
-- 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md
-- 05-ARCHIVE/Grok-unified-prompt.md
+- 02-ENGINE/prompts/unified/Grok-unified-prompt.md
+- 05-MEMORY/Grok-unified-prompt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:244
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:239
@@ -110311,38 +110311,38 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:928
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:103
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:121
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:44
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:44
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:338
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:643
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:78
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:114
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:74
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:197
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:322
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:78
+- 05-MEMORY/ORACLE11_CONTEXT.md:114
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:74
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:197
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:322
 
 ### HANDOFF-AJNA4-TO-AJNA5
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md
 Usage(s):
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:39
 
 ### IDEATE-ChatGPT-Acc1
 Definition(s):
-- 02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md
+- 02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:840
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1208
 - 00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md:103
 - 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:36
-- 02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md:1
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:206
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:220
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:222
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:406
+- 02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md:1
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:206
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:220
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:222
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:406
 
 ### IIC-Acumen-config
 Definition(s):
-- 02-OPERATIONAL/IIC-Acumen-config.md
+- 02-ENGINE/IIC-Acumen-config.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:31
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:185
@@ -110352,16 +110352,16 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:507
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042A.md:98
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-15-046B.md:89
-- 02-OPERATIONAL/IIC-Acumen-config.md:534
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:548
+- 02-ENGINE/IIC-Acumen-config.md:534
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:548
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:353
 - -OUTGOING/20260122/gemini/compiler_designer_language_architect.md:148
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:66
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:143
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:66
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:143
 
 ### IIC-Coherence-config
 Definition(s):
-- 02-OPERATIONAL/IIC-Coherence-config.md
+- 02-ENGINE/IIC-Coherence-config.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:92
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:191
@@ -110372,15 +110372,15 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:508
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042A.md:99
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-15-046B.md:90
-- 02-OPERATIONAL/IIC-Coherence-config.md:674
+- 02-ENGINE/IIC-Coherence-config.md:674
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:354
 - -OUTGOING/20260122/gemini/compiler_designer_language_architect.md:148
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:67
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:144
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:67
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:144
 
 ### IIC-Efficacy-config
 Definition(s):
-- 02-OPERATIONAL/IIC-Efficacy-config.md
+- 02-ENGINE/IIC-Efficacy-config.md
 Usage(s):
 - 00-ORCHESTRATION/directives/ORACLE12_PEDIGREE-045.md:122
 - 00-ORCHESTRATION/directives/DIRECTIVE-046B.md:30
@@ -110398,7 +110398,7 @@ Usage(s):
 
 ### IIC-Mastery-config
 Definition(s):
-- 02-OPERATIONAL/IIC-Mastery-config.md
+- 02-ENGINE/IIC-Mastery-config.md
 Usage(s):
 - 00-ORCHESTRATION/directives/ORACLE12_PEDIGREE-045.md:123
 - 00-ORCHESTRATION/directives/DIRECTIVE-046B.md:31
@@ -110416,7 +110416,7 @@ Usage(s):
 
 ### IIC-Transcendence-config
 Definition(s):
-- 02-OPERATIONAL/IIC-Transcendence-config.md
+- 02-ENGINE/IIC-Transcendence-config.md
 Usage(s):
 - 00-ORCHESTRATION/directives/ORACLE12_PEDIGREE-045.md:124
 - 00-ORCHESTRATION/directives/DIRECTIVE-046B.md:32
@@ -110434,7 +110434,7 @@ Usage(s):
 
 ### IIC-shared-protocols
 Definition(s):
-- 02-OPERATIONAL/IIC-shared-protocols.md
+- 02-ENGINE/IIC-shared-protocols.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:132
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:197
@@ -110444,11 +110444,11 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:511
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042A.md:100
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-15-046B.md:94
-- 02-OPERATIONAL/IIC-shared-protocols.md:588
+- 02-ENGINE/IIC-shared-protocols.md:588
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:357
 - -OUTGOING/20260119-corpus_survey/REFACTOR_RISK_LEDGER.md:153
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:68
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:145
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:68
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:145
 
 ### LESSON-20260122-chorus-architecture
 Definition(s):
@@ -110468,8 +110468,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024B.md:118
 - .claude/settings.local.json:96
 - -OUTGOING/claudecode-report.md:33
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:1
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:426
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:1
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:426
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:690
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:696
 - 01-CANON/CANON-00006-CORPUS-cosmos.md:15
@@ -110478,7 +110478,7 @@ Usage(s):
 
 ### MCP_SETUP
 Definition(s):
-- 02-OPERATIONAL/MCP_SETUP.md
+- 02-ENGINE/MCP_SETUP.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-041B.md:799
 - 00-ORCHESTRATION/state/tasks.csv.bak.1767947262:43
@@ -110497,7 +110497,7 @@ Usage(s):
 
 ### MODEL_INDEX
 Definition(s):
-- 02-OPERATIONAL/models/MODEL_INDEX.md
+- 02-ENGINE/models/MODEL_INDEX.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:305
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:357
@@ -110513,11 +110513,11 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:139
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:245
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:310
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:233
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:233
 
 ### MODEL_PROFILE-Claude-4-Sonnet
 Definition(s):
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:270
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:248
@@ -110525,53 +110525,53 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:50
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:74
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:325
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:44
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:44
 
 ### MODEL_PROFILE-Claude-4.1-Opus
 Definition(s):
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml
 Usage(s):
 - (none)
 
 ### MODEL_PROFILE-Claude-4.5-Opus
 Definition(s):
-- 02-OPERATIONAL/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml
+- 02-ENGINE/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml
 Usage(s):
 - (none)
 
 ### MODEL_PROFILE-GPT-5
 Definition(s):
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:273
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:250
 - 00-ORCHESTRATION/state/DYN-TREE.md:541
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:52
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:76
-- 02-OPERATIONAL/models/MODEL_INDEX.md:169
+- 02-ENGINE/models/MODEL_INDEX.md:169
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:328
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:177
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:46
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:177
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:46
 
 ### MODEL_PROFILE-Gemini-2.5-Pro
 Definition(s):
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml
 Usage(s):
 - (none)
 
 ### MODEL_PROFILE-Grok-4
 Definition(s):
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Grok-4.yaml
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Grok-4.yaml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:274
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:252
 - 00-ORCHESTRATION/state/DYN-TREE.md:542
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:54
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-024D.md:78
-- 02-OPERATIONAL/models/MODEL_INDEX.md:171
+- 02-ENGINE/models/MODEL_INDEX.md:171
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:329
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:178
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:48
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:178
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:48
 
 ### Makefile
 Definition(s):
@@ -110657,11 +110657,11 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/structural_verify.sh:145
 - 00-ORCHESTRATION/scripts/structural_verify.sh:163
 - 00-ORCHESTRATION/scripts/cleanup_root.sh:13
-- 02-OPERATIONAL/IIC-Efficacy-config.md:151
-- 02-OPERATIONAL/IIC-Mastery-config.md:683
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:319
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:504
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:534
+- 02-ENGINE/IIC-Efficacy-config.md:151
+- 02-ENGINE/IIC-Mastery-config.md:683
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:319
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:504
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:534
 - -OUTGOING/geminicli-report.md:25
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:929
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/audit_of_defrag_conviction_pass.md:158
@@ -110675,33 +110675,33 @@ Usage(s):
 - -OUTGOING/20260119-sensing_sweep/sensing_report.md:11
 - -OUTGOING/20260119-corpus-annealment-survey/file_inventory.txt:823
 - -OUTGOING/20260119-corpus_survey/TOPOLOGY_MAP.md:14
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:81
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:678
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:251
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:266
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:395
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:76
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:48
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:63
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:87
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:100
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:158
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:179
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:13
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:373
-- 05-ARCHIVE/ORACLE11_INIT.md:26
-- 05-ARCHIVE/ORACLE11_INIT.md:50
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:56
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:357
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:360
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:33
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:218
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:218
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:243
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:18
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:156
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:269
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:121
+- 05-MEMORY/ARCH-COCKPIT-v1.md:81
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:678
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:251
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:266
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:395
+- 05-MEMORY/ORACLE11_CONTEXT.md:76
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:48
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:63
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:87
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:100
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:158
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:179
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:13
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:373
+- 05-MEMORY/ORACLE11_INIT.md:26
+- 05-MEMORY/ORACLE11_INIT.md:50
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:56
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:357
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:360
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:33
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:218
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:218
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:243
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:18
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:156
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:269
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:121
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:642
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:840
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:843
@@ -110724,11 +110724,11 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040A.md:22
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/02_refinements/refined_defrag_plan.md:47
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:136
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:42
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:42
 
 ### ORACLE10_CONTEXT-superseded
 Definition(s):
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md
 Usage(s):
 - (none)
 
@@ -110753,7 +110753,7 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/02_refinements/refined_symbolic_compression_rules.md:28
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:138
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_symbolic_compression_rules.md:73
-- 05-ARCHIVE/ORACLE11_INIT.md:284
+- 05-MEMORY/ORACLE11_INIT.md:284
 
 ### ORACLE10_CULMINATION
 Definition(s):
@@ -110762,26 +110762,26 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:315
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-11-043B.md:50
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:132
-- 05-ARCHIVE/ORACLE11_INIT.md:283
+- 05-MEMORY/ORACLE11_INIT.md:283
 
 ### ORACLE11_COMPREHENSIVE_INIT
 Definition(s):
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:933
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:648
 
 ### ORACLE11_CONTEXT
 Definition(s):
-- 05-ARCHIVE/ORACLE11_CONTEXT.md
+- 05-MEMORY/ORACLE11_CONTEXT.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:935
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:649
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:21
+- 05-MEMORY/ORACLE11_CONTEXT.md:21
 
 ### ORACLE11_CONTEXT_BLITZKRIEG
 Definition(s):
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A_IIC_FOUNDATION.md:18
 - 00-ORCHESTRATION/directives/DIRECTIVE-042C_OPERATIONAL_HYGIENE.md:21
@@ -110789,12 +110789,12 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:934
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042A.md:29
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:650
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:12
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:39
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:12
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:39
 
 ### ORACLE11_INIT
 Definition(s):
-- 05-ARCHIVE/ORACLE11_INIT.md
+- 05-MEMORY/ORACLE11_INIT.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:936
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:651
@@ -110810,8 +110810,8 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:26
 - -OUTGOING/20260119-corpus_survey/REFACTOR_RISK_LEDGER.md:202
 - -OUTGOING/20260119-corpus_survey/REFACTOR_RISK_LEDGER.md:207
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:13
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:112
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:13
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:112
 
 ### ORACLE12_PEDIGREE
 Definition(s):
@@ -110832,9 +110832,9 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:107
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:71
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:758
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:12
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:23
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:29
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:12
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:23
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:29
 
 ### ORACLE12_PEDIGREE-045
 Definition(s):
@@ -110853,10 +110853,10 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md:108
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:71
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/repo_tree_depth6.txt:757
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:14
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:28
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:37
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:149
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:14
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:28
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:37
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:149
 
 ### ORACLE12_SESSION_DELIVERABLES
 Definition(s):
@@ -110912,13 +110912,13 @@ Usage(s):
 - .claude/skills/intentions.md:170
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:143
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:25
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:47
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:28
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:30
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:47
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:85
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:272
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:274
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:47
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:28
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:30
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:47
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:85
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:272
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:274
 
 ### PLN-20260116-001
 Definition(s):
@@ -110935,44 +110935,44 @@ Usage(s):
 
 ### PROMPT-CHATGPT-COMPILER_HANDOFF
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md
 Usage(s):
 - (none)
 
 ### PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION
 Definition(s):
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:534
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:20
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:22
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:20
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:22
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:170
 
 ### PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER
 Definition(s):
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md
 Usage(s):
 - 00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md:186
 - 00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md:208
 - 00-ORCHESTRATION/state/DYN-TREE.md:535
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:19
-- 02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:61
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:21
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:19
+- 02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:61
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:21
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:171
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:39
 
 ### PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE
 Definition(s):
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:536
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:21
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:23
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:21
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:23
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:172
 
 ### PROMPT-CHATGPT-canonical
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:182
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:161
@@ -110982,162 +110982,162 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:377
 - 00-ORCHESTRATION/state/DYN-TREE.md:523
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:136
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:27
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:15
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md:9
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:27
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:15
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md:9
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:313
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:130
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:78
 
 ### PROMPT-CLAUDE-canonical
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md
+- 02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:181
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:156
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:368
 - 00-ORCHESTRATION/state/DYN-TREE.md:524
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:135
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:28
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md:9
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:16
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:28
+- 02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md:9
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:16
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:314
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:131
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:79
 
 ### PROMPT-GEMINI-canonical
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:183
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:264
 - 00-ORCHESTRATION/state/DYN-TREE.md:525
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:137
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:29
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:9
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:17
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:29
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:9
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:17
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:315
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:132
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:80
 
 ### PROMPT-GROK-canonical
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md
+- 02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:184
 - 00-ORCHESTRATION/state/DYN-TREE.md:526
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:138
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:30
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md:9
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:18
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:30
+- 02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md:9
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:18
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:316
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:133
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:81
 
 ### PROMPT-IMEP-CHATGPT-AUDITOR
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:527
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:31
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:9
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:29
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:43
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:88
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:31
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:9
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:29
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:43
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:88
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:317
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:134
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:82
 
 ### PROMPT-IMEP-CHATGPT-DEVISER
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:528
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:32
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:9
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:28
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:41
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:62
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:87
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:32
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:9
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:28
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:41
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:62
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:87
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:318
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:135
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:83
 
 ### PROMPT-IMEP-CLAUDE-AUDITOR
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:529
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:33
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:9
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:32
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:43
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:91
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:33
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:9
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:32
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:43
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:91
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:319
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:136
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:84
 
 ### PROMPT-IMEP-CLAUDE-ENGINEER
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:530
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:34
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:9
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:31
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:42
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:72
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:90
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:34
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:9
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:31
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:42
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:72
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:90
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:320
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:137
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:85
 
 ### PROMPT-IMEP-GEMINI-ORACLE
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:531
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:35
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:30
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:40
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:67
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:89
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:9
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:35
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:30
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:40
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:67
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:89
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:9
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:321
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:138
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:86
 
 ### PROPOSAL-chatgpt-coherence-renderer
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1015
-- 05-ARCHIVE/chorus-session-20260122/README.md:19
+- 05-MEMORY/chorus-session-20260122/README.md:19
 
 ### PROPOSAL-claude-minimal-architecture
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1014
-- 05-ARCHIVE/chorus-session-20260122/README.md:18
+- 05-MEMORY/chorus-session-20260122/README.md:18
 
 ### PROPOSAL-gemini-nightly-refinery
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1012
-- 05-ARCHIVE/chorus-session-20260122/README.md:16
+- 05-MEMORY/chorus-session-20260122/README.md:16
 
 ### PROPOSAL-grok-coherence-manifold
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1013
-- 05-ARCHIVE/chorus-session-20260122/README.md:17
+- 05-MEMORY/chorus-session-20260122/README.md:17
 
 ### PROTOCOL-ChatGPT-Onboarding
 Definition(s):
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-046B.md:929
 - 00-ORCHESTRATION/directives/DIRECTIVE-046B.md:968
@@ -111149,7 +111149,7 @@ Usage(s):
 
 ### PROTOCOL-Gemini-Onboarding
 Definition(s):
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-046B.md:930
 - 00-ORCHESTRATION/directives/DIRECTIVE-046B.md:969
@@ -111174,9 +111174,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:44
 - 06-EXEMPLA/README.md:21
 - 06-EXEMPLA/README.md:62
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:225
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:479
-- 05-ARCHIVE/chorus-session-20260122/README.md:28
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:225
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:479
+- 05-MEMORY/chorus-session-20260122/README.md:28
 
 ### Physical_AI
 Definition(s):
@@ -111196,7 +111196,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-034B.md:92
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:119
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:371
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:102
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:102
 - 03-QUEUE/QUEUE_DISPOSITION.md:67
 - 03-QUEUE/QUEUE_DISPOSITION.md:98
 
@@ -111217,7 +111217,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-034B.md:93
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:120
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:372
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:103
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:103
 - 03-QUEUE/QUEUE_DISPOSITION.md:73
 - 03-QUEUE/QUEUE_DISPOSITION.md:103
 
@@ -111238,19 +111238,19 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:209
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:240
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:376
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:107
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:119
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:124
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:107
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:119
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:124
 
 ### README
 Definition(s):
 - 00-ORCHESTRATION/state/README.md
-- 02-OPERATIONAL/README.md
-- 02-OPERATIONAL/avatars/README.md
+- 02-ENGINE/README.md
+- 02-ENGINE/avatars/README.md
 - 06-EXEMPLA/README.md
 - 04-SOURCES/README.md
-- 05-ARCHIVE/README.md
-- 05-ARCHIVE/chorus-session-20260122/README.md
+- 05-MEMORY/README.md
+- 05-MEMORY/chorus-session-20260122/README.md
 - .constellation/phase-specs/README.md
 - 03-QUEUE/README.md
 Usage(s):
@@ -111312,10 +111312,10 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-037A.md:138
 - 00-ORCHESTRATION/scripts/verify_all.sh:28
 - 00-ORCHESTRATION/scripts/cleanup_root.sh:14
-- 02-OPERATIONAL/IIC-Efficacy-config.md:264
-- 02-OPERATIONAL/README.md:151
-- 02-OPERATIONAL/README.md:272
-- 02-OPERATIONAL/IIC-Mastery-config.md:205
+- 02-ENGINE/IIC-Efficacy-config.md:264
+- 02-ENGINE/README.md:151
+- 02-ENGINE/README.md:272
+- 02-ENGINE/IIC-Mastery-config.md:205
 - .claude/settings.local.json:97
 - 04-SOURCES/README.md:65
 - 04-SOURCES/raw/SOURCES_ANALYSIS_REPORT.md:41
@@ -111327,40 +111327,40 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:676
 - -OUTGOING/20260119-sensing_sweep/core_candidates.md:6
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/07_TANGIBLE_TELEOLOGY_ATLAS_README.md:1
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:116
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:88
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:95
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:98
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:263
-- 05-ARCHIVE/SCAFF-DEFRAG_EXECUTION_LOG.md:109
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:47
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:227
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:97
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:108
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:143
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:144
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:175
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:193
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:28
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:32
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:48
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:74
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:78
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:222
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:227
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:249
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:80
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:77
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:126
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:23
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:24
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:31
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:33
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:110
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:113
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:142
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:478
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:76
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:116
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:88
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:95
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:98
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:263
+- 05-MEMORY/SCAFF-DEFRAG_EXECUTION_LOG.md:109
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:47
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:227
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:97
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:108
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:143
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:144
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:175
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:193
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:28
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:32
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:48
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:74
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:78
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:222
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:227
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:249
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:80
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:77
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:126
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:23
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:24
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:31
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:33
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:110
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:113
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:142
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:478
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:76
 - 01-CANON/CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md:768
 - 01-CANON/CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md:1054
 - 01-CANON/CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md:1284
@@ -111375,18 +111375,18 @@ Usage(s):
 
 ### REF-AGENTS
 Definition(s):
-- 02-OPERATIONAL/registries/REF-AGENTS.md
+- 02-ENGINE/registries/REF-AGENTS.md
 Usage(s):
 - -OUTGOING/20260119-corpus-annealment-survey/CANON_FORENSIC_AUDIT.md:27
 
 ### REF-AUDIZER_PROTOCOL
 Definition(s):
-- 02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md
+- 02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md
 Usage(s):
 - 00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md:209
 - 00-ORCHESTRATION/state/DYN-TREE.md:566
-- 02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:62
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:29
+- 02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:62
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:29
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:185
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:50
 - -OUTGOING/20260119-corpus_survey/METABOLISM_MAP.md:56
@@ -111414,17 +111414,17 @@ Usage(s):
 
 ### REF-CHATGPT_MEMORY_POLICY
 Definition(s):
-- 02-OPERATIONAL/specs/REF-CHATGPT_MEMORY_POLICY.md
+- 02-ENGINE/specs/REF-CHATGPT_MEMORY_POLICY.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:567
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:30
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:30
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:186
 - -OUTGOING/20260119-corpus_survey/METABOLISM_MAP.md:56
 - -OUTGOING/20260119-corpus_survey/TOPOLOGY_MAP.md:59
 
 ### REF-CONFIGURATION_REGISTRY
 Definition(s):
-- 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md
+- 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md
 Usage(s):
 - (none)
 
@@ -111473,12 +111473,12 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:373
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:34
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:173
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:65
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:259
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:65
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:259
 
 ### REF-HANDOFF_PROTOCOL_DESIGN
 Definition(s):
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md
 Usage(s):
 - (none)
 
@@ -111490,7 +111490,7 @@ Usage(s):
 
 ### REF-MEMORY_ARCHITECTURE_MATRIX
 Definition(s):
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md
 Usage(s):
 - -OUTGOING/20260119-corpus-annealment-survey/CANON_FORENSIC_AUDIT.md:83
 
@@ -111510,8 +111510,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-043A.md:219
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-043A.md:273
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:174
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:162
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:226
+- 05-MEMORY/ORACLE11_CONTEXT.md:162
+- 05-MEMORY/ORACLE11_CONTEXT.md:226
 
 ### REF-MODEL_ORCHESTRATION
 Definition(s):
@@ -111536,8 +111536,8 @@ Usage(s):
 - 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md:256
 - 00-ORCHESTRATION/state/DYN-TASKS.csv:67
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:175
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:166
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:229
+- 05-MEMORY/ORACLE11_CONTEXT.md:166
+- 05-MEMORY/ORACLE11_CONTEXT.md:229
 
 ### REF-MULTI_CLI_COORDINATION
 Definition(s):
@@ -111551,7 +111551,7 @@ Usage(s):
 
 ### REF-OPERATIONAL_ENGINE
 Definition(s):
-- 02-OPERATIONAL/REF-OPERATIONAL_ENGINE.md
+- 02-ENGINE/REF-OPERATIONAL_ENGINE.md
 Usage(s):
 - -OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:17
 
@@ -111565,24 +111565,24 @@ Usage(s):
 
 ### REF-OPERATIONS_ARTIFACT_TAXONOMY
 Definition(s):
-- 02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md
+- 02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-BACKLOG.md:137
 - 00-ORCHESTRATION/state/DYN-TREE.md:558
 - 00-ORCHESTRATION/state/REF-REPO_VALIDATION_PROTOCOL.md:123
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:33
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:70
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:33
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:70
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:175
 - -OUTGOING/20260118-codify_validation_and_trifurcation/REF-REPO_VALIDATION_PROTOCOL.md:123
 - -OUTGOING/20260119-corpus_survey/METABOLISM_MAP.md:179
 
 ### REF-OPERATIONS_TREE
 Definition(s):
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-BACKLOG.md:139
 - 00-ORCHESTRATION/state/DYN-TREE.md:559
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:34
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:34
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:176
 - -OUTGOING/20260119-corpus_survey/METABOLISM_MAP.md:180
 
@@ -111599,12 +111599,12 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:23
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/00_INDEX.md:26
 - -OUTGOING/20260119-corpus_survey/METABOLISM_MAP.md:149
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:42
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:83
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:96
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:83
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:66
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:260
+- 05-MEMORY/ARCH-COCKPIT-v1.md:42
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:83
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:96
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:83
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:66
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:260
 
 ### REF-PROCESSING_ROUTING
 Definition(s):
@@ -111615,16 +111615,16 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:379
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:36
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:178
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:261
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:261
 
 ### REF-PROMPT_REGISTRY
 Definition(s):
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-BACKLOG.md:138
 - 00-ORCHESTRATION/state/DYN-TREE.md:560
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:35
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:71
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:35
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:71
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:177
 - -OUTGOING/20260119-corpus_survey/METABOLISM_MAP.md:178
 
@@ -111637,7 +111637,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:380
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:37
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:179
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:262
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:262
 
 ### REF-RENAME_MAPPING
 Definition(s):
@@ -111677,10 +111677,10 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md:154
 - 00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md:254
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:180
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:376
-- 05-ARCHIVE/ORACLE11_INIT.md:286
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:80
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:159
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:376
+- 05-MEMORY/ORACLE11_INIT.md:286
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:80
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:159
 
 ### REF-SOURCES_SCHEMA
 Definition(s):
@@ -111691,15 +111691,15 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:383
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:38
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:181
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:97
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:263
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:97
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:263
 
 ### REF-STABILIZATION_PROCEDURE
 Definition(s):
 - 00-ORCHESTRATION/state/REF-STABILIZATION_PROCEDURE.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:384
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:48
+- 05-MEMORY/ARCH-COCKPIT-v1.md:48
 
 ### REF-STANDARDS
 Definition(s):
@@ -111709,8 +111709,8 @@ Usage(s):
 - 00-ORCHESTRATION/state/README.md:33
 - 00-ORCHESTRATION/state/DYN-TREE.md:385
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:39
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:340
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:584
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:340
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:584
 - .claude/commands/project/deviser_reint.md:188
 - -OUTGOING/geminicli-report.md:15
 - -OUTGOING/geminicli-report.md:20
@@ -111728,14 +111728,14 @@ Usage(s):
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:33
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:40
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:40
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:23
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:34
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:70
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:264
+- 05-MEMORY/ARCH-COCKPIT-v1.md:23
+- 05-MEMORY/ARCH-COCKPIT-v1.md:34
+- 05-MEMORY/ARCH-COCKPIT-v1.md:70
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:264
 
 ### REF-STATE_FINGERPRINT_PROTOCOL
 Definition(s):
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md
 Usage(s):
 - (none)
 
@@ -111748,7 +111748,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:386
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039A.md:40
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:183
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:265
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:265
 
 ### REFACTOR_RISK_LEDGER
 Definition(s):
@@ -111758,7 +111758,7 @@ Usage(s):
 
 ### RESEARCH-20260108-claude_code_optimization
 Definition(s):
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A.md:117
 - 00-ORCHESTRATION/directives/DIRECTIVE-042A.md:249
@@ -111770,31 +111770,31 @@ Usage(s):
 
 ### RESOLUTION-v1-CHORUS
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1007
-- 05-ARCHIVE/chorus-session-20260122/README.md:10
+- 05-MEMORY/chorus-session-20260122/README.md:10
 
 ### RESOLUTION-v2-CONNECTORS
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1008
-- 05-ARCHIVE/chorus-session-20260122/README.md:11
+- 05-MEMORY/chorus-session-20260122/README.md:11
 
 ### RESOLUTION-v3-INTEGRATED
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:1009
-- 05-ARCHIVE/chorus-session-20260122/README.md:12
+- 05-MEMORY/chorus-session-20260122/README.md:12
 
 ### RESOLUTION_PASS_QA
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:96
-- 05-ARCHIVE/chorus-session-20260122/README.md:13
+- 05-MEMORY/chorus-session-20260122/README.md:13
 
 ### RING7_DEFINITION_AND_BOUNDARIES
 Definition(s):
@@ -111823,17 +111823,17 @@ Usage(s):
 
 ### SCAFF-ALPHA_ARCHAEOLOGY_REPORT
 Definition(s):
-- 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md
+- 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:40
 - 00-ORCHESTRATION/state/DYN-TREE.md:939
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-039B.md:21
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:654
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:281
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:281
 
 ### SCAFF-ALPHA_OPERATIONAL_COHERENCE
 Definition(s):
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:41
 - 00-ORCHESTRATION/state/DYN-TREE.md:940
@@ -111842,7 +111842,7 @@ Usage(s):
 
 ### SCAFF-ALPHA_REPOSITORY_AUDIT
 Definition(s):
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:42
 - 00-ORCHESTRATION/state/DYN-TREE.md:941
@@ -111851,7 +111851,7 @@ Usage(s):
 
 ### SCAFF-ALPHA_SYNTHESIS
 Definition(s):
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:43
 - 00-ORCHESTRATION/state/DYN-TREE.md:942
@@ -111860,7 +111860,7 @@ Usage(s):
 
 ### SCAFF-ALPHA_TENSION_MAP
 Definition(s):
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:44
 - 00-ORCHESTRATION/state/DYN-TREE.md:943
@@ -111869,7 +111869,7 @@ Usage(s):
 
 ### SCAFF-BETA_METADATA_SCHEMA
 Definition(s):
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:45
 - 00-ORCHESTRATION/state/DYN-TREE.md:944
@@ -111878,7 +111878,7 @@ Usage(s):
 
 ### SCAFF-BETA_NOMENCLATURE_SPEC
 Definition(s):
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:46
 - 00-ORCHESTRATION/state/DYN-TREE.md:945
@@ -111887,7 +111887,7 @@ Usage(s):
 
 ### SCAFF-BETA_VALIDATION_REPORT
 Definition(s):
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:47
 - 00-ORCHESTRATION/state/DYN-TREE.md:946
@@ -111896,7 +111896,7 @@ Usage(s):
 
 ### SCAFF-CONTENT_ALIGNMENT_AUDIT
 Definition(s):
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:48
 - 00-ORCHESTRATION/state/DYN-TREE.md:947
@@ -111905,7 +111905,7 @@ Usage(s):
 
 ### SCAFF-COSMOS_ALIGNMENT_REPORT
 Definition(s):
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:49
 - 00-ORCHESTRATION/state/DYN-TREE.md:948
@@ -111914,7 +111914,7 @@ Usage(s):
 
 ### SCAFF-CURRENT_STATE
 Definition(s):
-- 05-ARCHIVE/SCAFF-CURRENT_STATE.md
+- 05-MEMORY/SCAFF-CURRENT_STATE.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:50
 - 00-ORCHESTRATION/state/DYN-TREE.md:949
@@ -111924,7 +111924,7 @@ Usage(s):
 
 ### SCAFF-DEFRAG_EXECUTION_LOG
 Definition(s):
-- 05-ARCHIVE/SCAFF-DEFRAG_EXECUTION_LOG.md
+- 05-MEMORY/SCAFF-DEFRAG_EXECUTION_LOG.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:51
 - 00-ORCHESTRATION/state/DYN-TREE.md:950
@@ -111934,7 +111934,7 @@ Usage(s):
 
 ### SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT
 Definition(s):
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:52
 - 00-ORCHESTRATION/state/DYN-TREE.md:951
@@ -111958,12 +111958,12 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TASKS.csv:69
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:184
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:50
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:164
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:227
+- 05-MEMORY/ORACLE11_CONTEXT.md:164
+- 05-MEMORY/ORACLE11_CONTEXT.md:227
 
 ### SCAFF-ORACLE09_FINAL_CULMINATION
 Definition(s):
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:952
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:667
@@ -111972,14 +111972,14 @@ Usage(s):
 
 ### SCAFF-ORACLE10_INIT
 Definition(s):
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:953
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:668
 
 ### SCAFF-ORACLE8_STATUS_REPORT
 Definition(s):
-- 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md
+- 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:53
 - 00-ORCHESTRATION/state/DYN-TREE.md:954
@@ -111988,7 +111988,7 @@ Usage(s):
 
 ### SCAFF-RECONNAISSANCE_REPORT
 Definition(s):
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:54
 - 00-ORCHESTRATION/state/DYN-TREE.md:955
@@ -111997,7 +111997,7 @@ Usage(s):
 
 ### SCAFF-THREAD_TRAJECTORY
 Definition(s):
-- 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md
+- 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039B.md:55
 - 00-ORCHESTRATION/state/DYN-TREE.md:956
@@ -112530,10 +112530,10 @@ Usage(s):
 
 ### STATION_PROMPTS_REGISTRY
 Definition(s):
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:532
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:1
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:1
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:322
 
 ### SUBAGENT_MESH_BLUEPRINT
@@ -112619,10 +112619,10 @@ Usage(s):
 
 ### THREAD_HANDOFF_ORACLE13_SUNSET
 Definition(s):
-- 02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md
+- 02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:573
-- 02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md:1
+- 02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md:1
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:363
 
 ### TIGHTEN_REPORT
@@ -112690,7 +112690,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-034B.md:94
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:121
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:373
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:104
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:104
 - 03-QUEUE/QUEUE_DISPOSITION.md:71
 - 03-QUEUE/QUEUE_DISPOSITION.md:102
 
@@ -112709,7 +112709,7 @@ Usage(s):
 
 ### YOUTUBE_PROCESSING_BACKLOG
 Definition(s):
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-034D_PROJECT_MANAGEMENT.md:573
 - 00-ORCHESTRATION/directives/DIRECTIVE-034D_PROJECT_MANAGEMENT.md:643
@@ -112746,17 +112746,17 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:94
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:95
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:341
-- 05-ARCHIVE/SCAFF-DEFRAG_EXECUTION_LOG.md:119
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:75
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:53
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:164
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:54
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:94
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:96
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:114
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:131
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:75
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:98
+- 05-MEMORY/SCAFF-DEFRAG_EXECUTION_LOG.md:119
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:75
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:53
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:164
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:54
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:94
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:96
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:114
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:131
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:75
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:98
 - 03-QUEUE/QUEUE_DISPOSITION.md:24
 - 03-QUEUE/QUEUE_DISPOSITION.md:25
 - 03-QUEUE/QUEUE_DISPOSITION.md:36
@@ -112768,7 +112768,7 @@ Usage(s):
 
 ### absorb
 Definition(s):
-- 02-OPERATIONAL/functions/absorb.xml
+- 02-ENGINE/functions/absorb.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:255
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:67
@@ -112777,13 +112777,13 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-025B_STRUCTURAL_EXECUTION.md:279
 - 00-ORCHESTRATION/state/DYN-TREE.md:479
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:178
-- 02-OPERATIONAL/functions/listenize.md:74
-- 02-OPERATIONAL/functions/listenize.xml:56
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:151
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:155
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
-- 02-OPERATIONAL/functions/optimize.xml:481
-- 02-OPERATIONAL/functions/optimize.xml:667
+- 02-ENGINE/functions/listenize.md:74
+- 02-ENGINE/functions/listenize.xml:56
+- 02-ENGINE/functions/FUNCTION_INDEX.md:151
+- 02-ENGINE/functions/FUNCTION_INDEX.md:155
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/optimize.xml:481
+- 02-ENGINE/functions/optimize.xml:667
 - 04-SOURCES/processed/SOURCE-20251031-youtube-video-dshapiro-post_labor_enterprise.md:45
 - 04-SOURCES/raw/00000000-youtube_video-tforte-googles_notebooklm_is_getting_even_more_power.txt:382
 - 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.txt:1087
@@ -112799,10 +112799,10 @@ Usage(s):
 - 04-SOURCES/raw/20251027-youtube_video-moonshots-chatgpt_atlas.txt:999
 - 04-SOURCES/raw/20250624-youtube_video-dshapiro-content.txt:1785
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:278
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:135
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:152
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:88
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:228
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:135
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:152
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:88
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:228
 - 01-CANON/CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md:870
 
 ### active
@@ -112912,43 +112912,43 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md:42
 - 00-ORCHESTRATION/scripts/route_task.py:117
 - 00-ORCHESTRATION/scripts/structural_verify.sh:232
-- 02-OPERATIONAL/README.md:50
-- 02-OPERATIONAL/README.md:92
-- 02-OPERATIONAL/README.md:125
-- 02-OPERATIONAL/IIC-Coherence-config.md:213
-- 02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md:15
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:426
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:408
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:408
-- 02-OPERATIONAL/memory/acumen-memory-config.md:100
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:128
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:130
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:258
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:155
-- 02-OPERATIONAL/functions/listenize.md:66
-- 02-OPERATIONAL/functions/listenize.md:178
-- 02-OPERATIONAL/functions/readize.md:54
-- 02-OPERATIONAL/functions/readize.md:148
-- 02-OPERATIONAL/functions/compile.xml:90
-- 02-OPERATIONAL/functions/primer.xml:75
-- 02-OPERATIONAL/functions/listenize.xml:53
-- 02-OPERATIONAL/functions/translate.xml:92
-- 02-OPERATIONAL/functions/translate.xml:395
-- 02-OPERATIONAL/functions/offload.xml:4
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:74
-- 02-OPERATIONAL/functions/convert.xml:94
-- 02-OPERATIONAL/functions/anneal.xml:278
-- 02-OPERATIONAL/functions/readize.xml:52
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:63
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:70
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:79
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:110
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:111
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:124
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:156
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:316
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:373
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:435
+- 02-ENGINE/README.md:50
+- 02-ENGINE/README.md:92
+- 02-ENGINE/README.md:125
+- 02-ENGINE/IIC-Coherence-config.md:213
+- 02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md:15
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:426
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:408
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:408
+- 02-ENGINE/memory/acumen-memory-config.md:100
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:128
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:130
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:258
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:155
+- 02-ENGINE/functions/listenize.md:66
+- 02-ENGINE/functions/listenize.md:178
+- 02-ENGINE/functions/readize.md:54
+- 02-ENGINE/functions/readize.md:148
+- 02-ENGINE/functions/compile.xml:90
+- 02-ENGINE/functions/primer.xml:75
+- 02-ENGINE/functions/listenize.xml:53
+- 02-ENGINE/functions/translate.xml:92
+- 02-ENGINE/functions/translate.xml:395
+- 02-ENGINE/functions/offload.xml:4
+- 02-ENGINE/functions/FUNCTION_INDEX.md:74
+- 02-ENGINE/functions/convert.xml:94
+- 02-ENGINE/functions/anneal.xml:278
+- 02-ENGINE/functions/readize.xml:52
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:63
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:70
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:79
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:110
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:111
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:124
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:156
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:316
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:373
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:435
 - .obsidian/workspace.json:179
 - .claude/settings.local.json:94
 - .claude/settings.local.json:94
@@ -113036,44 +113036,44 @@ Usage(s):
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/02_CONCIERGE_COCKPIT_CONSTITUTION.md:169
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:7
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:62
-- 05-ARCHIVE/ARCH-oracle_memories.md:4
-- 05-ARCHIVE/ARCH-previous_thread.md:182
-- 05-ARCHIVE/ARCH-previous_thread.md:202
-- 05-ARCHIVE/ARCH-previous_thread.md:268
-- 05-ARCHIVE/ARCH-previous_thread.md:270
-- 05-ARCHIVE/ARCH-previous_thread.md:312
-- 05-ARCHIVE/ARCH-previous_thread.md:330
-- 05-ARCHIVE/ARCH-previous_thread.md:353
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:146
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:667
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:387
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:398
-- 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md:35
-- 05-ARCHIVE/SCAFF-DEFRAG_EXECUTION_LOG.md:108
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:183
-- 05-ARCHIVE/ARCH-final_interactions.md:132
-- 05-ARCHIVE/ARCH-final_interactions.md:134
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:111
-- 05-ARCHIVE/ARCH-platform_features.md:59
-- 05-ARCHIVE/ARCH-platform_features.md:69
-- 05-ARCHIVE/ARCH-platform_features.md:121
-- 05-ARCHIVE/ARCH-platform_features.md:123
-- 05-ARCHIVE/ARCH-platform_features.md:163
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:57
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:75
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:408
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:426
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md:154
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md:158
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:183
-- 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:94
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:5
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:47
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:47
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:20
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:90
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:101
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:117
+- 05-MEMORY/ARCH-oracle_memories.md:4
+- 05-MEMORY/ARCH-previous_thread.md:182
+- 05-MEMORY/ARCH-previous_thread.md:202
+- 05-MEMORY/ARCH-previous_thread.md:268
+- 05-MEMORY/ARCH-previous_thread.md:270
+- 05-MEMORY/ARCH-previous_thread.md:312
+- 05-MEMORY/ARCH-previous_thread.md:330
+- 05-MEMORY/ARCH-previous_thread.md:353
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:146
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:667
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:387
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:398
+- 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md:35
+- 05-MEMORY/SCAFF-DEFRAG_EXECUTION_LOG.md:108
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:183
+- 05-MEMORY/ARCH-final_interactions.md:132
+- 05-MEMORY/ARCH-final_interactions.md:134
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:111
+- 05-MEMORY/ARCH-platform_features.md:59
+- 05-MEMORY/ARCH-platform_features.md:69
+- 05-MEMORY/ARCH-platform_features.md:121
+- 05-MEMORY/ARCH-platform_features.md:123
+- 05-MEMORY/ARCH-platform_features.md:163
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:57
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:75
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:408
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:426
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md:154
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md:158
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:183
+- 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:94
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:5
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:47
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:47
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:20
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:90
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:101
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:117
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:35
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:74
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:275
@@ -113185,7 +113185,7 @@ Usage(s):
 
 ### acumen-memory-config
 Definition(s):
-- 02-OPERATIONAL/memory/acumen-memory-config.md
+- 02-ENGINE/memory/acumen-memory-config.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:206
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:811
@@ -113193,9 +113193,9 @@ Usage(s):
 - 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md:158
 - 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md:221
 - 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md:253
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:158
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:158
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:305
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:228
+- 05-MEMORY/ORACLE11_CONTEXT.md:228
 
 ### agents_201_orchestrating_multiple_agents_that_actually_work-@ghumare64
 Definition(s):
@@ -113211,7 +113211,7 @@ Usage(s):
 
 ### amalgamate
 Definition(s):
-- 02-OPERATIONAL/functions/amalgamate.xml
+- 02-ENGINE/functions/amalgamate.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-024_RUTHLESS_FORGE.md:193
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:256
@@ -113220,20 +113220,20 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:372
 - 00-ORCHESTRATION/state/DYN-TREE.md:480
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:178
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:43
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:48
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:216
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:234
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/FUNCTION_INDEX.md:43
+- 02-ENGINE/functions/FUNCTION_INDEX.md:48
+- 02-ENGINE/functions/FUNCTION_INDEX.md:216
+- 02-ENGINE/functions/FUNCTION_INDEX.md:234
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:279
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:128
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:150
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:64
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:229
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:128
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:150
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:64
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:229
 
 ### amplify
 Definition(s):
-- 02-OPERATIONAL/functions/amplify.xml
+- 02-ENGINE/functions/amplify.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:257
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:67
@@ -113243,23 +113243,23 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-CRYSTALLINE_CHARACTERISTICS.md:290
 - 00-ORCHESTRATION/state/DYN-TREE.md:481
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:178
-- 02-OPERATIONAL/prompts/unified/Grok-gemknowledge-base.md:20
-- 02-OPERATIONAL/functions/listenize.md:30
-- 02-OPERATIONAL/functions/readize.md:30
-- 02-OPERATIONAL/functions/reforge.xml:63
-- 02-OPERATIONAL/functions/listenize.xml:35
-- 02-OPERATIONAL/functions/integrate.xml:60
-- 02-OPERATIONAL/functions/amplify.xml:13
-- 02-OPERATIONAL/functions/amplify.xml:17
-- 02-OPERATIONAL/functions/amplify.xml:25
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:143
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:149
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:206
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:232
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:260
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
-- 02-OPERATIONAL/functions/integrate.md:78
-- 02-OPERATIONAL/functions/readize.xml:34
+- 02-ENGINE/prompts/unified/Grok-gemknowledge-base.md:20
+- 02-ENGINE/functions/listenize.md:30
+- 02-ENGINE/functions/readize.md:30
+- 02-ENGINE/functions/reforge.xml:63
+- 02-ENGINE/functions/listenize.xml:35
+- 02-ENGINE/functions/integrate.xml:60
+- 02-ENGINE/functions/amplify.xml:13
+- 02-ENGINE/functions/amplify.xml:17
+- 02-ENGINE/functions/amplify.xml:25
+- 02-ENGINE/functions/FUNCTION_INDEX.md:143
+- 02-ENGINE/functions/FUNCTION_INDEX.md:149
+- 02-ENGINE/functions/FUNCTION_INDEX.md:206
+- 02-ENGINE/functions/FUNCTION_INDEX.md:232
+- 02-ENGINE/functions/FUNCTION_INDEX.md:260
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/integrate.md:78
+- 02-ENGINE/functions/readize.xml:34
 - 04-SOURCES/raw/20251023-youtube_video-ark-brainstorn_106.txt:232
 - 04-SOURCES/raw/00000000-youtube_video-openai-ai_round_up_karpathy_reactions_s_dealmaking_b.txt:162
 - 04-SOURCES/raw/20251031-youtube_video-bilawal-john_gaeta.md:155
@@ -113272,18 +113272,18 @@ Usage(s):
 - 04-SOURCES/raw/20251222-youtube_video-20251222_youtub-neil_mcdevitt.md:47
 - 04-SOURCES/raw/20251030-youtube_video-sanity-everything_sean_grove.txt:270
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:280
-- 05-ARCHIVE/justification-grok.md:29
-- 05-ARCHIVE/justification-grok.md:33
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:135
-- 05-ARCHIVE/Grok-unified-prompt.md:23
-- 05-ARCHIVE/Grok-unified-prompt.md:123
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:152
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:87
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:30
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:29
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:33
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt:3
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt:21
+- 05-MEMORY/justification-grok.md:29
+- 05-MEMORY/justification-grok.md:33
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:135
+- 05-MEMORY/Grok-unified-prompt.md:23
+- 05-MEMORY/Grok-unified-prompt.md:123
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:152
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:87
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:30
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:29
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:33
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt:3
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt:21
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:44
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:975
 - 01-CANON/CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md:290
@@ -113310,7 +113310,7 @@ Usage(s):
 
 ### anneal
 Definition(s):
-- 02-OPERATIONAL/functions/anneal.xml
+- 02-ENGINE/functions/anneal.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:258
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:53
@@ -113321,9 +113321,9 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md:108
 - 00-ORCHESTRATION/state/DYN-TREE.md:482
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:178
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:83
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:87
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/FUNCTION_INDEX.md:83
+- 02-ENGINE/functions/FUNCTION_INDEX.md:87
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
 - 04-SOURCES/raw/20251031-youtube_video-jre-experience_elon_musk_2404.txt:692
 - 04-SOURCES/raw/20251031-youtube_video-jre-experience_elon_musk_2404.txt:692
 - 04-SOURCES/raw/20251031-youtube_video-jre-experience_elon_musk_2404.txt:694
@@ -113331,10 +113331,10 @@ Usage(s):
 - 04-SOURCES/raw/20251031-youtube_video-jre-experience_elon_musk_2404.md:105
 - 04-SOURCES/raw/20251031-youtube_video-jre-experience_elon_musk_2404.md:105
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:281
-- 05-ARCHIVE/ARCH-previous_thread.md:180
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:73
+- 05-MEMORY/ARCH-previous_thread.md:180
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:73
 
 ### app
 Definition(s):
@@ -113353,12 +113353,12 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-INTERACTION_PARADIGM.md:127
 - 00-ORCHESTRATION/state/ARCH-INTERACTION_PARADIGM.md:152
 - 00-ORCHESTRATION/state/ARCH-INTERACTION_PARADIGM.md:582
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:208
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:219
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:220
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:11
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:17
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:17
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:208
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:219
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:220
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:11
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:17
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:17
 - .claude/skills/pedigree.md:34
 - 04-SOURCES/processed/SOURCE-20251027-youtube-interview-allin-john_martinis.md:52
 - 04-SOURCES/processed/SOURCE-20251030-youtube-interview-moonshots-anatoly_yakovenko.md:38
@@ -113507,41 +113507,41 @@ Usage(s):
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/01_ACCOUNT_ENTITLEMENT_LEDGER.md:44
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/06_CRASHOUT_PREVENTION_AND_RECOVERY.md:173
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:70
-- 05-ARCHIVE/ARCH-oracle_memories.md:7
-- 05-ARCHIVE/ARCH-previous_thread.md:126
-- 05-ARCHIVE/ARCH-previous_thread.md:126
-- 05-ARCHIVE/ARCH-previous_thread.md:126
-- 05-ARCHIVE/ARCH-previous_thread.md:165
-- 05-ARCHIVE/ARCH-previous_thread.md:222
-- 05-ARCHIVE/ARCH-previous_thread.md:240
-- 05-ARCHIVE/ARCH-previous_thread.md:310
-- 05-ARCHIVE/ARCH-previous_thread.md:321
-- 05-ARCHIVE/ARCH-previous_thread.md:321
-- 05-ARCHIVE/ARCH-previous_thread.md:351
-- 05-ARCHIVE/ARCH-previous_thread.md:535
-- 05-ARCHIVE/ARCH-previous_thread.md:535
-- 05-ARCHIVE/ARCH-previous_thread.md:535
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:34
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:54
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:311
-- 05-ARCHIVE/ARCH-final_interactions.md:91
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:18
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:131
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:132
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:133
-- 05-ARCHIVE/ARCH-platform_features.md:294
-- 05-ARCHIVE/ARCH-frontier_models.md:163
-- 05-ARCHIVE/ARCH-deviser1_continuity.md:45
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:85
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:186
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:194
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:73
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:24
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:25
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:144
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:150
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:24
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:44
+- 05-MEMORY/ARCH-oracle_memories.md:7
+- 05-MEMORY/ARCH-previous_thread.md:126
+- 05-MEMORY/ARCH-previous_thread.md:126
+- 05-MEMORY/ARCH-previous_thread.md:126
+- 05-MEMORY/ARCH-previous_thread.md:165
+- 05-MEMORY/ARCH-previous_thread.md:222
+- 05-MEMORY/ARCH-previous_thread.md:240
+- 05-MEMORY/ARCH-previous_thread.md:310
+- 05-MEMORY/ARCH-previous_thread.md:321
+- 05-MEMORY/ARCH-previous_thread.md:321
+- 05-MEMORY/ARCH-previous_thread.md:351
+- 05-MEMORY/ARCH-previous_thread.md:535
+- 05-MEMORY/ARCH-previous_thread.md:535
+- 05-MEMORY/ARCH-previous_thread.md:535
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:34
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:54
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:311
+- 05-MEMORY/ARCH-final_interactions.md:91
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:18
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:131
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:132
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:133
+- 05-MEMORY/ARCH-platform_features.md:294
+- 05-MEMORY/ARCH-frontier_models.md:163
+- 05-MEMORY/ARCH-deviser1_continuity.md:45
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:85
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:186
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:194
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:73
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:24
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:25
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:144
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:150
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:24
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:44
 - 01-CANON/CANON-30200-POSITIONING-comet-INTELLIGENCE.md:154
 - 01-CANON/CANON-30200-POSITIONING-comet-INTELLIGENCE.md:508
 - 01-CANON/CANON-30200-POSITIONING-comet-INTELLIGENCE.md:819
@@ -113598,7 +113598,7 @@ Usage(s):
 - 04-SOURCES/raw/20250207-youtube_video-bilawal-vfx_ai_tools.txt:220
 - 04-SOURCES/raw/20251031-youtube_video-jre-experience_elon_musk_2404.md:167
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:20
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:149
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:149
 - 01-CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md:264
 - 01-CANON/CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md:24
 - 01-CANON/CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md:396
@@ -113655,15 +113655,15 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md:116
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:30
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:282
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:21
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:107
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:134
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:210
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:219
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:229
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:234
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:236
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:285
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:21
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:107
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:134
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:210
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:219
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:229
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:234
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:236
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:285
 - .claude/commands/project/deviser_reint.md:180
 - .claude/commands/project/blitzkrieg_issue.md:3
 - .claude/commands/project/blitzkrieg_issue.md:8
@@ -113686,11 +113686,11 @@ Usage(s):
 - -OUTGOING/20260118-blitzkrieg/01_context/context.md:10
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/02_CONCIERGE_COCKPIT_CONSTITUTION.md:145
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/02_CONCIERGE_COCKPIT_CONSTITUTION.md:169
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:78
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:84
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:203
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:241
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:505
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:78
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:84
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:203
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:241
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:505
 
 ### blitzkrieg_finalize
 Definition(s):
@@ -113706,7 +113706,7 @@ Usage(s):
 - 00-ORCHESTRATION/state/REF-EXPORT_HYGIENE.md:190
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:9
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:81
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:254
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:254
 - .claude/commands/project/blitzkrieg_finalize.md:2
 - -OUTGOING/20260118-blitzkrieg/02_directives/directive-01.md:12
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:77
@@ -113793,89 +113793,89 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/regenerate_canon.py:151
 - 00-ORCHESTRATION/blackboard/evidence/EVD-20260116-001.json:15
 - 00-ORCHESTRATION/blackboard/executions/EXE-20260116-001.json:7
-- 02-OPERATIONAL/IIC-Efficacy-config.md:187
-- 02-OPERATIONAL/IIC-Efficacy-config.md:325
-- 02-OPERATIONAL/IIC-Efficacy-config.md:365
-- 02-OPERATIONAL/IIC-Transcendence-config.md:117
-- 02-OPERATIONAL/IIC-Transcendence-config.md:125
-- 02-OPERATIONAL/IIC-Transcendence-config.md:174
-- 02-OPERATIONAL/IIC-Transcendence-config.md:184
-- 02-OPERATIONAL/IIC-Transcendence-config.md:233
-- 02-OPERATIONAL/IIC-Transcendence-config.md:302
-- 02-OPERATIONAL/IIC-Transcendence-config.md:326
-- 02-OPERATIONAL/IIC-Transcendence-config.md:546
-- 02-OPERATIONAL/IIC-Transcendence-config.md:627
-- 02-OPERATIONAL/IIC-Transcendence-config.md:651
-- 02-OPERATIONAL/README.md:10
-- 02-OPERATIONAL/README.md:25
-- 02-OPERATIONAL/README.md:32
-- 02-OPERATIONAL/README.md:41
-- 02-OPERATIONAL/README.md:50
-- 02-OPERATIONAL/README.md:57
-- 02-OPERATIONAL/README.md:212
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:401
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:503
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:505
-- 02-OPERATIONAL/memory/acumen-memory-config.md:32
-- 02-OPERATIONAL/specs/REF-CHATGPT_MEMORY_POLICY.md:53
-- 02-OPERATIONAL/models/MODEL_INDEX.md:7
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:34
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:251
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:207
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:158
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:187
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:45
-- 02-OPERATIONAL/functions/reforge.xml:115
-- 02-OPERATIONAL/functions/compile.xml:10
-- 02-OPERATIONAL/functions/compile.xml:20
-- 02-OPERATIONAL/functions/compile.xml:30
-- 02-OPERATIONAL/functions/compile.xml:32
-- 02-OPERATIONAL/functions/compile.xml:50
-- 02-OPERATIONAL/functions/compile.xml:82
-- 02-OPERATIONAL/functions/compile.xml:305
-- 02-OPERATIONAL/functions/compile.xml:407
-- 02-OPERATIONAL/functions/compile.xml:407
-- 02-OPERATIONAL/functions/compile.xml:537
-- 02-OPERATIONAL/functions/translate.xml:12
-- 02-OPERATIONAL/functions/translate.xml:22
-- 02-OPERATIONAL/functions/translate.xml:32
-- 02-OPERATIONAL/functions/translate.xml:34
-- 02-OPERATIONAL/functions/translate.xml:52
-- 02-OPERATIONAL/functions/translate.xml:84
-- 02-OPERATIONAL/functions/translate.xml:344
-- 02-OPERATIONAL/functions/translate.xml:403
-- 02-OPERATIONAL/functions/translate.xml:403
-- 02-OPERATIONAL/functions/translate.xml:414
-- 02-OPERATIONAL/functions/translate.xml:450
-- 02-OPERATIONAL/functions/amalgamate.xml:4
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:12
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:287
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:293
-- 02-OPERATIONAL/functions/optimize.xml:322
-- 02-OPERATIONAL/functions/optimize.xml:324
-- 02-OPERATIONAL/functions/optimize.xml:344
-- 02-OPERATIONAL/functions/optimize.xml:398
-- 02-OPERATIONAL/functions/optimize.xml:413
-- 02-OPERATIONAL/functions/optimize.xml:593
-- 02-OPERATIONAL/functions/optimize.xml:675
-- 02-OPERATIONAL/functions/optimize.xml:713
-- 02-OPERATIONAL/functions/convert.xml:12
-- 02-OPERATIONAL/functions/convert.xml:14
-- 02-OPERATIONAL/functions/convert.xml:24
-- 02-OPERATIONAL/functions/convert.xml:34
-- 02-OPERATIONAL/functions/convert.xml:36
-- 02-OPERATIONAL/functions/convert.xml:54
-- 02-OPERATIONAL/functions/convert.xml:86
-- 02-OPERATIONAL/functions/convert.xml:249
-- 02-OPERATIONAL/functions/convert.xml:285
-- 02-OPERATIONAL/functions/convert.xml:360
-- 02-OPERATIONAL/functions/convert.xml:467
-- 02-OPERATIONAL/functions/convert.xml:467
-- 02-OPERATIONAL/functions/convert.xml:602
-- 02-OPERATIONAL/functions/convert.xml:644
-- 02-OPERATIONAL/functions/anneal.xml:115
-- 02-OPERATIONAL/functions/anneal.xml:205
-- 02-OPERATIONAL/functions/anneal.xml:215
+- 02-ENGINE/IIC-Efficacy-config.md:187
+- 02-ENGINE/IIC-Efficacy-config.md:325
+- 02-ENGINE/IIC-Efficacy-config.md:365
+- 02-ENGINE/IIC-Transcendence-config.md:117
+- 02-ENGINE/IIC-Transcendence-config.md:125
+- 02-ENGINE/IIC-Transcendence-config.md:174
+- 02-ENGINE/IIC-Transcendence-config.md:184
+- 02-ENGINE/IIC-Transcendence-config.md:233
+- 02-ENGINE/IIC-Transcendence-config.md:302
+- 02-ENGINE/IIC-Transcendence-config.md:326
+- 02-ENGINE/IIC-Transcendence-config.md:546
+- 02-ENGINE/IIC-Transcendence-config.md:627
+- 02-ENGINE/IIC-Transcendence-config.md:651
+- 02-ENGINE/README.md:10
+- 02-ENGINE/README.md:25
+- 02-ENGINE/README.md:32
+- 02-ENGINE/README.md:41
+- 02-ENGINE/README.md:50
+- 02-ENGINE/README.md:57
+- 02-ENGINE/README.md:212
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:401
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:503
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:505
+- 02-ENGINE/memory/acumen-memory-config.md:32
+- 02-ENGINE/specs/REF-CHATGPT_MEMORY_POLICY.md:53
+- 02-ENGINE/models/MODEL_INDEX.md:7
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:34
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:251
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:207
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:158
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:187
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:45
+- 02-ENGINE/functions/reforge.xml:115
+- 02-ENGINE/functions/compile.xml:10
+- 02-ENGINE/functions/compile.xml:20
+- 02-ENGINE/functions/compile.xml:30
+- 02-ENGINE/functions/compile.xml:32
+- 02-ENGINE/functions/compile.xml:50
+- 02-ENGINE/functions/compile.xml:82
+- 02-ENGINE/functions/compile.xml:305
+- 02-ENGINE/functions/compile.xml:407
+- 02-ENGINE/functions/compile.xml:407
+- 02-ENGINE/functions/compile.xml:537
+- 02-ENGINE/functions/translate.xml:12
+- 02-ENGINE/functions/translate.xml:22
+- 02-ENGINE/functions/translate.xml:32
+- 02-ENGINE/functions/translate.xml:34
+- 02-ENGINE/functions/translate.xml:52
+- 02-ENGINE/functions/translate.xml:84
+- 02-ENGINE/functions/translate.xml:344
+- 02-ENGINE/functions/translate.xml:403
+- 02-ENGINE/functions/translate.xml:403
+- 02-ENGINE/functions/translate.xml:414
+- 02-ENGINE/functions/translate.xml:450
+- 02-ENGINE/functions/amalgamate.xml:4
+- 02-ENGINE/functions/FUNCTION_INDEX.md:12
+- 02-ENGINE/functions/FUNCTION_INDEX.md:287
+- 02-ENGINE/functions/FUNCTION_INDEX.md:293
+- 02-ENGINE/functions/optimize.xml:322
+- 02-ENGINE/functions/optimize.xml:324
+- 02-ENGINE/functions/optimize.xml:344
+- 02-ENGINE/functions/optimize.xml:398
+- 02-ENGINE/functions/optimize.xml:413
+- 02-ENGINE/functions/optimize.xml:593
+- 02-ENGINE/functions/optimize.xml:675
+- 02-ENGINE/functions/optimize.xml:713
+- 02-ENGINE/functions/convert.xml:12
+- 02-ENGINE/functions/convert.xml:14
+- 02-ENGINE/functions/convert.xml:24
+- 02-ENGINE/functions/convert.xml:34
+- 02-ENGINE/functions/convert.xml:36
+- 02-ENGINE/functions/convert.xml:54
+- 02-ENGINE/functions/convert.xml:86
+- 02-ENGINE/functions/convert.xml:249
+- 02-ENGINE/functions/convert.xml:285
+- 02-ENGINE/functions/convert.xml:360
+- 02-ENGINE/functions/convert.xml:467
+- 02-ENGINE/functions/convert.xml:467
+- 02-ENGINE/functions/convert.xml:602
+- 02-ENGINE/functions/convert.xml:644
+- 02-ENGINE/functions/anneal.xml:115
+- 02-ENGINE/functions/anneal.xml:205
+- 02-ENGINE/functions/anneal.xml:215
 - 06-EXEMPLA/cautionary-tales/TALE-ajna2-lobotomy.md:32
 - 04-SOURCES/REF-CREATOR_BIOS.md:1134
 - 04-SOURCES/REF-CREATOR_BIOS.md:1136
@@ -114228,79 +114228,79 @@ Usage(s):
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/07_TANGIBLE_TELEOLOGY_ATLAS.csv:19
 - -OUTGOING/20260119-corpus-annealment-survey/CANON_FORENSIC_AUDIT.md:11
 - -OUTGOING/20260119-corpus-annealment-survey/CANON_FORENSIC_AUDIT.md:11
-- 05-ARCHIVE/ARCH-oracle_memories.md:19
-- 05-ARCHIVE/ARCH-previous_thread.md:133
-- 05-ARCHIVE/ARCH-previous_thread.md:295
-- 05-ARCHIVE/ARCH-previous_thread.md:450
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:29
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:12
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:14
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:174
-- 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:29
-- 05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md:108
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:19
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:75
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:28
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:98
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:46
-- 05-ARCHIVE/ARCH-platform_features.md:7
-- 05-ARCHIVE/ARCH-platform_features.md:9
-- 05-ARCHIVE/ARCH-platform_features.md:39
-- 05-ARCHIVE/ARCH-platform_features.md:81
-- 05-ARCHIVE/ARCH-platform_features.md:95
-- 05-ARCHIVE/ARCH-platform_features.md:137
-- 05-ARCHIVE/ARCH-platform_features.md:139
-- 05-ARCHIVE/ARCH-platform_features.md:141
-- 05-ARCHIVE/ARCH-platform_features.md:145
-- 05-ARCHIVE/ARCH-platform_features.md:213
-- 05-ARCHIVE/ARCH-platform_features.md:252
-- 05-ARCHIVE/ARCH-platform_features.md:556
-- 05-ARCHIVE/ARCH-platform_features.md:592
-- 05-ARCHIVE/ARCH-platform_features.md:616
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:38
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:14
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:35
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:47
-- 05-ARCHIVE/justification-gemini.md:3
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:296
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md:153
-- 05-ARCHIVE/ARCH-frontier_models.md:8
-- 05-ARCHIVE/ARCH-frontier_models.md:67
-- 05-ARCHIVE/ARCH-frontier_models.md:72
-- 05-ARCHIVE/ARCH-frontier_models.md:326
-- 05-ARCHIVE/ARCH-frontier_models.md:429
-- 05-ARCHIVE/ARCH-frontier_models.md:565
-- 05-ARCHIVE/ARCH-frontier_models.md:655
-- 05-ARCHIVE/ARCH-frontier_models.md:688
-- 05-ARCHIVE/ARCH-frontier_models.md:712
-- 05-ARCHIVE/ARCH-frontier_models.md:931
-- 05-ARCHIVE/ARCH-frontier_models.md:976
-- 05-ARCHIVE/ARCH-frontier_models.md:997
-- 05-ARCHIVE/ARCH-frontier_models.md:1029
-- 05-ARCHIVE/ARCH-frontier_models.md:1038
-- 05-ARCHIVE/ARCH-frontier_models.md:1080
-- 05-ARCHIVE/ARCH-frontier_models.md:1187
-- 05-ARCHIVE/ARCH-frontier_models.md:1243
-- 05-ARCHIVE/ARCH-frontier_models.md:1255
-- 05-ARCHIVE/ARCH-frontier_models.md:1258
-- 05-ARCHIVE/ARCH-frontier_models.md:1351
-- 05-ARCHIVE/justification-claude.md:210
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:118
-- 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:15
-- 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:25
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:22
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:62
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:167
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:240
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:441
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:3
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:210
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:251
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:207
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:507
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:553
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:5
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:55
+- 05-MEMORY/ARCH-oracle_memories.md:19
+- 05-MEMORY/ARCH-previous_thread.md:133
+- 05-MEMORY/ARCH-previous_thread.md:295
+- 05-MEMORY/ARCH-previous_thread.md:450
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:29
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:12
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:14
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:174
+- 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:29
+- 05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md:108
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:19
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:75
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:28
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:98
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:46
+- 05-MEMORY/ARCH-platform_features.md:7
+- 05-MEMORY/ARCH-platform_features.md:9
+- 05-MEMORY/ARCH-platform_features.md:39
+- 05-MEMORY/ARCH-platform_features.md:81
+- 05-MEMORY/ARCH-platform_features.md:95
+- 05-MEMORY/ARCH-platform_features.md:137
+- 05-MEMORY/ARCH-platform_features.md:139
+- 05-MEMORY/ARCH-platform_features.md:141
+- 05-MEMORY/ARCH-platform_features.md:145
+- 05-MEMORY/ARCH-platform_features.md:213
+- 05-MEMORY/ARCH-platform_features.md:252
+- 05-MEMORY/ARCH-platform_features.md:556
+- 05-MEMORY/ARCH-platform_features.md:592
+- 05-MEMORY/ARCH-platform_features.md:616
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:38
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:14
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:35
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:47
+- 05-MEMORY/justification-gemini.md:3
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:296
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md:153
+- 05-MEMORY/ARCH-frontier_models.md:8
+- 05-MEMORY/ARCH-frontier_models.md:67
+- 05-MEMORY/ARCH-frontier_models.md:72
+- 05-MEMORY/ARCH-frontier_models.md:326
+- 05-MEMORY/ARCH-frontier_models.md:429
+- 05-MEMORY/ARCH-frontier_models.md:565
+- 05-MEMORY/ARCH-frontier_models.md:655
+- 05-MEMORY/ARCH-frontier_models.md:688
+- 05-MEMORY/ARCH-frontier_models.md:712
+- 05-MEMORY/ARCH-frontier_models.md:931
+- 05-MEMORY/ARCH-frontier_models.md:976
+- 05-MEMORY/ARCH-frontier_models.md:997
+- 05-MEMORY/ARCH-frontier_models.md:1029
+- 05-MEMORY/ARCH-frontier_models.md:1038
+- 05-MEMORY/ARCH-frontier_models.md:1080
+- 05-MEMORY/ARCH-frontier_models.md:1187
+- 05-MEMORY/ARCH-frontier_models.md:1243
+- 05-MEMORY/ARCH-frontier_models.md:1255
+- 05-MEMORY/ARCH-frontier_models.md:1258
+- 05-MEMORY/ARCH-frontier_models.md:1351
+- 05-MEMORY/justification-claude.md:210
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:118
+- 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:15
+- 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:25
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:22
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:62
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:167
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:240
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:441
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:3
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:210
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:251
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:207
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:507
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:553
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:5
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:55
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:43
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:733
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:872
@@ -114616,13 +114616,13 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/cleanup_root.sh:2
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:147
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:28
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:377
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:72
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:160
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:377
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:72
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:160
 
 ### coalesce
 Definition(s):
-- 02-OPERATIONAL/functions/coalesce.xml
+- 02-ENGINE/functions/coalesce.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:259
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:49
@@ -114630,14 +114630,14 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-025B_STRUCTURAL_EXECUTION.md:273
 - 00-ORCHESTRATION/state/DYN-TREE.md:483
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:179
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:50
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:55
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:233
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/FUNCTION_INDEX.md:50
+- 02-ENGINE/functions/FUNCTION_INDEX.md:55
+- 02-ENGINE/functions/FUNCTION_INDEX.md:233
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:282
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:150
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:63
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:150
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:63
 
 ### codex-report
 Definition(s):
@@ -114665,7 +114665,7 @@ Usage(s):
 
 ### compile
 Definition(s):
-- 02-OPERATIONAL/functions/compile.xml
+- 02-ENGINE/functions/compile.xml
 Usage(s):
 - COCKPIT.md:149
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:260
@@ -114674,17 +114674,17 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-025B_STRUCTURAL_EXECUTION.md:273
 - 00-ORCHESTRATION/state/DYN-TREE.md:484
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:179
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:125
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:139
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:234
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:256
-- 02-OPERATIONAL/functions/integrate.xml:8
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:65
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:69
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:211
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:230
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
-- 02-OPERATIONAL/functions/integrate.md:24
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:125
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:139
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:234
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:256
+- 02-ENGINE/functions/integrate.xml:8
+- 02-ENGINE/functions/FUNCTION_INDEX.md:65
+- 02-ENGINE/functions/FUNCTION_INDEX.md:69
+- 02-ENGINE/functions/FUNCTION_INDEX.md:211
+- 02-ENGINE/functions/FUNCTION_INDEX.md:230
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/integrate.md:24
 - .claude/commands/project/repo_validate.md:72
 - 04-SOURCES/raw/20250522-youtube_video-dwarkesh-sholto_douglas__trenton_bricken.txt:134
 - 04-SOURCES/raw/20250522-youtube_video-dwarkesh-sholto_douglas__trenton_bricken.txt:134
@@ -114692,14 +114692,14 @@ Usage(s):
 - 04-SOURCES/raw/20251030-youtube_video-sanity-everything_sean_grove.txt:386
 - 04-SOURCES/raw/20251030-youtube_video-sanity-everything_sean_grove.txt:388
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:283
-- 05-ARCHIVE/ARCH-previous_thread.md:131
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:70
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:228
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:308
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:365
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:98
+- 05-MEMORY/ARCH-previous_thread.md:131
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:70
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:228
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:308
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:365
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:98
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:480
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:555
 - 01-CANON/CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md:1639
@@ -114712,7 +114712,7 @@ Usage(s):
 
 ### consolidate
 Definition(s):
-- 02-OPERATIONAL/functions/consolidate.xml
+- 02-ENGINE/functions/consolidate.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-024_RUTHLESS_FORGE.md:281
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:261
@@ -114725,13 +114725,13 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:485
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:179
 - 00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md:90
-- 02-OPERATIONAL/functions/transcribe_interview.xml:42
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:89
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:93
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:235
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
-- 02-OPERATIONAL/functions/transcribe_panel.xml:43
-- 02-OPERATIONAL/functions/transcribe_panel.xml:45
+- 02-ENGINE/functions/transcribe_interview.xml:42
+- 02-ENGINE/functions/FUNCTION_INDEX.md:89
+- 02-ENGINE/functions/FUNCTION_INDEX.md:93
+- 02-ENGINE/functions/FUNCTION_INDEX.md:235
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/transcribe_panel.xml:43
+- 02-ENGINE/functions/transcribe_panel.xml:45
 - .claude/skills/intentions.md:22
 - 04-SOURCES/processed/SOURCE-20250312-youtube-interview-dwarkesh-joseph_henrich.md:46
 - 04-SOURCES/raw/00000000-youtube_video-jsung-how_to_be_so_productive_that_it_makes_you_dan.txt:177
@@ -114740,11 +114740,11 @@ Usage(s):
 - 04-SOURCES/raw/20250617-youtube_video-yc-andrej_karpathy.txt:384
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:284
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/audit_of_defrag_conviction_pass.md:146
-- 05-ARCHIVE/ARCH-previous_thread.md:280
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
-- 05-ARCHIVE/ARCH-final_interactions.md:148
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:74
+- 05-MEMORY/ARCH-previous_thread.md:280
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
+- 05-MEMORY/ARCH-final_interactions.md:148
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:74
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:193
 - 01-CANON/CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md:119
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:434
@@ -115017,265 +115017,265 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:81
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:83
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:145
-- 02-OPERATIONAL/IIC-Efficacy-config.md:159
-- 02-OPERATIONAL/IIC-Efficacy-config.md:370
-- 02-OPERATIONAL/IIC-Acumen-config.md:67
-- 02-OPERATIONAL/IIC-Acumen-config.md:105
-- 02-OPERATIONAL/IIC-Acumen-config.md:110
-- 02-OPERATIONAL/IIC-Acumen-config.md:123
-- 02-OPERATIONAL/IIC-Acumen-config.md:374
-- 02-OPERATIONAL/IIC-Acumen-config.md:419
-- 02-OPERATIONAL/IIC-Acumen-config.md:430
-- 02-OPERATIONAL/README.md:10
-- 02-OPERATIONAL/README.md:139
-- 02-OPERATIONAL/IIC-Coherence-config.md:365
-- 02-OPERATIONAL/IIC-Coherence-config.md:648
-- 02-OPERATIONAL/IIC-Coherence-config.md:651
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:19
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:201
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:313
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:403
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:413
-- 02-OPERATIONAL/IIC-shared-protocols.md:92
-- 02-OPERATIONAL/IIC-shared-protocols.md:276
-- 02-OPERATIONAL/IIC-shared-protocols.md:517
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:556
-- 02-OPERATIONAL/GEMINI.md:48
-- 02-OPERATIONAL/GEMINI.md:69
-- 02-OPERATIONAL/GEMINI.md:90
-- 02-OPERATIONAL/IIC-Mastery-config.md:195
-- 02-OPERATIONAL/IIC-Mastery-config.md:457
-- 02-OPERATIONAL/IIC-Mastery-config.md:552
-- 02-OPERATIONAL/DYN-COORDINATION.yaml:153
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:37
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:39
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:188
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:197
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:203
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:254
-- 02-OPERATIONAL/memory/acumen-memory-config.md:87
-- 02-OPERATIONAL/memory/acumen-memory-config.md:105
-- 02-OPERATIONAL/memory/acumen-memory-config.md:178
-- 02-OPERATIONAL/memory/acumen-memory-config.md:234
-- 02-OPERATIONAL/memory/acumen-memory-config.md:264
-- 02-OPERATIONAL/memory/acumen-memory-config.md:269
-- 02-OPERATIONAL/memory/acumen-memory-config.md:283
-- 02-OPERATIONAL/memory/acumen-memory-config.md:295
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:10
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:45
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:47
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:102
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:109
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:111
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:129
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:162
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:185
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:199
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:203
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:211
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:216
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:259
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:265
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:319
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:325
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:336
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:370
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:381
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:397
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:409
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:415
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:421
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:449
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:454
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:458
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:464
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:476
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:488
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:515
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:523
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:17
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:76
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:91
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:118
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:138
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:147
-- 02-OPERATIONAL/models/MODEL_INDEX.md:24
-- 02-OPERATIONAL/models/MODEL_INDEX.md:31
-- 02-OPERATIONAL/models/MODEL_INDEX.md:37
-- 02-OPERATIONAL/models/MODEL_INDEX.md:49
-- 02-OPERATIONAL/models/MODEL_INDEX.md:70
-- 02-OPERATIONAL/models/MODEL_INDEX.md:84
-- 02-OPERATIONAL/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml:83
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:478
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md:47
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md:47
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:22
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:102
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:104
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:213
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:359
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:16
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:61
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:71
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:80
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:84
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md:90
-- 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md:72
-- 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md:51
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:88
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:98
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:98
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:105
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:105
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:112
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:112
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:119
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:165
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:219
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:260
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:262
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:357
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:359
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:359
-- 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md:23
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:44
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:54
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:54
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:61
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:61
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:68
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:68
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:75
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:121
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:175
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:216
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:218
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:76
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:85
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:10
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:17
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:21
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:37
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:43
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:47
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:47
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Grok-4.yaml:34
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml:29
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml:36
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml:56
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:62
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:74
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:76
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:77
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:87
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:102
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:112
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:128
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:134
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:138
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:148
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:152
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:191
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:199
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:259
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:297
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:136
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:176
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:65
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:76
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:85
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:92
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:122
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:266
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:344
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:349
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:373
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:411
-- 02-OPERATIONAL/functions/transcribe_interview.xml:16
-- 02-OPERATIONAL/functions/transcribe_interview.xml:73
-- 02-OPERATIONAL/functions/transcribe_interview.xml:91
-- 02-OPERATIONAL/functions/transcribe_interview.xml:106
-- 02-OPERATIONAL/functions/transcribe_interview.xml:273
-- 02-OPERATIONAL/functions/transcribe_interview.xml:304
-- 02-OPERATIONAL/functions/transcribe_interview.xml:313
-- 02-OPERATIONAL/functions/transcribe_interview.xml:383
-- 02-OPERATIONAL/functions/reforge.xml:39
-- 02-OPERATIONAL/functions/compile.xml:137
-- 02-OPERATIONAL/functions/compile.xml:161
-- 02-OPERATIONAL/functions/compile.xml:464
-- 02-OPERATIONAL/functions/compile.xml:466
-- 02-OPERATIONAL/functions/compile.xml:526
-- 02-OPERATIONAL/functions/primer.xml:11
-- 02-OPERATIONAL/functions/primer.xml:24
-- 02-OPERATIONAL/functions/translate.xml:138
-- 02-OPERATIONAL/functions/translate.xml:165
-- 02-OPERATIONAL/functions/translate.xml:285
-- 02-OPERATIONAL/functions/translate.xml:287
-- 02-OPERATIONAL/functions/translate.xml:414
-- 02-OPERATIONAL/functions/absorb.xml:62
-- 02-OPERATIONAL/functions/absorb.xml:163
-- 02-OPERATIONAL/functions/offload.xml:7
-- 02-OPERATIONAL/functions/offload.xml:9
-- 02-OPERATIONAL/functions/offload.xml:108
-- 02-OPERATIONAL/functions/harmonize.xml:124
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:111
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:112
-- 02-OPERATIONAL/functions/consolidate.xml:67
-- 02-OPERATIONAL/functions/consolidate.xml:67
-- 02-OPERATIONAL/functions/consolidate.xml:146
-- 02-OPERATIONAL/functions/consolidate.xml:305
-- 02-OPERATIONAL/functions/transcribe_youtube.md:30
-- 02-OPERATIONAL/functions/transcribe_youtube.md:120
-- 02-OPERATIONAL/functions/transcribe_youtube.md:184
-- 02-OPERATIONAL/functions/transcribe_interview.md:64
-- 02-OPERATIONAL/functions/transcribe_interview.md:121
-- 02-OPERATIONAL/functions/transcribe_interview.md:170
-- 02-OPERATIONAL/functions/transcribe_interview.md:230
-- 02-OPERATIONAL/functions/optimize.xml:13
-- 02-OPERATIONAL/functions/optimize.xml:88
-- 02-OPERATIONAL/functions/optimize.xml:419
-- 02-OPERATIONAL/functions/optimize.xml:507
-- 02-OPERATIONAL/functions/optimize.xml:508
-- 02-OPERATIONAL/functions/optimize.xml:527
-- 02-OPERATIONAL/functions/optimize.xml:682
-- 02-OPERATIONAL/functions/convert.xml:141
-- 02-OPERATIONAL/functions/convert.xml:165
-- 02-OPERATIONAL/functions/convert.xml:258
-- 02-OPERATIONAL/functions/convert.xml:264
-- 02-OPERATIONAL/functions/convert.xml:286
-- 02-OPERATIONAL/functions/convert.xml:529
-- 02-OPERATIONAL/functions/convert.xml:531
-- 02-OPERATIONAL/functions/convert.xml:591
-- 02-OPERATIONAL/functions/convert.xml:675
-- 02-OPERATIONAL/functions/anneal.xml:64
-- 02-OPERATIONAL/functions/anneal.xml:75
-- 02-OPERATIONAL/functions/anneal.xml:140
-- 02-OPERATIONAL/functions/anneal.xml:287
-- 02-OPERATIONAL/functions/anneal.xml:354
-- 02-OPERATIONAL/functions/anneal.xml:384
-- 02-OPERATIONAL/functions/anneal.xml:388
-- 02-OPERATIONAL/functions/anneal.xml:681
-- 02-OPERATIONAL/functions/transcribe_panel.xml:70
-- 02-OPERATIONAL/functions/transcribe_panel.xml:78
-- 02-OPERATIONAL/functions/transcribe_panel.xml:86
-- 02-OPERATIONAL/functions/transcribe_panel.xml:97
-- 02-OPERATIONAL/functions/transcribe_panel.xml:113
-- 02-OPERATIONAL/functions/transcribe_panel.xml:364
-- 02-OPERATIONAL/functions/transcribe_panel.xml:396
-- 02-OPERATIONAL/functions/transcribe_panel.xml:406
-- 02-OPERATIONAL/functions/transcribe_panel.xml:452
-- 02-OPERATIONAL/templates/EXECUTION_LOG_TEMPLATE.md:13
-- 02-OPERATIONAL/avatars/README.md:4
-- 02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md:17
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:21
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:70
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:198
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:208
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:219
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:414
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:475
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:508
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:562
+- 02-ENGINE/IIC-Efficacy-config.md:159
+- 02-ENGINE/IIC-Efficacy-config.md:370
+- 02-ENGINE/IIC-Acumen-config.md:67
+- 02-ENGINE/IIC-Acumen-config.md:105
+- 02-ENGINE/IIC-Acumen-config.md:110
+- 02-ENGINE/IIC-Acumen-config.md:123
+- 02-ENGINE/IIC-Acumen-config.md:374
+- 02-ENGINE/IIC-Acumen-config.md:419
+- 02-ENGINE/IIC-Acumen-config.md:430
+- 02-ENGINE/README.md:10
+- 02-ENGINE/README.md:139
+- 02-ENGINE/IIC-Coherence-config.md:365
+- 02-ENGINE/IIC-Coherence-config.md:648
+- 02-ENGINE/IIC-Coherence-config.md:651
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:19
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:201
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:313
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:403
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:413
+- 02-ENGINE/IIC-shared-protocols.md:92
+- 02-ENGINE/IIC-shared-protocols.md:276
+- 02-ENGINE/IIC-shared-protocols.md:517
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:556
+- 02-ENGINE/GEMINI.md:48
+- 02-ENGINE/GEMINI.md:69
+- 02-ENGINE/GEMINI.md:90
+- 02-ENGINE/IIC-Mastery-config.md:195
+- 02-ENGINE/IIC-Mastery-config.md:457
+- 02-ENGINE/IIC-Mastery-config.md:552
+- 02-ENGINE/DYN-COORDINATION.yaml:153
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:37
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:39
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:188
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:197
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:203
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:254
+- 02-ENGINE/memory/acumen-memory-config.md:87
+- 02-ENGINE/memory/acumen-memory-config.md:105
+- 02-ENGINE/memory/acumen-memory-config.md:178
+- 02-ENGINE/memory/acumen-memory-config.md:234
+- 02-ENGINE/memory/acumen-memory-config.md:264
+- 02-ENGINE/memory/acumen-memory-config.md:269
+- 02-ENGINE/memory/acumen-memory-config.md:283
+- 02-ENGINE/memory/acumen-memory-config.md:295
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:10
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:45
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:47
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:102
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:109
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:111
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:129
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:162
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:185
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:199
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:203
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:211
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:216
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:259
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:265
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:319
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:325
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:336
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:370
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:381
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:397
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:409
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:415
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:421
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:449
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:454
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:458
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:464
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:476
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:488
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:515
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:523
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:17
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:76
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:91
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:118
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:138
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:147
+- 02-ENGINE/models/MODEL_INDEX.md:24
+- 02-ENGINE/models/MODEL_INDEX.md:31
+- 02-ENGINE/models/MODEL_INDEX.md:37
+- 02-ENGINE/models/MODEL_INDEX.md:49
+- 02-ENGINE/models/MODEL_INDEX.md:70
+- 02-ENGINE/models/MODEL_INDEX.md:84
+- 02-ENGINE/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml:83
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:478
+- 02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md:47
+- 02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md:47
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:22
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:102
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:104
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:213
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md:359
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:16
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:61
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:71
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:80
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:84
+- 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md:90
+- 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md:72
+- 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md:51
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:88
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:98
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:98
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:105
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:105
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:112
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:112
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:119
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:165
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:219
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:260
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:262
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:357
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:359
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:359
+- 02-ENGINE/prompts/unified/Gemini-unified-prompt.md:23
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:44
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:54
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:54
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:61
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:61
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:68
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:68
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:75
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:121
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:175
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:216
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:218
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:76
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:85
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:10
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:17
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:21
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:37
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:43
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:47
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:47
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Grok-4.yaml:34
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml:29
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml:36
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml:56
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:62
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:74
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:76
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:77
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:87
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:102
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:112
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:128
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:134
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:138
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:148
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:152
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:191
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:199
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:259
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:297
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:136
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:176
+- 02-ENGINE/functions/transcribe_youtube.xml:65
+- 02-ENGINE/functions/transcribe_youtube.xml:76
+- 02-ENGINE/functions/transcribe_youtube.xml:85
+- 02-ENGINE/functions/transcribe_youtube.xml:92
+- 02-ENGINE/functions/transcribe_youtube.xml:122
+- 02-ENGINE/functions/transcribe_youtube.xml:266
+- 02-ENGINE/functions/transcribe_youtube.xml:344
+- 02-ENGINE/functions/transcribe_youtube.xml:349
+- 02-ENGINE/functions/transcribe_youtube.xml:373
+- 02-ENGINE/functions/transcribe_youtube.xml:411
+- 02-ENGINE/functions/transcribe_interview.xml:16
+- 02-ENGINE/functions/transcribe_interview.xml:73
+- 02-ENGINE/functions/transcribe_interview.xml:91
+- 02-ENGINE/functions/transcribe_interview.xml:106
+- 02-ENGINE/functions/transcribe_interview.xml:273
+- 02-ENGINE/functions/transcribe_interview.xml:304
+- 02-ENGINE/functions/transcribe_interview.xml:313
+- 02-ENGINE/functions/transcribe_interview.xml:383
+- 02-ENGINE/functions/reforge.xml:39
+- 02-ENGINE/functions/compile.xml:137
+- 02-ENGINE/functions/compile.xml:161
+- 02-ENGINE/functions/compile.xml:464
+- 02-ENGINE/functions/compile.xml:466
+- 02-ENGINE/functions/compile.xml:526
+- 02-ENGINE/functions/primer.xml:11
+- 02-ENGINE/functions/primer.xml:24
+- 02-ENGINE/functions/translate.xml:138
+- 02-ENGINE/functions/translate.xml:165
+- 02-ENGINE/functions/translate.xml:285
+- 02-ENGINE/functions/translate.xml:287
+- 02-ENGINE/functions/translate.xml:414
+- 02-ENGINE/functions/absorb.xml:62
+- 02-ENGINE/functions/absorb.xml:163
+- 02-ENGINE/functions/offload.xml:7
+- 02-ENGINE/functions/offload.xml:9
+- 02-ENGINE/functions/offload.xml:108
+- 02-ENGINE/functions/harmonize.xml:124
+- 02-ENGINE/functions/FUNCTION_INDEX.md:111
+- 02-ENGINE/functions/FUNCTION_INDEX.md:112
+- 02-ENGINE/functions/consolidate.xml:67
+- 02-ENGINE/functions/consolidate.xml:67
+- 02-ENGINE/functions/consolidate.xml:146
+- 02-ENGINE/functions/consolidate.xml:305
+- 02-ENGINE/functions/transcribe_youtube.md:30
+- 02-ENGINE/functions/transcribe_youtube.md:120
+- 02-ENGINE/functions/transcribe_youtube.md:184
+- 02-ENGINE/functions/transcribe_interview.md:64
+- 02-ENGINE/functions/transcribe_interview.md:121
+- 02-ENGINE/functions/transcribe_interview.md:170
+- 02-ENGINE/functions/transcribe_interview.md:230
+- 02-ENGINE/functions/optimize.xml:13
+- 02-ENGINE/functions/optimize.xml:88
+- 02-ENGINE/functions/optimize.xml:419
+- 02-ENGINE/functions/optimize.xml:507
+- 02-ENGINE/functions/optimize.xml:508
+- 02-ENGINE/functions/optimize.xml:527
+- 02-ENGINE/functions/optimize.xml:682
+- 02-ENGINE/functions/convert.xml:141
+- 02-ENGINE/functions/convert.xml:165
+- 02-ENGINE/functions/convert.xml:258
+- 02-ENGINE/functions/convert.xml:264
+- 02-ENGINE/functions/convert.xml:286
+- 02-ENGINE/functions/convert.xml:529
+- 02-ENGINE/functions/convert.xml:531
+- 02-ENGINE/functions/convert.xml:591
+- 02-ENGINE/functions/convert.xml:675
+- 02-ENGINE/functions/anneal.xml:64
+- 02-ENGINE/functions/anneal.xml:75
+- 02-ENGINE/functions/anneal.xml:140
+- 02-ENGINE/functions/anneal.xml:287
+- 02-ENGINE/functions/anneal.xml:354
+- 02-ENGINE/functions/anneal.xml:384
+- 02-ENGINE/functions/anneal.xml:388
+- 02-ENGINE/functions/anneal.xml:681
+- 02-ENGINE/functions/transcribe_panel.xml:70
+- 02-ENGINE/functions/transcribe_panel.xml:78
+- 02-ENGINE/functions/transcribe_panel.xml:86
+- 02-ENGINE/functions/transcribe_panel.xml:97
+- 02-ENGINE/functions/transcribe_panel.xml:113
+- 02-ENGINE/functions/transcribe_panel.xml:364
+- 02-ENGINE/functions/transcribe_panel.xml:396
+- 02-ENGINE/functions/transcribe_panel.xml:406
+- 02-ENGINE/functions/transcribe_panel.xml:452
+- 02-ENGINE/templates/EXECUTION_LOG_TEMPLATE.md:13
+- 02-ENGINE/avatars/README.md:4
+- 02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md:17
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:21
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:70
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:198
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:208
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:219
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:414
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:475
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:508
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:562
 - 06-EXEMPLA/EXAMPLE-TEMPLATE.md:150
 - 06-EXEMPLA/EXAMPLE-TEMPLATE.md:153
 - 06-EXEMPLA/README.md:8
@@ -116012,347 +116012,347 @@ Usage(s):
 - -OUTGOING/20260122/gemini/compiler_designer_language_architect.md:166
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:43
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:91
-- 05-ARCHIVE/ARCH-oracle_memories.md:1
-- 05-ARCHIVE/ARCH-oracle_memories.md:3
-- 05-ARCHIVE/ARCH-oracle_memories.md:16
-- 05-ARCHIVE/ARCH-oracle_memories.md:25
-- 05-ARCHIVE/justification-grok.md:3
-- 05-ARCHIVE/ARCH-previous_thread.md:8
-- 05-ARCHIVE/ARCH-previous_thread.md:8
-- 05-ARCHIVE/ARCH-previous_thread.md:8
-- 05-ARCHIVE/ARCH-previous_thread.md:9
-- 05-ARCHIVE/ARCH-previous_thread.md:10
-- 05-ARCHIVE/ARCH-previous_thread.md:136
-- 05-ARCHIVE/ARCH-previous_thread.md:138
-- 05-ARCHIVE/ARCH-previous_thread.md:162
-- 05-ARCHIVE/ARCH-previous_thread.md:169
-- 05-ARCHIVE/ARCH-previous_thread.md:169
-- 05-ARCHIVE/ARCH-previous_thread.md:169
-- 05-ARCHIVE/ARCH-previous_thread.md:181
-- 05-ARCHIVE/ARCH-previous_thread.md:271
-- 05-ARCHIVE/ARCH-previous_thread.md:397
-- 05-ARCHIVE/ARCH-previous_thread.md:503
-- 05-ARCHIVE/ARCH-previous_thread.md:507
-- 05-ARCHIVE/ARCH-previous_thread.md:514
-- 05-ARCHIVE/ARCH-previous_thread.md:538
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:41
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:42
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:43
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:44
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:104
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:131
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:163
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:676
-- 05-ARCHIVE/ChatGPT-unified-prompt.md:7
-- 05-ARCHIVE/ChatGPT-unified-prompt.md:18
-- 05-ARCHIVE/ChatGPT-unified-prompt.md:34
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:13
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:65
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:234
-- 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:159
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:21
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:22
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:12
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:13
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:33
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:275
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:6
-- 05-ARCHIVE/ARCH-final_interactions.md:9
-- 05-ARCHIVE/ARCH-final_interactions.md:39
-- 05-ARCHIVE/ARCH-final_interactions.md:45
-- 05-ARCHIVE/ARCH-final_interactions.md:47
-- 05-ARCHIVE/ARCH-final_interactions.md:135
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:213
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:233
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:229
-- 05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md:77
-- 05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md:77
-- 05-ARCHIVE/Grok-unified-prompt.md:55
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:30
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:117
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:133
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:168
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:173
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:226
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:278
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:322
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:329
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:378
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:405
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:406
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:407
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:449
-- 05-ARCHIVE/justification-chatgpt.md:72
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:17
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:50
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:54
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:163
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:84
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:151
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:170
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:231
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:5
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:21
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:14
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:109
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:116
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:117
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:144
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:403
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:408
-- 05-ARCHIVE/ARCH-platform_features.md:25
-- 05-ARCHIVE/ARCH-platform_features.md:35
-- 05-ARCHIVE/ARCH-platform_features.md:35
-- 05-ARCHIVE/ARCH-platform_features.md:57
-- 05-ARCHIVE/ARCH-platform_features.md:59
-- 05-ARCHIVE/ARCH-platform_features.md:59
-- 05-ARCHIVE/ARCH-platform_features.md:61
-- 05-ARCHIVE/ARCH-platform_features.md:61
-- 05-ARCHIVE/ARCH-platform_features.md:61
-- 05-ARCHIVE/ARCH-platform_features.md:63
-- 05-ARCHIVE/ARCH-platform_features.md:67
-- 05-ARCHIVE/ARCH-platform_features.md:109
-- 05-ARCHIVE/ARCH-platform_features.md:121
-- 05-ARCHIVE/ARCH-platform_features.md:121
-- 05-ARCHIVE/ARCH-platform_features.md:127
-- 05-ARCHIVE/ARCH-platform_features.md:159
-- 05-ARCHIVE/ARCH-platform_features.md:411
-- 05-ARCHIVE/ARCH-platform_features.md:530
-- 05-ARCHIVE/ARCH-platform_features.md:571
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:53
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:64
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:76
-- 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md:113
-- 05-ARCHIVE/justification-gemini.md:32
-- 05-ARCHIVE/justification-gemini.md:43
-- 05-ARCHIVE/justification-gemini.md:43
-- 05-ARCHIVE/justification-gemini.md:57
-- 05-ARCHIVE/ORACLE11_INIT.md:39
-- 05-ARCHIVE/ORACLE11_INIT.md:119
-- 05-ARCHIVE/ORACLE11_INIT.md:126
-- 05-ARCHIVE/ORACLE11_INIT.md:230
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:66
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:66
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:71
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:35
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:48
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:3
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:15
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:74
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:214
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:227
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:257
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:315
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:346
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:515
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:594
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:692
-- 05-ARCHIVE/ARCH-frontier_models.md:10
-- 05-ARCHIVE/ARCH-frontier_models.md:37
-- 05-ARCHIVE/ARCH-frontier_models.md:198
-- 05-ARCHIVE/ARCH-frontier_models.md:214
-- 05-ARCHIVE/ARCH-frontier_models.md:214
-- 05-ARCHIVE/ARCH-frontier_models.md:236
-- 05-ARCHIVE/ARCH-frontier_models.md:247
-- 05-ARCHIVE/ARCH-frontier_models.md:304
-- 05-ARCHIVE/ARCH-frontier_models.md:318
-- 05-ARCHIVE/ARCH-frontier_models.md:445
-- 05-ARCHIVE/ARCH-frontier_models.md:499
-- 05-ARCHIVE/ARCH-frontier_models.md:499
-- 05-ARCHIVE/ARCH-frontier_models.md:613
-- 05-ARCHIVE/ARCH-frontier_models.md:613
-- 05-ARCHIVE/ARCH-frontier_models.md:726
-- 05-ARCHIVE/ARCH-frontier_models.md:774
-- 05-ARCHIVE/ARCH-frontier_models.md:867
-- 05-ARCHIVE/ARCH-frontier_models.md:870
-- 05-ARCHIVE/ARCH-frontier_models.md:888
-- 05-ARCHIVE/ARCH-frontier_models.md:920
-- 05-ARCHIVE/ARCH-frontier_models.md:968
-- 05-ARCHIVE/ARCH-frontier_models.md:972
-- 05-ARCHIVE/ARCH-frontier_models.md:976
-- 05-ARCHIVE/ARCH-frontier_models.md:985
-- 05-ARCHIVE/ARCH-frontier_models.md:1076
-- 05-ARCHIVE/ARCH-frontier_models.md:1099
-- 05-ARCHIVE/ARCH-frontier_models.md:1140
-- 05-ARCHIVE/ARCH-frontier_models.md:1189
-- 05-ARCHIVE/ARCH-frontier_models.md:1191
-- 05-ARCHIVE/ARCH-frontier_models.md:1280
-- 05-ARCHIVE/ARCH-frontier_models.md:1309
-- 05-ARCHIVE/ARCH-frontier_models.md:1369
-- 05-ARCHIVE/ARCH-frontier_models.md:1405
-- 05-ARCHIVE/ARCH-frontier_models.md:1426
-- 05-ARCHIVE/justification-claude.md:47
-- 05-ARCHIVE/justification-claude.md:57
-- 05-ARCHIVE/justification-claude.md:57
-- 05-ARCHIVE/justification-claude.md:64
-- 05-ARCHIVE/justification-claude.md:64
-- 05-ARCHIVE/justification-claude.md:71
-- 05-ARCHIVE/justification-claude.md:71
-- 05-ARCHIVE/justification-claude.md:78
-- 05-ARCHIVE/justification-claude.md:124
-- 05-ARCHIVE/justification-claude.md:178
-- 05-ARCHIVE/justification-claude.md:219
-- 05-ARCHIVE/justification-claude.md:221
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:237
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:13
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:145
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:193
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:201
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:227
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:285
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:70
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:112
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:166
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:6
-- 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:66
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:5
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:49
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:175
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:202
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:222
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:222
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:274
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:286
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:368
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:369
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:383
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:399
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:424
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:429
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:431
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:86
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:186
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:392
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:160
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:63
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:115
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:115
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:193
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:3
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md:72
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:32
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:43
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:43
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:57
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:47
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:57
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:57
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:64
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:64
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:71
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:71
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:78
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:124
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:178
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:219
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:221
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:88
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:98
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:98
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:105
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:105
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:112
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:112
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:119
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:165
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:219
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:260
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:262
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:357
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:359
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:359
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:44
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:54
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:54
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:61
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:61
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:68
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:68
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:75
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:121
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:175
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:216
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:218
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md:28
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md:28
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:70
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:112
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:166
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md:23
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md:14
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:77
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:86
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:87
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:88
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:90
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:247
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:250
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:274
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:301
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:389
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:531
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:67
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:74
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:10
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:15
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:85
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:96
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:99
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:126
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:139
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:276
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:281
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:313
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:257
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:346
-- 05-ARCHIVE/chorus-session-20260122/grok-red-team-instructions.md:9
-- 05-ARCHIVE/chorus-session-20260122/grok-red-team-instructions.md:44
-- 05-ARCHIVE/chorus-session-20260122/grok-red-team-instructions.md:63
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:7
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:21
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:35
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:36
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:46
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:51
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:88
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:159
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:160
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:161
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:162
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:9
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:43
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:147
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:205
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:223
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:255
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:277
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:282
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:298
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:360
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:37
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:70
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:70
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:31
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:46
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:53
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:60
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:69
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:93
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:162
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:178
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:189
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:195
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:198
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:233
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:236
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:271
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:304
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:314
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:318
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:324
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:336
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:341
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:373
+- 05-MEMORY/ARCH-oracle_memories.md:1
+- 05-MEMORY/ARCH-oracle_memories.md:3
+- 05-MEMORY/ARCH-oracle_memories.md:16
+- 05-MEMORY/ARCH-oracle_memories.md:25
+- 05-MEMORY/justification-grok.md:3
+- 05-MEMORY/ARCH-previous_thread.md:8
+- 05-MEMORY/ARCH-previous_thread.md:8
+- 05-MEMORY/ARCH-previous_thread.md:8
+- 05-MEMORY/ARCH-previous_thread.md:9
+- 05-MEMORY/ARCH-previous_thread.md:10
+- 05-MEMORY/ARCH-previous_thread.md:136
+- 05-MEMORY/ARCH-previous_thread.md:138
+- 05-MEMORY/ARCH-previous_thread.md:162
+- 05-MEMORY/ARCH-previous_thread.md:169
+- 05-MEMORY/ARCH-previous_thread.md:169
+- 05-MEMORY/ARCH-previous_thread.md:169
+- 05-MEMORY/ARCH-previous_thread.md:181
+- 05-MEMORY/ARCH-previous_thread.md:271
+- 05-MEMORY/ARCH-previous_thread.md:397
+- 05-MEMORY/ARCH-previous_thread.md:503
+- 05-MEMORY/ARCH-previous_thread.md:507
+- 05-MEMORY/ARCH-previous_thread.md:514
+- 05-MEMORY/ARCH-previous_thread.md:538
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:41
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:42
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:43
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:44
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:104
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:131
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:163
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:676
+- 05-MEMORY/ChatGPT-unified-prompt.md:7
+- 05-MEMORY/ChatGPT-unified-prompt.md:18
+- 05-MEMORY/ChatGPT-unified-prompt.md:34
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:13
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:65
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:234
+- 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:159
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:21
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:22
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:12
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:13
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:33
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:275
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:6
+- 05-MEMORY/ARCH-final_interactions.md:9
+- 05-MEMORY/ARCH-final_interactions.md:39
+- 05-MEMORY/ARCH-final_interactions.md:45
+- 05-MEMORY/ARCH-final_interactions.md:47
+- 05-MEMORY/ARCH-final_interactions.md:135
+- 05-MEMORY/ORACLE11_CONTEXT.md:213
+- 05-MEMORY/ORACLE11_CONTEXT.md:233
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:229
+- 05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md:77
+- 05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md:77
+- 05-MEMORY/Grok-unified-prompt.md:55
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:30
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:117
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:133
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:168
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:173
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:226
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:278
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:322
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:329
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:378
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:405
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:406
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:407
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:449
+- 05-MEMORY/justification-chatgpt.md:72
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:17
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:50
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:54
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:163
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:84
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:151
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:170
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:231
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:5
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:21
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:14
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:109
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:116
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:117
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:144
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:403
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:408
+- 05-MEMORY/ARCH-platform_features.md:25
+- 05-MEMORY/ARCH-platform_features.md:35
+- 05-MEMORY/ARCH-platform_features.md:35
+- 05-MEMORY/ARCH-platform_features.md:57
+- 05-MEMORY/ARCH-platform_features.md:59
+- 05-MEMORY/ARCH-platform_features.md:59
+- 05-MEMORY/ARCH-platform_features.md:61
+- 05-MEMORY/ARCH-platform_features.md:61
+- 05-MEMORY/ARCH-platform_features.md:61
+- 05-MEMORY/ARCH-platform_features.md:63
+- 05-MEMORY/ARCH-platform_features.md:67
+- 05-MEMORY/ARCH-platform_features.md:109
+- 05-MEMORY/ARCH-platform_features.md:121
+- 05-MEMORY/ARCH-platform_features.md:121
+- 05-MEMORY/ARCH-platform_features.md:127
+- 05-MEMORY/ARCH-platform_features.md:159
+- 05-MEMORY/ARCH-platform_features.md:411
+- 05-MEMORY/ARCH-platform_features.md:530
+- 05-MEMORY/ARCH-platform_features.md:571
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:53
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:64
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:76
+- 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md:113
+- 05-MEMORY/justification-gemini.md:32
+- 05-MEMORY/justification-gemini.md:43
+- 05-MEMORY/justification-gemini.md:43
+- 05-MEMORY/justification-gemini.md:57
+- 05-MEMORY/ORACLE11_INIT.md:39
+- 05-MEMORY/ORACLE11_INIT.md:119
+- 05-MEMORY/ORACLE11_INIT.md:126
+- 05-MEMORY/ORACLE11_INIT.md:230
+- 05-MEMORY/ARCH-oracle_suggestions.md:66
+- 05-MEMORY/ARCH-oracle_suggestions.md:66
+- 05-MEMORY/ARCH-oracle_suggestions.md:71
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:35
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:48
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:3
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:15
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:74
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:214
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:227
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:257
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:315
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:346
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:515
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:594
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:692
+- 05-MEMORY/ARCH-frontier_models.md:10
+- 05-MEMORY/ARCH-frontier_models.md:37
+- 05-MEMORY/ARCH-frontier_models.md:198
+- 05-MEMORY/ARCH-frontier_models.md:214
+- 05-MEMORY/ARCH-frontier_models.md:214
+- 05-MEMORY/ARCH-frontier_models.md:236
+- 05-MEMORY/ARCH-frontier_models.md:247
+- 05-MEMORY/ARCH-frontier_models.md:304
+- 05-MEMORY/ARCH-frontier_models.md:318
+- 05-MEMORY/ARCH-frontier_models.md:445
+- 05-MEMORY/ARCH-frontier_models.md:499
+- 05-MEMORY/ARCH-frontier_models.md:499
+- 05-MEMORY/ARCH-frontier_models.md:613
+- 05-MEMORY/ARCH-frontier_models.md:613
+- 05-MEMORY/ARCH-frontier_models.md:726
+- 05-MEMORY/ARCH-frontier_models.md:774
+- 05-MEMORY/ARCH-frontier_models.md:867
+- 05-MEMORY/ARCH-frontier_models.md:870
+- 05-MEMORY/ARCH-frontier_models.md:888
+- 05-MEMORY/ARCH-frontier_models.md:920
+- 05-MEMORY/ARCH-frontier_models.md:968
+- 05-MEMORY/ARCH-frontier_models.md:972
+- 05-MEMORY/ARCH-frontier_models.md:976
+- 05-MEMORY/ARCH-frontier_models.md:985
+- 05-MEMORY/ARCH-frontier_models.md:1076
+- 05-MEMORY/ARCH-frontier_models.md:1099
+- 05-MEMORY/ARCH-frontier_models.md:1140
+- 05-MEMORY/ARCH-frontier_models.md:1189
+- 05-MEMORY/ARCH-frontier_models.md:1191
+- 05-MEMORY/ARCH-frontier_models.md:1280
+- 05-MEMORY/ARCH-frontier_models.md:1309
+- 05-MEMORY/ARCH-frontier_models.md:1369
+- 05-MEMORY/ARCH-frontier_models.md:1405
+- 05-MEMORY/ARCH-frontier_models.md:1426
+- 05-MEMORY/justification-claude.md:47
+- 05-MEMORY/justification-claude.md:57
+- 05-MEMORY/justification-claude.md:57
+- 05-MEMORY/justification-claude.md:64
+- 05-MEMORY/justification-claude.md:64
+- 05-MEMORY/justification-claude.md:71
+- 05-MEMORY/justification-claude.md:71
+- 05-MEMORY/justification-claude.md:78
+- 05-MEMORY/justification-claude.md:124
+- 05-MEMORY/justification-claude.md:178
+- 05-MEMORY/justification-claude.md:219
+- 05-MEMORY/justification-claude.md:221
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:237
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:13
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:145
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:193
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:201
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:227
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:285
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:70
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:112
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:166
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:6
+- 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:66
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:5
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:49
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:175
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:202
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:222
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:222
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:274
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:286
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:368
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:369
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:383
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:399
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:424
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:429
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:431
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:86
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:186
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:392
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:160
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:63
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:115
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:115
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:193
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md:3
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md:72
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:32
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:43
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:43
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:57
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:47
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:57
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:57
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:64
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:64
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:71
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:71
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:78
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:124
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:178
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:219
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:221
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:88
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:98
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:98
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:105
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:105
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:112
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:112
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:119
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:165
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:219
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:260
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:262
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:357
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:359
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:359
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:44
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:54
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:54
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:61
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:61
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:68
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:68
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:75
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:121
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:175
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:216
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:218
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md:28
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md:28
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:70
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:112
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:166
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md:23
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md:14
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:77
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:86
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:87
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:88
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:90
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:247
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:250
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:274
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:301
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:389
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:531
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:67
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:74
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:10
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:15
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:85
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:96
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:99
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:126
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:139
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:276
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:281
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:313
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:257
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:346
+- 05-MEMORY/chorus-session-20260122/grok-red-team-instructions.md:9
+- 05-MEMORY/chorus-session-20260122/grok-red-team-instructions.md:44
+- 05-MEMORY/chorus-session-20260122/grok-red-team-instructions.md:63
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:7
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:21
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:35
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:36
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:46
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:51
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:88
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:159
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:160
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:161
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:162
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:9
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:43
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:147
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:205
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:223
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:255
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:277
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:282
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:298
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:360
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:37
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:70
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:70
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:31
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:46
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:53
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:60
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:69
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:93
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:162
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:178
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:189
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:195
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:198
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:233
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:236
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:271
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:304
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:314
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:318
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:324
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:336
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:341
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:373
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:146
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:740
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:880
@@ -116827,7 +116827,7 @@ Usage(s):
 
 ### convert
 Definition(s):
-- 02-OPERATIONAL/functions/convert.xml
+- 02-ENGINE/functions/convert.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:262
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:53
@@ -116837,13 +116837,13 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-025B_STRUCTURAL_EXECUTION.md:276
 - 00-ORCHESTRATION/state/DYN-TREE.md:486
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:179
-- 02-OPERATIONAL/README.md:268
-- 02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md:16
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:20
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:84
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:95
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:99
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/README.md:268
+- 02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md:16
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:20
+- 02-ENGINE/functions/FUNCTION_INDEX.md:84
+- 02-ENGINE/functions/FUNCTION_INDEX.md:95
+- 02-ENGINE/functions/FUNCTION_INDEX.md:99
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
 - 04-SOURCES/processed/SOURCE-20251024-youtube-interview-arcprize-chollet_knoop.md:34
 - 04-SOURCES/processed/SOURCE-20251031-youtube-lecture-extropic-trevor_mccourt.md:24
 - 04-SOURCES/raw/20251022-youtube_video-farzad-tesla_ai_bts.txt:1264
@@ -116869,11 +116869,11 @@ Usage(s):
 - 04-SOURCES/raw/20251030-youtube_video-sanity-everything_sean_grove.txt:191
 - 04-SOURCES/raw/claudecode/shipping_at_inference_speed-@steipete.md:36
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:285
-- 05-ARCHIVE/ARCH-previous_thread.md:18
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/ARCH-platform_features.md:79
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:75
+- 05-MEMORY/ARCH-previous_thread.md:18
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/ARCH-platform_features.md:79
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:75
 - 01-CANON/CANON-30100-ASA-comet-INTELLIGENCE.md:80
 - 01-CANON/CANON-30100-ASA-comet-INTELLIGENCE.md:82
 - 01-CANON/CANON-30100-ASA-comet-INTELLIGENCE.md:340
@@ -116906,7 +116906,7 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/corpus-survey.sh:2
 - 00-ORCHESTRATION/scripts/corpus-survey.sh:3
 - 00-ORCHESTRATION/scripts/corpus-survey.sh:11
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:368
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:368
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:424
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:682
 
@@ -117076,83 +117076,83 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md:122
 - 00-ORCHESTRATION/scripts/regenerate_canon.py:47
 - 00-ORCHESTRATION/blackboard/plans/PLN-20260116-001.json:13
-- 02-OPERATIONAL/IIC-Efficacy-config.md:158
-- 02-OPERATIONAL/IIC-Acumen-config.md:33
-- 02-OPERATIONAL/IIC-Transcendence-config.md:30
-- 02-OPERATIONAL/IIC-Transcendence-config.md:123
-- 02-OPERATIONAL/IIC-Transcendence-config.md:151
-- 02-OPERATIONAL/IIC-Transcendence-config.md:256
-- 02-OPERATIONAL/IIC-Transcendence-config.md:323
-- 02-OPERATIONAL/IIC-Transcendence-config.md:596
-- 02-OPERATIONAL/IIC-Transcendence-config.md:779
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:162
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:622
-- 02-OPERATIONAL/REF-OPERATIONAL_ENGINE.md:5
-- 02-OPERATIONAL/GEMINI.md:37
-- 02-OPERATIONAL/IIC-Mastery-config.md:180
-- 02-OPERATIONAL/IIC-Mastery-config.md:371
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:53
-- 02-OPERATIONAL/registries/REF-AGENTS.md:52
-- 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json:409
-- 02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:59
-- 02-OPERATIONAL/memory/acumen-memory-config.md:371
-- 02-OPERATIONAL/memory/acumen-memory-config.md:374
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:64
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:479
-- 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:5
-- 02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md:39
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:80
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:123
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:233
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:256
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:36
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:79
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:189
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:212
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:117
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:225
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:233
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:290
-- 02-OPERATIONAL/functions/transcribe_youtube.xml:392
-- 02-OPERATIONAL/functions/transcribe_interview.xml:235
-- 02-OPERATIONAL/functions/transcribe_interview.xml:243
-- 02-OPERATIONAL/functions/transcribe_interview.xml:250
-- 02-OPERATIONAL/functions/transcribe_interview.xml:305
-- 02-OPERATIONAL/functions/transcribe_interview.xml:427
-- 02-OPERATIONAL/functions/compile.xml:10
-- 02-OPERATIONAL/functions/compile.xml:30
-- 02-OPERATIONAL/functions/compile.xml:547
-- 02-OPERATIONAL/functions/primer.xml:4
-- 02-OPERATIONAL/functions/primer.xml:13
-- 02-OPERATIONAL/functions/primer.xml:25
-- 02-OPERATIONAL/functions/primer.xml:130
-- 02-OPERATIONAL/functions/primer.xml:205
-- 02-OPERATIONAL/functions/translate.xml:12
-- 02-OPERATIONAL/functions/translate.xml:32
-- 02-OPERATIONAL/functions/translate.xml:286
-- 02-OPERATIONAL/functions/translate.xml:437
-- 02-OPERATIONAL/functions/absorb.xml:102
-- 02-OPERATIONAL/functions/transcribe_youtube.md:92
-- 02-OPERATIONAL/functions/transcribe_interview.md:116
-- 02-OPERATIONAL/functions/optimize.xml:145
-- 02-OPERATIONAL/functions/optimize.xml:417
-- 02-OPERATIONAL/functions/optimize.xml:542
-- 02-OPERATIONAL/functions/optimize.xml:593
-- 02-OPERATIONAL/functions/optimize.xml:675
-- 02-OPERATIONAL/functions/convert.xml:12
-- 02-OPERATIONAL/functions/convert.xml:34
-- 02-OPERATIONAL/functions/convert.xml:612
-- 02-OPERATIONAL/functions/anneal.xml:115
-- 02-OPERATIONAL/functions/anneal.xml:122
-- 02-OPERATIONAL/functions/anneal.xml:215
-- 02-OPERATIONAL/functions/anneal.xml:387
-- 02-OPERATIONAL/functions/transcribe_panel.xml:331
-- 02-OPERATIONAL/functions/transcribe_panel.xml:339
-- 02-OPERATIONAL/functions/transcribe_panel.xml:397
-- 02-OPERATIONAL/functions/transcribe_panel.xml:515
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:132
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:224
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:261
+- 02-ENGINE/IIC-Efficacy-config.md:158
+- 02-ENGINE/IIC-Acumen-config.md:33
+- 02-ENGINE/IIC-Transcendence-config.md:30
+- 02-ENGINE/IIC-Transcendence-config.md:123
+- 02-ENGINE/IIC-Transcendence-config.md:151
+- 02-ENGINE/IIC-Transcendence-config.md:256
+- 02-ENGINE/IIC-Transcendence-config.md:323
+- 02-ENGINE/IIC-Transcendence-config.md:596
+- 02-ENGINE/IIC-Transcendence-config.md:779
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:162
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:622
+- 02-ENGINE/REF-OPERATIONAL_ENGINE.md:5
+- 02-ENGINE/GEMINI.md:37
+- 02-ENGINE/IIC-Mastery-config.md:180
+- 02-ENGINE/IIC-Mastery-config.md:371
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:53
+- 02-ENGINE/registries/REF-AGENTS.md:52
+- 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json:409
+- 02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:59
+- 02-ENGINE/memory/acumen-memory-config.md:371
+- 02-ENGINE/memory/acumen-memory-config.md:374
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:64
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:479
+- 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md:5
+- 02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md:39
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:80
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:123
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:233
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:256
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:36
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:79
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:189
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:212
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:117
+- 02-ENGINE/functions/transcribe_youtube.xml:225
+- 02-ENGINE/functions/transcribe_youtube.xml:233
+- 02-ENGINE/functions/transcribe_youtube.xml:290
+- 02-ENGINE/functions/transcribe_youtube.xml:392
+- 02-ENGINE/functions/transcribe_interview.xml:235
+- 02-ENGINE/functions/transcribe_interview.xml:243
+- 02-ENGINE/functions/transcribe_interview.xml:250
+- 02-ENGINE/functions/transcribe_interview.xml:305
+- 02-ENGINE/functions/transcribe_interview.xml:427
+- 02-ENGINE/functions/compile.xml:10
+- 02-ENGINE/functions/compile.xml:30
+- 02-ENGINE/functions/compile.xml:547
+- 02-ENGINE/functions/primer.xml:4
+- 02-ENGINE/functions/primer.xml:13
+- 02-ENGINE/functions/primer.xml:25
+- 02-ENGINE/functions/primer.xml:130
+- 02-ENGINE/functions/primer.xml:205
+- 02-ENGINE/functions/translate.xml:12
+- 02-ENGINE/functions/translate.xml:32
+- 02-ENGINE/functions/translate.xml:286
+- 02-ENGINE/functions/translate.xml:437
+- 02-ENGINE/functions/absorb.xml:102
+- 02-ENGINE/functions/transcribe_youtube.md:92
+- 02-ENGINE/functions/transcribe_interview.md:116
+- 02-ENGINE/functions/optimize.xml:145
+- 02-ENGINE/functions/optimize.xml:417
+- 02-ENGINE/functions/optimize.xml:542
+- 02-ENGINE/functions/optimize.xml:593
+- 02-ENGINE/functions/optimize.xml:675
+- 02-ENGINE/functions/convert.xml:12
+- 02-ENGINE/functions/convert.xml:34
+- 02-ENGINE/functions/convert.xml:612
+- 02-ENGINE/functions/anneal.xml:115
+- 02-ENGINE/functions/anneal.xml:122
+- 02-ENGINE/functions/anneal.xml:215
+- 02-ENGINE/functions/anneal.xml:387
+- 02-ENGINE/functions/transcribe_panel.xml:331
+- 02-ENGINE/functions/transcribe_panel.xml:339
+- 02-ENGINE/functions/transcribe_panel.xml:397
+- 02-ENGINE/functions/transcribe_panel.xml:515
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:132
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:224
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:261
 - .tmp.driveupload/14655.sb-6e8f0473-2l0Uk5:14
 - .claude/settings.local.json:98
 - .claude/commands/project/deviser_reint.md:160
@@ -117523,99 +117523,99 @@ Usage(s):
 - -OUTGOING/20260122/gemini/compiler_designer_language_architect.md:156
 - -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:153
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:47
-- 05-ARCHIVE/ARCH-oracle_memories.md:9
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:33
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:56
-- 05-ARCHIVE/ARCH-previous_thread.md:150
-- 05-ARCHIVE/ARCH-previous_thread.md:198
-- 05-ARCHIVE/ARCH-previous_thread.md:222
-- 05-ARCHIVE/ARCH-previous_thread.md:265
-- 05-ARCHIVE/ARCH-previous_thread.md:330
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:31
-- 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md:96
-- 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:258
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:396
-- 05-ARCHIVE/ARCH-constellation-architecture-v1.md:456
-- 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md:51
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:153
-- 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md:251
-- 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md:145
-- 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:30
-- 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:31
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:184
-- 05-ARCHIVE/ARCH-final_interactions.md:126
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:29
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:406
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:28
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:12
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:330
-- 05-ARCHIVE/ARCH-platform_features.md:95
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:119
-- 05-ARCHIVE/ORACLE11_INIT.md:311
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:37
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:49
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:88
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:5
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:137
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:138
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:214
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:692
-- 05-ARCHIVE/ARCH-frontier_models.md:12
-- 05-ARCHIVE/ARCH-frontier_models.md:230
-- 05-ARCHIVE/ARCH-frontier_models.md:867
-- 05-ARCHIVE/ARCH-frontier_models.md:1211
-- 05-ARCHIVE/ARCH-frontier_models.md:1458
-- 05-ARCHIVE/justification-claude.md:39
-- 05-ARCHIVE/justification-claude.md:82
-- 05-ARCHIVE/justification-claude.md:192
-- 05-ARCHIVE/justification-claude.md:215
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:201
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:82
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:47
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:142
-- 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:162
-- 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md:26
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:502
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:183
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:34
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:157
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:159
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:170
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:258
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:260
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:294
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:308
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:314
-- 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:357
-- 05-ARCHIVE/Claude-unified-prompt.md:11
-- 05-ARCHIVE/Claude-unified-prompt.md:81
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:50
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:53
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:114
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:123
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:265
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:127
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:39
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:82
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:192
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:215
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:80
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:123
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:233
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:256
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:36
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:79
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:189
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:212
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:142
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:162
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md:19
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:96
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:119
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:283
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:311
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:314
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:88
+- 05-MEMORY/ARCH-oracle_memories.md:9
+- 05-MEMORY/ARCH-COCKPIT-v1.md:33
+- 05-MEMORY/ARCH-COCKPIT-v1.md:56
+- 05-MEMORY/ARCH-previous_thread.md:150
+- 05-MEMORY/ARCH-previous_thread.md:198
+- 05-MEMORY/ARCH-previous_thread.md:222
+- 05-MEMORY/ARCH-previous_thread.md:265
+- 05-MEMORY/ARCH-previous_thread.md:330
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:31
+- 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md:96
+- 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md:258
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:396
+- 05-MEMORY/ARCH-constellation-architecture-v1.md:456
+- 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md:51
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:153
+- 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md:251
+- 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md:145
+- 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:30
+- 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:31
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:184
+- 05-MEMORY/ARCH-final_interactions.md:126
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:29
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:406
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:28
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:12
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:330
+- 05-MEMORY/ARCH-platform_features.md:95
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:119
+- 05-MEMORY/ORACLE11_INIT.md:311
+- 05-MEMORY/ARCH-oracle_suggestions.md:37
+- 05-MEMORY/ARCH-oracle_suggestions.md:49
+- 05-MEMORY/ARCH-oracle_suggestions.md:88
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:5
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:137
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:138
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:214
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:692
+- 05-MEMORY/ARCH-frontier_models.md:12
+- 05-MEMORY/ARCH-frontier_models.md:230
+- 05-MEMORY/ARCH-frontier_models.md:867
+- 05-MEMORY/ARCH-frontier_models.md:1211
+- 05-MEMORY/ARCH-frontier_models.md:1458
+- 05-MEMORY/justification-claude.md:39
+- 05-MEMORY/justification-claude.md:82
+- 05-MEMORY/justification-claude.md:192
+- 05-MEMORY/justification-claude.md:215
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:201
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:82
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:47
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:142
+- 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md:162
+- 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md:26
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:502
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:183
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:34
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:157
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:159
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:170
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:258
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:260
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:294
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:308
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:314
+- 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md:357
+- 05-MEMORY/Claude-unified-prompt.md:11
+- 05-MEMORY/Claude-unified-prompt.md:81
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:50
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:53
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:114
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:123
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:265
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:127
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:39
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:82
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:192
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:215
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:80
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:123
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:233
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:256
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:36
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:79
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:189
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:212
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:142
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md:162
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md:19
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:96
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:119
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:283
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:311
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:314
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:88
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:120
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:308
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:1124
@@ -117887,12 +117887,12 @@ Usage(s):
 - 00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md:390
 - 00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md:399
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:283
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:211
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:225
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:227
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:229
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:236
-- 02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:10
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:211
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:225
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:227
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:229
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:236
+- 02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md:10
 - .claude/commands/project/deviser_reint.md:2
 
 ### directive-01
@@ -117902,10 +117902,10 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:103
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:74
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:89
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:189
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:220
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:260
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:265
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:189
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:220
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:260
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:265
 - -OUTGOING/20260118-blitzkrieg/03_execution/execution_log.json:10
 
 ### directive-02
@@ -117913,8 +117913,8 @@ Definition(s):
 - -OUTGOING/20260118-blitzkrieg/02_directives/directive-02.md
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:104
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:189
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:220
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:189
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:220
 - -OUTGOING/20260118-blitzkrieg/03_execution/execution_log.json:18
 
 ### distributed_systems_architect
@@ -117957,11 +117957,11 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:163
 - 00-ORCHESTRATION/state/DYN-TREE.md:175
 - 00-ORCHESTRATION/state/REF-EXPORT_HYGIENE.md:30
-- 02-OPERATIONAL/gemini-settings.json:35
-- 02-OPERATIONAL/MCP_SETUP.md:74
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:92
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:48
-- 02-OPERATIONAL/functions/optimize.xml:469
+- 02-ENGINE/gemini-settings.json:35
+- 02-ENGINE/MCP_SETUP.md:74
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:92
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md:48
+- 02-ENGINE/functions/optimize.xml:469
 - 04-SOURCES/processed/SOURCE-20251024-youtube-interview-arcprize-chollet_knoop.md:28
 - 04-SOURCES/processed/SOURCE-20250312-youtube-interview-dwarkesh-joseph_henrich.md:26
 - 04-SOURCES/processed/SOURCE-20250312-youtube-interview-dwarkesh-joseph_henrich.md:42
@@ -118273,16 +118273,16 @@ Usage(s):
 - 04-SOURCES/raw/claudecode/GETSTARTED-2-boris_claude_code_setup.md:27
 - 04-SOURCES/raw/claudecode/BESTPRACTICE-5-20260102-x_thread-boris_created_claude_code_setup-bcherny.md:140
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:725
-- 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md:42
-- 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md:143
-- 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md:121
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:80
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:66
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:298
-- 05-ARCHIVE/justification-claude.md:51
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:51
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:92
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:48
+- 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md:42
+- 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md:143
+- 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md:121
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:80
+- 05-MEMORY/ARCH-oracle_suggestions.md:66
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:298
+- 05-MEMORY/justification-claude.md:51
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:51
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:92
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:48
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:177
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:281
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:692
@@ -118351,17 +118351,17 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/route_task.py:42
 - 00-ORCHESTRATION/blackboard/evidence/EVD-20260116-001.json:14
 - 00-ORCHESTRATION/blackboard/executions/EXE-20260116-001.json:10
-- 02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md:27
-- 02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md:38
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:232
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:233
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:234
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml:30
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml:30
-- 02-OPERATIONAL/functions/transcribe_interview.xml:235
-- 02-OPERATIONAL/functions/primer.xml:162
-- 02-OPERATIONAL/functions/amplify.xml:67
-- 02-OPERATIONAL/functions/transcribe_interview.md:116
+- 02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md:27
+- 02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md:38
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:232
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:233
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:234
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml:30
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml:30
+- 02-ENGINE/functions/transcribe_interview.xml:235
+- 02-ENGINE/functions/primer.xml:162
+- 02-ENGINE/functions/amplify.xml:67
+- 02-ENGINE/functions/transcribe_interview.md:116
 - 04-SOURCES/REF-CREATOR_BIOS.md:686
 - 04-SOURCES/REF-CREATOR_BIOS.md:910
 - 04-SOURCES/REF-CREATOR_BIOS.md:1152
@@ -118420,9 +118420,9 @@ Usage(s):
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/07_TANGIBLE_TELEOLOGY_ATLAS.csv:31
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:101
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:149
-- 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md:42
-- 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md:59
-- 05-ARCHIVE/ARCH-platform_features.md:115
+- 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md:42
+- 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md:59
+- 05-MEMORY/ARCH-platform_features.md:115
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:701
 - 01-CANON/CANON-00008-RESOLUTIONS-cosmos.md:684
 - 01-CANON/CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md:573
@@ -118472,8 +118472,8 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:242
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:262
 - 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh:281
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:105
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:149
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:105
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:149
 - .claude/commands/project/blitzkrieg_issue.md:442
 - .claude/commands/project/blitzkrieg_finalize.md:92
 - .claude/commands/project/blitzkrieg_finalize.md:124
@@ -118491,7 +118491,7 @@ Usage(s):
 
 ### gemini-settings
 Definition(s):
-- 02-OPERATIONAL/gemini-settings.json
+- 02-ENGINE/gemini-settings.json
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042C_OPERATIONAL_HYGIENE.md:87
 - 00-ORCHESTRATION/directives/DIRECTIVE-042C_OPERATIONAL_HYGIENE.md:149
@@ -118506,9 +118506,9 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:116
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:131
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:351
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:73
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:100
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:152
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:73
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:100
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:152
 
 ### geminicli-report
 Definition(s):
@@ -118548,12 +118548,12 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-ORACLE_DECISIONS.md:362
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:83
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-042B.md:24
-- 02-OPERATIONAL/IIC-Coherence-config.md:43
-- 02-OPERATIONAL/IIC-Coherence-config.md:591
-- 02-OPERATIONAL/IIC-shared-protocols.md:345
-- 02-OPERATIONAL/IIC-Mastery-config.md:43
-- 02-OPERATIONAL/functions/harmonize.xml:239
-- 02-OPERATIONAL/functions/optimize.xml:561
+- 02-ENGINE/IIC-Coherence-config.md:43
+- 02-ENGINE/IIC-Coherence-config.md:591
+- 02-ENGINE/IIC-shared-protocols.md:345
+- 02-ENGINE/IIC-Mastery-config.md:43
+- 02-ENGINE/functions/harmonize.xml:239
+- 02-ENGINE/functions/optimize.xml:561
 - .obsidian/workspace.json:14
 - .obsidian/workspace.json:171
 - .obsidian/core-plugins.json:5
@@ -118631,16 +118631,16 @@ Usage(s):
 - -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:193
 - -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:219
 - -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md:226
-- 05-ARCHIVE/ARCH-platform_features.md:121
-- 05-ARCHIVE/ARCH-platform_features.md:534
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:152
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:308
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:91
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md:12
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:294
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:194
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:18
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:98
+- 05-MEMORY/ARCH-platform_features.md:121
+- 05-MEMORY/ARCH-platform_features.md:534
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:152
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:308
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:91
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md:12
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:294
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:194
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:18
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:98
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:198
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:210
 - 01-CANON/CANON-30200-POSITIONING-comet-INTELLIGENCE.md:282
@@ -118681,17 +118681,17 @@ Usage(s):
 
 ### grok-red-team-instructions
 Definition(s):
-- 05-ARCHIVE/chorus-session-20260122/grok-red-team-instructions.md
+- 05-MEMORY/chorus-session-20260122/grok-red-team-instructions.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260120-EXECUTION-LOG-INFRASTRUCTURE.md:191
 - 00-ORCHESTRATION/state/DYN-TREE.md:91
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:134
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:358
-- 05-ARCHIVE/chorus-session-20260122/README.md:23
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:134
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:358
+- 05-MEMORY/chorus-session-20260122/README.md:23
 
 ### harmonize
 Definition(s):
-- 02-OPERATIONAL/functions/harmonize.xml
+- 02-ENGINE/functions/harmonize.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:263
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:49
@@ -118700,14 +118700,14 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-DESIGN_DECISIONS_ROOT.md:114
 - 00-ORCHESTRATION/state/DYN-TREE.md:488
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:179
-- 02-OPERATIONAL/functions/harmonize.xml:251
-- 02-OPERATIONAL/functions/anneal.xml:38
+- 02-ENGINE/functions/harmonize.xml:251
+- 02-ENGINE/functions/anneal.xml:38
 - 04-SOURCES/raw/00000000-youtube_video-the_next_renais-the_next_renaissance_is_coming.md:45
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:287
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
-- 05-ARCHIVE/Grok-unified-prompt.md:5
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:150
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:62
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
+- 05-MEMORY/Grok-unified-prompt.md:5
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:150
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:62
 - 01-CANON/CANON-30100-ASA-comet-INTELLIGENCE.md:783
 
 ### how_to_master_prompt_engineering-@exm777
@@ -118761,13 +118761,13 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-026B.md:139
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-01-032B.md:143
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-02-036C.md:197
-- 02-OPERATIONAL/REF-OPERATIONAL_ENGINE.md:131
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:11
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:71
-- 02-OPERATIONAL/models/MODEL_INDEX.md:184
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:10
-- 02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md:32
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:194
+- 02-ENGINE/REF-OPERATIONAL_ENGINE.md:131
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:11
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:71
+- 02-ENGINE/models/MODEL_INDEX.md:184
+- 02-ENGINE/functions/FUNCTION_INDEX.md:10
+- 02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md:32
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:194
 - .claude/settings.local.json:85
 - .claude/settings.local.json:128
 - .claude/settings.local.json:128
@@ -118863,18 +118863,18 @@ Usage(s):
 - -OUTGOING/20260119-corpus_survey/TOKEN_DRIFT_REPORT.md:25
 - -OUTGOING/20260119-corpus_survey/TOPOLOGY_MAP.md:13
 - -OUTGOING/20260119-corpus_survey/TOPOLOGY_MAP.md:55
-- 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md:35
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:150
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:112
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:142
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:234
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:27
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:91
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:452
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:22
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:77
-- 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:260
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:37
+- 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md:35
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:150
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:112
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:142
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:234
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:27
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:91
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:452
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:22
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:77
+- 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md:260
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:37
 - 01-CANON/CANON-30100-ASA-comet-INTELLIGENCE.md:755
 - 01-CANON/CANON-99000-HISTORICAL-meta.md:11
 - 01-CANON/CANON-99000-HISTORICAL-meta.md:22
@@ -118905,7 +118905,7 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/ingest_chatgpt_container.sh:10
 - 00-ORCHESTRATION/scripts/ingest_chatgpt_container.sh:11
 - 00-ORCHESTRATION/scripts/ingest_chatgpt_container.sh:27
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:94
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:94
 - -OUTGOING/20260119-transcript_codefence_canon/RIPPLE_REPORT.md:140
 - -OUTGOING/20260119-tighten_audizable_and_smoketest/TIGHTEN_REPORT.md:27
 - -OUTGOING/20260119-corpus_survey/CORE_CANDIDATES.md:73
@@ -118921,8 +118921,8 @@ Usage(s):
 
 ### integrate
 Definition(s):
-- 02-OPERATIONAL/functions/integrate.xml
-- 02-OPERATIONAL/functions/integrate.md
+- 02-ENGINE/functions/integrate.xml
+- 02-ENGINE/functions/integrate.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-039A.md:237
 - 00-ORCHESTRATION/directives/DIRECTIVE-039A.md:330
@@ -118970,48 +118970,48 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:161
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:215
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:60
-- 02-OPERATIONAL/IIC-Transcendence-config.md:674
-- 02-OPERATIONAL/README.md:36
-- 02-OPERATIONAL/README.md:38
-- 02-OPERATIONAL/README.md:70
-- 02-OPERATIONAL/README.md:114
-- 02-OPERATIONAL/README.md:177
-- 02-OPERATIONAL/README.md:202
-- 02-OPERATIONAL/README.md:251
-- 02-OPERATIONAL/README.md:282
-- 02-OPERATIONAL/README.md:295
-- 02-OPERATIONAL/IIC-Coherence-config.md:439
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:391
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:232
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:505
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:513
-- 02-OPERATIONAL/IIC-Mastery-config.md:767
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:261
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:44
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:119
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:208
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:244
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:257
-- 02-OPERATIONAL/functions/listenize.md:30
-- 02-OPERATIONAL/functions/readize.md:30
-- 02-OPERATIONAL/functions/readize.md:54
-- 02-OPERATIONAL/functions/listenize.xml:35
-- 02-OPERATIONAL/functions/listenize.xml:53
-- 02-OPERATIONAL/functions/harmonize.xml:208
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:36
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:41
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:196
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:216
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:228
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:233
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:257
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:264
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:274
-- 02-OPERATIONAL/functions/optimize.xml:184
-- 02-OPERATIONAL/functions/integrate.md:6
-- 02-OPERATIONAL/functions/anneal.xml:521
-- 02-OPERATIONAL/functions/readize.xml:34
-- 02-OPERATIONAL/functions/readize.xml:52
+- 02-ENGINE/IIC-Transcendence-config.md:674
+- 02-ENGINE/README.md:36
+- 02-ENGINE/README.md:38
+- 02-ENGINE/README.md:70
+- 02-ENGINE/README.md:114
+- 02-ENGINE/README.md:177
+- 02-ENGINE/README.md:202
+- 02-ENGINE/README.md:251
+- 02-ENGINE/README.md:282
+- 02-ENGINE/README.md:295
+- 02-ENGINE/IIC-Coherence-config.md:439
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:391
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:232
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:505
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:513
+- 02-ENGINE/IIC-Mastery-config.md:767
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:261
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:44
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:119
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:208
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:244
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:257
+- 02-ENGINE/functions/listenize.md:30
+- 02-ENGINE/functions/readize.md:30
+- 02-ENGINE/functions/readize.md:54
+- 02-ENGINE/functions/listenize.xml:35
+- 02-ENGINE/functions/listenize.xml:53
+- 02-ENGINE/functions/harmonize.xml:208
+- 02-ENGINE/functions/FUNCTION_INDEX.md:36
+- 02-ENGINE/functions/FUNCTION_INDEX.md:41
+- 02-ENGINE/functions/FUNCTION_INDEX.md:196
+- 02-ENGINE/functions/FUNCTION_INDEX.md:216
+- 02-ENGINE/functions/FUNCTION_INDEX.md:228
+- 02-ENGINE/functions/FUNCTION_INDEX.md:233
+- 02-ENGINE/functions/FUNCTION_INDEX.md:257
+- 02-ENGINE/functions/FUNCTION_INDEX.md:264
+- 02-ENGINE/functions/FUNCTION_INDEX.md:274
+- 02-ENGINE/functions/optimize.xml:184
+- 02-ENGINE/functions/integrate.md:6
+- 02-ENGINE/functions/anneal.xml:521
+- 02-ENGINE/functions/readize.xml:34
+- 02-ENGINE/functions/readize.xml:52
 - 04-SOURCES/REF-CREATOR_BIOS.md:365
 - 04-SOURCES/REF-CREATOR_BIOS.md:908
 - 04-SOURCES/processed/SOURCE-20251223-youtube-video-dwarkesh-continual_learning.md:18
@@ -119101,26 +119101,26 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/02_refinements/refined_defrag_plan.md:86
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:288
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:289
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:206
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:197
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:176
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:90
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:150
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:157
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:61
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:166
-- 05-ARCHIVE/ORACLE11_INIT.md:230
-- 05-ARCHIVE/ARCH-oracle_suggestions.md:35
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:255
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:255
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:110
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:121
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:145
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:519
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:1
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:18
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:238
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:206
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
+- 05-MEMORY/ORACLE11_CONTEXT.md:197
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:176
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:90
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:150
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:157
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:61
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:166
+- 05-MEMORY/ORACLE11_INIT.md:230
+- 05-MEMORY/ARCH-oracle_suggestions.md:35
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:255
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:255
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:110
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:121
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:145
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:519
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:1
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md:18
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md:238
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:115
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:466
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:437
@@ -119246,8 +119246,8 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:252
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:263
 - 00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md:162
-- 02-OPERATIONAL/functions/amplify.xml:88
-- 02-OPERATIONAL/functions/amplify.xml:161
+- 02-ENGINE/functions/amplify.xml:88
+- 02-ENGINE/functions/amplify.xml:161
 - .claude/commands/project/blitzkrieg_issue.md:236
 - .claude/commands/project/blitzkrieg_issue.md:242
 - .claude/commands/project/blitzkrieg_issue.md:261
@@ -119272,9 +119272,9 @@ Usage(s):
 - 04-SOURCES/raw/20251030-youtube_video-sanity-everything_sean_grove.txt:394
 - 04-SOURCES/raw/20251030-youtube_video-sanity-everything_sean_grove.txt:506
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:10
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:67
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:228
-- 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:196
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:67
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:228
+- 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md:196
 - 01-CANON/CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md:606
 - 01-CANON/CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md:258
 - 01-CANON/CANON-35100-TRANSCENDENCE-ring-WISDOM.md:289
@@ -119304,8 +119304,8 @@ Usage(s):
 
 ### justification-chatgpt
 Definition(s):
-- 05-ARCHIVE/justification-chatgpt.md
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md
+- 05-MEMORY/justification-chatgpt.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:155
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:40
@@ -119314,12 +119314,12 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:44
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:644
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:883
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:117
+- 05-MEMORY/ORACLE11_CONTEXT.md:117
 
 ### justification-claude
 Definition(s):
-- 05-ARCHIVE/justification-claude.md
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md
+- 05-MEMORY/justification-claude.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:154
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:41
@@ -119328,13 +119328,13 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:45
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:645
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:884
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:118
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:166
+- 05-MEMORY/ORACLE11_CONTEXT.md:118
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:166
 
 ### justification-gemini
 Definition(s):
-- 05-ARCHIVE/justification-gemini.md
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md
+- 05-MEMORY/justification-gemini.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:156
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:42
@@ -119343,12 +119343,12 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:46
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:646
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:885
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:119
+- 05-MEMORY/ORACLE11_CONTEXT.md:119
 
 ### justification-grok
 Definition(s):
-- 05-ARCHIVE/justification-grok.md
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md
+- 05-MEMORY/justification-grok.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:157
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:43
@@ -119357,18 +119357,18 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:47
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:647
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:886
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:120
+- 05-MEMORY/ORACLE11_CONTEXT.md:120
 
 ### last_5_interactions
 Definition(s):
-- 05-ARCHIVE/last_5_interactions.zip
+- 05-MEMORY/last_5_interactions.zip
 Usage(s):
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:119
 
 ### listenize
 Definition(s):
-- 02-OPERATIONAL/functions/listenize.md
-- 02-OPERATIONAL/functions/listenize.xml
+- 02-ENGINE/functions/listenize.md
+- 02-ENGINE/functions/listenize.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:265
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:278
@@ -119396,30 +119396,30 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:161
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:215
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:62
-- 02-OPERATIONAL/README.md:52
-- 02-OPERATIONAL/README.md:72
-- 02-OPERATIONAL/README.md:179
-- 02-OPERATIONAL/README.md:204
-- 02-OPERATIONAL/README.md:219
-- 02-OPERATIONAL/README.md:252
-- 02-OPERATIONAL/README.md:284
-- 02-OPERATIONAL/README.md:297
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:77
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:81
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:201
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:231
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:234
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:258
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:276
+- 02-ENGINE/README.md:52
+- 02-ENGINE/README.md:72
+- 02-ENGINE/README.md:179
+- 02-ENGINE/README.md:204
+- 02-ENGINE/README.md:219
+- 02-ENGINE/README.md:252
+- 02-ENGINE/README.md:284
+- 02-ENGINE/README.md:297
+- 02-ENGINE/functions/FUNCTION_INDEX.md:77
+- 02-ENGINE/functions/FUNCTION_INDEX.md:81
+- 02-ENGINE/functions/FUNCTION_INDEX.md:201
+- 02-ENGINE/functions/FUNCTION_INDEX.md:231
+- 02-ENGINE/functions/FUNCTION_INDEX.md:234
+- 02-ENGINE/functions/FUNCTION_INDEX.md:258
+- 02-ENGINE/functions/FUNCTION_INDEX.md:276
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:290
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:291
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:199
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:159
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:72
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:257
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:257
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
+- 05-MEMORY/ORACLE11_CONTEXT.md:199
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:159
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:72
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:257
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:257
 
 ### manifest
 Definition(s):
@@ -119445,7 +119445,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-025A.md:175
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-025A.md:237
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-026A.md:64
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:230
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:230
 - 04-SOURCES/README.md:63
 - 04-SOURCES/README.md:97
 - 04-SOURCES/index.md:3
@@ -119458,26 +119458,26 @@ Usage(s):
 - 04-SOURCES/raw/20250626-youtube_video-dwarkesh-george_church.txt:929
 - -OUTGOING/geminicli-report.md:26
 - -OUTGOING/20260119-corpus-annealment-survey/CANON_FORENSIC_AUDIT.md:16
-- 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:152
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:54
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:70
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:483
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:16
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:178
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:347
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:423
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:121
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:328
-- 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md:78
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:44
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:201
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:202
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:304
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:304
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:319
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:335
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md:3
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:127
+- 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md:152
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:54
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:70
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:483
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:16
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:178
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:347
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:423
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:121
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:328
+- 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md:78
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:44
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:201
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:202
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:304
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:304
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:319
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:335
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md:3
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:127
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:285
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:689
 - 01-CANON/CANON-00003-PRINCIPLES-cosmos.md:146
@@ -119497,13 +119497,13 @@ Usage(s):
 
 ### most_recent_completion
 Definition(s):
-- 05-ARCHIVE/most_recent_completion.zip
+- 05-MEMORY/most_recent_completion.zip
 Usage(s):
 - (none)
 
 ### new-chatgpt
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:136
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:44
@@ -119512,7 +119512,7 @@ Usage(s):
 
 ### new-claude
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-claude.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-claude.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:135
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:45
@@ -119521,7 +119521,7 @@ Usage(s):
 
 ### new-gemini
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:137
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:46
@@ -119530,7 +119530,7 @@ Usage(s):
 
 ### new-grok
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:138
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:47
@@ -119539,7 +119539,7 @@ Usage(s):
 
 ### offload
 Definition(s):
-- 02-OPERATIONAL/functions/offload.xml
+- 02-ENGINE/functions/offload.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:266
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:60
@@ -119548,21 +119548,21 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-DESIGN_DECISIONS_ROOT.md:120
 - 00-ORCHESTRATION/state/DYN-TREE.md:493
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:180
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:124
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:125
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:124
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:125
 - 04-SOURCES/raw/20250522-youtube_video-dwarkesh-sholto_douglas__trenton_bricken.txt:1238
 - 04-SOURCES/raw/claudecode/BESTPRACTICE-3-20260112-x_article-the_claude_code_tutorial_level_2-@eyad_khrais.md:96
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:292
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:132
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:143
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:78
-- 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md:73
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:132
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:143
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:78
+- 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md:73
 - 01-CANON/CANON-00017-AGENTIC_CONSTITUTION-cosmos.md:34
 
 ### old-chatgpt
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:166
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:48
@@ -119571,7 +119571,7 @@ Usage(s):
 
 ### old-claude
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-claude.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-claude.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:165
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:49
@@ -119580,7 +119580,7 @@ Usage(s):
 
 ### old-gemini
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-gemini.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-gemini.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:167
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:50
@@ -119589,7 +119589,7 @@ Usage(s):
 
 ### old_A-grok
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:168
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:51
@@ -119598,7 +119598,7 @@ Usage(s):
 
 ### old_b-grok
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-036-FORENSIC-RECONSOLIDATION.md:168
 - 00-ORCHESTRATION/state/DYN-DEFRAG_APPLY_LOG_20260118_171435.md:52
@@ -119633,16 +119633,16 @@ Usage(s):
 
 ### ops_lint
 Definition(s):
-- 02-OPERATIONAL/scripts/ops_lint.sh
+- 02-ENGINE/scripts/ops_lint.sh
 Usage(s):
 - 00-ORCHESTRATION/state/DYN-BACKLOG.md:134
 - 00-ORCHESTRATION/state/DYN-BACKLOG.md:140
 - 00-ORCHESTRATION/state/DYN-TREE.md:562
 - 00-ORCHESTRATION/state/REF-REPO_VALIDATION_PROTOCOL.md:122
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:50
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:38
-- 02-OPERATIONAL/scripts/ops_lint.sh:3
-- 02-OPERATIONAL/scripts/ops_lint.sh:9
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:50
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:38
+- 02-ENGINE/scripts/ops_lint.sh:3
+- 02-ENGINE/scripts/ops_lint.sh:9
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:180
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:12
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:103
@@ -119674,7 +119674,7 @@ Usage(s):
 
 ### optimize
 Definition(s):
-- 02-OPERATIONAL/functions/optimize.xml
+- 02-ENGINE/functions/optimize.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:267
 - 00-ORCHESTRATION/directives/DIRECTIVE-035A_COHERENCE_DISTILLATION.md:66
@@ -119683,22 +119683,22 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-025B_STRUCTURAL_EXECUTION.md:282
 - 00-ORCHESTRATION/state/DYN-TREE.md:494
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:180
-- 02-OPERATIONAL/IIC-Efficacy-config.md:361
-- 02-OPERATIONAL/IIC-Efficacy-config.md:603
-- 02-OPERATIONAL/README.md:47
-- 02-OPERATIONAL/README.md:54
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:341
-- 02-OPERATIONAL/functions/listenize.md:5
-- 02-OPERATIONAL/functions/readize.md:5
-- 02-OPERATIONAL/functions/compile.xml:169
-- 02-OPERATIONAL/functions/translate.xml:173
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:69
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:81
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:103
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:107
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:258
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
-- 02-OPERATIONAL/functions/convert.xml:173
+- 02-ENGINE/IIC-Efficacy-config.md:361
+- 02-ENGINE/IIC-Efficacy-config.md:603
+- 02-ENGINE/README.md:47
+- 02-ENGINE/README.md:54
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:341
+- 02-ENGINE/functions/listenize.md:5
+- 02-ENGINE/functions/readize.md:5
+- 02-ENGINE/functions/compile.xml:169
+- 02-ENGINE/functions/translate.xml:173
+- 02-ENGINE/functions/FUNCTION_INDEX.md:69
+- 02-ENGINE/functions/FUNCTION_INDEX.md:81
+- 02-ENGINE/functions/FUNCTION_INDEX.md:103
+- 02-ENGINE/functions/FUNCTION_INDEX.md:107
+- 02-ENGINE/functions/FUNCTION_INDEX.md:258
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/convert.xml:173
 - 04-SOURCES/processed/SOURCE-20251226-youtube-video-dshapiro-scaling_paradox.md:48
 - 04-SOURCES/processed/SOURCE-20251017-youtube-interview-dwarkesh_patel-andrej_karpathy.md:123
 - 04-SOURCES/processed/SOURCE-20250605-youtube-lecture-strangeloop-ethan_mollick.md:41
@@ -119782,14 +119782,14 @@ Usage(s):
 - 04-SOURCES/raw/claudecode/BUILDERTOOL-4-20260117-x_article-the_complete_guide_to_claude_md-@codevolutionweb:166
 - 04-SOURCES/raw/codex/i_almost_quit_codex_after_1_day_heres_how_to_actually_use_it.md:13
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:293
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:131
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:77
-- 05-ARCHIVE/ARCH-frontier_models.md:958
-- 05-ARCHIVE/justification-claude.md:300
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:52
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:300
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:341
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:131
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:77
+- 05-MEMORY/ARCH-frontier_models.md:958
+- 05-MEMORY/justification-claude.md:300
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:52
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:300
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:341
 - 01-CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md:123
 - 01-CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md:187
 - 01-CANON/CANON-30100-ASA-comet-INTELLIGENCE.md:101
@@ -119889,7 +119889,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:264
 - 00-ORCHESTRATION/scripts/ingest_chatgpt_container.py:14
 - 00-ORCHESTRATION/scripts/ingest_chatgpt_container.py:110
-- 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:87
+- 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md:87
 - .claude/commands/project/blitzkrieg_finalize.md:51
 - .claude/commands/project/blitzkrieg_finalize.md:54
 - .claude/commands/project/blitzkrieg_finalize.md:65
@@ -119901,10 +119901,10 @@ Usage(s):
 - .claude/skills/pedigree.md:204
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:11
 - -OUTGOING/20260119-corpus_survey/TOKEN_DRIFT_REPORT.md:100
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:27
-- 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:36
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:24
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:30
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:27
+- 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md:36
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:24
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:30
 - 01-CANON/CANON-00013-QUICKSTART-cosmos.md:94
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:496
 - 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md:571
@@ -119925,7 +119925,7 @@ Usage(s):
 
 ### previous
 Definition(s):
-- 05-ARCHIVE/diagrams-20260120/previous.png
+- 05-MEMORY/diagrams-20260120/previous.png
 Usage(s):
 - 00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md:859
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B.md:161
@@ -119935,25 +119935,25 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-043A_O11.md:87
 - 00-ORCHESTRATION/state/REF-MULTI_ACCOUNT_SYNC.md:230
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-027.md:32
-- 02-OPERATIONAL/REF-OPERATIONAL_ENGINE.md:40
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:486
-- 02-OPERATIONAL/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml:76
-- 02-OPERATIONAL/functions/transcribe_interview.xml:311
-- 02-OPERATIONAL/functions/reforge.xml:37
-- 02-OPERATIONAL/functions/amalgamate.xml:118
-- 02-OPERATIONAL/functions/offload.xml:8
-- 02-OPERATIONAL/functions/offload.xml:98
-- 02-OPERATIONAL/functions/offload.xml:120
-- 02-OPERATIONAL/functions/offload.xml:150
-- 02-OPERATIONAL/functions/harmonize.xml:65
-- 02-OPERATIONAL/functions/harmonize.xml:122
-- 02-OPERATIONAL/functions/harmonize.xml:125
-- 02-OPERATIONAL/functions/harmonize.xml:198
-- 02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md:20
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:65
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:304
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:421
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:435
+- 02-ENGINE/REF-OPERATIONAL_ENGINE.md:40
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:486
+- 02-ENGINE/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml:76
+- 02-ENGINE/functions/transcribe_interview.xml:311
+- 02-ENGINE/functions/reforge.xml:37
+- 02-ENGINE/functions/amalgamate.xml:118
+- 02-ENGINE/functions/offload.xml:8
+- 02-ENGINE/functions/offload.xml:98
+- 02-ENGINE/functions/offload.xml:120
+- 02-ENGINE/functions/offload.xml:150
+- 02-ENGINE/functions/harmonize.xml:65
+- 02-ENGINE/functions/harmonize.xml:122
+- 02-ENGINE/functions/harmonize.xml:125
+- 02-ENGINE/functions/harmonize.xml:198
+- 02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md:20
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:65
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:304
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:421
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:435
 - .claude/commands/project/deviser_reint.md:240
 - .claude/commands/project/deviser_reint.md:250
 - .claude/skills/intentions.md:19
@@ -120103,26 +120103,26 @@ Usage(s):
 - -OUTGOING/20260119-sensing_sweep/drift_map.md:4
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/06_CRASHOUT_PREVENTION_AND_RECOVERY.md:402
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/03_CHORUS_PROTOCOL_V2.md:59
-- 05-ARCHIVE/ARCH-oracle_memories.md:16
-- 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md:19
-- 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md:124
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:233
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:110
-- 05-ARCHIVE/ARCH-platform_features.md:47
-- 05-ARCHIVE/ARCH-platform_features.md:213
-- 05-ARCHIVE/justification-gemini.md:1
-- 05-ARCHIVE/ARCH-frontier_models.md:35
-- 05-ARCHIVE/ARCH-frontier_models.md:169
-- 05-ARCHIVE/ARCH-frontier_models.md:326
-- 05-ARCHIVE/ARCH-frontier_models.md:381
-- 05-ARCHIVE/ARCH-frontier_models.md:522
-- 05-ARCHIVE/ARCH-frontier_models.md:684
-- 05-ARCHIVE/ARCH-frontier_models.md:1393
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:26
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:1
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md:293
-- 05-ARCHIVE/chorus-session-20260122/grok-red-team-instructions.md:10
-- 05-ARCHIVE/chorus-session-20260122/grok-red-team-instructions.md:43
+- 05-MEMORY/ARCH-oracle_memories.md:16
+- 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md:19
+- 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md:124
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:233
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:110
+- 05-MEMORY/ARCH-platform_features.md:47
+- 05-MEMORY/ARCH-platform_features.md:213
+- 05-MEMORY/justification-gemini.md:1
+- 05-MEMORY/ARCH-frontier_models.md:35
+- 05-MEMORY/ARCH-frontier_models.md:169
+- 05-MEMORY/ARCH-frontier_models.md:326
+- 05-MEMORY/ARCH-frontier_models.md:381
+- 05-MEMORY/ARCH-frontier_models.md:522
+- 05-MEMORY/ARCH-frontier_models.md:684
+- 05-MEMORY/ARCH-frontier_models.md:1393
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:26
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md:1
+- 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md:293
+- 05-MEMORY/chorus-session-20260122/grok-red-team-instructions.md:10
+- 05-MEMORY/chorus-session-20260122/grok-red-team-instructions.md:43
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:642
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:846
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:1154
@@ -120174,7 +120174,7 @@ Usage(s):
 
 ### primer
 Definition(s):
-- 02-OPERATIONAL/functions/primer.xml
+- 02-ENGINE/functions/primer.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:268
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:49
@@ -120183,19 +120183,19 @@ Usage(s):
 - 00-ORCHESTRATION/state/ARCH-DESIGN_DECISIONS_ROOT.md:126
 - 00-ORCHESTRATION/state/DYN-TREE.md:495
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:180
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:124
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:126
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:208
-- 02-OPERATIONAL/functions/primer.xml:257
-- 02-OPERATIONAL/functions/primer.xml:268
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:124
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:126
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:208
+- 02-ENGINE/functions/primer.xml:257
+- 02-ENGINE/functions/primer.xml:268
 - 04-SOURCES/raw/20251023-youtube_video-ark-brainstorn_106.txt:220
 - 04-SOURCES/raw/20250820-youtube_video-bilawal-world_model.txt:83
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:294
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:150
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:60
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:167
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md:112
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:127
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:150
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:60
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:167
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md:112
 
 ### process-source
 Definition(s):
@@ -120207,7 +120207,7 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-041A.md:35
 - .claude/commands/project/process-source.md:2
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:6
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:95
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:95
 
 ### projects.csv.bak
 Definition(s):
@@ -120217,11 +120217,11 @@ Usage(s):
 
 ### proposed
 Definition(s):
-- 05-ARCHIVE/diagrams-20260120/proposed.png
+- 05-MEMORY/diagrams-20260120/proposed.png
 Usage(s):
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:81
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:259
-- 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:464
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:81
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:259
+- 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md:464
 - 04-SOURCES/REF-CREATOR_BIOS.md:669
 - 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.txt:59
 - 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.txt:135
@@ -120254,12 +120254,12 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/canon_safety_check.md:115
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/audit_of_defrag_conviction_pass.md:23
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/audit_of_defrag_conviction_pass.md:24
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:66
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:263
-- 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:39
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:1
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:144
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:144
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:66
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:263
+- 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md:39
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:1
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:144
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md:144
 - 01-CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md:50
 - 01-CANON/CANON-00008-RESOLUTIONS-cosmos.md:58
 - 01-CANON/CANON-00008-RESOLUTIONS-cosmos.md:891
@@ -120268,8 +120268,8 @@ Usage(s):
 
 ### readize
 Definition(s):
-- 02-OPERATIONAL/functions/readize.md
-- 02-OPERATIONAL/functions/readize.xml
+- 02-ENGINE/functions/readize.md
+- 02-ENGINE/functions/readize.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:269
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:279
@@ -120314,30 +120314,30 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:161
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:215
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:61
-- 02-OPERATIONAL/README.md:45
-- 02-OPERATIONAL/README.md:71
-- 02-OPERATIONAL/README.md:121
-- 02-OPERATIONAL/README.md:178
-- 02-OPERATIONAL/README.md:196
-- 02-OPERATIONAL/README.md:218
-- 02-OPERATIONAL/README.md:283
-- 02-OPERATIONAL/README.md:296
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:71
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:75
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:201
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:230
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:275
+- 02-ENGINE/README.md:45
+- 02-ENGINE/README.md:71
+- 02-ENGINE/README.md:121
+- 02-ENGINE/README.md:178
+- 02-ENGINE/README.md:196
+- 02-ENGINE/README.md:218
+- 02-ENGINE/README.md:283
+- 02-ENGINE/README.md:296
+- 02-ENGINE/functions/FUNCTION_INDEX.md:71
+- 02-ENGINE/functions/FUNCTION_INDEX.md:75
+- 02-ENGINE/functions/FUNCTION_INDEX.md:201
+- 02-ENGINE/functions/FUNCTION_INDEX.md:230
+- 02-ENGINE/functions/FUNCTION_INDEX.md:275
 - 04-SOURCES/FRONTMATTER_TEMPLATE.md:23
 - 04-SOURCES/README.md:91
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:295
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:296
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:198
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:158
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:71
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:256
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:256
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:130
+- 05-MEMORY/ORACLE11_CONTEXT.md:198
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:158
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:71
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:256
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:256
 
 ### refined_defrag_plan
 Definition(s):
@@ -120357,7 +120357,7 @@ Usage(s):
 
 ### reforge
 Definition(s):
-- 02-OPERATIONAL/functions/reforge.xml
+- 02-ENGINE/functions/reforge.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:270
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:65
@@ -120365,13 +120365,13 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-025B_STRUCTURAL_EXECUTION.md:276
 - 00-ORCHESTRATION/state/DYN-TREE.md:498
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:181
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:157
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:161
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/FUNCTION_INDEX.md:157
+- 02-ENGINE/functions/FUNCTION_INDEX.md:161
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:297
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:136
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:152
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:89
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:136
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:152
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:89
 
 ### regenerate_canon
 Definition(s):
@@ -120392,7 +120392,7 @@ Usage(s):
 
 ### rename_canon
 Definition(s):
-- 02-OPERATIONAL/scripts/rename_canon.sh
+- 02-ENGINE/scripts/rename_canon.sh
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:284
 - 00-ORCHESTRATION/directives/DIRECTIVE-018_EXECUTION_COMPLETION.md:54
@@ -120403,18 +120403,18 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:187
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-027.md:198
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-30-019.md:43
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:39
-- 02-OPERATIONAL/scripts/rename_canon.sh:2
-- 02-OPERATIONAL/scripts/rename_canon.sh:9
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:39
+- 02-ENGINE/scripts/rename_canon.sh:2
+- 02-ENGINE/scripts/rename_canon.sh:9
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:343
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:181
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:29
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:102
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:142
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:184
-- 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md:224
-- 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md:225
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:241
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:29
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:102
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:142
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:184
+- 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md:224
+- 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md:225
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:241
 
 ### rename_transcripts
 Definition(s):
@@ -120464,16 +120464,16 @@ Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B.md:380
 - 00-ORCHESTRATION/oracle_contexts/ORACLE10_CONTEXT_FINAL.md:133
 - 00-ORCHESTRATION/state/DYN-TREE.md:848
-- 02-OPERATIONAL/REF-OPERATIONAL_ENGINE.md:40
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md:61
-- 02-OPERATIONAL/functions/compile.xml:436
-- 02-OPERATIONAL/functions/compile.xml:516
-- 02-OPERATIONAL/functions/absorb.xml:41
-- 02-OPERATIONAL/functions/absorb.xml:46
-- 02-OPERATIONAL/functions/absorb.xml:119
-- 02-OPERATIONAL/functions/absorb.xml:194
-- 02-OPERATIONAL/functions/convert.xml:496
-- 02-OPERATIONAL/functions/convert.xml:581
+- 02-ENGINE/REF-OPERATIONAL_ENGINE.md:40
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md:61
+- 02-ENGINE/functions/compile.xml:436
+- 02-ENGINE/functions/compile.xml:516
+- 02-ENGINE/functions/absorb.xml:41
+- 02-ENGINE/functions/absorb.xml:46
+- 02-ENGINE/functions/absorb.xml:119
+- 02-ENGINE/functions/absorb.xml:194
+- 02-ENGINE/functions/convert.xml:496
+- 02-ENGINE/functions/convert.xml:581
 - 06-EXEMPLA/CASE-TEMPLATE.md:33
 - 04-SOURCES/REF-CREATOR_BIOS.md:106
 - 04-SOURCES/REF-CREATOR_BIOS.md:290
@@ -120623,18 +120623,18 @@ Usage(s):
 - 04-SOURCES/raw/claudecode/claude_codes-@thezvi.md:97
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:706
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/entrypoint_recommendation.md:162
-- 05-ARCHIVE/ARCH-oracle_memories.md:17
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md:100
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:3
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:13
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:13
-- 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md:13
-- 05-ARCHIVE/ARCH-platform_features.md:391
-- 05-ARCHIVE/ORACLE11_INIT.md:113
-- 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md:36
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:308
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:71
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:31
+- 05-MEMORY/ARCH-oracle_memories.md:17
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md:100
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:3
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:13
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:13
+- 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md:13
+- 05-MEMORY/ARCH-platform_features.md:391
+- 05-MEMORY/ORACLE11_INIT.md:113
+- 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md:36
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:308
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md:71
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md:31
 - 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md:564
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:279
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:279
@@ -120759,9 +120759,9 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/setup-worktrees.sh:42
 - 00-ORCHESTRATION/scripts/setup-worktrees.sh:44
 - 00-ORCHESTRATION/scripts/setup-worktrees.sh:68
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:155
-- 02-OPERATIONAL/surveys/AI_Academic_Research.md:21
-- 02-OPERATIONAL/functions/optimize.xml:439
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:155
+- 02-ENGINE/surveys/AI_Academic_Research.md:21
+- 02-ENGINE/functions/optimize.xml:439
 - 04-SOURCES/raw/00000000-youtube_video-tforte-googles_notebooklm_is_getting_even_more_power.txt:1319
 - 04-SOURCES/raw/20251022-youtube_video-farzad-tesla_q3.txt:202
 - 04-SOURCES/raw/20251017-youtube_video-dwarkesh-andrej_karpathy.txt:512
@@ -120803,12 +120803,12 @@ Usage(s):
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:15
 - -OUTGOING/RING7_PHASESHIFT_PASS_20260116_212500/RING7_DEFINITION_AND_BOUNDARIES.md:168
 - -OUTGOING/20260118-codify_validation_and_trifurcation/CODIFY_REPORT.md:222
-- 05-ARCHIVE/ARCH-previous_thread.md:313
-- 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx:131
-- 05-ARCHIVE/ARCH-platform_features.md:454
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:508
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:128
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:282
+- 05-MEMORY/ARCH-previous_thread.md:313
+- 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx:131
+- 05-MEMORY/ARCH-platform_features.md:454
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:508
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:128
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:282
 - 01-CANON/CANON-30200-POSITIONING-comet-INTELLIGENCE.md:299
 - 01-CANON/CANON-30200-POSITIONING-comet-INTELLIGENCE.md:301
 - 01-CANON/CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md:787
@@ -120890,8 +120890,8 @@ Usage(s):
 - -OUTGOING/20260119-corpus_survey/METABOLISM_MAP.md:194
 - -OUTGOING/20260119-corpus_survey/CORE_CANDIDATES.md:93
 - -OUTGOING/20260119-corpus_survey/CORE_CANDIDATES.md:113
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:59
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:71
+- 05-MEMORY/ARCH-COCKPIT-v1.md:59
+- 05-MEMORY/ARCH-COCKPIT-v1.md:71
 
 ### sync_ledgers
 Definition(s):
@@ -120918,12 +120918,12 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/sync_ledgers.py:8
 - 00-ORCHESTRATION/scripts/sync_ledgers.py:9
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:152
-- 05-ARCHIVE/ORACLE11_INIT.md:222
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:116
+- 05-MEMORY/ORACLE11_INIT.md:222
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:116
 
 ### synthesis-chatgpt
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:237
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:254
@@ -120932,13 +120932,13 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:910
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:48
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:896
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:111
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:72
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:194
+- 05-MEMORY/ORACLE11_CONTEXT.md:111
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:72
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:194
 
 ### synthesis-claude
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:239
 - 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md:586
@@ -120949,15 +120949,15 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:911
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:49
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:897
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:112
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:71
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:154
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:170
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:195
+- 05-MEMORY/ORACLE11_CONTEXT.md:112
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:71
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:154
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:170
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:195
 
 ### synthesis-gemini
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:238
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:255
@@ -120966,13 +120966,13 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:912
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:50
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:898
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:113
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:73
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:196
+- 05-MEMORY/ORACLE11_CONTEXT.md:113
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:73
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:196
 
 ### synthesis-grok
 Definition(s):
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-grok.md
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-grok.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:239
 - 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md:256
@@ -120981,9 +120981,9 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:913
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042B.md:51
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:899
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:114
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:74
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:197
+- 05-MEMORY/ORACLE11_CONTEXT.md:114
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:74
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:197
 
 ### system_state
 Definition(s):
@@ -121004,19 +121004,19 @@ Usage(s):
 - 00-ORCHESTRATION/scripts/route_task.py:30
 - 00-ORCHESTRATION/blackboard/evidence/EVD-20260116-001.json:13
 - 00-ORCHESTRATION/blackboard/plans/PLN-20260116-001.json:8
-- 02-OPERATIONAL/IIC-Efficacy-config.md:587
-- 02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md:37
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:59
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:56
+- 02-ENGINE/IIC-Efficacy-config.md:587
+- 02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md:37
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:59
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md:56
 - .claude/commands/project/deviser_reint.md:178
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:186
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_symbolic_compression_rules.md:116
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/00_INDEX.md:26
 - -OUTGOING/20260119-corpus_survey/CORE_CANDIDATES.md:188
 - -OUTGOING/20260119-corpus_survey/CORE_CANDIDATES.md:203
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:24
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:33
-- 05-ARCHIVE/ARCH-COCKPIT-v1.md:56
+- 05-MEMORY/ARCH-COCKPIT-v1.md:24
+- 05-MEMORY/ARCH-COCKPIT-v1.md:33
+- 05-MEMORY/ARCH-COCKPIT-v1.md:56
 
 ### tasks.csv
 Definition(s):
@@ -121151,15 +121151,15 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-05-040A.md:89
 - 00-ORCHESTRATION/scripts/update_dashboard.py:133
 - 00-ORCHESTRATION/scripts/update_dashboard.py:301
-- 02-OPERATIONAL/IIC-Efficacy-config.md:111
-- 02-OPERATIONAL/IIC-Efficacy-config.md:112
-- 02-OPERATIONAL/IIC-Efficacy-config.md:114
-- 02-OPERATIONAL/IIC-Efficacy-config.md:528
-- 02-OPERATIONAL/IIC-Efficacy-config.md:536
-- 02-OPERATIONAL/IIC-Efficacy-config.md:537
-- 02-OPERATIONAL/IIC-Transcendence-config.md:58
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:437
-- 02-OPERATIONAL/GEMINI.md:16
+- 02-ENGINE/IIC-Efficacy-config.md:111
+- 02-ENGINE/IIC-Efficacy-config.md:112
+- 02-ENGINE/IIC-Efficacy-config.md:114
+- 02-ENGINE/IIC-Efficacy-config.md:528
+- 02-ENGINE/IIC-Efficacy-config.md:536
+- 02-ENGINE/IIC-Efficacy-config.md:537
+- 02-ENGINE/IIC-Transcendence-config.md:58
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:437
+- 02-ENGINE/GEMINI.md:16
 - 06-EXEMPLA/PROVERBS.md:37
 - .claude/settings.local.json:94
 - .claude/commands/project/blitzkrieg_issue.md:200
@@ -121171,52 +121171,52 @@ Usage(s):
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/02_CONCIERGE_COCKPIT_CONSTITUTION.md:204
 - -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md:81
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:149
-- 05-ARCHIVE/ARCH-oracle_memories.md:12
-- 05-ARCHIVE/ARCH-oracle_memories.md:28
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:60
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:72
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:98
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:82
-- 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md:107
-- 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md:126
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:69
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:81
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:139
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:186
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:202
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:42
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:161
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:185
-- 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md:195
-- 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:59
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:352
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:360
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:418
-- 05-ARCHIVE/ORACLE11_INIT.md:58
-- 05-ARCHIVE/ORACLE11_INIT.md:178
-- 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md:17
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:465
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:673
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:78
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:91
-- 05-ARCHIVE/SCAFF-ORACLE10_INIT.md:95
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:248
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:69
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:81
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:139
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:140
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:144
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:304
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:319
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:391
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:480
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:503
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:64
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:163
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:213
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:337
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:374
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:384
+- 05-MEMORY/ARCH-oracle_memories.md:12
+- 05-MEMORY/ARCH-oracle_memories.md:28
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:60
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:72
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:98
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:82
+- 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md:107
+- 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md:126
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:69
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:81
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:139
+- 05-MEMORY/ORACLE11_CONTEXT.md:186
+- 05-MEMORY/ORACLE11_CONTEXT.md:202
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:42
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:161
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:185
+- 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md:195
+- 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md:59
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:352
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:360
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:418
+- 05-MEMORY/ORACLE11_INIT.md:58
+- 05-MEMORY/ORACLE11_INIT.md:178
+- 05-MEMORY/GEMINI_VALIDATION_REPORT.md:17
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:465
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:673
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:78
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:91
+- 05-MEMORY/SCAFF-ORACLE10_INIT.md:95
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:248
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:69
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:81
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:139
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:140
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:144
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:304
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:319
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:391
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:480
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:503
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:64
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:163
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:213
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:337
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:374
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:384
 
 ### tasks.csv.bak
 Definition(s):
@@ -121224,8 +121224,8 @@ Definition(s):
 Usage(s):
 - 00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md:77
 - 00-ORCHESTRATION/state/DYN-TREE.md:391
-- 02-OPERATIONAL/IIC-Efficacy-config.md:111
-- 02-OPERATIONAL/IIC-Efficacy-config.md:536
+- 02-ENGINE/IIC-Efficacy-config.md:111
+- 02-ENGINE/IIC-Efficacy-config.md:536
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:188
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:47
 - -OUTGOING/20260122/gemini/distributed_systems_architect.md:149
@@ -121252,8 +121252,8 @@ Usage(s):
 
 ### transcribe_interview
 Definition(s):
-- 02-OPERATIONAL/functions/transcribe_interview.xml
-- 02-OPERATIONAL/functions/transcribe_interview.md
+- 02-ENGINE/functions/transcribe_interview.xml
+- 02-ENGINE/functions/transcribe_interview.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:271
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:280
@@ -121301,18 +121301,18 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:161
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:215
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:59
-- 02-OPERATIONAL/README.md:27
-- 02-OPERATIONAL/README.md:69
-- 02-OPERATIONAL/README.md:176
-- 02-OPERATIONAL/README.md:281
-- 02-OPERATIONAL/README.md:294
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:226
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:257
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:267
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:124
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:129
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:229
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:273
+- 02-ENGINE/README.md:27
+- 02-ENGINE/README.md:69
+- 02-ENGINE/README.md:176
+- 02-ENGINE/README.md:281
+- 02-ENGINE/README.md:294
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:226
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:257
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:267
+- 02-ENGINE/functions/FUNCTION_INDEX.md:124
+- 02-ENGINE/functions/FUNCTION_INDEX.md:129
+- 02-ENGINE/functions/FUNCTION_INDEX.md:229
+- 02-ENGINE/functions/FUNCTION_INDEX.md:273
 - 04-SOURCES/FRONTMATTER_TEMPLATE.md:23
 - 04-SOURCES/README.md:89
 - 04-SOURCES/processed/SOURCE-20250522-youtube-interview-dwarkesh-sholto_douglas_trenton_bricken.md:18
@@ -121322,17 +121322,17 @@ Usage(s):
 - 04-SOURCES/processed/SOURCE-20250723-youtube-interview-lex_fridman-demis_hassabis.md:18
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:298
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:299
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:133
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:196
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:156
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:80
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:254
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:254
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:133
+- 05-MEMORY/ORACLE11_CONTEXT.md:196
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:156
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:80
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:254
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:254
 
 ### transcribe_panel
 Definition(s):
-- 02-OPERATIONAL/functions/transcribe_panel.xml
+- 02-ENGINE/functions/transcribe_panel.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:272
 - 00-ORCHESTRATION/directives/DIRECTIVE-032B_PROTOCOL.md:152
@@ -121350,20 +121350,20 @@ Usage(s):
 - 00-ORCHESTRATION/state/DYN-TREE.md:501
 - 00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md:87
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:181
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:131
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:135
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/FUNCTION_INDEX.md:131
+- 02-ENGINE/functions/FUNCTION_INDEX.md:135
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
 - 04-SOURCES/FRONTMATTER_TEMPLATE.md:23
 - 04-SOURCES/README.md:90
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:300
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:133
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:81
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:133
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:81
 
 ### transcribe_youtube
 Definition(s):
-- 02-OPERATIONAL/functions/transcribe_youtube.xml
-- 02-OPERATIONAL/functions/transcribe_youtube.md
+- 02-ENGINE/functions/transcribe_youtube.xml
+- 02-ENGINE/functions/transcribe_youtube.md
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-024_RUTHLESS_FORGE.md:193
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:273
@@ -121414,43 +121414,43 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:161
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045B.md:215
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-09-042C.md:58
-- 02-OPERATIONAL/README.md:20
-- 02-OPERATIONAL/README.md:68
-- 02-OPERATIONAL/README.md:103
-- 02-OPERATIONAL/README.md:107
-- 02-OPERATIONAL/README.md:175
-- 02-OPERATIONAL/README.md:194
-- 02-OPERATIONAL/README.md:217
-- 02-OPERATIONAL/README.md:228
-- 02-OPERATIONAL/README.md:232
-- 02-OPERATIONAL/README.md:280
-- 02-OPERATIONAL/README.md:293
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:6
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:103
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:159
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md:244
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:117
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:122
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:201
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:227
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:259
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:263
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:272
+- 02-ENGINE/README.md:20
+- 02-ENGINE/README.md:68
+- 02-ENGINE/README.md:103
+- 02-ENGINE/README.md:107
+- 02-ENGINE/README.md:175
+- 02-ENGINE/README.md:194
+- 02-ENGINE/README.md:217
+- 02-ENGINE/README.md:228
+- 02-ENGINE/README.md:232
+- 02-ENGINE/README.md:280
+- 02-ENGINE/README.md:293
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:6
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:103
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:159
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md:244
+- 02-ENGINE/functions/FUNCTION_INDEX.md:117
+- 02-ENGINE/functions/FUNCTION_INDEX.md:122
+- 02-ENGINE/functions/FUNCTION_INDEX.md:201
+- 02-ENGINE/functions/FUNCTION_INDEX.md:227
+- 02-ENGINE/functions/FUNCTION_INDEX.md:259
+- 02-ENGINE/functions/FUNCTION_INDEX.md:263
+- 02-ENGINE/functions/FUNCTION_INDEX.md:272
 - 04-SOURCES/FRONTMATTER_TEMPLATE.md:23
 - 04-SOURCES/README.md:88
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:301
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:302
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:133
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:195
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:155
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:79
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:253
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:253
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:133
+- 05-MEMORY/ORACLE11_CONTEXT.md:195
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:155
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:79
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:253
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:253
 
 ### translate
 Definition(s):
-- 02-OPERATIONAL/functions/translate.xml
+- 02-ENGINE/functions/translate.xml
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:274
 - 00-ORCHESTRATION/directives/ORACLE12_PEDIGREE-045.md:68
@@ -121468,13 +121468,13 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:182
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045A.md:78
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-12-045A.md:98
-- 02-OPERATIONAL/functions/listenize.md:149
-- 02-OPERATIONAL/functions/listenize.xml:98
-- 02-OPERATIONAL/functions/amplify.xml:4
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:109
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:113
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:236
-- 02-OPERATIONAL/functions/FUNCTION_INDEX.md:280
+- 02-ENGINE/functions/listenize.md:149
+- 02-ENGINE/functions/listenize.xml:98
+- 02-ENGINE/functions/amplify.xml:4
+- 02-ENGINE/functions/FUNCTION_INDEX.md:109
+- 02-ENGINE/functions/FUNCTION_INDEX.md:113
+- 02-ENGINE/functions/FUNCTION_INDEX.md:236
+- 02-ENGINE/functions/FUNCTION_INDEX.md:280
 - 04-SOURCES/processed/SOURCE-20251027-youtube-interview-carbutt-cathie_wood.md:53
 - 04-SOURCES/raw/20251022-youtube_video-farzad-tesla_ai_bts.txt:740
 - 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.txt:157
@@ -121513,12 +121513,12 @@ Usage(s):
 - 04-SOURCES/raw/20251021-youtube_video-relentless-justin_fiaschetti.md:20
 - 04-SOURCES/raw/promptengineering/how_to_master_prompt_engineering-@exm777.md:21
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:303
-- 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md:131
-- 05-ARCHIVE/ARCH-oracle_verification_manifest.md:151
-- 05-ARCHIVE/ARCH-platform_features.md:57
-- 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:76
-- 05-ARCHIVE/ARCH-frontier_models.md:114
-- 05-ARCHIVE/ARCH-frontier_models.md:549
+- 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md:131
+- 05-MEMORY/ARCH-oracle_verification_manifest.md:151
+- 05-MEMORY/ARCH-platform_features.md:57
+- 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md:76
+- 05-MEMORY/ARCH-frontier_models.md:114
+- 05-MEMORY/ARCH-frontier_models.md:549
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:437
 - 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md:837
 - 01-CANON/CANON-32000-INSIGHT-chain.md:148
@@ -121554,19 +121554,19 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-041A.md:36
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-08-041A.md:45
 - 00-ORCHESTRATION/scripts/update_dashboard.py:294
-- 02-OPERATIONAL/IIC-Efficacy-config.md:156
-- 02-OPERATIONAL/IIC-Efficacy-config.md:174
-- 02-OPERATIONAL/GEMINI.md:35
-- 02-OPERATIONAL/registries/REF-AGENTS.md:42
+- 02-ENGINE/IIC-Efficacy-config.md:156
+- 02-ENGINE/IIC-Efficacy-config.md:174
+- 02-ENGINE/GEMINI.md:35
+- 02-ENGINE/registries/REF-AGENTS.md:42
 - .claude/commands/project/update-ledgers.md:2
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:7
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/00_manifest/inputs_used.md:53
 - -OUTGOING/20260122/gemini/compiler_designer_language_architect.md:100
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:266
-- 05-ARCHIVE/ORACLE11_INIT.md:26
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:51
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:126
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:357
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:266
+- 05-MEMORY/ORACLE11_INIT.md:26
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:51
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:126
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:357
 
 ### update_dashboard
 Definition(s):
@@ -121597,7 +121597,7 @@ Usage(s):
 
 ### validate_frontmatter
 Definition(s):
-- 02-OPERATIONAL/scripts/validate_frontmatter.sh
+- 02-ENGINE/scripts/validate_frontmatter.sh
 Usage(s):
 - 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md:285
 - 00-ORCHESTRATION/directives/DIRECTIVE-028_FINAL_STRUCTURAL_PASS.md:385
@@ -121609,12 +121609,12 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-028md:188
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-30-020B.md:120
 - 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2025-12-31-027.md:199
-- 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md:40
-- 02-OPERATIONAL/scripts/validate_frontmatter.sh:2
+- 02-ENGINE/registries/REF-OPERATIONS_TREE.md:40
+- 02-ENGINE/scripts/validate_frontmatter.sh:2
 - -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt:344
 - -OUTGOING/20260118-repo_validation/VALIDATION_REPORT.md:182
-- 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md:355
-- 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md:242
+- 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md:355
+- 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md:242
 
 ### verify
 Definition(s):
@@ -121702,39 +121702,39 @@ Usage(s):
 - 00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md:258
 - 00-ORCHESTRATION/scripts/create_evidence_pack.sh:226
 - 00-ORCHESTRATION/scripts/update_dashboard.py:292
-- 02-OPERATIONAL/IIC-Efficacy-config.md:155
-- 02-OPERATIONAL/IIC-Efficacy-config.md:173
-- 02-OPERATIONAL/IIC-Efficacy-config.md:325
-- 02-OPERATIONAL/IIC-Efficacy-config.md:610
-- 02-OPERATIONAL/IIC-Efficacy-config.md:618
-- 02-OPERATIONAL/README.md:99
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:292
-- 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md:680
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:436
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:529
-- 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md:617
-- 02-OPERATIONAL/GEMINI.md:34
-- 02-OPERATIONAL/IIC-Mastery-config.md:733
-- 02-OPERATIONAL/registries/REF-AGENTS.md:37
-- 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md:50
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:20
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:26
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:52
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:65
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:85
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:93
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:99
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:56
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:20
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:56
-- 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:64
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:357
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:43
-- 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Grok-4.yaml:41
-- 02-OPERATIONAL/functions/anneal.xml:613
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:41
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:67
-- 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:463
+- 02-ENGINE/IIC-Efficacy-config.md:155
+- 02-ENGINE/IIC-Efficacy-config.md:173
+- 02-ENGINE/IIC-Efficacy-config.md:325
+- 02-ENGINE/IIC-Efficacy-config.md:610
+- 02-ENGINE/IIC-Efficacy-config.md:618
+- 02-ENGINE/README.md:99
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:292
+- 02-ENGINE/PROTOCOL-Gemini-Onboarding.md:680
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:436
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:529
+- 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md:617
+- 02-ENGINE/GEMINI.md:34
+- 02-ENGINE/IIC-Mastery-config.md:733
+- 02-ENGINE/registries/REF-AGENTS.md:37
+- 02-ENGINE/registries/REF-PROMPT_REGISTRY.md:50
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:20
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:26
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:52
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:65
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:85
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:93
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md:99
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md:56
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md:20
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:56
+- 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md:64
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:357
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml:43
+- 02-ENGINE/prompts/profiles/MODEL_PROFILE-Grok-4.yaml:41
+- 02-ENGINE/functions/anneal.xml:613
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:41
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:67
+- 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md:463
 - 06-EXEMPLA/PROVERBS.md:37
 - .claude/commands/project/deviser_reint.md:341
 - .claude/commands/project/blitzkrieg_issue.md:201
@@ -121805,40 +121805,40 @@ Usage(s):
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/06_CRASHOUT_PREVENTION_AND_RECOVERY.md:106
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/06_CRASHOUT_PREVENTION_AND_RECOVERY.md:461
 - -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/03_CHORUS_PROTOCOL_V2.md:276
-- 05-ARCHIVE/ARCH-oracle_memories.md:28
-- 05-ARCHIVE/ARCH-previous_thread.md:167
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md:142
-- 05-ARCHIVE/ChatGPT-unified-prompt.md:94
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md:266
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md:139
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:100
-- 05-ARCHIVE/ORACLE11_CONTEXT.md:232
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:68
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:117
-- 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md:242
-- 05-ARCHIVE/ARCH-constellation-process-flow.jsx:438
-- 05-ARCHIVE/ORACLE11_INIT.md:15
-- 05-ARCHIVE/ORACLE11_INIT.md:26
-- 05-ARCHIVE/ORACLE11_INIT.md:221
-- 05-ARCHIVE/ORACLE11_INIT.md:307
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:49
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:112
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:163
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:357
-- 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md:660
-- 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md:115
-- 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md:139
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:114
-- 05-ARCHIVE/ARCH-oracle_process_archaelogy.md:512
-- 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md:337
-- 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md:86
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:123
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:125
-- 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:271
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:357
-- 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md:8
-- 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:66
-- 05-ARCHIVE/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md:14
+- 05-MEMORY/ARCH-oracle_memories.md:28
+- 05-MEMORY/ARCH-previous_thread.md:167
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md:142
+- 05-MEMORY/ChatGPT-unified-prompt.md:94
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md:266
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md:139
+- 05-MEMORY/ORACLE11_CONTEXT.md:100
+- 05-MEMORY/ORACLE11_CONTEXT.md:232
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:68
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:117
+- 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md:242
+- 05-MEMORY/ARCH-constellation-process-flow.jsx:438
+- 05-MEMORY/ORACLE11_INIT.md:15
+- 05-MEMORY/ORACLE11_INIT.md:26
+- 05-MEMORY/ORACLE11_INIT.md:221
+- 05-MEMORY/ORACLE11_INIT.md:307
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:49
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:112
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:163
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:357
+- 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md:660
+- 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md:115
+- 05-MEMORY/ORACLE10_CONTEXT-superseded.md:139
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:114
+- 05-MEMORY/ARCH-oracle_process_archaelogy.md:512
+- 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md:337
+- 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md:86
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:123
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:125
+- 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md:271
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:357
+- 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md:8
+- 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md:66
+- 05-MEMORY/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md:14
 - 01-CANON/CANON-30200-POSITIONING-comet-INTELLIGENCE.md:379
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:92
 - 01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md:93
@@ -121903,10 +121903,10 @@ Usage(s):
 Definition(s):
 - .obsidian/workspace.json
 Usage(s):
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:115
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:115
-- 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:126
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md:52
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:115
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:115
+- 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md:126
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md:52
 - 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.txt:540
 - 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.txt:550
 - 04-SOURCES/raw/20251021-youtube_video-nextwave-maria_gharib.txt:642

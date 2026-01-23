@@ -346,9 +346,9 @@ Per CANON-31143, configure four-dimensional feed strategy:
 ### 3.4 Create Configuration Artifact
 
 ```bash
-mkdir -p 02-OPERATIONAL/memory
+mkdir -p 02-ENGINE/memory
 
-cat > 02-OPERATIONAL/memory/acumen-memory-config.md << 'EOF'
+cat > 02-ENGINE/memory/acumen-memory-config.md << 'EOF'
 # Acumen IIC Memory Configuration
 ## Strategic Reconnaissance Intelligence
 
@@ -440,7 +440,7 @@ Qualification Threads: Archive after processing
 *Configuration established 2026-01-09 | PROJ-002*
 EOF
 
-git add 02-OPERATIONAL/memory/acumen-memory-config.md
+git add 02-ENGINE/memory/acumen-memory-config.md
 git commit -m "feat(IIC): create Acumen memory configuration
 
 - Stratum 2-5 specifications
@@ -828,8 +828,8 @@ Acumen memory configuration created. Platform configuration pending Principal ac
 cat 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md | head -50
 
 # Verify memory config
-ls 02-OPERATIONAL/memory/
-cat 02-OPERATIONAL/memory/acumen-memory-config.md | head -30
+ls 02-ENGINE/memory/
+cat 02-ENGINE/memory/acumen-memory-config.md | head -30
 
 # Verify sync protocol
 cat 00-ORCHESTRATION/state/REF-MULTI_ACCOUNT_SYNC.md | head -30
@@ -849,7 +849,7 @@ grep "TASK-05\|TASK-06\|TASK-07" 00-ORCHESTRATION/state/tasks.csv
 |-----------|--------|
 | CANON documents reviewed | 8 documents (~14,500 lines) |
 | SCAFF-IIC_RECONNAISSANCE created | Complete with principles + decisions |
-| Acumen memory config created | 02-OPERATIONAL/memory/acumen-memory-config.md |
+| Acumen memory config created | 02-ENGINE/memory/acumen-memory-config.md |
 | REF-MULTI_ACCOUNT_SYNC created | Protocol documented |
 | PROJ-002 status | IN_PROGRESS |
 | New tasks created | TASK-050 through TASK-071 |

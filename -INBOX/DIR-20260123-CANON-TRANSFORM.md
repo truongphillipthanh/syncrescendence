@@ -43,56 +43,56 @@ set -e  # Exit on error
 
 echo "=== Directory Rename Execution ==="
 
-# 1. Rename 02-OPERATIONAL → 02-ENGINE
-git mv 02-OPERATIONAL 02-ENGINE
-echo "✓ 02-OPERATIONAL → 02-ENGINE"
+# 1. Rename 02-ENGINE → 02-ENGINE
+git mv 02-ENGINE 02-ENGINE
+echo "✓ 02-ENGINE → 02-ENGINE"
 
-# 2. Rename 05-ARCHIVE → 05-MEMORY
-git mv 05-ARCHIVE 05-MEMORY
-echo "✓ 05-ARCHIVE → 05-MEMORY"
+# 2. Rename 05-MEMORY → 05-MEMORY
+git mv 05-MEMORY 05-MEMORY
+echo "✓ 05-MEMORY → 05-MEMORY"
 
 # 3. Update all references
 echo "Updating references..."
 
 # Find and replace in all .md files
 find . -name "*.md" -type f -exec sed -i '' \
-    -e 's|02-OPERATIONAL|02-ENGINE|g' \
-    -e 's|05-ARCHIVE|05-MEMORY|g' \
+    -e 's|02-ENGINE|02-ENGINE|g' \
+    -e 's|05-MEMORY|05-MEMORY|g' \
     {} \;
 
 # Find and replace in all .yaml files
 find . -name "*.yaml" -type f -exec sed -i '' \
-    -e 's|02-OPERATIONAL|02-ENGINE|g' \
-    -e 's|05-ARCHIVE|05-MEMORY|g' \
+    -e 's|02-ENGINE|02-ENGINE|g' \
+    -e 's|05-MEMORY|05-MEMORY|g' \
     {} \;
 
 # Find and replace in all .py files
 find . -name "*.py" -type f -exec sed -i '' \
-    -e 's|02-OPERATIONAL|02-ENGINE|g' \
-    -e 's|05-ARCHIVE|05-MEMORY|g' \
+    -e 's|02-ENGINE|02-ENGINE|g' \
+    -e 's|05-MEMORY|05-MEMORY|g' \
     {} \;
 
 # Find and replace in shell scripts
 find . -name "*.sh" -type f -exec sed -i '' \
-    -e 's|02-OPERATIONAL|02-ENGINE|g' \
-    -e 's|05-ARCHIVE|05-MEMORY|g' \
+    -e 's|02-ENGINE|02-ENGINE|g' \
+    -e 's|05-MEMORY|05-MEMORY|g' \
     {} \;
 
 # 4. Update CLAUDE.md directory map
 sed -i '' \
-    -e 's|02-OPERATIONAL.*Executable components|02-ENGINE/ — Executable components|g' \
-    -e 's|05-ARCHIVE.*Historical artifacts|05-MEMORY/ — Short-term memory, staging|g' \
+    -e 's|02-ENGINE.*Executable components|02-ENGINE/ — Executable components|g' \
+    -e 's|05-MEMORY.*Historical artifacts|05-MEMORY/ — Short-term memory, staging|g' \
     CLAUDE.md
 
 # 5. Verify no orphaned references
 echo "Checking for orphaned references..."
-orphans_operational=$(grep -r "02-OPERATIONAL" --include="*.md" . 2>/dev/null | wc -l)
-orphans_archive=$(grep -r "05-ARCHIVE" --include="*.md" . 2>/dev/null | wc -l)
+orphans_operational=$(grep -r "02-ENGINE" --include="*.md" . 2>/dev/null | wc -l)
+orphans_archive=$(grep -r "05-MEMORY" --include="*.md" . 2>/dev/null | wc -l)
 
 if [ "$orphans_operational" -gt 0 ] || [ "$orphans_archive" -gt 0 ]; then
     echo "⚠ Found orphaned references:"
-    grep -r "02-OPERATIONAL" --include="*.md" . 2>/dev/null || true
-    grep -r "05-ARCHIVE" --include="*.md" . 2>/dev/null || true
+    grep -r "02-ENGINE" --include="*.md" . 2>/dev/null || true
+    grep -r "05-MEMORY" --include="*.md" . 2>/dev/null || true
     echo "Manual review required."
 else
     echo "✓ No orphaned references"
@@ -102,8 +102,8 @@ fi
 git add -A
 git commit -m "refactor: rename directories to reflect true ontology
 
-- 02-OPERATIONAL → 02-ENGINE (it's what makes things run)
-- 05-ARCHIVE → 05-MEMORY (short-term, not permanent archive)
+- 02-ENGINE → 02-ENGINE (it's what makes things run)
+- 05-MEMORY → 05-MEMORY (short-term, not permanent archive)
 - Updated all references across corpus"
 
 echo "=== Directory Rename Complete ==="
@@ -124,8 +124,8 @@ ls -la | grep -E "^d"
 # 06-EXEMPLA/
 
 # Verify no broken references
-grep -r "02-OPERATIONAL" --include="*.md" . | wc -l  # Should be 0
-grep -r "05-ARCHIVE" --include="*.md" . | wc -l      # Should be 0
+grep -r "02-ENGINE" --include="*.md" . | wc -l  # Should be 0
+grep -r "05-MEMORY" --include="*.md" . | wc -l      # Should be 0
 ```
 
 ---
@@ -462,8 +462,8 @@ git commit -m "feat: add Obsidian-style backlinks across corpus"
 
 ```bash
 # Update directory map section
-sed -i '' 's/02-OPERATIONAL.*—.*/02-ENGINE\/ — Executable components (functions, prompts, protocols)/g' CLAUDE.md
-sed -i '' 's/05-ARCHIVE.*—.*/05-MEMORY\/ — Short-term memory, staging (not permanent archive)/g' CLAUDE.md
+sed -i '' 's/02-ENGINE.*—.*/02-ENGINE\/ — Executable components (functions, prompts, protocols)/g' CLAUDE.md
+sed -i '' 's/05-MEMORY.*—.*/05-MEMORY\/ — Short-term memory, staging (not permanent archive)/g' CLAUDE.md
 
 # Add SN reference
 cat >> CLAUDE.md << 'EOF'
@@ -484,8 +484,8 @@ EOF
 
 ```bash
 # Ensure COCKPIT reflects new directory names
-sed -i '' 's/02-OPERATIONAL/02-ENGINE/g' COCKPIT.md
-sed -i '' 's/05-ARCHIVE/05-MEMORY/g' COCKPIT.md
+sed -i '' 's/02-ENGINE/02-ENGINE/g' COCKPIT.md
+sed -i '' 's/05-MEMORY/05-MEMORY/g' COCKPIT.md
 ```
 
 ---
@@ -493,8 +493,8 @@ sed -i '' 's/05-ARCHIVE/05-MEMORY/g' COCKPIT.md
 ## SUCCESS CRITERIA
 
 ### Lane A (Directory Rename)
-- [ ] 02-OPERATIONAL renamed to 02-ENGINE
-- [ ] 05-ARCHIVE renamed to 05-MEMORY
+- [ ] 02-ENGINE renamed to 02-ENGINE
+- [ ] 05-MEMORY renamed to 05-MEMORY
 - [ ] Zero orphaned references to old names
 - [ ] Git history preserved
 

@@ -12,7 +12,7 @@ Modified files (18 tracked, 2 new directories):
 - `.DS_Store`, `.obsidian/workspace.json`
 - `00-ORCHESTRATION/scripts/` (2 files)
 - `00-ORCHESTRATION/state/` (4 files)
-- `02-OPERATIONAL/prompts/canonical/` (9 files)
+- `02-ENGINE/prompts/canonical/` (9 files)
 - `CLAUDE.md`, `COCKPIT.md`
 - Deleted files from legacy `OUTGOING/` (now staged in `-OUTGOING/`)
 - New directories: `-INBOX/`, `-OUTGOING/`
@@ -103,6 +103,6 @@ LINT PASSED: All checked files have valid frontmatter
 
 1. **Fix legacy path references**: Batch update 49 files from `OUTGOING/` to `-OUTGOING/`
 2. **Clean audizable marker remnants**: Complete the ripple from 2026-01-19 in evidence files
-3. **Archive decision**: Determine if historical zip files should be moved to `05-ARCHIVE/` or remain in `-OUTGOING/` as export capsules
+3. **Archive decision**: Determine if historical zip files should be moved to `05-MEMORY/` or remain in `-OUTGOING/` as export capsules
 4. **Config/coordination cleanup**: Update or remove 25 stale path references post-defrag
 5. **Commit staged changes**: 18 modified files need commit to stabilize state

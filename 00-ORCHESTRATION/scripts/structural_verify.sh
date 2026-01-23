@@ -222,8 +222,8 @@ echo ""
 echo "--- Check 5: Stale Path References ---"
 
 # Check for references to paths that will move during defrag
-# Exclude OUTGOING/ and 05-ARCHIVE/ which contain historical references
-STALE_REFS=$(grep -r "config/coordination" --include="*.md" --include="*.yaml" --include="*.sh" . 2>/dev/null | grep -v "OUTGOING/" | grep -v "05-ARCHIVE/" | wc -l | tr -d ' ')
+# Exclude OUTGOING/ and 05-MEMORY/ which contain historical references
+STALE_REFS=$(grep -r "config/coordination" --include="*.md" --include="*.yaml" --include="*.sh" . 2>/dev/null | grep -v "OUTGOING/" | grep -v "05-MEMORY/" | wc -l | tr -d ' ')
 
 if [ "$STALE_REFS" -gt 0 ]; then
     log_warn "Found $STALE_REFS references to config/coordination (may need update after defrag)"
@@ -238,8 +238,8 @@ echo ""
 echo "--- Check 6: Legacy 'OUTGOING/' References in Live Documentation ---"
 
 # Count legacy OUTGOING/ references in live docs (not -OUTGOING/)
-# Exclude -OUTGOING/, 05-ARCHIVE/, and archived materials
-LEGACY_REFS=$(grep -rn "OUTGOING/" --include="*.md" --include="*.sh" . 2>/dev/null | grep -v "\-OUTGOING/" | grep -v "05-ARCHIVE/" | grep -v "\-OUTGOING" | wc -l | tr -d ' ')
+# Exclude -OUTGOING/, 05-MEMORY/, and archived materials
+LEGACY_REFS=$(grep -rn "OUTGOING/" --include="*.md" --include="*.sh" . 2>/dev/null | grep -v "\-OUTGOING/" | grep -v "05-MEMORY/" | grep -v "\-OUTGOING" | wc -l | tr -d ' ')
 
 if [ "$LEGACY_REFS" -gt 0 ]; then
     log_warn "Found $LEGACY_REFS legacy 'OUTGOING/' references in live docs (should be -OUTGOING/)"

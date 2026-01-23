@@ -13,7 +13,7 @@
 | **Root → Entry** | 10/10 | `CLAUDE.md` and `COCKPIT.md` are the "High-Intensity Landmarks." |
 | **Root → 01-CANON** | 10/10 | The `CANON-` prefix is a "Beacon." You know exactly what is inside. |
 | **Root → 04-SOURCES** | 7/10 | Strong scent to the directory, but scent dissipates in `raw/`. |
-| **Entry → Operational** | 6/10 | `02-OPERATIONAL` is a "Fuzzy Category." Needs better sub-signage. |
+| **Entry → Operational** | 6/10 | `02-ENGINE` is a "Fuzzy Category." Needs better sub-signage. |
 | **Entry → Wisdom** | 9/10 | `06-EXEMPLA` is a unique and clear scent for "Learnings." |
 
 **Dead Ends**: `00-ORCHESTRATION/blackboard/` — Scent is too vague; requires opening files to identify current execution state.
@@ -36,7 +36,7 @@
 ## 3. WAYFINDING FAILURES
 
 *   **False Scent**: `03-QUEUE/modal2/`. "Modal 2" suggests a technical state rather than content. A newcomer cannot infer that this contains "Visual/VFX" tasks without reading the index.
-*   **The Flat Paradox**: `CLAUDE.md` Rule 1 ("FLAT PRINCIPLE") acts as a "Broken Signpost." An agent searches for a file in the root of a directory, but it is actually inside a nested folder (e.g., `02-OPERATIONAL/prompts`).
+*   **The Flat Paradox**: `CLAUDE.md` Rule 1 ("FLAT PRINCIPLE") acts as a "Broken Signpost." An agent searches for a file in the root of a directory, but it is actually inside a nested folder (e.g., `02-ENGINE/prompts`).
 *   **Landmark Overcrowding**: `00-ORCHESTRATION/state` has too many landmarks (`ARCH-`, `DYN-`, `REF-`, `SCAFF-`). When everything is a landmark, nothing is a landmark.
 *   **Script Naming Drift**: `00-ORCHESTRATION/scripts/` uses underscores (`sync_ledgers.py`) while `CANON` and `state` rely on hyphens for ID segmentation. This subtle shift increases the "Grammar Load" for agents performing CLI operations.
 
@@ -46,7 +46,7 @@
 
 *   **Monoliths**: `CANON-31121-TONE_TAXONOMY...` naming is a "Token Monolith." While descriptive, it exceeds the cognitive chunking limit for rapid scanning.
     *   *Rec*: Keep for machine parsing, but provide a `CANON_MAP.md` for human scannability.
-*   **Fragments**: `02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md` is too isolated.
+*   **Fragments**: `02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md` is too isolated.
     *   *Rec*: Merge small protocol fragments into a single `CONSTELLATION_OPERATIONS.md`.
 
 ---
@@ -64,7 +64,7 @@
 | Name | Semantic Clarity | Consistency | Mnemonic | Verdict |
 | :--- | :--- | :--- | :--- | :--- |
 | `01-CANON` | 10/10 | Y | 10/10 | Perfect. |
-| `02-OPERATIONAL` | 5/10 | Y | 5/10 | Vague. Is it code or docs? |
+| `02-ENGINE` | 5/10 | Y | 5/10 | Vague. Is it code or docs? |
 | `DYN-TASKS.csv` | 10/10 | Y | 9/10 | Dynamic prefix is highly effective. |
 | `modal2` | 2/10 | N | 2/10 | High cognitive debt. |
 | `SCAFF-` | 8/10 | Y | 7/10 | Good "Metaphorical Scent." |
@@ -92,8 +92,8 @@
 
 1.  **Acknowledge Hierarchy**: Change "Flat Principle" to "Clean Hierarchy Principle" in `CLAUDE.md`.
 2.  **Tiered Disclosure**: Ensure `README.md` in every directory acts as a "Progressive Disclosure" layer before the file list.
-3.  **The "Swamp" Filter**: Move `04-SOURCES/raw` to `05-ARCHIVE/raw_intake` after processing to keep the "Active Corpus" lean.
-4.  **Rename `02-OPERATIONAL`**: Rename to `02-ENGINE` or `02-TOOLING` to clarify its affordance as a functional layer.
+3.  **The "Swamp" Filter**: Move `04-SOURCES/raw` to `05-MEMORY/raw_intake` after processing to keep the "Active Corpus" lean.
+4.  **Rename `02-ENGINE`**: Rename to `02-ENGINE` or `02-TOOLING` to clarify its affordance as a functional layer.
 
 ---
 **Audit Complete.**

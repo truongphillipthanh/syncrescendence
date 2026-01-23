@@ -7,7 +7,7 @@ Run repository validation checks and produce an auditable report.
 1. Create output directory: `-OUTGOING/YYYYMMDD-repo_validation/`
 2. Capture git HEAD and status
 3. Run structural verification: `bash 00-ORCHESTRATION/scripts/structural_verify.sh`
-4. Run operations lint: `bash 02-OPERATIONAL/scripts/ops_lint.sh`
+4. Run operations lint: `bash 02-ENGINE/scripts/ops_lint.sh`
 5. Verify directory sanity (exchange dirs exist, legacy dirs absent)
 6. Compile results into `VALIDATION_REPORT.md`
 
@@ -39,7 +39,7 @@ STRUCT_OUTPUT=$(bash 00-ORCHESTRATION/scripts/structural_verify.sh 2>&1)
 STRUCT_EXIT=$?
 
 # Run ops lint
-LINT_OUTPUT=$(bash 02-OPERATIONAL/scripts/ops_lint.sh 2>&1)
+LINT_OUTPUT=$(bash 02-ENGINE/scripts/ops_lint.sh 2>&1)
 LINT_EXIT=$?
 
 # Check directory sanity

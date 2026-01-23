@@ -97,16 +97,16 @@ git mv DIRECTIVE-043B_OPERATIONAL_HYGIENE.md 00-ORCHESTRATION/directives/DIRECTI
 | # | From | To | Rationale | Risk | Verification |
 |---|------|-----|-----------|------|--------------|
 | C1 | `ORACLE13_CONTEXT.md` (root) | `00-ORCHESTRATION/oracle_contexts/ORACLE13_CONTEXT.md` | Standard Oracle context location | LOW | File exists at destination |
-| C2 | `ORACLE12_PEDIGREE.md` (root) | `05-ARCHIVE/ARCH-ORACLE12_PEDIGREE.md` | Superseded by ORACLE12_CONTEXT | LOW | Archive file created |
-| C3 | `ORACLE12_PEDIGREE-045.md` (root) | `05-ARCHIVE/ARCH-ORACLE12_PEDIGREE-045.md` | Session-specific; historical only | LOW | Archive file created |
-| C4 | `ORACLE12_SESSION_DELIVERABLES.md` (root) | `05-ARCHIVE/ARCH-ORACLE12_SESSION_DELIVERABLES.md` | Session artifact; historical only | LOW | Archive file created |
+| C2 | `ORACLE12_PEDIGREE.md` (root) | `05-MEMORY/ARCH-ORACLE12_PEDIGREE.md` | Superseded by ORACLE12_CONTEXT | LOW | Archive file created |
+| C3 | `ORACLE12_PEDIGREE-045.md` (root) | `05-MEMORY/ARCH-ORACLE12_PEDIGREE-045.md` | Session-specific; historical only | LOW | Archive file created |
+| C4 | `ORACLE12_SESSION_DELIVERABLES.md` (root) | `05-MEMORY/ARCH-ORACLE12_SESSION_DELIVERABLES.md` | Session artifact; historical only | LOW | Archive file created |
 
 **Command**:
 ```bash
 git mv ORACLE13_CONTEXT.md 00-ORCHESTRATION/oracle_contexts/
-git mv ORACLE12_PEDIGREE.md 05-ARCHIVE/ARCH-ORACLE12_PEDIGREE.md
-git mv ORACLE12_PEDIGREE-045.md 05-ARCHIVE/ARCH-ORACLE12_PEDIGREE-045.md
-git mv ORACLE12_SESSION_DELIVERABLES.md 05-ARCHIVE/ARCH-ORACLE12_SESSION_DELIVERABLES.md
+git mv ORACLE12_PEDIGREE.md 05-MEMORY/ARCH-ORACLE12_PEDIGREE.md
+git mv ORACLE12_PEDIGREE-045.md 05-MEMORY/ARCH-ORACLE12_PEDIGREE-045.md
+git mv ORACLE12_SESSION_DELIVERABLES.md 05-MEMORY/ARCH-ORACLE12_SESSION_DELIVERABLES.md
 ```
 
 ---
@@ -165,27 +165,27 @@ git mv "Why I Stopped Using MCPs in Claude Code (And What I Use Instead).md" 04-
 
 | # | From | To | Rationale | Risk | Verification |
 |---|------|-----|-----------|------|--------------|
-| F1 | `frontier_models.md` | `05-ARCHIVE/ARCH-frontier_models.md` | Temporal snapshot; obsolete | LOW | Archive created |
-| F2 | `platform_features.md` | `05-ARCHIVE/ARCH-platform_features.md` | Temporal snapshot; obsolete | LOW | Archive created |
-| F3 | `BLITZKRIEG_44_DEPLOYMENT_GUIDE.md` | `05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md` | Superseded by 045, 046 | LOW | Archive created |
-| F4 | `BLITZKRIEG_45_DEPLOYMENT_GUIDE.md` | `05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md` | Superseded by 046 | LOW | Archive created |
-| F5 | `deviser1_continuity.md` | `05-ARCHIVE/ARCH-deviser1_continuity.md` | Session artifact | LOW | Archive created |
-| F6 | `oracle_memories.md` | `05-ARCHIVE/ARCH-oracle_memories.md` | Session artifact | LOW | Archive created |
-| F7 | `oracle_process_archaelogy.md` | `05-ARCHIVE/ARCH-oracle_process_archaeology.md` | Spelling fix + archive | LOW | Archive created |
-| F8 | `oracle_verification_manifest.md` | `05-ARCHIVE/ARCH-oracle_verification_manifest.md` | Session artifact | LOW | Archive created |
-| F9 | `previous_thread.md` | `05-ARCHIVE/ARCH-previous_thread.md` | Session artifact | LOW | Archive created |
+| F1 | `frontier_models.md` | `05-MEMORY/ARCH-frontier_models.md` | Temporal snapshot; obsolete | LOW | Archive created |
+| F2 | `platform_features.md` | `05-MEMORY/ARCH-platform_features.md` | Temporal snapshot; obsolete | LOW | Archive created |
+| F3 | `BLITZKRIEG_44_DEPLOYMENT_GUIDE.md` | `05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md` | Superseded by 045, 046 | LOW | Archive created |
+| F4 | `BLITZKRIEG_45_DEPLOYMENT_GUIDE.md` | `05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md` | Superseded by 046 | LOW | Archive created |
+| F5 | `deviser1_continuity.md` | `05-MEMORY/ARCH-deviser1_continuity.md` | Session artifact | LOW | Archive created |
+| F6 | `oracle_memories.md` | `05-MEMORY/ARCH-oracle_memories.md` | Session artifact | LOW | Archive created |
+| F7 | `oracle_process_archaelogy.md` | `05-MEMORY/ARCH-oracle_process_archaeology.md` | Spelling fix + archive | LOW | Archive created |
+| F8 | `oracle_verification_manifest.md` | `05-MEMORY/ARCH-oracle_verification_manifest.md` | Session artifact | LOW | Archive created |
+| F9 | `previous_thread.md` | `05-MEMORY/ARCH-previous_thread.md` | Session artifact | LOW | Archive created |
 
 **Command**:
 ```bash
-git mv frontier_models.md 05-ARCHIVE/ARCH-frontier_models.md
-git mv platform_features.md 05-ARCHIVE/ARCH-platform_features.md
-git mv BLITZKRIEG_44_DEPLOYMENT_GUIDE.md 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
-git mv BLITZKRIEG_45_DEPLOYMENT_GUIDE.md 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
-git mv deviser1_continuity.md 05-ARCHIVE/ARCH-deviser1_continuity.md
-git mv oracle_memories.md 05-ARCHIVE/ARCH-oracle_memories.md
-git mv oracle_process_archaelogy.md 05-ARCHIVE/ARCH-oracle_process_archaeology.md
-git mv oracle_verification_manifest.md 05-ARCHIVE/ARCH-oracle_verification_manifest.md
-git mv previous_thread.md 05-ARCHIVE/ARCH-previous_thread.md
+git mv frontier_models.md 05-MEMORY/ARCH-frontier_models.md
+git mv platform_features.md 05-MEMORY/ARCH-platform_features.md
+git mv BLITZKRIEG_44_DEPLOYMENT_GUIDE.md 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md
+git mv BLITZKRIEG_45_DEPLOYMENT_GUIDE.md 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md
+git mv deviser1_continuity.md 05-MEMORY/ARCH-deviser1_continuity.md
+git mv oracle_memories.md 05-MEMORY/ARCH-oracle_memories.md
+git mv oracle_process_archaelogy.md 05-MEMORY/ARCH-oracle_process_archaeology.md
+git mv oracle_verification_manifest.md 05-MEMORY/ARCH-oracle_verification_manifest.md
+git mv previous_thread.md 05-MEMORY/ARCH-previous_thread.md
 ```
 
 ---
@@ -194,13 +194,13 @@ git mv previous_thread.md 05-ARCHIVE/ARCH-previous_thread.md
 
 | # | From | To | Rationale | Risk | Verification |
 |---|------|-----|-----------|------|--------------|
-| G1 | `system_prompts/` | Audit then merge unique to `02-OPERATIONAL/prompts/` | Redundant structure | MEDIUM | No data loss; unique content preserved |
+| G1 | `system_prompts/` | Audit then merge unique to `02-ENGINE/prompts/` | Redundant structure | MEDIUM | No data loss; unique content preserved |
 | G2 | `.decisions/` | Verify content in `00-ORCHESTRATION/state/ARCH-DESIGN_DECISIONS.md` | Already archived | LOW | Content verified present |
 
 **Command** (after audit):
 ```bash
 # Audit system_prompts first
-diff -rq system_prompts/ 02-OPERATIONAL/prompts/
+diff -rq system_prompts/ 02-ENGINE/prompts/
 # If unique content found, merge; otherwise:
 rm -rf system_prompts/
 
@@ -216,16 +216,16 @@ rm -rf .decisions/
 
 | # | File | Options | Recommendation |
 |---|------|---------|----------------|
-| H1 | `checklist.md` | Keep / Archive / Delete | Archive → `05-ARCHIVE/ARCH-checklist.md` |
+| H1 | `checklist.md` | Keep / Archive / Delete | Archive → `05-MEMORY/ARCH-checklist.md` |
 | H2 | `INTERACTION_PARADIGM.md` | Keep / Integrate / Archive | Integrate key concepts → REF-STANDARDS.md, Archive original |
-| H3 | `rapport_contract.md` | Keep / Integrate / Archive | Archive → `05-ARCHIVE/ARCH-rapport_contract.md` |
+| H3 | `rapport_contract.md` | Keep / Integrate / Archive | Archive → `05-MEMORY/ARCH-rapport_contract.md` |
 
 **Command** (if recommendations accepted):
 ```bash
-git mv checklist.md 05-ARCHIVE/ARCH-checklist.md
+git mv checklist.md 05-MEMORY/ARCH-checklist.md
 # Manual: Extract key concepts from INTERACTION_PARADIGM.md to REF-STANDARDS.md
-git mv INTERACTION_PARADIGM.md 05-ARCHIVE/ARCH-INTERACTION_PARADIGM.md
-git mv rapport_contract.md 05-ARCHIVE/ARCH-rapport_contract.md
+git mv INTERACTION_PARADIGM.md 05-MEMORY/ARCH-INTERACTION_PARADIGM.md
+git mv rapport_contract.md 05-MEMORY/ARCH-rapport_contract.md
 ```
 
 ---
@@ -254,7 +254,7 @@ PHASE A (Detritus)
 | Zero .DS_Store | `find . -name ".DS_Store" \| wc -l` | 0 |
 | Directives relocated | `ls 00-ORCHESTRATION/directives/DIRECTIVE-04*.md \| wc -l` | 12+ |
 | Canon intact | `ls 01-CANON/CANON*.md \| wc -l` | 80 |
-| Archives created | `ls 05-ARCHIVE/ARCH-*.md \| wc -l` | 12+ |
+| Archives created | `ls 05-MEMORY/ARCH-*.md \| wc -l` | 12+ |
 | Git history clean | `git status --porcelain` | Empty (all committed) |
 
 ---
@@ -264,6 +264,6 @@ PHASE A (Detritus)
 If any phase fails:
 1. `git reset --hard HEAD^` (revert last commit)
 2. Or selective: `git checkout HEAD~1 -- <file_path>`
-3. Or archive extraction: Copy from `05-ARCHIVE/ARCH-*`
+3. Or archive extraction: Copy from `05-MEMORY/ARCH-*`
 
 All operations are reversible via git history.

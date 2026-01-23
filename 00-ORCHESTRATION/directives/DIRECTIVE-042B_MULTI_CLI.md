@@ -10,7 +10,7 @@
 ## MISSION
 
 1. Create Gemini CLI configuration files for Syncrescendence integration
-2. Correct the system prompt files in 02-OPERATIONAL/prompts/unified/
+2. Correct the system prompt files in 02-ENGINE/prompts/unified/
 3. Document multi-CLI coordination protocol
 
 ---
@@ -64,10 +64,10 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 ## Directory Structure
 - `00-ORCHESTRATION/` — Strategic coordination (directives, logs, state)
 - `01-CANON/` — Verified canonical knowledge (PROTECTED)
-- `02-OPERATIONAL/` — Functions, prompts, model profiles
+- `02-ENGINE/` — Functions, prompts, model profiles
 - `03-QUEUE/` — Pending items by modal
 - `04-SOURCES/` — Source documents (raw/, processed/)
-- `05-ARCHIVE/` — Historical preservation
+- `05-MEMORY/` — Historical preservation
 - `06-EXEMPLA/` — Templates and examples
 
 ## Critical Commands
@@ -229,7 +229,7 @@ gemini
 
 Extract from system_prompts.zip and copy authoritative files:
 
-**Action**: The following files in 02-OPERATIONAL/prompts/unified/ must be REPLACED:
+**Action**: The following files in 02-ENGINE/prompts/unified/ must be REPLACED:
 
 | Current File | Replace With | Source |
 |--------------|--------------|--------|
@@ -238,7 +238,7 @@ Extract from system_prompts.zip and copy authoritative files:
 | Gemini-unified-prompt.md | synthesis-gemini.md | system_prompts.zip |
 | Grok-unified-prompt.md | synthesis-grok.md | system_prompts.zip |
 
-**Additionally**: Archive justification-*.md files to 05-ARCHIVE/
+**Additionally**: Archive justification-*.md files to 05-MEMORY/
 
 ---
 
@@ -250,14 +250,14 @@ Extract from system_prompts.zip and copy authoritative files:
 2. If not available, extract from system_prompts.zip attachment
 3. Copy authoritative files:
    ```bash
-   cp synthesis-claude.md → 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md
-   cp synthesis-chatgpt.md → 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md
-   cp synthesis-gemini.md → 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md
-   cp synthesis-grok.md → 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md
+   cp synthesis-claude.md → 02-ENGINE/prompts/unified/Claude-unified-prompt.md
+   cp synthesis-chatgpt.md → 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md
+   cp synthesis-gemini.md → 02-ENGINE/prompts/unified/Gemini-unified-prompt.md
+   cp synthesis-grok.md → 02-ENGINE/prompts/unified/Grok-unified-prompt.md
    ```
 4. Archive justification files:
    ```bash
-   cp justification-*.md → 05-ARCHIVE/
+   cp justification-*.md → 05-MEMORY/
    ```
 5. Verify with diff that files are correctly replaced
 

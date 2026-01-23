@@ -444,7 +444,7 @@ git commit -m "refactor: migrate directive naming to DIR-YYYYMMDD- pattern"
 
 REPO_ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 RAW_DIR="$REPO_ROOT/04-SOURCES/raw"
-OPERATIONAL_DIR="$REPO_ROOT/02-OPERATIONAL"
+OPERATIONAL_DIR="$REPO_ROOT/02-ENGINE"
 
 echo "Segregating non-source artifacts from SOURCES/raw/"
 echo "=========================================================================="
@@ -455,14 +455,14 @@ mkdir -p "$OPERATIONAL_DIR/research"
 
 # Move DEEP_RESEARCH_PROMPT files
 if ls "$RAW_DIR"/DEEP_RESEARCH_PROMPT-*.md 1> /dev/null 2>&1; then
-    echo "Moving DEEP_RESEARCH_PROMPT files to 02-OPERATIONAL/prompts/research/"
+    echo "Moving DEEP_RESEARCH_PROMPT files to 02-ENGINE/prompts/research/"
     mv "$RAW_DIR"/DEEP_RESEARCH_PROMPT-*.md "$OPERATIONAL_DIR/prompts/research/"
     echo "✓ Moved DEEP_RESEARCH_PROMPT files"
 fi
 
 # Move research files
 if [ -f "$RAW_DIR/openai_research.md" ]; then
-    echo "Moving openai_research.md to 02-OPERATIONAL/research/"
+    echo "Moving openai_research.md to 02-ENGINE/research/"
     mv "$RAW_DIR/openai_research.md" "$OPERATIONAL_DIR/research/"
     echo "✓ Moved openai_research.md"
 fi
@@ -471,11 +471,11 @@ echo "==========================================================================
 echo "✓ Segregation complete"
 echo ""
 echo "Verify changes:"
-echo "  ls 02-OPERATIONAL/prompts/research/"
-echo "  ls 02-OPERATIONAL/research/"
+echo "  ls 02-ENGINE/prompts/research/"
+echo "  ls 02-ENGINE/research/"
 echo ""
 echo "Commit changes:"
-echo "  git add 04-SOURCES/raw/ 02-OPERATIONAL/"
+echo "  git add 04-SOURCES/raw/ 02-ENGINE/"
 echo "  git commit -m 'chore: segregate non-source artifacts from SOURCES/raw/'"
 ```
 
@@ -629,7 +629,7 @@ grep -r "DIRECTIVE-" 00-ORCHESTRATION/directives/
 
 # Verify segregation
 ls 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-*.md  # Should be empty
-ls 02-OPERATIONAL/prompts/research/          # Should contain DEEP_RESEARCH_PROMPT files
+ls 02-ENGINE/prompts/research/          # Should contain DEEP_RESEARCH_PROMPT files
 
 # Verify backups
 ls -1 00-ORCHESTRATION/state/*.bak.*         # Should show timestamped backups

@@ -14,7 +14,7 @@
   Verification
 
   - rg -n "decision atom|decision_atom|falsifiability|reversibility"
-    00-ORCHESTRATION 02-OPERATIONAL 01-CANON || true found the new
+    00-ORCHESTRATION 02-ENGINE 01-CANON || true found the new
     nucleus references plus existing canon/operational mentions.
   - git diff --stat shows many pre‑existing, unrelated changes across
     the repo in addition to these new files.

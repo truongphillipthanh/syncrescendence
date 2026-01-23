@@ -233,10 +233,10 @@ PROJ-001 → PROJ-011 (Automation) → PROJ-002 (IIC) → PROJ-003 (Tooling)
 syncrescendence/
 ├── 00-ORCHESTRATION/     # 41 directives, 44 logs, 8 contexts, 6 scripts, 23 state files
 ├── 01-CANON/             # 77 canonical documents
-├── 02-OPERATIONAL/       # 20+ functions, prompts, profiles
+├── 02-ENGINE/       # 20+ functions, prompts, profiles
 ├── 03-QUEUE/             # Pending items by modal
 ├── 04-SOURCES/           # 185 raw, 46 processed
-├── 05-ARCHIVE/           # 31 preserved files (including RESEARCH-*)
+├── 05-MEMORY/           # 31 preserved files (including RESEARCH-*)
 ├── 06-EXEMPLA/           # 3 templates
 ├── config/               # 3 coordination files
 ├── CLAUDE.md             # Constitutional rules

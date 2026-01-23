@@ -38,7 +38,7 @@ This audit assesses whether these domains have sufficient canonical coverage or 
 - `CANON-30200-POSITIONING-comet-INTELLIGENCE.md` — Positioning includes prompt strategy
 
 **OPERATIONAL Cross-References**:
-- `02-OPERATIONAL/functions/translate.xml` — Live prompt function for tone translation
+- `02-ENGINE/functions/translate.xml` — Live prompt function for tone translation
 
 ### Gap Analysis
 
@@ -89,7 +89,7 @@ This audit assesses whether these domains have sufficient canonical coverage or 
 - `CANON-35000-WISDOM-chain.md` — Meta-cognitive capabilities
 
 **OPERATIONAL Cross-References**:
-- `02-OPERATIONAL/models/MODEL_INDEX.md` — Live model catalog with specifications
+- `02-ENGINE/models/MODEL_INDEX.md` — Live model catalog with specifications
 
 ### Gap Analysis
 
@@ -109,7 +109,7 @@ This audit assesses whether these domains have sufficient canonical coverage or 
 **SUFFICIENT — correct architecture**
 
 - Canonical layer correctly contains **evergreen principles** about capabilities
-- Temporal benchmarks correctly reside in `02-OPERATIONAL/models/MODEL_INDEX.md`
+- Temporal benchmarks correctly reside in `02-ENGINE/models/MODEL_INDEX.md`
 - Architecture properly separates timeless patterns (CANON) from temporal snapshots (OPERATIONAL)
 - No action required unless evergreen capability patterns are discovered
 
@@ -145,8 +145,8 @@ This audit assesses whether these domains have sufficient canonical coverage or 
 - `CANON-00017-AGENTIC_CONSTITUTION-cosmos.md` — Agentic platform principles
 
 **OPERATIONAL Cross-References**:
-- `02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md` — Platform landscape mapping
-- `02-OPERATIONAL/IIC-*-config.md` — Platform-specific configurations
+- `02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md` — Platform landscape mapping
+- `02-ENGINE/IIC-*-config.md` — Platform-specific configurations
 
 ### Gap Analysis
 

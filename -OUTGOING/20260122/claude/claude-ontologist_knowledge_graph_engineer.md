@@ -236,7 +236,7 @@ Examples:
 #### **Class: Account**
 **Upper Ontology Alignment**: DOLCE:Endurant, BFO:Continuant
 **Definition**: Digital identity with authentication and teleology
-**Location**: 02-OPERATIONAL/registries/DYN-ACCOUNTS.csv
+**Location**: 02-ENGINE/registries/DYN-ACCOUNTS.csv
 
 **Instances** (3):
 1. truongphillipthanh@icloud.com
@@ -264,7 +264,7 @@ Examples:
 #### **Class: Platform**
 **Upper Ontology Alignment**: DOLCE:Endurant, BFO:Continuant
 **Definition**: Execution environment for AI interaction
-**Location**: 02-OPERATIONAL/registries/DYN-PLATFORMS.csv
+**Location**: 02-ENGINE/registries/DYN-PLATFORMS.csv
 
 **Instances** (10):
 1. Claude Web (Anthropic)
@@ -300,7 +300,7 @@ Examples:
 #### **Class: Role**
 **Upper Ontology Alignment**: DOLCE:Abstract, BFO:Dependent
 **Definition**: Agent function with specification tier
-**Location**: 02-OPERATIONAL/registries/DYN-ROLES.csv
+**Location**: 02-ENGINE/registries/DYN-ROLES.csv
 
 **Instances** (8):
 1. INTERPRETER
@@ -530,10 +530,10 @@ Examples:
 **Instances** (9):
 1. 00-ORCHESTRATION
 2. 01-CANON (PROTECTED)
-3. 02-OPERATIONAL
+3. 02-ENGINE
 4. 03-QUEUE
 5. 04-SOURCES
-6. 05-ARCHIVE
+6. 05-MEMORY
 7. 06-EXEMPLA
 8. -INBOX
 9. -OUTGOING
@@ -757,7 +757,7 @@ TRANSCENDENCE (QUINTESSENCE) ↔ {WISDOM} ↔ Layer 7
 | Planet | EnergyCoil | 1:many | CANON cosmology |
 | Core | Radiation | 1:continuous | CANON-10000 |
 | Directive | ExecutionLog | 1:1 | 00-ORCHESTRATION/ |
-| Function | ProcessedSource | 1:many | 02-OPERATIONAL/ |
+| Function | ProcessedSource | 1:many | 02-ENGINE/ |
 | Template | Document | 1:many | 06-EXEMPLA/ |
 
 ---
@@ -808,7 +808,7 @@ TRANSCENDENCE (QUINTESSENCE) ↔ {WISDOM} ↔ Layer 7
 |----------|----------|-------------|----------|
 | Platform | Role | many:many | DYN-PLATFORMS/ROLES |
 | Directive | Role | 1:many | Directives |
-| Function | Source | 1:many | 02-OPERATIONAL/ |
+| Function | Source | 1:many | 02-ENGINE/ |
 
 ---
 

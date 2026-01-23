@@ -25,11 +25,11 @@
 ?? 00-ORCHESTRATION/state/ARCH-OPERATIONS_INBOX_MIGRATION-20260118.md
 ?? 00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md
 ?? 00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md
-?? 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md
-?? 02-OPERATIONAL/prompts/chatgpt/ (3 new prompts)
-?? 02-OPERATIONAL/registries/ (3 new registry files)
-?? 02-OPERATIONAL/scripts/ops_lint.sh
-?? 02-OPERATIONAL/specs/ (2 new spec files)
+?? 02-ENGINE/BLITZKRIEG_PROTOCOL.md
+?? 02-ENGINE/prompts/chatgpt/ (3 new prompts)
+?? 02-ENGINE/registries/ (3 new registry files)
+?? 02-ENGINE/scripts/ops_lint.sh
+?? 02-ENGINE/specs/ (2 new spec files)
 ```
 
 ---
@@ -86,36 +86,36 @@ Repo: /Users/home/Desktop/syncrescendence
 
 ## 3. Operations Lint
 
-**Command**: `bash 02-OPERATIONAL/scripts/ops_lint.sh`
+**Command**: `bash 02-ENGINE/scripts/ops_lint.sh`
 
 **Result**: **FAIL** (9 errors)
 
 ```
 === OPERATIONS ARTIFACT LINTER ===
-Checking: /Users/home/Desktop/syncrescendence/02-OPERATIONAL
+Checking: /Users/home/Desktop/syncrescendence/02-ENGINE
 
 --- Checking PROMPT-*.md files ---
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md: Missing YAML frontmatter
-[FAIL] 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md: Missing YAML frontmatter
-[PASS] 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md
-[PASS] 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md
-[PASS] 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md: Missing YAML frontmatter
+[FAIL] 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md: Missing YAML frontmatter
+[PASS] 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md
+[PASS] 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md
+[PASS] 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md
 
 --- Checking REF-*.md files in specs/ ---
-[PASS] 02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md
-[PASS] 02-OPERATIONAL/specs/REF-CHATGPT_MEMORY_POLICY.md
+[PASS] 02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md
+[PASS] 02-ENGINE/specs/REF-CHATGPT_MEMORY_POLICY.md
 
 --- Checking REF-*.md files in registries/ ---
-[PASS] 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md
-[PASS] 02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md
-[PASS] 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md
+[PASS] 02-ENGINE/registries/REF-PROMPT_REGISTRY.md
+[PASS] 02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md
+[PASS] 02-ENGINE/registries/REF-OPERATIONS_TREE.md
 
 === SUMMARY ===
 Files checked: 17
@@ -125,7 +125,7 @@ Warnings: 0
 
 ### Failing Files (Legacy Prompts)
 
-All 9 failures are in `02-OPERATIONAL/prompts/canonical/` - these are legacy prompts predating the frontmatter requirement:
+All 9 failures are in `02-ENGINE/prompts/canonical/` - these are legacy prompts predating the frontmatter requirement:
 
 1. `PROMPT-CHATGPT-canonical.md`
 2. `PROMPT-CLAUDE-canonical.md`
@@ -163,25 +163,25 @@ All 9 failures are in `02-OPERATIONAL/prompts/canonical/` - these are legacy pro
 
 **Status**: Clean. Only contains sanctioned `blitzkrieg_drop/` dropbox with 3 active directive files.
 
-### 02-OPERATIONAL Directory Listing
+### 02-ENGINE Directory Listing
 
 ```
-02-OPERATIONAL/prompts/chatgpt:
+02-ENGINE/prompts/chatgpt:
   PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md
   PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md
   PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md
 
-02-OPERATIONAL/registries:
+02-ENGINE/registries:
   REF-OPERATIONS_ARTIFACT_TAXONOMY.md
   REF-OPERATIONS_TREE.md
   REF-PROMPT_REGISTRY.md
 
-02-OPERATIONAL/scripts:
+02-ENGINE/scripts:
   ops_lint.sh
   rename_canon.sh
   validate_frontmatter.sh
 
-02-OPERATIONAL/specs:
+02-ENGINE/specs:
   REF-AUDIZER_PROTOCOL.md
   REF-CHATGPT_MEMORY_POLICY.md
 ```
@@ -193,11 +193,11 @@ All 9 failures are in `02-OPERATIONAL/prompts/canonical/` - these are legacy pro
 ### Priority 1: Commit Current Changes
 The working tree has significant uncommitted changes from the recent migration. Run:
 ```bash
-git add -A && git commit -m "feat: migrate -INBOX artifacts to 02-OPERATIONAL with frontmatter"
+git add -A && git commit -m "feat: migrate -INBOX artifacts to 02-ENGINE with frontmatter"
 ```
 
 ### Priority 2: Backfill Legacy Prompt Frontmatter
-Add YAML frontmatter to the 9 failing files in `02-OPERATIONAL/prompts/canonical/`. Each needs:
+Add YAML frontmatter to the 9 failing files in `02-ENGINE/prompts/canonical/`. Each needs:
 ```yaml
 ---
 id: <unique-id>

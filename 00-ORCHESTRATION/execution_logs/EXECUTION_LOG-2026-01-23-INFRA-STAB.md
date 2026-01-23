@@ -39,7 +39,7 @@ Successfully executed all five phases of infrastructure stabilization directive.
 3. ✅ **Sources ledger**: No DYN-SOURCES.csv in state/ (exists in 04-SOURCES/, correct location)
 4. ✅ **Tree files**: Only DYN-TREE.md exists (correct)
 5. ✅ **Coordination**: No active coordination.yaml (references are historical)
-6. ✅ **Backup files**: Moved 3 .bak files to 05-ARCHIVE/ledger-backups/
+6. ✅ **Backup files**: Moved 3 .bak files to 05-MEMORY/ledger-backups/
    - tasks.csv.bak
    - tasks.csv.bak.1767947262
    - projects.csv.bak.1767947262
@@ -73,7 +73,7 @@ Created directory guide with:
 - Quick start guide
 - Protected status documentation
 
-#### B3. 02-OPERATIONAL/README.md
+#### B3. 02-ENGINE/README.md
 Updated outdated README with:
 - Accurate directory structure
 - Function library overview
@@ -123,7 +123,7 @@ Created `00-ORCHESTRATION/scripts/add_obsidian_backlinks.sh`:
 - **Content**: 6 modal2 visual/VFX articles
 - **Recommendation**: Triage (not offload)
 
-#### D3. 05-ARCHIVE Audit
+#### D3. 05-MEMORY Audit
 - **Files**: 113 total
 - **Size**: 3.2M
 - **Duplicates**: 0 (verified via md5)
@@ -174,7 +174,7 @@ All macros include safety flags, customization notes, and installation steps.
 ### Documentation
 1. `01-CANON/README.md` (89 lines)
 2. `00-ORCHESTRATION/README.md` (62 lines)
-3. `02-OPERATIONAL/README.md` (85 lines, updated)
+3. `02-ENGINE/README.md` (85 lines, updated)
 4. `.github/CONNECTOR_PROTOCOL.md` (186 lines)
 5. `00-ORCHESTRATION/state/ARCH-OFFLOAD_AUDIT-20260123.md` (171 lines)
 
@@ -196,7 +196,7 @@ All macros include safety flags, customization notes, and installation steps.
 1. `01-CANON/CANON-00011-ARTIFACT_PROTOCOL-cosmos.md`
    - Fixed 4 identity collision references
 
-2. `02-OPERATIONAL/README.md`
+2. `02-ENGINE/README.md`
    - Replaced outdated Skills documentation
    - Updated with current structure
 
@@ -205,10 +205,10 @@ All macros include safety flags, customization notes, and installation steps.
 ## Files Moved/Renamed
 
 ### Archived
-1. `02-OPERATIONAL/functions/integrate.xml` → `05-ARCHIVE/integrate.xml.archived`
-2. `00-ORCHESTRATION/state/tasks.csv.bak` → `05-ARCHIVE/ledger-backups/`
-3. `00-ORCHESTRATION/state/tasks.csv.bak.1767947262` → `05-ARCHIVE/ledger-backups/`
-4. `00-ORCHESTRATION/state/projects.csv.bak.1767947262` → `05-ARCHIVE/ledger-backups/`
+1. `02-ENGINE/functions/integrate.xml` → `05-MEMORY/integrate.xml.archived`
+2. `00-ORCHESTRATION/state/tasks.csv.bak` → `05-MEMORY/ledger-backups/`
+3. `00-ORCHESTRATION/state/tasks.csv.bak.1767947262` → `05-MEMORY/ledger-backups/`
+4. `00-ORCHESTRATION/state/projects.csv.bak.1767947262` → `05-MEMORY/ledger-backups/`
 
 ### Renamed (DYN- prefix)
 5. `capabilities.json` → `DYN-CAPABILITIES.json`
@@ -221,7 +221,7 @@ All macros include safety flags, customization notes, and installation steps.
 
 - [x] CANON-00011 no longer contains "CANON-00007" internally (verified: 0 matches)
 - [x] All 10 consistency violations resolved
-- [x] README.md exists in 01-CANON/, 00-ORCHESTRATION/, 02-OPERATIONAL/
+- [x] README.md exists in 01-CANON/, 00-ORCHESTRATION/, 02-ENGINE/
 - [x] .github/CONNECTOR_PROTOCOL.md exists
 - [x] Obsidian backlink script created and executable
 - [x] 04-SOURCES and 03-QUEUE manifests generated
@@ -292,7 +292,7 @@ feat(infrastructure): Complete infrastructure stabilization directive
 4. Implement symbolic glossary based on chosen notation
 
 ### Long-Term (Monitoring)
-1. Track 05-ARCHIVE growth, offload when >10M
+1. Track 05-MEMORY growth, offload when >10M
 2. Monitor automation rule effectiveness
 3. Extend KM macros based on usage patterns
 

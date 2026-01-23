@@ -23,7 +23,7 @@ This document establishes the synchronization protocol for coordinating multiple
 │  ┌─────────────────────────────────────────────────────┐    │
 │  │  ~/syncrescendence/                                  │    │
 │  │  ├── 01-CANON/          (canonical knowledge)        │    │
-│  │  ├── 02-OPERATIONAL/    (prompts, memory configs)    │    │
+│  │  ├── 02-ENGINE/    (prompts, memory configs)    │    │
 │  │  ├── 04-SOURCES/        (raw + processed sources)    │    │
 │  │  └── 00-ORCHESTRATION/  (state, directives, logs)    │    │
 │  └─────────────────────────────────────────────────────┘    │
@@ -52,9 +52,9 @@ This document establishes the synchronization protocol for coordinating multiple
 | Primitive | Description | Implementation |
 |-----------|-------------|----------------|
 | **Corpus Documents** | Canonical knowledge shared by all IICs | CANON files in 01-CANON/ |
-| **Memory Configs** | Per-IIC platform configurations | 02-OPERATIONAL/memory/*.md |
+| **Memory Configs** | Per-IIC platform configurations | 02-ENGINE/memory/*.md |
 | **Thread Culminations** | Session summaries for context transfer | 00-ORCHESTRATION/logs/*.md |
-| **Context Files** | Active context for handoffs | 02-OPERATIONAL/context/*.md |
+| **Context Files** | Active context for handoffs | 02-ENGINE/context/*.md |
 | **State Files** | Orchestration state | 00-ORCHESTRATION/state/*.md |
 
 ---
@@ -109,7 +109,7 @@ Mastery (Teaching) ◄── Efficacy (Operations) ◄────────�
 **Format**: Framework document + implementation spec
 **Transfer Method**:
 1. Coherence produces framework in 01-CANON/
-2. Efficacy-relevant implementation notes added to 02-OPERATIONAL/
+2. Efficacy-relevant implementation notes added to 02-ENGINE/
 3. Human operator initiates Efficacy session with framework context
 
 #### Coherence → Transcendence
@@ -125,7 +125,7 @@ Mastery (Teaching) ◄── Efficacy (Operations) ◄────────�
 **Format**: Procedural documentation
 **Transfer Method**:
 1. Efficacy validates workflow through execution
-2. Proven procedures documented in 02-OPERATIONAL/
+2. Proven procedures documented in 02-ENGINE/
 3. Mastery receives for pedagogical packaging
 
 #### Transcendence → Acumen
@@ -174,7 +174,7 @@ Platform D (Grok)    ←───────┘
 1. Generate thread culmination summary
 2. Identify canonical candidates
 3. If insight warrants corpus status, create/update CANON document
-4. If operational, update relevant 02-OPERATIONAL/ document
+4. If operational, update relevant 02-ENGINE/ document
 5. If context-specific, save to 00-ORCHESTRATION/state/
 
 ### Memory Feature Sync Table

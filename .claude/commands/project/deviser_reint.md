@@ -209,7 +209,7 @@ For each artifact below:
   - Why: Strategic session context
 
 - [ ] **coordination.yaml** (Multi-agent)
-  - Path: `./02-OPERATIONAL/coordination.yaml`
+  - Path: `./02-ENGINE/coordination.yaml`
   - Why: Platform constellation for multi-agent work
 
 ---

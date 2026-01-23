@@ -9,7 +9,7 @@ This document identifies the smallest set of files that currently behave as a "c
 ## 1. Project Instructions Prompt
 
 ### Current Path
-`02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md`
+`02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md`
 
 ### Why It's Core
 - Defines the Deviser role for ChatGPT
@@ -34,7 +34,7 @@ This document identifies the smallest set of files that currently behave as a "c
 ## 2. Global Memory Prompt
 
 ### Current Path
-`02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md`
+`02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md`
 
 ### Why It's Core
 - Establishes cross-chat preferences in ChatGPT
@@ -54,7 +54,7 @@ This document identifies the smallest set of files that currently behave as a "c
 
 ### Current Paths
 - `00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md` (container grammar)
-- `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md` (transcript format)
+- `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md` (transcript format)
 
 ### Why It's Core
 - Defines how ChatGPT output is parsed by automation
@@ -117,7 +117,7 @@ Keep in `.claude/commands/project/` (command location is fixed)
 ## 6. Audizer Protocol
 
 ### Current Path
-`02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md`
+`02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md`
 
 ### Why It's Core
 - Defines transcript transcoding rules
@@ -178,10 +178,10 @@ Keep at `00-ORCHESTRATION/state/` (state location is appropriate)
 
 | # | File | Current Location | Role | Suggested Core Path |
 |---|------|------------------|------|---------------------|
-| 1 | Project Instructions | `02-OPERATIONAL/prompts/chatgpt/` | ChatGPT Deviser behavior | `00-ORCHESTRATION/core/CORE-PROJECT_INSTRUCTIONS.md` |
-| 2 | Global Memory | `02-OPERATIONAL/prompts/chatgpt/` | Cross-chat preferences | `00-ORCHESTRATION/core/CORE-GLOBAL_MEMORY.md` |
+| 1 | Project Instructions | `02-ENGINE/prompts/chatgpt/` | ChatGPT Deviser behavior | `00-ORCHESTRATION/core/CORE-PROJECT_INSTRUCTIONS.md` |
+| 2 | Global Memory | `02-ENGINE/prompts/chatgpt/` | Cross-chat preferences | `00-ORCHESTRATION/core/CORE-GLOBAL_MEMORY.md` |
 | 3 | Container Protocol | `00-ORCHESTRATION/state/` | Parsing grammar | `00-ORCHESTRATION/core/CORE-CONTAINER_PROTOCOL.md` |
-| 4 | Audizer Protocol | `02-OPERATIONAL/specs/` | Transcript format | `00-ORCHESTRATION/core/CORE-AUDIZER_PROTOCOL.md` |
+| 4 | Audizer Protocol | `02-ENGINE/specs/` | Transcript format | `00-ORCHESTRATION/core/CORE-AUDIZER_PROTOCOL.md` |
 | 5 | Validation Protocol | `00-ORCHESTRATION/state/` | Health checking | `00-ORCHESTRATION/core/CORE-VALIDATION_PROTOCOL.md` |
 | 6 | /repo_validate | `.claude/commands/project/` | Command interface | Keep current |
 | 7 | CLAUDE.md | Root | Constitution | Keep at root |

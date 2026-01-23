@@ -35,14 +35,14 @@
 
 ## Phase C: Oracle Context Consolidation
 - ORACLE13_CONTEXT.md -> 00-ORCHESTRATION/oracle_contexts/ORACLE13_CONTEXT.md
-- ORACLE12_PEDIGREE.md -> 00-ORCHESTRATION/oracle_contexts/ORACLE12_PEDIGREE.md (or compress to 05-ARCHIVE)
-- ORACLE12_PEDIGREE-045.md -> 00-ORCHESTRATION/oracle_contexts/ORACLE12_PEDIGREE-045.md (or compress to 05-ARCHIVE)
-- ORACLE12_SESSION_DELIVERABLES.md -> 00-ORCHESTRATION/oracle_contexts/ORACLE12_SESSION_DELIVERABLES.md (or compress to 05-ARCHIVE)
-- ORACLE10_CONTEXT.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT.md (symbolic compression required)
-- ORACLE10_CONTEXT_v2.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md (symbolic compression required)
-- ORACLE10_CONTEXT_v3.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md (symbolic compression required)
-- ORACLE10_CONTEXT_v4.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md (symbolic compression required)
-- ORACLE10_CONTEXT_root.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md (symbolic compression required)
+- ORACLE12_PEDIGREE.md -> 00-ORCHESTRATION/oracle_contexts/ORACLE12_PEDIGREE.md (or compress to 05-MEMORY)
+- ORACLE12_PEDIGREE-045.md -> 00-ORCHESTRATION/oracle_contexts/ORACLE12_PEDIGREE-045.md (or compress to 05-MEMORY)
+- ORACLE12_SESSION_DELIVERABLES.md -> 00-ORCHESTRATION/oracle_contexts/ORACLE12_SESSION_DELIVERABLES.md (or compress to 05-MEMORY)
+- ORACLE10_CONTEXT.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT.md (symbolic compression required)
+- ORACLE10_CONTEXT_v2.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md (symbolic compression required)
+- ORACLE10_CONTEXT_v3.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md (symbolic compression required)
+- ORACLE10_CONTEXT_v4.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md (symbolic compression required)
+- ORACLE10_CONTEXT_root.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md (symbolic compression required)
 - ORACLE10_CONTEXT_FINAL.md stays in 00-ORCHESTRATION/oracle_contexts/
 - ORACLE10_COMPREHENSIVE_ARCHAEOLOGY.md stays in 00-ORCHESTRATION/oracle_contexts/
 
@@ -66,24 +66,24 @@
 - Why I Stopped Using MCPs in Claude Code (And What I Use Instead).md -> 04-SOURCES/raw/
 
 ## Phase F: Obsolete File Compression
-- frontier_models.md -> 05-ARCHIVE/ARCH-frontier_models.md (symbolic compression required)
-- platform_features.md -> 05-ARCHIVE/ARCH-platform_features.md (symbolic compression required)
-- BLITZKRIEG_44_DEPLOYMENT_GUIDE.md -> 05-ARCHIVE/ARCH-BLITZKRIEG_44.md (symbolic compression required)
-- BLITZKRIEG_45_DEPLOYMENT_GUIDE.md -> 05-ARCHIVE/ARCH-BLITZKRIEG_45.md (symbolic compression required)
-- deviser1_continuity.md -> 05-ARCHIVE/ARCH-deviser1_continuity.md (symbolic compression required)
-- oracle_memories.md -> 05-ARCHIVE/ARCH-oracle_memories.md (symbolic compression required)
-- oracle_process_archaelogy.md -> 05-ARCHIVE/ARCH-oracle_process_archaeology.md (symbolic compression required)
-- previous_thread.md -> 05-ARCHIVE/ARCH-previous_thread.md (symbolic compression required)
-- oracle_verification_manifest.md -> 05-ARCHIVE/ARCH-oracle_verification_manifest.md (symbolic compression required)
+- frontier_models.md -> 05-MEMORY/ARCH-frontier_models.md (symbolic compression required)
+- platform_features.md -> 05-MEMORY/ARCH-platform_features.md (symbolic compression required)
+- BLITZKRIEG_44_DEPLOYMENT_GUIDE.md -> 05-MEMORY/ARCH-BLITZKRIEG_44.md (symbolic compression required)
+- BLITZKRIEG_45_DEPLOYMENT_GUIDE.md -> 05-MEMORY/ARCH-BLITZKRIEG_45.md (symbolic compression required)
+- deviser1_continuity.md -> 05-MEMORY/ARCH-deviser1_continuity.md (symbolic compression required)
+- oracle_memories.md -> 05-MEMORY/ARCH-oracle_memories.md (symbolic compression required)
+- oracle_process_archaelogy.md -> 05-MEMORY/ARCH-oracle_process_archaeology.md (symbolic compression required)
+- previous_thread.md -> 05-MEMORY/ARCH-previous_thread.md (symbolic compression required)
+- oracle_verification_manifest.md -> 05-MEMORY/ARCH-oracle_verification_manifest.md (symbolic compression required)
 
 ## Phase G: Directory Consolidation (audit required)
-- system_prompts/ -> 02-OPERATIONAL/prompts/ (merge unique content; archive before deletion)
-- .decisions/ (if present) -> 05-ARCHIVE/ARCH-decisions/ (archive unique, then remove)
+- system_prompts/ -> 02-ENGINE/prompts/ (merge unique content; archive before deletion)
+- .decisions/ (if present) -> 05-MEMORY/ARCH-decisions/ (archive unique, then remove)
 
 ## Phase H: Working Documents (Principal decision)
-- checklist.md -> 05-ARCHIVE/ARCH-checklist.md or retain
-- INTERACTION_PARADIGM.md -> integrate into 02-OPERATIONAL/ or archive
-- rapport_contract.md -> integrate into 02-OPERATIONAL/ or archive
+- checklist.md -> 05-MEMORY/ARCH-checklist.md or retain
+- INTERACTION_PARADIGM.md -> integrate into 02-ENGINE/ or archive
+- rapport_contract.md -> integrate into 02-ENGINE/ or archive
 
 ## Post-Apply Verification (update)
 - Orphan directory check should exclude both outgoing variants:

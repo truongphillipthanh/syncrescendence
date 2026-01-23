@@ -99,13 +99,13 @@ Handle deep research outputs systematically to prevent root pollution and ensure
 ```
 Is this a deep research report (Type 1)?
 ├─ YES: Does it contain unique value not in CANON?
-│   ├─ YES: Archive as RESEARCH-{date}-{topic}.md in 05-ARCHIVE/
+│   ├─ YES: Archive as RESEARCH-{date}-{topic}.md in 05-MEMORY/
 │   └─ NO: Distill into relevant CANON, delete original
 └─ NO: Is this an Oracle context (Type 2)?
     ├─ YES: Move to 00-ORCHESTRATION/oracle_contexts/
     └─ NO: Is this a directive/execution artifact (Type 3)?
         ├─ YES: Move to appropriate 00-ORCHESTRATION/ subdirectory
-        └─ NO: Evaluate case-by-case, default to 05-ARCHIVE/
+        └─ NO: Evaluate case-by-case, default to 05-MEMORY/
 ```
 
 ## Naming Convention
@@ -186,11 +186,11 @@ for file in $ROOT_MD; do
         DATE=$(date +%Y%m%d)
         SLUG=$(echo "$file" | sed 's/.md$//' | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
         NEWNAME="RESEARCH-${DATE}-${SLUG}.md"
-        echo "    → Archiving as 05-ARCHIVE/$NEWNAME"
-        mv "$file" "05-ARCHIVE/$NEWNAME"
+        echo "    → Archiving as 05-MEMORY/$NEWNAME"
+        mv "$file" "05-MEMORY/$NEWNAME"
     else
-        echo "    → Default: Archiving to 05-ARCHIVE/"
-        mv "$file" 05-ARCHIVE/
+        echo "    → Default: Archiving to 05-MEMORY/"
+        mv "$file" 05-MEMORY/
     fi
 done
 
@@ -215,13 +215,13 @@ chmod +x 00-ORCHESTRATION/scripts/cleanup_root.sh
 # Move the research artifact with proper naming
 DATE=$(date +%Y%m%d)
 mv claude_code_optimization_architecture.md \
-   05-ARCHIVE/RESEARCH-${DATE}-claude_code_optimization.md
+   05-MEMORY/RESEARCH-${DATE}-claude_code_optimization.md
 ```
 
 ### 2.5 Verification
 
 ```bash
-ls 05-ARCHIVE/RESEARCH-* | wc -l
+ls 05-MEMORY/RESEARCH-* | wc -l
 # Should be 1
 
 cat 00-ORCHESTRATION/state/REF-RESEARCH_ARTIFACTS.md | head -30
@@ -340,8 +340,8 @@ $ ls *.md
 CLAUDE.md
 
 # Research archive
-$ ls 05-ARCHIVE/RESEARCH-*
-05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md
+$ ls 05-MEMORY/RESEARCH-*
+05-MEMORY/RESEARCH-20260108-claude_code_optimization.md
 
 # Git status
 $ git status
@@ -371,7 +371,7 @@ nothing to commit, working tree clean
 
 Stream A is complete when:
 - [ ] `ls *.md` shows only `CLAUDE.md`
-- [ ] `ls 05-ARCHIVE/RESEARCH-*` shows 1+ files
+- [ ] `ls 05-MEMORY/RESEARCH-*` shows 1+ files
 - [ ] `cat 00-ORCHESTRATION/state/REF-RESEARCH_ARTIFACTS.md` shows protocol
 - [ ] `ls 00-ORCHESTRATION/scripts/cleanup_root.sh` exists and is executable
 - [ ] `git status` shows clean working tree

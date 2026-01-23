@@ -243,7 +243,7 @@ Added:
 13. `00-ORCHESTRATION/notation/CANON_SN_TEMPLATE.md` (470 lines)
 
 ### Reorganization (Lane F)
-14. `02-OPERATIONAL/iic/README.md` (60 lines)
+14. `02-ENGINE/iic/README.md` (60 lines)
 
 ### Triage (Lane G)
 15. `-OUTGOING/TRIAGE_LOG.md` (24 lines)
@@ -255,8 +255,8 @@ Added:
 ## Files Moved/Reorganized
 
 ### Lane F
-- 6 IIC configs: 02-OPERATIONAL/*.md → 02-OPERATIONAL/iic/
-- 3 protocol files: 02-OPERATIONAL/*.md → 02-OPERATIONAL/protocols/
+- 6 IIC configs: 02-ENGINE/*.md → 02-ENGINE/iic/
+- 3 protocol files: 02-ENGINE/*.md → 02-ENGINE/protocols/
 
 ---
 

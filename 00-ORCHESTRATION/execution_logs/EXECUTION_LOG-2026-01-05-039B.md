@@ -8,12 +8,12 @@
 
 ---
 
-## PHASE 1: FLATTEN 05-ARCHIVE/scaffolding/
+## PHASE 1: FLATTEN 05-MEMORY/scaffolding/
 
 ### Actions Executed
 - Moved 16 files from `scaffolding/` to root with `SCAFF-` prefix
 - Removed empty `scaffolding/` directory
-- Updated `05-ARCHIVE/README.md` with flat structure documentation
+- Updated `05-MEMORY/README.md` with flat structure documentation
 
 ### Files Moved
 | Original | New |
@@ -37,7 +37,7 @@
 
 ### Verification
 ```
-find 05-ARCHIVE -type d | wc -l
+find 05-MEMORY -type d | wc -l
 # Result: 1 (just root directory)
 ```
 
@@ -117,8 +117,8 @@ find 06-EXEMPLA -type d | wc -l
 
 ### Directory Structure Verification
 ```bash
-# 05-ARCHIVE subdirectories
-find 05-ARCHIVE -type d | wc -l
+# 05-MEMORY subdirectories
+find 05-MEMORY -type d | wc -l
 # Result: 1 ✓ (FLAT PRINCIPLE maintained)
 
 # 06-EXEMPLA subdirectories
@@ -130,7 +130,7 @@ find 04-SOURCES/processed -name "*.md" | wc -l
 # Result: 21 ✓
 ```
 
-### 05-ARCHIVE Contents (29 markdown files)
+### 05-MEMORY Contents (29 markdown files)
 - 10 ARCHIVE- prefix files (implementation specs)
 - 16 SCAFF- prefix files (Oracle archaeology)
 - 1 README.md
@@ -180,7 +180,7 @@ find 04-SOURCES/processed -name "*.md" | wc -l
 - CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md (added Elon Musk source)
 
 ### README Updates
-- 05-ARCHIVE/README.md (flat structure documentation)
+- 05-MEMORY/README.md (flat structure documentation)
 - 06-EXEMPLA/README.md (flat structure documentation)
 
 ### New Processed Briefs (13)

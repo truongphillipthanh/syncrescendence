@@ -30,7 +30,7 @@ Files relocated from root:
 ### Phase 2: Research Protocol ✓
 - Created `00-ORCHESTRATION/state/REF-RESEARCH_ARTIFACTS.md` (protocol documentation)
 - Created `00-ORCHESTRATION/scripts/cleanup_root.sh` (automation script, executable)
-- Archived `claude_code_optimization_architecture.md` as `05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md`
+- Archived `claude_code_optimization_architecture.md` as `05-MEMORY/RESEARCH-20260108-claude_code_optimization.md`
 
 ### Phase 3: Major Restructuring Commit ✓
 Committed complete repository migration:
@@ -39,10 +39,10 @@ Committed complete repository migration:
 - **Deletions**: 2,522
 - **Key migrations**:
   - `00-CANON/` → `01-CANON/`
-  - `01-OPERATIONAL/` → `02-OPERATIONAL/`
+  - `01-OPERATIONAL/` → `02-ENGINE/`
   - `02-QUEUE/` → `03-QUEUE/`
   - `03-SOURCES/` → `04-SOURCES/`
-  - `04-ARCHIVE/` → `05-ARCHIVE/`
+  - `04-ARCHIVE/` → `05-MEMORY/`
   - `05-EXEMPLA/` → `06-EXEMPLA/`
   - `06-ORCHESTRATION/` → `00-ORCHESTRATION/`
 
@@ -62,8 +62,8 @@ $ ls *.md
 CLAUDE.md
 
 # Research archive
-$ ls 05-ARCHIVE/RESEARCH-*
-05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md
+$ ls 05-MEMORY/RESEARCH-*
+05-MEMORY/RESEARCH-20260108-claude_code_optimization.md
 
 # Git status
 $ git status
@@ -98,7 +98,7 @@ d28c337 docs(PROJ-011): Add execution log for DIRECTIVE-041A
 **Created**:
 - `00-ORCHESTRATION/state/REF-RESEARCH_ARTIFACTS.md`
 - `00-ORCHESTRATION/scripts/cleanup_root.sh`
-- `05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md`
+- `05-MEMORY/RESEARCH-20260108-claude_code_optimization.md`
 
 **Relocated**:
 - 4 directive files → `00-ORCHESTRATION/directives/`

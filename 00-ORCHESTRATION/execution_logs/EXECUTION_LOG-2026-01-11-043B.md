@@ -36,21 +36,21 @@
 |--------|--------|-------|
 | Root-level .md files | 24 | 9 |
 | Orphan files at root | 15 | 0 |
-| 05-ARCHIVE .md files | 34 | 46 |
+| 05-MEMORY .md files | 34 | 46 |
 
 **Files Relocated**:
 | File | From | To | Reason |
 |------|------|-----|--------|
-| cognitive_profile.md | root | 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md | Research artifact |
-| frontier_models.md | root | 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md | Research artifact |
-| platform_features.md | root | 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md | Research artifact |
-| STRATEGIC_RECONNAISSANCE_REPORT_ENHANCED.md | root | 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md | Synthesis artifact |
-| GEMINI.md | root | 02-OPERATIONAL/GEMINI.md | Active configuration |
-| GEMINI_VALIDATION_REPORT.md | root | 05-ARCHIVE/ | Historical validation |
+| cognitive_profile.md | root | 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md | Research artifact |
+| frontier_models.md | root | 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md | Research artifact |
+| platform_features.md | root | 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md | Research artifact |
+| STRATEGIC_RECONNAISSANCE_REPORT_ENHANCED.md | root | 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md | Synthesis artifact |
+| GEMINI.md | root | 02-ENGINE/GEMINI.md | Active configuration |
+| GEMINI_VALIDATION_REPORT.md | root | 05-MEMORY/ | Historical validation |
 | ORACLE10_CULMINATION.md | root | 00-ORCHESTRATION/logs/ | Oracle session doc |
-| ORACLE11_*.md (4 files) | root | 05-ARCHIVE/ | Superseded by Oracle 12 |
-| BLITZKRIEG_*_GUIDE.md (2 files) | root | 05-ARCHIVE/ARCH-BLITZKRIEG_*.md | Deployment archives |
-| addtions.md | root | 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md | Research note |
+| ORACLE11_*.md (4 files) | root | 05-MEMORY/ | Superseded by Oracle 12 |
+| BLITZKRIEG_*_GUIDE.md (2 files) | root | 05-MEMORY/ARCH-BLITZKRIEG_*.md | Deployment archives |
+| addtions.md | root | 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md | Research note |
 | ORACLE12_CONTEXT.md | root | 00-ORCHESTRATION/ | Active context |
 
 ---
@@ -85,8 +85,8 @@
 ```
 ./00-ORCHESTRATION/ - 29 .md files (state/, logs/, oracle_contexts/)
 ./01-CANON/ - 78 CANON documents
-./02-OPERATIONAL/ - 6 .md files + subdirs (memory/, models/, prompts/, etc.)
-./05-ARCHIVE/ - 46 archived documents
+./02-ENGINE/ - 6 .md files + subdirs (memory/, models/, prompts/, etc.)
+./05-MEMORY/ - 46 archived documents
 ./Root - 9 .md files (CLAUDE.md + 8 DIRECTIVE-043*.md)
 ```
 

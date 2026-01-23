@@ -39,7 +39,7 @@ Standardized procedure for validating repository health, structural compliance, 
 
 ### 2. Operations Lint
 
-**Command**: `bash 02-OPERATIONAL/scripts/ops_lint.sh`
+**Command**: `bash 02-ENGINE/scripts/ops_lint.sh`
 
 **Checks**:
 - All `PROMPT-*.md` files have YAML frontmatter
@@ -95,7 +95,7 @@ mkdir -p "./-OUTGOING/${DATE}-repo_validation"
 
 # Run checks
 bash 00-ORCHESTRATION/scripts/structural_verify.sh > struct.log 2>&1
-bash 02-OPERATIONAL/scripts/ops_lint.sh > lint.log 2>&1
+bash 02-ENGINE/scripts/ops_lint.sh > lint.log 2>&1
 
 # Compile report
 # (see command template for full logic)

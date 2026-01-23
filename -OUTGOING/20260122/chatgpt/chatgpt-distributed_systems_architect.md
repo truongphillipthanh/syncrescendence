@@ -16,7 +16,7 @@ Lens: distributed state machines with concurrent agents (Claude, ChatGPT, Gemini
 
 ### Immutable / Append-Only State (should not be mutated once canonized)
 - 01-CANON/*: defended canonical knowledge (00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md:19).
-- 05-ARCHIVE/*: historical preservation and prior deliverables (00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md:36).
+- 05-MEMORY/*: historical preservation and prior deliverables (00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md:36).
 - 00-ORCHESTRATION/state/ARCH-*.md: archaeology records (00-ORCHESTRATION/state/README.md:10).
 
 ### Derived State (computed from other state)
@@ -25,8 +25,8 @@ Lens: distributed state machines with concurrent agents (Claude, ChatGPT, Gemini
 - 00-ORCHESTRATION/state/DYN-TREE.md (filesystem count snapshot) (00-ORCHESTRATION/state/DYN-TREE.md:1).
 
 ### Replicated State (same semantics, multiple copies)
-- Function definitions in both .md and .xml (e.g., integrate.md vs integrate.xml) (02-OPERATIONAL/functions/integrate.md:1, 02-OPERATIONAL/functions/integrate.xml:1).
-- Coordination protocols in multiple locations (DYN-COORDINATION.yaml vs REF-MULTI_CLI_COORDINATION.md) (02-OPERATIONAL/DYN-COORDINATION.yaml:8, 00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md:1).
+- Function definitions in both .md and .xml (e.g., integrate.md vs integrate.xml) (02-ENGINE/functions/integrate.md:1, 02-ENGINE/functions/integrate.xml:1).
+- Coordination protocols in multiple locations (DYN-COORDINATION.yaml vs REF-MULTI_CLI_COORDINATION.md) (02-ENGINE/DYN-COORDINATION.yaml:8, 00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md:1).
 - References to sources ledger in multiple docs (sources.csv vs DYN-SOURCES.csv) (04-SOURCES/README.md:51, 04-SOURCES/DYN-SOURCES.csv:1).
 
 ## 2. CONSISTENCY VIOLATIONS (evidence with citations)
@@ -40,7 +40,7 @@ Lens: distributed state machines with concurrent agents (Claude, ChatGPT, Gemini
 - Corpus index defines 03-QUEUE as the queue root (00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md:30).
 
 3) Coordination protocol divergence (agents and zones)
-- DYN-COORDINATION defines ChatGPT as a platform and routing target (02-OPERATIONAL/DYN-COORDINATION.yaml:87).
+- DYN-COORDINATION defines ChatGPT as a platform and routing target (02-ENGINE/DYN-COORDINATION.yaml:87).
 - REF-MULTI_CLI_COORDINATION only lists Claude Code and Gemini (00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md:17).
 
 4) Execution log location mismatch
@@ -56,15 +56,15 @@ Lens: distributed state machines with concurrent agents (Claude, ChatGPT, Gemini
 - Actual ledger file is DYN-SOURCES.csv (04-SOURCES/DYN-SOURCES.csv:1).
 
 7) Internal contradiction: flat directory rule vs required subdirectories
-- REF-AGENTS mandates all directories must be flat (02-OPERATIONAL/registries/REF-AGENTS.md:24).
-- Same document defines .dispatch with nested subdirectories (02-OPERATIONAL/registries/REF-AGENTS.md:64).
+- REF-AGENTS mandates all directories must be flat (02-ENGINE/registries/REF-AGENTS.md:24).
+- Same document defines .dispatch with nested subdirectories (02-ENGINE/registries/REF-AGENTS.md:64).
 
 8) Protected path mismatch in coordination file
-- Protected list names 02-OPERATIONAL/coordination.yaml (02-OPERATIONAL/DYN-COORDINATION.yaml:199).
-- Actual coordination file is 02-OPERATIONAL/DYN-COORDINATION.yaml (02-OPERATIONAL/DYN-COORDINATION.yaml:1).
+- Protected list names 02-ENGINE/coordination.yaml (02-ENGINE/DYN-COORDINATION.yaml:199).
+- Actual coordination file is 02-ENGINE/DYN-COORDINATION.yaml (02-ENGINE/DYN-COORDINATION.yaml:1).
 
 9) Duplicate function definitions without single source of truth
-- integrate.md and integrate.xml both define the same function in different formats (02-OPERATIONAL/functions/integrate.md:1, 02-OPERATIONAL/functions/integrate.xml:1).
+- integrate.md and integrate.xml both define the same function in different formats (02-ENGINE/functions/integrate.md:1, 02-ENGINE/functions/integrate.xml:1).
 
 10) Tree generator output mismatch
 - Makefile tree target writes DYN-ACTUAL_TREE.md (Makefile:82).
@@ -76,19 +76,19 @@ Lens: distributed state machines with concurrent agents (Claude, ChatGPT, Gemini
 - Write skew on sources status (high): parallel agents update DYN-SOURCES.csv status based on stale reads, causing invalid transitions (00-ORCHESTRATION/state/REF-SOURCES_SCHEMA.md:204).
 - Phantom reads on queue state (medium): DYN-DASHBOARD generated from queue snapshots; simultaneous queue edits change counts between read and write (00-ORCHESTRATION/state/DYN-DASHBOARD.md:132).
 - Duplicate event emission (medium): events.jsonl is append-only but no global monotonic ID; concurrent agents may emit out-of-order or duplicate events (00-ORCHESTRATION/state/events.jsonl:1).
-- Function definition drift (medium): .md and .xml versions diverge when edited by different agents (02-OPERATIONAL/functions/integrate.md:1, 02-OPERATIONAL/functions/integrate.xml:1).
+- Function definition drift (medium): .md and .xml versions diverge when edited by different agents (02-ENGINE/functions/integrate.md:1, 02-ENGINE/functions/integrate.xml:1).
 - Tree/index regeneration race (low): DYN-CORPUS_INDEX and DYN-TREE can be generated concurrently, producing mismatched snapshots (00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md:3).
 
 ## 4. PARTITION SCENARIOS (what breaks, how to recover)
 
-- Oracle web surface partitioned from repo: Oracle has read-only access via MCP/exports, so authoritative state changes can lag (02-OPERATIONAL/DYN-COORDINATION.yaml:49). Recovery: require handoff token + event replay to converge state (Makefile:125).
+- Oracle web surface partitioned from repo: Oracle has read-only access via MCP/exports, so authoritative state changes can lag (02-ENGINE/DYN-COORDINATION.yaml:49). Recovery: require handoff token + event replay to converge state (Makefile:125).
 - CLI agents isolated from each other: protocol states instances do NOT communicate directly (00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md:116). Recovery: treat git commits as consensus boundary; reconcile via audits and rebase.
 - Gemini ingestion path offline: sources intake stalls; DYN-SOURCES.csv status drift vs actual raw/processed files. Recovery: periodic reconciliation pass comparing raw/processed to DYN-SOURCES.csv.
 - ChatGPT codex_cli partitioned: routing decisions in DYN-COORDINATION may route to a platform with no repo visibility. Recovery: route fallback to Claude Code with filesystem sovereignty.
 
 ## 5. CAP ANALYSIS (per subsystem)
 
-- 01-CANON (CP): favors consistency and partition tolerance; availability reduced by protected zones and review gates (02-OPERATIONAL/DYN-COORDINATION.yaml:194).
+- 01-CANON (CP): favors consistency and partition tolerance; availability reduced by protected zones and review gates (02-ENGINE/DYN-COORDINATION.yaml:194).
 - 00-ORCHESTRATION/state ledgers (AP leaning, weak consistency): append-only guidance, high availability; conflict resolution is manual (00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md:65).
 - 04-SOURCES pipeline (AP): ingestion and processing favor availability; status consistency is eventually reconciled (04-SOURCES/README.md:24).
 - 03-QUEUE (AP): availability for intake is prioritized; consistency of queue counts is eventual (03-QUEUE/README.md:16).
@@ -146,7 +146,7 @@ Directive execution lifecycle (derived from templates and logs):
 issued -> planned -> executing -> complete | partial | blocked
 ```
 
-Reference: execution log template states COMPLETE/PARTIAL/BLOCKED (02-OPERATIONAL/templates/EXECUTION_LOG_TEMPLATE.md:6).
+Reference: execution log template states COMPLETE/PARTIAL/BLOCKED (02-ENGINE/templates/EXECUTION_LOG_TEMPLATE.md:6).
 
 ## 8. REFACTORING FOR CONSISTENCY (targeted fixes)
 

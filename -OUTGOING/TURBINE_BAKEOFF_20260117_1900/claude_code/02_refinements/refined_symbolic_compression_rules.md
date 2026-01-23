@@ -170,9 +170,9 @@ Before archiving any document, verify:
     - Descriptive name preserved
 
 [ ] 5. LOCATION: Archive destination correct?
-    - General archive → 05-ARCHIVE/
-    - Historical context → 05-ARCHIVE/ with ARCH-ORACLE prefix
-    - Directive archive → 05-ARCHIVE/ARCH-DIRECTIVE-{NUM}.md
+    - General archive → 05-MEMORY/
+    - Historical context → 05-MEMORY/ with ARCH-ORACLE prefix
+    - Directive archive → 05-MEMORY/ARCH-DIRECTIVE-{NUM}.md
 
 [ ] 6. GIT: Will git preserve history?
     - Using `git mv` (not `mv`)?
@@ -191,7 +191,7 @@ A document is **sufficiently compressed** when:
 
 3. **No Orphan References**: Any documents that referenced this file have been updated with new paths (or reference is to git history).
 
-4. **Archive Location Correct**: File is in 05-ARCHIVE/ with ARCH- prefix.
+4. **Archive Location Correct**: File is in 05-MEMORY/ with ARCH- prefix.
 
 5. **No Redundancy**: If this was a duplicate, the canonical version is clearly identified and this copy is deleted (not archived - git is sufficient).
 
@@ -236,7 +236,7 @@ START: Document at root needs action
 **Classification**: Temporal snapshot (October 2025 model data)
 **Unique Value**: None - data obsolete, patterns already in Canon
 **Action**: Archive directly
-**Command**: `git mv frontier_models.md 05-ARCHIVE/ARCH-frontier_models.md`
+**Command**: `git mv frontier_models.md 05-MEMORY/ARCH-frontier_models.md`
 **Sufficiency**: PASS - no extraction needed, lineage preserved
 
 ### Example 2: deviser1_continuity.md
@@ -245,7 +245,7 @@ START: Document at root needs action
 **Unique Value Check**: Contains session handoff instructions
 **Extraction**: Review for any decisions not in RESOLUTIONS
 **Action**: Archive after extraction (if any)
-**Command**: `git mv deviser1_continuity.md 05-ARCHIVE/ARCH-deviser1_continuity.md`
+**Command**: `git mv deviser1_continuity.md 05-MEMORY/ARCH-deviser1_continuity.md`
 **Sufficiency**: PASS if extraction complete
 
 ### Example 3: DIRECTIVE-042A at root vs 00-ORCHESTRATION/directives/
@@ -263,9 +263,9 @@ START: Document at root needs action
 
 | Content Type | Compression Required? | Method | Destination |
 |--------------|----------------------|--------|-------------|
-| Temporal snapshots | Optional (extract if valuable) | ARCH- prefix | 05-ARCHIVE/ |
-| Session artifacts | Yes (extract decisions/insights) | ARCH- prefix | 05-ARCHIVE/ |
-| Superseded docs | Yes (merge unique content) | ARCH- prefix | 05-ARCHIVE/ |
+| Temporal snapshots | Optional (extract if valuable) | ARCH- prefix | 05-MEMORY/ |
+| Session artifacts | Yes (extract decisions/insights) | ARCH- prefix | 05-MEMORY/ |
+| Superseded docs | Yes (merge unique content) | ARCH- prefix | 05-MEMORY/ |
 | Duplicates | No (delete non-canonical) | DELETE | Git history |
 | Living infrastructure | NEVER | N/A | Keep in place |
 | Canon | NEVER | N/A | Keep in 01-CANON/ |

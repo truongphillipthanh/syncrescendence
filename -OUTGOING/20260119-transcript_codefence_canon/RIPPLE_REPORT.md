@@ -52,16 +52,16 @@ The new convention:
 
 | File | Version | Changes |
 |------|---------|---------|
-| `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md` | 2.0.0 → 3.0.0 | Replaced "Canonical Audizable Delimiter" section with "Canonical Transcript Format"; documented final-fence convention |
+| `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md` | 2.0.0 → 3.0.0 | Replaced "Canonical Audizable Delimiter" section with "Canonical Transcript Format"; documented final-fence convention |
 | `00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md` | 2.0.0 → 3.0.0 | Updated container grammar; removed AUDIZABLE section; documented final-fence extraction |
 
 ### 2. ChatGPT Prompt Artifacts Updated
 
 | File | Version | Changes |
 |------|---------|---------|
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | 2.0.0 → 3.0.0 | Replaced "Audizable artifact block" with "Final transcript block"; updated container format |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md` | — | Updated trifurcation rule to use final fenced block |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md` | — | Updated trifurcation rule to use final fenced block |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | 2.0.0 → 3.0.0 | Replaced "Audizable artifact block" with "Final transcript block"; updated container format |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md` | — | Updated trifurcation rule to use final fenced block |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md` | — | Updated trifurcation rule to use final fenced block |
 
 ### 3. Ingestion Script Updated
 
@@ -75,11 +75,11 @@ The new convention:
 
 | Path | Change Type |
 |------|-------------|
-| `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md` | Updated |
+| `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md` | Updated |
 | `00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md` | Updated |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md` | Updated |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md` | Updated |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md` | Updated |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md` | Updated |
 | `00-ORCHESTRATION/scripts/ingest_chatgpt_container.py` | Updated |
 
 ---
@@ -111,7 +111,7 @@ The new convention:
 
 ### Operations Lint
 
-**Command**: `bash 02-OPERATIONAL/scripts/ops_lint.sh`
+**Command**: `bash 02-ENGINE/scripts/ops_lint.sh`
 
 **Result**: **PASS** (0 errors)
 

@@ -33,8 +33,8 @@ The naming convention `CANON-{id}-{NAME}-{scope}.md` implies that the **Name** a
 ### Hierarchy of Kinds
 1.  **`Meta-System`** (`00-ORCHESTRATION`): The runtime environment and compiler.
 2.  **`Canon`** (`01-CANON`): The Type Definitions (immutable reference).
-3.  **`Operational`** (`02-OPERATIONAL`): The Function Library (morphisms).
-4.  **`Instance`** (`04-SOURCES`, `05-ARCHIVE`): The values/terms inhabiting the types.
+3.  **`Operational`** (`02-ENGINE`): The Function Library (morphisms).
+4.  **`Instance`** (`04-SOURCES`, `05-MEMORY`): The values/terms inhabiting the types.
 
 ## 2. Type Error Detection
 

@@ -76,7 +76,7 @@ Entry: CLAUDE.md
   → Pattern says: "Apply function from PROCESSING_ROUTING.md" ✓
   → WHERE IS PROCESSING_ROUTING.md?
      - Not in 00-ORCHESTRATION/state/
-     - Not in 02-OPERATIONAL/
+     - Not in 02-ENGINE/
      - Grep search required
 
 SCENT TRAIL: WEAKENS (requires search, not navigation)
@@ -112,7 +112,7 @@ SCENT TRAIL: OVERWHELMS (too many options, no index)
 
 | File/Directory | Name Suggests | Actually Contains | Confusion Index |
 |----------------|---------------|-------------------|-----------------|
-| `02-OPERATIONAL/README.md` | Operational overview | Claude Skills Library documentation | 7/10 - total misdirection |
+| `02-ENGINE/README.md` | Operational overview | Claude Skills Library documentation | 7/10 - total misdirection |
 | `06-EXEMPLA/` | Examples of what? | Templates, proverbs, aphorisms, cautionary tales, phase markers | 6/10 - too abstract |
 | `DYN-COORDINATION.yaml` | Dynamic coordination config? | Unknown (not inspected) | 5/10 - abbreviation unclear |
 | `ORCHESTRATION` | Directives for current work? | 60 directives spanning months, unclear which are active | 8/10 - signal lost in noise |
@@ -125,10 +125,10 @@ SCENT TRAIL: OVERWHELMS (too many options, no index)
 | `/` (root) | 9/10 | Excellent entry files, clear numbering |
 | `00-ORCHESTRATION/` | 4/10 | Too many subdirectories, unclear active state |
 | `01-CANON/` | 6/10 | Numbering clear, but no index, metaphors cryptic |
-| `02-OPERATIONAL/` | 5/10 | Mixed signals (functions, prompts, protocols, IIC configs) |
+| `02-ENGINE/` | 5/10 | Mixed signals (functions, prompts, protocols, IIC configs) |
 | `03-QUEUE/` | 3/10 | What is queued? "modal2" is undefined |
 | `04-SOURCES/` | 7/10 | Clear purpose (raw/ and processed/ subdirectories help) |
-| `05-ARCHIVE/` | 5/10 | Ambiguous value proposition (what's still useful?) |
+| `05-MEMORY/` | 5/10 | Ambiguous value proposition (what's still useful?) |
 | `06-EXEMPLA/` | 4/10 | Too abstract, "examples of what?" unclear |
 | `-INBOX/` | 8/10 | Clear purpose (incoming) |
 | `-OUTGOING/` | 8/10 | Clear purpose (staging for commit) |
@@ -217,7 +217,7 @@ SCENT TRAIL: OVERWHELMS (too many options, no index)
 2. **Create canonical indexes** → Reduce search load
    - `01-CANON/README.md` with hierarchical index by celestial tier
    - `00-ORCHESTRATION/directives/ACTIVE_DIRECTIVES.md` listing current work
-   - `02-OPERATIONAL/INDEX.md` explaining prefix semantics
+   - `02-ENGINE/INDEX.md` explaining prefix semantics
    - **Savings**: 50K tokens (avoided redundant file reads)
 
 3. **Archive inactive directives** → Reduce noise
@@ -263,7 +263,7 @@ SCENT TRAIL: OVERWHELMS (too many options, no index)
 
 **Weak Landmarks** (Forgettable):
 - ✗ `00-ORCHESTRATION/` — Generic name, no visual distinction
-- ✗ `02-OPERATIONAL/` — Generic name
+- ✗ `02-ENGINE/` — Generic name
 - ✗ `DYN-COORDINATION.yaml` — Abbreviation, no mnemonic
 - ✗ Directive numbers (018-046) — Too many, non-memorable
 
@@ -308,7 +308,7 @@ Expected:
   Entry → IIC overview → Detailed configs
 
 Actual:
-  No clear entry point → Grep "IIC" → Find 7 files in 02-OPERATIONAL/
+  No clear entry point → Grep "IIC" → Find 7 files in 02-ENGINE/
   - IIC-Acumen-config.md
   - IIC-Coherence-config.md
   - IIC-Efficacy-config.md
@@ -327,10 +327,10 @@ Wayfinding Failure: No master IIC document linking all pieces
 | Root entry points | 10/10 | ✓ | ✓ Clear agent onboarding |
 | 00-ORCHESTRATION | 5/10 | ⚠ Too many subdirectories | ⚠ Mixed active/historical |
 | 01-CANON | 8/10 | ✓ | ✓ Canonical knowledge |
-| 02-OPERATIONAL | 6/10 | ⚠ Mixing protocols, functions, configs | ⚠ Purpose unclear |
+| 02-ENGINE | 6/10 | ⚠ Mixing protocols, functions, configs | ⚠ Purpose unclear |
 | 03-QUEUE | 3/10 | ✗ "modal2" undefined | ✗ Unclear if active |
 | 04-SOURCES | 9/10 | ✓ raw/ and processed/ clear | ✓ Source material |
-| 05-ARCHIVE | 7/10 | ⚠ Mixed value (some still useful) | ⚠ Unclear archival criteria |
+| 05-MEMORY | 7/10 | ⚠ Mixed value (some still useful) | ⚠ Unclear archival criteria |
 | 06-EXEMPLA | 6/10 | ⚠ Abstract naming | ⚠ "Examples of what?" |
 
 **Average Regional Coherence: 6.75/10** — Acceptable but room for improvement.
@@ -376,8 +376,8 @@ Wayfinding Failure: No master IIC document linking all pieces
 **Violations** (Too Many Items):
 - ✗ `00-ORCHESTRATION/directives/`: 60 files — **Exceeds working memory by 10x**
 - ✗ `01-CANON/`: 82 files — **Exceeds working memory by 12x**
-- ✗ `02-OPERATIONAL/`: 29 items (13 subdirs, 16 files) — **Exceeds working memory by 4x**
-- ✗ `05-ARCHIVE/`: 75 files — **Exceeds working memory by 10x**
+- ✗ `02-ENGINE/`: 29 items (13 subdirs, 16 files) — **Exceeds working memory by 4x**
+- ✗ `05-MEMORY/`: 75 files — **Exceeds working memory by 10x**
 
 **Mitigation**: Directories with >15 items MUST have an index/README file for chunking.
 
@@ -444,7 +444,7 @@ Benefit: Cognitive map for new agents
 | `-OUTGOING/` | Stage files for export | ✓ Yes | ✓ Accurate |
 | `-INBOX/` | Receive external files | ✓ Yes | ✓ Accurate |
 | `03-QUEUE/` | Find pending work | ⚠ Unclear if active | ⚠ Misleading |
-| `05-ARCHIVE/` | Ignore historical content | ✗ Some still valuable | ✗ Misleading |
+| `05-MEMORY/` | Ignore historical content | ✗ Some still valuable | ✗ Misleading |
 | CANON-XXXXX numbering | Navigate by number to find related docs | ✓ Works well | ✓ Accurate |
 | Celestial suffixes (-cosmos, -chain) | Understand document tier | ⚠ Requires schema knowledge | ⚠ Mild |
 | Directive numbers (018-046) | Find sequential work history | ⚠ Gaps, variants confusing | ⚠ Misleading |
@@ -467,7 +467,7 @@ Benefit: Cognitive map for new agents
 
 **1. ARCHIVE suggests "ignore me"**
 - **Reality**: Contains valuable reference documents (ARCH-STANDARDS, ARCH-ORACLE_DECISIONS)
-- **Fix**: Rename to `05-REFERENCE/` or create `05-ARCHIVE/STILL_ACTIVE.md` index
+- **Fix**: Rename to `05-REFERENCE/` or create `05-MEMORY/STILL_ACTIVE.md` index
 
 **2. QUEUE suggests "work here next"**
 - **Reality**: Contains "modal2" subdirectory with unclear status
@@ -496,7 +496,7 @@ Benefit: Cognitive map for new agents
 - **Files**: COCKPIT.md "Ground Truth" section, directory README files
 - **Content**: 7 numbered directories, their purposes
 - **Effectiveness**: **7/10** — Good in COCKPIT.md, but README files missing in most directories
-- **Gap**: No `01-CANON/README.md`, `02-OPERATIONAL/README.md`, `03-QUEUE/README.md`, `06-EXEMPLA/README.md`
+- **Gap**: No `01-CANON/README.md`, `02-ENGINE/README.md`, `03-QUEUE/README.md`, `06-EXEMPLA/README.md`
 
 **Layer 2: Details** (Specifics)
 - **Files**: Individual CANON documents, REF documents, directive files
@@ -521,12 +521,12 @@ Benefit: Cognitive map for new agents
 - **Fix**: Create `00-ORCHESTRATION/README.md` explaining state/, directives/, schemas/, etc.
 
 **Breakdown 3: IIC scattered across OPERATIONAL and CANON**
-- **Problem**: IIC configs in 02-OPERATIONAL/, IIC implementation in CANON-31115, IIC foundation in DIRECTIVE-042A
+- **Problem**: IIC configs in 02-ENGINE/, IIC implementation in CANON-31115, IIC foundation in DIRECTIVE-042A
 - **Fix**: Create `IIC-INDEX.md` at root linking all IIC components
 
 **Breakdown 4: Functions vs. Skills confusion**
-- **Problem**: 02-OPERATIONAL/README.md discusses "Skills" but they're described as conversions of XML "functions" — where are functions?
-- **Fix**: README.md should link to `02-OPERATIONAL/functions/` directory
+- **Problem**: 02-ENGINE/README.md discusses "Skills" but they're described as conversions of XML "functions" — where are functions?
+- **Fix**: README.md should link to `02-ENGINE/functions/` directory
 
 ### 6.3 Recommended Layering Improvements
 
@@ -546,7 +546,7 @@ Content:
 Create:
 - 01-CANON/README.md (hierarchical index by tier)
 - 00-ORCHESTRATION/README.md (explain structure, list active work)
-- 02-OPERATIONAL/README.md (categorize by function type)
+- 02-ENGINE/README.md (categorize by function type)
 - 06-EXEMPLA/README.md (explain proverbs, templates, cautionary tales)
 ```
 
@@ -580,10 +580,10 @@ In each CANON cosmos-tier document, add "See Also" section linking to:
 |-----------|------------------------|-------------|-----------------|------------------------|-------|
 | 00-ORCHESTRATION | 5 | ✓ Numbers | ✓ | 4 | Generic term, unclear purpose |
 | 01-CANON | 9 | ✓ Numbers | ✓ | 9 | "Canon" = authority (clear) |
-| 02-OPERATIONAL | 6 | ✓ Numbers | ✓ | 5 | Generic term |
+| 02-ENGINE | 6 | ✓ Numbers | ✓ | 5 | Generic term |
 | 03-QUEUE | 7 | ✓ Numbers | ✓ | 7 | Clear purpose (pending work) |
 | 04-SOURCES | 10 | ✓ Numbers | ✓ | 10 | Perfectly clear |
-| 05-ARCHIVE | 9 | ✓ Numbers | ✓ | 9 | Clear (historical) |
+| 05-MEMORY | 9 | ✓ Numbers | ✓ | 9 | Clear (historical) |
 | 06-EXEMPLA | 6 | ✓ Numbers | ✓ | 5 | Obscure term (Latin for "examples") |
 | -INBOX | 10 | ✓ Dash prefix | ✓ | 10 | Perfectly clear |
 | -OUTGOING | 10 | ✓ Dash prefix | ✓ | 10 | Perfectly clear |
@@ -715,13 +715,13 @@ Syncrescendence = Repository with mixed organizational paradigms
 │   ├─ state/ (DYN-, ARCH-, REF- files, inconsistent prefixes)
 │   ├─ schemas/, templates/, oracle_contexts/, execution_logs/, blackboard/
 │   └─ scripts/ (automation)
-├─ 02-OPERATIONAL/ = 29 items (13 subdirs, 16 files)
+├─ 02-ENGINE/ = 29 items (13 subdirs, 16 files)
 │   ├─ IIC configs (5 files)
 │   ├─ Protocols, prompts, functions, models, registries, specs, surveys...
 │   └─ No clear categorization
 ├─ 03-QUEUE/ = modal2/ subdirectory (purpose unclear)
 ├─ 04-SOURCES/ = raw/ + processed/ (clear structure)
-├─ 05-ARCHIVE/ = 75 files (mix of truly archived and still-valuable reference)
+├─ 05-MEMORY/ = 75 files (mix of truly archived and still-valuable reference)
 └─ 06-EXEMPLA/ = templates, proverbs, aphorisms, cautionary tales, phase markers
 
 Actual complexity:
@@ -800,7 +800,7 @@ Overall newcomer experience:
 **3. Add Directory Indexes**
 - `01-CANON/README.md` with hierarchical index
 - `00-ORCHESTRATION/README.md` explaining structure
-- `02-OPERATIONAL/README.md` categorizing by function type
+- `02-ENGINE/README.md` categorizing by function type
 
 **4. Define Prefix Semantics**
 - Add "Filename Conventions" section to CLAUDE.md
@@ -924,7 +924,7 @@ Overall newcomer experience:
   - List current work (directives 041-046)
   - Link to relevant state files
 
-- 02-OPERATIONAL/README.md
+- 02-ENGINE/README.md
   - Categorize IIC configs, protocols, functions, prompts
   - Explain directory structure
 
@@ -1009,7 +1009,7 @@ Each monolith becomes 2K-word overview with links to satellites.
 ```
 Current: 29 items mixed in single directory
 Proposed:
-  02-OPERATIONAL/
+  02-ENGINE/
     ├─ README.md (master index)
     ├─ iic/ (move all IIC-* files here)
     ├─ protocols/ (already exists, consolidate)
@@ -1085,7 +1085,7 @@ Audit all documents for broken cross-references:
 
 ### 11.2 Critical Failures (Fix Immediately)
 
-1. **Missing indexes** — 01-CANON, 00-ORCHESTRATION, 02-OPERATIONAL have no README files; new agents are lost
+1. **Missing indexes** — 01-CANON, 00-ORCHESTRATION, 02-ENGINE have no README files; new agents are lost
 2. **ORCHESTRATION directive soup** — 60 directives with no clear "active" state or index
 3. **CANON suffix overload** — 6-7 level suffix stacks create incomprehensible filenames
 4. **Undefined prefix semantics** — ARCH-, SCAFF- require tribal knowledge
@@ -1141,7 +1141,7 @@ Audit all documents for broken cross-references:
 1. ✅ Simplify CANON suffixes (switch to `-L0` through `-L6` tier codes)
 2. ✅ Split 7 CANON monoliths >10K words into satellites
 3. ✅ Move inactive directives (018-040) to archive subdirectory
-4. ✅ Create `02-OPERATIONAL/README.md` categorizing contents
+4. ✅ Create `02-ENGINE/README.md` categorizing contents
 5. ✅ Add frontmatter (status, last_updated) to all directives
 
 **Expected Impact**: Cognitive load reduces by 40%, token count reduces by 15%, chunking improves to optimal.
@@ -1249,7 +1249,7 @@ ROOT
 │  ├─ Chains (30000-35999) ✓
 │  └─ NEEDS: README.md with hierarchical index
 │
-├─ 02-OPERATIONAL/ ★★★☆☆ (5/10 scent)
+├─ 02-ENGINE/ ★★★☆☆ (5/10 scent)
 │  ├─ [29 items mixed ✗]
 │  ├─ IIC configs (scattered)
 │  └─ NEEDS: README.md categorizing by function
@@ -1263,7 +1263,7 @@ ROOT
 │  ├─ processed/ ✓
 │  └─ [Clear structure, good affordances]
 │
-├─ 05-ARCHIVE/ ★★★☆☆ (5/10 scent)
+├─ 05-MEMORY/ ★★★☆☆ (5/10 scent)
 │  ├─ [75 files, mix of dead + valuable ✗]
 │  └─ NEEDS: Clarify archival criteria
 │

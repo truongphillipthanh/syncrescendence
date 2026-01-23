@@ -31,7 +31,7 @@ check '[ $(find . -name ".DS_Store" | wc -l) -eq 0 ]' "No .DS_Store files"
 check '[ $(ls DIRECTIVE*.md 2>/dev/null | wc -l) -eq 0 ]' "No directives at root"
 check '[ $(ls ORACLE*.md 2>/dev/null | wc -l) -eq 0 ]' "No oracle contexts at root"
 
-warn_check '[ $(ls 05-ARCHIVE/ARCH-*.md 2>/dev/null | wc -l) -ge 9 ]' "Archive files created"
+warn_check '[ $(ls 05-MEMORY/ARCH-*.md 2>/dev/null | wc -l) -ge 9 ]' "Archive files created"
 warn_check '[ $(ls 00-ORCHESTRATION/directives/DIRECTIVE*.md 2>/dev/null | wc -l) -ge 10 ]' "Directives in place"
 
 # Link integrity (simple pass)

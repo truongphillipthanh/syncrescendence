@@ -21,7 +21,7 @@ The Syncrescendence repository is a highly structured distributed cognition syst
 - **Related**:
   - `-INBOX/memory-architecture-teleology.md` — **Elaboration**: The "why" behind the structure.
   - `-INBOX/memory-architecture-matrix.md` — **Elaboration**: The operational rules.
-  - `02-OPERATIONAL/memory/acumen-memory-config.md` — **Implementation**: Specific instance config.
+  - `02-ENGINE/memory/acumen-memory-config.md` — **Implementation**: Specific instance config.
 - **Recommendation**: **Canonize** the `-INBOX` items into `01-CANON/CANON-250xx` series to formalize the new memory tiering.
 
 ### Cluster: Evaluative Lenses (18 Lenses)
@@ -36,7 +36,7 @@ The Syncrescendence repository is a highly structured distributed cognition syst
 
 | File | Location | Issue | Recommendation |
 |------|----------|-------|----------------|
-| `AGENTS.md` | (root) | Orphan at root; should be in `02-OPERATIONAL` or `01-CANON`. | **Move** to `02-OPERATIONAL/registries/` |
+| `AGENTS.md` | (root) | Orphan at root; should be in `02-ENGINE` or `01-CANON`. | **Move** to `02-ENGINE/registries/` |
 | `lens_governance.md` | `00-ORCHESTRATION/` | Unprefixed, small (2.1K). Likely redundant to `REF-STANDARDS.md`. | **Absorb** into `REF-STANDARDS.md` then **Delete** |
 | `model_orchestration.md` | `00-ORCHESTRATION/` | Unprefixed, small (1.4K). | **Archive** or **Canonize** into `CANON-30420` |
 | `cognitive_core.md` | `00-ORCHESTRATION/` | Unprefixed. "Cognitive Core" is a key concept. | **Canonize** to `CANON-00018-COGNITIVE_CORE` or **Delete** if obsolete |
@@ -47,9 +47,9 @@ The Syncrescendence repository is a highly structured distributed cognition syst
 
 | File | Location | Evidence | Action |
 |------|----------|----------|--------|
-| `SCAFF-IIC_RECONNAISSANCE.md` | `00-ORCHESTRATION/state/` | "SCAFF-" prefix denotes temporary scaffolding. | ARCHIVE → `05-ARCHIVE/SCAFF-IIC_RECONNAISSANCE.md` |
-| `DIRECTIVE-017` through `DIRECTIVE-030` | `00-ORCHESTRATION/directives/` | Old directives (Oracle 9 era). | **Batch Archive** to `05-ARCHIVE/DIRECTIVES/` (if folder permitted) or leave as historical record if policy dictates |
-| `EXECUTION_LOG-2025-*` | `00-ORCHESTRATION/execution_logs/` | Last year's execution logs. | **Consider Archiving** to `05-ARCHIVE/LOGS-2025/` to reduce clutter |
+| `SCAFF-IIC_RECONNAISSANCE.md` | `00-ORCHESTRATION/state/` | "SCAFF-" prefix denotes temporary scaffolding. | ARCHIVE → `05-MEMORY/SCAFF-IIC_RECONNAISSANCE.md` |
+| `DIRECTIVE-017` through `DIRECTIVE-030` | `00-ORCHESTRATION/directives/` | Old directives (Oracle 9 era). | **Batch Archive** to `05-MEMORY/DIRECTIVES/` (if folder permitted) or leave as historical record if policy dictates |
+| `EXECUTION_LOG-2025-*` | `00-ORCHESTRATION/execution_logs/` | Last year's execution logs. | **Consider Archiving** to `05-MEMORY/LOGS-2025/` to reduce clutter |
 
 ## 4. Canonization Candidates
 
@@ -58,24 +58,24 @@ The Syncrescendence repository is a highly structured distributed cognition syst
 | `constellation-teleology.md` | `-INBOX/` | `01-CANON/CANON-25210-CONSTELLATION_TELEOLOGY-lattice.md` | Foundational architectural philosophy for the current phase. |
 | `memory-architecture-teleology.md` | `-INBOX/` | `01-CANON/CANON-25010-MEMORY_TELEOLOGY-lattice.md` | Defines the "why" of the new memory system. |
 | `INTERACTION_DYNAMICS_SPECIFICATION.md` | `-INBOX/` | `01-CANON/CANON-30460-INTERACTION_DYNAMICS-comet.md` | High-value spec (40KB) defining agent interaction rules. |
-| `COCKPIT.md` | `-INBOX/` | `02-OPERATIONAL/DYN-COCKPIT.md` | Duplicate of root COCKPIT? If newer, update root. |
-| `CONFIGURATION_REGISTRY.md` | `-INBOX/` | `02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md` | Operational registry belonging in active context. |
+| `COCKPIT.md` | `-INBOX/` | `02-ENGINE/DYN-COCKPIT.md` | Duplicate of root COCKPIT? If newer, update root. |
+| `CONFIGURATION_REGISTRY.md` | `-INBOX/` | `02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md` | Operational registry belonging in active context. |
 
 ## 5. Hidden Intentions (Surfaced from Archive)
 
 | File | Location | Intention Found | Status |
 |------|----------|-----------------|--------|
-| `SCAFF-ORACLE09_FINAL_CULMINATION.md` | `05-ARCHIVE/` | "Transcript Ingestion: 184 raw sources... Only 8 processed." | **FAILED MISSION**. This debt is still unpaid. Sources need processing. |
-| `SCAFF-ORACLE09_FINAL_CULMINATION.md` | `05-ARCHIVE/` | "Flat Principle: All directories must be FLAT." | **VIOLATED**. Nested dirs exist in `-OUTGOING`, `04-SOURCES/raw/claudecode`, etc. |
-| `ARCH-ORACLE10_CONTEXT_v4.md` | `05-ARCHIVE/` | "Claude 2/3 web app utilization... Scheduled utilization." | **UNEXECUTED**. No evidence of systematic Web App usage in current logs. |
-| `RESEARCH-20260108-claude_code_optimization.md` | `05-ARCHIVE/` | "Deep research outputs... Distill unique value into CANON." | **PENDING**. Check if this 28KB file has been distilled. |
+| `SCAFF-ORACLE09_FINAL_CULMINATION.md` | `05-MEMORY/` | "Transcript Ingestion: 184 raw sources... Only 8 processed." | **FAILED MISSION**. This debt is still unpaid. Sources need processing. |
+| `SCAFF-ORACLE09_FINAL_CULMINATION.md` | `05-MEMORY/` | "Flat Principle: All directories must be FLAT." | **VIOLATED**. Nested dirs exist in `-OUTGOING`, `04-SOURCES/raw/claudecode`, etc. |
+| `ARCH-ORACLE10_CONTEXT_v4.md` | `05-MEMORY/` | "Claude 2/3 web app utilization... Scheduled utilization." | **UNEXECUTED**. No evidence of systematic Web App usage in current logs. |
+| `RESEARCH-20260108-claude_code_optimization.md` | `05-MEMORY/` | "Deep research outputs... Distill unique value into CANON." | **PENDING**. Check if this 28KB file has been distilled. |
 
 ## 6. Nomenclature Violations
 
 | File | Current Name | Issue | Suggested Fix |
 |------|--------------|-------|---------------|
 | `blitzkrieg_finalize.sh` | `00-ORCHESTRATION/scripts/` | Lowercase. | `BLITZKRIEG_FINALIZE.sh` (or accept lowercase for scripts?) |
-| `coordination.yaml` | `02-OPERATIONAL/` | Lowercase. Critical config. | `COORDINATION.yaml` (match `MCP_SETUP.md`) |
+| `coordination.yaml` | `02-ENGINE/` | Lowercase. Critical config. | `COORDINATION.yaml` (match `MCP_SETUP.md`) |
 | `burndown.csv` | `00-ORCHESTRATION/state/` | Lowercase. | `DYN-BURNDOWN.csv` |
 | `projects.csv` | `00-ORCHESTRATION/state/` | Lowercase. | `DYN-PROJECTS.csv` |
 | `tasks.csv` | `00-ORCHESTRATION/state/` | Lowercase. | `DYN-TASKS.csv` |
@@ -116,10 +116,10 @@ Current -INBOX contents requiring Principal decision:
 | `constellation-teleology.md` | 32KB | Architectural philosophy. | **CANONIZE** to `01-CANON/` | High |
 | `memory-architecture-teleology.md` | 34KB | Architectural philosophy. | **CANONIZE** to `01-CANON/` | High |
 | `constellation-bifurcated-architecture.jsx` | 34KB | React component/Diagram. | **MOVE** to `04-SOURCES/assets/` or `06-EXEMPLA/` | Medium |
-| `last_5_interactions.zip` | 20KB | Context capture. | **ARCHIVE** to `05-ARCHIVE/` | High |
+| `last_5_interactions.zip` | 20KB | Context capture. | **ARCHIVE** to `05-MEMORY/` | High |
 | `state-fingerprint-solution.md` | 19KB | Solution proposal. | **OPERATIONALIZE** or **ARCHIVE** | Medium |
 | `DIR-20260120-EXECUTION-LOG-INFRASTRUCTURE.md` | 8.9KB | Forward-dated Directive? | **MOVE** to `00-ORCHESTRATION/directives/` | High |
-| `GEMINI-CORPUS-SENSING-PROMPT.md` | 6.7KB | This prompt. | **MOVE** to `00-ORCHESTRATION/scripts/` or `02-OPERATIONAL/prompts/` | High |
+| `GEMINI-CORPUS-SENSING-PROMPT.md` | 6.7KB | This prompt. | **MOVE** to `00-ORCHESTRATION/scripts/` or `02-ENGINE/prompts/` | High |
 
 ## 10. Recommended Immediate Actions
 
@@ -133,10 +133,10 @@ Current -INBOX contents requiring Principal decision:
 - **-OUTGOING**: 66 files (Mostly reports and zips)
 - **00-ORCHESTRATION**: 182 files (Directives and Logs dominate)
 - **01-CANON**: 79 files (Massive token weight here)
-- **02-OPERATIONAL**: 83 files (Functional execution layer)
+- **02-ENGINE**: 83 files (Functional execution layer)
 - **03-QUEUE**: 7 files (Light load)
 - **04-SOURCES**: 279 files (Bulk of storage, `raw/` has 199 items)
-- **05-ARCHIVE**: 81 files (Historical record)
+- **05-MEMORY**: 81 files (Historical record)
 - **06-EXEMPLA**: 5 files (Templates)
 - **Root**: 4 files (Clean)
 

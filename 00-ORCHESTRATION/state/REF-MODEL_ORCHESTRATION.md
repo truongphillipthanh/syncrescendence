@@ -10,7 +10,7 @@ Principal ↔ Web Apps (Claude / Gemini / ChatGPT) ↔ Repo (Codex CLI / Claude 
 - **Gemini**: corpus-scale sensing, ingestion, multimodal processing.
 - **Codex CLI (ChatGPT)**: reasoning, synthesis, and repo edits when assigned.
 
-Source of truth for routing and roles: `02-OPERATIONAL/coordination.yaml` and `01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md`.
+Source of truth for routing and roles: `02-ENGINE/coordination.yaml` and `01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md`.
 
 ## Role allocation (default)
 - **Strategic synthesis**: Claude (Oracle thread) or ChatGPT when specified.

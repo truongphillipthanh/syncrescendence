@@ -150,7 +150,7 @@ cat tasks.csv | grep -c "not_started"
 **Duration**: ~15 minutes
 
 ### Principal's Context
-> "The actual semantic content of /05-ARCHIVE needs to be digested into coherence. It cannot be a junk drawer. Each token must fight and achieve teleology."
+> "The actual semantic content of /05-MEMORY needs to be digested into coherence. It cannot be a junk drawer. Each token must fight and achieve teleology."
 
 ### Task 3.1: Audit SCAFF-* Files
 

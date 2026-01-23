@@ -33,7 +33,7 @@ This directory encodes CIVILIZATIONAL KNOWLEDGE TRANSFER.
 2. Extract the teaching: What did this reveal?
 3. Compress to essence: Aphorism, proverb, or tale
 4. Commit to EXEMPLA: Permanent wisdom layer
-5. Archive raw logs: 05-ARCHIVE with 30-day TTL
+5. Archive raw logs: 05-MEMORY with 30-day TTL
 6. Let go: Git preserves history; cognitive core stays lean
 
 ## Teleology
@@ -85,10 +85,10 @@ EXEMPLA content should be:
 ```
 00-ORCHESTRATION/ — Coordination infrastructure
 01-CANON/         — What (constitutional, defended)
-02-OPERATIONAL/   — Active (living documents)
+02-ENGINE/   — Active (living documents)
 03-QUEUE/         — Synthesis inbox (high-signal only)
 04-SOURCES/       — Curated references (preservation-worthy)
-05-ARCHIVE/       — Short-term memory (30-day TTL)
+05-MEMORY/       — Short-term memory (30-day TTL)
 06-EXEMPLA/       — Wisdom layer (civilizational knowledge transfer) <- THIS
 ```
 

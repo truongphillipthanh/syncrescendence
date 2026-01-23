@@ -77,7 +77,7 @@ Audit of 04-SOURCES and 03-QUEUE directories for potential Google Drive offload 
 
 ---
 
-## 05-ARCHIVE Analysis
+## 05-MEMORY Analysis
 
 ### Summary Statistics
 - **Total files**: 113
@@ -152,7 +152,7 @@ These manifests can be used for upload automation and verification.
 1. **Immediate**: Offload `04-SOURCES/raw/*.txt` to Google Drive
 2. **Immediate**: Add .DS_Store to .gitignore
 3. **Near-term**: Triage 03-QUEUE/modal2/ items
-4. **Ongoing**: Monitor 05-ARCHIVE growth, offload when >10M
+4. **Ongoing**: Monitor 05-MEMORY growth, offload when >10M
 
 ---
 

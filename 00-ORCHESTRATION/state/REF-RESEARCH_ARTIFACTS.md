@@ -25,13 +25,13 @@ Handle deep research outputs systematically to prevent root pollution and ensure
 ```
 Is this a deep research report (Type 1)?
 ├─ YES: Does it contain unique value not in CANON?
-│   ├─ YES: Archive as RESEARCH-{date}-{topic}.md in 05-ARCHIVE/
+│   ├─ YES: Archive as RESEARCH-{date}-{topic}.md in 05-MEMORY/
 │   └─ NO: Distill into relevant CANON, delete original
 └─ NO: Is this an Oracle context (Type 2)?
     ├─ YES: Move to 00-ORCHESTRATION/oracle_contexts/
     └─ NO: Is this a directive/execution artifact (Type 3)?
         ├─ YES: Move to appropriate 00-ORCHESTRATION/ subdirectory
-        └─ NO: Evaluate case-by-case, default to 05-ARCHIVE/
+        └─ NO: Evaluate case-by-case, default to 05-MEMORY/
 ```
 
 ## Naming Convention

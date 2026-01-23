@@ -61,10 +61,10 @@ echo "PREVIEW: move CANON-31150-PLATFORM_CATALOG-lunar-ACUMEN-planetary-INFORMAT
 echo "PREVIEW: move research prompts and directories to 04-SOURCES/raw/ (see refined plan for full list)"
 
 # Phase F: Symbolic compression + archive (preview)
-echo "PREVIEW: create ARCH-* compressions in 05-ARCHIVE/ before removing originals"
+echo "PREVIEW: create ARCH-* compressions in 05-MEMORY/ before removing originals"
 
 # Phase G: Directory consolidation (preview)
-echo "PREVIEW: audit system_prompts/ vs 02-OPERATIONAL/prompts/ then merge unique files"
+echo "PREVIEW: audit system_prompts/ vs 02-ENGINE/prompts/ then merge unique files"
 
 # Phase H: Working documents (preview)
 echo "PREVIEW: apply Principal decisions for checklist.md, INTERACTION_PARADIGM.md, rapport_contract.md"

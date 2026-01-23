@@ -628,7 +628,7 @@ INTEGRATIONS=$(grep -l "SOURCE-" 01-CANON/*.md 2>/dev/null | wc -l | tr -d ' ')
 echo "$INTEGRATIONS"
 
 echo -n "│ Function XMLs: "
-FUNCTIONS=$(ls 02-OPERATIONAL/*.xml 2>/dev/null | wc -l | tr -d ' ')
+FUNCTIONS=$(ls 02-ENGINE/*.xml 2>/dev/null | wc -l | tr -d ' ')
 echo "$FUNCTIONS"
 echo "└──────────────────────────────────────────"
 echo ""
@@ -712,7 +712,7 @@ def generate_dashboard():
     canon_files = count_files('01-CANON/*.md')
     processed_sources = count_files('04-SOURCES/processed/*.md')
     raw_sources = count_files('04-SOURCES/raw/*.txt')
-    function_xmls = count_files('02-OPERATIONAL/*.xml')
+    function_xmls = count_files('02-ENGINE/*.xml')
     
     tasks_total = count_csv_rows('00-ORCHESTRATION/state/tasks.csv')
     tasks_done = count_csv_status('00-ORCHESTRATION/state/tasks.csv', 'done')

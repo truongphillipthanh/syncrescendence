@@ -62,7 +62,7 @@ Syncrescendence is an 808-file, 18MB knowledge corpus that should optimally comp
    - Duplicate function definitions (md AND xml)
    - Tree generator output mismatch
 
-3. **Missing Indexes**: No README in 01-CANON/, 00-ORCHESTRATION/, 02-OPERATIONAL/
+3. **Missing Indexes**: No README in 01-CANON/, 00-ORCHESTRATION/, 02-ENGINE/
 
 4. **Account 4 & 5 Undefined**: CANON-31141 references "Five-Account Architecture" but only 3 accounts exist in registries.
 
@@ -209,7 +209,7 @@ These require human decision before any proposal can execute:
 
 ### Type 1 (Irreversible, High-Stakes)
 
-1. **Directory Renaming**: 02-OPERATIONAL → 02-ENGINE?
+1. **Directory Renaming**: 02-ENGINE → 02-ENGINE?
 2. **Account Architecture**: Formalize 4 & 5 OR revise to Three-Account?
 3. **Intelligence Chain**: Dual-ontology meta-layer OR resolve asymmetry?
 4. **Symbolic Compression Scope**: How aggressive?

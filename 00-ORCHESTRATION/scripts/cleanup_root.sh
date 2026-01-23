@@ -43,11 +43,11 @@ for file in $ROOT_MD; do
         DATE=$(date +%Y%m%d)
         SLUG=$(echo "$file" | sed 's/.md$//' | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
         NEWNAME="RESEARCH-${DATE}-${SLUG}.md"
-        echo "    → Archiving as 05-ARCHIVE/$NEWNAME"
-        mv "$file" "05-ARCHIVE/$NEWNAME"
+        echo "    → Archiving as 05-MEMORY/$NEWNAME"
+        mv "$file" "05-MEMORY/$NEWNAME"
     else
-        echo "    → Default: Archiving to 05-ARCHIVE/"
-        mv "$file" 05-ARCHIVE/
+        echo "    → Default: Archiving to 05-MEMORY/"
+        mv "$file" 05-MEMORY/
     fi
 done
 

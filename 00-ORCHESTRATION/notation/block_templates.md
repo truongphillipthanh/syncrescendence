@@ -79,7 +79,7 @@ NORM FlatPrinciple:
         modality: MUST
         subject: all_directories
         action: forbid(subdirectories) ∧ require(prefix_naming)
-        scope: [00-ORCHESTRATION, 01-CANON, 02-OPERATIONAL, 04-SOURCES, 05-ARCHIVE, 06-EXEMPLA]
+        scope: [00-ORCHESTRATION, 01-CANON, 02-ENGINE, 04-SOURCES, 05-MEMORY, 06-EXEMPLA]
         invariant: "∀ dir ∈ scope: depth(dir) = 1"
         violation: "Breaks agent navigation | increases decision depth"
     gloss:

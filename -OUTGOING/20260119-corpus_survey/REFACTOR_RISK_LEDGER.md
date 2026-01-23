@@ -37,7 +37,7 @@ This document catalogs flattening risks discovered during the corpus survey.
 - Bakeoff artifacts compare multi-model outputs
 
 **Preservation Strategy**:
-- Keep archives in `-OUTGOING/` or move to `05-ARCHIVE/`
+- Keep archives in `-OUTGOING/` or move to `05-MEMORY/`
 - Never unzip and flatten into working tree
 - Maintain as sealed capsules
 
@@ -55,7 +55,7 @@ This document catalogs flattening risks discovered during the corpus survey.
 
 **Preservation Strategy**:
 - Keep timestamped, never overwrite
-- Archive old logs to `05-ARCHIVE/` if needed
+- Archive old logs to `05-MEMORY/` if needed
 - Maintain directive linkage
 
 ---
@@ -64,7 +64,7 @@ This document catalogs flattening risks discovered during the corpus survey.
 
 ### ChatGPT Memory Synchronization
 
-**Artifact**: `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md`
+**Artifact**: `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md`
 
 **Quirk**:
 - ChatGPT's Saved Memory has strict formatting requirements
@@ -127,7 +127,7 @@ This document catalogs flattening risks discovered during the corpus survey.
 ### Multiple Blitzkrieg Protocol Documents
 
 **Locations**:
-- `02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md`
+- `02-ENGINE/BLITZKRIEG_PROTOCOL.md`
 - `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
 
 **Why This Duplication Exists**:
@@ -144,7 +144,7 @@ This document catalogs flattening risks discovered during the corpus survey.
 
 ### IIC Config Files
 
-**Location**: `02-OPERATIONAL/IIC-*-config.md`
+**Location**: `02-ENGINE/IIC-*-config.md`
 **Files**: 5 files (Acumen, Coherence, Efficacy, Mastery, Transcendence)
 
 **Why This Structure Exists**:

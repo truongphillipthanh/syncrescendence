@@ -13,8 +13,8 @@
 ## Phase Results
 
 ### Phase 1: Nomenclature Normalization
-- `02-OPERATIONAL/coordination.yaml` → `DYN-COORDINATION.yaml`
-- `02-OPERATIONAL/operational_engine.md` → `REF-OPERATIONAL_ENGINE.md`
+- `02-ENGINE/coordination.yaml` → `DYN-COORDINATION.yaml`
+- `02-ENGINE/operational_engine.md` → `REF-OPERATIONAL_ENGINE.md`
 - `06-EXEMPLA/mcp.json.template` → `templates/TEMPLATE-MCP_CONFIG.json`
 - `04-SOURCES/rename_mapping.csv` → `REF-RENAME_MAPPING.csv`
 
@@ -35,10 +35,10 @@
 
 ### Phase 5: -INBOX Triage
 - `DIR-20260123-LOW-HANGING-FRUIT.md` → `00-ORCHESTRATION/directives/`
-- `GEMINI-CLI-FORENSIC-PROMPTS.md` → `02-OPERATIONAL/prompts/`
-- `HANDOFF-AJNA4-TO-AJNA5.md` → `05-ARCHIVE/chorus-session-20260122/`
-- `AJNA5-TRANSITION-PACKET.md` → `05-ARCHIVE/chorus-session-20260122/`
-- `CHORUS-ARCHITECTURE-v3.md` → `05-ARCHIVE/chorus-session-20260122/`
+- `GEMINI-CLI-FORENSIC-PROMPTS.md` → `02-ENGINE/prompts/`
+- `HANDOFF-AJNA4-TO-AJNA5.md` → `05-MEMORY/chorus-session-20260122/`
+- `AJNA5-TRANSITION-PACKET.md` → `05-MEMORY/chorus-session-20260122/`
+- `CHORUS-ARCHITECTURE-v3.md` → `05-MEMORY/chorus-session-20260122/`
 
 ### Phase 6: Root Files Created
 - `GEMINI.md` — Gemini CLI configuration

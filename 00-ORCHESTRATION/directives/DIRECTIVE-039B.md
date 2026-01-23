@@ -13,7 +13,7 @@
 
 You are Claude 3, executing Stream B of Oracle 10. You have received this directive alongside ORACLE10_CONTEXT.md. READ THE CONTEXT FIRST.
 
-**Your mandate**: Pay down structural debt in 05-ARCHIVE/ and 06-EXEMPLA/, then process paradigm-tier sources (different batch from Stream A).
+**Your mandate**: Pay down structural debt in 05-MEMORY/ and 06-EXEMPLA/, then process paradigm-tier sources (different batch from Stream A).
 
 **Critical anti-patterns to avoid**:
 - Do NOT create subdirectories (FLAT PRINCIPLE)
@@ -23,18 +23,18 @@ You are Claude 3, executing Stream B of Oracle 10. You have received this direct
 
 ---
 
-## PHASE 1: FLATTEN 05-ARCHIVE/scaffolding/ (~15 minutes)
+## PHASE 1: FLATTEN 05-MEMORY/scaffolding/ (~15 minutes)
 
 ### 1.1 Current State Assessment
 ```bash
-cd /path/to/syncrescendence/05-ARCHIVE
+cd /path/to/syncrescendence/05-MEMORY
 ls -la scaffolding/
 ```
 Expected: 16 files in scaffolding/ subdirectory
 
 ### 1.2 Execute Flattening
 ```bash
-cd 05-ARCHIVE
+cd 05-MEMORY
 
 # Move all scaffolding files to root with SCAFF- prefix
 mv scaffolding/ALPHA_ARCHAEOLOGY_REPORT.md SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md
@@ -61,14 +61,14 @@ rmdir scaffolding
 ### 1.3 Verification
 ```bash
 # Confirm no subdirectories remain
-find 05-ARCHIVE -type d | wc -l  # Must be 1
+find 05-MEMORY -type d | wc -l  # Must be 1
 
 # Confirm all files accessible
-ls 05-ARCHIVE/*.md | wc -l  # Should be ~24 (existing + newly flattened)
+ls 05-MEMORY/*.md | wc -l  # Should be ~24 (existing + newly flattened)
 ```
 
 ### 1.4 Update README.md
-Update `05-ARCHIVE/README.md` to reflect:
+Update `05-MEMORY/README.md` to reflect:
 - New flat structure
 - SCAFF- prefix convention for Oracle process archaeology
 - ARCHIVE- prefix for implementation specs
@@ -219,14 +219,14 @@ Integration method:
 
 ### 4.1 Structural Verification
 ```bash
-# 05-ARCHIVE flat
-find 05-ARCHIVE -type d | wc -l  # Must be 1
+# 05-MEMORY flat
+find 05-MEMORY -type d | wc -l  # Must be 1
 
 # 06-EXEMPLA flat
 find 06-EXEMPLA -type d | wc -l  # Must be 1
 
 # No flat violations created
-find 05-ARCHIVE 06-EXEMPLA -mindepth 2 -type d  # Should be empty
+find 05-MEMORY 06-EXEMPLA -mindepth 2 -type d  # Should be empty
 ```
 
 ### 4.2 Processing Verification
@@ -250,7 +250,7 @@ Structure:
 **Executor**: Claude 3 (Stream B)
 **Status**: COMPLETE | PARTIAL
 
-## Phase 1: Flatten 05-ARCHIVE/scaffolding/
+## Phase 1: Flatten 05-MEMORY/scaffolding/
 - Files moved: [count]
 - Directories removed: 1
 - Verification: PASS/FAIL
@@ -278,7 +278,7 @@ Structure:
 ## SUCCESS CRITERIA
 
 Stream B is COMPLETE when:
-- [ ] 05-ARCHIVE/ contains 0 subdirectories
+- [ ] 05-MEMORY/ contains 0 subdirectories
 - [ ] 06-EXEMPLA/ contains 0 subdirectories
 - [ ] 15+ sources processed in 04-SOURCES/processed/
 - [ ] 5+ sources integrated into CANON
@@ -301,7 +301,7 @@ Stream B is COMPLETE when:
 ## DELIVERABLES
 
 Output to repository:
-1. Flattened 05-ARCHIVE/ (no scaffolding/ subdir)
+1. Flattened 05-MEMORY/ (no scaffolding/ subdir)
 2. Flattened 06-EXEMPLA/ (no case-studies/ or worked-examples/ subdirs)
 3. 15+ processed source briefs in 04-SOURCES/processed/
 4. Updated sources.csv

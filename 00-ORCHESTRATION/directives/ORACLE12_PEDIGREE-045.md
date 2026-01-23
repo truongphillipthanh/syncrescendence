@@ -91,7 +91,7 @@ Skills will reside in `.claude/skills/` following Claude Code conventions:
 ## DEPENDENCIES
 
 ### This Blitzkrieg Requires
-- Access to existing IIC configs: `02-OPERATIONAL/iic/IIC-Acumen-config.md`, `IIC-Coherence-config.md`, `IIC-shared-protocols.md`
+- Access to existing IIC configs: `02-ENGINE/iic/IIC-Acumen-config.md`, `IIC-Coherence-config.md`, `IIC-shared-protocols.md`
 - Access to CANON documents for chain mapping
 - Skills directory creation (`.claude/skills/`)
 
@@ -131,7 +131,7 @@ Skills will reside in `.claude/skills/` following Claude Code conventions:
 
 ### Parallel Execution
 Both streams execute simultaneously with no file conflicts:
-- Stream A operates in `02-OPERATIONAL/iic/`
+- Stream A operates in `02-ENGINE/iic/`
 - Stream B operates in `.claude/skills/`
 
 ### Completion Criteria

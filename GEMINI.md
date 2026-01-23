@@ -32,7 +32,7 @@ Produce actionable recommendations from corpus analysis.
 | `01-CANON/` | Canonical knowledge (read for context, do not modify) |
 | `04-SOURCES/` | Source material for processing |
 | `00-ORCHESTRATION/state/` | Current system state |
-| `02-OPERATIONAL/` | Active protocols and configurations |
+| `02-ENGINE/` | Active protocols and configurations |
 | `06-EXEMPLA/` | Wisdom layer, templates, examples |
 
 ## Output Format
@@ -70,7 +70,7 @@ All outputs should be evidence packs delivered to `-OUTGOING/`:
 
 ## Forensic Prompts
 
-See `02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md` for specialized analysis prompts.
+See `02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md` for specialized analysis prompts.
 
 ## Semantic Notation (SN) - NEW (2026-01-23)
 

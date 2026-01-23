@@ -17,7 +17,7 @@ Read-only audit of outgoing/DEFRAG_CONVICTION_PASS_20260117_1609 with current re
 1. APPLY gating is correctly specified but plan assumes `OUTGOING/` in some checks. Repo has both `outgoing/` and `OUTGOING/`, so verification filters that only exclude `OUTGOING` will still flag `outgoing/` as orphan.
 2. DIRECTIVE-043 numbering collisions remain the primary blocker; defrag apply cannot proceed until winners are selected.
 3. Root directives 042A/042B already exist in 00-ORCHESTRATION/directives/; defrag plan needs a diff/merge check before deletion/compression.
-4. system_prompts/ vs 02-OPERATIONAL/prompts/ requires a file-by-file audit; no evidence in this pass that prompt sets are already reconciled.
+4. system_prompts/ vs 02-ENGINE/prompts/ requires a file-by-file audit; no evidence in this pass that prompt sets are already reconciled.
 5. Symbolic compression templates are present but incomplete for several files; apply should not archive without filling templates.
 6. .DS_Store exists in repo (git status shows modification), so detritus removal step is actionable but must be gated by approval.
 

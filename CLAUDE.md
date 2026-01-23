@@ -27,10 +27,10 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 ## Directory Structure
 - `00-ORCHESTRATION/` — Strategic coordination (directives, logs, state)
 - `01-CANON/` — Verified canonical knowledge (PROTECTED)
-- `02-OPERATIONAL/` — Functions, prompts, model profiles
+- `02-ENGINE/` — Functions, prompts, model profiles
 - `03-QUEUE/` — Pending items by modal
 - `04-SOURCES/` — Source documents (raw/, processed/)
-- `05-ARCHIVE/` — Historical preservation
+- `05-MEMORY/` — Historical preservation
 - `06-EXEMPLA/` — Templates and examples
 - `-OUTGOING/` — Export staging, reinit capsules, cross-platform handoffs
 - `-INBOX/` — Incoming artifacts from external platforms

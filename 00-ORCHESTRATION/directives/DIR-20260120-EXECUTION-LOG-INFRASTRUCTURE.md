@@ -180,12 +180,12 @@ These files are infrastructure-complete and should move:
 |--------|-------------|-----------|
 | `-INBOX/constellation-teleology.md` | `01-CANON/CANON-constellation-teleology.md` | Defines the architectural why; referenced by all agents |
 | `-INBOX/memory-architecture-teleology.md` | `01-CANON/CANON-memory-architecture-teleology.md` | Same |
-| `-INBOX/CHATGPT_COMPILER_HANDOFF.md` | `02-OPERATIONAL/prompts/canonical/CHATGPT_COMPILER_HANDOFF.md` | Active operational document |
-| `-INBOX/constellation-architecture.jsx` | `05-ARCHIVE/ARCH-constellation-architecture-v1.jsx` | Superseded by implementation; keep for reference |
+| `-INBOX/CHATGPT_COMPILER_HANDOFF.md` | `02-ENGINE/prompts/canonical/CHATGPT_COMPILER_HANDOFF.md` | Active operational document |
+| `-INBOX/constellation-architecture.jsx` | `05-MEMORY/ARCH-constellation-architecture-v1.jsx` | Superseded by implementation; keep for reference |
 | `-INBOX/COCKPIT.md` | Evaluate after sensing sweep | May duplicate root COCKPIT.md |
 
 **Do NOT move** (requires sensing sweep first):
-- `accounts.csv`, `platforms.csv`, `roles.csv` — May belong in `02-OPERATIONAL/registries/` or need consolidation
+- `accounts.csv`, `platforms.csv`, `roles.csv` — May belong in `02-ENGINE/registries/` or need consolidation
 - `CONFIGURATION_REGISTRY.md` — Unclear if current
 - `INTERACTION_DYNAMICS_SPECIFICATION.md` — May be scaffold
 - `grok-red-team-instructions.md` — Unclear status
@@ -197,11 +197,11 @@ mv -INBOX/constellation-teleology.md 01-CANON/CANON-constellation-teleology.md
 mv -INBOX/memory-architecture-teleology.md 01-CANON/CANON-memory-architecture-teleology.md
 
 # Confirmed operational
-mkdir -p 02-OPERATIONAL/prompts/canonical
-mv -INBOX/CHATGPT_COMPILER_HANDOFF.md 02-OPERATIONAL/prompts/canonical/
+mkdir -p 02-ENGINE/prompts/canonical
+mv -INBOX/CHATGPT_COMPILER_HANDOFF.md 02-ENGINE/prompts/canonical/
 
 # Archive (superseded)
-mv -INBOX/constellation-architecture.jsx 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx
+mv -INBOX/constellation-architecture.jsx 05-MEMORY/ARCH-constellation-architecture-v1.jsx
 
 git add -A
 git commit -m "triage(-INBOX): canonize teleology docs, operationalize compiler handoff, archive jsx"
@@ -283,7 +283,7 @@ cat 00-ORCHESTRATION/execution_logs/DIR-20260120-CONSTELLATION-INFRASTRUCTURE.md
 
 # Triage completed
 ls 01-CANON/CANON-*-teleology.md
-ls 02-OPERATIONAL/prompts/canonical/CHATGPT_COMPILER_HANDOFF.md
+ls 02-ENGINE/prompts/canonical/CHATGPT_COMPILER_HANDOFF.md
 ```
 
 ---

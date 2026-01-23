@@ -46,7 +46,7 @@ selection_rationale: |
 - Flat Principle: All directories flat (no nesting beyond one level)
 - Metadata prefixes: ARCH-, CANON-, REF-, DYN-, DIR-, TEMPLATE-, LESSON-, TALE-, APHORISM-
 - Execution logs persist to 00-ORCHESTRATION/execution_logs/
-- Git history is the true archive; 05-ARCHIVE is short-term memory
+- Git history is the true archive; 05-MEMORY is short-term memory
 
 ### Dependencies
 - prior_handoff: DIR-20260120-CONSTELLATION-INFRASTRUCTURE (COMPLETE)
@@ -130,10 +130,10 @@ Success state: Repository aligned with integrated architecture where directory p
 ## CONSTRAINTS
 
 - All file operations reversible via git (Type 2 decisions)
-- Do NOT delete files—archive to 05-ARCHIVE or move appropriately
+- Do NOT delete files—archive to 05-MEMORY or move appropriately
 - Do NOT modify files >50KB without explicit Principal approval
 - Preserve all git history
-- 05-ARCHIVE items have implicit 30-day TTL (document this, don't enforce automatically)
+- 05-MEMORY items have implicit 30-day TTL (document this, don't enforce automatically)
 
 ---
 
@@ -413,7 +413,7 @@ This directory holds HIGH-SIGNAL artifacts awaiting CANON integration.
 3. Artifact either:
    - Integrates into 01-CANON (defended)
    - Moves to 04-SOURCES (curated reference)
-   - Archives to 05-ARCHIVE (short-term memory)
+   - Archives to 05-MEMORY (short-term memory)
 
 ## Teleology
 "The airlock before CANON entry"
@@ -446,9 +446,9 @@ This directory holds PRESERVATION-WORTHY reference materials.
 "Only what deserves permanent preservation in the cognitive core"
 EOF
 
-# 05-ARCHIVE → SHORT-TERM MEMORY
-cat > "05-ARCHIVE/README.md" << 'EOF'
-# 05-ARCHIVE: SHORT-TERM MEMORY
+# 05-MEMORY → SHORT-TERM MEMORY
+cat > "05-MEMORY/README.md" << 'EOF'
+# 05-MEMORY: SHORT-TERM MEMORY
 
 ## Purpose (Revised 2026-01-22)
 This directory is a STAGING AREA for metabolism, not permanent storage.
@@ -510,7 +510,7 @@ This directory encodes CIVILIZATIONAL KNOWLEDGE TRANSFER.
 2. Extract the teaching: What did this reveal?
 3. Compress to essence: Aphorism, proverb, or tale
 4. Commit to EXEMPLA: Permanent wisdom layer
-5. Archive raw logs: 05-ARCHIVE with 30-day TTL
+5. Archive raw logs: 05-MEMORY with 30-day TTL
 6. Let go: Git preserves history; cognitive core stays lean
 
 ## Teleology
@@ -770,9 +770,9 @@ EOF
 ### 4.1 Create Avatar Infrastructure
 
 ```bash
-mkdir -p 02-OPERATIONAL/avatars
+mkdir -p 02-ENGINE/avatars
 
-cat > "02-OPERATIONAL/avatars/README.md" << 'EOF'
+cat > "02-ENGINE/avatars/README.md" << 'EOF'
 # Avatar Directory
 
 ## Purpose
@@ -836,7 +836,7 @@ For [problem type]:
 EOF
 
 # Create first avatar based on Chorus evidence
-cat > "02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md" << 'EOF'
+cat > "02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md" << 'EOF'
 # IDEATE-ChatGPT-Acc1
 
 ## Demonstrated Competencies
@@ -915,7 +915,7 @@ cd 04-SOURCES/
 cd ..
 
 # Root orphans
-[ -f "AGENTS.md" ] && mkdir -p 02-OPERATIONAL/registries && mv AGENTS.md 02-OPERATIONAL/registries/REF-AGENTS.md && echo "Moved: AGENTS.md → 02-OPERATIONAL/registries/REF-AGENTS.md"
+[ -f "AGENTS.md" ] && mkdir -p 02-ENGINE/registries && mv AGENTS.md 02-ENGINE/registries/REF-AGENTS.md && echo "Moved: AGENTS.md → 02-ENGINE/registries/REF-AGENTS.md"
 
 echo "Nomenclature normalization complete"
 ```
@@ -929,10 +929,10 @@ echo "Nomenclature normalization complete"
 ```bash
 # Create necessary directories
 mkdir -p 01-CANON
-mkdir -p 02-OPERATIONAL/protocols
-mkdir -p 02-OPERATIONAL/registries
-mkdir -p 02-OPERATIONAL/memory
-mkdir -p 05-ARCHIVE/chorus-session-20260122
+mkdir -p 02-ENGINE/protocols
+mkdir -p 02-ENGINE/registries
+mkdir -p 02-ENGINE/memory
+mkdir -p 05-MEMORY/chorus-session-20260122
 
 # Teleology documents → CANON
 [ -f "-INBOX/constellation-teleology.md" ] && mv "-INBOX/constellation-teleology.md" "01-CANON/CANON-25210-CONSTELLATION_TELEOLOGY-lattice.md" && echo "Canonized: constellation-teleology.md"
@@ -940,25 +940,25 @@ mkdir -p 05-ARCHIVE/chorus-session-20260122
 [ -f "-INBOX/memory-architecture-teleology.md" ] && mv "-INBOX/memory-architecture-teleology.md" "01-CANON/CANON-25010-MEMORY_TELEOLOGY-lattice.md" && echo "Canonized: memory-architecture-teleology.md"
 
 # Protocols → OPERATIONAL
-[ -f "-INBOX/state-fingerprint-solution.md" ] && mv "-INBOX/state-fingerprint-solution.md" "02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md" && echo "Operationalized: state-fingerprint-solution.md"
+[ -f "-INBOX/state-fingerprint-solution.md" ] && mv "-INBOX/state-fingerprint-solution.md" "02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md" && echo "Operationalized: state-fingerprint-solution.md"
 
-[ -f "-INBOX/memory-architecture-matrix.md" ] && mv "-INBOX/memory-architecture-matrix.md" "02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md" && echo "Operationalized: memory-architecture-matrix.md"
+[ -f "-INBOX/memory-architecture-matrix.md" ] && mv "-INBOX/memory-architecture-matrix.md" "02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md" && echo "Operationalized: memory-architecture-matrix.md"
 
 # Registries → OPERATIONAL
-[ -f "-INBOX/CONFIGURATION_REGISTRY.md" ] && mv "-INBOX/CONFIGURATION_REGISTRY.md" "02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md" && echo "Operationalized: CONFIGURATION_REGISTRY.md"
+[ -f "-INBOX/CONFIGURATION_REGISTRY.md" ] && mv "-INBOX/CONFIGURATION_REGISTRY.md" "02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md" && echo "Operationalized: CONFIGURATION_REGISTRY.md"
 
-[ -f "-INBOX/accounts.csv" ] && mv "-INBOX/accounts.csv" "02-OPERATIONAL/registries/DYN-ACCOUNTS.csv" && echo "Operationalized: accounts.csv"
+[ -f "-INBOX/accounts.csv" ] && mv "-INBOX/accounts.csv" "02-ENGINE/registries/DYN-ACCOUNTS.csv" && echo "Operationalized: accounts.csv"
 
-[ -f "-INBOX/platforms.csv" ] && mv "-INBOX/platforms.csv" "02-OPERATIONAL/registries/DYN-PLATFORMS.csv" && echo "Operationalized: platforms.csv"
+[ -f "-INBOX/platforms.csv" ] && mv "-INBOX/platforms.csv" "02-ENGINE/registries/DYN-PLATFORMS.csv" && echo "Operationalized: platforms.csv"
 
-[ -f "-INBOX/roles.csv" ] && mv "-INBOX/roles.csv" "02-OPERATIONAL/registries/DYN-ROLES.csv" && echo "Operationalized: roles.csv"
+[ -f "-INBOX/roles.csv" ] && mv "-INBOX/roles.csv" "02-ENGINE/registries/DYN-ROLES.csv" && echo "Operationalized: roles.csv"
 
 # JSX diagrams → ARCHIVE (superseded by implementation)
-[ -f "-INBOX/constellation-architecture-v1.jsx" ] && mv "-INBOX/constellation-architecture-v1.jsx" "05-ARCHIVE/ARCH-constellation-architecture-v1.jsx" && echo "Archived: constellation-architecture-v1.jsx"
+[ -f "-INBOX/constellation-architecture-v1.jsx" ] && mv "-INBOX/constellation-architecture-v1.jsx" "05-MEMORY/ARCH-constellation-architecture-v1.jsx" && echo "Archived: constellation-architecture-v1.jsx"
 
-[ -f "-INBOX/constellation-bifurcated-architecture.jsx" ] && mv "-INBOX/constellation-bifurcated-architecture.jsx" "05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx" && echo "Archived: constellation-bifurcated-architecture.jsx"
+[ -f "-INBOX/constellation-bifurcated-architecture.jsx" ] && mv "-INBOX/constellation-bifurcated-architecture.jsx" "05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx" && echo "Archived: constellation-bifurcated-architecture.jsx"
 
-[ -f "-INBOX/constellation-process-flow.jsx" ] && mv "-INBOX/constellation-process-flow.jsx" "05-ARCHIVE/ARCH-constellation-process-flow.jsx" && echo "Archived: constellation-process-flow.jsx"
+[ -f "-INBOX/constellation-process-flow.jsx" ] && mv "-INBOX/constellation-process-flow.jsx" "05-MEMORY/ARCH-constellation-process-flow.jsx" && echo "Archived: constellation-process-flow.jsx"
 
 echo "-INBOX triage (existing items) complete"
 ```
@@ -967,23 +967,23 @@ echo "-INBOX triage (existing items) complete"
 
 ```bash
 # Resolution passes → ARCHIVE (as reference, the learnings are now in EXEMPLA)
-[ -f "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE.md" ] && mv "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE.md" "05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md" && echo "Archived: Resolution v1"
+[ -f "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE.md" ] && mv "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE.md" "05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md" && echo "Archived: Resolution v1"
 
-[ -f "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE-v2.md" ] && mv "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE-v2.md" "05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md" && echo "Archived: Resolution v2"
+[ -f "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE-v2.md" ] && mv "-INBOX/RESOLUTION-CHORUS-ARCHITECTURE-v2.md" "05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md" && echo "Archived: Resolution v2"
 
-[ -f "-INBOX/RESOLUTION-INTEGRATED-ARCHITECTURE-v3.md" ] && mv "-INBOX/RESOLUTION-INTEGRATED-ARCHITECTURE-v3.md" "05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md" && echo "Archived: Resolution v3"
+[ -f "-INBOX/RESOLUTION-INTEGRATED-ARCHITECTURE-v3.md" ] && mv "-INBOX/RESOLUTION-INTEGRATED-ARCHITECTURE-v3.md" "05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md" && echo "Archived: Resolution v3"
 
 # Four proposals → ARCHIVE (evidence of Chorus working)
-[ -f "-INBOX/geminis-proposal.md" ] && mv "-INBOX/geminis-proposal.md" "05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md" && echo "Archived: Gemini's proposal"
+[ -f "-INBOX/geminis-proposal.md" ] && mv "-INBOX/geminis-proposal.md" "05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md" && echo "Archived: Gemini's proposal"
 
-[ -f "-INBOX/groks_proposal.md" ] && mv "-INBOX/groks_proposal.md" "05-ARCHIVE/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md" && echo "Archived: Grok's proposal"
+[ -f "-INBOX/groks_proposal.md" ] && mv "-INBOX/groks_proposal.md" "05-MEMORY/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md" && echo "Archived: Grok's proposal"
 
-[ -f "-INBOX/claudes-proposal.md" ] && mv "-INBOX/claudes-proposal.md" "05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md" && echo "Archived: Claude's proposal"
+[ -f "-INBOX/claudes-proposal.md" ] && mv "-INBOX/claudes-proposal.md" "05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md" && echo "Archived: Claude's proposal"
 
-[ -f "-INBOX/chatgpts-proposal.md" ] && mv "-INBOX/chatgpts-proposal.md" "05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md" && echo "Archived: ChatGPT's proposal"
+[ -f "-INBOX/chatgpts-proposal.md" ] && mv "-INBOX/chatgpts-proposal.md" "05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md" && echo "Archived: ChatGPT's proposal"
 
 # GitHub screenshot → ARCHIVE (infrastructure evidence)
-[ -f "-INBOX/Screenshot_2026-01-21_at_1_53_39_PM.png" ] && mv "-INBOX/Screenshot_2026-01-21_at_1_53_39_PM.png" "05-ARCHIVE/chorus-session-20260122/EVIDENCE-infrastructure-map.png" && echo "Archived: Infrastructure screenshot"
+[ -f "-INBOX/Screenshot_2026-01-21_at_1_53_39_PM.png" ] && mv "-INBOX/Screenshot_2026-01-21_at_1_53_39_PM.png" "05-MEMORY/chorus-session-20260122/EVIDENCE-infrastructure-map.png" && echo "Archived: Infrastructure screenshot"
 
 # This directive → OPERATIONAL (active protocol)
 [ -f "-INBOX/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md" ] && mv "-INBOX/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md" "00-ORCHESTRATION/directives/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md" && echo "Filed: This directive"
@@ -994,7 +994,7 @@ echo "-INBOX triage (Chorus artifacts) complete"
 ### 6.3 Create Chorus Session Index
 
 ```bash
-cat > "05-ARCHIVE/chorus-session-20260122/README.md" << 'EOF'
+cat > "05-MEMORY/chorus-session-20260122/README.md" << 'EOF'
 # Chorus Session: 2026-01-22
 
 ## Summary
@@ -1025,7 +1025,7 @@ Wisdom extracted to `06-EXEMPLA/`:
 - `defrag-learnings/LESSON-20260122-chorus-architecture.md` — Session learnings
 
 ## Note
-This directory is in 05-ARCHIVE (short-term memory). The learnings have been 
+This directory is in 05-MEMORY (short-term memory). The learnings have been 
 extracted to 06-EXEMPLA (wisdom layer). Raw materials here have 30-day TTL 
 unless explicitly preserved.
 EOF
@@ -1062,7 +1062,7 @@ syncrescendence/
 ├── 01-CANON/            # Constitutional knowledge (defended)
 │   └── CANON-XXXXX-*    # Numbered canonical documents
 │
-├── 02-OPERATIONAL/      # Living operational layer
+├── 02-ENGINE/      # Living operational layer
 │   ├── avatars/         # Avatar self-documentation
 │   ├── constellation/   # Platform configurations
 │   ├── functions/       # IIC function definitions
@@ -1077,7 +1077,7 @@ syncrescendence/
 │   ├── raw/             # Unprocessed curated sources
 │   └── processed/       # Sources with extracted value
 │
-├── 05-ARCHIVE/          # SHORT-TERM MEMORY (30-day TTL)
+├── 05-MEMORY/          # SHORT-TERM MEMORY (30-day TTL)
 │
 ├── 06-EXEMPLA/          # WISDOM LAYER
 │   ├── cautionary-tales/
@@ -1121,8 +1121,8 @@ syncrescendence/
 ## Navigation Patterns
 
 **For architectural questions**: Start with `CONST-TEL` or `MEM-TEL`
-**For operational questions**: Check `02-OPERATIONAL/` first
-**For historical context**: Search `05-ARCHIVE/`
+**For operational questions**: Check `02-ENGINE/` first
+**For historical context**: Search `05-MEMORY/`
 **For wisdom/patterns**: Reference `06-EXEMPLA/`
 **For current state**: Check `00-ORCHESTRATION/state/DYN-*`
 
@@ -1153,13 +1153,13 @@ echo ""
 echo "=== Phase 3: Directory Teleology ==="
 head -5 03-QUEUE/README.md
 head -5 04-SOURCES/README.md
-head -5 05-ARCHIVE/README.md
+head -5 05-MEMORY/README.md
 head -5 06-EXEMPLA/README.md
 
 echo ""
 echo "=== Phase 4: Avatar System ==="
-ls -la 02-OPERATIONAL/avatars/
-cat 02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md | head -20
+ls -la 02-ENGINE/avatars/
+cat 02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md | head -20
 
 echo ""
 echo "=== Phase 5: Nomenclature ==="
@@ -1168,7 +1168,7 @@ ls 04-SOURCES/REF-*.md 04-SOURCES/DYN-*.csv 2>/dev/null || echo "Sources files r
 
 echo ""
 echo "=== Phase 6: INBOX Triage ==="
-ls -la 05-ARCHIVE/chorus-session-20260122/
+ls -la 05-MEMORY/chorus-session-20260122/
 ls -la -INBOX/ | head -10
 
 echo ""
@@ -1213,7 +1213,7 @@ Phases completed:
 Key architectural changes:
 - 03-QUEUE → SYNTHESIS_INBOX (high-signal only, raw externalized)
 - 04-SOURCES → CURATED REFERENCES (preservation-worthy only)
-- 05-ARCHIVE → SHORT-TERM MEMORY (30-day TTL, integrate or expel)
+- 05-MEMORY → SHORT-TERM MEMORY (30-day TTL, integrate or expel)
 - 06-EXEMPLA → WISDOM LAYER (civilizational knowledge transfer)
 
 Wisdom extracted from Chorus session:
@@ -1248,7 +1248,7 @@ After this directive completes:
    - Test qualification flow
 
 2. **Claim Atom Schema Definition**
-   - Define schema in `02-OPERATIONAL/schemas/CLAIM_ATOM.yaml`
+   - Define schema in `02-ENGINE/schemas/CLAIM_ATOM.yaml`
    - Create extraction prompt for Gemini
    - Test on one complex source
 
@@ -1282,10 +1282,10 @@ After this directive completes:
 - `06-EXEMPLA/defrag-learnings/LESSON-20260122-chorus-architecture.md`
 - `03-QUEUE/README.md`
 - `04-SOURCES/README.md`
-- `05-ARCHIVE/README.md`
-- `05-ARCHIVE/chorus-session-20260122/README.md`
-- `02-OPERATIONAL/avatars/README.md`
-- `02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md`
+- `05-MEMORY/README.md`
+- `05-MEMORY/chorus-session-20260122/README.md`
+- `02-ENGINE/avatars/README.md`
+- `02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md`
 - `00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md`
 - `00-ORCHESTRATION/execution_logs/DIR-20260122-SEMANTIC-ANNEALMENT-INTEGRATED.md`
 - `.constellation/phase-specs/README.md`
@@ -1295,16 +1295,16 @@ After this directive completes:
 - `memory-architecture-teleology.md` → `01-CANON/CANON-25010-MEMORY_TELEOLOGY-lattice.md`
 
 ### Moved (Operationalized)
-- `state-fingerprint-solution.md` → `02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md`
-- `memory-architecture-matrix.md` → `02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md`
-- `CONFIGURATION_REGISTRY.md` → `02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md`
-- Various CSV files → `02-OPERATIONAL/registries/DYN-*.csv`
+- `state-fingerprint-solution.md` → `02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md`
+- `memory-architecture-matrix.md` → `02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md`
+- `CONFIGURATION_REGISTRY.md` → `02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md`
+- Various CSV files → `02-ENGINE/registries/DYN-*.csv`
 
 ### Moved (Archived)
-- Resolution passes v1/v2/v3 → `05-ARCHIVE/chorus-session-20260122/`
-- Four platform proposals → `05-ARCHIVE/chorus-session-20260122/`
-- JSX diagrams → `05-ARCHIVE/ARCH-*.jsx`
-- Infrastructure screenshot → `05-ARCHIVE/chorus-session-20260122/`
+- Resolution passes v1/v2/v3 → `05-MEMORY/chorus-session-20260122/`
+- Four platform proposals → `05-MEMORY/chorus-session-20260122/`
+- JSX diagrams → `05-MEMORY/ARCH-*.jsx`
+- Infrastructure screenshot → `05-MEMORY/chorus-session-20260122/`
 
 ### Renamed (Nomenclature)
 - `burndown.csv` → `DYN-BURNDOWN.csv`
@@ -1313,7 +1313,7 @@ After this directive completes:
 - `creator_bios.md` → `REF-CREATOR_BIOS.md`
 - `filename_mapping.csv` → `REF-FILENAME_MAPPING.csv`
 - `sources.csv` → `DYN-SOURCES.csv`
-- `AGENTS.md` → `02-OPERATIONAL/registries/REF-AGENTS.md`
+- `AGENTS.md` → `02-ENGINE/registries/REF-AGENTS.md`
 
 ### Modified
 - `Makefile` (added log-init, log, log-view, token-full, token-json, sync-checkpoint)

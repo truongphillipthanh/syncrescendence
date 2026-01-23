@@ -86,7 +86,7 @@
 1. ✅ Simplify CANON suffixes — Replace 6-level stacks with tier codes (`-L0` through `-L6`)
 2. ✅ Split CANON monoliths — 7 docs >10K words → satellite documents
 3. ✅ Archive inactive directives — Move 018-040 to archive (keep only 041-046 active)
-4. ✅ Create `02-OPERATIONAL/README.md` — Categorize IIC, protocols, functions
+4. ✅ Create `02-ENGINE/README.md` — Categorize IIC, protocols, functions
 5. ✅ Add directive frontmatter — status, last_updated fields
 
 **Expected Impact**: Cognitive load reduces by 40%, token count by 15%, chunking optimal. Grade improves to A- (90).

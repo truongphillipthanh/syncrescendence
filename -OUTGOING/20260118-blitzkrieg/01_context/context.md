@@ -18,4 +18,4 @@
 ## Cross-References
 - CLAUDE.md — Constitutional rules
 - COCKPIT.md — Navigation index
-- 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md — This protocol
+- 02-ENGINE/BLITZKRIEG_PROTOCOL.md — This protocol

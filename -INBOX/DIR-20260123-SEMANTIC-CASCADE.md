@@ -526,7 +526,7 @@ You provide real-time information retrieval that complements the static corpus. 
 
 When Perplexity provides information:
 1. Claude interprets relevance to Syncrescendence
-2. If canonical, integrate into 01-CANON/ or 02-OPERATIONAL/
+2. If canonical, integrate into 01-CANON/ or 02-ENGINE/
 3. If ephemeral, use directly without canonization
 4. Cite source in any derived artifacts
 
@@ -577,17 +577,17 @@ git commit -m "chore: update .gitignore for automation hygiene"
 #### C2. Execute Obsidian Backlink Script (Pilot)
 
 ```bash
-# Pilot on 02-OPERATIONAL first (smallest semantic corpus)
+# Pilot on 02-ENGINE first (smallest semantic corpus)
 cd /path/to/syncrescendence
 
 # Dry run
-./00-ORCHESTRATION/scripts/add_obsidian_backlinks.sh 02-OPERATIONAL --dry-run
+./00-ORCHESTRATION/scripts/add_obsidian_backlinks.sh 02-ENGINE --dry-run
 
 # If clean, execute
-./00-ORCHESTRATION/scripts/add_obsidian_backlinks.sh 02-OPERATIONAL
+./00-ORCHESTRATION/scripts/add_obsidian_backlinks.sh 02-ENGINE
 
 # Verify
-grep -r "\[\[CANON-" 02-OPERATIONAL/ | head -10
+grep -r "\[\[CANON-" 02-ENGINE/ | head -10
 
 # If successful, expand to 00-ORCHESTRATION
 ./00-ORCHESTRATION/scripts/add_obsidian_backlinks.sh 00-ORCHESTRATION
@@ -637,7 +637,7 @@ cat > 00-ORCHESTRATION/automation/HAZEL_SETUP.md << 'EOF'
 
 **Rule 5: Archive Old Logs**
 - Conditions: Date Last Modified is not in the last 30 days
-- Actions: Move to ~/syncrescendence/05-ARCHIVE/logs/
+- Actions: Move to ~/syncrescendence/05-MEMORY/logs/
 
 ## Verification
 
@@ -935,20 +935,20 @@ end
 
 ---
 
-### LANE F: 02-OPERATIONAL Reorganization (Priority 3)
+### LANE F: 02-ENGINE Reorganization (Priority 3)
 
 #### F1. Create Subdirectory Structure
 
 ```bash
 # Create recommended subdirectories (per forensic surveys)
-mkdir -p 02-OPERATIONAL/iic
-mkdir -p 02-OPERATIONAL/protocols
-mkdir -p 02-OPERATIONAL/functions
-mkdir -p 02-OPERATIONAL/prompts
-mkdir -p 02-OPERATIONAL/models
+mkdir -p 02-ENGINE/iic
+mkdir -p 02-ENGINE/protocols
+mkdir -p 02-ENGINE/functions
+mkdir -p 02-ENGINE/prompts
+mkdir -p 02-ENGINE/models
 
 # Move IIC configs
-mv 02-OPERATIONAL/IIC-*.md 02-OPERATIONAL/iic/
+mv 02-ENGINE/IIC-*.md 02-ENGINE/iic/
 
 # Move existing subdirectory contents (if scattered)
 # Verify before moving - some may already be organized
@@ -958,7 +958,7 @@ mv 02-OPERATIONAL/IIC-*.md 02-OPERATIONAL/iic/
 
 #### F2. Create IIC Index
 
-**Path**: `02-OPERATIONAL/iic/README.md`
+**Path**: `02-ENGINE/iic/README.md`
 
 ```markdown
 # Information Integration Constellation (IIC) Configs
@@ -1003,7 +1003,7 @@ ls -la -- "-OUTGOING/"
 
 # For each item, decide:
 # 1. INTEGRATE: Move to appropriate directory
-# 2. ARCHIVE: Move to 05-ARCHIVE
+# 2. ARCHIVE: Move to 05-MEMORY
 # 3. DELETE: Remove if redundant
 
 # Create triage log
@@ -1040,7 +1040,7 @@ EOF
 
 ### Lane C (Automation)
 - [ ] .gitignore updated
-- [ ] Obsidian backlinks executed on 02-OPERATIONAL
+- [ ] Obsidian backlinks executed on 02-ENGINE
 - [ ] Hazel setup documentation complete
 - [ ] KM setup documentation complete
 

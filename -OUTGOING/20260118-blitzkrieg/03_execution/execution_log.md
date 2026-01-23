@@ -50,7 +50,7 @@
 ?? .claude/commands/project/deviser_reint.md
 ?? .tmp.driveupload/
 ?? 00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh
-?? 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md
+?? 02-ENGINE/BLITZKRIEG_PROTOCOL.md
 ```
 
 ## Directives Processed

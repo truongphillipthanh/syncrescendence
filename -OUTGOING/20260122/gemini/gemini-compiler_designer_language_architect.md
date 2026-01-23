@@ -20,7 +20,7 @@ These tokens are "Reserved Words" found in filenames and directory structures, d
 *   **ORCHESTRATION**: The runtime environment and kernel.
     *   *Usage*: Project management, state tracking.
 *   **OPERATIONAL**: Configuration, profiles, and runtime parameters.
-    *   *Usage*: `/02-OPERATIONAL/`
+    *   *Usage*: `/02-ENGINE/`
 *   **SOURCES**: Raw input streams and I/O buffers.
     *   *Usage*: `/04-SOURCES/`
 *   **REF**: Reference pointers (lookups, tables).
@@ -87,7 +87,7 @@ The following files violate the strict grammar of the DSL. These act as "Compile
     *   *Fix*: Resolve metadata and rename.
 
 **WARNINGS (Inconsistent Naming conventions):**
-*   `02-OPERATIONAL/IIC-Acumen-config.md` vs `02-OPERATIONAL/memory/acumen-memory-config.md`
+*   `02-ENGINE/IIC-Acumen-config.md` vs `02-ENGINE/memory/acumen-memory-config.md`
     *   *Warning*: Case inconsistency (`IIC-Acumen` vs `acumen`). Standardize to `UPPER_SNAKE_CASE` or `kebab-case`.
 *   `04-SOURCES/raw` contains mixed conventions: `YYYYMMDD-...` and `00000000-...`.
     *   *Warning*: `00000000` indicates initialized but unassigned memory (unknown date).
@@ -134,7 +134,7 @@ If compiling this corpus, the AST would map to a Graph-based IR.
 *   `generates` (Execution -> Log)
 
 **Optimization Passes**:
-1.  **Dead Code Elimination**: Remove `05-ARCHIVE` from active compile path.
+1.  **Dead Code Elimination**: Remove `05-MEMORY` from active compile path.
 2.  **Constant Folding**: Merge `REF-` files that never change into `CANON`.
 3.  **Linker**: Resolve `[[CANON-XXXXX]]` links to absolute paths or UUIDs.
 
@@ -144,8 +144,8 @@ If compiling this corpus, the AST would map to a Graph-based IR.
 
 ### 5.1 Dead Code / Redundancy
 *   **Empty/Trivial Files**: `04-SOURCES/raw/...` contains many `.txt` files that might be empty or unprocessable.
-*   **Backup Files**: `*.bak` files in `00-ORCHESTRATION/state/` are essentially "commented out code" that should be removed or moved to `05-ARCHIVE`.
-*   **Duplicate Configs**: `02-OPERATIONAL` has `IIC-*-config.md` files. These appear to be partial classes of a larger `IIC_Configuration` object.
+*   **Backup Files**: `*.bak` files in `00-ORCHESTRATION/state/` are essentially "commented out code" that should be removed or moved to `05-MEMORY`.
+*   **Duplicate Configs**: `02-ENGINE` has `IIC-*-config.md` files. These appear to be partial classes of a larger `IIC_Configuration` object.
     *   *Refactor*: Consolidate into `REF-IIC_CONFIGURATION_MATRIX.md`.
 
 ### 5.2 Macro Expansion Candidates
@@ -202,7 +202,7 @@ CREATE TABLE execution_logs (
 To upgrade the "Syncrescendence Language" (v3.0), the following architectural changes are recommended:
 
 1.  **Strict Typing Enforcement**: Implement a "Linter" (CI script) that rejects file commits matching `* untitled *` or `*.bak` or `*2.md`.
-2.  **Namespace Flattening**: `02-OPERATIONAL` contains `prompts`, `memory`, `registries`. `00-ORCHESTRATION` contains `state`, `directives`.
+2.  **Namespace Flattening**: `02-ENGINE` contains `prompts`, `memory`, `registries`. `00-ORCHESTRATION` contains `state`, `directives`.
     *   *Design Pattern*: Move `state` to a dedicated `/-RUNTIME` directory to separate Code (Canons/Directives) from Memory (State/Logs).
 3.  **Symbol Table Reification**:
     *   Generate a `manifest.json` at the root that acts as the authoritative index of all `CANON` and `DIRECTIVE` files. This replaces `canon_refs.txt` and enables O(1) lookups for agents.

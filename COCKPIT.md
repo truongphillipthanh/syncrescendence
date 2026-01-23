@@ -68,10 +68,10 @@ The **repository** is ground truth. All platforms verify against it via:
 Repository (Account 1 Origin)
 ├── 00-ORCHESTRATION/  # Current operations
 ├── 01-CANON/          # Constitutional documents
-├── 02-OPERATIONAL/    # Active work
+├── 02-ENGINE/    # Active work
 ├── 03-QUEUE/          # Pending items
 ├── 04-SOURCES/        # Raw inputs
-├── 05-ARCHIVE/        # Historical
+├── 05-MEMORY/        # Historical
 ├── 06-EXEMPLA/        # Examples
 ├── -INBOX/            # Incoming from cloud
 ├── -OUTGOING/         # Staged for commit

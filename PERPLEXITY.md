@@ -15,7 +15,7 @@ PROC External_Intel:
     Principal | Claude >> identifies(knowledge_gap)
     Perplexity >> searches(current_sources) >> findings  # YOU ARE HERE
     Claude >> interprets(findings) >> integration
-    [if canonical] >> 01-CANON/ | 02-OPERATIONAL/
+    [if canonical] >> 01-CANON/ | 02-ENGINE/
     [if ephemeral] >> use_directly
 end
 ```
@@ -81,7 +81,7 @@ PROC Perplexity_Integration:
 
     decision:
         if canonical_material:
-            integrate >> 01-CANON/ | 02-OPERATIONAL/
+            integrate >> 01-CANON/ | 02-ENGINE/
             cite(source_urls)
         if ephemeral_data:
             use_directly >> no_canonization

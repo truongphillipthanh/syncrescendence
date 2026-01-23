@@ -9,7 +9,7 @@
 This scaffolding document captures the reconnaissance findings from DIRECTIVE-043B, establishing the foundation for PROJ-002 (IIC Configuration). The reconnaissance surveyed 8 CANON documents (~14,500 lines) to extract the complete IIC implementation framework, mapped the seven memory strata to four AI platforms, and produced two operational artifacts.
 
 **Key Deliverables**:
-1. `02-OPERATIONAL/memory/acumen-memory-config.md` - Acumen IIC memory configuration
+1. `02-ENGINE/memory/acumen-memory-config.md` - Acumen IIC memory configuration
 2. `00-ORCHESTRATION/state/REF-MULTI_ACCOUNT_SYNC.md` - Cross-IIC synchronization protocol
 
 **Projects Advanced**:
@@ -120,7 +120,7 @@ SOVEREIGN FILE SYSTEM (Git-versioned)
 ## Part III: Artifacts Created
 
 ### Artifact 1: Acumen Memory Configuration
-**Path**: `02-OPERATIONAL/memory/acumen-memory-config.md`
+**Path**: `02-ENGINE/memory/acumen-memory-config.md`
 **Size**: ~400 lines
 
 **Contents**:
@@ -220,7 +220,7 @@ Per DIRECTIVE-043B specifications:
 |-----------|--------|----------|
 | Memory layer hierarchy documented | COMPLETE | acumen-memory-config.md Part I |
 | Platform-specific mappings | COMPLETE | Cross-platform table in Part II |
-| Acumen configuration artifact | COMPLETE | 02-OPERATIONAL/memory/acumen-memory-config.md |
+| Acumen configuration artifact | COMPLETE | 02-ENGINE/memory/acumen-memory-config.md |
 | Multi-account sync protocol | COMPLETE | REF-MULTI_ACCOUNT_SYNC.md |
 | PROJ-002 status updated | COMPLETE | projects.csv: not_started → active |
 | PROJ-014 status updated | COMPLETE | projects.csv: not_started → active |
@@ -248,7 +248,7 @@ Per DIRECTIVE-043B specifications:
 
 ```
 Created by DIRECTIVE-043B:
-├── 02-OPERATIONAL/
+├── 02-ENGINE/
 │   └── memory/
 │       └── acumen-memory-config.md     (NEW - 400 lines)
 └── 00-ORCHESTRATION/

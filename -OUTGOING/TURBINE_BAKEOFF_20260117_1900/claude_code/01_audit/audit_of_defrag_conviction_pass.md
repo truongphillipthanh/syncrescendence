@@ -158,14 +158,14 @@ A "membrane rule" defines the boundary condition for what can enter/exit a zone.
 | Root level | Only CLAUDE.md, Makefile, config/, .claude/, numbered dirs | IMPLICIT (not documented) |
 | 00-ORCHESTRATION/ | Directives, state, scripts, contexts | DEFINED in CLAUDE.md |
 | 01-CANON/ | Only CANON-prefixed files | IMPLICIT (not documented) |
-| 05-ARCHIVE/ | Only ARCH-prefixed files | IMPLICIT (not documented) |
+| 05-MEMORY/ | Only ARCH-prefixed files | IMPLICIT (not documented) |
 
 **Missing Membrane Rules**:
 
 1. **Root membrane not explicit**: Plan assumes root should be clean but doesn't document the allowed set
    - **RECOMMENDATION**: Add to CLAUDE.md: "Root may contain only: CLAUDE.md, Makefile, .gitignore, .gitattributes, config/, .claude/, .obsidian/, numbered directories (00-06), OUTGOING/"
 
-2. **Archive entry rule not explicit**: When should content go to 05-ARCHIVE/ vs deletion?
+2. **Archive entry rule not explicit**: When should content go to 05-MEMORY/ vs deletion?
    - **RECOMMENDATION**: Add rule: "Archive if: historical value, provenance matters, or Principal requests. Delete if: detritus, duplicates of canonical versions, or temporal with no value."
 
 3. **OUTGOING/ retention rule not explicit**: How long do pass outputs live?

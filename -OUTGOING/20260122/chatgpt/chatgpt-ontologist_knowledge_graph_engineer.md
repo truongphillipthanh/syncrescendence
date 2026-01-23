@@ -7,8 +7,8 @@
 
 **Evidence Scope (explicitly grounded):**
 - Canonical architecture and ontology: `01-CANON/CANON-00000-SCHEMA-cosmos.md`, `01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md`, `01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md`, `01-CANON/CANON-11000-FACETS-core.md`
-- Corpus map and governance: `00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md`, `02-OPERATIONAL/registries/REF-AGENTS.md`
-- Operational registries: `02-OPERATIONAL/registries/DYN-ACCOUNTS.csv`, `02-OPERATIONAL/registries/DYN-PLATFORMS.csv`
+- Corpus map and governance: `00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md`, `02-ENGINE/registries/REF-AGENTS.md`
+- Operational registries: `02-ENGINE/registries/DYN-ACCOUNTS.csv`, `02-ENGINE/registries/DYN-PLATFORMS.csv`
 - Canon inventory (by file inventory + naming conventions): `01-CANON/` directory
 
 **Exhaustiveness note:** The corpus is large and multi-layered. This pack is exhaustive for the **canonical ontology and operational registries** and treats other layers (queue, archive, sources) as instances of the `Artifact`/`Source` classes unless explicitly defined. If you want a full per-file noun/verb extraction across all 800+ artifacts, ask for a second pass with automated NLP extraction.
@@ -42,9 +42,9 @@
 | Chain | Class | `01-CANON/CANON-21000-CHAIN_MATRIX-lattice.md` | `01-CANON/CANON-30000-INTELLIGENCE-chain.md` and peers |
 | Cognitive Layer | Class | `01-CANON/CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md` | `01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md` |
 | IIC (Identity-Intelligence Complex) | Class | `01-CANON/CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md` | `01-CANON/CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md` |
-| Account | Class | `02-OPERATIONAL/registries/DYN-ACCOUNTS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Platform | Class | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Role / Agent | Class | `02-OPERATIONAL/registries/REF-AGENTS.md` | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` |
+| Account | Class | `02-ENGINE/registries/DYN-ACCOUNTS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Platform | Class | `02-ENGINE/registries/DYN-PLATFORMS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Role / Agent | Class | `02-ENGINE/registries/REF-AGENTS.md` | `02-ENGINE/registries/DYN-PLATFORMS.csv` |
 | Artifact | Class | `00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md` | all corpus directories |
 | Source | Class | `04-SOURCES/README.md` | `04-SOURCES/raw`, `04-SOURCES/processed` |
 | Directive | Class | `00-ORCHESTRATION/directives/` | `00-ORCHESTRATION/directives/DIRECTIVE-*.md` |
@@ -77,15 +77,15 @@
 | Intention-Formation | Face | `01-CANON/CANON-11000-FACETS-core.md` | `01-CANON/CANON-33100-EFFICACY-planetary-EXPERTISE.md` |
 | Embodiment (Face) | Face | `01-CANON/CANON-11000-FACETS-core.md` | `01-CANON/CANON-34100-MASTERY-planetary-KNOWLEDGE.md` |
 | Strategic Harmony | Face | `01-CANON/CANON-11000-FACETS-core.md` | `01-CANON/CANON-35100-TRANSCENDENCE-ring-WISDOM.md` |
-| IIC | IIC | `01-CANON/CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md` | `02-OPERATIONAL/IIC-Acumen-config.md`, `02-OPERATIONAL/IIC-Coherence-config.md` |
-| Account 1 | Account | `02-OPERATIONAL/registries/DYN-ACCOUNTS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Account 2 | Account | `02-OPERATIONAL/registries/DYN-ACCOUNTS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Account 3 | Account | `02-OPERATIONAL/registries/DYN-ACCOUNTS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Claude Web | Platform | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| ChatGPT Web | Platform | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Gemini Web | Platform | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Codex CLI | Platform | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
-| Gemini CLI | Platform | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` | `02-OPERATIONAL/registries/REF-AGENTS.md` |
+| IIC | IIC | `01-CANON/CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md` | `02-ENGINE/IIC-Acumen-config.md`, `02-ENGINE/IIC-Coherence-config.md` |
+| Account 1 | Account | `02-ENGINE/registries/DYN-ACCOUNTS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Account 2 | Account | `02-ENGINE/registries/DYN-ACCOUNTS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Account 3 | Account | `02-ENGINE/registries/DYN-ACCOUNTS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Claude Web | Platform | `02-ENGINE/registries/DYN-PLATFORMS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| ChatGPT Web | Platform | `02-ENGINE/registries/DYN-PLATFORMS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Gemini Web | Platform | `02-ENGINE/registries/DYN-PLATFORMS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Codex CLI | Platform | `02-ENGINE/registries/DYN-PLATFORMS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
+| Gemini CLI | Platform | `02-ENGINE/registries/DYN-PLATFORMS.csv` | `02-ENGINE/registries/REF-AGENTS.md` |
 
 ### 1.3 Shared Properties (dominant schema attributes)
 
@@ -108,8 +108,8 @@
 | governs | Planet -> Chain | 1 -> 1 | `01-CANON/CANON-00000-SCHEMA-cosmos.md` | Symmetry rule; Intelligence is anomalous |
 | implements | IIC -> Chain | 1 -> 1 | `01-CANON/CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md` | Operational instantiation |
 | composed-of | IIC -> Platform Capabilities | 1 -> N | `01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md` | Not fully specified |
-| authenticated-by | Role -> Account | N -> 1 | `02-OPERATIONAL/registries/REF-AGENTS.md` | Federation of accounts |
-| operates-on | Agent -> Platform | N -> N | `02-OPERATIONAL/registries/DYN-PLATFORMS.csv` | Execution context |
+| authenticated-by | Role -> Account | N -> 1 | `02-ENGINE/registries/REF-AGENTS.md` | Federation of accounts |
+| operates-on | Agent -> Platform | N -> N | `02-ENGINE/registries/DYN-PLATFORMS.csv` | Execution context |
 | contains | Corpus -> Directory | 1 -> N | `00-ORCHESTRATION/state/DYN-CORPUS_INDEX.md` | Structural containment |
 | depends-on | Modal -> Technology | N -> N | `01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md` | Causal dependency |
 | precedes | Modal i -> Modal i+1 | 1 -> 1 | `01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md` | Causal order |
@@ -179,7 +179,7 @@ Entity
 - **Progressive Disclosure**: Scale and Stage constrain acceptable content complexity.
 
 ### 4.3 Violations / Tensions
-- **Five-Account Architecture vs 3 Accounts**: Canon references a five-account system (`01-CANON/CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md`) while registry defines only three accounts (`02-OPERATIONAL/registries/DYN-ACCOUNTS.csv`).
+- **Five-Account Architecture vs 3 Accounts**: Canon references a five-account system (`01-CANON/CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md`) while registry defines only three accounts (`02-ENGINE/registries/DYN-ACCOUNTS.csv`).
 - **Intelligence Chain Dual Ontology**: Intelligence is both a chain and a substrate; breaks 1:1 planet/chain symmetry.
 - **Version Drift**: `CANON-00000` says Schema v2.3; frontmatter version says 2.0.0, and updated dates vary across Canon.
 
@@ -237,15 +237,15 @@ Entity
 
 **Document Nodes (file-derived):**
 - Canon artifacts: 82 (`01-CANON/*.md`)
-- Operational artifacts: 61 (`02-OPERATIONAL/**/*.md`)
+- Operational artifacts: 61 (`02-ENGINE/**/*.md`)
 - Queue artifacts: 8 (`03-QUEUE/**/*.md`)
 - Source artifacts: 156 (`04-SOURCES/**/*.md`)
-- Archive artifacts: 98 (`05-ARCHIVE/**/*.md`)
+- Archive artifacts: 98 (`05-MEMORY/**/*.md`)
 - Exempla artifacts: 12 (`06-EXEMPLA/**/*.md`)
 
 **Entity Nodes (explicit instances):**
-- Accounts: 3 (`02-OPERATIONAL/registries/DYN-ACCOUNTS.csv`)
-- Platforms: 10 (`02-OPERATIONAL/registries/DYN-PLATFORMS.csv`)
+- Accounts: 3 (`02-ENGINE/registries/DYN-ACCOUNTS.csv`)
+- Platforms: 10 (`02-ENGINE/registries/DYN-PLATFORMS.csv`)
 - Chains: 6 (canonical chain docs)
 - Planets/Ring: 5 planets + 1 ring (canonical planetary docs)
 
@@ -258,7 +258,7 @@ Entity
 
 **Hub Candidates:**
 - `CANON-00000` (Schema), `CANON-00005` (Syncrescendence), `CANON-00012` (Modal Sequence)
-- `02-OPERATIONAL/registries/REF-AGENTS.md` (agent/platform/account linking)
+- `02-ENGINE/registries/REF-AGENTS.md` (agent/platform/account linking)
 
 ---
 

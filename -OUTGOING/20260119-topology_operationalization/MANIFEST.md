@@ -27,9 +27,9 @@ Three parallel tactical agents executed:
 
 | File | Change |
 |------|--------|
-| `01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md` | Surgical fix: config/coordination → 02-OPERATIONAL/coordination.yaml |
-| `02-OPERATIONAL/MCP_SETUP.md` | Fixed stale config/coordination reference |
-| `02-OPERATIONAL/coordination.yaml` | Fixed self-reference in protected zones |
+| `01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md` | Surgical fix: config/coordination → 02-ENGINE/coordination.yaml |
+| `02-ENGINE/MCP_SETUP.md` | Fixed stale config/coordination reference |
+| `02-ENGINE/coordination.yaml` | Fixed self-reference in protected zones |
 | `06-EXEMPLA/TEMPLATE-CONTINUATION_PACKET.json` | Fixed OUTGOING/ → -OUTGOING/ |
 | `00-ORCHESTRATION/schemas/packet_protocol.json` | Fixed legacy path in example attachments |
 | `Makefile` | Added `pack` and `pack-verify` targets |
@@ -50,7 +50,7 @@ Three parallel tactical agents executed:
 ### Exempted Categories (Not Modified)
 
 1. **Sealed evidence packs** (`-OUTGOING/*/`) - Historical artifacts
-2. **05-ARCHIVE/** - Historical preservation zone
+2. **05-MEMORY/** - Historical preservation zone
 3. **Execution logs** - Stratigraphy of past operations
 4. **Historical directives** (DIRECTIVE-041B, etc.) - Records from before migration
 5. **Detection scripts** - These check FOR the pattern, don't USE it as a path
@@ -83,7 +83,7 @@ Three parallel tactical agents executed:
 ls -d */ | grep -E "^(OUTGOING|outgoing)$"  # Should be empty
 
 # Check coordination.yaml location
-ls 02-OPERATIONAL/coordination.yaml  # Should exist
+ls 02-ENGINE/coordination.yaml  # Should exist
 
 # Create clean evidence pack
 make pack SRC=-OUTGOING/20260119-topology_operationalization

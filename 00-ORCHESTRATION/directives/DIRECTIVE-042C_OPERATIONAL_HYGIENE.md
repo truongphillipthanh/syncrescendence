@@ -23,8 +23,8 @@ Read the attached ORACLE11_CONTEXT_BLITZKRIEG.md for full strategic context.
 **Queue Disposition Rules** (from QUEUE_DISPOSITION.md):
 - modal1/: Text-based processing inbox → move to OPERATIONAL or merge
 - modal2/: Visual capability deferral queue → keep until Modal 2 activated
-- Living documents → 02-OPERATIONAL/
-- Point-in-time documents → 05-ARCHIVE/
+- Living documents → 02-ENGINE/
+- Point-in-time documents → 05-MEMORY/
 - Overlapping documents → MERGE into single authoritative source
 
 ---
@@ -39,10 +39,10 @@ Execute the following file movements:
 
 | File | Disposition | Destination | Rationale |
 |------|-------------|-------------|-----------|
-| AI_ECOSYSTEM_SURVEY.md | MOVE | 02-OPERATIONAL/surveys/ | Living document, regularly updated |
+| AI_ECOSYSTEM_SURVEY.md | MOVE | 02-ENGINE/surveys/ | Living document, regularly updated |
 | CONTENT_PROCESSING_QUEUE.md | MERGE | Into YOUTUBE_PROCESSING_BACKLOG.md | Overlapping scope |
-| QUICK_WINS.md | MOVE | 05-ARCHIVE/ | Point-in-time, historical value only |
-| YOUTUBE_PROCESSING_BACKLOG.md | MOVE | 02-OPERATIONAL/queues/ | Active workflow document |
+| QUICK_WINS.md | MOVE | 05-MEMORY/ | Point-in-time, historical value only |
+| YOUTUBE_PROCESSING_BACKLOG.md | MOVE | 02-ENGINE/queues/ | Active workflow document |
 
 **03-QUEUE/modal2/ Disposition**:
 
@@ -192,7 +192,7 @@ Refresh the backlog document with current state:
 ### Oracle 11 (In Progress)
 - [x] Methodology integration (Review/Retro separation)
 - [x] System prompt verification (discrepancy identified)
-- [x] 02-OPERATIONAL triage
+- [x] 02-ENGINE triage
 - [x] 03-QUEUE disposition analysis
 - [x] Blitzkrieg directive package issued
 
@@ -233,12 +233,12 @@ Refresh the backlog document with current state:
 
 ### Phase 1: Queue Disposition (30 min)
 
-1. Create 02-OPERATIONAL/surveys/ if not exists
-2. Create 02-OPERATIONAL/queues/ if not exists
-3. Move AI_ECOSYSTEM_SURVEY.md to 02-OPERATIONAL/surveys/
+1. Create 02-ENGINE/surveys/ if not exists
+2. Create 02-ENGINE/queues/ if not exists
+3. Move AI_ECOSYSTEM_SURVEY.md to 02-ENGINE/surveys/
 4. Merge CONTENT_PROCESSING_QUEUE.md into YOUTUBE_PROCESSING_BACKLOG.md
-5. Move merged file to 02-OPERATIONAL/queues/
-6. Move QUICK_WINS.md to 05-ARCHIVE/
+5. Move merged file to 02-ENGINE/queues/
+6. Move QUICK_WINS.md to 05-MEMORY/
 7. Move AI_Academic_Research.md from modal2/ to modal1/
 8. Delete empty modal1/ after moves complete
 9. Verify final state
@@ -289,8 +289,8 @@ Files to produce:
 
 | Criterion | Verification |
 |-----------|--------------|
-| modal1/ files moved | ls -la 02-OPERATIONAL/surveys/, queues/ |
-| QUICK_WINS.md archived | ls -la 05-ARCHIVE/ |
+| modal1/ files moved | ls -la 02-ENGINE/surveys/, queues/ |
+| QUICK_WINS.md archived | ls -la 05-MEMORY/ |
 | PROJ-016 created | grep PROJ-016 projects.csv |
 | New tasks added | wc -l tasks.csv shows increase |
 | DYN-BACKLOG refreshed | Last Updated timestamp current |

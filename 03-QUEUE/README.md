@@ -19,7 +19,7 @@ This directory holds HIGH-SIGNAL artifacts awaiting CANON integration.
 3. Artifact either:
    - Integrates into 01-CANON (defended)
    - Moves to 04-SOURCES (curated reference)
-   - Archives to 05-ARCHIVE (short-term memory)
+   - Archives to 05-MEMORY (short-term memory)
 
 ## Teleology
 "The airlock before CANON entry"

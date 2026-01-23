@@ -36,7 +36,7 @@ The Syncrescendence corpus implements a **sophisticated multi-layer type system*
 1. **Missing required `value_modality` field** in 15-20% of processed sources (HIGH severity)
 2. **Field naming variance** (`chain` vs `chain_relevance`, `integrated_into` vs `integration_targets`) breaks schema compliance
 3. **Directive naming migration** mid-execution (old `DIRECTIVE-NNN` vs new `DIR-YYYYMMDD-`) creates dual-system fragility
-4. **FLAT PRINCIPLE violations** in `02-OPERATIONAL/` subdirectories (prompts/, functions/, etc.) — likely intentional but undocumented
+4. **FLAT PRINCIPLE violations** in `02-ENGINE/` subdirectories (prompts/, functions/, etc.) — likely intentional but undocumented
 5. **Non-source artifacts** contaminating `SOURCES/raw/` (DEEP_RESEARCH_PROMPT files)
 6. **Undefined format values** in raw sources (`video` not in schema enum)
 
@@ -231,7 +231,7 @@ CanonDocument :: Number × String × Identity × Tier × Version × Status × Da
 
 **Finding**: CANON achieves **maximum nesting depth of 3** (satellite ← lunar ← planetary ← chain).
 
-#### Layer 3: OPERATIONAL (02-OPERATIONAL/)
+#### Layer 3: OPERATIONAL (02-ENGINE/)
 
 **Artifact Taxonomy (Prefix-Based Sum Type)**:
 
@@ -555,7 +555,7 @@ openai_research.md
 - Breaks automated triage (these don't have platform/format)
 - Creates confusion in processing pipeline
 
-**Recommendation**: Move to `02-OPERATIONAL/prompts/` or `02-OPERATIONAL/research/`
+**Recommendation**: Move to `02-ENGINE/prompts/` or `02-ENGINE/research/`
 
 #### Error 5: Status State Machine Violation
 
@@ -582,14 +582,14 @@ raw → triaged → processed → integrated | archived
 
 ### 2.2 Medium-Severity Type Errors
 
-#### Error 6: FLAT PRINCIPLE Violation (02-OPERATIONAL/)
+#### Error 6: FLAT PRINCIPLE Violation (02-ENGINE/)
 
 **Constitutional Rule** (CLAUDE.md):
 > "FLAT PRINCIPLE: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-) instead of subdirectories."
 
 **Found Structure**:
 ```
-02-OPERATIONAL/
+02-ENGINE/
 ├── avatars/           (subdir) ← VIOLATION
 ├── functions/         (subdir) ← VIOLATION
 ├── memory/           (subdir) ← VIOLATION
@@ -608,7 +608,7 @@ raw → triaged → processed → integrated | archived
 ```
 
 **Analysis**:
-- **12 subdirectories** in 02-OPERATIONAL/
+- **12 subdirectories** in 02-ENGINE/
 - **4 sub-subdirectories** in prompts/
 - Total violation depth: 2 levels
 
@@ -622,7 +622,7 @@ This is likely an **intentional exception** because:
 
 **Recommendation**: Add to CLAUDE.md:
 ```markdown
-**SANCTIONED EXCEPTIONS**: `-OUTGOING/`, `-INBOX/`, and `02-OPERATIONAL/` (tool-specific organization required).
+**SANCTIONED EXCEPTIONS**: `-OUTGOING/`, `-INBOX/`, and `02-ENGINE/` (tool-specific organization required).
 ```
 
 #### Error 7: Directive Naming Migration (Dual System)
@@ -2317,8 +2317,8 @@ for pattern in backup_patterns:
 #### Fix 3: Segregate Non-Source Artifacts
 
 **Action**:
-1. Move `DEEP_RESEARCH_PROMPT-*.md` files to `02-OPERATIONAL/prompts/research/`
-2. Move `openai_research.md` to `02-OPERATIONAL/research/`
+1. Move `DEEP_RESEARCH_PROMPT-*.md` files to `02-ENGINE/prompts/research/`
+2. Move `openai_research.md` to `02-ENGINE/research/`
 3. Update any references in scripts
 4. Add validation: sources directory should only contain `SOURCE-*.md` files
 
@@ -2567,7 +2567,7 @@ The Syncrescendence corpus is a **sophisticated information architecture** with 
    ```
 3. **Segregate non-source artifacts**:
    ```bash
-   mv SOURCES/raw/DEEP_RESEARCH_PROMPT-*.md 02-OPERATIONAL/prompts/research/
+   mv SOURCES/raw/DEEP_RESEARCH_PROMPT-*.md 02-ENGINE/prompts/research/
    ```
 
 #### Short-Term (Month 1):
@@ -2575,7 +2575,7 @@ The Syncrescendence corpus is a **sophisticated information architecture** with 
 1. **Normalize frontmatter field names** (eliminate `chain_relevance`, `integration_targets`)
 2. **Complete directive naming migration** (all to `DIR-YYYYMMDD-` pattern)
 3. **Implement schema validation** (JSON Schema for sources + CANON)
-4. **Document FLAT PRINCIPLE exceptions** (02-OPERATIONAL/ subdirs)
+4. **Document FLAT PRINCIPLE exceptions** (02-ENGINE/ subdirs)
 
 #### Medium-Term (Quarter 1):
 

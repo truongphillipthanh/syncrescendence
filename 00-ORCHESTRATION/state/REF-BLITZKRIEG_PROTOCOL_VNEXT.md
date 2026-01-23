@@ -444,7 +444,7 @@ Required: Lane, Toolchain, Model, Thinking, Success_Criteria, Inputs, Outputs
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2026-01-18 | Initial protocol (02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md) |
+| 1.0.0 | 2026-01-18 | Initial protocol (02-ENGINE/BLITZKRIEG_PROTOCOL.md) |
 | 2.0.0 | 2026-01-18 | vNext with 3-lane model, audio scripts, agent relay JSON |
 
 ---

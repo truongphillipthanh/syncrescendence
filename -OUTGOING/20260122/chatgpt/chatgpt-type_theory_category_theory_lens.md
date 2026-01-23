@@ -2,7 +2,7 @@
 
 ## Scope + Method
 - Full corpus scan: 4,852 files (868 text, 3,984 binary). Binary assets treated as opaque tokens; structure inferred from paths.
-- Canonical schema + tier rules from `01-CANON/CANON-00000-SCHEMA-cosmos.md:35` and tier READMEs in `03-QUEUE/README.md:16`, `04-SOURCES/README.md:24`, `05-ARCHIVE/README.md:22`, `06-EXEMPLA/README.md:30`.
+- Canonical schema + tier rules from `01-CANON/CANON-00000-SCHEMA-cosmos.md:35` and tier READMEs in `03-QUEUE/README.md:16`, `04-SOURCES/README.md:24`, `05-MEMORY/README.md:22`, `06-EXEMPLA/README.md:30`.
 
 ---
 
@@ -18,14 +18,14 @@ Syncrescendence :: Corpus
 ├─ Canon (01-CANON)
 │  ├─ Cosmos/Core/Chain/Planetary/Lunar/Ring/Lattice/Comet/Asteroid/Satellite/Meta
 │  └─ Chains: Intelligence, Information, Insight, Expertise, Knowledge, Wisdom
-├─ Operational (02-OPERATIONAL)
+├─ Operational (02-ENGINE)
 │  ├─ Protocols
 │  ├─ Functions
 │  ├─ Prompts
 │  └─ Templates
 ├─ Queue (03-QUEUE) -> Canon/Sources/Archive
 ├─ Sources (04-SOURCES) : raw → processed → integrated
-├─ Archive (05-ARCHIVE) : short-term memory
+├─ Archive (05-MEMORY) : short-term memory
 ├─ Exempla (06-EXEMPLA) : wisdom layer
 ├─ Inbox/Outgoing (-INBOX, -OUTGOING)
 └─ Meta (.git, .constellation, .obsidian, .claude, .dispatch)
@@ -69,10 +69,10 @@ Syncrescendence :: Corpus
 4. **Canonical value inhabiting template namespace**: the CANON type name appears as a template outside canonical storage (`00-ORCHESTRATION/templates/CANON-31150.md.j2:1`).
 5. **ORACLE type scattered across incompatible namespaces**: ORACLE contexts appear in `oracle_contexts/` and also in `directives/` and `execution_logs/`, breaking a single-type location invariant (`00-ORCHESTRATION/oracle_contexts/ORACLE12_CONTEXT.md:1`, `00-ORCHESTRATION/directives/ORACLE12_SESSION_DELIVERABLES.md:1`, `00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md:1`).
 6. **EXECUTION_LOG outside execution log namespace**: an execution log exists in `-OUTGOING/` rather than `00-ORCHESTRATION/execution_logs/` (`-OUTGOING/EXECUTION_LOG-20260123-LOW-HANGING-FRUIT.md:1`).
-7. **Structural contradiction inside ARCHIVE schema**: “Structure (FLAT)” claims all files at root, yet a directory is explicitly listed (`05-ARCHIVE/README.md:34` and `05-ARCHIVE/README.md:55`).
+7. **Structural contradiction inside ARCHIVE schema**: “Structure (FLAT)” claims all files at root, yet a directory is explicitly listed (`05-MEMORY/README.md:34` and `05-MEMORY/README.md:55`).
 8. **Redundant redefinitions (exact duplicates)**:
-   - Prompt synthesis duplicated across archive and operational paths (`05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:1`, `02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:1` and similar for Gemini/Grok/ChatGPT).
-   - Justification files duplicated across archive roots (`05-ARCHIVE/justification-claude.md:1`, `05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:1` and analogs for chatgpt/gemini/grok).
+   - Prompt synthesis duplicated across archive and operational paths (`05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:1`, `02-ENGINE/prompts/unified/Claude-unified-prompt.md:1` and similar for Gemini/Grok/ChatGPT).
+   - Justification files duplicated across archive roots (`05-MEMORY/justification-claude.md:1`, `05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:1` and analogs for chatgpt/gemini/grok).
 9. **Duplicate raw sources with divergent identifiers** (violates uniqueness of SOURCE identity):
    - `04-SOURCES/raw/20251031-youtube_video-a16z-marc_andreessen_and_ben_horowitz.md:1` and `04-SOURCES/raw/20251031-youtube_video-a16z-ben_horowitz__marc_andreessens.md:1`.
    - `04-SOURCES/raw/20251031-youtube_video-a16z-marc_andreessen_and_ben_horowitz.txt:1` and `04-SOURCES/raw/20251031-youtube_video-a16z-ben_horowitz__marc_andreessens.txt:1`.
@@ -85,7 +85,7 @@ Syncrescendence :: Corpus
 - **Source stage morphism**: `raw/*.txt → raw/*.md → processed/ → integrated` (`04-SOURCES/README.md:24`).
 - **Function morphisms**: format-specific transcribers (YouTube interview/panel/solo, X thread, Substack article) (`00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md:84`).
 - **Queue routing morphism**: `QUEUE → CANON | SOURCES | ARCHIVE` (`03-QUEUE/README.md:16`).
-- **Archive recycling morphism**: `ARCHIVE → EXEMPLA | CANON | OPERATIONAL` or deletion (`05-ARCHIVE/README.md:22`).
+- **Archive recycling morphism**: `ARCHIVE → EXEMPLA | CANON | OPERATIONAL` or deletion (`05-MEMORY/README.md:22`).
 - **Exempla compression morphism**: `execution cycle → teaching extraction → compression → EXEMPLA` (`06-EXEMPLA/README.md:30`).
 - **Lens assignment morphism**: chain → lens set mapping (`00-ORCHESTRATION/state/REF-LENS_GOVERNANCE.md:49`).
 
@@ -96,14 +96,14 @@ Syncrescendence :: Corpus
 - **Processed-source functor** should preserve frontmatter schema. Broken in 5 processed files that omit required frontmatter (`04-SOURCES/FRONTMATTER_TEMPLATE.md:5` + files listed in Type Errors #2).
 - **Rename/identity functor for sources** should map identical content to a single canonical identifier. Broken by exact duplicate transcripts with different names (`04-SOURCES/raw/20251031-youtube_video-a16z-marc_andreessen_and_ben_horowitz.md:1`, `04-SOURCES/raw/20251031-youtube_video-a16z-ben_horowitz__marc_andreessens.md:1`).
 - **Schema-to-instance functor** should preserve declared cardinality of CANON (71). Broken by 82 CANON artifacts present (`01-CANON/CANON-00000-SCHEMA-cosmos.md:35`).
-- **Archive-to-operational prompt functor** should reduce to a single canonical prompt per model. Broken by exact duplicates across archive and operational directories (`05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md:1`, `02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md:1`).
+- **Archive-to-operational prompt functor** should reduce to a single canonical prompt per model. Broken by exact duplicates across archive and operational directories (`05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md:1`, `02-ENGINE/prompts/unified/Gemini-unified-prompt.md:1`).
 
 ---
 
 ## 6. NATURAL TRANSFORMATION ANALYSIS
 
 - **Lens mapping naturality**: chains form a functor to lens sets, but the mapping is partial (Information/Insight/Expertise/Knowledge/Wisdom only). Intelligence is listed as a chain in the schema (`01-CANON/CANON-00000-SCHEMA-cosmos.md:69`) yet lacks a lens mapping in governance (`00-ORCHESTRATION/state/REF-LENS_GOVERNANCE.md:49`). The naturality square for Intelligence fails to commute.
-- **Prompt evolution naturality**: transformations from archived synthesis prompts to operational unified prompts should commute with updates. Exact duplicates across locations indicate a missing canonical morphism for update propagation (same content in `05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:1` and `02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:1`).
+- **Prompt evolution naturality**: transformations from archived synthesis prompts to operational unified prompts should commute with updates. Exact duplicates across locations indicate a missing canonical morphism for update propagation (same content in `05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md:1` and `02-ENGINE/prompts/unified/Claude-unified-prompt.md:1`).
 
 ---
 
@@ -160,10 +160,10 @@ newtype Template a = Template (a -> Text)
 
 ## 8. POLYMORPHISM OPPORTUNITIES
 
-- **Model prompt polymorphism**: unify `*-unified-prompt.md` across models via `Prompt<Model>` and a single template pipeline; current duplication for Claude/Gemini/Grok/ChatGPT (`02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md:1`, `02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md:1`, `02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md:1`, `02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:1`).
-- **Justification polymorphism**: consolidate identical justification documents into a parameterized template (`05-ARCHIVE/justification-claude.md:1`, `05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:1`).
+- **Model prompt polymorphism**: unify `*-unified-prompt.md` across models via `Prompt<Model>` and a single template pipeline; current duplication for Claude/Gemini/Grok/ChatGPT (`02-ENGINE/prompts/unified/Claude-unified-prompt.md:1`, `02-ENGINE/prompts/unified/Gemini-unified-prompt.md:1`, `02-ENGINE/prompts/unified/Grok-unified-prompt.md:1`, `02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:1`).
+- **Justification polymorphism**: consolidate identical justification documents into a parameterized template (`05-MEMORY/justification-claude.md:1`, `05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md:1`).
 - **Source identity polymorphism**: enforce canonical ID assignment to prevent duplicate raw sources with different filenames (`04-SOURCES/raw/20251031-youtube_video-a16z-marc_andreessen_and_ben_horowitz.md:1`).
-- **Execution log templating**: reuse a single execution log template rather than creating variants (`02-OPERATIONAL/templates/EXECUTION_LOG_TEMPLATE.md:1`).
+- **Execution log templating**: reuse a single execution log template rather than creating variants (`02-ENGINE/templates/EXECUTION_LOG_TEMPLATE.md:1`).
 
 ---
 
@@ -173,7 +173,7 @@ newtype Template a = Template (a -> Text)
 - Largest waste clusters:
   - Duplicate A16Z transcript pair: 9,502 words (`04-SOURCES/raw/20251031-youtube_video-a16z-marc_andreessen_and_ben_horowitz.txt:1`, `04-SOURCES/raw/20251031-youtube_video-a16z-ben_horowitz__marc_andreessens.txt:1`).
   - Duplicate A16Z markdown pair: 5,964 words (`04-SOURCES/raw/20251031-youtube_video-a16z-marc_andreessen_and_ben_horowitz.md:1`, `04-SOURCES/raw/20251031-youtube_video-a16z-ben_horowitz__marc_andreessens.md:1`).
-  - Prompt duplicates (archive ↔ operational): 2,852 words for ChatGPT (`05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:1`, `02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md:1`).
+  - Prompt duplicates (archive ↔ operational): 2,852 words for ChatGPT (`05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md:1`, `02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md:1`).
 
 ---
 

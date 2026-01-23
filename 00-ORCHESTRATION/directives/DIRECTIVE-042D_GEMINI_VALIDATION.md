@@ -75,10 +75,10 @@ List the top-level directories in this repository and briefly describe each.
 **Expected Result**: Output showing:
 - 00-ORCHESTRATION/
 - 01-CANON/
-- 02-OPERATIONAL/
+- 02-ENGINE/
 - 03-QUEUE/
 - 04-SOURCES/
-- 05-ARCHIVE/
+- 05-MEMORY/
 - 06-EXEMPLA/
 
 **Record**: ✓ Pass / ✗ Fail + notes
@@ -219,7 +219,7 @@ After validation, clean up test file:
 rm GEMINI_VALIDATION_TEST.md
 ```
 
-Or keep it as proof of successful validation (move to 05-ARCHIVE/).
+Or keep it as proof of successful validation (move to 05-MEMORY/).
 
 ---
 

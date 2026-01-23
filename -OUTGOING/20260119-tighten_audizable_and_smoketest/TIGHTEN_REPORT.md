@@ -32,8 +32,8 @@ This format:
 
 | File | Change |
 |------|--------|
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated to use `===AUDIZABLE===` format |
-| `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md` | Added canonical delimiter section, removed `audio` fence reference |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated to use `===AUDIZABLE===` format |
+| `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md` | Added canonical delimiter section, removed `audio` fence reference |
 | `-INBOX/chatgpt_syncrescendence_smoketest_v2.md` | Updated delimiter from `---AUDIZABLE---` to `===AUDIZABLE===` |
 | `-INBOX/chatgpt_syncrescendence_smoketest_v3.md` | Updated delimiter from `---AUDIZABLE---` to `===AUDIZABLE===` |
 | `-INBOX/chatgpt_global_memory_update_prompt.md` | Updated from `---FILE: audizable.txt---` to `===AUDIZABLE===` |
@@ -67,8 +67,8 @@ Single canonical convention across all documents:
 
 | Path | Operation |
 |------|-----------|
-| `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md` | Updated |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated |
+| `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md` | Updated |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated |
 | `-INBOX/chatgpt_syncrescendence_smoketest_v2.md` | Updated |
 | `-INBOX/chatgpt_syncrescendence_smoketest_v3.md` | Updated |
 | `-INBOX/chatgpt_global_memory_update_prompt.md` | Updated |
@@ -102,7 +102,7 @@ Single canonical convention across all documents:
 
 ### Operations Lint
 
-**Command**: `bash 02-OPERATIONAL/scripts/ops_lint.sh`
+**Command**: `bash 02-ENGINE/scripts/ops_lint.sh`
 
 **Result**: **PASS** (0 errors)
 

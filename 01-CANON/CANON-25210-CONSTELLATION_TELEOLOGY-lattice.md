@@ -230,10 +230,10 @@ The numbered directories impose semantic organization on the corpus:
 
 - **00-ORCHESTRATION/**: Active directives, current state, execution logs. The "now" of the system.
 - **01-CANON/**: Protected scripture—the foundational documents that define Syncrescendence. 148K words that must not be casually edited.
-- **02-OPERATIONAL/**: Active configurations—platform prompts, constellation specs, CLAUDE.md hierarchies. The "how" of the system.
+- **02-ENGINE/**: Active configurations—platform prompts, constellation specs, CLAUDE.md hierarchies. The "how" of the system.
 - **03-QUEUE/**: Pending work items awaiting execution or decision.
 - **04-SOURCES/**: Research material, transcripts, working documents. The "inputs" to the system.
-- **05-ARCHIVE/**: Historical artifacts. Forgetting is a feature; old content moves here rather than cluttering active directories.
+- **05-MEMORY/**: Historical artifacts. Forgetting is a feature; old content moves here rather than cluttering active directories.
 - **06-EXEMPLA/**: Templates and examples for generating new content.
 
 **Teleological purpose**: Enable any executor (human or AI) to find content by semantic category rather than memorized paths.

@@ -14,7 +14,7 @@ Entry: -INBOX/ (from ChatGPT/external) or direct creation
   ↓
 Processing: Review, add YAML frontmatter, normalize
   ↓
-Staging: 02-OPERATIONAL/prompts/{canonical,chatgpt}/
+Staging: 02-ENGINE/prompts/{canonical,chatgpt}/
   ↓
 Validation: ops_lint.sh (checks frontmatter: id, kind, scope, target)
   ↓
@@ -24,12 +24,12 @@ Exit: Active use in ChatGPT/Claude Code sessions
 ### Observed Flow
 - **Entry**: `-INBOX/` receives prompts from ChatGPT (e.g., `PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER_updated.md`)
 - **Processing**: Manual review, frontmatter addition
-- **Location**: `02-OPERATIONAL/prompts/canonical/` (9 files), `02-OPERATIONAL/prompts/chatgpt/` (3 files)
+- **Location**: `02-ENGINE/prompts/canonical/` (9 files), `02-ENGINE/prompts/chatgpt/` (3 files)
 - **Validation**: `ops_lint.sh` verifies frontmatter (currently passing 17 files)
 - **Exit**: Copy to ChatGPT project instructions, CLAUDE.md references
 
 ### Validators
-- `02-OPERATIONAL/scripts/ops_lint.sh` — Frontmatter validation
+- `02-ENGINE/scripts/ops_lint.sh` — Frontmatter validation
 - Manual review — Content accuracy
 
 ---
@@ -42,7 +42,7 @@ Entry: Design in ChatGPT/Claude Code session
   ↓
 Processing: Formalize, add frontmatter, document invariants
   ↓
-Staging: 02-OPERATIONAL/specs/ or 00-ORCHESTRATION/state/REF-*
+Staging: 02-ENGINE/specs/ or 00-ORCHESTRATION/state/REF-*
   ↓
 Validation: ops_lint.sh, structural_verify.sh
   ↓
@@ -53,7 +53,7 @@ Exit: Referenced by prompts, scripts, other protocols
 - **Entry**: Designed via ChatGPT Deviser or Claude Code sessions
 - **Processing**: Formalization with version bumps (v2.0.0 → v3.0.0 observed)
 - **Locations**:
-  - `02-OPERATIONAL/specs/` — REF-AUDIZER_PROTOCOL.md, REF-CHATGPT_MEMORY_POLICY.md
+  - `02-ENGINE/specs/` — REF-AUDIZER_PROTOCOL.md, REF-CHATGPT_MEMORY_POLICY.md
   - `00-ORCHESTRATION/state/` — REF-* protocol files (45 files in state/)
 - **Validation**: ops_lint.sh (specs/ checked), structural_verify.sh (constitutional compliance)
 - **Exit**: Ripple to dependent files, ChatGPT memory updates
@@ -85,7 +85,7 @@ Exit: Available as /project:<command> or bash <script>
 - **Locations**:
   - `.claude/commands/project/` — Claude Code slash commands (6 files)
   - `00-ORCHESTRATION/scripts/` — Shell/Python scripts (13 files)
-  - `02-OPERATIONAL/scripts/` — Operational scripts (3 files)
+  - `02-ENGINE/scripts/` — Operational scripts (3 files)
 - **Validation**: Manual testing, structural_verify.sh for path references
 - **Exit**: Executed via `/project:` prefix or direct bash invocation
 
@@ -163,7 +163,7 @@ Entry: Need for cross-cutting index identified
   ↓
 Processing: Enumerate items, add metadata
   ↓
-Staging: 02-OPERATIONAL/registries/ or 00-ORCHESTRATION/state/
+Staging: 02-ENGINE/registries/ or 00-ORCHESTRATION/state/
   ↓
 Validation: ops_lint.sh (frontmatter)
   ↓
@@ -174,7 +174,7 @@ Exit: Reference for navigation, tooling
 - **Entry**: Created to track artifacts across zones
 - **Processing**: Enumeration with metadata
 - **Locations**:
-  - `02-OPERATIONAL/registries/` — 3 registry files
+  - `02-ENGINE/registries/` — 3 registry files
     - `REF-PROMPT_REGISTRY.md`
     - `REF-OPERATIONS_ARTIFACT_TAXONOMY.md`
     - `REF-OPERATIONS_TREE.md`
@@ -207,7 +207,7 @@ External Input
      ▼
   -INBOX/
      │
-     ├──[prompts]──▶ 02-OPERATIONAL/prompts/
+     ├──[prompts]──▶ 02-ENGINE/prompts/
      │                      │
      │                      ▼
      │              ops_lint.sh

@@ -87,7 +87,7 @@ Functor laws verified: Status<integrate ∘ process> = Status<integrate> ∘ Sta
 **Savings**: 12,000 tokens/year
 
 ### ERROR 4: FLAT PRINCIPLE Violation (MEDIUM)
-**Location**: `02-OPERATIONAL/` has 12 subdirectories (prompts/, functions/, etc.)
+**Location**: `02-ENGINE/` has 12 subdirectories (prompts/, functions/, etc.)
 **Analysis**: Likely intentional exception (tool-specific organization) but undocumented
 **Fix**: Document as sanctioned exception in CLAUDE.md
 **Impact**: Architectural clarity
@@ -95,7 +95,7 @@ Functor laws verified: Status<integrate ∘ process> = Status<integrate> ∘ Sta
 ### ERROR 5: Non-Source Artifacts in SOURCES (MEDIUM)
 **Found**: `DEEP_RESEARCH_PROMPT-*.md` files (operational, not sources)
 **Impact**: Contaminates source counts, breaks triage
-**Fix**: 30 minutes to move to `02-OPERATIONAL/prompts/research/`
+**Fix**: 30 minutes to move to `02-ENGINE/prompts/research/`
 **Savings**: 5,675 tokens/year
 
 ---

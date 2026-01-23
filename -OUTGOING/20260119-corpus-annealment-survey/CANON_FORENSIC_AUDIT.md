@@ -1,16 +1,16 @@
 # CANON FORENSIC AUDIT: EVIDENCE PACK
 **Date**: 2026-01-20
 **Surveyor**: Gemini CLI
-**Scope**: 01-CANON/ (71 files), 02-OPERATIONAL/ (Shadow Canon check)
+**Scope**: 01-CANON/ (71 files), 02-ENGINE/ (Shadow Canon check)
 
 ---
 
 ## 1. CRITICAL MISALIGNMENTS (Top 10)
 
 1.  **Perishable Strategy in Eternal Scripture**: `CANON-00005` (Syncrescendence) contains a "Current Strategic Position" section dated Jan 2026. **Violation**: Canon is for *what is true*, not *what is current*. This belongs in `00-ORCHESTRATION/state/DYN-STRATEGY.md`.
-2.  **Tech Stack Volatility**: `CANON-30000` (Intelligence Chain) embeds specific model versions ("Claude 4.x, GPT-5.x") and current capabilities. **Violation**: Model specifics age in weeks; Canon should define *capabilities* abstractly, while `02-OPERATIONAL/models/` tracks versions.
-3.  **Shadow Canon - Memory Architecture**: `02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md` is a 5KB+ foundational architecture document. **Violation**: This defines the "Memory Lattice" behavior and belongs in `01-CANON/CANON-25000-MEMORY_ARCH-lattice.md` or as a satellite `CANON-25010`.
-4.  **Shadow Canon - Agent Configuration**: `02-OPERATIONAL/registries/REF-AGENTS.md` defines "Constitutional Rules" and directory structure. **Violation**: Constitutional definitions belong in `CANON-00010-OPERATIONS` or `CANON-00017-AGENTIC_CONSTITUTION`.
+2.  **Tech Stack Volatility**: `CANON-30000` (Intelligence Chain) embeds specific model versions ("Claude 4.x, GPT-5.x") and current capabilities. **Violation**: Model specifics age in weeks; Canon should define *capabilities* abstractly, while `02-ENGINE/models/` tracks versions.
+3.  **Shadow Canon - Memory Architecture**: `02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md` is a 5KB+ foundational architecture document. **Violation**: This defines the "Memory Lattice" behavior and belongs in `01-CANON/CANON-25000-MEMORY_ARCH-lattice.md` or as a satellite `CANON-25010`.
+4.  **Shadow Canon - Agent Configuration**: `02-ENGINE/registries/REF-AGENTS.md` defines "Constitutional Rules" and directory structure. **Violation**: Constitutional definitions belong in `CANON-00010-OPERATIONS` or `CANON-00017-AGENTIC_CONSTITUTION`.
 5.  **Monolithic Overload**: `CANON-00005` is >1000 lines (>100KB tokens). **Violation**: Exceeds safe context injection limits for most agents, risking truncation of core axioms.
 6.  **Redundant Schema Definitions**: `CANON-00000` defines the entire hierarchy, but individual files (e.g., `CANON-30000`) repeat generic definitions of "What is a Chain?" before getting to specific content.
 7.  **Orphaned "Comet"**: `CANON-30460-INTERACTION_DYNAMICS-comet.md` exists but isn't referenced in the `CANON-00000` schema manifest (based on sampled content).
@@ -24,10 +24,10 @@
 
 | Primary File | Absorb From | Rationale |
 |--------------|-------------|-----------|
-| `CANON-00010-OPERATIONS` | `02-OPERATIONAL/registries/REF-AGENTS.md` | The "Constitutional Rules" in REF-AGENTS are operational canon. |
-| `CANON-25000-MEMORY_ARCH` | `02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md` | The matrix is the architectural definition of the memory lattice. |
+| `CANON-00010-OPERATIONS` | `02-ENGINE/registries/REF-AGENTS.md` | The "Constitutional Rules" in REF-AGENTS are operational canon. |
+| `CANON-25000-MEMORY_ARCH` | `02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md` | The matrix is the architectural definition of the memory lattice. |
 | `CANON-00005-SYNCRESCENDENCE` | `00-ORCHESTRATION/cognitive_core.md` | The "Cognitive Core" is the central hypergiant described in 00005. |
-| `CANON-30300-TECH_STACK` | `02-OPERATIONAL/models/MODEL_INDEX.md` | Absorb the *taxonomy* of models, leave the *profiles* in Operational. |
+| `CANON-30300-TECH_STACK` | `02-ENGINE/models/MODEL_INDEX.md` | Absorb the *taxonomy* of models, leave the *profiles* in Operational. |
 
 ---
 
@@ -36,7 +36,7 @@
 | Monolith | Split Into | Rationale |
 |----------|------------|-----------|
 | `CANON-00005-SYNCRESCENDENCE` | `CANON-00005-PRIMER` (Theory)<br>`CANON-00005-MANUAL` (Practice) | Theory/Practice separation saves tokens. "Preamble" alone is massive. |
-| `CANON-31141-FIVE_ACCOUNT` | `CANON-31141-ACCOUNT_STRATEGY`<br>`02-OPERATIONAL/specs/REF-ACCOUNT_SPECS` | High-level strategy vs. perishable platform configuration details. |
+| `CANON-31141-FIVE_ACCOUNT` | `CANON-31141-ACCOUNT_STRATEGY`<br>`02-ENGINE/specs/REF-ACCOUNT_SPECS` | High-level strategy vs. perishable platform configuration details. |
 | `CANON-34110-CURRICULUM` | `CANON-34110-PEDAGOGY`<br>`CANON-34120-SYLLABUS` | Separate the "How we teach" from the "What we teach" (content vs. method). |
 
 ---
@@ -47,7 +47,7 @@
 |-----------------|------------------|-------------|
 | "Current Strategic Position" | `CANON-00005` | `00-ORCHESTRATION/state/DYN-STRATEGY.md` |
 | "Current Strategic Position" | `CANON-30000` | `00-ORCHESTRATION/state/DYN-TECH_STRATEGY.md` |
-| "Model Version Specifics" | `CANON-30000` | `02-OPERATIONAL/models/MODEL_INDEX.md` |
+| "Model Version Specifics" | `CANON-30000` | `02-ENGINE/models/MODEL_INDEX.md` |
 | "Maintenance Log" | All CANON files | `00-ORCHESTRATION/blackboard/audits/` (Link only) |
 
 ---

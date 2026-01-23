@@ -38,7 +38,7 @@ Produces: `-OUTGOING/YYYYMMDD-repo_validation/VALIDATION_REPORT.md`
 
 ### 3. Updated: PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md
 
-**Location**: `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md`
+**Location**: `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md`
 
 Changes:
 - Removed requirement for explicit "Readable version:" / "Audizable version:" labels
@@ -49,7 +49,7 @@ Changes:
 
 ### 4. Updated: REF-AUDIZER_PROTOCOL.md
 
-**Location**: `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md`
+**Location**: `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md`
 
 Changes:
 - Added "Follow-Along Alignment" as core principle
@@ -71,7 +71,7 @@ Changes:
 
 ### 6. Backfilled: 9 Legacy Prompts with YAML Frontmatter
 
-Files updated in `02-OPERATIONAL/prompts/canonical/`:
+Files updated in `02-ENGINE/prompts/canonical/`:
 
 | File | ID | Kind | Target |
 |------|-----|------|--------|
@@ -133,7 +133,7 @@ Files updated in `02-OPERATIONAL/prompts/canonical/`:
 
 ### Operations Lint
 
-**Command**: `bash 02-OPERATIONAL/scripts/ops_lint.sh`
+**Command**: `bash 02-ENGINE/scripts/ops_lint.sh`
 
 **Result**: **PASS** (0 errors)
 
@@ -156,7 +156,7 @@ LINT PASSED: All checked files have valid frontmatter
 DATE=$(date +%Y%m%d)
 mkdir -p "./-OUTGOING/${DATE}-repo_validation"
 bash 00-ORCHESTRATION/scripts/structural_verify.sh
-bash 02-OPERATIONAL/scripts/ops_lint.sh
+bash 02-ENGINE/scripts/ops_lint.sh
 # Verify report is created in -OUTGOING/
 ```
 
@@ -202,17 +202,17 @@ cat /tmp/test_container.txt | ./00-ORCHESTRATION/scripts/ingest_chatgpt_containe
 | `.claude/commands/project/repo_validate.md` | Created |
 | `00-ORCHESTRATION/state/REF-REPO_VALIDATION_PROTOCOL.md` | Created |
 | `00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md` | Updated (frontmatter, grammar docs) |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated v2.0.0 |
-| `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md` | Updated v2.0.0 |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md` | Frontmatter added |
-| `02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md` | Frontmatter added |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | Updated v2.0.0 |
+| `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md` | Updated v2.0.0 |
+| `02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md` | Frontmatter added |
+| `02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md` | Frontmatter added |
 
 ---
 

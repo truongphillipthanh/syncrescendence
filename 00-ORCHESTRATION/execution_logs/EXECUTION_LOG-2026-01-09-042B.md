@@ -17,20 +17,20 @@ Create Gemini CLI configuration files for Syncrescendence integration, correct s
 
 ## Phase 1: System Prompt Verification
 
-**Finding**: The unified-prompt files in 02-OPERATIONAL/prompts/unified/ were ALREADY IDENTICAL to their synthesis-*.md authoritative sources.
+**Finding**: The unified-prompt files in 02-ENGINE/prompts/unified/ were ALREADY IDENTICAL to their synthesis-*.md authoritative sources.
 
 **Verification**:
 ```bash
-diff -q system_prompts/synthesis-claude.md 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md
+diff -q system_prompts/synthesis-claude.md 02-ENGINE/prompts/unified/Claude-unified-prompt.md
 # Result: IDENTICAL
 
-diff -q system_prompts/synthesis-chatgpt.md 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md
+diff -q system_prompts/synthesis-chatgpt.md 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md
 # Result: IDENTICAL
 
-diff -q system_prompts/synthesis-gemini.md 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md
+diff -q system_prompts/synthesis-gemini.md 02-ENGINE/prompts/unified/Gemini-unified-prompt.md
 # Result: IDENTICAL
 
-diff -q system_prompts/synthesis-grok.md 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md
+diff -q system_prompts/synthesis-grok.md 02-ENGINE/prompts/unified/Grok-unified-prompt.md
 # Result: IDENTICAL
 ```
 
@@ -50,7 +50,7 @@ diff -q system_prompts/synthesis-grok.md 02-OPERATIONAL/prompts/unified/Grok-uni
 - synthesis-gemini.md
 - synthesis-grok.md
 
-**Verification**: justification-*.md files already exist in 05-ARCHIVE/ from prior archival operation.
+**Verification**: justification-*.md files already exist in 05-MEMORY/ from prior archival operation.
 
 ---
 
@@ -73,7 +73,7 @@ diff -q system_prompts/synthesis-grok.md 02-OPERATIONAL/prompts/unified/Grok-uni
 
 ## Phase 4: gemini-settings.json Template
 
-**Deliverable**: `/02-OPERATIONAL/gemini-settings.json`
+**Deliverable**: `/02-ENGINE/gemini-settings.json`
 
 **Content**:
 - Model configuration (default, reasoning, fast)
@@ -113,12 +113,12 @@ diff -q system_prompts/synthesis-grok.md 02-OPERATIONAL/prompts/unified/Grok-uni
 | # | File | Location | Status |
 |---|------|----------|--------|
 | 1 | GEMINI.md | Project root | Created |
-| 2 | gemini-settings.json | 02-OPERATIONAL/ | Created |
+| 2 | gemini-settings.json | 02-ENGINE/ | Created |
 | 3 | REF-MULTI_CLI_COORDINATION.md | 00-ORCHESTRATION/state/ | Created |
-| 4 | Claude-unified-prompt.md | 02-OPERATIONAL/prompts/unified/ | Already correct |
-| 5 | ChatGPT-unified-prompt.md | 02-OPERATIONAL/prompts/unified/ | Already correct |
-| 6 | Gemini-unified-prompt.md | 02-OPERATIONAL/prompts/unified/ | Already correct |
-| 7 | Grok-unified-prompt.md | 02-OPERATIONAL/prompts/unified/ | Already correct |
+| 4 | Claude-unified-prompt.md | 02-ENGINE/prompts/unified/ | Already correct |
+| 5 | ChatGPT-unified-prompt.md | 02-ENGINE/prompts/unified/ | Already correct |
+| 6 | Gemini-unified-prompt.md | 02-ENGINE/prompts/unified/ | Already correct |
+| 7 | Grok-unified-prompt.md | 02-ENGINE/prompts/unified/ | Already correct |
 | 8 | EXECUTION_LOG-2026-01-09-042B.md | 00-ORCHESTRATION/logs/ | This file |
 
 ---
@@ -146,7 +146,7 @@ diff -q system_prompts/synthesis-grok.md 02-OPERATIONAL/prompts/unified/Grok-uni
 ```bash
 # Files exist
 ls -la GEMINI.md
-ls -la 02-OPERATIONAL/gemini-settings.json
+ls -la 02-ENGINE/gemini-settings.json
 ls -la 00-ORCHESTRATION/state/REF-MULTI_CLI_COORDINATION.md
 
 # No root pollution

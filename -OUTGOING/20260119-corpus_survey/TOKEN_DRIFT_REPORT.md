@@ -59,7 +59,7 @@ This report documents legacy and conflicting tokens/aliases found repo-wide.
 | File | Marker Type | Classification |
 |------|-------------|----------------|
 | `00-ORCHESTRATION/scripts/ingest_chatgpt_container.py` | `===AUDIZABLE===` | Scaffold (parsing logic) |
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | `===AUDIZABLE===` | Canon (container format docs) |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md` | `===AUDIZABLE===` | Canon (container format docs) |
 | `00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md` | `===AUDIZABLE===` | Canon (retired marker note) |
 | `-OUTGOING/20260119-transcript_codefence_canon/RIPPLE_REPORT.md` | `===AUDIZABLE===` | Evidence (ripple report) |
 | `-OUTGOING/20260119-tighten_audizable_and_smoketest/*.md` | `===AUDIZABLE===` | Evidence (tighten reports) |
@@ -80,8 +80,8 @@ This report documents legacy and conflicting tokens/aliases found repo-wide.
 
 | File | Label Found | Classification |
 |------|-------------|----------------|
-| `02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-*` | "Readable version" | Canon (prohibition context) |
-| `02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md` | "Audizable version" | Canon (prohibition context) |
+| `02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-*` | "Readable version" | Canon (prohibition context) |
+| `02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md` | "Audizable version" | Canon (prohibition context) |
 | `-OUTGOING/*/CODIFY_REPORT.md` | "Readable version" | Evidence (historical) |
 | `04-SOURCES/raw/google_research.md` | "Part 1" | Evidence (source doc) |
 | `04-SOURCES/raw/DEEP_RESEARCH_PROMPT-*.md` | "Part 1", "Part 2" | Evidence (prompts) |
@@ -104,7 +104,7 @@ This report documents legacy and conflicting tokens/aliases found repo-wide.
 
 | File | Term | Context |
 |------|------|---------|
-| `02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md` | Pedigree, Context | Protocol definition |
+| `02-ENGINE/BLITZKRIEG_PROTOCOL.md` | Pedigree, Context | Protocol definition |
 | `-INBOX/blitzkrieg_drop/context.md` | Context | Artifact |
 | `00-ORCHESTRATION/state/REF-CHATGPT_CONTAINER_PROTOCOL.md` | Pedigree, Context | Container grammar |
 
@@ -114,12 +114,12 @@ This report documents legacy and conflicting tokens/aliases found repo-wide.
 
 ## 6. Config/Coordination Path Drift
 
-### Canonical: `02-OPERATIONAL/coordination.yaml`
+### Canonical: `02-ENGINE/coordination.yaml`
 ### Legacy: `config/coordination`, `config/coordination.yaml`
 
 **Status**: 25 references to `config/coordination` found
 - Likely stale post-defrag references
-- Needs batch update to `02-OPERATIONAL/coordination.yaml`
+- Needs batch update to `02-ENGINE/coordination.yaml`
 
 ---
 
@@ -132,7 +132,7 @@ This report documents legacy and conflicting tokens/aliases found repo-wide.
 | Audizable markers | Final fence | `===AUDIZABLE===`, `---AUDIZABLE---` | 9 | Complete ripple |
 | Output labels | None | "Readable/Audizable version" | 17 | Evidence OK |
 | Organ names | Pedigree/Context | ADR | 30 | No conflict |
-| Config path | `02-OPERATIONAL/` | `config/` | 25 | Batch fix |
+| Config path | `02-ENGINE/` | `config/` | 25 | Batch fix |
 
 ---
 

@@ -198,7 +198,7 @@ Good pedigree passes these:
 Pedigree documents live in:
 - `00-ORCHESTRATION/oracle_contexts/` — Oracle context files
 - Repository root — Active blitzkrieg pedigrees (temporary)
-- `05-ARCHIVE/` — Completed pedigrees after Oracle closes
+- `05-MEMORY/` — Completed pedigrees after Oracle closes
 ```
 
 ### Verification

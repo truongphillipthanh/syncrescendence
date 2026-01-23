@@ -44,10 +44,10 @@ mv "04-SOURCES/filename_mapping.csv" "04-SOURCES/REF-FILENAME_MAPPING.csv"
 mv "04-SOURCES/sources.csv" "04-SOURCES/DYN-SOURCES.csv"
 ```
 
-### 1.3 Lowercase → Prefixed (02-OPERATIONAL/)
+### 1.3 Lowercase → Prefixed (02-ENGINE/)
 
 ```bash
-mv "02-OPERATIONAL/coordination.yaml" "02-OPERATIONAL/COORDINATION.yaml"
+mv "02-ENGINE/coordination.yaml" "02-ENGINE/COORDINATION.yaml"
 ```
 
 ### 1.4 Template Normalization (06-EXEMPLA/)
@@ -71,8 +71,8 @@ grep -r "burndown.csv" --include="*.md" --include="*.yaml" --include="*.sh" | xa
 ### 2.1 Root-Level Strays
 
 ```bash
-# AGENTS.md belongs in 02-OPERATIONAL/registries/
-mv "./AGENTS.md" "02-OPERATIONAL/registries/REF-AGENTS.md"
+# AGENTS.md belongs in 02-ENGINE/registries/
+mv "./AGENTS.md" "02-ENGINE/registries/REF-AGENTS.md"
 ```
 
 ### 2.2 Orchestration Strays
@@ -151,7 +151,7 @@ rm -INBOX/COCKPIT.md  # After verification
 ```bash
 # Multiple ORACLE10_CONTEXT versions exist
 # Keep ORACLE10_CONTEXT_FINAL.md, archive others
-mv "00-ORCHESTRATION/oracle_contexts/ORACLE10_CONTEXT.md" "05-ARCHIVE/ORACLE10_CONTEXT-superseded.md"
+mv "00-ORCHESTRATION/oracle_contexts/ORACLE10_CONTEXT.md" "05-MEMORY/ORACLE10_CONTEXT-superseded.md"
 ```
 
 ## PHASE 5: -INBOX MECHANICAL TRIAGE
@@ -167,24 +167,24 @@ mv "-INBOX/DIR-20260120-EXECUTION-LOG-INFRASTRUCTURE.md" "00-ORCHESTRATION/direc
 ### 5.2 Move Prompts to Proper Location
 
 ```bash
-mv "-INBOX/GEMINI-CORPUS-SENSING-PROMPT.md" "02-OPERATIONAL/prompts/GEMINI-CORPUS-SENSING.md"
+mv "-INBOX/GEMINI-CORPUS-SENSING-PROMPT.md" "02-ENGINE/prompts/GEMINI-CORPUS-SENSING.md"
 ```
 
 ### 5.3 Move CSVs to Proper Location
 
 ```bash
-mv "-INBOX/accounts.csv" "02-OPERATIONAL/registries/DYN-ACCOUNTS.csv"
-mv "-INBOX/platforms.csv" "02-OPERATIONAL/registries/DYN-PLATFORMS.csv"
-mv "-INBOX/roles.csv" "02-OPERATIONAL/registries/DYN-ROLES.csv"
+mv "-INBOX/accounts.csv" "02-ENGINE/registries/DYN-ACCOUNTS.csv"
+mv "-INBOX/platforms.csv" "02-ENGINE/registries/DYN-PLATFORMS.csv"
+mv "-INBOX/roles.csv" "02-ENGINE/registries/DYN-ROLES.csv"
 ```
 
 ### 5.4 Archive Temporary Context Files
 
 ```bash
-mv "-INBOX/last_5_interactions.zip" "05-ARCHIVE/"
-mv "-INBOX/most_recent_completion.zip" "05-ARCHIVE/"
-mv "-INBOX/previous_thread.md" "05-ARCHIVE/ARCH-previous_thread-20260123.md"
-mv "-INBOX/final_interactions.md" "05-ARCHIVE/ARCH-final_interactions-20260123.md"
+mv "-INBOX/last_5_interactions.zip" "05-MEMORY/"
+mv "-INBOX/most_recent_completion.zip" "05-MEMORY/"
+mv "-INBOX/previous_thread.md" "05-MEMORY/ARCH-previous_thread-20260123.md"
+mv "-INBOX/final_interactions.md" "05-MEMORY/ARCH-final_interactions-20260123.md"
 ```
 
 ### 5.5 Move Diagrams to Assets
@@ -253,7 +253,7 @@ ls 00-ORCHESTRATION/*.md | wc -l  # Should be 0 (all in subdirs)
 find . -mindepth 4 -type d | grep -v .git | wc -l  # Should be 0
 
 # 4. AGENTS.md moved
-test -f "02-OPERATIONAL/registries/REF-AGENTS.md" && echo "PASS" || echo "FAIL"
+test -f "02-ENGINE/registries/REF-AGENTS.md" && echo "PASS" || echo "FAIL"
 
 # 5. Root files exist
 test -f "GEMINI.md" && test -f "CODEX.md" && echo "PASS" || echo "FAIL"

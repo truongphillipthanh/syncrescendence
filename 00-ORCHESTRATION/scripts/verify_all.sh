@@ -83,7 +83,7 @@ INTEGRATIONS=$(grep -l "SOURCE-" 01-CANON/*.md 2>/dev/null | wc -l | tr -d ' ')
 echo "$INTEGRATIONS"
 
 echo -n "| Function XMLs: "
-FUNCTIONS=$(ls 02-OPERATIONAL/*.xml 2>/dev/null | wc -l | tr -d ' ' || echo "0")
+FUNCTIONS=$(ls 02-ENGINE/*.xml 2>/dev/null | wc -l | tr -d ' ' || echo "0")
 echo "$FUNCTIONS"
 echo "------------------------------------------"
 echo ""

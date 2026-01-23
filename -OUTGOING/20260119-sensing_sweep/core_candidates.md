@@ -40,5 +40,5 @@ The following 7 files constitute the 'Cognitive Core' of Syncrescendence:
 7. **Makefile**
    - **Role**: The 'Engine' of the system.
    - **Replaces**: Manual shell commands.
-   - **Points To**: `02-OPERATIONAL/`.
+   - **Points To**: `02-ENGINE/`.
    - **Loss**: Complex, one-off command strings.

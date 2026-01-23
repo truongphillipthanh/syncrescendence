@@ -32,23 +32,23 @@
 - Why I Stopped Using MCPs in Claude Code (And What I Use Instead).md -> 04-SOURCES/raw/
 
 ## Files to Compress + Archive (symbolic compression required)
-- frontier_models.md -> 05-ARCHIVE/ARCH-frontier_models.md
-- platform_features.md -> 05-ARCHIVE/ARCH-platform_features.md
-- BLITZKRIEG_44_DEPLOYMENT_GUIDE.md -> 05-ARCHIVE/ARCH-BLITZKRIEG_44.md
-- BLITZKRIEG_45_DEPLOYMENT_GUIDE.md -> 05-ARCHIVE/ARCH-BLITZKRIEG_45.md
-- deviser1_continuity.md -> 05-ARCHIVE/ARCH-deviser1_continuity.md
-- oracle_memories.md -> 05-ARCHIVE/ARCH-oracle_memories.md
-- oracle_process_archaelogy.md -> 05-ARCHIVE/ARCH-oracle_process_archaeology.md
-- previous_thread.md -> 05-ARCHIVE/ARCH-previous_thread.md
-- oracle_verification_manifest.md -> 05-ARCHIVE/ARCH-oracle_verification_manifest.md
-- ORACLE10_CONTEXT.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT.md
-- ORACLE10_CONTEXT_v2.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md
-- ORACLE10_CONTEXT_v3.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md
-- ORACLE10_CONTEXT_v4.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md
-- ORACLE10_CONTEXT_root.md -> 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md
+- frontier_models.md -> 05-MEMORY/ARCH-frontier_models.md
+- platform_features.md -> 05-MEMORY/ARCH-platform_features.md
+- BLITZKRIEG_44_DEPLOYMENT_GUIDE.md -> 05-MEMORY/ARCH-BLITZKRIEG_44.md
+- BLITZKRIEG_45_DEPLOYMENT_GUIDE.md -> 05-MEMORY/ARCH-BLITZKRIEG_45.md
+- deviser1_continuity.md -> 05-MEMORY/ARCH-deviser1_continuity.md
+- oracle_memories.md -> 05-MEMORY/ARCH-oracle_memories.md
+- oracle_process_archaelogy.md -> 05-MEMORY/ARCH-oracle_process_archaeology.md
+- previous_thread.md -> 05-MEMORY/ARCH-previous_thread.md
+- oracle_verification_manifest.md -> 05-MEMORY/ARCH-oracle_verification_manifest.md
+- ORACLE10_CONTEXT.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT.md
+- ORACLE10_CONTEXT_v2.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md
+- ORACLE10_CONTEXT_v3.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md
+- ORACLE10_CONTEXT_v4.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md
+- ORACLE10_CONTEXT_root.md -> 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md
 
 ## Directories to Audit Before Merge
-- system_prompts/ -> 02-OPERATIONAL/prompts/
+- system_prompts/ -> 02-ENGINE/prompts/
 
 ## Detritus
 - .DS_Store files -> delete

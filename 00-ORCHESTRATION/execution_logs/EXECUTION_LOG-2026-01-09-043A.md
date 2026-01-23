@@ -32,22 +32,22 @@ Stream A addressed infrastructure hygiene and operational expansion as outlined 
 **Status**: ✓ Complete
 
 **Actions**:
-- Backed up existing unified-prompt files to `05-ARCHIVE/prompt-backup-043A/`
+- Backed up existing unified-prompt files to `05-MEMORY/prompt-backup-043A/`
 - Replaced with synthesis files:
   - ChatGPT: 15KB → 25KB (XML structured)
   - Claude: 9KB → 14KB (XML structured)
   - Gemini: 3KB → 2.5KB
   - Grok: 8KB → 3.5KB
-- Archived justification-*.md files to `05-ARCHIVE/`
+- Archived justification-*.md files to `05-MEMORY/`
 - Verified XML structure tags present (`<system_prompt>`, `<cognitive_profile>`)
 
 **Files Changed**:
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md
-- 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md
-- 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md
-- 05-ARCHIVE/justification-*.md (4 files)
-- 05-ARCHIVE/prompt-backup-043A/ (4 backup files)
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md
+- 02-ENGINE/prompts/unified/Gemini-unified-prompt.md
+- 02-ENGINE/prompts/unified/Grok-unified-prompt.md
+- 05-MEMORY/justification-*.md (4 files)
+- 05-MEMORY/prompt-backup-043A/ (4 backup files)
 
 **Commit**: 903e08f - "fix(prompts): restore authoritative synthesis system prompts"
 
@@ -80,20 +80,20 @@ Stream A addressed infrastructure hygiene and operational expansion as outlined 
 **Status**: ✓ Complete
 
 **Actions**:
-- Created directories: `02-OPERATIONAL/surveys/`, `02-OPERATIONAL/queues/`
-- Moved `AI_ECOSYSTEM_SURVEY.md` → `02-OPERATIONAL/surveys/`
-- Moved `YOUTUBE_PROCESSING_BACKLOG.md` → `02-OPERATIONAL/queues/`
+- Created directories: `02-ENGINE/surveys/`, `02-ENGINE/queues/`
+- Moved `AI_ECOSYSTEM_SURVEY.md` → `02-ENGINE/surveys/`
+- Moved `YOUTUBE_PROCESSING_BACKLOG.md` → `02-ENGINE/queues/`
 - Merged `CONTENT_PROCESSING_QUEUE.md` → `YOUTUBE_PROCESSING_BACKLOG.md`
-- Archived `QUICK_WINS.md` → `05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md`
+- Archived `QUICK_WINS.md` → `05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md`
 - Deleted merged file `CONTENT_PROCESSING_QUEUE.md`
 - Verified modal1 empty (0 files, only .DS_Store)
 - Verified modal2 unchanged (7 files including .DS_Store)
 
 **Files Changed**:
 - 03-QUEUE/modal1/ → empty
-- 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md (moved)
-- 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md (moved + merged)
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md (archived)
+- 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md (moved)
+- 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md (moved + merged)
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md (archived)
 
 **Commits**:
 - 028784c - "chore(queue): complete modal1 disposition per QUEUE_DISPOSITION.md"
@@ -176,24 +176,24 @@ Stream A addressed infrastructure hygiene and operational expansion as outlined 
 **Created**:
 - 00-ORCHESTRATION/state/REF-METHODOLOGY.md
 - 00-ORCHESTRATION/logs/EXECUTION_LOG-2026-01-09-043A.md
-- 05-ARCHIVE/prompt-backup-043A/ (directory + 4 files)
-- 05-ARCHIVE/justification-*.md (4 files)
-- 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md
-- 02-OPERATIONAL/surveys/ (directory)
-- 02-OPERATIONAL/queues/ (directory)
+- 05-MEMORY/prompt-backup-043A/ (directory + 4 files)
+- 05-MEMORY/justification-*.md (4 files)
+- 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md
+- 02-ENGINE/surveys/ (directory)
+- 02-ENGINE/queues/ (directory)
 
 **Modified**:
-- 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md
-- 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md
-- 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md
-- 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md
+- 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md
+- 02-ENGINE/prompts/unified/Claude-unified-prompt.md
+- 02-ENGINE/prompts/unified/Gemini-unified-prompt.md
+- 02-ENGINE/prompts/unified/Grok-unified-prompt.md
 - 00-ORCHESTRATION/state/projects.csv
 - 00-ORCHESTRATION/state/tasks.csv
 
 **Moved**:
-- AI_ECOSYSTEM_SURVEY.md → 02-OPERATIONAL/surveys/
-- YOUTUBE_PROCESSING_BACKLOG.md → 02-OPERATIONAL/queues/
-- QUICK_WINS.md → 05-ARCHIVE/ (renamed with timestamp)
+- AI_ECOSYSTEM_SURVEY.md → 02-ENGINE/surveys/
+- YOUTUBE_PROCESSING_BACKLOG.md → 02-ENGINE/queues/
+- QUICK_WINS.md → 05-MEMORY/ (renamed with timestamp)
 
 **Deleted**:
 - 03-QUEUE/modal1/CONTENT_PROCESSING_QUEUE.md (merged into YOUTUBE_PROCESSING_BACKLOG)
@@ -248,10 +248,10 @@ Stream A addressed infrastructure hygiene and operational expansion as outlined 
 **Final Verification Commands**:
 ```bash
 make verify
-ls 02-OPERATIONAL/prompts/unified/
-wc -c 02-OPERATIONAL/prompts/unified/*-unified-prompt.md
-ls 02-OPERATIONAL/surveys/
-ls 02-OPERATIONAL/queues/
+ls 02-ENGINE/prompts/unified/
+wc -c 02-ENGINE/prompts/unified/*-unified-prompt.md
+ls 02-ENGINE/surveys/
+ls 02-ENGINE/queues/
 ls 03-QUEUE/modal1/
 cat 00-ORCHESTRATION/state/REF-METHODOLOGY.md | head -20
 grep "PROJ-016" 00-ORCHESTRATION/state/projects.csv

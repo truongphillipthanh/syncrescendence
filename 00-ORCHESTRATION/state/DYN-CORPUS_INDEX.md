@@ -19,7 +19,7 @@ syncrescendence/
 ├── 01-CANON/            # Constitutional knowledge (defended)
 │   └── CANON-XXXXX-*    # Numbered canonical documents
 │
-├── 02-OPERATIONAL/      # Living operational layer
+├── 02-ENGINE/      # Living operational layer
 │   ├── avatars/         # Avatar self-documentation
 │   ├── functions/       # IIC function definitions
 │   ├── memory/          # Memory architecture docs
@@ -33,7 +33,7 @@ syncrescendence/
 │   ├── raw/             # Unprocessed curated sources
 │   └── processed/       # Sources with extracted value
 │
-├── 05-ARCHIVE/          # SHORT-TERM MEMORY (30-day TTL)
+├── 05-MEMORY/          # SHORT-TERM MEMORY (30-day TTL)
 │
 ├── 06-EXEMPLA/          # WISDOM LAYER
 │   ├── cautionary-tales/
@@ -77,8 +77,8 @@ syncrescendence/
 ## Navigation Patterns
 
 **For architectural questions**: Start with `CONST-TEL` or `MEM-TEL`
-**For operational questions**: Check `02-OPERATIONAL/` first
-**For historical context**: Search `05-ARCHIVE/`
+**For operational questions**: Check `02-ENGINE/` first
+**For historical context**: Search `05-MEMORY/`
 **For wisdom/patterns**: Reference `06-EXEMPLA/`
 **For current state**: Check `00-ORCHESTRATION/state/DYN-*`
 
@@ -96,7 +96,7 @@ syncrescendence/
 
 ---
 
-## Avatar Registry (02-OPERATIONAL/avatars)
+## Avatar Registry (02-ENGINE/avatars)
 
 | Avatar | Function | Platform |
 |--------|----------|----------|

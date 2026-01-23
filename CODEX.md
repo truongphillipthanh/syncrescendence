@@ -30,7 +30,7 @@ Update documentation to match code changes.
 | Directory | Purpose |
 |-----------|---------|
 | `00-ORCHESTRATION/scripts/` | Automation scripts |
-| `02-OPERATIONAL/functions/` | Function definitions |
+| `02-ENGINE/functions/` | Function definitions |
 | `.claude/` | Claude Code configuration |
 
 ## Output Format

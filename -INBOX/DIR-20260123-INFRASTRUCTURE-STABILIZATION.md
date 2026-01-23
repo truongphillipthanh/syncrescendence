@@ -71,10 +71,10 @@ grep -rn "coordination.yaml" --include="*.md" 00-ORCHESTRATION/
 
 # 6. Remove .bak files from tracked state
 find 00-ORCHESTRATION/state -name "*.bak" -type f
-# Move to 05-ARCHIVE or delete after verification
+# Move to 05-MEMORY or delete after verification
 
 # 7. Duplicate function definitions: integrate.md vs integrate.xml
-ls -la 02-OPERATIONAL/*integrate*
+ls -la 02-ENGINE/*integrate*
 # Choose one as canonical, move other to archive
 
 # 8. Execution log location: standardize path references
@@ -182,7 +182,7 @@ Automation and utility scripts.
 3. Check task backlog: See /state/DYN-TASKS.csv
 ```
 
-#### B3. Create 02-OPERATIONAL/README.md
+#### B3. Create 02-ENGINE/README.md
 
 ```markdown
 # OPERATIONAL Index
@@ -327,16 +327,16 @@ du -sh 03-QUEUE
 find 03-QUEUE -type f -printf "%p\t%s\t%T@\n" > /tmp/queue_manifest.tsv
 ```
 
-#### D3. Audit 05-ARCHIVE for Semantic Organization
+#### D3. Audit 05-MEMORY for Semantic Organization
 
 ```bash
 # Current state
-ls -la 05-ARCHIVE/
-find 05-ARCHIVE -type f | wc -l
-du -sh 05-ARCHIVE
+ls -la 05-MEMORY/
+find 05-MEMORY -type f | wc -l
+du -sh 05-MEMORY
 
 # Identify duplicates (same content, different names)
-find 05-ARCHIVE -type f -exec md5sum {} \; | sort | uniq -d -w32
+find 05-MEMORY -type f -exec md5sum {} \; | sort | uniq -d -w32
 ```
 
 ### Phase E: Automation Scaffolding (1 hour)
@@ -361,7 +361,7 @@ rules:
       - date_modified: "> 30 days"
       - name_matches: "EXECUTION_LOG-*"
     actions:
-      - move_to: ~/syncrescendence/05-ARCHIVE/logs/
+      - move_to: ~/syncrescendence/05-MEMORY/logs/
 ```
 
 #### E2. Create Keyboard Maestro Macro Specifications
@@ -401,7 +401,7 @@ macros:
 
 - [ ] CANON-00011 no longer contains "CANON-00007" internally
 - [ ] All 10 consistency violations resolved
-- [ ] README.md exists in 01-CANON/, 00-ORCHESTRATION/, 02-OPERATIONAL/
+- [ ] README.md exists in 01-CANON/, 00-ORCHESTRATION/, 02-ENGINE/
 - [ ] .github/CONNECTOR_PROTOCOL.md exists
 - [ ] Obsidian backlink script created
 - [ ] 04-SOURCES and 03-QUEUE manifests generated

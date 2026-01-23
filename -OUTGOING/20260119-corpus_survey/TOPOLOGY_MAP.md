@@ -46,7 +46,7 @@
 
 **Naming Convention**: `CANON-NNNNN-TITLE-scope.md`
 
-#### 02-OPERATIONAL (83 files, 992K)
+#### 02-ENGINE (83 files, 992K)
 **Role Hypothesis**: Working configurations—prompts, functions, model profiles, coordination specs.
 
 | Subdirectory | Files | Contents |
@@ -84,7 +84,7 @@
 - `creator_bios.md` — Creator metadata
 - `filename_mapping.csv` — Name normalization
 
-#### 05-ARCHIVE (81 files, 1.0M)
+#### 05-MEMORY (81 files, 1.0M)
 **Role Hypothesis**: Historical preservation—superseded artifacts and reference material.
 
 **Contents**: Archived directives, old state files, superseded documentation.
@@ -137,10 +137,10 @@
 |-----------|-------|------|
 | 00-ORCHESTRATION | 182 | 1.9M |
 | 01-CANON | 79 | 2.8M |
-| 02-OPERATIONAL | 83 | 992K |
+| 02-ENGINE | 83 | 992K |
 | 03-QUEUE | 7 | 92K |
 | 04-SOURCES | 279 | 9.9M |
-| 05-ARCHIVE | 81 | 1.0M |
+| 05-MEMORY | 81 | 1.0M |
 | 06-EXEMPLA | 5 | 20K |
 | -INBOX | 9 | 48K |
 | -OUTGOING | 41 | 1.4M |

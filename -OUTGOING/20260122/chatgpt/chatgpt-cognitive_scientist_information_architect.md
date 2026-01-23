@@ -5,14 +5,14 @@
 **Entry Points Observed**
 
 - `00-ORCHESTRATION/state/README.md` -> `ARCH-CRYSTALLINE_CHARACTERISTICS.md`, `ARCH-DESIGN_DECISIONS.md`, `ARCH-ORACLE_ARC_SUMMARY.md`, `ARCH-ORACLE_DECISIONS.md`, `DYN-ACTUAL_TREE.md`, `DYN-BACKLOG.md`, `DYN-DASHBOARD.md`, `REF-FOUR_SYSTEMS.md`, `REF-PROCESSING_PATTERN.md`, `REF-PROCESSING_ROUTING.md`, `REF-QUEUE_ROADMAP_MAPPING.md`, `REF-SOURCES_SCHEMA.md`, `REF-STANDARDS.md`, `REF-TRIAGE_PROTOCOL.md`
-- `02-OPERATIONAL/README.md` -> `CRYSTALLINE_CHARACTERISTICS.md`, `FUNCTION_INDEX.md`, `OPERATIONAL/processing/FUNCTION_INDEX.md`, `integrate.md`, `listenize.md`, `readize.md`, `transcribe_interview.md`, `transcribe_youtube.md`
+- `02-ENGINE/README.md` -> `CRYSTALLINE_CHARACTERISTICS.md`, `FUNCTION_INDEX.md`, `OPERATIONAL/processing/FUNCTION_INDEX.md`, `integrate.md`, `listenize.md`, `readize.md`, `transcribe_interview.md`, `transcribe_youtube.md`
 - `03-QUEUE/README.md` -> (no explicit links detected)
-- `05-ARCHIVE/README.md` -> `ARCH-ARTIFACT-PATTERN-LANGUAGE.md`, `ARCH-COGNITIVE-PALACE-FULL.md`, `_REPORT.md`
+- `05-MEMORY/README.md` -> `ARCH-ARTIFACT-PATTERN-LANGUAGE.md`, `ARCH-COGNITIVE-PALACE-FULL.md`, `_REPORT.md`
 - `06-EXEMPLA/README.md` -> `APHORISMS.md`, `CASE-TEMPLATE.md`, `EXAMPLE-TEMPLATE.md`, `PROVERBS.md`
 - `CLAUDE.md` -> `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`, `00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md`, `00-ORCHESTRATION/state/REF-STANDARDS.md`
 - `COCKPIT.md` -> `AGENTS.md`, `CLAUDE.md`, `COCKPIT.md`, `constellation-teleology.md`, `memory-architecture-teleology.md`
 - `CODEX.md` -> `CLAUDE.md`
-- `GEMINI.md` -> `02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md`, `CLAUDE.md`
+- `GEMINI.md` -> `02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md`, `CLAUDE.md`
 - `Makefile` -> `.constellation/tokens/active.json`, `.constellation/tokens/active.txt`, `00-ORCHESTRATION/state/DYN-ACTUAL_TREE.md`, `TIMESTAMP.json`
 
 **Top-Level Scent Strength (1-10)**
@@ -31,10 +31,10 @@
 | .tmp.driveupload/ | 7 |
 | 00-ORCHESTRATION/ | 8 |
 | 01-CANON/ | 5 |
-| 02-OPERATIONAL/ | 8 |
+| 02-ENGINE/ | 8 |
 | 03-QUEUE/ | 6 |
 | 04-SOURCES/ | 7 |
-| 05-ARCHIVE/ | 7 |
+| 05-MEMORY/ | 7 |
 | 06-EXEMPLA/ | 7 |
 | CLAUDE.md | 7 |
 | COCKPIT.md | 6 |
@@ -87,7 +87,7 @@
 | 01-CANON/CANON-00014-CONTENT_PROTOCOL-cosmos.md | 13008 | 11707 | 10 | 2 | 10 | 1301 |
 | 04-SOURCES/raw/20251013-youtube_video-indset-matthew_kinsella.txt | 12854 | 9640 | 10 | 5 | 7 | 3214 |
 | 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md | 12755 | 9566 | 10 | 5 | 10 | 3189 |
-| 05-ARCHIVE/ARCH-frontier_models.md | 12502 | 10626 | 10 | 3 | 10 | 1876 |
+| 05-MEMORY/ARCH-frontier_models.md | 12502 | 10626 | 10 | 3 | 10 | 1876 |
 | 04-SOURCES/raw/20251021-youtube_video-nextwave-maria_gharib.txt | 12457 | 9342 | 10 | 5 | 7 | 3115 |
 | 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md | 12422 | 10558 | 10 | 3 | 10 | 1864 |
 | 04-SOURCES/raw/20251024-youtube_lecture-eit-henrik_von_scheel.txt | 12420 | 9936 | 10 | 4 | 7 | 2484 |
@@ -129,7 +129,7 @@
 | 04-SOURCES/raw/openai_research.md | 8262 | 7435 | 10 | 2 | 10 | 827 |
 | 04-SOURCES/raw/20251029-youtube_video-openai-sam_jakub_and_wojciec.md | 8144 | 4479 | 10 | 9 | 6 | 3665 |
 | 04-SOURCES/raw/20250207-youtube_video-bilawal-vfx_ai_tools.txt | 7862 | 5896 | 10 | 5 | 4 | 1966 |
-| 05-ARCHIVE/ARCH-platform_features.md | 7844 | 6275 | 10 | 4 | 9 | 1569 |
+| 05-MEMORY/ARCH-platform_features.md | 7844 | 6275 | 10 | 4 | 9 | 1569 |
 | 04-SOURCES/raw/20251027-youtube_video-moonshots-chatgpt_atlas.md | 7578 | 4167 | 10 | 9 | 5 | 3411 |
 | 01-CANON/CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md | 7430 | 6687 | 10 | 2 | 9 | 743 |
 | 01-CANON/CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md | 7402 | 6661 | 10 | 2 | 9 | 741 |
@@ -168,7 +168,7 @@
 | 04-SOURCES/raw/20251030-youtube_video-moonshots-anatoly_yakovenko_204.md | 5551 | 3330 | 10 | 8 | 4 | 2221 |
 | 04-SOURCES/raw/20250320-youtube_lecture-longnow-benjamin_bratton.md | 5519 | 3863 | 10 | 6 | 8 | 1656 |
 | 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.md | 5482 | 2741 | 10 | 10 | 4 | 2741 |
-| 05-ARCHIVE/ARCH-previous_thread.md | 5426 | 4612 | 10 | 3 | 8 | 814 |
+| 05-MEMORY/ARCH-previous_thread.md | 5426 | 4612 | 10 | 3 | 8 | 814 |
 | 01-CANON/CANON-99000-HISTORICAL-meta.md | 5381 | 4842 | 10 | 2 | 8 | 539 |
 | 04-SOURCES/raw/00000000-youtube_tutorial-nbj-claude_skillsfrom_toy_to_tool_grab_my_tutoria.txt | 5318 | 4520 | 10 | 3 | 3 | 798 |
 | 01-CANON/CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md | 5301 | 4770 | 10 | 2 | 8 | 531 |
@@ -215,10 +215,10 @@
 | 04-SOURCES/raw/20250912-youtube_video-dwarkesh-sergey_levine.md | 3617 | 2170 | 10 | 8 | 3 | 1447 |
 | 00-ORCHESTRATION/state/DYN-TREE.md | 3547 | 2837 | 10 | 4 | 2 | 710 |
 | -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/00_manifest/repo_tree_depth6.txt | 3516 | 2812 | 10 | 4 | 2 | 704 |
-| 05-ARCHIVE/ARCH-oracle_process_archaelogy.md | 3496 | 2971 | 10 | 3 | 7 | 525 |
-| 02-OPERATIONAL/IIC-Transcendence-config.md | 3495 | 3145 | 10 | 2 | 7 | 350 |
+| 05-MEMORY/ARCH-oracle_process_archaelogy.md | 3496 | 2971 | 10 | 3 | 7 | 525 |
+| 02-ENGINE/IIC-Transcendence-config.md | 3495 | 3145 | 10 | 2 | 7 | 350 |
 | 04-SOURCES/raw/20250926-youtube_video-dwarkesh-richard_sutton.md | 3478 | 2086 | 10 | 8 | 3 | 1392 |
-| 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md | 3463 | 3116 | 10 | 2 | 7 | 347 |
+| 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md | 3463 | 3116 | 10 | 2 | 7 | 347 |
 | 04-SOURCES/raw/20251024-youtube_video-bilawal-ian_dawson.txt | 3452 | 2934 | 10 | 3 | 2 | 518 |
 | 04-SOURCES/raw/00000000-youtube_lecture-tbd-how_dyson_fixed_vertical_farmings_biggest_pro.txt | 3439 | 2579 | 10 | 5 | 2 | 860 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-043B_O11.md | 3434 | 3090 | 10 | 2 | 7 | 344 |
@@ -228,13 +228,13 @@
 | 01-CANON/CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md | 3395 | 3055 | 10 | 2 | 7 | 340 |
 | 04-SOURCES/raw/20251024-youtube_lecture-eit-henrik_von_scheel.md | 3341 | 2338 | 10 | 6 | 7 | 1003 |
 | 04-SOURCES/raw/20251020-youtube_video-itrg-ben_goertzel.md | 3322 | 1993 | 10 | 8 | 3 | 1329 |
-| 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md | 3312 | 2980 | 10 | 2 | 7 | 332 |
+| 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md | 3312 | 2980 | 10 | 2 | 7 | 332 |
 | 04-SOURCES/raw/20251020-youtube_video-bigthink-peter_leyden.txt | 3307 | 2810 | 10 | 3 | 2 | 497 |
 | 04-SOURCES/raw/20251025-youtube_lecture-bigthink-peter_leyden.txt | 3307 | 2810 | 10 | 3 | 2 | 497 |
 | 04-SOURCES/raw/20251222-youtube_video-a16z-content.txt | 3300 | 2805 | 10 | 3 | 2 | 495 |
-| 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md | 3275 | 1801 | 10 | 9 | 7 | 1474 |
-| 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md | 3272 | 2617 | 10 | 4 | 7 | 655 |
-| 02-OPERATIONAL/IIC-Mastery-config.md | 3262 | 2935 | 10 | 2 | 7 | 327 |
+| 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md | 3275 | 1801 | 10 | 9 | 7 | 1474 |
+| 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md | 3272 | 2617 | 10 | 4 | 7 | 655 |
+| 02-ENGINE/IIC-Mastery-config.md | 3262 | 2935 | 10 | 2 | 7 | 327 |
 | 04-SOURCES/raw/00000000-youtube_video-pow-the_existential_elk_theory.txt | 3236 | 2750 | 10 | 3 | 2 | 486 |
 | 01-CANON/CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md | 3229 | 2906 | 10 | 2 | 7 | 323 |
 | 01-CANON/CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md | 3218 | 2896 | 10 | 2 | 7 | 322 |
@@ -243,54 +243,54 @@
 | 01-CANON/CANON-25000-MEMORY_ARCH-lattice.md | 3099 | 2789 | 10 | 2 | 7 | 310 |
 | 04-SOURCES/raw/00000000-youtube_tutorial-nbj-new_claudes_super_prompts_will_save_you_days.txt | 3097 | 2632 | 10 | 3 | 2 | 465 |
 | 04-SOURCES/raw/00000000-youtube_video-aidaily-al_context_gets_some_major_upgrades.txt | 3080 | 2618 | 10 | 3 | 2 | 462 |
-| 02-OPERATIONAL/IIC-Coherence-config.md | 3057 | 2751 | 10 | 2 | 7 | 306 |
+| 02-ENGINE/IIC-Coherence-config.md | 3057 | 2751 | 10 | 2 | 7 | 306 |
 | 00-ORCHESTRATION/state/ARCH-INTERACTION_PARADIGM.md | 3041 | 2736 | 10 | 2 | 7 | 305 |
 | 04-SOURCES/raw/00000000-youtube_video-10_papers_every-10_papers_every_future_ai_engineer_must_read.txt | 2985 | 2537 | 10 | 3 | 2 | 448 |
-| 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md | 2969 | 2672 | 10 | 2 | 7 | 297 |
+| 02-ENGINE/PROTOCOL-Gemini-Onboarding.md | 2969 | 2672 | 10 | 2 | 7 | 297 |
 | 04-SOURCES/raw/claudecode/BESTPRACTICE-2-20260110-x_article-the_complete_claude_code_tutorial-@eyad_khrais.md | 2942 | 1471 | 10 | 10 | 2 | 1471 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md | 2940 | 2646 | 10 | 2 | 7 | 294 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md | 2940 | 2646 | 10 | 2 | 7 | 294 |
 | 04-SOURCES/raw/20251031-youtube_video-nopriors-the_best_of_2025_so_far_138.md | 2932 | 1905 | 10 | 7 | 7 | 1027 |
 | 04-SOURCES/raw/20251031-youtube_video-extropic-trevor_mccourt_cto.md | 2914 | 1457 | 10 | 10 | 5 | 1457 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-034A_FORENSIC_RECOVERY.md | 2911 | 2619 | 10 | 2 | 7 | 292 |
 | 01-CANON/CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md | 2883 | 2594 | 10 | 2 | 7 | 289 |
 | 04-SOURCES/raw/20251223-youtube_video-aidaily-mike_kreiger.md | 2862 | 1431 | 10 | 10 | 2 | 1431 |
 | 04-SOURCES/raw/20251021-youtube_video-relentless-justin_fiaschetti.md | 2860 | 1716 | 10 | 8 | 2 | 1144 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md | 2852 | 2424 | 10 | 3 | 7 | 428 |
-| 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md | 2852 | 2424 | 10 | 3 | 7 | 428 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md | 2852 | 2424 | 10 | 3 | 7 | 428 |
+| 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md | 2852 | 2424 | 10 | 3 | 7 | 428 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-034D_PROJECT_MANAGEMENT.md | 2851 | 2565 | 10 | 2 | 7 | 286 |
 | 04-SOURCES/raw/20251222-youtube_video-20251222_youtub-neil_mcdevitt.md | 2847 | 1423 | 10 | 10 | 2 | 1424 |
 | 04-SOURCES/raw/20250617-youtube_video-yc-andrej_karpathy.md | 2831 | 1557 | 10 | 9 | 3 | 1274 |
 | 04-SOURCES/raw/20251223-youtube_video-dwarkesh-content.txt | 2831 | 2406 | 10 | 3 | 2 | 425 |
-| 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md | 2786 | 2507 | 10 | 2 | 7 | 279 |
+| 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md | 2786 | 2507 | 10 | 2 | 7 | 279 |
 | 04-SOURCES/raw/00000000-youtube_video-mberman-inside_cerebrass_insane_new_data_center_faste.txt | 2773 | 2357 | 10 | 3 | 2 | 416 |
 | 04-SOURCES/raw/00000000-youtube_video-claude_skills-claude_skills_sops_for_agents.txt | 2729 | 2183 | 10 | 4 | 2 | 546 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-041B.md | 2707 | 2436 | 10 | 2 | 7 | 271 |
-| 02-OPERATIONAL/IIC-Acumen-config.md | 2703 | 2432 | 10 | 2 | 7 | 271 |
-| 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md | 2673 | 2405 | 10 | 2 | 7 | 268 |
+| 02-ENGINE/IIC-Acumen-config.md | 2703 | 2432 | 10 | 2 | 7 | 271 |
+| 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md | 2673 | 2405 | 10 | 2 | 7 | 268 |
 | 03-QUEUE/modal2/The_Next_Wave_in_AI_Video_and_VFX.md | 2634 | 1712 | 10 | 7 | 7 | 922 |
 | 04-SOURCES/raw/claudecode/GETSTARTED-1-how_to_set_up_lcaude_code_in_15_minutes_for_beginners-@chasing_next.md | 2622 | 2097 | 10 | 4 | 2 | 525 |
-| 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md | 2620 | 2358 | 10 | 2 | 7 | 262 |
+| 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md | 2620 | 2358 | 10 | 2 | 7 | 262 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-035A_COHERENCE_DISTILLATION.md | 2620 | 2358 | 10 | 2 | 7 | 262 |
 | 00-ORCHESTRATION/oracle_contexts/ORACLE10_COMPREHENSIVE_ARCHAEOLOGY.md | 2591 | 2331 | 10 | 2 | 7 | 260 |
 | 04-SOURCES/raw/00000000-youtube_video-nbj-why_the_best_al_tools_look_nothing_like_chatg.txt | 2565 | 2180 | 10 | 3 | 2 | 385 |
 | 04-SOURCES/raw/20250922-youtube_video-bilawal-vfx_workflow.txt | 2517 | 2013 | 10 | 4 | 2 | 504 |
 | 01-CANON/CANON-25100-CONTEXT_TRANS-lattice.md | 2493 | 2243 | 10 | 2 | 7 | 250 |
-| 02-OPERATIONAL/IIC-shared-protocols.md | 2486 | 2237 | 10 | 2 | 7 | 249 |
+| 02-ENGINE/IIC-shared-protocols.md | 2486 | 2237 | 10 | 2 | 7 | 249 |
 | 04-SOURCES/raw/20251030-youtube_video-sanity-everything_sean_grove.md | 2484 | 1738 | 10 | 6 | 7 | 746 |
 | 04-SOURCES/raw/20251222-youtube_video-a16z-content.md | 2481 | 1736 | 10 | 6 | 7 | 745 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-032A_INFRASTRUCTURE.md | 2471 | 2223 | 10 | 2 | 7 | 248 |
-| 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md | 2470 | 2223 | 10 | 2 | 7 | 247 |
+| 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md | 2470 | 2223 | 10 | 2 | 7 | 247 |
 | 04-SOURCES/raw/20251027-youtube_video-carbutt-cathie_wood.txt | 2445 | 2078 | 10 | 3 | 2 | 367 |
 | 00-ORCHESTRATION/directives/DIR-20260121-SEMANTIC-ANNEALMENT-PHASE1.md | 2444 | 2199 | 10 | 2 | 7 | 245 |
 | 03-QUEUE/modal2/AI_Image_Generators.md | 2433 | 1824 | 10 | 5 | 7 | 609 |
 | 04-SOURCES/raw/20251223-youtube_video-dwarkesh-content.md | 2428 | 1456 | 10 | 8 | 5 | 972 |
-| 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md | 2390 | 2151 | 10 | 2 | 7 | 239 |
+| 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md | 2390 | 2151 | 10 | 2 | 7 | 239 |
 | 01-CANON/CANON-10000-CELESTIAL_BODY-core.md | 2348 | 2113 | 10 | 2 | 7 | 235 |
 | 04-SOURCES/raw/claudecode/BESTPRACTICE-3-20260112-x_article-the_claude_code_tutorial_level_2-@eyad_khrais.md | 2334 | 1983 | 10 | 3 | 7 | 351 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md | 2330 | 2097 | 10 | 2 | 7 | 233 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md | 2330 | 2097 | 10 | 2 | 7 | 233 |
 | 01-CANON/CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md | 2323 | 2090 | 10 | 2 | 7 | 233 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-033B_PROCESSING.md | 2320 | 2088 | 10 | 2 | 7 | 232 |
-| 02-OPERATIONAL/IIC-Efficacy-config.md | 2314 | 2082 | 10 | 2 | 7 | 232 |
+| 02-ENGINE/IIC-Efficacy-config.md | 2314 | 2082 | 10 | 2 | 7 | 232 |
 | 01-CANON/CANON-30000-INTELLIGENCE-chain.md | 2299 | 2069 | 10 | 2 | 7 | 230 |
 | 04-SOURCES/raw/20251024-youtube_video-carbutt-content.txt | 2290 | 1946 | 10 | 3 | 2 | 344 |
 | 04-SOURCES/raw/20251226-youtube_video-a16z-content.md | 2275 | 1251 | 10 | 9 | 4 | 1024 |
@@ -305,16 +305,16 @@
 | 00-ORCHESTRATION/directives/DIRECTIVE-025B_STRUCTURAL_EXECUTION.md | 2154 | 1938 | 10 | 2 | 7 | 216 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-041A.md | 2147 | 1932 | 10 | 2 | 7 | 215 |
 | 04-SOURCES/raw/00000000-youtube_video-the_highest_lev-the_highest_levels_of_thinking_explaine.md | 2137 | 1282 | 10 | 8 | 4 | 855 |
-| 05-ARCHIVE/ARCH-oracle_verification_manifest.md | 2123 | 1910 | 10 | 2 | 7 | 213 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md | 2117 | 1905 | 10 | 2 | 7 | 212 |
+| 05-MEMORY/ARCH-oracle_verification_manifest.md | 2123 | 1910 | 10 | 2 | 7 | 213 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md | 2117 | 1905 | 10 | 2 | 7 | 212 |
 | 04-SOURCES/raw/20250807-youtube_video-tedx-blaise_aguera_y_arcas.md | 2115 | 1057 | 10 | 10 | 2 | 1058 |
-| 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md | 2111 | 1899 | 10 | 2 | 7 | 212 |
+| 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md | 2111 | 1899 | 10 | 2 | 7 | 212 |
 | 04-SOURCES/raw/20251222-youtube_video-mlst-content.md | 2108 | 1475 | 10 | 6 | 7 | 633 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-024_RUTHLESS_FORGE.md | 2108 | 1897 | 10 | 2 | 7 | 211 |
 | 04-SOURCES/raw/20250605-youtube_video-strangeloop-ethan_mollick.md | 2096 | 1467 | 10 | 6 | 7 | 629 |
 | 04-SOURCES/raw/20251025-youtube_lecture-bigthink-peter_leyden.md | 2089 | 1462 | 10 | 6 | 7 | 627 |
 | 04-SOURCES/raw/20251020-youtube_video-bigthink-peter_leyden.md | 2089 | 1462 | 10 | 6 | 7 | 627 |
-| 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md | 2084 | 1875 | 10 | 2 | 7 | 209 |
+| 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md | 2084 | 1875 | 10 | 2 | 7 | 209 |
 | 04-SOURCES/raw/20250516-youtube_video-strangeloop-claire_l_evans.md | 2081 | 1456 | 10 | 6 | 7 | 625 |
 | 04-SOURCES/raw/20250617-youtube_lecture-bilawal-harvard_lecture.md | 2071 | 1449 | 10 | 6 | 7 | 622 |
 | 04-SOURCES/raw/00000000-youtube_video-top_10_technica-top_10_technical_skills_that_will_matter_most.txt | 2052 | 1744 | 10 | 3 | 2 | 308 |
@@ -325,10 +325,10 @@
 | 00-ORCHESTRATION/directives/DIRECTIVE-034C_SOURCES_FLATTENING.md | 2015 | 1813 | 10 | 2 | 7 | 202 |
 | 01-CANON/CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md | 2003 | 1902 | 10 | 1 | 7 | 101 |
 | 04-SOURCES/raw/promptengineering/how_to_master_prompt_engineering-@exm777.md | 2001 | 1300 | 10 | 7 | 2 | 701 |
-| 02-OPERATIONAL/functions/listenize.md | 1999 | 1699 | 10 | 3 | 6 | 300 |
+| 02-ENGINE/functions/listenize.md | 1999 | 1699 | 10 | 3 | 6 | 300 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-026B_DELETIONS_CANONIZATION.md | 1995 | 1795 | 10 | 2 | 6 | 200 |
-| 05-ARCHIVE/justification-claude.md | 1988 | 1689 | 10 | 3 | 6 | 299 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md | 1988 | 1689 | 10 | 3 | 6 | 299 |
+| 05-MEMORY/justification-claude.md | 1988 | 1689 | 10 | 3 | 6 | 299 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md | 1988 | 1689 | 10 | 3 | 6 | 299 |
 | 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md | 1986 | 1787 | 10 | 2 | 6 | 199 |
 | 04-SOURCES/raw/20251226-youtube_video-20251226_youtub-ibm_technology.txt | 1982 | 1486 | 10 | 5 | 1 | 496 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-027_COMPREHENSIVE_FORGE.md | 1977 | 1779 | 10 | 2 | 6 | 198 |
@@ -339,11 +339,11 @@
 | 01-CANON/CANON-21100-TRI_HELIX-lattice.md | 1949 | 1754 | 10 | 2 | 6 | 195 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-035B_TECH_LUNAR_SOURCES.md | 1945 | 1750 | 10 | 2 | 6 | 195 |
 | 04-SOURCES/raw/20251101-youtube_video-dshapiro-renaissance_2_0.txt | 1941 | 1649 | 10 | 3 | 1 | 292 |
-| 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md | 1933 | 1546 | 10 | 4 | 6 | 387 |
+| 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md | 1933 | 1546 | 10 | 4 | 6 | 387 |
 | 04-SOURCES/raw/00000000-youtube_video-the_next_renais-the_next_renaissance_is_coming.md | 1933 | 1063 | 10 | 9 | 4 | 870 |
 | 04-SOURCES/raw/20251024-youtube_video-arcprize-francoise_chollet_and_mike_knoop.md | 1933 | 1256 | 10 | 7 | 2 | 677 |
 | 01-CANON/CANON-20000-PALACE-lattice.md | 1927 | 1734 | 10 | 2 | 6 | 193 |
-| 05-ARCHIVE/ChatGPT-unified-prompt.md | 1921 | 1536 | 10 | 4 | 6 | 385 |
+| 05-MEMORY/ChatGPT-unified-prompt.md | 1921 | 1536 | 10 | 4 | 6 | 385 |
 | 01-CANON/CANON-00004-EVOLUTION-cosmos.md | 1920 | 1728 | 10 | 2 | 6 | 192 |
 | 01-CANON/CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md | 1910 | 1719 | 10 | 2 | 6 | 191 |
 | 01-CANON/CANON-00002-LINEAGE-cosmos.md | 1908 | 1621 | 10 | 3 | 6 | 287 |
@@ -356,83 +356,83 @@
 | 04-SOURCES/raw/DEEP_RESEARCH_PROMPT-OpenAI_Ecosystem.md | 1854 | 1668 | 10 | 2 | 6 | 186 |
 | 01-CANON/CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md | 1848 | 1663 | 10 | 2 | 6 | 185 |
 | 01-CANON/CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md | 1845 | 1660 | 10 | 2 | 6 | 185 |
-| 05-ARCHIVE/ARCH-constellation-architecture-v1.md | 1844 | 1659 | 10 | 2 | 6 | 185 |
+| 05-MEMORY/ARCH-constellation-architecture-v1.md | 1844 | 1659 | 10 | 2 | 6 | 185 |
 | -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/06_CRASHOUT_PREVENTION_AND_RECOVERY.md | 1838 | 1654 | 10 | 2 | 6 | 184 |
-| 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md | 1833 | 1649 | 10 | 2 | 6 | 184 |
+| 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md | 1833 | 1649 | 10 | 2 | 6 | 184 |
 | 03-QUEUE/modal2/AI_Workflows_in_Video_and_VFX.md | 1789 | 1073 | 10 | 8 | 4 | 716 |
 | 01-CANON/CANON-33100-EFFICACY-planetary-EXPERTISE.md | 1788 | 1609 | 10 | 2 | 6 | 179 |
-| 02-OPERATIONAL/memory/acumen-memory-config.md | 1782 | 1603 | 10 | 2 | 6 | 179 |
+| 02-ENGINE/memory/acumen-memory-config.md | 1782 | 1603 | 10 | 2 | 6 | 179 |
 | 01-CANON/CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md | 1780 | 1602 | 10 | 2 | 6 | 178 |
 | 00-ORCHESTRATION/state/ARCH-CRYSTALLINE_CHARACTERISTICS.md | 1775 | 1597 | 10 | 2 | 6 | 178 |
 | 04-SOURCES/raw/00000000-youtube_video-nbj-the_ai_expertise_bottleneck_how_top_1_pros_ar.txt | 1774 | 1507 | 10 | 3 | 1 | 267 |
 | 01-CANON/CANON-35100-TRANSCENDENCE-ring-WISDOM.md | 1773 | 1595 | 10 | 2 | 6 | 178 |
-| 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md | 1766 | 1589 | 10 | 2 | 6 | 177 |
-| 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md | 1764 | 1587 | 10 | 2 | 6 | 177 |
+| 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md | 1766 | 1589 | 10 | 2 | 6 | 177 |
+| 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md | 1764 | 1587 | 10 | 2 | 6 | 177 |
 | 01-CANON/CANON-32100-COHERENCE-planetary-INSIGHT.md | 1758 | 1582 | 10 | 2 | 6 | 176 |
 | 01-CANON/CANON-34100-MASTERY-planetary-KNOWLEDGE.md | 1755 | 1579 | 10 | 2 | 6 | 176 |
 | 04-SOURCES/processed/SOURCE-20251001-x-thread-andrej_karpathy-sutton_response.md | 1751 | 963 | 10 | 9 | 2 | 788 |
 | 01-CANON/CANON-11000-FACETS-core.md | 1741 | 1566 | 10 | 2 | 6 | 175 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md | 1720 | 1548 | 10 | 2 | 6 | 172 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md | 1720 | 1548 | 10 | 2 | 6 | 172 |
 | 04-SOURCES/processed/SOURCE-20250528-youtube-lecture-longnow-sara_imari_walker.md | 1706 | 1450 | 10 | 3 | 6 | 256 |
 | -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/03_CHORUS_PROTOCOL_V2.md | 1696 | 1526 | 10 | 2 | 6 | 170 |
 | 00-ORCHESTRATION/state/REF-MULTI_ACCOUNT_SYNC.md | 1695 | 1525 | 10 | 2 | 6 | 170 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-026A_SCRIPTURE_VERIFICATION.md | 1691 | 1521 | 10 | 2 | 6 | 170 |
-| 05-ARCHIVE/ORACLE11_INIT.md | 1688 | 1519 | 10 | 2 | 6 | 169 |
+| 05-MEMORY/ORACLE11_INIT.md | 1688 | 1519 | 10 | 2 | 6 | 169 |
 | 04-SOURCES/raw/00000000-youtube_video-nvidia-s_new_ais_movements_are_so_real_its_uncanny.txt | 1685 | 1348 | 10 | 4 | 1 | 337 |
 | 04-SOURCES/raw/20251004-youtube_video-dwarkesh-sutton_response.md | 1677 | 1006 | 10 | 8 | 4 | 671 |
 | 04-SOURCES/raw/20251029-youtube_video-mberman-sam_altman_reveals_exact_date_of_intelligence.md | 1667 | 1166 | 10 | 6 | 4 | 501 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-025A_DOCUMENTATION_EXTRACTION.md | 1666 | 1499 | 10 | 2 | 6 | 167 |
-| 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md | 1649 | 1566 | 10 | 1 | 6 | 83 |
-| 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md | 1649 | 1484 | 10 | 2 | 6 | 165 |
+| 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md | 1649 | 1566 | 10 | 1 | 6 | 83 |
+| 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md | 1649 | 1484 | 10 | 2 | 6 | 165 |
 | -OUTGOING/20260119-corpus-annealment-survey/file_inventory.txt | 1646 | 1234 | 10 | 5 | 1 | 412 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-045B.md | 1644 | 1561 | 10 | 1 | 6 | 83 |
-| 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md | 1640 | 1476 | 10 | 2 | 6 | 164 |
+| 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md | 1640 | 1476 | 10 | 2 | 6 | 164 |
 | 00-ORCHESTRATION/execution_logs/ORACLE10_CULMINATION.md | 1632 | 1468 | 10 | 2 | 6 | 164 |
 | .claude/settings.local.json | 1629 | 977 | 10 | 8 | 1 | 652 |
 | 04-SOURCES/raw/00000000-youtube_video-deepseek_ocr_ex-deepseek_ocr_explained.md | 1624 | 1380 | 10 | 3 | 1 | 244 |
 | 01-CANON/CANON-00001-ORIGIN-cosmos.md | 1617 | 1374 | 10 | 3 | 6 | 243 |
 | 04-SOURCES/processed/SOURCE-20250522-youtube-interview-dwarkesh-sholto_douglas_trenton_bricken.md | 1604 | 1363 | 10 | 3 | 6 | 241 |
-| 02-OPERATIONAL/README.md | 1594 | 1434 | 10 | 2 | 6 | 160 |
+| 02-ENGINE/README.md | 1594 | 1434 | 10 | 2 | 6 | 160 |
 | 04-SOURCES/raw/agents/ai_agents_101-@vasuman.md | 1594 | 956 | 10 | 8 | 1 | 638 |
 | 04-SOURCES/raw/20251227-youtube_video-20251227_youtub-neil_mcdevitt.txt | 1593 | 1354 | 10 | 3 | 1 | 239 |
 | -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_defrag_plan.md | 1592 | 1353 | 10 | 3 | 6 | 239 |
 | 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md | 1583 | 1424 | 10 | 2 | 6 | 159 |
 | 00-ORCHESTRATION/execution_logs/RECONSOLIDATION_AUDIT-2026-01-02.md | 1572 | 1414 | 10 | 2 | 6 | 158 |
-| 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md | 1548 | 1393 | 10 | 2 | 6 | 155 |
+| 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md | 1548 | 1393 | 10 | 2 | 6 | 155 |
 | 03-QUEUE/modal2/Physical_AI.md | 1537 | 1075 | 10 | 6 | 4 | 462 |
 | 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md | 1536 | 1382 | 10 | 2 | 6 | 154 |
 | 00-ORCHESTRATION/state/REF-STANDARDS.md | 1535 | 1381 | 10 | 2 | 6 | 154 |
 | 01-CANON/CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md | 1534 | 1380 | 10 | 2 | 6 | 154 |
 | -OUTGOING/TELEOLOGY_PASS_4_20260117_1430/02_CONCIERGE_COCKPIT_CONSTITUTION.md | 1510 | 1359 | 10 | 2 | 6 | 151 |
 | 04-SOURCES/processed/SOURCE-20250403-youtube-interview-dwarkesh-scott_alexander_daniel_kokotajlo.md | 1508 | 1281 | 10 | 3 | 6 | 227 |
-| 02-OPERATIONAL/functions/FUNCTION_INDEX.md | 1501 | 1350 | 10 | 2 | 6 | 151 |
+| 02-ENGINE/functions/FUNCTION_INDEX.md | 1501 | 1350 | 10 | 2 | 6 | 151 |
 | 01-CANON/CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md | 1499 | 1349 | 10 | 2 | 6 | 150 |
 | 00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md | 1496 | 1346 | 10 | 2 | 6 | 150 |
-| 05-ARCHIVE/ARCH-final_interactions.md | 1493 | 1119 | 10 | 5 | 1 | 374 |
+| 05-MEMORY/ARCH-final_interactions.md | 1493 | 1119 | 10 | 5 | 1 | 374 |
 | 00-ORCHESTRATION/state/REF-SOURCES_SCHEMA.md | 1488 | 1339 | 10 | 2 | 6 | 149 |
 | 04-SOURCES/raw/20251226-youtube_video-20251226_youtub-ibm_technology.md | 1462 | 1096 | 10 | 5 | 6 | 366 |
 | -OUTGOING/RING7_PHASESHIFT_PASS_20260116_212500/SUBAGENT_MESH_BLUEPRINT.md | 1454 | 1308 | 10 | 2 | 6 | 146 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-023_CONTENT_ALIGNMENT_AUDIT.md | 1453 | 1307 | 10 | 2 | 6 | 146 |
-| 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md | 1452 | 1306 | 10 | 2 | 6 | 146 |
+| 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md | 1452 | 1306 | 10 | 2 | 6 | 146 |
 | .claude/commands/project/blitzkrieg_issue.md | 1452 | 1379 | 10 | 1 | 6 | 73 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md | 1442 | 1081 | 10 | 5 | 1 | 361 |
-| 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md | 1442 | 1081 | 10 | 5 | 1 | 361 |
-| 02-OPERATIONAL/functions/transcribe_interview.md | 1437 | 1293 | 10 | 2 | 6 | 144 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md | 1442 | 1081 | 10 | 5 | 1 | 361 |
+| 02-ENGINE/prompts/unified/Claude-unified-prompt.md | 1442 | 1081 | 10 | 5 | 1 | 361 |
+| 02-ENGINE/functions/transcribe_interview.md | 1437 | 1293 | 10 | 2 | 6 | 144 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-043A.md | 1434 | 1290 | 10 | 2 | 6 | 144 |
 | -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/01_audit/audit_of_defrag_conviction_pass.md | 1423 | 1280 | 10 | 2 | 6 | 143 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-042B_MULTI_CLI.md | 1418 | 1276 | 10 | 2 | 6 | 142 |
 | -OUTGOING/20260122/gemini/ontologist_knowledge_graph_engineer.md | 1416 | 1203 | 10 | 3 | 6 | 213 |
 | 01-CANON/CANON-00003-PRINCIPLES-cosmos.md | 1400 | 1260 | 10 | 2 | 6 | 140 |
-| 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md | 1395 | 1255 | 10 | 2 | 6 | 140 |
+| 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md | 1395 | 1255 | 10 | 2 | 6 | 140 |
 | 04-SOURCES/raw/20251226-youtube_video-dshapiro-content.txt | 1394 | 1184 | 10 | 3 | 1 | 210 |
-| 02-OPERATIONAL/functions/readize.md | 1392 | 1183 | 10 | 3 | 6 | 209 |
+| 02-ENGINE/functions/readize.md | 1392 | 1183 | 10 | 3 | 6 | 209 |
 | 00-ORCHESTRATION/execution_logs/EXECUTION_LOG-2026-01-15-046B.md | 1380 | 1242 | 10 | 2 | 6 | 138 |
 | 00-ORCHESTRATION/state/ARCH-COHERENCE_ABSORPTION_AUDIT.md | 1371 | 1233 | 10 | 2 | 6 | 138 |
 | 04-SOURCES/raw/20251101-youtube_video-dshapiro-renaissance_2_0.md | 1364 | 682 | 10 | 10 | 2 | 682 |
 | 04-SOURCES/raw/20251001-x_thread-20251001_x_post-andrej_karpathy.md | 1363 | 681 | 10 | 10 | 1 | 682 |
-| 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md | 1361 | 1156 | 10 | 3 | 5 | 205 |
-| 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md | 1359 | 1155 | 10 | 3 | 6 | 204 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md | 1359 | 1155 | 10 | 3 | 6 | 204 |
+| 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md | 1361 | 1156 | 10 | 3 | 5 | 205 |
+| 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md | 1359 | 1155 | 10 | 3 | 6 | 204 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md | 1359 | 1155 | 10 | 3 | 6 | 204 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-042C_OPERATIONAL_HYGIENE.md | 1354 | 1218 | 10 | 2 | 6 | 136 |
 | 01-CANON/CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md | 1349 | 1214 | 10 | 2 | 6 | 135 |
 | 04-SOURCES/DYN-SOURCES.csv | 1344 | 672 | 10 | 10 | 1 | 672 |
@@ -440,53 +440,53 @@
 | .claude/commands/project/deviser_reint.md | 1341 | 1206 | 10 | 2 | 6 | 135 |
 | 00-ORCHESTRATION/scripts/structural_verify.sh | 1338 | 1204 | 10 | 2 | 6 | 134 |
 | 04-SOURCES/processed/SOURCE-20250320-youtube-lecture-longnow-benjamin_bratton.md | 1334 | 1133 | 10 | 3 | 6 | 201 |
-| 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md | 1327 | 1194 | 10 | 2 | 6 | 133 |
+| 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md | 1327 | 1194 | 10 | 2 | 6 | 133 |
 | 01-CANON/CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md | 1325 | 1192 | 10 | 2 | 6 | 133 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-031_TEMPORAL_CURRENCY.md | 1316 | 1184 | 10 | 2 | 6 | 132 |
-| 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md | 1312 | 1180 | 10 | 2 | 6 | 132 |
+| 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md | 1312 | 1180 | 10 | 2 | 6 | 132 |
 | 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md | 1311 | 1179 | 10 | 2 | 6 | 132 |
 | 01-CANON/CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md | 1309 | 1178 | 10 | 2 | 6 | 131 |
-| 02-OPERATIONAL/functions/integrate.md | 1308 | 1177 | 10 | 2 | 6 | 131 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md | 1305 | 1174 | 10 | 2 | 6 | 131 |
+| 02-ENGINE/functions/integrate.md | 1308 | 1177 | 10 | 2 | 6 | 131 |
+| 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md | 1305 | 1174 | 10 | 2 | 6 | 131 |
 | .claude/commands/project/blitzkrieg_finalize.md | 1300 | 1170 | 10 | 2 | 6 | 130 |
 | 04-SOURCES/raw/20250623-youtube_video-brainmind-blaise_aguera_y_arcas.txt | 1295 | 971 | 10 | 5 | 1 | 324 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-043B.md | 1287 | 1158 | 10 | 2 | 6 | 129 |
 | 01-CANON/CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md | 1286 | 1157 | 10 | 2 | 6 | 129 |
-| 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md | 1279 | 1151 | 10 | 2 | 6 | 128 |
-| 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md | 1276 | 1148 | 10 | 2 | 6 | 128 |
+| 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md | 1279 | 1151 | 10 | 2 | 6 | 128 |
+| 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md | 1276 | 1148 | 10 | 2 | 6 | 128 |
 | 01-CANON/CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md | 1265 | 1138 | 10 | 2 | 6 | 127 |
 | 04-SOURCES/raw/claudecode/BESTPRACTICE-5-20260102-x_thread-boris_created_claude_code_setup-bcherny.md | 1264 | 1137 | 10 | 2 | 6 | 127 |
-| 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md | 1262 | 1135 | 10 | 2 | 6 | 127 |
-| 02-OPERATIONAL/surveys/AI_Academic_Research.md | 1260 | 882 | 10 | 6 | 4 | 378 |
+| 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md | 1262 | 1135 | 10 | 2 | 6 | 127 |
+| 02-ENGINE/surveys/AI_Academic_Research.md | 1260 | 882 | 10 | 6 | 4 | 378 |
 | -OUTGOING/20260119-corpus-annealment-survey/SENSING_REPORT.md | 1252 | 1001 | 10 | 4 | 6 | 251 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-036C-ORACLE9-ACTUAL-COMPLETION.md | 1251 | 1125 | 10 | 2 | 6 | 126 |
-| 05-ARCHIVE/Claude-unified-prompt.md | 1225 | 980 | 10 | 4 | 6 | 245 |
-| 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md | 1217 | 1095 | 10 | 2 | 6 | 122 |
+| 05-MEMORY/Claude-unified-prompt.md | 1225 | 980 | 10 | 4 | 6 | 245 |
+| 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md | 1217 | 1095 | 10 | 2 | 6 | 122 |
 | -OUTGOING/TURBINE_BAKEOFF_20260117_1900/claude_code/02_refinements/refined_symbolic_compression_rules.md | 1217 | 1095 | 10 | 2 | 6 | 122 |
-| 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md | 1206 | 1085 | 10 | 2 | 6 | 121 |
+| 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md | 1206 | 1085 | 10 | 2 | 6 | 121 |
 | 00-ORCHESTRATION/directives/DIRECTIVE-042A.md | 1201 | 1080 | 10 | 2 | 6 | 121 |
 | CLAUDE.md | 732 | 658 | 10 | 2 | 6 | 74 |
 | COCKPIT.md | 729 | 656 | 10 | 2 | 6 | 73 |
 | 06-EXEMPLA/README.md | 445 | 400 | 9 | 2 | 6 | 45 |
 | 04-SOURCES/README.md | 371 | 333 | 9 | 2 | 6 | 38 |
-| 05-ARCHIVE/README.md | 348 | 313 | 9 | 2 | 6 | 35 |
+| 05-MEMORY/README.md | 348 | 313 | 9 | 2 | 6 | 35 |
 | GEMINI.md | 297 | 267 | 9 | 2 | 6 | 30 |
 | CODEX.md | 227 | 204 | 9 | 2 | 6 | 23 |
 | 00-ORCHESTRATION/state/README.md | 224 | 201 | 9 | 2 | 5 | 23 |
-| 05-ARCHIVE/chorus-session-20260122/README.md | 164 | 147 | 8 | 2 | 5 | 17 |
+| 05-MEMORY/chorus-session-20260122/README.md | 164 | 147 | 8 | 2 | 5 | 17 |
 | .constellation/phase-specs/README.md | 127 | 120 | 8 | 1 | 3 | 7 |
-| 02-OPERATIONAL/avatars/README.md | 113 | 101 | 8 | 2 | 4 | 12 |
+| 02-ENGINE/avatars/README.md | 113 | 101 | 8 | 2 | 4 | 12 |
 | 03-QUEUE/README.md | 108 | 97 | 8 | 2 | 4 | 11 |
 
 ## 3. Wayfinding Failures (Plus Signage/Paths/Regions)
 
 - **Signage system**: numeric top-level folders signal sequencing, but intra-folder prefixes (`ARCH-`, `SCAFF-`, `DYN-`, `REF-`) are opaque without a legend.
 - **Landmarks**: `CLAUDE.md`, `COCKPIT.md`, `CODEX.md`, `GEMINI.md` compete as landmarks; none is marked as primary.
-- **Paths**: expected path “start -> overview -> operate” breaks because entry points do not consistently link to `00-ORCHESTRATION/`, `02-OPERATIONAL/`, or `03-QUEUE/`.
-- **Regions**: `05-ARCHIVE/` and `-OUTGOING/` represent overlapping “done” regions, weakening regional boundaries.
+- **Paths**: expected path “start -> overview -> operate” breaks because entry points do not consistently link to `00-ORCHESTRATION/`, `02-ENGINE/`, or `03-QUEUE/`.
+- **Regions**: `05-MEMORY/` and `-OUTGOING/` represent overlapping “done” regions, weakening regional boundaries.
 - **Where wayfinding fails**: acronym-heavy names, parallel archives, and limited cross-links create dead ends for new agents.
 - **Progressive disclosure**: Layer 0 (root entry files) exists, but Layer 1 overview is fragmented; Layer 2 details are deep and acronymic; Layer 3 deep knowledge exists but lacks signposted paths.
-- Low-clarity names (score <=3) likely cold trails for new agents: `.DS_Store`, `.gitignore`, `.gitattributes`, `-INBOX/.DS_Store`, `00-ORCHESTRATION/.DS_Store`, `02-OPERATIONAL/.DS_Store`, `.tmp.driveupload/15627`, `06-EXEMPLA/.DS_Store`, `.claude/.DS_Store`, `04-SOURCES/.DS_Store` ...
+- Low-clarity names (score <=3) likely cold trails for new agents: `.DS_Store`, `.gitignore`, `.gitattributes`, `-INBOX/.DS_Store`, `00-ORCHESTRATION/.DS_Store`, `02-ENGINE/.DS_Store`, `.tmp.driveupload/15627`, `06-EXEMPLA/.DS_Store`, `.claude/.DS_Store`, `04-SOURCES/.DS_Store` ...
 
 ## 4. Chunking Recommendations
 
@@ -533,7 +533,7 @@
 | 01-CANON/CANON-00014-CONTENT_PROTOCOL-cosmos.md | 13008 |
 | 04-SOURCES/raw/20251013-youtube_video-indset-matthew_kinsella.txt | 12854 |
 | 01-CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md | 12755 |
-| 05-ARCHIVE/ARCH-frontier_models.md | 12502 |
+| 05-MEMORY/ARCH-frontier_models.md | 12502 |
 | 04-SOURCES/raw/20251021-youtube_video-nextwave-maria_gharib.txt | 12457 |
 | 01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md | 12422 |
 | 04-SOURCES/raw/20251024-youtube_lecture-eit-henrik_von_scheel.txt | 12420 |
@@ -575,7 +575,7 @@
 | 04-SOURCES/raw/openai_research.md | 8262 |
 | 04-SOURCES/raw/20251029-youtube_video-openai-sam_jakub_and_wojciec.md | 8144 |
 | 04-SOURCES/raw/20250207-youtube_video-bilawal-vfx_ai_tools.txt | 7862 |
-| 05-ARCHIVE/ARCH-platform_features.md | 7844 |
+| 05-MEMORY/ARCH-platform_features.md | 7844 |
 | 04-SOURCES/raw/20251027-youtube_video-moonshots-chatgpt_atlas.md | 7578 |
 | 01-CANON/CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md | 7430 |
 | 01-CANON/CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md | 7402 |
@@ -614,7 +614,7 @@
 | 04-SOURCES/raw/20251030-youtube_video-moonshots-anatoly_yakovenko_204.md | 5551 |
 | 04-SOURCES/raw/20250320-youtube_lecture-longnow-benjamin_bratton.md | 5519 |
 | 04-SOURCES/raw/20250903-youtube_video-tow-max_tegmark.md | 5482 |
-| 05-ARCHIVE/ARCH-previous_thread.md | 5426 |
+| 05-MEMORY/ARCH-previous_thread.md | 5426 |
 | 01-CANON/CANON-99000-HISTORICAL-meta.md | 5381 |
 | 04-SOURCES/raw/00000000-youtube_tutorial-nbj-claude_skillsfrom_toy_to_tool_grab_my_tutoria.txt | 5318 |
 | 01-CANON/CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md | 5301 |
@@ -656,14 +656,14 @@
 
 | Document | Tokens |
 | --- | --- |
-| 02-OPERATIONAL/registries/DYN-ACCOUNTS.csv | 4 |
+| 02-ENGINE/registries/DYN-ACCOUNTS.csv | 4 |
 | .obsidian/app.json | 6 |
 | .obsidian/appearance.json | 6 |
 | 00-ORCHESTRATION/state/DYN-BURNDOWN.csv | 6 |
 | .constellation/state/current.yaml | 15 |
 | 00-ORCHESTRATION/state/DYN-SPRINTS.csv | 17 |
-| 05-ARCHIVE/GEMINI_VALIDATION_TEST_PROOF.md | 18 |
-| 02-OPERATIONAL/registries/DYN-PLATFORMS.csv | 21 |
+| 05-MEMORY/GEMINI_VALIDATION_TEST_PROOF.md | 18 |
+| 02-ENGINE/registries/DYN-PLATFORMS.csv | 21 |
 | 04-SOURCES/raw/claudecode/conversation_with_chat_history-@0xSero.md | 22 |
 | -OUTGOING/20260119-sensing_sweep/manifest.json | 23 |
 | .constellation/tokens/active.txt | 25 |
@@ -677,7 +677,7 @@
 | 00-ORCHESTRATION/blackboard/audits/AUD-20260116-001.json | 44 |
 | 04-SOURCES/raw/claudecode/state_machine-@mert.md | 46 |
 | 04-SOURCES/raw/claudecode/compaction-@nummanali.md | 46 |
-| 02-OPERATIONAL/registries/DYN-ROLES.csv | 46 |
+| 02-ENGINE/registries/DYN-ROLES.csv | 46 |
 | .claude/settings.json | 53 |
 | -OUTGOING/TURBINE_BAKEOFF_20260117_1900/codex_cli/03_apply_preview/defrag_rollback_preview.sh | 53 |
 | 00-ORCHESTRATION/blackboard/executions/EXE-20260116-001.json | 53 |
@@ -698,8 +698,8 @@
 | 00-ORCHESTRATION/blackboard/evidence/EVD-20260116-001.json | 93 |
 | 00-ORCHESTRATION/blackboard/plans/PLN-20260116-001.json | 97 |
 | 03-QUEUE/README.md | 108 |
-| 02-OPERATIONAL/gemini-settings.json | 112 |
-| 02-OPERATIONAL/avatars/README.md | 113 |
+| 02-ENGINE/gemini-settings.json | 112 |
+| 02-ENGINE/avatars/README.md | 113 |
 | 04-SOURCES/raw/00000000-youtube_video-aiexp-new_multi_agent_protocol_rep_by_mit_100_agent.txt | 114 |
 | 06-EXEMPLA/templates/TEMPLATE-EXECUTION_LOG.md | 116 |
 ... (full fragment list available in naming audit table for all files)
@@ -5395,122 +5395,122 @@
 | 01-CANON/CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md | 3 | Y | Y | 2 |
 | 01-CANON/CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md | 5 | Y | Y | 4 |
 | 01-CANON/CANON-99000-HISTORICAL-meta.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/ | 8 | Y | Y | 9 |
-| 02-OPERATIONAL/.DS_Store | 1 | N | Y | 2 |
-| 02-OPERATIONAL/BLITZKRIEG_PROTOCOL.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/DYN-COORDINATION.yaml | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/GEMINI.md | 7 | Y | Y | 8 |
-| 02-OPERATIONAL/IIC-Acumen-config.md | 5 | Y | Y | 6 |
-| 02-OPERATIONAL/IIC-Coherence-config.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/IIC-Efficacy-config.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/IIC-Mastery-config.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/IIC-Transcendence-config.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/IIC-shared-protocols.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/MCP_SETUP.md | 5 | N | Y | 6 |
-| 02-OPERATIONAL/PROTOCOL-ChatGPT-Onboarding.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/PROTOCOL-Gemini-Onboarding.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/README.md | 8 | Y | Y | 9 |
-| 02-OPERATIONAL/REF-OPERATIONAL_ENGINE.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/THREAD_HANDOFF_ORACLE13_SUNSET.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/avatars/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/avatars/IDEATE-ChatGPT-Acc1.md | 7 | N | Y | 7 |
-| 02-OPERATIONAL/avatars/README.md | 8 | Y | Y | 9 |
-| 02-OPERATIONAL/functions/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/FUNCTION_INDEX.md | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/absorb.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/amalgamate.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/amplify.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/anneal.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/coalesce.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/compile.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/consolidate.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/convert.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/harmonize.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/integrate.md | 7 | N | N | 8 |
-| 02-OPERATIONAL/functions/integrate.xml | 7 | N | N | 8 |
-| 02-OPERATIONAL/functions/listenize.md | 7 | N | N | 8 |
-| 02-OPERATIONAL/functions/listenize.xml | 7 | N | N | 8 |
-| 02-OPERATIONAL/functions/offload.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/optimize.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/primer.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/readize.md | 7 | N | N | 8 |
-| 02-OPERATIONAL/functions/readize.xml | 7 | N | N | 8 |
-| 02-OPERATIONAL/functions/reforge.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/transcribe_interview.md | 7 | N | N | 7 |
-| 02-OPERATIONAL/functions/transcribe_interview.xml | 7 | N | N | 7 |
-| 02-OPERATIONAL/functions/transcribe_panel.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/functions/transcribe_youtube.md | 7 | N | N | 7 |
-| 02-OPERATIONAL/functions/transcribe_youtube.xml | 7 | N | N | 7 |
-| 02-OPERATIONAL/functions/translate.xml | 7 | N | Y | 8 |
-| 02-OPERATIONAL/gemini-settings.json | 7 | N | Y | 8 |
-| 02-OPERATIONAL/memory/ | 8 | N | Y | 9 |
-| 02-OPERATIONAL/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/memory/acumen-memory-config.md | 8 | N | Y | 8 |
-| 02-OPERATIONAL/models/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/models/MODEL_INDEX.md | 7 | Y | Y | 8 |
-| 02-OPERATIONAL/models/profiles/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/prompts/.DS_Store | 1 | N | Y | 2 |
-| 02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/prompts/canonical/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-CHATGPT-canonical.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-CLAUDE-canonical.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-GEMINI-canonical.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-GROK-canonical.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/prompts/canonical/STATION_PROMPTS_REGISTRY.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/chatgpt/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md | 9 | Y | Y | 9 |
-| 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md | 8 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/profiles/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-GPT-5.yaml | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/profiles/MODEL_PROFILE-Grok-4.yaml | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/unified/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/prompts/unified/ChatGPT-gemknowledge-base.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/unified/ChatGPT-unified-prompt.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/unified/Claude-gemknowledge-base.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/unified/Claude-unified-prompt.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/unified/Gemini-gemknowledge-base.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/unified/Gemini-unified-prompt.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/prompts/unified/Grok-gemknowledge-base.md | 7 | Y | Y | 7 |
-| 02-OPERATIONAL/prompts/unified/Grok-unified-prompt.md | 8 | Y | Y | 8 |
-| 02-OPERATIONAL/protocols/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/queues/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/queues/YOUTUBE_PROCESSING_BACKLOG.md | 7 | N | Y | 7 |
-| 02-OPERATIONAL/registries/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/registries/DYN-ACCOUNTS.csv | 5 | Y | Y | 6 |
-| 02-OPERATIONAL/registries/DYN-CONSTELLATION_CONFIGURATION.json | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/registries/DYN-PLATFORMS.csv | 5 | Y | Y | 6 |
-| 02-OPERATIONAL/registries/DYN-ROLES.csv | 4 | Y | Y | 5 |
-| 02-OPERATIONAL/registries/REF-AGENTS.md | 5 | Y | Y | 6 |
-| 02-OPERATIONAL/registries/REF-CONFIGURATION_REGISTRY.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md | 5 | Y | Y | 5 |
-| 02-OPERATIONAL/registries/REF-OPERATIONS_TREE.md | 4 | Y | Y | 4 |
-| 02-OPERATIONAL/registries/REF-PROMPT_REGISTRY.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/scripts/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/scripts/ops_lint.sh | 7 | N | Y | 8 |
-| 02-OPERATIONAL/scripts/rename_canon.sh | 7 | N | Y | 8 |
-| 02-OPERATIONAL/scripts/validate_frontmatter.sh | 7 | N | Y | 7 |
-| 02-OPERATIONAL/specs/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/specs/REF-AUDIZER_PROTOCOL.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/specs/REF-CHATGPT_MEMORY_POLICY.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/specs/REF-HANDOFF_PROTOCOL_DESIGN.md | 6 | Y | Y | 6 |
-| 02-OPERATIONAL/surveys/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/surveys/AI_Academic_Research.md | 6 | N | Y | 6 |
-| 02-OPERATIONAL/surveys/AI_ECOSYSTEM_SURVEY.md | 7 | N | Y | 7 |
-| 02-OPERATIONAL/templates/ | 7 | N | Y | 8 |
-| 02-OPERATIONAL/templates/EXECUTION_LOG_TEMPLATE.md | 9 | N | Y | 9 |
+| 02-ENGINE/ | 8 | Y | Y | 9 |
+| 02-ENGINE/.DS_Store | 1 | N | Y | 2 |
+| 02-ENGINE/BLITZKRIEG_PROTOCOL.md | 8 | Y | Y | 8 |
+| 02-ENGINE/DYN-COORDINATION.yaml | 5 | Y | Y | 5 |
+| 02-ENGINE/GEMINI.md | 7 | Y | Y | 8 |
+| 02-ENGINE/IIC-Acumen-config.md | 5 | Y | Y | 6 |
+| 02-ENGINE/IIC-Coherence-config.md | 5 | Y | Y | 5 |
+| 02-ENGINE/IIC-Efficacy-config.md | 5 | Y | Y | 5 |
+| 02-ENGINE/IIC-Mastery-config.md | 5 | Y | Y | 5 |
+| 02-ENGINE/IIC-Transcendence-config.md | 5 | Y | Y | 5 |
+| 02-ENGINE/IIC-shared-protocols.md | 5 | Y | Y | 5 |
+| 02-ENGINE/MCP_SETUP.md | 5 | N | Y | 6 |
+| 02-ENGINE/PROTOCOL-ChatGPT-Onboarding.md | 8 | Y | Y | 8 |
+| 02-ENGINE/PROTOCOL-Gemini-Onboarding.md | 8 | Y | Y | 8 |
+| 02-ENGINE/README.md | 8 | Y | Y | 9 |
+| 02-ENGINE/REF-OPERATIONAL_ENGINE.md | 6 | Y | Y | 6 |
+| 02-ENGINE/THREAD_HANDOFF_ORACLE13_SUNSET.md | 7 | Y | Y | 7 |
+| 02-ENGINE/avatars/ | 7 | N | Y | 8 |
+| 02-ENGINE/avatars/IDEATE-ChatGPT-Acc1.md | 7 | N | Y | 7 |
+| 02-ENGINE/avatars/README.md | 8 | Y | Y | 9 |
+| 02-ENGINE/functions/ | 7 | N | Y | 8 |
+| 02-ENGINE/functions/FUNCTION_INDEX.md | 7 | N | Y | 8 |
+| 02-ENGINE/functions/absorb.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/amalgamate.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/amplify.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/anneal.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/coalesce.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/compile.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/consolidate.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/convert.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/harmonize.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/integrate.md | 7 | N | N | 8 |
+| 02-ENGINE/functions/integrate.xml | 7 | N | N | 8 |
+| 02-ENGINE/functions/listenize.md | 7 | N | N | 8 |
+| 02-ENGINE/functions/listenize.xml | 7 | N | N | 8 |
+| 02-ENGINE/functions/offload.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/optimize.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/primer.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/readize.md | 7 | N | N | 8 |
+| 02-ENGINE/functions/readize.xml | 7 | N | N | 8 |
+| 02-ENGINE/functions/reforge.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/transcribe_interview.md | 7 | N | N | 7 |
+| 02-ENGINE/functions/transcribe_interview.xml | 7 | N | N | 7 |
+| 02-ENGINE/functions/transcribe_panel.xml | 7 | N | Y | 8 |
+| 02-ENGINE/functions/transcribe_youtube.md | 7 | N | N | 7 |
+| 02-ENGINE/functions/transcribe_youtube.xml | 7 | N | N | 7 |
+| 02-ENGINE/functions/translate.xml | 7 | N | Y | 8 |
+| 02-ENGINE/gemini-settings.json | 7 | N | Y | 8 |
+| 02-ENGINE/memory/ | 8 | N | Y | 9 |
+| 02-ENGINE/memory/REF-MEMORY_ARCHITECTURE_MATRIX.md | 7 | Y | Y | 7 |
+| 02-ENGINE/memory/acumen-memory-config.md | 8 | N | Y | 8 |
+| 02-ENGINE/models/ | 7 | N | Y | 8 |
+| 02-ENGINE/models/MODEL_INDEX.md | 7 | Y | Y | 8 |
+| 02-ENGINE/models/profiles/ | 7 | N | Y | 8 |
+| 02-ENGINE/models/profiles/MODEL_PROFILE-Claude-4.5-Opus.yaml | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/ | 7 | N | Y | 8 |
+| 02-ENGINE/prompts/.DS_Store | 1 | N | Y | 2 |
+| 02-ENGINE/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md | 6 | Y | Y | 6 |
+| 02-ENGINE/prompts/canonical/ | 7 | N | Y | 8 |
+| 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-COMPILER_HANDOFF.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/canonical/PROMPT-CHATGPT-canonical.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/canonical/PROMPT-CLAUDE-canonical.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/canonical/PROMPT-GEMINI-canonical.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/canonical/PROMPT-GROK-canonical.md | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-AUDITOR.md | 6 | Y | Y | 6 |
+| 02-ENGINE/prompts/canonical/PROMPT-IMEP-CHATGPT-DEVISER.md | 6 | Y | Y | 6 |
+| 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-AUDITOR.md | 6 | Y | Y | 6 |
+| 02-ENGINE/prompts/canonical/PROMPT-IMEP-CLAUDE-ENGINEER.md | 6 | Y | Y | 6 |
+| 02-ENGINE/prompts/canonical/PROMPT-IMEP-GEMINI-ORACLE.md | 5 | Y | Y | 5 |
+| 02-ENGINE/prompts/canonical/STATION_PROMPTS_REGISTRY.md | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/chatgpt/ | 7 | N | Y | 8 |
+| 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-GLOBAL_MEMORY_REGISTRATION.md | 9 | Y | Y | 9 |
+| 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_INSTRUCTIONS-DEVISER.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/chatgpt/PROMPT-CHATGPT-PROJECT_MEMORY_ANCHOR-SYNCRESCENDENCE.md | 8 | Y | Y | 7 |
+| 02-ENGINE/prompts/profiles/ | 7 | N | Y | 8 |
+| 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4-Sonnet.yaml | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/profiles/MODEL_PROFILE-Claude-4.1-Opus.yaml | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/profiles/MODEL_PROFILE-GPT-5.yaml | 6 | Y | Y | 6 |
+| 02-ENGINE/prompts/profiles/MODEL_PROFILE-Gemini-2.5-Pro.yaml | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/profiles/MODEL_PROFILE-Grok-4.yaml | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/unified/ | 7 | N | Y | 8 |
+| 02-ENGINE/prompts/unified/ChatGPT-gemknowledge-base.md | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/unified/ChatGPT-unified-prompt.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/unified/Claude-gemknowledge-base.md | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/unified/Claude-unified-prompt.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/unified/Gemini-gemknowledge-base.md | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/unified/Gemini-unified-prompt.md | 8 | Y | Y | 8 |
+| 02-ENGINE/prompts/unified/Grok-gemknowledge-base.md | 7 | Y | Y | 7 |
+| 02-ENGINE/prompts/unified/Grok-unified-prompt.md | 8 | Y | Y | 8 |
+| 02-ENGINE/protocols/ | 7 | N | Y | 8 |
+| 02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md | 5 | Y | Y | 5 |
+| 02-ENGINE/queues/ | 7 | N | Y | 8 |
+| 02-ENGINE/queues/YOUTUBE_PROCESSING_BACKLOG.md | 7 | N | Y | 7 |
+| 02-ENGINE/registries/ | 7 | N | Y | 8 |
+| 02-ENGINE/registries/DYN-ACCOUNTS.csv | 5 | Y | Y | 6 |
+| 02-ENGINE/registries/DYN-CONSTELLATION_CONFIGURATION.json | 5 | Y | Y | 5 |
+| 02-ENGINE/registries/DYN-PLATFORMS.csv | 5 | Y | Y | 6 |
+| 02-ENGINE/registries/DYN-ROLES.csv | 4 | Y | Y | 5 |
+| 02-ENGINE/registries/REF-AGENTS.md | 5 | Y | Y | 6 |
+| 02-ENGINE/registries/REF-CONFIGURATION_REGISTRY.md | 5 | Y | Y | 5 |
+| 02-ENGINE/registries/REF-OPERATIONS_ARTIFACT_TAXONOMY.md | 5 | Y | Y | 5 |
+| 02-ENGINE/registries/REF-OPERATIONS_TREE.md | 4 | Y | Y | 4 |
+| 02-ENGINE/registries/REF-PROMPT_REGISTRY.md | 6 | Y | Y | 6 |
+| 02-ENGINE/scripts/ | 7 | N | Y | 8 |
+| 02-ENGINE/scripts/ops_lint.sh | 7 | N | Y | 8 |
+| 02-ENGINE/scripts/rename_canon.sh | 7 | N | Y | 8 |
+| 02-ENGINE/scripts/validate_frontmatter.sh | 7 | N | Y | 7 |
+| 02-ENGINE/specs/ | 7 | N | Y | 8 |
+| 02-ENGINE/specs/REF-AUDIZER_PROTOCOL.md | 6 | Y | Y | 6 |
+| 02-ENGINE/specs/REF-CHATGPT_MEMORY_POLICY.md | 6 | Y | Y | 6 |
+| 02-ENGINE/specs/REF-HANDOFF_PROTOCOL_DESIGN.md | 6 | Y | Y | 6 |
+| 02-ENGINE/surveys/ | 7 | N | Y | 8 |
+| 02-ENGINE/surveys/AI_Academic_Research.md | 6 | N | Y | 6 |
+| 02-ENGINE/surveys/AI_ECOSYSTEM_SURVEY.md | 7 | N | Y | 7 |
+| 02-ENGINE/templates/ | 7 | N | Y | 8 |
+| 02-ENGINE/templates/EXECUTION_LOG_TEMPLATE.md | 9 | N | Y | 9 |
 | 03-QUEUE/ | 6 | Y | Y | 7 |
 | 03-QUEUE/.DS_Store | 1 | N | Y | 2 |
 | 03-QUEUE/QUEUE_DISPOSITION.md | 7 | Y | Y | 8 |
@@ -5812,119 +5812,119 @@
 | 04-SOURCES/raw/openai_research.md | 7 | N | Y | 8 |
 | 04-SOURCES/raw/promptengineering/ | 7 | N | Y | 8 |
 | 04-SOURCES/raw/promptengineering/how_to_master_prompt_engineering-@exm777.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/ | 7 | Y | Y | 8 |
-| 05-ARCHIVE/.DS_Store | 1 | N | Y | 2 |
-| 05-ARCHIVE/ARCH-BLITZKRIEG_042_GUIDE.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-BLITZKRIEG_043_GUIDE.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-COCKPIT-v1.md | 4 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-COGNITIVE_PROFILE_2026-01.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-FRONTIER_MODELS_2026-01.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-LENS_ANALYSIS_HANDOFF.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_root.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v2.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v3.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-ORACLE10_CONTEXT_v4.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-PLATFORM_FEATURES_2026-01.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-RECONNAISSANCE_2026-01.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-REVIEW_VS_RETROSPECTIVE.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-claude.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-claude.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-gemini.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt | 6 | N | Y | 7 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-grok.md | 7 | N | Y | 8 |
-| 05-ARCHIVE/ARCH-constellation-architecture-v1.jsx | 6 | Y | N | 6 |
-| 05-ARCHIVE/ARCH-constellation-architecture-v1.md | 6 | Y | N | 6 |
-| 05-ARCHIVE/ARCH-constellation-bifurcated-architecture.jsx | 6 | Y | Y | 6 |
-| 05-ARCHIVE/ARCH-constellation-process-flow.jsx | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-deviser1_continuity.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-final_interactions.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-frontier_models.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-oracle_memories.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-oracle_process_archaelogy.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-oracle_suggestions.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-oracle_verification_manifest.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCH-platform_features.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCH-previous_thread.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/ARCHIVE-ARTIFACT-SYSTEM.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-FULL.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ARCHIVE-COGNITIVE-PALACE-SPECS.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ARCHIVE-METAHUMANISM-FULL.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ARCHIVE-PROMPT-ARCHAEOLOGY.md | 9 | Y | Y | 9 |
-| 05-ARCHIVE/ARCHIVE-QUICK_WINS-2026-01-09.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/ARCHIVE-SYSTEM-PROMPTS-v2.1.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/ChatGPT-unified-prompt.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/Claude-unified-prompt.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/GEMINI_VALIDATION_REPORT.md | 8 | N | Y | 8 |
-| 05-ARCHIVE/GEMINI_VALIDATION_TEST_PROOF.md | 5 | N | Y | 5 |
-| 05-ARCHIVE/Gemini-unified-prompt.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/Grok-unified-prompt.md | 8 | Y | Y | 8 |
-| 05-ARCHIVE/ORACLE10_CONTEXT-superseded.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ORACLE11_COMPREHENSIVE_INIT.md | 6 | Y | Y | 6 |
-| 05-ARCHIVE/ORACLE11_CONTEXT.md | 7 | Y | Y | 8 |
-| 05-ARCHIVE/ORACLE11_CONTEXT_BLITZKRIEG.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/ORACLE11_INIT.md | 6 | Y | Y | 7 |
-| 05-ARCHIVE/README.md | 8 | Y | Y | 9 |
-| 05-ARCHIVE/RESEARCH-20260108-claude_code_optimization.md | 6 | N | Y | 6 |
-| 05-ARCHIVE/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/SCAFF-ALPHA_REPOSITORY_AUDIT.md | 3 | Y | Y | 3 |
-| 05-ARCHIVE/SCAFF-ALPHA_SYNTHESIS.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/SCAFF-ALPHA_TENSION_MAP.md | 3 | Y | Y | 3 |
-| 05-ARCHIVE/SCAFF-BETA_METADATA_SCHEMA.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/SCAFF-BETA_NOMENCLATURE_SPEC.md | 3 | Y | Y | 3 |
-| 05-ARCHIVE/SCAFF-BETA_VALIDATION_REPORT.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/SCAFF-CONTENT_ALIGNMENT_AUDIT.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/SCAFF-COSMOS_ALIGNMENT_REPORT.md | 6 | Y | Y | 6 |
-| 05-ARCHIVE/SCAFF-CURRENT_STATE.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/SCAFF-DEFRAG_EXECUTION_LOG.md | 6 | Y | Y | 6 |
-| 05-ARCHIVE/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/SCAFF-ORACLE09_FINAL_CULMINATION.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/SCAFF-ORACLE10_INIT.md | 4 | Y | Y | 4 |
-| 05-ARCHIVE/SCAFF-ORACLE8_STATUS_REPORT.md | 6 | Y | Y | 6 |
-| 05-ARCHIVE/SCAFF-RECONNAISSANCE_REPORT.md | 6 | Y | Y | 6 |
-| 05-ARCHIVE/SCAFF-THREAD_TRAJECTORY.md | 5 | Y | Y | 5 |
-| 05-ARCHIVE/chorus-session-20260122/ | 5 | N | Y | 5 |
-| 05-ARCHIVE/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md | 6 | N | Y | 6 |
-| 05-ARCHIVE/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md | 8 | N | Y | 8 |
-| 05-ARCHIVE/chorus-session-20260122/EVIDENCE-infrastructure-map.png | 7 | N | Y | 7 |
-| 05-ARCHIVE/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md | 4 | N | Y | 4 |
-| 05-ARCHIVE/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md | 8 | N | Y | 8 |
-| 05-ARCHIVE/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/chorus-session-20260122/README.md | 8 | Y | Y | 9 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v1-CHORUS.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/chorus-session-20260122/RESOLUTION_PASS_QA.md | 5 | N | Y | 5 |
-| 05-ARCHIVE/chorus-session-20260122/grok-red-team-instructions.md | 7 | N | Y | 7 |
-| 05-ARCHIVE/diagrams-20260120/ | 5 | N | Y | 6 |
-| 05-ARCHIVE/diagrams-20260120/previous.png | 7 | N | Y | 8 |
-| 05-ARCHIVE/diagrams-20260120/proposed.png | 7 | N | Y | 8 |
-| 05-ARCHIVE/justification-chatgpt.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/justification-claude.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/justification-gemini.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/justification-grok.md | 7 | Y | Y | 7 |
-| 05-ARCHIVE/last_5_interactions.zip | 7 | N | Y | 7 |
-| 05-ARCHIVE/most_recent_completion.zip | 7 | N | Y | 7 |
+| 05-MEMORY/ | 7 | Y | Y | 8 |
+| 05-MEMORY/.DS_Store | 1 | N | Y | 2 |
+| 05-MEMORY/ARCH-BLITZKRIEG_042_GUIDE.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-BLITZKRIEG_043_GUIDE.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-BLITZKRIEG_44_DEPLOYMENT_GUIDE.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-BLITZKRIEG_45_DEPLOYMENT_GUIDE.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-COCKPIT-v1.md | 4 | Y | Y | 5 |
+| 05-MEMORY/ARCH-COGNITIVE_PROFILE_2026-01.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-FRONTIER_MODELS_2026-01.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-LENS_ANALYSIS_HANDOFF.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-ORACLE10_CONTEXT_root.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-ORACLE10_CONTEXT_v2.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-ORACLE10_CONTEXT_v3.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-ORACLE10_CONTEXT_v4.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-PLATFORM_FEATURES_2026-01.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-RECONNAISSANCE_2026-01.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-REVIEW_VS_RETROSPECTIVE.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/ASSEMBLED_SYSTEM_PROMPTS_v2.1.md | 7 | N | Y | 7 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-chatgpt.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-claude.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-gemini.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/justification-grok.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-chatgpt.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-claude.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-gemini.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/new-grok.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-chatgpt.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-claude.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old-gemini.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_A-grok.txt | 6 | N | Y | 7 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/old_b-grok.txt | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-chatgpt.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-claude.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-gemini.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/synthesis-grok.md | 7 | N | Y | 8 |
+| 05-MEMORY/ARCH-constellation-architecture-v1.jsx | 6 | Y | N | 6 |
+| 05-MEMORY/ARCH-constellation-architecture-v1.md | 6 | Y | N | 6 |
+| 05-MEMORY/ARCH-constellation-bifurcated-architecture.jsx | 6 | Y | Y | 6 |
+| 05-MEMORY/ARCH-constellation-process-flow.jsx | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-deviser1_continuity.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-final_interactions.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-frontier_models.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-oracle_memories.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-oracle_process_archaelogy.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-oracle_suggestions.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-oracle_verification_manifest.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCH-platform_features.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCH-previous_thread.md | 5 | Y | Y | 5 |
+| 05-MEMORY/ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md | 8 | Y | Y | 8 |
+| 05-MEMORY/ARCHIVE-ARTIFACT-SYSTEM.md | 8 | Y | Y | 8 |
+| 05-MEMORY/ARCHIVE-AUTOPSYCHOGRAPHY.md | 8 | Y | Y | 8 |
+| 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-FULL.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ARCHIVE-COGNITIVE-PALACE-SPECS.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ARCHIVE-METAHUMANISM-FULL.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ARCHIVE-PROMPT-ARCHAEOLOGY.md | 9 | Y | Y | 9 |
+| 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md | 4 | Y | Y | 4 |
+| 05-MEMORY/ARCHIVE-SYSTEM-PROMPTS-v2.1.md | 8 | Y | Y | 8 |
+| 05-MEMORY/ChatGPT-unified-prompt.md | 8 | Y | Y | 8 |
+| 05-MEMORY/Claude-unified-prompt.md | 8 | Y | Y | 8 |
+| 05-MEMORY/GEMINI_VALIDATION_REPORT.md | 8 | N | Y | 8 |
+| 05-MEMORY/GEMINI_VALIDATION_TEST_PROOF.md | 5 | N | Y | 5 |
+| 05-MEMORY/Gemini-unified-prompt.md | 8 | Y | Y | 8 |
+| 05-MEMORY/Grok-unified-prompt.md | 8 | Y | Y | 8 |
+| 05-MEMORY/ORACLE10_CONTEXT-superseded.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ORACLE11_COMPREHENSIVE_INIT.md | 6 | Y | Y | 6 |
+| 05-MEMORY/ORACLE11_CONTEXT.md | 7 | Y | Y | 8 |
+| 05-MEMORY/ORACLE11_CONTEXT_BLITZKRIEG.md | 7 | Y | Y | 7 |
+| 05-MEMORY/ORACLE11_INIT.md | 6 | Y | Y | 7 |
+| 05-MEMORY/README.md | 8 | Y | Y | 9 |
+| 05-MEMORY/RESEARCH-20260108-claude_code_optimization.md | 6 | N | Y | 6 |
+| 05-MEMORY/SCAFF-ALPHA_ARCHAEOLOGY_REPORT.md | 5 | Y | Y | 5 |
+| 05-MEMORY/SCAFF-ALPHA_OPERATIONAL_COHERENCE.md | 5 | Y | Y | 5 |
+| 05-MEMORY/SCAFF-ALPHA_REPOSITORY_AUDIT.md | 3 | Y | Y | 3 |
+| 05-MEMORY/SCAFF-ALPHA_SYNTHESIS.md | 4 | Y | Y | 4 |
+| 05-MEMORY/SCAFF-ALPHA_TENSION_MAP.md | 3 | Y | Y | 3 |
+| 05-MEMORY/SCAFF-BETA_METADATA_SCHEMA.md | 4 | Y | Y | 4 |
+| 05-MEMORY/SCAFF-BETA_NOMENCLATURE_SPEC.md | 3 | Y | Y | 3 |
+| 05-MEMORY/SCAFF-BETA_VALIDATION_REPORT.md | 5 | Y | Y | 5 |
+| 05-MEMORY/SCAFF-CONTENT_ALIGNMENT_AUDIT.md | 4 | Y | Y | 4 |
+| 05-MEMORY/SCAFF-COSMOS_ALIGNMENT_REPORT.md | 6 | Y | Y | 6 |
+| 05-MEMORY/SCAFF-CURRENT_STATE.md | 4 | Y | Y | 4 |
+| 05-MEMORY/SCAFF-DEFRAG_EXECUTION_LOG.md | 6 | Y | Y | 6 |
+| 05-MEMORY/SCAFF-FORENSIC_SEMANTIC_AUDIT_REPORT.md | 5 | Y | Y | 5 |
+| 05-MEMORY/SCAFF-ORACLE09_FINAL_CULMINATION.md | 4 | Y | Y | 4 |
+| 05-MEMORY/SCAFF-ORACLE10_INIT.md | 4 | Y | Y | 4 |
+| 05-MEMORY/SCAFF-ORACLE8_STATUS_REPORT.md | 6 | Y | Y | 6 |
+| 05-MEMORY/SCAFF-RECONNAISSANCE_REPORT.md | 6 | Y | Y | 6 |
+| 05-MEMORY/SCAFF-THREAD_TRAJECTORY.md | 5 | Y | Y | 5 |
+| 05-MEMORY/chorus-session-20260122/ | 5 | N | Y | 5 |
+| 05-MEMORY/chorus-session-20260122/AJNA5-TRANSITION-PACKET.md | 6 | N | Y | 6 |
+| 05-MEMORY/chorus-session-20260122/CHORUS-ARCHITECTURE-v3.md | 8 | N | Y | 8 |
+| 05-MEMORY/chorus-session-20260122/EVIDENCE-infrastructure-map.png | 7 | N | Y | 7 |
+| 05-MEMORY/chorus-session-20260122/HANDOFF-AJNA4-TO-AJNA5.md | 4 | N | Y | 4 |
+| 05-MEMORY/chorus-session-20260122/PROPOSAL-chatgpt-coherence-renderer.md | 7 | N | Y | 7 |
+| 05-MEMORY/chorus-session-20260122/PROPOSAL-claude-minimal-architecture.md | 8 | N | Y | 8 |
+| 05-MEMORY/chorus-session-20260122/PROPOSAL-gemini-nightly-refinery.md | 7 | N | Y | 7 |
+| 05-MEMORY/chorus-session-20260122/PROPOSAL-grok-coherence-manifold.md | 7 | N | Y | 7 |
+| 05-MEMORY/chorus-session-20260122/README.md | 8 | Y | Y | 9 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION-v1-CHORUS.md | 7 | N | Y | 7 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION-v2-CONNECTORS.md | 7 | N | Y | 7 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION-v3-INTEGRATED.md | 7 | N | Y | 7 |
+| 05-MEMORY/chorus-session-20260122/RESOLUTION_PASS_QA.md | 5 | N | Y | 5 |
+| 05-MEMORY/chorus-session-20260122/grok-red-team-instructions.md | 7 | N | Y | 7 |
+| 05-MEMORY/diagrams-20260120/ | 5 | N | Y | 6 |
+| 05-MEMORY/diagrams-20260120/previous.png | 7 | N | Y | 8 |
+| 05-MEMORY/diagrams-20260120/proposed.png | 7 | N | Y | 8 |
+| 05-MEMORY/justification-chatgpt.md | 7 | Y | Y | 7 |
+| 05-MEMORY/justification-claude.md | 7 | Y | Y | 7 |
+| 05-MEMORY/justification-gemini.md | 7 | Y | Y | 7 |
+| 05-MEMORY/justification-grok.md | 7 | Y | Y | 7 |
+| 05-MEMORY/last_5_interactions.zip | 7 | N | Y | 7 |
+| 05-MEMORY/most_recent_completion.zip | 7 | N | Y | 7 |
 | 06-EXEMPLA/ | 7 | Y | Y | 8 |
 | 06-EXEMPLA/.DS_Store | 1 | N | Y | 2 |
 | 06-EXEMPLA/APHORISMS.md | 7 | Y | Y | 8 |
@@ -5959,7 +5959,7 @@ Designer Model (implied)
 
 System Model (actual)
   Multiple entry points (CLAUDE/COCKPIT/CODEX/GEMINI)
-  Parallel storage: 05-ARCHIVE + -OUTGOING + root -OUTGOING
+  Parallel storage: 05-MEMORY + -OUTGOING + root -OUTGOING
   Mixed prefixes across orchestration, state, directives, execution logs
   Deep nested sub-systems: prompts, models, registries, scripts, sources/raw/processed
 

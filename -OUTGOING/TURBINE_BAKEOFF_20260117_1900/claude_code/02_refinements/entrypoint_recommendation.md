@@ -54,10 +54,10 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 ### What This Repository Contains
 - **01-CANON/**: Verified canonical knowledge (79 documents, ~61K lines)
 - **00-ORCHESTRATION/**: Strategic coordination (directives, state, scripts)
-- **02-OPERATIONAL/**: Functions, prompts, model profiles
+- **02-ENGINE/**: Functions, prompts, model profiles
 - **03-QUEUE/**: Pending items by modal
 - **04-SOURCES/**: Source documents (raw and processed)
-- **05-ARCHIVE/**: Historical preservation
+- **05-MEMORY/**: Historical preservation
 - **06-EXEMPLA/**: Templates and examples
 - **OUTGOING/**: Pass outputs and exports
 

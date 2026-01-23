@@ -11,7 +11,7 @@ Document before/after drift counts for topology operationalization pass.
 ### Final State (Post-Cleanup)
 
 ```bash
-$ rg -n "OUTGOING/|outgoing/" . | grep -v "\-OUTGOING" | grep -v "05-ARCHIVE/" | grep -v "^\./\-OUTGOING" | wc -l
+$ rg -n "OUTGOING/|outgoing/" . | grep -v "\-OUTGOING" | grep -v "05-MEMORY/" | grep -v "^\./\-OUTGOING" | wc -l
 110
 ```
 
@@ -30,15 +30,15 @@ $ rg -n "OUTGOING/|outgoing/" . | grep -v "\-OUTGOING" | grep -v "05-ARCHIVE/" |
 
 1. `01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md:399`
    - OLD: `config/coordination.yaml`
-   - NEW: `02-OPERATIONAL/coordination.yaml`
+   - NEW: `02-ENGINE/coordination.yaml`
 
-2. `02-OPERATIONAL/MCP_SETUP.md:94`
+2. `02-ENGINE/MCP_SETUP.md:94`
    - OLD: `config/coordination.yaml`
-   - NEW: `02-OPERATIONAL/coordination.yaml`
+   - NEW: `02-ENGINE/coordination.yaml`
 
-3. `02-OPERATIONAL/coordination.yaml:199`
+3. `02-ENGINE/coordination.yaml:199`
    - OLD: `config/coordination.yaml` (self-reference)
-   - NEW: `02-OPERATIONAL/coordination.yaml`
+   - NEW: `02-ENGINE/coordination.yaml`
 
 4. `06-EXEMPLA/TEMPLATE-CONTINUATION_PACKET.json`
    - OLD: `OUTGOING/...`
@@ -55,7 +55,7 @@ $ rg -n "OUTGOING/|outgoing/" . | grep -v "\-OUTGOING" | grep -v "05-ARCHIVE/" |
 ### Final State
 
 ```bash
-$ rg -n "config/coordination" . | grep -v "\-OUTGOING" | grep -v "05-ARCHIVE/" | wc -l
+$ rg -n "config/coordination" . | grep -v "\-OUTGOING" | grep -v "05-MEMORY/" | wc -l
 23
 ```
 
@@ -97,7 +97,7 @@ ls -d OUTGOING 2>/dev/null || echo "PASS: No OUTGOING/ at root"
 ls -d "\-OUTGOING" && echo "PASS: -OUTGOING/ exists"
 
 # Verify coordination.yaml is in correct location
-ls 02-OPERATIONAL/coordination.yaml && echo "PASS: coordination.yaml in correct location"
+ls 02-ENGINE/coordination.yaml && echo "PASS: coordination.yaml in correct location"
 
 # Verify no config/ at root
 ls -d config 2>/dev/null || echo "PASS: No config/ at root"

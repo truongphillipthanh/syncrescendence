@@ -30,8 +30,8 @@
 [17:14:36] === PHASE 5: RESEARCH FILES ===
 [0;32m[17:14:36] ✓ Phase 5 complete[0m
 [17:14:36] === PHASE 6: CONFIG/ MIGRATION ===
-[17:14:36]   MOVE: config/MCP_SETUP.md → 02-OPERATIONAL/
-[17:14:36]   MOVE: config/coordination.yaml → 02-OPERATIONAL/
+[17:14:36]   MOVE: config/MCP_SETUP.md → 02-ENGINE/
+[17:14:36]   MOVE: config/coordination.yaml → 02-ENGINE/
 [17:14:36]   MOVE: config/mcp.json.template → 06-EXEMPLA/
 [17:14:36]   DELETE: empty config/
 [0;32m[17:14:36] ✓ Phase 6 complete[0m
@@ -77,7 +77,7 @@
 [17:14:37] 
 [17:14:37] Next steps:
 [17:14:37]   1. Run verification: ./00-ORCHESTRATION/scripts/structural_verify.sh
-[17:14:37]   2. Update COCKPIT.md if paths changed (config/ → 02-OPERATIONAL/)
+[17:14:37]   2. Update COCKPIT.md if paths changed (config/ → 02-ENGINE/)
 [17:14:37]   3. Review changes: git status
 [17:14:37]   4. Commit: git add -A && git commit -m 'chore(defrag): structural stabilization pass'
 [17:14:37]   5. Remove approval: rm APPLY_DEFRAG_APPROVAL.txt

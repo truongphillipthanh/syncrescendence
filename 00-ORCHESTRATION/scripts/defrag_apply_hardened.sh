@@ -189,8 +189,8 @@ pass "Phase 5 complete"
 log "=== PHASE 6: CONFIG/ MIGRATION ==="
 
 if [ -d "$REPO_ROOT/config" ]; then
-    [ -f "config/MCP_SETUP.md" ] && git mv "config/MCP_SETUP.md" "02-OPERATIONAL/" && log "  MOVE: config/MCP_SETUP.md → 02-OPERATIONAL/"
-    [ -f "config/coordination.yaml" ] && git mv "config/coordination.yaml" "02-OPERATIONAL/" && log "  MOVE: config/coordination.yaml → 02-OPERATIONAL/"
+    [ -f "config/MCP_SETUP.md" ] && git mv "config/MCP_SETUP.md" "02-ENGINE/" && log "  MOVE: config/MCP_SETUP.md → 02-ENGINE/"
+    [ -f "config/coordination.yaml" ] && git mv "config/coordination.yaml" "02-ENGINE/" && log "  MOVE: config/coordination.yaml → 02-ENGINE/"
     [ -f "config/mcp.json.template" ] && git mv "config/mcp.json.template" "06-EXEMPLA/" && log "  MOVE: config/mcp.json.template → 06-EXEMPLA/"
 
     # Remove empty directory
@@ -209,11 +209,11 @@ fi
 log "=== PHASE 7: SYSTEM_PROMPTS/ ARCHIVE ==="
 
 if [ -d "$REPO_ROOT/system_prompts" ]; then
-    mkdir -p "05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102"
+    mkdir -p "05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102"
 
     for file in system_prompts/*; do
         if [ -f "$file" ]; then
-            git mv "$file" "05-ARCHIVE/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/"
+            git mv "$file" "05-MEMORY/ARCH-SYSTEM_PROMPTS_EVOLUTION_20260102/"
             log "  ARCHIVE: $(basename $file)"
         fi
     done
@@ -293,7 +293,7 @@ log "=== DEFRAG COMPLETE ==="
 log ""
 log "Next steps:"
 log "  1. Run verification: ./00-ORCHESTRATION/scripts/structural_verify.sh"
-log "  2. Update COCKPIT.md if paths changed (config/ → 02-OPERATIONAL/)"
+log "  2. Update COCKPIT.md if paths changed (config/ → 02-ENGINE/)"
 log "  3. Review changes: git status"
 log "  4. Commit: git add -A && git commit -m 'chore(defrag): structural stabilization pass'"
 log "  5. Remove approval: rm APPLY_DEFRAG_APPROVAL.txt"
