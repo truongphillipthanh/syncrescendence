@@ -1,4 +1,4 @@
-fingerprint: 81d21a4
-timestamp: 2026-01-23T22:49:16Z
+fingerprint: 9398144
+timestamp: 2026-01-23T22:52:00Z
 branch: main
-message: feat(semantic-notation): Implement Semantic Notation infrastructure and platform configs
+message: feat(canon-prep): CANON audit manifest and SN conversion template
