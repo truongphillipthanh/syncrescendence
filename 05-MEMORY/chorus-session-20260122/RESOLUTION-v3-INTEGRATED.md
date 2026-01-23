@@ -267,7 +267,7 @@ claim_atom:
   contradicts: ["CLAIM-ID-if-any"]
   supports: ["CLAIM-ID-if-any"]
   iic_chain: "acumen|coherence|efficacy|mastery|transcendence"
-  canon_refs: ["CANON-25010", "CANON-00012"]
+  canon_refs: ["CANON-25010", "[[CANON-00012-MODAL_SEQUENCE-cosmos]]"]
   
   # Lifecycle
   status: "raw|qualified|integrated|superseded"
