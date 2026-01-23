@@ -1,4 +1,4 @@
-fingerprint: 3e12334
-timestamp: 2026-01-23T23:28:10Z
+fingerprint: 3294280
+timestamp: 2026-01-23T23:29:31Z
 branch: main
-message: feat(offload): Execute Lane B - Offload raw transcripts to Google Drive
+message: docs(entry-points): Execute Lane E - Update CLAUDE.md and COCKPIT.md with SN and new directory names
