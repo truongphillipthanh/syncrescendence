@@ -127,6 +127,30 @@ Outputs: [Files this lane produces]
 - `/project:blitzkrieg_issue <slug>` — Create bundle skeleton with directive templates
 - `/project:blitzkrieg_finalize` — Generate return packet, audio scripts, agent relay JSON
 
+## Semantic Notation (SN)
+
+Syncrescendence uses Semantic Notation for ~80% token compression while preserving semantics.
+
+### Core Elements
+- **Symbols**: Ψ (Syncrescendence), Κ (CANON), Ο (ENGINE), Σ (SOURCE), Δ (DIRECTIVE), Λ (LOG)
+- **Operators**: `::` (expands to), `|` (constrained by), `>>` (transforms into), `:=` (binds), `=>` (implies), `<->` (corresponds)
+- **Block Types**: TERM (definitions), NORM (rules), PROC (workflows), PASS (transforms), ARTIFACT (outputs), TEST (validation)
+- **Structure**: sutra (1-line essence), gloss (2-4 sentences WHY), spec (YAML-like structured detail)
+
+### Usage
+- **Encoding**: `00-ORCHESTRATION/scripts/sn_encode.py` (prose → SN)
+- **Decoding**: `00-ORCHESTRATION/scripts/sn_decode.py` (SN → prose)
+- **Templates**: `00-ORCHESTRATION/notation/block_templates.md`
+- **Symbol glossary**: `00-ORCHESTRATION/notation/symbols.yaml`
+
+### Platform Integration
+- ChatGPT: Ideation + compilation to target languages
+- Grok: Colloquial voice preservation in gloss sections
+- Gemini: Oracle-level SN audits with 1M+ context
+- Perplexity: Current intelligence with SN formatting
+
+See `CHATGPT.md`, `GROK.md`, `GEMINI.md`, `PERPLEXITY.md` for platform-specific SN integration.
+
 ## Session Management
 - Use /compact before context fills
 - Update session state in 00-ORCHESTRATION/state/

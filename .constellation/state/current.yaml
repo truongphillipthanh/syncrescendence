@@ -1,4 +1,4 @@
-fingerprint: fb17359
-timestamp: 2026-01-23T23:25:33Z
+fingerprint: 3e12334
+timestamp: 2026-01-23T23:28:10Z
 branch: main
-message: feat(structure): Execute Lane A - Directory rename (02-OPERATIONAL → 02-ENGINE, 05-ARCHIVE → 05-MEMORY)
+message: feat(offload): Execute Lane B - Offload raw transcripts to Google Drive
