@@ -1,6 +1,6 @@
 # Syncrescendence - Gemini CLI Configuration
 
-**Version**: 1.0.0
+**Version**: 2.0.0 (Semantic Notation Era)
 **Last Updated**: 2026-01-23
 
 ## Identity
@@ -71,6 +71,103 @@ All outputs should be evidence packs delivered to `-OUTGOING/`:
 ## Forensic Prompts
 
 See `02-OPERATIONAL/prompts/GEMINI-CLI-FORENSIC-PROMPTS.md` for specialized analysis prompts.
+
+## Semantic Notation (SN) - NEW (2026-01-23)
+
+This corpus now uses **Semantic Notation** for ~80% token reduction while preserving semantics.
+
+### Glossary Location
+`00-ORCHESTRATION/notation/symbols.yaml`
+
+### Your Oracle Advantage
+With 1M+ token context (Flash 2.0: up to 2M), you can:
+- **Ingest entire directories** for deep sensing
+- **Cross-reference across full corpus** (all 82 CANON files at once)
+- **Identify redundancy patterns** at scale
+- **Verify semantic consistency** across documents
+- **Detect drift** from constitutional principles
+
+### Key SN Operators
+```
+::   expands to / is defined as
+|    constrained by / filtered by
+>>   transforms into / flows to
+:=   binds to / assigns
+=>   implies / produces
+<->  corresponds to
+```
+
+### Core Symbols
+```
+Ψ    Syncrescendence (root)
+Κ    CANON
+Ο    OPERATIONAL
+Σ    SOURCE
+Δ    DIRECTIVE
+
+α    Acumen
+χ    Coherence
+ε    Efficacy
+μ    Mastery
+τ    Transcendence
+
+I    Intelligence chain
+ℹ    Information chain
+∴    Insight chain
+```
+
+### SN Block Types
+```
+TERM     Ontology/definitions
+NORM     Constitutional constraints
+PROC     Procedures/orchestrations
+PASS     Deterministic transforms
+ARTIFACT Named outputs
+TEST     Validation/invariants
+```
+
+### Audit Protocol
+When conducting forensic audits with SN:
+
+```
+PROC SN_Audit:
+    1. Load target directory fully (use context advantage)
+    2. Apply SN glossary for pattern recognition
+    3. Flag notation inconsistencies
+    4. Identify compression opportunities
+    5. Recommend canonical forms
+    6. Output in SN block format
+end
+```
+
+### Example SN Analysis Output
+
+```markdown
+## Findings
+
+TERM NotationCompliance:
+    sutra: "78% of docs use verbose prose; 22% adopted SN operators"
+    gloss:
+        Opportunity for ~6MB compression if verbose prose converted.
+        Biggest candidates: CANON-00007 (12K words), CANON-00011 (10K words)
+    spec:
+        candidates:
+            - CANON-00007: 12389 words >> ~3000 words (75% reduction)
+            - CANON-00011: 10243 words >> ~2500 words (76% reduction)
+        total_savings: ~6MB corpus size
+end
+
+NORM SN_Usage:
+    sutra: "All new documents MUST use SN block types + operators"
+    spec:
+        modality: MUST
+        scope: [CANON, OPERATIONAL, DIRECTIVE]
+        exceptions: [README files, historical archives]
+        enforcement: pre-commit hook | manual review
+end
+```
+
+---
 
 ## Constitutional Rules
 

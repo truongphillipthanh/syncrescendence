@@ -49,3 +49,26 @@ CLAUDE.local.md
 
 # Backup files
 *.bak.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary
+*.tmp
+*.bak
+*~
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Manifests (regenerated)
+/tmp/*.tsv
