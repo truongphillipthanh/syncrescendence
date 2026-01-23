@@ -14,7 +14,7 @@ synopsis: Framework evolution protocol governing artifact creation, maintenance,
 ---
 
 # CANON-00011: ARTIFACT PRODUCTION PROTOCOL
-> *Note: This document was previously CANON-17 in legacy numbering. The 5-digit format (CANON-00007) is now canonical.*
+> *Note: This document was previously CANON-17 in legacy numbering. The 5-digit format (CANON-00011) is now canonical.*
 ## Systematic Framework Evolution While Maintaining Coherence
 
 > **Date**: October 19, 2025
@@ -112,7 +112,7 @@ Operational guides, assessment tools, entry pathways.
 
 ```
 Assessment & Evaluation:
-└─ CANON-00007 Evaluation (v2.1, 30 irresolutions + validation)
+└─ CANON-00011 Evaluation (v2.1, 30 irresolutions + validation)
 
 Operational Protocols:
 ├─ Operations v2.0 (daily/weekly/monthly practices)
@@ -599,7 +599,7 @@ SYNTHESIS DERIVATION (Scale: 3-Macro required):
 ├─ CANON-00012 Modal Sequence (integrating Origin + Architecture)
 ├─ CANON-00006: Synthesis & Activation (integrating Path + Practices)
 ├─ CANON-00000: Cosmological Schema (meta-cognitive map of whole)
-└─ CANON-00007: This Protocol (implicit in framework philosophy)
+└─ CANON-00011: This Protocol (implicit in framework philosophy)
 
 SUPPORTING DERIVATION (Scale: 2-Meso/3-Macro):
 ├─ Operations v2.0 (Practices section elaborated)
@@ -1002,4 +1002,4 @@ The protocol itself must evolve. As community grows, governance structures will 
 *Practitioners shape the framework.*  
 *Conscious evolution continues.*
 
-**End CANON-00007**
+**End CANON-00011**
