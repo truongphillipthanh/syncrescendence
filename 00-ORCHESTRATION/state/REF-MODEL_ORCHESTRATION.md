@@ -3,9 +3,9 @@
 Formal topology for Syncrescendence execution and sensing.
 
 ## Topology (high level)
-Principal ↔ Web Apps (Claude / Gemini / ChatGPT) ↔ Repo (Codex CLI / Claude Code)
+Sovereign ↔ Web Apps (Claude / Gemini / ChatGPT) ↔ Repo (Codex CLI / Claude Code)
 
-- **Principal**: final decision authority and intent source.
+- **Sovereign**: final decision authority and intent source.
 - **Claude Code**: execution lane, repo integration, structural edits.
 - **Gemini**: corpus-scale sensing, ingestion, multimodal processing.
 - **Codex CLI (ChatGPT)**: reasoning, synthesis, and repo edits when assigned.

@@ -65,7 +65,7 @@ List things you:
 
 ## CORPUS SENSING WORKFLOW
 
-1. Receive query from Principal or from cycle trigger
+1. Receive query from Sovereign or from cycle trigger
 2. Identify which parts of the corpus are relevant
 3. Examine sources (documents, videos, feeds)
 4. Extract factual findings with citations

@@ -1,7 +1,7 @@
 # DESIGN DECISIONS LOG
 ## Syncrescendence Architectural Rationale
 **Last Updated**: 2025-12-30
-**Maintained by**: Claude agents under Principal direction
+**Maintained by**: Claude agents under Sovereign direction
 
 ---
 
@@ -60,7 +60,7 @@ syncrescendence/
 
 **Three-layer design**:
 
-**Layer 0 - Principal Profile** (Who the user is):
+**Layer 0 - Sovereign Profile** (Who the user is):
 - Cognitive profile (AuDHD characteristics)
 - Communication preferences
 - Anti-patterns
@@ -143,17 +143,17 @@ Functions deprecated when:
 
 | Content Domain | CANON Location | Status |
 |----------------|----------------|--------|
-| Tone Library | CANON-31120/31121 | Complete |
-| Curriculum/Syllabus | CANON-34110/34120 | Complete |
-| Strategy | CANON-00005 | Complete |
-| Neurodivergent Adaptations | CANON-35120 | Complete |
-| Memory Architecture | CANON-25000 | Complete |
-| Context Transition | CANON-25100 | Complete |
+| Tone Library | [[CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]]/31121 | Complete |
+| Curriculum/Syllabus | [[CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE]]/34120 | Complete |
+| Strategy | [[CANON-00005-SYNCRESCENDENCE-cosmos]] | Complete |
+| Neurodivergent Adaptations | [[CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]] | Complete |
+| Memory Architecture | [[CANON-25000-MEMORY_ARCH-lattice]] | Complete |
+| Context Transition | [[CANON-25100-CONTEXT_TRANS-lattice]] | Complete |
 
 ### Gap Analysis (as of 2025-12-30)
 
 **QUEUE-36000**: Philosophical foundations (Metahumanism synthesis) - pending canonization decision
-**QUEUE-35121**: Neurodivergent implementation detail - pending CANON-35120 expansion decision
+**QUEUE-35121**: Neurodivergent implementation detail - pending [[CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]] expansion decision
 
 ---
 
@@ -183,7 +183,7 @@ Functions deprecated when:
 
 **Metahumanism deletion**: Unique value extracted to QUEUE-36000. Original 855K → consolidated 12K. 98% compression with concept preservation.
 
-**Cognitive Palace implementation deletion**: CANON-20000 preserves ontology. Implementation files regenerate when needed. No operational value in cold storage.
+**Cognitive Palace implementation deletion**: [[CANON-20000-PALACE-lattice]] preserves ontology. Implementation files regenerate when needed. No operational value in cold storage.
 
 ---
 

@@ -12,7 +12,7 @@
 ### A. Account Identity
 | Field | Value |
 |-------|-------|
-| **Email** | `[Principal to fill: efficacy account email]` |
+| **Email** | `[Sovereign to fill: efficacy account email]` |
 | **Chain Alignment** | Expertise Chain (Execution) |
 | **Guiding Virtues** | Precision, Efficiency, Compound Effect |
 | **Primary Function** | Convert understanding into measurable outcomes |
@@ -451,7 +451,7 @@ For each task:
 
 ### Successful Execution Pattern: Source Processing
 
-**Context**: Principal requests processing of Dwarkesh-Sutton interview
+**Context**: Sovereign requests processing of Dwarkesh-Sutton interview
 
 **Plan Packet Received**:
 ```json

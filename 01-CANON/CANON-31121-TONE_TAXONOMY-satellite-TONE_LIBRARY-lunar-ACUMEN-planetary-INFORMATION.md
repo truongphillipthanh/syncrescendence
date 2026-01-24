@@ -1,5 +1,5 @@
 ---
-id: CANON-31121
+id: [[CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]]
 name: Tone Library Taxonomy
 identity: Tone Library Complete Taxonomy Reference
 tier: CANON
@@ -12,84 +12,133 @@ synopsis: Complete classification framework for systematic content production, p
 chain: INFORMATION
 planetary: ACUMEN
 lunar: TONE_LIBRARY
-parent: CANON-31120
+parent: [[CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]]
 ---
 
-# TONE LIBRARY: Complete Taxonomy Reference
+# CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION (SN Format)
 
----
-
-## Purpose
-
-This document consolidates all taxonomic structures extracted from the TONE LIBRARY CSV fragments. It provides the complete classification framework enabling systematic content production through Recipe-based execution. Use this as reference when creating Recipes or analyzing existing content for rhetorical structure.
-
-**Coverage**: 11 complete taxonomies, 90 total entries spanning rhetorical functions, stylistic forms, cadence patterns, diction rules, guardrails, evidence types, CTAs, scaffold elements, families, audience archetypes, and domains.
+**Note**: This is a Semantic Notation compressed version.
+**Original**: 2,323 words, 18,133 characters
 
 ---
 
-## I. RHETORICAL FUNCTION (10 Functions)
+TERM Purpose:
+    sutra: "This document consolidates all taxonomic structures extracted from the TONE LIBRARY CSV fragments"
+    gloss:
+        This document consolidates all taxonomic structures extracted from the TONE LIBRARY CSV fragments. It provides the complete classification framework enabling systematic content production through Recipe-based execution. Use this as reference when creating Recipes or analyzing existing content for rh...
+end
 
-Core communicative purposes that shape content structure and evidence deployment.
 
-### 1. Inform & Describe
-- **One-liner Job**: deliver accurate facts and contours
+TERM IRHETORICALFUNCTION10Functions:
+    sutra: "Core communicative purposes that shape content structure and evidence deployment."
+    gloss:
+        Core communicative purposes that shape content structure and evidence deployment.
+end
+
+
+TERM 1InformDescribe:
+    sutra: "- One-liner Job: deliver accurate facts and contours - Micro-structure: fact → context → signific..."
+    gloss:
+        - **One-liner Job**: deliver accurate facts and contours
 - **Micro-structure**: fact → context → significance
 - **Anti-patterns**: fact piles with no frame; undefined jargon; scope creep
+end
 
-### 2. Explain & Interpret
-- **One-liner Job**: make the "why/how" legible
+
+TERM 2ExplainInterpret:
+    sutra: "- One-liner Job: make the "why/how" legible - Micro-structure: claim → mechanism → example → impl..."
+    gloss:
+        - **One-liner Job**: make the "why/how" legible
 - **Micro-structure**: claim → mechanism → example → implication
 - **Anti-patterns**: theory without instances; metaphors that fight the model
+end
 
-### 3. Instruct & Enable
-- **One-liner Job**: enable correct action now
+
+TERM 3InstructEnable:
+    sutra: "- One-liner Job: enable correct action now - Micro-structure: prerequisites → steps → checks → pi..."
+    gloss:
+        - **One-liner Job**: enable correct action now
 - **Micro-structure**: prerequisites → steps → checks → pitfalls → next
 - **Anti-patterns**: prose walls; missing guardrails; tool-agnostic vagueness
+end
 
-### 4. Evaluate & Appraise
-- **One-liner Job**: judge quality against criteria
+
+TERM 4EvaluateAppraise:
+    sutra: "- One-liner Job: judge quality against criteria - Micro-structure: criteria → evidence → score → ..."
+    gloss:
+        - **One-liner Job**: judge quality against criteria
 - **Micro-structure**: criteria → evidence → score → recommendation
 - **Anti-patterns**: vibe judgments; hidden criteria; apples/oranges comparisons
+end
 
-### 5. Argue & Persuade
-- **One-liner Job**: change a mind
+
+TERM 5ArguePersuade:
+    sutra: "- One-liner Job: change a mind - Micro-structure: thesis → reasons → evidence → counter-case → cl..."
+    gloss:
+        - **One-liner Job**: change a mind
 - **Micro-structure**: thesis → reasons → evidence → counter-case → close
 - **Anti-patterns**: straw men; moralizing in place of mechanism; scope inflation
+end
 
-### 6. Decide & Recommend
-- **One-liner Job**: cause a choice
+
+TERM 6DecideRecommend:
+    sutra: "- One-liner Job: cause a choice - Micro-structure: goal & constraints → options → risks/returns →..."
+    gloss:
+        - **One-liner Job**: cause a choice
 - **Micro-structure**: goal & constraints → options → risks/returns → pick → rationale
 - **Anti-patterns**: "it depends" endings; hidden assumptions; option bloat
+end
 
-### 7. Mobilize & Organize
-- **One-liner Job**: move people to coordinated action
+
+TERM 7MobilizeOrganize:
+    sutra: "- One-liner Job: move people to coordinated action - Micro-structure: shared stake → concrete ask..."
+    gloss:
+        - **One-liner Job**: move people to coordinated action
 - **Micro-structure**: shared stake → concrete ask → roles → timeline → proof of progress
 - **Anti-patterns**: abstract uplift; no next step; heroic singularity
+end
 
-### 8. Console & Repair
-- **One-liner Job**: restore trust and agency
+
+TERM 8ConsoleRepair:
+    sutra: "- One-liner Job: restore trust and agency - Micro-structure: acknowledge harm → own impact → reme..."
+    gloss:
+        - **One-liner Job**: restore trust and agency
 - **Micro-structure**: acknowledge harm → own impact → remedy → safeguards → check-in
 - **Anti-patterns**: passive voice; conditional apologies; remedy without timelines
+end
 
-### 9. Sense-make & Reframe
-- **One-liner Job**: change how the problem is seen
+
+TERM 9SensemakeReframe:
+    sutra: "- One-liner Job: change how the problem is seen - Micro-structure: current frame → its limits → n..."
+    gloss:
+        - **One-liner Job**: change how the problem is seen
 - **Micro-structure**: current frame → its limits → new frame → payoff → test
 - **Anti-patterns**: renaming without consequences; neologism fog
+end
 
-### 10. Investigate & Forensic
-- **One-liner Job**: establish what happened and why
+
+TERM 10InvestigateForensic:
+    sutra: "- One-liner Job: establish what happened and why - Micro-structure: timeline → evidence chain → c..."
+    gloss:
+        - **One-liner Job**: establish what happened and why
 - **Micro-structure**: timeline → evidence chain → causal factors → corrective actions
 - **Anti-patterns**: blame hunt; single-cause myths; unverifiable claims
 
 ---
+end
 
-## II. STYLISTIC FORM (15 Styles)
 
-Structural templates organized by flavor family. Each style specifies skeleton architecture guiding content flow.
+TERM IISTYLISTICFORM15Styles:
+    sutra: "Structural templates organized by flavor family"
+    gloss:
+        Structural templates organized by flavor family. Each style specifies skeleton architecture guiding content flow.
+end
 
-### Narrative & Story Family
 
-**1. Profile Sketch**
+TERM NarrativeStoryFamily:
+    sutra: "1"
+    gloss:
+        **1. Profile Sketch**
 - **Skeleton**: Scenes → quotes → motif
 - **Use**: Character-driven portraits, founder stories, practitioner profiles
 
@@ -97,398 +146,521 @@ Structural templates organized by flavor family. Each style specifies skeleton a
 - **Skeleton**: Beats → echo image → capstone line
 - **Use**: Impressionistic sequences, thematic explorations, mood pieces
 
-**3. Tick-Tock**
-- **Skeleton**: Timeline → turning points → aftermath
-- **Use**: Event reconstructions, incident reports, decision chronicles
+**3. Tick-To...
+end
 
-**4. Quest Arc**
-- **Skeleton**: Call → trials → return with tool
-- **Use**: Transformation narratives, learning journeys, capability acquisition
 
-**5. Heist Build**
-- **Skeleton**: Team roles → plan seams → execution → reveal
-- **Use**: Complex coordination stories, system exploits, collaborative achievements
-
-**6. Failure Memoir**
-- **Skeleton**: Hypothesis → failure mode → remedy
-- **Use**: Lessons learned, post-mortems, anti-pattern documentation
-
-### Explanatory & Map-Making Family
-
-**7. Mechanism Walkthrough**
+TERM ExplanatoryMapMakingFamily:
+    sutra: "7"
+    gloss:
+        **7. Mechanism Walkthrough**
 - **Skeleton**: Parts → interactions → failure modes → implications
 - **Use**: System explanations, technical deep-dives, causal analysis
 
 **8. Comparative Anatomy**
 - **Skeleton**: Dimensions → matrix → verdict
-- **Use**: Tool comparisons, framework evaluations, trade-off analysis
+- **Use**: Tool comparisons, framework evaluations, trade-o...
+end
 
-**9. Taxonomy Sheet**
-- **Skeleton**: Definition → contrast → example → rule of thumb
-- **Use**: Classification systems, conceptual frameworks, typology documentation
 
-**10. Analogy Ladder**
-- **Skeleton**: Everyday image → controlled stretch → formalization
-- **Use**: Complex concept introduction, abstraction bridges, metaphor development
-
-**11. FAQ/Objection Ledger**
-- **Skeleton**: Question → shortest true answer → pointer
-- **Use**: Concern addressing, misconception correction, clarification hubs
-
-### Instructional & Procedural Family
-
-**12. Recipe Card**
+TERM InstructionalProceduralFamily:
+    sutra: "12"
+    gloss:
+        **12. Recipe Card**
 - **Skeleton**: BOM → timing → technique → variations
 - **Use**: Step-by-step guides, workflow documentation, practice protocols
 
 **13. Decision Tree**
 - **Skeleton**: If/else nodes → thresholds → stop conditions
-- **Use**: Conditional procedures, diagnostic protocols, routing logic
+- **Use**: Conditional procedures, diagnostic protocols, routing lo...
+end
 
-**14. Field Manual**
-- **Skeleton**: Signals → actions → kit → warnings
-- **Use**: Operational guides, situational protocols, emergency procedures
 
-**15. Pattern Language**
-- **Skeleton**: Context → problem → forces → solution → known uses
-- **Use**: Design patterns, recurring solutions, architectural templates
+TERM IIICADENCEPATTERN4Bands:
+    sutra: "Sentence rhythm calibrated to reading context and cognitive load."
+    gloss:
+        Sentence rhythm calibrated to reading context and cognitive load.
+end
 
----
 
-## III. CADENCE PATTERN (4 Bands)
-
-Sentence rhythm calibrated to reading context and cognitive load.
-
-### 1. Staccato (8–12 words per sentence)
-- **Definition**: Short, crisp sentences for urgency and scannability
+TERM 1Staccato812wordspersentence:
+    sutra: "- Definition: Short, crisp sentences for urgency and scannability - Target: 8–12 wps average - Ex..."
+    gloss:
+        - **Definition**: Short, crisp sentences for urgency and scannability
 - **Target**: 8–12 wps average
 - **Examples**: Checklists, briefing notes, emergency protocols
+end
 
-### 2. Compact (12–16 words per sentence)
-- **Definition**: Balanced clarity and flow; default for general readers
+
+TERM 2Compact1216wordspersentence:
+    sutra: "- Definition: Balanced clarity and flow; default for general readers - Target: 12–16 wps average ..."
+    gloss:
+        - **Definition**: Balanced clarity and flow; default for general readers
 - **Target**: 12–16 wps average
 - **Examples**: Layered explainers, FAQs, tutorials
+end
 
-### 3. Measured (16–20 words per sentence)
-- **Definition**: More connective tissue; suited to analysis
+
+TERM 3Measured1620wordspersentence:
+    sutra: "- Definition: More connective tissue; suited to analysis - Target: 16–20 wps average - Examples: ..."
+    gloss:
+        - **Definition**: More connective tissue; suited to analysis
 - **Target**: 16–20 wps average
 - **Examples**: Thesis essays, feature longform, analytical deep-dives
+end
 
-### 4. Long-line (20–28 words per sentence)
-- **Definition**: Expansive, rolling sentences for elevated register
+
+TERM 4Longline2028wordspersentence:
+    sutra: "- Definition: Expansive, rolling sentences for elevated register - Target: 20–28 wps average - Ex..."
+    gloss:
+        - **Definition**: Expansive, rolling sentences for elevated register
 - **Target**: 20–28 wps average
 - **Examples**: Prose poems, manifestos, contemplative writing
 
 ---
+end
 
-## IV. DICTION PATTERN (4 Registers)
 
-Vocabulary calibration balancing accessibility with precision.
+TERM IVDICTIONPATTERN4Registers:
+    sutra: "Vocabulary calibration balancing accessibility with precision."
+    gloss:
+        Vocabulary calibration balancing accessibility with precision.
+end
 
-### 1. Plain English
-- **Definition**: Everyday words; no jargon unless defined
+
+TERM 1PlainEnglish:
+    sutra: "- Definition: Everyday words; no jargon unless defined - Register: Plain - Examples: Novice-facin..."
+    gloss:
+        - **Definition**: Everyday words; no jargon unless defined
 - **Register**: Plain
 - **Examples**: Novice-facing guides, public communication, accessibility-first content
+end
 
-### 2. Technical Precise
-- **Definition**: Exact terms of art; define once, reuse consistently
+
+TERM 2TechnicalPrecise:
+    sutra: "- Definition: Exact terms of art; define once, reuse consistently - Register: Mid - Examples: Des..."
+    gloss:
+        - **Definition**: Exact terms of art; define once, reuse consistently
 - **Register**: Mid
 - **Examples**: Design docs, API specs, engineering documentation
+end
 
-### 3. Elevated Clean
-- **Definition**: Lean lyricism; imagery in service of clarity
+
+TERM 3ElevatedClean:
+    sutra: "- Definition: Lean lyricism; imagery in service of clarity - Register: Elevated - Examples: Artis..."
+    gloss:
+        - **Definition**: Lean lyricism; imagery in service of clarity
 - **Register**: Elevated
 - **Examples**: Artist's statements, manifestos, philosophical writing
+end
 
-### 4. Second-person Direct
-- **Definition**: You-focused instructions; imperative verbs
+
+TERM 4SecondpersonDirect:
+    sutra: "- Definition: You-focused instructions; imperative verbs - Pronoun: you - Examples: Checklists, t..."
+    gloss:
+        - **Definition**: You-focused instructions; imperative verbs
 - **Pronoun**: you
 - **Examples**: Checklists, tutorials, action-oriented guides
 
 ---
+end
 
-## V. GUARDRAIL (5 Constraints)
 
-Quality controls ensuring intellectual honesty and reader safety.
+TERM VGUARDRAIL5Constraints:
+    sutra: "Quality controls ensuring intellectual honesty and reader safety."
+    gloss:
+        Quality controls ensuring intellectual honesty and reader safety.
+end
 
-### 1. Steelman Opposing View
-- **Definition**: Present strongest countercase before response
+
+TERM 1SteelmanOpposingView:
+    sutra: "- Definition: Present strongest countercase before response - Parameters: include=sources - Examp..."
+    gloss:
+        - **Definition**: Present strongest countercase before response
 - **Parameters**: include=sources
 - **Examples**: Persuasion pieces, policy arguments, debate preparation
+end
 
-### 2. Bounded Claims
-- **Definition**: State limits, scope, and uncertainty explicitly
+
+TERM 2BoundedClaims:
+    sutra: "- Definition: State limits, scope, and uncertainty explicitly - Parameters: section=limits - Exam..."
+    gloss:
+        - **Definition**: State limits, scope, and uncertainty explicitly
 - **Parameters**: section=limits
 - **Examples**: Scientific reports, research documentation, forecasting
+end
 
-### 3. Source Attribution
-- **Definition**: Cite documents, data, and authors plainly
+
+TERM 3SourceAttribution:
+    sutra: "- Definition: Cite documents, data, and authors plainly - Parameters: style=minimal - Examples: J..."
+    gloss:
+        - **Definition**: Cite documents, data, and authors plainly
 - **Parameters**: style=minimal
 - **Examples**: Journalism, reviews, evidence-based arguments
+end
 
-### 4. Hazard Notice
-- **Definition**: Flag safety/risk thresholds up front
+
+TERM 4HazardNotice:
+    sutra: "- Definition: Flag safety/risk thresholds up front - Parameters: thresholds=values - Examples: Ru..."
+    gloss:
+        - **Definition**: Flag safety/risk thresholds up front
 - **Parameters**: thresholds=values
 - **Examples**: Runbooks, field manuals, operational procedures
+end
 
-### 5. Privacy-Safe Framing
-- **Definition**: Avoid revealing sensitive personal data
+
+TERM 5PrivacySafeFraming:
+    sutra: "- Definition: Avoid revealing sensitive personal data - Parameters: pii=false - Examples: Case st..."
+    gloss:
+        - **Definition**: Avoid revealing sensitive personal data
 - **Parameters**: pii=false
 - **Examples**: Case studies, support documentation, public communications
 
 ---
+end
 
-## VI. EVIDENCE TYPE (5 Modes)
 
-Proof structures supporting claims and enabling verification.
+TERM VIEVIDENCETYPE5Modes:
+    sutra: "Proof structures supporting claims and enabling verification."
+    gloss:
+        Proof structures supporting claims and enabling verification.
+end
 
-### 1. Anecdote
-- **Definition**: Single illustrative incident or story
+
+TERM 1Anecdote:
+    sutra: "- Definition: Single illustrative incident or story - Use: Humanizing abstractions, providing con..."
+    gloss:
+        - **Definition**: Single illustrative incident or story
 - **Use**: Humanizing abstractions, providing concrete instances, establishing stakes
+end
 
-### 2. Case
-- **Definition**: Structured, named example with context and outcome
+
+TERM 2Case:
+    sutra: "- Definition: Structured, named example with context and outcome - Use: Demonstrating patterns, v..."
+    gloss:
+        - **Definition**: Structured, named example with context and outcome
 - **Use**: Demonstrating patterns, validating frameworks, teaching through example
+end
 
-### 3. Data
-- **Definition**: Quantitative or tabular evidence; measured facts
+
+TERM 3Data:
+    sutra: "- Definition: Quantitative or tabular evidence; measured facts - Use: Establishing magnitude, pro..."
+    gloss:
+        - **Definition**: Quantitative or tabular evidence; measured facts
 - **Use**: Establishing magnitude, proving trends, enabling comparisons
+end
 
-### 4. Mechanism
-- **Definition**: Causal explanation of parts and interactions
+
+TERM 4Mechanism:
+    sutra: "- Definition: Causal explanation of parts and interactions - Use: Explaining how systems work, pr..."
+    gloss:
+        - **Definition**: Causal explanation of parts and interactions
 - **Use**: Explaining how systems work, predicting outcomes, identifying leverage points
+end
 
-### 5. Demonstration
-- **Definition**: Direct showing or reproduction of effect or method
+
+TERM 5Demonstration:
+    sutra: "- Definition: Direct showing or reproduction of effect or method - Use: Proving feasibility, teac..."
+    gloss:
+        - **Definition**: Direct showing or reproduction of effect or method
 - **Use**: Proving feasibility, teaching procedures, validating claims through execution
 
 ---
+end
 
-## VII. CTA PATTERN (5 Actions)
 
-Reader activation mechanisms converting comprehension to practice.
+TERM VIICTAPATTERN5Actions:
+    sutra: "Reader activation mechanisms converting comprehension to practice."
+    gloss:
+        Reader activation mechanisms converting comprehension to practice.
+end
 
-### 1. Checklist
-- **Definition**: Concrete items to verify completion
+
+TERM 1Checklist:
+    sutra: "- Definition: Concrete items to verify completion - Parameters: count=5–9 items - Examples: SOPs,..."
+    gloss:
+        - **Definition**: Concrete items to verify completion
 - **Parameters**: count=5–9 items
 - **Examples**: SOPs, readiness reviews, quality assurance
+end
 
-### 2. Exercise
-- **Definition**: Short task to practice transfer
+
+TERM 2Exercise:
+    sutra: "- Definition: Short task to practice transfer - Parameters: time=10–20 minutes - Examples: Workbo..."
+    gloss:
+        - **Definition**: Short task to practice transfer
 - **Parameters**: time=10–20 minutes
 - **Examples**: Workbooks, lessons, skill-building activities
+end
 
-### 3. Question Set
-- **Definition**: Prompts to test understanding
+
+TERM 3QuestionSet:
+    sutra: "- Definition: Prompts to test understanding - Parameters: items=3–7 questions - Examples: Seminar..."
+    gloss:
+        - **Definition**: Prompts to test understanding
 - **Parameters**: items=3–7 questions
 - **Examples**: Seminars, reviews, comprehension checks
+end
 
-### 4. Decision
-- **Definition**: Choose among options with criteria
+
+TERM 4Decision:
+    sutra: "- Definition: Choose among options with criteria - Parameters: thresholds=list - Examples: Decisi..."
+    gloss:
+        - **Definition**: Choose among options with criteria
 - **Parameters**: thresholds=list
 - **Examples**: Decision memos, trade studies, strategic choices
+end
 
-### 5. Report Back
-- **Definition**: Ask for evidence of completion
+
+TERM 5ReportBack:
+    sutra: "- Definition: Ask for evidence of completion - Parameters: artifact=screenshot/log - Examples: On..."
+    gloss:
+        - **Definition**: Ask for evidence of completion
 - **Parameters**: artifact=screenshot/log
 - **Examples**: Onboarding sequences, campaigns, accountability systems
 
 ---
+end
 
-## VIII. SCAFFOLD ELEMENT (7 Structures)
 
-Organizational frameworks enhancing navigation and comprehension.
+TERM VIIISCAFFOLDELEMENT7Structures:
+    sutra: "Organizational frameworks enhancing navigation and comprehension."
+    gloss:
+        Organizational frameworks enhancing navigation and comprehension.
+end
 
-### 1. Headings (H2/H3)
-- **Definition**: Chunk topics with nested headings
+
+TERM 1HeadingsH2H3:
+    sutra: "- Definition: Chunk topics with nested headings - Parameters: depth=2-3 levels - Examples: Explai..."
+    gloss:
+        - **Definition**: Chunk topics with nested headings
 - **Parameters**: depth=2-3 levels
 - **Examples**: Explainers, standards documents, comprehensive guides
+end
 
-### 2. Numbered Steps
-- **Definition**: Ordered procedure with checks and pitfalls
+
+PROC 2NumberedSteps:
+    sutra: "- Definition: Ordered procedure with checks and pitfalls - Parameters: step_checklist=true - Exam..."
+    gloss:
+        - **Definition**: Ordered procedure with checks and pitfalls
 - **Parameters**: step_checklist=true
 - **Examples**: SOPs, tutorials, installation guides
+end
 
-### 3. Bulleted Lists
-- **Definition**: Concise itemization for scan-readers
+
+TERM 3BulletedLists:
+    sutra: "- Definition: Concise itemization for scan-readers - Parameters: max_line=12 words per bullet - E..."
+    gloss:
+        - **Definition**: Concise itemization for scan-readers
 - **Parameters**: max_line=12 words per bullet
 - **Examples**: Briefing notes, FAQs, quick references
+end
 
-### 4. Callouts
-- **Definition**: Highlight rules, hazards, or tips in a box
+
+TERM 4Callouts:
+    sutra: "- Definition: Highlight rules, hazards, or tips in a box - Parameters: tone=warn/info/success - E..."
+    gloss:
+        - **Definition**: Highlight rules, hazards, or tips in a box
 - **Parameters**: tone=warn/info/success
 - **Examples**: Runbooks, safety notices, critical information
+end
 
-### 5. Sidebar
-- **Definition**: Parallel track for context, definitions, or asides
+
+TERM 5Sidebar:
+    sutra: "- Definition: Parallel track for context, definitions, or asides - Parameters: width=1/3 page - E..."
+    gloss:
+        - **Definition**: Parallel track for context, definitions, or asides
 - **Parameters**: width=1/3 page
 - **Examples**: Features, case studies, supplementary material
+end
 
-### 6. FAQ Block
-- **Definition**: Question → shortest true answer → pointer
+
+TERM 6FAQBlock:
+    sutra: "- Definition: Question → shortest true answer → pointer - Parameters: qna_pairs format - Examples..."
+    gloss:
+        - **Definition**: Question → shortest true answer → pointer
 - **Parameters**: qna_pairs format
 - **Examples**: Objection ledgers, support articles, clarification hubs
+end
 
-### 7. Timeline Table
-- **Definition**: Time-stamped sequence with notes
+
+TERM 7TimelineTable:
+    sutra: "- Definition: Time-stamped sequence with notes - Parameters: columns=time,event,notes - Examples:..."
+    gloss:
+        - **Definition**: Time-stamped sequence with notes
 - **Parameters**: columns=time,event,notes
 - **Examples**: Tick-tocks, post-mortems, event reconstructions
 
 ---
+end
 
-## IX. FAMILY (10 Flavors)
 
-High-level genre classifications organizing stylistic forms.
+TERM IXFAMILY10Flavors:
+    sutra: "High-level genre classifications organizing stylistic forms"
+    gloss:
+        High-level genre classifications organizing stylistic forms.
 
 1. **Narrative & Story**: Character-driven, temporal, scene-based
 2. **Explanatory & Map-Making**: Conceptual, structural, sense-making
 3. **Instructional & Procedural**: Action-oriented, step-based, enabling
-4. **Dialogic & Deliberative**: Multi-voice, question-driven, exploratory
-5. **Persuasive & Polemical**: Argument-driven, position-taking, mind-changing
-6. **Scientific & Technical**: Evidence-based, methodology-explicit, falsifiable
-7. **Journalistic & Documentary**: Event-based, source-verified, timely
-8. **Commercial & Product**: Value-driven, conversion-focused, benefit-oriented
-9. **Civic, Legal & Governance**: Policy-oriented, rights-based, accountability-focused
-10. **Devotional, Reflective & Meditative**: Contemplative, meaning-seeking, form-only (neutral)
+4. **Dialogic & Deliberative*...
+end
 
----
 
-## X. RECIPIENT ARCHETYPE (10 Personas)
+TERM XRECIPIENTARCHETYPE10Personas:
+    sutra: "Audience models with distinct entry states and success criteria."
+    gloss:
+        Audience models with distinct entry states and success criteria.
+end
 
-Audience models with distinct entry states and success criteria.
 
-### 1. First-Step Novice
-- **Brief**: Orientation without shame
+TERM 1FirstStepNovice:
+    sutra: "- Brief: Orientation without shame - Success: Can retell gist and attempt one practice - Entry St..."
+    gloss:
+        - **Brief**: Orientation without shame
 - **Success**: Can retell gist and attempt one practice
 - **Entry State**: Neutral
+end
 
-### 2. Credential-Seeker Student
-- **Brief**: Scoped mastery to pass thresholds
+
+TERM 2CredentialSeekerStudent:
+    sutra: "- Brief: Scoped mastery to pass thresholds - Success: Checklist + practice items completed - Entr..."
+    gloss:
+        - **Brief**: Scoped mastery to pass thresholds
 - **Success**: Checklist + practice items completed
 - **Entry State**: Neutral
+end
 
-### 3. Self-Directed Generalist
-- **Brief**: Mental map first, details later
+
+TERM 3SelfDirectedGeneralist:
+    sutra: "- Brief: Mental map first, details later - Success: Schema with links acquired - Entry State: Neu..."
+    gloss:
+        - **Brief**: Mental map first, details later
 - **Success**: Schema with links acquired
 - **Entry State**: Neutral
+end
 
-### 4. Meaning-Seeker
-- **Brief**: Why it matters existentially
+
+TERM 4MeaningSeeker:
+    sutra: "- Brief: Why it matters existentially - Success: Felt coherence + daily practice established - En..."
+    gloss:
+        - **Brief**: Why it matters existentially
 - **Success**: Felt coherence + daily practice established
 - **Entry State**: Neutral
+end
 
-### 5. Workflow Optimizer (Practitioner)
-- **Brief**: Faster/safer execution
+
+TERM 5WorkflowOptimizerPractitioner:
+    sutra: "- Brief: Faster/safer execution - Success: Time saved, errors reduced - Entry State: Neutral"
+    gloss:
+        - **Brief**: Faster/safer execution
 - **Success**: Time saved, errors reduced
 - **Entry State**: Neutral
+end
 
-### 6. Frontline Operator
-- **Brief**: Do it right under pressure
+
+TERM 6FrontlineOperator:
+    sutra: "- Brief: Do it right under pressure - Success: Fewer mistakes today - Entry State: Neutral"
+    gloss:
+        - **Brief**: Do it right under pressure
 - **Success**: Fewer mistakes today
 - **Entry State**: Neutral
+end
 
-### 7. Builder/Maker
-- **Brief**: How to prototype, today
+
+TERM 7BuilderMaker:
+    sutra: "- Brief: How to prototype, today - Success: First demo built - Entry State: Neutral"
+    gloss:
+        - **Brief**: How to prototype, today
 - **Success**: First demo built
 - **Entry State**: Neutral
+end
 
-### 8. Reliability Steward (Ops/QA)
-- **Brief**: Eliminate failure modes
+
+TERM 8ReliabilityStewardOpsQA:
+    sutra: "- Brief: Eliminate failure modes - Success: Fewer regressions detected - Entry State: Neutral"
+    gloss:
+        - **Brief**: Eliminate failure modes
 - **Success**: Fewer regressions detected
 - **Entry State**: Neutral
+end
 
-### 9. Executive Decider
-- **Brief**: Clear options, risks, upside
+
+TERM 9ExecutiveDecider:
+    sutra: "- Brief: Clear options, risks, upside - Success: Decision + rationale documented - Entry State: N..."
+    gloss:
+        - **Brief**: Clear options, risks, upside
 - **Success**: Decision + rationale documented
 - **Entry State**: Neutral
+end
 
-### 10. Portfolio Evaluator (Investor/Grants)
-- **Brief**: Asymmetric bets
+
+TERM 10PortfolioEvaluatorInvestorGrants:
+    sutra: "- Brief: Asymmetric bets - Success: Calibrated priors + go/no-go decision - Entry State: Neutral ..."
+    gloss:
+        - **Brief**: Asymmetric bets
 - **Success**: Calibrated priors + go/no-go decision
 - **Entry State**: Neutral
 
 ---
+end
 
-## XI. DOMAIN (15 Contexts)
 
-Subject-matter contexts shaping terminology and expectations.
+TERM XIDOMAIN15Contexts:
+    sutra: "Subject-matter contexts shaping terminology and expectations"
+    gloss:
+        Subject-matter contexts shaping terminology and expectations.
 
 1. **Research**: Academic inquiry, hypothesis-driven
 2. **Science**: Empirical methods, falsifiable claims
 3. **Engineering**: Systems design, implementation focus
 4. **Product**: User-centered, market-oriented
-5. **Design**: Aesthetic decisions, user experience
-6. **UX**: Interaction patterns, usability focus
-7. **Data**: Quantitative analysis, statistical rigor
-8. **AI/ML**: Algorithm development, model training
-9. **DevOps**: Infrastructure, deployment automation
-10. **Security**: Threat modeling, vulnerability mitigation
-11. **Policy**: Governance, regulatory frameworks
-12. **Civic**: Public participation, democratic processes
-13. **Law**: Legal reasoning, precedent-based
-14. **Finance**: Capital allocation, risk management
-15. **Education**: Learning design, pedagogical methods
+5. **Design**: Aesthetic d...
+end
 
----
 
-## Usage Guidance
-
-### Creating a Recipe
-
-When constructing a new Recipe for systematic content production:
+TERM CreatingaRecipe:
+    sutra: "When constructing a new Recipe for systematic content production:  1"
+    gloss:
+        When constructing a new Recipe for systematic content production:
 
 1. **Select Primary Function**: Choose from 10 rhetorical functions based on communicative goal
 2. **Choose Style**: Select from 15 stylistic forms matching content structure
-3. **Set Cadence**: Pick from 4 cadence bands based on reading context
-4. **Specify Diction**: Choose from 4 diction patterns balancing accessibility and precision
-5. **Apply Guardrails**: Select 1-3 guardrails ensuring quality and safety
-6. **Define Evidence Types**: Specify 2-4 evidence modes supporting claims
-7. **Design CTA**: Choose 1-2 CTA patterns for reader activation
-8. **Select Scaffold**: Pick 2-5 scaffold elements for navigation
-9. **Identify Family**: Classify within 10 flavor families
-10. **Target Archetype**: Choose 1-2 recipient personas
-11. **Specify Domain**: Indicate subject-matter context
+3. **Set Cadence**: Pick from 4 cadence bands based on rea...
+end
 
-### Analyzing Existing Content
 
-When assessing content for rhetorical structure:
+TERM AnalyzingExistingContent:
+    sutra: "When assessing content for rhetorical structure:  1"
+    gloss:
+        When assessing content for rhetorical structure:
 
 1. Identify primary rhetorical function (what job is this doing?)
 2. Recognize stylistic form skeleton (what structure organizes this?)
 3. Measure cadence (average words per sentence)
 4. Assess diction register (plain, technical, elevated?)
-5. Check guardrail compliance (bounded claims, source attribution, etc.)
-6. Catalog evidence types deployed
-7. Evaluate CTA effectiveness (does it activate readers?)
-8. Note scaffold elements present
-9. Classify by family
-10. Determine target archetype (who is this for?)
-11. Identify domain context
+5. Check...
+end
 
----
 
-## Integration Points
-
-**Rhetorical Calibration**: Voice principles map to Recipe parameters through this taxonomy
+TERM IntegrationPoints:
+    sutra: "Rhetorical Calibration: Voice principles map to Recipe parameters through this taxonomy Feedcraft..."
+    gloss:
+        **Rhetorical Calibration**: Voice principles map to Recipe parameters through this taxonomy
 **Feedcraft**: Platform physics inform Family, Style, and Cadence selection
 **Technology Stack**: Domain classification connects to tool selection
-**Operations Backbone**: Archetype targeting guides content calendar strategy
-**Curriculum**: Instructional Family and enabling CTA patterns structure lessons
+**Operations Backbone**: Archetype targeting guides content c...
+end
 
----
 
-## Maintenance Protocol
-
-This taxonomy should evolve through:
+NORM MaintenanceProtocol:
+    sutra: "This taxonomy should evolve through: - Addition: New entries when patterns emerge from production..."
+    gloss:
+        This taxonomy should evolve through:
 - **Addition**: New entries when patterns emerge from production
 - **Refinement**: Updated definitions based on usage clarity
 - **Deprecation**: Remove entries proven ineffective or redundant
 - **Validation**: Regular testing against actual content production
 
-Update this document when 10+ pieces of content have been produced using the taxonomy, documenting what worked and what needs adjustment.
-
----
-
-**Status**: Taxonomy complete and ready for Recipe population (P0-2). Next step is creating 3-5 starter Recipes demonstrating taxonomy application for content production.
-
-*Extracted from Acumen Lunar TONE LIBRARY CSVs: October 19, 2025*
+Up...
+end

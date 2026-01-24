@@ -152,8 +152,8 @@ Build a complete symbol table:
 ### 8. ERROR MESSAGES
 For every violation found, produce compiler-style error messages:
 ```
-ERROR [CANON-00005:142]: Undefined reference 'Modal 5'
-  --> Expected definition in CANON-00012 but not found
+ERROR [[[CANON-00005-SYNCRESCENDENCE-cosmos]]:142]: Undefined reference 'Modal 5'
+  --> Expected definition in [[CANON-00012-MODAL_SEQUENCE-cosmos]] but not found
   
 WARNING [02-ENGINE/memory/:3]: Unused definition 'acumen-memory-config'
   --> Defined but never referenced
@@ -203,7 +203,7 @@ Analyze the Syncrescendence corpus as a DISTRIBUTED SYSTEM with multiple agents 
 - **Where are invariants broken?**
 
 ### 3. CONSENSUS PROTOCOL
-- **Who is the leader?** (Principal? Oracle? Repository?)
+- **Who is the leader?** (Sovereign? Oracle? Repository?)
 - **How are writes coordinated?** (Directives → Execution → Verification)
 - **What happens during partition?** (Web app can't see CLI state)
 - **How is agreement reached?** (Decision Envelopes, Handoff Tokens)

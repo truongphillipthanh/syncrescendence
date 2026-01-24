@@ -10,15 +10,15 @@
 
 | Zone | Primary Writer | Secondary | Notes |
 |------|----------------|-----------|-------|
-| `00-ORCHESTRATION/` | Principal, Claude Code | Oracle (directives) | Protected: state/, oracle_contexts/ |
-| `01-CANON/` | Principal | Claude (with approval) | PROTECTED - deletions require approval |
-| `02-ENGINE/` | Claude Code | Principal | Contains coordination.yaml |
-| `03-QUEUE/` | Claude Code | Principal | Modal-organized pending work |
-| `04-SOURCES/` | Gemini (raw/), Alpha/Beta (processed/) | Principal | Zone-prefixed outputs |
-| `05-MEMORY/` | Claude Code | Principal | Historical preservation |
-| `06-EXEMPLA/` | Principal | Claude Code | Templates only |
-| `-INBOX/` | External Platforms | Principal | ChatGPT drops, reinit capsules |
-| `-OUTGOING/` | Claude Code | Principal | Export staging, blitzkrieg bundles |
+| `00-ORCHESTRATION/` | Sovereign, Claude Code | Oracle (directives) | Protected: state/, oracle_contexts/ |
+| `01-CANON/` | Sovereign | Claude (with approval) | PROTECTED - deletions require approval |
+| `02-ENGINE/` | Claude Code | Sovereign | Contains coordination.yaml |
+| `03-QUEUE/` | Claude Code | Sovereign | Modal-organized pending work |
+| `04-SOURCES/` | Gemini (raw/), Alpha/Beta (processed/) | Sovereign | Zone-prefixed outputs |
+| `05-MEMORY/` | Claude Code | Sovereign | Historical preservation |
+| `06-EXEMPLA/` | Sovereign | Claude Code | Templates only |
+| `-INBOX/` | External Platforms | Sovereign | ChatGPT drops, reinit capsules |
+| `-OUTGOING/` | Claude Code | Sovereign | Export staging, blitzkrieg bundles |
 
 ### Zone Write Permissions (coordination.yaml extract)
 ```

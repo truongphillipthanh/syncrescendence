@@ -37,7 +37,7 @@ This scaffolding document captures the reconnaissance findings from DIRECTIVE-04
 
 ### Key Architectural Discoveries
 
-#### 1. Seven Memory Strata (CANON-25000)
+#### 1. Seven Memory Strata ([[CANON-25000-MEMORY_ARCH-lattice]])
 The universal memory architecture applicable to all AI platforms:
 
 1. **Constitutional** - Immutable identity layer (platform-fixed)
@@ -50,7 +50,7 @@ The universal memory architecture applicable to all AI platforms:
 
 **Critical Insight**: Earlier strata constrain later strata. Constitutional bounds preferences; project context shapes what canonical knowledge is retrieved.
 
-#### 2. Five IICs and Chain Alignment (CANON-31140/31141)
+#### 2. Five IICs and Chain Alignment ([[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]]/31141)
 
 | IIC | Chain | Guiding Virtues | Temporal Orientation |
 |-----|-------|-----------------|---------------------|
@@ -67,7 +67,7 @@ The universal memory architecture applicable to all AI platforms:
 - Months 19-24: Add Mastery
 - Months 25-36: Add Transcendence
 
-#### 3. Platform Grammar Specifications (CANON-31142)
+#### 3. Platform Grammar Specifications ([[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]])
 
 Per-platform interaction protocols defining:
 - Curation mode (how content is organized)
@@ -77,7 +77,7 @@ Per-platform interaction protocols defining:
 
 **Platforms Covered**: YouTube, X/Twitter, Substack, ArXiv, GitHub, AI Assistants, News/Business Media
 
-#### 4. Feed Curation Framework (CANON-31143)
+#### 4. Feed Curation Framework ([[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]])
 
 Four-dimensional content qualification:
 1. **Abstraction Level**: 9 levels from Foundational to Civilizational
@@ -230,16 +230,16 @@ Per DIRECTIVE-043B specifications:
 
 ## Appendix A: Key Quotes from CANON
 
-### On Memory Sovereignty (CANON-25000)
+### On Memory Sovereignty ([[CANON-25000-MEMORY_ARCH-lattice]])
 > "Memory is cognitive sovereignty. The practitioner who controls their memory architecture controls the continuity of their augmented cognition—regardless of which platforms, models, or interfaces mediate that cognition."
 
-### On Acumen Function (CANON-31141)
+### On Acumen Function ([[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]])
 > "Think of Acumen as a Neo-Bloomberg Terminal for the Syncrescendent Thesis—a hyper-curated, intelligence-mediated apparatus that transforms civilizational information deluge into actionable strategic insight."
 
-### On IIC Implementation (CANON-31141)
+### On IIC Implementation ([[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]])
 > "Each IIC must be producing value before activating the next. Quality over speed; a single well-functioning IIC beats five poorly-configured ones."
 
-### On Synchronization (CANON-25000)
+### On Synchronization ([[CANON-25000-MEMORY_ARCH-lattice]])
 > "The corpus is ground truth. All IICs access the same canonical documents. Cross-IIC learnings captured in thread culmination."
 
 ---

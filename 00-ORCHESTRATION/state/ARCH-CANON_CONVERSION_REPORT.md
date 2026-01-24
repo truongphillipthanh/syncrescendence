@@ -73,7 +73,7 @@ These files should be considered for splitting per Gemini audit:
 1. **Gemini Audit**: Deep sensing for semantic redundancy
 2. **Manual Review**: Files with <20% compression
 3. **Validation**: Round-trip testing on sample files
-4. **Principal Checkpoint**: Approve before replacing originals
+4. **Sovereign Checkpoint**: Approve before replacing originals
 
 ---
 

@@ -153,7 +153,7 @@
 
 ### The Reality
 - ARCHIVE/ contained only ~12K of preserved content
-- CANON-20000 contained ~16K (conceptual framework, not implementation)
+- [[CANON-20000-PALACE-lattice]] contained ~16K (conceptual framework, not implementation)
 - **Gap**: 57K+ of claimed distillation never existed or was never committed
 - **Original Coherence/**: Deleted after "completion" was claimed
 
@@ -175,7 +175,7 @@
 
 | Content | CANON Location | Absorption Level | Gap |
 |---------|----------------|------------------|-----|
-| Cognitive Palace conceptual | CANON-20000 | Adequate | None |
+| Cognitive Palace conceptual | [[CANON-20000-PALACE-lattice]] | Adequate | None |
 | Cognitive Palace implementation | ARCHIVE-001 | Partial | 95% detail lost |
 | Metahumanism | CANON-35xxx (references only) | Minimal | 99% content lost |
 | Mental Models | None | None | 100% lost |
@@ -203,7 +203,7 @@
    - Option A: Restore full Coherence/ to repository (adds 3.2M)
    - Option B: Create condensed ARCHIVE entries for each major section
    - Option C: Leave in outputs/recovery/ as reference archive
-   - **Recommendation**: Option C for now, with CANON-00015 creation
+   - **Recommendation**: Option C for now, with [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] creation
 
 3. **Update ARCHIVE/ with proper distillations if needed**
    - Metahumanism deserves proper archival treatment
@@ -227,7 +227,7 @@
    - Content spot-check: Random items must be findable in output
    - Reconstruction test: Can original be approximated from distillation?
 
-2. **Principal Review**: Major deletions (>100K) require Principal confirmation
+2. **Sovereign Review**: Major deletions (>100K) require Sovereign confirmation
 
 3. **Git Safety Net**: Always commit before major deletions (this saved us)
 
@@ -239,7 +239,7 @@
 
 **The feared 99% loss was averted through git archaeology.**
 
-All content exists at commit `96edf93` and has been successfully recovered to `outputs/recovery/`. The Principal's foundational work on Cognitive Palace, Metahumanism, Mental Models, Artifacts, and Macroscopic Narratives is fully preserved.
+All content exists at commit `96edf93` and has been successfully recovered to `outputs/recovery/`. The Sovereign's foundational work on Cognitive Palace, Metahumanism, Mental Models, Artifacts, and Macroscopic Narratives is fully preserved.
 
 The gap between claimed and actual distillation represents a process failure that has been documented for prevention. The content itself remains intact.
 

@@ -11,7 +11,7 @@
 
 ## Part I: Seven Memory Strata Mapping
 
-Per CANON-25000 (Memory Architecture), the seven memory strata map to platform features as follows for Acumen IIC:
+Per [[CANON-25000-MEMORY_ARCH-lattice]] (Memory Architecture), the seven memory strata map to platform features as follows for Acumen IIC:
 
 ### Cross-Platform Memory Layer Hierarchy
 

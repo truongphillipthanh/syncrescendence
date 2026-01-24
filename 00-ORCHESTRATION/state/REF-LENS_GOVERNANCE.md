@@ -47,10 +47,10 @@ Source of truth: `01-CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md`.
 - **Source triage**: use 19-30 to identify narrative alignment and routing (per `01-CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md`).
 
 ## Chain-specific mapping (default)
-- **Information (CANON-31000)**: 25-27 (epistemic, disorder, attention)
-- **Insight (CANON-32000)**: 19-21 (phase transition, planetary limits, acceleration)
-- **Expertise (CANON-33000)**: 22-24 (socio-technical, economic, geopolitical)
-- **Knowledge (CANON-34000)**: 28 (cultural meaning frameworks)
-- **Wisdom (CANON-35000)**: 29-30 (posthuman trajectories, institutional exhaustion)
+- **Information ([[CANON-31000-INFORMATION-chain]])**: 25-27 (epistemic, disorder, attention)
+- **Insight ([[CANON-32000-INSIGHT-chain]])**: 19-21 (phase transition, planetary limits, acceleration)
+- **Expertise ([[CANON-33000-EXPERTISE-chain]])**: 22-24 (socio-technical, economic, geopolitical)
+- **Knowledge ([[CANON-34000-KNOWLEDGE-chain]])**: 28 (cultural meaning frameworks)
+- **Wisdom ([[CANON-35000-WISDOM-chain]])**: 29-30 (posthuman trajectories, institutional exhaustion)
 
 If a decision spans multiple chains, apply the union of the relevant narrative lenses.

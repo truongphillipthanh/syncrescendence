@@ -44,5 +44,5 @@ For pipeline design:
 ---
 
 *Self-documented: 2026-01-22*
-*Validated by Principal: Pending*
+*Validated by Sovereign: Pending*
 *Evidence: Claim Atom invention in chatgpts-proposal.md (Chorus session)*

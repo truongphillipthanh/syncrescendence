@@ -20,7 +20,7 @@ The manual bridge I created is *functional* but has high cognitive overhead. Wha
 1. **Verifies ground truth** deterministically
 2. **Transfers minimal context** (not full repository state)
 3. **Leverages each platform's strengths** (not one-size-fits-all)
-4. **Requires <30 seconds** from Principal (not <60)
+4. **Requires <30 seconds** from Sovereign (not <60)
 5. **Fails gracefully** when state diverges
 
 ---
@@ -43,7 +43,7 @@ HANDOFF-20260120-143022-p1-to-p2
 ### How It Works
 
 #### Step 1: Phase Completion (Any Platform)
-Principal or CLI generates handoff token:
+Sovereign or CLI generates handoff token:
 ```bash
 make handoff-token PHASE=1 NEXT=chatgpt
 # Output: HANDOFF-20260120-143022-p1-to-p2
@@ -56,15 +56,15 @@ This creates:
 - `.constellation/tokens/active.txt` (human-readable, <100 words)
 - Updates repository state, commits with fingerprint in commit message
 
-#### Step 2: Principal Bridges to Next Platform
-Instead of uploading full handoff documents, Principal:
+#### Step 2: Sovereign Bridges to Next Platform
+Instead of uploading full handoff documents, Sovereign:
 
 **For Claude Web**:
 1. Copy active token text (clipboard)
 2. Paste into Claude: "Resume from token: HANDOFF-20260120-143022-p1-to-p2"
 3. Claude searches past chats for that token (finds previous handoff if exists)
 4. Claude reads Project Knowledge for phase specifications
-5. **Crucially**: Claude can verify fingerprint by asking Principal: "Confirm repo is at commit 7a3f9c2e"
+5. **Crucially**: Claude can verify fingerprint by asking Sovereign: "Confirm repo is at commit 7a3f9c2e"
 
 **For ChatGPT Web**:
 1. Copy active token + ultra-brief context (clipboard)
@@ -81,7 +81,7 @@ Instead of uploading full handoff documents, Principal:
 **Time**: ~20 seconds (copy token, paste, reference)
 
 #### Step 3: Platform Executes
-Platform processes work, generates output, Principal downloads artifacts.
+Platform processes work, generates output, Sovereign downloads artifacts.
 
 #### Step 4: Verify Before Next Handoff
 ```bash
@@ -220,14 +220,14 @@ The fingerprint (git commit hash) is **proof of ground truth**. No ambiguity abo
 - NotebookLM can digest complex specs into audio
 
 ### Graceful Failure
-If Principal forgets to generate token, platforms can still request:
+If Sovereign forgets to generate token, platforms can still request:
 - "What's the current handoff token?"
-- Principal runs `cat .constellation/tokens/active.txt`
+- Sovereign runs `cat .constellation/tokens/active.txt`
 - Copy/paste into platform
 
 If fingerprint verification fails:
 - Platform alerts: "Expected commit 7a3f9c2e, but you're showing 4b8e1a9f"
-- Principal investigates: `git log --oneline -5`
+- Sovereign investigates: `git log --oneline -5`
 - Fix divergence before proceeding
 
 ---
@@ -343,7 +343,7 @@ sync-gemini:
 
 **Phase 1 Complete (Claude Web)**:
 ```bash
-# Principal in terminal
+# Sovereign in terminal
 cd ~/Desktop/syncrescendence/
 git add -INBOX/
 git commit -m "Phase 1: Claude interpreted requirements"
@@ -359,7 +359,7 @@ make token PHASE=1 NEXT=chatgpt
 
 **Phase 2 Complete (ChatGPT Canvas)**:
 ```bash
-# Principal downloads Canvas artifact
+# Sovereign downloads Canvas artifact
 cd ~/Desktop/syncrescendence/
 mv ~/Downloads/artifact.docx -OUTGOING/deliverables/
 git add -OUTGOING/
@@ -379,16 +379,16 @@ make sync-gemini  # Auto-updates Gemini Gem
 ### Example 2: Verification Failure Caught Early
 
 ```bash
-# Principal generates token
+# Sovereign generates token
 make token PHASE=2 NEXT=gemini
 # Token shows fingerprint: 7a3f9c2e
 
-# Gemini executes, Principal forgot to commit something
-# Before next handoff, Principal checks:
+# Gemini executes, Sovereign forgot to commit something
+# Before next handoff, Sovereign checks:
 git rev-parse --short HEAD
 # Output: 4b8e1a9f  ← Doesn't match!
 
-# Principal investigates
+# Sovereign investigates
 git status
 # Shows uncommitted changes in -OUTGOING/
 
@@ -497,7 +497,7 @@ This enables **opportunistic execution**: whichever platform you open next alrea
 | Aspect | Full Handoff Protocol | State Fingerprint Solution |
 |--------|----------------------|---------------------------|
 | **Context Size** | 2000-5000 tokens | 100-300 tokens |
-| **Principal Time** | ~60 seconds | ~20 seconds |
+| **Sovereign Time** | ~60 seconds | ~20 seconds |
 | **Verification** | Manual checksum comparison | Automatic fingerprint check |
 | **Platform-Specific** | One-size-fits-all documents | Native strengths leveraged |
 | **Failure Mode** | Silent divergence | Explicit fingerprint mismatch |
@@ -563,7 +563,7 @@ This enables **opportunistic execution**: whichever platform you open next alrea
 - Automated sync eliminates Gemini upload friction
 
 **Cognitive Load**:
-- Principal actions reduced from 8 steps to 3 steps
+- Sovereign actions reduced from 8 steps to 3 steps
 - Token format becomes second nature after ~10 uses
 - Platforms trained to expect token-based handoffs
 

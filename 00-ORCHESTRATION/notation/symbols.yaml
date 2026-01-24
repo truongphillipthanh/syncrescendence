@@ -56,10 +56,11 @@ roles:
   Δg: Digestor
   Ε: Executor
   V: Verifier
+  S: Sovereign  # The human user - sovereignty through conscious participation
 
 # Accounts
 accounts:
-  A1: Human (Principal)
+  A1: Human (Sovereign)
   A2: Machine (Agents)
   A3: Aggregate (Constellation)
 

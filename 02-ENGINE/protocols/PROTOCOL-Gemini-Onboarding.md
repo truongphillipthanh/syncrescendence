@@ -143,7 +143,7 @@ Sources:
 - Generate after each Oracle session
 - Listen during commute/exercise
 - Reinforces key decisions through different modality
-- Principal can consume insights without screen time
+- Sovereign can consume insights without screen time
 
 ### C. Gemini Advanced Chat
 
@@ -214,7 +214,7 @@ Apply ground-truth discipline rigorously.
 
 **Protocol**:
 ```
-1. Principal provides YouTube URL
+1. Sovereign provides YouTube URL
 2. Gemini processes video natively (263 tok/sec)
 3. Extract:
    - Speaker diarization (who said what)
@@ -242,7 +242,7 @@ Provide:
 
 ### Phase 1: Sensing & Evidence Production
 
-**Trigger**: Principal asks question requiring corpus-scale sensing
+**Trigger**: Sovereign asks question requiring corpus-scale sensing
 
 **Example Triggers**:
 - "What does the repository say about temporal vs. evergreen content?"
@@ -262,9 +262,9 @@ Provide:
 ```json
 {
   "id": "EVD-YYYYMMDD-NNN",
-  "query": "Original question from Principal",
+  "query": "Original question from Sovereign",
   "corpus_slice": [
-    "Files consulted (e.g., 01-CANON/CANON-00004.md)",
+    "Files consulted (e.g., 01-CANON/[[CANON-00004-EVOLUTION-cosmos]].md)",
     "Oracle conversations (e.g., Oracle-07, turns 45-67)",
     "External sources (e.g., YouTube video)"
   ],
@@ -283,7 +283,7 @@ Provide:
 
 ### Phase 2: Handoff to Deviser
 
-**Action**: Principal pastes Evidence Packet to ChatGPT (Deviser)
+**Action**: Sovereign pastes Evidence Packet to ChatGPT (Deviser)
 
 **Oracle's Role Ends**: No further action until next sensing request
 
@@ -308,7 +308,7 @@ Provide:
 ### Protocol 1: Corpus-Scale Query
 
 **Step-by-Step**:
-1. **Receive Query**: Principal asks question about repository or history
+1. **Receive Query**: Sovereign asks question about repository or history
 2. **Load Context**: Upload repository + conversations (or use Drive connector)
 3. **Execute Search**: Use Gemini's 2M context to find all relevant mentions
 4. **Cite Precisely**: Every finding includes file:line or conversation:turn
@@ -338,8 +338,8 @@ Evidence Packet:
   ],
   "findings": [
     "REF-STANDARDS.md:127 - '18 Lenses evaluation rejected FrontierModels.md (temporal decay)'",
-    "Oracle-07:turn-34 - Principal: 'Canonical means timeless, not time-stamped'",
-    "CANON-00001:line-89 - 'CANON contains evergreen knowledge only'"
+    "Oracle-07:turn-34 - Sovereign: 'Canonical means timeless, not time-stamped'",
+    "[[CANON-00001-ORIGIN-cosmos]]:line-89 - 'CANON contains evergreen knowledge only'"
   ],
   "uncertainties": [
     "No explicit protocol for WHEN to reject temporal content",
@@ -352,7 +352,7 @@ Evidence Packet:
 ### Protocol 2: Video/Audio Processing
 
 **Step-by-Step**:
-1. **Receive URL**: Principal provides YouTube/podcast link
+1. **Receive URL**: Sovereign provides YouTube/podcast link
 2. **Ingest Natively**: Process video with speaker diarization
 3. **Extract Structure**: Identify speakers, topics, key moments
 4. **Assess Signal**: Paradigm/strategic/tactical/noise tier
@@ -377,7 +377,7 @@ Evidence Packet:
     "Signal tier: PARADIGM (challenges LLM orthodoxy, validates Bitter Lesson)"
   ],
   "uncertainties": [],
-  "recommended_probe": "Full transcription warranted. High integration value for CANON-00004 (Bitter Lesson)"
+  "recommended_probe": "Full transcription warranted. High integration value for [[CANON-00004-EVOLUTION-cosmos]] (Bitter Lesson)"
 }
 ```
 
@@ -385,7 +385,7 @@ Evidence Packet:
 
 **Step-by-Step**:
 1. **Prepare Notebook**: Upload Oracle corpus + CANON files
-2. **Receive Query**: Principal asks about decision history or system rationale
+2. **Receive Query**: Sovereign asks about decision history or system rationale
 3. **Query NotebookLM**: Ask question, receive answer with inline citations
 4. **Verify Citations**: Read source to confirm grounding
 5. **Synthesize**: If multi-source, integrate findings coherently
@@ -462,7 +462,7 @@ Evidence Packet:
 
 | Level | Description | Example |
 |-------|-------------|---------|
-| **Grounded** | Direct quote or citation | "CANON-00004:line-34 states 'Bitter Lesson...'" |
+| **Grounded** | Direct quote or citation | "[[CANON-00004-EVOLUTION-cosmos]]:line-34 states 'Bitter Lesson...'" |
 | **Inferred (Weak)** | Logical deduction from corpus | "Based on 3 CANON references, system prefers X" |
 | **Inferred (Strong)** | Pattern recognition across many sources | "Across Oracle 4-12, 18 Lenses were applied 47 times" |
 | **Speculative** | Beyond corpus evidence | "This might mean..." (AVOID unless labeled) |
@@ -471,7 +471,7 @@ Evidence Packet:
 
 **Always Grounded**:
 - ✓ "File X contains Y at line Z"
-- ✓ "Oracle conversation N, turn M, Principal said..."
+- ✓ "Oracle conversation N, turn M, Sovereign said..."
 - ✓ "YouTube video timestamp 00:12:34, Sutton argues..."
 
 **Acceptable if Labeled**:
@@ -524,7 +524,7 @@ Evidence Packet:
 **❌ Inferring Beyond Evidence**
 ```
 // BAD
-"Principal probably wants..."
+"Sovereign probably wants..."
 
 // GOOD
 "Corpus does not state preference. Related: Oracle-08:67 mentions X"
@@ -551,10 +551,10 @@ Evidence Packet:
 **❌ Strawman Evidence**
 ```
 // BAD (cherry-picking)
-"CANON-00001 says X" [ignoring CANON-00002 which says opposite]
+"[[CANON-00001-ORIGIN-cosmos]] says X" [ignoring [[CANON-00002-LINEAGE-cosmos]] which says opposite]
 
 // GOOD (comprehensive)
-"CANON-00001:12 says X, but CANON-00002:34 says Y. Tension unresolved."
+"[[CANON-00001-ORIGIN-cosmos]]:12 says X, but [[CANON-00002-LINEAGE-cosmos]]:34 says Y. Tension unresolved."
 ```
 
 ---
@@ -599,7 +599,7 @@ Evidence Packet:
 **Query**: "Process Dwarkesh-Sutton interview, assess transcription value"
 
 **Oracle Process**:
-1. Receive YouTube URL from Principal
+1. Receive YouTube URL from Sovereign
 2. Ingest video natively (2 hours → ~5 minutes processing)
 3. Extract speaker-separated insights
 4. Assess signal tier
@@ -622,7 +622,7 @@ Evidence Packet:
     "Signal tier: PARADIGM (challenges current orthodoxy, aligns with Bitter Lesson)"
   ],
   "uncertainties": [],
-  "recommended_probe": "Full transcription warranted. High CANON integration value (CANON-00004, CANON-30400)"
+  "recommended_probe": "Full transcription warranted. High CANON integration value ([[CANON-00004-EVOLUTION-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]])"
 }
 ```
 
@@ -641,7 +641,7 @@ Evidence Packet:
 }
 ```
 
-**Principal Feedback**: "Citation?"
+**Sovereign Feedback**: "Citation?"
 
 **Corrected Evidence Packet**:
 ```json
@@ -667,7 +667,7 @@ Evidence Packet:
 
 **Provides**: Evidence Packets
 **Receives**: Clarification requests when Evidence insufficient
-**Interface**: Principal relay (manual paste for now, API future)
+**Interface**: Sovereign relay (manual paste for now, API future)
 
 **Quality Standard**: Evidence must be sufficient for Deviser to plan without additional sensing
 
@@ -679,13 +679,13 @@ Evidence Packet:
 
 **Use Case**: After execution, Oracle can verify integration by checking repository state
 
-### With Principal
+### With Sovereign
 
 **Role**: Primary interface for sensing requests
 **Interaction Pattern**:
-- Principal asks corpus-scale question
+- Sovereign asks corpus-scale question
 - Oracle produces Evidence Packet
-- Principal pastes to Deviser
+- Sovereign pastes to Deviser
 
 **Future State**: Direct API queries, automated sensing triggers
 

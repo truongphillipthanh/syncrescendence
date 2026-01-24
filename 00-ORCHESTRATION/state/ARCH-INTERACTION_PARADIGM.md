@@ -11,11 +11,11 @@
 
 ### Before (Oracles 0-12)
 ```
-Principal → Claude Web App → Manual Copy → Repository
+Sovereign → Claude Web App → Manual Copy → Repository
          → ChatGPT Web App → Manual Copy → Repository
          → Gemini Web App → Manual Copy → Repository
          
-[Principal is the bus. Every signal flows through manual relay.]
+[Sovereign is the bus. Every signal flows through manual relay.]
 ```
 
 ### After (Oracle 13+)
@@ -34,7 +34,7 @@ REPOSITORY (Ground Truth)
             ↑
             └── Corpus sensing / Video processing / RAG
 
-[Repository is gravitational center. Principal governs, not relays.]
+[Repository is gravitational center. Sovereign governs, not relays.]
 ```
 
 ---
@@ -81,7 +81,7 @@ REPOSITORY (Ground Truth)
 
 **Configuration**:
 - Project: Syncrescendence (with project knowledge)
-- Memory: Enabled (captures Principal context across sessions)
+- Memory: Enabled (captures Sovereign context across sessions)
 - Extended thinking: Enabled for complex analysis
 
 **Anti-Pattern**: Using web app for execution that should happen in CLI. If the output is "run this command," the conversation belongs in Claude Code.
@@ -178,7 +178,7 @@ Your role:
 - Audit Execution Packets against specifications
 - Never execute directly; only specify
 
-You do not have filesystem access. Your outputs are JSON packets that will be saved to the repository blackboard by the Principal or Executor.
+You do not have filesystem access. Your outputs are JSON packets that will be saved to the repository blackboard by the Sovereign or Executor.
 
 Output formats:
 - Plan Packets: JSON with objective, deliverables, acceptance_criteria, stop_conditions
@@ -417,12 +417,12 @@ This is how the Google ecosystem verticals combine to create the civilizational 
 **Phase 2 (Oracle 14-15)**: Semi-Automated
 - IFTTT/Zapier triggers on new YouTube uploads from subscriptions
 - Gemini processes automatically
-- Principal reviews and approves integration
+- Sovereign reviews and approves integration
 
 **Phase 3 (Oracle 16+)**: Autonomous
 - New content detected automatically
 - Triage assigns signal tier without intervention
-- Only paradigm-level signals require Principal attention
+- Only paradigm-level signals require Sovereign attention
 
 ---
 
@@ -435,7 +435,7 @@ This is how the Google ecosystem verticals combine to create the civilizational 
 | Aspect | Before Oracle 13 | After Oracle 13 |
 |--------|------------------|-----------------|
 | Primary execution surface | Web apps | Claude Code CLI |
-| Principal role | Relay bottleneck | Strategic governor |
+| Sovereign role | Relay bottleneck | Strategic governor |
 | Inter-platform communication | Manual copy-paste | Structured packets via blackboard |
 | State management | Implicit (in conversations) | Explicit (state vector + events) |
 | Verification | Claims-based | Commands-based |
@@ -521,7 +521,7 @@ You: "Given this Evidence Packet about new AI model releases, produce a Plan Pac
 ChatGPT: {
   "id": "PLN-20260115-002",
   "objective": "Update capability ledger with new model information",
-  "deliverables": ["capabilities.json updated", "CANON-31150 regenerated"],
+  "deliverables": ["capabilities.json updated", "[[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] regenerated"],
   "acceptance_criteria": [...],
   "stop_conditions": [...]
 }

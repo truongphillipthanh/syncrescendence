@@ -21,7 +21,7 @@
 ## Achievements
 
 ### Infrastructure Stabilization
-- **Fixed CANON-00011 identity collision**: 4 instances of CANON-00007 → CANON-00011
+- **Fixed [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]] identity collision**: 4 instances of [[CANON-00007-EVALUATION-cosmos]] → [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]]
 - **Resolved 10 consistency violations**:
   - Archived 3 .bak files to 05-MEMORY/ledger-backups/
   - Removed duplicate integrate.xml
@@ -59,7 +59,7 @@
 ### CANON Preparation
 - **Audit manifest**: 82 files, 553,785 words, ~3.4MB
 - **Conversion script**: convert_canon.py (tested and working)
-- **Proof-of-concept**: CANON-00002 converted (41% compression)
+- **Proof-of-concept**: [[CANON-00002-LINEAGE-cosmos]] converted (41% compression)
   - Original: 1,908 words, 14,908 characters
   - Converted: 1,122 words, 8,833 characters
   - Semantic preservation: 100%
@@ -87,7 +87,7 @@ Priority queue for next session:
 - [ ] **Hazel automation** implementation (12 rules)
 - [ ] **Keyboard Maestro macros** setup (12 macros)
 - [ ] **n8n workflows** for cross-platform orchestration
-- [ ] **Notion integration** (if approved by Principal)
+- [ ] **Notion integration** (if approved by Sovereign)
 
 ### Medium-Term
 - [ ] **Google Drive sync** automation for transcripts

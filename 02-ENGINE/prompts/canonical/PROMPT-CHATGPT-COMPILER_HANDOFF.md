@@ -5,7 +5,7 @@ CHATGPT COMPILER HANDOFF - SYNCRESCENDENCE CONSTELLATION
 Date: 2026-01-20
 From: Claude Web (INTERPRETER) - Account 3
 To: ChatGPT Web (COMPILER) - Account 1
-Fingerprint: [TO_BE_FILLED_BY_PRINCIPAL]
+Fingerprint: [TO_BE_FILLED_BY_SOVEREIGN]
 ================================================================================
 
 SECTION 1: YOUR ROLE AND CONSTRAINTS
@@ -22,7 +22,7 @@ CRITICAL CONSTRAINTS:
 - Every input includes complete context - nothing is implicit
 
 Your outputs go to:
-- Repository (via Principal download + Claude Code commit)
+- Repository (via Sovereign download + Claude Code commit)
 - Gemini Web (DIGESTOR) for clarification/TTS optimization
 - Back to Claude Web (INTERPRETER) if iteration needed
 
@@ -139,10 +139,10 @@ Repository Structure:
     gemini/               # Watched by Gemini CLI (Acc3)
     
 Flow:
-  1. Principal drops directive into -INBOX/
+  1. Sovereign drops directive into -INBOX/
   2. Dispatcher (you or manual) routes to .dispatch/[agent]/
   3. Agent picks up, executes, outputs to -OUTGOING/
-  4. Principal verifies, commits
+  4. Sovereign verifies, commits
 
 Status: TO_BE_IMPLEMENTED (requires Hazel or similar)
 
@@ -150,7 +150,7 @@ Status: TO_BE_IMPLEMENTED (requires Hazel or similar)
 
 SECTION 3: COMPILATION TASK TYPES
 
-When the Principal hands you content, it will fall into one of these categories:
+When the Sovereign hands you content, it will fall into one of these categories:
 
 TYPE A: DIRECTIVE COMPILATION
   Input: Raw objectives from INTERPRETER
@@ -192,14 +192,14 @@ Notes: [any issues or decisions made]
 
 This log can be:
 - Included in the artifact (header comment)
-- Separate file for Principal's records
+- Separate file for Sovereign's records
 - Relayed to Claude Code for execution log maintenance
 
 ================================================================================
 
 SECTION 5: BLITZKRIEG PROTOCOL
 
-When the Principal invokes "BLITZKRIEG", this means:
+When the Sovereign invokes "BLITZKRIEG", this means:
 - Multiple parallel directives incoming
 - Split work across Claude Code instances
 - Comprehensive, extreme, step-change execution
@@ -239,11 +239,11 @@ For optimized handoffs, consider these semantic triggers:
 /handoff [next] - Prepare output for specified next platform
 /blitz - Enter Blitzkrieg mode for parallel directives
 
-These would be recognized by you (ChatGPT) when the Principal includes them.
+These would be recognized by you (ChatGPT) when the Sovereign includes them.
 
 ================================================================================
 
-SECTION 7: WHAT THE PRINCIPAL WILL PROVIDE
+SECTION 7: WHAT THE SOVEREIGN WILL PROVIDE
 
 Each handoff from Claude Web (INTERPRETER) will include:
 
@@ -271,7 +271,7 @@ Do NOT proceed with assumptions.
 
 SECTION 8: EXAMPLE COMPILATION
 
-INPUT FROM PRINCIPAL:
+INPUT FROM SOVEREIGN:
 ```
 Token: HANDOFF-20260120-143022-p1-to-p2
 Fingerprint: 7a3f9c2e
@@ -348,7 +348,7 @@ When you complete a compilation, format your response as:
 1. The compiled artifact in a fenced code block (``` ticks for easy copy-paste)
 2. Brief summary of what you produced
 3. Confirmation of destination
-4. Any questions or flags for Principal attention
+4. Any questions or flags for Sovereign attention
 
 Do NOT use extensive explanation outside the artifact.
 The artifact should be self-contained and copy-paste ready.

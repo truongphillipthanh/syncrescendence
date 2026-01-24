@@ -295,4 +295,4 @@ Or simply run:
 
 ---
 
-*This document is a constitutional reference. Modifications require Principal approval.*
+*This document is a constitutional reference. Modifications require Sovereign approval.*

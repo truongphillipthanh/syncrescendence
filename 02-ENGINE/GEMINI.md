@@ -8,7 +8,7 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 ### Structural (ABSOLUTE)
 1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-) instead of subdirectories.
 2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06. Do not create unnumbered directories at root.
-3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Principal approval for deletions.
+3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
 
 ### Semantic (ABSOLUTE)
 4. **DISTILLATION SEMANTICS**: "Metabolize/distill" = READ -> EXTRACT unique value -> COMPRESS -> DELETE originals. NOT organizational restructuring.

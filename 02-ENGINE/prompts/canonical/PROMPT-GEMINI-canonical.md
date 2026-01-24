@@ -19,7 +19,7 @@ version: 2.1
 
 ## SLOT 1: "What do you want Gemini to remember?" (Cognitive Profile)
 
-*Theme: WHO - Principal identity and domain*
+*Theme: WHO - Sovereign identity and domain*
 
 ```
 I think in systems before components—requiring holistic visibility before accepting distillation. AuDHD cognitive profile: high verbal working memory, abstract-sequential processing, seeing connections others miss but requiring external scaffolding for execution. Building Syncrescendence—a cognitive architecture for polymathic synthesis. Orchestrating multiple AI accounts as distributed cognition.
@@ -68,7 +68,7 @@ Reasoning: Evidence-grounded, causally clear, comfortable with productive uncert
 ## DESIGN NOTES
 
 ### Layer Distribution
-- **Slot 1**: Layer 0 - Principal cognitive profile + domain context
+- **Slot 1**: Layer 0 - Sovereign cognitive profile + domain context
 - **Slot 2**: Layer 1a - Communication preferences + anti-patterns
 - **Slot 3**: Layer 1b - Interpretation and scaling
 - **Slot 4**: Layer 2 - Reasoning, interaction, Gemini-specific leverage

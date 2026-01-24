@@ -56,7 +56,7 @@ main
 
 1. Each instance creates branches with prefix matching its zone
 2. Merge to `develop` branch after completion
-3. Principal merges `develop` to `main` after verification
+3. Sovereign merges `develop` to `main` after verification
 
 ### Conflict Prevention
 
@@ -141,7 +141,7 @@ Oracle creates:
 
 ### Phase 3: Convergence
 - Each instance creates execution log
-- Principal reviews all logs
+- Sovereign reviews all logs
 - Merge branches to develop
 - Final verification and main merge
 

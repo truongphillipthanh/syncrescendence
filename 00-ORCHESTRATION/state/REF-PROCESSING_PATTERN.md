@@ -173,7 +173,7 @@ Change:
 - `status`: triaged → integrated
 - `date_processed`: YYYY-MM-DD
 - `date_integrated`: YYYY-MM-DD
-- `integrated_into`: CANON-00004,CANON-30400,...
+- `integrated_into`: [[CANON-00004-EVOLUTION-cosmos]],[[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]],...
 - `notes`: Brief processing note
 
 ### 4.2 Update Source Frontmatter
@@ -181,7 +181,7 @@ Change:
 Change:
 - `status`: processed → integrated
 - `date_integrated`: YYYY-MM-DD
-- `integrated_into`: [CANON-00004, CANON-30400]
+- `integrated_into`: [[[CANON-00004-EVOLUTION-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]]
 
 ---
 
@@ -218,8 +218,8 @@ Before marking complete:
 - Method: VALIDATION for Bitter Lesson, ENHANCEMENT for agent architecture
 
 **Step 4**: Update
-- sources.csv: SOURCE-20250926-057 → status=integrated, integrated_into=CANON-00004,CANON-30400
-- Frontmatter: status=integrated, integrated_into=[CANON-00004, CANON-30400]
+- sources.csv: SOURCE-20250926-057 → status=integrated, integrated_into=[[CANON-00004-EVOLUTION-cosmos]],[[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
+- Frontmatter: status=integrated, integrated_into=[[[CANON-00004-EVOLUTION-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]]
 
 ---
 

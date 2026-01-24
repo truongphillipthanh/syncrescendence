@@ -179,7 +179,7 @@ _None yet. First entries will be added after pilot processing._
 
 **MCP Integration Vision**: RSS feed monitor → Qualify (AI assessment of title/description) → Transcribe → Synthesize → Route → Update OPERATIONAL → Notify human for approval
 
-**Human-in-Loop**: All tier movements (QUEUE → OPERATIONAL → REFERENCE) require human approval. Automation proposes, Principal authorizes.
+**Human-in-Loop**: All tier movements (QUEUE → OPERATIONAL → REFERENCE) require human approval. Automation proposes, Sovereign authorizes.
 
 ---
 

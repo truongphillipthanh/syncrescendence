@@ -12,7 +12,7 @@
 ### A. Account Identity
 | Field | Value |
 |-------|-------|
-| **Email** | `[Principal to fill: coherence account email]` |
+| **Email** | `[Sovereign to fill: coherence account email]` |
 | **Chain Alignment** | Insight Chain (Synthesis) |
 | **Guiding Virtues** | Clarity, Synthesis, Elegance |
 | **Primary Function** | Framework development and pattern integration |
@@ -667,9 +667,9 @@ KEY PRINCIPLE: Depth over breadth. Quality utterly dominates quantity.
 
 ---
 
-**CANON-31140 COMPLIANT**
-**CANON-31141 COMPLIANT**
-**CANON-31130 COMPLIANT**
+**[[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
+**[[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
+**[[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
 
 *IIC-Coherence-config.md v1.0.0*
 *Created: 2026-01-09*

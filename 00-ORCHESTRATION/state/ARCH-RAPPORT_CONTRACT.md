@@ -2,7 +2,7 @@
 
 ### Purpose
 
-Reduce instruction ambiguity and cognitive load. If an instruction cannot be executed confidently by the Principal, it is not a valid instruction.
+Reduce instruction ambiguity and cognitive load. If an instruction cannot be executed confidently by the Sovereign, it is not a valid instruction.
 
 ### Format rule
 

@@ -15,14 +15,14 @@ When a directive lands in Claude Code, it contains *what* to do but not *why* th
 
 1. **Auditability gaps** — Future agents can't trace reasoning
 2. **Modification friction** — Claude Code can't intelligently adapt without context
-3. **Principal burden** — User becomes the sole carrier of rationale across the gap
+3. **Sovereign burden** — User becomes the sole carrier of rationale across the gap
 
 ## Design Constraints
 
 - Handoffs must be **self-contained** (receiving agent has no access to originating conversation)
 - Token economics matter (can't embed entire conversation history)
 - Must work across all platform combinations (Claude Web → Claude Code, ChatGPT → Claude Code, Gemini → anywhere)
-- Must be human-legible (Principal reviews everything)
+- Must be human-legible (Sovereign reviews everything)
 
 ## Proposed Solution: Decision Envelope Protocol
 
@@ -58,7 +58,7 @@ selection_rationale: |
 - requires_completion_of: [list of prerequisites]
 - blocks: [list of downstream work waiting on this]
 
-## Principal Checkpoints
+## Sovereign Checkpoints
 - [ ] Reviewed decision rationale
 - [ ] Confirmed assumptions still valid
 - [ ] Approved for execution
@@ -83,15 +83,15 @@ This is acceptable overhead for the auditability gain.
 
 ## Relay Capture Protocol
 
-When the Principal relays between platforms, they should:
+When the Sovereign relays between platforms, they should:
 
 ### Option A: Minimal (Current State + Envelope)
 1. Receiving platform gets the artifact with envelope
-2. Principal adds nothing beyond copy-paste
+2. Sovereign adds nothing beyond copy-paste
 3. Decision context travels in the envelope
 
 ### Option B: Annotated Relay
-1. Principal adds a **Relay Note** when pasting:
+1. Sovereign adds a **Relay Note** when pasting:
    ```
    [RELAY NOTE - 2026-01-20 19:45 PST]
    Relaying from Claude Web (Ajna3 thread). 
@@ -108,7 +108,7 @@ For complex multi-hop handoffs, use a wrapper:
 
 ## Relay Chain
 1. Origin: Claude Web (Ajna3) @ 2026-01-20T03:15:00Z
-2. Relay 1: Principal review @ 2026-01-20T03:20:00Z
+2. Relay 1: Sovereign review @ 2026-01-20T03:20:00Z
    - Modifications: [none | list]
    - Approval: [approved | approved with changes | deferred]
 3. Destination: Claude Code @ 2026-01-20T03:25:00Z
@@ -118,7 +118,7 @@ For complex multi-hop handoffs, use a wrapper:
 - [ ] Supporting context (if any)
 
 ## Relay Annotations
-[Principal's notes that don't belong in the directive itself]
+[Sovereign's notes that don't belong in the directive itself]
 
 ---
 [ENCLOSED ARTIFACT BEGINS BELOW]
@@ -135,7 +135,7 @@ Implement in phases:
 - Producing agents (Claude Web, ChatGPT, Gemini) must populate envelope
 
 ### Phase 2 (Near-term): Relay Notes
-- Principal adopts practice of adding `[RELAY NOTE]` blocks when context warrants
+- Sovereign adopts practice of adding `[RELAY NOTE]` blocks when context warrants
 - Receiving agents trained to look for and log relay notes
 
 ### Phase 3 (When Needed): Structured Relay Packets
@@ -148,11 +148,11 @@ Implement in phases:
 
 2. **Redundant rationale** — If the directive body explains the approach, the envelope shouldn't repeat it. Envelope = *why this approach over others*; Body = *what the approach is*.
 
-3. **Checkpoint theater** — The Principal checkpoints are real gates, not rubber stamps. If Principal doesn't review, don't check the box.
+3. **Checkpoint theater** — The Sovereign checkpoints are real gates, not rubber stamps. If Sovereign doesn't review, don't check the box.
 
 4. **Dependency sprawl** — If a directive has >3 dependencies, it's probably too coupled. Split it.
 
-## Open Questions for Principal Decision
+## Open Questions for Sovereign Decision
 
 1. **Envelope requirement strictness**: Should *all* handoffs require envelopes, or only directives? (Recommendation: directives and canonization decisions require envelopes; simple queries don't)
 
@@ -176,4 +176,4 @@ If this design is approved:
 
 ---
 
-*This document is itself a handoff artifact. It should be reviewed by Principal before implementation begins.*
+*This document is itself a handoff artifact. It should be reviewed by Sovereign before implementation begins.*

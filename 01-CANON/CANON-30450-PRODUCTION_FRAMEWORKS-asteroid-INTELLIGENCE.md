@@ -1,11 +1,11 @@
 ---
-id: CANON-30450
+id: [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]]
 name: Production Frameworks
 identity: PRODUCTION_FRAMEWORKS
 tier: CANON
 type: asteroid
 chain: INTELLIGENCE
-parent: CANON-30400
+parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
 version: 2.0.0
 status: canonical
 created: 2025-12-30
@@ -13,28 +13,42 @@ updated: 2025-12-30
 synopsis: Production agent frameworks, SDK comparisons, MCP/A2A protocols, tool integration, and deployment patterns.
 ---
 
-# CANON-30450: PRODUCTION FRAMEWORKS
-## Intelligence Chain Asteroid
+# CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE (SN Format)
 
-**Parent**: CANON-30400 (Agentic Architecture)
-
----
-
-## PURPOSE
-
-This asteroid provides detailed specifications for production agent frameworks and deployment infrastructure. Where CANON-30400 surveys the framework landscape, this document provides implementation depth for SDK selection, protocol implementation, and production deployment patterns.
+**Note**: This is a Semantic Notation compressed version.
+**Original**: 2,003 words, 17,116 characters
 
 ---
 
-## PART I: FRAMEWORK CONSOLIDATION (2025)
+TERM IntelligenceChainAsteroid:
+    sutra: "Parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)  ---"
+    gloss:
+        **Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
 
-### 1.1 The End of Experimental Toolkits
+---
+end
 
-March through October 2025 witnessed dramatic framework consolidation, ending the era of experimental agent toolkits. Production-ready frameworks with stability commitments replaced research-oriented prototypes.
 
-### 1.2 Major Framework Releases
+TERM PURPOSE:
+    sutra: "This asteroid provides detailed specifications for production agent frameworks and deployment inf..."
+    gloss:
+        This asteroid provides detailed specifications for production agent frameworks and deployment infrastructure. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys the framework landscape, this document provides implementation depth for SDK selection, protocol implementation, and production deployment patterns.
 
-```yaml
+---
+end
+
+
+TERM 11TheEndofExperimentalToolkits:
+    sutra: "March through October 2025 witnessed dramatic framework consolidation, ending the era of experime..."
+    gloss:
+        March through October 2025 witnessed dramatic framework consolidation, ending the era of experimental agent toolkits. Production-ready frameworks with stability commitments replaced research-oriented prototypes.
+end
+
+
+TERM 12MajorFrameworkReleases:
+    sutra: "``yaml Framework_Timeline:   March_2025:     OpenAI_Agents_SDK:       - Replaced experimental Swa..."
+    gloss:
+        ```yaml
 Framework_Timeline:
   March_2025:
     OpenAI_Agents_SDK:
@@ -42,56 +56,25 @@ Framework_Timeline:
       - Four minimal abstractions: Agents, Handoffs, Guardrails, Sessions
       - Provider-agnostic: 100+ LLMs supported
       - Built-in tracing, automatic conversation history
-      - Pydantic-validated function tools
-      - Deployments: Coinbase, Klarna (2/3 of support), Clay (10x growth)
+      - Pydantic-vali...
+end
 
-  April_2025:
-    Google_ADK:
-      - Multi-agent from inception
-      - Hierarchical composition: LLM agents + workflow agents + custom agents
-      - Bidirectional audio-video streaming (v0.2.0)
-      - Native Vertex AI integration
-      - 200+ models via LiteLLM
-      - Native MCP + A2A support
-      - Powers: Agentspace, Customer Engagement Suite
 
-  October_2025:
-    Microsoft_Agent_Framework:
-      - Unified AutoGen + Semantic Kernel
-      - Ends years of fragmentation
-      - Functional agents in <20 lines of code
-      - Microsoft Orleans for event-driven distributed architecture
-      - Azure AI Foundry integration
-      - Python and .NET support
-      - AutoGen and Semantic Kernel enter maintenance mode
-
-  Throughout_2025:
-    LangGraph:
-      - Python v0.6.10 stable
-      - 1.0.0 alpha September 2025
-      - Lowest latency and token usage in benchmarks
-      - February: Supervisor pattern for hierarchical systems
-      - June: Node-level caching, deferred execution
-      - August: Dynamic tool calling, LangSmith trace mode
-```
-
----
-
-## PART II: FRAMEWORK COMPARISON
-
-### 2.1 Architectural Approaches
-
-| Framework | Philosophy | Core Pattern |
+TERM 21ArchitecturalApproaches:
+    sutra: "| Framework | Philosophy | Core Pattern | |-----------|------------|--------------| | LangGraph |..."
+    gloss:
+        | Framework | Philosophy | Core Pattern |
 |-----------|------------|--------------|
 | **LangGraph** | Graph-based stateful DAG | Explicit control, deterministic paths |
 | **OpenAI SDK** | Minimal abstractions | Provider-agnostic simplicity |
-| **Google ADK** | Hierarchical composition | Multi-agent from inception |
-| **Microsoft AF** | Unified enterprise | Azure ecosystem integration |
-| **CrewAI** | Role-based teamwork | Human team simulation |
+| **Google ADK** | Hierarchical composition | Multi-agent...
+end
 
-### 2.2 LangGraph
 
-```yaml
+TERM 22LangGraph:
+    sutra: "``yaml LangGraph:   philosophy: Model agent interactions as stateful, directed graph    character..."
+    gloss:
+        ```yaml
 LangGraph:
   philosophy: Model agent interactions as stateful, directed graph
 
@@ -100,24 +83,14 @@ LangGraph:
     - Human-in-the-loop at any node
     - Explicit control and observability
     - Complex branching and loops supported
-    - Steeper learning curve
-    - More verbose syntax
+    - Steeper learning curve...
+end
 
-  best_for:
-    - Production-grade enterprise workflows
-    - Tasks requiring loops, branching, approval
-    - Lowest latency requirements
-    - Complex conditional branching
 
-  performance:
-    - Lowest latency in benchmarks
-    - Lowest token usage
-    - Predefined deterministic paths minimize LLM invocations
-```
-
-### 2.3 OpenAI Agents SDK
-
-```yaml
+TERM 23OpenAIAgentsSDK:
+    sutra: "``yaml OpenAI_SDK:   philosophy: Minimal abstractions, broad compatibility    abstractions:     -..."
+    gloss:
+        ```yaml
 OpenAI_SDK:
   philosophy: Minimal abstractions, broad compatibility
 
@@ -128,20 +101,14 @@ OpenAI_SDK:
     - Sessions: Context management
 
   characteristics:
-    - Provider-agnostic (100+ LLMs)
-    - Built-in tracing
-    - Automatic conversation history
-    - Pydantic validation
+    - Provider-agnostic (100+ L...
+end
 
-  best_for:
-    - Simplicity priority
-    - Broad model support
-    - Minimal abstractions preferred
-```
 
-### 2.4 Google ADK
-
-```yaml
+TERM 24GoogleADK:
+    sutra: "``yaml Google_ADK:   philosophy: Multi-agent from inception, interoperability leader    compositi..."
+    gloss:
+        ```yaml
 Google_ADK:
   philosophy: Multi-agent from inception, interoperability leader
 
@@ -151,21 +118,14 @@ Google_ADK:
     - Custom agents: User-defined behavior
 
   capabilities:
-    - Bidirectional audio-video streaming
-    - Native Vertex AI integration
-    - 200+ models via LiteLLM
-    - Native MCP + A2A support
+    - Bidirectional audio-video stre...
+end
 
-  best_for:
-    - Multi-model deployments
-    - Interoperability priority
-    - Google Cloud ecosystem
-    - Audio/video agent interactions
-```
 
-### 2.5 Microsoft Agent Framework
-
-```yaml
+TERM 25MicrosoftAgentFramework:
+    sutra: "``yaml Microsoft_AF:   philosophy: Unified enterprise solution    unification:     - AutoGen: Res..."
+    gloss:
+        ```yaml
 Microsoft_AF:
   philosophy: Unified enterprise solution
 
@@ -176,19 +136,14 @@ Microsoft_AF:
 
   architecture:
     - Microsoft Orleans: Event-driven distributed
-    - Azure AI Foundry: Native integration
-    - Cross-platform: Python + .NET
+    - Azure AI Foundr...
+end
 
-  best_for:
-    - Azure ecosystem
-    - Enterprise governance requirements
-    - .NET integration
-    - Existing Microsoft stack
-```
 
-### 2.6 CrewAI
-
-```yaml
+TERM 26CrewAI:
+    sutra: "``yaml CrewAI:   philosophy: Role-based teamwork simulating human teams    model:     - Agents ha..."
+    gloss:
+        ```yaml
 CrewAI:
   philosophy: Role-based teamwork simulating human teams
 
@@ -199,25 +154,14 @@ CrewAI:
     - Human-in-the-loop supported (less granular)
 
   characteristics:
-    - Intuitive and easy to learn
-    - Rapid development for business workflows
-    - Less flexible for cyclical/dynamic tasks
-    - Less explicit orchestration
+    - Intuitive and e...
+end
 
-  best_for:
-    - Business process automation
-    - Marketing, sales, research workflows
-    - Clearly defined roles
-    - Rapid prototyping
-```
 
----
-
-## PART III: PROTOCOL SPECIFICATIONS
-
-### 3.1 Model Context Protocol (MCP)
-
-```yaml
+TERM 31ModelContextProtocolMCP:
+    sutra: "``yaml MCP:   purpose: Universal translation layer between agents and external systems   standard..."
+    gloss:
+        ```yaml
 MCP:
   purpose: Universal translation layer between agents and external systems
   standard: JSON-RPC 2.0-based
@@ -226,28 +170,14 @@ MCP:
   mechanism:
     - Tools and agents implement common interface independently
     - Eliminates N×M integration problem
-    - Standardized schemas for capability discovery
-    - Automatic invocation without hard-coded integration
+    - Standardized...
+end
 
-  june_2025_specification:
-    - OAuth Resource Server classification
-    - RFC 8707 Resource Indicators for token protection
-    - Async operation support
 
-  adoption_timeline:
-    March_2025: OpenAI
-    April_2025: Google DeepMind
-    May_2025: Microsoft Copilot Studio (GA)
-    2025: AWS steering committee
-    IDE: Zed, VS Code, JetBrains
-
-  analogy: "USB-C for AI applications"
-  servers: Thousands available
-```
-
-### 3.2 Agent-to-Agent Protocol (A2A)
-
-```yaml
+TERM 32AgenttoAgentProtocolA2A:
+    sutra: "``yaml A2A:   purpose: Peer agent communication and collaboration   launched: April 2025 by Googl..."
+    gloss:
+        ```yaml
 A2A:
   purpose: Peer agent communication and collaboration
   launched: April 2025 by Google
@@ -258,41 +188,26 @@ A2A:
       - Accenture, BCG, Deloitte, McKinsey, PwC
 
   components:
-    AgentCards: Self-description documents for discovery
-    Task_Lifecycle:
-      states: submitted → working → completed
-    Modality_Negotiation: text, forms, audio, video
+    AgentCards: Self-description documents for...
+end
 
-  version_0.3 (July 2025):
-    - gRPC support
-    - Security card signatures
 
-  governance: Linux Foundation (June 2025)
-
-  framework_support:
-    - LangGraph
-    - ADK
-    - CrewAI
-
-  relationship: Complements MCP
-    MCP: Agent-to-tool interactions
-    A2A: Agent-to-agent collaboration
-```
-
-### 3.3 Additional Protocols
-
-| Protocol | Use Case | Characteristics |
+TERM 33AdditionalProtocols:
+    sutra: "| Protocol | Use Case | Characteristics | |----------|----------|-----------------| | ACP | Manuf..."
+    gloss:
+        | Protocol | Use Case | Characteristics |
 |----------|----------|-----------------|
 | **ACP** | Manufacturing, autonomous vehicles | Low-latency, high-reliability sessions |
 | **ANP** | Decentralized networks | W3C DIDs, JSON-LD graphs |
 
 ---
+end
 
-## PART IV: TOOL INTEGRATION
 
-### 4.1 Anthropic Claude API Updates (May 2025)
-
-```yaml
+TERM 41AnthropicClaudeAPIUpdatesMay2025:
+    sutra: "``yaml Claude_API_Updates:   code_execution_tools:     - Python sandbox for data analysis     - V..."
+    gloss:
+        ```yaml
 Claude_API_Updates:
   code_execution_tools:
     - Python sandbox for data analysis
@@ -306,15 +221,14 @@ Claude_API_Updates:
     - Upload once
     - Reference repeatedly across sessions
 
-  extended_prompt_caching:
-    - 1-hour TTL (12x improvement)
-    - 90% cost reduction
-    - 85% latency reduction
-```
+  ex...
+end
 
-### 4.2 Claude Code (October 2025)
 
-```yaml
+TERM 42ClaudeCodeOctober2025:
+    sutra: "``yaml Claude_Code_Updates:   - Remote MCP server support   - Plugin system packaging:     - Slas..."
+    gloss:
+        ```yaml
 Claude_Code_Updates:
   - Remote MCP server support
   - Plugin system packaging:
@@ -325,10 +239,13 @@ Claude_Code_Updates:
 
   growth: 160% active user base (post Claude 4 launch)
 ```
+end
 
-### 4.3 Tool Integration Architecture
 
-```yaml
+TERM 43ToolIntegrationArchitecture:
+    sutra: "``yaml Tool_Integration:   discovery:     - Capability registry with operations and specs     - S..."
+    gloss:
+        ```yaml
 Tool_Integration:
   discovery:
     - Capability registry with operations and specs
@@ -340,23 +257,14 @@ Tool_Integration:
     - JSON or function-call format
     - Normalized result handling
 
-  reliability:
-    - Automatic retries on failure
-    - Circuit breakers for flaky dependencies
-    - Schema validation for inputs/outputs
+  re...
+end
 
-  benefit: |
-    Standard integration layer means developers don't
-    reinvent error handling for every tool call.
-```
 
----
-
-## PART V: EVALUATION FRAMEWORKS
-
-### 5.1 CLASSic Framework (ICLR 2025)
-
-```yaml
+TERM 51CLASSicFrameworkICLR2025:
+    sutra: "``yaml CLASSic:   source: Aisera   innovation: Beyond accuracy to five critical dimensions    dim..."
+    gloss:
+        ```yaml
 CLASSic:
   source: Aisera
   innovation: Beyond accuracy to five critical dimensions
@@ -369,27 +277,14 @@ CLASSic:
       finding: Domain-specific agents dramatically cheaper
 
     Latency:
-      - End-to-end response time
-      finding: Specialized agents 2.1s vs longer for general
+      - End-to-end response time...
+end
 
-    Accuracy:
-      - Workflow execution correctness
-      finding: Domain-specific 82.7% on IT ops
 
-    Stability:
-      - Consistency across diverse inputs
-      finding: Specialized agents 72% stability
-
-    Security:
-      - Resilience to adversarial inputs
-      status: Increasingly critical
-
-  validation: Specialized agents outperform across all five dimensions
-```
-
-### 5.2 Trajectory Evaluation (Vertex AI)
-
-```yaml
+TERM 52TrajectoryEvaluationVertexAI:
+    sutra: "``yaml Trajectory_Evaluation:   source: Google Cloud (January 2025)   focus: Reasoning quality ov..."
+    gloss:
+        ```yaml
 Trajectory_Evaluation:
   source: Google Cloud (January 2025)
   focus: Reasoning quality over final answers
@@ -398,31 +293,26 @@ Trajectory_Evaluation:
     exact_match: Perfect action sequence
     in_order_match: Correct sequence with possible extra steps
     tool_correctness: Appropriate tool selection
-    tool_efficiency: Minimize unnecessary calls
-    reasoning_quality: Step-by-step logic
-    error_recovery: Adaptation to feedback
+    tool_efficiency:...
+end
 
-  benefit: Identify where agents succeed or fail in multi-step processes
-```
 
-### 5.3 Benchmark Ecosystem
-
-| Benchmark | Focus | Scope |
+TERM 53BenchmarkEcosystem:
+    sutra: "| Benchmark | Focus | Scope | |-----------|-------|-------| | AgentBench | LLM-as-Agent reasoning..."
+    gloss:
+        | Benchmark | Focus | Scope |
 |-----------|-------|-------|
 | **AgentBench** | LLM-as-Agent reasoning | 8 environments, 5-50 turns |
 | **WebArena** | Web tasks | 812 templated tasks |
 | **GAIA** | General AI assistants | 466 human-annotated tasks |
-| **BrowseComp** | Information retrieval | Complex multi-site research |
-| **SWE-bench** | GitHub issue resolution | Real software engineering |
-| **OSWorld** | OS-level tasks | Extremely challenging (5% best) |
+| **BrowseComp** | Information retrieval | Complex...
+end
 
----
 
-## PART VI: PRODUCTION DEPLOYMENT PATTERNS
-
-### 6.1 Enterprise Adoption (Stack Overflow 2025)
-
-```yaml
+TERM 61EnterpriseAdoptionStackOverflow2025:
+    sutra: "``yaml Adoption_Patterns:   orchestration_tools:     Ollama: 51%     LangChain: 33%    memory_dat..."
+    gloss:
+        ```yaml
 Adoption_Patterns:
   orchestration_tools:
     Ollama: 51%
@@ -443,15 +333,14 @@ Adoption_Patterns:
 
   active_users: 48%
 
-  impact:
-    reduced_time: 70%
-    productivity: 69%
-    collaboration: 17% (lowest)
-```
+  impac...
+end
 
-### 6.2 Deployment Infrastructure
 
-```yaml
+TERM 62DeploymentInfrastructure:
+    sutra: "``yaml Deployment_Stack:   observability:     - OpenTelemetry traces     - Prompt logging     - T..."
+    gloss:
+        ```yaml
 Deployment_Stack:
   observability:
     - OpenTelemetry traces
@@ -463,35 +352,25 @@ Deployment_Stack:
   tracing:
     - Correlation IDs across subagents
     - End-to-end request tracking
-    - Latency breakdowns
+    - Latency breakdowns...
+end
 
-  monitoring:
-    - Real-time dashboards (Phoenix, GALILEO)
-    - Anomaly detection
-    - Automated rollbacks
 
-  deployment:
-    - Feature flags for gradual rollout
-    - Stage environments
-    - A/B testing capability
-```
-
-### 6.3 Failure Patterns and Mitigations
-
-| Pattern | Cause | Mitigation |
+TERM 63FailurePatternsandMitigations:
+    sutra: "| Pattern | Cause | Mitigation | |---------|-------|------------| | Over-engineering | 18-month b..."
+    gloss:
+        | Pattern | Cause | Mitigation |
 |---------|-------|------------|
 | Over-engineering | 18-month builds launching obsolete | Iterative deployment |
 | State mismanagement | Duplicate processing, data loss | Explicit state architecture |
-| Poor handoff design | Customer confusion, abandonment | Clear transition protocols |
-| Distribution shift | Benchmark ≠ production | Realistic test environments |
+| Poor handoff design | Customer confusion, abandonment | Clear t...
+end
 
----
 
-## PART VII: FRAMEWORK SELECTION GUIDE
-
-### 7.1 Decision Matrix
-
-```yaml
+TERM 71DecisionMatrix:
+    sutra: "``yaml Selection_Guide:   raw_performance:     choose: LangGraph     reason: Lowest latency, lowe..."
+    gloss:
+        ```yaml
 Selection_Guide:
   raw_performance:
     choose: LangGraph
@@ -503,24 +382,14 @@ Selection_Guide:
 
   azure_ecosystem:
     choose: Microsoft Agent Framework
-    reason: Native integration, enterprise governance
+    reason: Native integration, enterprise...
+end
 
-  multi_model_interop:
-    choose: Google ADK
-    reason: MCP + A2A native, 200+ models
 
-  simplicity_first:
-    choose: OpenAI SDK
-    reason: Minimal abstractions, broad support
-
-  complex_branching:
-    choose: LangGraph
-    reason: Explicit control, hierarchical structures
-```
-
-### 7.2 Migration Considerations
-
-```yaml
+TERM 72MigrationConsiderations:
+    sutra: "``yaml Migration_Notes:   from_AutoGen:     path: Microsoft Agent Framework     timeline: AutoGen..."
+    gloss:
+        ```yaml
 Migration_Notes:
   from_AutoGen:
     path: Microsoft Agent Framework
@@ -530,20 +399,14 @@ Migration_Notes:
   from_Semantic_Kernel:
     path: Microsoft Agent Framework
     timeline: Semantic Kernel enters maintenance mode
-    action: Evaluate new Agent Framework API surface
+    action:...
+end
 
-  from_experimental_tools:
-    path: Any production framework
-    action: Assess stability commitments before selection
-```
 
----
-
-## PART VIII: INDUSTRY DEPLOYMENTS
-
-### 8.1 Financial Services
-
-```yaml
+TERM 81FinancialServices:
+    sutra: "``yaml Financial_Deployments:   JPMorgan_COIN:     scope: 50,000+ commercial agreements annually ..."
+    gloss:
+        ```yaml
 Financial_Deployments:
   JPMorgan_COIN:
     scope: 50,000+ commercial agreements annually
@@ -554,13 +417,14 @@ Financial_Deployments:
     adoption: 75% of equity trades
     capabilities: ESG compliance, crypto arbitrage
 
-  Cybersecurity:
-    Darktrace_Antigena: Autonomous threat detection/neutralization (milliseconds)
-```
+  C...
+end
 
-### 8.2 Healthcare
 
-```yaml
+TERM 82Healthcare:
+    sutra: "``yaml Healthcare_Deployments:   Seattle_Children:     function: Process clinical notes, literatu..."
+    gloss:
+        ```yaml
 Healthcare_Deployments:
   Seattle_Children:
     function: Process clinical notes, literature, images
@@ -570,14 +434,14 @@ Healthcare_Deployments:
     function: Patient data extraction from documents
 
   Microsoft_Cancer_Care:
-    challenge: <1% of patients access multidisciplinary care
-    solution: Multi-agent coordination
-    result: Hours of prep → minutes of automation
-```
+    challenge: <1% of patients access multidi...
+end
 
-### 8.3 Technology
 
-```yaml
+TERM 83Technology:
+    sutra: "``yaml Technology_Deployments:   Netlify_Agent_Runners (October 2025):     - Claude Code, Codex, ..."
+    gloss:
+        ```yaml
 Technology_Deployments:
   Netlify_Agent_Runners (October 2025):
     - Claude Code, Codex, Gemini integration
@@ -588,21 +452,21 @@ Technology_Deployments:
     - Deep Research integration
 
   Salesforce_Agentforce:
-    - 70% tier-1 support automation
-    - 2025 launch
-```
+    - 70% tier-1 s...
+end
 
----
 
-## PART IX: THE GEN AI PARADOX
+TERM 91TheProblem:
+    sutra: "> 78% of companies deploy agents"
+    gloss:
+        > **78% of companies deploy agents. 80% report no material earnings impact.**
+end
 
-### 9.1 The Problem
 
-> **78% of companies deploy agents. 80% report no material earnings impact.**
-
-### 9.2 The Resolution
-
-```yaml
+TERM 92TheResolution:
+    sutra: "``yaml Paradox_Resolution:   horizontal_copilots:     - Easily deployed     - Task assistance acr..."
+    gloss:
+        ```yaml
 Paradox_Resolution:
   horizontal_copilots:
     - Easily deployed
@@ -614,27 +478,14 @@ Paradox_Resolution:
     - Function-specific process transformation
     - High organizational impact
     - Stuck in pilots
-    - Requires CEO-led initiatives
+    -...
+end
 
-  successful_examples:
-    Northwestern_Mutual: Insurance underwriting automation
-    Teladoc_Health: Virtual care coordination
-    AXA: Claims processing reinvention
 
-  success_requirements:
-    - CEO-led strategic programs
-    - Cross-functional transformation squads
-    - Process reinvention (not task automation)
-    - Industrialized delivery
-```
-
----
-
-## PART X: FORWARD TRAJECTORY
-
-### 10.1 Upcoming Releases
-
-```yaml
+TERM 101UpcomingReleases:
+    sutra: "``yaml Upcoming:   November_2025:     MCP_Specification:       - Enhanced async operation support..."
+    gloss:
+        ```yaml
 Upcoming:
   November_2025:
     MCP_Specification:
@@ -645,17 +496,14 @@ Upcoming:
   Q1_2026:
     Microsoft_Agent_Framework_GA:
       - Production stability commitments
-      - End of breaking changes era
+      - End of breaking changes era...
+end
 
-  Q2_2025:
-    Semantic_Kernel_Process_Framework_GA:
-      - Long-running business processes
-      - Dapr and Orleans integration
-```
 
-### 10.2 Trajectory Summary
-
-```yaml
+TERM 102TrajectorySummary:
+    sutra: "``yaml Trajectory:   protocols:     - MCP + A2A as dual interoperability standards     - Linux Fo..."
+    gloss:
+        ```yaml
 Trajectory:
   protocols:
     - MCP + A2A as dual interoperability standards
@@ -665,25 +513,24 @@ Trajectory:
   architectures:
     - Multi-agent as default (not single-agent)
     - Specialists over generalists
-    - Hybrid hub-spoke with mesh
+    - Hyb...
+end
 
-  operational:
-    - Observability, security, cost efficiency differentiate
-    - Feature proliferation → operational excellence
-    - Test-first, continuous monitoring
-```
 
----
-
-## SATELLITES
-
-None. This is a leaf asteroid.
+TERM SATELLITES:
+    sutra: "None"
+    gloss:
+        None. This is a leaf asteroid.
 
 ---
+end
 
-## VERSION HISTORY
 
-**Version 1.0.0** (December 2025): Genesis establishment
+TERM VERSIONHISTORY:
+    sutra: "Version 1.0.0 (December 2025): Genesis establishment - Canonized from Technology Lunar - Agents.m..."
+    gloss:
+        **Version 1.0.0** (December 2025): Genesis establishment
 - Canonized from Technology Lunar - Agents.md
 - Production frameworks documented
 - Protocol specifications detailed
+end

@@ -8,14 +8,14 @@
 
 ## 1. RECEPTION CALIBRATION PROMPTS
 
-These prompts configure platform behavior for general interaction with the Principal.
+These prompts configure platform behavior for general interaction with the Sovereign.
 
 | File | Platform | Purpose | Status |
 |------|----------|---------|--------|
-| PROMPT-CHATGPT-canonical.md | ChatGPT | Principal cognitive profile + response calibration | ACTIVE |
-| PROMPT-CLAUDE-canonical.md | Claude | Principal preferences + extended thinking guidance | ACTIVE |
-| PROMPT-GEMINI-canonical.md | Gemini | 4-slot deployment for Principal interaction | ACTIVE |
-| PROMPT-GROK-canonical.md | Grok | Principal calibration (backup platform) | ACTIVE |
+| PROMPT-CHATGPT-canonical.md | ChatGPT | Sovereign cognitive profile + response calibration | ACTIVE |
+| PROMPT-CLAUDE-canonical.md | Claude | Sovereign preferences + extended thinking guidance | ACTIVE |
+| PROMPT-GEMINI-canonical.md | Gemini | 4-slot deployment for Sovereign interaction | ACTIVE |
+| PROMPT-GROK-canonical.md | Grok | Sovereign calibration (backup platform) | ACTIVE |
 
 ---
 

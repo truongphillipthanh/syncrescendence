@@ -50,4 +50,4 @@ Checking for valid SN block types (TERM, NORM, PROC, TEST, ARTIFACT)...
 
 1. Review Gemini audit for semantic validation
 2. Manual review of files with <20% compression
-3. Principal approval before replacing originals
+3. Sovereign approval before replacing originals

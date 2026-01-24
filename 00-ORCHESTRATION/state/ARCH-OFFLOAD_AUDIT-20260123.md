@@ -119,7 +119,7 @@ Archive is already compressed. No immediate offload needed.
 6. Update .gitignore to exclude future .txt in raw/
 
 ### Phase 2: Queue Triage (Deferred)
-- Requires Principal decision on modal2 items
+- Requires Sovereign decision on modal2 items
 - Not urgent (only 96K)
 
 ### Phase 3: Archive Management (Future)
@@ -168,4 +168,4 @@ These manifests can be used for upload automation and verification.
 
 ---
 
-**Status**: Audit complete. Offload plan ready for execution pending Principal approval.
+**Status**: Audit complete. Offload plan ready for execution pending Sovereign approval.

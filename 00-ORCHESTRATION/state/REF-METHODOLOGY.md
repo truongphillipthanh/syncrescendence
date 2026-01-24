@@ -37,13 +37,13 @@ ORACLE SESSION = Sprint
 ### Sprint Review (Oracle Culmination)
 **Function**: Product validation - "Are we building the right thing?"
 **Focus**: Deliverables, outcomes, CANON quality
-**Participants**: Principal + Oracle
+**Participants**: Sovereign + Oracle
 **Output**: Updated backlog, validated deliverables
 
 ### Sprint Retrospective (Oracle Init)
 **Function**: Process optimization - "Are we building it right?"
 **Focus**: Methodology, efficiency, bottleneck removal
-**Participants**: Principal + Oracle (informed by execution logs)
+**Participants**: Sovereign + Oracle (informed by execution logs)
 **Output**: Process improvements, methodology refinements
 
 ---
@@ -78,7 +78,7 @@ All significant decisions evaluated against 18 lenses. Key lenses for methodolog
 
 | Lens | Methodology Implication |
 |------|------------------------|
-| #12 Industrial Engineering | Identifies bottleneck (Principal relay) |
+| #12 Industrial Engineering | Identifies bottleneck (Sovereign relay) |
 | #14 Permaculture | Self-sustaining patterns via automation |
 | #16 Agile | Minimum viable increments |
 | #17 Lean | Waste elimination |

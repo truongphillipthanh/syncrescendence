@@ -391,7 +391,7 @@
 │   │   ├── tasks.csv.bak
 │   │   └── tasks.csv.bak.1767947262
 │   └── templates
-│       └── CANON-31150.md.j2
+│       └── [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2
 ├── 01-CANON
 │   ├── CANON-00000-SCHEMA-cosmos.md
 │   ├── CANON-00001-ORIGIN-cosmos.md

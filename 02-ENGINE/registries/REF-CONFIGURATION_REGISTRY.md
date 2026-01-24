@@ -187,7 +187,7 @@
 
 | state_id | state_name | location | characteristic | terminal |
 |----------|------------|----------|----------------|----------|
-| 1 | CAPTURED | principal_mind | unstructured_ephemeral | FALSE |
+| 1 | CAPTURED | sovereign_mind | unstructured_ephemeral | FALSE |
 | 2 | INTERPRETED | claude_web_artifact | structured_understanding | FALSE |
 | 3 | COMPILED | chatgpt_canvas | formatted_artifact | FALSE |
 | 4 | DIGESTED | gemini_docs | clarified_summary | FALSE |

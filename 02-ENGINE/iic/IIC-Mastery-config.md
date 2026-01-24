@@ -12,7 +12,7 @@
 ### A. Account Identity
 | Field | Value |
 |-------|-------|
-| **Email** | `[Principal to fill: mastery account email]` |
+| **Email** | `[Sovereign to fill: mastery account email]` |
 | **Chain Alignment** | Knowledge Chain (Teaching) |
 | **Guiding Virtues** | Clarity, Precision, Accessibility |
 | **Primary Function** | Transform expertise into transmissible knowledge |
@@ -375,7 +375,7 @@ Before publishing ANY teaching material:
 **Output Format**: Public teaching content
 **Channels**: Substack, YouTube, GitHub, Documentation sites
 **Purpose**: Share Syncrescendence methodologies, attract collaborators
-**Governance**: All external content reviewed by Principal before publication
+**Governance**: All external content reviewed by Sovereign before publication
 
 ---
 

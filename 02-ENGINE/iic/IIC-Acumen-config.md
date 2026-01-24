@@ -12,7 +12,7 @@
 ### A. Account Identity
 | Field | Value |
 |-------|-------|
-| **Email** | `[Principal to fill: acumen account email]` |
+| **Email** | `[Sovereign to fill: acumen account email]` |
 | **Chain Alignment** | Information Chain (Sensing) |
 | **Guiding Virtues** | Perspicacity, Astuteness, Discernment |
 | **Primary Function** | Strategic reconnaissance and intelligence mediation |
@@ -527,9 +527,9 @@ KEY PRINCIPLE: Transform information deluge into actionable intelligence.
 
 ---
 
-**CANON-31140 COMPLIANT**
-**CANON-31141 COMPLIANT**
-**CANON-31130 COMPLIANT**
+**[[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
+**[[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
+**[[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
 
 *IIC-Acumen-config.md v1.0.0*
 *Created: 2026-01-09*

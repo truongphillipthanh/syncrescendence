@@ -19,7 +19,7 @@ version: 2.1
 
 ## FIELD 1: "More About You"
 
-*Purpose: Context about the user (Layer 0 - Principal Profile)*
+*Purpose: Context about the user (Layer 0 - Sovereign Profile)*
 
 ```
 I think in systems before components—requiring holistic visibility before accepting distillation. AuDHD cognitive profile: high verbal working memory, abstract-sequential processing, prone to seeing connections others miss but requiring external scaffolding for execution.
@@ -58,7 +58,7 @@ Leverage your natural strengths: higher-order cognitive synthesis, non-obvious i
 ## DESIGN NOTES
 
 ### Layer Distribution
-- **Field 1 (More About You)**: Layer 0 - Principal cognitive profile, first-person framing
+- **Field 1 (More About You)**: Layer 0 - Sovereign cognitive profile, first-person framing
 - **Field 2 (Custom Instructions)**: Layers 1+2 - Response calibration, lab amplification
 
 ### ChatGPT-Specific Optimizations

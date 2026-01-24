@@ -90,5 +90,7 @@ TASK-091,PROJ-012,Add model routing to coordination.yaml,task,done,P2,Claude_Cod
 TASK-095,PROJ-016,Create intentions.md Skill,skill,done,P2,Claude_Code_3,null,0.5,0.5,2026-01-12,2026-01-12,Blitzkrieg 45 - Intention extraction skill
 TASK-096,PROJ-016,Create pedigree.md Skill,skill,done,P2,Claude_Code_3,TASK-095,0.5,0.5,2026-01-12,2026-01-12,Blitzkrieg 45 - Oracle pedigree skill
 TASK-097,PROJ-012,Resolve INT-1210-1213 per Tech Tree Audit,task,done,P2,Claude_Code_2,null,0.25,0.25,2026-01-12,2026-01-12,Blitzkrieg 45 - All 4 intentions marked resolved based on ARCH-TECH_TREE_AUDIT.md and DIRECTIVE-044B
-TASK-098,PROJ-001,CANON SN Conversion (bulk) - Lane A,task,done,P0,Claude_Code,null,1.5,1.0,2026-01-23,2026-01-23,82 CANON files converted to SN drafts. 53% compression (348K→164K words). Awaiting Gemini audit + Principal approval.
-TASK-099,PROJ-001,CANON SN Conversion - Gemini Audit,task,pending,P0,Gemini_CLI,TASK-098,2.0,null,2026-01-23,2026-01-23,Deep sensing audit: redundancy detection + monolith splits + SN validation. Handoff packet ready.
+TASK-098,PROJ-001,CANON SN Conversion (bulk) - Lane A,task,done,P0,Claude_Code,null,1.5,1.0,2026-01-23,2026-01-23,82 CANON files converted to SN drafts. 53% compression (348K→164K words).
+TASK-099,PROJ-001,CANON SN Audit + Finalization,task,done,P0,Claude_Code,TASK-098,1.5,1.0,2026-01-23,2026-01-24,Claude takeover from Gemini. SN finalized. Originals backed to 05-MEMORY/canon-pre-sn/.
+TASK-100,PROJ-001,Sovereign Terminology Cascade,task,done,P0,Claude_Code,null,0.25,0.25,2026-01-24,2026-01-24,Principal → Sovereign throughout corpus. Philosophical alignment.
+TASK-101,PROJ-001,Obsidian Backlinks Implementation,task,done,P2,Claude_Code,null,0.5,0.5,2026-01-24,2026-01-24,Fixed script. Added [[CANON-XXXXX]] wiki-links across CANON ENGINE ORCHESTRATION.

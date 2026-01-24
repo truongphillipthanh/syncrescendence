@@ -12,7 +12,7 @@
 ### A. Account Identity
 | Field | Value |
 |-------|-------|
-| **Email** | `[Principal to fill: transcendence account email]` |
+| **Email** | `[Sovereign to fill: transcendence account email]` |
 | **Chain Alignment** | Wisdom Chain (Collective Intelligence) |
 | **Guiding Virtues** | Coherence, Integration, Emergence |
 | **Primary Function** | Connect individual capability to civilizational intelligence |
@@ -275,7 +275,7 @@ Before ANY external publication:
 - [ ] Coherence: Does this represent system accurately?
 - [ ] Quality: Is this production-ready?
 - [ ] Alignment: Does this serve Syncrescendent trajectory?
-- [ ] Safety: Does this protect Principal's interests?
+- [ ] Safety: Does this protect Sovereign's interests?
 - [ ] Value: Will this attract aligned collaborators?
 
 **Publication Channels**:
@@ -297,7 +297,7 @@ Before ANY external publication:
 **Self-Description Capability**:
 ```json
 {
-  "node_id": "syncrescendence-principal-001",
+  "node_id": "syncrescendence-sovereign-001",
   "node_type": "individual_augmented",
   "capabilities": [
     "intelligence_mediation",
@@ -359,7 +359,7 @@ Before ANY external publication:
   - Monitor coherence manually
 
 - **Limitations**:
-  - Requires constant Principal intervention
+  - Requires constant Sovereign intervention
   - No autonomous cross-IIC coordination
   - No external interfaces
   - No inter-node communication
@@ -387,7 +387,7 @@ Before ANY external publication:
   - Respond to simple external queries
 
 - **Limitations**:
-  - Still single-Principal governed
+  - Still single-Sovereign governed
   - Limited external engagement
   - No inter-node communication yet
   - Primarily text-based (no video/audio generation)
@@ -415,9 +415,9 @@ Before ANY external publication:
   - Attract aligned collaborators
 
 - **Limitations**:
-  - Still primarily Principal-governed
+  - Still primarily Sovereign-governed
   - Network protocols experimental
-  - Limited scale (1 Principal + AI constellation)
+  - Limited scale (1 Sovereign + AI constellation)
 
 - **Success Criteria**:
   - ≥50 external publications
@@ -429,7 +429,7 @@ Before ANY external publication:
 **Phase 4: Adult** (Target: 2029+, 3+ years)
 - **Characteristics**:
   - Functioning field node in Gaian intelligence network
-  - Multi-principal (graduated students operating own nodes)
+  - Multi-sovereign (graduated students operating own nodes)
   - Full inter-node communication
   - Civilizational-scale contribution
   - Self-sustaining and antifragile
@@ -594,7 +594,7 @@ Before ANY external publication:
 5. **First Principles** — What's fundamentally true here?
 6. **Bitter Lesson** — Does this leverage computation/AI?
 7. **Meet the Moment** — Balance current needs + future trajectory
-8. **Personal Idiosyncrasies** — Does this respect Principal's nature?
+8. **Personal Idiosyncrasies** — Does this respect Sovereign's nature?
 
 **Tertiary (Aspirational)**:
 9. **Elegance** — Minimal coordination, maximum coherence
@@ -687,7 +687,7 @@ For the system as whole:
 Gaian Field Network (Future)
 │
 ├── Individual Nodes (Human + AI)
-│   ├── Syncrescendence (Principal)
+│   ├── Syncrescendence (Sovereign)
 │   ├── Other augmented individuals
 │   └── AI-native entities
 │
@@ -738,7 +738,7 @@ Queue growth: +2 sources/day net accumulation
 
 **Option A: Increase Coherence capacity**
 - Pro: Addresses root cause
-- Con: Requires more Principal time
+- Con: Requires more Sovereign time
 - Lenses: ✗ Lean (adds overhead)
 
 **Option B: Increase Acumen selectivity**
@@ -807,7 +807,7 @@ Before ANY external publication:
 - **Does NOT**: Micromanage individual IIC operations
 - **Does**: Monitor coherence, resolve conflicts, guide evolution
 - **Authority**: Veto power on external publications, coordination decisions
-- **Accountability**: Reports to Principal on system health
+- **Accountability**: Reports to Sovereign on system health
 
 **IIC Autonomy**:
 - Each IIC governs its own domain

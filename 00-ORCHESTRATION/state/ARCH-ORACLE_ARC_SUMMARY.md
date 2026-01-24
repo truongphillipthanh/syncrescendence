@@ -67,8 +67,8 @@ Oracle7 — Ground Truth (ruthless forge, documentation protocol)
 **Focus**: Memory architecture, context engineering, multi-IIC coordination
 
 **Key Contributions**:
-- CANON-25000 (Memory Architecture)
-- CANON-25100 (Context Transition Protocol)
+- [[CANON-25000-MEMORY_ARCH-lattice]] (Memory Architecture)
+- [[CANON-25100-CONTEXT_TRANS-lattice]] (Context Transition Protocol)
 - Seven-stratum memory model
 - IIC-specific memory profiles
 - Cross-platform synchronization concepts
@@ -96,7 +96,7 @@ Oracle7 — Ground Truth (ruthless forge, documentation protocol)
 **Key Contributions**:
 - System prompts v2.1 deployed across all platforms
 - Reception Calibration paradigm (replacing Archetype Engineering)
-- Three-layer prompt architecture (Principal Profile / Reception Calibration / Lab Amplification)
+- Three-layer prompt architecture (Sovereign Profile / Reception Calibration / Lab Amplification)
 - 20-function metaprompt library systematized
 - 5 Claude Skills created
 - **ORCHESTRATION INFRASTRUCTURE ESTABLISHED**
@@ -114,11 +114,11 @@ orchestration/
 
 **The Visibility Flow**:
 ```
-Oracle issues directive → Principal relays (in ticks) → Claude executes
+Oracle issues directive → Sovereign relays (in ticks) → Claude executes
                                                               ↓
                                     Saves report to orchestration/execution_logs/
                                                               ↓
-                                    Principal relays report → Oracle integrates
+                                    Sovereign relays report → Oracle integrates
 ```
 
 **Why It Worked**:
@@ -231,7 +231,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 
 **Critical Decisions**:
 - Maximum resolution documentation
-- Directives must include Principal's words, Oracle's interpretation, alternatives, rationale
+- Directives must include Sovereign's words, Oracle's interpretation, alternatives, rationale
 - Claudes need full decision context
 - Repository is Foyer — all context accessible
 

@@ -62,7 +62,7 @@ Historical lineage and accumulated decisions. Contains:
 
 Snapshot or reference to `ARCH-INTENTION_COMPASS.md` and `DYN-BACKLOG.md`.
 
-**Purpose**: Grounds execution in Principal's intentions.
+**Purpose**: Grounds execution in Sovereign's intentions.
 
 ### 4. DIRECTIVES (`directive-A.md`, `directive-B.md`, `directive-C.md`)
 
@@ -318,7 +318,7 @@ Audio scripts in `07_audio/` must strictly follow `audizer.md`:
 **Input (markdown)**:
 ```markdown
 ## Lane A: Strategic Architecture
-- **Completed**: CANON-25200 update
+- **Completed**: [[CANON-25200-CONSTELLATION_ARCH-lattice]] update
 - Remaining: Cross-IIC testing
 ```
 
@@ -449,4 +449,4 @@ Required: Lane, Toolchain, Model, Thinking, Success_Criteria, Inputs, Outputs
 
 ---
 
-*This document is a constitutional reference. Modifications require Principal approval.*
+*This document is a constitutional reference. Modifications require Sovereign approval.*

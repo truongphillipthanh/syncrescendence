@@ -19,7 +19,7 @@ This document establishes the synchronization protocol for coordinating multiple
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                 SOVEREIGN FILE SYSTEM                        │
-│              (Git-versioned, Principal-controlled)           │
+│              (Git-versioned, Sovereign-controlled)           │
 │  ┌─────────────────────────────────────────────────────┐    │
 │  │  ~/syncrescendence/                                  │    │
 │  │  ├── 01-CANON/          (canonical knowledge)        │    │
@@ -42,7 +42,7 @@ This document establishes the synchronization protocol for coordinating multiple
 │                               ▼                              │
 │                    ┌─────────────────────┐                   │
 │                    │   Human Operator    │                   │
-│                    │   (Principal)       │                   │
+│                    │   (Sovereign)       │                   │
 │                    └─────────────────────┘                   │
 └─────────────────────────────────────────────────────────────┘
 ```

@@ -9,10 +9,10 @@
 ## GOVERNING PRINCIPLE
 
 > *"The Claudes have no visibility into our decisions. The repository was supposed to be a Foyer, where all context is accessible."*
-> — Principal, Oracle7
+> — Sovereign, Oracle7
 
 This document exists because context engineering failed. Every decision must be documented with:
-- Principal's actual words (quoted)
+- Sovereign's actual words (quoted)
 - Oracle's interpretation
 - Alternatives considered
 - Rationale (18-lens evaluation)
@@ -23,7 +23,7 @@ This document exists because context engineering failed. Every decision must be 
 ## ORACLE0: VISION (December 2025)
 
 ### Decision 0.1: Civilizational Sensing Infrastructure
-**Principal's Words**:
+**Sovereign's Words**:
 > "Skate to where the puck is going and leverage The Bitter Lesson to engineer in antifragility."
 
 **Oracle's Interpretation**: Syncrescendence is not personal productivity tooling—it's civilizational infrastructure for navigating phase transition. Design for AI advancement, not against it.
@@ -40,7 +40,7 @@ This document exists because context engineering failed. Every decision must be 
 ---
 
 ### Decision 0.2: Five-Chain IIC Architecture
-**Principal's Words**: [Established pre-Oracle in corpus]
+**Sovereign's Words**: [Established pre-Oracle in corpus]
 
 **Oracle's Interpretation**: Five Identity-Intelligence Complexes (Acumen, Coherence, Efficacy, Mastery, Transcendence) each with specialized cognitive function, distributed across AI accounts.
 
@@ -57,22 +57,22 @@ This document exists because context engineering failed. Every decision must be 
 ## ORACLE1: RESEARCH (December 2025)
 
 ### Decision 1.1: Ecosystem Cartography Focus
-**Principal's Words**:
+**Sovereign's Words**:
 > "Consumer/prosumer focus specification... exclude enterprise-only tools."
 
 **Oracle's Interpretation**: Map the AI ecosystem for individual practitioners, not enterprise deployments. Focus on accessible tools with minimal friction.
 
 **Alternatives Considered**:
-1. Enterprise focus — Rejected (not Principal's context)
+1. Enterprise focus — Rejected (not Sovereign's context)
 2. API-only focus — Rejected (too technical)
 3. Consumer/prosumer accessible — CHOSEN
 
-**Rationale**: Meet the Moment (lens 4)—the Principal operates as individual, not enterprise.
+**Rationale**: Meet the Moment (lens 4)—the Sovereign operates as individual, not enterprise.
 
 ---
 
 ### Decision 1.2: Multi-Platform Strategy
-**Principal's Words**: [Implicit in IIC architecture]
+**Sovereign's Words**: [Implicit in IIC architecture]
 
 **Oracle's Interpretation**: Distribute cognition across Claude, ChatGPT, Gemini, Grok—each with specialized configuration.
 
@@ -83,7 +83,7 @@ This document exists because context engineering failed. Every decision must be 
 ## ORACLE2: INFRASTRUCTURE (December 2025)
 
 ### Decision 2.1: Flat + Symlink Architecture
-**Principal's Words**:
+**Sovereign's Words**:
 > "Human navigation: Comprehensible in 5 minutes via Obsidian"
 > "CLI conduciveness: Easy to glob, grep, find"
 > "Platform universality: Navigable by any AI system"
@@ -107,7 +107,7 @@ This document exists because context engineering failed. Every decision must be 
 ---
 
 ### Decision 2.2: Context Engineering Protocol
-**Principal's Words**:
+**Sovereign's Words**:
 > "With the recent advancements in Claude's Memory architecture, even having Project-specific memories, I think it's necessary to reimagine this protocol."
 
 **Oracle's Interpretation**: Thread history is primary context source in webapp mode. Project Files are reference, not primary. Memory layers stack: Constitutional → Preferences → Accumulated → Project → Canonical → Thread → Tool-Extended.
@@ -119,7 +119,7 @@ This document exists because context engineering failed. Every decision must be 
 ## ORACLE3: ORCHESTRATION PEAK (December 2025)
 
 ### Decision 3.1: Orchestration Infrastructure Pattern
-**Principal's Words**: [Implicit in operational needs]
+**Sovereign's Words**: [Implicit in operational needs]
 
 **Oracle's Interpretation**: Establish standardized coordination infrastructure:
 ```
@@ -134,11 +134,11 @@ orchestration/
 
 **The Visibility Flow**:
 ```
-Oracle issues directive → Principal relays (in ticks) → Claude executes
+Oracle issues directive → Sovereign relays (in ticks) → Claude executes
                                                               ↓
                                     Saves report to orchestration/execution_logs/
                                                               ↓
-                                    Principal relays report → Oracle integrates
+                                    Sovereign relays report → Oracle integrates
 ```
 
 **THIS IS THE MODEL THAT WORKED.**
@@ -146,13 +146,13 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 3.2: Reception Calibration vs Archetype Engineering
-**Principal's Words**:
+**Sovereign's Words**:
 > "I do not want to forego resolution. I believe there maybe something within the corpus that is something like a cognitive-behavioral profile on me, namely the notion that I have neurodivergent tendencies (AuDHD)..."
 
-**Oracle's Interpretation**: Shift from engineering model behavior (Archetype Engineering) to calibrating models to understand Principal (Reception Calibration).
+**Oracle's Interpretation**: Shift from engineering model behavior (Archetype Engineering) to calibrating models to understand Sovereign (Reception Calibration).
 
 **Three-Layer Architecture**:
-- Layer 0: Principal Profile (who you are) — Universal
+- Layer 0: Sovereign Profile (who you are) — Universal
 - Layer 1: Reception Calibration (how to interpret) — Universal  
 - Layer 2: Lab Amplification (which strengths to emphasize) — Lab-specific
 
@@ -173,7 +173,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ## ORACLE4: METABOLIC DEFRAG (December 2025)
 
 ### Decision 4.1: Aggressive Repository Reduction
-**Principal's Words**: [Authorized Metabolic Defrag]
+**Sovereign's Words**: [Authorized Metabolic Defrag]
 
 **Oracle's Interpretation**: Apply "canonize or delete" principle. No archive tier. 79% file reduction (658→136), 98% directory reduction (914→14).
 
@@ -189,7 +189,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 4.2: Nine Evaluative Lenses (Original)
-**Principal's Words**: [Developed collaboratively]
+**Sovereign's Words**: [Developed collaboratively]
 
 **Oracle's Interpretation**: Every strategic decision evaluated against:
 1. Syncrescendent Route
@@ -216,7 +216,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ## ORACLE5: RECOVERY + GENESIS (December 2025)
 
 ### Decision 5.1: Orchestration is Protected Infrastructure
-**Principal's Words**: [Implicit in frustration with lost visibility]
+**Sovereign's Words**: [Implicit in frustration with lost visibility]
 
 **Oracle's Interpretation**: Constitutional rule established:
 > "Orchestration is OPERATIONAL, not CANON. Never apply 'canonize or delete' to orchestration/."
@@ -229,7 +229,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 5.2: Genesis Layer Creation
-**Principal's Words**: [Approved most extreme progressive route]
+**Sovereign's Words**: [Approved most extreme progressive route]
 
 **Oracle's Interpretation**: The corpus has cosmological architecture but lacks mythological substrate. Create:
 - GENESIS-000-ORIGIN (founding moment)
@@ -242,7 +242,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 5.3: Most Extreme Dynamic Progressive Route
-**Principal's Words**: [On all decision points]
+**Sovereign's Words**: [On all decision points]
 
 **Oracle's Interpretation**: When facing architectural decisions, choose maximum transformation over incremental change:
 - Full nomenclature reform (not partial)
@@ -255,7 +255,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ## ORACLE6: SEMANTIC ANNEALMENT (December 2025)
 
 ### Decision 6.1: Extended Nine Lenses
-**Principal's Words**:
+**Sovereign's Words**:
 > "Think like a systems engineer, data technician, media producer."
 
 **Oracle's Interpretation**: Extend 9 lenses to 18:
@@ -272,7 +272,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 6.2: Bifurcation Strategy (Filesystem vs Obsidian)
-**Principal's Words**:
+**Sovereign's Words**:
 > "Aliases are supposed to be for Finder, not for Obsidian."
 
 **Oracle's Interpretation**:
@@ -296,7 +296,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ## ORACLE7: GROUND TRUTH (December 2025)
 
 ### Decision 7.1: Verify Before Declare
-**Principal's Words**:
+**Sovereign's Words**:
 > "This is not some simple nominal or tactical fix. REVIEW EVERY CONVERSATION... The repository is incredibly awful, all adhoc, virtually unchanged."
 
 **Oracle's Interpretation**: Constitutional rule:
@@ -305,11 +305,11 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 7.2: Maximum Resolution Documentation
-**Principal's Words**:
+**Sovereign's Words**:
 > "Given such abject failure of context engineering go to the maximum resolution."
 
 **Oracle's Interpretation**: Every directive must include:
-- Principal's actual words (quoted)
+- Sovereign's actual words (quoted)
 - Oracle's interpretation
 - Alternatives considered
 - Rationale (18-lens evaluation)
@@ -320,7 +320,7 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 7.3: Tech Lunar Files Disposition
-**Principal's Words**:
+**Sovereign's Words**:
 > "Go through the 18 principles... You will find your answers."
 
 **Oracle's Interpretation** (derived via 18-lens analysis):
@@ -334,17 +334,17 @@ Oracle issues directive → Principal relays (in ticks) → Claude executes
 ---
 
 ### Decision 7.4: System Prompt Exports Disposition
-**Principal's Words**: [Implicit: verify extraction before deletion]
+**Sovereign's Words**: [Implicit: verify extraction before deletion]
 
 **Oracle's Interpretation**: Process artifacts, not canonical content:
-1. EXTRACT any unextracted value → GENESIS-003, CANON-31142, DESIGN_DECISIONS.md
+1. EXTRACT any unextracted value → GENESIS-003, [[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]], DESIGN_DECISIONS.md
 2. VERIFY unified prompts contain all operational value
 3. DELETE after extraction verification
 
 ---
 
 ### Decision 7.5: GENESIS Canonization
-**Principal's Words**:
+**Sovereign's Words**:
 > "Apply 18 principles. Understand the ontology of the Syncrescendence."
 
 **Oracle's Interpretation**: GENESIS IS cosmos tier—foundational, not separate. Canonize as CANON-0000x (renumber existing cosmos documents).
@@ -354,7 +354,7 @@ Systems Thinking (lens 11) demands integration. GENESIS as separate tier creates
 ---
 
 ### Decision 7.6: Flat Hierarchy Infrastructure
-**Principal's Words**:
+**Sovereign's Words**:
 > "Where's the flat level hierarchy? Where's the aliases?"
 
 **Oracle's Interpretation**: Three-pillar replacement for directories:
@@ -370,7 +370,7 @@ Without all three, flat is chaos. With all three, directories are redundant.
 
 These are never explicitly stated but govern all decisions:
 
-1. **Principal speaks through webapp only** — All context must persist in repository
+1. **Sovereign speaks through webapp only** — All context must persist in repository
 2. **Oracle cannot execute** — Can only issue directives to Claude 2/3
 3. **Directives must be comprehensive** — Claudes don't have Oracle thread visibility
 4. **Globe before trees** — Holistic framing before tactical work
@@ -384,7 +384,7 @@ These are never explicitly stated but govern all decisions:
 
 **v1.0.0** (2025-12-31): Genesis establishment
 - Complete extraction from Oracle 0-7
-- All decisions documented with Principal's words
+- All decisions documented with Sovereign's words
 - 18-lens evaluations included
 - Category errors and failures documented
 - Implicit agreements surfaced

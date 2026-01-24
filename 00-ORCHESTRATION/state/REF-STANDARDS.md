@@ -2,7 +2,7 @@
 ## Decision Framework for Syncrescendence
 **Generated**: 2025-12-31 (Oracle7)
 **Purpose**: Provide consistent evaluation criteria for all strategic decisions
-**Status**: Constitutional — do not modify without Principal approval
+**Status**: Constitutional — do not modify without Sovereign approval
 
 ---
 
@@ -106,9 +106,9 @@ Every strategic decision must be evaluated against these 18 lenses. A decision t
 ---
 
 ### 6. Personal Idiosyncrasies
-**Question**: Does this respect the Principal's cognitive profile?
+**Question**: Does this respect the Sovereign's cognitive profile?
 
-**Principal's Profile**:
+**Sovereign's Profile**:
 - AuDHD cognitive pattern
 - Macroscopic-holistic processing first, then distillation
 - High verbal working memory, abstract-sequential dominant
@@ -377,4 +377,4 @@ Record in ORACLE_DECISIONS.md with full evaluation.
 - Application methodology defined
 - Worked example provided
 
-*This document is constitutional. Modifications require Principal approval.*
+*This document is constitutional. Modifications require Sovereign approval.*

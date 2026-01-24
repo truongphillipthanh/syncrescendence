@@ -10,7 +10,7 @@
 
 ## Overview
 
-Blitzkrieg is a structured parallel execution pattern for Claude Code directives. It enables the Principal to issue multiple concurrent task streams, each targeting a specific model with explicit success criteria, and produces canonical artifacts suitable for cross-platform continuation.
+Blitzkrieg is a structured parallel execution pattern for Claude Code directives. It enables the Sovereign to issue multiple concurrent task streams, each targeting a specific model with explicit success criteria, and produces canonical artifacts suitable for cross-platform continuation.
 
 ---
 
@@ -47,7 +47,7 @@ The shared context document provides situational awareness for all directives.
 ## Session Identity
 - Oracle: [N]
 - Blitzkrieg ID: [YYYYMMDD-NN]
-- Principal Intent: [1-2 sentences]
+- Sovereign Intent: [1-2 sentences]
 
 ## Repository State
 - Branch: [current branch]

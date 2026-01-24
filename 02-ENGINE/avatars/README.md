@@ -20,7 +20,7 @@ and navigation shortcuts. Self-created based on demonstrated performance.
 
 ## When Avatars Self-Document
 After demonstrating competency (like ChatGPT's Claim Atom invention or Gemini's
-Z-Axis Screenplay), the avatar documents itself. Principal validates.
+Z-Axis Screenplay), the avatar documents itself. Sovereign validates.
 
 ## Template
 See `06-EXEMPLA/templates/TEMPLATE-AVATAR.md`

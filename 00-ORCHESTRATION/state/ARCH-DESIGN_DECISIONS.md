@@ -127,7 +127,7 @@ Better approach:
 
 ### Status
 
-ChatGPT memories provide useful data about what the Principal found valuable enough to accumulate. These inform the unified prompt design but don't directly transfer.
+ChatGPT memories provide useful data about what the Sovereign found valuable enough to accumulate. These inform the unified prompt design but don't directly transfer.
 
 ---
 
@@ -166,7 +166,7 @@ Gemini-unified-prompt.md integrates all 4 slots into coherent flow.
 
 ### Observation
 
-Across all platforms, the Principal's system prompts exhibit a consistent tension between:
+Across all platforms, the Sovereign's system prompts exhibit a consistent tension between:
 
 **Aesthetic Mode**:
 - "Clarity enveloped in beauty"

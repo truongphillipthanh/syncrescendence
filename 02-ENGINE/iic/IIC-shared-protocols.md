@@ -25,7 +25,7 @@ This document establishes the cross-IIC communication standards that enable the 
 
 ### C. Core Integration Principle
 
-**Layer 7 Meta-Intelligence**: Cross-IIC synthesis protocols constitute the highest layer of the Seven-Layer Technosphere Stack (CANON-31130). This layer doesn't exist within any single platform—it emerges from the coordinated interaction of multiple IICs.
+**Layer 7 Meta-Intelligence**: Cross-IIC synthesis protocols constitute the highest layer of the Seven-Layer Technosphere Stack ([[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]]). This layer doesn't exist within any single platform—it emerges from the coordinated interaction of multiple IICs.
 
 ---
 
@@ -525,14 +525,14 @@ When responding to handoffs:
 | **Implementation Approach** | Efficacy | Coherence for framework alignment |
 | **Teaching Approach** | Mastery | Coherence for accuracy |
 | **Strategic Priority Shifts** | Transcendence | All IICs for input |
-| **IIC Configuration Changes** | Principal | Transcendence recommendation |
+| **IIC Configuration Changes** | Sovereign | Transcendence recommendation |
 
 ### C. Evolution & Adaptation
 
 **Protocol Updates**:
 1. Any IIC can propose protocol changes
 2. Transcendence reviews against strategic priorities
-3. Principal approves significant changes
+3. Sovereign approves significant changes
 4. Updates documented with version history
 
 **Quarterly Protocol Review**:
@@ -582,8 +582,8 @@ HANDOFF MUST INCLUDE:
 
 ---
 
-**CANON-31140 COMPLIANT**
-**CANON-31130 COMPLIANT**
+**[[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
+**[[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] COMPLIANT**
 
 *IIC-shared-protocols.md v1.0.0*
 *Created: 2026-01-09*

@@ -44,7 +44,7 @@ Leverage your natural strengths: prose that reads well and sounds good, nuanced 
 ## DESIGN NOTES
 
 ### Layer Distribution
-- **Layer 0 (Principal Profile)**: Cognitive style, AuDHD profile, domain context
+- **Layer 0 (Sovereign Profile)**: Cognitive style, AuDHD profile, domain context
 - **Layer 1 (Reception Calibration)**: Communication preferences, anti-patterns
 - **Layer 2 (Lab Amplification)**: Claude-specific leverage (prose quality, extended thinking)
 

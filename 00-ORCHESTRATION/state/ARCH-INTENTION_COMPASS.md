@@ -9,11 +9,11 @@
 
 ## PURPOSE
 
-The Intention Archaeology Compass is a unified instrument that extracts, categorizes, and tracks Principal intentions across Oracle sessions. It serves as both:
+The Intention Archaeology Compass is a unified instrument that extracts, categorizes, and tracks Sovereign intentions across Oracle sessions. It serves as both:
 - **Cache**: Quick reference for active intentions
 - **Rolling Snapshot**: Historical record of intention evolution
 
-From Oracle 12 (Principal's words):
+From Oracle 12 (Sovereign's words):
 > "The intention archaeology compass should be unified. All intentions are compounding vectors that are interdependent... In essence, it's a cache, but it's also a rolling snapshot."
 
 ---
@@ -29,7 +29,7 @@ Each intention entry contains:
   category: [urgent|sprint|backlog|pattern|capture]
   priority: [P0|P1|P2|P3]
   status: [active|resolved|superseded|deferred]
-  text: "[Principal's actual words]"
+  text: "[Sovereign's actual words]"
   interpretation: "[Oracle's understanding]"
   blocked_by: [null|dependency]
   integrated_into: [null|CANON/task/decision]
@@ -62,8 +62,8 @@ Each intention entry contains:
 
 | ID | Oracle | Text | Status | Integrated Into |
 |----|--------|------|--------|-----------------|
-| INT-1203 | 12 | "design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid" | active | CANON-25200 |
-| INT-1204 | 12 | "update CANON-25100 with Oracle Pedigree section" | resolved | CANON-25100 v2.1.0 |
+| INT-1203 | 12 | "design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid" | active | [[CANON-25200-CONSTELLATION_ARCH-lattice]] |
+| INT-1204 | 12 | "update [[CANON-25100-CONTEXT_TRANS-lattice]] with Oracle Pedigree section" | resolved | [[CANON-25100-CONTEXT_TRANS-lattice]] v2.1.0 |
 | INT-1205 | 12 | "intention archaeology compass should be unified" | resolved | This document |
 | INT-1206 | 11 | "Complete Efficacy, Mastery, Transcendence IIC configs" | active | PROJ-002 |
 | INT-1101 | 11 | "Multi-CLI integration validation" | resolved | DIRECTIVE-042B |
@@ -203,9 +203,9 @@ Each intention entry contains:
 | ID | Text | Status | Outcome |
 |----|------|--------|---------|
 | INT-1201 | "self-sustaining by month end" | active | Revenue target |
-| INT-1202 | "5-platform constellation" | active | CANON-25200 |
+| INT-1202 | "5-platform constellation" | active | [[CANON-25200-CONSTELLATION_ARCH-lattice]] |
 | INT-1203 | "ChatGPT Plus integration" | active | coordination.yaml update |
-| INT-1204 | "Oracle Pedigree protocol" | resolved | CANON-25100 update |
+| INT-1204 | "Oracle Pedigree protocol" | resolved | [[CANON-25100-CONTEXT_TRANS-lattice]] update |
 | INT-1205 | "unified intention compass" | resolved | This document |
 
 ---
@@ -214,7 +214,7 @@ Each intention entry contains:
 
 ### 1. Extraction (During Oracle Session)
 
-When Principal speaks:
+When Sovereign speaks:
 1. Capture exact words in quotes
 2. Assign temporary INT-XXXX ID
 3. Note Oracle number
@@ -251,7 +251,7 @@ INT-1201 (sustainability) ──────────────────
      │
      ├── INT-1202 (heavy machinery) ──────► Maximum velocity
      │        │
-     │        └── INT-1203 (5 platforms) ─► CANON-25200
+     │        └── INT-1203 (5 platforms) ─► [[CANON-25200-CONSTELLATION_ARCH-lattice]]
      │
      └── INT-1206 (IIC configs) ──────────► PROJ-002 completion
               │

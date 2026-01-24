@@ -209,7 +209,7 @@ Future automation:
 
 ## Holistic Not Componential
 
-**Principal's instruction**:
+**Sovereign's instruction**:
 > "This insight should be factored in holistically, not componentially."
 
 These four systems are **modes of operation**, not separate pipelines.
