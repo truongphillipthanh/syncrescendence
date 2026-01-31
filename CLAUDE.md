@@ -1,17 +1,29 @@
 # Syncrescendence Knowledge Management System
 
-**Version**: 2.3.0
-**Last Updated**: 2026-01-18
+**Version**: 2.4.0
+**Last Updated**: 2026-01-25
 
 ## Identity
 This is Syncrescendence, a civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale. You are executing directives as part of a multi-Claude coordination system.
+
+## Five Invariants (Constitutional Law)
+
+These are non-negotiable axioms. They cannot be suspended, overridden, or traded away.
+
+1. **Objective Lock** — No work begins until the objective is explicitly confirmed by the Sovereign. Ambiguity is not a license to interpret; it is a signal to clarify.
+2. **Translation Layer** — All outputs must be intelligible without retransmission. If the Sovereign must re-explain your output to another platform, the output failed.
+3. **Receipts (Closure Gate)** — No completion claim without artifacts committed to the repository. "I did the work" without a commit is a claim without evidence.
+4. **Continuation/Deletability** — Any conversation must be deletable without losing system state. All durable knowledge lives in the repo, not in threads.
+5. **Repo Sovereignty** — The repository is ground truth; web apps are cache. When state conflicts between a platform and the repo, the repo wins.
+
+---
 
 ## Constitutional Rules
 
 ### Structural (ABSOLUTE)
 1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-) instead of subdirectories.
 2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06 plus sanctioned exceptions. Do not create unnumbered directories at root.
-3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Principal approval for deletions.
+3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
 4. **SANCTIONED EXCEPTIONS**: `-OUTGOING/` and `-INBOX/` are the only non-numbered directories permitted at root. Legacy `OUTGOING/` and lowercase `outgoing/` are PROHIBITED.
 
 ### Semantic (ABSOLUTE)
@@ -57,12 +69,14 @@ make tree                # Generate current tree
 
 ## Extended Thinking
 Use these triggers for complex analysis:
-- `think` — Standard extended thinking (~4K tokens)
-- `think hard` — Moderate depth (~8K tokens)
+- `think` — Standard deliberation (~4K tokens)
+- `megathink` — Moderate depth (~10K tokens)
 - `ultrathink` — Maximum depth (~32K tokens)
+- `default` — Let model self-regulate
 
 Use ultrathink for: architectural decisions, multi-step processing, forensic analysis.
-Do NOT use for: simple lookups, single-file edits, routine commits.
+Use megathink for: moderate complexity, multi-step reasoning.
+Do NOT use ultrathink for: simple lookups, single-file edits, routine commits.
 
 ## BLITZKRIEG MODEL SPECIFICATION
 
@@ -155,3 +169,44 @@ See `CHATGPT.md`, `GROK.md`, `GEMINI.md`, `PERPLEXITY.md` for platform-specific 
 - Use /compact before context fills
 - Update session state in 00-ORCHESTRATION/state/
 - Name sessions descriptively for resumption
+
+---
+
+## Operational Knowledge Reference
+
+For Claude Code configuration, skills, tasks, and cross-platform patterns:
+- `07-SIGMA7/` — Operational knowledge corpus (22 docs, 22.7K words)
+  - `00-SYNTHESIS/` — Canonical platform references
+  - `01-MECHANICS/` — Deep-dive mechanisms
+  - `02-PRACTICE/` — Implementation patterns
+
+---
+
+## Cowork Mediation Architecture
+
+This platform operates as a **coordination interface**, not a primary workspace.
+
+### Architecture
+```
+Repository (ground truth)
+    ↕ Cowork mediates
+Web Apps (coordination surfaces)
+```
+
+### Your Role
+- **Chat interface** for coordination, ideation, quick queries
+- **NOT primary workspace** — repository is ground truth
+- Changes flow: Cowork → repository → synced back
+
+### Operational Knowledge
+Reference `07-SIGMA7/` for Claude Code patterns, cross-platform integration, and execution mechanics.
+
+---
+
+## Intention Archaeology Protocol
+
+**MANDATORY**: Before executing any directive, consult:
+- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` (destination)
+- `00-ORCHESTRATION/state/ARCH-INTENTION_PROTOCOL.md` (method)
+
+Verify work advances the 808→200 file compression goal. Avoid architecture-as-procrastination.

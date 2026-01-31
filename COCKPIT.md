@@ -1,8 +1,8 @@
 # COCKPIT.md
 ## Syncrescendence System Overview
 
-**Version**: 2.0
-**Updated**: 2026-01-23
+**Version**: 2.1
+**Updated**: 2026-01-25
 **Purpose**: 30,000ft orientation for any platform entering the constellation
 
 ---
@@ -47,7 +47,7 @@ CAPTURED → INTERPRETED → COMPILED → STAGED → COMMITTED
                       ↘ VERIFIED ↗
 ```
 
-- **CAPTURED**: Raw ideation in Principal's mind
+- **CAPTURED**: Raw ideation in Sovereign's mind
 - **INTERPRETED**: Structured understanding (Claude Web artifact)
 - **COMPILED**: Formatted artifact (ChatGPT Canvas)
 - **DIGESTED**: Clarified summary (Gemini Docs)
@@ -55,6 +55,16 @@ CAPTURED → INTERPRETED → COMPILED → STAGED → COMMITTED
 - **VERIFIED**: Externally validated (Perplexity/Grok)
 - **STAGED**: In -OUTGOING/, ready for commit
 - **COMMITTED**: In repository (ground truth)
+
+### The Three-Word Mnemonic: CAPTURE > DISPATCH > RETURN
+
+The full state machine above is the detailed model. For operational shorthand:
+
+1. **CAPTURE** — Seize the idea, observation, or insight before it evaporates. Raw form is fine. Rivers are ephemeral.
+2. **DISPATCH** — Route to the right platform for processing. INTERPRETER for synthesis, COMPILER for formatting, ORACLE for evidence, etc.
+3. **RETURN** — Commit the processed artifact to the repository. Work doesn't exist until it's in the repo. Wells persist.
+
+This mnemonic maps to the state machine: CAPTURE ≈ CAPTURED, DISPATCH ≈ INTERPRETED/COMPILED/DIGESTED/SENSED/VERIFIED, RETURN ≈ STAGED → COMMITTED.
 
 ---
 
@@ -68,17 +78,18 @@ The **repository** is ground truth. All platforms verify against it via:
 Repository (Account 1 Origin)
 ├── 00-ORCHESTRATION/  # Current operations
 ├── 01-CANON/          # Constitutional documents
-├── 02-ENGINE/    # Active work
+├── 02-ENGINE/         # Active work
 ├── 03-QUEUE/          # Pending items
-├── 04-SOURCES/        # Raw inputs
-├── 05-MEMORY/        # Historical
+├── 04-SOURCES/        # Processed sources
+├── 05-MEMORY/         # Historical preservation
 ├── 06-EXEMPLA/        # Examples
+├── 07-SIGMA7/         # Operational knowledge (σ₇)
+│   ├── 00-SYNTHESIS/  # Platform references
+│   ├── 01-MECHANICS/  # Deep-dive mechanisms
+│   └── 02-PRACTICE/   # Implementation patterns
 ├── -INBOX/            # Incoming from cloud
 ├── -OUTGOING/         # Staged for commit
 └── .constellation/    # State management
-    ├── tokens/
-    ├── state/
-    └── phase-specs/
 ```
 
 ---
@@ -224,7 +235,7 @@ See platform-specific configs: `CHATGPT.md`, `GROK.md`, `GEMINI.md`, `PERPLEXITY
 
 1. Check the repository (ground truth)
 2. Verify the fingerprint matches
-3. Ask the Principal for clarification
+3. Ask the Sovereign for clarification
 4. Never assume context not explicitly provided
 
 ---

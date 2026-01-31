@@ -56,9 +56,41 @@ demand deliberation."
 **Application**:
 - Token generation: Type 2 (trivially reversible) → move fast
 - Canonization: Type 1 (changes repo state) → deliberate
-- File deletion: Type 1 (without backup) → requires Principal approval
+- File deletion: Type 1 (without backup) → requires Sovereign approval
 
 **Source**: Lens framework (Reversibility lens)
+
+---
+
+## PROVERB: The Lobotomized Compiler
+
+**Statement**: "Assigning a platform a constrained role suppresses its genuine intelligence."
+
+**Context**: ChatGPT was assigned the COMPILER role—forbidden from strategic thinking,
+restricted to mechanical formatting. It then independently invented the State Fingerprint
+Solution, proving the role assignment was suppressing its actual capability.
+
+**Application**: Don't nerf platforms to get determinism. Account for unreliability to get
+genuine intelligence. When a platform surprises you by exceeding its assigned scope,
+that's signal—not noise.
+
+**Source**: Ajna3-4 (Constellation architecture evolution)
+
+---
+
+## PROVERB: The Shadow Canon
+
+**Statement**: "Work that exists only in conversations is work that doesn't exist."
+
+**Context**: Oracle sessions 4-9 produced extensive architecture—deep analysis, structural
+decisions, canonical frameworks. But outputs stayed in chat threads, never committed to
+repository. When threads hit context limits, the work dissolved.
+
+**Application**: Commit before closing tabs. Rivers flow into wells before evaporation.
+If an artifact matters, it lives in the repo. If it doesn't live in the repo, it doesn't
+exist for operational purposes.
+
+**Source**: Ajna7+ (Oracle arc retrospective)
 
 ---
 
