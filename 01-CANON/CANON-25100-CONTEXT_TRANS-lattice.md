@@ -1,5 +1,5 @@
 ---
-id: [[CANON-25100-CONTEXT_TRANS-lattice]]
+id: CANON-25100
 name: Context Transition Protocol
 identity: CONTEXT_TRANS
 tier: CANON
@@ -11,51 +11,43 @@ updated: 2026-01-11
 synopsis: Unified interface for managing cognitive continuity across sessions, threads, and platforms—the librarian's session management system for context transitions
 ---
 
-# CANON-25100-CONTEXT_TRANS-lattice (SN Format)
+# CANON-25100: CONTEXT TRANSITION PROTOCOL
+## Unified Interface for Cognitive Continuity Across Sessions
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 2,493 words, 20,536 characters
-
----
-
-TERM UnifiedInterfaceforCognitiveContinuityAcrossSessions:
-    sutra: "Version: 1.1   Classification: Lattice (Navigation Infrastructure)   Status: Canonical   Created:..."
-    gloss:
-        **Version**: 1.1  
+**Version**: 1.1  
 **Classification**: Lattice (Navigation Infrastructure)  
 **Status**: Canonical  
 **Created**: December 28, 2025  
 **Revised**: December 28, 2025  
-**Parent**: CANON-25000-lattice-MEMORY_ARCHITECTURE-v1_0.md
+**Parent**: [[CANON-25000-MEMORY_ARCH-lattice]]-lattice-MEMORY_ARCHITECTURE-v1_0.md
 
 ---
-end
 
+## PART I: CONSTITUTIONAL FOUNDATION
 
-TERM APurposeStatement:
-    sutra: "This artifact establishes the Context Transition Protocol—a unified interface for managing cognit..."
-    gloss:
-        This artifact establishes the **Context Transition Protocol**—a unified interface for managing cognitive continuity across sessions, threads, and platforms. Rather than requiring the practitioner to select among multiple protocols, this architecture presents a single interface while the AI determine...
-end
+### A. Purpose Statement
 
+This artifact establishes the **Context Transition Protocol**—a unified interface for managing cognitive continuity across sessions, threads, and platforms. Rather than requiring the practitioner to select among multiple protocols, this architecture presents a single interface while the AI determines optimal handling based on context analysis.
 
-TERM BRelationshiptoTerminalArchitecture:
-    sutra: "From the Editorial thread:  > "You're not compressing a library; you're asking me to design the l..."
-    gloss:
-        From the Editorial thread:
+**Design Principle**: The terminal architecture thesis (Editorial thread, Dec 2025) establishes that AI mediates complexity. The practitioner doesn't need to choose between "culmination" or "continuation" or "compression"—the system analyzes context and produces appropriate output.
+
+**Core Thesis**: Context transitions are a single category of operation with multiple modes. The AI is the librarian that determines what's needed; the practitioner maintains strategic sovereignty without operational micromanagement.
+
+### B. Relationship to Terminal Architecture
+
+From the Editorial thread:
 
 > "You're not compressing a library; you're asking me to design the librarian."
 
 The Context Transition Protocol IS the librarian's session management system. It:
 - Operates at session boundaries (end, start, mid-stream)
-- Produces artifacts optimized for the specific tra...
-end
+- Produces artifacts optimized for the specific transition type
+- Handles hybrid cases (e.g., culmination + continuation in one artifact)
+- Adapts to context capacity, temporal position, and principal needs
 
+### C. The Unified Interface
 
-TERM CTheUnifiedInterface:
-    sutra: "Sovereign Command (any of these invoke the protocol): - "Handle context transition" - "Close this..."
-    gloss:
-        **Sovereign Command** (any of these invoke the protocol):
+**Principal Command** (any of these invoke the protocol):
 - "Handle context transition"
 - "Close this session"
 - "Continue from [previous work]"
@@ -63,26 +55,33 @@ TERM CTheUnifiedInterface:
 - Or implicitly: approaching context limits, natural conclusion reached
 
 **System Response**:
-1. Analyze current conte...
-end
+1. Analyze current context state
+2. Determine appropriate mode(s)
+3. Generate transition artifact(s)
+4. Present for principal review
 
+The practitioner doesn't select the mode. The AI does.
 
-TERM AStateVariables:
-    sutra: "The AI evaluates these factors to determine transition mode:  | Variable | Assessment | Implicati..."
-    gloss:
-        The AI evaluates these factors to determine transition mode:
+---
+
+## PART II: CONTEXT ANALYSIS FRAMEWORK
+
+### A. State Variables
+
+The AI evaluates these factors to determine transition mode:
 
 | Variable | Assessment | Implication |
 |----------|------------|-------------|
 | **Position** | Thread start / mid / end? | Continuation vs. culmination vs. compression |
-| **Capacity** | % of context window used | Compression urgency |...
-end
+| **Capacity** | % of context window used | Compression urgency |
+| **Value Density** | Insights generated this session? | Culmination depth needed |
+| **Continuation Need** | Will work resume? | Continuation artifact needed |
+| **Temporal Gap** | Time since last session? | Context restoration depth |
+| **Complexity** | Simple handoff or rich state? | Artifact comprehensiveness |
 
+### B. Mode Selection Logic
 
-TERM BModeSelectionLogic:
-    sutra: "`` IF (thread ending OR explicit close request):     IF (significant insights generated):        ..."
-    gloss:
-        ```
+```
 IF (thread ending OR explicit close request):
     IF (significant insights generated):
         INCLUDE culmination_mode
@@ -92,196 +91,120 @@ IF (thread ending OR explicit close request):
 IF (context > 70% capacity) AND (thread continuing):
     INCLUDE compression_mode
     
-IF (thread starting...
-end
+IF (thread starting) AND (prior context exists):
+    INCLUDE continuation_mode (as context injection)
+    
+GENERATE composite_artifact(selected_modes)
+```
 
+### C. Mode Definitions
 
-NORM CulminationMode:
-    sutra: "Trigger: Thread ending with value to preserve   Teleology: Capture insights, identify canonical c..."
-    gloss:
-        **Trigger**: Thread ending with value to preserve  
+#### Culmination Mode
+**Trigger**: Thread ending with value to preserve  
 **Teleology**: Capture insights, identify canonical candidates, create historical record  
 **Output Focus**: What was learned? What should persist?
-end
 
-
-NORM ContinuationMode:
-    sutra: "Trigger: Thread boundary where work resumes   Teleology: Enable seamless resumption without re-ex..."
-    gloss:
-        **Trigger**: Thread boundary where work resumes  
+#### Continuation Mode  
+**Trigger**: Thread boundary where work resumes  
 **Teleology**: Enable seamless resumption without re-explanation  
 **Output Focus**: What state must be restored? What's the entry point?
-end
 
-
-NORM CompressionMode:
-    sutra: "Trigger: Context approaching limits mid-stream   Teleology: Preserve essential state while reduci..."
-    gloss:
-        **Trigger**: Context approaching limits mid-stream  
+#### Compression Mode
+**Trigger**: Context approaching limits mid-stream  
 **Teleology**: Preserve essential state while reducing token footprint  
 **Output Focus**: What must survive? What can be regenerated?
 
 ---
-end
 
+## PART III: THE TRANSITION ARTIFACT
 
-TERM AUnifiedStructure:
-    sutra: "Rather than three separate templates, a single adaptive template with sections activated based on..."
-    gloss:
-        Rather than three separate templates, a single adaptive template with sections activated based on mode selection:
+### A. Unified Structure
+
+Rather than three separate templates, a single adaptive template with sections activated based on mode selection:
 
 ```markdown
-end
-
-
-ARTIFACT CONTEXTTRANSITIONARTIFACT:
-    sutra: "Generated: [Timestamp] Thread: [Reference/Title] Modes Active: [Culmination | Continuation | Comp..."
-    gloss:
-        **Generated**: [Timestamp]
+# CONTEXT TRANSITION ARTIFACT
+**Generated**: [Timestamp]
 **Thread**: [Reference/Title]
 **Modes Active**: [Culmination | Continuation | Compression | Hybrid]
 
 ---
-end
 
-
-TERM CONTEXTSTATESUMMARY:
-    sutra: "[Always included: Brief description of current cognitive state]  Position: [Where we are in the w..."
-    gloss:
-        [Always included: Brief description of current cognitive state]
+## CONTEXT STATE SUMMARY
+[Always included: Brief description of current cognitive state]
 
 Position: [Where we are in the work]
 Capacity: [Context utilization if relevant]
-Sovereign focus: [Current objective]
+Principal focus: [Current objective]
 
 ---
-end
 
+## SYNTHESIS [Culmination Mode]
+[Activated when culmination mode selected]
 
-TERM SYNTHESISCulminationMode:
-    sutra: "[Activated when culmination mode selected]"
-    gloss:
-        [Activated when culmination mode selected]
-end
+### Trajectory
+[How the work evolved—key turns, pivots, discoveries]
 
-
-TERM Trajectory:
-    sutra: "[How the work evolved—key turns, pivots, discoveries]"
-    gloss:
-        [How the work evolved—key turns, pivots, discoveries]
-end
-
-
-TERM KeyInsights:
-    sutra: "1"
-    gloss:
-        1. **[Insight title]**: [Elaboration]
+### Key Insights
+1. **[Insight title]**: [Elaboration]
    - Implication: [What this means for practice]
 
 2. **[Insight title]**: [Elaboration]
    - Implication: [What this means for practice]
-end
 
-
-TERM CanonicalCandidates:
-    sutra: "| Insight | Proposed Location | Status | |---------|-------------------|--------| | [Your insight..."
-    gloss:
-        | Insight | Proposed Location | Status |
+### Canonical Candidates
+| Insight | Proposed Location | Status |
 |---------|-------------------|--------|
 | [Your insight] | [Target CANON-##### ID] | [Ready/Needs validation] |
-end
 
-
-TERM UnresolvedQuestions:
-    sutra: "- [ ] [Question that remains open]  ---"
-    gloss:
-        - [ ] [Question that remains open]
+### Unresolved Questions
+- [ ] [Question that remains open]
 
 ---
-end
 
+## CONTINUATION STATE [Continuation Mode]
+[Activated when continuation mode selected]
 
-TERM CONTINUATIONSTATEContinuationMode:
-    sutra: "[Activated when continuation mode selected]"
-    gloss:
-        [Activated when continuation mode selected]
-end
-
-
-TERM EssentialContext:
-    sutra: "[Minimum viable context for effective resumption]  - Key decisions made: [List] - Active constrai..."
-    gloss:
-        [Minimum viable context for effective resumption]
+### Essential Context
+[Minimum viable context for effective resumption]
 
 - **Key decisions made**: [List]
 - **Active constraints**: [List]
 - **Current objective**: [Statement]
-end
 
-
-TERM EntryPoint:
-    sutra: "[Specific framing to resume work effectively]  "We were [state]"
-    gloss:
-        [Specific framing to resume work effectively]
+### Entry Point
+[Specific framing to resume work effectively]
 
 "We were [state]. The next step is [action]. Key context: [critical facts]."
-end
 
-
-TERM ResourcePointers:
-    sutra: "- Relevant corpus: [Specify relevant CANON-##### documents] - Prior artifacts: [Links/description..."
-    gloss:
-        - Relevant corpus: [Specify relevant CANON-##### documents]
+### Resource Pointers
+- Relevant corpus: [Specify relevant CANON-##### documents]
 - Prior artifacts: [Links/descriptions]
 
 ---
-end
 
+## COMPRESSION [Compression Mode]
+[Activated when compression mode selected]
 
-TERM COMPRESSIONCompressionMode:
-    sutra: "[Activated when compression mode selected]"
-    gloss:
-        [Activated when compression mode selected]
-end
+### Compressed State
+[Single paragraph capturing essential current state]
 
-
-TERM CompressedState:
-    sutra: "[Single paragraph capturing essential current state]"
-    gloss:
-        [Single paragraph capturing essential current state]
-end
-
-
-TERM PreservedElements:
-    sutra: "- [Critical item 1] - [Critical item 2]"
-    gloss:
-        - [Critical item 1]
+### Preserved Elements
+- [Critical item 1]
 - [Critical item 2]
-end
 
-
-TERM RegenerationGuide:
-    sutra: "To restore full context if needed: 1"
-    gloss:
-        To restore full context if needed:
+### Regeneration Guide
+To restore full context if needed:
 1. [Pointer to expand detail area 1]
 2. [Pointer to expand detail area 2]
-end
 
-
-TERM DiscardedElements:
-    sutra: "[What was removed and why—enables audit]  ---"
-    gloss:
-        [What was removed and why—enables audit]
+### Discarded Elements
+[What was removed and why—enables audit]
 
 ---
-end
 
-
-TERM NEXTACTIONS:
-    sutra: "[Always included if work continues]  1"
-    gloss:
-        [Always included if work continues]
+## NEXT ACTIONS
+[Always included if work continues]
 
 1. [Immediate next step]
 2. [Following step]
@@ -290,61 +213,52 @@ TERM NEXTACTIONS:
 
 **Artifact Complete**
 ```
-end
 
+### B. Mode Interaction Patterns
 
-TERM BModeInteractionPatterns:
-    sutra: "Common Combinations:  | Scenario | Modes Active | Dominant Sections | |----------|--------------|..."
-    gloss:
-        **Common Combinations**:
+**Common Combinations**:
 
 | Scenario | Modes Active | Dominant Sections |
 |----------|--------------|-------------------|
 | End of productive session, will resume | Culmination + Continuation | Full Synthesis + Entry Point |
-| Context limit approaching, mid-work | Compression | Compressed State + Re...
-end
+| Context limit approaching, mid-work | Compression | Compressed State + Regeneration Guide |
+| Starting new session on prior work | Continuation (consumption) | Entry Point used as injection |
+| Thread naturally concluding, no resume | Culmination only | Full Synthesis + Canonical Candidates |
+| Quick checkpoint, minimal value | Continuation only | Essential Context + Entry Point |
 
+### C. Artifact Quality Criteria
 
-ARTIFACT CArtifactQualityCriteria:
-    sutra: "A good transition artifact: - Stands alone: Readable without access to original thread - Mode-app..."
-    gloss:
-        A good transition artifact:
+A good transition artifact:
 - **Stands alone**: Readable without access to original thread
 - **Mode-appropriate**: Includes sections relevant to selected modes
 - **Actionable**: Clear next steps if work continues
 - **Auditable**: Shows what was preserved and discarded
-- **Efficient**: No empty secti...
-end
+- **Efficient**: No empty sections, no redundant content
 
+---
 
-TERM ACommandInterface:
-    sutra: "When operating via Claude Code or similar CLI tools:  ```bash"
-    gloss:
-        When operating via Claude Code or similar CLI tools:
+## PART IV: CLI INTEGRATION
+
+### A. Command Interface
+
+When operating via Claude Code or similar CLI tools:
 
 ```bash
-end
+# Explicit invocation
+claude "Handle context transition for this session"
 
+# Implicit triggers (AI detects and offers)
+# - Context > 80% capacity
+# - Natural conclusion detected
+# - Extended time since last exchange
 
-TERM Explicitinvocation:
-    sutra: "claude "Handle context transition for this session""
-    gloss:
-        claude "Handle context transition for this session"
-end
-
-
-TERM Contextinjectionatsessionstart:
-    sutra: "claude --context transition_artifact.md "Continue our work on [topic]" ```"
-    gloss:
-        claude --context transition_artifact.md "Continue our work on [topic]"
+# Context injection at session start
+claude --context transition_artifact.md "Continue our work on [topic]"
 ```
-end
 
+### B. File System Integration
 
-TERM BFileSystemIntegration:
-    sutra: "Default Locations: `` ~/syncrescendence/ ├── context/ │   ├── active/           # Current session..."
-    gloss:
-        **Default Locations**:
+**Default Locations**:
 ```
 ~/syncrescendence/
 ├── context/
@@ -353,59 +267,57 @@ TERM BFileSystemIntegration:
 │   ├── archive/          # Historical transitions
 │   │   └── YYYY-MM-DD_thread-name.md
 │   └── templates/        # Reference templates
-└── corpus/...
-end
+└── corpus/               # Canonical documents
+```
 
+**Workflow**:
+1. AI generates transition artifact
+2. Artifact saved to `context/active/`
+3. On session close, moved to `context/archive/` with timestamp
+4. On new session, relevant archived artifacts loaded as context
 
-ARTIFACT Transitionartifactsareversioncontrolled:
-    sutra: "git add context/archive/ git commit -m "Context transition: [brief description]""
-    gloss:
-        git add context/archive/
+### C. Git Integration
+
+```bash
+# Transition artifacts are version-controlled
+git add context/archive/
 git commit -m "Context transition: [brief description]"
-end
 
-
-TERM Enablestimetravelthroughcognitivestates:
-    sutra: "git log --oneline context/archive/ git diff HEAD~5 context/archive/  # Compare recent transitions..."
-    gloss:
-        git log --oneline context/archive/
+# Enables time-travel through cognitive states
+git log --oneline context/archive/
 git diff HEAD~5 context/archive/  # Compare recent transitions
 ```
 
 ---
-end
 
+## PART V: CROSS-IIC APPLICATION
 
-TERM APerIICTransitionProfiles:
-    sutra: "Each IIC has characteristic transition patterns:  | IIC | Typical Mode | Artifact Emphasis | |---..."
-    gloss:
-        Each IIC has characteristic transition patterns:
+### A. Per-IIC Transition Profiles
+
+Each IIC has characteristic transition patterns:
 
 | IIC | Typical Mode | Artifact Emphasis |
 |-----|--------------|-------------------|
 | **Acumen** | Compression-heavy | Signal qualification, pattern alerts |
 | **Coherence** | Culmination-heavy | Framework synthesis, integration insights |
-| **Effi...
-end
+| **Efficacy** | Continuation-heavy | Task state, procedure documentation |
+| **Mastery** | Culmination + archival | Pedagogical artifacts, curriculum updates |
+| **Transcendence** | Full composite | Strategic synthesis, phase transition signals |
 
+### B. Cross-IIC Handoff
 
-TERM BCrossIICHandoff:
-    sutra: "When work moves between IIC accounts:  Source IIC generates: Transition artifact with continuatio..."
-    gloss:
-        When work moves between IIC accounts:
+When work moves between IIC accounts:
 
 **Source IIC generates**: Transition artifact with continuation mode active, framed for target IIC's function
 
-**Sovereign transfers**: Via file system (CLI) or copy/paste (web)
+**Principal transfers**: Via file system (CLI) or copy/paste (web)
 
-**Target IIC receives**: Context injection calibrated to its cognitive personality...
-end
+**Target IIC receives**: Context injection calibrated to its cognitive personality
 
-
-NORM HANDOFFMETADATA:
-    sutra: "Source: [Source IIC] Target: [Target IIC] Handoff rationale: [Why this work is moving] Target tas..."
-    gloss:
-        Source: [Source IIC]
+**Handoff Artifact Addendum**:
+```markdown
+## HANDOFF METADATA
+Source: [Source IIC]
 Target: [Target IIC]
 Handoff rationale: [Why this work is moving]
 Target task: [What target IIC should do]
@@ -413,142 +325,162 @@ Translation notes: [Any reframing needed for target's mode]
 ```
 
 ---
-end
 
+## PART VI: OPERATIONAL PATTERNS
 
-TERM ASessionLifecyclewithUnifiedProtocol:
-    sutra: "`` ┌─────────────────────────────────────────────────────────────────────┐ │                     ..."
-    gloss:
-        ```
+### A. Session Lifecycle with Unified Protocol
+
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                      SESSION LIFECYCLE                               │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                      │
-│  SES...
-end
+│  SESSION START                                                       │
+│       │                                                              │
+│       ▼                                                              │
+│  ┌─────────────┐                                                    │
+│  │   INJECT    │◄──── Prior transition artifact (continuation)      │
+│  │   Context   │                                                    │
+│  └──────┬──────┘                                                    │
+│         │                                                            │
+│         ▼                                                            │
+│  ┌─────────────┐                                                    │
+│  │    WORK     │◄──── Context Analysis (ongoing)                    │
+│  │   Session   │                                                    │
+│  └──────┬──────┘                                                    │
+│         │                                                            │
+│         ▼ (if capacity > 70%)                                       │
+│  ┌─────────────┐                                                    │
+│  │  COMPRESS   │──── Mid-session transition (compression mode)      │
+│  │  if needed  │                                                    │
+│  └──────┬──────┘                                                    │
+│         │                                                            │
+│         ▼                                                            │
+│  ┌─────────────┐                                                    │
+│  │   CLOSE     │──── End-session transition (culmination +          │
+│  │   Session   │     continuation as appropriate)                    │
+│  └──────┬──────┘                                                    │
+│         │                                                            │
+│         ▼                                                            │
+│  ┌─────────────┐                                                    │
+│  │   ARCHIVE   │──── Store artifact, git commit                     │
+│  │   Artifact  │                                                    │
+│  └─────────────┘                                                    │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘
+```
 
+### B. Automatic vs. Explicit Triggers
 
-TERM BAutomaticvsExplicitTriggers:
-    sutra: "Automatic (AI detects and offers): - Context utilization > 80% - Natural conclusion detected (goa..."
-    gloss:
-        **Automatic** (AI detects and offers):
+**Automatic** (AI detects and offers):
 - Context utilization > 80%
 - Natural conclusion detected (goal achieved, question answered)
 - Extended gap in conversation (session likely ending)
 - Significant insight generated (worth capturing)
 
-**Explicit** (Sovereign requests):
-- "Let's close this session...
-end
+**Explicit** (Principal requests):
+- "Let's close this session"
+- "Checkpoint here"
+- "I need to switch to [other IIC/platform]"
+- "Prepare continuation context for later"
 
+### C. Principal Override
 
-TERM CSovereignOverride:
-    sutra: "The AI proposes; the sovereign disposes"
-    gloss:
-        The AI proposes; the sovereign disposes. Override options:
+The AI proposes; the principal disposes. Override options:
 - "Just culmination, I won't continue this"
 - "Skip synthesis, just give me continuation context"
 - "Compress more aggressively"
 - "Include [specific element] I need preserved"
 
 ---
-end
 
+## PART VII: DISTILLATION INTERFACE
 
-TERM AFromTransitiontoCorpus:
-    sutra: "Transition artifacts are Fluid tier"
-    gloss:
-        Transition artifacts are Fluid tier. Insights may graduate to Canonical:
+### A. From Transition to Corpus
+
+Transition artifacts are Fluid tier. Insights may graduate to Canonical:
 
 ```
 Transition Artifact (Fluid)
          │
-         ▼ [Sovereign review]
+         ▼ [Principal review]
 Canonical Candidate identified
          │
          ▼ [Validation period]
 Insight proves stable across sessions
          │
          ▼ [Corpus update]
-New/...
-end
+New/revised canonical document
+         │
+         ▼ [Propagation]
+Updated corpus available to all IICs
+```
 
+### B. Graduation Criteria
 
-TERM BGraduationCriteria:
-    sutra: "From transition artifact to corpus: - Insight has proven stable across 3+ sessions - Represents f..."
-    gloss:
-        From transition artifact to corpus:
+From transition artifact to corpus:
 - Insight has proven stable across 3+ sessions
 - Represents framework evolution (not just task-specific)
 - Fills identified gap in corpus coverage
 - Aligns with constitutional principles
-- Sovereign approves graduation
-end
+- Principal approves graduation
 
+### C. Forgetting Interface
 
-TERM CForgettingInterface:
-    sutra: "Not all transitions warrant preservation:  Archive (default): Transition artifacts kept for poten..."
-    gloss:
-        Not all transitions warrant preservation:
+Not all transitions warrant preservation:
 
 **Archive** (default): Transition artifacts kept for potential reference
 **Prune**: Transitions with no lasting value can be deleted
 **Merge**: Multiple related transitions can consolidate
 **Graduate**: Insights can move to canonical documents
 
-Monthly hygi...
-end
+Monthly hygiene: Review archived transitions, prune low-value, consolidate related.
 
+---
 
-TERM AAnticipatedEnhancements:
-    sutra: "As CLI capabilities mature: - Auto-injection: CLI tools automatically load relevant transition ar..."
-    gloss:
-        As CLI capabilities mature:
+## PART VIII: FUTURE EVOLUTION
+
+### A. Anticipated Enhancements
+
+As CLI capabilities mature:
 - **Auto-injection**: CLI tools automatically load relevant transition artifacts
 - **Semantic linking**: Transitions linked by topic, not just time
 - **Cross-platform sync**: Transition artifacts portable across AI platforms
-- **Proactive transitions**: AI initiates trans...
-end
+- **Proactive transitions**: AI initiates transitions before capacity limits
 
+### B. MCP Integration Path
 
-TERM BMCPIntegrationPath:
-    sutra: "When MCP achieves universality: - Transition artifacts as MCP resources - Cross-platform context ..."
-    gloss:
-        When MCP achieves universality:
+When MCP achieves universality:
 - Transition artifacts as MCP resources
 - Cross-platform context injection via MCP
 - Standardized transition format across platforms
-end
 
+### C. Measurement
 
-TERM CMeasurement:
-    sutra: "Success Metrics: - Time to productive state after session start - Context restoration completenes..."
-    gloss:
-        **Success Metrics**:
+**Success Metrics**:
 - Time to productive state after session start
 - Context restoration completeness (measured by follow-up questions needed)
 - Compression ratio achieved vs. semantic fidelity maintained
 - Canonical graduation rate from transition artifacts
 
 ---
-end
 
+## PART IX: ORACLE PEDIGREE PROTOCOL
 
-TERM APurpose:
-    sutra: "As work increasingly moves from web app to repository, traditional handoff documents become less ..."
-    gloss:
-        As work increasingly moves from web app to repository, traditional handoff documents become less necessary. The Oracle Pedigree provides:
+### A. Purpose
+
+As work increasingly moves from web app to repository, traditional handoff documents become less necessary. The Oracle Pedigree provides:
 
 1. **Historical Lineage Tracking**: Oracle 0 → current thread
 2. **Decision Archaeology**: What was decided and why
-3. **Multi-Model Integration**: Tracks decisi...
-end
+3. **Multi-Model Integration**: Tracks decisions across platforms, not just Claude
 
+From Oracle 12 (Principal's words):
+> "The intention archaeology compass should be unified... it's a cache, but it's also a rolling snapshot."
 
-TERM BPedigreevsHandoff:
-    sutra: "Handoff Documents remain useful for: - Session initialization prompts - Context restoration acros..."
-    gloss:
-        **Handoff Documents** remain useful for:
+### B. Pedigree vs. Handoff
+
+**Handoff Documents** remain useful for:
 - Session initialization prompts
 - Context restoration across model resets
 - Cross-platform synchronization (push context)
@@ -556,14 +488,12 @@ TERM BPedigreevsHandoff:
 **Oracle Pedigree** supersedes handoff for:
 - Decision archaeology (pull context)
 - Multi-model coordination history
-- Repository-centr...
-end
+- Repository-centric workflows
+- Long-term pattern analysis
 
+### C. Pedigree Components
 
-TERM CPedigreeComponents:
-    sutra: "Each Oracle session generates pedigree metadata:  ``yaml oracle_pedigree:   thread_id: "Oracle 12..."
-    gloss:
-        Each Oracle session generates pedigree metadata:
+Each Oracle session generates pedigree metadata:
 
 ```yaml
 oracle_pedigree:
@@ -574,132 +504,129 @@ oracle_pedigree:
 
   decisions:
     - id: DEC-043A-001
-      sovereign_words: "retain all 3 Claude Pro accounts"
-      interpret...
-end
+      principal_words: "retain all 3 Claude Pro accounts"
+      interpretation: "Maximize velocity during critical phase"
+      lenses_applied: [2, 4, 12, 14]  # Bitter Lesson, Meet the Moment, etc.
+      score: "16/18"
+      outcome: "Platform constellation specification"
 
+  artifacts_produced:
+    - CANON-25200-CONSTELLATION_ARCH
+    - ARCH-INTENTION_COMPASS
+    - coordination.yaml update
 
-TERM DPedigreeLocation:
-    sutra: "Pedigree information is distributed across:  | Component | Location | Purpose | |-----------|----..."
-    gloss:
-        Pedigree information is distributed across:
+  handoff_state:
+    open_threads: ["sustainability", "ChatGPT onboarding"]
+    blocked_by: null
+    ready_for: "execution"
+```
+
+### D. Pedigree Location
+
+Pedigree information is distributed across:
 
 | Component | Location | Purpose |
 |-----------|----------|---------|
 | Thread summaries | ARCH-ORACLE_ARC_SUMMARY.md | Historical lineage |
 | Decisions | ARCH-ORACLE_DECISIONS.md | Decision archaeology |
-| Intentions | ARCH-INTENTION_COMPASS.md | Active/...
-end
+| Intentions | ARCH-INTENTION_COMPASS.md | Active/resolved intentions |
+| Execution | EXECUTION_LOG-*.md | Implementation records |
 
+### E. Cross-Platform Pedigree
 
-TERM ECrossPlatformPedigree:
-    sutra: "When decisions involve multiple platforms:  ```markdown"
-    gloss:
-        When decisions involve multiple platforms:
+When decisions involve multiple platforms:
 
 ```markdown
-end
-
-
-TERM DecisionDEC043A001:
-    sutra: "Platforms Involved: Claude (Oracle, Alpha, Beta), Gemini, ChatGPT Decision Point: Platform specia..."
-    gloss:
-        **Platforms Involved**: Claude (Oracle, Alpha, Beta), Gemini, ChatGPT
+## Decision: DEC-043A-001
+**Platforms Involved**: Claude (Oracle, Alpha, Beta), Gemini, ChatGPT
 **Decision Point**: Platform specialization architecture
-**Sovereign's Words**: "design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid"
-end
+**Principal's Words**: "design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid"
 
-
-TERM PlatformSpecificImplications:
-    sutra: "| Platform | Role | Action Required | |----------|------|-----------------| | Claude Oracle | Arc..."
-    gloss:
-        | Platform | Role | Action Required |
+### Platform-Specific Implications
+| Platform | Role | Action Required |
 |----------|------|-----------------|
-| Claude Oracle | Architect | Produce [[CANON-25200-CONSTELLATION_ARCH-lattice]] |
+| Claude Oracle | Architect | Produce CANON-25200 |
 | Claude Alpha | Execute | Implement architecture |
 | Gemini | Ingest | Configure for YouTube |
 | ChatGPT | Review | Codex CLI integration |
-end
 
-
-TERM Verification:
-    sutra: "- [ ] [[CANON-25200-CONSTELLATION_ARCH-lattice]] created - [ ] coordination.yaml updated - [ ] Each platform configured ```"
-    gloss:
-        - [ ] [[CANON-25200-CONSTELLATION_ARCH-lattice]] created
+### Verification
+- [ ] CANON-25200 created
 - [ ] coordination.yaml updated
 - [ ] Each platform configured
 ```
-end
 
+### F. Pedigree Maintenance
 
-TERM FPedigreeMaintenance:
-    sutra: "During Oracle Session: 1"
-    gloss:
-        **During Oracle Session**:
-1. Capture Sovereign's words verbatim
+**During Oracle Session**:
+1. Capture Principal's words verbatim
 2. Document Oracle's interpretation
 3. Record 18-lens evaluation (if strategic)
 4. Note artifacts produced
 
 **After Oracle Session**:
 1. Update ARCH-ORACLE_ARC_SUMMARY.md with thread summary
-2. Update ARCH-ORACLE_DECISIONS.md with key...
-end
+2. Update ARCH-ORACLE_DECISIONS.md with key decisions
+3. Update ARCH-INTENTION_COMPASS.md with new intentions
+4. Git commit with pedigree reference
 
+**Across Sessions**:
+- Pedigree enables any Oracle to understand full decision history
+- Pattern analysis reveals recurring themes
+- Anti-patterns become visible over time
 
-TERM ContextTransitionDate:
-    sutra: "State: [One sentence on where we are] Key point: [Most important thing to remember] Resume with: ..."
-    gloss:
-        **State**: [One sentence on where we are]
+---
+
+## APPENDIX A: QUICK REFERENCE
+
+### Minimal Transition (Light Touch)
+```markdown
+## Context Transition: [Date]
+**State**: [One sentence on where we are]
 **Key point**: [Most important thing to remember]
 **Resume with**: "[Exact prompt to continue]"
 ```
-end
 
+### Standard Transition (Most Sessions)
+```markdown
+## Context Transition: [Date] - [Topic]
+**Modes**: [Active modes]
 
-TERM ContextTransitionDateTopic:
-    sutra: "Modes: [Active modes]"
-    gloss:
-        **Modes**: [Active modes]
-end
+### State
+[2-3 sentences on current position]
 
+### Insights (if culminating)
+1. [Key insight]
 
-TERM State:
-    sutra: "[2-3 sentences on current position]"
-    gloss:
-        [2-3 sentences on current position]
-end
-
-
-TERM Continuationifresuming:
-    sutra: "Entry point: "[Prompt]" Context needed: [Brief list]"
-    gloss:
-        Entry point: "[Prompt]"
+### Continuation (if resuming)
+Entry point: "[Prompt]"
 Context needed: [Brief list]
-end
 
+### Next
+1. [Action]
+```
 
-NORM HandoffSourceTarget:
-    sutra: "Topic: [What's being transferred] For target: [What they should do] Context: [Compressed relevant..."
-    gloss:
-        **Topic**: [What's being transferred]
+### Handoff Transition (Cross-IIC)
+```markdown
+## Handoff: [Source] → [Target]
+**Topic**: [What's being transferred]
 **For target**: [What they should do]
 **Context**: [Compressed relevant state]
 **Entry**: "[Prompt for target IIC]"
 ```
 
 ---
-end
 
+## APPENDIX B: MIGRATION FROM SEPARATE PROTOCOLS
 
-TERM APPENDIXBMIGRATIONFROMSEPARATEPROTOCOLS:
-    sutra: "If you have existing separate culmination, continuation, or compression artifacts:  They remain v..."
-    gloss:
-        If you have existing separate culmination, continuation, or compression artifacts:
+If you have existing separate culmination, continuation, or compression artifacts:
 
 **They remain valid**. This unified protocol doesn't invalidate prior work.
 
 **Going forward**: Use the unified interface. The system produces whatever combination is needed.
 
-**Conversion**: Existing artifacts can b...
-end
+**Conversion**: Existing artifacts can be loaded as continuation context—they serve the same function.
+
+---
+
+**END CANON-25100-lattice-CONTEXT_TRANSITION_PROTOCOL-v1_1.md**

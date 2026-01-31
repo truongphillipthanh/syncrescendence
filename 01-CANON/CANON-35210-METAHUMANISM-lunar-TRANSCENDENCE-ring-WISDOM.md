@@ -1,10 +1,10 @@
 ---
-id: [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]]
+id: CANON-35210
 name: Metahumanism Framework
 identity: METAHUMANISM
 tier: CANON
 type: lunar
-parent: [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]]
+parent: CANON-35200
 chain: WISDOM
 ring: TRANSCENDENCE
 version: 1.0.0
@@ -14,105 +14,98 @@ updated: 2026-01-02
 synopsis: Comprehensive philosophical framework synthesizing belief systems, epistemic stratigraphy, volition, spiritual planes, causation, and fundamental essentia into unified metahuman worldview.
 ---
 
-# CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM (SN Format)
+# CANON-35210: METAHUMANISM FRAMEWORK
+## Transcendence Ring Lunar — Philosophical Integration
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,349 words, 10,249 characters
-
----
-
-TERM TranscendenceRingLunarPhilosophicalIntegration:
-    sutra: "> Parent: CANON-35200-GAIAN_NODE > Chain: WISDOM > Source: Coherence/4-Roadmap/Metahumanism (920K..."
-    gloss:
-        > **Parent**: CANON-35200-GAIAN_NODE
+> **Parent**: [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]]-GAIAN_NODE
 > **Chain**: WISDOM
 > **Source**: Coherence/4-Roadmap/Metahumanism (920K → 40K distilled)
 > **18-Lens Evaluation**: 13/18 = CANON tier
 > **Status**: Canonical
 
 ---
-end
 
+## PURPOSE
 
-TERM PURPOSE:
-    sutra: "Metahumanism provides the philosophical foundation for Syncrescendence—a unified worldview integr..."
-    gloss:
-        Metahumanism provides the philosophical foundation for Ψ—a unified worldview integrating insights from belief system analysis, epistemology, volition studies, spiritual traditions, causation theory, and phenomenology into coherent framework for human development beyond conventional limitations.
+Metahumanism provides the philosophical foundation for Syncrescendence—a unified worldview integrating insights from belief system analysis, epistemology, volition studies, spiritual traditions, causation theory, and phenomenology into coherent framework for human development beyond conventional limitations.
 
-Thi...
-end
+This is NOT a belief system to be adopted but a meta-framework for understanding, evaluating, and integrating worldviews.
 
+---
 
-TERM CoreRecognition:
-    sutra: "Belief systems function as constitutive structures of consciousness—not mere collections of propo..."
-    gloss:
-        Belief systems function as **constitutive structures of consciousness**—not mere collections of propositions but the very architecture through which experience gains meaning. They are:
+## PART I: BELIEF SYSTEMS FRAMEWORK
+
+### Core Recognition
+
+Belief systems function as **constitutive structures of consciousness**—not mere collections of propositions but the very architecture through which experience gains meaning. They are:
 
 - **Dynamic rather than static**: Continuously adapting to material and social conditions
-- **Self-referential**:...
-end
+- **Self-referential**: Evolving recursively rather than resolving dialectically
+- **Multi-layered**: Operating across material, cognitive, and organizational dimensions
+- **Semiotic**: Manifesting through intricate symbolic ecosystems
 
+### Meta-Dialectical Approach
 
-TERM MetaDialecticalApproach:
-    sutra: "Traditional dialectics: Thesis → Antithesis → Synthesis Meta-dialectics: Thesis → Self-Referentia..."
-    gloss:
-        Traditional dialectics: Thesis → Antithesis → Synthesis
+Traditional dialectics: Thesis → Antithesis → Synthesis
 **Meta-dialectics**: Thesis → Self-Referential Feedback → Infinite Expansion
 
-This shift recognizes that belief systems don't resolve contradictions but expand through recursive iteration, explaining how ideologies maintain internal contradicti...
-end
+This shift recognizes that belief systems don't resolve contradictions but expand through recursive iteration, explaining how ideologies maintain internal contradictions while continuing to evolve.
 
+### Core Dialectical Taxonomies
 
-TERM CoreDialecticalTaxonomies:
-    sutra: "| Domain | Tension | Manifestations | Synthesis | |--------|---------|----------------|----------..."
-    gloss:
-        | Domain | Tension | Manifestations | Synthesis |
+| Domain | Tension | Manifestations | Synthesis |
 |--------|---------|----------------|-----------|
 | Political | Individual ↔ Collective | Anarchism ↔ Authoritarianism | Liberal Democracy |
 | Economic | Planning ↔ Market | Communism ↔ Capitalism | Mixed Economy |
-| Epistemological | Empiricism ↔ Ra...
-end
+| Epistemological | Empiricism ↔ Rationalism | Realism ↔ Constructivism | Pragmatism |
 
+### Phenomenological Embodiment
 
-TERM PhenomenologicalEmbodiment:
-    sutra: "Belief systems become embodied modes of being-in-the-world: - Operating as perceptual filters sha..."
-    gloss:
-        Belief systems become **embodied modes of being-in-the-world**:
+Belief systems become **embodied modes of being-in-the-world**:
 - Operating as perceptual filters shaping what becomes salient
 - Generating characteristic affective resonance
 - Manifesting as bodily hexis (posture, gesture, tacit knowing)
 - Becoming internalized as pre-reflective intuitions
 
-**Key I...
-end
+**Key Insight**: Beliefs are not just ideas but things people feel in their bones—explaining the stubbornness of worldviews.
 
+---
 
-TERM TheTwelveEpistemicStrata:
-    sutra: "Human knowing operates across twelve distinct layers, each with characteristic methods, validatio..."
-    gloss:
-        Human knowing operates across twelve distinct layers, each with characteristic methods, validations, and limitations:
+## PART II: EPISTEMIC STRATIGRAPHY
+
+### The Twelve Epistemic Strata
+
+Human knowing operates across twelve distinct layers, each with characteristic methods, validations, and limitations:
 
 | Stratum | Mode | Validation | Limitation |
 |---------|------|------------|------------|
 | 1. Sensory | Direct perception | Immediate experience | Perceptual illusion |
-| 2. Empiri...
-end
+| 2. Empirical | Systematic observation | Reproducibility | Measurement limits |
+| 3. Logical | Formal reasoning | Internal consistency | Axiom dependence |
+| 4. Mathematical | Abstract structure | Proof | Applicability gap |
+| 5. Scientific | Hypothesis testing | Falsification | Paradigm blindness |
+| 6. Hermeneutic | Interpretation | Coherence | Infinite regress |
+| 7. Phenomenological | Lived experience | First-person validity | Intersubjective limits |
+| 8. Intuitive | Direct knowing | Insight verification | False intuition |
+| 9. Aesthetic | Beauty recognition | Resonance | Subjectivity |
+| 10. Ethical | Value discernment | Consequence assessment | Conflicting values |
+| 11. Spiritual | Transcendent insight | Tradition validation | Unfalsifiable |
+| 12. Integral | Meta-perspective | Cross-stratum coherence | Complexity overwhelm |
 
+### Epistemic Integration Principles
 
-TERM EpistemicIntegrationPrinciples:
-    sutra: "1"
-    gloss:
-        1. **Stratum Appropriateness**: Each domain of inquiry has optimal epistemic approaches
+1. **Stratum Appropriateness**: Each domain of inquiry has optimal epistemic approaches
 2. **Cross-Validation**: Knowledge gains robustness through multi-stratum confirmation
 3. **Humility Recognition**: Each stratum has inherent limitations
-4. **Dynamic Ascent**: Higher strata integrate rather than...
-end
+4. **Dynamic Ascent**: Higher strata integrate rather than replace lower ones
 
+---
 
-TERM TheArchitectureofWill:
-    sutra: "Volition operates through hierarchical structure:  `` LEVEL 4: Meta-Volition (willing about willi..."
-    gloss:
-        Volition operates through hierarchical structure:
+## PART III: VOLITION FRAMEWORK
+
+### The Architecture of Will
+
+Volition operates through hierarchical structure:
 
 ```
 LEVEL 4: Meta-Volition (willing about willing)
@@ -123,186 +116,159 @@ LEVEL 2: Deliberative Will (conscious choosing)
     ↑
 LEVEL 1: First-Order Desire (immediate wanting)
 ```
-end
 
+### Frankfurt's Hierarchy Applied
 
-TERM FrankfurtsHierarchyApplied:
-    sutra: "- Wanton: Acts on first-order desires without reflection - Person: Possesses second-order volitio..."
-    gloss:
-        - **Wanton**: Acts on first-order desires without reflection
+- **Wanton**: Acts on first-order desires without reflection
 - **Person**: Possesses second-order volitions—desires about desires
 - **Free Will**: Effective second-order volitions align with action
-end
 
+### Volition Development Pathway
 
-TERM VolitionDevelopmentPathway:
-    sutra: "| Stage | Characteristic | Practice | |-------|----------------|----------| | Reactive | Stimulus..."
-    gloss:
-        | Stage | Characteristic | Practice |
+| Stage | Characteristic | Practice |
 |-------|----------------|----------|
 | Reactive | Stimulus-response | Pause practice |
 | Deliberative | Conscious choice | Decision journaling |
 | Second-Order | Meta-preference awareness | Values clarification |
-| Autonomous | Self-authored values | Authentici...
-end
+| Autonomous | Self-authored values | Authenticity cultivation |
+| Transcendent | Willing beyond self | Service integration |
 
+---
 
-TERM TheSevenPlanes:
-    sutra: "Drawing from perennial wisdom traditions, consciousness manifests across seven distinct planes:  ..."
-    gloss:
-        Drawing from perennial wisdom traditions, consciousness manifests across seven distinct planes:
+## PART IV: SPIRITUAL PLANES CARTOGRAPHY
+
+### The Seven Planes
+
+Drawing from perennial wisdom traditions, consciousness manifests across seven distinct planes:
 
 | Plane | Nature | Access Method | Experience |
 |-------|--------|---------------|------------|
 | Physical | Dense matter | Body awareness | Solidity, weight |
-| Etheric | Life force | Breathwork | Vital...
-end
+| Etheric | Life force | Breathwork | Vitality, energy |
+| Astral | Emotion | Feeling practice | Desire, passion |
+| Mental | Thought | Concentration | Ideas, reason |
+| Causal | Will | Intention setting | Purpose, direction |
+| Buddhic | Intuition | Contemplation | Direct knowing |
+| Atmic | Spirit | Surrender | Unity, transcendence |
 
+### Cross-Traditional Synthesis
 
-TERM CrossTraditionalSynthesis:
-    sutra: "The framework synthesizes: - Vedantic: Koshas (sheaths) model - Theosophical: Plane hierarchies -..."
-    gloss:
-        The framework synthesizes:
+The framework synthesizes:
 - **Vedantic**: Koshas (sheaths) model
 - **Theosophical**: Plane hierarchies
 - **Kabbalistic**: Tree of Life mappings
 - **Buddhist**: Skandhas and bardos
 - **Neoplatonic**: Emanation levels
-end
 
+### Practical Navigation
 
-TERM PracticalNavigation:
-    sutra: "Each plane has characteristic: - Signatures: How it feels when accessed - Distortions: Common mis..."
-    gloss:
-        Each plane has characteristic:
+Each plane has characteristic:
 - **Signatures**: How it feels when accessed
 - **Distortions**: Common misperceptions
 - **Practices**: Methods for cultivation
 - **Integrations**: How to ground insights
 
 ---
-end
 
+## PART V: CAUSATION CONTINUUM
 
-TERM BeyondLinearCausality:
-    sutra: "Causation operates across spectrum from mechanical to teleological:  `` MATERIAL ←———————————————..."
-    gloss:
-        Causation operates across spectrum from mechanical to teleological:
+### Beyond Linear Causality
+
+Causation operates across spectrum from mechanical to teleological:
 
 ```
 MATERIAL ←—————————————————————————→ FINAL
 (efficient)    (formal)    (teleological)
 push           pattern         pull
 ```
-end
 
+### Four Causes (Aristotelian Update)
 
-TERM FourCausesAristotelianUpdate:
-    sutra: "| Cause | Question | Modern Expression | |-------|----------|-------------------| | Material | Wh..."
-    gloss:
-        | Cause | Question | Modern Expression |
+| Cause | Question | Modern Expression |
 |-------|----------|-------------------|
 | Material | What is it made of? | Substrate, components |
 | Efficient | What made it? | Mechanism, trigger |
 | Formal | What pattern does it follow? | Structure, information |
-| Final | What is it for? | Purpose, func...
-end
+| Final | What is it for? | Purpose, function |
 
+### Emergence and Downward Causation
 
-TERM EmergenceandDownwardCausation:
-    sutra: "Complex systems exhibit: - Upward causation: Parts → whole - Downward causation: Whole → parts - ..."
-    gloss:
-        Complex systems exhibit:
+Complex systems exhibit:
 - **Upward causation**: Parts → whole
 - **Downward causation**: Whole → parts
 - **Lateral causation**: Part → part
 - **Circular causation**: Feedback loops
-end
 
+### Implications for Agency
 
-TERM ImplicationsforAgency:
-    sutra: "Human agency operates through final causation—we are caused by futures we imagine"
-    gloss:
-        Human agency operates through final causation—we are caused by futures we imagine. This distinguishes intentional action from mechanical movement.
+Human agency operates through final causation—we are caused by futures we imagine. This distinguishes intentional action from mechanical movement.
 
 ---
-end
 
+## PART VI: FUNDAMENTAL ESSENTIA
 
-TERM TheCoreOntologicalCategories:
-    sutra: "Reality manifests through fundamental categories:  | Essentia | Nature | Examples | |----------|-..."
-    gloss:
-        Reality manifests through fundamental categories:
+### The Core Ontological Categories
+
+Reality manifests through fundamental categories:
 
 | Essentia | Nature | Examples |
 |----------|--------|----------|
 | Being | Existence itself | Presence, isness |
 | Consciousness | Awareness | Experience, knowing |
 | Energy | Capacity for work | Force, potential |
-| Information | Pattern, structur...
-end
+| Information | Pattern, structure | Order, form |
+| Time | Change, process | Duration, sequence |
+| Space | Extension, relation | Location, dimension |
+| Value | Worth, significance | Good, beautiful, true |
 
+### The Consciousness-Matter Interface
 
-TERM TheConsciousnessMatterInterface:
-    sutra: "Two fundamental perspectives: - Physicalism: Matter → consciousness (emergence) - Panpsychism: Co..."
-    gloss:
-        Two fundamental perspectives:
+Two fundamental perspectives:
 - **Physicalism**: Matter → consciousness (emergence)
 - **Panpsychism**: Consciousness → matter (fundamental)
 - **Dual-aspect**: Both manifestations of deeper ground
-end
 
+### Metahuman Integration
 
-TERM MetahumanIntegration:
-    sutra: "The metahuman recognizes: 1"
-    gloss:
-        The metahuman recognizes:
+The metahuman recognizes:
 1. Categories are **conceptual tools**, not ultimate realities
 2. All frameworks are **maps, not territory**
 3. Direct experience **transcends** categorical analysis
 4. Integration requires **both/and** rather than either/or
 
 ---
-end
 
+## SYNTHESIS: THE METAHUMAN WORLDVIEW
 
-TERM CoreRecognitions:
-    sutra: "1"
-    gloss:
-        1. **Consciousness is fundamental** (or at minimum, irreducible)
+### Core Recognitions
+
+1. **Consciousness is fundamental** (or at minimum, irreducible)
 2. **Reality is multi-dimensional** (not merely physical)
 3. **Evolution has direction** (toward complexity, consciousness, integration)
 4. **Human potential is vast** (far beyond conventional limits)
-5. **Wisdom integrates knowledge**...
-end
+5. **Wisdom integrates knowledge** (across all epistemic strata)
+6. **Volition is creative** (we participate in reality-making)
+7. **Connection is primary** (separation is appearance, not essence)
 
+### Practical Implications
 
-TERM PracticalImplications:
-    sutra: "The metahuman practitioner: - Holds beliefs lightly while acting decisively - Integrates multiple..."
-    gloss:
-        The metahuman practitioner:
+The metahuman practitioner:
 - Holds beliefs **lightly** while acting **decisively**
 - Integrates multiple epistemic approaches **contextually**
 - Cultivates volition at **higher levels**
 - Navigates spiritual planes **skillfully**
 - Understands causation **comprehensively**
-- Recognizes essentia as...
-end
+- Recognizes essentia as **tools for navigation**
 
+### The Metahuman Project
 
-TERM TheMetahumanProject:
-    sutra: "Metahumanism is not an endpoint but a trajectory—the ongoing integration of human capacities towa..."
-    gloss:
-        Metahumanism is not an endpoint but a **trajectory**—the ongoing integration of human capacities toward fuller expression of consciousness, wisdom, and creative agency.
+Metahumanism is not an endpoint but a **trajectory**—the ongoing integration of human capacities toward fuller expression of consciousness, wisdom, and creative agency.
 
 ---
-end
 
+## APPLICATION IN SYNCRESCENDENCE
 
-TERM APPLICATIONINSYNCRESCENDENCE:
-    sutra: "This framework informs: - CANON-35xxx (Wisdom chain): Philosophical foundations - CANON-20xxx (Co..."
-    gloss:
-        This framework informs:
+This framework informs:
 - **CANON-35xxx** (Wisdom chain): Philosophical foundations
 - **CANON-20xxx** (Cognitive Palace): Dimensional structure
 - **CANON-32xxx** (Coherence): Integration methodology
@@ -310,5 +276,4 @@ TERM APPLICATIONINSYNCRESCENDENCE:
 
 ---
 
-*Distilled from Coherence/4-Roadmap/M...
-end
+*Distilled from Coherence/4-Roadmap/Metahumanism research corpus (920K). Full philosophical research preserved in ARCHIVE-METAHUMANISM.*

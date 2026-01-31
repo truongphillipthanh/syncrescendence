@@ -1,11 +1,11 @@
 ---
-id: [[CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE]]
+id: CANON-30410
 name: Cognitive Architecture
 identity: COGNITIVE_ARCHITECTURE
 tier: CANON
 type: asteroid
 chain: INTELLIGENCE
-parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
+parent: CANON-30400
 version: 2.0.0
 status: canonical
 created: 2025-12-30
@@ -13,60 +13,129 @@ updated: 2025-12-30
 synopsis: Detailed cognitive architectures for language agents—CoALA framework, reasoning patterns, perception and planning primitives.
 ---
 
-# CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE (SN Format)
+# CANON-30410: COGNITIVE ARCHITECTURE
+## Intelligence Chain Asteroid
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,309 words, 12,517 characters
+**Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+
+---
+
+## PURPOSE
+
+This asteroid provides detailed specifications for cognitive architectures powering autonomous agents. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys the landscape, this document provides implementation depth for the CoALA framework, reasoning patterns, and cognitive primitives.
 
 ---
 
-TERM IntelligenceChainAsteroid:
-    sutra: "Parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)  ---"
-    gloss:
-        **Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+## PART I: CoALA FRAMEWORK
 
----
-end
+### 1.1 Core Architecture
 
-
-TERM PURPOSE:
-    sutra: "This asteroid provides detailed specifications for cognitive architectures powering autonomous ag..."
-    gloss:
-        This asteroid provides detailed specifications for cognitive architectures powering autonomous agents. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys the landscape, this document provides implementation depth for the CoALA framework, reasoning patterns, and cognitive primitives.
-
----
-end
-
-
-TERM 11CoreArchitecture:
-    sutra: "Cognitive Architectures for Language Agents (CoALA) organizes agent cognition into modular compon..."
-    gloss:
-        Cognitive Architectures for Language Agents (CoALA) organizes agent cognition into modular components with defined interfaces:
+Cognitive Architectures for Language Agents (CoALA) organizes agent cognition into modular components with defined interfaces:
 
 ```yaml
 CoALA_Architecture:
   Perception_Module:
     function: Transform raw environmental data into structured representations
-    inputs: Text, images, APIs, user interac...
-end
+    inputs: Text, images, APIs, user interactions, sensor data
+    outputs: Structured semantic representations
+    components:
+      - Text encoder (NLU pipeline)
+      - Visual encoder (CNN/ViT)
+      - Multimodal fusion layer
+      - Entity and intent extractors
 
+  Memory_Module:
+    function: Store, retain, retrieve information across timescales
+    types:
+      working: Immediate context, rapid access, limited capacity
+      episodic: Specific interaction sequences, experience replay
+      semantic: Factual knowledge, concepts, relationships
+      procedural: Learned skills, action sequences
+      prospective: Future intentions, scheduled actions
+    interfaces:
+      - write(content, type, metadata)
+      - read(query, type, top_k)
+      - update(id, delta)
+      - forget(criteria)
 
-TERM 12ModuleCoordination:
-    sutra: "`` ┌─────────────────────────────────────────────────────────────┐ │                     PERCEPTI..."
-    gloss:
-        ```
+  Planning_Module:
+    function: Decompose goals into actionable steps
+    capabilities:
+      - Goal hierarchy construction
+      - Subgoal lattice generation
+      - Action sequence formulation
+      - Contingency branch creation
+      - Resource and constraint reasoning
+    interfaces:
+      - plan(goal, context, constraints)
+      - replan(feedback, partial_execution)
+      - evaluate(plan, criteria)
+
+  Action_Module:
+    function: Execute interactions with environment
+    capabilities:
+      - Tool invocation (API calls, code execution)
+      - Response generation
+      - State modification
+      - Sub-agent spawning
+    interfaces:
+      - execute(action, parameters)
+      - validate(result, expectation)
+      - rollback(action_id)
+
+  Learning_Module:
+    function: Improve strategies through experience
+    capabilities:
+      - Performance evaluation
+      - Error analysis
+      - Strategy refinement
+      - Knowledge extraction
+    interfaces:
+      - evaluate(trajectory, outcome)
+      - reflect(experience, criteria)
+      - update(policy, feedback)
+```
+
+### 1.2 Module Coordination
+
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                     PERCEPTION                               │
 │  Environmental data → Structured representations            │
 └────────────────────────────┬────────────────────────────────┘
-                             │...
-end
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                       MEMORY                                 │
+│  Store/retrieve context, facts, skills, intentions          │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      PLANNING                                │
+│  Goals → Subgoals → Action sequences                        │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                       ACTION                                 │
+│  Execute tools, generate responses, modify state            │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      LEARNING                                │
+│  Evaluate outcomes → Refine strategies → Update knowledge   │
+└─────────────────────────────────────────────────────────────┘
+```
 
+---
 
-TERM 21ReActReasonAct:
-    sutra: "The foundational pattern synergizing reasoning and acting:  ``yaml ReAct_Pattern:   loop:     1_T..."
-    gloss:
-        The foundational pattern synergizing reasoning and acting:
+## PART II: REASONING PATTERNS
+
+### 2.1 ReAct (Reason + Act)
+
+The foundational pattern synergizing reasoning and acting:
 
 ```yaml
 ReAct_Pattern:
@@ -74,14 +143,28 @@ ReAct_Pattern:
     1_Thought: Generate reasoning trace about current state
     2_Action: Determine and execute appropriate action
     3_Observation: Receive and process action result
-    4_Repeat: Until goal achieved or fail...
-end
+    4_Repeat: Until goal achieved or failure detected
 
+  example:
+    thought: "I need to find the population of Tokyo. I should search for this."
+    action: search("Tokyo population")
+    observation: "Tokyo has a population of approximately 13.96 million"
+    thought: "I now have the answer."
+    action: finish("13.96 million")
 
-TERM 22Reflexion:
-    sutra: "Self-correction loop enabling verbal reinforcement learning:  ``yaml Reflexion_Architecture:   co..."
-    gloss:
-        Self-correction loop enabling verbal reinforcement learning:
+  performance:
+    ALFWorld: +34% absolute success vs baselines
+    WebShop: +10% absolute success vs baselines
+
+  limitations:
+    - Linear trial-and-error can be inefficient
+    - Prone to loops without escape mechanisms
+    - Requires well-formatted observations
+```
+
+### 2.2 Reflexion
+
+Self-correction loop enabling verbal reinforcement learning:
 
 ```yaml
 Reflexion_Architecture:
@@ -91,14 +174,26 @@ Reflexion_Architecture:
     Self_Reflection: Generates linguistic improvement proposals
 
   loop:
-    1_Attempt: Actor ex...
-end
+    1_Attempt: Actor executes task
+    2_Evaluate: Evaluator scores outcome
+    3_Reflect: Self-reflection analyzes failures
+    4_Store: Reflection stored in episodic memory
+    5_Retry: Actor retries with reflection as context
 
+  key_innovation:
+    - No model fine-tuning required
+    - Learning through natural language reflection
+    - Episodic memory enables cross-attempt improvement
 
-TERM 23HierarchicalTaskNetworkHTN:
-    sutra: "Classical AI planning integrated with LLM flexibility:  ``yaml HTN_Pattern:   structure:     - Hi..."
-    gloss:
-        Classical AI planning integrated with LLM flexibility:
+  example_reflection:
+    "In my previous attempt, I searched for the wrong keyword.
+     The query 'Tokyo demographics' would be more specific than
+     'Tokyo info'. I should use more precise search terms."
+```
+
+### 2.3 Hierarchical Task Network (HTN)
+
+Classical AI planning integrated with LLM flexibility:
 
 ```yaml
 HTN_Pattern:
@@ -109,14 +204,32 @@ HTN_Pattern:
 
   hybrid_approach:
     symbolic_planner: Handles structured decomposition
-    llm_componen...
-end
+    llm_component: Generates decompositions when rules missing
 
+  example:
+    goal: "Write research report on AI agents"
+    decomposition:
+      1: "Gather sources"
+         1.1: "Search academic databases"
+         1.2: "Search industry reports"
+      2: "Analyze sources"
+         2.1: "Extract key findings"
+         2.2: "Identify themes"
+      3: "Draft report"
+         3.1: "Write introduction"
+         3.2: "Write body sections"
+         3.3: "Write conclusion"
+      4: "Review and refine"
 
-TERM 24TreeofThoughts:
-    sutra: "Parallel exploration with evaluation:  ``yaml Tree_of_Thoughts:   structure:     - Maintain tree ..."
-    gloss:
-        Parallel exploration with evaluation:
+  optimal_architecture:
+    - HTN planner generates high-level task tree
+    - Reflexion-style agents execute leaf tasks
+    - Local self-correction at each primitive
+```
+
+### 2.4 Tree-of-Thoughts
+
+Parallel exploration with evaluation:
 
 ```yaml
 Tree_of_Thoughts:
@@ -126,14 +239,28 @@ Tree_of_Thoughts:
     - Branches represent alternative reasoning paths
 
   search_strategies:
-    BFS: Parallel explorat...
-end
+    BFS: Parallel exploration of multiple branches
+    DFS: Deep investigation of promising paths
 
+  self_evaluation:
+    - Each thought assessed as: sure | maybe | impossible
+    - Enables backtracking from dead ends
+    - Pruning of unpromising branches
 
-TERM 25ExtendedChainofThought:
-    sutra: "Multi-stage internal reasoning for complex problems:  ``yaml Extended_CoT:   mechanism:     - Col..."
-    gloss:
-        Multi-stage internal reasoning for complex problems:
+  performance:
+    NATURAL_PLAN: +8% improvement
+    OlympiadBench: +4% improvement
+    DocFinQA: +7% improvement
+
+  implementation:
+    - Best-of-N sampling for initial thoughts
+    - Constraint-guided verification
+    - REBASE algorithms for refinement
+```
+
+### 2.5 Extended Chain-of-Thought
+
+Multi-stage internal reasoning for complex problems:
 
 ```yaml
 Extended_CoT:
@@ -144,14 +271,30 @@ Extended_CoT:
 
   characteristics:
     - Extended reasoning invisible to users
-    - Trades latenc...
-end
+    - Trades latency for accuracy
+    - Particularly effective on mathematics
 
+  performance:
+    AIME_mathematics: ~83% accuracy
+    Complex_reasoning: Dramatic improvement
 
-TERM 31TextPerception:
-    sutra: "``yaml Text_Perception:   intent_extraction:     - Classify user intent category     - Extract ac..."
-    gloss:
-        ```yaml
+  models:
+    - DeepSeek-R1
+    - GPT-o1 series
+
+  tradeoff:
+    increased_latency: Yes
+    increased_compute: Yes
+    improved_accuracy: Significantly on complex tasks
+```
+
+---
+
+## PART III: PERCEPTION PRIMITIVES
+
+### 3.1 Text Perception
+
+```yaml
 Text_Perception:
   intent_extraction:
     - Classify user intent category
@@ -162,14 +305,22 @@ Text_Perception:
     - Named entities (people, places, organizations)
     - Temporal expressions
     - Quantities and measurements
-    -...
-end
+    - Domain-specific entities
 
+  sentiment_analysis:
+    - Polarity (positive/negative/neutral)
+    - Emotion detection
+    - Urgency assessment
 
-TERM 32VisualPerception:
-    sutra: "``yaml Visual_Perception:   object_detection:     - Identify and localize objects     - Bounding ..."
-    gloss:
-        ```yaml
+  relationship_extraction:
+    - Subject-predicate-object triples
+    - Causal relationships
+    - Temporal sequences
+```
+
+### 3.2 Visual Perception
+
+```yaml
 Visual_Perception:
   object_detection:
     - Identify and localize objects
@@ -182,14 +333,19 @@ Visual_Perception:
     - Activity recognition
 
   OCR:
-    - Text extraction from images...
-end
+    - Text extraction from images
+    - Document structure recognition
+    - Handwriting recognition
 
+  multimodal_fusion:
+    - Image-text alignment
+    - Visual question answering
+    - Diagram interpretation
+```
 
-TERM 33MultimodalIntegration:
-    sutra: "``yaml Multimodal_Integration:   fusion_strategies:     early_fusion: Combine raw features before..."
-    gloss:
-        ```yaml
+### 3.3 Multimodal Integration
+
+```yaml
 Multimodal_Integration:
   fusion_strategies:
     early_fusion: Combine raw features before processing
@@ -198,14 +354,18 @@ Multimodal_Integration:
 
   capabilities:
     - Read diagrams embedded in PDFs
-    - Unde...
-end
+    - Understand webpages by text and layout
+    - Process video with audio transcription
+    - Interpret charts and graphs
+```
 
+---
 
-TERM 41GoalDecomposition:
-    sutra: "``yaml Goal_Decomposition:   hierarchical:     - Top-level goal to abstract subgoals     - Abstra..."
-    gloss:
-        ```yaml
+## PART IV: PLANNING PRIMITIVES
+
+### 4.1 Goal Decomposition
+
+```yaml
 Goal_Decomposition:
   hierarchical:
     - Top-level goal to abstract subgoals
@@ -217,14 +377,15 @@ Goal_Decomposition:
     - Dependency ordering
     - Parallel execution opportunities
 
-  resource_...
-end
+  resource_aware:
+    - Token budget allocation
+    - API call optimization
+    - Compute distribution
+```
 
+### 4.2 Contingency Planning
 
-TERM 42ContingencyPlanning:
-    sutra: "``yaml Contingency_Planning:   anticipate:     - Common failure modes     - External dependencies..."
-    gloss:
-        ```yaml
+```yaml
 Contingency_Planning:
   anticipate:
     - Common failure modes
@@ -239,14 +400,12 @@ Contingency_Planning:
   implement:
     - If-then-else branches in plan
     - Retry with exponential backoff
-    - Escal...
-end
+    - Escalation triggers
+```
 
+### 4.3 Dynamic Replanning
 
-TERM 43DynamicReplanning:
-    sutra: "``yaml Dynamic_Replanning:   triggers:     - Action failure     - Unexpected observation     - Go..."
-    gloss:
-        ```yaml
+```yaml
 Dynamic_Replanning:
   triggers:
     - Action failure
@@ -260,55 +419,44 @@ Dynamic_Replanning:
     - Generate alternative paths
     - Select and execute new plan
 
-  constrain...
-end
+  constraints:
+    - Preserve completed work
+    - Minimize disruption
+    - Maintain consistency
+```
 
+---
 
-TERM 51SequentialPipeline:
-    sutra: "`` Perception → Reasoning → Planning → Execution → Observation → Loop ``  Simple, debuggable, but..."
-    gloss:
-        ```
+## PART V: PRIMITIVE COMPOSITION
+
+### 5.1 Sequential Pipeline
+
+```
 Perception → Reasoning → Planning → Execution → Observation → Loop
 ```
 
 Simple, debuggable, but errors cascade. Mitigate with intermediate validation.
-end
 
+### 5.2 Parallel Processing
 
-TERM 52ParallelProcessing:
-    sutra: "Multiple reasoning threads or solution attempts concurrently"
-    gloss:
-        Multiple reasoning threads or solution attempts concurrently. Use voting or confidence-based selection to handle conflicts.
-end
+Multiple reasoning threads or solution attempts concurrently. Use voting or confidence-based selection to handle conflicts.
 
+### 5.3 Hierarchical Recursive
 
-TERM 53HierarchicalRecursive:
-    sutra: "Parent agents spawn sub-agents; sub-agents may spawn further helpers"
-    gloss:
-        Parent agents spawn sub-agents; sub-agents may spawn further helpers. Requires meta-level control and stopping criteria to prevent infinite recursion.
-end
+Parent agents spawn sub-agents; sub-agents may spawn further helpers. Requires meta-level control and stopping criteria to prevent infinite recursion.
 
+### 5.4 Feedback Loops
 
-TERM 54FeedbackLoops:
-    sutra: "Cyclic composition where output feeds next iteration (Plan-Do-Check-Act)"
-    gloss:
-        Cyclic composition where output feeds next iteration (Plan-Do-Check-Act). Implement safeguards: iteration limits, convergence detection.
+Cyclic composition where output feeds next iteration (Plan-Do-Check-Act). Implement safeguards: iteration limits, convergence detection.
 
 ---
-end
 
+## SATELLITES
 
-TERM SATELLITES:
-    sutra: "None"
-    gloss:
-        None. This is a leaf asteroid.
+None. This is a leaf asteroid.
 
 ---
-end
 
+## VERSION HISTORY
 
-TERM VERSIONHISTORY:
-    sutra: "Version 1.0.0 (December 2025): Genesis establishment"
-    gloss:
-        **Version 1.0.0** (December 2025): Genesis establishment
-end
+**Version 1.0.0** (December 2025): Genesis establishment

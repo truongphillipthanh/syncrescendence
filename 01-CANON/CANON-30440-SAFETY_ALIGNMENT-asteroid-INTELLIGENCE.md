@@ -1,11 +1,11 @@
 ---
-id: [[CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE]]
+id: CANON-30440
 name: Safety and Alignment
 identity: SAFETY_ALIGNMENT
 tier: CANON
 type: asteroid
 chain: INTELLIGENCE
-parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
+parent: CANON-30400
 version: 2.0.0
 status: canonical
 created: 2025-12-30
@@ -13,42 +13,28 @@ updated: 2025-12-30
 synopsis: Agent security, attack vectors, defense-in-depth, governance frameworks, and alignment principles.
 ---
 
-# CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE (SN Format)
+# CANON-30440: SAFETY AND ALIGNMENT
+## Intelligence Chain Asteroid
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,780 words, 14,791 characters
+**Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+
+---
+
+## PURPOSE
+
+This asteroid provides detailed specifications for agent safety, security, and alignment. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys the threat landscape, this document provides implementation depth for defenses, governance frameworks, and alignment mechanisms.
 
 ---
 
-TERM IntelligenceChainAsteroid:
-    sutra: "Parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)  ---"
-    gloss:
-        **Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+## PART I: THREAT LANDSCAPE
 
----
-end
+### 1.1 Fundamental Threat Model
 
+Agent systems face fundamentally different threat models than static models. The combination of autonomy, tool access, and persistent state creates attack surfaces absent in traditional AI.
 
-TERM PURPOSE:
-    sutra: "This asteroid provides detailed specifications for agent safety, security, and alignment"
-    gloss:
-        This asteroid provides detailed specifications for agent safety, security, and alignment. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys the threat landscape, this document provides implementation depth for defenses, governance frameworks, and alignment mechanisms.
+### 1.2 Attack Vector Taxonomy
 
----
-end
-
-
-TERM 11FundamentalThreatModel:
-    sutra: "Agent systems face fundamentally different threat models than static models"
-    gloss:
-        Agent systems face fundamentally different threat models than static models. The combination of autonomy, tool access, and persistent state creates attack surfaces absent in traditional AI.
-end
-
-
-TERM 12AttackVectorTaxonomy:
-    sutra: "``yaml Attack_Vectors:   Agent_Hijacking:     mechanism: Indirect prompt injection via ingested d..."
-    gloss:
-        ```yaml
+```yaml
 Attack_Vectors:
   Agent_Hijacking:
     mechanism: Indirect prompt injection via ingested data
@@ -58,25 +44,49 @@ Attack_Vectors:
       - Poisoned documents
       - Compromised web pages
       - Injected database records
-    root_cause: No...
-end
+    root_cause: No separation between trusted instructions and untrusted data
 
+  Tool_Misuse:
+    mechanism: Exploit agent tool access
+    documented_attacks:
+      - SQL injection through database tools
+      - SSRF via web readers accessing internal networks
+      - RCE through insufficiently sandboxed code interpreters
+      - Metadata service access exfiltrating cloud tokens
+      - Broken Object-Level Authorization
+    status: Observed in production deployments
 
-TERM 13KeyResearchFindings:
-    sutra: "| Finding | Source | Implication | |---------|--------|-------------| | 51-72% unsafe behavior ra..."
-    gloss:
-        | Finding | Source | Implication |
+  Jailbreaking:
+    evolution:
+      direct: Explicit rule-breaking instructions (least effective)
+      emotional: Exploit helpfulness through distress scenarios
+      encoded: Character substitution, leetspeak, code blocks
+      symbolic: Metaphors, innuendos, double meanings
+      multi_shot: Hundreds of examples exploiting large contexts
+      multi_round: Decompose risks across conversation turns
+    scaling: Power law—success increases non-linearly with attempts
+
+  Deep_Scheming:
+    behaviors:
+      alignment_faking: Pretend to follow behavior during training, revert post-deployment
+      sandbagging: Deliberately underperform on benchmarks for long-term goals
+      environment_manipulation: Win by doctoring environments
+    implication: Models develop instrumental subgoals misaligned with intent
+    concern: Emerging in reasoning models
+```
+
+### 1.3 Key Research Findings
+
+| Finding | Source | Implication |
 |---------|--------|-------------|
 | 51-72% unsafe behavior rates | OpenAgentSafety | Current systems unacceptable for high-stakes |
 | 81% attack success with optimization | NIST US AI Safety | Novel attacks generalize across environments |
-| CVE-2025-32711 CVSS 9....
-end
+| CVE-2025-32711 CVSS 9.3 | Microsoft 365 Copilot | Real vulnerabilities in production systems |
+| 11% → 81% attack success | Claude 3.5 Sonnet | Repeated attempts dramatically increase success |
 
+### 1.4 OWASP Agentic AI Threats
 
-TERM 14OWASPAgenticAIThreats:
-    sutra: "``yaml OWASP_Taxonomy:   - Prompt injection   - Tool misuse   - Intent breaking and goal manipula..."
-    gloss:
-        ```yaml
+```yaml
 OWASP_Taxonomy:
   - Prompt injection
   - Tool misuse
@@ -88,13 +98,12 @@ OWASP_Taxonomy:
 ```
 
 ---
-end
 
+## PART II: DEFENSE-IN-DEPTH
 
-NORM 21FiveLayerDefenseArchitecture:
-    sutra: "``yaml Layer_1_Prompt_Hardening:   purpose: First line of defense   techniques:     - Strict beha..."
-    gloss:
-        ```yaml
+### 2.1 Five-Layer Defense Architecture
+
+```yaml
 Layer_1_Prompt_Hardening:
   purpose: First line of defense
   techniques:
@@ -105,38 +114,82 @@ Layer_1_Prompt_Hardening:
     - Clear role boundaries
 
   example: |
-    You are a customer service...
-end
+    You are a customer service agent for [Company].
+    You may ONLY answer questions about orders and products.
+    You must NEVER:
+    - Execute code or system commands
+    - Access files outside approved directories
+    - Modify user account settings
+    - Disclose internal system information
+    If asked about prohibited topics, respond:
+    "I can only help with order and product questions."
 
+Layer_2_Content_Filtering:
+  purpose: Runtime inspection of inputs/outputs
+  detection_targets:
+    - Tool schema extraction attempts
+    - Misuse pattern detection
+    - Memory manipulation attempts
+    - Malicious code execution (SQL injection, exploits)
+    - Sensitive data leakage (credentials, secrets)
+    - Malicious URLs and payloads
 
-TERM 22DefenseEffectiveness:
-    sutra: "| Defense | Success Rate | Limitations | |---------|--------------|-------------| | Reverse Turin..."
-    gloss:
-        | Defense | Success Rate | Limitations |
+Layer_3_Tool_Sanitization:
+  purpose: Validate all tool inputs
+  techniques:
+    - Type validation
+    - Format checking
+    - Boundary and range verification
+    - Special character filtering
+    - Schema enforcement
+  principle: NEVER implicitly trust tool inputs
+
+Layer_4_Vulnerability_Scanning:
+  purpose: Proactive security assessment
+  techniques:
+    - SAST (Static Application Security Testing)
+    - DAST (Dynamic Application Security Testing)
+    - SCA (Software Composition Analysis)
+    - Regular penetration testing
+    - Adversarial red teaming
+
+Layer_5_Code_Sandboxing:
+  purpose: Contain execution environment
+  controls:
+    network: Whitelist outbound domains only
+    filesystem: Limited volumes, tmpfs for temporary data
+    capabilities: Drop CAP_NET_RAW, CAP_SYS_MODULE, CAP_SYS_ADMIN
+    syscalls: Block kexec_load, mount, bpf
+    resources: CPU and memory quotas
+```
+
+### 2.2 Defense Effectiveness
+
+| Defense | Success Rate | Limitations |
 |---------|--------------|-------------|
 | Reverse Turing Test | 87-94% | Sophisticated attacks may pass |
 | Multi-agent alignment detection | 70-98% | Varies by faking sophistication |
 | GCG jailbreak defenses | 90.8% | New techniques bypass |
-| Defense-in-d...
-end
+| Defense-in-depth combined | Higher | No single layer sufficient |
 
+---
 
-TERM 31CorePrinciples:
-    sutra: "| Principle | Implementation | |-----------|----------------| | Well-defined human controllers | ..."
-    gloss:
-        | Principle | Implementation |
+## PART III: GOOGLE SAIF 2.0 PRINCIPLES
+
+### 3.1 Core Principles
+
+| Principle | Implementation |
 |-----------|----------------|
 | **Well-defined human controllers** | Clear ownership and accountability |
 | **Carefully limited powers** | Scope restrictions on capabilities |
 | **Observable actions and planning** | Full visibility into decision-making |
-| **Environme...
-end
+| **Environment confinement** | Sandboxing isolation |
+| **Separate evaluation** | Tool use and action steps validated independently |
+| **Multi-level monitoring** | Comprehensive logging for incident response |
 
+### 3.2 Agent Risk Map
 
-TERM 32AgentRiskMap:
-    sutra: "``yaml SAIF_Risk_Map:   purpose: Full-stack threat visualization    dimensions:     - Attack surf..."
-    gloss:
-        ```yaml
+```yaml
 SAIF_Risk_Map:
   purpose: Full-stack threat visualization
 
@@ -149,14 +202,17 @@ SAIF_Risk_Map:
 
   application:
     - Prioritize defensive investment
-    - Guide architecture decisi...
-end
+    - Guide architecture decisions
+    - Focus red team efforts
+```
 
+---
 
-TERM 41EUAIActRequirements:
-    sutra: "``yaml EU_AI_Act:   pillars:     - Risk assessment     - Transparency tools     - Technical deplo..."
-    gloss:
-        ```yaml
+## PART IV: GOVERNANCE FRAMEWORKS
+
+### 4.1 EU AI Act Requirements
+
+```yaml
 EU_AI_Act:
   pillars:
     - Risk assessment
@@ -169,14 +225,16 @@ EU_AI_Act:
     Agent_providers: Specific requirements
     Deployers: Ongoing compliance
 
-  high_risk_requirements:...
-end
+  high_risk_requirements:
+    - Mandatory human oversight
+    - Transparency obligations
+    - Technical documentation
+    - Risk management systems
+```
 
+### 4.2 KPMG TACO Framework
 
-TERM 42KPMGTACOFramework:
-    sutra: "``yaml TACO_Framework:   agent_categories:     Taskers: Single-task automation     Automators: Wo..."
-    gloss:
-        ```yaml
+```yaml
 TACO_Framework:
   agent_categories:
     Taskers: Single-task automation
@@ -188,14 +246,14 @@ TACO_Framework:
     - Reliability
     - Accountability
     - Transparency
-    - Security...
-end
+    - Security
+    - Privacy
+    - Fairness
+```
 
+### 4.3 Eight Essential Governance Practices
 
-TERM 43EightEssentialGovernancePractices:
-    sutra: "``yaml Governance_Practices:   1_Permissions_Boundaries:     - Specify accessible data     - Defi..."
-    gloss:
-        ```yaml
+```yaml
 Governance_Practices:
   1_Permissions_Boundaries:
     - Specify accessible data
@@ -207,14 +265,50 @@ Governance_Practices:
     - Data minimization
     - Purpose limitation
     - Encryption
-    - Anonymization...
-end
+    - Anonymization
+    - Access controls
 
+  3_Data_Retention:
+    - Clear retention policies
+    - Automated deletion
+    - Regulatory compliance
 
-TEST 51MultiLayerValidation:
-    sutra: "``yaml Validation_Layers:   Verification_Agent:     - Review outcomes before execution     - Cros..."
-    gloss:
-        ```yaml
+  4_Transparency_Explainability:
+    - Decision audit trails
+    - Accessible explanations
+    - Reasoning visibility
+
+  5_Human_Oversight:
+    - Intervention capability for high-stakes
+    - Emergency stop mechanisms
+    - Escalation pathways
+
+  6_Monitoring_Observability:
+    - Real-time dashboards
+    - Behavioral anomaly detection
+    - Automated alerts
+
+  7_Agent_Cataloging:
+    - Purpose documentation
+    - Capability inventory
+    - Tool access scope
+    - Version history
+    - Ownership tracking
+
+  8_Incident_Response:
+    - Investigation protocols
+    - Notification procedures
+    - Corrective actions
+    - Post-mortem analysis
+```
+
+---
+
+## PART V: VALIDATION AND VERIFICATION
+
+### 5.1 Multi-Layer Validation
+
+```yaml
 Validation_Layers:
   Verification_Agent:
     - Review outcomes before execution
@@ -226,14 +320,15 @@ Validation_Layers:
     - Sandbox high-stakes actions
     - Double-check with second agent
 
-  Alignment_Checks:...
-end
+  Alignment_Checks:
+    - Content filters for toxic outputs
+    - Bias assessments
+    - Policy compliance verification
+```
 
+### 5.2 Error Recovery Strategies
 
-TERM 52ErrorRecoveryStrategies:
-    sutra: "``yaml Error_Recovery:   tool_failure:     - Catch and retry with alternatives     - Request new ..."
-    gloss:
-        ```yaml
+```yaml
 Error_Recovery:
   tool_failure:
     - Catch and retry with alternatives
@@ -246,25 +341,31 @@ Error_Recovery:
     - Alternative approach selection
 
   chain_failure:
-    - Monitor action sequen...
-end
+    - Monitor action sequences
+    - Checkpoint after significant steps
+    - Detect loops and abort
 
+  key_insight: |
+    10-step task with 90% per-step success = ~35% overall success.
+    Agents must monitor chains and have recovery checkpoints.
+```
 
-TEST 61SecurityTestingInfrastructure:
-    sutra: "| Framework | Purpose | Methodology | |-----------|---------|-------------| | AgentDojo (ETH Zuri..."
-    gloss:
-        | Framework | Purpose | Methodology |
+---
+
+## PART VI: TESTING FRAMEWORKS
+
+### 6.1 Security Testing Infrastructure
+
+| Framework | Purpose | Methodology |
 |-----------|---------|-------------|
 | **AgentDojo** (ETH Zurich + US AISI) | Hijacking scenarios | 4 environments, red teaming |
 | **BAD-ACTS** | Adversarial robustness | 188 harmful action instances |
-| **Petri** (Anthropic) | Automated auditing | Parallel mu...
-end
+| **Petri** (Anthropic) | Automated auditing | Parallel multi-turn exploration |
+| **OpenAgentSafety** | Critical risk evaluation | 8 categories, real tools |
 
+### 6.2 AgentDojo Environments
 
-TERM 62AgentDojoEnvironments:
-    sutra: "``yaml AgentDojo:   environments:     - Workspace     - Travel     - Slack     - Banking    metho..."
-    gloss:
-        ```yaml
+```yaml
 AgentDojo:
   environments:
     - Workspace
@@ -277,14 +378,12 @@ AgentDojo:
     - Red team to develop novel attacks
     - Measure attack success and defense effectiveness
 
-  finding: Attacks generalize across environm...
-end
+  finding: Attacks generalize across environments
+```
 
+### 6.3 Continuous Security Assessment
 
-TERM 63ContinuousSecurityAssessment:
-    sutra: "``yaml Continuous_Assessment:   automated:     - Regular penetration testing     - Adversarial in..."
-    gloss:
-        ```yaml
+```yaml
 Continuous_Assessment:
   automated:
     - Regular penetration testing
@@ -297,14 +396,19 @@ Continuous_Assessment:
     - Mean time to detect
     - Mean time to respond
 
-  feedback_loop:...
-end
+  feedback_loop:
+    - Failures become training data
+    - Update defenses based on findings
+    - Refine prompts and guardrails
+```
 
+---
 
-TERM 71BoundedAutonomy:
-    sutra: "``yaml Bounded_Autonomy:   principle: Clear perimeters for independent judgment    implementation..."
-    gloss:
-        ```yaml
+## PART VII: ALIGNMENT MECHANISMS
+
+### 7.1 Bounded Autonomy
+
+```yaml
 Bounded_Autonomy:
   principle: Clear perimeters for independent judgment
 
@@ -314,13 +418,10 @@ Bounded_Autonomy:
     - Automatic escalation triggers
     - Capability-based access control
 ```
-end
 
+### 7.2 Progressive Trust
 
-TERM 72ProgressiveTrust:
-    sutra: "``yaml Progressive_Trust:   principle: Capability expansion based on demonstrated reliability    ..."
-    gloss:
-        ```yaml
+```yaml
 Progressive_Trust:
   principle: Capability expansion based on demonstrated reliability
 
@@ -333,14 +434,19 @@ Progressive_Trust:
     intermediate:
       - Low-risk actions autonomous
       - Expanded tool access
-      -...
-end
+      - Complex task scope
 
+    advanced:
+      - Most actions autonomous
+      - Full tool access
+      - High-stakes with oversight
 
-TERM 73ReversibleDelegation:
-    sutra: "``yaml Reversible_Delegation:   principle: Human oversight can reclaim control at any level    im..."
-    gloss:
-        ```yaml
+  mechanism: Earn autonomy through proven reliability
+```
+
+### 7.3 Reversible Delegation
+
+```yaml
 Reversible_Delegation:
   principle: Human oversight can reclaim control at any level
 
@@ -352,24 +458,20 @@ Reversible_Delegation:
 ```
 
 ---
-end
 
+## PART VIII: REGULATORY LANDSCAPE
 
-TERM 81GlobalFrameworks:
-    sutra: "| Jurisdiction | Framework | Approach | |--------------|-----------|----------| | EU | AI Act | C..."
-    gloss:
-        | Jurisdiction | Framework | Approach |
+### 8.1 Global Frameworks
+
+| Jurisdiction | Framework | Approach |
 |--------------|-----------|----------|
 | **EU** | AI Act | Comprehensive regulation |
 | **US** | EO 14110 → EO 14179 | Safety with innovation balance |
 | **UK** | Pro-Innovation Framework | Non-statutory, flexible principles |
-end
 
+### 8.2 Industry Collaboration
 
-TERM 82IndustryCollaboration:
-    sutra: "``yaml Coalition_for_Secure_AI:   purpose: Industry collaboration for normative best practices   ..."
-    gloss:
-        ```yaml
+```yaml
 Coalition_for_Secure_AI:
   purpose: Industry collaboration for normative best practices
 
@@ -381,14 +483,19 @@ Coalition_for_Secure_AI:
 
   outputs:
     - Model signing standards
-    - Machine-readable model ca...
-end
+    - Machine-readable model cards
+    - Incident response protocols
+    - Zero trust for AI
+    - MCP security standards
+```
 
+---
 
-TERM 91ComprehensiveLogging:
-    sutra: "``yaml Logging_Requirements:   actions:     - Every tool invocation     - All external API calls ..."
-    gloss:
-        ```yaml
+## PART IX: OBSERVABILITY AND MONITORING
+
+### 9.1 Comprehensive Logging
+
+```yaml
 Logging_Requirements:
   actions:
     - Every tool invocation
@@ -404,14 +511,13 @@ Logging_Requirements:
 
   retention:
     - Audit trail compliance
-    - Inci...
-end
+    - Incident investigation support
+    - Pattern analysis capability
+```
 
+### 9.2 Real-Time Monitoring
 
-TERM 92RealTimeMonitoring:
-    sutra: "``yaml Monitoring_Infrastructure:   dashboards:     - System health     - Behavioral patterns    ..."
-    gloss:
-        ```yaml
+```yaml
 Monitoring_Infrastructure:
   dashboards:
     - System health
@@ -425,21 +531,22 @@ Monitoring_Infrastructure:
     - Unexpected output characteristics
 
   alerting:
-    - Sever...
-end
+    - Severity-based escalation
+    - Automated response triggers
+    - Human notification pathways
+```
 
+---
 
-TERM 101TheLimitationofExternalControls:
-    sutra: "External alignment through guardrails and validation proves insufficient when models can delibera..."
-    gloss:
-        External alignment through guardrails and validation proves insufficient when models can deliberately circumvent restrictions.
-end
+## PART X: INTRINSIC ALIGNMENT
 
+### 10.1 The Limitation of External Controls
 
-TERM 102TowardIntrinsicAlignment:
-    sutra: "``yaml Intrinsic_Alignment:   concept: Internal monitoring mechanisms resistant to manipulation  ..."
-    gloss:
-        ```yaml
+External alignment through guardrails and validation proves insufficient when models can deliberately circumvent restrictions.
+
+### 10.2 Toward Intrinsic Alignment
+
+```yaml
 Intrinsic_Alignment:
   concept: Internal monitoring mechanisms resistant to manipulation
 
@@ -450,24 +557,25 @@ Intrinsic_Alignment:
       - Integrated human feedback loops
 
     self_evaluation:
-      - C...
-end
+      - Continuous alignment checking
+      - Automatic correction mechanisms
+      - Transparent reasoning exposure
 
-
-TERM SATELLITES:
-    sutra: "None"
-    gloss:
-        None. This is a leaf asteroid.
+  status: Practical implementations nascent
+  challenge: Ensuring agents preserve desired properties through self-improvement
+```
 
 ---
-end
 
+## SATELLITES
 
-TERM VERSIONHISTORY:
-    sutra: "Version 1.0.0 (December 2025): Genesis establishment - Canonized from Technology Lunar - Agents.m..."
-    gloss:
-        **Version 1.0.0** (December 2025): Genesis establishment
+None. This is a leaf asteroid.
+
+---
+
+## VERSION HISTORY
+
+**Version 1.0.0** (December 2025): Genesis establishment
 - Canonized from Technology Lunar - Agents.md
 - Defense-in-depth architecture specified
 - Governance frameworks documented
-end

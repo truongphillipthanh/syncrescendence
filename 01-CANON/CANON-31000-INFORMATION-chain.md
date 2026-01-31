@@ -1,5 +1,5 @@
 ---
-id: [[CANON-31000-INFORMATION-chain]]
+id: CANON-31000
 name: Information Chain
 identity: Information Chain - Information Orbital Path
 tier: CANON
@@ -12,17 +12,10 @@ synopsis: Perceptual sophistication development through four progressive stages,
 chain: INFORMATION
 ---
 
-# CANON-31000-INFORMATION-chain (SN Format)
+# INFORMATION CHAIN: INFORMATION ORBITAL PATH
+## Perceptual Development Through Acumen Correspondence
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 636 words, 5,457 characters
-
----
-
-TERM PerceptualDevelopmentThroughAcumenCorrespondence:
-    sutra: "> Canonical Anchor: Syncrescendence-complete.md (v1.0)   > Component: Information Causal Chain   ..."
-    gloss:
-        > **Canonical Anchor**: Ψ-complete.md (v1.0)  
+> **Canonical Anchor**: Syncrescendence-complete.md (v1.0)  
 > **Component**: Information Causal Chain  
 > **Mode**: Operational  
 > **Version**: 1.0.0  
@@ -31,33 +24,40 @@ TERM PerceptualDevelopmentThroughAcumenCorrespondence:
 > **Maintainer**: Primary Architect
 
 ---
-end
 
+## PURPOSE
 
-TERM PURPOSE:
-    sutra: "The Information Chain tracks perceptual sophistication development through four progressive stage..."
-    gloss:
-        The Information Chain tracks perceptual sophistication development through four progressive stages, corresponding to Planetary Acumen's atmospheric awareness cultivation. This orbital path spirals from basic pattern recognition toward embodied knowing, generating refined perception as energy return...
-end
+The Information Chain tracks perceptual sophistication development through four progressive stages, corresponding to Planetary Acumen's atmospheric awareness cultivation. This orbital path spirals from basic pattern recognition toward embodied knowing, generating refined perception as energy return to the Syncrescendent Core.
 
+---
 
-TERM STAGE1PATTERNRECOGNITION:
-    sutra: "Nature: Basic structure detection, signal awareness emergence"
-    gloss:
-        **Nature**: Basic structure detection, signal awareness emergence.
+## FOUR-STAGE TRAJECTORY
+
+### STAGE 1: PATTERN RECOGNITION
+
+**Nature**: Basic structure detection, signal awareness emergence.
 
 **Key Markers**:
 - Identifies recurring patterns in daily experience
 - Detects obvious signals in information environment
 - Recognizes when attention captured versus directed
-- Demonstrates platform literacy (navigates major platfor...
-end
+- Demonstrates platform literacy (navigates major platforms)
 
+**Practices**:
+- Seven archaeological domain exploration (Demographic, Psychological, Cultural, Historical, Technological, Political-Economic, Incentive)
+- Attention tracking exercises
+- Pattern documentation in journal
+- Signal-noise discrimination practice
 
-TERM STAGE2SIGNALEXTRACTION:
-    sutra: "Nature: Noise filtering, salience identification, sophisticated attention"
-    gloss:
-        **Nature**: Noise filtering, salience identification, sophisticated attention.
+**Advancement Evidence**:
+- Pattern identification accuracy increasing
+- Signal detection improving measurably
+- Attention sovereignty developing
+- Platform competence demonstrated
+
+### STAGE 2: SIGNAL EXTRACTION
+
+**Nature**: Noise filtering, salience identification, sophisticated attention.
 
 **Key Markers**:
 - Consistently distinguishes signal from noise
@@ -65,53 +65,81 @@ TERM STAGE2SIGNALEXTRACTION:
 - Manages attention allocation strategically
 - Develops platform presence generating engagement
 
-**Practices**:...
-end
+**Practices**:
+- Source quality curation (follows valuable signals)
+- Attention budgeting (allocates focus deliberately)
+- Platform cultivation (builds authentic presence)
+- Triadic perception integration (aesthetic/empirical/strategic)
 
+**Advancement Evidence**:
+- Signal-to-noise ratio improving
+- Source quality assessment accurate
+- Engagement metrics rising (followers, quality interactions)
+- Attention allocation optimizing
 
-TERM STAGE3INTUITIVEDISCRIMINATION:
-    sutra: "Nature: Pre-cognitive knowing, felt-sense accuracy, aesthetic intelligence"
-    gloss:
-        **Nature**: Pre-cognitive knowing, felt-sense accuracy, aesthetic intelligence.
+### STAGE 3: INTUITIVE DISCRIMINATION
+
+**Nature**: Pre-cognitive knowing, felt-sense accuracy, aesthetic intelligence.
 
 **Key Markers**:
 - Reliable intuitive signal detection (verified by outcomes)
 - Aesthetic intelligence operational (knows quality immediately)
 - Multi-modal perception integrated (visual/textual/social)
-- Teaches others...
-end
+- Teaches others basic perceptual skills successfully
 
+**Practices**:
+- Intuition tracking (predictions vs. outcomes)
+- Aesthetic cultivation (exposure to excellence)
+- Cross-modal integration (synthesizing perception types)
+- Teaching experiments (transmitting perceptual capacity)
 
-TERM STAGE4EMBODIEDKNOWING:
-    sutra: "Nature: Transparent awareness, effortless perception, wisdom-informed sensing"
-    gloss:
-        **Nature**: Transparent awareness, effortless perception, wisdom-informed sensing.
+**Advancement Evidence**:
+- Intuition accuracy >70% when tracked
+- Aesthetic judgment aligns with expert consensus
+- Teaching effectiveness demonstrated
+- Multi-modal fluency operational
+
+### STAGE 4: EMBODIED KNOWING
+
+**Nature**: Transparent awareness, effortless perception, wisdom-informed sensing.
 
 **Key Markers**:
 - Perception operates automatically without conscious effort
 - Novel signal recognition without prior training
 - Wisdom integration (knows what matters without analysis)
-- Second-generation practitio...
-end
+- Second-generation practitioners emerging from teaching
 
+**Practices**:
+- Continuous presence cultivation
+- Wisdom integration across domains
+- Advanced teaching (enabling others' mastery)
+- Contribution to collective intelligence
 
-TERM SYNCHRONIZATIONGUIDANCE:
-    sutra: "Imbalance Indicators: - Sensing >2 stages ahead of Embodiment: Theoretical perception without gro..."
-    gloss:
-        **Imbalance Indicators**:
+**Advancement Evidence**:
+- Automatic competence across contexts
+- Novel domain transfer demonstrated
+- Multigenerational teaching (students teach students)
+- Recognized perceptual authority
+
+---
+
+## SYNCHRONIZATION GUIDANCE
+
+**Imbalance Indicators**:
 - Sensing >2 stages ahead of Embodiment: Theoretical perception without grounding
 - Sensing >2 stages behind Coherence: Signals without interpretive frameworks
 - Sensing >2 stages behind Efficacy: Perception without strategic application
 
 **Healthy Progression**:
-- Sensing...
-end
+- Sensing advances with Technology (tools enable perception)
+- Sensing slightly ahead of Coherence (detect before fully understanding)
+- Sensing coordinated with Efficacy (perception informs strategy)
 
+---
 
-TERM MEASUREMENTPROTOCOL:
-    sutra: "Monthly Assessment: 1"
-    gloss:
-        **Monthly Assessment**:
+## MEASUREMENT PROTOCOL
+
+**Monthly Assessment**:
 1. Which stage am I honestly at? (Evidence-based, not aspirational)
 2. What specific advancement criteria have I met?
 3. What practices serve current stage development?
@@ -119,16 +147,16 @@ TERM MEASUREMENTPROTOCOL:
 
 **Quarterly Review**:
 - Stage progression evaluation
--...
-end
+- Cross-chain balance check
+- Practice effectiveness assessment
+- Advancement timeline realistic?
 
+---
 
-TERM CONCLUSION:
-    sutra: "The Information Chain develops atmospheric awareness through four stages, contributing refined pe..."
-    gloss:
-        The Information Chain develops atmospheric awareness through four stages, contributing refined perception to consciousness evolution. Progress by condition and capability, not timeline pressure.
+## CONCLUSION
+
+The Information Chain develops atmospheric awareness through four stages, contributing refined perception to consciousness evolution. Progress by condition and capability, not timeline pressure.
 
 **Current coordinates determine practice. Honest assessment enables advancement.**
 
-*Perception spiralin...
-end
+*Perception spiraling toward embodied knowing.*

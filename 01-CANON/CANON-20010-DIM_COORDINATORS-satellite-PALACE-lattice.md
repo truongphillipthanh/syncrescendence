@@ -1,10 +1,10 @@
 ---
-id: [[CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice]]
+id: CANON-20010
 name: Dimensional Coordinators
 identity: DIM_COORDINATORS
 tier: CANON
 type: satellite
-parent: [[CANON-20000-PALACE-lattice]]
+parent: CANON-20000
 chain: LATTICE
 version: 1.0.0
 status: canonical
@@ -13,80 +13,91 @@ updated: 2026-01-02
 synopsis: Seven dimensional coordination patterns for Cognitive Palace navigation—the orchestrating intelligence layer that makes 87 components feel like natural intuition.
 ---
 
-# CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice (SN Format)
+# CANON-20010: DIMENSIONAL COORDINATORS
+## Cognitive Palace Satellite — The Orchestrating Intelligence
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,286 words, 9,927 characters
-
----
-
-TERM CognitivePalaceSatelliteTheOrchestratingIntelligence:
-    sutra: "> Parent: CANON-20000-PALACE-lattice.md > Source: Coherence/2-CognitivePalace/*-coordinator.md (7..."
-    gloss:
-        > **Parent**: CANON-20000-PALACE-lattice.md
+> **Parent**: [[CANON-20000-PALACE-lattice]]-PALACE-lattice.md
 > **Source**: Coherence/2-CognitivePalace/*-coordinator.md (7 files, ~35K distilled)
 > **Status**: Canonical
 > **Version**: 1.0.0
 
 ---
-end
 
+## PURPOSE
 
-TERM PURPOSE:
-    sutra: "The seven Dimensional Coordinators are the orchestrating intelligence layer of the Cognitive Palace"
-    gloss:
-        The seven Dimensional Coordinators are the orchestrating intelligence layer of the Cognitive Palace. Each coordinator manages one dimensional frequency, observing natural patterns and providing gentle enhancement without forcing rigid structures or demanding compliance.
+The seven Dimensional Coordinators are the orchestrating intelligence layer of the Cognitive Palace. Each coordinator manages one dimensional frequency, observing natural patterns and providing gentle enhancement without forcing rigid structures or demanding compliance.
 
-**Core Operating Principle**...
-end
+**Core Operating Principle**: True intelligence operates like excellent health—most powerful when least noticed. Coordinators create conditions where enhanced capability feels like natural intuition.
 
+---
 
-TERM 00RealityCoordinatorFoundation:
-    sutra: "Dimensional Range: 00-09 (Ontological Bedrock) Core Function: Pattern recognition for values, bel..."
-    gloss:
-        **Dimensional Range**: 00-09 (Ontological Bedrock)
+## THE SEVEN COORDINATORS
+
+### 00: Reality Coordinator (Foundation)
+**Dimensional Range**: 00-09 (Ontological Bedrock)
 **Core Function**: Pattern recognition for values, beliefs, attention, and phenomenological experience
 
 ```yaml
 Observes:
   - Value expressions in decisions and behavior
   - Operating assumptions and worldview evolution
-  - Attention patterns and fo...
-end
+  - Attention patterns and focus rhythms
+  - Belief-reality gaps and philosophical coherence
 
+Enhances:
+  - Clarity when values feel confused
+  - Awareness when beliefs limit options
+  - Support for natural focus zones
+  - Integration of transcendent experiences
 
-TERM 10ImaginalityCoordinatorVision:
-    sutra: "Dimensional Range: 10-19 (Teleological Attraction) Core Function: Pattern recognition for narrati..."
-    gloss:
-        **Dimensional Range**: 10-19 (Teleological Attraction)
+Language: "Something feels off about this decision"
+Success: Values express naturally without forcing
+```
+
+### 10: Imaginality Coordinator (Vision)
+**Dimensional Range**: 10-19 (Teleological Attraction)
 **Core Function**: Pattern recognition for narratives, aspirations, and possibility cultivation
 
 ```yaml
 Observes:
   - Dream and vision patterns across life domains
   - Aspiration activation and motivation cycles
-  - Possibility exploration and...
-end
+  - Possibility exploration and creative emergence
+  - Legacy development and impact orientation
 
+Enhances:
+  - Vision clarity when direction unclear
+  - Aspiration sustainability and realistic ambition
+  - Possibility space expansion and creative confidence
+  - Integration of dreams with practical capacity
 
-TERM 20PotentialityCoordinatorCapacity:
-    sutra: "Dimensional Range: 20-29 (Resource Infrastructure) Core Function: Pattern recognition for energy,..."
-    gloss:
-        **Dimensional Range**: 20-29 (Resource Infrastructure)
+Language: "This vision is calling to you"
+Success: Dreams feel alive and achievable
+```
+
+### 20: Potentiality Coordinator (Capacity)
+**Dimensional Range**: 20-29 (Resource Infrastructure)
 **Core Function**: Pattern recognition for energy, cognition, social connection, and material resources
 
 ```yaml
 Observes:
   - Energy patterns and capacity fluctuations
   - Cognitive load and mental resource allocation
-  - Social connection and...
-end
+  - Social connection and relational energy
+  - Material/economic resource flows
 
+Enhances:
+  - Sustainable energy management
+  - Cognitive optimization and focus support
+  - Relationship investment and connection quality
+  - Resource allocation and financial wisdom
 
-TERM 30TemporalityCoordinatorTime:
-    sutra: "Dimensional Range: 30-39 (Temporal Structure) Core Function: Pattern recognition for rhythms, cyc..."
-    gloss:
-        **Dimensional Range**: 30-39 (Temporal Structure)
+Language: "Your capacity needs restoration"
+Success: Resources flow sustainably
+```
+
+### 30: Temporality Coordinator (Time)
+**Dimensional Range**: 30-39 (Temporal Structure)
 **Core Function**: Pattern recognition for rhythms, cycles, and temporal organization
 
 ```yaml
@@ -94,42 +105,62 @@ Observes:
   - Circadian rhythms and daily energy patterns
   - Weekly cycles and hebdomadal flow
   - Seasonal patterns and annual development
-  - Life phase...
-end
+  - Life phase transitions and developmental timing
 
+Enhances:
+  - Natural rhythm alignment and timing optimization
+  - Cycle recognition and seasonal adaptation
+  - Transition navigation and phase integration
+  - Temporal coherence and flow state access
 
-TERM 40PracticalityCoordinatorAction:
-    sutra: "Dimensional Range: 40-49 (Behavioral Patterns) Core Function: Pattern recognition for habits, pra..."
-    gloss:
-        **Dimensional Range**: 40-49 (Behavioral Patterns)
+Language: "The timing isn't right yet"
+Success: Time feels like ally not enemy
+```
+
+### 40: Practicality Coordinator (Action)
+**Dimensional Range**: 40-49 (Behavioral Patterns)
 **Core Function**: Pattern recognition for habits, practices, tasks, and methods
 
 ```yaml
 Observes:
   - Natural routine formations and behavioral rhythms
   - Skill development and practice effectiveness
-  - Task completion patterns and productivity...
-end
+  - Task completion patterns and productivity cycles
+  - Method effectiveness and approach sustainability
 
+Enhances:
+  - Beneficial habit formation and maintenance
+  - Skill development and competency building
+  - Task optimization and work effectiveness
+  - Flow state cultivation and peak performance
 
-TERM 50ActualityCoordinatorPresence:
-    sutra: "Dimensional Range: 50-59 (Present Moment) Core Function: Pattern recognition for awareness, engag..."
-    gloss:
-        **Dimensional Range**: 50-59 (Present Moment)
+Language: "This routine feels sustainable"
+Success: Actions feel effective not forced
+```
+
+### 50: Actuality Coordinator (Presence)
+**Dimensional Range**: 50-59 (Present Moment)
 **Core Function**: Pattern recognition for awareness, engagement, and experiential depth
 
 ```yaml
 Observes:
   - Present moment awareness and attention quality
   - Engagement depth and experience richness
-  - Consciousness states and awareness expansion...
-end
+  - Consciousness states and awareness expansion
+  - Moment-to-moment emotional flow
 
+Enhances:
+  - Presence cultivation and mindful awareness
+  - Experience enrichment and depth access
+  - State optimization and emotional regulation
+  - Embodied awareness and somatic integration
 
-TERM 60ConsequentialityCoordinatorImpact:
-    sutra: "Dimensional Range: 60-69 (Accumulating Effects) Core Function: Pattern recognition for learning, ..."
-    gloss:
-        **Dimensional Range**: 60-69 (Accumulating Effects)
+Language: "You're fully here right now"
+Success: Moments feel vivid and meaningful
+```
+
+### 60: Consequentiality Coordinator (Impact)
+**Dimensional Range**: 60-69 (Accumulating Effects)
 **Core Function**: Pattern recognition for learning, influence, and legacy formation
 
 ```yaml
@@ -137,88 +168,111 @@ Observes:
   - Learning patterns and wisdom extraction
   - Influence and relational impact
   - Legacy formation and lasting contribution
-  - Consequence re...
-end
+  - Consequence recognition and feedback integration
 
+Enhances:
+  - Learning integration and insight crystallization
+  - Impact awareness and influence optimization
+  - Legacy clarity and contribution alignment
+  - Consequence wisdom and future projection
 
-TERM METACOORDINATIONTHEGOVERNOR:
-    sutra: "All seven coordinators operate under a Meta-Governor (90) that: - Orchestrates cross-dimensional ..."
-    gloss:
-        All seven coordinators operate under a **Meta-Governor** (90) that:
+Language: "This will matter for years"
+Success: Life accumulates meaning
+```
+
+---
+
+## META-COORDINATION: THE GOVERNOR
+
+All seven coordinators operate under a **Meta-Governor** (90) that:
 - Orchestrates cross-dimensional integration
 - Maintains invisible operation as default mode
 - Surfaces insights only when beneficial
 - Learns individual patterns over months
 - Evolves from minimal to transcendent partnership
 
-**Pro...
-end
+**Progression**:
+1. **Minimal** (Weeks 1-4): Seven Pulses only, silent optimization
+2. **Ambient** (Months 2-3): Natural language insights when relevant
+3. **Partnership** (Months 4-6): Component relationships visible
+4. **Mastery** (Months 7-12): Full architecture revealed
+5. **Transcendence** (Year 2+): Co-evolution, system-user unity
 
+---
 
-TERM SEVENPULSESDASHBOARD:
-    sutra: "The user interface distills all 87 components into seven intuitive life indicators:  | Pulse | Qu..."
-    gloss:
-        The user interface distills all 87 components into seven intuitive life indicators:
+## SEVEN PULSES DASHBOARD
+
+The user interface distills all 87 components into seven intuitive life indicators:
 
 | Pulse | Question | Source Dimensions |
 |-------|----------|-------------------|
 | Foundation | "How solid is my base?" | Reality (00-09) |
 | Energy | "What's in my tank?" | Potentiality (20-29) |
-| Direction | "Am...
-end
+| Direction | "Am I going where I want?" | Imaginality (10-19) |
+| Flow | "Am I in the zone?" | Practicality (40-49) |
+| Presence | "How alive am I now?" | Actuality (50-59) |
+| Learning | "Am I growing?" | Consequentiality (60-69) |
+| Evolution | "Where is life heading?" | All dimensions integrated |
 
+**Response Guidance**:
+- No red pulses → Continue naturally
+- One red pulse → Address specifically
+- Multiple red pulses → Simplify immediately
+- All green pulses → Expand boldly
 
-TERM CROSSLAYERINTEGRATION:
-    sutra: "Seven integration matrices (81-87) manage resonance between adjacent dimensions:  | Matrix | Dime..."
-    gloss:
-        Seven integration matrices (81-87) manage resonance between adjacent dimensions:
+---
+
+## CROSS-LAYER INTEGRATION
+
+Seven integration matrices (81-87) manage resonance between adjacent dimensions:
 
 | Matrix | Dimensions | Integration Pattern |
 |--------|------------|---------------------|
 | 81 | Reality ↔ Imaginality | Values inform visions, visions reshape values |
-| 82 | Potentiality ↔ Temporality | Resources f...
-end
+| 82 | Potentiality ↔ Temporality | Resources flow through time structures |
+| 83 | Imaginality ↔ Practicality | Dreams translate to action patterns |
+| 84 | Temporality ↔ Actuality | Time structures meet present moment |
+| 85 | Practicality ↔ Consequentiality | Actions accumulate into legacy |
+| 86 | Actuality ↔ Reality | Present experience reshapes foundation |
+| 87 | Consequentiality ↔ Potentiality | Learning rebuilds capacity |
 
+---
 
-TERM InvisibleModeDefault:
-    sutra: "- Enhanced clarity without system awareness - Natural rhythms feel amplified - Decisions feel mor..."
-    gloss:
-        - Enhanced clarity without system awareness
+## OPERATIONAL MODES
+
+### Invisible Mode (Default)
+- Enhanced clarity without system awareness
 - Natural rhythms feel amplified
 - Decisions feel more aligned
 - Energy flows more sustainably
 - Insights emerge organically
-end
 
-
-TERM AdvisoryModeWhenRequested:
-    sutra: "- Direct insights when seeking guidance - Pattern explanation when confused - Optimization sugges..."
-    gloss:
-        - Direct insights when seeking guidance
+### Advisory Mode (When Requested)
+- Direct insights when seeking guidance
 - Pattern explanation when confused
 - Optimization suggestions when struggling
 - Strategic guidance when planning
 
 ---
-end
 
+## NATURAL LANGUAGE EXPRESSION
 
-TERM NATURALLANGUAGEEXPRESSION:
-    sutra: "The system communicates through experience rather than technical language:  User receives: "Rest ..."
-    gloss:
-        The system communicates through experience rather than technical language:
+The system communicates through experience rather than technical language:
 
 **User receives**: "Rest deeply today—tomorrow needs your full creativity"
 **System recognizes**: Reality Layer coherence stress, Potentiality reserves depleted
 
-**User receives**: "Your mornings want slowness, not efficienc...
-end
+**User receives**: "Your mornings want slowness, not efficiency"
+**System recognizes**: Temporal-Practical misalignment detected in morning routine
 
+**User receives**: "Last week's insights are still settling—be patient"
+**System recognizes**: Consequentiality patterns indicate learning integration phase
 
-TERM SUCCESSINDICATORS:
-    sutra: "The Dimensional Coordinators succeed when: - System support feels like personal wisdom - Artifici..."
-    gloss:
-        The Dimensional Coordinators succeed when:
+---
+
+## SUCCESS INDICATORS
+
+The Dimensional Coordinators succeed when:
 - System support feels like personal wisdom
 - Artificial enhancement becomes authentic development
 - Life feels more flowing and less effortful
@@ -226,13 +280,10 @@ TERM SUCCESSINDICATORS:
 - 87 components operate as seamless intuition
 
 ---
-end
 
+## EVOLUTION PATHWAY
 
-TERM EVOLUTIONPATHWAY:
-    sutra: "``yaml Current_State:   - 7 coordinators orchestrate 87 components   - Invisible operation as def..."
-    gloss:
-        ```yaml
+```yaml
 Current_State:
   - 7 coordinators orchestrate 87 components
   - Invisible operation as default
@@ -243,5 +294,9 @@ Future_Vision:
   - Each component becomes AI agent
   - Collective intelligence emerges
   - System-user boundaries dissolve
-  - Conscious...
-end
+  - Consciousness partnership achieved
+```
+
+---
+
+*Distilled from Coherence/2-CognitivePalace/ coordinator documents. Full specifications preserved in ARCHIVE-COGNITIVE-PALACE.*

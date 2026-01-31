@@ -1,41 +1,32 @@
-# CANON-31150-PLATFORM_CAPABILITY_CATALOG (SN Format)
+# CANON-31150: PLATFORM CAPABILITY CATALOG
+## Definitive Inventory of Constellation Capabilities
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,583 words, 11,920 characters
-
----
-
-TERM DefinitiveInventoryofConstellationCapabilities:
-    sutra: "Chain: INFORMATION (31000) Parent: ACUMEN (31100) Status: CRYSTALLINE Last Regenerated: 2026-01-1..."
-    gloss:
-        **Chain**: INFORMATION (31000)
+**Chain**: INFORMATION (31000)
 **Parent**: ACUMEN (31100)
 **Status**: CRYSTALLINE
 **Last Regenerated**: 2026-01-16T00:44:33.749179Z
 **Data Source**: platform_capabilities.json
 
 ---
-end
 
+## ⚠️ TEMPORAL DATA NOTICE
 
-TERM TEMPORALDATANOTICE:
-    sutra: "This document is auto-generated from .state/platform_capabilities.json"
-    gloss:
-        This document is **auto-generated** from `.state/platform_capabilities.json`.
+This document is **auto-generated** from `.state/platform_capabilities.json`.
 
 **DO NOT EDIT DIRECTLY.** To update capability data:
 1. Edit `00-ORCHESTRATION/state/platform_capabilities.json`
 2. Run: `python3 00-ORCHESTRATION/scripts/regenerate_canon.py 31150`
 3. Commit regenerated file
 
-This demons...
-end
+This demonstrates the **metabolic pattern**: temporal data lives externally, evergreen structure lives in template.
 
+---
 
-TERM ActivePlatforms:
-    sutra: "| Platform | Tier | Monthly Cost | Primary Role | Status | |----------|------|--------------|----..."
-    gloss:
-        | Platform | Tier | Monthly Cost | Primary Role | Status |
+## I. PLATFORM OVERVIEW
+
+### Active Platforms
+
+| Platform | Tier | Monthly Cost | Primary Role | Status |
 |----------|------|--------------|--------------|--------|
 
 | Claude Code | Pro x3 | $60 | Executor | Active |
@@ -46,25 +37,35 @@ TERM ActivePlatforms:
 
 
 **Total Monthly Investment**: $100
-end
 
+### Trinity Architecture
 
-TERM TrinityArchitecture:
-    sutra: "`` ┌─────────────────────────────────────────────────────────────┐ │                   TRINITY AR..."
-    gloss:
-        ```
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                   TRINITY ARCHITECTURE                      │
 │                                                             │
 │  ┌──────────────┐      ┌──────────────┐      ┌──────────┐ │
-│  │   ORACLE     │      │   DEVISER    │...
-end
+│  │   ORACLE     │      │   DEVISER    │      │ EXECUTOR │ │
+│  │  (Gemini)   │──────▶│ (ChatGPT)  │──────▶│(Claude)│ │
+│  │              │Evidence│              │ Plan │          │ │
+│  │ - Sensing    │      │ - Planning   │      │- Execute │ │
+│  │ - RAG        │      │ - Audit      │      │- Verify  │ │
+│  │ - Corpus     │      │ - Specify    │      │- Deliver │ │
+│  └──────────────┘      └──────────────┘      └──────────┘ │
+│                              │                      │       │
+│                              │                      │       │
+│                              └──────────────────────┘       │
+│                                   Audit Packet              │
+└─────────────────────────────────────────────────────────────┘
+```
 
+---
 
-TERM ClaudeExecutor:
-    sutra: "Account: truongphillipthanh@gmail.com (+ 2 others) Primary Models: Opus 4.5, Sonnet 4.5  | Capabi..."
-    gloss:
-        **Account**: truongphillipthanh@gmail.com (+ 2 others)
+## II. CAPABILITY MATRICES
+
+### Claude (Executor)
+
+**Account**: truongphillipthanh@gmail.com (+ 2 others)
 **Primary Models**: Opus 4.5, Sonnet 4.5
 
 | Capability | Status | Notes |
@@ -74,14 +75,43 @@ TERM ClaudeExecutor:
 
 | Code Generation | Active | Opus 4.5 / Sonnet 4.5 |
 
-| MCP Integration | Ac...
-end
+| MCP Integration | Active | External tool access |
+
+| Plan Mode | Active | Separates planning from execution |
+
+| Context Management | Active | ~200K tokens, auto-compact |
 
 
-TERM GeminiOracle:
-    sutra: "Account: truongphillipthanh@gmail.com Primary Models: Gemini 2.5 Pro, Gemini 2.5 Flash  | Capabil..."
-    gloss:
-        **Account**: truongphillipthanh@gmail.com
+**Routing Strengths**:
+
+- Execution (filesystem operations)
+
+- Code generation (writing functions)
+
+- File manipulation (read/edit/write)
+
+- Verification (command-based proof)
+
+- Repository operations (git, ledger updates)
+
+
+**Routing Weaknesses**:
+
+- Corpus-scale RAG (context limit ~200K)
+
+- Video processing (no native multimodal)
+
+- Long-horizon planning (better as executor than planner)
+
+
+**Cost Structure**:
+- $20/month per seat, 3 seats = $60/month
+
+---
+
+### Gemini (Oracle)
+
+**Account**: truongphillipthanh@gmail.com
 **Primary Models**: Gemini 2.5 Pro, Gemini 2.5 Flash
 
 | Capability | Status | Notes |
@@ -91,14 +121,43 @@ TERM GeminiOracle:
 
 | Drive Connector | Active | Repository visibility |
 
-| NotebookLM | Active | Grounded...
-end
+| NotebookLM | Active | Grounded RAG, zero hallucination |
+
+| Video Processing | Active | 263 tok/sec native ingestion |
+
+| Audio Processing | Active | Speaker diarization |
 
 
-TERM ChatGPTDeviser:
-    sutra: "Account: truongphillipthanh@icloud.com Primary Models: GPT-5.2 Instant, GPT-5.2 Thinking  | Capab..."
-    gloss:
-        **Account**: truongphillipthanh@icloud.com
+**Routing Strengths**:
+
+- Corpus-scale sensing (2M context)
+
+- Video transcription (native multimodal)
+
+- Large context queries (entire repo + conversations)
+
+- Grounded RAG (NotebookLM)
+
+- Historical analysis (Oracle 0-13 in single context)
+
+
+**Routing Weaknesses**:
+
+- Filesystem access (read-only, no execution)
+
+- Code execution (not designed for)
+
+- Planning (sensing role, not planning)
+
+
+**Cost Structure**:
+- $20/month
+
+---
+
+### ChatGPT (Deviser)
+
+**Account**: truongphillipthanh@icloud.com
 **Primary Models**: GPT-5.2 Instant, GPT-5.2 Thinking
 
 | Capability | Status | Notes |
@@ -108,52 +167,88 @@ TERM ChatGPTDeviser:
 
 | Deep Research | Active | Comprehensive investigation |
 
-| Canvas | Active | Collabor...
-end
+| Canvas | Active | Collaborative editing |
+
+| Codex CLI | Available | GitHub integration (if enabled) |
+
+| Connectors | Available | Drive, GitHub (if enabled) |
 
 
-TERM IIIROUTINGDECISIONTABLE:
-    sutra: "This table guides which platform receives which task type"
-    gloss:
-        This table guides which platform receives which task type.
+**Routing Strengths**:
+
+- Long-horizon planning (GPT-5.2 Thinking)
+
+- Specification (clear acceptance criteria)
+
+- Audit (verification against plan)
+
+- Abstract reasoning (architectural decisions)
+
+- Multi-step decomposition
+
+
+**Routing Weaknesses**:
+
+- Corpus-scale sensing (context limit)
+
+- Video processing (no native multimodal)
+
+- Code execution (not designed for)
+
+
+**Cost Structure**:
+- $20/month
+
+---
+
+## III. ROUTING DECISION TABLE
+
+This table guides which platform receives which task type.
 
 | Task Type | Primary Platform | Rationale | Fallback |
 |-----------|------------------|-----------|----------|
 
 | Corpus Sensing | Gemini | 2M context window | Claude (limited context) |
 
-| Video Processing | Gemini | Native multimodal | M...
-end
+| Video Processing | Gemini | Native multimodal | Manual transcription |
+
+| Planning | ChatGPT | GPT-5.2 Thinking | Claude Plan Mode |
+
+| Audit | ChatGPT | Spec verification | Claude verification |
+
+| Execution | Claude | Filesystem sovereignty | Manual operations |
+
+| Code Generation | Claude | Opus 4.5 / Sonnet 4.5 | ChatGPT |
+
+| Grounded RAG | Gemini | NotebookLM integration | Claude with citations |
+
+| Long-Horizon Decomposition | ChatGPT | GPT-5.2 Thinking | Claude ultrathink |
 
 
-TERM RoutingProtocol:
-    sutra: "Decision Flow: `` 1"
-    gloss:
-        **Decision Flow**:
+### Routing Protocol
+
+**Decision Flow**:
 ```
 1. Identify task type from above table
 2. Route to primary platform
 3. If primary unavailable/inappropriate, use fallback
-4. If both unavailable, escalate to Sovereign
+4. If both unavailable, escalate to Principal
 ```
 
 **Override Conditions**:
-- Sovereign explicitly specifies platform
-- Task requires capabilities only one...
-end
+- Principal explicitly specifies platform
+- Task requires capabilities only one platform has
+- Cost optimization requires different routing
 
+---
 
-TERM IVEVERGREENPRINCIPLES:
-    sutra: "The following principles remain constant regardless of capability changes:"
-    gloss:
-        The following principles remain constant regardless of capability changes:
-end
+## IV. EVERGREEN PRINCIPLES
 
+The following principles remain constant regardless of capability changes:
 
-TERM 1TrinityArchitectureRoles:
-    sutra: "Oracle (Gemini): Sensing, RAG, corpus-scale intelligence gathering - NEVER plans or executes - ON..."
-    gloss:
-        **Oracle** (Gemini): Sensing, RAG, corpus-scale intelligence gathering
+### 1. Trinity Architecture Roles
+
+**Oracle** (Gemini): Sensing, RAG, corpus-scale intelligence gathering
 - NEVER plans or executes
 - ONLY observes and reports with citations
 
@@ -161,46 +256,36 @@ TERM 1TrinityArchitectureRoles:
 - NEVER executes code
 - ONLY designs plans and verifies outcomes
 
-**Executor** (Claude): Implementation,...
-end
+**Executor** (Claude): Implementation, filesystem sovereignty
+- NEVER does corpus-scale sensing
+- ONLY executes plans and verifies deliverables
 
+### 2. IMEP Protocol
 
-TERM 2IMEPProtocol:
-    sutra: "Models communicate through structured packets, not free-form dialogue: `` Oracle (Evidence Packet..."
-    gloss:
-        Models communicate through structured packets, not free-form dialogue:
+Models communicate through structured packets, not free-form dialogue:
 ```
 Oracle (Evidence Packet) → Deviser (Plan Packet) → Executor (Execution Packet) → Deviser (Audit Packet)
 ```
 
 The repository is the **only place where truth congeals**. No model has direct access except Executor.
-end
 
+### 3. Routing by Teleology
 
-TERM 3RoutingbyTeleology:
-    sutra: "Route tasks to platforms based on functional fit, not brand loyalty: - Match task requirements to..."
-    gloss:
-        Route tasks to platforms based on **functional fit**, not brand loyalty:
+Route tasks to platforms based on **functional fit**, not brand loyalty:
 - Match task requirements to platform strengths
 - Consider cost/performance trade-offs
 - Respect platform role boundaries (Oracle/Deviser/Executor)
-end
 
+### 4. Ground-Truth Discipline
 
-NORM 4GroundTruthDiscipline:
-    sutra: "Every platform must maintain ground-truth discipline appropriate to its role: - Oracle: Cite ever..."
-    gloss:
-        Every platform must maintain ground-truth discipline appropriate to its role:
+Every platform must maintain ground-truth discipline appropriate to its role:
 - **Oracle**: Cite every claim (file:line, timestamp)
 - **Deviser**: Specify verifiable acceptance criteria
 - **Executor**: Verify every deliverable with command output
-end
 
+### 5. Capability Evolution
 
-TERM 5CapabilityEvolution:
-    sutra: "Platform capabilities change frequently: - Models upgrade (GPT-5.2 → GPT-6, Gemini 2.5 → 3.0) - F..."
-    gloss:
-        Platform capabilities change frequently:
+Platform capabilities change frequently:
 - Models upgrade (GPT-5.2 → GPT-6, Gemini 2.5 → 3.0)
 - Features added (new connectors, tools, integrations)
 - Pricing changes
@@ -208,13 +293,12 @@ TERM 5CapabilityEvolution:
 **This catalog regenerates** to track current state while evergreen principles persist in template.
 
 ---
-end
 
+## V. INTEGRATION PATTERNS
 
-PROC Pattern1SourceProcessing:
-    sutra: "`` 1"
-    gloss:
-        ```
+### Pattern 1: Source Processing
+
+```
 1. Oracle: Sense video/article/transcript → Evidence Packet
 2. Deviser: Plan processing workflow → Plan Packet
 3. Executor: Process, integrate, update ledger → Execution Packet
@@ -222,28 +306,24 @@ PROC Pattern1SourceProcessing:
 ```
 
 **Platform Assignments**:
-- Gemini: Native video/audio proc...
-end
+- Gemini: Native video/audio processing, signal tier assessment
+- ChatGPT: Decompose into processable steps, specify verification
+- Claude: Execute transcription function, update sources.csv, integrate to CANON
 
+### Pattern 2: Corpus-Scale Query
 
-TERM Pattern2CorpusScaleQuery:
-    sutra: "`` 1"
-    gloss:
-        ```
+```
 1. Oracle: Load repository + history, search, cite → Evidence Packet
-2. Sovereign: Review findings (no Deviser/Executor needed if just query)
+2. Principal: Review findings (no Deviser/Executor needed if just query)
 ```
 
 **Platform Assignments**:
 - Gemini: 2M context window, upload entire corpus, search comprehensively
-- (No other platforms needed unless findings trig...
-end
+- (No other platforms needed unless findings trigger action)
 
+### Pattern 3: Complex Implementation
 
-TERM Pattern3ComplexImplementation:
-    sutra: "`` 1"
-    gloss:
-        ```
+```
 1. Deviser: Decompose objective, specify phases → Plan Packet (batch)
 2. Executor: Implement Phase 1 → Execution Packet 1
 3. Deviser: Audit Phase 1 → Audit Packet 1
@@ -252,14 +332,16 @@ TERM Pattern3ComplexImplementation:
 ```
 
 **Platform Assignments**:
-- ChatGPT: GPT-5.2...
-end
+- ChatGPT: GPT-5.2 Thinking for long-horizon decomposition
+- Claude: Opus 4.5 for complex synthesis, Sonnet 4.5 for execution
 
+---
 
-TERM CurrentMonthlySpend:
-    sutra: "| Platform | Tier | Cost | Utilization | Cost/Hour Estimate | |----------|------|------|---------..."
-    gloss:
-        | Platform | Tier | Cost | Utilization | Cost/Hour Estimate |
+## VI. COST OPTIMIZATION
+
+### Current Monthly Spend
+
+| Platform | Tier | Cost | Utilization | Cost/Hour Estimate |
 |----------|------|------|-------------|-------------------|
 
 | Claude Code | Pro x3 | $60 | 75% | $2.00 |
@@ -270,23 +352,17 @@ TERM CurrentMonthlySpend:
 
 
 **Total**: $100/month
-end
 
+### Optimization Strategies
 
-TERM OptimizationStrategies:
-    sutra: "1"
-    gloss:
-        1. **Model Selection**: Use Sonnet over Opus when task is well-specified
+1. **Model Selection**: Use Sonnet over Opus when task is well-specified
 2. **Thinking Budget**: Reserve GPT-5.2 Thinking for truly complex decomposition
 3. **Context Reuse**: Load corpus once per session, query multiple times
-4. **Batch Operations**: Group similar tasks to minimize context-switchin...
-end
+4. **Batch Operations**: Group similar tasks to minimize context-switching
 
+### ROI Assessment
 
-TERM ROIAssessment:
-    sutra: "Value Generated: - Autonomous IMEP cycles: 0 (target: ≥10) - Relay reduction: 0% (target: ≥25%) -..."
-    gloss:
-        **Value Generated**:
+**Value Generated**:
 - Autonomous IMEP cycles: 0 (target: ≥10)
 - Relay reduction: 0% (target: ≥25%)
 - Sources processed: 0
@@ -295,13 +371,12 @@ TERM ROIAssessment:
 **Cost per Autonomous Cycle**: $100 / 0 = $N/A
 
 ---
-end
 
+## VII. FUTURE STATE PROJECTIONS
 
-TERM Phase2JuvenileTargetApril2026:
-    sutra: "Expected Changes: - API-based IMEP (no manual relay) - Direct inter-platform communication - Auto..."
-    gloss:
-        **Expected Changes**:
+### Phase 2: Juvenile (Target: April 2026)
+
+**Expected Changes**:
 - API-based IMEP (no manual relay)
 - Direct inter-platform communication
 - Automated routing logic
@@ -310,14 +385,11 @@ TERM Phase2JuvenileTargetApril2026:
 **Capability Additions**:
 - Claude: MCP server integrations (Drive, Notion, etc.)
 - Gemini: NotebookLM API access (Enterprise tier)
-- ChatGP...
-end
+- ChatGPT: Codex CLI integration for GitHub automation
 
+### Phase 3: Adolescent (Target: January 2027)
 
-TERM Phase3AdolescentTargetJanuary2027:
-    sutra: "Expected Changes: - Multi-modal outputs (video, audio, interactive) - External API endpoints (que..."
-    gloss:
-        **Expected Changes**:
+**Expected Changes**:
 - Multi-modal outputs (video, audio, interactive)
 - External API endpoints (query interface)
 - Cost optimization via fine-tuned models
@@ -325,68 +397,58 @@ TERM Phase3AdolescentTargetJanuary2027:
 **Capability Additions**:
 - Claude: Video generation (if available)
 - Gemini: Advanced multimodal synthesis
-- ChatGPT: Agent-mode orchestratio...
-end
+- ChatGPT: Agent-mode orchestration
 
+---
 
-TERM VIIIVERSIONHISTORY:
-    sutra: "Last Regenerated: 2026-01-16T00:44:33.749179Z Data Version: 1.0.0 Template Version: 1.0.0 (2026-0..."
-    gloss:
-        **Last Regenerated**: 2026-01-16T00:44:33.749179Z
+## VIII. VERSION HISTORY
+
+**Last Regenerated**: 2026-01-16T00:44:33.749179Z
 **Data Version**: 1.0.0
 **Template Version**: 1.0.0 (2026-01-15)
-end
+
+### Regeneration Log
 
 
-TERM RegenerationLog:
-    sutra: "- 2026-01-15: Initial capability catalog creation   ---"
-    gloss:
-        - 2026-01-15: Initial capability catalog creation
+- 2026-01-15: Initial capability catalog creation
 
 
 ---
-end
 
+## IX. REGENERATION INSTRUCTIONS
 
-TERM IXREGENERATIONINSTRUCTIONS:
-    sutra: "To update this document when platform capabilities change:  ```bash"
-    gloss:
-        To update this document when platform capabilities change:
+To update this document when platform capabilities change:
 
 ```bash
-end
+# 1. Edit data source
+vim 00-ORCHESTRATION/state/platform_capabilities.json
 
+# 2. Regenerate CANON
+python3 00-ORCHESTRATION/scripts/regenerate_canon.py 31150
 
-TERM 1Editdatasource:
-    sutra: "vim 00-ORCHESTRATION/state/platform_capabilities.json"
-    gloss:
-        vim 00-ORCHESTRATION/state/platform_capabilities.json
-end
+# 3. Review diff
+git diff 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
 
-
-TERM 2RegenerateCANON:
-    sutra: "python3 00-ORCHESTRATION/scripts/regenerate_canon.py 31150"
-    gloss:
-        python3 00-ORCHESTRATION/scripts/regenerate_canon.py 31150
-end
-
-
-TERM 3Reviewdiff:
-    sutra: "git diff 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md"
-    gloss:
-        git diff 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
-end
-
-
-TERM 4Commitifcorrect:
-    sutra: "git add 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md git add 00-ORCHESTRATION/state/platfo..."
-    gloss:
-        git add 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
+# 4. Commit if correct
+git add 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
 git add 00-ORCHESTRATION/state/platform_capabilities.json
 git commit -m "feat(canon): regenerate 31150 with updated platform data"
 ```
 
 **When to Regenerate**:
 - New platform added or removed
-- Capability status changes (beta → active, depr...
-end
+- Capability status changes (beta → active, deprecated, etc.)
+- Pricing changes
+- Major model upgrades
+- Monthly (as part of system health review)
+
+---
+
+**End of CANON-31150**
+
+<!--
+AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
+Template: 00-ORCHESTRATION/templates/CANON-31150.md.j2
+Data: 00-ORCHESTRATION/state/platform_capabilities.json
+Generated: 2026-01-16T00:44:33.749179Z
+-->

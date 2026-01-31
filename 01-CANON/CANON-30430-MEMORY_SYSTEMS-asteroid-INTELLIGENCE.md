@@ -1,11 +1,11 @@
 ---
-id: [[CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE]]
+id: CANON-30430
 name: Memory Systems
 identity: MEMORY_SYSTEMS
 tier: CANON
 type: asteroid
 chain: INTELLIGENCE
-parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
+parent: CANON-30400
 version: 2.0.0
 status: canonical
 created: 2025-12-30
@@ -13,59 +13,102 @@ updated: 2025-12-30
 synopsis: Agent memory architectures, taxonomies, vector databases, context engineering, and production memory systems.
 ---
 
-# CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE (SN Format)
+# CANON-30430: MEMORY SYSTEMS
+## Intelligence Chain Asteroid
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,536 words, 13,613 characters
+**Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+
+---
+
+## PURPOSE
+
+This asteroid provides detailed specifications for memory systems powering autonomous agents. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys memory types, this document provides implementation depth for memory architectures, vector databases, and context engineering.
 
 ---
 
-TERM IntelligenceChainAsteroid:
-    sutra: "Parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)  ---"
-    gloss:
-        **Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+## PART I: MEMORY TAXONOMY
 
----
-end
+### 1.1 Fundamental Memory Types
 
-
-TERM PURPOSE:
-    sutra: "This asteroid provides detailed specifications for memory systems powering autonomous agents"
-    gloss:
-        This asteroid provides detailed specifications for memory systems powering autonomous agents. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys memory types, this document provides implementation depth for memory architectures, vector databases, and context engineering.
-
----
-end
-
-
-TERM 11FundamentalMemoryTypes:
-    sutra: "An agent's intelligence is fundamentally constrained by its ability to remember and learn"
-    gloss:
-        An agent's intelligence is fundamentally | its ability to remember and learn. State-of-the-art agents employ multi-layered memory architecture managing information across different timescales and abstraction levels.
+An agent's intelligence is fundamentally constrained by its ability to remember and learn. State-of-the-art agents employ multi-layered memory architecture managing information across different timescales and abstraction levels.
 
 ```yaml
 Memory_Taxonomy:
   Working_Memory:
-    function: Immediate task context...
-end
+    function: Immediate task context
+    characteristics:
+      - Fast volatile store
+      - Rapid access
+      - Limited capacity
+    implementation: Context window, in-memory structures
+    analogy: Human working memory, LLM prompt window
 
+  Episodic_Memory:
+    function: Chronological record of experiences
+    characteristics:
+      - Event sequences
+      - Actions and outcomes
+      - Session transcripts
+    implementation: Event logs, vector stores
+    use: Case-based reasoning, learning from trial and error
 
-TERM 12MemoryInteractionPatterns:
-    sutra: "`` ┌─────────────────────────────────────────────────────────────┐ │                    PROSPECTI..."
-    gloss:
-        ```
+  Semantic_Memory:
+    function: Factual knowledge repository
+    characteristics:
+      - General facts
+      - Concepts and relationships
+      - Domain knowledge
+    implementation: Knowledge graphs, RAG systems
+    analogy: Internal encyclopedia
+
+  Procedural_Memory:
+    function: Learned skills and workflows
+    characteristics:
+      - Multi-step action sequences
+      - Automated execution patterns
+      - Tool usage knowledge
+    implementation: Tool definitions, workflow templates
+    benefit: Execute without reasoning from first principles
+
+  Prospective_Memory:
+    function: Future intentions and schedules
+    characteristics:
+      - Planned actions
+      - Scheduled tasks
+      - To-do queues
+    implementation: Planning state, task queues
+    purpose: Remember to do something in the future
+```
+
+### 1.2 Memory Interaction Patterns
+
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                    PROSPECTIVE MEMORY                        │
 │              Future intentions, scheduled actions            │
 └────────────────────────────┬────────────────────────────────┘
-                             │...
-end
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      WORKING MEMORY                          │
+│              Active context, current task state              │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+           ┌─────────────────┼─────────────────┐
+           ▼                 ▼                 ▼
+┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐
+│  EPISODIC MEMORY │ │  SEMANTIC MEMORY │ │ PROCEDURAL MEMORY │
+│  Past experiences │ │ Facts & concepts │ │ Skills & workflows │
+└──────────────────┘ └──────────────────┘ └──────────────────┘
+```
 
+---
 
-TERM 21AMEMAgenticMemory:
-    sutra: "NeurIPS 2025 acceptance — Most significant memory innovation of 2025"
-    gloss:
-        **NeurIPS 2025 acceptance** — Most significant memory innovation of 2025.
+## PART II: ARCHITECTURAL INNOVATIONS
+
+### 2.1 A-MEM (Agentic Memory)
+
+**NeurIPS 2025 acceptance** — Most significant memory innovation of 2025.
 
 ```yaml
 A_MEM:
@@ -77,14 +120,29 @@ A_MEM:
 
   mechanism:
     note_structure:
-      - Contextual descriptions...
-end
+      - Contextual descriptions
+      - Keywords and tags
+      - Vector embeddings (all-MiniLM-L6-v2)
 
+    dynamic_indexing:
+      - New memories trigger existing memory updates
+      - Semantic similarity creates interconnected networks
+      - Attributes evolve based on new information
 
-TERM 22MIRIXMultiAgentMemorySystem:
-    sutra: "``yaml MIRIX:   architecture: Six-tier memory taxonomy    tiers:     1_Core: Persistent user and ..."
-    gloss:
-        ```yaml
+    linking:
+      - Agent analyzes historical memories
+      - Establishes meaningful connections
+      - Memory network self-organizes
+
+  results:
+    - Superior improvements across 6 foundation models
+    - Outperforms state-of-the-art baselines
+    - No fixed schemas or manual annotation required
+```
+
+### 2.2 MIRIX (Multi-Agent Memory System)
+
+```yaml
 MIRIX:
   architecture: Six-tier memory taxonomy
 
@@ -93,14 +151,20 @@ MIRIX:
     2_Episodic: Specific events and experiences
     3_Semantic: General knowledge and facts
     4_Procedural: Learned skills and routines
-    5_Resource: External d...
-end
+    5_Resource: External data sources and integrations
+    6_Knowledge_Vaults: Long-term information storage
 
+  benchmarks:
+    ScreenshotVQA: 35% higher accuracy than RAG
+    Storage: 99.9% reduction
+    LOCOMO: 85.4% state-of-the-art performance
 
-TERM 23MemGPTLetta:
-    sutra: "``yaml MemGPT:   inspiration: Operating system memory hierarchy    architecture:     core_memory:..."
-    gloss:
-        ```yaml
+  capability: Real-time screen monitoring with personalized memory
+```
+
+### 2.3 MemGPT (Letta)
+
+```yaml
 MemGPT:
   inspiration: Operating system memory hierarchy
 
@@ -111,59 +175,63 @@ MemGPT:
     external_files: Disk-like persistence
 
   mechanism:
-    - Agents ma...
-end
+    - Agents manage memory through function calls
+    - Autonomous tier management
+    - Data moves between tiers as needed
+    - Creates illusion of unlimited memory within fixed context
 
+  LoCoMo_benchmark: 74% accuracy with filesystem approach
 
-TERM 31RoleinAgentMemory:
-    sutra: "Vector databases became cornerstone technology for long-term episodic and semantic memory"
-    gloss:
-        Vector databases became cornerstone technology for long-term episodic and semantic memory.
+  principle: "Memory is context engineering"
+```
+
+---
+
+## PART III: VECTOR DATABASES
+
+### 3.1 Role in Agent Memory
+
+Vector databases became cornerstone technology for long-term episodic and semantic memory.
 
 ```yaml
 Vector_Database_Function:
   storage: High-dimensional numerical vectors (embeddings)
   capture: Semantic meaning of text, images, data
   retrieval: Nearest-neighbor search in vector space
-  advantage:...
-end
+  advantage: Conceptual similarity vs. keyword matching
+```
 
+### 3.2 Production Solutions
 
-TERM 32ProductionSolutions:
-    sutra: "| Database | Adoption | Characteristics | |----------|----------|-----------------| | Redis | 43%..."
-    gloss:
-        | Database | Adoption | Characteristics |
+| Database | Adoption | Characteristics |
 |----------|----------|-----------------|
 | **Redis** | 43% | Fast, versatile, production-proven |
 | **ChromaDB** | 20% | Open-source, developer-friendly |
 | **pgvector** | 18% | PostgreSQL extension, SQL integration |
-| **Pinecone** | Enterprise | Managed,...
-end
+| **Pinecone** | Enterprise | Managed, scalable |
+| **Milvus** | Enterprise | Open-source, distributed |
+| **Weaviate** | Enterprise | GraphQL, modular vectorizer |
 
+### 3.3 Memory Platform Ecosystem
 
-TERM 33MemoryPlatformEcosystem:
-    sutra: "| Platform | Architecture | Focus | |----------|--------------|-------| | Mem0 | Hybrid (vector +..."
-    gloss:
-        | Platform | Architecture | Focus |
+| Platform | Architecture | Focus |
 |----------|--------------|-------|
 | **Mem0** | Hybrid (vector + graph + KV) | Personalization, adaptation |
 | **Zep** | Long-term + session management | Graph-based organization |
 | **LangMem** | LangChain ecosystem | Modular memory types |
-| **Memary** | Knowle...
-end
+| **Memary** | Knowledge graph-based | Entity relationships, temporal evolution |
 
+---
 
-TERM 41TheCriticalPrinciple:
-    sutra: "> Memory is context engineering—what enters the context window determines agent capabilities more..."
-    gloss:
-        > **Memory is context engineering**—what enters the context window determines agent capabilities more than raw storage capacity.
-end
+## PART IV: CONTEXT ENGINEERING
 
+### 4.1 The Critical Principle
 
-TERM 42ContextWindowEvolution:
-    sutra: "``yaml Context_Window_2025:   Claude_3.5: 200K+ tokens   Gemini_1.5: 200K+ tokens    implication:..."
-    gloss:
-        ```yaml
+> **Memory is context engineering**—what enters the context window determines agent capabilities more than raw storage capacity.
+
+### 4.2 Context Window Evolution
+
+```yaml
 Context_Window_2025:
   Claude_3.5: 200K+ tokens
   Gemini_1.5: 200K+ tokens
@@ -173,13 +241,10 @@ Context_Window_2025:
     - But: Indiscriminate stuffing degrades quality
     - Larger windows don't eliminate need for intelligent management
 ```
-end
 
+### 4.3 Context Engineering Strategies
 
-TERM 43ContextEngineeringStrategies:
-    sutra: "``yaml Optimization_Techniques:   Semantic_Chunking:     - Divide content by meaning, not arbitra..."
-    gloss:
-        ```yaml
+```yaml
 Optimization_Techniques:
   Semantic_Chunking:
     - Divide content by meaning, not arbitrary length
@@ -189,14 +254,22 @@ Optimization_Techniques:
   Relevance_Scoring:
     - Score content by task relevance
     - Prioritize high-relevance in context
-    - Deprioritize or...
-end
+    - Deprioritize or exclude low-relevance
 
+  Temporal_Decay:
+    - Recent information weighted higher
+    - Older information decays unless reinforced
+    - Prevents context pollution from stale data
 
-TERM 44SleepTimeCompute:
-    sutra: "``yaml Sleep_Time_Compute:   concept: Asynchronous memory management during idle periods    opera..."
-    gloss:
-        ```yaml
+  Hierarchical_Summarization:
+    - Compress older content into summaries
+    - Retain detail for recent/relevant
+    - Balance coverage with specificity
+```
+
+### 4.4 Sleep-Time Compute
+
+```yaml
 Sleep_Time_Compute:
   concept: Asynchronous memory management during idle periods
 
@@ -210,13 +283,12 @@ Sleep_Time_Compute:
 ```
 
 ---
-end
 
+## PART V: MEMORY COMPONENT ARCHITECTURE
 
-TERM 51LayeredMemoryStructure:
-    sutra: "``yaml Memory_Layers:   Layer_1_Message_Buffer:     function: Recent conversational history     i..."
-    gloss:
-        ```yaml
+### 5.1 Layered Memory Structure
+
+```yaml
 Memory_Layers:
   Layer_1_Message_Buffer:
     function: Recent conversational history
@@ -226,14 +298,17 @@ Memory_Layers:
   Layer_2_Core_Memory:
     function: Persistent facts and preferences
     implementation: Key-value store
-    update:...
-end
+    update: Explicit through function calls
 
+  Layer_3_External_Database:
+    function: Retrievable knowledge
+    implementation: Vector store + knowledge graph
+    access: Semantic search
+```
 
-TERM 52RetrievalOptimization:
-    sutra: "``yaml Retrieval_Strategies:   ANN_Indexing:     technique: Approximate Nearest Neighbor     bene..."
-    gloss:
-        ```yaml
+### 5.2 Retrieval Optimization
+
+```yaml
 Retrieval_Strategies:
   ANN_Indexing:
     technique: Approximate Nearest Neighbor
@@ -242,14 +317,22 @@ Retrieval_Strategies:
 
   Hybrid_Search:
     technique: Combine semantic + keyword
-    benefit: Precision of keywords + coverage of semantics...
-end
+    benefit: Precision of keywords + coverage of semantics
+    implementation: BM25 + vector similarity fusion
 
+  Reranking:
+    technique: LLM-based result reranking
+    benefit: Context-aware relevance assessment
+    cost: Additional inference latency
+```
 
-TERM 61StandardMemoryOperations:
-    sutra: "``yaml Memory_Interface:   write:     parameters: content, type, metadata     function: Store new..."
-    gloss:
-        ```yaml
+---
+
+## PART VI: MEMORY INTERFACES
+
+### 6.1 Standard Memory Operations
+
+```yaml
 Memory_Interface:
   write:
     parameters: content, type, metadata
@@ -261,14 +344,20 @@ Memory_Interface:
     function: Retrieve relevant information
     returns: Ranked list of memory items
 
-  upda...
-end
+  update:
+    parameters: id, delta
+    function: Modify existing memory
+    triggers: Re-indexing, propagation to linked items
 
+  forget:
+    parameters: criteria
+    function: Remove or deprecate memories
+    use: Privacy, relevance maintenance
+```
 
-TERM 62MemoryAwarePlanning:
-    sutra: "``yaml Memory_Integrated_Planning:   before_action:     - Query episodic: "Have I done this befor..."
-    gloss:
-        ```yaml
+### 6.2 Memory-Aware Planning
+
+```yaml
 Memory_Integrated_Planning:
   before_action:
     - Query episodic: "Have I done this before?"
@@ -277,14 +366,21 @@ Memory_Integrated_Planning:
 
   during_action:
     - Update working memory with intermediate state
-    - Log to episodic for...
-end
+    - Log to episodic for future reference
 
+  after_action:
+    - Extract learnings to semantic memory
+    - Update procedural if new skill acquired
+    - Schedule follow-ups in prospective memory
+```
 
-TERM 71MemoryConsistencyChallenges:
-    sutra: "``yaml Consistency_Issues:   contradiction:     problem: New information contradicts stored memor..."
-    gloss:
-        ```yaml
+---
+
+## PART VII: CONSISTENCY AND COHERENCE
+
+### 7.1 Memory Consistency Challenges
+
+```yaml
 Consistency_Issues:
   contradiction:
     problem: New information contradicts stored memory
@@ -292,14 +388,20 @@ Consistency_Issues:
 
   staleness:
     problem: Stored information becomes outdated
-    resolution: TTL mechanisms, periodic refresh, sourc...
-end
+    resolution: TTL mechanisms, periodic refresh, source re-verification
 
+  fragmentation:
+    problem: Related information scattered across memories
+    resolution: Linking mechanisms, periodic consolidation
 
-TERM 72CrossSessionContinuity:
-    sutra: "``yaml Session_Continuity:   challenge: Maintaining coherent identity across sessions    solution..."
-    gloss:
-        ```yaml
+  hallucination_propagation:
+    problem: Incorrect information persists and propagates
+    resolution: Confidence scoring, source attribution, verification gates
+```
+
+### 7.2 Cross-Session Continuity
+
+```yaml
 Session_Continuity:
   challenge: Maintaining coherent identity across sessions
 
@@ -311,26 +413,30 @@ Session_Continuity:
 
     session_bridging:
       - Session start: Load relevant context
-      - Session end: Summarize...
-end
+      - Session end: Summarize and persist key information
 
+    identity_preservation:
+      - Consistent behavioral patterns
+      - Accumulated knowledge retention
+      - Relationship continuity
+```
 
-TERM 81PerformanceMetrics:
-    sutra: "| Metric | Target | Measurement | |--------|--------|-------------| | Retrieval latency | <100ms ..."
-    gloss:
-        | Metric | Target | Measurement |
+---
+
+## PART VIII: PRODUCTION CONSIDERATIONS
+
+### 8.1 Performance Metrics
+
+| Metric | Target | Measurement |
 |--------|--------|-------------|
 | Retrieval latency | <100ms | P95 search time |
 | Storage efficiency | High compression | Bytes per memory item |
 | Relevance precision | >80% | Retrieved item usefulness |
-| Context utilization | >60% | Useful tokens / total token...
-end
+| Context utilization | >60% | Useful tokens / total tokens |
 
+### 8.2 Scalability Patterns
 
-TERM 82ScalabilityPatterns:
-    sutra: "``yaml Scaling_Strategies:   horizontal:     - Shard memory by user/session     - Distribute inde..."
-    gloss:
-        ```yaml
+```yaml
 Scaling_Strategies:
   horizontal:
     - Shard memory by user/session
@@ -340,14 +446,17 @@ Scaling_Strategies:
   hierarchical:
     - Hot tier: Frequent access, fast storage
     - Warm tier: Periodic access, balanced storage
-    - Cold tier: Rare access, compre...
-end
+    - Cold tier: Rare access, compressed storage
 
+  pruning:
+    - Age-based expiration
+    - Access-frequency thresholds
+    - Relevance score minimums
+```
 
-TERM 83SecurityConsiderations:
-    sutra: "``yaml Memory_Security:   access_control:     - Agent-specific memory isolation     - User data s..."
-    gloss:
-        ```yaml
+### 8.3 Security Considerations
+
+```yaml
 Memory_Security:
   access_control:
     - Agent-specific memory isolation
@@ -361,33 +470,29 @@ Memory_Security:
 
   audit:
     - Memory access logging
-    - Modi...
-end
-
-
-TERM PARTIXTOOLOVERLOADINSIGHT:
-    sutra: "Research demonstrates diminishing returns beyond 8-10 tools in single-agent configurations due to..."
-    gloss:
-        Research demonstrates diminishing returns beyond 8-10 tools in single-agent configurations due to context window constraints and selection complexity.
-
-**Solution**: Multi-agent architectures where specialized agents each access focused tool subsets rather than monolithic agents attempting to master...
-end
-
-
-TERM SATELLITES:
-    sutra: "None"
-    gloss:
-        None. This is a leaf asteroid.
+    - Modification tracking
+    - Compliance reporting
+```
 
 ---
-end
 
+## PART IX: TOOL OVERLOAD INSIGHT
 
-TERM VERSIONHISTORY:
-    sutra: "Version 1.0.0 (December 2025): Genesis establishment - Canonized from Technology Lunar - Agents.m..."
-    gloss:
-        **Version 1.0.0** (December 2025): Genesis establishment
+Research demonstrates diminishing returns beyond 8-10 tools in single-agent configurations due to context window constraints and selection complexity.
+
+**Solution**: Multi-agent architectures where specialized agents each access focused tool subsets rather than monolithic agents attempting to master dozens of capabilities.
+
+---
+
+## SATELLITES
+
+None. This is a leaf asteroid.
+
+---
+
+## VERSION HISTORY
+
+**Version 1.0.0** (December 2025): Genesis establishment
 - Canonized from Technology Lunar - Agents.md
 - Memory taxonomies and architectures documented
 - Context engineering principles established
-end

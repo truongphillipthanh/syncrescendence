@@ -1,11 +1,11 @@
 ---
-id: [[CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE]]
+id: CANON-30420
 name: Multi-Agent Orchestration
 identity: MULTI_AGENT_ORCHESTRATION
 tier: CANON
 type: asteroid
 chain: INTELLIGENCE
-parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
+parent: CANON-30400
 version: 2.0.0
 status: canonical
 created: 2025-12-30
@@ -13,44 +13,30 @@ updated: 2025-12-30
 synopsis: Multi-agent orchestration patterns, collaboration topologies, communication protocols, and specialist coordination architectures.
 ---
 
-# CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE (SN Format)
+# CANON-30420: MULTI-AGENT ORCHESTRATION
+## Intelligence Chain Asteroid
 
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,986 words, 16,789 characters
+**Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+
+---
+
+## PURPOSE
+
+This asteroid provides detailed specifications for multi-agent systems—teams of specialized agents collaborating to achieve complex goals. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys orchestration patterns, this document provides implementation depth for topologies, protocols, and coordination mechanisms.
 
 ---
 
-TERM IntelligenceChainAsteroid:
-    sutra: "Parent: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)  ---"
-    gloss:
-        **Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+## PART I: THE MULTI-AGENT PARADIGM
 
----
-end
+### 1.1 Foundational Principle
 
+Rather than building monolithic AI attempting everything, the current paradigm favors specialized agents that collaborate. This strategy mirrors human organizational structures: experts in engineering, design, and management accomplish more together than any generalist alone.
 
-TERM PURPOSE:
-    sutra: "This asteroid provides detailed specifications for multi-agent systems—teams of specialized agent..."
-    gloss:
-        This asteroid provides detailed specifications for multi-agent systems—teams of specialized agents collaborating to achieve complex goals. Where [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] surveys orchestration patterns, this document provides implementation depth for topologies, protocols, and coordination mechanisms.
+**Core Insight**: For problems of sufficient complexity, a single agent—no matter how sophisticated—proves insufficient. The dominant paradigm deploys Multi-Agent Systems founded on divide and conquer: decompose objectives into manageable sub-tasks assigned to specialists.
 
----
-end
+### 1.2 Specialization Dimensions
 
-
-TERM 11FoundationalPrinciple:
-    sutra: "Rather than building monolithic AI attempting everything, the current paradigm favors specialized..."
-    gloss:
-        Rather than building monolithic AI attempting everything, the current paradigm favors specialized agents that collaborate. This strategy mirrors human organizational structures: experts in engineering, design, and management accomplish more together than any generalist alone.
-
-**Core Insight**: For...
-end
-
-
-TERM 12SpecializationDimensions:
-    sutra: "``yaml Specialization_Types:   Domain:     definition: Masters of specific knowledge areas or ind..."
-    gloss:
-        ```yaml
+```yaml
 Specialization_Types:
   Domain:
     definition: Masters of specific knowledge areas or industries
@@ -58,30 +44,50 @@ Specialization_Types:
       - Medical agent: diagnostics, healthcare protocols
       - Legal agent: laws, contract analysis
       - Financial agent: trading, risk assessment
-    benefit: Performance and...
-end
+    benefit: Performance and accuracy unreachable by generalists
 
+  Modality:
+    definition: Focus on particular input-output channels
+    examples:
+      - Vision agent: images, video processing
+      - Conversational agent: dialogue, natural language
+      - Coding agent: programming languages, code generation
+    benefit: Specialized models and techniques per modality
 
-TERM 13TheSpecialistResolution:
-    sutra: "Unanimous expert consensus (Rossum 2025 Survey): Specialists coordinated through orchestration be..."
-    gloss:
-        **Unanimous expert consensus** (Rossum 2025 Survey): Specialists coordinated through orchestration beat generalists.
+  Task:
+    definition: Developed by operation type
+    examples:
+      - Research agent: database queries, information synthesis
+      - Planning agent: scheduling, logistics
+      - Creative agent: design, content generation
+    benefit: Route tasks to best-suited agent
 
-> *"Deploying generalist agents expecting senior-level performance will miss niche expertise, necessary meticulousness, and domain experience, resulting in work quality in free fall....
-end
+  Interaction:
+    definition: Tailored to primary audience
+    examples:
+      - Human-facing: clear explanations, friendly interface
+      - Agent-facing: formal, structured communication
+      - System-facing: reliable low-level control
+    benefit: Optimized interface per interaction type
+```
 
+### 1.3 The Specialist Resolution
 
-TERM PARTIIFIVECOREORCHESTRATIONPATTERNS:
-    sutra: "Azure's July 2025 architecture documentation codified five patterns that became industry standards:"
-    gloss:
-        Azure's July 2025 architecture documentation codified five patterns that became industry standards:
-end
+**Unanimous expert consensus** (Rossum 2025 Survey): Specialists coordinated through orchestration beat generalists.
 
+> *"Deploying generalist agents expecting senior-level performance will miss niche expertise, necessary meticulousness, and domain experience, resulting in work quality in free fall."*
 
-TERM 21SequentialOrchestration:
-    sutra: "``yaml Sequential_Pattern:   description: Chain agents in predefined workflows   mechanism: Each ..."
-    gloss:
-        ```yaml
+The pattern mirrors Mixture of Experts: routing systems direct tasks to specialized sub-agents based on context, permissions, and task type. JPMorgan's COIN processing 50,000+ commercial agreements annually demonstrates specialist precision; generalist approaches lack reliability for high-stakes applications.
+
+---
+
+## PART II: FIVE CORE ORCHESTRATION PATTERNS
+
+Azure's July 2025 architecture documentation codified five patterns that became industry standards:
+
+### 2.1 Sequential Orchestration
+
+```yaml
 Sequential_Pattern:
   description: Chain agents in predefined workflows
   mechanism: Each agent processes previous agent's output
@@ -91,14 +97,21 @@ Sequential_Pattern:
     domain: Legal document generation
     flow:
       1: Template selection agent
-      2: Clause customizati...
-end
+      2: Clause customization agent
+      3: Regulatory compliance agent
+      4: Risk assessment agent
+    result: Progressive document refinement
 
+  characteristics:
+    - Predictable execution path
+    - Clear debugging trace
+    - Limited parallelization
+    - Error propagation risk
+```
 
-TERM 22ConcurrentOrchestration:
-    sutra: "``yaml Concurrent_Pattern:   description: Fan-out/fan-in parallel analysis   mechanism: Multiple ..."
-    gloss:
-        ```yaml
+### 2.2 Concurrent Orchestration
+
+```yaml
 Concurrent_Pattern:
   description: Fan-out/fan-in parallel analysis
   mechanism: Multiple agents analyze same task simultaneously
@@ -107,14 +120,24 @@ Concurrent_Pattern:
   example:
     domain: Financial stock analysis
     parallel_agents:
-      - Fundamental analysis agent...
-end
+      - Fundamental analysis agent
+      - Technical analysis agent
+      - Sentiment analysis agent
+      - ESG compliance agent
+    aggregation: Synthesis agent combines perspectives
 
+  performance: 45% faster problem resolution than single-agent
 
-TERM 23GroupChatOrchestration:
-    sutra: "``yaml Group_Chat_Pattern:   description: Shared conversation with chat manager   mechanism: Agen..."
-    gloss:
-        ```yaml
+  characteristics:
+    - High throughput
+    - Resource intensive
+    - Requires result aggregation
+    - Conflict resolution needed
+```
+
+### 2.3 Group Chat Orchestration
+
+```yaml
 Group_Chat_Pattern:
   description: Shared conversation with chat manager
   mechanism: Agents collaborate through conversation threads
@@ -124,14 +147,20 @@ Group_Chat_Pattern:
     domain: Parks department planning
     participants:
       - Community engagement agent
-      -...
-end
+      - Environmental planning agent
+      - Budget agent
+    manager: Chat manager coordinates debate
+    output: Proposals refined before human approval
 
+  constraints:
+    - Best limited to 3 or fewer agents
+    - Requires strong moderation
+    - Can devolve into endless debate
+```
 
-TERM 24HandoffOrchestration:
-    sutra: "``yaml Handoff_Pattern:   description: Transfer full control based on context   mechanism: Triage..."
-    gloss:
-        ```yaml
+### 2.4 Handoff Orchestration
+
+```yaml
 Handoff_Pattern:
   description: Transfer full control based on context
   mechanism: Triage agent delegates to specialists mid-workflow
@@ -141,14 +170,20 @@ Handoff_Pattern:
     domain: Telecom CRM
     flow:
       - Triage agent receives customer request
-      - Identifi...
-end
+      - Identifies expertise requirement mid-workflow
+      - Hands off to: technical | financial | account specialist
+      - Specialist completes resolution
 
+  characteristics:
+    - Dynamic routing
+    - Clear ownership transfer
+    - Context preservation critical
+    - Handoff design determines success
+```
 
-TERM 25MagenticOrchestration:
-    sutra: "``yaml Magentic_Pattern:   description: Dynamic task ledgers for open-ended problems   mechanism:..."
-    gloss:
-        ```yaml
+### 2.5 Magentic Orchestration
+
+```yaml
 Magentic_Pattern:
   description: Dynamic task ledgers for open-ended problems
   mechanism: Manager builds plans, delegates to specialists with tools
@@ -157,14 +192,27 @@ Magentic_Pattern:
   example:
     domain: Site Reliability Engineering
     operation:
-      - Manager a...
-end
+      - Manager agent receives incident alert
+      - Builds dynamic task ledger
+      - Coordinates: monitoring | diagnostic | repair agents
+      - Documents approach before execution
 
+  reference: Microsoft Research's Magentic-One implementation
 
-TERM 31HierarchicalMultiAgentSystems:
-    sutra: "``yaml Hierarchical_Topology:   structure: Top-down tree with leader delegating to workers    cha..."
-    gloss:
-        ```yaml
+  characteristics:
+    - Adaptive planning
+    - Tool-equipped specialists
+    - Documentation-first approach
+    - Handles complexity gracefully
+```
+
+---
+
+## PART III: COLLABORATION TOPOLOGIES
+
+### 3.1 Hierarchical Multi-Agent Systems
+
+```yaml
 Hierarchical_Topology:
   structure: Top-down tree with leader delegating to workers
 
@@ -175,14 +223,17 @@ Hierarchical_Topology:
 
   example:
     software_development:
-      - Project Manager agent (orchestrator)...
-end
+      - Project Manager agent (orchestrator)
+        - Developer agent
+        - QA agent
+        - Documentation agent
 
+  frameworks: HALO, Puppeteer (dynamic adaptive delegation)
+```
 
-TERM 32PlannerExecutorPattern:
-    sutra: "``yaml Planner_Executor:   structure: Two-layer with planning and execution separation    planner..."
-    gloss:
-        ```yaml
+### 3.2 Planner-Executor Pattern
+
+```yaml
 Planner_Executor:
   structure: Two-layer with planning and execution separation
 
@@ -198,13 +249,10 @@ Planner_Executor:
 
   advantage: Clear separation of concerns
 ```
-end
 
+### 3.3 Critic-Refiner Pattern
 
-TERM 33CriticRefinerPattern:
-    sutra: "``yaml Critic_Refiner:   structure: Collaborative feedback loop between two agents    cycle:     ..."
-    gloss:
-        ```yaml
+```yaml
 Critic_Refiner:
   structure: Collaborative feedback loop between two agents
 
@@ -215,14 +263,12 @@ Critic_Refiner:
     4: Actor refines based on feedback
     5: Iterate until quality threshold met
 
-  benefit: Si...
-end
+  benefit: Significant enhancement of output quality
+```
 
+### 3.4 Specialist Swarm
 
-TERM 34SpecialistSwarm:
-    sutra: "``yaml Specialist_Swarm:   structure: Decentralized parallel agents working concurrently    opera..."
-    gloss:
-        ```yaml
+```yaml
 Specialist_Swarm:
   structure: Decentralized parallel agents working concurrently
 
@@ -233,14 +279,17 @@ Specialist_Swarm:
   best_for:
     - Parallel exploration
     - Market research
-    - Complex data analysis...
-end
+    - Complex data analysis
 
+  characteristics:
+    - High parallelism
+    - Emergent collaboration
+    - Requires synthesis logic
+```
 
-TERM 35HybridHubandSpokewithMesh:
-    sutra: "``yaml Hybrid_Topology:   description: Dominant real-world architecture    structure:     hub_spo..."
-    gloss:
-        ```yaml
+### 3.5 Hybrid Hub-and-Spoke with Mesh
+
+```yaml
 Hybrid_Topology:
   description: Dominant real-world architecture
 
@@ -252,37 +301,42 @@ Hybrid_Topology:
 
     mesh:
       - Specialized agents with local autonomy
-      - Direct peer-t...
-end
+      - Direct peer-to-peer for tactical execution
+      - Resilience through redundancy
 
+  deployments:
+    - Microsoft healthcare: hours → minutes for cancer care
+    - Northwestern Mutual: hours → minutes for processing
 
-TERM 36TopologySelectionMatrix:
-    sutra: "| Pattern | Use When | Avoid When | |---------|----------|------------| | Hierarchical | Well-def..."
-    gloss:
-        | Pattern | Use When | Avoid When |
+  advantage: Strategic control with tactical flexibility
+```
+
+### 3.6 Topology Selection Matrix
+
+| Pattern | Use When | Avoid When |
 |---------|----------|------------|
 | Hierarchical | Well-defined, decomposable | Creative, exploratory |
 | Planner-Executor | Clear task-plan distinction | Dynamic requirements |
 | Critic-Refiner | Quality critical | Speed critical |
-| Specialist Swarm | Parallel...
-end
+| Specialist Swarm | Parallel exploration needed | Tight coordination required |
+| Hybrid | Production deployments | Simple single-agent suffices |
 
+---
 
-TERM 41ProtocolLandscapeOctober2025:
-    sutra: "| Protocol | Function | Status | |----------|----------|--------| | MCP | Agent-to-tool structure..."
-    gloss:
-        | Protocol | Function | Status |
+## PART IV: COMMUNICATION PROTOCOLS
+
+### 4.1 Protocol Landscape (October 2025)
+
+| Protocol | Function | Status |
 |----------|----------|--------|
 | **MCP** | Agent-to-tool structured interactions | Universal (OpenAI, Google, Microsoft, AWS) |
 | **A2A** | Peer agent collaboration and discovery | 150+ organizations |
-| **ACP** | Low-latency controlled environments | Manufacturing...
-end
+| **ACP** | Low-latency controlled environments | Manufacturing, autonomous vehicles |
+| **ANP** | Decentralized identity-aware networks | W3C DIDs, JSON-LD graphs |
 
+### 4.2 Model Context Protocol (MCP)
 
-TERM 42ModelContextProtocolMCP:
-    sutra: "``yaml MCP:   function: Universal translation layer between agents and external systems   standar..."
-    gloss:
-        ```yaml
+```yaml
 MCP:
   function: Universal translation layer between agents and external systems
   standard: JSON-RPC 2.0-based
@@ -293,14 +347,22 @@ MCP:
     - Eliminates N×M integration problem
 
   june_2025_updates:
-    - OAut...
-end
+    - OAuth Resource Server classification
+    - RFC 8707 Resource Indicators for token protection
+    - Async operation support
 
+  adoption:
+    - OpenAI: March 2025
+    - Google DeepMind: April 2025
+    - Microsoft Copilot Studio: May 2025
+    - AWS steering committee: 2025
 
-TERM 43AgenttoAgentProtocolA2A:
-    sutra: "``yaml A2A:   function: Peer agent communication and collaboration   launched: April 2025 by Goog..."
-    gloss:
-        ```yaml
+  analogy: "USB-C for AI applications"
+```
+
+### 4.3 Agent-to-Agent Protocol (A2A)
+
+```yaml
 A2A:
   function: Peer agent communication and collaboration
   launched: April 2025 by Google
@@ -311,14 +373,21 @@ A2A:
 
   features:
     AgentCards: Self-description documents
-    Task_Lifecycle: submitted → workin...
-end
+    Task_Lifecycle: submitted → working → completed
+    Modality_Negotiation: text, forms, audio, video
 
+  version_0_3_july_2025:
+    - gRPC support
+    - Security card signatures
 
-TERM 44MessageArchitecture:
-    sutra: "``yaml Message_Format:   headers:     type: request | inform | propose | accept | reject     inte..."
-    gloss:
-        ```yaml
+  governance: Linux Foundation (June 2025)
+
+  relationship: Complements MCP (tools) with peer coordination
+```
+
+### 4.4 Message Architecture
+
+```yaml
 Message_Format:
   headers:
     type: request | inform | propose | accept | reject
@@ -331,14 +400,19 @@ Message_Format:
 
   metadata:
     timestamp: ISO 8601
-    origi...
-end
+    origin: Agent identifier
+    correlation_id: Conversation tracking
+    provenance: Message chain history
 
+Conversation_Protocols:
+  - Negotiation: offer → counter-offer → accept/reject
+  - Delegation: assign → acknowledge → status → complete
+  - Collaboration: propose → discuss → synthesize
+```
 
-TERM 45AdoptionRoadmap:
-    sutra: "Per Everest Group 2025:  ``yaml Phased_Adoption:   Phase_1: MCP for data integration   Phase_2: A..."
-    gloss:
-        Per Everest Group 2025:
+### 4.5 Adoption Roadmap
+
+Per Everest Group 2025:
 
 ```yaml
 Phased_Adoption:
@@ -349,23 +423,19 @@ Phased_Adoption:
 ```
 
 ---
-end
 
+## PART V: STATE AND MEMORY MANAGEMENT
 
-TERM 51CentralizedvsDistributed:
-    sutra: "| Approach | Characteristics | Best For | |----------|-----------------|----------| | Centralized..."
-    gloss:
-        | Approach | Characteristics | Best For |
+### 5.1 Centralized vs Distributed
+
+| Approach | Characteristics | Best For |
 |----------|-----------------|----------|
 | **Centralized** | Vector + graph + document stores; consistency; audit trails | Compliance-heavy industries |
-| **Distributed** | Local agent state; scalability; fault isolation | High-performance, resilient system...
-end
+| **Distributed** | Local agent state; scalability; fault isolation | High-performance, resilient systems |
 
+### 5.2 Consistency Models
 
-TERM 52ConsistencyModels:
-    sutra: "``yaml Consistency_Approaches:   eventual:     - Minor temporary discrepancies allowed     - Asyn..."
-    gloss:
-        ```yaml
+```yaml
 Consistency_Approaches:
   eventual:
     - Minor temporary discrepancies allowed
@@ -375,14 +445,14 @@ Consistency_Approaches:
 
   strong:
     - Real-time consistency enforced
-    - Synchro...
-end
+    - Synchronous updates
+    - Higher latency cost
+    - Required for critical state
+```
 
+### 5.3 ZeRO-3 Breakthrough
 
-TERM 53ZeRO3Breakthrough:
-    sutra: "Memory optimization achievement: - 8x memory reduction - 52.30% Model FLOPs Utilization - O(√t lo..."
-    gloss:
-        Memory optimization achievement:
+Memory optimization achievement:
 - 8x memory reduction
 - 52.30% Model FLOPs Utilization
 - O(√t log t) complexity scaling
@@ -390,24 +460,21 @@ TERM 53ZeRO3Breakthrough:
 Addresses core bottleneck in large-scale multi-agent deployments.
 
 ---
-end
 
+## PART VI: FRAMEWORK COMPARISON
 
-TERM 61PerformanceBenchmarks:
-    sutra: "| Framework | Latency | Token Usage | Strength | |-----------|---------|-------------|----------|..."
-    gloss:
-        | Framework | Latency | Token Usage | Strength |
+### 6.1 Performance Benchmarks
+
+| Framework | Latency | Token Usage | Strength |
 |-----------|---------|-------------|----------|
 | **LangGraph** | Lowest | Lowest | Predefined deterministic paths |
 | **OpenAI Swarm** | Near-LangGraph | Low | Direct Python function calls |
-| **CrewAI** | Moderate | Moderate | Role-based abstractio...
-end
+| **CrewAI** | Moderate | Moderate | Role-based abstractions |
+| **LangChain** | Highest | Highest | LLM interpretation overhead |
 
+### 6.2 Selection Criteria
 
-TERM 62SelectionCriteria:
-    sutra: "``yaml Selection_Matrix:   LangGraph:     choose_when:       - Complex conditional branching     ..."
-    gloss:
-        ```yaml
+```yaml
 Selection_Matrix:
   LangGraph:
     choose_when:
@@ -420,14 +487,35 @@ Selection_Matrix:
     choose_when:
       - Role-based collaboration
       - Business workflows
-      - Rapid developm...
-end
+      - Rapid development
+      - Intuitive abstractions preferred
 
+  Microsoft_Agent_Framework:
+    choose_when:
+      - Azure ecosystem
+      - Enterprise governance
+      - .NET integration
 
-PROC 71PlanandExecute:
-    sutra: "``yaml Plan_Execute:   structure:     - Autonomous strategy generation     - Adaptive Plan-Do-Che..."
-    gloss:
-        ```yaml
+  Google_ADK:
+    choose_when:
+      - Multi-model support
+      - Interoperability priority
+      - Google Cloud integration
+
+  OpenAI_SDK:
+    choose_when:
+      - Simplicity priority
+      - Broad model support
+      - Minimal abstractions
+```
+
+---
+
+## PART VII: EXTENDED WORKFLOW PATTERNS
+
+### 7.1 Plan-and-Execute
+
+```yaml
 Plan_Execute:
   structure:
     - Autonomous strategy generation
@@ -441,13 +529,10 @@ Plan_Execute:
     4: Adjust plan if needed
     5: Repeat until goal achieved
 ```
-end
 
+### 7.2 Orchestrator-Worker
 
-TERM 72OrchestratorWorker:
-    sutra: "``yaml Orchestrator_Worker:   applications:     - Retrieval-augmented generation     - Coding age..."
-    gloss:
-        ```yaml
+```yaml
 Orchestrator_Worker:
   applications:
     - Retrieval-augmented generation
@@ -459,13 +544,10 @@ Orchestrator_Worker:
     3: Workers execute independently
     4: Synthesize results
 ```
-end
 
+### 7.3 Evaluator-Optimizer
 
-TERM 73EvaluatorOptimizer:
-    sutra: "``yaml Evaluator_Optimizer:   pattern: Continuous improvement loop    operation:     - Generation..."
-    gloss:
-        ```yaml
+```yaml
 Evaluator_Optimizer:
   pattern: Continuous improvement loop
 
@@ -479,25 +561,21 @@ Evaluator_Optimizer:
 ```
 
 ---
-end
 
+## PART VIII: PRODUCTION DEPLOYMENT
 
-TERM 81MultiAgentPerformanceMetrics:
-    sutra: "| Metric | Single-Agent Baseline | Multi-Agent Improvement | |--------|----------------------|---..."
-    gloss:
-        | Metric | Single-Agent Baseline | Multi-Agent Improvement |
+### 8.1 Multi-Agent Performance Metrics
+
+| Metric | Single-Agent Baseline | Multi-Agent Improvement |
 |--------|----------------------|-------------------------|
 | Problem resolution speed | Baseline | +45% faster |
 | Outcome accuracy | Baseline | +60% more accurate |
 | Processing time (Fujitsu) | Baseline | -67% reduction |
-| QA time (JM...
-end
+| QA time (JM Family) | Weeks | Days (-60%) |
 
+### 8.2 Safety Considerations
 
-TERM 82SafetyConsiderations:
-    sutra: "Multi-agent systems introduce:  Opportunities: - Verification agents provide oversight - Multiple..."
-    gloss:
-        Multi-agent systems introduce:
+Multi-agent systems introduce:
 
 **Opportunities**:
 - Verification agents provide oversight
@@ -510,14 +588,14 @@ TERM 82SafetyConsiderations:
 - Coordination complexity
 
 **Mitigation**:
-- Standard opera...
-end
+- Standard operating procedures
+- Rules of engagement
+- Verification modules
+- Human oversight at checkpoints
 
+### 8.3 Progressive Trust Model
 
-TERM 83ProgressiveTrustModel:
-    sutra: "``yaml Progressive_Trust:   initial:     - Limited task scope     - Frequent human review     - C..."
-    gloss:
-        ```yaml
+```yaml
 Progressive_Trust:
   initial:
     - Limited task scope
@@ -531,24 +609,22 @@ Progressive_Trust:
     - More critical workflows enabled
 
   mature:
-    - Full auto...
-end
-
-
-TERM SATELLITES:
-    sutra: "None"
-    gloss:
-        None. This is a leaf asteroid.
+    - Full autonomous team operation
+    - Human governance role
+    - Exception-based oversight
+```
 
 ---
-end
 
+## SATELLITES
 
-TERM VERSIONHISTORY:
-    sutra: "Version 1.0.0 (December 2025): Genesis establishment - Canonized from Technology Lunar - Agents.m..."
-    gloss:
-        **Version 1.0.0** (December 2025): Genesis establishment
+None. This is a leaf asteroid.
+
+---
+
+## VERSION HISTORY
+
+**Version 1.0.0** (December 2025): Genesis establishment
 - Canonized from Technology Lunar - Agents.md
 - Five orchestration patterns standardized
 - Protocol landscape documented
-end

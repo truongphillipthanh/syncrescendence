@@ -1,10 +1,10 @@
 ---
-id: [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
+id: CANON-30340
 name: Implementation Patterns
 identity: IMPLEMENTATION_PATTERNS
 tier: CANON
 type: asteroid
-parent: [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]
+parent: CANON-30300
 chain: INTELLIGENCE
 comet: TECH_STACK
 version: 2.0.0
@@ -13,26 +13,25 @@ created: 2025-12-31
 updated: 2025-12-31
 change_velocity: quarterly
 dependencies:
-  - [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]
-  - [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
-  - [[CANON-30000-INTELLIGENCE-chain]]
+  - CANON-30300
+  - CANON-30330
+  - CANON-30000
 synopsis: >
   Production-validated implementation patterns for AI-augmented systems:
   architectural anti-patterns, memory bootstrapping, orchestration strategies,
   context engineering economics, security governance, and operational cadences.
 ---
 
-# CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE (SN Format)
-
-**Note**: This is a Semantic Notation compressed version.
-**Original**: 1,845 words, 13,484 characters
+# CANON-30340: IMPLEMENTATION PATTERNS
+## Production Workflows and Operational Guidance
 
 ---
 
-TERM TheOverEngineeringAntiPattern:
-    sutra: "What fails: 1"
-    gloss:
-        **What fails:**
+## I. Architectural Wisdom
+
+### The Over-Engineering Anti-Pattern
+
+**What fails:**
 1. Building infrastructure before validating concepts
 2. Elaborate schemas before understanding requirements
 3. Rigid taxonomies resisting evolution
@@ -41,83 +40,72 @@ TERM TheOverEngineeringAntiPattern:
 
 **Core corrections:**
 
-| Anti...
-end
+| Anti-Pattern | Correct Approach |
+|-------------|------------------|
+| Database schemas → theory | Theory → derived implementation |
+| Specify field types, intervals | Document concepts, let details emerge |
+| Comprehensive tool catalogs | Stable primitives extracted when needed |
+| Prescribe workflows upfront | Observe patterns, crystallize apparatus |
+| Linear effort growth | Intelligence scales with data |
 
+### Implementation Principles
 
-TERM ImplementationPrinciples:
-    sutra: "Start Lightweight, Scale Intelligently: Don't build comprehensive databases"
-    gloss:
-        **Start Lightweight, Scale Intelligently**: Don't build comprehensive databases. Start with simple tracking, let patterns emerge, formalize what proves valuable.
+**Start Lightweight, Scale Intelligently**: Don't build comprehensive databases. Start with simple tracking, let patterns emerge, formalize what proves valuable.
 
-**Observation Over Prescription**: Don't design workflows upfront. Use tools naturally, track usage, identify apparatus from observation....
-end
+**Observation Over Prescription**: Don't design workflows upfront. Use tools naturally, track usage, identify apparatus from observation.
 
+**Primitives Over Tools**: Don't catalog every feature. Extract primitives only when considering consolidation or encountering gaps.
 
-TERM PhaseArchitecture:
-    sutra: "| Phase | Timeline | Goal | Success Criteria | |-------|----------|------|------------------| | W..."
-    gloss:
-        | Phase | Timeline | Goal | Success Criteria |
+**Intelligence Through Data**: Don't manually classify everything. Instrument systems, collect signals, let patterns emerge algorithmically.
+
+**Governance As Enabler**: Design governance that enables capability while managing risk. Good governance accelerates, not restricts.
+
+---
+
+## II. Memory System Bootstrapping
+
+### Phase Architecture
+
+| Phase | Timeline | Goal | Success Criteria |
 |-------|----------|------|------------------|
 | Working | Week 1 | Context continuity | Multi-turn coherence |
 | Episodic | Weeks 2-4 | Interaction logging | Pattern identification |
-| Semantic | Months 2-3 | Knowledge extraction | Cross-session answer...
-end
+| Semantic | Months 2-3 | Knowledge extraction | Cross-session answers |
+| Procedural | Months 3-4 | Workflow caching | Zero-reasoning execution |
+| Integration | Months 4-6 | Unified retrieval | Multi-tier intelligence |
 
-
-TERM WorkingMemoryWeek1:
-    sutra: "Maintain conversation history in model context window"
-    gloss:
-        Maintain conversation history in model context window. No external storage required.
+### Working Memory (Week 1)
+Maintain conversation history in model context window. No external storage required.
 
 **Pattern**: Append user/assistant messages to history, pass full history to LLM.
-end
 
-
-TERM EpisodicMemoryWeeks24:
-    sutra: "Log interactions to structured format (JSON/SQLite): timestamp, input, output, metadata, session_id"
-    gloss:
-        Log interactions to structured format (JSON/SQLite): timestamp, input, output, metadata, session_id.
+### Episodic Memory (Weeks 2-4)
+Log interactions to structured format (JSON/SQLite): timestamp, input, output, metadata, session_id.
 
 **Pattern**: Append-only log file, chronological retrieval, keyword search.
-end
 
-
-TERM SemanticMemoryMonths23:
-    sutra: "Extract and retrieve factual knowledge"
-    gloss:
-        Extract and retrieve factual knowledge.
+### Semantic Memory (Months 2-3)
+Extract and retrieve factual knowledge.
 
 **Option A (Simple)**: LLM-based fact extraction + keyword search in fact store.
 
 **Option B (Production)**: Vector database (Pinecone, etc.) with embeddings for semantic retrieval.
-end
 
-
-TERM ProceduralMemoryMonths34:
-    sutra: "Cache high-frequency workflows as reusable functions"
-    gloss:
-        Cache high-frequency workflows as reusable functions.
+### Procedural Memory (Months 3-4)
+Cache high-frequency workflows as reusable functions.
 
 **Pattern**: Analyze episodic log for repeated sequences → convert to executable procedure → invoke without re-reasoning.
-end
 
-
-TERM UnifiedMemoryMonths46:
-    sutra: "Intelligent multi-tier retrieval hierarchy: 1"
-    gloss:
-        Intelligent multi-tier retrieval hierarchy:
+### Unified Memory (Months 4-6)
+Intelligent multi-tier retrieval hierarchy:
 1. Working memory (fastest)
 2. Procedural cache (fast)
 3. Semantic knowledge (medium)
 4. Similar episodes (slower)
-end
 
+### Memory Architecture Patterns
 
-TERM MemoryArchitecturePatterns:
-    sutra: "Context Window Optimization: - Static knowledge at beginning (enables caching) - Recent conversat..."
-    gloss:
-        **Context Window Optimization**:
+**Context Window Optimization**:
 - Static knowledge at beginning (enables caching)
 - Recent conversation in middle
 - Current query at end
@@ -125,14 +113,19 @@ TERM MemoryArchitecturePatterns:
 
 **Hierarchical Summarization**:
 - Detailed episodes → session summaries → weekly digests → monthly insights
-- Ret...
-end
+- Retrieval starts at appropriate abstraction level
 
+**Sleep-Time Reorganization**:
+- During idle: consolidate memories, update indices, prune low-value entries
+- Background optimization improves retrieval quality
 
-TERM DecisionTree:
-    sutra: "`` Is workflow deterministic with clear stages"
-    gloss:
-        ```
+---
+
+## III. Orchestration Patterns
+
+### Decision Tree
+
+```
 Is workflow deterministic with clear stages?
 ├─ Yes → Sequential coordination (60%+ of workflows)
 └─ No
@@ -141,14 +134,15 @@ Is workflow deterministic with clear stages?
       └─ No
          └─ Is brainstorming/creativity needed?
             ├─ Yes → Group chat (max 3 agents)
-            └─ No...
-end
+            └─ No
+               └─ Does expertise shift between phases?
+                  ├─ Yes → Explicit handoff
+                  └─ No → Magnetic routing (adaptive)
+```
 
+### Pattern 1: Sequential Coordination
 
-TERM Pattern1SequentialCoordination:
-    sutra: "When: Linear pipeline with clear stage boundaries"
-    gloss:
-        **When**: Linear pipeline with clear stage boundaries.
+**When**: Linear pipeline with clear stage boundaries.
 
 **Structure**: Research → Draft → Edit → Format (stage outputs feed next stage).
 
@@ -157,13 +151,10 @@ TERM Pattern1SequentialCoordination:
 - Log intermediate results
 - Time stages to identify bottlenecks
 - Cache outputs for common inputs
-end
 
+### Pattern 2: Concurrent Execution
 
-TERM Pattern2ConcurrentExecution:
-    sutra: "When: Independent subtasks that parallelize"
-    gloss:
-        **When**: Independent subtasks that parallelize.
+**When**: Independent subtasks that parallelize.
 
 **Structure**: Spawn parallel tasks → gather results → synthesize.
 
@@ -173,14 +164,11 @@ TERM Pattern2ConcurrentExecution:
 - Set timeout per task (prevent blocking)
 - Retry with exponential backoff
 - Monitor API rate limits
-- Pr...
-end
+- Priority queue if some results more important
 
+### Pattern 3: Critic-Refiner Loop
 
-TERM Pattern3CriticRefinerLoop:
-    sutra: "When: Quality > speed, iterative improvement beneficial"
-    gloss:
-        **When**: Quality > speed, iterative improvement beneficial.
+**When**: Quality > speed, iterative improvement beneficial.
 
 **Structure**: Generate → Critique → Refine (loop until threshold met).
 
@@ -189,14 +177,11 @@ TERM Pattern3CriticRefinerLoop:
 **Tips**:
 - Clear evaluation criteria
 - Limit iterations (diminishing returns)
-- Track iteration c...
-end
+- Track iteration count as quality metric
 
+### Pattern 4: Specialist Swarm
 
-TERM Pattern4SpecialistSwarm:
-    sutra: "When: Complex problem benefiting from multiple expert perspectives"
-    gloss:
-        **When**: Complex problem benefiting from multiple expert perspectives.
+**When**: Complex problem benefiting from multiple expert perspectives.
 
 **Structure**: Parallel specialists → Coordinator synthesis.
 
@@ -204,14 +189,13 @@ TERM Pattern4SpecialistSwarm:
 
 **Tips**:
 - Ensure specialists are complementary, not redundant
-- Weight by historical...
-end
+- Weight by historical accuracy
+- Surface disagreements (often reveals nuance)
+- Include confidence scores
 
+### Pattern 5: Hub-and-Spoke
 
-TERM Pattern5HubandSpoke:
-    sutra: "When: Mission-critical applications requiring centralized oversight"
-    gloss:
-        **When**: Mission-critical applications requiring centralized oversight.
+**When**: Mission-critical applications requiring centralized oversight.
 
 **Structure**: Hub creates plan → routes to specialists → monitors → synthesizes.
 
@@ -222,27 +206,25 @@ TERM Pattern5HubandSpoke:
 - Monitor hub (it's the bottleneck)
 
 ---
-end
 
+## IV. Context Engineering Economics
 
-TERM PromptCaching:
-    sutra: "Economics: - Cache write: 1.25x (5min TTL) or 2x (1hr TTL) - Cache read: 0.1x (90% discount) - Ca..."
-    gloss:
-        **Economics**:
+### Prompt Caching
+
+**Economics**:
 - Cache write: 1.25x (5min TTL) or 2x (1hr TTL)
 - Cache read: 0.1x (90% discount)
 - Cache miss: Full price
 
 **Break-even**: Static docs cache after 2 uses. Semi-static content after 10+ daily uses.
 
-**Pattern**: Structure prompts with static content first, dynamic last. Cache static p...
-end
+**Pattern**: Structure prompts with static content first, dynamic last. Cache static portion.
 
+**Observed savings**: 40-90% cost reduction, 10-85% latency reduction.
 
-TERM RAGStrategySelection:
-    sutra: "`` Is knowledge static or dynamic"
-    gloss:
-        ```
+### RAG Strategy Selection
+
+```
 Is knowledge static or dynamic?
 ├─ Static → Semantic memory + caching
 └─ Dynamic
@@ -253,50 +235,44 @@ Is knowledge static or dynamic?
             ├─ No → GraphRAG
             └─ Yes → Agentic RAG
 ```
-end
 
+### RAG Implementations
 
-TERM RAGImplementations:
-    sutra: "| Type | When | Cost | Latency | Accuracy | |------|------|------|---------|----------| | Basic |..."
-    gloss:
-        | Type | When | Cost | Latency | Accuracy |
+| Type | When | Cost | Latency | Accuracy |
 |------|------|------|---------|----------|
 | Basic | Simple Q&A | ~1¢ | 200-500ms | 70% |
 | Hybrid | Production systems | ~1-2¢ | 400-800ms | 85-90% |
 | Agentic | Research, high-stakes | ~5-15¢ | 2-8s | 92-96% |
 
-**Basic RAG**: Embed query → vector search...
-end
+**Basic RAG**: Embed query → vector search → inject context → generate.
 
+**Hybrid RAG**: Vector + keyword + metadata search → rerank → generate. 49% reduction in retrieval misses.
 
-TERM ContextOverflowStrategies:
-    sutra: "Sliding Window: Process chunks with overlap for continuity"
-    gloss:
-        **Sliding Window**: Process chunks with overlap for continuity.
+**Agentic RAG**: Iterative retrieval with agent evaluation and query refinement. Reserve for complex/ambiguous queries.
+
+### Context Overflow Strategies
+
+**Sliding Window**: Process chunks with overlap for continuity.
 
 **Hierarchical Summarization**: Sections → section summaries → combined summary (recurse if needed).
 
 **Context Offloading**: Heavy processing in separate agent, return summary only. 8x cleaner signal.
 
 ---
-end
 
+## V. Security and Governance
 
-TERM ThreatModel:
-    sutra: "- Prompt injection: Malicious inputs overriding instructions - Agent hijacking: Tricking agent in..."
-    gloss:
-        - **Prompt injection**: Malicious inputs overriding instructions
+### Threat Model
+
+- **Prompt injection**: Malicious inputs overriding instructions
 - **Agent hijacking**: Tricking agent into unauthorized actions
 - **Tool misuse**: Access beyond intended scope
 - **Data exfiltration**: Sensitive info in outputs
 - **Jailbreaking**: Bypassing safety constraints
-end
 
+### Defense Patterns
 
-TERM DefensePatterns:
-    sutra: "1"
-    gloss:
-        **1. Input Validation**
+**1. Input Validation**
 - Detect injection patterns
 - Mask PII before processing
 - Rate limit per user/IP
@@ -308,133 +284,129 @@ TERM DefensePatterns:
 
 **3. Output Filtering**
 - Remove leaked PII
-- Content po...
-end
+- Content policy enforcement
+- Detect exfiltration attempts
 
+**4. Circuit Breaker**
+- Track failure count
+- Trip open after threshold
+- Auto-reset after timeout
+- Alert operators on trip
 
-TERM ProductionSecurityChecklist:
-    sutra: "Input: [ ] Injection validation [ ] PII masking [ ] Rate limiting [ ] File sanitization  Agent: [..."
-    gloss:
-        **Input**: [ ] Injection validation [ ] PII masking [ ] Rate limiting [ ] File sanitization
+**5. Approval Gates**
+- Assess action impact
+- Pause for human approval on high-impact
+- Provide reasoning and alternatives
+- Timeout with escalation
+
+### Production Security Checklist
+
+**Input**: [ ] Injection validation [ ] PII masking [ ] Rate limiting [ ] File sanitization
 
 **Agent**: [ ] Capability access control [ ] Action logging [ ] Resource limits [ ] Circuit breakers
 
 **Output**: [ ] PII filtering [ ] Content policy [ ] Anti-exfiltration [ ] Watermarking
 
-**Audit**: [ ] S...
-end
+**Audit**: [ ] Security event logging [ ] Anomaly monitoring [ ] Violation alerts [ ] Regular audits
 
+---
 
-TERM VIBootstrapRoadmap:
-    sutra: "| Phase | Timeline | Goal | Investment | |-------|----------|------|------------| | Foundation | ..."
-    gloss:
-        | Phase | Timeline | Goal | Investment |
+## VI. Bootstrap Roadmap
+
+| Phase | Timeline | Goal | Investment |
 |-------|----------|------|------------|
 | Foundation | Week 1 | Baseline + observation | 4-6 hrs |
 | Observation | Weeks 2-4 | Pattern understanding | 30min/day + 1hr/week |
 | First Optimizations | Month 2 | 1-2 improvements | 6-8 hrs |
-| Memory Infrastructu...
-end
+| Memory Infrastructure | Months 3-4 | Multi-tier memory | 12-16 hrs |
+| Intelligent Routing | Months 5-6 | Context-aware selection | 8-10 hrs |
+| Multi-Agent | Months 7-9 | Complex orchestration | 16-20 hrs |
+| Meta-Orchestration | Months 10-12 | Self-optimization | 20-24 hrs |
 
+**Total Year 1**: 60-80 hours investment → 200-400 hours saved
 
-TERM OverDelegationTooEarly:
-    sutra: "Symptom: Complex tasks to AI before trust established"
-    gloss:
-        **Symptom**: Complex tasks to AI before trust established.
+---
+
+## VII. Common Pitfalls
+
+### Over-Delegation Too Early
+**Symptom**: Complex tasks to AI before trust established.
 **Prevention**: Start copilot mode, gradually increase delegation.
 **Recovery**: Reduce scope, add monitoring, rebuild through small successes.
-end
 
-
-TERM InsufficientContext:
-    sutra: "Symptom: Low quality despite good prompts"
-    gloss:
-        **Symptom**: Low quality despite good prompts.
+### Insufficient Context
+**Symptom**: Low quality despite good prompts.
 **Prevention**: Memory systems early, RAG for domain knowledge, examples.
 **Recovery**: Audit received context, implement missing memory tiers.
-end
 
-
-TERM NoGovernanceUntilCrisis:
-    sutra: "Symptom: Deployment without security/compliance controls"
-    gloss:
-        **Symptom**: Deployment without security/compliance controls.
+### No Governance Until Crisis
+**Symptom**: Deployment without security/compliance controls.
 **Prevention**: Design governance from start.
 **Recovery**: Immediate audit, retrofit controls, review past actions.
-end
 
-
-TERM ToolAccumulationWithoutExtraction:
-    sutra: "Symptom: Growing similar tools, each used occasionally"
-    gloss:
-        **Symptom**: Growing similar tools, each used occasionally.
+### Tool Accumulation Without Extraction
+**Symptom**: Growing similar tools, each used occasionally.
 **Prevention**: Default extraction mindset, quarterly consolidation.
 **Recovery**: Tool audit, identify overlap, extract primitives, deprecate.
 
 ---
-end
 
+## VIII. Maintenance Cadences
 
-TERM VIIIMaintenanceCadences:
-    sutra: "| Cadence | Duration | Focus | |---------|----------|-------| | Daily | 5 min | Security alerts, ..."
-    gloss:
-        | Cadence | Duration | Focus |
+| Cadence | Duration | Focus |
 |---------|----------|-------|
 | Daily | 5 min | Security alerts, failures, anomalies |
 | Weekly | 30 min | Usage patterns, friction points, routing |
 | Monthly | 2 hrs | Reuse stats, memory performance, costs |
-| Quarterly | 4 hrs | Framework validity, consolidation,...
-end
+| Quarterly | 4 hrs | Framework validity, consolidation, governance |
+| Annual | 8 hrs | Paradigm shifts, strategic direction |
 
+---
 
-TERM Individual:
-    sutra: "- Cognitive overhead: Tool management time ↓, decision fatigue ↓, context switching ↓ - Capabilit..."
-    gloss:
-        - **Cognitive overhead**: Tool management time ↓, decision fatigue ↓, context switching ↓
+## IX. Success Metrics
+
+### Individual
+- **Cognitive overhead**: Tool management time ↓, decision fatigue ↓, context switching ↓
 - **Capability expansion**: Tasks accomplishable ↑, specialist needs ↓, quality ↑
 - **Synapticality**: Intention-to-execution latency ↓, conscious decisions ↓, flow state ↑
-end
 
-
-TERM System:
-    sutra: "- Memory: Assembly time ↓, retrieval accuracy ↑, reuse rate ↑ - Orchestration: Completion time ↓,..."
-    gloss:
-        - **Memory**: Assembly time ↓, retrieval accuracy ↑, reuse rate ↑
+### System
+- **Memory**: Assembly time ↓, retrieval accuracy ↑, reuse rate ↑
 - **Orchestration**: Completion time ↓, coordination overhead ↓, success rate ↑
 - **Primitives**: Reuse count ↑, redundancy ↓, composition success ↑
 - **Cost**: Cost per task ↓, latency ↓, quality ↑
-end
 
-
-TERM Meta:
-    sutra: "- Learning rate: Pattern recognition time ↓, apparatus crystallization ↑, routing accuracy ↑ - Go..."
-    gloss:
-        - **Learning rate**: Pattern recognition time ↓, apparatus crystallization ↑, routing accuracy ↑
+### Meta
+- **Learning rate**: Pattern recognition time ↓, apparatus crystallization ↑, routing accuracy ↑
 - **Governance**: Security incidents = 0, compliance = 100%, gate effectiveness ↑
 
 ---
-end
 
+## X. Implementation Imperatives
 
-TERM XImplementationImperatives:
-    sutra: "The core insight: Build for observation and learning first, add complexity only when patterns jus..."
-    gloss:
-        **The core insight**: Build for observation and learning first, add complexity only when patterns justify it.
+**The core insight**: Build for observation and learning first, add complexity only when patterns justify it.
 
 **The path**:
 1. Start lightweight—observation before infrastructure
 2. Let patterns emerge—don't prescribe workflows
 3. Extract primitives—build on what persists
-4. Enable intelligence—obs...
-end
+4. Enable intelligence—observation creates learning
+5. Implement governance—safety and quality matter
+6. Iterate continuously—system improves with use
 
+**The progression**:
+- Tool mastery → intent specification
+- Manual workflows → apparatus patterns
+- App adoption → primitive composition
+- Static systems → reflexive improvement
+- Human oversight → intelligent autonomy
 
-TERM VERSIONHISTORY:
-    sutra: "v2.0.0 (December 2025): Canonization from Technology Lunar - 4 Implementation_Guide.md - Compress..."
-    gloss:
-        **v2.0.0** (December 2025): Canonization from Technology Lunar - 4 Implementation_Guide.md
+---
+
+## VERSION HISTORY
+
+**v2.0.0** (December 2025): Canonization from Technology Lunar - 4 Implementation_Guide.md
 - Compressed from ~43K to ~16K (63% reduction)
 - Converted Python code to pattern descriptions and tables
 - Preserved all production-validated metrics and patterns
-- Added CANON frontmatter and hierarchy place...
-end
+- Added CANON frontmatter and hierarchy placement
