@@ -33,6 +33,8 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 | PARALLEL-EXEC | Claude Code | 2 | Microscopic tasks (Sonnet x2) |
 | RED TEAM | Grok | 1 | Adversarial challenge |
 | VERIFIER | Perplexity | - | Citation-backed verification |
+| LOCAL ORCHESTRATOR | OpenClaw (Mini) | - | Ajna Opus 4.5 — persistent memory, webchat/iMessage, always-on |
+| LOCAL ORCHESTRATOR | OpenClaw (MBA) | - | Ajna GPT5.2 — persistent memory, Slack, directive execution |
 
 ---
 
