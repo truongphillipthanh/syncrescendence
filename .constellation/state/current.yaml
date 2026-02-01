@@ -1,4 +1,4 @@
-fingerprint: 006bd2e
-timestamp: 2026-02-01T01:18:13Z
+fingerprint: e70a9f3
+timestamp: 2026-02-01T11:45:19Z
 branch: main
-message: feat(accretion): complete CANON wikilink graph — 82/82 files linked
+message: chore(hygiene): Corpus triage + state refresh — 667 files deleted, 6 state artifacts updated
