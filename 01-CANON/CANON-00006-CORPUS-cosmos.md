@@ -151,7 +151,7 @@ These documents establish the foundational architecture of Syncrescendence—the
 
 ---
 
-#### [[CANON-00008-RESOLUTIONS-cosmos]] Resolutions
+#### [[CANON-00007-EVALUATION-cosmos]] Resolutions
 **Version**: 2.3  
 **Length**: ~14,000 words  
 **Classification**: Tension Navigation  
@@ -1059,7 +1059,7 @@ These documents establish the foundational architecture of Syncrescendence—the
 
 **Significance**: Most compassionate document in corpus. Reframes resistance as information and provides universal adaptation protocols. Essential reading for all practitioners, not just neurodivergent ones.
 
-**Cross-References**: [[CANON-35000-WISDOM-chain]] (Wisdom Chain), [[CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM]] (Transcendence Lunar), [[CANON-00010-OPERATIONS-cosmos]] Operations energy protocols), [[CANON-11000-FACETS-core]] (Seven Pulses integration), [[CANON-00008-RESOLUTIONS-cosmos]] Resolutions resistance framework).
+**Cross-References**: [[CANON-35000-WISDOM-chain]] (Wisdom Chain), [[CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM]] (Transcendence Lunar), [[CANON-00010-OPERATIONS-cosmos]] Operations energy protocols), [[CANON-11000-FACETS-core]] (Seven Pulses integration), [[CANON-00007-EVALUATION-cosmos]] Resolutions resistance framework).
 
 **Source Material**: Primary extraction from Researching_AudHD_Traits_and_Behaviors.md personal research.
 
@@ -1339,7 +1339,7 @@ The corpus is designed for progressive engagement—practitioners begin with min
 **Expanded Access Route** (6-12 month engagement):
 5. **[[CANON-00005-SYNCRESCENDENCE-cosmos]] Syncrescendence v2.3) — Complete vision and civilizational context
 6. **[[CANON-20000-PALACE-lattice]]** (Cognitive Palace) — Meta-cognitive infrastructure understanding
-7. **[[CANON-00008-RESOLUTIONS-cosmos]] Resolutions) — Productive tension navigation
+7. **[[CANON-00007-EVALUATION-cosmos]] Resolutions) — Productive tension navigation
 8. **[[CANON-00009-STRATEGY-cosmos]] Strategy) — Strategic positioning and timeline comprehension
 9. **Strongest Planetary Body** — Acumen, Coherence, Efficacy, or Mastery deepening
 10. **Second Chain** — Complementary to first chain
@@ -1431,13 +1431,13 @@ The corpus is designed for progressive engagement—practitioners begin with min
 - Technology sovereignty: [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack), [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]]-43 (IIC Constellation)
 - Content production: [[CANON-00010-OPERATIONS-cosmos]] Operations Part IV-V), CANON-00006-supplement
 - Intelligence gathering: [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Acumen), [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]]-supplement
-- Handling resistance: [[CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]] (Neurodivergent Adaptations), [[CANON-00008-RESOLUTIONS-cosmos]] Resolutions)
+- Handling resistance: [[CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]] (Neurodivergent Adaptations), [[CANON-00007-EVALUATION-cosmos]] Resolutions)
 - Ultimate vision: [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]] (Gaian Field Node), [[CANON-00009-STRATEGY-cosmos]] Strategy Part VI)
 
 **By Question Type**:
 - "What is Syncrescendence?" → [[CANON-00009-STRATEGY-cosmos]], [[CANON-00005-SYNCRESCENDENCE-cosmos]]
 - "How do I start?" → [[CANON-00009-STRATEGY-cosmos]], CANON-00006 (Part I-II)
-- "What's the strategic vision?" → [[CANON-00005-SYNCRESCENDENCE-cosmos]], [[CANON-00008-RESOLUTIONS-cosmos]]
+- "What's the strategic vision?" → [[CANON-00005-SYNCRESCENDENCE-cosmos]], [[CANON-00007-EVALUATION-cosmos]]
 - "How do I use technology effectively?" → [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]], [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]]-43
 - "How do I produce content?" → CANON-00006 (Part IV-V), CANON-00006-supplement
 - "How do I curate information?" → [[CANON-31100-ACUMEN-planetary-INFORMATION]], [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]]-supplement

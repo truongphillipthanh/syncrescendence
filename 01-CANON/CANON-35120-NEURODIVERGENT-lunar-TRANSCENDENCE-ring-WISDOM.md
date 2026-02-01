@@ -1230,7 +1230,7 @@ The framework adapts to serve you. Always.
 - [[CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM]] (Transcendence Lunar System): Immediate parent, ultimate integration
 - [[CANON-00010-OPERATIONS-cosmos]] Operations v2.3): Energy state protocols, practical implementation
 - [[CANON-11000-FACETS-core]] (Syncrescendent Facets): Seven Pulses practice specification
-- [[CANON-00008-RESOLUTIONS-cosmos]] Resolutions v2.3): Irresolution acknowledgment and navigation
+- [[CANON-00007-EVALUATION-cosmos]] Resolutions v2.3): Irresolution acknowledgment and navigation
 
 **Related Architecture**:
 - [[CANON-00012-MODAL_SEQUENCE-cosmos]] Modal Sequence): Technology maturity timeline, adaptation roadmap

@@ -38,7 +38,7 @@ NEW-CANON replaces "celestial bodies orbiting" with "vectors in capability space
 |-----------|---------|----------------|
 | CANON-00004 (Evolution) + CANON-99000 (Historical) | Both track framework evolution history | Could merge; 99000 subsumes 00004's content |
 | CANON-00006 (Corpus) | Pure manifest/catalog | Could be auto-generated from file system rather than manually maintained |
-| CANON-00007 (Evaluation) + CANON-00008 (Resolutions) | Irresolutions + responses | Natural pair; consider merging into single "Evaluation & Resolutions" |
+| CANON-00007 (Evaluation) + CANON-00008 (Resolutions) | Irresolutions + responses | Natural pair; MERGED 2026-02-01 |
 | CANON-00009 (Strategy) + CANON-00012 (Modal Sequence) | Strategic timeline + technology-gated phasing | Significant overlap in temporal roadmap |
 | CANON-00010 (Operations) + CANON-00014 (Content Protocol) | Daily operations + content production | Both are "what to DO" — could merge operational sections |
 | CANON-00011 (Artifact Protocol) | Meta-framework governance | Low-traffic reference; archive candidate if governance simplified |
@@ -49,8 +49,8 @@ NEW-CANON replaces "celestial bodies orbiting" with "vectors in capability space
 
 | Documents | Overlap | Recommendation |
 |-----------|---------|----------------|
-| CANON-25000 (Memory Arch) + CANON-25010 (Memory Teleology) | Architecture + rationale for same system | Could merge; teleology becomes intro section |
-| CANON-25200 (Constellation Arch) + CANON-25210 (Constellation Teleology) | Same pattern as above | Could merge |
+| CANON-25000 (Memory Arch) + CANON-25010 (Memory Teleology) | Architecture + rationale for same system | MERGED 2026-02-01 |
+| CANON-25200 (Constellation Arch) + CANON-25210 (Constellation Teleology) | Same pattern as above | MERGED 2026-02-01 |
 | CANON-20010 (Dimensional Coordinators) + CANON-20020 (Meta-Systems) | Both support the Cognitive Palace infrastructure | Could merge into Palace appendix |
 
 **Estimated consolidation**: 13 → ~10 documents (3 merges)

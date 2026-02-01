@@ -293,6 +293,6 @@ ARTIFACT ValidationRequirements:
             commitment: honest_reporting | positive_null_negative
             timeline: Year_3 | public_reporting
             principle: framework_stands_or_falls_on_evidence
-        refs: [[CANON-00007-EVALUATION]], [[CANON-00008-RESOLUTIONS]]
+        refs: [[CANON-00007-EVALUATION]], [[CANON-00007-EVALUATION]]
 end
 

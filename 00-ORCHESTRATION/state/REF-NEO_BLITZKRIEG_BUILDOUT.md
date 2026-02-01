@@ -223,4 +223,4 @@ ONGOING:      Velocity management + wisdom compaction
 | Intention Compass | `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` |
 | DEF Variables | `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` |
 | Account Structure | `COCKPIT.md` (Three Accounts section) |
-| Constellation Teleology | `01-CANON/CANON-25210` |
+| Constellation Teleology | `01-CANON/CANON-25200` (includes merged teleology) |

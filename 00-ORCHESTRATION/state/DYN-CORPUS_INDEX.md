@@ -55,10 +55,10 @@ syncrescendence/
 
 | Shorthand | Full Path | Purpose |
 |-----------|-----------|---------|
-| `MEM-TEL` | `01-CANON/CANON-25010-MEMORY_TELEOLOGY-lattice.md` | Memory architecture philosophy |
-| `CONST-TEL` | `01-CANON/CANON-25210-CONSTELLATION_TELEOLOGY-lattice.md` | Constellation architecture philosophy |
+| `MEM-ARCH` | `01-CANON/CANON-25000-MEMORY_ARCH-lattice.md` | Memory architecture + teleology (merged from 25000+25010) |
+| `CONST-ARCH` | `01-CANON/CANON-25200-CONSTELLATION_ARCH-lattice.md` | Constellation architecture + teleology (merged from 25200+25210) |
 | `MODAL-SEQ` | `01-CANON/CANON-00012-MODAL_SEQUENCE-cosmos.md` | Modal sequence framework |
-| `EVAL-LENS` | `01-CANON/CANON-00007-EVALUATION-cosmos.md` | Evaluation framework |
+| `EVAL-LENS` | `01-CANON/CANON-00007-EVALUATION-cosmos.md` | Evaluation & Resolutions (merged from 00007+00008) |
 | `TASKS` | `00-ORCHESTRATION/state/DYN-TASKS.csv` | Active task ledger |
 | `PROJECTS` | `00-ORCHESTRATION/state/DYN-PROJECTS.csv` | Project status ledger |
 

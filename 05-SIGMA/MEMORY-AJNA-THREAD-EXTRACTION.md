@@ -281,7 +281,7 @@ Comprehensive list of 30+ unaddressed items including: GitHub connectors, platfo
 - Token-economic traversal becomes the question, not bridge-building
 
 ### Two-Layer Solution
-- **Algebraic Layer** (for agents): `MEM-TEL[CANON-25010] → 7-strata ↔ CONST-TEL[CANON-25210]`
+- **Algebraic Layer** (for agents): `MEM-ARCH[CANON-25000] → 7-strata ↔ CONST-ARCH[CANON-25200]`
 - **Legible Layer** (for humans): Renders expanded natural language on demand
 - "Codify so things update everywhere"
 

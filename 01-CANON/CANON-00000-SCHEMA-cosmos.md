@@ -380,7 +380,7 @@ This critical path enables immediate practice while building foundation for deep
 - Enables: [[CANON-35000-WISDOM-chain]] (Wisdom Chain)
 - Required for: Meta-cognitive orchestration
 
-**[[CANON-00008-RESOLUTIONS-cosmos]] (Energy States)**
+**[[CANON-00007-EVALUATION-cosmos]] (Energy States)**
 - Prerequisites: [[CANON-00005-SYNCRESCENDENCE-cosmos]] (Core concept)
 - Enables: Daily practice optimization
 - Required for: Sustainable development
@@ -880,7 +880,7 @@ The Syncrescendent system honors developmental readiness through **progressive d
 - **Operations v2.0**: Seven Pulses daily (2 minutes)
 - **Quickstart v2.0**: System overview (10 minutes)
 - **[[CANON-00005-SYNCRESCENDENCE-cosmos]] Syncrescendent Core (foundational concept)
-- **[[CANON-00008-RESOLUTIONS-cosmos]]**: Energy States (tier-down protocols)
+- **[[CANON-00007-EVALUATION-cosmos]]**: Energy States (tier-down protocols)
 - Single Chain focus (choose Intelligence, Information, Insight, Expertise, Knowledge, or Wisdom based on interest)
 
 **Practice Characteristics**:

@@ -42,7 +42,7 @@ PASS ArtifactClassification:
             - CANON-00005: Ψ | foundational_philosophy
             - CANON-00006: Corpus | manifest
             - CANON-00007: Evaluation | validation_architecture
-            - CANON-00008: Resolutions | tension_navigation
+            - CANON-00007: Resolutions | tension_navigation
             - CANON-00009: Strategy | strategic_positioning
             - CANON-00010: Operations | daily_protocols
             - CANON-00011: Artifact_Protocol | contribution_guidelines

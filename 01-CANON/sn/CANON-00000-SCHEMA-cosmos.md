@@ -225,7 +225,7 @@ PASS ProgressiveDisclosure:
         is optional.
     spec:
         Scale_1-Micro:
-            content: [Operations, Quickstart, CANON-00005, CANON-00008, single_chain]
+            content: [Operations, Quickstart, CANON-00005, CANON-00007, single_chain]
             practice: seven_pulses + single_chain
             success: 90%_pulse_consistency | chain_improvement | energy_awareness
             advance_criteria: 6+_months | pulse_mastery | Level_2_approaching | curiosity

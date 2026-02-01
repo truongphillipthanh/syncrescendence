@@ -156,7 +156,7 @@ Every IIC implements the following architectural components:
 - Flow through Layer 7 cross-IIC protocols
 
 **External Outputs** (to public, if applicable):
-- Content formats aligned with Stage progression ([[CANON-00008-RESOLUTIONS-cosmos]])
+- Content formats aligned with Stage progression ([[CANON-00007-EVALUATION-cosmos]])
 - Platform-specific optimization per Stage
 
 ---
@@ -625,7 +625,7 @@ Transcendence operates at the **highest level of abstraction**—coordinating al
 - What permanent infrastructure enables long-term flourishing?
 
 #### 4. Modal Progression Orchestration
-**Purpose**: Coordinate constellation evolution across Modal Sequence ([[CANON-00008-RESOLUTIONS-cosmos]])
+**Purpose**: Coordinate constellation evolution across Modal Sequence ([[CANON-00007-EVALUATION-cosmos]])
 
 **Practice**:
 - What capabilities unlock at each Modal transition?
