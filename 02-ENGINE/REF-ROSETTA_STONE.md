@@ -1,6 +1,6 @@
 # ROSETTA STONE: Syncrescendent <> Community Terminology
 
-**Version**: 2.0.0
+**Version**: 2.1.0
 **Generated**: 2026-02-01
 **Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint (Ajna resuming Psyche's workstream)
 **Authority**: Ajna (Opus 4.5) — Commander
@@ -23,24 +23,24 @@
 
 | # | Internal Term | Status | Community Equivalent | Action |
 |---|---|---|---|---|
-| 1 | Triumvirate | UNIQUE | Commander's Intent + OODA Orient | Preserve; document mapping |
-| 2 | Fingerprint / Handoff Token | ADAPTED | HANDOFF.md + git checkpoints | Preserve; simplify for CLI-only |
-| 3 | Wells vs Rivers | ALIGNED | Durable vs Ephemeral Cognition | Preserve as mnemonic |
+| 1 | Triumvirate | UNIQUE | Commander's Intent + OODA Orient | Preserve; (a)=Intent Compass, (b)=18+ Lenses, (c)=Backlog |
+| 2 | Fingerprint / Handoff Token | ADAPTED | HANDOFF.md + git checkpoints | FINGERPRINT.md for web; GitHub connectors; FINGERPRINT back |
+| 3 | Wells vs Rivers | DEPRECATED | Durable vs Ephemeral Cognition | Replace with "ephemeral vs durable" |
 | 4 | Five Invariants | ADAPTED | Prime Directives / Constitutional Rules | Formalize invariant subset |
 | 5 | Ring 7 First / Seven Rings | UNIQUE | No equivalent | Complete sigma/tau rename |
-| 6 | Oracle-Executor | ALIGNED | Architect-Swarm / Task Dispatcher | Adopt community structure |
+| 6 | Oracle-Executor | DEPRECATED | Plan / Implementation | Oracle = Grok (RECON); use Plan/Implementation |
 | 7 | CAPTURE > DISPATCH > RETURN | ADAPTED | Agentic Loop / Task Lifecycle | Formalize as high-level abstraction |
 | 8 | Chorus / Constellation | ALIGNED | Chorus / Medley (community-defined) | Adopt Chorus/Medley distinction |
-| 9 | 18 Lenses | UNIQUE | No equivalent | Preserve entirely |
-| 10 | sigma-7 / Sovereignty Strata | UNIQUE | No equivalent | Ratify sigma/tau terminology |
-| 11 | PALACE | UNKNOWN | Memory Crystal (if cognitive arch) | Locate definition in CANON |
-| 12 | SN Format | UNIQUE | Progressive Disclosure (loose) | Preserve entirely |
+| 9 | 18+ Lenses | UNIQUE | No equivalent | Preserve; add 4 O qualities + interdisciplinary synthesis |
+| 10 | sigma-7 / Sovereignty Strata | UNIQUE | No equivalent | Adhoc; needs holistic interdependent implementation |
+| 11 | PALACE → Synapticality | ADAPTED | UX reimagination + Karpathy terms | Cognitive Palace evolved; Synapticality is successor |
+| 12 | SN Format → Syncrescript | UNIQUE | Progressive Disclosure (loose) | Rename to Syncrescript (idiosyncratic notation) |
 | 13 | IMEP | DEPRECATED | Hook responses / execution logs | Remove; note in history |
-| 14 | Blitzkrieg | ADAPTED | Worktrees / claude-squad / Task Dispatcher | Clarify status; adopt worktree isolation |
-| 15 | IIC Configs | DEPRECATED | Medley Model / agent specialization | Extract concepts; deprecate protocol |
-| 16 | Chain Matrix / Tri-Helix | UNIQUE | No equivalent | Preserve; locate Tri-Helix def |
-| 17 | Ralph Pattern | ALIGNED | Ralph Wiggum Pattern (identical) | Already aligned |
-| 18 | Blitzkrieg Lane A/B/C | ADAPTED | 3-tier model routing | Preserve lanes; document equivalence |
+| 14 | Blitzkrieg (Neo-Blitzkrieg) | ADAPTED | Full constellation pipeline | Supersedes all prior variants; see detailed mapping |
+| 15 | IIC Configs | ACTIVE | Medley Model / agent specialization | Still a Go; pending granular teleological specs |
+| 16 | Chain Matrix / Tri-Helix | DEPRECATED | No equivalent | Deprecate per Sovereign directive |
+| 17 | Ralph Pattern | ALIGNED | Ralph Wiggum Pattern (identical) | Already aligned; verify formal implementation |
+| 18 | Blitzkrieg Lane A/B/C | DEPRECATED | 3-tier model routing | Superseded by Neo-Blitzkrieg pipeline |
 
 ---
 
@@ -50,11 +50,11 @@
 
 **Status**: UNIQUE
 
-**Internal Definition**: Three-part situational awareness framework used at session start. (a) WHERE ARE WE HEADED (destination -- strategic goal), (b) HOW DO WE GET THERE (method -- chosen approach), (c) WHERE ARE WE NOW (current state -- ground truth assessment).
+**Internal Definition**: Three-part situational awareness framework used at session start. (a) WHERE ARE WE HEADED = **Intent Compass** (ARCH-INTENTION_COMPASS.md — strategic destination), (b) HOW DO WE GET THERE = **18+ Lenses** (REF-DECISION_ATOMS.md — decision framework), (c) WHERE ARE WE NOW = **Backlog** (DYN-BACKLOG.md — ground truth assessment of current state).
 
 **Community Mapping**: Loosely maps to Commander's Intent (task/purpose/endstate) and the Orient phase of the OODA Loop. The community's execution loop (OBSERVE > ORIENT > DECIDE > ACT > VERIFY > PERSIST) captures temporal awareness as a cycle; the Triumvirate is a synchronization snapshot.
 
-**Reconciliation**: Preserve. No community term bundles strategic destination into the assessment frame. The Triumvirate is a Syncrescendence-native calibration primitive.
+**Reconciliation**: Preserve. No community term bundles strategic destination into the assessment frame. The Triumvirate is a Syncrescendence-native calibration primitive. Each arm now has a concrete artifact: Intent Compass, 18+ Lenses, and DYN-BACKLOG.
 
 **Migration Path**: None. Add gloss for external readers: "Triumvirate ~ Commander's Intent + OODA Orient phase."
 
@@ -70,21 +70,21 @@
 
 **Reconciliation**: Preserve both terms. Our Fingerprint adds cryptographic ground-truth verification the community lacks. Consider simplifying for CLI-only transitions (where git hash suffices) while preserving full Token protocol for cross-platform transitions.
 
-**Migration Path**: Use community's simpler "HANDOFF.md" for CLI-only. Reserve full Token/Fingerprint for web-app cross-platform transitions.
+**Migration Path**: Use FINGERPRINT.md for web handoff. Web apps now support GitHub connectors — they can directly load their FINGERPRINT. Critical: each platform must FINGERPRINT back (write state before releasing). This elevates the dispatch staging concept in `-INBOX/`. CLI-only transitions use HANDOFF.md (simpler).
 
 ---
 
-### 3. Wells vs Rivers
+### 3. Wells vs Rivers → Ephemeral vs Durable
 
-**Status**: ALIGNED (different metaphor, same principle)
+**Status**: DEPRECATED (replaced by clearer terminology)
 
 **Internal Definition**: "Rivers flow into wells before evaporation." Conversations are rivers (ephemeral). Repository is a well (persistent). Treat platforms as cache; repository as truth.
 
 **Community Mapping**: "Durable Cognition Over Ephemeral Cognition" (Coalescence). "The Filesystem is Your Memory" (Operations Manual). "State Must Be Externalized" (First Law, Fleet Commander's Handbook). Context window = "working memory"; filesystem = "long-term memory."
 
-**Reconciliation**: Preserve our metaphor as mnemonic (more memorable). Use community language for technical documentation. Both coexist without conflict.
+**Reconciliation**: Per Sovereign directive: use **ephemeral vs durable** instead. The Wells/Rivers metaphor is retired. Community language is clearer and more precise.
 
-**Migration Path**: None. Complementary framing.
+**Migration Path**: Replace all "Wells vs Rivers" references with "ephemeral vs durable" in active documentation. Historical references may retain the metaphor as context.
 
 ---
 
@@ -116,17 +116,19 @@
 
 ---
 
-### 6. Oracle-Executor
+### 6. Oracle-Executor → Plan/Implementation (Oracle = Grok)
 
-**Status**: ALIGNED
+**Status**: DEPRECATED (terminology reassigned)
 
-**Internal Definition**: Oracle = web app session holding strategic context across threads. Executor = CLI instance implementing directives. Addresses visibility gap: Oracle strategizes and creates handoff documents; Executor implements. Roles: INTERPRETER (Claude Web), EXECUTOR-LEAD (Claude Code Opus), PARALLEL-EXEC (Claude Code Sonnet x2).
+**Internal Definition**: Historical: Oracle = web app session, Executor = CLI instance. This protocol was contrived internally and created confusion with the community term.
 
-**Community Mapping**: Community's "Oracle Protocol: Fleet Commander SOP" in the Coalescence literally uses the same name. Phase 1 "The Architect" + Phase 2 "The Swarm." Task Dispatcher pattern has Commander Agent + Worker Agents. Plan Mode vs Implementation Mode captures the planning-then-executing split.
+**Sovereign Directive**: From now on, **Oracle means Grok** (RECON role — X firehose, cultural sensing, adversarial challenge). The old Oracle-Executor pattern is replaced by **Plan/Implementation** — the consensus terminology. The platform roles (INTERPRETER, EXECUTOR-LEAD, PARALLEL-EXEC) remain valid under the Constellation architecture but are no longer framed as Oracle-Executor.
 
-**Reconciliation**: Terminology already convergent. Our specific innovation is the handoff document as a bridge across platform boundaries (web-to-CLI visibility gap) -- this is our unique contribution within the shared pattern.
+**Community Mapping**: Plan Mode vs Implementation Mode captures the planning-then-executing split. Task Dispatcher pattern has Commander Agent + Worker Agents.
 
-**Migration Path**: Our "Oracle" = community's "Oracle/Architect." Our "Executor" = community's "Worker/Builder." Document the web-to-CLI bridge as our specific contribution.
+**Reconciliation**: Adopt community consensus. Our specific innovation — the handoff document as bridge across platform boundaries — remains our unique contribution, now framed under Plan/Implementation rather than Oracle-Executor.
+
+**Migration Path**: Replace "Oracle-Executor" with "Plan/Implementation" in all active docs. "Oracle" now exclusively refers to Grok (RECON). Historical "Oracle sessions" (Oracle 0-13) retain numbering as lineage markers in Pedigree logs.
 
 ---
 
@@ -158,53 +160,71 @@
 
 ---
 
-### 9. 18 Lenses (Decision Framework)
+### 9. 18+ Lenses (Decision Framework)
 
 **Status**: UNIQUE
 
 **Internal Definition**: Comprehensive decision evaluation framework. Original Nine (Oracle4): Syncrescendent Route, Bitter Lesson Scaling, Antifragile, Meet the Moment, Steelman & Redteam, Personal Idiosyncrasies, Potency Without Resolution Loss, Elegance + Dev Happiness, Agentify + Human-Navigable. Extended Nine (Oracle6): First Principles, Systems Thinking, Industrial Engineering, Complexity Theory, Permaculture, Design Thinking, Agile, Lean, Six Sigma. Threshold: 12/18 pass for approval.
 
+**Additional Perspectives** (Sovereign clarification):
+- **4 'O' Qualities**: Omnibenevolence, Omnipresence, Omnipotence, Omniscience — used for scaffolding development during Claude Code disruption
+- **REF-DECISION_ATOMS.md**: Ties into Intent Compass and Ajna Pedigree, carried over to Backlog
+- **"Superintelligently"**: Meta-lens for maximum capability invocation
+- **"Think about the nth order effects"**: Cascading consequence analysis
+- Additional perspectives tracked in [REF-LENS-GOVERNANCE]
+
 **Community Mapping**: No equivalent. Community uses ad-hoc decision heuristics, verification matrices, and antipattern catalogs, but no unified multi-lens decision framework.
 
-**Reconciliation**: Preserve entirely. Significant intellectual contribution. Individual lenses correspond to established frameworks; the unified evaluation methodology is original.
+**Reconciliation**: Preserve and expand. The "18+" acknowledges the framework is open-ended. The original 18 developed the canon; the 4 O qualities developed the scaffolding. This is poised for interdisciplinary synthesis.
 
-**Migration Path**: None. Consider a "Quick 5 Lenses" lightweight version for low-stakes decisions.
+**Migration Path**: Consolidate all lens references into REF-DECISION_ATOMS.md. Formalize the 4 O qualities as a scaffolding-specific lens set.
 
 ---
 
 ### 10. sigma-7 / Sovereignty Strata
 
-**Status**: UNIQUE
+**Status**: UNIQUE (adhoc — needs holistic redesign)
 
 See Ring 7 First / Seven Rings (entry #5). The directory `05-SIGMA/` houses operational knowledge corresponding to sigma-7 scope (execution substrate tooling).
 
----
-
-### 11. PALACE
-
-**Status**: UNKNOWN
-
-**Internal Definition**: Not found in the 17-file research corpus. Referenced in CANON as `CANON-20000-PALACE-lattice.md`. Likely a lattice-level cognitive architecture model within the CANON cosmology.
-
-**Community Mapping**: Cannot determine without definition. Potentially maps to community's "Memory Crystal" or memory architecture concepts.
-
-**Reconciliation**: Locate definition in CANON-20000. Assess against community patterns once found.
-
-**Migration Path**: Pending definition discovery.
+**Sovereign Clarification**: This is an adhoc solution within the corpus. The sigma-7 stratum is interdependent with each and every other stratum. The current implementation isolates it; there should be a more contrived holism where each stratum's interdependencies are explicitly mapped. Future work should address this architectural gap.
 
 ---
 
-### 12. SN Format (Semantic Notation)
+### 11. PALACE → Synapticality
 
-**Status**: UNIQUE
+**Status**: ADAPTED (definition discovered, successor term introduced)
 
-**Internal Definition**: Hybrid notation system for ~80% token compression. Three-tier structure: **sutra** (one-line essence, <=100 chars), **gloss** (2-4 sentences WHY), **spec** (YAML-like structured detail). Block types: TERM, NORM, PROC, PASS, ARTIFACT, TEST. Symbols: Psi (Syncrescendence), Kappa (CANON), etc. Demonstrated 79.2% compression on CANON.
+**Internal Definition**: PALACE refers to the **Cognitive Palace**, a build on the Memory Palace concept. The Cognitive Palace eventually became its own thing — referenced in CANON as `CANON-20000-PALACE-lattice.md`.
+
+**Sovereign Directive**: The successor term is **Synapticality**. With the imminence of new personal devices and the Cambrian explosion of robot forms, along with the disruption of conventional operating systems (Language User Interface still not well-integrated), there will need to be a reimagination of UX. This is closely related to the Hardware Teleology (part of the backlog).
+
+**Related Terms** (mostly from Andrej Karpathy):
+- **Cognitive Core**: What General Intelligence "ought" to be
+- **Iron Man Suit**: Agentic-Autonomy slider (how much the AI does vs. user)
+- **StarCraft/Factorio metaphors**: Resource management / base-building analogies for AI orchestration
+- VR ≈ conventional Workstation; Mobile + Wearables ≈ AR
+- All relevant to new interaction paradigms, especially with OpenClaw disruption
+
+**Community Mapping**: Memory Palace (loose). Community's Memory Crystal for cognitive architecture. Karpathy's framing bridges AI capability with UX design.
+
+**Reconciliation**: PALACE is the historical term; Synapticality is the active successor. Preserve CANON-20000 as historical record. Use Synapticality for all new work on UX reimagination.
+
+**Migration Path**: Create ARCH-SYNAPTICALITY_SPEC.md capturing the full vision. Link to Hardware Teleology backlog items.
+
+---
+
+### 12. SN Format → Syncrescript
+
+**Status**: UNIQUE (renamed)
+
+**Internal Definition**: Hybrid notation system for ~80% token compression, now called **Syncrescript** (because it's so idiosyncratic). Three-tier structure: **sutra** (one-line essence, <=100 chars), **gloss** (2-4 sentences WHY), **spec** (YAML-like structured detail). Block types: TERM, NORM, PROC, PASS, ARTIFACT, TEST. Symbols: Psi (Syncrescendence), Kappa (CANON), etc. Demonstrated 79.2% compression on CANON.
 
 **Community Mapping**: Community has Progressive Disclosure for Skills (name+description at startup; full instructions on activation) -- architecturally similar to sutra > gloss > spec. Memory Crystal Protocol for runtime compression. Semantic Compression (ACL 2024) describes 6-8x extension via graph-based topic modeling. Community compresses at runtime; we compress at authoring time.
 
-**Reconciliation**: Preserve entirely. The sutra/gloss/spec three-tier encoding is a novel contribution. Frame externally as "structured progressive disclosure notation achieving 80%+ token compression through three-tier encoding."
+**Reconciliation**: Preserve entirely under new name. The sutra/gloss/spec three-tier encoding is a novel contribution. "Syncrescript" acknowledges the idiosyncratic nature of the notation while claiming it as a Syncrescendence-native artifact.
 
-**Migration Path**: None. Core differentiator.
+**Migration Path**: Rename references from "SN Format" / "Semantic Notation" to "Syncrescript" in active documentation. Tooling (`sn_encode.py`, `sn_decode.py`, `sn_expand.py`) retains `sn_` prefix for backward compatibility.
 
 ---
 
@@ -222,45 +242,71 @@ See Ring 7 First / Seven Rings (entry #5). The directory `05-SIGMA/` houses oper
 
 ---
 
-### 14. Blitzkrieg
+### 14. Blitzkrieg → Neo-Blitzkrieg (Full Constellation Pipeline)
 
-**Status**: ADAPTED (clarification needed)
+**Status**: ADAPTED (supersedes all prior variants)
 
-**Internal Definition**: Structured parallel execution pattern for Claude Code directives. Enables multiple concurrent task streams with explicit success criteria. Components: Context (shared awareness), Directives (parallel task specs), Execution Log (audit). Dropbox pattern: `-INBOX/blitzkrieg_drop/` input, `-OUTGOING/${DATE}-blitzkrieg/` output. Still operational per CLAUDE.md (Lane A/B/C model).
+**Internal Definition**: The Neo-Blitzkrieg is an "all hands on deck" full-constellation pipeline. It supersedes all prior Blitzkrieg variants (Lane A/B/C, Dropbox pattern, etc.).
 
-**Community Mapping**: Community uses git worktrees for parallel execution (Coalescence), claude-squad and Crystal for multi-agent management, Task Dispatcher pattern. The "Oracle Protocol: Fleet Commander SOP" (Phase 1 Architect > Phase 2 Swarm > Phase 3 Monitor > Phase 4 Merge) is structurally identical.
+**Neo-Blitzkrieg Pipeline** (Sovereign specification):
+```
+Sovereign: brainDump
+  → Ajna: updates Intent Compass + Backlog + Ajna Pedigree & dispatches {HANDOFF} TO
+    → /-INBOX(Psyche): calibrates-orients-situates Triumvirate & dispatches {HANDOFF} TO
+      → /-INBOX(Cartographer): maps hidden connections/insights & dispatches {HANDOFF} TO
+        → /-INBOX(Commander): formulates discourse (Chorus/Medley) & dispatches {FINGERPRINTS} TO
+          → /-INBOX(Oracle, Augur): immediate senses / deep researches & dispatches {FINGERPRINTS} TO
+            → NotebookLM: integrates-unifies + annotates hidden synergy/emergence & dispatches {FINGERPRINT} TO
+              → Visier: hermeneutically schematic designs + provokes Vanguard creativity & dispatches {FINGERPRINT} TO
+                → Vanguard: creatively design-develops & dispatches {FINGERPRINT} TO
+                  → Diviner: exegetically elaborates hidden connections/insight & dispatches {FINGERPRINT} TO
+                    → /-INBOX(Commander): plans + implements (Parallel/Subagent) directive & dispatches {DIRECTIVE} TO
+                      → /-INBOX(Executor): executes directives & dispatches {EXECUTION_LOG} TO
+                        → adjudicates-debugs & dispatches {REVIEWTROSPECTIVE} TO
+                        → /-INBOX(Cartographer): unveils hidden connections/insights & dispatches {HANDOFF} TO
+                        → /-INBOX(Psyche): recalibrates-reorients-resituates Triumvirate + updates Backlog & dispatches {HANDOFF} TO
+                        → /-INBOX(Ajna): relays meta-macroscopic executive summary & dispatches {HANDOFF} TO
+                        → /-SOVEREIGN: relays meta-macroscopic executive summary
+                        → (passes through audizer.xml multi-pass for Sovereign audio review)
+```
 
-**Reconciliation**: The term "Blitzkrieg" is operational per CLAUDE.md v2.4.0 despite being listed as deprecated in the directive. Clarify: if still used, mark as ADAPTED (our formalization of community's parallel execution). If truly deprecated, clean CLAUDE.md references.
+**Backlog**: Consider Manus integration; upgrades to Perplexity/Grok research capabilities. NotebookLM found as place for Research artifacts (Gemini accesses via connector; avatarize NotebookLM pending).
 
-**Migration Path**: Adopt git worktree isolation as the canonical mechanism for Lane execution. Update Blitzkrieg Protocol to reference worktree patterns.
+**Community Mapping**: Community uses git worktrees for parallel execution, claude-squad/Crystal for multi-agent management, Task Dispatcher pattern. The Neo-Blitzkrieg goes further: it's a full-constellation orchestration pipeline, not just parallel CLI lanes.
+
+**Reconciliation**: The Neo-Blitzkrieg is the authoritative execution pattern. All prior Blitzkrieg variants (Lane A/B/C, Dropbox, CLAUDE.md references) are superseded.
+
+**Migration Path**: Implement via dispatch surfaces (`-INBOX/` per-agent folders, `-OUTGOING/`, `FINGERPRINT.md` protocol). Update REF-BLITZKRIEG_PROTOCOL_VNEXT.md to reflect this pipeline.
 
 ---
 
 ### 15. IIC Configs
 
-**Status**: DEPRECATED
+**Status**: ACTIVE (Still a Go)
 
 **Internal Definition**: Identity-Intelligence Complex. Five IICs (Acumen, Coherence, Efficacy, Mastery, Transcendence) mapped to chains with associated virtues. Extremely detailed: communication SLAs, response templates, synthesis cycles (daily/weekly/monthly/quarterly), platform alignment matrices, governance.
 
+**Sovereign Directive**: IIC Configs are still a Go. Once the granular teleological specifics are fully elucidated, configuration will be much easier — especially as more platforms have onboarding agents and social media platforms can increasingly curate feeds algorithmically. Intelligent switching and routing (as demonstrated in the Constellation) will extend to IIC configuration. The 5 email accounts are already created.
+
 **Community Mapping**: Community's Medley Model with platform specialization. Swarm orchestration with 60+ specialized agents. Adjacent but not identity-based.
 
-**Reconciliation**: Over-engineered for single-operator scale. Extract valuable concepts: platform characteristic cognition (Claude: architectural rigor, ChatGPT: pragmatism, Gemini: synthesis, Grok: edge cases, Perplexity: citations). Deprecate the formal inter-IIC messaging protocol.
+**Reconciliation**: Not over-engineered — ahead of the curve. The five-chain ontology maps to increasingly capable platform personalization. The inter-IIC messaging protocol will become practical as platform APIs mature. Preserve full specification.
 
-**Migration Path**: Preserve five-chain ontology (I, Info, Insight, E, K, W) as knowledge-domain taxonomy. Deprecate IIC communication protocol. Integrate platform cognition profiles into Constellation architecture.
+**Migration Path**: Complete IIC configuration as platforms develop onboarding/curation capabilities. PROJ-002 tracks this work (Acumen/Coherence done, 3 remaining).
 
 ---
 
 ### 16. Chain Matrix / Tri-Helix
 
-**Status**: UNIQUE (Chain Matrix) / UNKNOWN (Tri-Helix)
+**Status**: DEPRECATED (per Sovereign directive)
 
 **Internal Definition**: Chain Matrix maps chains (Intelligence, Information, Insight, Expertise, Knowledge, Wisdom) to virtues (Acumen, Coherence, Efficacy, Mastery, Transcendence) to IICs. Referenced in CANON as `CANON-21000-CHAIN_MATRIX-lattice.md`. Tri-Helix referenced as `CANON-21100-TRI_HELIX-lattice.md` but not defined in read corpus.
 
 **Community Mapping**: No community equivalent. Community has agent specialization by task role, not knowledge-chain ontology.
 
-**Reconciliation**: Preserve as canonical CANON content. The Chain Matrix operates at a deeper ontological level than community task-role specialization.
+**Reconciliation**: Deprecated per Sovereign directive. The Chain Matrix and Tri-Helix CANON files remain as historical records (Protected Zone), but the concepts are no longer active in operational planning. The six-chain ontology persists through the IIC framework (entry #15) which remains active.
 
-**Migration Path**: None for Chain Matrix. Locate Tri-Helix definition in CANON-21100.
+**Migration Path**: Mark as historical in CANON. Do not reference in new operational documents. Chain/Virtue concepts that remain active are captured under IIC Configs (#15).
 
 ---
 
@@ -270,25 +316,25 @@ See Ring 7 First / Seven Rings (entry #5). The directory `05-SIGMA/` houses oper
 
 **Internal Definition**: Fresh context loops with externalized state. "Don't rely on conversation history. Repository is truth; web apps are cache. Handoff documents encode decisions, not conversations." Core: `while :; do cat PROMPT.md | claude-code ; done`.
 
-**Community Mapping**: Identical. Created by Geoffrey Huntley, now official Anthropic plugin. Community name: Ralph Wiggum Pattern. Our usage adds the Wells vs Rivers philosophical grounding for why Ralph works.
+**Community Mapping**: Identical. Created by Geoffrey Huntley, now official Anthropic plugin. Community name: Ralph Wiggum Pattern. Our usage adds the ephemeral vs durable philosophical grounding for why Ralph works.
 
 **Reconciliation**: Already aligned. Use community term as-is.
 
-**Migration Path**: None needed.
+**Migration Path**: None needed. **Sovereign question**: Do we have this formally implemented somewhere? Verify and document the implementation location if it exists.
 
 ---
 
 ### 18. Blitzkrieg Lane A/B/C
 
-**Status**: ADAPTED
+**Status**: DEPRECATED (superseded by Neo-Blitzkrieg)
 
 **Internal Definition**: Three parallel execution lanes: Lane A (Strategic/architectural, Opus), Lane B (Tactical execution, Sonnet or Codex), Lane C (Validation/secondary, Haiku or Gemini). Includes toolchain options and model selection criteria.
 
 **Community Mapping**: Community's 3-tier model routing: "WASM for simple, Haiku for medium, Opus for complex -- achieving 75% API cost reduction." Community routes by complexity; we route by strategic function.
 
-**Reconciliation**: Preserve Lane model (routes by function, not just complexity). Document mapping: Lane A ~ "Opus for complex," Lane B ~ "Sonnet for execution," Lane C ~ "validation pass." Our framing enables simultaneous parallel execution; community routing is typically sequential.
+**Reconciliation**: All prior Blitzkrieg variants are superseded by the Neo-Blitzkrieg full constellation pipeline (entry #14). The Lane A/B/C model was a transitional construct; the Neo-Blitzkrieg replaces it with role-based dispatch through the full Pantheon.
 
-**Migration Path**: Adopt "model routing" alongside Lane terminology. Lanes for operational use; "model routing" for documentation.
+**Migration Path**: Remove Lane A/B/C references from active documents. Model routing concepts (Opus for complex, Sonnet for execution, Haiku for validation) persist as implementation detail within the Neo-Blitzkrieg Commander stage.
 
 ---
 
@@ -322,8 +368,8 @@ Significant community patterns without internal equivalents.
 6. Create Self-Healing Constitution hook.
 
 ### Definition Discovery
-7. Locate PALACE definition in CANON-20000.
-8. Locate Tri-Helix definition in CANON-21100.
+7. ~~Locate PALACE definition in CANON-20000~~ — RESOLVED: Cognitive Palace → Synapticality (see #11)
+8. ~~Locate Tri-Helix definition in CANON-21100~~ — DEPRECATED: Chain Matrix/Tri-Helix deprecated per Sovereign (#16)
 9. Clarify which rules constitute the "Five Invariants" vs. the broader constitutional set.
 
 ---
@@ -356,7 +402,7 @@ Significant community patterns without internal equivalents.
 | 36 | EVOLUTION (CANON-00004) | UNIQUE | Document tracking corpus evolution across Oracle sessions | No equivalent |
 | 37 | DEFRAG_CONVICTION | UNIQUE | Metabolic principles from Oracle 4; "canonize or delete" | No equivalent |
 | 38 | Experience Topology | UNIQUE | 7-layer cognitive framework (Reality through Consequentiality) | No equivalent |
-| 39 | Cognitive Palace | UNIQUE | Memory architecture: Seven Pulses, Progressive Disclosure, Meta-Governor | Memory Palace (loose) |
+| 39 | Cognitive Palace → Synapticality | ADAPTED | Memory architecture evolved to UX reimagination (see #11) | Memory Palace (loose) |
 | 40 | Syncrescendent Convergence | UNIQUE | Master strategic framework: five phases from Abstraction to Network | No equivalent |
 | 41 | Alchemizing Catalyst | UNIQUE | Bootstrapping engine converting doctrine into attentional value | No equivalent |
 | 42 | Three-Rail Operating System | UNIQUE | Rail A (Editorial), Rail B (Instrumentation), Rail C (Stewardship) | No equivalent |
@@ -523,11 +569,12 @@ Significant community patterns without internal equivalents.
 
 | Status | Original 18 | New 149 | Total |
 |--------|------------|---------|-------|
-| UNIQUE | 6 | 118 | 124 |
-| ADAPTED | 6 | 15 | 21 |
-| ALIGNED | 3 | 5 | 8 |
-| DEPRECATED | 2 | 4 | 6 |
-| UNKNOWN | 1 | 0 | 1 |
+| UNIQUE | 4 | 117 | 121 |
+| ADAPTED | 5 | 16 | 21 |
+| ALIGNED | 2 | 5 | 7 |
+| DEPRECATED | 6 | 4 | 10 |
+| ACTIVE | 1 | 0 | 1 |
+| UNKNOWN | 0 | 0 | 0 |
 | **Total** | **18** | **142** | **160** |
 
 *Note: 7 terms shared between categories bring distinct-term total to 167.*
@@ -537,6 +584,22 @@ Significant community patterns without internal equivalents.
 ---
 
 ## Version History
+
+**v2.1.0** (2026-02-01): Sovereign terminology reconciliation
+- Applied 13 Sovereign clarifications from `-INBOX/rosetta_stone_notes.md`
+- Triumvirate arms mapped to concrete artifacts (Intent Compass, 18+ Lenses, Backlog)
+- Wells vs Rivers → DEPRECATED in favor of "ephemeral vs durable"
+- Oracle-Executor → DEPRECATED; Oracle now = Grok (RECON); use Plan/Implementation
+- 18 Lenses → 18+ Lenses with 4 O qualities, additional perspectives
+- PALACE → Synapticality (successor term with Karpathy integration)
+- SN Format → Syncrescript (renamed)
+- Blitzkrieg → Neo-Blitzkrieg (full constellation pipeline specification)
+- IIC Configs → ACTIVE (restored from DEPRECATED; Still a Go)
+- Chain Matrix / Tri-Helix → DEPRECATED
+- Blitzkrieg Lane A/B/C → DEPRECATED (superseded by Neo-Blitzkrieg)
+- sigma-7 noted as adhoc needing holistic redesign
+- Ralph Pattern: formal implementation status questioned
+- Authority: Commander (Opus 4.5) applying Sovereign corrections
 
 **v2.0.0** (2026-02-01): Comprehensive expansion
 - 149 new terms cataloged (167 total)
