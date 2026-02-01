@@ -1,7 +1,7 @@
 # CLI Tool Enlistment Reference
 ## Triggering Constellation CLI Tools Programmatically
 
-**Version**: 1.0.0
+**Version**: 2.0.0
 **Created**: 2026-02-01
 **Purpose**: Operational reference for invoking each CLI tool in the Constellation
 
@@ -72,15 +72,15 @@ gemini --model gemini-3-flash "Generate token count inventory for 04-SOURCES/"
 ## Psyche — OpenClaw (GPT-5.2, M4 MBA)
 
 **Account**: Local (no API key needed for OpenClaw)
-**Trigger**: Dispatch file + filesystem watcher
+**Trigger**: Task file in `-INBOX/psyche/` + filesystem watcher
 
 ```bash
 # From Commander, dispatch a task:
-bash 00-ORCHESTRATION/scripts/dispatch_to_psyche.sh "TOPIC" "Task description..."
+bash 00-ORCHESTRATION/scripts/dispatch.sh psyche "TOPIC" "Task description..."
 
-# Psyche watches for DISPATCH-PSYCHE-*.md files in state/
+# Psyche watches -INBOX/psyche/ for TASK-*.md files
 # On the M4 MBA, start the watcher:
-bash 00-ORCHESTRATION/scripts/watch_dispatch.sh PSYCHE
+bash 00-ORCHESTRATION/scripts/watch_dispatch.sh psyche
 ```
 
 **Config**: OpenClaw config on M4 MBA
@@ -91,14 +91,14 @@ bash 00-ORCHESTRATION/scripts/watch_dispatch.sh PSYCHE
 ## Ajna — OpenClaw (Opus 4.5, M1 Mini)
 
 **Account**: Local
-**Trigger**: Dispatch file + filesystem watcher
+**Trigger**: Task file in `-INBOX/ajna/` + filesystem watcher
 
 ```bash
-# From Psyche, dispatch a task:
-# Write DISPATCH-AJNA-*.md to 00-ORCHESTRATION/state/
+# From any agent, dispatch a task to Ajna:
+bash 00-ORCHESTRATION/scripts/dispatch.sh ajna "TOPIC" "Task description..."
 
 # On the M1 Mini, start the watcher:
-bash 00-ORCHESTRATION/scripts/watch_dispatch.sh AJNA
+bash 00-ORCHESTRATION/scripts/watch_dispatch.sh ajna
 ```
 
 **Config**: OpenClaw config on M1 Mini
@@ -127,7 +127,7 @@ wait
 ### Autonomous Twin Loop
 ```bash
 # Commander dispatches to Psyche, continues working
-bash 00-ORCHESTRATION/scripts/dispatch_to_psyche.sh \
+bash 00-ORCHESTRATION/scripts/dispatch.sh psyche \
   "QA_REVIEW" \
   "Review all files modified in the last commit for quality issues"
 # Commander continues with other work...
@@ -141,15 +141,15 @@ bash 00-ORCHESTRATION/scripts/dispatch_to_psyche.sh \
 | Tool | Installed | API Key | Config | Status |
 |------|-----------|---------|--------|--------|
 | Claude Code (Commander) | Yes | Claude Max (A1) | CLAUDE.md | ACTIVE |
-| Codex CLI (Adjudicator) | Verify | OpenAI (A2) | AGENTS.md | CONFIGURE |
-| Gemini CLI (Cartographer) | Verify | Google AI Pro (A2) | gemini-settings.json | CONFIGURE |
+| Codex CLI (Adjudicator) | Yes | OpenAI (A2) | AGENTS.md | CONFIGURE |
+| Gemini CLI (Cartographer) | Yes | Google AI Pro (A2) | gemini-settings.json | CONFIGURE |
 | OpenClaw/Ajna | Yes | Local | openclaw config | ACTIVE |
 | OpenClaw/Psyche | Yes | Local | openclaw config | ACTIVE |
 
 ### Missing Infrastructure
-- [ ] Codex CLI AGENTS.md configuration file
+- [x] Codex CLI AGENTS.md configuration file
 - [ ] Gemini CLI API key setup on Account 2
-- [ ] `fswatch` installation on both machines (`brew install fswatch`)
+- [x] `fswatch` on primary machine (Sovereign confirmed)
 - [ ] launchd plist for always-on dispatch watching
 - [ ] MCP server configuration for cross-tool data sharing
 

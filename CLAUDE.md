@@ -21,7 +21,7 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural (ABSOLUTE)
-1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/synthesis/`, `mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`.
+1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/synthesis/`, `mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`; `-INBOX/` per-agent subfolders.
 2. **NUMBERED DIRECTORIES**: Top-level directories are 00, 01, 02, 04, 05 (with gaps). Do not create new numbered directories.
 3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
 4. **SANCTIONED EXCEPTIONS**: `-OUTGOING/`, `-INBOX/`, and `-SOVEREIGN/` are the only non-numbered directories permitted at root.
@@ -49,9 +49,14 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
   synthesis/        Canonical platform references
   mechanics/        Deep-dive mechanisms
   practice/         Implementation patterns
--INBOX/             Incoming artifacts from external platforms
--OUTGOING/          Export staging, cross-platform handoffs
--SOVEREIGN/         Sovereign-only workspace
+-INBOX/             Agent watch folders (per-agent task dispatch)
+  commander/        Claude Code (Opus) incoming tasks
+  adjudicator/      Codex CLI incoming tasks
+  cartographer/     Gemini CLI incoming tasks
+  psyche/           OpenClaw GPT-5.2 incoming tasks
+  ajna/             OpenClaw Opus 4.5 incoming tasks
+-OUTGOING/          CLI → WebApp prompt staging (Sovereign relays)
+-SOVEREIGN/         Async decision queue from CLI agents to Sovereign
 ```
 
 ---
