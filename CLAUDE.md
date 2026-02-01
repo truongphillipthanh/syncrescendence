@@ -126,6 +126,20 @@ OpenClaw agents may concurrently read/write to the filesystem. Check `git status
 
 ---
 
+## Hooks (Active Automation)
+
+| Event | Script | Function |
+|-------|--------|----------|
+| Stop | `session_log.sh` | Session metadata to DYN-SESSION_LOG.md |
+| Stop | `ajna_pedigree.sh` | Decision lineage to DYN-PEDIGREE_LOG.md |
+| Stop | `create_execution_log.sh` | Execution entry to DYN-EXECUTION_STAGING.md |
+| PreCompact | `pre_compaction.sh` | Warn about uncommitted state |
+| UserPromptSubmit | `intent_compass.sh` | Intention signals to DYN-INTENTIONS_QUEUE.md |
+
+Staging files compact into wisdom compendiums at threshold (10 entries): run `compact_wisdom.sh`.
+
+---
+
 ## Session Protocol
 - Consult `ARCH-INTENTION_COMPASS.md` before executing directives
 - Use `/compact` before context fills (75% rule)

@@ -37,6 +37,14 @@
           {
             "type": "command",
             "command": "bash 00-ORCHESTRATION/scripts/session_log.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash 00-ORCHESTRATION/scripts/ajna_pedigree.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash 00-ORCHESTRATION/scripts/create_execution_log.sh"
           }
         ]
       }
@@ -48,6 +56,17 @@
           {
             "type": "command",
             "command": "bash 00-ORCHESTRATION/scripts/pre_compaction.sh"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash 00-ORCHESTRATION/scripts/intent_compass.sh"
           }
         ]
       }

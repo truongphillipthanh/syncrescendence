@@ -316,7 +316,8 @@ DEF AvatarMap:
             Oracle: {epithet: Recon, platform: Grok, role: RECON}
             Vizier: {epithet: Hermeneut, platform: "Claude Web", role: INTERPRETER}
             Vanguard: {epithet: Architect, platform: "ChatGPT Web", role: COMPILER}
-            Diviner: {epithet: Exegete, platform: "Gemini Web", role: DIGESTOR}
+            Diviner: {epithet: Illuminator, platform: "Gemini Web", role: DIGESTOR}
+            Cartographer: {epithet: Exegete, platform: "Gemini CLI", role: SENSOR}
             Commander: {epithet: Viceroy, platform: "Claude Code", role: EXECUTOR_LEAD}
             Adjudicator: {epithet: Executor, platform: "Codex CLI", role: PARALLEL_EXEC}
             Ajna: {platform: "OpenClaw Opus 4.5", role: LOCAL_ORCH}

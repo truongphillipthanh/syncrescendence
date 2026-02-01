@@ -45,6 +45,8 @@ CANON Sweep:  ██████████████████████
 | CLAUDE.md lines | 230 | 134 | -96 (-42%) |
 | INBOX files | ~470 | 0 | Inbox zero |
 | OUTGOING files | ~29 | 0 | Cleared |
+| Monthly budget | $100 | $160 | +$60 (Claude Max tier) |
+| Avatar count | 9 | 10 | +1 (Gemini bifurcated) |
 
 ---
 
@@ -74,8 +76,9 @@ CANON Sweep:  ██████████████████████
 | PROJ-012 | Multi-CLI Integration | IN_PROGRESS | P2 | Gemini validated, Codex configured |
 | PROJ-014 | Multi-Account Sync | ACTIVE | P2 | Protocol documented, twin coordination spec |
 | PROJ-RESTRUCTURE | Wholesale Restructure | COMPLETE | P0 | 1267→636 files, 8→5 dirs |
-| PROJ-AVATARS | Avatar Pantheon v3 | COMPLETE | P0 | 9 avatars with epithets + summon phrases |
+| PROJ-AVATARS | Avatar Pantheon v3 | COMPLETE | P0 | 10 avatars (Gemini bifurcated) with epithets + summon phrases |
 | PROJ-SN-VARS | SN Variable System | IN_PROGRESS | P1 | DEF block type + initial variables defined |
+| PROJ-ACCT | Account Restructure | COMPLETE | P0 | A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid ($160/mo) |
 | PROJ-CANON-LEAN | CANON Lean-Out | NOT_STARTED | P2 | Recommendations documented, needs Sovereign review |
 
 ---

@@ -255,7 +255,7 @@ These files serve as entry points for their respective platforms:
 
 **CLAUDE.md teleology**: Claude Code reads this file automatically when entering the repository. It contains project overview, architectural principles, execution guidelines, and references to deeper documentation. This is Claude Code's "briefing document"—everything it needs to understand the system before receiving a specific directive.
 
-**AVATAR-*.md teleology**: Each platform has a dedicated avatar file in 02-ENGINE/ (e.g., AVATAR-GEMINI.md, AVATAR-CHATGPT.md) that serves as context preamble. These files orient each platform to its role, the corpus structure, and expected output formats.
+**AVATAR-*.md teleology**: Each platform has a dedicated avatar file in 02-ENGINE/ (e.g., AVATAR-GEMINI-WEB.md, AVATAR-GEMINI-CLI.md, AVATAR-CHATGPT.md) that serves as context preamble. These files orient each platform to its role, the corpus structure, and expected output formats.
 
 **COCKPIT.md teleology**: Web apps cannot read local files directly, but the Sovereign can paste COCKPIT.md contents into any platform as orientation context. It provides the 30,000-foot view: what is Syncrescendence, what are the current objectives, what is the constellation architecture. This is the "refresh" document when a platform has lost context.
 

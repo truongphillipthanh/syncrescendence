@@ -1,26 +1,27 @@
 # INTENTIONS SKILL
-## Oracle Session Intention Extraction and Categorization
+## Intent Compass — Automated Intention Extraction and Categorization
 
-**Version**: 1.0.0
-**Last Updated**: 2026-01-12
-**Authority**: Oracle 12
+**Version**: 2.0.0
+**Last Updated**: 2026-02-01
+**Authority**: Oracle 13
 
 ---
 
 ## PURPOSE
 
-Extract, categorize, and track Sovereign intentions during Oracle sessions. Ensures nothing falls through cracks and maintains continuity across sessions.
+Extract, categorize, and track Sovereign intentions during sessions. Now partially automated via `intent_compass.sh` UserPromptSubmit hook — intention signals are auto-captured to `DYN-INTENTIONS_QUEUE.md` on every user input. This skill handles the manual triage and categorization phase.
 
 ---
 
 ## WHEN TO USE
 
 Trigger this skill when:
-- Starting a new Oracle session (extract from previous session artifacts)
-- Sovereign expresses desires, requirements, or frustrations
-- Sovereign uses indicative language: "we should", "I want", "don't forget", "make sure"
-- Session is ending (consolidate captured intentions)
-- Reviewing previous Oracle transcripts
+- Starting a new session (triage auto-captured intentions from `DYN-INTENTIONS_QUEUE.md`)
+- Session checkpoint (categorize accumulated queue entries)
+- Session is ending (consolidate and flush queue to compass)
+- Reviewing previous session transcripts
+
+**Note**: The `intent_compass.sh` hook auto-captures intention signals on every user input. This skill handles the *triage* — moving raw captures into the structured `ARCH-INTENTION_COMPASS.md`.
 
 ---
 
@@ -165,9 +166,10 @@ When executing this skill:
 
 ## CROSS-REFERENCES
 
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` - Living document
-- CANON-25100 Part IX - Oracle Pedigree Protocol
-- ORACLE_ARC.md - Oracle trajectory and phase tracking
+- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` - Living compass document
+- `00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md` - Auto-captured queue (hook output)
+- `00-ORCHESTRATION/scripts/intent_compass.sh` - UserPromptSubmit hook
+- CANON-25100 Part IX - Ajna Pedigree Protocol
 
 ---
 

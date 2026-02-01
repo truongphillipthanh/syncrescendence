@@ -9,26 +9,38 @@ coordination:
   version: "2.1.0"
   updated: "2026-01-11"
 
-  # Platform Constellation ($100/month total)
+  # Platform Constellation ($160/month total)
   platforms:
-    claude:
-      accounts: 3
-      tier: pro
-      monthly_cost: 60
-
-    gemini:
-      accounts: 1
-      tier: advanced
-      monthly_cost: 20
+    claude_max:
+      account: 1
+      tier: max
+      monthly_cost: 100
+      email: "truongphillipthanh@icloud.com"
+      avatars: [Commander]
 
     chatgpt:
-      accounts: 1
+      account: 1
       tier: plus
       monthly_cost: 20
       email: "truongphillipthanh@icloud.com"
+      avatars: [Vanguard]
 
-  total_monthly: 100
-  sustainability_target: "2026-01-31"
+    claude_pro:
+      account: 2
+      tier: pro
+      monthly_cost: 20
+      email: "icloud.truongphillipthanh@gmail.com"
+      avatars: [Vizier, Adjudicator]
+
+    google_ai_pro:
+      account: 2
+      tier: pro
+      monthly_cost: 20
+      email: "icloud.truongphillipthanh@gmail.com"
+      avatars: [Diviner, Cartographer]
+
+  total_monthly: 160
+  sustainability_target: "2026-06-30"
 
   # Account definitions
   accounts:

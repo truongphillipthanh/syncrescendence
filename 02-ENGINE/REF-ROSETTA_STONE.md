@@ -452,7 +452,8 @@ Significant community patterns without internal equivalents.
 | 117 | Augur | UNIQUE | Perplexity avatar; Researcher | No equivalent |
 | 118 | Vizier | UNIQUE | Claude Web avatar; Hermeneut | No equivalent |
 | 119 | Vanguard | UNIQUE | ChatGPT Web avatar; Architect | No equivalent |
-| 120 | Diviner | UNIQUE | Gemini Web avatar; Exegete | No equivalent |
+| 120 | Diviner | UNIQUE | Gemini Web avatar; Illuminator (DIGESTOR) | No equivalent |
+| 120b | Cartographer | UNIQUE | Gemini CLI avatar; Exegete (SENSOR) | No equivalent |
 | 121 | Commander | UNIQUE | Claude Code avatar; Viceroy | No equivalent |
 | 122 | Adjudicator | UNIQUE | Codex CLI avatar; Executor | No equivalent |
 | 123 | Twin Coordination Protocol | UNIQUE | Autonomous coordination between Ajna and Psyche (~30m heartbeats) | No equivalent |

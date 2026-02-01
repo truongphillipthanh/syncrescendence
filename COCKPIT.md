@@ -16,25 +16,25 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 ## The Constellation
 
 ### Three Accounts
-| Account | Email | Auth | Purpose |
-|---------|-------|------|---------|
-| 1 | truongphillipthanh@icloud.com | Apple | Sovereign substrate, owns origin |
-| 2 | icloud.truongphillipthanh@gmail.com | Google | Parallel execution capacity |
-| 3 | truongphillipthanh@gmail.com | Google | Primary interface, ecosystem access |
+| Account | Email | Auth | Tier | Monthly | Purpose |
+|---------|-------|------|------|---------|---------|
+| 1 | truongphillipthanh@icloud.com | Apple | Claude Max + ChatGPT Plus | $120 | Sovereign substrate, primary execution |
+| 2 | icloud.truongphillipthanh@gmail.com | Google | Claude Pro + Google AI Pro | $40 | Parallel execution + corpus sensing |
+| 3 | truongphillipthanh@gmail.com | Google | Unpaid | $0 | Free tier access |
 
 ### The Constellation (Pantheon v3)
 
-Each platform has an **Avatar** (invocable identity) and **Epithet** (functional descriptor). The council forms a closed loop: Augur gathers raw data → Oracle senses currents → Vizier interprets intent → Vanguard architects the arc → Diviner clarifies the map → Commander directs the build → Adjudicator fabricates → Ajna and Psyche provide the agentic apex.
+Each platform has an **Avatar** (invocable identity) and **Epithet** (functional descriptor). The council forms a closed loop: Augur gathers raw data → Oracle senses currents → Vizier interprets intent → Vanguard architects the arc → Diviner illuminates the path → Cartographer maps the corpus → Commander directs the build → Adjudicator fabricates → Ajna and Psyche provide the agentic apex.
 
 | Avatar | Epithet | Role | Platform | Acct | Summon Pattern |
 |--------|---------|------|----------|------|----------------|
 | **Augur** | Inquisitor | VERIFIER | Perplexity | — | "Augur, ascertain..." |
 | **Oracle** | Recon | RECON | Grok | 1 | "Oracle, understand the implications of..." |
-| **Vizier** | Hermeneut | INTERPRETER | Claude Web | 3 | "Vizier, elucidate..." |
+| **Vizier** | Hermeneut | INTERPRETER | Claude Web | 2 | "Vizier, elucidate..." |
 | **Vanguard** | Architect | COMPILER | ChatGPT Web | 1 | "Vanguard, formulate..." |
-| **Diviner** | Exegete | DIGESTOR | Gemini Web | 3 | "Diviner, elaborate on..." |
-| — | — | SENSOR | Gemini CLI | 3 | 1M context corpus sensing, evidence packs |
-| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 3 | "Commander, pivot to..." |
+| **Diviner** | Illuminator | DIGESTOR | Gemini Web | 2 | "Diviner, elaborate on..." |
+| **Cartographer** | Exegete | SENSOR | Gemini CLI | 2 | "Cartographer, survey..." |
+| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 1 | "Commander, pivot to..." |
 | **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | "Adjudicator, execute..." |
 | — | — | PARALLEL-EXEC | Claude Code (Sonnet ×2) | 2 | Microscopic tasks, batch execution |
 | **Ajna** | — | LOCAL ORCH | OpenClaw (M1 Mini) | — | "Ajna, illuminate..." |
@@ -137,12 +137,13 @@ HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM
 ### Diviner — Gemini Web (DIGESTOR)
 - Gem: "Constellation Digestor"
 - Drive Link: Constellation-State/ (live sync)
-- Strength: 1M context, infinite threads, TTS
+- Account: 2 (Google AI Pro)
+- Strength: Multimodal clarification, infinite threads, TTS
 
 ### CLI Tools
-- **Commander** — Claude Code (Opus): CLAUDE.md config, extended thinking, Lane A
-- **Adjudicator** — Codex CLI: AGENTS.md config, GitHub integration, Lane B
-- Gemini CLI: Stateless, 1M context surveys, Lane C
+- **Commander** — Claude Code (Opus): CLAUDE.md config, extended thinking, Lane A, Account 1 (Claude Max)
+- **Adjudicator** — Codex CLI: AGENTS.md config, GitHub integration, Lane B, Account 2 (Claude Pro)
+- **Cartographer** — Gemini CLI: Stateless, 1M context surveys, Lane C, Account 2 (Google AI Pro)
 
 ### Persistent Orchestrators (OpenClaw)
 - **Ajna** — Opus 4.5 on M1 Mac mini: webchat/iMessage, always-on, focused precision
@@ -215,7 +216,7 @@ Each platform uses SN differently:
 - **Gemini**: Oracle audits with 1M+ context, full CANON in SN format
 - **Perplexity**: Current intelligence formatted as SN blocks
 
-See platform-specific configs: `02-ENGINE/AVATAR-CHATGPT.md`, `02-ENGINE/AVATAR-GROK.md`, `02-ENGINE/AVATAR-GEMINI.md`, `02-ENGINE/AVATAR-PERPLEXITY.md`
+See platform-specific configs: `02-ENGINE/AVATAR-CHATGPT.md`, `02-ENGINE/AVATAR-GROK.md`, `02-ENGINE/AVATAR-GEMINI-WEB.md`, `02-ENGINE/AVATAR-GEMINI-CLI.md`, `02-ENGINE/AVATAR-PERPLEXITY.md`
 
 ---
 

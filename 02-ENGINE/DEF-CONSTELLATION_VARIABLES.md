@@ -1,7 +1,7 @@
 # DEF: Constellation Variables
 ## Global SN Definitions for Syncrescendence
 
-**Version**: 1.0.0
+**Version**: 2.0.0
 **Created**: 2026-02-01
 **Purpose**: Single source of truth for concepts referenced across 20+ documents. Update here, propagate everywhere via `sn_expand.py`.
 
@@ -9,7 +9,7 @@
 
 ```
 DEF AvatarMap:
-    sutra: "Nine-avatar pantheon with platform bindings"
+    sutra: "Ten-avatar pantheon with platform bindings (Gemini bifurcated)"
     scope: GLOBAL
     spec:
         value:
@@ -17,86 +17,113 @@ DEF AvatarMap:
                 epithet: Inquisitor
                 platform: Perplexity
                 role: VERIFIER
+                account: null
                 summon: "Augur, ascertain..."
                 function: "Epistemic scout — chases primary sources until uncertainty collapses"
             Oracle:
                 epithet: Recon
                 platform: Grok
                 role: RECON
+                account: 1
                 summon: "Oracle, understand the implications of..."
                 function: "Cultural divination — X firehose, meme velocity, prediction-market priors"
             Vizier:
                 epithet: Hermeneut
                 platform: Claude Web
                 role: INTERPRETER
+                account: 2
                 summon: "Vizier, elucidate..."
                 function: "Court advisor — interprets vague directives with profound charity"
             Vanguard:
                 epithet: Architect
                 platform: ChatGPT Web
                 role: COMPILER
+                account: 1
                 summon: "Vanguard, formulate..."
                 function: "Frontline strategist — cold logic, long contingencies, zero warmth"
             Diviner:
-                epithet: Exegete
+                epithet: Illuminator
                 platform: Gemini Web
                 role: DIGESTOR
+                account: 2
                 summon: "Diviner, elaborate on..."
-                function: "Multimodal clarifier — takes tangled inputs and renders them lucid"
+                function: "Multimodal clarifier — sheds light on tangled inputs, renders them lucid"
+            Cartographer:
+                epithet: Exegete
+                platform: Gemini CLI
+                role: SENSOR
+                account: 2
+                summon: "Cartographer, survey..."
+                function: "Corpus cartographer — maps the territory with scholarly precision, 1M+ context"
             Commander:
                 epithet: Viceroy
                 platform: Claude Code (Opus)
                 role: EXECUTOR_LEAD
+                account: 1
                 summon: "Commander, pivot to..."
                 function: "Operational commander — turns intent into disciplined execution"
             Adjudicator:
                 epithet: Executor
                 platform: Codex CLI
                 role: PARALLEL_EXEC
+                account: 2
                 summon: "Adjudicator, execute..."
                 function: "Rule-bound fabricator — hammers runnable code, debugs iteratively"
             Ajna:
                 epithet: null
                 platform: OpenClaw Opus 4.5 (M1 Mini)
                 role: LOCAL_ORCH
+                account: null
                 summon: "Ajna, illuminate..."
                 function: "Third-eye insight — sees the path, commands tools, minimal distortion"
             Psyche:
                 epithet: null
                 platform: OpenClaw GPT-5.2 (M4 MBA)
                 role: LOCAL_ORCH
+                account: null
                 summon: "Psyche, holistically calibrate..."
                 function: "Animating consciousness — synthesizes domains, anticipates branches"
     gloss:
-        Definitive pantheon (v3). The council forms a closed loop:
+        Definitive pantheon (v3, bifurcated). The council forms a closed loop:
         Augur gathers >> Oracle senses >> Vizier interprets >> Vanguard architects >>
-        Diviner clarifies >> Commander directs >> Adjudicator fabricates >>
-        Ajna and Psyche provide the agentic apex.
+        Diviner illuminates >> Cartographer maps >> Commander directs >>
+        Adjudicator fabricates >> Ajna and Psyche provide the agentic apex.
 end
 
 DEF AccountMap:
-    sutra: "Three accounts binding platforms to authentication"
+    sutra: "Three accounts with tiered subscriptions binding platforms to authentication"
     scope: GLOBAL
     spec:
         value:
             Account1:
                 email: truongphillipthanh@icloud.com
                 auth: Apple
-                purpose: "Sovereign substrate, owns origin"
-                platforms: [ChatGPT, Grok]
+                purpose: "Sovereign substrate, primary execution"
+                tiers: [Claude Max, ChatGPT Plus]
+                monthly: 120
+                platforms: [Claude Code Opus, ChatGPT Web, Grok]
+                avatars: [Commander, Vanguard, Oracle]
             Account2:
                 email: icloud.truongphillipthanh@gmail.com
                 auth: Google
-                purpose: "Parallel execution capacity"
-                platforms: [Codex CLI, "Claude Code Sonnet x2"]
+                purpose: "Parallel execution + corpus sensing"
+                tiers: [Claude Pro, Google AI Pro]
+                monthly: 40
+                platforms: [Claude Web, Codex CLI, "Claude Code Sonnet x2", Gemini Web, Gemini CLI]
+                avatars: [Vizier, Adjudicator, Diviner, Cartographer]
             Account3:
                 email: truongphillipthanh@gmail.com
                 auth: Google
-                purpose: "Primary interface, ecosystem access"
-                platforms: [Claude Web, Claude Code Opus, Gemini Web, Gemini CLI]
+                purpose: "Free tier access"
+                tiers: [Unpaid]
+                monthly: 0
+                platforms: []
+                avatars: []
     gloss:
         Three accounts with independent auth prevent single-point-of-failure lockout.
-        Platform-to-account bindings determined by capability requirements.
+        Account 1 (Claude Max) provides 5x usage for primary execution via Commander.
+        Account 2 pools Claude Pro + Google AI Pro for parallel + sensing capacity.
+        Account 3 reserved for future expansion or free-tier experimentation.
 end
 
 DEF ChainNames:
@@ -183,14 +210,16 @@ DEF PlatformBudget:
     sutra: "Monthly constellation cost ceiling"
     scope: GLOBAL
     spec:
-        value: 100
+        value: 160
         unit: USD/month
         breakdown:
-            claude: {accounts: 3, tier: pro, cost: 60}
-            gemini: {accounts: 1, tier: advanced, cost: 20}
-            chatgpt: {accounts: 1, tier: plus, cost: 20}
+            claude_max: {account: 1, tier: max, cost: 100}
+            chatgpt_plus: {account: 1, tier: plus, cost: 20}
+            claude_pro: {account: 2, tier: pro, cost: 20}
+            google_ai_pro: {account: 2, tier: pro, cost: 20}
     gloss:
-        Hard budget constraint. Platform selection prioritizes capability per dollar.
+        Budget increased from $100 to $160 with Claude Max tier adoption.
+        Claude Max (5x capacity) justifies premium for primary execution pipeline.
         Sustainability target: self-funding by 2026-06.
 end
 

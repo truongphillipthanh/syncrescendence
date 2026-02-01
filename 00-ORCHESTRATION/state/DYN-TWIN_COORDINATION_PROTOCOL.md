@@ -21,7 +21,8 @@
 | Oracle | Recon | Grok | X firehose, cultural sensing, prediction markets |
 | Vizier | Hermeneut | Claude Web | Interpretation, synthesis, rapport |
 | Vanguard | Architect | ChatGPT Web | Strategic planning, long-arc blueprints |
-| Diviner | Exegete | Gemini Web | Clarification, multimodal illumination |
+| Diviner | Illuminator | Gemini Web | Clarification, multimodal illumination |
+| Cartographer | Exegete | Gemini CLI | Corpus mapping, 1M+ context sensing |
 | Commander | Viceroy | Claude Code | Disciplined execution, directive implementation |
 | Adjudicator | Executor | Codex CLI | Code fabrication, iterative debugging |
 | **Ajna** | Third Eye | OpenClaw Opus 4.5 | Persistent orchestration, focused precision |
