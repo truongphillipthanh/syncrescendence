@@ -48,7 +48,7 @@
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
 | PROJ-LIVE-CANON | IN_PROGRESS | P1 | 30% | Live CANON Ticker — design complete, implementation pending Sovereign approval |
-| PROJ-DESKTOP | IN_PROGRESS | P1 | 35% | Desktop Metabolization — memory-arch + handbook metabolized, my inputs.md + convergence pending |
+| PROJ-DESKTOP | IN_PROGRESS | P1 | 70% | Desktop Metabolization — P0 complete, P1 complete (intake + verify), P2-P3 remaining |
 
 ---
 
@@ -74,11 +74,11 @@ See `00-ORCHESTRATION/state/REF-DESKTOP_CAPTURE_INVENTORY.md` for full inventory
 |----------|--------|-------------|--------|
 | P0 | ~~memory-architecture-teleology.md (8,500w)~~ | ~~CANON~~ | DONE (already in CANON-25000) |
 | P0 | ~~FLEET_COMMANDERS_HANDBOOK (13Kw)~~ | ~~05-SIGMA~~ | DONE (→ PRAC-agentic_mastery_framework.md) |
-| P0 | my inputs.md | ARCH-INTENTION_COMPASS.md | NOT_STARTED |
-| P1 | syncrescendence_convergence.md | DYN-BACKLOG.md | NOT_STARTED |
-| P1 | x_articles (17 files) | 04-SOURCES → processing | NOT_STARTED |
-| P1 | configuration_layers/AUDIZE | 02-ENGINE/FUNC-AUDIZE.md | NOT_STARTED |
-| P1 | configuration_layers/chrome scripts | 02-ENGINE/FUNC-TRANSCRIBE.md | NOT_STARTED |
+| P0 | ~~my inputs.md~~ | ~~ARCH-INTENTION_COMPASS.md~~ | DONE (20 INT-MI entries, v2.0) |
+| P1 | ~~syncrescendence_convergence.md (4,955 lines)~~ | ~~04-SOURCES/research~~ | INTAKE (moved to research pipeline for extraction) |
+| P1 | ~~x_articles (17 files)~~ | ~~04-SOURCES/research~~ | DONE (moved to research pipeline) |
+| P1 | ~~configuration_layers/AUDIZE~~ | ~~02-ENGINE/FUNC-*~~ | DONE (PRODUCTION added, MINIMAL/REFERENCE verified identical) |
+| P1 | ~~configuration_layers/chrome scripts~~ | ~~02-ENGINE/FUNC-transcribe_*~~ | DONE (verified identical, Desktop deleted) |
 | P2 | legacy/meta_narrative*.md | 05-SIGMA or CANON | NOT_STARTED |
 | P2 | legacy/Coherence/ | 05-SIGMA/MEMORY-* | NOT_STARTED |
 | P3 | Ajna9 research fodder | Verify → DELETE | NOT_STARTED |
