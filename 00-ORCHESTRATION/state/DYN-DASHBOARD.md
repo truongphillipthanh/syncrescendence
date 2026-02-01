@@ -1,8 +1,8 @@
 # SYNCRESCENDENT DASHBOARD
 ## Project Management Overview
-**Generated**: 2026-02-01 (Corpus Hygiene Sprint)
-**Current Sprint**: State Refresh + Corpus Compression
-**Fingerprint**: 006bd2e
+**Generated**: 2026-02-01 (Restructure v3 Sprint)
+**Current Sprint**: Wholesale restructure + avatar pantheon + SN variables
+**Fingerprint**: 1e30362 (pending commit)
 
 ---
 
@@ -12,15 +12,57 @@
 ORACLE ARC PROGRESS
 ═══════════════════════════════════════════════════════════════════
 Oracle 0-12:  ████████████████████████████████████████ COMPLETE
-Oracle 13:    ████████████████████████████████░░░░░░░░ 80% (active)
+Oracle 13:    ████████████████████████████████████░░░░ 90% (active)
 ═══════════════════════════════════════════════════════════════════
 
 CANON STATUS
 ═══════════════════════════════════════════════════════════════════
 Wikilink Graph: ████████████████████████████████████████ 82/82 COMPLETE
-SN Encoding:    ████████████████████████████░░░░░░░░░░░ 53% compressed
+SN Encoding:    ████████████████████████████████████████ 83/83 COMPLETE (79% avg)
+SN Variables:   ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20% (DEF system designed)
+═══════════════════════════════════════════════════════════════════
+
+RESTRUCTURE v3 PROGRESS
+═══════════════════════════════════════════════════════════════════
+Phase 1-8:    ████████████████████████████████████████ COMPLETE
+Avatar v3:    ████████████████████████████████████████ COMPLETE
+SN Paths:     ████████████████████████████████████████ COMPLETE
+CANON Sweep:  ████████████████████████████████████████ COMPLETE
 ═══════════════════════════════════════════════════════════════════
 ```
+
+---
+
+## Corpus Metrics
+
+| Metric | Pre-Sprint | Current | Delta |
+|--------|-----------|---------|-------|
+| Files | 1,267 | 636 | -631 (-49.8%) |
+| Numbered dirs | 8 (00-07) | 5 (00,01,02,04,05) | -3 |
+| Subdirectories | 80+ | 18 | -62 |
+| CANON files | 82 | 82 | 0 (preserved) |
+| SN compression | 53% avg | 79% avg | +26% |
+| CLAUDE.md lines | 230 | 134 | -96 (-42%) |
+| INBOX files | ~470 | 0 | Inbox zero |
+| OUTGOING files | ~29 | 0 | Cleared |
+| Monthly budget | $100 | $160 | +$60 (Claude Max tier) |
+| Avatar count | 9 | 10 | +1 (Gemini bifurcated) |
+
+---
+
+## Restructure Accomplishments
+
+| Phase | Description | Files Changed |
+|-------|-------------|--------------|
+| 1 | Quick wins (delete deprecated, fix Oracle mapping) | -9 |
+| 2 | INBOX processing + inbox zero | -473 |
+| 3 | ORCHESTRATION compaction (60 directives + 60 logs → 2 compendiums) | -120 |
+| 4 | ENGINE flattening (15 subdirs → 0, absorbed 03-QUEUE) | -5 |
+| 5 | Directory merge (05-MEMORY + 06-EXEMPLA + 07-SIGMA7 → 05-SIGMA) | -14 |
+| 6 | Automation hooks (session_log.sh, pre_compaction.sh) | +2 |
+| 7 | CLAUDE.md v3.0.0 rewrite (230 → 134 lines) | 1 |
+| 8 | Terminology reconciliation sweep | -6 |
+| 9 | Avatar pantheon v3 + SN variable system + stale ref sweep | -22 |
 
 ---
 
@@ -30,118 +72,61 @@ SN Encoding:    █████████████████████�
 |----|------------|--------|----------|-------|
 | PROJ-001 | Transcript Ingestion | COMPLETE | - | 43 sources, 19 integrations |
 | PROJ-002 | IIC Configuration | ACTIVE | P1 | 60% — Acumen/Coherence done, 3 remaining |
-| PROJ-003 | Tooling Stack | NOT_STARTED | P2 | Pending tooling decisions |
-| PROJ-011 | Automation Infrastructure | COMPLETE | - | CLAUDE.md + Makefile + commands |
-| PROJ-012 | Multi-CLI Integration | IN_PROGRESS | P2 | 80% — Gemini validated, ChatGPT pending |
-| PROJ-014 | Multi-Account Sync | ACTIVE | P2 | 40% — protocol documented |
-| PROJ-016 | Skills Conversion | PARTIAL | P3 | 2/5 skills created (intentions, pedigree) |
-| PROJ-DESKTOP | Desktop Ingestion | ACTIVE | P0 | New — triage in progress |
-| PROJ-TELEOLOGY | Teleology Database | ACTIVE | P0 | New — accretion verification + stack decisions |
-| PROJ-LEXICON | Lexicon Catalog | NOT_STARTED | P0 | Rosetta Stone v1.0 complete; glossary pending |
+| PROJ-003 | Tooling Stack | ACTIVE | P2 | Stack Teleology + tool configs created |
+| PROJ-012 | Multi-CLI Integration | IN_PROGRESS | P2 | Gemini validated, Codex configured |
+| PROJ-014 | Multi-Account Sync | ACTIVE | P2 | Protocol documented, twin coordination spec |
+| PROJ-RESTRUCTURE | Wholesale Restructure | COMPLETE | P0 | 1267→636 files, 8→5 dirs |
+| PROJ-AVATARS | Avatar Pantheon v3 | COMPLETE | P0 | 10 avatars (Gemini bifurcated) with epithets + summon phrases |
+| PROJ-SN-VARS | SN Variable System | IN_PROGRESS | P1 | DEF block type + initial variables defined |
+| PROJ-ACCT | Account Restructure | COMPLETE | P0 | A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid ($160/mo) |
+| PROJ-CANON-LEAN | CANON Lean-Out | NOT_STARTED | P2 | Recommendations documented, needs Sovereign review |
 
 ---
 
-## Task Summary
+## Key Artifacts Created This Sprint
 
-| Status | Count |
-|--------|-------|
-| Done | 88 |
-| Not Started | 29 |
-| Pending | 1 |
-| Blocked | 0 |
-| **Total** | **118** |
-
-### P0 Active Tasks (Highest Priority)
-
-| ID | Task | Status | Project | Notes |
-|----|------|--------|---------|-------|
-| TASK-102 | Ingest Desktop/todos into DYN-TASKS | not_started | PROJ-DESKTOP | Integrate user notes |
-| TASK-103 | Desktop-wide survey | not_started | PROJ-DESKTOP | Ingestion plan + disposition tree |
-| TASK-104 | Accretion verification: Obsidian graph | not_started | PROJ-TELEOLOGY | Canon solar system coherence |
-| TASK-108 | Lexicon: catalog idiosyncratic terms | not_started | PROJ-LEXICON | Aligns with Rosetta Stone |
-| TASK-117 | IEETC: prep NEC + interview practice | not_started | PROJ-LIFE | Interview Feb 10 2026 2:15 PM |
+| Artifact | Path | Purpose |
+|----------|------|---------|
+| Session log hook | 00-ORCHESTRATION/scripts/session_log.sh | Auto-capture session metadata on Stop |
+| Pre-compaction hook | 00-ORCHESTRATION/scripts/pre_compaction.sh | Warn about uncommitted state on compact |
+| Directive compendium | 00-ORCHESTRATION/archive/ARCH-DIRECTIVE_COMPENDIUM.md | 60 directives → 1 indexed wisdom doc |
+| Execution history | 00-ORCHESTRATION/archive/ARCH-EXECUTION_HISTORY.md | 60 logs → 1 indexed history doc |
+| DEF variables | 02-ENGINE/DEF-CONSTELLATION_VARIABLES.md | 8 global SN definitions |
+| CANON lean-out ref | 00-ORCHESTRATION/state/REF-CANON_LEAN_OUT_RECOMMENDATIONS.md | Consolidation roadmap |
+| OTA analysis | 00-ORCHESTRATION/archive/ARCH-CANON_OTA_ANALYSIS.md | Deep CANON hermeneutics |
+| Helix visual | 00-ORCHESTRATION/archive/ARCH-HELIX_VISUAL.png | Settled constellation metaphor |
 
 ---
 
-## Recently Resolved (This Session)
+## SN Status
 
-| ID | Task | Resolution |
-|----|------|------------|
-| TASK-008 | Review CONTENT_PROCESSING_QUEUE.md | SUPERSEDED: Merged into YOUTUBE_PROCESSING_BACKLOG.md |
-| TASK-009 | Review YOUTUBE_PROCESSING_BACKLOG.md | SUPERSEDED: Relocated to 02-ENGINE/queues/ |
-| TASK-037 | DIRECTIVE-040B completion gate | SUPERSEDED: PROJ-001 complete since Oracle 10 |
-| TASK-053 | Test Gemini CLI basic operations | UNBLOCKED: CLI installed at /opt/homebrew/bin/gemini |
-
----
-
-## Blocked Projects
-
-| Project | Blocked By | Unlock Condition |
-|---------|------------|------------------|
-| PROJ-004 (Automation) | PROJ-003 | Complete tooling selection |
-| PROJ-005 (Branding) | PROJ-002 | Complete IIC configuration |
-| PROJ-006 (Ontology) | PROJ-003 | Complete tooling selection |
-| PROJ-007 (Curriculum) | PROJ-006 | Complete ontology project |
-| PROJ-015 (Browser Auto) | PROJ-014 | Complete multi-account sync |
-
----
-
-## Dependency Graph
-
-```
-COMPLETED                    ACTIVE                      PIPELINE
----------                    ------                      --------
-PROJ-001 --+---> PROJ-002 --------> PROJ-005 (blocked)
-           |     (60%)   |
-           |             +--------> PROJ-013
-           |
-PROJ-011 --+---> PROJ-003 --------> PROJ-004 (blocked)
-           |             |
-           |             +--------> PROJ-006 --> PROJ-007
-           |
-           +---> PROJ-012 --------> (platform expand)
-           |     (80%)
-           |
-           +---> PROJ-014 --------> PROJ-015 (blocked)
-                 (40%)
-
-NEW (Oracle 13)
----------------
-PROJ-DESKTOP ------> Corpus compression
-PROJ-TELEOLOGY ----> Stack + accretion
-PROJ-LEXICON ------> Rosetta expansion
-PROJ-LIFE ---------> Interview prep (Feb 10)
-```
-
----
-
-## Ledger Health
-
-| Ledger | Records | Last Updated |
-|--------|---------|--------------|
-| tasks.csv | 118 | 2026-02-01 |
-| projects.csv | 17+ | 2026-01-09 |
-| sources.csv | 184 | 2026-01-08 |
-
----
-
-## Corpus Metrics
-
-| Metric | Current | Target | Gap |
-|--------|---------|--------|-----|
-| Files | ~1,440 | ~200 | 7.2x |
-| Size | ~98 MB | ~2 MB | 49x |
-| CANON files | 82 | 82 | ON TARGET |
-| SN compression | 53% | 80% | In progress |
+| Component | Status |
+|-----------|--------|
+| Symbol glossary (sn_symbols.yaml) | v2.0.0 — 115+ symbols, DEF block type added |
+| Block templates (SN_BLOCK_TEMPLATES.md) | v2.0.0 — 7 block types (TERM, NORM, PROC, PASS, ARTIFACT, TEST, DEF) |
+| CANON SN encoding | 83/83 files (79% avg compression, ~73K SN words) |
+| Encode/decode tools | Fixed — path bug corrected across 4 scripts |
+| DEF variables | 8 defined (AvatarMap, AccountMap, ChainNames, PalaceLayers, SevenPulses, EnergyStates, ModalSequence, PlatformBudget, DirectoryStructure) |
+| sn_expand.py | NOT YET BUILT — needed for ${DEF} resolution |
 
 ---
 
 ## OpenClaw Status
 
-| Agent | Model | Host | Status |
-|-------|-------|------|--------|
-| Ajna | Opus 4.5 | Mac mini | Active |
-| Psyche | GPT-5.2 | MacBook Air | Active |
+| Agent | Model | Host | Avatar | Status |
+|-------|-------|------|--------|--------|
+| Ajna | Opus 4.5 | M1 Mac mini | Third-eye insight | Active |
+| Psyche | GPT-5.2 | M4 MacBook Air | Animating consciousness | Active |
+
+---
+
+## Next Actions
+
+1. **Sovereign review**: CANON lean-out recommendations (merge candidates)
+2. **Build sn_expand.py**: Resolve ${DEF} references in SN documents
+3. **IIC completion**: Mastery, Transcendence, Intelligence configs (PROJ-002)
+4. **CANON quality triage**: Chain lunar/satellite documents
+5. **DYN-BACKLOG.md refresh**: Reconcile with new project structure
 
 ---
 
@@ -150,8 +135,9 @@ PROJ-LIFE ---------> Interview prep (Feb 10)
 - **INT-1201**: FAILED — Jan 31 revenue deadline missed. Reset pending sovereign input.
 - **INT-1202**: ACTIVE — Capitalize on capability window.
 - **INT-C003**: CAPTURED — Revenue target reset TBD.
-- **INT-C004**: CAPTURED — Corpus hygiene sprint in progress.
+- **INT-C004**: RESOLVED — Corpus hygiene sprint complete (restructure v3).
+- **INT-C005**: CAPTURED — Avatar pantheon v3 + SN variable system operational.
 
 ---
 
-*Dashboard regenerated 2026-02-01 during corpus hygiene sprint.*
+*Dashboard regenerated 2026-02-01 during restructure v3 sprint (Phase 9).*

@@ -1,8 +1,8 @@
 # COCKPIT.md
 ## Syncrescendence System Overview
 
-**Version**: 2.1
-**Updated**: 2026-01-25
+**Version**: 2.2
+**Updated**: 2026-02-01
 **Purpose**: 30,000ft orientation for any platform entering the constellation
 
 ---
@@ -16,25 +16,29 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 ## The Constellation
 
 ### Three Accounts
-| Account | Email | Auth | Purpose |
-|---------|-------|------|---------|
-| 1 | truongphillipthanh@icloud.com | Apple | Sovereign substrate, owns origin |
-| 2 | icloud.truongphillipthanh@gmail.com | Google | Parallel execution capacity |
-| 3 | truongphillipthanh@gmail.com | Google | Primary interface, ecosystem access |
+| Account | Email | Auth | Tier | Monthly | Purpose |
+|---------|-------|------|------|---------|---------|
+| 1 | truongphillipthanh@icloud.com | Apple | Claude Max + ChatGPT Plus | $120 | Sovereign substrate, primary execution |
+| 2 | icloud.truongphillipthanh@gmail.com | Google | Claude Pro + Google AI Pro | $40 | Parallel execution + corpus sensing |
+| 3 | truongphillipthanh@gmail.com | Google | Unpaid | $0 | Free tier access |
 
-### Eight Roles
-| Role | Platform | Account | Function |
-|------|----------|---------|----------|
-| INTERPRETER | Claude Web | 3 | Synthesis, ideation, rapport |
-| COMPILER | ChatGPT Web | 1 | Mechanical formatting, templates |
-| DIGESTOR | Gemini Web | 3 | Clarification, TTS optimization |
-| ORACLE | Gemini CLI | 3 | Corpus sensing, evidence packs |
-| EXECUTOR-LEAD | Claude Code | 3 | Mesoscopic implementation (Opus) |
-| PARALLEL-EXEC | Claude Code | 2 | Microscopic tasks (Sonnet x2) |
-| RED TEAM | Grok | 1 | Adversarial challenge |
-| VERIFIER | Perplexity | - | Citation-backed verification |
-| LOCAL ORCHESTRATOR | OpenClaw (Mini) | - | Ajna Opus 4.5 — persistent memory, webchat/iMessage, always-on |
-| LOCAL ORCHESTRATOR | OpenClaw (MBA) | - | Ajna GPT5.2 — persistent memory, Slack, directive execution |
+### The Constellation (Pantheon v3)
+
+Each platform has an **Avatar** (invocable identity) and **Epithet** (functional descriptor). The council forms a closed loop: Augur gathers raw data → Oracle senses currents → Vizier interprets intent → Vanguard architects the arc → Diviner illuminates the path → Cartographer maps the corpus → Commander directs the build → Adjudicator fabricates → Ajna and Psyche provide the agentic apex.
+
+| Avatar | Epithet | Role | Platform | Acct | Summon Pattern |
+|--------|---------|------|----------|------|----------------|
+| **Augur** | Inquisitor | VERIFIER | Perplexity | — | "Augur, ascertain..." |
+| **Oracle** | Recon | RECON | Grok | 1 | "Oracle, understand the implications of..." |
+| **Vizier** | Hermeneut | INTERPRETER | Claude Web | 2 | "Vizier, elucidate..." |
+| **Vanguard** | Architect | COMPILER | ChatGPT Web | 1 | "Vanguard, formulate..." |
+| **Diviner** | Illuminator | DIGESTOR | Gemini Web | 2 | "Diviner, elaborate on..." |
+| **Cartographer** | Exegete | SENSOR | Gemini CLI | 2 | "Cartographer, survey..." |
+| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 1 | "Commander, pivot to..." |
+| **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | "Adjudicator, execute..." |
+| — | — | PARALLEL-EXEC | Claude Code (Sonnet ×2) | 2 | Microscopic tasks, batch execution |
+| **Ajna** | — | LOCAL ORCH | OpenClaw (M1 Mini) | — | "Ajna, illuminate..." |
+| **Psyche** | — | LOCAL ORCH | OpenClaw (M4 MBA) | — | "Psyche, holistically calibrate..." |
 
 ---
 
@@ -80,17 +84,15 @@ The **repository** is ground truth. All platforms verify against it via:
 Repository (Account 1 Origin)
 ├── 00-ORCHESTRATION/  # Current operations
 ├── 01-CANON/          # Constitutional documents
-├── 02-ENGINE/         # Active work
-├── 03-QUEUE/          # Pending items
+├── 02-ENGINE/         # Functions, prompts, model profiles, queue items
 ├── 04-SOURCES/        # Processed sources
-├── 05-MEMORY/         # Historical preservation
-├── 06-EXEMPLA/        # Examples
-├── 07-SIGMA7/         # Operational knowledge (σ₇)
-│   ├── 00-SYNTHESIS/  # Platform references
-│   ├── 01-MECHANICS/  # Deep-dive mechanisms
-│   └── 02-PRACTICE/   # Implementation patterns
+├── 05-SIGMA/          # Operational knowledge (σ) + memory + exempla
+│   ├── synthesis/     # Platform references
+│   ├── mechanics/     # Deep-dive mechanisms
+│   └── practice/      # Implementation patterns
 ├── -INBOX/            # Incoming from cloud
 ├── -OUTGOING/         # Staged for commit
+├── -SOVEREIGN/        # Sovereign-only workspace
 └── .constellation/    # State management
 ```
 
@@ -120,27 +122,32 @@ HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM
 
 ## Platform Configuration Summary
 
-### Claude Web (INTERPRETER)
+### Vizier — Claude Web (INTERPRETER)
 - Project: "Syncrescendence IIC"
 - Memory: Project-specific enabled
 - Connectors: GitHub, Drive, Gmail
 - Strength: Rapport, synthesis, past chat search
 
-### ChatGPT Web (COMPILER)
+### Vanguard — ChatGPT Web (COMPILER)
 - Project: "Syncrescendence Compiler"
 - Memory: PROJECT-ONLY MODE (critical)
-- Strength: Canvas, deterministic output
+- Strength: Canvas, strategic blueprints, deterministic output
 - Constraint: No interpretation, explicit specs only
 
-### Gemini Web (DIGESTOR)
+### Diviner — Gemini Web (DIGESTOR)
 - Gem: "Constellation Digestor"
 - Drive Link: Constellation-State/ (live sync)
-- Strength: 1M context, infinite threads, TTS
+- Account: 2 (Google AI Pro)
+- Strength: Multimodal clarification, infinite threads, TTS
 
 ### CLI Tools
-- Claude Code: CLAUDE.md config, extended thinking
-- Codex CLI: AGENTS.md config, GitHub integration
-- Gemini CLI: Stateless, 1M context surveys
+- **Commander** — Claude Code (Opus): CLAUDE.md config, extended thinking, Lane A, Account 1 (Claude Max)
+- **Adjudicator** — Codex CLI: AGENTS.md config, GitHub integration, Lane B, Account 2 (Claude Pro)
+- **Cartographer** — Gemini CLI: Stateless, 1M context surveys, Lane C, Account 2 (Google AI Pro)
+
+### Persistent Orchestrators (OpenClaw)
+- **Ajna** — Opus 4.5 on M1 Mac mini: webchat/iMessage, always-on, focused precision
+- **Psyche** — GPT-5.2 on M4 MacBook Air: Slack, holistic synthesis, QA
 
 ---
 
@@ -197,8 +204,8 @@ end
 - **Encode**: `00-ORCHESTRATION/scripts/sn_encode.py` (verbose prose → SN)
 - **Decode**: `00-ORCHESTRATION/scripts/sn_decode.py` (SN → verbose prose)
 - **CANON Convert**: `00-ORCHESTRATION/scripts/convert_canon.py` (CANON files → SN blocks)
-- **Templates**: `00-ORCHESTRATION/notation/block_templates.md`
-- **Glossary**: `00-ORCHESTRATION/notation/symbols.yaml`
+- **Templates**: `00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`
+- **Glossary**: `00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 ### Platform Integration
 
@@ -209,7 +216,7 @@ Each platform uses SN differently:
 - **Gemini**: Oracle audits with 1M+ context, full CANON in SN format
 - **Perplexity**: Current intelligence formatted as SN blocks
 
-See platform-specific configs: `CHATGPT.md`, `GROK.md`, `GEMINI.md`, `PERPLEXITY.md`
+See platform-specific configs: `02-ENGINE/AVATAR-CHATGPT.md`, `02-ENGINE/AVATAR-GROK.md`, `02-ENGINE/AVATAR-GEMINI-WEB.md`, `02-ENGINE/AVATAR-GEMINI-CLI.md`, `02-ENGINE/AVATAR-PERPLEXITY.md`
 
 ---
 

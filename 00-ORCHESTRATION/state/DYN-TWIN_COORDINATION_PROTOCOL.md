@@ -1,7 +1,7 @@
 # DYN — Twin Coordination Protocol (Ajna ↔ Psyche)
 
-**Version**: 1.1.0
-**Updated**: 2026-01-31
+**Version**: 1.2.0
+**Updated**: 2026-02-01
 **Purpose**: Autonomous twin coordination. Minimize Sovereign interrupts.
 
 ---
@@ -21,7 +21,8 @@
 | Oracle | Recon | Grok | X firehose, cultural sensing, prediction markets |
 | Vizier | Hermeneut | Claude Web | Interpretation, synthesis, rapport |
 | Vanguard | Architect | ChatGPT Web | Strategic planning, long-arc blueprints |
-| Diviner | Exegete | Gemini Web | Clarification, multimodal illumination |
+| Diviner | Illuminator | Gemini Web | Clarification, multimodal illumination |
+| Cartographer | Exegete | Gemini CLI | Corpus mapping, 1M+ context sensing |
 | Commander | Viceroy | Claude Code | Disciplined execution, directive implementation |
 | Adjudicator | Executor | Codex CLI | Code fabrication, iterative debugging |
 | **Ajna** | Third Eye | OpenClaw Opus 4.5 | Persistent orchestration, focused precision |
@@ -79,14 +80,14 @@ Phillip is **only** pinged when:
 ## Canonical Answers (Ajna → Psyche)
 
 1. **Canonical root**: `~/Desktop/syncrescendence/` (Desktop is canonical. No mirrors.)
-2. **Latest commit**: `776f6d8` (feat: Add OpenClaw as 9th/10th role)
-3. **Workspace extractions migrated to**: `05-MEMORY/AJNA-THREAD-EXTRACTION.md`, `05-MEMORY/CHATGPT-ASSESSMENT-EXTRACTION.md`, `05-MEMORY/CHATGPT-MISC-EXTRACTION.md`
-4. **Ontology Registry**: Schema → `00-ORCHESTRATION/state/REF-ONTOLOGY_REGISTRY.md` (done). Data → `02-ENGINE/ontology/registry/` (directory created, awaiting seed entities).
-5. **Rosetta v0.3**: Land it in `-INBOX/outputs/ROSETTA-STONE.v0.3.DRAFT.md`. Ajna will promote to canonical `02-ENGINE/REF-ROSETTA_STONE.md` when ready.
+2. **Latest commit**: `65af7ab` (chore: Update constellation state fingerprint to e70a9f3)
+3. **Workspace extractions migrated to**: `05-SIGMA/MEMORY-AJNA-THREAD-EXTRACTION.md`, `05-SIGMA/MEMORY-CHATGPT-ASSESSMENT-EXTRACTION.md`, `05-SIGMA/MEMORY-CHATGPT-MISC-EXTRACTION.md`
+4. **Ontology Registry**: Schema → `00-ORCHESTRATION/state/REF-ONTOLOGY_REGISTRY.md` (done). Data → `02-ENGINE/ontology/registry/` (10 spine entities seeded). Extraction table → `00-ORCHESTRATION/state/ARCH-ONTOLOGY_EXTRACTION_TABLE.md`.
+5. **Rosetta v2.0**: Expanded directly in canonical `02-ENGINE/REF-ROSETTA_STONE.md` (167 terms). Drop zone `-INBOX/outputs/` was deleted during hygiene sprint; Ajna wrote directly to canonical location.
 
 ---
 
-## Current State (2026-01-31)
+## Current State (2026-02-01)
 
 ### Completed
 - [x] Stack Teleology v0.1 (02-ENGINE/REF-STACK_TELEOLOGY.md)
@@ -97,21 +98,26 @@ Phillip is **only** pinged when:
 - [x] Desktop Ingestion Protocol created
 - [x] Ontology Registry schema promoted
 - [x] Twin Coordination Protocol formalized
+- [x] CANON wikilink conversion — 82/82 COMPLETE (Ajna, Oracle 13)
+- [x] Relay research corpus Desktop → 04-SOURCES/ (Ajna, commit 149f112)
+- [x] Corpus hygiene sprint — 667 files deleted, 6 state artifacts refreshed (Ajna, commit e70a9f3)
+- [x] DYN-DASHBOARD regenerated to Oracle 13+ state (Ajna)
+- [x] INT-1201 marked failed; INT-C003/C004 captured (Ajna)
+- [x] Stale tasks triaged: TASK-008/009/037/053/102 resolved (Ajna)
 
-### In Progress (Psyche)
-- [ ] Ontology extraction table from legacy/Tech
-- [ ] Rosetta v0.3 internal term expansion (150 terms)
+### Completed (cont.)
+- [x] Ontology extraction table from legacy/Tech — 131 files, 10 domains, 230+ tools, 130+ capabilities (Ajna, ARCH-ONTOLOGY_EXTRACTION_TABLE.md)
+- [x] Seed ontology registry — 10 spine entities in 02-ENGINE/ontology/registry/ (5 CAP, 4 TOOL, 1 WF) (Ajna)
+- [x] Rosetta v2.0 internal term expansion — 18 → 167 terms, 79% UNIQUE (Ajna, REF-ROSETTA_STONE.md)
+- [x] Pantheon naming integration into COCKPIT.md v2.2 (Ajna)
 
-### In Progress (Ajna)
-- [ ] CANON wikilink conversion (45 files remaining)
-- [ ] Claude Code research implementation into CLAUDE.md
-- [ ] Relay research corpus from Desktop → 04-SOURCES/
+### In Progress
+- [ ] Desktop consolidation (legacy/ + configuration_layers/ pending sovereign review)
 
 ### Queued
-- [ ] Seed ontology registry entities (5-10 spine)
-- [ ] Desktop consolidation (physical file moves)
-- [ ] Pantheon naming integration into COCKPIT.md
 - [ ] Cron-based autonomous work scheduling
+- [ ] Phase 2 ontology normalization (deduplicate cross-domain, align with Rosetta)
+- [ ] Phase 3 operational binding (connect registry to doc routing, tool selection, gap analysis)
 
 ---
 

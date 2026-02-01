@@ -1,244 +1,159 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
-## Persistent State for Oracle-Claude Coordination
-**Last Updated**: 2026-01-09T12:30 (Oracle 11 Blitzkrieg)
+## Persistent State for Constellation Coordination
+**Last Updated**: 2026-02-01 (Post-Restructure v3, Neo-Blitzkrieg Sprint)
 
 ---
 
-## ACTIVE SPRINT: ORACLE 11 BLITZKRIEG
+## CURRENT PRIORITIES
 
-### Completed Streams (Parallel Execution)
-- [x] **Stream A** (DIRECTIVE-042A): IIC Foundation - Acumen + Coherence configs, shared protocols
-- [x] **Stream B** (DIRECTIVE-042B): Multi-CLI Integration - GEMINI.md, settings template, coordination protocol
-- [x] **Stream C** (DIRECTIVE-042C): Operational Hygiene - Queue disposition, ledger updates
-- [x] **Stream D** (DIRECTIVE-042D): Gemini CLI Validation - APPROVED
+### Immediate (This Week)
+1. **Branch merge**: `refactor/restructure-v3` → main (10 commits, approved)
+2. **Memory architecture CANON**: Metabolize `~/Desktop/todos/4 - TELEOLOGY/memory-architecture-teleology.md` (8,500 words, P0 — no CANON equivalent)
+3. **FLEET_COMMANDERS_HANDBOOK**: Metabolize `~/Desktop/FLEET_COMMANDERS_HANDBOOK-stillneedtoread.md` into 05-SIGMA
+4. **IEETC interview prep**: Feb 10, 2026 @ 2:15 PM San Bernardino (NEC study, YT recon, practice)
 
-### Active Projects Status
+### Near-Term
+5. **CANON lean-out**: 3 merge pairs approved (25000+25010, 25200+25210, 00007+00008)
+6. **Build sn_expand.py**: Resolve ${DEF} references in SN documents
+7. **CLI tool activation**: Codex CLI + Gemini CLI on Account 2 (API keys, AGENTS.md)
+8. **Desktop metabolization pass**: P0-P1 items from REF-DESKTOP_CAPTURE_INVENTORY.md
+
+---
+
+## PROJECT STATUS
 
 | Project | Status | Priority | Progress | Notes |
 |---------|--------|----------|----------|-------|
-| PROJ-001 | COMPLETE | - | 100% | Transcript Ingestion (43 sources) |
-| PROJ-002 | ACTIVE | P1 | 60% | IIC Configuration - Acumen/Coherence done |
-| PROJ-011 | COMPLETE | - | 100% | Automation Infrastructure |
-| PROJ-012 | IN_PROGRESS | P2 | 80% | Multi-CLI Integration - Gemini validated |
-| PROJ-014 | ACTIVE | P2 | 40% | Multi-Account Sync - protocol documented |
-| PROJ-016 | NOT_STARTED | P3 | 0% | Skills Conversion (deferred) |
+| PROJ-001 | COMPLETE | — | 100% | Transcript Ingestion (43 sources) |
+| PROJ-002 | ACTIVE | P1 | 60% | IIC Configuration — Acumen/Coherence done, 3 remaining |
+| PROJ-003 | ACTIVE | P2 | 40% | Tooling Stack — REF-STACK_TELEOLOGY.md created, needs completion per `02-STACK.md` |
+| PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
+| PROJ-006 | NOT_STARTED | P1 | 0% | Ontology/"Palantir-like" — "FINAL BOSS"; blocked by PROJ-003 |
+| PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
+| PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
+| PROJ-009 | NOT_STARTED | P3 | 0% | Modal 2 Visual — queued AI 3D/VFX/Image/Video |
+| PROJ-011 | COMPLETE | — | 100% | Automation Infrastructure |
+| PROJ-012 | IN_PROGRESS | P2 | 90% | Multi-CLI Integration — Gemini validated, Codex needs config |
+| PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
+| PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
+| PROJ-016 | NOT_STARTED | P3 | 0% | Skills Conversion (top 5 XML functions) |
+| PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→636 files) |
+| PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
+| PROJ-SN-VARS | IN_PROGRESS | P1 | 30% | SN Variable System — DEF blocks designed, sn_expand.py needed |
+| PROJ-ACCT | COMPLETE | — | 100% | Account Restructure — A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid |
+| PROJ-NEO-BLITZ | IN_PROGRESS | P0 | 60% | Neo-Blitzkrieg Buildout — hooks/automation done, CLI activation pending |
+| PROJ-CANON-LEAN | NOT_STARTED | P1 | 0% | CANON Lean-Out — 3 merge pairs approved |
+| PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
+| PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
+| PROJ-LIVE-CANON | NOT_STARTED | P1 | 0% | Live CANON Ticker — dynamic model/capability tracking |
+| PROJ-DESKTOP | IN_PROGRESS | P1 | 20% | Desktop Metabolization — REF-DESKTOP_CAPTURE_INVENTORY.md created |
 
 ---
 
-## PROJECT DETAILS
+## RESEARCH PIPELINE BACKLOG
 
-### PROJ-002: IIC Configuration (ACTIVE)
-**Owner**: Oracle11 | **Priority**: P1
-
-**Completed**:
-- [x] CANON reconnaissance - 8 IIC documents (14500+ lines)
-- [x] Memory architecture decisions - Seven strata mapped
-- [x] Acumen IIC configuration (IIC-Acumen-config.md)
-- [x] Coherence IIC configuration (IIC-Coherence-config.md)
-- [x] Shared protocols (IIC-shared-protocols.md)
-
-**Remaining**:
-- [ ] Efficacy IIC configuration (Operations chain)
-- [ ] Mastery IIC configuration (Teaching chain)
-- [ ] Transcendence IIC configuration (Wisdom chain)
-- [ ] Cross-IIC communication testing
-- [ ] Memory deployment validation
-
-### PROJ-012: Multi-CLI Onboarding (IN_PROGRESS)
-**Owner**: Oracle11 | **Priority**: P2
-
-**Completed**:
-- [x] GEMINI.md context file created
-- [x] gemini-settings.json template
-- [x] REF-MULTI_CLI_COORDINATION.md protocol
-- [x] Gemini CLI validation - APPROVED
-
-**Remaining**:
-- [ ] Gemini CLI installation on system
-- [ ] Live parallel execution test
-- [ ] ChatGPT Codex evaluation (if available)
-
-### PROJ-014: Multi-Account Synchronization (ACTIVE)
-**Owner**: Oracle11 | **Priority**: P2
-
-**Completed**:
-- [x] REF-MULTI_ACCOUNT_SYNC.md created
-- [x] Corpus-first model documented
-- [x] Inter-IIC flow patterns specified
-
-**Remaining**:
-- [ ] Define handoff protocol
-- [ ] Create account utilization schedule
-- [ ] Test context resumption across accounts
-
-### PROJ-016: Skills Conversion (NOT_STARTED)
-**Owner**: Oracle12+ | **Priority**: P3
-
-**Scope**: Convert top 5 XML functions to Claude Skills format
-- [ ] transcribe_youtube.xml
-- [ ] transcribe_interview.xml
-- [ ] integrate.xml
-- [ ] readize.xml
-- [ ] listenize.xml
-
-**Status**: Deferred to Oracle 12+
+| Tool/Platform | Phase | Priority | Source | Notes |
+|--------------|-------|----------|--------|-------|
+| Gemini CLI | 1-3 | P2 | Sovereign directive | Consensus + 1st party triangulation |
+| Codex CLI | 1-3 | P2 | Sovereign directive | Consensus + 1st party triangulation |
+| OpenClaw | 1-3 | P2 | Sovereign directive | "Plenty of testimonials now due to hype" |
+| Cowork (Claude) | 1-2 | P3 | Sovereign directive | MCP apps: Slack, Asana, Canva, Figma, Box |
+| Linear | 1 | P2 | Neo-Blitzkrieg buildout | PM tool for backlog management |
+| Palantir Foundry | 1 | P3 | todos/02-STACK.md | "Final boss" ontology system |
+| NotebookLM | 1 | P3 | memory-architecture-teleology.md | Zero-hallucination grounded responses |
 
 ---
 
-## QUEUE STATUS
+## DESKTOP METABOLIZATION QUEUE
 
-### 03-QUEUE/modal1/ - CLEARED
-All text-based items moved to appropriate locations:
-- AI_ECOSYSTEM_SURVEY.md -> 02-ENGINE/surveys/
-- YOUTUBE_PROCESSING_BACKLOG.md -> 02-ENGINE/queues/
-- CONTENT_PROCESSING_QUEUE.md -> Merged into YOUTUBE_PROCESSING_BACKLOG.md
-- QUICK_WINS.md -> 05-MEMORY/ARCHIVE-QUICK_WINS-2026-01-09.md
-- AI_Academic_Research.md -> 02-ENGINE/surveys/
+See `00-ORCHESTRATION/state/REF-DESKTOP_CAPTURE_INVENTORY.md` for full inventory.
 
-### 03-QUEUE/modal2/ - DEFERRED
-Awaiting Modal 2 visual capabilities:
-- AI_3D_VFX.md
-- AI_Image_Generators.md
-- AI_Workflows_in_Video_and_VFX.md
-- Physical_AI.md
-- QUEUE-36200-SCREENPLAY_ORCHESTRATION.md
-- The_Next_Wave_in_AI_Video_and_VFX.md
+| Priority | Source | Destination | Status |
+|----------|--------|-------------|--------|
+| P0 | memory-architecture-teleology.md (8,500w) | CANON or ENGINE ref | NOT_STARTED |
+| P0 | FLEET_COMMANDERS_HANDBOOK (21Kw) | 05-SIGMA | NOT_STARTED |
+| P0 | my inputs.md | ARCH-INTENTION_COMPASS.md | NOT_STARTED |
+| P1 | syncrescendence_convergence.md | DYN-BACKLOG.md | NOT_STARTED |
+| P1 | x_articles (17 files) | 04-SOURCES → processing | NOT_STARTED |
+| P1 | configuration_layers/AUDIZE | 02-ENGINE/FUNC-AUDIZE.md | NOT_STARTED |
+| P1 | configuration_layers/chrome scripts | 02-ENGINE/FUNC-TRANSCRIBE.md | NOT_STARTED |
+| P2 | legacy/meta_narrative*.md | 05-SIGMA or CANON | NOT_STARTED |
+| P2 | legacy/Coherence/ | 05-SIGMA/MEMORY-* | NOT_STARTED |
+| P3 | Ajna9 research fodder | Verify → DELETE | NOT_STARTED |
 
 ---
 
-## BLOCKED PROJECTS
+## SOVEREIGN PERSONAL QUEUE
 
-| Project | Blocked By | Unlock Condition |
-|---------|------------|------------------|
-| PROJ-004 (Automation) | PROJ-003 | Complete tooling selection |
-| PROJ-005 (Branding) | PROJ-002 | Complete IIC configuration |
-| PROJ-006 (Ontology) | PROJ-003 | Complete tooling selection |
-| PROJ-007 (Curriculum) | PROJ-006 | Complete ontology project |
-| PROJ-015 (Browser Auto) | PROJ-014 | Complete multi-account sync |
-
----
-
-## NEAR-TERM PRIORITIES
-
-### Oracle 11 Remaining Work
-1. **PROJ-002**: Complete Efficacy, Mastery, Transcendence IIC configs
-2. **PROJ-012**: Install Gemini CLI, run live test
-3. **PROJ-014**: Account utilization schedule
-
-### Oracle 12 Preview
-1. **PROJ-016**: Begin Skills conversion
-2. **PROJ-003**: Tooling stack decisions
-3. **PROJ-002**: Cross-IIC testing
-
-### OPS-TAXONOMY (Oracle 13+)
-Finalize artifact taxonomy + frontmatter schema; add prompt/spec registries; add ops_lint; migrate intake prompts/specs into 02-ENGINE canonical names; ensure validator allows -INBOX dropboxes; plan next step: ingestion script for ChatGPT trifurcated containers.
-
-**Completed (2026-01-18)**:
-- [x] Operations Artifact Taxonomy documented (REF-OPERATIONS_ARTIFACT_TAXONOMY.md)
-- [x] Prompt Registry created (REF-PROMPT_REGISTRY.md)
-- [x] Operations Tree map created (REF-OPERATIONS_TREE.md)
-- [x] ops_lint.sh linter created
-- [x] Intake files migrated from -INBOX to 02-ENGINE with frontmatter
-- [x] ChatGPT container ingestion script created (ingest_chatgpt_container.py/sh)
-
-**Remaining**:
-- [ ] Backfill frontmatter on legacy prompts in prompts/canonical/
-- [ ] Add frontmatter validation to CI/pre-commit
-- [ ] Document slash command registry (CMD-* pattern)
-- [ ] Create schema for prompt frontmatter (SCHEMA-PROMPT_FRONTMATTER.yaml)
+| Item | Category | Deadline | Notes |
+|------|----------|----------|-------|
+| **IEETC Interview** | Professional | **Feb 10, 2026** | San Bernardino, 2:15 PM |
+| Chaffey follow-up | Education | Open | Hector, EOPS, student discounts |
+| Restroom finish | Home | Open | |
+| Water filters | Home | Open | |
+| Flood lights | Home | Open | |
+| WiFi extender | Home | Open | |
+| Parent admin mechanism | Home | Open | |
 
 ---
 
-## COMPLETED (Oracle 10-11)
+## SCOPE EXPANSION HORIZON
 
-### Oracle 10
-- [x] PROJ-001: Transcript Ingestion (43 sources, 19 integrations, 11 CANON enriched)
-- [x] PROJ-011: Automation Infrastructure (CLAUDE.md, Makefile, MCP, coordination)
+Items emerging from teleological settlement:
 
-### Oracle 11 Blitzkrieg
-- [x] IIC Foundation (Acumen, Coherence, shared protocols)
-- [x] Multi-CLI Integration (GEMINI.md, settings, coordination)
-- [x] Gemini CLI Validation (APPROVED)
-- [x] Queue Disposition (modal1 cleared)
-- [x] Ledger Updates (tasks.csv: 78 tasks, projects.csv: 17 projects)
-
----
-
-## METRICS
-
-### Execution Capacity
-| Instance | Status | Current Zone | Last Active |
-|----------|--------|--------------|-------------|
-| Claude Code 1 (Alpha) | Active | Stream A | 2026-01-09 |
-| Claude Code 2 (Beta) | Active | Stream B | 2026-01-09 |
-| Claude Code 3 (Gamma) | Active | Stream C | 2026-01-09 |
-| Gemini CLI (Delta) | Validated | Stream D | 2026-01-09 |
-
-### Ledger Health
-| Ledger | Records | Last Updated |
-|--------|---------|--------------|
-| tasks.csv | 78 | 2026-01-09 |
-| projects.csv | 17 | 2026-01-09 |
-| sources.csv | 184 | 2026-01-08 |
-
-### Project Health
-| Metric | Target | Current | Status |
-|--------|--------|---------|--------|
-| Active projects | 3-5 | 3 | HEALTHY |
-| Blocked projects | <3 | 5 | ELEVATED |
-| Complete projects | Increasing | 2 | ON_TRACK |
+| Domain | Status | Trigger | Notes |
+|--------|--------|---------|-------|
+| Visual AI (image/vid/anim/avatar-gen) | Modal 2 queue | Technology maturity | AI 3D, VFX, screenplay orchestration |
+| Audio AI (music, conversational) | Modal 2 queue | Technology maturity | |
+| World/simulation models | Modal 2 queue | Technology maturity | |
+| Scholarly/academic tools | Backlog | Alignment with personal trajectory | |
+| Open-source Chinese models | Tracking | Proliferation monitoring | |
+| Feedcraft (8 IIC accounts) | Deferred | Post-IIC config | 3 primary + 5 chain accounts |
+| Bespoke macOS apps | Deferred | Post-Modal 1 | Text editors, productivity equivalents |
+| Branding/entification | Deferred | Post-IIC | Dan Koe, Futur, Hormozi, Robbins |
 
 ---
 
 ## DEPENDENCY GRAPH
 
 ```
-COMPLETED                    ACTIVE                      PIPELINE
----------                    ------                      --------
-PROJ-001 --+---> PROJ-002 --------> PROJ-013
-           |     (60%)   |
-           |             +--------> PROJ-005 (blocked)
-           |
-PROJ-011 --+---> PROJ-003 --------> PROJ-004 (blocked)
-           |             |
-           |             +--------> PROJ-006 --> PROJ-007
-           |
-           +---> PROJ-012 --------> (platform expand)
-           |     (80%)
-           |
-           +---> PROJ-014 --------> PROJ-015 (blocked)
-                 (40%)
+COMPLETED                    ACTIVE                         PIPELINE
+---------                    ------                         --------
+PROJ-001 ---+---> PROJ-002 ---------> PROJ-005 (blocked)
+            |     (60%)    |
+            |              +---------> IIC completion
+            |
+PROJ-011 ---+---> PROJ-003 ---------> PROJ-006 --> PROJ-007
+            |     (40%)    |           (Ontology)
+            |              +---------> PROJ-004
+            |
+            +---> PROJ-012 ---------> CLI activation
+            |     (90%)
+            |
+            +---> PROJ-014 ---------> PROJ-015
+                  (60%)
 
-DEFERRED
---------
-PROJ-016 (Skills) --------> Oracle 12+
-PROJ-008 (Tech Lunar) ----> TBD
-PROJ-009 (Modal 2) -------> TBD
+NEW (Restructure Sprint)
+---------
+PROJ-RESTRUCTURE (DONE) ---> PROJ-CANON-LEAN --> PROJ-LIVE-CANON
+PROJ-AVATARS (DONE) -------> PROJ-SN-VARS ----> sn_expand.py
+PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ --> CLI activation
+                                              --> PROJ-LINEAR
+                                              --> PROJ-RESEARCH
 ```
 
 ---
 
-## QUICK REFERENCE
+## COMPLETED PROJECTS (Archive)
 
-| Project | Status | Oracle | Priority | Blocked By |
-|---------|--------|--------|----------|------------|
-| PROJ-001 | COMPLETE | 10 | - | - |
-| PROJ-002 | ACTIVE | 11 | P1 | None |
-| PROJ-003 | NOT_STARTED | 11 | P2 | None |
-| PROJ-004 | BLOCKED | 12 | P2 | PROJ-003 |
-| PROJ-005 | BLOCKED | 13 | P3 | PROJ-002 |
-| PROJ-006 | BLOCKED | 14 | P1 | PROJ-003 |
-| PROJ-007 | BLOCKED | 15 | P3 | PROJ-006 |
-| PROJ-008 | NOT_STARTED | TBD | P2 | None |
-| PROJ-009 | NOT_STARTED | TBD | P3 | None |
-| PROJ-010 | ABSORBED | - | - | - |
-| PROJ-011 | COMPLETE | 10 | - | - |
-| PROJ-012 | IN_PROGRESS | 11 | P2 | None |
-| PROJ-013 | NOT_STARTED | 11 | P2 | PROJ-002 |
-| PROJ-014 | ACTIVE | 11 | P2 | None |
-| PROJ-015 | NOT_STARTED | 12+ | P3 | PROJ-014 |
-| PROJ-016 | NOT_STARTED | 12+ | P3 | None |
+| Project | Oracle | Outcome |
+|---------|--------|---------|
+| PROJ-001 | 10 | 43 sources, 19 integrations, 11 CANON enriched |
+| PROJ-011 | 10 | CLAUDE.md, Makefile, MCP, coordination.yaml |
+| PROJ-RESTRUCTURE | 13 | 1267→636 files, 8→5 dirs, 9 phases |
+| PROJ-AVATARS | 13 | 10 avatars (Gemini bifurcated), Pantheon v3 |
+| PROJ-ACCT | 13 | A1=Claude Max+ChatGPT Plus, A2=Claude Pro+Google AI Pro, A3=Unpaid |
 
 ---
 
-*Backlog refreshed after Oracle 11 Blitzkrieg completion. All 4 parallel streams executed successfully.*
+*Backlog comprehensively refreshed 2026-02-01. Reconciles restructure v3 outcomes, Desktop capture inventory, Neo-Blitzkrieg buildout, and Sovereign directives.*

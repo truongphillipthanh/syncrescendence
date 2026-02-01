@@ -13,7 +13,7 @@
 | `00-ORCHESTRATION/` | Sovereign, Claude Code | Oracle (directives) | Protected: state/, oracle_contexts/ |
 | `01-CANON/` | Sovereign | Claude (with approval) | PROTECTED - deletions require approval |
 | `02-ENGINE/` | Claude Code | Sovereign | Contains coordination.yaml |
-| `03-QUEUE/` | Claude Code | Sovereign | Modal-organized pending work |
+| `02-ENGINE/QUEUE-*` | Claude Code | Sovereign | Queue items absorbed into 02-ENGINE (QUEUE- prefix) |
 | `04-SOURCES/` | Gemini (raw/), Alpha/Beta (processed/) | Sovereign | Zone-prefixed outputs |
 | `05-MEMORY/` | Claude Code | Sovereign | Historical preservation |
 | `06-EXEMPLA/` | Sovereign | Claude Code | Templates only |

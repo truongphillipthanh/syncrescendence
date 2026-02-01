@@ -18,7 +18,7 @@ from pathlib import Path
 # Attempt to import sn_encode
 try:
     SCRIPT_DIR = Path(__file__).parent
-    GLOSSARY_PATH = SCRIPT_DIR.parent / "notation" / "symbols.yaml"
+    GLOSSARY_PATH = SCRIPT_DIR / "sn_symbols.yaml"
 
     import yaml
 

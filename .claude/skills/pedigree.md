@@ -1,26 +1,26 @@
 # PEDIGREE SKILL
-## Oracle Session Context Management
+## Ajna Pedigree — Session Context Management
 
-**Version**: 1.0.0
-**Last Updated**: 2026-01-12
-**Authority**: Oracle 12
+**Version**: 2.0.0
+**Last Updated**: 2026-02-01
+**Authority**: Oracle 13
 
 ---
 
 ## PURPOSE
 
-Manage Oracle pedigree—the lineage and context that enables session continuity without explicit handoffs. Pedigree supersedes handoff protocol for repository-centric work.
+Manage Ajna pedigree—the lineage and context that enables session continuity without explicit handoffs. Pedigree supersedes handoff protocol for repository-centric work. Now automated via `ajna_pedigree.sh` Stop hook (captures decision lineage to `DYN-PEDIGREE_LOG.md`).
 
 ---
 
 ## WHEN TO USE
 
 Trigger this skill when:
-- Starting a new Oracle session
+- Starting a new session (any Oracle or execution session)
 - Resuming after compaction
 - Preparing context for Claude Code execution
 - Creating Blitzkrieg packages
-- Transitioning between Oracle sessions
+- Transitioning between sessions
 
 ---
 
@@ -39,7 +39,7 @@ Trigger this skill when:
 
 ## PEDIGREE COMPONENTS
 
-### 1. Oracle Lineage
+### 1. Session Lineage
 ```yaml
 oracle:
   current: 12
@@ -84,7 +84,7 @@ intentions:
 
 ### 1. Session Initialization
 
-When starting Oracle session:
+When starting a session:
 
 1. Read `ORACLE_ARC.md` for trajectory
 2. Read latest `EXECUTION_LOG-*` for recent activity
@@ -193,7 +193,7 @@ See template in Process section above.
 
 ## INTEGRATION WITH CANON-25100
 
-CANON-25100 Part IX defines the Oracle Pedigree Protocol. This skill provides:
+CANON-25100 Part IX defines the Ajna Pedigree Protocol (formerly Oracle Pedigree). This skill provides:
 - **Process guidance** for session initialization
 - **Template structures** for pedigree documents
 - **Anti-pattern warnings** to avoid common mistakes
@@ -208,7 +208,9 @@ When executing this skill:
 
 ## CROSS-REFERENCES
 
-- CANON-25100 Part IX - Oracle Pedigree Protocol (authority)
+- CANON-25100 Part IX - Ajna Pedigree Protocol (authority)
+- `00-ORCHESTRATION/scripts/ajna_pedigree.sh` - Automated Stop hook
+- `00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md` - Auto-generated pedigree log
 - `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` - Active intentions
 - `00-ORCHESTRATION/state/DYN-BACKLOG.md` - Project status
 - `00-ORCHESTRATION/logs/EXECUTION_LOG-*` - Recent activity

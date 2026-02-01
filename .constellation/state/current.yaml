@@ -1,4 +1,4 @@
-fingerprint: e70a9f3
-timestamp: 2026-02-01T11:45:19Z
-branch: main
-message: chore(hygiene): Corpus triage + state refresh — 667 files deleted, 6 state artifacts updated
+fingerprint: 417f17c
+timestamp: 2026-02-01T18:31:50Z
+branch: refactor/restructure-v3
+message: chore: track SN-encoded CANON files, research sources, and state fingerprint
