@@ -167,10 +167,10 @@ Time targets:
 
 ### State Management
 
-**Wells vs Rivers** (see ROSETTA-STONE: ALIGNED with community):
-- Repository = well (persistent, version-controlled, ground truth)
-- Chat sessions = rivers (ephemeral, evaporate when closed)
-- Rivers must flow INTO wells before evaporation
+**Ephemeral vs Durable** (formerly "Wells vs Rivers" — see ROSETTA_STONE #3):
+- Repository = durable (persistent, version-controlled, ground truth)
+- Chat sessions = ephemeral (evaporate when closed)
+- Ephemeral state must be persisted to durable storage before session ends
 
 **Content Flow State Machine** (COCKPIT.md):
 ```

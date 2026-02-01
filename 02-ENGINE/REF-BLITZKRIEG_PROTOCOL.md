@@ -4,7 +4,8 @@
 **Version**: 1.0.0
 **Created**: 2026-01-18
 **Authority**: Oracle13
-**Status**: Operational Reference
+**Status**: SUPERSEDED by Neo-Blitzkrieg (see REF-ROSETTA_STONE.md entry #14)
+**Note**: This v1.0 Lane A/B/C model is superseded by the full constellation pipeline defined in the Neo-Blitzkrieg. Preserved as historical reference.
 
 ---
 

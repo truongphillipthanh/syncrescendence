@@ -4,7 +4,8 @@
 **Version**: 2.0.0
 **Created**: 2026-01-18
 **Authority**: Oracle13
-**Status**: Constitutional Reference
+**Status**: SUPERSEDED by Neo-Blitzkrieg (see 02-ENGINE/REF-ROSETTA_STONE.md entry #14)
+**Note**: This v2.0 Lane A/B/C model is superseded by the full constellation pipeline. The Neo-Blitzkrieg eliminates fixed lanes in favor of role-based dispatch through the full Pantheon. Preserved as historical reference.
 
 ---
 
