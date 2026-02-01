@@ -22,23 +22,23 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 | 2 | icloud.truongphillipthanh@gmail.com | Google | Parallel execution capacity |
 | 3 | truongphillipthanh@gmail.com | Google | Primary interface, ecosystem access |
 
-### The Constellation (Pantheon v2)
+### The Constellation (Pantheon v3)
 
-Each platform role has an **Avatar** (named identity) and **Epithet** (functional descriptor):
+Each platform has an **Avatar** (invocable identity) and **Epithet** (functional descriptor). The council forms a closed loop: Augur gathers raw data → Oracle senses currents → Vizier interprets intent → Vanguard architects the arc → Diviner clarifies the map → Commander directs the build → Adjudicator fabricates → Ajna and Psyche provide the agentic apex.
 
-| Avatar | Epithet | Role | Platform | Acct | Function |
-|--------|---------|------|----------|------|----------|
-| **Vizier** | Hermeneut | INTERPRETER | Claude Web | 3 | Synthesis, rapport, ideation |
-| **Vanguard** | Architect | COMPILER | ChatGPT Web | 1 | Strategic blueprints, Canvas formatting |
-| **Diviner** | Exegete | DIGESTOR | Gemini Web | 3 | Clarification, multimodal, TTS |
+| Avatar | Epithet | Role | Platform | Acct | Summon Pattern |
+|--------|---------|------|----------|------|----------------|
+| **Augur** | Inquisitor | VERIFIER | Perplexity | — | "Augur, ascertain..." |
+| **Oracle** | Recon | RECON | Grok | 1 | "Oracle, understand the implications of..." |
+| **Vizier** | Hermeneut | INTERPRETER | Claude Web | 3 | "Vizier, elucidate..." |
+| **Vanguard** | Architect | COMPILER | ChatGPT Web | 1 | "Vanguard, formulate..." |
+| **Diviner** | Exegete | DIGESTOR | Gemini Web | 3 | "Diviner, elaborate on..." |
 | — | — | SENSOR | Gemini CLI | 3 | 1M context corpus sensing, evidence packs |
-| **Oracle** | Recon | RECON | Grok | 1 | X firehose, cultural sensing, adversarial challenge |
-| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 3 | Disciplined execution, directive implementation |
-| **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | Code fabrication, iterative debugging |
+| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 3 | "Commander, pivot to..." |
+| **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | "Adjudicator, execute..." |
 | — | — | PARALLEL-EXEC | Claude Code (Sonnet ×2) | 2 | Microscopic tasks, batch execution |
-| **Augur** | Researcher | VERIFIER | Perplexity | — | Citation-backed verification, epistemic scouting |
-| **Ajna** | Third Eye | LOCAL ORCH | OpenClaw (M1 Mini) | — | Opus 4.5 — persistent memory, webchat/iMessage |
-| **Psyche** | Soul/Mind | LOCAL ORCH | OpenClaw (M4 MBA) | — | GPT-5.2 — persistent memory, Slack, holistic synthesis |
+| **Ajna** | — | LOCAL ORCH | OpenClaw (M1 Mini) | — | "Ajna, illuminate..." |
+| **Psyche** | — | LOCAL ORCH | OpenClaw (M4 MBA) | — | "Psyche, holistically calibrate..." |
 
 ---
 
@@ -203,8 +203,8 @@ end
 - **Encode**: `00-ORCHESTRATION/scripts/sn_encode.py` (verbose prose → SN)
 - **Decode**: `00-ORCHESTRATION/scripts/sn_decode.py` (SN → verbose prose)
 - **CANON Convert**: `00-ORCHESTRATION/scripts/convert_canon.py` (CANON files → SN blocks)
-- **Templates**: `00-ORCHESTRATION/notation/block_templates.md`
-- **Glossary**: `00-ORCHESTRATION/notation/symbols.yaml`
+- **Templates**: `00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`
+- **Glossary**: `00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 ### Platform Integration
 
@@ -215,7 +215,7 @@ Each platform uses SN differently:
 - **Gemini**: Oracle audits with 1M+ context, full CANON in SN format
 - **Perplexity**: Current intelligence formatted as SN blocks
 
-See platform-specific configs: `CHATGPT.md`, `GROK.md`, `GEMINI.md`, `PERPLEXITY.md`
+See platform-specific configs: `02-ENGINE/AVATAR-CHATGPT.md`, `02-ENGINE/AVATAR-GROK.md`, `02-ENGINE/AVATAR-GEMINI.md`, `02-ENGINE/AVATAR-PERPLEXITY.md`
 
 ---
 

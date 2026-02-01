@@ -3,8 +3,8 @@
 # Approved: 2026-01-23
 
 meta:
-  version: "1.0.0"
-  approved: "2026-01-23"
+  version: "2.0.0"
+  approved: "2026-02-01"
   notation: "SN"
   description: "Semantic Notation for ~80% token reduction while preserving semantics"
 
@@ -94,6 +94,7 @@ blocks:
   PASS: "Deterministic transforms - pure functions"
   ARTIFACT: "Named outputs - concrete results"
   TEST: "Validation/invariants - verification"
+  DEF: "Global variables - define once, reference everywhere via ${NAME}"
 
 # Layers (Multi-Level Representation)
 layers:

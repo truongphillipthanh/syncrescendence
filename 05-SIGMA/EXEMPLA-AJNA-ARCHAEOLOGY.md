@@ -12,7 +12,7 @@
 
 ### Aphorisms
 
-**Already Formalized** (in `06-EXEMPLA/APHORISMS.md`):
+**Already Formalized** (in `05-SIGMA/EXEMPLA-APHORISMS.md`):
 
 | # | Aphorism | Section | Status |
 |---|---|---|---|
@@ -33,13 +33,13 @@
 | 10 | "Repository is truth; web apps are cache." | On Persistence | Ajna4+ (Five Invariants) |
 | 11 | "The terminology diff is the Rosetta Stone." | On Language | Ajna9 |
 
-**Action**: Add aphorisms 9-11 to `06-EXEMPLA/APHORISMS.md`.
+**Action**: Add aphorisms 9-11 to `05-SIGMA/EXEMPLA-APHORISMS.md`.
 
 ---
 
 ### Proverbs
 
-**Already Formalized** (in `06-EXEMPLA/PROVERBS.md`):
+**Already Formalized** (in `05-SIGMA/EXEMPLA-PROVERBS.md`):
 
 | # | Proverb | Status |
 |---|---|---|
@@ -55,7 +55,7 @@
 | 5 | **"The Lobotomized Compiler"** | ChatGPT was assigned COMPILER role, forbidden from strategic thinking. It then invented the State Fingerprint Solution, proving the role assignment suppressed its genuine intelligence. *Teaching: Don't nerf platforms to get determinism.* | Ajna3-4 |
 | 6 | **"The Shadow Canon"** | Oracle sessions 4-9 produced extensive architecture but kept outputs in conversations, not repository. Work dissolved when threads hit limits. *Teaching: Commit before closing tabs.* | Ajna7+ |
 
-**Action**: Add proverbs 5-6 to `06-EXEMPLA/PROVERBS.md`.
+**Action**: Add proverbs 5-6 to `05-SIGMA/EXEMPLA-PROVERBS.md`.
 
 ---
 
@@ -97,7 +97,7 @@ The Shadow Canon (Proverb 6 above) also serves as a cautionary tale. Additional 
 
 - **Origin**: Early Ajna threads, formalized in Accretion Resolution Pass
 - **Status**: PARTIALLY FORMALIZED
-- **Location**: `-INBOX/ACCRETION-RESOLUTION-PASS-RING7-RETELEOLOGY.md`, directory `07-SIGMA7/`
+- **Location**: `-INBOX/ACCRETION-RESOLUTION-PASS-RING7-RETELEOLOGY.md`, directory `05-SIGMA/`
 
 | Layer | Name | Formalized? | Location |
 |---|---|---|---|
@@ -108,7 +108,7 @@ The Shadow Canon (Proverb 6 above) also serves as a cautionary tale. Additional 
 | sigma-4 | Ground Truth | In Accretion Resolution Pass only | -INBOX/ |
 | sigma-5 | Intelligence Substrate | In Accretion Resolution Pass only | -INBOX/ |
 | sigma-6 | Access Layer | In Accretion Resolution Pass only | -INBOX/ |
-| sigma-7 | Execution Substrate | `07-SIGMA7/` directory + 22 docs | OPERATIONAL |
+| sigma-7 | Execution Substrate | `05-SIGMA/` directory + 22 docs | OPERATIONAL |
 
 **Migration**: The Sovereignty Strata framework exists only in an -INBOX document (not committed to CANON or ORCHESTRATION). Only sigma-7 is operationalized via the SIGMA7 directory. The framework needs either CANON canonization or ORCHESTRATION formalization.
 

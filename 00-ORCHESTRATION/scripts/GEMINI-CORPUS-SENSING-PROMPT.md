@@ -46,15 +46,14 @@ Analyze the entire corpus and produce a structured report identifying:
 ## Repository Structure Context
 
 ```
-00-ORCHESTRATION/  — Coordination infrastructure (directives, state, logs, scripts)
-01-CANON/          — Constitutional documents (stable, high-value)
-02-ENGINE/    — Active working documents (prompts, functions, specs)
-03-QUEUE/          — Processing queue (staged for work)
-04-SOURCES/        — Source material (raw/, processed/)
-05-MEMORY/        — Historical/superseded documents (prefix: ARCH-)
-06-EXEMPLA/        — Templates and examples
--INBOX/            — Unsorted incoming (needs triage)
--OUTGOING/         — Execution outputs (timestamped batches)
+00-ORCHESTRATION/  — Coordination infrastructure (state/, scripts/, archive/)
+01-CANON/          — Constitutional documents (stable, high-value) + sn/
+02-ENGINE/         — Functions, prompts, avatars, model profiles, queue items
+04-SOURCES/        — Source material (raw/, processed/, research/)
+05-SIGMA/          — Operational knowledge corpus + memory + exempla
+-INBOX/            — Incoming artifacts from external platforms
+-OUTGOING/         — Export staging, cross-platform handoffs
+-SOVEREIGN/        — Sovereign-only workspace
 ```
 
 ## Naming Conventions (Detect Violations)

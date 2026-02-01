@@ -235,31 +235,29 @@ These directories form the interface between cloud platforms (which cannot direc
 
 **Why explicit membranes?** Without explicit boundaries, cloud-derived content would mix unpredictably with repository-native content. The membranes enforce a protocol: CAPTURE to -INBOX/, review, commit, file. DISPATCH from repository, execute, RETURN to -OUTGOING/, review, distribute. The friction is intentional; it prevents unreviewed content from contaminating the corpus.
 
-### 00-ORCHESTRATION/ through 06-EXEMPLA/: The Semantic Hierarchy
+### 00-ORCHESTRATION/ through 05-SIGMA/: The Semantic Hierarchy
 
 The numbered directories impose semantic organization on the corpus:
 
-- **00-ORCHESTRATION/**: Active directives, current state, execution logs. The "now" of the system.
-- **01-CANON/**: Protected scripture—the foundational documents that define Syncrescendence. 148K words that must not be casually edited.
-- **02-OPERATIONAL/**: Active configurations—platform prompts, constellation specs, CLAUDE.md hierarchies. The "how" of the system.
-- **03-QUEUE/**: Pending work items awaiting execution or decision.
-- **04-SOURCES/**: Research material, transcripts, working documents. The "inputs" to the system.
-- **05-ARCHIVE/**: Historical artifacts. Forgetting is a feature; old content moves here rather than cluttering active directories.
-- **06-EXEMPLA/**: Templates and examples for generating new content.
+- **00-ORCHESTRATION/**: Strategic coordination (state/, scripts/, archive/). The "now" of the system.
+- **01-CANON/**: Protected scripture—the foundational documents that define Syncrescendence. 148K words that must not be casually edited. SN-encoded versions in sn/.
+- **02-ENGINE/**: Functions, prompts, avatars, model profiles, queue items. The "how" of the system.
+- **04-SOURCES/**: Source documents (raw/, processed/, research/). The "inputs" to the system.
+- **05-SIGMA/**: Operational knowledge corpus — synthesis, mechanics, practice patterns, plus memory and exempla.
 
 **Teleological purpose**: Enable any executor (human or AI) to find content by semantic category rather than memorized paths.
 
 **Why numbered prefixes?** Filesystem sorting. When `ls` or a file picker displays directory contents, numbered prefixes ensure consistent ordering. 00 always appears first (current operations); 05 always appears near the end (archived history). The Principal's eye learns the position; navigation becomes automatic.
 
-### CLAUDE.md, GEMINI.md, COCKPIT.md: Platform Entry Points
+### CLAUDE.md, COCKPIT.md, AVATAR-*.md: Platform Entry Points
 
-These root-level files serve as entry points for their respective platforms:
+These files serve as entry points for their respective platforms:
 
 **CLAUDE.md teleology**: Claude Code reads this file automatically when entering the repository. It contains project overview, architectural principles, execution guidelines, and references to deeper documentation. This is Claude Code's "briefing document"—everything it needs to understand the system before receiving a specific directive.
 
-**GEMINI.md teleology**: Gemini CLI receives this as context preamble for corpus operations. It orients the ORACLE to the corpus structure, explains the semantic hierarchy, and defines the evidence pack output format.
+**AVATAR-*.md teleology**: Each platform has a dedicated avatar file in 02-ENGINE/ (e.g., AVATAR-GEMINI.md, AVATAR-CHATGPT.md) that serves as context preamble. These files orient each platform to its role, the corpus structure, and expected output formats.
 
-**COCKPIT.md teleology**: Web apps cannot read local files directly, but the Principal can paste COCKPIT.md contents into any platform as orientation context. It provides the 30,000-foot view: what is Syncrescendence, what are the current objectives, what is the constellation architecture. This is the "refresh" document when a platform has lost context.
+**COCKPIT.md teleology**: Web apps cannot read local files directly, but the Sovereign can paste COCKPIT.md contents into any platform as orientation context. It provides the 30,000-foot view: what is Syncrescendence, what are the current objectives, what is the constellation architecture. This is the "refresh" document when a platform has lost context.
 
 ---
 

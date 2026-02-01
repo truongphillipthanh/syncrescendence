@@ -79,7 +79,7 @@ NORM FlatPrinciple:
         modality: MUST
         subject: all_directories
         action: forbid(subdirectories) ∧ require(prefix_naming)
-        scope: [00-ORCHESTRATION, 01-CANON, 02-ENGINE, 04-SOURCES, 05-MEMORY, 06-EXEMPLA]
+        scope: [00-ORCHESTRATION, 01-CANON, 02-ENGINE, 04-SOURCES, 05-SIGMA]
         invariant: "∀ dir ∈ scope: depth(dir) = 1"
         violation: "Breaks agent navigation | increases decision depth"
     gloss:
@@ -273,6 +273,88 @@ end
 
 ---
 
+## DEF Block (Global Variables)
+
+**Use when**: Defining a value or mapping that is referenced across multiple documents and must stay consistent when updated. DEF blocks are the "define once, reference everywhere" mechanism.
+
+```
+DEF <Name>:
+    sutra: "<what this variable represents>"
+    scope: GLOBAL | TIER | DOCUMENT
+    spec:
+        value: <scalar, list, or mapping>
+    gloss:
+        <Why this needs to be a variable>
+        <What documents reference it>
+end
+```
+
+**Referencing**: Use `${DEF_NAME}` or `${DEF_NAME.field}` in any block's spec or gloss to reference a DEF value. The `sn_expand.py` tool resolves references before parsing.
+
+**Example (scalar)**:
+```
+DEF PlatformBudget:
+    sutra: "Monthly constellation cost ceiling"
+    scope: GLOBAL
+    spec:
+        value: 100
+        unit: USD/month
+    gloss:
+        Constrains account acquisition decisions.
+        Referenced in CANON-25200, DYN-COORDINATION.yaml, COCKPIT.md.
+end
+```
+
+**Example (mapping)**:
+```
+DEF AvatarMap:
+    sutra: "Definitive avatar-to-platform assignment"
+    scope: GLOBAL
+    spec:
+        value:
+            Augur: {epithet: Inquisitor, platform: Perplexity, role: VERIFIER}
+            Oracle: {epithet: Recon, platform: Grok, role: RECON}
+            Vizier: {epithet: Hermeneut, platform: "Claude Web", role: INTERPRETER}
+            Vanguard: {epithet: Architect, platform: "ChatGPT Web", role: COMPILER}
+            Diviner: {epithet: Exegete, platform: "Gemini Web", role: DIGESTOR}
+            Commander: {epithet: Viceroy, platform: "Claude Code", role: EXECUTOR_LEAD}
+            Adjudicator: {epithet: Executor, platform: "Codex CLI", role: PARALLEL_EXEC}
+            Ajna: {platform: "OpenClaw Opus 4.5", role: LOCAL_ORCH}
+            Psyche: {platform: "OpenClaw GPT-5.2", role: LOCAL_ORCH}
+    gloss:
+        Single source of truth for the constellation pantheon.
+        When an avatar or platform changes, update this DEF and run sn_expand.py.
+end
+```
+
+**Example (list)**:
+```
+DEF ChainNames:
+    sutra: "Six developmental chains in canonical order"
+    scope: GLOBAL
+    spec:
+        value:
+            - {name: Intelligence, symbol: I, virtue: null, element: Technology}
+            - {name: Information, symbol: ℹ, virtue: α (Acumen), element: Air}
+            - {name: Insight, symbol: ∴, virtue: χ (Coherence), element: Water}
+            - {name: Expertise, symbol: E, virtue: ε (Efficacy), element: Fire}
+            - {name: Knowledge, symbol: K, virtue: μ (Mastery), element: Earth}
+            - {name: Wisdom, symbol: W, virtue: τ (Transcendence), element: Quintessence}
+    gloss:
+        Foundational taxonomy referenced in ~40 CANON documents.
+        Updating chain names here propagates to all SN-encoded docs.
+end
+```
+
+**Rules**:
+- DEF names use PascalCase (e.g., `AvatarMap`, `ChainNames`)
+- GLOBAL scope: available to all documents
+- TIER scope: available within one CANON tier
+- DOCUMENT scope: local to one file (equivalent to `:=` binding in spec)
+- DEF blocks live in dedicated files: `02-ENGINE/DEF-*.md`
+
+---
+
 ## Composition Patterns
 
 ### Chaining Blocks
@@ -383,7 +465,8 @@ When converting existing prose to SN:
 
 ## Version History
 
-- **v1.0.0** (2026-01-23): Initial template set
+- **v1.0.0** (2026-01-23): Initial template set (TERM, NORM, PROC, PASS, ARTIFACT, TEST)
+- **v2.0.0** (2026-02-01): Added DEF block type for global variables
 
 ---
 

@@ -137,7 +137,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 **Goal**: Integrate findings into the operational Constellation.
 
 **Process**:
-1. Update platform config files (e.g., CODEX.md, GEMINI.md, or create new)
+1. Update platform avatar files (e.g., 02-ENGINE/AVATAR-CODEX.md, AVATAR-GEMINI.md, or create new)
 2. Create/update skills if new capabilities warrant automation
 3. Test integration with existing workflows
 4. Document learnings in 05-SIGMA
@@ -161,10 +161,10 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 | Output | Location | Naming |
 |---|---|---|
 | Raw research sources | `-INBOX/` | `RESEARCH-[TOOL]-[DATE]-[source].md` |
-| Synthesis documents | `05-SIGMA/00-SYNTHESIS/` | `SYNTHESIS-[tool]_[domain].md` |
-| Mechanics documents | `05-SIGMA/01-MECHANICS/` | `MECH-[mechanism].md` |
-| Practice documents | `05-SIGMA/02-PRACTICE/` | `PRAC-[pattern].md` |
-| Platform config | Root | `[TOOL].md` (e.g., CODEX.md) |
+| Synthesis documents | `05-SIGMA/synthesis/` | `SYNTHESIS-[tool]_[domain].md` |
+| Mechanics documents | `05-SIGMA/mechanics/` | `MECH-[mechanism].md` |
+| Practice documents | `05-SIGMA/practice/` | `PRAC-[pattern].md` |
+| Platform avatar | `02-ENGINE/` | `AVATAR-[TOOL].md` |
 | ROSETTA-STONE updates | `02-ENGINE/` | Append to `REF-ROSETTA_STONE.md` |
 
 ---

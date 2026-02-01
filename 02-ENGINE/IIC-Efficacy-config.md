@@ -569,7 +569,7 @@ function update_csv() {
 ### Acumen (Information Chain)
 **Receives**: Qualified tasks requiring execution (e.g., transcription, automation setup)
 **Provides**: Execution confirmation, verified outputs
-**Interface**: Shared queue in `02-ENGINE/QUEUE-acumen-to-efficacy` (absorbed from 03-QUEUE)
+**Interface**: Shared queue in `02-ENGINE/QUEUE-acumen-to-efficacy`
 
 ### Coherence (Insight Chain)
 **Receives**: Implementation plans from synthesis

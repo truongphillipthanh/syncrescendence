@@ -12,7 +12,7 @@ import yaml
 # Attempt to load glossary logic
 try:
     SCRIPT_DIR = Path(__file__).parent
-    GLOSSARY_PATH = SCRIPT_DIR.parent / "notation" / "symbols.yaml"
+    GLOSSARY_PATH = SCRIPT_DIR / "sn_symbols.yaml"
 
     def load_glossary():
         if GLOSSARY_PATH.exists():

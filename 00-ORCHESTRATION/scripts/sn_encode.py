@@ -20,7 +20,7 @@ from typing import Dict, Any
 
 # Path to glossary (relative to script location)
 SCRIPT_DIR = Path(__file__).parent
-GLOSSARY_PATH = SCRIPT_DIR.parent / "notation" / "symbols.yaml"
+GLOSSARY_PATH = SCRIPT_DIR / "sn_symbols.yaml"
 
 def load_glossary() -> Dict[str, Any]:
     """Load the Semantic Notation glossary"""

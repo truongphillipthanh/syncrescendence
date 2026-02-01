@@ -539,7 +539,7 @@ Significant community patterns without internal equivalents.
 
 **v2.0.0** (2026-02-01): Comprehensive expansion
 - 149 new terms cataloged (167 total)
-- Full corpus scan: CLAUDE.md, COCKPIT.md, 00-ORCHESTRATION/, 01-CANON/, 02-ENGINE/, 07-SIGMA7/
+- Full corpus scan: CLAUDE.md, COCKPIT.md, 00-ORCHESTRATION/, 01-CANON/, 02-ENGINE/, 05-SIGMA/
 - 9 categories established
 - Status distribution analyzed
 - Authority: Ajna (Opus 4.5) resuming Psyche (GPT-5.2) workstream
