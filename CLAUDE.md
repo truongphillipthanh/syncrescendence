@@ -1,10 +1,10 @@
 # Syncrescendence Knowledge Management System
 
-**Version**: 2.4.0
-**Last Updated**: 2026-01-25
+**Version**: 3.0.0
+**Last Updated**: 2026-02-01
 
 ## Identity
-This is Syncrescendence, a civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale. You are executing directives as part of a multi-Claude coordination system.
+This is Syncrescendence, a civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale. You are executing directives as part of a multi-agent coordination system (the Constellation).
 
 ## Five Invariants (Constitutional Law)
 
@@ -21,209 +21,113 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural (ABSOLUTE)
-1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-) instead of subdirectories.
-2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06 plus sanctioned exceptions. Do not create unnumbered directories at root.
+1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/synthesis/`, `mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`.
+2. **NUMBERED DIRECTORIES**: Top-level directories are 00, 01, 02, 04, 05 (with gaps). Do not create new numbered directories.
 3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
-4. **SANCTIONED EXCEPTIONS**: `-OUTGOING/` and `-INBOX/` are the only non-numbered directories permitted at root. Legacy `OUTGOING/` and lowercase `outgoing/` are PROHIBITED.
+4. **SANCTIONED EXCEPTIONS**: `-OUTGOING/`, `-INBOX/`, and `-SOVEREIGN/` are the only non-numbered directories permitted at root.
 
 ### Semantic (ABSOLUTE)
-4. **DISTILLATION SEMANTICS**: "Metabolize/distill" = READ → EXTRACT unique value → COMPRESS → DELETE originals. NOT organizational restructuring.
-5. **CATEGORY ERROR**: Metabolism applies to CONTENT, not ORCHESTRATION. State/ and logs/ are living infrastructure—never delete.
-6. **LEDGER GROUND TRUTH**: tasks.csv is authoritative. Verify actual state, not execution reports.
+5. **DISTILLATION SEMANTICS**: "Metabolize/distill" = READ → EXTRACT unique value → COMPRESS → DELETE originals. NOT organizational restructuring.
+6. **CATEGORY ERROR**: Metabolism applies to CONTENT, not ORCHESTRATION. State files and archives are living infrastructure — never delete.
+7. **LEDGER GROUND TRUTH**: tasks.csv is authoritative. Verify actual state, not execution reports.
 
 ### Operational (ABSOLUTE)
-7. **ATOMIC UPDATES**: CSV updates use temp file → validate → rename pattern.
-8. **VERIFICATION BEFORE COMPLETION**: Never claim done without running verification commands.
-9. **COMMIT DISCIPLINE**: Commit frequently with semantic prefixes (feat:, fix:, docs:, chore:, refactor:).
+8. **ATOMIC UPDATES**: CSV updates use temp file → validate → rename pattern.
+9. **VERIFICATION BEFORE COMPLETION**: Never claim done without running verification commands.
+10. **COMMIT DISCIPLINE**: Commit frequently with semantic prefixes (feat:, fix:, docs:, chore:, refactor:).
+
+---
 
 ## Directory Structure
-- `00-ORCHESTRATION/` — Strategic coordination (directives, logs, state)
-- `01-CANON/` — Verified canonical knowledge (PROTECTED)
-- `02-ENGINE/` — Functions, prompts, model profiles, queue items
-- `04-SOURCES/` — Source documents (raw/, processed/)
-- `05-SIGMA/` — Operational knowledge corpus (synthesis/, mechanics/, practice/) + memory + exempla
-- `-OUTGOING/` — Export staging, reinit capsules, cross-platform handoffs
-- `-INBOX/` — Incoming artifacts from external platforms
-- `-SOVEREIGN/` — Sovereign-only workspace
 
-## Critical Commands
-```bash
-make verify              # Run all validation checks
-make update-ledgers      # Sync CSV ledgers with validation
-make sync                # Pull latest, rebase, push
-make tree                # Generate current tree
+```
+00-ORCHESTRATION/   Strategic coordination (state/, scripts/, archive/)
+01-CANON/           Verified canonical knowledge (PROTECTED) + sn/
+02-ENGINE/          Functions, prompts, avatars, model profiles, queue items
+04-SOURCES/         Source documents (raw/, processed/, research/)
+05-SIGMA/           Operational knowledge corpus + memory + exempla
+  synthesis/        Canonical platform references
+  mechanics/        Deep-dive mechanisms
+  practice/         Implementation patterns
+-INBOX/             Incoming artifacts from external platforms
+-OUTGOING/          Export staging, cross-platform handoffs
+-SOVEREIGN/         Sovereign-only workspace
 ```
 
+---
+
+## Extended Thinking
+Extended thinking is auto-enabled at 31,999 tokens (January 2026). Control via `MAX_THINKING_TOKENS` environment variable. Keywords (`think`, `think hard`, `ultrathink`) are cosmetic intent signals — useful as session markers but they do not allocate specific token budgets.
+
+Use extended thinking for: architectural decisions, multi-step processing, forensic analysis.
+Use Plan Mode for: complex multi-file changes requiring exploration before execution.
+
+---
+
+## CLAUDE.md Hierarchy
+
+This file is loaded at session start. Additional context is loaded on-demand:
+1. **Managed** — Claude Code internal defaults (not editable)
+2. **User** — `~/.claude/CLAUDE.md` (global preferences)
+3. **Project** — This file (`CLAUDE.md` at repo root)
+4. **Local** — Subdirectory `CLAUDE.md` files (loaded when working in that directory)
+
+---
+
+## Context Economics
+
+Context degrades before capacity. Quality drops at ~75% of context window, not at 100%.
+- Use `/compact` proactively — do not wait for the warning
+- Persist working state to filesystem before compaction
+- Reference 05-SIGMA files via `@` mentions for on-demand loading rather than front-loading
+
+---
+
 ## Processing Patterns
-- Source intake: See @00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md
-- Ledger updates: See @00-ORCHESTRATION/state/REF-STANDARDS.md
+- Source intake: `@00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md`
+- Ledger updates: `@00-ORCHESTRATION/state/REF-STANDARDS.md`
+- Blitzkrieg parallel execution: `@00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
 - Verification: Run before ANY completion claim
 
+---
+
 ## Anti-Patterns (PROHIBITED)
-- Creating subdirectories anywhere
+- Creating subdirectories outside sanctioned locations
 - Skipping verification to "save time"
 - Deferring ledger updates to "later"
 - Claiming integration without grep verification
 - Modifying state/ without validation
 
-## Extended Thinking
-Extended thinking is enabled by default at 31,999 tokens (as of January 2026).
-Control thinking budget via `MAX_THINKING_TOKENS` environment variable.
+---
 
-Keywords like `think`, `think hard`, `ultrathink` are **cosmetic intent signals** — they do not allocate specific token budgets. They remain useful as session markers and Sovereign intent cues.
+## Key References
 
-Use extended thinking for: architectural decisions, multi-step processing, forensic analysis.
-Use Plan Mode for: complex multi-file changes requiring exploration before execution.
-Do NOT force thinking for: simple lookups, single-file edits, routine commits.
-
-## BLITZKRIEG MODEL SPECIFICATION
-
-Blitzkrieg vNext supports three parallel execution lanes (A/B/C) across multiple toolchains.
-Full protocol: `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
-
-### Lane Model
-
-| Lane | Primary Use | Default Assignment |
-|------|-------------|--------------------|
-| **A** | Strategic/architectural | claude_code (Opus) |
-| **B** | Tactical execution | claude_code (Sonnet) or codex_cli |
-| **C** | Validation/secondary | gemini_cli or claude_code (Haiku) |
-
-### Toolchain Options
-
-| Toolchain | Models Available |
-|-----------|------------------|
-| `claude_code` | opus-4.5, sonnet-4.5, haiku |
-| `codex_cli` | codex, gpt-4o |
-| `gemini_cli` | gemini-2.0-flash, gemini-pro |
-| `chatgpt` | gpt-4o, gpt-4o-mini |
-| `other` | operator-configured |
-
-### Model Selection Criteria
-
-| Model | Use When | Characteristics |
-|-------|----------|-----------------|
-| **opus-4.5** | Architectural decisions, complex synthesis | Deep reasoning, worth cost for strategic work |
-| **sonnet-4.5** | Well-defined tasks, execution-heavy work | Fast, capable, cost-effective |
-| **haiku** | Quick validations, simple lookups | Fastest, lowest cost |
-
-### Extended Thinking Specification
-
-Extended thinking is auto-enabled (31,999 tokens default). Keywords are cosmetic intent signals only.
-Use Plan Mode for complex multi-file changes.
-
-### Directive Header Format (vNext)
-
-```yaml
-Lane: A | B | C
-Toolchain: claude_code | codex_cli | gemini_cli | chatgpt | other
-Model: opus-4.5 | sonnet-4.5 | haiku | <custom>
-Thinking: ultrathink | think hard | think | default
-Success_Criteria: [Measurable completion conditions]
-Inputs: [Files this lane reads]
-Outputs: [Files this lane produces]
-```
-
-### Default Behavior
-
-- **Oracle strategic synthesis**: Lane A, claude_code, opus-4.5 (ultrathink)
-- **Tactical execution**: Lane B, claude_code, sonnet-4.5 (think)
-- **Validation/secondary**: Lane C, gemini_cli or haiku (default)
-
-### Blitzkrieg Commands
-
-- `/project:blitzkrieg_issue <slug>` — Create bundle skeleton with directive templates
-- `/project:blitzkrieg_finalize` — Generate return packet, audio scripts, agent relay JSON
-
-## Semantic Notation (SN)
-
-Syncrescendence uses Semantic Notation for ~80% token compression while preserving semantics.
-
-### Core Elements
-- **Symbols**: Ψ (Syncrescendence), Κ (CANON), Ο (ENGINE), Σ (SOURCE), Δ (DIRECTIVE), Λ (LOG)
-- **Operators**: `::` (expands to), `|` (constrained by), `>>` (transforms into), `:=` (binds), `=>` (implies), `<->` (corresponds)
-- **Block Types**: TERM (definitions), NORM (rules), PROC (workflows), PASS (transforms), ARTIFACT (outputs), TEST (validation)
-- **Structure**: sutra (1-line essence), gloss (2-4 sentences WHY), spec (YAML-like structured detail)
-
-### Usage
-- **Encoding**: `00-ORCHESTRATION/scripts/sn_encode.py` (prose → SN)
-- **Decoding**: `00-ORCHESTRATION/scripts/sn_decode.py` (SN → prose)
-- **Templates**: `00-ORCHESTRATION/notation/block_templates.md`
-- **Symbol glossary**: `00-ORCHESTRATION/notation/symbols.yaml`
-
-### Platform Integration
-- ChatGPT: Ideation + compilation to target languages
-- Grok: Colloquial voice preservation in gloss sections
-- Gemini: Oracle-level SN audits with 1M+ context
-- Perplexity: Current intelligence with SN formatting
-
-See `CHATGPT.md`, `GROK.md`, `GEMINI.md`, `PERPLEXITY.md` for platform-specific SN integration.
-
-## Session Management
-- Use /compact before context fills
-- Update session state in 00-ORCHESTRATION/state/
-- Name sessions descriptively for resumption
+| Reference | Path |
+|-----------|------|
+| Constellation mapping | `COCKPIT.md` (authoritative avatar/role assignments) |
+| Terminology reconciliation | `02-ENGINE/REF-ROSETTA_STONE.md` |
+| Fleet operations | `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` |
+| Technology stack | `02-ENGINE/REF-STACK_TELEOLOGY.md` |
+| Operational knowledge | `05-SIGMA/` (22 synthesis/mechanics/practice docs) |
+| Semantic Notation | `00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`, `sn_symbols.yaml` |
+| SN encoding/decoding | `00-ORCHESTRATION/scripts/sn_encode.py`, `sn_decode.py` |
+| Intention archaeology | `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` |
+| Twin coordination | `00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md` |
 
 ---
 
-## Operational Knowledge Reference
-
-For Claude Code configuration, skills, tasks, and cross-platform patterns:
-- `05-SIGMA/` — Operational knowledge corpus (synthesis/, mechanics/, practice/)
-  - `synthesis/` — Canonical platform references
-  - `mechanics/` — Deep-dive mechanisms
-  - `practice/` — Implementation patterns
-
----
-
-## Cowork Mediation Architecture
-
-This platform operates as a **coordination interface**, not a primary workspace.
-
-### Architecture
-```
-Repository (ground truth)
-    ↕ Cowork mediates
-Web Apps (coordination surfaces)
-```
-
-### Your Role
-- **Chat interface** for coordination, ideation, quick queries
-- **NOT primary workspace** — repository is ground truth
-- Changes flow: Cowork → repository → synced back
-
-### Operational Knowledge
-Reference `05-SIGMA/` for Claude Code patterns, cross-platform integration, and execution mechanics.
-
----
-
-## Intention Archaeology Protocol
-
-**MANDATORY**: Before executing any directive, consult:
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` (destination)
-- `00-ORCHESTRATION/state/ARCH-INTENTION_PROTOCOL.md` (method)
-
-Verify work advances the corpus coherence goal. Avoid architecture-as-procrastination.
-
----
-
-## Terminology Reference
-
-Internal terminology is reconciled against community consensus in:
-- `02-ENGINE/REF-ROSETTA_STONE.md` — ROSETTA STONE: internal ↔ community mapping
-- `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` — How we use Claude Code for non-coding work
-- `02-ENGINE/REF-STACK_TELEOLOGY.md` — Comprehensive technology stack disposition
-
-When encountering unfamiliar Syncrescendence terms (Triumvirate, Fingerprint, etc.), consult ROSETTA-STONE first.
-
----
-
-## OpenClaw Integration Layer
+## OpenClaw Integration
 
 Two persistent OpenClaw agents orchestrate the Constellation:
 - **Ajna** (Opus 4.5, Mac mini) — Commits, integration, sub-agent orchestration
 - **Psyche** (GPT-5.2, MacBook Air) — Extraction, specs, QA
 
-Coordination protocol: `00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md`
+OpenClaw agents may concurrently read/write to the filesystem. Check `git status` before large operations.
 
-OpenClaw provides the persistent memory and autonomous execution layer beneath Claude Code. When operating in this repo via Claude Code CLI, be aware that OpenClaw agents may be concurrently reading/writing to the same filesystem. Check git status before large operations.
+---
+
+## Session Protocol
+- Consult `ARCH-INTENTION_COMPASS.md` before executing directives
+- Use `/compact` before context fills (75% rule)
+- Persist working state to `00-ORCHESTRATION/state/` before session end
+- Commit frequently with semantic prefixes
