@@ -41,6 +41,11 @@ process_task() {
 
     echo "[Watch] $(date '+%H:%M:%S') New task detected: $basename"
 
+    # Mark IN_PROGRESS (Self-Discovery pattern: agent claims work)
+    if command -v sed &>/dev/null; then
+        sed -i '' 's/Status: PENDING/Status: IN_PROGRESS/' "$file" 2>/dev/null
+    fi
+
     # Show task preview
     if grep -q "^## Objective" "$file" 2>/dev/null; then
         echo "[Watch] Objective:"
@@ -56,6 +61,9 @@ process_task() {
     #   For cartographer: gemini "$(cat "$file")"
     #   For psyche/ajna: openclaw process "$file"
     echo "[Watch] Ready for processing. Hook into your agent's CLI here."
+
+    # FINGERPRINT-back: after processing, agent should write state before releasing
+    # The processing hook above should mark Status: COMPLETE or Status: FAILED
 }
 
 # Check if fswatch is available

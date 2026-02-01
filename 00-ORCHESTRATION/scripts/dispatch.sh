@@ -55,6 +55,7 @@ cat > "$TASK_FILE" << EOF
 **Fingerprint**: $FINGERPRINT
 **Priority**: P1
 **Status**: PENDING
+**Timeout**: 30
 
 ---
 
