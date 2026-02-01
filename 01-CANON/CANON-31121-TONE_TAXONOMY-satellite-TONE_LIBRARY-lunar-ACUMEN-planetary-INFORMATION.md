@@ -21,6 +21,20 @@ parent: CANON-31120
 
 ## Purpose
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🛰️ Satellite
+
+**Parent**: [[CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]] (Tone Library)
+
+**Siblings**:
+- [[CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]] (Rhetorical Calibration)
+
+---
+
 This document consolidates all taxonomic structures extracted from the TONE LIBRARY CSV fragments. It provides the complete classification framework enabling systematic content production through Recipe-based execution. Use this as reference when creating Recipes or analyzing existing content for rhetorical structure.
 
 **Coverage**: 11 complete taxonomies, 90 total entries spanning rhetorical functions, stylistic forms, cadence patterns, diction rules, guardrails, evidence types, CTAs, scaffold elements, families, audience archetypes, and domains.
@@ -492,3 +506,13 @@ Update this document when 10+ pieces of content have been produced using the tax
 **Status**: Taxonomy complete and ready for Recipe population (P0-2). Next step is creating 3-5 starter Recipes demonstrating taxonomy application for content production.
 
 *Extracted from Acumen Lunar TONE LIBRARY CSVs: October 19, 2025*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-31000-INFORMATION-chain]] — Information Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+

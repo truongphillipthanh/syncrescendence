@@ -20,6 +20,20 @@ parent: CANON-35100
 
 ## PREAMBLE: THE TRANSCENDENCE IMPERATIVE
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌙 Lunar
+
+**Parent**: [[CANON-35100-TRANSCENDENCE-ring-WISDOM]] (Transcendence Ring)
+
+**Siblings**:
+- [[CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]] (Neurodivergent Practice Adaptations)
+
+---
+
 Quintessence—the fifth element beyond Air, Water, Fire, Earth—represents the perspective that transcends all four. Wisdom Chain answers the meta-question: What truth underlies ALL other truths? How does consciousness observe its own evolution? What wisdom integrates Acumen's perception, Coherence's meaning, Efficacy's action, and Mastery's embodiment into unified seeing?
 
 The five Degrees describe mastery progression specifically within Transcendence's lunar system—the ascending spiral of meta-cognitive competence through Recognition → Exploration → Commitment → Integration → Transmission.
@@ -432,3 +446,13 @@ The lunar system provides systematic pathway from initial recognition (Degree: 1
 *Master Schema Orthogonality Verified*  
 *Degree Framework Canonicalized for Transcendence*  
 *October 23, 2025*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-35000-WISDOM-chain]] — Wisdom Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+

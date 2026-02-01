@@ -41,6 +41,26 @@ parent: CANON-31100
 
 ### The Ontological Crisis
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌙 Lunar
+
+**Parent**: [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Planetary Acumen)
+
+**Siblings**:
+- [[CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]] (Tone Library)
+- [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack)
+- [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation)
+- [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] (Platform Capability Catalog)
+
+**Children**:
+- [[CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION]] — Acumen IIC Implementation [🌙 Lunar]
+
+---
+
 Contemporary consciousness faces algorithmic systems that systematically transform human attention into corporate profit through psychological manipulation cloaked as technological service. This constitutes ontological crisis—the foundational conditions for conscious development dissolve through the very systems promising to enhance them. Digital platforms create rupture where they profit from consciousness degradation while users mistake manipulation for choice, compulsion for preference, diminishment for enhancement.
 
 Digital platforms operate as cosmological territories—complete civilizations with indigenous languages, evolved social physics, economic structures, and meaning-making systems. They function simultaneously as anthropological territories requiring archaeological excavation, technical systems demanding device-native tactical mastery, and living organisms with gravitational fields attracting certain populations while repelling others. These territories host competing theories of human consciousness battling for dominance through algorithmic mediation.
@@ -784,3 +804,13 @@ The work begins with recognition—that you are constitutional sovereign, active
 The intelligence exploring these platforms is the same intelligence reading these words. The consciousness seeking sovereignty is your consciousness. The practice awaiting embodiment is your practice.
 
 The work begins now.
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-31000-INFORMATION-chain]] — Information Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+

@@ -12,6 +12,24 @@
 
 ## 1.1 Fundamental Dynamics
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: ☄️ Comet
+
+**Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+
+**Siblings**:
+- [[CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE]] (Cognitive Architecture)
+- [[CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE]] (Multi-Agent Orchestration)
+- [[CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE]] (Memory Systems)
+- [[CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE]] (Safety and Alignment)
+- [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]] (Production Frameworks)
+
+---
+
 The constellation operates as a **state machine** where each platform transformation moves content through defined states toward repository commitment. The Principal orchestrates transitions; platforms execute transformations; the repository records ground truth.
 
 ### State Definitions
@@ -1194,3 +1212,12 @@ Which approach serves your current energy economics best?
 ---
 
 *End of Interaction Dynamics Specification*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+

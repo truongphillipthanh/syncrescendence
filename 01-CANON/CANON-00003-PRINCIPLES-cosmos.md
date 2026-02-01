@@ -22,6 +22,35 @@ synopsis: Aphoristic distillation - the thirty governing principles, chain sutra
 
 ---
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌌 Cosmos
+
+**Parent**: [[CANON-00000-SCHEMA-cosmos]] (Syncrescendent Schema)
+
+**Siblings**:
+- [[CANON-00001-ORIGIN-cosmos]] (The Founding Moment)
+- [[CANON-00002-LINEAGE-cosmos]] (The Intellectual Lineage)
+- [[CANON-00004-EVOLUTION-cosmos]] (The Evolution)
+- [[CANON-00005-SYNCRESCENDENCE-cosmos]] (Syncrescendence)
+- [[CANON-00006-CORPUS-cosmos]] (Syncrescendent Corpus)
+- [[CANON-00007-EVALUATION-cosmos]] (Syncrescendence Evaluation)
+- [[CANON-00008-RESOLUTIONS-cosmos]] (Syncrescendent Resolutions)
+- [[CANON-00009-STRATEGY-cosmos]] (Syncrescendent Strategy)
+- [[CANON-00010-OPERATIONS-cosmos]] (Syncrescendent Operations)
+- [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]] (Artifact Production Protocol)
+- [[CANON-00012-MODAL_SEQUENCE-cosmos]] (Modal Sequence Architecture)
+- [[CANON-00013-QUICKSTART-cosmos]] (Syncrescendent Quickstart)
+- [[CANON-00014-CONTENT_PROTOCOL-cosmos]] (Content Production Protocol)
+- [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] (Macroscopic Narratives)
+- [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] (Ontological Framework)
+- [[CANON-00017-AGENTIC_CONSTITUTION-cosmos]] (Agentic Constitution)
+
+---
+
 ## THE THIRTY PRINCIPLES
 
 ### On Practice

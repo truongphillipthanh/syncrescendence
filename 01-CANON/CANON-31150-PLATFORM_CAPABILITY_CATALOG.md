@@ -1,4 +1,21 @@
 # CANON-31150: PLATFORM CAPABILITY CATALOG
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: Unknown
+
+**Parent**: [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Planetary Acumen)
+
+**Siblings**:
+- [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]] (Feedcraft)
+- [[CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]] (Tone Library)
+- [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack)
+- [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation)
+
+---
+
 ## Definitive Inventory of Constellation Capabilities
 
 **Chain**: INFORMATION (31000)
@@ -452,3 +469,13 @@ Template: 00-ORCHESTRATION/templates/CANON-31150.md.j2
 Data: 00-ORCHESTRATION/state/platform_capabilities.json
 Generated: 2026-01-16T00:44:33.749179Z
 -->
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-31000-INFORMATION-chain]] — Information Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+

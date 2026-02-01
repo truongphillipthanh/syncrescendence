@@ -30,6 +30,22 @@ synopsis: >
 
 ### The Source Triad Method
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🪨 Asteroid
+
+**Parent**: [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] (Technology Stack Database)
+
+**Siblings**:
+- [[CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Tech Stack Migration)
+- [[CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Workflow Intelligence)
+- [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Implementation Patterns)
+
+---
+
 For every decision-bearing question, execute three research passes:
 
 **Pass 1: Primary Sources**
@@ -357,3 +373,12 @@ Decision | Recommendation | Rationale | If Wrong | Timeline
 - Removed redundant examples and verbose explanations
 - Preserved all core methodology
 - Added CANON frontmatter and hierarchy placement
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+

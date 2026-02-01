@@ -25,6 +25,20 @@ chain: EXPERTISE
 
 ---
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌍 Planetary
+
+**Parent**: [[CANON-33000-EXPERTISE-chain]] (Expertise Chain)
+
+**Children**:
+- [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] — Business Operations Backbone [🌙 Lunar]
+
+---
+
 ## PURPOSE
 
 Planetary Efficacy establishes the cultivation of volitional capacity through Fire-aligned transformation practices. This world generates directed force—catalytic, decisive, consuming—contributing transformative will and strategic clarity to the Syncrescendent Core through its orbital energy coils.
@@ -401,3 +415,14 @@ Key implications for Efficacy:
 - **Consciousness Not Required for Intelligence**: Validates using AI tools without concern about their inner experience—focus on output quality
 
 *Integrated 2026-01-05 under DIRECTIVE-039B*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-00010-OPERATIONS-cosmos]] — Operations
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+- [[CANON-35000-WISDOM-chain]] — Wisdom Chain
+

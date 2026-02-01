@@ -25,6 +25,21 @@ chain: KNOWLEDGE
 
 ---
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌍 Planetary
+
+**Parent**: [[CANON-34000-KNOWLEDGE-chain]] (Knowledge Chain)
+
+**Children**:
+- [[CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE]] — Syncrescendent Curriculum [🌙 Lunar]
+- [[CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE]] — Mastery Syllabus [🌙 Lunar]
+
+---
+
 ## PURPOSE
 
 Planetary Mastery establishes the cultivation of embodied capability through Earth-aligned practice. This world generates solid competence—grounded, tangible, crystallized—contributing demonstrated skill and physical grounding to the Syncrescendent Core through its orbital energy coils.
@@ -391,3 +406,14 @@ Your practice consistency determines skill accumulation. Your embodied capabilit
 **Begin deliberate practice tomorrow. The terrestrial world awaits your embodiment.**
 
 *Tangible competence coils spiral toward the Core, amplifying collective embodied capacity.*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-00010-OPERATIONS-cosmos]] — Operations
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+- [[CANON-35000-WISDOM-chain]] — Wisdom Chain
+

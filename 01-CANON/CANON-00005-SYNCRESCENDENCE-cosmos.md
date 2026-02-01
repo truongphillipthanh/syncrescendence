@@ -27,6 +27,35 @@ synopsis: The complete cosmological framework and originary scripture—recursiv
 
 ### The Ontological Reckoning
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌌 Cosmos
+
+**Parent**: [[CANON-00000-SCHEMA-cosmos]] (Syncrescendent Schema)
+
+**Siblings**:
+- [[CANON-00001-ORIGIN-cosmos]] (The Founding Moment)
+- [[CANON-00002-LINEAGE-cosmos]] (The Intellectual Lineage)
+- [[CANON-00003-PRINCIPLES-cosmos]] (The Principles)
+- [[CANON-00004-EVOLUTION-cosmos]] (The Evolution)
+- [[CANON-00006-CORPUS-cosmos]] (Syncrescendent Corpus)
+- [[CANON-00007-EVALUATION-cosmos]] (Syncrescendence Evaluation)
+- [[CANON-00008-RESOLUTIONS-cosmos]] (Syncrescendent Resolutions)
+- [[CANON-00009-STRATEGY-cosmos]] (Syncrescendent Strategy)
+- [[CANON-00010-OPERATIONS-cosmos]] (Syncrescendent Operations)
+- [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]] (Artifact Production Protocol)
+- [[CANON-00012-MODAL_SEQUENCE-cosmos]] (Modal Sequence Architecture)
+- [[CANON-00013-QUICKSTART-cosmos]] (Syncrescendent Quickstart)
+- [[CANON-00014-CONTENT_PROTOCOL-cosmos]] (Content Production Protocol)
+- [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] (Macroscopic Narratives)
+- [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] (Ontological Framework)
+- [[CANON-00017-AGENTIC_CONSTITUTION-cosmos]] (Agentic Constitution)
+
+---
+
 Humanity stands at civilizational threshold unprecedented in recorded history. Not singular crisis but **convergence crisis**—multiple catastrophic trajectories intersecting simultaneously, each alone sufficient to destabilize global civilization, together creating complexity beyond conventional management capacity.
 
 **The Fourth Turning** manifests as predicted: institutional trust collapsed, generational memory of functional governance faded, social contract dissolved, legitimate authority questioned universally. The eighty-year cycle of American renewal reaches its crisis climax. Old orders die. New patterns struggle to birth. The dangerous passage between worlds opens.

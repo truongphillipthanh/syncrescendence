@@ -23,6 +23,20 @@ parent: CANON-34100
 
 ### Update Scope
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌙 Lunar
+
+**Parent**: [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Planetary Mastery)
+
+**Siblings**:
+- [[CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE]] (Syncrescendent Curriculum)
+
+---
+
 This v1.2 update refreshes the Syllabus tool ecosystem references to reflect the January 2026 technology landscape. The pedagogical architecture and four-stage progression remain unchanged from v1.0—only tactical tool recommendations and implementation pathways have been updated.
 
 **What Changed**:
@@ -980,3 +994,14 @@ The Syllabus stands ready. The tools are specified. The pathways are clear. The 
 ---
 
 *End Syllabus v1.1*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-34000-KNOWLEDGE-chain]] — Knowledge Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+- [[CANON-35000-WISDOM-chain]] — Wisdom Chain
+

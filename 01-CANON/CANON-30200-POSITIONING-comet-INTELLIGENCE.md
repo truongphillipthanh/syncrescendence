@@ -28,6 +28,22 @@ parent: CANON-30000
 
 ### What This Provides
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: ☄️ Comet
+
+**Parent**: [[CANON-30000-INTELLIGENCE-chain]] (Intelligence Chain)
+
+**Siblings**:
+- [[CANON-30100-ASA-comet-INTELLIGENCE]] (ASA Model)
+- [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] (Technology Stack Database)
+- [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
+
+---
+
 This supplement extracts the institutional intelligence framework from the dissolved Ethosification artifact and integrates it as a contextual layer within the Intelligence Chain. Understanding corporate personalities, platform strategies, and institutional positioning enables:
 
 1. **Rational Tool Selection**: Choose tools based on institutional alignment, not just features
@@ -944,3 +960,11 @@ This Strategic Positioning supplement provides contextual intelligence for navig
 **Status**: Ready for integration into Intelligence Chain (Canonical) as contextual supplement
 
 **Archive Note**: Original Ethosification artifact archived with migration complete
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+

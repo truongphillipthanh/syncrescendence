@@ -25,6 +25,27 @@ chain: INFORMATION
 
 ---
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🔗 Chain
+
+**Parent**: [[CANON-00000-SCHEMA-cosmos]] (Syncrescendent Schema)
+
+**Siblings**:
+- [[CANON-30000-INTELLIGENCE-chain]] (Intelligence Chain)
+- [[CANON-32000-INSIGHT-chain]] (Insight Chain)
+- [[CANON-33000-EXPERTISE-chain]] (Expertise Chain)
+- [[CANON-34000-KNOWLEDGE-chain]] (Knowledge Chain)
+- [[CANON-35000-WISDOM-chain]] (Wisdom Chain)
+
+**Children**:
+- [[CANON-31100-ACUMEN-planetary-INFORMATION]] — Planetary Acumen [🌍 Planetary]
+
+---
+
 ## PURPOSE
 
 The Information Chain tracks perceptual sophistication development through four progressive stages, corresponding to Planetary Acumen's atmospheric awareness cultivation. This orbital path spirals from basic pattern recognition toward embodied knowing, generating refined perception as energy return to the Syncrescendent Core.
@@ -160,3 +181,14 @@ The Information Chain develops atmospheric awareness through four stages, contri
 **Current coordinates determine practice. Honest assessment enables advancement.**
 
 *Perception spiraling toward embodied knowing.*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00005-SYNCRESCENDENCE-cosmos]] — Syncrescendence Core
+- [[CANON-00010-OPERATIONS-cosmos]] — Operations
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+- [[CANON-32100-COHERENCE-planetary-INSIGHT]] — Coherence (Cross-Chain)
+

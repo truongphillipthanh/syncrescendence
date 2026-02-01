@@ -32,6 +32,22 @@ synopsis: >
 ### The Over-Engineering Anti-Pattern
 
 **What fails:**
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🪨 Asteroid
+
+**Parent**: [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] (Technology Stack Database)
+
+**Siblings**:
+- [[CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Tech Stack Migration)
+- [[CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Workflow Intelligence)
+- [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Research Protocols)
+
+---
+
 1. Building infrastructure before validating concepts
 2. Elaborate schemas before understanding requirements
 3. Rigid taxonomies resisting evolution
@@ -410,3 +426,12 @@ Is knowledge static or dynamic?
 - Converted Python code to pattern descriptions and tables
 - Preserved all production-validated metrics and patterns
 - Added CANON frontmatter and hierarchy placement
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+

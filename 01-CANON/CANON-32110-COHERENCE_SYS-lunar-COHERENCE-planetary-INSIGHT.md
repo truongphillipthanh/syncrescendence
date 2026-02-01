@@ -21,6 +21,20 @@ parent: CANON-32100
 
 ## PREAMBLE: THE COHERENCE IMPERATIVE
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌙 Lunar
+
+**Parent**: [[CANON-32100-COHERENCE-planetary-INSIGHT]] (Planetary Coherence)
+
+**Siblings**:
+- [[CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT]] (Meta-Analytical Framework)
+
+---
+
 Water—the element of flow, adaptation, reciprocity—governs Planetary Coherence. Where Acumen perceives information, Coherence transforms perception into meaning. Where Efficacy catalyzes action, Coherence ensures the action aligns with deep understanding. Coherence answers: What does this mean? How do these elements belong together? What truth lives beneath appearance?
 
 The five Degrees describe mastery progression specifically within Coherence's lunar system—the deepening spiral of meaning-making competence through Recognition → Exploration → Commitment → Integration → Transmission.
@@ -405,3 +419,13 @@ The lunar system provides systematic pathway from intellectual acknowledgment (D
 *Master Schema Orthogonality Verified*  
 *Degree Framework Canonicalized*  
 *October 23, 2025*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00000-SCHEMA-cosmos]] — Master Schema
+- [[CANON-32000-INSIGHT-chain]] — Insight Chain (Chain Root)
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+

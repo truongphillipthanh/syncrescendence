@@ -25,6 +25,27 @@ chain: INSIGHT
 
 ---
 
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🔗 Chain
+
+**Parent**: [[CANON-00000-SCHEMA-cosmos]] (Syncrescendent Schema)
+
+**Siblings**:
+- [[CANON-30000-INTELLIGENCE-chain]] (Intelligence Chain)
+- [[CANON-31000-INFORMATION-chain]] (Information Chain)
+- [[CANON-33000-EXPERTISE-chain]] (Expertise Chain)
+- [[CANON-34000-KNOWLEDGE-chain]] (Knowledge Chain)
+- [[CANON-35000-WISDOM-chain]] (Wisdom Chain)
+
+**Children**:
+- [[CANON-32100-COHERENCE-planetary-INSIGHT]] — Planetary Coherence [🌍 Planetary]
+
+---
+
 ## PURPOSE
 
 The Insight Chain tracks hermeneutic sophistication development through four progressive stages, corresponding to Planetary Coherence's fluid understanding cultivation. This orbital path spirals from ontological foundations toward wisdom emergence, generating refined comprehension as energy return to the Syncrescendent Core.
@@ -176,3 +197,13 @@ The Insight Chain develops fluid understanding through four stages, contributing
 **Depth before breadth. Integration without confusion. Wisdom beyond frameworks.**
 
 *Understanding spiraling toward wisdom emergence.*
+
+---
+
+## CROSS-REFERENCES
+
+- [[CANON-00005-SYNCRESCENDENCE-cosmos]] — Syncrescendence Core
+- [[CANON-00010-OPERATIONS-cosmos]] — Operations
+- [[CANON-00006-CORPUS-cosmos]] — Corpus Management
+- [[CANON-30000-INTELLIGENCE-chain]] — Intelligence Chain (Substrate)
+
