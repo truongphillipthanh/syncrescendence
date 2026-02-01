@@ -68,17 +68,14 @@ make tree                # Generate current tree
 - Modifying state/ without validation
 
 ## Extended Thinking
-Use these triggers for complex analysis (community-aligned):
-- `think` — Standard deliberation (~4K tokens)
-- `think hard` — Moderate depth (~10K tokens)
-- `ultrathink` — Maximum depth (~32K tokens)
-- `default` — Let model self-regulate
+Extended thinking is enabled by default at 31,999 tokens (as of January 2026).
+Control thinking budget via `MAX_THINKING_TOKENS` environment variable.
 
-Use ultrathink for: architectural decisions, multi-step processing, forensic analysis.
-Use think hard for: moderate complexity, multi-step reasoning.
-Do NOT use ultrathink for: simple lookups, single-file edits, routine commits.
+Keywords like `think`, `think hard`, `ultrathink` are **cosmetic intent signals** — they do not allocate specific token budgets. They remain useful as session markers and Sovereign intent cues.
 
-**Note**: `megathink` is deprecated. Use `think hard` (community standard).
+Use extended thinking for: architectural decisions, multi-step processing, forensic analysis.
+Use Plan Mode for: complex multi-file changes requiring exploration before execution.
+Do NOT force thinking for: simple lookups, single-file edits, routine commits.
 
 ## BLITZKRIEG MODEL SPECIFICATION
 
@@ -113,12 +110,8 @@ Full protocol: `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
 
 ### Extended Thinking Specification
 
-| Level | Tokens | Use When |
-|-------|--------|----------|
-| `ultrathink` | ~32K | Architectural synthesis, complex multi-file changes |
-| `think hard` | ~10K | Moderate complexity, multi-step reasoning |
-| `think` | ~4K | Standard deliberation |
-| `default` | auto | Let model self-regulate |
+Extended thinking is auto-enabled (31,999 tokens default). Keywords are cosmetic intent signals only.
+Use Plan Mode for complex multi-file changes.
 
 ### Directive Header Format (vNext)
 
@@ -126,7 +119,7 @@ Full protocol: `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
 Lane: A | B | C
 Toolchain: claude_code | codex_cli | gemini_cli | chatgpt | other
 Model: opus-4.5 | sonnet-4.5 | haiku | <custom>
-Thinking: ultrathink | megathink | think | default
+Thinking: ultrathink | think hard | think | default
 Success_Criteria: [Measurable completion conditions]
 Inputs: [Files this lane reads]
 Outputs: [Files this lane produces]

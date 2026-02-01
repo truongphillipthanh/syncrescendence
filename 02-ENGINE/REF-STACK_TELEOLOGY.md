@@ -101,7 +101,7 @@
 
 **Open questions:**
 - [ ] How does OpenClaw use Claude Code? (Can it spawn Claude Code sessions?)
-- [ ] How does OpenClaw use Gemini CLI? (Oracle function)
+- [ ] How does OpenClaw use Gemini CLI? (SENSOR function — corpus sensing)
 - [ ] Twin coordination protocol (Opus ↔ GPT5.2)
 - [ ] Security assessment (Cisco/Checkmarx reports)
 - [ ] Lobster workflow shell — what does it enable?
