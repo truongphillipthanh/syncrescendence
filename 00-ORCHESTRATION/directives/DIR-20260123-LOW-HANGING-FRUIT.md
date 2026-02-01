@@ -21,7 +21,7 @@ outputs:
 
 ## CONTEXT
 
-Prior Gemini CLI surveys (2026-01-19, 2026-01-20) identified mechanical violations requiring no Principal judgment. These are syntax-level fixes—nomenclature, location, duplication—not semantic decisions.
+Prior Gemini CLI surveys (2026-01-19, 2026-01-20) identified mechanical violations requiring no Sovereign judgment. These are syntax-level fixes—nomenclature, location, duplication—not semantic decisions.
 
 **Philosophy**: Clear the noise so the signal becomes visible for true annealment.
 

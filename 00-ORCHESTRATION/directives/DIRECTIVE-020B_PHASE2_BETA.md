@@ -1,7 +1,7 @@
 # DIRECTIVE-020: PHASE 2 COMPLETION — STREAM BETA
 ## Metadata Rollout + Validation
 **Issued**: 2025-12-30
-**Authority**: Principal
+**Authority**: Sovereign
 **Classification**: HIGH — Phase 2 Completion
 **Execution**: Claude 3 Code Desktop
 **Status**: EXECUTED

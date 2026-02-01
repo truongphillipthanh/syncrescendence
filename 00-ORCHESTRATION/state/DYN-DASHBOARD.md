@@ -1,7 +1,8 @@
 # SYNCRESCENDENT DASHBOARD
 ## Project Management Overview
-**Generated**: 2026-01-05 (DIRECTIVE-037B)
-**Current Sprint**: Oracle9-Completion (Repository hygiene + orphan resolution)
+**Generated**: 2026-02-01 (Corpus Hygiene Sprint)
+**Current Sprint**: State Refresh + Corpus Compression
+**Fingerprint**: 006bd2e
 
 ---
 
@@ -10,9 +11,14 @@
 ```
 ORACLE ARC PROGRESS
 ═══════════════════════════════════════════════════════════════════
-Oracle 0-8: ████████████████████████████████████████ COMPLETE
-Oracle 9:   ██████████████████████████████████████░░ 95% (completing)
-Oracle 10+: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ READY
+Oracle 0-12:  ████████████████████████████████████████ COMPLETE
+Oracle 13:    ████████████████████████████████░░░░░░░░ 80% (active)
+═══════════════════════════════════════════════════════════════════
+
+CANON STATUS
+═══════════════════════════════════════════════════════════════════
+Wikilink Graph: ████████████████████████████████████████ 82/82 COMPLETE
+SN Encoding:    ████████████████████████████░░░░░░░░░░░ 53% compressed
 ═══════════════════════════════════════════════════════════════════
 ```
 
@@ -20,17 +26,18 @@ Oracle 10+: ░░░░░░░░░░░░░░░░░░░░░░�
 
 ## Initiative Status
 
-| ID | Initiative | Status | Priority | Owner | Blocked By | Modal |
-|----|------------|--------|----------|-------|------------|-------|
-| PROJ-001 | Transcript Ingestion | 🔄 In Progress | P1 | Oracle9 | null | modal1 |
-| PROJ-002 | IIC Configuration | 🚫 Blocked | P1 | Oracle10 | PROJ-001 | modal1 |
-| PROJ-003 | Tooling Stack | 🚫 Blocked | P2 | Oracle11 | PROJ-002 | modal1 |
-| PROJ-004 | Automation | 🚫 Blocked | P2 | Oracle12 | PROJ-003 | modal1 |
-| PROJ-005 | Branding | 🚫 Blocked | P3 | Oracle13 | PROJ-002 | modal1 |
-| PROJ-006 | Ontology Project | 🚫 Blocked | P1 | Oracle14 | PROJ-003 | modal1 |
-| PROJ-007 | Curriculum | 🚫 Blocked | P3 | Oracle15 | PROJ-006 | modal1 |
-| PROJ-008 | Tech Lunar Canonization | ⏸️ Not Started | P2 | TBD | null | modal1 |
-| PROJ-009 | Modal 2 Preparation | ⏸️ Not Started | P3 | TBD | null | modal2 |
+| ID | Initiative | Status | Priority | Notes |
+|----|------------|--------|----------|-------|
+| PROJ-001 | Transcript Ingestion | COMPLETE | - | 43 sources, 19 integrations |
+| PROJ-002 | IIC Configuration | ACTIVE | P1 | 60% — Acumen/Coherence done, 3 remaining |
+| PROJ-003 | Tooling Stack | NOT_STARTED | P2 | Pending tooling decisions |
+| PROJ-011 | Automation Infrastructure | COMPLETE | - | CLAUDE.md + Makefile + commands |
+| PROJ-012 | Multi-CLI Integration | IN_PROGRESS | P2 | 80% — Gemini validated, ChatGPT pending |
+| PROJ-014 | Multi-Account Sync | ACTIVE | P2 | 40% — protocol documented |
+| PROJ-016 | Skills Conversion | PARTIAL | P3 | 2/5 skills created (intentions, pedigree) |
+| PROJ-DESKTOP | Desktop Ingestion | ACTIVE | P0 | New — triage in progress |
+| PROJ-TELEOLOGY | Teleology Database | ACTIVE | P0 | New — accretion verification + stack decisions |
+| PROJ-LEXICON | Lexicon Catalog | NOT_STARTED | P0 | Rosetta Stone v1.0 complete; glossary pending |
 
 ---
 
@@ -38,105 +45,113 @@ Oracle 10+: ░░░░░░░░░░░░░░░░░░░░░░�
 
 | Status | Count |
 |--------|-------|
-| Not Started | 3 |
-| In Progress | 1 |
-| Done | 24 |
+| Done | 88 |
+| Not Started | 29 |
+| Pending | 1 |
 | Blocked | 0 |
+| **Total** | **118** |
 
-### Active Tasks
+### P0 Active Tasks (Highest Priority)
 
-| ID | Task | Status | Priority | Project | Owner |
-|----|------|--------|----------|---------|-------|
-| TASK-003 | Process remaining paradigm sources | in_progress | P1 | PROJ-001 | Claude_Code |
-| TASK-004 | Process strategic sources | not_started | P2 | PROJ-001 | Claude_Code |
-| TASK-008 | Review CONTENT_PROCESSING_QUEUE.md | not_started | P2 | PROJ-001 | Claude_Code |
-| TASK-009 | Review YOUTUBE_PROCESSING_BACKLOG.md | not_started | P2 | PROJ-001 | Claude_Code |
-
-### Recent Completions (DIRECTIVE-037B)
-
-| ID | Task | Notes |
-|----|------|-------|
-| TASK-020 | Transcript/ disposition assessment | Full redundancy confirmed |
-| TASK-021 | Delete Transcript/ directory | 316 files deleted |
-| TASK-022 | Archive historical Oracle contexts | 6 files to 04-ARCHIVE |
-| TASK-023 | Triage orchestration/state files | Coherent |
-| TASK-024 | Update project management ledgers | Complete |
+| ID | Task | Status | Project | Notes |
+|----|------|--------|---------|-------|
+| TASK-102 | Ingest Desktop/todos into DYN-TASKS | not_started | PROJ-DESKTOP | Integrate user notes |
+| TASK-103 | Desktop-wide survey | not_started | PROJ-DESKTOP | Ingestion plan + disposition tree |
+| TASK-104 | Accretion verification: Obsidian graph | not_started | PROJ-TELEOLOGY | Canon solar system coherence |
+| TASK-108 | Lexicon: catalog idiosyncratic terms | not_started | PROJ-LEXICON | Aligns with Rosetta Stone |
+| TASK-117 | IEETC: prep NEC + interview practice | not_started | PROJ-LIFE | Interview Feb 10 2026 2:15 PM |
 
 ---
 
-## Current Sprint Burndown
+## Recently Resolved (This Session)
+
+| ID | Task | Resolution |
+|----|------|------------|
+| TASK-008 | Review CONTENT_PROCESSING_QUEUE.md | SUPERSEDED: Merged into YOUTUBE_PROCESSING_BACKLOG.md |
+| TASK-009 | Review YOUTUBE_PROCESSING_BACKLOG.md | SUPERSEDED: Relocated to 02-ENGINE/queues/ |
+| TASK-037 | DIRECTIVE-040B completion gate | SUPERSEDED: PROJ-001 complete since Oracle 10 |
+| TASK-053 | Test Gemini CLI basic operations | UNBLOCKED: CLI installed at /opt/homebrew/bin/gemini |
+
+---
+
+## Blocked Projects
+
+| Project | Blocked By | Unlock Condition |
+|---------|------------|------------------|
+| PROJ-004 (Automation) | PROJ-003 | Complete tooling selection |
+| PROJ-005 (Branding) | PROJ-002 | Complete IIC configuration |
+| PROJ-006 (Ontology) | PROJ-003 | Complete tooling selection |
+| PROJ-007 (Curriculum) | PROJ-006 | Complete ontology project |
+| PROJ-015 (Browser Auto) | PROJ-014 | Complete multi-account sync |
+
+---
+
+## Dependency Graph
 
 ```
-Points Remaining
-  Day 01: ██████████████████████████████ 40
-  Day 02: ████████████████████████░░░░░░ 32
-  Day 02: ███████████████░░░░░░░░░░░░░░░ 20
-  Day 05: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5
+COMPLETED                    ACTIVE                      PIPELINE
+---------                    ------                      --------
+PROJ-001 --+---> PROJ-002 --------> PROJ-005 (blocked)
+           |     (60%)   |
+           |             +--------> PROJ-013
+           |
+PROJ-011 --+---> PROJ-003 --------> PROJ-004 (blocked)
+           |             |
+           |             +--------> PROJ-006 --> PROJ-007
+           |
+           +---> PROJ-012 --------> (platform expand)
+           |     (80%)
+           |
+           +---> PROJ-014 --------> PROJ-015 (blocked)
+                 (40%)
+
+NEW (Oracle 13)
+---------------
+PROJ-DESKTOP ------> Corpus compression
+PROJ-TELEOLOGY ----> Stack + accretion
+PROJ-LEXICON ------> Rosetta expansion
+PROJ-LIFE ---------> Interview prep (Feb 10)
 ```
 
 ---
 
-## QUEUE Status (Inbox Zero Tracking)
+## Ledger Health
 
-| Queue | Items | Status |
-|-------|-------|--------|
-| QUEUE/pending/ | 0 | ✅ CLEAR |
-| QUEUE/modal1/ | 4 | ⏳ Active work |
-| QUEUE/modal2/ | 7 | 📦 Parked |
-
-**Inbox Zero Target**: pending/ should be 0
+| Ledger | Records | Last Updated |
+|--------|---------|--------------|
+| tasks.csv | 118 | 2026-02-01 |
+| projects.csv | 17+ | 2026-01-09 |
+| sources.csv | 184 | 2026-01-08 |
 
 ---
 
-## Dependency Chain
+## Corpus Metrics
 
-```
-PROJ-001 (Transcript Ingestion)
-    ↓
-PROJ-002 (IIC Configuration)
-    ↓
-PROJ-003 (Tooling Stack) ─────→ PROJ-005 (Branding)
-    ↓
-PROJ-006 (Ontology Project)
-    ↓
-PROJ-007 (Curriculum)
-```
+| Metric | Current | Target | Gap |
+|--------|---------|--------|-----|
+| Files | ~1,440 | ~200 | 7.2x |
+| Size | ~98 MB | ~2 MB | 49x |
+| CANON files | 82 | 82 | ON TARGET |
+| SN compression | 53% | 80% | In progress |
 
 ---
 
-## METHODOLOGY SUPPORT
+## OpenClaw Status
 
-This system supports multiple methodologies:
-
-### Agile/Scrum
-- Sprints tracked in sprints.csv
-- Velocity calculated from completed points
-- Burndown chart updated daily
-
-### Kanban
-- Tasks flow: not_started → in_progress → done
-- WIP limits can be enforced via status counts
-- Blockers tracked in blocked_by field
-
-### Waterfall
-- Projects have dependencies (blocked_by)
-- Sequential phases visible in Oracle scope
-
-### PRINCE2
-- Business case in project notes
-- Stage gates at Oracle boundaries
-- Exception reporting via blockers
+| Agent | Model | Host | Status |
+|-------|-------|------|--------|
+| Ajna | Opus 4.5 | Mac mini | Active |
+| Psyche | GPT-5.2 | MacBook Air | Active |
 
 ---
 
-## UPDATE PROTOCOL
+## INTENTION FLAGS
 
-Agents MUST update after every directive:
-1. Update task status in tasks.csv
-2. Update burndown in burndown.csv
-3. Run: `python3 orchestration/scripts/update_dashboard.py`
-4. Commit changes to orchestration/state/
+- **INT-1201**: FAILED — Jan 31 revenue deadline missed. Reset pending sovereign input.
+- **INT-1202**: ACTIVE — Capitalize on capability window.
+- **INT-C003**: CAPTURED — Revenue target reset TBD.
+- **INT-C004**: CAPTURED — Corpus hygiene sprint in progress.
 
 ---
 
-*Dashboard auto-generated by update_dashboard.py*
+*Dashboard regenerated 2026-02-01 during corpus hygiene sprint.*

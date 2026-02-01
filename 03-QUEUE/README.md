@@ -6,7 +6,7 @@ This directory holds HIGH-SIGNAL artifacts awaiting CANON integration.
 ## What Belongs Here
 - Qualified claim atoms from external sensing
 - Synthesis documents ready for dissertation defense
-- High-value artifacts awaiting Principal review
+- High-value artifacts awaiting Sovereign review
 
 ## What Does NOT Belong Here
 - Raw transcripts (externalized to Google ecosystem)
@@ -15,7 +15,7 @@ This directory holds HIGH-SIGNAL artifacts awaiting CANON integration.
 
 ## Lifecycle
 1. Artifact enters via external sensing pipeline or manual import
-2. Principal reviews and qualifies
+2. Sovereign reviews and qualifies
 3. Artifact either:
    - Integrates into 01-CANON (defended)
    - Moves to 04-SOURCES (curated reference)

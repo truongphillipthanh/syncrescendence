@@ -16,7 +16,7 @@ You are Claude 3, executing Stream B of Blitzkrieg 41. You have received this di
 
 **Your mandate**: Configure MCP servers, create coordination architecture for multi-Claude execution, and build automation scripts to address the Permaculture lens failure (system not self-sustaining).
 
-**Critical understanding**: This infrastructure enables the system to operate with minimal Principal intervention. Every automation reduces relay friction exponentially.
+**Critical understanding**: This infrastructure enables the system to operate with minimal Sovereign intervention. Every automation reduces relay friction exponentially.
 
 ---
 
@@ -228,7 +228,7 @@ coordination:
       pattern: "append_only"
       description: "Ledgers use append-only pattern with row-level locking"
 
-  # Protected zones (require Principal approval)
+  # Protected zones (require Sovereign approval)
   protected:
     - "01-CANON/"
     - "00-ORCHESTRATION/oracle_contexts/"
@@ -867,7 +867,7 @@ Stream B is complete when:
 ## ANTI-PATTERNS
 
 **DO NOT**:
-- Skip MCP documentation (it's for future Principal reference)
+- Skip MCP documentation (it's for future Sovereign reference)
 - Create coordination.yaml without zone ownership
 - Make scripts without making them executable
 - Forget atomic write patterns in sync_ledgers.py
@@ -906,4 +906,4 @@ If all pass: Update PROJ-011 to `complete`, PROJ-002 to `in_progress` (now unblo
 
 ---
 
-*Permaculture lens addressed. Self-sustaining patterns established. System can operate with minimal Principal intervention.*
+*Permaculture lens addressed. Self-sustaining patterns established. System can operate with minimal Sovereign intervention.*

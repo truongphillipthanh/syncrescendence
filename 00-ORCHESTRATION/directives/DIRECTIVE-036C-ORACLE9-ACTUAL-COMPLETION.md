@@ -87,7 +87,7 @@ ls -la | head -30
 
 ## PHASE 2: VALUE EXTRACTION THEN DELETION
 
-### 2.1 Intelligence Architecture → CANON-31143
+### 2.1 Intelligence Architecture → [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
 
 ```bash
 # Extract youtube_subscription_list FIRST
@@ -165,7 +165,7 @@ rm -rf aliases/
 # If useful navigation aids, KEEP but document
 ```
 
-**Principal decision needed**: Are aliases/ providing navigation value or just cruft?
+**Sovereign decision needed**: Are aliases/ providing navigation value or just cruft?
 
 ---
 
@@ -220,7 +220,7 @@ cat > orchestration/state/ORACLE09_FINAL_STATE.md << 'EOF'
 - System prompts canonized (4 labs)
 - Model profiles indexed
 - SOURCES infrastructure operational (184 entries)
-- CANON-00017 Agentic Constitution created
+- [[CANON-00017-AGENTIC_CONSTITUTION-cosmos]] Agentic Constitution created
 
 ## Handoff for Oracle10
 - Pristine directory architecture
@@ -230,7 +230,7 @@ cat > orchestration/state/ORACLE09_FINAL_STATE.md << 'EOF'
 ## Known Deferred
 - modal2/ content (6 files) → Modal 2 phase
 - Remaining paradigm sources → Oracle10 ongoing
-- aliases/ disposition → Principal decision
+- aliases/ disposition → Sovereign decision
 EOF
 ```
 
@@ -268,7 +268,7 @@ Before declaring Oracle9 complete:
 - [ ] ASSEMBLED_SYSTEM_PROMPTS_v2.1.md → ARCHIVE/
 
 ### Value Extracted
-- [ ] youtube_subscription_list.md → CANON-31143
+- [ ] youtube_subscription_list.md → [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
 - [ ] Prompt archaeology → ARCHIVE-PROMPT-ARCHAEOLOGY.md
 
 ### Hygiene Verified
@@ -295,7 +295,7 @@ DELETED:
 - 6 root orphan files
 
 EXTRACTED:
-- youtube_subscription_list → CANON-31143
+- youtube_subscription_list → [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
 - Prompt evolution → ARCHIVE-PROMPT-ARCHAEOLOGY
 
 MOVED:

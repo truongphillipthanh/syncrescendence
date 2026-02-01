@@ -1,7 +1,7 @@
 # DIRECTIVE-026B: DELETIONS + CANONIZATION EXECUTION
 ## Claude 3 (Code Desktop) Initialization
 **Issued**: 2025-12-31
-**Authority**: Oracle7 under Principal direction
+**Authority**: Oracle7 under Sovereign direction
 **Classification**: CRITICAL — Repository Finalization
 **Parallel Stream**: Claude 2 handles scripture verification (DIRECTIVE-026A)
 
@@ -9,7 +9,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Actual Words
+### Sovereign's Actual Words
 > "Yes proceed."
 (Approving deletion manifest, canonization, queue consolidation, and scripture verification)
 
@@ -29,7 +29,7 @@ Claude 3 (DIRECTIVE-025B) completed:
 - Staged legacy files to scaffolding/
 - Did NOT delete (awaiting approval)
 
-Principal has now approved. This directive executes the approved deletions and canonizations.
+Sovereign has now approved. This directive executes the approved deletions and canonizations.
 
 ### Alternatives Considered
 1. **Keep legacy files as archive** — Rejected: Violates metabolism model ("canonize or delete")
@@ -123,7 +123,7 @@ ls "orchestration/scaffolding/tech_lunar_staging/" | grep -i frontier
 
 ## PHASE B: EXECUTE CANONIZATION
 
-### B1: Create CANON-30330 (Research Protocols)
+### B1: Create [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Research Protocols)
 
 **Source**: `orchestration/scaffolding/tech_lunar_staging/Technology Lunar - 3 Research_Protocols.md`
 
@@ -149,12 +149,12 @@ ls "orchestration/scaffolding/tech_lunar_staging/" | grep -i frontier
 **Frontmatter**:
 ```yaml
 ---
-id: CANON-30330
+id: [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
 name: Research Protocols
 identity: RESEARCH_PROTOCOLS
 tier: CANON
 type: asteroid
-parent: CANON-30300
+parent: [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]
 chain: INTELLIGENCE
 comet: TECH_STACK
 version: 2.0.0
@@ -163,8 +163,8 @@ created: 2025-12-31
 updated: 2025-12-31
 change_velocity: quarterly
 dependencies:
-  - CANON-30300
-  - CANON-30000
+  - [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]
+  - [[CANON-30000-INTELLIGENCE-chain]]
 synopsis: >
   Methodologies and quality standards for AI-augmented research,
   including the Source Triad Method, verdicting process, and
@@ -187,7 +187,7 @@ ls CANON/ | grep 30330
 rm "orchestration/scaffolding/tech_lunar_staging/Technology Lunar - 3 Research_Protocols.md"
 ```
 
-### B2: Create CANON-30340 (Implementation Patterns)
+### B2: Create [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Implementation Patterns)
 
 **Source**: `orchestration/scaffolding/tech_lunar_staging/Technology Lunar - 4 Implementation_Guide.md`
 
@@ -213,12 +213,12 @@ rm "orchestration/scaffolding/tech_lunar_staging/Technology Lunar - 3 Research_P
 **Frontmatter**:
 ```yaml
 ---
-id: CANON-30340
+id: [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
 name: Implementation Patterns
 identity: IMPLEMENTATION_PATTERNS
 tier: CANON
 type: asteroid
-parent: CANON-30300
+parent: [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]
 chain: INTELLIGENCE
 comet: TECH_STACK
 version: 2.0.0
@@ -227,9 +227,9 @@ created: 2025-12-31
 updated: 2025-12-31
 change_velocity: quarterly
 dependencies:
-  - CANON-30300
-  - CANON-30330
-  - CANON-30000
+  - [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]
+  - [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
+  - [[CANON-30000-INTELLIGENCE-chain]]
 synopsis: >
   Practical patterns for AI system implementation, including
   memory bootstrapping phases, orchestration patterns, context
@@ -311,7 +311,7 @@ Technology Lunar - Screenplay Formatting - validation.md (4.5K)
 This content becomes actionable when:
 1. Modal 2 capabilities mature (visual simulation)
 2. Video generation tools reach production quality
-3. Principal initiates visual production workflow
+3. Sovereign initiates visual production workflow
 
 ---
 ```
@@ -345,7 +345,7 @@ rm "orchestration/scaffolding/tech_lunar_staging/Technology Lunar - Screenplay F
 
 ### D1: Add New Canonical Files to Aliases
 
-After creating CANON-30330 and CANON-30340:
+After creating [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] and [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]]:
 
 ```bash
 # Add to chains alias
@@ -458,7 +458,7 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-026B.md`:
 
 ## Phase B: Canonization
 
-### B1: CANON-30330 (Research Protocols)
+### B1: [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Research Protocols)
 - Source: Technology Lunar - 3 Research_Protocols.md
 - Target: CANON/CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md
 - Original size: 31K
@@ -466,7 +466,7 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-026B.md`:
 - Compression: [Y]%
 - Status: ✓ COMPLETE
 
-### B2: CANON-30340 (Implementation Patterns)
+### B2: [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (Implementation Patterns)
 - Source: Technology Lunar - 4 Implementation_Guide.md
 - Target: CANON/CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md
 - Original size: 43K
@@ -489,8 +489,8 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-026B.md`:
 
 ## Phase D: Aliases
 
-- CANON-30330 added to aliases/chains/ and aliases/chains/intelligence/
-- CANON-30340 added to aliases/chains/ and aliases/chains/intelligence/
+- [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] added to aliases/chains/ and aliases/chains/intelligence/
+- [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] added to aliases/chains/ and aliases/chains/intelligence/
 - Status: ✓ COMPLETE
 
 ---
@@ -508,8 +508,8 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-026B.md`:
 |-------|--------|
 | Legacy prompts deleted | ✓ |
 | FrontierModels deleted | ✓ |
-| CANON-30330 created | ✓ |
-| CANON-30340 created | ✓ |
+| [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] created | ✓ |
+| [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] created | ✓ |
 | QUEUE-36200 created | ✓ |
 | Aliases updated | ✓ |
 | Staging cleaned | ✓ |
@@ -544,7 +544,7 @@ None
 
 ---
 
-## Ready for Principal Review: ✓
+## Ready for Sovereign Review: ✓
 ```
 
 ---
@@ -578,8 +578,8 @@ Per 18 lenses:
 
 Claude 2 (DIRECTIVE-026A) performs scripture verification in parallel.
 
-After you complete this directive, CANON-00006 (Corpus) will need updates to reflect:
-- CANON-30330 and CANON-30340 added
+After you complete this directive, [[CANON-00006-CORPUS-cosmos]] (Corpus) will need updates to reflect:
+- [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] and [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] added
 - QUEUE-36200 created
 - 15 files deleted
 

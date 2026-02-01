@@ -140,7 +140,7 @@ ls orchestration/scaffolding/tech_lunar_staging/
 This execution implements:
 
 1. **Oracle4 metabolism model** — Files either canonical or deleted; no archive hoarding
-2. **Oracle5-6 GENESIS canonization** — GENESIS-000 through 003 → CANON-00001 through 00004 (already complete)
+2. **Oracle5-6 GENESIS canonization** — GENESIS-000 through 003 → [[CANON-00001-ORIGIN-cosmos]] through 00004 (already complete)
 3. **Oracle5-6 cosmos renumbering** — Syncrescendence at 00005, sequence through 00014 (already complete)
 4. **Oracle6 flat hierarchy with aliases** — All CANON at same level (verified: 71 files)
 5. **Oracle7 documentation protocol** — ORACLE_CONTEXT.md at root for directive inclusion
@@ -148,7 +148,7 @@ This execution implements:
 
 ---
 
-## PRINCIPAL'S MANDATE COMPLIANCE
+## SOVEREIGN'S MANDATE COMPLIANCE
 
 | Mandate | Status |
 |---------|--------|

@@ -1,7 +1,7 @@
 # DIRECTIVE-017: HOLISTIC RECONCEPTION
 ## Comprehensive Assessment and Roadmap for Oracle5
 **Issued**: 2025-12-30
-**Authority**: Oracle5 (Principal)
+**Authority**: Oracle5 (Sovereign)
 **Classification**: STRATEGIC — Framework Reconception
 **Status**: EXECUTED (Assessment Complete, Execution in DIRECTIVE-018)
 
@@ -78,7 +78,7 @@ EXEMPLA/     ← NEW: Demonstrations (examples, case studies)
 
 ### Phase 2: Execution (Future)
 - Create archives from distillation
-- Create CANON-30400 (Agentic Architecture)
+- Create [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
 - Roll out metadata
 - Validate cross-references
 

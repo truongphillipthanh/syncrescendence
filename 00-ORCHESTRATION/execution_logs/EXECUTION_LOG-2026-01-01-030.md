@@ -29,7 +29,7 @@ Message: Pre-DIRECTIVE-030 checkpoint
 
 ### Phase B: Targeted Corrections
 
-#### Correction 1: Duplicate Paragraph Removal (CANON-00005)
+#### Correction 1: Duplicate Paragraph Removal ([[CANON-00005-SYNCRESCENDENCE-cosmos]])
 
 **Before**:
 ```
@@ -49,25 +49,25 @@ $ grep -c "The Core Expansion Trajectory" CANON-00005-SYNCRESCENDENCE-cosmos.md
 1
 ```
 
-#### Correction 2: Cross-Reference Syntax (CANON-00012)
+#### Correction 2: Cross-Reference Syntax ([[CANON-00012-MODAL_SEQUENCE-cosmos]])
 
 **Before**:
 ```
-**Dependencies**: CANON-00005 Syncrescendence), CANON-00009 Strategy), all chain artifacts
+**Dependencies**: [[CANON-00005-SYNCRESCENDENCE-cosmos]] Syncrescendence), [[CANON-00009-STRATEGY-cosmos]] Strategy), all chain artifacts
 ```
 
 **After**:
 ```
-**Dependencies**: CANON-00005 (Syncrescendence), CANON-00009 (Strategy), all chain artifacts
+**Dependencies**: [[CANON-00005-SYNCRESCENDENCE-cosmos]] (Syncrescendence), [[CANON-00009-STRATEGY-cosmos]] (Strategy), all chain artifacts
 ```
 
 **Verification**:
 ```bash
-$ grep "CANON-00005 (Syncrescendence)" CANON-00012-MODAL_SEQUENCE-cosmos.md
-**Dependencies**: CANON-00005 (Syncrescendence), CANON-00009 (Strategy), all chain artifacts
+$ grep "[[CANON-00005-SYNCRESCENDENCE-cosmos]] (Syncrescendence)" CANON-00012-MODAL_SEQUENCE-cosmos.md
+**Dependencies**: [[CANON-00005-SYNCRESCENDENCE-cosmos]] (Syncrescendence), [[CANON-00009-STRATEGY-cosmos]] (Strategy), all chain artifacts
 ```
 
-#### Correction 3: Vestigial Terminology (CANON-00005)
+#### Correction 3: Vestigial Terminology ([[CANON-00005-SYNCRESCENDENCE-cosmos]])
 
 **Before** (Line 979):
 ```
@@ -172,9 +172,9 @@ Files changed: 13
 
 ---
 
-## ITEMS NOT IN SCOPE (Flagged for Principal)
+## ITEMS NOT IN SCOPE (Flagged for Sovereign)
 
-Per directive specification, the following require Principal decision:
+Per directive specification, the following require Sovereign decision:
 
 1. Modal 1 Timeline (currently ends 2026)
 2. Model Reference Updates (GPT-4+, Claude 3+)

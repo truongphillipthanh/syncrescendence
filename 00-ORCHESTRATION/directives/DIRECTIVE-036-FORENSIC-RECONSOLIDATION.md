@@ -3,7 +3,7 @@
 
 **Issued**: 2026-01-02
 **Oracle Phase**: 9 → Completion
-**Principal Mandate**: "Ruthless reconsolidation and culling must occur, after we have extracted all value"
+**Sovereign Mandate**: "Ruthless reconsolidation and culling must occur, after we have extracted all value"
 
 ---
 
@@ -53,19 +53,19 @@ For each directory:
 ### A.3 Specific Audit Instructions
 
 **remnants/:**
-- `syncrescendence_convergence.md` - likely exploratory; check for unique insights vs CANON-00001
+- `syncrescendence_convergence.md` - likely exploratory; check for unique insights vs [[CANON-00001-ORIGIN-cosmos]]
 - `evaluation/` subdirectory - may contain useful methodology
 
 **intelligence architecture/:**
-- Already partially addressed in 034A (macroscopic_narratives → CANON-00015)
+- Already partially addressed in 034A (macroscopic_narratives → [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]])
 - `meta_narrative_and_perspectival_schemas.md` (35K) - verify if absorbed
-- `constitution.md`, `operational_engine.md` - check vs CANON-00006
-- `youtube_subscription_list.md` - operational; integrate into CANON-31143
+- `constitution.md`, `operational_engine.md` - check vs [[CANON-00006-CORPUS-cosmos]]
+- `youtube_subscription_list.md` - operational; integrate into [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
 
 **Transcendence/:**
-- `monotheism/`, `nontheism/`, `metaphysicalism/` (21 files) - check vs CANON-35210
-- `Profile/Autopsychography` - check vs Principal's cognitive profile in prompts
-- `way of life code of conduct/` - check vs CANON-35110
+- `monotheism/`, `nontheism/`, `metaphysicalism/` (21 files) - check vs [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]]
+- `Profile/Autopsychography` - check vs Sovereign's cognitive profile in prompts
+- `way of life code of conduct/` - check vs [[CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM]]
 
 **0-prompts/:**
 - Historical prompt archaeology
@@ -82,11 +82,11 @@ The uploaded `gemini_conversation.md` contains **high-value strategic content**:
 
 | Section | Content | Integration Target |
 |---------|---------|-------------------|
-| Bitter Lesson Reframe | Factory → Governance pivot | CANON-00006 (Operations) |
-| Fragile vs Antifragile Components | Taxonomy of system elements | CANON-30400 (Agentic) |
-| Constitutional Synthesis | Grok/Opus dialectic resolution | CANON-31140 (IIC) |
-| ASIA Constitution Draft | Federation mandate, DIKW | CANON-00001 supplement |
-| Acumen State Charter | Dual-stream, qualification mandate | CANON-31100 (Acumen) |
+| Bitter Lesson Reframe | Factory → Governance pivot | [[CANON-00006-CORPUS-cosmos]] (Operations) |
+| Fragile vs Antifragile Components | Taxonomy of system elements | [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic) |
+| Constitutional Synthesis | Grok/Opus dialectic resolution | [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC) |
+| ASIA Constitution Draft | Federation mandate, DIKW | [[CANON-00001-ORIGIN-cosmos]] supplement |
+| Acumen State Charter | Dual-stream, qualification mandate | [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Acumen) |
 
 ### B.2 Key Insights to Extract
 
@@ -113,12 +113,12 @@ The uploaded `gemini_conversation.md` contains **high-value strategic content**:
    - Antifragile & Economic Mandate
    - Inter-Agent Protocol
 
-2. Update `CANON-31100` (Acumen) with:
+2. Update `[[CANON-31100-ACUMEN-planetary-INFORMATION]]` (Acumen) with:
    - Dual-Stream Architecture reference
    - Qualification Mandate formalization
    - Reflexivity (CI/CD Loop) protocol
 
-3. Update `CANON-31140` (IIC Constellation) with:
+3. Update `[[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]]` (IIC Constellation) with:
    - Constitutional Federalism language
    - State sovereignty + delegation model
 
@@ -199,7 +199,7 @@ ARCHIVE/
 
 ### D.1 Current State Analysis
 
-From Principal's observation:
+From Sovereign's observation:
 > "Most of them, if in .md are already transcribed. Very few 'raw' transcripts lack 'processed' counterparts. The reverse might not be true."
 
 **Interpretation:**
@@ -235,7 +235,7 @@ From 035B:
 - `QUEUE/modal1/` = 4 files
 - `QUEUE/modal2/` = 7 files
 
-### E.2 Principal's Question
+### E.2 Sovereign's Question
 
 > "What are we doing with the queue? Integrating them? Manifesting them into apparatuses?"
 
@@ -335,7 +335,7 @@ iic_assignment: "Oracle synthesis, strategic sessions"
 
 ### F.5 Integration with IIC Constellation
 
-Link profiles to CANON-31141 (Five Account Architecture):
+Link profiles to [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Five Account Architecture):
 - Map recommended models per account/function
 - Document capability requirements per chain
 - Enable dynamic model selection based on task
@@ -349,7 +349,7 @@ Link profiles to CANON-31141 (Five Account Architecture):
 | Step | Phase | Deliverables |
 |------|-------|--------------|
 | 1 | B | Create CANON-00017-AGENTIC_CONSTITUTION |
-| 2 | B | Update CANON-31100 with Acumen Charter |
+| 2 | B | Update [[CANON-31100-ACUMEN-planetary-INFORMATION]] with Acumen Charter |
 | 3 | C | Create ARCHIVE-SYSTEM-PROMPT-ARCHAEOLOGY |
 | 4 | C | Create canonical/ prompt directory |
 | 5 | C | Move old prompts to archive |
@@ -380,8 +380,8 @@ Link profiles to CANON-31141 (Five Account Architecture):
 
 ### Gemini Ingestion
 - [ ] CANON-00017-AGENTIC_CONSTITUTION created
-- [ ] CANON-31100 updated with dual-stream architecture
-- [ ] Source file deleted after Principal confirms integration
+- [ ] [[CANON-31100-ACUMEN-planetary-INFORMATION]] updated with dual-stream architecture
+- [ ] Source file deleted after Sovereign confirms integration
 
 ### System Prompts
 - [ ] 4 canonical prompts in OPERATIONAL/prompts/canonical/
@@ -440,8 +440,8 @@ PHASE A: Remnants audit
 
 PHASE B: Gemini conversation ingestion
 - Created CANON-00017-AGENTIC_CONSTITUTION
-- Updated CANON-31100 with dual-stream architecture
-- Updated CANON-31140 with federalist model
+- Updated [[CANON-31100-ACUMEN-planetary-INFORMATION]] with dual-stream architecture
+- Updated [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] with federalist model
 
 PHASE C: System prompt canonization
 - Created OPERATIONAL/prompts/canonical/ (4 prompts)
@@ -479,7 +479,7 @@ METRICS:
 2. **Verification before deletion** — 18-lens evaluation mandatory
 3. **Organizational hygiene** — pristine architecture maintained
 4. **Fresh-agent test** — 2 decisions to any file
-5. **Principal is bottleneck** — comprehensive directives, parallel execution
+5. **Sovereign is bottleneck** — comprehensive directives, parallel execution
 
 ---
 

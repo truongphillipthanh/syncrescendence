@@ -68,8 +68,8 @@ workflows) expected 2027-2028 as toolchains mature.
 
 | File | Before | After |
 |------|--------|-------|
-| CANON-00005 Line 78 | As of November 2025 | As of January 2026 |
-| CANON-00000 Line 159 | As of November 2025 | As of January 2026 |
+| [[CANON-00005-SYNCRESCENDENCE-cosmos]] Line 78 | As of November 2025 | As of January 2026 |
+| [[CANON-00000-SCHEMA-cosmos]] Line 159 | As of November 2025 | As of January 2026 |
 
 ### Oracle 6-8 Documentation Added to CANON-00004-EVOLUTION
 
@@ -150,7 +150,7 @@ Files changed: 12
 - [x] All Tier 1 model references updated (cosmos tier)
 - [x] Modal 2 acknowledgment added
 - [x] Date anchors updated to January 2026
-- [x] Oracle 6-8 documentation added to CANON-00004
+- [x] Oracle 6-8 documentation added to [[CANON-00004-EVOLUTION-cosmos]]
 - [x] NVIDIA valuation adjusted
 - [x] Tier 5 tactical updates complete
 - [x] Verification greps pass (acceptable residuals documented)

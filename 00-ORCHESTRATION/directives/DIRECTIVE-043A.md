@@ -2,7 +2,7 @@
 ## Stream A — Claude 2 (Alpha)
 
 **Issued**: 2026-01-11
-**Authority**: Oracle 12 under Principal direction
+**Authority**: Oracle 12 under Sovereign direction
 **Stream**: A (Claude 2)
 **Priority**: P0 — Strategic Architecture
 **Estimated Duration**: 60-90 minutes
@@ -12,7 +12,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Actual Words
+### Sovereign's Actual Words
 > "Claude Code wielded by Claude Opus 4.5 represents a seismic step change. I have experienced it for myself. We are retaining all 3 Claude Pro accounts for the rest of this month... design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid."
 
 > "It's imperative we capitalize on these heavy machinery to construct as much of the Syncrescendence and match pace, as it's only going to accelerate from here."
@@ -36,7 +36,7 @@ Create new canonical document specifying the 5-platform architecture:
 
 ```markdown
 ---
-canon_id: CANON-25200
+canon_id: [[CANON-25200-CONSTELLATION_ARCH-lattice]]
 title: Platform Constellation Architecture
 tier: lattice
 chain: Memory Architecture
@@ -52,7 +52,7 @@ cross_refs:
 synopsis: Specification for multi-platform AI orchestration across 5 accounts
 ---
 
-# CANON-25200: PLATFORM CONSTELLATION ARCHITECTURE
+# [[CANON-25200-CONSTELLATION_ARCH-lattice]]: PLATFORM CONSTELLATION ARCHITECTURE
 
 ## I. OVERVIEW
 
@@ -123,7 +123,7 @@ Goal: Accounts self-sustaining by month-end (2026-01-31)
 
 ### Task 1.2: Update CANON-25100-CONTEXT_TRANS with Oracle Pedigree
 
-Add new section to existing CANON-25100:
+Add new section to existing [[CANON-25100-CONTEXT_TRANS-lattice]]:
 
 ```markdown
 ## ORACLE PEDIGREE PROTOCOL
@@ -137,7 +137,7 @@ As work moves from web app to repository, traditional handoff documents become l
 ### Pedigree Components
 - **Thread ID**: Oracle number (e.g., Oracle 12)
 - **Campaign/Phase**: Strategic context (e.g., Campaign Phase 2: Architecture)
-- **Decisions Made**: Enumerated with Principal's words, rationale, 18-lens score
+- **Decisions Made**: Enumerated with Sovereign's words, rationale, 18-lens score
 - **Artifacts Produced**: Files created/modified
 - **Handoff State**: What next Oracle needs to know
 
@@ -158,7 +158,7 @@ Pedigree supersedes handoff for:
 ## PHASE 2: INTENTION ARCHAEOLOGY COMPASS
 **Duration**: ~30 minutes
 
-### Principal's Words
+### Sovereign's Words
 > "The intention archaeology compass should be unified. All intentions are compounding vectors that are interdependent... In essence, it's a cache, but it's also a rolling snapshot."
 
 ### Task 2.1: Create ARCH-INTENTION_COMPASS.md
@@ -184,7 +184,7 @@ Each intention entry contains:
   category: [urgent|sprint|backlog|pattern|capture]
   priority: [P0|P1|P2|P3]
   status: [active|resolved|superseded|deferred]
-  text: "[Principal's actual words]"
+  text: "[Sovereign's actual words]"
   interpretation: "[Oracle's understanding]"
   blocked_by: [null|dependency]
   integrated_into: [null|CANON/task/decision]
@@ -227,7 +227,7 @@ Each intention entry contains:
 
 ## INTEGRATION PROTOCOL
 
-1. **Extraction**: During Oracle session, Principal's intentions captured verbatim
+1. **Extraction**: During Oracle session, Sovereign's intentions captured verbatim
 2. **Categorization**: Oracle assigns category and priority
 3. **Tracking**: Compass updated as intentions resolve or evolve
 4. **Archaeology**: Historical intentions preserved for pattern analysis
@@ -314,8 +314,8 @@ PROJ-012,ChatGPT Plus Onboarding,initiative,not_started,P1,Oracle12,null,12,moda
 Add tasks for this directive:
 
 ```csv
-TASK-050,PROJ-012,Create CANON-25200 Constellation Architecture,canon,in_progress,P0,Claude_Code_2,null,1.0,null,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 1
-TASK-051,PROJ-012,Update CANON-25100 with Oracle Pedigree,canon,in_progress,P0,Claude_Code_2,TASK-050,0.5,null,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 1
+TASK-050,PROJ-012,Create [[CANON-25200-CONSTELLATION_ARCH-lattice]] Constellation Architecture,canon,in_progress,P0,Claude_Code_2,null,1.0,null,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 1
+TASK-051,PROJ-012,Update [[CANON-25100-CONTEXT_TRANS-lattice]] with Oracle Pedigree,canon,in_progress,P0,Claude_Code_2,TASK-050,0.5,null,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 1
 TASK-052,PROJ-012,Create ARCH-INTENTION_COMPASS.md,architecture,in_progress,P0,Claude_Code_2,null,1.0,null,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 2
 TASK-053,PROJ-012,Update coordination.yaml,infrastructure,in_progress,P1,Claude_Code_2,null,0.25,null,2026-01-11,2026-01-11,DIRECTIVE-043A Phase 3
 ```
@@ -356,7 +356,7 @@ Create `EXECUTION_LOG-2026-01-11-043A.md`:
 | File | Status | Lines | Notes |
 |------|--------|-------|-------|
 | CANON-25200-CONSTELLATION_ARCH-lattice.md | [status] | [count] | |
-| CANON-25100 update | [status] | [lines added] | Oracle Pedigree section |
+| [[CANON-25100-CONTEXT_TRANS-lattice]] update | [status] | [lines added] | Oracle Pedigree section |
 | ARCH-INTENTION_COMPASS.md | [status] | [count] | |
 | coordination.yaml | [status] | [lines changed] | |
 
@@ -380,8 +380,8 @@ Total: [minutes]
 ## SUCCESS CRITERIA
 
 This directive is complete when:
-- [ ] CANON-25200 exists with full constellation specification
-- [ ] CANON-25100 includes Oracle Pedigree section
+- [ ] [[CANON-25200-CONSTELLATION_ARCH-lattice]] exists with full constellation specification
+- [ ] [[CANON-25100-CONTEXT_TRANS-lattice]] includes Oracle Pedigree section
 - [ ] ARCH-INTENTION_COMPASS.md exists with schema and initial extraction
 - [ ] coordination.yaml includes ChatGPT configuration
 - [ ] projects.csv includes PROJ-012

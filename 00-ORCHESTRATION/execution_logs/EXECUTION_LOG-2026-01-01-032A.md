@@ -238,7 +238,7 @@ aliases/sources/
 
 1. **Archive was pre-extracted**: The `transcripts.zip` had already been extracted to `transcripts/` at repository root. Execution adapted by moving contents rather than extracting.
 
-2. **Existing categorization preserved**: The raw files contain an existing hierarchical categorization (by source type, topic area). This represents Principal's prior organization work and should inform triage decisions.
+2. **Existing categorization preserved**: The raw files contain an existing hierarchical categorization (by source type, topic area). This represents Sovereign's prior organization work and should inform triage decisions.
 
 3. **Mixed file formats**: Both .md (69) and .txt (165) files present. The .txt files appear to be raw transcripts, .md files may have some prior processing.
 

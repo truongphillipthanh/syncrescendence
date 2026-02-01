@@ -191,7 +191,7 @@ coordination:
       content_processing: think
       verification_tasks: default
 
-  # Protected zones (require Principal approval)
+  # Protected zones (require Sovereign approval)
   protected:
     - "01-CANON/"
     - "00-ORCHESTRATION/oracle_contexts/"

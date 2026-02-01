@@ -1,7 +1,7 @@
 # DIRECTIVE-032A: INTELLIGENCE APPARATUS INFRASTRUCTURE
 ## Stream A: Directory Structure, Archive Extraction, Schema Installation
 **Issued**: 2026-01-01
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Intelligence Apparatus Foundation
 **Execution**: Claude Code (Desktop)
 **Parallel Stream**: Oracle/Desktop handles protocol documentation (DIRECTIVE-032B)
@@ -10,7 +10,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Mandate
+### Sovereign's Mandate
 
 > "Before we jump the gun and ingest, let's mise en place an MVP intelligence apparatus first, knowing that the ingestion of this new material will only strengthen our thesis."
 
@@ -33,7 +33,7 @@ This directive establishes the **physical substrate** for the intelligence appar
 
 1. **Process transcripts directly into CANON** — Rejected: Sources are INPUT, not OUTPUT
 2. **Create complex folder hierarchy** — Rejected: Violates flat principle
-3. **Defer infrastructure, triage manually** — Rejected: Principal mandated "mise en place"
+3. **Defer infrastructure, triage manually** — Rejected: Sovereign mandated "mise en place"
 4. **Flat + naming + metadata + aliases** — CHOSEN: Proven pattern from CANON/
 
 ### Rationale (18-Lens Evaluation)
@@ -162,7 +162,7 @@ SOURCES/
 
 ## Relationship to Other Tiers
 
-- **SOURCES** = External intelligence INPUT (not authored by Principal)
+- **SOURCES** = External intelligence INPUT (not authored by Sovereign)
 - **CANON** = Authored synthesis OUTPUT
 - **QUEUE** = Pending work items
 
@@ -266,7 +266,7 @@ ls -la SOURCES/
 
 ### C1: Locate and Extract Archive
 
-**Note**: The archive path depends on how Principal provides it. Adjust as needed.
+**Note**: The archive path depends on how Sovereign provides it. Adjust as needed.
 
 ```bash
 # If archive is at repository root or known location:

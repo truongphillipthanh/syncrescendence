@@ -167,7 +167,7 @@ Decision 1: Which numbered directory?
   00-CANON, 01-OPERATIONAL, 02-QUEUE, 03-SOURCES, 04-ARCHIVE, 05-EXEMPLA, orchestration
 
 Decision 2: Which file/subdirectory?
-  Example: 00-CANON → CANON-30400... → FOUND
+  Example: 00-CANON → [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]... → FOUND
   Example: orchestration → state/ → DASHBOARD.md → FOUND
 
 PASSED: All content accessible in ≤2 decisions

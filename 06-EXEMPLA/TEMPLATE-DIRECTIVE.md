@@ -27,7 +27,7 @@ selection_rationale: |
 - requires_completion_of: [prerequisites]
 - blocks: [downstream work]
 
-### Principal Checkpoints
+### Sovereign Checkpoints
 - [ ] Reviewed decision rationale
 - [ ] Confirmed assumptions still valid
 - [ ] Approved for execution

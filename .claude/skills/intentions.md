@@ -9,7 +9,7 @@
 
 ## PURPOSE
 
-Extract, categorize, and track Principal intentions during Oracle sessions. Ensures nothing falls through cracks and maintains continuity across sessions.
+Extract, categorize, and track Sovereign intentions during Oracle sessions. Ensures nothing falls through cracks and maintains continuity across sessions.
 
 ---
 
@@ -17,8 +17,8 @@ Extract, categorize, and track Principal intentions during Oracle sessions. Ensu
 
 Trigger this skill when:
 - Starting a new Oracle session (extract from previous session artifacts)
-- Principal expresses desires, requirements, or frustrations
-- Principal uses indicative language: "we should", "I want", "don't forget", "make sure"
+- Sovereign expresses desires, requirements, or frustrations
+- Sovereign uses indicative language: "we should", "I want", "don't forget", "make sure"
 - Session is ending (consolidate captured intentions)
 - Reviewing previous Oracle transcripts
 
@@ -74,7 +74,7 @@ Update `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md`:
   category: [urgent|sprint|backlog|pattern|capture]
   priority: [P0|P1|P2|P3]
   status: [active|resolved|superseded|deferred]
-  text: "[Principal's actual words or close paraphrase]"
+  text: "[Sovereign's actual words or close paraphrase]"
   interpretation: "[Your understanding of intent]"
   blocked_by: [null|dependency]
   integrated_into: [null|reference]
@@ -95,7 +95,7 @@ During session, use abbreviated format:
 
 ### Good Extraction
 
-Principal says: "We really need to get these accounts self-sustaining by the end of the month, and I'm worried we're not moving fast enough."
+Sovereign says: "We really need to get these accounts self-sustaining by the end of the month, and I'm worried we're not moving fast enough."
 
 **Extraction**:
 ```yaml
@@ -106,7 +106,7 @@ Principal says: "We really need to get these accounts self-sustaining by the end
   status: active
   text: "accounts become self-sustaining by month end"
   interpretation: "Revenue generation deadline 2026-01-31"
-  notes: "Principal expressed urgency and concern about velocity"
+  notes: "Sovereign expressed urgency and concern about velocity"
 ```
 
 ### Good Resolution
@@ -127,7 +127,7 @@ When intention is addressed:
 
 1. **Over-capturing**: Not every statement is an intention. Focus on actionable desires.
 
-2. **Losing verbatim**: Don't paraphrase beyond recognition. Principal's words matter.
+2. **Losing verbatim**: Don't paraphrase beyond recognition. Sovereign's words matter.
 
 3. **Category confusion**: "Urgent" means NOW, not just important. Most things are sprint or backlog.
 

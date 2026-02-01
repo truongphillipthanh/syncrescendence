@@ -19,30 +19,30 @@ ls /Users/home/Desktop/syncrescendence/CANON/CANON-*.md | wc -l
 
 ### Key File Verification
 
-**CANON-00012 = Modal Sequence** ✓
+**[[CANON-00012-MODAL_SEQUENCE-cosmos]] = Modal Sequence** ✓
 ```
-id: CANON-00012
+id: [[CANON-00012-MODAL_SEQUENCE-cosmos]]
 name: Modal Sequence Architecture
 identity: MODAL_SEQUENCE
 ```
 
-**CANON-00008 = Resolutions** ✓
+**[[CANON-00008-RESOLUTIONS-cosmos]] = Resolutions** ✓
 ```
-id: CANON-00008
+id: [[CANON-00008-RESOLUTIONS-cosmos]]
 name: Syncrescendent Resolutions
 identity: RESOLUTIONS
 ```
 
-**CANON-00001 = Origin** ✓
+**[[CANON-00001-ORIGIN-cosmos]] = Origin** ✓
 ```
-id: CANON-00001
+id: [[CANON-00001-ORIGIN-cosmos]]
 name: The Founding Moment
 identity: ORIGIN
 ```
 
-**CANON-00005 = Syncrescendence** ✓
+**[[CANON-00005-SYNCRESCENDENCE-cosmos]] = Syncrescendence** ✓
 ```
-id: CANON-00005
+id: [[CANON-00005-SYNCRESCENDENCE-cosmos]]
 name: Syncrescendence
 identity: SYNCRESCENDENCE
 ```
@@ -56,7 +56,7 @@ identity: SYNCRESCENDENCE
 #### Correction 1: CANON-00010-OPERATIONS Line 237
 | Before | After |
 |--------|-------|
-| `**For complete Modal Sequence architecture**: CANON-00008` | `**For complete Modal Sequence architecture**: CANON-00012` |
+| `**For complete Modal Sequence architecture**: [[CANON-00008-RESOLUTIONS-cosmos]]` | `**For complete Modal Sequence architecture**: [[CANON-00012-MODAL_SEQUENCE-cosmos]]` |
 
 **Status**: APPLIED ✓
 
@@ -77,7 +77,7 @@ identity: SYNCRESCENDENCE
 #### Correction 4: CANON-00008-RESOLUTIONS Line 969
 | Before | After |
 |--------|-------|
-| `Modal Sequence (CANON-00008) added throughout` | `Modal Sequence (CANON-00012) added throughout` |
+| `Modal Sequence ([[CANON-00008-RESOLUTIONS-cosmos]]) added throughout` | `Modal Sequence ([[CANON-00012-MODAL_SEQUENCE-cosmos]]) added throughout` |
 
 **Status**: APPLIED ✓
 
@@ -90,22 +90,22 @@ identity: SYNCRESCENDENCE
 #### Foundation Layer (Lines 287-290)
 | Before | After |
 |--------|-------|
-| `CANON-00001` / `(Syncrescendent Core)` | `CANON-00005` / `(Syncrescendence)` |
-| `CANON-00008` / `(Energy States)` | `CANON-00012` / `(Modal Sequence)` |
+| `[[CANON-00001-ORIGIN-cosmos]]` / `(Syncrescendent Core)` | `[[CANON-00005-SYNCRESCENDENCE-cosmos]]` / `(Syncrescendence)` |
+| `[[CANON-00008-RESOLUTIONS-cosmos]]` / `(Energy States)` | `[[CANON-00012-MODAL_SEQUENCE-cosmos]]` / `(Modal Sequence)` |
 
 **Status**: APPLIED ✓
 
 #### Meta-Systemic Layer (Lines 321-322)
 | Before | After |
 |--------|-------|
-| `CANON-00008` / `(Modal Sequence)` / `(Production)` | `CANON-00012` / `(Modal Sequence)` / `(Evaluation)` |
+| `[[CANON-00008-RESOLUTIONS-cosmos]]` / `(Modal Sequence)` / `(Production)` | `[[CANON-00012-MODAL_SEQUENCE-cosmos]]` / `(Modal Sequence)` / `(Evaluation)` |
 
 **Status**: APPLIED ✓
 
 #### Critical Path Section (Lines 349-350)
 | Before | After |
 |--------|-------|
-| `**CANON-00008: Energy States** (20 minutes)` | `**CANON-00012: Modal Sequence** (20 minutes)` |
+| `**[[CANON-00008-RESOLUTIONS-cosmos]]: Energy States** (20 minutes)` | `**[[CANON-00012-MODAL_SEQUENCE-cosmos]]: Modal Sequence** (20 minutes)` |
 | `Daily energy tracking and tier-down protocols` | `Technology-aligned strategic progression` |
 
 **Status**: APPLIED ✓
@@ -117,7 +117,7 @@ identity: SYNCRESCENDENCE
 #### Correction 6: CANON-00006-CORPUS Line 1438
 | Before | After |
 |--------|-------|
-| `"What is Syncrescendence?" → CANON-00009, CANON-00001` | `"What is Syncrescendence?" → CANON-00009, CANON-00005` |
+| `"What is Syncrescendence?" → [[CANON-00009-STRATEGY-cosmos]], [[CANON-00001-ORIGIN-cosmos]]` | `"What is Syncrescendence?" → [[CANON-00009-STRATEGY-cosmos]], [[CANON-00005-SYNCRESCENDENCE-cosmos]]` |
 
 **Status**: APPLIED ✓
 
@@ -137,7 +137,7 @@ identity: SYNCRESCENDENCE
 All verification greps return empty (no stale references):
 
 ```bash
-grep -l "CANON-00008.*Modal" *.md
+grep -l "[[CANON-00008-RESOLUTIONS-cosmos]].*Modal" *.md
 # NO MATCHES (expected)
 
 grep -l "17 CANON" *.md
@@ -146,7 +146,7 @@ grep -l "17 CANON" *.md
 grep -l "28 Core CANON" *.md
 # NO MATCHES (expected)
 
-grep "CANON-00001.*Syncrescen" *.md
+grep "[[CANON-00001-ORIGIN-cosmos]].*Syncrescen" *.md
 # NO MATCHES (expected)
 ```
 

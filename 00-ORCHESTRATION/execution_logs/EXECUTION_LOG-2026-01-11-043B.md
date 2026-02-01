@@ -18,7 +18,7 @@
 **Total**: 4,088 lines of research archived with proper frontmatter
 
 **Assessment Notes**:
-- cognitive_profile.md contains Principal-specific cognitive architecture; cross-referenced to CANON-35120
+- cognitive_profile.md contains Sovereign-specific cognitive architecture; cross-referenced to [[CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]]
 - frontier_models.md is temporal (Q1 2026); archived with warning about expiration
 - platform_features.md is temporal; archived with warning
 - STRATEGIC_RECONNAISSANCE_REPORT.md synthesizes all three; archived as comprehensive reference

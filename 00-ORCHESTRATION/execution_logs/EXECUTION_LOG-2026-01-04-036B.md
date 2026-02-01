@@ -37,7 +37,7 @@ Deleted: remnants/ (10 files)
 Copied: Transcendence/Profile/Transcendence_Lunar_Identitial-Autopsychography.md → 04-ARCHIVE/ARCHIVE-AUTOPSYCHOGRAPHY.md
 ```
 
-Note: Source not deleted—Transcendence/ awaiting Principal disposition decision.
+Note: Source not deleted—Transcendence/ awaiting Sovereign disposition decision.
 
 ---
 
@@ -46,9 +46,9 @@ Note: Source not deleted—Transcendence/ awaiting Principal disposition decisio
 **Status**: REVIEWED - NO ACTION REQUIRED
 
 Examined:
-- ARCHIVE-COGNITIVE-PALACE-FULL.md → Correctly archived (specs distilled to CANON-20000/10/20)
-- ARCHIVE-METAHUMANISM-FULL.md → Correctly archived (research distilled to CANON-35210)
-- ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md → Correctly archived (patterns in CANON-00011/14)
+- ARCHIVE-COGNITIVE-PALACE-FULL.md → Correctly archived (specs distilled to [[CANON-20000-PALACE-lattice]]/10/20)
+- ARCHIVE-METAHUMANISM-FULL.md → Correctly archived (research distilled to [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]])
+- ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md → Correctly archived (patterns in [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]]/14)
 
 Finding: All ARCHIVE files contain theoretical/research material, not operational procedures. Distilled operational content correctly placed in CANON satellites. No misplaced implementation content found.
 
@@ -58,7 +58,7 @@ Finding: All ARCHIVE files contain theoretical/research material, not operationa
 
 **Status**: EXECUTED
 
-Principal Correction 3 implemented:
+Sovereign Correction 3 implemented:
 
 | Before | After |
 |--------|-------|
@@ -83,19 +83,19 @@ Orphan directories now glaringly obvious:
 Four sources integrated into CANON (documentation-to-execution remediation):
 
 ### 1. SOURCE-20250320-041: Benjamin Bratton
-**Target**: CANON-00015, CANON-30400
+**Target**: [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
 **Integration**: Added "Pre-Paradigmatic Moment" and "Cosmopolitics" frameworks
 
 ### 2. SOURCE-20250528-043: Sara Imari Walker
-**Target**: CANON-00015, CANON-30400
+**Target**: [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
 **Integration**: Added "Assembly Theory" and "AI as Life Extension" perspectives
 
 ### 3. SOURCE-20250403-051: Scott Alexander & Daniel Kokotajlo
-**Target**: CANON-00015
+**Target**: [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
 **Integration**: Added "R&D Progress Multiplier" and "Mid-2027 Branch Point" frameworks
 
 ### 4. SOURCE-20250522-053: Sholto Douglas & Trenton Bricken
-**Target**: CANON-30400
+**Target**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
 **Integration**: Added "Two-Axes Framework", "Clean Reward Thesis", "Neuralese" concepts
 
 ### Files Modified:
@@ -109,7 +109,7 @@ Four sources integrated into CANON (documentation-to-execution remediation):
 ### Pre-Commit Verification
 - [x] No orphan files at repository root
 - [x] Numbered directories follow 00-05 prefix convention
-- [x] Orphan directories (Tech, Transcendence, Transcript) clearly visible for Principal decision
+- [x] Orphan directories (Tech, Transcendence, Transcript) clearly visible for Sovereign decision
 
 ### Fresh-Agent Test
 - [x] CANON file: root → 00-CANON/ → file (2 decisions)
@@ -119,9 +119,9 @@ Four sources integrated into CANON (documentation-to-execution remediation):
 ### Deferred Items
 | Item | Reason | Target |
 |------|--------|--------|
-| Tech/ (559 files) | Not in directive scope | Principal decision |
-| Transcendence/ (45 files) | Not in directive scope | Principal decision |
-| Transcript/ (316 files) | Not in directive scope | Principal decision |
+| Tech/ (559 files) | Not in directive scope | Sovereign decision |
+| Transcendence/ (45 files) | Not in directive scope | Sovereign decision |
+| Transcript/ (316 files) | Not in directive scope | Sovereign decision |
 
 ---
 
@@ -166,7 +166,7 @@ Four sources integrated into CANON (documentation-to-execution remediation):
 
 **COMPLETE** (with noted deferrals)
 
-Ready for Oracle10 IIC Configuration upon Principal decision on remaining orphan directories.
+Ready for Oracle10 IIC Configuration upon Sovereign decision on remaining orphan directories.
 
 ---
 

@@ -1,7 +1,7 @@
 # DIRECTIVE-025A: DOCUMENTATION & EXTRACTION STREAM
 ## Claude 2 (Desktop) Initialization
 **Issued**: 2025-12-31
-**Authority**: Oracle7 under Principal direction
+**Authority**: Oracle7 under Sovereign direction
 **Classification**: CRITICAL — Context Engineering Remediation
 **Parallel Stream**: Claude 3 handles structural execution (DIRECTIVE-025B)
 
@@ -9,7 +9,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Actual Words
+### Sovereign's Actual Words
 > "This is not some simple nominal or tactical fix. REVIEW EVERY CONVERSATION... The repository is incredibly awful, all adhoc, virtually unchanged."
 
 > "Given such abject failure of context engineering go to the maximum resolution."
@@ -43,7 +43,7 @@ Seven Oracle threads produced strategic decisions, but context engineering faile
 **Score**: 18/18 — Approved
 
 ### Implicit Agreements
-- Principal speaks through webapp only; all context must persist in repository
+- Sovereign speaks through webapp only; all context must persist in repository
 - Oracle cannot execute; can only issue directives
 - Directives must be comprehensive; Claudes lack Oracle thread visibility
 - Repository is Foyer; all context must be accessible to any agent
@@ -64,7 +64,7 @@ The following files have been created by Oracle7. Install them in `orchestration
 
 **File 1: ORACLE_DECISIONS.md** (~8K)
 - Complete decision log from Oracle 0-7
-- Each decision includes Principal's words, Oracle's interpretation, alternatives, rationale
+- Each decision includes Sovereign's words, Oracle's interpretation, alternatives, rationale
 - Living document—update with each future thread
 
 **File 2: THREAD_CONTEXT.md** (~4K)
@@ -82,7 +82,7 @@ The following files have been created by Oracle7. Install them in `orchestration
 # Ensure state directory exists
 mkdir -p orchestration/state/
 
-# Copy files (you'll receive content from Principal)
+# Copy files (you'll receive content from Sovereign)
 # Save each to orchestration/state/[FILENAME].md
 
 # Verify
@@ -189,7 +189,7 @@ After extraction verified, mark files for deletion:
 cat > orchestration/state/DELETION_MANIFEST.md << 'EOF'
 # Files Pending Deletion
 ## System Prompt Exports
-**Status**: Extraction complete, awaiting Principal approval for deletion
+**Status**: Extraction complete, awaiting Sovereign approval for deletion
 
 ### Files
 1. Technological_Lunar_-_System_PromptsChatGPT__OpenAI_Apple__Memories.txt
@@ -202,7 +202,7 @@ cat > orchestration/state/DELETION_MANIFEST.md << 'EOF'
 - Extracted by: Claude 2
 
 ### Approval Required
-Principal must approve deletion before execution.
+Sovereign must approve deletion before execution.
 EOF
 ```
 
@@ -223,7 +223,7 @@ Oracle7 determined via 18-lens analysis:
 
 Examine `Technology_Lunar_-_3_Research_Protocols.md`:
 
-1. **Identify canonical target**: Should become asteroid under CANON-30300 (Tech Stack)
+1. **Identify canonical target**: Should become asteroid under [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] (Tech Stack)
 2. **Proposed ID**: CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md
 3. **Content audit**: What's essential vs. what's example/illustration?
 4. **Size estimate**: Target ~20K (compress from 31K)
@@ -238,7 +238,7 @@ Examine `Technology_Lunar_-_3_Research_Protocols.md`:
 
 Examine `Technology_Lunar_-_4_Implementation_Guide.md`:
 
-1. **Identify canonical target**: Should become asteroid under CANON-30300 (Tech Stack)
+1. **Identify canonical target**: Should become asteroid under [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] (Tech Stack)
 2. **Proposed ID**: CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md
 3. **Content audit**: What's essential vs. what's example/illustration?
 4. **Size estimate**: Target ~25K (compress from 43K)
@@ -310,7 +310,7 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-025A.md`:
 
 ### B4: Deletion Manifest
 - Files marked for deletion: [N]
-- Awaiting Principal approval: ☐
+- Awaiting Sovereign approval: ☐
 
 ---
 
@@ -344,9 +344,9 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-025A.md`:
 | B1-B4 | ☐ | |
 | C1-C4 | ☐ | |
 
-**Blockers**: [Any issues requiring Principal decision]
+**Blockers**: [Any issues requiring Sovereign decision]
 
-**Ready for Principal Review**: ☐
+**Ready for Sovereign Review**: ☐
 ```
 
 ---

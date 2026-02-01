@@ -34,7 +34,7 @@
 ### Metrics
 
 - **Autonomous cycles completed**: 1
-- **Principal relays required**: 0
+- **Sovereign relays required**: 0
 - **Packets created**: 4
 - **Packets processed**: 4
 
@@ -108,7 +108,7 @@ packets_created: 4
 
 2. **Deprecation Warning Fixed**: Updated `route_task.py` to use timezone-aware datetime (Python 3.12+ compliant).
 
-3. **IMEP Protocol Validated**: The Evidence → Plan → Execution → Audit cycle completed without Principal relay, proving the protocol is executable.
+3. **IMEP Protocol Validated**: The Evidence → Plan → Execution → Audit cycle completed without Sovereign relay, proving the protocol is executable.
 
 ---
 

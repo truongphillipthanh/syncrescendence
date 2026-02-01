@@ -26,7 +26,7 @@ selection_rationale: |
 - prior_handoff: [HO-ID or "none"]
 - blocks: [downstream work]
 
-### Principal Checkpoints
+### Sovereign Checkpoints
 - [ ] Reviewed decision rationale
 - [ ] Approved for execution
 ---

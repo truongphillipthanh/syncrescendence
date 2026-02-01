@@ -44,7 +44,7 @@ Oracle 10 completed two major initiatives:
 | 12. Industrial Engineering | PASS | Bottleneck addressed |
 | 13. Complexity Theory | PASS | Emergence preserved, complication removed |
 | 14. Permaculture | PASS | Self-sustaining patterns established |
-| 15. Design Thinking | PASS | Principal needs addressed |
+| 15. Design Thinking | PASS | Sovereign needs addressed |
 | 16. Agile | PASS | MVIs achieved in each blitzkrieg |
 | 17. Lean | PASS | Waste eliminated (manual relay) |
 | 18. Six Sigma | PASS | Root cause (relay) addressed |
@@ -142,7 +142,7 @@ The blitzkrieg pattern used in Oracle 10 is validated and should continue:
 
 1. **Pre-blitz research** — Deep context gathering before directive creation
 2. **Parallel streams** — Claude 2 + Claude 3 executing simultaneously
-3. **Comprehensive packages** — All context in directive, no Principal relay mid-execution
+3. **Comprehensive packages** — All context in directive, no Sovereign relay mid-execution
 4. **Ledger discipline** — Immediate task/project updates, verification before completion
 5. **Git discipline** — Frequent commits with semantic messages
 

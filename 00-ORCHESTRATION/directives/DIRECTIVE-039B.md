@@ -263,7 +263,7 @@ Structure:
 ## Phase 3: Process Sources
 | Source | Status | Integration Target |
 |--------|--------|-------------------|
-| scott_alexander_kokotajlo | processed/integrated | CANON-00004 |
+| scott_alexander_kokotajlo | processed/integrated | [[CANON-00004-EVOLUTION-cosmos]] |
 | [etc] | ... | ... |
 
 ## Verification Results

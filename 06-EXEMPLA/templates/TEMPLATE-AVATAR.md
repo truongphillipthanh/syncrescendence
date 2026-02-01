@@ -27,4 +27,4 @@ For [problem type]:
 ---
 
 *Self-documented: YYYY-MM-DD*
-*Validated by Principal: [Y/N]*
+*Validated by Sovereign: [Y/N]*

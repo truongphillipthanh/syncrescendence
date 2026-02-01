@@ -34,26 +34,26 @@ Completed "The Correct Defrag" - proper 18-lens qualified distillation of recove
 - **Evaluation**: 14/18 = CANON tier
 - **Output**:
   - CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md (~13K)
-  - Added Section X to CANON-31100 (Acumen) - Meaning Taxonomy integration
-  - Added Knowledge Taxonomy section to CANON-34100 (Mastery)
+  - Added Section X to [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Acumen) - Meaning Taxonomy integration
+  - Added Knowledge Taxonomy section to [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Mastery)
 - **Compression**: 564K → 15K integrated content (97%)
 
 ### Phase 4: Artifacts (520K)
 - **Evaluation**: 10/18 = ARCHIVE tier
 - **Output**:
   - ARCHIVE-ARTIFACT-PATTERN-LANGUAGE.md (~10K)
-- **Note**: Pattern concepts already integrated into CANON-00011, CANON-00014
+- **Note**: Pattern concepts already integrated into [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]], [[CANON-00014-CONTENT_PROTOCOL-cosmos]]
 - **Compression**: 520K → 10K reference (98%)
 
 ### Phase 5: Meta-Narrative Schemas (35K)
 - **Evaluation**: Already covered
 - **Output**: No new documents needed
-- **Note**: Content covered by CANON-00015 (Macroscopic Narratives) and Cognitive Palace Imaginality dimension
+- **Note**: Content covered by [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] (Macroscopic Narratives) and Cognitive Palace Imaginality dimension
 
 ### Phase 6: Transcendence
 - **Evaluation**: Already covered
 - **Output**: No new documents needed
-- **Note**: Content covered by CANON-35210 (Metahumanism) and ARCHIVE-COGNITIVE-PALACE-FULL
+- **Note**: Content covered by [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] (Metahumanism) and ARCHIVE-COGNITIVE-PALACE-FULL
 
 ---
 
@@ -70,8 +70,8 @@ Completed "The Correct Defrag" - proper 18-lens qualified distillation of recove
 ### CANON (Modified)
 | File | Change |
 |------|--------|
-| CANON-31100 (Acumen) | Added Section X: Meaning Taxonomy Integration |
-| CANON-34100 (Mastery) | Added Knowledge Taxonomy Integration section |
+| [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Acumen) | Added Section X: Meaning Taxonomy Integration |
+| [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Mastery) | Added Knowledge Taxonomy Integration section |
 
 ### ARCHIVE (New)
 | File | Size | Source Size | Compression |
@@ -100,8 +100,8 @@ Completed "The Correct Defrag" - proper 18-lens qualified distillation of recove
 2. **Metahumanism**: Full philosophical framework canonized as WISDOM chain satellite
 3. **Mental Models**: Created cosmos-level ontological framework + integrated into existing Acumen/Mastery
 4. **Artifacts**: Pattern language archived; concepts already in operational CANON
-5. **Meta-Narratives**: Already covered by CANON-00015
-6. **Transcendence**: Already covered by CANON-35210 and Cognitive Palace dimensions
+5. **Meta-Narratives**: Already covered by [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
+6. **Transcendence**: Already covered by [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] and Cognitive Palace dimensions
 
 ---
 

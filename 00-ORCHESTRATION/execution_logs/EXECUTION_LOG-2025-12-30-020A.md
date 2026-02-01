@@ -23,12 +23,12 @@ DIRECTIVE-020A completed Phase 2 (Execution) Track A and Track B:
 
 ### Track B: Tech Lunar Canonization
 **Status**: COMPLETE
-- CANON-30400 existed (crown jewel, 19K)
-- CANON-30410 existed (cognitive architecture, 14K)
-- Created CANON-30420 (multi-agent orchestration, 17K)
-- Created CANON-30430 (memory systems, 14K)
-- Created CANON-30440 (safety and alignment, 15K)
-- Created CANON-30450 (production frameworks, 17K)
+- [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] existed (crown jewel, 19K)
+- [[CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE]] existed (cognitive architecture, 14K)
+- Created [[CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE]] (multi-agent orchestration, 17K)
+- Created [[CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE]] (memory systems, 14K)
+- Created [[CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE]] (safety and alignment, 15K)
+- Created [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]] (production frameworks, 17K)
 
 **Total CANON-304xx series**: ~96K from 141K source
 
@@ -67,12 +67,12 @@ The Tech Lunar - Agents.md (141K) has been fully canonized into:
 
 | ID | Name | Size | Focus |
 |----|------|------|-------|
-| CANON-30400 | Agentic Architecture | 19K | Crown jewel—comprehensive overview |
-| CANON-30410 | Cognitive Architecture | 14K | CoALA, reasoning patterns, primitives |
-| CANON-30420 | Multi-Agent Orchestration | 17K | Patterns, topologies, protocols |
-| CANON-30430 | Memory Systems | 14K | Taxonomy, innovations, context |
-| CANON-30440 | Safety and Alignment | 15K | Threats, defenses, governance |
-| CANON-30450 | Production Frameworks | 17K | SDKs, protocols, deployment |
+| [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] | Agentic Architecture | 19K | Crown jewel—comprehensive overview |
+| [[CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE]] | Cognitive Architecture | 14K | CoALA, reasoning patterns, primitives |
+| [[CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE]] | Multi-Agent Orchestration | 17K | Patterns, topologies, protocols |
+| [[CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE]] | Memory Systems | 14K | Taxonomy, innovations, context |
+| [[CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE]] | Safety and Alignment | 15K | Threats, defenses, governance |
+| [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]] | Production Frameworks | 17K | SDKs, protocols, deployment |
 
 **Total**: ~96K structured CANON from 141K source material
 
@@ -81,7 +81,7 @@ The Tech Lunar - Agents.md (141K) has been fully canonized into:
 ## SUCCESS CRITERIA VERIFICATION
 
 - [x] ARCHIVE/ created with compressed distillation (prior session)
-- [x] CANON-30400 exists with YAML frontmatter
+- [x] [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] exists with YAML frontmatter
 - [x] CANON-30410-30450 created (5 asteroids)
 - [x] QUEUE/PENDING_REVIEW/tech/ deleted
 - [x] Commit meaningful with clear message

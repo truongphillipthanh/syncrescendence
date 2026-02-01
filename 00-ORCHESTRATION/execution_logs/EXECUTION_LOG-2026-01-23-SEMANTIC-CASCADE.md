@@ -140,10 +140,10 @@ Added:
 
 #### Assessment
 - **03-QUEUE/README.md**: Already exists, well-formed (lifecycle protocol documented)
-- **Raw transcript offload**: Deferred (requires Google Drive CLI setup by Principal)
+- **Raw transcript offload**: Deferred (requires Google Drive CLI setup by Sovereign)
 - **Action taken**: Verified queue documentation sufficient
 
-**Recommendation for Principal**:
+**Recommendation for Sovereign**:
 - Set up rclone or gdrive CLI for Google Drive access
 - Execute offload script from infrastructure directive (ARCH-OFFLOAD_AUDIT-20260123.md)
 - Estimated space savings: ~4MB (115 raw .txt transcripts)
@@ -282,7 +282,7 @@ Added:
 
 ### Lane D ✅
 - [x] 03-QUEUE/README.md verified (already exists, well-formed)
-- [x] Raw transcript offload deferred (Principal setup required)
+- [x] Raw transcript offload deferred (Sovereign setup required)
 
 ### Lane E ✅
 - [x] Audit manifest generated (82 files, 16 monoliths)
@@ -373,7 +373,7 @@ feat(reorg): Complete OPERATIONAL reorganization and OUTGOING triage
 
 ## Next Steps
 
-### Immediate (Principal Can Execute)
+### Immediate (Sovereign Can Execute)
 1. Test encode/decode scripts on sample documents
 2. Set up Hazel rules (follow HAZEL_SETUP.md)
 3. Create Keyboard Maestro macros (follow KM_SETUP.md)
@@ -404,7 +404,7 @@ feat(reorg): Complete OPERATIONAL reorganization and OUTGOING triage
 
 ### What Could Improve
 - Obsidian backlink script not executed (ready but unused)
-- Raw transcript offload deferred (Principal setup required)
+- Raw transcript offload deferred (Sovereign setup required)
 - OPERATIONAL reorg could go deeper (prompts/, models/ still empty)
 - No SN conversion executed yet (foundation only)
 
@@ -417,7 +417,7 @@ feat(reorg): Complete OPERATIONAL reorganization and OUTGOING triage
 
 ---
 
-## Handoff to Principal
+## Handoff to Sovereign
 
 Semantic Notation cascade complete. Foundation established for ~80% token reduction across corpus.
 
@@ -430,7 +430,7 @@ Semantic Notation cascade complete. Foundation established for ~80% token reduct
 6. CANON audit - 82 files inventoried, 16 monoliths identified
 7. Conversion template - methodology for CANON → SN
 
-**Awaiting Principal action**:
+**Awaiting Sovereign action**:
 - Hazel rule implementation
 - Keyboard Maestro macro creation
 - Google Drive CLI setup for transcript offload

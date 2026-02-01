@@ -14,7 +14,7 @@
 
 The corpus contains ~100 references to the obsolete CANON-1 through CANON-17 numbering system. These must be updated to the 5-digit format established in Phase 2.
 
-**Files in scope**: 3 (CANON-99000 excluded as intentional historical record)
+**Files in scope**: 3 ([[CANON-99000-HISTORICAL-meta]] excluded as intentional historical record)
 
 ---
 
@@ -22,23 +22,23 @@ The corpus contains ~100 references to the obsolete CANON-1 through CANON-17 num
 
 | Old | New | Document |
 |-----|-----|----------|
-| CANON-1 | CANON-00001 | Syncrescendence |
-| CANON-2 | CANON-20000 | Cognitive Palace |
-| CANON-3 | CANON-31100 | Acumen (planetary) |
-| CANON-4 | CANON-32100 | Coherence (planetary) |
-| CANON-5 | CANON-33100 | Efficacy (planetary) |
-| CANON-6 | CANON-34100 | Mastery (planetary) |
-| CANON-7 | CANON-35100 | Transcendence Ring |
-| CANON-8 | CANON-00008 | Modal Sequence |
-| CANON-9 | CANON-30000 | Intelligence Chain |
-| CANON-10 | CANON-31000 | Information Chain |
-| CANON-11 | CANON-32000 | Insight Chain |
-| CANON-12 | CANON-33000 | Expertise Chain |
-| CANON-13 | CANON-34000 | Knowledge Chain |
-| CANON-14 | CANON-35000 | Wisdom Chain |
-| CANON-15 | CANON-00006 | Operations |
-| CANON-16 | CANON-00000 | Schema |
-| CANON-17 | CANON-00007 | Artifact Protocol |
+| CANON-1 | [[CANON-00001-ORIGIN-cosmos]] | Syncrescendence |
+| CANON-2 | [[CANON-20000-PALACE-lattice]] | Cognitive Palace |
+| CANON-3 | [[CANON-31100-ACUMEN-planetary-INFORMATION]] | Acumen (planetary) |
+| CANON-4 | [[CANON-32100-COHERENCE-planetary-INSIGHT]] | Coherence (planetary) |
+| CANON-5 | [[CANON-33100-EFFICACY-planetary-EXPERTISE]] | Efficacy (planetary) |
+| CANON-6 | [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] | Mastery (planetary) |
+| CANON-7 | [[CANON-35100-TRANSCENDENCE-ring-WISDOM]] | Transcendence Ring |
+| CANON-8 | [[CANON-00008-RESOLUTIONS-cosmos]] | Modal Sequence |
+| CANON-9 | [[CANON-30000-INTELLIGENCE-chain]] | Intelligence Chain |
+| CANON-10 | [[CANON-31000-INFORMATION-chain]] | Information Chain |
+| CANON-11 | [[CANON-32000-INSIGHT-chain]] | Insight Chain |
+| CANON-12 | [[CANON-33000-EXPERTISE-chain]] | Expertise Chain |
+| CANON-13 | [[CANON-34000-KNOWLEDGE-chain]] | Knowledge Chain |
+| CANON-14 | [[CANON-35000-WISDOM-chain]] | Wisdom Chain |
+| CANON-15 | [[CANON-00006-CORPUS-cosmos]] | Operations |
+| CANON-16 | [[CANON-00000-SCHEMA-cosmos]] | Schema |
+| CANON-17 | [[CANON-00007-EVALUATION-cosmos]] | Artifact Protocol |
 
 ---
 
@@ -72,18 +72,18 @@ Added historical preservation note:
 
 ```markdown
 > **Historical Note**: This document intentionally preserves legacy CANON-1 through CANON-17
-> numbering as historical record. Current numbering uses 5-digit format (e.g., CANON-00001,
-> CANON-30000). See CANON-00000-SCHEMA for current mapping.
+> numbering as historical record. Current numbering uses 5-digit format (e.g., [[CANON-00001-ORIGIN-cosmos]],
+> [[CANON-30000-INTELLIGENCE-chain]]). See CANON-00000-SCHEMA for current mapping.
 ```
 
 ---
 
 ## Success Criteria
 
-- [x] CANON-00000: All old references updated (~50)
-- [x] CANON-00007: All old references updated (~40)
-- [x] CANON-21000: All old references updated (~5)
-- [x] CANON-99000: Historical note added, references preserved
+- [x] [[CANON-00000-SCHEMA-cosmos]]: All old references updated (~50)
+- [x] [[CANON-00007-EVALUATION-cosmos]]: All old references updated (~40)
+- [x] [[CANON-21000-CHAIN_MATRIX-lattice]]: All old references updated (~5)
+- [x] [[CANON-99000-HISTORICAL-meta]]: Historical note added, references preserved
 - [x] No broken cross-references introduced
 - [x] Execution report saved to orchestration/execution_logs/
 - [x] CURRENT_STATE.md updated
@@ -96,10 +96,10 @@ Added historical preservation note:
 ```
 fix(canon): Update legacy CANON-1 to CANON-17 numbering to 5-digit format
 
-- CANON-00000: ~50 references updated
-- CANON-00007: ~40 references updated
-- CANON-21000: ~5 references updated
-- CANON-99000: Historical note added (references preserved as record)
+- [[CANON-00000-SCHEMA-cosmos]]: ~50 references updated
+- [[CANON-00007-EVALUATION-cosmos]]: ~40 references updated
+- [[CANON-21000-CHAIN_MATRIX-lattice]]: ~5 references updated
+- [[CANON-99000-HISTORICAL-meta]]: Historical note added (references preserved as record)
 
 Part of Phase 3 Stream A (DIRECTIVE-022A)
 ```

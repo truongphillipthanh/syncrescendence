@@ -1,14 +1,14 @@
 # DIRECTIVE-035A: COHERENCE QUALIFIED DISTILLATION + INTEGRATION
 ## Stream A: The Correct Defrag — Absorption, Integration, Archival
 **Issued**: 2026-01-02
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Completing the Work Oracle4 Should Have Done
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-035B handles Tech Lunar + Source Processing
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Incredible. Full recovery. And now we have the structures to actually determine if we've successfully complete our goals. Knowing what we know now, produce the directives to complete the absorption and integration and (if appropriate to our standards, archival.) Essentially we're running the correct Defragging process."
 
@@ -40,7 +40,7 @@ The CORRECT process:
 | Metahumanism | 936K | Coherence/4-Roadmap/ | 16 files |
 | Mental Models | 564K | Coherence/3-Mental Models/ | Ontological + taxonomies |
 | Artifacts | 684K | Coherence/1-Artifacts/ | 21-artifact Human+Machine corpus |
-| Meta-Narrative Schemas | 35K | intelligence architecture/ | Companion to CANON-00015 |
+| Meta-Narrative Schemas | 35K | intelligence architecture/ | Companion to [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] |
 | Intelligence Architecture | 628K | intelligence architecture/ | Original foundational docs |
 | **TOTAL** | **~3.8M** | | |
 
@@ -57,7 +57,7 @@ For each content section, evaluate:
 | 3 | Antifragile | Does preserving this make us stronger from disorder? | HIGH |
 | 4 | Meet the Moment | Is this timely for current capability? | MEDIUM |
 | 5 | Steelman/Redteam | Can this survive strongest criticism? | HIGH |
-| 6 | Personal Idiosyncrasies | Does this honor Principal's cognitive style? | MEDIUM |
+| 6 | Personal Idiosyncrasies | Does this honor Sovereign's cognitive style? | MEDIUM |
 | 7 | Potency w/o Resolution Loss | Maximum compression with full fidelity? | CRITICAL |
 | 8 | Elegance | Minimal surface, predictable patterns? | MEDIUM |
 | 9 | Agentify + Human-Navigable | 2 decisions to any file? | HIGH |
@@ -90,7 +90,7 @@ For each content section, evaluate:
 - 1 Topology Overview
 - 1 Master Document
 
-**Current CANON**: CANON-20000 (16K) — Conceptual summary only
+**Current CANON**: [[CANON-20000-PALACE-lattice]] (16K) — Conceptual summary only
 
 **Current ARCHIVE**: ARCHIVE-COGNITIVE-PALACE-SPECS.md (~8K) — Inadequate
 
@@ -103,7 +103,7 @@ For each content section, evaluate:
 | 3. Antifragile | Conceptual framework survives; implementation details may not | ⚠️ |
 | 4. Meet the Moment | Not for immediate Modal 1 use | ✗ |
 | 5. Steelman | Comprehensive personal development architecture | ✓ |
-| 6. Idiosyncrasies | Deep reflection of Principal's cognitive mapping | ✓ |
+| 6. Idiosyncrasies | Deep reflection of Sovereign's cognitive mapping | ✓ |
 | 7. Potency | 1.0M → target 50-100K distillation | PENDING |
 | 8. Elegance | 87 components is complex | ⚠️ |
 | 9. Agentify | Would require significant navigation | ⚠️ |
@@ -122,8 +122,8 @@ For each content section, evaluate:
 ### 1.3 Decision: Qualified ARCHIVE with CANON Enhancement
 
 **CANON Enhancement** (CANON-20xxx satellites):
-- CANON-20010: DIMENSIONAL_COORDINATORS — The 7 coordinator documents distilled to essential patterns
-- CANON-20020: META_SYSTEMS — Seven Pulses Dashboard + Pattern Library specs
+- [[CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice]]: DIMENSIONAL_COORDINATORS — The 7 coordinator documents distilled to essential patterns
+- [[CANON-20020-META_SYSTEMS-satellite-PALACE-lattice]]: META_SYSTEMS — Seven Pulses Dashboard + Pattern Library specs
 - CANON-20030: META_GOVERNOR — The orchestrating intelligence specification
 
 **ARCHIVE Expansion**:
@@ -133,7 +133,7 @@ For each content section, evaluate:
 ### 1.4 Execution
 
 ```bash
-# Phase 1A: Read current CANON-20000
+# Phase 1A: Read current [[CANON-20000-PALACE-lattice]]
 cat CANON/CANON-20000-lattice-COGNITIVE_PALACE.md
 
 # Phase 1B: Read coordinator documents (essential pattern extraction)
@@ -157,10 +157,10 @@ cat Coherence/2-CognitivePalace/*-90-*.md
 **CANON-20010-DIMENSIONAL_COORDINATORS** template:
 ```markdown
 ---
-id: CANON-20010
+id: [[CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice]]
 name: Dimensional Coordinators
 type: satellite
-parent: CANON-20000
+parent: [[CANON-20000-PALACE-lattice]]
 chain: LATTICE
 version: 1.0.0
 status: canonical
@@ -168,7 +168,7 @@ created: 2026-01-02
 synopsis: The seven dimensional coordination patterns for Cognitive Palace navigation
 ---
 
-# CANON-20010: DIMENSIONAL COORDINATORS
+# [[CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice]]: DIMENSIONAL COORDINATORS
 ## Cognitive Palace Satellite
 
 ## THE SEVEN DIMENSIONS
@@ -223,7 +223,7 @@ synopsis: The seven dimensional coordination patterns for Cognitive Palace navig
 | 3. Antifragile | Worldview becomes stronger under examination | ✓ |
 | 4. Meet the Moment | Foundation for Wisdom chain | ✓ |
 | 5. Steelman | Comprehensive philosophical synthesis | ✓ |
-| 6. Idiosyncrasies | Principal's philosophical development | ✓ |
+| 6. Idiosyncrasies | Sovereign's philosophical development | ✓ |
 | 7. Potency | 936K → target 80-120K | PENDING |
 | 8. Elegance | Complex philosophical architecture | ⚠️ |
 | 9. Agentify | Needs navigation structure | ⚠️ |
@@ -245,7 +245,7 @@ Create CANON-35xxx satellites in Wisdom chain:
 
 | ID | Name | Source | Target Size |
 |----|------|--------|-------------|
-| CANON-35210 | BELIEF_SYSTEMS | belief_systems.md | ~25K |
+| [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] | BELIEF_SYSTEMS | belief_systems.md | ~25K |
 | CANON-35220 | EPISTEMIC_STRATIGRAPHY | epistemic-stratigraphy.md | ~30K |
 | CANON-35230 | VOLITION_FRAMEWORK | volition.md | ~20K |
 | CANON-35240 | SPIRITUAL_PLANES | spiritual_planes.md | ~25K |
@@ -273,10 +273,10 @@ done
 **CANON-35210-BELIEF_SYSTEMS** template:
 ```markdown
 ---
-id: CANON-35210
+id: [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]]
 name: Belief Systems Framework
 type: lunar
-parent: CANON-35200
+parent: [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]]
 chain: WISDOM
 ring: TRANSCENDENCE
 version: 1.0.0
@@ -285,7 +285,7 @@ created: 2026-01-02
 synopsis: Taxonomic framework for understanding belief system architecture across human civilizations
 ---
 
-# CANON-35210: BELIEF SYSTEMS FRAMEWORK
+# [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]]: BELIEF SYSTEMS FRAMEWORK
 ## Transcendence Ring Lunar
 
 [Distilled from Coherence_Lunar_Metahumanism-belief_systems.md]
@@ -315,8 +315,8 @@ synopsis: Taxonomic framework for understanding belief system architecture acros
 - Meaning Taxonomy + Culmination
 
 **Related CANON**:
-- CANON-31100 (Acumen/Information)
-- CANON-34100 (Mastery/Knowledge)
+- [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Acumen/Information)
+- [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Mastery/Knowledge)
 
 ### 3.2 18-Lens Evaluation
 
@@ -330,8 +330,8 @@ synopsis: Taxonomic framework for understanding belief system architecture acros
 ### 3.3 Decision: Integrate into Existing CANON
 
 Rather than new satellites, INTEGRATE into:
-- CANON-31100 (Acumen): Add Meaning Taxonomy section
-- CANON-34100 (Mastery): Add Knowledge Taxonomy section
+- [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Acumen): Add Meaning Taxonomy section
+- [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Mastery): Add Knowledge Taxonomy section
 - Create CANON-00016-ONTOLOGICAL_FRAMEWORK as cosmos-level reference
 
 ### 3.4 Execution
@@ -346,7 +346,7 @@ cat "Coherence/3-Mental Models/meaning/"*
 cat CANON/CANON-31100-*ACUMEN*
 cat CANON/CANON-34100-*MASTERY*
 
-# Phase 3C: Create integration patches or new CANON-00016
+# Phase 3C: Create integration patches or new [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]]
 ```
 
 ---
@@ -360,7 +360,7 @@ cat CANON/CANON-34100-*MASTERY*
 - Machine corpus (21 artifacts)
 - Synthesis documents
 
-**Current CANON**: CANON-00007 (Artifact Production Protocol)
+**Current CANON**: [[CANON-00007-EVALUATION-cosmos]] (Artifact Production Protocol)
 
 ### 4.2 18-Lens Evaluation
 
@@ -399,12 +399,12 @@ ls -la "Coherence/1-Artifacts/- Artifact Corpus - Machine/"
 **Source**: `intelligence architecture/meta_narrative_and_perspectival_schemas.md`
 **Related CANON**: CANON-00015-MACROSCOPIC_NARRATIVES (just created)
 
-### 5.2 Decision: CANON-00016 or Integrate
+### 5.2 Decision: [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] or Integrate
 
 **Option A**: Create CANON-00016-META_NARRATIVE_SCHEMAS as companion
-**Option B**: Integrate into CANON-00015 as "Meta-Framework" section
+**Option B**: Integrate into [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] as "Meta-Framework" section
 
-**Recommended**: Option B — Integrate into CANON-00015
+**Recommended**: Option B — Integrate into [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
 
 ### 5.3 Execution
 
@@ -412,7 +412,7 @@ ls -la "Coherence/1-Artifacts/- Artifact Corpus - Machine/"
 # Read source
 cat "intelligence architecture/meta_narrative_and_perspectival_schemas.md"
 
-# Update CANON-00015 with Meta-Framework section
+# Update [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] with Meta-Framework section
 ```
 
 ---
@@ -432,7 +432,7 @@ cat "intelligence architecture/meta_narrative_and_perspectival_schemas.md"
 
 ### 6.2 18-Lens Evaluation
 
-These represent the Principal's spiritual/philosophical research methodology. The 7-document pattern (taxonomy → dialectical → synthesis → culmination) is systematic.
+These represent the Sovereign's spiritual/philosophical research methodology. The 7-document pattern (taxonomy → dialectical → synthesis → culmination) is systematic.
 
 **Score**: 10-11/18 = **CANON candidate** for selective integration
 
@@ -466,15 +466,15 @@ git add -A
 git commit -m "DIRECTIVE-035A: Coherence Qualified Distillation
 
 CANON CREATED:
-- CANON-20010: Dimensional Coordinators
-- CANON-20020: Meta-Systems
+- [[CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice]]: Dimensional Coordinators
+- [[CANON-20020-META_SYSTEMS-satellite-PALACE-lattice]]: Meta-Systems
 - CANON-20030: Meta-Governor
-- CANON-35210: Belief Systems
+- [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]]: Belief Systems
 - CANON-35220: Epistemic Stratigraphy
 - CANON-35230: Volition Framework
 - CANON-35240: Spiritual Planes
 - CANON-35250: Causation Continuum
-- CANON-00016: Ontological Framework (integrated)
+- [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]]: Ontological Framework (integrated)
 
 ARCHIVE CREATED:
 - ARCHIVE-COGNITIVE-PALACE-ARTIFACTS.md
@@ -483,8 +483,8 @@ ARCHIVE CREATED:
 - ARCHIVE-TRANSCENDENCE-RESEARCH.md
 
 INTEGRATED:
-- Mental Models → CANON-31100, CANON-34100
-- Meta-Narrative Schemas → CANON-00015
+- Mental Models → [[CANON-31100-ACUMEN-planetary-INFORMATION]], [[CANON-34100-MASTERY-planetary-KNOWLEDGE]]
+- Meta-Narrative Schemas → [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
 
 RELEASED:
 - Source Coherence/ after distillation verified
@@ -498,7 +498,7 @@ RELEASED:
 ## SUCCESS CRITERIA
 
 ### Phase 1: Cognitive Palace
-- [ ] CANON-20010, 20020, 20030 created (~40K total)
+- [ ] [[CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice]], 20020, 20030 created (~40K total)
 - [ ] ARCHIVE expansions created (~30K)
 - [ ] 1.0M → ~70K (93% compression with value preservation)
 
@@ -508,8 +508,8 @@ RELEASED:
 - [ ] 936K → ~120K (87% compression)
 
 ### Phase 3: Mental Models
-- [ ] CANON-00016 created OR integrated
-- [ ] CANON-31100, 34100 enhanced
+- [ ] [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] created OR integrated
+- [ ] [[CANON-31100-ACUMEN-planetary-INFORMATION]], 34100 enhanced
 - [ ] 564K → ~40K integrated
 
 ### Phase 4: Artifacts
@@ -517,7 +517,7 @@ RELEASED:
 - [ ] 684K → ~15K (98% compression)
 
 ### Phase 5: Meta-Narrative
-- [ ] Integrated into CANON-00015
+- [ ] Integrated into [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
 - [ ] 35K → integrated
 
 ### Phase 6: Transcendence

@@ -91,20 +91,20 @@ ORACLE_ARC.md contains:
 
 | Source | Status | Integration Target |
 |--------|--------|-------------------|
-| chris_kempes (MLST) | processed | CANON-35200, CANON-00016 |
-| sergey_levine (Dwarkesh) | processed | CANON-30000, CANON-30400 |
-| donald_hoffman (Duqun) | processed | CANON-35000, CANON-00016 |
-| sam_jakub_wojciech (OpenAI) | processed | CANON-00004, CANON-30000 |
-| chollet_knoop (ARC Prize) | processed | CANON-30000, CANON-00003 |
-| john_martinis (All-In) | processed | CANON-30300, CANON-00004 |
-| jensen_huang (NVIDIA GTC) | processed | CANON-30300, CANON-00004 |
-| blaise_aguera_y_arcas (MLST) | processed | CANON-35200, CANON-00016 |
-| marc_ben (a16z Runtime) | processed | CANON-00004, CANON-30000 |
-| renaissance_2_0 (Shapiro) | processed | CANON-00015, CANON-00004 |
-| anatoly_yakovenko (Moonshots) | processed | CANON-30000, CANON-33000 |
-| end_of_ai (AI Explained) | processed | CANON-00015, CANON-35000 |
-| post_labor_enterprise (Shapiro) | processed | CANON-33000, CANON-33110 |
-| best_of_2025 (No Priors) | processed | CANON-30000, CANON-33000 |
+| chris_kempes (MLST) | processed | [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]], [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] |
+| sergey_levine (Dwarkesh) | processed | [[CANON-30000-INTELLIGENCE-chain]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] |
+| donald_hoffman (Duqun) | processed | [[CANON-35000-WISDOM-chain]], [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] |
+| sam_jakub_wojciech (OpenAI) | processed | [[CANON-00004-EVOLUTION-cosmos]], [[CANON-30000-INTELLIGENCE-chain]] |
+| chollet_knoop (ARC Prize) | processed | [[CANON-30000-INTELLIGENCE-chain]], [[CANON-00003-PRINCIPLES-cosmos]] |
+| john_martinis (All-In) | processed | [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]], [[CANON-00004-EVOLUTION-cosmos]] |
+| jensen_huang (NVIDIA GTC) | processed | [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]], [[CANON-00004-EVOLUTION-cosmos]] |
+| blaise_aguera_y_arcas (MLST) | processed | [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]], [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] |
+| marc_ben (a16z Runtime) | processed | [[CANON-00004-EVOLUTION-cosmos]], [[CANON-30000-INTELLIGENCE-chain]] |
+| renaissance_2_0 (Shapiro) | processed | [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]], [[CANON-00004-EVOLUTION-cosmos]] |
+| anatoly_yakovenko (Moonshots) | processed | [[CANON-30000-INTELLIGENCE-chain]], [[CANON-33000-EXPERTISE-chain]] |
+| end_of_ai (AI Explained) | processed | [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]], [[CANON-35000-WISDOM-chain]] |
+| post_labor_enterprise (Shapiro) | processed | [[CANON-33000-EXPERTISE-chain]], [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] |
+| best_of_2025 (No Priors) | processed | [[CANON-30000-INTELLIGENCE-chain]], [[CANON-33000-EXPERTISE-chain]] |
 
 ### Total Processed Sources
 - Before: 21

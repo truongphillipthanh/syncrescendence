@@ -10,7 +10,7 @@
 
 ## CONTEXT
 
-DIRECTIVE-038 issued as a coordinated blitz to complete all remaining Oracle 9 items in one pass. Originally designed for parallel execution (038A + 038B), executed as unified stream for coherence per Principal instruction.
+DIRECTIVE-038 issued as a coordinated blitz to complete all remaining Oracle 9 items in one pass. Originally designed for parallel execution (038A + 038B), executed as unified stream for coherence per Sovereign instruction.
 
 ---
 

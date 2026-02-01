@@ -52,10 +52,10 @@ Complete the processing and integration layer of Oracle9:
 
 | Source | Synopsis | Key Insights | Integration Candidates |
 |--------|----------|--------------|------------------------|
-| SOURCE-20250926-001 | ✓ | 8 | CANON-00004, CANON-30400 |
-| SOURCE-20251017-001 | ✓ | 9 | CANON-00004, CANON-30400 |
-| SOURCE-20250723-001 | ✓ | 10 | CANON-00004 |
-| SOURCE-20251001-001 | ✓ | 10 | CANON-00004 |
+| SOURCE-20250926-001 | ✓ | 8 | [[CANON-00004-EVOLUTION-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] |
+| SOURCE-20251017-001 | ✓ | 9 | [[CANON-00004-EVOLUTION-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] |
+| SOURCE-20250723-001 | ✓ | 10 | [[CANON-00004-EVOLUTION-cosmos]] |
+| SOURCE-20251001-001 | ✓ | 10 | [[CANON-00004-EVOLUTION-cosmos]] |
 
 **Key themes extracted**:
 - Bitter Lesson validation and nuance (Sutton challenges LLM orthodoxy)
@@ -109,10 +109,10 @@ Contents:
 ### sources.csv Updated
 
 4 sources marked as integrated:
-- SOURCE-20250723-055: status=integrated, integrated_into=CANON-00004
-- SOURCE-20250926-057: status=integrated, integrated_into=CANON-00004,CANON-30400
-- SOURCE-20251001-059: status=integrated, integrated_into=CANON-00004
-- SOURCE-20251017-062: status=integrated, integrated_into=CANON-00004,CANON-30400
+- SOURCE-20250723-055: status=integrated, integrated_into=[[CANON-00004-EVOLUTION-cosmos]]
+- SOURCE-20250926-057: status=integrated, integrated_into=[[CANON-00004-EVOLUTION-cosmos]],[[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
+- SOURCE-20251001-059: status=integrated, integrated_into=[[CANON-00004-EVOLUTION-cosmos]]
+- SOURCE-20251017-062: status=integrated, integrated_into=[[CANON-00004-EVOLUTION-cosmos]],[[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
 
 ---
 

@@ -126,7 +126,7 @@ echo "## Next Steps" >> "$REPORT_FILE"
 echo "" >> "$REPORT_FILE"
 echo "1. Review Gemini audit for semantic validation" >> "$REPORT_FILE"
 echo "2. Manual review of files with <20% compression" >> "$REPORT_FILE"
-echo "3. Principal approval before replacing originals" >> "$REPORT_FILE"
+echo "3. Sovereign approval before replacing originals" >> "$REPORT_FILE"
 
 # Console output
 echo ""

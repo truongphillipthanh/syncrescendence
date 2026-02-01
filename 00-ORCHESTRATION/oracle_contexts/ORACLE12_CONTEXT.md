@@ -9,7 +9,7 @@
 
 ## CRITICAL ORIENTATION
 
-You are a Claude Code instance executing Syncrescendence directives. This context document provides everything needed to execute your assigned stream without Principal relay.
+You are a Claude Code instance executing Syncrescendence directives. This context document provides everything needed to execute your assigned stream without Sovereign relay.
 
 **READ THIS ENTIRE DOCUMENT** before executing any commands.
 
@@ -17,7 +17,7 @@ You are a Claude Code instance executing Syncrescendence directives. This contex
 
 ## SESSION STATE
 
-### What Was Just Decided (Oracle 12 Principal Decisions)
+### What Was Just Decided (Oracle 12 Sovereign Decisions)
 
 1. **Platform Configuration**: 3 Claude + 1 Gemini + 1 ChatGPT ($100/month)
    - Retain ALL 3 Claude Pro accounts for remainder of month
@@ -26,7 +26,7 @@ You are a Claude Code instance executing Syncrescendence directives. This contex
    - NO Perplexity or Grok for now
    - Goal: Accounts self-sustaining by month-end
 
-2. **Handoff Protocol**: Update CANON-25100 with Oracle Pedigree section
+2. **Handoff Protocol**: Update [[CANON-25100-CONTEXT_TRANS-lattice]] with Oracle Pedigree section
    - Handoffs become less necessary as work moves to repo
    - Pedigree supersedes handoff (accounts for multi-model orchestration)
 
@@ -66,12 +66,12 @@ You are a Claude Code instance executing Syncrescendence directives. This contex
 
 ### Why This Matters
 
-Claude Code wielded by Claude Opus 4.5 represents a **seismic step change**. The Principal has experienced this firsthand. We must capitalize on this heavy machinery to construct as much of Syncrescendence as possible while matching the accelerating pace of AI development.
+Claude Code wielded by Claude Opus 4.5 represents a **seismic step change**. The Sovereign has experienced this firsthand. We must capitalize on this heavy machinery to construct as much of Syncrescendence as possible while matching the accelerating pace of AI development.
 
 ### The 5-Platform Constellation
 
 ```
-PRINCIPAL (Strategic Sovereignty)
+SOVEREIGN (Strategic Sovereignty)
      │
      ├── CLAUDE ACCOUNTS (3x Pro, $60/mo)
      │   ├── Account 1 (Oracle): Strategic synthesis, project memory
@@ -97,7 +97,7 @@ Multi-agent systems with orchestrator + subagents outperform single-agent by **9
 
 ## CONSTITUTIONAL RULES
 
-1. **Flat Principle**: All directories remain flat. Use naming prefixes (ARCH-, DYN-, REF-), not subdirectories. Nesting requires Principal approval.
+1. **Flat Principle**: All directories remain flat. Use naming prefixes (ARCH-, DYN-, REF-), not subdirectories. Nesting requires Sovereign approval.
 
 2. **Metabolism**: Applies to CONTENT, not infrastructure. state/ and logs/ are maintained, never deleted.
 
@@ -168,4 +168,4 @@ All streams must:
 2. Update projects.csv if project status changes
 3. Create execution log
 4. Verify with `tree` and `wc -l` before declaring complete
-5. Move all outputs to /outputs for Principal access
+5. Move all outputs to /outputs for Sovereign access

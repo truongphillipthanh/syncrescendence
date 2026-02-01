@@ -67,7 +67,7 @@ wc -l 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
 
 ## PHASE 2: TECH TREE CANONIZATION VERIFICATION (~20 minutes)
 
-The Principal's old tech tree had three conceptual domains needing canonization verification:
+The Sovereign's old tech tree had three conceptual domains needing canonization verification:
 1. **Model Manual and Prompting**
 2. **Model Qualities, Capabilities and Benchmarks**
 3. **Platform Features and Ecosystem Leverage**
@@ -96,7 +96,7 @@ Create `00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md`:
 ## Oracle 12 Verification
 
 **Date**: 2026-01-11
-**Purpose**: Verify Principal's tech tree concepts have CANON coverage
+**Purpose**: Verify Sovereign's tech tree concepts have CANON coverage
 
 ---
 

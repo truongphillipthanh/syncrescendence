@@ -32,14 +32,14 @@ Complete review of all IIC-related CANON documents:
 
 | Document | ID | Lines | Purpose | Priority |
 |----------|----|----|---------|----------|
-| **IIC Constellation** | CANON-31140 | 1363 | Core framework | CRITICAL |
-| **Five-Account Architecture** | CANON-31141 | 2863 | Account specifications | CRITICAL |
-| **Platform Grammar** | CANON-31142 | ~2500 | Platform interaction rules | HIGH |
-| **Feed Curation** | CANON-31143 | ~2700 | Content stream management | HIGH |
-| **Memory Architecture** | CANON-25000 | 636 | Memory layer hierarchy | CRITICAL |
-| **Context Transfer** | CANON-25100 | ~500 | Cross-session continuity | HIGH |
-| **Seven-Layer Stack** | CANON-31130 | ~2200 | Technology infrastructure | HIGH |
-| **IIC Implementation** | CANON-31115 | ~1800 | Implementation details | MEDIUM |
+| **IIC Constellation** | [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] | 1363 | Core framework | CRITICAL |
+| **Five-Account Architecture** | [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] | 2863 | Account specifications | CRITICAL |
+| **Platform Grammar** | [[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] | ~2500 | Platform interaction rules | HIGH |
+| **Feed Curation** | [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] | ~2700 | Content stream management | HIGH |
+| **Memory Architecture** | [[CANON-25000-MEMORY_ARCH-lattice]] | 636 | Memory layer hierarchy | CRITICAL |
+| **Context Transfer** | [[CANON-25100-CONTEXT_TRANS-lattice]] | ~500 | Cross-session continuity | HIGH |
+| **Seven-Layer Stack** | [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] | ~2200 | Technology infrastructure | HIGH |
+| **IIC Implementation** | [[CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION]] | ~1800 | Implementation details | MEDIUM |
 
 ### 1.2 Reading Protocol
 
@@ -60,18 +60,18 @@ Create `SCAFF-IIC_RECONNAISSANCE.md`:
 ## PROJ-002 Discovery Phase
 
 **Generated**: 2026-01-09
-**Source Documents**: CANON-25000, 25100, 31115, 31130, 31140, 31141, 31142, 31143
+**Source Documents**: [[CANON-25000-MEMORY_ARCH-lattice]], 25100, 31115, 31130, 31140, 31141, 31142, 31143
 
 ---
 
 ## Key Principles Extracted
 
-### From CANON-31140 (IIC Constellation)
+### From [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation)
 1. {principle}
 2. {principle}
 ...
 
-### From CANON-31141 (Five-Account)
+### From [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Five-Account)
 1. {principle}
 2. {principle}
 ...
@@ -131,7 +131,7 @@ Create `SCAFF-IIC_RECONNAISSANCE.md`:
 
 ### 2.1 Memory Layer Hierarchy
 
-Per CANON-25000, there are seven memory strata. Map each to platform features:
+Per [[CANON-25000-MEMORY_ARCH-lattice]], there are seven memory strata. Map each to platform features:
 
 | Stratum | Name | Claude | ChatGPT | Gemini | Grok |
 |---------|------|--------|---------|--------|------|
@@ -170,9 +170,9 @@ For each IIC account, specify memory configuration:
 
 ### Stratum 4: Project Memory
 **Claude Project Files**:
-- CANON-31140 (IIC Constellation)
-- CANON-31141 (Five-Account Architecture)
-- CANON-31143 (Feed Curation)
+- [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation)
+- [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Five-Account Architecture)
+- [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Feed Curation)
 - FUNCTION_INDEX.md
 - AI_ECOSYSTEM_SURVEY.md
 
@@ -199,7 +199,7 @@ For each IIC account, specify memory configuration:
 2. **Platform-First**: Platform memory is primary. Corpus documents backup.
 3. **Hybrid**: Constitutional memory in corpus, operational memory in platforms.
 
-**Recommendation**: Option 1 (Corpus-First) per CANON-25000 Memory Sovereignty Principle.
+**Recommendation**: Option 1 (Corpus-First) per [[CANON-25000-MEMORY_ARCH-lattice]] Memory Sovereignty Principle.
 
 **Implementation**:
 - Create `OPERATIONAL/memory/` directory for memory configuration files
@@ -213,7 +213,7 @@ For each IIC account, specify memory configuration:
 
 ### 3.1 Account Activation Checklist
 
-Per CANON-31141, Acumen is the FIRST IIC to activate (Month 1-6 focus).
+Per [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]], Acumen is the FIRST IIC to activate (Month 1-6 focus).
 
 #### Pre-Configuration Requirements
 
@@ -274,7 +274,7 @@ Per CANON-31141, Acumen is the FIRST IIC to activate (Month 1-6 focus).
 
 ### 3.2 Platform Grammar Configuration
 
-Per CANON-31142, each platform has specific interaction protocols:
+Per [[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]], each platform has specific interaction protocols:
 
 #### Claude (Acumen)
 
@@ -304,7 +304,7 @@ Per CANON-31142, each platform has specific interaction protocols:
 
 ### 3.3 Feed Curation Configuration
 
-Per CANON-31143, configure four-dimensional feed strategy:
+Per [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]], configure four-dimensional feed strategy:
 
 #### Dimension 1: Abstraction Level
 
@@ -444,8 +444,8 @@ git add 02-ENGINE/memory/acumen-memory-config.md
 git commit -m "feat(IIC): create Acumen memory configuration
 
 - Stratum 2-5 specifications
-- Platform grammar per CANON-31142
-- Feed allocation per CANON-31143
+- Platform grammar per [[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
+- Feed allocation per [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
 - First IIC configuration for PROJ-002
 
 Resolves DIRECTIVE-043B Phase 3."
@@ -667,14 +667,14 @@ cat > 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md << 'EOF'
 
 ## Source Documents Reviewed
 
-1. CANON-25000 (Memory Architecture) - 636 lines
-2. CANON-25100 (Context Transfer) - ~500 lines
-3. CANON-31115 (IIC Implementation) - ~1800 lines
-4. CANON-31130 (Seven-Layer Stack) - ~2200 lines
-5. CANON-31140 (IIC Constellation) - 1363 lines
-6. CANON-31141 (Five-Account Architecture) - 2863 lines
-7. CANON-31142 (Platform Grammar) - ~2500 lines
-8. CANON-31143 (Feed Curation) - ~2700 lines
+1. [[CANON-25000-MEMORY_ARCH-lattice]] (Memory Architecture) - 636 lines
+2. [[CANON-25100-CONTEXT_TRANS-lattice]] (Context Transfer) - ~500 lines
+3. [[CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION]] (IIC Implementation) - ~1800 lines
+4. [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack) - ~2200 lines
+5. [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation) - 1363 lines
+6. [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Five-Account Architecture) - 2863 lines
+7. [[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Platform Grammar) - ~2500 lines
+8. [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Feed Curation) - ~2700 lines
 
 **Total**: ~14,500 lines of CANON reviewed
 
@@ -682,32 +682,32 @@ cat > 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md << 'EOF'
 
 ## Key Principles Extracted
 
-### From CANON-25000 (Memory Architecture)
+### From [[CANON-25000-MEMORY_ARCH-lattice]] (Memory Architecture)
 1. Memory is cognitive sovereignty - control memory, control continuity
 2. Seven memory strata from Constitutional (immutable) to Emergent (in-context)
 3. File system is ground truth; platform memory is operational cache
 4. Memory aligns with Three Horizons: Eternal → Canonical → Fluid
 
-### From CANON-31140 (IIC Constellation)
+### From [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation)
 1. Five IICs align with five developmental chains
 2. Each IIC has unique cognitive personality + operational grammar
 3. Zero functional overlap between IICs
 4. Integration occurs at Layer 7 (Meta-Intelligence)
 5. Sequential activation over months, not simultaneous launch
 
-### From CANON-31141 (Five-Account Architecture)
+### From [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Five-Account Architecture)
 1. Acumen first (Month 1-6) - must produce value before adding complexity
 2. Each IIC has Guiding Virtues triad shaping all decisions
 3. Dual-stream intelligence: Automated + Serendipitous discovery
 4. Daily Intelligence Brief is core Acumen output
 
-### From CANON-31142 (Platform Grammar)
+### From [[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Platform Grammar)
 1. Each platform has distinct interaction protocols
 2. Grammar shapes when to engage vs. lurk, reply vs. bookmark
 3. Consumption vs. production balance varies per platform
 4. Privacy vs. AI features tradeoff per IIC purpose
 
-### From CANON-31143 (Feed Curation)
+### From [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Feed Curation)
 1. Four-dimensional approach: Abstraction, Modality, Cadence, Fidelity
 2. Each IIC configures dimensions differently
 3. Signal tier system (S/A/B/C) for source qualification
@@ -720,7 +720,7 @@ cat > 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md << 'EOF'
 | Decision | Options | Recommendation | Rationale |
 |----------|---------|----------------|-----------|
 | Memory ground truth | Corpus-first vs Platform-first | Corpus-first | Sovereignty principle |
-| Initial IIC | Any of five | Acumen | CANON-31141 mandate |
+| Initial IIC | Any of five | Acumen | [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] mandate |
 | Platform priority | Single vs Multi | Multi (Claude + ChatGPT primary) | Leverage complementary strengths |
 | Feed automation | Full vs Hybrid | Hybrid | Preserve serendipity |
 | Configuration format | Markdown vs YAML | Markdown | Human-readable, portable |
@@ -743,7 +743,7 @@ cat > 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md << 'EOF'
 
 ## Conflicts/Ambiguities Resolved
 
-1. **Memory vs Platform**: Resolved to Corpus-first per CANON-25000
+1. **Memory vs Platform**: Resolved to Corpus-first per [[CANON-25000-MEMORY_ARCH-lattice]]
 2. **IIC activation order**: Clear mandate for Acumen-first
 3. **Platform selection**: Multi-platform with purpose-specific allocation
 4. **Automation level**: Hybrid to balance efficiency with discovery
@@ -753,7 +753,7 @@ cat > 00-ORCHESTRATION/state/SCAFF-IIC_RECONNAISSANCE.md << 'EOF'
 ## Next Steps (Post-Reconnaissance)
 
 1. Complete Acumen platform configuration
-2. Populate feed sources per CANON-31143 tiers
+2. Populate feed sources per [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] tiers
 3. Run 2-week Acumen validation
 4. If successful, begin Coherence IIC configuration
 
@@ -816,7 +816,7 @@ Stream B initiated PROJ-002 (IIC Configuration) with comprehensive CANON reconna
 - Next: Complete Acumen platform configuration
 
 ## Handoff Notes
-Acumen memory configuration created. Platform configuration pending Principal action (account creation/login).
+Acumen memory configuration created. Platform configuration pending Sovereign action (account creation/login).
 ```
 
 ---
@@ -864,7 +864,7 @@ grep "TASK-05\|TASK-06\|TASK-07" 00-ORCHESTRATION/state/tasks.csv
 | #2 Bitter Lesson | Multi-platform scales with capability | ✓ |
 | #6 Personal Idiosyncrasies | Memory config honors cognitive profile | ✓ |
 | #9 Agentify | Memory config enables self-orientation | ✓ |
-| #12 Industrial Engineering | Multi-account reduces Principal bottleneck | ✓ |
+| #12 Industrial Engineering | Multi-account reduces Sovereign bottleneck | ✓ |
 | #14 Permaculture | Feed curation creates self-sustaining streams | ✓ |
 
 ---

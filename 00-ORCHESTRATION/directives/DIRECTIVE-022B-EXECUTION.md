@@ -44,11 +44,11 @@ Successfully aligned all chain name terminology across the CANON corpus from old
 
 ### chains/30xxx Intelligence (13 files)
 - CANON-30000-INTELLIGENCE-chain.md ✓
-- CANON-30100 through CANON-30450 ✓
+- [[CANON-30100-ASA-comet-INTELLIGENCE]] through [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]] ✓
 
 ### chains/31xxx Information (13 files)
 - CANON-31000-INFORMATION-chain.md ✓
-- CANON-31100 through CANON-31143 ✓
+- [[CANON-31100-ACUMEN-planetary-INFORMATION]] through [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] ✓
 
 ### chains/32xxx-35xxx (17 files)
 - Updated via agent processing ✓
@@ -90,7 +90,7 @@ Planetary body names correctly preserved (69 occurrences verified):
 ## Notes
 
 - Backup files (.backup) intentionally not modified (historical preservation)
-- Stream A coordination: CANON-00000 and CANON-00007 were updated as part of this stream
+- Stream A coordination: [[CANON-00000-SCHEMA-cosmos]] and [[CANON-00007-EVALUATION-cosmos]] were updated as part of this stream
 - Some files had already been partially updated by prior work
 
 ---

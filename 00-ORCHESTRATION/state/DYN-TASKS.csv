@@ -6,8 +6,8 @@ TASK-004,PROJ-001,Process strategic sources,task,done,P2,Claude_Code,null,15,3,2
 TASK-005,null,Create project management system,task,done,P1,Claude_Code,null,3,1,2026-01-02,2026-01-02,DIRECTIVE-034B Phase 1 complete
 TASK-006,null,Reconcile QUEUE with roadmap,task,done,P1,Claude_Code,TASK-005,2,0.5,2026-01-02,2026-01-02,DIRECTIVE-034B Phase 3 complete
 TASK-007,null,Triage QUEUE/pending items,task,done,P1,Claude_Code,null,1,0.25,2026-01-02,2026-01-02,Inbox zero achieved
-TASK-008,PROJ-001,Review CONTENT_PROCESSING_QUEUE.md,task,not_started,P2,Claude_Code,null,1,null,2026-01-02,2026-01-02,May have overlapping info with sources.csv
-TASK-009,PROJ-001,Review YOUTUBE_PROCESSING_BACKLOG.md,task,not_started,P2,Claude_Code,null,1,null,2026-01-02,2026-01-02,May have additional sources not in SOURCES/raw
+TASK-008,PROJ-001,Review CONTENT_PROCESSING_QUEUE.md,task,done,P2,Claude_Code,null,1,0,2026-01-02,2026-02-01,SUPERSEDED: File merged into YOUTUBE_PROCESSING_BACKLOG.md per DYN-BACKLOG.md Queue Status
+TASK-009,PROJ-001,Review YOUTUBE_PROCESSING_BACKLOG.md,task,done,P2,Claude_Code,null,1,0,2026-01-02,2026-02-01,SUPERSEDED: File relocated to 02-ENGINE/queues/; queue disposition completed in Oracle 11
 TASK-010,PROJ-001,Complete Coherence qualified distillation,task,done,P1,DIRECTIVE-035A,null,4,2,2026-01-02,2026-01-02,3.8M recovered content distilled to CANON/ARCHIVE
 TASK-011,null,Create CANON-35210 Metahumanism,task,done,P1,Claude_Code,null,1,0.5,2026-01-02,2026-01-02,Distilled from 924K to ~10K
 TASK-012,null,Create CANON-00016 Ontological Framework,task,done,P1,Claude_Code,null,1,0.5,2026-01-02,2026-01-02,Mental Models integration (564K to 13K)
@@ -35,7 +35,7 @@ TASK-033,PROJ-001,DIRECTIVE-039A Phase 3 processing,processing,done,P1,Claude_Co
 TASK-034,PROJ-001,DIRECTIVE-039B Phase 1-2 structural,structural,done,P1,Claude_Code_3,null,0.42,0.42,2026-01-05,2026-01-05,ARCHIVE/ scaffolding/ and EXEMPLA/ flattened
 TASK-035,PROJ-001,DIRECTIVE-039B Phase 3 processing,processing,done,P1,Claude_Code_3,null,1.5,1.5,2026-01-05,2026-01-05,13 sources processed; 6 CANON integrations
 TASK-036,PROJ-001,DIRECTIVE-040A hygiene+ledger,hygiene,done,P1,Claude_Code_2,null,0.75,0.75,2026-01-05,2026-01-05,Root cleanup; all ledgers synchronized; 46 processed files
-TASK-037,PROJ-001,DIRECTIVE-040B completion gate,verification,pending,P1,Claude_Code_3,null,1.0,null,2026-01-05,2026-01-05,40+ sources; PROJ-001 complete
+TASK-037,PROJ-001,DIRECTIVE-040B completion gate,verification,done,P1,Claude_Code_3,null,1.0,0,2026-01-05,2026-02-01,SUPERSEDED: PROJ-001 marked COMPLETE in Oracle 10. 43 sources processed per DYN-BACKLOG.md
 TASK-040,PROJ-011,Create CLAUDE.md,infrastructure,done,P0,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,Constitutional rules deployed at repo root (64 lines)
 TASK-041,PROJ-011,Create custom commands,infrastructure,done,P0,Claude_Code_2,TASK-040,0.5,0.5,2026-01-08,2026-01-08,4 commands in .claude/commands/project/
 TASK-042,PROJ-011,Create Makefile,infrastructure,done,P0,Claude_Code_2,TASK-040,0.25,0.25,2026-01-08,2026-01-08,5 targets: help verify sync update-ledgers tree clean
@@ -50,7 +50,7 @@ TASK-053,null,Update DYN-BACKLOG.md,documentation,done,P1,Claude_Code_3,null,0.2
 TASK-048,null,Root pollution cleanup,hygiene,done,P1,Claude_Code_2,null,0.25,0.25,2026-01-08,2026-01-08,Relocated 6 files from root (directives + oracle contexts)
 TASK-049,null,Research artifact protocol,documentation,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,REF-RESEARCH_ARTIFACTS.md + cleanup_root.sh
 TASK-050,null,Major restructuring commit,structural,done,P1,Claude_Code_2,null,0.5,0.5,2026-01-08,2026-01-08,537 files migrated to new numbering scheme
-TASK-053,PROJ-012,Test Gemini CLI basic operations,task,blocked,P2,Claude_Code,null,1,0.5,2026-01-09,2026-01-09,BLOCKED: Gemini CLI not installed on system
+TASK-053,PROJ-012,Test Gemini CLI basic operations,task,done,P2,Claude_Code,null,1,0.5,2026-01-09,2026-02-01,UNBLOCKED: Gemini CLI installed at /opt/homebrew/bin/gemini. Validated in TASK-074.
 TASK-054,PROJ-012,Draft GEMINI.md,task,not_started,P2,Claude_Code,TASK-053,0.5,null,2026-01-09,2026-01-09,DIRECTIVE-043A Phase 2 - blocked by TASK-053
 TASK-055,null,Restore system prompt ground truth,task,done,P0,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 1 - synthesis files restored; backups created
 TASK-056,null,Complete queue disposition,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 3 - modal1 cleared; modal2 unchanged
@@ -94,3 +94,25 @@ TASK-098,PROJ-001,CANON SN Conversion (bulk) - Lane A,task,done,P0,Claude_Code,n
 TASK-099,PROJ-001,CANON SN Audit + Finalization,task,done,P0,Claude_Code,TASK-098,1.5,1.0,2026-01-23,2026-01-24,Claude takeover from Gemini. SN finalized. Originals backed to 05-MEMORY/canon-pre-sn/.
 TASK-100,PROJ-001,Sovereign Terminology Cascade,task,done,P0,Claude_Code,null,0.25,0.25,2026-01-24,2026-01-24,Principal → Sovereign throughout corpus. Philosophical alignment.
 TASK-101,PROJ-001,Obsidian Backlinks Implementation,task,done,P2,Claude_Code,null,0.5,0.5,2026-01-24,2026-01-24,Fixed script. Added [[CANON-XXXXX]] wiki-links across CANON ENGINE ORCHESTRATION.
+TASK-102,PROJ-DESKTOP,Ingest Desktop/todos into DYN-TASKS + DYN-BACKLOG coherently,planning,done,P0,Ajna,null,1,0.5,2026-01-31,2026-02-01,DONE: All todo items captured as TASK-104 through TASK-119. Source files deleted from -INBOX.
+TASK-103,PROJ-DESKTOP,Desktop-wide survey (exclude .git + frozen zips) → plan for ingestion into Syncrescendence,survey,not_started,P0,Ajna,null,2,,2026-01-31,2026-01-31,Deliver: DESKTOP_INGESTION_PLAN.md + per-folder disposition tree.
+TASK-104,PROJ-TELEOLOGY,Accretion verification: Obsidian graph coherence test (canon solar system),verification,not_started,P0,Ajna,null,1,,2026-01-31,2026-01-31,From todos/teleology macro + Ajna9 Stream E; output report into 00-ORCHESTRATION/.
+TASK-105,PROJ-TELEOLOGY,Teleology database: enumerate platform surfaces/features → schema + registry,design,not_started,P1,Ajna,null,3,,2026-01-31,2026-01-31,From todos/4-TELEOLOGY/01 - AI.md; likely outputs: 02-ENGINE/registries/*.
+TASK-106,PROJ-TELEOLOGY,Stack teleology: decide role of incumbents vs OpenClaw/Cowork (Linear/Obsidian/Notion/etc.),design,not_started,P1,Ajna,null,2,,2026-01-31,2026-01-31,From todos/4-TELEOLOGY/02 - STACK.md; feeds Palantir-like ontology.
+TASK-107,PROJ-TELEOLOGY,Hardware teleology: device roles (phone/tablet/laptop/mac mini) in constellation,design,not_started,P2,Ajna,null,1,,2026-01-31,2026-01-31,From todos/4-TELEOLOGY/04 - HARDWARE.md
+TASK-108,PROJ-LEXICON,"Lexicon: catalog repeated idiosyncratic terms (Triumvirate, FIDS, accretion, etc.) → Rosetta + glossary",documentation,not_started,P0,Ajna,null,2,,2026-01-31,2026-01-31,From todos/5-CONFIG/LEXICON.md; aligns with Ajna9 Stream A.
+TASK-109,PROJ-UX,RTS interaction dynamics: configure keyboard/mouse/voice for “synapticality”,setup,not_started,P2,Ajna,null,2,,2026-01-31,2026-01-31,From todos/5-CONFIG/MACROS.md
+TASK-110,PROJ-FEEDCRAFT,Feedcraft: X bookmarks triage + extraction pipeline,pipeline,not_started,P2,Ajna,null,2,,2026-01-31,2026-01-31,From todos/1 - RECON.md Feedcraft.
+TASK-111,PROJ-FEEDCRAFT,"YouTube Watch Later: pick 80/20 for Syncrescendence, process into SOURCES",processing,not_started,P3,Ajna,null,3,,2026-01-31,2026-01-31,From todos/1 - RECON.md
+TASK-112,PROJ-RESEARCH,Assess whether Codex CLI + Gemini CLI need deep research parity with Claude Code,research,not_started,P1,Ajna,null,2,,2026-01-31,2026-01-31,From todos/1 - RESEARCH.md; ties to Ajna9 Stream D.
+TASK-113,PROJ-IIC,IIC accounts: confirm + document 8-account map (A1-A8) + usage,documentation,not_started,P1,Ajna,null,1,,2026-01-31,2026-01-31,From todos/10 - CONSOLIDATION/.md
+TASK-114,PROJ-BESPOKE,Bespoke native macOS apps list → backlog epics + feasibility,planning,not_started,P3,Ajna,null,2,,2026-01-31,2026-01-31,From todos/7 - DEVELOPMENT/BESPOKE APPS.md
+TASK-115,PROJ-AUDIZE,Audize: improve script + multi-pass workflow; evaluate config_layers/gem,engineering,not_started,P2,Ajna,null,2,,2026-01-31,2026-01-31,From todos/6 - SCRIPTS.../audize.md
+TASK-116,PROJ-STYLE,Setup: style/branding/entification research pipeline,research,not_started,P3,Ajna,null,2,,2026-01-31,2026-01-31,From todos/9 - SETUP/LAUNCH.md
+TASK-117,PROJ-LIFE,IEETC: prep NEC + interview practice + obligation resolution,personal,not_started,P0,Ajna,null,4,,2026-01-31,2026-01-31,From todos/2 - IEETC.md; interview Feb 10 2026 2:15 PM.
+TASK-118,PROJ-LIFE,CHAFFEY: follow up w/ Hector + EOPS + student discounts,personal,not_started,P2,Ajna,null,1,,2026-01-31,2026-01-31,From todos/3 - CHAFFEY.md
+TASK-119,PROJ-LIFE,Home chores: restroom + water filters + flood lights + dye clothes + wifi extender,personal,not_started,P2,Ajna,null,2,,2026-01-31,2026-01-31,From todos/CHORES.md
+TASK-120,PROJ-TELEOLOGY,Ajna9 Stream C: Draft Fleet Commander’s Handbook (Syncrescendent) in -INBOX/outputs,documentation,not_started,P1,Ajna,null,2,,2026-01-31,2026-01-31,Draft created; expand to full procedure set.
+TASK-121,PROJ-TELEOLOGY,Ajna9 Stream C: Integrate handbook into 02-OPERATIONAL (commit),documentation,not_started,P1,Ajna,null,2,,2026-01-31,2026-01-31,Requires executor commit after review.
+TASK-122,PROJ-RESEARCH,Ajna9 Stream D: Draft research pipeline skill (evidence→diff→operationalize),documentation,not_started,P1,Ajna,null,2,,2026-01-31,2026-01-31,Draft in -INBOX/ajna9/STREAM_D_RESEARCH_PIPELINE_SKILL.DRAFT.md
+TASK-123,PROJ-DESKTOP,Desktop ingestion: legacy Tech folder → ontology registry mapping proposal,survey,not_started,P1,Ajna,null,3,,2026-01-31,2026-01-31,From legacy/Tech capability blockers; feeds Palantir-like ontology

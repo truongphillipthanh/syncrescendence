@@ -14,7 +14,7 @@
 
 You are Claude 2, executing Stream A of Blitzkrieg 41. You have received this directive alongside ORACLE10_CONTEXT_v3.md. **READ THE CONTEXT FIRST.**
 
-**Your mandate**: Deploy CLAUDE.md, custom commands, Makefile, and settings configuration to address the Industrial Engineering lens failure (Principal relay bottleneck).
+**Your mandate**: Deploy CLAUDE.md, custom commands, Makefile, and settings configuration to address the Industrial Engineering lens failure (Sovereign relay bottleneck).
 
 **Critical understanding**: This is not optional infrastructure — it's the foundation that makes all future work more efficient. Every minute invested here saves hours of relay friction.
 
@@ -37,7 +37,7 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 ### Structural (ABSOLUTE)
 1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-) instead of subdirectories.
 2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06. Do not create unnumbered directories at root.
-3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Principal approval for deletions.
+3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
 
 ### Semantic (ABSOLUTE)
 4. **DISTILLATION SEMANTICS**: "Metabolize/distill" = READ → EXTRACT unique value → COMPRESS → DELETE originals. NOT organizational restructuring.
@@ -604,4 +604,4 @@ Stream A is complete when:
 
 ---
 
-*Industrial Engineering lens addressed. Principal relay friction reduced. Infrastructure enables everything.*
+*Industrial Engineering lens addressed. Sovereign relay friction reduced. Infrastructure enables everything.*

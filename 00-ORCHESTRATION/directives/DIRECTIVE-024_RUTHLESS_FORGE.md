@@ -456,7 +456,7 @@ After cleanup, verify repository can be:
 
 **Large satellites (100K+) are not automatically bloat.**
 
-Technical and tactical documents (CANON-31141, 31142, 31143) may legitimately require extensive specification. The question is not "is it large?" but:
+Technical and tactical documents ([[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]], 31142, 31143) may legitimately require extensive specification. The question is not "is it large?" but:
 
 1. **First Principles**: Does each section justify its existence?
 2. **Potency**: Is every paragraph earning its tokens?

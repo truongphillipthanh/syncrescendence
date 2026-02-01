@@ -21,10 +21,10 @@ Successfully executed all five phases of infrastructure stabilization directive.
 
 **Duration**: 45 minutes
 
-#### A1. CANON-00011 Identity Collision
-- ✅ Verified collision (4 instances of CANON-00007 in CANON-00011)
-- ✅ Replaced all instances with CANON-00011
-- ✅ Verified fix (0 remaining CANON-00007 references)
+#### A1. [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]] Identity Collision
+- ✅ Verified collision (4 instances of [[CANON-00007-EVALUATION-cosmos]] in [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]])
+- ✅ Replaced all instances with [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]]
+- ✅ Verified fix (0 remaining [[CANON-00007-EVALUATION-cosmos]] references)
 
 **Changed**:
 - Line 17: Note about 5-digit format
@@ -219,7 +219,7 @@ All macros include safety flags, customization notes, and installation steps.
 
 ## Success Criteria Verification
 
-- [x] CANON-00011 no longer contains "CANON-00007" internally (verified: 0 matches)
+- [x] [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]] no longer contains "[[CANON-00007-EVALUATION-cosmos]]" internally (verified: 0 matches)
 - [x] All 10 consistency violations resolved
 - [x] README.md exists in 01-CANON/, 00-ORCHESTRATION/, 02-ENGINE/
 - [x] .github/CONNECTOR_PROTOCOL.md exists
@@ -246,7 +246,7 @@ feat(infrastructure): Complete infrastructure stabilization directive
 **Changes**:
 - 22 files created (-OUTGOING artifacts from parallel work)
 - 8 infrastructure files created (this directive)
-- 2 files modified (CANON-00011, OPERATIONAL README)
+- 2 files modified ([[CANON-00011-ARTIFACT_PROTOCOL-cosmos]], OPERATIONAL README)
 - 4 files archived
 - 3 files renamed
 - 1 file deleted (.tmp.driveupload)
@@ -339,7 +339,7 @@ feat(infrastructure): Complete infrastructure stabilization directive
 
 ---
 
-## Handoff to Principal
+## Handoff to Sovereign
 
 Infrastructure stabilization complete. Corpus foundation is clean, documented, and ready for semantic compression layer.
 

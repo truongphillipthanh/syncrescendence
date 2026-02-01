@@ -1,7 +1,7 @@
 # DIRECTIVE-028: FINAL STRUCTURAL PASS
 ## Phase 2 Completion — Claude Code
 **Issued**: 2025-12-31
-**Authority**: Oracle7 under Principal direction
+**Authority**: Oracle7 under Sovereign direction
 **Classification**: CRITICAL — Phase 2 Completion
 **Mode**: FINAL PASS — After this, we move to content work
 
@@ -13,7 +13,7 @@ That document contains all Oracle 0-7 decisions, the 18 evaluative lenses, and c
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "The tree still displays non-optimal organization, especially in the OPERATIONAL folder. What's the logic here? Awful. Apply 18 standards to rearchitect."
 
@@ -556,7 +556,7 @@ After successful execution of this directive:
 
 1. **Repository structure is FINAL** — No more structural changes
 2. **Ready for content work** — Scripture verification, content pipeline activation
-3. **Project Files can be updated** — Principal should re-upload to Claude Project
+3. **Project Files can be updated** — Sovereign should re-upload to Claude Project
 
 ---
 

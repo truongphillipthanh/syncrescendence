@@ -13,7 +13,7 @@ Recovery operations (DIRECTIVE-034A) restored content that now violates pristine
 
 **Total Bloat Directories Identified**: 6
 **Files Audited**: ~200+
-**Unique Value Extracted**: CANON-00017, partial integrations
+**Unique Value Extracted**: [[CANON-00017-AGENTIC_CONSTITUTION-cosmos]], partial integrations
 **Recommended Deletions**: 5 directories (after value extraction confirmed)
 
 ---
@@ -48,10 +48,10 @@ Recovery operations (DIRECTIVE-034A) restored content that now violates pristine
 
 | Content | Action | Rationale |
 |---------|--------|-----------|
-| `syncrescendence_convergence.md` | RELEASE | Absorbed into CANON-00001 |
-| `evaluation/*` | RELEASE | Methodology superseded by CANON-00007 |
+| `syncrescendence_convergence.md` | RELEASE | Absorbed into [[CANON-00001-ORIGIN-cosmos]] |
+| `evaluation/*` | RELEASE | Methodology superseded by [[CANON-00007-EVALUATION-cosmos]] |
 
-**Recommendation**: DELETE entire `remnants/` directory after confirming no Principal objection.
+**Recommendation**: DELETE entire `remnants/` directory after confirming no Sovereign objection.
 
 ---
 
@@ -64,7 +64,7 @@ Recovery operations (DIRECTIVE-034A) restored content that now violates pristine
 | `constitution.md` | ~3K | Early constitutional framework |
 | `operational_engine.md` | ~8K | Processing engine description |
 | `meta_narrative_and_perspectival_schemas.md` | ~35K | **SIGNIFICANT** - Narrative frameworks |
-| `macroscopic_narratives.md` | ~20K | **INTEGRATED** → CANON-00015 |
+| `macroscopic_narratives.md` | ~20K | **INTEGRATED** → [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] |
 | `youtube_subscription_list.md` | ~15K | **OPERATIONAL** - Feed curation data |
 | `planetary_acumen_reframing.md` | ~5K | Early Acumen conceptualization |
 | `0/` subdirectory | ~20K | Genesis documents |
@@ -84,15 +84,15 @@ Recovery operations (DIRECTIVE-034A) restored content that now violates pristine
 
 | File | Action | Rationale |
 |------|--------|-----------|
-| `macroscopic_narratives.md` | ALREADY INTEGRATED | → CANON-00015 |
-| `youtube_subscription_list.md` | **INTEGRATE** | → CANON-31143 (Feed Curation) |
-| `meta_narrative_and_perspectival_schemas.md` | EVALUATE | Check overlap with CANON-20000 series |
-| `constitution.md` | RELEASE | Superseded by CANON-00017 |
-| `operational_engine.md` | RELEASE | Superseded by CANON-00010 |
+| `macroscopic_narratives.md` | ALREADY INTEGRATED | → [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] |
+| `youtube_subscription_list.md` | **INTEGRATE** | → [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Feed Curation) |
+| `meta_narrative_and_perspectival_schemas.md` | EVALUATE | Check overlap with [[CANON-20000-PALACE-lattice]] series |
+| `constitution.md` | RELEASE | Superseded by [[CANON-00017-AGENTIC_CONSTITUTION-cosmos]] |
+| `operational_engine.md` | RELEASE | Superseded by [[CANON-00010-OPERATIONS-cosmos]] |
 | `0/`, `1/` subdirectories | ARCHIVE | Genesis archaeology |
 
 **Recommendation**:
-1. Integrate `youtube_subscription_list.md` into CANON-31143
+1. Integrate `youtube_subscription_list.md` into [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
 2. Evaluate `meta_narrative_and_perspectival_schemas.md` for unique value
 3. DELETE remaining after extraction
 
@@ -220,7 +220,7 @@ From earlier glob, contains:
 | Nontheism synthesis | → CANON-35210-METAHUMANISM |
 | Metaphysicalism synthesis | → CANON-35210-METAHUMANISM |
 | Code of conduct | → CANON-35110-TRANS_SYSTEM |
-| Profile/Autopsychography | → Principal cognitive profile (system prompts) |
+| Profile/Autopsychography | → Sovereign cognitive profile (system prompts) |
 
 ### 18-Lens Evaluation
 
@@ -234,10 +234,10 @@ From earlier glob, contains:
 
 ### Disposition
 
-**Recommendation**: DEFER to Principal for review
+**Recommendation**: DEFER to Sovereign for review
 
-The Transcendence content represents personal philosophical synthesis. While largely absorbed into CANON-35210, the detailed breakdowns (21 files) may have archival or reference value. Principal should confirm:
-- Is the detailed synthesis (7 files × 3 traditions) valuable beyond CANON-35210 summary?
+The Transcendence content represents personal philosophical synthesis. While largely absorbed into [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]], the detailed breakdowns (21 files) may have archival or reference value. Sovereign should confirm:
+- Is the detailed synthesis (7 files × 3 traditions) valuable beyond [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] summary?
 - Should Profile/Autopsychography inform system prompt updates?
 
 ---
@@ -256,10 +256,10 @@ The Transcendence content represents personal philosophical synthesis. While lar
 
 | Directory | Extract First | Then Delete |
 |-----------|--------------|-------------|
-| `intelligence architecture/` | `youtube_subscription_list.md` → CANON-31143 | Yes |
+| `intelligence architecture/` | `youtube_subscription_list.md` → [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] | Yes |
 | `0-prompts/` | Document archaeology → ARCHIVE | Yes |
 
-### Requires Principal Review
+### Requires Sovereign Review
 
 | Directory | Decision Needed |
 |-----------|-----------------|
@@ -294,7 +294,7 @@ The Transcendence content represents personal philosophical synthesis. While lar
 
 ---
 
-## CANON-00017 STATUS
+## [[CANON-00017-AGENTIC_CONSTITUTION-cosmos]] STATUS
 
 The file `CANON-00017-AGENTIC_CONSTITUTION-cosmos.md` already exists at repository root with complete content from Gemini strategic dialogue:
 
@@ -322,11 +322,11 @@ The file `CANON-00017-AGENTIC_CONSTITUTION-cosmos.md` already exists at reposito
 
 ## NEXT STEPS
 
-1. **Principal Approval**: Review deletion recommendations
+1. **Sovereign Approval**: Review deletion recommendations
 2. **Value Extraction**:
-   - `youtube_subscription_list.md` → CANON-31143
+   - `youtube_subscription_list.md` → [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]
    - `0-prompts/` → ARCHIVE-PROMPT-ARCHAEOLOGY.md
-3. **CANON-00017 Integration**: Move from root to CANON/
+3. **[[CANON-00017-AGENTIC_CONSTITUTION-cosmos]] Integration**: Move from root to CANON/
 4. **Deletion Execution**: Remove approved directories
 5. **QUEUE Resolution**: Process modal1/, document modal2/ deferral
 6. **System Prompts**: Create canonical structure

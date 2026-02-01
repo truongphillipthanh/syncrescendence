@@ -11,7 +11,7 @@ decision_timestamp: 2026-01-21T04:30:00Z
 ### Decision Context
 trigger: Constellation infrastructure complete (DIR-20260120-CONSTELLATION-INFRASTRUCTURE), corpus sensing report received from Gemini CLI, handoff protocol design requires implementation
 alternatives_considered:
-  - Incremental directives (small bites): Rejected—creates expensive coherence reconstruction cycles, violates "Principal is bottleneck" principle
+  - Incremental directives (small bites): Rejected—creates expensive coherence reconstruction cycles, violates "Sovereign is bottleneck" principle
   - Full corpus annealment in one pass: Rejected—too risky; token economics issues in CANON require careful handling
   - Infrastructure-only pass (no canonization): Rejected—sensing report shows "Shadow Canon" in -INBOX blocking downstream work
 selected_approach: Phased comprehensive directive addressing infrastructure + critical canonization + nomenclature in single execution cycle
@@ -28,14 +28,14 @@ selection_rationale: |
 - Flat Principle: All new directories must be flat (no nesting beyond one level)
 - Metadata prefixes: ARCH-, CANON-, REF-, DYN-, DIR-, TEMPLATE-
 - Execution logs must persist to 00-ORCHESTRATION/execution_logs/
-- Principal checkpoints are real gates, not rubber stamps
+- Sovereign checkpoints are real gates, not rubber stamps
 
 ### Dependencies
 - prior_handoff: DIR-20260120-CONSTELLATION-INFRASTRUCTURE (COMPLETE)
 - requires_completion_of: Gemini corpus sensing sweep (COMPLETE - report attached)
 - blocks: Corpus annealment Phase 2 (token economics), YouTube processing pipeline
 
-### Principal Checkpoints
+### Sovereign Checkpoints
 - [ ] Reviewed lens analysis (25/25 pass)
 - [ ] Confirmed assumptions still valid
 - [ ] Approved for execution
@@ -70,7 +70,7 @@ Success state: A repository where handoffs are verifiable, execution is logged, 
 ## CONSTRAINTS
 
 - All file operations are reversible via git (Type 2 decisions)
-- Do NOT modify files >50KB without explicit Principal approval
+- Do NOT modify files >50KB without explicit Sovereign approval
 - Do NOT delete any files—archive instead
 - Do NOT flatten -OUTGOING historical bundles (tolerated violation)
 - Preserve all git history
@@ -154,7 +154,7 @@ selection_rationale: |
 - requires_completion_of: [prerequisites]
 - blocks: [downstream work]
 
-### Principal Checkpoints
+### Sovereign Checkpoints
 - [ ] Reviewed decision rationale
 - [ ] Confirmed assumptions still valid
 - [ ] Approved for execution
@@ -572,7 +572,7 @@ git commit -m "feat(semantic-annealment): Phase 1 complete - infrastructure, can
 
 - Execution log system with templates and Makefile targets
 - Enhanced handoff token generation with JSON format
-- Canonized teleology docs (CANON-25010, CANON-25210)
+- Canonized teleology docs ([[CANON-25010-MEMORY_TELEOLOGY-lattice]], [[CANON-25210-CONSTELLATION_TELEOLOGY-lattice]])
 - Operationalized protocols and registries
 - Fixed nomenclature violations (DYN-, REF- prefixes)
 - Installed Gemini sensing prompt
@@ -591,7 +591,7 @@ make token-full PHASE=annealment-p1 NEXT=annealment-p2 FROM_PLATFORM=claude-code
 
 After this directive completes:
 
-1. **Token Economics Pass** (Phase 2): Address 100KB+ files in CANON (CANON-00005, CANON-31141, CANON-31143) — requires Principal decision on split strategy
+1. **Token Economics Pass** (Phase 2): Address 100KB+ files in CANON ([[CANON-00005-SYNCRESCENDENCE-cosmos]], [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]], [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]]) — requires Sovereign decision on split strategy
 2. **Flat Principle Sweep**: Clean up nested directories in 04-SOURCES/raw/claudecode (3 levels) — may require restructuring raw source organization
 3. **Hidden Intentions Audit**: Surface unpaid debts from Archive (Oracle9 transcript processing, Claude Web utilization)
 4. **YouTube Pipeline**: Now unblocked by handoff infrastructure — design ingestion flow
@@ -642,4 +642,4 @@ After this directive completes:
 
 **END DIRECTIVE**
 
-*This directive was produced by Claude Web (Ajna4 thread) following 25/25 lens analysis. Decision envelope attached. Principal checkpoint required before execution.*
+*This directive was produced by Claude Web (Ajna4 thread) following 25/25 lens analysis. Decision envelope attached. Sovereign checkpoint required before execution.*

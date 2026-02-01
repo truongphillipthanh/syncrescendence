@@ -696,7 +696,7 @@ Hello! Tim Scarfe speaking here. You have reached our little corner of the inter
 Who Are We?
 
 "Machine Learning Street Talk" co-hosts Tim Scarfe and Keith Duggar.
-Dr. Tim Scarfe (left) started a successful software startup called Dot Net Solutions back in 2003, he has done stints at Microsoft as a Principal Engineer, Chief Data Scientist at bp, and founded several other tech startups and has a Ph.D in machine learning and a first-class degree in computer science.
+Dr. Tim Scarfe (left) started a successful software startup called Dot Net Solutions back in 2003, he has done stints at Microsoft as a Sovereign Engineer, Chief Data Scientist at bp, and founded several other tech startups and has a Ph.D in machine learning and a first-class degree in computer science.
 
 Dr. Keith Duggar (right) who is often a co-interviewer on MLST — obtained his Ph.D from MIT and has done stints at IBM research, Wall Street, and Microsoft.
 

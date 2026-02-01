@@ -69,7 +69,7 @@ For each major concept:
 ### Before (Verbose Prose)
 
 ```markdown
-# CANON-00003: The Axiological Constants
+# [[CANON-00003-PRINCIPLES-cosmos]]: The Axiological Constants
 
 The Axiological Constants represent the minimal universal values
 that any consciousness system must preserve regardless of substrate

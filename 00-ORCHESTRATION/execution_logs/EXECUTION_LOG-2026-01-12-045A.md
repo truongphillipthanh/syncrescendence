@@ -46,7 +46,7 @@ Both created by Claude 3 (Stream B execution occurred first).
 - Defines Pedigree vs Handoff distinction
 - Contains pedigree components: Oracle lineage, campaign status, project state, key decisions, active intentions
 - Process for session initialization and context document creation
-- Integration with CANON-25100 Part IX specified
+- Integration with [[CANON-25100-CONTEXT_TRANS-lattice]] Part IX specified
 - Cross-platform pedigree tracking included
 
 ### Assessment

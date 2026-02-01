@@ -24,7 +24,7 @@
   - Comprehensive schema with 5 categories (urgent, sprint, backlog, pattern, capture)
   - ID format: INT-XXYY and INT-PXXX for patterns
   - Integration protocol and dependency mapping
-- Extracted Oracle Pedigree pattern from CANON-25100 Part IX
+- Extracted Oracle Pedigree pattern from [[CANON-25100-CONTEXT_TRANS-lattice]] Part IX
   - Pedigree vs Handoff distinction
   - 5 core components: lineage, campaign, projects, decisions, intentions
   - Cross-platform tracking
@@ -43,7 +43,7 @@ Successfully created standard Claude Code skills location.
 #### 2.2 Create intentions.md
 Created `.claude/skills/intentions.md` with:
 - **174 lines** of comprehensive skill documentation
-- Purpose: Extract, categorize, and track Principal intentions
+- Purpose: Extract, categorize, and track Sovereign intentions
 - When to Use: 5 trigger patterns identified
 - Process: 4-phase workflow (Capture, Categorization, ID Assignment, Integration)
 - Output Format: Compass entry YAML + quick capture format
@@ -68,7 +68,7 @@ Created `.claude/skills/pedigree.md` with:
 - Output Format: Quick pedigree + full document template
 - Examples: Good pedigree openings and cross-session references
 - Anti-Patterns: 5 common mistakes to avoid
-- Integration guidance with CANON-25100 Part IX
+- Integration guidance with [[CANON-25100-CONTEXT_TRANS-lattice]] Part IX
 - Cross-references to state documents
 
 ---
@@ -131,7 +131,7 @@ wc -l .claude/skills/intentions.md
 - Output format specifications (quick + full templates)
 - 2 worked examples (opening + reference)
 - 5 anti-patterns
-- Integration with CANON-25100 Part IX
+- Integration with [[CANON-25100-CONTEXT_TRANS-lattice]] Part IX
 - Maintenance guidelines
 
 **Verification**:
@@ -236,7 +236,7 @@ Breakdown:
 ### Skill Design Decisions
 
 1. **Process-Level Focus**: Both skills target repeatable processes (intention extraction, pedigree management) rather than one-off functions
-2. **Integration Documentation**: Each skill explicitly references its authoritative source document (ARCH-INTENTION_COMPASS.md, CANON-25100 Part IX)
+2. **Integration Documentation**: Each skill explicitly references its authoritative source document (ARCH-INTENTION_COMPASS.md, [[CANON-25100-CONTEXT_TRANS-lattice]] Part IX)
 3. **Anti-Pattern Emphasis**: Included 5-6 anti-patterns per skill based on observed failure modes from Oracle history
 4. **Format Consistency**: Both skills follow identical structure for ease of navigation
 

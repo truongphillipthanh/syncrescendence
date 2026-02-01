@@ -307,7 +307,7 @@ Oracle 10 completed two major initiatives:
 | 12. Industrial Engineering | ✓ | Bottleneck addressed |
 | 13. Complexity Theory | ✓ | Emergence preserved, complication removed |
 | 14. Permaculture | ✓ | Self-sustaining patterns established |
-| 15. Design Thinking | ✓ | Principal needs addressed |
+| 15. Design Thinking | ✓ | Sovereign needs addressed |
 | 16. Agile | ✓ | MVIs achieved in each blitzkrieg |
 | 17. Lean | ✓ | Waste eliminated (manual relay) |
 | 18. Six Sigma | ✓ | Root cause (relay) addressed |

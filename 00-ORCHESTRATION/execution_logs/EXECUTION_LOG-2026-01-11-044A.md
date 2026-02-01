@@ -59,7 +59,7 @@ wc -l ARCH-INTENTION_COMPASS.md
 ## PHASE 2: TECH TREE CANONIZATION AUDIT
 
 ### Objective
-Verify Principal's original tech tree domains have CANON coverage
+Verify Sovereign's original tech tree domains have CANON coverage
 
 ### Domains Audited
 1. Model Manual and Prompting
@@ -102,7 +102,7 @@ Created comprehensive audit report with:
 | Capabilities | 73 | Sufficient | P4 — Correct architecture |
 | Platforms | 77 | Sufficient | P4 — Excellent coverage |
 
-**Insight**: Principal's tech tree has been successfully canonized. Coverage anxiety stemmed from organizational transformation (flat tree → celestial taxonomy), not actual gaps.
+**Insight**: Sovereign's tech tree has been successfully canonized. Coverage anxiety stemmed from organizational transformation (flat tree → celestial taxonomy), not actual gaps.
 
 ### Files Created
 - `00-ORCHESTRATION/state/ARCH-TECH_TREE_AUDIT.md` (250 lines)
@@ -175,7 +175,7 @@ Based on audit findings:
 | INT-1212 (Capabilities) | active | **resolved** | 73 CANON files with correct temporal/evergreen split |
 | INT-1213 (Blitzkrieg spec) | active | **active** | Still requires formalization in CLAUDE.md or coordination.yaml |
 
-**Note**: Principal should review audit and approve status changes.
+**Note**: Sovereign should review audit and approve status changes.
 
 ---
 
@@ -187,8 +187,8 @@ Based on audit findings:
 
 ### Next Actions
 1. Await completion of DIRECTIVE-044B
-2. Principal review of audit findings
-3. Update INT-1210-1212 status if Principal approves resolutions
+2. Sovereign review of audit findings
+3. Update INT-1210-1212 status if Sovereign approves resolutions
 4. Address INT-1213 (Blitzkrieg spec) in future directive
 
 ---

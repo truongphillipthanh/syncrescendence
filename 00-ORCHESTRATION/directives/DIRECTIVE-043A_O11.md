@@ -49,8 +49,8 @@ cd 02-ENGINE/prompts/unified/
 mkdir -p ../../../05-MEMORY/prompt-backup-043A/
 cp *-unified-prompt.md ../../../05-MEMORY/prompt-backup-043A/
 
-# Copy synthesis files (from outputs or Principal drop)
-# Principal will provide these files at root level
+# Copy synthesis files (from outputs or Sovereign drop)
+# Sovereign will provide these files at root level
 cp /path/to/synthesis-chatgpt.md ChatGPT-unified-prompt.md
 cp /path/to/synthesis-claude.md Claude-unified-prompt.md
 cp /path/to/synthesis-gemini.md Gemini-unified-prompt.md
@@ -152,7 +152,7 @@ This is the Syncrescendence repository. Gemini CLI operates as a parallel execut
 ### Structural (ABSOLUTE)
 1. FLAT PRINCIPLE: All directories must be flat. Use naming prefixes.
 2. NUMBERED DIRECTORIES: Top-level directories are 00-06.
-3. PROTECTED ZONES: 01-CANON/ requires Principal approval for changes.
+3. PROTECTED ZONES: 01-CANON/ requires Sovereign approval for changes.
 
 ### Operational (ABSOLUTE)
 4. LEDGER GROUND TRUTH: tasks.csv and sources.csv are authoritative.
@@ -351,13 +351,13 @@ ORACLE SESSION = Sprint
 ### Sprint Review (Oracle Culmination)
 **Function**: Product validation - "Are we building the right thing?"
 **Focus**: Deliverables, outcomes, CANON quality
-**Participants**: Principal + Oracle
+**Participants**: Sovereign + Oracle
 **Output**: Updated backlog, validated deliverables
 
 ### Sprint Retrospective (Oracle Init)
 **Function**: Process optimization - "Are we building it right?"
 **Focus**: Methodology, efficiency, bottleneck removal
-**Participants**: Principal + Oracle (informed by execution logs)
+**Participants**: Sovereign + Oracle (informed by execution logs)
 **Output**: Process improvements, methodology refinements
 
 ---
@@ -392,7 +392,7 @@ All significant decisions evaluated against 18 lenses. Key lenses for methodolog
 
 | Lens | Methodology Implication |
 |------|------------------------|
-| #12 Industrial Engineering | Identifies bottleneck (Principal relay) |
+| #12 Industrial Engineering | Identifies bottleneck (Sovereign relay) |
 | #14 Permaculture | Self-sustaining patterns via automation |
 | #16 Agile | Minimum viable increments |
 | #17 Lean | Waste elimination |

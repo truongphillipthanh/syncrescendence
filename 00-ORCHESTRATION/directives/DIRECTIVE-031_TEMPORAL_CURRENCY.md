@@ -10,7 +10,7 @@
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Identify all perishable/dated elements as part of your ongoing forensic investigation... remember that you have web search so you can readily find those answers and relay the updates."
 
@@ -164,10 +164,10 @@ These are in lunar/satellite documents and can use more specific current models:
 
 | File | Lines | Current | Update |
 |------|-------|---------|--------|
-| CANON-30000 | 152, 183 | GPT-4 | GPT-5.x or Claude 4.x |
-| CANON-33111 | 50, 191 | Claude, GPT-4, Gemini | Claude 4.x, GPT-5.x, Gemini 3.x |
-| CANON-34110 | 79 | GPT-5, Claude Opus 4.1, Gemini 2.5, Grok v4 | GPT-5.2, Claude Opus 4.5, Gemini 3 Pro, Grok 4.1 |
-| CANON-34120 | 29, 65-66, etc. | Various | Current frontier |
+| [[CANON-30000-INTELLIGENCE-chain]] | 152, 183 | GPT-4 | GPT-5.x or Claude 4.x |
+| [[CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] | 50, 191 | Claude, GPT-4, Gemini | Claude 4.x, GPT-5.x, Gemini 3.x |
+| [[CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE]] | 79 | GPT-5, Claude Opus 4.1, Gemini 2.5, Grok v4 | GPT-5.2, Claude Opus 4.5, Gemini 3 Pro, Grok 4.1 |
+| [[CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE]] | 29, 65-66, etc. | Various | Current frontier |
 
 **Note**: These are numerous (20+ locations). Apply pattern:
 - "GPT-4" → "GPT-5.x" or "current GPT"
@@ -234,7 +234,7 @@ Include:
 - [ ] All Tier 1 model references updated (cosmos tier)
 - [ ] Modal 2 acknowledgment added
 - [ ] Date anchors updated to January 2026
-- [ ] Oracle 6-8 documentation added to CANON-00004
+- [ ] Oracle 6-8 documentation added to [[CANON-00004-EVOLUTION-cosmos]]
 - [ ] NVIDIA valuation adjusted
 - [ ] Tier 5 tactical updates complete
 - [ ] Verification greps pass

@@ -1,7 +1,7 @@
 # DIRECTIVE-020: PHASE 2 COMPLETION — STREAM ALPHA
 ## Archive Finalization + Tech Lunar Canonization
 **Issued**: 2025-12-30
-**Authority**: Principal
+**Authority**: Sovereign
 **Classification**: HIGH — Phase 2 Completion
 **Execution**: Claude 2 Code Desktop
 **Status**: EXECUTED
@@ -43,12 +43,12 @@ Total: ~43K (under 50K target) — compression goals exceeded.
 
 | ID | Name | Size | Focus |
 |----|------|------|-------|
-| CANON-30400 | Agentic Architecture | 19K | Crown jewel (prior session) |
-| CANON-30410 | Cognitive Architecture | 14K | CoALA, reasoning (prior session) |
-| CANON-30420 | Multi-Agent Orchestration | 17K | Patterns, protocols (this session) |
-| CANON-30430 | Memory Systems | 14K | Taxonomy, innovations (this session) |
-| CANON-30440 | Safety and Alignment | 15K | Threats, defenses (this session) |
-| CANON-30450 | Production Frameworks | 17K | SDKs, deployment (this session) |
+| [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] | Agentic Architecture | 19K | Crown jewel (prior session) |
+| [[CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE]] | Cognitive Architecture | 14K | CoALA, reasoning (prior session) |
+| [[CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE]] | Multi-Agent Orchestration | 17K | Patterns, protocols (this session) |
+| [[CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE]] | Memory Systems | 14K | Taxonomy, innovations (this session) |
+| [[CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE]] | Safety and Alignment | 15K | Threats, defenses (this session) |
+| [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]] | Production Frameworks | 17K | SDKs, deployment (this session) |
 
 **Total**: ~96K structured CANON from 141K source
 
@@ -64,8 +64,8 @@ Total: ~43K (under 50K target) — compression goals exceeded.
 ## DELIVERABLES
 
 1. [x] `ARCHIVE/` directory with 3 files (~43K total)
-2. [x] `CANON-30400` crown jewel (~19K)
-3. [x] `CANON-30410` through `CANON-30450` (5 asteroids, ~77K total)
+2. [x] `[[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]` crown jewel (~19K)
+3. [x] `[[CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE]]` through `[[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]]` (5 asteroids, ~77K total)
 4. [ ] `CANON-30500` deferred to next cycle
 5. [x] Deleted `QUEUE/PENDING_REVIEW/tech/`
 6. [x] Execution report in `orchestration/execution_logs/`
@@ -76,7 +76,7 @@ Total: ~43K (under 50K target) — compression goals exceeded.
 ## SUCCESS CRITERIA VERIFICATION
 
 - [x] ARCHIVE/ created with compressed distillation
-- [x] CANON-30400 created with YAML frontmatter
+- [x] [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] created with YAML frontmatter
 - [x] CANON-30410-30450 created (5 asteroids)
 - [x] QUEUE/PENDING_REVIEW/tech/ deleted
 - [x] All commits meaningful

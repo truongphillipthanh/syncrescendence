@@ -1,14 +1,14 @@
 # DIRECTIVE-034B: PROJECT MANAGEMENT SYSTEM + TRANSCRIPT NAMING + QUEUE RECONCILIATION
 ## Stream B: Operational Infrastructure Restoration
 **Issued**: 2026-01-02
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Establishing Visibility and Control Infrastructure
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-034A handles Forensic Recovery + Narratives
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Phase B: Create an agentified Agile/Scrum/Kanban with flexibility for waterfall and PRINCE2, and whatever other methodology. Apply the 18 lenses to create the spiritual successor to the Project Management System."
 
@@ -23,7 +23,7 @@
 This directive establishes **operational control infrastructure** by:
 
 1. **Project Management System** — Agentified methodology-agnostic tracking with burndown visibility
-2. **Transcript Naming Correction** — Apply Principal's standard, not invented convention
+2. **Transcript Naming Correction** — Apply Sovereign's standard, not invented convention
 3. **QUEUE Reconciliation** — Map pending work to roadmap, establish inbox zero tracking
 
 These are **not separate tasks** but interconnected infrastructure that enables trajectory visibility.
@@ -48,7 +48,7 @@ These are **not separate tasks** but interconnected infrastructure that enables 
 | 12 | Industrial Engineering | Enables throughput measurement (velocity) | ✓ |
 | 13 | Complexity Theory | Essential tracking only, no ceremonial overhead | ✓ |
 | 14 | Permaculture | Self-maintaining (agents update as they work) | ✓ |
-| 15 | Design Thinking | Principal can see progress at a glance | ✓ |
+| 15 | Design Thinking | Sovereign can see progress at a glance | ✓ |
 | 16 | Agile | Supports sprints, backlogs, velocity | ✓ |
 | 17 | Lean | Eliminates invisible work-in-progress | ✓ |
 | 18 | Six Sigma | Tracks defects/blockers for process improvement | ✓ |
@@ -67,7 +67,7 @@ These are **not separate tasks** but interconnected infrastructure that enables 
 │                                                                      │
 │  METHODOLOGY-AGNOSTIC: Works with Agile, Waterfall, PRINCE2, Hybrid │
 │  AGENT-NATIVE: CSV/structured format for programmatic access        │
-│  HUMAN-READABLE: Markdown views for Principal review                │
+│  HUMAN-READABLE: Markdown views for Sovereign review                │
 │  HOLISTIC-FIRST: Globe view before tree details                     │
 │  CONTINUOUS: Updates persist across Oracle sessions                 │
 └─────────────────────────────────────────────────────────────────────┘
@@ -302,7 +302,7 @@ if __name__ == '__main__':
 
 ## PHASE 2: TRANSCRIPT NAMING CORRECTION
 
-### 2.1 Principal's Standard
+### 2.1 Sovereign's Standard
 
 ```
 {YYYYMMDD}-{platform_format}-{full_channel_name}-{guest(if interview)}/{title(if not interview)}-{episode#}.txt
@@ -344,7 +344,7 @@ if __name__ == '__main__':
 ```bash
 #!/bin/bash
 # rename_transcripts.sh
-# Apply Principal's naming standard to SOURCES/raw/
+# Apply Sovereign's naming standard to SOURCES/raw/
 
 cd SOURCES/raw
 
@@ -395,7 +395,7 @@ echo "Rename complete. Mapping saved to ../rename_mapping.csv"
 #!/usr/bin/env python3
 """
 rename_transcripts.py
-Apply Principal's naming standard to SOURCES/raw/
+Apply Sovereign's naming standard to SOURCES/raw/
 """
 
 import os
@@ -427,7 +427,7 @@ def parse_old_name(filename):
     return date, rest, ext
 
 def transform_to_new_standard(date, rest, ext):
-    """Transform to Principal's standard."""
+    """Transform to Sovereign's standard."""
     # Replace platform-format with platform_format
     rest = rest.replace('youtube-interview', 'youtube_video')
     rest = rest.replace('youtube-lecture', 'youtube_lecture')
@@ -684,7 +684,7 @@ PROJECT MANAGEMENT SYSTEM:
 - Supports Agile/Scrum/Kanban/Waterfall/PRINCE2
 
 TRANSCRIPT NAMING:
-- Renamed SOURCE-* to Principal's standard
+- Renamed SOURCE-* to Sovereign's standard
 - Format: {YYYYMMDD}-{platform_format}-{channel}-{guest/title}
 - Updated sources.csv with new filenames
 - Created rename_mapping.csv for reference
@@ -711,7 +711,7 @@ Oracle9 operational infrastructure: ESTABLISHED."
 - [ ] update_dashboard.py functional
 
 ### Phase 2: Transcript Naming
-- [ ] All SOURCE-* files renamed to Principal's standard
+- [ ] All SOURCE-* files renamed to Sovereign's standard
 - [ ] No files begin with SOURCE- in SOURCES/raw/
 - [ ] sources.csv updated with new filenames
 - [ ] rename_mapping.csv documents transformations

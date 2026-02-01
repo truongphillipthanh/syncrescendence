@@ -40,7 +40,7 @@ Survey `orchestration/directives/` and `orchestration/execution_logs/` to extrac
 |--------|-------|--------------|
 | Oracle0 | Founding vision | IIC architecture, antifragile principles, Nine Lenses established |
 | Oracle1 | Ecosystem research | CLI tools, platform capabilities, frontier AI landscape |
-| Oracle2 | Infrastructure | CANON-25000/25100, repository restructuring |
+| Oracle2 | Infrastructure | [[CANON-25000-MEMORY_ARCH-lattice]]/25100, repository restructuring |
 | Oracle3 | Orchestration peak | System prompts v2.1, **Reception Calibration** paradigm, function library |
 | Oracle4 | Defrag | 658→136 files (79% reduction), category error on orchestration |
 | Oracle5 | Reconception + Recovery | GENESIS layer, nomenclature reform, orchestration restoration |
@@ -93,17 +93,17 @@ These documents ARE Syncrescendence. If they're misaligned, everything is.
 
 | Document | Nine-Lens Assessment Questions |
 |----------|--------------------------------|
-| CANON-00000 (Schema) | Does the navigation map current structure? Is it Bitter-Lesson-ready (fits in context)? |
-| CANON-00001 (Syncrescendence) | Does core theory embody continuous cycles? Is it antifragile to new discoveries? |
-| CANON-00002 (Corpus) | Does corpus description match actual state? Is it current? |
-| CANON-00003 (Evaluation) | Are falsification criteria still appropriate? Do they meet the moment? |
-| CANON-00004 (Resolutions) | Are productive tensions still held? Or have some resolved/new ones emerged? |
-| CANON-00005 (Strategy) | Does strategic framing reflect Modal 1 positioning? Is it elegant? |
-| CANON-00006 (Operations) | Are daily protocols still serving? Are they potent without complexity bloat? |
-| CANON-00007 (Artifact Protocol) | Does production guidance match actual practice? Is it agentifiable? |
-| CANON-00008 (Modal Sequence) | Is timeline accurate? Does it meet the crest (AI trajectory)? |
-| CANON-00009 (Quickstart) | Is entry point current? Does it enable hub-and-spoke navigation? |
-| CANON-00010 (Content Protocol) | Is production guidance still valid? |
+| [[CANON-00000-SCHEMA-cosmos]] (Schema) | Does the navigation map current structure? Is it Bitter-Lesson-ready (fits in context)? |
+| [[CANON-00001-ORIGIN-cosmos]] (Syncrescendence) | Does core theory embody continuous cycles? Is it antifragile to new discoveries? |
+| [[CANON-00002-LINEAGE-cosmos]] (Corpus) | Does corpus description match actual state? Is it current? |
+| [[CANON-00003-PRINCIPLES-cosmos]] (Evaluation) | Are falsification criteria still appropriate? Do they meet the moment? |
+| [[CANON-00004-EVOLUTION-cosmos]] (Resolutions) | Are productive tensions still held? Or have some resolved/new ones emerged? |
+| [[CANON-00005-SYNCRESCENDENCE-cosmos]] (Strategy) | Does strategic framing reflect Modal 1 positioning? Is it elegant? |
+| [[CANON-00006-CORPUS-cosmos]] (Operations) | Are daily protocols still serving? Are they potent without complexity bloat? |
+| [[CANON-00007-EVALUATION-cosmos]] (Artifact Protocol) | Does production guidance match actual practice? Is it agentifiable? |
+| [[CANON-00008-RESOLUTIONS-cosmos]] (Modal Sequence) | Is timeline accurate? Does it meet the crest (AI trajectory)? |
+| [[CANON-00009-STRATEGY-cosmos]] (Quickstart) | Is entry point current? Does it enable hub-and-spoke navigation? |
+| [[CANON-00010-OPERATIONS-cosmos]] (Content Protocol) | Is production guidance still valid? |
 
 **Produce**: COSMOS_ALIGNMENT_REPORT.md with findings and specific misalignments.
 
@@ -118,8 +118,8 @@ GENESIS was created in Oracle5 as narrative substrate. It should embody reconcep
 ### Tier 3: CORE + LATTICE (10 files) — THE ARCHITECTURE
 
 **Only after cosmos alignment assessed**, check:
-- CANON-10000 (Celestial Body): Do definitions cascade correctly from cosmos?
-- CANON-11000 (Facets): Are facets consistent with cosmos framing?
+- [[CANON-10000-CELESTIAL_BODY-core]] (Celestial Body): Do definitions cascade correctly from cosmos?
+- [[CANON-11000-FACETS-core]] (Facets): Are facets consistent with cosmos framing?
 - CANON-2xxxx (Lattice): Does architectural substrate match cosmos descriptions?
 
 **Focus on**: Do these documents derive correctly from cosmos? Or do they introduce contradictions?
@@ -141,7 +141,7 @@ GENESIS was created in Oracle5 as narrative substrate. It should embody reconcep
 
 ### Task 3.1: Modal Sequence Currency Check
 
-Survey CANON-00008 (Modal Sequence) against current AI landscape:
+Survey [[CANON-00008-RESOLUTIONS-cosmos]] (Modal Sequence) against current AI landscape:
 - Are timeline estimates still valid? (2024-2027 for Modal 1)
 - Have capability thresholds shifted? (Is Modal 2 arriving faster?)
 - Are referenced technologies current? (GPT-4 → GPT-5/o3, Claude 3 → Claude 4, etc.)

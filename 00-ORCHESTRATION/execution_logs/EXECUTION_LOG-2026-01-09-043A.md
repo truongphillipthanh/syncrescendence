@@ -64,7 +64,7 @@ Stream A addressed infrastructure hygiene and operational expansion as outlined 
 - Verified version check: `gemini --version` → command not found
 - Documented blocker in task tracking
 
-**Next Steps** (for Principal or Oracle 12+):
+**Next Steps** (for Sovereign or Oracle 12+):
 1. Install Gemini CLI: Follow official installation guide
 2. Run validation test suite from DIRECTIVE-043A Phase 2.2
 3. Complete capability assessment matrix
@@ -230,7 +230,7 @@ Stream A addressed infrastructure hygiene and operational expansion as outlined 
 
 **Impact**: Phase 2 (Multi-CLI Validation) cannot proceed
 **Severity**: Medium (P2 project)
-**Owner**: Principal or Oracle 12+
+**Owner**: Sovereign or Oracle 12+
 
 **Resolution Path**:
 1. Install Gemini CLI via official distribution
@@ -291,7 +291,7 @@ grep "TASK-05" 00-ORCHESTRATION/state/tasks.csv
 
 ---
 
-## Next Actions (For Principal/Oracle 12+)
+## Next Actions (For Sovereign/Oracle 12+)
 
 1. **P2 Priority**: Install Gemini CLI and complete TASK-053
 2. **P3 Priority**: Consider ChatGPT Plus subscription for Codex access

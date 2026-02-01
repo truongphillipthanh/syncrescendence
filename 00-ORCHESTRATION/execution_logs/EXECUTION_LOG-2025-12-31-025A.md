@@ -9,7 +9,7 @@
 
 ## DIRECTIVE CONTEXT
 
-### Principal's Words (Quoted from Oracle7)
+### Sovereign's Words (Quoted from Oracle7)
 > "This is not some simple nominal or tactical fix. REVIEW EVERY CONVERSATION..."
 
 > "Given such abject failure of context engineering go to the maximum resolution."
@@ -85,7 +85,7 @@ Seven Oracle threads produced strategic decisions, but context engineering faile
 - System prompt exports: 14
 - Tech Lunar temporal file: 1 (FrontierModels.md)
 
-**Awaiting Principal approval**: ✓
+**Awaiting Sovereign approval**: ✓
 
 **File**: `orchestration/state/DELETION_MANIFEST.md`
 
@@ -187,7 +187,7 @@ Seven Oracle threads produced strategic decisions, but context engineering faile
 | STANDARDS.md | 18-lens evaluative framework |
 | DESIGN_DECISIONS.md | Learnings from experimentation |
 | SYSTEM_PROMPT_EXTRACTION_VERIFICATION.md | Extraction audit |
-| DELETION_MANIFEST.md | Files pending Principal approval |
+| DELETION_MANIFEST.md | Files pending Sovereign approval |
 | CANONIZATION_PREP_Research_Protocols.md | Ready for Claude 3 |
 | CANONIZATION_PREP_Implementation_Guide.md | Ready for Claude 3 |
 | QUEUE_PREP_Screenplay_Formatting.md | Ready for Claude 3 |
@@ -211,23 +211,23 @@ Seven Oracle threads produced strategic decisions, but context engineering faile
 Claude 3 should execute:
 
 1. **From CANONIZATION_PREP_Research_Protocols.md**:
-   - Create CANON-30330 with compressed content
+   - Create [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] with compressed content
    - Delete original from QUEUE
 
 2. **From CANONIZATION_PREP_Implementation_Guide.md**:
-   - Create CANON-30340 with compressed content
+   - Create [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] with compressed content
    - Delete original from QUEUE
 
 3. **From QUEUE_PREP_Screenplay_Formatting.md**:
    - Consolidate 5 files into QUEUE-36200
    - Delete originals
 
-4. **From DELETION_MANIFEST.md** (after Principal approval):
+4. **From DELETION_MANIFEST.md** (after Sovereign approval):
    - Delete 15 marked files
 
 ---
 
-## Ready for Principal Review
+## Ready for Sovereign Review
 
 | Criterion | Status |
 |-----------|--------|

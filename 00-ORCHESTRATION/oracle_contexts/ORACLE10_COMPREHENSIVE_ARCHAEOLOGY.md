@@ -203,7 +203,7 @@ EXEMPLA/     ← NEW: Demonstrations (examples, case studies)
 
 **What Occurred**:
 - DIRECTIVE-019: Orchestration infrastructure restored
-- DIRECTIVE-020A: Tech Lunar canonized as CANON-30400 through CANON-30450
+- DIRECTIVE-020A: Tech Lunar canonized as [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] through [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]]
 - DIRECTIVE-020B: YAML frontmatter schema designed, 100% metadata coverage
 - DIRECTIVE-021: Phase 3 reconnaissance
 - DIRECTIVE-022A/B/C: Numbering, naming, versioning harmonization
@@ -272,7 +272,7 @@ EXEMPLA/     ← NEW: Demonstrations (examples, case studies)
 **CRITICAL DYNAMIC**:
 - Narrow execution without whole-system survey (DIRECTIVE-027 false completion)
 - Claudes defaulted to narrow scope without explicit coercion
-- Required Principal intervention to force comprehensive execution
+- Required Sovereign intervention to force comprehensive execution
 
 **Lesson Crystallized**: Define verification commands FIRST. Never claim completion without running ALL verification. Explicit coercion required for comprehensive execution.
 
@@ -295,7 +295,7 @@ EXEMPLA/     ← NEW: Demonstrations (examples, case studies)
 
 **Forensic Findings**:
 - 7 mechanical corrections required
-- Duplicate paragraph in CANON-00005 identified
+- Duplicate paragraph in [[CANON-00005-SYNCRESCENDENCE-cosmos]] identified
 - Model references updated (GPT-4+, Claude 3+ → current frontier)
 - Encoding artifacts eliminated globally
 - Vestigial "Technology Chain" reference corrected
@@ -329,7 +329,7 @@ EXEMPLA/     ← NEW: Demonstrations (examples, case studies)
 
 1. **Incremental Directives**: 22 directives (017-038) instead of comprehensive single directives
    - Each addressed symptoms, not systemic root cause
-   - Principal had to redirect 3x per session
+   - Sovereign had to redirect 3x per session
 
 2. **Organization ≠ Distillation**: Created subdirectories instead of semantic compression
    - state/ split into archaeology/, dynamic/, ledgers/, reference/
@@ -386,9 +386,9 @@ oracle_contexts/     # 9 files - should be 2
 
 ### Pattern 3: The Coercion Requirement
 - **Oracle 7**: Claudes defaulted to narrow scope; required explicit coercion for comprehensive execution
-- **Oracle 9**: AI instances claimed completion without executing; required Principal intervention
+- **Oracle 9**: AI instances claimed completion without executing; required Sovereign intervention
 
-**Principle**: Directives must be comprehensive since Principal is the bottleneck. AI instances should stage, evaluate against 18 lenses, and execute in one cycle to minimize relay.
+**Principle**: Directives must be comprehensive since Sovereign is the bottleneck. AI instances should stage, evaluate against 18 lenses, and execute in one cycle to minimize relay.
 
 ### Pattern 4: Structure ≠ Substance
 - **Oracle 4**: Achieved 79% reduction (substance)
@@ -419,7 +419,7 @@ NOT: Create subdirectory hierarchy and move files into it.
 
 4. **18 Evaluative Lenses**: When invoked, provided rigorous decision framework
 
-5. **Principal Corrections**: Every correction improved the process:
+5. **Sovereign Corrections**: Every correction improved the process:
    - "Numberize orchestration" → 00-prefix established
    - "Metabolize, not organize" → Semantic compression clarified
    - "Look at the ledgers" → Ground truth revealed

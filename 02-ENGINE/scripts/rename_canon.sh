@@ -4,7 +4,7 @@
 # Directive: DIRECTIVE-017
 #
 # WARNING: This script performs destructive file renames.
-# Execute only after Principal approval and backup verification.
+# Execute only after Sovereign approval and backup verification.
 #
 # Usage: ./rename_canon.sh [--dry-run]
 #   --dry-run: Show what would be renamed without executing

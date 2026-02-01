@@ -11,13 +11,13 @@ decision_timestamp: 2026-01-22T15:00:00Z
 ### Decision Context
 trigger: |
   Chorus session completed. Four platforms (Claude, ChatGPT, Gemini, Grok) contributed 
-  independent proposals for Acumen IIC architecture. Principal synthesized into unified 
+  independent proposals for Acumen IIC architecture. Sovereign synthesized into unified 
   design. GitHub connector insight revealed platforms aren't isolated—they share live 
   sensing of repository. Directory teleology (03-06) clarified. Wisdom layer (06-EXEMPLA) 
   elevated to civilizational knowledge transfer function.
 
 alternatives_considered:
-  - Incremental directives (infrastructure only): Rejected—creates relay overhead, violates "Principal is bottleneck"
+  - Incremental directives (infrastructure only): Rejected—creates relay overhead, violates "Sovereign is bottleneck"
   - Full automation of Acumen pipeline now: Rejected—Claude's warning about PKM becoming substitute for thinking
   - Defer directory restructure: Rejected—current structure misaligns with externalized sensing architecture
 
@@ -38,7 +38,7 @@ selection_rationale: |
 
 ### Assumptions
 - Repository is at commit 37f1f52 or later (post-constellation-infrastructure)
-- Principal will drop Resolution v1/v2/v3, GitHub screenshot, and four proposals into -INBOX
+- Sovereign will drop Resolution v1/v2/v3, GitHub screenshot, and four proposals into -INBOX
 - GitHub connectors are available for Claude Web and ChatGPT Web (verified by infrastructure map)
 - External second brain (Google ecosystem) setup deferred to future directive
 
@@ -53,7 +53,7 @@ selection_rationale: |
 - prior_session: Ajna4 Chorus session (COMPLETE)
 - blocks: External second brain setup, Acumen pipeline automation, Avatar self-documentation
 
-### Principal Checkpoints
+### Sovereign Checkpoints
 - [ ] Dropped Resolution v1/v2/v3 into -INBOX
 - [ ] Dropped GitHub screenshot into -INBOX  
 - [ ] Dropped four proposals (gemini, grok, claude, chatgpt) into -INBOX
@@ -131,7 +131,7 @@ Success state: Repository aligned with integrated architecture where directory p
 
 - All file operations reversible via git (Type 2 decisions)
 - Do NOT delete files—archive to 05-MEMORY or move appropriately
-- Do NOT modify files >50KB without explicit Principal approval
+- Do NOT modify files >50KB without explicit Sovereign approval
 - Preserve all git history
 - 05-MEMORY items have implicit 30-day TTL (document this, don't enforce automatically)
 
@@ -217,7 +217,7 @@ selection_rationale: |
 - prior_handoff: [HO-ID or "none"]
 - blocks: [downstream work]
 
-### Principal Checkpoints
+### Sovereign Checkpoints
 - [ ] Reviewed decision rationale
 - [ ] Approved for execution
 ---
@@ -400,7 +400,7 @@ This directory holds HIGH-SIGNAL artifacts awaiting CANON integration.
 ## What Belongs Here
 - Qualified claim atoms from external sensing
 - Synthesis documents ready for dissertation defense
-- High-value artifacts awaiting Principal review
+- High-value artifacts awaiting Sovereign review
 
 ## What Does NOT Belong Here
 - Raw transcripts (externalized to Google ecosystem)
@@ -409,7 +409,7 @@ This directory holds HIGH-SIGNAL artifacts awaiting CANON integration.
 
 ## Lifecycle
 1. Artifact enters via external sensing pipeline or manual import
-2. Principal reviews and qualifies
+2. Sovereign reviews and qualifies
 3. Artifact either:
    - Integrates into 01-CANON (defended)
    - Moves to 04-SOURCES (curated reference)
@@ -557,7 +557,7 @@ Make the repository ground truth; treat platforms as cache.
 
 ## On Attention
 
-**"The bottleneck is Principal attention, not information access."**
+**"The bottleneck is Sovereign attention, not information access."**
 The system exists to allocate attention to what matters.
 Everything else is infrastructure in service of that allocation.
 
@@ -573,7 +573,7 @@ it creates the illusion of understanding where none exists.
 State files and logs are living infrastructure that must be maintained.
 Never delete operational infrastructure thinking it's content to metabolize.
 
-**"Directives must be comprehensive—Principal is bottleneck."**
+**"Directives must be comprehensive—Sovereign is bottleneck."**
 Have executors stage, evaluate, and execute in one cycle.
 Minimize relay. Frame holistically, not incrementally.
 
@@ -654,7 +654,7 @@ demand deliberation."
 **Application**: 
 - Token generation: Type 2 (trivially reversible) → move fast
 - Canonization: Type 1 (changes repo state) → deliberate
-- File deletion: Type 1 (without backup) → requires Principal approval
+- File deletion: Type 1 (without backup) → requires Sovereign approval
 
 **Source**: Lens framework (Reversibility lens)
 
@@ -723,7 +723,7 @@ cat > "06-EXEMPLA/defrag-learnings/LESSON-20260122-chorus-architecture.md" << 'E
 Ajna4 Chorus Architecture (2026-01-22)
 
 ## What Happened
-Principal presented the Acumen IIC architecture problem to four platforms 
+Sovereign presented the Acumen IIC architecture problem to four platforms 
 (Claude, ChatGPT, Gemini, Grok). Each responded with genuine intelligence:
 
 - **Gemini**: "Nightly Refinery" with Z-Axis Screenplay, operational automation
@@ -745,7 +745,7 @@ the others didn't:
 The Chorus architecture works when:
 1. Problems are presented as genuine challenges, not formatted tasks
 2. Platforms contribute from actual strength, not assigned role
-3. Principal synthesizes across contributions
+3. Sovereign synthesizes across contributions
 4. No platform is lobotomized
 
 ## Extracted Wisdom
@@ -795,7 +795,7 @@ and navigation shortcuts. Self-created based on demonstrated performance.
 
 ## When Avatars Self-Document
 After demonstrating competency (like ChatGPT's Claim Atom invention or Gemini's 
-Z-Axis Screenplay), the avatar documents itself. Principal validates.
+Z-Axis Screenplay), the avatar documents itself. Sovereign validates.
 
 ## Template
 See `06-EXEMPLA/templates/TEMPLATE-AVATAR.md`
@@ -832,7 +832,7 @@ For [problem type]:
 ---
 
 *Self-documented: YYYY-MM-DD*
-*Validated by Principal: [Y/N]*
+*Validated by Sovereign: [Y/N]*
 EOF
 
 # Create first avatar based on Chorus evidence
@@ -883,7 +883,7 @@ For pipeline design:
 ---
 
 *Self-documented: 2026-01-22*
-*Validated by Principal: Pending*
+*Validated by Sovereign: Pending*
 *Evidence: Claim Atom invention in chatgpts-proposal.md*
 EOF
 ```
@@ -963,7 +963,7 @@ mkdir -p 05-MEMORY/chorus-session-20260122
 echo "-INBOX triage (existing items) complete"
 ```
 
-### 6.2 Process New Chorus Artifacts (Principal-Dropped)
+### 6.2 Process New Chorus Artifacts (Sovereign-Dropped)
 
 ```bash
 # Resolution passes → ARCHIVE (as reference, the learnings are now in EXEMPLA)
@@ -999,7 +999,7 @@ cat > "05-MEMORY/chorus-session-20260122/README.md" << 'EOF'
 
 ## Summary
 Four platforms (Claude, ChatGPT, Gemini, Grok) contributed independent proposals 
-for Acumen IIC architecture. Principal synthesized into integrated design.
+for Acumen IIC architecture. Sovereign synthesized into integrated design.
 
 ## Contents
 
@@ -1227,7 +1227,7 @@ Implements: Integrated architecture v3
 Blocks: External second brain setup, Acumen pipeline automation"
 
 # Generate handoff token
-make token-full PHASE=semantic-annealment NEXT=second-brain-setup FROM_PLATFORM=claude-code TO_PLATFORM=principal
+make token-full PHASE=semantic-annealment NEXT=second-brain-setup FROM_PLATFORM=claude-code TO_PLATFORM=sovereign
 
 echo ""
 echo "=== DIRECTIVE COMPLETE ==="
@@ -1259,8 +1259,8 @@ After this directive completes:
    - GROUND-Grok (based on Coherence Manifold proposal)
 
 4. **Token Economics Pass**
-   - Address 100KB+ CANON files (CANON-00005, CANON-31141, CANON-31143)
-   - Requires Principal decision on split strategy
+   - Address 100KB+ CANON files ([[CANON-00005-SYNCRESCENDENCE-cosmos]], [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]], [[CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]])
+   - Requires Sovereign decision on split strategy
 
 5. **Operationalize Learning Loop**
    - Weekly regression on attention allocations
@@ -1322,4 +1322,4 @@ After this directive completes:
 
 **END DIRECTIVE**
 
-*This directive integrates Resolution Passes v1-v3, directory teleology, wisdom layer bootstrap, and -INBOX triage into a single comprehensive execution. Decision envelope attached. Principal checkpoints required before execution.*
+*This directive integrates Resolution Passes v1-v3, directory teleology, wisdom layer bootstrap, and -INBOX triage into a single comprehensive execution. Decision envelope attached. Sovereign checkpoints required before execution.*

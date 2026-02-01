@@ -66,13 +66,13 @@ DIRECTIVE-021 completed Phase 3 reconnaissance, surveying all 65 CANON files for
 ### Definition Sources (Clear)
 | Concept | Authoritative Source |
 |---------|---------------------|
-| Syncrescendence | CANON-00001 |
-| Six Chains | CANON-00000 |
-| Seven Layers | CANON-20000 |
-| Four Planetary Bodies | CANON-10000 |
-| Modal Sequence | CANON-00008 |
-| Field Node | CANON-35200 |
-| IIC | CANON-31140 |
+| Syncrescendence | [[CANON-00001-ORIGIN-cosmos]] |
+| Six Chains | [[CANON-00000-SCHEMA-cosmos]] |
+| Seven Layers | [[CANON-20000-PALACE-lattice]] |
+| Four Planetary Bodies | [[CANON-10000-CELESTIAL_BODY-core]] |
+| Modal Sequence | [[CANON-00008-RESOLUTIONS-cosmos]] |
+| Field Node | [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]] |
+| IIC | [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] |
 
 ---
 

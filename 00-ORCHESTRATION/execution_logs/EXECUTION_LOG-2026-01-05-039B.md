@@ -108,8 +108,8 @@ find 06-EXEMPLA -type d | wc -l
 | Elon Musk | CANON-00015-MACROSCOPIC_NARRATIVES | Integrated Sources section |
 
 ### Previously Integrated (DIRECTIVE-036B)
-- Scott Alexander/Kokotajlo → CANON-00004, CANON-00015
-- Sholto Douglas/Trenton Bricken → CANON-30400
+- Scott Alexander/Kokotajlo → [[CANON-00004-EVOLUTION-cosmos]], [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
+- Sholto Douglas/Trenton Bricken → [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]
 
 ---
 

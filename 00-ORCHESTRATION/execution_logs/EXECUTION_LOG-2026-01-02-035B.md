@@ -143,7 +143,7 @@ This directive advanced Oracle9 toward completion by:
 ### For Oracle10 Preparation
 - Enriched CANON will enable IIC configuration
 - Platform-specific prompt configurations depend on CANON content
-- Account architecture documentation ready (CANON-31140, 31141)
+- Account architecture documentation ready ([[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]], 31141)
 
 ---
 
@@ -155,7 +155,7 @@ Content in Tech/ directory not yet processed:
 |-----------|---------|--------|
 | Tech/2 Intelligence Capabilities/ | Frontier models documentation | Assess for CANON-30xxx |
 | Tech/2 ContextEngineering/ | Context engineering patterns | Assess for CANON-30xxx |
-| Tech/4 Agents/ | Agents documentation | Already in CANON-30400 |
+| Tech/4 Agents/ | Agents documentation | Already in [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] |
 | Tech/1 Toolcraft Endeavor/ | Toolcraft system | Assess for integration |
 | Tech/4 Organizational Theory/ | Org theory | Assess for CANON-33xxx |
 

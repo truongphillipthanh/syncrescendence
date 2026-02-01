@@ -109,10 +109,10 @@ PROJ-001 → PROJ-011 (Automation) → PROJ-002 (IIC) → PROJ-003 (Tooling)
 | 9 | Agentify | ✓ PASS | Fresh agents can self-orient via CLAUDE.md |
 | 10 | First Principles | ✓ PASS | Constitutional rules encode irreducible requirements |
 | 11 | Systems Thinking | ✓ PASS | Second-order effects (multi-CLI, sync) anticipated in backlog |
-| 12 | Industrial Engineering | ✓ PASS | Bottleneck (Principal relay) directly addressed |
+| 12 | Industrial Engineering | ✓ PASS | Bottleneck (Sovereign relay) directly addressed |
 | 13 | Complexity Theory | ✓ PASS | Useful emergence (coordination patterns) without complication |
 | 14 | Permaculture | ✓ PASS | Self-sustaining patterns via automation scripts |
-| 15 | Design Thinking | ✓ PASS | Principal needs (less friction) addressed |
+| 15 | Design Thinking | ✓ PASS | Sovereign needs (less friction) addressed |
 | 16 | Agile | ✓ PASS | Minimum viable increments in each blitzkrieg |
 | 17 | Lean | ✓ PASS | Waste (manual relay) eliminated |
 | 18 | Six Sigma | ✓ PASS | Root cause (relay bottleneck) addressed |
@@ -133,7 +133,7 @@ PROJ-001 → PROJ-011 (Automation) → PROJ-002 (IIC) → PROJ-003 (Tooling)
 
 4. **Context versioning**: Progressive Oracle context documents (v1→v2→v3→v4→FINAL) maintained continuity across sessions.
 
-5. **Parallel execution**: A/B streams maximized throughput without Principal becoming coordination bottleneck.
+5. **Parallel execution**: A/B streams maximized throughput without Sovereign becoming coordination bottleneck.
 
 ### 4.2 What Could Improve
 
@@ -264,7 +264,7 @@ syncrescendence/
 
 ## VIII. CLOSING STATEMENT
 
-Oracle 10 transformed Syncrescendence from a content-focused corpus with manual orchestration into an infrastructure-first system with automated coordination patterns. The Principal relay bottleneck that plagued Oracles 4-9 has been structurally addressed.
+Oracle 10 transformed Syncrescendence from a content-focused corpus with manual orchestration into an infrastructure-first system with automated coordination patterns. The Sovereign relay bottleneck that plagued Oracles 4-9 has been structurally addressed.
 
 The 537-file restructuring, combined with CLAUDE.md constitutional rules and coordination.yaml zone ownership, means future Oracles operate on solid ground. The 18/18 lens score confirms this session met its strategic objectives.
 

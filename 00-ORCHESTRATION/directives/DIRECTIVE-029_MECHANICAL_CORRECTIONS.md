@@ -9,7 +9,7 @@
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Conduct both [mechanical corrections AND forensic semantic audit]. You have access to the actual files in the Project Files, and Claude 2 and 3 stand at the ready."
 
@@ -51,16 +51,16 @@ ls /path/to/syncrescendence/CANON*.md 2>/dev/null | wc -l
 # Or if flat at root:
 ls /path/to/syncrescendence/CANON-*.md | wc -l
 
-# Verify CANON-00012 is Modal Sequence
+# Verify [[CANON-00012-MODAL_SEQUENCE-cosmos]] is Modal Sequence
 head -20 CANON-00012-MODAL_SEQUENCE-cosmos.md
 
-# Verify CANON-00008 is Resolutions
+# Verify [[CANON-00008-RESOLUTIONS-cosmos]] is Resolutions
 head -20 CANON-00008-RESOLUTIONS-cosmos.md
 
-# Verify CANON-00001 is Origin (not Syncrescendence)
+# Verify [[CANON-00001-ORIGIN-cosmos]] is Origin (not Syncrescendence)
 head -20 CANON-00001-ORIGIN-cosmos.md
 
-# Verify CANON-00005 is Syncrescendence
+# Verify [[CANON-00005-SYNCRESCENDENCE-cosmos]] is Syncrescendence
 head -20 CANON-00005-SYNCRESCENDENCE-cosmos.md
 ```
 
@@ -75,9 +75,9 @@ head -20 CANON-00005-SYNCRESCENDENCE-cosmos.md
 #### Correction 1: CANON-00010-OPERATIONS Line 237
 **File**: `CANON-00010-OPERATIONS-cosmos.md`
 **Line**: 237
-**Current**: `**For complete Modal Sequence architecture**: CANON-00008`
-**Correction**: `**For complete Modal Sequence architecture**: CANON-00012`
-**Rationale**: Modal Sequence is CANON-00012. CANON-00008 is Resolutions.
+**Current**: `**For complete Modal Sequence architecture**: [[CANON-00008-RESOLUTIONS-cosmos]]`
+**Correction**: `**For complete Modal Sequence architecture**: [[CANON-00012-MODAL_SEQUENCE-cosmos]]`
+**Rationale**: Modal Sequence is [[CANON-00012-MODAL_SEQUENCE-cosmos]]. [[CANON-00008-RESOLUTIONS-cosmos]] is Resolutions.
 
 #### Correction 2: CANON-00000-SCHEMA Line 35
 **File**: `CANON-00000-SCHEMA-cosmos.md`
@@ -96,9 +96,9 @@ head -20 CANON-00005-SYNCRESCENDENCE-cosmos.md
 #### Correction 4: CANON-00008-RESOLUTIONS Line 969
 **File**: `CANON-00008-RESOLUTIONS-cosmos.md`
 **Line**: 969
-**Current**: `Modal Sequence (CANON-00008) added throughout`
-**Correction**: `Modal Sequence (CANON-00012) added throughout`
-**Rationale**: Self-referential error. This document IS CANON-00008. Modal Sequence is CANON-00012.
+**Current**: `Modal Sequence ([[CANON-00008-RESOLUTIONS-cosmos]]) added throughout`
+**Correction**: `Modal Sequence ([[CANON-00012-MODAL_SEQUENCE-cosmos]]) added throughout`
+**Rationale**: Self-referential error. This document IS [[CANON-00008-RESOLUTIONS-cosmos]]. Modal Sequence is [[CANON-00012-MODAL_SEQUENCE-cosmos]].
 
 ### MEDIUM PRIORITY (Flowchart Accuracy)
 
@@ -107,47 +107,47 @@ head -20 CANON-00005-SYNCRESCENDENCE-cosmos.md
 **Section**: Dependency Flowchart (lines ~273-334)
 
 The flowchart uses **old numbering** where:
-- CANON-00001 was "Syncrescendent Core" → Now CANON-00001 is ORIGIN
-- CANON-00008 was "Energy States" / "Modal Sequence" → Now CANON-00008 is RESOLUTIONS
+- [[CANON-00001-ORIGIN-cosmos]] was "Syncrescendent Core" → Now [[CANON-00001-ORIGIN-cosmos]] is ORIGIN
+- [[CANON-00008-RESOLUTIONS-cosmos]] was "Energy States" / "Modal Sequence" → Now [[CANON-00008-RESOLUTIONS-cosmos]] is RESOLUTIONS
 
 **Required Changes**:
 
 Line 288-289:
 ```
 CURRENT:
-       CANON-00001          CANON-00008
+       [[CANON-00001-ORIGIN-cosmos]]          [[CANON-00008-RESOLUTIONS-cosmos]]
   (Syncrescendent Core) (Energy States)
 
 SHOULD BE:
-       CANON-00005          CANON-00012
+       [[CANON-00005-SYNCRESCENDENCE-cosmos]]          [[CANON-00012-MODAL_SEQUENCE-cosmos]]
     (Syncrescendence)   (Modal Sequence)
 ```
 
 Line 321-322:
 ```
 CURRENT:
-     CANON-00000         CANON-00008 CANON-00007
+     [[CANON-00000-SCHEMA-cosmos]]         [[CANON-00008-RESOLUTIONS-cosmos]] [[CANON-00007-EVALUATION-cosmos]]
     (This Schema)   (Modal Sequence) (Production)
 
 SHOULD BE:
-     CANON-00000         CANON-00012 CANON-00007
+     [[CANON-00000-SCHEMA-cosmos]]         [[CANON-00012-MODAL_SEQUENCE-cosmos]] [[CANON-00007-EVALUATION-cosmos]]
     (This Schema)   (Modal Sequence) (Evaluation)
 ```
 
 Line 346 (Critical Path section):
 ```
-CURRENT: 3. **CANON-00005 Syncrescendent Core** (30 minutes)
-CORRECT: Already correct (CANON-00005 IS Syncrescendence)
+CURRENT: 3. **[[CANON-00005-SYNCRESCENDENCE-cosmos]] Syncrescendent Core** (30 minutes)
+CORRECT: Already correct ([[CANON-00005-SYNCRESCENDENCE-cosmos]] IS Syncrescendence)
 
-CURRENT: 4. **CANON-00008: Energy States** (20 minutes)
-SHOULD BE: 4. **CANON-00012: Modal Sequence** (20 minutes)
+CURRENT: 4. **[[CANON-00008-RESOLUTIONS-cosmos]]: Energy States** (20 minutes)
+SHOULD BE: 4. **[[CANON-00012-MODAL_SEQUENCE-cosmos]]: Modal Sequence** (20 minutes)
 ```
 
 #### Correction 6: CANON-00006-CORPUS Line 1438 (if exists)
 **File**: `CANON-00006-CORPUS-cosmos.md`
-**Issue**: Reference to CANON-00001 for "What is Syncrescendence?"
-**Current**: Points to CANON-00001
-**Correction**: Point to CANON-00005
+**Issue**: Reference to [[CANON-00001-ORIGIN-cosmos]] for "What is Syncrescendence?"
+**Current**: Points to [[CANON-00001-ORIGIN-cosmos]]
+**Correction**: Point to [[CANON-00005-SYNCRESCENDENCE-cosmos]]
 
 **Verify line number exists before editing** — corpus is 1804 lines, line 1438 should exist.
 
@@ -190,10 +190,10 @@ After ALL corrections, run:
 
 ```bash
 # Verify no remaining old references
-grep -r "CANON-00008.*Modal" *.md
+grep -r "[[CANON-00008-RESOLUTIONS-cosmos]].*Modal" *.md
 grep -r "17 CANON" *.md
 grep -r "28 Core CANON" *.md
-grep -r "CANON-00001.*Syncrescen" *.md
+grep -r "[[CANON-00001-ORIGIN-cosmos]].*Syncrescen" *.md
 
 # These should return EMPTY or only historical/quoted references
 ```

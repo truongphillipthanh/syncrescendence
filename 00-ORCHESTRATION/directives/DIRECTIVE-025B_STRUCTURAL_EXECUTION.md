@@ -1,7 +1,7 @@
 # DIRECTIVE-025B: STRUCTURAL EXECUTION STREAM
 ## Claude 3 (Code Desktop) Initialization
 **Issued**: 2025-12-31
-**Authority**: Oracle7 under Principal direction
+**Authority**: Oracle7 under Sovereign direction
 **Classification**: CRITICAL — Repository Restructuring
 **Parallel Stream**: Claude 2 handles documentation/extraction (DIRECTIVE-025A)
 
@@ -9,7 +9,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Actual Words
+### Sovereign's Actual Words
 > "Where's the flat level hierarchy? Where's the aliases?"
 
 > "Aliases are supposed to be for Finder, not for Obsidian."
@@ -65,7 +65,7 @@ GENESIS-000 through GENESIS-003 exist as separate tier. Oracle7 determined via 1
 
 ### Task A1: Determine Numbering Strategy
 
-**Option 1**: Insert GENESIS at CANON-00000 through CANON-00003, renumber existing cosmos
+**Option 1**: Insert GENESIS at [[CANON-00000-SCHEMA-cosmos]] through [[CANON-00003-PRINCIPLES-cosmos]], renumber existing cosmos
 ```
 GENESIS-000-ORIGIN → CANON-00000-ORIGIN-cosmos
 GENESIS-001-LINEAGE → CANON-00001-LINEAGE-cosmos
@@ -76,7 +76,7 @@ CANON-00001-SYNCRESCENDENCE → CANON-00005-SYNCRESCENDENCE-cosmos
 ... (renumber all existing)
 ```
 
-**Option 2**: Insert GENESIS at CANON-00001 through CANON-00004, Schema stays CANON-00000
+**Option 2**: Insert GENESIS at [[CANON-00001-ORIGIN-cosmos]] through [[CANON-00004-EVOLUTION-cosmos]], Schema stays [[CANON-00000-SCHEMA-cosmos]]
 ```
 CANON-00000-SCHEMA-cosmos (unchanged - navigational must come first)
 GENESIS-000-ORIGIN → CANON-00001-ORIGIN-cosmos
@@ -574,7 +574,7 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-025B.md`:
 - Awaiting: [What from Claude 2]
 - Completed for Claude 2: [What Claude 2 needs]
 
-**Ready for Principal Review**: ☐
+**Ready for Sovereign Review**: ☐
 ```
 
 ---

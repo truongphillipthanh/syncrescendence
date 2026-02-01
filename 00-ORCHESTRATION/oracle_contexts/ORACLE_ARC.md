@@ -30,11 +30,11 @@ Establish verification protocols after Oracle 6's failure to examine actual file
 2. **Comprehensive survey FIRST**: Before ANY execution
 3. **Verification AFTER**: Before claiming completion
 4. **Globe before trees**: Holistic framing before tactical work
-5. **Maximum resolution**: Document with Principal's actual words
+5. **Maximum resolution**: Document with Sovereign's actual words
 
 ### Crystallized Principle
 > "You have to WITH EVERY DIRECTIVE HAVE THEM ENCODE WHAT WE GO OVER. ALWAYS."
-> — Principal, Oracle7
+> — Sovereign, Oracle7
 
 ### Failure Modes Identified
 | Failure | Prevention |
@@ -57,7 +57,7 @@ Complete Phase 2 (Structural Transformation) with mechanical corrections, semant
 3. **Phase 3 begins**: Content alignment after structural completion
 4. **CANON numbering finalized**: 00000-00014 Cosmos, 10000-11999 Core, 20000-25999 Lattice, 30000-35999 Chains, 99000 Meta
 
-### Principal's Directive
+### Sovereign's Directive
 > "While we're not trying to encode rigidity, we are trying to establish predictability, tractability/control, and traceability."
 
 ### Architectural Confirmation
@@ -106,7 +106,7 @@ Transform 184 raw sources into processed intelligence briefs integrated into CAN
 ## Crystallized Lessons
 
 ### On Execution
-1. **Principal is bottleneck**: Minimize relay cycles with comprehensive directives
+1. **Sovereign is bottleneck**: Minimize relay cycles with comprehensive directives
 2. **Verify with commands, not logs**: `find`, `ls`, `wc -l` produce ground truth
 3. **Complete tasks before claiming done**: Partial = incomplete
 
@@ -134,7 +134,7 @@ Transform 184 raw sources into processed intelligence briefs integrated into CAN
 2. **Directive pattern**: Comprehensive directives; minimize relay; 18 lenses evaluation
 3. **Ontology emergence**: CSV/RDBMS bridge toward codebase; superintelligent architect framing
 4. **Delivery pattern**: A/B stream bifurcation; artifacts to /outputs
-5. **FLAT PRINCIPLE**: All directories FLAT; use naming prefixes not subdirs; nesting requires Principal approval
+5. **FLAT PRINCIPLE**: All directories FLAT; use naming prefixes not subdirs; nesting requires Sovereign approval
 6. **DISTILLATION SEMANTICS**: "Metabolize/distill" = READ all → EXTRACT unique value → COMPRESS into single doc → DELETE originals
 7. **LEDGER GROUND TRUTH**: tasks.csv is truth for work status; verify IN_PROGRESS tasks are DONE before claiming complete
 
@@ -149,7 +149,7 @@ Transform 184 raw sources into processed intelligence briefs integrated into CAN
 | 3 | Antifragile | Does this get stronger under stress? |
 | 4 | Meet the Moment | Is this the work THIS moment requires? |
 | 5 | Steelman & Redteam | What's the best counter-argument? |
-| 6 | Personal Idiosyncrasies | Does this honor the Principal's cognitive profile? |
+| 6 | Personal Idiosyncrasies | Does this honor the Sovereign's cognitive profile? |
 | 7 | Potency Without Loss | Maximum power with minimum sacrifice? |
 | 8 | Elegance | Is this the simplest form that works? |
 | 9 | Agentify | Can a fresh agent navigate this in ≤2 decisions? |

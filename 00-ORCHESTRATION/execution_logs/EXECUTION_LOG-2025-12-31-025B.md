@@ -10,7 +10,7 @@
 
 ### A1: Numbering Strategy
 - **Strategy chosen**: Option 2
-- **Rationale**: Schema (CANON-00000) is navigational entry point and should remain first. GENESIS documents slot in as CANON-00001 through CANON-00004.
+- **Rationale**: Schema ([[CANON-00000-SCHEMA-cosmos]]) is navigational entry point and should remain first. GENESIS documents slot in as [[CANON-00001-ORIGIN-cosmos]] through [[CANON-00004-EVOLUTION-cosmos]].
 
 ### A2: GENESIS Files Renamed
 | Original | New | Status |
@@ -156,7 +156,7 @@ Old structure (specialized/, PENDING_REVIEW/) removed.
 - Received: DELETION_MANIFEST.md (in state/)
 - Legacy files staged, awaiting extraction verification for deletion
 
-**Ready for Principal Review**: ✓
+**Ready for Sovereign Review**: ✓
 
 ---
 

@@ -137,7 +137,7 @@ Total Size: [KB]
 
 ## 9. -INBOX Deep Dive
 
-Current -INBOX contents requiring Principal decision:
+Current -INBOX contents requiring Sovereign decision:
 
 | File | Size | Apparent Purpose | Recommended Action | Confidence |
 |------|------|------------------|-------------------|------------|

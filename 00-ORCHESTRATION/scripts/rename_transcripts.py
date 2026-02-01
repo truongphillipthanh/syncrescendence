@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 rename_transcripts.py
-Apply Principal's naming standard to SOURCES/raw/
+Apply Sovereign's naming standard to SOURCES/raw/
 
-Principal's Standard:
+Sovereign's Standard:
 {YYYYMMDD}-{platform_format}-{full_channel_name}-{guest(if interview)}/{title(if not interview)}.{ext}
 
 Platform format values use underscores: youtube_video, youtube_lecture, podcast_interview, etc.
@@ -47,7 +47,7 @@ def parse_old_name(filename):
     return date, rest, ext
 
 def transform_to_new_standard(date, rest, ext):
-    """Transform to Principal's standard using underscores for platform_format."""
+    """Transform to Sovereign's standard using underscores for platform_format."""
     # Replace platform-format (hyphen) with platform_format (underscore)
     transformations = [
         ('youtube-interview', 'youtube_video'),

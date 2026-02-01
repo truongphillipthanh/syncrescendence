@@ -1,4 +1,6 @@
 {
   "vimMode": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true
 }

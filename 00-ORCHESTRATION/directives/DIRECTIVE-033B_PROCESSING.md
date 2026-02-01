@@ -1,14 +1,14 @@
 # DIRECTIVE-033B: PARADIGM PROCESSING + CANON INTEGRATION
 ## Stream B: Complete Source-to-Synthesis Cycle Demonstration
 **Issued**: 2026-01-01
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Intelligence Apparatus Completion
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-033A handles comprehensive triage + structured index
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Stop being inefficient... Frame the scope holistically."
 
@@ -291,7 +291,7 @@ Based on paradigm source content:
 
 **Example Integration: Sutton → CANON-00005-SYNCRESCENDENCE**
 
-Locate Bitter Lesson section in CANON-00005:
+Locate Bitter Lesson section in [[CANON-00005-SYNCRESCENDENCE-cosmos]]:
 ```bash
 grep -n "Bitter Lesson" CANON/CANON-00005-SYNCRESCENDENCE-cosmos.md
 ```
@@ -422,9 +422,9 @@ Processed sources:
 - [Additional sources...]
 
 CANON integrations:
-- CANON-00005: Bitter Lesson validation
-- CANON-30000: Intelligence chain enhancement
-- CANON-30400: Agentic architecture insights
+- [[CANON-00005-SYNCRESCENDENCE-cosmos]]: Bitter Lesson validation
+- [[CANON-30000-INTELLIGENCE-chain]]: Intelligence chain enhancement
+- [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]: Agentic architecture insights
 - [Additional integrations...]
 
 Oracle9 Phase: Processing layer complete. Full cycle demonstrated."
@@ -486,7 +486,7 @@ Save to: `orchestration/execution_logs/EXECUTION_LOG-2026-01-01-033B.md`
 ## Phase 4: CANON Integration
 | CANON Document | Sources Integrated | Integration Type |
 |----------------|-------------------|------------------|
-| CANON-00005 | SOURCE-20250926-001 | VALIDATION |
+| [[CANON-00005-SYNCRESCENDENCE-cosmos]] | SOURCE-20250926-001 | VALIDATION |
 | ... | ... | ... |
 
 ## Phase 5: Pattern Documentation

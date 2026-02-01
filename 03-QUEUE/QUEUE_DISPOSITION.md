@@ -138,7 +138,7 @@ Modal 2 processing should begin when:
    - GPT-5V or equivalent with reliable image understanding
    - Video-to-text pipelines operational
 
-2. **Principal Authorization**:
+2. **Sovereign Authorization**:
    - Explicit directive to begin Modal 2 phase
    - Resource allocation confirmed
 

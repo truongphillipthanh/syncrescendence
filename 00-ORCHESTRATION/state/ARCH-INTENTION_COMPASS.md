@@ -1,6 +1,6 @@
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
-**Last Updated**: 2026-01-11
+**Last Updated**: 2026-02-01
 **Oracle Lineage**: 0 → 12
 **Status**: Rolling snapshot
 **Authority**: Oracle 12
@@ -54,7 +54,7 @@ Each intention entry contains:
 
 | ID | Oracle | Text | Status | Notes |
 |----|--------|------|--------|-------|
-| INT-1201 | 12 | "accounts become self-sustaining by month end" | active | Revenue generation by 2026-01-31 |
+| INT-1201 | 12 | "accounts become self-sustaining by month end" | failed | Jan 31 deadline missed. Reset target pending sovereign input. |
 | INT-1202 | 12 | "capitalize on these heavy machinery to construct as much of Syncrescendence" | active | Maximum velocity during capability window |
 | INT-1209 | 12 | "Temporal intelligence refresh pipeline" | active | Automation candidate for model/platform features that expire; cadenced update system for ARCH- archived research |
 
@@ -107,6 +107,8 @@ Each intention entry contains:
 |----|--------|-------------|--------|
 | INT-C001 | 12 | "audit and anneal the corpus again for alignment/congruence" | pending |
 | INT-C002 | 12 | "attached reports ought to be canonized" | pending |
+| INT-C003 | 13 | "Revenue target reset — new deadline TBD by Sovereign" | pending |
+| INT-C004 | 13 | "Corpus hygiene sprint: triage -INBOX, refresh stale state, compress" | pending |
 
 ---
 

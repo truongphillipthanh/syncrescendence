@@ -37,7 +37,7 @@ Key references in project knowledge:
 ## Information Chain / Sensing / Reconnaissance
 
 ### Identity
-- **Email**: [placeholder for Principal to fill]
+- **Email**: [placeholder for Sovereign to fill]
 - **Guiding Virtues**: Perspicacity, Astuteness, Discernment
 - **Primary Function**: Strategic reconnaissance and intelligence mediation
 
@@ -98,7 +98,7 @@ Key references in project knowledge:
 ## Insight Chain / Synthesis / Frameworks
 
 ### Identity
-- **Email**: [placeholder for Principal to fill]
+- **Email**: [placeholder for Sovereign to fill]
 - **Guiding Virtues**: Clarity, Synthesis, Elegance
 - **Primary Function**: Framework development and pattern integration
 
@@ -177,9 +177,9 @@ Each IIC handoff includes:
 ## EXECUTION STEPS
 
 ### Phase 1: Document Review (30 min)
-1. Read CANON-31140 and CANON-31141 for complete specifications
-2. Review CANON-31130 for Seven-Layer Stack details
-3. Note any gaps requiring Principal clarification
+1. Read [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] and [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] for complete specifications
+2. Review [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] for Seven-Layer Stack details
+3. Note any gaps requiring Sovereign clarification
 
 ### Phase 2: Acumen Configuration (60-90 min)
 1. Create IIC-Acumen-config.md with complete specification

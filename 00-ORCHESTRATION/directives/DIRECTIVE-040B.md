@@ -34,14 +34,14 @@ Per EXECUTION_LOG-039A, these sources were integrated:
 
 | Source | Target CANON | Verification |
 |--------|--------------|--------------|
-| chris_kempes | CANON-35200, CANON-00016 | `grep -l "kempes\|Kempes" 01-CANON/*.md` |
-| sergey_levine | CANON-30000, CANON-30400 | `grep -l "levine\|Levine" 01-CANON/*.md` |
-| donald_hoffman | CANON-35000, CANON-00016 | `grep -l "hoffman\|Hoffman" 01-CANON/*.md` |
-| chollet_knoop | CANON-30000, CANON-00003 | `grep -l "chollet\|Chollet" 01-CANON/*.md` |
-| john_martinis | CANON-30300, CANON-00004 | `grep -l "martinis\|Martinis" 01-CANON/*.md` |
-| jensen_huang | CANON-30300, CANON-00004 | `grep -l "jensen\|Jensen\|NVIDIA" 01-CANON/*.md` |
-| marc_ben | CANON-00004, CANON-30000 | `grep -l "andreessen\|Andreessen" 01-CANON/*.md` |
-| renaissance_2_0 | CANON-00015, CANON-00004 | `grep -l "renaissance\|Shapiro" 01-CANON/*.md` |
+| chris_kempes | [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]], [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] | `grep -l "kempes\|Kempes" 01-CANON/*.md` |
+| sergey_levine | [[CANON-30000-INTELLIGENCE-chain]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] | `grep -l "levine\|Levine" 01-CANON/*.md` |
+| donald_hoffman | [[CANON-35000-WISDOM-chain]], [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]] | `grep -l "hoffman\|Hoffman" 01-CANON/*.md` |
+| chollet_knoop | [[CANON-30000-INTELLIGENCE-chain]], [[CANON-00003-PRINCIPLES-cosmos]] | `grep -l "chollet\|Chollet" 01-CANON/*.md` |
+| john_martinis | [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]], [[CANON-00004-EVOLUTION-cosmos]] | `grep -l "martinis\|Martinis" 01-CANON/*.md` |
+| jensen_huang | [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]], [[CANON-00004-EVOLUTION-cosmos]] | `grep -l "jensen\|Jensen\|NVIDIA" 01-CANON/*.md` |
+| marc_ben | [[CANON-00004-EVOLUTION-cosmos]], [[CANON-30000-INTELLIGENCE-chain]] | `grep -l "andreessen\|Andreessen" 01-CANON/*.md` |
+| renaissance_2_0 | [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]], [[CANON-00004-EVOLUTION-cosmos]] | `grep -l "renaissance\|Shapiro" 01-CANON/*.md` |
 
 ### 1.2 Verify 039B Claimed Integrations
 
@@ -49,10 +49,10 @@ Per EXECUTION_LOG-039B, these sources were integrated:
 
 | Source | Target CANON | Verification |
 |--------|--------------|--------------|
-| marc_andreessen_ben_horowitz | CANON-00009, CANON-33100 | Check for External Source Validations section |
-| reid_hoffman | CANON-33100, CANON-33110 | Check for External Source Validations section |
-| ethan_mollick | CANON-33110 | Check for reference |
-| elon_musk | CANON-00015 | Check Integrated Sources section |
+| marc_andreessen_ben_horowitz | [[CANON-00009-STRATEGY-cosmos]], [[CANON-33100-EFFICACY-planetary-EXPERTISE]] | Check for External Source Validations section |
+| reid_hoffman | [[CANON-33100-EFFICACY-planetary-EXPERTISE]], [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] | Check for External Source Validations section |
+| ethan_mollick | [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] | Check for reference |
+| elon_musk | [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] | Check Integrated Sources section |
 
 ### 1.3 Execute Verification
 ```bash

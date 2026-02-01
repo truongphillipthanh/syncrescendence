@@ -1,7 +1,7 @@
 #!/bin/bash
 # finalize_conversions.sh
 # Replace originals with validated SN versions
-# REQUIRES PRINCIPAL APPROVAL BEFORE RUNNING
+# REQUIRES SOVEREIGN APPROVAL BEFORE RUNNING
 
 set -e
 
@@ -26,9 +26,9 @@ echo "IMPORTANT: This is irreversible (outside of git revert)."
 echo ""
 
 # Confirmation
-read -p "Has the Principal approved this finalization? (yes/no): " approval
+read -p "Has the Sovereign approved this finalization? (yes/no): " approval
 if [ "$approval" != "yes" ]; then
-    echo "Aborted. Principal approval required."
+    echo "Aborted. Sovereign approval required."
     exit 0
 fi
 

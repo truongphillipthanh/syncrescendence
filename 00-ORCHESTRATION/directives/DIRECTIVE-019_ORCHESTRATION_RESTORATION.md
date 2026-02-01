@@ -1,7 +1,7 @@
 # DIRECTIVE-019: ORCHESTRATION RESTORATION AND COMPLETE STATUS
 ## Course Correction for Holistic Visibility
 **Issued**: 2025-12-30
-**Authority**: Principal
+**Authority**: Sovereign
 **Classification**: CRITICAL — System Integrity
 **Execution**: Claude Opus 4.5 Code Desktop
 **Status**: EXECUTED
@@ -92,7 +92,7 @@ After this directive, ALL future execution reports must:
 │                                                                      │
 │  PHASE 2: EXECUTION ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ [20%]      │
 │  ├── Archive Creation (from distillation)       ⏳ PENDING          │
-│  ├── CANON-30400 Crown Jewel                    ⏳ PENDING          │
+│  ├── [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] Crown Jewel                    ⏳ PENDING          │
 │  ├── CANON-30410-30450 Asteroids               ⏳ STAGED           │
 │  ├── Metadata Rollout (YAML frontmatter)        ⏳ PENDING          │
 │  └── Cross-Reference Validation                 ⏳ PENDING          │

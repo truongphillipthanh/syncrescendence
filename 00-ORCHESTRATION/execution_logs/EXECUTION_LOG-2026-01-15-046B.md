@@ -56,7 +56,7 @@ Complete the five-IIC constellation configuration and prove the metabolic patter
 
 | Component | Lines/Size | Status | Notes |
 |-----------|------------|--------|-------|
-| CANON-31150.md.j2 | 288 lines | ✓ Created | Jinja2 template (evergreen structure) |
+| [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2 | 288 lines | ✓ Created | Jinja2 template (evergreen structure) |
 | regenerate_canon.py | 297 lines | ✓ Created | Regeneration script with sample data |
 | CANON-31150-PLATFORM_CAPABILITY_CATALOG.md | 453 lines | ✓ Generated | Auto-generated from template |
 
@@ -72,10 +72,10 @@ Temporal Data (JSON) + Evergreen Structure (Template) → Auto-Generated CANON
 **Test Result**:
 ```bash
 $ python3 00-ORCHESTRATION/scripts/regenerate_canon.py 31150
-✓ Template loaded: CANON-31150.md.j2
+✓ Template loaded: [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2
 ✓ Data loaded: 12 keys
 ✓ Rendered: 11920 characters
-✓ CANON-31150 regenerated successfully!
+✓ [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] regenerated successfully!
 ```
 
 ---
@@ -106,11 +106,11 @@ $ ls -la 00-ORCHESTRATION/templates/ 00-ORCHESTRATION/scripts/regenerate_canon.p
 
 00-ORCHESTRATION/templates/:
 total 32
--rw-r--r--  1 system  staff  14789 Jan 15 CANON-31150.md.j2
+-rw-r--r--  1 system  staff  14789 Jan 15 [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2
 ```
 
 ```bash
-$ ls -la 01-CANON/CANON-31150*.md
+$ ls -la 01-CANON/[[CANON-31150-PLATFORM_CAPABILITY_CATALOG]]*.md
 -rw-r--r--  2 system  staff  11920 Jan 15 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
 ```
 
@@ -137,7 +137,7 @@ $ git show --stat
 commit a9f31e0
  8 files changed, 4970 insertions(+)
  create mode 100755 00-ORCHESTRATION/scripts/regenerate_canon.py
- create mode 100644 00-ORCHESTRATION/templates/CANON-31150.md.j2
+ create mode 100644 00-ORCHESTRATION/templates/[[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2
  create mode 100644 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
  create mode 100644 02-ENGINE/IIC-Efficacy-config.md
  create mode 100644 02-ENGINE/IIC-Mastery-config.md
@@ -157,7 +157,7 @@ commit a9f31e0
 - [✓] IIC-Transcendence-config.md exists with 600+ lines (839 lines)
 - [✓] PROTOCOL-ChatGPT-Onboarding.md exists (746 lines)
 - [✓] PROTOCOL-Gemini-Onboarding.md exists (726 lines)
-- [✓] CANON-31150.md.j2 template exists (288 lines)
+- [✓] [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2 template exists (288 lines)
 - [✓] regenerate_canon.py executes without error
 - [✓] Template renders valid markdown (11,920 characters)
 - [✓] All changes committed with semantic message
@@ -206,7 +206,7 @@ Auto-regeneration system demonstrates:
 - No manual editing of generated files
 - Version control tracks data changes, not structure
 
-**Implication**: Platform capabilities can now be tracked in `.state/platform_capabilities.json` and CANON-31150 regenerates automatically. When GPT-6 or Gemini 3.0 launches, update JSON, regenerate, commit.
+**Implication**: Platform capabilities can now be tracked in `.state/platform_capabilities.json` and [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] regenerates automatically. When GPT-6 or Gemini 3.0 launches, update JSON, regenerate, commit.
 
 ---
 
@@ -262,7 +262,7 @@ Stream B (this) completes constellation:
 1. **Test IMEP Cycle**: Execute one complete Evidence→Plan→Execute→Audit cycle
 2. **Platform Onboarding**: Configure ChatGPT Custom Instructions and Gemini Gem
 3. **Data Capture**: Populate `platform_capabilities.json` with live data
-4. **Regeneration Test**: Update JSON, regenerate CANON-31150, verify diff
+4. **Regeneration Test**: Update JSON, regenerate [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]], verify diff
 
 ### Short-Term (Next Week)
 
@@ -338,7 +338,7 @@ DIRECTIVE-046B executed successfully within estimated time and scope.
 
 **System State**:
 - PROJ-002 at 100% (all five IIC configs complete)
-- Platform onboarding ready for Principal execution
+- Platform onboarding ready for Sovereign execution
 - Metabolic pattern proven and reusable
 
 **Next**: Await Stream A completion, then integrate both streams for first autonomous IMEP cycle.

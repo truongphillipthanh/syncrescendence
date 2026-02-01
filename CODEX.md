@@ -1,7 +1,7 @@
 # Syncrescendence - Codex CLI Configuration
 
-**Version**: 1.0.0
-**Last Updated**: 2026-01-23
+**Version**: 1.1.0 (Cowork Era)
+**Last Updated**: 2026-01-25
 
 ## Identity
 
@@ -61,3 +61,41 @@ Inherit from `CLAUDE.md`:
 - FLAT PRINCIPLE: All directories must be flat
 - ATOMIC UPDATES: CSV updates use temp file → validate → rename
 - VERIFICATION BEFORE COMPLETION: Never claim done without running checks
+
+---
+
+## Semantic Notation (SN)
+
+This corpus uses **Semantic Notation** for ~80% token compression.
+
+### Key Operators
+```
+::   expands to / is defined as
+|    constrained by
+>>   transforms into
+=>   implies
+```
+
+### Full glossary
+`00-ORCHESTRATION/notation/symbols.yaml`
+
+---
+
+## Cowork Mediation Architecture
+
+This platform operates as a **coordination interface**, not a primary workspace.
+
+### Architecture
+```
+Repository (ground truth)
+    ↕ Cowork mediates
+Web Apps (coordination surfaces)
+```
+
+### Your Role
+- **Chat interface** for coordination, ideation, quick queries
+- **NOT primary workspace** — repository is ground truth
+- Changes flow: Cowork → repository → synced back
+
+### Operational Knowledge
+Reference `07-SIGMA7/` for Claude Code patterns, cross-platform integration, and execution mechanics.

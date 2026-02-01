@@ -1,14 +1,14 @@
 # DIRECTIVE-034A: FORENSIC RECOVERY + MACROSCOPIC NARRATIVES RESTORATION
 ## Stream A: Lost Content Archaeology + Interpretive Framework Reconstruction
 **Issued**: 2026-01-02
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Restoring Foundational Infrastructure
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-034B handles Project Management + QUEUE Reconciliation
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Unbelievable the defrag eliminated our most important work with all the mental models, metahumanism and the cognitive palace. Were they never absorbed and integrated?"
 
@@ -43,7 +43,7 @@ The directive claimed "2.8M → 85K (97% compression)" but current ARCHIVE/ cont
 
 1. **Git Archaeology**: If Coherence/ was committed before deletion, content is recoverable
 2. **Oracle0 Quotes**: Macroscopic narratives were read and quoted extensively
-3. **Principal's Source Files**: Original files may exist outside repository
+3. **Sovereign's Source Files**: Original files may exist outside repository
 
 ---
 
@@ -65,7 +65,7 @@ The directive claimed "2.8M → 85K (97% compression)" but current ARCHIVE/ cont
 | 12 | Industrial Engineering | One-time recovery investment | ✓ |
 | 13 | Complexity Theory | Essential complexity, not accidental | ✓ |
 | 14 | Permaculture | Restoring generative foundation | ✓ |
-| 15 | Design Thinking | Addresses Principal's pain point | ✓ |
+| 15 | Design Thinking | Addresses Sovereign's pain point | ✓ |
 | 16 | Agile | Shippable recovery report | ✓ |
 | 17 | Lean | Maximum value recovery | ✓ |
 | 18 | Six Sigma | Documenting failure mode for prevention | ✓ |
@@ -196,7 +196,7 @@ Based on Oracle0 conversation quotes, the macroscopic narratives were organized 
 ```bash
 cat > CANON/CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md << 'HEREDOC'
 ---
-id: CANON-00015
+id: [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
 name: Macroscopic Narratives
 classification: cosmos
 chain: null
@@ -392,7 +392,7 @@ HEREDOC
 ### 3.1 Assess Current CANON for Coherence Content
 
 ```bash
-# Check what's actually in CANON-20000 (Cognitive Palace)
+# Check what's actually in [[CANON-20000-PALACE-lattice]] (Cognitive Palace)
 wc -c CANON/CANON-20000-*
 head -100 CANON/CANON-20000-*
 
@@ -424,16 +424,16 @@ cat > orchestration/scaffolding/COHERENCE_ABSORPTION_AUDIT.md << 'HEREDOC'
 
 | Content Area | Original Size | CANON Absorption | ARCHIVE Preservation | Status |
 |--------------|---------------|------------------|----------------------|--------|
-| Cognitive Palace | 903K | [CHECK CANON-20000] | [CHECK ARCHIVE] | [ASSESS] |
+| Cognitive Palace | 903K | [CHECK [[CANON-20000-PALACE-lattice]]] | [CHECK ARCHIVE] | [ASSESS] |
 | Metahumanism | 923K | [CHECK CANON + GENESIS] | 0K | [ASSESS] |
 | Mental Models | 564K | [CHECK CANON-31xxx, 34xxx] | 0K | [ASSESS] |
-| Artifacts | 426K | [CHECK CANON-00007] | [CHECK ARCHIVE] | [ASSESS] |
+| Artifacts | 426K | [CHECK [[CANON-00007-EVALUATION-cosmos]]] | [CHECK ARCHIVE] | [ASSESS] |
 
 ## DETAILED FINDINGS
 
 ### Cognitive Palace (903K original)
 
-**What CANON-20000 contains**:
+**What [[CANON-20000-PALACE-lattice]] contains**:
 [Examine actual file and document]
 
 **What ARCHIVE-COGNITIVE-PALACE-SPECS.md contains**:
@@ -473,8 +473,8 @@ cat > orchestration/scaffolding/COHERENCE_ABSORPTION_AUDIT.md << 'HEREDOC'
 - Knowledge Taxonomy
 
 **Where content might have gone**:
-- CANON-31100 (Acumen): [CHECK]
-- CANON-34100 (Mastery): [CHECK]
+- [[CANON-31100-ACUMEN-planetary-INFORMATION]] (Acumen): [CHECK]
+- [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Mastery): [CHECK]
 
 **Assessment**: [ABSORBED/PARTIALLY ABSORBED/LOST]
 
@@ -500,7 +500,7 @@ cat > orchestration/scaffolding/COHERENCE_ABSORPTION_AUDIT.md << 'HEREDOC'
 1. Document the loss formally
 2. Identify what can be reconstructed from:
    - Oracle conversation history
-   - Principal's source files
+   - Sovereign's source files
    - Scattered references in existing CANON
 3. Create reconstruction roadmap
 
@@ -522,7 +522,7 @@ cat > orchestration/scaffolding/COHERENCE_ABSORPTION_AUDIT.md << 'HEREDOC'
 1. **Verification before deletion**: Never delete source until distillation VERIFIED
 2. **Size checks**: Verify output size matches claimed compression
 3. **Content spot-checks**: Verify specific items preserved
-4. **Principal review**: Major deletions require Principal confirmation
+4. **Sovereign review**: Major deletions require Sovereign confirmation
 
 HEREDOC
 ```

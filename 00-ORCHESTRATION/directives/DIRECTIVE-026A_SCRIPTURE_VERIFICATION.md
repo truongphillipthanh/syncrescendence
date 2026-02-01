@@ -1,7 +1,7 @@
 # DIRECTIVE-026A: SCRIPTURE VERIFICATION — COSMOS TIER
 ## Claude 2 (Desktop) Initialization
 **Issued**: 2025-12-31
-**Authority**: Oracle7 under Principal direction
+**Authority**: Oracle7 under Sovereign direction
 **Classification**: CRITICAL — Content Alignment
 **Parallel Stream**: Claude 3 handles deletions + canonization (DIRECTIVE-026B)
 
@@ -9,7 +9,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Actual Words
+### Sovereign's Actual Words
 > "Yes proceed."
 (Approving deletion manifest, canonization, queue consolidation, and scripture verification)
 
@@ -21,7 +21,7 @@ From Oracle7 session:
 
 ### Oracle's Interpretation
 DIRECTIVE-025A/B completed structural transformation:
-- GENESIS canonized as CANON-00001 through 00004
+- GENESIS canonized as [[CANON-00001-ORIGIN-cosmos]] through 00004
 - Cosmos renumbered (Syncrescendence now 00005, etc.)
 - CANON flattened to 69 files
 - Aliases created
@@ -29,8 +29,8 @@ DIRECTIVE-025A/B completed structural transformation:
 - Documentation infrastructure deployed
 
 However, **structural changes don't automatically update content**. CANON documents may still reference:
-- Old cosmos numbering ("CANON-00001 Syncrescendence" → now CANON-00005)
-- GENESIS tier ("GENESIS-001" → now CANON-00002)
+- Old cosmos numbering ("[[CANON-00001-ORIGIN-cosmos]] Syncrescendence" → now [[CANON-00005-SYNCRESCENDENCE-cosmos]])
+- GENESIS tier ("GENESIS-001" → now [[CANON-00002-LINEAGE-cosmos]])
 - Old chain terminology ("Technology Chain" → now "Intelligence Chain")
 - Archetype Engineering paradigm (superseded by Reception Calibration)
 - Outdated cross-references
@@ -68,7 +68,7 @@ This directive initiates **scripture verification**—ensuring prose content ref
 
 ## YOUR MISSION
 
-You are the scripture verification engine for the cosmos tier. Audit CANON-00000 through CANON-00014 for content alignment with structural changes and paradigm evolution from Oracle 0-7.
+You are the scripture verification engine for the cosmos tier. Audit [[CANON-00000-SCHEMA-cosmos]] through [[CANON-00014-CONTENT_PROTOCOL-cosmos]] for content alignment with structural changes and paradigm evolution from Oracle 0-7.
 
 ---
 
@@ -78,21 +78,21 @@ You are the scripture verification engine for the cosmos tier. Audit CANON-00000
 
 | ID | Name | Size | Key Concerns |
 |----|------|------|--------------|
-| CANON-00000 | SCHEMA | 84K | Numbering, hierarchy descriptions |
-| CANON-00001 | ORIGIN | 14K | NEW (was GENESIS-000) — verify frontmatter |
-| CANON-00002 | LINEAGE | 15K | NEW (was GENESIS-001) — verify frontmatter |
-| CANON-00003 | PRINCIPLES | 9K | NEW (was GENESIS-002) — verify frontmatter |
-| CANON-00004 | EVOLUTION | 11K | NEW (was GENESIS-003) — verify frontmatter, add Oracle7 |
-| CANON-00005 | SYNCRESCENDENCE | 114K | RENUMBERED — verify all internal refs |
-| CANON-00006 | CORPUS | 75K | RENUMBERED — verify manifest, file counts |
-| CANON-00007 | EVALUATION | 46K | RENUMBERED — verify criteria current |
-| CANON-00008 | RESOLUTIONS | 49K | RENUMBERED — verify tensions current |
-| CANON-00009 | STRATEGY | 35K | RENUMBERED — verify strategy current |
-| CANON-00010 | OPERATIONS | 51K | RENUMBERED — verify protocols current |
-| CANON-00011 | ARTIFACT_PROTOCOL | 36K | RENUMBERED — verify production guidance |
-| CANON-00012 | MODAL_SEQUENCE | 104K | RENUMBERED — verify timeline current |
-| CANON-00013 | QUICKSTART | 33K | RENUMBERED — verify entry points |
-| CANON-00014 | CONTENT_PROTOCOL | 96K | RENUMBERED — verify content guidance |
+| [[CANON-00000-SCHEMA-cosmos]] | SCHEMA | 84K | Numbering, hierarchy descriptions |
+| [[CANON-00001-ORIGIN-cosmos]] | ORIGIN | 14K | NEW (was GENESIS-000) — verify frontmatter |
+| [[CANON-00002-LINEAGE-cosmos]] | LINEAGE | 15K | NEW (was GENESIS-001) — verify frontmatter |
+| [[CANON-00003-PRINCIPLES-cosmos]] | PRINCIPLES | 9K | NEW (was GENESIS-002) — verify frontmatter |
+| [[CANON-00004-EVOLUTION-cosmos]] | EVOLUTION | 11K | NEW (was GENESIS-003) — verify frontmatter, add Oracle7 |
+| [[CANON-00005-SYNCRESCENDENCE-cosmos]] | SYNCRESCENDENCE | 114K | RENUMBERED — verify all internal refs |
+| [[CANON-00006-CORPUS-cosmos]] | CORPUS | 75K | RENUMBERED — verify manifest, file counts |
+| [[CANON-00007-EVALUATION-cosmos]] | EVALUATION | 46K | RENUMBERED — verify criteria current |
+| [[CANON-00008-RESOLUTIONS-cosmos]] | RESOLUTIONS | 49K | RENUMBERED — verify tensions current |
+| [[CANON-00009-STRATEGY-cosmos]] | STRATEGY | 35K | RENUMBERED — verify strategy current |
+| [[CANON-00010-OPERATIONS-cosmos]] | OPERATIONS | 51K | RENUMBERED — verify protocols current |
+| [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]] | ARTIFACT_PROTOCOL | 36K | RENUMBERED — verify production guidance |
+| [[CANON-00012-MODAL_SEQUENCE-cosmos]] | MODAL_SEQUENCE | 104K | RENUMBERED — verify timeline current |
+| [[CANON-00013-QUICKSTART-cosmos]] | QUICKSTART | 33K | RENUMBERED — verify entry points |
+| [[CANON-00014-CONTENT_PROTOCOL-cosmos]] | CONTENT_PROTOCOL | 96K | RENUMBERED — verify content guidance |
 
 ### Verification Checklist Per Document
 
@@ -110,8 +110,8 @@ For each document, check:
 - [ ] dependencies: list current IDs
 
 ### B. Numbering References
-- [ ] No references to old CANON-00001 (Syncrescendence) → now 00005
-- [ ] No references to old CANON-00002 (Corpus) → now 00006
+- [ ] No references to old [[CANON-00001-ORIGIN-cosmos]] (Syncrescendence) → now 00005
+- [ ] No references to old [[CANON-00002-LINEAGE-cosmos]] (Corpus) → now 00006
 - [ ] No references to GENESIS-00x → now CANON-0000x
 - [ ] All cross-references use current numbering
 
@@ -157,7 +157,7 @@ For each document, check:
 - [ ] Six chains correctly named
 - [ ] Reading sequence updated
 
-### CANON-00001 through 00004 (GENESIS → CANON)
+### [[CANON-00001-ORIGIN-cosmos]] through 00004 (GENESIS → CANON)
 
 **Critical because**: These were GENESIS-000 through 003, now canonized.
 
@@ -179,10 +179,10 @@ For each document, check:
 
 ### CANON-00005-SYNCRESCENDENCE (114K) — THE CORE
 
-**Critical because**: Renamed from CANON-00001. Largest cosmos document.
+**Critical because**: Renamed from [[CANON-00001-ORIGIN-cosmos]]. Largest cosmos document.
 
 **Specific Checks**:
-- [ ] No self-references to "CANON-00001"
+- [ ] No self-references to "[[CANON-00001-ORIGIN-cosmos]]"
 - [ ] All chain references use current names
 - [ ] Modal Sequence references updated (was 00008, now 00012)
 - [ ] Operations references updated (was 00006, now 00010)
@@ -206,7 +206,7 @@ For each document, check:
 
 ```markdown
 # COSMOS ALIGNMENT REPORT
-## Scripture Verification: CANON-00000 through CANON-00014
+## Scripture Verification: [[CANON-00000-SCHEMA-cosmos]] through [[CANON-00014-CONTENT_PROTOCOL-cosmos]]
 **Generated**: [DATE]
 **Agent**: Claude 2
 **Directive**: DIRECTIVE-026A
@@ -217,7 +217,7 @@ For each document, check:
 
 | Document | Frontmatter | Numbering | Terminology | Paradigm | Structural | Overall |
 |----------|-------------|-----------|-------------|----------|------------|---------|
-| CANON-00000 | ✓/✗ | ✓/✗ | ✓/✗ | ✓/✗ | ✓/✗ | ✓/✗ |
+| [[CANON-00000-SCHEMA-cosmos]] | ✓/✗ | ✓/✗ | ✓/✗ | ✓/✗ | ✓/✗ | ✓/✗ |
 | ... | | | | | | |
 
 **Documents Fully Aligned**: X/15
@@ -260,7 +260,7 @@ For each document, check:
 ## Correction Specifications
 
 ### High Priority (Blocks Downstream)
-1. CANON-00000 numbering table: Update to reflect 00001-00014 sequence
+1. [[CANON-00000-SCHEMA-cosmos]] numbering table: Update to reflect 00001-00014 sequence
 2. ...
 
 ### Medium Priority (Causes Confusion)
@@ -273,10 +273,10 @@ For each document, check:
 
 ## Recommended Execution Order
 
-1. CANON-00000 (Schema) — All others derive from this
+1. [[CANON-00000-SCHEMA-cosmos]] (Schema) — All others derive from this
 2. CANON-00001-00004 (ex-GENESIS) — Frontmatter standardization
-3. CANON-00005 (Syncrescendence) — Core document
-4. CANON-00006 (Corpus) — Must reflect reality
+3. [[CANON-00005-SYNCRESCENDENCE-cosmos]] (Syncrescendence) — Core document
+4. [[CANON-00006-CORPUS-cosmos]] (Corpus) — Must reflect reality
 5. Remaining cosmos documents
 
 ---
@@ -284,7 +284,7 @@ For each document, check:
 ## Handoff to Claude 3
 
 After Claude 3 completes DIRECTIVE-026B (deletions + canonization), the following additional updates will be needed:
-- CANON-30330, CANON-30340 added to manifest
+- [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]], [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] added to manifest
 - QUEUE-36200 documented
 - Deletion of 15 files reflected
 
@@ -312,7 +312,7 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-026A.md`:
 
 | Document | Size | Time | Status |
 |----------|------|------|--------|
-| CANON-00000 | 84K | [X min] | [Status] |
+| [[CANON-00000-SCHEMA-cosmos]] | 84K | [X min] | [Status] |
 | ... | | | |
 
 ---
@@ -348,7 +348,7 @@ Create `orchestration/execution_logs/EXECUTION_LOG-2025-12-31-026A.md`:
 
 ---
 
-## Ready for Principal Review: ✓/☐
+## Ready for Sovereign Review: ✓/☐
 ```
 
 ---
@@ -380,11 +380,11 @@ Per 18 lenses:
 
 Claude 3 (DIRECTIVE-026B) executes in parallel:
 - Deletes 15 approved files
-- Canonizes Research_Protocols → CANON-30330
-- Canonizes Implementation_Guide → CANON-30340
+- Canonizes Research_Protocols → [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
+- Canonizes Implementation_Guide → [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
 - Consolidates Screenplay files → QUEUE-36200
 
-Your COSMOS_ALIGNMENT_REPORT should note that CANON-00006 (Corpus) will need additional updates after Claude 3 completes canonization.
+Your COSMOS_ALIGNMENT_REPORT should note that [[CANON-00006-CORPUS-cosmos]] (Corpus) will need additional updates after Claude 3 completes canonization.
 
 ---
 

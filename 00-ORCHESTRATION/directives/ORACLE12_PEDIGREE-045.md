@@ -15,7 +15,7 @@
 
 | Blitzkrieg | Status | Outcome |
 |------------|--------|---------|
-| 43 | COMPLETE | Constellation architecture (CANON-25200), research archived, repository cleaned |
+| 43 | COMPLETE | Constellation architecture ([[CANON-25200-CONSTELLATION_ARCH-lattice]]), research archived, repository cleaned |
 | 44 | COMPLETE | Intention Compass updated, Tech Tree Audit (coverage confirmed), Model Specification formalized |
 | **45** | **ISSUING** | IIC completion + Skills genesis |
 
@@ -28,7 +28,7 @@
 
 ### Why This Blitzkrieg Now
 
-The Deep Researches will take time and are Principal-executed (not Claude Code). Meanwhile, we can:
+The Deep Researches will take time and are Sovereign-executed (not Claude Code). Meanwhile, we can:
 - Complete the remaining IIC configurations (unblocks PROJ-005, advances PROJ-002 to 100%)
 - Create process-level Skills (Intentions, Pedigree) that improve all future Oracle sessions
 - Begin function-to-Skill conversion (PROJ-016)
@@ -69,7 +69,7 @@ Per ARCH-TECH_TREE_AUDIT.md findings from Blitzkrieg 44:
 | INT-1211 (Platforms) | RESOLVED | 77 CANON files provide coverage |
 | INT-1212 (Capabilities) | RESOLVED | 73 CANON files, temporal/evergreen split correct |
 
-**Principal Approval**: These can be marked resolved in ARCH-INTENTION_COMPASS.md
+**Sovereign Approval**: These can be marked resolved in ARCH-INTENTION_COMPASS.md
 
 ### New Intention: Platform Capability Catalog
 
@@ -141,7 +141,7 @@ Both streams execute simultaneously with no file conflicts:
 - Execution logs created
 
 ### Post-Blitzkrieg
-- Principal executes Deep Researches (OpenAI, Google)
+- Sovereign executes Deep Researches (OpenAI, Google)
 - Results populate Platform Capability Catalog
 - Platform onboarding proceeds with full intelligence
 

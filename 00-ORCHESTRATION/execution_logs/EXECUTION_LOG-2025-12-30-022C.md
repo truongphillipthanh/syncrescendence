@@ -85,7 +85,7 @@ All 65 CANON files now have:
 - core/: 2 files
 - lattice/: 8 files
 - chains/: 43 files
-- meta: 1 file (CANON-99000)
+- meta: 1 file ([[CANON-99000-HISTORICAL-meta]])
 
 ---
 

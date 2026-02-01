@@ -1,14 +1,14 @@
 # DIRECTIVE-035B: TECH LUNAR COMPLETION + SOURCE PROCESSING + ORACLE9 BURNDOWN
 ## Stream B: Operational Completion and Trajectory Advancement
 **Issued**: 2026-01-02
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Completing Oracle9 Scope
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-035A handles Coherence Distillation
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Essentially we're running the correct Defragging process, in addition to rounding out and burning down the subsequent steps that follow directives 34."
 
@@ -22,7 +22,7 @@ From Oracle8 handoff, Oracle9's scope was:
 |-------|-------------|--------|
 | DIRECTIVE-032 | Orphan filing + SOURCES/ creation | ✅ COMPLETE |
 | DIRECTIVE-033 | Transcript triage + sources.csv | ✅ COMPLETE |
-| DIRECTIVE-034A | Forensic recovery + CANON-00015 | ✅ COMPLETE |
+| DIRECTIVE-034A | Forensic recovery + [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] | ✅ COMPLETE |
 | DIRECTIVE-034B | Project management + naming + QUEUE reconciliation | ✅ COMPLETE |
 | DIRECTIVE-035A | Coherence qualified distillation | 🔄 IN PROGRESS |
 | **DIRECTIVE-035B** | **Tech Lunar + source processing + burndown** | **THIS DIRECTIVE** |
@@ -97,7 +97,7 @@ grep -l "business\|system\|operation" CANON/CANON-33*.md
 
 **18-Lens Quick Check**:
 - Bitter Lesson: Business systems frameworks scale ✓
-- First Principles: Does CANON-33110 (Business Operation Backbone) already have this? CHECK
+- First Principles: Does [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] (Business Operation Backbone) already have this? CHECK
 - Antifragile: Operational patterns survive ✓
 
 **Decision Framework**:
@@ -159,7 +159,7 @@ ls -la "QUEUE/2 Prompts/Screenplay Formatting/"
 cat "QUEUE/Tool Landscape/ai_tools_cartography_2025_complete.md" | head -100
 ```
 
-**Decision**: ASSESS against CANON-30300 (Technology Stack Database)
+**Decision**: ASSESS against [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] (Technology Stack Database)
 - If novel structure → integrate
 - If list-based/time-sensitive → RELEASE
 
@@ -187,7 +187,7 @@ grep "paradigm" SOURCES/sources.csv | grep -v "processed" | head -10
 
 1. **Extract Insights** using listenize.xml / readize.xml
 2. **Validate** against 18 lenses
-3. **Integrate** into appropriate CANON (CANON-00004, CANON-30400, etc.)
+3. **Integrate** into appropriate CANON ([[CANON-00004-EVOLUTION-cosmos]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]], etc.)
 4. **Update** sources.csv with integrated_into field
 5. **Move** to SOURCES/processed/
 
@@ -341,7 +341,7 @@ Batches Complete: 0
 |---------|--------------|--------|
 | 20+ paradigm sources processed | Enriched CANON | 4/20 (20%) |
 | Unified prompts validated | Platform config | OPERATIONAL/prompts/unified/ exists |
-| IIC account architecture | Implementation | CANON-31140, 31141 exist |
+| IIC account architecture | Implementation | [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]], 31141 exist |
 | Coherence distillation | Complete CANON | In progress (035A) |
 
 ### 4.3 Handoff Artifacts
@@ -362,7 +362,7 @@ Create for Oracle10:
    - Prompt Engineering Manuals → RELEASE
    - Platform System Prompts → RELEASE
    - Screenplay Formatting → QUEUE/modal2/
-   - Tool Landscape → assess vs CANON-30300
+   - Tool Landscape → assess vs [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]
 
 2. Process paradigm batch 1 (10 sources)
 

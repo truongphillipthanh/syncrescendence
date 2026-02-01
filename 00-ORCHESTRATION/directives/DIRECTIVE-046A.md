@@ -14,7 +14,7 @@ You are executing the most critical directive in the Oracle arc. Twelve sessions
 
 **Read ORACLE13_CONTEXT.md first.** It contains the convergent findings from three frontier models that inform this directive.
 
-**Success criterion**: ONE COMPLETE AUTONOMOUS CYCLE with zero Principal relay.
+**Success criterion**: ONE COMPLETE AUTONOMOUS CYCLE with zero Sovereign relay.
 
 ---
 
@@ -197,7 +197,7 @@ Create `/00-ORCHESTRATION/schemas/packet_protocol.json`:
         "objective": "Transcribe and qualify new video",
         "deliverables": ["SOURCE-[date]-[creator].md"],
         "acceptance_criteria": ["Transcript complete", "Frontmatter valid", "Signal tier assigned"],
-        "stop_conditions": ["Video >4hr without Principal approval", "API error rate >5%"]
+        "stop_conditions": ["Video >4hr without Sovereign approval", "API error rate >5%"]
       }
     },
     "execution": {
@@ -509,7 +509,7 @@ cat > 00-ORCHESTRATION/blackboard/plans/PLN-20260115-001.json << 'EOF'
     "State vector timestamp updated",
     "metrics.autonomous_cycles incremented",
     "Event log contains entries for: evidence, plan, execution, audit",
-    "No Principal relay required"
+    "No Sovereign relay required"
   ],
   "stop_conditions": [
     "Any primitive fails validation",
@@ -582,7 +582,7 @@ cat > 00-ORCHESTRATION/blackboard/audits/AUD-20260115-001.json << 'EOF'
     "state_vector_timestamp_updated": true,
     "autonomous_cycles_incremented": true,
     "event_log_entries_present": true,
-    "no_principal_relay": true
+    "no_sovereign_relay": true
   },
   "drift_analysis": "No drift from plan. All acceptance criteria met.",
   "recommendation": "APPROVE - First autonomous cycle complete"
@@ -679,7 +679,7 @@ Create `/00-ORCHESTRATION/EXECUTION_LOG-2026-01-15-046A.md`:
 ### Metrics
 
 - Autonomous cycles completed: 1
-- Principal relays required: 0
+- Sovereign relays required: 0
 - Packets created: 4
 - Packets processed: 4
 

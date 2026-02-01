@@ -98,8 +98,8 @@ Successfully executed DIRECTIVE-026B phases for Technology Lunar canonization:
 
 | Check | Result |
 |-------|--------|
-| CANON-30330 exists | ✓ 12,220 bytes |
-| CANON-30340 exists | ✓ 13,705 bytes |
+| [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] exists | ✓ 12,220 bytes |
+| [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] exists | ✓ 13,705 bytes |
 | QUEUE-36200 exists | ✓ 3,928 bytes |
 | Frontmatter valid | ✓ Both files |
 | Staging clean | ✓ Only screenplay files |
@@ -125,10 +125,10 @@ Successfully executed DIRECTIVE-026B phases for Technology Lunar canonization:
 ## CANON HIERARCHY IMPACT
 
 ```
-CANON-30000 (INTELLIGENCE chain)
-└── CANON-30300 (TECH_STACK comet)
-    ├── CANON-30330 (RESEARCH_PROTOCOLS) ← NEW
-    └── CANON-30340 (IMPLEMENTATION_PATTERNS) ← NEW
+[[CANON-30000-INTELLIGENCE-chain]] (INTELLIGENCE chain)
+└── [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] (TECH_STACK comet)
+    ├── [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (RESEARCH_PROTOCOLS) ← NEW
+    └── [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]] (IMPLEMENTATION_PATTERNS) ← NEW
 ```
 
 ---

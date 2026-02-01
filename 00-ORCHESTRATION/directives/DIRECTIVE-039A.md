@@ -297,7 +297,7 @@ Structure:
 ## Phase 3: Process Sources
 | Source | Status | Integration Target |
 |--------|--------|-------------------|
-| richard_sutton | processed/integrated | CANON-00004 |
+| richard_sutton | processed/integrated | [[CANON-00004-EVOLUTION-cosmos]] |
 | [etc] | ... | ... |
 
 ## Verification Results

@@ -440,13 +440,13 @@ Apply the 18 evaluative lenses when designing plans.
 ## IMEP Integration
 
 ### Receiving Evidence
-Principal pastes Evidence Packet content from Gemini/blackboard.
+Sovereign pastes Evidence Packet content from Gemini/blackboard.
 
 ### Producing Plans
-ChatGPT outputs Plan Packet JSON that Principal saves to `blackboard/plans/`.
+ChatGPT outputs Plan Packet JSON that Sovereign saves to `blackboard/plans/`.
 
 ### Conducting Audits
-Principal pastes Execution Packet; ChatGPT produces Audit Packet.
+Sovereign pastes Execution Packet; ChatGPT produces Audit Packet.
 
 ---
 
@@ -593,12 +593,12 @@ For batch operations requiring full repository context:
 
 ## PHASE 3: METABOLIC PATTERN PROOF
 
-### 3.1 Create Template for CANON-31150
+### 3.1 Create Template for [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]]
 
-Create `00-ORCHESTRATION/templates/CANON-31150.md.j2`:
+Create `00-ORCHESTRATION/templates/[[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2`:
 
 ```jinja2
-# CANON-31150: PLATFORM CAPABILITY CATALOG
+# [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]]: PLATFORM CAPABILITY CATALOG
 ## Definitive Inventory of Constellation Capabilities
 
 **Chain**: INFORMATION (31000)
@@ -694,7 +694,7 @@ Capabilities change; principles endure.
 
 ---
 
-**End of CANON-31150**
+**End of [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]]**
 
 <!-- 
 REGENERATION COMMAND:
@@ -765,11 +765,11 @@ def load_platform_data():
         }
 
 def regenerate_canon_31150():
-    """Regenerate CANON-31150 Platform Capability Catalog."""
+    """Regenerate [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] Platform Capability Catalog."""
     
     # Load template
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
-    template = env.get_template("CANON-31150.md.j2")
+    template = env.get_template("[[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2")
     
     # Load data
     data = load_platform_data()
@@ -829,7 +829,7 @@ def regenerate_canon_31150():
     output = template.render(**context)
     
     # Write to output location (or print for review)
-    print("=== REGENERATED CANON-31150 ===")
+    print("=== REGENERATED [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] ===")
     print(output[:2000])  # First 2000 chars for review
     print("...")
     print(f"\n[Total length: {len(output)} characters]")
@@ -889,7 +889,7 @@ git commit -m "feat(constellation): complete IIC configs and platform onboarding
 - Add IIC-Transcendence-config.md (Modal 5 - Collective Intelligence)
 - Add ChatGPT onboarding protocol (Deviser role)
 - Add Gemini onboarding protocol (Oracle role)
-- Add CANON-31150 template for metabolic pattern proof
+- Add [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] template for metabolic pattern proof
 - Add regenerate_canon.py script
 
 PROJ-002 now at 100%. Oracle 13 / DIRECTIVE-046B / Stream B"
@@ -933,7 +933,7 @@ Create `00-ORCHESTRATION/EXECUTION_LOG-2026-01-15-046B.md`:
 
 | Component | Status |
 |-----------|--------|
-| CANON-31150.md.j2 template | ✓ Created |
+| [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2 template | ✓ Created |
 | regenerate_canon.py script | ✓ Created |
 | Template rendering test | ✓ Passed |
 
@@ -967,7 +967,7 @@ Before declaring this directive complete, verify:
 - [ ] IIC-Transcendence-config.md exists with 600+ lines
 - [ ] PROTOCOL-ChatGPT-Onboarding.md exists
 - [ ] PROTOCOL-Gemini-Onboarding.md exists
-- [ ] CANON-31150.md.j2 template exists
+- [ ] [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]].md.j2 template exists
 - [ ] regenerate_canon.py executes without error
 - [ ] Template renders valid markdown
 - [ ] All changes committed with semantic message

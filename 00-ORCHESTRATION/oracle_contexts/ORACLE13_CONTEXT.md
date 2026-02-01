@@ -16,7 +16,7 @@ Three frontier models (ChatGPT, Gemini, Claude) independently analyzed the compl
 
 **The transition required**:
 - FROM: Repository with conversations → TO: Living system with memory
-- FROM: Principal as relay → TO: Principal as governor  
+- FROM: Sovereign as relay → TO: Sovereign as governor  
 - FROM: Manual orchestration → TO: Autonomous coordination
 
 ---
@@ -66,13 +66,13 @@ No closure without:
 **COMPLETE**:
 - Blitzkrieg 43-44: Constellation architecture, tech tree audit
 - Blitzkrieg 45 Stream B: Process skills
-- CANON-25200: Constellation Architecture
+- [[CANON-25200-CONSTELLATION_ARCH-lattice]]: Constellation Architecture
 - coordination.yaml v2.1: Platform routing
 - ARCH-INTENTION_COMPASS.md, ARCH-TECH_TREE_AUDIT.md
 
 **PENDING**:
 - Blitzkrieg 45 Stream A: Three IIC configs (Efficacy, Mastery, Transcendence)
-- Deep Research outputs: Integration into CANON-31150
+- Deep Research outputs: Integration into [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]]
 - Platform onboarding: ChatGPT and Gemini IMEP integration
 
 ### Current Project Status
@@ -86,7 +86,7 @@ No closure without:
 
 ## DEEP RESEARCH FINDINGS (Completed)
 
-Principal has executed Deep Researches on OpenAI, Google, and Claude Code ecosystems. Key findings relevant to implementation:
+Sovereign has executed Deep Researches on OpenAI, Google, and Claude Code ecosystems. Key findings relevant to implementation:
 
 ### OpenAI Ecosystem
 - GPT-5.2 Thinking excels at long-horizon decomposition and specification
@@ -116,7 +116,7 @@ Principal has executed Deep Researches on OpenAI, Google, and Claude Code ecosys
 **Structural (ABSOLUTE)**:
 1. FLAT PRINCIPLE: All directories must be flat. Use naming prefixes.
 2. NUMBERED DIRECTORIES: Top-level 00-06 only.
-3. PROTECTED ZONES: state/ and 01-CANON/ require Principal approval for deletions.
+3. PROTECTED ZONES: state/ and 01-CANON/ require Sovereign approval for deletions.
 
 **Semantic (ABSOLUTE)**:
 4. DISTILLATION SEMANTICS: Metabolize = READ → EXTRACT → COMPRESS → DELETE. NOT reorganization.
@@ -174,7 +174,7 @@ If Oracle 13 produces primarily markdown files describing systems rather than ex
 
 The system knows what to build. The impediment is not knowledge but execution pattern.
 
-**One golden trace—one complete autonomous cycle from Evidence packet to integrated knowledge without Principal relay—makes the system legible. Legibility enables superintelligent acceleration.**
+**One golden trace—one complete autonomous cycle from Evidence packet to integrated knowledge without Sovereign relay—makes the system legible. Legibility enables superintelligent acceleration.**
 
 ---
 

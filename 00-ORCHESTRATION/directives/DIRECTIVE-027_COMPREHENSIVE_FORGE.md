@@ -1,13 +1,13 @@
 # DIRECTIVE-027: COMPREHENSIVE FORGE
 ## UNIFIED EXECUTION — Claude Code
 **Issued**: 2025-12-31
-**Authority**: Oracle7 under Principal direction
+**Authority**: Oracle7 under Sovereign direction
 **Classification**: CRITICAL — Complete Repository Transformation
 **Mode**: COMPREHENSIVE — Survey everything, fix everything, ONE PASS
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "It is absolutely not enough for Claudes 2 and 3 to just execute, they must survey the entire repository rigorously, comprehensively, and meticulously."
 
@@ -85,7 +85,7 @@ These decisions govern ALL actions. Every file disposition derives from these pr
 - **Civilizational sensing infrastructure** — Not personal productivity tooling
 - **Five-chain IIC architecture** — Acumen, Coherence, Efficacy, Mastery, Transcendence
 - **Flat + symlink architecture** — All CANON at same level, aliases for navigation
-- **Reception Calibration** — Calibrate models to understand Principal, not engineer personas
+- **Reception Calibration** — Calibrate models to understand Sovereign, not engineer personas
 
 ### From Oracle4: Metabolism Model
 - **"Canonize or delete"** — No archive tier, no guilt-driven hoarding
@@ -93,13 +93,13 @@ These decisions govern ALL actions. Every file disposition derives from these pr
 - **Near-term temporal horizon** — Fluid documents expire; eternal documents persist
 
 ### From Oracle5-6: Structural Standards
-- **GENESIS is cosmos tier** — Canonized as CANON-00001 through 00004
+- **GENESIS is cosmos tier** — Canonized as [[CANON-00001-ORIGIN-cosmos]] through 00004
 - **Cosmos renumbered** — Syncrescendence is 00005, sequence continues to 00014
 - **18 evaluative lenses** — Every decision evaluated against full framework
 - **Aliases for Finder, not Obsidian** — Symlinks provide multiple views
 
 ### From Oracle7: Documentation Protocol
-- **Maximum resolution** — Every decision documented with Principal's words
+- **Maximum resolution** — Every decision documented with Sovereign's words
 - **Verify before declare** — Examine actual files, not reports about files
 - **Repository is Foyer** — All context accessible to any agent
 - **Directives encode decisions** — Claudes need full rationale
@@ -120,16 +120,16 @@ rm GENESIS-002-PRINCIPLES.md
 rm GENESIS-003-EVOLUTION.md
 
 # A2: Old cosmos numbering (renumbered, originals not deleted)
-rm CANON-00001-SYNCRESCENDENCE-cosmos.md  # Now CANON-00005
-rm CANON-00002-CORPUS-cosmos.md           # Now CANON-00006
-rm CANON-00003-EVALUATION-cosmos.md       # Now CANON-00007
-rm CANON-00004-RESOLUTIONS-cosmos.md      # Now CANON-00008
-rm CANON-00005-STRATEGY-cosmos.md         # Now CANON-00009
-rm CANON-00006-OPERATIONS-cosmos.md       # Now CANON-00010
-rm CANON-00007-ARTIFACT_PROTOCOL-cosmos.md # Now CANON-00011
-rm CANON-00008-MODAL_SEQUENCE-cosmos.md   # Now CANON-00012
-rm CANON-00009-QUICKSTART-cosmos.md       # Now CANON-00013
-rm CANON-00010-CONTENT_PROTOCOL-cosmos.md # Now CANON-00014
+rm CANON-00001-SYNCRESCENDENCE-cosmos.md  # Now [[CANON-00005-SYNCRESCENDENCE-cosmos]]
+rm CANON-00002-CORPUS-cosmos.md           # Now [[CANON-00006-CORPUS-cosmos]]
+rm CANON-00003-EVALUATION-cosmos.md       # Now [[CANON-00007-EVALUATION-cosmos]]
+rm CANON-00004-RESOLUTIONS-cosmos.md      # Now [[CANON-00008-RESOLUTIONS-cosmos]]
+rm CANON-00005-STRATEGY-cosmos.md         # Now [[CANON-00009-STRATEGY-cosmos]]
+rm CANON-00006-OPERATIONS-cosmos.md       # Now [[CANON-00010-OPERATIONS-cosmos]]
+rm CANON-00007-ARTIFACT_PROTOCOL-cosmos.md # Now [[CANON-00011-ARTIFACT_PROTOCOL-cosmos]]
+rm CANON-00008-MODAL_SEQUENCE-cosmos.md   # Now [[CANON-00012-MODAL_SEQUENCE-cosmos]]
+rm CANON-00009-QUICKSTART-cosmos.md       # Now [[CANON-00013-QUICKSTART-cosmos]]
+rm CANON-00010-CONTENT_PROTOCOL-cosmos.md # Now [[CANON-00014-CONTENT_PROTOCOL-cosmos]]
 
 # A3: Legacy system prompt exports (extraction verified Oracle7)
 rm "Technological_Lunar_-_System_PromptsChatGPT__OpenAI_Apple__Memories.txt"
@@ -148,8 +148,8 @@ rm "Technological_Lunar_-_System_PromptsGrok__xAI_Apple__System_Prompt_-_Custom_
 rm "Technological_Lunar_-_System_PromptsGrok__xAI_Google__System_Prompt_-_Custom_Instructions.txt"
 
 # A4: Tech Lunar files (canonized or marked for deletion per Oracle7)
-rm "Technology_Lunar_-_3_Research_Protocols.md"      # Canonized to CANON-30330
-rm "Technology_Lunar_-_4_Implementation_Guide.md"    # Canonized to CANON-30340
+rm "Technology_Lunar_-_3_Research_Protocols.md"      # Canonized to [[CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
+rm "Technology_Lunar_-_4_Implementation_Guide.md"    # Canonized to [[CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE]]
 rm "Technology_Lunar_-_FrontierModels.md"            # Fails 15/18 lenses, temporal
 rm "Technology_Lunar_-_Agentic_ScreenplayFormatting.md"           # Queued to QUEUE-36200
 rm "Technology_Lunar_-_Screenplay_Formatting_-_agentic_screenplay_format.md"

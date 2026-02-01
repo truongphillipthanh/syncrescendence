@@ -13,25 +13,25 @@ Verified claimed integrations from DIRECTIVE-039A and 039B:
 
 | Source | Target CANON | Verified |
 |--------|--------------|----------|
-| chris_kempes | CANON-35200 | NO (name not found) |
-| sergey_levine | CANON-30000, CANON-30400 | NO (name not found) |
-| donald_hoffman | CANON-35000 | YES (added) |
-| chollet_knoop | CANON-00003 | YES (added) |
-| john_martinis | CANON-30300 | NO (name not found, but Jensen/NVIDIA found) |
-| jensen_huang | CANON-30300 | YES (via NVIDIA reference) |
-| marc_andreessen | CANON-33100, CANON-00009 | YES |
-| reid_hoffman | CANON-33100, CANON-33110 | YES |
-| elon_musk | CANON-00015 | YES |
-| ethan_mollick | CANON-33110 | YES |
+| chris_kempes | [[CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM]] | NO (name not found) |
+| sergey_levine | [[CANON-30000-INTELLIGENCE-chain]], [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] | NO (name not found) |
+| donald_hoffman | [[CANON-35000-WISDOM-chain]] | YES (added) |
+| chollet_knoop | [[CANON-00003-PRINCIPLES-cosmos]] | YES (added) |
+| john_martinis | [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] | NO (name not found, but Jensen/NVIDIA found) |
+| jensen_huang | [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] | YES (via NVIDIA reference) |
+| marc_andreessen | [[CANON-33100-EFFICACY-planetary-EXPERTISE]], [[CANON-00009-STRATEGY-cosmos]] | YES |
+| reid_hoffman | [[CANON-33100-EFFICACY-planetary-EXPERTISE]], [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] | YES |
+| elon_musk | [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] | YES |
+| ethan_mollick | [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] | YES |
 
 **Finding**: Many claimed integrations from 039A/B used speaker names rather than SOURCE-IDs. The integrations ARE present via contextual content but not standardized with SOURCE- prefixes. Added standardized validations sections to additional CANON files.
 
 **Integrations Added This Session**:
-- CANON-30000: 4 source validations (scaling, continual learning, categorical deep learning, ASI timelines)
-- CANON-00016: 3 source validations (Henrich, categorical, Israetel)
-- CANON-35000: 3 source validations (Henrich, Hoffman, Israetel)
-- CANON-00003: 3 source validations (ARC-AGI, Sutton, Renaissance)
-- CANON-34000: 2 source validations (Karpathy, Henrich)
+- [[CANON-30000-INTELLIGENCE-chain]]: 4 source validations (scaling, continual learning, categorical deep learning, ASI timelines)
+- [[CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos]]: 3 source validations (Henrich, categorical, Israetel)
+- [[CANON-35000-WISDOM-chain]]: 3 source validations (Henrich, Hoffman, Israetel)
+- [[CANON-00003-PRINCIPLES-cosmos]]: 3 source validations (ARC-AGI, Sutton, Renaissance)
+- [[CANON-34000-KNOWLEDGE-chain]]: 2 source validations (Karpathy, Henrich)
 
 ---
 

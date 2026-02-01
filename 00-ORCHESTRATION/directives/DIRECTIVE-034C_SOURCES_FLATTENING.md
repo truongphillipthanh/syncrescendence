@@ -1,14 +1,14 @@
 # DIRECTIVE-034A: SOURCES FLATTENING + STANDARDIZATION
 ## Stream A: Repository Portability — Flat Hierarchy Achievement
 **Issued**: 2026-01-02
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Enables Project Files Upload
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-034B handles orchestration hygiene
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Triage the raw /SOURCES/raw folder. It's an absolute mess. It should be a flat hierarchy with standardized normalized names."
 

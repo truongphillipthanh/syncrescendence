@@ -2,7 +2,7 @@
 ## Stream B — Claude 3 (Beta)
 
 **Issued**: 2026-01-11
-**Authority**: Oracle 12 under Principal direction
+**Authority**: Oracle 12 under Sovereign direction
 **Stream**: B (Claude 3)
 **Priority**: P0 — Repository Consolidation
 **Estimated Duration**: 60-90 minutes
@@ -12,7 +12,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Actual Words
+### Sovereign's Actual Words
 > "somewhere along the line, we'll need to audit and anneal the corpus again, the semantic content of it for alignment/congruence, as well as lean/optimization/streamlining"
 
 > "the reports that were attached ought to be canonized, these were key, persistent signals that required constant surveillance before"
@@ -37,7 +37,7 @@ The research documents (frontier_models.md, platform_features.md, cognitive_prof
 The following documents were produced/integrated in Oracle 11-12:
 1. `frontier_models.md` (1,459 lines) — Model capabilities, benchmarks, community sentiment
 2. `platform_features.md` (1,948 lines) — Surface inventory, memory, rate limits, MCP
-3. `cognitive_profile.md` (84 lines) — Principal's operating requirements
+3. `cognitive_profile.md` (84 lines) — Sovereign's operating requirements
 4. `STRATEGIC_RECONNAISSANCE_REPORT_ENHANCED.md` (597 lines) — Synthesis document
 
 **Disposition Decision**:
@@ -55,7 +55,7 @@ The cognitive_profile.md contains:
 - Interruption cost model
 - Energy economics
 
-These concepts should be cross-referenced in CANON-35120 if not already present.
+These concepts should be cross-referenced in [[CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]] if not already present.
 
 ### Task 1.3: Create ARCH-RECONNAISSANCE_2026-01.md
 
@@ -149,7 +149,7 @@ cat tasks.csv | grep -c "not_started"
 ## PHASE 3: SCAFFOLD METABOLISM
 **Duration**: ~15 minutes
 
-### Principal's Context
+### Sovereign's Context
 > "The actual semantic content of /05-MEMORY needs to be digested into coherence. It cannot be a junk drawer. Each token must fight and achieve teleology."
 
 ### Task 3.1: Audit SCAFF-* Files
@@ -281,7 +281,7 @@ Total: [minutes]
 
 This directive is complete when:
 - [ ] Research documents assessed and canonized/archived
-- [ ] CANON-31142 updated with platform feature additions
+- [ ] [[CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] updated with platform feature additions
 - [ ] ARCH-RECONNAISSANCE_2026-01.md created
 - [ ] Repository hygiene audit complete
 - [ ] SCAFF files metabolized (extract value → delete)

@@ -10,7 +10,7 @@
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "We're talking about much more deep forensic alignment, harmonized, and synergy. We want all vectors coherent, up-to-date and optimum. Again, we are trying to ensure we are retaining only the most performant, premier tokens without losing resolution."
 
@@ -57,7 +57,7 @@ git tag pre-directive-030-$(date +%Y%m%d)
 
 ## CORRECTION SPECIFICATIONS
 
-### Correction 1: Delete Duplicate Paragraph (CANON-00005)
+### Correction 1: Delete Duplicate Paragraph ([[CANON-00005-SYNCRESCENDENCE-cosmos]])
 
 **File**: `CANON-00005-SYNCRESCENDENCE-cosmos.md`
 **Location**: Lines 197-200 (approximately)
@@ -78,19 +78,19 @@ grep -c "The Core Expansion Trajectory" CANON-00005-SYNCRESCENDENCE-cosmos.md
 # Should return: 1
 ```
 
-### Correction 2: Fix Cross-Reference Syntax (CANON-00012)
+### Correction 2: Fix Cross-Reference Syntax ([[CANON-00012-MODAL_SEQUENCE-cosmos]])
 
 **File**: `CANON-00012-MODAL_SEQUENCE-cosmos.md`
 **Location**: Line 25 (approximately)
-**Current**: `CANON-00005 Syncrescendence), CANON-00009 Strategy)`
-**Correction**: `CANON-00005 (Syncrescendence), CANON-00009 (Strategy)`
+**Current**: `[[CANON-00005-SYNCRESCENDENCE-cosmos]] Syncrescendence), [[CANON-00009-STRATEGY-cosmos]] Strategy)`
+**Correction**: `[[CANON-00005-SYNCRESCENDENCE-cosmos]] (Syncrescendence), [[CANON-00009-STRATEGY-cosmos]] (Strategy)`
 
 **Identification**:
 ```bash
-grep -n "CANON-00005 Syncrescendence)" CANON-00012-MODAL_SEQUENCE-cosmos.md
+grep -n "[[CANON-00005-SYNCRESCENDENCE-cosmos]] Syncrescendence)" CANON-00012-MODAL_SEQUENCE-cosmos.md
 ```
 
-### Correction 3: Fix Vestigial "Technology" Reference (CANON-00005)
+### Correction 3: Fix Vestigial "Technology" Reference ([[CANON-00005-SYNCRESCENDENCE-cosmos]])
 
 **File**: `CANON-00005-SYNCRESCENDENCE-cosmos.md`
 **Location**: Line 982 (approximately)
@@ -168,7 +168,7 @@ grep -c "The Core Expansion Trajectory" CANON-00005-SYNCRESCENDENCE-cosmos.md
 # Expected: 1
 
 # Verify cross-reference fixed
-grep "CANON-00005 (Syncrescendence)" CANON-00012-MODAL_SEQUENCE-cosmos.md
+grep "[[CANON-00005-SYNCRESCENDENCE-cosmos]] (Syncrescendence)" CANON-00012-MODAL_SEQUENCE-cosmos.md
 # Expected: Match found
 
 # Verify Technology → Intelligence
@@ -209,16 +209,16 @@ Include:
 
 ---
 
-## ITEMS REQUIRING PRINCIPAL DECISION (NOT IN SCOPE)
+## ITEMS REQUIRING SOVEREIGN DECISION (NOT IN SCOPE)
 
-The following were identified but require Principal judgment:
+The following were identified but require Sovereign judgment:
 
 1. **Modal 1 Timeline**: Currently ends 2026. Revise or affirm?
 2. **Model Reference Updates**: GPT-4+, Claude 3+ → current frontier (cosmetic but credibility-affecting)
 3. **NVIDIA Valuation Claim**: $5T — verify or generalize?
 4. **CANON-00004-EVOLUTION**: Document Oracle5-8
 
-These will be addressed in subsequent directive upon Principal guidance.
+These will be addressed in subsequent directive upon Sovereign guidance.
 
 ---
 

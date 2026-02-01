@@ -22,10 +22,10 @@ Configure the first two IIC accounts (Acumen and Coherence) with complete operat
 **Documents Reviewed**:
 | Document | Lines | Key Content |
 |----------|-------|-------------|
-| CANON-31140 (IIC Constellation) | 1363 | Master IIC specification, five-modality architecture |
-| CANON-31141 (Five-Account) | 1000+ | Detailed IIC specifications (Acumen, Coherence sections) |
-| CANON-31130 (Seven-Layer Stack) | 1649 | Technology sovereignty framework |
-| CANON-31110 (Feedcraft) | 786 | Platform physics and constitutional architecture |
+| [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation) | 1363 | Master IIC specification, five-modality architecture |
+| [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Five-Account) | 1000+ | Detailed IIC specifications (Acumen, Coherence sections) |
+| [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack) | 1649 | Technology sovereignty framework |
+| [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]] (Feedcraft) | 786 | Platform physics and constitutional architecture |
 | ORACLE11_CONTEXT_BLITZKRIEG | 231 | Strategic context for parallel execution |
 
 **Key Findings**:
@@ -135,10 +135,10 @@ TASK-077,PROJ-002,Create IIC shared protocols,task,done,P1,Claude_Code_1,null,0.
 
 | CANON Document | Compliance |
 |----------------|------------|
-| CANON-31140 (IIC Constellation) | ✓ Full alignment |
-| CANON-31141 (Five-Account) | ✓ Specifications followed |
-| CANON-31130 (Seven-Layer Stack) | ✓ All layers specified |
-| CANON-31110 (Feedcraft) | ✓ Platform grammars incorporated |
+| [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation) | ✓ Full alignment |
+| [[CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION]] (Five-Account) | ✓ Specifications followed |
+| [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack) | ✓ All layers specified |
+| [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]] (Feedcraft) | ✓ Platform grammars incorporated |
 
 ---
 
@@ -149,8 +149,8 @@ TASK-077,PROJ-002,Create IIC shared protocols,task,done,P1,Claude_Code_1,null,0.
 2. Parallel structure between Acumen and Coherence configs enables consistency
 3. Shared protocols document creates clear integration pathways
 
-### Principal Action Items
-1. Fill in actual email addresses (marked as `[Principal to fill]`)
+### Sovereign Action Items
+1. Fill in actual email addresses (marked as `[Sovereign to fill]`)
 2. Review Claude Project system prompts and customize as needed
 3. Begin platform account setup per configuration specs
 4. Consider Efficacy, Mastery, Transcendence configs as next priority

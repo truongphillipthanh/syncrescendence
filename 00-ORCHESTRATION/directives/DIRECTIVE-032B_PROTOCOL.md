@@ -1,7 +1,7 @@
 # DIRECTIVE-032B: INTELLIGENCE APPARATUS PROTOCOL
 ## Stream B: Schema Documentation, Triage Protocol, Processing Routing
 **Issued**: 2026-01-01
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Intelligence Apparatus Foundation
 **Execution**: Oracle/Desktop Claude
 **Parallel Stream**: Claude Code handles infrastructure (DIRECTIVE-032A)
@@ -10,7 +10,7 @@
 
 ## DECISION CONTEXT
 
-### Principal's Mandate
+### Sovereign's Mandate
 
 > "There is a distinction between topic, but also format and function, and cadence. Some are videos simply news, in my opinion, not worth the watch, some should be listened to, a progressive qualification funnel."
 
@@ -1025,7 +1025,7 @@ Future automation:
 
 ## Holistic Not Componential
 
-**Principal's instruction**: 
+**Sovereign's instruction**: 
 > "This insight should be factored in holistically, not componentially."
 
 These four systems are **modes of operation**, not separate pipelines.

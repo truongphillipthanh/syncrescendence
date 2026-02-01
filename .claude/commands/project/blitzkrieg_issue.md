@@ -233,7 +233,7 @@ mkdir -p "$OUTDIR/03_intention"
 cat > "$OUTDIR/03_intention/intention_reference.md" << 'INTEOF'
 # Intention Reference
 
-This blitzkrieg should be grounded in the Principal's documented intentions.
+This blitzkrieg should be grounded in the Sovereign's documented intentions.
 
 ## Reference Documents
 

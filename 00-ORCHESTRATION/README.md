@@ -57,6 +57,6 @@ Hazel rules and Keyboard Maestro macros (specifications).
 
 ## Protected Status
 
-The `/state/` directory is PROTECTED. Deletions require Principal approval.
+The `/state/` directory is PROTECTED. Deletions require Sovereign approval.
 Dynamic files (DYN-*) can be modified by automation.
 Reference files (REF-*) require explicit approval to modify.

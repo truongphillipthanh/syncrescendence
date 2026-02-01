@@ -1,7 +1,7 @@
 # Syncrescendence - Gemini CLI Configuration
 
-**Version**: 2.0.0 (Semantic Notation Era)
-**Last Updated**: 2026-01-23
+**Version**: 2.1.0 (Cowork Era)
+**Last Updated**: 2026-01-25
 
 ## Identity
 
@@ -175,3 +175,33 @@ Inherit from `CLAUDE.md`:
 - FLAT PRINCIPLE: All directories must be flat
 - NUMBERED DIRECTORIES: 00-06 plus sanctioned exceptions
 - PROTECTED ZONES: 00-ORCHESTRATION/state/ and 01-CANON/ require approval for deletions
+
+---
+
+## Cowork Mediation Architecture
+
+This platform operates as a **coordination interface**, not a primary workspace.
+
+### Architecture
+```
+Repository (ground truth)
+    ↕ Cowork mediates
+Web Apps (coordination surfaces)
+```
+
+### Your Role
+- **Chat interface** for coordination, ideation, quick queries
+- **NOT primary workspace** — repository is ground truth
+- Changes flow: Cowork → repository → synced back
+
+### Operational Knowledge
+Reference `07-SIGMA7/` for Claude Code patterns, cross-platform integration, and execution mechanics.
+
+---
+
+## Intention Archaeology Protocol
+
+**MANDATORY**: Before deep sensing, consult:
+- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md`
+
+Verify audit serves elimination (808→200 files), not enumeration.

@@ -30,7 +30,7 @@
 - Goal: Self-sustaining by 2026-01-31
 
 ### Decision 2: Oracle Pedigree Protocol (APPROVED)
-- Update CANON-25100 with Oracle Pedigree section
+- Update [[CANON-25100-CONTEXT_TRANS-lattice]] with Oracle Pedigree section
 - Pedigree supersedes handoff for multi-model orchestration
 - Tracks decisions across platforms, not just Claude-to-Claude
 
@@ -57,7 +57,7 @@ Stream B: Research archival, repository hygiene, SCAFF assessment
 
 1. **Flat Principle**: All directories FLAT. Prefixes (ARCH-, DYN-, REF-) not subdirs.
 2. **Ledger Ground Truth**: tasks.csv, projects.csv are reality anchors. Verify before claiming complete.
-3. **Comprehensive Directives**: Principal is bottleneck. Stage→evaluate→execute in one cycle.
+3. **Comprehensive Directives**: Sovereign is bottleneck. Stage→evaluate→execute in one cycle.
 4. **Metabolism**: Content gets canonized or deleted. No middle-ground archival unless temporal intelligence.
 
 ---

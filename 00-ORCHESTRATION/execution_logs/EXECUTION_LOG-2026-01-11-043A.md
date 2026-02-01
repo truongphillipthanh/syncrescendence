@@ -12,8 +12,8 @@
 ## DIRECTIVE SUMMARY
 
 DIRECTIVE-043A tasked Stream A with constructing the architectural foundation for 5-platform orchestration, including:
-- CANON-25200 Platform Constellation Architecture
-- Oracle Pedigree Protocol (CANON-25100 update)
+- [[CANON-25200-CONSTELLATION_ARCH-lattice]] Platform Constellation Architecture
+- Oracle Pedigree Protocol ([[CANON-25100-CONTEXT_TRANS-lattice]] update)
 - Intention Archaeology Compass
 - coordination.yaml update with ChatGPT
 
@@ -28,13 +28,13 @@ DIRECTIVE-043A tasked Stream A with constructing the architectural foundation fo
 | ARCH-INTENTION_COMPASS.md | CREATED | 302 | Complete Oracle 0-12 intention extraction |
 | coordination.yaml | UPDATED | 231 (+107) | v1.0 → v2.0 with ChatGPT and routing |
 
-### New CANON Document: CANON-25200
+### New CANON Document: [[CANON-25200-CONSTELLATION_ARCH-lattice]]
 
 ```
 Title: Platform Constellation Architecture
 Chain: Memory Architecture
 Supersedes: null
-Cross-refs: CANON-25000, CANON-25100, CANON-31140
+Cross-refs: [[CANON-25000-MEMORY_ARCH-lattice]], [[CANON-25100-CONTEXT_TRANS-lattice]], [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]]
 
 Contents:
 I. Overview (constellation model, platform composition)
@@ -47,7 +47,7 @@ VII. Security Considerations
 VIII. Evolution Path
 ```
 
-### CANON-25100 Update: Oracle Pedigree Protocol
+### [[CANON-25100-CONTEXT_TRANS-lattice]] Update: Oracle Pedigree Protocol
 
 Added PART IX with sections:
 - A. Purpose (lineage tracking, decision archaeology, multi-model)
@@ -89,8 +89,8 @@ Major updates:
 
 | ID | Project | Name | Status |
 |----|---------|------|--------|
-| TASK-080 | PROJ-012 | Create CANON-25200 Constellation Architecture | done |
-| TASK-081 | PROJ-012 | Update CANON-25100 with Oracle Pedigree | done |
+| TASK-080 | PROJ-012 | Create [[CANON-25200-CONSTELLATION_ARCH-lattice]] Constellation Architecture | done |
+| TASK-081 | PROJ-012 | Update [[CANON-25100-CONTEXT_TRANS-lattice]] with Oracle Pedigree | done |
 | TASK-082 | PROJ-012 | Create ARCH-INTENTION_COMPASS.md | done |
 | TASK-083 | PROJ-012 | Update coordination.yaml for constellation | done |
 
@@ -115,7 +115,7 @@ Major updates:
 ```
 
 ### Content Verification
-- CANON-25100 contains "PEDIGREE": ✓ (1 match in section header)
+- [[CANON-25100-CONTEXT_TRANS-lattice]] contains "PEDIGREE": ✓ (1 match in section header)
 - coordination.yaml contains "chatgpt": ✓ (4 matches in account and routing)
 - projects.csv PROJ-012 updated: ✓
 - tasks.csv TASK-080-083 added: ✓
@@ -124,8 +124,8 @@ Major updates:
 
 ## SUCCESS CRITERIA CHECKLIST
 
-- [x] CANON-25200 exists with full constellation specification (470 lines)
-- [x] CANON-25100 includes Oracle Pedigree section (PART IX)
+- [x] [[CANON-25200-CONSTELLATION_ARCH-lattice]] exists with full constellation specification (470 lines)
+- [x] [[CANON-25100-CONTEXT_TRANS-lattice]] includes Oracle Pedigree section (PART IX)
 - [x] ARCH-INTENTION_COMPASS.md exists with schema and initial extraction (302 lines)
 - [x] coordination.yaml includes ChatGPT configuration and routing
 - [x] projects.csv includes PROJ-012 update

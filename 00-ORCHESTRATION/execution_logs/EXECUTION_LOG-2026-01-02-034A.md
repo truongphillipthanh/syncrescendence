@@ -119,13 +119,13 @@ cp -R /tmp/recovery/* outputs/recovery/
 ### Root Cause Analysis
 1. DIRECTIVE-018 (Oracle5) claimed "2.8M → 85K (97% compression)"
 2. Actual ARCHIVE contained only ~12K
-3. CANON-20000 contained ~16K (conceptual summary only)
+3. [[CANON-20000-PALACE-lattice]] contained ~16K (conceptual summary only)
 4. Gap of ~57K between claimed and actual preservation
 5. Original deleted based on unverified claim
 
 ### Prevention Protocol Established
 1. Verification before deletion (size + content checks)
-2. Principal review for major deletions
+2. Sovereign review for major deletions
 3. Git safety net always active
 4. Audit trail requirements
 
@@ -188,11 +188,11 @@ outputs/recovery/
 
 - All content presumed lost has been recovered
 - Original files exist in full at git commit `96edf93`
-- CANON-00015 created from recovered macroscopic_narratives.md
+- [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] created from recovered macroscopic_narratives.md
 - Full Coherence/ archive available at `outputs/recovery/`
 - Absorption audit complete with prevention protocols documented
 
-### What the Principal Can Access Now
+### What the Sovereign Can Access Now
 
 1. **CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md**: Canonical narrative lenses for source triage
 2. **outputs/recovery/Coherence/2-CognitivePalace/**: Full 87-component Cognitive Palace specifications
@@ -206,13 +206,13 @@ outputs/recovery/
 ## RECOMMENDATIONS
 
 ### Immediate
-1. ✅ DONE: CANON-00015 created for operational use
+1. ✅ DONE: [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] created for operational use
 2. Review recovered content for any additional CANON candidates
 3. Consider whether to integrate Metahumanism into CANON-35xxx (Wisdom chain)
 
 ### Future Consideration
 1. Mental Models may warrant CANON treatment (Ontological Container, Meaning/Knowledge Taxonomies)
-2. Meta-narrative schemas (35K) could become companion to CANON-00015
+2. Meta-narrative schemas (35K) could become companion to [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]]
 3. Full Cognitive Palace specs could enhance ARCHIVE-COGNITIVE-PALACE-SPECS.md
 
 ### Process Improvement
@@ -224,12 +224,12 @@ outputs/recovery/
 
 ## CLOSING
 
-The Principal's foundational intellectual work—years of development on Cognitive Palace, Metahumanism, Mental Models, Artifacts, and Macroscopic Narratives—was never truly lost. Git preserved everything. The defrag eliminated the working copies but not the history.
+The Sovereign's foundational intellectual work—years of development on Cognitive Palace, Metahumanism, Mental Models, Artifacts, and Macroscopic Narratives—was never truly lost. Git preserved everything. The defrag eliminated the working copies but not the history.
 
 This directive successfully:
 1. Located all presumed-lost content in git history
 2. Recovered 3.8M of original material
-3. Created CANON-00015 for immediate operational use
+3. Created [[CANON-00015-MACROSCOPIC_NARRATIVES-cosmos]] for immediate operational use
 4. Documented what happened and how to prevent recurrence
 
 **The foundational interpretive infrastructure is restored.**

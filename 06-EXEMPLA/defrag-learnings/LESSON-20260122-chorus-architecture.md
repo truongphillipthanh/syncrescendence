@@ -4,7 +4,7 @@
 Ajna4 Chorus Architecture (2026-01-22)
 
 ## What Happened
-Principal presented the Acumen IIC architecture problem to four platforms
+Sovereign presented the Acumen IIC architecture problem to four platforms
 (Claude, ChatGPT, Gemini, Grok). Each responded with genuine intelligence:
 
 - **Gemini**: "Nightly Refinery" with Z-Axis Screenplay, operational automation
@@ -26,7 +26,7 @@ the others didn't:
 The Chorus architecture works when:
 1. Problems are presented as genuine challenges, not formatted tasks
 2. Platforms contribute from actual strength, not assigned role
-3. Principal synthesizes across contributions
+3. Sovereign synthesizes across contributions
 4. No platform is lobotomized
 
 ## Extracted Wisdom

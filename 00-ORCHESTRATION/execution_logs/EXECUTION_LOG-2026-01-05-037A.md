@@ -10,12 +10,12 @@
 
 ## CONTEXT
 
-Oracle9 declared "COMPLETE" but documented three orphan directories "pending Principal decision":
+Oracle9 declared "COMPLETE" but documented three orphan directories "pending Sovereign decision":
 - Tech/ (481 files) - Technology/Intelligence chain nascent nebula
 - Transcendence/ (39 files) - Wisdom chain nascent nebula
 - Transcript/ (316 files) - Alternate source organization
 
-Principal clarified: These are **nascent nebulae** requiring disposition. Additionally, SOURCES pipeline semantics needed clarification.
+Sovereign clarified: These are **nascent nebulae** requiring disposition. Additionally, SOURCES pipeline semantics needed clarification.
 
 ---
 
@@ -48,20 +48,20 @@ STAGE 4: integrated    → CANON absorption confirmed (sources.csv status='integ
 
 | Subdirectory | Content | Disposition |
 |-------------|---------|-------------|
-| `1 Toolcraft Endeavor/` | Toolcraft synthesis, prompt engineering | → Already in CANON-30300 |
+| `1 Toolcraft Endeavor/` | Toolcraft synthesis, prompt engineering | → Already in [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] |
 | `1 Workstation Taxonomy/` | App taxonomy, aliases | → RELEASE (personal, not corpus) |
 | `2 Prompting/` | Prompt engineering manuals | → Superseded by 01-OPERATIONAL/prompts/unified/ |
-| `3 Systematizing Business/` | Business systems | → Already in CANON-33110 |
-| `4 Agents/` | Agent architectures | → Already in CANON-30400 + satellites |
+| `3 Systematizing Business/` | Business systems | → Already in [[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] |
+| `4 Agents/` | Agent architectures | → Already in [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] + satellites |
 | `5-Intellegence Apparatus/` | Empty directory | → DELETE |
-| `Tool Landscape/` | AI tools cartography | → Already in CANON-30300 |
+| `Tool Landscape/` | AI tools cartography | → Already in [[CANON-30300-TECH_STACK-comet-INTELLIGENCE]] |
 
 ### Verification
 
 Cross-referenced against existing CANON:
-- **CANON-30300** (Technology Stack Database) - Contains ASA Model implementation, 447 apps, 42 models, 31 APIs
-- **CANON-30400** (Agentic Architecture) - Contains full agent synthesis with 5 satellites
-- **CANON-33110** (Biz Backbone) - Contains business systems synthesis
+- **[[CANON-30300-TECH_STACK-comet-INTELLIGENCE]]** (Technology Stack Database) - Contains ASA Model implementation, 447 apps, 42 models, 31 APIs
+- **[[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]]** (Agentic Architecture) - Contains full agent synthesis with 5 satellites
+- **[[CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]]** (Biz Backbone) - Contains business systems synthesis
 
 ### Execution
 
@@ -79,18 +79,18 @@ rm -rf Tech/
 
 | Subdirectory | Content | Disposition |
 |-------------|---------|-------------|
-| `metaphysicalism/` (7 files) | Metaphysicalism synthesis | → Already in CANON-35210 |
-| `monotheism/` (8 files) | Monotheism synthesis | → Already in CANON-35210 |
-| `nontheism/` (7 files) | Nontheism synthesis | → Already in CANON-35210 |
-| `way of life code of conduct/` (7 files) | Ethics synthesis | → Already in CANON-35110 |
+| `metaphysicalism/` (7 files) | Metaphysicalism synthesis | → Already in [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] |
+| `monotheism/` (8 files) | Monotheism synthesis | → Already in [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] |
+| `nontheism/` (7 files) | Nontheism synthesis | → Already in [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] |
+| `way of life code of conduct/` (7 files) | Ethics synthesis | → Already in [[CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM]] |
 | `Profile/` | Autopsychography | → Already in ARCHIVE-AUTOPSYCHOGRAPHY |
-| `inbox/` | Buddhic, ChristBuddism, Hindic | → Already in CANON-35210 |
+| `inbox/` | Buddhic, ChristBuddism, Hindic | → Already in [[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]] |
 
 ### Verification
 
 Cross-referenced against existing CANON:
-- **CANON-35210** (Metahumanism) - Contains full synthesis of metaphysicalism, monotheism, nontheism
-- **CANON-35110** (Trans System) - Contains Five Degrees framework and ethical practice
+- **[[CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM]]** (Metahumanism) - Contains full synthesis of metaphysicalism, monotheism, nontheism
+- **[[CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM]]** (Trans System) - Contains Five Degrees framework and ethical practice
 - **ARCHIVE-METAHUMANISM-FULL.md** - Preserves full research corpus
 
 ### Execution

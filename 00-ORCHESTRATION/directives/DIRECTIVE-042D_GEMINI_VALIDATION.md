@@ -151,7 +151,7 @@ Create this report after completing all tasks:
 ```markdown
 # GEMINI CLI VALIDATION REPORT
 **Date**: 2026-01-09
-**Executor**: [Principal]
+**Executor**: [Sovereign]
 **Gemini CLI Version**: [output of gemini --version]
 
 ## Environment

@@ -29,7 +29,7 @@ Phase 2 (Structural) is complete. Phase 3 (Content Annealment) requires understa
 
 ### Task 3: Cross-Reference Audit
 - [x] Found 100+ references to old CANON-1 through CANON-17 numbering
-- [x] Primary issues in CANON-00000 and CANON-00007
+- [x] Primary issues in [[CANON-00000-SCHEMA-cosmos]] and [[CANON-00007-EVALUATION-cosmos]]
 - [x] No broken file references detected
 
 ### Task 4: Version Inventory

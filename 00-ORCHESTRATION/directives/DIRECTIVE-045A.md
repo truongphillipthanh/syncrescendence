@@ -31,7 +31,7 @@ Create `/home/claude/skills/intentions/SKILL.md` with this content:
 ```markdown
 ---
 name: intentions
-description: Standardized framework for capturing, categorizing, and tracking strategic intentions during Oracle sessions. Use when Principal expresses new objectives, identifies patterns, captures ideas, or when synthesizing session outcomes into actionable intention records. Triggers on phrases like "we should", "intention", "add to backlog", "urgent", "sprint item", "pattern identified".
+description: Standardized framework for capturing, categorizing, and tracking strategic intentions during Oracle sessions. Use when Sovereign expresses new objectives, identifies patterns, captures ideas, or when synthesizing session outcomes into actionable intention records. Triggers on phrases like "we should", "intention", "add to backlog", "urgent", "sprint item", "pattern identified".
 ---
 
 # Intentions Skill
@@ -67,7 +67,7 @@ Cross-cutting recognitions, methodology improvements, process anti-patterns.
 
 ## Capture Protocol
 
-When Principal expresses intention:
+When Sovereign expresses intention:
 
 1. **Identify Category** — Use urgency × actionability matrix:
    - Urgent + Actionable now = URGENT

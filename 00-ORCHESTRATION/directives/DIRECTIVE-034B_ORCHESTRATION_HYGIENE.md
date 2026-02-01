@@ -1,14 +1,14 @@
 # DIRECTIVE-034B: ORCHESTRATION HYGIENE
 ## Stream B: Context Sequentialization + Scaffolding Metabolism
 **Issued**: 2026-01-02
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Enables Clean Oracle10 Handoff
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-034A handles SOURCES flattening
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "Oracle context should get sequentialized in its naming, as there are multiple contexts per thread as part of the standard. Triage the oracle contexts to more consistent sequentialized file naming so we understand which oracle thread it came from and in what order."
 
@@ -268,7 +268,7 @@ orchestration/state/
 ├── ORACLE08_CONTEXT_v1.md        # Historical
 ├── ORACLE09_CONTEXT_v1.md        # Historical
 ├── ORACLE09_CONTEXT_v2.md        # Historical
-├── ORACLE09_CONTEXT_v3.md        # CURRENT (from Principal via outputs/)
+├── ORACLE09_CONTEXT_v3.md        # CURRENT (from Sovereign via outputs/)
 ├── PROCESSING_PATTERN.md         # 033B methodology
 ├── PROCESSING_ROUTING.md         # 033B routing
 ├── SOURCES_SCHEMA.md             # 032B schema

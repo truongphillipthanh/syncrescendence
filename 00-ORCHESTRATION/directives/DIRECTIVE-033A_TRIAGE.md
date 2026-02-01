@@ -1,14 +1,14 @@
 # DIRECTIVE-033A: COMPREHENSIVE TRIAGE + STRUCTURED INDEX
 ## Stream A: Complete Source Cataloging and Ontology Seed
 **Issued**: 2026-01-01
-**Authority**: Oracle9 under Principal direction
+**Authority**: Oracle9 under Sovereign direction
 **Classification**: CRITICAL — Intelligence Apparatus Completion
 **Execution**: Claude Code
 **Parallel Stream**: DIRECTIVE-033B handles paradigm processing + CANON integration
 
 ---
 
-## PRINCIPAL'S MANDATE
+## SOVEREIGN'S MANDATE
 
 > "These directives are way too narrow in scope. Get more done when issuing these tasks... Have the Claudes stage, evaluate and compare against the criteria and execute."
 
@@ -161,12 +161,12 @@ For each source file:
 ### 2.2 Batch Processing Strategy
 
 **Pass 1: High-Priority Directories** (AGI/, Anthropology/, Physical AI/)
-- These are Principal's pre-categorized high-value
+- These are Sovereign's pre-categorized high-value
 - Likely paradigm or strategic tier
 - Process first, populate CSV
 
 **Pass 2: Categorized Sources** (0/interviewers/, 0/lecture/, etc.)
-- Principal's organization provides routing hints
+- Sovereign's organization provides routing hints
 - 0/interviewers/holistic/ = paradigm interviews
 - 0/daily/ = tactical or noise
 

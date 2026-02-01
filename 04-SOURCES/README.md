@@ -77,7 +77,7 @@ Examples:
 
 ## Relationship to Other Tiers
 
-- **SOURCES** = External intelligence INPUT (not authored by Principal)
+- **SOURCES** = External intelligence INPUT (not authored by Sovereign)
 - **CANON** = Authored synthesis OUTPUT
 - **QUEUE** = Pending work items (high-signal only)
 - **ARCHIVE** = Short-term memory (30-day TTL)

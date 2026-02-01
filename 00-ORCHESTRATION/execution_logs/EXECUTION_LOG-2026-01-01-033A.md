@@ -18,7 +18,7 @@
 
 ### Key Observations
 - Transcripts existed as directory tree, not zip archive
-- Rich organic taxonomy emerged from Principal's curation
+- Rich organic taxonomy emerged from Sovereign's curation
 - Bio.txt files contain creator metadata, not content
 
 ---
@@ -75,7 +75,7 @@ python3 SOURCES/triage_sources.py
 | Tactical | 83 | 45.1% | 80-100 |
 | Noise | 10 | 5.4% | 60-80 |
 
-Note: Paradigm higher than target — reflects Principal's pre-curation of high-signal content.
+Note: Paradigm higher than target — reflects Sovereign's pre-curation of high-signal content.
 
 ---
 
@@ -196,7 +196,7 @@ No broken symlinks ✓
 
 1. **Zsh variable conflict** — `status` is reserved; used Python for symlinks
 2. **Bio.txt files** — Excluded from content catalog (50 files)
-3. **Tier ratios** — Paradigm higher than target (Principal pre-curated)
+3. **Tier ratios** — Paradigm higher than target (Sovereign pre-curated)
 
 ---
 

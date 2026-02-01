@@ -78,7 +78,7 @@ Execute ARCHIVE-DISTILLATION.md:
 3. Create ARCHIVE-ARTIFACT-SYSTEM.md (~12K)
 4. Coherence/ source already removed (was temporary restoration)
 
-### Priority 2: CANON-30400 Crown Jewel
+### Priority 2: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] Crown Jewel
 Begin Tech Lunar canonization with core document:
 1. Extract Agentic Architecture core from Agents.md
 2. Create CANON-30400-chain-INTELLIGENCE-comet-AGENTIC_ARCHITECTURE.md
@@ -86,11 +86,11 @@ Begin Tech Lunar canonization with core document:
 
 ### Priority 3: Metadata Pilot
 Select 5 CANON documents for metadata rollout pilot:
-1. CANON-00000 (schema)
-2. CANON-00001 (core framework)
-3. CANON-30000 (Intelligence Chain)
-4. CANON-35121 (newest document)
-5. CANON-20000 (Cognitive Palace)
+1. [[CANON-00000-SCHEMA-cosmos]] (schema)
+2. [[CANON-00001-ORIGIN-cosmos]] (core framework)
+3. [[CANON-30000-INTELLIGENCE-chain]] (Intelligence Chain)
+4. [[CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM]] (newest document)
+5. [[CANON-20000-PALACE-lattice]] (Cognitive Palace)
 
 Add YAML frontmatter per BETA_METADATA_SCHEMA.md
 
