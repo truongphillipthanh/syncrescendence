@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-01 (Post-Merge, CANON Lean-Out Complete)
+**Last Updated**: 2026-02-01 (Post-Metabolization, Ticker Design Complete)
 
 ---
 
@@ -8,16 +8,17 @@
 
 ### Immediate (This Week)
 1. ~~**Branch merge**: `refactor/restructure-v3` → main~~ — DONE (merged at `2902cb4`)
-2. **Memory architecture CANON**: Metabolize `~/Desktop/todos/4 - TELEOLOGY/memory-architecture-teleology.md` (8,500 words, P0 — no CANON equivalent)
-3. **FLEET_COMMANDERS_HANDBOOK**: Metabolize `~/Desktop/FLEET_COMMANDERS_HANDBOOK-stillneedtoread.md` into 05-SIGMA
+2. ~~**Memory architecture CANON**: Metabolize memory-architecture-teleology.md~~ — DONE (content already in CANON-25000 via lean-out; source deleted)
+3. ~~**FLEET_COMMANDERS_HANDBOOK**: Metabolize into 05-SIGMA~~ — DONE (→ PRAC-agentic_mastery_framework.md at `86bc00c`; source deleted)
 4. **IEETC interview prep**: Feb 10, 2026 @ 2:15 PM San Bernardino (NEC study, YT recon, practice)
+5. **Dispatch surfaces**: ~~Restructure -INBOX/-OUTGOING/-SOVEREIGN~~ — DONE (per-agent subfolders, dispatch.sh, watch_dispatch.sh at `28b3a33`)
 
 ### Near-Term
 5. ~~**CANON lean-out**: 3 merge pairs~~ — DONE (25000+25010, 25200+25210, 00007+00008 merged at `b4f4490`)
 6. ~~**Build sn_expand.py**~~ — DONE (9 DEF blocks, tested, committed at `5b90325`)
 7. **CLI tool activation**: Codex CLI + Gemini CLI — AGENTS.md created, both CLIs installed. SOVEREIGN ACTION NEEDED: API key setup on Account 2, `brew install fswatch` on both machines
 8. **Desktop metabolization pass**: P0-P1 items from REF-DESKTOP_CAPTURE_INVENTORY.md
-9. **Live CANON ticker**: Design dynamic model/capability tracking system
+9. ~~**Live CANON ticker**: Design dynamic model/capability tracking system~~ — DONE (ARCH-LIVE_CANON_TICKER.md at `e059619`)
 
 ---
 
@@ -42,12 +43,12 @@
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |
 | PROJ-ACCT | COMPLETE | — | 100% | Account Restructure — A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid |
-| PROJ-NEO-BLITZ | IN_PROGRESS | P0 | 80% | Neo-Blitzkrieg Buildout — hooks/automation/CANON lean-out done, CLI keys + Linear pending |
+| PROJ-NEO-BLITZ | IN_PROGRESS | P0 | 90% | Neo-Blitzkrieg Buildout — hooks/automation/CANON lean-out/dispatch done, CLI keys + Linear pending |
 | PROJ-CANON-LEAN | COMPLETE | — | 100% | CANON Lean-Out — 3 pairs merged (82→79 CANON files) |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
-| PROJ-LIVE-CANON | NOT_STARTED | P1 | 0% | Live CANON Ticker — dynamic model/capability tracking |
-| PROJ-DESKTOP | IN_PROGRESS | P1 | 20% | Desktop Metabolization — REF-DESKTOP_CAPTURE_INVENTORY.md created |
+| PROJ-LIVE-CANON | IN_PROGRESS | P1 | 30% | Live CANON Ticker — design complete, implementation pending Sovereign approval |
+| PROJ-DESKTOP | IN_PROGRESS | P1 | 35% | Desktop Metabolization — memory-arch + handbook metabolized, my inputs.md + convergence pending |
 
 ---
 
@@ -71,8 +72,8 @@ See `00-ORCHESTRATION/state/REF-DESKTOP_CAPTURE_INVENTORY.md` for full inventory
 
 | Priority | Source | Destination | Status |
 |----------|--------|-------------|--------|
-| P0 | memory-architecture-teleology.md (8,500w) | CANON or ENGINE ref | NOT_STARTED |
-| P0 | FLEET_COMMANDERS_HANDBOOK (21Kw) | 05-SIGMA | NOT_STARTED |
+| P0 | ~~memory-architecture-teleology.md (8,500w)~~ | ~~CANON~~ | DONE (already in CANON-25000) |
+| P0 | ~~FLEET_COMMANDERS_HANDBOOK (13Kw)~~ | ~~05-SIGMA~~ | DONE (→ PRAC-agentic_mastery_framework.md) |
 | P0 | my inputs.md | ARCH-INTENTION_COMPASS.md | NOT_STARTED |
 | P1 | syncrescendence_convergence.md | DYN-BACKLOG.md | NOT_STARTED |
 | P1 | x_articles (17 files) | 04-SOURCES → processing | NOT_STARTED |
@@ -136,9 +137,9 @@ PROJ-011 ---+---> PROJ-003 ---------> PROJ-006 --> PROJ-007
 
 NEW (Restructure Sprint)
 ---------
-PROJ-RESTRUCTURE (DONE) ---> PROJ-CANON-LEAN (DONE) --> PROJ-LIVE-CANON
+PROJ-RESTRUCTURE (DONE) ---> PROJ-CANON-LEAN (DONE) --> PROJ-LIVE-CANON (30%)
 PROJ-AVATARS (DONE) -------> PROJ-SN-VARS (DONE) ----> [complete]
-PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (80%) ---> CLI keys (Sovereign)
+PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (90%) ---> CLI keys (Sovereign)
                                                     --> PROJ-LINEAR
                                                     --> PROJ-RESEARCH
 ```
@@ -159,4 +160,4 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (80%) ---> CLI keys (Sovereign)
 
 ---
 
-*Backlog refreshed 2026-02-01 post-merge. Branch merged, CANON lean-out complete, sn_expand.py built, AGENTS.md created.*
+*Backlog refreshed 2026-02-01 (session 2). Metabolization complete (memory-arch verified in CANON, handbook→SIGMA). Dispatch surfaces restructured. Ticker designed. 12 commits on main this session.*

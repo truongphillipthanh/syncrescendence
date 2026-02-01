@@ -1,9 +1,9 @@
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
 **Last Updated**: 2026-02-01
-**Oracle Lineage**: 0 → 12
+**Oracle Lineage**: 0 → 13+
 **Status**: Rolling snapshot
-**Authority**: Oracle 12
+**Authority**: Oracle 13+ / Commander
 
 ---
 
@@ -105,10 +105,54 @@ Each intention entry contains:
 
 | ID | Oracle | Raw Capture | Status |
 |----|--------|-------------|--------|
-| INT-C001 | 12 | "audit and anneal the corpus again for alignment/congruence" | pending |
+| INT-C001 | 12 | "audit and anneal the corpus again for alignment/congruence" | resolved |
 | INT-C002 | 12 | "attached reports ought to be canonized" | pending |
 | INT-C003 | 13 | "Revenue target reset — new deadline TBD by Sovereign" | pending |
-| INT-C004 | 13 | "Corpus hygiene sprint: triage -INBOX, refresh stale state, compress" | pending |
+| INT-C004 | 13 | "Corpus hygiene sprint: triage -INBOX, refresh stale state, compress" | resolved |
+
+### PRE-ORACLE INTENTIONS (Extracted from `my inputs.md`, 2026-02-01)
+
+*Source: Sovereign raw inputs to ChatGPT Vizier sessions, pre-dating formal Oracle numbering. 50 entries compressed into 20 intention vectors.*
+
+**Resolved by Restructuring (Oracle 13 work):**
+
+| ID | Text (compressed) | Status | Resolved By |
+|----|-------------------|--------|-------------|
+| INT-MI01 | "Don't nerf ChatGPT/Grok/Gemini—general intelligence has value beyond narrow roles" | resolved | Avatar Pantheon v3 (COCKPIT.md) — roles expanded, not lobotomized |
+| INT-MI02 | "Capitalize on ALL memory features across ALL platforms" | resolved | CANON-25000 (Memory Architecture + Teleology) — comprehensive coverage |
+| INT-MI03 | "Algebraize/symbolize the corpus—reduce tokens, maximize semantics" | resolved | PROJ-SN-VARS — SN system (79% compression) + DEF variables |
+| INT-MI04 | "Code-ify the corpus so things update everywhere—variables, not literals" | resolved | sn_expand.py + 9 DEF blocks in DEF-CONSTELLATION_VARIABLES.md |
+| INT-MI05 | "Obsidian-friendly wikilinks and graph backlinks" | resolved | Cross-references maintained throughout restructuring ([[CANON-XXXXX]] format) |
+| INT-MI06 | "Rename directories—developer happiness, not legacy numbering" | resolved | PROJ-RESTRUCTURE — 00/01/02/04/05 + -INBOX/-OUTGOING/-SOVEREIGN |
+| INT-MI07 | "GEMINI.MD and AGENTS.MD in root for CLI agents" | resolved | AGENTS.md created, gemini-settings.json in 02-ENGINE |
+| INT-MI08 | "02-OPERATIONAL is a shitshow—why does it look like that?" | resolved | PROJ-RESTRUCTURE — 00-ORCHESTRATION/state/scripts/archive/ |
+| INT-MI09 | "Consolidate directives and execution logs holistically" | resolved | archive/ with compendiums, compact_wisdom.sh automation |
+| INT-MI10 | "Forensic audit of Canon—conceptual coherence, not metadata" | resolved | CANON lean-out (82→79), cross-reference sweep, CANON-00007+00008 merge |
+| INT-MI11 | "Live capability and features matrix—not ossified in stone" | resolved | MODEL-INDEX.md + ARCH-LIVE_CANON_TICKER.md design |
+| INT-MI12 | "05 is short-term memory; 06 is cautionary tales/aphorisms" | resolved | 05-SIGMA merger — MEMORY-*, EXEMPLA-*, synthesis/mechanics/practice/ |
+| INT-MI13 | "03→06 are interim containers" | resolved | 03 absorbed into 02-ENGINE, 05+06+07 merged into 05-SIGMA |
+| INT-MI14 | "Semantic annealment—collapse bloated logs, condense with acumen" | resolved | PROJ-RESTRUCTURE (1267→636 files), compact_wisdom.sh |
+
+**Active (Not Yet Resolved):**
+
+| ID | Text (compressed) | Status | Priority | Blocked By |
+|----|-------------------|--------|----------|------------|
+| INT-MI15 | "Offload transcripts to Google ecosystem—04-SOURCES externalized into Drive" | active | P2 | Google AI Pro setup (Account 2) |
+| INT-MI16 | "Build pipeline in Google ecosystem—Drive sync, Personal Intelligence, Gmail integration" | active | P2 | PROJ-014 (Multi-Account Sync) |
+| INT-MI17 | "On-device automation—Hazel, Keyboard Maestro, BTT, AppleScript, Shortcuts" | active | P3 | — |
+| INT-MI18 | "Web↔CLI bridge via Hazel + macros—automate between web and CLI" | active | P3 | INT-MI17 |
+| INT-MI19 | "Palantir-like ontology—the FINAL BOSS" | active | P1 | PROJ-006, PROJ-003 |
+| INT-MI20 | "Category/type theory applied to corpus taxonomization down to token level" | active | P2 | SN system provides foundation; deeper application pending |
+
+**Patterns (Meta-Observations from `my inputs.md`):**
+
+| ID | Pattern | Status | Notes |
+|----|---------|--------|-------|
+| INT-P009 | "ChatGPT proposes creative postulations Claude wouldn't—bounded windows of superior intelligence" | active | Platform-specific cognitive strengths; don't homogenize |
+| INT-P010 | "Claude is so amenable it lacks mind-expansion; ChatGPT has more creative divergence" | active | Informs role specialization—ideation ≠ execution |
+| INT-P011 | "Everything is just trade-offs—don't disqualify features for spottiness" | active | Memory reliability is spectrum, not binary |
+| INT-P012 | "ChatGPT SD → Codex DD → Claude CD pipeline" (architecture metaphor) | active | Schematic Design → Design Development → Construction Documents |
+| INT-P013 | "Chorus/collaboration, not unidirectional compilation—interdisciplinary synergy" | active | Multi-agent should be dialogic, not just dispatch |
 
 ---
 
@@ -274,6 +318,9 @@ INT-P006 (multi-agent 90.2%) ─────────────► Constell
 2. **Architecture**: "constellation", "5-platform", "specialization"
 3. **Sustainability**: "self-sustaining", "month end"
 4. **Holism**: "unified", "integrated", "globe before trees"
+5. **Trade-off Pragmatism**: "everything is trade-offs", "don't disqualify for spottiness"
+6. **Compression**: "algebraize", "symbolize", "reduce tokens maximize semantics"
+7. **Automation**: "Hazel", "macros", "bridge web and CLI", "sensing"
 
 ### Anti-Patterns Identified
 
@@ -302,6 +349,14 @@ INT-P006 (multi-agent 90.2%) ─────────────► Constell
 ---
 
 ## VERSION HISTORY
+
+**v2.0.0** (2026-02-01): Pre-Oracle Extraction + Resolution Sweep
+- Metabolized `my inputs.md` (16K, 50 entries) → 20 INT-MI entries
+- 14 resolved (by PROJ-RESTRUCTURE, PROJ-SN-VARS, PROJ-CANON-LEAN, PROJ-AVATARS)
+- 6 active (Google pipeline, on-device automation, Palantir ontology)
+- 5 new patterns (P009-P013: platform cognitive strengths, trade-off philosophy)
+- Resolved INT-C001 (corpus audit) and INT-C004 (corpus hygiene sprint)
+- Authority: Oracle 13+ / Commander session
 
 **v1.0.0** (2026-01-11): Genesis establishment
 - Complete extraction from Oracle 0-12
