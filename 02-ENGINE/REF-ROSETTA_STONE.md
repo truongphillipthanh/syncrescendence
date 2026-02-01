@@ -4,7 +4,7 @@
 **Generated**: 2026-02-01
 **Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint (Ajna resuming Psyche's workstream)
 **Authority**: Ajna (Opus 4.5) — Commander
-**Corpus**: 17 research files + full corpus scan (CLAUDE.md, COCKPIT.md, 00-ORCHESTRATION/, 01-CANON/, 02-ENGINE/, 07-SIGMA7/)
+**Corpus**: 17 research files + full corpus scan (CLAUDE.md, COCKPIT.md, 00-ORCHESTRATION/, 01-CANON/, 02-ENGINE/, 05-SIGMA/)
 **Terms**: 167 total (18 original + 149 new)
 
 ---
@@ -176,7 +176,7 @@
 
 **Status**: UNIQUE
 
-See Ring 7 First / Seven Rings (entry #5). The directory `07-SIGMA7/` houses operational knowledge corresponding to sigma-7 scope (execution substrate tooling).
+See Ring 7 First / Seven Rings (entry #5). The directory `05-SIGMA/` houses operational knowledge corresponding to sigma-7 scope (execution substrate tooling).
 
 ---
 

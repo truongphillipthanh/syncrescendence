@@ -331,7 +331,7 @@ Web Apps (coordination surfaces)
 - Changes flow: Cowork → repository → synced back
 
 ### Operational Knowledge
-Reference `07-SIGMA7/` for Claude Code patterns, cross-platform integration, and execution mechanics.
+Reference `05-SIGMA/` for Claude Code patterns, cross-platform integration, and execution mechanics.
 
 ---
 

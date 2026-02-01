@@ -188,7 +188,7 @@
 ## VII. NEXT ACTIONS
 
 ### Immediate
-1. [x] Commit 07-SIGMA7/ to repository
+1. [x] Commit 05-SIGMA/ to repository
 2. [ ] Update corpus index in 00-ORCHESTRATION
 3. [ ] Verify Obsidian backlinks (if using)
 
@@ -211,7 +211,7 @@ CONVERGENCE-COMPLETE-20260125
 Status: All streams merged, verified, indexed
 Documents: 22 (5 SYNTHESIS + 10 MECH + 7 PRAC)
 Words: 22,728 (90% compression from 221K)
-Location: 07-SIGMA7/
+Location: 05-SIGMA/
 Quality: All gates passed, approaching EXCEPTIONAL
 Next: Commit → Update CLAUDE.md → Archive sources
 ```

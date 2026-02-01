@@ -17,7 +17,7 @@ Each new CLI/agent tool entering the Constellation has:
 
 This pipeline provides a **repeatable five-phase process** for systematic investigation, synthesis, and operationalization.
 
-**Proven at scale**: The Claude Code research corpus (160+ files, 223K words) was metabolized into 07-SIGMA7 (22 docs, 22.7K words) using this methodology, achieving 85%+ compression.
+**Proven at scale**: The Claude Code research corpus (160+ files, 223K words) was metabolized into 05-SIGMA (22 docs, 22.7K words) using this methodology, achieving 85%+ compression.
 
 ---
 
@@ -92,12 +92,12 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 | Synthesized sutras | 100% (crafted, not truncated) |
 | Typed specs | 100% |
 
-5. Organize output by the 07-SIGMA7 taxonomy:
+5. Organize output by the 05-SIGMA taxonomy:
    - `00-SYNTHESIS/` -- Canonical platform reference
    - `01-MECHANICS/` -- Deep-dive mechanisms
    - `02-PRACTICE/` -- Implementation patterns
 
-**Output**: Synthesis documents ready for 07-SIGMA7 integration.
+**Output**: Synthesis documents ready for 05-SIGMA integration.
 
 **Quality Gate**:
 - [ ] All sources read completely
@@ -140,7 +140,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 1. Update platform config files (e.g., CODEX.md, GEMINI.md, or create new)
 2. Create/update skills if new capabilities warrant automation
 3. Test integration with existing workflows
-4. Document learnings in 07-SIGMA7
+4. Document learnings in 05-SIGMA
 5. Update COCKPIT.md if Constellation roles change
 6. Commit all artifacts with semantic prefix (`feat:`, `docs:`)
 
@@ -150,7 +150,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 - [ ] Platform config created/updated
 - [ ] Skills added if needed
 - [ ] Integration tested
-- [ ] 07-SIGMA7 documents committed
+- [ ] 05-SIGMA documents committed
 - [ ] COCKPIT.md updated if roles changed
 - [ ] `make verify` passes
 
@@ -161,9 +161,9 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 | Output | Location | Naming |
 |---|---|---|
 | Raw research sources | `-INBOX/` | `RESEARCH-[TOOL]-[DATE]-[source].md` |
-| Synthesis documents | `07-SIGMA7/00-SYNTHESIS/` | `SYNTHESIS-[tool]_[domain].md` |
-| Mechanics documents | `07-SIGMA7/01-MECHANICS/` | `MECH-[mechanism].md` |
-| Practice documents | `07-SIGMA7/02-PRACTICE/` | `PRAC-[pattern].md` |
+| Synthesis documents | `05-SIGMA/00-SYNTHESIS/` | `SYNTHESIS-[tool]_[domain].md` |
+| Mechanics documents | `05-SIGMA/01-MECHANICS/` | `MECH-[mechanism].md` |
+| Practice documents | `05-SIGMA/02-PRACTICE/` | `PRAC-[pattern].md` |
 | Platform config | Root | `[TOOL].md` (e.g., CODEX.md) |
 | ROSETTA-STONE updates | `02-ENGINE/` | Append to `REF-ROSETTA_STONE.md` |
 

@@ -1,4 +1,4 @@
-# 07-SIGMA7: Operational Knowledge Corpus
+# 05-SIGMA: Operational Knowledge Corpus
 
 **Version**: 1.0.0
 **Generated**: 2026-01-25
@@ -18,34 +18,15 @@
 ## Structure
 
 ```
-07-SIGMA7/
-├── 00-SYNTHESIS/          # Canonical references (5 docs, 9.2K words)
-│   ├── SYNTHESIS-claude_code_architecture.md
-│   ├── SYNTHESIS-codex_openai_ecosystem.md
-│   ├── SYNTHESIS-gemini_google_ecosystem.md
-│   ├── SYNTHESIS-cross_platform_patterns.md
-│   └── SYNTHESIS-agents_mcp_foundations.md
-│
-├── 01-MECHANICS/          # Deep-dive mechanisms (10 docs, 8.6K words)
-│   ├── MECH-skill_system_architecture.md
-│   ├── MECH-task_orchestration.md
-│   ├── MECH-context_compaction_strategies.md
-│   ├── MECH-hooks_lifecycle_automation.md
-│   ├── MECH-headless_mode_automation.md
-│   ├── MECH-mcp_server_patterns.md
-│   ├── MECH-subagent_delegation.md
-│   ├── MECH-git_worktree_coordination.md
-│   ├── MECH-extended_thinking_triggers.md
-│   └── MECH-prompt_engineering_patterns.md
-│
-└── 02-PRACTICE/           # Implementation patterns (7 docs, 4.8K words)
-    ├── PRAC-parallel_claude_orchestration.md
-    ├── PRAC-ralph_pattern_execution.md
-    ├── PRAC-semantic_compression_workflow.md
-    ├── PRAC-oracle_to_executor_handoff.md
-    ├── PRAC-ledger_management_patterns.md
-    ├── PRAC-multi_account_coordination.md
-    └── PRAC-cowork_desktop_integration.md
+05-SIGMA/
+├── synthesis/             # Canonical references (5 docs, 9.2K words)
+├── mechanics/             # Deep-dive mechanisms (10 docs, 8.6K words)
+├── practice/              # Implementation patterns (7 docs, 4.8K words)
+├── MEMORY-*               # Historical preservation (from 05-MEMORY)
+├── EXEMPLA-*              # Templates, examples, cautionary tales (from 06-EXEMPLA)
+├── REF-*                  # Research reference docs
+├── CONVERGENCE-METRICS.md # Metabolization metrics
+└── README.md              # This file
 ```
 
 ---
@@ -128,19 +109,19 @@
 ### For Claude Code Configuration
 ```markdown
 # Reference in CLAUDE.md
-@07-SIGMA7/00-SYNTHESIS/SYNTHESIS-claude_code_architecture.md
+@05-SIGMA/synthesis/SYNTHESIS-claude_code_architecture.md
 ```
 
 ### For Specific Mechanisms
 ```markdown
 # Load skill architecture when building skills
-@07-SIGMA7/01-MECHANICS/MECH-skill_system_architecture.md
+@05-SIGMA/mechanics/MECH-skill_system_architecture.md
 ```
 
 ### For Workflow Execution
 ```markdown
 # Reference handoff pattern before session end
-@07-SIGMA7/02-PRACTICE/PRAC-oracle_to_executor_handoff.md
+@05-SIGMA/practice/PRAC-oracle_to_executor_handoff.md
 ```
 
 ---

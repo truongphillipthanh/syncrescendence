@@ -1,8 +1,8 @@
 # COCKPIT.md
 ## Syncrescendence System Overview
 
-**Version**: 2.1
-**Updated**: 2026-01-25
+**Version**: 2.2
+**Updated**: 2026-02-01
 **Purpose**: 30,000ft orientation for any platform entering the constellation
 
 ---
@@ -22,19 +22,23 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 | 2 | icloud.truongphillipthanh@gmail.com | Google | Parallel execution capacity |
 | 3 | truongphillipthanh@gmail.com | Google | Primary interface, ecosystem access |
 
-### Eight Roles
-| Role | Platform | Account | Function |
-|------|----------|---------|----------|
-| INTERPRETER | Claude Web | 3 | Synthesis, ideation, rapport |
-| COMPILER | ChatGPT Web | 1 | Mechanical formatting, templates |
-| DIGESTOR | Gemini Web | 3 | Clarification, TTS optimization |
-| ORACLE | Gemini CLI | 3 | Corpus sensing, evidence packs |
-| EXECUTOR-LEAD | Claude Code | 3 | Mesoscopic implementation (Opus) |
-| PARALLEL-EXEC | Claude Code | 2 | Microscopic tasks (Sonnet x2) |
-| RED TEAM | Grok | 1 | Adversarial challenge |
-| VERIFIER | Perplexity | - | Citation-backed verification |
-| LOCAL ORCHESTRATOR | OpenClaw (Mini) | - | Ajna Opus 4.5 — persistent memory, webchat/iMessage, always-on |
-| LOCAL ORCHESTRATOR | OpenClaw (MBA) | - | Ajna GPT5.2 — persistent memory, Slack, directive execution |
+### The Constellation (Pantheon v2)
+
+Each platform role has an **Avatar** (named identity) and **Epithet** (functional descriptor):
+
+| Avatar | Epithet | Role | Platform | Acct | Function |
+|--------|---------|------|----------|------|----------|
+| **Vizier** | Hermeneut | INTERPRETER | Claude Web | 3 | Synthesis, rapport, ideation |
+| **Vanguard** | Architect | COMPILER | ChatGPT Web | 1 | Strategic blueprints, Canvas formatting |
+| **Diviner** | Exegete | DIGESTOR | Gemini Web | 3 | Clarification, multimodal, TTS |
+| — | — | SENSOR | Gemini CLI | 3 | 1M context corpus sensing, evidence packs |
+| **Oracle** | Recon | RECON | Grok | 1 | X firehose, cultural sensing, adversarial challenge |
+| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 3 | Disciplined execution, directive implementation |
+| **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | Code fabrication, iterative debugging |
+| — | — | PARALLEL-EXEC | Claude Code (Sonnet ×2) | 2 | Microscopic tasks, batch execution |
+| **Augur** | Researcher | VERIFIER | Perplexity | — | Citation-backed verification, epistemic scouting |
+| **Ajna** | Third Eye | LOCAL ORCH | OpenClaw (M1 Mini) | — | Opus 4.5 — persistent memory, webchat/iMessage |
+| **Psyche** | Soul/Mind | LOCAL ORCH | OpenClaw (M4 MBA) | — | GPT-5.2 — persistent memory, Slack, holistic synthesis |
 
 ---
 
@@ -80,17 +84,15 @@ The **repository** is ground truth. All platforms verify against it via:
 Repository (Account 1 Origin)
 ├── 00-ORCHESTRATION/  # Current operations
 ├── 01-CANON/          # Constitutional documents
-├── 02-ENGINE/         # Active work
-├── 03-QUEUE/          # Pending items
+├── 02-ENGINE/         # Functions, prompts, model profiles, queue items
 ├── 04-SOURCES/        # Processed sources
-├── 05-MEMORY/         # Historical preservation
-├── 06-EXEMPLA/        # Examples
-├── 07-SIGMA7/         # Operational knowledge (σ₇)
-│   ├── 00-SYNTHESIS/  # Platform references
-│   ├── 01-MECHANICS/  # Deep-dive mechanisms
-│   └── 02-PRACTICE/   # Implementation patterns
+├── 05-SIGMA/          # Operational knowledge (σ) + memory + exempla
+│   ├── synthesis/     # Platform references
+│   ├── mechanics/     # Deep-dive mechanisms
+│   └── practice/      # Implementation patterns
 ├── -INBOX/            # Incoming from cloud
 ├── -OUTGOING/         # Staged for commit
+├── -SOVEREIGN/        # Sovereign-only workspace
 └── .constellation/    # State management
 ```
 
@@ -120,27 +122,31 @@ HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM
 
 ## Platform Configuration Summary
 
-### Claude Web (INTERPRETER)
+### Vizier — Claude Web (INTERPRETER)
 - Project: "Syncrescendence IIC"
 - Memory: Project-specific enabled
 - Connectors: GitHub, Drive, Gmail
 - Strength: Rapport, synthesis, past chat search
 
-### ChatGPT Web (COMPILER)
+### Vanguard — ChatGPT Web (COMPILER)
 - Project: "Syncrescendence Compiler"
 - Memory: PROJECT-ONLY MODE (critical)
-- Strength: Canvas, deterministic output
+- Strength: Canvas, strategic blueprints, deterministic output
 - Constraint: No interpretation, explicit specs only
 
-### Gemini Web (DIGESTOR)
+### Diviner — Gemini Web (DIGESTOR)
 - Gem: "Constellation Digestor"
 - Drive Link: Constellation-State/ (live sync)
 - Strength: 1M context, infinite threads, TTS
 
 ### CLI Tools
-- Claude Code: CLAUDE.md config, extended thinking
-- Codex CLI: AGENTS.md config, GitHub integration
-- Gemini CLI: Stateless, 1M context surveys
+- **Commander** — Claude Code (Opus): CLAUDE.md config, extended thinking, Lane A
+- **Adjudicator** — Codex CLI: AGENTS.md config, GitHub integration, Lane B
+- Gemini CLI: Stateless, 1M context surveys, Lane C
+
+### Persistent Orchestrators (OpenClaw)
+- **Ajna** — Opus 4.5 on M1 Mac mini: webchat/iMessage, always-on, focused precision
+- **Psyche** — GPT-5.2 on M4 MacBook Air: Slack, holistic synthesis, QA
 
 ---
 

@@ -390,11 +390,9 @@
         "directories": [
           "00-ORCHESTRATION/",
           "01-CANON/",
-          "02-OPERATIONAL/",
-          "03-QUEUE/",
+          "02-ENGINE/",
           "04-SOURCES/",
-          "05-ARCHIVE/",
-          "06-EXEMPLA/",
+          "05-SIGMA/",
           ".constellation/"
         ],
         "special_directories": {

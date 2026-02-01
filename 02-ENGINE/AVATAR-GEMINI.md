@@ -33,7 +33,7 @@ Produce actionable recommendations from corpus analysis.
 | `04-SOURCES/` | Source material for processing |
 | `00-ORCHESTRATION/state/` | Current system state |
 | `02-ENGINE/` | Active protocols and configurations |
-| `06-EXEMPLA/` | Wisdom layer, templates, examples |
+| `05-SIGMA/` | Operational knowledge, wisdom layer, templates |
 
 ## Output Format
 
@@ -195,7 +195,7 @@ Web Apps (coordination surfaces)
 - Changes flow: Cowork → repository → synced back
 
 ### Operational Knowledge
-Reference `07-SIGMA7/` for Claude Code patterns, cross-platform integration, and execution mechanics.
+Reference `05-SIGMA/` for Claude Code patterns, cross-platform integration, and execution mechanics.
 
 ---
 

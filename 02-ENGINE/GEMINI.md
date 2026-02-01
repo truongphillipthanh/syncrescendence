@@ -23,11 +23,9 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 ## Directory Structure
 - `00-ORCHESTRATION/` — Strategic coordination (directives, logs, state)
 - `01-CANON/` — Verified canonical knowledge (PROTECTED)
-- `02-ENGINE/` — Functions, prompts, model profiles
-- `03-QUEUE/` — Pending items by modal
+- `02-ENGINE/` — Functions, prompts, model profiles, queue items
 - `04-SOURCES/` — Source documents (raw/, processed/)
-- `05-MEMORY/` — Historical preservation
-- `06-EXEMPLA/` — Templates and examples
+- `05-SIGMA/` — Operational knowledge corpus + memory + exempla
 
 ## Critical Commands
 ```bash

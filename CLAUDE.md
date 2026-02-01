@@ -39,13 +39,12 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Directory Structure
 - `00-ORCHESTRATION/` — Strategic coordination (directives, logs, state)
 - `01-CANON/` — Verified canonical knowledge (PROTECTED)
-- `02-ENGINE/` — Functions, prompts, model profiles
-- `03-QUEUE/` — Pending items by modal
+- `02-ENGINE/` — Functions, prompts, model profiles, queue items
 - `04-SOURCES/` — Source documents (raw/, processed/)
-- `05-MEMORY/` — Historical preservation
-- `06-EXEMPLA/` — Templates and examples
+- `05-SIGMA/` — Operational knowledge corpus (synthesis/, mechanics/, practice/) + memory + exempla
 - `-OUTGOING/` — Export staging, reinit capsules, cross-platform handoffs
 - `-INBOX/` — Incoming artifacts from external platforms
+- `-SOVEREIGN/` — Sovereign-only workspace
 
 ## Critical Commands
 ```bash
@@ -170,10 +169,10 @@ See `CHATGPT.md`, `GROK.md`, `GEMINI.md`, `PERPLEXITY.md` for platform-specific 
 ## Operational Knowledge Reference
 
 For Claude Code configuration, skills, tasks, and cross-platform patterns:
-- `07-SIGMA7/` — Operational knowledge corpus (22 docs, 22.7K words)
-  - `00-SYNTHESIS/` — Canonical platform references
-  - `01-MECHANICS/` — Deep-dive mechanisms
-  - `02-PRACTICE/` — Implementation patterns
+- `05-SIGMA/` — Operational knowledge corpus (synthesis/, mechanics/, practice/)
+  - `synthesis/` — Canonical platform references
+  - `mechanics/` — Deep-dive mechanisms
+  - `practice/` — Implementation patterns
 
 ---
 
@@ -194,7 +193,7 @@ Web Apps (coordination surfaces)
 - Changes flow: Cowork → repository → synced back
 
 ### Operational Knowledge
-Reference `07-SIGMA7/` for Claude Code patterns, cross-platform integration, and execution mechanics.
+Reference `05-SIGMA/` for Claude Code patterns, cross-platform integration, and execution mechanics.
 
 ---
 

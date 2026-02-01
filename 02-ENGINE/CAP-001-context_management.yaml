@@ -17,7 +17,7 @@ evaluation:
   notes: "Core enabler for all Syncrescendence operations"
 provenance:
   - source: "legacy/Tech/2 ContextEngineering"
-  - source: "07-SIGMA7/MECH-mcp_server_patterns.md"
+  - source: "05-SIGMA/mechanics/MECH-mcp_server_patterns.md"
   - source: "02-ENGINE/REF-ROSETTA_STONE.md"
 relations:
   - type: enables

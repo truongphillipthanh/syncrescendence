@@ -131,7 +131,7 @@ Implement in phases:
 
 ### Phase 1 (Immediate): Decision Envelope
 - Add envelope header to all directive templates
-- Update `06-EXEMPLA/TEMPLATE-DIRECTIVE.md` to include envelope
+- Update `05-SIGMA/EXEMPLA-TEMPLATE-DIRECTIVE.md` to include envelope
 - Producing agents (Claude Web, ChatGPT, Gemini) must populate envelope
 
 ### Phase 2 (Near-term): Relay Notes
@@ -168,8 +168,8 @@ Implement in phases:
 
 If this design is approved:
 
-1. Update `06-EXEMPLA/TEMPLATE-DIRECTIVE.md` with envelope header
-2. Create `06-EXEMPLA/TEMPLATE-RELAY_PACKET.md` for Phase 3
+1. Update `05-SIGMA/EXEMPLA-TEMPLATE-DIRECTIVE.md` with envelope header
+2. Create `05-SIGMA/EXEMPLA-TEMPLATE-RELAY_PACKET.md` for Phase 3
 3. Update ChatGPT COMPILER instructions to produce envelopes
 4. Update Claude Web INTERPRETER config to produce envelopes
 5. Update Gemini DIGESTOR prompt to produce envelopes on actionable outputs
