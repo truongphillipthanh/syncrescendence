@@ -29,6 +29,30 @@
       "Bash(sudo:*)"
     ]
   },
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash 00-ORCHESTRATION/scripts/session_log.sh"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash 00-ORCHESTRATION/scripts/pre_compaction.sh"
+          }
+        ]
+      }
+    ]
+  },
   "project": {
     "name": "Syncrescendence",
     "description": "Civilizational sensing infrastructure"
