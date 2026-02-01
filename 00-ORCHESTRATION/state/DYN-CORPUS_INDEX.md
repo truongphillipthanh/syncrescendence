@@ -27,7 +27,7 @@ syncrescendence/
 │   ├── protocols/       # Operational protocols
 │   └── registries/      # Reference registries (REF-*)
 │
-├── 03-QUEUE/            # SYNTHESIS INBOX (high-signal awaiting integration)
+├── 02-ENGINE/QUEUE-*     # SYNTHESIS INBOX (absorbed from 03-QUEUE, QUEUE- prefixed)
 │
 ├── 04-SOURCES/          # CURATED REFERENCES (preservation-worthy)
 │   ├── raw/             # Unprocessed curated sources

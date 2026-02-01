@@ -31,7 +31,7 @@ end
 |-------|--------|----------|---------------|
 | **default** | Auto | Let model self-regulate | Routine work |
 | **think** | ~4K | Standard deliberation | Normal complexity |
-| **megathink** | ~10K | Moderate complexity | Multi-step reasoning |
+| **think hard** | ~10K | Moderate complexity | Multi-step reasoning |
 | **ultrathink** | ~32K | Maximum depth | Architecture, forensics |
 
 ---
@@ -48,7 +48,7 @@ Consider OAuth, JWT, session-based approaches. Evaluate tradeoffs.
 
 **Complex Debugging**
 ```
-megathink: This test has been failing intermittently for weeks.
+think hard: This test has been failing intermittently for weeks.
 Analyze the race condition and propose a fix.
 ```
 
@@ -139,7 +139,7 @@ If ultrathink prevents one "redo" iteration:
 |------|-------|----------|
 | Strategic planning | Opus | ultrathink |
 | Architecture design | Opus | ultrathink |
-| Complex debugging | Opus | megathink |
+| Complex debugging | Opus | think hard |
 | Feature implementation | Sonnet | think |
 | Routine edits | Sonnet | default |
 | Quick search | Haiku | default |

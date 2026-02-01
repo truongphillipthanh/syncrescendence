@@ -38,7 +38,7 @@ def count_by_field(items, field):
 def count_queue_items(queue_dir):
     """Count files in QUEUE directories."""
     counts = {}
-    queue_path = STATE_DIR.parent.parent / '03-QUEUE'
+    queue_path = STATE_DIR.parent.parent / '02-ENGINE'
     for subdir in ['pending', 'modal1', 'modal2']:
         subpath = queue_path / subdir
         if subpath.exists():

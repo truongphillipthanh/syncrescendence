@@ -73,7 +73,7 @@ Parallel task specifications with lane-specific metadata.
 Lane: A | B | C
 Toolchain: claude_code | codex_cli | gemini_cli | chatgpt | other
 Model: opus-4.5 | sonnet-4.5 | haiku | gemini-2.0-flash | gpt-4o | <custom>
-Thinking: ultrathink | megathink | think | default
+Thinking: ultrathink | think hard | think | default
 Success_Criteria: [Measurable completion conditions]
 Inputs: [Files/artifacts this lane reads]
 Outputs: [Files/artifacts this lane produces]
@@ -211,7 +211,7 @@ Where:
 | Level | Tokens | Use When |
 |-------|--------|----------|
 | `ultrathink` | ~32K | Architectural synthesis, complex multi-file changes |
-| `megathink` | ~10K | Moderate complexity, multi-step reasoning |
+| `think hard` | ~10K | Moderate complexity, multi-step reasoning |
 | `think` | ~4K | Standard deliberation |
 | `default` | auto | Let model self-regulate |
 

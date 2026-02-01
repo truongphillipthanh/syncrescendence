@@ -184,8 +184,8 @@ coordination:
 
     thinking_defaults:
       oracle_synthesis: ultrathink
-      architectural_decisions: megathink
-      complex_integration: megathink
+      architectural_decisions: think hard
+      complex_integration: think hard
       repository_maintenance: think
       ledger_updates: default
       content_processing: think

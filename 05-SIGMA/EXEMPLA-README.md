@@ -86,7 +86,7 @@ EXEMPLA content should be:
 00-ORCHESTRATION/ — Coordination infrastructure
 01-CANON/         — What (constitutional, defended)
 02-ENGINE/   — Active (living documents)
-03-QUEUE/         — Synthesis inbox (high-signal only)
+02-ENGINE/QUEUE-*  — Synthesis inbox (absorbed from 03-QUEUE)
 04-SOURCES/       — Curated references (preservation-worthy)
 05-MEMORY/       — Short-term memory (30-day TTL)
 06-EXEMPLA/       — Wisdom layer (civilizational knowledge transfer) <- THIS
