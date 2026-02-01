@@ -1,0 +1,1 @@
+I rag all my AI/agent chat history and have conversations with it now, I actually got this advice from somebody at Anthropic. 
