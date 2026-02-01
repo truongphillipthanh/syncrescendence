@@ -68,15 +68,17 @@ make tree                # Generate current tree
 - Modifying state/ without validation
 
 ## Extended Thinking
-Use these triggers for complex analysis:
+Use these triggers for complex analysis (community-aligned):
 - `think` — Standard deliberation (~4K tokens)
-- `megathink` — Moderate depth (~10K tokens)
+- `think hard` — Moderate depth (~10K tokens)
 - `ultrathink` — Maximum depth (~32K tokens)
 - `default` — Let model self-regulate
 
 Use ultrathink for: architectural decisions, multi-step processing, forensic analysis.
-Use megathink for: moderate complexity, multi-step reasoning.
+Use think hard for: moderate complexity, multi-step reasoning.
 Do NOT use ultrathink for: simple lookups, single-file edits, routine commits.
+
+**Note**: `megathink` is deprecated. Use `think hard` (community standard).
 
 ## BLITZKRIEG MODEL SPECIFICATION
 
@@ -114,7 +116,7 @@ Full protocol: `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
 | Level | Tokens | Use When |
 |-------|--------|----------|
 | `ultrathink` | ~32K | Architectural synthesis, complex multi-file changes |
-| `megathink` | ~10K | Moderate complexity, multi-step reasoning |
+| `think hard` | ~10K | Moderate complexity, multi-step reasoning |
 | `think` | ~4K | Standard deliberation |
 | `default` | auto | Let model self-regulate |
 
@@ -209,4 +211,27 @@ Reference `07-SIGMA7/` for Claude Code patterns, cross-platform integration, and
 - `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` (destination)
 - `00-ORCHESTRATION/state/ARCH-INTENTION_PROTOCOL.md` (method)
 
-Verify work advances the 808→200 file compression goal. Avoid architecture-as-procrastination.
+Verify work advances the corpus coherence goal. Avoid architecture-as-procrastination.
+
+---
+
+## Terminology Reference
+
+Internal terminology is reconciled against community consensus in:
+- `02-ENGINE/REF-ROSETTA_STONE.md` — ROSETTA STONE: internal ↔ community mapping
+- `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` — How we use Claude Code for non-coding work
+- `02-ENGINE/REF-STACK_TELEOLOGY.md` — Comprehensive technology stack disposition
+
+When encountering unfamiliar Syncrescendence terms (Triumvirate, Fingerprint, etc.), consult ROSETTA-STONE first.
+
+---
+
+## OpenClaw Integration Layer
+
+Two persistent OpenClaw agents orchestrate the Constellation:
+- **Ajna** (Opus 4.5, Mac mini) — Commits, integration, sub-agent orchestration
+- **Psyche** (GPT-5.2, MacBook Air) — Extraction, specs, QA
+
+Coordination protocol: `00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md`
+
+OpenClaw provides the persistent memory and autonomous execution layer beneath Claude Code. When operating in this repo via Claude Code CLI, be aware that OpenClaw agents may be concurrently reading/writing to the same filesystem. Check git status before large operations.
