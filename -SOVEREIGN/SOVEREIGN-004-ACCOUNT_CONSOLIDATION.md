@@ -1,8 +1,9 @@
 # SOVEREIGN-004: AI Account Strategy — Sunset & Upgrade
 
-**Status**: ⏳ PENDING  
-**Priority**: HIGH — Active spend optimization  
-**Date Filed**: 2025-07-17  
+**Status**: ✅ RESOLVED
+**Priority**: HIGH — Active spend optimization
+**Date Filed**: 2025-07-17
+**Resolved**: 2026-02-01 (PROJ-ACCT complete: A1=Claude Max+ChatGPT Plus, A2=Claude Pro+Google AI Pro, A3=Unpaid)
 **Category**: Infrastructure / Financial
 
 ---

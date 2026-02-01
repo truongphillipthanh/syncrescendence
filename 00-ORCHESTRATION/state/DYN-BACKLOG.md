@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-01 (Post-Metabolization, Ticker Design Complete)
+**Last Updated**: 2026-02-01 (Post-Triage, Rosetta Stone v2.1.0, Dispatch Enhanced)
 
 ---
 
@@ -11,7 +11,9 @@
 2. ~~**Memory architecture CANON**: Metabolize memory-architecture-teleology.md~~ — DONE (content already in CANON-25000 via lean-out; source deleted)
 3. ~~**FLEET_COMMANDERS_HANDBOOK**: Metabolize into 05-SIGMA~~ — DONE (→ PRAC-agentic_mastery_framework.md at `86bc00c`; source deleted)
 4. **IEETC interview prep**: Feb 10, 2026 @ 2:15 PM San Bernardino (NEC study, YT recon, practice)
-5. **Dispatch surfaces**: ~~Restructure -INBOX/-OUTGOING/-SOVEREIGN~~ — DONE (per-agent subfolders, dispatch.sh, watch_dispatch.sh at `28b3a33`)
+5. ~~**Dispatch surfaces**: Restructure -INBOX/-OUTGOING/-SOVEREIGN~~ — DONE (per-agent subfolders, dispatch.sh, watch_dispatch.sh at `28b3a33`; enhanced with agent research patterns at `1d408d9`)
+6. ~~**Rosetta Stone terminology reconciliation**: Apply Sovereign clarifications~~ — DONE (v2.1.0 at `ad63eaa`; 13 changes applied)
+7. ~~**Systematic triage**: 00-ORCHESTRATION + 02-ENGINE~~ — DONE (10 files archived, Blitzkrieg supersession noted, ephemeral/durable updated at `e8cbc3a`)
 
 ### Near-Term
 5. ~~**CANON lean-out**: 3 merge pairs~~ — DONE (25000+25010, 25200+25210, 00007+00008 merged at `b4f4490`)
@@ -43,7 +45,8 @@
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |
 | PROJ-ACCT | COMPLETE | — | 100% | Account Restructure — A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid |
-| PROJ-NEO-BLITZ | IN_PROGRESS | P0 | 90% | Neo-Blitzkrieg Buildout — hooks/automation/CANON lean-out/dispatch done, CLI keys + Linear pending |
+| PROJ-NEO-BLITZ | IN_PROGRESS | P0 | 95% | Neo-Blitzkrieg Buildout — hooks/automation/CANON lean-out/dispatch/triage done, CLI keys + Linear pending |
+| PROJ-TERMINOLOGY | IN_PROGRESS | P2 | 40% | Terminology Sweep — Rosetta Stone v2.1.0 done; "Deviser" in 14 ENGINE files pending broader sweep |
 | PROJ-CANON-LEAN | COMPLETE | — | 100% | CANON Lean-Out — 3 pairs merged (82→79 CANON files) |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
@@ -160,4 +163,4 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (90%) ---> CLI keys (Sovereign)
 
 ---
 
-*Backlog refreshed 2026-02-01 (session 2). All P0 items resolved. P1 desktop complete (AUDIZE/chrome verified, x_articles + convergence ingested). Intention Compass v2.0 (20 INT-MI entries). Ticker designed. SIGMA practice doc created. 8 commits this session.*
+*Backlog refreshed 2026-02-01 (session 3). Rosetta Stone v2.1.0 (13 Sovereign clarifications applied). Dispatch architecture enhanced with agent research patterns. Systematic triage: 10 files archived from state/scripts (stale metrics, IMEP artifacts, old Blitzkrieg scripts), Blitzkrieg v1/v2 supersession noted, Wells/Rivers→ephemeral/durable updated. 02-ENGINE triage: QUEUE_DISPOSITION archived, IIC-ACUMEN duplicate flagged for PROJ-002 merge, "Deviser"→"Vanguard" sweep queued. Neo-Blitzkrieg pipeline fully specified in Rosetta Stone entry #14. 4 commits this session.*
