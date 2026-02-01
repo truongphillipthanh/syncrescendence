@@ -48,7 +48,7 @@
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
 | PROJ-LIVE-CANON | IN_PROGRESS | P1 | 30% | Live CANON Ticker — design complete, implementation pending Sovereign approval |
-| PROJ-DESKTOP | IN_PROGRESS | P1 | 70% | Desktop Metabolization — P0 complete, P1 complete (intake + verify), P2-P3 remaining |
+| PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
 
 ---
 
@@ -79,9 +79,9 @@ See `00-ORCHESTRATION/state/REF-DESKTOP_CAPTURE_INVENTORY.md` for full inventory
 | P1 | ~~x_articles (17 files)~~ | ~~04-SOURCES/research~~ | DONE (moved to research pipeline) |
 | P1 | ~~configuration_layers/AUDIZE~~ | ~~02-ENGINE/FUNC-*~~ | DONE (PRODUCTION added, MINIMAL/REFERENCE verified identical) |
 | P1 | ~~configuration_layers/chrome scripts~~ | ~~02-ENGINE/FUNC-transcribe_*~~ | DONE (verified identical, Desktop deleted) |
-| P2 | legacy/meta_narrative*.md | 05-SIGMA or CANON | NOT_STARTED |
-| P2 | legacy/Coherence/ | 05-SIGMA/MEMORY-* | NOT_STARTED |
-| P3 | Ajna9 research fodder | Verify → DELETE | NOT_STARTED |
+| P2 | ~~legacy/meta_narrative*.md~~ | ~~04-SOURCES/research~~ | INTAKE (602 lines, moved to research pipeline) |
+| P2 | legacy/Coherence/ (193 files, 28K lines) | 05-SIGMA/MEMORY-* | DEFERRED (too large for inline — dispatch to Psyche) |
+| P3 | ~~Ajna9 research fodder~~ | ~~already in repo~~ | DONE (Desktop duplicate deleted) |
 
 ---
 
@@ -160,4 +160,4 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (90%) ---> CLI keys (Sovereign)
 
 ---
 
-*Backlog refreshed 2026-02-01 (session 2). Metabolization complete (memory-arch verified in CANON, handbook→SIGMA). Dispatch surfaces restructured. Ticker designed. 12 commits on main this session.*
+*Backlog refreshed 2026-02-01 (session 2). All P0 items resolved. P1 desktop complete (AUDIZE/chrome verified, x_articles + convergence ingested). Intention Compass v2.0 (20 INT-MI entries). Ticker designed. SIGMA practice doc created. 8 commits this session.*
