@@ -150,10 +150,11 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 ### A. Directive Initialization Protocol
 *Fires at the start of every non-trivial directive.*
 
-1. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
-2. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
-3. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
-4. **Delegation assessment**: Identify tasks suitable for parallel agents:
+1. **Inbox scan**: Check `-INBOX/commander/` for `TASK-*.md` files with `Status: PENDING`. Triage: claim actionable tasks, note blocked ones, report stale items to Sovereign. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh commander` for quick status.
+2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
+3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
+4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
+5. **Delegation assessment**: Identify tasks suitable for parallel agents:
    - Mechanical execution, test suites, debugging, formatting, linting → dispatch to Adjudicator (`-INBOX/adjudicator/`)
    - Corpus surveys requiring 1M+ context → dispatch to Cartographer (`-INBOX/cartographer/`)
    - Use `bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC"` or write TASK files directly
@@ -161,10 +162,11 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 ### B. Directive Completion Protocol
 *Fires at the end of every directive, BEFORE the automated Stop hooks run.*
 
-1. **Produce rich execution log** in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md`:
+1. **Produce rich execution log** in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md` (follow format in `02-ENGINE/TEMPLATE-EXECUTION_LOG.md`):
    - Header: `### DIRECTIVE-ID | YYYY-MM-DD HH:MM`
    - Metadata: Branch, Fingerprint, Outcome (SUCCESS/PARTIAL/FAILED), Commits count, Changes summary, Agent, Session span
    - Body: Directives executed (source task, outcome, artifacts created/modified, verification, IntentionLink), Decisions made with rationale, Commit log table
+   - Logs auto-compact into `ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
 2. **Supplementary to automation**: The `create_execution_log.sh` Stop hook captures git metrics independently. This behavioral log adds the semantic content the script cannot infer.
 3. **Verify before closing**: Run `git status` — ensure no uncommitted work. If artifacts remain unstaged, commit them before the directive ends.
 

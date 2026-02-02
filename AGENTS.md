@@ -62,12 +62,13 @@ After processing, mark `Status: COMPLETE` or `Status: FAILED`.
 ## Adjudicator Operational Protocols
 
 ### A. Task Initialization Protocol
-*Fires at the start of every task picked from `-INBOX/adjudicator/`.*
+*Fires at the start of every session and before each task.*
 
-1. **Ground truth scan**: Run `git status` — verify clean working tree, confirm fingerprint
-2. **Triumvirate alignment**: AGENTS.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
-3. **Claim the task**: Atomic rename `TASK-xxx.md` → `TASK-xxx.md.claimed-by-adjudicator-{hostname}` (prevents duplicate consumers across machines)
-4. **Validate scope**: Confirm the task falls within Adjudicator jurisdiction (see B below). If it requires architectural judgment or CANON modification, escalate to Commander.
+1. **Inbox scan**: Check `-INBOX/adjudicator/` for `TASK-*.md` files with `Status: PENDING`. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator` for quick status. Process tasks in priority order (P0 first).
+2. **Ground truth scan**: Run `git status` — verify clean working tree, confirm fingerprint
+3. **Triumvirate alignment**: AGENTS.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
+4. **Claim the task**: Atomic rename `TASK-xxx.md` → `TASK-xxx.md.claimed-by-adjudicator-{hostname}` (prevents duplicate consumers across machines)
+5. **Validate scope**: Confirm the task falls within Adjudicator jurisdiction (see B below). If it requires architectural judgment or CANON modification, escalate to Commander.
 
 ### B. Adjudication Protocol — When and How to Debug
 
@@ -99,10 +100,11 @@ Escalation method: Write a TASK file to `-INBOX/commander/` with `Priority: P1` 
 ### C. Task Completion Protocol
 *Fires at the end of every task.*
 
-1. **Produce execution log** in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md`:
+1. **Produce execution log** in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md` (follow format in `02-ENGINE/TEMPLATE-EXECUTION_LOG.md`):
    - Header: `### TASK-ID | YYYY-MM-DD HH:MM`
    - Metadata: Branch, Fingerprint, Outcome (SUCCESS/PARTIAL/FAILED), Commits, Changes, Agent (Adjudicator)
    - Body: What was done, artifacts modified, verification result
+   - Logs auto-compact into `ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
 2. **Update task status**: In the original TASK file, set `Status: COMPLETE` or `Status: FAILED`
 3. **Write result file** (if originator expects output): `RESULT-adjudicator-{DATE}-{TOPIC}.md` to originator's inbox
 4. **Commit**: Use semantic prefix — `fix:`, `chore:`, `refactor:`, `test:` (never `feat:` — features are Commander jurisdiction)

@@ -51,9 +51,17 @@ cat >> "$STAGING" << EOF
 - **Details**: $DETAILS
 EOF
 
-# Count entries and warn if threshold reached
+# Count entries and auto-compact if threshold reached
 ENTRY_COUNT=$(grep -c "^### " "$STAGING" 2>/dev/null || echo "0")
 echo "[Execution] Logged $DIRECTIVE_ID: $OUTCOME ($ENTRY_COUNT entries in staging)"
 if [ "$ENTRY_COUNT" -ge 10 ]; then
-    echo "[Execution] THRESHOLD REACHED ($ENTRY_COUNT/10). Run compact_wisdom.sh to compact into history."
+    echo "[Execution] THRESHOLD REACHED ($ENTRY_COUNT/10). Auto-compacting..."
+    bash "$REPO_ROOT/00-ORCHESTRATION/scripts/compact_wisdom.sh"
+    # Stage and commit the compaction
+    git add "$STAGING" \
+        "$REPO_ROOT/00-ORCHESTRATION/archive/ARCH-EXECUTION_HISTORY.md" \
+        "$REPO_ROOT/00-ORCHESTRATION/archive/ARCH-DIRECTIVE_COMPENDIUM.md" \
+        2>/dev/null
+    git commit -m "chore: auto-compact wisdom at threshold ($ENTRY_COUNT entries)" 2>/dev/null
+    echo "[Execution] Compaction committed."
 fi
