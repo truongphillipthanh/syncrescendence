@@ -56,3 +56,36 @@
 | a59a352 | docs: extend decision atom template with IntentionLink + Fingerprint |
 | 64de3f4 | feat: Research protocol formalized + 3 parallel research agents dispatched |
 | 7103602 | feat: SOVEREIGN-008 + IO Model v2 — terminology alignment, claim-locking, global ledger |
+
+### COMMANDER-20260202-217ee85 | 2026-02-02 15:32
+- **Branch**: main | **Fingerprint**: 217ee85
+- **Outcome**: SUCCESS
+- **Commits**: 2 | **Changes**: 5 files changed, 207 insertions(+), 3 deletions(-)
+- **Agent**: Commander (Claude Code Opus)
+- **Session span**: 2026-02-02 15:19 — 15:32
+
+#### Directives Executed
+
+**1. Operational Protocols — Triumvirate Alignment + Execution Log Discipline**
+- **Source**: Sovereign directive (session prompt)
+- **Outcome**: Commander and Adjudicator behavioral protocols added to init files. Retroactive execution log produced for prior session (7103602).
+- **Artifacts modified**: `CLAUDE.md` (+27 lines), `AGENTS.md` (+55 lines), `DYN-EXECUTION_STAGING.md` (+48 lines)
+- **IntentionLink**: INT-1202
+
+**2. Inbox-Zero Protocol + Execution Log Template Wiring + Auto-Compact**
+- **Source**: Sovereign follow-up directive
+- **Outcome**: All three CLI agent init files now scan their inbox on session start. GEMINI.md expanded from 22-line stub to full operational config. Execution log template (`02-ENGINE/TEMPLATE-EXECUTION_LOG.md`) referenced in all completion protocols. Auto-compact wired into `create_execution_log.sh` — triggers `compact_wisdom.sh` at 10-entry threshold with auto-commit.
+- **Artifacts modified**: `CLAUDE.md`, `AGENTS.md`, `GEMINI.md` (+68 lines), `create_execution_log.sh` (+12 lines)
+- **IntentionLink**: INT-1202
+
+#### Decisions Made
+- Behavioral protocols in init files (not shell hooks) — triumvirate scan and delegation assessment require agent judgment, not bash automation
+- Auto-compact at threshold rather than manual: `create_execution_log.sh` calls `compact_wisdom.sh` and auto-commits when staging >= 10 entries
+- GEMINI.md expanded to full operational config with jurisdiction table, survey methodology, escalation rules — no longer a stub
+- Adjudicator never uses `feat:` commit prefix — features are Commander jurisdiction
+
+#### Commit Log
+| Hash | Message |
+|------|---------|
+| a9c8a0e | feat: operational protocols — triumvirate alignment, execution logs, delegation hooks |
+| 217ee85 | feat: inbox-zero protocol, execution log template wiring, auto-compact |
