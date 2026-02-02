@@ -3,7 +3,7 @@ id: audizer-protocol
 kind: protocol
 scope: project
 target: chatgpt
-owner: Deviser
+owner: Vanguard
 version: 3.0.0
 ---
 

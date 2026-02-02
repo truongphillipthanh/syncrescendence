@@ -3,7 +3,7 @@ id: operations-artifact-taxonomy
 kind: protocol
 scope: repo
 target: repo
-owner: Deviser
+owner: Vanguard
 triggers:
   - new prompt/spec/script created
   - Blitzkrieg

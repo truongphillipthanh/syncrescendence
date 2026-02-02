@@ -79,7 +79,7 @@ This is a Syncrescendence-native pattern (see ROSETTA-STONE: UNIQUE). No communi
 | `/project:blitzkrieg` | Custom | Create parallel directive bundle with Lane A/B/C |
 | `/project:blitzkrieg_finalize` | Custom | Generate return packet, audio scripts, agent relay |
 | `/project:blitzkrieg_issue <slug>` | Custom | Create bundle skeleton with directive templates |
-| `/project:deviser_reint` | Custom | Deviser reintegration protocol |
+| `/project:vanguard_reint` | Custom | Vanguard reintegration protocol |
 | `/project:process-source` | Custom | Source processing pipeline |
 | `/project:repo_validate` | Custom | Repository structure validation |
 | `/project:update-ledgers` | Custom | Sync CSV ledgers with validation |
@@ -203,7 +203,7 @@ CAPTURED > INTERPRETED > COMPILED > STAGED > COMMITTED
 | blitzkrieg | `.claude/commands/project/blitzkrieg.md` | Create parallel directive bundle |
 | blitzkrieg_finalize | `.claude/commands/project/blitzkrieg_finalize.md` | Generate return packet |
 | blitzkrieg_issue | `.claude/commands/project/blitzkrieg_issue.md` | Create bundle skeleton |
-| deviser_reint | `.claude/commands/project/deviser_reint.md` | Deviser reintegration |
+| vanguard_reint | `.claude/commands/project/vanguard_reint.md` | Vanguard reintegration |
 | process-source | `.claude/commands/project/process-source.md` | Source processing pipeline |
 | repo_validate | `.claude/commands/project/repo_validate.md` | Repository validation |
 | update-ledgers | `.claude/commands/project/update-ledgers.md` | Ledger synchronization |

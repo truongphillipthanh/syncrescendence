@@ -60,9 +60,9 @@ Transcendence Dashboard
 │
 ├── IMEP Pipeline
 │   ├── Evidence Packets (from Oracle/Gemini)
-│   ├── Plan Packets (from Deviser/ChatGPT)
+│   ├── Plan Packets (from Vanguard/ChatGPT)
 │   ├── Execution Packets (from Executor/Claude)
-│   └── Audit Results (from Deviser/ChatGPT)
+│   └── Audit Results (from Vanguard/ChatGPT)
 │
 ├── Cross-IIC Flows
 │   ├── Acumen → Coherence (qualified intelligence)

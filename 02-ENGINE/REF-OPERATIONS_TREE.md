@@ -3,7 +3,7 @@ id: operations-tree
 kind: registry
 scope: repo
 target: repo
-owner: Deviser
+owner: Vanguard
 ---
 
 # Operations Tree: What Lives Where

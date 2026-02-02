@@ -25,7 +25,7 @@ These prompts configure platforms for specific IMEP protocol roles.
 
 | File | Platform | Role | Packet Type | Status |
 |------|----------|------|-------------|--------|
-| PROMPT-IMEP-CHATGPT-DEVISER.md | ChatGPT | Deviser | PLN (Plan) | **RESOLVED** |
+| PROMPT-IMEP-CHATGPT-DEVISER.md | ChatGPT | Vanguard | PLN (Plan) | **RESOLVED** |
 | PROMPT-IMEP-CHATGPT-AUDITOR.md | ChatGPT | Auditor | AUD (Audit) | **RESOLVED** |
 | PROMPT-IMEP-GEMINI-ORACLE.md | Gemini | Oracle | EVD (Evidence) | **RESOLVED** |
 | PROMPT-IMEP-CLAUDE-ENGINEER.md | Claude Code | Engineer/Executor | EXE (Execution) | **RESOLVED** |
@@ -38,7 +38,7 @@ These prompts configure platforms for specific IMEP protocol roles.
 | IMEP Role | Primary Platform | Prompt File |
 |-----------|------------------|-------------|
 | Oracle | Gemini | PROMPT-IMEP-GEMINI-ORACLE.md |
-| Deviser | ChatGPT | PROMPT-IMEP-CHATGPT-DEVISER.md |
+| Vanguard | ChatGPT | PROMPT-IMEP-CHATGPT-DEVISER.md |
 | Engineer | Claude Code | PROMPT-IMEP-CLAUDE-ENGINEER.md |
 | Auditor | ChatGPT or Claude Code | PROMPT-IMEP-CHATGPT-AUDITOR.md or PROMPT-IMEP-CLAUDE-AUDITOR.md |
 
@@ -49,7 +49,7 @@ These prompts configure platforms for specific IMEP protocol roles.
 | Packet | ID Pattern | Emitter Role | Emitter Platform |
 |--------|------------|--------------|------------------|
 | Evidence | EVD-YYYYMMDD-NNN | Oracle | Gemini |
-| Plan | PLN-YYYYMMDD-NNN | Deviser | ChatGPT |
+| Plan | PLN-YYYYMMDD-NNN | Vanguard | ChatGPT |
 | Execution | EXE-YYYYMMDD-NNN | Engineer | Claude Code |
 | Audit | AUD-YYYYMMDD-NNN | Auditor | ChatGPT or Claude Code |
 
@@ -57,7 +57,7 @@ These prompts configure platforms for specific IMEP protocol roles.
 
 ## 5. DEPLOYMENT NOTES
 
-### ChatGPT Deviser Thread
+### ChatGPT Vanguard Thread
 1. Start new thread
 2. Paste PROMPT-IMEP-CHATGPT-DEVISER.md as first message
 3. Provide BOOT_CAPSULE.md contents

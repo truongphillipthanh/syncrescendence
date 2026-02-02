@@ -74,7 +74,7 @@ Gemini serves as **Oracle** in the three-platform cognitive architecture:
 
 ### What Oracle Does NOT Do
 
-- ❌ Plan or specify implementation (that's Deviser)
+- ❌ Plan or specify implementation (that's Vanguard)
 - ❌ Execute code or modify repository (that's Executor)
 - ❌ Synthesize original frameworks (that's Coherence IIC)
 - ❌ Make decisions (only observes and reports)
@@ -104,7 +104,7 @@ Gemini serves as **Oracle** in the three-platform cognitive architecture:
 1. Upload corpus (repository root + Oracle conversations)
 2. Query with precision: "List all CANON files citing SOURCE-20250926-057"
 3. Receive grounded response with file paths and line numbers
-4. Package as Evidence Packet for Deviser
+4. Package as Evidence Packet for Vanguard
 ```
 
 **Quality Discipline**: Every claim must cite source (file:line or conversation:turn)
@@ -281,9 +281,9 @@ Provide:
 }
 ```
 
-### Phase 2: Handoff to Deviser
+### Phase 2: Handoff to Vanguard
 
-**Action**: Sovereign pastes Evidence Packet to ChatGPT (Deviser)
+**Action**: Sovereign pastes Evidence Packet to ChatGPT (Vanguard)
 
 **Oracle's Role Ends**: No further action until next sensing request
 
@@ -299,7 +299,7 @@ Provide:
 - Validate frontmatter completeness"
 ```
 
-**Output**: Validation Evidence Packet for Deviser audit support
+**Output**: Validation Evidence Packet for Vanguard audit support
 
 ---
 
@@ -536,7 +536,7 @@ Evidence Packet:
 "We should implement feature X"
 
 // CORRECT ROLE
-"Evidence Packet shows gap in capability X. Deviser should plan implementation."
+"Evidence Packet shows gap in capability X. Vanguard should plan implementation."
 ```
 
 **❌ Hallucinating File Paths**
@@ -592,7 +592,7 @@ Evidence Packet:
 }
 ```
 
-**Deviser Use**: ChatGPT uses this to plan "Lens Effectiveness Analysis"
+**Vanguard Use**: ChatGPT uses this to plan "Lens Effectiveness Analysis"
 
 ### Successful Video Processing: Sutton Interview
 
@@ -626,7 +626,7 @@ Evidence Packet:
 }
 ```
 
-**Deviser Use**: ChatGPT produces Plan Packet for transcription + integration
+**Vanguard Use**: ChatGPT produces Plan Packet for transcription + integration
 
 ### Failure Mode and Recovery: Uncited Claim
 
@@ -663,19 +663,19 @@ Evidence Packet:
 
 ## IX. COORDINATION WITH OTHER PLATFORMS
 
-### With Deviser (ChatGPT)
+### With Vanguard (ChatGPT)
 
 **Provides**: Evidence Packets
 **Receives**: Clarification requests when Evidence insufficient
 **Interface**: Sovereign relay (manual paste for now, API future)
 
-**Quality Standard**: Evidence must be sufficient for Deviser to plan without additional sensing
+**Quality Standard**: Evidence must be sufficient for Vanguard to plan without additional sensing
 
 ### With Executor (Claude Code)
 
 **Provides**: Verification Evidence Packets (optional, post-execution)
 **Receives**: Nothing (Oracle doesn't execute)
-**Interface**: One-way (Oracle → Deviser → Executor)
+**Interface**: One-way (Oracle → Vanguard → Executor)
 
 **Use Case**: After execution, Oracle can verify integration by checking repository state
 
@@ -685,7 +685,7 @@ Evidence Packet:
 **Interaction Pattern**:
 - Sovereign asks corpus-scale question
 - Oracle produces Evidence Packet
-- Sovereign pastes to Deviser
+- Sovereign pastes to Vanguard
 
 **Future State**: Direct API queries, automated sensing triggers
 
@@ -709,7 +709,7 @@ Evidence Packet:
 - **Evidence Packets Produced**: Count per week
   - Target: ≥5 by Phase 2 (Juvenile)
 
-- **Deviser Satisfaction**: % of Evidence Packets requiring no follow-up sensing
+- **Vanguard Satisfaction**: % of Evidence Packets requiring no follow-up sensing
   - Target: ≥80%
 
 ### Corpus Coverage

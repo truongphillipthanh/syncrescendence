@@ -468,7 +468,7 @@ Significant community patterns without internal equivalents.
 | 92 | Foyer | UNIQUE | Repository as entryway where all context is accessible | No equivalent |
 | 93 | Queue Half-Life | UNIQUE | 2 cycles to canonize or delete queued content | No equivalent |
 | 94 | Operator/Executor Layer | UNIQUE | Dual-layer instruction format: human-executable vs agent-executable | No equivalent |
-| 95 | Deviser | UNIQUE | ChatGPT-native role for instruction generation | No equivalent |
+| 95 | Deviser → Vanguard | DEPRECATED | ChatGPT role, renamed to Vanguard per COCKPIT.md avatar mapping | No equivalent |
 | 96 | Corpus Sensing | UNIQUE | Gemini CLI scanning full corpus with 1M+ context for coherence/gaps | No equivalent |
 | 97 | Structural Stabilization | UNIQUE | Canonical procedure: Preflight → Apply → Verify → Rollback | Deployment pipeline (adapted) |
 | 98 | Desktop Ingestion Protocol | UNIQUE | Protocol for ingesting legacy files into structured corpus | No equivalent |

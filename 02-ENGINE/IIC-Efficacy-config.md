@@ -56,7 +56,7 @@
 **Execution Framework**:
 ```
 ┌──────────────────────────────────────────────┐
-│         PLAN PACKET (from Deviser)           │
+│         PLAN PACKET (from Vanguard)           │
 │   {objective, deliverables, acceptance}      │
 └──────────────────┬───────────────────────────┘
                    │
@@ -82,7 +82,7 @@
             └──────┬──────┘
                    │
 ┌──────────────────▼───────────────────────────┐
-│      EXECUTION PACKET (to Deviser)           │
+│      EXECUTION PACKET (to Vanguard)           │
 │  {deliverables, verification, artifacts}     │
 └──────────────────────────────────────────────┘
 ```
@@ -182,7 +182,7 @@ make sync
 ### A. Task Execution Lifecycle
 
 **Phase 1: Intake**
-1. Receive Plan Packet from Deviser (via blackboard or handoff)
+1. Receive Plan Packet from Vanguard (via blackboard or handoff)
 2. Parse acceptance criteria
 3. Verify capabilities match requirements
 4. If mismatch: produce Evidence Packet requesting clarification

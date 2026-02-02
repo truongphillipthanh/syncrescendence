@@ -3,7 +3,7 @@ id: chatgpt-global-memory-registration
 kind: memory_registration
 scope: global
 target: chatgpt
-owner: Deviser
+owner: Vanguard
 ---
 
 # ChatGPT Global Memory Registration

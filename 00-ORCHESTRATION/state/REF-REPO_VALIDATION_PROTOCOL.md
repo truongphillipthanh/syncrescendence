@@ -3,7 +3,7 @@ id: repo-validation-protocol
 kind: protocol
 scope: repo
 target: repo
-owner: Deviser
+owner: Vanguard
 version: 1.0.0
 ---
 

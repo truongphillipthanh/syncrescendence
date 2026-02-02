@@ -3,7 +3,7 @@ id: prompt-registry
 kind: registry
 scope: repo
 target: repo
-owner: Deviser
+owner: Vanguard
 ---
 
 # Prompt Registry

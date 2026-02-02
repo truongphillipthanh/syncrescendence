@@ -3,7 +3,7 @@ id: chatgpt-project-memory-anchor-syncrescendence
 kind: memory_registration
 scope: project
 target: chatgpt
-owner: Deviser
+owner: Vanguard
 ---
 
 # ChatGPT Project Memory Anchor: Syncrescendence
