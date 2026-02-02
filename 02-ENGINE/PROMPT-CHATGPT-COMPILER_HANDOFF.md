@@ -1,3 +1,10 @@
+---
+id: prompt-chatgpt-compiler_handoff
+kind: prompt
+scope: engine
+target: chatgpt
+---
+
 ```
 ================================================================================
 CHATGPT COMPILER HANDOFF - SYNCRESCENDENCE CONSTELLATION

@@ -1,3 +1,10 @@
+---
+id: ref-operational_engine
+kind: reference
+scope: engine
+target: engine
+---
+
 THE OPERATIONAL ENGINE: THE ALCHEMIZING CATALYST
 
 Definitional Precision

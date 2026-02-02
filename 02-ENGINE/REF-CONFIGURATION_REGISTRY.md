@@ -1,3 +1,10 @@
+---
+id: ref-configuration_registry
+kind: reference
+scope: engine
+target: engine
+---
+
 # Syncrescendence Configuration Registry
 ## Normalized Relational Schema (CSV/SQLite Ready)
 

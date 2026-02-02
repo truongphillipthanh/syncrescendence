@@ -1,3 +1,10 @@
+---
+id: ref-stack_teleology
+kind: reference
+scope: engine
+target: engine
+---
+
 # STACK TELEOLOGY: Comprehensive Technology Disposition
 ## Every Tool, Every Surface, Every Platform — Teleologized
 

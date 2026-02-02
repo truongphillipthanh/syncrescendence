@@ -1,3 +1,10 @@
+---
+id: ref-operational_style_guide
+kind: reference
+scope: engine
+target: engine
+---
+
 # Operational Style Guide
 ## Extracted from CANON-31120 (Tone Library), CANON-31122 (Rhetorical Calibration), CANON-31110 (Feedcraft)
 

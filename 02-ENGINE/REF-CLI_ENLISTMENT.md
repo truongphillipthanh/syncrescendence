@@ -1,3 +1,10 @@
+---
+id: ref-cli_enlistment
+kind: reference
+scope: engine
+target: engine
+---
+
 # CLI Tool Enlistment Reference
 ## Triggering Constellation CLI Tools Programmatically
 

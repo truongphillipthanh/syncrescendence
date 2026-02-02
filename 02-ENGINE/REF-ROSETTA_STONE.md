@@ -1,3 +1,10 @@
+---
+id: ref-rosetta_stone
+kind: reference
+scope: engine
+target: engine
+---
+
 # ROSETTA STONE: Syncrescendent <> Community Terminology
 
 **Version**: 2.1.0
