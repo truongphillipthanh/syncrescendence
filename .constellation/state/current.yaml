@@ -1,4 +1,4 @@
-fingerprint: 417f17c
-timestamp: 2026-02-01T18:31:50Z
-branch: refactor/restructure-v3
-message: chore: track SN-encoded CANON files, research sources, and state fingerprint
+fingerprint: 2d95e91
+timestamp: 2026-02-02T03:48:35Z
+branch: main
+message: chore: 00-ORCHESTRATION state/archive anneal — 77 files → 30 files (61% reduction)

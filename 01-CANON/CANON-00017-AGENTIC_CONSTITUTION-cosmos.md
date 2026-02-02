@@ -10,7 +10,7 @@
 
 ## PREAMBLE
 
-We, the Sovereign (hereafter "the Principal"), in order to form a more perfect intelligence apparatus, establish antifragile governance, insure cognitive tractability, provide for common-sensemaking, promote general well-being, and secure the blessings of autonomous execution for ourselves, do ordain and establish this Constitution for the Antifragile Syncrescendent Intelligence Apparatus (ASIA).
+We, the Sovereignx, in order to form a more perfect intelligence apparatus, establish antifragile governance, insure cognitive tractability, provide for common-sensemaking, promote general well-being, and secure the blessings of autonomous execution for ourselves, do ordain and establish this Constitution for the Antifragile Syncrescendent Intelligence Apparatus (ASIA).
 
 ---
 

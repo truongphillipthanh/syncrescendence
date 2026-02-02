@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify sync update-ledgers tree clean help pack pack-verify token token-json token-full sync-drive sync-all log log-init log-view
+.PHONY: verify sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint
 
 # Default target
 help:
@@ -12,15 +12,11 @@ help:
 	@echo "  make update-ledgers - Validate and report ledger status"
 	@echo "  make tree           - Generate current directory tree"
 	@echo "  make clean          - Remove temporary files"
-	@echo "  make pack SRC=...   - Create clean evidence pack (no macOS contamination)"
-	@echo "  make pack-verify ARCHIVE=...  - Verify archive for contamination"
 	@echo "  make token PHASE=... NEXT=...  - Generate handoff token"
 	@echo "  make sync-all                  - Generate token and copy to clipboard"
-	@echo "  make log-init DIRECTIVE=...   - Initialize execution log for directive"
-	@echo "  make log DIRECTIVE=... STATUS=...  - Update log status (COMPLETE|PARTIAL|FAILED)"
-	@echo "  make log-view                 - Show recent execution logs"
 	@echo "  make token-json               - Generate JSON format token"
 	@echo "  make token-full               - Generate both formats + archive"
+	@echo "  make sync-checkpoint           - Quick sync checkpoint (no files)"
 	@echo ""
 
 # Comprehensive verification
@@ -76,11 +72,9 @@ update-ledgers:
 	@echo "  Total rows: $$(wc -l < 04-SOURCES/DYN-SOURCES.csv)"
 	@echo "  Processed: $$(grep -c ',processed,' 04-SOURCES/DYN-SOURCES.csv || echo 0)"
 
-# Generate directory tree
+# Generate directory tree (stdout)
 tree:
-	@echo "Generating tree..."
-	@tree -L 2 -I 'node_modules|.git|__pycache__|*.pyc' > 00-ORCHESTRATION/state/DYN-ACTUAL_TREE.md
-	@echo "Tree saved to 00-ORCHESTRATION/state/DYN-ACTUAL_TREE.md"
+	@tree -L 2 -I 'node_modules|.git|__pycache__|*.pyc'
 
 # Clean temporary files
 clean:
@@ -89,28 +83,6 @@ clean:
 	@find . -name "*.bak.*" -mtime +7 -delete
 	@find . -name ".DS_Store" -delete
 	@echo "Clean complete."
-
-# Create clean evidence pack (macOS contamination-free)
-# Usage: make pack SRC=path/to/directory [NAME=output_name]
-pack:
-	@if [ -z "$(SRC)" ]; then \
-		echo "Usage: make pack SRC=<source_directory> [NAME=<output_name>]"; \
-		echo ""; \
-		echo "Examples:"; \
-		echo "  make pack SRC=-OUTGOING/20260119-drift_cleanup"; \
-		echo "  make pack SRC=-OUTGOING/20260119-drift_cleanup NAME=drift_cleanup"; \
-		exit 1; \
-	fi
-	@bash 00-ORCHESTRATION/scripts/create_evidence_pack.sh "$(SRC)" "$(NAME)"
-
-# Verify existing archive for contamination
-# Usage: make pack-verify ARCHIVE=path/to/archive.zip
-pack-verify:
-	@if [ -z "$(ARCHIVE)" ]; then \
-		echo "Usage: make pack-verify ARCHIVE=<path_to_archive.zip>"; \
-		exit 1; \
-	fi
-	@bash 00-ORCHESTRATION/scripts/create_evidence_pack.sh --verify-only "$(ARCHIVE)"
 
 # ============================================
 # HANDOFF TOKEN SYSTEM
@@ -194,46 +166,6 @@ sync-drive: token
 sync-all: token
 	@cat .constellation/tokens/active.txt | pbcopy
 	@echo "Token copied to clipboard"
-
-# Execution logging
-LOG_DIR := 00-ORCHESTRATION/execution_logs
-DIRECTIVE ?= UNNAMED
-
-log-init:
-	@mkdir -p $(LOG_DIR)
-	@TIMESTAMP=$$(date -u +"%Y-%m-%dT%H:%M:%SZ") && \
-	DIRECTIVE_FILE="$(LOG_DIR)/DIR-$$(date +%Y%m%d)-$(DIRECTIVE).md" && \
-	if [ ! -f "$$DIRECTIVE_FILE" ]; then \
-		echo "---" > "$$DIRECTIVE_FILE" && \
-		echo "directive_id: DIR-$$(date +%Y%m%d)-$(DIRECTIVE)" >> "$$DIRECTIVE_FILE" && \
-		echo "executed_by: claude-code" >> "$$DIRECTIVE_FILE" && \
-		echo "started_at: $$TIMESTAMP" >> "$$DIRECTIVE_FILE" && \
-		echo "completed_at: " >> "$$DIRECTIVE_FILE" && \
-		echo "status: IN_PROGRESS" >> "$$DIRECTIVE_FILE" && \
-		echo "commit: $$(git rev-parse --short HEAD 2>/dev/null || echo 'uncommitted')" >> "$$DIRECTIVE_FILE" && \
-		echo "---" >> "$$DIRECTIVE_FILE" && \
-		echo "" >> "$$DIRECTIVE_FILE" && \
-		echo "# Execution Log: DIR-$$(date +%Y%m%d)-$(DIRECTIVE)" >> "$$DIRECTIVE_FILE" && \
-		echo "Initialized: $$DIRECTIVE_FILE"; \
-	else \
-		echo "Log exists: $$DIRECTIVE_FILE"; \
-	fi
-
-log:
-	@TIMESTAMP=$$(date -u +"%Y-%m-%dT%H:%M:%SZ") && \
-	DIRECTIVE_FILE="$(LOG_DIR)/DIR-$$(date +%Y%m%d)-$(DIRECTIVE).md" && \
-	if [ -f "$$DIRECTIVE_FILE" ]; then \
-		sed -i '' "s/^completed_at:.*/completed_at: $$TIMESTAMP/" "$$DIRECTIVE_FILE" && \
-		sed -i '' "s/^status:.*/status: $(STATUS)/" "$$DIRECTIVE_FILE" && \
-		echo "Updated: $$DIRECTIVE_FILE -> status: $(STATUS)"; \
-	else \
-		echo "ERROR: No log found. Run 'make log-init DIRECTIVE=$(DIRECTIVE)' first"; \
-		exit 1; \
-	fi
-
-log-view:
-	@echo "=== Recent Execution Logs ===" && \
-	ls -la $(LOG_DIR)/*.md 2>/dev/null | tail -5 || echo "No logs found"
 
 # Quick sync checkpoint (no file generation, just output)
 sync-checkpoint:

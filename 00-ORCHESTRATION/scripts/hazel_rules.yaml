@@ -91,42 +91,6 @@ rules:
     enabled: true
 
   # ============================================================================
-  # ARCHIVE RULES (Execution Logs)
-  # ============================================================================
-
-  - name: "Archive Old Execution Logs"
-    folder: ~/Desktop/syncrescendence/00-ORCHESTRATION/execution_logs/
-    description: "Archive execution logs older than 30 days"
-    conditions:
-      - type: date_modified
-        operator: is_before
-        value: 30 days ago
-      - type: name_matches
-        pattern: "EXECUTION_LOG-*"
-    actions:
-      - type: move
-        destination: ~/Desktop/syncrescendence/05-MEMORY/execution-logs/
-      - type: notification
-        message: "Execution log archived"
-    enabled: true
-
-  - name: "Archive Old Directives"
-    folder: ~/Desktop/syncrescendence/00-ORCHESTRATION/directives/
-    description: "Archive completed directives older than 60 days"
-    conditions:
-      - type: date_modified
-        operator: is_before
-        value: 60 days ago
-      - type: name_matches
-        pattern: "DIRECTIVE-0[0-3]*"  # Directives 000-039
-    actions:
-      - type: move
-        destination: ~/Desktop/syncrescendence/05-MEMORY/directives/
-      - type: add_tags
-        tags: [archived, historical]
-    enabled: false  # Disabled by default - enable after review
-
-  # ============================================================================
   # CLEANUP RULES
   # ============================================================================
 
