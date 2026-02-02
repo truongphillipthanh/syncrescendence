@@ -70,5 +70,8 @@ __pycache__/
 *.pyc
 .env
 
+# SQLite databases (regenerated from scripts)
+*.db
+
 # Manifests (regenerated)
 /tmp/*.tsv
