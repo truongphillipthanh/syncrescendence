@@ -159,9 +159,9 @@
 
 ---
 
-## PROFILE STUBS (Deferred)
+## PROFILE STUBS
 
-Detailed per-model profiles (`MODEL-PROFILE-*.yaml`) deferred until PROJ-003 (Tooling Stack) tool disposition finalizes platform selection. Model registry tables above serve operational needs.
+Profile YAML stubs deleted (2026-02-01 audit). Model registry tables above serve operational needs. Detailed profiles deferred until PROJ-003 (Tooling Stack) finalizes platform selection — regenerate from this index when needed.
 
 ---
 

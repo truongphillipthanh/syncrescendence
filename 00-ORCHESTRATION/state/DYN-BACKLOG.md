@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-01 (Special Forces session: SIGMA audit, ORCHESTRATION audit, terminology sweep, ontology recon)
+**Last Updated**: 2026-02-01 (Special Forces session: SIGMA audit, ORCHESTRATION audit, 02-ENGINE audit, terminology sweep, ontology recon)
 
 ---
 
@@ -50,6 +50,7 @@
 | PROJ-CANON-LEAN | COMPLETE | — | 100% | CANON Lean-Out — 3 pairs merged (82→79 CANON files) |
 | PROJ-SIGMA-AUDIT | COMPLETE | — | 100% | 05-SIGMA Deep Audit — 43→16 files (63% reduction), 5761 lines deleted |
 | PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→110 files (23% reduction), 2.2MB PNG removed, 13 stale scripts deleted, stale paths fixed |
+| PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
 | PROJ-LIVE-CANON | IN_PROGRESS | P1 | 30% | Live CANON Ticker — design complete, implementation pending Sovereign approval |
@@ -162,6 +163,10 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (90%) ---> CLI keys (Sovereign)
 | PROJ-ACCT | 13 | A1=Claude Max+ChatGPT Plus, A2=Claude Pro+Google AI Pro, A3=Unpaid |
 | PROJ-SN-VARS | 13+ | 9 DEF blocks, sn_expand.py built and tested |
 | PROJ-CANON-LEAN | 13+ | 3 pairs merged (25000+25010, 25200+25210, 00007+00008), 82→79 CANON files |
+| PROJ-SIGMA-AUDIT | 13+ | 05-SIGMA 43→16 files (63% reduction), 5761 lines deleted |
+| PROJ-ORCH-AUDIT | 13+ | 00-ORCHESTRATION 142→110 files (23% reduction), 2.2MB PNG removed |
+| PROJ-ENGINE-AUDIT | 13+ | 02-ENGINE 114→76 files (33% reduction), 32 deleted, 6 to research |
+| PROJ-TERMINOLOGY | 13+ | Deviser→Vanguard across 15 files, Rosetta Stone v2.1.0 |
 
 ---
 

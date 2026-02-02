@@ -64,7 +64,7 @@
 
 **Status**: ADAPTED
 
-**Internal Definition**: **Fingerprint** = 8-character git commit hash as cryptographic proof of repository state. **Handoff Token** = complete transfer package: Token ID + Fingerprint + Phase State + Delta Brief. Format: `HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM`. Defined in `02-ENGINE/protocols/REF-STATE_FINGERPRINT_PROTOCOL.md`.
+**Internal Definition**: **Fingerprint** = 8-character git commit hash as cryptographic proof of repository state. **Handoff Token** = complete transfer package: Token ID + Fingerprint + Phase State + Delta Brief. Format: `HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM`. Protocol archived (design-only, never implemented).
 
 **Community Mapping**: Community uses HANDOFF.md documents and git commit hashes as checkpoints but without the formalized token+fingerprint verification system. The community's Ralph Pattern uses external state files; the "Git as Neural Bus" concept uses commits as inter-agent communication.
 

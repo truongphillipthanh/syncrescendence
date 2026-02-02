@@ -1,84 +1,41 @@
-# OPERATIONAL Index
+# 02-ENGINE
 
-## Purpose
-Executable components: functions, prompts, protocols, and model configurations. This is the "engine room" of Syncrescendence.
+Executable components: functions, prompts, protocols, model configurations, and platform identity. Flat structure with prefix conventions.
 
-## Directory Structure
+## Prefix Conventions (76 files)
 
-### /functions/
-Processing functions for content transformation and integration.
+| Prefix | Count | Purpose |
+|--------|-------|---------|
+| `FUNC-*` | 20 | Function metaprompts (XML/MD) — Three-phase workflow: Distill/Transform/Expand |
+| `REF-*` | 11 | Reference protocols (stable operational docs) |
+| `PROMPT-*` | 8 | Platform prompts — 4 canonical (v2.1) + 4 special-purpose |
+| `AVATAR-*` | 6 | Platform identity configs (Pantheon v3) |
+| `IIC-*` | 6 | Information Integration Constellation chain configs |
+| `CAP-*` | 5 | Capability ontology definitions (YAML) |
+| `DYN-*` | 5 | Dynamic operational data (CSV/JSON/YAML) |
+| `TOOL-*` | 4 | Tool definitions (YAML) |
+| `PROTO-*` | 2 | Platform onboarding protocols |
+| `QUEUE-*` | 1 | Pending CANON candidates |
+| `SURVEY-*` | 1 | Living AI ecosystem survey |
+| `WF-*` | 1 | Workflow definitions |
+| `MODEL-INDEX` | 1 | Model registry (pricing, capabilities, benchmarks) |
+| `TEMPLATE-*` | 1 | Execution log template |
+| `DEF-*` | 1 | Constellation variable definitions |
+| Other | 3 | gemini-settings.json, MCP_SETUP.md, README.md |
 
-**Available functions** (partial list):
-- `integrate.md` — Synthesize disparate materials into unified narrative
-- `listenize.md` — Transform prompts for audio delivery optimization
-- `transcribe_youtube.xml` — Clean YouTube transcripts
-- `transcribe_interview.xml` — Polish multi-speaker transcripts
-- `readize.xml` — Optimize for visual reading density
-- Additional XML functions for various transformations
+## Key Files
 
-See `FUNCTION_INDEX.md` for complete catalog.
+- `FUNC-INDEX.md` — Function capability index (agentic-first membrane)
+- `REF-ROSETTA_STONE.md` — Terminology reconciliation (living doc)
+- `REF-FLEET_COMMANDERS_HANDBOOK.md` — Non-coding Claude Code operations
+- `REF-STACK_TELEOLOGY.md` — Technology disposition tracker
+- `MODEL-INDEX.md` — Model registry with pricing and benchmarks
+- `WF-001-capture_dispatch_return.yaml` — Core workflow pattern
 
-### /prompts/
-LLM prompt templates (currently empty - to be migrated).
+## Audit Log
 
-### /protocols/
-Interaction protocols and handoff procedures.
-
-- `BLITZKRIEG_PROTOCOL.md` — Multi-lane parallel execution framework
-- `PROTOCOL-ChatGPT-Onboarding.md` — ChatGPT platform integration
-- `PROTOCOL-Gemini-Onboarding.md` — Gemini platform integration
-
-### /models/
-Model-specific configurations (currently empty - to be created).
-
-### /memory/
-Persistent memory structures (currently empty - to be created).
-
-### /avatars/
-Visual identity assets.
-
-## Root-Level Files
-
-### Information Integration Constellation (IIC) Configs
-- `IIC-Acumen-config.md` — Acumen node configuration
-- `IIC-Coherence-config.md` — Coherence node configuration
-- `IIC-Efficacy-config.md` — Efficacy node configuration
-- `IIC-Mastery-config.md` — Mastery node configuration
-- `IIC-Transcendence-config.md` — Transcendence node configuration
-- `IIC-shared-protocols.md` — Cross-node protocols
-
-### Platform Entry Points
-- `GEMINI.md` — Gemini-specific instructions and entry point
-- `MCP_SETUP.md` — Model Context Protocol setup guide
-
-### Operational References
-- `DYN-COORDINATION.yaml` — Multi-Claude zone ownership and routing
-- `REF-OPERATIONAL_ENGINE.md` — Operational engine documentation
-- `THREAD_HANDOFF_ORACLE13_SUNSET.md` — Thread transition documentation
-
-## Quick Start
-
-1. **Find a function**: Check `/functions/FUNCTION_INDEX.md`
-2. **Check protocols**: See `BLITZKRIEG_PROTOCOL.md` for parallel execution
-3. **Platform onboarding**: See `PROTOCOL-<Platform>-Onboarding.md`
-4. **Multi-Claude coordination**: See `DYN-COORDINATION.yaml`
-
-## TODO: Reorganization Pending
-
-This directory needs structural cleanup:
-1. Migrate standalone .md files to appropriate subdirectories
-2. Create /models/ structure for model-specific prompts
-3. Create /prompts/ templates for common interactions
-4. Flatten IIC configs or move to constellation/ subdirectory
-5. Consolidate protocol files
-
-See DIRECTIVE-046 and future directives for planned reorganization.
-
-## Development Status
-
-- ✅ Functions library established
-- ✅ IIC constellation configured
-- ✅ Platform protocols defined
-- 🚧 Prompts directory (to be populated)
-- 🚧 Models directory (to be created)
-- 🚧 Memory structures (to be implemented)
+| Date | Action | Files | Details |
+|------|--------|-------|---------|
+| 2026-02-01 | Deep audit | 114->76 | 32 deleted (8 stale REF-*, 8 unused FUNC-*, 8 PROMPT-UNIFIED-*, 6 MODEL-PROFILE stubs, 1 SURVEY, 1 empty dir), 6 QUEUE Modal 2 items moved to 04-SOURCES/research/, QUEUE-QUEUE double prefix fixed, FUNC-INDEX updated, stale cross-refs fixed |
+| 2026-01-26 | Phase 4 flatten | ~130->114 | 15 subdirs eliminated, prefix system applied |
+| 2026-01-22 | Initial restructure | -- | Created from wholesale restructure |

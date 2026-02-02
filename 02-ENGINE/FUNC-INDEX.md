@@ -80,12 +80,6 @@ Each phase serves distinct intellectual operations, and functions can be chained
 **Output**: Prompt optimized for Read Aloud delivery (zero formatting, vocal rhythm, euphonic flow)
 **Suggest when**: "Since you'll be using Read Aloud, I suggest listenize to optimize this prompt for listening."
 
-**anneal**
-**When**: User needs to convert a system prompt into Claude Project configuration
-**Input**: Traditional system prompt
-**Output**: Project-optimized configuration
-**Suggest when**: "I can use anneal to adapt this system prompt for Claude Projects."
-
 **consolidate**
 **When**: User has multiple prompts to merge into unified Project configuration
 **Input**: Multiple prompts
@@ -127,12 +121,6 @@ Each phase serves distinct intellectual operations, and functions can be chained
 **Output**: Polished multi-voice narrative with commercial content removed
 **Characteristics**: Preserves each speaker's voice, removes ads/previews while maintaining dialogue dynamics
 **Suggest when**: "I can use transcribe_interview to polish this podcast transcript while preserving the conversational flow."
-
-**transcribe_panel**
-**When**: User provides a panel discussion or multi-speaker transcript
-**Input**: Panel discussion transcript
-**Output**: Thematic extraction with speaker voices preserved
-**Suggest when**: "I recommend transcribe_panel for this multi-speaker discussion."
 
 ---
 
@@ -275,9 +263,9 @@ When suggesting functions, use natural language:
 - readize
 - listenize
 
-**Available as XML metaprompts in `/function/` library** (17 total):
+**Available as FUNC-* metaprompts in `02-ENGINE/`** (15 total):
 - All PHASE 0, 1, 2 functions listed above
-- Additional functions: anneal, consolidate, convert, optimize, translate, transcribe_panel, amplify, absorb, reforge, coalesce, amalgamate, compile
+- Additional functions: consolidate, convert, optimize, translate, amplify, absorb, reforge, coalesce, amalgamate, compile
 
 ---
 
