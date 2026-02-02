@@ -13,13 +13,18 @@ A decision atom is the smallest unit of durable choice. No durable change exists
 
 ## Template
 ```markdown
-Decision ID:
-Choice:
-Why (lens 1-2):
-Falsifier:
-Reversibility type:
-Touched surfaces:
-Evidence pointers:
+Decision ID: DEC-YYYYMMDD-HHMMSS[-slug]  # stable identifier
+Choice:                                   # explicit action
+Why (lens 1-2):                           # name the primary lens(es)
+Falsifier:                                # what would make this wrong
+Reversibility type: reversible | costly-reversible | irreversible
+Touched surfaces:                         # files/systems/workflows impacted
+Evidence pointers:                        # minimal links (paths/URLs)
+
+# Optional (Syncrescendence plumbing)
+DecisionAtom: DEC-YYYYMMDD-HHMMSS[-slug]  # same as Decision ID; used in TASK/PROMPT headers
+IntentionLink: INT-XXXX                   # optional link to ARCH-INTENTION_COMPASS
+Fingerprint: <git-short-hash>             # optional, if a repo state checkpoint exists
 ```
 
 ## Enforcement rules
