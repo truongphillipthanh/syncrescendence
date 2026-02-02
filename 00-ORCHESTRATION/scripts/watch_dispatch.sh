@@ -55,18 +55,20 @@ process_task() {
     echo "[Watch] ---"
 
     # Route to agent-specific CLI
+    local task_content
+    task_content="$(cat "$file")"
     case "$AGENT" in
         commander)
-            claude --print "$(cat "$file")" 2>&1
+            claude -p "$task_content" 2>&1
             ;;
         adjudicator)
-            codex "$(cat "$file")" 2>&1
+            codex "$task_content" 2>&1
             ;;
         cartographer)
-            gemini "$(cat "$file")" 2>&1
+            gemini "$task_content" 2>&1
             ;;
         psyche|ajna)
-            openclaw process "$file" 2>&1
+            openclaw agent --local -m "$task_content" 2>&1
             ;;
         *)
             echo "[Watch] No CLI handler configured for agent: $AGENT"

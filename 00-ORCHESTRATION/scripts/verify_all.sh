@@ -25,14 +25,14 @@ fi
 
 echo -n "| Root .md files: "
 ROOT_MD=$(ls *.md 2>/dev/null | wc -l | tr -d ' ')
-if [ "$ROOT_MD" -le 2 ]; then  # CLAUDE.md and README.md allowed
+if [ "$ROOT_MD" -le 3 ]; then  # AGENTS.md, CLAUDE.md, COCKPIT.md allowed
     echo "+ $ROOT_MD"
 else
     echo "! $ROOT_MD (expected <=2)"
 fi
 
 echo -n "| Directory count: "
-DIR_COUNT=$(ls -d */ 2>/dev/null | wc -l | tr -d ' ')
+DIR_COUNT=$(find . -maxdepth 1 -type d -not -name '.' -not -name '.?*' 2>/dev/null | wc -l | tr -d ' ')
 echo "$DIR_COUNT"
 echo "------------------------------------------"
 echo ""

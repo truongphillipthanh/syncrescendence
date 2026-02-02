@@ -73,39 +73,27 @@ echo "=== OPERATIONS ARTIFACT LINTER ==="
 echo "Checking: ${OPS_DIR}"
 echo ""
 
-# Check PROMPT-*.md files in prompts/
-echo "--- Checking PROMPT-*.md files ---"
-prompt_files=$(find "${OPS_DIR}/prompts" -name "PROMPT-*.md" 2>/dev/null || true)
+# Check PROMPT-*.md files (flat 02-ENGINE/)
+echo "--- Checking PROMPT-*.md files (flat 02-ENGINE/) ---"
+prompt_files=$(find "${OPS_DIR}" -maxdepth 1 -type f -name "PROMPT-*.md" 2>/dev/null || true)
 if [[ -n "$prompt_files" ]]; then
     while IFS= read -r file; do
         check_frontmatter "$file" || true
     done <<< "$prompt_files"
 else
-    log_info "No PROMPT-*.md files found in prompts/"
+    log_info "No PROMPT-*.md files found in 02-ENGINE/"
 fi
 echo ""
 
-# Check REF-*.md files in specs/
-echo "--- Checking REF-*.md files in specs/ ---"
-spec_files=$(find "${OPS_DIR}/specs" -name "REF-*.md" 2>/dev/null || true)
-if [[ -n "$spec_files" ]]; then
+# Check REF-*.md files (flat 02-ENGINE/)
+echo "--- Checking REF-*.md files (flat 02-ENGINE/) ---"
+ref_files=$(find "${OPS_DIR}" -maxdepth 1 -type f -name "REF-*.md" 2>/dev/null || true)
+if [[ -n "$ref_files" ]]; then
     while IFS= read -r file; do
         check_frontmatter "$file" || true
-    done <<< "$spec_files"
+    done <<< "$ref_files"
 else
-    log_info "No REF-*.md files found in specs/"
-fi
-echo ""
-
-# Check REF-*.md files in registries/
-echo "--- Checking REF-*.md files in registries/ ---"
-registry_files=$(find "${OPS_DIR}/registries" -name "REF-*.md" 2>/dev/null || true)
-if [[ -n "$registry_files" ]]; then
-    while IFS= read -r file; do
-        check_frontmatter "$file" || true
-    done <<< "$registry_files"
-else
-    log_info "No REF-*.md files found in registries/"
+    log_info "No REF-*.md files found in 02-ENGINE/"
 fi
 echo ""
 

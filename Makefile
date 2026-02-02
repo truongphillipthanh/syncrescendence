@@ -1,13 +1,16 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing
 
 # Default target
 help:
 	@echo "Syncrescendence Repository Commands"
 	@echo ""
-	@echo "  make verify         - Run all verification checks"
+	@echo "  make verify         - Run all verification checks (Makefile)"
+	@echo "  make verify-full    - Run comprehensive verification suite"
+	@echo "  make lint           - Lint 02-ENGINE artifacts (frontmatter)"
+	@echo "  make triage         - Show pending packets across all pipes"
 	@echo "  make sync           - Pull, rebase, push"
 	@echo "  make update-ledgers - Validate and report ledger status"
 	@echo "  make tree           - Generate current directory tree"
@@ -90,6 +93,18 @@ clean:
 	@find . -name "*.bak.*" -mtime +7 -delete
 	@find . -name ".DS_Store" -delete
 	@echo "Clean complete."
+
+# Comprehensive verification (scripts)
+verify-full:
+	@bash 00-ORCHESTRATION/scripts/verify_all.sh
+
+# Lint operational artifacts
+lint:
+	@bash 00-ORCHESTRATION/scripts/ops_lint.sh
+
+# Triage pending packets
+triage:
+	@bash 00-ORCHESTRATION/scripts/triage_outgoing.sh
 
 # ============================================
 # HANDOFF TOKEN SYSTEM
