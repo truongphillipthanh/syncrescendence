@@ -101,6 +101,27 @@ If these become DEF blocks, updating a chain name or avatar mapping propagates g
 
 ---
 
+## Corpus Coherence Baseline (2026-01-30)
+
+From Obsidian graph analysis (566 files, 1,333 wikilinks):
+
+| Metric | Score | Target |
+|--------|-------|--------|
+| Overall corpus coherence | **62/100** | >75 |
+| CANON internal coherence | **77/100** | >85 |
+| Cross-directory bridge score | **45/100** | >70 |
+| SN coverage | 100% | 100% |
+| Broken link rate | 6.2% (70 links) | 0% |
+| CANON root wikilink participation | **0%** | >80% |
+
+**Critical finding**: All 82 CANON root files contain zero `[[...]]` wikilinks. They reference via bare text only. This makes root CANON invisible to Obsidian's graph view and backlink panels.
+
+**Highest-impact fix**: Convert bare `CANON-XXXXX` references in root files to `[[CANON-XXXXX-FULL_NAME-tier]]` wikilinks. Single action would dramatically improve graph connectivity.
+
+**Secondary fixes**: Normalize 62 shortened wikilinks in SN files. Add CANON bridge links to 05-SIGMA files (currently zero cross-links).
+
+---
+
 ## Cross-References
 
 - Full OTA analysis: `00-ORCHESTRATION/archive/ARCH-CANON_OTA_ANALYSIS.md`

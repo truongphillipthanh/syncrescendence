@@ -21,12 +21,12 @@ Processing function selection depends on:
 | Platform | Format | Function | Processor |
 |----------|--------|----------|-----------|
 | youtube | interview | transcribe_interview | Gemini |
-| youtube | panel | transcribe_panel | Gemini |
+| youtube | panel | transcribe_interview | Gemini |
 | youtube | solo_presentation | transcribe_youtube | Gemini |
 | youtube | tutorial | transcribe_youtube | Gemini |
 | youtube | lecture | transcribe_youtube | Gemini |
 | podcast | interview | transcribe_interview | Gemini |
-| podcast | panel | transcribe_panel | Gemini |
+| podcast | panel | transcribe_interview | Gemini |
 | podcast | solo | transcribe_youtube | Gemini |
 | substack | article | readize | Claude |
 | substack | essay | readize | Claude |
@@ -83,27 +83,22 @@ Processing function selection depends on:
 ### transcribe_youtube
 **Input**: YouTube video URL or transcript
 **Output**: Clean essay with ads/previews removed
-**Location**: `OPERATIONAL/functions/transcribe_youtube.xml`
+**Location**: `02-ENGINE/FUNC-transcribe_youtube.xml`
 
 ### transcribe_interview
 **Input**: Interview transcript
 **Output**: Multi-voice narrative, commercials removed
-**Location**: `OPERATIONAL/functions/transcribe_interview.xml`
-
-### transcribe_panel
-**Input**: Panel discussion transcript
-**Output**: Thematic extraction with speaker attribution
-**Location**: `OPERATIONAL/functions/transcribe_panel.xml`
+**Location**: `02-ENGINE/FUNC-transcribe_interview.xml`
 
 ### readize
 **Input**: Any text
 **Output**: Read-optimized crystalline prose
-**Location**: `OPERATIONAL/functions/readize.xml`
+**Location**: `02-ENGINE/FUNC-readize.xml`
 
 ### integrate
 **Input**: Multiple sources
 **Output**: Unified synthesis
-**Location**: `OPERATIONAL/functions/integrate.xml`
+**Location**: `02-ENGINE/FUNC-integrate.xml`
 
 ---
 
@@ -172,5 +167,5 @@ Processing function selection depends on:
 - **Sources Schema**: See `SOURCES_SCHEMA.md` for dimension definitions
 - **Triage Protocol**: See `TRIAGE_PROTOCOL.md` for qualification procedures
 - **Four Systems**: See `FOUR_SYSTEMS.md` for operational modes
-- **Function Files**: See `OPERATIONAL/functions/` for implementations
-- **ORACLE9 Context**: See `ORACLE9_CONTEXT_v2.md` for architectural decisions
+- **Function Files**: See `02-ENGINE/FUNC-` for implementations
+- **Backlog**: See `DYN-BACKLOG.md` for project status

@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-01 (Special Forces session: SIGMA audit, ORCHESTRATION audit, 02-ENGINE audit, terminology sweep, ontology recon)
+**Last Updated**: 2026-02-01 (Special Forces session: SIGMA audit, ORCHESTRATION deep audit, 02-ENGINE audit, terminology sweep, state/archive anneal)
 
 ---
 
@@ -41,7 +41,7 @@
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
 | PROJ-016 | NOT_STARTED | P3 | 0% | Skills Conversion (top 5 XML functions) |
-| PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→670 files post-audit) |
+| PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→550 files across all audits) |
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |
 | PROJ-ACCT | COMPLETE | — | 100% | Account Restructure — A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid |
@@ -49,7 +49,7 @@
 | PROJ-TERMINOLOGY | COMPLETE | — | 100% | Terminology Sweep — Deviser→Vanguard across 15 files, Rosetta Stone #95 updated, Special Forces mode added (#168) |
 | PROJ-CANON-LEAN | COMPLETE | — | 100% | CANON Lean-Out — 3 pairs merged (82→79 CANON files) |
 | PROJ-SIGMA-AUDIT | COMPLETE | — | 100% | 05-SIGMA Deep Audit — 43→16 files (63% reduction), 5761 lines deleted |
-| PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→110 files (23% reduction), 2.2MB PNG removed, 13 stale scripts deleted, stale paths fixed |
+| PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→30 files (79% reduction). state/: 24→21 (2 superseded deleted, stale paths fixed in 5 pipeline files). archive/: 53→9 (83% reduction — 31 dead weight deleted, 14 compacted into 3 files, 8 kept). Coherence metrics appended to lean-out recommendations. |
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
@@ -164,10 +164,10 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (90%) ---> CLI keys (Sovereign)
 | PROJ-SN-VARS | 13+ | 9 DEF blocks, sn_expand.py built and tested |
 | PROJ-CANON-LEAN | 13+ | 3 pairs merged (25000+25010, 25200+25210, 00007+00008), 82→79 CANON files |
 | PROJ-SIGMA-AUDIT | 13+ | 05-SIGMA 43→16 files (63% reduction), 5761 lines deleted |
-| PROJ-ORCH-AUDIT | 13+ | 00-ORCHESTRATION 142→110 files (23% reduction), 2.2MB PNG removed |
+| PROJ-ORCH-AUDIT | 13+ | 00-ORCHESTRATION 142→30 files (79% reduction). state/ 24→21, archive/ 53→9 (83% compaction). Oracle genealogy + design decisions compacted |
 | PROJ-ENGINE-AUDIT | 13+ | 02-ENGINE 114→76 files (33% reduction), 32 deleted, 6 to research |
 | PROJ-TERMINOLOGY | 13+ | Deviser→Vanguard across 15 files, Rosetta Stone v2.1.0 |
 
 ---
 
-*Backlog refreshed 2026-02-01 (session 3). Rosetta Stone v2.1.0 (13 Sovereign clarifications applied). Dispatch architecture enhanced with agent research patterns. Systematic triage: 10 files archived from state/scripts (stale metrics, IMEP artifacts, old Blitzkrieg scripts), Blitzkrieg v1/v2 supersession noted, Wells/Rivers→ephemeral/durable updated. 02-ENGINE triage: QUEUE_DISPOSITION archived, IIC-ACUMEN duplicate flagged for PROJ-002 merge, "Deviser"→"Vanguard" sweep queued. Neo-Blitzkrieg pipeline fully specified in Rosetta Stone entry #14. 4 commits this session.*
+*Backlog refreshed 2026-02-01 (session 4). State/archive anneal: state/ 24→21 files (2 superseded deleted, 5 stale-path fixes), archive/ 53→9 files (31 deleted, 14 compacted into ARCH-ORACLE_GENEALOGY + ARCH-DESIGN_DECISIONS_GENESIS + coherence metrics appendix, 8 kept). Total ORCHESTRATION: 142→30 files (79% reduction). Repo total: ~550 files.*

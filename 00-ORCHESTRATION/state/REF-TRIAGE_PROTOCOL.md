@@ -225,4 +225,4 @@ See `FOUR_SYSTEMS.md` for full operational mode documentation.
 - **Sources Schema**: See `SOURCES_SCHEMA.md` for dimension definitions
 - **Processing Routing**: See `PROCESSING_ROUTING.md` for function selection
 - **Four Systems**: See `FOUR_SYSTEMS.md` for operational modes
-- **ORACLE9 Context**: See `ORACLE9_CONTEXT_v2.md` for architectural decisions
+- **Backlog**: See `DYN-BACKLOG.md` for project status

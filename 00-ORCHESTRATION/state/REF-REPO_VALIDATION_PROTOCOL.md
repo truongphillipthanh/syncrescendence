@@ -24,27 +24,25 @@ Standardized procedure for validating repository health, structural compliance, 
 
 ### 1. Structural Verification
 
-**Command**: `bash 00-ORCHESTRATION/scripts/structural_verify.sh`
+**Command**: `bash 00-ORCHESTRATION/scripts/verify_all.sh`
 
 **Checks**:
-- `-INBOX/` and `-OUTGOING/` exist (not `OUTGOING/` or `outgoing/`)
-- Root contains only zones 00-06 plus sanctioned exceptions
+- `-INBOX/`, `-OUTGOING/`, `-SOVEREIGN/` exist
+- Root contains only zones 00, 01, 02, 04, 05 plus sanctioned exceptions
 - No orphan files at root
 - COCKPIT.md paths resolve
-- No stale legacy path references
-- Blitzkrieg infrastructure present
-- Packet schema complete
+- Ledger integrity (DYN-TASKS.csv, DYN-PROJECTS.csv, DYN-SOURCES.csv)
+- CANON file count and integration status
 
 **Pass Criteria**: 0 errors (warnings acceptable)
 
 ### 2. Operations Lint
 
-**Command**: `bash 02-ENGINE/scripts/ops_lint.sh`
+**Command**: `bash 00-ORCHESTRATION/scripts/ops_lint.sh`
 
 **Checks**:
-- All `PROMPT-*.md` files have YAML frontmatter
-- All `REF-*.md` files have YAML frontmatter
-- Required keys present: `id`, `kind`, `scope`, `target`
+- Prefix naming conventions enforced across 02-ENGINE/
+- Cross-reference validation (no broken internal links)
 
 **Pass Criteria**: 0 errors
 
@@ -118,6 +116,6 @@ This protocol is codified as:
 
 ## See Also
 
-- `structural_verify.sh` - Core structural checks
-- `ops_lint.sh` - Frontmatter linter
-- `REF-OPERATIONS_ARTIFACT_TAXONOMY.md` - Naming and frontmatter requirements
+- `00-ORCHESTRATION/scripts/verify_all.sh` — Core structural + ledger checks
+- `00-ORCHESTRATION/scripts/ops_lint.sh` — Operations linter
+- `02-ENGINE/README.md` — Prefix conventions and file counts

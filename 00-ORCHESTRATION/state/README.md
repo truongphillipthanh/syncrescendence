@@ -2,44 +2,47 @@
 
 ## Structure (FLAT)
 
-All files are at root level. Prefix conventions indicate category:
+All files at root level. Prefix conventions indicate category:
 
 | Prefix | Category | Purpose | Mutability |
 |--------|----------|---------|------------|
 | `DYN-` | Dynamic | Real-time operational state | High (updates frequently) |
-| `ARCH-` | Archaeology | Historical decisions and characteristics | Frozen (append-only) |
+| `ARCH-` | Archaeology | Historical decisions, living frameworks | Append-only |
 | `REF-` | Reference | Stable protocols and schemas | Low (deliberate updates only) |
-| *(none)* | Ledgers | CSV mechanical tracking | Medium (task/sprint updates) |
 
-## Files
+## Files (21)
 
 ### Dynamic State (DYN-)
-- `DYN-ACTUAL_TREE.md` — Current repository tree structure
-- `DYN-BACKLOG.md` — Pending work items
-- `DYN-DASHBOARD.md` — Operational status dashboard
+- `DYN-BACKLOG.md` — Operational backlog and project status
+- `DYN-PROJECTS.csv` — Project registry
+- `DYN-TASKS.csv` — Task tracking
+- `DYN-SYSTEM_STATE.json` — System state snapshot
+- `DYN-TWIN_COORDINATION_PROTOCOL.md` — Twin machine coordination
 
 ### Archaeological Records (ARCH-)
-- `ARCH-CRYSTALLINE_CHARACTERISTICS.md` — System identity characteristics
-- `ARCH-DESIGN_DECISIONS.md` — Documented design decisions
-- `ARCH-ORACLE_ARC_SUMMARY.md` — Oracle history summary
-- `ARCH-ORACLE_DECISIONS.md` — Key decisions per Oracle
+- `ARCH-INTENTION_COMPASS.md` — Sovereign intention archaeology (INT-MI entries)
+- `ARCH-LIVE_CANON_TICKER.md` — Dynamic model/capability tracking design
+- `ARCH-SOVEREIGNTY_STRATA.md` — Sovereignty strata framework
 
-### Reference Documents (REF-)
-- `REF-FOUR_SYSTEMS.md` — Four systems framework
-- `REF-PROCESSING_PATTERN.md` — Source processing patterns
-- `REF-PROCESSING_ROUTING.md` — Content routing decisions
-- `REF-QUEUE_ROADMAP_MAPPING.md` — Queue to roadmap mapping
-- `REF-SOURCES_SCHEMA.md` — Sources metadata schema
-- `REF-STANDARDS.md` — Quality standards
-- `REF-TRIAGE_PROTOCOL.md` — Triage decision protocol
+### Reference Documents (REF-) — Processing Pipeline
+- `REF-PROCESSING_PATTERN.md` — Master source-to-synthesis workflow
+- `REF-PROCESSING_ROUTING.md` — Function routing by platform/format
+- `REF-TRIAGE_PROTOCOL.md` — Source qualification funnel
+- `REF-SOURCES_SCHEMA.md` — Eight-dimensional source classification
+- `REF-FOUR_SYSTEMS.md` — Four operational modes (Auto-Push, Curation, On-Demand, Triage)
 
-### Ledgers (CSV)
-- `burndown.csv` — Sprint burndown tracking
-- `projects.csv` — Project registry
-- `sprints.csv` — Sprint definitions
-- `tasks.csv` — Task tracking
+### Reference Documents (REF-) — Standards and Governance
+- `REF-STANDARDS.md` — 18 Evaluative Lenses (constitutional)
+- `REF-DECISION_ATOMS.md` — Decision atom schema
+- `REF-LENS_GOVERNANCE.md` — Lens application governance
 
-## Note
+### Reference Documents (REF-) — Operations
+- `REF-NEO_BLITZKRIEG_BUILDOUT.md` — Active buildout protocol
+- `REF-MULTI_ACCOUNT_SYNC.md` — PROJ-014 IIC synchronization
+- `REF-REPO_VALIDATION_PROTOCOL.md` — Repository validation checks
+- `REF-ONTOLOGY_REGISTRY.md` — PROJ-006 ontology proposal
 
-Oracle contexts are in `00-ORCHESTRATION/oracle_contexts/` as peer directory.
-Directives and execution logs are also peer directories at 00-ORCHESTRATION/ level.
+## Sibling Directories
+
+- `00-ORCHESTRATION/archive/` — 9 files (compacted wisdom, deep references)
+- `00-ORCHESTRATION/scripts/` — Operational scripts and automation
