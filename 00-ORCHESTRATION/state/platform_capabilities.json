@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "last_regenerated": null,
+    "data_source": "platform_capabilities.json",
+    "data_version": "2.0.0"
+  },
+  "platforms": [
+    {
+      "name": "Claude Code",
+      "tier": "Max 5x",
+      "monthly_cost": 100,
+      "role": "Commander",
+      "status": "Active",
+      "utilization": 80,
+      "cost_per_hour": "3.33"
+    },
+    {
+      "name": "Claude Web",
+      "tier": "Pro",
+      "monthly_cost": 20,
+      "role": "Vizier",
+      "status": "Active",
+      "utilization": 30,
+      "cost_per_hour": "0.67"
+    },
+    {
+      "name": "ChatGPT",
+      "tier": "Plus",
+      "monthly_cost": 20,
+      "role": "Vanguard",
+      "status": "Active",
+      "utilization": 25,
+      "cost_per_hour": "0.67"
+    },
+    {
+      "name": "Google AI",
+      "tier": "AI Pro",
+      "monthly_cost": 20,
+      "role": "Cartographer/Diviner",
+      "status": "Active",
+      "utilization": 20,
+      "cost_per_hour": "0.67"
+    }
+  ],
+  "total_monthly_cost": 160,
+  "oracle_platform": "Grok",
+  "vanguard_platform": "ChatGPT",
+  "commander_platform": "Claude",
+  "claude": {
+    "account": "truongphillipthanh@icloud.com (A1, Max) + icloud.truongphillipthanh@gmail.com (A2, Pro)",
+    "models": ["Claude 4.5 Opus", "Claude 4.5 Sonnet", "Claude 4.5 Haiku"],
+    "capabilities": [
+      {"name": "Filesystem Access", "status": "Active", "notes": "Full repository sovereignty"},
+      {"name": "Code Generation", "status": "Active", "notes": "Opus 4.5 / Sonnet 4.5 / Haiku 4.5"},
+      {"name": "MCP Integration", "status": "Active", "notes": "External tool access"},
+      {"name": "Plan Mode", "status": "Active", "notes": "Separates planning from execution"},
+      {"name": "Context Management", "status": "Active", "notes": "~200K tokens, 1M beta, auto-compact"},
+      {"name": "Extended Thinking", "status": "Active", "notes": "Auto-enabled at 31,999 tokens"},
+      {"name": "Hooks System", "status": "Active", "notes": "Stop, PreCompact, UserPromptSubmit"},
+      {"name": "Skills", "status": "Active", "notes": "7 operational skills"}
+    ],
+    "routing_strengths": [
+      "Execution (filesystem operations)",
+      "Code generation (writing functions)",
+      "File manipulation (read/edit/write)",
+      "Verification (command-based proof)",
+      "Repository operations (git, ledger updates)",
+      "Multi-agent dispatch (hook-based automation)"
+    ],
+    "routing_weaknesses": [
+      "Corpus-scale RAG (context limit ~200K)",
+      "Video processing (no native multimodal)",
+      "Long-horizon planning (better as executor than planner)"
+    ],
+    "cost_structure": "A1: $100/month (Max 5x) + A2: $20/month (Pro) = $120/month"
+  },
+  "gemini": {
+    "account": "icloud.truongphillipthanh@gmail.com (A2, Google AI Pro)",
+    "models": ["Gemini 3 Pro", "Gemini 3 Flash", "Gemini 3 Deep Think"],
+    "capabilities": [
+      {"name": "1M Context Window", "status": "Active", "notes": "Full corpus sensing"},
+      {"name": "Drive Connector", "status": "Active", "notes": "Repository visibility via Gems"},
+      {"name": "NotebookLM", "status": "Active", "notes": "Grounded RAG, zero hallucination"},
+      {"name": "Video Processing", "status": "Active", "notes": "Native multimodal ingestion"},
+      {"name": "Audio Processing", "status": "Active", "notes": "Speaker diarization"},
+      {"name": "Gems", "status": "Active", "notes": "Custom instruction profiles"},
+      {"name": "CLI Access", "status": "Installed", "notes": "API key pending (Sovereign)"}
+    ],
+    "routing_strengths": [
+      "Corpus-scale sensing (1M context)",
+      "Video transcription (native multimodal)",
+      "Large context queries (entire repo + conversations)",
+      "Grounded RAG (NotebookLM)",
+      "Multimodal clarification (text, image, audio, video)"
+    ],
+    "routing_weaknesses": [
+      "Filesystem access (read-only, no execution)",
+      "Code execution (not designed for)",
+      "Planning (sensing role, not planning)"
+    ],
+    "cost_structure": "$20/month (Google AI Pro)"
+  },
+  "chatgpt": {
+    "account": "truongphillipthanh@icloud.com (A1, Plus)",
+    "models": ["GPT-5.2 Instant", "GPT-5.2 Thinking"],
+    "capabilities": [
+      {"name": "GPT-5.2 Thinking", "status": "Active", "notes": "~3K messages/week"},
+      {"name": "Deep Research", "status": "Active", "notes": "Comprehensive investigation"},
+      {"name": "Canvas", "status": "Active", "notes": "Collaborative editing"},
+      {"name": "Codex CLI", "status": "Installed", "notes": "API key pending (Sovereign)"},
+      {"name": "Connectors", "status": "Available", "notes": "Drive, GitHub (if enabled)"},
+      {"name": "Projects", "status": "Active", "notes": "Context isolation, project-only memory"}
+    ],
+    "routing_strengths": [
+      "Long-horizon planning (GPT-5.2 Thinking)",
+      "Specification (clear acceptance criteria)",
+      "Audit (verification against plan)",
+      "Abstract reasoning (architectural decisions)",
+      "Multi-step decomposition",
+      "Creative expansion and ideation"
+    ],
+    "routing_weaknesses": [
+      "Corpus-scale sensing (128K context limit)",
+      "Video processing (no native multimodal)",
+      "Code execution (not designed for)"
+    ],
+    "cost_structure": "$20/month (Plus)"
+  },
+  "routing_table": [
+    {"task_type": "Corpus Sensing", "primary": "Gemini", "rationale": "1M context window", "fallback": "Claude (limited context)"},
+    {"task_type": "Video Processing", "primary": "Gemini", "rationale": "Native multimodal", "fallback": "Manual transcription"},
+    {"task_type": "Planning", "primary": "ChatGPT", "rationale": "GPT-5.2 Thinking", "fallback": "Claude Plan Mode"},
+    {"task_type": "Audit", "primary": "ChatGPT", "rationale": "Spec verification", "fallback": "Claude verification"},
+    {"task_type": "Execution", "primary": "Claude", "rationale": "Filesystem sovereignty", "fallback": "Codex CLI"},
+    {"task_type": "Code Generation", "primary": "Claude", "rationale": "Opus 4.5 / Sonnet 4.5", "fallback": "ChatGPT"},
+    {"task_type": "Grounded RAG", "primary": "Gemini", "rationale": "NotebookLM integration", "fallback": "Claude with citations"},
+    {"task_type": "Long-Horizon Decomposition", "primary": "ChatGPT", "rationale": "GPT-5.2 Thinking", "fallback": "Claude ultrathink"},
+    {"task_type": "Real-time Discourse", "primary": "Grok", "rationale": "X/Twitter integration", "fallback": "Perplexity"},
+    {"task_type": "External Verification", "primary": "Perplexity", "rationale": "Citation-backed search", "fallback": "Gemini"}
+  ],
+  "metrics": {
+    "autonomous_cycles": 2,
+    "relay_reduction": 0,
+    "sources_processed": 43,
+    "canon_integrations": 11,
+    "cost_per_cycle": "$80"
+  },
+  "regeneration_log": [
+    {
+      "date": "2026-01-15",
+      "change_description": "Initial capability catalog creation"
+    },
+    {
+      "date": "2026-02-02",
+      "change_description": "v2.0: Trinity→Constellation, Deviser→Vanguard, Executor→Commander, Oracle→Grok, updated economics to $160/mo"
+    }
+  ]
+}

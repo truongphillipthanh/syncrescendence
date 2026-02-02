@@ -21,7 +21,7 @@
 **Chain**: INFORMATION (31000)
 **Parent**: ACUMEN (31100)
 **Status**: CRYSTALLINE
-**Last Regenerated**: 2026-02-02T07:38:43.008109Z
+**Last Regenerated**: {{ metadata.last_regenerated }}
 **Data Source**: platform_capabilities.json
 
 ---
@@ -45,22 +45,16 @@ This demonstrates the **metabolic pattern**: temporal data lives externally, eve
 
 | Platform | Tier | Monthly Cost | Primary Role | Status |
 |----------|------|--------------|--------------|--------|
+{% for p in platforms %}
+| {{ p.name }} | {{ p.tier }} | ${{ p.monthly_cost }} | {{ p.role }} | {{ p.status }} |
+{% endfor %}
 
-| Claude Code | Max 5x | $100 | Commander | Active |
-
-| Claude Web | Pro | $20 | Vizier | Active |
-
-| ChatGPT | Plus | $20 | Vanguard | Active |
-
-| Google AI | AI Pro | $20 | Cartographer/Diviner | Active |
-
-
-**Total Monthly Investment**: $160
+**Total Monthly Investment**: ${{ total_monthly_cost }}
 
 ### Constellation Architecture
 
 ```
-CONSTELLATION ARCHITECTURE (10 Avatars, 3 Accounts, $160/mo)
+CONSTELLATION ARCHITECTURE (10 Avatars, 3 Accounts, ${{ total_monthly_cost }}/mo)
 
 SENSING                    PLANNING                   EXECUTION
 (What is happening?)       (What should happen?)       (Make it happen.)
@@ -91,155 +85,79 @@ SUPPLEMENTARY ROLES:
 
 ### Claude (Commander)
 
-**Account**: truongphillipthanh@icloud.com (A1, Max) + icloud.truongphillipthanh@gmail.com (A2, Pro)
-**Primary Models**: Claude 4.5 Opus, Claude 4.5 Sonnet, Claude 4.5 Haiku
+**Account**: {{ claude.account }}
+**Primary Models**: {{ claude.models | join(', ') }}
 
 | Capability | Status | Notes |
 |------------|--------|-------|
-
-| Filesystem Access | Active | Full repository sovereignty |
-
-| Code Generation | Active | Opus 4.5 / Sonnet 4.5 / Haiku 4.5 |
-
-| MCP Integration | Active | External tool access |
-
-| Plan Mode | Active | Separates planning from execution |
-
-| Context Management | Active | ~200K tokens, 1M beta, auto-compact |
-
-| Extended Thinking | Active | Auto-enabled at 31,999 tokens |
-
-| Hooks System | Active | Stop, PreCompact, UserPromptSubmit |
-
-| Skills | Active | 7 operational skills |
-
+{% for cap in claude.capabilities %}
+| {{ cap.name }} | {{ cap.status }} | {{ cap.notes }} |
+{% endfor %}
 
 **Routing Strengths**:
-
-- Execution (filesystem operations)
-
-- Code generation (writing functions)
-
-- File manipulation (read/edit/write)
-
-- Verification (command-based proof)
-
-- Repository operations (git, ledger updates)
-
-- Multi-agent dispatch (hook-based automation)
-
+{% for s in claude.routing_strengths %}
+- {{ s }}
+{% endfor %}
 
 **Routing Weaknesses**:
-
-- Corpus-scale RAG (context limit ~200K)
-
-- Video processing (no native multimodal)
-
-- Long-horizon planning (better as executor than planner)
-
+{% for w in claude.routing_weaknesses %}
+- {{ w }}
+{% endfor %}
 
 **Cost Structure**:
-- A1: $100/month (Max 5x) + A2: $20/month (Pro) = $120/month
+- {{ claude.cost_structure }}
 
 ---
 
 ### Gemini (Cartographer + Diviner)
 
-**Account**: icloud.truongphillipthanh@gmail.com (A2, Google AI Pro)
-**Primary Models**: Gemini 3 Pro, Gemini 3 Flash, Gemini 3 Deep Think
+**Account**: {{ gemini.account }}
+**Primary Models**: {{ gemini.models | join(', ') }}
 
 | Capability | Status | Notes |
 |------------|--------|-------|
-
-| 1M Context Window | Active | Full corpus sensing |
-
-| Drive Connector | Active | Repository visibility via Gems |
-
-| NotebookLM | Active | Grounded RAG, zero hallucination |
-
-| Video Processing | Active | Native multimodal ingestion |
-
-| Audio Processing | Active | Speaker diarization |
-
-| Gems | Active | Custom instruction profiles |
-
-| CLI Access | Installed | API key pending (Sovereign) |
-
+{% for cap in gemini.capabilities %}
+| {{ cap.name }} | {{ cap.status }} | {{ cap.notes }} |
+{% endfor %}
 
 **Routing Strengths**:
-
-- Corpus-scale sensing (1M context)
-
-- Video transcription (native multimodal)
-
-- Large context queries (entire repo + conversations)
-
-- Grounded RAG (NotebookLM)
-
-- Multimodal clarification (text, image, audio, video)
-
+{% for s in gemini.routing_strengths %}
+- {{ s }}
+{% endfor %}
 
 **Routing Weaknesses**:
-
-- Filesystem access (read-only, no execution)
-
-- Code execution (not designed for)
-
-- Planning (sensing role, not planning)
-
+{% for w in gemini.routing_weaknesses %}
+- {{ w }}
+{% endfor %}
 
 **Cost Structure**:
-- $20/month (Google AI Pro)
+- {{ gemini.cost_structure }}
 
 ---
 
 ### ChatGPT (Vanguard)
 
-**Account**: truongphillipthanh@icloud.com (A1, Plus)
-**Primary Models**: GPT-5.2 Instant, GPT-5.2 Thinking
+**Account**: {{ chatgpt.account }}
+**Primary Models**: {{ chatgpt.models | join(', ') }}
 
 | Capability | Status | Notes |
 |------------|--------|-------|
-
-| GPT-5.2 Thinking | Active | ~3K messages/week |
-
-| Deep Research | Active | Comprehensive investigation |
-
-| Canvas | Active | Collaborative editing |
-
-| Codex CLI | Installed | API key pending (Sovereign) |
-
-| Connectors | Available | Drive, GitHub (if enabled) |
-
-| Projects | Active | Context isolation, project-only memory |
-
+{% for cap in chatgpt.capabilities %}
+| {{ cap.name }} | {{ cap.status }} | {{ cap.notes }} |
+{% endfor %}
 
 **Routing Strengths**:
-
-- Long-horizon planning (GPT-5.2 Thinking)
-
-- Specification (clear acceptance criteria)
-
-- Audit (verification against plan)
-
-- Abstract reasoning (architectural decisions)
-
-- Multi-step decomposition
-
-- Creative expansion and ideation
-
+{% for s in chatgpt.routing_strengths %}
+- {{ s }}
+{% endfor %}
 
 **Routing Weaknesses**:
-
-- Corpus-scale sensing (128K context limit)
-
-- Video processing (no native multimodal)
-
-- Code execution (not designed for)
-
+{% for w in chatgpt.routing_weaknesses %}
+- {{ w }}
+{% endfor %}
 
 **Cost Structure**:
-- $20/month (Plus)
+- {{ chatgpt.cost_structure }}
 
 ---
 
@@ -249,27 +167,9 @@ This table guides which platform receives which task type.
 
 | Task Type | Primary Platform | Rationale | Fallback |
 |-----------|------------------|-----------|----------|
-
-| Corpus Sensing | Gemini | 1M context window | Claude (limited context) |
-
-| Video Processing | Gemini | Native multimodal | Manual transcription |
-
-| Planning | ChatGPT | GPT-5.2 Thinking | Claude Plan Mode |
-
-| Audit | ChatGPT | Spec verification | Claude verification |
-
-| Execution | Claude | Filesystem sovereignty | Codex CLI |
-
-| Code Generation | Claude | Opus 4.5 / Sonnet 4.5 | ChatGPT |
-
-| Grounded RAG | Gemini | NotebookLM integration | Claude with citations |
-
-| Long-Horizon Decomposition | ChatGPT | GPT-5.2 Thinking | Claude ultrathink |
-
-| Real-time Discourse | Grok | X/Twitter integration | Perplexity |
-
-| External Verification | Perplexity | Citation-backed search | Gemini |
-
+{% for r in routing_table %}
+| {{ r.task_type }} | {{ r.primary }} | {{ r.rationale }} | {{ r.fallback }} |
+{% endfor %}
 
 ### Routing Protocol
 
@@ -376,17 +276,11 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 
 | Platform | Tier | Cost | Utilization | Cost/Hour Estimate |
 |----------|------|------|-------------|-------------------|
+{% for p in platforms %}
+| {{ p.name }} | {{ p.tier }} | ${{ p.monthly_cost }} | {{ p.utilization }}% | ${{ p.cost_per_hour }} |
+{% endfor %}
 
-| Claude Code | Max 5x | $100 | 80% | $3.33 |
-
-| Claude Web | Pro | $20 | 30% | $0.67 |
-
-| ChatGPT | Plus | $20 | 25% | $0.67 |
-
-| Google AI | AI Pro | $20 | 20% | $0.67 |
-
-
-**Total**: $160/month
+**Total**: ${{ total_monthly_cost }}/month
 
 ### Optimization Strategies
 
@@ -398,24 +292,22 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 ### ROI Assessment
 
 **Metrics**:
-- Autonomous cycles: 2
-- Relay reduction: 0%
-- Sources processed: 43
-- CANON integrations: 11
+- Autonomous cycles: {{ metrics.autonomous_cycles }}
+- Relay reduction: {{ metrics.relay_reduction }}%
+- Sources processed: {{ metrics.sources_processed }}
+- CANON integrations: {{ metrics.canon_integrations }}
 
 ---
 
 ## VII. VERSION HISTORY
 
-**Last Regenerated**: 2026-02-02T07:38:43.008109Z
-**Data Version**: 2.0.0
+**Last Regenerated**: {{ metadata.last_regenerated }}
+**Data Version**: {{ metadata.data_version }}
 
 ### Regeneration Log
-
-- 2026-01-15: Initial capability catalog creation
-
-- 2026-02-02: v2.0: Trinity→Constellation, Deviser→Vanguard, Executor→Commander, Oracle→Grok, updated economics to $160/mo
-
+{% for entry in regeneration_log %}
+- {{ entry.date }}: {{ entry.change_description }}
+{% endfor %}
 
 ---
 
@@ -447,7 +339,7 @@ git commit -m "feat(canon): regenerate 31150 with updated platform data"
 AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
 Template: 00-ORCHESTRATION/templates/CANON-31150.md.j2
 Data: 00-ORCHESTRATION/state/platform_capabilities.json
-Generated: 2026-02-02T07:38:43.008109Z
+Generated: {{ metadata.last_regenerated }}
 -->
 
 ---

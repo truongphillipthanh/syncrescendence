@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint
+.PHONY: verify sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing
 
 # Default target
 help:
@@ -17,6 +17,13 @@ help:
 	@echo "  make token-json               - Generate JSON format token"
 	@echo "  make token-full               - Generate both formats + archive"
 	@echo "  make sync-checkpoint           - Quick sync checkpoint (no files)"
+	@echo ""
+	@echo "Intelligence:"
+	@echo "  make regenerate-canon          - Regenerate all CANON templates from data"
+	@echo "  make model-db                  - Initialize model intelligence database"
+	@echo "  make model-cost                - Show constellation cost analysis"
+	@echo "  make model-routing             - Show task routing matrix"
+	@echo "  make model-query SQL=\"...\"     - Run custom SQL against model DB"
 	@echo ""
 
 # Comprehensive verification
@@ -166,6 +173,31 @@ sync-drive: token
 sync-all: token
 	@cat .constellation/tokens/active.txt | pbcopy
 	@echo "Token copied to clipboard"
+
+# ============================================
+# INTELLIGENCE SYSTEM
+# ============================================
+
+# Regenerate CANON files from templates + data
+regenerate-canon:
+	@python3 00-ORCHESTRATION/scripts/regenerate_canon.py --all
+
+# Initialize model intelligence database
+model-db:
+	@python3 00-ORCHESTRATION/scripts/model_db.py init
+
+# Cost analysis
+model-cost:
+	@python3 00-ORCHESTRATION/scripts/model_db.py cost
+
+# Task routing matrix
+model-routing:
+	@python3 00-ORCHESTRATION/scripts/model_db.py routing
+
+# Custom SQL query (usage: make model-query SQL="SELECT * FROM models")
+SQL ?= SELECT name, context_window, input_price_per_m FROM models ORDER BY name
+model-query:
+	@python3 00-ORCHESTRATION/scripts/model_db.py query "$(SQL)"
 
 # Quick sync checkpoint (no file generation, just output)
 sync-checkpoint:

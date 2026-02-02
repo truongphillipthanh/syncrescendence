@@ -3,8 +3,8 @@
   "timestamp": "2026-02-02T00:00:00.000000+00:00",
   "session": {
     "oracle": "13+",
-    "blitzkrieg": 48,
-    "stream": "annealment"
+    "blitzkrieg": 49,
+    "stream": "intelligence"
   },
   "active_tasks": [
     "TASK-103",

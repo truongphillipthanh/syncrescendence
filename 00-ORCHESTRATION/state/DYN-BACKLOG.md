@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-02 (Session 6: NEO-BLITZ 100%, terminology sweep, onboarding protos reconciled, PROJ-002 95%)
+**Last Updated**: 2026-02-02 (Session 7: Intelligence infrastructure — model DB pilot, CANON regeneration pipeline, multipass audizer skill, PROJ-003 decision doc, platform deployment checklist)
 
 ---
 
@@ -30,7 +30,7 @@
 |---------|--------|----------|----------|-------|
 | PROJ-001 | COMPLETE | — | 100% | Transcript Ingestion (43 sources) |
 | PROJ-002 | ACTIVE | P1 | 95% | IIC Configuration — All 5 configs complete (Acumen/Coherence/Efficacy/Mastery/Transcendence). Remaining: Mastery account email (Sovereign) |
-| PROJ-003 | ACTIVE | P2 | 40% | Tooling Stack — REF-STACK_TELEOLOGY.md created, needs completion per `02-STACK.md` |
+| PROJ-003 | ACTIVE | P2 | 50% | Tooling Stack — REF-STACK_TELEOLOGY.md complete, SOVEREIGN-009 filed with 5 disposition decisions. Blocks PROJ-006 |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
 | PROJ-006 | NOT_STARTED | P1 | 0% | Ontology/"Palantir-like" — "FINAL BOSS"; blocked by PROJ-003 |
 | PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
@@ -40,7 +40,7 @@
 | PROJ-012 | IN_PROGRESS | P2 | 95% | Multi-CLI Integration — Both installed, AGENTS.md created, API keys pending |
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
-| PROJ-016 | COMPLETE | — | 100% | Skills Conversion — 7/7 done (intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize) |
+| PROJ-016 | COMPLETE | — | 100% | Skills Conversion — 8/8 done (intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize, audize) |
 | PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→550 files across all audits) |
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |
@@ -53,7 +53,7 @@
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
-| PROJ-LIVE-CANON | IN_PROGRESS | P1 | 60% | Live CANON Ticker — MVP deployed: DYN-TICKER_FEED.md, FIDS board, economics table in MODEL-INDEX.md. Remaining: automation hooks, CANON-level integration |
+| PROJ-LIVE-CANON | IN_PROGRESS | P1 | 80% | Live CANON Ticker — MVP deployed + automation: watch_canon.sh, regenerate pipeline, Jinja2 template, platform_capabilities.json, model_intelligence.db. Remaining: CANON-31150 Sovereign approval (SOVEREIGN-008), cross-chain integration |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
 
 ---
@@ -172,4 +172,4 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (DONE) --> CLI keys (Sovereign)
 
 ---
 
-*Backlog refreshed 2026-02-02 (session 6 — comprehensive completion). NEO-BLITZ 100%: watch_dispatch.sh processing hooks, AGENTS.md expanded, branch deleted. Terminology sweep: 21 IMEP refs, 13 Deviser refs, 6 blackboard/ refs, 5 Oracle=Gemini refs cleaned across 8 files. Onboarding protos: ChatGPT (Executor→Commander, Oracle mapping), Gemini (Oracle→Cartographer/Diviner, email/model/context fixes). PROJ-016 100% (7 skills). PROJ-002 95% (all 5 IIC configs, email pending). SOVEREIGN-008 filed for CANON-31150. Repo total: 551 files.*
+*Backlog refreshed 2026-02-02 (session 7 — intelligence infrastructure). model_db.py: SQLite pilot with 8 platforms, 15 models, 42 capabilities, task routing, IIC routing, cost analysis (CANON-30300 schema subset). watch_canon.sh: fswatch-based CANON regeneration daemon. CANON-31150.md.j2 template + platform_capabilities.json v2.0: Constellation terminology, $160/mo economics. Multipass audizer skill (3-pass TTS pipeline). SOVEREIGN-009 filed (5 PROJ-003 decisions). SOVEREIGN-010 filed (platform deployment checklist). Makefile: 5 new intelligence targets. PROJ-LIVE-CANON 60→80%. PROJ-003 40→50%.*
