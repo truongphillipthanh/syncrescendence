@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "timestamp": "2026-02-01T03:15:00.000000+00:00",
+  "timestamp": "2026-02-02T00:00:00.000000+00:00",
   "session": {
-    "oracle": 13,
-    "blitzkrieg": 47,
-    "stream": "hygiene"
+    "oracle": "13+",
+    "blitzkrieg": 48,
+    "stream": "annealment"
   },
   "active_tasks": [
     "TASK-103",
@@ -48,5 +48,5 @@
     "packets_created": 5,
     "packets_processed": 5
   },
-  "last_state_hash": "006bd2e"
+  "last_state_hash": "ee20f5c"
 }
