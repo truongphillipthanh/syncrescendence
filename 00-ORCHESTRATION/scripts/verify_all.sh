@@ -39,28 +39,28 @@ echo ""
 
 # Ledger verification
 echo "-- Ledger Verification -------------------"
-echo -n "| tasks.csv: "
-if [ -f "00-ORCHESTRATION/state/tasks.csv" ]; then
-    TASKS=$(wc -l < 00-ORCHESTRATION/state/tasks.csv | tr -d ' ')
-    DONE=$(grep -c ',done,' 00-ORCHESTRATION/state/tasks.csv 2>/dev/null || echo 0)
+echo -n "| DYN-TASKS.csv: "
+if [ -f "00-ORCHESTRATION/state/DYN-TASKS.csv" ]; then
+    TASKS=$(wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv | tr -d ' ')
+    DONE=$(grep -c ',done,' 00-ORCHESTRATION/state/DYN-TASKS.csv 2>/dev/null || echo 0)
     echo "+ $TASKS rows ($DONE done)"
 else
     echo "x Not found"
 fi
 
-echo -n "| projects.csv: "
-if [ -f "00-ORCHESTRATION/state/projects.csv" ]; then
-    PROJECTS=$(wc -l < 00-ORCHESTRATION/state/projects.csv | tr -d ' ')
-    COMPLETE=$(grep -c ',complete,' 00-ORCHESTRATION/state/projects.csv 2>/dev/null || echo 0)
+echo -n "| DYN-PROJECTS.csv: "
+if [ -f "00-ORCHESTRATION/state/DYN-PROJECTS.csv" ]; then
+    PROJECTS=$(wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv | tr -d ' ')
+    COMPLETE=$(grep -c ',complete,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv 2>/dev/null || echo 0)
     echo "+ $PROJECTS rows ($COMPLETE complete)"
 else
     echo "x Not found"
 fi
 
-echo -n "| sources.csv: "
-if [ -f "04-SOURCES/sources.csv" ]; then
-    SOURCES=$(wc -l < 04-SOURCES/sources.csv | tr -d ' ')
-    PROCESSED=$(grep -c ',processed,' 04-SOURCES/sources.csv 2>/dev/null || echo 0)
+echo -n "| DYN-SOURCES.csv: "
+if [ -f "04-SOURCES/DYN-SOURCES.csv" ]; then
+    SOURCES=$(wc -l < 04-SOURCES/DYN-SOURCES.csv | tr -d ' ')
+    PROCESSED=$(grep -c ',processed,' 04-SOURCES/DYN-SOURCES.csv 2>/dev/null || echo 0)
     echo "+ $SOURCES rows ($PROCESSED processed)"
 else
     echo "x Not found"

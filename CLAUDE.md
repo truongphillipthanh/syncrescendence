@@ -91,7 +91,7 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 ## Processing Patterns
 - Source intake: `@00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md`
 - Ledger updates: `@00-ORCHESTRATION/state/REF-STANDARDS.md`
-- Blitzkrieg parallel execution: `@00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md`
+- Blitzkrieg parallel execution: `@00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md`
 - Verification: Run before ANY completion claim
 
 ---

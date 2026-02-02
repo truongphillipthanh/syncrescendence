@@ -19,19 +19,15 @@ from pathlib import Path
 
 # Ledger paths (relative to repo root)
 LEDGERS = {
-    'tasks': Path('00-ORCHESTRATION/state/tasks.csv'),
-    'projects': Path('00-ORCHESTRATION/state/projects.csv'),
-    'sprints': Path('00-ORCHESTRATION/state/sprints.csv'),
-    'burndown': Path('00-ORCHESTRATION/state/burndown.csv'),
-    'sources': Path('04-SOURCES/sources.csv'),
+    'tasks': Path('00-ORCHESTRATION/state/DYN-TASKS.csv'),
+    'projects': Path('00-ORCHESTRATION/state/DYN-PROJECTS.csv'),
+    'sources': Path('04-SOURCES/DYN-SOURCES.csv'),
 }
 
 # Required columns per ledger
 REQUIRED_COLUMNS = {
     'tasks': ['id', 'project_id', 'name', 'type', 'status', 'priority', 'owner'],
     'projects': ['id', 'name', 'type', 'status', 'priority', 'owner'],
-    'sprints': ['id', 'name', 'start_date', 'end_date', 'status'],
-    'burndown': ['date', 'sprint_id', 'total_points', 'completed_points'],
     'sources': ['id', 'filename', 'status'],
 }
 

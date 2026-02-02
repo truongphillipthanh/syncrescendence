@@ -1,2 +1,0 @@
-id,name,start_date,end_date,status,goal,velocity_planned,velocity_actual,notes
-SPRINT-001,Oracle10-Alpha,2026-01-01,2026-01-07,active,Establish ingestion pattern + restore lost content + operational infrastructure,40,57,PROJ-001 COMPLETE; PROJ-002 READY; velocity exceeded plan
