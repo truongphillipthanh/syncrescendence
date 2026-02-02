@@ -1,4 +1,4 @@
-fingerprint: 2d95e91
-timestamp: 2026-02-02T03:48:35Z
+fingerprint: 93fa4a3
+timestamp: 2026-02-02T05:45:10Z
 branch: main
-message: chore: 00-ORCHESTRATION state/archive anneal — 77 files → 30 files (61% reduction)
+message: feat: complete PROJ-NEO-BLITZ — processing hooks, AGENTS.md, ledger updates
