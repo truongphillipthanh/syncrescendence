@@ -27,5 +27,5 @@ PROJ-ORCH-AUDIT,00-ORCHESTRATION Deep Audit,sprint,complete,P0,Oracle13,null,13,
 PROJ-ENGINE-AUDIT,02-ENGINE Deep Audit,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-02-01,2026-02-01,COMPLETE: 114→76 files (33% reduction); 32 deleted; 6 to research
 PROJ-RESEARCH,Research Pipeline,initiative,not_started,P2,TBD,null,TBD,modal1,null,2026-02-01,2026-02-02,Gemini CLI; Codex CLI; OpenClaw consensus research
 PROJ-LINEAR,Linear Onboarding,initiative,not_started,P2,TBD,null,TBD,modal1,null,2026-02-01,2026-02-02,PM tool for backlog management
-PROJ-LIVE-CANON,Live CANON Ticker,initiative,in_progress,P1,Oracle13+,null,13+,modal1,null,2026-02-01,2026-02-02,80%: MVP + automation (watch_canon.sh; regenerate pipeline; Jinja2 template; model_intelligence.db); SOVEREIGN-008 pending
+PROJ-LIVE-CANON,Live CANON Ticker,initiative,in_progress,P1,Oracle13+,null,13+,modal1,null,2026-02-01,2026-02-02,95%: MVP + registry-driven regeneration (template_registry.json; cross-chain support); SOVEREIGN-008 pending
 PROJ-DESKTOP,Desktop Metabolization,initiative,in_progress,P1,Oracle13,null,13,modal1,null,2026-01-30,2026-02-02,85%: P0-P1 complete; P2 meta_narrative ingested; Coherence/ deferred (193 files)

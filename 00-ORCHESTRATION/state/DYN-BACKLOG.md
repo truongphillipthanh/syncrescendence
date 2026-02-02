@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-02 (Session 7: Intelligence infrastructure — model DB pilot, CANON regeneration pipeline, multipass audizer skill, PROJ-003 decision doc, platform deployment checklist)
+**Last Updated**: 2026-02-02 (Session 7b: Style guide, YouTube pipeline research, auteur theory research, GitHub Actions CI, CANON regeneration refactored to registry-driven cross-chain system)
 
 ---
 
@@ -53,7 +53,7 @@
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
-| PROJ-LIVE-CANON | IN_PROGRESS | P1 | 80% | Live CANON Ticker — MVP deployed + automation: watch_canon.sh, regenerate pipeline, Jinja2 template, platform_capabilities.json, model_intelligence.db. Remaining: CANON-31150 Sovereign approval (SOVEREIGN-008), cross-chain integration |
+| PROJ-LIVE-CANON | IN_PROGRESS | P1 | 95% | Live CANON Ticker — MVP deployed + automation: watch_canon.sh, regenerate pipeline (now registry-driven), Jinja2 template, platform_capabilities.json, model_intelligence.db, template_registry.json. Remaining: CANON-31150 Sovereign approval (SOVEREIGN-008) |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
 
 ---
@@ -172,4 +172,4 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (DONE) --> CLI keys (Sovereign)
 
 ---
 
-*Backlog refreshed 2026-02-02 (session 7 — intelligence infrastructure). model_db.py: SQLite pilot with 8 platforms, 15 models, 42 capabilities, task routing, IIC routing, cost analysis (CANON-30300 schema subset). watch_canon.sh: fswatch-based CANON regeneration daemon. CANON-31150.md.j2 template + platform_capabilities.json v2.0: Constellation terminology, $160/mo economics. Multipass audizer skill (3-pass TTS pipeline). SOVEREIGN-009 filed (5 PROJ-003 decisions). SOVEREIGN-010 filed (platform deployment checklist). Makefile: 5 new intelligence targets. PROJ-LIVE-CANON 60→80%. PROJ-003 40→50%.*
+*Backlog refreshed 2026-02-02 (session 7b — research + style + CI). REF-OPERATIONAL_STYLE_GUIDE.md: operational quick-reference extracted from CANON-31120/31121/31122/31110 (5 voice principles, 5 platform registers, 10 functions, 15 forms, anti-patterns, quality checklist). YouTube pipeline research: 4-stage architecture (yt-dlp + Flash-Lite, ~$10/942 vids), Antigravity debunked (it's Google's IDE). Auteur theory research: 4 extractable principles, practical development framework. GitHub Actions CI: verify.yml (structure/ledger/content checks, Python syntax, sensitive file check, CSV validation) + lint.yml (YAML validation, wikilink check). regenerate_canon.py refactored to registry-driven cross-chain system (template_registry.json). PROJ-LIVE-CANON 80→95%.*

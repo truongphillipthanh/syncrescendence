@@ -19,12 +19,34 @@ STATE_DIR="$REPO_ROOT/00-ORCHESTRATION/state"
 REGENERATE_SCRIPT="$SCRIPT_DIR/regenerate_canon.py"
 LOG_FILE="$STATE_DIR/DYN-CANON_REGEN_LOG.md"
 
-# Watched paths (add new data sources here)
-WATCH_PATHS=(
-    "$STATE_DIR/platform_capabilities.json"
-    "$REPO_ROOT/02-ENGINE/DYN-TICKER_FEED.md"
-    "$REPO_ROOT/02-ENGINE/MODEL-INDEX.md"
-)
+# Template registry (maps CANON IDs → data sources + watch paths)
+REGISTRY_FILE="$REPO_ROOT/00-ORCHESTRATION/templates/template_registry.json"
+
+# Build watch paths from registry + defaults
+build_watch_paths() {
+    local paths=()
+    # Always watch the registry itself
+    paths+=("$REGISTRY_FILE")
+    # Extract watch_paths from registry via Python
+    if [ -f "$REGISTRY_FILE" ] && command -v python3 &>/dev/null; then
+        while IFS= read -r p; do
+            paths+=("$REPO_ROOT/$p")
+        done < <(python3 -c "
+import json, sys
+with open('$REGISTRY_FILE') as f:
+    reg = json.load(f)
+for entry in reg.values():
+    for wp in entry.get('watch_paths', []):
+        print(wp)
+" 2>/dev/null)
+    fi
+    printf '%s\n' "${paths[@]}" | sort -u
+}
+
+WATCH_PATHS=()
+while IFS= read -r p; do
+    WATCH_PATHS+=("$p")
+done < <(build_watch_paths)
 
 # Colors
 RED='\033[0;31m'

@@ -21,7 +21,7 @@
 **Chain**: INFORMATION (31000)
 **Parent**: ACUMEN (31100)
 **Status**: CRYSTALLINE
-**Last Regenerated**: 2026-02-02T07:38:43.008109Z
+**Last Regenerated**: 2026-02-02T01:19:54.503920-08:00
 **Data Source**: platform_capabilities.json
 
 ---
@@ -407,7 +407,7 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 
 ## VII. VERSION HISTORY
 
-**Last Regenerated**: 2026-02-02T07:38:43.008109Z
+**Last Regenerated**: 2026-02-02T01:19:54.503920-08:00
 **Data Version**: 2.0.0
 
 ### Regeneration Log
@@ -447,7 +447,7 @@ git commit -m "feat(canon): regenerate 31150 with updated platform data"
 AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
 Template: 00-ORCHESTRATION/templates/CANON-31150.md.j2
 Data: 00-ORCHESTRATION/state/platform_capabilities.json
-Generated: 2026-02-02T07:38:43.008109Z
+Generated: 2026-02-02T01:19:54.503920-08:00
 -->
 
 ---
