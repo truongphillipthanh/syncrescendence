@@ -43,6 +43,13 @@ tmp/
 temp/
 *.tmp
 
+# Obsidian workspace (editor state, not content)
+.obsidian/workspace.json
+
+# Drive sync temp artifacts
+.tmp.driveupload/
+.tmp.drivedownload/
+
 # Claude local settings
 .claude/settings.local.json
 CLAUDE.local.md

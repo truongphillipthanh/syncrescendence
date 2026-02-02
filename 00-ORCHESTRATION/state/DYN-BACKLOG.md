@@ -40,7 +40,7 @@
 | PROJ-012 | IN_PROGRESS | P2 | 95% | Multi-CLI Integration — Both installed, AGENTS.md created, API keys pending |
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
-| PROJ-016 | COMPLETE | — | 100% | Skills Conversion — 8/8 done (intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize, audize) |
+| PROJ-016 | COMPLETE | — | 100% | Skills Conversion — 8/8 done (intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize, audize). TASK-057-062 reconciled. |
 | PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→550 files across all audits) |
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |
@@ -128,15 +128,15 @@ Items emerging from teleological settlement:
 COMPLETED                    ACTIVE                         PIPELINE
 ---------                    ------                         --------
 PROJ-001 ---+---> PROJ-002 ---------> PROJ-005 (blocked)
-            |     (60%)    |
+            |     (95%)    |
             |              +---------> IIC completion
             |
 PROJ-011 ---+---> PROJ-003 ---------> PROJ-006 --> PROJ-007
-            |     (40%)    |           (Ontology)
+            |     (50%)    |           (Ontology)
             |              +---------> PROJ-004
             |
             +---> PROJ-012 ---------> CLI activation
-            |     (90%)
+            |     (95%)
             |
             +---> PROJ-014 ---------> PROJ-015
                   (60%)
@@ -167,9 +167,9 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (DONE) --> CLI keys (Sovereign)
 | PROJ-ORCH-AUDIT | 13+ | 00-ORCHESTRATION 142→30 files (79% reduction). state/ 24→21, archive/ 53→9 (83% compaction). Oracle genealogy + design decisions compacted |
 | PROJ-ENGINE-AUDIT | 13+ | 02-ENGINE 114→76 files (33% reduction), 32 deleted, 6 to research |
 | PROJ-TERMINOLOGY | 13+ | Deviser→Vanguard across 15 files, Rosetta Stone v2.1.0 |
-| PROJ-016 | 13+ | 7 skills: intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize |
+| PROJ-016 | 13+ | 8 skills: intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize, audize |
 | PROJ-NEO-BLITZ | 13+ | Full automation pipeline: 5 hooks, dispatch system, watch_dispatch.sh, AGENTS.md, CANON lean-out, sn_expand.py |
 
 ---
 
-*Backlog refreshed 2026-02-02 (session 7b — research + style + CI). REF-OPERATIONAL_STYLE_GUIDE.md: operational quick-reference extracted from CANON-31120/31121/31122/31110 (5 voice principles, 5 platform registers, 10 functions, 15 forms, anti-patterns, quality checklist). YouTube pipeline research: 4-stage architecture (yt-dlp + Flash-Lite, ~$10/942 vids), Antigravity debunked (it's Google's IDE). Auteur theory research: 4 extractable principles, practical development framework. GitHub Actions CI: verify.yml (structure/ledger/content checks, Python syntax, sensitive file check, CSV validation) + lint.yml (YAML validation, wikilink check). regenerate_canon.py refactored to registry-driven cross-chain system (template_registry.json). PROJ-LIVE-CANON 80→95%.*
+*Backlog refreshed 2026-02-02 (Blitzkrieg 51 — low-hanging-fruit sweep). Ledger reconciliation: TASK-057-062 marked done (PROJ-016 8/8 confirmed), PROJ-002 stale due_date cleared, dependency graph percentages corrected (95/50/95). DYN log files initialized (SESSION_LOG, PEDIGREE_LOG, EXECUTION_STAGING) — hooks had never fired due to OS auto-update killing previous session. System state refreshed, handoff token regenerated (stale since Jan 22). .gitignore hardened (Obsidian workspace, Drive temp artifacts). Temp directories purged. Blitzkrieg counter 50→51.*

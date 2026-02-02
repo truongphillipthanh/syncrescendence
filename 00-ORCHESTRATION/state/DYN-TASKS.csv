@@ -54,12 +54,12 @@ TASK-053,PROJ-012,Test Gemini CLI basic operations,task,done,P2,Claude_Code,null
 TASK-054,PROJ-012,Draft GEMINI.md,task,done,P2,Claude_Code,TASK-053,0.5,0.25,2026-01-09,2026-02-01,SUPERSEDED: GEMINI.md created in TASK-070. Unblocked when TASK-053 resolved.
 TASK-055,null,Restore system prompt ground truth,task,done,P0,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 1 - synthesis files restored; backups created
 TASK-056,null,Complete queue disposition,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 3 - modal1 cleared; modal2 unchanged
-TASK-057,PROJ-016,Create skills/claude/ directory structure,task,not_started,P3,Claude_Code,null,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
-TASK-058,PROJ-016,Convert transcribe_youtube.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
-TASK-059,PROJ-016,Convert transcribe_interview.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
-TASK-060,PROJ-016,Convert integrate.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,1,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
-TASK-061,PROJ-016,Convert readize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
-TASK-062,PROJ-016,Convert listenize.xml to Skill,task,not_started,P3,Claude_Code,TASK-057,0.5,null,2026-01-09,2026-01-09,Deferred to Oracle 12+
+TASK-057,PROJ-016,Create skills/claude/ directory structure,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-02-02,DONE: Skills created in .claude/skills/ (not skills/claude/). PROJ-016 100% complete.
+TASK-058,PROJ-016,Convert transcribe_youtube.xml to Skill,task,done,P3,Claude_Code,TASK-057,1,0.5,2026-01-09,2026-02-02,DONE: .claude/skills/transcribe_youtube.md
+TASK-059,PROJ-016,Convert transcribe_interview.xml to Skill,task,done,P3,Claude_Code,TASK-057,1,0.5,2026-01-09,2026-02-02,DONE: .claude/skills/transcribe_interview.md
+TASK-060,PROJ-016,Convert integrate.xml to Skill,task,done,P3,Claude_Code,TASK-057,1,0.5,2026-01-09,2026-02-02,DONE: .claude/skills/integrate.md
+TASK-061,PROJ-016,Convert readize.xml to Skill,task,done,P3,Claude_Code,TASK-057,0.5,0.25,2026-01-09,2026-02-02,DONE: .claude/skills/readize.md
+TASK-062,PROJ-016,Convert listenize.xml to Skill,task,done,P3,Claude_Code,TASK-057,0.5,0.25,2026-01-09,2026-02-02,DONE: .claude/skills/listenize.md
 TASK-063,null,Document methodology,task,done,P3,Claude_Code,null,0.5,0.25,2026-01-09,2026-01-09,Phase 5 - REF-METHODOLOGY.md created
 TASK-064,PROJ-002,CANON reconnaissance - 8 IIC documents,research,done,P1,Claude_Code,null,2,1.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 1 - 14500+ lines reviewed
 TASK-065,PROJ-002,Memory architecture decisions,planning,done,P1,Claude_Code,TASK-064,1,0.5,2026-01-09,2026-01-09,DIRECTIVE-043B Phase 2 - Seven strata mapped to 4 platforms
