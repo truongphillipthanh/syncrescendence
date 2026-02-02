@@ -6,7 +6,7 @@ allowed-tools: Bash, Read, Write, Glob
 # Blitzkrieg Finalize (vNext)
 
 Finalize a blitzkrieg bundle by generating:
-- `merged_return_packet.md` (pasteable back to Deviser)
+- `merged_return_packet.md` (pasteable back to Vanguard)
 - Audized scripts (TTS-optimized, no markdown)
 - Agent relay JSON (structured LLM-to-LLM format)
 
@@ -332,7 +332,7 @@ echo ""
 echo "Bundle: $BUNDLE"
 echo ""
 echo "Generated artifacts:"
-echo "  - 06_return_to_webapp/merged_return_packet.md (paste into Deviser)"
+echo "  - 06_return_to_webapp/merged_return_packet.md (paste into Vanguard)"
 echo "  - 07_audio/audized_*.txt (TTS-ready, no markdown)"
 echo "  - 08_agent_relay/*.json (LLM-to-LLM structured data)"
 echo ""
@@ -342,7 +342,7 @@ echo ""
 echo "=== NEXT STEPS ==="
 echo "1. Review merged_return_packet.md"
 echo "2. Fill in execution summary and what changed sections"
-echo "3. Copy and paste into originating Deviser thread"
+echo "3. Copy and paste into originating Vanguard thread"
 echo "4. Optionally run /project:deviser_reint for full session export"
 ```
 

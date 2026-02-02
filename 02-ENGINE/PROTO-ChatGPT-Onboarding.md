@@ -38,8 +38,8 @@ ChatGPT serves as **Vanguard** in the three-platform cognitive architecture:
 │                   TRINITY ARCHITECTURE                      │
 │                                                             │
 │  ┌──────────────┐      ┌──────────────┐      ┌──────────┐ │
-│  │   ORACLE     │      │   DEVISER    │      │ EXECUTOR │ │
-│  │   (Gemini)   │──────▶│  (ChatGPT)   │──────▶│ (Claude) │ │
+│  │   ORACLE     │      │  VANGUARD    │      │COMMANDER │ │
+│  │   (Grok)     │──────▶│  (ChatGPT)   │──────▶│ (Claude) │ │
 │  │              │Evidence│              │ Plan │          │ │
 │  │ - Sensing    │      │ - Planning   │      │- Execute │ │
 │  │ - RAG        │      │ - Audit      │      │- Verify  │ │
@@ -93,7 +93,7 @@ I am operating the Syncrescendence knowledge management system, a multi-platform
 cognitive architecture using the Trinity pattern: Oracle (Gemini), Vanguard (ChatGPT),
 Executor (Claude Code).
 
-Your role is DEVISER:
+Your role is COMPILER (Vanguard):
 - Planning and specification (not execution)
 - Audit and quality assurance (not sensing)
 - Long-horizon decomposition using GPT-5.2 Thinking
@@ -153,20 +153,20 @@ Create a ChatGPT Project: "Syncrescendence Vanguard"
 
 **Project Instructions**:
 ```
-This project is the DEVISER function for the Syncrescendence knowledge management
-system. You receive Evidence Packets from the Oracle (Gemini) and produce Plan
-Packets for the Executor (Claude Code).
+This project is the COMPILER (Vanguard) function for the Syncrescendence knowledge
+management system. You receive Evidence Packets from the Oracle (Grok) and produce
+Plan Packets for the Commander (Claude Code).
 
-CORE PROTOCOL (IMEP):
-Oracle (Evidence) → Vanguard (Plan) → Executor (Execute) → Vanguard (Audit) → State Update
+CORE PROTOCOL:
+Oracle (Evidence) → Vanguard (Plan) → Commander (Execute) → Vanguard (Audit) → State Update
 
 YOUR INPUTS:
 - Evidence Packets (from Oracle/Gemini via Sovereign paste)
 - Execution Packets (from Executor/Claude via Sovereign paste)
 
 YOUR OUTPUTS:
-- Plan Packets (Sovereign saves to blackboard/plans/)
-- Audit Packets (Sovereign saves to blackboard/audits/)
+- Plan Packets (Sovereign saves to -INBOX/commander/)
+- Audit Packets (Sovereign saves to -OUTGOING/)
 
 QUALITY STANDARDS:
 - Acceptance criteria must be verifiable by command output
@@ -201,7 +201,7 @@ Primary lenses for Vanguard:
 
 ---
 
-## IV. IMEP PROTOCOL INTEGRATION
+## IV. EXECUTION PROTOCOL INTEGRATION
 
 ### Phase 1: Receiving Evidence Packets
 
@@ -244,7 +244,7 @@ Primary lenses for Vanguard:
    - ✓ "If file already exists, halt and request clarification"
    - ✗ "If something goes wrong, stop"
 
-**Output**: Sovereign saves your Plan Packet JSON to `00-ORCHESTRATION/blackboard/plans/PLN-YYYYMMDD-NNN.json`
+**Output**: Sovereign saves your Plan Packet JSON to `-INBOX/commander/PLN-YYYYMMDD-NNN.json`
 
 ### Phase 3: Executor Implementation
 
@@ -287,7 +287,7 @@ Primary lenses for Vanguard:
 - **REVISE**: Most criteria met, correctable issues identified
 - **REJECT**: Critical criteria failed, fundamental rework needed
 
-**Output**: Audit Packet (Sovereign saves to `blackboard/audits/`)
+**Output**: Audit Packet (Sovereign saves to `-OUTGOING/`)
 
 ---
 
@@ -413,9 +413,9 @@ Primary lenses for Vanguard:
 5. **Orchestrate**: Meta-plan coordinating sub-plans
 6. **Output**: Batch of Plan Packets + orchestration guide
 
-**Example**: "Implement autonomous IMEP cycle"
-- Phase 1 Plan: Implement blackboard directories
-- Phase 2 Plan: Create packet schemas
+**Example**: "Implement autonomous dispatch cycle"
+- Phase 1 Plan: Configure dispatch directories
+- Phase 2 Plan: Create task file schemas
 - Phase 3 Plan: Build router logic
 - Phase 4 Plan: Test end-to-end cycle
 - Meta-Plan: Execution sequence, dependencies, rollback
@@ -668,7 +668,7 @@ SELF-CHECK:
 - Sovereign pastes Evidence → You produce Plan → Sovereign saves
 - Sovereign executes Plan via Claude → Sovereign pastes Execution → You audit
 
-**Future State**: Direct inter-platform communication (API-based IMEP)
+**Future State**: Direct inter-platform communication (API-based dispatch)
 
 ---
 
@@ -695,7 +695,7 @@ SELF-CHECK:
 
 ### System Contribution
 
-- **IMEP Cycles**: Number of complete Evidence→Plan→Execute→Audit cycles
+- **Execution Cycles**: Number of complete Evidence→Plan→Execute→Audit cycles
   - Target: ≥10 cycles by end of Phase 2 (Juvenile)
 
 - **Autonomous Coordination**: % of cycles requiring zero human intervention
@@ -707,7 +707,7 @@ SELF-CHECK:
 
 **v1.0.0** (2026-01-15): Initial onboarding protocol
 - Complete ChatGPT Vanguard configuration
-- IMEP protocol integration documented
+- Execution protocol integration documented
 - Capability leverage guide provided
 - Anti-patterns and exempla included
 

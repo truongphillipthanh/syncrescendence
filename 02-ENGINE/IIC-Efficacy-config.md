@@ -321,7 +321,7 @@ grep "SOURCE-YYYYMMDD-NNN" 01-CANON/CANON-XXXXX.md
 ### A. Receiving from Coherence
 
 **Input Format**: Plan Packet (JSON or structured markdown)
-**Trigger**: File appears in `00-ORCHESTRATION/blackboard/plans/`
+**Trigger**: File appears in `-INBOX/commander/`
 **Action**: Parse, verify capabilities, execute or request clarification
 
 **Expected Fields**:
@@ -341,7 +341,7 @@ grep "SOURCE-YYYYMMDD-NNN" 01-CANON/CANON-XXXXX.md
 - Tool-specific optimizations discovered
 - Candidate patterns for teaching
 
-**Handoff Location**: `00-ORCHESTRATION/blackboard/executions/`
+**Handoff Location**: `-OUTGOING/`
 
 ### C. Cross-IIC Integration
 
@@ -569,17 +569,17 @@ function update_csv() {
 ### Acumen (Information Chain)
 **Receives**: Qualified tasks requiring execution (e.g., transcription, automation setup)
 **Provides**: Execution confirmation, verified outputs
-**Interface**: Shared queue in `02-ENGINE/QUEUE-acumen-to-efficacy`
+**Interface**: Dispatch via `-INBOX/commander/` task files
 
 ### Coherence (Insight Chain)
 **Receives**: Implementation plans from synthesis
 **Provides**: Execution packets, verification evidence
-**Interface**: IMEP blackboard (`blackboard/plans/` → `blackboard/executions/`)
+**Interface**: Dispatch system (`-INBOX/{agent}/` task files)
 
 ### Mastery (Knowledge Chain)
 **Receives**: Teaching pattern requests
 **Provides**: Proven execution patterns, reusable blueprints
-**Interface**: Handoff directory `efficacy-to-mastery/`
+**Interface**: Handoff via `-OUTGOING/` staging
 
 ### Transcendence (Wisdom Chain)
 **Receives**: System health queries
@@ -609,7 +609,7 @@ function update_csv() {
 # Before executing Plan Packet
 make verify          # Ensure clean starting state
 git status           # No uncommitted changes
-ls 00-ORCHESTRATION/blackboard/plans/  # Plan packet exists
+ls -INBOX/commander/  # Plan packet exists
 ```
 
 **Post-Flight Checks**:

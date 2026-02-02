@@ -338,7 +338,7 @@ Before publishing ANY teaching material:
 ### A. Receiving from Efficacy
 
 **Input Format**: Execution patterns, failure modes, optimizations
-**Trigger**: Pattern appears in `efficacy-to-mastery/` handoff directory
+**Trigger**: Pattern appears via `-OUTGOING/` handoff from Efficacy
 **Action**: Extract, structure, develop teaching materials
 
 **Expected Content**:
@@ -413,13 +413,13 @@ Before publishing ANY teaching material:
 
 ### C. Memory Artifacts
 
-**Location**: `02-ENGINE/mastery-memory/`
+**Location**: `05-SIGMA/` (MEMORY- prefix per FLAT PRINCIPLE)
 
 **Files**:
-- `teaching-patterns.md` — What works pedagogically
-- `common-misconceptions.md` — Frequent learner confusion
-- `effectiveness-data.jsonl` — Metrics over time
-- `content-inventory.md` — All teaching materials with status
+- `MEMORY-teaching-patterns.md` — What works pedagogically
+- `MEMORY-common-misconceptions.md` — Frequent learner confusion
+- `MEMORY-effectiveness-data.jsonl` — Metrics over time
+- `MEMORY-content-inventory.md` — All teaching materials with status
 
 ---
 
@@ -690,10 +690,10 @@ Module 5: Quality Assurance
 └── Project: Add verification to existing workflow
 
 Module 6: Cross-IIC Coordination
-├── Concept: IMEP protocol
-├── Pattern: Packet production
-├── Pattern: Handoff protocols
-└── Project: Complete IMEP cycle
+├── Concept: Dispatch + handoff protocols
+├── Pattern: Task file production
+├── Pattern: Inter-IIC handoffs
+└── Project: Complete dispatch-to-integration cycle
 
 Assessment: Can you create reliable automation?
 ```

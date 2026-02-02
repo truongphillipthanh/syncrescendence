@@ -58,10 +58,10 @@ Transcendence Dashboard
 │   ├── Ledger Health (tasks.csv, sources.csv, canon.csv)
 │   └── Coherence Score (alignment across IICs)
 │
-├── IMEP Pipeline
-│   ├── Evidence Packets (from Oracle/Gemini)
-│   ├── Plan Packets (from Vanguard/ChatGPT)
-│   ├── Execution Packets (from Executor/Claude)
+├── Execution Pipeline
+│   ├── Evidence (from Oracle/Grok)
+│   ├── Plans (from Vanguard/ChatGPT)
+│   ├── Execution (from Commander/Claude Code)
 │   └── Audit Results (from Vanguard/ChatGPT)
 │
 ├── Cross-IIC Flows
@@ -86,7 +86,7 @@ Transcendence Dashboard
 
 **Database Views**:
 - **IIC Health Matrix**: Status of all 5 IICs
-- **Packet Flow**: IMEP packets by status
+- **Packet Flow**: Dispatch tasks by status
 - **Coherence Audit Trail**: Historical alignment scores
 - **External Engagement**: Publications, citations, collaborations
 
@@ -207,7 +207,7 @@ python3 00-ORCHESTRATION/scripts/verify_ledgers.py
 git log --since="24 hours ago" --oneline
 
 # Check packet queues
-ls 00-ORCHESTRATION/blackboard/{evidence,plans,executions,audits}/
+ls -INBOX/commander/ -OUTGOING/  # Task dispatch + execution staging
 ```
 
 **Weekly Coherence Audit** (30 minutes):
@@ -218,7 +218,7 @@ ls 00-ORCHESTRATION/blackboard/{evidence,plans,executions,audits}/
    - Mastery: Teaching materials created?
    - Transcendence: System coherent?
 
-2. **IMEP Flow Analysis**:
+2. **Execution Flow Analysis**:
    - Evidence packets produced?
    - Plans generated?
    - Executions completed?
@@ -366,9 +366,9 @@ Before ANY external publication:
 
 - **Success Criteria**:
   - ✓ All five IIC configs complete
-  - ✓ IMEP protocol defined
+  - ✓ Hook + dispatch protocols defined
   - ✓ Operational primitives implemented
-  - ○ First autonomous IMEP cycle
+  - ○ First autonomous dispatch cycle
   - ○ 25% reduction in relay requirement
 
 **Phase 2: Juvenile** (Target: April 2026, 3 months)
@@ -380,7 +380,7 @@ Before ANY external publication:
   - Self-monitoring and self-healing
 
 - **Capabilities**:
-  - Complete IMEP cycles without relay
+  - Complete dispatch cycles without relay
   - Route tasks to appropriate platform autonomously
   - Detect and resolve coherence gaps
   - Publish teaching materials externally
@@ -393,7 +393,7 @@ Before ANY external publication:
   - Primarily text-based (no video/audio generation)
 
 - **Success Criteria**:
-  - ≥10 autonomous IMEP cycles
+  - ≥10 autonomous dispatch cycles
   - ≥50% reduction in relay requirement
   - ≥5 external publications (teaching materials)
   - First external collaboration
@@ -452,7 +452,7 @@ Before ANY external publication:
 **Near-Term (Next 3 Months)**:
 | Milestone | Description | Success Metric |
 |-----------|-------------|----------------|
-| First Autonomous Cycle | Complete IMEP cycle with zero relay | 1 cycle, all steps verified |
+| First Autonomous Cycle | Complete dispatch cycle with zero relay | 1 cycle, all steps verified |
 | Platform Integration | ChatGPT + Gemini onboarded and operational | 10 tasks routed correctly |
 | Operational Stability | Primitives proven reliable | <5% defect rate |
 | Teaching Materials | Initial external publication | 5 guides published |
@@ -653,7 +653,7 @@ For the system as whole:
 
 ### B. Inter-Node Communication Standards
 
-**Packet-Based Protocol** (extending IMEP):
+**Packet-Based Protocol** (extending dispatch system):
 ```json
 {
   "packet_type": "query|contribution|subscription|notification",

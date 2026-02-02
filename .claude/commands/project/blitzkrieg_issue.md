@@ -135,7 +135,7 @@ cat > "$OUTDIR/01_context/context.md" << 'CTXEOF'
 
 ## Current State Summary
 
-[Paste or summarize the current state from your Deviser thread]
+[Paste or summarize the current state from your Vanguard thread]
 
 ## Key Decisions Made
 
@@ -508,7 +508,7 @@ echo "Structure:"
 find "$OUTDIR" -type f | head -20
 echo ""
 echo "=== NEXT STEPS ==="
-echo "1. Fill in 01_context/context.md with decision snapshot from Deviser"
+echo "1. Fill in 01_context/context.md with decision snapshot from Vanguard"
 echo "2. Fill in 02_pedigree/pedigree.md with Oracle lineage"
 echo "3. Review 03_intention/intention_reference.md"
 echo "4. Customize 04_directives/directive-{A,B,C}.md for your lanes"

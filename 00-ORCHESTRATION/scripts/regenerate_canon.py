@@ -69,7 +69,7 @@ def get_sample_platform_data():
                 "name": "Claude Code",
                 "tier": "Pro x3",
                 "monthly_cost": 60,
-                "role": "Executor",
+                "role": "Commander",
                 "status": "Active",
                 "utilization": 75,
                 "cost_per_hour": "2.00"
@@ -87,7 +87,7 @@ def get_sample_platform_data():
                 "name": "ChatGPT",
                 "tier": "Plus",
                 "monthly_cost": 20,
-                "role": "Deviser",
+                "role": "Vanguard",
                 "status": "Active",
                 "utilization": 30,
                 "cost_per_hour": "0.67"
@@ -95,8 +95,8 @@ def get_sample_platform_data():
         ],
         "total_monthly_cost": 100,
         "oracle_platform": "Gemini",
-        "deviser_platform": "ChatGPT",
-        "executor_platform": "Claude",
+        "vanguard_platform": "ChatGPT",
+        "commander_platform": "Claude",
         "claude": {
             "account": "truongphillipthanh@gmail.com (+ 2 others)",
             "models": ["Opus 4.5", "Sonnet 4.5"],

@@ -38,8 +38,8 @@ Gemini serves as **Oracle** in the three-platform cognitive architecture:
 │                   TRINITY ARCHITECTURE                      │
 │                                                             │
 │  ┌──────────────┐      ┌──────────────┐      ┌──────────┐ │
-│  │   ORACLE     │      │   DEVISER    │      │ EXECUTOR │ │
-│  │   (Gemini)   │──────▶│  (ChatGPT)   │──────▶│ (Claude) │ │
+│  │   ORACLE     │      │  VANGUARD    │      │COMMANDER │ │
+│  │   (Grok)     │──────▶│  (ChatGPT)   │──────▶│ (Claude) │ │
 │  │              │Evidence│              │ Plan │          │ │
 │  │ - Sensing    │      │ - Planning   │      │- Execute │ │
 │  │ - RAG        │      │ - Audit      │      │- Verify  │ │
@@ -158,7 +158,7 @@ Sources:
 
 **Primary Use Cases**:
 1. **Real-Time Awareness**: "What changed in repository since yesterday?"
-2. **File Discovery**: "Find all files mentioning 'IMEP protocol'"
+2. **File Discovery**: "Find all files mentioning 'dispatch protocol'"
 3. **Quick Lookups**: "What's the current status of PROJ-002?"
 4. **Cross-Platform Queries**: Query Drive + uploaded files + web simultaneously
 
@@ -238,7 +238,7 @@ Provide:
 
 ---
 
-## IV. IMEP PROTOCOL INTEGRATION
+## IV. EXECUTION PROTOCOL INTEGRATION
 
 ### Phase 1: Sensing & Evidence Production
 
@@ -704,7 +704,7 @@ Evidence Packet:
 - **Uncertainty Identification**: % of Evidence Packets that note what corpus doesn't address
   - Target: ≥50% (honest about gaps)
 
-### IMEP Contribution
+### Execution Contribution
 
 - **Evidence Packets Produced**: Count per week
   - Target: ≥5 by Phase 2 (Juvenile)
@@ -726,7 +726,7 @@ Evidence Packet:
 
 **v1.0.0** (2026-01-15): Initial onboarding protocol
 - Complete Gemini Oracle configuration
-- IMEP protocol integration documented
+- Execution protocol integration documented
 - Capability leverage guide (AI Studio, NotebookLM, Drive)
 - Ground-truth discipline codified
 - Anti-patterns and exempla included
