@@ -8,6 +8,36 @@
 
 ---
 
+## FIDS — Fleet Status Board
+
+| Platform | Status | Flagship | Latest Release | Delta |
+|----------|--------|----------|----------------|-------|
+| Anthropic | NOMINAL | Claude 4.5 Opus | 2025-11-01 | — |
+| OpenAI | NOMINAL | GPT-5.2 | 2025-09-15 | — |
+| Google | NOMINAL | Gemini 3 Pro | 2025-10-01 | — |
+| xAI | NOMINAL | Grok 4 | 2025-12-01 | — |
+| DeepSeek | WATCH | V3.2 | 2025-11-15 | V4 rumored |
+
+Status: `NOMINAL` (stable) · `WATCH` (change expected) · `UPDATING` (active transition) · `DEGRADED` (regression) · `NEW` (just released)
+
+**Last verified**: 2026-02-02 · **Ticker**: `DYN-TICKER_FEED.md`
+
+---
+
+## CONSTELLATION ECONOMICS
+
+| Account | Platform | Tier | Monthly | Avatars |
+|---------|----------|------|---------|---------|
+| A1 | Claude | Max 5x | $100 | Commander |
+| A1 | ChatGPT | Plus | $20 | Vanguard |
+| A2 | Claude | Pro | $20 | Vizier, Adjudicator |
+| A2 | Google AI | Pro | $20 | Cartographer, Diviner |
+| — | — | **Total** | **$160** | — |
+
+**Last verified**: 2026-02-02 · **DEF**: `PlatformBudget` in `DEF-CONSTELLATION_VARIABLES.md`
+
+---
+
 ## ACTIVE PRODUCTION MODELS (2026-01)
 
 ### Anthropic (Claude)
@@ -167,6 +197,7 @@ Profile YAML stubs deleted (2026-02-01 audit). Model registry tables above serve
 
 ## REFRESH NOTES
 
+**2026-02-02**: Live CANON Ticker MVP — FIDS board, economics table, DYN-TICKER_FEED.md linked
 **2026-02-01**: Refresh — profile stubs deferred, timestamp updated
 **2026-01-02**: Initial index created from DIRECTIVE-036 Phase F
 

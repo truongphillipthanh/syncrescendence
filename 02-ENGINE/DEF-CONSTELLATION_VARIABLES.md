@@ -212,6 +212,7 @@ DEF PlatformBudget:
     spec:
         value: 160
         unit: USD/month
+        last_verified: 2026-02-02
         breakdown:
             claude_max: {account: 1, tier: max, cost: 100}
             chatgpt_plus: {account: 1, tier: plus, cost: 20}
@@ -221,6 +222,7 @@ DEF PlatformBudget:
         Budget increased from $100 to $160 with Claude Max tier adoption.
         Claude Max (5x capacity) justifies premium for primary execution pipeline.
         Sustainability target: self-funding by 2026-06.
+        Track changes via DYN-TICKER_FEED.md; FIDS board in MODEL-INDEX.md.
 end
 
 DEF FiveFaces:
