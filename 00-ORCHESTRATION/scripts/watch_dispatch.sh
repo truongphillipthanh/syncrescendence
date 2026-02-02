@@ -54,16 +54,36 @@ process_task() {
 
     echo "[Watch] ---"
 
-    # Hook point: trigger the agent's processor here
-    # Examples:
-    #   For commander: claude --print "$(cat "$file")"
-    #   For adjudicator: codex "$(grep -A 100 '## Objective' "$file")"
-    #   For cartographer: gemini "$(cat "$file")"
-    #   For psyche/ajna: openclaw process "$file"
-    echo "[Watch] Ready for processing. Hook into your agent's CLI here."
+    # Route to agent-specific CLI
+    case "$AGENT" in
+        commander)
+            claude --print "$(cat "$file")" 2>&1
+            ;;
+        adjudicator)
+            codex "$(cat "$file")" 2>&1
+            ;;
+        cartographer)
+            gemini "$(cat "$file")" 2>&1
+            ;;
+        psyche|ajna)
+            openclaw process "$file" 2>&1
+            ;;
+        *)
+            echo "[Watch] No CLI handler configured for agent: $AGENT"
+            return 1
+            ;;
+    esac
 
-    # FINGERPRINT-back: after processing, agent should write state before releasing
-    # The processing hook above should mark Status: COMPLETE or Status: FAILED
+    local exit_code=$?
+
+    # Mark completion status based on CLI exit code
+    if [ $exit_code -eq 0 ]; then
+        sed -i '' 's/Status: IN_PROGRESS/Status: COMPLETE/' "$file" 2>/dev/null
+        echo "[Watch] $(date '+%H:%M:%S') Task completed: $basename"
+    else
+        sed -i '' 's/Status: IN_PROGRESS/Status: FAILED/' "$file" 2>/dev/null
+        echo "[Watch] $(date '+%H:%M:%S') Task FAILED (exit $exit_code): $basename"
+    fi
 }
 
 # Check if fswatch is available

@@ -80,12 +80,12 @@ All scripts in `00-ORCHESTRATION/scripts/`. All hooks configured in `.claude/set
 
 | # | Item | Priority | Effort | Status |
 |---|------|----------|--------|--------|
-| 1 | CANON lean-out (3 merge pairs approved) | P1 | Medium | APPROVED, not started |
-| 2 | Build `sn_expand.py` for ${DEF} variable resolution | P1 | Medium | Not started |
-| 3 | Codex CLI AGENTS.md configuration | P2 | Low | Not started |
-| 4 | Gemini CLI API key setup on Account 2 | P2 | Low | Not started |
-| 5 | Install `fswatch` on both machines | P2 | Low | Not started |
-| 6 | Branch merge: `refactor/restructure-v3` → main | P1 | Low | APPROVED |
+| 1 | CANON lean-out (3 merge pairs approved) | P1 | Medium | DONE (`b4f4490`) |
+| 2 | Build `sn_expand.py` for ${DEF} variable resolution | P1 | Medium | DONE (`5b90325`) |
+| 3 | Codex CLI + Gemini CLI AGENTS.md configuration | P2 | Low | DONE (AGENTS.md expanded) |
+| 4 | Gemini CLI API key setup on Account 2 | P2 | Low | SOVEREIGN PENDING |
+| 5 | Install `fswatch` on both machines | P2 | Low | DONE (both machines) |
+| 6 | Branch merge: `refactor/restructure-v3` → main | P1 | Low | DONE (merged + branch deleted) |
 
 ### Phase 2: FDIS Foundation
 

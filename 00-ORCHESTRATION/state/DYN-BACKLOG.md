@@ -18,7 +18,7 @@
 ### Near-Term
 5. ~~**CANON lean-out**: 3 merge pairs~~ — DONE (25000+25010, 25200+25210, 00007+00008 merged at `b4f4490`)
 6. ~~**Build sn_expand.py**~~ — DONE (9 DEF blocks, tested, committed at `5b90325`)
-7. **CLI tool activation**: Codex CLI + Gemini CLI — AGENTS.md created, both CLIs installed. SOVEREIGN ACTION NEEDED: API key setup on Account 2, `brew install fswatch` on both machines
+7. ~~**CLI tool activation**: Codex CLI + Gemini CLI~~ — AGENTS.md expanded (Adjudicator + Cartographer), both CLIs installed, fswatch installed on both machines. SOVEREIGN ACTION NEEDED: Gemini CLI API key setup on Account 2
 8. **Desktop metabolization pass**: P0-P1 items from REF-DESKTOP_CAPTURE_INVENTORY.md
 9. ~~**Live CANON ticker**: Design dynamic model/capability tracking system~~ — DONE (ARCH-LIVE_CANON_TICKER.md at `e059619`)
 
@@ -40,12 +40,12 @@
 | PROJ-012 | IN_PROGRESS | P2 | 95% | Multi-CLI Integration — Both installed, AGENTS.md created, API keys pending |
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
-| PROJ-016 | IN_PROGRESS | P3 | 30% | Skills Conversion — 2/7 done (intentions.md, pedigree.md); 5 function conversions pending |
+| PROJ-016 | COMPLETE | — | 100% | Skills Conversion — 7/7 done (intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize) |
 | PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→550 files across all audits) |
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |
 | PROJ-ACCT | COMPLETE | — | 100% | Account Restructure — A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid |
-| PROJ-NEO-BLITZ | IN_PROGRESS | P0 | 95% | Neo-Blitzkrieg Buildout — hooks/automation/CANON lean-out/dispatch/triage done, CLI keys + Linear pending |
+| PROJ-NEO-BLITZ | COMPLETE | — | 100% | Neo-Blitzkrieg Buildout — all automation operational, AGENTS.md expanded, watch_dispatch.sh processing hooks live, branch deleted. Remaining: Gemini API key (Sovereign), Linear (PROJ-LINEAR) |
 | PROJ-TERMINOLOGY | COMPLETE | — | 100% | Terminology Sweep — Deviser→Vanguard across 15 files, Rosetta Stone #95 updated, Special Forces mode added (#168) |
 | PROJ-CANON-LEAN | COMPLETE | — | 100% | CANON Lean-Out — 3 pairs merged (82→79 CANON files) |
 | PROJ-SIGMA-AUDIT | COMPLETE | — | 100% | 05-SIGMA Deep Audit — 43→16 files (63% reduction), 5761 lines deleted |
@@ -53,7 +53,7 @@
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
-| PROJ-LIVE-CANON | IN_PROGRESS | P1 | 30% | Live CANON Ticker — design complete, implementation pending Sovereign approval |
+| PROJ-LIVE-CANON | IN_PROGRESS | P1 | 60% | Live CANON Ticker — MVP deployed: DYN-TICKER_FEED.md, FIDS board, economics table in MODEL-INDEX.md. Remaining: automation hooks, CANON-level integration |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
 
 ---
@@ -145,7 +145,7 @@ NEW (Restructure Sprint)
 ---------
 PROJ-RESTRUCTURE (DONE) ---> PROJ-CANON-LEAN (DONE) --> PROJ-LIVE-CANON (30%)
 PROJ-AVATARS (DONE) -------> PROJ-SN-VARS (DONE) ----> [complete]
-PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (90%) ---> CLI keys (Sovereign)
+PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (DONE) --> CLI keys (Sovereign)
                                                     --> PROJ-LINEAR
                                                     --> PROJ-RESEARCH
 ```
@@ -167,6 +167,8 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (90%) ---> CLI keys (Sovereign)
 | PROJ-ORCH-AUDIT | 13+ | 00-ORCHESTRATION 142→30 files (79% reduction). state/ 24→21, archive/ 53→9 (83% compaction). Oracle genealogy + design decisions compacted |
 | PROJ-ENGINE-AUDIT | 13+ | 02-ENGINE 114→76 files (33% reduction), 32 deleted, 6 to research |
 | PROJ-TERMINOLOGY | 13+ | Deviser→Vanguard across 15 files, Rosetta Stone v2.1.0 |
+| PROJ-016 | 13+ | 7 skills: intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize |
+| PROJ-NEO-BLITZ | 13+ | Full automation pipeline: 5 hooks, dispatch system, watch_dispatch.sh, AGENTS.md, CANON lean-out, sn_expand.py |
 
 ---
 

@@ -14,12 +14,12 @@ PROJ-012,Multi-CLI Integration,initiative,in_progress,P2,Oracle12,PROJ-011,12,mo
 PROJ-013,Claude Project System Prompt,initiative,not_started,P2,Oracle11,PROJ-002,11,modal1,null,2026-01-08,2026-01-08,This Oracle thread's identity layer; Layer 5 in memory architecture
 PROJ-014,Multi-Account Synchronization,initiative,active,P2,Oracle11,null,11,modal1,null,2026-01-08,2026-01-09,REF-MULTI_ACCOUNT_SYNC.md created; corpus-first model documented; inter-IIC flow patterns specified
 PROJ-015,Browser Automation Architecture,initiative,not_started,P3,Oracle12+,PROJ-014,12,modal1,null,2026-01-08,2026-01-08,IIC account cloning; vendor lock-in bypass
-PROJ-016,Skills Conversion,initiative,in_progress,P3,Oracle12+,null,12+,modal1,null,2026-01-09,2026-01-12,ACTIVE: 2 process skills created (intentions.md; pedigree.md); 5 function conversions pending (transcribe_youtube; transcribe_interview; integrate; readize; listenize)
+PROJ-016,Skills Conversion,initiative,complete,P3,Oracle13+,null,13+,modal1,null,2026-01-09,2026-02-02,COMPLETE: 7/7 skills (intentions; pedigree; transcribe_youtube; transcribe_interview; integrate; readize; listenize)
 PROJ-RESTRUCTURE,Wholesale Restructure,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-01-22,2026-02-01,COMPLETE: 1267→550 files; 8→5 dirs; 9 phases
 PROJ-AVATARS,Avatar Pantheon v3,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-01-26,2026-02-01,COMPLETE: 10 avatars (Gemini bifurcated); Pantheon v3
 PROJ-SN-VARS,SN Variable System,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-01-28,2026-02-01,COMPLETE: 9 DEF blocks; sn_expand.py built and tested
 PROJ-ACCT,Account Restructure,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-01-27,2026-02-01,COMPLETE: A1=Max+Plus; A2=Pro+AIPro; A3=Unpaid
-PROJ-NEO-BLITZ,Neo-Blitzkrieg Buildout,sprint,in_progress,P0,Oracle13,null,13,modal1,null,2026-01-28,2026-02-02,95%: hooks/automation/dispatch/triage done; CLI keys + Linear pending
+PROJ-NEO-BLITZ,Neo-Blitzkrieg Buildout,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-01-28,2026-02-02,COMPLETE: all automation operational; AGENTS.md expanded; watch_dispatch.sh processing hooks live; branch deleted
 PROJ-TERMINOLOGY,Terminology Sweep,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-02-01,2026-02-01,COMPLETE: Deviser→Vanguard across 15 files; Rosetta Stone v2.1.0
 PROJ-CANON-LEAN,CANON Lean-Out,sprint,complete,P1,Oracle13,null,13,modal1,null,2026-02-01,2026-02-01,COMPLETE: 3 pairs merged (82→79 CANON files)
 PROJ-SIGMA-AUDIT,05-SIGMA Deep Audit,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-02-01,2026-02-01,COMPLETE: 43→16 files (63% reduction); 5761 lines deleted
@@ -27,5 +27,5 @@ PROJ-ORCH-AUDIT,00-ORCHESTRATION Deep Audit,sprint,complete,P0,Oracle13,null,13,
 PROJ-ENGINE-AUDIT,02-ENGINE Deep Audit,sprint,complete,P0,Oracle13,null,13,modal1,null,2026-02-01,2026-02-01,COMPLETE: 114→76 files (33% reduction); 32 deleted; 6 to research
 PROJ-RESEARCH,Research Pipeline,initiative,not_started,P2,TBD,null,TBD,modal1,null,2026-02-01,2026-02-02,Gemini CLI; Codex CLI; OpenClaw consensus research
 PROJ-LINEAR,Linear Onboarding,initiative,not_started,P2,TBD,null,TBD,modal1,null,2026-02-01,2026-02-02,PM tool for backlog management
-PROJ-LIVE-CANON,Live CANON Ticker,initiative,in_progress,P1,TBD,null,TBD,modal1,null,2026-02-01,2026-02-02,30%: ARCH-LIVE_CANON_TICKER design complete; implementation pending
+PROJ-LIVE-CANON,Live CANON Ticker,initiative,in_progress,P1,Oracle13+,null,13+,modal1,null,2026-02-01,2026-02-02,60%: MVP deployed (DYN-TICKER_FEED.md; FIDS board; economics table); automation + CANON integration pending
 PROJ-DESKTOP,Desktop Metabolization,initiative,in_progress,P1,Oracle13,null,13,modal1,null,2026-01-30,2026-02-02,85%: P0-P1 complete; P2 meta_narrative ingested; Coherence/ deferred (193 files)
