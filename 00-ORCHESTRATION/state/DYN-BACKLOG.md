@@ -40,7 +40,7 @@
 | PROJ-012 | IN_PROGRESS | P2 | 95% | Multi-CLI Integration — Both installed, AGENTS.md created, API keys pending |
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
-| PROJ-016 | NOT_STARTED | P3 | 0% | Skills Conversion (top 5 XML functions) |
+| PROJ-016 | IN_PROGRESS | P3 | 30% | Skills Conversion — 2/7 done (intentions.md, pedigree.md); 5 function conversions pending |
 | PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→550 files across all audits) |
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |

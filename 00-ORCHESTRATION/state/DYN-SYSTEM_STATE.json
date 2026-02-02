@@ -7,10 +7,8 @@
     "stream": "hygiene"
   },
   "active_tasks": [
-    "TASK-102",
     "TASK-103",
     "TASK-104",
-    "TASK-108",
     "TASK-117"
   ],
   "platform_status": {

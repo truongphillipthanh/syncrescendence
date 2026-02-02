@@ -87,7 +87,6 @@ Repository (Account 1 Origin)
 ├── 02-ENGINE/         # Functions, prompts, model profiles, queue items
 ├── 04-SOURCES/        # Processed sources
 ├── 05-SIGMA/          # Operational knowledge (σ) + memory + exempla
-│   ├── synthesis/     # Platform references
 │   ├── mechanics/     # Deep-dive mechanisms
 │   └── practice/      # Implementation patterns
 ├── -INBOX/            # Incoming from cloud
