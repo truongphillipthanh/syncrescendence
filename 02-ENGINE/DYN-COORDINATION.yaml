@@ -223,14 +223,14 @@ coordination:
   # Communication patterns
   communication:
     oracle_to_code:
-      method: "directive_files"
-      location: "00-ORCHESTRATION/directives/"
-      pattern: "DIRECTIVE-{number}{stream}.md"
+      method: "dispatch_folders"
+      location: "-INBOX/{agent}/"
+      pattern: "Task files dispatched per-agent via -INBOX subfolders"
 
     code_to_oracle:
-      method: "execution_logs"
-      location: "00-ORCHESTRATION/execution_logs/"
-      pattern: "EXECUTION_LOG-{date}-{directive}.md"
+      method: "outgoing_staging"
+      location: "-OUTGOING/"
+      pattern: "Prompt staging for Sovereign relay; hooks auto-log sessions"
 
     inter_instance:
       method: "git_branches"

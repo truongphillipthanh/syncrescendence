@@ -65,4 +65,4 @@ The τ-chain (Transcendence/Wisdom) in the Celestial Cosmology maps to σ₁ (Te
 | σ₄ | Git repo, ledgers, state files | Active |
 | σ₅ | 8-role Constellation, model profiles | Active |
 | σ₆ | 3-account structure, platform registries | Active |
-| σ₇ | 07-SIGMA7/ (22 docs), CLIs, OpenClaw | Active + Expanding |
+| σ₇ | 05-SIGMA/ (16 docs), CLIs, OpenClaw | Active + Expanding |

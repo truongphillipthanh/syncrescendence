@@ -221,8 +221,7 @@ macros:
       - type: execute_shell
         script: |
           cd /Users/home/Desktop/syncrescendence
-          LATEST=$(ls -t 00-ORCHESTRATION/directives/DIRECTIVE-04*.md | head -1)
-          open -a "Visual Studio Code" "$LATEST"
+          open -a "Visual Studio Code" 00-ORCHESTRATION/state/DYN-BACKLOG.md
 
     enabled: true
 
@@ -235,7 +234,7 @@ macros:
       - type: execute_shell
         script: |
           cd /Users/home/Desktop/syncrescendence
-          open -a "Visual Studio Code" 00-ORCHESTRATION/state/DYN-DASHBOARD.md
+          open -a "Visual Studio Code" 00-ORCHESTRATION/state/DYN-BACKLOG.md
 
     enabled: true
 

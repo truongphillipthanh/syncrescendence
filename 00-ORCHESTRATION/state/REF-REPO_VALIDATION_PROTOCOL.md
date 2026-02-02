@@ -92,8 +92,8 @@ DATE=$(date +%Y%m%d)
 mkdir -p "./-OUTGOING/${DATE}-repo_validation"
 
 # Run checks
-bash 00-ORCHESTRATION/scripts/structural_verify.sh > struct.log 2>&1
-bash 02-ENGINE/scripts/ops_lint.sh > lint.log 2>&1
+bash 00-ORCHESTRATION/scripts/verify_all.sh > struct.log 2>&1
+bash 00-ORCHESTRATION/scripts/ops_lint.sh > lint.log 2>&1
 
 # Compile report
 # (see command template for full logic)

@@ -248,7 +248,7 @@ make sync
 
 ### A. Script Library
 
-**Location**: `02-ENGINE/scripts/`
+**Location**: `00-ORCHESTRATION/scripts/`
 
 **Categories**:
 - `ledger_*.py` — CSV validation and update scripts

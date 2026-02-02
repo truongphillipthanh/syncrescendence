@@ -103,7 +103,7 @@ When traversing the corpus via connector, optimize token usage:
 
 ### Workflow 1: Claude Interprets → ChatGPT Compiles
 1. Claude reads user intent + relevant CANON
-2. Claude writes directive to `00-ORCHESTRATION/directives/`
+2. Claude dispatches task to `-INBOX/{agent}/`
 3. Claude commits and pushes to `main`
 4. ChatGPT reads directive via connector
 5. ChatGPT generates implementation

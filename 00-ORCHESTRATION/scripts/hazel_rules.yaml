@@ -135,7 +135,7 @@ rules:
         value: md
     actions:
       - type: move
-        destination: ~/Desktop/syncrescendence/00-ORCHESTRATION/directives/
+        destination: ~/Desktop/syncrescendence/-INBOX/commander/
       - type: notification
         message: "Directive filed"
     enabled: false  # Disabled - requires validation before auto-filing
@@ -213,8 +213,6 @@ rules:
 1. Open Hazel (macOS app)
 2. Add folders to watch:
    - ~/Downloads
-   - ~/Desktop/syncrescendence/00-ORCHESTRATION/execution_logs/
-   - ~/Desktop/syncrescendence/00-ORCHESTRATION/directives/
    - ~/Desktop/syncrescendence/-INBOX/
    - ~/Desktop/syncrescendence/ (root, for cleanup rules)
 3. Create rules matching specifications above
