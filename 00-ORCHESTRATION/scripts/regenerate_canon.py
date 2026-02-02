@@ -94,7 +94,7 @@ def get_sample_platform_data():
             }
         ],
         "total_monthly_cost": 100,
-        "oracle_platform": "Gemini",
+        "oracle_platform": "Grok",
         "vanguard_platform": "ChatGPT",
         "commander_platform": "Claude",
         "claude": {
