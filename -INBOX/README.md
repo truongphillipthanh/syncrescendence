@@ -2,6 +2,8 @@
 
 **Purpose**: Autonomous task dispatch surface for CLI agents. Each agent watches its subfolder for incoming task files. Architecture validated against community agent orchestration patterns (Supervisor, Coordinator, Self-Discovery).
 
+**IO Model**: v2.0 (2026-02-06)
+
 ---
 
 ## Architecture
@@ -15,14 +17,53 @@
   ajna/           OpenClaw Opus 4.5 — integration, orchestration
 ```
 
+## IO Model v2
+
+### Agent-to-Agent = Direct Inbox Delivery
+
+Agents write directly to the destination agent's inbox folder. No intermediate staging.
+
+```
+Ajna results for Psyche   → -INBOX/psyche/
+Psyche tasks for Ajna     → -INBOX/ajna/
+Commander results for Ajna → -INBOX/ajna/
+```
+
+### Agent-to-Web = -OUTGOING (PROMPT-* only)
+
+Web relay prompts go to `-OUTGOING/` with the `PROMPT-` prefix for Sovereign relay. See `-OUTGOING/README.md`.
+
+### Sovereign Decisions = -SOVEREIGN/
+
+Human-in-the-loop decisions that require Phillip's judgment. Different pattern from agent-to-agent dispatch.
+
+---
+
 ## How It Works
 
 1. **Any agent** (or the Sovereign) writes a task file to a target agent's folder
 2. The target agent's **filesystem watcher** (`watch_dispatch.sh`) detects the new file
-3. Agent marks task **IN_PROGRESS**, processes it, writes results
-4. On completion: agent **FINGERPRINTs back** (writes state before releasing)
-5. Results go to `-OUTGOING/` (for web relay) or committed directly (for CLI agents)
-6. Processed task files are **marked COMPLETE** and archived
+3. Watcher **atomically claims** the file: `TASK-xxx.md` → `TASK-xxx.md.claimed-by-{agent}-{hostname}`
+4. Agent processes the task, writes results to the originator's inbox (or commits directly)
+5. On completion: file renamed to `.complete` and **ledger entry appended** (`DYN-GLOBAL_LEDGER.md`)
+6. On failure: file renamed to `.failed` and ledger entry appended
+
+## Claim-Locking Protocol
+
+To prevent duplicate consumers when multiple watchers run concurrently:
+
+```
+# Claim phase (atomic rename)
+mv TASK-xxx.md TASK-xxx.md.claimed-by-{agent}-{hostname}
+
+# Only the claimer proceeds to execution
+
+# Completion phase
+mv TASK-xxx.md.claimed-by-{agent}-{hostname} TASK-xxx.md.complete
+# (or .failed on error)
+```
+
+The atomic rename ensures exactly one consumer processes each task, even across machines syncing via git.
 
 ## Task File Format
 
@@ -44,12 +85,26 @@
 
 ## Expected Output
 {Where results should go, what format}
+```
 
-## Completion Protocol
-1. Write results to -OUTGOING/ or commit directly
-2. FINGERPRINT back: write completion state before releasing
-3. Update Status to COMPLETE (or FAILED with reason)
-4. Notify originator (if cross-machine, via git push)
+## Result File Format
+
+Results are written to the **originating agent's inbox** (not -OUTGOING):
+
+```markdown
+# RESULT-{source-agent}-{DATE}-{TOPIC}
+
+**From**: {executing agent}
+**To**: {originating agent}
+**Task**: {original TASK filename}
+**Status**: COMPLETE | PARTIAL
+**Fingerprint**: {git short hash at completion}
+
+## Results
+{What was accomplished}
+
+## Artifacts
+{Files created/modified}
 ```
 
 ## Routing Guide
@@ -62,6 +117,7 @@
 | QA, extraction, specs | psyche/ | GPT-5.2 synthesis |
 | Integration, orchestration | ajna/ | Local commit authority |
 | Sovereign judgment needed | -SOVEREIGN/ | Human decision required |
+| Web app prompts | -OUTGOING/ | PROMPT-* files for Sovereign relay |
 
 ## Research-Backed Patterns (from 05-SIGMA corpus)
 
@@ -84,7 +140,7 @@ Every agent receiving a FINGERPRINT.md (web handoff) or TASK file must write sta
 
 Agents on different machines sync via git:
 - **M1 Mac mini** (Ajna): watches `ajna/`, commits results
-- **M4 MacBook Air** (Psyche): watches `psyche/`, writes to `-OUTGOING/`
+- **M4 MacBook Air** (Psyche): watches `psyche/`, writes to originator inbox
 - Both machines: `git pull` before processing, `git push` after completing
 
 ## Tooling
@@ -92,5 +148,8 @@ Agents on different machines sync via git:
 | Script | Purpose |
 |--------|---------|
 | `dispatch.sh <agent> "TOPIC" "DESC"` | Create task file in agent's folder |
-| `watch_dispatch.sh [agent]` | Watch an agent's folder for new tasks |
+| `watch_dispatch.sh [agent]` | Watch an agent's folder for new tasks (with claim-locking) |
 | `dispatch_to_psyche.sh` | Convenience wrapper for Psyche dispatch |
+| `triage_inbox.sh <agent>` | List PENDING/IN_PROGRESS tasks, highlight stale |
+| `append_ledger.sh` | Append event to DYN-GLOBAL_LEDGER.md |
+| `triage_outgoing.sh` | Full pipeline observability |

@@ -3,6 +3,9 @@
 # Usage: bash watch_dispatch.sh [AGENT_NAME]
 # Requires: fswatch (brew install fswatch) or uses polling fallback
 #
+# IO Model v2: Claim-locking prevents duplicate consumers.
+# Flow: detect PENDING → atomic claim (rename) → process → complete/fail → ledger append
+#
 # This script is designed to run as a background process on the target machine:
 #   - On M1 Mac mini: bash watch_dispatch.sh ajna
 #   - On M4 MacBook Air: bash watch_dispatch.sh psyche
@@ -21,6 +24,8 @@ fi
 AGENT="${1:-psyche}"
 WATCH_DIR="$REPO_ROOT/-INBOX/$AGENT"
 POLL_INTERVAL=30  # seconds
+HOSTNAME_SHORT=$(hostname -s 2>/dev/null || echo "local")
+SCRIPTS_DIR="$REPO_ROOT/00-ORCHESTRATION/scripts"
 
 # Validate agent folder exists
 if [ ! -d "$WATCH_DIR" ]; then
@@ -32,31 +37,48 @@ fi
 echo "[Watch] Watching -INBOX/$AGENT/ for task files"
 echo "[Watch] Directory: $WATCH_DIR"
 echo "[Watch] Poll interval: ${POLL_INTERVAL}s"
+echo "[Watch] Claim tag: ${AGENT}-${HOSTNAME_SHORT}"
 echo "[Watch] Press Ctrl+C to stop"
 echo ""
 
-process_task() {
+claim_task() {
     local file="$1"
     local basename=$(basename "$file")
+    local claimed_name="${file}.claimed-by-${AGENT}-${HOSTNAME_SHORT}"
 
-    echo "[Watch] $(date '+%H:%M:%S') New task detected: $basename"
-
-    # Mark IN_PROGRESS (Self-Discovery pattern: agent claims work)
-    if command -v sed &>/dev/null; then
-        sed -i '' 's/Status: PENDING/Status: IN_PROGRESS/' "$file" 2>/dev/null
+    # Atomic claim via rename — if this fails, another watcher claimed it first
+    if ! mv "$file" "$claimed_name" 2>/dev/null; then
+        echo "[Watch] $(date '+%H:%M:%S') Claim failed (already claimed): $basename"
+        return 1
     fi
 
+    echo "[Watch] $(date '+%H:%M:%S') Claimed: $basename"
+
+    # Append ledger: CLAIM event
+    if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
+        bash "$SCRIPTS_DIR/append_ledger.sh" CLAIM "$AGENT" "$AGENT" "$basename" 2>/dev/null || true
+    fi
+
+    echo "$claimed_name"
+}
+
+process_task() {
+    local claimed_file="$1"
+    local original_basename="$2"
+
+    echo "[Watch] $(date '+%H:%M:%S') Processing: $original_basename"
+
     # Show task preview
-    if grep -q "^## Objective" "$file" 2>/dev/null; then
+    if grep -q "^## Objective" "$claimed_file" 2>/dev/null; then
         echo "[Watch] Objective:"
-        sed -n '/^## Objective/,/^---/p' "$file" | head -5
+        sed -n '/^## Objective/,/^---/p' "$claimed_file" | head -5
     fi
 
     echo "[Watch] ---"
 
     # Route to agent-specific CLI
     local task_content
-    task_content="$(cat "$file")"
+    task_content="$(cat "$claimed_file")"
     case "$AGENT" in
         commander)
             claude -p "$task_content" 2>&1
@@ -78,14 +100,43 @@ process_task() {
 
     local exit_code=$?
 
-    # Mark completion status based on CLI exit code
+    # Complete or fail — rename accordingly and append ledger
     if [ $exit_code -eq 0 ]; then
-        sed -i '' 's/Status: IN_PROGRESS/Status: COMPLETE/' "$file" 2>/dev/null
-        echo "[Watch] $(date '+%H:%M:%S') Task completed: $basename"
+        local complete_name="${claimed_file%.claimed-by-*}.complete"
+        mv "$claimed_file" "$complete_name" 2>/dev/null || true
+        echo "[Watch] $(date '+%H:%M:%S') Task completed: $original_basename"
+        if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
+            bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$original_basename" 2>/dev/null || true
+        fi
     else
-        sed -i '' 's/Status: IN_PROGRESS/Status: FAILED/' "$file" 2>/dev/null
-        echo "[Watch] $(date '+%H:%M:%S') Task FAILED (exit $exit_code): $basename"
+        local failed_name="${claimed_file%.claimed-by-*}.failed"
+        mv "$claimed_file" "$failed_name" 2>/dev/null || true
+        echo "[Watch] $(date '+%H:%M:%S') Task FAILED (exit $exit_code): $original_basename"
+        if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
+            bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$original_basename" 2>/dev/null || true
+        fi
     fi
+}
+
+handle_task() {
+    local file="$1"
+    local basename=$(basename "$file")
+
+    # Only process TASK-*.md files with PENDING status
+    if [[ "$basename" != TASK-* ]] || [[ "$basename" != *.md ]]; then
+        return
+    fi
+
+    if ! grep -q "Status.*PENDING" "$file" 2>/dev/null; then
+        return
+    fi
+
+    # Attempt atomic claim
+    local claimed_file
+    claimed_file=$(claim_task "$file") || return 0
+
+    # Process the claimed task
+    process_task "$claimed_file" "$basename"
 }
 
 # Check if fswatch is available
@@ -93,11 +144,7 @@ if command -v fswatch &>/dev/null; then
     echo "[Watch] Using fswatch (event-driven, low overhead)"
     echo ""
     fswatch -0 --event Created --event Updated "$WATCH_DIR" | while IFS= read -r -d '' file; do
-        BASENAME=$(basename "$file")
-        # Only process TASK-*.md files with PENDING status
-        if [[ "$BASENAME" == TASK-* ]] && [[ "$BASENAME" == *.md ]] && grep -q "Status: PENDING" "$file" 2>/dev/null; then
-            process_task "$file"
-        fi
+        handle_task "$file"
     done
 else
     echo "[Watch] fswatch not found. Using polling fallback (${POLL_INTERVAL}s interval)"
@@ -106,9 +153,7 @@ else
     while true; do
         for file in "$WATCH_DIR"/TASK-*.md; do
             [ -f "$file" ] || continue
-            if grep -q "Status: PENDING" "$file" 2>/dev/null; then
-                process_task "$file"
-            fi
+            handle_task "$file"
         done
         sleep "$POLL_INTERVAL"
     done

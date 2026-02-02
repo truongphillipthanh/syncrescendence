@@ -89,3 +89,9 @@ echo "[Dispatch] Created: $TASK_FILE"
 echo "[Dispatch] Target: $AVATAR"
 echo "[Dispatch] Topic: $TOPIC"
 echo "[Dispatch] Agent watcher should pick this up autonomously."
+
+# Append ledger: DISPATCH event
+LEDGER_SCRIPT="$REPO_ROOT/00-ORCHESTRATION/scripts/append_ledger.sh"
+if [ -x "$LEDGER_SCRIPT" ]; then
+    bash "$LEDGER_SCRIPT" DISPATCH "$CALLER" "$AGENT" "TASK-${DATE}-${TOPIC_SLUG}.md" 2>/dev/null || true
+fi
