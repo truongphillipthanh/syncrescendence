@@ -570,28 +570,88 @@ Significant community patterns without internal equivalents.
 | 166 | Teleport | ALIGNED | Session mobility for Claude Code instances | No equivalent |
 | 167 | Disposition Categories | ADAPTED | ACTIVE/SELECTED/EVALUATING/DEFERRED/SUNSET/ELIMINATED | Technology radar |
 | 168 | Special Forces Mode | UNIQUE | Sovereign→Ajna direct command mode: surgical, no relay, immediate execution | No equivalent |
+| 169 | Clarescence / Claresce | UNIQUE | Value-guided progressive refinement — the meta-operation of running any decision through the full Syncrescendence evaluation stack (10 passes) to converge on the high-fidelity authentic path forward. From Latin *clarescere*: to grow clear. See detailed mapping below. | No equivalent |
 
 ---
 
-## Status Distribution (167 terms)
+### 169. Clarescence / Claresce (Value-Guided Progressive Refinement)
 
-| Status | Original 18 | New 149 | Total |
+**Status**: UNIQUE
+
+**Internal Definition**: The meta-operation of running any decision, question, or path through the *entire* Syncrescendence evaluation stack to converge on the authentic path forward. Each evaluative layer is a "render pass" that adds fidelity; the composite of all passes produces a high-resolution recommendation.
+
+**Etymology**: From Latin *clarescere* — "to become clear, to grow bright." The -esce suffix encodes iterative process ("in the process of becoming") at the morpheme level. Phonetic sibling to Syncrescendence itself.
+
+**Pronunciation**: Verb: klah-RESS (2 syllables). Noun: klah-RESS-ence (3 syllables).
+
+**Metaphor Stack**:
+- **Linear regression**: Finding the line of best fit through scattered values, constraints, and intentions
+- **Diffusion model**: Starting from noise (entropy/uncertainty), iteratively denoising toward signal, guided by the Triumvirate as conditioning prompt
+- **Render passes**: Progressive resolution increase — each pass adds a layer of fidelity until photorealistic
+
+**The 10 Clarescence Passes**:
+
+| Pass | Layer | Reference | Question |
+|------|-------|-----------|----------|
+| 1 | Triumvirate Calibration | ARCH-INTENTION_COMPASS.md + DYN-BACKLOG.md | Where headed? Where now? Does this serve the destination? |
+| 2 | 18+ Lens Evaluation | REF-DECISION_ATOMS.md | Passes Syncrescendent Route, Bitter Lesson, Antifragile, First Principles, Systems Thinking, etc.? (12/18 threshold) |
+| 3 | CANON Coherence | 01-CANON/ (79 files) | Aligns with constitutional knowledge? Coheres with existing ontology? |
+| 4 | Omni-Quality Aspiration | CANON-24000 | Moves toward Omnibenevolence, Omniscience, Omnipotence, Omnipresence? |
+| 5 | Five Faces Alignment | CANON-11000 | Honors Sensing, Meaning-Making, Intention-Formation, Embodiment, Strategic Harmony? |
+| 6 | Rosetta Precision | REF-ROSETTA_STONE.md | Right terms? Inventing where should adopt? Adopting where should invent? |
+| 7 | Backlog Coherence | DYN-BACKLOG.md + DYN-TASKS.csv | Fits current priorities? Unblocks or creates new blocks? |
+| 8 | Cascading Effects (nth-order) | Intention Compass dependency map | 2nd, 3rd, nth-order consequences? What breaks? What compounds? |
+| 9 | Energy State Awareness | Sovereignty Constitution v0 | Sustainable at current energy? Respects circadian, cathedral, modal segregation? |
+| 10 | Authenticity Gate | SOUL of Syncrescendence | True to who we are? Preserves sovereignty? Would Sovereign at peak clarity approve? |
+
+**Invocation Patterns**:
+- Command: `/claresce` — invoke full 10-pass evaluation
+- Spoken: "Claresce the path forward on [topic]."
+- Partial: "Run passes 1-3 on [topic]." (lightweight clarescence)
+- Full: "Full clarescence — all 10 passes."
+
+**Output Format**: A convergent recommendation — not a list of options, but a single authenticated path that has survived every evaluative layer. Structured as:
+```
+CLARESCENCE: [topic]
+Passes: [which passes run]
+Fidelity: [partial|full]
+Convergent Path: [the recommendation]
+Falsifier: [what would make this wrong]
+Confidence: [low|medium|high]
+```
+
+**Community Mapping**: No equivalent. Community has ad-hoc decision heuristics and verification checklists, but no unified progressive refinement meta-operation with exhaustive criteria and formal invocation.
+
+**Reconciliation**: Preserve entirely. This is the operational verb of the Syncrescendence — the act of *doing* what the system is designed to do.
+
+---
+
+## Status Distribution (168 terms)
+
+| Status | Original 18 | New 150 | Total |
 |--------|------------|---------|-------|
-| UNIQUE | 4 | 117 | 121 |
+| UNIQUE | 4 | 118 | 122 |
 | ADAPTED | 5 | 16 | 21 |
 | ALIGNED | 2 | 5 | 7 |
 | DEPRECATED | 6 | 4 | 10 |
 | ACTIVE | 1 | 0 | 1 |
 | UNKNOWN | 0 | 0 | 0 |
-| **Total** | **18** | **142** | **160** |
+| **Total** | **18** | **143** | **161** |
 
-*Note: 7 terms shared between categories bring distinct-term total to 167.*
+*Note: 7 terms shared between categories bring distinct-term total to 168.*
 
-79% of new terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The densest concentration is in the CANON cosmological hierarchy, the function library, and the Constellation architecture.
+79% of terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The densest concentration is in the CANON cosmological hierarchy, the function library, and the Constellation architecture.
 
 ---
 
 ## Version History
+
+**v2.2.0** (2026-02-06): Clarescence formalization
+- New term #169: Clarescence/Claresce — value-guided progressive refinement meta-operation
+- 10-pass evaluation framework formalized with artifact references
+- Invocation patterns: `/claresce`, spoken forms, partial/full modes
+- Output format spec added
+- Authority: Ajna (Opus 4.5) formalizing Sovereign-approved concept
 
 **v2.1.0** (2026-02-01): Sovereign terminology reconciliation
 - Applied 13 Sovereign clarifications from `-INBOX/rosetta_stone_notes.md`
