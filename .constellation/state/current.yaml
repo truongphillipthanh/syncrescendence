@@ -1,4 +1,4 @@
-fingerprint: 04a5a74
-timestamp: 2026-02-02T18:56:55Z
+fingerprint: f8b7879
+timestamp: 2026-02-02T19:18:58Z
 branch: main
-message: chore: Blitzkrieg 51 — low-hanging-fruit sweep
+message: feat: harden plumbing — lint, verify, triage, watchers (Psyche TASK-20260202)
