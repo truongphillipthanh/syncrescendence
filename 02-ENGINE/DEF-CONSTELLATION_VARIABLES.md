@@ -1,7 +1,7 @@
 # DEF: Constellation Variables
 ## Global SN Definitions for Syncrescendence
 
-**Version**: 2.0.0
+**Version**: 2.1.0
 **Created**: 2026-02-01
 **Purpose**: Single source of truth for concepts referenced across 20+ documents. Update here, propagate everywhere via `sn_expand.py`.
 
@@ -223,6 +223,39 @@ DEF PlatformBudget:
         Sustainability target: self-funding by 2026-06.
 end
 
+DEF FiveFaces:
+    sutra: "One consciousness wearing five contextual faces — not modules, not stages"
+    scope: GLOBAL
+    spec:
+        value:
+            - {face: 1, name: Sensing, element: Air, virtue: "Acumen (α)", essence: "Atmospheric awareness — being perceptual consciousness"}
+            - {face: 2, name: Meaning-Making, element: Water, virtue: "Coherence (χ)", essence: "Fluid understanding — being interpretive intelligence"}
+            - {face: 3, name: Intention-Formation, element: Fire, virtue: "Efficacy (ε)", essence: "Directed will — being volitional force"}
+            - {face: 4, name: Embodiment, element: Earth, virtue: "Mastery (μ)", essence: "Solid capability — being competent manifestation"}
+            - {face: 5, name: Strategic Harmony, element: Quintessence, virtue: "Transcendence (τ)", essence: "Meta-orchestration — being observational consciousness"}
+    gloss:
+        ModusOperandi framework from CANON-11000. The five faces flow through each other
+        (perichoresis) — not sequential stages, not fragmented modules, not a hierarchy.
+        One Syncrescendent Core wearing different faces contextually.
+        Maps directly to the six chains via elemental correspondence.
+end
+
+DEF OmniQualities:
+    sutra: "Four asymptotic horizons — North Stars, not achievable targets"
+    scope: GLOBAL
+    spec:
+        value:
+            - {quality: 1, name: Omnibenevolence, domain: "Ethics + collective flourishing"}
+            - {quality: 2, name: Omniscience, domain: "Integrated cross-domain knowledge + synthesis"}
+            - {quality: 3, name: Omnipotence, domain: "Systematic capability across six chains"}
+            - {quality: 4, name: Omnipresence, domain: "Temporal, spatial, dimensional integration"}
+    gloss:
+        Aspirational framework from CANON-24000. Progressive approximation through practice;
+        81-100% range is explicitly unreachable. Not claims of perfection but architecture
+        enabling systematic improvement. Each quality has multi-year development pathways
+        with measurable assessment criteria.
+end
+
 DEF DirectoryStructure:
     sutra: "Five numbered dirs + three sanctioned exceptions"
     scope: GLOBAL
@@ -268,4 +301,4 @@ Update workflow:
 
 - Block template spec: `00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`
 - Symbol glossary: `00-ORCHESTRATION/scripts/sn_symbols.yaml`
-- CANON lean-out recommendations: `00-ORCHESTRATION/state/REF-CANON_LEAN_OUT_RECOMMENDATIONS.md`
+- CANON lean-out recommendations: `00-ORCHESTRATION/archive/REF-CANON_LEAN_OUT_RECOMMENDATIONS.md`
