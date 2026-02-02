@@ -2,7 +2,7 @@
 ## Frontier AI Model Registry
 
 **Document Type**: OPERATIONAL (Living Document)
-**Last Updated**: 2026-01-02
+**Last Updated**: 2026-02-01
 **Refresh Cycle**: As models release
 **Purpose**: Track frontier model capabilities for IIC constellation routing
 
@@ -159,39 +159,17 @@
 
 ---
 
-## PROFILE STUBS (To Complete)
+## PROFILE STUBS (Deferred)
 
-The following detailed profiles should be created in `profiles/`:
-
-### Priority (Current Production)
-- [ ] MODEL_PROFILE-Claude-4.5-Opus.yaml
-- [ ] MODEL_PROFILE-Claude-4.5-Sonnet.yaml
-- [ ] MODEL_PROFILE-GPT-5.2.yaml
-- [ ] MODEL_PROFILE-Gemini-3-Pro.yaml
-- [ ] MODEL_PROFILE-Grok-4.yaml
-
-### Secondary
-- [ ] MODEL_PROFILE-Claude-4.5-Haiku.yaml
-- [ ] MODEL_PROFILE-GPT-4.1.yaml
-- [ ] MODEL_PROFILE-o3.yaml
-- [ ] MODEL_PROFILE-Gemini-3-Flash.yaml
-- [ ] MODEL_PROFILE-DeepSeek-V3.2.yaml
+Detailed per-model profiles (`MODEL-PROFILE-*.yaml`) deferred until PROJ-003 (Tooling Stack) tool disposition finalizes platform selection. Model registry tables above serve operational needs.
 
 ---
 
 ## REFRESH NOTES
 
+**2026-02-01**: Refresh — profile stubs deferred, timestamp updated
 **2026-01-02**: Initial index created from DIRECTIVE-036 Phase F
-- Reflects December 2025/January 2026 frontier state
-- Based on AI_ECOSYSTEM_SURVEY.md and direct observation
-- Profile stubs created for future detailed documentation
-
-**Sections Needing Update** (when models release):
-- Context window changes (expanding)
-- Pricing shifts (generally decreasing)
-- New capability announcements
-- Benchmark results
 
 ---
 
-*Index created 2026-01-02 | DIRECTIVE-036 Phase F*
+*Index maintained as living document | Refresh on model releases*

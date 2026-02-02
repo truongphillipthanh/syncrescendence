@@ -562,6 +562,7 @@ Significant community patterns without internal equivalents.
 | 165 | Context Tax | ALIGNED | Token cost of loading tool/MCP definitions | Context overhead |
 | 166 | Teleport | ALIGNED | Session mobility for Claude Code instances | No equivalent |
 | 167 | Disposition Categories | ADAPTED | ACTIVE/SELECTED/EVALUATING/DEFERRED/SUNSET/ELIMINATED | Technology radar |
+| 168 | Special Forces Mode | UNIQUE | Sovereign→Ajna direct command mode: surgical, no relay, immediate execution | No equivalent |
 
 ---
 

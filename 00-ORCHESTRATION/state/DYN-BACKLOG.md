@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-01 (Post-Triage, Rosetta Stone v2.1.0, Dispatch Enhanced)
+**Last Updated**: 2026-02-01 (Special Forces session: SIGMA audit, terminology sweep, ontology recon)
 
 ---
 
@@ -29,7 +29,7 @@
 | Project | Status | Priority | Progress | Notes |
 |---------|--------|----------|----------|-------|
 | PROJ-001 | COMPLETE | — | 100% | Transcript Ingestion (43 sources) |
-| PROJ-002 | ACTIVE | P1 | 60% | IIC Configuration — Acumen/Coherence done, 3 remaining |
+| PROJ-002 | ACTIVE | P1 | 70% | IIC Configuration — Acumen/Coherence/Efficacy/Transcendence configs complete, Mastery remaining |
 | PROJ-003 | ACTIVE | P2 | 40% | Tooling Stack — REF-STACK_TELEOLOGY.md created, needs completion per `02-STACK.md` |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
 | PROJ-006 | NOT_STARTED | P1 | 0% | Ontology/"Palantir-like" — "FINAL BOSS"; blocked by PROJ-003 |
@@ -41,13 +41,14 @@
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
 | PROJ-016 | NOT_STARTED | P3 | 0% | Skills Conversion (top 5 XML functions) |
-| PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→636 files) |
+| PROJ-RESTRUCTURE | COMPLETE | — | 100% | Wholesale restructure (1267→670 files post-audit) |
 | PROJ-AVATARS | COMPLETE | — | 100% | Avatar Pantheon v3 (10 avatars, Gemini bifurcated) |
 | PROJ-SN-VARS | COMPLETE | — | 100% | SN Variable System — 9 DEF blocks, sn_expand.py built and tested |
 | PROJ-ACCT | COMPLETE | — | 100% | Account Restructure — A1=Max+Plus, A2=Pro+AIPro, A3=Unpaid |
 | PROJ-NEO-BLITZ | IN_PROGRESS | P0 | 95% | Neo-Blitzkrieg Buildout — hooks/automation/CANON lean-out/dispatch/triage done, CLI keys + Linear pending |
-| PROJ-TERMINOLOGY | IN_PROGRESS | P2 | 40% | Terminology Sweep — Rosetta Stone v2.1.0 done; "Deviser" in 14 ENGINE files pending broader sweep |
+| PROJ-TERMINOLOGY | COMPLETE | — | 100% | Terminology Sweep — Deviser→Vanguard across 15 files, Rosetta Stone #95 updated, Special Forces mode added (#168) |
 | PROJ-CANON-LEAN | COMPLETE | — | 100% | CANON Lean-Out — 3 pairs merged (82→79 CANON files) |
+| PROJ-SIGMA-AUDIT | COMPLETE | — | 100% | 05-SIGMA Deep Audit — 43→16 files (63% reduction), 5761 lines deleted |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
 | PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
 | PROJ-LIVE-CANON | IN_PROGRESS | P1 | 30% | Live CANON Ticker — design complete, implementation pending Sovereign approval |

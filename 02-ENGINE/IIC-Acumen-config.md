@@ -12,7 +12,7 @@
 ### A. Account Identity
 | Field | Value |
 |-------|-------|
-| **Email** | `[Sovereign to fill: acumen account email]` |
+| **Email** | `acumen.truongphillipthanh@gmail.com` |
 | **Chain Alignment** | Information Chain (Sensing) |
 | **Guiding Virtues** | Perspicacity, Astuteness, Discernment |
 | **Primary Function** | Strategic reconnaissance and intelligence mediation |
