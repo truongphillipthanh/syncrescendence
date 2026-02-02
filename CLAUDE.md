@@ -21,7 +21,7 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural (ABSOLUTE)
-1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/synthesis/`, `mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`; `-INBOX/` per-agent subfolders.
+1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`; `-INBOX/` per-agent subfolders.
 2. **NUMBERED DIRECTORIES**: Top-level directories are 00, 01, 02, 04, 05 (with gaps). Do not create new numbered directories.
 3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
 4. **SANCTIONED EXCEPTIONS**: `-OUTGOING/`, `-INBOX/`, and `-SOVEREIGN/` are the only non-numbered directories permitted at root.
@@ -113,7 +113,7 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 | Terminology reconciliation | `02-ENGINE/REF-ROSETTA_STONE.md` |
 | Fleet operations | `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` |
 | Technology stack | `02-ENGINE/REF-STACK_TELEOLOGY.md` |
-| Operational knowledge | `05-SIGMA/` (22 synthesis/mechanics/practice docs) |
+| Operational knowledge | `05-SIGMA/` (16 mechanics/practice/exempla docs) |
 | Semantic Notation | `00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`, `sn_symbols.yaml` |
 | SN encoding/decoding | `00-ORCHESTRATION/scripts/sn_encode.py`, `sn_decode.py` |
 | Intention archaeology | `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` |
