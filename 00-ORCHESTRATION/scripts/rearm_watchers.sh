@@ -40,27 +40,38 @@ load_job() {
 echo "[rearm] repo: $REPO_ROOT"
 echo "[rearm] copying plists from: $PLIST_SRC_DIR"
 
-copy_plist com.syncrescendence.watch-psyche.plist
-copy_plist com.syncrescendence.watch-canon.plist
+MODE="psyche"
+if [ "${1:-}" = "--mini" ]; then MODE="mini"; fi
+if [ "${1:-}" = "--psyche" ] || [ -z "${1:-}" ]; then MODE="psyche"; fi
 
-# Optional: only load these on the machine that actually runs them
-if [ -f "$PLIST_SRC_DIR/com.syncrescendence.watch-commander.plist" ]; then
-  copy_plist com.syncrescendence.watch-commander.plist
-fi
-if [ -f "$PLIST_SRC_DIR/com.syncrescendence.watch-ajna.plist" ]; then
-  copy_plist com.syncrescendence.watch-ajna.plist
+# Always copy plists we might need
+for p in \
+  com.syncrescendence.watch-psyche.plist \
+  com.syncrescendence.watch-canon.plist \
+  com.syncrescendence.watch-commander.plist \
+  com.syncrescendence.watch-ajna.plist \
+  com.syncrescendence.watch-adjudicator.plist \
+  com.syncrescendence.watch-cartographer.plist
+do
+  if [ -f "$PLIST_SRC_DIR/$p" ]; then
+    copy_plist "$p"
+  fi
+done
+
+echo "[rearm] bootstrapping jobs into $GUI_DOMAIN (mode: $MODE) ..."
+
+if [ "$MODE" = "psyche" ]; then
+  load_job com.syncrescendence.watch-psyche.plist
+  load_job com.syncrescendence.watch-canon.plist
+  echo "[rearm] NOTE: psyche mode loaded psyche+canon only."
 fi
 
-echo "[rearm] bootstrapping jobs into $GUI_DOMAIN ..."
-load_job com.syncrescendence.watch-psyche.plist
-load_job com.syncrescendence.watch-canon.plist
-
-# These two should usually only run on their respective hosts
-if [ -f "$PLIST_DST_DIR/com.syncrescendence.watch-commander.plist" ]; then
-  echo "[rearm] NOTE: commander watcher plist present; load only if this machine runs Commander."
-fi
-if [ -f "$PLIST_DST_DIR/com.syncrescendence.watch-ajna.plist" ]; then
-  echo "[rearm] NOTE: ajna watcher plist present; load only if this machine runs Ajna."
+if [ "$MODE" = "mini" ]; then
+  load_job com.syncrescendence.watch-ajna.plist
+  load_job com.syncrescendence.watch-commander.plist
+  load_job com.syncrescendence.watch-adjudicator.plist
+  load_job com.syncrescendence.watch-cartographer.plist
+  echo "[rearm] NOTE: mini mode loaded ajna+commander+adjudicator+cartographer."
 fi
 
 echo "[rearm] done."
