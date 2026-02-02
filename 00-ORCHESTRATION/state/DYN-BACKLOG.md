@@ -29,7 +29,7 @@
 | Project | Status | Priority | Progress | Notes |
 |---------|--------|----------|----------|-------|
 | PROJ-001 | COMPLETE | — | 100% | Transcript Ingestion (43 sources) |
-| PROJ-002 | ACTIVE | P1 | 70% | IIC Configuration — Acumen/Coherence/Efficacy/Transcendence configs complete, Mastery remaining |
+| PROJ-002 | ACTIVE | P1 | 95% | IIC Configuration — All 5 configs complete (Acumen/Coherence/Efficacy/Mastery/Transcendence). Remaining: Mastery account email (Sovereign) |
 | PROJ-003 | ACTIVE | P2 | 40% | Tooling Stack — REF-STACK_TELEOLOGY.md created, needs completion per `02-STACK.md` |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
 | PROJ-006 | NOT_STARTED | P1 | 0% | Ontology/"Palantir-like" — "FINAL BOSS"; blocked by PROJ-003 |
