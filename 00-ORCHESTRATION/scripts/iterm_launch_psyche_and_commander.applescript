@@ -8,13 +8,22 @@
 on run
   set repoPath to POSIX path of ((path to home folder) as text) & "Desktop/syncrescendence"
 
-  tell application "System Events"
-    set screenBounds to bounds of window of desktop
-    set screenLeft to item 1 of screenBounds
-    set screenTop to item 2 of screenBounds
-    set screenRight to item 3 of screenBounds
-    set screenBottom to item 4 of screenBounds
-  end tell
+  -- Determine screen bounds. Prefer Finder (more reliable than System Events "window of desktop").
+  set screenBounds to {}
+  try
+    tell application "Finder"
+      set screenBounds to bounds of window of desktop
+    end tell
+  on error
+    -- Fallback: use a reasonable default for a single display.
+    -- (macOS coordinate space origin is top-left)
+    set screenBounds to {0, 0, 1440, 900}
+  end try
+
+  set screenLeft to item 1 of screenBounds
+  set screenTop to item 2 of screenBounds
+  set screenRight to item 3 of screenBounds
+  set screenBottom to item 4 of screenBounds
 
   set screenWidth to screenRight - screenLeft
   set screenHeight to screenBottom - screenTop
