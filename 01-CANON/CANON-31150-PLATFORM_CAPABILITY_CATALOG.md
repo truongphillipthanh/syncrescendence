@@ -21,7 +21,7 @@
 **Chain**: INFORMATION (31000)
 **Parent**: ACUMEN (31100)
 **Status**: CRYSTALLINE
-**Last Regenerated**: 2026-02-02T01:19:54.503920-08:00
+**Last Regenerated**: 2026-02-05T12:17:21.118504-08:00
 **Data Source**: platform_capabilities.json
 
 ---
@@ -50,9 +50,19 @@ This demonstrates the **metabolic pattern**: temporal data lives externally, eve
 
 | Claude Web | Pro | $20 | Vizier | Active |
 
-| ChatGPT | Plus | $20 | Vanguard | Active |
+| ChatGPT Web | Plus | $20 | Vanguard | Active |
 
-| Google AI | AI Pro | $20 | Cartographer/Diviner | Active |
+| Codex CLI | (via ChatGPT) | $0 | Adjudicator | Available |
+
+| Google AI (Gemini Web) | AI Pro | $20 | Diviner | Active |
+
+| Gemini CLI | (API) | $0 | Cartographer | Installed |
+
+| OpenClaw | self-hosted | $0 | Local Orchestrator (Ajna/Psyche) | Active |
+
+| Grok | (external) | $0 | Oracle (RECON) | Optional |
+
+| Perplexity | (external) | $0 | Augur | Optional |
 
 
 **Total Monthly Investment**: $160
@@ -89,159 +99,261 @@ SUPPLEMENTARY ROLES:
 
 ## II. CAPABILITY MATRICES
 
-### Claude (Commander)
 
-**Account**: truongphillipthanh@icloud.com (A1, Max) + icloud.truongphillipthanh@gmail.com (A2, Pro)
+### Claude Code — Commander (EXECUTOR-LEAD)
+
+**Account**: A1 (Max) + A2 (Pro)
 **Primary Models**: Claude 4.5 Opus, Claude 4.5 Sonnet, Claude 4.5 Haiku
 
 | Capability | Status | Notes |
 |------------|--------|-------|
 
-| Filesystem Access | Active | Full repository sovereignty |
+| Filesystem access | Active | Full repository sovereignty |
 
-| Code Generation | Active | Opus 4.5 / Sonnet 4.5 / Haiku 4.5 |
+| Code generation | Active | Opus/Sonnet/Haiku |
 
-| MCP Integration | Active | External tool access |
+| MCP integration | Active | Tool access via MCP |
 
-| Plan Mode | Active | Separates planning from execution |
+| Plan mode | Active | Separates plan from execution |
 
-| Context Management | Active | ~200K tokens, 1M beta, auto-compact |
+| Hooks system | Active | Stop/PreCompact/UserPromptSubmit |
 
-| Extended Thinking | Active | Auto-enabled at 31,999 tokens |
-
-| Hooks System | Active | Stop, PreCompact, UserPromptSubmit |
-
-| Skills | Active | 7 operational skills |
+| Verification | Active | Command-output receipts |
 
 
 **Routing Strengths**:
 
-- Execution (filesystem operations)
+- Filesystem sovereignty
 
-- Code generation (writing functions)
+- High-fidelity implementation
 
-- File manipulation (read/edit/write)
+- Repo-ground-truth receipts (diffs/commands/commits)
 
-- Verification (command-based proof)
-
-- Repository operations (git, ledger updates)
-
-- Multi-agent dispatch (hook-based automation)
+- MCP-enabled tool use
 
 
 **Routing Weaknesses**:
 
-- Corpus-scale RAG (context limit ~200K)
+- Corpus-scale sensing beyond session context
 
-- Video processing (no native multimodal)
-
-- Long-horizon planning (better as executor than planner)
+- Native multimodal ingestion (video/audio)
 
 
 **Cost Structure**:
-- A1: $100/month (Max 5x) + A2: $20/month (Pro) = $120/month
+- $100/mo (Max) primary executor surface
 
 ---
 
-### Gemini (Cartographer + Diviner)
+### Claude Web — Vizier (INTERPRETER)
 
-**Account**: icloud.truongphillipthanh@gmail.com (A2, Google AI Pro)
-**Primary Models**: Gemini 3 Pro, Gemini 3 Flash, Gemini 3 Deep Think
+**Account**: A2 (Pro)
+**Primary Models**: Claude 4.5 Opus/Sonnet (web)
 
 | Capability | Status | Notes |
 |------------|--------|-------|
 
-| 1M Context Window | Active | Full corpus sensing |
+| Synthesis/ideation | Active | High-level reasoning + writing |
 
-| Drive Connector | Active | Repository visibility via Gems |
-
-| NotebookLM | Active | Grounded RAG, zero hallucination |
-
-| Video Processing | Active | Native multimodal ingestion |
-
-| Audio Processing | Active | Speaker diarization |
-
-| Gems | Active | Custom instruction profiles |
-
-| CLI Access | Installed | API key pending (Sovereign) |
+| Longform drafting | Active | Narrative + clarity |
 
 
 **Routing Strengths**:
 
-- Corpus-scale sensing (1M context)
+- Synthesis
 
-- Video transcription (native multimodal)
+- Tone/voice calibration
 
-- Large context queries (entire repo + conversations)
-
-- Grounded RAG (NotebookLM)
-
-- Multimodal clarification (text, image, audio, video)
+- Rapid ideation
 
 
 **Routing Weaknesses**:
 
-- Filesystem access (read-only, no execution)
+- Filesystem execution
 
-- Code execution (not designed for)
-
-- Planning (sensing role, not planning)
+- Deterministic receipts
 
 
 **Cost Structure**:
-- $20/month (Google AI Pro)
+- $20/mo (Pro)
 
 ---
 
-### ChatGPT (Vanguard)
+### ChatGPT Web — Vanguard (PLANNING/AUDIT)
 
-**Account**: truongphillipthanh@icloud.com (A1, Plus)
+**Account**: A1 (Plus)
 **Primary Models**: GPT-5.2 Instant, GPT-5.2 Thinking
 
 | Capability | Status | Notes |
 |------------|--------|-------|
 
-| GPT-5.2 Thinking | Active | ~3K messages/week |
+| Planning + decomposition | Active | Spec-first, acceptance criteria |
 
-| Deep Research | Active | Comprehensive investigation |
+| Deep research | Active | Broad investigation |
 
 | Canvas | Active | Collaborative editing |
-
-| Codex CLI | Installed | API key pending (Sovereign) |
-
-| Connectors | Available | Drive, GitHub (if enabled) |
-
-| Projects | Active | Context isolation, project-only memory |
 
 
 **Routing Strengths**:
 
-- Long-horizon planning (GPT-5.2 Thinking)
+- Long-horizon planning
 
-- Specification (clear acceptance criteria)
+- Spec/audit discipline
 
-- Audit (verification against plan)
-
-- Abstract reasoning (architectural decisions)
-
-- Multi-step decomposition
-
-- Creative expansion and ideation
+- Clear acceptance criteria
 
 
 **Routing Weaknesses**:
 
-- Corpus-scale sensing (128K context limit)
+- Direct filesystem execution
 
-- Video processing (no native multimodal)
-
-- Code execution (not designed for)
+- Very large corpus scans
 
 
 **Cost Structure**:
-- $20/month (Plus)
+- $20/mo (Plus)
 
 ---
+
+### Codex CLI — Adjudicator (PARALLEL-EXEC)
+
+**Account**: A1 (via ChatGPT)
+**Primary Models**: GPT-5.2 Codex
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Parallel execution | Active | Good for mechanical implementation lanes |
+
+| GitHub-native workflows | Available | When used with GitHub surfaces |
+
+
+**Routing Strengths**:
+
+- Parallelization
+
+- Mechanical refactors
+
+- Isolated execution environments (where applicable)
+
+
+**Routing Weaknesses**:
+
+- Persistent memory
+
+- Longform synthesis
+
+
+**Cost Structure**:
+- $0 incremental (depends on ChatGPT tier)
+
+---
+
+### Gemini Web — Diviner (MULTIMODAL DIGEST)
+
+**Account**: A2 (Google AI Pro)
+**Primary Models**: Gemini 3 Pro, Gemini 3 Flash
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Multimodal ingestion | Active | Audio/video/image |
+
+| NotebookLM | Active | Grounded RAG / annotation |
+
+| Gems | Active | Instruction profiles |
+
+
+**Routing Strengths**:
+
+- Multimodal clarification
+
+- Grounded notebook workflows
+
+
+**Routing Weaknesses**:
+
+- Filesystem execution
+
+- Deterministic receipts
+
+
+**Cost Structure**:
+- $20/mo (AI Pro)
+
+---
+
+### Gemini CLI — Cartographer (SENSOR)
+
+**Account**: A2 (API key)
+**Primary Models**: Gemini (CLI)
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Corpus-scale sensing | Active | 1M+ context (model-dependent) |
+
+| Stateless invocation | Active | Fresh runs; reproducible prompts |
+
+| Evidence packs | Planned | Standard output format for findings |
+
+
+**Routing Strengths**:
+
+- Repo-wide survey/search
+
+- Large-context synthesis
+
+
+**Routing Weaknesses**:
+
+- Execution
+
+- Write access
+
+
+**Cost Structure**:
+- API usage (varies)
+
+---
+
+### OpenClaw — Local Orchestrator (Ajna/Psyche)
+
+**Account**: Self-hosted
+**Primary Models**: Config-defined (per node)
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Persistent gateway | Active | Always-on orchestration |
+
+| Cron + heartbeat | Active | Scheduled autonomy |
+
+| Sub-agents | Active | Isolated background runs |
+
+| Tool execution | Active | Shell/files/browser/messaging (per config) |
+
+
+**Routing Strengths**:
+
+- Continuity across restarts
+
+- Dispatch + routing
+
+- Automation glue
+
+
+**Routing Weaknesses**:
+
+- Not the primary deep-reasoning IDE
+
+- Depends on configured channels/tools
+
+
+**Cost Structure**:
+- $0 incremental (self-hosted)
+
+---
+
 
 ## III. ROUTING DECISION TABLE
 
@@ -250,25 +362,21 @@ This table guides which platform receives which task type.
 | Task Type | Primary Platform | Rationale | Fallback |
 |-----------|------------------|-----------|----------|
 
-| Corpus Sensing | Gemini | 1M context window | Claude (limited context) |
+| Corpus sensing (repo-wide) | Gemini CLI (Cartographer) | Large-context corpus survey | Claude Code (Commander) (bounded) |
 
-| Video Processing | Gemini | Native multimodal | Manual transcription |
+| Multimodal processing (audio/video/images) | Gemini Web (Diviner) | Native multimodal + NotebookLM | Manual / dedicated pipeline |
 
-| Planning | ChatGPT | GPT-5.2 Thinking | Claude Plan Mode |
+| Planning / decomposition | ChatGPT Web (Vanguard) | Spec-first planning | Claude Code plan mode |
 
-| Audit | ChatGPT | Spec verification | Claude verification |
+| Implementation (repo changes) | Claude Code (Commander) | Filesystem sovereignty + receipts | Codex CLI (Adjudicator) |
 
-| Execution | Claude | Filesystem sovereignty | Codex CLI |
+| Mechanical refactors / parallel lanes | Codex CLI (Adjudicator) | Parallelization / isolation | Claude Code (Commander) |
 
-| Code Generation | Claude | Opus 4.5 / Sonnet 4.5 | ChatGPT |
+| Autonomy glue (dispatch, reminders, cross-channel relays) | OpenClaw (Ajna/Psyche) | Persistent daemon + cron + subagents | Manual dispatch packets |
 
-| Grounded RAG | Gemini | NotebookLM integration | Claude with citations |
+| Real-time discourse sensing | Grok (Oracle / RECON) | X/Twitter firehose | Perplexity / web search |
 
-| Long-Horizon Decomposition | ChatGPT | GPT-5.2 Thinking | Claude ultrathink |
-
-| Real-time Discourse | Grok | X/Twitter integration | Perplexity |
-
-| External Verification | Perplexity | Citation-backed search | Gemini |
+| External verification (citations) | Perplexity (Augur) | Citation-backed verification | Gemini Web grounding |
 
 
 ### Routing Protocol
@@ -381,9 +489,19 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 
 | Claude Web | Pro | $20 | 30% | $0.67 |
 
-| ChatGPT | Plus | $20 | 25% | $0.67 |
+| ChatGPT Web | Plus | $20 | 25% | $0.67 |
 
-| Google AI | AI Pro | $20 | 20% | $0.67 |
+| Codex CLI | (via ChatGPT) | $0 | 10% | $0.00 |
+
+| Google AI (Gemini Web) | AI Pro | $20 | 20% | $0.67 |
+
+| Gemini CLI | (API) | $0 | 5% | $0.00 |
+
+| OpenClaw | self-hosted | $0 | 40% | $0.00 |
+
+| Grok | (external) | $0 | 5% | $0.00 |
+
+| Perplexity | (external) | $0 | 5% | $0.00 |
 
 
 **Total**: $160/month
@@ -407,14 +525,16 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 
 ## VII. VERSION HISTORY
 
-**Last Regenerated**: 2026-02-02T01:19:54.503920-08:00
-**Data Version**: 2.0.0
+**Last Regenerated**: 2026-02-05T12:17:21.118504-08:00
+**Data Version**: 3.0.0
 
 ### Regeneration Log
 
 - 2026-01-15: Initial capability catalog creation
 
 - 2026-02-02: v2.0: Trinity→Constellation, Deviser→Vanguard, Executor→Commander, Oracle→Grok, updated economics to $160/mo
+
+- 2026-02-05: v3.0: Deconflate CLI vs Web; add OpenClaw + Codex as first-class entries; expand routing table.
 
 
 ---
@@ -447,7 +567,7 @@ git commit -m "feat(canon): regenerate 31150 with updated platform data"
 AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
 Template: 00-ORCHESTRATION/templates/CANON-31150.md.j2
 Data: 00-ORCHESTRATION/state/platform_capabilities.json
-Generated: 2026-02-02T01:19:54.503920-08:00
+Generated: 2026-02-05T12:17:21.118504-08:00
 -->
 
 ---

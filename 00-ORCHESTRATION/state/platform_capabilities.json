@@ -2,141 +2,312 @@
   "metadata": {
     "last_regenerated": null,
     "data_source": "platform_capabilities.json",
-    "data_version": "2.0.0"
+    "data_version": "3.0.0",
+    "notes": [
+      "v3 deconflates CLI vs Web interfaces and adds OpenClaw + Codex as first-class platforms.",
+      "Costs reflect subscription surfaces; several tools are $0 incremental but depend on a paid tier elsewhere.",
+      "This file is the temporal data substrate for CANON-31150."
+    ]
   },
   "platforms": [
     {
       "name": "Claude Code",
       "tier": "Max 5x",
       "monthly_cost": 100,
-      "role": "Commander",
+      "primary_role": "Commander",
       "status": "Active",
       "utilization": 80,
-      "cost_per_hour": "3.33"
+      "cost_per_hour": "3.33",
+      "notes": "Primary executor (filesystem sovereignty)."
     },
     {
       "name": "Claude Web",
       "tier": "Pro",
       "monthly_cost": 20,
-      "role": "Vizier",
+      "primary_role": "Vizier",
       "status": "Active",
       "utilization": 30,
-      "cost_per_hour": "0.67"
+      "cost_per_hour": "0.67",
+      "notes": "Synthesis/ideation interface (non-executing)."
     },
     {
-      "name": "ChatGPT",
+      "name": "ChatGPT Web",
       "tier": "Plus",
       "monthly_cost": 20,
-      "role": "Vanguard",
+      "primary_role": "Vanguard",
       "status": "Active",
       "utilization": 25,
-      "cost_per_hour": "0.67"
+      "cost_per_hour": "0.67",
+      "notes": "Planning/spec/audit surface."
     },
     {
-      "name": "Google AI",
+      "name": "Codex CLI",
+      "tier": "(via ChatGPT)",
+      "monthly_cost": 0,
+      "primary_role": "Adjudicator",
+      "status": "Available",
+      "utilization": 10,
+      "cost_per_hour": "0.00",
+      "notes": "Parallel executor lane (often cloud/sandbox)."
+    },
+    {
+      "name": "Google AI (Gemini Web)",
       "tier": "AI Pro",
       "monthly_cost": 20,
-      "role": "Cartographer/Diviner",
+      "primary_role": "Diviner",
       "status": "Active",
       "utilization": 20,
-      "cost_per_hour": "0.67"
+      "cost_per_hour": "0.67",
+      "notes": "Multimodal clarification + NotebookLM."
+    },
+    {
+      "name": "Gemini CLI",
+      "tier": "(API)",
+      "monthly_cost": 0,
+      "primary_role": "Cartographer",
+      "status": "Installed",
+      "utilization": 5,
+      "cost_per_hour": "0.00",
+      "notes": "Corpus-scale sensing; stateless runs; requires API key."
+    },
+    {
+      "name": "OpenClaw",
+      "tier": "self-hosted",
+      "monthly_cost": 0,
+      "primary_role": "Local Orchestrator (Ajna/Psyche)",
+      "status": "Active",
+      "utilization": 40,
+      "cost_per_hour": "0.00",
+      "notes": "Persistent gateway/cron/subagents + tool execution."
+    },
+    {
+      "name": "Grok",
+      "tier": "(external)",
+      "monthly_cost": 0,
+      "primary_role": "Oracle (RECON)",
+      "status": "Optional",
+      "utilization": 5,
+      "cost_per_hour": "0.00",
+      "notes": "X/Twitter sensing + adversarial grounding."
+    },
+    {
+      "name": "Perplexity",
+      "tier": "(external)",
+      "monthly_cost": 0,
+      "primary_role": "Augur",
+      "status": "Optional",
+      "utilization": 5,
+      "cost_per_hour": "0.00",
+      "notes": "Citation-backed external verification."
     }
   ],
   "total_monthly_cost": 160,
-  "oracle_platform": "Grok",
-  "vanguard_platform": "ChatGPT",
-  "commander_platform": "Claude",
-  "claude": {
-    "account": "truongphillipthanh@icloud.com (A1, Max) + icloud.truongphillipthanh@gmail.com (A2, Pro)",
-    "models": ["Claude 4.5 Opus", "Claude 4.5 Sonnet", "Claude 4.5 Haiku"],
-    "capabilities": [
-      {"name": "Filesystem Access", "status": "Active", "notes": "Full repository sovereignty"},
-      {"name": "Code Generation", "status": "Active", "notes": "Opus 4.5 / Sonnet 4.5 / Haiku 4.5"},
-      {"name": "MCP Integration", "status": "Active", "notes": "External tool access"},
-      {"name": "Plan Mode", "status": "Active", "notes": "Separates planning from execution"},
-      {"name": "Context Management", "status": "Active", "notes": "~200K tokens, 1M beta, auto-compact"},
-      {"name": "Extended Thinking", "status": "Active", "notes": "Auto-enabled at 31,999 tokens"},
-      {"name": "Hooks System", "status": "Active", "notes": "Stop, PreCompact, UserPromptSubmit"},
-      {"name": "Skills", "status": "Active", "notes": "7 operational skills"}
-    ],
-    "routing_strengths": [
-      "Execution (filesystem operations)",
-      "Code generation (writing functions)",
-      "File manipulation (read/edit/write)",
-      "Verification (command-based proof)",
-      "Repository operations (git, ledger updates)",
-      "Multi-agent dispatch (hook-based automation)"
-    ],
-    "routing_weaknesses": [
-      "Corpus-scale RAG (context limit ~200K)",
-      "Video processing (no native multimodal)",
-      "Long-horizon planning (better as executor than planner)"
-    ],
-    "cost_structure": "A1: $100/month (Max 5x) + A2: $20/month (Pro) = $120/month"
-  },
-  "gemini": {
-    "account": "icloud.truongphillipthanh@gmail.com (A2, Google AI Pro)",
-    "models": ["Gemini 3 Pro", "Gemini 3 Flash", "Gemini 3 Deep Think"],
-    "capabilities": [
-      {"name": "1M Context Window", "status": "Active", "notes": "Full corpus sensing"},
-      {"name": "Drive Connector", "status": "Active", "notes": "Repository visibility via Gems"},
-      {"name": "NotebookLM", "status": "Active", "notes": "Grounded RAG, zero hallucination"},
-      {"name": "Video Processing", "status": "Active", "notes": "Native multimodal ingestion"},
-      {"name": "Audio Processing", "status": "Active", "notes": "Speaker diarization"},
-      {"name": "Gems", "status": "Active", "notes": "Custom instruction profiles"},
-      {"name": "CLI Access", "status": "Installed", "notes": "API key pending (Sovereign)"}
-    ],
-    "routing_strengths": [
-      "Corpus-scale sensing (1M context)",
-      "Video transcription (native multimodal)",
-      "Large context queries (entire repo + conversations)",
-      "Grounded RAG (NotebookLM)",
-      "Multimodal clarification (text, image, audio, video)"
-    ],
-    "routing_weaknesses": [
-      "Filesystem access (read-only, no execution)",
-      "Code execution (not designed for)",
-      "Planning (sensing role, not planning)"
-    ],
-    "cost_structure": "$20/month (Google AI Pro)"
-  },
-  "chatgpt": {
-    "account": "truongphillipthanh@icloud.com (A1, Plus)",
-    "models": ["GPT-5.2 Instant", "GPT-5.2 Thinking"],
-    "capabilities": [
-      {"name": "GPT-5.2 Thinking", "status": "Active", "notes": "~3K messages/week"},
-      {"name": "Deep Research", "status": "Active", "notes": "Comprehensive investigation"},
-      {"name": "Canvas", "status": "Active", "notes": "Collaborative editing"},
-      {"name": "Codex CLI", "status": "Installed", "notes": "API key pending (Sovereign)"},
-      {"name": "Connectors", "status": "Available", "notes": "Drive, GitHub (if enabled)"},
-      {"name": "Projects", "status": "Active", "notes": "Context isolation, project-only memory"}
-    ],
-    "routing_strengths": [
-      "Long-horizon planning (GPT-5.2 Thinking)",
-      "Specification (clear acceptance criteria)",
-      "Audit (verification against plan)",
-      "Abstract reasoning (architectural decisions)",
-      "Multi-step decomposition",
-      "Creative expansion and ideation"
-    ],
-    "routing_weaknesses": [
-      "Corpus-scale sensing (128K context limit)",
-      "Video processing (no native multimodal)",
-      "Code execution (not designed for)"
-    ],
-    "cost_structure": "$20/month (Plus)"
-  },
+  "capability_matrices": [
+    {
+      "key": "commander_claude_code",
+      "name": "Claude Code",
+      "role": "Commander (EXECUTOR-LEAD)",
+      "account": "A1 (Max) + A2 (Pro)",
+      "primary_models": ["Claude 4.5 Opus", "Claude 4.5 Sonnet", "Claude 4.5 Haiku"],
+      "capabilities": [
+        {"name": "Filesystem access", "status": "Active", "notes": "Full repository sovereignty"},
+        {"name": "Code generation", "status": "Active", "notes": "Opus/Sonnet/Haiku"},
+        {"name": "MCP integration", "status": "Active", "notes": "Tool access via MCP"},
+        {"name": "Plan mode", "status": "Active", "notes": "Separates plan from execution"},
+        {"name": "Hooks system", "status": "Active", "notes": "Stop/PreCompact/UserPromptSubmit"},
+        {"name": "Verification", "status": "Active", "notes": "Command-output receipts"}
+      ],
+      "routing_strengths": [
+        "Filesystem sovereignty",
+        "High-fidelity implementation",
+        "Repo-ground-truth receipts (diffs/commands/commits)",
+        "MCP-enabled tool use"
+      ],
+      "routing_weaknesses": [
+        "Corpus-scale sensing beyond session context",
+        "Native multimodal ingestion (video/audio)"
+      ],
+      "cost_structure": "$100/mo (Max) primary executor surface"
+    },
+    {
+      "key": "vizier_claude_web",
+      "name": "Claude Web",
+      "role": "Vizier (INTERPRETER)",
+      "account": "A2 (Pro)",
+      "primary_models": ["Claude 4.5 Opus/Sonnet (web)"],
+      "capabilities": [
+        {"name": "Synthesis/ideation", "status": "Active", "notes": "High-level reasoning + writing"},
+        {"name": "Longform drafting", "status": "Active", "notes": "Narrative + clarity"}
+      ],
+      "routing_strengths": [
+        "Synthesis",
+        "Tone/voice calibration",
+        "Rapid ideation"
+      ],
+      "routing_weaknesses": [
+        "Filesystem execution",
+        "Deterministic receipts"
+      ],
+      "cost_structure": "$20/mo (Pro)"
+    },
+    {
+      "key": "vanguard_chatgpt_web",
+      "name": "ChatGPT Web",
+      "role": "Vanguard (PLANNING/AUDIT)",
+      "account": "A1 (Plus)",
+      "primary_models": ["GPT-5.2 Instant", "GPT-5.2 Thinking"],
+      "capabilities": [
+        {"name": "Planning + decomposition", "status": "Active", "notes": "Spec-first, acceptance criteria"},
+        {"name": "Deep research", "status": "Active", "notes": "Broad investigation"},
+        {"name": "Canvas", "status": "Active", "notes": "Collaborative editing"}
+      ],
+      "routing_strengths": [
+        "Long-horizon planning",
+        "Spec/audit discipline",
+        "Clear acceptance criteria"
+      ],
+      "routing_weaknesses": [
+        "Direct filesystem execution",
+        "Very large corpus scans"
+      ],
+      "cost_structure": "$20/mo (Plus)"
+    },
+    {
+      "key": "adjudicator_codex_cli",
+      "name": "Codex CLI",
+      "role": "Adjudicator (PARALLEL-EXEC)",
+      "account": "A1 (via ChatGPT)",
+      "primary_models": ["GPT-5.2 Codex"],
+      "capabilities": [
+        {"name": "Parallel execution", "status": "Active", "notes": "Good for mechanical implementation lanes"},
+        {"name": "GitHub-native workflows", "status": "Available", "notes": "When used with GitHub surfaces"}
+      ],
+      "routing_strengths": [
+        "Parallelization",
+        "Mechanical refactors",
+        "Isolated execution environments (where applicable)"
+      ],
+      "routing_weaknesses": [
+        "Persistent memory",
+        "Longform synthesis"
+      ],
+      "cost_structure": "$0 incremental (depends on ChatGPT tier)"
+    },
+    {
+      "key": "diviner_gemini_web",
+      "name": "Gemini Web",
+      "role": "Diviner (MULTIMODAL DIGEST)",
+      "account": "A2 (Google AI Pro)",
+      "primary_models": ["Gemini 3 Pro", "Gemini 3 Flash"],
+      "capabilities": [
+        {"name": "Multimodal ingestion", "status": "Active", "notes": "Audio/video/image"},
+        {"name": "NotebookLM", "status": "Active", "notes": "Grounded RAG / annotation"},
+        {"name": "Gems", "status": "Active", "notes": "Instruction profiles"}
+      ],
+      "routing_strengths": [
+        "Multimodal clarification",
+        "Grounded notebook workflows"
+      ],
+      "routing_weaknesses": [
+        "Filesystem execution",
+        "Deterministic receipts"
+      ],
+      "cost_structure": "$20/mo (AI Pro)"
+    },
+    {
+      "key": "cartographer_gemini_cli",
+      "name": "Gemini CLI",
+      "role": "Cartographer (SENSOR)",
+      "account": "A2 (API key)",
+      "primary_models": ["Gemini (CLI)"],
+      "capabilities": [
+        {"name": "Corpus-scale sensing", "status": "Active", "notes": "1M+ context (model-dependent)"},
+        {"name": "Stateless invocation", "status": "Active", "notes": "Fresh runs; reproducible prompts"},
+        {"name": "Evidence packs", "status": "Planned", "notes": "Standard output format for findings"}
+      ],
+      "routing_strengths": [
+        "Repo-wide survey/search",
+        "Large-context synthesis"
+      ],
+      "routing_weaknesses": [
+        "Execution",
+        "Write access"
+      ],
+      "cost_structure": "API usage (varies)"
+    },
+    {
+      "key": "openclaw_local_orchestrator",
+      "name": "OpenClaw",
+      "role": "Local Orchestrator (Ajna/Psyche)",
+      "account": "Self-hosted",
+      "primary_models": ["Config-defined (per node)"],
+      "capabilities": [
+        {"name": "Persistent gateway", "status": "Active", "notes": "Always-on orchestration"},
+        {"name": "Cron + heartbeat", "status": "Active", "notes": "Scheduled autonomy"},
+        {"name": "Sub-agents", "status": "Active", "notes": "Isolated background runs"},
+        {"name": "Tool execution", "status": "Active", "notes": "Shell/files/browser/messaging (per config)"}
+      ],
+      "routing_strengths": [
+        "Continuity across restarts",
+        "Dispatch + routing",
+        "Automation glue"
+      ],
+      "routing_weaknesses": [
+        "Not the primary deep-reasoning IDE",
+        "Depends on configured channels/tools"
+      ],
+      "cost_structure": "$0 incremental (self-hosted)"
+    }
+  ],
   "routing_table": [
-    {"task_type": "Corpus Sensing", "primary": "Gemini", "rationale": "1M context window", "fallback": "Claude (limited context)"},
-    {"task_type": "Video Processing", "primary": "Gemini", "rationale": "Native multimodal", "fallback": "Manual transcription"},
-    {"task_type": "Planning", "primary": "ChatGPT", "rationale": "GPT-5.2 Thinking", "fallback": "Claude Plan Mode"},
-    {"task_type": "Audit", "primary": "ChatGPT", "rationale": "Spec verification", "fallback": "Claude verification"},
-    {"task_type": "Execution", "primary": "Claude", "rationale": "Filesystem sovereignty", "fallback": "Codex CLI"},
-    {"task_type": "Code Generation", "primary": "Claude", "rationale": "Opus 4.5 / Sonnet 4.5", "fallback": "ChatGPT"},
-    {"task_type": "Grounded RAG", "primary": "Gemini", "rationale": "NotebookLM integration", "fallback": "Claude with citations"},
-    {"task_type": "Long-Horizon Decomposition", "primary": "ChatGPT", "rationale": "GPT-5.2 Thinking", "fallback": "Claude ultrathink"},
-    {"task_type": "Real-time Discourse", "primary": "Grok", "rationale": "X/Twitter integration", "fallback": "Perplexity"},
-    {"task_type": "External Verification", "primary": "Perplexity", "rationale": "Citation-backed search", "fallback": "Gemini"}
+    {
+      "task_type": "Corpus sensing (repo-wide)",
+      "primary": "Gemini CLI (Cartographer)",
+      "rationale": "Large-context corpus survey",
+      "fallback": "Claude Code (Commander) (bounded)"
+    },
+    {
+      "task_type": "Multimodal processing (audio/video/images)",
+      "primary": "Gemini Web (Diviner)",
+      "rationale": "Native multimodal + NotebookLM",
+      "fallback": "Manual / dedicated pipeline"
+    },
+    {
+      "task_type": "Planning / decomposition",
+      "primary": "ChatGPT Web (Vanguard)",
+      "rationale": "Spec-first planning",
+      "fallback": "Claude Code plan mode"
+    },
+    {
+      "task_type": "Implementation (repo changes)",
+      "primary": "Claude Code (Commander)",
+      "rationale": "Filesystem sovereignty + receipts",
+      "fallback": "Codex CLI (Adjudicator)"
+    },
+    {
+      "task_type": "Mechanical refactors / parallel lanes",
+      "primary": "Codex CLI (Adjudicator)",
+      "rationale": "Parallelization / isolation",
+      "fallback": "Claude Code (Commander)"
+    },
+    {
+      "task_type": "Autonomy glue (dispatch, reminders, cross-channel relays)",
+      "primary": "OpenClaw (Ajna/Psyche)",
+      "rationale": "Persistent daemon + cron + subagents",
+      "fallback": "Manual dispatch packets"
+    },
+    {
+      "task_type": "Real-time discourse sensing",
+      "primary": "Grok (Oracle / RECON)",
+      "rationale": "X/Twitter firehose",
+      "fallback": "Perplexity / web search"
+    },
+    {
+      "task_type": "External verification (citations)",
+      "primary": "Perplexity (Augur)",
+      "rationale": "Citation-backed verification",
+      "fallback": "Gemini Web grounding"
+    }
   ],
   "metrics": {
     "autonomous_cycles": 2,
@@ -153,6 +324,10 @@
     {
       "date": "2026-02-02",
       "change_description": "v2.0: Trinity→Constellation, Deviser→Vanguard, Executor→Commander, Oracle→Grok, updated economics to $160/mo"
+    },
+    {
+      "date": "2026-02-05",
+      "change_description": "v3.0: Deconflate CLI vs Web; add OpenClaw + Codex as first-class entries; expand routing table."
     }
   ]
 }

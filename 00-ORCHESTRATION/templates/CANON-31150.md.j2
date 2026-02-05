@@ -46,7 +46,7 @@ This demonstrates the **metabolic pattern**: temporal data lives externally, eve
 | Platform | Tier | Monthly Cost | Primary Role | Status |
 |----------|------|--------------|--------------|--------|
 {% for p in platforms %}
-| {{ p.name }} | {{ p.tier }} | ${{ p.monthly_cost }} | {{ p.role }} | {{ p.status }} |
+| {{ p.name }} | {{ p.tier }} | ${{ p.monthly_cost }} | {{ p.primary_role }} | {{ p.status }} |
 {% endfor %}
 
 **Total Monthly Investment**: ${{ total_monthly_cost }}
@@ -83,83 +83,33 @@ SUPPLEMENTARY ROLES:
 
 ## II. CAPABILITY MATRICES
 
-### Claude (Commander)
+{% for m in capability_matrices %}
+### {{ m.name }} — {{ m.role }}
 
-**Account**: {{ claude.account }}
-**Primary Models**: {{ claude.models | join(', ') }}
+**Account**: {{ m.account }}
+**Primary Models**: {{ m.primary_models | join(', ') }}
 
 | Capability | Status | Notes |
 |------------|--------|-------|
-{% for cap in claude.capabilities %}
+{% for cap in m.capabilities %}
 | {{ cap.name }} | {{ cap.status }} | {{ cap.notes }} |
 {% endfor %}
 
 **Routing Strengths**:
-{% for s in claude.routing_strengths %}
+{% for s in m.routing_strengths %}
 - {{ s }}
 {% endfor %}
 
 **Routing Weaknesses**:
-{% for w in claude.routing_weaknesses %}
+{% for w in m.routing_weaknesses %}
 - {{ w }}
 {% endfor %}
 
 **Cost Structure**:
-- {{ claude.cost_structure }}
+- {{ m.cost_structure }}
 
 ---
-
-### Gemini (Cartographer + Diviner)
-
-**Account**: {{ gemini.account }}
-**Primary Models**: {{ gemini.models | join(', ') }}
-
-| Capability | Status | Notes |
-|------------|--------|-------|
-{% for cap in gemini.capabilities %}
-| {{ cap.name }} | {{ cap.status }} | {{ cap.notes }} |
 {% endfor %}
-
-**Routing Strengths**:
-{% for s in gemini.routing_strengths %}
-- {{ s }}
-{% endfor %}
-
-**Routing Weaknesses**:
-{% for w in gemini.routing_weaknesses %}
-- {{ w }}
-{% endfor %}
-
-**Cost Structure**:
-- {{ gemini.cost_structure }}
-
----
-
-### ChatGPT (Vanguard)
-
-**Account**: {{ chatgpt.account }}
-**Primary Models**: {{ chatgpt.models | join(', ') }}
-
-| Capability | Status | Notes |
-|------------|--------|-------|
-{% for cap in chatgpt.capabilities %}
-| {{ cap.name }} | {{ cap.status }} | {{ cap.notes }} |
-{% endfor %}
-
-**Routing Strengths**:
-{% for s in chatgpt.routing_strengths %}
-- {{ s }}
-{% endfor %}
-
-**Routing Weaknesses**:
-{% for w in chatgpt.routing_weaknesses %}
-- {{ w }}
-{% endfor %}
-
-**Cost Structure**:
-- {{ chatgpt.cost_structure }}
-
----
 
 ## III. ROUTING DECISION TABLE
 
