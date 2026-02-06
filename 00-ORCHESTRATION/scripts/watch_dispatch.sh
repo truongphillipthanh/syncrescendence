@@ -110,6 +110,26 @@ process_task() {
     local claimed_file="$1"
     local original_basename="$2"
 
+    # Parse CC list (comma-separated) from task header, if present
+    local cc_list
+    cc_list=$(python3 - "$claimed_file" << 'PY'
+import re, sys
+p=sys.argv[1]
+t=open(p,'r',encoding='utf-8').read()
+m=re.search(r'^\*\*CC\*\*:\s*(.+)\s*$', t, flags=re.M)
+if not m:
+    print('')
+    raise SystemExit
+val=m.group(1).strip()
+if val in ('—','-',''):
+    print('')
+    raise SystemExit
+# normalize comma-separated
+parts=[x.strip() for x in val.split(',') if x.strip()]
+print(','.join(parts))
+PY
+)
+
     echo "[Watch] $(date '+%H:%M:%S') Processing: $original_basename"
 
     # Show task preview
@@ -183,10 +203,35 @@ set_field("Exit-Code", str(exit_code))
 open(path, 'w', encoding='utf-8').write(''.join(lines))
 PY
 
+    # Determine expected output path (first backticked path after "Write results to")
+    local expected_out
+    expected_out=$(python3 - "$claimed_file" << 'PY'
+import re, sys
+p=sys.argv[1]
+t=open(p,'r',encoding='utf-8').read()
+# capture the first `...` after "Write results to"
+m=re.search(r'Write results to\s+`([^`]+)`', t)
+print(m.group(1) if m else '')
+PY
+)
+
     if [ $exit_code -eq 0 ]; then
         local complete_name="${claimed_file%.claimed-by-*}.complete"
         mv "$claimed_file" "$complete_name" 2>/dev/null || true
         echo "[Watch] $(date '+%H:%M:%S') Task completed: $original_basename"
+
+        # Pipe receipts to CC inboxes (copy finalized task + expected result if present)
+        if [ -n "$cc_list" ]; then
+            IFS=',' read -r -a ccs <<< "$cc_list"
+            for cc in "${ccs[@]}"; do
+                [ -z "$cc" ] && continue
+                mkdir -p "$REPO_ROOT/-INBOX/$cc" 2>/dev/null || true
+                cp -f "$complete_name" "$REPO_ROOT/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.complete" 2>/dev/null || true
+                if [ -n "$expected_out" ] && [ -f "$REPO_ROOT/$expected_out" ]; then
+                    cp -f "$REPO_ROOT/$expected_out" "$REPO_ROOT/-INBOX/$cc/$(basename "$expected_out")" 2>/dev/null || true
+                fi
+            done
+        fi
         if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
             bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$original_basename" >/dev/null 2>&1 || true
         fi
@@ -194,6 +239,16 @@ PY
         local failed_name="${claimed_file%.claimed-by-*}.failed"
         mv "$claimed_file" "$failed_name" 2>/dev/null || true
         echo "[Watch] $(date '+%H:%M:%S') Task FAILED (exit $exit_code): $original_basename"
+
+        # Pipe failure receipt to CC inboxes (copy finalized task)
+        if [ -n "$cc_list" ]; then
+            IFS=',' read -r -a ccs <<< "$cc_list"
+            for cc in "${ccs[@]}"; do
+                [ -z "$cc" ] && continue
+                mkdir -p "$REPO_ROOT/-INBOX/$cc" 2>/dev/null || true
+                cp -f "$failed_name" "$REPO_ROOT/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.failed" 2>/dev/null || true
+            done
+        fi
         if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
             bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$original_basename" >/dev/null 2>&1 || true
         fi

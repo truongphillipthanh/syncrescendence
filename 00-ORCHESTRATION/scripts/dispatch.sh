@@ -1,6 +1,9 @@
 #!/bin/bash
 # dispatch.sh — Create a task dispatch file for any agent
-# Usage: bash dispatch.sh <agent> "TOPIC" "TASK_DESCRIPTION"
+# Usage: bash dispatch.sh <agent> "TOPIC" "TASK_DESCRIPTION" [CC]
+#
+# CC (optional): comma-separated list of additional inboxes to receive receipts
+# Example: bash dispatch.sh ajna "FOO" "do bar" "psyche"
 #
 # Agents: commander, adjudicator, cartographer, psyche, ajna
 # Writes a TASK file to -INBOX/<agent>/ for autonomous processing
@@ -16,6 +19,7 @@ if [ -z "$REPO_ROOT" ]; then echo "Error: not in a git repo"; exit 1; fi
 AGENT="${1:-psyche}"
 TOPIC="${2:-TASK}"
 DESCRIPTION="${3:-No description provided}"
+CC_RAW="${4:-—}"
 
 # Validate agent
 VALID_AGENTS="commander adjudicator cartographer psyche ajna"
@@ -60,6 +64,7 @@ cat > "$TASK_FILE" << EOF
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30
+**CC**: ${CC_RAW}
 
 ---
 
