@@ -269,6 +269,128 @@
   venue: repo
   status: new
 
+## 2026-02-06 — Tranche B (Execution substrate): Twin coordination + Intent Compass mechanics + Dispatch Kanban
+
+- id: IMPL-B-0001
+  source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
+  source_lines: "Sovereign Contact Rules"
+  intent: Make ‘when to ping Phillip’ enforceable instead of aspirational.
+  deliverable: A decision gate checklist (blocking/safety/data-loss/ratification bundle) implemented as (a) a template section in RESULT receipts and (b) optional OpenClaw notify helper that requires selecting one of the allowed reasons.
+  dependencies: Agreement on notification channels; OpenClaw notify semantics.
+  owner_lane: Psyche
+  venue: repo+tool
+  status: new
+
+- id: IMPL-B-0002
+  source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
+  source_lines: "Inter-Twin Communication"
+  intent: Make TWIN handoffs durable and discoverable.
+  deliverable: Create canonical folder + naming spec for `TWIN-{FROM}-{TO}-{topic}.md` (or update to current kanban structure) and add a simple index/ledger entry type for TWIN relays.
+  dependencies: Decide whether TWIN relays live in `-INBOX/<agent>/` or a shared `-INBOX/outputs/` resurrected equivalent.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-B-0003
+  source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
+  source_lines: "Git: Only Ajna commits"
+  intent: Reduce merge/drift risk while allowing Psyche to contribute safely.
+  deliverable: Document ‘Psyche contribution protocol’: Psyche opens PATCH artifacts (diffs) or PR branches; Ajna merges/commits. Include receipts: how to produce a patch bundle.
+  dependencies: Decide branch naming + patch handoff surface (-OUTGOING/PATCH-* vs -OUTBOX/psyche/ARTIFACTS).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-B-0004
+  source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
+  source_lines: "Update Format (both twins)"
+  intent: Standardize twin update payloads so they can be parsed/summarized automatically.
+  deliverable: A `TWIN-UPDATE` markdown template + optional linter that verifies required headings + max bullets constraints.
+  dependencies: None.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-B-0005
+  source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
+  source_lines: "Autonomous Work Cycle"
+  intent: Convert heartbeat guidance into an executable checklist.
+  deliverable: Add a `make twin-heartbeat` (or equivalent) that runs: git log tail, inbox queue status, ledger tail, and emits a short TWIN-UPDATE stub.
+  dependencies: queue_status.sh availability; ledger paths.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-B-0006
+  source_path: .claude/skills/intentions.md
+  source_lines: "PURPOSE + PROCESS (Capture/Categorization/Integration)"
+  intent: Ensure the Intent Compass loop is closed end-to-end (hook → queue → compass).
+  deliverable: A concrete triage SOP: how often to triage DYN-INTENTIONS_QUEUE.md, how to assign IDs, and what ‘flush’ means (move vs copy vs archive). Include acceptance: queue empties or entries marked triaged.
+  dependencies: Confirm current locations: DYN-INTENTIONS_QUEUE.md, ARCH-INTENTION_COMPASS.md.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-B-0007
+  source_path: .claude/skills/intentions.md
+  source_lines: "ID Assignment"
+  intent: Prevent intention ID collisions and ensure IDs are machine-derivable.
+  deliverable: Define an ID authority + generator (script or make target) that allocates INT IDs and appends to compass; enforce uniqueness via lint.
+  dependencies: Decide oracle numbering source; lint framework.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-B-0008
+  source_path: .claude/skills/intentions.md
+  source_lines: "ANTI-PATTERNS (False resolution / orphan intentions)"
+  intent: Add verification before marking intentions resolved.
+  deliverable: Compass schema extension: `evidence:` or `integrated_into:` required when status transitions to resolved; add a checker that fails if missing.
+  dependencies: Compass file schema governance.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-B-0009
+  source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
+  source_lines: "Per-Agent Outbox Structure + RESULT Receipt Determinism"
+  intent: Align watchers and humans on where RESULT receipts live.
+  deliverable: Create `-OUTBOX/<agent>/{RESULTS,ARTIFACTS}/` structure in repo + update watcher scripts to write there (not -OUTGOING), with a relay rule for what gets promoted to -OUTGOING.
+  dependencies: watch_dispatch.sh implementation state; repo directory conventions.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-B-0010
+  source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
+  source_lines: "Dispatch Kinds + header field requirements"
+  intent: Make Kind gating and schema validation a hard safety rail.
+  deliverable: Add a kanban linter (or extend ops_lint) that validates headers: Kind ∈ allowed set, To matches folder agent, Receipts-To is safe/relative, and Timeout is numeric.
+  dependencies: ops_lint.sh extension work.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-B-0011
+  source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
+  source_lines: "Lifecycle (Claim/Process/Complete/Fail)"
+  intent: Ensure lifecycle transitions are auditable.
+  deliverable: Ledger policy: required events (DISPATCH/CLAIM/COMPLETE/FAILED/BLOCKED/WAITING) and required fields in each event; implement missing events if any.
+  dependencies: DYN-GLOBAL_LEDGER schema; append_ledger.sh.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-B-0012
+  source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
+  source_lines: "Cross-Claim Prevention"
+  intent: Prevent wrong-agent execution and forensic ambiguity.
+  deliverable: Update watcher claim code to enforce `To:` matches agent AND record `Claimed-By=<agent>-<hostname>`; add a health check that scans IN_PROGRESS for stale claims.
+  dependencies: watcher_health.sh and watch_dispatch.sh.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
 ## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
 
 - id: IMPL-D-0034

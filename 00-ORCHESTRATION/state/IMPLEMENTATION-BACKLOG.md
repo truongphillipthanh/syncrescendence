@@ -47,6 +47,26 @@
 - IMPL-A-0022 — Automation milestones (M0→M2) + acceptance tests per system
 - IMPL-A-0024 — System↔IIC stream mapping (default recipients, cadence, SLA)
 
+## 2026-02-06 (Tranche B) — Twin coordination + Intent Compass mechanics + Dispatch Kanban
+
+### P0
+- IMPL-B-0009 — Establish -OUTBOX/<agent>/ structure + align watcher RESULT receipts + relay rule to -OUTGOING
+- IMPL-B-0010 — Kanban schema linter: Kind gating + header validation (safety rail)
+
+### P1
+- IMPL-B-0006 — Intent Compass triage SOP (queue → compass flush semantics + cadence)
+- IMPL-B-0001 — Sovereign contact rules as enforceable decision gate (notify reason required)
+- IMPL-B-0012 — Wrong-agent prevention: enforce To + Claimed-By hostname + stale-claim scan
+
+### P2
+- IMPL-B-0002 — Durable TWIN handoff surface + indexing/ledger for twin relays
+- IMPL-B-0004 — TWIN-UPDATE template + linter
+- IMPL-B-0007 — INT ID generator/authority + uniqueness enforcement
+- IMPL-B-0008 — Compass resolution requires evidence/integrated_into
+- IMPL-B-0011 — Ledger policy for lifecycle completeness (add BLOCKED/WAITING if needed)
+- IMPL-B-0005 — make twin-heartbeat command that emits update stub
+- IMPL-B-0003 — Psyche contribution protocol (PATCH bundles/branches; Ajna commits)
+
 ## 2026-02-06 (Tranche D) — Always-on watchers readiness
 
 ### P0
