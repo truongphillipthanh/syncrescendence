@@ -1,4 +1,4 @@
-fingerprint: f8b7879
-timestamp: 2026-02-02T19:18:58Z
+fingerprint: 1486acb
+timestamp: 2026-02-06T00:10:04Z
 branch: main
-message: feat: harden plumbing — lint, verify, triage, watchers (Psyche TASK-20260202)
+message: chore(dispatch): agent inbox lifecycle artifacts + sovereign queue updates
