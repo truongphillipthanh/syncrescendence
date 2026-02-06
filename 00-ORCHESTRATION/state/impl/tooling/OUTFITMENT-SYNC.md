@@ -33,17 +33,18 @@ Then provide an installer script that:
 3) restarts gateway
 
 ### B) Skills as vendored subtrees (best portability)
-Prefer vendoring any non-core skills into the Syncrescendence repo:
-- `00-ORCHESTRATION/openclaw/skills/` (git-tracked)
-Then configure `plugins.load.paths` to point into the repo, not `~/.openclaw/workspace/skills`.
+Prefer vendoring any non-core skills into the Syncrescendence repo *if they are small and license-clean*.
 
-This makes “same outfitment” == `git pull`.
+Note: some workspace skills are large (hundreds of MB). Vendoring them may be undesirable.
 
-### C) If we keep local workspace skills, sync via rsync
-If vendoring isn’t desired, implement:
+### C) Canonical interim: sync local workspace skills via rsync (no secrets)
+Implemented:
 - `00-ORCHESTRATION/scripts/sync_openclaw_skills.sh`
-  - rsyncs selected directories between hosts
-  - never touches `openclaw.json`
+  - rsyncs an allowlist of skill/plugin directories
+  - never touches `~/.openclaw/openclaw.json` or `~/.openclaw/credentials`
+  - excludes `node_modules/` and `dist/`
+
+This makes “same outfitment” a one-command pull on the mini whenever Psyche gains a capability.
 
 ## Verification (must-have receipts)
 - `openclaw doctor --non-interactive` on both machines
