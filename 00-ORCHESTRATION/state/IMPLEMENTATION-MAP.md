@@ -239,3 +239,96 @@
   venue: repo
   status: new
 
+
+## 2026-02-06 — Tranche D (Tooling): OpenClaw outfitment sync (Ajna ↔ Psyche)
+
+- id: IMPL-D-0042
+  source_path: 00-ORCHESTRATION/state/impl/tooling/OUTFITMENT-SYNC.md
+  source_lines: "Goal + sync/non-sync definitions"
+  intent: Make Ajna and Psyche share the same OpenClaw capability surface while keeping secrets local.
+  deliverable: Ratified outfitment sync policy and operational verification checklist.
+  dependencies: None
+  owner_lane: Psyche
+  venue: repo
+  status: mapped
+
+- id: IMPL-D-0043
+  source_path: 00-ORCHESTRATION/scripts/sync_openclaw_skills.sh
+  source_lines: "SKILLS allowlist + rsync excludes"
+  intent: Provide a repeatable, secrets-safe mechanism for mirroring OpenClaw workspace skills between hosts.
+  deliverable: rsync-based skill sync script with conservative allowlist + node_modules/dist excludes.
+  dependencies: SSH reachability + host aliasing between machines
+  owner_lane: Psyche
+  venue: repo
+  status: mapped
+
+- id: IMPL-D-0044
+  source_path: -OUTGOING/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
+  source_lines: "Phase 1 SSH reachability failures"
+  intent: Remove SSH trust/bootstrap friction as a blocker for operational sync.
+  deliverable: Establish stable SSH aliasing (psyche/ajna), host discovery method, and host-key pinning procedure; generate receipts (fingerprints).
+  dependencies: LAN reachability; SSH keys; known_hosts hygiene
+  owner_lane: Ajna + Commander
+  venue: tool
+  status: queued
+
+- id: IMPL-D-0045
+  source_path: -OUTGOING/RESULT-ajna-20260205-sync_outfitment.md
+  source_lines: "CRITICAL: OAuth dir missing (~/.openclaw/credentials)"
+  intent: Ensure OpenClaw OAuth-based providers (openai-codex) are stable on Ajna.
+  deliverable: Run `openclaw doctor --fix` (or equivalent) and verify ~/.openclaw/credentials exists; add a watcher preflight that fails fast if missing.
+  dependencies: OpenClaw CLI; ability to restart gateway
+  owner_lane: Ajna
+  venue: tool
+  status: queued
+
+- id: IMPL-D-0046
+  source_path: 00-ORCHESTRATION/scripts/sync_openclaw_skills.sh
+  source_lines: "REMOTE_HOME probe + remote skills dir"
+  intent: Make the sync script robust across differing usernames (home/system) without guesswork.
+  deliverable: Add explicit flags for remote user/path (e.g., --from-user, --from-skills-dir), and write receipts for resolved REMOTE_HOME and final resolved REMOTE_SKILLS_DIR.
+  dependencies: SSH
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0047
+  source_path: 00-ORCHESTRATION/state/impl/tooling/OUTFITMENT-SYNC.md
+  source_lines: "Verification"
+  intent: Provide a deterministic parity smoke test that proves synced skills are actually loadable.
+  deliverable: A dedicated smoke task that invokes a non-core workspace skill on Ajna (e.g., supermemory/hindsight integration) and returns a clear PASS/FAIL receipt.
+  dependencies: Skill load + plugin enablement state
+  owner_lane: Psyche + Ajna
+  venue: repo
+  status: new
+
+- id: IMPL-D-0048
+  source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
+  source_lines: "psyche|ajna route"
+  intent: Prevent tasks marked FAILED when they only represent environmental/bootstrap blockers.
+  deliverable: Add a distinct lifecycle status (e.g., BLOCKED) or error classification when failures are due to missing binaries/auth/ssh trust.
+  dependencies: Ledger schema + task lifecycle semantics
+  owner_lane: Psyche + Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0049
+  source_path: 00-ORCHESTRATION/scripts/rearm_watchers.sh
+  source_lines: "mini/home vs psyche/system"
+  intent: Keep OpenClaw+watcher scaffolding synchronized between hosts while respecting role split.
+  deliverable: Ensure rearm_watchers installs the correct plist set; add a verification step that prints the resolved ProgramArguments paths after install.
+  dependencies: launchctl/plutil
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0050
+  source_path: -OUTGOING/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
+  source_lines: "git stash used to proceed"
+  intent: Avoid hidden local state (stashes) on Ajna causing drift or future merge surprises.
+  deliverable: Define policy: no long-lived stashes on always-on node; create a periodic audit script that lists stashes and requires resolution.
+  dependencies: git
+  owner_lane: Ajna
+  venue: repo
+  status: new
+

@@ -42,3 +42,19 @@
 - IMPL-D-0034 — Two-set watcher plist install (mini/home vs psyche/system) kept deterministic
 - IMPL-D-0035 — Mini home base path hardcode to /Users/home (policy)
 
+
+## 2026-02-06 (Tranche D) — Outfitment sync (Ajna ↔ Psyche)
+
+### P0
+- IMPL-D-0044 — SSH alias + host-key pinning procedure for Ajna↔Psyche (unblock rsync sync)
+- IMPL-D-0045 — Fix Ajna OAuth dir missing (~/.openclaw/credentials) and add preflight
+
+### P1
+- IMPL-D-0047 — Deterministic parity smoke test: invoke workspace skill on Ajna and return PASS/FAIL receipt
+- IMPL-D-0046 — Make sync_openclaw_skills.sh robust across remote usernames/paths (flags + receipts)
+
+### P2
+- IMPL-D-0049 — rearm_watchers verification step prints resolved paths + loaded labels
+- IMPL-D-0048 — Add BLOCKED status / classifier to watcher lifecycle to distinguish env blockers from task failure
+- IMPL-D-0050 — Ajna git stash hygiene: audit + policy
+
