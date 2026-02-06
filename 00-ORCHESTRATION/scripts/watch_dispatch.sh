@@ -128,10 +128,10 @@ process_task() {
             claude -p "$task_content" 2>&1
             ;;
         adjudicator)
-            codex "$task_content" 2>&1
+            codex exec "$task_content" 2>&1
             ;;
         cartographer)
-            gemini "$task_content" 2>&1
+            echo "$task_content" | gemini -p "You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only." 2>&1
             ;;
         psyche|ajna)
             # Use Gateway-routed agent turn (no --local; stable in daemonized environments)
