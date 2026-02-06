@@ -227,8 +227,22 @@ PY
                 [ -z "$cc" ] && continue
                 mkdir -p "$REPO_ROOT/-INBOX/$cc" 2>/dev/null || true
                 cp -f "$complete_name" "$REPO_ROOT/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.complete" 2>/dev/null || true
+
+                # If CC target is on another machine, attempt best-effort scp using SSH alias == cc.
+                # This enables "pipe Ajna replies into Psyche inbox" when Ajna can reach `ssh psyche`.
+                if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d /Users/system/Desktop/syncrescendence/-INBOX/$cc" 2>/dev/null; then
+                    scp -q -o BatchMode=yes -o ConnectTimeout=5 "$complete_name" \
+                      "$cc:/Users/system/Desktop/syncrescendence/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.complete" \
+                      2>/dev/null || true
+                fi
+
                 if [ -n "$expected_out" ] && [ -f "$REPO_ROOT/$expected_out" ]; then
                     cp -f "$REPO_ROOT/$expected_out" "$REPO_ROOT/-INBOX/$cc/$(basename "$expected_out")" 2>/dev/null || true
+                    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d /Users/system/Desktop/syncrescendence/-OUTGOING" 2>/dev/null; then
+                        scp -q -o BatchMode=yes -o ConnectTimeout=5 "$REPO_ROOT/$expected_out" \
+                          "$cc:/Users/system/Desktop/syncrescendence/$expected_out" \
+                          2>/dev/null || true
+                    fi
                 fi
             done
         fi
@@ -247,6 +261,13 @@ PY
                 [ -z "$cc" ] && continue
                 mkdir -p "$REPO_ROOT/-INBOX/$cc" 2>/dev/null || true
                 cp -f "$failed_name" "$REPO_ROOT/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.failed" 2>/dev/null || true
+
+                # Best-effort remote pipe via scp (see success case above)
+                if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d /Users/system/Desktop/syncrescendence/-INBOX/$cc" 2>/dev/null; then
+                    scp -q -o BatchMode=yes -o ConnectTimeout=5 "$failed_name" \
+                      "$cc:/Users/system/Desktop/syncrescendence/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.failed" \
+                      2>/dev/null || true
+                fi
             done
         fi
         if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
