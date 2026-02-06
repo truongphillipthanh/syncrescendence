@@ -32,7 +32,7 @@
 | PROJ-002 | ACTIVE | P1 | 95% | IIC Configuration — All 5 configs complete (Acumen/Coherence/Efficacy/Mastery/Transcendence). Remaining: Mastery account email (Sovereign) |
 | PROJ-003 | ACTIVE | P2 | 50% | Tooling Stack — REF-STACK_TELEOLOGY.md complete, SOVEREIGN-009 filed with 5 disposition decisions. Blocks PROJ-006 |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
-| PROJ-006a | ACTIVE | P1 | 5% | Ontology Phase 1 (Content) — substrate-agnostic: CANON frontmatter, Ontology Bridge v1.0, operational status audit, Dataview queries. Unblocked. |
+| PROJ-006a | ACTIVE | P1 | 40% | Ontology Phase 1 (Content) — CANON frontmatter 79/79 COMPLETE, Ontology Bridge v1.0 COMPLETE (200+ relations). Remaining: operational status audit verification, Dataview query testing. |
 | PROJ-006b | BLOCKED | P1 | 0% | Ontology Phase 2 (Substrate) — implementation in Notion/Obsidian/custom after SOVEREIGN-009. Blocked by PROJ-003. |
 | PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
 | PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
