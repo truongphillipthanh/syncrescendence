@@ -29,6 +29,10 @@
     <dict>
         <key>PATH</key>
         <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>NODE_NO_WARNINGS</key>
+        <string>1</string>
+        <key>NODE_OPTIONS</key>
+        <string>--no-warnings</string>
     </dict>
 
     <key>ThrottleInterval</key>

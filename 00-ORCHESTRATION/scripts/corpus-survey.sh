@@ -12,7 +12,7 @@ OUTPUT_DIR="${1:--OUTGOING/$(date +%Y%m%d)-corpus-survey}"
 PROMPT_FILE="00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md"
 
 cd "$REPO_ROOT"
-mkdir -p "$OUTPUT_DIR"
+mkdir -p -- "$OUTPUT_DIR"
 
 echo "=== CORPUS SURVEY ==="
 echo "Repository: $(basename "$REPO_ROOT")"

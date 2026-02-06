@@ -43,20 +43,64 @@ echo ""
 
 claim_task() {
     local file="$1"
-    local basename=$(basename "$file")
+    local basename
+    basename=$(basename "$file")
     local claimed_name="${file}.claimed-by-${AGENT}-${HOSTNAME_SHORT}"
 
     # Atomic claim via rename — if this fails, another watcher claimed it first
     if ! mv "$file" "$claimed_name" 2>/dev/null; then
-        echo "[Watch] $(date '+%H:%M:%S') Claim failed (already claimed): $basename"
+        echo "[Watch] $(date '+%H:%M:%S') Claim failed (already claimed): $basename" >&2
         return 1
     fi
 
-    echo "[Watch] $(date '+%H:%M:%S') Claimed: $basename"
+    # Update in-body lifecycle truth (Status + Claimed-By/At)
+    if [ -f "$claimed_name" ]; then
+        python3 - "$claimed_name" "$AGENT" "$HOSTNAME_SHORT" << 'PY'
+import sys
+from datetime import datetime, timezone
+
+path, agent, host = sys.argv[1:4]
+now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+claim_tag = f"{agent}-{host}"
+
+lines = open(path, 'r', encoding='utf-8').read().splitlines(True)
+
+def set_field(name: str, value: str):
+    """Upsert a markdown header field like **Status**: VALUE."""
+    key = f"**{name}**:"
+    for i, line in enumerate(lines):
+        if line.startswith(key):
+            lines[i] = f"{key} {value}\n"
+            return
+    # Insert after Priority if present, else after Fingerprint, else near top
+    insert_after = None
+    for marker in ("**Priority**:", "**Fingerprint**:", "**Issued**:"):
+        for i, line in enumerate(lines):
+            if line.startswith(marker):
+                insert_after = i
+                break
+        if insert_after is not None:
+            break
+    if insert_after is None:
+        insert_after = 0
+    lines.insert(insert_after + 1, f"{key} {value}\n")
+
+set_field("Status", "IN_PROGRESS")
+set_field("Claimed-By", claim_tag)
+set_field("Claimed-At", now)
+
+open(path, 'w', encoding='utf-8').write(''.join(lines))
+PY
+    else
+        echo "[Watch] WARNING: claimed file missing before status update: $claimed_name" >&2
+    fi
+
+    echo "[Watch] $(date '+%H:%M:%S') Claimed: $basename" >&2
 
     # Append ledger: CLAIM event
     if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
-        bash "$SCRIPTS_DIR/append_ledger.sh" CLAIM "$AGENT" "$AGENT" "$basename" 2>/dev/null || true
+        # Important: do not contaminate stdout (stdout is used to return claimed filename)
+        bash "$SCRIPTS_DIR/append_ledger.sh" CLAIM "$AGENT" "$AGENT" "$basename" >/dev/null 2>&1 || true
     fi
 
     echo "$claimed_name"
@@ -90,7 +134,9 @@ process_task() {
             gemini "$task_content" 2>&1
             ;;
         psyche|ajna)
-            openclaw agent --local -m "$task_content" 2>&1
+            # Use Gateway-routed agent turn (no --local; stable in daemonized environments)
+            # NOTE: openclaw agent requires a session selector; we target the default agent id "main".
+            openclaw agent --agent main --message "$task_content" --timeout 600 2>&1
             ;;
         *)
             echo "[Watch] No CLI handler configured for agent: $AGENT"
@@ -100,20 +146,56 @@ process_task() {
 
     local exit_code=$?
 
-    # Complete or fail — rename accordingly and append ledger
+    # Update in-body lifecycle truth then rename accordingly and append ledger
+    python3 - "$claimed_file" "$exit_code" << 'PY'
+import sys
+from datetime import datetime, timezone
+
+path = sys.argv[1]
+exit_code = int(sys.argv[2])
+now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+lines = open(path, 'r', encoding='utf-8').read().splitlines(True)
+
+def set_field(name: str, value: str):
+    key = f"**{name}**:"
+    for i, line in enumerate(lines):
+        if line.startswith(key):
+            lines[i] = f"{key} {value}\n"
+            return
+    # Insert after Claimed-At if present, else after Status
+    insert_after = None
+    for marker in ("**Claimed-At**:", "**Status**:"):
+        for i, line in enumerate(lines):
+            if line.startswith(marker):
+                insert_after = i
+                break
+        if insert_after is not None:
+            break
+    if insert_after is None:
+        insert_after = 0
+    lines.insert(insert_after + 1, f"{key} {value}\n")
+
+set_field("Status", "COMPLETE" if exit_code == 0 else "FAILED")
+set_field("Completed-At", now)
+set_field("Exit-Code", str(exit_code))
+
+open(path, 'w', encoding='utf-8').write(''.join(lines))
+PY
+
     if [ $exit_code -eq 0 ]; then
         local complete_name="${claimed_file%.claimed-by-*}.complete"
         mv "$claimed_file" "$complete_name" 2>/dev/null || true
         echo "[Watch] $(date '+%H:%M:%S') Task completed: $original_basename"
         if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
-            bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$original_basename" 2>/dev/null || true
+            bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$original_basename" >/dev/null 2>&1 || true
         fi
     else
         local failed_name="${claimed_file%.claimed-by-*}.failed"
         mv "$claimed_file" "$failed_name" 2>/dev/null || true
         echo "[Watch] $(date '+%H:%M:%S') Task FAILED (exit $exit_code): $original_basename"
         if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
-            bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$original_basename" 2>/dev/null || true
+            bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$original_basename" >/dev/null 2>&1 || true
         fi
     fi
 }
@@ -143,7 +225,9 @@ handle_task() {
 if command -v fswatch &>/dev/null; then
     echo "[Watch] Using fswatch (event-driven, low overhead)"
     echo ""
-    fswatch -0 --event Created --event Updated "$WATCH_DIR" | while IFS= read -r -d '' file; do
+    # NOTE: some fswatch builds/platforms do not reliably emit the specific event filters.
+    # We watch the directory and handle any signaled path.
+    fswatch -0 "$WATCH_DIR" | while IFS= read -r -d '' file; do
         handle_task "$file"
     done
 else
