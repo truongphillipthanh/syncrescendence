@@ -157,6 +157,118 @@
   venue: repo
   status: new
 
+## 2026-02-06 — Tranche A (Spine): Four-Systems operationalization (modes → implementation)
+
+- id: IMPL-A-0016
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "System 1: Automatic-Push (Scheduled Monitoring)"
+  intent: Turn System 1 from concept into a runnable scheduled monitor.
+  deliverable: Minimal System-1 runner spec + script (or Makefile target) that polls a defined feed list and writes a Daily/Weekly Brief artifact to -INBOX/ or SOURCES/processed/.
+  dependencies: Decide feed sources + auth surface (RSS/Feedly/YouTube); scheduling surface (launchd vs cron).
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-A-0017
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "System 2: Curation-Push (Serendipitous Discovery)"
+  intent: Create a frictionless ‘save-to-queue’ ingestion path.
+  deliverable: A capture protocol for watch-later/bookmark inputs (YouTube Watch Later, browser share sheet, etc.) with a deterministic queue file format and a processor that deposits cleaned sources into 04-SOURCES/processed/.
+  dependencies: Decide capture surfaces (YouTube playlist polling, Pocket/Instapaper, Apple Notes, etc.).
+  owner_lane: Psyche (spec) + Commander (impl)
+  venue: repo
+  status: new
+
+- id: IMPL-A-0018
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "System 3: On-Demand-Pull (Active Research)"
+  intent: Standardize research packets so outputs are comparable and reusable.
+  deliverable: Research packet template (frontmatter + sections + citation requirements) and a routing rule: when to use Cartographer (Gemini CLI), Augur (Perplexity), Oracle (Grok), or web_search.
+  dependencies: Toolchain interaction protocol (IMPL-A-0010) and CANON-31150 catalog update (IMPL-A-0008).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-A-0019
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "System 4: Triage & Qualification (Gatekeeper)"
+  intent: Make triage an explicit, fast, repeatable gate for every incoming source.
+  deliverable: A triage checklist + classification schema (signal_tier, value_modality) with a ‘30-second scan’ SOP and default routing decisions.
+  dependencies: Existing TRIAGE_PROTOCOL.md / PROCESSING_ROUTING.md (if present) and SOURCES schema references.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-A-0020
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "Critical Questions (value modality)"
+  intent: Operationalize value_modality so the apparatus chooses the right medium (read/watch/listen) by default.
+  deliverable: Value-modality decision tree + mapping to processing functions (readize/listenize/transcribe/watch) and a required field in source frontmatter.
+  dependencies: Function library docs + source frontmatter schema agreement.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-A-0021
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "How Systems Interact (diagram)"
+  intent: Make the interaction model executable (not just a diagram).
+  deliverable: A single ‘source intake’ state machine spec showing entrypoints (System 1/2/3) → triage (System 4) → outcomes (process/queue/archive/prune) with filenames/dirs.
+  dependencies: Dispatch kanban protocol + directory conventions (-INBOX/-OUTGOING/04-SOURCES).
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-A-0022
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "MVP Implementation (Manual batch processing)"
+  intent: Replace “manual” MVP statements with explicit automation milestones.
+  deliverable: A milestone table (M0 manual → M1 semi-auto → M2 scheduled) for each of the four systems, with acceptance tests.
+  dependencies: None.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-A-0023
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "Future automation: n8n / scheduled triggers"
+  intent: Decide and document the automation substrate for scheduled + event-driven ingestion.
+  deliverable: DecisionAtom: launchd/cron vs n8n vs OpenClaw cron; include security posture and portability.
+  dependencies: /claresce Pass 1-3 on automation policy (truth surface + reliability).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-A-0024
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "IIC Mapping (Acumen/Coherence)"
+  intent: Connect operational modes to IIC configs so routing can be identity-aware.
+  deliverable: Mapping table: System 1-4 → IIC streams (Acumen/Coherence) and default recipients/inboxes; note SLA/brief cadence.
+  dependencies: IIC config status + CANON IIC docs.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-A-0025
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "Cross-References (SOURCES_SCHEMA/TRIAGE_PROTOCOL/PROCESSING_ROUTING)"
+  intent: Remove dangling references / make cross-refs real.
+  deliverable: Verify referenced docs exist; if missing, create minimal stubs or update links to current equivalents.
+  dependencies: Repo scan for actual filenames.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-A-0026
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "System Selection Guide"
+  intent: Provide a quick operator UI for choosing which system to invoke.
+  deliverable: A short operator command reference (e.g., make auto-push, make curate-push, make research-pull, make triage) that routes to the correct scripts and writes receipts.
+  dependencies: Scripts created in IMPL-A-0016/0017/0018/0019.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
 ## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
 
 - id: IMPL-D-0034
@@ -411,6 +523,126 @@
   intent: Close the loop between filesystem-kanban and SaaS execution surfaces (Linear/ClickUp/Slack/Discord).
   deliverable: Add an explicit 'Integration hooks' section: where notifications go, what events are emitted (DISPATCH/RESULT/FAILED/BLOCKED/REGEN/COMPACT), and which SaaS surfaces subscribe.
   dependencies: platform integration decisions (Cowork); Linear vs ClickUp role boundary.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0059
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "append_regen_log(): hardcoded CANON IDs (echo ... | 31150 |)"
+  intent: Make CANON regeneration log truthful and useful for audit.
+  deliverable: Patch watch_canon.sh so regen log writes the actual CANON IDs regenerated (pulled from regenerate_canon.py output), not a hardcoded placeholder.
+  dependencies: regenerate_canon.py must expose/return regenerated ids (stdout/json).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0060
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "regenerate() + append_regen_log()"
+  intent: Add ledger observability for CANON regeneration events.
+  deliverable: On regen SUCCESS/FAILED, append a ledger REGEN event via append_ledger.sh including trigger, status, and CANON IDs.
+  dependencies: append_ledger.sh REGEN event type already present; decide payload fields.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0061
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "build_watch_paths() + dry-run"
+  intent: Diagnose missing watch inputs early to avoid silent non-regeneration.
+  deliverable: Add watch_canon.sh --diagnose mode that (a) prints registry entries + watch_paths, (b) highlights missing files, and (c) exits nonzero if critical watch_paths missing.
+  dependencies: Template registry schema; policy for critical vs optional inputs.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0062
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "fswatch loop (no lock)"
+  intent: Prevent concurrent/overlapping regen runs on bursty fswatch events.
+  deliverable: Add a lock (mkdir lockdir) around regenerate() so only one regen can run at a time; drop/restart if another event arrives while running.
+  dependencies: Lock directory convention (/tmp/syncrescendence-canon.lock).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0063
+  source_path: 00-ORCHESTRATION/scripts/ops_lint.sh
+  source_lines: "check_frontmatter(): only checks presence of keys"
+  intent: Turn ops_lint into a correctness gate, not just a presence check.
+  deliverable: Extend ops_lint to validate: (a) kind is in allowed set, (b) id matches filename prefix conventions, (c) YAML parses (python -c yaml.safe_load) where available.
+  dependencies: Decide allowed kind set for 02-ENGINE (PROMPT/REF/etc.).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0064
+  source_path: 00-ORCHESTRATION/scripts/ops_lint.sh
+  source_lines: "currently checks each file independently"
+  intent: Prevent duplicate ids across operational artifacts.
+  deliverable: Add a pass that collects all frontmatter ids and fails on duplicates; output the colliding file paths.
+  dependencies: None.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0065
+  source_path: 00-ORCHESTRATION/scripts/verify_all.sh
+  source_lines: "Root .md files: conditional + comment mismatch"
+  intent: Remove drift/mismatch in verification messages.
+  deliverable: Fix verify_all.sh root .md allowance message (comment says 3 allowed; message says expected <=2) and make allowed list explicit.
+  dependencies: Decide canonical allowed root markdown list.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0066
+  source_path: 00-ORCHESTRATION/scripts/verify_all.sh
+  source_lines: "set -e; ledger checks; ls/wc pipelines"
+  intent: Make verification resilient and CI-friendly.
+  deliverable: Harden verify_all.sh: set -euo pipefail; avoid failures when optional files are missing; standardize counts and exit codes.
+  dependencies: Decide which missing artifacts are warnings vs errors.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0067
+  source_path: Makefile
+  source_lines: "verify target assumes DYN-TASKS.csv + DYN-PROJECTS.csv exist"
+  intent: Prevent make verify from failing on first-run repos.
+  deliverable: Patch Makefile verify/update-ledgers to check file existence and print 'Not found' instead of erroring; align with verify_all.sh.
+  dependencies: None.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0068
+  source_path: Makefile
+  source_lines: ".PHONY list + targets"
+  intent: Provide a single ops-health entrypoint.
+  deliverable: Add make ops-health that runs lint + verify-full + (future) watcher_health.sh and surfaces a summarized PASS/FAIL.
+  dependencies: IMPL-D-0038 watcher_health.sh.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0069
+  source_path: Makefile
+  source_lines: "canon tooling targets"
+  intent: Make canon watch/regeneration accessible and standardized.
+  deliverable: Add make canon-watch and canon-watch-once targets that call watch_canon.sh (and/or regenerate_canon.py) with consistent logging.
+  dependencies: watch_canon.sh flags.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0070
+  source_path: 00-ORCHESTRATION/scripts/verify_all.sh + Makefile
+  source_lines: "stdout-only; no machine-readable report"
+  intent: Enable automated ops checks and dashboards.
+  deliverable: Add optional JSON output mode (e.g., VERIFY_JSON=1) for verify_all.sh and wire Makefile target verify-json; useful for watcher_health aggregation.
+  dependencies: Decide JSON schema + where to write.
   owner_lane: Psyche
   venue: repo
   status: new

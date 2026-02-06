@@ -26,6 +26,27 @@
 - IMPL-A-0012 — Linear reconciliation design + sync spec
 - IMPL-A-0013 — FDIS requirements + deployment surface
 
+## 2026-02-06 (Tranche A) — Four-Systems operationalization
+
+### P0
+- IMPL-A-0019 — System 4 triage & qualification SOP + schema (signal_tier, value_modality)
+
+### P1
+- IMPL-A-0016 — System 1 scheduled monitoring runner + brief artifact output
+- IMPL-A-0017 — System 2 ‘save-to-queue’ capture protocol + processor to 04-SOURCES/processed/
+- IMPL-A-0021 — Executable interaction state machine (entrypoints → triage → route)
+
+### P2
+- IMPL-A-0018 — Research packet template + tool routing rules (System 3)
+- IMPL-A-0020 — Value-modality decision tree → processing function mapping
+- IMPL-A-0023 — DecisionAtom: automation substrate (launchd/cron vs n8n vs OpenClaw cron)
+- IMPL-A-0025 — Verify/create missing cross-ref docs (SOURCES_SCHEMA/TRIAGE_PROTOCOL/PROCESSING_ROUTING)
+- IMPL-A-0026 — Operator command reference / make targets per system
+
+### P3
+- IMPL-A-0022 — Automation milestones (M0→M2) + acceptance tests per system
+- IMPL-A-0024 — System↔IIC stream mapping (default recipients, cadence, SLA)
+
 ## 2026-02-06 (Tranche D) — Always-on watchers readiness
 
 ### P0
@@ -64,13 +85,27 @@
 ### P0
 - IMPL-D-0051 — Executor wall-clock timeout + BLOCKED classification + RESULT on timeout
 - IMPL-D-0055 — Truthful CANON regen log (actual IDs) + ledger REGEN events
+- IMPL-D-0059 — watch_canon regen log writes actual regenerated CANON IDs
+- IMPL-D-0060 — Ledger REGEN events emitted by watch_canon (include IDs + trigger)
+- IMPL-D-0062 — watch_canon concurrency lock (avoid overlapping regen)
 
 ### P1
 - IMPL-D-0052 — Enforce Kind gating (TASK/SURVEY/PATCH only)
 - IMPL-D-0053 — RESULT path determinism (prefer Expected Output header)
 - IMPL-D-0054 — Log hygiene: no long-form diagnostics in watcher stderr
 
+### P1
+- IMPL-D-0067 — Makefile verify/update-ledgers: existence checks + align with verify_all
+- IMPL-D-0065 — verify_all.sh: fix root .md allowance mismatch + explicit allowlist
+
 ### P2
 - IMPL-D-0056 — watch_canon --diagnose (missing watch_paths detection)
+- IMPL-D-0061 — watch_canon --diagnose mode (missing watch_paths detection + nonzero on critical missing)
 - IMPL-D-0057 — make ops-health aggregator target
+- IMPL-D-0068 — make ops-health: lint + verify-full + watcher_health (when available)
+- IMPL-D-0069 — make canon-watch / canon-watch-once targets
+- IMPL-D-0063 — ops_lint: validate kind/id conventions + YAML parse
+- IMPL-D-0064 — ops_lint: detect duplicate ids across artifacts
+- IMPL-D-0066 — verify_all.sh hardening: set -euo pipefail + missing-file resilience
+- IMPL-D-0070 — verify JSON output mode for dashboards/health checks
 - IMPL-D-0058 — Kanban protocol: integration hooks section (SaaS subscriptions)
