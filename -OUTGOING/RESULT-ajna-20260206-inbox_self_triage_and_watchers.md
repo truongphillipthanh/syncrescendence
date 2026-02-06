@@ -45,6 +45,16 @@ It runs:
 
 …and instructs: **report only exceptions** (pending tasks, stale claims, failed receipts, missing watchers, or dirty repo).
 
+## 3.1) Exception: repo currently dirty due to duplicated "* 2" files
+While validating, `git status` on Ajna shows a large number of **untracked** files with names like `"… 2.md"`, `"… 2.plist"`, etc.
+
+This is a **merge-conflict / drift risk** and can break the intended IO Model v2 if those duplicates get accidentally committed.
+
+Recommendation:
+- Identify how those `* 2` duplicates were created (likely a Finder copy/merge or a bulk copy op).
+- Add a guardrail (e.g., `.gitignore` pattern for `* 2.*`) only if it is safe and intentional.
+- Prefer cleaning them with an explicit, reviewed script so we don’t delete something important by accident.
+
 ## 4) Current triage snapshot (exceptions)
 As of `2026-02-05 19:08:23` (local):
 
