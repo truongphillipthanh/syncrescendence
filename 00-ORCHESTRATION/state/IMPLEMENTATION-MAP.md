@@ -665,6 +665,88 @@
   venue: repo
   status: new
 
+## 2026-02-06 — Tranche D (Tooling + integration): Script surfaces (verify/lint/triage/canon regen)
+
+- id: IMPL-D-0083
+  source_path: 00-ORCHESTRATION/scripts/verify_all.sh
+  source_lines: "Structure Verification → Root .md files (expected <=2 mismatch)"
+  intent: Make verification truthful and non-brittle.
+  deliverable: Fix allowlist vs message mismatch; switch to explicit allowlist and surface offending files; set -euo pipefail; tolerate missing optional artifacts.
+  dependencies: Decide canonical root .md allowlist; align with Makefile verify.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0084
+  source_path: 00-ORCHESTRATION/scripts/verify_all.sh
+  source_lines: "Ledger Verification: Not found handling"
+  intent: Standardize missing-file policy across ops commands.
+  deliverable: Define which missing ledgers are ERROR vs WARN; ensure verify-full exits nonzero only on true invariants.
+  dependencies: Repo invariants doc (if any).
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0085
+  source_path: 00-ORCHESTRATION/scripts/ops_lint.sh
+  source_lines: "check_frontmatter(): only checks presence of keys"
+  intent: Turn ops_lint into a correctness gate.
+  deliverable: Validate kind ∈ allowed set, id uniqueness, YAML parse, and filename/id convention alignment; add summary output suitable for CI.
+  dependencies: Allowed kinds + naming conventions per directory.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0086
+  source_path: 00-ORCHESTRATION/scripts/ops_lint.sh
+  source_lines: "Scope limited to flat 02-ENGINE/"
+  intent: Prevent frontmatter drift in other critical zones.
+  deliverable: Extend lint coverage to additional directories (00-ORCHESTRATION/state/*, 01-CANON/*) or add separate linters with explicit scopes.
+  dependencies: Performance constraints + false-positive policy.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0087
+  source_path: 00-ORCHESTRATION/scripts/triage_outgoing.sh
+  source_lines: "PENDING/IN_PROGRESS grep across -INBOX"
+  intent: Make triage reflect kanban truth rather than header regex.
+  deliverable: Update triage to report counts by lane folders (00/10/20/30/40/50) and flag mismatches between folder state and header Status/Kanban.
+  dependencies: Kanban protocol; queue_status.sh (if present).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0088
+  source_path: 00-ORCHESTRATION/scripts/triage_outgoing.sh
+  source_lines: "Requires rg for best output"
+  intent: Avoid optional tool dependencies breaking observability.
+  deliverable: Add clear dependency banner + robust fallback; optionally vendor a minimal ripgrep check/install helper.
+  dependencies: Baseline tooling policy.
+  owner_lane: Adjudicator
+  venue: repo
+  status: new
+
+- id: IMPL-D-0089
+  source_path: 00-ORCHESTRATION/scripts/regenerate_canon.py
+  source_lines: "regenerate_all(): prints human output only"
+  intent: Make canon regen observable and machine-parseable.
+  deliverable: Add --json output (or deterministic stdout markers) that returns regenerated CANON IDs + status so watch_canon can log exact IDs and emit ledger REGEN events.
+  dependencies: watch_canon.sh expectations (IMPL-D-0055/0059/0060).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0090
+  source_path: 00-ORCHESTRATION/scripts/regenerate_canon.py
+  source_lines: "jinja2 auto-install via pip"
+  intent: Avoid surprise network/package changes during daemon runs.
+  deliverable: Remove auto-install in production path; instead fail fast with remediation steps or preflight install; document dependencies.
+  dependencies: Host bootstrap policy.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
 ## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
 
 - id: IMPL-D-0034

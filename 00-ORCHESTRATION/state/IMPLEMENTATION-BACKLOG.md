@@ -112,6 +112,22 @@
 - IMPL-D-0080 — DecisionAtom: branching policy (single-branch vs short-lived branches/PRs)
 - IMPL-D-0081 — Connector navigation playbook in each platform entrypoint
 
+## 2026-02-06 (Tranche D) — Script surfaces: verify/lint/triage/canon regen
+
+### P0
+- IMPL-D-0089 — regenerate_canon.py machine-readable regenerated IDs (enables truthful regen logs + ledger REGEN)
+- IMPL-D-0083 — verify_all.sh allowlist mismatch fix + missing-file tolerance hardening
+
+### P1
+- IMPL-D-0087 — triage_outgoing.sh: lane-folder truth + header mismatch detection
+- IMPL-D-0085 — ops_lint.sh: validate kind/id conventions + YAML parse + id uniqueness
+- IMPL-D-0090 — remove jinja2 auto-install; preflight dependency policy
+
+### P2
+- IMPL-D-0084 — verification missing-file policy (error vs warn)
+- IMPL-D-0086 — expand lint coverage beyond 02-ENGINE (or add scoped linters)
+- IMPL-D-0088 — triage deps: rg fallback + install guidance
+
 ## 2026-02-06 (Tranche D) — Always-on watchers readiness
 
 ### P0
