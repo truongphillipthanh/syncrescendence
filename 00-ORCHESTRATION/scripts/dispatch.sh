@@ -1,9 +1,12 @@
 #!/bin/bash
 # dispatch.sh — Create a task dispatch file for any agent
-# Usage: bash dispatch.sh <agent> "TOPIC" "TASK_DESCRIPTION" [CC]
+# Usage:
+#   bash dispatch.sh <agent> "TOPIC" "TASK_DESCRIPTION" [CC] [KIND]
 #
-# CC (optional): comma-separated list of additional inboxes to receive receipts
-# Example: bash dispatch.sh ajna "FOO" "do bar" "psyche"
+# CC (optional): comma-separated list of additional inboxes to receive receipts (e.g. "psyche")
+# KIND (optional): TASK|SURVEY|DIRECTIVE|EVIDENCE|RESULT|RECEIPT|PATCH|NOTE (default: TASK)
+# Example:
+#   bash dispatch.sh ajna "FOO" "do bar" "psyche" TASK
 #
 # Agents: commander, adjudicator, cartographer, psyche, ajna
 # Writes a TASK file to -INBOX/<agent>/ for autonomous processing
@@ -20,6 +23,7 @@ AGENT="${1:-psyche}"
 TOPIC="${2:-TASK}"
 DESCRIPTION="${3:-No description provided}"
 CC_RAW="${4:-—}"
+KIND_RAW="${5:-TASK}"
 
 # Validate agent
 VALID_AGENTS="commander adjudicator cartographer psyche ajna"
@@ -28,10 +32,14 @@ if ! echo "$VALID_AGENTS" | grep -qw "$AGENT"; then
     exit 1
 fi
 
-INBOX_DIR="$REPO_ROOT/-INBOX/$AGENT"
-if [ ! -d "$INBOX_DIR" ]; then
-    mkdir -p "$INBOX_DIR"
-fi
+INBOX0_DIR="$REPO_ROOT/-INBOX/$AGENT/00-INBOX0"
+INPROG_DIR="$REPO_ROOT/-INBOX/$AGENT/10-IN_PROGRESS"
+DONE_DIR="$REPO_ROOT/-INBOX/$AGENT/40-DONE"
+FAILED_DIR="$REPO_ROOT/-INBOX/$AGENT/50_FAILED"
+RECEIPTS_DIR="$REPO_ROOT/-INBOX/$AGENT/RECEIPTS"
+
+# Ensure kanban dirs exist (do not rely on git tracking empty dirs)
+mkdir -p "$INBOX0_DIR" "$INPROG_DIR" "$DONE_DIR" "$FAILED_DIR" "$RECEIPTS_DIR"
 
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 DATE=$(date '+%Y%m%d')
@@ -48,7 +56,9 @@ case "$AGENT" in
     ajna)         AVATAR="Ajna (OpenClaw Opus 4.5)" ;;
 esac
 
-TASK_FILE="$INBOX_DIR/TASK-${DATE}-${TOPIC_SLUG}.md"
+TASK_FILE="$INBOX0_DIR/TASK-${DATE}-${TOPIC_SLUG}.md"
+RECEIPTS_TO="-OUTBOX/${AGENT}/RESULTS"
+RESULT_FILE="${RECEIPTS_TO}/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md"
 
 cat > "$TASK_FILE" << EOF
 # TASK-${DATE}-${TOPIC_SLUG}
@@ -57,14 +67,17 @@ cat > "$TASK_FILE" << EOF
 **To**: ${AVATAR}
 **Issued**: $TIMESTAMP
 **Fingerprint**: $FINGERPRINT
+**Kind**: ${KIND_RAW}
 **Priority**: P1
 **Status**: PENDING
+**Kanban**: INBOX0
 **Claimed-By**: —
 **Claimed-At**: —
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30
 **CC**: ${CC_RAW}
+**Receipts-To**: ${RECEIPTS_TO}
 
 ---
 
@@ -84,7 +97,7 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to \`-OUTGOING/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md\`
+- Write results to `${RESULT_FILE}`
 - Or commit directly if you have write access
 
 ## Completion Protocol
@@ -95,6 +108,8 @@ Consult as needed:
 EOF
 
 echo "[Dispatch] Created: $TASK_FILE"
+echo "[Dispatch] Kanban: INBOX0"
+echo "[Dispatch] Kind: $KIND_RAW"
 echo "[Dispatch] Target: $AVATAR"
 echo "[Dispatch] Topic: $TOPIC"
 echo "[Dispatch] Agent watcher should pick this up autonomously."

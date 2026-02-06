@@ -1,345 +1,337 @@
 #!/bin/bash
-# watch_dispatch.sh — Watch for task files in an agent's -INBOX folder
+# watch_dispatch.sh — Watch for dispatch files in an agent's Inbox0 folder (filesystem-kanban)
 # Usage: bash watch_dispatch.sh [AGENT_NAME]
 # Requires: fswatch (brew install fswatch) or uses polling fallback
 #
-# IO Model v2: Claim-locking prevents duplicate consumers.
-# Flow: detect PENDING → atomic claim (rename) → process → complete/fail → ledger append
+# Filesystem Kanban:
+#   - Watches:  -INBOX/<agent>/00-INBOX0/
+#   - Claims:   atomic mv -> 10-IN_PROGRESS/
+#   - Completes: mv -> 40-DONE/ or 50_FAILED/
 #
-# This script is designed to run as a background process on the target machine:
-#   - On M1 Mac mini: bash watch_dispatch.sh ajna
-#   - On M4 MacBook Air: bash watch_dispatch.sh psyche
-#   - On primary machine: bash watch_dispatch.sh commander
+# Guards:
+#   - Ignore RECEIPT-* files
+#   - Only execute files addressed to this agent (**To** guard)
+#   - Never execute completed tasks (Completed-At/Exit-Code guard)
 #
-# Integration options:
-#   1. launchd plist (recommended for always-on)
-#   2. tmux/screen session
-#   3. Hazel rule (GUI alternative)
+# Receipts:
+#   - Deterministically write RESULT to the path in **Receipts-To** (default -OUTBOX/<agent>/RESULTS)
+#   - Best-effort CC piping: copy finalized TASK into -INBOX/<cc>/RECEIPTS and (if ssh alias exists) scp it.
 
-REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)"
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || true)"
 if [ -z "$REPO_ROOT" ]; then
-    REPO_ROOT="$HOME/Desktop/syncrescendence"
+  REPO_ROOT="$HOME/Desktop/syncrescendence"
 fi
 
 AGENT="${1:-psyche}"
-WATCH_DIR="$REPO_ROOT/-INBOX/$AGENT"
-POLL_INTERVAL=30  # seconds
 HOSTNAME_SHORT=$(hostname -s 2>/dev/null || echo "local")
 SCRIPTS_DIR="$REPO_ROOT/00-ORCHESTRATION/scripts"
 
-# Validate agent folder exists
-if [ ! -d "$WATCH_DIR" ]; then
-    echo "[Watch] Error: $WATCH_DIR does not exist"
-    echo "[Watch] Valid agents: commander, adjudicator, cartographer, psyche, ajna"
-    exit 1
-fi
+INBOX_ROOT="$REPO_ROOT/-INBOX/$AGENT"
+INBOX0_DIR="$INBOX_ROOT/00-INBOX0"
+INPROG_DIR="$INBOX_ROOT/10-IN_PROGRESS"
+DONE_DIR="$INBOX_ROOT/40-DONE"
+FAILED_DIR="$INBOX_ROOT/50_FAILED"
+RECEIPTS_DIR="$INBOX_ROOT/RECEIPTS"
 
-echo "[Watch] Watching -INBOX/$AGENT/ for task files"
-echo "[Watch] Directory: $WATCH_DIR"
-echo "[Watch] Poll interval: ${POLL_INTERVAL}s"
-echo "[Watch] Claim tag: ${AGENT}-${HOSTNAME_SHORT}"
-echo "[Watch] Press Ctrl+C to stop"
-echo ""
+mkdir -p "$INBOX0_DIR" "$INPROG_DIR" "$DONE_DIR" "$FAILED_DIR" "$RECEIPTS_DIR"
 
-claim_task() {
-    local file="$1"
-    local basename
-    basename=$(basename "$file")
-    local claimed_name="${file}.claimed-by-${AGENT}-${HOSTNAME_SHORT}"
+WATCH_DIR="$INBOX0_DIR"
+POLL_INTERVAL=10
 
-    # Atomic claim via rename — if this fails, another watcher claimed it first
-    if ! mv "$file" "$claimed_name" 2>/dev/null; then
-        echo "[Watch] $(date '+%H:%M:%S') Claim failed (already claimed): $basename" >&2
-        return 1
-    fi
+log() { echo "[Watch] $*"; }
 
-    # Update in-body lifecycle truth (Status + Claimed-By/At)
-    if [ -f "$claimed_name" ]; then
-        python3 - "$claimed_name" "$AGENT" "$HOSTNAME_SHORT" << 'PY'
-import sys
-from datetime import datetime, timezone
+log "Watching -INBOX/$AGENT/00-INBOX0/ for dispatch files"
+log "Directory: $WATCH_DIR"
+log "Poll interval: ${POLL_INTERVAL}s"
+log "Claim tag: ${AGENT}-${HOSTNAME_SHORT}"
+log "Press Ctrl+C to stop"
+log ""
 
-path, agent, host = sys.argv[1:4]
-now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-claim_tag = f"{agent}-{host}"
-
-lines = open(path, 'r', encoding='utf-8').read().splitlines(True)
-
-def set_field(name: str, value: str):
-    """Upsert a markdown header field like **Status**: VALUE."""
-    key = f"**{name}**:"
-    for i, line in enumerate(lines):
-        if line.startswith(key):
-            lines[i] = f"{key} {value}\n"
-            return
-    # Insert after Priority if present, else after Fingerprint, else near top
-    insert_after = None
-    for marker in ("**Priority**:", "**Fingerprint**:", "**Issued**:"):
-        for i, line in enumerate(lines):
-            if line.startswith(marker):
-                insert_after = i
-                break
-        if insert_after is not None:
-            break
-    if insert_after is None:
-        insert_after = 0
-    lines.insert(insert_after + 1, f"{key} {value}\n")
-
-set_field("Status", "IN_PROGRESS")
-set_field("Claimed-By", claim_tag)
-set_field("Claimed-At", now)
-
-open(path, 'w', encoding='utf-8').write(''.join(lines))
+parse_header_field() {
+  local file="$1"; local field="$2"
+  python3 - "$file" "$field" <<'PY'
+import re, sys
+path, field = sys.argv[1], sys.argv[2]
+text=open(path,'r',encoding='utf-8').read()
+m=re.search(r'^\*\*'+re.escape(field)+r'\*\*:\s*(.+)\s*$', text, flags=re.M)
+print(m.group(1).strip() if m else '')
 PY
-    else
-        echo "[Watch] WARNING: claimed file missing before status update: $claimed_name" >&2
-    fi
-
-    echo "[Watch] $(date '+%H:%M:%S') Claimed: $basename" >&2
-
-    # Append ledger: CLAIM event
-    if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
-        # Important: do not contaminate stdout (stdout is used to return claimed filename)
-        bash "$SCRIPTS_DIR/append_ledger.sh" CLAIM "$AGENT" "$AGENT" "$basename" >/dev/null 2>&1 || true
-    fi
-
-    echo "$claimed_name"
 }
 
-process_task() {
-    local claimed_file="$1"
-    local original_basename="$2"
-
-    # Parse CC list (comma-separated) from task header, if present
-    local cc_list
-    cc_list=$(python3 - "$claimed_file" << 'PY'
-import re, sys
-p=sys.argv[1]
-t=open(p,'r',encoding='utf-8').read()
-m=re.search(r'^\*\*CC\*\*:\s*(.+)\s*$', t, flags=re.M)
-if not m:
-    print('')
-    raise SystemExit
-val=m.group(1).strip()
-if val in ('—','-',''):
-    print('')
-    raise SystemExit
-# normalize comma-separated
-parts=[x.strip() for x in val.split(',') if x.strip()]
-print(','.join(parts))
-PY
-)
-
-    echo "[Watch] $(date '+%H:%M:%S') Processing: $original_basename"
-
-    # Show task preview
-    if grep -q "^## Objective" "$claimed_file" 2>/dev/null; then
-        echo "[Watch] Objective:"
-        sed -n '/^## Objective/,/^---/p' "$claimed_file" | head -5
-    fi
-
-    echo "[Watch] ---"
-
-    # Route to agent-specific CLI
-    local task_content
-    task_content="$(cat "$claimed_file")"
-    case "$AGENT" in
-        commander)
-            claude -p "$task_content" 2>&1
-            ;;
-        adjudicator)
-            codex exec "$task_content" 2>&1
-            ;;
-        cartographer)
-            echo "$task_content" | gemini -p "You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only." 2>&1
-            ;;
-        psyche|ajna)
-            # Use Gateway-routed agent turn (no --local; stable in daemonized environments)
-            # NOTE: openclaw agent requires a session selector; we target the default agent id "main".
-            openclaw agent --agent main --message "$task_content" --timeout 600 2>&1
-            ;;
-        *)
-            echo "[Watch] No CLI handler configured for agent: $AGENT"
-            return 1
-            ;;
-    esac
-
-    local exit_code=$?
-
-    # Update in-body lifecycle truth then rename accordingly and append ledger
-    python3 - "$claimed_file" "$exit_code" << 'PY'
-import sys
-from datetime import datetime, timezone
-
-path = sys.argv[1]
-exit_code = int(sys.argv[2])
-now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-
-lines = open(path, 'r', encoding='utf-8').read().splitlines(True)
-
-def set_field(name: str, value: str):
-    key = f"**{name}**:"
-    for i, line in enumerate(lines):
-        if line.startswith(key):
-            lines[i] = f"{key} {value}\n"
-            return
-    # Insert after Claimed-At if present, else after Status
-    insert_after = None
-    for marker in ("**Claimed-At**:", "**Status**:"):
-        for i, line in enumerate(lines):
-            if line.startswith(marker):
-                insert_after = i
-                break
-        if insert_after is not None:
-            break
-    if insert_after is None:
-        insert_after = 0
-    lines.insert(insert_after + 1, f"{key} {value}\n")
-
-set_field("Status", "COMPLETE" if exit_code == 0 else "FAILED")
-set_field("Completed-At", now)
-set_field("Exit-Code", str(exit_code))
-
-open(path, 'w', encoding='utf-8').write(''.join(lines))
-PY
-
-    # Determine expected output path (first backticked path after "Write results to")
-    local expected_out
-    expected_out=$(python3 - "$claimed_file" << 'PY'
-import re, sys
-p=sys.argv[1]
-t=open(p,'r',encoding='utf-8').read()
-# capture the first `...` after "Write results to"
-m=re.search(r'Write results to\s+`([^`]+)`', t)
-print(m.group(1) if m else '')
-PY
-)
-
-    if [ $exit_code -eq 0 ]; then
-        local complete_name="${claimed_file%.claimed-by-*}.complete"
-        mv "$claimed_file" "$complete_name" 2>/dev/null || true
-        echo "[Watch] $(date '+%H:%M:%S') Task completed: $original_basename"
-
-        # Pipe receipts to CC inboxes (copy finalized task + expected result if present)
-        if [ -n "$cc_list" ]; then
-            IFS=',' read -r -a ccs <<< "$cc_list"
-            for cc in "${ccs[@]}"; do
-                [ -z "$cc" ] && continue
-                mkdir -p "$REPO_ROOT/-INBOX/$cc" 2>/dev/null || true
-                cp -f "$complete_name" "$REPO_ROOT/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.complete" 2>/dev/null || true
-
-                # If CC target is on another machine, attempt best-effort scp using SSH alias == cc.
-                # This enables "pipe Ajna replies into Psyche inbox" when Ajna can reach `ssh psyche`.
-                if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d /Users/system/Desktop/syncrescendence/-INBOX/$cc" 2>/dev/null; then
-                    scp -q -o BatchMode=yes -o ConnectTimeout=5 "$complete_name" \
-                      "$cc:/Users/system/Desktop/syncrescendence/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.complete" \
-                      2>/dev/null || true
-                fi
-
-                if [ -n "$expected_out" ] && [ -f "$REPO_ROOT/$expected_out" ]; then
-                    cp -f "$REPO_ROOT/$expected_out" "$REPO_ROOT/-INBOX/$cc/$(basename "$expected_out")" 2>/dev/null || true
-                    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d /Users/system/Desktop/syncrescendence/-OUTGOING" 2>/dev/null; then
-                        scp -q -o BatchMode=yes -o ConnectTimeout=5 "$REPO_ROOT/$expected_out" \
-                          "$cc:/Users/system/Desktop/syncrescendence/$expected_out" \
-                          2>/dev/null || true
-                    fi
-                fi
-            done
-        fi
-        if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
-            bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$original_basename" >/dev/null 2>&1 || true
-        fi
-    else
-        local failed_name="${claimed_file%.claimed-by-*}.failed"
-        mv "$claimed_file" "$failed_name" 2>/dev/null || true
-        echo "[Watch] $(date '+%H:%M:%S') Task FAILED (exit $exit_code): $original_basename"
-
-        # Pipe failure receipt to CC inboxes (copy finalized task)
-        if [ -n "$cc_list" ]; then
-            IFS=',' read -r -a ccs <<< "$cc_list"
-            for cc in "${ccs[@]}"; do
-                [ -z "$cc" ] && continue
-                mkdir -p "$REPO_ROOT/-INBOX/$cc" 2>/dev/null || true
-                cp -f "$failed_name" "$REPO_ROOT/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.failed" 2>/dev/null || true
-
-                # Best-effort remote pipe via scp (see success case above)
-                if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d /Users/system/Desktop/syncrescendence/-INBOX/$cc" 2>/dev/null; then
-                    scp -q -o BatchMode=yes -o ConnectTimeout=5 "$failed_name" \
-                      "$cc:/Users/system/Desktop/syncrescendence/-INBOX/$cc/RECEIPT-${AGENT}-${original_basename}.failed" \
-                      2>/dev/null || true
-                fi
-            done
-        fi
-        if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
-            bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$original_basename" >/dev/null 2>&1 || true
-        fi
-    fi
-}
-
-handle_task() {
-    local file="$1"
-    local basename=$(basename "$file")
-
-    # Only process TASK-*.md files with PENDING status
-    # Never process RECEIPT-* (CC-piped artifacts)
-    if [[ "$basename" == RECEIPT-* ]]; then
-        return
-    fi
-    if [[ "$basename" != TASK-* ]] || [[ "$basename" != *.md ]]; then
-        return
-    fi
-
-    if ! grep -q "Status.*PENDING" "$file" 2>/dev/null; then
-        return
-    fi
-
-    # Safety: only process tasks whose **To** field matches this watcher AGENT.
-    # This prevents CC-copied TASK files (targeting another agent) from being executed by the wrong watcher.
-    if ! python3 - "$file" "$AGENT" <<'PY'
+header_to_matches_agent() {
+  local file="$1"
+  python3 - "$file" "$AGENT" <<'PY'
 import re, sys
 path, agent = sys.argv[1], sys.argv[2]
 text=open(path,'r',encoding='utf-8').read()
 m=re.search(r'^\*\*To\*\*:\s*(.+)$', text, flags=re.M)
 if not m:
     sys.exit(1)
-# match agent name as whole word (case-insensitive)
 to=m.group(1).strip().lower()
 a=agent.strip().lower()
 if re.search(r'\b'+re.escape(a)+r'\b', to):
     sys.exit(0)
 sys.exit(1)
 PY
-    then
-        echo "[Watch] $(date '+%H:%M:%S') Skipping task not addressed to $AGENT: $basename" >&2
-        return
-    fi
-
-    # Attempt atomic claim
-    local claimed_file
-    claimed_file=$(claim_task "$file") || return 0
-
-    # Process the claimed task
-    process_task "$claimed_file" "$basename"
 }
 
-# Check if fswatch is available
+header_is_already_completed() {
+  local file="$1"
+  python3 - "$file" <<'PY'
+import re, sys
+text=open(sys.argv[1],'r',encoding='utf-8').read()
+ca=re.search(r'^\*\*Completed-At\*\*:\s*(.+)$', text, flags=re.M)
+ec=re.search(r'^\*\*Exit-Code\*\*:\s*(.+)$', text, flags=re.M)
+completed=(ca and ca.group(1).strip() not in ('—','-',''))
+exitc=(ec and ec.group(1).strip() not in ('—','-',''))
+# treat either as completed
+sys.exit(0 if (completed or exitc) else 1)
+PY
+}
+
+set_fields() {
+  local file="$1"; shift
+  python3 - "$file" "$@" <<'PY'
+import sys
+path=sys.argv[1]
+# args pairs: field value
+pairs=sys.argv[2:]
+lines=open(path,'r',encoding='utf-8').read().splitlines(True)
+
+def set_field(name,value):
+    key=f"**{name}**:"
+    for i,line in enumerate(lines):
+        if line.startswith(key):
+            lines[i]=f"{key} {value}\n"; return
+    # insert near top after Priority/Fingerprint/Issued
+    insert_after=None
+    for marker in ("**Priority**:","**Fingerprint**:","**Issued**:"):
+        for i,line in enumerate(lines):
+            if line.startswith(marker):
+                insert_after=i; break
+        if insert_after is not None:
+            break
+    if insert_after is None:
+        insert_after=0
+    lines.insert(insert_after+1, f"{key} {value}\n")
+
+for i in range(0,len(pairs),2):
+    set_field(pairs[i], pairs[i+1])
+
+open(path,'w',encoding='utf-8').write(''.join(lines))
+PY
+}
+
+write_result_receipt() {
+  local task_file="$1"; local exit_code="$2"; local output_file="$3"
+
+  local receipts_to
+  receipts_to=$(parse_header_field "$task_file" "Receipts-To")
+  if [ -z "$receipts_to" ]; then
+    receipts_to="-OUTBOX/${AGENT}/RESULTS"
+  fi
+
+  mkdir -p "$REPO_ROOT/$receipts_to" 2>/dev/null || true
+
+  local task_base
+  task_base=$(basename "$task_file")
+  local date
+  date=$(date '+%Y%m%d')
+  local slug
+  slug=$(echo "$task_base" | sed -E 's/^TASK-[0-9]{8}-//; s/\.md$//')
+  if [ -z "$slug" ] || [ "$slug" = "$task_base" ]; then
+    slug=$(echo "$task_base" | sed -E 's/\.md$//')
+  fi
+
+  local result_path="$REPO_ROOT/$receipts_to/RESULT-${AGENT}-${date}-${slug}.md"
+
+  {
+    echo "# RESULT-${AGENT}-${date}-${slug}"
+    echo
+    echo "**Task**: $task_base"
+    echo "**Agent**: $AGENT"
+    echo "**Exit-Code**: $exit_code"
+    echo "**Completed-At**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+    echo
+    echo "---"
+    echo
+    echo "## Output"
+    echo
+    cat "$output_file"
+    echo
+  } > "$result_path"
+
+  echo "$result_path"
+}
+
+pipe_to_cc() {
+  local finalized_task="$1"; local cc_list="$2"; local result_path_abs="${3:-}"
+  [ -z "$cc_list" ] && return 0
+
+  IFS=',' read -r -a ccs <<< "$cc_list"
+  for cc in "${ccs[@]}"; do
+    cc=$(echo "$cc" | xargs)
+    [ -z "$cc" ] && continue
+
+    mkdir -p "$REPO_ROOT/-INBOX/$cc/RECEIPTS" 2>/dev/null || true
+    cp -f "$finalized_task" "$REPO_ROOT/-INBOX/$cc/RECEIPTS/RECEIPT-${AGENT}-$(basename "$finalized_task")" 2>/dev/null || true
+
+    # best-effort remote pipe: ssh alias == cc
+    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d ~/Desktop/syncrescendence/-INBOX/$cc" 2>/dev/null; then
+      scp -q -o BatchMode=yes -o ConnectTimeout=5 "$finalized_task" \
+        "$cc:~/Desktop/syncrescendence/-INBOX/$cc/RECEIPTS/RECEIPT-${AGENT}-$(basename "$finalized_task")" \
+        2>/dev/null || true
+
+      if [ -n "$result_path_abs" ] && [ -f "$result_path_abs" ]; then
+        scp -q -o BatchMode=yes -o ConnectTimeout=5 "$result_path_abs" \
+          "$cc:~/Desktop/syncrescendence/-INBOX/$cc/$(basename "$result_path_abs")" \
+          2>/dev/null || true
+      fi
+    fi
+  done
+}
+
+run_executor() {
+  local task_file="$1"
+  local tmp_out
+  tmp_out=$(mktemp "/tmp/syncrescendence-${AGENT}-taskout.XXXXXX")
+
+  local task_content
+  task_content="$(cat "$task_file")"
+
+  # execute and capture stdout/stderr
+  case "$AGENT" in
+    commander)
+      claude -p "$task_content" >"$tmp_out" 2>&1
+      ;;
+    adjudicator)
+      codex exec "$task_content" >"$tmp_out" 2>&1
+      ;;
+    cartographer)
+      echo "$task_content" | gemini -p "You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only." >"$tmp_out" 2>&1
+      ;;
+    psyche|ajna)
+      openclaw agent --agent main --message "$task_content" --timeout 600 >"$tmp_out" 2>&1
+      ;;
+    *)
+      echo "[Watch] No CLI handler configured for agent: $AGENT" >"$tmp_out" 2>&1
+      ;;
+  esac
+
+  echo "$tmp_out"
+}
+
+handle_file() {
+  local file="$1"
+  local base
+  base=$(basename "$file")
+
+  # Ignore receipts and non-md
+  [[ "$base" == RECEIPT-* ]] && return 0
+  [[ "$base" != *.md ]] && return 0
+
+  # Only TASK/SURVEY/PATCH etc are allowed, but we enforce by To/Completed guards
+  if ! header_to_matches_agent "$file"; then
+    log "$(date '+%H:%M:%S') Skipping not addressed to $AGENT: $base" >&2
+    return 0
+  fi
+
+  if header_is_already_completed "$file"; then
+    log "$(date '+%H:%M:%S') Skipping already completed task: $base" >&2
+    return 0
+  fi
+
+  # Only claim if Status says PENDING (Inbox0 invariant)
+  if ! grep -q "Status.*PENDING" "$file" 2>/dev/null; then
+    return 0
+  fi
+
+  # Atomic claim by moving Inbox0 -> InProgress
+  local claimed="$INPROG_DIR/$base"
+  if ! mv "$file" "$claimed" 2>/dev/null; then
+    return 0
+  fi
+
+  local now
+  now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+  local claim_tag="${AGENT}-${HOSTNAME_SHORT}"
+
+  set_fields "$claimed" \
+    Status IN_PROGRESS \
+    Kanban IN_PROGRESS \
+    Claimed-By "$claim_tag" \
+    Claimed-At "$now"
+
+  log "$(date '+%H:%M:%S') Claimed: $base" >&2
+  if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
+    bash "$SCRIPTS_DIR/append_ledger.sh" CLAIM "$AGENT" "$AGENT" "$base" >/dev/null 2>&1 || true
+  fi
+
+  log "$(date '+%H:%M:%S') Processing: $base"
+
+  local cc_list
+  cc_list=$(parse_header_field "$claimed" "CC")
+
+  local out_file
+  out_file=$(run_executor "$claimed")
+  local exit_code=$?
+
+  local done_now
+  done_now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+
+  set_fields "$claimed" \
+    Status $( [ $exit_code -eq 0 ] && echo COMPLETE || echo FAILED ) \
+    Kanban $( [ $exit_code -eq 0 ] && echo DONE || echo FAILED ) \
+    Completed-At "$done_now" \
+    Exit-Code "$exit_code"
+
+  local final_path
+  if [ $exit_code -eq 0 ]; then
+    final_path="$DONE_DIR/$base"
+  else
+    final_path="$FAILED_DIR/$base"
+  fi
+  mv "$claimed" "$final_path" 2>/dev/null || true
+
+  # Write deterministic result receipt
+  local result_abs
+  result_abs=$(write_result_receipt "$final_path" "$exit_code" "$out_file")
+
+  # Pipe receipts to CC
+  if [ -n "$cc_list" ] && [ "$cc_list" != "—" ]; then
+    pipe_to_cc "$final_path" "$cc_list" "$result_abs"
+  fi
+
+  if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
+    if [ $exit_code -eq 0 ]; then
+      bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$base" >/dev/null 2>&1 || true
+    else
+      bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$base" >/dev/null 2>&1 || true
+    fi
+  fi
+
+  rm -f "$out_file" 2>/dev/null || true
+}
+
 if command -v fswatch &>/dev/null; then
-    echo "[Watch] Using fswatch (event-driven, low overhead)"
-    echo ""
-    # NOTE: some fswatch builds/platforms do not reliably emit the specific event filters.
-    # We watch the directory and handle any signaled path.
-    fswatch -0 "$WATCH_DIR" | while IFS= read -r -d '' file; do
-        handle_task "$file"
-    done
+  log "Using fswatch (event-driven, low overhead)"
+  log ""
+  fswatch -0 "$WATCH_DIR" | while IFS= read -r -d '' changed; do
+    # fswatch returns the directory too; we only handle files
+    [ -f "$changed" ] || continue
+    handle_file "$changed"
+  done
 else
-    echo "[Watch] fswatch not found. Using polling fallback (${POLL_INTERVAL}s interval)"
-    echo "[Watch] Install fswatch for event-driven watching: brew install fswatch"
-    echo ""
-    while true; do
-        for file in "$WATCH_DIR"/TASK-*.md; do
-            [ -f "$file" ] || continue
-            handle_task "$file"
-        done
-        sleep "$POLL_INTERVAL"
+  log "fswatch not found. Using polling fallback (${POLL_INTERVAL}s interval)"
+  log "Install fswatch for event-driven watching: brew install fswatch"
+  log ""
+  while true; do
+    for f in "$WATCH_DIR"/*.md; do
+      [ -f "$f" ] || continue
+      handle_file "$f"
     done
+    sleep "$POLL_INTERVAL"
+  done
 fi
