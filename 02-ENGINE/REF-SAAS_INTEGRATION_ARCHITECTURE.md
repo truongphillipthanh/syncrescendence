@@ -17,6 +17,10 @@ updated: 2026-02-05
 **Companion to**: REF-STACK_TELEOLOGY.md (dispositional), DYN-DISPATCH_KANBAN_PROTOCOL.md (dispatch), ARCH-SOVEREIGNTY_STRATA.md (canonical framework)
 **Status**: DRAFT — Sovereign ratification required
 
+**2026-02-06 update**: Added teleology decision + clarescence rationale.
+- Decision: `00-ORCHESTRATION/state/impl/DEC-20260206-113900-saas-integration-teleology.md`
+- Clarescence: `00-ORCHESTRATION/state/impl/CLARESCENCE-2026-02-06-saas-integration-teleology.md`
+
 ---
 
 ## I. GOVERNING ARCHITECTURE
