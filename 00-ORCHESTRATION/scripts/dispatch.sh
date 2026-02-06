@@ -60,7 +60,7 @@ TASK_FILE="$INBOX0_DIR/TASK-${DATE}-${TOPIC_SLUG}.md"
 RECEIPTS_TO="-OUTBOX/${AGENT}/RESULTS"
 RESULT_FILE="${RECEIPTS_TO}/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md"
 
-cat > "$TASK_FILE" << 'EOF'
+cat > "$TASK_FILE" << EOF
 # TASK-${DATE}-${TOPIC_SLUG}
 
 **From**: ${CALLER}
@@ -97,7 +97,7 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to `-OUTBOX/${AGENT}/RESULTS/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md`
+- Write results to \`-OUTBOX/${AGENT}/RESULTS/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md\`
 - Or commit directly if you have write access
 
 ## Completion Protocol
