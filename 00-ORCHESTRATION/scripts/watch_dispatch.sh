@@ -281,11 +281,36 @@ handle_task() {
     local basename=$(basename "$file")
 
     # Only process TASK-*.md files with PENDING status
+    # Never process RECEIPT-* (CC-piped artifacts)
+    if [[ "$basename" == RECEIPT-* ]]; then
+        return
+    fi
     if [[ "$basename" != TASK-* ]] || [[ "$basename" != *.md ]]; then
         return
     fi
 
     if ! grep -q "Status.*PENDING" "$file" 2>/dev/null; then
+        return
+    fi
+
+    # Safety: only process tasks whose **To** field matches this watcher AGENT.
+    # This prevents CC-copied TASK files (targeting another agent) from being executed by the wrong watcher.
+    if ! python3 - "$file" "$AGENT" <<'PY'
+import re, sys
+path, agent = sys.argv[1], sys.argv[2]
+text=open(path,'r',encoding='utf-8').read()
+m=re.search(r'^\*\*To\*\*:\s*(.+)$', text, flags=re.M)
+if not m:
+    sys.exit(1)
+# match agent name as whole word (case-insensitive)
+to=m.group(1).strip().lower()
+a=agent.strip().lower()
+if re.search(r'\b'+re.escape(a)+r'\b', to):
+    sys.exit(0)
+sys.exit(1)
+PY
+    then
+        echo "[Watch] $(date '+%H:%M:%S') Skipping task not addressed to $AGENT: $basename" >&2
         return
     fi
 
