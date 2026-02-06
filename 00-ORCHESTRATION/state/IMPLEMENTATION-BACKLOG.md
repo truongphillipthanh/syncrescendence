@@ -128,6 +128,29 @@
 - IMPL-D-0086 — expand lint coverage beyond 02-ENGINE (or add scoped linters)
 - IMPL-D-0088 — triage deps: rg fallback + install guidance
 
+## 2026-02-06 (Tranche D) — intent_compass / dispatch / canon watch
+
+### P0
+- IMPL-D-0101 — watch_canon regen log: actual regenerated CANON IDs (remove 31150 hardcode)
+- IMPL-D-0102 — watch_canon concurrency lock (no overlapping regen)
+
+### P1
+- IMPL-D-0095 — dispatch.sh creates full kanban lane set (00/10/20/30/40/50/90/RECEIPTS)
+- IMPL-D-0096 — dispatch.sh Kind validation
+- IMPL-D-0105 — watch_canon ledger REGEN events (trigger/status/ids)
+
+### P2
+- IMPL-D-0091 — intent_compass signals ruleset + tests
+- IMPL-D-0093 — intent_compass atomic append/lock
+- IMPL-D-0092 — intention queue correlation_id + richer capture
+- IMPL-D-0094 — jq dependency preflight/rate-limited warn
+- IMPL-D-0097 — -OUTBOX/<agent>/{RESULTS,ARTIFACTS} existence policy
+- IMPL-D-0098 — timeout semantics standardized + Kind defaults
+- IMPL-D-0099 — dispatch template aligns with ‘folder is canonical state’ doctrine
+- IMPL-D-0100 — ledger DISPATCH reliability (warn/stub)
+- IMPL-D-0103 — watch_canon --diagnose (critical missing watch_paths)
+- IMPL-D-0104 — watch_canon daemon-safe dependency preflight
+
 ## 2026-02-06 (Tranche D) — Always-on watchers readiness
 
 ### P0

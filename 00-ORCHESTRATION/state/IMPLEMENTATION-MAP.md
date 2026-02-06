@@ -747,6 +747,158 @@
   venue: repo
   status: new
 
+## 2026-02-06 — Tranche D (Tooling + integration): intent_compass / dispatch / canon watch
+
+- id: IMPL-D-0091
+  source_path: 00-ORCHESTRATION/scripts/intent_compass.sh
+  source_lines: "SIGNALS=… (intention signal patterns)"
+  intent: Reduce false positives/negatives in auto intention capture.
+  deliverable: Replace grep regex list with a small, versioned ruleset (YAML/JSON) + add basic tests (sample prompts → expected capture yes/no).
+  dependencies: Decide where rules live (00-ORCHESTRATION/state/ or 02-ENGINE/).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0092
+  source_path: 00-ORCHESTRATION/scripts/intent_compass.sh
+  source_lines: "CAPTURED=… head -1 | cut -c1-200"
+  intent: Preserve more context while keeping the queue lightweight.
+  deliverable: Capture up to N lines with surrounding context (or store full prompt hash + pointer), and include a stable correlation_id for later triage.
+  dependencies: Define queue entry schema.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0093
+  source_path: 00-ORCHESTRATION/scripts/intent_compass.sh
+  source_lines: "QUEUE_FILE=… DYN-INTENTIONS_QUEUE.md"
+  intent: Make intention capture robust under concurrent hook calls.
+  deliverable: Add an atomic append strategy (lockfile or flock) so simultaneous prompts don’t interleave writes.
+  dependencies: macOS flock availability (or mkdir lock).
+  owner_lane: Adjudicator
+  venue: repo
+  status: new
+
+- id: IMPL-D-0094
+  source_path: 00-ORCHESTRATION/scripts/intent_compass.sh
+  source_lines: "jq -r '.prompt'"
+  intent: Avoid silent failure when jq is missing or input schema changes.
+  deliverable: Preflight check for jq; if missing, emit a warning once (rate-limited) and exit 0; document hook input schema assumptions.
+  dependencies: Baseline tooling policy.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0095
+  source_path: 00-ORCHESTRATION/scripts/dispatch.sh
+  source_lines: "Ensure kanban dirs exist (00/10/40/50/RECEIPTS only)"
+  intent: Align dispatch with full kanban lane set.
+  deliverable: dispatch.sh should create all lanes per DYN-DISPATCH_KANBAN_PROTOCOL.md (00/10/20/30/40/50/90/RECEIPTS) to avoid inconsistent boards.
+  dependencies: Kanban protocol.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0096
+  source_path: 00-ORCHESTRATION/scripts/dispatch.sh
+  source_lines: "KIND_RAW default + no validation"
+  intent: Prevent invalid Kind values from entering the system.
+  deliverable: Validate KIND_RAW ∈ allowed set; if invalid, fail with help text.
+  dependencies: Allowed kind set (already in DYN protocol).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0097
+  source_path: 00-ORCHESTRATION/scripts/dispatch.sh
+  source_lines: "Receipts-To: -OUTBOX/<agent>/RESULTS"
+  intent: Ensure -OUTBOX directory exists and is git-tracked policy-wise.
+  deliverable: dispatch.sh should mkdir -p -OUTBOX/<agent>/{RESULTS,ARTIFACTS} and/or emit a clear warning if missing.
+  dependencies: Decision: track empty dirs via .keep files or mkdir at runtime only.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0098
+  source_path: 00-ORCHESTRATION/scripts/dispatch.sh
+  source_lines: "Timeout: 30"
+  intent: Make timeouts meaningful and consistent across watchers.
+  deliverable: Define timeout semantics (minutes vs seconds) and ensure watchers interpret it the same; add a recommended default by Kind.
+  dependencies: watch_dispatch.sh wall-clock timeout work (IMPL-D-0051).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0099
+  source_path: 00-ORCHESTRATION/scripts/dispatch.sh
+  source_lines: "Completion Protocol: update Status PENDING→COMPLETE"
+  intent: Remove mismatch: folder is canonical state, not header.
+  deliverable: Update task template text to say ‘move to DONE/FAILED’ (or watcher will) and header fields are mirrors; discourage manual header edits.
+  dependencies: Kanban doctrine.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0100
+  source_path: 00-ORCHESTRATION/scripts/dispatch.sh
+  source_lines: "Append ledger DISPATCH if append_ledger.sh exists"
+  intent: Make ledger logging reliable and complete.
+  deliverable: If append_ledger.sh missing/not executable, print a WARN; optionally bundle a no-op stub; ensure DISPATCH always logged.
+  dependencies: Ledger governance.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0101
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "append_regen_log(): hardcodes CANON IDs as 31150"
+  intent: Fix known observability bug.
+  deliverable: Replace hardcoded ‘31150’ with actual regenerated IDs (from regenerate_canon.py --json or markers).
+  dependencies: IMPL-D-0089.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0102
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "fswatch loop: no lock; regen can overlap"
+  intent: Prevent overlapping regen runs.
+  deliverable: Add a lockdir (mkdir) around regenerate(); debounce already exists but isn’t sufficient for long regens.
+  dependencies: None.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0103
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "build_watch_paths(): adds REPO_ROOT/wp without existence check"
+  intent: Make diagnostics first-class so missing watch inputs aren’t silent.
+  deliverable: Add --diagnose mode that prints resolved watch set + exits nonzero if critical missing.
+  dependencies: Define ‘critical’ watch paths.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0104
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "Requires: fswatch, python3, jinja2"
+  intent: Make watcher safe for daemon environments.
+  deliverable: Preflight dependency checks + clear remediation; avoid any auto-install in regen path.
+  dependencies: IMPL-D-0090.
+  owner_lane: Adjudicator
+  venue: repo
+  status: new
+
+- id: IMPL-D-0105
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "No ledger events emitted"
+  intent: Make canon regen part of the global audit trail.
+  deliverable: Emit ledger REGEN events (trigger/status/ids) via append_ledger.sh.
+  dependencies: Decide ledger event schema fields.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
 ## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
 
 - id: IMPL-D-0034
