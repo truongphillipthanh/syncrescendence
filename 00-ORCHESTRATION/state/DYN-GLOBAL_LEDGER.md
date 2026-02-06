@@ -71,3 +71,14 @@
 | 2026-02-06T00:23:41 | DISPATCH | dispatch | commander | TASK-20260205-always_on_smoke_validation.md | c8d66c7 | c8d66c7 | — | — |
 | 2026-02-06T00:29:26 | DISPATCH | dispatch | commander | TASK-20260205-always_on_smoke_validation_v2.md | d0968c2 | d0968c2 | — | — |
 | 2026-02-06T01:30:00 | COMPLETE | commander | clickup | CLICKUP-workspace-population | 5831e3a | — | — | INT-1202 |
+| 2026-02-06T03:06:29 | COMPLETE | ajna | — | TASK-20260202-openclaw_bootstrap_replicate_psyche.md | 0400100 | 0400100 | — | — |
+| 2026-02-06T03:06:30 | CLAIM | ajna | ajna | TASK-20260206-inbox_self_triage_and_watchers.md | 0400100 | 0400100 | — | — |
+| 2026-02-06T03:07:57 | COMPLETE | ajna | — | TASK-20260206-inbox_self_triage_and_watchers.md | 0400100 | 0400100 | — | — |
+| 2026-02-06T03:07:57 | CLAIM | ajna | ajna | TASK-20260202-openclaw_memory_search_setup.md | 0400100 | 0400100 | — | — |
+| 2026-02-06T03:08:51 | CLAIM | psyche | psyche | TASK-20260205-hb_lifecycle_smoke2.md 2.md | 0400100 | 0400100 | — | — |
+| 2026-02-06T03:09:16 | COMPLETE | psyche | — | TASK-20260205-hb_lifecycle_smoke2.md 2.md | 8f6f289 | 8f6f289 | — | — |
+| 2026-02-06T03:09:48 | COMPLETE | ajna | — | TASK-20260202-openclaw_memory_search_setup.md | db7fef8 | db7fef8 | — | — |
+| 2026-02-06T03:09:48 | CLAIM | ajna | ajna | TASK-20260205-final_cc_pipe2.md | db7fef8 | db7fef8 | — | — |
+| 2026-02-06T03:10:58 | COMPLETE | ajna | — | TASK-20260205-final_cc_pipe2.md | 94d8dde | 94d8dde | — | — |
+| 2026-02-06T03:23:13 | DECISION | psyche | — | DEC-20260205-192130-kanban-inboxes.md | 94d8dde | 94d8dde | DEC-20260205-192130-kanban-inboxes | — |
+| 2026-02-06T03:23:26 | DISPATCH | dispatch | commander | TASK-20260205-kanbanize_dispatch_surfaces.md | 94d8dde | 94d8dde | — | — |
