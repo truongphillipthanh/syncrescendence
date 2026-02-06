@@ -332,3 +332,85 @@
   venue: repo
   status: new
 
+
+## 2026-02-06 — Tranche D (Tooling + integration): Watcher hardening + CANON regen observability
+
+- id: IMPL-D-0051
+  source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
+  source_lines: "run_executor(): openclaw agent --timeout 600; handle_file(): claim+execute pipeline"
+  intent: Prevent kanban queue stalls when an executor hangs or is SIGKILLed.
+  deliverable: Add a real wall-clock execution timeout wrapper (and classify as BLOCKED vs FAILED); on timeout move task to 30-BLOCKED/ (or 50_FAILED/) and emit a RESULT receipt documenting timeout.
+  dependencies: macOS-compatible timeout strategy (coreutils gtimeout or python watchdog); agreed lifecycle semantics for BLOCKED.
+  owner_lane: Psyche (spec) + Commander (implement)
+  venue: repo
+  status: new
+
+- id: IMPL-D-0052
+  source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
+  source_lines: "handle_file(): comment says TASK/SURVEY/PATCH allowed but not enforced"
+  intent: Ensure inbox drop-ins and non-task files can never be executed accidentally.
+  deliverable: Enforce Kind gating: parse **Kind** and only execute when Kind ∈ {TASK,SURVEY,PATCH}; otherwise move to 90-ARCHIVE/ (or ignore) and optionally emit a lightweight receipt.
+  dependencies: DYN-DISPATCH_KANBAN_PROTOCOL.md (kind contract); decision on archive behavior.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0053
+  source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
+  source_lines: "write_result_receipt(): uses date=now, slug derived from filename"
+  intent: Make RESULT filenames deterministic and aligned with dispatch Expected Output.
+  deliverable: Prefer parsing Expected Output path from task header when present; fall back to current slug/date logic; ensure no zsh glob errors in tooling.
+  dependencies: dispatch.sh template; header parser robustness.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0054
+  source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
+  source_lines: "logs include advisory text; /tmp/*.err contains narrative"
+  intent: Keep watcher logs machine-parseable (no essay leakage) to support health checks and incident review.
+  deliverable: Ensure only structured [Watch] log lines are written to the launchd stderr log; route any long-form diagnostics into RESULT receipts only.
+  dependencies: launchd log locations; logging policy.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0055
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "append_regen_log(): currently writes CANON IDs as hardcoded '31150'"
+  intent: Make CANON regeneration observability truthful and automatable.
+  deliverable: Modify regenerate_canon.py to print regenerated CANON IDs (machine-parseable), and have watch_canon.sh append exact IDs to DYN-CANON_REGEN_LOG.md; also emit ledger REGEN events (per DEC-20260204-213941-ledger-event-set).
+  dependencies: regenerate_canon.py output contract; append_ledger.sh usage.
+  owner_lane: Psyche (spec) + Commander (implement)
+  venue: repo
+  status: new
+
+- id: IMPL-D-0056
+  source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
+  source_lines: "build_watch_paths(): reads template_registry.json watch_paths"
+  intent: Ensure canon watch daemon actually covers all relevant sources without silent gaps.
+  deliverable: Add a --diagnose mode that prints resolved watch set + missing paths and exits nonzero if critical watch_paths are missing.
+  dependencies: define "critical" watch_paths and expected minimum set.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0057
+  source_path: Makefile
+  source_lines: "make update-ledgers / regenerate-canon targets"
+  intent: Provide a single 'ops health' command for humans + watchers.
+  deliverable: Add make target (e.g. make ops-health) that runs: watcher_health.sh, git status summary, queue_status.sh all agents, ledger tail, and canon watch diagnose.
+  dependencies: watcher_health.sh (IMPL-D-0038) + canon diagnose (IMPL-D-0056).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0058
+  source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
+  source_lines: "Receipts-To + state transitions"
+  intent: Close the loop between filesystem-kanban and SaaS execution surfaces (Linear/ClickUp/Slack/Discord).
+  deliverable: Add an explicit 'Integration hooks' section: where notifications go, what events are emitted (DISPATCH/RESULT/FAILED/BLOCKED/REGEN/COMPACT), and which SaaS surfaces subscribe.
+  dependencies: platform integration decisions (Cowork); Linear vs ClickUp role boundary.
+  owner_lane: Psyche
+  venue: repo
+  status: new

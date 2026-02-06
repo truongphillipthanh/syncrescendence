@@ -58,3 +58,19 @@
 - IMPL-D-0048 — Add BLOCKED status / classifier to watcher lifecycle to distinguish env blockers from task failure
 - IMPL-D-0050 — Ajna git stash hygiene: audit + policy
 
+
+## 2026-02-06 (Tranche D) — Kanban + watcher hardening follow-ons
+
+### P0
+- IMPL-D-0051 — Executor wall-clock timeout + BLOCKED classification + RESULT on timeout
+- IMPL-D-0055 — Truthful CANON regen log (actual IDs) + ledger REGEN events
+
+### P1
+- IMPL-D-0052 — Enforce Kind gating (TASK/SURVEY/PATCH only)
+- IMPL-D-0053 — RESULT path determinism (prefer Expected Output header)
+- IMPL-D-0054 — Log hygiene: no long-form diagnostics in watcher stderr
+
+### P2
+- IMPL-D-0056 — watch_canon --diagnose (missing watch_paths detection)
+- IMPL-D-0057 — make ops-health aggregator target
+- IMPL-D-0058 — Kanban protocol: integration hooks section (SaaS subscriptions)
