@@ -68,3 +68,6 @@
 | 2026-02-06T00:08:40 | DISPATCH | dispatch | commander | TASK-20260205-always_on_watchers_sweep.md | 1db3a82 | 1db3a82 | — | — |
 | 2026-02-06T00:08:41 | CLAIM | commander | commander | TASK-20260205-always_on_watchers_sweep.md | 1db3a82 | 1db3a82 | — | — |
 | 2026-02-06T00:08:46 | CLAIM | commander | commander | TASK-20260205-always_on_watchers_sweep.md | 1db3a82 | 1db3a82 | — | — |
+| 2026-02-06T00:23:41 | DISPATCH | dispatch | commander | TASK-20260205-always_on_smoke_validation.md | c8d66c7 | c8d66c7 | — | — |
+| 2026-02-06T00:29:26 | DISPATCH | dispatch | commander | TASK-20260205-always_on_smoke_validation_v2.md | d0968c2 | d0968c2 | — | — |
+| 2026-02-06T01:30:00 | COMPLETE | commander | clickup | CLICKUP-workspace-population | 5831e3a | — | — | INT-1202 |
