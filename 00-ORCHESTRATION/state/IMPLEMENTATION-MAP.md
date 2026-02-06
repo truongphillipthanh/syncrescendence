@@ -123,7 +123,9 @@
   dependencies: Linear API/MCP decision.
   owner_lane: Psyche (design) + Commander (implementation)
   venue: linear+repo
-  status: new
+  status: in_progress
+  linear_id: SYN-16
+  notes: "Linear workspace populated 2026-02-05: 13 projects, 26 issues, 17 labels. GraphQL API direct access. Sync mechanism pending."
 
 - id: IMPL-A-0013
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md

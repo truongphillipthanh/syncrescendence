@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-02 (Session 7b: Style guide, YouTube pipeline research, auteur theory research, GitHub Actions CI, CANON regeneration refactored to registry-driven cross-chain system)
+**Last Updated**: 2026-02-05 (Clarescence: task-arch-ontology-linear. Linear workspace populated: 13 projects, 26 issues, 17 labels. PROJ-LINEAR IN_PROGRESS.)
 
 ---
 
@@ -32,7 +32,8 @@
 | PROJ-002 | ACTIVE | P1 | 95% | IIC Configuration — All 5 configs complete (Acumen/Coherence/Efficacy/Mastery/Transcendence). Remaining: Mastery account email (Sovereign) |
 | PROJ-003 | ACTIVE | P2 | 50% | Tooling Stack — REF-STACK_TELEOLOGY.md complete, SOVEREIGN-009 filed with 5 disposition decisions. Blocks PROJ-006 |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
-| PROJ-006 | NOT_STARTED | P1 | 0% | Ontology/"Palantir-like" — "FINAL BOSS"; blocked by PROJ-003 |
+| PROJ-006a | ACTIVE | P1 | 5% | Ontology Phase 1 (Content) — substrate-agnostic: CANON frontmatter, Ontology Bridge v1.0, operational status audit, Dataview queries. Unblocked. |
+| PROJ-006b | BLOCKED | P1 | 0% | Ontology Phase 2 (Substrate) — implementation in Notion/Obsidian/custom after SOVEREIGN-009. Blocked by PROJ-003. |
 | PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
 | PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
 | PROJ-009 | NOT_STARTED | P3 | 0% | Modal 2 Visual — queued AI 3D/VFX/Image/Video |
@@ -52,7 +53,7 @@
 | PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→30 files (79% reduction). state/: 24→21 (2 superseded deleted, stale paths fixed in 5 pipeline files). archive/: 53→9 (83% reduction — 31 dead weight deleted, 14 compacted into 3 files, 8 kept). Coherence metrics appended to lean-out recommendations. |
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
-| PROJ-LINEAR | NOT_STARTED | P2 | 0% | Linear Onboarding + Backlog sync |
+| PROJ-LINEAR | IN_PROGRESS | P1 | 40% | Linear Onboarding — workspace populated (13 projects, 26 issues, 17 labels via GraphQL API). Remaining: sync mechanism, MCP server |
 | PROJ-LIVE-CANON | IN_PROGRESS | P1 | 95% | Live CANON Ticker — MVP deployed + automation: watch_canon.sh, regenerate pipeline (now registry-driven), Jinja2 template, platform_capabilities.json, model_intelligence.db, template_registry.json. Remaining: CANON-31150 Sovereign approval (SOVEREIGN-008) |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
 
@@ -131,9 +132,11 @@ PROJ-001 ---+---> PROJ-002 ---------> PROJ-005 (blocked)
             |     (95%)    |
             |              +---------> IIC completion
             |
-PROJ-011 ---+---> PROJ-003 ---------> PROJ-006 --> PROJ-007
-            |     (50%)    |           (Ontology)
+PROJ-011 ---+---> PROJ-003 ---------> PROJ-006b --> PROJ-007
+            |     (50%)    |           (Ontology Ph2)
             |              +---------> PROJ-004
+            |
+            +---> PROJ-006a (Ontology Ph1 — UNBLOCKED, ACTIVE)
             |
             +---> PROJ-012 ---------> CLI activation
             |     (95%)
