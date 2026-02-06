@@ -15,3 +15,16 @@ d3cb695 feat: intelligence infrastructure — model DB, CANON regeneration, audi
 **Changes**:  3 files changed, 7 insertions(+), 4 deletions(-)
 
 ---
+
+### 2026-02-05 16:13:35 | Branch: main
+**Recent commits**:
+```
+376fe6c chore: update constellation state fingerprint
+f6b8eae chore: research reorganization + SN metrics rename + constellation state
+1486acb chore(dispatch): agent inbox lifecycle artifacts + sovereign queue updates
+594292d chore(scripts): update dispatch, watchers, launchd plists, pre-compaction
+fde6ec3 feat(state): Linear onboarding + backlog/ledger/impl-map updates
+```
+**Changes**:  59 files changed, 957 insertions(+), 6 deletions(-)
+
+---
