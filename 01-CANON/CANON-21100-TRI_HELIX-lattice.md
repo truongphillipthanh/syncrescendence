@@ -9,6 +9,18 @@ status: canonical
 created: 2025-10-17
 updated: 2025-12-30
 synopsis: Visual representation of three synchronized timelines—technological maturity, business development, and personal capability—for strategic decision-making alignment
+operational_status: theoretical
+entities_defined:
+  - "Tri-Helical Timeline (STR)"
+  - "Technological Maturity Timeline (CON)"
+  - "Business Development Timeline (CON)"
+  - "Personal Capability Timeline (CON)"
+  - "Synchronization Matrix (STR)"
+  - "Decision Grounding Framework (PROTO)"
+depends_on:
+  - CANON-21000
+  - CANON-00000
+last_verified: 2026-02-05
 ---
 
 # TRI-HELICAL TIMELINE VISUALIZATION

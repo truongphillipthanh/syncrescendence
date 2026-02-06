@@ -12,6 +12,19 @@ status: canonical
 created: 2026-01-02
 updated: 2026-01-02
 synopsis: Comprehensive philosophical framework synthesizing belief systems, epistemic stratigraphy, volition, spiritual planes, causation, and fundamental essentia into unified metahuman worldview.
+operational_status: theoretical
+entities_defined:
+  - "Metahumanism Framework (CON)"
+  - "Epistemic Stratigraphy (CON)"
+  - "Volition Architecture (CON)"
+  - "Spiritual Planes Integration (CON)"
+  - "Causation Theory (CON)"
+  - "Fundamental Essentia (CON)"
+depends_on:
+  - CANON-35200
+  - CANON-35100
+  - CANON-35000
+last_verified: 2026-02-05
 ---
 
 # CANON-35210: METAHUMANISM FRAMEWORK

@@ -11,6 +11,19 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Agent memory architectures, taxonomies, vector databases, context engineering, and production memory systems.
+operational_status: theoretical
+entities_defined:
+  - "Memory Taxonomy (STR)"
+  - "A-MEM System (TOOL)"
+  - "MIRIX System (TOOL)"
+  - "MemGPT System (TOOL)"
+  - "Context Engineering (CON)"
+  - "Sleep-Time Compute (CON)"
+  - "Memory Interface Operations (PROTO)"
+  - "Retrieval Optimization (CAP)"
+depends_on:
+  - CANON-30400
+last_verified: 2026-02-05
 ---
 
 # CANON-30430: MEMORY SYSTEMS

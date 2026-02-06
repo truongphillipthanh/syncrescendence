@@ -12,6 +12,27 @@ synopsis: Constitutional framework for sovereign platform engagement, mapping co
 chain: INFORMATION
 planetary: ACUMEN
 parent: CANON-31100
+operational_status: partial
+entities_defined:
+  - "Feedcraft (CON)"
+  - "Functional Platform Topology (STR)"
+  - "Nine Platform Categories (STR)"
+  - "Constitutional Practice (PROTO)"
+  - "Three Cognitive Modes (CON)"
+  - "Resonance Calculation (MET)"
+  - "Temporal Choreography (PROTO)"
+depends_on:
+  - CANON-31000
+  - CANON-31100
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+  - CANON-31115
+  - CANON-31120
+  - CANON-31130
+  - CANON-31140
+  - CANON-31150
+last_verified: 2026-02-05
 ---
 
 # Feedcraft: The Constitutional Architecture of Digital Sovereignty

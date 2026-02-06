@@ -12,6 +12,27 @@ synopsis: Systematic architecture for producing coherent, high-quality content a
 chain: INFORMATION
 planetary: ACUMEN
 parent: CANON-31100
+operational_status: theoretical
+entities_defined:
+  - "Tone Library (TOOL)"
+  - "Recipe (ART)"
+  - "Rhetorical Function Taxonomy (STR)"
+  - "Stylistic Form Matrix (STR)"
+  - "Evidence Type System (STR)"
+  - "Cadence Pattern Library (STR)"
+  - "Diction Rules (STR)"
+  - "CTA Pattern Library (STR)"
+  - "Guardrail System (PROTO)"
+  - "Production Workflow (WF)"
+depends_on:
+  - CANON-31000
+  - CANON-31100
+  - CANON-31121
+  - CANON-31122
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+last_verified: 2026-02-05
 ---
 
 # TONE LIBRARY: Dissemination Execution System

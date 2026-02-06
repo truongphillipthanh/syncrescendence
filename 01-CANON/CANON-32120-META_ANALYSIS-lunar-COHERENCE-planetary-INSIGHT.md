@@ -12,6 +12,16 @@ synopsis: Comprehensive taxonomy for civilizational sense-making, providing navi
 chain: INSIGHT
 planetary: COHERENCE
 parent: CANON-32100
+operational_status: theoretical
+entities_defined:
+  - "Meta-Analytical Framework (STR)"
+  - "Civilizational Sense-Making Taxonomy (STR)"
+  - "Framework Proliferation (CON)"
+  - "Phase Transition Navigation (CAP)"
+depends_on:
+  - CANON-32100
+  - CANON-32000
+last_verified: 2026-02-05
 ---
 
 # THE META-ANALYTICAL FRAMEWORK

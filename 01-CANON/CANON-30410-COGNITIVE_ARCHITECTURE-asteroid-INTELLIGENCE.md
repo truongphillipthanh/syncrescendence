@@ -11,6 +11,20 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Detailed cognitive architectures for language agents—CoALA framework, reasoning patterns, perception and planning primitives.
+operational_status: theoretical
+entities_defined:
+  - "CoALA Architecture (STR)"
+  - "ReAct Pattern (PROTO)"
+  - "Reflexion Architecture (PROTO)"
+  - "Hierarchical Task Network (PROTO)"
+  - "Tree-of-Thoughts (PROTO)"
+  - "Extended Chain-of-Thought (PROTO)"
+  - "Perception Primitives (CAP)"
+  - "Planning Primitives (CAP)"
+  - "Primitive Composition Patterns (STR)"
+depends_on:
+  - CANON-30400
+last_verified: 2026-02-05
 ---
 
 # CANON-30410: COGNITIVE ARCHITECTURE

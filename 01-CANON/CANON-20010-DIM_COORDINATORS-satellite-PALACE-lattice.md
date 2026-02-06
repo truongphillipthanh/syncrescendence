@@ -11,6 +11,21 @@ status: canonical
 created: 2026-01-02
 updated: 2026-01-02
 synopsis: Seven dimensional coordination patterns for Cognitive Palace navigation—the orchestrating intelligence layer that makes 87 components feel like natural intuition.
+operational_status: theoretical
+entities_defined:
+  - "Reality Coordinator (AGT)"
+  - "Imaginality Coordinator (AGT)"
+  - "Potentiality Coordinator (AGT)"
+  - "Temporality Coordinator (AGT)"
+  - "Practicality Coordinator (AGT)"
+  - "Actuality Coordinator (AGT)"
+  - "Consequentiality Coordinator (AGT)"
+  - "Meta-Governor (AGT)"
+  - "Seven Pulses Dashboard (TOOL)"
+  - "Cross-Layer Integration Matrices (STR)"
+depends_on:
+  - CANON-20000
+last_verified: 2026-02-05
 ---
 
 # CANON-20010: DIMENSIONAL COORDINATORS

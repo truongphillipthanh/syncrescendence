@@ -10,6 +10,26 @@ created: 2025-10-17
 updated: 2025-12-30
 synopsis: Cultivation of perceptual sophistication through Air-aligned awareness practices, signal detection across seven domains, and technology sovereignty via IIC implementation
 chain: INFORMATION
+operational_status: partial
+entities_defined:
+  - "Planetary Acumen (CON)"
+  - "Acumen IIC (TOOL)"
+  - "Priority Band (PROTO)"
+  - "Dual-Stream Intelligence (PROTO)"
+  - "Seven Archaeological Domains (STR)"
+  - "Four-Stage Architecture (STR)"
+depends_on:
+  - CANON-31000
+  - CANON-31110
+  - CANON-31120
+  - CANON-31130
+  - CANON-31140
+  - CANON-31141
+  - CANON-31142
+  - CANON-31143
+  - CANON-35120
+  - CANON-00012
+last_verified: 2026-02-05
 ---
 
 # PLANETARY ACUMEN: AIR ELEMENT / SENSING MODALITY

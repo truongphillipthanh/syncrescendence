@@ -12,6 +12,19 @@ synopsis: Five Degrees of meaning-making integration tracking mastery progressio
 chain: INSIGHT
 planetary: COHERENCE
 parent: CANON-32100
+operational_status: theoretical
+entities_defined:
+  - "Coherence Synthesis System (STR)"
+  - "Five Degrees of Meaning-Making (STR)"
+  - "Recognition Degree (CON)"
+  - "Exploration Degree (CON)"
+  - "Commitment Degree (CON)"
+  - "Integration Degree (CON)"
+  - "Transmission Degree (CON)"
+depends_on:
+  - CANON-32100
+  - CANON-32000
+last_verified: 2026-02-05
 ---
 
 # CANON-32110: COHERENCE SYNTHESIS & LUNAR MASTERY SYSTEM

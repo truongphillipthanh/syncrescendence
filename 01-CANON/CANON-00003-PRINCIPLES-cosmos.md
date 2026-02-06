@@ -9,6 +9,24 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Aphoristic distillation - the thirty governing principles, chain sutras, layer sutras, and paradox teachings.
+operational_status: operational
+entities_defined:
+  - "Thirty Principles (CON)"
+  - "Chain Sutras (NOT)"
+  - "Layer Sutras (NOT)"
+  - "Element Sutras (NOT)"
+  - "Governing Principles (CON)"
+  - "Paradox Teachings (CON)"
+  - "Daily Sutras (PROTO)"
+  - "Sovereignty (CON)"
+  - "Recursion (CON)"
+  - "Demonstration (CON)"
+  - "Transmission (CON)"
+depends_on:
+  - CANON-00000
+  - CANON-00001
+  - CANON-00002
+last_verified: 2026-02-05
 ---
 
 # CANON-00003: THE PRINCIPLES

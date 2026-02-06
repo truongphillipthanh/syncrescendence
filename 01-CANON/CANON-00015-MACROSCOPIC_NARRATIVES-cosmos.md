@@ -10,6 +10,22 @@ updated: 2026-01-02
 source: intelligence architecture/macroscopic_narratives.md (recovered from git 96edf93)
 principle: "These aren't academic frameworks—they're active filters the apparatus uses to qualify signals."
 synopsis: "The civilizational narrative lenses through which Syncrescendence interprets external content and positions for phase transition."
+operational_status: operational
+entities_defined:
+  - "Macroscopic Narratives (STR)"
+  - "Reflexive Epoch (CON)"
+  - "Integrative Interregnum (CON)"
+  - "Civilizational Phase Transition (CON)"
+  - "Application Protocol (PROTO)"
+  - "Convergent Insights (CON)"
+  - "Narrative Lens Families (STR)"
+  - "Signal Qualification (PROTO)"
+depends_on:
+  - CANON-00000
+  - CANON-00005
+  - CANON-00007
+  - CANON-00012
+last_verified: 2026-02-05
 ---
 
 # CANON-00015: MACROSCOPIC NARRATIVES

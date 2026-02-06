@@ -13,6 +13,18 @@ chain: INFORMATION
 planetary: ACUMEN
 lunar: IIC
 parent: CANON-31140
+operational_status: partial
+entities_defined:
+  - "Feed Curation (PROTO)"
+  - "Teleological Curation Practice (CON)"
+  - "Chain-Aligned Feed Architecture (STR)"
+  - "Qualification Criteria (MET)"
+depends_on:
+  - CANON-31140
+  - CANON-31110
+  - CANON-31130
+  - CANON-31100
+last_verified: 2026-02-05
 ---
 
 # CANON-31143: FEED CURATION AS TELEOLOGICAL PRACTICE

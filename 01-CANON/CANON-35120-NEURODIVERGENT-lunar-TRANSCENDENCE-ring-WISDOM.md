@@ -11,6 +11,17 @@ updated: 2025-12-30
 synopsis: Universal practice adaptation principles derived from neurodivergent experience, providing energy-aware protocol design for resistance navigation
 chain: WISDOM
 parent: CANON-35100
+operational_status: theoretical
+entities_defined:
+  - "Neurodivergent Practice Adaptations (PROTO)"
+  - "Energy-Aware Protocol Design (PROTO)"
+  - "Universal Resistance Navigation (CON)"
+  - "AuDHD Profile (CON)"
+depends_on:
+  - CANON-35100
+  - CANON-35121
+  - CANON-35000
+last_verified: 2026-02-05
 ---
 
 # CANON-35120: NEURODIVERGENT PRACTICE ADAPTATIONS

@@ -9,6 +9,28 @@ status: canonical
 created: 2025-10-17
 updated: 2025-12-30
 synopsis: Progressive disclosure architecture for Coherence-Transcendence systems using five orthogonal dimensions to guide practitioner mastery through lunar degree progression
+operational_status: theoretical
+entities_defined:
+  - "Lunar Navigation (STR)"
+  - "Five Orthogonal Dimensions (STR)"
+  - "Scale Dimension (NOT)"
+  - "Level Dimension (NOT)"
+  - "Degree Dimension (NOT)"
+  - "Stage Dimension (NOT)"
+  - "Phase Dimension (NOT)"
+  - "Epistemology-Oriented Entry (WF)"
+  - "Ontology-Oriented Entry (WF)"
+  - "Integration-Oriented Entry (WF)"
+  - "Degree Progression (PROTO)"
+depends_on:
+  - CANON-20000
+  - CANON-21000
+  - CANON-22000
+  - CANON-20010
+  - CANON-20020
+  - CANON-24000
+  - CANON-25000
+last_verified: 2026-02-05
 ---
 
 # CANON-23000: LUNAR NAVIGATION

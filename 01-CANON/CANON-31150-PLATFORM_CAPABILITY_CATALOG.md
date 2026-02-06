@@ -1,3 +1,29 @@
+---
+id: CANON-31150
+name: Platform Capability Catalog
+identity: Platform Capability Catalog - Definitive Inventory
+tier: CANON
+type: lunar
+version: 1.0.0
+status: canonical
+created: 2026-02-05
+updated: 2026-02-05
+synopsis: Auto-generated definitive inventory of constellation platform capabilities sourced from platform_capabilities.json
+chain: INFORMATION
+planetary: ACUMEN
+parent: CANON-31100
+operational_status: operational
+entities_defined:
+  - "Platform Capability Catalog (ART)"
+  - "Constellation Capabilities Inventory (STR)"
+depends_on:
+  - CANON-31100
+  - CANON-31110
+  - CANON-31130
+  - CANON-31140
+last_verified: 2026-02-05
+---
+
 # CANON-31150: PLATFORM CAPABILITY CATALOG
 
 ---

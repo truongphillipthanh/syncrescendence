@@ -12,6 +12,24 @@ synopsis: Sovereign intelligence architecture for engineering identity-intellige
 chain: INFORMATION
 planetary: ACUMEN
 parent: CANON-31100
+operational_status: partial
+entities_defined:
+  - "Seven-Layer Technosphere Stack (STR)"
+  - "Layer 0 Physical Substrate (CON)"
+  - "Layer 1 Identity Federation (CON)"
+  - "Layer 2 Ambient Intelligence (CON)"
+  - "Layer 3 Browser Intelligence (CON)"
+  - "Layer 4 AI Platforms (CON)"
+  - "Layer 5 Content Platforms (CON)"
+  - "Layer 6 Production Tools (CON)"
+  - "Layer 7 Meta-Intelligence (CON)"
+  - "Differential Sovereignty (CON)"
+depends_on:
+  - CANON-31100
+  - CANON-31140
+  - CANON-31141
+  - CANON-31000
+last_verified: 2026-02-05
 ---
 
 # CANON-31130: SEVEN-LAYER TECHNOSPHERE STACK

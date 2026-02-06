@@ -19,6 +19,19 @@ synopsis: >
   Methodologies and quality standards for AI-augmented research,
   including the Source Triad Method, verdicting process, decision-bearing
   question prioritization, anti-patterns, and infrastructure evaluation.
+operational_status: operational
+entities_defined:
+  - "Source Triad Method (PROTO)"
+  - "Verdicting Process (PROTO)"
+  - "Decision-Bearing Questions (CON)"
+  - "Frontier Tracking (WF)"
+  - "Capability Contract Audit (PROTO)"
+  - "Research Anti-Patterns (CON)"
+  - "Confidence Levels (MET)"
+depends_on:
+  - CANON-30000
+  - CANON-30300
+last_verified: 2026-02-05
 ---
 
 # CANON-30330: RESEARCH PROTOCOLS

@@ -12,6 +12,21 @@ synopsis: Multi-account intelligence framework operationalizing Seven-Layer Stac
 chain: INFORMATION
 planetary: ACUMEN
 parent: CANON-31100
+operational_status: partial
+entities_defined:
+  - "IIC Constellation (STR)"
+  - "Identity-Intelligence Complex (CON)"
+  - "Multi-Account Intelligence Framework (STR)"
+  - "Functional Compartmentalization (CON)"
+  - "Progressive Activation Sequence (PROTO)"
+depends_on:
+  - CANON-31100
+  - CANON-31130
+  - CANON-31141
+  - CANON-31142
+  - CANON-31143
+  - CANON-31000
+last_verified: 2026-02-05
 ---
 
 # CANON-31140: IIC CONSTELLATION

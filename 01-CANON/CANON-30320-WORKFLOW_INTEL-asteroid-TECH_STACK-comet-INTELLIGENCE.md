@@ -11,6 +11,21 @@ updated: 2025-12-30
 synopsis: Systematic methodology for apparatus crystallization, tool selection, and process optimization through hierarchical work structures and convergent pattern detection
 chain: INTELLIGENCE
 parent: CANON-30300
+operational_status: theoretical
+entities_defined:
+  - "Work Typology Hierarchy (STR)"
+  - "Delegation Philosophy (CON)"
+  - "Apparatus Concept (CON)"
+  - "Apparatus Detection Protocol (PROTO)"
+  - "Workflow Modalities (CON)"
+  - "Cognitive Offloading (CON)"
+  - "Meta-Orchestration Layer (CAP)"
+  - "Personal Ontology (CON)"
+  - "Apparatus Crystallization Protocol (PROTO)"
+depends_on:
+  - CANON-30000
+  - CANON-30300
+last_verified: 2026-02-05
 ---
 
 # Technology Stack: Workflow Intelligence Framework

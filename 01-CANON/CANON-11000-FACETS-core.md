@@ -9,6 +9,20 @@ status: canonical
 created: 2025-10-17
 updated: 2025-12-30
 synopsis: Establishes the ModusOperandi as five faces of singular consciousness—avatar manifestations that maintain unified essence while operating through differentiated modalities
+operational_status: theoretical
+entities_defined:
+  - "ModusOperandi (CON)"
+  - "Sensing Face (CON)"
+  - "Meaning-Making Face (CON)"
+  - "Intention-Formation Face (CON)"
+  - "Embodiment Face (CON)"
+  - "Strategic Harmony Face (CON)"
+  - "Perichoretic Integration (CON)"
+  - "Face Fluency Assessment (MET)"
+depends_on:
+  - CANON-10000
+  - CANON-00000
+last_verified: 2026-02-05
 ---
 
 # MODUSOPERANDI: FIVE FACES OF UNIFIED CONSCIOUSNESS

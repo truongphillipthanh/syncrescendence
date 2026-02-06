@@ -11,6 +11,22 @@ updated: 2025-12-30
 synopsis: Comprehensive framework for understanding and designing hybrid cognitive systems where biological and artificial intelligence integrate through sophisticated patterns of mutual enhancement
 chain: INTELLIGENCE
 parent: CANON-30000
+operational_status: theoretical
+entities_defined:
+  - "Anthromachina Symbiosis (CON)"
+  - "Hybrid Cognitive Systems (CON)"
+  - "Constitutional Stack (STR)"
+  - "Orthogonal Planes (STR)"
+  - "Coupling Topology (STR)"
+  - "Object Ontology (STR)"
+  - "Evolutionary Gradient (STR)"
+  - "Phase Transition Dynamics (CON)"
+  - "Capability Contracts (CON)"
+  - "Platform Overlay Architecture (STR)"
+  - "Resonance Index (MET)"
+depends_on:
+  - CANON-30000
+last_verified: 2026-02-05
 ---
 
 # The Anthromachina Symbiosis Architecture (ASA) Model

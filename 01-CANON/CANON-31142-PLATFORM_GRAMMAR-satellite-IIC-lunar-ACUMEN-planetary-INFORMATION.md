@@ -13,6 +13,17 @@ chain: INFORMATION
 planetary: ACUMEN
 lunar: IIC
 parent: CANON-31140
+operational_status: partial
+entities_defined:
+  - "Platform Grammar (PROTO)"
+  - "Layer 3 Tactical Protocols (PROTO)"
+  - "Per-Platform Interaction Rules (STR)"
+depends_on:
+  - CANON-31140
+  - CANON-31110
+  - CANON-31130
+  - CANON-31141
+last_verified: 2026-02-05
 ---
 
 # CANON-31142: PLATFORM GRAMMAR

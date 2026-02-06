@@ -9,6 +9,15 @@ status: canonical
 created: 2025-10-17
 updated: 2025-12-30
 synopsis: Complete documentation of framework evolution and artifact supersession—comprehensive index preserving lineage of all superseded artifacts with clear migration paths
+operational_status: operational
+entities_defined:
+  - "Historical Archive (ART)"
+  - "Lunar Consolidation Record (ART)"
+  - "Artifact Supersession Index (STR)"
+  - "Migration Path Registry (STR)"
+depends_on:
+  - CANON-00000
+last_verified: 2026-02-05
 ---
 
 > **Historical Note**: This document intentionally preserves legacy CANON-1 through CANON-17 numbering as historical record. Current numbering uses 5-digit format (e.g., [[CANON-00001-ORIGIN-cosmos]], [[CANON-30000-INTELLIGENCE-chain]]). See [[CANON-00000-SCHEMA-cosmos]]-SCHEMA for current mapping.

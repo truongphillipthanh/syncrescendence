@@ -11,6 +11,19 @@ updated: 2025-12-30
 synopsis: Corporate and platform characterization framework for rational tool selection, providing institutional intelligence for navigating technology ecosystems
 chain: INTELLIGENCE
 parent: CANON-30000
+operational_status: partial
+entities_defined:
+  - "Institutional Personality Assessment (CON)"
+  - "Lock-In Risk Assessment Framework (TOOL)"
+  - "Enshittification Cycle (CON)"
+  - "Tool Selection Decision Framework (WF)"
+  - "Platform Presence Strategy (STR)"
+  - "Corporate Risk Scoring (MET)"
+depends_on:
+  - CANON-30000
+  - CANON-30100
+  - CANON-30300
+last_verified: 2026-02-05
 ---
 
 # P1-1: STRATEGIC POSITIONING SUPPLEMENT

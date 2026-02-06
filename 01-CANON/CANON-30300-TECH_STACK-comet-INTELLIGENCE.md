@@ -11,6 +11,20 @@ updated: 2025-12-30
 synopsis: ASA Model implementation database for systematic tool classification, navigation, and workflow optimization across 447 applications, 42 AI models, and 31 APIs
 chain: INTELLIGENCE
 parent: CANON-30000
+operational_status: partial
+entities_defined:
+  - "Technology Stack Database (TOOL)"
+  - "Bedrock Tables (STR)"
+  - "Settlement Tables (STR)"
+  - "Primitive Tables (STR)"
+  - "Intelligence Tables (STR)"
+  - "Apparatus (CON)"
+  - "Primitives (CON)"
+  - "Navigation Specifications (WF)"
+depends_on:
+  - CANON-30000
+  - CANON-30100
+last_verified: 2026-02-05
 ---
 
 # P0-3: TECHNOLOGY STACK DATABASE

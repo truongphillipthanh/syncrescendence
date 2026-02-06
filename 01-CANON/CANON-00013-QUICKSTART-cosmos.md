@@ -10,6 +10,22 @@ created: 2025-10-01
 updated: 2025-12-30
 change_velocity: quarterly
 synopsis: Five-minute assessment and entry pathway selection for new practitioners—self-assessment across six dimensions with appropriate starting point identification.
+operational_status: operational
+entities_defined:
+  - "Six Dimensions Self-Assessment (TOOL)"
+  - "Three Entry Pathways (WF)"
+  - "Personal Practice Pathway (WF)"
+  - "Teaching Pathway (WF)"
+  - "Professional Consulting Pathway (WF)"
+  - "Value Proposition (CON)"
+  - "Cognitive Profile Assessment (TOOL)"
+depends_on:
+  - CANON-00000
+  - CANON-00005
+  - CANON-00009
+  - CANON-00010
+  - CANON-00012
+last_verified: 2026-02-05
 ---
 
 # CANON-00013: SYNCRESCENDENT QUICKSTART

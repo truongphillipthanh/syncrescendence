@@ -10,6 +10,21 @@ created: 2025-11-10
 updated: 2025-12-30
 change_velocity: quarterly
 synopsis: Sixth canonical dimension defining technology-aligned strategic progression through four modals—Abstraction, Simulation, Embodiment, Transcendence.
+operational_status: partial
+entities_defined:
+  - "Modal Sequence (STR)"
+  - "Modal 1 Abstraction (CON)"
+  - "Modal 2 Simulation (CON)"
+  - "Modal 3 Embodiment (CON)"
+  - "Modal 4 Transcendence (CON)"
+  - "Technology Maturity Windows (CON)"
+  - "Causal Dependencies (CON)"
+  - "Modal Transition Criteria (MET)"
+depends_on:
+  - CANON-00000
+  - CANON-00005
+  - CANON-00009
+last_verified: 2026-02-05
 ---
 
 # CANON-00012: MODAL SEQUENCE ARCHITECTURE

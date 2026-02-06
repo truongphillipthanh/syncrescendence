@@ -9,6 +9,33 @@ status: canonical
 created: 2025-10-17
 updated: 2026-02-01
 synopsis: Universal protocol for cognitive persistence with integrated teleological analysis — establishing sovereignty principles, memory layers, lifecycle management, and platform-specific rationale across AI platforms and temporal horizons
+operational_status: operational
+entities_defined:
+  - "Memory Architecture (STR)"
+  - "Memory Sovereignty Principle (CON)"
+  - "Seven Memory Strata (STR)"
+  - "Constitutional Memory (CON)"
+  - "Preference Memory (CON)"
+  - "Accumulated Memory (CON)"
+  - "Project/Space Memory (CON)"
+  - "Canonical Knowledge RAG (CON)"
+  - "Thread Context (CON)"
+  - "Tool-Extended Memory (CON)"
+  - "CLI-Foyer Architecture (STR)"
+  - "CLAUDE.md Hierarchy (STR)"
+  - "Distillation Protocol (PROTO)"
+  - "Thread Culmination Protocol (PROTO)"
+  - "Corpus Update Protocol (PROTO)"
+  - "Forgetting Protocol (PROTO)"
+  - "IIC Memory Configuration (PROTO)"
+depends_on:
+  - CANON-00000
+  - CANON-00005
+  - CANON-31140
+  - CANON-31130
+  - CANON-25100
+  - CANON-25200
+last_verified: 2026-02-05
 ---
 
 # CANON-25000: MEMORY ARCHITECTURE

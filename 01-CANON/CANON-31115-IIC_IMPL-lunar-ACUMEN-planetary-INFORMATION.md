@@ -12,6 +12,22 @@ synopsis: Complete tactical guide for implementing Acumen IIC from zero to opera
 chain: INFORMATION
 planetary: ACUMEN
 parent: CANON-31100
+operational_status: partial
+entities_defined:
+  - "Acumen IIC Implementation (WF)"
+  - "Daily Intelligence Cycle (PROTO)"
+  - "Intelligence Brief Template (ART)"
+  - "Recommendation Scoring System (MET)"
+  - "Cross-IIC Handoff Protocol (PROTO)"
+  - "Aggregation-of-Aggregators (PROTO)"
+  - "Heat Mapping (TOOL)"
+depends_on:
+  - CANON-31100
+  - CANON-31110
+  - CANON-31130
+  - CANON-31140
+  - CANON-31143
+last_verified: 2026-02-05
 ---
 
 # [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]]-supplement: ACUMEN IIC IMPLEMENTATION GUIDE

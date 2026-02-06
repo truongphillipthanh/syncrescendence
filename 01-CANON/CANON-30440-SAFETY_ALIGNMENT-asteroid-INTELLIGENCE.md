@@ -11,6 +11,20 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Agent security, attack vectors, defense-in-depth, governance frameworks, and alignment principles.
+operational_status: theoretical
+entities_defined:
+  - "Attack Vector Taxonomy (STR)"
+  - "Five-Layer Defense Architecture (STR)"
+  - "SAIF 2.0 Principles (PROTO)"
+  - "KPMG TACO Framework (STR)"
+  - "Governance Practices (PROTO)"
+  - "Bounded Autonomy (CON)"
+  - "Progressive Trust (CON)"
+  - "Reversible Delegation (CON)"
+  - "Intrinsic Alignment (CON)"
+depends_on:
+  - CANON-30400
+last_verified: 2026-02-05
 ---
 
 # CANON-30440: SAFETY AND ALIGNMENT

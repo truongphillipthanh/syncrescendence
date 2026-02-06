@@ -13,6 +13,15 @@ chain: EXPERTISE
 planetary: EFFICACY
 lunar: BIZ_BACKBONE
 parent: CANON-33110
+operational_status: partial
+entities_defined:
+  - "Content Production Pace Revision (PROTO)"
+  - "Consulting Protocol (PROTO)"
+depends_on:
+  - CANON-33110
+  - CANON-33100
+  - CANON-33000
+last_verified: 2026-02-05
 ---
 
 # BUSINESS OPERATIONS BACKBONE: ENHANCEMENTS

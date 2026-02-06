@@ -17,6 +17,22 @@ satellites:
   - CANON-30430: Memory Systems
   - CANON-30440: Safety and Alignment
   - CANON-30450: Production Frameworks
+operational_status: partial
+entities_defined:
+  - "Agenticness Spectrum (CON)"
+  - "Three-Layer Architecture (STR)"
+  - "CoALA Framework (STR)"
+  - "Human Agency Scale (MET)"
+  - "Five Core Orchestration Patterns (STR)"
+  - "Memory Taxonomy (STR)"
+  - "Defense-in-Depth (PROTO)"
+  - "CLASSic Evaluation Framework (MET)"
+  - "Gen AI Paradox (CON)"
+depends_on:
+  - CANON-30000
+  - CANON-30100
+  - CANON-30300
+last_verified: 2026-02-05
 ---
 
 # CANON-30400: AGENTIC ARCHITECTURE

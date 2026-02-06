@@ -11,6 +11,19 @@ updated: 2025-12-30
 synopsis: Complete migration protocol for transforming fragmentary Technology artifacts into coherent, queryable database implementing ASA Model classification
 chain: INTELLIGENCE
 parent: CANON-30300
+operational_status: partial
+entities_defined:
+  - "Migration Protocol (WF)"
+  - "Bedrock Layer Schema (STR)"
+  - "Settlement Layer Schema (STR)"
+  - "Primitive Layer Schema (STR)"
+  - "Intelligence Layer Schema (STR)"
+  - "Navigation Interface (TOOL)"
+depends_on:
+  - CANON-30000
+  - CANON-30100
+  - CANON-30300
+last_verified: 2026-02-05
 ---
 
 # Technology Stack Database: Complete Migration

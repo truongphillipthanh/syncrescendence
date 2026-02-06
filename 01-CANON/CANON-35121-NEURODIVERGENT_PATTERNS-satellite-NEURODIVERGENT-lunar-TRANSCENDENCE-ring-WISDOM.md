@@ -13,6 +13,19 @@ ring: TRANSCENDENCE
 lunar: NEURODIVERGENT
 parent: CANON-35120
 synopsis: AuDHD-specific implementation patterns for psychological dimension integration—executive function, sensory processing, energy management, and double-masking dynamics.
+operational_status: theoretical
+entities_defined:
+  - "Neurodivergent Patterns (STR)"
+  - "AuDHD Implementation Patterns (PROTO)"
+  - "Executive Function Protocols (PROTO)"
+  - "Sensory Processing Adaptations (PROTO)"
+  - "Energy Management Patterns (PROTO)"
+  - "Double-Masking Dynamics (CON)"
+depends_on:
+  - CANON-35120
+  - CANON-35100
+  - CANON-35000
+last_verified: 2026-02-05
 ---
 
 # CANON-35121: Neurodivergent Patterns

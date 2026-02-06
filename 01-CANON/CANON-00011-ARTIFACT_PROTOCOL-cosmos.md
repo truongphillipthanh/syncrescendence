@@ -11,6 +11,24 @@ updated: 2025-12-30
 change_velocity: quarterly
 supersedes: null
 synopsis: Framework evolution protocol governing artifact creation, maintenance, and community contribution while maintaining architectural coherence.
+operational_status: operational
+entities_defined:
+  - "Artifact Taxonomy (STR)"
+  - "Quality Tier System (STR)"
+  - "Moon Creation Protocol (PROTO)"
+  - "Satellite Creation Protocol (PROTO)"
+  - "Asteroid Creation Protocol (PROTO)"
+  - "Peer Review Process (PROTO)"
+  - "Deprecation Protocol (PROTO)"
+  - "Reconstructive Capacity (CON)"
+  - "Cascade Congruence (CON)"
+  - "Semantic Versioning (PROTO)"
+depends_on:
+  - CANON-00000
+  - CANON-00005
+  - CANON-00007
+  - CANON-00010
+last_verified: 2026-02-05
 ---
 
 # CANON-00011: ARTIFACT PRODUCTION PROTOCOL

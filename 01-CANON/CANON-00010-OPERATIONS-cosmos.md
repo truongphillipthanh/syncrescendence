@@ -10,6 +10,26 @@ created: 2025-10-01
 updated: 2025-12-30
 change_velocity: monthly
 synopsis: Operational playbook translating architecture to daily practice—implementation protocols with modal integration and content production guidance.
+operational_status: operational
+entities_defined:
+  - "Seven Pulses Protocol (PROTO)"
+  - "Energy State Management (PROTO)"
+  - "Scope Domain Framework (STR)"
+  - "Three-Rail System (STR)"
+  - "Content Production Protocol (PROTO)"
+  - "IIC Daily Practice (PROTO)"
+  - "Burnout Prevention Protocol (PROTO)"
+  - "Stage Development Rhythms (PROTO)"
+  - "Modal-Aligned Content Strategy (STR)"
+  - "AI-Assisted Production Workflows (WF)"
+  - "Teaching Validation Criteria (MET)"
+depends_on:
+  - CANON-00000
+  - CANON-00005
+  - CANON-00009
+  - CANON-00012
+  - CANON-00013
+last_verified: 2026-02-05
 ---
 
 # CANON-00010: SYNCRESCENDENT OPERATIONS

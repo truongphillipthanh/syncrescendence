@@ -10,6 +10,16 @@ created: 2025-10-17
 updated: 2025-12-30
 synopsis: Cultivation of volitional capacity through Fire-aligned transformation practices, decision quality development, and sustainable value creation
 chain: EXPERTISE
+operational_status: theoretical
+entities_defined:
+  - "Planetary Efficacy (CON)"
+  - "Fire Element Modality (CON)"
+  - "Intention-Formation Modality (CON)"
+  - "Volitional Capacity (CAP)"
+depends_on:
+  - CANON-33000
+  - CANON-33110
+last_verified: 2026-02-05
 ---
 
 # PLANETARY EFFICACY: FIRE ELEMENT / INTENTION-FORMATION MODALITY

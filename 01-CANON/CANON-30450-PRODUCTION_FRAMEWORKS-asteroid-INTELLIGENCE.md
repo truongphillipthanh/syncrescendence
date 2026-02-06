@@ -11,6 +11,19 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Production agent frameworks, SDK comparisons, MCP/A2A protocols, tool integration, and deployment patterns.
+operational_status: theoretical
+entities_defined:
+  - "LangGraph Framework (TOOL)"
+  - "OpenAI Agents SDK (TOOL)"
+  - "Google ADK (TOOL)"
+  - "Microsoft Agent Framework (TOOL)"
+  - "CrewAI Framework (TOOL)"
+  - "CLASSic Evaluation (MET)"
+  - "Trajectory Evaluation (MET)"
+  - "Gen AI Paradox Resolution (CON)"
+depends_on:
+  - CANON-30400
+last_verified: 2026-02-05
 ---
 
 # CANON-30450: PRODUCTION FRAMEWORKS

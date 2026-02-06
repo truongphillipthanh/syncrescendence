@@ -11,6 +11,20 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Multi-agent orchestration patterns, collaboration topologies, communication protocols, and specialist coordination architectures.
+operational_status: theoretical
+entities_defined:
+  - "Specialist Resolution (CON)"
+  - "Sequential Orchestration (PROTO)"
+  - "Concurrent Orchestration (PROTO)"
+  - "Group Chat Orchestration (PROTO)"
+  - "Handoff Orchestration (PROTO)"
+  - "Magentic Orchestration (PROTO)"
+  - "MCP Protocol (PROTO)"
+  - "A2A Protocol (PROTO)"
+  - "Progressive Trust Model (PROTO)"
+depends_on:
+  - CANON-30400
+last_verified: 2026-02-05
 ---
 
 # CANON-30420: MULTI-AGENT ORCHESTRATION

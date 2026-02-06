@@ -11,6 +11,22 @@ updated: 2025-12-30
 change_velocity: monthly
 parent: CANON-00006
 synopsis: Comprehensive tactical guidance for content production across the Three-Rail System—step-by-step workflows, production templates, and platform-specific protocols.
+operational_status: operational
+entities_defined:
+  - "Three-Rail System (STR)"
+  - "Content Tier Classification (STR)"
+  - "AI-Assisted Production Pipelines (WF)"
+  - "Weekly Content Calendar (PROTO)"
+  - "Energy State Production Mapping (PROTO)"
+  - "Cross-IIC Content Orchestration (WF)"
+  - "Quality Gates (MET)"
+  - "Batch Production Protocol (PROTO)"
+  - "Content Repurposing Framework (WF)"
+depends_on:
+  - CANON-00006
+  - CANON-00010
+  - CANON-00012
+last_verified: 2026-02-05
 ---
 
 # CANON-00014: CONTENT PRODUCTION PROTOCOL

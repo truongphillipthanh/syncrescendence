@@ -13,6 +13,27 @@ chain: INFORMATION
 planetary: ACUMEN
 lunar: TONE_LIBRARY
 parent: CANON-31120
+operational_status: theoretical
+entities_defined:
+  - "Rhetorical Function Taxonomy (STR)"
+  - "Stylistic Form Taxonomy (STR)"
+  - "Cadence Pattern Taxonomy (STR)"
+  - "Diction Pattern Taxonomy (STR)"
+  - "Guardrail Taxonomy (STR)"
+  - "Evidence Type Taxonomy (STR)"
+  - "CTA Pattern Taxonomy (STR)"
+  - "Scaffold Element Taxonomy (STR)"
+  - "Family Taxonomy (STR)"
+  - "Recipient Archetype Taxonomy (STR)"
+  - "Domain Taxonomy (STR)"
+depends_on:
+  - CANON-31120
+  - CANON-31122
+  - CANON-31000
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+last_verified: 2026-02-05
 ---
 
 # TONE LIBRARY: Complete Taxonomy Reference

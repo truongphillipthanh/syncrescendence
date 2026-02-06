@@ -13,6 +13,16 @@ chain: EXPERTISE
 planetary: EFFICACY
 lunar: BIZ_BACKBONE
 parent: CANON-33110
+operational_status: theoretical
+entities_defined:
+  - "Revenue Model Reconciliation (STR)"
+  - "Convergence 4-Level Architecture (STR)"
+  - "Operations 3-Phase Structure (STR)"
+depends_on:
+  - CANON-33110
+  - CANON-33100
+  - CANON-33000
+last_verified: 2026-02-05
 ---
 
 # REVENUE MODEL RECONCILIATION

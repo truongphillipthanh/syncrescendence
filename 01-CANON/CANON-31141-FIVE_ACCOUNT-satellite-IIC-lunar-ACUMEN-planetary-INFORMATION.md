@@ -13,6 +13,20 @@ chain: INFORMATION
 planetary: ACUMEN
 lunar: IIC
 parent: CANON-31140
+operational_status: partial
+entities_defined:
+  - "Acumen IIC (TOOL)"
+  - "Coherence IIC (TOOL)"
+  - "Efficacy IIC (TOOL)"
+  - "Mastery IIC (TOOL)"
+  - "Transcendence IIC (TOOL)"
+  - "Five-Account Architecture (STR)"
+depends_on:
+  - CANON-31140
+  - CANON-31130
+  - CANON-31100
+  - CANON-31110
+last_verified: 2026-02-05
 ---
 
 # CANON-31141: FIVE-ACCOUNT ARCHITECTURE

@@ -13,6 +13,22 @@ chain: INFORMATION
 planetary: ACUMEN
 lunar: TONE_LIBRARY
 parent: CANON-31120
+operational_status: theoretical
+entities_defined:
+  - "Rhetorical Calibration (CON)"
+  - "Voice Principles (PROTO)"
+  - "Register Spectrum (STR)"
+  - "Platform-Specific Registers (STR)"
+  - "Anti-Patterns Catalog (STR)"
+  - "Evolution Protocol (PROTO)"
+depends_on:
+  - CANON-31120
+  - CANON-31121
+  - CANON-31000
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+last_verified: 2026-02-05
 ---
 
 # Rhetorical Calibration: Constitutional Voice Architecture

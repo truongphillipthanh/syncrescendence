@@ -10,6 +10,29 @@ created: 2025-10-17
 updated: 2025-12-30
 change_velocity: quarterly
 synopsis: Seven-layer dimensional lattice establishing the spacetime substrate through which consciousness moves—the topological fabric enabling orbital motion and vertical integration.
+operational_status: partial
+entities_defined:
+  - "Cognitive Palace (STR)"
+  - "Reality Layer (STR)"
+  - "Imaginality Layer (STR)"
+  - "Potentiality Layer (STR)"
+  - "Temporality Layer (STR)"
+  - "Practicality Layer (STR)"
+  - "Actuality Layer (STR)"
+  - "Consequentiality Layer (STR)"
+  - "Vertical Integration Protocols (PROTO)"
+  - "Daily Layer Check-In (PROTO)"
+  - "Weekly Seven-Layer Audit (PROTO)"
+depends_on:
+  - CANON-00000
+  - CANON-20010
+  - CANON-20020
+  - CANON-21000
+  - CANON-22000
+  - CANON-23000
+  - CANON-24000
+  - CANON-25000
+last_verified: 2026-02-05
 ---
 
 # CANON-20000: COGNITIVE PALACE

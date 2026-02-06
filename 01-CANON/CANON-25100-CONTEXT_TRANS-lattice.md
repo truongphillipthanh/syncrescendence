@@ -9,6 +9,20 @@ status: canonical
 created: 2025-10-17
 updated: 2026-01-11
 synopsis: Unified interface for managing cognitive continuity across sessions, threads, and platforms—the librarian's session management system for context transitions
+operational_status: operational
+entities_defined:
+  - "Context Transition Protocol (PROTO)"
+  - "Culmination Mode (PROTO)"
+  - "Continuation Mode (PROTO)"
+  - "Compression Mode (PROTO)"
+  - "Transition Artifact (ART)"
+  - "Context Analysis Framework (STR)"
+  - "Distillation Interface (PROTO)"
+  - "Oracle Pedigree Protocol (PROTO)"
+  - "Cross-IIC Handoff (PROTO)"
+depends_on:
+  - CANON-25000
+last_verified: 2026-02-05
 ---
 
 # CANON-25100: CONTEXT TRANSITION PROTOCOL

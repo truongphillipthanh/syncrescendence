@@ -9,6 +9,28 @@ status: canonical
 created: 2025-10-17
 updated: 2025-12-30
 synopsis: Comprehensive mapping of hard and soft dependencies between six causal chains, enabling optimal sequencing for curriculum, practitioner guidance, and assessment protocols
+operational_status: theoretical
+entities_defined:
+  - "Chain Interdependency Matrix (STR)"
+  - "Hard Dependency (CON)"
+  - "Soft Dependency (CON)"
+  - "Intelligence Chain (CON)"
+  - "Information Chain (CON)"
+  - "Insight Chain (CON)"
+  - "Expertise Chain (CON)"
+  - "Knowledge Chain (CON)"
+  - "Wisdom Chain (CON)"
+  - "Synchronization Track (WF)"
+  - "Specialization Track (WF)"
+  - "Dual-Track System (STR)"
+  - "Stage Readiness Checklist (PROTO)"
+  - "Remediation Protocols (PROTO)"
+depends_on:
+  - CANON-00000
+  - CANON-30000
+  - CANON-35000
+  - CANON-21100
+last_verified: 2026-02-05
 ---
 
 # CHAIN INTERDEPENDENCY MATRIX
