@@ -67,6 +67,31 @@
 - IMPL-B-0005 — make twin-heartbeat command that emits update stub
 - IMPL-B-0003 — Psyche contribution protocol (PATCH bundles/branches; Ajna commits)
 
+## 2026-02-06 (Tranche C) — Canon hotspots: multi-agent orchestration + memory systems + tech stack DB
+
+### P0
+- IMPL-C-0012 — Tech Stack DB migration execution + integrity checks + receipt
+- IMPL-C-0006 — Memory taxonomy mapping to concrete repo artifacts (working/episodic/semantic/procedural/prospective)
+
+### P1
+- IMPL-C-0001 — Orchestration-patterns → Syncrescendence mapping + router
+- IMPL-C-0005 — Progressive trust ladder for lanes (allowed actions + promotion criteria)
+- IMPL-C-0010 — Memory verification gates + stale/deprecated markers + re-verify policy
+
+### P2
+- IMPL-C-0002 — DecisionAtom: default collaboration topology + allowed deviations/triggers
+- IMPL-C-0003 — Protocol posture: MCP vs A2A vs filesystem kanban (security + roadmap)
+- IMPL-C-0004 — Message schema headers integrated into TASK header format
+- IMPL-C-0007 — Context engineering policy (chunking/relevance/decay/summarization)
+- IMPL-C-0008 — Sleep-time compute jobs (cron/launchd) for memory maintenance
+- IMPL-C-0011 — Memory security policy (PII handling + audit)
+- IMPL-C-0013 — Minimal Tech Stack DB CLI for search/routing/compare
+
+### P3
+- IMPL-C-0009 — Memory interface operations (write/read/update/forget) with logging
+- IMPL-C-0014 — Tech Stack DB maintenance cadence as jobs
+- IMPL-C-0015 — Tech Stack DB acceptance tests + metrics report
+
 ## 2026-02-06 (Tranche D) — Always-on watchers readiness
 
 ### P0

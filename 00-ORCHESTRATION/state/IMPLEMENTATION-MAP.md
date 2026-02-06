@@ -391,6 +391,158 @@
   venue: repo
   status: new
 
+## 2026-02-06 — Tranche C (Canon hotspots): Multi-agent orchestration + Memory systems + Tech stack DB
+
+- id: IMPL-C-0001
+  source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
+  source_lines: "PART II: Five Core Orchestration Patterns"
+  intent: Map industry orchestration patterns onto Syncrescendence’s actual execution substrate.
+  deliverable: A mapping doc/table: {Sequential, Concurrent, Group Chat, Handoff, Magentic} → {Neo‑Blitzkrieg stages, OpenClaw primitives, -INBOX kanban, sessions_spawn}, with a ‘when to use’ router.
+  dependencies: Neo‑Blitzkrieg spec + Toolchain interaction protocol.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-C-0002
+  source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
+  source_lines: "PART III: Collaboration Topologies"
+  intent: Choose a default collaboration topology for the Constellation.
+  deliverable: DecisionAtom: default topology (Hub‑and‑spoke + mesh) with explicit allowed deviations (critic‑refiner, planner‑executor, swarm) and their triggers.
+  dependencies: /claresce passes 1–3 (truth surface + lifecycle semantics).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-C-0003
+  source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
+  source_lines: "PART IV: Protocol Landscape (MCP/A2A)"
+  intent: Clarify protocol posture: what we actually implement vs track as ecosystem.
+  deliverable: Protocol posture doc: MCP (tool integration) vs A2A (agent discovery) vs filesystem kanban; include security implications and adoption roadmap aligned to Syncrescendence.
+  dependencies: Existing MCP config templates + kanban protocol.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-C-0004
+  source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
+  source_lines: "PART IV: Message Architecture"
+  intent: Standardize inter-agent message headers so automation can parse them.
+  deliverable: A minimal message schema for dispatch artifacts (type/intent/priority/origin/correlation_id/provenance) that fits in the existing TASK header format.
+  dependencies: DYN-DISPATCH_KANBAN_PROTOCOL.md header fields.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-C-0005
+  source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
+  source_lines: "PART VIII: Safety Considerations + Progressive Trust Model"
+  intent: Prevent over-autonomy before reliability is proven.
+  deliverable: Progressive trust ladder for lanes (Commander/Adjudicator/Cartographer/OpenClaw): allowed actions by level, required verification gates, and ‘promotion’ criteria.
+  dependencies: Safety policy + external-send boundaries.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-C-0006
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
+  source_lines: "PART I: Memory Taxonomy"
+  intent: Map Syncrescendence artifacts to canonical memory types.
+  deliverable: Memory architecture map: Working/Episodic/Semantic/Procedural/Prospective → concrete files/dirs (MEMORY.md, memory/YYYY-MM-DD.md, CANON/, skills/, cron/jobs, Linear).
+  dependencies: Decide prospective-memory truth surface (cron vs Linear).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-C-0007
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
+  source_lines: "PART IV: Context Engineering Strategies"
+  intent: Reduce context pollution and staleness.
+  deliverable: A ‘context engineering policy’ for sessions: chunking conventions, relevance scoring heuristics, temporal decay signals, and hierarchical summarization triggers.
+  dependencies: Existing memory + canon regen processes.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-C-0008
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
+  source_lines: "PART IV: Sleep-Time Compute"
+  intent: Turn idle time into durable memory maintenance.
+  deliverable: Sleep-time compute job set (OpenClaw cron / launchd): summarize recent logs, refresh stale claims, prune/annotate, and write curated updates to MEMORY.md / state.
+  dependencies: Decide automation substrate; guardrails for auto-edits.
+  owner_lane: Ajna
+  venue: tool+repo
+  status: new
+
+- id: IMPL-C-0009
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
+  source_lines: "PART VI: Memory Interfaces"
+  intent: Ensure memory operations are explicit and auditable.
+  deliverable: Define Memory Interface ops for Syncrescendence: write/read/update/forget with logging; decide what is manual-only vs automatable.
+  dependencies: Ledger schema + memory governance.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-C-0010
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
+  source_lines: "PART VII: Consistency and Coherence"
+  intent: Prevent hallucination propagation into durable memory.
+  deliverable: Memory verification gates: require source attribution/confidence; introduce ‘deprecated/stale’ markers; periodic re-verify policy.
+  dependencies: DecisionAtom on truth/verification surfaces.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-C-0011
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
+  source_lines: "PART VIII: Security Considerations"
+  intent: Avoid leaking PII/secrets via memory and logs.
+  deliverable: Memory security policy: access control boundaries, encryption-at-rest posture (if any), PII handling rules, and audit logging expectations.
+  dependencies: Current security posture + token handling decisions.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-C-0012
+  source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
+  source_lines: "MIGRATION PROTOCOL (Phases 1–6)"
+  intent: Turn Tech Stack DB from schema doc into a populated, queryable system.
+  deliverable: Implement migration: create DB (sqlite/postgres), populate bedrock tables, import Function.csv/Models.csv/API.csv, run integrity checks, and produce a ‘migration receipt’.
+  dependencies: Locate CSV sources; choose DB backend.
+  owner_lane: Adjudicator + Commander
+  venue: repo
+  status: new
+
+- id: IMPL-C-0013
+  source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
+  source_lines: "Navigation Specifications + CLI Mockups"
+  intent: Make the Tech Stack DB usable for daily routing decisions.
+  deliverable: Minimal CLI (or make targets) for: search, context routing, primitive lookup, apparatus view, model cost compare.
+  dependencies: DB created + populated.
+  owner_lane: Adjudicator
+  venue: repo
+  status: new
+
+- id: IMPL-C-0014
+  source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
+  source_lines: "MAINTENANCE PROTOCOLS"
+  intent: Keep tech stack intelligence from going stale.
+  deliverable: Maintenance cadence implemented as jobs: weekly model/pricing refresh, monthly primitive extraction prompts, quarterly integrity audits.
+  dependencies: Automation substrate decision.
+  owner_lane: Ajna
+  venue: tool+repo
+  status: new
+
+- id: IMPL-C-0015
+  source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
+  source_lines: "Falsification Criteria + Success Criteria"
+  intent: Make the Tech Stack DB falsifiable and measurable.
+  deliverable: Add acceptance tests + metrics tracking (coverage %, duplicates, query latency) and a simple report artifact produced by CI or make verify.
+  dependencies: DB + CLI.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
 ## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
 
 - id: IMPL-D-0034
