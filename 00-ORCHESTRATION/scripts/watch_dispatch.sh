@@ -33,9 +33,10 @@ INBOX0_DIR="$INBOX_ROOT/00-INBOX0"
 INPROG_DIR="$INBOX_ROOT/10-IN_PROGRESS"
 DONE_DIR="$INBOX_ROOT/40-DONE"
 FAILED_DIR="$INBOX_ROOT/50_FAILED"
+BLOCKED_DIR="$INBOX_ROOT/30-BLOCKED"
 RECEIPTS_DIR="$INBOX_ROOT/RECEIPTS"
 
-mkdir -p "$INBOX0_DIR" "$INPROG_DIR" "$DONE_DIR" "$FAILED_DIR" "$RECEIPTS_DIR"
+mkdir -p "$INBOX0_DIR" "$INPROG_DIR" "$BLOCKED_DIR" "$DONE_DIR" "$FAILED_DIR" "$RECEIPTS_DIR"
 
 WATCH_DIR="$INBOX0_DIR"
 POLL_INTERVAL=10
@@ -193,6 +194,33 @@ pipe_to_cc() {
   done
 }
 
+EXEC_EXIT=0
+
+parse_timeout_seconds() {
+  local file="$1"
+  local t
+  t=$(parse_header_field "$file" "Timeout" || true)
+
+  # Default: 600s (10m)
+  if [ -z "$t" ] || [ "$t" = "—" ] || [ "$t" = "-" ]; then
+    echo 600
+    return 0
+  fi
+
+  # If it's an integer <= 240, interpret as minutes (legacy tasks use 30)
+  if echo "$t" | rg -q '^[0-9]+$'; then
+    if [ "$t" -le 240 ]; then
+      echo $((t * 60))
+      return 0
+    fi
+    echo "$t"
+    return 0
+  fi
+
+  # Fallback
+  echo 600
+}
+
 run_executor() {
   local task_file="$1"
   local tmp_out
@@ -201,24 +229,84 @@ run_executor() {
   local task_content
   task_content="$(cat "$task_file")"
 
-  # execute and capture stdout/stderr
+  local timeout_s
+  timeout_s=$(parse_timeout_seconds "$task_file")
+
+  # Build command + run with a hard wall-clock timeout using python (portable on macOS)
+  local cmd_json
+  local stdin_mode="none"
+  local stdin_text=""
+
   case "$AGENT" in
     commander)
-      claude -p "$task_content" >"$tmp_out" 2>&1
+      cmd_json=$(python3 - <<PY
+import json
+print(json.dumps(["claude","-p",${task_content@Q}]))
+PY
+)
       ;;
     adjudicator)
-      codex exec "$task_content" >"$tmp_out" 2>&1
+      cmd_json=$(python3 - <<PY
+import json
+print(json.dumps(["codex","exec",${task_content@Q}]))
+PY
+)
       ;;
     cartographer)
-      echo "$task_content" | gemini -p "You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only." >"$tmp_out" 2>&1
+      cmd_json=$(python3 - <<PY
+import json
+print(json.dumps(["gemini","-p","You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only."]))
+PY
+)
+      stdin_mode="text"
+      stdin_text="$task_content"
       ;;
     psyche|ajna)
-      openclaw agent --agent main --message "$task_content" --timeout 600 >"$tmp_out" 2>&1
+      # align internal openclaw timeout with wall clock (best-effort)
+      local inner
+      inner=$timeout_s
+      if [ "$inner" -gt 600 ]; then inner=600; fi
+      cmd_json=$(python3 - <<PY
+import json
+print(json.dumps(["openclaw","agent","--agent","main","--message",${task_content@Q},"--timeout",str(${inner})]))
+PY
+)
       ;;
     *)
       echo "[Watch] No CLI handler configured for agent: $AGENT" >"$tmp_out" 2>&1
+      EXEC_EXIT=127
+      echo "$tmp_out"
+      return 0
       ;;
   esac
+
+  set +e
+  python3 - "$cmd_json" "$timeout_s" "$stdin_mode" >"$tmp_out" 2>&1 <<'PY'
+import json, subprocess, sys, time
+cmd=json.loads(sys.argv[1])
+timeout=float(sys.argv[2])
+stdin_mode=sys.argv[3]
+stdin_data=None
+if stdin_mode == "text":
+    stdin_data=sys.stdin.read()
+
+start=time.time()
+try:
+    p = subprocess.run(cmd, input=stdin_data, text=True, capture_output=True, timeout=timeout)
+    sys.stdout.write(p.stdout)
+    if p.stderr:
+        sys.stdout.write("\n" + p.stderr)
+    sys.exit(p.returncode)
+except subprocess.TimeoutExpired as e:
+    elapsed=time.time()-start
+    sys.stdout.write(f"[Watch] EXEC_TIMEOUT after {elapsed:.1f}s (limit {timeout:.0f}s)\n")
+    sys.exit(124)
+except FileNotFoundError:
+    sys.stdout.write("[Watch] EXEC_ERROR: command not found\n")
+    sys.exit(127)
+PY
+  EXEC_EXIT=$?
+  set -e
 
   echo "$tmp_out"
 }
@@ -276,20 +364,35 @@ handle_file() {
 
   local out_file
   out_file=$(run_executor "$claimed")
-  local exit_code=$?
+  local exit_code=$EXEC_EXIT
 
   local done_now
   done_now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
 
+  local status_val
+  local kanban_val
+  if [ $exit_code -eq 0 ]; then
+    status_val=COMPLETE
+    kanban_val=DONE
+  elif [ $exit_code -eq 124 ]; then
+    status_val=BLOCKED
+    kanban_val=BLOCKED
+  else
+    status_val=FAILED
+    kanban_val=FAILED
+  fi
+
   set_fields "$claimed" \
-    Status $( [ $exit_code -eq 0 ] && echo COMPLETE || echo FAILED ) \
-    Kanban $( [ $exit_code -eq 0 ] && echo DONE || echo FAILED ) \
+    Status "$status_val" \
+    Kanban "$kanban_val" \
     Completed-At "$done_now" \
     Exit-Code "$exit_code"
 
   local final_path
   if [ $exit_code -eq 0 ]; then
     final_path="$DONE_DIR/$base"
+  elif [ $exit_code -eq 124 ]; then
+    final_path="$BLOCKED_DIR/$base"
   else
     final_path="$FAILED_DIR/$base"
   fi
@@ -307,6 +410,8 @@ handle_file() {
   if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
     if [ $exit_code -eq 0 ]; then
       bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$base" >/dev/null 2>&1 || true
+    elif [ $exit_code -eq 124 ]; then
+      bash "$SCRIPTS_DIR/append_ledger.sh" BLOCKED "$AGENT" "—" "$base" >/dev/null 2>&1 || true
     else
       bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$base" >/dev/null 2>&1 || true
     fi
