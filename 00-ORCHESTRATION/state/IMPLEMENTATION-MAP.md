@@ -543,6 +543,128 @@
   venue: repo
   status: new
 
+## 2026-02-06 — Tranche D (Tooling + integration): Makefile + GitHub connector protocol
+
+- id: IMPL-D-0071
+  source_path: Makefile
+  source_lines: "verify target (wc -l < DYN-TASKS.csv / DYN-PROJECTS.csv)"
+  intent: Prevent make verify from hard-failing on first-run or missing ledger files.
+  deliverable: Makefile verify/update-ledgers targets become missing-file tolerant (print 0/Not found instead of error).
+  dependencies: Align behavior with verify_all.sh hardening plan.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0072
+  source_path: Makefile
+  source_lines: "verify: Root .md files count"
+  intent: Make structure verification meaningful and consistent with repo conventions.
+  deliverable: Replace raw root .md count with explicit allowlist check (and surface offending filenames).
+  dependencies: Decide canonical allowed root markdown list.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0073
+  source_path: Makefile
+  source_lines: "update-ledgers: sources.csv rows"
+  intent: Ensure update-ledgers can run even if sources ledger is absent.
+  deliverable: Guard `04-SOURCES/DYN-SOURCES.csv` reads with existence check.
+  dependencies: None.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0074
+  source_path: Makefile
+  source_lines: "tree target uses tree"
+  intent: Avoid tool dependency failures on machines without `tree` installed.
+  deliverable: Fallback behavior: if tree missing, run `find` summary; or document dependency and add install helper.
+  dependencies: Decide preferred baseline tooling on Ajna/Psyche hosts.
+  owner_lane: Adjudicator
+  venue: repo
+  status: new
+
+- id: IMPL-D-0075
+  source_path: Makefile
+  source_lines: "clean target deletes *.bak.* older than 7d"
+  intent: Avoid accidental deletion of meaningful artifacts.
+  deliverable: Confirm clean only touches explicitly safe temp patterns; add dry-run mode or restrict to /tmp + known scratch dirs.
+  dependencies: None.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0076
+  source_path: Makefile
+  source_lines: "token/token-json/token-full"
+  intent: Ensure token generation is durable cross-platform (not macOS-only).
+  deliverable: Replace pbcopy hard-dependency with conditional clipboard support (pbcopy/xclip/wl-copy/no-clipboard) and always write artifact files.
+  dependencies: Cross-host OS assumptions.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0077
+  source_path: Makefile
+  source_lines: "regenerate-canon / model-db targets"
+  intent: Make intelligence targets discoverable and safe.
+  deliverable: Add target help text and add a `make ops-health` umbrella that runs lint+verify-full+queue status (ties to IMPL-D-0057/0068).
+  dependencies: watcher_health.sh existence.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0078
+  source_path: .github/CONNECTOR_PROTOCOL.md
+  source_lines: "Entry Points (CLAUDE.md / CHATGPT.md / GEMINI.md / COCKPIT.md)"
+  intent: Remove protocol drift: ensure all entrypoint files exist and reflect current truth.
+  deliverable: Create missing CHATGPT.md (and/or update filenames) and ensure CLAUDE.md/GEMINI.md/COCKPIT.md are current; update CONNECTOR_PROTOCOL if names differ.
+  dependencies: Identify actual current entrypoints in repo.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0079
+  source_path: .github/CONNECTOR_PROTOCOL.md
+  source_lines: "Ground truth: main branch on GitHub is canonical"
+  intent: Resolve potential contradiction with “Desktop repo is ground truth” doctrine.
+  deliverable: DecisionAtom: define ground-truth precedence (local desktop vs GitHub main) and when ‘GitHub main’ becomes canonical for connector reads.
+  dependencies: Sovereign ratification; security posture.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0080
+  source_path: .github/CONNECTOR_PROTOCOL.md
+  source_lines: "Never: create conflicting branches (single-branch workflow)"
+  intent: Decide whether single-branch remains tenable as automation increases.
+  deliverable: DecisionAtom: branching policy (single-branch vs short-lived branches/PRs) tied to kanban + watcher automation and conflict risk.
+  dependencies: Neo-Blitzkrieg + watcher maturity.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-D-0081
+  source_path: .github/CONNECTOR_PROTOCOL.md
+  source_lines: "Token Economics / Navigation Strategy"
+  intent: Provide a self-contained ‘connector navigation playbook’ that web agents can follow.
+  deliverable: A concise, current navigation cheat sheet (grep-first, line ranges, cache policy) placed in each platform entrypoint file.
+  dependencies: Entry point files existence.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0082
+  source_path: .github/CONNECTOR_PROTOCOL.md
+  source_lines: "Write path: platform generates spec → CLI executes → commit → push"
+  intent: Make write-path enforceable with receipts.
+  deliverable: Add required receipt fields to PATCH/TASK outputs: commit hash, files changed, and push confirmation; update task templates accordingly.
+  dependencies: Dispatch kanban protocol + RESULT receipt format.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
 ## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
 
 - id: IMPL-D-0034

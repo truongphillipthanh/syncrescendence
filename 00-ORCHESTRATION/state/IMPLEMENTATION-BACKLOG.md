@@ -92,6 +92,26 @@
 - IMPL-C-0014 — Tech Stack DB maintenance cadence as jobs
 - IMPL-C-0015 — Tech Stack DB acceptance tests + metrics report
 
+## 2026-02-06 (Tranche D) — Makefile + GitHub connector protocol
+
+### P0
+- IMPL-D-0071 — Makefile verify/update-ledgers missing-file tolerant (no hard failures)
+- IMPL-D-0078 — Ensure connector entrypoints exist + are current (create CHATGPT.md if missing)
+- IMPL-D-0079 — DecisionAtom: ground truth precedence (desktop vs GitHub main)
+
+### P1
+- IMPL-D-0076 — Token generation cross-platform clipboard fallback (no pbcopy hard dependency)
+- IMPL-D-0077 — Add ops-health umbrella target + improve help for intelligence targets
+- IMPL-D-0082 — Receipts enforce write-path: commit hash + files changed + push confirmation
+
+### P2
+- IMPL-D-0072 — Root .md allowlist check (structure verification)
+- IMPL-D-0073 — Guard sources.csv reads in update-ledgers
+- IMPL-D-0074 — tree target fallback if tree missing
+- IMPL-D-0075 — clean target safety review/dry-run
+- IMPL-D-0080 — DecisionAtom: branching policy (single-branch vs short-lived branches/PRs)
+- IMPL-D-0081 — Connector navigation playbook in each platform entrypoint
+
 ## 2026-02-06 (Tranche D) — Always-on watchers readiness
 
 ### P0
