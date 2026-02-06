@@ -10,6 +10,16 @@ created: 2025-10-17
 updated: 2025-12-30
 synopsis: Hermeneutic sophistication development through four progressive stages, tracking interpretive capacity from ontological foundations toward wisdom emergence
 chain: INSIGHT
+operational_status: partial
+entities_defined:
+  - Insight Chain (CON)
+  - Coherence (CON)
+  - Meta-Analysis (CAP)
+depends_on:
+  - CANON-00000
+  - CANON-21000
+  - CANON-31000
+last_verified: 2026-02-05
 ---
 
 # INSIGHT CHAIN: INSIGHT ORBITAL PATH

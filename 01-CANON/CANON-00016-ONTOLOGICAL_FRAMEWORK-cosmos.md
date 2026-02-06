@@ -9,6 +9,17 @@ status: canonical
 created: 2026-01-02
 updated: 2026-01-02
 synopsis: Foundational ontological architecture synthesizing knowledge taxonomy, meaning dimensions, and the Sovereign Palace metaphor for comprehensive human experience mapping.
+operational_status: partial
+entities_defined:
+  - Sovereign Palace (CON)
+  - Foundational Tetrad (CON)
+  - Knowledge Mandala (CON)
+  - Meaning Taxonomy (CON)
+  - Experience Topology (CON)
+depends_on:
+  - CANON-00000
+  - CANON-00003
+last_verified: 2026-02-05
 ---
 
 # CANON-00016: ONTOLOGICAL FRAMEWORK

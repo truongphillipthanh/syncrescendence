@@ -14,6 +14,18 @@ cross_refs:
   - CANON-25100-CONTEXT_TRANS
   - CANON-31140-IIC
 synopsis: Specification for multi-platform AI orchestration with integrated teleological analysis — defining specializations, routing patterns, sustainability targets, and the rationale behind every architectural decision
+operational_status: partial
+entities_defined:
+  - Constellation (STR)
+  - Pantheon (STR)
+  - Medley Mode (WF)
+  - Characteristic Cognition (CON)
+  - Three Accounts (STR)
+depends_on:
+  - CANON-25000
+  - CANON-25100
+  - CANON-00017
+last_verified: 2026-02-05
 ---
 
 # CANON-25200: PLATFORM CONSTELLATION ARCHITECTURE

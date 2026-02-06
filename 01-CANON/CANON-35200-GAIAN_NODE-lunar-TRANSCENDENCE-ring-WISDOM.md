@@ -11,6 +11,21 @@ updated: 2025-12-30
 synopsis: Self-sufficient regenerative infrastructure demonstrating post-institutional civilizational alternatives through permanent, utility-producing, ecologically-integrated habitation
 chain: WISDOM
 parent: CANON-35100
+operational_status: theoretical
+entities_defined:
+  - Gaian Field Node (CON)
+  - Post-Labor Economics (CON)
+  - Regenerative Infrastructure (CON)
+  - Network Coordination (PROTO)
+  - Replication Pathway (WF)
+depends_on:
+  - CANON-35000
+  - CANON-35100
+  - CANON-34000
+  - CANON-33000
+  - CANON-30000
+  - CANON-31130
+last_verified: 2026-02-05
 ---
 
 # CANON-35200: GAIAN FIELD NODE ARCHITECTURE
