@@ -156,3 +156,86 @@
   owner_lane: Ajna + Psyche
   venue: repo
   status: new
+
+## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
+
+- id: IMPL-D-0034
+  source_path: 00-ORCHESTRATION/scripts/rearm_watchers.sh
+  source_lines: "mode selection + plist source dir"
+  intent: Make launchd watcher installs deterministic across machines/users.
+  deliverable: Maintain explicit plist sets per host persona (mini/home vs psyche/system) and ensure rearm_watchers.sh selects correctly.
+  dependencies: 00-ORCHESTRATION/scripts/launchd-mini/*, 00-ORCHESTRATION/scripts/launchd-psyche/*
+  owner_lane: Psyche
+  venue: repo
+  status: mapped
+
+- id: IMPL-D-0035
+  source_path: 00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-*.plist
+  source_lines: "ProgramArguments + WorkingDirectory"
+  intent: Hardcode Mac mini home base paths to user `home` (per Sovereign).
+  deliverable: Keep mini plists pinned to /Users/home/Desktop/syncrescendence and keep them the canonical install source for --mini.
+  dependencies: None
+  owner_lane: Psyche
+  venue: repo
+  status: mapped
+
+- id: IMPL-D-0036
+  source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
+  source_lines: "process_task case routing"
+  intent: Guarantee that every executed task produces a durable receipt artifact.
+  deliverable: Capture executor stdout/stderr into -OUTGOING/RESULT-<agent>-<date>-<topic>.md (or a deterministic name derived from the task filename) automatically; link it in task header and ledger.
+  dependencies: dispatch.sh naming conventions; -OUTGOING/ directory structure; ledger event schema
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0037
+  source_path: -OUTGOING/RESULT-commander-20260205-always_on_watchers_sweep.md
+  source_lines: "Remediation Plan (Blockers 1-3)"
+  intent: Restore always-on readiness for Ajna + Adjudicator + Commander on the Mac mini.
+  deliverable: (1) Install OpenClaw on mini (openclaw binary + gateway), (2) configure Codex auth (codex login or API key), (3) resolve Claude billing/plan path for Commander.
+  dependencies: Access to mini; provider credentials/billing
+  owner_lane: Sovereign + Commander
+  venue: tool
+  status: queued
+
+- id: IMPL-D-0038
+  source_path: 00-ORCHESTRATION/scripts/rearm_watchers.sh
+  source_lines: "bootout/bootstrap/kickstart"
+  intent: Make watcher state auditable and self-checked.
+  deliverable: Add a companion script (e.g., watcher_health.sh) that prints: launchctl state, PATH/env, binary resolution, last 50 log lines, and recent task failures per agent.
+  dependencies: launchctl; /tmp log paths; ledger
+  owner_lane: Adjudicator (Codex) + Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0039
+  source_path: 00-ORCHESTRATION/scripts/dispatch.sh
+  source_lines: "Expected Output section"
+  intent: Align task contract with actual watcher behavior.
+  deliverable: Either (A) implement RESULT writing in watchers (preferred), or (B) change task templates to state that receipts live in /tmp logs + ledger.
+  dependencies: Decision on receipt truth surface
+  owner_lane: Psyche + Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0040
+  source_path: 00-ORCHESTRATION/scripts/launchd-*/com.syncrescendence.watch-*.plist
+  source_lines: "EnvironmentVariables"
+  intent: Reduce noise and drift in daemonized environments.
+  deliverable: Standardize NODE_OPTIONS=--no-warnings and NODE_NO_WARNINGS=1 across all watcher plists (mini + psyche), and ensure installed copies match repo source.
+  dependencies: None
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-D-0041
+  source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
+  source_lines: "Auth tests implied by executor calls"
+  intent: Prevent "watcher running but executor unusable" states from masquerading as healthy.
+  deliverable: Add optional startup self-test mode per agent (verify command -v + minimal PONG) and emit FAILED_PRECHECK to ledger if missing.
+  dependencies: Safe non-interactive auth checks for each CLI
+  owner_lane: Commander
+  venue: repo
+  status: new
+

@@ -25,3 +25,20 @@
 ### P3
 - IMPL-A-0012 — Linear reconciliation design + sync spec
 - IMPL-A-0013 — FDIS requirements + deployment surface
+
+## 2026-02-06 (Tranche D) — Always-on watchers readiness
+
+### P0
+- IMPL-D-0036 — Watchers must auto-write RESULT receipts to -OUTGOING (durable proof of execution)
+- IMPL-D-0037 — Unblock mini executors: install OpenClaw, fix Codex auth, resolve Claude billing for Commander
+
+### P1
+- IMPL-D-0038 — watcher_health.sh (launchctl+env+binary+log+ledger health report)
+- IMPL-D-0039 — Align dispatch task contract vs watcher behavior (RESULT vs logs)
+- IMPL-D-0041 — Self-test/precheck at watcher start (prevent false "running" health)
+
+### P2
+- IMPL-D-0040 — Standardize NODE_OPTIONS/NODE_NO_WARNINGS across watcher plists (mini + psyche)
+- IMPL-D-0034 — Two-set watcher plist install (mini/home vs psyche/system) kept deterministic
+- IMPL-D-0035 — Mini home base path hardcode to /Users/home (policy)
+
