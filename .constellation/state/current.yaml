@@ -1,4 +1,4 @@
-fingerprint: 646404d
-timestamp: 2026-02-06T00:18:31Z
+fingerprint: 0166d9f
+timestamp: 2026-02-06T00:18:37Z
 branch: main
-message: feat(ontology): expand Rosetta Ontology Bridge to v1.0 (200+ relations)
+message: chore(state): update dynamic state files + constellation fingerprint
