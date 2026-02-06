@@ -12,6 +12,10 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+# NOTE: We maintain two installable plist sets because the Mac mini runs as user "home"
+# while this laptop runs as user "system".
+# - mini mode installs from launchd-mini (hardcoded /Users/home/...)
+# - psyche mode installs from launchd-psyche (hardcoded /Users/system/...)
 PLIST_SRC_DIR="$REPO_ROOT/00-ORCHESTRATION/scripts/launchd"
 PLIST_DST_DIR="$HOME/Library/LaunchAgents"
 GUI_DOMAIN="gui/$(id -u)"
@@ -38,11 +42,18 @@ load_job() {
 }
 
 echo "[rearm] repo: $REPO_ROOT"
-echo "[rearm] copying plists from: $PLIST_SRC_DIR"
-
 MODE="psyche"
 if [ "${1:-}" = "--mini" ]; then MODE="mini"; fi
 if [ "${1:-}" = "--psyche" ] || [ -z "${1:-}" ]; then MODE="psyche"; fi
+
+# Select source plist set by mode
+if [ "$MODE" = "mini" ]; then
+  PLIST_SRC_DIR="$REPO_ROOT/00-ORCHESTRATION/scripts/launchd-mini"
+else
+  PLIST_SRC_DIR="$REPO_ROOT/00-ORCHESTRATION/scripts/launchd-psyche"
+fi
+
+echo "[rearm] copying plists from: $PLIST_SRC_DIR"
 
 # Always copy plists we might need
 for p in \
