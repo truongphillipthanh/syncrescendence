@@ -1,15 +1,20 @@
 #!/bin/bash
 # dispatch.sh — Create a task dispatch file for any agent
 # Usage:
-#   bash dispatch.sh <agent> "TOPIC" "TASK_DESCRIPTION" [CC] [KIND]
+#   bash dispatch.sh <agent> "TOPIC" "TASK_DESCRIPTION" [CC] [KIND] [FROM]
 #
 # CC (optional): comma-separated list of additional inboxes to receive receipts (e.g. "psyche")
 # KIND (optional): TASK|SURVEY|DIRECTIVE|EVIDENCE|RESULT|RECEIPT|PATCH|NOTE (default: TASK)
+# FROM (optional): dispatching agent name for Reply-To routing (default: auto-detect)
+#
 # Example:
-#   bash dispatch.sh ajna "FOO" "do bar" "psyche" TASK
+#   bash dispatch.sh ajna "FOO" "do bar" "psyche" TASK commander
 #
 # Agents: commander, adjudicator, cartographer, psyche, ajna
 # Writes a TASK file to -INBOX/<agent>/ for autonomous processing
+#
+# BIDIRECTIONAL FEEDBACK: The dispatching agent is automatically added to CC
+# and a Reply-To header routes the RESULT back to the sender's inbox.
 #
 # Examples:
 #   bash dispatch.sh psyche "QA_REVIEW" "Review all files modified in last commit"
@@ -24,6 +29,29 @@ TOPIC="${2:-TASK}"
 DESCRIPTION="${3:-No description provided}"
 CC_RAW="${4:-—}"
 KIND_RAW="${5:-TASK}"
+FROM_RAW="${6:-${SYNCRESCENDENCE_AGENT:-}}"
+
+# Auto-detect dispatching agent if not provided
+if [ -z "$FROM_RAW" ]; then
+  # Heuristic: if running inside Claude Code, assume commander
+  if [ -n "${CLAUDE_CODE_SESSION:-}" ] || [ -n "${CLAUDE_SESSION_ID:-}" ]; then
+    FROM_RAW="commander"
+  else
+    FROM_RAW="dispatch"
+  fi
+fi
+
+# Auto-inject dispatching agent into CC for bidirectional feedback
+# (only if FROM is a known agent AND not the same as the target)
+if [ "$FROM_RAW" != "$AGENT" ] && [ "$FROM_RAW" != "dispatch" ]; then
+  if echo "commander adjudicator cartographer psyche ajna" | grep -qw "$FROM_RAW"; then
+    if [ "$CC_RAW" = "—" ] || [ -z "$CC_RAW" ]; then
+      CC_RAW="$FROM_RAW"
+    elif ! echo "$CC_RAW" | grep -qw "$FROM_RAW"; then
+      CC_RAW="${CC_RAW},${FROM_RAW}"
+    fi
+  fi
+fi
 
 # Validate agent
 VALID_AGENTS="commander adjudicator cartographer psyche ajna"
@@ -56,6 +84,16 @@ case "$AGENT" in
     ajna)         AVATAR="Ajna (OpenClaw Opus 4.5)" ;;
 esac
 
+# Map FROM_RAW to avatar name for the From header
+case "$FROM_RAW" in
+    commander)    FROM_AVATAR="Commander (Claude Code Opus)" ;;
+    adjudicator)  FROM_AVATAR="Adjudicator (Codex CLI)" ;;
+    cartographer) FROM_AVATAR="Cartographer (Gemini CLI)" ;;
+    psyche)       FROM_AVATAR="Psyche (OpenClaw GPT-5.2)" ;;
+    ajna)         FROM_AVATAR="Ajna (OpenClaw Opus 4.5)" ;;
+    *)            FROM_AVATAR="$FROM_RAW" ;;
+esac
+
 TASK_FILE="$INBOX0_DIR/TASK-${DATE}-${TOPIC_SLUG}.md"
 RECEIPTS_TO="-OUTBOX/${AGENT}/RESULTS"
 RESULT_FILE="${RECEIPTS_TO}/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md"
@@ -63,8 +101,9 @@ RESULT_FILE="${RECEIPTS_TO}/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md"
 cat > "$TASK_FILE" << EOF
 # TASK-${DATE}-${TOPIC_SLUG}
 
-**From**: ${CALLER}
+**From**: ${FROM_AVATAR}
 **To**: ${AVATAR}
+**Reply-To**: ${FROM_RAW}
 **Issued**: ${TIMESTAMP}
 **Fingerprint**: ${FINGERPRINT}
 **Kind**: ${KIND_RAW}

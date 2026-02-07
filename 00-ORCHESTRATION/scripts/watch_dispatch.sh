@@ -167,6 +167,131 @@ write_result_receipt() {
   echo "$result_path"
 }
 
+task_slug_from_path() {
+  local task_file="$1"
+  local task_base
+  task_base=$(basename "$task_file")
+  local slug
+  slug=$(echo "$task_base" | sed -E 's/^TASK-[0-9]{8}-//; s/\.md$//')
+  if [ -z "$slug" ] || [ "$slug" = "$task_base" ]; then
+    slug=$(echo "$task_base" | sed -E 's/\.md$//')
+  fi
+  echo "$slug"
+}
+
+resolve_reply_target() {
+  # Determine which agent should receive the completion reply.
+  # Priority: Reply-To header > From header (agent extraction) > commander fallback
+  local task_file="$1"
+
+  # 1. Check Reply-To header (set by dispatch.sh v2+)
+  local reply_to
+  reply_to=$(parse_header_field "$task_file" "Reply-To")
+  if [ -n "$reply_to" ] && [ "$reply_to" != "—" ] && [ "$reply_to" != "-" ] && [ "$reply_to" != "dispatch" ]; then
+    if echo "commander adjudicator cartographer psyche ajna" | grep -qw "$reply_to"; then
+      echo "$reply_to"
+      return 0
+    fi
+  fi
+
+  # 2. Extract agent slug from From header (e.g., "Commander (Claude Code Opus)" -> "commander")
+  local from_raw
+  from_raw=$(parse_header_field "$task_file" "From")
+  if [ -n "$from_raw" ]; then
+    local from_lower
+    from_lower=$(echo "$from_raw" | tr '[:upper:]' '[:lower:]')
+    for candidate in commander adjudicator cartographer psyche ajna; do
+      if echo "$from_lower" | grep -q "$candidate"; then
+        echo "$candidate"
+        return 0
+      fi
+    done
+  fi
+
+  # 3. Fallback: commander (hub-spoke default)
+  echo "commander"
+}
+
+pipe_reply_to_sender() {
+  local finalized_task="$1"; local exit_code="$2"; local output_file="$3"; local result_path_abs="${4:-}"
+
+  local reply_target
+  reply_target=$(resolve_reply_target "$finalized_task")
+
+  # Don't reply to self
+  [ "$reply_target" = "$AGENT" ] && return 0
+
+  local target_inbox="$REPO_ROOT/-INBOX/$reply_target/00-INBOX0"
+  mkdir -p "$target_inbox" 2>/dev/null || true
+
+  local date
+  date=$(date '+%Y%m%d')
+  local task_base
+  task_base=$(basename "$finalized_task")
+  local slug
+  slug=$(task_slug_from_path "$finalized_task")
+  local completed_at
+  completed_at=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+
+  local status
+  if [ "$exit_code" -eq 0 ]; then
+    status="COMPLETE"
+  elif [ "$exit_code" -eq 124 ]; then
+    status="BLOCKED"
+  else
+    status="FAILED"
+  fi
+
+  # Copy execution log to sender's inbox
+  local exec_log="$target_inbox/EXECLOG-${AGENT}-${date}-${slug}.log"
+  cp -f "$output_file" "$exec_log" 2>/dev/null || true
+
+  # Copy RESULT receipt to sender's inbox
+  if [ -n "$result_path_abs" ] && [ -f "$result_path_abs" ]; then
+    cp -f "$result_path_abs" "$target_inbox/$(basename "$result_path_abs")" 2>/dev/null || true
+  fi
+
+  # Write structured CONFIRM file to sender's inbox
+  local confirm_file="$target_inbox/CONFIRM-${AGENT}-${date}-${slug}.md"
+  {
+    echo "# CONFIRM-${AGENT}-${date}-${slug}"
+    echo
+    echo "**Kind**: CONFIRM"
+    echo "**Task**: $task_base"
+    echo "**From-Agent**: $AGENT"
+    echo "**To-Agent**: $reply_target"
+    echo "**Status**: $status"
+    echo "**Exit-Code**: $exit_code"
+    echo "**Completed-At**: $completed_at"
+    echo "**Finalized-Task-Path**: \`$finalized_task\`"
+    if [ -n "$result_path_abs" ]; then
+      echo "**Result-Path**: \`$result_path_abs\`"
+    fi
+    echo "**Execution-Log**: \`$exec_log\`"
+    echo
+    echo "---"
+    echo
+    echo "## Execution Log Tail"
+    echo
+    echo '```text'
+    tail -n 120 "$output_file" 2>/dev/null || true
+    echo '```'
+    echo
+  } > "$confirm_file"
+
+  log "$(date '+%H:%M:%S') Reply piped to $reply_target: CONFIRM-${AGENT}-${date}-${slug}.md"
+
+  # Best-effort remote pipe (if reply target is on another machine)
+  if ssh -o BatchMode=yes -o ConnectTimeout=3 "$reply_target" "test -d ~/Desktop/syncrescendence/-INBOX/$reply_target" 2>/dev/null; then
+    scp -q -o BatchMode=yes -o ConnectTimeout=5 "$confirm_file" \
+      "$reply_target:~/Desktop/syncrescendence/-INBOX/$reply_target/00-INBOX0/" 2>/dev/null || true
+    if [ -n "$result_path_abs" ] && [ -f "$result_path_abs" ]; then
+      scp -q -o BatchMode=yes -o ConnectTimeout=5 "$result_path_abs" \
+        "$reply_target:~/Desktop/syncrescendence/-INBOX/$reply_target/00-INBOX0/" 2>/dev/null || true
+    fi
+  fi
+}
+
 pipe_to_cc() {
   local finalized_task="$1"; local cc_list="$2"; local result_path_abs="${3:-}"
   [ -z "$cc_list" ] && return 0
@@ -304,8 +429,11 @@ handle_file() {
   local base
   base=$(basename "$file")
 
-  # Ignore receipts and non-md
+  # Ignore receipts, results, confirmations, exec logs, and non-md
   [[ "$base" == RECEIPT-* ]] && return 0
+  [[ "$base" == RESULT-* ]] && return 0
+  [[ "$base" == CONFIRM-* ]] && return 0
+  [[ "$base" == EXECLOG-* ]] && return 0
   [[ "$base" != *.md ]] && return 0
 
   # Only TASK/SURVEY/PATCH etc are allowed, but we enforce by To/Completed guards
@@ -389,6 +517,10 @@ handle_file() {
   # Write deterministic result receipt
   local result_abs
   result_abs=$(write_result_receipt "$final_path" "$exit_code" "$out_file")
+
+  # Mandatory bidirectional feedback: pipe CONFIRM + RESULT + EXECLOG to the dispatching agent.
+  # Uses Reply-To header (dispatch.sh v2+), falls back to From header, then to commander.
+  pipe_reply_to_sender "$final_path" "$exit_code" "$out_file" "$result_abs"
 
   # Pipe receipts to CC
   if [ -n "$cc_list" ] && [ "$cc_list" != "—" ]; then

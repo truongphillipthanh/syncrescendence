@@ -102,6 +102,8 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 - Deferring ledger updates to "later"
 - Claiming integration without grep verification
 - Modifying state/ without validation
+- **Dispatching without Reply-To**: NEVER dispatch a task without `**Reply-To**: <your-agent>` and `**CC**: <your-agent>`. One-way dispatch is a coordination failure. Use `dispatch.sh` (auto-injects both) or set them manually.
+- **Ignoring CONFIRM/RESULT files in inbox**: When you find CONFIRM-* or RESULT-* files in your INBOX0, process them as completion signals. Acknowledge, review, and clean up.
 
 ---
 
@@ -150,14 +152,15 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 ### A. Directive Initialization Protocol
 *Fires at the start of every non-trivial directive.*
 
-1. **Inbox scan**: Check `-INBOX/commander/` for `TASK-*.md` files with `Status: PENDING`. Triage: claim actionable tasks, note blocked ones, report stale items to Sovereign. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh commander` for quick status.
+1. **Inbox scan**: Check `-INBOX/commander/00-INBOX0/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
 3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
 4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
 5. **Delegation assessment**: Identify tasks suitable for parallel agents:
    - Mechanical execution, test suites, debugging, formatting, linting → dispatch to Adjudicator (`-INBOX/adjudicator/`)
    - Corpus surveys requiring 1M+ context → dispatch to Cartographer (`-INBOX/cartographer/`)
-   - Use `bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC"` or write TASK files directly
+   - Use `bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"` — dispatch.sh auto-injects Reply-To + CC for bidirectional feedback
+   - If writing TASK files manually, you MUST include `**Reply-To**: commander` and `**CC**: commander`
 
 ### B. Directive Completion Protocol
 *Fires at the end of every directive, BEFORE the automated Stop hooks run.*

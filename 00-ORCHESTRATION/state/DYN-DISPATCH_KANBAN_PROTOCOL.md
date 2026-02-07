@@ -1,6 +1,6 @@
 # DYN-DISPATCH_KANBAN_PROTOCOL.md
 
-**Version**: 1.0.0
+**Version**: 1.1.0
 **Created**: 2026-02-05
 **Status**: ACTIVE
 **Decision**: DEC-20260205-192130-kanban-inboxes
@@ -72,6 +72,7 @@ Every dispatch file MUST include a `**Kind**:` header field.
 | `RECEIPT` | CC copy of a completed task (read-only) | Watchers | Informational only |
 | `PATCH` | Code or config change proposal | Commander, Adjudicator | Sovereign for approval |
 | `NOTE` | Informational; no action required | Any | Any |
+| `CONFIRM` | Completion confirmation (reply-to-sender) | Watchers | Dispatching agent |
 
 **Filename conventions:**
 - `TASK-YYYYMMDD-topic_slug.md`
@@ -81,6 +82,8 @@ Every dispatch file MUST include a `**Kind**:` header field.
 - `EVIDENCE-<agent>-YYYYMMDD-topic_slug.md`
 - `DIRECTIVE-YYYYMMDD-topic_slug.md`
 - `PATCH-YYYYMMDD-topic_slug.md`
+- `CONFIRM-<executor_agent>-YYYYMMDD-topic_slug.md`
+- `EXECLOG-<executor_agent>-YYYYMMDD-topic_slug.log`
 
 ---
 
@@ -109,9 +112,10 @@ All dispatch files use markdown bold-colon headers:
 ```
 
 **New fields (added by this protocol):**
-- `**Kind**:` — One of: TASK, SURVEY, DIRECTIVE, EVIDENCE, RESULT, RECEIPT, PATCH, NOTE
+- `**Kind**:` — One of: TASK, SURVEY, DIRECTIVE, EVIDENCE, RESULT, RECEIPT, PATCH, NOTE, CONFIRM
 - `**Kanban**:` — Current kanban lane: INBOX0, IN_PROGRESS, WAITING, BLOCKED, DONE, FAILED
 - `**Receipts-To**:` — Relative path where RESULT receipt will be written
+- `**Reply-To**:` — Agent slug that receives CONFIRM + RESULT upon completion (mandatory for bidirectional feedback)
 
 **Status values** (header truth, mirrors folder location):
 - `PENDING` → file in `00-INBOX0/`
@@ -149,7 +153,34 @@ All dispatch files use markdown bold-colon headers:
 5. CC copies: finalized task → `-INBOX/<cc>/RECEIPTS/RECEIPT-<agent>-TASK-*.md`
 6. Appends `COMPLETE|FAILED` event to ledger
 
-### 6.5 Manual transitions
+### 6.5 Completion Feedback (Reply-To-Sender) — MANDATORY
+
+Every task completion MUST notify the dispatching agent. This is non-negotiable.
+
+**Mechanism:**
+1. Watcher parses `**Reply-To**:` header (set by dispatch.sh v2+)
+2. Fallback: extract agent slug from `**From**:` header
+3. Last resort: defaults to `commander` (hub-spoke)
+4. Watcher writes to `Reply-To` agent's INBOX0:
+   - `CONFIRM-<executor>-<date>-<slug>.md` — structured completion confirmation
+   - `RESULT-<executor>-<date>-<slug>.md` — full execution receipt
+   - `EXECLOG-<executor>-<date>-<slug>.log` — raw stdout/stderr
+
+**What the sender receives:**
+- Status (COMPLETE / FAILED / BLOCKED)
+- Exit code
+- Execution log tail (last 120 lines)
+- Path to full result and finalized task
+
+**CONFIRM files in INBOX0 are safe.** Watchers skip `CONFIRM-*`, `RESULT-*`, and `EXECLOG-*` prefixes.
+
+**Manual dispatch rule:** When writing task files by hand (not via dispatch.sh), you MUST include:
+```
+**Reply-To**: <your-agent-slug>
+**CC**: <your-agent-slug>
+```
+
+### 6.6 Manual transitions
 - `PENDING → WAITING`: Sovereign moves file to `20-WAITING/` (external blocker)
 - `PENDING → BLOCKED`: Sovereign moves file to `30-BLOCKED/` (hard blocker)
 - `WAITING/BLOCKED → INBOX0`: Sovereign moves file back when unblocked
@@ -251,3 +282,4 @@ Migration rules:
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0.0 | 2026-02-05 | Initial protocol (DEC-20260205-192130-kanban-inboxes) |
+| 1.1.0 | 2026-02-07 | Reply-To-Sender: mandatory bidirectional feedback (CONFIRM/RESULT/EXECLOG piped to dispatcher inbox) |
