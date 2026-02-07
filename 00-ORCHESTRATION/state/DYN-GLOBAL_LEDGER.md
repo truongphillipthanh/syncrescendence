@@ -110,3 +110,7 @@
 | 2026-02-07T06:59:23 | DISPATCH | dispatch | adjudicator | TASK-20260206-test_reply_to.md | 8fe6b9c | 8fe6b9c | — | — |
 | 2026-02-07T06:59:25 | CLAIM | adjudicator | adjudicator | TASK-20260206-test_reply_to.md | 8fe6b9c | 8fe6b9c | — | — |
 | 2026-02-07T06:59:25 | COMPLETE | adjudicator | — | TASK-20260206-test_reply_to.md | 8fe6b9c | 8fe6b9c | — | — |
+| 2026-02-07T07:14:46 | CLAIM | adjudicator | adjudicator | TASK-20260207-agendizer-phase2-navigation.md | 3cc509e | 3cc509e | — | — |
+| 2026-02-07T07:14:46 | COMPLETE | adjudicator | — | TASK-20260207-agendizer-phase2-navigation.md | 3cc509e | 3cc509e | — | — |
+| 2026-02-07T07:15:01 | DECISION | commander | — | GATE-REVIEW-20260207-agendizer-phase1.md | 3cc509e | 3cc509e | — | — |
+| 2026-02-07T07:15:02 | DISPATCH | commander | adjudicator | TASK-20260207-agendizer-phase2-navigation.md | 3cc509e | 3cc509e | — | — |

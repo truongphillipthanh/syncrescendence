@@ -1,4 +1,4 @@
-fingerprint: d0968c2
-timestamp: 2026-02-06T00:28:47Z
+fingerprint: 3cc509e
+timestamp: 2026-02-07T07:00:32Z
 branch: main
-message: map: tranche D always-on watchers hardening entries
+message: fix: bidirectional dispatch feedback — Reply-To-Sender protocol
