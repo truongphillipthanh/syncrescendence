@@ -239,25 +239,13 @@ run_executor() {
 
   case "$AGENT" in
     commander)
-      cmd_json=$(python3 - <<PY
-import json
-print(json.dumps(["claude","-p",${task_content@Q}]))
-PY
-)
+      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["claude","-p",sys.stdin.read()]))')
       ;;
     adjudicator)
-      cmd_json=$(python3 - <<PY
-import json
-print(json.dumps(["codex","exec",${task_content@Q}]))
-PY
-)
+      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["codex","exec",sys.stdin.read()]))')
       ;;
     cartographer)
-      cmd_json=$(python3 - <<PY
-import json
-print(json.dumps(["gemini","-p","You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only."]))
-PY
-)
+      cmd_json=$(python3 -c 'import json; print(json.dumps(["gemini","-p","You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only."]))')
       stdin_mode="text"
       stdin_text="$task_content"
       ;;
@@ -266,11 +254,7 @@ PY
       local inner
       inner=$timeout_s
       if [ "$inner" -gt 600 ]; then inner=600; fi
-      cmd_json=$(python3 - <<PY
-import json
-print(json.dumps(["openclaw","agent","--agent","main","--message",${task_content@Q},"--timeout",str(${inner})]))
-PY
-)
+      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; t=sys.argv[1]; print(json.dumps(["openclaw","agent","--agent","main","--message",sys.stdin.read(),"--timeout",t]))' "$inner")
       ;;
     *)
       echo "[Watch] No CLI handler configured for agent: $AGENT" >"$tmp_out" 2>&1
@@ -283,7 +267,11 @@ PY
   set +e
   python3 - "$cmd_json" "$timeout_s" "$stdin_mode" >"$tmp_out" 2>&1 <<'PY'
 import json, subprocess, sys, time
-cmd=json.loads(sys.argv[1])
+try:
+    cmd=json.loads(sys.argv[1])
+except (json.JSONDecodeError, IndexError) as e:
+    sys.stdout.write(f"[Watch] EXEC_ERROR: failed to parse command JSON: {e}\n")
+    sys.exit(126)
 timeout=float(sys.argv[2])
 stdin_mode=sys.argv[3]
 stdin_data=None
