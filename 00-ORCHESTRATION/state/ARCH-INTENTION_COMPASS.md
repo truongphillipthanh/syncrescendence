@@ -109,6 +109,9 @@ Each intention entry contains:
 | INT-C002 | 12 | "attached reports ought to be canonized" | pending |
 | INT-C003 | 13 | "Revenue target reset — new deadline TBD by Sovereign" | pending |
 | INT-C004 | 13 | "Corpus hygiene sprint: triage -INBOX, refresh stale state, compress" | resolved |
+| INT-C005 | 14 | "Learn tmux for multi-session terminal management — maximum parallel efficacy" | pending |
+| INT-C006 | 14 | "HighCommand (Agendizer) = GUI substrate for INT-MI19 Ontology — document the connection, track as PROJ dependency" | pending |
+| INT-C007 | 14 | "Session discipline: chunk work into parallel sessions, stop sequential single-terminal habits" | pending |
 
 ### PRE-ORACLE INTENTIONS (Extracted from `my inputs.md`, 2026-02-01)
 
@@ -141,7 +144,7 @@ Each intention entry contains:
 | INT-MI16 | "Build pipeline in Google ecosystem—Drive sync, Personal Intelligence, Gmail integration" | active | P2 | PROJ-014 (Multi-Account Sync) |
 | INT-MI17 | "On-device automation—Hazel, Keyboard Maestro, BTT, AppleScript, Shortcuts" | active | P3 | — |
 | INT-MI18 | "Web↔CLI bridge via Hazel + macros—automate between web and CLI" | active | P3 | INT-MI17 |
-| INT-MI19 | "Palantir-like ontology—the FINAL BOSS" | active | P1 | PROJ-006, PROJ-003 |
+| INT-MI19 | "Palantir-like ontology—the FINAL BOSS" | active | P1 | PROJ-006, PROJ-003. **UPDATE 2026-02-07**: HighCommand (Agendizer) now implements OntologyClass enum, force-directed graph, convergence detection, echo patterns, bidirectional edges. Reflect primitives (daily notes, backlinks, entity types) are the GUI interaction grammar for this ontology. HighCommand = the native substrate. |
 | INT-MI20 | "Category/type theory applied to corpus taxonomization down to token level" | active | P2 | SN system provides foundation; deeper application pending |
 
 **Patterns (Meta-Observations from `my inputs.md`):**

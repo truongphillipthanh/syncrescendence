@@ -1,4 +1,4 @@
-fingerprint: 3cc509e
-timestamp: 2026-02-07T07:00:32Z
+fingerprint: 6f14816
+timestamp: 2026-02-08T06:04:49Z
 branch: main
-message: fix: bidirectional dispatch feedback — Reply-To-Sender protocol
+message: docs: execution log for session-sunset (af4e276 → 5b3788f)
