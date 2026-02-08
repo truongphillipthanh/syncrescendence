@@ -139,7 +139,18 @@ HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM
 - Account: 2 (Google AI Pro)
 - Strength: Multimodal clarification, infinite threads, TTS
 
-### CLI Tools
+### CLI Tools (Sovereign Cockpit)
+
+The four CLI agents operate from a tmux-based "Sovereign Cockpit" — a 1x4 horizontal lane layout in Ghostty. Full stack details: `00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md`. Operator handbook: `00-ORCHESTRATION/FLEET-COMMANDERS-HANDBOOK.md`.
+
+```
+┌────────────┬────────────┬────────────┬────────────┐
+│ COMMANDER  │ADJUDICATOR │CARTOGRAPHER│PSYCHE/AJNA │
+│ Claude Code│ Codex CLI  │ Gemini CLI │  OpenClaw  │
+│  pane 1    │  pane 2    │  pane 3    │  pane 4    │
+└────────────┴────────────┴────────────┴────────────┘
+```
+
 - **Commander** — Claude Code (Opus): CLAUDE.md config, extended thinking, Lane A, Account 1 (Claude Max)
 - **Adjudicator** — Codex CLI: AGENTS.md config, GitHub integration, Lane B, Account 2 (Claude Pro)
 - **Cartographer** — Gemini CLI: Stateless, 1M context surveys, Lane C, Account 2 (Google AI Pro)

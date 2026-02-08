@@ -1276,3 +1276,104 @@
   owner_lane: Psyche
   venue: repo
   status: new
+
+## 2026-02-08 — Tranche E (Sovereign Cockpit): Terminal lifestyle layer + activation
+
+- id: IMPL-E-0001
+  source_path: 00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md
+  source_lines: "Sovereign Cockpit (8-layer stack)"
+  intent: Complete cockpit activation and verify all 8 layers operational end-to-end.
+  deliverable: All layers verified: Ghostty, Starship, tmux+sesh, Bun, Neovim/LazyVim, Whisper/Piper, Doom Emacs (emacs-mac), Cursor. Smoke test each layer independently.
+  dependencies: None (structurally complete).
+  owner_lane: Commander
+  venue: tool+repo
+  status: in_progress
+  notes: "8 layers installed 2026-02-08. Starship replaced P10k, emacs-mac replaced emacs-plus, cockpit 1x4 layout. See CLARESCENCE-2026-02-08-cockpit-lifestyle-layer.md."
+
+- id: IMPL-E-0002
+  source_path: 00-ORCHESTRATION/scripts/cockpit.sh
+  source_lines: "1x4 horizontal lane layout"
+  intent: Validate cockpit.sh launches correctly and all 4 panes receive commands.
+  deliverable: tmux constellation session with 4 equal-width panes, each running the correct CLI agent.
+  dependencies: IMPL-E-0001
+  owner_lane: Commander
+  venue: tool
+  status: done
+  notes: "Verified 2026-02-08: 4 panes ~49 cols each, 1-based indexing."
+
+- id: IMPL-E-0003
+  source_path: 00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md
+  source_lines: "Lifestyle Tools"
+  intent: Install and verify lifestyle TUI tools for daily use.
+  deliverable: fastfetch, chafa, ticker, circumflex (clx), mpv, yt-dlp installed and aliased.
+  dependencies: None
+  owner_lane: Commander
+  venue: tool
+  status: done
+  notes: "All 6 installed via Homebrew 2026-02-08. Aliases in ~/.zshrc."
+
+- id: IMPL-E-0004
+  source_path: 00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md
+  source_lines: "Prompt: Starship"
+  intent: Replace Powerlevel10k with Starship for lean, cross-shell prompt.
+  deliverable: Starship configured with Catppuccin Mocha palette, P10k removed from .zshrc.
+  dependencies: None
+  owner_lane: Commander
+  venue: tool
+  status: done
+  notes: "Completed 2026-02-08. Config at ~/.config/starship.toml. See DEC-LIFESTYLE-001."
+
+- id: IMPL-E-0005
+  source_path: 00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md
+  source_lines: "Dashboard: Doom Emacs (emacs-mac)"
+  intent: Replace emacs-plus with emacs-mac (Yamamoto port) for native macOS integration.
+  deliverable: emacs-mac installed, Doom rebuilt with init.29.4.el, server-start via after-init-hook.
+  dependencies: None
+  owner_lane: Commander
+  venue: tool
+  status: done
+  notes: "Completed 2026-02-08. Doom rebuild required for version-stamped init files. See DEC-LIFESTYLE-002."
+
+- id: IMPL-E-0006
+  source_path: 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-08-cockpit-lifestyle-layer.md
+  source_lines: "DEC-LIFESTYLE-001 through 005"
+  intent: Formal clarescence for cockpit lifestyle layer decisions.
+  deliverable: Clarescence document with decision atoms, falsifiers, and reversibility paths.
+  dependencies: None
+  owner_lane: Commander
+  venue: repo
+  status: done
+  notes: "Passes 1-3 completed 2026-02-08."
+
+- id: IMPL-E-0007
+  source_path: 00-ORCHESTRATION/FLEET-COMMANDERS-HANDBOOK.md
+  source_lines: "v1.1"
+  intent: Update Fleet Commander's Handbook to reflect lifestyle layer changes.
+  deliverable: Handbook v1.1 with 1x4 layout, Starship, emacs-mac, voice layer, lifestyle tools.
+  dependencies: IMPL-E-0001 through IMPL-E-0005
+  owner_lane: Commander
+  venue: repo
+  status: done
+  notes: "Updated 2026-02-08."
+
+- id: IMPL-E-0008
+  source_path: 00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md
+  source_lines: "tmux TPM plugins"
+  intent: Install tmux TPM plugins for catppuccin, resurrect, continuum.
+  deliverable: Run tmux prefix+I to install plugins; verify catppuccin theme active.
+  dependencies: IMPL-E-0001
+  owner_lane: Sovereign (interactive)
+  venue: tool
+  status: new
+  notes: "Requires interactive tmux prefix+I keystroke."
+
+- id: IMPL-E-0009
+  source_path: 00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md
+  source_lines: "Agent Pipe"
+  intent: Verify Neovim Agent Pipe sends text to correct tmux panes.
+  deliverable: Open nvim, select text, <leader>ac → verify text appears in Commander pane.
+  dependencies: IMPL-E-0001, IMPL-E-0002
+  owner_lane: Sovereign (interactive)
+  venue: tool
+  status: new
+  notes: "Requires interactive Neovim session."

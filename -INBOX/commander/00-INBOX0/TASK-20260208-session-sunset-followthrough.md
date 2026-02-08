@@ -1,6 +1,6 @@
 # TASK: Post-Cockpit Session — Complete Activation + Drift Cleanup
 
-**Status**: PENDING
+**Status**: IN_PROGRESS
 **Priority**: P0
 **Reply-To**: commander
 **CC**: commander
@@ -16,18 +16,18 @@ The Headquarters Elucidation clarescence (2026-02-08) identified the cockpit as 
 ## Checklist
 
 ### Immediate (Next Session)
-- [ ] Verify cockpit.sh constellation session is running: `tmux list-sessions`
-- [ ] If AeroSpace accessibility was granted, test `Alt+1` through `Alt+9` workspace switching
-- [ ] If Karabiner Input Monitoring was granted, test Caps Lock → Escape (tap) / Hyper (hold)
-- [ ] If Raycast replaced Spotlight, test `Cmd+Space` → Raycast
-- [ ] Run `doom sync` to confirm packages after PATH addition
-- [ ] Run tmux `prefix+I` to install TPM plugins (catppuccin, resurrect, continuum, etc.)
-- [ ] Test Agent Pipe from Neovim: open nvim in a spare pane, select text, `<leader>ac` → verify text in Commander pane
+- [x] Verify cockpit.sh constellation session is running: `tmux list-sessions` ✓ 2026-02-08
+- [ ] If AeroSpace accessibility was granted, test `Alt+1` through `Alt+9` workspace switching (SOVEREIGN — interactive)
+- [ ] If Karabiner Input Monitoring was granted, test Caps Lock → Escape (tap) / Hyper (hold) (SOVEREIGN — interactive)
+- [ ] If Raycast replaced Spotlight, test `Cmd+Space` → Raycast (SOVEREIGN — interactive)
+- [x] Run `doom sync` to confirm packages after PATH addition ✓ 2026-02-08 (138 packages, init.29.4.el)
+- [ ] Run tmux `prefix+I` to install TPM plugins (catppuccin, resurrect, continuum, etc.) (SOVEREIGN — interactive)
+- [ ] Test Agent Pipe from Neovim: open nvim in a spare pane, select text, `<leader>ac` → verify text in Commander pane (SOVEREIGN — interactive)
 
 ### Configuration Drift (Carry-Forward)
-- [ ] DEC-HQ-005: Register Cockpit buildout in IMPLEMENTATION-MAP.md as Tranche E
-- [ ] Update TERMINAL-STACK-CONFIG.md Agent Pipe section: pane targets now 1-indexed (cockpit.1-4)
-- [ ] Reconcile COCKPIT.md v2.2 — add cross-reference to Sovereign Cockpit section in TERMINAL-STACK-CONFIG.md
+- [x] DEC-HQ-005: Register Cockpit buildout in IMPLEMENTATION-MAP.md as Tranche E ✓ 2026-02-08 (9 items: IMPL-E-0001 through IMPL-E-0009)
+- [x] Update TERMINAL-STACK-CONFIG.md Agent Pipe section: pane targets now 1-indexed (cockpit.1-4) ✓ Already done 2026-02-08 (previous session)
+- [x] Reconcile COCKPIT.md v2.2 — add cross-reference to Sovereign Cockpit section in TERMINAL-STACK-CONFIG.md ✓ 2026-02-08
 
 ### MCP OAuth
 - [ ] Linear MCP: use Linear-related query in Claude Code to trigger OAuth
