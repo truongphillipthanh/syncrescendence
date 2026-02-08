@@ -1,4 +1,4 @@
-fingerprint: 6f14816
-timestamp: 2026-02-08T06:04:49Z
+fingerprint: 9c90c3a
+timestamp: 2026-02-08T07:25:54Z
 branch: main
-message: docs: execution log for session-sunset (af4e276 → 5b3788f)
+message: chore: commit agent inbox structure and dispatch artifacts
