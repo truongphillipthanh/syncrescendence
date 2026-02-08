@@ -48,10 +48,14 @@
 
 | Component | Choice | Notes |
 |-----------|--------|-------|
-| Multiplexer | **Zellij** | Config at `~/.config/zellij/config.kdl` |
-| Scrollback | 50,000 lines | |
-| Navigation | Alt+hjkl splits | |
-| tmux | Design phase (layout TBD) | For multi-agent cockpit |
+| Multiplexer | **tmux 3.6a** | Config at `~/.tmux.conf` (DEC-HQ-001: canonical) |
+| Session Manager | **sesh 2.22.0** | Config at `~/.config/sesh/sesh.toml` |
+| Scrollback | 100,000 lines | |
+| Prefix | Ctrl+Space | |
+| Pane Navigation | Ctrl+hjkl (vim-tmux-navigator) | |
+| Session Switching | `prefix+f` or `Ctrl+f` (sesh + fzf) | |
+| Plugins | 11 TPM plugins (Catppuccin, resurrect, continuum, yank, fingers, extrakto, cowboy, notify) | |
+| Zellij | Secondary (installed, not the cockpit substrate) | Legacy alias `zj` preserved |
 
 ## TUI Applications
 
@@ -134,7 +138,9 @@
 | `~/.zshrc` | Shell config (p10k, plugins, aliases, hooks) |
 | `~/.p10k.zsh` | Powerlevel10k theme (lean/unicode/transient) |
 | `~/.config/ghostty/config` | Ghostty terminal emulator |
-| `~/.config/zellij/config.kdl` | Zellij multiplexer |
+| `~/.tmux.conf` | tmux multiplexer (canonical) |
+| `~/.config/sesh/sesh.toml` | sesh session manager |
+| `~/.config/zellij/config.kdl` | Zellij (secondary) |
 | `~/.config/btop/btop.conf` | btop system monitor |
 | `~/.config/yazi/yazi.toml` | yazi file manager |
 | `~/.config/atuin/config.toml` | Atuin shell history |
@@ -380,9 +386,9 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 | **2. Context Engine** | Zsh + P10k + modern CLI | HUD for git/exec/dir state | COMPLETE |
 | **3. Multiplexer** | tmux + sesh | Session persistence, 4-lane cockpit | CONFIGURED (needs plugin install) |
 | **4. Runtime** | Bun | JS toolkit (bundler/test/PM) | COMPLETE |
-| **5. Prose Engine** | Neovim + LazyVim | Intent composition + Agent Pipe | BUILDING (swarm) |
-| **6. Voice Layer** | Whisper + Piper + sox | Local speech loop, persona DSP | BUILDING (swarm) |
-| **7. Dashboard** | Doom Emacs + Org Mode | Read-only state visualization | BUILDING (swarm) |
+| **5. Prose Engine** | Neovim + LazyVim | Intent composition + Agent Pipe | COMPLETE |
+| **6. Voice Layer** | Whisper + Piper + sox | Local speech loop, persona DSP | COMPLETE |
+| **7. Dashboard** | Doom Emacs + Org Mode | Read-only state visualization | COMPLETE |
 | **8. Simulators** | Cursor, Antigravity, Xcode | Verification + async delegation | AVAILABLE |
 
 ### Decision Atoms (DEC-COCKPIT-001 through 006)
@@ -443,7 +449,7 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 | Font | Liga SFMono Nerd Font 14pt | CONFIGURED |
 | Scope | Org Mode (org-roam, journal, noter), state file viewer | CONFIGURED |
 | Read-only | Auto-enabled for `00-ORCHESTRATION/state/` files | CONFIGURED |
-| Keybindings | `SPC S i` compass, `SPC S m` impl-map, `SPC S l` session-log, `SPC S c` cockpit | CONFIGURED |
+| Keybindings | `SPC d s` cockpit, `SPC d i` compass, `SPC d e` exec-log, `SPC d l` session-log, `SPC d t` terminal-stack, `SPC d a` agenda, `SPC d r` refresh | CONFIGURED |
 | Config location | `~/.config/doom/` (init.el, config.el, packages.el) | READY |
 | Doom binary | `~/.config/emacs/bin/doom` | Add to PATH |
 
@@ -474,13 +480,21 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 - [ ] OAuth authentication for 5 remote MCP servers (see GUIDE-MCP-AUTH-SETUP.md)
 - [ ] Tier C MCP servers — create auth tokens, then install (see GUIDE-MCP-AUTH-SETUP.md)
 - [ ] Tier D MCP servers (install on demand)
-- [ ] Run `prefix+I` in tmux to install TPM plugins
-- [ ] Test cockpit.sh launch
-- [ ] Append cockpit keybindings to ~/.tmux.conf (6 lines from design doc)
+- [ ] Run `prefix+I` in tmux to install TPM plugins (Sovereign interaction)
+- [ ] Test cockpit.sh launch (Sovereign interaction)
+- [x] Cockpit keybindings appended to ~/.tmux.conf (prefix+1/2/3/4)
+- [x] Doom binary added to PATH in ~/.zshrc
+- [x] Cockpit aliases added to ~/.zshrc (cockpit, vc, vs)
 - [ ] Raycast — disable Spotlight (Cmd+Space), assign to Raycast
 - [ ] Adopt Dropbox + Google Drive via brew (uncomment in Brewfile)
 - [ ] mise migration (fully replace nvm + pyenv)
 - [ ] MCP Gateway deployment (Lasso or MCP Bridge) for cross-agent MCP sharing
+- [x] DEC-HQ-001: Zellij→tmux resolved in §Multiplexer
+- [x] DEC-HQ-002: Stack Teleology updated (Cursor = ACTIVE/Simulator)
+- [x] DEC-HQ-003: Layers 5-7 status → COMPLETE
+- [x] DEC-HQ-004: Doom keybindings canonicalized (SPC d prefix)
+- [ ] DEC-HQ-005: Register Cockpit buildout in IMPLEMENTATION-MAP.md as Tranche E
+- [ ] DEC-HQ-006: Execute 16-minute activation sequence (Sovereign interaction required)
 - [ ] Ratify DEC-COCKPIT-001 through 006
 - [ ] Ratify 8 constellation clarescence answers
 - [ ] MacBook Air tmux/terminal config (Psyche's machine)

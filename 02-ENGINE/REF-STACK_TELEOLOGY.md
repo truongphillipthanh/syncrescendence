@@ -198,9 +198,9 @@ Each tool below needs explicit disposition: keep, replace, integrate, or sunset.
 |------|--------|-----------|-------|
 | **GitHub** | ACTIVE | Connective tissue. Fork/sync architecture. Account 1 owns origin. | `gh` CLI available. |
 | **git** | ACTIVE | Version control. Ground truth substrate. | Core infrastructure. |
-| **VS Code** | EVALUATING | IDE. But Claude Code CLI may be sufficient. | - |
-| **Cursor** | SUNSET | AI IDE. Redundant with Claude Code. | - |
-| **Windsurf** | SUNSET | AI IDE. Same. | - |
+| **VS Code** | ELIMINATED | CLI-first cockpit paradigm makes GUI IDE redundant. Not installed. | - |
+| **Cursor** | ACTIVE | Reclassified as **Simulator** (DEC-COCKPIT-005). Async delegation, not primary IDE. | DEC-HQ-002 |
+| **Windsurf** | SUNSET | AI IDE. Redundant with Cockpit. | - |
 | **iTerm / Ghostty** | ACTIVE | Terminal. Shell is primary interaction surface. | - |
 | **Docker** | EVALUATING | Containerization. Not needed yet. | Future: deploy services. |
 | **Tailscale** | EVALUATING | Mesh VPN. OpenClaw supports Tailscale mode. | Could enable remote access to Mac mini agent. |
