@@ -131,6 +131,39 @@
 | Stop | `terminal-notifier` — "Session stopped" |
 | Notification | `terminal-notifier` — message with Basso sound |
 
+## Always-On Services (launchd)
+
+| Service | Label | Script/Binary | Log | Status |
+|---------|-------|---------------|-----|--------|
+| **watch-commander** | com.syncrescendence.watch-commander | watch_dispatch.sh commander | /tmp/syncrescendence-watch-commander.log | RUNNING |
+| **watch-adjudicator** | com.syncrescendence.watch-adjudicator | watch_dispatch.sh adjudicator | /tmp/syncrescendence-watch-adjudicator.log | RUNNING |
+| **watch-cartographer** | com.syncrescendence.watch-cartographer | watch_dispatch.sh cartographer | /tmp/syncrescendence-watch-cartographer.log | RUNNING |
+| **watch-ajna** | com.syncrescendence.watch-ajna | watch_dispatch.sh ajna | /tmp/syncrescendence-watch-ajna.log | RUNNING |
+| **watch-psyche** | com.syncrescendence.watch-psyche | watch_dispatch.sh psyche | /tmp/syncrescendence-watch-psyche.log | RUNNING |
+| **watch-canon** | com.syncrescendence.watch-canon | watch_canon.sh | /tmp/syncrescendence-watch-canon.log | RUNNING |
+| **OpenClaw Gateway** | ai.openclaw.gateway | openclaw gateway --port 18789 | ~/.openclaw/logs/gateway.log | RUNNING |
+| **JankyBorders** | homebrew.mxcl.borders | /opt/homebrew/opt/borders/bin/borders | /opt/homebrew/var/log/borders/ | RUNNING (brew service) |
+| **Homebrew Autoupdate** | com.github.domt4.homebrew-autoupdate | brew autoupdate | — | LOADED |
+| **Setapp** | com.setapp.DesktopClient.* | 4 agents (Agent, Assistant, Launcher, Updater) | — | RUNNING |
+| **Stream Deck** | com.elgato.StreamDeck | Elgato Stream Deck | — | RUNNING |
+| **SteerMouse** | jp.plentycom.boa.SteerMouse | SteerMouse driver | — | RUNNING |
+| **Atlas Update Helper** | com.openai.atlas.update-helper | Atlas browser updater | — | LOADED |
+
+### Plist Locations
+All user-level: `~/Library/LaunchAgents/`
+
+### Health Check
+```bash
+# View all Syncrescendence watchers
+launchctl list | grep syncrescendence
+
+# View watcher logs
+tail -f /tmp/syncrescendence-watch-commander.log
+
+# Restart a watcher
+launchctl kickstart -k gui/$(id -u)/com.syncrescendence.watch-commander
+```
+
 ## Config File Locations
 
 | File | Purpose |
@@ -268,6 +301,44 @@ Built-in Claude Code feature. Auto-activates when tool descriptions exceed 10% o
 | Save Dialogs | Expanded by default, local save default |
 | Security | Quarantine nag disabled |
 | Trackpad | Tap to click enabled |
+
+## Display Configuration (Mac mini)
+
+| Setting | Value |
+|---------|-------|
+| Monitor | Samsung C49RG9x Super Ultrawide |
+| Resolution | 5120 x 1440 @ 60Hz |
+| Scaling | Native (1:1, no HiDPI) |
+| Aspect Ratio | 32:9 (equivalent to two 2560x1440 side-by-side) |
+
+### Recommended AeroSpace Workspace Layout
+
+The 32:9 ultrawide is best used as three logical zones:
+
+```
+┌──────────────────┬──────────────────┬──────────────────┐
+│   ZONE A (left)  │  ZONE B (center) │  ZONE C (right)  │
+│   ~1700px wide   │  ~1700px wide    │  ~1700px wide    │
+│                  │                  │                  │
+│  WS 1: Terminal  │  WS 4: Browser   │  WS 7: Comms     │
+│  WS 2: Cockpit   │  WS 5: Obsidian  │  WS 8: Monitor   │
+│  WS 3: Editor    │  WS 6: Docs      │  WS 9: Misc      │
+└──────────────────┴──────────────────┴──────────────────┘
+```
+
+| Workspace | Zone | Primary App | Purpose |
+|-----------|------|-------------|---------|
+| **1** | A (left) | Ghostty (single) | Solo terminal / single agent |
+| **2** | A (left) | Ghostty (tmux cockpit) | 4-pane Blitzkrieg cockpit |
+| **3** | A (left) | Cursor / Neovim | Code editing / Prose Engine |
+| **4** | B (center) | Chrome | Claude Web, Gemini, Google Suite |
+| **5** | B (center) | Obsidian | Vault browsing, graph view |
+| **6** | B (center) | Notion / Linear | Project management |
+| **7** | C (right) | Slack / Discord | Communication |
+| **8** | C (right) | btop / Activity Monitor | System monitoring |
+| **9** | C (right) | Emacs Dashboard | Read-only state observation |
+
+**Usage**: `Alt+1` through `Alt+9` to switch. Tiled windows within each workspace. 8px gaps for Catppuccin visual separation.
 
 ## macOS Power Apps (Installed 2026-02-08)
 
@@ -474,6 +545,39 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 | Context running forever | Clean reinit prompts, `/compact` at 75% | PROMPT-*.md files |
 | 2-3 session ceiling | tmux pane splits + sesh instant switching | `Ctrl+f` / `prefix+f` |
 | No composition surface | Neovim Prose Engine with Agent Pipe | `<leader>ac` keybinding |
+
+## Global Package Inventory (2026-02-08)
+
+### Homebrew
+| Type | Count |
+|------|-------|
+| Formulae (leaves) | ~288 |
+| Casks | ~64 |
+| Taps | 9+ |
+
+### Node.js Global (nvm, v24.13.0)
+| Package | Version |
+|---------|---------|
+| @anthropic-ai/claude-code | 2.1.37 |
+| @openai/codex | 0.98.0 |
+| openclaw | 2026.2.3-1 |
+
+### Bun Global
+| Package | Version |
+|---------|---------|
+| @biomejs/biome | 2.3.14 |
+| @steipete/oracle | 0.8.5 |
+| clawhub | 0.5.0 |
+| mcporter | 0.7.3 |
+
+### Python (pip3, notable)
+| Package | Purpose |
+|---------|---------|
+| piper-tts | Text-to-speech (Voice Layer) |
+| anthropic | Anthropic SDK |
+| aider | AI pair programming |
+| fabric | AI prompt framework |
+| dvc | Data version control |
 
 ## Pending
 
