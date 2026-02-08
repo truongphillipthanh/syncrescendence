@@ -1,7 +1,7 @@
 # Fleet Commander's Handbook
 ## Sovereign Cockpit Operations Manual
 
-> Version 1.0 | 2026-02-07
+> Version 1.1 | 2026-02-08
 > Reference card. Not a tutorial. Press keys, get results.
 
 ---
@@ -12,18 +12,15 @@
 cockpit            # alias: sesh connect constellation
 ```
 
-This launches the tmux `constellation` session via `sesh.toml` startup command. Four panes, 2x2 grid:
+This launches the tmux `constellation` session via `sesh.toml` startup command. Four panes, 1x4 horizontal lanes (vertical columns across the ultrawide):
 
 ```
-┌─────────────────┬─────────────────┐
-│  1  COMMANDER   │  2  ADJUDICATOR │
-│  Claude Code    │  Codex CLI      │
-│  (blue)         │  (green)        │
-├─────────────────┼─────────────────┤
-│  3  CARTOGRAPHER│  4  PSYCHE/AJNA │
-│  Gemini CLI     │  OpenClaw       │
-│  (yellow)       │  (mauve)        │
-└─────────────────┴─────────────────┘
+┌────────────┬────────────┬────────────┬────────────┐
+│  1  CMD    │  2  ADJ    │  3  CART   │  4  PSY    │
+│  Claude    │  Codex CLI │  Gemini    │  OpenClaw  │
+│  Code      │            │  CLI       │            │
+│  (blue)    │  (green)   │  (yellow)  │  (mauve)   │
+└────────────┴────────────┴────────────┴────────────┘
 ```
 
 **Switch panes** (prefix = `Ctrl+Space`):
@@ -255,6 +252,8 @@ Theme: Catppuccin Mocha, transparent background. Leader: `Space`.
 
 ## 6. Doom Emacs (Observation Layer)
 
+**Build: emacs-mac (Yamamoto port, v29.4)** -- replaces emacs-plus@30. The mac-port provides pixel-smooth scrolling, native image rendering, and better macOS integration (native fullscreen, proper trackpad support). Same Doom config, same keybindings.
+
 Launch: `open -a Emacs` or `emacs`
 
 **Role: READ-ONLY dashboard.** Files in `00-ORCHESTRATION/state/` auto-lock to read-only. Evil mode = vim keybindings everywhere. Leader: `SPC`.
@@ -342,12 +341,26 @@ All aliases defined in `~/.zshrc`. Every tool uses Catppuccin Mocha theme.
 
 | Alias | Tool | What It Does |
 |-------|------|-------------|
-| `fm` | yazi | File manager (image previews, vim keys) |
+| `fm` | yazi | File manager (image previews via chafa, vim keys) |
 | `lg` | lazygit | Git TUI (delta diffs, staging, branches) |
 | `md` | glow | Render markdown in terminal |
 | `loc` | tokei | Code statistics by language |
 | `json` | fx | Interactive JSON viewer (pipe API output) |
 | `zj` | zellij | Secondary multiplexer (legacy) |
+
+### Lifestyle Layer
+
+Ambient information and media tools for non-work context switching.
+
+| Alias | Tool | What It Does |
+|-------|------|-------------|
+| `fetch` | fastfetch | System info display (hardware, OS, uptime, resources) |
+| -- | chafa | Image-to-terminal renderer (used by yazi for image previews) |
+| `stocks` | ticker | Live stock/crypto prices (config: `~/.ticker.yaml` for watchlist) |
+| `hn` | circumflex (`clx`) | Hacker News TUI (browse, read, comment) |
+| `play` | mpv | Media player (CLI: `mpv --vo=tct` for terminal video playback) |
+| `dl` | yt-dlp | Video/audio downloader (YouTube, etc.) |
+| `weather` | curl wttr.in | Inline weather forecast (`curl -s wttr.in`) |
 
 ### Search & History
 
@@ -365,11 +378,74 @@ All aliases defined in `~/.zshrc`. Every tool uses Catppuccin Mocha theme.
 | Syntax highlighting | zsh-syntax-highlighting (valid=green, invalid=red) |
 | Env per directory | direnv (auto-loads `.envrc` on cd) |
 | Runtime management | mise (replaces nvm/pyenv) |
-| Prompt | Powerlevel10k (lean, unicode, transient) |
+| Prompt | Starship (Catppuccin Mocha palette, lean single-line) |
 
 ---
 
-## 8. Session Management (sesh + zoxide)
+## 8. Starship Prompt
+
+**Replaced Powerlevel10k.** Starship is a cross-shell, Rust-based prompt with zero startup overhead and no instant-prompt complexity.
+
+### Config
+
+`~/.config/starship.toml` -- Catppuccin Mocha palette.
+
+### Layout
+
+Lean single-line format:
+
+```
+directory git-branch git-status cmd-duration time $
+```
+
+### What Shows
+
+| Segment | When |
+|---------|------|
+| Directory | Always (truncated to 3 components) |
+| Git branch | Inside a git repo |
+| Git status | Dirty/staged/untracked indicators |
+| Exec time | Commands taking >2 seconds |
+| Time | Current time (right-aligned) |
+
+### No Instant Prompt
+
+Unlike P10k, Starship has no instant prompt mechanism -- it is fast enough natively that none is needed. No `.p10k.zsh` sourcing, no cache files.
+
+---
+
+## 9. Voice Layer
+
+Voice input/output scripts in `~/bin/`, wired to the cockpit for hands-free agent interaction.
+
+### Scripts
+
+| Script / Alias | What It Does |
+|----------------|-------------|
+| `stt` / `listen` | Record from mic via sox, transcribe via whisper-cli (local Whisper model). Outputs plain text to stdout. |
+| `tts` / `speak` | Synthesize speech via piper with selectable voice profile. Reads from stdin or argument. |
+| `voice-pipe` / `vp` | Record, transcribe, then send the transcribed text to a target cockpit tmux pane. Usage: `vp 1` (send to Commander), `vp 2` (Adjudicator), etc. |
+
+### DSP Voice Profiles
+
+Stored at `~/.config/voice/`. Each profile tunes piper voice parameters (speed, pitch, model) per cockpit role:
+
+| Profile | Role | Character |
+|---------|------|-----------|
+| `commander` | CMD (pane 1) | Authoritative, measured pace |
+| `adjudicator` | ADJ (pane 2) | Precise, clipped delivery |
+| `cartographer` | CART (pane 3) | Exploratory, wider dynamic range |
+| `psyche` | PSY (pane 4) | Contemplative, slower cadence |
+
+### Workflow
+
+1. Press-to-record: `listen` captures mic input until silence/keypress
+2. Whisper transcribes locally (no network round-trip)
+3. `vp <pane>` combines both steps and injects the text into the target tmux pane as if typed
+
+---
+
+## 10. Session Management (sesh + zoxide)
 
 ### From Shell
 
@@ -401,7 +477,7 @@ All aliases defined in `~/.zshrc`. Every tool uses Catppuccin Mocha theme.
 
 ---
 
-## 9. Notifications
+## 11. Notifications
 
 ### Long Command Alert (>30 seconds)
 
@@ -425,7 +501,7 @@ When a command finishes in a **non-focused** tmux pane, fires macOS notification
 
 ---
 
-## 10. Launchd Services (Always-On)
+## 12. Launchd Services (Always-On)
 
 All user-level at `~/Library/LaunchAgents/`.
 
@@ -452,7 +528,7 @@ launchctl kickstart -k gui/$(id -u)/com.syncrescendence.watch-commander  # Resta
 
 ---
 
-## 11. Config File Locations
+## 13. Config File Locations
 
 Quick reference for when something breaks.
 
@@ -460,7 +536,7 @@ Quick reference for when something breaks.
 |------|----------|
 | `~/.tmux.conf` | tmux (prefix, panes, plugins, cockpit bindings) |
 | `~/.zshrc` | Shell (aliases, hooks, tools, session functions) |
-| `~/.p10k.zsh` | Prompt theme |
+| `~/.config/starship.toml` | Prompt theme (Catppuccin Mocha palette) |
 | `~/.config/ghostty/config` | Terminal (font, theme, opacity, keybinds) |
 | `~/.config/sesh/sesh.toml` | Session definitions (constellation, sync-edit, scratch) |
 | `~/.aerospace.toml` | Window manager (workspaces, tiling, keys) |
@@ -471,13 +547,18 @@ Quick reference for when something breaks.
 | `~/.config/btop/btop.conf` | System monitor |
 | `~/.config/yazi/yazi.toml` | File manager |
 | `~/.config/atuin/config.toml` | Shell history |
+| `~/.config/voice/` | Voice DSP profiles (commander, adjudicator, cartographer, psyche) |
+| `~/.ticker.yaml` | Stock/crypto watchlist for ticker |
+| `~/bin/stt` | Speech-to-text script (whisper-cli) |
+| `~/bin/tts` | Text-to-speech script (piper) |
+| `~/bin/voice-pipe` | Voice-to-cockpit-pane pipeline |
 | `~/.claude.json` | Claude Code MCP servers |
 | `~/.claude/settings.json` | Claude Code hooks |
 | `~/.gitconfig` | Git + delta integration |
 
 ---
 
-## 12. Emergency Procedures
+## 14. Emergency Procedures
 
 ### Hung Agent (tmux pane frozen)
 
@@ -529,7 +610,7 @@ source ~/.zshrc                     # Reload all aliases and tools
 
 ---
 
-## 13. Cheat Sheet (One-Pager)
+## 15. Cheat Sheet (One-Pager)
 
 ```
 COCKPIT LAUNCH          cockpit
@@ -555,4 +636,10 @@ ZEN MODE (vim)          SPC z
 ZEN MODE (emacs)        SPC t z
 DASHBOARD (emacs)       SPC d s/i/e/l/t/a/r
 MAGIT                   SPC g g
+VOICE INPUT             listen / vp <pane>
+VOICE OUTPUT            speak
+SYSTEM INFO             fetch
+STOCKS                  stocks
+HACKER NEWS             hn
+WEATHER                 weather
 ```

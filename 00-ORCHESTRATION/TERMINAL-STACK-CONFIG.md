@@ -1,7 +1,7 @@
 # Syncrescendence Terminal Stack — Configuration Ledger
 
 > Canonical reference for all terminal environment choices.
-> Updated: 2026-02-08
+> Updated: 2026-02-08 (session 2 — Starship, Emacs mac-port, cockpit lanes, lifestyle tools)
 
 ## Terminal Emulators
 
@@ -16,7 +16,7 @@
 | Component | Choice | Notes |
 |-----------|--------|-------|
 | Shell | **Zsh** (macOS default) | |
-| Prompt | **Powerlevel10k** | Lean, Unicode, Transient prompt |
+| Prompt | **Starship** | Config: `~/.config/starship.toml` (Catppuccin Mocha palette, lean single-line) |
 | Autosuggestions | **zsh-autosuggestions** | Fish-style inline suggestions |
 | Syntax highlighting | **zsh-syntax-highlighting** | Real-time command coloring |
 | History | **Atuin** | Fuzzy search, synced across machines |
@@ -33,6 +33,10 @@
 | btop | Catppuccin Mocha |
 | lazygit | Catppuccin Mocha |
 | git-delta | Catppuccin Mocha |
+| starship | Catppuccin Mocha |
+| fastfetch | Catppuccin Mocha |
+| circumflex (clx) | Catppuccin Mocha |
+| ticker | Catppuccin Mocha |
 | Obsidian | (existing config, not modified) |
 
 ## Font
@@ -66,6 +70,10 @@
 | **lazygit** | `git` commands | Visual git interface with delta |
 | **glow** | — | Terminal markdown renderer |
 | **fx** | — | Interactive JSON viewer |
+| **fastfetch** | neofetch | System info display |
+| **chafa** | — | Image-to-text renderer (yazi preview backend) |
+| **ticker** | — | Live stock/crypto terminal ticker |
+| **clx** (circumflex) | — | Hacker News TUI |
 
 ## Modern CLI Replacements
 
@@ -81,6 +89,22 @@
 | **rg** (ripgrep) | `grep` | `grep` |
 | **dust** | `du` | Disk usage by directory |
 | **tokei** | `cloc` | Code statistics |
+| **mpv** | QuickTime | Media player (`play`) |
+| **yt-dlp** | — | Video downloader (`dl`) |
+
+## Lifestyle Aliases
+
+| Alias | Expands To | Purpose |
+|-------|-----------|---------|
+| `fetch` | `fastfetch` | System info display |
+| `weather` | `curl -s wttr.in` | Terminal weather |
+| `stocks` | `ticker` | Live stock/crypto ticker |
+| `hn` | `clx` | Hacker News TUI |
+| `play` | `mpv` | Media player |
+| `dl` | `yt-dlp` | Video downloader |
+| `listen` | `~/bin/stt` | Speech-to-text |
+| `speak` | `~/bin/tts` | Text-to-speech |
+| `vp` | `~/bin/voice-pipe` | Bidirectional voice pipeline |
 
 ## Agent Ecosystem
 
@@ -168,8 +192,8 @@ launchctl kickstart -k gui/$(id -u)/com.syncrescendence.watch-commander
 
 | File | Purpose |
 |------|---------|
-| `~/.zshrc` | Shell config (p10k, plugins, aliases, hooks) |
-| `~/.p10k.zsh` | Powerlevel10k theme (lean/unicode/transient) |
+| `~/.zshrc` | Shell config (starship, plugins, aliases, hooks) |
+| `~/.config/starship.toml` | Starship prompt (Catppuccin Mocha, lean single-line) |
 | `~/.config/ghostty/config` | Ghostty terminal emulator |
 | `~/.tmux.conf` | tmux multiplexer (canonical) |
 | `~/.config/sesh/sesh.toml` | sesh session manager |
@@ -179,6 +203,10 @@ launchctl kickstart -k gui/$(id -u)/com.syncrescendence.watch-commander
 | `~/.config/atuin/config.toml` | Atuin shell history |
 | `~/.config/glow/glow.yml` | glow markdown renderer |
 | `~/.config/bat/themes/` | bat Catppuccin theme |
+| `~/.config/voice/` | DSP persona profiles |
+| `~/bin/stt` | Speech-to-text pipeline script |
+| `~/bin/tts` | Text-to-speech pipeline script |
+| `~/bin/voice-pipe` | Bidirectional voice pipeline |
 | `~/.claude/settings.json` | Claude Code hooks |
 | `~/Library/Application Support/lazygit/config.yml` | lazygit |
 | `~/.gitconfig` | Git + delta integration |
@@ -366,7 +394,7 @@ The 32:9 ultrawide is best used as three logical zones:
 | Launch script | `00-ORCHESTRATION/scripts/cockpit.sh` (3 modes: shell/launch/kill) |
 | sesh config | `~/.config/sesh/sesh.toml` (constellation, sync-edit, scratch) |
 | Prefix key | Ctrl+Space (preserved from existing config) |
-| Layout | 2x2 grid: Commander(blue) / Adjudicator(green) / Cartographer(yellow) / Psyche(mauve) |
+| Layout | 1x4 horizontal lanes: Commander(blue) / Adjudicator(green) / Cartographer(yellow) / Psyche(mauve) |
 
 ## OpenClaw MCP Parity (Researched 2026-02-08)
 
@@ -454,7 +482,7 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 | Layer | Surface | Role | Status |
 |-------|---------|------|--------|
 | **1. Terminal** | Ghostty | GPU-accelerated primary interface | COMPLETE |
-| **2. Context Engine** | Zsh + P10k + modern CLI | HUD for git/exec/dir state | COMPLETE |
+| **2. Context Engine** | Zsh + Starship + modern CLI | HUD for git/exec/dir state | COMPLETE |
 | **3. Multiplexer** | tmux + sesh | Session persistence, 4-lane cockpit | CONFIGURED (needs plugin install) |
 | **4. Runtime** | Bun | JS toolkit (bundler/test/PM) | COMPLETE |
 | **5. Prose Engine** | Neovim + LazyVim | Intent composition + Agent Pipe | COMPLETE |
@@ -476,15 +504,12 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 ### Blitzkrieg Lane ↔ Cockpit Pane Mapping
 
 ```
-┌─────────────────┬─────────────────┐
-│   COMMANDER     │   ADJUDICATOR   │
-│   Claude Code   │   Codex CLI     │
-│   Lane A (blue) │   Lane B (green)│
-├─────────────────┼─────────────────┤
-│   CARTOGRAPHER  │   PSYCHE/AJNA   │
-│   Gemini CLI    │   OpenClaw      │
-│   Lane C (yel)  │   Lane D (mauv) │
-└─────────────────┴─────────────────┘
+┌────────────┬────────────┬────────────┬────────────┐
+│  COMMANDER │ ADJUDICATOR│CARTOGRAPHER│PSYCHE/AJNA │
+│ Claude Code│  Codex CLI │ Gemini CLI │  OpenClaw   │
+│  pane 1    │  pane 2    │  pane 3    │  pane 4    │
+│ Lane A (bl)│ Lane B (gn)│ Lane C (yl)│ Lane D (mv)│
+└────────────┴────────────┴────────────┴────────────┘
 ```
 
 ### Prose Engine (Neovim/LazyVim)
@@ -506,14 +531,15 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 | Models | ggml-base.en.bin (148M), ggml-small.en.bin (488M) | READY at `~/.local/share/whisper-models/` |
 | Synthesis | Piper TTS (pip3, v1.3.0) | INSTALLED |
 | Voices | en_US-amy-medium, en_US-ryan-medium, en_GB-alba-medium (63M each) | READY at `~/.local/share/piper-voices/` |
-| DSP Personas | sox filter profiles | 4 profiles READY at `~/.config/voice-personas/` |
-| Pipeline | `voice-capture.sh`, `voice-speak.sh` | READY at `00-ORCHESTRATION/scripts/` |
+| DSP Personas | sox filter profiles | 4 profiles READY at `~/.config/voice/` |
+| Pipeline | `~/bin/stt`, `~/bin/tts`, `~/bin/voice-pipe` | READY at `~/bin/` |
 
 ### Dashboard (Doom Emacs)
 
 | Component | Config | Status |
 |-----------|--------|--------|
-| Binary | GNU Emacs 30.2 (emacs-plus@30, 605.5MB) | INSTALLED |
+| Binary | GNU Emacs 29.4 (emacs-mac, Yamamoto macOS port) | INSTALLED |
+| Mac-port features | Pixel scrolling, native image support, Core Text font rendering | NATIVE |
 | App | `/Applications/Emacs.app` | COPIED |
 | Framework | Doom Emacs (138 packages) | INSTALLED |
 | Theme | Catppuccin Mocha | CONFIGURED |
