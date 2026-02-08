@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # cockpit.sh — Syncrescendence Constellation Cockpit
-# Creates a tmux session with 4 agent panes in 2x2 grid
+# Creates a tmux session with 4 agent panes in 1x4 horizontal layout
 # plus a watchers window for monitoring.
 #
 # NOTE: tmux.conf sets pane-base-index=1, so all panes are 1-indexed.
@@ -56,30 +56,32 @@ fi
 
 echo "Creating constellation cockpit..."
 
-# ── Window 1: cockpit (2x2 agent grid) ─────────────────────────────────────
+# ── Window 1: cockpit (1x4 horizontal lanes) ──────────────────────────────
 # Pane numbering with pane-base-index=1:
-#   new-session creates pane 1 (Commander, top-left)
-#   split-h from 1 creates pane 2 (Adjudicator, top-right)
-#   split-v from 1 creates pane 3 (Cartographer, bottom-left)
-#   split-v from 2 creates pane 4 (Psyche, bottom-right)
+#   new-session creates pane 1 (Commander, far left)
+#   split-h from 1 creates pane 2 (at right, then further splits)
+#   Result: 4 equal vertical columns across the ultrawide
+#
+#   ┌────────┬────────┬────────┬────────┐
+#   │  CMD   │  ADJ   │  CART  │  PSY   │
+#   │ pane 1 │ pane 2 │ pane 3 │ pane 4 │
+#   └────────┴────────┴────────┴────────┘
 
 tmux new-session -d -s "$SESSION" -c "$REPO" -n cockpit -x 200 -y 50
 
-# Pane 1: Commander (top-left) — created with the session
+# Pane 1: Commander (far left) — created with the session
 tmux send-keys -t "$SESSION":cockpit.1 "$CMD_COMMANDER" C-m
 
-# Pane 2: Adjudicator (top-right)
-tmux split-window -h -t "$SESSION":cockpit.1 -c "$REPO" -l 50%
+# Pane 2: Adjudicator (splits right half off pane 1)
+tmux split-window -h -t "$SESSION":cockpit.1 -c "$REPO" -l 75%
 tmux send-keys -t "$SESSION":cockpit.2 "$CMD_ADJUDICATOR" C-m
 
-# Pane 3: Cartographer (bottom-left)
-tmux select-pane -t "$SESSION":cockpit.1
-tmux split-window -v -t "$SESSION":cockpit.1 -c "$REPO" -l 50%
+# Pane 3: Cartographer (splits right 2/3 off pane 2)
+tmux split-window -h -t "$SESSION":cockpit.2 -c "$REPO" -l 66%
 tmux send-keys -t "$SESSION":cockpit.3 "$CMD_CARTOGRAPHER" C-m
 
-# Pane 4: Psyche (bottom-right)
-tmux select-pane -t "$SESSION":cockpit.2
-tmux split-window -v -t "$SESSION":cockpit.2 -c "$REPO" -l 50%
+# Pane 4: Psyche (splits right half off pane 3)
+tmux split-window -h -t "$SESSION":cockpit.3 -c "$REPO" -l 50%
 tmux send-keys -t "$SESSION":cockpit.4 "$CMD_PSYCHE" C-m
 
 # ── Apply pane titles and border styling ────────────────────────────────────
