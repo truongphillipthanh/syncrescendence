@@ -69,6 +69,7 @@ error() {
 append_regen_log() {
     local trigger="$1"
     local status="$2"
+    local canon_ids="${3:-unknown}"
     local timestamp
     timestamp=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
 
@@ -82,21 +83,33 @@ append_regen_log() {
 HEADER
     fi
 
-    echo "| $timestamp | $trigger | $status | 31150 |" >> "$LOG_FILE"
+    echo "| $timestamp | $trigger | $status | $canon_ids |" >> "$LOG_FILE"
 }
 
 regenerate() {
     local trigger="${1:-manual}"
+    local lockdir="/tmp/syncrescendence-canon.lock"
+
+    # Prevent overlapping regen runs
+    if ! mkdir "$lockdir" 2>/dev/null; then
+        warn "Regen already in progress (lock: $lockdir). Skipping."
+        return 0
+    fi
+    trap 'rmdir "$lockdir" 2>/dev/null' RETURN
 
     log "Regenerating CANON files (trigger: $trigger)..."
 
-    if python3 "$REGENERATE_SCRIPT" --all 2>&1; then
+    local output
+    if output=$(python3 "$REGENERATE_SCRIPT" --all --json 2>&1); then
+        # Extract CANON IDs from JSON output
+        local ids
+        ids=$(echo "$output" | python3 -c "import sys,json; d=json.load(sys.stdin); print(','.join(r['canon_id'] for r in d.get('results',[]) if r.get('success')))" 2>/dev/null || echo "unknown")
         log "Regeneration complete."
-        append_regen_log "$trigger" "SUCCESS"
+        append_regen_log "$trigger" "SUCCESS" "$ids"
         return 0
     else
         error "Regeneration FAILED."
-        append_regen_log "$trigger" "FAILED"
+        append_regen_log "$trigger" "FAILED" "none"
         return 1
     fi
 }

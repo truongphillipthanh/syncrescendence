@@ -587,7 +587,8 @@
   dependencies: Decide preferred baseline tooling on Ajna/Psyche hosts.
   owner_lane: Adjudicator
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Makefile tree target now checks for tree binary, falls back to find with install hint."
 
 - id: IMPL-D-0075
   source_path: Makefile
@@ -796,7 +797,8 @@
   dependencies: Baseline tooling policy.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: jq preflight added — silent exit 0 if missing (hook must not block prompts)."
 
 - id: IMPL-D-0095
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
@@ -862,21 +864,23 @@
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
   source_lines: "append_regen_log(): hardcodes CANON IDs as 31150"
   intent: Fix known observability bug.
-  deliverable: Replace hardcoded ‘31150’ with actual regenerated IDs (from regenerate_canon.py --json or markers).
+  deliverable: Replace hardcoded '31150' with actual regenerated IDs (from regenerate_canon.py --json or markers).
   dependencies: IMPL-D-0089.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: regenerate() now uses --json output, extracts canon_ids via Python, passes to append_regen_log."
 
 - id: IMPL-D-0102
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
   source_lines: "fswatch loop: no lock; regen can overlap"
   intent: Prevent overlapping regen runs.
-  deliverable: Add a lockdir (mkdir) around regenerate(); debounce already exists but isn’t sufficient for long regens.
+  deliverable: Add a lockdir (mkdir) around regenerate(); debounce already exists but isn't sufficient for long regens.
   dependencies: None.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: mkdir /tmp/syncrescendence-canon.lock guard with trap cleanup on RETURN."
 
 - id: IMPL-D-0103
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -1134,7 +1138,8 @@
   dependencies: regenerate_canon.py output contract; append_ledger.sh usage.
   owner_lane: Psyche (spec) + Commander (implement)
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Same fix as D-0101 — regenerate() uses --json, extracts actual IDs."
 
 - id: IMPL-D-0056
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -1174,7 +1179,8 @@
   dependencies: regenerate_canon.py must expose/return regenerated ids (stdout/json).
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Same fix as D-0101/D-0055."
 
 - id: IMPL-D-0060
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -1204,7 +1210,8 @@
   dependencies: Lock directory convention (/tmp/syncrescendence-canon.lock).
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Same fix as D-0102 — mkdir lock in regenerate()."
 
 - id: IMPL-D-0063
   source_path: 00-ORCHESTRATION/scripts/ops_lint.sh

@@ -92,7 +92,12 @@ update-ledgers:
 
 # Generate directory tree (stdout)
 tree:
-	@tree -L 2 -I 'node_modules|.git|__pycache__|*.pyc'
+	@if command -v tree >/dev/null 2>&1; then \
+		tree -L 2 -I 'node_modules|.git|__pycache__|*.pyc'; \
+	else \
+		echo "tree not installed (brew install tree). Falling back to find:"; \
+		find . -maxdepth 2 -not -path './.git/*' -not -name '.DS_Store' | sort; \
+	fi
 
 # Clean temporary files
 clean:

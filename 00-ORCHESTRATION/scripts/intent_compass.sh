@@ -6,6 +6,11 @@
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)"
 if [ -z "$REPO_ROOT" ]; then exit 0; fi
 
+# Preflight: jq required for JSON parsing
+if ! command -v jq &>/dev/null; then
+    exit 0  # Silent exit — hook must not block prompts
+fi
+
 # Read stdin JSON
 INPUT=$(cat)
 PROMPT=$(echo "$INPUT" | jq -r '.prompt // empty' 2>/dev/null)
