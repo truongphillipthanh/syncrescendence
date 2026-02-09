@@ -161,3 +161,7 @@
 - **2026-02-09 11:04:28** | `### 1A. claude-mem (HIGHEST PRIORITY -- Direct Mem0 Equivalent)`
 
 - **2026-02-09 11:26:46** | `perfect, please comprehensively address all those things via swarm. also, triage ajna's and psyche's inboxes so they just have the gentle awakening. Before we truly wake them. we need to reconfigure t`
+
+- **2026-02-09 11:38:05** | `Several community npm packages also exist (`linear-mcp`, `@calltelemetry/linear-mcp`, `@mseep/linear-mcp`), but the official hosted server is the cleanest option -- zero npm install, zero local proces`
+
+- **2026-02-09 11:40:38** | `  - Super-agenda: Grouped by P0-P3 priority + agent tags + status`
