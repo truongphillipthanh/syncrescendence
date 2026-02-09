@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status
 
 # Default target
 help:
@@ -20,6 +20,11 @@ help:
 	@echo "  make token-json               - Generate JSON format token"
 	@echo "  make token-full               - Generate both formats + archive"
 	@echo "  make sync-checkpoint           - Quick sync checkpoint (no files)"
+	@echo ""
+	@echo "Ecosystem:"
+	@echo "  make search Q=\"query\"           - Search vault via qmd (BM25)"
+	@echo "  make ecosystem-health          - Run self-healing watchdog"
+	@echo "  make memory-status             - Chroma + qmd + launchd status"
 	@echo ""
 	@echo "Intelligence:"
 	@echo "  make regenerate-canon          - Regenerate all CANON templates from data"
@@ -232,3 +237,30 @@ sync-checkpoint:
 	@echo "SYNC-CHECKPOINT: $$(date -u +"%Y-%m-%dT%H:%M:%SZ")" && \
 	echo "COMMIT: $$(git rev-parse --short HEAD)" && \
 	echo "BRANCH: $$(git rev-parse --abbrev-ref HEAD)"
+
+# ============================================
+# ECOSYSTEM MANAGEMENT
+# ============================================
+
+Q ?= search query
+# Vault search via qmd (usage: make search Q="intention compass")
+search:
+	@export PATH="$$HOME/.bun/bin:$$PATH" && qmd search "$(Q)" -c syncrescendence -n 10
+
+# Run self-healing watchdog manually
+ecosystem-health:
+	@bash $$HOME/.syncrescendence/scripts/watchdog.sh
+	@echo ""
+	@echo "=== Recent Watchdog Log ==="
+	@tail -20 /tmp/syncrescendence-watchdog.log 2>/dev/null || echo "(no log yet)"
+
+# Memory layer status (Chroma + qmd)
+memory-status:
+	@echo "=== Chroma (port 8765) ==="
+	@curl -s http://localhost:8765/health 2>/dev/null || echo "NOT RUNNING"
+	@echo ""
+	@echo "=== qmd ==="
+	@export PATH="$$HOME/.bun/bin:$$PATH" && qmd status 2>/dev/null || echo "NOT INSTALLED"
+	@echo ""
+	@echo "=== Launchd Services ==="
+	@launchctl list 2>/dev/null | grep syncrescendence | awk '{printf "  %-6s %s\n", $$1, $$3}'
