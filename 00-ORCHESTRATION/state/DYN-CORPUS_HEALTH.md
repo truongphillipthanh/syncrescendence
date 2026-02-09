@@ -1,5 +1,5 @@
 # Corpus Health Report
-**Generated**: 2026-02-09 19:52 UTC
+**Generated**: 2026-02-09 20:06 UTC
 
 ## MODEL-INDEX
 - **Status**: OK
@@ -11,22 +11,25 @@
 |------|--------|------------|---------------|
 | DYN-BACKLOG.md | OK | 3 | 2026-02-06 03:37 |
 | DYN-CANON_REGEN_LOG.md | OK | 0 | 2026-02-09 09:04 |
-| DYN-CORPUS_HEALTH.md | OK | 0 | 2026-02-09 19:51 |
+| DYN-CORPUS_HEALTH.md | OK | 0 | 2026-02-09 20:01 |
 | DYN-DISPATCH_KANBAN_PROTOCOL.md | OK | 2 | 2026-02-07 06:58 |
-| DYN-EXECUTION_STAGING.md | OK | 0 | 2026-02-09 19:49 |
+| DYN-EXECUTION_STAGING.md | OK | 0 | 2026-02-09 19:56 |
 | DYN-GLOBAL_LEDGER.md | OK | 0 | 2026-02-09 18:58 |
-| DYN-INTENTIONS_QUEUE.md | OK | 0 | 2026-02-09 19:48 |
-| DYN-PEDIGREE_LOG.md | OK | 0 | 2026-02-09 19:49 |
+| DYN-INTENTIONS_QUEUE.md | OK | 0 | 2026-02-09 19:53 |
+| DYN-PEDIGREE_LOG.md | OK | 0 | 2026-02-09 19:56 |
 | DYN-RESEARCH_DISPATCH.md | OK | 3 | 2026-02-06 03:37 |
-| DYN-SESSION_LOG.md | OK | 0 | 2026-02-09 19:49 |
+| DYN-SESSION_LOG.md | OK | 0 | 2026-02-09 19:56 |
 | DYN-TWIN_COORDINATION_PROTOCOL.md | OK | 3 | 2026-02-06 03:37 |
 
 ## Git Status
 - **Status**: DIRTY
-- 2 uncommitted changes (6 expected DYN files excluded)
+- 5 uncommitted changes (5 expected DYN files excluded)
 
-  - ` M 00-ORCHESTRATION/scripts/corpus_health_check.py`
-  - `?? -INBOX/commander/00-INBOX0/`
+  - `?? -INBOX/commander/40-DONE/TASK-WATCHDOG-202602091146.md`
+  - `?? -INBOX/commander/40-DONE/TASK-WATCHDOG-202602091151.md`
+  - `?? -INBOX/commander/40-DONE/TASK-WATCHDOG-202602091156.md`
+  - `?? -INBOX/commander/40-DONE/TASK-WATCHDOG-202602091201.md`
+  - `?? 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-09-session6-mcp-activation-execution.md`
 
 ---
 **Findings**: 1 issue(s)
