@@ -60,16 +60,39 @@ def check_dyn_files() -> list[dict]:
 
 
 def check_git_status() -> dict:
-    """Check for uncommitted work in the vault."""
+    """Check for uncommitted work in the vault.
+
+    DYN state files and constellation state are excluded from dirty detection
+    because session hooks (session_log.sh, ajna_pedigree.sh, etc.) write to
+    them at session end, leaving them always uncommitted between sessions.
+    """
+    # Files that are expected to be uncommitted between sessions
+    EXPECTED_DIRTY = {
+        ".constellation/state/current.yaml",
+        "00-ORCHESTRATION/state/DYN-CORPUS_HEALTH.md",
+        "00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md",
+        "00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md",
+        "00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md",
+        "00-ORCHESTRATION/state/DYN-SESSION_LOG.md",
+    }
     try:
         result = subprocess.run(
             ["git", "status", "--porcelain"],
             cwd=str(VAULT), capture_output=True, text=True, timeout=10,
         )
-        lines = [l for l in result.stdout.strip().split("\n") if l]
+        all_lines = [l for l in result.stdout.rstrip("\n").split("\n") if l]
+        # Filter out expected DYN state file changes (porcelain: "XY path")
+        lines = [l for l in all_lines if l[3:] not in EXPECTED_DIRTY]
+        ignored = len(all_lines) - len(lines)
         if lines:
-            return {"status": "DIRTY", "detail": f"{len(lines)} uncommitted changes", "files": lines[:15]}
-        return {"status": "CLEAN", "detail": "Working tree clean"}
+            detail = f"{len(lines)} uncommitted changes"
+            if ignored:
+                detail += f" ({ignored} expected DYN files excluded)"
+            return {"status": "DIRTY", "detail": detail, "files": lines[:15]}
+        detail = "Working tree clean"
+        if ignored:
+            detail += f" ({ignored} expected DYN files excluded)"
+        return {"status": "CLEAN", "detail": detail}
     except Exception as e:
         return {"status": "ERROR", "detail": str(e)}
 
