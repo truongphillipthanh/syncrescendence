@@ -729,3 +729,120 @@
 - **Outcome**: SUCCESS
 - **Commits**: 15 | **Changes**:  69 files changed, 5886 insertions(+), 159 deletions(-)
 - **Details**: 1934bb5 docs: execution log for constellation reconfiguration session
+
+### Compaction: 2026-02-09 12:22 (10 entries)
+
+### SESSION-6-EXECUTION | 2026-02-09 11:00–12:30
+- **Branch**: main | **Fingerprint**: ef48c16
+- **Outcome**: SUCCESS
+- **Commits**: 4 (09e99de, 483a806, 156f2d8, ef48c16) | **Tactic**: Mixed (Blitzkrieg research + sequential execution)
+- **Agent**: Commander (Opus 4.6) | **Session Span**: clarescence + execution
+
+**Directives Executed:**
+1. **Clarescence (partial, passes 1-3)**: Session 6 MCP activation + execution priorities. 14/18 lenses PASS, 4 WARN. Convergent path: housekeeping → Qdrant fix → ClickUp fix → claudecron → Blitzkrieg skill.
+2. **MCP Verification**: Linear (33 tools LIVE), Graphiti (9 tools LIVE), Obsidian (11 tools LIVE). Qdrant NOT loading — diagnosed as project-scope issue.
+3. **Qdrant MCP fix**: Promoted from project scope to global scope in `~/.claude.json`. Root cause: sessions run from `/Users/home`, project-scoped servers only load for exact cwd match.
+4. **ClickUp MCP fix**: Replaced `@braid/mcp-clickup` with `clickup-mcp-server` in global config. Both fixes require session restart.
+5. **Watchdog housekeeping**: Archived 4 stale TASK-WATCHDOG-* files from commander inbox.
+6. **Linear hygiene**: Updated SYN-18 description with MCP rollout progress. Verified SYN-33 CANCELLED.
+7. **Blitzkrieg Agent Teams skill**: Created `.claude/skills/blitzkrieg_teams.md` (284 lines) + command wrapper. Defines Scout/Strike/Mixed team patterns, 6-step procedure, safety rails, constellation integration.
+8. **Claudecron research** (parallel agent): Comprehensive research → `memory/CLAUDECRON-RESEARCH.md`. Three approaches: launchd + `claude -p`, Claudecron MCP, claude-code-scheduler.
+9. **Claudecron Phase 1**: Implemented direct launchd + `claude -p` pattern:
+   - Generic runner: `run_claude_task.sh` (prompt files, logging, rotation, budget cap)
+   - 3 tasks: linear-status-check (3x daily), corpus-insight (daily 6AM), session-review (daily 9PM)
+   - 3 launchd plists bootstrapped and loaded
+   - **POC tested**: linear-status-check ran successfully in ~90s, fetched 28 issues, produced full categorized report
+10. **Graphiti memory**: Persisted MCP config discovery to knowledge graph.
+
+**Decisions:**
+- MCP scope: Global scope for all servers (project scope unreliable when cwd varies)
+- Claudecron Phase 1: Direct launchd > Claudecron MCP server (zero deps, proven pattern)
+- Tool permissions: `--allowedTools` must include Write for file output in `-p` mode
+- Budget cap: `--max-budget-usd 0.50` per scheduled task to prevent runaway spend
+- REST > MCP for headless: Use curl for API calls in `claude -p` tasks (MCP may not load in headless context)
+
+**Hazard averted:** Bad commit (62d60a2) accidentally removed 900+ files from git tracking by staging hook-output DYN files. Caught immediately, reset, recommitted correctly.
+
+**IntentionLink**: INT-LEDGER (live sensing pipeline), INT-1501 (autonomy), Epic 6 (Commander Bridge)
+
+---
+
+### SESSION-5-CLARESCE | 2026-02-09 12:00–12:30
+- **Branch**: main | **Fingerprint**: 9e00ed9
+- **Outcome**: SUCCESS
+- **Commits**: 4 (ff79955, 500d3f3, f42af3e, 9e00ed9) | **Tactic**: Blitzkrieg (4-agent swarm)
+- **Agent**: Commander (Opus 4.6) | **Session Span**: clarescence + execution
+
+**Directives Executed:**
+1. **Clarescence (partial, passes 1-3)**: Session 5 execution priorities. 15/18 lenses PASS, 3 WARN. Convergent path: commit state files, fix COCKPIT.md, install MCP servers, fix corpus-health.
+2. **WS-1**: Committed 6 DYN state files (ff79955) — broke restart loop causation chain.
+3. **WS-2**: COCKPIT.md keybinding labels Ajna→Psyche (500d3f3) — last stale Ajna reference eliminated.
+4. **WS-3**: Watchdog inbox task archived to 40-DONE.
+5. **WS-4 (swarm)**: Linear MCP — enabled official plugin + added API key Bearer auth. 33 tools available. Tested: issues CRUD, projects, comments, documents, cycles, milestones, labels, teams, users, attachments, search. SYN-31 and SYN-32 retrieved successfully.
+6. **WS-5 (swarm)**: Qdrant MCP — installed official `mcp-server-qdrant` via uvx. 2 tools (store/find). Local ONNX embeddings (all-MiniLM-L6-v2). Shares `memories` collection with Mem0. No API key needed.
+7. **WS-6 (swarm)**: Graphiti MCP — cloned official repo, installed via uv. 9 tools (add_memory, search_nodes, search_memory_facts, get_episodes, etc.). Connects to same Neo4j as REST API. Uses gpt-4o-mini for entity extraction.
+8. **WS-7 (swarm)**: corpus-health fix — added EXPECTED_DIRTY exclusion set for 6 DYN files + fixed pre-existing .strip() bug. Both deployed and repo copies updated (f42af3e).
+
+**Decisions:**
+- Linear MCP: API key Bearer auth works without OAuth (bypasses Anthropic OAuth block)
+- Qdrant MCP: Shares Mem0 `memories` collection (compatible 384-dim embeddings)
+- Graphiti MCP: stdio transport, not Docker image (avoids FalkorDB conflict with existing Neo4j)
+- corpus-health: Exclude DYN files from dirty detection, not auto-commit them
+
+**IntentionLink**: INT-1501 (maximize autonomy), Epic 6 (Commander Bridge), DEC-BRIDGE-001/004/005
+
+---
+
+### SESSION-20260209-1146 | 2026-02-09 11:46
+- **Branch**: main | **Fingerprint**: 500d3f3
+- **Outcome**: SUCCESS
+- **Commits**: 18 | **Changes**:  70 files changed, 6381 insertions(+), 160 deletions(-)
+- **Details**: 500d3f3 fix: COCKPIT.md keybinding labels Ajna→Psyche + archive watchdog task
+
+### SESSION-20260209-1148 | 2026-02-09 11:48
+- **Branch**: main | **Fingerprint**: 500d3f3
+- **Outcome**: SUCCESS
+- **Commits**: 18 | **Changes**:  70 files changed, 6381 insertions(+), 160 deletions(-)
+- **Details**: 500d3f3 fix: COCKPIT.md keybinding labels Ajna→Psyche + archive watchdog task
+
+### SESSION-20260209-1149 | 2026-02-09 11:49
+- **Branch**: main | **Fingerprint**: 500d3f3
+- **Outcome**: SUCCESS
+- **Commits**: 18 | **Changes**:  70 files changed, 6381 insertions(+), 160 deletions(-)
+- **Details**: 500d3f3 fix: COCKPIT.md keybinding labels Ajna→Psyche + archive watchdog task
+
+### SESSION-20260209-1153 | 2026-02-09 11:53
+- **Branch**: main | **Fingerprint**: f42af3e
+- **Outcome**: SUCCESS
+- **Commits**: 19 | **Changes**:  71 files changed, 6408 insertions(+), 164 deletions(-)
+- **Details**: f42af3e fix: corpus-health excludes expected DYN state files from dirty detection
+
+### SESSION-20260209-1156 | 2026-02-09 11:56
+- **Branch**: main | **Fingerprint**: 2a01983
+- **Outcome**: SUCCESS
+- **Commits**: 21 | **Changes**:  72 files changed, 6660 insertions(+), 165 deletions(-)
+- **Details**: 2a01983 docs: session 5 execution log — 3 MCP servers + corpus-health fix
+
+> **2026-02-09 12:17:47** | Commit `156f2d8`: docs: claudecron research + watchdog housekeeping — Ledger check: tasks.csv 
+
+> **2026-02-09 12:17:50** | Commit `156f2d8`: docs: claudecron research + watchdog housekeeping — Ledger check: tasks.csv 
+
+> **2026-02-09 12:17:52** | Commit `156f2d8`: docs: claudecron research + watchdog housekeeping — Ledger check: tasks.csv 
+
+### SESSION-20260209-1219 | 2026-02-09 12:19
+- **Branch**: main | **Fingerprint**: 156f2d8
+- **Outcome**: SUCCESS
+- **Commits**: 25 | **Changes**:  82 files changed, 7882 insertions(+), 165 deletions(-)
+- **Details**: 156f2d8 docs: claudecron research + watchdog housekeeping
+
+### SESSION-20260209-1219 | 2026-02-09 12:19
+- **Branch**: main | **Fingerprint**: 156f2d8
+- **Outcome**: SUCCESS
+- **Commits**: 25 | **Changes**:  82 files changed, 7882 insertions(+), 165 deletions(-)
+- **Details**: 156f2d8 docs: claudecron research + watchdog housekeeping
+
+### SESSION-20260209-1222 | 2026-02-09 12:22
+- **Branch**: main | **Fingerprint**: ef48c16
+- **Outcome**: SUCCESS
+- **Commits**: 26 | **Changes**:  89 files changed, 8222 insertions(+), 165 deletions(-)
+- **Details**: ef48c16 feat: claudecron Phase 1 — 3 scheduled claude -p tasks via launchd
