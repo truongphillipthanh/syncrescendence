@@ -53,8 +53,8 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
   commander/        Claude Code (Opus) incoming tasks
   adjudicator/      Codex CLI incoming tasks
   cartographer/     Gemini CLI incoming tasks
-  psyche/           OpenClaw GPT-5.3-codex incoming tasks (MBA remote)
-  ajna/             OpenClaw Kimi K2.5 incoming tasks (Mac mini)
+  psyche/           OpenClaw GPT-5.3-codex incoming tasks (Mac mini)
+  ajna/             OpenClaw Kimi K2.5 incoming tasks (MBA remote)
 -OUTGOING/          CLI → WebApp prompt staging (Sovereign relays)
 -SOVEREIGN/         Async decision queue from CLI agents to Sovereign
 ```
@@ -126,8 +126,8 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 ## OpenClaw Integration — AjnaPsyche Archon
 
 Two persistent OpenClaw agents form the AjnaPsyche Archon (fused executive brain):
-- **Ajna** / CSO (Kimi K2.5 via NVIDIA, Mac mini) — Strategic direction, orchestration, dispatch
-- **Psyche** / CTO (GPT-5.3-codex, MacBook Air) — System cohesion, automation, policy enforcement, pipeline fusion
+- **Psyche** / CTO (GPT-5.3-codex, Mac mini) — System cohesion, automation, policy enforcement, pipeline fusion
+- **Ajna** / CSO (Kimi K2.5 via NVIDIA, MacBook Air) — Strategic direction, orchestration, dispatch
 
 OpenClaw agents may concurrently read/write to the filesystem. Check `git status` before large operations.
 

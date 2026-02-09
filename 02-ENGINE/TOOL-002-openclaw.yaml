@@ -20,15 +20,13 @@ integration_points:
 status: ACTIVE
 instances:
   - name: Ajna
-    model: "Kimi K2.5 (NVIDIA NIM)"
+    model: "Opus 4.5"
     device: "M1 Mac mini"
     avatar: "Third Eye"
-    role: "CSO — Chief Strategy Officer"
   - name: Psyche
-    model: "GPT-5.3-codex (OpenAI)"
+    model: "GPT-5.2"
     device: "M4 MacBook Air"
     avatar: "Soul/Mind"
-    role: "CTO — Chief Technology Officer"
 provenance:
   - source: "CLAUDE.md (OpenClaw Integration Layer)"
   - source: "DYN-TWIN_COORDINATION_PROTOCOL.md"

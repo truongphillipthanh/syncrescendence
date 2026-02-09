@@ -224,13 +224,13 @@ REPEAT
 
 ---
 
-## Agent Loop: PSYCHE (MacBook Air remote — CTO/Rudder)
+## Agent Loop: PSYCHE (Mac mini resident — CTO/Rudder)
 
 **CLI**: `openclaw tui --session main`
 **Watch**: `-INBOX/psyche/00-INBOX0/` (plist active)
-**Memory Architecture**: HEARTBEAT.md, skills, OpenClaw memory system
+**Memory Architecture**: HEARTBEAT.md, skills, OpenClaw memory system (Mem0 auto-recall/capture)
 **Model**: GPT-5.3-codex (OpenAI via ChatGPT Plus)
-**Machine**: MacBook Air (previously Ajna's, now Psyche's permanent home)
+**Machine**: Mac mini (previously Ajna's, now Psyche's permanent home)
 **Enterprise Role**: Chief Technology Officer (CTO) — system cohesion, automation, policy enforcement
 
 ### Archon Context
@@ -285,13 +285,13 @@ REPEAT
 
 ---
 
-## Psyche (MacBook Air resident — CTO/Rudder, Remote)
+## Ajna (MacBook Air resident — CSO/Steering Wheel)
 
-**Platform**: OpenClaw (GPT-5.3-codex via OpenAI)
-**Machine**: MacBook Air (previously Ajna's, now Psyche's permanent home)
-**Communication**: Git sync via `-INBOX/psyche/`, Tailscale network
-**Enterprise Role**: Chief Technology Officer (CTO) — system cohesion, automation, policy enforcement
-**Note**: MBA requires configuration (OpenClaw + OpenAI provider + launchd watchers + skills)
+**Platform**: OpenClaw (Kimi K2.5 via NVIDIA NIM)
+**Machine**: MacBook Air (previously Psyche's, now Ajna's permanent home)
+**Communication**: Git sync via `-INBOX/ajna/`, Tailscale network
+**Enterprise Role**: Chief Strategy Officer (CSO) — strategic direction, orchestration, dispatch
+**Note**: MBA requires configuration (OpenClaw + NVIDIA provider + launchd watchers + skills)
 
 ---
 
