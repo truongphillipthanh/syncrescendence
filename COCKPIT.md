@@ -170,11 +170,11 @@ Total content:    63 rows   (48 + 15)
 ### Keybindings (tmux.conf)
 | Keybind | Target | Physical Pane |
 |---------|--------|---------------|
-| prefix+1 | Ajna (agent) | .1 |
+| prefix+1 | Psyche (agent) | .1 |
 | prefix+2 | Commander (agent) | .3 |
 | prefix+3 | Adjudicator (agent) | .5 |
 | prefix+4 | Cartographer (agent) | .7 |
-| prefix+5 | nvim-Ajna | .2 |
+| prefix+5 | nvim-Psyche | .2 |
 | prefix+6 | nvim-Commander | .4 |
 | prefix+7 | nvim-Adjudicator | .6 |
 | prefix+8 | nvim-Cartographer | .8 |
