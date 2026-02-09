@@ -23,10 +23,8 @@ from pathlib import Path
 try:
     from jinja2 import Environment, FileSystemLoader
 except ImportError:
-    print("jinja2 not found. Installing...")
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "jinja2"])
-    from jinja2 import Environment, FileSystemLoader
+    print("ERROR: jinja2 not installed. Run: pip install jinja2")
+    sys.exit(1)
 
 # Configuration
 SCRIPT_DIR = Path(__file__).parent

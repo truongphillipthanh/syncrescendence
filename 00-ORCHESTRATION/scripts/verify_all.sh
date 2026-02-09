@@ -23,12 +23,17 @@ else
     echo "x $SUBDIRS"
 fi
 
-echo -n "| Root .md files: "
-ROOT_MD=$(ls *.md 2>/dev/null | wc -l | tr -d ' ')
-if [ "$ROOT_MD" -le 3 ]; then  # AGENTS.md, CLAUDE.md, COCKPIT.md allowed
-    echo "+ $ROOT_MD"
-else
-    echo "! $ROOT_MD (expected <=2)"
+echo "| Root .md files:"
+for f in CLAUDE.md COCKPIT.md README.md; do
+    if [ -f "$f" ]; then
+        echo "|   + $f"
+    else
+        echo "|   x $f MISSING"
+    fi
+done
+EXTRA=$(ls *.md 2>/dev/null | grep -v -E '^(CLAUDE|COCKPIT|README)\.md$' | head -5)
+if [ -n "$EXTRA" ]; then
+    echo "|   ! Unexpected: $EXTRA"
 fi
 
 echo -n "| Directory count: "

@@ -13,7 +13,8 @@
   dependencies: Locate CLAUDE.md references; verify current behavior via tool docs.
   owner_lane: Commander (Claude Code)
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: CLAUDE.md updated to remove hardcoded token allocation, simplified to 'auto-enabled by Claude Code'."
 
 - id: IMPL-A-0002
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -93,7 +94,8 @@
   dependencies: Avatar template; COCKPIT mapping.
   owner_lane: Psyche + Commander
   venue: repo
-  status: new
+  status: in_progress
+  notes: "2026-02-09: AVATAR-COMMANDER.md created. AVATAR-OPENCLAW still needed (Ajna/Psyche dual-agent spec)."
 
 - id: IMPL-A-0010
   source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
@@ -563,7 +565,8 @@
   dependencies: Decide canonical allowed root markdown list.
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Makefile verify now checks CLAUDE.md, COCKPIT.md, README.md explicitly and reports unexpected .md files."
 
 - id: IMPL-D-0073
   source_path: Makefile
@@ -573,7 +576,8 @@
   dependencies: None.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Makefile update-ledgers sources.csv wrapped in if-exists guard."
 
 - id: IMPL-D-0074
   source_path: Makefile
@@ -593,7 +597,8 @@
   dependencies: None.
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: clean target excludes .git, suppresses errors, safe patterns only."
 
 - id: IMPL-D-0076
   source_path: Makefile
@@ -675,7 +680,8 @@
   dependencies: Decide canonical root .md allowlist; align with Makefile verify.
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: verify_all.sh switched to explicit CLAUDE.md/COCKPIT.md/README.md allowlist, reports unexpected files. Aligned with Makefile verify."
 
 - id: IMPL-D-0084
   source_path: 00-ORCHESTRATION/scripts/verify_all.sh
@@ -715,7 +721,8 @@
   dependencies: Kanban protocol; queue_status.sh (if present).
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: triage_outgoing.sh now reports per-agent lane with individual task status."
 
 - id: IMPL-D-0088
   source_path: 00-ORCHESTRATION/scripts/triage_outgoing.sh
@@ -735,7 +742,8 @@
   dependencies: watch_canon.sh expectations (IMPL-D-0055/0059/0060).
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: regenerate_canon.py --json flag added for --list and --all modes."
 
 - id: IMPL-D-0090
   source_path: 00-ORCHESTRATION/scripts/regenerate_canon.py
@@ -745,7 +753,8 @@
   dependencies: Host bootstrap policy.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Replaced auto-install with fail-fast sys.exit(1) and remediation message."
 
 ## 2026-02-06 — Tranche D (Tooling + integration): intent_compass / dispatch / canon watch
 
@@ -1225,7 +1234,8 @@
   dependencies: Decide canonical allowed root markdown list.
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Same fix as D-0083 — verify_all.sh now uses explicit allowlist (CLAUDE.md, COCKPIT.md, README.md)."
 
 - id: IMPL-D-0066
   source_path: 00-ORCHESTRATION/scripts/verify_all.sh
