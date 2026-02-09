@@ -8,8 +8,8 @@ target: engine
 # FLEET COMMANDER'S HANDBOOK: Syncrescendent Edition
 ## Non-Coding Claude Code for Distributed Cognition
 
-**Version**: 2.0.0
-**Updated**: 2026-02-08
+**Version**: 2.1.0
+**Updated**: 2026-02-09
 **Stream**: C (AJNA9-RECAL)
 **Scope**: How Syncrescendence uses Claude Code for conceptual work, not coding
 
@@ -411,6 +411,58 @@ Prefix key: 􀆕Space (Control + Space)
 
 ---
 
+## Part VIII: Tactical Doctrine
+
+> "We need results." — Sovereign. Martial terminology adopted because war demands results under constraint.
+
+Every tactic has a **trigger condition**, a **method**, and a **measurable outcome**. No ambiguity.
+
+### Tactic Reference
+
+| Tactic | Trigger | Method | Outcome | Anti-Pattern |
+|--------|---------|--------|---------|--------------|
+| **Blitzkrieg** | Multiple independent tasks, time pressure | Mass parallel dispatch to all agents simultaneously. Speed over precision. | Maximum throughput in minimum time | Using when tasks are dependent (causes merge conflicts) |
+| **Siege** | Single hard problem, debugging, architecture redesign | Sustained focus by one or two agents on a single target. Deep context, no context-switching. | Problem resolution through persistence | Giving up too early and switching tactics; context-switching mid-siege |
+| **Reconnaissance** | Unfamiliar codebase, unknown state, pre-planning | Read-only exploration. Zero changes. Scan for patterns, gather intelligence. | Situational awareness before action | Making changes during recon (premature optimization) |
+| **Flanking** | Blocked on primary approach | Solve via alternative path. Attack from unexpected angle. Creative workaround. | Bypass the blocker entirely | Continuing to push the blocked path instead of pivoting |
+| **Entrenchment** | After a breakthrough or major change | Lock in gains. Verification, documentation, regression tests, commit discipline. | Permanent capture of progress | Moving to next task without securing current gains |
+
+### Tactic Selection Protocol
+
+```
+IF many independent tasks AND time-sensitive:
+    → BLITZKRIEG (mass parallel dispatch)
+ELIF single hard problem AND deep context needed:
+    → SIEGE (sustained single-agent focus)
+ELIF unfamiliar territory AND no clear plan:
+    → RECONNAISSANCE (read-only scan first)
+ELIF blocked AND primary approach exhausted:
+    → FLANKING (alternative approach)
+ELIF breakthrough achieved AND gains unsecured:
+    → ENTRENCHMENT (lock in, verify, commit)
+```
+
+### Compound Tactics
+
+- **Recon → Blitzkrieg**: Scout first, then mass-execute. Standard for new sprints.
+- **Siege → Entrenchment**: Solve the hard problem, then lock in gains. Standard for debugging.
+- **Blitzkrieg → Entrenchment**: Execute fast, then verify everything. Standard for feature sprints.
+- **Flanking → Siege**: Find the alternative path, then commit to it deeply. Standard for blocked architecture.
+
+### Extended Domain Terminology
+
+Beyond martial tactics, the Syncrescendence appropriates terminology from five additional domains. See REF-ROSETTA_STONE.md Categories 8-13 for full definitions.
+
+| Domain | Key Terms | Application |
+|--------|-----------|-------------|
+| **Legal** | Fiduciary, Precedent, Ratification, Due Diligence | Trust/authority model between Sovereign and agents |
+| **Financial** | Anneal, Compound, Amortize, Sunk Cost | Token economics, session investment, capability ROI |
+| **Governance** | Constitutional, Sovereignty, Delegation, Veto, Quorum | Agent autonomy model, decision authority |
+| **Scientific** | Autophagy, Crystallization, Phase Transition, Homeostasis | Corpus metabolism, knowledge solidification |
+| **Gas Town** | Beads, Hook, GUPP, Sling, Convoy, Seancing | Yegge-adapted orchestration patterns |
+
+---
+
 ## Appendix A: The Five Invariants
 
 Constitutional laws that cannot be overridden by any directive:
@@ -447,6 +499,13 @@ SESSION       􀆕Space + f          # sesh session switcher
 ---
 
 ## Version History
+
+**v2.1.0** (2026-02-09): Tactical Doctrine expansion
+- Added Part VIII: Tactical Doctrine with 5 tactics (Blitzkrieg, Siege, Reconnaissance, Flanking, Entrenchment)
+- Tactic selection protocol with compound tactic patterns
+- Extended domain terminology table (Legal, Financial, Governance, Scientific, Gas Town)
+- Cross-referenced to REF-ROSETTA_STONE.md Categories 8-13
+- Authority: Commander (Opus 4.6) per Sovereign directive
 
 **v2.0.0** (2026-02-08): Sovereign Cockpit integration
 - Added Part VI: The Sovereign Cockpit with full layout documentation

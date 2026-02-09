@@ -141,3 +141,9 @@
 | 2026-02-09T07:17:21 | CLAIM | cartographer | cartographer | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
 | 2026-02-09T07:17:33 | COMPLETE | cartographer | — | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
 | 2026-02-09T07:17:36 | COMPLETE | adjudicator | — | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
+| 2026-02-09T11:21:14 | CLAIM | cartographer | cartographer | TASK-NARRATIVE-EXEGESIS.md | e073efe | e073efe | — | — |
+| 2026-02-09T11:21:25 | CLAIM | psyche | psyche | TASK-MBA-CASCADE.md | e073efe | e073efe | — | — |
+| 2026-02-09T11:21:32 | COMPLETE | cartographer | — | TASK-NARRATIVE-EXEGESIS.md | e073efe | e073efe | — | — |
+| 2026-02-09T11:21:36 | CLAIM | adjudicator | adjudicator | TASK-LAUNCHD-VALIDATION.md | e073efe | e073efe | — | — |
+| 2026-02-09T11:21:39 | COMPLETE | psyche | — | TASK-MBA-CASCADE.md | e073efe | e073efe | — | — |
+| 2026-02-09T11:21:39 | COMPLETE | adjudicator | — | TASK-LAUNCHD-VALIDATION.md | e073efe | e073efe | — | — |

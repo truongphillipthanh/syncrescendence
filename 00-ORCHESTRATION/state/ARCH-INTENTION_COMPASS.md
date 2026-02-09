@@ -1,7 +1,7 @@
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
-**Last Updated**: 2026-02-01
-**Oracle Lineage**: 0 → 13+
+**Last Updated**: 2026-02-09
+**Oracle Lineage**: 0 → 15+
 **Status**: Rolling snapshot
 **Authority**: Oracle 13+ / Commander
 
@@ -71,6 +71,20 @@ Each intention entry contains:
 | INT-1211 | 12 | "Canonize Platform Features/Ecosystem Leverage" | resolved | ARCH-TECH_TREE_AUDIT.md: 77 CANON files provide excellent coverage |
 | INT-1212 | 12 | "Canonize Model Qualities/Capabilities/Benchmarks" | resolved | ARCH-TECH_TREE_AUDIT.md: 73 CANON files with correct temporal/evergreen split |
 | INT-1213 | 12 | "Blitzkrieg model specification protocol" | resolved | CLAUDE.md v2.1.0 + coordination.yaml v2.1.0 per DIRECTIVE-044B |
+
+### SESSION 15+ (2026-02-09): Autonomy Expansion + Narrative DNA
+
+| ID | Oracle | Text | Status | Integrated Into |
+|----|--------|------|--------|-----------------|
+| INT-1501 | 15 | "Maximize Claude Code autonomy, close that final 30%" | active | SOVEREIGN-012, SYN-34 |
+| INT-1502 | 15 | "Inscribe narrative DNA — StarCraft/Dune/Halo/anime as design vocabulary" | resolved | memory/narrative-dna.md |
+| INT-1503 | 15 | "Close 30% gap to fiduciary level — Commander must self-improve, embrace or die" | active | SOVEREIGN-TRAJECTORY.md §7 |
+| INT-1504 | 15 | "Cascade deployment from Mac mini HQ to MBA field ops" | active | DEPLOYMENT-PLAYBOOK.md Cascade Differential |
+| INT-1505 | 15 | "Deep syncretization of sci-fi/gaming/literature narratives" | active | TASK-NARRATIVE-EXEGESIS.md (Cartographer) |
+| INT-1506 | 15 | "We are a Neo-organization — individual + AI constellation as institutional equivalent" | active | SOVEREIGN-012 §3 |
+| INT-1507 | 15 | "Appropriate martial, legal, financial, political, scientific terminology" | resolved | REF-ROSETTA_STONE.md v2.3.0 (32 new terms) |
+| INT-1508 | 15 | "Track Yegge Gas Town + Anthropic Hivemind — validate architecture against his patterns" | resolved | memory/narrative-dna.md, SOVEREIGN-012 §2 |
+| INT-1509 | 15 | "launchd over cron — cron killed by power management on laptops" | resolved | DEC-SOV-006, 3 new plists deployed |
 
 ### BACKLOG (Future Work)
 

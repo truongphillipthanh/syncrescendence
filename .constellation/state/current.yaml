@@ -1,4 +1,4 @@
-fingerprint: 791714d
-timestamp: 2026-02-09T09:08:17Z
+fingerprint: e073efe
+timestamp: 2026-02-09T09:08:56Z
 branch: main
-message: feat: blitzkrieg synthesis — SOVEREIGN-011 + swarm dispatch + corpus triage
+message: chore: auto-compact wisdom at threshold (10 entries)

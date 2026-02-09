@@ -7,12 +7,12 @@ target: engine
 
 # ROSETTA STONE: Syncrescendent <> Community Terminology
 
-**Version**: 2.1.0
+**Version**: 2.3.0
 **Generated**: 2026-02-01
 **Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint (Ajna resuming Psyche's workstream)
 **Authority**: Ajna (Opus 4.5) — Commander
 **Corpus**: 17 research files + full corpus scan (CLAUDE.md, COCKPIT.md, 00-ORCHESTRATION/, 01-CANON/, 02-ENGINE/, 05-SIGMA/)
-**Terms**: 167 total (18 original + 149 new)
+**Terms**: 201 total (18 original + 183 new)
 
 ---
 
@@ -572,6 +572,68 @@ Significant community patterns without internal equivalents.
 | 168 | Special Forces Mode | UNIQUE | Sovereign→Ajna direct command mode: surgical, no relay, immediate execution | No equivalent |
 | 169 | Clarescence / Claresce | UNIQUE | Value-guided progressive refinement — the meta-operation of running any decision through the full Syncrescendence evaluation stack (10 passes) to converge on the high-fidelity authentic path forward. From Latin *clarescere*: to grow clear. See detailed mapping below. | No equivalent |
 
+### Category 8: Martial Domain (4 terms)
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 170 | Siege | UNIQUE | Sustained focus on single hard problem (debugging, architecture redesign). Opposite of blitzkrieg: concentrated force over time rather than speed. | No equivalent for agent orchestration usage |
+| 171 | Reconnaissance | UNIQUE | Read-only exploration phase with zero changes. Understanding unfamiliar codebases, scanning for patterns, gathering intelligence before action. | Exploration phase / Spike (Agile) |
+| 172 | Flanking | UNIQUE | Solving via alternative approach when blocked on primary path. Creative workaround that attacks the problem from an unexpected angle. | No direct equivalent |
+| 173 | Entrenchment | UNIQUE | Locking in gains after a breakthrough. Verification, documentation, regression prevention. | Hardening / Stabilization sprint |
+
+### Category 9: Legal Domain (5 terms)
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 174 | Fiduciary | ADAPTED | Maximum-trust relationship between Sovereign and agents. Full access, full accountability. Agents act in Sovereign's best interest with no self-dealing. | Trusted execution (agent frameworks) |
+| 175 | Adjudication | ADAPTED | Conflict resolution between competing implementations or divergent agent outputs. Already embodied by the Adjudicator agent role. | Merge resolution / Conflict resolution |
+| 176 | Precedent | ADAPTED | Past decisions (DecisionAtoms) that constrain future ones. Prevents re-litigating settled questions. | Decision record / ADR (Architecture Decision Record) |
+| 177 | Due Diligence | ADAPTED | Thorough verification before major changes. Reading all affected files, checking dependencies, running tests. | Code review + Impact analysis |
+| 178 | Ratification | ADAPTED | Sovereign approval of proposed changes. The Authenticity Gate (Pass 10) of clarescence. | Approval gate / Sign-off |
+
+### Category 10: Financial Domain (5 terms)
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 179 | Anneal (financial) | ADAPTED | Gradual optimization through controlled randomness (from simulated annealing). Accepting temporary quality decreases to escape local optima. Cross-ref: anneal (function) #134. | Simulated annealing / Experimentation (product) |
+| 180 | Amortize | ADAPTED | Spreading the cost of expensive operations across sessions. Building reusable templates/scripts that pay dividends over time. | Technical investment / Infrastructure |
+| 181 | Compound | ADAPTED | Small gains accumulating into large ones over time. Each CANON document, each skill, each hook compounds capability. | Compounding returns / Flywheel effect |
+| 182 | Dividend | ADAPTED | Value extracted from previous investment. CANON documents returning value across sessions = dividends on past labor. | Return on investment |
+| 183 | Sunk Cost | ADAPTED | Recognizing and abandoning unproductive investments. Deleted Supermemory/Hindsight = writing off sunk costs. | Sunk cost fallacy awareness |
+
+### Category 11: Governance Domain (5 terms)
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 184 | Constitutional | ALIGNED | Fundamental invariants that cannot be suspended. Five Invariants in CLAUDE.md. Directly maps to Anthropic's Constitutional AI. | Guardrails / Policy constraints |
+| 185 | Sovereignty | UNIQUE | Final decision authority rests with the human. Repo is ground truth. Agent autonomy is delegated, not inherent. | Human-in-the-loop (weaker framing) |
+| 186 | Delegation | ADAPTED | Structured authority transfer from Sovereign to agents. Dispatch protocol, fiduciary relationship. | Task delegation / Agent authorization |
+| 187 | Veto | ADAPTED | Sovereign override of agent decision. Unilateral, non-negotiable. The ultimate constitutional power. | Human override / Kill switch (cruder framing) |
+| 188 | Quorum | ADAPTED | Minimum agent consensus required for system-affecting decisions. Multiple agents must agree before substrate changes. | Consensus protocol |
+
+### Category 12: Scientific Domain (5 terms)
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 189 | Autophagy | ADAPTED | Self-consuming for renewal. Corpus metabolism: digesting source material, extracting nutrients, discarding waste. | Content curation (weaker) / Knowledge management |
+| 190 | Crystallization | ADAPTED | Knowledge solidifying from fluid state into durable CANON. The process by which research becomes reference. | Knowledge codification |
+| 191 | Phase Transition | ADAPTED | Qualitative shift in system capability at a critical threshold. Adding Chroma search = phase transition from keyword to semantic. | Step function improvement |
+| 192 | Homeostasis | ADAPTED | Self-correcting equilibrium. Live Ledger intent: corpus that refreshes faster than model capabilities evolve. | Self-healing system |
+| 193 | Annealing | ADAPTED | See Anneal (financial domain, #179) and anneal (function, #134). Cross-reference entry spanning financial optimization and content processing. | Simulated annealing |
+
+### Category 13: Gas Town Domain — Yegge Adaptations (8 terms)
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 194 | Beads | ADAPTED | Git-backed atomic work units. Yegge's ticketing system stored as JSONL in git. Our equivalent: TASK-*.md files in -INBOX/. Adaptation: we use markdown instead of JSONL, filesystem instead of sqlite. | Yegge Gas Town tickets |
+| 195 | Hook (Gas Town) | ADAPTED | Persistent assignment queue per agent. In Gas Town: git-backed inbox. In Syncrescendence: -INBOX/{agent}/00-INBOX0/ directory. Same concept, different implementation. | Yegge Gas Town hooks |
+| 196 | GUPP | ADAPTED | "Git Up, Pull, Push" — deterministic handoffs through version control. Our equivalent: the Receipts (Closure Gate) invariant. Work is not done until committed. | Yegge Gas Town GUPP |
+| 197 | Sling | ADAPTED | Verb: attach work to an agent's hook with velocity. Cleaner than "dispatch" or "assign." Implies urgency and directionality. | No equivalent |
+| 198 | Convoy | ADAPTED | Bundled work items tracked as delivery unit. Maps to T2 Implementation Map sprints and Epics. A convoy is a coordinated movement. | Epic / Sprint (Agile) |
+| 199 | Seancing | ADAPTED | Resuming a previous agent session to query it about unfinished work. Needed for inter-session continuity. Currently approximated by /compact + continuation. | No equivalent |
+| 200 | Overseer | ADAPTED | Human role name for agent orchestration operator. More honest than "developer" for the cockpit position. In our system: the Sovereign IS the Overseer. | Yegge Gas Town Overseer |
+| 201 | Vibedesign | ADAPTED | Architecture emerging from iteration rather than deliberation (Maggie Appleton's term for Gas Town). Our Cockpit buildout was vibedesigned. CANON process is the antithesis: deliberate crystallization. | Vibedesign (Appleton) |
+
 ---
 
 ### 169. Clarescence / Claresce (Value-Guided Progressive Refinement)
@@ -626,25 +688,37 @@ Confidence: [low|medium|high]
 
 ---
 
-## Status Distribution (168 terms)
+## Status Distribution (201 entries, 200 distinct terms)
 
-| Status | Original 18 | New 150 | Total |
-|--------|------------|---------|-------|
-| UNIQUE | 4 | 118 | 122 |
-| ADAPTED | 5 | 16 | 21 |
-| ALIGNED | 2 | 5 | 7 |
-| DEPRECATED | 6 | 4 | 10 |
-| ACTIVE | 1 | 0 | 1 |
-| UNKNOWN | 0 | 0 | 0 |
-| **Total** | **18** | **143** | **161** |
+| Status | Original 18 | Extended (19-169) | New (170-201) | Total |
+|--------|------------|-------------------|---------------|-------|
+| UNIQUE | 4 | 118 | 5 | 127 |
+| ADAPTED | 5 | 16 | 26 | 47 |
+| ALIGNED | 2 | 5 | 1 | 8 |
+| DEPRECATED | 6 | 4 | 0 | 10 |
+| ACTIVE | 1 | 0 | 0 | 1 |
+| UNKNOWN | 0 | 0 | 0 | 0 |
+| **Total** | **18** | **143** | **32** | **193** |
 
-*Note: 7 terms shared between categories bring distinct-term total to 168.*
+*Note: 8 terms shared between categories (including cross-references) bring distinct-term total to 200. Entry 120b and cross-reference entry 193 account for the difference between 201 entries and 193 status-counted terms.*
 
-79% of terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The densest concentration is in the CANON cosmological hierarchy, the function library, and the Constellation architecture.
+66% of terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The densest concentration is in the CANON cosmological hierarchy, the function library, and the Constellation architecture. The v2.3.0 expansion adds martial, legal, financial, governance, scientific, and Gas Town (Yegge) domains.
 
 ---
 
 ## Version History
+
+**v2.3.0** (2026-02-09): Six-domain expansion (32 new terms)
+- 32 new terms added (#170-201), bringing total to 201 entries (200 distinct)
+- 6 new domain categories: Martial (#8), Legal (#9), Financial (#10), Governance (#11), Scientific (#12), Gas Town/Yegge (#13)
+- Martial domain: Siege, Reconnaissance, Flanking, Entrenchment — agent orchestration tactics
+- Legal domain: Fiduciary, Adjudication, Precedent, Due Diligence, Ratification — trust/authority framework
+- Financial domain: Anneal, Amortize, Compound, Dividend, Sunk Cost — investment/return metaphors for session economics
+- Governance domain: Constitutional, Sovereignty, Delegation, Veto, Quorum — formalized authority model
+- Scientific domain: Autophagy, Crystallization, Phase Transition, Homeostasis, Annealing — corpus metabolism metaphors
+- Gas Town domain: Beads, Hook, GUPP, Sling, Convoy, Seancing, Overseer, Vibedesign — Steve Yegge adaptations
+- Cross-references: Annealing (#193) ↔ Anneal financial (#179) ↔ anneal function (#134)
+- Authority: Commander (Opus 4.6) expanding terminology matrix per Sovereign directive
 
 **v2.2.0** (2026-02-06): Clarescence formalization
 - New term #169: Clarescence/Claresce — value-guided progressive refinement meta-operation

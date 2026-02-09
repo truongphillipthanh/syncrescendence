@@ -100,3 +100,46 @@
 - **Priority**: P2 — Skill expansion
 - **Linked**: SYN-36
 - **Status**: PENDING — requires Sovereign to share Apple Notes content
+
+- **2026-02-09 01:08:43** | `- Communication standards (message format, priority/action tags, message template)`
+
+- **2026-02-09 01:08:52** | `- Added "Massive Context" task category: Llama 4 Scout (10M) primary, Grok 4.1 (2M) fallback`
+
+- **2026-02-09 02:44:02** | `I've only just read the blitzkrieg synthesis. Yes please maximize claude code autonomy, close that final 30%.  Codify it into the configuration guide (btw is there a formal name for this? What do deve`
+
+- **2026-02-09 02:54:17** | `| **Beads** | Git-backed atomic work units with IDs, surviving crashes | Your canon frontmatter already does version-controlled metadata; beads formalize this for agent work |`
+
+### 2026-02-09 03:00 — SOVEREIGN INTENT: Narrative DNA as design vocabulary
+- **Signal**: "Those of us fortunate enough to embrace narrative have stories and allegories and lore to draw from to pioneer our design/architecture/engineering"
+- **Intent**: Inscribe StarCraft/Dune/Halo/anime/gaming paradigms as permanent design vocabulary in persistent memory
+- **Priority**: P1 — Strategic identity, not just documentation
+- **Linked**: INT-1502, memory/narrative-dna.md, SOVEREIGN-012
+- **Status**: RESOLVED — narrative-dna.md written, SOVEREIGN-012 produced
+
+### 2026-02-09 03:00 — SOVEREIGN INTENT: Commander self-improvement mandate
+- **Signal**: "Codify within yourself that you're allowed, nay, required to self-improve"
+- **Intent**: Standing order: Commander must actively expand CLI/web/skills/hooks/MCPs capabilities
+- **Priority**: P0 — Constitutional standing order
+- **Linked**: INT-1503, SOVEREIGN-TRAJECTORY.md §7
+- **Status**: RESOLVED — codified in SOVEREIGN-TRAJECTORY.md and MEMORY.md
+
+### 2026-02-09 03:00 — SOVEREIGN INTENT: Neo-organization framing
+- **Signal**: "We are now a Neo-organization. Not a company, not freelance, not a startup."
+- **Intent**: Individual + AI constellation functioning as institutional equivalent
+- **Priority**: P1 — Strategic identity
+- **Linked**: INT-1506, SOVEREIGN-012 §3
+- **Status**: RESOLVED — documented in SOVEREIGN-012
+
+### 2026-02-09 03:00 — SOVEREIGN INTENT: launchd over cron
+- **Signal**: "cron is no so great for mac as it is linux, and instead we should maximize launchd"
+- **Intent**: VALID — launchd is correct macOS scheduling primitive. Cron killed by power management on laptops.
+- **Priority**: P0 — Infrastructure decision
+- **Linked**: INT-1509, DEC-SOV-006
+- **Status**: RESOLVED — 3 new launchd services deployed, no cron usage
+
+### 2026-02-09 03:00 — SOVEREIGN INTENT: Cascade to MacBook Air
+- **Signal**: "We'll need to cascade it over, but with applied intent on how the laptop interaction dynamic should be configured"
+- **Intent**: Differential deployment: replicate CLI tools, adapt daemons, skip cockpit geometry
+- **Priority**: P1 — Infrastructure parity
+- **Linked**: INT-1504, DEPLOYMENT-PLAYBOOK.md Cascade Differential, TASK-MBA-CASCADE.md
+- **Status**: ACTIVE — playbook updated, Psyche task dispatched

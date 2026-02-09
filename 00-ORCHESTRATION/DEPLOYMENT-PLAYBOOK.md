@@ -1,7 +1,8 @@
-# Syncrescendence Terminal Stack — Configuration Ledger
+# Syncrescendence Deployment Playbook
 
-> Canonical reference for all terminal environment choices.
-> Updated: 2026-02-08 (session 2 — Starship, Emacs mac-port, cockpit lanes, lifestyle tools)
+> Canonical reference for all terminal environment choices, agent infrastructure, and cascade deployment.
+> Updated: 2026-02-09 (session 3 — daemon infrastructure, cascade architecture, terminology expansion)
+> Formerly: TERMINAL-STACK-CONFIG.md (renamed per DEC-SOV-007)
 
 ## Terminal Emulators
 
@@ -166,6 +167,9 @@
 | **watch-psyche** | com.syncrescendence.watch-psyche | watch_dispatch.sh psyche | /tmp/syncrescendence-watch-psyche.log | RUNNING |
 | **watch-canon** | com.syncrescendence.watch-canon | watch_canon.sh | /tmp/syncrescendence-watch-canon.log | RUNNING |
 | **OpenClaw Gateway** | ai.openclaw.gateway | openclaw gateway --port 18789 | ~/.openclaw/logs/gateway.log | RUNNING |
+| **Chroma Server** | com.syncrescendence.chroma-server | chroma_server.py (port 8765) | /tmp/syncrescendence-chroma.log | DEPLOYED |
+| **Webhook Receiver** | com.syncrescendence.webhook-receiver | webhook_receiver.py (port 8888) | /tmp/syncrescendence-webhook.log | DEPLOYED |
+| **Corpus Health** | com.syncrescendence.corpus-health | corpus_health_check.py (every 6h) | /tmp/syncrescendence-corpus-health.log | DEPLOYED |
 | **JankyBorders** | homebrew.mxcl.borders | /opt/homebrew/opt/borders/bin/borders | /opt/homebrew/var/log/borders/ | RUNNING (brew service) |
 | **Homebrew Autoupdate** | com.github.domt4.homebrew-autoupdate | brew autoupdate | — | LOADED |
 | **Setapp** | com.setapp.DesktopClient.* | 4 agents (Agent, Assistant, Launcher, Updater) | — | RUNNING |
@@ -637,3 +641,37 @@ Full operational protocol: 00-ORCHESTRATION/state/ARCH-COCKPIT_OPERATIONAL_PROTO
 - [ ] MacBook Air tmux/terminal config (Psyche's machine)
 - [ ] INT-C005 tmux onboarding (guided tutorial after install)
 - [ ] HighCommand QA pass (Agendizer Blitzkrieg + Saner + Reflect phases 5-9)
+- [x] Chroma semantic search server deployed (port 8765)
+- [x] Webhook receiver deployed (port 8888)
+- [x] Corpus health check deployed (every 6h via launchd)
+- [ ] Bootstrap launchd services: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.syncrescendence.chroma-server.plist`
+- [ ] Bootstrap launchd services: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.syncrescendence.webhook-receiver.plist`
+- [ ] Bootstrap launchd services: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.syncrescendence.corpus-health.plist`
+- [ ] Verify: `curl localhost:8765/health` and `curl localhost:8888/status`
+
+---
+
+## Cascade Differential — Mac mini HQ vs MacBook Air Field
+
+> DEC-SOV-010: MBA is increasingly primary for intellectual work. Cascade deployment must be differential, not identical.
+
+| Aspect | Mac mini (HQ) | MacBook Air (Field) |
+|--------|--------------|-------------------|
+| **Display** | 5120x1440 cockpit (4 lanes, 4x2 pane grid) | Native 13" (1 agent + 1 nvim max) |
+| **Daemons** | All 10+ services (KeepAlive: true) | Essential only (watchers + health check) |
+| **Power** | Always-on, no power management | Battery-aware: `LowPriorityIO`, `ProcessType: Background` |
+| **Primary use** | Cockpit (4-agent parallel orchestration) | Brain dumps + implementation directives |
+| **Agent** | Commander (Opus 4.6), Adjudicator, Cartographer, Ajna | Psyche (GPT-5.3-codex, on-demand) |
+| **Vector DB** | Chroma full vault index (3 collections) | Chroma subset (CANON + active sprint only) |
+| **Scheduling** | launchd with KeepAlive + StartCalendarInterval | launchd with LowPriorityIO + reduced frequency |
+| **Git sync** | Origin (push first) | Pull-rebase (follow HQ) |
+| **Voice** | Full Whisper+Piper pipeline (sox DSP) | Lighter whisper-cli only |
+| **Cockpit** | Full 4-column tmux session | Single-pane or 2-pane layout |
+
+### Cascade Protocol
+
+1. **Deploy Playbook** codifies every install/config (this document)
+2. **Psyche** receives playbook and produces MBA-specific adaptation (TASK dispatched)
+3. **Differential deployment**: what to replicate (CLI tools, shells, themes), what to adapt (daemons, display), what to skip (cockpit geometry, full Chroma)
+4. **Git is the coordination plane** between machines — all state lives in repo
+5. **launchd over cron** on BOTH machines — cron killed by power management on laptops (DEC-SOV-006)
