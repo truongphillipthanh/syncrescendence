@@ -12,7 +12,7 @@ target: engine
 **Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint (Ajna resuming Psyche's workstream)
 **Authority**: Ajna (Opus 4.5) — Commander
 **Corpus**: 17 research files + full corpus scan (CLAUDE.md, COCKPIT.md, 00-ORCHESTRATION/, 01-CANON/, 02-ENGINE/, 05-SIGMA/)
-**Terms**: 201 total (18 original + 183 new)
+**Terms**: 209 total (18 original + 183 community + 8 enterprise roles)
 
 ---
 
@@ -48,6 +48,14 @@ target: engine
 | 16 | Chain Matrix / Tri-Helix | DEPRECATED | No equivalent | Deprecate per Sovereign directive |
 | 17 | Ralph Pattern | ALIGNED | Ralph Wiggum Pattern (identical) | Already aligned; verify formal implementation |
 | 18 | Blitzkrieg Lane A/B/C | DEPRECATED | 3-tier model routing | Superseded by Neo-Blitzkrieg pipeline |
+| 19 | AjnaPsyche Archon | UNIQUE | No equivalent | Fused CSO+CTO executive brain (StarCraft Archon metaphor) |
+| 20 | Strategos (Ajna) | ADAPTED | CSO / Chief Strategy Officer | Greek general; strategic direction + dispatch |
+| 21 | Synaptarch (Psyche) | UNIQUE | CTO / Chief Technology Officer | Neologism: synapse + arch. System cohesion, automation, pipeline fusion |
+| 22 | Viceroy (Commander) | ADAPTED | COO / Chief Operating Officer | Execution + delivery + BLITZKRIEG lead |
+| 23 | Executor (Adjudicator) | ALIGNED | CQO / Chief Quality Officer | Standards + QA + mechanical execution |
+| 24 | Exegete (Cartographer) | UNIQUE | CIO / Chief Intelligence Officer | Scholarly interpretation; corpus sensing + intelligence |
+| 25 | Archon Fusion | ADAPTED | StarCraft: High Templar merge | Two agents fusing capabilities into one executive function |
+| 26 | Synapticality | UNIQUE | Pipeline automation maturity | State where pipelines fuse into neural-like reflexes |
 
 ---
 

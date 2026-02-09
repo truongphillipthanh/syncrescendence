@@ -1,4 +1,4 @@
-fingerprint: 2f3676d
-timestamp: 2026-02-09T17:46:40Z
+fingerprint: 0066795
+timestamp: 2026-02-09T18:33:00Z
 branch: main
-message: chore: auto-compact wisdom at threshold (10 entries)
+message: Update implementation map/backlog: tranche F toolchain+neo-blitz+intentions

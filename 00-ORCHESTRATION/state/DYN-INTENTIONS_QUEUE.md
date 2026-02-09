@@ -151,3 +151,9 @@
 - **2026-02-09 09:46:40** | `**Scope**: 9 priority targets from the awesome-openclaw ecosystem`
 
 - **2026-02-09 09:53:01** | `no problem, let's docker it. furthermore, if it's cloud only but free, let's see if we can leverage it without having too much bloat. finally conduct a secondary /claresce of awesome-openclaw to see w`
+
+- **2026-02-09 10:12:50** | `## Research Report: Three High-Priority OpenClaw Plugins`
+
+- **2026-02-09 10:15:21** | `- **Why defer**: Our entire PROJ-006b (Ontology Substrate) is blocked by PROJ-003. When the substrate is ready, we should evaluate this skill. Not before.`
+
+- **2026-02-09 10:44:08** | `            > ALWAYS+MAXIMALLY* leveragesOpeClaw[MemoryArchitecture: HEARTBEAT.md, skills, et al.] `

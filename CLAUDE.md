@@ -123,11 +123,11 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 
 ---
 
-## OpenClaw Integration
+## OpenClaw Integration — AjnaPsyche Archon
 
-Two persistent OpenClaw agents orchestrate the Constellation:
-- **Ajna** (Opus 4.5, Mac mini) — Commits, integration, sub-agent orchestration
-- **Psyche** (GPT-5.2, MacBook Air) — Extraction, specs, QA
+Two persistent OpenClaw agents form the AjnaPsyche Archon (fused executive brain):
+- **Psyche** / CTO (GPT-5.3-codex, Mac mini) — System cohesion, automation, policy enforcement, pipeline fusion
+- **Ajna** / CSO (Kimi K2.5 via NVIDIA, MacBook Air) — Strategic direction, orchestration, dispatch
 
 OpenClaw agents may concurrently read/write to the filesystem. Check `git status` before large operations.
 

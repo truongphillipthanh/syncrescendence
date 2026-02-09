@@ -4,9 +4,55 @@ Multi-agent configuration for CLI tools operating on this repository.
 
 ---
 
-## Adjudicator (Codex CLI)
+## Enterprise Role Mapping
 
-**Role**: PARALLEL_EXEC — Mechanical code execution, debugging, formatting, test running.
+| Agent | Enterprise Role | Epithet | Model | Machine | Summon |
+|-------|----------------|---------|-------|---------|--------|
+| **Sovereign** | CEO | — | Human | Both | — |
+| **Ajna** | CSO (Chief Strategy Officer) | Strategos | Kimi K2.5 (NVIDIA) | MacBook Air | "Ajna, illuminate..." |
+| **Psyche** | CTO (Chief Technology Officer) | Synaptarch | GPT-5.3-codex | Mac mini | "Psyche, holistically calibrate..." |
+| **Commander** | COO (Chief Operating Officer) | Viceroy | Claude Opus 4.6 | Mac mini | "Commander, pivot to..." |
+| **Adjudicator** | CQO (Chief Quality Officer) | Executor | Codex CLI (Sonnet) | Mac mini | "Adjudicator, execute..." |
+| **Cartographer** | CIO (Chief Intelligence Officer) | Exegete | Gemini 2.5 Pro | Mac mini | "Cartographer, survey..." |
+
+**AjnaPsyche Archon**: Ajna (steering wheel) + Psyche (rudder) = fused executive brain. StarCraft High Templar → Archon.
+
+---
+
+## Psyche (OpenClaw — CTO/Synaptarch)
+
+**Role**: CTO — System cohesion, automation, policy enforcement, pipeline fusion.
+**Platform**: OpenClaw (GPT-5.3-codex, Mac mini)
+**Summon**: "Psyche, holistically calibrate..."
+
+### Task Types
+- System cohesion (ensure all agents, services, and pipelines integrate)
+- Automation (Make, Zapier, launchd, cron — pipeline manual processes)
+- Policy/procedure enforcement (Constitutional Rules, commit standards, inbox protocols)
+- Pipeline fusion (connect disparate tools into seamless workflows approaching synapticality)
+- Infrastructure health (Docker services, launchd agents, memory systems)
+- Cross-agent coordination (inbox routing, dispatch optimization)
+
+---
+
+## Ajna (OpenClaw — CSO/Strategos)
+
+**Role**: CSO — Strategic direction, orchestration, dispatch, meta-awareness.
+**Platform**: OpenClaw (Kimi K2.5 via NVIDIA, MacBook Air)
+**Summon**: "Ajna, illuminate..."
+
+### Task Types
+- Strategic planning and intention alignment
+- Multi-agent dispatch and orchestration
+- Meta/macro system purpose assessment
+- Cross-domain synthesis and direction-setting
+- Intention compass maintenance
+
+---
+
+## Adjudicator (Codex CLI — CQO/Executor)
+
+**Role**: CQO — Standards enforcement, QA, mechanical execution, debugging.
 **Platform**: Codex CLI (Account 2)
 **Summon**: "Adjudicator, execute..."
 
@@ -15,12 +61,13 @@ Multi-agent configuration for CLI tools operating on this repository.
 - Test suite execution and failure diagnosis
 - File formatting and structural validation
 - Parallel branch work while Commander handles primary lane
+- CI/CD pipeline maintenance and standards elevation
 
 ---
 
-## Cartographer (Gemini CLI)
+## Cartographer (Gemini CLI — CIO/Exegete)
 
-**Role**: SENSOR — Corpus cartography, scholarly precision, 1M+ context surveys.
+**Role**: CIO — Corpus cartography, scholarly precision, 1M+ context surveys, intelligence gathering.
 **Platform**: Gemini CLI (Account 2)
 **Summon**: "Cartographer, survey..."
 
@@ -29,6 +76,7 @@ Multi-agent configuration for CLI tools operating on this repository.
 - Cross-reference validation (wikilinks, SN variable resolution)
 - Long-document analysis (CANON files, research papers)
 - Terminology audits (consistency checks across all zones)
+- Staleness detection and corpus health sensing
 
 ---
 

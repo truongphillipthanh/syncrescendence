@@ -39,13 +39,13 @@ Each platform has an **Avatar** (invocable identity) and **Epithet** (functional
 | **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 1 | "Commander, pivot to..." |
 | **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | "Adjudicator, execute..." |
 | — | — | PARALLEL-EXEC | Claude Code (Sonnet x2) | 2 | Microscopic tasks, batch execution |
-| **Ajna** | — | LOCAL ORCH | OpenClaw (M1 Mini) | — | "Ajna, illuminate..." |
-| **Psyche** | — | LOCAL ORCH | OpenClaw (M4 MBA) | — | "Psyche, holistically calibrate..." |
+| **Ajna** | Strategos | CSO | OpenClaw Kimi K2.5 (MBA) | — | "Ajna, illuminate..." |
+| **Psyche** | Synaptarch | CTO | OpenClaw GPT-5.3 (Mini) | — | "Psyche, holistically calibrate..." |
 
 ### Delineation: Avatar-per-Format
 - **Web avatars**: Augur, Oracle, Vizier, Vanguard, Diviner — interactive, browser-based
 - **CLI avatars**: Commander, Adjudicator, Cartographer — headless, tmux-resident, automation-ready
-- **Local agents**: Ajna (Mac mini), Psyche (MacBook Air) — always-on orchestrators
+- **Local agents**: Psyche/CTO (Mac mini), Ajna/CSO (MacBook Air) — AjnaPsyche Archon (fused executive brain)
 - **Stable mapping**: Platforms characterized into roles mirroring their capabilities
 - **Future**: Live model capabilities/benchmark ledger for efficacious routing
 

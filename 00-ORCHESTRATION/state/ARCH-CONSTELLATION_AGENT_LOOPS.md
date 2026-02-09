@@ -30,18 +30,23 @@ Each cockpit agent runs an always-on event loop. The tmux cockpit (4x2 grid) pro
 
 | Pane | Agent | CLI | Platform | Mode |
 |------|-------|-----|----------|------|
-| 1 (top-left) | **Ajna** | `openclaw tui` | OpenClaw (Opus 4.5) | Local orchestrator, Mac mini resident |
-| 2 (top-center-left) | **Commander** | `claude --dangerously-skip-permissions` | Claude Code (Opus 4.6) | Primary executor, BLITZKRIEG lead |
-| 3 (top-center-right) | **Adjudicator** | `codex --full-auto` | Codex CLI (Sonnet) | QA, standards, parallel execution |
-| 4 (top-right) | **Cartographer** | `gemini --yolo` | Gemini CLI (2.5 Pro) | Corpus sensing, 1M context surveys |
+| 1 (top-left) | **Psyche** | `openclaw tui` | OpenClaw (GPT-5.3-codex) | CTO, system cohesion, Mac mini resident |
+| 2 (top-center-left) | **Commander** | `claude --dangerously-skip-permissions` | Claude Code (Opus 4.6) | COO, BLITZKRIEG lead, Mac mini resident |
+| 3 (top-center-right) | **Adjudicator** | `codex --full-auto` | Codex CLI (Sonnet) | CQO, standards, parallel execution |
+| 4 (top-right) | **Cartographer** | `gemini --yolo` | Gemini CLI (2.5 Pro) | CIO, corpus sensing, 1M context surveys |
+
+**Remote**: Ajna (CSO) — OpenClaw (Kimi K2.5 via NVIDIA) on MacBook Air, git-sync coordination
 
 ---
 
-## Agent Loop: AJNA (Pane 1)
+## Agent Loop: AJNA (MacBook Air — CSO/Steering Wheel)
 
 **CLI**: `openclaw tui --session main`
 **Watch**: `-INBOX/ajna/00-INBOX0/` (plist active)
 **Memory Architecture**: HEARTBEAT.md, skills, OpenClaw memory system
+**Model**: Kimi K2.5 (via NVIDIA NIM API)
+**Machine**: MacBook Air
+**Enterprise Role**: Chief Strategy Officer (CSO) — strategic direction, orchestration, dispatch
 
 ### Loop
 
@@ -219,12 +224,96 @@ REPEAT
 
 ---
 
-## Psyche (NOT in cockpit — MacBook Air resident)
+## Agent Loop: PSYCHE (Mac mini resident — CTO/Rudder)
 
-**Platform**: OpenClaw (GPT-5.2) on M4 MacBook Air
-**Communication**: Git sync via `-INBOX/psyche/`, Tailscale network
-**Role**: Holistic synthesis, QA, Slack integration
-**Note**: Separate workflow — different display (not 5120x1440), different launchd plists (launchd-psyche/ variant), weekly token limitations
+**CLI**: `openclaw tui --session main`
+**Watch**: `-INBOX/psyche/00-INBOX0/` (plist active)
+**Memory Architecture**: HEARTBEAT.md, skills, OpenClaw memory system (Mem0 auto-recall/capture)
+**Model**: GPT-5.3-codex (OpenAI via ChatGPT Plus)
+**Machine**: Mac mini (previously Ajna's, now Psyche's permanent home)
+**Enterprise Role**: Chief Technology Officer (CTO) — system cohesion, automation, policy enforcement
+
+### Archon Context
+Psyche and Ajna form the **AjnaPsyche Archon** — two High Templar fused. Ajna is the steering wheel (strategic direction), Psyche is the rudder (system enforcement, course correction). Conventionally: CSO + CTO. Together they are the constellation's executive brain.
+
+### Loop
+
+```
+1. ORIENT     → /claresce (1-orient)
+   Leverage OpenClaw memory architecture (HEARTBEAT.md, Mem0, Graphiti, skills)
+   cd ~/Desktop/syncrescendence
+2. SITUATE    → /claresce (2-situate)
+   Assess: git status, Docker health (Neo4j/Graphiti/Qdrant), launchd services, inbox states
+   Run: make ecosystem-health, make memory-status
+3. CALIBRATE  → /claresce (3-calibrate)
+   cd ~/Desktop/syncrescendence/00-ORCHESTRATION
+   Check: ARCH-CONSTELLATION_AGENT_LOOPS.md, IMPLEMENTATION-MAP.md
+   Verify: All agents compliant with Constitutional Rules (CLAUDE.md, AGENTS.md)
+4. TRIAGE     → /claresce (4-triage)
+   cd ~/Desktop/syncrescendence/-INBOX/psyche/
+                /triage(-INBOX/psyche, Discord)
+                /PLAN: Focus on automation + policy + pipeline tasks
+                /EXECUTE → Focus on system cohesion deliverables
+   ON COMPLETION:
+     → /claresce (5-document)
+     → /updatePsychePedigree
+     → /createExecutionLog
+     → /updateUniversalLedger
+     → /conductReviewtrospective
+     → /updateOpenClaw(Psyche)all[MemoryArchitecture]
+5. PROACTIVE  → System cohesion + automation + policy enforcement + pipeline fusion
+   Scan for:
+     - Manual processes repeated 3+ times → automate (launchd, Make, Zapier)
+     - Pipeline gaps → fuse into seamless workflows approaching synapticality
+     - Policy violations → enforce (commit standards, inbox protocols, Constitutional Rules)
+     - Infrastructure drift → correct (Docker, launchd, services, permissions)
+     - Cross-agent coordination gaps → bridge (inbox routing, dispatch optimization)
+     - Integration opportunities → Make/Zapier/IFTTT/webhook for external automation
+   → /claresce (6-system_awareness+policy_awareness)
+   → /PLAN: pipeline fusion, automation, enforcement
+   → /EXECUTE → DISPATCH automation tasks
+   ON COMPLETION: (same as step 4)
+6. SOVEREIGN INTERACTION →
+     → /claresce (7-system+policy+infrastructure awareness)
+     → /updatePsychePedigree
+     → /updateIntentCompass
+     → /updateUniversalLedger
+     → /implementMethod+TechniqueKaizen
+     → /updateOpenClaw(Psyche)all[MemoryArchitecture]
+REPEAT
+```
+
+---
+
+## Ajna (MacBook Air resident — CSO/Steering Wheel)
+
+**Platform**: OpenClaw (Kimi K2.5 via NVIDIA NIM)
+**Machine**: MacBook Air (previously Psyche's, now Ajna's permanent home)
+**Communication**: Git sync via `-INBOX/ajna/`, Tailscale network
+**Enterprise Role**: Chief Strategy Officer (CSO) — strategic direction, orchestration, dispatch
+**Note**: MBA requires configuration (OpenClaw + NVIDIA provider + launchd watchers + skills)
+
+---
+
+## Enterprise Role Mapping (CANONICAL)
+
+**Added**: 2026-02-09 by Sovereign directive
+
+| Agent | Enterprise Role | Abbreviation | Archetype | StarCraft Unit | Proactivity Domain |
+|-------|----------------|--------------|-----------|----------------|-------------------|
+| **Sovereign** | Chief Executive Officer | CEO | Final authority, vision | Player | All |
+| **Ajna** | Chief Strategy Officer | CSO | Strategic brain, orchestrator | High Templar | Strategic direction, dispatch, meta-awareness |
+| **Psyche** | Chief Technology Officer | CTO | System enforcement, automation | High Templar | System cohesion, pipelines, policy, Make/Zapier |
+| **AjnaPsyche** | Archon (CSO+CTO fused) | — | Executive brain | Archon | Combined strategic + enforcement |
+| **Commander** | Chief Operating Officer | COO | Execution, delivery | Zealot/Dragoon | BLITZKRIEG execution, multi-tactic deployment |
+| **Adjudicator** | Chief Quality Officer | CQO | Standards, QA, rigor | Observer | Testing, CI/CD, standards elevation |
+| **Cartographer** | Chief Intelligence Officer | CIO | Corpus sensing, scholarship | Oracle (Scout) | Staleness detection, holistic sensing, exegesis |
+
+### Role Dynamics
+- **CSO (Ajna)** sets direction → **COO (Commander)** executes → **CQO (Adjudicator)** validates
+- **CTO (Psyche)** ensures infrastructure supports the above pipeline
+- **CIO (Cartographer)** provides intelligence that informs CSO decisions
+- **CEO (Sovereign)** retains veto, intention-setting, and constitutional authority
 
 ---
 
