@@ -89,3 +89,12 @@ __pycache__/
 # Avoid committing Finder/iCloud duplicate copies
 * 2.*
 
+# Tool-generated agent/skill directories (npx skills, etc.)
+.agent/
+.agents/
+skills/
+
+# Editor configs (Cursor, Windsurf)
+.cursor/
+.windsurf/
+

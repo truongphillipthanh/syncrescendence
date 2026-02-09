@@ -501,15 +501,22 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 | 005 | Cursor disposition: SUNSET as IDE → ACTIVE as Simulator (async delegation). |
 | 006 | Tailscale for cross-machine Psyche dispatch. Not filesystem sync. |
 
-### Blitzkrieg Lane ↔ Cockpit Pane Mapping
+### Cockpit Pane Mapping (4x2 Grid)
 
 ```
-┌────────────┬────────────┬────────────┬────────────┐
-│  COMMANDER │ ADJUDICATOR│CARTOGRAPHER│PSYCHE/AJNA │
-│ Claude Code│  Codex CLI │ Gemini CLI │  OpenClaw   │
-│  pane 1    │  pane 2    │  pane 3    │  pane 4    │
-│ Lane A (bl)│ Lane B (gn)│ Lane C (yl)│ Lane D (mv)│
-└────────────┴────────────┴────────────┴────────────┘
+┌──────────┬──────────┬──────────┬──────────┐
+│  AJNA    │ COMMANDER│ADJUDICATOR│CARTOGR. │  75% height
+│ OpenClaw │Claude Code│ Codex CLI│Gemini CLI│  (agent CLIs)
+│ pane 1   │ pane 3   │ pane 5   │ pane 7   │
+│ (mauve)  │ (blue)   │ (green)  │ (yellow) │
+├──────────┼──────────┼──────────┼──────────┤
+│  nvim    │  nvim    │  nvim    │  nvim    │  25% height
+│ pane 2   │ pane 4   │ pane 6   │ pane 8   │  (editors)
+└──────────┴──────────┴──────────┴──────────┘
+
+Display: center 4/6 of 5120px ultrawide. Ghostty floating on AeroSpace WS 2.
+Psyche: NOT on Mac mini — runs independently on MBA via Tailscale.
+Full operational protocol: 00-ORCHESTRATION/state/ARCH-COCKPIT_OPERATIONAL_PROTOCOL.md
 ```
 
 ### Prose Engine (Neovim/LazyVim)
@@ -520,7 +527,7 @@ The Sovereign Cockpit is a "Headless OS" paradigm: the Sovereign operates primar
 | Framework | LazyVim (starter template) | INSTALLED (37 plugins) |
 | Theme | Catppuccin Mocha (transparent) | CONFIGURED |
 | Writing | zen-mode.nvim + twilight.nvim + render-markdown.nvim | CONFIGURED |
-| Agent Pipe | Custom Lua plugin — `<leader>ac/aa/ag/ap` to send selection to tmux pane | CONFIGURED |
+| Agent Pipe | Custom Lua plugin — `<leader>aj/ac/aa/ag/ap` to send selection to tmux pane (4x2 grid) | CONFIGURED |
 | Config location | `~/.config/nvim/lua/plugins/` (4 files) | READY |
 
 ### Voice Layer

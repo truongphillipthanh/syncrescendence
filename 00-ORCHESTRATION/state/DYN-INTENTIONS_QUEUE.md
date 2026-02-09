@@ -52,3 +52,51 @@
 - **Intent**: Anthropic blocked Claude Max OAuth for Ajna. Both Ajna+Psyche = GPT-5.3-codex. Maxed until ~10 daily.
 - **Priority**: P0 — Operational constraint, plan dispatch around reset window
 - **Linked**: DEC-LIVE-005 in CLARESCENCE-2026-02-09
+
+- **2026-02-08 23:54:37** | `- **Part 3 (Always-on watchers + OpenClaw outfitment + canon observability)**: 32 items (IMPL-D-0034 to IMPL-D-0070)`
+
+- **2026-02-08 23:55:05** | `   - Status: **ASPIRATIONAL** — Referenced in vision docs but not operationalized`
+
+- **2026-02-09 00:32:49** | `Again commander, I want you to have maximum access become fiduciary status. For now https://skills.sh/vercel-labs/skills/find-skills I need you to install this skill, this should 10x our capabilities.`
+- **Status**: DONE — find-skills skill installed via `npx skills add` to .agents/skills/ + .claude/skills/
+
+### 2026-02-09 08:30 — SOVEREIGN INTENT: OpenClaw Pareto advantages
+- **Signal**: "The Pareto advantage is (1) mobile dispatch, (2) root access, (3) always-on heartbeat"
+- **Intent**: Identify and close the capability gap between Claude Code and OpenClaw
+- **Priority**: P1 — Strategic architecture alignment
+- **Linked**: INT-1203, SOVEREIGN-011 Section 5
+- **Analysis**: Gap isn't capability (both have root access) — it's trigger mechanisms and persistence
+
+### 2026-02-09 08:30 — SOVEREIGN INTENT: Commander fiduciary status
+- **Signal**: "I want you to have maximum access become fiduciary status. What else can we install?"
+- **Intent**: Commander should have all tools needed for full autonomous operation
+- **Priority**: P1 — Operational independence
+- **Linked**: SOVEREIGN-011 Section 3 (Commander Tool Gap Assessment)
+- **Status**: Audited — 70% autonomous, 30% gap is daemon infrastructure (APScheduler, Chroma, Slack bot)
+
+### 2026-02-09 08:30 — SOVEREIGN INTENT: Psyche capability encoding
+- **Signal**: "Psyche doesn't know it can manipulate the computer"
+- **Intent**: Encode full system access awareness into Psyche's memory
+- **Priority**: P1 — Agent capability alignment
+- **Linear**: SYN-35
+- **Status**: TASK dispatched to -INBOX/psyche/
+
+### 2026-02-09 08:30 — SOVEREIGN INTENT: Configuration cascade Mac mini -> MBA
+- **Signal**: "We'll need to mirror all the CLI upgrades and cascade into the MacBook Air"
+- **Intent**: Create installation playbook for replicating Mac mini configs on MBA
+- **Priority**: P2 — Infrastructure parity
+- **Linear**: SYN-34
+- **Status**: TASK dispatched to -INBOX/psyche/
+
+### 2026-02-09 08:30 — SOVEREIGN INTENT: Epics as sprint containers
+- **Signal**: "Start using Epics terminology"
+- **Intent**: Organize Linear issues into strategic groupings (Epic 1-4)
+- **Priority**: P2 — Process improvement
+- **Status**: ADOPTED — see SOVEREIGN-011 Section 7
+
+### 2026-02-09 08:30 — SOVEREIGN INTENT: Apple Notes skill extraction
+- **Signal**: "I have a bunch of other skills locked away in apple notes"
+- **Intent**: Extract skills from Apple Notes into .claude/skills/ format
+- **Priority**: P2 — Skill expansion
+- **Linked**: SYN-36
+- **Status**: PENDING — requires Sovereign to share Apple Notes content

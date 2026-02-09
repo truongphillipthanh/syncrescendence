@@ -8,8 +8,8 @@ target: engine
 # FLEET COMMANDER'S HANDBOOK: Syncrescendent Edition
 ## Non-Coding Claude Code for Distributed Cognition
 
-**Version**: 1.0.0
-**Generated**: 2026-01-30
+**Version**: 2.0.0
+**Updated**: 2026-02-08
 **Stream**: C (AJNA9-RECAL)
 **Scope**: How Syncrescendence uses Claude Code for conceptual work, not coding
 
@@ -174,7 +174,7 @@ Time targets:
 
 ### State Management
 
-**Ephemeral vs Durable** (formerly "Wells vs Rivers" — see ROSETTA_STONE #3):
+**Ephemeral vs Durable** (formerly "Wells vs Rivers" -- see ROSETTA_STONE #3):
 - Repository = durable (persistent, version-controlled, ground truth)
 - Chat sessions = ephemeral (evaporate when closed)
 - Ephemeral state must be persisted to durable storage before session ends
@@ -203,6 +203,18 @@ CAPTURED > INTERPRETED > COMPILED > STAGED > COMMITTED
 | Intentions | `.claude/skills/intentions.md` | Intention archaeology and alignment verification |
 | Pedigree | `.claude/skills/pedigree.md` | Oracle session lineage tracking |
 
+### Incoming Skills
+
+| Skill | Purpose |
+|-------|---------|
+| triage | Inbox scanning, task prioritization, dispatch routing |
+| plan | Directive decomposition, Plan Mode structured entry |
+| execute | Atomic task execution with verification gate |
+| reviewtrospective | Post-directive review, pattern extraction, anti-pattern detection |
+| update_universal_ledger | Cross-ledger synchronization (tasks.csv, projects.csv, sources.csv) |
+| method_kaizen | Method refinement — extract improvements from execution logs |
+| update_agent_memory | Persist session learnings to agent memory files |
+
 ### Current Commands
 
 | Command | File | Purpose |
@@ -228,7 +240,137 @@ CAPTURED > INTERPRETED > COMPILED > STAGED > COMMITTED
 
 ---
 
-## Part VI: Automation Layer
+## Part VI: The Sovereign Cockpit
+
+### Overview
+
+The Sovereign Cockpit is a tmux-based command center running in Ghostty on the Mac mini. It provides a 4x2 grid layout: four agent CLI panes on top (75% height), four Neovim editor panes on the bottom (25% height). Two tmux windows: `cockpit` (Window 1) for the agent grid, `watchers` (Window 2) for monitoring.
+
+### Terminal Configuration
+
+| Parameter | Value |
+|-----------|-------|
+| Terminal | Ghostty |
+| Dimensions | 376 columns x 75 rows (74 content + 1 tmux status) |
+| Window style | `macos-titlebar-style = hidden` |
+| Padding | 4px horizontal, 2px vertical |
+| Display | 5120x1440 ultrawide |
+| Session name | `constellation` |
+| Launch command | `cockpit` (alias for `cockpit.sh`) |
+| Launch with agents | `cockpit --launch` |
+| Kill session | `cockpit --kill` |
+| Force new window | `cockpit --new` |
+
+### Cockpit Layout (4x2 Grid)
+
+```
+cockpit (Window 1)
+┌──────────┬──────────┬──────────┬──────────┐
+│  AJNA    │ COMMANDER│ADJUDICATOR│CARTOGR. │  75% height
+│ OpenClaw │Claude Code│ Codex CLI│Gemini CLI│  (agent CLIs)
+│ pane 1   │ pane 3   │ pane 5   │ pane 7   │  (odd = agents)
+├──────────┼──────────┼──────────┼──────────┤
+│  nvim    │  nvim    │  nvim    │  nvim    │  25% height
+│ pane 2   │ pane 4   │ pane 6   │ pane 8   │  (even = editors)
+└──────────┴──────────┴──────────┴──────────┘
+
+watchers (Window 2)
+┌──────────────────┬──────────────────┐
+│  INBOX Triage    │  Git Status      │
+│  pane 1          │  pane 2          │
+├──────────────────┼──────────────────┤
+│  Agent Logs      │  System Monitor  │
+│  pane 3          │  pane 4          │
+└──────────────────┴──────────────────┘
+```
+
+### Pane Index Reference
+
+tmux assigns physical indices in **column-major** order (x first, then y within each column). The keybindings remap these to a logical row-major scheme for ergonomic access.
+
+| Agent | Physical Index | Logical Keybinding | Named Jump |
+|-------|---------------|-------------------|------------|
+| Ajna | pane 1 | 􀆕Space + 1 | 􀆕Space + J |
+| Commander | pane 3 | 􀆕Space + 2 | 􀆕Space + C |
+| Adjudicator | pane 5 | 􀆕Space + 3 | 􀆕Space + A |
+| Cartographer | pane 7 | 􀆕Space + 4 | 􀆕Space + G |
+| nvim-Ajna | pane 2 | 􀆕Space + 5 | -- |
+| nvim-Commander | pane 4 | 􀆕Space + 6 | -- |
+| nvim-Adjudicator | pane 6 | 􀆕Space + 7 | -- |
+| nvim-Cartographer | pane 8 | 􀆕Space + 8 | -- |
+
+### Agent CLI Launch Commands
+
+Each agent pane runs a specific CLI tool when launched with `cockpit --launch`:
+
+| Agent | CLI | Launch Command | Account |
+|-------|-----|---------------|---------|
+| Ajna | OpenClaw (Opus 4.5) | `openclaw tui --session main` | Local (M1 Mini) |
+| Commander | Claude Code (Opus) | `claude --dangerously-skip-permissions` | $A1 (Claude Max) |
+| Adjudicator | Codex CLI (Sonnet) | `codex --full-auto` | $A2 (Claude Pro) |
+| Cartographer | Gemini CLI | `gemini --yolo` | $A2 (Google AI Pro) |
+
+### tmux Keybinding Reference
+
+Prefix key: 􀆕Space (Control + Space)
+
+**Pane Navigation**
+
+| Keybinding | Action |
+|------------|--------|
+| 􀆕Space + 1 | Jump to Ajna (agent) |
+| 􀆕Space + 2 | Jump to Commander (agent) |
+| 􀆕Space + 3 | Jump to Adjudicator (agent) |
+| 􀆕Space + 4 | Jump to Cartographer (agent) |
+| 􀆕Space + 5 | Jump to nvim-Ajna (editor) |
+| 􀆕Space + 6 | Jump to nvim-Commander (editor) |
+| 􀆕Space + 7 | Jump to nvim-Adjudicator (editor) |
+| 􀆕Space + 8 | Jump to nvim-Cartographer (editor) |
+
+**Named Agent Jumps**
+
+| Keybinding | Action |
+|------------|--------|
+| 􀆕Space + J | Jump to Ajna |
+| 􀆕Space + C | Jump to Commander |
+| 􀆕Space + A | Jump to Adjudicator |
+| 􀆕Space + G | Jump to Cartographer |
+
+**Cockpit Controls**
+
+| Keybinding | Action |
+|------------|--------|
+| 􀆕Space + B | Broadcast toggle (send input to all panes simultaneously) |
+| 􀆕Space + X | Emergency stop (sends 􀆕C to all agent panes, with confirmation) |
+| 􀆕Space + F | Fingers -- hint-based quick copy (Vimium-style letter overlays) |
+| 􀆕Space + Tab | Extrakto -- fuzzy extract text from pane output (URLs, paths, hashes) |
+| 􀆕Space + * | Cowboy -- SIGKILL hung foreground process |
+
+**General tmux**
+
+| Keybinding | Action |
+|------------|--------|
+| 􀆕Space + r | Reload tmux config |
+| 􀆕Space + f | Session switcher (sesh + fzf) |
+| 􀆕Space + \| | Split pane horizontally |
+| 􀆕Space + - | Split pane vertically |
+| 􀆕Space + c | New window |
+| 􀆕h / 􀆕j / 􀆕k / 􀆕l | Smart pane navigation (vim-tmux-navigator) |
+| 􀆍Up/Down/Left/Right | Resize pane (2 cells per press) |
+
+**Mac Modifier Key Reference**
+
+| Symbol | Key |
+|--------|-----|
+| 􀆕 | Control (⌃) |
+| 􀆍 | Option (⌥) |
+| 􀆝 | Command (⌘) |
+| 􀆔 | Shift (⇧) |
+| 􁁺 | Globe/Fn |
+
+---
+
+## Part VII: Automation Layer
 
 ### Makefile Targets (Operational)
 
@@ -269,7 +411,7 @@ CAPTURED > INTERPRETED > COMPILED > STAGED > COMMITTED
 
 ---
 
-## Appendix: The Five Invariants
+## Appendix A: The Five Invariants
 
 Constitutional laws that cannot be overridden by any directive:
 
@@ -281,7 +423,42 @@ Constitutional laws that cannot be overridden by any directive:
 
 ---
 
+## Appendix B: Quick Orientation Cheat Sheet
+
+```
+LAUNCH        cockpit              # Attach or create the cockpit session
+              cockpit --launch     # Launch with all agent CLIs running
+              cockpit --kill       # Tear down the session
+              cockpit --new        # Force new Ghostty window at 376x75
+
+NAVIGATE      􀆕Space + 1-4        # Agent panes (Ajna, Commander, Adjudicator, Cartographer)
+              􀆕Space + 5-8        # Editor panes (nvim per agent)
+              􀆕Space + J/C/A/G    # Named agent jumps
+
+CONTROL       􀆕Space + B          # Broadcast toggle
+              􀆕Space + X          # Emergency stop all agents
+              􀆕Space + F          # Fingers (hint copy)
+              􀆕Space + Tab        # Extrakto (fuzzy extract)
+
+SESSION       􀆕Space + f          # sesh session switcher
+              􀆕Space + r          # Reload tmux config
+```
+
+---
+
 ## Version History
+
+**v2.0.0** (2026-02-08): Sovereign Cockpit integration
+- Added Part VI: The Sovereign Cockpit with full layout documentation
+- Documented corrected pane numbering (column-major physical, row-major logical)
+- Added Mac symbology (SF Symbols) for all keybinding references
+- Added tmux keybinding reference with modifier key legend
+- Documented agent CLI launch commands for all four agents
+- Added Ghostty terminal configuration (376x75, hidden titlebar, reduced padding)
+- Added cockpit alias and flag documentation (--launch, --kill, --new)
+- Added incoming skills: triage, plan, execute, reviewtrospective, update_universal_ledger, method_kaizen, update_agent_memory
+- Added Appendix B: Quick Orientation Cheat Sheet
+- Bumped version to 2.0.0
 
 **v1.0.0** (2026-01-30): Genesis establishment
 - Adapted from community Fleet Commander's Handbook
