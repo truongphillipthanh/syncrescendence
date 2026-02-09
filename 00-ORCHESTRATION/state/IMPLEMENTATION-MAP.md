@@ -1516,3 +1516,105 @@
   owner_lane: Psyche
   venue: repo
   status: new
+
+## 2026-02-09 — Tranche G (Spine): Rosetta + Dispatch Kanban + Intentions mechanics
+
+- id: IMPL-G-0001
+  source_path: 02-ENGINE/REF-ROSETTA_STONE.md
+  source_lines: "Immediate Actions → Critical Fixes (2) + #8 Chorus/Medley"
+  intent: Fix operational terminology drift: Constellation is Medley by default; Chorus reserved for same-prompt parallel runs.
+  deliverable: COCKPIT.md + any ops docs: replace incorrect ‘Chorus’ usage for day-to-day operations with ‘Medley’; add a one-paragraph glossary note + ‘when to use Chorus’ examples.
+  dependencies: IMPL-A-0002.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-G-0002
+  source_path: 02-ENGINE/REF-ROSETTA_STONE.md
+  source_lines: "Immediate Actions → Critical Fixes (3) + #5 Ring→sigma"
+  intent: Complete ‘Ring’→sigma rename and ratify sigma/tau split everywhere.
+  deliverable: Repo-wide search/replace remaining active-doc ‘Ring’ references; add an explicit sigma/tau glossary section + migration note; ensure historical references remain intact.
+  dependencies: IMPL-A-0003.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-G-0003
+  source_path: 02-ENGINE/REF-ROSETTA_STONE.md
+  source_lines: "Immediate Actions → Definition Discovery (9)"
+  intent: Disambiguate ‘Five Invariants’ vs the broader constitutional rule set so ‘invariant’ actually means non-overridable.
+  deliverable: CLAUDE.md: add a section that enumerates the five invariants explicitly, separates them from ‘constitutional rules’, and documents override/ratification semantics.
+  dependencies: Sovereign ratification of the exact five.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-G-0004
+  source_path: 02-ENGINE/REF-ROSETTA_STONE.md
+  source_lines: "Community Patterns: Gap Analysis (G2 Memory Crystal Protocol)"
+  intent: Add a token-economic session-compaction primitive that produces durable memory without bloating context.
+  deliverable: Design a ‘Memory Crystal’ spec adapted to Syncrescendence: librarian sub-agent or script that writes compressed session summary to a durable target (e.g., 05-SIGMA/MEMORY-* or 00-ORCHESTRATION/state/DYN-*) with citations and freshness markers.
+  dependencies: Decide storage surface + cadence; existing compact_wisdom.sh integration.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-G-0005
+  source_path: 02-ENGINE/REF-ROSETTA_STONE.md
+  source_lines: "Community Patterns: Gap Analysis (G3 Adversarial Validation)"
+  intent: Institutionalize falsification before canonization to prevent hallucinated drift.
+  deliverable: Add an ‘Adversarial Validation’ checklist to DecisionAtoms + a lane routing rule: when to dispatch to Oracle (Grok) / Augur (Perplexity) specifically for disproof/counterexamples.
+  dependencies: Tool availability + dispatch protocol.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-G-0006
+  source_path: 02-ENGINE/REF-ROSETTA_STONE.md
+  source_lines: "Community Patterns: Gap Analysis (G4 Temporal Versioning / Decay)"
+  intent: Make time-sensitivity first-class so technical claims self-expire rather than rot.
+  deliverable: Add temporal metadata schema (last_verified, expires_at, refresh_trigger) to relevant docs and/or a ‘temporal intel’ frontmatter block; implement a periodic refresh scanner that flags expired items.
+  dependencies: Align with IMPL-F-0009 temporal refresh pipeline.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-G-0007
+  source_path: 02-ENGINE/REF-ROSETTA_STONE.md
+  source_lines: "SN Format → Syncrescript (Migration Path)"
+  intent: Remove naming ambiguity between ‘SN’, ‘Semantic Notation’, and ‘Syncrescript’.
+  deliverable: Repo-wide migration: update active docs to prefer ‘Syncrescript’ terminology; keep tooling names (sn_*) for compatibility; add a short glossary note mapping old→new.
+  dependencies: None.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-G-0008
+  source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
+  source_lines: "§2–§6 (Structure + Lifecycle + Reply-To-Sender)"
+  intent: Close the loop: make bidirectional feedback mandatory and machine-checkable.
+  deliverable: Extend ops_lint.sh (or add kanban_lint.sh) to validate: Kind present/allowed; Kanban mirrors folder; Reply-To is present; Receipts-To points at -OUTBOX/<agent>/RESULTS/; CONFIRM/RESULT/EXECLOG prefixes are excluded from watchers.
+  dependencies: IMPL-B-0010; IMPL-D-0085.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-G-0009
+  source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
+  source_lines: "Operating Principles → Inter-Twin Communication"
+  intent: Repair protocol drift: doc references `-INBOX/outputs/` but it was deleted; twin relay surface needs a canonical path.
+  deliverable: Update DYN-TWIN_COORDINATION_PROTOCOL.md to point to the current canonical twin handoff surface (e.g., -OUTBOX/psyche/ARTIFACTS or a reinstated -INBOX/outputs); add a one-line rule for discoverability + indexing.
+  dependencies: Decision on shared handoff directory.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-G-0010
+  source_path: .claude/skills/intentions.md
+  source_lines: "PROCESS + ID Assignment + Anti-patterns (False resolution)"
+  intent: Make intention triage/flush deterministic, collision-free, and evidence-backed.
+  deliverable: Add (a) a cadence/SOP for triaging DYN-INTENTIONS_QUEUE.md, (b) an INT id allocation helper (script or make target), and (c) a lint rule: status=resolved requires integrated_into/evidence.
+  dependencies: IMPL-B-0006/0007/0008.
+  owner_lane: Commander
+  venue: repo
+  status: new

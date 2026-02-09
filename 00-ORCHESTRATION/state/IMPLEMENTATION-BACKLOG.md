@@ -235,3 +235,23 @@
 ### P3
 - IMPL-F-0004 — Gemini CLI API key setup on Account 2 + non-interactive preflight receipt (blocked on key)
 - IMPL-F-0011 — DecisionAtom: revenue target reset (new deadline + leading indicators) (needs Sovereign ratification)
+
+## 2026-02-09 (Tranche G) — Rosetta + Kanban + Intentions mechanics
+
+### P0
+- IMPL-G-0008 — Kanban lint gating: validate Kind/Kanban/Reply-To/Receipts-To + watcher-safe prefixes
+
+### P1
+- IMPL-G-0009 — Fix twin relay surface drift (replace stale -INBOX/outputs references with canonical path)
+- IMPL-G-0003 — Five Invariants disambiguation (explicit list + override semantics in CLAUDE.md)
+
+### P2
+- IMPL-G-0004 — Memory Crystal protocol (token-economic session compaction artifact)
+- IMPL-G-0005 — Adversarial Validation checklist + routing rule (Oracle/Augur for disproof)
+- IMPL-G-0006 — Temporal versioning/decay metadata + refresh scanner (align w/ temporal pipeline)
+- IMPL-G-0007 — Syncrescript terminology migration (docs updated; tooling remains sn_*)
+- IMPL-G-0010 — Intentions triage hardening: cadence + INT id allocator + ‘resolved requires evidence’ lint
+
+### P3
+- IMPL-G-0001 — Medley/Chorus glossary + doc sweep (COCKPIT + ops)
+- IMPL-G-0002 — Complete Ring→sigma rename + sigma/tau glossary/migration note
