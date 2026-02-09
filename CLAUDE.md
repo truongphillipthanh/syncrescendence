@@ -53,8 +53,8 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
   commander/        Claude Code (Opus) incoming tasks
   adjudicator/      Codex CLI incoming tasks
   cartographer/     Gemini CLI incoming tasks
-  psyche/           OpenClaw GPT-5.2 incoming tasks
-  ajna/             OpenClaw Opus 4.5 incoming tasks
+  psyche/           OpenClaw GPT-5.3-codex incoming tasks (Mac mini)
+  ajna/             OpenClaw Kimi K2.5 incoming tasks (MBA remote)
 -OUTGOING/          CLI → WebApp prompt staging (Sovereign relays)
 -SOVEREIGN/         Async decision queue from CLI agents to Sovereign
 ```

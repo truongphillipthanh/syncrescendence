@@ -1,8 +1,8 @@
 # COCKPIT.md
 ## Syncrescendence System Overview
 
-**Version**: 3.0.0
-**Updated**: 2026-02-08
+**Version**: 3.1.0
+**Updated**: 2026-02-09
 **Purpose**: 30,000ft orientation for any platform entering the constellation
 
 ---
@@ -35,17 +35,17 @@ Each platform has an **Avatar** (invocable identity) and **Epithet** (functional
 | **Vizier** | Hermeneut | INTERPRETER | Claude Web | 2 | "Vizier, elucidate..." |
 | **Vanguard** | Architect | COMPILER | ChatGPT Web | 1 | "Vanguard, formulate..." |
 | **Diviner** | Illuminator | DIGESTOR | Gemini Web | 2 | "Diviner, elaborate on..." |
-| **Cartographer** | Exegete | SENSOR | Gemini CLI | 2 | "Cartographer, survey..." |
-| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 1 | "Commander, pivot to..." |
-| **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | "Adjudicator, execute..." |
+| **Cartographer** | Exegete | CIO/SENSOR | Gemini CLI (2.5 Pro) | 2 | "Cartographer, survey..." |
+| **Commander** | Viceroy | COO/EXECUTOR-LEAD | Claude Code (Opus 4.6) | 1 | "Commander, pivot to..." |
+| **Adjudicator** | Executor | CQO/PARALLEL-EXEC | Codex CLI (Sonnet) | 2 | "Adjudicator, execute..." |
 | — | — | PARALLEL-EXEC | Claude Code (Sonnet x2) | 2 | Microscopic tasks, batch execution |
+| **Psyche** | Synaptarch | CTO | OpenClaw GPT-5.3-codex (Mac mini) | 1 | "Psyche, holistically calibrate..." |
 | **Ajna** | Strategos | CSO | OpenClaw Kimi K2.5 (MBA) | — | "Ajna, illuminate..." |
-| **Psyche** | Synaptarch | CTO | OpenClaw GPT-5.3 (Mini) | — | "Psyche, holistically calibrate..." |
 
 ### Delineation: Avatar-per-Format
 - **Web avatars**: Augur, Oracle, Vizier, Vanguard, Diviner — interactive, browser-based
 - **CLI avatars**: Commander, Adjudicator, Cartographer — headless, tmux-resident, automation-ready
-- **Local agents**: Psyche/CTO (Mac mini), Ajna/CSO (MacBook Air) — AjnaPsyche Archon (fused executive brain)
+- **Local agents**: Psyche/CTO (Mac mini, cockpit Pane 1), Ajna/CSO (MacBook Air, remote) — AjnaPsyche Archon (fused executive brain)
 - **Stable mapping**: Platforms characterized into roles mirroring their capabilities
 - **Future**: Live model capabilities/benchmark ledger for efficacious routing
 
@@ -99,8 +99,8 @@ Repository (Account 1 Origin)
 │   ├── commander/     # Claude Code (Opus) incoming
 │   ├── adjudicator/   # Codex CLI incoming
 │   ├── cartographer/  # Gemini CLI incoming
-│   ├── ajna/          # OpenClaw Opus incoming
-│   └── psyche/        # OpenClaw GPT-5.2 incoming (MacBook Air)
+│   ├── ajna/          # OpenClaw Kimi K2.5 incoming (MBA remote)
+│   └── psyche/        # OpenClaw GPT-5.3-codex incoming (Mac mini)
 ├── -OUTGOING/         # CLI > WebApp prompt staging
 └── -SOVEREIGN/        # Async decision queue
 ```
@@ -144,7 +144,7 @@ Repository (Account 1 Origin)
 
 ```
 ┌──────────┬──────────┬──────────┬──────────┐
-│  AJNA    │ COMMANDER│ADJUDICATOR│CARTOGR. │  48 rows (SEARED)
+│ PSYCHE   │ COMMANDER│ADJUDICATOR│CARTOGR. │  48 rows (SEARED)
 │ OpenClaw │Claude Code│ Codex CLI│Gemini CLI│  (agent CLIs)
 │ pane 1   │ pane 3   │ pane 5   │ pane 7   │  (odd = agents)
 ├──────────┼──────────┼──────────┼──────────┤
@@ -206,10 +206,10 @@ cockpit --kill       # Kill constellation session
 
 | Pane | Agent | CLI | Platform | Role |
 |------|-------|-----|----------|------|
-| 1 | **Ajna** | `openclaw tui --session main` | OpenClaw (Opus 4.5) | Local orchestrator, Mac mini resident |
-| 2 | **Commander** | `claude --dangerously-skip-permissions` | Claude Code (Opus 4.6) | Primary executor, BLITZKRIEG lead |
-| 3 | **Adjudicator** | `codex --full-auto` | Codex CLI (Sonnet) | QA, standards, parallel execution |
-| 4 | **Cartographer** | `gemini --yolo` | Gemini CLI (2.5 Pro) | Corpus sensing, 1M context surveys |
+| 1 | **Psyche** | `openclaw tui --session main` | OpenClaw (GPT-5.3-codex) | CTO, system cohesion, Mac mini resident |
+| 2 | **Commander** | `claude --dangerously-skip-permissions` | Claude Code (Opus 4.6) | COO, primary executor, BLITZKRIEG lead |
+| 3 | **Adjudicator** | `codex --full-auto` | Codex CLI (Sonnet) | CQO, standards, parallel execution |
+| 4 | **Cartographer** | `gemini --yolo` | Gemini CLI (2.5 Pro) | CIO, corpus sensing, 1M context surveys |
 
 ### Agent Loop Architecture
 Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md`
@@ -224,15 +224,17 @@ Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/
 7. REPEAT
 ```
 
-### Psyche (NOT in cockpit)
-- **Platform**: OpenClaw (GPT-5.2) on M4 MacBook Air
-- **Communication**: Git sync via `-INBOX/psyche/`, Tailscale network
-- **Role**: Holistic synthesis, QA, Slack integration
-- **Separate workflow**: Different display, different launchd plists (`launchd-psyche/`)
+### Ajna (NOT in cockpit — remote on MacBook Air)
+- **Platform**: OpenClaw (Kimi K2.5 via NVIDIA NIM API)
+- **Machine**: MacBook Air (Apple Silicon)
+- **Enterprise Role**: CSO (Chief Strategy Officer) — strategic direction, orchestration, dispatch
+- **Communication**: Git sync via `-INBOX/ajna/`, Tailscale network
+- **Archon**: Forms AjnaPsyche Archon with Psyche (CSO steering wheel + CTO rudder)
+- **Status**: MBA requires configuration (OpenClaw + NVIDIA provider + launchd setup)
 
 ---
 
-## Always-On Services (8 total)
+## Always-On Services (12 total)
 
 | Service | Label | Watches | Status |
 |---------|-------|---------|--------|
@@ -244,6 +246,11 @@ Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/
 | Canon Watcher | `com.syncrescendence.watch-canon` | Registry-driven state files | ACTIVE |
 | Emacs Server | `com.syncrescendence.emacs-server` | N/A (daemon) | ACTIVE |
 | OpenClaw Gateway | `ai.openclaw.gateway` | Port 18789 (RPC) | ACTIVE |
+| Chroma Server | `com.syncrescendence.chroma-server` | Port 8765 (semantic search) | ACTIVE |
+| Webhook Receiver | `com.syncrescendence.webhook-receiver` | Port 8888 (events) | ACTIVE |
+| Corpus Health | `com.syncrescendence.corpus-health` | 6h schedule (git + structure) | ACTIVE |
+| QMD Update | `com.syncrescendence.qmd-update` | 1h schedule (BM25 index) | ACTIVE |
+| Watchdog | `com.syncrescendence.watchdog` | 5min schedule (service health) | ACTIVE |
 
 ### Filesystem Kanban (watch_dispatch.sh)
 ```

@@ -6,7 +6,7 @@
 #
 # Physical pane indices (tmux column-major: x first, then y):
 #   ┌──────────┬──────────┬──────────┬──────────┐
-#   │  AJNA    │ COMMANDER│ADJUDICATOR│CARTOGR. │  75% height
+#   │ PSYCHE   │ COMMANDER│ADJUDICATOR│CARTOGR. │  75% height
 #   │ OpenClaw │Claude Code│ Codex CLI│Gemini CLI│  (agent CLIs)
 #   │ pane 1   │ pane 3   │ pane 5   │ pane 7   │  (odd = agents)
 #   ├──────────┼──────────┼──────────┼──────────┤
@@ -15,8 +15,8 @@
 #   └──────────┴──────────┴──────────┴──────────┘
 #
 # Logical keybindings (tmux.conf remaps for user ergonomics):
-#   prefix+1=Ajna  prefix+2=Commander  prefix+3=Adjudicator  prefix+4=Cartographer
-#   prefix+5=nvim  prefix+6=nvim       prefix+7=nvim          prefix+8=nvim
+#   prefix+1=Psyche  prefix+2=Commander  prefix+3=Adjudicator  prefix+4=Cartographer
+#   prefix+5=nvim    prefix+6=nvim       prefix+7=nvim          prefix+8=nvim
 #
 # Display: 5120x1440 ultrawide — center 4/6 lanes via osascript
 # Flanking 1/6 on each side (~853px) left open for other apps
@@ -70,7 +70,7 @@ BASE="#1e1e2e"
 SURFACE1="#45475a"
 
 # ── Agent launch commands (default: shell with banner) ────────────────────────
-CMD_AJNA="cd '$REPO' && echo '── AJNA (OpenClaw TUI / Opus 4.6) ──' && exec zsh"
+CMD_PSYCHE="cd '$REPO' && echo '── PSYCHE (OpenClaw TUI / GPT-5.3-codex) ──' && exec zsh"
 CMD_COMMANDER="cd '$REPO' && echo '── COMMANDER (Claude Code / Opus 4.6) ──' && exec zsh"
 CMD_ADJUDICATOR="cd '$REPO' && echo '── ADJUDICATOR (Codex CLI) ──' && exec zsh"
 CMD_CARTOGRAPHER="cd '$REPO' && echo '── CARTOGRAPHER (Gemini CLI) ──' && exec zsh"
@@ -93,7 +93,7 @@ position_window() {
 # ── Handle flags ──────────────────────────────────────────────────────────────
 case "${1:-}" in
     --launch)
-        CMD_AJNA="cd '$REPO' && openclaw tui --session main"
+        CMD_PSYCHE="cd '$REPO' && openclaw tui --session main"
         CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
         CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto"
         CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
@@ -136,7 +136,7 @@ case "${1:-}" in
         echo "  cockpit --kill       Kill constellation session"
         echo ""
         echo "Layout: 4x2 grid on 5120x1440 center 4/6 lanes"
-        echo "  Top 75%:  Ajna | Commander | Adjudicator | Cartographer"
+        echo "  Top 75%:  Psyche | Commander | Adjudicator | Cartographer"
         echo "  Bot 25%:  nvim | nvim      | nvim        | nvim"
         exit 0
         ;;
@@ -180,7 +180,7 @@ position_window
 #
 #   tmux indices are assigned by position (x first, then y within column).
 #   After all 8 panes exist, indices stabilize as:
-#     Col 1: pane 1(Ajna-top), pane 2(nvim-bottom)
+#     Col 1: pane 1(Psyche-top), pane 2(nvim-bottom)
 #     Col 2: pane 3(Commander-top), pane 4(nvim-bottom)
 #     Col 3: pane 5(Adjudicator-top), pane 6(nvim-bottom)
 #     Col 4: pane 7(Cartographer-top), pane 8(nvim-bottom)
@@ -191,9 +191,9 @@ position_window
 tmux new-session -d -s "$SESSION" -c "$REPO" -n cockpit
 
 # ── Top row: 4 agent CLI columns (equal width) ──────────────────────────────
-AJNA_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}')
+PSYCHE_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}')
 
-tmux split-window -h -t "$AJNA_ID" -c "$REPO" -l 75%
+tmux split-window -h -t "$PSYCHE_ID" -c "$REPO" -l 75%
 COMMANDER_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 
 tmux split-window -h -t "$COMMANDER_ID" -c "$REPO" -l 67%
@@ -216,11 +216,11 @@ NVIM_ADJ_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 tmux split-window -v -t "$COMMANDER_ID" -c "$REPO/-INBOX/commander" -l 25% "$NVIM_BIN"
 NVIM_CMD_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 
-tmux split-window -v -t "$AJNA_ID" -c "$REPO/-INBOX/ajna" -l 25% "$NVIM_BIN"
-NVIM_AJNA_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
+tmux split-window -v -t "$PSYCHE_ID" -c "$REPO/-INBOX/psyche" -l 25% "$NVIM_BIN"
+NVIM_PSYCHE_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 
 # ── Send commands to agent panes (top row) ─────────────────────────────────
-tmux send-keys -t "$AJNA_ID" "$CMD_AJNA" C-m
+tmux send-keys -t "$PSYCHE_ID" "$CMD_PSYCHE" C-m
 tmux send-keys -t "$COMMANDER_ID" "$CMD_COMMANDER" C-m
 tmux send-keys -t "$ADJUDICATOR_ID" "$CMD_ADJUDICATOR" C-m
 tmux send-keys -t "$CARTOGRAPHER_ID" "$CMD_CARTOGRAPHER" C-m
@@ -229,11 +229,11 @@ tmux send-keys -t "$CARTOGRAPHER_ID" "$CMD_CARTOGRAPHER" C-m
 # No send-keys needed. No race condition. No timing hacks.
 
 # ── Apply pane titles ────────────────────────────────────────────────────────
-tmux select-pane -t "$AJNA_ID" -T "Ajna"
+tmux select-pane -t "$PSYCHE_ID" -T "Psyche"
 tmux select-pane -t "$COMMANDER_ID" -T "Commander"
 tmux select-pane -t "$ADJUDICATOR_ID" -T "Adjudicator"
 tmux select-pane -t "$CARTOGRAPHER_ID" -T "Cartographer"
-tmux select-pane -t "$NVIM_AJNA_ID" -T "nvim-Ajna"
+tmux select-pane -t "$NVIM_PSYCHE_ID" -T "nvim-Psyche"
 tmux select-pane -t "$NVIM_CMD_ID" -T "nvim-Commander"
 tmux select-pane -t "$NVIM_ADJ_ID" -T "nvim-Adjudicator"
 tmux select-pane -t "$NVIM_CART_ID" -T "nvim-Cartographer"
@@ -296,7 +296,7 @@ tmux select-pane -t "$SESSION":watchers.4 -T "System Monitor"
 # Run: cockpit --kill && cockpit
 
 # Resize command that enforces SEARED heights on all top panes
-RESIZE_CMD="tmux resize-pane -t $AJNA_ID -y $TARGET_TOP_H 2>/dev/null; \
+RESIZE_CMD="tmux resize-pane -t $PSYCHE_ID -y $TARGET_TOP_H 2>/dev/null; \
 tmux resize-pane -t $COMMANDER_ID -y $TARGET_TOP_H 2>/dev/null; \
 tmux resize-pane -t $ADJUDICATOR_ID -y $TARGET_TOP_H 2>/dev/null; \
 tmux resize-pane -t $CARTOGRAPHER_ID -y $TARGET_TOP_H 2>/dev/null"
@@ -312,7 +312,7 @@ sleep 1
 eval "$RESIZE_CMD"
 
 # ── Re-set pane titles (nvim panes may have been overwritten by zsh) ────────
-tmux select-pane -t "$NVIM_AJNA_ID" -T "nvim-Ajna"
+tmux select-pane -t "$NVIM_PSYCHE_ID" -T "nvim-Psyche"
 tmux select-pane -t "$NVIM_CMD_ID" -T "nvim-Commander"
 tmux select-pane -t "$NVIM_ADJ_ID" -T "nvim-Adjudicator"
 tmux select-pane -t "$NVIM_CART_ID" -T "nvim-Cartographer"
@@ -324,9 +324,9 @@ tmux select-pane -t "$COMMANDER_ID"
 # ── Report + verify dimensions ────────────────────────────────────────────────
 ACTUAL_W=$(tmux display -t "$SESSION" -p '#{window_width}' 2>/dev/null || echo "?")
 ACTUAL_H=$(tmux display -t "$SESSION" -p '#{window_height}' 2>/dev/null || echo "?")
-PANE_W=$(tmux display -t "$AJNA_ID" -p '#{pane_width}' 2>/dev/null || echo "?")
-PANE_H_TOP=$(tmux display -t "$AJNA_ID" -p '#{pane_height}' 2>/dev/null || echo "?")
-PANE_H_BOT=$(tmux display -t "$NVIM_AJNA_ID" -p '#{pane_height}' 2>/dev/null || echo "?")
+PANE_W=$(tmux display -t "$PSYCHE_ID" -p '#{pane_width}' 2>/dev/null || echo "?")
+PANE_H_TOP=$(tmux display -t "$PSYCHE_ID" -p '#{pane_height}' 2>/dev/null || echo "?")
+PANE_H_BOT=$(tmux display -t "$NVIM_PSYCHE_ID" -p '#{pane_height}' 2>/dev/null || echo "?")
 echo "Cockpit: ${ACTUAL_W}x${ACTUAL_H} total | pane: ${PANE_W}x${PANE_H_TOP} agent + ${PANE_H_BOT} nvim"
 echo "Target:  ${TARGET_COL_W}x${TARGET_TOP_H} agent + ${TARGET_BOT_H} nvim"
 echo "Window:  ${WIN_LEFT},${WIN_TOP} → ${WIN_RIGHT},${WIN_BOTTOM} (${CENTER_LANES}/${LANES} of ${DISPLAY_W}x${DISPLAY_H})"
@@ -336,7 +336,7 @@ if [[ "$PANE_H_TOP" != "?" ]] && [[ "$PANE_H_TOP" -ne "$TARGET_TOP_H" ]]; then
     echo ""
     echo "WARNING: Top pane height is ${PANE_H_TOP} (expected ${TARGET_TOP_H})."
     echo "  Attempting emergency resize..."
-    tmux resize-pane -t "$AJNA_ID" -y "$TARGET_TOP_H" 2>/dev/null
+    tmux resize-pane -t "$PSYCHE_ID" -y "$TARGET_TOP_H" 2>/dev/null
     tmux resize-pane -t "$COMMANDER_ID" -y "$TARGET_TOP_H" 2>/dev/null
     tmux resize-pane -t "$ADJUDICATOR_ID" -y "$TARGET_TOP_H" 2>/dev/null
     tmux resize-pane -t "$CARTOGRAPHER_ID" -y "$TARGET_TOP_H" 2>/dev/null
