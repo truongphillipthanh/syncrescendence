@@ -230,7 +230,7 @@ Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/
 - **Enterprise Role**: CSO (Chief Strategy Officer) — strategic direction, orchestration, dispatch
 - **Communication**: Git sync via `-INBOX/ajna/`, Tailscale network
 - **Archon**: Forms AjnaPsyche Archon with Psyche (CSO steering wheel + CTO rudder)
-- **Status**: MBA requires configuration (OpenClaw + NVIDIA provider + launchd setup)
+- **Status**: MBA configured — OpenClaw + NVIDIA provider active
 
 ---
 

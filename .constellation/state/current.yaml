@@ -1,4 +1,4 @@
-fingerprint: b3e3379
-timestamp: 2026-02-09T20:08:53Z
+fingerprint: 6f0a3bd
+timestamp: 2026-02-09T20:22:52Z
 branch: main
-message: Redact leaked NVIDIA API key from repo artifacts
+message: chore: auto-compact wisdom at threshold (10 entries)
