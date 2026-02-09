@@ -70,6 +70,17 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash 00-ORCHESTRATION/scripts/post_commit_ledger.sh"
+          }
+        ]
+      }
     ]
   },
   "project": {
