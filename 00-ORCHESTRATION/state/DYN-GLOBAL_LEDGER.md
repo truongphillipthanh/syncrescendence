@@ -135,3 +135,9 @@
 | 2026-02-07T18:01:24 | CLAIM | commander | commander | TASK-20260207-highcommand-reflect-phase8-entities-pinned-tasks.md | d53f42b | d53f42b | — | — |
 | 2026-02-07T18:01:25 | COMPLETE | commander | — | TASK-20260207-highcommand-reflect-phase8-entities-pinned-tasks.md | d53f42b | d53f42b | — | — |
 | 2026-02-07T18:07:04 | COMPLETE | commander | — | TASK-20260207-highcommand-reflect-phase6-allnotes-table.md | d53f42b | d53f42b | — | — |
+| 2026-02-09T07:17:11 | DISPATCH | dispatch | adjudicator | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
+| 2026-02-09T07:17:13 | DISPATCH | dispatch | cartographer | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
+| 2026-02-09T07:17:21 | CLAIM | adjudicator | adjudicator | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
+| 2026-02-09T07:17:21 | CLAIM | cartographer | cartographer | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
+| 2026-02-09T07:17:33 | COMPLETE | cartographer | — | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |
+| 2026-02-09T07:17:36 | COMPLETE | adjudicator | — | TASK-20260208-watcher_smoke_test.md | afa0635 | afa0635 | — | — |

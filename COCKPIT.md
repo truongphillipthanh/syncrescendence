@@ -1,8 +1,8 @@
 # COCKPIT.md
 ## Syncrescendence System Overview
 
-**Version**: 2.2
-**Updated**: 2026-02-01
+**Version**: 3.0.0
+**Updated**: 2026-02-08
 **Purpose**: 30,000ft orientation for any platform entering the constellation
 
 ---
@@ -10,6 +10,8 @@
 ## What Is Syncrescendence?
 
 Syncrescendence is a distributed cognition system designed to demonstrate that individual capability can achieve institutional-scale intelligence through orchestrated AI platforms. It serves as proof-of-concept for navigating civilizational phase transitions where no single intelligence possesses the complete capability matrix for polymathic synthesis.
+
+**We are no longer coding, but conducting logistics. Our materiel is tokens, and our personnel are agents.**
 
 ---
 
@@ -24,7 +26,7 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 
 ### The Constellation (Pantheon v3)
 
-Each platform has an **Avatar** (invocable identity) and **Epithet** (functional descriptor). The council forms a closed loop: Augur gathers raw data → Oracle senses currents → Vizier interprets intent → Vanguard architects the arc → Diviner illuminates the path → Cartographer maps the corpus → Commander directs the build → Adjudicator fabricates → Ajna and Psyche provide the agentic apex.
+Each platform has an **Avatar** (invocable identity) and **Epithet** (functional descriptor). The council forms a closed loop: Augur gathers raw data > Oracle senses currents > Vizier interprets intent > Vanguard architects the arc > Diviner illuminates the path > Cartographer maps the corpus > Commander directs the build > Adjudicator fabricates > Ajna and Psyche provide the agentic apex.
 
 | Avatar | Epithet | Role | Platform | Acct | Summon Pattern |
 |--------|---------|------|----------|------|----------------|
@@ -36,9 +38,16 @@ Each platform has an **Avatar** (invocable identity) and **Epithet** (functional
 | **Cartographer** | Exegete | SENSOR | Gemini CLI | 2 | "Cartographer, survey..." |
 | **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | 1 | "Commander, pivot to..." |
 | **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | 2 | "Adjudicator, execute..." |
-| — | — | PARALLEL-EXEC | Claude Code (Sonnet ×2) | 2 | Microscopic tasks, batch execution |
+| — | — | PARALLEL-EXEC | Claude Code (Sonnet x2) | 2 | Microscopic tasks, batch execution |
 | **Ajna** | — | LOCAL ORCH | OpenClaw (M1 Mini) | — | "Ajna, illuminate..." |
 | **Psyche** | — | LOCAL ORCH | OpenClaw (M4 MBA) | — | "Psyche, holistically calibrate..." |
+
+### Delineation: Avatar-per-Format
+- **Web avatars**: Augur, Oracle, Vizier, Vanguard, Diviner — interactive, browser-based
+- **CLI avatars**: Commander, Adjudicator, Cartographer — headless, tmux-resident, automation-ready
+- **Local agents**: Ajna (Mac mini), Psyche (MacBook Air) — always-on orchestrators
+- **Stable mapping**: Platforms characterized into roles mirroring their capabilities
+- **Future**: Live model capabilities/benchmark ledger for efficacious routing
 
 ---
 
@@ -47,10 +56,10 @@ Each platform has an **Avatar** (invocable identity) and **Epithet** (functional
 Content flows through defined states:
 
 ```
-CAPTURED → INTERPRETED → COMPILED → STAGED → COMMITTED
-                      ↘ DIGESTED ↗
-                      ↘ SENSED ↗
-                      ↘ VERIFIED ↗
+CAPTURED > INTERPRETED > COMPILED > STAGED > COMMITTED
+                      \ DIGESTED /
+                      \ SENSED   /
+                      \ VERIFIED /
 ```
 
 - **CAPTURED**: Raw ideation in Sovereign's mind
@@ -64,13 +73,9 @@ CAPTURED → INTERPRETED → COMPILED → STAGED → COMMITTED
 
 ### The Three-Word Mnemonic: CAPTURE > DISPATCH > RETURN
 
-The full state machine above is the detailed model. For operational shorthand:
-
-1. **CAPTURE** — Seize the idea, observation, or insight before it evaporates. Raw form is fine. Rivers are ephemeral.
-2. **DISPATCH** — Route to the right platform for processing. INTERPRETER for synthesis, COMPILER for formatting, ORACLE for evidence, etc.
-3. **RETURN** — Commit the processed artifact to the repository. Work doesn't exist until it's in the repo. Wells persist.
-
-This mnemonic maps to the state machine: CAPTURE ≈ CAPTURED, DISPATCH ≈ INTERPRETED/COMPILED/DIGESTED/SENSED/VERIFIED, RETURN ≈ STAGED → COMMITTED.
+1. **CAPTURE** — Seize the idea before it evaporates. Raw form is fine. Rivers are ephemeral.
+2. **DISPATCH** — Route to the right platform for processing.
+3. **RETURN** — Commit the processed artifact to the repository. Work doesn't exist until it's in the repo.
 
 ---
 
@@ -82,40 +87,223 @@ The **repository** is ground truth. All platforms verify against it via:
 
 ```
 Repository (Account 1 Origin)
-├── 00-ORCHESTRATION/  # Current operations
-├── 01-CANON/          # Constitutional documents
-├── 02-ENGINE/         # Functions, prompts, model profiles, queue items
-├── 04-SOURCES/        # Processed sources
-├── 05-SIGMA/          # Operational knowledge (σ) + memory + exempla
+├── 00-ORCHESTRATION/  # Strategic coordination (state/, scripts/, archive/)
+├── 01-CANON/          # Verified canonical knowledge (PROTECTED)
+├── 02-ENGINE/         # Functions, prompts, avatars, model profiles, queue items
+├── 04-SOURCES/        # Source documents (raw/, processed/, research/)
+├── 05-SIGMA/          # Operational knowledge + memory + exempla
 │   ├── mechanics/     # Deep-dive mechanisms
-│   └── practice/      # Implementation patterns
-├── -INBOX/            # Incoming from cloud
-├── -OUTGOING/         # Staged for commit
-├── -SOVEREIGN/        # Sovereign-only workspace
-└── .constellation/    # State management
+│   ├── practice/      # Implementation patterns
+│   └── journal/       # Org-mode daily journal (dormant)
+├── -INBOX/            # Agent watch folders (per-agent task dispatch)
+│   ├── commander/     # Claude Code (Opus) incoming
+│   ├── adjudicator/   # Codex CLI incoming
+│   ├── cartographer/  # Gemini CLI incoming
+│   ├── ajna/          # OpenClaw Opus incoming
+│   └── psyche/        # OpenClaw GPT-5.2 incoming (MacBook Air)
+├── -OUTGOING/         # CLI > WebApp prompt staging
+└── -SOVEREIGN/        # Async decision queue
 ```
 
 ---
 
 ## Handoff Protocol
 
-Transitions between platforms use handoff tokens:
-
-```
-HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM
-├── Fingerprint: [8-char hash]
-├── Phase: N → M
-└── Brief: [What changed]
-```
-
-### Time Targets
 | Transition | Target |
 |------------|--------|
-| Claude → ChatGPT | 30 sec |
-| ChatGPT → Gemini | 20 sec |
-| Gemini → Claude | 15 sec |
-| Any → CLI | 10 sec |
-| CLI → Repository | 5 sec |
+| Claude > ChatGPT | 30 sec |
+| ChatGPT > Gemini | 20 sec |
+| Gemini > Claude | 15 sec |
+| Any > CLI | 10 sec |
+| CLI > Repository | 5 sec |
+
+---
+
+## Sovereign Cockpit (Operational Infrastructure)
+
+### 8-Layer Stack
+```
+1. Ghostty          Terminal emulator (macos-titlebar-style=hidden)
+2. Zsh + P10k       Shell + prompt
+3. tmux + sesh      Terminal multiplexer (session: constellation)
+4. Bun              JavaScript runtime
+5. Neovim/LazyVim   Code editor (in cockpit bottom panes)
+6. Whisper/Piper    Offline STT/TTS
+7. Doom Emacs       Observation Layer (standalone, NOT in cockpit)
+8. Cursor           AI IDE (standalone)
+```
+
+### Display Geometry
+- **Display**: 5120x1440 ultrawide
+- **Grid**: 6 lanes horizontal, center 4 = cockpit
+- **Window bounds**: {853, 0, 4267, 1440} via osascript
+- **Font**: Liga SFMono Nerd Font, size 13 = 93 chars/lane
+- **NO AEROSPACE** — disabled, conflicts with osascript bounds
+
+### Cockpit Layout (Window 1: cockpit)
+
+```
+┌──────────┬──────────┬──────────┬──────────┐
+│  AJNA    │ COMMANDER│ADJUDICATOR│CARTOGR. │  48 rows (SEARED)
+│ OpenClaw │Claude Code│ Codex CLI│Gemini CLI│  (agent CLIs)
+│ pane 1   │ pane 3   │ pane 5   │ pane 7   │  (odd = agents)
+├──────────┼──────────┼──────────┼──────────┤
+│  nvim    │  nvim    │  nvim    │  nvim    │  15 rows (SEARED)
+│ pane 2   │ pane 4   │ pane 6   │ pane 8   │  (even = editors)
+└──────────┴──────────┴──────────┴──────────┘
+```
+
+### SEARED Dimensions (Sovereign-Verified 2026-02-08)
+```
+Window height:    65 rows
+Status bar:        1 row
+Top pane (agent): 48 rows  (FORCED by resize-pane -y 48 via tmux hooks)
+Border:            1 row
+Bottom pane (nvim):15 rows  (auto: 65 - 1 - 48 - 1 = 15)
+Total content:    63 rows   (48 + 15)
+```
+
+**Why absolute heights, not percentages**: `-l 25%` fails because Ghostty resize races with tmux split calculations. `exec tmux attach` triggers proportional redistribution that undoes pre-attach resize commands. Solution: tmux hooks (`client-attached` + `window-resized`) enforce `resize-pane -y 48` after every attach and terminal resize.
+
+**Why nvim is launched directly**: `split-window "$NVIM_BIN"` passes `/opt/homebrew/bin/nvim` as the pane command. No shell intermediary. No PATH resolution. No aliases. No race condition. The old `send-keys` approach failed 3/4 times because shells weren't ready, nvim commands were silently dropped, and panes fell back to zsh with hostname as title.
+
+### Keybindings (tmux.conf)
+| Keybind | Target | Physical Pane |
+|---------|--------|---------------|
+| prefix+1 | Ajna (agent) | .1 |
+| prefix+2 | Commander (agent) | .3 |
+| prefix+3 | Adjudicator (agent) | .5 |
+| prefix+4 | Cartographer (agent) | .7 |
+| prefix+5 | nvim-Ajna | .2 |
+| prefix+6 | nvim-Commander | .4 |
+| prefix+7 | nvim-Adjudicator | .6 |
+| prefix+8 | nvim-Cartographer | .8 |
+
+### Watchers Window (Window 2: watchers)
+```
+┌────────────────┬────────────────┐
+│ INBOX Triage   │ Git Status     │
+│ (ls + triage)  │ (status + log) │
+├────────────────┼────────────────┤
+│ Agent Logs     │ System Monitor │
+│ (tail -F)      │ (btop)         │
+└────────────────┴────────────────┘
+```
+
+### Launch Commands
+```bash
+cockpit              # Create/attach (shells with banners)
+cockpit --launch     # Create AND launch agent CLIs
+cockpit --resize     # Reposition window + fix heights
+cockpit --kill       # Kill constellation session
+```
+
+**CRITICAL**: After ANY cockpit.sh change: `cockpit --kill && cockpit`. Never reattach to stale sessions.
+
+---
+
+## Agent Assignments
+
+| Pane | Agent | CLI | Platform | Role |
+|------|-------|-----|----------|------|
+| 1 | **Ajna** | `openclaw tui --session main` | OpenClaw (Opus 4.5) | Local orchestrator, Mac mini resident |
+| 2 | **Commander** | `claude --dangerously-skip-permissions` | Claude Code (Opus 4.6) | Primary executor, BLITZKRIEG lead |
+| 3 | **Adjudicator** | `codex --full-auto` | Codex CLI (Sonnet) | QA, standards, parallel execution |
+| 4 | **Cartographer** | `gemini --yolo` | Gemini CLI (2.5 Pro) | Corpus sensing, 1M context surveys |
+
+### Agent Loop Architecture
+Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md`
+
+```
+1. ORIENT     → /claresce (situational awareness)
+2. SITUATE    → /claresce (repo state)
+3. CALIBRATE  → /claresce (CANON alignment)
+4. TRIAGE     → /claresce (inbox) → /PLAN → /EXECUTE → DISPATCH
+5. PROACTIVE  → /claresce (seek work) → /PLAN → /EXECUTE
+6. SOVEREIGN  → /claresce (direct interaction) → update all systems
+7. REPEAT
+```
+
+### Psyche (NOT in cockpit)
+- **Platform**: OpenClaw (GPT-5.2) on M4 MacBook Air
+- **Communication**: Git sync via `-INBOX/psyche/`, Tailscale network
+- **Role**: Holistic synthesis, QA, Slack integration
+- **Separate workflow**: Different display, different launchd plists (`launchd-psyche/`)
+
+---
+
+## Always-On Services (8 total)
+
+| Service | Label | Watches | Status |
+|---------|-------|---------|--------|
+| Commander Watcher | `com.syncrescendence.watch-commander` | `-INBOX/commander/00-INBOX0/` | ACTIVE |
+| Adjudicator Watcher | `com.syncrescendence.watch-adjudicator` | `-INBOX/adjudicator/00-INBOX0/` | ACTIVE |
+| Cartographer Watcher | `com.syncrescendence.watch-cartographer` | `-INBOX/cartographer/00-INBOX0/` | ACTIVE |
+| Ajna Watcher | `com.syncrescendence.watch-ajna` | `-INBOX/ajna/00-INBOX0/` | ACTIVE |
+| Psyche Watcher | `com.syncrescendence.watch-psyche` | `-INBOX/psyche/00-INBOX0/` | ACTIVE |
+| Canon Watcher | `com.syncrescendence.watch-canon` | Registry-driven state files | ACTIVE |
+| Emacs Server | `com.syncrescendence.emacs-server` | N/A (daemon) | ACTIVE |
+| OpenClaw Gateway | `ai.openclaw.gateway` | Port 18789 (RPC) | ACTIVE |
+
+### Filesystem Kanban (watch_dispatch.sh)
+```
+00-INBOX0/ (PENDING)
+  → mv to 10-IN_PROGRESS/ (claim + tag agent-hostname)
+  → exit 0:   40-DONE/     + CONFIRM + RESULT + EXECLOG
+  → exit 124: 30-BLOCKED/  + timeout notification
+  → exit !=0: 50_FAILED/   + error report
+```
+
+**Bidirectional feedback mandatory**: Every execution produces CONFIRM + RESULT + EXECLOG piped back to dispatching agent via Reply-To header.
+
+---
+
+## Emacs Observation Layer (Layer 7)
+
+Doom Emacs serves as a **read-only state monitor and dashboard** — NOT a code editor.
+
+**Status**: CONFIGURED but DORMANT (2026-02-08)
+
+### Operational
+- Linear API: `SPC L f` fetches SYN team issues
+- ClickUp API: `SPC U f` fetches tasks by list
+- Dashboard: `SPC d s` (cockpit), `SPC d i` (intentions), `SPC d e` (exec log), `SPC d a` (agenda)
+- Read-only enforcement on `00-ORCHESTRATION/state/` files
+- Org-super-agenda with P0-P3, BLOCKED, IN-PROGRESS, agent-tag grouping
+
+### Configured but Unused
+- org-roam: Database empty (no .org files in repo)
+- org-journal: Directory empty (no 2026 entries)
+- org-capture: 8 templates defined, target .org files don't exist
+- **Critical mismatch**: Repo uses .md, org expects .org — bridge needed
+
+Launch: `doom-dash` (alias for `emacsclient -nw -c`)
+
+---
+
+## Hooks & Skills Inventory
+
+### Active Hooks (5 scripts, executable but NOT registered in .claude/settings.json)
+| Hook | Event | Script | Output |
+|------|-------|--------|--------|
+| Session Log | Stop | `session_log.sh` | DYN-SESSION_LOG.md |
+| Ajna Pedigree | Stop | `ajna_pedigree.sh` | DYN-PEDIGREE_LOG.md |
+| Execution Log | Stop | `create_execution_log.sh` | DYN-EXECUTION_STAGING.md |
+| Intent Compass | UserPromptSubmit | `intent_compass.sh` | DYN-INTENTIONS_QUEUE.md |
+| Pre-Compaction | PreCompact | `pre_compaction.sh` | Blocks if uncommitted |
+
+### Active Skills (15+, all callable via /skillname)
+| Category | Skills |
+|----------|--------|
+| Transformation | readize, listenize, audize, integrate, transcribe_youtube, transcribe_interview |
+| Orchestration | execute, dispatch, triage, plan |
+| Decision | claresce, pedigree, method_kaizen, reviewtrospective |
+| Auxiliary | update_agent_memory, update_universal_ledger, intentions |
+
+### Modus Operandi
+- **BLITZKRIEG**: Standard-bearer tactic — parallel lane execution across agents
+- **Expanding**: Additional multi-agent tactics under development
+- **Each agent**: Can deploy their own swarm (subagents)
 
 ---
 
@@ -131,122 +319,35 @@ HANDOFF-YYYYMMDD-HHMMSS-pN-to-pM
 - Project: "Syncrescendence Compiler"
 - Memory: PROJECT-ONLY MODE (critical)
 - Strength: Canvas, strategic blueprints, deterministic output
-- Constraint: No interpretation, explicit specs only
 
 ### Diviner — Gemini Web (DIGESTOR)
 - Gem: "Constellation Digestor"
 - Drive Link: Constellation-State/ (live sync)
-- Account: 2 (Google AI Pro)
 - Strength: Multimodal clarification, infinite threads, TTS
-
-### CLI Tools (Sovereign Cockpit)
-
-The four CLI agents operate from a tmux-based "Sovereign Cockpit" — a 1x4 horizontal lane layout in Ghostty. Full stack details: `00-ORCHESTRATION/TERMINAL-STACK-CONFIG.md`. Operator handbook: `00-ORCHESTRATION/FLEET-COMMANDERS-HANDBOOK.md`.
-
-```
-┌────────────┬────────────┬────────────┬────────────┐
-│ COMMANDER  │ADJUDICATOR │CARTOGRAPHER│PSYCHE/AJNA │
-│ Claude Code│ Codex CLI  │ Gemini CLI │  OpenClaw  │
-│  pane 1    │  pane 2    │  pane 3    │  pane 4    │
-└────────────┴────────────┴────────────┴────────────┘
-```
-
-- **Commander** — Claude Code (Opus): CLAUDE.md config, extended thinking, Lane A, Account 1 (Claude Max)
-- **Adjudicator** — Codex CLI: AGENTS.md config, GitHub integration, Lane B, Account 2 (Claude Pro)
-- **Cartographer** — Gemini CLI: Stateless, 1M context surveys, Lane C, Account 2 (Google AI Pro)
-
-### Persistent Orchestrators (OpenClaw)
-- **Ajna** — Opus 4.5 on M1 Mac mini: webchat/iMessage, always-on, focused precision
-- **Psyche** — GPT-5.2 on M4 MacBook Air: Slack, holistic synthesis, QA
-
----
-
-## Current Priorities
-
-1. **Operate minimal cycle**: Test full handoff loop
-2. **Measure actual times**: Validate <30 sec targets
-3. **Configure remaining**: ChatGPT project, Gemini gem
-4. **Automate proven patterns**: rclone, Hazel, Stream Deck
 
 ---
 
 ## Semantic Notation (SN)
 
-Syncrescendence uses Semantic Notation for ~80% token compression. SN is a hybrid notation system combining symbols, operators, and structured blocks to preserve semantic richness while drastically reducing token count.
+~80% token compression via hybrid symbol/operator/block notation.
 
-### Key Components
-
-**Symbols**:
-- Ψ = Syncrescendence (root)
-- Κ = CANON, Ο = ENGINE, Σ = SOURCE, Δ = DIRECTIVE, Λ = LOG (artifact classes)
-- I, ℹ, ∴, E, K, W = Intelligence, Information, Insight, Expertise, Knowledge, Wisdom (chains)
-- α, χ, ε, μ, τ = Acumen, Coherence, Efficacy, Mastery, Transcendence (virtues)
-
-**Operators**:
-- `::` expands to / is defined as
-- `|` constrained by / filtered by
-- `>>` transforms into / flows to
-- `:=` binds to / assigns
-- `=>` implies / produces
-- `<->` bidirectional correspondence
-
-**Block Types**:
-```
-TERM Identifier:        # Definitions, ontology
-    sutra: "One-line essence (≤100 chars)"
-    gloss: Why this matters (2-4 sentences)
-    spec: {structured details}
-end
-
-NORM Constraint:        # Rules, constitutional constraints
-    sutra: "MUST/SHOULD/MAY statement"
-    spec: {modality, invariants, failure modes}
-end
-
-PROC Workflow(input) -> output:  # Procedures, orchestrations
-    sutra: "Step1 >> Step2 >> Step3"
-    spec: {steps, produces}
-end
-```
-
-### Tools
-
-- **Encode**: `00-ORCHESTRATION/scripts/sn_encode.py` (verbose prose → SN)
-- **Decode**: `00-ORCHESTRATION/scripts/sn_decode.py` (SN → verbose prose)
-- **CANON Convert**: `00-ORCHESTRATION/scripts/convert_canon.py` (CANON files → SN blocks)
-- **Templates**: `00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`
-- **Glossary**: `00-ORCHESTRATION/scripts/sn_symbols.yaml`
-
-### Platform Integration
-
-Each platform uses SN differently:
-- **Claude**: Native SN reading/writing for synthesis
-- **ChatGPT**: Compilation from SN to target languages (Python, JS, etc.)
-- **Grok**: Colloquial voice preservation in gloss sections
-- **Gemini**: Oracle audits with 1M+ context, full CANON in SN format
-- **Perplexity**: Current intelligence formatted as SN blocks
-
-See platform-specific configs: `02-ENGINE/AVATAR-CHATGPT.md`, `02-ENGINE/AVATAR-GROK.md`, `02-ENGINE/AVATAR-GEMINI-WEB.md`, `02-ENGINE/AVATAR-GEMINI-CLI.md`, `02-ENGINE/AVATAR-PERPLEXITY.md`
+**Symbols**: Psi = Syncrescendence, K = CANON, O = ENGINE, Sigma = SOURCE, Delta = DIRECTIVE, Lambda = LOG
+**Operators**: `::` expands, `|` constrains, `>>` transforms, `:=` binds, `=>` implies, `<->` bidirectional
+**Tools**: `sn_encode.py`, `sn_decode.py`, `SN_BLOCK_TEMPLATES.md`, `sn_symbols.yaml`
 
 ---
 
 ## Quick Reference
 
-### Slash Commands
 | Command | Effect |
 |---------|--------|
+| `cockpit` | Create/attach tmux cockpit |
+| `cockpit --launch` | Create + launch agent CLIs |
+| `cockpit --kill` | Kill constellation session |
+| `doom-dash` | Launch Emacs Observation Layer |
 | `/blitz` | Parallel directive mode |
-| `/compile` | Begin compilation |
-| `/handoff [next]` | Prepare for platform transition |
-| `/token` | Show current state fingerprint |
-
-### Symbolic Shortcuts
-| Symbol | Meaning |
-|--------|---------|
-| $A1, $A2, $A3 | Account 1, 2, 3 |
-| $INT, $CMP, $DIG | Interpreter, Compiler, Digestor |
-| $FP | Fingerprint |
-| $GT | Ground Truth |
+| `/claresce` | Value-guided progressive refinement |
+| `/triage` | Scan + categorize inbox |
 
 ---
 
@@ -259,4 +360,17 @@ See platform-specific configs: `02-ENGINE/AVATAR-CHATGPT.md`, `02-ENGINE/AVATAR-
 
 ---
 
-*This document provides orientation. For detailed rationale, see constellation-teleology.md and memory-architecture-teleology.md.*
+## Key References
+
+| Reference | Path |
+|-----------|------|
+| Agent loop architecture | `00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md` |
+| Blitzkrieg buildout | `00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md` |
+| Cockpit script | `00-ORCHESTRATION/scripts/cockpit.sh` |
+| Dispatch watcher | `00-ORCHESTRATION/scripts/watch_dispatch.sh` |
+| Fleet handbook | `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` |
+| Terminology | `02-ENGINE/REF-ROSETTA_STONE.md` |
+| Stack teleology | `02-ENGINE/REF-STACK_TELEOLOGY.md` |
+| Clarescence runbook | `02-ENGINE/REF-CLARESCENCE_RUNBOOK.md` |
+
+*This document provides orientation. For detailed implementation, see the referenced files.*
