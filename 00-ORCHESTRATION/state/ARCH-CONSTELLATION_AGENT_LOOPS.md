@@ -291,7 +291,7 @@ REPEAT
 **Machine**: MacBook Air (previously Psyche's, now Ajna's permanent home)
 **Communication**: Git sync via `-INBOX/ajna/`, Tailscale network
 **Enterprise Role**: Chief Strategy Officer (CSO) — strategic direction, orchestration, dispatch
-**Note**: MBA requires configuration (OpenClaw + NVIDIA provider + launchd watchers + skills)
+**Status**: MBA configured — OpenClaw v2026.2.9 + NVIDIA/Kimi K2.5 provider + launchd watchers + 16 universal skills + 11 workspace skills active
 
 ---
 

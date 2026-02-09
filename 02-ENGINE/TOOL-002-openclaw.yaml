@@ -19,14 +19,14 @@ integration_points:
   - git
 status: ACTIVE
 instances:
-  - name: Ajna
-    model: "Opus 4.5"
-    device: "M1 Mac mini"
-    avatar: "Third Eye"
   - name: Psyche
-    model: "GPT-5.2"
-    device: "M4 MacBook Air"
+    model: "GPT-5.3-codex"
+    device: "M1 Mac mini"
     avatar: "Soul/Mind"
+  - name: Ajna
+    model: "Kimi K2.5 (NVIDIA NIM)"
+    device: "M4 MacBook Air"
+    avatar: "Third Eye"
 provenance:
   - source: "CLAUDE.md (OpenClaw Integration Layer)"
   - source: "DYN-TWIN_COORDINATION_PROTOCOL.md"

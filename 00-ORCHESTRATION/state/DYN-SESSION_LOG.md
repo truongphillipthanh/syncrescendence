@@ -730,3 +730,16 @@ ef48c16 feat: claudecron Phase 1 — 3 scheduled claude -p tasks via launchd
 **Changes**:  31 files changed, 469 insertions(+), 2330 deletions(-)
 
 ---
+
+### 2026-02-09 12:42:05 | Branch: main
+**Recent commits**:
+```
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escalations
+6fc62fb fix: constellation reconfiguration — Ajna→Mac mini, Psyche→MBA
+6f0a3bd chore: auto-compact wisdom at threshold (10 entries)
+```
+**Changes**:  4 files changed, 18 insertions(+), 20 deletions(-)
+
+---
