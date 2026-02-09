@@ -169,3 +169,9 @@
 - **2026-02-09 11:48:28** | `| list_issues (SYN team) | PASS | Returned 10 issues including SYN-31 through SYN-36 with full metadata (priority, status, labels, dates, descriptions) |`
 
 - **2026-02-09 11:53:02** | `The corpus-health daemon (`com.syncrescendence.corpus-health`) ran `git status --porcelain` and alerted on ALL uncommitted changes. Session hooks (`session_log.sh`, `ajna_pedigree.sh`, `create_executi`
+
+- **2026-02-09 12:17:39** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-09 12:17:39** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-09 12:22:59** | `**Phase 3 (Month 2)**: Add claude-code-scheduler plugin if autonomy/safety becomes priority`
