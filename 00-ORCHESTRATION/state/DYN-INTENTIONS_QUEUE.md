@@ -165,3 +165,7 @@
 - **2026-02-09 11:38:05** | `Several community npm packages also exist (`linear-mcp`, `@calltelemetry/linear-mcp`, `@mseep/linear-mcp`), but the official hosted server is the cleanest option -- zero npm install, zero local proces`
 
 - **2026-02-09 11:40:38** | `  - Super-agenda: Grouped by P0-P3 priority + agent tags + status`
+
+- **2026-02-09 11:48:28** | `| list_issues (SYN team) | PASS | Returned 10 issues including SYN-31 through SYN-36 with full metadata (priority, status, labels, dates, descriptions) |`
+
+- **2026-02-09 11:53:02** | `The corpus-health daemon (`com.syncrescendence.corpus-health`) ran `git status --porcelain` and alerted on ALL uncommitted changes. Session hooks (`session_log.sh`, `ajna_pedigree.sh`, `create_executi`

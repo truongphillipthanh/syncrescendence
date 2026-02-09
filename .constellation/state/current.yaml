@@ -1,4 +1,4 @@
-fingerprint: 3fab9c9
-timestamp: 2026-02-09T19:43:33Z
+fingerprint: f42af3e
+timestamp: 2026-02-09T19:53:15Z
 branch: main
-message: chore: auto-compact wisdom at threshold (10 entries)
+message: fix: corpus-health excludes expected DYN state files from dirty detection
