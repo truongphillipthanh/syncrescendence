@@ -1394,3 +1394,125 @@
   venue: tool
   status: new
   notes: "Requires interactive Neovim session."
+
+## 2026-02-09 — Tranche F (Spine follow-ons): Toolchain alignment + Neo-Blitzkrieg + Intentions
+
+- id: IMPL-F-0001
+  source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
+  source_lines: "115–140 (New Terms Needed + Existing Terms to Update)"
+  intent: Update Rosetta Stone so OpenClaw/Codex/Gemini operational primitives are canonically defined.
+  deliverable: REF-ROSETTA_STONE.md: add terms #170–180 (Gateway/Skills/Heartbeat/Sub-agent/Node/Approval Mode/Codex Cloud/--yolo/AGENTS.md/Evidence Pack/Stateless Invocation) and update entries #14/#48/#49/#114/#122/#124 per clarescence.
+  dependencies: IMPL-A-0008 (CANON-31150 platform catalog rewrite); confirm current Rosetta numbering.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-F-0002
+  source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
+  source_lines: "171–172 (Mitigation: regeneration protocol)"
+  intent: Prevent the platform capability catalog from going stale.
+  deliverable: Implement/verify PROC::Regeneration for CANON-31150: keep platform matrix in JSON and regenerate the markdown catalog from a template; document edit policy (edit JSON, not the generated file).
+  dependencies: IMPL-A-0008; existing regenerate_canon.py / templating system.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-F-0003
+  source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
+  source_lines: "181–185 (Recommended Execution streams)"
+  intent: Make the Toolchain Clarescence executable as a repeatable micro-cycle.
+  deliverable: Add a Neo-Blitzkrieg “Toolchain Alignment” micro-cycle template (Stream A/B/C) with task stubs that dispatch to Commander/Adjudicator/Cartographer + expected receipts.
+  dependencies: IMPL-A-0010 (DYN-TOOLCHAIN_INTERACTION_PROTOCOL).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-F-0004
+  source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
+  source_lines: "86–88 (Gemini CLI API key setup on Account 2)"
+  intent: Activate Cartographer lane at full strength.
+  deliverable: Verify Gemini CLI on Account 2 has API key configured; add a non-interactive preflight check + a PASS/FAIL receipt artifact.
+  dependencies: Sovereign provides key / account access; security posture for env vars.
+  owner_lane: Sovereign + Commander
+  venue: tool+repo
+  status: blocked
+
+- id: IMPL-F-0005
+  source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
+  source_lines: "96–100 (FDIS Foundation)"
+  intent: Turn FDIS from a slogan into a requirements-backed node spec.
+  deliverable: FDIS v0 requirements (derived from CANON + Compass + DYN backlog) and a “Modal 1 field node” spec (hardware/software/network) with explicit acceptance checks.
+  dependencies: IMPL-A-0013; hardware inventory.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-F-0006
+  source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
+  source_lines: "155 (Palantir ontology mapping actionable)"
+  intent: De-risk the Palantir/Foundry culmination by finding ontology impedance mismatches early.
+  deliverable: A short “SN ↔ Foundry Ontology” mapping memo: primitive alignment, missing abstractions, and a prioritized mismatch list.
+  dependencies: Access to current SN ontology docs + DEF variables; Foundry ontology reference materials.
+  owner_lane: Cartographer (Gemini) + Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-F-0007
+  source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
+  source_lines: "163–170 (MCP Server Buildout)"
+  intent: Enable cross-tool coordination on the actual channels where twins operate.
+  deliverable: Stand up/choose a Slack MCP server (or alternative) + minimal Linear MCP surface; commit config templates and a threat model note.
+  dependencies: IMPL-A-0014 (MCP buildout plan); credentialing.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-F-0008
+  source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
+  source_lines: "129–135 (Velocity management: session budgeting)"
+  intent: Make token/cost burn visible so velocity doesn’t quietly collapse.
+  deliverable: Session budgeting spec: what counts as burn, what thresholds trigger alerts, and where receipts/logs live (ledger vs dedicated DYN file).
+  dependencies: Tool usage telemetry surfaces (Claude/Codex/OpenClaw/Gemini) and what’s automatable.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-F-0009
+  source_path: 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
+  source_lines: "57–60 (INT-1209 Temporal intelligence refresh pipeline)"
+  intent: Ensure temporal platform intelligence doesn’t rot in-place.
+  deliverable: Temporal intelligence refresh pipeline spec: cadence, artifact format, and ‘expiration warning’ frontmatter for time-sensitive model/platform docs.
+  dependencies: Identify where temporal intel lives (ARCH-*, 04-SOURCES syntheses, etc.).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-F-0010
+  source_path: 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
+  source_lines: "123–128 (Capture: attached reports canonization; tmux; HighCommand; session discipline)"
+  intent: Flush pending meta-intentions into executable tasks.
+  deliverable: Triage note + concrete task definitions for INT-C002/INT-C005/INT-C006/INT-C007 (canonize reports; tmux enablement; HighCommand ontology linkage doc; parallel-session discipline SOP).
+  dependencies: Identify the “attached reports” location; confirm HighCommand repo path.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-F-0011
+  source_path: 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
+  source_lines: "57–58, 123–125 (Revenue target reset)"
+  intent: Resolve ambiguity about sustainability deadline so planning isn’t based on a ghost constraint.
+  deliverable: DecisionAtom: INT-1201/INT-C003 revenue target reset—new deadline, leading indicators, and how it affects prioritization.
+  dependencies: Sovereign ratification.
+  owner_lane: Sovereign + Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-F-0012
+  source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
+  source_lines: "203–206 (Future automation)"
+  intent: Close the loop between Four-Systems automation and the actual tool substrate (OpenClaw/launchd/n8n).
+  deliverable: DecisionAtom addendum to IMPL-A-0023: confirm which automation substrate owns which mode (System 1 schedules, System 2 capture polling, etc.) and how portability is handled on laptops.
+  dependencies: IMPL-A-0023.
+  owner_lane: Psyche
+  venue: repo
+  status: new

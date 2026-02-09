@@ -213,3 +213,25 @@
 - IMPL-D-0066 — verify_all.sh hardening: set -euo pipefail + missing-file resilience
 - IMPL-D-0070 — verify JSON output mode for dashboards/health checks
 - IMPL-D-0058 — Kanban protocol: integration hooks section (SaaS subscriptions)
+
+## 2026-02-09 (Tranche F) — Toolchain alignment + Neo-Blitzkrieg + Intentions
+
+### P0
+- IMPL-F-0001 — Rosetta Stone updates: add OpenClaw/Codex/Gemini terms (#170–180) + update related entries
+- IMPL-F-0002 — CANON-31150 regeneration protocol (JSON source → generated markdown)
+
+### P1
+- IMPL-F-0007 — Slack/Linear MCP server buildout (or alternatives) + config templates + threat model note
+- IMPL-F-0009 — Temporal intelligence refresh pipeline spec (cadence + expiration warning frontmatter)
+- IMPL-F-0010 — Triage pending meta-intentions into concrete task definitions (reports canonization; tmux; HighCommand; session discipline)
+
+### P2
+- IMPL-F-0003 — Neo-Blitzkrieg “Toolchain Alignment” micro-cycle template (Stream A/B/C task stubs + receipts)
+- IMPL-F-0005 — FDIS v0 requirements + Modal 1 field node spec + acceptance checks
+- IMPL-F-0006 — SN ↔ Foundry Ontology impedance mismatch memo
+- IMPL-F-0008 — Session budgeting spec (token/cost burn thresholds + alert surfaces)
+- IMPL-F-0012 — DecisionAtom addendum: map Four-Systems automation to substrate ownership (OpenClaw/launchd/n8n)
+
+### P3
+- IMPL-F-0004 — Gemini CLI API key setup on Account 2 + non-interactive preflight receipt (blocked on key)
+- IMPL-F-0011 — DecisionAtom: revenue target reset (new deadline + leading indicators) (needs Sovereign ratification)
