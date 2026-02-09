@@ -127,7 +127,7 @@ Create `~/.openclaw/openclaw.json`:
 ### 5. Store Credentials
 ```bash
 mkdir -p ~/.openclaw
-echo 'NVIDIA_API_KEY=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' > ~/.openclaw/.env
+echo 'NVIDIA_API_KEY=YOUR_NVIDIA_API_KEY' > ~/.openclaw/.env
 chmod 600 ~/.openclaw/.env
 ```
 

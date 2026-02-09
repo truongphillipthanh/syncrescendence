@@ -153,7 +153,7 @@ mkdir -p ~/.syncrescendence/logs
 # Create .env file for OpenClaw
 cat > ~/.openclaw/.env << 'ENVEOF'
 # NVIDIA NIM API key for Kimi K2.5
-NVIDIA_API_KEY=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
+NVIDIA_API_KEY=YOUR_NVIDIA_API_KEY
 # OpenAI API key for embeddings (Mem0, file vector search)
 OPENAI_API_KEY=[REDACTED-ROTATED-2026-02-10]
 ENVEOF
@@ -554,7 +554,7 @@ cat > ~/Library/LaunchAgents/com.syncrescendence.openclaw-gateway.plist << PLIST
         <key>NODE_NO_WARNINGS</key>
         <string>1</string>
         <key>NVIDIA_API_KEY</key>
-        <string>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</string>
+        <string>YOUR_NVIDIA_API_KEY</string>
         <key>OPENAI_API_KEY</key>
         <string>[REDACTED-ROTATED-2026-02-10]</string>
     </dict>

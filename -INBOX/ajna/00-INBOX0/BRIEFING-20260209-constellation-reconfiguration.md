@@ -23,7 +23,7 @@ The entire infrastructure has been overhauled. Read every section below.
 | **Provider** | NVIDIA NIM API |
 | **Model ID** | `moonshotai/kimi-k2.5` |
 | **Base URL** | `https://integrate.api.nvidia.com/v1` |
-| **Auth** | Bearer `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` |
+| **Auth** | Bearer `YOUR_NVIDIA_API_KEY` |
 | **Context Window** | 262,144 tokens (256K) |
 | **Max Output** | 32,768 tokens |
 | **Architecture** | 1T params MoE, 32.86B activated per token |
