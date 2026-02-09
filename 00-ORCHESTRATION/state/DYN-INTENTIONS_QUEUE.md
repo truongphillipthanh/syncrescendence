@@ -143,3 +143,7 @@
 - **Priority**: P1 — Infrastructure parity
 - **Linked**: INT-1504, DEPLOYMENT-PLAYBOOK.md Cascade Differential, TASK-MBA-CASCADE.md
 - **Status**: ACTIVE — playbook updated, Psyche task dispatched
+
+- **2026-02-09 03:30:15** | `Yegge's "vibes-based decision-making" sounds mystical but is actually precise: it describes a system where evaluation criteria are too complex to formalize but can be recognized by sufficiently calibr`
+
+- **2026-02-09 03:30:56** | `- **POST /dispatch** -- takes `{agent, topic, description, from_agent}`, creates a `TASK-{timestamp}-{topic}.md` file in `-INBOX/{agent}/00-INBOX0/` with the full dispatch format (Reply-To, CC, Status`

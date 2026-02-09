@@ -34,8 +34,12 @@ verify:
 	@echo "=== Structure Verification ==="
 	@echo -n "Unexpected subdirectories: "
 	@find . -mindepth 2 -type d -name "scaffolding" 2>/dev/null | wc -l
-	@echo -n "Root .md files: "
-	@ls *.md 2>/dev/null | wc -l || echo "0"
+	@echo "Root .md files (expected: CLAUDE.md, COCKPIT.md, README.md):"
+	@for f in CLAUDE.md COCKPIT.md README.md; do \
+		if [ -f "$$f" ]; then echo "  ✓ $$f"; else echo "  ✗ $$f MISSING"; fi; \
+	done
+	@EXTRA=$$(ls *.md 2>/dev/null | grep -v -E '^(CLAUDE|COCKPIT|README)\.md$$' | head -5); \
+	if [ -n "$$EXTRA" ]; then echo "  ⚠ Unexpected: $$EXTRA"; fi
 	@echo ""
 	@echo "=== Ledger Verification ==="
 	@echo -n "tasks.csv rows: "
@@ -79,8 +83,12 @@ update-ledgers:
 	@echo "  In Progress: $$(grep -c ',in_progress,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv || echo 0)"
 	@echo ""
 	@echo "sources.csv:"
-	@echo "  Total rows: $$(wc -l < 04-SOURCES/DYN-SOURCES.csv)"
-	@echo "  Processed: $$(grep -c ',processed,' 04-SOURCES/DYN-SOURCES.csv || echo 0)"
+	@if [ -f 04-SOURCES/DYN-SOURCES.csv ]; then \
+		echo "  Total rows: $$(wc -l < 04-SOURCES/DYN-SOURCES.csv)"; \
+		echo "  Processed: $$(grep -c ',processed,' 04-SOURCES/DYN-SOURCES.csv || echo 0)"; \
+	else \
+		echo "  (file not found)"; \
+	fi
 
 # Generate directory tree (stdout)
 tree:
@@ -89,9 +97,9 @@ tree:
 # Clean temporary files
 clean:
 	@echo "Cleaning temporary files..."
-	@find . -name "*.tmp" -delete
-	@find . -name "*.bak.*" -mtime +7 -delete
-	@find . -name ".DS_Store" -delete
+	@find . -name "*.tmp" -not -path './.git/*' -delete 2>/dev/null; true
+	@find . -name "*.bak.*" -mtime +7 -not -path './.git/*' -delete 2>/dev/null; true
+	@find . -name ".DS_Store" -not -path './.git/*' -delete 2>/dev/null; true
 	@echo "Clean complete."
 
 # Comprehensive verification (scripts)

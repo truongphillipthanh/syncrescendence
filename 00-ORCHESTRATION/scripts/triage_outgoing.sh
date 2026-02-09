@@ -17,11 +17,20 @@ git status --short || true
 echo
 
 echo "-- PENDING / IN_PROGRESS TASKS (-INBOX) --"
-if command -v rg &>/dev/null; then
-    rg -n "Status.*(PENDING|IN_PROGRESS)" --glob "TASK-*.md" "./-INBOX/" 2>/dev/null || echo "(none)"
-else
-    grep -rn "Status.*\(PENDING\|IN_PROGRESS\)" ./-INBOX/*/TASK-*.md 2>/dev/null || echo "(none)"
-fi
+for agent_dir in ./-INBOX/*/00-INBOX0; do
+    agent=$(basename "$(dirname "$agent_dir")")
+    tasks=$(ls "$agent_dir"/TASK-*.md 2>/dev/null)
+    if [ -n "$tasks" ]; then
+        count=$(echo "$tasks" | wc -l | tr -d ' ')
+        echo "  [$agent] $count task(s):"
+        for f in $tasks; do
+            status=$(grep -o 'Status.*' "$f" 2>/dev/null | head -1 | sed 's/\*//g')
+            echo "    - $(basename "$f") — $status"
+        done
+    fi
+done
+total=$(find ./-INBOX -name "TASK-*.md" -path "*/00-INBOX0/*" 2>/dev/null | wc -l | tr -d ' ')
+[ "$total" -eq 0 ] && echo "(none)"
 echo
 
 echo "-- PENDING PROMPTS (-OUTGOING) --"

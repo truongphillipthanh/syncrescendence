@@ -220,15 +220,40 @@ def main():
         action="store_true",
         help="Regenerate all CANON templates"
     )
+    parser.add_argument(
+        "--json",
+        action="store_true",
+        help="Output results as JSON"
+    )
 
     args = parser.parse_args()
 
     if args.list:
-        list_templates()
+        if args.json:
+            registry = load_registry()
+            templates = sorted(TEMPLATES_DIR.glob("CANON-*.md.j2"))
+            entries = []
+            for t in templates:
+                cid = t.stem.replace("CANON-", "").replace(".md", "")
+                entry = registry.get(cid, {})
+                entries.append({"canon_id": cid, "description": entry.get("description", ""), "data_sources": entry.get("data_sources", [])})
+            print(json.dumps({"templates": entries}, indent=2))
+        else:
+            list_templates()
         return
 
     if args.all:
-        regenerate_all()
+        if args.json:
+            registry = load_registry()
+            templates = sorted(TEMPLATES_DIR.glob("CANON-*.md.j2"))
+            results = []
+            for t in templates:
+                cid = t.stem.replace("CANON-", "").replace(".md", "")
+                result = regenerate(cid, quiet=True)
+                results.append({"canon_id": cid, "success": result is not None, "chars": len(result) if result else 0})
+            print(json.dumps({"results": results, "total": len(results), "succeeded": sum(1 for r in results if r["success"])}, indent=2))
+        else:
+            regenerate_all()
         return
 
     if not args.canon_id:

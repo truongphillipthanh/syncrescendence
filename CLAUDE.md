@@ -62,7 +62,7 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ---
 
 ## Extended Thinking
-Extended thinking is auto-enabled at 31,999 tokens (January 2026). Control via `MAX_THINKING_TOKENS` environment variable. Keywords (`think`, `think hard`, `ultrathink`) are cosmetic intent signals — useful as session markers but they do not allocate specific token budgets.
+Extended thinking is auto-enabled by Claude Code. Keywords (`think`, `think hard`, `ultrathink`) are cosmetic intent signals — useful as session markers but they do not allocate specific token budgets.
 
 Use extended thinking for: architectural decisions, multi-step processing, forensic analysis.
 Use Plan Mode for: complex multi-file changes requiring exploration before execution.
