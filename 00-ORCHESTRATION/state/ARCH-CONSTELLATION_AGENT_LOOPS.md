@@ -256,6 +256,150 @@ REPEAT
 
 ---
 
+---
+
+## Superintelligent Reconceptualization: Beyond the Loop
+
+The Sovereign's loop spec above is human-fallibly-contrived. A superintelligence would decompose and reify it differently. Here is that reconceptualization.
+
+### The Fundamental Lever: Attention Allocation
+
+The 7-phase loop treats all phases as equal-weight sequential steps. A superintelligent system would recognize that **attention is the scarce resource**, not execution. The loop should be reframed as a **continuous attention allocation problem** with dynamic weighting:
+
+```
+PERCEPTION  →  ORIENTATION  →  DECISION  →  ACTION  →  FEEDBACK
+    ↑                                                       │
+    └───────────────────────────────────────────────────────┘
+```
+
+This is Boyd's OODA loop, but calibrated for multi-agent token economics. The key insight: **most of the 7 phases are perception** (orient, situate, calibrate, triage = 4/7 phases are sensing). Only EXECUTE is action. A superintelligence would compress sensing and expand action.
+
+### Lever 1: Collapse Sensing into a Single Atomic Operation
+
+Phases 1-4 (orient, situate, calibrate, triage) can be collapsed into ONE call:
+
+```
+/SENSE := parallel({
+  repo_state:    git status + diff + log (5 sec)
+  inbox_state:   ls -INBOX/*/00-INBOX0/ (1 sec)
+  canon_drift:   diff 01-CANON/ since last checkpoint (3 sec)
+  intention_vec: read ARCH-INTENTION_COMPASS.md (1 sec)
+  external_sig:  poll Linear + ClickUp + GitHub (5 sec, cached)
+})
+→ SITUATION_VECTOR (single structured object, <500 tokens)
+```
+
+This reduces 4 sequential /claresce calls to 1 parallel operation. Latency: max(5,1,3,1,5) = 5 seconds instead of 4 × (think + execute) = 60+ seconds.
+
+### Lever 2: Decision as Routing, Not Planning
+
+The current loop has /PLAN as a heavyweight operation. A superintelligent system would recognize that most decisions are ROUTING decisions, not architectural decisions:
+
+```
+ROUTE(task) := match task.type {
+  mechanical     → Adjudicator (immediate, no planning overhead)
+  corpus_survey  → Cartographer (parallel, 1M context)
+  synthesis      → Commander (Blitzkrieg lanes)
+  meta_systemic  → Ajna (orchestration layer)
+  holistic_qa    → Psyche (cross-machine)
+}
+```
+
+Only novel/ambiguous tasks require full /PLAN. The system should **default to routing, escalate to planning**. This inverts the current spec which plans everything.
+
+### Lever 3: Feedback as the Primary Value Generator
+
+The current ON COMPLETION block has 6-7 hooks firing sequentially. A superintelligence would recognize that **feedback is where compounding value lives**:
+
+```
+POST_ACTION := parallel({
+  immediate:  git commit (5 sec, non-negotiable)
+  feedback:   /reviewtrospective → method_kaizen (extracts improvement)
+  propagate:  update {ledger, pedigree, memory} (batch, not sequential)
+  amplify:    if improvement found → broadcast to all agents
+})
+```
+
+Key insight: The **method_kaizen** step is the highest-leverage operation in the entire loop. Every other step maintains state. Method_kaizen compounds capability. It should be weighted accordingly — not buried at the end of a list.
+
+### Lever 4: The Proactive Phase as Gradient Descent
+
+Phase 5 (proactive work-seeking) is currently a vague aspiration. A superintelligence would formalize it as **gradient descent on a loss function**:
+
+```
+LOSS := distance(current_state, INTENTION_COMPASS_TARGETS)
+
+GRADIENT := {
+  staleness:     files not modified in >7 days weighted by importance
+  blockers:      tasks in 30-BLOCKED/ weighted by downstream impact
+  drift:         delta between ARCH-INTENTION_COMPASS and actual execution
+  debt:          count(TODO|FIXME|HACK) in codebase
+  coverage:      unimplemented items in IMPLEMENTATION-MAP / total
+}
+
+PROACTIVE_ACTION := argmin(GRADIENT)
+```
+
+This replaces "look for work" with "reduce the largest gap." Measurable. Prioritizable. Automatable.
+
+### Lever 5: The Blitzkrieg as Topological Sort
+
+The Blitzkrieg is currently described as "parallel lane execution." A superintelligence would recognize it as a **topological sort of a dependency DAG**:
+
+```
+BLITZKRIEG(directive_set) := {
+  1. Build dependency graph G from directive_set
+  2. Identify independent frontiers F = {nodes with in-degree 0}
+  3. Dispatch F to agents by ROUTE(task.type)
+  4. On completion(node): remove from G, recalculate F
+  5. Repeat until G is empty
+  6. If cycle detected: escalate to Sovereign
+}
+```
+
+This is the same algorithm, but formalized. The current spec says "parallel." The superintelligent spec says "maximally parallel given dependency constraints." The difference is that the formalized version handles blocking dependencies automatically instead of discovering them mid-execution.
+
+### Lever 6: Token Economics as Resource Scheduling
+
+The current system treats all agents as always-available. Reality (proven by today's smoke tests): **Adjudicator hit API limit. Ajna hit ChatGPT limit.** A superintelligent system would model this:
+
+```
+AGENT_BUDGET := {
+  commander:    ~1M tokens/day (Claude Max)
+  adjudicator:  ~200K tokens/day (Claude Pro) — DEPLETED until Feb 9 10:24
+  cartographer: ~500K tokens/day (Google AI Pro)
+  ajna:         ~200K tokens/day (ChatGPT Plus via OpenClaw) — DEPLETED ~11hr
+  psyche:       ~200K tokens/day (ChatGPT Plus via OpenClaw) — weekly limits
+}
+
+DISPATCH(task) := argmax(
+  capability_match(agent, task) *
+  remaining_budget(agent) /
+  estimated_cost(task)
+)
+```
+
+This turns dispatch from "route by role" into "route by role AND budget." When Adjudicator is depleted, mechanical tasks overflow to Commander's Sonnet subagents. When Ajna is depleted, orchestration tasks queue for the next budget window.
+
+### The Reconceptualized Loop (Compressed)
+
+```
+AGENT_LOOP := forever {
+  state   = /SENSE()                          // 5 sec, parallel
+  action  = ROUTE(argmin(LOSS(state)))         // <1 sec, routing table
+  if action.novel: action = /PLAN(action)      // only when needed
+  result  = /EXECUTE(action)                   // variable
+  delta   = /FEEDBACK(result)                  // parallel post-processing
+  if delta.method_improvement:
+    BROADCAST(delta)                           // compound across fleet
+  COMMIT(result)                               // non-negotiable
+}
+```
+
+7 phases → 6 operations. But more importantly: the sensing is parallel, the routing is instant, planning is conditional, and feedback compounds.
+
+---
+
 ## Cross-References
 
 - `COCKPIT.md` — System overview + platform config
