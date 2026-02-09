@@ -157,3 +157,7 @@
 - **2026-02-09 10:15:21** | `- **Why defer**: Our entire PROJ-006b (Ontology Substrate) is blocked by PROJ-003. When the substrate is ready, we should evaluate this skill. Not before.`
 
 - **2026-02-09 10:44:08** | `            > ALWAYS+MAXIMALLY* leveragesOpeClaw[MemoryArchitecture: HEARTBEAT.md, skills, et al.] `
+
+- **2026-02-09 11:04:28** | `### 1A. claude-mem (HIGHEST PRIORITY -- Direct Mem0 Equivalent)`
+
+- **2026-02-09 11:26:46** | `perfect, please comprehensively address all those things via swarm. also, triage ajna's and psyche's inboxes so they just have the gentle awakening. Before we truly wake them. we need to reconfigure t`
