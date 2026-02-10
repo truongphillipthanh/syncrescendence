@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-10 (SYN-32 Phase 2: ENGINE 77→71 files. Terminology sweep: Chorus→Medley (3), Ring→σ (3), broken refs (7). Makefile verify hardened. SYN-8/9/10/11/15 DONE this window. 18 SYN issues DONE total.)
+**Last Updated**: 2026-02-10 (SYN-14/30/32/34 DONE. ENGINE 83→70. DYN-TOOLCHAIN_INTERACTION_PROTOCOL.md v1.0.0. Escalation system added to dispatch. 22 SYN issues DONE total, 24 remain open.)
 
 ---
 
@@ -51,9 +51,9 @@
 | PROJ-CANON-LEAN | COMPLETE | — | 100% | CANON Lean-Out — 3 pairs merged (82→79 CANON files) |
 | PROJ-SIGMA-AUDIT | COMPLETE | — | 100% | 05-SIGMA Deep Audit — 43→16 files (63% reduction), 5761 lines deleted |
 | PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→30 files (79% reduction). state/: 24→21 (2 superseded deleted, stale paths fixed in 5 pipeline files). archive/: 53→9 (83% reduction — 31 dead weight deleted, 14 compacted into 3 files, 8 kept). Coherence metrics appended to lean-out recommendations. |
-| PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
+| PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→70 files (39% reduction). Phase 1: 114→76 (32 deleted, 6 to research). Phase 2: 76→70 (SYN-32, 4 canonical prompts consolidated, 3 orphans deleted). |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
-| PROJ-LINEAR | IN_PROGRESS | P1 | 75% | Linear Onboarding — 60 issues, 17 labels. MCP LIVE. T1a↔T2 bridge: 19/176 IMPL→SYN linked (34/176 done). Sync protocol designed (SYN-30). 157 IMPL entries unmapped. |
+| PROJ-LINEAR | IN_PROGRESS | P1 | 80% | Linear Onboarding — 60 issues, 17 labels. MCP LIVE. 22 DONE, 24 open. T1a↔T2 bridge: 42/176 done. Sync protocol designed (SYN-30 DONE). Toolchain protocol v1.0.0 (SYN-14 DONE). |
 | PROJ-LIVE-CANON | COMPLETE | — | 100% | Live CANON Ticker — MVP deployed + automation. SOVEREIGN-008 APPROVED 2026-02-06. |
 | PROJ-CRED-ROT | COMPLETE | — | 100% | API Key Rotation — Linear, ClickUp, OpenAI rotated. Google AI key added. OpenClaw .env synced. All 4 verified 2026-02-10. |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
