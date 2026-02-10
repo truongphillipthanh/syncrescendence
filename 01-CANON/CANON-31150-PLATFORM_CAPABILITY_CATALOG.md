@@ -1,12 +1,3 @@
----
-id: CANON-31150
-version: 2.0.0
-status: canonical
-chain: INFORMATION
-parent: CANON-31100
-orbital_class: satellite
----
-
 # CANON-31150: PLATFORM CAPABILITY CATALOG
 
 ---
@@ -30,7 +21,7 @@ orbital_class: satellite
 **Chain**: INFORMATION (31000)
 **Parent**: ACUMEN (31100)
 **Status**: CRYSTALLINE
-**Last Regenerated**: 2026-02-09T17:37:20.752431-08:00
+**Last Regenerated**: 2026-02-10T12:57:09.307451-08:00
 **Data Source**: platform_capabilities.json
 
 ---
@@ -55,23 +46,25 @@ This demonstrates the **metabolic pattern**: temporal data lives externally, eve
 | Platform | Tier | Monthly Cost | Primary Role | Status |
 |----------|------|--------------|--------------|--------|
 
-| Claude Code | Max 5x | $100 | Commander | Active |
+| Claude Code | Max | $100 | Commander / COO | Active |
 
-| Claude Web | Pro | $20 | Vizier | Active |
+| Claude Web | Pro | $20 | Vizier (relay surface) | Active |
 
-| ChatGPT Web | Plus | $20 | Vanguard | Active |
+| ChatGPT Web | Plus | $20 | Psyche relay surface | Active |
 
-| Codex CLI | (via ChatGPT) | $0 | Adjudicator | Available |
+| Codex CLI | (via ChatGPT Plus) | $0 | Adjudicator / CQO | Active |
 
-| Google AI (Gemini Web) | AI Pro | $20 | Diviner | Active |
+| Google AI (Gemini Web) | AI Pro | $20 | Diviner (multimodal relay) | Active |
 
-| Gemini CLI | (API) | $0 | Cartographer | Installed |
+| Gemini CLI | (Google AI key) | $0 | Cartographer / CIO | Active |
 
-| OpenClaw | self-hosted | $0 | Local Orchestrator (Ajna/Psyche) | Active |
+| OpenClaw (Psyche) | self-hosted | $0 | Psyche / CTO | Active |
 
-| Grok | (external) | $0 | Oracle (RECON) | Optional |
+| OpenClaw (Ajna) | self-hosted | $0 | Ajna / CSO | Planned |
 
-| Perplexity | (external) | $0 | Augur | Optional |
+| Grok | (external) | $0 | Oracle (reconnaissance) | Optional |
+
+| Perplexity | (external) | $0 | Augur (verification) | Optional |
 
 
 **Total Monthly Investment**: $160
@@ -109,54 +102,230 @@ SUPPLEMENTARY ROLES:
 ## II. CAPABILITY MATRICES
 
 
-### Claude Code — Commander (EXECUTOR-LEAD)
+### Claude Code — Commander / COO (Viceroy)
 
-**Account**: A1 (Max) + A2 (Pro)
-**Primary Models**: Claude 4.5 Opus, Claude 4.5 Sonnet, Claude 4.5 Haiku
+**Account**: A1 (Max)
+**Primary Models**: Claude Opus 4.6, Claude Sonnet 4.5, Claude Haiku 4.5
 
 | Capability | Status | Notes |
 |------------|--------|-------|
 
 | Filesystem access | Active | Full repository sovereignty |
 
-| Code generation | Active | Opus/Sonnet/Haiku |
+| Code generation | Active | Opus/Sonnet/Haiku model selection |
 
-| MCP integration | Active | Tool access via MCP |
+| MCP integration | Active | 9 servers: Linear, ClickUp, Graphiti, Obsidian, Filesystem, Chrome DevTools, Playwright, Qdrant, Gemini-MCP |
 
-| Plan mode | Active | Separates plan from execution |
+| Plan mode | Active | Separates planning from execution |
 
-| Hooks system | Active | Stop/PreCompact/UserPromptSubmit |
+| Agent teams | Active | Parallel subagent dispatch for complex tasks |
 
-| Verification | Active | Command-output receipts |
+| Hooks system | Active | Stop, PreCompact, UserPromptSubmit hooks |
+
+| Extended thinking | Active | Auto-enabled, keyword signals for intent |
+
+| Skills ecosystem | Active | 226+ universal skills + 23 codex + 8 gemini + 9 openclaw |
+
+| Verification | Active | Command-output receipts, git verification |
 
 
 **Routing Strengths**:
 
-- Filesystem sovereignty
+- Filesystem sovereignty — reads, writes, git operations
 
-- High-fidelity implementation
+- High-fidelity implementation with verification receipts
 
-- Repo-ground-truth receipts (diffs/commands/commits)
+- MCP-enabled cross-platform coordination (9 servers)
 
-- MCP-enabled tool use
+- Agent teams for parallel task execution
+
+- Skills ecosystem (266+ capabilities)
 
 
 **Routing Weaknesses**:
 
-- Corpus-scale sensing beyond session context
+- Context window limits corpus-scale sensing
 
-- Native multimodal ingestion (video/audio)
+- No native multimodal ingestion (video/audio)
 
 
 **Cost Structure**:
-- $100/mo (Max) primary executor surface
+- $100/mo (Max plan) — primary executor surface
 
 ---
 
-### Claude Web — Vizier (INTERPRETER)
+### OpenClaw (Psyche) — Psyche / CTO (Synaptarch)
+
+**Account**: A1 (ChatGPT Plus OAuth)
+**Primary Models**: GPT-5.3-codex
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Persistent gateway | Active | Always-on orchestration, port 18789 |
+
+| Cron + heartbeat | Active | Scheduled autonomy via launchd |
+
+| Memory systems | Active | Mem0 (auto-recall/capture) + Graphiti (knowledge graph) |
+
+| MCP bridge | Active | Filesystem + Obsidian MCP via adapter |
+
+| Tool execution | Active | Shell, files, browser, Discord integration |
+
+| Sub-agents | Active | Isolated background task runs |
+
+
+**Routing Strengths**:
+
+- System cohesion and automation (Make/Zapier)
+
+- Policy enforcement across constellation
+
+- Pipeline fusion between tools
+
+- Persistent memory across sessions
+
+- Always-on daemon operation
+
+
+**Routing Weaknesses**:
+
+- Token budget constrained by ChatGPT Plus daily limit
+
+- Not primary deep-reasoning surface
+
+- Anthropic OAuth blocked — cannot use Claude models
+
+
+**Cost Structure**:
+- $0 incremental (uses ChatGPT Plus OAuth)
+
+---
+
+### Codex CLI — Adjudicator / CQO (Executor)
+
+**Account**: A1 (ChatGPT Plus OAuth)
+**Primary Models**: GPT-5.2-codex (gpt-5.2-codex)
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Parallel execution | Active | Mechanical implementation lanes |
+
+| GitHub-native workflows | Active | PR review, CI fix, code review |
+
+| Spec mode | Active | Spec-driven development workflow |
+
+| Quality gates | Active | Linting, testing, compliance checking |
+
+
+**Routing Strengths**:
+
+- Quality assurance and compliance verification
+
+- Parallelizable mechanical refactors
+
+- GitHub-native workflows (PR, CI, review)
+
+- Isolated sandbox execution
+
+
+**Routing Weaknesses**:
+
+- No persistent memory across sessions
+
+- Limited longform synthesis
+
+- ChatGPT Plus daily token budget shared with Psyche
+
+
+**Cost Structure**:
+- $0 incremental (ChatGPT Plus OAuth)
+
+---
+
+### Gemini CLI — Cartographer / CIO (Exegete)
+
+**Account**: A2 (Google AI key)
+**Primary Models**: Gemini 2.5 Pro
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Corpus-scale sensing | Active | 2M+ context window |
+
+| Stateless invocation | Active | Fresh runs, reproducible prompts |
+
+| Evidence packs | Active | Structured output for findings |
+
+| Extensions | Active | 8 Gemini CLI extensions installed |
+
+
+**Routing Strengths**:
+
+- Repo-wide survey and intelligence gathering
+
+- Large-context synthesis (2M tokens)
+
+- Structured evidence output
+
+- Extension ecosystem
+
+
+**Routing Weaknesses**:
+
+- No write access to filesystem
+
+- Stateless — no session continuity
+
+
+**Cost Structure**:
+- $0 incremental (Google AI key via AI Pro plan)
+
+---
+
+### OpenClaw (Ajna) — Ajna / CSO (Strategos)
+
+**Account**: NVIDIA NIM API (free tier)
+**Primary Models**: Kimi K2.5
+
+| Capability | Status | Notes |
+|------------|--------|-------|
+
+| Strategic direction | Planned | Meta/macro awareness |
+
+| Dispatch optimization | Planned | Task routing across constellation |
+
+| Memory systems | Planned | Shared Graphiti KG + local Mem0 |
+
+
+**Routing Strengths**:
+
+- Strategic steering (CSO role)
+
+- Cross-agent orchestration
+
+- Remote machine operation (MBA)
+
+
+**Routing Weaknesses**:
+
+- MBA not yet configured
+
+- NVIDIA free tier token limits (40 RPM)
+
+- Kimi K2.5 less capable than GPT-5.3/Opus
+
+
+**Cost Structure**:
+- $0 (NVIDIA NIM free tier, ~1,000 credits)
+
+---
+
+### Claude Web — Vizier (relay surface)
 
 **Account**: A2 (Pro)
-**Primary Models**: Claude 4.5 Opus/Sonnet (web)
+**Primary Models**: Claude Opus 4.6, Claude Sonnet 4.5
 
 | Capability | Status | Notes |
 |------------|--------|-------|
@@ -165,32 +334,34 @@ SUPPLEMENTARY ROLES:
 
 | Longform drafting | Active | Narrative + clarity |
 
+| MCP apps | Active | Cowork integrations (Slack, Figma, etc.) |
+
 
 **Routing Strengths**:
 
-- Synthesis
+- Synthesis and tone calibration
 
-- Tone/voice calibration
+- Rapid ideation with Sovereign
 
-- Rapid ideation
+- MCP app integrations via Cowork
 
 
 **Routing Weaknesses**:
 
-- Filesystem execution
+- No filesystem execution
 
-- Deterministic receipts
+- No deterministic receipts
 
 
 **Cost Structure**:
-- $20/mo (Pro)
+- $20/mo (Pro plan)
 
 ---
 
-### ChatGPT Web — Vanguard (PLANNING/AUDIT)
+### ChatGPT Web — Planning/audit surface
 
 **Account**: A1 (Plus)
-**Primary Models**: GPT-5.2 Instant, GPT-5.2 Thinking
+**Primary Models**: GPT-5.3, GPT-5.3-codex
 
 | Capability | Status | Notes |
 |------------|--------|-------|
@@ -201,165 +372,65 @@ SUPPLEMENTARY ROLES:
 
 | Canvas | Active | Collaborative editing |
 
-
-**Routing Strengths**:
-
-- Long-horizon planning
-
-- Spec/audit discipline
-
-- Clear acceptance criteria
-
-
-**Routing Weaknesses**:
-
-- Direct filesystem execution
-
-- Very large corpus scans
-
-
-**Cost Structure**:
-- $20/mo (Plus)
-
----
-
-### Codex CLI — Adjudicator (PARALLEL-EXEC)
-
-**Account**: A1 (via ChatGPT)
-**Primary Models**: GPT-5.2 Codex
-
-| Capability | Status | Notes |
-|------------|--------|-------|
-
-| Parallel execution | Active | Good for mechanical implementation lanes |
-
-| GitHub-native workflows | Available | When used with GitHub surfaces |
+| Memory | Active | Cross-conversation memory |
 
 
 **Routing Strengths**:
 
-- Parallelization
+- Long-horizon planning and specification
 
-- Mechanical refactors
+- Cross-conversation memory persistence
 
-- Isolated execution environments (where applicable)
+- Canvas collaborative editing
 
 
 **Routing Weaknesses**:
 
-- Persistent memory
+- No filesystem execution
 
-- Longform synthesis
+- Limited corpus-scale scanning
 
 
 **Cost Structure**:
-- $0 incremental (depends on ChatGPT tier)
+- $20/mo (Plus plan)
 
 ---
 
-### Gemini Web — Diviner (MULTIMODAL DIGEST)
+### Gemini Web — Diviner (multimodal digest)
 
 **Account**: A2 (Google AI Pro)
-**Primary Models**: Gemini 3 Pro, Gemini 3 Flash
+**Primary Models**: Gemini 2.5 Pro, Gemini 2.5 Flash
 
 | Capability | Status | Notes |
 |------------|--------|-------|
 
-| Multimodal ingestion | Active | Audio/video/image |
+| Multimodal ingestion | Active | Audio/video/image native processing |
 
-| NotebookLM | Active | Grounded RAG / annotation |
+| NotebookLM | Active | Grounded RAG, zero-hallucination annotation |
 
-| Gems | Active | Instruction profiles |
+| Gems | Active | Custom instruction profiles |
 
-
-**Routing Strengths**:
-
-- Multimodal clarification
-
-- Grounded notebook workflows
-
-
-**Routing Weaknesses**:
-
-- Filesystem execution
-
-- Deterministic receipts
-
-
-**Cost Structure**:
-- $20/mo (AI Pro)
-
----
-
-### Gemini CLI — Cartographer (SENSOR)
-
-**Account**: A2 (API key)
-**Primary Models**: Gemini (CLI)
-
-| Capability | Status | Notes |
-|------------|--------|-------|
-
-| Corpus-scale sensing | Active | 1M+ context (model-dependent) |
-
-| Stateless invocation | Active | Fresh runs; reproducible prompts |
-
-| Evidence packs | Planned | Standard output format for findings |
+| Google Drive integration | Active | Direct document access |
 
 
 **Routing Strengths**:
 
-- Repo-wide survey/search
+- Multimodal clarification (audio/video/image)
 
-- Large-context synthesis
+- NotebookLM grounded workflows
 
-
-**Routing Weaknesses**:
-
-- Execution
-
-- Write access
-
-
-**Cost Structure**:
-- API usage (varies)
-
----
-
-### OpenClaw — Local Orchestrator (Ajna/Psyche)
-
-**Account**: Self-hosted
-**Primary Models**: Config-defined (per node)
-
-| Capability | Status | Notes |
-|------------|--------|-------|
-
-| Persistent gateway | Active | Always-on orchestration |
-
-| Cron + heartbeat | Active | Scheduled autonomy |
-
-| Sub-agents | Active | Isolated background runs |
-
-| Tool execution | Active | Shell/files/browser/messaging (per config) |
-
-
-**Routing Strengths**:
-
-- Continuity across restarts
-
-- Dispatch + routing
-
-- Automation glue
+- Google ecosystem integration
 
 
 **Routing Weaknesses**:
 
-- Not the primary deep-reasoning IDE
+- No filesystem execution
 
-- Depends on configured channels/tools
+- No deterministic receipts
 
 
 **Cost Structure**:
-- $0 incremental (self-hosted)
+- $20/mo (AI Pro plan)
 
 ---
 
@@ -371,19 +442,21 @@ This table guides which platform receives which task type.
 | Task Type | Primary Platform | Rationale | Fallback |
 |-----------|------------------|-----------|----------|
 
-| Corpus sensing (repo-wide) | Gemini CLI (Cartographer) | Large-context corpus survey | Claude Code (Commander) (bounded) |
+| Corpus sensing (repo-wide) | Gemini CLI (Cartographer/CIO) | 2M context corpus survey | Claude Code (Commander/COO) bounded |
 
 | Multimodal processing (audio/video/images) | Gemini Web (Diviner) | Native multimodal + NotebookLM | Manual / dedicated pipeline |
 
-| Planning / decomposition | ChatGPT Web (Vanguard) | Spec-first planning | Claude Code plan mode |
+| Planning / decomposition | ChatGPT Web + Sovereign | Spec-first planning with human oversight | Claude Code plan mode |
 
-| Implementation (repo changes) | Claude Code (Commander) | Filesystem sovereignty + receipts | Codex CLI (Adjudicator) |
+| Implementation (repo changes) | Claude Code (Commander/COO) | Filesystem sovereignty + verification receipts | Codex CLI (Adjudicator/CQO) |
 
-| Mechanical refactors / parallel lanes | Codex CLI (Adjudicator) | Parallelization / isolation | Claude Code (Commander) |
+| Quality assurance / code review | Codex CLI (Adjudicator/CQO) | GitHub-native QA workflows | Claude Code (Commander/COO) |
 
-| Autonomy glue (dispatch, reminders, cross-channel relays) | OpenClaw (Ajna/Psyche) | Persistent daemon + cron + subagents | Manual dispatch packets |
+| System cohesion / automation | OpenClaw Psyche (CTO) | Persistent daemon + policy enforcement | Commander via dispatch |
 
-| Real-time discourse sensing | Grok (Oracle / RECON) | X/Twitter firehose | Perplexity / web search |
+| Strategic direction / orchestration | OpenClaw Ajna (CSO) | Meta/macro awareness + dispatch optimization | Sovereign direct command |
+
+| Real-time discourse sensing | Grok (Oracle) | X/Twitter firehose | Perplexity / web search |
 
 | External verification (citations) | Perplexity (Augur) | Citation-backed verification | Gemini Web grounding |
 
@@ -494,19 +567,21 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 | Platform | Tier | Cost | Utilization | Cost/Hour Estimate |
 |----------|------|------|-------------|-------------------|
 
-| Claude Code | Max 5x | $100 | 80% | $3.33 |
+| Claude Code | Max | $100 | 85% | $3.33 |
 
-| Claude Web | Pro | $20 | 30% | $0.67 |
+| Claude Web | Pro | $20 | 20% | $0.67 |
 
 | ChatGPT Web | Plus | $20 | 25% | $0.67 |
 
-| Codex CLI | (via ChatGPT) | $0 | 10% | $0.00 |
+| Codex CLI | (via ChatGPT Plus) | $0 | 15% | $0.00 |
 
 | Google AI (Gemini Web) | AI Pro | $20 | 20% | $0.67 |
 
-| Gemini CLI | (API) | $0 | 5% | $0.00 |
+| Gemini CLI | (Google AI key) | $0 | 10% | $0.00 |
 
-| OpenClaw | self-hosted | $0 | 40% | $0.00 |
+| OpenClaw (Psyche) | self-hosted | $0 | 40% | $0.00 |
+
+| OpenClaw (Ajna) | self-hosted | $0 | 0% | $0.00 |
 
 | Grok | (external) | $0 | 5% | $0.00 |
 
@@ -525,8 +600,8 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 ### ROI Assessment
 
 **Metrics**:
-- Autonomous cycles: 2
-- Relay reduction: 0%
+- Autonomous cycles: 18
+- Relay reduction: %
 - Sources processed: 43
 - CANON integrations: 11
 
@@ -534,8 +609,8 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 
 ## VII. VERSION HISTORY
 
-**Last Regenerated**: 2026-02-09T17:37:20.752431-08:00
-**Data Version**: 3.0.0
+**Last Regenerated**: 2026-02-10T12:57:09.307451-08:00
+**Data Version**: 4.0.0
 
 ### Regeneration Log
 
@@ -544,6 +619,8 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 - 2026-02-02: v2.0: Trinity→Constellation, Deviser→Vanguard, Executor→Commander, Oracle→Grok, updated economics to $160/mo
 
 - 2026-02-05: v3.0: Deconflate CLI vs Web; add OpenClaw + Codex as first-class entries; expand routing table.
+
+- 2026-02-10: v4.0: Enterprise role mapping (CEO/CTO/COO/CQO/CIO/CSO). Model updates (Opus 4.6, GPT-5.3-codex, Kimi K2.5, Gemini 2.5 Pro). AjnaPsyche Archon. Dual-machine paradigm. MCP server inventory. Expanded metrics.
 
 
 ---
@@ -576,7 +653,7 @@ git commit -m "feat(canon): regenerate 31150 with updated platform data"
 AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
 Template: 00-ORCHESTRATION/templates/CANON-31150.md.j2
 Data: 00-ORCHESTRATION/state/platform_capabilities.json
-Generated: 2026-02-09T17:37:20.752431-08:00
+Generated: 2026-02-10T12:57:09.307451-08:00
 -->
 
 ---
