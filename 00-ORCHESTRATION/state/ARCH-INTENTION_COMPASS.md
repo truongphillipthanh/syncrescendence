@@ -57,6 +57,7 @@ Each intention entry contains:
 | INT-1201 | 12 | "accounts become self-sustaining by month end" | failed | Jan 31 deadline missed. Reset target pending sovereign input. |
 | INT-1202 | 12 | "capitalize on these heavy machinery to construct as much of Syncrescendence" | active | Maximum velocity during capability window |
 | INT-1209 | 12 | "Temporal intelligence refresh pipeline" | active | Automation candidate for model/platform features that expire; cadenced update system for ARCH- archived research |
+| INT-1612 | 16 | "Begin ALL automations" | active | Master plan: activate Hazel, launchd, Make/Zapier, webhook bridges, n8n, cron. The machine is built — RUN IT. P0. |
 
 ### SPRINT (Current Cycle)
 
@@ -86,6 +87,24 @@ Each intention entry contains:
 | INT-1508 | 15 | "Track Yegge Gas Town + Anthropic Hivemind — validate architecture against his patterns" | resolved | memory/narrative-dna.md, SOVEREIGN-012 §2 |
 | INT-1509 | 15 | "launchd over cron — cron killed by power management on laptops" | resolved | DEC-SOV-006, 3 new plists deployed |
 
+### SESSION 16 (2026-02-09): Sovereign Expansion Directive
+
+| ID | Oracle | Text | Status | Integrated Into |
+|----|--------|------|--------|-----------------|
+| INT-1601 | 16 | "Syncrescript synchronized to corpus, adopt Rails sensibilities" | active | SYN-37 |
+| INT-1602 | 16 | "IIC ingestion pipeline on Google ecosystem + feedcraft sources" | active | SYN-49 |
+| INT-1603 | 16 | "JIT-software — HighCommand as variable tmux dashboard, Mac mini stable/dashboard, MBA kinetic cockpit" | active | SYN-40 |
+| INT-1604 | 16 | "Web app memory architecture audit + Project custom instructions + RAG strategy" | active | SYN-38 |
+| INT-1605 | 16 | "NotebookLM research architecture + operational thesis" | active | SYN-39 |
+| INT-1606 | 16 | "Discord + Slack — give OpenClaw all tools to self-service" | active | SYN-50 |
+| INT-1607 | 16 | "Setapp app audit — clone to terminal-first, reconceptualize interaction dynamic, evaluate Hammerspoon" | active | SYN-47 |
+| INT-1608 | 16 | "Extract Apple Notes — ingest/digest/excrete" | active | SYN-46 |
+| INT-1609 | 16 | "YouTube Watch Later + X favorites — meta-digests via OpenClaw" | active | SYN-46 |
+| INT-1610 | 16 | "Terminal cascade sync — AI CLI tools across iTerm/Ghostty continuum, synchronized between machines" | active | SYN-43 |
+| INT-1611 | 16 | "Mac mini + MacBook Air handbooks once settled" | active | SYN-44 |
+| INT-1613 | 16 | "Cockpit border white instead of blue" | active | SYN-42 |
+| INT-1617 | 16 | "Add Marvel/ComicbookUniverses/Star Wars/Star Trek/Accelerando to narrative imaginal layers" | active | SYN-41, narrative-dna.md |
+
 ### BACKLOG (Future Work)
 
 | ID | Oracle | Text | Status | Priority | Notes |
@@ -101,6 +120,10 @@ Each intention entry contains:
 | INT-1216 | 12 | "Deep Research: Google Jules + Gemini CLI" | deferred | P3 | Requires community sampling |
 | INT-1217 | 12 | "Plan Mode as Oracle replacement" | deferred | P3 | Evaluate CLI Plan vs web app strategic synthesis |
 | INT-1218 | 12 | "Permission fatigue mitigation" | deferred | P3 | --dangerously-skip-permissions vs allowlisting |
+| INT-1614 | 16 | "Student (Chaffey college) + apprentice (IEETC) — FDE modules into Syncrescendence" | active | P1 | Education/professional integration; health+fitness, homeowner property mgmt |
+| INT-1615 | 16 | "Health+fitness and homeowner property management modules" | active | P2 | Personal domain integration into Syncrescendence |
+| INT-1616 | 16 | "LifeOS/Zettelkasten/PKM/PARA/GTD architectural convergence" | active | P1 | Serious discussion needed: note-taking, linking your thinking, personal context lakehouse, pillars, pipelines, vaults |
+| INT-1618 | 16 | "Celestial alignment synchronization — cosmic coherence" | deferred | P3 | Poetic, cathartic moment for the Syncrescendence metaphor. When capacity allows. |
 
 ### PATTERNS (Meta-Observations)
 
@@ -114,6 +137,9 @@ Each intention entry contains:
 | INT-P006 | 12 | "Multi-agent 90.2% outperforms single-agent" | active | Constellation justification |
 | INT-P007 | 12 | "Pedigree supersedes handoff for repository-centric work" | active | New paradigm |
 | INT-P008 | 12 | "Temporal vs evergreen distinction" | resolved | Archive temporal intelligence with expiration warning; CANON = evergreen only |
+| INT-P014 | 16 | "Tokens are the new minerals and vespene gas" | active | Token economics as strategic resource management. StarCraft resource model applied to API credits, context windows, compute. |
+| INT-P015 | 16 | "Mac mini = stable dashboard (macro), MBA = kinetic cockpit (micro)" | active | Dual-machine interaction paradigm. Mac mini: always-on, terminal-based, less frequent interaction, StarCraft macro. MBA: synaptic, kinetic, consistent but audible-ready. |
+| INT-P016 | 16 | "Web app system prompts general, leverage platform strengths — confirmed superior" | active | Thesis validated: general prompts + platform-native strengths beats over-specialization. Memory architecture needs audit post-pivot. |
 
 ### CAPTURE (Pending Triage)
 
@@ -126,6 +152,9 @@ Each intention entry contains:
 | INT-C005 | 14 | "Learn tmux for multi-session terminal management — maximum parallel efficacy" | pending |
 | INT-C006 | 14 | "HighCommand (Agendizer) = GUI substrate for INT-MI19 Ontology — document the connection, track as PROJ dependency" | pending |
 | INT-C007 | 14 | "Session discipline: chunk work into parallel sessions, stop sequential single-terminal habits" | pending |
+| INT-C008 | 16 | "Whatever we were trying to do with Notion/Airtable — serious LifeOS/PKM/ontology discussion needed" | pending |
+| INT-C009 | 16 | "Celestial alignment synchronization — poetic, cathartic cosmic coherence moment for the Syncrescendence" | pending |
+| INT-C010 | 16 | "Notion/Airtable/LifeOS/Zettelkasten — note-taking, PKMs, linking your thinking, PARA, BASE, GTD, productivity, personal context lakehouse" | pending |
 
 ### PRE-ORACLE INTENTIONS (Extracted from `my inputs.md`, 2026-02-01)
 
@@ -323,6 +352,25 @@ INT-1201 (sustainability) ──────────────────
 INT-P006 (multi-agent 90.2%) ─────────────► Constellation justification
      │
      └── INT-P007 (pedigree) ─────────────► New paradigm
+
+INT-1612 (begin automations) ────────────► Everything below
+     │
+     ├── INT-1603 (JIT HighCommand) ─────► Mac mini dashboard + MBA cockpit
+     │        │
+     │        └── INT-1610 (terminal sync) ► Machine synchronization
+     │                 │
+     │                 └── INT-1611 (handbooks) ► Documentation
+     │
+     ├── INT-1608 (Apple Notes) ──────────► Information extraction
+     │        └── INT-1609 (YouTube/X) ───► Meta-digest pipeline
+     │
+     ├── INT-1602 (IIC Google) ───────────► Ingestion pipeline
+     │        └── INT-1605 (NotebookLM) ──► Research architecture
+     │
+     └── INT-1604 (web app memory) ───────► Platform leverage audit
+
+INT-P014 (tokens = minerals) ────────────► Resource economics lens
+INT-P015 (dual-machine paradigm) ─────────► INT-1603, INT-1611
 ```
 
 ---
@@ -331,13 +379,17 @@ INT-P006 (multi-agent 90.2%) ─────────────► Constell
 
 ### Recurring Themes
 
-1. **Velocity**: "capitalize", "heavy machinery", "accelerating pace"
-2. **Architecture**: "constellation", "5-platform", "specialization"
+1. **Velocity**: "capitalize", "heavy machinery", "accelerating pace", "begin all automations"
+2. **Architecture**: "constellation", "5-platform", "specialization", "JIT-software"
 3. **Sustainability**: "self-sustaining", "month end"
-4. **Holism**: "unified", "integrated", "globe before trees"
+4. **Holism**: "unified", "integrated", "globe before trees", "LifeOS convergence"
 5. **Trade-off Pragmatism**: "everything is trade-offs", "don't disqualify for spottiness"
-6. **Compression**: "algebraize", "symbolize", "reduce tokens maximize semantics"
-7. **Automation**: "Hazel", "macros", "bridge web and CLI", "sensing"
+6. **Compression**: "algebraize", "symbolize", "reduce tokens maximize semantics", "Rails conventions"
+7. **Automation**: "Hazel", "macros", "bridge web and CLI", "sensing", "begin ALL automations"
+8. **Resource Economics**: "tokens are the new minerals and vespene gas", API credits as strategic resource
+9. **Dual-Machine Paradigm**: Mac mini = stable dashboard (macro), MBA = kinetic cockpit (micro)
+10. **Information Stream Extraction**: Apple Notes, YouTube, X favorites — ingest/digest/excrete cycle
+11. **Narrative Depth**: Marvel, Star Wars, Star Trek, Accelerando join StarCraft/Dune/Halo/anime/gaming
 
 ### Anti-Patterns Identified
 
@@ -366,6 +418,16 @@ INT-P006 (multi-agent 90.2%) ─────────────► Constell
 ---
 
 ## VERSION HISTORY
+
+**v3.0.0** (2026-02-09): Sovereign Expansion Directive (Session 16)
+- 18 new intentions (INT-1601 through INT-1618) from massive Sovereign brain dump
+- 3 new patterns (INT-P014 through INT-P016): token economics, dual-machine paradigm, web app thesis confirmation
+- 3 new captures (INT-C008 through INT-C010): Notion/Airtable/LifeOS discussion, celestial alignment
+- 14 Linear issues created (SYN-37 through SYN-50)
+- 8 ClickUp tasks created across Professional/Personal/Financial spaces
+- Narrative DNA expanded: Marvel, Star Wars, Star Trek, Accelerando
+- Dependency map expanded with new intention chains
+- Authority: Commander / Sovereign Session 16
 
 **v2.0.0** (2026-02-01): Pre-Oracle Extraction + Resolution Sweep
 - Metabolized `my inputs.md` (16K, 50 entries) → 20 INT-MI entries
