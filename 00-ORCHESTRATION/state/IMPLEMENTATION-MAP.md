@@ -14,6 +14,7 @@
   owner_lane: Commander (Claude Code)
   venue: repo
   status: done
+  linear_id: SYN-5
   notes: "Completed 2026-02-09: CLAUDE.md updated to remove hardcoded token allocation, simplified to 'auto-enabled by Claude Code'."
 
 - id: IMPL-A-0002
@@ -25,6 +26,7 @@
   owner_lane: Psyche (spec) + Commander (edit)
   venue: repo
   status: done
+  linear_id: SYN-6
   notes: "Completed 2026-02-09: COCKPIT.md Modus Operandi updated with Medley/Chorus distinction. AVATAR-GROK.md and AVATAR-CHATGPT.md updated from 'Role in the Chorus' to 'Role in the Constellation (Medley Mode)', PROC Chorus → PROC Medley."
 
 - id: IMPL-A-0003
@@ -36,6 +38,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-7
   notes: "Completed 2026-02-09: Directory 05-Ring→05-SIGMA done (prior session). σ₇-First terminology in ARCH-TOOLCHAIN_CLARESCENCE.md. Sigma/tau governance note ratified in REF-ROSETTA_STONE.md entry #5. CANON 'Transcendence Ring' refs preserved as ontological content."
 
 - id: IMPL-A-0004
@@ -47,6 +50,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-8
 
 - id: IMPL-A-0005
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -57,6 +61,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-9
 
 - id: IMPL-A-0006
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -67,6 +72,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-10
 
 - id: IMPL-A-0007
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -77,6 +83,7 @@
   owner_lane: Psyche (locate/spec) + Commander (implement)
   venue: repo
   status: new
+  linear_id: SYN-11
 
 - id: IMPL-A-0008
   source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
@@ -87,6 +94,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-12
 
 - id: IMPL-A-0009
   source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
@@ -97,6 +105,7 @@
   owner_lane: Psyche + Commander
   venue: repo
   status: done
+  linear_id: SYN-13
   notes: "Completed 2026-02-09: AVATAR-COMMANDER.md (prior). AVATAR-OPENCLAW.md created — dual-agent AjnaPsyche Archon spec with enterprise roles, memory infra, communication protocols, known personality/model mismatch documented."
 
 - id: IMPL-A-0010
@@ -108,6 +117,7 @@
   owner_lane: Ajna (OpenClaw) + Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-A-0011
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -118,6 +128,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-15
 
 - id: IMPL-A-0012
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -140,6 +151,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-17
 
 - id: IMPL-A-0014
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -150,6 +162,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-18
 
 - id: IMPL-A-0015
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -160,6 +173,7 @@
   owner_lane: Ajna + Psyche
   venue: repo
   status: new
+  linear_id: SYN-19
 
 ## 2026-02-06 — Tranche A (Spine): Four-Systems operationalization (modes → implementation)
 
@@ -516,6 +530,7 @@
   owner_lane: Adjudicator + Commander
   venue: repo
   status: new
+  linear_id: SYN-22
 
 - id: IMPL-C-0013
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
@@ -525,7 +540,8 @@
   dependencies: DB created + populated.
   owner_lane: Adjudicator
   venue: repo
-  status: new
+  status: in_progress
+  notes: "ontology_query.py built 2026-02-10: 10 commands (stats/search/primitives/apparatus/projects/tasks/sources/sql). Commit 0516b87." 
 
 - id: IMPL-C-0014
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
@@ -1438,6 +1454,7 @@
   owner_lane: Sovereign + Commander
   venue: tool+repo
   status: blocked
+  linear_id: SYN-25
 
 - id: IMPL-F-0005
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -1590,6 +1607,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-37
 
 - id: IMPL-G-0008
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
@@ -1674,6 +1692,7 @@
   owner_lane: Ajna
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-I-0002
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
