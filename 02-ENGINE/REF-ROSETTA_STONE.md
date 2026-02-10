@@ -366,7 +366,7 @@ Significant community patterns without internal equivalents.
 | G5 | Git Worktree Isolation | DONE | Isolated worktrees for parallel agents sharing .git | PRAC-blitzkrieg_worktree_isolation.md + setup-worktrees.sh |
 | G6 | Hooks-Based Automation | DONE | PreToolUse/PostToolUse/Stop/PreCompact hooks for deterministic automation | REF-HOOKS_FORMALIZATION.md (SYN-15) |
 | G7 | Context Degradation Monitoring | MEDIUM | Performance curve: peaks 0-50%, degrades 70%, critical 85%+ | Implement PreCompact warnings |
-| G8 | Subagent Architecture | HIGH | context: fork + agent field in SKILL.md for token-efficient delegation | Add to skills; enables isolated execution |
+| G8 | Subagent Architecture | DONE | context: fork + agent field in SKILL.md for token-efficient delegation | PRAC-subagent_delegation_guide.md (SYN-10) |
 
 ---
 
