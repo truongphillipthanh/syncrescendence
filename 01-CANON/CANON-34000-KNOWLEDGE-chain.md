@@ -10,7 +10,7 @@ created: 2025-10-17
 updated: 2025-12-30
 synopsis: Capability crystallization development through four progressive stages, tracking embodied competence from conceptual learning toward mastery teaching
 chain: KNOWLEDGE
-operational_status: theoretical
+operational_status: operational
 entities_defined:
   - Knowledge Chain (CON)
   - Mastery (CON)

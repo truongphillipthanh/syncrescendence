@@ -9,7 +9,7 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Why Syncrescendence exists - the convergence crisis, founding decisions, and aspiration across individual, civilizational, and evolutionary scales.
-operational_status: theoretical
+operational_status: operational
 entities_defined:
   - "Convergence Crisis (CON)"
   - "Six Chains (STR)"

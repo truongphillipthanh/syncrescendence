@@ -126,8 +126,8 @@ coordination:
       name: "Adjudicator"
       role: CQO
       epithet: "Executor"
-      model: "claude-sonnet-4.5"
-      provider: claude_pro
+      model: "codex-sonnet"
+      provider: openai_codex
       machine: mac_mini
       function: "quality_assurance"
       surface: codex_cli
