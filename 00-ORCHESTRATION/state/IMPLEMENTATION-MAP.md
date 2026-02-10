@@ -1288,7 +1288,8 @@
   dependencies: None.
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-10: verify + update-ledgers use if/else for CSV existence. Root .md check updated (AGENTS.md, GEMINI.md). verify_all.sh aligned."
 
 - id: IMPL-D-0068
   source_path: Makefile
