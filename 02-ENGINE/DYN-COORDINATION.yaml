@@ -1,267 +1,230 @@
 # Syncrescendence Platform Constellation Coordination
-# Defines zone ownership, platform specialization, and conflict prevention
-# Authority: CANON-25200-CONSTELLATION_ARCH
-# Version: 2.1.0
-# Updated: 2026-01-11
-# Change: Added model_routing section per Oracle 12 decision
+# Defines agent roles, platform allocation, and conflict prevention
+# Authority: CANON-25200-CONSTELLATION_ARCH + COCKPIT.md
+# Version: 3.0.0
+# Updated: 2026-02-09
+# Change: Complete rewrite for AjnaPsyche Archon + Enterprise Role model
 
 coordination:
-  version: "2.1.0"
-  updated: "2026-01-11"
+  version: "3.0.0"
+  updated: "2026-02-09"
 
-  # Platform Constellation ($160/month total)
+  # Platform Constellation (~$160/month total)
   platforms:
     claude_max:
       account: 1
       tier: max
       monthly_cost: 100
       email: "truongphillipthanh@icloud.com"
-      avatars: [Commander]
+      agents: [Commander]
+      surface: cli
+      machine: mac_mini
 
-    chatgpt:
+    chatgpt_plus:
       account: 1
       tier: plus
       monthly_cost: 20
       email: "truongphillipthanh@icloud.com"
-      avatars: [Vanguard]
+      agents: [Psyche]
+      surface: openclaw
+      machine: mac_mini
 
     claude_pro:
       account: 2
       tier: pro
       monthly_cost: 20
       email: "icloud.truongphillipthanh@gmail.com"
-      avatars: [Vizier, Adjudicator]
+      agents: [Adjudicator]
+      surface: codex_cli
+      machine: mac_mini
 
     google_ai_pro:
       account: 2
       tier: pro
       monthly_cost: 20
       email: "icloud.truongphillipthanh@gmail.com"
-      avatars: [Diviner, Cartographer]
+      agents: [Cartographer]
+      surface: gemini_cli
+      machine: mac_mini
+
+    nvidia_nim:
+      account: free_tier
+      tier: evaluation
+      monthly_cost: 0
+      agents: [Ajna]
+      surface: openclaw
+      machine: macbook_air
+      notes: "~1000 credits, 40 RPM, opaque consumption"
 
   total_monthly: 160
   sustainability_target: "2026-06-30"
 
-  # Account definitions
-  accounts:
-    # Claude Accounts (3x Pro)
-    oracle:
-      name: "Oracle Thread"
-      platform: "claude"
-      role: "Strategic synthesis"
-      surface: "web"
-      worktree: null
-      branch_prefix: null
-      function: "strategic_synthesis"
+  # Enterprise Role Definitions
+  agents:
+    sovereign:
+      name: "Sovereign"
+      role: CEO
+      model: human
+      machine: both
+      function: "strategic_direction"
+      notes: "Final authority on all decisions"
+
+    ajna:
+      name: "Ajna"
+      role: CSO
+      epithet: "Strategos"
+      model: "kimi-k2.5"
+      provider: nvidia_nim
+      machine: macbook_air
+      function: "strategic_direction"
+      surface: openclaw
       capabilities:
-        - "project_memory"
-        - "deep_research"
-        - "artifacts"
-        - "analysis_tool"
-      notes: "Read-only repo access via MCP/exports"
+        - "dispatch_optimization"
+        - "meta_awareness"
+        - "strategic_orchestration"
+      communication: "-INBOX/ajna/ via git sync"
+      notes: "Remote agent (MBA), NOT in cockpit. AjnaPsyche Archon steering wheel."
 
-    alpha:
-      name: "Claude Instance Alpha"
-      platform: "claude"
-      role: "Primary executor"
-      surface: "code"
-      worktree: "../syncrescendence-alpha"
-      branch_prefix: "alpha/"
-      function: "execution"
-      zone: "alpha"
-
-    beta:
-      name: "Claude Instance Beta"
-      platform: "claude"
-      role: "Parallel executor"
-      surface: "code"
-      worktree: "../syncrescendence-beta"
-      branch_prefix: "beta/"
-      function: "execution"
-      zone: "beta"
-
-    # Gemini Account (1x Advanced)
-    gemini:
-      name: "Gemini Ingestion"
-      platform: "gemini"
-      role: "Ingestion layer"
-      surface: "cli"
-      worktree: null
-      branch_prefix: "gemini/"
-      function: "ingestion"
+    psyche:
+      name: "Psyche"
+      role: CTO
+      epithet: "Synaptarch"
+      model: "gpt-5.3-codex"
+      provider: chatgpt_plus
+      machine: mac_mini
+      function: "system_cohesion"
+      surface: openclaw
       capabilities:
+        - "automation"
+        - "policy_enforcement"
+        - "pipeline_fusion"
+        - "system_health"
+      communication: "-INBOX/psyche/"
+      cockpit_pane: 1
+      notes: "AjnaPsyche Archon rudder. OpenClaw port 18789."
+
+    commander:
+      name: "Commander"
+      role: COO
+      epithet: "Viceroy"
+      model: "claude-opus-4.6"
+      provider: claude_max
+      machine: mac_mini
+      function: "execution"
+      surface: claude_code
+      capabilities:
+        - "100+ MCP tools"
+        - "full_filesystem_access"
+        - "git_operations"
+        - "agent_teams"
+        - "230+ skills"
+      communication: "-INBOX/commander/"
+      cockpit_pane: 2
+      notes: "Primary executor. ~98% autonomous."
+
+    adjudicator:
+      name: "Adjudicator"
+      role: CQO
+      epithet: "Executor"
+      model: "claude-sonnet-4.5"
+      provider: claude_pro
+      machine: mac_mini
+      function: "quality_assurance"
+      surface: codex_cli
+      capabilities:
+        - "mechanical_execution"
+        - "test_suites"
+        - "linting"
+        - "formatting"
+      communication: "-INBOX/adjudicator/"
+      cockpit_pane: 3
+
+    cartographer:
+      name: "Cartographer"
+      role: CIO
+      epithet: "Exegete"
+      model: "gemini-2.5-pro"
+      provider: google_ai_pro
+      machine: mac_mini
+      function: "intelligence"
+      surface: gemini_cli
+      capabilities:
+        - "1M_context_window"
+        - "corpus_surveys"
         - "youtube_processing"
-        - "2m_context"
-        - "video_multimodal"
-        - "jules_async"
-      notes: "263 tok/sec video processing"
-
-    # ChatGPT Account (1x Plus)
-    chatgpt:
-      name: "ChatGPT Reasoning"
-      platform: "chatgpt"
-      role: "Reasoning + GitHub"
-      surface: "codex_cli"
-      worktree: null
-      branch_prefix: null
-      function: "reasoning"
-      capabilities:
-        - "codex_cli"
-        - "github_codex"
-        - "gpt52_reasoning"
-        - "voice"
-      notes: "@codex for PR reviews"
-
-  # Zone ownership (exclusive write access)
-  zones:
-    alpha:
-      writable:
-        - "04-SOURCES/processed/a-*"
-        - "00-ORCHESTRATION/logs/*-A.md"
-      description: "Stream A processing and logging"
-
-    beta:
-      writable:
-        - "04-SOURCES/processed/b-*"
-        - "00-ORCHESTRATION/logs/*-B.md"
-      description: "Stream B processing and logging"
-
-    gemini:
-      writable:
-        - "04-SOURCES/raw/*"
-        - "04-SOURCES/processed/g-*"
-      description: "Source ingestion and YouTube processing"
-
-    chatgpt:
-      writable:
-        - ".github/*"
-      description: "GitHub workflow configuration via Codex"
-
-    shared:
-      writable:
-        - "00-ORCHESTRATION/state/*.csv"
-        - "04-SOURCES/sources.csv"
-      pattern: "append_only"
-      description: "Ledgers use append-only pattern with row-level locking"
-
-  # Task routing by type
-  routing:
-    youtube_processing:
-      primary: "gemini"
-      rationale: "Native 263 tok/sec multimodal"
-
-    production_code:
-      primary: "alpha"
-      secondary: "beta"
-      rationale: "Repository access, zone ownership"
-
-    strategic_synthesis:
-      primary: "oracle"
-      secondary: "chatgpt"
-      rationale: "Deep Research, project memory"
-
-    large_corpus:
-      primary: "gemini"
-      rationale: "2M context window"
-
-    github_workflows:
-      primary: "chatgpt"
-      rationale: "@codex integration"
-
-    abstract_reasoning:
-      primary: "chatgpt"
-      secondary: "oracle"
-      rationale: "GPT-5.2 capability"
-
-    source_integration:
-      primary: "alpha"
-      secondary: "beta"
-      rationale: "CANON access required"
-
-    parallel_execution:
-      primary: ["alpha", "beta"]
-      rationale: "Multi-stream directives"
-
-  # Model routing by task type
-  model_routing:
-    default: sonnet-4.5
-    by_task_type:
-      oracle_synthesis: opus-4.5
-      architectural_decisions: opus-4.5
-      complex_integration: opus-4.5
-      repository_maintenance: sonnet-4.5
-      ledger_updates: sonnet-4.5
-      content_processing: sonnet-4.5
-      verification_tasks: sonnet-4.5
-
-    thinking_defaults:
-      oracle_synthesis: ultrathink
-      architectural_decisions: think hard
-      complex_integration: think hard
-      repository_maintenance: think
-      ledger_updates: default
-      content_processing: think
-      verification_tasks: default
-
-  # Protected zones (require Sovereign approval)
-  protected:
-    - "01-CANON/"
-    - "00-ORCHESTRATION/oracle_contexts/"
-    - "CLAUDE.md"
-    - "02-ENGINE/coordination.yaml"
-
-  # Conflict resolution
-  conflict_resolution:
-    strategy: "branch_per_instance"
-    merge_target: "develop"
-    merge_method: "rebase"
-    notes: |
-      Each instance works in isolated branch.
-      PRs merge to develop branch.
-      Main branch updated only after verification.
+        - "multimodal"
+      communication: "-INBOX/cartographer/"
+      cockpit_pane: 4
 
   # Communication patterns
   communication:
-    oracle_to_code:
-      method: "dispatch_folders"
-      location: "-INBOX/{agent}/"
-      pattern: "Task files dispatched per-agent via -INBOX subfolders"
+    dispatch:
+      method: "filesystem_kanban"
+      location: "-INBOX/{agent}/00-INBOX0/"
+      pattern: "TASK-*.md files with Status: PENDING"
+      protocol: "Must include Reply-To + CC headers"
 
-    code_to_oracle:
-      method: "outgoing_staging"
+    returns:
+      method: "filesystem_kanban"
+      location: "-INBOX/{requester}/00-INBOX0/"
+      pattern: "RESULT-*.md or CONFIRM-*.md files"
+
+    staging:
+      method: "outgoing_folder"
       location: "-OUTGOING/"
-      pattern: "Prompt staging for Sovereign relay; hooks auto-log sessions"
+      pattern: "CLI → WebApp prompt relay via Sovereign"
 
-    inter_instance:
-      method: "git_branches"
-      notes: "No direct communication; coordinate via shared repository"
+    ajna_sync:
+      method: "git_sync"
+      pattern: "MBA pushes to origin, Mac mini pulls"
+      notes: "Automated via launchd watcher"
+
+  # Task routing by type
+  routing:
+    production_code:
+      primary: commander
+      rationale: "Full repo access, MCP tools, git operations"
+
+    corpus_survey:
+      primary: cartographer
+      rationale: "1M context window for large-scale corpus analysis"
+
+    quality_assurance:
+      primary: adjudicator
+      rationale: "Mechanical execution, test suites, linting"
+
+    system_automation:
+      primary: psyche
+      rationale: "Pipeline fusion, launchd services, policy enforcement"
+
+    strategic_direction:
+      primary: ajna
+      rationale: "Meta-awareness, dispatch optimization"
+
+    research_synthesis:
+      primary: cartographer
+      secondary: commander
+      rationale: "Large context + multimodal for research"
+
+    parallel_execution:
+      primary: [commander, adjudicator]
+      rationale: "Blitzkrieg multi-agent dispatch"
+
+  # Protected zones (require Sovereign approval for deletion)
+  protected:
+    - "01-CANON/"
+    - "00-ORCHESTRATION/state/"
+    - "CLAUDE.md"
+    - "COCKPIT.md"
 
   # Ledger conventions
   ledger_protocol:
     backup_before_write: true
     temp_file_pattern: "{name}.csv.tmp"
-    backup_pattern: "{name}.csv.bak.{timestamp}"
     validation_required: true
     atomic_rename: true
 
-  # Branch naming conventions
-  branches:
-    feature: "{instance}/feat-{description}"
-    bugfix: "{instance}/fix-{description}"
-    directive: "{instance}/directive-{number}"
-
-  # Commit message format
+  # Commit conventions
   commit_format:
     pattern: "{type}({scope}): {description}"
-    types:
-      - feat      # New feature
-      - fix       # Bug fix
-      - docs      # Documentation
-      - chore     # Maintenance
-      - refactor  # Code refactoring
-      - test      # Testing
-    scope_examples:
-      - PROJ-001
-      - CANON
-      - SOURCES
-      - ledgers
+    types: [feat, fix, docs, chore, refactor, test]
