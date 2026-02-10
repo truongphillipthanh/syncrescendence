@@ -96,8 +96,8 @@
   dependencies: Avatar template; COCKPIT mapping.
   owner_lane: Psyche + Commander
   venue: repo
-  status: in_progress
-  notes: "2026-02-09: AVATAR-COMMANDER.md created. AVATAR-OPENCLAW still needed (Ajna/Psyche dual-agent spec)."
+  status: done
+  notes: "Completed 2026-02-09: AVATAR-COMMANDER.md (prior). AVATAR-OPENCLAW.md created — dual-agent AjnaPsyche Archon spec with enterprise roles, memory infra, communication protocols, known personality/model mismatch documented."
 
 - id: IMPL-A-0010
   source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
