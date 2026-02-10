@@ -73,9 +73,8 @@
   dependencies: Skill system conventions.
   owner_lane: Commander
   venue: repo
-  status: done
+  status: new
   linear_id: SYN-10
-  notes: "Completed 2026-02-10: PRAC-subagent_delegation_guide.md. Decision tree, context annotation spec (inline/fork/parallel), model selection, token savings analysis, Constellation mapping. Rosetta Stone G8 DONE."
 
 - id: IMPL-A-0007
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
