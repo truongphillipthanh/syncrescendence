@@ -2,14 +2,14 @@
 
 Executable components: functions, prompts, protocols, model configurations, and platform identity. Flat structure with prefix conventions.
 
-## Prefix Conventions (72 files)
+## Prefix Conventions (73 files)
 
 | Prefix | Count | Purpose |
 |--------|-------|---------|
 | `FUNC-*` | 20 | Function metaprompts (XML/MD) — Three-phase workflow: Distill/Transform/Expand |
 | `REF-*` | 10 | Reference protocols (stable operational docs) |
 | `PROMPT-*` | 8 | Platform prompts — 4 canonical (v2.1) + 4 special-purpose |
-| `AVATAR-*` | 7 | Platform identity configs (Pantheon v3) |
+| `AVATAR-*` | 8 | Platform identity configs (Pantheon v3) |
 | `IIC-*` | 6 | Information Integration Constellation chain configs |
 | `DYN-*` | 9 | Dynamic operational data (CSV/JSON/YAML/MD) |
 | `PROTO-*` | 2 | Platform onboarding protocols |
