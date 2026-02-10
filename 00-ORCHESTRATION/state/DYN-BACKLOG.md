@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-10 (Credential rotation DONE. T1a↔T2 bridge built: 19 IMPL→SYN links. 4 API keys verified. SYN-57/23/13 marked Done. Tech stack data construction in progress.)
+**Last Updated**: 2026-02-10 (PROJ-012 COMPLETE. Methodology framework done (SYN-58). INBOX0 cleared (23 items archived). SYN-51-60 triaged. Setapp audit in progress. Ontology DB at 902 rows.)
 
 ---
 
@@ -38,7 +38,7 @@
 | PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
 | PROJ-009 | NOT_STARTED | P3 | 0% | Modal 2 Visual — queued AI 3D/VFX/Image/Video |
 | PROJ-011 | COMPLETE | — | 100% | Automation Infrastructure |
-| PROJ-012 | IN_PROGRESS | P2 | 98% | Multi-CLI Integration — Both installed, AGENTS.md created. Google AI key configured (2026-02-10). Codex CLI API key pending. |
+| PROJ-012 | COMPLETE | — | 100% | Multi-CLI Integration — Claude Code + Codex CLI v0.98.0 + Gemini CLI. All 3 CLIs operational. |
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
 | PROJ-016 | COMPLETE | — | 100% | Skills Conversion — 8/8 done (intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize, audize). TASK-057-062 reconciled. |
