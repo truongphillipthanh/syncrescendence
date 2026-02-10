@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-10 (Forward clarescence. SOVEREIGN-009 ratified, PROJ-003 closed, PROJ-006b unblocked. 10 new SYN issues, Epic 8 launched.)
+**Last Updated**: 2026-02-10 (PROJ-006b pilot built — 792 rows, 21 tables. -OUTGOING/ archived. Top 10 corrections #5-6 done.)
 
 ---
 
@@ -33,7 +33,7 @@
 | PROJ-003 | COMPLETE | — | 100% | Tooling Stack — SOVEREIGN-009 RATIFIED 2026-02-10. REF-STACK_TELEOLOGY.md v1.0.0. All 5 decisions resolved. Onboarding tracked in SYN-51–60 (separate workstream). |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
 | PROJ-006a | ACTIVE | P1 | 40% | Ontology Phase 1 (Content) — CANON frontmatter 79/79 COMPLETE, Ontology Bridge v1.0 COMPLETE (200+ relations). Remaining: operational status audit verification, Dataview query testing. |
-| PROJ-006b | ACTIVE | P0 | 5% | Ontology Phase 2 (Substrate) — UNBLOCKED (SOVEREIGN-009 ratified 2026-02-10). Implementation: SQLite pilot from CANON-30300 schema, CSV migration, Airtable/Notion surfaces. Critical path to Modal 1. |
+| PROJ-006b | ACTIVE | P0 | 15% | Ontology Phase 2 (Substrate) — SQLite pilot BUILT (792 rows, 21 tables, CANON-30300 4-layer schema). ontology_query.py CLI operational. Makefile targets added. Next: Airtable/Notion surfaces, model/pricing data, primitive enrichment. |
 | PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
 | PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
 | PROJ-009 | NOT_STARTED | P3 | 0% | Modal 2 Visual — queued AI 3D/VFX/Image/Video |
