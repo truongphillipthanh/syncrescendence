@@ -44,18 +44,18 @@ verify:
 	@echo "=== Structure Verification ==="
 	@echo -n "Unexpected subdirectories: "
 	@find . -mindepth 2 -type d -name "scaffolding" 2>/dev/null | wc -l
-	@echo "Root .md files (expected: CLAUDE.md, COCKPIT.md, README.md):"
-	@for f in CLAUDE.md COCKPIT.md README.md; do \
+	@echo "Root .md files (expected: CLAUDE.md, COCKPIT.md, AGENTS.md, GEMINI.md):"
+	@for f in CLAUDE.md COCKPIT.md AGENTS.md GEMINI.md; do \
 		if [ -f "$$f" ]; then echo "  ✓ $$f"; else echo "  ✗ $$f MISSING"; fi; \
 	done
-	@EXTRA=$$(ls *.md 2>/dev/null | grep -v -E '^(CLAUDE|COCKPIT|README)\.md$$' | head -5); \
+	@EXTRA=$$(ls *.md 2>/dev/null | grep -v -E '^(CLAUDE|COCKPIT|AGENTS|GEMINI)\.md$$' | head -5); \
 	if [ -n "$$EXTRA" ]; then echo "  ⚠ Unexpected: $$EXTRA"; fi
 	@echo ""
 	@echo "=== Ledger Verification ==="
 	@echo -n "tasks.csv rows: "
-	@wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv
+	@if [ -f 00-ORCHESTRATION/state/DYN-TASKS.csv ]; then wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv; else echo "Not found"; fi
 	@echo -n "projects.csv rows: "
-	@wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv
+	@if [ -f 00-ORCHESTRATION/state/DYN-PROJECTS.csv ]; then wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv; else echo "Not found"; fi
 	@echo ""
 	@echo "=== Content Verification ==="
 	@echo -n "Processed sources: "
@@ -81,16 +81,20 @@ update-ledgers:
 	@echo "=== Ledger Status ==="
 	@echo ""
 	@echo "tasks.csv:"
-	@head -1 00-ORCHESTRATION/state/DYN-TASKS.csv
-	@echo "  Total rows: $$(wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv)"
-	@echo "  Done: $$(grep -c ',done,' 00-ORCHESTRATION/state/DYN-TASKS.csv || echo 0)"
-	@echo "  In Progress: $$(grep -c ',in_progress,' 00-ORCHESTRATION/state/DYN-TASKS.csv || echo 0)"
+	@if [ -f 00-ORCHESTRATION/state/DYN-TASKS.csv ]; then \
+		head -1 00-ORCHESTRATION/state/DYN-TASKS.csv; \
+		echo "  Total rows: $$(wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv)"; \
+		echo "  Done: $$(grep -c ',done,' 00-ORCHESTRATION/state/DYN-TASKS.csv || echo 0)"; \
+		echo "  In Progress: $$(grep -c ',in_progress,' 00-ORCHESTRATION/state/DYN-TASKS.csv || echo 0)"; \
+	else echo "  (file not found)"; fi
 	@echo ""
 	@echo "projects.csv:"
-	@head -1 00-ORCHESTRATION/state/DYN-PROJECTS.csv
-	@echo "  Total rows: $$(wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv)"
-	@echo "  Complete: $$(grep -c ',complete,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv || echo 0)"
-	@echo "  In Progress: $$(grep -c ',in_progress,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv || echo 0)"
+	@if [ -f 00-ORCHESTRATION/state/DYN-PROJECTS.csv ]; then \
+		head -1 00-ORCHESTRATION/state/DYN-PROJECTS.csv; \
+		echo "  Total rows: $$(wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv)"; \
+		echo "  Complete: $$(grep -c ',complete,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv || echo 0)"; \
+		echo "  In Progress: $$(grep -c ',in_progress,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv || echo 0)"; \
+	else echo "  (file not found)"; fi
 	@echo ""
 	@echo "sources.csv:"
 	@if [ -f 04-SOURCES/DYN-SOURCES.csv ]; then \

@@ -24,14 +24,14 @@ else
 fi
 
 echo "| Root .md files:"
-for f in CLAUDE.md COCKPIT.md README.md; do
+for f in CLAUDE.md COCKPIT.md AGENTS.md GEMINI.md; do
     if [ -f "$f" ]; then
         echo "|   + $f"
     else
         echo "|   x $f MISSING"
     fi
 done
-EXTRA=$(ls *.md 2>/dev/null | grep -v -E '^(CLAUDE|COCKPIT|README)\.md$' | head -5)
+EXTRA=$(ls *.md 2>/dev/null | grep -v -E '^(CLAUDE|COCKPIT|AGENTS|GEMINI)\.md$' | head -5)
 if [ -n "$EXTRA" ]; then
     echo "|   ! Unexpected: $EXTRA"
 fi
