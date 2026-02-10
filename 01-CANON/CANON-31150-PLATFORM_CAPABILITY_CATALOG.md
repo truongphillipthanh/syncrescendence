@@ -1,3 +1,12 @@
+---
+id: CANON-31150
+version: 2.0.0
+status: canonical
+chain: INFORMATION
+parent: CANON-31100
+orbital_class: satellite
+---
+
 # CANON-31150: PLATFORM CAPABILITY CATALOG
 
 ---
@@ -21,7 +30,7 @@
 **Chain**: INFORMATION (31000)
 **Parent**: ACUMEN (31100)
 **Status**: CRYSTALLINE
-**Last Regenerated**: 2026-02-09T01:04:30.512082-08:00
+**Last Regenerated**: 2026-02-09T17:37:20.752431-08:00
 **Data Source**: platform_capabilities.json
 
 ---
@@ -525,7 +534,7 @@ Platform capabilities change frequently. **This catalog regenerates** to track c
 
 ## VII. VERSION HISTORY
 
-**Last Regenerated**: 2026-02-09T01:04:30.512082-08:00
+**Last Regenerated**: 2026-02-09T17:37:20.752431-08:00
 **Data Version**: 3.0.0
 
 ### Regeneration Log
@@ -567,7 +576,7 @@ git commit -m "feat(canon): regenerate 31150 with updated platform data"
 AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
 Template: 00-ORCHESTRATION/templates/CANON-31150.md.j2
 Data: 00-ORCHESTRATION/state/platform_capabilities.json
-Generated: 2026-02-09T01:04:30.512082-08:00
+Generated: 2026-02-09T17:37:20.752431-08:00
 -->
 
 ---

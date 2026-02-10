@@ -155,7 +155,7 @@ Linear serves as the meta-layer above orchestration configs for ALL CLI tools:
 | CLI Tool | Agent | Config Location | Repo Mirror |
 |----------|-------|----------------|-------------|
 | Claude Code | Commander | `CLAUDE.md` + `.claude/` | Native (lives in repo) |
-| Codex CLI | Adjudicator | `AGENTS.md` + codex config | `02-ENGINE/AVATAR-CODEX-CLI.md` |
+| Codex CLI | Adjudicator | `AGENTS.md` + codex config | `02-ENGINE/AVATAR-CODEX.md` |
 | Gemini CLI | Cartographer | `GEMINI.md` + gemini config | `02-ENGINE/AVATAR-GEMINI-CLI.md` |
 | OpenClaw | Ajna/Psyche | System-level (root access) | `02-ENGINE/REF-OPENCLAW_CONFIG_MIRROR.md` |
 
