@@ -61,8 +61,9 @@
   dependencies: Existing scripts; team conventions.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
   linear_id: SYN-9
+  notes: "Completed 2026-02-10: PRAC-blitzkrieg_worktree_isolation.md. Lane-to-worktree binding (A-D), zone ownership, execution workflow. setup-worktrees.sh already existed. Rosetta Stone G5 DONE."
 
 - id: IMPL-A-0006
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md

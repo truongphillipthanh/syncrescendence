@@ -363,8 +363,8 @@ Significant community patterns without internal equivalents.
 | G2 | Memory Crystal Protocol | MEDIUM | Librarian sub-agent at 60% context compresses session to MEMORY.md | Consider SN as encoding format |
 | G3 | Adversarial Validation | MEDIUM | Explicitly disprove claims; hardened if unfalsifiable | Activate Grok RED TEAM role |
 | G4 | Temporal Versioning / Decay | HIGH | Decay signals, replacement notes, refresh triggers for technical claims | Add temporal metadata; fix stale CLAUDE.md |
-| G5 | Git Worktree Isolation | HIGH | Isolated worktrees for parallel agents sharing .git | Adopt as canonical Blitzkrieg mechanism |
-| G6 | Hooks-Based Automation | MEDIUM | PreToolUse/PostToolUse/Stop/PreCompact hooks for deterministic automation | Define hooks for common failure modes |
+| G5 | Git Worktree Isolation | DONE | Isolated worktrees for parallel agents sharing .git | PRAC-blitzkrieg_worktree_isolation.md + setup-worktrees.sh |
+| G6 | Hooks-Based Automation | DONE | PreToolUse/PostToolUse/Stop/PreCompact hooks for deterministic automation | REF-HOOKS_FORMALIZATION.md (SYN-15) |
 | G7 | Context Degradation Monitoring | MEDIUM | Performance curve: peaks 0-50%, degrades 70%, critical 85%+ | Implement PreCompact warnings |
 | G8 | Subagent Architecture | HIGH | context: fork + agent field in SKILL.md for token-efficient delegation | Add to skills; enables isolated execution |
 
