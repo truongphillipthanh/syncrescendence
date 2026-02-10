@@ -49,8 +49,9 @@
   dependencies: Hook framework; policy for auto-append vs PR.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
   linear_id: SYN-8
+  notes: "Completed 2026-02-10: REF-SELF_HEALING_CONSTITUTION.md created. 4-tier arch formalized: L0 launchd → L1 PID → L2 HTTP → L3 escalation. watchdog.sh (153 lines) already live. PostToolUse anti-pattern hook deferred (separate scope)."
 
 - id: IMPL-A-0005
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -82,8 +83,9 @@
   dependencies: Locate current implementation artifacts.
   owner_lane: Psyche (locate/spec) + Commander (implement)
   venue: repo
-  status: new
+  status: done
   linear_id: SYN-11
+  notes: "Completed 2026-02-10: PRAC-ralph_pattern_execution.md (272 lines) IS the canonical doc. Rosetta Stone #17 VERIFIED. Operationally implemented via claude -p in claudecron + watch_dispatch.sh."
 
 - id: IMPL-A-0008
   source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
@@ -128,8 +130,9 @@
   dependencies: Hook support in primary executor tool.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
   linear_id: SYN-15
+  notes: "Completed 2026-02-10: REF-HOOKS_FORMALIZATION.md created. 6 hooks + 1 supplementary. Event matrix, output formats, compaction policy (10-entry threshold), staging→archive pipeline, verification checklist."
 
 - id: IMPL-A-0012
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md

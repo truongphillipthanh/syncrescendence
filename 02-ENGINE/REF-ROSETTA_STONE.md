@@ -335,7 +335,7 @@ Sovereign: brainDump
 
 **Reconciliation**: Already aligned. Use community term as-is.
 
-**Migration Path**: None needed. **Sovereign question**: Do we have this formally implemented somewhere? Verify and document the implementation location if it exists.
+**Migration Path**: None needed. **Sovereign question**: VERIFIED. Canonical formalization at `05-SIGMA/practice/PRAC-ralph_pattern_execution.md` (272 lines: implementation, cost math, variations, quick start). Operationally implemented via `claude -p` in claudecron scheduled tasks and `watch_dispatch.sh` agent execution loops.
 
 ---
 
