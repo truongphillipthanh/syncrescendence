@@ -193,3 +193,59 @@
 - **2026-02-09 13:19:06** | `yes, proceed comprehensively with the swarm, as you see operationally fit. Please meticulously document this, i have a session of you open on the macbook air and i want this to mirror`
 
 - **2026-02-09 13:26:16** | `| 10 | AI Research Skills | `Orchestra-Research/AI-research-SKILLs` | `npx skills add -g -y` | **SUCCESS** | ~79 | Massive collection: ML training (DeepSpeed, PyTorch FSDP2, Megatron, TRL), serving (v`
+
+- **2026-02-09 17:24:28** | `please conduct a deep audit now of /syncrescendence to aneel everything and make sure all the new tools and configurations are synergistic and not conflicting. Then map out where these skills might be`
+
+- **2026-02-09 17:54:23** | `"Use Bun for the runtime. Scaffolding the frontend with Vite. Use Tailwind CSS for styling and Biome for formatting. If we need a backend, use PocketBase."`
+
+- **2026-02-09 17:55:10** | `Transition the system from a "Wild West" state (manual installations) to a fully Declarative State (`Brewfile` managed). We need to audit existing applications, identify which ones can be managed by H`
+
+- **2026-02-09 17:59:50** | `The system is architected as a "Headless OS" where the user operates primarily through a high-velocity, text-based **Action Layer** (The Cockpit), while utilizing GUI tools (The Simulators) strictly f`
+
+- **2026-02-09 18:01:31** | `yes, but we needed meticulous documentation of actual tools and rationale. why do you think?`
+
+- **2026-02-09 18:06:04** | `we haven't even gotten to the openclaw and claude code/codex/gemini shit that we onboarded. we need to configure this to terminal and iterm, maintaining the gradient conituum. on this mac mini first o`
+
+- **2026-02-09 18:51:52** | `some things we need to address:`
+
+- **2026-02-09 19:00:10** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-09 19:00:10** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-09 19:00:21** | `| # | Identifier | Title | Priority | INT |`
+
+- **2026-02-09 19:00:22** | `| # | Task Name | Task ID | List | Priority | URL |`
+
+- **2026-02-09 21:00:10** | `## Tomorrow's Priority`
+
+- **2026-02-09 21:00:10** | `## Tomorrow's Priority`
+
+- **2026-02-09 21:41:47** | `i need you to conduct a /claresce on all the ledgers. indeed, all elements should be atomized/captured and not collapsed, all of these vectors could be quite brittle because of the scattered/disordere`
+
+- **2026-02-09 22:08:39** | `<result>I got all 50 issues and `hasNextPage` is false, so this is the complete set. Let me now compile the full table. I notice that some issues don't have priority explicitly returned (SYN-1 through`
+
+- **2026-02-09 22:09:01** | `| Task ID | Name | List | Space | Status | Priority | Due Date | Created | Updated |`
+
+- **2026-02-09 22:29:37** | `    1. Annealed to in-corpus scaffold (basically everything in the repo that is not the canon). This section is always notoriously adhoc and proliferates and goes stale very rapidly. This should surfa`
+
+- **2026-02-09 22:38:55** | `**Priority 1 — Clarification Needed:**`
+
+- **2026-02-09 22:49:12** | `| Priority | Issue | Action | Owner | Effort |`
+
+- **2026-02-09 22:49:21** | `### Priority 1: Critical Issues`
+
+- **2026-02-09 23:06:33** | `    1. Annealed to in-corpus scaffold (basically everything in the repo that is not the canon). This section is always notoriously adhoc and proliferates and goes stale very rapidly. This should surfa`
+
+- **2026-02-10 00:11:55** | `| 18 | REF-FLEET_COMMANDERS_HANDBOOK.md | 527 | Non-coding Claude Code operations; conceptual work methodology, distributed cognition use case | VITAL | PROMOTION CANDIDATE → 01-CANON; 527 lines of op`
+
+- **2026-02-10 00:12:02** | `| `ARCH-INTENTION_COMPASS.md` | 449 | **VITAL** | Authoritative intention archaeology cache; 100+ INT-* entries; rolling snapshot per Sovereign Oracle 12 directive; critical for priority routing |`
+
+- **2026-02-10 00:12:12** | `| File | Priority | Status | Age | Topic | Blocking? | Classification |`
+
+- **2026-02-10 00:12:19** | `| 51 | CANON-31100-ACUMEN-planetary-INFORMATION.md | CANON-31100 | CANON | planetary | canonical | **partial** | 1057 | CANONICAL | Complete schema; version 2.0.0 | **SOLID**: 6 entities (acumen, IIC `
+
+- **2026-02-10 00:12:37** | `| File | Title | Status | Priority | Blocks Other Work |`
+
+- **2026-02-10 00:12:42** | `### P1 (High Priority)`
+
+- **2026-02-10 00:12:47** | `The IMPLEMENTATION-MAP.md is a **well-structured T2 backlog** capturing 174 work items across 8 priority tranches. Key observations:`

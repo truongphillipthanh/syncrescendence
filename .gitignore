@@ -88,6 +88,7 @@ __pycache__/
 
 # Avoid committing Finder/iCloud duplicate copies
 * 2.*
+* 2/
 
 # Tool-generated agent/skill directories (npx skills, etc.)
 .agent/
