@@ -370,9 +370,7 @@ run_executor() {
       cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["codex","exec",sys.stdin.read()]))')
       ;;
     cartographer)
-      cmd_json=$(python3 -c 'import json; print(json.dumps(["gemini","-p","You are responding to a task dispatch. Do NOT use any tools. Simply read the objective and respond with text only."]))')
-      stdin_mode="text"
-      stdin_text="$task_content"
+      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["gemini","-p",sys.stdin.read()]))')
       ;;
     psyche|ajna)
       # align internal openclaw timeout with wall clock (best-effort)
