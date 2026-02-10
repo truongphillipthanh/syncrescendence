@@ -1,18 +1,13 @@
 ---
-canon_id: CANON-25200
-title: Platform Constellation Architecture
+id: CANON-25200
+name: Platform Constellation Architecture
 identity: CONSTELLATION_ARCH
-tier: lattice
-chain: Memory Architecture
-status: active
+tier: CANON
+type: lattice
 version: 2.0.0
+status: canonical
 created: 2026-01-11
-updated: 2026-02-01
-supersedes: null
-cross_refs:
-  - CANON-25000-MEMORY_ARCH
-  - CANON-25100-CONTEXT_TRANS
-  - CANON-31140-IIC
+updated: 2026-02-10
 synopsis: Specification for multi-platform AI orchestration with integrated teleological analysis — defining specializations, routing patterns, sustainability targets, and the rationale behind every architectural decision
 operational_status: partial
 entities_defined:
