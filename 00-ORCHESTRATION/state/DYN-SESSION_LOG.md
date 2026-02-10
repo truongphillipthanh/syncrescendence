@@ -743,3 +743,185 @@ daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escala
 **Changes**:  4 files changed, 18 insertions(+), 20 deletions(-)
 
 ---
+
+### 2026-02-09 12:58:33 | Branch: main
+**Recent commits**:
+```
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escalations
+6fc62fb fix: constellation reconfiguration — Ajna→Mac mini, Psyche→MBA
+```
+**Changes**:  6 files changed, 66 insertions(+), 10 deletions(-)
+
+---
+
+### 2026-02-09 13:01:06 | Branch: main
+**Recent commits**:
+```
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escalations
+6fc62fb fix: constellation reconfiguration — Ajna→Mac mini, Psyche→MBA
+```
+**Changes**:  7 files changed, 134 insertions(+), 10 deletions(-)
+
+---
+
+### 2026-02-09 13:01:06 | Branch: main
+**Recent commits**:
+```
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escalations
+6fc62fb fix: constellation reconfiguration — Ajna→Mac mini, Psyche→MBA
+```
+**Changes**:  7 files changed, 134 insertions(+), 10 deletions(-)
+
+---
+
+### 2026-02-09 13:06:24 | Branch: main
+**Recent commits**:
+```
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escalations
+```
+**Changes**:  6 files changed, 259 insertions(+), 3 deletions(-)
+
+---
+
+### 2026-02-09 13:09:31 | Branch: main
+**Recent commits**:
+```
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escalations
+```
+**Changes**:  6 files changed, 317 insertions(+), 3 deletions(-)
+
+---
+
+### 2026-02-09 13:10:51 | Branch: main
+**Recent commits**:
+```
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+daf2adb chore: inbox housekeeping — archive stale ajna tasks + watchdog escalations
+```
+**Changes**:  6 files changed, 375 insertions(+), 3 deletions(-)
+
+---
+
+### 2026-02-09 13:11:55 | Branch: main
+**Recent commits**:
+```
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+```
+**Changes**:  6 files changed, 385 insertions(+), 27 deletions(-)
+
+---
+
+### 2026-02-09 13:16:47 | Branch: main
+**Recent commits**:
+```
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+```
+**Changes**:  6 files changed, 441 insertions(+), 25 deletions(-)
+
+---
+
+### 2026-02-09 13:26:14 | Branch: main
+**Recent commits**:
+```
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+```
+**Changes**:  6 files changed, 510 insertions(+), 22 deletions(-)
+
+---
+
+### 2026-02-09 13:26:15 | Branch: main
+**Recent commits**:
+```
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+```
+**Changes**:  6 files changed, 564 insertions(+), 20 deletions(-)
+
+---
+
+### 2026-02-09 13:26:15 | Branch: main
+**Recent commits**:
+```
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+```
+**Changes**:  6 files changed, 619 insertions(+), 19 deletions(-)
+
+---
+
+### 2026-02-09 13:26:16 | Branch: main
+**Recent commits**:
+```
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+```
+**Changes**:  6 files changed, 677 insertions(+), 19 deletions(-)
+
+---
+
+### 2026-02-09 13:26:17 | Branch: main
+**Recent commits**:
+```
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+a9eb8a0 chore: commit hook-generated DYN state files (session 6-7 accumulation)
+```
+**Changes**:  6 files changed, 733 insertions(+), 19 deletions(-)
+
+---
+
+### 2026-02-09 16:18:17 | Branch: main
+**Recent commits**:
+```
+c5a9eb1 feat: El Dorado armory — 263 capabilities across 4 platforms
+e5f26e4 chore: auto-compact wisdom at threshold (10 entries)
+c21084d sync(ajna): inbox/outgoing sync from MBA [2026-02-09T21:03:33Z]
+0f59b3d feat: complete MBA Ajna deployment — update agent specs + hook state
+a35a5c3 revert: undo incorrect constellation machine assignments
+```
+**Changes**:  9 files changed, 1085 insertions(+), 3 deletions(-)
+
+---

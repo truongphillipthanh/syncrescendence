@@ -149,3 +149,9 @@
 | 2026-02-09T11:21:39 | COMPLETE | adjudicator | — | TASK-LAUNCHD-VALIDATION.md | e073efe | e073efe | — | — |
 | 2026-02-09T18:57:56 | CLAIM | ajna | ajna | TASK-20260209-mba-deployment-guide.md | 0066795 | 0066795 | — | — |
 | 2026-02-09T18:58:31 | COMPLETE | ajna | — | TASK-20260209-mba-deployment-guide.md | 0066795 | 0066795 | — | — |
+| 2026-02-10T00:18:16 | CLAIM | psyche | psyche | TASK-20260209-slack-psyche-bot-config.md | c5a9eb1 | c5a9eb1 | — | — |
+| 2026-02-10T00:18:41 | COMPLETE | psyche | — | TASK-20260209-slack-psyche-bot-config.md | c5a9eb1 | c5a9eb1 | — | — |
+| 2026-02-10T00:21:13 | DISPATCH | dispatch | ajna | TASK-20260209-discord_server_setup.md | 59fe530 | 59fe530 | — | — |
+| 2026-02-10T00:21:14 | CLAIM | ajna | ajna | TASK-20260209-discord_server_setup.md | 59fe530 | 59fe530 | — | — |
+| 2026-02-10T00:21:17 | DISPATCH | dispatch | psyche | TASK-20260209-slack_channel_setup.md | 59fe530 | 59fe530 | — | — |
+| 2026-02-10T00:21:18 | CLAIM | psyche | psyche | TASK-20260209-slack_channel_setup.md | 59fe530 | 59fe530 | — | — |

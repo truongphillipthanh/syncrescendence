@@ -1618,3 +1618,45 @@
   owner_lane: Commander
   venue: repo
   status: new
+
+## 2026-02-09 — Tranche H (Tooling): Operations scripts + Makefile targets
+
+- id: IMPL-H-0001
+  source_path: 00-ORCHESTRATION/scripts/ajna_pedigree.sh
+  source_lines: "1–85 (full script)"
+  intent: Enrich Ajna Pedigree with DecisionAtom and Intention linking for full lineage traceability.
+  deliverable: Extend ajna_pedigree.sh to read DYN-GLOBAL_LEDGER.md for DECISION events in session window, and correlate with ARCH-INTENTION_COMPASS.md entries that were resolved this session; append cross-reference section to pedigree entry.
+  dependencies: DYN-GLOBAL_LEDGER.md schema (IMPL-D-0105); ARCH-INTENTION_COMPASS.md structure.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-H-0002
+  source_path: 00-ORCHESTRATION/scripts/append_ledger.sh
+  source_lines: "1–95 (full script)"
+  intent: Ensure ledger append is crash-safe and supports query interface for audit trails.
+  deliverable: Add (a) temp file cleanup trap verification, (b) ledger corruption detection/recovery (checksum or entry count validation), (c) query mode: `append_ledger.sh query <TASK_ID>` returns all events for task.
+  dependencies: None.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-H-0003
+  source_path: 00-ORCHESTRATION/scripts/audit_applications.sh
+  source_lines: "1–350 (full script)"
+  intent: Operationalize application audit so golden state is maintained automatically.
+  deliverable: (a) Schedule audit_applications.sh via cron/launchd monthly, (b) store generated Brewfile and report in repo (00-ORCHESTRATION/state/DYN-BREWFILE.md and DYN-APP_AUDIT.md), (c) drift detection: compare current Brewfile against stored and alert on divergence.
+  dependencies: IMPL-A-0016 (System 1 automation); launchd/cron decision.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-H-0004
+  source_path: Makefile
+  source_lines: "252–255 (sync-drive placeholder), 310–320 (ecosystem-health with potential path error)"
+  intent: Complete Makefile ecosystem targets and fix path assumptions.
+  deliverable: (a) Implement sync-drive target with rclone or alternative (or DecisionAtom to remove), (b) verify watchdog.sh path ($HOME/.syncrescendence/scripts/ vs 00-ORCHESTRATION/scripts/), (c) add missing target help-text for model-db, model-query, search.
+  dependencies: Verify actual script locations; rclone availability.
+  owner_lane: Commander
+  venue: repo
+  status: new
