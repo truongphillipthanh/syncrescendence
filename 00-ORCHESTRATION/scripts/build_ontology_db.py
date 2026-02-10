@@ -32,6 +32,9 @@ CSV_PATHS = {
     "sources": "04-SOURCES/DYN-SOURCES.csv",
     "filename_mapping": "04-SOURCES/REF-FILENAME_MAPPING.csv",
     "rename_mapping": "04-SOURCES/REF-RENAME_MAPPING.csv",
+    "functions": "00-ORCHESTRATION/state/DYN-FUNCTIONS.csv",
+    "models": "00-ORCHESTRATION/state/DYN-MODELS.csv",
+    "api_pricing": "00-ORCHESTRATION/state/DYN-API_PRICING.csv",
 }
 
 
@@ -765,6 +768,235 @@ def import_platforms_to_apps(conn, csv_path):
     return count
 
 
+def import_functions_to_apps(conn, csv_path):
+    """Import DYN-FUNCTIONS.csv into the apps table."""
+    if not os.path.exists(csv_path):
+        print(f"  SKIP: {csv_path} not found")
+        return 0
+
+    cur = conn.cursor()
+    count = 0
+
+    # Get lifecycle state ID for 'active'
+    cur.execute("SELECT id FROM lifecycle_states WHERE code = 'active'")
+    active_id = cur.fetchone()
+    active_lifecycle_id = active_id[0] if active_id else None
+
+    # Get object type IDs
+    type_map = {}
+    cur.execute("SELECT asa_code, id FROM object_types")
+    for row in cur.fetchall():
+        type_map[row[0]] = row[1]
+
+    # Map category to object type
+    category_to_asa = {
+        "ai_agent": "O.AGT",
+        "ai_ide": "O.CPL",
+        "ai_local": "O.MOD",
+        "ai_search": "O.SVC",
+        "terminal": "O.SRF",
+        "editor": "O.INS",
+        "multiplexer": "O.INS",
+        "shell": "O.INS",
+        "knowledge_management": "O.DP",
+        "project_management": "O.SVC",
+        "design": "O.SRF",
+        "communication": "O.SVC",
+        "productivity": "O.SRF",
+        "containerization": "O.SVC",
+        "browser": "O.SRF",
+        "developer_tool": "O.INS",
+        "media": "O.FN",
+        "input": "O.INS",
+        "automation": "O.WF",
+        "networking": "O.SVC",
+        "app_store": "O.SVC",
+        "cloud": "O.SVC",
+        "infrastructure": "O.SVC",
+    }
+
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            name = row.get("name", "").strip()
+            category = row.get("category", "").strip()
+            provider = row.get("provider", "").strip()
+            tier = row.get("tier", "").strip()
+            cost = row.get("monthly_cost", "0").strip()
+            capabilities = row.get("capabilities", "").strip()
+            platform = row.get("platform", "").strip()
+            notes = row.get("notes", "").strip()
+
+            slug = f"{name.lower().replace(' ', '-').replace('(', '').replace(')', '')}"
+
+            asa_code = category_to_asa.get(category, "O.SVC")
+            obj_type_id = type_map.get(asa_code)
+
+            try:
+                cur.execute(
+                    """INSERT OR IGNORE INTO apps (name, slug, object_type_id, lifecycle_state_id, description, stage, notes)
+                       VALUES (?, ?, ?, ?, ?, ?, ?)""",
+                    (
+                        name,
+                        slug,
+                        obj_type_id,
+                        active_lifecycle_id,
+                        capabilities,
+                        "ACTIVE",
+                        f"provider={provider}, tier={tier}, cost=${cost}/mo, platform={platform}. {notes}",
+                    ),
+                )
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: Function {name}: {e}")
+
+    conn.commit()
+    return count
+
+
+def import_models_csv(conn, csv_path):
+    """Import DYN-MODELS.csv into the models table."""
+    if not os.path.exists(csv_path):
+        print(f"  SKIP: {csv_path} not found")
+        return 0
+
+    cur = conn.cursor()
+    count = 0
+
+    # Get object type ID for models
+    cur.execute("SELECT id FROM object_types WHERE asa_code = 'O.MOD'")
+    mod_type = cur.fetchone()
+    mod_type_id = mod_type[0] if mod_type else None
+
+    # Get lifecycle state ID for 'active'
+    cur.execute("SELECT id FROM lifecycle_states WHERE code = 'active'")
+    active_id = cur.fetchone()
+    active_lifecycle_id = active_id[0] if active_id else None
+
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            name = row.get("name", "").strip()
+            provider = row.get("provider", "").strip()
+            api_name = row.get("api_name", "").strip()
+            family = row.get("family", "").strip()
+            context_window = int(row.get("context_window", "0").strip() or "0")
+            output_limit = int(row.get("output_token_limit", "0").strip() or "0")
+            supports_vision = row.get("supports_vision", "FALSE").strip().upper() == "TRUE"
+            supports_thinking = row.get("supports_extended_thinking", "FALSE").strip().upper() == "TRUE"
+            supports_search = row.get("supports_search", "FALSE").strip().upper() == "TRUE"
+            release_date = row.get("release_date", "").strip() or None
+            training_cutoff = row.get("training_cutoff", "").strip() or None
+            notes = row.get("notes", "").strip()
+            capabilities = row.get("capabilities", "").strip()
+
+            slug = f"{provider.lower()}-{api_name}".replace(" ", "-")
+
+            try:
+                cur.execute(
+                    """INSERT OR IGNORE INTO models
+                       (name, slug, api_name, family, research_lab, object_type_id,
+                        lifecycle_state_id, context_window, output_token_limit,
+                        training_cutoff_date, release_date,
+                        supports_vision, supports_extended_thinking, supports_search,
+                        notes)
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    (
+                        name, slug, api_name, family, provider,
+                        mod_type_id, active_lifecycle_id,
+                        context_window, output_limit,
+                        training_cutoff, release_date,
+                        supports_vision, supports_thinking, supports_search,
+                        f"{capabilities}. {notes}",
+                    ),
+                )
+                model_id = cur.lastrowid
+
+                # Also insert pricing from the same CSV
+                input_cost = row.get("input_cost_per_1k", "0").strip()
+                output_cost = row.get("output_cost_per_1k", "0").strip()
+                if model_id and (float(input_cost or 0) > 0 or float(output_cost or 0) > 0):
+                    # Convert per-1k to per-token for the pricing table
+                    input_per_token = float(input_cost) / 1000.0 if input_cost else 0
+                    output_per_token = float(output_cost) / 1000.0 if output_cost else 0
+                    cur.execute(
+                        """INSERT OR IGNORE INTO api_pricing
+                           (model_id, api_name, input_token_price, output_token_price,
+                            effective_date, notes)
+                           VALUES (?, ?, ?, ?, ?, ?)""",
+                        (
+                            model_id, api_name,
+                            input_per_token, output_per_token,
+                            release_date,
+                            f"Source: DYN-MODELS.csv. Per-1k rates: ${input_cost}/${output_cost}",
+                        ),
+                    )
+
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: Model {name}: {e}")
+
+    conn.commit()
+    return count
+
+
+def import_api_pricing_csv(conn, csv_path):
+    """Import DYN-API_PRICING.csv as supplemental service pricing data.
+    These are subscription/service-level entries (not per-token model pricing).
+    Stored in a separate services table or as notes in apps."""
+    if not os.path.exists(csv_path):
+        print(f"  SKIP: {csv_path} not found")
+        return 0
+
+    cur = conn.cursor()
+    count = 0
+
+    # Get lifecycle state ID for 'active'
+    cur.execute("SELECT id FROM lifecycle_states WHERE code = 'active'")
+    active_id = cur.fetchone()
+    active_lifecycle_id = active_id[0] if active_id else None
+
+    # Get object type ID for services
+    cur.execute("SELECT id FROM object_types WHERE asa_code = 'O.SVC'")
+    svc_type = cur.fetchone()
+    svc_type_id = svc_type[0] if svc_type else None
+
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            service = row.get("service", "").strip()
+            plan = row.get("plan", "").strip()
+            cost = row.get("monthly_cost", "0").strip()
+            rate_limit = row.get("rate_limit", "").strip()
+            features = row.get("features", "").strip()
+            status = row.get("status", "").strip()
+            notes = row.get("notes", "").strip()
+
+            slug = f"api-{service.lower().replace(' ', '-').replace('(', '').replace(')', '')}"
+
+            try:
+                cur.execute(
+                    """INSERT OR IGNORE INTO apps
+                       (name, slug, object_type_id, lifecycle_state_id, description, stage, notes)
+                       VALUES (?, ?, ?, ?, ?, ?, ?)""",
+                    (
+                        f"{service} [{plan}]",
+                        slug,
+                        svc_type_id,
+                        active_lifecycle_id if status == "active" else None,
+                        features,
+                        status.upper(),
+                        f"plan={plan}, cost=${cost}/mo, rate_limit={rate_limit}. {notes}",
+                    ),
+                )
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: API {service}: {e}")
+
+    conn.commit()
+    return count
+
+
 def validate_integrity(conn):
     """Run data integrity checks and return results."""
     cur = conn.cursor()
@@ -956,6 +1188,24 @@ def main():
     platforms_csv = os.path.join(repo_root, CSV_PATHS["platforms"])
     app_count = import_platforms_to_apps(conn, platforms_csv)
     print(f"  {app_count} apps created from platform data")
+
+    # Phase 4a: Import DYN-FUNCTIONS.csv into apps
+    print("\nPhase 4a: Importing tech stack functions into apps...")
+    functions_csv = os.path.join(repo_root, CSV_PATHS["functions"])
+    func_count = import_functions_to_apps(conn, functions_csv)
+    print(f"  {func_count} apps created from DYN-FUNCTIONS.csv")
+
+    # Phase 4b: Import DYN-MODELS.csv into models + api_pricing
+    print("\nPhase 4b: Importing AI model catalog...")
+    models_csv = os.path.join(repo_root, CSV_PATHS["models"])
+    model_count = import_models_csv(conn, models_csv)
+    print(f"  {model_count} models imported from DYN-MODELS.csv")
+
+    # Phase 4c: Import DYN-API_PRICING.csv as service entries
+    print("\nPhase 4c: Importing API/service pricing catalog...")
+    api_csv = os.path.join(repo_root, CSV_PATHS["api_pricing"])
+    api_count = import_api_pricing_csv(conn, api_csv)
+    print(f"  {api_count} service entries imported from DYN-API_PRICING.csv")
 
     # Phase 5: Write metadata
     print("\nPhase 5: Writing metadata...")
