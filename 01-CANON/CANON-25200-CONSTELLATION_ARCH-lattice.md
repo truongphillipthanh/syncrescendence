@@ -253,7 +253,7 @@ Review incorporation
 **Claude Pro Accounts** (shared pool):
 - ~45 messages per 5-hour window per account
 - Rotate between accounts if hitting limits
-- Use extended thinking for complex tasks (counts as 1 message)
+- Extended thinking auto-enabled; use for complex architectural analysis
 
 **Gemini Advanced**:
 - Generous limits for Gemini CLI

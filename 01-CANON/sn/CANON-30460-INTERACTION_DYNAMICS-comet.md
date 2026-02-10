@@ -164,7 +164,7 @@ PASS PlatformConfigurations:
         claude_code:
             role: EXECUTOR
             surfaces: [EXECUTOR-LEAD (Air, Opus), PARALLEL-A (mini, Sonnet), PARALLEL-B (mini, Sonnet)]
-            thinking: think (4K) | think_hard (10K) | ultrathink (32K)
+            thinking: auto-enabled (keywords cosmetic, budget managed by runtime)
         grok: role: RED_TEAM | stateless | X_Firehose
         perplexity: role: VERIFIER | stateless | citations
 end

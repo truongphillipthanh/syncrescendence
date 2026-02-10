@@ -308,8 +308,10 @@ Launch: `doom-dash` (alias for `emacsclient -nw -c`)
 | Auxiliary | update_agent_memory, update_universal_ledger, intentions |
 
 ### Modus Operandi
+- **Medley mode** (default): Each agent receives specialized prompts per its role. This is how the Constellation normally operates — NOT Chorus mode.
+- **Chorus mode** (reserved): Same prompt to all platforms, integrate outputs afterward. Use only for deliberate parallel-identical experiments.
 - **BLITZKRIEG**: Standard-bearer tactic — parallel lane execution across agents
-- **Expanding**: Additional multi-agent tactics under development
+- **Expanding**: Additional multi-agent tactics under development (Siege, Reconnaissance, Flanking, Entrenchment)
 - **Each agent**: Can deploy their own swarm (subagents)
 
 ---

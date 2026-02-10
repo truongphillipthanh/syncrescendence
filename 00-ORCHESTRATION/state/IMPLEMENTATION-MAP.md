@@ -21,10 +21,11 @@
   source_lines: "Immediate Actions → Critical Fixes (2) + §8 Chorus/Medley"
   intent: Correct Chorus vs Medley terminology across ops docs.
   deliverable: COCKPIT.md update: Constellation operates in Medley mode; reserve Chorus for same-prompt parallel.
-  dependencies: Identify all ‘Chorus’ references; adjust definitions.
+  dependencies: Identify all 'Chorus' references; adjust definitions.
   owner_lane: Psyche (spec) + Commander (edit)
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: COCKPIT.md Modus Operandi updated with Medley/Chorus distinction. AVATAR-GROK.md and AVATAR-CHATGPT.md updated from 'Role in the Chorus' to 'Role in the Constellation (Medley Mode)', PROC Chorus → PROC Medley."
 
 - id: IMPL-A-0003
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
