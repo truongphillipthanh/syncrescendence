@@ -255,3 +255,41 @@
 ### P3
 - IMPL-G-0001 — Medley/Chorus glossary + doc sweep (COCKPIT + ops)
 - IMPL-G-0002 — Complete Ring→sigma rename + sigma/tau glossary/migration note
+
+## 2026-02-10 (Follow-up Tranche I)
+
+### P0
+- IMPL-I-0002 — Execute Tech Stack DB migration (choose backend; locate CSVs; integrity checks; receipt)
+
+### P1
+- IMPL-I-0001 — CANON-31150 regeneration protocol documentation + e2e verification
+- IMPL-G-0008 — Kanban lint gating (Kind/Kanban/Reply-To/Receipts-To; watcher-safe prefixes)
+
+### P2
+- IMPL-I-0003 — corpus_health_check.py scheduled execution (launchd/cron + alerting)
+- IMPL-G-0009 — Fix twin relay surface drift (canonical -OUTBOX/<agent>/ARTIFACTS/ path)
+
+### P3
+- IMPL-I-0004 — Twin handoff indexing (INDEX.md in -OUTBOX/ + doc update)
+
+## 2026-02-10 (Tranche J — Canon Hotspots: Five-Account + Multi-Agent + Memory + Seven-Layer)
+
+### P0
+- IMPL-J-0002 — Coherence IIC synthesis pipeline with weekly handoff automation
+- IMPL-J-0006 — Multi-agent topologies: planner-executor, critic-refiner, specialist swarm runners
+
+### P1
+- IMPL-J-0001 — Acumen IIC daily brief automation and Red Alert routing
+- IMPL-J-0007 — MCP vs A2A vs filesystem-kanban protocol DecisionAtom + prototype
+- IMPL-J-0008 — Memory taxonomy → repo artifact mapping (working/episodic/semantic/procedural/prospective)
+
+### P2
+- IMPL-J-0003 — Efficacy IIC task triage and velocity tracking
+- IMPL-J-0004 — Mastery IIC curriculum YAML schema and spaced repetition integration
+- IMPL-J-0009 — Memory system evaluation (A-MEM/MIRIX/MemGPT) for local deployment
+- IMPL-J-0011 — Seven-Layer sovereignty configurations (device → meta-intelligence)
+
+### P3
+- IMPL-J-0005 — Transcendence IIC reflection prompts and values alignment
+- IMPL-J-0010 — Context compression: chunking, relevance, decay, summarization automation
+- IMPL-J-0012 — Differential sovereignty: human judgment vs automation decision matrix

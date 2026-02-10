@@ -1662,3 +1662,168 @@
   owner_lane: Commander
   venue: repo
   status: new
+
+## 2026-02-10 — Follow-up Tranche: CANON-31150 regeneration + Tech Stack DB migration + Lint protocol
+
+- id: IMPL-I-0001
+  source_path: 01-CANON/CANON-31150-PLATFORM_CAPABILITY_CATALOG.md
+  source_lines: "35–40 (TEMPORAL DATA NOTICE)"
+  intent: Operationalize the canon regeneration protocol so capability updates are reproducible.
+  deliverable: Document or script the three-step regeneration workflow (edit platform_capabilities.json → run regenerate_canon.py 31150 → commit). Verify this works e2e with a test edit.
+  dependencies: Python env with regenerate_canon.py; write access to 01-CANON/.
+  owner_lane: Ajna
+  venue: repo
+  status: new
+
+- id: IMPL-I-0002
+  source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
+  source_lines: "75–85 (Migration protocol mention)"
+  intent: Execute the Tech Stack DB migration from CSV sources to canonical backend.
+  deliverable: (a) Choose backend (SQLite/PostgreSQL/JSON), (b) locate and verify CSVs (Function.csv, Models.csv, API.csv), (c) run migration with integrity checks, (d) write receipt to DYN-CORPUS_HEALTH.md or impl receipt.
+  dependencies: IMPL-C-0012; CSV location confirmation; backend decision in CANON-30310.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-I-0003
+  source_path: 00-ORCHESTRATION/scripts/corpus_health_check.py
+  source_lines: "1–150 (full script scan)"
+  intent: Ensure corpus health checks run on schedule and alert on drift.
+  deliverable: (a) Add launchd/cron entry for daily corpus_health_check.py, (b) output to DYN-CORPUS_HEALTH.md with timestamp, (c) alert threshold if >N broken links or schema violations.
+  dependencies: launchd vs cron decision; alert routing (Slapshot? Slack DM?).
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-I-0004
+  source_path: DYN-DISPATCH_KANBAN_PROTOCOL.md + DYN-TWIN_COORDINATION_PROTOCOL.md
+  source_lines: "cross-doc drift detection"
+  intent: Close IMPL-G-0009 by making twin handoff surface discoverable and indexed.
+  deliverable: (a) Update DYN-TWIN_COORDINATION_PROTOCOL.md to replace -INBOX/outputs/ with canonical -OUTBOX/<agent>/ARTIFACTS/ path, (b) add INDEX.md entry in -OUTBOX/ pointing to latest twin relay files, (c) close IMPL-G-0009 as completed.
+  dependencies: IMPL-G-0009 status update; folder creation (if -OUTBOX/ structure not present).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+## 2026-02-10 — Tranche J (Canon Hotspots Follow-up): Five-Account + Multi-Agent + Memory + Seven-Layer
+
+- id: IMPL-J-0001
+  source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
+  source_lines: "Part II–V (Acumen IIC operational architecture)"
+  intent: Operationalize Acumen IIC with account-specific platform grammars and automation.
+  deliverable: (a) Document feed polling cadence (daily/weekly), (b) define Red Alert threshold and routing, (c) create quick-priority classification (read/queue/delegate), (d) prototype daily_brief.py generator.
+  dependencies: IMPL-C-0001; Acumen IIC account access.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-J-0002
+  source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
+  source_lines: "Part III (Coherence IIC multi-stage refinement pipeline)"
+  intent: Operationalize Coherence IIC synthesis pipeline with weekly handoff automation.
+  deliverable: (a) Weekly Acumen→Coherence handoff SOP, (b) framework refinement template, (c) synthesis essay template with citation network, (d) prototype coherence_synthesizer.py.
+  dependencies: IMPL-J-0001 (Acumen pipeline first).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-J-0003
+  source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
+  source_lines: "Part IV (Efficacy IIC execution cadence)"
+  intent: Operationalize Efficacy IIC with task prioritization and velocity tracking.
+  deliverable: (a) Daily task triage SOP (high/medium/low), (b) calendar integration rules, (c) weekly velocity review template, (d) LogSeq/Obsidian pattern for task flow.
+  dependencies: Calendar API access decision.
+  owner_lane: Ajna
+  venue: repo
+  status: new
+
+- id: IMPL-J-0004
+  source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
+  source_lines: "Part V (Mastery IIC curriculum and syllabus tracking)"
+  intent: Operationalize Mastery IIC for learning project tracking and spaced repetition.
+  deliverable: (a) Curriculum YAML schema (topic/stage/resources), (b) syllabus progress tracker, (c) spaced repetition integration (Anki API or similar), (d) learning artifact storage pattern.
+  dependencies: Spaced repetition tool selection.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-J-0005
+  source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
+  source_lines: "Part VI (Transcendence IIC journaling and reflection)"
+  intent: Operationalize Transcendence IIC with reflection prompts and meaning-making capture.
+  deliverable: (a) Daily reflection prompt generator, (b) weekly meaning synthesis template, (c) values alignment check (quarterly), (d) integration with existing journaling practice.
+  dependencies: Journaling platform selection (Bear/Apple Notes/Obsidian).
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-J-0006
+  source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION
+  source_lines: "§2.3 (planner-executor, critic-refiner, specialist swarm topologies)"
+  intent: Implement canonical multi-agent topologies as runner scripts with handoff protocols.
+  deliverable: (a) planner_executor.py: two-layer planning → execution with task decomposition, (b) critic_refiner.py: collaborative feedback loop with quality threshold, (c) specialist_swarm.py: parallel specialists with aggregation synthesis.
+  dependencies: Agent spawning mechanism (OpenClaw sessions_spawn or equivalent).
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-J-0007
+  source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION
+  source_lines: "§3.5–3.6 (MCP, A2A protocols; progressive trust model)"
+  intent: Evaluate and prototype protocol surfaces for multi-agent communication.
+  deliverable: (a) DecisionAtom: MCP vs A2A vs filesystem-kanban tradeoff for Syncrescendence, (b) prototype MCP server exposing repo operations, (c) progressive trust ladder specification (allowed actions per trust tier).
+  dependencies: IMPL-C-0005 (progressive trust); MCP research.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-J-0008
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS
+  source_lines: "§1.1 (memory taxonomy: working/episodic/semantic/procedural/prospective)"
+  intent: Map canonical memory taxonomy to concrete repo artifacts and storage.
+  deliverable: (a) Document where each memory type lives: working→CONTEXT.md, episodic→DYN-SESSION_LOG.md, semantic→MEMORY.md / canon, procedural→SKILL.md / PROCESSES/, prospective→DYN-INTENTIONS_QUEUE.md.
+  dependencies: Existing artifact structure; minimal reorganization.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-J-0009
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS
+  source_lines: "§2.2–2.4 (A-MEM, MIRIX, MemGPT system overviews)"
+  intent: Evaluate memory system implementations for local deployment.
+  deliverable: (a) A-MEM integration assessment (vector store for transcripts), (b) MIRIX evaluation (if applicable to local setup), (c) MemGPT comparison, (d) DecisionAtom with recommendation.
+  dependencies: Local compute resources; vector DB selection.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-J-0010
+  source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS
+  source_lines: "§3 (context engineering: chunking, relevance, decay, summarization)"
+  intent: Implement context compression and memory maintenance automation.
+  deliverable: (a) Session compaction policy (when/how to summarize), (b) relevance scoring for memory retrieval, (c) decay rules for ephemeral vs persistent memory, (d) sleep-time compute jobs for maintenance.
+  dependencies: IMPL-C-0008 (cron/launchd jobs for memory maintenance).
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-J-0011
+  source_path: 01-CANON/CANON-31130-SEVEN_LAYER
+  source_lines: "Part I.C (sovereignty challenges per layer)"
+  intent: Document sovereignty-preserving configurations for each of the seven layers.
+  deliverable: (a) Layer 0 (Physical): device selection + local-first hardening guide, (b) Layer 1 (Identity): account separation strategy, (c) Layer 2 (Ambient): Siri/Google Assistant opt-outs, (d) Layer 3 (Browser): Brave/Firefox config with extension audit, (e) Layer 4 (AI): platform data retention review, (f) Layer 5 (Content): feed curation independence, (g) Layer 6 (Production): self-hosted vs cloud tool audit, (h) Layer 7 (Meta): human-judgment preserved decisions.
+  dependencies: Privacy/data export APIs for major platforms.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-J-0012
+  source_path: 01-CANON/CANON-31130-SEVEN_LAYER
+  source_lines: "Part II (differential sovereignty patterns)"
+  intent: Operationalize differential sovereignty: fine-grained control delegation per context.
+  deliverable: (a) Decision matrix: when to use human judgment vs agent automation vs platform native, (b) sensitive operations registry (never-automate list), (c) sovereignty preservation checklist for new tool adoption.
+  dependencies: IMPL-J-0011 layer analysis.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
