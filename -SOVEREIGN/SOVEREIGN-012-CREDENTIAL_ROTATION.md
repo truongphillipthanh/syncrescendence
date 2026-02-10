@@ -1,6 +1,6 @@
 # SOVEREIGN-012: Credential Rotation Required
 
-**Status**: RESOLVED (Phase 1 — env var migration)
+**Status**: FULLY RESOLVED
 **Priority**: P0-Critical
 **Date**: 2026-02-09
 **Resolved**: 2026-02-10
@@ -54,11 +54,13 @@ Option 3 (env var migration) for new files + Option 1 (rotate) for Linear/ClickU
 2. **MEMORY.md redacted**: Commander's auto-memory updated to reference env vars instead of plaintext keys.
 3. **Files cleaned**: `CLARESCENCE-2026-02-09-mba-ajna-setup.md` — 2x OpenAI key + 2x gateway token redacted.
 
-**Pending (Sovereign action required)**:
-- **Rotate Linear API key**: https://linear.app/settings/api → regenerate personal key
-- **Rotate ClickUp API token**: https://app.clickup.com/settings/apps → regenerate token
-- **Rotate OpenAI API key**: https://platform.openai.com/api-keys → regenerate project key
-- After rotation, update `~/.syncrescendence/.env` and `~/.openclaw/.env` with new values
+**Phase 2 — Key Rotation COMPLETE (2026-02-10)**:
+- **Linear API key**: Rotated to `lin_api_Rfay...` — verified working
+- **ClickUp API token**: Rotated to `pk_126030281_QU0M...` — verified working
+- **OpenAI API key**: Rotated to `sk-proj-xr3e...` — verified working
+- **Google AI Studio key**: New key added `AIzaSyBT0g...` — verified (45 models accessible)
+- **OpenClaw .env synced**: `~/.openclaw/.env` updated with new OpenAI key
+- **All 4 keys verified via live API calls** — 2026-02-10
 - Git history scrub SKIPPED per recommendation (private repo, no external exposure)
 
-*Filed by Commander as part of Deep Audit 2026-02-09. Resolved 2026-02-10.*
+*Filed by Commander as part of Deep Audit 2026-02-09. Fully resolved 2026-02-10.*
