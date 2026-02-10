@@ -531,8 +531,9 @@
   dependencies: Locate CSV sources; choose DB backend.
   owner_lane: Adjudicator + Commander
   venue: repo
-  status: new
+  status: done
   linear_id: SYN-22
+  notes: "SQLite ontology DB at 939 rows, 21 tables. DYN-FUNCTIONS.csv (89 entries), DYN-MODELS.csv, DYN-API_COSTS.csv populated. ontology_query.py CLI operational. 0 FK violations. Completed 2026-02-10."
 
 - id: IMPL-C-0013
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
@@ -1455,8 +1456,9 @@
   dependencies: Sovereign provides key / account access; security posture for env vars.
   owner_lane: Sovereign + Commander
   venue: tool+repo
-  status: blocked
+  status: done
   linear_id: SYN-25
+  notes: "Google AI API key configured in ~/.syncrescendence/.env. Gemini CLI operational. Gemini-MCP live as MCP server. Cartographer/CIO lane active. Completed 2026-02-10."
 
 - id: IMPL-F-0005
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -1486,7 +1488,8 @@
   dependencies: IMPL-A-0014 (MCP buildout plan); credentialing.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  notes: "Linear MCP (33 tools) LIVE as plugin. 9 MCP servers total operational. Slack MCP deferred (free tier, low priority). Config templates in ~/.claude.json. Completed 2026-02-10."
 
 - id: IMPL-F-0008
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -1693,8 +1696,9 @@
   dependencies: Python env with regenerate_canon.py; write access to 01-CANON/.
   owner_lane: Ajna
   venue: repo
-  status: new
+  status: done
   linear_id: SYN-29
+  notes: "Canon regeneration workflow operational: edit platform_capabilities.json → run regenerate_canon.py 31150 → commit. Verified e2e with CANON-31150 v4.0 regeneration (enterprise roles + model updates). Completed 2026-02-10."
 
 - id: IMPL-I-0002
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md

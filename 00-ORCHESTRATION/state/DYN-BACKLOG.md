@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-10 (PROJ-012 COMPLETE. Methodology framework done (SYN-58). INBOX0 cleared (23 items archived). SYN-51-60 triaged. Setapp audit in progress. Ontology DB at 902 rows.)
+**Last Updated**: 2026-02-10 (SYN-12 DONE: CANON-31150 v4.0 regenerated. SYN-18 DONE: 9 MCP servers LIVE. SYN-22 DONE: CANON operational audit. SYN-56 DONE: Setapp audit. SYN-30: sync protocol designed. Ontology DB at 939 rows/89 functions. PROJ-012 COMPLETE. 5 commits this session.)
 
 ---
 
@@ -32,13 +32,13 @@
 | PROJ-002 | ACTIVE | P1 | 95% | IIC Configuration — All 5 configs complete (Acumen/Coherence/Efficacy/Mastery/Transcendence). Remaining: Mastery account email (Sovereign) |
 | PROJ-003 | COMPLETE | — | 100% | Tooling Stack — SOVEREIGN-009 RATIFIED 2026-02-10. Stack teleology v1.0.0. Tool onboarding in progress (SYN-51–60). Accounts created. API keys rotated 2026-02-10. |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
-| PROJ-006a | ACTIVE | P1 | 40% | Ontology Phase 1 (Content) — CANON frontmatter 79/79 COMPLETE, Ontology Bridge v1.0 COMPLETE (200+ relations). Remaining: operational status audit verification, Dataview query testing. |
-| PROJ-006b | ACTIVE | P0 | 15% | Ontology Phase 2 (Substrate) — SQLite pilot BUILT (792 rows, 21 tables, CANON-30300 4-layer schema). ontology_query.py CLI operational. Makefile targets added. Next: Airtable/Notion surfaces, model/pricing data, primitive enrichment. |
+| PROJ-006a | ACTIVE | P1 | 50% | Ontology Phase 1 (Content) — CANON frontmatter 79/79 COMPLETE, Ontology Bridge v1.0 COMPLETE (200+ relations), operational status audit DONE (SYN-22). Remaining: Dataview query testing, theoretical→canonical promotion. |
+| PROJ-006b | ACTIVE | P0 | 20% | Ontology Phase 2 (Substrate) — SQLite pilot BUILT (939 rows, 21 tables, 89 functions, CANON-30300 4-layer schema). ontology_query.py CLI operational. Makefile targets added. Next: Airtable/Notion surfaces, model/pricing data, primitive enrichment. |
 | PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
 | PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
 | PROJ-009 | NOT_STARTED | P3 | 0% | Modal 2 Visual — queued AI 3D/VFX/Image/Video |
 | PROJ-011 | COMPLETE | — | 100% | Automation Infrastructure |
-| PROJ-012 | COMPLETE | — | 100% | Multi-CLI Integration — Claude Code + Codex CLI v0.98.0 + Gemini CLI. All 3 CLIs operational. |
+| PROJ-012 | COMPLETE | — | 100% | Multi-CLI Integration — Claude Code + Codex CLI v0.98.0 + Gemini CLI. All 3 CLIs operational. Google AI + Codex API keys configured. |
 | PROJ-014 | ACTIVE | P2 | 60% | Multi-Account Sync — protocol documented, account restructure done |
 | PROJ-015 | NOT_STARTED | P3 | 0% | Browser Automation — blocked by PROJ-014 |
 | PROJ-016 | COMPLETE | — | 100% | Skills Conversion — 8/8 done (intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize, audize). TASK-057-062 reconciled. |
@@ -53,7 +53,7 @@
 | PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→30 files (79% reduction). state/: 24→21 (2 superseded deleted, stale paths fixed in 5 pipeline files). archive/: 53→9 (83% reduction — 31 dead weight deleted, 14 compacted into 3 files, 8 kept). Coherence metrics appended to lean-out recommendations. |
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
-| PROJ-LINEAR | IN_PROGRESS | P1 | 70% | Linear Onboarding — 60 issues, 17 labels. MCP LIVE. T1a↔T2 bridge: 19/176 IMPL→SYN linked (d5cd3ac). 7 issue descriptions enriched. 157 IMPL entries unmapped — Sovereign decision pending. |
+| PROJ-LINEAR | IN_PROGRESS | P1 | 75% | Linear Onboarding — 60 issues, 17 labels. MCP LIVE. T1a↔T2 bridge: 19/176 IMPL→SYN linked. Sync protocol designed (ARCH-LINEAR_SYNC_PROTOCOL.md, SYN-30). 157 IMPL entries unmapped — Sovereign decision pending. |
 | PROJ-LIVE-CANON | COMPLETE | — | 100% | Live CANON Ticker — MVP deployed + automation. SOVEREIGN-008 APPROVED 2026-02-06. |
 | PROJ-CRED-ROT | COMPLETE | — | 100% | API Key Rotation — Linear, ClickUp, OpenAI rotated. Google AI key added. OpenClaw .env synced. All 4 verified 2026-02-10. |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
@@ -140,15 +140,14 @@ PROJ-011 ---+---> PROJ-003 (DONE) --> PROJ-006b (15%) --> PROJ-007
             |
             +---> PROJ-006a (Ontology Ph1 — UNBLOCKED, ACTIVE)
             |
-            +---> PROJ-012 ---------> CLI activation
-            |     (95%)
+            +---> PROJ-012 (DONE) --> CLI activation DONE
             |
             +---> PROJ-014 ---------> PROJ-015
                   (60%)
 
 NEW (Restructure Sprint)
 ---------
-PROJ-RESTRUCTURE (DONE) ---> PROJ-CANON-LEAN (DONE) --> PROJ-LIVE-CANON (30%)
+PROJ-RESTRUCTURE (DONE) ---> PROJ-CANON-LEAN (DONE) --> PROJ-LIVE-CANON (DONE)
 PROJ-AVATARS (DONE) -------> PROJ-SN-VARS (DONE) ----> [complete]
 PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (DONE) --> CLI keys (Sovereign)
                                                     --> PROJ-LINEAR
@@ -174,6 +173,10 @@ PROJ-ACCT (DONE) ----------> PROJ-NEO-BLITZ (DONE) --> CLI keys (Sovereign)
 | PROJ-TERMINOLOGY | 13+ | Deviser→Vanguard across 15 files, Rosetta Stone v2.1.0 |
 | PROJ-016 | 13+ | 8 skills: intentions, pedigree, transcribe_youtube, transcribe_interview, integrate, readize, listenize, audize |
 | PROJ-NEO-BLITZ | 13+ | Full automation pipeline: 5 hooks, dispatch system, watch_dispatch.sh, AGENTS.md, CANON lean-out, sn_expand.py |
+| PROJ-LIVE-CANON | 17+ | Live CANON Ticker — SOVEREIGN-008 APPROVED, ARCH-LIVE_CANON_TICKER.md, platform_capabilities.json v4.0 |
+| PROJ-012 | 17+ | Multi-CLI Integration — Claude Code + Codex CLI v0.98.0 + Gemini CLI. All API keys configured. |
+| PROJ-CRED-ROT | 17+ | API Key Rotation — Linear, ClickUp, OpenAI, Google AI keys rotated + verified 2026-02-10 |
+| PROJ-003 | 17+ | Tooling Stack — SOVEREIGN-009 RATIFIED, stack teleology v1.0.0, tool onboarding SYN-51-60 created |
 
 ---
 
