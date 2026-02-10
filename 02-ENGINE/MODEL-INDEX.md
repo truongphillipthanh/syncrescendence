@@ -14,7 +14,7 @@
 | Platform | Status | Flagship | Latest Release | Delta |
 |----------|--------|----------|----------------|-------|
 | Anthropic | UPDATING | Claude Opus 4.6 | 2026-02-05 | Opus 4.6 just launched |
-| OpenAI | NOMINAL | GPT-5.2 | 2025-12-11 | GPT-5.2 Pro variant active |
+| OpenAI | NOMINAL | GPT-5.3-codex | 2026-01 | GPT-5.3-codex (Psyche/CTO via ChatGPT Plus) |
 | Google | NOMINAL | Gemini 3 Pro (Preview) | 2025-11-18 | GA pending |
 | xAI | WATCH | Grok 4.1 | 2025-11-17 | Grok 5 training (Q1 2026) |
 | Meta | NOMINAL | Llama 4 Maverick | 2025-04-05 | Behemoth still training |
@@ -30,13 +30,14 @@ Status: `NOMINAL` (stable) · `WATCH` (change expected) · `UPDATING` (active tr
 
 ## CONSTELLATION ECONOMICS
 
-| Account | Platform | Tier | Monthly | Avatars |
-|---------|----------|------|---------|---------|
-| A1 | Claude | Max 5x | $100 | Commander |
-| A1 | ChatGPT | Plus | $20 | Vanguard |
-| A2 | Claude | Pro | $20 | Vizier, Adjudicator |
-| A2 | Google AI | Pro | $20 | Cartographer, Diviner |
-| — | — | **Total** | **$160** | — |
+| Account | Platform | Tier | Monthly | CLI Agents | Web Avatars |
+|---------|----------|------|---------|------------|-------------|
+| A1 | Claude | Max 5x | $100 | Commander (COO) | — |
+| A1 | ChatGPT | Plus | $20 | Psyche/CTO (OpenClaw) | Vanguard |
+| A2 | Claude | Pro | $20 | Adjudicator (CQO) | Vizier |
+| A2 | Google AI | Pro | $20 | Cartographer (CIO) | Diviner |
+| — | NVIDIA NIM | Free | $0 | Ajna/CSO (OpenClaw, MBA) | — |
+| — | — | **Total** | **$160** | — | — |
 
 **Last verified**: 2026-02-09 · **DEF**: `PlatformBudget` in `DEF-CONSTELLATION_VARIABLES.md`
 
@@ -64,6 +65,7 @@ Status: `NOMINAL` (stable) · `WATCH` (change expected) · `UPDATING` (active tr
 
 | Model | API String | Context | Max Output | Release | Strengths | IIC Assignment |
 |-------|------------|---------|------------|---------|-----------|----------------|
+| **GPT-5.3-codex** | `openai-codex/gpt-5.3-codex` | 400K | 128K | 2026-01 | Coding-specialized, agentic, tool-calling | **Psyche/CTO** (OpenClaw, Mac mini) |
 | **GPT-5.2** | `gpt-5.2` | 400K | 128K | 2025-12-11 | Agentic coding, long context, vision, tool-calling | General synthesis, creative, agentic workflows |
 | **GPT-5.2 Pro** | `gpt-5.2-pro` | 400K | 128K | 2025-12-11 | Extended reasoning, highest capability | Complex research, enterprise analysis |
 | **GPT-4.1** | `gpt-4.1` | 1M | 128K | 2025-04-14 | Long context, SWE-bench leader, cost-efficient | Code analysis, large documents |
@@ -144,6 +146,7 @@ Status: `NOMINAL` (stable) · `WATCH` (change expected) · `UPDATING` (active tr
 | **DeepSeek-V4** | DeepSeek | Hybrid MoE | 1M+ | ~2026-02-17 (EXPECTED) | Engram memory, 1M+ context, hybrid reasoning/chat | STALE — not yet released |
 | **Qwen3-Max** | Alibaba | MoE (235B/22B active) | 128K | 2025-09-23 | Multilingual (119 langs), hybrid thinking | Translation, analysis |
 | **Qwen3-Next** | Alibaba | MoE | 128K | 2025-09-10 | Improved reasoning, multi-token prediction | Research, fast inference |
+| **Kimi K2.5** | Moonshot | MoE | 256K | 2025-10 | Agentic coding, tool-calling, NVIDIA NIM provider | **Ajna/CSO** (OpenClaw, MBA) |
 | **Kimi K2** | Moonshot | — | 256K | 2025-07-01 | Sequential tool calling | Agentic workflows |
 
 **Notes**:

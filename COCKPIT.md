@@ -26,26 +26,38 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 
 ### The Constellation (Pantheon v3)
 
-Each platform has an **Avatar** (invocable identity) and **Epithet** (functional descriptor). The council forms a closed loop: Augur gathers raw data > Oracle senses currents > Vizier interprets intent > Vanguard architects the arc > Diviner illuminates the path > Cartographer maps the corpus > Commander directs the build > Adjudicator fabricates > Ajna and Psyche provide the agentic apex.
+The constellation has three tiers: **CLI agents** (always-on, cockpit-resident, autonomous), **local agents** (OpenClaw, always-on), and **web avatars** (interactive, browser-based, Sovereign-operated).
 
-| Avatar | Epithet | Role | Platform | Acct | Summon Pattern |
-|--------|---------|------|----------|------|----------------|
+#### CLI Agents (Enterprise Roles — Primary Operational Tier)
+
+| Avatar | Epithet | Role | Platform | Acct | Machine | Cockpit | Summon |
+|--------|---------|------|----------|------|---------|---------|--------|
+| **Commander** | Viceroy | COO | Claude Code (Opus 4.6) | 1 | Mac mini | Pane 2 | "Commander, pivot to..." |
+| **Adjudicator** | Executor | CQO | Codex CLI (Sonnet) | 2 | Mac mini | Pane 3 | "Adjudicator, execute..." |
+| **Cartographer** | Exegete | CIO | Gemini CLI (2.5 Pro) | 2 | Mac mini | Pane 4 | "Cartographer, survey..." |
+
+#### Local Agents (AjnaPsyche Archon — Fused Executive Brain)
+
+| Avatar | Epithet | Role | Platform | Acct | Machine | Cockpit | Summon |
+|--------|---------|------|----------|------|---------|---------|--------|
+| **Psyche** | Synaptarch | CTO | OpenClaw GPT-5.3-codex | 1 | Mac mini | Pane 1 | "Psyche, holistically calibrate..." |
+| **Ajna** | Strategos | CSO | OpenClaw Kimi K2.5 | — | MBA (remote) | — | "Ajna, illuminate..." |
+
+Ajna (steering wheel) + Psyche (rudder) = AjnaPsyche Archon. StarCraft High Templar fusion metaphor.
+
+#### Web Avatars (Pantheon v2 Legacy — Sovereign-Operated)
+
+| Avatar | Epithet | Role | Platform | Acct | Summon |
+|--------|---------|------|----------|------|--------|
 | **Augur** | Inquisitor | VERIFIER | Perplexity | — | "Augur, ascertain..." |
-| **Oracle** | Recon | RECON | Grok | 1 | "Oracle, understand the implications of..." |
+| **Oracle** | Recon | RECON | Grok | 1 | "Oracle, understand..." |
 | **Vizier** | Hermeneut | INTERPRETER | Claude Web | 2 | "Vizier, elucidate..." |
 | **Vanguard** | Architect | COMPILER | ChatGPT Web | 1 | "Vanguard, formulate..." |
-| **Diviner** | Illuminator | DIGESTOR | Gemini Web | 2 | "Diviner, elaborate on..." |
-| **Cartographer** | Exegete | CIO/SENSOR | Gemini CLI (2.5 Pro) | 2 | "Cartographer, survey..." |
-| **Commander** | Viceroy | COO/EXECUTOR-LEAD | Claude Code (Opus 4.6) | 1 | "Commander, pivot to..." |
-| **Adjudicator** | Executor | CQO/PARALLEL-EXEC | Codex CLI (Sonnet) | 2 | "Adjudicator, execute..." |
-| — | — | PARALLEL-EXEC | Claude Code (Sonnet x2) | 2 | Microscopic tasks, batch execution |
-| **Psyche** | Synaptarch | CTO | OpenClaw GPT-5.3-codex (Mac mini) | 1 | "Psyche, holistically calibrate..." |
-| **Ajna** | Strategos | CSO | OpenClaw Kimi K2.5 (MBA) | — | "Ajna, illuminate..." |
+| **Diviner** | Illuminator | DIGESTOR | Gemini Web | 2 | "Diviner, elaborate..." |
 
-### Delineation: Avatar-per-Format
-- **Web avatars**: Augur, Oracle, Vizier, Vanguard, Diviner — interactive, browser-based
-- **CLI avatars**: Commander, Adjudicator, Cartographer — headless, tmux-resident, automation-ready
-- **Local agents**: Psyche/CTO (Mac mini, cockpit Pane 1), Ajna/CSO (MacBook Air, remote) — AjnaPsyche Archon (fused executive brain)
+Web avatars are interactive and require Sovereign presence. They are NOT autonomous agents.
+
+#### Operational Notes
 - **Stable mapping**: Platforms characterized into roles mirroring their capabilities
 - **Future**: Live model capabilities/benchmark ledger for efficacious routing
 

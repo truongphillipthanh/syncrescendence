@@ -83,7 +83,7 @@ __pycache__/
 # Manifests (regenerated)
 /tmp/*.tsv
 
-# Runtime dispatch surfaces (do not version-control queue contents)
+# Legacy alias (actual dir is -OUTGOING/)
 -OUTBOX/
 
 # Avoid committing Finder/iCloud duplicate copies
