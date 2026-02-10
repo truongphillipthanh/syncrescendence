@@ -2,6 +2,8 @@
 
 **Filed**: 2026-02-02
 **Filed By**: Commander (Claude Code, Opus 4.5)
+**Status**: RESOLVED
+**Resolved**: 2026-02-10
 **Priority**: P0 — These 5 decisions unblock PROJ-006 (Ontology), which unblocks PROJ-007 (Curriculum), PROJ-005 (Branding), and the entire downstream pipeline.
 **Source**: REF-STACK_TELEOLOGY.md analysis + repository state audit
 
@@ -142,3 +144,36 @@ Once decisions are made, Commander will:
 ---
 
 *"Every tool either compounds meaning or drains attention. There is no neutral."*
+
+---
+
+## SOVEREIGN DECISIONS (2026-02-10)
+
+### Decision 1: Task Management
+**Ruling**: MASSIVELY EXPANDED beyond original options.
+- Keep Linear (T1a engineering PM) + ClickUp (T1b operational hub)
+- **Onboard**: Jira (Scrum, superstructures Linear, bridges ClickUp), Trello (Kanban), Todoist (GTD, substructures ClickUp), TeamGantt (Waterfall, superstructures ClickUp)
+- **Additional methodologies**: Prince2, Critical Chain, Critical Path, OPM3, CMMI, XP
+- **Additional SaaS to consider**: Basecamp, Asana, Airtable (confirmed), Smartsheet (clone target)
+- **Goal**: Eventually replace all with internal tools
+
+### Decision 2: PKM
+**Ruling**: Notion = personal context manager / LifeOS. Obsidian = corpus / extended cognition. If exact PKM function needed, find copycat in interim. These tools may be too complex to clone correctly.
+
+### Decision 3: Cloud Storage
+**Ruling**: KEEP ALL with differentiated roles (opposite of sunset recommendation).
+- Box = stage deliverables
+- Dropbox = share with clients
+- Google Drive = main storage
+- iCloud = cross-format sync
+
+### Decision 4: Raycast
+**Ruling**: Raycast free tier. "Probably a good internal app to build" — clone candidate.
+
+### Decision 5: Setapp
+**Ruling**: Cancel subscription. Extract primitives and clone functionality.
+
+### Applied To
+- REF-STACK_TELEOLOGY.md updated to v1.0.0 (RATIFIED)
+- PROJ-003 unblocked for closure
+- Linear issues created for onboarding tasks

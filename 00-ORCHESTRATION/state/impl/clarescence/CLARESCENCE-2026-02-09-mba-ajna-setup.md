@@ -155,7 +155,7 @@ cat > ~/.openclaw/.env << 'ENVEOF'
 # NVIDIA NIM API key for Kimi K2.5
 NVIDIA_API_KEY=YOUR_NVIDIA_API_KEY
 # OpenAI API key for embeddings (Mem0, file vector search)
-OPENAI_API_KEY=[REDACTED-ROTATED-2026-02-10]
+OPENAI_API_KEY=${OPENAI_API_KEY}
 ENVEOF
 
 # Lock permissions
@@ -268,7 +268,7 @@ cat > ~/.openclaw/openclaw.json << 'JSONEOF'
     "bind": "loopback",
     "auth": {
       "mode": "token",
-      "token": "65f1760ac3974f1798138b607f3182ab787b80167ec39629"
+      "token": "${OPENCLAW_GATEWAY_TOKEN}"
     },
     "tailscale": {
       "mode": "off",
@@ -556,7 +556,7 @@ cat > ~/Library/LaunchAgents/com.syncrescendence.openclaw-gateway.plist << PLIST
         <key>NVIDIA_API_KEY</key>
         <string>YOUR_NVIDIA_API_KEY</string>
         <key>OPENAI_API_KEY</key>
-        <string>[REDACTED-ROTATED-2026-02-10]</string>
+        <string>${OPENAI_API_KEY}</string>
     </dict>
 
     <key>ThrottleInterval</key>
@@ -975,7 +975,7 @@ rm -f /tmp/syncrescendence-git-sync.err
 | DA-03 | Should MBA run Docker services? | Yes (Neo4j/Graphiti/Qdrant), No (rely on Mac mini) | NO. MBA is a lightweight strategic node. Docker services stay on Mac mini. Ajna queries Mac mini's Graphiti/Qdrant over Tailscale if needed. | DECIDED: No |
 | DA-04 | Should Ajna have Mem0 plugin? | Yes (local Qdrant), No (file-based memory only) | NO for initial deployment. Mem0 requires Qdrant (Docker). Add later if MBA gets Docker. Use file-based memorySearch for now. | DECIDED: No (Phase 1) |
 | DA-05 | Should MBA have Discord integration? | Yes (duplicate of Mac mini), No (Psyche handles it) | NO. Psyche on Mac mini handles all Discord. Ajna communicates via git sync only. | DECIDED: No |
-| DA-06 | Gateway token: same as Mac mini? | Same token, new token | SAME token for simplicity. Both machines use `65f1760ac3974f1798138b607f3182ab787b80167ec39629`. Neither is internet-exposed (loopback only). | DECIDED: Same |
+| DA-06 | Gateway token: same as Mac mini? | Same token, new token | SAME token for simplicity. Both machines use `${OPENCLAW_GATEWAY_TOKEN}`. Neither is internet-exposed (loopback only). | DECIDED: Same |
 | DA-07 | Should MBA have qmd (BM25 search)? | Yes (local index), No (query Mac mini) | YES. qmd is lightweight (BM25 over .md files, no external deps). Install after initial deployment stabilizes. | DECIDED: Yes (Phase 2) |
 | DA-08 | Concurrent agent limits? | Same as Mac mini (4+8), Lower | LOWER. MBA has less RAM/thermal headroom. Set maxConcurrent=2, subagents.maxConcurrent=4. | DECIDED: 2+4 |
 | DA-09 | Should NVIDIA API key be rotated? | Rotate now, keep current | SHOULD rotate (was exposed in a task file per Ajna's RESULT). But not blocking for deployment. Rotate within 24 hours. | TODO |

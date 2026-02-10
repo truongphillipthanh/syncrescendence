@@ -8,11 +8,12 @@ target: engine
 # STACK TELEOLOGY: Comprehensive Technology Disposition
 ## Every Tool, Every Surface, Every Platform — Teleologized
 
-**Version**: 0.1.0 (DRAFT — Sovereign ratification required)
+**Version**: 1.0.0 (SOVEREIGN RATIFIED — 2026-02-10)
 **Generated**: 2026-01-31
-**Author**: Ajna (Opus 4.5, OpenClaw, M1 Mac mini)
+**Ratified**: 2026-02-10 (SOVEREIGN-009 decisions applied)
+**Author**: Ajna (original draft), Commander (ratification edits)
 **Purpose**: Line-by-line dispositional analysis of the entire technology stack
-**Status**: LIVING DOCUMENT — update as decisions crystallize
+**Status**: RATIFIED — decisions crystallized, onboarding in progress
 
 ---
 
@@ -119,42 +120,80 @@ target: engine
 
 Each tool below needs explicit disposition: keep, replace, integrate, or sunset.
 
-### Project Management / Task Management
+### Project Management / Task Management — RATIFIED
+
+**Sovereign Decision (2026-02-10)**: Multi-methodology stack with native integrations. ClickUp as hub. Goal: eventually replace with internal tools.
+
+#### Tier 1: Core PM (ACTIVE)
+
+| Tool | Status | Methodology | Role | Integrations |
+|------|--------|-------------|------|-------------|
+| **Linear** | ACTIVE | Agile/Scrum | T1a — engineering-grade PM, API-first | MCP server LIVE, Jira bridge |
+| **ClickUp** | ACTIVE | Multi-method hub | T1b — operational PM, native integrations | MCP server LIVE, bridges to all below |
+| **Things 3** | ACTIVE | GTD (light) | Personal quick capture, native macOS | OpenClaw `things` skill |
+| **Apple Reminders** | ACTIVE | GTD (triggers) | Time/location-based triggers | OpenClaw `remindctl` skill |
+
+#### Tier 2: Methodology Expansion (ONBOARDING)
+
+| Tool | Status | Methodology | Role | Relationship to Hub |
+|------|--------|-------------|------|-------------------|
+| **Jira** | SELECTED | Scrum | Superstructures Linear, bridges ClickUp | Sprint planning, backlog grooming |
+| **Trello** | SELECTED | Kanban | Phases, stages, tiers, strata, levels | Visual flow management |
+| **Todoist** | SELECTED | GTD | Substructures ClickUp | Quick capture → ClickUp dispatch |
+| **TeamGantt** | SELECTED | Waterfall | Superstructures ClickUp | Timeline/dependency visualization |
+
+#### Tier 3: Evaluation Pipeline (CONSIDER)
+
+| Tool | Status | Methodology | Notes |
+|------|--------|-------------|-------|
+| **Airtable** | SELECTED | Relational/custom | Spreadsheet-database hybrid. For sure onboarding. |
+| **Asana** | EVALUATING | Agile/Waterfall hybrid | Freemium, good integrations |
+| **Basecamp** | EVALUATING | Shape Up | Freemium, opinionated |
+| **Smartsheet** | CLONE TARGET | Waterfall/Gantt | Clone the primitives, don't subscribe |
+
+#### Methodology Framework (ONBOARDING)
+
+| Methodology | Tool Surface | Status | Notes |
+|-------------|-------------|--------|-------|
+| **Scrum** | Jira + Linear | SELECTED | Sprint ceremonies, backlog, velocity |
+| **Kanban** | Trello + ClickUp views | SELECTED | Flow visualization, WIP limits |
+| **GTD** | Todoist → ClickUp | SELECTED | Capture → Process → Organize → Review → Do |
+| **Waterfall** | TeamGantt + ClickUp Gantt | SELECTED | Dependency tracking, critical path |
+| **Prince2** | Documentation layer | PLANNED | Controlled environments, business case justification |
+| **Critical Chain** | Buffer management | PLANNED | Constraint-based scheduling, buffer tracking |
+| **Critical Path** | TeamGantt + custom | PLANNED | Longest-path analysis, float calculation |
+| **OPM3** | Maturity assessment | PLANNED | Organizational PM maturity model |
+| **CMMI** | Process improvement | PLANNED | Capability maturity integration |
+| **XP (Extreme Programming)** | Development practices | PLANNED | TDD, pair programming, continuous integration |
+
+**Architecture**: ClickUp sits at the center with maximum native integrations. Jira superstructures Linear (engineering escalation). Todoist substructures ClickUp (quick capture flows up). TeamGantt superstructures ClickUp (timeline views down). Long-term: build internal replacements.
+
+| GoodTask | DEFERRED | Reminders frontend — may not need with Todoist |
+| NotePlan | DEFERRED | Overlap with OpenClaw daily notes |
+
+### Knowledge Management / PKM — RATIFIED
+
+**Sovereign Decision (2026-02-10)**: Obsidian = corpus/extended cognition. Notion = personal context manager/LifeOS. These tools may be too complex to clone correctly; if exact PKM function needed, find copycat in interim.
 
 | Tool | Status | Teleology | OpenClaw Impact |
 |------|--------|-----------|-----------------|
-| **Linear** | EVALUATING | Engineering-grade PM. Kanban + sprint. API-first. | Could integrate via MCP or API. |
-| **Things 3** | ACTIVE (Mac mini) | Personal task capture. Native macOS. Quick. | OpenClaw has `things` CLI skill. Direct integration possible. |
-| **Todoist** | DEFERRED | Cross-platform but redundant with Things. | - |
-| **Apple Reminders** | ACTIVE | Lightweight, Siri-accessible. Time/location triggers. | OpenClaw has `remindctl` skill. |
-| **GoodTask** | EVALUATING | Reminders frontend with more power. | - |
-| **NotePlan** | EVALUATING | Markdown-based daily planning. | Overlap with OpenClaw daily notes? |
+| **Obsidian** | ACTIVE (PRIMARY) | Corpus ownership. Extended cognition. Graph-based PKM. CANON lives here. Git-tracked. | OpenClaw `obsidian` skill + MCP server. |
+| **Notion** | ACTIVE (LifeOS) | Personal context manager. Relational databases. Structured dashboards. IIC views. | MCP server available. Cowork MCP App. |
+| **Logseq** | SUNSET | Overlap with Obsidian. | - |
+| **RemNote** | SUNSET | Redundant. | - |
+| **DEVONthink** | DEFERRED | May revisit if Palantir needs document AI classification. | - |
+| **Hookmark** | DEFERRED | OpenClaw filesystem operations may replace. | - |
 
-**Decision needed**: Things vs Linear vs OpenClaw cron for task management. The Palantir endpoint suggests Linear (API-first, queryable). But daily personal tasks → Things/Reminders via OpenClaw.
+### Cloud Storage — RATIFIED
 
-### Knowledge Management / PKM
+**Sovereign Decision (2026-02-10)**: All four services retained with differentiated roles. No sunsetting.
 
-| Tool | Status | Teleology | OpenClaw Impact |
-|------|--------|-----------|-----------------|
-| **Obsidian** | ACTIVE | Graph-based PKM. Wikilinks = the accretion test surface. CANON lives here. | OpenClaw has `obsidian` skill. |
-| **Notion** | EVALUATING | Databases + docs. Cowork MCP App candidate. | Could replace some manual tracking. |
-| **Logseq** | SUNSET | Overlap with Obsidian. Block-based but less flexible. | - |
-| **RemNote** | SUNSET | Spaced repetition + notes. Redundant. | - |
-| **DEVONthink** | EVALUATING | Document management + AI classification. macOS-native. | Potential corpus management layer. |
-| **Hookmark** | EVALUATING | Deep linking between any macOS objects. | Could be replaced by OpenClaw filesystem operations. |
-
-**Decision needed**: Obsidian is the PKM winner (graph mode = accretion test). But DEVONthink's AI classification might serve the Palantir function. Notion's database model is powerful for the ontology.
-
-### Cloud Storage
-
-| Tool | Status | Teleology | OpenClaw Impact |
-|------|--------|-----------|-----------------|
-| **Google Drive** | ACTIVE | Gemini Gems live-sync. Account 3 primary. | `make sync-to-drive` pipeline. |
-| **Dropbox** | EVALUATING | Legacy storage. Redundant with Drive? | - |
-| **Box** | SUNSET | Cowork MCP App, but no other use. | - |
-| **iCloud** | ACTIVE | Apple device sync. Account 1 substrate. | System-level, not project-level. |
-
-**Decision needed**: Consolidate to Google Drive + iCloud. Sunset Dropbox/Box unless specific use case emerges.
+| Tool | Status | Role | Teleology |
+|------|--------|------|-----------|
+| **Google Drive** | ACTIVE (PRIMARY) | Main storage | Gemini Gems live-sync. Account 3 primary. `make sync-to-drive` pipeline. |
+| **Dropbox** | ACTIVE | Client sharing | Share deliverables with external clients/collaborators. |
+| **Box** | ACTIVE | Staging | Stage deliverables before distribution. Cowork MCP App. |
+| **iCloud** | ACTIVE | Cross-format sync | Apple device sync. Cross-format file access. Account 1 substrate. |
 
 ### Communication
 
@@ -181,14 +220,15 @@ Each tool below needs explicit disposition: keep, replace, integrate, or sunset.
 |------|--------|-----------|-----------------|
 | **Keyboard Maestro** | ACTIVE | macOS macro engine. RTS interaction dynamics. | Complements OpenClaw (KM = GUI automation, OC = agent automation). |
 | **Hazel** | ACTIVE | File-based rules. Auto-organize downloads/inbox. | Complements OpenClaw (Hazel = filesystem triggers, OC = intelligent routing). |
-| **Raycast** | ACTIVE | Launcher + extensions. Quick actions. | Raycast AI ↔ OpenClaw overlap. Choose one for AI queries. |
+| **Raycast** | ACTIVE (FREE) | Launcher only (free tier). Clone candidate for internal app. | AI queries → OpenClaw. Raycast = launcher surface only. |
 | **Shortcuts** | ACTIVE | Apple ecosystem automation. Siri integration. | OpenClaw can trigger Shortcuts via CLI. |
 | **Stream Deck** | ACTIVE | Physical macro buttons. | Map buttons to OpenClaw commands? |
 | **BetterTouchTool** | ACTIVE | Trackpad/touch gestures. | Peripheral input → OpenClaw commands. |
-| **Make (Integromat)** | DEFERRED | Cloud automation. iPaaS. | OpenClaw + cron may replace this entirely. |
-| **IFTTT** | SUNSET | Too simple. Make is superior if needed. | OpenClaw replaces this. |
+| **Make (Integromat)** | SUNSET | OpenClaw + cron replaces all use cases. | - |
+| **IFTTT** | SUNSET | OpenClaw replaces this. | - |
+| **Setapp** | CANCELLING | Extract primitives, then cancel subscription. Clone useful functionality. | Audit in progress. |
 
-**Key insight**: OpenClaw's cron + skills architecture may sunset Make/IFTTT entirely. Keyboard Maestro and Hazel remain valuable because they operate at the macOS GUI/filesystem level that OpenClaw doesn't directly touch.
+**Key insight**: OpenClaw's cron + skills architecture sunsets Make/IFTTT entirely. Keyboard Maestro and Hazel remain valuable at the macOS GUI/filesystem level. Raycast is a strong clone candidate for internal app development.
 
 ---
 
@@ -311,18 +351,28 @@ These represent gaps in the macOS app ecosystem that Phillip wants filled:
 
 ---
 
-## XI. OPEN DECISIONS — Requires Sovereign Input
+## XI. DECISIONS LOG — Sovereign Ratified (2026-02-10)
 
-1. **Things vs Linear vs OpenClaw cron** — Primary task management surface?
-2. **Obsidian vs Notion vs DEVONthink** — Primary PKM beyond the corpus repo?
-3. **Dropbox/Box** — Sunset both?
-4. **Accounts 4-8** — Still needed?
-5. **Make/IFTTT** — OpenClaw replaces?
-6. **Atlas+Comet browser strategy** — Still needed with OpenClaw routing?
-7. **Cursor/Windsurf** — Confirmed sunset?
-8. **Setapp subscription** — Which apps justify continued payment?
-9. **Raycast AI vs OpenClaw** — Which handles quick AI queries?
-10. **Tailscale** — Enable for remote Mac mini access?
+| # | Decision | Sovereign Ruling | Status |
+|---|----------|-----------------|--------|
+| 1 | Task management surface | Multi-methodology: Linear + ClickUp + Jira + Trello + Todoist + TeamGantt | RATIFIED |
+| 2 | Primary PKM | Obsidian (corpus) + Notion (LifeOS/PCM) | RATIFIED |
+| 3 | Dropbox/Box | KEEP BOTH — Box=staging, Dropbox=client sharing, Drive=main, iCloud=sync | RATIFIED |
+| 4 | Accounts 4-8 | Defer activation — 3 accounts suffice for now | RATIFIED (original rec) |
+| 5 | Make/IFTTT | SUNSET both — OpenClaw replaces | RATIFIED |
+| 6 | Atlas+Comet browser | Keep for now (Account 1 ChatGPT access) | RATIFIED (original rec) |
+| 7 | Cursor/Windsurf | SUNSET confirmed | RATIFIED |
+| 8 | Setapp | CANCEL — extract primitives and clone | RATIFIED |
+| 9 | Raycast AI vs OpenClaw | Raycast FREE tier only (launcher). Clone candidate. OpenClaw for AI. | RATIFIED |
+| 10 | Tailscale | Enable for remote Mac mini access | RATIFIED (original rec) |
+
+### Additional Onboarding (2026-02-10)
+- **Airtable**: SELECTED — spreadsheet-database hybrid, for sure onboarding
+- **Asana, Basecamp**: EVALUATING — freemium, good integrations
+- **Smartsheet**: CLONE TARGET — extract primitives, build internal
+
+### Methodology Expansion (2026-02-10)
+Prince2, Critical Chain, Critical Path, OPM3, CMMI, XP — all PLANNED for integration into multi-methodology framework.
 
 ---
 

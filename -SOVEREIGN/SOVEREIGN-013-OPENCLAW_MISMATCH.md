@@ -1,8 +1,9 @@
 # SOVEREIGN-013: OpenClaw Personality/Model Mismatch
 
-**Status**: PENDING
+**Status**: RESOLVED
 **Priority**: P1
 **Date**: 2026-02-09
+**Resolved**: 2026-02-10
 **From**: Commander (Deep Audit)
 
 ---
@@ -35,4 +36,16 @@ Option A — revert personality to Psyche. The Mac mini is Psyche's machine. Ajn
 
 ---
 
-*Filed by Commander as part of Deep Audit 2026-02-09*
+## Resolution (2026-02-10)
+
+**Sovereign Decision**: Option A — revert personality to Psyche.
+
+**Executed**:
+1. `~/.openclaw/SOUL.md` — rewritten from Ajna/LOCAL ORCH to Psyche/CTO/Synaptarch with full role description
+2. `~/.openclaw/AGENTS.md` — updated coordination target from Psyche→Ajna (agent coordinates with its twin)
+3. `~/.openclaw/MEMORY.md` — updated identity history, added correction log
+4. `~/.openclaw/workspace/HEARTBEAT.md` — changed from Ajna to Psyche, added CTO-specific health checks
+
+**Model note**: `openclaw.json` model remains `openai-codex/gpt-5.2` (OpenClaw OAuth provider constraint). Personality files reference `gpt-5.3-codex` descriptively. Actual model version depends on ChatGPT Plus allocation.
+
+*Filed by Commander as part of Deep Audit 2026-02-09. Resolved 2026-02-10.*

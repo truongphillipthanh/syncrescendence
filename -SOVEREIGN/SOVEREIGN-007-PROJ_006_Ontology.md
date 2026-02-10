@@ -2,8 +2,8 @@
 type: sovereign_decision_request
 priority: HIGH
 created: 2026-02-01
-status: PENDING
-requires: Sovereign disposition decisions for PROJ-003 tool stack
+status: RESOLVED (PROJ-003 decisions ratified via SOVEREIGN-009)
+requires: Sovereign disposition decisions for PROJ-003 tool stack — DELIVERED 2026-02-10
 ---
 
 # SOVEREIGN-007: PROJ-006 Ontology "Palantir" — Attack Plan and Blockers
