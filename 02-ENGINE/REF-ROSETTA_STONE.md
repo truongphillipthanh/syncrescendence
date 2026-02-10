@@ -127,7 +127,7 @@ target: engine
 
 **Reconciliation**: Preserve entirely. Complete the rename from "Ring" to sigma. Disambiguate: sigma = operational sovereignty, tau = celestial/developmental (CANON cosmology).
 
-**Migration Path**: Ratify sigma/tau terminology split. Update all remaining "Ring" references to sigma.
+**Migration Path**: COMPLETE (2026-02-09). Sigma/tau terminology split ratified: **sigma (σ)** = operational sovereignty strata (σ₀ Sovereign → σ₇ Execution Substrate); **tau (τ)** = celestial/developmental cosmology notation (CANON ontological tiers). Directory renamed 05-Ring → 05-SIGMA. "Ring 7 First" → "σ₇-First" in active docs. CANON "Transcendence Ring" references preserved as ontological content.
 
 ---
 

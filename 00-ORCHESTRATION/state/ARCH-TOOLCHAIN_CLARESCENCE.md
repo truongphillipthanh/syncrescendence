@@ -20,7 +20,7 @@
 - Research syntheses (Codex, Gemini, OpenClaw) sit in 04-SOURCES but haven't been metabolized into CANON
 - The -INBOX/ dispatch model works for human-mediated handoffs but OpenClaw enables *autonomous* dispatch
 
-**Does this serve the destination?** Yes — the execution substrate is the foundation everything else rests on. Ring 7 First.
+**Does this serve the destination?** Yes — the execution substrate is the foundation everything else rests on. σ₇-First.
 
 ---
 

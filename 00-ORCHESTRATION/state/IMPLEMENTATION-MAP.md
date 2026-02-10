@@ -31,11 +31,12 @@
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
   source_lines: "Immediate Actions → Critical Fixes (3) + §5 Ring→sigma"
   intent: Finish Ring→sigma rename and ratify sigma/tau split.
-  deliverable: Search+replace remaining ‘Ring’ refs in active docs; add explicit sigma/tau glossary + governance note.
+  deliverable: Search+replace remaining 'Ring' refs in active docs; add explicit sigma/tau glossary + governance note.
   dependencies: Identify protected/historical files to avoid rewriting.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  notes: "Completed 2026-02-09: Directory 05-Ring→05-SIGMA done (prior session). σ₇-First terminology in ARCH-TOOLCHAIN_CLARESCENCE.md. Sigma/tau governance note ratified in REF-ROSETTA_STONE.md entry #5. CANON 'Transcendence Ring' refs preserved as ontological content."
 
 - id: IMPL-A-0004
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
