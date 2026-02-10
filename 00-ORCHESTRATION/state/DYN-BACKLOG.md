@@ -1,6 +1,6 @@
 # SYNCRESCENDENCE OPERATIONAL BACKLOG
 ## Persistent State for Constellation Coordination
-**Last Updated**: 2026-02-10 (SYN-12 DONE: CANON-31150 v4.0 regenerated. SYN-18 DONE: 9 MCP servers LIVE. SYN-22 DONE: CANON operational audit. SYN-56 DONE: Setapp audit. SYN-30: sync protocol designed. Ontology DB at 939 rows/89 functions. PROJ-012 COMPLETE. 5 commits this session.)
+**Last Updated**: 2026-02-10 (SYN-8/11/15 DONE: self-healing constitution + Ralph verified + hooks formalized. SYN-12/18/22/41/47/56 DONE prior. SYN-30 In Progress. T1a↔T2 bridge: 26/176 linked. Ontology DB 957 rows. 8 commits this session.)
 
 ---
 
@@ -53,7 +53,7 @@
 | PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→30 files (79% reduction). state/: 24→21 (2 superseded deleted, stale paths fixed in 5 pipeline files). archive/: 53→9 (83% reduction — 31 dead weight deleted, 14 compacted into 3 files, 8 kept). Coherence metrics appended to lean-out recommendations. |
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→76 files (33% reduction), 32 deleted, 6 moved to research, stale refs fixed |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
-| PROJ-LINEAR | IN_PROGRESS | P1 | 75% | Linear Onboarding — 60 issues, 17 labels. MCP LIVE. T1a↔T2 bridge: 19/176 IMPL→SYN linked. Sync protocol designed (ARCH-LINEAR_SYNC_PROTOCOL.md, SYN-30). 157 IMPL entries unmapped — Sovereign decision pending. |
+| PROJ-LINEAR | IN_PROGRESS | P1 | 75% | Linear Onboarding — 60 issues, 17 labels. MCP LIVE. T1a↔T2 bridge: 19/176 IMPL→SYN linked (34/176 done). Sync protocol designed (SYN-30). 157 IMPL entries unmapped. |
 | PROJ-LIVE-CANON | COMPLETE | — | 100% | Live CANON Ticker — MVP deployed + automation. SOVEREIGN-008 APPROVED 2026-02-06. |
 | PROJ-CRED-ROT | COMPLETE | — | 100% | API Key Rotation — Linear, ClickUp, OpenAI rotated. Google AI key added. OpenClaw .env synced. All 4 verified 2026-02-10. |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
