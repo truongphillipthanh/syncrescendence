@@ -359,14 +359,14 @@ Significant community patterns without internal equivalents.
 
 | # | Community Pattern | Priority | Description | Recommended Action |
 |---|---|---|---|---|
-| G1 | Self-Healing Constitution | HIGH | Meta-Hook monitors failures, auto-appends to CLAUDE.md Anti-Patterns | Implement PostToolUse hook |
+| G1 | Self-Healing Constitution | PARTIAL | Meta-Hook monitors failures, auto-appends to CLAUDE.md Anti-Patterns | REF-SELF_HEALING_CONSTITUTION.md (SYN-8). PostToolUse auto-append deferred. |
 | G2 | Memory Crystal Protocol | MEDIUM | Librarian sub-agent at 60% context compresses session to MEMORY.md | Consider SN as encoding format |
 | G3 | Adversarial Validation | MEDIUM | Explicitly disprove claims; hardened if unfalsifiable | Activate Grok RED TEAM role |
 | G4 | Temporal Versioning / Decay | HIGH | Decay signals, replacement notes, refresh triggers for technical claims | Add temporal metadata; fix stale CLAUDE.md |
 | G5 | Git Worktree Isolation | DONE | Isolated worktrees for parallel agents sharing .git | PRAC-blitzkrieg_worktree_isolation.md + setup-worktrees.sh |
 | G6 | Hooks-Based Automation | DONE | PreToolUse/PostToolUse/Stop/PreCompact hooks for deterministic automation | REF-HOOKS_FORMALIZATION.md (SYN-15) |
-| G7 | Context Degradation Monitoring | MEDIUM | Performance curve: peaks 0-50%, degrades 70%, critical 85%+ | Implement PreCompact warnings |
-| G8 | Subagent Architecture | HIGH | context: fork + agent field in SKILL.md for token-efficient delegation | Add to skills; enables isolated execution |
+| G7 | Context Degradation Monitoring | DONE | Performance curve: peaks 0-50%, degrades 70%, critical 85%+ | pre_compaction.sh LIVE. 75% rule in CLAUDE.md. |
+| G8 | Subagent Architecture | DONE | context: fork + agent field in SKILL.md for token-efficient delegation | PRAC-subagent_delegation_guide.md (SYN-10) |
 
 ---
 
