@@ -121,8 +121,9 @@
   dependencies: Existing dispatch scripts; twin protocol.
   owner_lane: Ajna (OpenClaw) + Commander
   venue: repo
-  status: new
+  status: done
   linear_id: SYN-14
+  notes: "2026-02-10: DYN-TOOLCHAIN_INTERACTION_PROTOCOL.md v1.0.0 created. 8 dispatch modes, file formats (TASK/RESULT/CONFIRM/RECEIPT/ESCALATION), filesystem kanban, return channels, error codes, timeout escalation, agent CLI mapping. dispatch.sh + watch_dispatch.sh enhanced with escalation headers and escalate_on_timeout()."
 
 - id: IMPL-A-0011
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md

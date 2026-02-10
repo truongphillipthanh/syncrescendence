@@ -117,6 +117,8 @@ cat > "$TASK_FILE" << EOF
 **Timeout**: 30
 **CC**: ${CC_RAW}
 **Receipts-To**: ${RECEIPTS_TO}
+**Escalation-Contact**: ${FROM_RAW}
+**Escalation-Delay**: 10
 
 ---
 

@@ -422,6 +422,67 @@ PY
   echo "$tmp_out"
 }
 
+escalate_on_timeout() {
+  local task_file="$1"; local exit_code="$2"; local output_file="$3"
+  [ "$exit_code" -ne 124 ] && return 0
+
+  local escalation_contact
+  escalation_contact=$(parse_header_field "$task_file" "Escalation-Contact")
+  [ -z "$escalation_contact" ] && return 0
+  [ "$escalation_contact" = "—" ] || [ "$escalation_contact" = "-" ] && return 0
+  [ "$escalation_contact" = "$AGENT" ] && return 0
+
+  # Verify escalation contact is a known agent
+  if ! echo "commander adjudicator cartographer psyche ajna" | grep -qw "$escalation_contact"; then
+    return 0
+  fi
+
+  local task_base
+  task_base=$(basename "$task_file")
+  local date
+  date=$(date '+%Y%m%d')
+  local slug
+  slug=$(task_slug_from_path "$task_file")
+  local now
+  now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+
+  local esc_inbox="$REPO_ROOT/-INBOX/$escalation_contact/00-INBOX0"
+  mkdir -p "$esc_inbox" 2>/dev/null || true
+
+  local esc_file="$esc_inbox/ESCALATION-${AGENT}-${date}-${slug}.md"
+  {
+    echo "# ESCALATION-${AGENT}-${date}-${slug}"
+    echo
+    echo "**Kind**: ESCALATION"
+    echo "**From-Agent**: $AGENT"
+    echo "**To-Agent**: $escalation_contact"
+    echo "**Original-Task**: $task_base"
+    echo "**Failure-Mode**: TIMEOUT (exit code 124)"
+    echo "**Escalated-At**: $now"
+    echo "**Status**: PENDING"
+    echo
+    echo "---"
+    echo
+    echo "## Context"
+    echo
+    echo "Task \`$task_base\` assigned to **$AGENT** timed out after exceeding its wall-clock limit."
+    echo "The task has been moved to 30-BLOCKED. Manual intervention or re-dispatch may be required."
+    echo
+    echo "## Execution Log Tail"
+    echo
+    echo '```text'
+    tail -n 60 "$output_file" 2>/dev/null || true
+    echo '```'
+    echo
+  } > "$esc_file"
+
+  log "$(date '+%H:%M:%S') ESCALATION sent to $escalation_contact: ESCALATION-${AGENT}-${date}-${slug}.md"
+
+  if [ -x "$SCRIPTS_DIR/append_ledger.sh" ]; then
+    bash "$SCRIPTS_DIR/append_ledger.sh" ESCALATION "$AGENT" "$escalation_contact" "$task_base" >/dev/null 2>&1 || true
+  fi
+}
+
 handle_file() {
   local file="$1"
   local base
@@ -432,6 +493,7 @@ handle_file() {
   [[ "$base" == RESULT-* ]] && return 0
   [[ "$base" == CONFIRM-* ]] && return 0
   [[ "$base" == EXECLOG-* ]] && return 0
+  [[ "$base" == ESCALATION-* ]] && return 0
   [[ "$base" != *.md ]] && return 0
 
   # Only TASK/SURVEY/PATCH etc are allowed, but we enforce by To/Completed guards
@@ -530,6 +592,8 @@ handle_file() {
       bash "$SCRIPTS_DIR/append_ledger.sh" COMPLETE "$AGENT" "—" "$base" >/dev/null 2>&1 || true
     elif [ $exit_code -eq 124 ]; then
       bash "$SCRIPTS_DIR/append_ledger.sh" BLOCKED "$AGENT" "—" "$base" >/dev/null 2>&1 || true
+      # Escalation: notify contact if timeout exceeded escalation delay
+      escalate_on_timeout "$final_path" "$exit_code" "$out_file"
     else
       bash "$SCRIPTS_DIR/append_ledger.sh" FAILED "$AGENT" "—" "$base" >/dev/null 2>&1 || true
     fi
