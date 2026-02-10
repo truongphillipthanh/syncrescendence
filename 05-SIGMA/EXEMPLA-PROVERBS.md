@@ -14,7 +14,7 @@ it becomes a substitute for thinking rather than an amplifier of it."
 **Application**: When building pipelines, ask: "Does this preserve the cognitive
 struggle, or replace it?" Automation should allocate attention, not eliminate engagement.
 
-**Source**: claudes-proposal.md (Chorus session)
+**Source**: claudes-proposal.md (Medley session)
 
 ---
 

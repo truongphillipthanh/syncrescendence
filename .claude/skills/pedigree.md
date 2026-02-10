@@ -165,7 +165,7 @@ See template in Process section above.
 
 ### Good Cross-Session Reference
 
-"Per Blitzkrieg 44 findings (ARCH-TECH_TREE_AUDIT.md), INT-1210-1212 can be marked resolved—canonical coverage is sufficient."
+"Per Blitzkrieg 44 findings (IMPLEMENTATION-MAP.md), INT-1210-1212 can be marked resolved—canonical coverage is sufficient."
 
 ---
 

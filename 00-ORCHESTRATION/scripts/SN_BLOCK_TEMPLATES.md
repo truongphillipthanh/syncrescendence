@@ -389,7 +389,7 @@ TERM Constellation:
             - TERM Interpreter
             - TERM Compiler
         relations:
-            coordinates: PROC Chorus
+            coordinates: PROC Medley
 end
 ```
 

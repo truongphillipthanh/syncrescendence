@@ -27,7 +27,7 @@
   venue: repo
   status: done
   linear_id: SYN-6
-  notes: "Completed 2026-02-09: COCKPIT.md Modus Operandi updated with Medley/Chorus distinction. AVATAR-GROK.md and AVATAR-CHATGPT.md updated from 'Role in the Chorus' to 'Role in the Constellation (Medley Mode)', PROC Chorus → PROC Medley."
+  notes: "Completed 2026-02-09: COCKPIT.md Modus Operandi updated with Medley/Chorus distinction. AVATAR-GROK.md and AVATAR-CHATGPT.md updated from 'Role in the Chorus' to 'Role in the Constellation (Medley Mode)', PROC Chorus → PROC Medley. 2026-02-10: Residual sweep — 3 more files fixed (SN_BLOCK_TEMPLATES.md PROC Chorus→Medley, EXEMPLA-PROVERBS.md, EXEMPLA-TALE-ajna2-lobotomy.md)."
 
 - id: IMPL-A-0003
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -39,7 +39,7 @@
   venue: repo
   status: done
   linear_id: SYN-7
-  notes: "Completed 2026-02-09: Directory 05-Ring→05-SIGMA done (prior session). σ₇-First terminology in ARCH-TOOLCHAIN_CLARESCENCE.md. Sigma/tau governance note ratified in REF-ROSETTA_STONE.md entry #5. CANON 'Transcendence Ring' refs preserved as ontological content."
+  notes: "Completed 2026-02-09: Directory 05-Ring→05-SIGMA done (prior session). σ₇-First terminology in ARCH-TOOLCHAIN_CLARESCENCE.md. Sigma/tau governance note ratified in REF-ROSETTA_STONE.md entry #5. CANON 'Transcendence Ring' refs preserved as ontological content. 2026-02-10: Residual sweep — preface-to-research.md 3 Ring→σ fixes (Ring 7→σ₇, Ring 0→σ₀)."
 
 - id: IMPL-A-0004
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md

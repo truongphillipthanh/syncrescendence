@@ -169,7 +169,7 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
    - Header: `### DIRECTIVE-ID | YYYY-MM-DD HH:MM`
    - Metadata: Branch, Fingerprint, Outcome (SUCCESS/PARTIAL/FAILED), Commits count, Changes summary, Agent, Session span
    - Body: Directives executed (source task, outcome, artifacts created/modified, verification, IntentionLink), Decisions made with rationale, Commit log table
-   - Logs auto-compact into `ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
+   - Logs auto-compact into `00-ORCHESTRATION/archive/ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
 2. **Supplementary to automation**: The `create_execution_log.sh` Stop hook captures git metrics independently. This behavioral log adds the semantic content the script cannot infer.
 3. **Verify before closing**: Run `git status` — ensure no uncommitted work. If artifacts remain unstaged, commit them before the directive ends.
 

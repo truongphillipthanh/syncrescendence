@@ -6,7 +6,7 @@
 
 ## Orientation
 
-This document accompanies a 225,355-word research corpus spanning 80 files—the accumulated intelligence on Ring 7 (σ₇) tooling that has proliferated around agentic AI development. The corpus represents raw reconnaissance: multi-platform perspectives (Claude, ChatGPT, Gemini, Grok, Perplexity) on Claude Code, OpenAI Codex, Google Gemini CLI, MCP servers, sub-agents, handoff protocols, and the emerging ecology of neo-dev tools that constitute the Execution Substrate layer of the Syncrescendence architecture.
+This document accompanies a 225,355-word research corpus spanning 80 files—the accumulated intelligence on σ₇ tooling that has proliferated around agentic AI development. The corpus represents raw reconnaissance: multi-platform perspectives (Claude, ChatGPT, Gemini, Grok, Perplexity) on Claude Code, OpenAI Codex, Google Gemini CLI, MCP servers, sub-agents, handoff protocols, and the emerging ecology of neo-dev tools that constitute the Execution Substrate layer of the Syncrescendence architecture.
 
 The Ajna7 session achieved genuine semantic compression of the CANON—79.2% reduction (335K → 70K words) through Semantic Notation methodology that synthesizes rather than truncates. That compression demonstrated what becomes possible when distributed AI cognition applies genuine understanding rather than mechanical text wrapping. The research corpus now awaits the same treatment.
 
@@ -118,7 +118,7 @@ This matches the Triumvirate's operational needs: Claude Code agents need fast t
 
 Set aside the immediate utility. Zoom to the meta-level. What does a 225K-word corpus on "how to use AI agents effectively" actually represent in civilizational terms?
 
-It documents the emergence of a **new cognitive layer**. Between biological intelligence (Ring 0, the Sovereign) and raw computational substrate (traditional software) there now exists a zone where artificial cognition operates with sufficient capability to require genuine skill in collaboration. The corpus isn't documentation about tools; it's the earliest ethnography of human-AI joint cognition.
+It documents the emergence of a **new cognitive layer**. Between biological intelligence (σ₀, the Sovereign) and raw computational substrate (traditional software) there now exists a zone where artificial cognition operates with sufficient capability to require genuine skill in collaboration. The corpus isn't documentation about tools; it's the earliest ethnography of human-AI joint cognition.
 
 The patterns that recur across platforms—context compaction, handoff protocols, worktree isolation, sub-agent delegation—are not merely technical solutions. They are the **first articulations of interface grammar** between human and machine intelligence. Future historians may recognize these patterns the way we recognize early filing systems, assembly line configurations, or database normalization: as foundational organizational innovations that enabled new forms of work.
 
@@ -202,7 +202,7 @@ Immutable once archived. Citation substrate for all synthesis.
 
 ## Coda: The Pattern Becomes Infrastructure
 
-The research corpus transformation is the first major semantic annealment of σ₇ knowledge—the Ring 7 Execution Substrate layer that Ajna7 reteleologized. If successful, the methodology becomes exportable:
+The research corpus transformation is the first major semantic annealment of σ₇ knowledge—the σ₇ Execution Substrate layer that Ajna7 reteleologized. If successful, the methodology becomes exportable:
 
 1. Gather multi-perspective intelligence on a domain
 2. Quantify structural patterns and redundancy

@@ -152,7 +152,7 @@ Escalation method: Write a TASK file to `-INBOX/commander/` with `Priority: P1` 
    - Header: `### TASK-ID | YYYY-MM-DD HH:MM`
    - Metadata: Branch, Fingerprint, Outcome (SUCCESS/PARTIAL/FAILED), Commits, Changes, Agent (Adjudicator)
    - Body: What was done, artifacts modified, verification result
-   - Logs auto-compact into `ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
+   - Logs auto-compact into `00-ORCHESTRATION/archive/ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
 2. **Update task status**: In the original TASK file, set `Status: COMPLETE` or `Status: FAILED`
 3. **Write result file** (if originator expects output): `RESULT-adjudicator-{DATE}-{TOPIC}.md` to originator's inbox
 4. **Commit**: Use semantic prefix — `fix:`, `chore:`, `refactor:`, `test:` (never `feat:` — features are Commander jurisdiction)

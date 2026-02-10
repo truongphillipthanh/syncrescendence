@@ -45,4 +45,4 @@ genuine intelligence."
 ---
 
 *Documented: 2026-01-22*
-*Source: Ajna4 Chorus session resolution*
+*Source: Ajna4 Medley session resolution*

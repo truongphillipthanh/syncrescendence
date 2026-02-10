@@ -39,10 +39,10 @@ Active automation scripts, hook scripts, and SN system.
 Compacted directives, execution logs, Oracle contexts, and design decisions. Cold storage — not loaded by default.
 
 **Key compendiums**:
-- `ARCH-DIRECTIVE_COMPENDIUM.md` — 60+ directives compressed into one
-- `ARCH-EXECUTION_HISTORY.md` — 60+ execution logs compressed into one
-- `ARCH-ORACLE_GENEALOGY.md` — Oracle 0-13 arc, patterns, key decisions
-- `ARCH-DESIGN_DECISIONS_GENESIS.md` — Three-tier structure, architectural experiments
+- `archive/ARCH-DIRECTIVE_COMPENDIUM.md` — 60+ directives compressed into one
+- `archive/ARCH-EXECUTION_HISTORY.md` — 60+ execution logs compressed into one
+- `archive/ARCH-ORACLE_GENEALOGY.md` — Oracle 0-13 arc, patterns, key decisions
+- `archive/ARCH-DESIGN_DECISIONS_GENESIS.md` — Three-tier structure, architectural experiments
 
 ## Audit Log
 
