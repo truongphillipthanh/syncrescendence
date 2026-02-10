@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats
 
 # Default target
 help:
@@ -25,6 +25,11 @@ help:
 	@echo "  make search Q=\"query\"           - Search vault via qmd (BM25)"
 	@echo "  make ecosystem-health          - Run self-healing watchdog"
 	@echo "  make memory-status             - Chroma + qmd + launchd status"
+	@echo ""
+	@echo "Ontology:"
+	@echo "  make ontology-build            - Build/rebuild ontology SQLite DB"
+	@echo "  make ontology-stats            - Show ontology database statistics"
+	@echo "  make ontology-query Q=\"...\"    - Search ontology (apps, primitives, projects)"
 	@echo ""
 	@echo "Intelligence:"
 	@echo "  make regenerate-canon          - Regenerate all CANON templates from data"
@@ -206,6 +211,22 @@ sync-drive: token
 sync-all: token
 	@cat .constellation/tokens/active.txt | pbcopy
 	@echo "Token copied to clipboard"
+
+# ============================================
+# ONTOLOGY SUBSTRATE (PROJ-006b)
+# ============================================
+
+# Build/rebuild ontology database from CANON-30300 schema + CSV ledgers
+ontology-build:
+	@python3 00-ORCHESTRATION/scripts/build_ontology_db.py
+
+# Show ontology database statistics
+ontology-stats:
+	@python3 00-ORCHESTRATION/scripts/ontology_query.py stats
+
+# Search ontology (usage: make ontology-query Q="markdown editor")
+ontology-query:
+	@python3 00-ORCHESTRATION/scripts/ontology_query.py search "$(Q)"
 
 # ============================================
 # INTELLIGENCE SYSTEM

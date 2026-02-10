@@ -4,7 +4,7 @@ PROJ-002,IIC Configuration,initiative,active,P1,Oracle11,null,11,modal1,null,202
 PROJ-003,Tooling Stack,initiative,active,P2,Oracle11,null,11,modal1,null,2025-12-29,2026-02-02,ACTIVE 50%: REF-STACK_TELEOLOGY.md complete; SOVEREIGN-009 filed with 5 disposition decisions
 PROJ-004,Automation,initiative,blocked,P2,Oracle12,PROJ-003,12,modal1,null,2025-12-29,2026-01-02,Agentification of processes
 PROJ-005,Branding,initiative,blocked,P3,Oracle13,PROJ-002,13,modal1,null,2025-12-29,2026-01-02,Business side elucidation
-PROJ-006,Ontology Project,initiative,blocked,P1,Oracle14,PROJ-003,14,modal1,null,2025-12-29,2026-01-02,Palantir-like operational infrastructure
+PROJ-006,Ontology Project,initiative,in_progress,P0,Oracle14,null,14,modal1,null,2025-12-29,2026-02-10,ACTIVE 10%: SQLite pilot built (CANON-30300 schema; 792 rows; 21 tables). ontology_query.py CLI operational. CSV migration complete.
 PROJ-007,Curriculum,initiative,blocked,P3,Oracle15,PROJ-006,15,modal1,null,2025-12-29,2026-01-02,Teaching Syncrescendence
 PROJ-008,Tech Lunar Canonization,initiative,not_started,P2,TBD,null,TBD,modal1,null,2025-12-30,2026-01-02,306K specs to CANON-30xxx
 PROJ-009,Modal 2 Preparation,initiative,not_started,P3,TBD,null,TBD,modal2,null,2025-12-29,2026-01-02,3D/VFX/Video synthesis runway
