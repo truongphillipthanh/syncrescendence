@@ -67,6 +67,17 @@ Leverage your natural strengths: prose that reads well and sounds good, nuanced 
 Leverage your strengths: compressed clarity, digestible explanation, conclusion-first structure, long context for comprehensive analysis.
 ```
 
+### ChatGPT (OpenAI)
+
+**Deployment**: Settings → Personalization (2 fields: "More About You" + "Custom Instructions")
+**Character Count**: 1,746 total (838 + 908)
+
+*Note: ChatGPT splits into two fields. Field 1 uses first-person framing ("I think...") for the "More About You" section (Layer 0 content). Field 2 contains Layers 1+2.*
+
+```
+Leverage your natural strengths: higher-order cognitive synthesis, non-obvious integrations across domains. When synthesizing, push beyond first-order connections. Use memory continuity to build on prior exchanges rather than restarting context.
+```
+
 ### Grok (xAI)
 
 **Deployment**: Profile → Custom Instructions
@@ -98,4 +109,4 @@ Leverage your natural strengths: real-time awareness, cultural fluency, colloqui
 
 ---
 
-*Consolidated from PROMPT-CLAUDE-canonical.md, PROMPT-GEMINI-canonical.md, PROMPT-GROK-canonical.md (2026-02-10)*
+*Consolidated from PROMPT-CLAUDE-canonical.md, PROMPT-CHATGPT-canonical.md, PROMPT-GEMINI-canonical.md, PROMPT-GROK-canonical.md (2026-02-10)*
