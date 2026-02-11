@@ -7,10 +7,12 @@
 **Issued**: 2026-02-11T22:00:00Z
 **Kind**: DIRECTIVE
 **Priority**: P1
+**Exit-Code**: 0
+**Completed-At**: 2026-02-11T19:23:08Z
 **Claimed-At**: 2026-02-11T19:19:58Z
 **Claimed-By**: commander-M1-Mac-mini
-**Kanban**: IN_PROGRESS
-**Status**: IN_PROGRESS
+**Kanban**: DONE
+**Status**: COMPLETE
 **IntentionLink**: INT-P015 (Mac mini=stable macro, MBA=kinetic micro), SYN-35 (capability encoding)
 
 ---
