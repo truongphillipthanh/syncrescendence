@@ -110,8 +110,8 @@ Determine if gpt-5.3-codex is permanently revoked or temporarily exhausted. Swit
 ### DA-03: Emacs Observation Layer HIBERNATE
 .md/.org mismatch is architectural dead end. Future observation dashboard = HighCommand web UI.
 
-### DA-04: Hydrate ontology.db (IMMEDIATE)
-Load 580+ kinetic rows + 86 model_intelligence rows into ontology.db. Makes ontology_query.py operational.
+### DA-04: ~~Hydrate ontology.db~~ → ALREADY DONE
+**CORRECTION**: Daemon ontology.db at `~/.syncrescendence/ontology.db` is fully populated (36 tables, 608 tracked rows, kinetic layer loaded). The repo copy at `00-ORCHESTRATION/state/ontology.db` was empty — synced from daemon. ontology_query.py already operational.
 
 ### DA-05: Correct Stale State (IMMEDIATE)
 Fix MEMORY.md, DYN-BACKLOG.md, IMPL-MAP entries that claim false state.

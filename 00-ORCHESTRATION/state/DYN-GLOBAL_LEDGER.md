@@ -66,3 +66,6 @@
 | 2026-02-11T19:42:50 | COMMIT | commander | repo | feat(SYN-35): MBA cascade supplement — 243 formulas, 22 skills, 7 hooks, 8 con | b7acae0 | b7acae0 | — | — |
 | 2026-02-11T19:45:09 | COMMIT | commander | repo | fix(dispatch): add output validation to catch false-positive exit-code 0 | 7c76420 | 7c76420 | — | — |
 | 2026-02-11T20:08:21 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 26438eb | 26438eb | — | — |
+| 2026-02-11T20:12:53 | COMMIT | commander | repo | chore: commit DYN state + convergent-path clarescence | c769603 | c769603 | — | — |
+| 2026-02-11T20:14:03 | DECISION | commander | repo | DA-04-correction | c769603 | c769603 | c769603 | — |
+| 2026-02-11T20:14:03 | DECISION | commander | repo | DA-05-stale-state | c769603 | c769603 | c769603 | — |

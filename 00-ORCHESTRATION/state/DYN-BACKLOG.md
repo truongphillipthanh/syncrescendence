@@ -33,7 +33,7 @@
 | PROJ-003 | COMPLETE | — | 100% | Tooling Stack — SOVEREIGN-009 RATIFIED 2026-02-10. Stack teleology v1.0.0. Tool onboarding in progress (SYN-51–60). Accounts created. API keys rotated 2026-02-10. |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
 | PROJ-006a | ACTIVE | P1 | 50% | Ontology Phase 1 (Content) — CANON frontmatter 79/79 COMPLETE, Ontology Bridge v1.0 COMPLETE (200+ relations), operational status audit DONE (SYN-22). Remaining: Dataview query testing, theoretical→canonical promotion. |
-| PROJ-006b | ACTIVE | P0 | 20% | Ontology Phase 2 (Substrate) — SQLite pilot BUILT (939 rows, 21 tables, 89 functions, CANON-30300 4-layer schema). ontology_query.py CLI operational. Makefile targets added. Next: Airtable/Notion surfaces, model/pricing data, primitive enrichment. |
+| PROJ-006b | ACTIVE | P0 | 45% | Ontology Phase 2 (Substrate) — SQLite pilot OPERATIONAL (36 tables, 608 tracked rows, CANON-30300 4-layer schema). Kinetic layer loaded (72 action_types, 106 agent_bindings, 157 app_actions, 35 model_capabilities, 11 workflow_templates, 72 steps). Daemon DB at ~/.syncrescendence/ontology.db. ontology_query.py CLI: 13 commands live. Next: entity expansion (6 new types), verb governance, surfaces. |
 | PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
 | PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
 | PROJ-009 | NOT_STARTED | P3 | 0% | Modal 2 Visual — queued AI 3D/VFX/Image/Video |
@@ -53,7 +53,7 @@
 | PROJ-ORCH-AUDIT | COMPLETE | — | 100% | 00-ORCHESTRATION Deep Audit — 142→30 files (79% reduction). state/: 24→21 (2 superseded deleted, stale paths fixed in 5 pipeline files). archive/: 53→9 (83% reduction — 31 dead weight deleted, 14 compacted into 3 files, 8 kept). Coherence metrics appended to lean-out recommendations. |
 | PROJ-ENGINE-AUDIT | COMPLETE | — | 100% | 02-ENGINE Deep Audit — 114→69 files (39% reduction). Phase 1: 114→76. Phase 2: 76→70 (SYN-32). Phase 3: 70→69 (CLARESCE^3 v2 tiny file consolidation). |
 | PROJ-RESEARCH | NOT_STARTED | P2 | 0% | Research Pipeline — Gemini CLI, Codex CLI, OpenClaw consensus research |
-| PROJ-LINEAR | IN_PROGRESS | P1 | 80% | Linear Onboarding — 60 issues, 17 labels. MCP LIVE. 22 DONE, 24 open. T1a↔T2 bridge: 42/176 done. Sync protocol designed (SYN-30 DONE). Toolchain protocol v1.0.0 (SYN-14 DONE). |
+| PROJ-LINEAR | IN_PROGRESS | P1 | 93% | Linear Onboarding — 56 issues, 17 labels. MCP LIVE. 36 DONE, 20 open. T1a↔T2 bridge: 197/197 linked (100%, SYN-16 DONE). Sync protocol DONE (SYN-30). Toolchain protocol v1.0.0 (SYN-14 DONE). |
 | PROJ-LIVE-CANON | COMPLETE | — | 100% | Live CANON Ticker — MVP deployed + automation. SOVEREIGN-008 APPROVED 2026-02-06. |
 | PROJ-CRED-ROT | COMPLETE | — | 100% | API Key Rotation — Linear, ClickUp, OpenAI rotated. Google AI key added. OpenClaw .env synced. All 4 verified 2026-02-10. |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
@@ -133,7 +133,7 @@ PROJ-001 ---+---> PROJ-002 ---------> PROJ-005 (blocked)
             |     (95%)    |
             |              +---------> IIC completion
             |
-PROJ-011 ---+---> PROJ-003 (DONE) --> PROJ-006b (15%) --> PROJ-007
+PROJ-011 ---+---> PROJ-003 (DONE) --> PROJ-006b (45%) --> PROJ-007
             |                |        (ACTIVE, P0)
             |                +------> PROJ-004
             |                +------> PROJ-CRED-ROT (DONE)

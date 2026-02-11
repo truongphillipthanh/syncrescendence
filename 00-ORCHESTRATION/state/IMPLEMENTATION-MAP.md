@@ -145,9 +145,9 @@
   dependencies: Linear API/MCP decision.
   owner_lane: Psyche (design) + Commander (implementation)
   venue: linear+repo
-  status: in_progress
+  status: done
   linear_id: SYN-16
-  notes: "Linear workspace populated 2026-02-05: 13 projects, 26 issues, 17 labels. GraphQL API direct access. Sync mechanism pending."
+  notes: "DONE 2026-02-11: SYN-16 complete — 197/197 IMPL entries linked to 42 unique SYN issues (100% bridge coverage). Linear workspace: 56 issues, 36 Done, 20 open."
 
 - id: IMPL-A-0013
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -2184,8 +2184,9 @@
   dependencies: IMPL-K-0010 (Linear↔IMPL sync).
   owner_lane: Ajna
   venue: repo
-  status: in_progress
+  status: done
   linear_id: SYN-16
+  notes: "DONE 2026-02-11: SYN-16 complete — T1a↔T2 bridge at 100% (197/197 entries linked). Exceeded target of 25%."
 
 - id: IMPL-L-0005
   source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
