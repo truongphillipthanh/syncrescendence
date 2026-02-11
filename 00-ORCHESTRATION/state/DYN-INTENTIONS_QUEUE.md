@@ -307,3 +307,5 @@
 - **2026-02-11 10:44:22** | `**Priority**: P1`
 
 - **2026-02-11 11:20:07** | `**Priority**: P1`
+
+- **2026-02-11 11:38:56** | `(Note: These states already exist in `REF-STACK_TELEOLOGY.md` as "Disposition Categories" -- this formalizes them as a state machine.)`
