@@ -997,6 +997,670 @@ def import_api_pricing_csv(conn, csv_path):
     return count
 
 
+# --- Ontology Enrichment Functions (Phase 5) ---
+
+
+def seed_roles(conn):
+    """Populate roles table with functional role taxonomy from CANON-30300."""
+    cur = conn.cursor()
+    cur.executemany(
+        "INSERT OR IGNORE INTO roles (code, name, description) VALUES (?, ?, ?)",
+        [
+            ("capture", "Capture", "Acquire information from external sources into the system"),
+            ("process", "Process", "Transform, analyze, or synthesize captured information"),
+            ("present", "Present", "Display, publish, or output processed information"),
+            ("orchestrate", "Orchestrate", "Coordinate multi-step workflows across tools"),
+            ("store", "Store", "Persist and organize data for retrieval"),
+            ("search", "Search", "Find and retrieve stored information"),
+            ("communicate", "Communicate", "Enable human-to-human or human-to-AI interaction"),
+            ("automate", "Automate", "Execute rule-based or triggered actions without human intervention"),
+            ("verify", "Verify", "Validate, test, or confirm correctness"),
+            ("secure", "Secure", "Protect access, credentials, and data integrity"),
+            ("navigate", "Navigate", "File system, window, and context navigation"),
+            ("edit", "Edit", "Modify text, code, media, or structured data"),
+            ("model", "Model", "Provide AI inference, reasoning, or generation"),
+            ("deploy", "Deploy", "Package and deliver applications or infrastructure"),
+            ("monitor", "Monitor", "Observe system state and performance"),
+        ],
+    )
+    conn.commit()
+
+
+def seed_expanded_primitives(conn):
+    """Expand primitives from 10 seeds to ~45 covering all major feature categories."""
+    cur = conn.cursor()
+    cur.executemany(
+        "INSERT OR IGNORE INTO primitives (code, name, category, description, extractable, abstraction_level) VALUES (?, ?, ?, ?, ?, ?)",
+        [
+            # Keybinding
+            ("keyboard_shortcuts", "Keyboard Shortcuts", "keybinding", "Configurable keyboard shortcuts for common actions", True, "atomic"),
+            ("command_palette", "Command Palette", "keybinding", "Fuzzy-searchable command launcher (Cmd+K/Cmd+P pattern)", True, "atomic"),
+            # Rendering
+            ("syntax_highlighting", "Syntax Highlighting", "rendering", "Language-aware code coloring with theme support", True, "atomic"),
+            ("latex_render", "LaTeX Rendering", "rendering", "Mathematical equation typesetting", True, "atomic"),
+            ("mermaid_diagrams", "Mermaid Diagram Rendering", "rendering", "Code-to-diagram rendering for flowcharts, sequences, etc.", True, "atomic"),
+            ("live_preview", "Live Preview", "rendering", "Real-time rendering of markup as you type", True, "compound"),
+            # Collaboration
+            ("presence_awareness", "Presence Awareness", "collaboration", "See who else is viewing/editing the same content", True, "compound"),
+            ("commenting", "Inline Commenting", "collaboration", "Threaded comments anchored to specific content locations", True, "atomic"),
+            ("version_history", "Version History", "collaboration", "Browse and restore previous versions of content", True, "compound"),
+            # Data sync
+            ("git_integration", "Git Integration", "data_sync", "Built-in version control with commit/push/pull", True, "compound"),
+            ("cloud_sync", "Cloud Synchronization", "data_sync", "Automatic sync to cloud storage services", True, "compound"),
+            ("conflict_resolution", "Conflict Resolution", "data_sync", "Automated or assisted merge conflict handling", True, "compound"),
+            # Search
+            ("fuzzy_search", "Fuzzy Search", "search", "Approximate string matching with ranking", True, "atomic"),
+            ("regex_search", "Regex Search", "search", "Regular expression pattern matching in search", True, "atomic"),
+            ("semantic_search", "Semantic Search", "search", "Meaning-based search using embeddings or AI", True, "compound"),
+            # Organization
+            ("folder_hierarchy", "Folder Hierarchy", "organization", "Nested directory/folder organization", True, "atomic"),
+            ("database_views", "Database Views", "organization", "Structured data with multiple view types (table, board, calendar)", True, "compound"),
+            ("graph_view", "Graph View", "organization", "Visual network graph of linked content", True, "compound"),
+            ("templates", "Content Templates", "organization", "Reusable content templates and scaffolding", True, "atomic"),
+            # Integration
+            ("plugin_system", "Plugin/Extension System", "integration", "Third-party extensibility via plugins or extensions", True, "compound"),
+            ("mcp_support", "MCP Protocol Support", "integration", "Model Context Protocol for AI tool integration", True, "compound"),
+            ("cli_interface", "CLI Interface", "integration", "Command-line interface for scripted automation", True, "atomic"),
+            ("deep_linking", "Deep Linking", "integration", "URL scheme for linking directly to specific content", True, "atomic"),
+            # Export
+            ("pdf_export", "PDF Export", "export", "Export content to PDF format", True, "atomic"),
+            ("multi_format_export", "Multi-format Export", "export", "Export to multiple formats (HTML, PDF, DOCX, etc.)", True, "compound"),
+            ("publish_api", "Publish API", "export", "Programmatic publishing to external platforms", True, "compound"),
+            # AI capabilities
+            ("ai_chat", "AI Chat Interface", "ai", "Conversational AI interaction within the application", True, "compound"),
+            ("ai_code_completion", "AI Code Completion", "ai", "Inline code suggestions powered by AI models", True, "compound"),
+            ("ai_search_grounding", "AI Search Grounding", "ai", "AI responses grounded in web or document search", True, "compound"),
+            ("extended_thinking", "Extended Thinking", "ai", "Visible chain-of-thought reasoning before response", True, "compound"),
+            ("memory_persistence", "Memory Persistence", "ai", "Cross-session memory of user preferences and context", True, "compound"),
+            ("multi_model_routing", "Multi-model Routing", "ai", "Ability to route requests to different AI models", True, "compound"),
+            # Automation
+            ("rule_engine", "Rule-based Automation", "automation", "If-then rules for automated actions", True, "compound"),
+            ("cron_scheduling", "Scheduled Automation", "automation", "Time-based triggering of automated tasks", True, "atomic"),
+            ("file_watching", "File System Watching", "automation", "Monitor filesystem changes and trigger actions", True, "atomic"),
+        ],
+    )
+    conn.commit()
+
+
+def seed_app_primitives(conn):
+    """Map apps to their implemented primitives with quality ratings."""
+    cur = conn.cursor()
+
+    # Build dynamic lookup maps (IDs may change across rebuilds)
+    slug_to_id = {}
+    cur.execute("SELECT id, slug FROM apps")
+    for row in cur.fetchall():
+        slug_to_id[row[1]] = row[0]
+
+    prim_map = {}
+    cur.execute("SELECT id, code FROM primitives")
+    for row in cur.fetchall():
+        prim_map[row[1]] = row[0]
+
+    # (app_slug, primitive_code, quality, notes)
+    mappings = [
+        # Obsidian
+        ("obsidian", "vim_motions", "good", "Via vim plugin"),
+        ("obsidian", "markdown_render", "excellent", "Core feature"),
+        ("obsidian", "link_system", "excellent", "Wikilinks + backlinks"),
+        ("obsidian", "graph_view", "excellent", "Built-in graph"),
+        ("obsidian", "tag_system", "excellent", "Nested tags"),
+        ("obsidian", "full_text_search", "excellent", "Fast vault-wide search"),
+        ("obsidian", "plugin_system", "excellent", "Community plugins ecosystem"),
+        ("obsidian", "offline_first", "excellent", "Local-first markdown files"),
+        ("obsidian", "templates", "good", "Template plugin"),
+        ("obsidian", "cloud_sync", "good", "Via iCloud/Obsidian Sync"),
+        ("obsidian", "mermaid_diagrams", "good", "Built-in mermaid support"),
+        ("obsidian", "deep_linking", "good", "obsidian:// URL scheme"),
+        ("obsidian", "command_palette", "excellent", "Cmd+P command palette"),
+        ("obsidian", "keyboard_shortcuts", "excellent", "Fully customizable"),
+        ("obsidian", "pdf_export", "good", "Via plugin"),
+        # Neovim
+        ("neovim", "vim_motions", "excellent", "Native modal editing"),
+        ("neovim", "syntax_highlighting", "excellent", "Treesitter-based"),
+        ("neovim", "keyboard_shortcuts", "excellent", "Fully programmable"),
+        ("neovim", "command_palette", "good", "Telescope fuzzy finder"),
+        ("neovim", "plugin_system", "excellent", "Lua plugin ecosystem (Lazy.nvim)"),
+        ("neovim", "git_integration", "good", "Via fugitive/gitsigns"),
+        ("neovim", "fuzzy_search", "excellent", "Telescope"),
+        ("neovim", "regex_search", "excellent", "Native regex"),
+        ("neovim", "cli_interface", "excellent", "Terminal-native"),
+        ("neovim", "ai_code_completion", "good", "Via Copilot/Codeium plugins"),
+        # Claude Code
+        ("claude-code", "ai_chat", "excellent", "Core feature"),
+        ("claude-code", "ai_code_completion", "excellent", "Inline code editing"),
+        ("claude-code", "extended_thinking", "excellent", "Extended thinking mode"),
+        ("claude-code", "mcp_support", "excellent", "Native MCP tool use"),
+        ("claude-code", "cli_interface", "excellent", "Terminal-native"),
+        ("claude-code", "git_integration", "excellent", "Direct git operations"),
+        ("claude-code", "full_text_search", "excellent", "Grep/ripgrep integration"),
+        ("claude-code", "memory_persistence", "good", "CLAUDE.md-based context"),
+        ("claude-code", "multi_model_routing", "good", "Model switching"),
+        # Cursor
+        ("cursor", "ai_code_completion", "excellent", "Core AI coding feature"),
+        ("cursor", "ai_chat", "excellent", "Inline AI chat"),
+        ("cursor", "syntax_highlighting", "excellent", "VSCode-based"),
+        ("cursor", "vim_motions", "good", "Via vim extension"),
+        ("cursor", "git_integration", "excellent", "Built-in git"),
+        ("cursor", "plugin_system", "excellent", "VSCode extension ecosystem"),
+        ("cursor", "command_palette", "excellent", "Cmd+Shift+P"),
+        ("cursor", "multi_model_routing", "excellent", "Multiple AI model support"),
+        ("cursor", "keyboard_shortcuts", "excellent", "Fully customizable"),
+        ("cursor", "fuzzy_search", "excellent", "Cmd+P file search"),
+        # ChatGPT
+        ("chatgpt", "ai_chat", "excellent", "Core feature"),
+        ("chatgpt", "extended_thinking", "excellent", "o3/GPT-5 thinking"),
+        ("chatgpt", "ai_search_grounding", "excellent", "Web browsing"),
+        ("chatgpt", "memory_persistence", "excellent", "Cross-session memory"),
+        ("chatgpt", "multi_format_export", "good", "Canvas + download"),
+        ("chatgpt", "ai_code_completion", "good", "Via Canvas"),
+        # Notion
+        ("notion", "database_views", "excellent", "Core feature — table/board/calendar/gallery"),
+        ("notion", "templates", "excellent", "Template system"),
+        ("notion", "real_time_sync", "excellent", "Cloud-native collaboration"),
+        ("notion", "commenting", "excellent", "Inline comments"),
+        ("notion", "api_access", "excellent", "REST API"),
+        ("notion", "full_text_search", "good", "Full page search"),
+        ("notion", "markdown_render", "good", "Markdown-like blocks"),
+        ("notion", "presence_awareness", "good", "See who is editing"),
+        ("notion", "deep_linking", "good", "Page/block URLs"),
+        ("notion", "keyboard_shortcuts", "good", "Cmd+K and shortcuts"),
+        ("notion", "ai_chat", "good", "Notion AI feature"),
+        # Linear
+        ("linear", "keyboard_shortcuts", "excellent", "Keyboard-first design"),
+        ("linear", "api_access", "excellent", "GraphQL API"),
+        ("linear", "webhook_support", "excellent", "Webhook integrations"),
+        ("linear", "full_text_search", "excellent", "Fast issue search"),
+        ("linear", "templates", "good", "Issue templates"),
+        ("linear", "database_views", "good", "Views: board/list/timeline"),
+        ("linear", "command_palette", "excellent", "Cmd+K command menu"),
+        # Gemini CLI
+        ("gemini-cli", "ai_chat", "excellent", "Core feature"),
+        ("gemini-cli", "ai_search_grounding", "excellent", "Google Search grounding"),
+        ("gemini-cli", "cli_interface", "excellent", "Terminal-native"),
+        ("gemini-cli", "extended_thinking", "good", "2.5 Pro thinking"),
+        # Raycast
+        ("raycast", "command_palette", "excellent", "Core launcher feature"),
+        ("raycast", "keyboard_shortcuts", "excellent", "Global hotkeys"),
+        ("raycast", "plugin_system", "excellent", "Extension store"),
+        ("raycast", "fuzzy_search", "excellent", "Fuzzy app/file/command search"),
+        ("raycast", "deep_linking", "good", "Raycast URL scheme"),
+        ("raycast", "ai_chat", "good", "Raycast AI"),
+        # git
+        ("git", "git_integration", "excellent", "Git IS the integration"),
+        ("git", "cli_interface", "excellent", "Terminal-native"),
+        ("git", "version_history", "excellent", "Core feature"),
+        ("git", "conflict_resolution", "good", "Merge conflict tools"),
+        # gh
+        ("gh", "cli_interface", "excellent", "GitHub CLI"),
+        ("gh", "api_access", "excellent", "GitHub API access"),
+        # ripgrep
+        ("ripgrep", "regex_search", "excellent", "Core feature — fast regex"),
+        ("ripgrep", "full_text_search", "excellent", "Fastest grep alternative"),
+        ("ripgrep", "cli_interface", "excellent", "Terminal-native"),
+        # fzf
+        ("fzf", "fuzzy_search", "excellent", "Core feature"),
+        ("fzf", "cli_interface", "excellent", "Terminal-native"),
+        # lazygit
+        ("lazygit", "git_integration", "excellent", "Git TUI"),
+        ("lazygit", "keyboard_shortcuts", "excellent", "Vim-like navigation"),
+        ("lazygit", "version_history", "good", "Visual commit history"),
+        # Slack
+        ("slack", "real_time_sync", "excellent", "Real-time messaging"),
+        ("slack", "full_text_search", "good", "Message search"),
+        ("slack", "api_access", "excellent", "Slack API"),
+        ("slack", "webhook_support", "excellent", "Incoming/outgoing webhooks"),
+        ("slack", "plugin_system", "good", "Slack apps"),
+        ("slack", "keyboard_shortcuts", "good", "Cmd+K navigation"),
+        # Discord
+        ("discord", "real_time_sync", "excellent", "Real-time messaging"),
+        ("discord", "api_access", "good", "Bot API"),
+        ("discord", "webhook_support", "excellent", "Channel webhooks"),
+        # Figma
+        ("figma", "real_time_sync", "excellent", "Real-time collaboration"),
+        ("figma", "presence_awareness", "excellent", "Cursor presence"),
+        ("figma", "commenting", "excellent", "Design comments"),
+        ("figma", "version_history", "excellent", "File version history"),
+        ("figma", "plugin_system", "excellent", "Plugin ecosystem"),
+        ("figma", "keyboard_shortcuts", "excellent", "Design shortcuts"),
+        # Keyboard Maestro
+        ("keyboard-maestro", "rule_engine", "excellent", "Core macro automation"),
+        ("keyboard-maestro", "keyboard_shortcuts", "excellent", "Trigger via hotkeys"),
+        ("keyboard-maestro", "file_watching", "good", "Folder trigger"),
+        ("keyboard-maestro", "cron_scheduling", "excellent", "Time-based triggers"),
+        # Hazel
+        ("hazel", "rule_engine", "excellent", "File organization rules"),
+        ("hazel", "file_watching", "excellent", "Core feature — folder monitoring"),
+        # tmux
+        ("tmux", "keyboard_shortcuts", "excellent", "Prefix-key bindings"),
+        ("tmux", "cli_interface", "excellent", "Terminal multiplexer"),
+        # Ollama
+        ("ollama", "ai_chat", "good", "Local chat interface"),
+        ("ollama", "cli_interface", "excellent", "Terminal-native"),
+        ("ollama", "api_access", "excellent", "REST API"),
+        ("ollama", "multi_model_routing", "excellent", "Multiple local models"),
+        # 1Password
+        ("1password", "cli_interface", "excellent", "op CLI"),
+        ("1password", "deep_linking", "good", "1password:// URLs"),
+        ("1password", "cloud_sync", "excellent", "Cross-device sync"),
+        # DEVONthink
+        ("devonthink", "full_text_search", "excellent", "AI-powered search"),
+        ("devonthink", "tag_system", "excellent", "Hierarchical tags"),
+        ("devonthink", "folder_hierarchy", "excellent", "Database/group hierarchy"),
+        ("devonthink", "pdf_export", "good", "PDF handling"),
+        ("devonthink", "semantic_search", "good", "AI classify/see-also"),
+        ("devonthink", "cloud_sync", "good", "Sync via CloudKit/WebDAV"),
+        ("devonthink", "deep_linking", "excellent", "x-devonthink-item:// links"),
+        # Perplexity
+        ("perplexity", "ai_chat", "excellent", "Citation-backed AI chat"),
+        ("perplexity", "ai_search_grounding", "excellent", "Core feature"),
+        ("perplexity", "full_text_search", "good", "Query history search"),
+        # Zotero
+        ("zotero", "tag_system", "excellent", "Reference tagging"),
+        ("zotero", "full_text_search", "excellent", "PDF full-text search"),
+        ("zotero", "cloud_sync", "excellent", "Zotero sync"),
+        ("zotero", "plugin_system", "good", "Zotero plugins"),
+        # OpenClaw
+        ("openclaw", "ai_chat", "excellent", "Persistent agent chat"),
+        ("openclaw", "memory_persistence", "excellent", "Cross-session memory"),
+        ("openclaw", "multi_model_routing", "excellent", "Multi-model gateway"),
+        ("openclaw", "plugin_system", "excellent", "Plugin architecture"),
+        ("openclaw", "api_access", "excellent", "REST API gateway"),
+        # Things3
+        ("things3", "tag_system", "excellent", "GTD tags"),
+        ("things3", "keyboard_shortcuts", "excellent", "Quick entry hotkey"),
+        ("things3", "deep_linking", "excellent", "things:// URL scheme"),
+        ("things3", "templates", "good", "Project templates"),
+        # ClickUp
+        ("clickup", "database_views", "excellent", "Multiple view types"),
+        ("clickup", "api_access", "excellent", "REST API"),
+        ("clickup", "templates", "good", "Task templates"),
+        ("clickup", "commenting", "good", "Task comments"),
+        # Airtable
+        ("airtable", "database_views", "excellent", "Core feature"),
+        ("airtable", "api_access", "excellent", "REST API"),
+        ("airtable", "webhook_support", "good", "Automation webhooks"),
+        ("airtable", "templates", "excellent", "Base templates"),
+        # Docker Desktop
+        ("docker-desktop", "cli_interface", "excellent", "docker/docker-compose CLI"),
+        ("docker-desktop", "templates", "good", "Compose templates"),
+        # Ghostty
+        ("ghostty", "keyboard_shortcuts", "excellent", "Configurable keybindings"),
+        ("ghostty", "cli_interface", "good", "Terminal emulator shell host"),
+    ]
+
+    count = 0
+    for slug, prim_code, quality, notes in mappings:
+        app_id = slug_to_id.get(slug)
+        prim_id = prim_map.get(prim_code)
+        if app_id and prim_id:
+            try:
+                cur.execute(
+                    "INSERT OR IGNORE INTO app_primitives (app_id, primitive_id, implementation_quality, implementation_notes) VALUES (?, ?, ?, ?)",
+                    (app_id, prim_id, quality, notes),
+                )
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: app_primitives {slug}/{prim_code}: {e}")
+        else:
+            if not app_id:
+                pass  # Slug not in DB — silently skip (may be renamed or missing from CSV)
+            if not prim_id:
+                print(f"  WARN: primitive '{prim_code}' not found — check seed data")
+    conn.commit()
+    return count
+
+
+def seed_app_modalities(conn):
+    """Map all apps to their interaction modalities."""
+    cur = conn.cursor()
+
+    app_ids = {}
+    cur.execute("SELECT id, slug FROM apps")
+    for row in cur.fetchall():
+        app_ids[row[1]] = row[0]
+
+    mod_ids = {}
+    cur.execute("SELECT id, code FROM modalities")
+    for row in cur.fetchall():
+        mod_ids[row[1]] = row[0]
+
+    text_id = mod_ids["text"]
+    voice_id = mod_ids["voice"]
+    visual_id = mod_ids["visual"]
+    gesture_id = mod_ids["gesture"]
+    haptic_id = mod_ids["haptic"]
+
+    # Default: ALL apps get text modality (primary)
+    for slug, app_id in app_ids.items():
+        cur.execute(
+            "INSERT OR IGNORE INTO app_modalities (app_id, modality_id, is_primary, notes) VALUES (?, ?, ?, ?)",
+            (app_id, text_id, True, "Default text interaction"),
+        )
+
+    # Visual modality apps (GUI with significant visual interaction)
+    visual_slugs = [
+        "obsidian", "notion", "figma", "cursor", "brave-browser",
+        "google-chrome", "safari", "vivaldi", "linear", "clickup",
+        "chatgpt", "claude-desktop", "blender", "final-cut-pro",
+        "logic-pro", "iina", "milanote", "raycast", "github-desktop",
+        "shottr", "pixelsnap", "imageoptim", "airtable", "things3",
+        "devonthink", "zotero", "forklift", "yazi", "lazygit",
+        "docker-desktop", "iterm2", "ghostty", "elgato-stream-deck",
+        "hookmark", "nitro-pdf-pro", "presentify", "soulver",
+        "alttab", "dockdoor", "ice", "maccy", "keyclu",
+    ]
+    for slug in visual_slugs:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_modalities (app_id, modality_id, is_primary, notes) VALUES (?, ?, ?, ?)",
+                (app_id, visual_id, False, "GUI-based visual interaction"),
+            )
+
+    # Voice modality apps
+    for slug in ["chatgpt", "whisper-cpp", "discord", "slack"]:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_modalities (app_id, modality_id, is_primary, notes) VALUES (?, ?, ?, ?)",
+                (app_id, voice_id, False, "Voice interaction support"),
+            )
+
+    # Gesture modality (trackpad/touch)
+    for slug in ["bettertouchtool", "magnet", "karabiner-elements"]:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_modalities (app_id, modality_id, is_primary, notes) VALUES (?, ?, ?, ?)",
+                (app_id, gesture_id, False, "Gesture/touch interaction"),
+            )
+
+    # Haptic modality
+    app_id = app_ids.get("elgato-stream-deck")
+    if app_id:
+        cur.execute(
+            "INSERT OR IGNORE INTO app_modalities (app_id, modality_id, is_primary, notes) VALUES (?, ?, ?, ?)",
+            (app_id, haptic_id, False, "Physical tactile buttons"),
+        )
+
+    conn.commit()
+
+
+def seed_app_deployment_contexts(conn):
+    """Map all apps to their deployment contexts (cloud/local/hybrid/on-premise)."""
+    cur = conn.cursor()
+
+    app_ids = {}
+    cur.execute("SELECT id, slug FROM apps")
+    for row in cur.fetchall():
+        app_ids[row[1]] = row[0]
+
+    ctx_ids = {}
+    cur.execute("SELECT id, code FROM deployment_contexts")
+    for row in cur.fetchall():
+        ctx_ids[row[1]] = row[0]
+
+    cloud_id = ctx_ids["cloud"]
+    local_id = ctx_ids["local"]
+    hybrid_id = ctx_ids["hybrid"]
+    on_prem_id = ctx_ids["on_premise"]
+
+    # CLI tools → local (preferred)
+    cli_slugs = [
+        "claude-code", "neovim", "tmux", "gh", "git", "ripgrep", "fzf",
+        "bat", "eza", "fd", "jq", "yazi", "lazygit", "starship", "atuin",
+        "zoxide", "direnv", "sesh", "mise", "whisper-cpp", "ffmpeg",
+        "yt-dlp", "gemini-cli", "codex-cli", "awscli", "gcloud", "terraform",
+    ]
+    for slug in cli_slugs:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_deployment_contexts (app_id, context_id, is_preferred) VALUES (?, ?, ?)",
+                (app_id, local_id, True),
+            )
+
+    # Desktop apps → local (preferred)
+    desktop_slugs = [
+        "cursor", "ghostty", "emacs", "obsidian", "raycast",
+        "brave-browser", "google-chrome", "safari", "vivaldi",
+        "karabiner-elements", "keyboard-maestro", "hazel", "1password",
+        "alttab", "appcleaner", "bettertouchtool", "blender", "default-folder-x",
+        "dockdoor", "expressions", "final-cut-pro", "forklift", "github-desktop",
+        "handbrake", "hookmark", "huggingchat", "ice", "iina", "imageoptim",
+        "iterm2", "keyclu", "logic-pro", "maccy", "milanote", "netnewswire",
+        "nitro-pdf-pro", "pixelsnap", "presentify", "shottr", "soulver",
+        "things3", "vivaldi", "zotero", "magnet", "amphetamine",
+        "elgato-stream-deck", "devonthink", "xcode",
+    ]
+    for slug in desktop_slugs:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_deployment_contexts (app_id, context_id, is_preferred) VALUES (?, ?, ?)",
+                (app_id, local_id, True),
+            )
+
+    # Hybrid apps (both local client and cloud backend)
+    hybrid_slugs = [
+        "obsidian", "1password", "docker-desktop", "tailscale", "figma",
+        "slack", "discord", "notion", "linear", "clickup", "zotero",
+        "devonthink", "airtable", "setapp", "chatgpt", "claude-desktop",
+        "perplexity",
+    ]
+    for slug in hybrid_slugs:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_deployment_contexts (app_id, context_id, is_preferred) VALUES (?, ?, ?)",
+                (app_id, hybrid_id, False),
+            )
+
+    # Cloud-native (web apps, SaaS platforms — entries 1-18)
+    for slug in [
+        "anthropic-claude-web", "anthropic-claude-desktop", "anthropic-claude-code-cli",
+        "anthropic-claude-chrome-ext", "anthropic-claude-cowork",
+        "openai-chatgpt-web", "openai-chatgpt-desktop", "openai-codex-cli",
+        "google-gemini-web", "google-gemini-cli", "google-gemini-mobile",
+        "google-notebooklm", "xai-grok-web",
+        "perplexity-perplexity-web", "perplexity-perplexity-desktop",
+    ]:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_deployment_contexts (app_id, context_id, is_preferred) VALUES (?, ?, ?)",
+                (app_id, cloud_id, True),
+            )
+
+    # Self-hosted / on-premise
+    self_hosted_slugs = [
+        "ollama", "openclaw", "openclaw-openclaw-mini", "openclaw-openclaw-mba",
+        "api-graphiti", "api-qdrant", "api-neo4j", "api-chroma", "api-ollama", "api-openclaw",
+    ]
+    for slug in self_hosted_slugs:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_deployment_contexts (app_id, context_id, is_preferred) VALUES (?, ?, ?)",
+                (app_id, on_prem_id, True),
+            )
+
+    # API service entries → cloud
+    cloud_api_slugs = [
+        "api-anthropic-claude-max", "api-anthropic-claude-pro",
+        "api-openai-chatgpt-plus", "api-google-ai-pro", "api-nvidia-nim",
+        "api-linear", "api-clickup", "api-notion", "api-github",
+        "api-setapp", "api-perplexity", "api-xai-grok", "api-tailscale", "api-homebrew",
+    ]
+    for slug in cloud_api_slugs:
+        app_id = app_ids.get(slug)
+        if app_id:
+            cur.execute(
+                "INSERT OR IGNORE INTO app_deployment_contexts (app_id, context_id, is_preferred) VALUES (?, ?, ?)",
+                (app_id, cloud_id, True),
+            )
+
+    conn.commit()
+
+
+def seed_apparatus_components(conn):
+    """Map apps to their roles in the 6 apparatus workflow patterns."""
+    cur = conn.cursor()
+
+    app_ids = {}
+    cur.execute("SELECT id, slug FROM apps")
+    for row in cur.fetchall():
+        app_ids[row[1]] = row[0]
+
+    apparatus_ids = {}
+    cur.execute("SELECT id, code FROM apparatus")
+    for row in cur.fetchall():
+        apparatus_ids[row[1]] = row[0]
+
+    # (apparatus_code, app_slug, role_in_apparatus, is_core, usage_notes)
+    components = [
+        # Writing Apparatus
+        ("writing_apparatus", "obsidian", "capture", True, "Quick capture + long-form drafting"),
+        ("writing_apparatus", "claude-code", "process", True, "AI-assisted editing and restructuring"),
+        ("writing_apparatus", "chatgpt", "process", False, "Canvas for formatting and editing"),
+        ("writing_apparatus", "neovim", "process", False, "Technical/markdown editing"),
+        ("writing_apparatus", "notion", "present", False, "Publishing and sharing"),
+        ("writing_apparatus", "keyboard-maestro", "orchestrate", False, "Text expansion and automation"),
+        # Research Apparatus
+        ("research_apparatus", "perplexity", "capture", True, "Citation-backed research queries"),
+        ("research_apparatus", "obsidian", "capture", True, "Research note capture"),
+        ("research_apparatus", "zotero", "capture", True, "Reference management and PDF annotation"),
+        ("research_apparatus", "devonthink", "store", False, "Document archive and AI classification"),
+        ("research_apparatus", "claude-code", "process", True, "Analysis and synthesis"),
+        ("research_apparatus", "gemini-cli", "process", True, "Corpus sensing with 2M context"),
+        # Coding Apparatus
+        ("coding_apparatus", "neovim", "edit", True, "Primary code editor (LazyVim)"),
+        ("coding_apparatus", "claude-code", "process", True, "AI code generation and editing"),
+        ("coding_apparatus", "git", "orchestrate", True, "Version control backbone"),
+        ("coding_apparatus", "gh", "orchestrate", True, "GitHub PR/issue management"),
+        ("coding_apparatus", "lazygit", "orchestrate", False, "Visual git operations"),
+        ("coding_apparatus", "docker-desktop", "deploy", False, "Container-based deployment"),
+        ("coding_apparatus", "tmux", "orchestrate", True, "Session/pane management"),
+        ("coding_apparatus", "ghostty", "present", True, "Terminal rendering"),
+        ("coding_apparatus", "ripgrep", "search", True, "Fast codebase search"),
+        # Design Apparatus
+        ("design_apparatus", "figma", "process", True, "UI/UX design and prototyping"),
+        ("design_apparatus", "blender", "process", False, "3D modeling and rendering"),
+        ("design_apparatus", "shottr", "capture", True, "Screenshot capture and annotation"),
+        ("design_apparatus", "imageoptim", "process", False, "Image optimization for export"),
+        ("design_apparatus", "pixelsnap", "capture", False, "Pixel measurement tool"),
+        # Analysis Apparatus
+        ("analysis_apparatus", "claude-code", "process", True, "Data analysis and transformation"),
+        ("analysis_apparatus", "gemini-cli", "process", True, "Large corpus analysis"),
+        ("analysis_apparatus", "obsidian", "present", True, "Analysis documentation"),
+        ("analysis_apparatus", "airtable", "store", False, "Structured data storage"),
+        ("analysis_apparatus", "jq", "process", False, "JSON data transformation"),
+        # Communication Apparatus
+        ("communication_apparatus", "slack", "communicate", True, "Team messaging"),
+        ("communication_apparatus", "discord", "communicate", True, "Community + agent integration"),
+        ("communication_apparatus", "linear", "orchestrate", True, "Task tracking and assignment"),
+        ("communication_apparatus", "notion", "present", False, "Documentation and wikis"),
+        ("communication_apparatus", "obsidian", "capture", False, "Meeting notes capture"),
+    ]
+
+    count = 0
+    for app_code, app_slug, role, is_core, notes in components:
+        apparatus_id = apparatus_ids.get(app_code)
+        app_id = app_ids.get(app_slug)
+        if apparatus_id and app_id:
+            try:
+                cur.execute(
+                    "INSERT OR IGNORE INTO apparatus_components (apparatus_id, app_id, role_in_apparatus, is_core, usage_notes) VALUES (?, ?, ?, ?, ?)",
+                    (apparatus_id, app_id, role, is_core, notes),
+                )
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: apparatus_components {app_code}/{app_slug}: {e}")
+    conn.commit()
+    return count
+
+
+def seed_app_relationships(conn):
+    """Map key relationships between apps (powers, competes, requires, combines_with, obsoletes)."""
+    cur = conn.cursor()
+
+    app_ids = {}
+    cur.execute("SELECT id, slug FROM apps")
+    for row in cur.fetchall():
+        app_ids[row[1]] = row[0]
+
+    # (app_slug, related_slug, relationship_type, strength 1-5, notes)
+    relationships = [
+        # Competition
+        ("obsidian", "notion", "competes", 4, "PKM: local-first vs cloud-first"),
+        ("obsidian", "devonthink", "competes", 3, "Document management overlap"),
+        ("notion", "clickup", "competes", 3, "Project management + docs overlap"),
+        ("notion", "airtable", "competes", 3, "Database views overlap"),
+        ("linear", "clickup", "competes", 4, "Project management"),
+        ("linear", "things3", "competes", 2, "Task management (different scales)"),
+        ("neovim", "cursor", "competes", 4, "Code editing (vim vs AI-first)"),
+        ("neovim", "emacs", "competes", 3, "Terminal editor choice"),
+        ("brave-browser", "google-chrome", "competes", 4, "Primary browser"),
+        ("brave-browser", "safari", "competes", 3, "Browser choice"),
+        ("brave-browser", "vivaldi", "competes", 3, "Privacy browser"),
+        ("slack", "discord", "competes", 3, "Team communication"),
+        ("ghostty", "iterm2", "competes", 4, "Terminal emulator"),
+        ("claude-code", "codex-cli", "competes", 4, "CLI AI coding agent"),
+        ("claude-code", "cursor", "competes", 3, "AI coding tool"),
+        ("chatgpt", "claude-desktop", "competes", 4, "AI chat desktop app"),
+        ("perplexity", "chatgpt", "competes", 3, "AI search vs AI chat+search"),
+        ("hazel", "keyboard-maestro", "competes", 2, "Automation overlap"),
+        # Powers (provides capabilities to another)
+        ("ollama", "openclaw", "powers", 5, "Local model inference for agent"),
+        ("tmux", "neovim", "powers", 4, "Session management for editor"),
+        ("tmux", "claude-code", "powers", 3, "Terminal session for agent"),
+        ("ghostty", "tmux", "powers", 5, "GPU-rendered terminal for multiplexer"),
+        ("starship", "ghostty", "powers", 3, "Prompt rendering in terminal"),
+        ("git", "gh", "powers", 5, "VCS backbone for GitHub CLI"),
+        ("git", "lazygit", "powers", 5, "VCS backbone for git TUI"),
+        ("docker-desktop", "openclaw", "powers", 4, "Container runtime for agent services"),
+        ("tailscale", "openclaw", "powers", 3, "Mesh VPN for inter-machine agent access"),
+        # Requires (hard dependency)
+        ("lazygit", "git", "requires", 5, "Cannot function without git"),
+        ("gh", "git", "requires", 5, "GitHub CLI requires git"),
+        ("sesh", "tmux", "requires", 5, "Session manager requires tmux"),
+        ("cursor", "git", "requires", 3, "VCS integration dependency"),
+        # Combines With (synergistic pairing)
+        ("obsidian", "zotero", "combines_with", 4, "Research notes + reference management"),
+        ("obsidian", "devonthink", "combines_with", 3, "Notes + document archive"),
+        ("claude-code", "gemini-cli", "combines_with", 4, "Execution + corpus sensing"),
+        ("claude-code", "openclaw", "combines_with", 4, "Execution + persistent memory"),
+        ("neovim", "claude-code", "combines_with", 4, "Editor + AI agent"),
+        ("fzf", "ripgrep", "combines_with", 4, "Fuzzy filter + fast search"),
+        ("fzf", "fd", "combines_with", 4, "Fuzzy filter + fast find"),
+        ("keyboard-maestro", "raycast", "combines_with", 3, "Deep automation + quick launch"),
+        ("hazel", "keyboard-maestro", "combines_with", 3, "File automation + macro automation"),
+        ("bat", "fzf", "combines_with", 3, "Preview in fuzzy finder"),
+        ("linear", "slack", "combines_with", 3, "Task tracking + communication"),
+        ("linear", "gh", "combines_with", 4, "Issue tracking + PR management"),
+        ("figma", "notion", "combines_with", 3, "Design + documentation"),
+        # Obsoletes
+        ("ghostty", "iterm2", "obsoletes", 3, "GPU-accelerated replacement"),
+    ]
+
+    count = 0
+    for app_slug, related_slug, rel_type, strength, notes in relationships:
+        app_id = app_ids.get(app_slug)
+        related_id = app_ids.get(related_slug)
+        if app_id and related_id and app_id != related_id:
+            try:
+                cur.execute(
+                    "INSERT OR IGNORE INTO app_relationships (app_id, related_app_id, relationship_type, strength, notes) VALUES (?, ?, ?, ?, ?)",
+                    (app_id, related_id, rel_type, strength, notes),
+                )
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: app_relationships {app_slug}/{related_slug}: {e}")
+    conn.commit()
+    return count
+
+
 def validate_integrity(conn):
     """Run data integrity checks and return results."""
     cur = conn.cursor()
@@ -1006,7 +1670,12 @@ def validate_integrity(conn):
     tables = [
         "layers", "roles", "object_types", "modalities", "lifecycle_states",
         "commercial_seams", "deployment_contexts", "apps", "models", "api_pricing",
-        "primitives", "apparatus", "usage_contexts",
+        "app_modalities", "app_commercial_seams", "app_deployment_contexts",
+        "model_capabilities",
+        "primitives", "app_primitives", "primitive_dependencies",
+        "apparatus", "apparatus_components", "usage_contexts",
+        "app_relationships", "app_usage_contexts",
+        "workflow_templates", "workflow_steps",
         "projects", "tasks", "accounts", "platforms", "platform_roles", "sources",
         "filename_mappings", "rename_mappings",
     ]
@@ -1067,6 +1736,20 @@ def print_report(results, db_path):
         print(f"  {t:30s} {count:>6d} rows")
     print(f"  {'INTELLIGENCE TOTAL':30s} {intel_total:>6d}")
 
+    print("\n  --- JUNCTION TABLES (Enrichment) ---")
+    junction_tables = [
+        "app_modalities", "app_commercial_seams", "app_deployment_contexts",
+        "model_capabilities", "app_primitives", "primitive_dependencies",
+        "apparatus_components", "app_relationships", "app_usage_contexts",
+        "workflow_templates", "workflow_steps",
+    ]
+    junction_total = 0
+    for t in junction_tables:
+        count = results["row_counts"].get(t, 0)
+        junction_total += max(count, 0)
+        print(f"  {t:30s} {count:>6d} rows")
+    print(f"  {'JUNCTION TOTAL':30s} {junction_total:>6d}")
+
     print("\n  --- OPERATIONAL (CSV Ledgers) ---")
     ops_tables = ["projects", "tasks", "accounts", "platforms", "platform_roles", "sources", "filename_mappings", "rename_mappings"]
     ops_total = 0
@@ -1076,7 +1759,7 @@ def print_report(results, db_path):
         print(f"  {t:30s} {count:>6d} rows")
     print(f"  {'OPERATIONAL TOTAL':30s} {ops_total:>6d}")
 
-    grand_total = bedrock_total + settlement_total + intel_total + ops_total
+    grand_total = bedrock_total + settlement_total + intel_total + junction_total + ops_total
     print(f"\n  {'GRAND TOTAL':30s} {grand_total:>6d} rows")
 
     print(f"\n  --- INTEGRITY ---")
@@ -1207,11 +1890,47 @@ def main():
     api_count = import_api_pricing_csv(conn, api_csv)
     print(f"  {api_count} service entries imported from DYN-API_PRICING.csv")
 
-    # Phase 5: Write metadata
-    print("\nPhase 5: Writing metadata...")
+    # Phase 5: Ontology Enrichment (junction tables + expanded seeds)
+    print("\nPhase 5: Enriching ontology with junction table data...")
+
+    print("  5a: Seeding functional roles...")
+    seed_roles(conn)
+    cur = conn.cursor()
+    cur.execute("SELECT COUNT(*) FROM roles")
+    print(f"      {cur.fetchone()[0]} roles seeded")
+
+    print("  5b: Expanding primitive catalog...")
+    seed_expanded_primitives(conn)
+    cur.execute("SELECT COUNT(*) FROM primitives")
+    print(f"      {cur.fetchone()[0]} total primitives")
+
+    print("  5c: Mapping app-primitive relationships...")
+    ap_count = seed_app_primitives(conn)
+    print(f"      {ap_count} app-primitive mappings created")
+
+    print("  5d: Mapping app modalities...")
+    seed_app_modalities(conn)
+    cur.execute("SELECT COUNT(*) FROM app_modalities")
+    print(f"      {cur.fetchone()[0]} app-modality mappings")
+
+    print("  5e: Mapping app deployment contexts...")
+    seed_app_deployment_contexts(conn)
+    cur.execute("SELECT COUNT(*) FROM app_deployment_contexts")
+    print(f"      {cur.fetchone()[0]} app-deployment mappings")
+
+    print("  5f: Mapping apparatus components...")
+    ac_count = seed_apparatus_components(conn)
+    print(f"      {ac_count} apparatus-component mappings")
+
+    print("  5g: Mapping app relationships...")
+    ar_count = seed_app_relationships(conn)
+    print(f"      {ar_count} app relationships mapped")
+
+    # Phase 6: Write metadata
+    print("\nPhase 6: Writing metadata...")
     conn.execute(
         "INSERT OR REPLACE INTO _meta (key, value, updated_at) VALUES (?, ?, ?)",
-        ("schema_version", "1.0.0", datetime.now().isoformat()),
+        ("schema_version", "1.1.0", datetime.now().isoformat()),
     )
     conn.execute(
         "INSERT OR REPLACE INTO _meta (key, value, updated_at) VALUES (?, ?, ?)",
@@ -1227,8 +1946,8 @@ def main():
     )
     conn.commit()
 
-    # Phase 6: Validate
-    print("\nPhase 6: Validating integrity...")
+    # Phase 7: Validate
+    print("\nPhase 7: Validating integrity...")
     results = validate_integrity(conn)
     status = print_report(results, db_path)
 
