@@ -6,10 +6,12 @@
 **Issued**: 2026-02-11T19:45:00Z
 **Kind**: DIRECTIVE
 **Priority**: P1
+**Exit-Code**: 0
+**Completed-At**: 2026-02-11T18:45:36Z
 **Claimed-At**: 2026-02-11T18:44:15Z
 **Claimed-By**: commander-Lisas-MacBook-Air
-**Kanban**: IN_PROGRESS
-**Status**: IN_PROGRESS
+**Kanban**: DONE
+**Status**: COMPLETE
 **CC**: commander
 **IntentionLink**: INT-P015 (Mac mini=stable macro, MBA=kinetic micro), SYN-35 (capability encoding)
 
