@@ -542,6 +542,20 @@ handle_file() {
   out_file=$(run_executor "$claimed")
   local exit_code=$EXEC_EXIT
 
+  # Output validation: CLIs sometimes exit 0 despite API failures.
+  # Detect known error patterns and override exit code to FAILED.
+  if [ $exit_code -eq 0 ] && [ -f "$out_file" ]; then
+    if grep -qE '(model .* does not exist|RESOURCE_EXHAUSTED|MODEL_CAPACITY_EXHAUSTED|stream disconnected before completion|EXEC_ERROR)' "$out_file" 2>/dev/null; then
+      # Check for substantive output beyond just error traces
+      local substantive_lines
+      substantive_lines=$(grep -cvE '(^$|^\[|^Reconnecting|^ERROR:|^Attempt|^Loading|^Server|^Hook|^mcp startup|at async|at Gaxios|at process|at retryWithBackoff|config:|response:|headers:|data:|error:|status:|url:|method:|params:|body:|signal:|cause:|Symbol|An unexpected)' "$out_file" 2>/dev/null || echo "0")
+      if [ "$substantive_lines" -lt 5 ]; then
+        log "$(date '+%H:%M:%S') Output validation: CLI exited 0 but output contains only errors. Overriding to FAILED."
+        exit_code=1
+      fi
+    fi
+  fi
+
   local done_now
   done_now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
 
