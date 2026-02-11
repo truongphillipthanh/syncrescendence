@@ -97,6 +97,10 @@ case "${1:-}" in
         CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
         CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto"
         CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
+        # Note: Adjudicator defaults to gpt-5.2-codex. To switch to gpt-5.3-codex:
+        #   After codex boots, send '/model gpt-5.3-codex' via tmux send-keys.
+        #   See POST_LAUNCH_MODEL_SWITCH below.
+        POST_LAUNCH_MODEL_SWITCH=true
         ;;
     --resize|--fix)
         echo "Repositioning Ghostty to center 4/6 (${WIN_LEFT},${WIN_TOP} → ${WIN_RIGHT},${WIN_BOTTOM})..."
@@ -227,6 +231,25 @@ tmux send-keys -t "$CARTOGRAPHER_ID" "$CMD_CARTOGRAPHER" C-m
 
 # nvim panes already running — launched directly by split-window above
 # No send-keys needed. No race condition. No timing hacks.
+
+# ── Post-launch model switching ──────────────────────────────────────────────
+# Adjudicator (Codex CLI) defaults to gpt-5.2-codex on boot.
+# Psyche (OpenClaw) model is set in openclaw.json (currently openai-codex/gpt-5.2).
+# After boot, switch both to gpt-5.3-codex via their respective CLIs.
+#
+# Timing: Codex takes ~3-5s to initialize; OpenClaw TUI ~2-3s.
+# We background the model switch so it doesn't block the rest of cockpit setup.
+if [[ "${POST_LAUNCH_MODEL_SWITCH:-false}" == "true" ]]; then
+    (
+        sleep 8  # Wait for Codex + OpenClaw to finish booting
+        # Adjudicator: /model command switches the active model in Codex CLI
+        tmux send-keys -t "$ADJUDICATOR_ID" "/model gpt-5.3-codex" C-m
+        sleep 2
+        # Psyche: /model command switches the active model in OpenClaw TUI
+        tmux send-keys -t "$PSYCHE_ID" "/model gpt-5.3-codex" C-m
+    ) &
+    echo "Post-launch model switch queued (gpt-5.3-codex for Adjudicator + Psyche)"
+fi
 
 # ── Apply pane titles ────────────────────────────────────────────────────────
 tmux select-pane -t "$PSYCHE_ID" -T "Psyche"
