@@ -309,3 +309,7 @@
 - **2026-02-11 11:20:07** | `**Priority**: P1`
 
 - **2026-02-11 11:38:56** | `(Note: These states already exist in `REF-STACK_TELEOLOGY.md` as "Disposition Categories" -- this formalizes them as a state machine.)`
+
+- **2026-02-11 12:01:46** | `can you converge and align? The ontology is aspirational intent, tentative, but the myopic true north. however, we need to economically enable ourselves that architecture, any other tools that are not`
+
+- **2026-02-11 12:03:45** | `  3. n8n deployment priority — Prioritize event bus over remaining onboarding (SYN-52/54)?`
