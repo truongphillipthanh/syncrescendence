@@ -13,11 +13,12 @@ linear: SYN-51
 
 ## Scrum Methodology for Syncrescendence via Atlassian Jira Cloud
 
-**Version**: 1.0.0
+**Version**: 2.0.0
 **Created**: 2026-02-10
-**Author**: jira-onboarder agent (Opus 4.6)
+**Updated**: 2026-02-10
+**Author**: jira-onboarder agent (Opus 4.6), Commander (Opus 4.6)
 **Linear Issue**: SYN-51
-**Companion to**: PRAC-multi_methodology_framework.md, REF-SAAS_INTEGRATION_ARCHITECTURE.md
+**Companion to**: PRAC-multi_methodology_framework.md, REF-SAAS_INTEGRATION_ARCHITECTURE.md, REF-JIRA_SYNC_MAP.md
 
 ---
 
@@ -124,16 +125,44 @@ To Do  -->  In Progress  -->  In Review  -->  Done
 | 2 | SCRUM Sprint 0 | **active** | 2026-02-10 | 2026-02-24 |
 | 1 | SCRUM Sprint 1 | future | (not started) | -- |
 
-### Existing Issues (Seed Data)
+### Archived Seed Issues
 
 | Key | Type | Summary | Status | Sprint |
 |-----|------|---------|--------|--------|
-| SCRUM-1 | Task | Task 1 | To Do | Sprint 0 |
-| SCRUM-2 | Story | Task 2 | In Progress | Sprint 0 |
-| SCRUM-3 | Feature | Task 3 | In Progress | -- |
-| SCRUM-4 | Subtask | Subtask 2.1 (child of SCRUM-2) | To Do | -- |
+| SCRUM-1 | Task | Task 1 | Done | Sprint 0 |
+| SCRUM-2 | Story | Task 2 | Done | Sprint 0 |
+| SCRUM-3 | Feature | Task 3 | Done | -- |
+| SCRUM-4 | Subtask | Subtask 2.1 (child of SCRUM-2) | Done | Sprint 0 |
 
-These appear to be sample/test issues created during initial site setup. They can be repurposed or archived.
+Seed issues archived (marked Done) on 2026-02-10 during Phase 2 implementation.
+
+### Active Epics
+
+| Key | Summary | Linear Project | PROJ Code |
+|-----|---------|---------------|-----------|
+| SCRUM-5 | Tool Onboarding | PROJ-TOOLS | SYN-51/52/53/54/55 |
+| SCRUM-6 | Ontology Substrate | PROJ-006b | Substrate work |
+| SCRUM-7 | Live Intelligence Substrate | Epic 1 | SYN-31/32 |
+| SCRUM-8 | Constellation Agents | PROJ-AGENTS | SYN-34/35 |
+| SCRUM-9 | Automation & Integration | PROJ-AUTO | SYN-45+ |
+
+### Sprint 0 Stories (Active)
+
+| Key | Type | Summary | Status | Points | Linear |
+|-----|------|---------|--------|--------|--------|
+| SCRUM-10 | Story | Jira Onboarding: API + MCP + Scrum Infrastructure | In Progress | 8 | SYN-51 |
+| SCRUM-11 | Story | Live Ledger: Pipeline Wiring & Sensing Integration | In Progress | 5 | SYN-31 |
+| SCRUM-12 | Story | Todoist Integration: API + Sync Bridge | To Do | 5 | SYN-53 |
+| SCRUM-13 | Story | MBA Ajna Setup: OpenClaw + NVIDIA Provider + launchd | To Do | 8 | SYN-35 |
+
+### Backlog Stories
+
+| Key | Type | Summary | Status | Points | Linear |
+|-----|------|---------|--------|--------|--------|
+| SCRUM-14 | Story | Webhook Bridge: Jira <-> Linear Bidirectional Status Sync | To Do | 13 | -- |
+
+**Sprint 0 velocity budget**: 26 story points (2026-02-10 to 2026-02-24).
+**Cross-reference**: See `REF-JIRA_SYNC_MAP.md` for full bidirectional mapping.
 
 ### Custom Fields of Interest
 
@@ -382,7 +411,7 @@ Sprint 0 is the current bootstrapping sprint (2026-02-10 to 2026-02-24).
 
 ## VII. INTEGRATION ROADMAP
 
-### Phase 1: Foundation (Current -- SYN-51)
+### Phase 1: Foundation (COMPLETE -- SYN-51)
 
 - [x] API authentication verified
 - [x] Jira Cloud site discovered (`syncrescendence.atlassian.net`)
@@ -393,13 +422,14 @@ Sprint 0 is the current bootstrapping sprint (2026-02-10 to 2026-02-24).
 - [ ] **SOVEREIGN ACTION**: Review and approve MCP server addition to `~/.claude.json`
 - [ ] Add `JIRA_USER_EMAIL` and `JIRA_BASE_URL` to `~/.syncrescendence/.env` for convenience
 
-### Phase 2: Structure (Next)
+### Phase 2: Structure (COMPLETE -- 2026-02-10)
 
-- [ ] Create Jira Epics matching Linear projects (13 epics)
-- [ ] Establish story point scale (Fibonacci: 1, 2, 3, 5, 8, 13)
-- [ ] Archive seed issues (SCRUM-1 through SCRUM-4) or repurpose
-- [ ] Plan first real sprint with Linear issues mapped to Jira stories
-- [ ] Install and configure Jira MCP server
+- [x] Create Jira Epics matching Linear projects (5 priority epics: SCRUM-5 through SCRUM-9)
+- [x] Establish story point scale (Fibonacci: 1, 2, 3, 5, 8, 13)
+- [x] Archive seed issues (SCRUM-1 through SCRUM-4 marked Done)
+- [x] Plan first real sprint with Linear issues mapped to Jira stories (Sprint 0: 26 points, 4 stories)
+- [x] Sync mapping file created: `REF-JIRA_SYNC_MAP.md`
+- [ ] Install and configure Jira MCP server (awaiting Sovereign approval)
 
 ### Phase 3: Automation
 

@@ -4,7 +4,7 @@ kind: REF
 scope: engine
 target: constellation
 status: active
-updated: 2026-02-10
+updated: 2026-02-11
 ---
 
 # REF -- Todoist GTD Integration
@@ -42,8 +42,11 @@ T3  Claude Code Tasks       Session-level atomic ops
 | Account | User ID `52681159` |
 | Tier | Free (8 projects max, 5 active tasks per project in some modes) |
 | API Version | **v1** (REST) -- `https://api.todoist.com/api/v1/` |
+| API Fallback | REST v2 (`/rest/v2/`) still works with Bearer auth. v1 requires different header format. |
 | Auth | Bearer token: `$TODOIST_API_KEY` (in `~/.syncrescendence/.env`) |
-| Deprecated | Sync API v9 (`/sync/v9/`) returns 410 Gone. REST v2 (`/rest/v2/`) still works but deprecated. Use v1. |
+| Auth Note | `source ~/.syncrescendence/.env` does NOT export vars. Use `KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env \| cut -d= -f2)` or use key directly. |
+| Deprecated | Sync API v9 (`/sync/v9/`) returns 410 Gone. |
+| Connection | **VERIFIED 2026-02-11** -- REST v2 returns 200, all 8 projects visible, CRUD operations confirmed |
 | Web UI | `https://app.todoist.com/` |
 
 ### API Endpoints Used
@@ -85,7 +88,7 @@ Note: The `.env` file uses `KEY=value` format without `export`. Use `export $(gr
 | 6 | **@Waiting** | `6fxg9wxRPrjvGvrp` | orange | Context: delegated/blocked, awaiting response |
 | 7 | **Professional** | `6fxg9x4h6FPPvqX9` | red | Area: career and professional tasks |
 
-*FROZEN: Free tier may freeze projects beyond a threshold. @Computer and @Phone show `is_frozen: true`. Tasks can still be added/completed via API but the project may be read-only in the UI without a paid plan upgrade. If this is a blocker, consider consolidating contexts into labels only.
+*FROZEN: Free tier freezes projects beyond threshold. @Computer and @Phone show `is_frozen: true`. **Sovereign decision (2026-02-11): Option C accepted** -- API still works for CRUD operations; UI is read-only for frozen projects. Tasks can be created, completed, and moved via API. No upgrade needed at this time.
 
 ### Sections
 
@@ -324,16 +327,23 @@ If upgraded to Pro ($5/mo), we could:
 
 ## IX. QUICK REFERENCE
 
-### Create a task via API
+### Key Extraction (shell)
 
 ```bash
-export $(grep TODOIST_API_KEY ~/.syncrescendence/.env | xargs)
-curl -s -X POST "https://api.todoist.com/api/v1/tasks" \
-  -H "Authorization: Bearer $TODOIST_API_KEY" \
+# Correct pattern — source does NOT export from .env
+TODOIST_KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env | cut -d= -f2)
+```
+
+### Create a task via API (REST v2 -- VERIFIED WORKING)
+
+```bash
+TODOIST_KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env | cut -d= -f2)
+curl -s -X POST "https://api.todoist.com/rest/v2/tasks" \
+  -H "Authorization: Bearer $TODOIST_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "content": "Buy milk",
-    "project_id": "6fxg9whPWw2MxPj7",
+    "project_id": "2367047925",
     "labels": ["5min", "energy_low"],
     "priority": 2,
     "due_string": "tomorrow"
@@ -343,24 +353,117 @@ curl -s -X POST "https://api.todoist.com/api/v1/tasks" \
 ### Complete a task via API
 
 ```bash
-curl -s -X POST "https://api.todoist.com/api/v1/tasks/{task_id}/close" \
-  -H "Authorization: Bearer $TODOIST_API_KEY"
+curl -s -X POST "https://api.todoist.com/rest/v2/tasks/{task_id}/close" \
+  -H "Authorization: Bearer $TODOIST_KEY"
 ```
 
-### Move a task to a context project
+### List all tasks
 
 ```bash
-curl -s -X POST "https://api.todoist.com/api/v1/tasks/{task_id}/move" \
-  -H "Authorization: Bearer $TODOIST_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"project_id": "<context_project_id>"}'
+curl -s "https://api.todoist.com/rest/v2/tasks" \
+  -H "Authorization: Bearer $TODOIST_KEY" | python3 -m json.tool
 ```
+
+### Project ID Quick Reference (REST v2 IDs)
+
+| Project | REST v2 ID | API v1 ID |
+|---------|-----------|-----------|
+| Inbox | `2348487086` | `6XF8J65C6M3hFjc2` |
+| @Computer | `2367047921` | `6fxg9w4j8Vqr8VRv` |
+| @Phone | `2367047923` | `6fxg9wQrJXqWpqhQ` |
+| @Errands | `2367047925` | `6fxg9whPWw2MxPj7` |
+| @Home | `2367047926` | `6fxg9wm3RhJvj8rR` |
+| @Office | `2367047927` | `6fxg9wqwqr9c8x5X` |
+| @Waiting | `2367047928` | `6fxg9wxRPrjvGvrp` |
+| Professional | `2367047929` | `6fxg9x4h6FPPvqX9` |
+
+### Section ID Quick Reference
+
+| Section | REST v2 ID | API v1 ID | Parent Project |
+|---------|-----------|-----------|----------------|
+| Capture | `215043395` | `6fxgC53pPRWpCP3R` | Inbox |
+| Clarify & Organize | `215043397` | `6fxgC57fjpVvQjj2` | Inbox |
+| Next Actions | `215043400` | `6fxgC5Hfxf8qgrf9` | Professional |
+| Active Projects | `215043401` | `6fxgC5RM5VRC9rPh` | Professional |
+| Someday/Maybe | `215043402` | `6fxgC5gXMQ3RH85h` | Professional |
+
+### Rate Limit Note
+
+REST v2 has aggressive rate limiting. When creating multiple tasks, add `sleep 2` between calls. Batch creation via temp JSON files (`-d @/tmp/task.json`) avoids shell escaping issues.
 
 ---
 
 ## X. OPEN ITEMS / SOVEREIGN DECISIONS NEEDED
 
-1. **Frozen projects**: @Computer and @Phone are frozen on the free tier. Sovereign should decide: (a) upgrade to Pro ($5/mo), (b) delete these and use labels for contexts instead, or (c) accept that API still works even if UI is limited.
-2. **MCP installation**: `todoist-mcp` is ready to install but adds another MCP server. Sovereign approval needed.
+1. ~~**Frozen projects**~~: **RESOLVED** -- Option C accepted (2026-02-11). API works, UI limited. Revisit if workflow friction emerges.
+2. **MCP installation**: `todoist-mcp` is ready to install but adds another MCP server. Sovereign approval needed. Todoist task created to track.
 3. **Automation phase**: Make/n8n escalation webhook requires Todoist Pro tier.
-4. **Weekly review cadence**: Suggested Sunday morning. Add to claudecron or keep manual?
+4. **Weekly review cadence**: Recurring task created (every Sunday at 10:00). Add to claudecron as P2 enhancement.
+
+---
+
+## XI. IMPLEMENTATION STATUS (2026-02-11)
+
+### Connection Verified
+- REST v2 API: **200 OK** with Bearer auth
+- API v1: Returns 403 with Bearer auth (requires different header format -- use v2 for now)
+- All CRUD operations confirmed: create, list, close tasks
+
+### Structure Confirmed Live
+- **8/8 projects** operational (2 frozen: @Computer, @Phone -- API still works)
+- **5 sections** across Inbox and Professional
+- **13 labels** covering energy, time estimates, GTD workflow, and integration
+- **Frozen project workaround**: Option C -- API bypass accepted
+
+### GTD Task Inventory (16 active tasks)
+
+#### @Computer (project `2367047921` / v2 `6fxg9w4j8Vqr8VRv`) -- 12 tasks
+| Task | SYN | Priority | Due | Labels |
+|------|-----|----------|-----|--------|
+| Complete Mastery IIC account email setup | SYN-24 | P1 (urgent) | 2026-02-10 | next_action, 15min, energy_low |
+| Review Linear-to-IMPL-MAP sync gap | SYN-16 | P2 (high) | 2026-02-11 | next_action, 30min, energy_high |
+| Test Jira API connectivity | SYN-51 | P3 (medium) | 2026-02-13 | next_action, 15min, energy_low |
+| Draft tmux dashboard layout spec | SYN-40 | P3 (medium) | 2026-02-13 | next_action, 30min, energy_high |
+| List dotfiles for machine sync | SYN-43 | P3 (medium) | 2026-02-13 | next_action, 15min, energy_low |
+| Audit Psyche OpenClaw config | SYN-35 | P3 (medium) | 2026-02-16 | next_action, 30min, energy_high |
+| Research OpenClaw Discord setup | SYN-50 | P4 (normal) | 2026-02-16 | 15min, energy_low |
+| Identify Google APIs for IIC pipeline | SYN-49 | P4 (normal) | 2026-02-23 | 15min, energy_high |
+| Map PKM tools overlap | SYN-48 | P4 (normal) | 2026-02-23 | 30min, energy_high |
+| Create Trello board | SYN-52 | P4 (normal) | 2026-02-23 | 15min, energy_low |
+| Set up Notion LifeOS workspace | SYN-59 | P4 (normal) | 2026-02-23 | 30min, energy_high |
+| Upload docs to NotebookLM | SYN-39 | P4 (normal) | 2026-02-23 | 15min, energy_low |
+
+#### Professional > Next Actions (project `2367047929` / section `215043400`) -- 2 tasks
+| Task | SYN | Priority | Due | Labels |
+|------|-----|----------|-----|--------|
+| Install todoist-mcp in ~/.claude.json | SYN-53 | P3 (medium) | 2026-02-13 | next_action, 5min, energy_low |
+| Weekly GTD Review | -- | P2 (high) | Recurring Sun 10:00 | weekly_review, 1hr_plus, energy_high |
+
+#### @Waiting (project `2367047928` / v2 `6fxg9wxRPrjvGvrp`) -- 2 tasks
+| Task | SYN | Priority | Due | Labels |
+|------|-----|----------|-----|--------|
+| MBA Ajna agent setup | -- | P2 (high) | No due (blocked) | 1hr_plus, energy_high |
+| Sovereign: Todoist Pro upgrade decision | -- | P3 (medium) | No due | 5min, energy_low |
+
+### SYN Issues NOT in Todoist (by design)
+
+These issues are project-level work tracked in Linear, not GTD-level "next physical actions":
+
+| Issue | Title | Reason Not in Todoist |
+|-------|-------|----------------------|
+| SYN-28 | Metabolize Coherence/ (193 files) | Backlog, multi-session repo work |
+| SYN-17 | Triangulate FDIS requirements | Backlog, P3 research task |
+| SYN-19 | Token/cost burn management | Backlog, P3 engineering task |
+| SYN-37 | Syncrescript Rails refactor | Backlog, HIBERNATE verdict |
+| SYN-44 | Machine Handbooks | Todo, documentation project (>1hr) |
+| SYN-46 | Info Stream Extraction Pipeline | Todo, engineering project |
+| SYN-54 | TeamGantt onboarding | Todo, blocked by Trello first |
+| SYN-60 | Raycast clone design | Backlog, long-term |
+
+### ClickUp Escalation Mapping (verified)
+
+| Todoist Area | ClickUp Space | ClickUp ID | Status |
+|--------------|---------------|------------|--------|
+| Professional project | Professional | `901313150565` | MAPPED |
+| `personal` label | Personal | `901313150566` | MAPPED |
+| `financial` label | Financial | `901313150567` | MAPPED |
