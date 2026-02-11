@@ -377,6 +377,135 @@ def cmd_sql(args):
     conn.close()
 
 
+def cmd_actions(args):
+    """List action types with optional category filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+
+    query = """
+        SELECT at.code, at.name, at.category, r.code as parent_role,
+               at.automation_level, at.write_back_capable, at.requires_approval
+        FROM action_types at
+        LEFT JOIN roles r ON at.parent_role_id = r.id
+        WHERE 1=1
+    """
+    params = []
+
+    if "--category" in args:
+        idx = args.index("--category")
+        if idx + 1 < len(args):
+            query += " AND at.category = ?"
+            params.append(args[idx + 1])
+
+    query += " ORDER BY at.category, at.code"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+
+    print(f"{'Code':<25} {'Name':<25} {'Category':<12} {'Role':<12} {'Auto':<12} WB  Appr")
+    print("-" * 100)
+    for row in rows:
+        wb = "Y" if row["write_back_capable"] else "N"
+        appr = "Y" if row["requires_approval"] else "N"
+        print(f"{row['code']:<25} {row['name']:<25} {row['category']:<12} {(row['parent_role'] or '-'):<12} {(row['automation_level'] or '-'):<12} {wb:<4}{appr}")
+
+    print(f"\n{len(rows)} action types.")
+    conn.close()
+
+
+def cmd_agent_bindings(args):
+    """List agent bindings with optional agent filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+
+    query = """
+        SELECT ab.agent_code, a.slug as app_slug, at.code as action_code,
+               ab.binding_strength, ab.invocation_method, ab.frequency, ab.notes
+        FROM agent_bindings ab
+        JOIN apps a ON ab.app_id = a.id
+        JOIN action_types at ON ab.action_type_id = at.id
+        WHERE 1=1
+    """
+    params = []
+
+    if "--agent" in args:
+        idx = args.index("--agent")
+        if idx + 1 < len(args):
+            query += " AND ab.agent_code = ?"
+            params.append(args[idx + 1])
+
+    query += " ORDER BY ab.agent_code, ab.binding_strength, a.slug"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+
+    print(f"{'Agent':<14} {'App':<20} {'Action':<22} {'Strength':<12} {'Method':<10} {'Freq':<10}")
+    print("-" * 95)
+    for row in rows:
+        print(f"{row['agent_code']:<14} {row['app_slug']:<20} {row['action_code']:<22} {row['binding_strength']:<12} {row['invocation_method']:<10} {row['frequency']:<10}")
+
+    print(f"\n{len(rows)} bindings.")
+    conn.close()
+
+
+def cmd_workflows(args):
+    """List workflow templates and optionally show steps."""
+    conn = get_conn()
+    cur = conn.cursor()
+
+    if args:
+        # Show specific workflow with steps
+        code = args[0]
+        cur.execute("""
+            SELECT wt.code, wt.name, wt.description, wt.use_frequency,
+                   wt.average_duration_minutes, ap.code as apparatus_code
+            FROM workflow_templates wt
+            LEFT JOIN apparatus ap ON wt.apparatus_id = ap.id
+            WHERE wt.code = ?
+        """, (code,))
+        wf = cur.fetchone()
+        if not wf:
+            print(f"Workflow '{code}' not found.")
+            conn.close()
+            return
+
+        print(f"Workflow: {wf['name']} ({wf['code']})")
+        print(f"  Description: {wf['description']}")
+        print(f"  Apparatus: {wf['apparatus_code'] or 'none'}")
+        print(f"  Frequency: {wf['use_frequency']}")
+        print(f"  Avg Duration: {wf['average_duration_minutes']} min")
+        print(f"\n  Steps:")
+        print(f"  {'#':<4} {'App':<18} {'Description':<45} {'Duration':<8}")
+        print(f"  {'-'*80}")
+
+        cur.execute("""
+            SELECT ws.step_number, a.slug as app_slug, ws.action_description,
+                   ws.average_duration_minutes, ws.notes
+            FROM workflow_steps ws
+            JOIN apps a ON ws.app_id = a.id
+            WHERE ws.workflow_id = (SELECT id FROM workflow_templates WHERE code = ?)
+            ORDER BY ws.step_number
+        """, (code,))
+        for step in cur.fetchall():
+            print(f"  {step['step_number']:<4} {step['app_slug']:<18} {step['action_description'][:44]:<45} {step['average_duration_minutes'] or '-':>4} min")
+    else:
+        # List all workflows
+        cur.execute("""
+            SELECT wt.code, wt.name, wt.use_frequency, wt.average_duration_minutes,
+                   ap.code as apparatus_code,
+                   (SELECT COUNT(*) FROM workflow_steps ws WHERE ws.workflow_id = wt.id) as step_count
+            FROM workflow_templates wt
+            LEFT JOIN apparatus ap ON wt.apparatus_id = ap.id
+            ORDER BY wt.code
+        """)
+        rows = cur.fetchall()
+        print(f"{'Code':<20} {'Name':<30} {'Apparatus':<22} {'Freq':<10} {'Steps':>5} {'Min':>5}")
+        print("-" * 95)
+        for row in rows:
+            print(f"{row['code']:<20} {row['name']:<30} {(row['apparatus_code'] or '-'):<22} {row['use_frequency']:<10} {row['step_count']:>5} {row['average_duration_minutes'] or '-':>5}")
+
+        print(f"\n{len(rows)} workflows. Use 'workflows <code>' for details.")
+    conn.close()
+
+
 COMMANDS = {
     "stats": cmd_stats,
     "layers": cmd_layers,
@@ -387,6 +516,9 @@ COMMANDS = {
     "projects": cmd_projects,
     "tasks": cmd_tasks,
     "sources": cmd_sources,
+    "actions": cmd_actions,
+    "agent-bindings": cmd_agent_bindings,
+    "workflows": cmd_workflows,
     "sql": cmd_sql,
 }
 

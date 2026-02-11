@@ -1858,33 +1858,704 @@ def seed_app_commercial_seams(conn):
 
 
 def seed_action_types(conn):
-    """Populate action_types with kinetic vocabulary — Phase B."""
-    # Placeholder: will be populated from Adjudicator's ACTION_TYPES.md artifact
-    pass
+    """Populate action_types with kinetic vocabulary — Phase B.
+
+    66 action types across 4 categories:
+    - core (45): 3 per role, anchored to 15 existing roles
+    - compound (7): multi-role spanning actions
+    - governance (7): authorization and control actions
+    - personal (7): sovereign cognitive/commitment actions
+    """
+    cur = conn.cursor()
+
+    # Build role lookup
+    cur.execute("SELECT id, code FROM roles")
+    role_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    # (code, name, category, parent_role_code_or_None, description,
+    #  input_type, output_type, write_back, requires_approval, automation_level)
+    action_types = [
+        # === CORE: capture (role_id=1) ===
+        ("capture_text", "Capture Text", "core", "capture", "Ingest raw text content from any source into the system", "text", "text", True, False, "automated"),
+        ("capture_screenshot", "Capture Screenshot", "core", "capture", "Take a visual snapshot of screen, app, or region", "signal", "file", True, False, "assisted"),
+        ("capture_url", "Capture URL", "core", "capture", "Bookmark and archive a web resource with metadata", "text", "object", True, False, "automated"),
+        ("capture_audio", "Capture Audio", "core", "capture", "Record or ingest audio for transcription or storage", "signal", "file", True, False, "assisted"),
+        # === CORE: process (role_id=2) ===
+        ("transform_text", "Transform Text", "core", "process", "Convert text between formats (markdown, HTML, JSON, etc.)", "text", "text", False, False, "automated"),
+        ("extract_entities", "Extract Entities", "core", "process", "Identify and tag named entities, concepts, or primitives from text", "text", "data", False, False, "automated"),
+        ("summarize", "Summarize", "core", "process", "Produce a concise distillation of longer content", "text", "text", False, False, "automated"),
+        ("classify", "Classify", "core", "process", "Assign categorical labels, tags, or tiers to content", "mixed", "data", False, False, "automated"),
+        # === CORE: present (role_id=3) ===
+        ("render_markdown", "Render Markdown", "core", "present", "Format structured data or text as readable markdown output", "data", "text", False, False, "automated"),
+        ("generate_report", "Generate Report", "core", "present", "Produce a structured analytical report from data inputs", "data", "text", True, False, "automated"),
+        ("compose_message", "Compose Message", "core", "present", "Draft a communication for a specific audience and channel", "text", "text", False, False, "assisted"),
+        # === CORE: orchestrate (role_id=4) ===
+        ("dispatch_task", "Dispatch Task", "core", "orchestrate", "Create and route a TASK file to an agent inbox", "object", "file", True, False, "automated"),
+        ("coordinate_agents", "Coordinate Agents", "core", "orchestrate", "Synchronize work across multiple Constellation agents", "signal", "signal", False, False, "assisted"),
+        ("schedule_workflow", "Schedule Workflow", "core", "orchestrate", "Queue a multi-step workflow for deferred or periodic execution", "object", "object", True, False, "automated"),
+        ("route_request", "Route Request", "core", "orchestrate", "Direct an inbound request to the appropriate handler agent", "signal", "signal", False, False, "automated"),
+        # === CORE: store (role_id=5) ===
+        ("persist_file", "Persist File", "core", "store", "Write a file to the filesystem with proper path and naming", "file", "file", True, False, "automated"),
+        ("archive_content", "Archive Content", "core", "store", "Move completed or superseded content to archive with metadata", "file", "file", True, False, "automated"),
+        ("index_document", "Index Document", "core", "store", "Add a document to a search index (Qdrant, Chroma, BM25)", "file", "data", True, False, "automated"),
+        # === CORE: search (role_id=6) ===
+        ("semantic_search", "Semantic Search", "core", "search", "Find content by meaning via vector similarity", "text", "data", False, False, "automated"),
+        ("keyword_search", "Keyword Search", "core", "search", "Find content by exact or fuzzy text matching", "text", "data", False, False, "automated"),
+        ("query_database", "Query Database", "core", "search", "Execute structured queries against SQLite, Neo4j, or APIs", "text", "data", False, False, "automated"),
+        ("browse_web", "Browse Web", "core", "search", "Fetch and extract information from web URLs", "text", "text", False, False, "automated"),
+        # === CORE: communicate (role_id=7) ===
+        ("send_message", "Send Message", "core", "communicate", "Deliver a message to a specific agent or platform channel", "text", "signal", True, False, "automated"),
+        ("post_update", "Post Update", "core", "communicate", "Publish a status update to a tracking platform (Linear, ClickUp)", "text", "object", True, False, "automated"),
+        ("notify_agent", "Notify Agent", "core", "communicate", "Send a targeted notification or alert to a Constellation agent", "signal", "signal", False, False, "automated"),
+        # === CORE: automate (role_id=8) ===
+        ("trigger_webhook", "Trigger Webhook", "core", "automate", "Fire an HTTP webhook to an external service", "data", "signal", True, False, "autonomous"),
+        ("run_script", "Run Script", "core", "automate", "Execute a shell script, Python script, or CLI command", "text", "mixed", True, False, "automated"),
+        ("execute_macro", "Execute Macro", "core", "automate", "Run a pre-defined Keyboard Maestro or Raycast macro", "signal", "mixed", True, False, "autonomous"),
+        ("schedule_cron", "Schedule Cron", "core", "automate", "Register or modify a claudecron or launchd scheduled task", "object", "object", True, True, "assisted"),
+        # === CORE: verify (role_id=9) ===
+        ("validate_schema", "Validate Schema", "core", "verify", "Check data structure against defined schema constraints", "data", "data", False, False, "automated"),
+        ("run_tests", "Run Tests", "core", "verify", "Execute test suites and report pass/fail results", "signal", "data", False, False, "automated"),
+        ("check_integrity", "Check Integrity", "core", "verify", "Verify FK consistency, orphan checks, and data completeness", "data", "data", False, False, "automated"),
+        ("lint_code", "Lint Code", "core", "verify", "Run static analysis or style checks on source code", "file", "data", False, False, "automated"),
+        # === CORE: secure (role_id=10) ===
+        ("encrypt_data", "Encrypt Data", "core", "secure", "Apply encryption to sensitive data at rest or in transit", "data", "data", True, False, "automated"),
+        ("manage_credentials", "Manage Credentials", "core", "secure", "Store, retrieve, or update authentication credentials", "object", "object", True, True, "assisted"),
+        ("rotate_keys", "Rotate Keys", "core", "secure", "Generate new API keys and update all consuming services", "object", "object", True, True, "assisted"),
+        # === CORE: navigate (role_id=11) ===
+        ("browse_filesystem", "Browse Filesystem", "core", "navigate", "List and explore directory structures and file metadata", "text", "data", False, False, "automated"),
+        ("traverse_graph", "Traverse Graph", "core", "navigate", "Walk knowledge graph relationships in Neo4j or Graphiti", "text", "data", False, False, "automated"),
+        ("switch_context", "Switch Context", "core", "navigate", "Change active working directory, tmux pane, or agent focus", "signal", "signal", True, False, "assisted"),
+        # === CORE: edit (role_id=12) ===
+        ("modify_file", "Modify File", "core", "edit", "Make targeted changes to a specific file", "text", "file", True, False, "automated"),
+        ("refactor_code", "Refactor Code", "core", "edit", "Restructure code while preserving behavior", "file", "file", True, False, "assisted"),
+        ("merge_changes", "Merge Changes", "core", "edit", "Combine changes from branches, PRs, or agent outputs", "file", "file", True, False, "assisted"),
+        # === CORE: model (role_id=13) ===
+        ("run_inference", "Run Inference", "core", "model", "Send a prompt to an AI model and receive a response", "text", "text", False, False, "automated"),
+        ("embed_text", "Embed Text", "core", "model", "Generate vector embeddings from text content", "text", "data", False, False, "automated"),
+        ("fine_tune", "Fine-Tune Model", "core", "model", "Train or adapt a model on domain-specific data", "data", "object", True, True, "manual"),
+        # === CORE: deploy (role_id=14) ===
+        ("push_code", "Push Code", "core", "deploy", "Push committed changes to a remote git repository", "signal", "signal", True, False, "assisted"),
+        ("build_artifact", "Build Artifact", "core", "deploy", "Compile, bundle, or package a deployable artifact", "file", "file", True, False, "automated"),
+        ("release_version", "Release Version", "core", "deploy", "Tag and publish a versioned release", "signal", "signal", True, True, "assisted"),
+        # === CORE: monitor (role_id=15) ===
+        ("track_metrics", "Track Metrics", "core", "monitor", "Collect and record operational metrics over time", "data", "data", True, False, "autonomous"),
+        ("detect_anomaly", "Detect Anomaly", "core", "monitor", "Identify deviations from expected patterns or thresholds", "data", "signal", False, False, "autonomous"),
+        ("health_check", "Health Check", "core", "monitor", "Verify that services, agents, and pipelines are operational", "signal", "data", False, False, "autonomous"),
+        # === COMPOUND (7) ===
+        ("research_synthesize", "Research & Synthesize", "compound", None, "Search multiple sources, process findings, and produce a structured synthesis", "text", "text", True, False, "assisted"),
+        ("code_review", "Code Review", "compound", None, "Analyze code changes for correctness, style, security, and design", "file", "text", False, False, "assisted"),
+        ("clarescence", "Clarescence", "compound", None, "Multi-pass progressive refinement of a decision space to convergence", "text", "file", True, False, "assisted"),
+        ("blitzkrieg_dispatch", "Blitzkrieg Dispatch", "compound", None, "Parallel multi-agent task dispatch with coordination", "object", "signal", True, False, "assisted"),
+        ("metabolize_content", "Metabolize Content", "compound", None, "Capture, extract unique value, compress, and archive original", "file", "file", True, False, "assisted"),
+        ("corpus_survey", "Corpus Survey", "compound", None, "Comprehensive scan of vault or codebase for patterns and gaps", "text", "text", False, False, "assisted"),
+        ("pipeline_fusion", "Pipeline Fusion", "compound", None, "Wire together multiple automation stages into a continuous pipeline", "object", "object", True, True, "assisted"),
+        # === GOVERNANCE (7) ===
+        ("approve", "Approve", "governance", None, "Sovereign authorization gate for protected operations", "signal", "signal", True, True, "manual"),
+        ("delegate", "Delegate", "governance", None, "Assign responsibility for a task or domain to another agent", "object", "signal", True, False, "assisted"),
+        ("revoke", "Revoke", "governance", None, "Remove a permission, cancel a running task, or withdraw approval", "signal", "signal", True, True, "manual"),
+        ("sandbox_operation", "Sandbox Operation", "governance", None, "Isolate an operation in a safe execution environment", "object", "object", True, False, "automated"),
+        ("escalate", "Escalate", "governance", None, "Bump an issue to a higher authority or broader attention", "signal", "signal", True, False, "assisted"),
+        ("gate", "Gate", "governance", None, "Block progression until a specified condition is met", "signal", "signal", False, False, "automated"),
+        ("audit_trail", "Audit Trail", "governance", None, "Record a decision, action, or state change with full lineage", "data", "data", True, False, "automated"),
+        # === PERSONAL (7) ===
+        ("commit_to", "Commit To", "personal", None, "Accept an obligation or allocate resources to a commitment", "text", "object", True, True, "manual"),
+        ("decline", "Decline", "personal", None, "Refuse an obligation or request with recorded rationale", "text", "object", True, False, "manual"),
+        ("renegotiate", "Renegotiate", "personal", None, "Modify the terms, timeline, or scope of an existing commitment", "text", "object", True, True, "manual"),
+        ("allocate_attention", "Allocate Attention", "personal", None, "Direct cognitive resources to a specific domain or task", "signal", "signal", True, False, "manual"),
+        ("set_boundary", "Set Boundary", "personal", None, "Define operational limits on time, energy, or scope", "text", "object", True, False, "manual"),
+        ("recover_energy", "Recover Energy", "personal", None, "Schedule recovery time and reduce operational load", "signal", "signal", True, False, "manual"),
+        ("prioritize", "Prioritize", "personal", None, "Reorder the commitment stack based on current values and constraints", "data", "data", True, False, "assisted"),
+    ]
+
+    count = 0
+    for (code, name, category, parent_role_code, description,
+         input_type, output_type, write_back, requires_approval, automation_level) in action_types:
+        parent_role_id = role_map.get(parent_role_code) if parent_role_code else None
+        try:
+            cur.execute(
+                """INSERT INTO action_types
+                   (code, name, category, parent_role_id, description,
+                    input_type, output_type, write_back_capable, requires_approval, automation_level)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                (code, name, category, parent_role_id, description,
+                 input_type, output_type, write_back, requires_approval, automation_level),
+            )
+            count += 1
+        except sqlite3.IntegrityError as e:
+            print(f"  WARN: action_type {code}: {e}")
+    conn.commit()
+    return count
 
 
 def seed_app_actions(conn):
-    """Populate app_actions junction table — Phase B."""
-    # Placeholder: will be populated from Adjudicator's APP_ACTIONS.md artifact
-    pass
+    """Populate app_actions junction table — Phase B.
+
+    Maps 40 priority apps to action types with quality ratings.
+    ~230 rows covering primary app-action relationships.
+    """
+    cur = conn.cursor()
+
+    # Build lookups
+    cur.execute("SELECT id, slug FROM apps")
+    app_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    cur.execute("SELECT id, code FROM action_types")
+    action_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    # (app_slug, action_code, quality_rating, is_primary, automation_support, notes)
+    mappings = [
+        # Obsidian
+        ("obsidian", "capture_text", "excellent", True, "mcp", "Primary knowledge capture via vault notes"),
+        ("obsidian", "persist_file", "excellent", True, "mcp", "Native markdown file persistence"),
+        ("obsidian", "index_document", "good", False, "mcp", "Frontmatter + Dataview indexing"),
+        ("obsidian", "keyword_search", "excellent", True, "mcp", "Vault-wide search with Obsidian MCP"),
+        ("obsidian", "modify_file", "excellent", True, "mcp", "Edit notes via MCP write operations"),
+        ("obsidian", "render_markdown", "excellent", True, "native", "Native markdown rendering with plugins"),
+        ("obsidian", "browse_filesystem", "good", False, "mcp", "Vault directory traversal via MCP"),
+        # Neovim
+        ("neovim", "modify_file", "excellent", True, "cli", "Primary code editor with LSP integration"),
+        ("neovim", "refactor_code", "excellent", True, "cli", "LSP-powered refactoring"),
+        ("neovim", "lint_code", "excellent", True, "cli", "Integrated linting via conform.nvim/nvim-lint"),
+        ("neovim", "keyword_search", "good", False, "cli", "Telescope grep integration"),
+        ("neovim", "merge_changes", "good", False, "cli", "Diffview and fugitive for merge resolution"),
+        ("neovim", "browse_filesystem", "good", False, "cli", "Oil.nvim and neo-tree file navigation"),
+        # Claude Code
+        ("claude-code", "run_inference", "excellent", True, "cli", "Primary CLI agent for Opus 4.6 reasoning"),
+        ("claude-code", "modify_file", "excellent", True, "cli", "Edit tool for targeted file modifications"),
+        ("claude-code", "dispatch_task", "excellent", True, "cli", "Task tool for subagent dispatch"),
+        ("claude-code", "run_script", "excellent", True, "cli", "Bash tool for command execution"),
+        ("claude-code", "semantic_search", "good", False, "mcp", "Via Qdrant/Graphiti MCP servers"),
+        ("claude-code", "coordinate_agents", "excellent", True, "cli", "Native team and Task tool coordination"),
+        ("claude-code", "code_review", "excellent", True, "cli", "Inline code analysis and suggestions"),
+        ("claude-code", "generate_report", "excellent", True, "cli", "Structured output generation"),
+        # Cursor
+        ("cursor", "modify_file", "excellent", False, "native", "AI-assisted code editing with Cmd+K"),
+        ("cursor", "refactor_code", "excellent", False, "native", "AI-powered code refactoring"),
+        ("cursor", "run_inference", "good", False, "native", "Integrated chat with multiple models"),
+        ("cursor", "lint_code", "good", False, "native", "LSP integration for diagnostics"),
+        ("cursor", "code_review", "good", False, "native", "Inline code suggestions and review"),
+        # ChatGPT
+        ("chatgpt", "run_inference", "excellent", False, "api", "GPT-5/5.3-codex via desktop or web"),
+        ("chatgpt", "summarize", "excellent", False, "api", "Long document summarization"),
+        ("chatgpt", "research_synthesize", "good", False, "api", "Web-browsing research mode"),
+        ("chatgpt", "compose_message", "good", False, "api", "Draft messages and communications"),
+        ("chatgpt", "classify", "good", False, "api", "Content classification and tagging"),
+        # Notion
+        ("notion", "persist_file", "good", False, "api", "Document storage in Notion pages"),
+        ("notion", "generate_report", "good", False, "api", "Structured report pages with databases"),
+        ("notion", "post_update", "good", False, "api", "Status updates in Notion databases"),
+        ("notion", "capture_text", "good", False, "api", "Quick capture via web clipper or API"),
+        # Linear
+        ("linear", "post_update", "excellent", True, "mcp", "Primary issue tracker for T1a operations"),
+        ("linear", "dispatch_task", "good", False, "mcp", "Issue creation as task dispatch"),
+        ("linear", "track_metrics", "good", False, "mcp", "Cycle time and velocity tracking"),
+        ("linear", "query_database", "good", False, "mcp", "Issue queries via MCP/GraphQL"),
+        ("linear", "schedule_workflow", "basic", False, "mcp", "Workflow state automation"),
+        # ClickUp
+        ("clickup", "post_update", "good", False, "mcp", "T1b task tracking"),
+        ("clickup", "dispatch_task", "good", False, "mcp", "Task creation in ClickUp spaces"),
+        ("clickup", "track_metrics", "basic", False, "mcp", "Basic time and status tracking"),
+        ("clickup", "query_database", "good", False, "mcp", "Task queries via MCP API"),
+        # Git
+        ("git", "push_code", "excellent", True, "cli", "Primary VCS for all code operations"),
+        ("git", "merge_changes", "excellent", True, "cli", "Branch merging and conflict resolution"),
+        ("git", "archive_content", "good", False, "cli", "Version history as content archive"),
+        ("git", "check_integrity", "good", False, "cli", "Status, diff, and log verification"),
+        ("git", "release_version", "excellent", True, "cli", "Tag-based versioning"),
+        ("git", "audit_trail", "excellent", True, "cli", "Commit log as authoritative audit trail"),
+        # gh (GitHub CLI)
+        ("gh", "push_code", "good", False, "cli", "PR creation and management"),
+        ("gh", "code_review", "good", False, "cli", "PR review via gh pr review"),
+        ("gh", "post_update", "good", False, "cli", "Issue/PR comments and labels"),
+        ("gh", "query_database", "good", False, "cli", "API queries for repo metadata"),
+        ("gh", "release_version", "good", False, "cli", "GitHub Releases management"),
+        # lazygit
+        ("lazygit", "merge_changes", "excellent", False, "cli", "Visual git merge and rebase interface"),
+        ("lazygit", "browse_filesystem", "good", False, "cli", "Visual file staging and navigation"),
+        ("lazygit", "push_code", "good", False, "cli", "Interactive push with branch selection"),
+        ("lazygit", "check_integrity", "good", False, "cli", "Visual diff and status overview"),
+        # tmux
+        ("tmux", "switch_context", "excellent", True, "cli", "Primary pane/window context switching"),
+        ("tmux", "coordinate_agents", "good", False, "cli", "Multi-pane agent workspace management"),
+        ("tmux", "run_script", "good", False, "cli", "Send-keys for script execution in panes"),
+        # ghostty
+        ("ghostty", "run_script", "excellent", True, "native", "Primary terminal emulator for all CLI ops"),
+        ("ghostty", "switch_context", "good", False, "native", "Tab/split-based context switching"),
+        ("ghostty", "capture_text", "basic", False, "native", "Terminal output capture"),
+        # Raycast
+        ("raycast", "execute_macro", "excellent", True, "native", "Primary launcher and macro execution"),
+        ("raycast", "browse_web", "good", False, "native", "Quick web search and URL launching"),
+        ("raycast", "switch_context", "good", False, "native", "App switching and window management"),
+        ("raycast", "capture_text", "good", False, "native", "Clipboard history and snippets"),
+        ("raycast", "run_script", "good", False, "scripted", "Script commands and extensions"),
+        # Figma
+        ("figma", "render_markdown", "basic", False, "native", "Design artifact presentation"),
+        ("figma", "compose_message", "basic", False, "native", "Design annotation and commenting"),
+        ("figma", "capture_screenshot", "good", False, "native", "Design frame export"),
+        # Slack
+        ("slack", "send_message", "excellent", True, "api", "Primary team communication channel"),
+        ("slack", "notify_agent", "good", False, "api", "Webhook-based agent notifications"),
+        ("slack", "post_update", "good", False, "api", "Channel updates and thread replies"),
+        ("slack", "compose_message", "good", False, "native", "Message drafting with formatting"),
+        # Discord
+        ("discord", "send_message", "good", False, "api", "Community communication channel"),
+        ("discord", "notify_agent", "good", False, "api", "Bot-based notifications"),
+        ("discord", "post_update", "basic", False, "api", "Channel announcements"),
+        # Perplexity
+        ("perplexity", "browse_web", "excellent", True, "api", "Primary web research with citations"),
+        ("perplexity", "research_synthesize", "excellent", True, "api", "Multi-source research synthesis"),
+        ("perplexity", "summarize", "good", False, "api", "Source-backed summarization"),
+        ("perplexity", "query_database", "good", False, "api", "Structured knowledge queries"),
+        # Gemini CLI
+        ("gemini-cli", "run_inference", "excellent", False, "cli", "Gemini 2.5 Pro reasoning via CLI"),
+        ("gemini-cli", "corpus_survey", "excellent", True, "cli", "Long-context vault surveys (1M tokens)"),
+        ("gemini-cli", "summarize", "good", False, "cli", "Document summarization"),
+        ("gemini-cli", "research_synthesize", "good", False, "cli", "Multi-file synthesis"),
+        ("gemini-cli", "extract_entities", "good", False, "cli", "Entity extraction from large corpora"),
+        # Codex CLI
+        ("codex-cli", "run_inference", "good", False, "cli", "GPT-5.3-codex via Codex CLI"),
+        ("codex-cli", "modify_file", "good", False, "cli", "File editing with full-auto mode"),
+        ("codex-cli", "run_script", "good", False, "cli", "Command execution in sandbox"),
+        ("codex-cli", "validate_schema", "good", False, "cli", "Schema validation tasks"),
+        ("codex-cli", "lint_code", "good", False, "cli", "Code quality checks"),
+        # OpenClaw
+        ("openclaw", "run_inference", "good", False, "api", "Multi-model gateway for agent orchestration"),
+        ("openclaw", "coordinate_agents", "good", False, "api", "Agent management via OpenClaw framework"),
+        ("openclaw", "dispatch_task", "good", False, "api", "Task routing through gateway"),
+        ("openclaw", "send_message", "good", False, "api", "Inter-agent messaging via plugins"),
+        # Ollama
+        ("ollama", "run_inference", "good", False, "api", "Local model inference (Llama, etc.)"),
+        ("ollama", "embed_text", "good", False, "api", "Local embedding generation"),
+        ("ollama", "fine_tune", "basic", False, "api", "Model customization via Modelfile"),
+        # Docker Desktop
+        ("docker-desktop", "build_artifact", "excellent", True, "cli", "Container image building and management"),
+        ("docker-desktop", "release_version", "good", False, "cli", "Image versioning and registry push"),
+        ("docker-desktop", "health_check", "good", False, "cli", "Container health monitoring"),
+        ("docker-desktop", "sandbox_operation", "excellent", True, "cli", "Isolated execution environments"),
+        # ripgrep
+        ("ripgrep", "keyword_search", "excellent", False, "cli", "Ultra-fast content search across codebase"),
+        ("ripgrep", "check_integrity", "good", False, "cli", "Pattern verification in source files"),
+        # fzf
+        ("fzf", "browse_filesystem", "excellent", True, "cli", "Fuzzy file and content finder"),
+        ("fzf", "keyword_search", "good", False, "cli", "Interactive fuzzy search"),
+        ("fzf", "switch_context", "good", False, "cli", "Quick selection for context switching"),
+        # 1password
+        ("1password", "manage_credentials", "excellent", True, "cli", "Primary credential vault and manager"),
+        ("1password", "rotate_keys", "good", False, "cli", "Password and key rotation"),
+        ("1password", "encrypt_data", "good", False, "native", "Secure note and document encryption"),
+        ("1password", "audit_trail", "good", False, "native", "Access log and credential audit"),
+        # DEVONthink
+        ("devonthink", "index_document", "excellent", False, "scripted", "Advanced document indexing and AI classification"),
+        ("devonthink", "archive_content", "excellent", True, "scripted", "Long-term document archival with metadata"),
+        ("devonthink", "semantic_search", "good", False, "scripted", "AI-powered document search"),
+        ("devonthink", "capture_url", "good", False, "scripted", "Web archive and clipping"),
+        ("devonthink", "classify", "good", False, "scripted", "Auto-classification of documents"),
+        # Zotero
+        ("zotero", "capture_url", "excellent", True, "scripted", "Academic reference capture and management"),
+        ("zotero", "index_document", "good", False, "scripted", "Research paper indexing with metadata"),
+        ("zotero", "archive_content", "good", False, "scripted", "Reference library archival"),
+        # Airtable
+        ("airtable", "query_database", "excellent", True, "mcp", "Structured data queries via MCP"),
+        ("airtable", "persist_file", "good", False, "mcp", "Record creation and update"),
+        ("airtable", "generate_report", "good", False, "mcp", "View-based reporting"),
+        ("airtable", "track_metrics", "good", False, "mcp", "Dashboard and summary views"),
+        ("airtable", "classify", "good", False, "mcp", "Multi-select and linked record classification"),
+        # Keyboard Maestro
+        ("keyboard-maestro", "execute_macro", "excellent", False, "native", "Complex multi-step macro automation"),
+        ("keyboard-maestro", "trigger_webhook", "good", False, "native", "HTTP request actions in macros"),
+        ("keyboard-maestro", "run_script", "good", False, "native", "Script execution within macros"),
+        ("keyboard-maestro", "schedule_cron", "good", False, "native", "Time-based macro triggers"),
+        ("keyboard-maestro", "switch_context", "good", False, "native", "App/window manipulation macros"),
+        # Hazel
+        ("hazel", "archive_content", "excellent", True, "native", "Automated file organization and archival"),
+        ("hazel", "classify", "excellent", True, "native", "Rule-based file classification"),
+        ("hazel", "run_script", "good", False, "native", "Shell script actions on file events"),
+        # Things 3
+        ("things3", "dispatch_task", "good", False, "native", "Personal task creation and management"),
+        ("things3", "schedule_workflow", "good", False, "native", "Project and area organization"),
+        ("things3", "prioritize", "good", False, "native", "Today/upcoming priority management"),
+        ("things3", "commit_to", "good", False, "native", "Task acceptance and deadline setting"),
+        # Brave Browser
+        ("brave-browser", "browse_web", "excellent", False, "native", "Primary web browser with privacy"),
+        ("brave-browser", "capture_url", "good", False, "native", "Bookmark and reading list capture"),
+        ("brave-browser", "research_synthesize", "basic", False, "native", "Tab-based multi-source research"),
+        ("brave-browser", "capture_screenshot", "good", False, "native", "Full-page and region screenshots"),
+        # sesh
+        ("sesh", "switch_context", "excellent", False, "cli", "tmux session management and switching"),
+        # starship
+        ("starship", "render_markdown", "basic", False, "native", "Shell prompt context rendering"),
+        ("starship", "health_check", "basic", False, "native", "Git status and env indicators in prompt"),
+        # whisper-cpp
+        ("whisper-cpp", "capture_audio", "excellent", True, "cli", "Primary speech-to-text transcription"),
+        ("whisper-cpp", "transform_text", "good", False, "cli", "Audio-to-text format conversion"),
+        # bat
+        ("bat", "render_markdown", "good", False, "cli", "Syntax-highlighted file viewing"),
+        ("bat", "browse_filesystem", "good", False, "cli", "File content preview with line numbers"),
+        # fd
+        ("fd", "browse_filesystem", "excellent", False, "cli", "Fast file finding by name/pattern"),
+        # yazi
+        ("yazi", "browse_filesystem", "excellent", False, "cli", "Terminal file manager with preview"),
+        ("yazi", "switch_context", "good", False, "cli", "Directory navigation and switching"),
+        ("yazi", "persist_file", "basic", False, "cli", "File move/copy/rename operations"),
+        # atuin
+        ("atuin", "audit_trail", "excellent", True, "cli", "Shell command history with context"),
+        ("atuin", "keyword_search", "good", False, "cli", "Fuzzy search across command history"),
+        ("atuin", "query_database", "good", False, "cli", "SQLite-backed history queries"),
+    ]
+
+    count = 0
+    for (app_slug, action_code, quality_rating, is_primary,
+         automation_support, notes) in mappings:
+        app_id = app_map.get(app_slug)
+        action_id = action_map.get(action_code)
+        if not app_id:
+            print(f"  WARN: app_actions - unknown app slug: {app_slug}")
+            continue
+        if not action_id:
+            print(f"  WARN: app_actions - unknown action code: {action_code}")
+            continue
+        try:
+            cur.execute(
+                """INSERT INTO app_actions
+                   (app_id, action_type_id, quality_rating, is_primary, automation_support, notes)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
+                (app_id, action_id, quality_rating, is_primary, automation_support, notes),
+            )
+            count += 1
+        except sqlite3.IntegrityError as e:
+            print(f"  WARN: app_actions {app_slug}/{action_code}: {e}")
+    conn.commit()
+    return count
 
 
 def seed_agent_bindings(conn):
-    """Populate agent_bindings — Phase B."""
-    # Placeholder: will be populated from Adjudicator's AGENT_BINDINGS.md artifact
-    pass
+    """Populate agent_bindings — Phase B.
+
+    Maps 6 Constellation agents to app-action bindings.
+    ~120 rows covering primary, secondary, fallback, and experimental bindings.
+    """
+    cur = conn.cursor()
+
+    # Build lookups
+    cur.execute("SELECT id, slug FROM apps")
+    app_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    cur.execute("SELECT id, code FROM action_types")
+    action_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    # (agent_code, app_slug, action_code, binding_strength, invocation_method, frequency, notes)
+    bindings = [
+        # === SOVEREIGN (human, GUI interactions) ===
+        ("sovereign", "obsidian", "capture_text", "primary", "gui", "constant", "Primary knowledge capture interface"),
+        ("sovereign", "obsidian", "modify_file", "primary", "gui", "frequent", "Direct note editing in vault"),
+        ("sovereign", "obsidian", "keyword_search", "primary", "gui", "frequent", "Vault search for decision context"),
+        ("sovereign", "obsidian", "approve", "primary", "gui", "frequent", "Sovereign authorization gate via vault decisions"),
+        ("sovereign", "obsidian", "allocate_attention", "primary", "gui", "constant", "Direct cognitive resources via vault planning"),
+        ("sovereign", "obsidian", "set_boundary", "primary", "gui", "periodic", "Define operational limits in vault notes"),
+        ("sovereign", "brave-browser", "browse_web", "primary", "gui", "frequent", "Web research and information gathering"),
+        ("sovereign", "brave-browser", "capture_url", "primary", "gui", "frequent", "Bookmark strategic references"),
+        ("sovereign", "slack", "send_message", "primary", "gui", "frequent", "Team and external communication"),
+        ("sovereign", "slack", "compose_message", "primary", "gui", "frequent", "Draft communications"),
+        ("sovereign", "discord", "send_message", "secondary", "gui", "periodic", "Community engagement"),
+        ("sovereign", "things3", "dispatch_task", "primary", "gui", "frequent", "Personal task management"),
+        ("sovereign", "things3", "prioritize", "primary", "gui", "frequent", "Daily priority decisions"),
+        ("sovereign", "things3", "commit_to", "primary", "gui", "frequent", "Accept obligations with deadlines"),
+        ("sovereign", "things3", "decline", "primary", "gui", "periodic", "Refuse obligations via task rejection"),
+        ("sovereign", "things3", "renegotiate", "primary", "gui", "periodic", "Modify commitment terms via task updates"),
+        ("sovereign", "notion", "capture_text", "secondary", "gui", "periodic", "Supplementary knowledge capture"),
+        ("sovereign", "notion", "generate_report", "secondary", "gui", "periodic", "Report viewing and annotation"),
+        ("sovereign", "linear", "post_update", "secondary", "gui", "periodic", "Review and update Linear issues"),
+        ("sovereign", "clickup", "post_update", "secondary", "gui", "periodic", "Review T1b task status"),
+        ("sovereign", "figma", "render_markdown", "secondary", "gui", "rare", "Design review and annotation"),
+        # === COMMANDER (Claude Opus 4.6, multi-tool MCP) ===
+        ("commander", "claude-code", "run_inference", "primary", "cli", "constant", "Primary reasoning engine"),
+        ("commander", "claude-code", "modify_file", "primary", "cli", "constant", "File editing via Edit tool"),
+        ("commander", "claude-code", "dispatch_task", "primary", "cli", "frequent", "Subagent and team dispatch"),
+        ("commander", "claude-code", "run_script", "primary", "cli", "constant", "Bash command execution"),
+        ("commander", "claude-code", "coordinate_agents", "primary", "cli", "frequent", "Multi-agent coordination"),
+        ("commander", "claude-code", "code_review", "primary", "cli", "frequent", "Code analysis and review"),
+        ("commander", "claude-code", "generate_report", "primary", "cli", "frequent", "Structured report generation"),
+        ("commander", "claude-code", "research_synthesize", "primary", "cli", "frequent", "Multi-source research"),
+        ("commander", "claude-code", "clarescence", "primary", "cli", "periodic", "Decision space refinement"),
+        ("commander", "obsidian", "capture_text", "primary", "mcp", "frequent", "Vault writes via Obsidian MCP"),
+        ("commander", "obsidian", "keyword_search", "primary", "mcp", "frequent", "Vault search via MCP"),
+        ("commander", "obsidian", "modify_file", "primary", "mcp", "frequent", "Note editing via MCP"),
+        ("commander", "linear", "post_update", "primary", "mcp", "frequent", "T1a issue management via MCP"),
+        ("commander", "linear", "query_database", "primary", "mcp", "frequent", "Issue queries via GraphQL"),
+        ("commander", "linear", "dispatch_task", "secondary", "mcp", "periodic", "Issue creation as task proxy"),
+        ("commander", "clickup", "post_update", "primary", "mcp", "periodic", "T1b task updates via MCP"),
+        ("commander", "clickup", "query_database", "primary", "mcp", "periodic", "Task queries via API"),
+        ("commander", "git", "push_code", "primary", "cli", "frequent", "Code commits and pushes"),
+        ("commander", "git", "merge_changes", "primary", "cli", "periodic", "Branch management"),
+        ("commander", "git", "check_integrity", "primary", "cli", "constant", "Status verification"),
+        ("commander", "git", "audit_trail", "primary", "cli", "constant", "Commit log management"),
+        ("commander", "gh", "push_code", "secondary", "cli", "periodic", "PR creation and management"),
+        ("commander", "gh", "code_review", "secondary", "cli", "periodic", "PR review operations"),
+        ("commander", "ripgrep", "keyword_search", "primary", "cli", "constant", "Codebase text search"),
+        ("commander", "fzf", "browse_filesystem", "secondary", "cli", "frequent", "Fuzzy file finding"),
+        ("commander", "tmux", "switch_context", "primary", "cli", "frequent", "Pane and session management"),
+        ("commander", "tmux", "coordinate_agents", "secondary", "cli", "periodic", "Multi-pane workspace ops"),
+        ("commander", "airtable", "query_database", "secondary", "mcp", "periodic", "Structured data queries"),
+        ("commander", "docker-desktop", "sandbox_operation", "secondary", "cli", "periodic", "Container-based isolation"),
+        ("commander", "docker-desktop", "health_check", "secondary", "cli", "periodic", "Service health monitoring"),
+        # === ADJUDICATOR (Codex CLI, GPT-5.3-codex) ===
+        ("adjudicator", "codex-cli", "run_inference", "primary", "cli", "constant", "Primary reasoning via GPT-5.3-codex"),
+        ("adjudicator", "codex-cli", "modify_file", "primary", "cli", "constant", "File editing in full-auto mode"),
+        ("adjudicator", "codex-cli", "run_script", "primary", "cli", "frequent", "Command execution"),
+        ("adjudicator", "codex-cli", "validate_schema", "primary", "cli", "frequent", "Schema and data validation"),
+        ("adjudicator", "codex-cli", "lint_code", "primary", "cli", "frequent", "Code quality enforcement"),
+        ("adjudicator", "codex-cli", "run_tests", "primary", "cli", "frequent", "Test suite execution via Codex CLI"),
+        ("adjudicator", "codex-cli", "check_integrity", "primary", "cli", "frequent", "Data integrity verification via Codex CLI"),
+        ("adjudicator", "git", "push_code", "primary", "cli", "frequent", "Commit and push completed work"),
+        ("adjudicator", "git", "check_integrity", "primary", "cli", "constant", "Working tree verification"),
+        ("adjudicator", "git", "audit_trail", "secondary", "cli", "frequent", "Commit log entries"),
+        ("adjudicator", "neovim", "modify_file", "secondary", "cli", "periodic", "Direct file editing when needed"),
+        ("adjudicator", "neovim", "refactor_code", "secondary", "cli", "periodic", "Code restructuring"),
+        ("adjudicator", "neovim", "lint_code", "secondary", "cli", "periodic", "LSP diagnostics"),
+        ("adjudicator", "ripgrep", "keyword_search", "primary", "cli", "constant", "Pattern search for validation"),
+        ("adjudicator", "ripgrep", "check_integrity", "secondary", "cli", "frequent", "Reference verification"),
+        ("adjudicator", "fd", "browse_filesystem", "primary", "cli", "frequent", "Fast file discovery"),
+        ("adjudicator", "bat", "render_markdown", "secondary", "cli", "frequent", "Syntax-highlighted file review"),
+        ("adjudicator", "bat", "browse_filesystem", "secondary", "cli", "frequent", "File content inspection"),
+        # === CARTOGRAPHER (Gemini CLI, Gemini 2.5 Pro) ===
+        ("cartographer", "gemini-cli", "run_inference", "primary", "cli", "constant", "Primary reasoning via Gemini 2.5 Pro"),
+        ("cartographer", "gemini-cli", "corpus_survey", "primary", "cli", "frequent", "Long-context vault surveys"),
+        ("cartographer", "gemini-cli", "summarize", "primary", "cli", "frequent", "Document distillation"),
+        ("cartographer", "gemini-cli", "research_synthesize", "primary", "cli", "frequent", "Multi-source synthesis"),
+        ("cartographer", "gemini-cli", "extract_entities", "primary", "cli", "periodic", "Entity extraction from corpora"),
+        ("cartographer", "obsidian", "keyword_search", "secondary", "mcp", "frequent", "Vault search for survey context"),
+        ("cartographer", "obsidian", "capture_text", "secondary", "mcp", "periodic", "Survey result persistence"),
+        ("cartographer", "ripgrep", "keyword_search", "primary", "cli", "constant", "Codebase content search"),
+        ("cartographer", "fd", "browse_filesystem", "primary", "cli", "frequent", "File discovery for surveys"),
+        ("cartographer", "git", "check_integrity", "secondary", "cli", "periodic", "Repo state verification"),
+        ("cartographer", "git", "audit_trail", "secondary", "cli", "periodic", "History analysis"),
+        ("cartographer", "perplexity", "browse_web", "secondary", "api", "periodic", "Web research for intelligence"),
+        ("cartographer", "perplexity", "research_synthesize", "secondary", "api", "periodic", "External source synthesis"),
+        # === PSYCHE (OpenClaw, GPT-5.3-codex) ===
+        ("psyche", "openclaw", "run_inference", "primary", "api", "constant", "GPT-5.3-codex via OpenClaw gateway"),
+        ("psyche", "openclaw", "coordinate_agents", "primary", "api", "frequent", "Agent management via OpenClaw"),
+        ("psyche", "openclaw", "dispatch_task", "primary", "api", "frequent", "Task routing through gateway"),
+        ("psyche", "openclaw", "send_message", "primary", "api", "frequent", "Inter-agent messaging"),
+        ("psyche", "openclaw", "trigger_webhook", "secondary", "api", "periodic", "Automation triggers via OpenClaw"),
+        ("psyche", "openclaw", "schedule_cron", "secondary", "api", "rare", "Automation scheduling via OpenClaw"),
+        ("psyche", "openclaw", "pipeline_fusion", "primary", "api", "periodic", "Pipeline wiring via OpenClaw"),
+        ("psyche", "openclaw", "run_script", "secondary", "cli", "frequent", "System cohesion scripts via OpenClaw"),
+        ("psyche", "openclaw", "health_check", "secondary", "cli", "periodic", "Service monitoring via OpenClaw"),
+        ("psyche", "git", "push_code", "secondary", "cli", "periodic", "Commit system cohesion changes"),
+        ("psyche", "git", "check_integrity", "secondary", "cli", "frequent", "Repo state verification"),
+        ("psyche", "obsidian", "modify_file", "secondary", "mcp", "periodic", "Vault writes via MCP adapter"),
+        ("psyche", "obsidian", "keyword_search", "secondary", "mcp", "periodic", "Vault search for policy context"),
+        # === AJNA (OpenClaw on MBA, Kimi K2.5) ===
+        ("ajna", "openclaw", "run_inference", "primary", "api", "constant", "Kimi K2.5 via NVIDIA NIM API"),
+        ("ajna", "openclaw", "coordinate_agents", "primary", "api", "frequent", "Strategic dispatch optimization"),
+        ("ajna", "openclaw", "dispatch_task", "secondary", "api", "periodic", "Strategic task routing"),
+        ("ajna", "openclaw", "clarescence", "secondary", "api", "periodic", "Strategic decision refinement via OpenClaw"),
+        ("ajna", "openclaw", "prioritize", "primary", "api", "frequent", "Strategic priority reordering via OpenClaw"),
+        ("ajna", "openclaw", "allocate_attention", "secondary", "api", "periodic", "Macro attention allocation via OpenClaw"),
+        ("ajna", "openclaw", "research_synthesize", "secondary", "api", "periodic", "Strategic research synthesis via OpenClaw"),
+        ("ajna", "openclaw", "blitzkrieg_dispatch", "experimental", "api", "rare", "Parallel strategic dispatch via OpenClaw"),
+        ("ajna", "git", "push_code", "secondary", "cli", "periodic", "MBA-side commits"),
+        ("ajna", "git", "check_integrity", "secondary", "cli", "frequent", "MBA repo state verification"),
+        ("ajna", "obsidian", "keyword_search", "experimental", "mcp", "rare", "Vault search (MBA MCP pending config)"),
+    ]
+
+    count = 0
+    for (agent_code, app_slug, action_code, binding_strength,
+         invocation_method, frequency, notes) in bindings:
+        app_id = app_map.get(app_slug)
+        action_id = action_map.get(action_code)
+        if not app_id:
+            print(f"  WARN: agent_bindings - unknown app slug: {app_slug}")
+            continue
+        if not action_id:
+            print(f"  WARN: agent_bindings - unknown action code: {action_code}")
+            continue
+        try:
+            cur.execute(
+                """INSERT INTO agent_bindings
+                   (agent_code, app_id, action_type_id, binding_strength,
+                    invocation_method, frequency, notes)
+                   VALUES (?, ?, ?, ?, ?, ?, ?)""",
+                (agent_code, app_id, action_id, binding_strength,
+                 invocation_method, frequency, notes),
+            )
+            count += 1
+        except sqlite3.IntegrityError as e:
+            print(f"  WARN: agent_bindings {agent_code}/{app_slug}/{action_code}: {e}")
+    conn.commit()
+    return count
 
 
 def seed_workflow_templates(conn):
-    """Populate workflow_templates — Phase B."""
-    # Placeholder: will be populated from Adjudicator's WORKFLOW_TEMPLATES.md artifact
-    pass
+    """Populate workflow_templates — Phase B.
+
+    11 templates: 6 formalized from existing apparatus + 5 new.
+    """
+    cur = conn.cursor()
+
+    # Build apparatus lookup
+    cur.execute("SELECT id, code FROM apparatus")
+    apparatus_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    # (code, name, description, apparatus_code_or_None, use_frequency, avg_duration_minutes)
+    templates = [
+        ("wf_research", "Research & Synthesis", "Multi-source research with structured synthesis output", "research_apparatus", "frequent", 45),
+        ("wf_writing", "Writing & Publishing", "Draft, refine, review, and publish written content", "writing_apparatus", "frequent", 60),
+        ("wf_coding", "Software Development", "Implement, test, review, and deploy code changes", "coding_apparatus", "constant", 90),
+        ("wf_design", "Design & Creation", "Create, iterate, and finalize design artifacts", "design_apparatus", "periodic", 120),
+        ("wf_analysis", "Data Analysis", "Collect, process, analyze, and present data insights", "analysis_apparatus", "frequent", 30),
+        ("wf_communication", "Communication & Collaboration", "Draft, review, send, and follow up on communications", "communication_apparatus", "constant", 15),
+        ("wf_orchestration", "Agent Orchestration", "Dispatch, coordinate, and collect results from multiple agents", None, "constant", 20),
+        ("wf_sensing", "Sensing & Intelligence", "Detect changes, ingest signals, classify, and route to handlers", None, "frequent", 10),
+        ("wf_deployment", "Build & Deployment", "Build artifacts, run checks, version, and deploy to targets", None, "periodic", 30),
+        ("wf_maintenance", "System Maintenance", "Health check, diagnose, fix, and verify system components", None, "periodic", 25),
+        ("wf_clarescence", "Clarescence Protocol", "Multi-pass progressive refinement of a decision space", None, "periodic", 40),
+    ]
+
+    count = 0
+    for (code, name, description, apparatus_code, use_frequency, avg_duration) in templates:
+        apparatus_id = apparatus_map.get(apparatus_code) if apparatus_code else None
+        try:
+            cur.execute(
+                """INSERT INTO workflow_templates
+                   (code, name, description, apparatus_id, use_frequency, average_duration_minutes)
+                   VALUES (?, ?, ?, ?, ?, ?)""",
+                (code, name, description, apparatus_id, use_frequency, avg_duration),
+            )
+            count += 1
+        except sqlite3.IntegrityError as e:
+            print(f"  WARN: workflow_templates {code}: {e}")
+    conn.commit()
+    return count
 
 
 def seed_workflow_steps(conn):
-    """Populate workflow_steps — Phase B."""
-    # Placeholder: will be populated from Adjudicator's WORKFLOW_TEMPLATES.md artifact
-    pass
+    """Populate workflow_steps — Phase B.
+
+    72 steps across 11 workflow templates.
+    """
+    cur = conn.cursor()
+
+    # Build lookups
+    cur.execute("SELECT id, code FROM workflow_templates")
+    wf_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    cur.execute("SELECT id, slug FROM apps")
+    app_map = {row[1]: row[0] for row in cur.fetchall()}
+
+    # (workflow_code, step_number, app_slug, action_description,
+    #  input_from_previous, output_to_next, avg_duration_minutes, notes)
+    steps = [
+        # wf_research (7 steps)
+        ("wf_research", 1, "obsidian", "Define research question and scope in vault note", "none", "research brief", 5, "Capture objective and boundaries"),
+        ("wf_research", 2, "perplexity", "Search web for primary sources with citations", "research brief", "source list", 10, "Use focused queries from brief"),
+        ("wf_research", 3, "gemini-cli", "Deep-read and extract entities from long sources", "source list", "extracted data", 10, "Leverage 1M token context"),
+        ("wf_research", 4, "claude-code", "Synthesize findings into structured analysis", "extracted data", "synthesis draft", 10, "Cross-reference multiple sources"),
+        ("wf_research", 5, "obsidian", "Persist synthesis as canonical vault document", "synthesis draft", "vault document", 5, "Apply frontmatter and tags"),
+        ("wf_research", 6, "git", "Commit research artifact with semantic prefix", "vault document", "committed file", 2, "docs: or feat: prefix"),
+        ("wf_research", 7, "linear", "Update relevant SYN issue with research outcome", "committed file", "issue updated", 3, "Link commit to issue"),
+        # wf_writing (7 steps)
+        ("wf_writing", 1, "obsidian", "Create draft document with outline structure", "none", "outline", 5, "Use templates for structure"),
+        ("wf_writing", 2, "claude-code", "Generate first draft from outline and context", "outline", "first draft", 15, "Provide relevant vault context"),
+        ("wf_writing", 3, "neovim", "Edit and refine draft for voice and precision", "first draft", "refined draft", 15, "Human-in-the-loop editing"),
+        ("wf_writing", 4, "claude-code", "Review for coherence, style, and completeness", "refined draft", "review notes", 10, "Check against standards"),
+        ("wf_writing", 5, "neovim", "Apply final edits from review feedback", "review notes", "final draft", 10, "Sovereign review if needed"),
+        ("wf_writing", 6, "git", "Commit final document to repository", "final draft", "committed file", 2, "docs: prefix"),
+        ("wf_writing", 7, "obsidian", "Cross-link document to related vault notes", "committed file", "linked document", 3, "Update backlinks and tags"),
+        # wf_coding (8 steps)
+        ("wf_coding", 1, "claude-code", "Analyze requirements and design implementation plan", "none", "implementation plan", 10, "Read relevant code first"),
+        ("wf_coding", 2, "claude-code", "Implement code changes across target files", "implementation plan", "code changes", 30, "Edit tool for precise modifications"),
+        ("wf_coding", 3, "codex-cli", "Run test suite and validate changes", "code changes", "test results", 10, "Adjudicator validation"),
+        ("wf_coding", 4, "ripgrep", "Verify no broken references or orphaned code", "test results", "integrity report", 5, "grep for removed identifiers"),
+        ("wf_coding", 5, "neovim", "Manual review and refinement of edge cases", "integrity report", "reviewed code", 15, "Human review for complex changes"),
+        ("wf_coding", 6, "git", "Stage and commit with semantic message", "reviewed code", "commit", 5, "feat:/fix:/refactor: prefix"),
+        ("wf_coding", 7, "gh", "Create PR if branch-based workflow", "commit", "pull request", 5, "Include test evidence"),
+        ("wf_coding", 8, "linear", "Update SYN issue status and link commit", "pull request", "issue updated", 5, "Close or advance issue"),
+        # wf_design (7 steps)
+        ("wf_design", 1, "obsidian", "Capture design brief and requirements", "none", "design brief", 10, "Reference existing patterns"),
+        ("wf_design", 2, "figma", "Create initial design mockups and wireframes", "design brief", "mockups", 40, "Iterate on layout and hierarchy"),
+        ("wf_design", 3, "claude-code", "Review design against system patterns and constraints", "mockups", "design feedback", 15, "Check consistency with Canon"),
+        ("wf_design", 4, "figma", "Refine design based on feedback", "design feedback", "refined design", 30, "Apply systematic corrections"),
+        ("wf_design", 5, "obsidian", "Document design decisions and rationale", "refined design", "design doc", 15, "Persist to vault"),
+        ("wf_design", 6, "git", "Commit design documentation", "design doc", "committed file", 5, "docs: prefix"),
+        ("wf_design", 7, "linear", "Update project issue with design artifacts", "committed file", "issue updated", 5, "Link to design files"),
+        # wf_analysis (6 steps)
+        ("wf_analysis", 1, "airtable", "Query structured data from relevant bases", "none", "raw data", 5, "Use MCP for queries"),
+        ("wf_analysis", 2, "claude-code", "Process and transform data for analysis", "raw data", "processed data", 5, "Clean and normalize"),
+        ("wf_analysis", 3, "claude-code", "Run analytical queries and compute metrics", "processed data", "analysis results", 10, "Statistical summaries"),
+        ("wf_analysis", 4, "claude-code", "Generate structured report with findings", "analysis results", "analysis report", 5, "Markdown tables and charts"),
+        ("wf_analysis", 5, "obsidian", "Persist analysis report to vault", "analysis report", "vault document", 3, "Apply appropriate tags"),
+        ("wf_analysis", 6, "git", "Commit analysis artifact", "vault document", "committed file", 2, "docs: or feat: prefix"),
+        # wf_communication (6 steps)
+        ("wf_communication", 1, "obsidian", "Draft communication content and key points", "none", "draft content", 3, "Reference relevant context"),
+        ("wf_communication", 2, "claude-code", "Refine message for audience and channel", "draft content", "refined message", 3, "Adjust tone and format"),
+        ("wf_communication", 3, "slack", "Send message to appropriate channel or DM", "refined message", "sent message", 2, "Or discord/email as needed"),
+        ("wf_communication", 4, "linear", "Log communication outcome if project-relevant", "sent message", "logged event", 2, "Update issue if applicable"),
+        ("wf_communication", 5, "obsidian", "Archive significant communications in vault", "logged event", "archived record", 3, "For decisions and agreements"),
+        ("wf_communication", 6, "atuin", "Command history preserves execution context", "archived record", "history entry", 2, "Automatic via shell integration"),
+        # wf_orchestration (6 steps)
+        ("wf_orchestration", 1, "claude-code", "Assess task scope and decompose into subtasks", "none", "task decomposition", 3, "Identify parallelizable work"),
+        ("wf_orchestration", 2, "claude-code", "Dispatch tasks to appropriate agents via inbox", "task decomposition", "dispatched tasks", 3, "Use dispatch.sh or Task tool"),
+        ("wf_orchestration", 3, "tmux", "Monitor agent panes for progress signals", "dispatched tasks", "progress signals", 5, "Visual monitoring across panes"),
+        ("wf_orchestration", 4, "claude-code", "Collect and integrate results from agents", "progress signals", "integrated results", 5, "Read RESULT/CONFIRM files"),
+        ("wf_orchestration", 5, "git", "Commit integrated results", "integrated results", "committed files", 2, "Merge agent contributions"),
+        ("wf_orchestration", 6, "linear", "Update tracking with orchestration outcome", "committed files", "issues updated", 2, "Close or advance issues"),
+        # wf_sensing (5 steps)
+        ("wf_sensing", 1, "ripgrep", "Scan filesystem for new or changed signals", "none", "change list", 2, "Monitor inbox and state files"),
+        ("wf_sensing", 2, "claude-code", "Classify signal type and urgency", "change list", "classified signals", 2, "Route P0 immediately"),
+        ("wf_sensing", 3, "obsidian", "Log signal to appropriate dynamic ledger", "classified signals", "ledger entry", 2, "DYN-GLOBAL_LEDGER.md"),
+        ("wf_sensing", 4, "claude-code", "Route actionable signals to handler agents", "ledger entry", "dispatched actions", 2, "Trigger workflows or tasks"),
+        ("wf_sensing", 5, "linear", "Create issue if signal warrants T1a tracking", "dispatched actions", "issue created", 2, "P0/P1 signals only"),
+        # wf_deployment (7 steps)
+        ("wf_deployment", 1, "claude-code", "Verify all changes committed and tests passing", "none", "readiness check", 3, "Pre-deployment validation"),
+        ("wf_deployment", 2, "docker-desktop", "Build container image or artifact package", "readiness check", "build artifact", 5, "Versioned build"),
+        ("wf_deployment", 3, "codex-cli", "Run deployment validation suite", "build artifact", "validation results", 5, "Schema, lint, integrity checks"),
+        ("wf_deployment", 4, "git", "Tag release version and push", "validation results", "tagged release", 3, "Semantic versioning"),
+        ("wf_deployment", 5, "gh", "Create GitHub release with changelog", "tagged release", "published release", 5, "Include build artifacts"),
+        ("wf_deployment", 6, "claude-code", "Verify deployment health post-release", "published release", "health report", 5, "Run health checks"),
+        ("wf_deployment", 7, "linear", "Close deployment issue and update project", "health report", "issue closed", 4, "Link release to issue"),
+        # wf_maintenance (6 steps)
+        ("wf_maintenance", 1, "claude-code", "Run health checks across all services", "none", "health report", 3, "8 services + launchd agents"),
+        ("wf_maintenance", 2, "docker-desktop", "Check container status and resource usage", "health report", "container status", 3, "Neo4j, Graphiti, Qdrant"),
+        ("wf_maintenance", 3, "claude-code", "Diagnose any failing services or anomalies", "container status", "diagnosis", 5, "Root cause analysis"),
+        ("wf_maintenance", 4, "claude-code", "Apply fixes for diagnosed issues", "diagnosis", "fixes applied", 8, "Restart, config change, patch"),
+        ("wf_maintenance", 5, "codex-cli", "Verify fixes and run regression checks", "fixes applied", "verification report", 4, "Adjudicator validation"),
+        ("wf_maintenance", 6, "git", "Commit maintenance changes", "verification report", "committed fixes", 2, "fix: prefix"),
+        # wf_clarescence (7 steps)
+        ("wf_clarescence", 1, "claude-code", "Orient and situate: read Triumvirate, git status, inbox", "none", "orientation context", 5, "Pass 0: mandatory grounding"),
+        ("wf_clarescence", 2, "claude-code", "Calibrate against intentions and verify current state", "orientation context", "calibration data", 5, "Pass 1: Triumvirate Calibration"),
+        ("wf_clarescence", 3, "claude-code", "Run 18-lens sweep scoring pass/fail per lens", "calibration data", "lens scores", 8, "Pass 2: require >= 12/18"),
+        ("wf_clarescence", 4, "obsidian", "Check Canon coherence and flag stale documents", "lens scores", "coherence report", 5, "Pass 3: Canon alignment"),
+        ("wf_clarescence", 5, "claude-code", "Run remaining passes based on fidelity level", "coherence report", "analysis results", 10, "Passes 4-10 as needed"),
+        ("wf_clarescence", 6, "obsidian", "Write clarescence record to impl/clarescence/", "analysis results", "clarescence record", 5, "Structured markdown artifact"),
+        ("wf_clarescence", 7, "git", "Commit clarescence record", "clarescence record", "committed file", 2, "docs: prefix"),
+    ]
+
+    count = 0
+    for (wf_code, step_number, app_slug, action_description,
+         input_from, output_to, avg_duration, notes) in steps:
+        wf_id = wf_map.get(wf_code)
+        app_id = app_map.get(app_slug)
+        if not wf_id:
+            print(f"  WARN: workflow_steps - unknown workflow: {wf_code}")
+            continue
+        if not app_id:
+            print(f"  WARN: workflow_steps - unknown app slug: {app_slug}")
+            continue
+        try:
+            cur.execute(
+                """INSERT INTO workflow_steps
+                   (workflow_id, step_number, app_id, action_description,
+                    input_from_previous_step, output_to_next_step, average_duration_minutes, notes)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                (wf_id, step_number, app_id, action_description,
+                 input_from, output_to, avg_duration, notes),
+            )
+            count += 1
+        except sqlite3.IntegrityError as e:
+            print(f"  WARN: workflow_steps {wf_code}/{step_number}: {e}")
+    conn.commit()
+    return count
 
 
 def validate_integrity(conn):
