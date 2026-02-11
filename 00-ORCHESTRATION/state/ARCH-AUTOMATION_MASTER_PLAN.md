@@ -170,4 +170,66 @@ AGENT PROCESSING
 
 ---
 
-*Automation Master Plan v1.0.0 | INT-1612 | SYN-45 | Syncrescendence*
+## VII. Sensing Schedule
+
+Automated sensing tasks dispatched on recurring schedules via launchd. Each task uses a template from `00-ORCHESTRATION/state/impl/sensing/` and is dispatched through `dispatch.sh` to the designated agent.
+
+### Schedule Table
+
+| Template | Agent | Frequency | Schedule | launchd Agent Name | Status | Next Steps |
+|----------|-------|-----------|----------|-------------------|--------|------------|
+| `TEMPLATE-frontier-scan.md` | Cartographer | Weekly | Sunday 06:00 | `com.syncrescendence.sensing-frontier-scan` | DESIGNED | Create plist, smoke test Cartographer CLI |
+| `TEMPLATE-ecosystem-health.md` | Adjudicator | Daily | 08:00 | `com.syncrescendence.sensing-ecosystem-health` | PLIST READY | Bootstrap plist, smoke test Adjudicator CLI |
+| `TEMPLATE-linear-impl-sync.md` | Commander | Daily | 07:30 | `com.syncrescendence.sensing-linear-impl-sync` | DESIGNED | Create plist (Commander CLI already operational) |
+| `TEMPLATE-corpus-staleness.md` | Cartographer | Weekly | Monday 05:30 | `com.syncrescendence.sensing-corpus-staleness` | DESIGNED | Create plist, smoke test Cartographer CLI |
+
+### Sensing Pipeline Flow
+
+```
+launchd (StartCalendarInterval)
+    |
+    v
+dispatch.sh <agent> <topic> <description>
+    |
+    v
+-INBOX/<agent>/00-INBOX0/TASK-*.md
+    |
+    v
+watch_dispatch.sh (fswatch/polling)
+    |
+    v
+Agent CLI executes task content
+    |
+    v
+RESULT-*.md + CONFIRM-*.md -> Commander inbox
+    |
+    v
+Ledger files updated (DYN-*.md, REF-*.md)
+```
+
+### Dependencies & Blockers
+
+| Template | Blocker | Resolution |
+|----------|---------|-----------|
+| frontier-scan | Cartographer CLI needs smoke test (Wave 1b) | Verify `gemini -p` produces output from dispatch |
+| ecosystem-health | Adjudicator CLI model config (Wave 1a) | Verify `codex exec` with current model |
+| linear-impl-sync | None (Commander CLI operational) | Ready to activate |
+| corpus-staleness | Cartographer CLI needs smoke test (Wave 1b) | Same as frontier-scan |
+
+### Activation Sequence
+
+1. **Immediate**: Bootstrap `com.syncrescendence.sensing-ecosystem-health.plist` (proof of concept, plist already created)
+2. **After Wave 1a**: Activate ecosystem-health sensing (Adjudicator CLI verified)
+3. **After Wave 1b**: Activate frontier-scan and corpus-staleness (Cartographer CLI verified)
+4. **Independent**: Activate linear-impl-sync (Commander CLI already works)
+
+### Metrics Impact
+
+When all 4 sensing tasks are operational:
+- Automation touchpoints: 33 -> 37 (+4 launchd sensing jobs)
+- Auto-updated ledgers: 4/9 -> 7/9 (MODEL-INDEX, STALENESS, RECONCILIATION added)
+- Reference doc staleness: 46+ days -> <7 days target
+
+---
+
+*Automation Master Plan v1.1.0 | INT-1612 | SYN-45 | Syncrescendence*

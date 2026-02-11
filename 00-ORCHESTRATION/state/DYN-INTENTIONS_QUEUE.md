@@ -249,3 +249,31 @@
 - **2026-02-10 00:12:42** | `### P1 (High Priority)`
 
 - **2026-02-10 00:12:47** | `The IMPLEMENTATION-MAP.md is a **well-structured T2 backlog** capturing 174 work items across 8 priority tranches. Key observations:`
+
+- **2026-02-10 07:00:08** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-10 07:00:08** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-10 13:00:05** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-10 13:00:05** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-10 13:32:23** | `<summary>Agent "Linear priority triage SYN-37-50" completed</summary>`
+
+- **2026-02-10 13:32:32** | `| 23 | Moonlock | Security/antimalware | No | **Evaluate** -- security scanning primitive; depends on threat model. Low priority. |`
+
+- **2026-02-10 14:08:28** | `| 5 | IMPL-A-0010 | Formalize the actual tool interaction/dispatch protocol. | SYN-14 |`
+
+- **2026-02-10 14:08:30** | `- **Justification**: SYN-22 (CANON operational status) is listed as DONE. Furthermore, IMPL-C-0013 (the follow-on entry for the CLI/query interface on this same DB) is already marked `in_progress` wit`
+
+- **2026-02-10 14:08:32** | `**By Priority:**`
+
+- **2026-02-10 17:58:53** | `**Root cause of the `-15` exit code**: The previous Chroma process was killed by SIGTERM (signal 15). With `KeepAlive: true` in the plist, launchd automatically restarted it. The `-15` in `launchctl l`
+
+- **2026-02-10 18:00:22** | `### Recommended Actions (Priority Order)`
+
+- **2026-02-10 18:04:58** | `Each table includes typed fields mapped to the CANON-30300 4-layer ontology schema: singleSelect dropdowns for ASA Layers (L0-L6), Object Types (O.FN through O.CPL), lifecycle states, and priority lev`
+
+- **2026-02-10 19:00:15** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-10 19:00:15** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
