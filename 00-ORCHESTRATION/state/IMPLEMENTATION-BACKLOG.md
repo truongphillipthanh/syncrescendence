@@ -341,3 +341,17 @@
 ### Decision Required
 **Sovereign**: Review -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
 **Actions**: Provide "APPROVED ALL" signature for MCP installation batch, or individual decisions per MCP.
+
+## 2026-02-10 (Tranche N — Jira Sync + Launchd Activation)
+
+### P0
+- IMPL-N-0001 — Implement jira_linear_sync.py (bidirectional sync via REF-JIRA_SYNC_MAP)
+- IMPL-N-0010 — Commit and activate all 12 launchd agents (complete M-0010)
+
+### P1
+- IMPL-N-0002 — Automate status sync using transition IDs
+
+### Progress Note
+- Jira↔Linear sync map documented (REF-JIRA_SYNC_MAP.md)
+- 12 launchd plists ready (sensing + existing agents)
+- Next: Load agents and verify scheduling

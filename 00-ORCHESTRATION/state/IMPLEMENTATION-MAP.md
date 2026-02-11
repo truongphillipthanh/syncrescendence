@@ -216,6 +216,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-46
 
 - id: IMPL-A-0019
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -226,6 +227,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-46
 
 - id: IMPL-A-0020
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -236,6 +238,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-46
 
 - id: IMPL-A-0021
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -246,6 +249,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-A-0022
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -256,6 +260,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-A-0023
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -277,6 +282,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-49
 
 - id: IMPL-A-0025
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -287,6 +293,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-20
 
 - id: IMPL-A-0026
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -297,6 +304,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-45
 
 ## 2026-02-06 — Tranche B (Execution substrate): Twin coordination + Intent Compass mechanics + Dispatch Kanban
 
@@ -309,6 +317,7 @@
   owner_lane: Psyche
   venue: repo+tool
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-B-0002
   source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
@@ -319,6 +328,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-B-0003
   source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
@@ -329,6 +339,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-27
 
 - id: IMPL-B-0004
   source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
@@ -339,6 +350,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-B-0005
   source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
@@ -349,6 +361,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-B-0006
   source_path: .claude/skills/intentions.md
@@ -359,6 +372,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-B-0007
   source_path: .claude/skills/intentions.md
@@ -369,6 +383,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-B-0008
   source_path: .claude/skills/intentions.md
@@ -379,6 +394,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-B-0009
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
@@ -389,6 +405,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-B-0010
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
@@ -399,6 +416,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-B-0011
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
@@ -409,6 +427,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-B-0012
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
@@ -419,6 +438,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 ## 2026-02-06 — Tranche C (Canon hotspots): Multi-agent orchestration + Memory systems + Tech stack DB
 
@@ -431,6 +451,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-35
 
 - id: IMPL-C-0002
   source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
@@ -441,6 +462,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-35
 
 - id: IMPL-C-0003
   source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
@@ -451,6 +473,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-18
 
 - id: IMPL-C-0004
   source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
@@ -461,6 +484,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-C-0005
   source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
@@ -471,6 +495,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-35
 
 - id: IMPL-C-0006
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
@@ -481,6 +506,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-C-0007
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
@@ -491,6 +517,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-C-0008
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
@@ -501,6 +528,7 @@
   owner_lane: Ajna
   venue: tool+repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-C-0009
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
@@ -511,6 +539,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-C-0010
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
@@ -521,6 +550,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-C-0011
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md
@@ -531,6 +561,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-57
 
 - id: IMPL-C-0012
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
@@ -553,6 +584,7 @@
   owner_lane: Adjudicator
   venue: repo
   status: in_progress
+  linear_id: SYN-22
   notes: "ontology_query.py built 2026-02-10: 10 commands (stats/search/primitives/apparatus/projects/tasks/sources/sql). Commit 0516b87." 
 
 - id: IMPL-C-0014
@@ -564,6 +596,7 @@
   owner_lane: Ajna
   venue: tool+repo
   status: new
+  linear_id: SYN-22
 
 - id: IMPL-C-0015
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
@@ -574,6 +607,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-22
 
 ## 2026-02-06 — Tranche D (Tooling + integration): Makefile + GitHub connector protocol
 
@@ -586,6 +620,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-32
 
 - id: IMPL-D-0072
   source_path: Makefile
@@ -596,6 +631,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-32
   notes: "Completed 2026-02-09: Makefile verify now checks CLAUDE.md, COCKPIT.md, README.md explicitly and reports unexpected .md files."
 
 - id: IMPL-D-0073
@@ -607,6 +643,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-32
   notes: "Completed 2026-02-09: Makefile update-ledgers sources.csv wrapped in if-exists guard."
 
 - id: IMPL-D-0074
@@ -618,6 +655,7 @@
   owner_lane: Adjudicator
   venue: repo
   status: done
+  linear_id: SYN-34
   notes: "Completed 2026-02-09: Makefile tree target now checks for tree binary, falls back to find with install hint."
 
 - id: IMPL-D-0075
@@ -629,6 +667,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-32
   notes: "Completed 2026-02-09: clean target excludes .git, suppresses errors, safe patterns only."
 
 - id: IMPL-D-0076
@@ -640,6 +679,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-34
 
 - id: IMPL-D-0077
   source_path: Makefile
@@ -650,6 +690,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-32
 
 - id: IMPL-D-0078
   source_path: .github/CONNECTOR_PROTOCOL.md
@@ -660,6 +701,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-34
 
 - id: IMPL-D-0079
   source_path: .github/CONNECTOR_PROTOCOL.md
@@ -670,6 +712,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-30
 
 - id: IMPL-D-0080
   source_path: .github/CONNECTOR_PROTOCOL.md
@@ -680,6 +723,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-30
 
 - id: IMPL-D-0081
   source_path: .github/CONNECTOR_PROTOCOL.md
@@ -690,6 +734,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-19
 
 - id: IMPL-D-0082
   source_path: .github/CONNECTOR_PROTOCOL.md
@@ -700,6 +745,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 ## 2026-02-06 — Tranche D (Tooling + integration): Script surfaces (verify/lint/triage/canon regen)
 
@@ -712,6 +758,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-32
   notes: "Completed 2026-02-09: verify_all.sh switched to explicit CLAUDE.md/COCKPIT.md/README.md allowlist, reports unexpected files. Aligned with Makefile verify."
 
 - id: IMPL-D-0084
@@ -723,6 +770,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-32
 
 - id: IMPL-D-0085
   source_path: 00-ORCHESTRATION/scripts/ops_lint.sh
@@ -733,6 +781,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-20
 
 - id: IMPL-D-0086
   source_path: 00-ORCHESTRATION/scripts/ops_lint.sh
@@ -743,6 +792,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-20
 
 - id: IMPL-D-0087
   source_path: 00-ORCHESTRATION/scripts/triage_outgoing.sh
@@ -765,6 +815,7 @@
   owner_lane: Adjudicator
   venue: repo
   status: new
+  linear_id: SYN-34
 
 - id: IMPL-D-0089
   source_path: 00-ORCHESTRATION/scripts/regenerate_canon.py
@@ -801,6 +852,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-D-0092
   source_path: 00-ORCHESTRATION/scripts/intent_compass.sh
@@ -811,6 +863,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-D-0093
   source_path: 00-ORCHESTRATION/scripts/intent_compass.sh
@@ -821,6 +874,7 @@
   owner_lane: Adjudicator
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-D-0094
   source_path: 00-ORCHESTRATION/scripts/intent_compass.sh
@@ -843,6 +897,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0096
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
@@ -853,6 +908,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0097
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
@@ -863,6 +919,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0098
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
@@ -873,6 +930,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0099
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
@@ -883,6 +941,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0100
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
@@ -893,6 +952,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0101
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -927,6 +987,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-D-0104
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -937,6 +998,7 @@
   owner_lane: Adjudicator
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-D-0105
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -947,6 +1009,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-29
 
 ## 2026-02-06 — Tranche D (Tooling): Always-on watchers (launchd) hardening + smoke validation
 
@@ -981,6 +1044,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0037
   source_path: -OUTGOING/RESULT-commander-20260205-always_on_watchers_sweep.md
@@ -991,6 +1055,7 @@
   owner_lane: Sovereign + Commander
   venue: tool
   status: queued
+  linear_id: SYN-34
 
 - id: IMPL-D-0038
   source_path: 00-ORCHESTRATION/scripts/rearm_watchers.sh
@@ -1001,6 +1066,7 @@
   owner_lane: Adjudicator (Codex) + Commander
   venue: repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-D-0039
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
@@ -1011,6 +1077,7 @@
   owner_lane: Psyche + Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0040
   source_path: 00-ORCHESTRATION/scripts/launchd-*/com.syncrescendence.watch-*.plist
@@ -1021,6 +1088,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-D-0041
   source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
@@ -1031,6 +1099,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-45
 
 
 ## 2026-02-06 — Tranche D (Tooling): OpenClaw outfitment sync (Ajna ↔ Psyche)
@@ -1066,6 +1135,7 @@
   owner_lane: Ajna + Commander
   venue: tool
   status: queued
+  linear_id: SYN-43
 
 - id: IMPL-D-0045
   source_path: -OUTGOING/RESULT-ajna-20260205-sync_outfitment.md
@@ -1087,6 +1157,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-27
 
 - id: IMPL-D-0047
   source_path: 00-ORCHESTRATION/state/impl/tooling/OUTFITMENT-SYNC.md
@@ -1108,6 +1179,7 @@
   owner_lane: Psyche + Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0049
   source_path: 00-ORCHESTRATION/scripts/rearm_watchers.sh
@@ -1129,6 +1201,7 @@
   owner_lane: Ajna
   venue: repo
   status: new
+  linear_id: SYN-27
 
 
 ## 2026-02-06 — Tranche D (Tooling + integration): Watcher hardening + CANON regen observability
@@ -1142,6 +1215,7 @@
   owner_lane: Psyche (spec) + Commander (implement)
   venue: repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-D-0052
   source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
@@ -1152,6 +1226,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0053
   source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
@@ -1162,6 +1237,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-D-0054
   source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
@@ -1172,6 +1248,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-D-0055
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -1194,6 +1271,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-D-0057
   source_path: Makefile
@@ -1204,6 +1282,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-D-0058
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
@@ -1214,6 +1293,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-30
 
 - id: IMPL-D-0059
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -1236,6 +1316,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-D-0061
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -1246,6 +1327,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-D-0062
   source_path: 00-ORCHESTRATION/scripts/watch_canon.sh
@@ -1268,6 +1350,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-20
 
 - id: IMPL-D-0064
   source_path: 00-ORCHESTRATION/scripts/ops_lint.sh
@@ -1278,6 +1361,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-20
 
 - id: IMPL-D-0065
   source_path: 00-ORCHESTRATION/scripts/verify_all.sh
@@ -1288,6 +1372,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-32
   notes: "Completed 2026-02-09: Same fix as D-0083 — verify_all.sh now uses explicit allowlist (CLAUDE.md, COCKPIT.md, README.md)."
 
 - id: IMPL-D-0066
@@ -1299,6 +1384,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-32
 
 - id: IMPL-D-0067
   source_path: Makefile
@@ -1309,6 +1395,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-32
   notes: "Completed 2026-02-10: verify + update-ledgers use if/else for CSV existence. Root .md check updated (AGENTS.md, GEMINI.md). verify_all.sh aligned."
 
 - id: IMPL-D-0068
@@ -1320,6 +1407,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-45
 
 - id: IMPL-D-0069
   source_path: Makefile
@@ -1330,6 +1418,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-D-0070
   source_path: 00-ORCHESTRATION/scripts/verify_all.sh + Makefile
@@ -1340,6 +1429,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-45
 
 ## 2026-02-08 — Tranche E (Sovereign Cockpit): Terminal lifestyle layer + activation
 
@@ -1364,6 +1454,7 @@
   owner_lane: Commander
   venue: tool
   status: done
+  linear_id: SYN-42
   notes: "Verified 2026-02-08: 4 panes ~49 cols each, 1-based indexing."
 
 - id: IMPL-E-0003
@@ -1375,6 +1466,7 @@
   owner_lane: Commander
   venue: tool
   status: done
+  linear_id: SYN-42
   notes: "All 6 installed via Homebrew 2026-02-08. Aliases in ~/.zshrc."
 
 - id: IMPL-E-0004
@@ -1386,6 +1478,7 @@
   owner_lane: Commander
   venue: tool
   status: done
+  linear_id: SYN-42
   notes: "Completed 2026-02-08. Config at ~/.config/starship.toml. See DEC-LIFESTYLE-001."
 
 - id: IMPL-E-0005
@@ -1397,6 +1490,7 @@
   owner_lane: Commander
   venue: tool
   status: done
+  linear_id: SYN-42
   notes: "Completed 2026-02-08. Doom rebuild required for version-stamped init files. See DEC-LIFESTYLE-002."
 
 - id: IMPL-E-0006
@@ -1408,6 +1502,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-42
   notes: "Passes 1-3 completed 2026-02-08."
 
 - id: IMPL-E-0007
@@ -1419,6 +1514,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-42
   notes: "Updated 2026-02-08."
 
 - id: IMPL-E-0008
@@ -1430,6 +1526,7 @@
   owner_lane: Sovereign (interactive)
   venue: tool
   status: new
+  linear_id: SYN-40
   notes: "Requires interactive tmux prefix+I keystroke."
 
 - id: IMPL-E-0009
@@ -1441,6 +1538,7 @@
   owner_lane: Sovereign (interactive)
   venue: tool
   status: new
+  linear_id: SYN-40
   notes: "Requires interactive Neovim session."
 
 ## 2026-02-09 — Tranche F (Spine follow-ons): Toolchain alignment + Neo-Blitzkrieg + Intentions
@@ -1454,6 +1552,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-7
 
 - id: IMPL-F-0002
   source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
@@ -1464,6 +1563,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-29
 
 - id: IMPL-F-0003
   source_path: 00-ORCHESTRATION/state/ARCH-TOOLCHAIN_CLARESCENCE.md
@@ -1474,6 +1574,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-F-0004
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -1496,6 +1597,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-17
 
 - id: IMPL-F-0006
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -1506,6 +1608,7 @@
   owner_lane: Cartographer (Gemini) + Psyche
   venue: repo
   status: new
+  linear_id: SYN-22
 
 - id: IMPL-F-0007
   source_path: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
@@ -1528,6 +1631,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-19
 
 - id: IMPL-F-0009
   source_path: 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
@@ -1538,6 +1642,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-46
 
 - id: IMPL-F-0010
   source_path: 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
@@ -1559,6 +1664,7 @@
   owner_lane: Sovereign + Psyche
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-F-0012
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -1569,6 +1675,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-45
 
 ## 2026-02-09 — Tranche G (Spine): Rosetta + Dispatch Kanban + Intentions mechanics
 
@@ -1581,6 +1688,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-6
 
 - id: IMPL-G-0002
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -1591,6 +1699,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-7
 
 - id: IMPL-G-0003
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -1601,6 +1710,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-5
 
 - id: IMPL-G-0004
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -1611,6 +1721,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-G-0005
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -1621,6 +1732,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-22
 
 - id: IMPL-G-0006
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -1631,6 +1743,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-46
 
 - id: IMPL-G-0007
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -1652,6 +1765,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-G-0009
   source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
@@ -1662,6 +1776,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 - id: IMPL-G-0010
   source_path: .claude/skills/intentions.md
@@ -1672,6 +1787,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-41
 
 ## 2026-02-09 — Tranche H (Tooling): Operations scripts + Makefile targets
 
@@ -1684,6 +1800,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-41
 
 - id: IMPL-H-0002
   source_path: 00-ORCHESTRATION/scripts/append_ledger.sh
@@ -1694,6 +1811,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-31
 
 - id: IMPL-H-0003
   source_path: 00-ORCHESTRATION/scripts/audit_applications.sh
@@ -1715,6 +1833,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-32
 
 ## 2026-02-10 — Follow-up Tranche: CANON-31150 regeneration + Tech Stack DB migration + Lint protocol
 
@@ -1739,6 +1858,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-22
 
 - id: IMPL-I-0003
   source_path: 00-ORCHESTRATION/scripts/corpus_health_check.py
@@ -1749,6 +1869,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-31
 
 - id: IMPL-I-0004
   source_path: DYN-DISPATCH_KANBAN_PROTOCOL.md + DYN-TWIN_COORDINATION_PROTOCOL.md
@@ -1759,6 +1880,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-14
 
 ## 2026-02-10 — Tranche J (Canon Hotspots Follow-up): Five-Account + Multi-Agent + Memory + Seven-Layer
 
@@ -1782,6 +1904,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-49
 
 - id: IMPL-J-0003
   source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
@@ -1792,6 +1915,7 @@
   owner_lane: Ajna
   venue: repo
   status: new
+  linear_id: SYN-49
 
 - id: IMPL-J-0004
   source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
@@ -1824,6 +1948,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-35
 
 - id: IMPL-J-0007
   source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION
@@ -1834,6 +1959,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-18
 
 - id: IMPL-J-0008
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS
@@ -1844,6 +1970,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-J-0009
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS
@@ -1854,6 +1981,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-J-0010
   source_path: 01-CANON/CANON-30430-MEMORY_SYSTEMS
@@ -1864,6 +1992,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-J-0011
   source_path: 01-CANON/CANON-31130-SEVEN_LAYER
@@ -1874,6 +2003,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-48
 
 - id: IMPL-J-0012
   source_path: 01-CANON/CANON-31130-SEVEN_LAYER
@@ -1884,6 +2014,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-48
 
 
 ## 2026-02-10 — Tranche K (New Material): SaaS Integrations + Memory Audit + Sensing Templates
@@ -2032,6 +2163,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-15
 
 - id: IMPL-L-0003
   source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
@@ -2064,6 +2196,7 @@
   owner_lane: Ajna
   venue: repo
   status: new
+  linear_id: SYN-27
 
 
 ## 2026-02-10 — Tranche M (New Material): MCP Decisions + Sensing Launchd
@@ -2077,6 +2210,7 @@
   owner_lane: Commander
   venue: Linear
   status: new
+  linear_id: SYN-51
 
 - id: IMPL-M-0002
   source_path: -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
@@ -2087,6 +2221,7 @@
   owner_lane: Commander
   venue: Linear
   status: new
+  linear_id: SYN-53
 
 - id: IMPL-M-0003
   source_path: -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
@@ -2097,6 +2232,7 @@
   owner_lane: Commander
   venue: Linear
   status: new
+  linear_id: SYN-55
 
 - id: IMPL-M-0004
   source_path: -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
@@ -2107,6 +2243,7 @@
   owner_lane: Commander
   venue: Linear
   status: new
+  linear_id: SYN-53
 
 - id: IMPL-M-0010
   source_path: 00-ORCHESTRATION/scripts/launchd/*sensing*.plist
@@ -2114,6 +2251,40 @@
   intent: Complete IMPL-L-0003 by activating sensing launchd agents.
   deliverable: (a) Move plist files from untracked to committed state, (b) load agents: launchctl load, (c) verify jobs run at scheduled times, (d) check logs in /tmp/syncrescendence-claude/.
   dependencies: Plist files created; paths validated.
+  owner_lane: Ajna
+  venue: repo
+  status: in_progress
+  linear_id: SYN-31
+
+
+## 2026-02-10 — Tranche N (Execution): Jira Sync Map + Launchd Commit
+
+- id: IMPL-N-0001
+  source_path: 02-ENGINE/REF-JIRA_SYNC_MAP.md
+  source_lines: "full file"
+  intent: Operationalize bidirectional Jira↔Linear sync using documented mapping.
+  deliverable: (a) Implement jira_linear_sync.py using status/ID mapping, (b) confirm Epic↔Project, Story↔Issue mapping, (c) handle Sprint → manual Cycle, (d) sync status transitions bidirectionally.
+  dependencies: IMPL-M-0001 (Jira MCP approval) or direct API; Linear API access.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-N-0002
+  source_path: 02-ENGINE/REF-JIRA_SYNC_MAP.md
+  source_lines: "§Status Mapping, §Sprint Map"
+  intent: Automate status sync using documented transition IDs.
+  deliverable: (a) Jira webhook → Linear state update, (b) Linear state change → Jira transition, (c) handle edge cases (In Review → Linear In Progress).
+  dependencies: Webhook infrastructure; both APIs.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-N-0010
+  source_path: 00-ORCHESTRATION/scripts/launchd/*.plist
+  source_lines: "All 12 plist files"
+  intent: Complete M-0010 by committing and activating all launchd agents.
+  deliverable: (a) Add plists to git (00-ORCHESTRATION/scripts/launchd/), (b) launchctl load for sensing jobs, (c) verify with launchctl list | grep syncrescendence, (d) check /tmp logs after first runs.
+  dependencies: Plists written; paths validated.
   owner_lane: Ajna
   venue: repo
   status: in_progress
