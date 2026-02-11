@@ -342,6 +342,52 @@ CREATE TABLE IF NOT EXISTS workflow_steps (
 );
 """
 
+SCHEMA_KINETIC = """
+-- ============================================================
+-- KINETIC TABLES — Action Vocabulary and Agent Bindings (Phase B)
+-- ============================================================
+
+-- Action Types: the verbs of the ontology
+CREATE TABLE IF NOT EXISTS action_types (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    category TEXT NOT NULL,
+    parent_role_id INTEGER REFERENCES roles(id),
+    description TEXT,
+    input_type TEXT,
+    output_type TEXT,
+    write_back_capable BOOLEAN DEFAULT FALSE,
+    requires_approval BOOLEAN DEFAULT FALSE,
+    automation_level TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- App Actions: which app supports which action type (with quality rating)
+CREATE TABLE IF NOT EXISTS app_actions (
+    app_id INTEGER REFERENCES apps(id) ON DELETE CASCADE,
+    action_type_id INTEGER REFERENCES action_types(id),
+    quality_rating TEXT,
+    is_primary BOOLEAN DEFAULT FALSE,
+    automation_support TEXT,
+    notes TEXT,
+    PRIMARY KEY (app_id, action_type_id)
+);
+
+-- Agent Bindings: which Constellation agent uses which app for which action
+CREATE TABLE IF NOT EXISTS agent_bindings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    agent_code TEXT NOT NULL,
+    app_id INTEGER REFERENCES apps(id) ON DELETE CASCADE,
+    action_type_id INTEGER REFERENCES action_types(id),
+    binding_strength TEXT,
+    invocation_method TEXT,
+    frequency TEXT,
+    notes TEXT,
+    UNIQUE (agent_code, app_id, action_type_id)
+);
+"""
+
 SCHEMA_OPERATIONAL = """
 -- ============================================================
 -- OPERATIONAL TABLES — Syncrescendence Project Management
@@ -487,6 +533,13 @@ CREATE INDEX IF NOT EXISTS idx_apparatus_frequency ON apparatus(frequency_score)
 -- Relationship search
 CREATE INDEX IF NOT EXISTS idx_app_relationships_type ON app_relationships(relationship_type);
 CREATE INDEX IF NOT EXISTS idx_app_primitives_quality ON app_primitives(implementation_quality);
+
+-- Kinetic indexes
+CREATE INDEX IF NOT EXISTS idx_action_types_code ON action_types(code);
+CREATE INDEX IF NOT EXISTS idx_action_types_category ON action_types(category);
+CREATE INDEX IF NOT EXISTS idx_app_actions_quality ON app_actions(quality_rating);
+CREATE INDEX IF NOT EXISTS idx_agent_bindings_agent ON agent_bindings(agent_code);
+CREATE INDEX IF NOT EXISTS idx_agent_bindings_app ON agent_bindings(app_id);
 
 -- Operational indexes
 CREATE INDEX IF NOT EXISTS idx_projects_status ON projects(status);
@@ -1661,6 +1714,179 @@ def seed_app_relationships(conn):
     return count
 
 
+def seed_model_capabilities(conn):
+    """Populate model_capabilities junction table — maps AI models to modality capabilities."""
+    cur = conn.cursor()
+
+    # Build lookup maps
+    model_ids = {}
+    cur.execute("SELECT id, slug FROM models")
+    for row in cur.fetchall():
+        model_ids[row[1]] = row[0]
+
+    modality_ids = {}
+    cur.execute("SELECT id, code FROM modalities")
+    for row in cur.fetchall():
+        modality_ids[row[1]] = row[0]
+
+    # (model_slug, modality_code, capability_description)
+    capabilities = [
+        # Anthropic
+        ("anthropic-claude-opus-4-6", "text", "State-of-the-art reasoning, coding, analysis, extended thinking"),
+        ("anthropic-claude-opus-4-6", "visual", "Image understanding, chart analysis, screenshot interpretation"),
+        ("anthropic-claude-sonnet-4-5-20250514", "text", "Fast balanced reasoning, coding, extended thinking"),
+        ("anthropic-claude-sonnet-4-5-20250514", "visual", "Image understanding, diagram analysis"),
+        ("anthropic-claude-sonnet-4-20250514", "text", "Balanced reasoning and coding"),
+        ("anthropic-claude-sonnet-4-20250514", "visual", "Image understanding"),
+        ("anthropic-claude-3-5-haiku-20241022", "text", "Fast lightweight text generation and classification"),
+        # OpenAI
+        ("openai-gpt-5", "text", "Frontier reasoning, coding, multimodal understanding"),
+        ("openai-gpt-5", "visual", "Image understanding, generation, analysis"),
+        ("openai-gpt-5", "voice", "Real-time voice conversation via ChatGPT"),
+        ("openai-gpt-5.3-codex", "text", "Code-specialized reasoning with autonomous execution"),
+        ("openai-gpt-5.3-codex", "visual", "Screenshot and diagram understanding for code context"),
+        ("openai-o3", "text", "Deep deliberative reasoning, math, science, coding"),
+        ("openai-o3", "visual", "Visual reasoning for complex diagrams"),
+        ("openai-o4-mini", "text", "Fast cost-effective reasoning"),
+        ("openai-text-embedding-3-large", "text", "High-dimensional text embeddings (3072d)"),
+        ("openai-text-embedding-3-small", "text", "Compact text embeddings (1536d)"),
+        # Google
+        ("google-gemini-2.5-pro", "text", "Frontier reasoning, 1M+ context, code generation"),
+        ("google-gemini-2.5-pro", "visual", "Image, video, and document understanding"),
+        ("google-gemini-2.5-pro", "voice", "Audio understanding and generation"),
+        ("google-gemini-2.5-flash", "text", "Fast balanced reasoning, large context"),
+        ("google-gemini-2.5-flash", "visual", "Image and video understanding"),
+        ("google-gemini-2.0-flash", "text", "Real-time fast generation"),
+        ("google-gemini-2.0-flash", "visual", "Image understanding"),
+        # Meta
+        ("meta-llama-4-maverick", "text", "Open-weight frontier reasoning and coding"),
+        ("meta-llama-4-maverick", "visual", "Multimodal image understanding"),
+        ("meta-llama-4-scout", "text", "Efficient open-weight generation, long context"),
+        ("meta-llama-4-scout", "visual", "Basic image understanding"),
+        # Others
+        ("xai-grok-3", "text", "Real-time web-grounded reasoning and analysis"),
+        ("xai-grok-3", "visual", "Image understanding and generation"),
+        ("deepseek-deepseek-r1", "text", "Open-weight reasoning with chain-of-thought"),
+        ("moonshot-ai-kimi-k2.5", "text", "Long-context reasoning, coding, multi-turn"),
+        ("moonshot-ai-kimi-k2.5", "visual", "Image and document understanding"),
+        ("alibaba-qwen-3", "text", "Multilingual reasoning and coding"),
+        ("mistral-codestral-latest", "text", "Code-specialized generation and completion"),
+    ]
+
+    count = 0
+    for model_slug, modality_code, description in capabilities:
+        model_id = model_ids.get(model_slug)
+        modality_id = modality_ids.get(modality_code)
+        if model_id and modality_id:
+            try:
+                cur.execute(
+                    "INSERT OR IGNORE INTO model_capabilities (model_id, modality_id, capability_description) VALUES (?, ?, ?)",
+                    (model_id, modality_id, description),
+                )
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: model_capabilities {model_slug}/{modality_code}: {e}")
+    conn.commit()
+    return count
+
+
+def seed_app_commercial_seams(conn):
+    """Populate app_commercial_seams junction table — maps apps to commercial seam categories."""
+    cur = conn.cursor()
+
+    # Build lookup maps
+    app_ids = {}
+    cur.execute("SELECT id, slug FROM apps WHERE slug IS NOT NULL")
+    for row in cur.fetchall():
+        app_ids[row[1]] = row[0]
+
+    seam_ids = {}
+    cur.execute("SELECT id, code FROM commercial_seams")
+    for row in cur.fetchall():
+        seam_ids[row[1]] = row[0]
+
+    # (app_slug, seam_code, role_in_seam)
+    mappings = [
+        # Vector DB seam
+        ("api-qdrant", "vector_db", "primary storage"),
+        ("api-chroma", "vector_db", "local development"),
+        # API Router seam
+        ("api-openclaw", "api_router", "agent gateway"),
+        ("api-anthropic-claude-max", "api_router", "Claude API access"),
+        ("api-anthropic-claude-pro", "api_router", "Claude API access (secondary)"),
+        ("api-openai-chatgpt-plus", "api_router", "OpenAI API access"),
+        ("api-google-ai-pro", "api_router", "Google AI API access"),
+        ("api-nvidia-nim", "api_router", "NVIDIA model inference"),
+        ("api-ollama", "api_router", "Local model routing"),
+        ("api-perplexity", "api_router", "Search-augmented inference"),
+        ("api-xai-grok", "api_router", "xAI API access"),
+        # Inference Engine seam
+        ("ollama", "inference_engine", "local inference runtime"),
+        ("openclaw", "inference_engine", "agent inference orchestration"),
+        ("api-ollama", "inference_engine", "local model serving"),
+        # Observability seam
+        ("api-graphiti", "observability", "knowledge graph memory"),
+        ("api-neo4j", "observability", "graph database backend"),
+        # Model Marketplace seam
+        ("api-nvidia-nim", "model_marketplace", "hosted model catalog"),
+        ("ollama", "model_marketplace", "local model registry"),
+        ("api-setapp", "model_marketplace", "app subscription marketplace"),
+        # Edge Runtime seam
+        ("docker-desktop", "edge_runtime", "container orchestration"),
+        ("tailscale", "edge_runtime", "mesh networking"),
+        ("api-tailscale", "edge_runtime", "mesh network API"),
+        # Security Gateway seam
+        ("1password", "security_gateway", "credential management"),
+        ("tailscale", "security_gateway", "zero-trust networking"),
+    ]
+
+    count = 0
+    for app_slug, seam_code, role in mappings:
+        app_id = app_ids.get(app_slug)
+        seam_id = seam_ids.get(seam_code)
+        if app_id and seam_id:
+            try:
+                cur.execute(
+                    "INSERT OR IGNORE INTO app_commercial_seams (app_id, seam_id, role_in_seam) VALUES (?, ?, ?)",
+                    (app_id, seam_id, role),
+                )
+                count += 1
+            except sqlite3.Error as e:
+                print(f"  WARN: app_commercial_seams {app_slug}/{seam_code}: {e}")
+    conn.commit()
+    return count
+
+
+def seed_action_types(conn):
+    """Populate action_types with kinetic vocabulary — Phase B."""
+    # Placeholder: will be populated from Adjudicator's ACTION_TYPES.md artifact
+    pass
+
+
+def seed_app_actions(conn):
+    """Populate app_actions junction table — Phase B."""
+    # Placeholder: will be populated from Adjudicator's APP_ACTIONS.md artifact
+    pass
+
+
+def seed_agent_bindings(conn):
+    """Populate agent_bindings — Phase B."""
+    # Placeholder: will be populated from Adjudicator's AGENT_BINDINGS.md artifact
+    pass
+
+
+def seed_workflow_templates(conn):
+    """Populate workflow_templates — Phase B."""
+    # Placeholder: will be populated from Adjudicator's WORKFLOW_TEMPLATES.md artifact
+    pass
+
+
+def seed_workflow_steps(conn):
+    """Populate workflow_steps — Phase B."""
+    # Placeholder: will be populated from Adjudicator's WORKFLOW_TEMPLATES.md artifact
+    pass
+
+
 def validate_integrity(conn):
     """Run data integrity checks and return results."""
     cur = conn.cursor()
@@ -1676,6 +1902,7 @@ def validate_integrity(conn):
         "apparatus", "apparatus_components", "usage_contexts",
         "app_relationships", "app_usage_contexts",
         "workflow_templates", "workflow_steps",
+        "action_types", "app_actions", "agent_bindings",
         "projects", "tasks", "accounts", "platforms", "platform_roles", "sources",
         "filename_mappings", "rename_mappings",
     ]
@@ -1750,6 +1977,15 @@ def print_report(results, db_path):
         print(f"  {t:30s} {count:>6d} rows")
     print(f"  {'JUNCTION TOTAL':30s} {junction_total:>6d}")
 
+    print("\n  --- KINETIC TABLES (Phase B) ---")
+    kinetic_tables = ["action_types", "app_actions", "agent_bindings"]
+    kinetic_total = 0
+    for t in kinetic_tables:
+        count = results["row_counts"].get(t, 0)
+        kinetic_total += max(count, 0)
+        print(f"  {t:30s} {count:>6d} rows")
+    print(f"  {'KINETIC TOTAL':30s} {kinetic_total:>6d}")
+
     print("\n  --- OPERATIONAL (CSV Ledgers) ---")
     ops_tables = ["projects", "tasks", "accounts", "platforms", "platform_roles", "sources", "filename_mappings", "rename_mappings"]
     ops_total = 0
@@ -1759,7 +1995,7 @@ def print_report(results, db_path):
         print(f"  {t:30s} {count:>6d} rows")
     print(f"  {'OPERATIONAL TOTAL':30s} {ops_total:>6d}")
 
-    grand_total = bedrock_total + settlement_total + intel_total + junction_total + ops_total
+    grand_total = bedrock_total + settlement_total + intel_total + junction_total + kinetic_total + ops_total
     print(f"\n  {'GRAND TOTAL':30s} {grand_total:>6d} rows")
 
     print(f"\n  --- INTEGRITY ---")
@@ -1812,6 +2048,7 @@ def main():
         ("Settlements", SCHEMA_SETTLEMENTS),
         ("Primitives", SCHEMA_PRIMITIVES),
         ("Intelligence", SCHEMA_INTELLIGENCE),
+        ("Kinetic", SCHEMA_KINETIC),
         ("Operational", SCHEMA_OPERATIONAL),
         ("Indexes", SCHEMA_INDEXES),
         ("Meta", SCHEMA_META),
@@ -1926,11 +2163,52 @@ def main():
     ar_count = seed_app_relationships(conn)
     print(f"      {ar_count} app relationships mapped")
 
-    # Phase 6: Write metadata
-    print("\nPhase 6: Writing metadata...")
+    # Phase 6: Kinetic Layer Enrichment
+    print("\nPhase 6: Kinetic Layer Enrichment (Phase B)...")
+
+    print("  6a: Seeding model capabilities...")
+    mc_count = seed_model_capabilities(conn)
+    print(f"      {mc_count} model-capability mappings")
+
+    print("  6b: Seeding app commercial seams...")
+    cs_count = seed_app_commercial_seams(conn)
+    print(f"      {cs_count} app-commercial-seam mappings")
+
+    print("  6c: Seeding action types...")
+    seed_action_types(conn)
+    cur.execute("SELECT COUNT(*) FROM action_types")
+    at_count = cur.fetchone()[0]
+    print(f"      {at_count} action types seeded")
+
+    print("  6d: Mapping app-action relationships...")
+    seed_app_actions(conn)
+    cur.execute("SELECT COUNT(*) FROM app_actions")
+    aa_count = cur.fetchone()[0]
+    print(f"      {aa_count} app-action mappings")
+
+    print("  6e: Mapping agent bindings...")
+    seed_agent_bindings(conn)
+    cur.execute("SELECT COUNT(*) FROM agent_bindings")
+    ab_count = cur.fetchone()[0]
+    print(f"      {ab_count} agent bindings")
+
+    print("  6f: Seeding workflow templates...")
+    seed_workflow_templates(conn)
+    cur.execute("SELECT COUNT(*) FROM workflow_templates")
+    wt_count = cur.fetchone()[0]
+    print(f"      {wt_count} workflow templates")
+
+    print("  6g: Seeding workflow steps...")
+    seed_workflow_steps(conn)
+    cur.execute("SELECT COUNT(*) FROM workflow_steps")
+    ws_count = cur.fetchone()[0]
+    print(f"      {ws_count} workflow steps")
+
+    # Phase 7: Write metadata
+    print("\nPhase 7: Writing metadata...")
     conn.execute(
         "INSERT OR REPLACE INTO _meta (key, value, updated_at) VALUES (?, ?, ?)",
-        ("schema_version", "1.1.0", datetime.now().isoformat()),
+        ("schema_version", "1.2.0", datetime.now().isoformat()),
     )
     conn.execute(
         "INSERT OR REPLACE INTO _meta (key, value, updated_at) VALUES (?, ?, ?)",
@@ -1946,8 +2224,8 @@ def main():
     )
     conn.commit()
 
-    # Phase 7: Validate
-    print("\nPhase 7: Validating integrity...")
+    # Phase 8: Validate
+    print("\nPhase 8: Validating integrity...")
     results = validate_integrity(conn)
     status = print_report(results, db_path)
 
