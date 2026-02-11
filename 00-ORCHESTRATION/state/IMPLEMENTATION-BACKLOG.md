@@ -293,3 +293,22 @@
 - IMPL-J-0005 — Transcendence IIC reflection prompts and values alignment
 - IMPL-J-0010 — Context compression: chunking, relevance, decay, summarization automation
 - IMPL-J-0012 — Differential sovereignty: human judgment vs automation decision matrix
+
+## 2026-02-10 (Tranche K — New Material: SaaS Integrations + Memory Audit + Sensing)
+
+### P0
+- IMPL-K-0003 — Jira Cloud API migration (/rest/api/3/search → /rest/api/3/search/jql)
+- IMPL-K-0006 — Memory portability audit script (lock-in risk scoring + migration recs)
+- IMPL-K-0010 — Linear ↔ IMPLEMENTATION-MAP bidirectional sync
+
+### P1
+- IMPL-K-0001 — Airtable ontology.db sync (bidirectional, rate-limited)
+- IMPL-K-0002 — Seed Airtable tables (Platforms, Models)
+- IMPL-K-0004 — Todoist v1 API integration (v2 deprecated)
+- IMPL-K-0005 — Todoist ↔ ClickUp GTD bridge
+- IMPL-K-0007 — Memory export automation (Claude, ChatGPT, Gemini, Notion MCP, Mem0, Graphiti)
+- IMPL-K-0011 — Ecosystem health monitoring (all SaaS APIs)
+
+### P2
+- IMPL-K-0008 — Frontier scanning automation (paradigm shift detection)
+- IMPL-K-0009 — Corpus staleness detection + refresh queuing
