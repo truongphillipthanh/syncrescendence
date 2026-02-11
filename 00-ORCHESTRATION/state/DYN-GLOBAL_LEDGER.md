@@ -48,3 +48,15 @@
 | 2026-02-11T19:20:02 | CLAIM | commander | commander | TASK-20260211-MBA_CASCADE_SUPPLEMENT.md | cc4ebed | cc4ebed | — | — |
 | 2026-02-11T19:20:29 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-11T19:20:29Z] | 977a458 | 977a458 | — | — |
 | 2026-02-11T19:21:00 | COMMIT | commander | repo | feat(SYN-35): MBA Commander init — cockpit, MCP setup, clarescence | 5cea41e | 5cea41e | — | — |
+| 2026-02-11T19:22:18 | COMMIT | commander | repo | chore: sync operational state — ledger, intentions, pedigree, session logs | 567ab44 | 567ab44 | — | — |
+| 2026-02-11T19:22:32 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 506b8aa | 506b8aa | — | — |
+| 2026-02-11T19:23:08 | COMPLETE | commander | — | TASK-20260211-MBA_CASCADE_SUPPLEMENT.md | 506b8aa | 506b8aa | — | — |
+| 2026-02-11T19:25:33 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-11T19:25:33Z] | c2c7955 | c2c7955 | — | — |
+| 2026-02-11T19:28:40 | DISPATCH | dispatch | adjudicator | TASK-20260211-ontology_metacharacterization_audit.md | c2c7955 | c2c7955 | — | — |
+| 2026-02-11T19:28:41 | CLAIM | adjudicator | adjudicator | TASK-20260211-ontology_metacharacterization_audit.md | c2c7955 | c2c7955 | — | — |
+| 2026-02-11T19:28:47 | DISPATCH | dispatch | cartographer | TASK-20260211-ontology_corpus_survey_+_gap_analysis.md | c2c7955 | c2c7955 | — | — |
+| 2026-02-11T19:28:48 | CLAIM | cartographer | cartographer | TASK-20260211-ontology_corpus_survey_+_gap_analysis.md | c2c7955 | c2c7955 | — | — |
+| 2026-02-11T19:28:55 | COMPLETE | adjudicator | — | TASK-20260211-ontology_metacharacterization_audit.md | c2c7955 | c2c7955 | — | — |
+| 2026-02-11T19:30:23 | COMPLETE | cartographer | — | TASK-20260211-ontology_corpus_survey_+_gap_analysis.md | c2c7955 | c2c7955 | — | — |
+| 2026-02-11T19:30:38 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-11T19:30:38Z] | 53c7180 | 53c7180 | — | — |
+| 2026-02-11T19:37:23 | DECISION | commander | repo | CLARESCENCE-2026-02-11-ontological-metacharacterization-strategic | 53c7180 | — | DA-01 thru DA-07 | INT-MI19, INT-1612, INT-C006, INT-C008, INT-P014 |
