@@ -1,4 +1,4 @@
-fingerprint: 5174e81
-timestamp: 2026-02-11T20:20:44Z
+fingerprint: 5004268
+timestamp: 2026-02-11T20:20:34Z
 branch: main
-message: chore: sync operational state — ledger hook append, fingerprint update
+message: fix: restore full ledger history + append DA-01 through DA-07 entries
