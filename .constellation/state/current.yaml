@@ -1,4 +1,4 @@
-fingerprint: e185fd9
-timestamp: 2026-02-11T07:15:48Z
+fingerprint: 7a7abd8
+timestamp: 2026-02-11T07:16:43Z
 branch: main
-message: feat(SYN-31): claudecron Phase 2 — 3 sensing tasks wired + deployed
+message: chore: Sovereign MCP decision queue + hook state flush
