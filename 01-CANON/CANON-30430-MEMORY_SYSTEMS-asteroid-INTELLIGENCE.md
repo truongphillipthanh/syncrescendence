@@ -11,7 +11,7 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Agent memory architectures, taxonomies, vector databases, context engineering, and production memory systems.
-operational_status: theoretical
+operational_status: partial
 entities_defined:
   - "Memory Taxonomy (STR)"
   - "A-MEM System (TOOL)"

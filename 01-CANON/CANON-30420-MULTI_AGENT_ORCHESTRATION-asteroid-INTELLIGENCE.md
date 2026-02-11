@@ -11,7 +11,7 @@ status: canonical
 created: 2025-12-30
 updated: 2025-12-30
 synopsis: Multi-agent orchestration patterns, collaboration topologies, communication protocols, and specialist coordination architectures.
-operational_status: theoretical
+operational_status: partial
 entities_defined:
   - "Specialist Resolution (CON)"
   - "Sequential Orchestration (PROTO)"

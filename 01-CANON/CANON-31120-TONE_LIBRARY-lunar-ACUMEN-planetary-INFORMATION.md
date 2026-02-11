@@ -12,7 +12,7 @@ synopsis: Systematic architecture for producing coherent, high-quality content a
 chain: INFORMATION
 planetary: ACUMEN
 parent: CANON-31100
-operational_status: theoretical
+operational_status: partial
 entities_defined:
   - "Tone Library (TOOL)"
   - "Recipe (ART)"
