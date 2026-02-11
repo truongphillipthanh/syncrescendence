@@ -1,0 +1,1 @@
+What's the closest  software that might be considered 'like' Palantir's Ontology?  Or at the very least tries to function like
