@@ -750,6 +750,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-14
   notes: "Completed 2026-02-09: triage_outgoing.sh now reports per-agent lane with individual task status."
 
 - id: IMPL-D-0088
@@ -771,6 +772,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-29
   notes: "Completed 2026-02-09: regenerate_canon.py --json flag added for --list and --all modes."
 
 - id: IMPL-D-0090
@@ -782,6 +784,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-29
   notes: "Completed 2026-02-09: Replaced auto-install with fail-fast sys.exit(1) and remediation message."
 
 ## 2026-02-06 — Tranche D (Tooling + integration): intent_compass / dispatch / canon watch
@@ -825,6 +828,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-15
   notes: "Completed 2026-02-09: jq preflight added — silent exit 0 if missing (hook must not block prompts)."
 
 - id: IMPL-D-0095
@@ -896,6 +900,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-29
   notes: "Completed 2026-02-09: regenerate() now uses --json output, extracts canon_ids via Python, passes to append_regen_log."
 
 - id: IMPL-D-0102
@@ -907,6 +912,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-29
   notes: "Completed 2026-02-09: mkdir /tmp/syncrescendence-canon.lock guard with trap cleanup on RETURN."
 
 - id: IMPL-D-0103
@@ -1166,6 +1172,7 @@
   owner_lane: Psyche (spec) + Commander (implement)
   venue: repo
   status: done
+  linear_id: SYN-29
   notes: "Completed 2026-02-09: Same fix as D-0101 — regenerate() uses --json, extracts actual IDs."
 
 - id: IMPL-D-0056
@@ -1207,6 +1214,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-29
   notes: "Completed 2026-02-09: Same fix as D-0101/D-0055."
 
 - id: IMPL-D-0060
@@ -1238,6 +1246,7 @@
   owner_lane: Psyche
   venue: repo
   status: done
+  linear_id: SYN-29
   notes: "Completed 2026-02-09: Same fix as D-0102 — mkdir lock in regenerate()."
 
 - id: IMPL-D-0063
@@ -1496,6 +1505,7 @@
   owner_lane: Commander
   venue: repo
   status: done
+  linear_id: SYN-18
   notes: "Linear MCP (33 tools) LIVE as plugin. 9 MCP servers total operational. Slack MCP deferred (free tier, low priority). Config templates in ~/.claude.json. Completed 2026-02-10."
 
 - id: IMPL-F-0008
@@ -1856,6 +1866,119 @@
   deliverable: (a) Decision matrix: when to use human judgment vs agent automation vs platform native, (b) sensitive operations registry (never-automate list), (c) sovereignty preservation checklist for new tool adoption.
   dependencies: IMPL-J-0011 layer analysis.
   owner_lane: Psyche
+  venue: repo
+  status: new
+
+
+## 2026-02-10 — Tranche K (New Material): SaaS Integrations + Memory Audit + Sensing Templates
+
+- id: IMPL-K-0001
+  source_path: 02-ENGINE/REF-AIRTABLE_INTEGRATION.md
+  source_lines: "I–II (account structure, base schema)"
+  intent: Operationalize Airtable ontology surface with bidirectional sync to ontology.db.
+  deliverable: (a) airtable_sync.py: bidirectional sync (ontology.db ↔ Airtable), (b) handle 5 req/s rate limit with backoff, (c) PAT token management in ~/.syncrescendence/.env, (d) field mapping verification.
+  dependencies: ontology.db schema stability; Airtable API access.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-K-0002
+  source_path: 02-ENGINE/REF-AIRTABLE_INTEGRATION.md
+  source_lines: "II–III (tables: Platforms, Models, etc.)"
+  intent: Seed Airtable tables with existing ontology data.
+  deliverable: (a) Migration script: seed Platforms table (126 records), Models (20 records), (b) validate Slug/ASA Layer/Lifecycle fields, (c) handle singleSelect field constraints, (d) write sync receipt.
+  dependencies: IMPL-K-0001.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-K-0003
+  source_path: 02-ENGINE/REF-JIRA_INTEGRATION.md
+  source_lines: "I (API details, deprecated /search endpoint)"
+  intent: Fix Jira integration for deprecated REST API endpoints.
+  deliverable: (a) Update all Jira API calls from /rest/api/3/search → /rest/api/3/search/jql, (b) verify Basic Auth still works with new endpoint, (c) add endpoint deprecation detection, (d) create Jira MCP server if valuable.
+  dependencies: Jira project SCRUM exists; ~/.syncrescendence/.env with ATLASSIAN_API_KEY.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-K-0004
+  source_path: 02-ENGINE/REF-TODOIST_INTEGRATION.md
+  source_lines: "I–II (API v1, Bearer auth)"
+  intent: Operationalize Todoist v1 API integration (v2 deprecated).
+  deliverable: (a) todoist_sync.py using /api/v1/ endpoints, (b) TODOIST_API_KEY from ~/.syncrescendence/.env, (c) handle free tier limits (8 projects, 5 active tasks), (d) migrate from v2→v1.
+  dependencies: Todoist account access; API key.
+  owner_lane: Ajna
+  venue: repo
+  status: new
+
+- id: IMPL-K-0005
+  source_path: 02-ENGINE/REF-TODOIST_INTEGRATION.md
+  source_lines: "I (Five-Tier Architecture, GTD → ClickUp feeding)"
+  intent: Build Todoist ↔ ClickUp bidirectional bridge for GTD methodology.
+  deliverable: (a) gtd_bridge.py: sync Todoist @Computer/@Phone/@Errands to ClickUp context-based projects, (b) Todoist Inbox → Linear (if actionable), (c) weekly review automation, (d) preserve WIP project segregation.
+  dependencies: ClickUp API access; Todoist project structure documented.
+  owner_lane: Ajna
+  venue: repo
+  status: new
+
+- id: IMPL-K-0006
+  source_path: 02-ENGINE/REF-WEB_APP_MEMORY_AUDIT.md
+  source_lines: "Executive Summary + Platform Comparison Matrix"
+  intent: Implement memory portability verification/audit script.
+  deliverable: (a) memory_portability_audit.py: assess each platform's exportability, (b) lock-in risk scoring, (c) generate migration recommendations for HIGH lock-in platforms, (d) integrate with DYN-CORPUS_HEALTH.md.
+  dependencies: Platform API access where available.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-K-0007
+  source_path: 02-ENGINE/REF-WEB_APP_MEMORY_AUDIT.md
+  source_lines: "Detailed Assessments (Claude, ChatGPT, Gemini, etc.)"
+  intent: Operationalize memory export automation for all high-value platforms.
+  deliverable: (a) Claude Memory Tool API wrapper, (b) ChatGPT data export automation (no API → manual), (c) Gemini export validation, (d) Notion MCP memory ops, (e) Mem0/Graphiti/QMD status verification.
+  dependencies: API keys per platform; export endpoints.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-K-0008
+  source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-frontier-scan.md
+  source_lines: "full template"
+  intent: Operationalize frontier scanning for paradigm shifts in AI/tech.
+  deliverable: (a) frontier_scan.py: poll sources (Reddit, arXiv, X), (b) Red Alert classification threshold, (c) output to DYN-CORPUS_HEALTH.md, (d) Acumen IIC integration.
+  dependencies: Source APIs; IMPL-J-0001.
+  owner_lane: Psyche
+  venue: repo
+  status: new
+
+- id: IMPL-K-0009
+  source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-corpus-staleness.md
+  source_lines: "full template"
+  intent: Auto-detect stale corpus files and trigger refresh workflows.
+  deliverable: (a) staleness_detector.py: check last-modified timestamps, (b) threshold: >30 days triggers refresh, (c) queue refresh tasks to DYN-INTENTIONS_QUEUE.md, (d) stale file registry.
+  dependencies: git timestamps; file metadata.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-K-0010
+  source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-linear-impl-sync.md
+  source_lines: "full template"
+  intent: Implement Linear ↔ IMPLEMENTATION-MAP bidirectional sync.
+  deliverable: (a) linear_sync.py: sync nextUp items to Linear, (b) pull Linear status back to IMPLEMENTATION-MAP, (c) deduplication logic, (d) webhook for real-time sync.
+  dependencies: Linear API key; project mapping.
+  owner_lane: Ajna
+  venue: repo
+  status: new
+
+- id: IMPL-K-0011
+  source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-ecosystem-health.md
+  source_lines: "full template"
+  intent: Comprehensive SaaS/API ecosystem health monitoring.
+  deliverable: (a) ecosystem_health.py: check all API endpoints (Airtable, Jira, Todoist, Linear, etc.), (b) rate limit status, (c) auth health, (d) daily report to DYN-ECOSYSTEM_HEALTH.md.
+  dependencies: All API keys; endpoint list.
+  owner_lane: Commander
   venue: repo
   status: new
 
