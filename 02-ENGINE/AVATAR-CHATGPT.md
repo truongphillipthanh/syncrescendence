@@ -360,5 +360,37 @@ Verify ideation serves the compression goal (808→200 files), not scope expansi
 
 ---
 
+## Memory Registration Prompts
+
+### Global Memory Registration
+
+Paste into ChatGPT to register global preferences in Saved Memory:
+
+> Remember these global preferences for me across all chats:
+>
+> 1. Always trifurcate substantive responses into: Inline readable content (normal markdown prose), Final transcript block (fenced code block at the very end), Directive Pack only when executing (Context, Pedigree, Directives A/B/C)
+> 2. The transcript block must always be last. Never output anything after the closing fence.
+> 3. "Blitzkrieg" means: produce Context, Pedigree, and Directives for lanes A/B/C with toolchain+model+success criteria+verification commands.
+> 4. Treat the repository as ground truth: use -INBOX for intake and -OUTBOX for exports/handoffs.
+
+### Project Memory Anchor (Syncrescendence)
+
+Paste within the Syncrescendence project to anchor project-level memory. Same 4 rules as global registration, scoped to the project.
+
+---
+
+## Memory Policy
+
+**Principle**: Saved Memory is for stable, high-level preferences and invariants. Not a template store.
+
+| Layer | What Belongs | What Does NOT Belong |
+|-------|-------------|---------------------|
+| **Saved Memory (global)** | Output trifurcation, workflow trigger semantics ("Blitzkrieg"), stable style constraints | Long protocols, full prompts, research dumps, entitlement lists |
+| **Project Instructions** | Behavioral contract, workflow rules | Volatile data |
+| **Project Files (RAG)** | Constitution, Blitzkrieg Protocol, Audizer Protocol, Memory Policy | Session-specific context |
+| **Repo** | Directives, execution logs, evidence packs, capability ledgers, continuity bundles | Nothing — repo is ground truth |
+
+---
+
 **Status**: Active configuration for ChatGPT in Ψ constellation.
 
