@@ -14,7 +14,7 @@
 ```
 
 - **Timestamp**: ISO 8601 (YYYY-MM-DDTHH:MM:SS)
-- **Event**: DISPATCH | CLAIM | COMPLETE | FAILED | DECISION | COMPACT | REGEN
+- **Event**: DISPATCH | CLAIM | COMPLETE | FAILED | BLOCKED | ESCALATION | COMMIT | DECISION | COMPACT | REGEN
 - **From**: Originating agent or Sovereign
 - **To**: Target agent or platform
 - **Task ID**: TASK filename (without path)
@@ -43,3 +43,4 @@
 | 2026-02-11T18:43:10 | CLAIM | commander | commander | TASK-20260211-MBA_COMMANDER_SETUP.md | 2e92a4c | 2e92a4c | — | — |
 | 2026-02-11T18:44:15 | CLAIM | commander | commander | TASK-20260211-MBA_COMMANDER_SETUP.md | 2e92a4c | 2e92a4c | — | — |
 | 2026-02-11T18:45:36 | COMPLETE | commander | — | TASK-20260211-MBA_COMMANDER_SETUP.md | e9d554b | e9d554b | — | — |
+| 2026-02-11T19:10:02 | COMMIT | commander-mba | repo | test: verify ledger pipeline fix | 2305084 | 2305084 | — | — |
