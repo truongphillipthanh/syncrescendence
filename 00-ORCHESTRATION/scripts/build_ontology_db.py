@@ -388,6 +388,114 @@ CREATE TABLE IF NOT EXISTS agent_bindings (
 );
 """
 
+SCHEMA_STRATEGIC = """
+-- ============================================================
+-- STRATEGIC TABLES — Entity Expansion (DA-07, 2026-02-11)
+-- 6 new entity types + governed verbs (advisory mode)
+-- ============================================================
+
+-- Commitments: obligations, promises, deadlines
+CREATE TABLE IF NOT EXISTS commitments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    stakeholder TEXT,
+    deadline DATE,
+    status TEXT DEFAULT 'active',
+    intention_link TEXT,
+    linear_id TEXT,
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Goals: desired outcomes linked to intentions
+CREATE TABLE IF NOT EXISTS goals (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    intention_link TEXT,
+    target_date DATE,
+    status TEXT DEFAULT 'active',
+    success_criteria TEXT,
+    linear_id TEXT,
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Risks: identified threats with probability and impact
+CREATE TABLE IF NOT EXISTS risks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    category TEXT,
+    probability TEXT,
+    impact TEXT,
+    mitigation TEXT,
+    status TEXT DEFAULT 'active',
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Strategic Relationships: connections between entities
+CREATE TABLE IF NOT EXISTS strategic_relationships (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    entity_a TEXT NOT NULL,
+    entity_a_type TEXT NOT NULL,
+    entity_b TEXT NOT NULL,
+    entity_b_type TEXT NOT NULL,
+    relationship_type TEXT NOT NULL,
+    strength INTEGER,
+    context TEXT,
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Resources: physical and digital assets
+CREATE TABLE IF NOT EXISTS resources (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    category TEXT,
+    monthly_cost REAL DEFAULT 0,
+    status TEXT DEFAULT 'active',
+    owner TEXT,
+    machine TEXT,
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Environments: operating contexts
+CREATE TABLE IF NOT EXISTS environments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    code TEXT NOT NULL UNIQUE,
+    name TEXT NOT NULL,
+    machine TEXT,
+    spatial_context TEXT,
+    primary_agent TEXT,
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Governed Verbs: advisory mode — tracks verb usage, does not enforce
+CREATE TABLE IF NOT EXISTS governed_verbs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    verb TEXT NOT NULL UNIQUE,
+    category TEXT,
+    applies_to TEXT,
+    requires_approval BOOLEAN DEFAULT FALSE,
+    advisory_note TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Strategic indexes
+CREATE INDEX IF NOT EXISTS idx_commitments_status ON commitments(status);
+CREATE INDEX IF NOT EXISTS idx_goals_status ON goals(status);
+CREATE INDEX IF NOT EXISTS idx_risks_category ON risks(category);
+CREATE INDEX IF NOT EXISTS idx_resources_category ON resources(category);
+CREATE INDEX IF NOT EXISTS idx_governed_verbs_category ON governed_verbs(category);
+"""
+
 SCHEMA_OPERATIONAL = """
 -- ============================================================
 -- OPERATIONAL TABLES — Syncrescendence Project Management
@@ -602,6 +710,13 @@ def seed_bedrock(conn):
             ("O.GRD", "Guard Objects", "Policy enforcement and safety mechanisms", "L5,L6"),
             ("O.EVL", "Evaluator Objects", "Quality assessment and performance measurement", "L5,L6"),
             ("O.CPL", "Copilot Objects", "Human-AI collaborative interface components", "L5"),
+            # Strategic Entity Types (DA-07 expansion, 2026-02-11)
+            ("O.CMT", "Commitment Objects", "Obligations, promises, and deadlines with stakeholders", "L6"),
+            ("O.GOL", "Goal Objects", "Desired outcomes linked to intentions and success criteria", "L6"),
+            ("O.RSK", "Risk Objects", "Identified threats with probability, impact, and mitigation", "L6"),
+            ("O.REL", "Relationship Objects", "Strategic connections between entities across domains", "L5,L6"),
+            ("O.RES", "Resource Objects", "Physical and digital assets with cost and ownership", "L0,L4"),
+            ("O.ENV", "Environment Objects", "Operating contexts binding machines, agents, and spatial states", "L0,L2"),
         ],
     )
 
@@ -2686,6 +2801,117 @@ def print_report(results, db_path):
     return status
 
 
+# --- Phase 7b: Strategic Entity Seeding (DA-07) ---
+
+
+def seed_strategic_entities(conn):
+    """Seed strategic entity tables with initial data from operational state."""
+    cur = conn.cursor()
+
+    # Commitments: active obligations from Intention Compass
+    cur.executemany(
+        "INSERT OR IGNORE INTO commitments (code, name, stakeholder, deadline, status, intention_link, notes) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        [
+            ("CMT-001", "Revenue mechanism by month end", "Sovereign", "2026-02-28", "failed", "INT-1201", "INT-1201 FAILED — needs reset with concrete mechanism"),
+            ("CMT-002", "Ontology substrate operational", "System", None, "active", "INT-MI19", "FINAL BOSS — Palantir-like ontology. Currently at 45%"),
+            ("CMT-003", "Begin ALL automations", "System", None, "active", "INT-1612", "P0 master plan — automation pipeline expansion"),
+            ("CMT-004", "MBA Ajna setup", "Sovereign", None, "active", "INT-P015", "Dual-machine paradigm — MBA=kinetic micro. SYN-35"),
+            ("CMT-005", "Tool onboarding pipeline", "System", None, "active", "INT-1202", "SYN-51/53 in progress, SYN-52/54 todo"),
+        ],
+    )
+
+    # Goals: desired outcomes
+    cur.executemany(
+        "INSERT OR IGNORE INTO goals (code, name, intention_link, status, success_criteria, notes) VALUES (?, ?, ?, ?, ?, ?)",
+        [
+            ("GOL-001", "Self-sustaining economics", "INT-1201", "blocked", "$160-210/mo covered by revenue", "Consulting, skill licensing, or architecture advisory"),
+            ("GOL-002", "Ontology kernel complete", "INT-MI19", "active", "All entity types + query surface operational", "4-layer kernel: Storage → Semantic → Integration → AI"),
+            ("GOL-003", "Constellation fully operational", "INT-1202", "partial", "All 6 agents dispatching successfully", "Currently: Commander reliable, Adjudicator restored, Cartographer hibernated"),
+            ("GOL-004", "HighCommand web dashboard", "INT-1603", "deferred", "Palantir-like observation dashboard", "Replaces Emacs observation layer"),
+            ("GOL-005", "Token economics optimized", "INT-P014", "active", "Zero waste in API spend", "Google AI Pro ($20/mo) under evaluation for cancellation"),
+        ],
+    )
+
+    # Risks: identified threats
+    cur.executemany(
+        "INSERT OR IGNORE INTO risks (code, name, category, probability, impact, mitigation, status, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        [
+            ("RSK-001", "NVIDIA free tier exhaustion", "economic", "high", "high", "Monitor credit consumption; prepare paid tier evaluation", "active", "Opaque consumption, ~1000 credits, 40 RPM"),
+            ("RSK-002", "ChatGPT Plus daily limit", "economic", "medium", "medium", "Prioritize Psyche tasks by value; batch operations", "active", "GPT-5.3-codex resets ~10:00"),
+            ("RSK-003", "Single point of execution", "operational", "high", "critical", "Restore Adjudicator (done), pursue MBA Ajna setup", "mitigated", "Commander was sole executor — Adjudicator now restored"),
+            ("RSK-004", "Stale state drift", "operational", "high", "medium", "Regular state corrections, automated sensing pipeline", "active", "MEMORY.md/BACKLOG.md drift discovered and fixed"),
+            ("RSK-005", "OAuth model access revocation", "strategic", "low", "critical", "Multi-model strategy, local fallbacks (Ollama)", "monitoring", "Anthropic blocked OAuth for Claude Max plan"),
+            ("RSK-006", "Google AI Pro zero ROI", "economic", "certain", "low", "Cancel subscription (SOVEREIGN-GATED)", "active", "Cartographer produced 0% signal-to-noise — $20/mo wasted"),
+        ],
+    )
+
+    # Resources: physical and digital assets
+    cur.executemany(
+        "INSERT OR IGNORE INTO resources (code, name, category, monthly_cost, status, owner, machine, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        [
+            ("RES-001", "Mac mini", "hardware", 0, "active", "Sovereign", "mac-mini", "Primary server — Commander, Adjudicator, Psyche, OpenClaw"),
+            ("RES-002", "MacBook Air", "hardware", 0, "active", "Sovereign", "mba", "Mobile cockpit — Ajna (pending setup)"),
+            ("RES-003", "5120x1440 Ultrawide", "hardware", 0, "active", "Sovereign", "mac-mini", "Display for 4-pane cockpit layout"),
+            ("RES-004", "Claude Max subscription", "subscription", 100, "active", "Sovereign", None, "Account 1 — Opus 4.6 via Claude Code"),
+            ("RES-005", "ChatGPT Plus subscription", "subscription", 20, "active", "Sovereign", None, "Account 1 — GPT-5.3-codex for Psyche"),
+            ("RES-006", "Google AI Pro subscription", "subscription", 20, "active", "Sovereign", None, "Account 2 — Gemini 2.5 Pro for Cartographer. UNDER REVIEW (DA-01)"),
+            ("RES-007", "Neo4j + Graphiti (Docker)", "infrastructure", 0, "active", "System", "mac-mini", "Knowledge graph — ports 7474/8001"),
+            ("RES-008", "Qdrant (Docker)", "infrastructure", 0, "active", "System", "mac-mini", "Vector store — port 6333"),
+            ("RES-009", "OpenClaw Gateway", "infrastructure", 0, "active", "System", "mac-mini", "Agent gateway — port 18789"),
+        ],
+    )
+
+    # Environments: operating contexts
+    cur.executemany(
+        "INSERT OR IGNORE INTO environments (code, name, machine, spatial_context, primary_agent, notes) VALUES (?, ?, ?, ?, ?, ?)",
+        [
+            ("ENV-001", "Mac mini Cockpit", "mac-mini", "fixed", "Commander", "Primary HQ — 4-pane tmux, 8 services, 19 launchd agents"),
+            ("ENV-002", "MBA Mobile Cockpit", "mba", "ambulatory", "Ajna", "Mobile operations — pending full setup (SYN-35)"),
+            ("ENV-003", "Deep Analysis", "mac-mini", "fixed", "Commander", "Sustained focus context — /claresce, ontology work"),
+            ("ENV-004", "Blitzkrieg Dispatch", "mac-mini", "fixed", "Commander", "Parallel multi-agent execution context"),
+        ],
+    )
+
+    # Governed Verbs: advisory mode — track but don't enforce
+    cur.executemany(
+        "INSERT OR IGNORE INTO governed_verbs (verb, category, applies_to, requires_approval, advisory_note) VALUES (?, ?, ?, ?, ?)",
+        [
+            # Commitment verbs
+            ("commit_to", "commitment", "commitments", False, "Create a new obligation"),
+            ("fulfill", "commitment", "commitments", False, "Complete an obligation"),
+            ("renegotiate", "commitment", "commitments", True, "Modify terms of an obligation"),
+            ("abandon", "commitment", "commitments", True, "Drop an obligation (requires Sovereign)"),
+            # Goal verbs
+            ("target", "goal", "goals", False, "Set a desired outcome"),
+            ("achieve", "goal", "goals", False, "Reach a desired outcome"),
+            ("defer", "goal", "goals", False, "Postpone a goal"),
+            ("redefine", "goal", "goals", True, "Change success criteria"),
+            # Risk verbs
+            ("identify", "risk", "risks", False, "Discover a new threat"),
+            ("mitigate", "risk", "risks", False, "Reduce probability or impact"),
+            ("accept", "risk", "risks", True, "Consciously accept a risk"),
+            ("escalate", "risk", "risks", False, "Raise risk visibility to Sovereign"),
+            # Resource verbs
+            ("allocate", "resource", "resources", True, "Assign a resource to a purpose"),
+            ("retire", "resource", "resources", True, "Remove a resource from service"),
+            ("audit", "resource", "resources", False, "Verify resource state and cost"),
+            # General strategic verbs
+            ("hibernate", "lifecycle", "any", False, "Suspend without deleting — reactivate later"),
+            ("activate", "lifecycle", "any", False, "Bring from hibernation to active"),
+            ("approve", "sovereign", "any", True, "Sovereign authorization gate"),
+            ("decline", "sovereign", "any", True, "Sovereign refusal gate"),
+        ],
+    )
+
+    conn.commit()
+    print(f"    Commitments: {cur.execute('SELECT COUNT(*) FROM commitments').fetchone()[0]}")
+    print(f"    Goals: {cur.execute('SELECT COUNT(*) FROM goals').fetchone()[0]}")
+    print(f"    Risks: {cur.execute('SELECT COUNT(*) FROM risks').fetchone()[0]}")
+    print(f"    Resources: {cur.execute('SELECT COUNT(*) FROM resources').fetchone()[0]}")
+    print(f"    Environments: {cur.execute('SELECT COUNT(*) FROM environments').fetchone()[0]}")
+    print(f"    Governed Verbs: {cur.execute('SELECT COUNT(*) FROM governed_verbs').fetchone()[0]}")
+
+
 def main():
     import argparse
 
@@ -2720,6 +2946,7 @@ def main():
         ("Primitives", SCHEMA_PRIMITIVES),
         ("Intelligence", SCHEMA_INTELLIGENCE),
         ("Kinetic", SCHEMA_KINETIC),
+        ("Strategic", SCHEMA_STRATEGIC),
         ("Operational", SCHEMA_OPERATIONAL),
         ("Indexes", SCHEMA_INDEXES),
         ("Meta", SCHEMA_META),
@@ -2875,11 +3102,15 @@ def main():
     ws_count = cur.fetchone()[0]
     print(f"      {ws_count} workflow steps")
 
-    # Phase 7: Write metadata
-    print("\nPhase 7: Writing metadata...")
+    # Phase 7: Strategic Entity Expansion (DA-07)
+    print("\nPhase 7: Strategic Entity Expansion (DA-07)...")
+    seed_strategic_entities(conn)
+
+    # Phase 8: Write metadata
+    print("\nPhase 8: Writing metadata...")
     conn.execute(
         "INSERT OR REPLACE INTO _meta (key, value, updated_at) VALUES (?, ?, ?)",
-        ("schema_version", "1.2.0", datetime.now().isoformat()),
+        ("schema_version", "1.3.0", datetime.now().isoformat()),
     )
     conn.execute(
         "INSERT OR REPLACE INTO _meta (key, value, updated_at) VALUES (?, ?, ?)",
@@ -2895,8 +3126,8 @@ def main():
     )
     conn.commit()
 
-    # Phase 8: Validate
-    print("\nPhase 8: Validating integrity...")
+    # Phase 9: Validate
+    print("\nPhase 9: Validating integrity...")
     results = validate_integrity(conn)
     status = print_report(results, db_path)
 

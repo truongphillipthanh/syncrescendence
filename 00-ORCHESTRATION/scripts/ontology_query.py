@@ -48,6 +48,8 @@ def cmd_stats(args):
         "Bedrock": ["layers", "object_types", "commercial_seams", "modalities", "lifecycle_states", "deployment_contexts"],
         "Settlements": ["apps", "models", "api_pricing"],
         "Intelligence": ["primitives", "apparatus", "usage_contexts"],
+        "Kinetic": ["action_types", "app_actions", "agent_bindings", "workflow_templates", "workflow_steps"],
+        "Strategic": ["commitments", "goals", "risks", "strategic_relationships", "resources", "environments", "governed_verbs"],
         "Operational": ["projects", "tasks", "accounts", "platforms", "platform_roles", "sources"],
     }
 
@@ -506,6 +508,120 @@ def cmd_workflows(args):
     conn.close()
 
 
+def cmd_commitments(args):
+    """List commitments with optional status filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+    query = "SELECT code, name, stakeholder, deadline, status, intention_link FROM commitments WHERE 1=1"
+    params = []
+    if "--status" in args:
+        idx = args.index("--status")
+        if idx + 1 < len(args):
+            query += " AND status = ?"
+            params.append(args[idx + 1])
+    query += " ORDER BY code"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+    print(f"{'Code':<10} {'Name':<35} {'Stakeholder':<12} {'Deadline':<12} {'Status':<10} Intent")
+    print("-" * 95)
+    for row in rows:
+        print(f"{row['code']:<10} {row['name'][:34]:<35} {(row['stakeholder'] or '-'):<12} {(row['deadline'] or '-'):<12} {row['status']:<10} {(row['intention_link'] or '-')}")
+    print(f"\n{len(rows)} commitments.")
+    conn.close()
+
+
+def cmd_goals(args):
+    """List goals with optional status filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+    query = "SELECT code, name, intention_link, status, success_criteria FROM goals WHERE 1=1"
+    params = []
+    if "--status" in args:
+        idx = args.index("--status")
+        if idx + 1 < len(args):
+            query += " AND status = ?"
+            params.append(args[idx + 1])
+    query += " ORDER BY code"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+    print(f"{'Code':<10} {'Name':<35} {'Intent':<12} {'Status':<10} Criteria")
+    print("-" * 95)
+    for row in rows:
+        criteria = (row['success_criteria'] or '')[:30]
+        print(f"{row['code']:<10} {row['name'][:34]:<35} {(row['intention_link'] or '-'):<12} {row['status']:<10} {criteria}")
+    print(f"\n{len(rows)} goals.")
+    conn.close()
+
+
+def cmd_risks(args):
+    """List risks with optional category filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+    query = "SELECT code, name, category, probability, impact, status FROM risks WHERE 1=1"
+    params = []
+    if "--category" in args:
+        idx = args.index("--category")
+        if idx + 1 < len(args):
+            query += " AND category = ?"
+            params.append(args[idx + 1])
+    query += " ORDER BY code"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+    print(f"{'Code':<10} {'Name':<35} {'Category':<12} {'Prob':<8} {'Impact':<10} Status")
+    print("-" * 90)
+    for row in rows:
+        print(f"{row['code']:<10} {row['name'][:34]:<35} {(row['category'] or '-'):<12} {(row['probability'] or '-'):<8} {(row['impact'] or '-'):<10} {row['status']}")
+    print(f"\n{len(rows)} risks.")
+    conn.close()
+
+
+def cmd_resources(args):
+    """List resources with optional category filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+    query = "SELECT code, name, category, monthly_cost, status, machine FROM resources WHERE 1=1"
+    params = []
+    if "--category" in args:
+        idx = args.index("--category")
+        if idx + 1 < len(args):
+            query += " AND category = ?"
+            params.append(args[idx + 1])
+    query += " ORDER BY code"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+    print(f"{'Code':<10} {'Name':<30} {'Category':<14} {'$/mo':>6} {'Status':<10} Machine")
+    print("-" * 85)
+    for row in rows:
+        cost = f"${row['monthly_cost']:.0f}" if row['monthly_cost'] else "$0"
+        print(f"{row['code']:<10} {row['name'][:29]:<30} {(row['category'] or '-'):<14} {cost:>6} {row['status']:<10} {(row['machine'] or '-')}")
+    total = sum(r['monthly_cost'] or 0 for r in rows)
+    print(f"\n{len(rows)} resources. Total monthly: ${total:.0f}")
+    conn.close()
+
+
+def cmd_verbs(args):
+    """List governed verbs with optional category filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+    query = "SELECT verb, category, applies_to, requires_approval, advisory_note FROM governed_verbs WHERE 1=1"
+    params = []
+    if "--category" in args:
+        idx = args.index("--category")
+        if idx + 1 < len(args):
+            query += " AND category = ?"
+            params.append(args[idx + 1])
+    query += " ORDER BY category, verb"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+    print(f"{'Verb':<18} {'Category':<12} {'Applies To':<16} {'Approval':>8}  Note")
+    print("-" * 80)
+    for row in rows:
+        appr = "YES" if row['requires_approval'] else "no"
+        print(f"{row['verb']:<18} {row['category']:<12} {row['applies_to']:<16} {appr:>8}  {(row['advisory_note'] or '')[:25]}")
+    print(f"\n{len(rows)} governed verbs (advisory mode).")
+    conn.close()
+
+
 COMMANDS = {
     "stats": cmd_stats,
     "layers": cmd_layers,
@@ -519,6 +635,11 @@ COMMANDS = {
     "actions": cmd_actions,
     "agent-bindings": cmd_agent_bindings,
     "workflows": cmd_workflows,
+    "commitments": cmd_commitments,
+    "goals": cmd_goals,
+    "risks": cmd_risks,
+    "resources": cmd_resources,
+    "verbs": cmd_verbs,
     "sql": cmd_sql,
 }
 
