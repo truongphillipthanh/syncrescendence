@@ -44,3 +44,7 @@
 | 2026-02-11T18:44:15 | CLAIM | commander | commander | TASK-20260211-MBA_COMMANDER_SETUP.md | 2e92a4c | 2e92a4c | — | — |
 | 2026-02-11T18:45:36 | COMPLETE | commander | — | TASK-20260211-MBA_COMMANDER_SETUP.md | e9d554b | e9d554b | — | — |
 | 2026-02-11T19:10:02 | COMMIT | commander-mba | repo | test: verify ledger pipeline fix | 2305084 | 2305084 | — | — |
+| 2026-02-11T19:13:50 | COMMIT | commander | repo | fix(SOVEREIGN-015): resolve 4 escalations — ledger pipeline fixed, kinetic dat | cc4ebed | cc4ebed | — | — |
+| 2026-02-11T19:20:02 | CLAIM | commander | commander | TASK-20260211-MBA_CASCADE_SUPPLEMENT.md | cc4ebed | cc4ebed | — | — |
+| 2026-02-11T19:20:29 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-11T19:20:29Z] | 977a458 | 977a458 | — | — |
+| 2026-02-11T19:21:00 | COMMIT | commander | repo | feat(SYN-35): MBA Commander init — cockpit, MCP setup, clarescence | 5cea41e | 5cea41e | — | — |
