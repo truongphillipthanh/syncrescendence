@@ -281,3 +281,27 @@
 - **2026-02-10 21:00:10** | `## Tomorrow's Priority`
 
 - **2026-02-10 21:00:10** | `## Tomorrow's Priority`
+
+- **2026-02-10 23:53:01** | `- **SYN-34** (config cascade): 7 entries -- all cross-platform tooling, entrypoint files, always-on readiness`
+
+- **2026-02-10 23:53:06** | `**5 Epics** mapping to the highest-priority Linear projects:`
+
+- **2026-02-10 23:53:11** | `**Priority breakdown:**`
+
+- **2026-02-11 07:00:11** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-11 07:00:11** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-11 07:30:10** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(first:100) { nodes { identifier number title state { name type } priority updatedAt labels { nodes { name } } project { nam`
+
+- **2026-02-11 07:30:10** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(first:100) { nodes { identifier number title state { name type } priority updatedAt labels { nodes { name } } project { nam`
+
+- **2026-02-11 09:34:30** | `it's important that you comprehensively involve adjudicator coequally in this endeavor. gpt-5.3-codex usually takes much longer to think but can be much more precise. comprehensively elucidate a path `
+
+- **2026-02-11 10:37:21** | `     - Formalize 6 existing apparatus as workflow templates`
+
+- **2026-02-11 10:43:19** | `**Priority**: P1`
+
+- **2026-02-11 10:43:19** | `**Priority**: P1`
+
+- **2026-02-11 10:44:22** | `**Priority**: P1`
