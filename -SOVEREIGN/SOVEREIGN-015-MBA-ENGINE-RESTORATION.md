@@ -19,8 +19,8 @@ Commander initiated on MacBook Air and ran a comprehensive clarescence of the "s
 
 | Fix | Status |
 |-----|--------|
-| OpenClaw gateway launchd plist created | DONE — survives reboots now |
-| Gateway identity changed from Psyche → Ajna | DONE — `IDENTITY.md` updated, gateway restarted |
+| Gateway reboot-resilience verified | DONE — `ai.openclaw.gateway.plist` was already present (OpenClaw-native); initially misidentified as missing because searching for wrong label |
+| Gateway identity changed from Psyche → Ajna | DONE — `~/.openclaw/workspace/IDENTITY.md` updated, gateway restarted |
 | `.claude/skills/claresce.md` restored from git | DONE |
 | Commander inbox cleared (9 items → 0) | DONE — triaged to 40-DONE and 50_FAILED |
 
@@ -78,7 +78,7 @@ Commander initiated on MacBook Air and ran a comprehensive clarescence of the "s
 | 16 universal skills | GREEN |
 | 11 OpenClaw skills | GREEN |
 | Inbox (Commander) | GREEN (cleared) |
-| Repo state | YELLOW (uncommitted DYN files) |
+| Repo state | GREEN (committed, pushed) |
 | Adjudicator (Mac mini) | RED (model access failure) |
 
 **Verdict**: MBA second engine is ONLINE and AUTONOMOUS. The Mac mini has the systemic issues.
