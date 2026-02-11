@@ -1,4 +1,4 @@
-fingerprint: 933f915
-timestamp: 2026-02-11T20:19:50Z
+fingerprint: 5004268
+timestamp: 2026-02-11T20:20:34Z
 branch: main
-message: feat(DA-07,INT-MI19): ontology entity expansion — 6 strategic types + governed verbs
+message: fix: restore full ledger history + append DA-01 through DA-07 entries

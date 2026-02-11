@@ -76,3 +76,4 @@
 | 2026-02-11T20:15:45 | COMMIT | commander | repo | feat(DA-01,DA-02,DA-03): fleet right-sizing — Cartographer hibernated, Adjudicator restored | 83c1a7e | 83c1a7e | DA-01,DA-02,DA-03 | INT-P014,INT-1202 |
 | 2026-02-11T20:19:25 | DECISION | commander | repo | DA-07-entity-expansion | 83c1a7e | — | DA-07 | INT-MI19 |
 | 2026-02-11T20:19:51 | COMMIT | commander | repo | feat(DA-07,INT-MI19): ontology entity expansion — 6 strategic types + governed verbs | 933f915 | 933f915 | DA-07 | INT-MI19 |
+| 2026-02-11T20:20:34 | COMMIT | commander | repo | fix: restore full ledger history + append DA-01 through DA-07 entries | 5004268 | 5004268 | — | — |
