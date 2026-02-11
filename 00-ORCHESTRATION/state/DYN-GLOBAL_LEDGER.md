@@ -69,3 +69,7 @@
 | 2026-02-11T20:12:53 | COMMIT | commander | repo | chore: commit DYN state + convergent-path clarescence | c769603 | c769603 | — | — |
 | 2026-02-11T20:14:03 | DECISION | commander | repo | DA-04-correction | c769603 | c769603 | c769603 | — |
 | 2026-02-11T20:14:03 | DECISION | commander | repo | DA-05-stale-state | c769603 | c769603 | c769603 | — |
+| 2026-02-11T20:14:21 | COMMIT | commander | repo | fix(DA-04,DA-05): correct stale state across IMPL-MAP, backlog, memory | 06d8ac3 | 06d8ac3 | — | — |
+| 2026-02-11T20:15:34 | DECISION | commander | repo | DA-01-cartographer-hibernate | 06d8ac3 | 06d8ac3 | 06d8ac3 | — |
+| 2026-02-11T20:15:34 | DECISION | commander | repo | DA-02-adjudicator-restored | 06d8ac3 | 06d8ac3 | 06d8ac3 | — |
+| 2026-02-11T20:15:34 | DECISION | commander | repo | DA-03-emacs-hibernate | 06d8ac3 | 06d8ac3 | 06d8ac3 | — |

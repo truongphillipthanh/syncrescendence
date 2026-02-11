@@ -34,7 +34,7 @@ The constellation has three tiers: **CLI agents** (always-on, cockpit-resident, 
 |--------|---------|------|----------|------|---------|---------|--------|
 | **Commander** | Viceroy | COO | Claude Code (Opus 4.6) | 1 | Mac mini | Pane 2 | "Commander, pivot to..." |
 | **Adjudicator** | Executor | CQO | Codex CLI (Sonnet) | 2 | Mac mini | Pane 3 | "Adjudicator, execute..." |
-| **Cartographer** | Exegete | CIO | Gemini CLI (2.5 Pro) | 2 | Mac mini | Pane 4 | "Cartographer, survey..." |
+| **Cartographer** | Exegete | CIO | Gemini CLI (2.5 Pro) | 2 | Mac mini | Pane 4 | "Cartographer, survey..." | **HIBERNATED** (DA-01, 2026-02-11) — 0% signal-to-noise across 6 tasks. Reactivate when Gemini CLI produces >100 lines per task. |
 
 #### Local Agents (AjnaPsyche Archon — Fused Executive Brain)
 
