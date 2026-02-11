@@ -194,16 +194,18 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-46
 
 - id: IMPL-A-0017
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
   source_lines: "System 2: Curation-Push (Serendipitous Discovery)"
-  intent: Create a frictionless ‘save-to-queue’ ingestion path.
+  intent: Create a frictionless 'save-to-queue' ingestion path.
   deliverable: A capture protocol for watch-later/bookmark inputs (YouTube Watch Later, browser share sheet, etc.) with a deterministic queue file format and a processor that deposits cleaned sources into 04-SOURCES/processed/.
   dependencies: Decide capture surfaces (YouTube playlist polling, Pocket/Instapaper, Apple Notes, etc.).
   owner_lane: Psyche (spec) + Commander (impl)
   venue: repo
   status: new
+  linear_id: SYN-46
 
 - id: IMPL-A-0018
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -263,7 +265,8 @@
   dependencies: /claresce Pass 1-3 on automation policy (truth surface + reliability).
   owner_lane: Psyche
   venue: repo
-  status: new
+  status: done
+  linear_id: SYN-45
 
 - id: IMPL-A-0024
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
@@ -955,7 +958,8 @@
   dependencies: 00-ORCHESTRATION/scripts/launchd-mini/*, 00-ORCHESTRATION/scripts/launchd-psyche/*
   owner_lane: Psyche
   venue: repo
-  status: mapped
+  status: done
+  linear_id: SYN-34
 
 - id: IMPL-D-0035
   source_path: 00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-*.plist
@@ -965,7 +969,8 @@
   dependencies: None
   owner_lane: Psyche
   venue: repo
-  status: mapped
+  status: done
+  linear_id: SYN-34
 
 - id: IMPL-D-0036
   source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
@@ -1038,7 +1043,8 @@
   dependencies: None
   owner_lane: Psyche
   venue: repo
-  status: mapped
+  status: done
+  linear_id: SYN-27
 
 - id: IMPL-D-0043
   source_path: 00-ORCHESTRATION/scripts/sync_openclaw_skills.sh
@@ -1049,6 +1055,7 @@
   owner_lane: Psyche
   venue: repo
   status: mapped
+  linear_id: SYN-43
 
 - id: IMPL-D-0044
   source_path: -OUTGOING/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
@@ -1068,7 +1075,8 @@
   dependencies: OpenClaw CLI; ability to restart gateway
   owner_lane: Ajna
   venue: tool
-  status: queued
+  status: done
+  linear_id: SYN-27
 
 - id: IMPL-D-0046
   source_path: 00-ORCHESTRATION/scripts/sync_openclaw_skills.sh
@@ -1088,7 +1096,8 @@
   dependencies: Skill load + plugin enablement state
   owner_lane: Psyche + Ajna
   venue: repo
-  status: new
+  status: done
+  linear_id: SYN-33
 
 - id: IMPL-D-0048
   source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
@@ -1109,6 +1118,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-43
 
 - id: IMPL-D-0050
   source_path: -OUTGOING/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
@@ -1342,6 +1352,7 @@
   owner_lane: Commander
   venue: tool+repo
   status: in_progress
+  linear_id: SYN-42
   notes: "8 layers installed 2026-02-08. Starship replaced P10k, emacs-mac replaced emacs-plus, cockpit 1x4 layout. See CLARESCENCE-2026-02-08-cockpit-lifestyle-layer.md."
 
 - id: IMPL-E-0002
@@ -1533,10 +1544,11 @@
   source_lines: "123–128 (Capture: attached reports canonization; tmux; HighCommand; session discipline)"
   intent: Flush pending meta-intentions into executable tasks.
   deliverable: Triage note + concrete task definitions for INT-C002/INT-C005/INT-C006/INT-C007 (canonize reports; tmux enablement; HighCommand ontology linkage doc; parallel-session discipline SOP).
-  dependencies: Identify the “attached reports” location; confirm HighCommand repo path.
+  dependencies: Identify the "attached reports" location; confirm HighCommand repo path.
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-40
 
 - id: IMPL-F-0011
   source_path: 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
@@ -1691,7 +1703,8 @@
   dependencies: IMPL-A-0016 (System 1 automation); launchd/cron decision.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  linear_id: SYN-56
 
 - id: IMPL-H-0004
   source_path: Makefile
@@ -1758,6 +1771,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-49
 
 - id: IMPL-J-0002
   source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
@@ -1788,6 +1802,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-24
 
 - id: IMPL-J-0005
   source_path: 01-CANON/CANON-31141-FIVE_ACCOUNT
@@ -1798,6 +1813,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-48
 
 - id: IMPL-J-0006
   source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION
@@ -1880,7 +1896,8 @@
   dependencies: ontology.db schema stability; Airtable API access.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  linear_id: SYN-55
 
 - id: IMPL-K-0002
   source_path: 02-ENGINE/REF-AIRTABLE_INTEGRATION.md
@@ -1890,7 +1907,8 @@
   dependencies: IMPL-K-0001.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  linear_id: SYN-55
 
 - id: IMPL-K-0003
   source_path: 02-ENGINE/REF-JIRA_INTEGRATION.md
@@ -1900,7 +1918,8 @@
   dependencies: Jira project SCRUM exists; ~/.syncrescendence/.env with ATLASSIAN_API_KEY.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: in_progress
+  linear_id: SYN-51
 
 - id: IMPL-K-0004
   source_path: 02-ENGINE/REF-TODOIST_INTEGRATION.md
@@ -1910,7 +1929,8 @@
   dependencies: Todoist account access; API key.
   owner_lane: Ajna
   venue: repo
-  status: new
+  status: in_progress
+  linear_id: SYN-53
 
 - id: IMPL-K-0005
   source_path: 02-ENGINE/REF-TODOIST_INTEGRATION.md
@@ -1921,6 +1941,7 @@
   owner_lane: Ajna
   venue: repo
   status: new
+  linear_id: SYN-53
 
 - id: IMPL-K-0006
   source_path: 02-ENGINE/REF-WEB_APP_MEMORY_AUDIT.md
@@ -1930,7 +1951,8 @@
   dependencies: Platform API access where available.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: done
+  linear_id: SYN-38
 
 - id: IMPL-K-0007
   source_path: 02-ENGINE/REF-WEB_APP_MEMORY_AUDIT.md
@@ -1941,6 +1963,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-K-0008
   source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-frontier-scan.md
@@ -1951,6 +1974,7 @@
   owner_lane: Psyche
   venue: repo
   status: new
+  linear_id: SYN-31
 
 - id: IMPL-K-0009
   source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-corpus-staleness.md
@@ -1961,6 +1985,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-31
 
 - id: IMPL-K-0010
   source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-linear-impl-sync.md
@@ -1971,6 +1996,7 @@
   owner_lane: Ajna
   venue: repo
   status: new
+  linear_id: SYN-30
 
 - id: IMPL-K-0011
   source_path: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-ecosystem-health.md
@@ -1981,6 +2007,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-31
 
 
 ## 2026-02-10 — Tranche L (Operational Recalibration): Atomicity + Wiring + SYN-16
@@ -1994,6 +2021,7 @@
   owner_lane: Commander
   venue: repo
   status: new
+  linear_id: SYN-38
 
 - id: IMPL-L-0002
   source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
@@ -2013,7 +2041,8 @@
   dependencies: SYN-31 templates exist; claudecron available.
   owner_lane: Commander
   venue: repo
-  status: new
+  status: in_progress
+  linear_id: SYN-31
 
 - id: IMPL-L-0004
   source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
@@ -2023,7 +2052,8 @@
   dependencies: IMPL-K-0010 (Linear↔IMPL sync).
   owner_lane: Ajna
   venue: repo
-  status: new
+  status: in_progress
+  linear_id: SYN-16
 
 - id: IMPL-L-0005
   source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
@@ -2034,4 +2064,57 @@
   owner_lane: Ajna
   venue: repo
   status: new
+
+
+## 2026-02-10 — Tranche M (New Material): MCP Decisions + Sensing Launchd
+
+- id: IMPL-M-0001
+  source_path: -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
+  source_lines: "Decision 1"
+  intent: Await Sovereign approval for Jira MCP server installation.
+  deliverable: (a) Sovereign decision: APPROVED/DENIED/DEFERRED, (b) if APPROVED: convert Jira board to Scrum type in UI, (c) add MCP config to ~/.claude.json, (d) test: create a Jira ticket from Commander.
+  dependencies: Jira board access; Sovereign decision.
+  owner_lane: Commander
+  venue: Linear
+  status: new
+
+- id: IMPL-M-0002
+  source_path: -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
+  source_lines: "Decision 2"
+  intent: Await Sovereign approval for Todoist MCP + frozen project decision.
+  deliverable: (a) Sovereign decision: APPROVED/DENIED/DEFERRED, (b) if APPROVED: choose Option A/B/C for frozen projects, (c) add MCP config to ~/.claude.json, (d) test: create/move/complete a Todoist task from Commander.
+  dependencies: Todoist API key; Sovereign decision.
+  owner_lane: Commander
+  venue: Linear
+  status: new
+
+- id: IMPL-M-0003
+  source_path: -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
+  source_lines: "Decision 3"
+  intent: Await Sovereign approval for Airtable MCP server installation.
+  deliverable: (a) Sovereign decision: APPROVED/DENIED/DEFERRED, (b) if APPROVED: add MCP config to ~/.claude.json, (c) test: query/edit Airtable Platforms table from Commander.
+  dependencies: Airtable PAT; Sovereign decision.
+  owner_lane: Commander
+  venue: Linear
+  status: new
+
+- id: IMPL-M-0004
+  source_path: -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
+  source_lines: "Decision 4"
+  intent: Await Sovereign decision on Todoist weekly review cadence.
+  deliverable: (a) Sovereign decision: Option A (auto) / B (manual) / C (hybrid), (b) if A or C: add claudecron job, (c) implement weekly review template.
+  dependencies: Todoist MCP status; Sovereign decision.
+  owner_lane: Commander
+  venue: Linear
+  status: new
+
+- id: IMPL-M-0010
+  source_path: 00-ORCHESTRATION/scripts/launchd/*sensing*.plist
+  source_lines: "All 3 plist files"
+  intent: Complete IMPL-L-0003 by activating sensing launchd agents.
+  deliverable: (a) Move plist files from untracked to committed state, (b) load agents: launchctl load, (c) verify jobs run at scheduled times, (d) check logs in /tmp/syncrescendence-claude/.
+  dependencies: Plist files created; paths validated.
+  owner_lane: Ajna
+  venue: repo
+  status: in_progress
 

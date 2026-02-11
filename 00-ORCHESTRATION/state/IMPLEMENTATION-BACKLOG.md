@@ -323,3 +323,21 @@
 ### P1
 - IMPL-L-0004 — Advance SYN-16: T1a↔T2 bridge (14.2% → 25%+)
 - IMPL-L-0005 — Ajna sync coordination guard (prevent destructive deletions)
+
+## 2026-02-10 (Tranche M — MCP Decisions + Sensing Progress)
+
+### P0 (Sovereign Decision Required)
+- IMPL-M-0001 — Jira MCP approval + Scrum board conversion
+- IMPL-M-0002 — Todoist MCP approval + frozen project decision (Option A/B/C)
+- IMPL-M-0003 — Airtable MCP approval
+
+### P1
+- IMPL-M-0004 — Todoist weekly review cadence (auto/manual/hybrid)
+- IMPL-M-0010 — Activate sensing launchd agents (in progress; 3 plists created)
+  - corpus-staleness: Mon 05:30
+  - frontier-scan: Sun 06:00
+  - linear-impl-sync: daily 07:30
+
+### Decision Required
+**Sovereign**: Review -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md
+**Actions**: Provide "APPROVED ALL" signature for MCP installation batch, or individual decisions per MCP.
