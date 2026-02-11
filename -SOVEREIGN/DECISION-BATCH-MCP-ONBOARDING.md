@@ -2,7 +2,7 @@
 **Date**: 2026-02-10
 **From**: Commander
 **Priority**: P1
-**Status**: PENDING
+**Status**: APPROVED — Executed 2026-02-11
 
 ## Context
 
@@ -98,8 +98,7 @@ Should Commander run a weekly GTD review automatically?
 
 ## Batch Approval
 
-To approve all 3 MCP installations:
-Write "APPROVED ALL" and sign.
-
-Sovereign: _______________
-Date: _______________
+Sovereign: APPROVED ALL
+Date: 2026-02-11
+Executed: Commander installed jira, todoist, airtable MCP servers into ~/.claude.json project scope
+Note: MCP servers active on next session restart. Frozen projects: Option C (accept limitation). Weekly review: Option C (hybrid).
