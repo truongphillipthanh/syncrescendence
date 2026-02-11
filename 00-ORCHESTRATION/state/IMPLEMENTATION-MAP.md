@@ -1982,3 +1982,56 @@
   venue: repo
   status: new
 
+
+## 2026-02-10 — Tranche L (Operational Recalibration): Atomicity + Wiring + SYN-16
+
+- id: IMPL-L-0001
+  source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
+  source_lines: "Pass 2 atomicity failures; Immediate Action 1"
+  intent: Restore REF-WEB_APP_MEMORY_AUDIT.md destructively deleted by Ajna sync.
+  deliverable: (a) git checkout REF-WEB_APP_MEMORY_AUDIT.md from prior commit, (b) verify restoration, (c) add .gitattributes protection if needed, (d) document Ajna sync hazard.
+  dependencies: git reflog access; prior commit hash.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-L-0002
+  source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
+  source_lines: "Immediate Action 2"
+  intent: Clear 9 uncommitted hook-generated DYN-* files violating Receipts invariant.
+  deliverable: (a) Review each DYN-* file for value, (b) commit or discard, (c) update pre_compaction hook to auto-commit DYN-* files, (d) add DYN-* to .gitattributes or global .gitignore.
+  dependencies: None.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-L-0003
+  source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
+  source_lines: "Immediate Action 4; INT-1612 activation"
+  intent: Wire SYN-31 sensing templates into claudecron Phase 2 pipeline.
+  deliverable: (a) Create claudecron.job for sensing templates (frontier-scan, corpus-staleness, ecosystem-health), (b) configure launchd dispatch timing, (c) test end-to-end execution, (d) verify output to appropriate DYN-* files.
+  dependencies: SYN-31 templates exist; claudecron available.
+  owner_lane: Commander
+  venue: repo
+  status: new
+
+- id: IMPL-L-0004
+  source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
+  source_lines: "Immediate Action 5; T1a↔T2 bridge at 14.2%"
+  intent: Advance SYN-16 — T1a (Linear) ↔ T2 (Implementation Map) bridge work.
+  deliverable: (a) Linear project mapping schema, (b) bidirectional sync logic, (c) test with 5 sample issues, (d) target: 14.2% → 25%+ completion.
+  dependencies: IMPL-K-0010 (Linear↔IMPL sync).
+  owner_lane: Ajna
+  venue: repo
+  status: new
+
+- id: IMPL-L-0005
+  source_path: impl/clarescence/CLARESCENCE-2026-02-10-operational-recalibration.md
+  source_lines: "Pass 2: Agent compat PARTIAL"
+  intent: Add Ajna sync coordination guard to prevent destructive deletions.
+  deliverable: (a) Pre-sync checklist script (verify local changes), (b) conflict detection (warn on divergent HEAD), (c) --dry-run option for Ajna sync, (d) documentation: "Sync Protocol v2".
+  dependencies: Git hook framework.
+  owner_lane: Ajna
+  venue: repo
+  status: new
+

@@ -312,3 +312,14 @@
 ### P2
 - IMPL-K-0008 — Frontier scanning automation (paradigm shift detection)
 - IMPL-K-0009 — Corpus staleness detection + refresh queuing
+
+## 2026-02-10 (Tranche L — Operational Recalibration: Atomicity + Wiring)
+
+### P0
+- IMPL-L-0001 — Restore REF-WEB_APP_MEMORY_AUDIT.md (Ajna sync casualty)
+- IMPL-L-0002 — Clear uncommitted DYN-* files (Receipts invariant violation)
+- IMPL-L-0003 — Wire SYN-31 sensing templates into claudecron Phase 2
+
+### P1
+- IMPL-L-0004 — Advance SYN-16: T1a↔T2 bridge (14.2% → 25%+)
+- IMPL-L-0005 — Ajna sync coordination guard (prevent destructive deletions)
