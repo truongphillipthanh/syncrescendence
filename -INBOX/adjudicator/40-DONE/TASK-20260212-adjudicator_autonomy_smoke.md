@@ -8,11 +8,11 @@
 **Kind**: TASK
 **Priority**: P1
 **Status**: COMPLETE
-**Kanban**: COMPLETE
+**Kanban**: DONE
 **Claimed-By**: adjudicator-M1-Mac-mini
 **Claimed-At**: 2026-02-12T23:51:22Z
-**Completed-At**: 2026-02-12T23:52:34Z
-**Exit-Code**: —
+**Completed-At**: 2026-02-12T23:54:46Z
+**Exit-Code**: 0
 **Timeout**: 30
 **CC**: commander
 **Receipts-To**: -OUTBOX/adjudicator/RESULTS
