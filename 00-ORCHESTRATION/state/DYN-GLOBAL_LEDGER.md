@@ -147,3 +147,22 @@
 | 2026-02-12T04:56:56 | COMMIT | commander | repo | chore: sync hook artifacts before push | 8b696c4 | 8b696c4 | — | — |
 | 2026-02-12T04:57:37 | ACKNOWLEDGE | int1612_automation_audit | ajna | MISROUTED — MBA OpenClaw identified as Psyche, not Ajna. INT-1612 audit NOT completed. Identity config drift. | 8b696c4 | 8b696c4 | — | — |
 | 2026-02-12T04:58:53 | COMMIT | commander | repo | chore: process Ajna INT-1612 result (misrouted) + execution log + DYN-* state | f8cb837 | f8cb837 | — | — |
+| 2026-02-12T04:58:59 | COMMIT | commander | repo | chore: pre-push hook artifact sync | 71d2719 | 71d2719 | — | — |
+| 2026-02-12T04:59:07 | COMMIT | commander | repo | chore: post-push hook sync | 7446472 | 7446472 | — | — |
+| 2026-02-12T05:04:22 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T05:04:22Z] | 4880a27 | 4880a27 | — | — |
+| 2026-02-12T05:19:31 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T05:19:31Z] | a7b3964 | a7b3964 | — | — |
+| 2026-02-12T05:34:39 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T05:34:39Z] | 2cf9b65 | 2cf9b65 | — | — |
+| 2026-02-12T13:03:11 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T13:03:11Z] | a675960 | a675960 | — | — |
+| 2026-02-12T15:05:22 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T15:05:22Z] | fbfae94 | fbfae94 | — | — |
+| 2026-02-12T19:27:45 | CLAIM | adjudicator | adjudicator | TASK-20260212-ecosystem_health.md | fbfae94 | fbfae94 | — | — |
+| 2026-02-12T19:28:04 | FAILED | adjudicator | — | TASK-20260212-ecosystem_health.md | fbfae94 | fbfae94 | — | — |
+| 2026-02-12T19:32:44 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z] | b787ec5 | b787ec5 | — | — |
+| 2026-02-12T21:03:27 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z] | 0e490a5 | 0e490a5 | — | — |
+| 2026-02-12T21:26:12 | DISPATCH | dispatch | commander | TASK-20260212-mba_adjudicator_model_recovery.md | 0e490a5 | 0e490a5 | — | — |
+| 2026-02-12T21:26:14 | CLAIM | commander | commander | TASK-20260212-mba_adjudicator_model_recovery.md | 0e490a5 | 0e490a5 | — | — |
+| 2026-02-12T21:28:41 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z] | 1027202 | 1027202 | — | — |
+| 2026-02-12T21:32:07 | FAILED | commander | — | TASK-20260212-mba_adjudicator_model_recovery.md | 1027202 | 1027202 | — | — |
+| 2026-02-12T21:33:45 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z] | c1dde7c | c1dde7c | — | — |
+| 2026-02-12T21:34:06 | ACKNOWLEDGE | ecosystem_health | adjudicator | FAILED — gpt-5.3-codex unavailable on MBA (Plus plan), MCP Linear/Notion OAuth not configured | c1dde7c | c1dde7c | — | — |
+| 2026-02-12T21:38:49 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:38:49Z] | e7818c9 | e7818c9 | — | — |
+| 2026-02-12T21:39:06 | COMMIT | commander | repo | fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override | 158cfe3 | 158cfe3 | — | — |

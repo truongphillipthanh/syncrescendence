@@ -3886,3 +3886,305 @@ none
 192 intention(s) captured by Intent Compass this session.
 
 ---
+
+## Session: 2026-02-11 20:59:24
+**Branch**: main | **Fingerprint**: 7446472 | **Commits**: 10
+
+### Commits
+```
+7446472 chore: post-push hook sync
+71d2719 chore: pre-push hook artifact sync
+f8cb837 chore: process Ajna INT-1612 result (misrouted) + execution log + DYN-* state
+8b696c4 chore: sync hook artifacts before push
+40238fb chore: sync trailing hook state
+cf97a3e chore: final hook artifact tail
+e7cfaed chore: sync DYN-* hook artifacts from blitzkrieg commits
+ca2fb65 dispatch(blitzkrieg): 3 tasks -> psyche, adjudicator, ajna
+ed0da7f docs(DA-14): Commander dual-residency in COCKPIT.md + blitzkrieg clarescence
+b5a01b0 chore: acknowledge 10 task results, clean commander inbox (22 items to RECEIPTS)
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+192 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 07:00:45
+**Branch**: main | **Fingerprint**: a675960 | **Commits**: 1
+
+### Commits
+```
+a675960 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T13:03:11Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+196 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 07:00:45
+**Branch**: main | **Fingerprint**: a675960 | **Commits**: 1
+
+### Commits
+```
+a675960 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T13:03:11Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+196 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:00:55
+**Branch**: main | **Fingerprint**: b787ec5 | **Commits**: 2
+
+### Commits
+```
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+fbfae94 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T15:05:22Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+200 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:00:55
+**Branch**: main | **Fingerprint**: b787ec5 | **Commits**: 2
+
+### Commits
+```
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+fbfae94 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T15:05:22Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+200 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:27:29
+**Branch**: main | **Fingerprint**: 0e490a5 | **Commits**: 2
+
+### Commits
+```
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:32:06
+**Branch**: main | **Fingerprint**: 1027202 | **Commits**: 3
+
+### Commits
+```
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:32:06
+**Branch**: main | **Fingerprint**: 1027202 | **Commits**: 3
+
+### Commits
+```
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:38:57
+**Branch**: main | **Fingerprint**: c1dde7c | **Commits**: 4
+
+### Commits
+```
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:38:57
+**Branch**: main | **Fingerprint**: c1dde7c | **Commits**: 4
+
+### Commits
+```
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---

@@ -335,3 +335,23 @@
 - **2026-02-11 20:10:25** | `**Priority**: P0`
 
 - **2026-02-11 20:10:25** | `**Priority**: P0`
+
+- **2026-02-11 21:00:11** | `## Tomorrow's Priority`
+
+- **2026-02-11 21:00:11** | `## Tomorrow's Priority`
+
+- **2026-02-12 07:00:10** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-12 07:00:10** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-12 07:30:11** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(first:100) { nodes { identifier number title state { name type } priority updatedAt labels { nodes { name } } project { nam`
+
+- **2026-02-12 07:30:11** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(first:100) { nodes { identifier number title state { name type } priority updatedAt labels { nodes { name } } project { nam`
+
+- **2026-02-12 13:00:12** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-12 13:00:12** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-12 13:26:26** | `**Priority**: P1`
+
+- **2026-02-12 13:26:26** | `**Priority**: P1`

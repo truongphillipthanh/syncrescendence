@@ -1,4 +1,4 @@
-fingerprint: f8cb837
-timestamp: 2026-02-12T04:58:53Z
+fingerprint: 158cfe3
+timestamp: 2026-02-12T21:39:06Z
 branch: main
-message: chore: process Ajna INT-1612 result (misrouted) + execution log + DYN-* state
+message: fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
