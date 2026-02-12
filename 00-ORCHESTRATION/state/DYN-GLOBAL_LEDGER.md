@@ -35,3 +35,4 @@
 | 2026-02-12T02:15:18 | COMMIT | commander | repo | chore: sync ledger hook artifacts post-commit | a0c8182 | a0c8182 | — | — |
 | 2026-02-12T02:15:47 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 4a9c0f4 | 4a9c0f4 | — | — |
 | 2026-02-12T02:29:00 | DECISION | adjudicator | commander | CLARESCENCE-2026-02-12-adjudicator-intake-normalization | 4a9c0f4 | 4a9c0f4 | DA-ADJ-INTAKE-001 | INT-P003 |
+| 2026-02-12T02:30:10 | COMMIT | commander | repo | feat(INT-MI19): ontology dashboard command + clarescence records | ec0f471 | ec0f471 | — | — |

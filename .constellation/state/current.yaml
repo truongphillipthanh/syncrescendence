@@ -1,4 +1,4 @@
-fingerprint: 4a9c0f4
-timestamp: 2026-02-12T02:15:47Z
+fingerprint: ec0f471
+timestamp: 2026-02-12T02:30:10Z
 branch: main
-message: chore: auto-compact wisdom at threshold (10 entries)
+message: feat(INT-MI19): ontology dashboard command + clarescence records
