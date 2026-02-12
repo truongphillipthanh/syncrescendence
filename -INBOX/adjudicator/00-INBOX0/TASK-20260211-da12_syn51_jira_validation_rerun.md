@@ -1,16 +1,16 @@
-# TASK-20260211-adjudicator_smoke_model52_v2
+# TASK-20260211-da12_syn51_jira_validation_rerun
 
 **From**: Commander (Claude Code Opus)
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: commander
-**Issued**: 2026-02-11 20:06:29
-**Fingerprint**: 84e6d1f
+**Issued**: 2026-02-11 20:09:06
+**Fingerprint**: c20276e
 **Kind**: TASK
 **Priority**: P1
-**Status**: IN_PROGRESS
-**Kanban**: IN_PROGRESS
-**Claimed-By**: adjudicator-Lisas-MacBook-Air
-**Claimed-At**: 2026-02-12T04:06:39Z
+**Status**: PENDING
+**Kanban**: INBOX0
+**Claimed-By**: —
+**Claimed-At**: —
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30
@@ -23,7 +23,7 @@
 
 ## Objective
 
-Run smoke check and reply first line ADJUDICATOR_SMOKE_OK, second line MODEL=<slug>.
+Cross-verify DA-12 / SYN-51 Jira state independently now that Codex model path is repaired. Validate auth, board/sprint status, SCRUM-10/11/12/13 status, apply only safe additive corrections if needed, and include exact evidence.
 
 ---
 
@@ -37,11 +37,11 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260211-adjudicator_smoke_model52_v2.md`
+- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260211-da12_syn51_jira_validation_rerun.md`
 - Or commit directly if you have write access
 
 ## Completion Protocol
 
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
-3. If cross-machine: `git add -A && git commit -m "task: adjudicator_smoke_model52_v2 complete" && git push`
+3. If cross-machine: `git add -A && git commit -m "task: da12_syn51_jira_validation_rerun complete" && git push`

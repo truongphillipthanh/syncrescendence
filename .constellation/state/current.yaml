@@ -1,4 +1,4 @@
-fingerprint: eeddf92
-timestamp: 2026-02-12T03:03:01Z
+fingerprint: eef0479
+timestamp: 2026-02-12T04:10:36Z
 branch: main
-message: sync(ajna): inbox/outgoing sync from MBA [2026-02-12T03:03:01Z]
+message: fix(ops): harden adjudicator model routing and fail-closed dispatch

@@ -327,3 +327,11 @@
 - **2026-02-11 19:00:12** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
 
 - **2026-02-11 19:00:12** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-11 19:26:01** | `i've commssioned adjudicator to revive the gpt's (tmux psyche+adjucicator), please confirm they're operational and that they can assist you from now on on your endeavors.`
+
+- **2026-02-11 19:38:25** | `please dispatch to both psyche and ajna to maximally install the entire skills repertoire, especially the ones unique to them, we need to get them to max powerlevel. I have them open manually if you n`
+
+- **2026-02-11 20:10:25** | `**Priority**: P0`
+
+- **2026-02-11 20:10:25** | `**Priority**: P0`
