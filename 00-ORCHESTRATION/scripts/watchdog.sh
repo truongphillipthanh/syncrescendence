@@ -18,7 +18,36 @@ INBOX="/Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0"
 REPO_ROOT="/Users/home/Desktop/syncrescendence"
 COCKPIT_SCRIPT="$REPO_ROOT/00-ORCHESTRATION/scripts/cockpit.sh"
 TMUX_SESSION="constellation"
-CODEX_MODEL="${SYNCRESCENDENCE_CODEX_MODEL:-gpt-5.2-codex}"
+
+resolve_codex_model() {
+    if [ -n "${SYNCRESCENDENCE_CODEX_MODEL:-}" ]; then
+        echo "$SYNCRESCENDENCE_CODEX_MODEL"
+        return 0
+    fi
+    local cache="$HOME/.codex/models_cache.json"
+    if [ ! -f "$cache" ] || ! command -v python3 >/dev/null 2>&1; then
+        echo "gpt-5.2-codex"
+        return 0
+    fi
+    python3 - "$cache" <<'PY' 2>/dev/null || echo "gpt-5.2-codex"
+import json, sys
+cache = sys.argv[1]
+preferred = ["gpt-5.3-codex", "gpt-5.2-codex", "gpt-5-codex", "gpt-5.1-codex"]
+try:
+    data = json.load(open(cache, "r", encoding="utf-8"))
+    slugs = {m.get("slug") for m in data.get("models", []) if isinstance(m, dict)}
+except Exception:
+    print("gpt-5.2-codex")
+    raise SystemExit
+for slug in preferred:
+    if slug in slugs:
+        print(slug)
+        raise SystemExit
+print("gpt-5.2-codex")
+PY
+}
+
+CODEX_MODEL="$(resolve_codex_model)"
 CODEX_REASONING_EFFORT="${SYNCRESCENDENCE_CODEX_REASONING_EFFORT:-high}"
 PSYCHE_BOOT_CMD="cd '$REPO_ROOT' && openclaw tui --session main --thinking high"
 ADJUDICATOR_BOOT_CMD="cd '$REPO_ROOT' && codex --full-auto -m '$CODEX_MODEL' -c 'model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"'"
