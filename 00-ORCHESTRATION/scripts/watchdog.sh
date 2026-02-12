@@ -54,6 +54,12 @@ ADJUDICATOR_BOOT_CMD="cd '$REPO_ROOT' && codex --full-auto -m '$CODEX_MODEL' -c 
 AGENT_SKILLS_DIR="/Users/home/.agents/skills"
 CODEX_SKILLS_DIR="/Users/home/.codex/skills"
 OPENCLAW_SKILLS_DIR="/Users/home/.openclaw/skills"
+OPENCLAW_WORKSPACE_SKILLS_DIR="/Users/home/.openclaw/workspace/skills"
+CLAUDE_SKILLS_DIR="/Users/home/.claude/skills"
+LAUNCH_AGENTS_DIR="$HOME/Library/LaunchAgents"
+PLIST_TEMPLATE_DIR_MINI="$REPO_ROOT/00-ORCHESTRATION/scripts/launchd-mini"
+PLIST_TEMPLATE_DIR_PSYCHE="$REPO_ROOT/00-ORCHESTRATION/scripts/launchd-psyche"
+REQUIRED_WATCHERS_CRITICAL="watch-psyche watch-adjudicator"
 LOCK_DIR="/tmp/syncrescendence-watchdog.lock"
 ESCALATION_STAMP="/tmp/syncrescendence-watchdog-escalation.epoch"
 ESCALATION_COOLDOWN_SECONDS=900
@@ -73,6 +79,16 @@ trap 'rmdir "$LOCK_DIR" 2>/dev/null || true' EXIT
 log "=== Watchdog run ==="
 
 RESTART_COUNT=0
+LAUNCHCTL_MANAGE_OK=true
+
+LAUNCHCTL_PROBE=$(launchctl list 2>&1 || true)
+if echo "$LAUNCHCTL_PROBE" | grep -qi 'Operation not permitted'; then
+    LAUNCHCTL_MANAGE_OK=false
+    warn "launchctl access restricted; entering degraded mode for this watchdog run."
+elif [ -z "$(printf '%s' "$LAUNCHCTL_PROBE" | tr -d '[:space:]')" ]; then
+    LAUNCHCTL_MANAGE_OK=false
+    warn "launchctl returned empty output; entering degraded mode for this watchdog run."
+fi
 
 # ──────────────────────────────────────────────
 # L1: PID Verification
@@ -81,7 +97,36 @@ check_service() {
     local name="$1"
     local label="com.syncrescendence.$name"
     local pid
+    local plist_path="$LAUNCH_AGENTS_DIR/$label.plist"
+
+    if [ "$LAUNCHCTL_MANAGE_OK" != "true" ]; then
+        warn "$name: launchctl unavailable; skipping service check."
+        return 0
+    fi
+
     pid=$(launchctl list 2>/dev/null | awk -v label="$label" '$3==label {print $1; found=1} END {if (!found) print ""}')
+
+    if [ -z "$pid" ]; then
+        if [ ! -f "$plist_path" ]; then
+            if [ -f "$PLIST_TEMPLATE_DIR_MINI/$label.plist" ]; then
+                mkdir -p "$LAUNCH_AGENTS_DIR"
+                cp -f "$PLIST_TEMPLATE_DIR_MINI/$label.plist" "$plist_path"
+                warn "$name: plist missing; installed from launchd-mini template."
+            elif [ -f "$PLIST_TEMPLATE_DIR_PSYCHE/$label.plist" ]; then
+                mkdir -p "$LAUNCH_AGENTS_DIR"
+                cp -f "$PLIST_TEMPLATE_DIR_PSYCHE/$label.plist" "$plist_path"
+                warn "$name: plist missing; installed from launchd-psyche template."
+            fi
+        fi
+        if [ -f "$plist_path" ]; then
+            warn "$name: launchd label absent. Bootstrapping from plist."
+            launchctl bootstrap "gui/$UID_NUM" "$plist_path" 2>/dev/null || true
+            launchctl kickstart -k "gui/$UID_NUM/$label" 2>/dev/null || true
+            echo "$(now) bootstrap $name" >> "$RESTART_LOG"
+            RESTART_COUNT=$((RESTART_COUNT + 1))
+            pid=$(launchctl list 2>/dev/null | awk -v label="$label" '$3==label {print $1; found=1} END {if (!found) print ""}')
+        fi
+    fi
 
     if [ "$pid" = "-" ] || [ -z "$pid" ]; then
         warn "$name: not running (PID=$pid). Restarting via kickstart."
@@ -144,6 +189,8 @@ ensure_skill_links() {
 ensure_skill_repertoire() {
     ensure_skill_links "$CODEX_SKILLS_DIR" "codex"
     ensure_skill_links "$OPENCLAW_SKILLS_DIR" "openclaw"
+    ensure_skill_links "$OPENCLAW_WORKSPACE_SKILLS_DIR" "openclaw-workspace"
+    ensure_skill_links "$CLAUDE_SKILLS_DIR" "claude"
 }
 
 resolve_pane_target() {
@@ -180,6 +227,13 @@ ensure_agent_pane() {
 ensure_cockpit_agents() {
     if ! command -v tmux >/dev/null 2>&1; then
         warn "tmux not found; skipping cockpit self-heal."
+        return 0
+    fi
+
+    local tmux_probe
+    tmux_probe=$(tmux list-sessions 2>&1 || true)
+    if echo "$tmux_probe" | grep -qi 'Operation not permitted'; then
+        warn "tmux access restricted; skipping cockpit self-heal."
         return 0
     fi
 
@@ -220,10 +274,24 @@ for svc in chroma-server webhook-receiver; do
     check_service "$svc" 2>/dev/null || true
 done
 
-# Check watcher agents only (exclude watchdog itself)
-for watcher in $(launchctl list 2>/dev/null | awk '{print $3}' | grep '^com\.syncrescendence\.watch-' | sed 's/com.syncrescendence.//'); do
+# Check critical watchers even if they are currently unloaded.
+for watcher in $REQUIRED_WATCHERS_CRITICAL; do
     check_service "$watcher" 2>/dev/null || true
 done
+
+# Check any other loaded watcher agents (exclude watchdog itself).
+if [ "$LAUNCHCTL_MANAGE_OK" = "true" ]; then
+    while IFS= read -r watcher; do
+        [ -z "$watcher" ] && continue
+        case " $REQUIRED_WATCHERS_CRITICAL " in
+            *" $watcher "*) continue ;;
+        esac
+        check_service "$watcher" 2>/dev/null || true
+    done < <(
+        launchctl list 2>/dev/null \
+          | awk '$3 ~ /^com\.syncrescendence\.watch-/ {sub(/^com\.syncrescendence\./, "", $3); if ($3 != "watchdog") print $3}'
+    )
+fi
 
 # Keep cockpit agents alive and skill repertoire fully linked.
 ensure_cockpit_agents
@@ -241,10 +309,14 @@ check_http() {
     status=$(http_code "$url")
 
     if [ "$status" != "200" ]; then
-        crit "$name: HTTP health check failed (status=$status). Restarting."
-        launchctl kickstart -k "gui/$UID_NUM/$label" 2>/dev/null || true
-        echo "$(now) http-restart $name status=$status" >> "$RESTART_LOG"
-        RESTART_COUNT=$((RESTART_COUNT + 1))
+        if [ "$LAUNCHCTL_MANAGE_OK" = "true" ]; then
+            crit "$name: HTTP health check failed (status=$status). Restarting."
+            launchctl kickstart -k "gui/$UID_NUM/$label" 2>/dev/null || true
+            echo "$(now) http-restart $name status=$status" >> "$RESTART_LOG"
+            RESTART_COUNT=$((RESTART_COUNT + 1))
+        else
+            warn "$name: HTTP health check failed (status=$status) but launchctl is unavailable; skipping restart."
+        fi
     else
         log "$name: healthy (HTTP $status)"
     fi

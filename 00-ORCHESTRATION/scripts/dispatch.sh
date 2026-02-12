@@ -80,7 +80,7 @@ case "$AGENT" in
     commander)    AVATAR="Commander (Claude Code Opus)" ;;
     adjudicator)  AVATAR="Adjudicator (Codex CLI)" ;;
     cartographer) AVATAR="Cartographer (Gemini CLI)" ;;
-    psyche)       AVATAR="Psyche (OpenClaw GPT-5.2)" ;;
+    psyche)       AVATAR="Psyche (OpenClaw GPT-5.3-codex)" ;;
     ajna)         AVATAR="Ajna (OpenClaw Opus 4.5)" ;;
 esac
 
@@ -89,7 +89,7 @@ case "$FROM_RAW" in
     commander)    FROM_AVATAR="Commander (Claude Code Opus)" ;;
     adjudicator)  FROM_AVATAR="Adjudicator (Codex CLI)" ;;
     cartographer) FROM_AVATAR="Cartographer (Gemini CLI)" ;;
-    psyche)       FROM_AVATAR="Psyche (OpenClaw GPT-5.2)" ;;
+    psyche)       FROM_AVATAR="Psyche (OpenClaw GPT-5.3-codex)" ;;
     ajna)         FROM_AVATAR="Ajna (OpenClaw Opus 4.5)" ;;
     *)            FROM_AVATAR="$FROM_RAW" ;;
 esac

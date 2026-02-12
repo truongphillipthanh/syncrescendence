@@ -19,6 +19,18 @@ Every strategic decision must be evaluated against these 18 lenses. A decision t
 
 ---
 
+## PROCEDURAL STANDARD BEARER
+
+Operational process quality and throughput hardening are governed by:
+- `00-ORCHESTRATION/state/REF-PROCEDURAL_STANDARD_BEARER.md`
+
+Use this standard when:
+- codifying operating doctrine into durable process,
+- reinforcing execution quality gates,
+- deciding what repetitive work must be automated.
+
+---
+
 ## THE ORIGINAL NINE (Oracle4)
 
 ### 1. Syncrescendent Route

@@ -7,12 +7,12 @@ target: engine
 
 # ROSETTA STONE: Syncrescendent <> Community Terminology
 
-**Version**: 2.3.0
-**Generated**: 2026-02-01
+**Version**: 2.4.0
+**Generated**: 2026-02-12
 **Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint (Ajna resuming Psyche's workstream)
 **Authority**: Ajna (Opus 4.5) — Commander
 **Corpus**: 17 research files + full corpus scan (CLAUDE.md, COCKPIT.md, 00-ORCHESTRATION/, 01-CANON/, 02-ENGINE/, 05-SIGMA/)
-**Terms**: 209 total (18 original + 183 community + 8 enterprise roles)
+**Terms**: 206 entries in the extended matrix (plus cross-references)
 
 ---
 
@@ -642,6 +642,16 @@ Significant community patterns without internal equivalents.
 | 200 | Overseer | ADAPTED | Human role name for agent orchestration operator. More honest than "developer" for the cockpit position. In our system: the Sovereign IS the Overseer. | Yegge Gas Town Overseer |
 | 201 | Vibedesign | ADAPTED | Architecture emerging from iteration rather than deliberation (Maggie Appleton's term for Gas Town). Our Cockpit buildout was vibedesigned. CANON process is the antithesis: deliberate crystallization. | Vibedesign (Appleton) |
 
+### Category 14: Command Doctrine Domain (5 terms)
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 202 | Breach Exploitation | UNIQUE | Rapidly widening a newly opened strategic path before entropy closes it. Requires immediate dispatch + reinforcement + hardening behind the lead edge. | Exploit breakthrough / capitalize momentum |
+| 203 | Forward Passage of Lines | UNIQUE | Sequence discipline after breakthrough: move execution lanes through the opening in order of critical-path value. | Reinforcement sequencing |
+| 204 | Reserve Commitment | ADAPTED | Redirecting additional agents to the newly viable path to increase throughput and reduce stall risk. | Resource reallocation |
+| 205 | Follow-and-Support | ADAPTED | Secondary agents harden, document, and automate behind primary execution to prevent collapse after initial gains. | Stabilization support / sustainment |
+| 206 | Procedural Standard Bearer | UNIQUE | Designated role accountable for process quality, verification discipline, and canonization of successful execution patterns. | Process owner / quality governor |
+
 ---
 
 ### 169. Clarescence / Claresce (Value-Guided Progressive Refinement)
@@ -698,6 +708,8 @@ Confidence: [low|medium|high]
 
 ## Status Distribution (201 entries, 200 distinct terms)
 
+Note: Category 14 (entries #202-206) was added in v2.4.0 after this distribution table and requires recomputation in the next full Rosetta audit pass.
+
 | Status | Original 18 | Extended (19-169) | New (170-201) | Total |
 |--------|------------|-------------------|---------------|-------|
 | UNIQUE | 4 | 118 | 5 | 127 |
@@ -715,6 +727,13 @@ Confidence: [low|medium|high]
 ---
 
 ## Version History
+
+**v2.4.0** (2026-02-12): Command doctrine codification (5 new terms)
+- 5 new terms added (#202-206), expanding operational doctrine language
+- Added Category 14: Command Doctrine Domain
+- Formalized doctrine terms from current operational practice: Breach Exploitation, Forward Passage of Lines, Reserve Commitment, Follow-and-Support, Procedural Standard Bearer
+- Linked operational codification to `REF-PROCEDURAL_STANDARD_BEARER.md`
+- Authority: Adjudicator (Codex CLI) under Sovereign directive
 
 **v2.3.0** (2026-02-09): Six-domain expansion (32 new terms)
 - 32 new terms added (#170-201), bringing total to 201 entries (200 distinct)

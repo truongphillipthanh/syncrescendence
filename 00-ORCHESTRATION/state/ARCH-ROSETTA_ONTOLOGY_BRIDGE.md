@@ -683,6 +683,15 @@ Explicit typed relations between entities. Each row = one relation.
 | Adjudicator (AGT) | requires | Codex CLI API Key (ART) | DYN-BACKLOG |
 | Cartographer (AGT) | requires | Gemini CLI API Key (ART) | DYN-BACKLOG |
 
+### Tier 10: Command Doctrine Domain (Rosetta #202-206, v2.4.0)
+| # | Term | Entity Type | Relations |
+|---|------|-------------|-----------|
+| 202 | Breach Exploitation | WF | `enables` Forward Passage of Lines; `requires` Reserve Commitment; `governed_by` Procedural Standard Bearer |
+| 203 | Forward Passage of Lines | WF | `part_of` Breach Exploitation; `requires` Dispatch Protocol; `enables` Critical Path Compression |
+| 204 | Reserve Commitment | WF | `part_of` Breach Exploitation; `uses` Agent Dispatch; `enables` Throughput Surge |
+| 205 | Follow-and-Support | WF | `part_of` Breach Exploitation; `produces` Hardening Artifacts; `enables` Operational Durability |
+| 206 | Procedural Standard Bearer | AGT | `governed_by` REF-PROCEDURAL_STANDARD_BEARER.md; `evaluates` task outputs; `enables` process quality consistency |
+
 ---
 
 ## NOTION DATABASE SCHEMA (Proposed)
@@ -762,6 +771,11 @@ The **Dataview + Juggl** combination is the highest-leverage: Dataview for query
 ---
 
 ## VERSION HISTORY
+
+**v1.1.0** (2026-02-12): Command Doctrine bridge extension
+- Added Tier 10 mapping for Rosetta entries #202-206
+- Added ontology relations for Breach Exploitation, Forward Passage of Lines, Reserve Commitment, Follow-and-Support, Procedural Standard Bearer
+- Added governance link to `REF-PROCEDURAL_STANDARD_BEARER.md`
 
 **v1.0.0** (2026-02-05): Major Expansion — Commander (Claude Code Opus)
 - 177 terms classified (168 original + 9 new from Task Architecture session)
