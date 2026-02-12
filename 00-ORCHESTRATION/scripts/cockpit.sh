@@ -35,6 +35,8 @@ REPO="${SYNCRESCENDENCE_PATH:-$HOME/Desktop/syncrescendence}"
 SESSION="constellation"
 NVIM_BIN="/opt/homebrew/bin/nvim"  # Explicit path — never resolve to emacs
 ATTACH_ON_READY=true
+CODEX_MODEL="${SYNCRESCENDENCE_CODEX_MODEL:-gpt-5.2-codex}"
+CODEX_REASONING_EFFORT="${SYNCRESCENDENCE_CODEX_REASONING_EFFORT:-high}"
 
 # ── Display geometry (5120x1440, 6-lane grid, center 4) ─────────────────────
 DISPLAY_W=5120
@@ -97,14 +99,13 @@ case "${1:-}" in
     --launch)
         CMD_PSYCHE="cd '$REPO' && openclaw tui --session main --thinking high"
         CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
-        # "gpt-5.3-codex-high" is not a model slug. "high" is reasoning effort.
-        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m gpt-5.3-codex -c 'model_reasoning_effort=\"high\"'"
+        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m '$CODEX_MODEL' -c 'model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"'"
         CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
         ;;
     --launch-detached)
         CMD_PSYCHE="cd '$REPO' && openclaw tui --session main --thinking high"
         CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
-        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m gpt-5.3-codex -c 'model_reasoning_effort=\"high\"'"
+        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m '$CODEX_MODEL' -c 'model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"'"
         CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
         ATTACH_ON_READY=false
         ;;

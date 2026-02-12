@@ -27,6 +27,8 @@ fi
 AGENT="${1:-psyche}"
 HOSTNAME_SHORT=$(hostname -s 2>/dev/null || echo "local")
 SCRIPTS_DIR="$REPO_ROOT/00-ORCHESTRATION/scripts"
+CODEX_MODEL="${SYNCRESCENDENCE_CODEX_MODEL:-gpt-5.2-codex}"
+CODEX_REASONING_EFFORT="${SYNCRESCENDENCE_CODEX_REASONING_EFFORT:-high}"
 
 INBOX_ROOT="$REPO_ROOT/-INBOX/$AGENT"
 INBOX0_DIR="$INBOX_ROOT/00-INBOX0"
@@ -367,7 +369,7 @@ run_executor() {
       cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["claude","-p",sys.stdin.read()]))')
       ;;
     adjudicator)
-      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["codex","exec",sys.stdin.read()]))')
+      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; model=sys.argv[1]; effort=sys.argv[2]; print(json.dumps(["codex","exec","-m",model,"-c",f"model_reasoning_effort=\"{effort}\"",sys.stdin.read()]))' "$CODEX_MODEL" "$CODEX_REASONING_EFFORT")
       ;;
     cartographer)
       cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["gemini","-p",sys.stdin.read()]))')
@@ -546,17 +548,12 @@ handle_file() {
   out_file=$(run_executor "$claimed")
   local exit_code=$EXEC_EXIT
 
-  # Output validation: CLIs sometimes exit 0 despite API failures.
-  # Detect known error patterns and override exit code to FAILED.
+  # Output validation: CLIs can exit 0 despite model/session/auth failures.
+  # Detect fatal transport/model errors and fail closed.
   if [ $exit_code -eq 0 ] && [ -f "$out_file" ]; then
-    if grep -qE '(model .* does not exist|RESOURCE_EXHAUSTED|MODEL_CAPACITY_EXHAUSTED|stream disconnected before completion|EXEC_ERROR)' "$out_file" 2>/dev/null; then
-      # Check for substantive output beyond just error traces
-      local substantive_lines
-      substantive_lines=$(grep -cvE '(^$|^\[|^Reconnecting|^ERROR:|^Attempt|^Loading|^Server|^Hook|^mcp startup|at async|at Gaxios|at process|at retryWithBackoff|config:|response:|headers:|data:|error:|status:|url:|method:|params:|body:|signal:|cause:|Symbol|An unexpected)' "$out_file" 2>/dev/null || echo "0")
-      if [ "$substantive_lines" -lt 5 ]; then
-        log "$(date '+%H:%M:%S') Output validation: CLI exited 0 but output contains only errors. Overriding to FAILED."
-        exit_code=1
-      fi
+    if grep -qiE '(does not exist or you do not have access|model .* does not exist|stream disconnected before completion|resource_exhausted|model_capacity_exhausted|failed to create session|fatal error:|cannot access session files|permission denied|exec_error|error loading config\\.toml|unknown variant)' "$out_file" 2>/dev/null; then
+      log "$(date '+%H:%M:%S') Output validation: detected fatal model/session/auth error. Overriding to FAILED."
+      exit_code=1
     fi
   fi
 
