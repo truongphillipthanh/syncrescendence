@@ -2,13 +2,13 @@
 id: SURFACE-ONTOLOGY
 name: Ontology Strategic Dashboard
 type: surface
-generated: 2026-02-11 18:35
+generated: 2026-02-11 18:46
 schema_version: 1.3.0
 operational_status: operational
 ---
 
 # Ontology Strategic Dashboard
-> Auto-generated 2026-02-11 18:35 from `ontology_query.py dashboard`
+> Auto-generated 2026-02-11 18:46 from `ontology_query.py dashboard`
 > Schema v1.3.0 | 2015 build rows | 1174 queryable
 
 ## Commitments
@@ -108,11 +108,11 @@ operational_status: operational
 | INT-1612 | drives | CMT-003 | 10 |
 | INT-1201 | drives | GOL-001 | 10 |
 | PROJ-006b | implements | GOL-002 | 10 |
+| RSK-014 | blocks | CMT-008 | 10 |
 | CMT-003 | enables | GOL-010 | 9 |
 | CMT-015 | enables | GOL-012 | 9 |
 | RSK-002 | constrains | RES-005 | 9 |
 | INT-1202 | drives | CMT-005 | 9 |
-| PROJ-006a | contributes_to | GOL-008 | 9 |
 
 *30 total relationships. Run `python3 ontology_query.py relationships` for full list.*
 

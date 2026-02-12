@@ -3011,6 +3011,25 @@ def seed_strategic_entities(conn):
             ("REL-028", "PROJ-LINEAR", "project", "GOL-003", "goal", "supports", 8, "Linear Onboarding → Constellation fully operational", None),
             ("REL-029", "PROJ-DESKTOP", "project", "GOL-010", "goal", "unblocks", 6, "Desktop Metabolization → Automation pipeline", None),
             ("REL-030", "PROJ-006a", "project", "GOL-008", "goal", "contributes_to", 9, "Ontology Content → Modal 1 completion", None),
+            # CMT-006 through CMT-014: fill relationship gaps (REL-031 to REL-045)
+            # Commitment → Goal (new)
+            ("REL-031", "CMT-006", "commitment", "GOL-007", "goal", "contributes_to", 8, "Jira onboarding → Multi-Methodology Stack", None),
+            ("REL-032", "CMT-007", "commitment", "GOL-007", "goal", "contributes_to", 8, "Todoist onboarding → Multi-Methodology Stack", None),
+            ("REL-033", "CMT-009", "commitment", "GOL-006", "goal", "contributes_to", 7, "Terminal cascade sync → Capability Cascade", None),
+            ("REL-034", "CMT-010", "commitment", "GOL-004", "goal", "implements", 9, "JIT HighCommand dashboard → HighCommand web dashboard", None),
+            ("REL-035", "CMT-011", "commitment", "GOL-008", "goal", "contributes_to", 7, "LifeOS PKM convergence → Modal 1 completion", None),
+            ("REL-036", "CMT-012", "commitment", "GOL-010", "goal", "enables", 8, "Info stream extraction → Automation pipeline", None),
+            ("REL-037", "CMT-013", "commitment", "GOL-003", "goal", "contributes_to", 6, "OpenClaw self-service → Constellation operational", None),
+            ("REL-038", "CMT-014", "commitment", "GOL-002", "goal", "supports", 9, "Ontology Content completion → Ontology kernel", None),
+            # Intention → Commitment (new drivers)
+            ("REL-039", "INT-1202", "intention", "CMT-006", "commitment", "drives", 8, "Heavy machinery → Jira onboarding", None),
+            ("REL-040", "INT-1202", "intention", "CMT-007", "commitment", "drives", 8, "Heavy machinery → Todoist onboarding", None),
+            ("REL-041", "INT-1603", "intention", "CMT-010", "commitment", "drives", 9, "JIT HighCommand → Dashboard commitment", None),
+            ("REL-042", "INT-1608", "intention", "CMT-012", "commitment", "drives", 8, "Info stream extraction → Pipeline commitment", None),
+            ("REL-043", "INT-1606", "intention", "CMT-013", "commitment", "drives", 7, "OpenClaw community → Self-service commitment", None),
+            # Risk → Commitment (threats)
+            ("REL-044", "RSK-014", "risk", "CMT-008", "commitment", "blocks", 10, "Mastery IIC blocked → Mastery email setup", None),
+            ("REL-045", "RSK-013", "risk", "CMT-006", "commitment", "threatens", 6, "Tool onboarding fatigue → Jira onboarding", None),
         ],
     )
 
