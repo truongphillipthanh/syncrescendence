@@ -173,3 +173,4 @@
 | 2026-02-12T23:38:48 | ACKNOWLEDGE | commander | commander | cli_logs_batch_13_files — 13 unsorted CLI session logs analyzed, 24 issues catalogued (13 resolved, 8 sovereign-gated, 2 open, 1 low) | 2c6ae01 | 2c6ae01 | — | — |
 | 2026-02-12T23:38:54 | DECISION | commander | commander | CLARESCENCE-2026-02-12-pulse-check-macroscopic-recalibration — system health 6.7/10, security posture 4/10 (P0 gap), adoption velocity 3/10 | 2c6ae01 | 2c6ae01 | — | — |
 | 2026-02-12T23:39:14 | COMMIT | commander | repo | docs(clarescence): macroscopic pulse check — CLI logs forensic (13 files, 24 i | b70d8a5 | b70d8a5 | — | — |
+| 2026-02-12T23:39:22 | COMMIT | commander | repo | chore: sync hook artifacts | 53ff1cc | 53ff1cc | — | — |
