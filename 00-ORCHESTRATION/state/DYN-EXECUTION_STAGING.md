@@ -20,7 +20,8 @@
 6. **Makefile**: +2 targets (ontology-dashboard, ontology-surface)
 7. **Linear**: SYN-22 → Done (37 total Done)
 8. **IMPL-MAP**: IMPL-C-0013 → done (21 commands)
-9. **Airtable Strategic Sync**: 3 tables (Commitments/Goals/Risks) seeding in progress
+9. **Airtable Strategic Sync**: 3 tables created + 42 records seeded (Commitments 15, Goals 12, Risks 15). Base total: 484 records/9 tables. REF-AIRTABLE_INTEGRATION.md → v1.1.0
+10. **Adjudicator QC**: Full smoke verification passed — 21/21 commands, 4/4 Makefile targets, schema v1.3.0 confirmed. No defects.
 
 **Decisions**: DA-09/10/11 from clarescence convergent path. Dataview plugin NOT installed (Sovereign action needed).
 **IntentionLink**: INT-MI19 (Palantir ontology), INT-1612 (automations)

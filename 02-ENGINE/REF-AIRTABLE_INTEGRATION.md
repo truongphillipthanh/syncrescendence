@@ -4,7 +4,7 @@ kind: REF
 scope: engine
 target: constellation
 status: operational
-updated: 2026-02-10
+updated: 2026-02-12
 linear_issue: SYN-55
 ---
 
@@ -12,8 +12,8 @@ linear_issue: SYN-55
 
 ## Visual Surface for the Syncrescendence Ontology (INT-MI19)
 
-**Version**: 1.0.0
-**Created**: 2026-02-10
+**Version**: 1.1.0
+**Created**: 2026-02-10 | **Updated**: 2026-02-12
 **Author**: airtable-onboarder agent (Opus 4.6)
 **Linear Issue**: SYN-55
 **Intention**: INT-MI19 (Palantir-like ontology) -- FINAL BOSS
@@ -125,16 +125,59 @@ Maps to: `ontology.db` -> `projects` table (30 records seeded)
 | Owner | singleLineText | Responsible agent/person |
 | Notes | multilineText | Project notes |
 
-### Seeding Summary (2026-02-10)
+### Table: Commitments (`tblknyyoArt1OsHVR`)
 
-| Table | Records Seeded | Source |
-|-------|---------------|--------|
-| Platforms | 126 | ontology.db apps |
-| Models | 20 | ontology.db models |
-| CANON Registry | 100 | ontology.db sources (of 184) |
-| Intentions | 0 | Pending manual or ARCH-INTENTION_COMPASS.md parse |
-| Projects | 30 | ontology.db projects |
-| **Total** | **276** | |
+Maps to: `ontology.db` -> `commitments` table (15 records seeded 2026-02-12)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| Code | singleLineText | CMT-001 through CMT-015 (primary) |
+| Name | singleLineText | Commitment description |
+| Stakeholder | singleSelect | Sovereign, System, Commander |
+| Status | singleSelect | active, failed, achieved |
+| Intention Link | singleLineText | e.g. INT-MI19 |
+| Deadline | singleLineText | Target date or "this_week" |
+| Notes | multilineText | Additional context |
+
+### Table: Goals (`tblOnR3CW0MRkSRLm`)
+
+Maps to: `ontology.db` -> `goals` table (12 records seeded 2026-02-12)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| Code | singleLineText | GOL-001 through GOL-012 (primary) |
+| Name | singleLineText | Goal description |
+| Status | singleSelect | active, blocked, partial, deferred, achieved |
+| Intention Link | singleLineText | Linked intention |
+| Notes | multilineText | Additional context |
+
+### Table: Risks (`tblLSZby7G12lQ7qJ`)
+
+Maps to: `ontology.db` -> `risks` table (15 records seeded 2026-02-12)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| Code | singleLineText | RSK-001 through RSK-015 (primary) |
+| Name | singleLineText | Risk description |
+| Category | singleSelect | economic, operational, strategic, dependency |
+| Probability | singleSelect | very_low, low, medium, high, certain |
+| Impact | singleSelect | low, medium, high, critical, catastrophic |
+| Mitigation | multilineText | Mitigation strategy |
+| Notes | multilineText | Additional context |
+
+### Seeding Summary
+
+| Table | Records Seeded | Source | Date |
+|-------|---------------|--------|------|
+| Platforms | 126 | ontology.db apps | 2026-02-10 |
+| Models | 20 | ontology.db models | 2026-02-10 |
+| CANON Registry | 179 | ontology.db sources | 2026-02-10 |
+| Intentions | 84 | ARCH-INTENTION_COMPASS.md | 2026-02-10 |
+| Projects | 30 | ontology.db projects | 2026-02-10 |
+| **Commitments** | **15** | ontology.db commitments | 2026-02-12 |
+| **Goals** | **12** | ontology.db goals | 2026-02-12 |
+| **Risks** | **15** | ontology.db risks | 2026-02-12 |
+| **Total** | **484** | | |
 
 ---
 
@@ -276,11 +319,11 @@ Build a sync script that:
 Airtable serves as the **first visual surface** for the Palantir-like ontology vision:
 
 ```
-Layer 1: SQLite (ontology.db)       -- Substrate (raw data, 571 rows, 21 tables)
-Layer 2: Airtable                    -- Visual Surface (browse, filter, edit)
-Layer 3: Dataview queries (Obsidian) -- In-vault querying (planned)
+Layer 1: SQLite (ontology.db)       -- Substrate (raw data, 2015 rows, 43 tables)
+Layer 2: Airtable                    -- Visual Surface (484 records, 9 tables)
+Layer 3: Dataview queries (Obsidian) -- In-vault querying (plugin needed)
 Layer 4: Neo4j/Graphiti              -- Graph relationships (live)
-Layer 5: Dashboard (future)          -- Real-time operational intelligence
+Layer 5: Dashboard (CLI + surface)   -- ontology_query.py dashboard + SURFACE-ONTOLOGY_DASHBOARD.md
 ```
 
 ### What Airtable Unlocks
@@ -340,10 +383,13 @@ curl -s -X PATCH "https://api.airtable.com/v0/appHyxiH0s9zOYH8I/tbl2bifSCiHt8WtF
 |-------|----------|-------------|
 | Platforms | `tbl2bifSCiHt8WtFX` | 126 |
 | Models | `tbl7J4p9Qm410p4f4` | 20 |
-| CANON Registry | `tblUV1j8L5it0kugg` | 100 |
-| Intentions | `tbl2LQ50S7phz7oiW` | 0 (pending) |
+| CANON Registry | `tblUV1j8L5it0kugg` | 179 |
+| Intentions | `tbl2LQ50S7phz7oiW` | 84 |
 | Projects | `tblH4NpzpwjaYW5Ms` | 30 |
-| (default Table) | `tblFXRkMhQTZ8ZZrF` | 0 (can delete) |
+| Commitments | `tblknyyoArt1OsHVR` | 15 |
+| Goals | `tblOnR3CW0MRkSRLm` | 12 |
+| Risks | `tblLSZby7G12lQ7qJ` | 15 |
+| (default Table) | `tblFXRkMhQTZ8ZZrF` | 3 (can delete) |
 
 ---
 
@@ -353,11 +399,13 @@ curl -s -X PATCH "https://api.airtable.com/v0/appHyxiH0s9zOYH8I/tbl2bifSCiHt8WtF
 
 - [x] API verified and working
 - [x] 5 tables created with ontology-aligned schema
-- [x] 276 records seeded from SQLite
+- [x] 276 records seeded from SQLite (2026-02-10)
 - [x] Integration document written
+- [x] Intentions table seeded (84 records)
+- [x] CANON Registry fully seeded (179 records)
+- [x] Strategic tables created and seeded: Commitments (15), Goals (12), Risks (15) (2026-02-12)
+- [x] Base total: 484 records across 9 tables
 - [ ] Rename base from "Airtable" to "Syncrescendence Ontology" (requires UI -- API doesn't support base rename)
-- [ ] Seed Intentions table from ARCH-INTENTION_COMPASS.md
-- [ ] Seed remaining 84 CANON Registry entries
 
 ### P1 (This Week)
 
