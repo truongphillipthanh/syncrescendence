@@ -76,7 +76,8 @@ if [ "$MODE" = "psyche" ]; then
   load_job com.syncrescendence.watchdog.plist
   load_job com.syncrescendence.watch-psyche.plist
   load_job com.syncrescendence.watch-canon.plist
-  echo "[rearm] NOTE: psyche mode loaded watchdog+psyche+canon."
+  load_job com.syncrescendence.watch-cartographer.plist
+  echo "[rearm] NOTE: psyche mode loaded watchdog+psyche+canon+cartographer."
 fi
 
 if [ "$MODE" = "mini" ]; then

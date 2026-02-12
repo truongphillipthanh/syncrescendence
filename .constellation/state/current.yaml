@@ -1,4 +1,4 @@
-fingerprint: 370a666
-timestamp: 2026-02-12T04:46:58Z
+fingerprint: 64fe39c
+timestamp: 2026-02-12T04:47:46Z
 branch: main
-message: feat(ops): codify command doctrine and harden watchdog resilience
+message: chore: sync DYN-* hook artifacts + session state

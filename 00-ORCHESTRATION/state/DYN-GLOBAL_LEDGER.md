@@ -117,3 +117,4 @@
 | 2026-02-12T04:44:30 | DISPATCH | dispatch | psyche | TASK-20260211-synaptical_automation_point_discovery.md | f334456 | f334456 | — | — |
 | 2026-02-12T04:44:37 | CLAIM | psyche | psyche | TASK-20260211-synaptical_automation_point_discovery.md | f334456 | f334456 | — | — |
 | 2026-02-12T04:46:58 | COMMIT | commander | repo | feat(ops): codify command doctrine and harden watchdog resilience | 370a666 | 370a666 | — | — |
+| 2026-02-12T04:47:46 | COMMIT | commander | repo | chore: sync DYN-* hook artifacts + session state | 64fe39c | 64fe39c | — | — |

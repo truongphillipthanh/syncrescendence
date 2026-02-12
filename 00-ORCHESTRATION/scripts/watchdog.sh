@@ -59,10 +59,12 @@ CLAUDE_SKILLS_DIR="/Users/home/.claude/skills"
 LAUNCH_AGENTS_DIR="$HOME/Library/LaunchAgents"
 PLIST_TEMPLATE_DIR_MINI="$REPO_ROOT/00-ORCHESTRATION/scripts/launchd-mini"
 PLIST_TEMPLATE_DIR_PSYCHE="$REPO_ROOT/00-ORCHESTRATION/scripts/launchd-psyche"
-REQUIRED_WATCHERS_CRITICAL="watch-psyche watch-adjudicator"
+REQUIRED_WATCHERS_CRITICAL="watch-psyche watch-adjudicator watch-cartographer"
 LOCK_DIR="/tmp/syncrescendence-watchdog.lock"
 ESCALATION_STAMP="/tmp/syncrescendence-watchdog-escalation.epoch"
 ESCALATION_COOLDOWN_SECONDS=900
+SKILL_SYNC_LAST_RUN_FILE="/tmp/syncrescendence-watchdog-skill-sync.epoch"
+SKILL_SYNC_EVERY_SECONDS="${SYNCRESCENDENCE_SKILL_SYNC_EVERY_SECONDS:-600}"
 UID_NUM=$(id -u)
 
 now() { date '+%Y-%m-%d %H:%M:%S'; }
@@ -187,10 +189,24 @@ ensure_skill_links() {
 }
 
 ensure_skill_repertoire() {
+    local now_epoch last_epoch
+    now_epoch=$(date +%s)
+    last_epoch=0
+    if [ -f "$SKILL_SYNC_LAST_RUN_FILE" ]; then
+        last_epoch=$(cat "$SKILL_SYNC_LAST_RUN_FILE" 2>/dev/null || echo 0)
+    fi
+
+    if [ $((now_epoch - last_epoch)) -lt "$SKILL_SYNC_EVERY_SECONDS" ]; then
+        log "skills sync: skipped (cooldown ${SKILL_SYNC_EVERY_SECONDS}s)"
+        return 0
+    fi
+
     ensure_skill_links "$CODEX_SKILLS_DIR" "codex"
     ensure_skill_links "$OPENCLAW_SKILLS_DIR" "openclaw"
     ensure_skill_links "$OPENCLAW_WORKSPACE_SKILLS_DIR" "openclaw-workspace"
     ensure_skill_links "$CLAUDE_SKILLS_DIR" "claude"
+
+    echo "$now_epoch" > "$SKILL_SYNC_LAST_RUN_FILE"
 }
 
 resolve_pane_target() {
