@@ -1,4 +1,4 @@
-fingerprint: 64fe39c
-timestamp: 2026-02-12T04:47:46Z
+fingerprint: ca2fb65
+timestamp: 2026-02-12T04:53:40Z
 branch: main
-message: chore: sync DYN-* hook artifacts + session state
+message: dispatch(blitzkrieg): 3 tasks -> psyche, adjudicator, ajna
