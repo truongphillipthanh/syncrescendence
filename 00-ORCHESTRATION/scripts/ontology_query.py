@@ -12,6 +12,8 @@ Usage:
     python3 ontology_query.py projects [--status active]
     python3 ontology_query.py tasks [--status done] [--project PROJ-001]
     python3 ontology_query.py sources [--chain intelligence]
+    python3 ontology_query.py relationships [--type supports]
+    python3 ontology_query.py environments [--machine mac-mini]
     python3 ontology_query.py stats
     python3 ontology_query.py sql "SELECT ..."
 """
@@ -599,6 +601,52 @@ def cmd_resources(args):
     conn.close()
 
 
+def cmd_relationships(args):
+    """List strategic relationships with optional type filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+    query = "SELECT code, entity_a, entity_a_type, relationship_type, entity_b, entity_b_type, strength, context FROM strategic_relationships WHERE 1=1"
+    params = []
+    if "--type" in args:
+        idx = args.index("--type")
+        if idx + 1 < len(args):
+            query += " AND relationship_type = ?"
+            params.append(args[idx + 1])
+    query += " ORDER BY strength DESC, code ASC"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+    print(f"{'Code':<10} {'Entity A':<18} {'Type':<12} {'Entity B':<18} {'Str':>4}  Context")
+    print("-" * 95)
+    for row in rows:
+        ctx = (row['context'] or '')[:40]
+        print(f"{row['code']:<10} {row['entity_a'][:17]:<18} {row['relationship_type']:<12} {row['entity_b'][:17]:<18} {row['strength'] or '-':>4}  {ctx}")
+    print(f"\n{len(rows)} relationships.")
+    conn.close()
+
+
+def cmd_environments(args):
+    """List environments with optional machine filter."""
+    conn = get_conn()
+    cur = conn.cursor()
+    query = "SELECT code, name, machine, spatial_context, primary_agent, notes FROM environments WHERE 1=1"
+    params = []
+    if "--machine" in args:
+        idx = args.index("--machine")
+        if idx + 1 < len(args):
+            query += " AND machine = ?"
+            params.append(args[idx + 1])
+    query += " ORDER BY code ASC"
+    cur.execute(query, params)
+    rows = cur.fetchall()
+    print(f"{'Code':<10} {'Name':<25} {'Machine':<12} {'Context':<18} {'Agent':<12} Notes")
+    print("-" * 100)
+    for row in rows:
+        notes = (row['notes'] or '')[:40]
+        print(f"{row['code']:<10} {row['name'][:24]:<25} {(row['machine'] or '-'):<12} {(row['spatial_context'] or '-')[:17]:<18} {(row['primary_agent'] or '-'):<12} {notes}")
+    print(f"\n{len(rows)} environments.")
+    conn.close()
+
+
 def cmd_verbs(args):
     """List governed verbs with optional category filter."""
     conn = get_conn()
@@ -639,6 +687,8 @@ COMMANDS = {
     "goals": cmd_goals,
     "risks": cmd_risks,
     "resources": cmd_resources,
+    "relationships": cmd_relationships,
+    "environments": cmd_environments,
     "verbs": cmd_verbs,
     "sql": cmd_sql,
 }

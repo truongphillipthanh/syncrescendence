@@ -33,7 +33,7 @@
 | PROJ-003 | COMPLETE | — | 100% | Tooling Stack — SOVEREIGN-009 RATIFIED 2026-02-10. Stack teleology v1.0.0. Tool onboarding in progress (SYN-51–60). Accounts created. API keys rotated 2026-02-10. |
 | PROJ-005 | BLOCKED | P3 | 0% | Branding/Launch — blocked by PROJ-002; see `9 - SETUP/LAUNCH.md` |
 | PROJ-006a | ACTIVE | P1 | 50% | Ontology Phase 1 (Content) — CANON frontmatter 79/79 COMPLETE, Ontology Bridge v1.0 COMPLETE (200+ relations), operational status audit DONE (SYN-22). Remaining: Dataview query testing, theoretical→canonical promotion. |
-| PROJ-006b | ACTIVE | P0 | 45% | Ontology Phase 2 (Substrate) — SQLite pilot OPERATIONAL (36 tables, 608 tracked rows, CANON-30300 4-layer schema). Kinetic layer loaded (72 action_types, 106 agent_bindings, 157 app_actions, 35 model_capabilities, 11 workflow_templates, 72 steps). Daemon DB at ~/.syncrescendence/ontology.db. ontology_query.py CLI: 13 commands live. Next: entity expansion (6 new types), verb governance, surfaces. |
+| PROJ-006b | ACTIVE | P0 | 55% | Ontology Phase 2 (Substrate) — SQLite pilot OPERATIONAL (43 tables, 2015 tracked rows, schema v1.3.0). Kinetic + strategic layers loaded. Strategic enrichment DONE (DA-10: 29→142 records). Daemon DB at ~/.syncrescendence/ontology.db. ontology_query.py CLI: 20 commands live. Next: query surfaces, Dataview queries, Airtable sync. |
 | PROJ-007 | BLOCKED | P3 | 0% | Curriculum — blocked by PROJ-006 |
 | PROJ-008 | NOT_STARTED | P2 | 0% | Tech Lunar specs to CANON-30xxx |
 | PROJ-009 | NOT_STARTED | P3 | 0% | Modal 2 Visual — queued AI 3D/VFX/Image/Video |

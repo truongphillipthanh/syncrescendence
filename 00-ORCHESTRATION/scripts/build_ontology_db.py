@@ -2808,31 +2808,48 @@ def seed_strategic_entities(conn):
     """Seed strategic entity tables with initial data from operational state."""
     cur = conn.cursor()
 
-    # Commitments: active obligations from Intention Compass
+    # Commitments: active obligations from Intention Compass (15 records)
     cur.executemany(
-        "INSERT OR IGNORE INTO commitments (code, name, stakeholder, deadline, status, intention_link, notes) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        "INSERT OR IGNORE INTO commitments (code, name, stakeholder, deadline, status, intention_link, linear_id, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
         [
-            ("CMT-001", "Revenue mechanism by month end", "Sovereign", "2026-02-28", "failed", "INT-1201", "INT-1201 FAILED — needs reset with concrete mechanism"),
-            ("CMT-002", "Ontology substrate operational", "System", None, "active", "INT-MI19", "FINAL BOSS — Palantir-like ontology. Currently at 45%"),
-            ("CMT-003", "Begin ALL automations", "System", None, "active", "INT-1612", "P0 master plan — automation pipeline expansion"),
-            ("CMT-004", "MBA Ajna setup", "Sovereign", None, "active", "INT-P015", "Dual-machine paradigm — MBA=kinetic micro. SYN-35"),
-            ("CMT-005", "Tool onboarding pipeline", "System", None, "active", "INT-1202", "SYN-51/53 in progress, SYN-52/54 todo"),
+            ("CMT-001", "Revenue mechanism by month end", "Sovereign", "2026-02-28", "failed", "INT-1201", None, "INT-1201 FAILED — needs reset with concrete mechanism"),
+            ("CMT-002", "Ontology substrate operational", "System", None, "active", "INT-MI19", None, "FINAL BOSS — Palantir-like ontology. Currently at 45%"),
+            ("CMT-003", "Begin ALL automations", "System", None, "active", "INT-1612", None, "P0 master plan — automation pipeline expansion"),
+            ("CMT-004", "MBA Ajna setup", "Sovereign", None, "active", "INT-P015", "SYN-35", "Dual-machine paradigm — MBA=kinetic micro. SYN-35"),
+            ("CMT-005", "Tool onboarding pipeline", "System", None, "active", "INT-1202", None, "SYN-51/53 in progress, SYN-52/54 todo"),
+            ("CMT-006", "Complete Jira onboarding", "System", None, "active", "INT-1202", "SYN-51", "5 epics, 5 stories, Sprint 0 active. Board conversion pending."),
+            ("CMT-007", "Complete Todoist onboarding", "System", None, "active", "INT-1202", "SYN-53", "16 tasks, 13 labels, weekly review configured."),
+            ("CMT-008", "Mastery IIC email setup", "Sovereign", None, "active", "INT-1206", "SYN-24", "P0-Critical. Sovereign-gated — requires manual email input."),
+            ("CMT-009", "Terminal cascade machine sync", "System", None, "active", "INT-1610", "SYN-43", "AI CLI tools synchronized between Mac mini and MBA."),
+            ("CMT-010", "JIT HighCommand variable dashboard", "System", None, "active", "INT-1603", "SYN-40", "Palantir-like observation dashboard replacing Emacs layer."),
+            ("CMT-011", "LifeOS PKM architectural convergence", "Sovereign", None, "active", "INT-1616", "SYN-48", "Notion/Airtable/Zettelkasten/PARA/GTD convergence."),
+            ("CMT-012", "Information stream extraction pipeline", "System", None, "active", "INT-1608", "SYN-46", "Apple Notes, YouTube Watch Later, X favorites — ingest/digest/excrete."),
+            ("CMT-013", "OpenClaw Discord+Slack self-service", "System", None, "active", "INT-1606", "SYN-50", "Give OpenClaw all tools to self-service on communication platforms."),
+            ("CMT-014", "Ontology Content phase completion", "Commander", None, "active", "INT-MI19", None, "PROJ-006a at 50%. Remaining: Dataview queries, theoretical→canonical promotion."),
+            ("CMT-015", "Domain registration", "Sovereign", "2026-02-16", "active", "INT-1201", None, "Sovereign securing domain this week."),
         ],
     )
 
-    # Goals: desired outcomes
+    # Goals: desired outcomes (12 records)
     cur.executemany(
-        "INSERT OR IGNORE INTO goals (code, name, intention_link, status, success_criteria, notes) VALUES (?, ?, ?, ?, ?, ?)",
+        "INSERT OR IGNORE INTO goals (code, name, intention_link, target_date, status, success_criteria, linear_id, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
         [
-            ("GOL-001", "Self-sustaining economics", "INT-1201", "blocked", "$160-210/mo covered by revenue", "Consulting, skill licensing, or architecture advisory"),
-            ("GOL-002", "Ontology kernel complete", "INT-MI19", "active", "All entity types + query surface operational", "4-layer kernel: Storage → Semantic → Integration → AI"),
-            ("GOL-003", "Constellation fully operational", "INT-1202", "partial", "All 6 agents dispatching successfully", "Currently: Commander reliable, Adjudicator restored, Cartographer hibernated"),
-            ("GOL-004", "HighCommand web dashboard", "INT-1603", "deferred", "Palantir-like observation dashboard", "Replaces Emacs observation layer"),
-            ("GOL-005", "Token economics optimized", "INT-P014", "active", "Zero waste in API spend", "Google AI Pro ($20/mo) under evaluation for cancellation"),
+            ("GOL-001", "Self-sustaining economics", "INT-1201", None, "blocked", "$160-210/mo covered by revenue", None, "Consulting, skill licensing, or architecture advisory"),
+            ("GOL-002", "Ontology kernel complete", "INT-MI19", None, "active", "All entity types + query surface operational", None, "4-layer kernel: Storage → Semantic → Integration → AI"),
+            ("GOL-003", "Constellation fully operational", "INT-1202", None, "partial", "All 6 agents dispatching successfully", None, "Currently: Commander reliable, Adjudicator restored, Cartographer hibernated"),
+            ("GOL-004", "HighCommand web dashboard", "INT-1603", None, "deferred", "Palantir-like observation dashboard", None, "Replaces Emacs observation layer"),
+            ("GOL-005", "Token economics optimized", "INT-P014", None, "active", "Zero waste in API spend", None, "Google AI Pro ($20/mo) under evaluation for cancellation"),
+            ("GOL-006", "Epic 3 Capability Cascade complete", "INT-1202", None, "partial", "MBA Ajna operational with full MCP + launchd stack", None, "SYN-34 Done, SYN-35 Todo. MBA 95% restored."),
+            ("GOL-007", "Epic 8 Multi-Methodology Stack complete", "INT-1202", None, "partial", "All 5 onboarding tools operational (Jira, Todoist, Airtable, Trello, TeamGantt)", None, "Airtable DONE. Jira/Todoist in progress. Trello/TeamGantt todo."),
+            ("GOL-008", "Modal 1 completion", "INT-MI19", None, "active", "Ontology substrate + debt clearance complete", None, "Dependency chain: Debt clearance → Ontology Phase 1 → Phase 2 → Modal 1."),
+            ("GOL-009", "250+ skills operational", "INT-1202", None, "active", "Skills across Commander/Adjudicator/Cartographer/Psyche/Ajna exceed 250", None, "Currently 226+ Commander, 23 Codex, 9 OpenClaw = 258 total."),
+            ("GOL-010", "Automation pipeline fully activated", "INT-1612", None, "active", "Hazel, launchd, Make/Zapier, webhook bridges, n8n, all wired", None, "P0 master plan. 19 launchd agents live. Webhook server live. n8n pending."),
+            ("GOL-011", "Dual-machine operational parity", "INT-P015", None, "active", "MBA matches Mac mini capability for its role (kinetic micro)", None, "Mac mini=stable macro, MBA=kinetic micro. SYN-35 pending."),
+            ("GOL-012", "Domain secured and online presence", "INT-1201", "2026-02-16", "active", "Domain registered, basic web presence established", None, "Sovereign commitment for this week."),
         ],
     )
 
-    # Risks: identified threats
+    # Risks: identified threats (15 records)
     cur.executemany(
         "INSERT OR IGNORE INTO risks (code, name, category, probability, impact, mitigation, status, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
         [
@@ -2842,10 +2859,19 @@ def seed_strategic_entities(conn):
             ("RSK-004", "Stale state drift", "operational", "high", "medium", "Regular state corrections, automated sensing pipeline", "active", "MEMORY.md/BACKLOG.md drift discovered and fixed"),
             ("RSK-005", "OAuth model access revocation", "strategic", "low", "critical", "Multi-model strategy, local fallbacks (Ollama)", "monitoring", "Anthropic blocked OAuth for Claude Max plan"),
             ("RSK-006", "Google AI Pro zero ROI", "economic", "certain", "low", "Cancel subscription (SOVEREIGN-GATED)", "active", "Cartographer produced 0% signal-to-noise — $20/mo wasted"),
+            ("RSK-007", "MBA MCP config drift", "operational", "medium", "medium", "Regular sync checks with Mac mini config. Differential deployment playbook.", "active", "MBA restored but MCP config may diverge from Mac mini over time."),
+            ("RSK-008", "launchd agent failure cascade", "operational", "low", "high", "Watchdog service monitors every 5 minutes. Health checks on all 19 agents.", "monitoring", "19 agents — if one fails it could cascade to dependent services."),
+            ("RSK-009", "Git concurrent write collision", "operational", "low", "medium", "Psyche/Ajna check git status before large operations.", "monitoring", "Multiple agents can write to filesystem concurrently via OpenClaw."),
+            ("RSK-010", "NVIDIA paid tier cost escalation", "economic", "medium", "high", "Defer Ajna heavy usage until evaluation complete. Monitor credit consumption.", "active", "Free tier ~1000 credits, opaque consumption. Production would require paid tier."),
+            ("RSK-011", "Claude Max usage cap", "economic", "low", "critical", "Multi-agent distribution across 6 agents reduces single-platform dependency.", "monitoring", "Currently $100/mo Claude Max — cap would halt Commander operations."),
+            ("RSK-012", "Ontology substrate abandonment", "strategic", "very_low", "catastrophic", "Regular commits, incremental value delivery, Sovereign alignment checks.", "monitoring", "INT-MI19 is the FINAL BOSS. Abandonment would invalidate the project thesis."),
+            ("RSK-013", "Tool onboarding fatigue", "strategic", "medium", "medium", "Prioritize high-value tools first. SYN-51/53 active, defer SYN-52/54.", "active", "5 onboarding tools is ambitious. Risk of spreading too thin."),
+            ("RSK-014", "SYN-24 Mastery IIC blocked", "dependency", "certain", "medium", "Sovereign must provide email. Escalated repeatedly.", "active", "P0-Critical label, 5+ days stale. Blocks PROJ-002 completion."),
+            ("RSK-015", "ClickUp zero execution", "operational", "high", "medium", "Triage ClickUp tasks, assign ownership, set realistic deadlines.", "active", "26/26 tasks in to-do status. Zero progress on T1b platform."),
         ],
     )
 
-    # Resources: physical and digital assets
+    # Resources: physical and digital assets (25 records)
     cur.executemany(
         "INSERT OR IGNORE INTO resources (code, name, category, monthly_cost, status, owner, machine, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
         [
@@ -2858,10 +2884,26 @@ def seed_strategic_entities(conn):
             ("RES-007", "Neo4j + Graphiti (Docker)", "infrastructure", 0, "active", "System", "mac-mini", "Knowledge graph — ports 7474/8001"),
             ("RES-008", "Qdrant (Docker)", "infrastructure", 0, "active", "System", "mac-mini", "Vector store — port 6333"),
             ("RES-009", "OpenClaw Gateway", "infrastructure", 0, "active", "System", "mac-mini", "Agent gateway — port 18789"),
+            ("RES-010", "Setapp subscription", "subscription", 9.99, "active", "Sovereign", None, "240+ macOS apps. Audit pending (SYN-56 DONE)."),
+            ("RES-011", "Linear workspace", "subscription", 0, "active", "System", None, "Free tier. 56 issues, T1a operational. MCP live."),
+            ("RES-012", "ClickUp workspace", "subscription", 0, "active", "System", None, "Free tier. 26 tasks across 3 spaces, 9 lists."),
+            ("RES-013", "Airtable workspace", "subscription", 0, "active", "System", None, "Free tier. 442 records seeded in Ontology base."),
+            ("RES-014", "Jira workspace", "subscription", 0, "active", "System", None, "Free tier. 5 epics, 5 stories, Sprint 0 active."),
+            ("RES-015", "Todoist workspace", "subscription", 0, "active", "System", None, "Free tier. 16 tasks, 13 labels, weekly review."),
+            ("RES-016", "Chroma vector store", "infrastructure", 0, "active", "System", "mac-mini", "Port 8765. Python 3.13 venv-chroma. Semantic search."),
+            ("RES-017", "Webhook receiver server", "infrastructure", 0, "active", "System", "mac-mini", "Port 8888. Event ingestion endpoint."),
+            ("RES-018", "Corpus health daemon", "infrastructure", 0, "active", "System", "mac-mini", "6-hour interval. Git + structure validation."),
+            ("RES-019", "QMD local search", "infrastructure", 0, "active", "System", "mac-mini", "BM25 over 693 vault .md files. Hourly refresh."),
+            ("RES-020", "Watchdog service", "infrastructure", 0, "active", "System", "mac-mini", "5-minute interval. Service health monitoring for all agents."),
+            ("RES-021", "Claude Code skills ecosystem", "software", 0, "active", "Commander", "mac-mini", "226+ skills in ~/.agents/skills/. Primary capability layer."),
+            ("RES-022", "Codex CLI skills", "software", 0, "active", "Adjudicator", "mac-mini", "23 skills in ~/.codex/skills/."),
+            ("RES-023", "OpenClaw skills", "software", 0, "active", "Psyche", "mac-mini", "9 skills. MCP adapter bridges filesystem+obsidian."),
+            ("RES-024", "CLI tools collection", "software", 0, "active", "System", "mac-mini", "recall, ccusage, ccundo, splitrail, vsync, gemini-mcp-tool."),
+            ("RES-025", "Ontology SQLite database", "data", 0, "active", "System", "mac-mini", "43 tables, 1080 tracked rows. Schema v1.3.0. Daemon DB."),
         ],
     )
 
-    # Environments: operating contexts
+    # Environments: operating contexts (10 records)
     cur.executemany(
         "INSERT OR IGNORE INTO environments (code, name, machine, spatial_context, primary_agent, notes) VALUES (?, ?, ?, ?, ?, ?)",
         [
@@ -2869,10 +2911,16 @@ def seed_strategic_entities(conn):
             ("ENV-002", "MBA Mobile Cockpit", "mba", "ambulatory", "Ajna", "Mobile operations — pending full setup (SYN-35)"),
             ("ENV-003", "Deep Analysis", "mac-mini", "fixed", "Commander", "Sustained focus context — /claresce, ontology work"),
             ("ENV-004", "Blitzkrieg Dispatch", "mac-mini", "fixed", "Commander", "Parallel multi-agent execution context"),
+            ("ENV-005", "Adjudicator Execution Context", "mac-mini", "fixed", "Adjudicator", "Codex CLI full-auto mode. Test suites, validation, formatting, standards enforcement."),
+            ("ENV-006", "Cartographer Survey Context", "mac-mini", "fixed", "Cartographer", "Gemini 2.5 Pro 1M context. Corpus surveys. HIBERNATED (DA-01) — 0% signal-to-noise."),
+            ("ENV-007", "Psyche Cohesion Context", "mac-mini", "fixed", "Psyche", "OpenClaw GPT-5.3-codex. System automation, policy enforcement, pipeline fusion."),
+            ("ENV-008", "Ajna Strategy Context", "mba", "ambulatory", "Ajna", "OpenClaw Kimi K2.5 via NVIDIA. Strategic direction, dispatch optimization. Pending full setup."),
+            ("ENV-009", "Sovereign Decision Gate", "mac-mini", "fixed", "Sovereign", "-SOVEREIGN/ queue processing. Approval gates for irreversible decisions."),
+            ("ENV-010", "Metabolization Context", "mac-mini", "fixed", "Commander", "Capture > Extract > Compress > Archive workflow. Desktop/corpus content processing."),
         ],
     )
 
-    # Governed Verbs: advisory mode — track but don't enforce
+    # Governed Verbs: advisory mode — track but don't enforce (35 records)
     cur.executemany(
         "INSERT OR IGNORE INTO governed_verbs (verb, category, applies_to, requires_approval, advisory_note) VALUES (?, ?, ?, ?, ?)",
         [
@@ -2900,6 +2948,69 @@ def seed_strategic_entities(conn):
             ("activate", "lifecycle", "any", False, "Bring from hibernation to active"),
             ("approve", "sovereign", "any", True, "Sovereign authorization gate"),
             ("decline", "sovereign", "any", True, "Sovereign refusal gate"),
+            # Orchestration verbs
+            ("dispatch", "orchestration", "task,agent", False, "Route TASK file to agent inbox via dispatch.sh"),
+            ("coordinate", "orchestration", "agent,workflow", False, "Synchronize multi-agent work across constellation"),
+            ("delegate", "orchestration", "task", False, "Assign task to another agent for execution"),
+            ("handoff", "orchestration", "context,state", False, "Transfer working state between agents or sessions"),
+            # Content verbs
+            ("metabolize", "content", "document,corpus", False, "READ > EXTRACT unique value > COMPRESS > DELETE originals"),
+            ("distill", "content", "document", False, "Extract essential meaning, discard noise"),
+            ("compress", "content", "log,staging", False, "Reduce volume while preserving information density"),
+            ("translate", "content", "notation,format", False, "Convert between representations (SN, markdown, SQL)"),
+            # Analysis verbs
+            ("survey", "analysis", "corpus,codebase", False, "Comprehensive scan of large content bodies (1M+ context)"),
+            ("sense", "analysis", "platform,model", False, "Detect changes in external platform features or capabilities"),
+            ("audit_system", "analysis", "infrastructure,config", False, "Verify system state matches declared configuration"),
+            ("reconcile", "analysis", "state,ledger", False, "Align divergent records or resolve conflicts between sources"),
+            # Compound verbs
+            ("blitzkrieg_dispatch", "compound", "multi-agent", False, "Parallel directive dispatch across all active constellation agents"),
+            ("clarescence", "compound", "decision,strategy", False, "Multi-pass value-guided progressive refinement meta-operation"),
+            ("metabolize_content", "compound", "document,corpus", False, "Full pipeline: Capture > Interpret > Compile > Stage > Commit"),
+            ("corpus_survey", "compound", "vault,repository", False, "Comprehensive vault/codebase scan with structured output"),
+        ],
+    )
+
+    # Strategic Relationships: cross-entity mappings (30 records)
+    cur.executemany(
+        "INSERT OR IGNORE INTO strategic_relationships (code, entity_a, entity_a_type, entity_b, entity_b_type, relationship_type, strength, context, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        [
+            # Commitment → Goal
+            ("REL-001", "CMT-002", "commitment", "GOL-002", "goal", "supports", 10, "Ontology substrate operational → Ontology kernel complete", None),
+            ("REL-002", "CMT-003", "commitment", "GOL-010", "goal", "enables", 9, "Begin ALL automations → Automation pipeline activated", None),
+            ("REL-003", "CMT-004", "commitment", "GOL-011", "goal", "contributes_to", 7, "MBA Ajna setup → Dual-machine parity", None),
+            ("REL-004", "CMT-005", "commitment", "GOL-007", "goal", "enables", 8, "Tool onboarding pipeline → Multi-Methodology Stack", None),
+            ("REL-005", "CMT-015", "commitment", "GOL-012", "goal", "enables", 9, "Domain registration → Online presence", None),
+            # Risk → Resource
+            ("REL-006", "RSK-001", "risk", "RES-006", "resource", "threatens", 8, "NVIDIA free tier exhaustion → Google AI Pro subscription", None),
+            ("REL-007", "RSK-002", "risk", "RES-005", "resource", "constrains", 9, "ChatGPT Plus daily limit → ChatGPT Plus subscription", None),
+            ("REL-008", "RSK-006", "risk", "RES-006", "resource", "invalidates", 10, "Google AI Pro zero ROI → Google AI Pro subscription", None),
+            ("REL-009", "RSK-010", "risk", "RES-004", "resource", "threatens", 6, "NVIDIA paid tier escalation → Claude Max subscription", None),
+            ("REL-010", "RSK-015", "risk", "CMT-005", "commitment", "threatens", 7, "ClickUp zero execution → Tool onboarding pipeline", None),
+            # Resource → Environment
+            ("REL-011", "RES-001", "resource", "ENV-001", "environment", "hosts", 10, "Mac mini → Mac mini Cockpit", None),
+            ("REL-012", "RES-002", "resource", "ENV-002", "environment", "hosts", 10, "MacBook Air → MBA Mobile Cockpit", None),
+            ("REL-013", "RES-003", "resource", "ENV-001", "environment", "enables", 8, "5120x1440 Ultrawide → Cockpit 4-pane layout", None),
+            ("REL-014", "RES-007", "resource", "ENV-001", "environment", "supports", 7, "Neo4j + Graphiti → Cockpit knowledge graph infra", None),
+            ("REL-015", "RES-008", "resource", "ENV-001", "environment", "supports", 7, "Qdrant → Cockpit vector store infra", None),
+            # Goal → Risk (mitigations)
+            ("REL-016", "GOL-005", "goal", "RSK-006", "risk", "mitigates", 7, "Token economics optimized → Google AI Pro zero ROI", None),
+            ("REL-017", "GOL-003", "goal", "RSK-003", "risk", "resolves", 10, "Constellation fully operational → Single point of execution", None),
+            ("REL-018", "GOL-011", "goal", "RSK-007", "risk", "mitigates", 8, "Dual-machine parity → MBA MCP config drift", None),
+            ("REL-019", "GOL-010", "goal", "RSK-013", "risk", "mitigates", 6, "Automation pipeline → Tool onboarding fatigue", None),
+            ("REL-020", "GOL-008", "goal", "RSK-012", "risk", "mitigates", 10, "Modal 1 completion → Ontology substrate abandonment", None),
+            # Intention → Commitment (drivers)
+            ("REL-021", "INT-MI19", "intention", "CMT-002", "commitment", "drives", 10, "Palantir-like ontology → Ontology substrate operational", None),
+            ("REL-022", "INT-1612", "intention", "CMT-003", "commitment", "drives", 10, "Begin ALL automations → Begin ALL automations commitment", None),
+            ("REL-023", "INT-1202", "intention", "CMT-005", "commitment", "drives", 9, "Capitalize on heavy machinery → Tool onboarding pipeline", None),
+            ("REL-024", "INT-P015", "intention", "CMT-004", "commitment", "drives", 8, "Dual-machine paradigm → MBA Ajna setup", None),
+            ("REL-025", "INT-1201", "intention", "GOL-001", "goal", "drives", 10, "Self-sustaining economics → Economics goal", None),
+            # Project → Goal (implementations)
+            ("REL-026", "PROJ-006b", "project", "GOL-002", "goal", "implements", 10, "Ontology Substrate → Ontology kernel complete", None),
+            ("REL-027", "PROJ-002", "project", "GOL-012", "goal", "enables", 7, "IIC Configuration → Domain + online presence", None),
+            ("REL-028", "PROJ-LINEAR", "project", "GOL-003", "goal", "supports", 8, "Linear Onboarding → Constellation fully operational", None),
+            ("REL-029", "PROJ-DESKTOP", "project", "GOL-010", "goal", "unblocks", 6, "Desktop Metabolization → Automation pipeline", None),
+            ("REL-030", "PROJ-006a", "project", "GOL-008", "goal", "contributes_to", 9, "Ontology Content → Modal 1 completion", None),
         ],
     )
 
@@ -2910,6 +3021,7 @@ def seed_strategic_entities(conn):
     print(f"    Resources: {cur.execute('SELECT COUNT(*) FROM resources').fetchone()[0]}")
     print(f"    Environments: {cur.execute('SELECT COUNT(*) FROM environments').fetchone()[0]}")
     print(f"    Governed Verbs: {cur.execute('SELECT COUNT(*) FROM governed_verbs').fetchone()[0]}")
+    print(f"    Strategic Relationships: {cur.execute('SELECT COUNT(*) FROM strategic_relationships').fetchone()[0]}")
 
 
 def main():
