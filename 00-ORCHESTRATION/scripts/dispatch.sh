@@ -155,6 +155,19 @@ echo "[Dispatch] Target: $AVATAR"
 echo "[Dispatch] Topic: $TOPIC"
 echo "[Dispatch] Agent watcher should pick this up autonomously."
 
+# Best-effort cross-machine dispatch: if the target agent is on another host,
+# sling the same task file directly to its remote INBOX0 over SSH/SCP.
+AGENT_UPPER=$(echo "$AGENT" | tr '[:lower:]' '[:upper:]')
+REMOTE_HOST_VAR="SYNCRESCENDENCE_REMOTE_AGENT_HOST_${AGENT_UPPER}"
+REMOTE_HOST="${!REMOTE_HOST_VAR:-$AGENT}"
+if [ -n "$REMOTE_HOST" ] && [ "$REMOTE_HOST" != "local" ] && [ "$REMOTE_HOST" != "localhost" ]; then
+    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$REMOTE_HOST" "test -d ~/Desktop/syncrescendence/-INBOX/$AGENT/00-INBOX0" 2>/dev/null; then
+        scp -q -o BatchMode=yes -o ConnectTimeout=5 "$TASK_FILE" \
+            "$REMOTE_HOST:~/Desktop/syncrescendence/-INBOX/$AGENT/00-INBOX0/" 2>/dev/null || true
+        echo "[Dispatch] Remote sling: copied task to $REMOTE_HOST:/-INBOX/$AGENT/00-INBOX0/"
+    fi
+fi
+
 # Append ledger: DISPATCH event
 LEDGER_SCRIPT="$REPO_ROOT/00-ORCHESTRATION/scripts/append_ledger.sh"
 if [ -x "$LEDGER_SCRIPT" ]; then

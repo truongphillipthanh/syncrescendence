@@ -32,8 +32,8 @@ Each cockpit agent runs an always-on event loop. The tmux cockpit (4x2 grid) pro
 |------|-------|-----|----------|------|
 | 1 (top-left) | **Psyche** | `openclaw tui` | OpenClaw (GPT-5.3-codex) | CTO, system cohesion, Mac mini resident |
 | 2 (top-center-left) | **Commander** | `claude --dangerously-skip-permissions` | Claude Code (Opus 4.6) | COO, BLITZKRIEG lead, Mac mini resident |
-| 3 (top-center-right) | **Adjudicator** | `codex --full-auto` | Codex CLI (Sonnet) | CQO, standards, parallel execution |
-| 4 (top-right) | **Cartographer** | `gemini --yolo` | Gemini CLI (2.5 Pro) | CIO, corpus sensing, 1M context surveys |
+| 3 (top-center-right) | **Adjudicator** | `codex --dangerously-bypass-approvals-and-sandbox` (fallback `--full-auto`) | Codex CLI (GPT-5.2-codex/5.3 if entitled) | CQO, standards, parallel execution |
+| 4 (top-right) | **Cartographer** | `gemini -m gemini-2.5-pro --yolo` | Gemini CLI (2.5 Pro) | CIO, corpus sensing, 1M context surveys |
 
 **Remote**: Ajna (CSO) — OpenClaw (Kimi K2.5 via NVIDIA) on MacBook Air, git-sync coordination
 
@@ -132,7 +132,7 @@ REPEAT
 
 ## Agent Loop: ADJUDICATOR (Pane 3)
 
-**CLI**: `codex --full-auto`
+**CLI**: `codex --dangerously-bypass-approvals-and-sandbox` (fallback `--full-auto`)
 **Watch**: `-INBOX/adjudicator/00-INBOX0/` (plist active)
 **Memory Architecture**: AGENTS.md, skills, Codex CLI memory system
 
@@ -181,7 +181,7 @@ REPEAT
 
 ## Agent Loop: CARTOGRAPHER (Pane 4)
 
-**CLI**: `gemini --yolo`
+**CLI**: `gemini -m gemini-2.5-pro --yolo`
 **Watch**: `-INBOX/cartographer/00-INBOX0/` (plist active)
 **Memory Architecture**: GEMINI.md, skills, Gemini CLI memory system
 

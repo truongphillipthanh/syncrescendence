@@ -51,41 +51,35 @@ resolve_codex_model() {
     fi
   fi
 
-  # 3. Cache fallback (skip if stale >24h)
-  local cache="$HOME/.codex/models_cache.json"
-  if [ -f "$cache" ] && command -v python3 >/dev/null 2>&1; then
-    python3 - "$cache" <<'PY' 2>/dev/null && return 0
-import json, sys, os, time
-cache = sys.argv[1]
-# Skip cache older than 24 hours
-try:
-    age = time.time() - os.path.getmtime(cache)
-    if age > 86400:
-        print("gpt-5.2-codex")
-        raise SystemExit
-except Exception:
-    pass
-preferred = ["gpt-5.3-codex", "gpt-5.2-codex", "gpt-5-codex", "gpt-5.1-codex"]
-try:
-    data = json.load(open(cache, "r", encoding="utf-8"))
-    slugs = {m.get("slug") for m in data.get("models", []) if isinstance(m, dict)}
-except Exception:
-    print("gpt-5.2-codex")
-    raise SystemExit
-for slug in preferred:
-    if slug in slugs:
-        print(slug)
-        raise SystemExit
-print("gpt-5.2-codex")
-PY
-  fi
-
-  # 4. Safe default
+  # 3. Safe fallback (cache is not authoritative for entitlement checks)
   echo "$SAFE_DEFAULT"
 }
 
 CODEX_MODEL="$(resolve_codex_model)"
 CODEX_REASONING_EFFORT="${SYNCRESCENDENCE_CODEX_REASONING_EFFORT:-high}"
+resolve_codex_autonomy_flag() {
+  if [ -n "${SYNCRESCENDENCE_CODEX_AUTONOMY_FLAG:-}" ]; then
+    echo "$SYNCRESCENDENCE_CODEX_AUTONOMY_FLAG"
+    return 0
+  fi
+  if ! command -v codex >/dev/null 2>&1; then
+    echo "--full-auto"
+    return 0
+  fi
+  local help_text
+  help_text=$(codex --help 2>/dev/null || true)
+  if echo "$help_text" | grep -q -- '--dangerously-bypass-approvals-and-sandbox'; then
+    echo "--dangerously-bypass-approvals-and-sandbox"
+    return 0
+  fi
+  if echo "$help_text" | grep -q -- '--full-auto'; then
+    echo "--full-auto"
+    return 0
+  fi
+  echo ""
+}
+CODEX_AUTONOMY_FLAG="$(resolve_codex_autonomy_flag)"
+GEMINI_MODEL="${SYNCRESCENDENCE_GEMINI_MODEL:-gemini-2.5-pro}"
 
 INBOX_ROOT="$REPO_ROOT/-INBOX/$AGENT"
 INBOX0_DIR="$INBOX_ROOT/00-INBOX0"
@@ -426,10 +420,10 @@ run_executor() {
       cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["claude","-p",sys.stdin.read()]))')
       ;;
     adjudicator)
-      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; model=sys.argv[1]; effort=sys.argv[2]; print(json.dumps(["codex","exec","-m",model,"-c",f"model_reasoning_effort=\"{effort}\"",sys.stdin.read()]))' "$CODEX_MODEL" "$CODEX_REASONING_EFFORT")
+      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; model=sys.argv[1]; effort=sys.argv[2]; auto_flag=sys.argv[3]; cmd=["codex"]; cmd.extend([auto_flag] if auto_flag else []); cmd.extend(["exec","-m",model,"-c",f"model_reasoning_effort=\"{effort}\"",sys.stdin.read()]); print(json.dumps(cmd))' "$CODEX_MODEL" "$CODEX_REASONING_EFFORT" "$CODEX_AUTONOMY_FLAG")
       ;;
     cartographer)
-      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; print(json.dumps(["gemini","-p",sys.stdin.read()]))')
+      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; model=sys.argv[1]; print(json.dumps(["gemini","-m",model,"-p",sys.stdin.read()]))' "$GEMINI_MODEL")
       ;;
     psyche|ajna)
       # align internal openclaw timeout with wall clock (best-effort)
@@ -580,6 +574,10 @@ handle_file() {
   if ! mv "$file" "$claimed" 2>/dev/null; then
     return 0
   fi
+  if [ ! -f "$claimed" ]; then
+    log "$(date '+%H:%M:%S') Claim race detected (missing after move): $base" >&2
+    return 0
+  fi
 
   local now
   now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
@@ -608,7 +606,7 @@ handle_file() {
   # Output validation: CLIs can exit 0 despite model/session/auth failures.
   # Detect fatal transport/model errors and fail closed.
   if [ $exit_code -eq 0 ] && [ -f "$out_file" ]; then
-    if grep -qiE '(does not exist or you do not have access|model .* does not exist|stream disconnected before completion|resource_exhausted|model_capacity_exhausted|failed to create session|fatal error:|cannot access session files|permission denied|exec_error|error loading config\\.toml|unknown variant)' "$out_file" 2>/dev/null; then
+    if grep -qiE '(does not exist or you do not have access|model .* does not exist|stream disconnected before completion|resource_exhausted|model_capacity_exhausted|ratelimitexceeded|retryablequotaerror|no capacity available for model|failed to create session|fatal error:|cannot access session files|permission denied|exec_error|error loading config\\.toml|unknown variant)' "$out_file" 2>/dev/null; then
       log "$(date '+%H:%M:%S') Output validation: detected fatal model/session/auth error. Overriding to FAILED."
       exit_code=1
     fi
@@ -630,6 +628,11 @@ handle_file() {
     kanban_val=FAILED
   fi
 
+  if [ ! -f "$claimed" ]; then
+    log "$(date '+%H:%M:%S') Claimed task disappeared before finalization: $base" >&2
+    rm -f "$out_file" 2>/dev/null || true
+    return 0
+  fi
   set_fields "$claimed" \
     Status "$status_val" \
     Kanban "$kanban_val" \

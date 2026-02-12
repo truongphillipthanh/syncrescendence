@@ -198,8 +198,8 @@ SOVEREIGN INTERACTION:
 
 ## IV. Adjudicator — Parallel Executor (Pane 3)
 
-**Platform**: Codex CLI (Sonnet 4.5)
-**CLI**: `codex --full-auto`
+**Platform**: Codex CLI (GPT-5.2-codex, GPT-5.3-codex when entitled)
+**CLI**: `codex --dangerously-bypass-approvals-and-sandbox` (fallback `--full-auto`)
 **Role**: PARALLEL-EXEC, mechanical tasks, test suites, formatting, linting
 **Color**: Green (`#a6e3a1`)
 
@@ -207,7 +207,7 @@ SOVEREIGN INTERACTION:
 
 ```
 BOOT:
-  codex --full-auto
+  codex --dangerously-bypass-approvals-and-sandbox  # fallback: --full-auto
   → Load AGENTS.md configuration
   → Full-auto mode: execute without confirmation prompts
 
@@ -253,7 +253,7 @@ SOVEREIGN INTERACTION:
 ## V. Cartographer — Corpus Sensor (Pane 4)
 
 **Platform**: Gemini CLI (Gemini 2.5 Pro)
-**CLI**: `gemini --yolo`
+**CLI**: `gemini -m gemini-2.5-pro --yolo`
 **Role**: SENSOR, corpus-wide surveys, 1M+ context analysis, citation extraction
 **Color**: Yellow (`#f9e2af`)
 

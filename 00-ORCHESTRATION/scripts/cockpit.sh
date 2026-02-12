@@ -59,41 +59,35 @@ resolve_codex_model() {
         fi
     fi
 
-    # 3. Cache fallback (skip if stale >24h)
-    local cache="$HOME/.codex/models_cache.json"
-    if [ -f "$cache" ] && command -v python3 >/dev/null 2>&1; then
-        python3 - "$cache" <<'PY' 2>/dev/null && return 0
-import json, sys, os, time
-cache = sys.argv[1]
-# Skip cache older than 24 hours
-try:
-    age = time.time() - os.path.getmtime(cache)
-    if age > 86400:
-        print("gpt-5.2-codex")
-        raise SystemExit
-except Exception:
-    pass
-preferred = ["gpt-5.3-codex", "gpt-5.2-codex", "gpt-5-codex", "gpt-5.1-codex"]
-try:
-    data = json.load(open(cache, "r", encoding="utf-8"))
-    slugs = {m.get("slug") for m in data.get("models", []) if isinstance(m, dict)}
-except Exception:
-    print("gpt-5.2-codex")
-    raise SystemExit
-for slug in preferred:
-    if slug in slugs:
-        print(slug)
-        raise SystemExit
-print("gpt-5.2-codex")
-PY
-    fi
-
-    # 4. Safe default
+    # 3. Safe fallback (cache is not authoritative for entitlement checks)
     echo "$SAFE_DEFAULT"
 }
 
 CODEX_MODEL="$(resolve_codex_model)"
 CODEX_REASONING_EFFORT="${SYNCRESCENDENCE_CODEX_REASONING_EFFORT:-high}"
+resolve_codex_autonomy_flag() {
+    if [ -n "${SYNCRESCENDENCE_CODEX_AUTONOMY_FLAG:-}" ]; then
+        echo "$SYNCRESCENDENCE_CODEX_AUTONOMY_FLAG"
+        return 0
+    fi
+    if ! command -v codex >/dev/null 2>&1; then
+        echo "--full-auto"
+        return 0
+    fi
+    local help_text
+    help_text=$(codex --help 2>/dev/null || true)
+    if echo "$help_text" | grep -q -- '--dangerously-bypass-approvals-and-sandbox'; then
+        echo "--dangerously-bypass-approvals-and-sandbox"
+        return 0
+    fi
+    if echo "$help_text" | grep -q -- '--full-auto'; then
+        echo "--full-auto"
+        return 0
+    fi
+    echo ""
+}
+CODEX_AUTONOMY_FLAG="$(resolve_codex_autonomy_flag)"
+GEMINI_MODEL="${SYNCRESCENDENCE_GEMINI_MODEL:-gemini-2.5-pro}"
 
 # ── Display geometry (5120x1440, 6-lane grid, center 4) ─────────────────────
 DISPLAY_W=5120
@@ -156,14 +150,14 @@ case "${1:-}" in
     --launch)
         CMD_PSYCHE="cd '$REPO' && openclaw tui --session main --thinking high"
         CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
-        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m '$CODEX_MODEL' -c 'model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"'"
-        CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
+        CMD_ADJUDICATOR="cd '$REPO' && codex ${CODEX_AUTONOMY_FLAG:+$CODEX_AUTONOMY_FLAG }-m '$CODEX_MODEL' -c 'model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"'"
+        CMD_CARTOGRAPHER="cd '$REPO' && gemini -m '$GEMINI_MODEL' --yolo"
         ;;
     --launch-detached)
         CMD_PSYCHE="cd '$REPO' && openclaw tui --session main --thinking high"
         CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
-        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m '$CODEX_MODEL' -c 'model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"'"
-        CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
+        CMD_ADJUDICATOR="cd '$REPO' && codex ${CODEX_AUTONOMY_FLAG:+$CODEX_AUTONOMY_FLAG }-m '$CODEX_MODEL' -c 'model_reasoning_effort=\"$CODEX_REASONING_EFFORT\"'"
+        CMD_CARTOGRAPHER="cd '$REPO' && gemini -m '$GEMINI_MODEL' --yolo"
         ATTACH_ON_READY=false
         ;;
     --resize|--fix)

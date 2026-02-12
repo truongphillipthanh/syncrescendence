@@ -220,8 +220,8 @@ cockpit --kill       # Kill constellation session
 |------|-------|-----|----------|------|
 | 1 | **Psyche** | `openclaw tui --session main` | OpenClaw (GPT-5.3-codex) | CTO, system cohesion, Mac mini resident |
 | 2 | **Commander** | `claude --dangerously-skip-permissions` | Claude Code (Opus 4.6) | COO, primary executor, BLITZKRIEG lead |
-| 3 | **Adjudicator** | `codex --full-auto` | Codex CLI (Sonnet) | CQO, standards, parallel execution |
-| 4 | **Cartographer** | `gemini --yolo` | Gemini CLI (2.5 Pro) | CIO, corpus sensing, 1M context surveys |
+| 3 | **Adjudicator** | `codex --dangerously-bypass-approvals-and-sandbox` (fallback `--full-auto`) | Codex CLI (GPT-5.2-codex/5.3 if entitled) | CQO, standards, parallel execution |
+| 4 | **Cartographer** | `gemini -m gemini-2.5-pro --yolo` | Gemini CLI (2.5 Pro) | CIO, corpus sensing, 1M context surveys |
 
 ### Agent Loop Architecture
 Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md`
@@ -259,7 +259,7 @@ Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/
 |---------|-------|---------|--------|
 | Commander Watcher | `com.syncrescendence.watch-commander` | `-INBOX/commander/00-INBOX0/` | ACTIVE |
 | Adjudicator Watcher | `com.syncrescendence.watch-adjudicator` | `-INBOX/adjudicator/00-INBOX0/` | ACTIVE |
-| Cartographer Watcher | `com.syncrescendence.watch-cartographer` | `-INBOX/cartographer/00-INBOX0/` | **HIBERNATED** (DA-01) |
+| Cartographer Watcher | `com.syncrescendence.watch-cartographer` | `-INBOX/cartographer/00-INBOX0/` | ACTIVE |
 | Ajna Watcher | `com.syncrescendence.watch-ajna` | `-INBOX/ajna/00-INBOX0/` | ACTIVE |
 | Psyche Watcher | `com.syncrescendence.watch-psyche` | `-INBOX/psyche/00-INBOX0/` | ACTIVE |
 | Canon Watcher | `com.syncrescendence.watch-canon` | Registry-driven state files | ACTIVE |
