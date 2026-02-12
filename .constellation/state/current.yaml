@@ -1,4 +1,4 @@
-fingerprint: ca2fb65
-timestamp: 2026-02-12T04:53:40Z
+fingerprint: e7cfaed
+timestamp: 2026-02-12T04:53:48Z
 branch: main
-message: dispatch(blitzkrieg): 3 tasks -> psyche, adjudicator, ajna
+message: chore: sync DYN-* hook artifacts from blitzkrieg commits

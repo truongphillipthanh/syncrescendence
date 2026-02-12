@@ -140,3 +140,4 @@
 | 2026-02-12T04:53:23 | COMMIT | commander | repo | chore: acknowledge 10 task results, clean commander inbox (22 items to RECEIPTS) | b5a01b0 | b5a01b0 | — | — |
 | 2026-02-12T04:53:32 | COMMIT | commander | repo | docs(DA-14): Commander dual-residency in COCKPIT.md + blitzkrieg clarescence | ed0da7f | ed0da7f | — | — |
 | 2026-02-12T04:53:40 | COMMIT | commander | repo | dispatch(blitzkrieg): 3 tasks -> psyche, adjudicator, ajna | ca2fb65 | ca2fb65 | — | — |
+| 2026-02-12T04:53:48 | COMMIT | commander | repo | chore: sync DYN-* hook artifacts from blitzkrieg commits | e7cfaed | e7cfaed | — | — |
