@@ -1,4 +1,4 @@
-fingerprint: ec0f471
-timestamp: 2026-02-12T02:30:10Z
+fingerprint: f8b2b11
+timestamp: 2026-02-12T02:31:41Z
 branch: main
-message: feat(INT-MI19): ontology dashboard command + clarescence records
+message: feat(INT-MI19): ontology surface dashboard — static Obsidian-renderable view
