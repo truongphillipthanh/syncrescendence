@@ -252,7 +252,7 @@ Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/
 |---------|-------|---------|--------|
 | Commander Watcher | `com.syncrescendence.watch-commander` | `-INBOX/commander/00-INBOX0/` | ACTIVE |
 | Adjudicator Watcher | `com.syncrescendence.watch-adjudicator` | `-INBOX/adjudicator/00-INBOX0/` | ACTIVE |
-| Cartographer Watcher | `com.syncrescendence.watch-cartographer` | `-INBOX/cartographer/00-INBOX0/` | ACTIVE |
+| Cartographer Watcher | `com.syncrescendence.watch-cartographer` | `-INBOX/cartographer/00-INBOX0/` | **HIBERNATED** (DA-01) |
 | Ajna Watcher | `com.syncrescendence.watch-ajna` | `-INBOX/ajna/00-INBOX0/` | ACTIVE |
 | Psyche Watcher | `com.syncrescendence.watch-psyche` | `-INBOX/psyche/00-INBOX0/` | ACTIVE |
 | Canon Watcher | `com.syncrescendence.watch-canon` | Registry-driven state files | ACTIVE |
