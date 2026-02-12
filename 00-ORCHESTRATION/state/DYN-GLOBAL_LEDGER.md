@@ -175,3 +175,13 @@
 | 2026-02-12T23:39:14 | COMMIT | commander | repo | docs(clarescence): macroscopic pulse check — CLI logs forensic (13 files, 24 i | b70d8a5 | b70d8a5 | — | — |
 | 2026-02-12T23:39:22 | COMMIT | commander | repo | chore: sync hook artifacts | 53ff1cc | 53ff1cc | — | — |
 | 2026-02-12T23:39:31 | COMMIT | commander | repo | chore: trailing hook state | 346a300 | 346a300 | — | — |
+| 2026-02-12T23:39:46 | COMMIT | commander | repo | chore: post-push hook sync | c4f7b28 | c4f7b28 | — | — |
+| 2026-02-12T23:51:22 | DISPATCH | dispatch | adjudicator | TASK-20260212-adjudicator_autonomy_smoke.md | c4f7b28 | c4f7b28 | — | — |
+| 2026-02-12T23:51:22 | DISPATCH | dispatch | cartographer | TASK-20260212-cartographer_capacity_smoke.md | c4f7b28 | c4f7b28 | — | — |
+| 2026-02-12T23:51:22 | CLAIM | adjudicator | adjudicator | TASK-20260212-adjudicator_autonomy_smoke.md | c4f7b28 | c4f7b28 | — | — |
+| 2026-02-12T23:51:22 | CLAIM | cartographer | cartographer | TASK-20260212-cartographer_capacity_smoke.md | c4f7b28 | c4f7b28 | — | — |
+| 2026-02-12T23:52:35 | DISPATCH | dispatch | commander | TASK-20260212-mba_apply_adj_carto_hardening.md | c4f7b28 | c4f7b28 | — | — |
+| 2026-02-12T23:52:36 | CLAIM | commander | commander | TASK-20260212-mba_apply_adj_carto_hardening.md | c4f7b28 | c4f7b28 | — | — |
+| 2026-02-12T23:53:06 | COMMIT | commander | repo | fix(ops): harden adjudicator autonomy, model fallback, and cartographer recovery | f99542d | f99542d | — | — |
+| 2026-02-12T23:53:30 | COMPLETE | adjudicator | adjudicator | TASK-20260212-adjudicator_autonomy_smoke | f99542d | f99542d | — | — |
+| 2026-02-12T23:53:43 | FAILED | cartographer | — | TASK-20260212-cartographer_capacity_smoke.md | f99542d | f99542d | — | — |
