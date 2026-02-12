@@ -32,7 +32,7 @@ The constellation has three tiers: **CLI agents** (always-on, cockpit-resident, 
 
 | Avatar | Epithet | Role | Platform | Acct | Machine | Cockpit | Summon |
 |--------|---------|------|----------|------|---------|---------|--------|
-| **Commander** | Viceroy | COO | Claude Code (Opus 4.6) | 1 | Mac mini | Pane 2 | "Commander, pivot to..." |
+| **Commander** | Viceroy | COO | Claude Code (Opus 4.6) | 1 | Mac mini + MBA | Pane 2 + MBA | "Commander, pivot to..." |
 | **Adjudicator** | Executor | CQO | Codex CLI (Sonnet) | 2 | Mac mini | Pane 3 | "Adjudicator, execute..." |
 | **Cartographer** | Exegete | CIO | Gemini CLI (2.5 Pro) | 2 | Mac mini | Pane 4 | "Cartographer, survey..." | **HIBERNATED** (DA-01, 2026-02-11) — 0% signal-to-noise across 6 tasks. Reactivate when Gemini CLI produces >100 lines per task. |
 
@@ -244,6 +244,13 @@ Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/
 - **Archon**: Forms AjnaPsyche Archon with Psyche (CSO steering wheel + CTO rudder)
 - **Status**: MBA configured — OpenClaw + NVIDIA provider active
 
+### Commander (Dual-Residency — Mac mini Pane 2 + MacBook Air)
+- **Primary**: Mac mini cockpit Pane 2 (always-on, full orchestration)
+- **Secondary**: MacBook Air (kinetic micro-cockpit, field operations)
+- **Communication**: Same git repo, same dispatch protocol
+- **Skills**: 17 Syncrescendence skills installed at user level on MBA
+- **Status**: Dual-residency active since 2026-02-12 (DA-13, DA-14)
+
 ---
 
 ## Always-On Services (12 total)
@@ -302,7 +309,7 @@ Launch: `doom-dash` (alias for `emacsclient -nw -c`)
 
 ## Hooks & Skills Inventory
 
-### Active Hooks (5 scripts, executable but NOT registered in .claude/settings.json)
+### Active Hooks (5 scripts, registered in .claude/settings.json on both machines)
 | Hook | Event | Script | Output |
 |------|-------|--------|--------|
 | Session Log | Stop | `session_log.sh` | DYN-SESSION_LOG.md |
