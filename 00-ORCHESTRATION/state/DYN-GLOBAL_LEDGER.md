@@ -141,3 +141,4 @@
 | 2026-02-12T04:53:32 | COMMIT | commander | repo | docs(DA-14): Commander dual-residency in COCKPIT.md + blitzkrieg clarescence | ed0da7f | ed0da7f | — | — |
 | 2026-02-12T04:53:40 | COMMIT | commander | repo | dispatch(blitzkrieg): 3 tasks -> psyche, adjudicator, ajna | ca2fb65 | ca2fb65 | — | — |
 | 2026-02-12T04:53:48 | COMMIT | commander | repo | chore: sync DYN-* hook artifacts from blitzkrieg commits | e7cfaed | e7cfaed | — | — |
+| 2026-02-12T04:53:57 | COMMIT | commander | repo | chore: final hook artifact tail | cf97a3e | cf97a3e | — | — |

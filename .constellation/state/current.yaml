@@ -1,4 +1,4 @@
-fingerprint: e7cfaed
-timestamp: 2026-02-12T04:53:48Z
+fingerprint: cf97a3e
+timestamp: 2026-02-12T04:53:57Z
 branch: main
-message: chore: sync DYN-* hook artifacts from blitzkrieg commits
+message: chore: final hook artifact tail
