@@ -1,4 +1,4 @@
-fingerprint: 5004268
-timestamp: 2026-02-11T20:20:34Z
+fingerprint: ba2c836
+timestamp: 2026-02-12T02:14:59Z
 branch: main
-message: fix: restore full ledger history + append DA-01 through DA-07 entries
+message: feat(DA-10,INT-MI19): ontology strategic enrichment — 29→142 records, 20 query commands
