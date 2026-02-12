@@ -583,9 +583,9 @@
   dependencies: DB created + populated.
   owner_lane: Adjudicator
   venue: repo
-  status: in_progress
+  status: done
   linear_id: SYN-22
-  notes: "ontology_query.py built 2026-02-10: 10 commands (stats/search/primitives/apparatus/projects/tasks/sources/sql). Commit 0516b87." 
+  notes: "ontology_query.py: 21 commands (stats/search/layers/apps/primitives/apparatus/projects/tasks/sources/actions/agent-bindings/workflows/commitments/goals/risks/resources/relationships/environments/verbs/dashboard/sql). Schema v1.3.0, 2015 rows, 43 tables. Dashboard command provides full strategic overview. Completed 2026-02-12."
 
 - id: IMPL-C-0014
   source_path: 01-CANON/CANON-30300-TECH_STACK-comet-INTELLIGENCE.md
