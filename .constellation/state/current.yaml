@@ -1,4 +1,4 @@
-fingerprint: 40238fb
-timestamp: 2026-02-12T04:54:05Z
+fingerprint: 8b696c4
+timestamp: 2026-02-12T04:56:56Z
 branch: main
-message: chore: sync trailing hook state
+message: chore: sync hook artifacts before push
