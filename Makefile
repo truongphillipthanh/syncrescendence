@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit
 
 # Default target
 help:
@@ -32,6 +32,9 @@ help:
 	@echo "  make ontology-query Q=\"...\"    - Search ontology (apps, primitives, projects)"
 	@echo "  make ontology-dashboard        - Strategic dashboard (CLI)"
 	@echo "  make ontology-surface          - Regenerate Obsidian surface markdown"
+	@echo "  make ontology-verify           - Run acceptance tests (47 checks)"
+	@echo "  make ontology-refresh          - Weekly maintenance (stale/pricing/risks)"
+	@echo "  make ontology-audit            - Monthly full audit (coverage gaps)"
 	@echo ""
 	@echo "Intelligence:"
 	@echo "  make regenerate-canon          - Regenerate all CANON templates from data"
@@ -241,6 +244,18 @@ ontology-dashboard:
 # Regenerate static Obsidian surface markdown from ontology.db
 ontology-surface:
 	@python3 00-ORCHESTRATION/scripts/gen_surface.py
+
+# Run ontology acceptance tests (47 checks: schema, commands, coverage, duplicates, latency)
+ontology-verify:
+	@python3 00-ORCHESTRATION/scripts/ontology_verify.py
+
+# Weekly maintenance: stale detection, pricing flags, hot risks
+ontology-refresh:
+	@python3 00-ORCHESTRATION/scripts/ontology_maintain.py refresh
+
+# Monthly full audit: integrity, coverage gaps, strategic health
+ontology-audit:
+	@python3 00-ORCHESTRATION/scripts/ontology_maintain.py audit
 
 # ============================================
 # INTELLIGENCE SYSTEM
