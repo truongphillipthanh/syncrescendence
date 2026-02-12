@@ -1,4 +1,4 @@
-fingerprint: 2a8148e
-timestamp: 2026-02-12T02:15:09Z
+fingerprint: 4a9c0f4
+timestamp: 2026-02-12T02:15:47Z
 branch: main
-message: chore: sync operational state — dispatch artifacts, DYN hooks, Adjudicator task
+message: chore: auto-compact wisdom at threshold (10 entries)

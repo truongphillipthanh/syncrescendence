@@ -670,6 +670,98 @@ def cmd_verbs(args):
     conn.close()
 
 
+def cmd_dashboard(args):
+    """Strategic dashboard — full operational overview across all layers."""
+    conn = sqlite3.connect(DB_PATH)
+    now = conn.execute("SELECT datetime('now')").fetchone()[0]
+
+    # Header
+    meta = dict(conn.execute("SELECT key, value FROM _meta").fetchall())
+    print("=" * 72)
+    print("  SYNCRESCENDENCE ONTOLOGY — STRATEGIC DASHBOARD")
+    print("=" * 72)
+    print(f"  Schema: v{meta.get('schema_version', '?')}  |  Built: {meta.get('build_timestamp', '?')[:19]}")
+    print(f"  DB: {DB_PATH}")
+    total = conn.execute("SELECT SUM(cnt) FROM (SELECT COUNT(*) cnt FROM commitments UNION ALL SELECT COUNT(*) FROM goals UNION ALL SELECT COUNT(*) FROM risks UNION ALL SELECT COUNT(*) FROM resources UNION ALL SELECT COUNT(*) FROM environments UNION ALL SELECT COUNT(*) FROM governed_verbs UNION ALL SELECT COUNT(*) FROM strategic_relationships)").fetchone()[0]
+    grand = 0
+    for tbl in ['layers','object_types','commercial_seams','modalities','lifecycle_states','deployment_contexts','apps','models','api_pricing','primitives','apparatus','usage_contexts','action_types','app_actions','agent_bindings','workflow_templates','workflow_steps','commitments','goals','risks','strategic_relationships','resources','environments','governed_verbs','projects','tasks','accounts','platforms','platform_roles','sources']:
+        try:
+            grand += conn.execute(f"SELECT COUNT(*) FROM [{tbl}]").fetchone()[0]
+        except:
+            pass
+    print(f"  Strategic: {total} records  |  Grand total: {grand} rows")
+    print()
+
+    # Commitments
+    print("--- COMMITMENTS (active obligations) ---")
+    for row in conn.execute("SELECT code, name, stakeholder, status, intention_link FROM commitments ORDER BY code"):
+        marker = "X" if row[3] == "failed" else "~" if row[3] != "active" else " "
+        print(f"  [{marker}] {row[0]:8s} {row[1][:45]:<45s} [{row[2]}] {row[4]}")
+    active = conn.execute("SELECT COUNT(*) FROM commitments WHERE status='active'").fetchone()[0]
+    failed = conn.execute("SELECT COUNT(*) FROM commitments WHERE status='failed'").fetchone()[0]
+    print(f"  {active} active, {failed} failed")
+    print()
+
+    # Goals
+    print("--- GOALS (desired outcomes) ---")
+    for row in conn.execute("SELECT code, name, status FROM goals ORDER BY code"):
+        sym = {"active": " ", "partial": "~", "blocked": "!", "deferred": "-"}.get(row[2], "?")
+        print(f"  [{sym}] {row[0]:8s} {row[1][:55]}")
+    print()
+
+    # Risks
+    print("--- RISK MATRIX ---")
+    print(f"  {'Code':<10s} {'Category':<13s} {'Prob':<10s} {'Impact':<13s} Name")
+    print(f"  {'-'*10} {'-'*13} {'-'*10} {'-'*13} {'-'*30}")
+    for row in conn.execute("SELECT code, name, category, probability, impact FROM risks ORDER BY CASE impact WHEN 'catastrophic' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2 WHEN 'medium' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, code"):
+        print(f"  {row[0]:<10s} {row[2]:<13s} {row[3]:<10s} {row[4]:<13s} {row[1][:35]}")
+    print()
+
+    # Resources (economics)
+    print("--- RESOURCE ECONOMICS ---")
+    for row in conn.execute("SELECT category, COUNT(*), SUM(monthly_cost) FROM resources GROUP BY category ORDER BY SUM(monthly_cost) DESC"):
+        print(f"  {row[0]:<18s} {row[1]:3d} items  ${row[2]:>6.0f}/mo")
+    total_cost = conn.execute("SELECT SUM(monthly_cost) FROM resources").fetchone()[0]
+    print(f"  {'TOTAL':<18s}          ${total_cost:>6.0f}/mo")
+    print()
+
+    # Agent bindings
+    print("--- CONSTELLATION BINDINGS ---")
+    for row in conn.execute("SELECT agent_code, COUNT(*) FROM agent_bindings GROUP BY agent_code ORDER BY COUNT(*) DESC"):
+        bar = "#" * (row[1] // 2)
+        print(f"  {row[0]:<15s} {row[1]:3d} {bar}")
+    print()
+
+    # Relationship web
+    print("--- RELATIONSHIP WEB ---")
+    for row in conn.execute("SELECT relationship_type, COUNT(*), ROUND(AVG(strength),1) FROM strategic_relationships GROUP BY relationship_type ORDER BY COUNT(*) DESC"):
+        print(f"  {row[0]:<18s} {row[1]:3d} rels  avg={row[2]}")
+    print()
+
+    # Workflows
+    print("--- WORKFLOW TEMPLATES ---")
+    for row in conn.execute("SELECT wt.name, COUNT(ws.id) as steps FROM workflow_templates wt LEFT JOIN workflow_steps ws ON wt.id=ws.workflow_id GROUP BY wt.id ORDER BY steps DESC"):
+        bar = "|" * row[1]
+        print(f"  {row[0]:<38s} {row[1]:2d} steps {bar}")
+    print()
+
+    # Projects
+    print("--- PROJECT STATUS ---")
+    for row in conn.execute("SELECT status, COUNT(*) FROM projects GROUP BY status ORDER BY COUNT(*) DESC"):
+        print(f"  {row[0]:<18s} {row[1]:3d}")
+    print()
+
+    # Verb governance
+    print("--- VERB GOVERNANCE ---")
+    for row in conn.execute("SELECT category, COUNT(*), SUM(CASE WHEN requires_approval=1 THEN 1 ELSE 0 END) FROM governed_verbs GROUP BY category ORDER BY category"):
+        gated = f" ({row[2]} Sovereign-gated)" if row[2] > 0 else ""
+        print(f"  {row[0]:<18s} {row[1]:2d} verbs{gated}")
+    print()
+
+    print("=" * 72)
+    conn.close()
+
+
 COMMANDS = {
     "stats": cmd_stats,
     "layers": cmd_layers,
@@ -690,6 +782,7 @@ COMMANDS = {
     "relationships": cmd_relationships,
     "environments": cmd_environments,
     "verbs": cmd_verbs,
+    "dashboard": cmd_dashboard,
     "sql": cmd_sql,
 }
 

@@ -32,3 +32,6 @@
 | 2026-02-12T02:14:38 | COMMIT | commander | repo | fix(DA-09): correct stale state — COCKPIT watcher, BACKLOG PROJ-006b, MEMORY.m | 6b519e7 | 6b519e7 | — | — |
 | 2026-02-12T02:14:59 | COMMIT | commander | repo | feat(DA-10,INT-MI19): ontology strategic enrichment — 29→142 records, 20 que | ba2c836 | ba2c836 | — | — |
 | 2026-02-12T02:15:09 | COMMIT | commander | repo | chore: sync operational state — dispatch artifacts, DYN hooks, Adjudicator tas | 2a8148e | 2a8148e | — | — |
+| 2026-02-12T02:15:18 | COMMIT | commander | repo | chore: sync ledger hook artifacts post-commit | a0c8182 | a0c8182 | — | — |
+| 2026-02-12T02:15:47 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 4a9c0f4 | 4a9c0f4 | — | — |
+| 2026-02-12T02:29:00 | DECISION | adjudicator | commander | CLARESCENCE-2026-02-12-adjudicator-intake-normalization | 4a9c0f4 | 4a9c0f4 | DA-ADJ-INTAKE-001 | INT-P003 |
