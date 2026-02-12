@@ -4188,3 +4188,219 @@ none
 202 intention(s) captured by Intent Compass this session.
 
 ---
+
+## Session: 2026-02-12 13:40:16
+**Branch**: main | **Fingerprint**: ab3ebd2 | **Commits**: 9
+
+### Commits
+```
+ab3ebd2 chore: post-push hook sync
+c0b3c7d chore: pre-push hook sync
+f3c6481 chore: process 10 inbox items to RECEIPTS + Ajna identity fix + DYN-* state sync
+158cfe3 fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
+e7818c9 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:38:49Z]
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+.constellation/state/current.yaml
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:40:19
+**Branch**: main | **Fingerprint**: ab3ebd2 | **Commits**: 9
+
+### Commits
+```
+ab3ebd2 chore: post-push hook sync
+c0b3c7d chore: pre-push hook sync
+f3c6481 chore: process 10 inbox items to RECEIPTS + Ajna identity fix + DYN-* state sync
+158cfe3 fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
+e7818c9 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:38:49Z]
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+.constellation/state/current.yaml
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:40:24
+**Branch**: main | **Fingerprint**: ab3ebd2 | **Commits**: 9
+
+### Commits
+```
+ab3ebd2 chore: post-push hook sync
+c0b3c7d chore: pre-push hook sync
+f3c6481 chore: process 10 inbox items to RECEIPTS + Ajna identity fix + DYN-* state sync
+158cfe3 fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
+e7818c9 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:38:49Z]
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+.constellation/state/current.yaml
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 13:40:31
+**Branch**: main | **Fingerprint**: ab3ebd2 | **Commits**: 9
+
+### Commits
+```
+ab3ebd2 chore: post-push hook sync
+c0b3c7d chore: pre-push hook sync
+f3c6481 chore: process 10 inbox items to RECEIPTS + Ajna identity fix + DYN-* state sync
+158cfe3 fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
+e7818c9 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:38:49Z]
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+.constellation/state/current.yaml
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 15:23:20
+**Branch**: main | **Fingerprint**: ab3ebd2 | **Commits**: 9
+
+### Commits
+```
+ab3ebd2 chore: post-push hook sync
+c0b3c7d chore: pre-push hook sync
+f3c6481 chore: process 10 inbox items to RECEIPTS + Ajna identity fix + DYN-* state sync
+158cfe3 fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
+e7818c9 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:38:49Z]
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+.constellation/state/current.yaml
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-12 15:24:36
+**Branch**: main | **Fingerprint**: ab3ebd2 | **Commits**: 9
+
+### Commits
+```
+ab3ebd2 chore: post-push hook sync
+c0b3c7d chore: pre-push hook sync
+f3c6481 chore: process 10 inbox items to RECEIPTS + Ajna identity fix + DYN-* state sync
+158cfe3 fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
+e7818c9 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:38:49Z]
+c1dde7c sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:33:45Z]
+1027202 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:28:40Z]
+0e490a5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T21:03:27Z]
+b787ec5 sync(ajna): inbox/outgoing sync from MBA [2026-02-12T19:32:44Z]
+```
+
+### State Files Touched
+```
+.constellation/state/current.yaml
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+202 intention(s) captured by Intent Compass this session.
+
+---
