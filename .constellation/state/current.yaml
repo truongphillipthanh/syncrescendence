@@ -1,4 +1,4 @@
-fingerprint: eef0479
-timestamp: 2026-02-12T04:10:36Z
+fingerprint: c6a4ea9
+timestamp: 2026-02-12T04:11:48Z
 branch: main
-message: fix(ops): harden adjudicator model routing and fail-closed dispatch
+message: task: adjudicator_smoke_model52_v2 complete
