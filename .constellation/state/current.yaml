@@ -1,4 +1,4 @@
-fingerprint: ba2c836
-timestamp: 2026-02-12T02:14:59Z
+fingerprint: 2a8148e
+timestamp: 2026-02-12T02:15:09Z
 branch: main
-message: feat(DA-10,INT-MI19): ontology strategic enrichment — 29→142 records, 20 query commands
+message: chore: sync operational state — dispatch artifacts, DYN hooks, Adjudicator task
