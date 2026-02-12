@@ -57,6 +57,7 @@ echo "[rearm] copying plists from: $PLIST_SRC_DIR"
 
 # Always copy plists we might need
 for p in \
+  com.syncrescendence.watchdog.plist \
   com.syncrescendence.watch-psyche.plist \
   com.syncrescendence.watch-canon.plist \
   com.syncrescendence.watch-commander.plist \
@@ -72,17 +73,19 @@ done
 echo "[rearm] bootstrapping jobs into $GUI_DOMAIN (mode: $MODE) ..."
 
 if [ "$MODE" = "psyche" ]; then
+  load_job com.syncrescendence.watchdog.plist
   load_job com.syncrescendence.watch-psyche.plist
   load_job com.syncrescendence.watch-canon.plist
-  echo "[rearm] NOTE: psyche mode loaded psyche+canon only."
+  echo "[rearm] NOTE: psyche mode loaded watchdog+psyche+canon."
 fi
 
 if [ "$MODE" = "mini" ]; then
+  load_job com.syncrescendence.watchdog.plist
   load_job com.syncrescendence.watch-ajna.plist
   load_job com.syncrescendence.watch-commander.plist
   load_job com.syncrescendence.watch-adjudicator.plist
   load_job com.syncrescendence.watch-cartographer.plist
-  echo "[rearm] NOTE: mini mode loaded ajna+commander+adjudicator+cartographer."
+  echo "[rearm] NOTE: mini mode loaded watchdog+ajna+commander+adjudicator+cartographer."
 fi
 
 echo "[rearm] done."
