@@ -377,7 +377,11 @@ run_executor() {
       local inner
       inner=$timeout_s
       if [ "$inner" -gt 600 ]; then inner=600; fi
-      cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; t=sys.argv[1]; print(json.dumps(["openclaw","agent","--agent","main","--message",sys.stdin.read(),"--timeout",t]))' "$inner")
+      if [ "$AGENT" = "psyche" ]; then
+        cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; t=sys.argv[1]; print(json.dumps(["openclaw","agent","--agent","main","--message",sys.stdin.read(),"--thinking","high","--timeout",t]))' "$inner")
+      else
+        cmd_json=$(printf '%s' "$task_content" | python3 -c 'import json,sys; t=sys.argv[1]; print(json.dumps(["openclaw","agent","--agent","main","--message",sys.stdin.read(),"--timeout",t]))' "$inner")
+      fi
       ;;
     *)
       echo "[Watch] No CLI handler configured for agent: $AGENT" >"$tmp_out" 2>&1

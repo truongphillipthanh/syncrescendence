@@ -25,6 +25,7 @@
 # Usage:
 #   cockpit              # Create/attach via alias
 #   cockpit --launch     # Create cockpit AND launch agent CLIs
+#   cockpit --launch-detached  # Create cockpit + launch agents, no attach
 #   cockpit --resize     # Reposition window to center 4/6 (no session change)
 #   cockpit --kill       # Kill the constellation session
 
@@ -33,6 +34,7 @@ set -euo pipefail
 REPO="${SYNCRESCENDENCE_PATH:-$HOME/Desktop/syncrescendence}"
 SESSION="constellation"
 NVIM_BIN="/opt/homebrew/bin/nvim"  # Explicit path — never resolve to emacs
+ATTACH_ON_READY=true
 
 # ── Display geometry (5120x1440, 6-lane grid, center 4) ─────────────────────
 DISPLAY_W=5120
@@ -93,14 +95,18 @@ position_window() {
 # ── Handle flags ──────────────────────────────────────────────────────────────
 case "${1:-}" in
     --launch)
-        CMD_PSYCHE="cd '$REPO' && openclaw tui --session main"
+        CMD_PSYCHE="cd '$REPO' && openclaw tui --session main --thinking high"
         CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
-        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto"
+        # "gpt-5.3-codex-high" is not a model slug. "high" is reasoning effort.
+        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m gpt-5.3-codex -c 'model_reasoning_effort=\"high\"'"
         CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
-        # Note: Adjudicator defaults to gpt-5.2-codex. To switch to gpt-5.3-codex:
-        #   After codex boots, send '/model gpt-5.3-codex' via tmux send-keys.
-        #   See POST_LAUNCH_MODEL_SWITCH below.
-        POST_LAUNCH_MODEL_SWITCH=true
+        ;;
+    --launch-detached)
+        CMD_PSYCHE="cd '$REPO' && openclaw tui --session main --thinking high"
+        CMD_COMMANDER="cd '$REPO' && claude --dangerously-skip-permissions"
+        CMD_ADJUDICATOR="cd '$REPO' && codex --full-auto -m gpt-5.3-codex -c 'model_reasoning_effort=\"high\"'"
+        CMD_CARTOGRAPHER="cd '$REPO' && gemini --yolo"
+        ATTACH_ON_READY=false
         ;;
     --resize|--fix)
         echo "Repositioning Ghostty to center 4/6 (${WIN_LEFT},${WIN_TOP} → ${WIN_RIGHT},${WIN_BOTTOM})..."
@@ -136,6 +142,7 @@ case "${1:-}" in
         echo "Usage:"
         echo "  cockpit              Create/attach (default: shell banners)"
         echo "  cockpit --launch     Create AND launch agent CLIs"
+        echo "  cockpit --launch-detached  Create AND launch agent CLIs (no attach)"
         echo "  cockpit --resize     Reposition window to center 4/6"
         echo "  cockpit --kill       Kill constellation session"
         echo ""
@@ -165,9 +172,16 @@ if tmux has-session -t "$SESSION" 2>/dev/null; then
         echo "Stale session detected ($PANE_COUNT panes, expected 8). Killing and recreating..."
         tmux kill-session -t "$SESSION"
     else
-        echo "Session '$SESSION' exists. Repositioning and attaching..."
+        if [[ "$ATTACH_ON_READY" == "true" ]]; then
+            echo "Session '$SESSION' exists. Repositioning and attaching..."
+        else
+            echo "Session '$SESSION' exists. Repositioning (detached mode)..."
+        fi
         position_window
-        exec tmux attach -t "$SESSION"
+        if [[ "$ATTACH_ON_READY" == "true" ]]; then
+            exec tmux attach -t "$SESSION"
+        fi
+        exit 0
     fi
 fi
 
@@ -232,24 +246,7 @@ tmux send-keys -t "$CARTOGRAPHER_ID" "$CMD_CARTOGRAPHER" C-m
 # nvim panes already running — launched directly by split-window above
 # No send-keys needed. No race condition. No timing hacks.
 
-# ── Post-launch model switching ──────────────────────────────────────────────
-# Adjudicator (Codex CLI) defaults to gpt-5.2-codex on boot.
-# Psyche (OpenClaw) model is set in openclaw.json (currently openai-codex/gpt-5.2).
-# After boot, switch both to gpt-5.3-codex via their respective CLIs.
-#
-# Timing: Codex takes ~3-5s to initialize; OpenClaw TUI ~2-3s.
-# We background the model switch so it doesn't block the rest of cockpit setup.
-if [[ "${POST_LAUNCH_MODEL_SWITCH:-false}" == "true" ]]; then
-    (
-        sleep 8  # Wait for Codex + OpenClaw to finish booting
-        # Adjudicator: /model command switches the active model in Codex CLI
-        tmux send-keys -t "$ADJUDICATOR_ID" "/model gpt-5.3-codex" C-m
-        sleep 2
-        # Psyche: /model command switches the active model in OpenClaw TUI
-        tmux send-keys -t "$PSYCHE_ID" "/model gpt-5.3-codex" C-m
-    ) &
-    echo "Post-launch model switch queued (gpt-5.3-codex for Adjudicator + Psyche)"
-fi
+# Psyche and Adjudicator model selection/reasoning are explicit in launch commands.
 
 # ── Apply pane titles ────────────────────────────────────────────────────────
 tmux select-pane -t "$PSYCHE_ID" -T "Psyche"
@@ -373,5 +370,8 @@ if [[ "$PANE_W" != "?" ]] && (( PANE_W < 50 )); then
 fi
 
 # ── Attach ──────────────────────────────────────────────────────────────────
-echo "Constellation cockpit ready. Attaching..."
-exec tmux attach -t "$SESSION"
+if [[ "$ATTACH_ON_READY" == "true" ]]; then
+    echo "Constellation cockpit ready. Attaching..."
+    exec tmux attach -t "$SESSION"
+fi
+echo "Constellation cockpit ready (detached mode)."
