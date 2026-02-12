@@ -32,6 +32,8 @@
         <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
         <key>NODE_NO_WARNINGS</key>
         <string>1</string>
+        <key>SYNCRESCENDENCE_CODEX_MODEL</key>
+        <string>gpt-5.1-codex</string>
     </dict>
 
     <key>ThrottleInterval</key>

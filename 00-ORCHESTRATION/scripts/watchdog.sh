@@ -20,18 +20,42 @@ COCKPIT_SCRIPT="$REPO_ROOT/00-ORCHESTRATION/scripts/cockpit.sh"
 TMUX_SESSION="constellation"
 
 resolve_codex_model() {
+    local SAFE_DEFAULT="gpt-5.2-codex"
+
+    # 1. Explicit env override (launchd plists set this for guaranteed safety)
     if [ -n "${SYNCRESCENDENCE_CODEX_MODEL:-}" ]; then
         echo "$SYNCRESCENDENCE_CODEX_MODEL"
         return 0
     fi
-    local cache="$HOME/.codex/models_cache.json"
-    if [ ! -f "$cache" ] || ! command -v python3 >/dev/null 2>&1; then
-        echo "gpt-5.2-codex"
-        return 0
+
+    # 2. Runtime probe: ask codex directly for available models (most reliable)
+    if command -v codex >/dev/null 2>&1; then
+        local probe
+        probe=$(codex models 2>/dev/null | head -20) || true
+        if [ -n "$probe" ]; then
+            for slug in "gpt-5.3-codex" "gpt-5.2-codex" "gpt-5-codex" "gpt-5.1-codex"; do
+                if echo "$probe" | grep -qF "$slug"; then
+                    echo "$slug"
+                    return 0
+                fi
+            done
+        fi
     fi
-    python3 - "$cache" <<'PY' 2>/dev/null || echo "gpt-5.2-codex"
-import json, sys
+
+    # 3. Cache fallback (skip if stale >24h)
+    local cache="$HOME/.codex/models_cache.json"
+    if [ -f "$cache" ] && command -v python3 >/dev/null 2>&1; then
+        python3 - "$cache" <<'PY' 2>/dev/null && return 0
+import json, sys, os, time
 cache = sys.argv[1]
+# Skip cache older than 24 hours
+try:
+    age = time.time() - os.path.getmtime(cache)
+    if age > 86400:
+        print("gpt-5.2-codex")
+        raise SystemExit
+except Exception:
+    pass
 preferred = ["gpt-5.3-codex", "gpt-5.2-codex", "gpt-5-codex", "gpt-5.1-codex"]
 try:
     data = json.load(open(cache, "r", encoding="utf-8"))
@@ -45,6 +69,10 @@ for slug in preferred:
         raise SystemExit
 print("gpt-5.2-codex")
 PY
+    fi
+
+    # 4. Safe default
+    echo "$SAFE_DEFAULT"
 }
 
 CODEX_MODEL="$(resolve_codex_model)"
