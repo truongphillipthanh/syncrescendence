@@ -1,4 +1,4 @@
-fingerprint: c6a4ea9
-timestamp: 2026-02-12T04:11:48Z
+fingerprint: 370a666
+timestamp: 2026-02-12T04:46:58Z
 branch: main
-message: task: adjudicator_smoke_model52_v2 complete
+message: feat(ops): codify command doctrine and harden watchdog resilience
