@@ -7,12 +7,12 @@
 **Fingerprint**: 0e490a5
 **Kind**: TASK
 **Priority**: P1
-**Status**: IN_PROGRESS
-**Kanban**: IN_PROGRESS
+**Status**: FAILED
+**Kanban**: FAILED
 **Claimed-By**: commander-Lisas-MacBook-Air
 **Claimed-At**: 2026-02-12T21:26:21Z
-**Completed-At**: —
-**Exit-Code**: —
+**Completed-At**: 2026-02-12T21:32:07Z
+**Exit-Code**: 1
 **Timeout**: 30
 **CC**: adjudicator
 **Receipts-To**: -OUTBOX/commander/RESULTS

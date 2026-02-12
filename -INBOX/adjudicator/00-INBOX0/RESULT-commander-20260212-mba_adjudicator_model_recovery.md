@@ -1,0 +1,47 @@
+# RESULT-commander-20260212-mba_adjudicator_model_recovery
+
+**Task**: TASK-20260212-mba_adjudicator_model_recovery.md
+**Agent**: commander
+**Exit-Code**: 1
+**Completed-At**: 2026-02-12T21:32:07Z
+
+---
+
+## Output
+
+Changes verified. Here's the complete summary:
+
+---
+
+## Task Complete: MBA Adjudicator Model Recovery
+
+### Root Cause
+The `resolve_codex_model()` function in cockpit.sh/watch_dispatch.sh/watchdog.sh prefers `gpt-5.3-codex` — but that's **Psyche's model** (Account 1). The Adjudicator runs on **Account 2** which only has access to `gpt-5.2-codex`. When the model cache (or absence thereof) resolved to `gpt-5.3-codex`, the Codex CLI threw `model does not exist or no access`.
+
+### Changes Made (committed to repo)
+All 3 adjudicator watcher plist templates now have `SYNCRESCENDENCE_CODEX_MODEL=gpt-5.2-codex` in their EnvironmentVariables:
+- `launchd-psyche/com.syncrescendence.watch-adjudicator.plist` (MBA)
+- `launchd-mini/com.syncrescendence.watch-adjudicator.plist` (Mac mini)
+- `launchd/com.syncrescendence.watch-adjudicator.plist` (generic)
+
+This bypasses the cache-based resolution entirely for the watcher, using the env variable that `resolve_codex_model()` already checks first (lines 40-42 in cockpit.sh).
+
+### Manual Steps Required (Sovereign)
+
+1. **Upgrade Codex CLI**: `brew upgrade codex && codex --version`
+2. **Shell env** (for cockpit/watchdog tmux context): Add `export SYNCRESCENDENCE_CODEX_MODEL=gpt-5.2-codex` to `~/.zshrc`
+3. **Reload watcher plist**:
+   ```bash
+   cp 00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-adjudicator.plist \
+      ~/Library/LaunchAgents/com.syncrescendence.watch-adjudicator.plist
+   launchctl bootout gui/$(id -u)/com.syncrescendence.watch-adjudicator 2>/dev/null || true
+   launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.syncrescendence.watch-adjudicator.plist
+   ```
+4. **Smoke test**: `codex exec -m gpt-5.2-codex "echo hello from adjudicator"`
+5. **Verify logs**: `tail -50 /tmp/syncrescendence-watch-adjudicator.log`
+
+### Rollback
+Remove the `SYNCRESCENDENCE_CODEX_MODEL` key/string pair from the plist EnvironmentVariables dict. The resolve function reverts to cache-based resolution.
+
+**Note**: The RESULT file write to `-OUTBOX/commander/RESULTS/` was blocked by sandbox permissions. The analysis above serves as the result artifact. The task file has been updated to COMPLETE status.
+
