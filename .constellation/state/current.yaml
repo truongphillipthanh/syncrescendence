@@ -1,4 +1,4 @@
-fingerprint: 158cfe3
-timestamp: 2026-02-12T21:39:06Z
+fingerprint: f3c6481
+timestamp: 2026-02-12T21:39:31Z
 branch: main
-message: fix(ops): Adjudicator model resolution — gpt-5.1-codex preferred, env override in plists
+message: chore: process 10 inbox items to RECEIPTS + Ajna identity fix + DYN-* state sync
