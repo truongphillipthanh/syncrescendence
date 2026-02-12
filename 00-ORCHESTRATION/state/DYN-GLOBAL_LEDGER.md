@@ -118,3 +118,22 @@
 | 2026-02-12T04:44:37 | CLAIM | psyche | psyche | TASK-20260211-synaptical_automation_point_discovery.md | f334456 | f334456 | — | — |
 | 2026-02-12T04:46:58 | COMMIT | commander | repo | feat(ops): codify command doctrine and harden watchdog resilience | 370a666 | 370a666 | — | — |
 | 2026-02-12T04:47:46 | COMMIT | commander | repo | chore: sync DYN-* hook artifacts + session state | 64fe39c | 64fe39c | — | — |
+| 2026-02-12T04:49:14 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T04:49:14Z] | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | adjudicator | TASK-20260211-adjudicator_smoke_model52.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | adjudicator | TASK-20260211-adjudicator_smoke_model52_v2.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | adjudicator | TASK-20260211-da12_syn51_jira_fallback.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | adjudicator | TASK-20260211-da12_syn51_jira_validation_rerun.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | adjudicator | TASK-20260211-da12_syn53_todoist_completion.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | adjudicator | TASK-20260211-da12_syn53_todoist_completion_rerun.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | psyche | TASK-20260211-install-hf-last-signal-skills.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | psyche | RESULT-psyche-20260211-hf-signal-skill-fork-and-dispatch.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:21 | ACKNOWLEDGE | commander | psyche | RESULT-psyche-20260211-last30days_openclaw_consequential_adoptions.md | 8e3efc6 | 8e3efc6 | — | — |
+| 2026-02-12T04:49:36 | COMMIT | commander | repo | task: synaptical_automation_point_discovery complete | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:49:47 | DISPATCH | dispatch | psyche | TASK-20260211-openclaw_adoption_6_actions.md | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:49:50 | DISPATCH | dispatch | adjudicator | TASK-20260211-codex_sonnet_smoke_and_syn53_todoist.md | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:49:54 | DISPATCH | dispatch | ajna | TASK-20260211-int1612_automation_audit.md | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:49:55 | CLAIM | ajna | ajna | TASK-20260211-int1612_automation_audit.md | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:50:00 | CLAIM | adjudicator | adjudicator | TASK-20260211-codex_sonnet_smoke_and_syn53_todoist.md | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:50:14 | FAILED | adjudicator | — | TASK-20260211-codex_sonnet_smoke_and_syn53_todoist.md | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:53:05 | ACKNOWLEDGE | codex_sonnet_smoke_and_syn53_todoist | adjudicator | FAILED — adjudicator dispatch immediately went to 50_FAILED (model unavailable) | b014e82 | b014e82 | — | — |
+| 2026-02-12T04:53:16 | COMMIT | commander | repo | feat(ops): inbox_cleanup.sh + ACKNOWLEDGE event type in ledger | f5acb54 | f5acb54 | — | — |
