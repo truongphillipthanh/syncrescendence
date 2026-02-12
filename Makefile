@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface
 
 # Default target
 help:
@@ -30,6 +30,8 @@ help:
 	@echo "  make ontology-build            - Build/rebuild ontology SQLite DB"
 	@echo "  make ontology-stats            - Show ontology database statistics"
 	@echo "  make ontology-query Q=\"...\"    - Search ontology (apps, primitives, projects)"
+	@echo "  make ontology-dashboard        - Strategic dashboard (CLI)"
+	@echo "  make ontology-surface          - Regenerate Obsidian surface markdown"
 	@echo ""
 	@echo "Intelligence:"
 	@echo "  make regenerate-canon          - Regenerate all CANON templates from data"
@@ -231,6 +233,14 @@ ontology-stats:
 # Search ontology (usage: make ontology-query Q="markdown editor")
 ontology-query:
 	@python3 00-ORCHESTRATION/scripts/ontology_query.py search "$(Q)"
+
+# Strategic dashboard (full operational overview)
+ontology-dashboard:
+	@python3 00-ORCHESTRATION/scripts/ontology_query.py dashboard
+
+# Regenerate static Obsidian surface markdown from ontology.db
+ontology-surface:
+	@python3 00-ORCHESTRATION/scripts/gen_surface.py
 
 # ============================================
 # INTELLIGENCE SYSTEM
