@@ -2,7 +2,7 @@
 # append_ledger.sh — Append an event to DYN-GLOBAL_LEDGER.md
 # Usage: bash append_ledger.sh <EVENT> <FROM> <TO> <TASK_ID> [DECISION_ATOM] [INTENTION_LINK]
 #
-# Events: DISPATCH | CLAIM | COMPLETE | FAILED | BLOCKED | ESCALATION | COMMIT | DECISION | COMPACT | REGEN
+# Events: DISPATCH | CLAIM | COMPLETE | FAILED | BLOCKED | ESCALATION | COMMIT | DECISION | COMPACT | REGEN | ACKNOWLEDGE
 #
 # Examples:
 #   bash append_ledger.sh DISPATCH sovereign commander TASK-20260206-io_model.md
@@ -70,8 +70,8 @@ fi
 
 # Validate event type
 case "$EVENT" in
-    DISPATCH|CLAIM|COMPLETE|FAILED|BLOCKED|ESCALATION|COMMIT|DECISION|COMPACT|REGEN) ;;
-    *) echo "[Ledger] Error: Invalid event '$EVENT'. Valid: DISPATCH|CLAIM|COMPLETE|FAILED|DECISION|COMPACT|REGEN"; exit 1 ;;
+    DISPATCH|CLAIM|COMPLETE|FAILED|BLOCKED|ESCALATION|COMMIT|DECISION|COMPACT|REGEN|ACKNOWLEDGE) ;;
+    *) echo "[Ledger] Error: Invalid event '$EVENT'. Valid: DISPATCH|CLAIM|COMPLETE|FAILED|BLOCKED|ESCALATION|COMMIT|DECISION|COMPACT|REGEN|ACKNOWLEDGE"; exit 1 ;;
 esac
 
 # Atomic-ish append with a simple lock (portable; avoids flock dependency)
