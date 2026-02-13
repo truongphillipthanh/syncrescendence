@@ -1,13 +1,20 @@
 # TASK: Fix Mac Mini Cartographer Watcher Plist
 
-**Task ID**: TASK-CARTOGRAPHER-PLIST-FIX-20260213
+**Task ID**: TASK-CARTOGRAPHER-PLIST-FIX-20260213-R1
 **Priority**: P1
+**Exit-Code**: 0
+**Completed-At**: 2026-02-13T04:39:27Z
+**Claimed-At**: 2026-02-13T04:39:13Z
+**Claimed-By**: psyche-M1-Mac-mini
+**Kanban**: DONE
 **From**: Commander (COO)
 **To**: Psyche (CTO)
 **Date**: 2026-02-13
 **Reply-To**: commander
 **CC**: commander
-**Status**: PENDING
+**Status**: COMPLETE
+
+> **NOTE**: This is a re-dispatch. The original (TASK-CARTOGRAPHER-PLIST-FIX-20260213) was consumed but Psyche hit ChatGPT rate limit and could not execute. The work was NOT performed.
 
 ## Objective
 
@@ -66,7 +73,7 @@ launchctl load /Users/home/Library/LaunchAgents/com.syncrescendence.watch-cartog
 
 3. **Update the repo template** at `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` with the same env var additions, so future installs are correct.
 
-4. **Also update** `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-cartographer.plist` with the same changes (this template also references `/Users/system` paths but should use `/Users/home` for Mac mini -- note it currently has `/Users/system` paths which is wrong for Mac mini).
+4. **Also update** `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-cartographer.plist` with the same changes (this template currently has `/Users/system` paths which is wrong for Mac mini -- it should use `/Users/home`).
 
 5. **Verify git-sync** has propagated `.gemini/commands/initialize.md` to the Mac mini repo:
 
@@ -99,4 +106,4 @@ cat /Users/home/Desktop/syncrescendence/.gemini/commands/initialize.md | head -5
 - **Modified**: `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` (repo template)
 - **Modified**: `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-cartographer.plist` (repo template)
 - **Verified**: `.gemini/commands/initialize.md` present on Mac mini via git-sync
-- **Result file**: Reply with `RESULT-CARTOGRAPHER-PLIST-FIX-20260213.md` to `-INBOX/commander/00-INBOX0/`
+- **Result file**: Reply with `RESULT-CARTOGRAPHER-PLIST-FIX-20260213-R1.md` to `-INBOX/commander/00-INBOX0/`

@@ -1,10 +1,10 @@
 # TASK: Update Mac Mini Adjudicator Watcher Model and Env Vars
 
-**Task ID**: TASK-ADJUDICATOR-MODEL-UPDATE-20260213
+**Task ID**: TASK-ADJUDICATOR-MODEL-UPDATE-20260213-R1
 **Priority**: P1
 **Exit-Code**: 0
-**Completed-At**: 2026-02-13T04:37:59Z
-**Claimed-At**: 2026-02-13T04:37:47Z
+**Completed-At**: 2026-02-13T04:39:41Z
+**Claimed-At**: 2026-02-13T04:39:28Z
 **Claimed-By**: psyche-M1-Mac-mini
 **Kanban**: DONE
 **From**: Commander (COO)
@@ -13,6 +13,8 @@
 **Reply-To**: commander
 **CC**: commander
 **Status**: COMPLETE
+
+> **NOTE**: This is a re-dispatch. The original (TASK-ADJUDICATOR-MODEL-UPDATE-20260213) was consumed but Psyche hit ChatGPT rate limit and could not execute. The work was NOT performed.
 
 ## Objective
 
@@ -29,7 +31,7 @@ On the MBA, the installed adjudicator plist at `/Users/system/Library/LaunchAgen
 
 The Mac mini plist at `/Users/home/Library/LaunchAgents/com.syncrescendence.watch-adjudicator.plist` still references `gpt-5.1-codex`. Both repo templates (`launchd-mini/` and `launchd-psyche/`) also have the stale `gpt-5.1-codex` value.
 
-Additionally, the Mac mini adjudicator plist is missing `HOME=/Users/home` in its EnvironmentVariables, which can cause Codex CLI to fail to locate its config. Same class of issue as the Cartographer fix (see TASK-CARTOGRAPHER-PLIST-FIX-20260213).
+Additionally, the Mac mini adjudicator plist is missing `HOME=/Users/home` in its EnvironmentVariables, which can cause Codex CLI to fail to locate its config. Same class of issue as the Cartographer fix (see TASK-CARTOGRAPHER-PLIST-FIX-20260213-R1).
 
 ## Steps
 
@@ -98,4 +100,4 @@ plutil -p /Users/home/Library/LaunchAgents/com.syncrescendence.watch-adjudicator
 - **Modified**: `/Users/home/Library/LaunchAgents/com.syncrescendence.watch-adjudicator.plist` (installed plist)
 - **Modified**: `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-adjudicator.plist` (repo template)
 - **Modified**: `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-adjudicator.plist` (repo template)
-- **Result file**: Reply with `RESULT-ADJUDICATOR-MODEL-UPDATE-20260213.md` to `-INBOX/commander/00-INBOX0/`
+- **Result file**: Reply with `RESULT-ADJUDICATOR-MODEL-UPDATE-20260213-R1.md` to `-INBOX/commander/00-INBOX0/`
