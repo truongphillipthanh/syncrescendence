@@ -210,3 +210,6 @@
 | 2026-02-13T00:47:11 | COMMIT | commander | repo | dispatch(skills): 3 cross-agent tasks + clarescence record | 6fbda4d | 6fbda4d | — | — |
 | 2026-02-13T00:49:14 | COMPLETE | psyche | — | TASK-20260212-intelligence_refresh_lastweek.md | 6fbda4d | 6fbda4d | — | — |
 | 2026-02-13T00:50:32 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:50:32Z] | d80d438 | d80d438 | — | — |
+| 2026-02-13T00:51:13 | COMPLETE | ajna | — | TASK-20260212-skill_architecture_strategic_review.md | d80d438 | d80d438 | — | — |
+| 2026-02-13T00:51:19 | COMMIT | commander | repo | chore(inbox): process Psyche intel result + triage watchdog + archive stale logs | e4dc6da | e4dc6da | — | — |
+| 2026-02-13T00:53:48 | COMPLETE | adjudicator | commander | TASK-20260212-security_skill_audit_236 | e4dc6da | e4dc6da | — | — |
