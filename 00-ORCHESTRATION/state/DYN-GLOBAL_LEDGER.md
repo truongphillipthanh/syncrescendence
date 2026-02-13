@@ -249,3 +249,6 @@
 | 2026-02-13T03:32:33 | COMMIT | commander | repo | merge: resolve diverged state + sync DYN-* hook artifacts | b55d9d3 | b55d9d3 | — | — |
 | 2026-02-13T03:36:57 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T03:36:57Z] | c76480f | c76480f | — | — |
 | 2026-02-13T03:38:23 | COMMIT | commander | repo | clarescence: (clarescence)^3 triple-pass constellation calibration | f0c0090 | f0c0090 | — | — |
+| 2026-02-13T03:38:28 | COMMIT | commander | repo | chore: state sync + ledger updates from triple-pass clarescence | 5cfc5fb | 5cfc5fb | — | — |
+| 2026-02-13T03:39:03 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 222bcdc | 222bcdc | — | — |
+| 2026-02-13T03:56:08 | COMMIT | commander | repo | feat(ontology): ingest 295 Rosetta Bridge relations into strategic_relationships | 9139346 | 9139346 | — | — |
