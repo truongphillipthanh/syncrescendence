@@ -1,4 +1,0 @@
-account_id,email,auth_method,teleology,owns_origin,google_ecosystem
-1,truongphillipthanh@icloud.com,apple,sovereign_substrate,TRUE,FALSE
-2,icloud.truongphillipthanh@gmail.com,google,parallel_executor,FALSE,TRUE
-3,truongphillipthanh@gmail.com,google,primary_interface,FALSE,TRUE
