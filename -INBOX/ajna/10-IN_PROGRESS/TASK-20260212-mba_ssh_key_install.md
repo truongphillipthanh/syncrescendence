@@ -7,12 +7,12 @@
 **Fingerprint**: f291879
 **Kind**: TASK
 **Priority**: P1
-**Status**: COMPLETE
-**Kanban**: DONE
+**Status**: IN_PROGRESS
+**Kanban**: IN_PROGRESS
 **Claimed-By**: ajna-M1-Mac-mini
 **Claimed-At**: 2026-02-13T01:03:02Z
-**Completed-At**: 2026-02-13T01:04:10Z
-**Exit-Code**: 0
+**Completed-At**: —
+**Exit-Code**: —
 **Timeout**: 30
 **CC**: commander
 **Receipts-To**: -OUTBOX/ajna/RESULTS
