@@ -10,3 +10,6 @@
 
 - Verification: 230 skills classified (0 quarantine, 119 flagged, 111 cleared).
 - High-risk pattern hits (3) reviewed and deemed contextual examples.
+
+- Ledger append executed: COMPLETE adjudicator -> commander.
+- Commit: 3fc65ca (chore: security skill audit 236).
