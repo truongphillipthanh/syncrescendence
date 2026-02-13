@@ -1,0 +1,264 @@
+# Security Skill Audit (236) - 2026-02-13
+
+**Scope:** `~/.agents/skills/` SKILL.md files
+
+**Summary**
+- Skills discovered: **230** (task expected 236; see Discrepancy)
+- QUARANTINE: **0**
+- FLAGGED: **119**
+- CLEARED: **111**
+
+**Discrepancy (236 vs 230)**
+- `rg --files -g SKILL.md ~/.agents/skills` returned 230 files. No additional SKILL.md files were found beyond this set. If 236 is expected, there may be missing or renamed skills outside this directory or non-standard filenames.
+
+**Method**
+- Automated regex triage for commands, URLs, credential references, prompt/system prompt references, and system-level filesystem paths.
+- Manual review of high-risk pattern hits and auto-quarantine candidates; no malicious intent found.
+
+**High-Risk Pattern Hits (Reviewed)**
+| Skill | Evidence | Context |
+|---|---|---|
+| cek-create-hook | L944: Now suppose Claude Code decides to run `Bash "rm -rf /tmp/build"`. Here's what happens:; L955: { "tool_name": "Bash", "tool_input": { "command": "rm -rf /tmp/build" }, ... }; L964: The script extracts `"rm -rf /tmp/build"` from the input and finds `rm -rf`, so it prints a decision to stdout: | Example or install guidance; not malicious in context. |
+| atheris | L86: && rm -rf /var/lib/apt/lists/*; L99: && rm -rf /var/lib/apt/lists/* | Example or install guidance; not malicious in context. |
+| libafl | L84: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh | Example or install guidance; not malicious in context. |
+
+**QUARANTINE (Immediate Threat)**
+None identified.
+
+**FLAGGED (Needs Review)**
+- address-sanitizer
+- aflpp
+- algorand-vulnerability-scanner
+- atheris
+- audiocraft-audio-generation
+- autogpt-agents
+- blip-2-vision-language
+- cairo-vulnerability-scanner
+- cargo-fuzz
+- cek-analyse
+- cek-apply-anthropic-skill-best-practices
+- cek-build-mcp
+- cek-create-hook
+- cek-create-pr
+- cek-kaizen
+- cek-memorize
+- cek-notes
+- cek-root-cause-tracing
+- cek-setup-serena-mcp
+- cek-test-prompt
+- cek-thought-based-reasoning
+- chroma
+- claudeception
+- clip
+- commit-work
+- constant-time-analysis
+- constant-time-testing
+- constitutional-ai
+- cosmos-vulnerability-scanner
+- coverage-analysis
+- crewai-multi-agent
+- distributed-llm-pretraining-torchtitan
+- dspy
+- ensue-memory
+- fine-tuning-with-trl
+- firebase-apk-scanner
+- gguf-quantization
+- google-ai-mode-skill
+- gptq
+- grpo-rl-training
+- guidance
+- harness-writing
+- implementing-llms-litgpt
+- insecure-defaults
+- instructor
+- json-canvas
+- knowledge-distillation
+- lambda-labs-gpu-cloud
+- langchain
+- langsmith-observability
+- libafl
+- llama-cpp
+- llamaguard
+- llamaindex
+- llava
+- long-context
+- mamba-architecture
+- mermaid-diagrams
+- miles-rl-training
+- ml-paper-writing
+- mlflow
+- modal-serverless-gpu
+- model-merging
+- model-pruning
+- modern-python
+- moe-training
+- nemo-evaluator-sdk
+- nemo-guardrails
+- nnsight-remote-interpretability
+- obsidian-bases
+- obsidian-markdown
+- openrlhf-training
+- optimizing-attention-flash
+- ossfuzz
+- outlines
+- phoenix-observability
+- pinecone
+- prisma-connection-pool-exhaustion
+- prompt-guard
+- pytorch-fsdp2
+- pytorch-lightning
+- pyvene-interventions
+- qdrant-vector-search
+- ray-data
+- ray-train
+- ruzzy
+- rwkv-architecture
+- sarif-parsing
+- secure-workflow-guide
+- segment-anything-model
+- semgrep
+- semgrep-rule-creator
+- semgrep-rule-variant-creator
+- sentence-transformers
+- sentencepiece
+- serving-llms-vllm
+- session-handoff
+- sglang
+- sharp-edges
+- simpo-training
+- skypilot-multi-cloud-orchestration
+- slime-rl-training
+- solana-vulnerability-scanner
+- sparse-autoencoder-training
+- speculative-decoding
+- stable-diffusion-image-generation
+- substrate-vulnerability-scanner
+- systematic-debugging
+- tensorboard
+- tensorrt-llm
+- ton-vulnerability-scanner
+- torchforge-rl-training
+- transformer-lens-interpretability
+- verl-rl-training
+- web-to-markdown
+- weights-and-biases
+- whisper
+- wycheproof
+- yara-rule-authoring
+
+**CLEARED (No Security Concerns Found)**
+- ask-questions-if-underspecified
+- audit-context-building
+- audit-prep-assistant
+- awq-quantization
+- axolotl
+- brainstorming
+- cek-add-task
+- cek-add-typescript-best-practices
+- cek-agent-evaluation
+- cek-analyse-problem
+- cek-analyze-issue
+- cek-attach-review-to-pr
+- cek-brainstorm
+- cek-cause-and-effect
+- cek-commit
+- cek-compare-worktrees
+- cek-context-engineering
+- cek-create-agent
+- cek-create-command
+- cek-create-ideas
+- cek-create-skill
+- cek-create-workflow-command
+- cek-create-worktree
+- cek-critique
+- cek-do-and-judge
+- cek-do-competitively
+- cek-do-in-parallel
+- cek-do-in-steps
+- cek-fix-tests
+- cek-implement
+- cek-judge
+- cek-judge-with-debate
+- cek-launch-sub-agent
+- cek-load-issues
+- cek-merge-worktree
+- cek-multi-agent-patterns
+- cek-plan
+- cek-plan-do-check-act
+- cek-prompt-engineering
+- cek-reflect
+- cek-review-local-changes
+- cek-review-pr
+- cek-setup-arxiv-mcp
+- cek-setup-code-formating
+- cek-setup-codemap-cli
+- cek-setup-context7-mcp
+- cek-software-architecture
+- cek-subagent-driven-development
+- cek-test-driven-development
+- cek-test-skill
+- cek-tree-of-thoughts
+- cek-update-docs
+- cek-why
+- cek-worktrees
+- cek-write-concisely
+- cek-write-tests
+- claresce
+- code-maturity-assessor
+- codeql
+- conversation-memory
+- cron
+- deepspeed
+- differential-review
+- dispatching-parallel-agents
+- dwarf-expert
+- entry-point-analyzer
+- evaluating-code-models
+- evaluating-llms-harness
+- executing-plans
+- faiss
+- finishing-a-development-branch
+- fix-review
+- fuzzing-dictionary
+- fuzzing-obstacles
+- guidelines-advisor
+- hqq-quantization
+- huggingface-accelerate
+- huggingface-tokenizers
+- interpreting-culture-index
+- last30days
+- libfuzzer
+- llama-factory
+- memory-systems
+- nanogpt
+- nemo-curator
+- nextjs-server-side-error-debugging
+- peft-fine-tuning
+- pi-planning-with-files
+- planning-with-files
+- property-based-testing
+- quantizing-models-bitsandbytes
+- receiving-code-review
+- requesting-code-review
+- skill-judge
+- skillforge
+- spec-to-code-compliance
+- subagent-driven-development
+- test-driven-development
+- testing-handbook-generator
+- threat-modeling
+- tmux
+- token-integration-analyzer
+- training-llms-megatron
+- typescript-circular-dependency
+- unsloth
+- using-git-worktrees
+- using-superpowers
+- variant-analysis
+- verification-before-completion
+- writing-plans
+- writing-skills
+
+**Notes**
+- Most flagged items are due to non-allowlisted URLs in documentation examples or system-level commands in installation steps. These are not necessarily malicious but warrant review given the stated risk context.
+- No explicit credential exfiltration or prompt injection instructions were found after context review.
