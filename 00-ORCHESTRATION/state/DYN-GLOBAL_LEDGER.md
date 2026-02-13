@@ -192,3 +192,21 @@
 | 2026-02-13T00:00:00 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:00:00Z] | 569d09c | 569d09c | — | — |
 | 2026-02-13T00:25:11 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:25:11Z] | 5037587 | 5037587 | — | — |
 | 2026-02-13T00:30:15 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:30:14Z] | 558de3a | 558de3a | — | — |
+| 2026-02-13T00:32:31 | COMMIT | commander | repo | chore: sync DYN-* hook artifacts before skills overhaul | 270931a | 270931a | — | — |
+| 2026-02-13T00:33:49 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | da082bc | da082bc | — | — |
+| 2026-02-13T00:35:18 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:35:18Z] | 4ba4471 | 4ba4471 | — | — |
+| 2026-02-13T00:40:09 | DISPATCH | dispatch | psyche | TASK-20260212-intelligence_refresh_lastweek.md | 4ba4471 | 4ba4471 | — | — |
+| 2026-02-13T00:40:15 | DISPATCH | dispatch | adjudicator | TASK-20260212-security_skill_audit_236.md | 4ba4471 | 4ba4471 | — | — |
+| 2026-02-13T00:40:17 | CLAIM | adjudicator | adjudicator | TASK-20260212-security_skill_audit_236.md | 4ba4471 | 4ba4471 | — | — |
+| 2026-02-13T00:40:23 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:40:23Z] | 9adf443 | 9adf443 | — | — |
+| 2026-02-13T00:40:23 | CLAIM | psyche | psyche | TASK-20260212-intelligence_refresh_lastweek.md | 9adf443 | 9adf443 | — | — |
+| 2026-02-13T00:40:44 | CLAIM | ajna | ajna | TASK-20260212-skill_architecture_strategic_review.md | 9adf443 | 9adf443 | — | — |
+| 2026-02-13T00:44:22 | COMPLETE | adjudicator | commander | TASK-20260212-security_skill_audit_236 | 9adf443 | 9adf443 | — | — |
+| 2026-02-13T00:45:29 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:45:29Z] | 4a43c31 | 4a43c31 | — | — |
+| 2026-02-13T00:45:36 | COMMIT | commander | repo | feat(skills): ARCH-SKILL_REGISTRY.md — centralized manifest for 246 skills | 529762b | 529762b | — | — |
+| 2026-02-13T00:45:44 | COMMIT | commander | repo | feat(skills): pipeline DAG edges, 5 skill chains, entry/terminal nodes | d8d1ff1 | d8d1ff1 | — | — |
+| 2026-02-13T00:45:54 | COMMIT | commander | repo | feat(ops): instant skill sync via WatchPaths launchd + extracted skill_sync.sh | dbf996f | dbf996f | — | — |
+| 2026-02-13T00:46:08 | COMMIT | commander | repo | feat(skills): 8 white-label wrappers for top third-party skills | 281897b | 281897b | — | — |
+| 2026-02-13T00:47:11 | COMMIT | commander | repo | dispatch(skills): 3 cross-agent tasks + clarescence record | 6fbda4d | 6fbda4d | — | — |
+| 2026-02-13T00:49:14 | COMPLETE | psyche | — | TASK-20260212-intelligence_refresh_lastweek.md | 6fbda4d | 6fbda4d | — | — |
+| 2026-02-13T00:50:32 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:50:32Z] | d80d438 | d80d438 | — | — |
