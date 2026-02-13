@@ -1,4 +1,4 @@
-fingerprint: 558de3a
-timestamp: 2026-02-13T00:30:15Z
+fingerprint: 346a300
+timestamp: 2026-02-12T23:39:31Z
 branch: main
-message: sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:30:14Z]
+message: chore: trailing hook state

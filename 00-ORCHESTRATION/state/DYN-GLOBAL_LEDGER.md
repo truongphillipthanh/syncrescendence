@@ -185,10 +185,3 @@
 | 2026-02-12T23:53:06 | COMMIT | commander | repo | fix(ops): harden adjudicator autonomy, model fallback, and cartographer recovery | f99542d | f99542d | — | — |
 | 2026-02-12T23:53:30 | COMPLETE | adjudicator | adjudicator | TASK-20260212-adjudicator_autonomy_smoke | f99542d | f99542d | — | — |
 | 2026-02-12T23:53:43 | FAILED | cartographer | — | TASK-20260212-cartographer_capacity_smoke.md | f99542d | f99542d | — | — |
-| 2026-02-12T23:53:56 | COMMIT | commander | repo | chore: adjudicator_autonomy_smoke complete | 2b1f2ce | 2b1f2ce | — | — |
-| 2026-02-12T23:54:46 | COMPLETE | adjudicator | — | TASK-20260212-adjudicator_autonomy_smoke.md | 2b1f2ce | 2b1f2ce | — | — |
-| 2026-02-12T23:54:55 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-12T23:54:55Z] | 72c2efb | 72c2efb | — | — |
-| 2026-02-12T23:56:44 | COMPLETE | commander | — | TASK-20260212-mba_apply_adj_carto_hardening.md | 72c2efb | 72c2efb | — | — |
-| 2026-02-13T00:00:00 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:00:00Z] | 569d09c | 569d09c | — | — |
-| 2026-02-13T00:25:11 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:25:11Z] | 5037587 | 5037587 | — | — |
-| 2026-02-13T00:30:15 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T00:30:14Z] | 558de3a | 558de3a | — | — |
