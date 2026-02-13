@@ -252,3 +252,20 @@
 | 2026-02-13T03:38:28 | COMMIT | commander | repo | chore: state sync + ledger updates from triple-pass clarescence | 5cfc5fb | 5cfc5fb | — | — |
 | 2026-02-13T03:39:03 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 222bcdc | 222bcdc | — | — |
 | 2026-02-13T03:56:08 | COMMIT | commander | repo | feat(ontology): ingest 295 Rosetta Bridge relations into strategic_relationships | 9139346 | 9139346 | — | — |
+| 2026-02-13T03:56:14 | COMMIT | commander | repo | chore: sync DYN-* state files + ledger from ontology session | 667775c | 667775c | — | — |
+| 2026-02-13T04:18:04 | COMMIT | commander | repo | research: high-fidelity model-index refresh [mm-cartographer] | 4b445a1 | 4b445a1 | — | — |
+| 2026-02-13T04:22:16 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T04:22:16Z] | 2ad4288 | 2ad4288 | — | — |
+| 2026-02-13T04:36:42 | CLAIM | psyche | psyche | TASK-CARTOGRAPHER-PLIST-FIX-20260213.md | 2ad4288 | 2ad4288 | — | — |
+| 2026-02-13T04:36:59 | COMPLETE | psyche | — | TASK-CARTOGRAPHER-PLIST-FIX-20260213.md | 2ad4288 | 2ad4288 | — | — |
+| 2026-02-13T04:36:59 | CLAIM | psyche | psyche | TASK-ADJUDICATOR-MODEL-UPDATE-20260213.md | 2ad4288 | 2ad4288 | — | — |
+| 2026-02-13T04:37:14 | COMPLETE | psyche | — | TASK-ADJUDICATOR-MODEL-UPDATE-20260213.md | 2ad4288 | 2ad4288 | — | — |
+| 2026-02-13T04:37:23 | CLAIM | psyche | psyche | TASK-CARTOGRAPHER-PLIST-FIX-20260213.md | 2ad4288 | 2ad4288 | — | — |
+| 2026-02-13T04:37:37 | COMPLETE | psyche | — | TASK-CARTOGRAPHER-PLIST-FIX-20260213.md | 2ad4288 | 2ad4288 | — | — |
+| 2026-02-13T04:37:47 | CLAIM | psyche | psyche | TASK-ADJUDICATOR-MODEL-UPDATE-20260213.md | a151a65 | a151a65 | — | — |
+| 2026-02-13T04:38:00 | COMPLETE | psyche | — | TASK-ADJUDICATOR-MODEL-UPDATE-20260213.md | a151a65 | a151a65 | — | — |
+| 2026-02-13T04:39:13 | CLAIM | psyche | psyche | TASK-CARTOGRAPHER-PLIST-FIX-20260213-R1.md | a151a65 | a151a65 | — | — |
+| 2026-02-13T04:39:28 | COMPLETE | psyche | — | TASK-CARTOGRAPHER-PLIST-FIX-20260213-R1.md | a151a65 | a151a65 | — | — |
+| 2026-02-13T04:39:28 | CLAIM | psyche | psyche | TASK-ADJUDICATOR-MODEL-UPDATE-20260213-R1.md | a151a65 | a151a65 | — | — |
+| 2026-02-13T04:39:41 | COMPLETE | psyche | — | TASK-ADJUDICATOR-MODEL-UPDATE-20260213-R1.md | a151a65 | a151a65 | — | — |
+| 2026-02-13T04:42:28 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-13T04:42:28Z] | fe5120f | fe5120f | — | — |
+| 2026-02-13T04:43:49 | COMMIT | commander | repo | feat(skills): 9 white-label Syncrescendence skill wrappers + Gemini /initialize | b5c308f | b5c308f | — | — |

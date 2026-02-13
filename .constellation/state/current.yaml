@@ -1,4 +1,4 @@
-fingerprint: 9139346
-timestamp: 2026-02-13T03:56:08Z
+fingerprint: b5c308f
+timestamp: 2026-02-13T04:43:49Z
 branch: main
-message: feat(ontology): ingest 295 Rosetta Bridge relations into strategic_relationships
+message: feat(skills): 9 white-label Syncrescendence skill wrappers + Gemini /initialize
