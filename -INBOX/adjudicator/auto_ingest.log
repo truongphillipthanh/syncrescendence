@@ -13,3 +13,5 @@
 [2026-02-16 15:07:24] [adjudicator] Shutdown signal received, cleaning up
 [2026-02-16 15:07:47] [adjudicator] === Starting auto-ingest loop ===
 [2026-02-16 15:07:47] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-16 15:30:35] [adjudicator] Task completed: TASK-20260216-zero_offline_adversarial_audit (315s,    17163 bytes)
+[2026-02-16 15:30:35] [adjudicator] Sent CONFIRM to commander
