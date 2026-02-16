@@ -97,11 +97,13 @@ check_pane_for_rate_limit() {
     return 1
 }
 
-# Gemini CLI TUI doesn't accept tmux send-keys — structural limitation
+# Gemini CLI supports headless mode via -p/--prompt flag
 is_gemini_agent() {
     [ "$AGENT_NAME" = "cartographer" ] && return 0
     return 1
 }
+
+GEMINI_BIN="/opt/homebrew/bin/gemini"
 
 # Verify tmux pane exists before attempting dispatch (Adjudicator audit)
 check_pane_exists() {
@@ -118,6 +120,21 @@ check_pane_exists() {
 
 send_prompt() {
     prompt="$1"
+
+    # Gemini headless dispatch — doesn't need tmux pane at all
+    if is_gemini_agent; then
+        # Gemini uses headless mode (-p) instead of tmux send-keys
+        # task_id is set by dispatch_task() in outer scope
+        log "Gemini headless dispatch: running gemini -p -y -o text"
+        local result_slug; result_slug=$(echo "$task_id" | sed 's/^TASK-//')
+        local result_path="${OUTBOX_DIR}/RESULT-${AGENT_NAME}-${result_slug}.md"
+        ( cd "${REPO_PATH}" && ${GEMINI_BIN} -p "$prompt" -y -o text > "${result_path}" 2>>"${LOGFILE}" ) &
+        GEMINI_PID=$!
+        log "Gemini headless PID: ${GEMINI_PID}"
+        return 0
+    fi
+
+    # --- tmux-based agents below this point ---
     if [ -z "$TMUX_PANE" ]; then
         log "ERROR: No tmux pane specified"
         return 1
@@ -127,12 +144,6 @@ send_prompt() {
     if ! check_pane_exists; then
         log "ERROR: tmux pane ${TMUX_SESSION}:${TMUX_PANE} not found — transient failure"
         return 1
-    fi
-
-    if is_gemini_agent; then
-        log "WARN: Gemini CLI TUI does not accept tmux send-keys — skipping dispatch"
-        log "WARN: Task requires manual entry or API bypass"
-        return 2  # Distinct code: structural block, not transient failure
     fi
 
     # Wait for rate limit to clear

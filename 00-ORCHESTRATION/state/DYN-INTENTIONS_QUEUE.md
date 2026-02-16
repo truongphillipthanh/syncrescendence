@@ -505,3 +505,11 @@
 - **2026-02-16 10:56:55** | `  Repo Extraction (359 lines): 42 GitHub repos, 14 npm packages, 4-tier priority matrix. Tier 1 (immediate): QMD, ACIP, Honcho, SHIELD.md, Brave Search MCP, Anthropic Skills.`
 
 - **2026-02-16 12:09:51** | `very good, maintain synchronicity awareness, proceed comprehensively with the hardening, i've just installed opencode cli and cline cli. we'll need to integrate them in a way you'll be able to manipul`
+
+- **2026-02-16 14:22:52** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-16 14:22:52** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-16 14:45:36** | `I am now home, able to triage any shortcomiings. I have a terminal open for each cli agent on the mac mini, what did we call this again? invacuation? let's fix this once and for all.`
+
+- **2026-02-16 15:05:05** | ` why can't we get Gemini to be autonomously part of the orchestration? weren't we able to before? let's fix everything. completely. what do you need me to do to have this 100% operational?`
