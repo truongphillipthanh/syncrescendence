@@ -7,12 +7,12 @@ target: engine
 
 # ROSETTA STONE: Syncrescendent <> Community Terminology
 
-**Version**: 2.6.0
-**Generated**: 2026-02-15
-**Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint + Meta-Clarescence Fidelity Audit (Feb 9-11 clarescence formalization gap)
-**Authority**: Commander (Opus 4.6) — Meta-Clarescence Audit
-**Corpus**: 17 research files + full corpus scan + 8 clarescence documents (Feb 9-11)
-**Terms**: 241 entries in the extended matrix (plus cross-references)
+**Version**: 2.7.0
+**Generated**: 2026-02-16
+**Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint + Meta-Clarescence Fidelity Audit + Convergence Document Extraction
+**Authority**: Commander (Opus 4.6) — Convergence Intent Injection
+**Corpus**: 17 research files + full corpus scan + 8 clarescence documents + 2 convergence documents (~4,955 lines)
+**Terms**: 311 entries in the extended matrix (plus cross-references)
 
 ---
 
@@ -45,7 +45,7 @@ target: engine
 | 13 | IMEP | DEPRECATED | Hook responses / execution logs | Remove; note in history |
 | 14 | Blitzkrieg (Neo-Blitzkrieg) | ADAPTED | Full constellation pipeline | Supersedes all prior variants; see detailed mapping |
 | 15 | IIC Configs | ACTIVE | Medley Model / agent specialization | Still a Go; pending granular teleological specs |
-| 16 | Chain Matrix / Tri-Helix | DEPRECATED | No equivalent | Deprecate per Sovereign directive |
+| 16 | Chain Matrix / Tri-Helix | DEPRECATED | No equivalent | Deprecate per Sovereign directive. **WARNING**: The convergence Tri-Helical Strategy (#242) is a completely different concept (three synchronized timelines). This deprecation applies only to the Chain Matrix naming convention, NOT the strategic framework. See #242. |
 | 17 | Ralph Pattern | ALIGNED | Ralph Wiggum Pattern (identical) | Already aligned; verify formal implementation |
 | 18 | Blitzkrieg Lane A/B/C | DEPRECATED | 3-tier model routing | Superseded by Neo-Blitzkrieg pipeline |
 | 19 | AjnaPsyche Archon | UNIQUE | No equivalent | Fused CSO+CTO executive brain (StarCraft Archon metaphor) |
@@ -708,6 +708,125 @@ Significant community patterns without internal equivalents.
 | 240 | Sovereign Nexus | UNIQUE | The individual+AI dyad as the primary economic and cognitive unit: a bio-digital entity that has scaled to institutional complexity through its exocortex. Named by Grok in Palantir metacharacterization. Syncrescendence IS the proof-of-concept for this concept — "civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale" (CLAUDE.md). The Sovereign Nexus is the entity that Syncrescendence serves. | No equivalent |
 | 241 | Trust Topology | UNIQUE | The structured graph of trust relationships between the Sovereign Nexus and all counterparties: clients, collaborators, services, platforms, other AI systems. Each node has a trust score, interaction history, and permission level. Named by Grok as the reification of CRM for the individual. In our scaffold: not yet formalized. Closest approximation: σ₆ account structure + platform disposition categories in REF-STACK_TELEOLOGY.md. A Phase C/D target for ontology.db expansion. | Trust network / Social graph (weaker) |
 
+### Category 18: Convergence Architecture (20 terms)
+
+<!-- Provenance: Terms 242-261 extracted from the pre-scaffold convergence documents (syncrescendence_convergence.md, 2726 lines; syncrescendent_convergence_aligned.md, 2229 lines) during Convergence Intent Extraction (2026-02-16). These terms define the master strategic framework, physical infrastructure vision, and developmental sequence that the scaffold exists to serve. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 242 | Tri-Helical Strategy | UNIQUE | Three synchronized timelines operating in parallel with precise causal dependencies: Timeline 1 (Technological Pacing Clock — external AI maturity ~85%/40%/15%/5%), Timeline 2 (Business Development — content→education→consulting→infrastructure), Timeline 3 (Personal Capability — embodiment proof, IBEW, cross-trade synthesis). Each timeline enables the others: business funds personal, personal validates business, technology synchronizes both. NOT the deprecated Chain Matrix Tri-Helix (#16) — that was an internal naming convention; this is the master strategic orchestration framework. | No equivalent |
+| 243 | Gaian Field Node | UNIQUE | Physical parcel-scale (1-10 acres) installation integrating power, water, air, data, and food systems under intelligent control with comprehensive telemetry. Serves simultaneously as demonstration infrastructure, educational facility, operational testing platform, resilience infrastructure, and community anchor. The ultimate telos of the Syncrescendent endeavor — where all five phases converge into physical reality. | Homestead / Off-grid system (much narrower) |
+| 244 | Way Place | UNIQUE | Elevated designation for Field Nodes achieving demonstrated operational excellence, educational function, community programming, hospitality practices, governance maturity, network contribution, and ritual integration. Not all Nodes become Way Places; designation represents earned status through sustained commitment and multi-dimensional capability. The aspirational endpoint of a mature Field Node. | No equivalent |
+| 245 | Catalyst Packet | UNIQUE | The fundamental unit of Alchemizing Catalyst (#41) work. Four-part structure: (1) Claim — one sentence naming value delivered, (2) Micro-demo — 30-60 seconds showing assumptions→execution→residuals, (3) Artifact — usable deliverable (prompt kit, world-shard, calculator, SOP), (4) Invitation — single action (RSVP, download, join). Every post ends with exactly one invitation. No packet ships without all four parts. | Content unit / Lead magnet (weaker) |
+| 246 | Five Phases (I-V) | UNIQUE | The irreducible developmental sequence: Phase I Computational Mastery / Textual Foundation (Months 1-24), Phase II Visual & Geometric Intelligence (Months 31-54), Phase III Engineering Integration (Months 55-90), Phase IV Embodiment / Field Node Prototype (Months 91-126), Phase V Transcendence / Network Replication (Months 127+). Each phase requires prior as enabling substrate. Phases cannot be reordered, skipped, or compressed without systemic failure. | Product roadmap (much weaker) |
+| 247 | Compositional Hierarchy | UNIQUE | The principle that higher capabilities presuppose lower ones as enabling substrates, mirroring the scientific enablement chain: Symbolic Representation→Natural Sciences→Engineering & Agency→Society & Cumulation→Novel Disciplines. The structural logic underlying the curriculum, business phases, and causal dependency chain. Each arrow is irreversible. | Prerequisite chain / Learning progression |
+| 248 | Causal Dependencies | UNIQUE | The non-negotiable principle that phases cannot be reordered, skipped, or compressed. The irreducible sequence: ARCHITECTURE→EMBODIMENT→EDUCATION→BUSINESS→EVENTS→NODES→WAY PLACES. Cannot teach what hasn't been embodied; cannot monetize what doesn't deliver value; cannot replicate what hasn't been proven. Each dependency is causal, not merely sequential. | Critical path (project management) |
+| 249 | Consciousness Investigating Itself | UNIQUE | Core philosophical premise of Syncrescendence: human civilization has developed sufficient technological capability to create external structures enabling consciousness to examine and enhance itself systematically. A category shift in what is possible, not merely incremental advance. The exocortex as instrument of recursive self-investigation. | No equivalent |
+| 250 | World-Shard | UNIQUE | Bounded simulation with known residuals. Required elements: stated domain and boundary, inputs with units and ranges, outputs with metrics, documented assumptions, error model and residual reporting, "good enough" thresholds. Tier 2 Instrumentation: translates doctrine claims into repeatable predictions with known error. Bridges theory and physical instantiation. | Digital twin (weaker) / Simulation model |
+| 251 | Nodelet | UNIQUE | Subsystem module: sensors + control logic + data logger + safe enclosure. Four base types: Power (CT clamps, contactor control), Air (PM2.5/CO2/temp, fan relay), Water (rain capture, solenoid control, irrigation), Data (uplink failover, WAN ping, health telemetry). Expansions: Food, Security, Waste, Energy. Tier 3 (field hardware) of the Instrumentation Hierarchy. | IoT sensor module / Edge device |
+| 252 | Three-Tier Instrumentation Hierarchy | UNIQUE | Tier 1: Helpers (internal acceleration — reduce time-to-demo, not user-facing), Tier 2: Demonstrators (world-shards/calculators making claims testable and shareable), Tier 3: Nodelets (field hardware validating simulations against physical reality). Each tier with specific proof requirements before advancing. | No equivalent |
+| 253 | Maturity Gates (A/S/P/T) | UNIQUE | Four normalized scales (0-5) published monthly: A-maturity (Abstraction: 0=scattered notes, 5=constitution+stylebook+glossary+case studies+dashboard), S-readiness (Simulation: 0=sketches, 5=validated world-shard), P-viability (Physical: 0=breadboards, 5=two nodelets stable with BOM+SOP), T-network (Transcendence: 0=manifesto, 5=two independent Way Places). | Maturity model / Technology readiness level |
+| 254 | Technological Pacing Clock | UNIQUE | Timeline One of the Tri-Helical Strategy. External technological maturity dictating strategic timing and urgency: LLMs ~85% (12-24mo window), World Models ~40% (18-36mo), Robotics/IoT ~15% (36-60mo), Distributed Intelligence ~5% (60-120mo). The clock is external — it sets the pace regardless of individual preference. | Technology adoption curve (related) |
+| 255 | Field Node Network | UNIQUE | The civilizational-scale manifestation: 10-20 Way Places, 50-100 Field Nodes, 5000+ practitioners. Functions: shared telemetry, collective intelligence, distributed resilience, educational pipeline, research platform, cultural visibility, mutual aid, governance structures. Phase V target. | Commune network / Ecovillage network (partial) |
+| 256 | Kill Criteria | UNIQUE | Explicit underperformance thresholds triggering pause and foundation reinforcement. Examples: two consecutive weeks below 3% thread→RSVP → pause new channels; any artifact without micro-demo → no release; event underperforms twice on adoption and NPS → pause events for month. Generalized: sustained underperformance triggers retreat to foundations, not acceleration. | Kill switch / Go/no-go criteria |
+| 257 | Evidence Ledger | UNIQUE | Tracking system for "what generates coils versus chaos." Weekly evidence collection documenting what works, what fails, what requires adjustment. Prevents self-deception through systematic documentation. Proto-implementation: DYN-GLOBAL_LEDGER.md + DYN-EXECUTION_STAGING.md. | Experiment log / Learning journal |
+| 258 | Phased Construction Protocol | UNIQUE | Five phases for Field Node buildout: Phase 1 Site+Foundation, Phase 2 Structure, Phase 3 Core Systems (power/water/air/data), Phase 4 Intelligence Layer (nodelets, telemetry, automation), Phase 5 Refinement (optimization, steward training, documentation). Allows parallel progress with skill development and capital accumulation. | Construction phasing plan |
+| 259 | Recursive Amplification | UNIQUE | Core dynamic of the Alchemizing Catalyst: frameworks enable practice→practice generates insights→insights refine frameworks→deeper practice. Positive feedback loops where each practitioner's transformation feeds back improving frameworks. Community generates collective intelligence exceeding founder capacity. The system becomes increasingly autonomous as it matures. | Flywheel effect / Virtuous cycle |
+| 260 | Voluntary Coordination | UNIQUE | Third coordination mechanism beyond coercion (state) and market (exchange). Mechanism: open-source documentation, operational transparency, genuine value delivery. Participation through recognition of benefit rather than payment or compulsion. Field Node network aspires to demonstrate this viability at civilizational scale. | Commons-based peer production (partial) |
+| 261 | Embodiment Proof | UNIQUE | "Cannot teach what hasn't been embodied." Personal work in physical stage (IBEW, cross-trade synthesis) as necessary long-term R&D ensuring authentic leadership. Non-negotiable prerequisite for educational offerings in Phase III+. Timeline Three of the Tri-Helix. | Practitioner credibility / Dog-fooding (weaker) |
+
+### Category 19: Content Strategy (10 terms)
+
+<!-- Provenance: Terms 262-271 extracted from convergence documents defining the content brand architecture, production model, and platform deployment strategy. These terms specify HOW the Alchemizing Catalyst delivers value through media channels. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 262 | Cinematic Textbook Model | UNIQUE | YouTube operating as serialized authoritative exposition with predetermined architecture. Chapters=Seasons, Episodes=Predetermined topics. Production quality target: Planet Earth + Kurzgesagt + 3Blue1Brown + melodysheep. 12 predetermined seasons covering full Abstraction→Transcendence arc. Content brand immutable across all phases. The central long-form medium of the endeavor. | Educational YouTube channel (much narrower) |
+| 263 | YouTube Seasons (1-12) | UNIQUE | 12 predetermined seasons: (1) Ontological Dimensions, (2) Causal Chains, (3) Cognition, (4) Material Computation, (5) Network Coordination, (6) Field Node Design, (7) Construction, (8) Operations, (9) Network Emergence, (10) Distributed Coordination, (11) Civilizational Implications, (12) Ongoing Documentation. Season 1 launch in Phase II after brand identity maturation. | Content calendar / Series bible |
+| 264 | Immutable Authoritative Register | UNIQUE | Constitutional content principle: content brand identity remains CONSTANT across all phases. Style guide immutable. Authoritative register developed through Phase I text carries forward unchanged through visual content. What changes: builder capabilities, platform breadth. What NEVER changes: intellectual rigor, style, seasonal structure. | Brand guidelines / Style guide (narrower) |
+| 265 | Elevated Plainstyle | UNIQUE | The Syncrescendent voice specification: "Cultured, refined, eloquent, witty, warm — eschewing emojis or stark antitheses, favoring literary devices for precision (helical metaphors illuminating recursion, thermodynamic language capturing energy dynamics)." Demonstrates sophistication without pretension, accessibility without oversimplification. | Tone of voice / Brand voice |
+| 266 | Rhetorical Calibration | UNIQUE | The discipline of calibrating voice across platforms while maintaining constitutional alignment. Keystone priority that alchemizes scattered manifestations into coherent voice, platform-adapted yet constitutionally aligned. Prevents anti-pattern of incoherent transmission where message fragments scatter energy. | Cross-platform consistency |
+| 267 | Content Brand Architecture | UNIQUE | Full platform taxonomy: Primary Substrate (X, YouTube, TikTok), Textual Amplification (Medium, Substack, Newsletter), Visual Amplification (Instagram, Shorts), Community & Patronage (Facebook, Patreon, Membership, Discord), Specialized/Satirical (LinkedIn, Rumble), Infrastructure (Website, Twitch, Book, Live Events). 15+ platforms with specific specs and hand-off protocols. | Content distribution strategy |
+| 268 | Tiered Phased Rollout | UNIQUE | Platform deployment framework: Tier 1 Foundation (X+Newsletter), Tier 2 Validation (Medium+Substack+Instagram), Tier 3 Scaling/Monetization (YouTube+Patreon+TikTok), Tier 4 Ecosystem (Discord+Facebook+LinkedIn), Tier 5 Advanced Evolution (Twitch+Rumble+Book+Live Events). No tier N platform activates until tier N-1 hand-offs reliable. | Platform launch strategy |
+| 269 | Platform Hand-off Protocol | UNIQUE | Explicit rules governing content flow between platforms. "Winning threads graduate to Medium." "Points to YouTube for full context." No platform added until upstream hand-off reliable. Every post ends with exactly one invitation. Prevents platform sprawl anti-pattern. | Content repurposing workflow |
+| 270 | Brand Bible | UNIQUE | 100-150 page comprehensive document: Brand Foundation + Visual Identity + Cinematic Style Guide + Production Standards + Platform Applications. Prerequisite for YouTube launch (Phase II). Developed during Transition Phase (months 22-30). The canonical reference for all visual and tonal decisions. | Brand book / Brand guidelines |
+| 271 | Catalyst Production Cadence | UNIQUE | Specific rhythmic production schedule: daily X sparks, weekly Medium+Newsletter+Instagram, biweekly Substack deep dives, monthly YouTube episodes. The cadence is constitutional — it sets the operational tempo. Production capacity scales with phases but rhythm remains stable. | Content calendar / Publishing schedule |
+
+### Category 20: Convergence Philosophy (10 terms)
+
+<!-- Provenance: Terms 272-281 extracted from the philosophical foundations of the convergence documents. These terms define the civilizational thesis, cosmological framing, and value system underlying the entire endeavor. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 272 | Gaialogical Principles | UNIQUE | Earth as conscious entity, humanity as its nervous system. Field Nodes as sensory/motor capacity for Earth. Transcends conventional environmentalism toward "humans as nature becoming conscious of and intentionally participating in its own evolution." The cosmological frame for the physical infrastructure vision. | Deep ecology / Gaia hypothesis (related) |
+| 273 | Integrative Interregnum | UNIQUE | "The interval between worlds where all boundaries soften, systems learn themselves, coherence must be consciously composed." Reframes chaos as material for design. Navigating between exhaustion of old organizing frameworks and emergence of new principles. The current civilizational moment that Syncrescendence addresses. | Liminal period / Paradigm shift |
+| 274 | Distributed Resilience | UNIQUE | Alternative to fragile centralization. Properties: distributed (multiple locations), modular (subsystem failure doesn't cascade), transparent (open-source documentation), voluntary (coordination through demonstrated value), adaptive (local variations encouraged). System functions despite individual failures through designed redundancy. | Decentralization / Resilience engineering |
+| 275 | Post-Labor Economics | UNIQUE | Human labor becoming economically obsolete through radical productivity multiplication (AI). Necessitates civilizational redesign around meaning infrastructure, universal basic services, distributed resilience. Syncrescendence positions for this transition by demonstrating intelligence-multiplication economics. | Post-work / Automation economy |
+| 276 | Intelligence as Work | ADAPTED | Jensen Huang's insight: intelligence IS work itself. Throughput per unit energy determines revenue. Dissolves category distinction between human/machine labor. Reframes fundamental economic equation from labor efficiency to intelligence efficiency. Central to the Content-Native Sustainability model. | AI productivity / Knowledge work automation |
+| 277 | Renaissance 2.0 | UNIQUE | Historical pattern: renaissances follow periods of darkness. Coming renaissance emerges from distributed creators outside institutional capture. Marsilio Ficino's Florentine Academy as paracademic model. Syncrescendence as one node in a distributed cultural renewal larger than any single project. | Cultural renaissance / Creator economy (weaker) |
+| 278 | Demonstration Principle | UNIQUE | "This framework does not claim to solve civilization's problems. It demonstrates one viable pathway among many required. The crisis demands a thousand experiments, not a single solution." Epistemic humility as constitutional value — claiming demonstration, not prescription. | Proof of concept / Lead by example |
+| 279 | Fourth Turning | ADAPTED | Strauss-Howe generational theory: 80-year cycles (Crisis, High, Awakening, Unraveling). Current Crisis period (2008-2030s). One of three simultaneous civilizational phase transitions contextualizing Syncrescendence's urgency. | Generational theory / Secular cycle |
+| 280 | Neo-Liberal Arts Integration | UNIQUE | STEM as nested dependencies (physics→chemistry→biology) + humanities as meaning construction systems. Syncrescendent approach treats technical competencies as enabling substrates while maintaining meaning-making as central human capacity. Bridges the two cultures without subordinating either. | STEAM education / Transdisciplinary (partial) |
+| 281 | Recursive Self-Investigation | UNIQUE | The act of consciousness building instruments to investigate itself: AI as mirror, exocortex as prosthetic self-awareness, clarescence as structured introspection. Distinct from Consciousness Investigating Itself (#249) — that is the premise; this is the practice. The operational verb of the philosophical thesis. | Metacognition / Self-reflection (weaker) |
+
+### Category 21: Education Architecture (8 terms)
+
+<!-- Provenance: Terms 282-289 extracted from the convergence documents' curriculum design, educational philosophy, and learner progression specifications. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 282 | 4-Stage Curriculum | UNIQUE | Stage I Abstract Foundations (LLMs at ~85% maturity), Stage II Simulated Worlds (World Models at ~40%), Stage III Physical Instantiation (Robotics/IoT at ~15%), Stage IV Transcendent Synthesis (Distributed Intelligence at ~5%). Each stage requires prior as enabling substrate. Pacing clock is external technological maturity, not academic calendar. | Curriculum framework / Learning pathway |
+| 283 | Computational Intuition | UNIQUE | Stage I core competency: thinking in transformations (input-state-output), problem as search through possibility space, solution as compression of that space. Not programming skill but computational thinking as cognitive mode. | Computational thinking (partial) |
+| 284 | Semantic Intuition | UNIQUE | Stage I core competency: how symbols acquire significance, how context shapes understanding, how metaphor bridges conceptual territories. The complement to computational intuition — meaning-making capacity. | Semiotics / Hermeneutics (academic) |
+| 285 | AI Collaboration Fluency | UNIQUE | Stage I core competency: natural language as programming interface, 70-90% delegation to AI while preserving sovereignty. Distinguishing own thoughts from AI influence. Maintaining cognitive sovereignty while leveraging AI amplification. | AI literacy / Prompt engineering (narrower) |
+| 286 | Meta-Cognitive Monitoring | UNIQUE | Stage I core competency: maintaining awareness of cognitive processes while AI augments them. Detecting when delegation degrades sovereignty. The "immune system" of the human+AI dyad. Prerequisite for safe AI collaboration at scale. | Metacognition / Critical thinking |
+| 287 | Beta Cohort | UNIQUE | 10-20 beta students, weekly sessions, feedback-driven curriculum refinement. Revenue target $15,000. The first deployed educational unit — proof of concept for the 4-Stage Curriculum at smallest viable scale. Success metric: adoption rate, not satisfaction. | Pilot program / Beta test |
+| 288 | Cross-Trade Synthesis | UNIQUE | Integration of electrical, HVAC, IT networking, mechatronics, plumbing into unified physical competency essential for Field Node design and construction. Five-year development trajectory (IBEW + cross-disciplinary). Timeline Three personal embodiment deliverable. | Interdisciplinary training / Cross-skilling |
+| 289 | Seven Pulses Dashboard | UNIQUE | Cognitive Palace (#39) interface providing real-time layer tracking for the learner. Personal navigation tool for curriculum progression through the seven cognitive layers. The instrument panel of personal development. | Learning dashboard / Progress tracker |
+
+### Category 22: Community Architecture (8 terms)
+
+<!-- Provenance: Terms 290-297 extracted from the convergence documents' live events strategy, community governance, and stewardship model. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 290 | Steward / Steward Network | UNIQUE | Community members trained in Node operation, event logistics, safety monitoring, integration facilitation. Progressive development from 2 initial stewards to 10-15 across regions by Year 3. Steward-executed hardware swap is a validation gate for Field Node operational readiness. The distributed leadership layer of the community. | Community leaders / Facilitators |
+| 291 | Proof Session | UNIQUE | Intimate demonstration event (20-40 attendees) where framework elements undergo live testing. Attendees leave with working artifacts. Focus on validation and refinement, not marketing. First event format in the scaling sequence. Success metric: artifact adoption within 48 hours. | Workshop / Demo day |
+| 292 | Quarterly Gathering | UNIQUE | Community cohesion event (50-100 attendees) combining teaching, practice, social bonding. Festival atmosphere with serious developmental work. Established rhythm by Year 2. Builds community density and mutual accountability. | Quarterly meetup / Community retreat |
+| 293 | Annual Convergence | UNIQUE | Major production event (200-500+ attendees) with high production values. Multi-day immersive experience. Regional/national draw. First instance Year 2-3. The flagship event demonstrating full framework integration. | Annual conference / Summit |
+| 294 | Peer Coils | UNIQUE | Recursive feedback loops of practitioner mutual support within the community. "What generates coils versus chaos in student experience." Enabled through Discord/Slack structures. Community generates collective intelligence exceeding founder capacity when coils function properly. | Study groups / Peer learning circles |
+| 295 | Run-of-Show Structure | UNIQUE | Seven-part event structure: Opening→Why Now→Core Transmission→Participatory Practice→Integration→Artifact Distribution→Closing. Constitutional event template ensuring every event delivers artifacts, not just experiences. | Event agenda / Event playbook |
+| 296 | Adoption Rate (event metric) | UNIQUE | "Adoption rather than applause." Events succeed when attendees integrate frameworks and use artifacts within 48 hours, not merely when they report enjoyment. The anti-vanity metric. Measures behavioral change, not satisfaction. | Activation rate / Feature adoption |
+| 297 | Consent Framework (events) | UNIQUE | Written RSVP, photo/film opt-in, telemetry consent, revocation mechanisms, privacy as default, purge mechanism honored within SLA. The ethical infrastructure of community participation. Non-negotiable regardless of event scale. | Event consent / Privacy policy |
+
+### Category 23: Convergence Economics (8 terms)
+
+<!-- Provenance: Terms 298-305 extracted from the convergence documents' economic model, pricing philosophy, and financial sustainability strategy. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 298 | Risk Removed / Time Returned | UNIQUE | Pricing principle: price proportional to genuine value delivered. Risk Removed = uncertainty eliminated or failure prevented. Time Returned = achievement accelerated or tedium eliminated. Maintains ethical clarity: only charge when delivering genuine value proportional to price. The moral foundation of the economic model. | Value-based pricing |
+| 299 | Content-Native Sustainability | UNIQUE | Economic model where intelligence multiplication (AI) enables scaling without fixed labor proportional to output. Platform diversification reduces single-point failure. Revenue serves next-phase enablement. Model demonstrates viability for post-labor economy at individual scale. | Creator economy / Solopreneur model |
+| 300 | Surplus Accumulation | UNIQUE | Disciplined surplus allocation strategy: Year 1 $50-75K, Year 2 $100-150K, Year 3 $150-250K. Cumulative $300-475K enabling Field Node investment. Conservative projections allowing graceful adaptation. Not growth-at-all-costs but sustainable surplus enabling the next phase. | Savings plan / Capital accumulation |
+| 301 | Pricing Tiers (6-tier) | UNIQUE | Six tiers: (1) Free — open-access content and documentation, (2) Community — affordable cohort access $50-100/mo, (3) Educational — comprehensive curriculum $200-500/mo, (4) Consulting — professional services $150-250/hr, (5) Infrastructure — Node consultation $2500-5000/engagement, (6) Way Place — integrated packages $10K-50K. Strategic function varies per tier. | Pricing ladder / Freemium model |
+| 302 | Unit Economics | UNIQUE | Per-student, per-engagement, per-Node, per-platform metrics tracking. LTV:CAC ratio >3:1 target. Revenue per student per month, cost per acquisition, retention rate, expansion revenue. The quantitative accountability layer of the economic model. | Unit economics (standard) |
+| 303 | Conversion Metrics (audience-facing) | UNIQUE | Thread→RSVP >=8%, 60-second YouTube completion >=45%, artifact usage within 48h >=20%, editorial cycle time reduction >=30%. Distinct from internal scaffold Convergence Metrics (#101). External-facing, audience-behavior metrics for the Alchemizing Catalyst engine. | Conversion rate / Engagement metrics |
+| 304 | Sensitivity Analysis (3 scenarios) | UNIQUE | Conservative/Baseline/Optimistic revenue projections with identified sensitivity factors: enrollment volume, consulting demand, algorithm changes, competition, AI efficiency gains, macroeconomic conditions. Each factor ranked by impact and controllability. | Scenario planning / Financial modeling |
+| 305 | Capital Strategy | UNIQUE | "Three-year accumulation from zero to $750K+ through disciplined surplus allocation and revenue diversification." No external funding, no debt. Surplus from Phase I-II content/education funds Phase III-IV physical infrastructure. Self-funding as sovereignty preservation. | Bootstrapping / Self-funding strategy |
+
+### Category 24: Convergence Anti-Patterns (6 terms)
+
+<!-- Provenance: Terms 306-311 extracted from the convergence documents' explicitly named failure modes. These complement the operational anti-patterns in the Clarescence Runbook with strategic/business anti-patterns. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 306 | "Cohorts before Patreon" | UNIQUE | Anti-pattern: attempting to monetize (Patreon, subscriptions) before demonstrating value through free cohort work. Reverse order kills trust. Cannot extract payment before delivering proof of value. The ordering is causal, not preferential. | Premature monetization |
+| 307 | "Platform Sprawl" | UNIQUE | Anti-pattern: activating new platforms before existing ones achieve excellence. "Three channels excellent before a fourth exists." Quality on few > mediocrity on many. Kill criterion: new platform only when upstream hand-offs are reliable and current platforms meet engagement thresholds. | Channel dilution / Platform fatigue |
+| 308 | "Architectural Churn" | UNIQUE | Anti-pattern: "renaming primitives faster than you can teach them." Related to Sophistication Plateau (#227) but distinct: churn is about terminology/naming instability, while plateau is about architecture proliferating faster than execution. Both waste energy on structure instead of output. | Refactoring addiction / Naming bikeshedding |
+| 309 | "Unlogged Claims" | UNIQUE | Anti-pattern: "Any claim without a micro-demo and log is a story, not a step." Every capability claim requires evidence: working demo + timestamped log entry. Claims without receipts are aspirational fiction. The content-creation analog of Invariant #3 (Receipts). | Vaporware / Undocumented claims |
+| 310 | "Scope Creep at Malibu" | UNIQUE | Anti-pattern: attempting comprehensive perfection that prevents completion. "Pick one measurable slice, publish to prove judgment." Named for the tendency to plan an entire Field Node when one nodelet would suffice as proof. Cure: publish the smallest complete thing first. | Scope creep / Perfect is enemy of good |
+| 311 | Kill-Switch Pattern | UNIQUE | Generalized response to sustained underperformance: pause→retreat to foundations→reinforce capability→re-attempt. Not failure but structured retreat. Two consecutive measurement cycles below threshold trigger the switch. Applied to content, events, platforms, and economic projections alike. | Circuit breaker / Fail-safe |
+
 ---
 
 ### 169. Clarescence / Claresce (Value-Guided Progressive Refinement)
@@ -730,7 +849,7 @@ Significant community patterns without internal equivalents.
 | Pass | Layer | Reference | Question |
 |------|-------|-----------|----------|
 | 1 | Triumvirate Calibration | ARCH-INTENTION_COMPASS.md + DYN-BACKLOG.md | Where headed? Where now? Does this serve the destination? |
-| 2 | 18+ Lens Evaluation | REF-DECISION_ATOMS.md | Passes Syncrescendent Route, Bitter Lesson, Antifragile, First Principles, Systems Thinking, etc.? (12/18 threshold) |
+| 2 | Dual-Path Lens Sweep | REF-CLARESCENCE_RUNBOOK.md v3.0.0 | Path 1 (Wisdom): Bitter Lesson, Antifragile, Systems Thinking, etc. (>=12/18). Path 2 (Engineering): Sovereignty, Portability, Durability, etc. (>=12/18). Strategic fidelity: both paths, combined >=24/36. |
 | 3 | CANON Coherence | 01-CANON/ (79 files) | Aligns with constitutional knowledge? Coheres with existing ontology? |
 | 4 | Omni-Quality Aspiration | CANON-24000 | Moves toward Omnibenevolence, Omniscience, Omnipotence, Omnipresence? |
 | 5 | Five Faces Alignment | CANON-11000 | Honors Sensing, Meaning-Making, Intention-Formation, Embodiment, Strategic Harmony? |
@@ -762,25 +881,40 @@ Confidence: [low|medium|high]
 
 ---
 
-## Status Distribution (236 entries, 235 distinct terms)
+## Status Distribution (311 entries, 305 distinct terms)
 
-| Status | Original 18 | Extended (19-169) | Domain Expansion (170-206) | Ontological + Meta (207-231) | Exocortex (232-241) | Total |
-|--------|------------|-------------------|---------------------------|------------------------------|---------------------|-------|
-| UNIQUE | 4 | 118 | 8 | 15 | 5 | 150 |
-| ADAPTED | 5 | 16 | 26 | 10 | 5 | 62 |
-| ALIGNED | 2 | 5 | 1 | 0 | 0 | 8 |
-| DEPRECATED | 6 | 4 | 0 | 0 | 0 | 10 |
-| ACTIVE | 1 | 0 | 0 | 0 | 0 | 1 |
-| UNKNOWN | 0 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **18** | **143** | **35** | **25** | **10** | **231** |
+| Status | Original 18 | Extended (19-169) | Domain Expansion (170-206) | Ontological + Meta (207-231) | Exocortex (232-241) | Convergence (242-311) | Total |
+|--------|------------|-------------------|---------------------------|------------------------------|---------------------|----------------------|-------|
+| UNIQUE | 4 | 118 | 8 | 15 | 5 | 66 | 216 |
+| ADAPTED | 5 | 16 | 26 | 10 | 5 | 4 | 66 |
+| ALIGNED | 2 | 5 | 1 | 0 | 0 | 0 | 8 |
+| DEPRECATED | 6 | 4 | 0 | 0 | 0 | 0 | 10 |
+| ACTIVE | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| UNKNOWN | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Total** | **18** | **143** | **35** | **25** | **10** | **70** | **301** |
 
-*Note: 5 terms shared between categories (including cross-references) bring distinct-term total to 235. Entry 120b and cross-reference entry 193 account for differences between entry count and status-counted terms. v2.6.0 recomputed all columns with Exocortex Domain expansion.*
+*Note: 5 terms shared between categories (including cross-references) bring distinct-term total to 305. Entry 120b and cross-reference entry 193 account for differences between entry count and status-counted terms. v2.7.0 recomputed all columns with Convergence expansion (70 terms across 7 new categories).*
 
-65% of terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The v2.6.0 Exocortex Domain expansion adds 10 terms (#232-241) from the Grok/Gemini Palantir Ontology Metacharacterization, naming the functional layers of the "individual+AI as corporation" vision: Exocortex, Sensorium, Agency Layer, Sovereignty Layer, Reflexive Intelligence, XRP, ISP, ASO, Sovereign Nexus, and Trust Topology. The densest UNIQUE concentrations are in CANON cosmology, the function library, the Constellation architecture, the Ontological Architecture domain, and now the Exocortex Domain (5 UNIQUE, 5 ADAPTED).
+70% of terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The v2.7.0 Convergence expansion adds 70 terms (#242-311) extracted from the pre-scaffold convergence documents (~4,955 lines), codifying the outward-facing strategic vision that the scaffold exists to serve: physical infrastructure (Field Nodes, Way Places, Nodelets), content strategy (Cinematic Textbook, Platform Hand-off), educational architecture (4-Stage Curriculum, AI Collaboration Fluency), community governance (Steward Network, Peer Coils), economic model (Risk Removed/Time Returned, Surplus Accumulation), philosophical foundations (Gaialogical Principles, Distributed Resilience), and named anti-patterns (Cohorts before Patreon, Platform Sprawl). This closes the 61.3% terminology gap identified in ROSETTA-CONVERGENCE-GAP-ANALYSIS.md.
 
 ---
 
 ## Version History
+
+**v2.7.0** (2026-02-16): Convergence Document Extraction — outward-facing strategic vocabulary (70 new terms)
+- 70 new terms added (#242-311), bringing total to 311 entries (305 distinct)
+- 7 new domain categories: Convergence Architecture (#18, 20 terms), Content Strategy (#19, 10 terms), Convergence Philosophy (#20, 10 terms), Education Architecture (#21, 8 terms), Community Architecture (#22, 8 terms), Convergence Economics (#23, 8 terms), Convergence Anti-Patterns (#24, 6 terms)
+- **Convergence Architecture**: Tri-Helical Strategy, Gaian Field Node, Way Place, Catalyst Packet, Five Phases (I-V), Compositional Hierarchy, Causal Dependencies, Consciousness Investigating Itself, World-Shard, Nodelet, Three-Tier Instrumentation, Maturity Gates, Technological Pacing Clock, Field Node Network, Kill Criteria, Evidence Ledger, Phased Construction Protocol, Recursive Amplification, Voluntary Coordination, Embodiment Proof
+- **Content Strategy**: Cinematic Textbook Model, YouTube Seasons (1-12), Immutable Authoritative Register, Elevated Plainstyle, Rhetorical Calibration, Content Brand Architecture, Tiered Phased Rollout, Platform Hand-off Protocol, Brand Bible, Catalyst Production Cadence
+- **Convergence Philosophy**: Gaialogical Principles, Integrative Interregnum, Distributed Resilience, Post-Labor Economics, Intelligence as Work, Renaissance 2.0, Demonstration Principle, Fourth Turning, Neo-Liberal Arts Integration, Recursive Self-Investigation
+- **Education Architecture**: 4-Stage Curriculum, Computational Intuition, Semantic Intuition, AI Collaboration Fluency, Meta-Cognitive Monitoring, Beta Cohort, Cross-Trade Synthesis, Seven Pulses Dashboard
+- **Community Architecture**: Steward/Steward Network, Proof Session, Quarterly Gathering, Annual Convergence, Peer Coils, Run-of-Show Structure, Adoption Rate, Consent Framework
+- **Convergence Economics**: Risk Removed/Time Returned, Content-Native Sustainability, Surplus Accumulation, Pricing Tiers, Unit Economics, Conversion Metrics, Sensitivity Analysis, Capital Strategy
+- **Convergence Anti-Patterns**: "Cohorts before Patreon", "Platform Sprawl", "Architectural Churn", "Unlogged Claims", "Scope Creep at Malibu", Kill-Switch Pattern
+- Provenance: Extracted from pre-scaffold convergence documents (syncrescendence_convergence.md + syncrescendent_convergence_aligned.md, ~4,955 lines total). Gap analysis identified 119 terms with 61.3% (73 terms) entirely absent from Rosetta v2.6.0. This version closes the outward-facing strategic vocabulary gap.
+- Analysis files: ROSETTA-CONVERGENCE-GAP-ANALYSIS.md, CONVERGENCE-INTENT-TAXONOMY.md, SCAFFOLD-CONVERGENCE-COVERAGE-AUDIT.md, LENS-ARCHAEOLOGY.md
+- Concurrent change: REF-CLARESCENCE_RUNBOOK.md v3.0.0 (Dual-Path Lens System)
+- Authority: Commander (Opus 4.6) executing convergence injection per Sovereign directive
 
 **v2.6.0** (2026-02-15): Exocortex Domain — SaaS expansion terminology formalization (10 new terms)
 - 10 new terms added (#232-241), bringing total to 241 entries (235 distinct)
