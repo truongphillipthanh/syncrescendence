@@ -17,6 +17,18 @@ Multi-agent configuration for CLI tools operating on this repository.
 
 **AjnaPsyche Archon**: Ajna (steering wheel) + Psyche (rudder) = fused executive brain. StarCraft High Templar → Archon.
 
+### Operational Registry (MANDATORY)
+
+This registry is required for every constellation agent. Keep it current.
+
+| Agent | CLI Tool + Version Surface | Dispatch Mode | Machine | tmux Pane | Rate-Limit Pool | Auto-Ingest Loop | Recovery Procedure |
+|---|---|---|---|---|---|---|---|
+| **Commander** | Claude Code (Opus 4.6 lane) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | Enabled via `auto_ingest_loop.sh commander` | Restart CLI in pane `1.3` → check `-INBOX/commander/00-INBOX0` + `10-IN_PROGRESS` → resume and write RESULT |
+| **Adjudicator** | Codex CLI (GPT-5.2/5.3 codex lane) | tmux `send-keys` | Mac mini | `1.5` | Shared ChatGPT Plus pressure domain with Psyche tasks | Enabled via `auto_ingest_loop.sh adjudicator` | Restart pane `1.5` CLI → inspect INBOX0/IN_PROGRESS → rerun verification and emit CONFIRM/RESULT |
+| **Cartographer** | Gemini CLI (`gemini-2.5-pro`) | Headless (`gemini -p -y -o text`) | Mac mini | `1.7` (monitor pane; execution can be headless) | Google AI Pro / Gemini quota pool (Acct 2) | Enabled via `auto_ingest_loop.sh cartographer` | Re-run headless command, inspect `auto_ingest.log`, resume from IN_PROGRESS, move to DONE/FAILED |
+| **Psyche** | OpenClaw (`openclaw tui --session main`, model GPT-5.3-codex) | tmux `send-keys` | Mac mini | `1.1` | Shared ChatGPT Plus pool (with Adjudicator workload contention) | Enabled via `auto_ingest_loop.sh psyche` | Restart OpenClaw TUI in pane `1.1` → check inbox lanes → continue objective and publish receipts |
+| **Ajna** | OpenClaw (Kimi K2.5 lane) | tmux/remote inbox dispatch (filesystem + SCP sling) | MacBook Air (remote) | N/A (remote lane) | NVIDIA/Kimi capacity pool | Enabled on MBA via `auto_ingest_loop.sh ajna` | Reconnect MBA lane, verify `-INBOX/ajna/00-INBOX0`, process backlog, write `-OUTBOX/ajna/RESULTS` |
+
 ---
 
 ## Psyche (OpenClaw — CTO/Synaptarch)

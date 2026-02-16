@@ -221,6 +221,79 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 
 ---
 
+## Constellation Operations (MANDATORY AWARENESS)
+
+This section is mandatory operational context for all Claude Code agents (Commander, Adjudicator).
+
+### 1) Auto-Ingest System (task flow)
+Task lifecycle is deterministic and file-backed:
+
+1. `00-ORCHESTRATION/scripts/dispatch.sh` creates `TASK-*.md` in `-INBOX/<agent>/00-INBOX0/`
+2. Optional cross-machine sling uses `SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>` via SCP
+3. `00-ORCHESTRATION/scripts/auto_ingest_loop.sh` polls INBOX0 every 30s
+4. Task is moved to `-INBOX/<agent>/10-IN_PROGRESS/`
+5. Agent CLI executes objective (tmux dispatch or Gemini headless)
+6. Result written to `-OUTBOX/<agent>/RESULTS/RESULT-<agent>-*.md`
+7. Task moves to `-INBOX/<agent>/40-DONE/` or `50_FAILED/`
+8. CONFIRM receipt sent to `-INBOX/<reply-to-agent>/00-INBOX0/`
+
+### 2) Health Watchdog
+A launchd watchdog cycle runs every ~60s and writes health state to:
+
+- `00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
+
+Check command:
+
+```bash
+cat 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
+```
+
+### 3) Dispatch Protocol
+Canonical dispatch command:
+
+```bash
+bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"
+```
+
+Cross-machine delivery is controlled by env vars:
+
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA`
+
+### 4) Agent Dispatch Modes
+- **Adjudicator**: tmux `send-keys` dispatch
+- **Psyche**: tmux `send-keys` dispatch
+- **Cartographer**: Gemini headless (`gemini -p -y -o text`)
+- **Commander**: tmux `send-keys` dispatch
+
+### 5) Rate Limit Recovery
+- Respect per-model quotas and plan pooling
+- Psyche + Adjudicator share ChatGPT Plus capacity pool and can saturate each other
+- Gemini free-tier errors include reset hints; stagger retries accordingly
+- Do not dispatch simultaneous heavy jobs to both Psyche and Adjudicator when token pressure is high
+
+### 6) Context Exhaustion Protocol
+- Trigger `/compact` at ~75% context usage
+- Persist work state to filesystem BEFORE compaction (`00-ORCHESTRATION/state/`, task/result files)
+- Never allow context death without writing durable artifacts and committing relevant work
+
+### 7) If You Go Offline
+- Watchdog should detect degraded state within ~60s
+- Auto-ingest re-queues/continues pending work via INBOX lifecycle
+- Other agents compensate through dispatch and CC routing
+- Recovery sequence:
+  1. Restart CLI
+  2. Check `-INBOX/<agent>/00-INBOX0/` and `10-IN_PROGRESS/`
+  3. Resume objective from filesystem state
+
+### 8) NEVER
+- Never kill the tmux `constellation` session casually
+- Never delete auto-ingest lockfiles without validating owning PID
+- Never dispatch simultaneous heavy tasks to Psyche + Adjudicator under shared quota pressure
+
 ## Session Protocol
 - Consult `ARCH-INTENTION_COMPASS.md` before executing directives
 - Use `/compact` before context fills (75% rule)

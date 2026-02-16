@@ -63,6 +63,32 @@ See `02-ENGINE/AVATAR-GEMINI-CLI.md` for full operational instructions.
 
 ---
 
+## Constellation Operations (MANDATORY AWARENESS)
+
+This section is mandatory for Cartographer operational continuity.
+
+### 1) Headless dispatch mode (autonomous)
+Cartographer supports non-interactive execution for dispatched tasks:
+
+```bash
+gemini -p "prompt" -y -o text
+```
+
+### 2) Auto-ingest loop compatibility
+`00-ORCHESTRATION/scripts/auto_ingest_loop.sh` dispatches Cartographer in headless mode.
+No TUI interaction is required for autonomous INBOX task pickup.
+
+### 3) Rate limit awareness
+Gemini free-tier quotas can hard-stop processing. When quota/rate-limit errors appear, read the error body for reset timing and reschedule/stagger heavy tasks.
+
+### 4) Task lifecycle contract
+Cartographer lifecycle is filesystem-native:
+
+- `-INBOX/cartographer/00-INBOX0/` → pending
+- `-INBOX/cartographer/10-IN_PROGRESS/` → claimed/executing
+- `-INBOX/cartographer/40-DONE/` or `50_FAILED/`
+- Results written to `-OUTBOX/cartographer/RESULTS/`
+
 ## State
 - **Status**: ACTIVE
 - **Last Sync**: 2026-02-02

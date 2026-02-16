@@ -365,6 +365,59 @@ Launch: `doom-dash` (alias for `emacsclient -nw -c`)
 
 ---
 
+## Operational Runbook
+
+### 1) Cold Start (zero → operational)
+
+1. `cd ~/Desktop/syncrescendence`
+2. Bring up cockpit: `bash 00-ORCHESTRATION/scripts/cockpit.sh --launch`
+3. Ensure watcher daemons are loaded:
+   - `launchctl list | rg com\.syncrescendence\.watch`
+4. Start/verify OpenClaw gateway if needed:
+   - `openclaw gateway status` (or `openclaw gateway restart`)
+5. Confirm auto-ingest loops and inbox lanes are live (watchdog + health report)
+
+### 2) Warm Restart (single-agent recovery)
+
+1. Identify failed pane/agent in `DYN-CONSTELLATION_HEALTH.md`
+2. Restart only affected CLI in its pane
+3. Validate inbox state:
+   - `-INBOX/<agent>/00-INBOX0`
+   - `-INBOX/<agent>/10-IN_PROGRESS`
+4. Resume task and emit RESULT/CONFIRM receipts
+
+### 3) Full Restart (session recreation)
+
+1. Gracefully stop/clear stale loops
+2. Recreate tmux session:
+   - `bash 00-ORCHESTRATION/scripts/cockpit.sh --kill`
+   - `bash 00-ORCHESTRATION/scripts/cockpit.sh --launch`
+3. Reload watcher services if needed
+4. Validate all agent panes + auto-ingest + watchdog report
+
+### 4) Health Verification Checklist
+
+- `cat 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
+- `launchctl list | rg com\.syncrescendence\.watch`
+- `docker ps --format '{{.Names}}: {{.Status}}'`
+- `curl -s http://localhost:18789/health || echo "GATEWAY DOWN"`
+- Confirm INBOX flow (`00-INBOX0 → 10-IN_PROGRESS → 40-DONE/50_FAILED`)
+
+### 5) Emergency Procedures
+
+**All agents down**
+- Recreate cockpit (`--kill` then `--launch`), verify watcher labels, restart gateway, then replay pending tasks from INBOX0.
+
+**Network partition (cross-machine dispatch failure)**
+- Continue local filesystem dispatch.
+- Queue remote tasks in target `-INBOX/<agent>/00-INBOX0/` when link restored.
+- Use SCP sling fallback via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_*`.
+
+**Disk full / I/O pressure**
+- Halt non-critical batch tasks.
+- Archive/compress logs and large transient artifacts.
+- Recover free space before restarting heavy ingestion/synthesis jobs.
+
 ## Quick Reference
 
 | Command | Effect |
