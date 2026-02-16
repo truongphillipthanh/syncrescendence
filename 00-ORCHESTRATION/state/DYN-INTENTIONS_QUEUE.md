@@ -493,3 +493,11 @@
 - **2026-02-16 01:10:03** | `The document is organized into 13 major categories plus a priority matrix and package summary:`
 
 - **2026-02-16 01:22:02** | `okay, now partition the research into the appropriate compartmentalization. i wanted to upload these partitions into notebooklm, so then we could ask thoughtful, syncrescendent, prescient, wise, illum`
+
+- **2026-02-16 07:00:39** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-16 07:00:39** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-16 07:30:39** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(first:100) { nodes { identifier number title state { name type } priority updatedAt labels { nodes { name } } project { nam`
+
+- **2026-02-16 07:30:39** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(first:100) { nodes { identifier number title state { name type } priority updatedAt labels { nodes { name } } project { nam`

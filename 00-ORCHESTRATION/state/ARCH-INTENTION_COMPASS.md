@@ -105,6 +105,25 @@ Each intention entry contains:
 | INT-1613 | 16 | "Cockpit border white instead of blue" | active | SYN-42 |
 | INT-1617 | 16 | "Add Marvel/ComicbookUniverses/Star Wars/Star Trek/Accelerando to narrative imaginal layers" | active | SYN-41, narrative-dna.md |
 
+### SESSION 17 (2026-02-16): Research Corpus Intelligence Extraction
+
+*Source: 267-file research corpus analysis (59 articles deep-read, 4 parallel agents). Insights extracted from RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md and RESEARCH-INSIGHTS-HIGH-SIGNAL.md.*
+
+| ID | Oracle | Text | Status | Integrated Into |
+|----|--------|------|--------|-----------------|
+| INT-1701 | 17 | "Progressive Disclosure is the correct context loading pattern — 4-layer graduated system for vault traversal" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §1.1 |
+| INT-1702 | 17 | "Judgment Engineering as Service — exocortex encodes accumulated judgment that agents execute against" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.1 |
+| INT-1703 | 17 | "Attention as the Post-Labor Currency — cognitive sovereignty becomes a governance question" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.5 |
+| INT-1704 | 17 | "Anti-Tool-Shaped-Object Discipline — institutionalize 'what is the number before making it go up?'" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.6 |
+| INT-1705 | 17 | "Instruction → Skill → Hook maturity ladder — new patterns start as instructions, graduate to hooks" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §Cross-Cutting #3 |
+| INT-1706 | 17 | "Data Layer Sovereignty — ontology, convergence taxonomy, Rosetta Stone ARE proprietary data assets" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §INT-004 |
+| INT-1707 | 17 | "Three-Layer Memory Architecture — Knowledge Graph + Daily Notes + Tacit Knowledge (consensus converging)" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §2.1 |
+| INT-1708 | 17 | "Research → NotebookLM pipeline automation — classify, partition, upload, question, extract, inject" | active | RESEARCH-PIPELINE-AUTOMATION-SPEC.md |
+| INT-1709 | 17 | "Security is existential — 200+ exposed instances, supply chain attacks via skill marketplaces" | active | RESEARCH-INSIGHTS-HIGH-SIGNAL.md §18 |
+| INT-1710 | 17 | "The Constellation pattern is validated — independent practitioners converged on our exact architecture" | active | RESEARCH-INSIGHTS-HIGH-SIGNAL.md §Theme 1 |
+| INT-1711 | 17 | "Agent Vault = Human-Agent Shared Knowledge Graph — Obsidian vault IS the agent's memory" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §INT-007 |
+| INT-1712 | 17 | "The perimeter is capability, not network — redefine security around what agents CAN DO" | active | RESEARCH-INSIGHTS-HIGH-SIGNAL.md §17 |
+
 ### BACKLOG (Future Work)
 
 | ID | Oracle | Text | Status | Priority | Notes |
@@ -140,6 +159,12 @@ Each intention entry contains:
 | INT-P014 | 16 | "Tokens are the new minerals and vespene gas" | active | Token economics as strategic resource management. StarCraft resource model applied to API credits, context windows, compute. |
 | INT-P015 | 16 | "Mac mini = stable dashboard (macro), MBA = kinetic cockpit (micro)" | active | Dual-machine interaction paradigm. Mac mini: always-on, terminal-based, less frequent interaction, StarCraft macro. MBA: synaptic, kinetic, consistent but audible-ready. |
 | INT-P016 | 16 | "Web app system prompts general, leverage platform strengths — confirmed superior" | active | Thesis validated: general prompts + platform-native strengths beats over-specialization. Memory architecture needs audit post-pivot. |
+| INT-P017 | 17 | "File-First, Always — plain markdown outperforms specialized memory infrastructure" | active | ClawVault benchmark: markdown+grep 74.0% vs specialized tools 68.5%. LLMs trained on text files. Own data as files. |
+| INT-P018 | 17 | "Supersede, Never Delete — all state changes preserve history via supersession chains" | active | Temporal record of knowledge evolution more valuable than current state alone. |
+| INT-P019 | 17 | "Security as Binding Constraint — limiting factor is safety, not capability" | active | 200+ exposed instances, supply chain attacks, prompt injection. Defense-in-depth is not optional. |
+| INT-P020 | 17 | "The Verbatim Trap Test — every synthesis must produce what the source didn't contain" | active | Connections, tensions, implications, questions. If not, reject and redo. Anti-pattern for all Constellation work. |
+| INT-P021 | 17 | "Knowledge-Code Isomorphism — knowledge bases and codebases share identical structure" | active | Same tools (git, grep, hooks, CI/CD) manage both. Vault index = skill discovery. Notes = skills. |
+| INT-P022 | 17 | "The Constellation pattern is emergent consensus — independent practitioners converged on our architecture" | active | Differentiation from quality of personality files, memory curation, coordination patterns, security hardening. |
 
 ### CAPTURE (Pending Triage)
 

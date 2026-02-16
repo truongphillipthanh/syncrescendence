@@ -355,3 +355,73 @@
 - Jira↔Linear sync map documented (REF-JIRA_SYNC_MAP.md)
 - 12 launchd plists ready (sensing + existing agents)
 - Next: Load agents and verify scheduling
+
+## 2026-02-16 (Tranche Q — Research Corpus Insights: Exocortex + Memory + Security)
+
+*Source: 59 articles deep-read across 8 notebooks. Extracted from RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md + RESEARCH-INSIGHTS-HIGH-SIGNAL.md.*
+
+### P0
+- IMPL-Q-0001 — Progressive Disclosure Layer for Vault: Implement 4-layer context loading (tree → YAML descriptions → outlines → full content) with frontmatter descriptions on all vault notes (INT-1701)
+- IMPL-Q-0002 — SHIELD.md Security Policy: Create SHIELD.md for all OpenClaw agents, populate from MoltThreats threat intelligence (INT-1709)
+- IMPL-Q-0003 — OpenClaw Security Audit: Run `clawdbot security audit --fix` on Ajna + verify Miessler Top 10 checklist (gateway auth, DM allowlist, sandbox, network isolation)
+- IMPL-Q-0004 — Hook Audit of CLAUDE.md: Identify all instructions that should be hooks (deterministic checks). Promote verified patterns: instruction → skill → hook (INT-1705)
+
+### P1
+- IMPL-Q-0005 — Three-Layer Memory System for OpenClaw: Knowledge Graph (entities), Daily Notes (timeline), Tacit Knowledge (MEMORY.md) with automated heartbeat extraction (INT-1707)
+- IMPL-Q-0006 — Claim-Named Notes Migration: Rename vault notes from topic-style to claim-style titles — file tree becomes table of arguments
+- IMPL-Q-0007 — Vault Index Pattern: Single file listing every note with one-line description, scanned FIRST before any note reading
+- IMPL-Q-0008 — Verbatim Trap Test as Mandatory Checkpoint: Every research synthesis must produce something the source didn't contain. Enforce via hook or skill gate
+- IMPL-Q-0009 — Memory Decay Engine: Hot/Warm/Cold tiering for entity summaries with weekly synthesis cron, access tracking, frequency resistance
+- IMPL-Q-0010 — Enable Agent Teams on MBA: Set `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`, test peer-to-peer coordination alongside tmux cockpit
+- IMPL-Q-0011 — PreToolUse Hooks: Intercept `git commit` to enforce clarescence-format messages, prevent commits to protected paths, auto-lint
+- IMPL-Q-0012 — Path-Scoped Rules: Migrate per-domain instructions into `.claude/rules/` with path scoping (orchestration.md → 00-ORCHESTRATION/**)
+- IMPL-Q-0013 — Tailscale ACL Tags: Separate MBA (Ajna) from Mac mini (Psyche), directional restrictions, workers cannot initiate to orchestrator (INT-1712)
+
+### P2
+- IMPL-Q-0014 — Observational Memory Integration: Evaluate Mastra's @mastra/memory (94.87% LongMemEval) for conversation compression into priority-tagged observations
+- IMPL-Q-0015 — QMD Local Search Integration: Deploy QMD for hybrid BM25 + vector search across vault collections (SQLite-based, fully local)
+- IMPL-Q-0016 — Correction-Based Knowledge Capture: System where agent corrections during normal work auto-generate persistent knowledge items
+- IMPL-Q-0017 — Daily OpenClaw Supply Chain Audit Cron: Diff all changed files, audit for obfuscated code/suspicious network calls, SAFE/CAUTION/BLOCK report
+- IMPL-Q-0018 — Formalize One-Writer-Many-Readers: Document pattern in ARCH-CONSTELLATION with explicit write targets and read sources per agent
+- IMPL-Q-0019 — Read-Only Subagents: Security boundary for untrusted content ingestion — ingest and return structured summaries, cannot execute/edit
+- IMPL-Q-0020 — Refactor skills to progressive disclosure: Move heavy reference content to references/ subfolder, add validation scripts in scripts/
+- IMPL-Q-0021 — OpenClaw Personality File Alignment Audit: Verify SOUL, USER, MEMORY, AGENTS, HEARTBEAT cross-file coherence + add negative constraints
+
+### P3
+- IMPL-Q-0022 — Evaluate 4-Table Closed Loop (proposals/missions/steps/events) for kanban dispatch evolution
+- IMPL-Q-0023 — Evaluate LobeHub as prototyping/design surface complementing OpenClaw execution layer
+- IMPL-Q-0024 — Minority Report Agent Dashboard: Kanban-style live status board with color-coded task cards, progress bars
+- IMPL-Q-0025 — Confidence-Scored Memory: Implement 5 memory types (insight, pattern, strategy, preference, lesson) with confidence scores and 30% influence ratio
+
+## 2026-02-16 (Tranche P — Research Pipeline Automation)
+
+*Source: RESEARCH-PIPELINE-AUTOMATION-SPEC.md (780 lines). Full pipeline from capture to NotebookLM to scaffold injection.*
+
+### P0
+- IMPL-P-0001 — Build `classify_research.py`: 3-tier auto-classification (author match, keyword match, LLM fallback) for .md files against 14-notebook taxonomy
+- IMPL-P-0002 — Build `partition_research.sh`: Create per-notebook staging dirs from classification manifest, copy files
+- IMPL-P-0003 — Create `taxonomy.json`: Machine-readable notebook taxonomy with IDs, slugs, keywords, trusted authors, signal patterns
+- IMPL-P-0004 — Evaluate NotebookLM Enterprise API access: Determine if Google Workspace qualifies for Pre-GA; evaluate `notebooklm-py` as bridge
+- IMPL-P-0005 — Build `upload_to_notebooklm.py`: Create notebooks + upload partitioned .md sources via API (Enterprise or notebooklm-py fallback)
+
+### P1
+- IMPL-P-0006 — Configure Hazel rule on MBA: Watch ~/Desktop/research/ for new .md files, trigger classify_research.py
+- IMPL-P-0007 — Build `/generate_notebook_questions` skill: 5-15 questions per notebook using taxonomy + Rosetta + Intention Compass
+- IMPL-P-0008 — Build `research_threshold.sh` + launchd plist: Daily alert when unprocessed count > 20 or days since processing > 7
+- IMPL-P-0009 — Build `archive_research.sh`: Move processed files to 04-SOURCES/research/batch-YYYY-MM-DD/, update manifest, commit
+- IMPL-P-0010 — Build NotebookLM tracking ledger: JSON mapping notebook IDs to NotebookLM names, source counts, seeding status
+- IMPL-P-0011 — Build `append_to_notebook.py`: Incremental source addition to existing notebooks for new research
+- IMPL-P-0012 — Build `/extract_insights` skill: Semi-automated extraction from NotebookLM responses with criteria checklist
+
+### P2
+- IMPL-P-0013 — Build `inject_insight.py`: Automated routing of tagged insights to target artifacts (Compass, Backlog, Rosetta, Sigma)
+- IMPL-P-0014 — End-to-end pipeline orchestrator: `make research-pipeline` (classify → partition → upload → question → extract → inject → archive)
+- IMPL-P-0015 — Claude 200K context as NotebookLM supplement for programmatic queries
+- IMPL-P-0016 — Cross-notebook resonance detector: Identify thematic connections across 14 notebooks, generate meta-synthesis questions
+- IMPL-P-0017 — Notebook lifecycle policy: Split at 50-source limit, merge low-activity, archive stale
+- IMPL-P-0018 — Research velocity dashboard: Save rate, classification distribution, notebook saturation, processing lag
+
+### P3
+- IMPL-P-0019 — Autonomous research agent: OpenClaw monitors X for articles matching Sovereign Curation Profile, auto-saves
+- IMPL-P-0020 — Continuous notebook refresh: Periodic re-querying as Syncrescendence priorities evolve
+- IMPL-P-0021 — NotebookLM-to-Obsidian bridge: Export synthesis outputs as wikilinked markdown
