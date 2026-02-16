@@ -1,0 +1,4 @@
+fingerprint: ef77185
+timestamp: 2026-02-16T20:33:24Z
+branch: main
+message: fix(watchdog): Resolve launchd tmux socket access + add Cline/OpenCode backlog
