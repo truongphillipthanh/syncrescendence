@@ -7,12 +7,12 @@
 **Fingerprint**: 8e97caf
 **Kind**: TASK
 **Priority**: P1
-**Status**: COMPLETE
-**Kanban**: DONE
+**Status**: IN_PROGRESS
+**Kanban**: IN_PROGRESS
 **Claimed-By**: psyche-M1-Mac-mini
 **Claimed-At**: 2026-02-16T18:59:24Z
-**Completed-At**: 2026-02-16T19:06:37Z
-**Exit-Code**: 0
+**Completed-At**: —
+**Exit-Code**: —
 **Timeout**: 30
 **CC**: commander
 **Receipts-To**: -OUTBOX/psyche/RESULTS
