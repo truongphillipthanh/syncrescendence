@@ -7,12 +7,12 @@ target: engine
 
 # ROSETTA STONE: Syncrescendent <> Community Terminology
 
-**Version**: 2.5.0
+**Version**: 2.6.0
 **Generated**: 2026-02-15
 **Source**: AJNA9-RECAL Stream A + Ontology Extraction Sprint + Meta-Clarescence Fidelity Audit (Feb 9-11 clarescence formalization gap)
 **Authority**: Commander (Opus 4.6) — Meta-Clarescence Audit
 **Corpus**: 17 research files + full corpus scan + 8 clarescence documents (Feb 9-11)
-**Terms**: 231 entries in the extended matrix (plus cross-references)
+**Terms**: 241 entries in the extended matrix (plus cross-references)
 
 ---
 
@@ -691,6 +691,23 @@ Significant community patterns without internal equivalents.
 | 230 | Event Sourcing (ontological) | ADAPTED | Immutable event log architecture applied to the ontology. Store state transitions as append-only events, compute current state by replay. Gives auditability, reversibility, and temporal querying. DYN-GLOBAL_LEDGER.md is already a proto-event-source. Antonym: CRUD (destructive overwrites). Phase D consideration for ontology.db. | Event sourcing (CQRS pattern) |
 | 231 | Economic Subsistence | UNIQUE | A tool or service that generates enough value to justify its operational cost. Applied to agent fleet right-sizing: Cartographer (Google AI Pro $20/month) failed this test with 0% signal-to-noise across 6 dispatches. Commander passes. The metric forces honest evaluation of infrastructure ROI at tool level, not just portfolio level. | No equivalent |
 
+### Category 17: Exocortex Domain (10 terms)
+
+<!-- Provenance: Terms 232-241 extracted from Grok and Gemini Palantir Ontology Metacharacterization documents (-INBOX/commander/new_ontology_metacharacterization/{grok,gemini}.md) during Exocortex↔Scaffold Alignment Clarescence (2026-02-15). These terms name the functional layers of the "individual+AI as corporation" vision and map them to existing scaffold implementations. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 232 | Exocortex | ADAPTED | The overarching meta-concept for Syncrescendence's SaaS + Constellation + Ontology integration: an external cognitive prosthesis that extends the individual's intelligence, memory, and agency to institutional scale. The scaffold (00-ORCHESTRATION, 02-ENGINE, 04-SOURCES, 05-SIGMA) + the Constellation + SaaS integrations collectively constitute the exocortex. Named by Grok in Palantir metacharacterization; implicit in Syncrescendence's framing since Oracle 0. Five functional layers: Sensorium, Ontology of Self (#213), Agency Layer, Sovereignty Layer, Reflexive Intelligence. | Exocortex (cyberpunk/posthuman literature) |
+| 233 | Sensorium | ADAPTED | The unified inbound data layer of the exocortex: all signals flowing into the system from external sources. In our scaffold: Feedcraft (#45) for curated content intake, Corpus Sensing (#96) for full-corpus intelligence, 5 webhook/watcher hooks for event-driven inputs, -INBOX/ kanban for dispatched tasks, and the intent_compass.sh hook for Sovereign intent capture. Currently limited to digital signals; future expansion: health telemetry, IoT, environmental sensing. Corresponds to the "perception and persistent memory" functional essence of enterprise data ingestion. | Data ingestion layer / Perception layer |
+| 234 | Agency Layer | ADAPTED | The agent orchestration stratum of the exocortex: all AI agents operating on behalf of the Sovereign. In our scaffold: the Constellation (5 CLI/local agents + 5 web avatars), the dispatch protocol (kanban FSM), 34 installed skills, sub-agent spawning (Task tool), and the 7-phase agent loop architecture. Manages task delegation, quality monitoring, inter-agent coordination, and capability management. Corresponds to "HRIS/Agentic Swarm Orchestration" in the enterprise reification. | Agentic orchestration / Multi-agent system |
+| 235 | Sovereignty Layer (exocortex) | UNIQUE | The trust, identity, security, and compliance boundary of the exocortex. Distinct from Sovereignty (#185, which is the constitutional concept) — this is the operational security implementation. In our scaffold: σ₆ Access Layer (3 accounts, OAuth), API key management, permission models, SOVEREIGN queue for async decisions. Currently underdeveloped compared to other layers: no formal trust topology (#241), no reputation management, no counterparty trust scoring. The "immune system" of the exocortex. | Security layer / Zero-trust architecture (narrower) |
+| 236 | Reflexive Intelligence | ADAPTED | The sensemaking and self-awareness function of the exocortex: computational introspection on the system's own state, patterns, and trajectory. In our scaffold: the Clarescence 10-pass procedure, meta-clarescences (fidelity audits), execution logs with auto-compaction, DYN-GLOBAL_LEDGER.md as event source, and the 18+ Lens evaluation framework. Currently manual (operator-invoked); future: automated periodic self-assessment. Corresponds to "BI/Analytics → metacognition" in the enterprise reification. | Business intelligence / Observability (weaker) |
+| 237 | XRP (Existential Resource Planning) | UNIQUE | Resource accounting for the individual+AI: tracking finite constraints (attention, compute, energy, capital, time) against commitments. Named by Grok in Palantir metacharacterization. In our scaffold: DYN-API_PRICING.csv (token costs), INT-P014 ("tokens are the new minerals and vespene gas"), Economic Subsistence metric (#231). Currently proto-implemented; no unified "balance sheet of the self." Corresponds to "ERP → existential resource management" in the enterprise reification. | No prosumer equivalent |
+| 238 | ISP (Inter-Subjective Protocol) | UNIQUE | Counterparty modeling and trust negotiation: managing the exocortex's interface with other entities (clients, collaborators, services, other AI systems). Named by Grok. In our scaffold: Twin Coordination Protocol (Ajna↔Psyche), Slack/Discord/iMessage channels, IIC configs for external audiences, CANON-31142 Platform Grammar. The "diplomatic layer" — currently fragmented across communication tools, not unified as a protocol. | CRM (weaker) / Social graph |
+| 239 | ASO (Agentic Swarm Orchestration) | ADAPTED | Workforce management for AI agents: monitoring health/performance, allocating tasks, spinning up/down capabilities, maintaining a meritocracy of code. Named by Grok. In our scaffold: the Constellation IS the ASO — COCKPIT.md (role assignments), watch_dispatch.sh (execution monitoring), ARCH-CONSTELLATION_AGENT_LOOPS.md (loop architecture), Economic Subsistence (#231) for ROI evaluation. This term names what the Constellation already IS at a higher abstraction level. | Multi-agent management / Agent fleet management |
+| 240 | Sovereign Nexus | UNIQUE | The individual+AI dyad as the primary economic and cognitive unit: a bio-digital entity that has scaled to institutional complexity through its exocortex. Named by Grok in Palantir metacharacterization. Syncrescendence IS the proof-of-concept for this concept — "civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale" (CLAUDE.md). The Sovereign Nexus is the entity that Syncrescendence serves. | No equivalent |
+| 241 | Trust Topology | UNIQUE | The structured graph of trust relationships between the Sovereign Nexus and all counterparties: clients, collaborators, services, platforms, other AI systems. Each node has a trust score, interaction history, and permission level. Named by Grok as the reification of CRM for the individual. In our scaffold: not yet formalized. Closest approximation: σ₆ account structure + platform disposition categories in REF-STACK_TELEOLOGY.md. A Phase C/D target for ontology.db expansion. | Trust network / Social graph (weaker) |
+
 ---
 
 ### 169. Clarescence / Claresce (Value-Guided Progressive Refinement)
@@ -745,25 +762,43 @@ Confidence: [low|medium|high]
 
 ---
 
-## Status Distribution (226 entries, 225 distinct terms)
+## Status Distribution (236 entries, 235 distinct terms)
 
-| Status | Original 18 | Extended (19-169) | Domain Expansion (170-206) | Ontological + Meta (207-231) | Total |
-|--------|------------|-------------------|---------------------------|------------------------------|-------|
-| UNIQUE | 4 | 118 | 8 | 15 | 145 |
-| ADAPTED | 5 | 16 | 26 | 10 | 57 |
-| ALIGNED | 2 | 5 | 1 | 0 | 8 |
-| DEPRECATED | 6 | 4 | 0 | 0 | 10 |
-| ACTIVE | 1 | 0 | 0 | 0 | 1 |
-| UNKNOWN | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **18** | **143** | **35** | **25** | **221** |
+| Status | Original 18 | Extended (19-169) | Domain Expansion (170-206) | Ontological + Meta (207-231) | Exocortex (232-241) | Total |
+|--------|------------|-------------------|---------------------------|------------------------------|---------------------|-------|
+| UNIQUE | 4 | 118 | 8 | 15 | 5 | 150 |
+| ADAPTED | 5 | 16 | 26 | 10 | 5 | 62 |
+| ALIGNED | 2 | 5 | 1 | 0 | 0 | 8 |
+| DEPRECATED | 6 | 4 | 0 | 0 | 0 | 10 |
+| ACTIVE | 1 | 0 | 0 | 0 | 0 | 1 |
+| UNKNOWN | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Total** | **18** | **143** | **35** | **25** | **10** | **231** |
 
-*Note: 5 terms shared between categories (including cross-references) bring distinct-term total to 225. Entry 120b and cross-reference entry 193 account for differences between entry count and status-counted terms. v2.5.0 recomputed all columns.*
+*Note: 5 terms shared between categories (including cross-references) bring distinct-term total to 235. Entry 120b and cross-reference entry 193 account for differences between entry count and status-counted terms. v2.6.0 recomputed all columns with Exocortex Domain expansion.*
 
-65% of terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The v2.5.0 expansion adds the Ontological Architecture domain (20 terms from the Feb 9-11 Palantir metacharacterization chorus) and the Operational Meta-Patterns domain (5 terms from the CLARESCE^3 audits). The densest UNIQUE concentrations are in CANON cosmology, the function library, the Constellation architecture, and now the Ontological Architecture domain.
+65% of terms are genuinely **UNIQUE** to Syncrescendence with no community equivalent. The v2.6.0 Exocortex Domain expansion adds 10 terms (#232-241) from the Grok/Gemini Palantir Ontology Metacharacterization, naming the functional layers of the "individual+AI as corporation" vision: Exocortex, Sensorium, Agency Layer, Sovereignty Layer, Reflexive Intelligence, XRP, ISP, ASO, Sovereign Nexus, and Trust Topology. The densest UNIQUE concentrations are in CANON cosmology, the function library, the Constellation architecture, the Ontological Architecture domain, and now the Exocortex Domain (5 UNIQUE, 5 ADAPTED).
 
 ---
 
 ## Version History
+
+**v2.6.0** (2026-02-15): Exocortex Domain — SaaS expansion terminology formalization (10 new terms)
+- 10 new terms added (#232-241), bringing total to 241 entries (235 distinct)
+- 1 new domain category: Exocortex Domain (#17, 10 terms)
+- **Exocortex Domain** (from Grok/Gemini Palantir Ontology Metacharacterization):
+  - Exocortex — overarching meta-concept for the individual+AI cognitive prosthesis
+  - Sensorium — unified inbound data layer (Feedcraft + Corpus Sensing + hooks)
+  - Agency Layer — agent orchestration stratum (Constellation + dispatch + skills)
+  - Sovereignty Layer (exocortex) — trust/identity/security boundary (σ₆ implementation)
+  - Reflexive Intelligence — computational self-awareness (Clarescence + execution logs)
+  - XRP (Existential Resource Planning) — resource accounting for individual+AI
+  - ISP (Inter-Subjective Protocol) — counterparty modeling and trust negotiation
+  - ASO (Agentic Swarm Orchestration) — workforce management for AI agents
+  - Sovereign Nexus — the individual+AI as primary economic unit
+  - Trust Topology — structured trust relationship graph
+- Provenance: Exocortex↔Scaffold Alignment Clarescence (CLARESCENCE-2026-02-15-exocortex-scaffold-alignment.md)
+- These terms map the Grok/Gemini "individual+AI as corporation" vision to existing scaffold implementations
+- Authority: Commander (Opus 4.6) executing exocortex↔scaffold alignment clarescence per Sovereign directive
 
 **v2.5.0** (2026-02-15): Meta-Clarescence Fidelity Audit — Ontological formalization gap closure (25 new terms)
 - 25 new terms added (#207-231), bringing total to 231 entries (225 distinct)
