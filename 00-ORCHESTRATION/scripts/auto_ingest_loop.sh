@@ -109,7 +109,10 @@ check_pane_exists() {
         return 1
     fi
     $TMUX_BIN has-session -t "${TMUX_SESSION}" 2>/dev/null || return 1
-    $TMUX_BIN list-panes -t "${TMUX_SESSION}" -F '#{pane_index}' 2>/dev/null | grep -q "$(echo "$TMUX_PANE" | tr '.' '\n' | tail -1)" 2>/dev/null
+    # Target the specific window (e.g., "1" from "1.5"), not the active window
+    local target_window; target_window=$(echo "$TMUX_PANE" | cut -d. -f1)
+    local target_pane; target_pane=$(echo "$TMUX_PANE" | cut -d. -f2)
+    $TMUX_BIN list-panes -t "${TMUX_SESSION}:${target_window}" -F '#{pane_index}' 2>/dev/null | grep -q "^${target_pane}$" 2>/dev/null
     return $?
 }
 
