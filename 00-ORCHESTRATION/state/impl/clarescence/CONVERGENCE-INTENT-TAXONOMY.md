@@ -6,7 +6,7 @@
 - `syncrescendent_convergence_aligned.md` (2229 lines) -- referred to as **DOC-B**
 
 **Extraction Date:** 2026-02-16
-**Method:** Full-text sequential read of both documents, domain-by-domain extraction with cross-reference
+**Method:** Full-text sequential read of both documents, domain-by-domain extraction with cross-reference against current scaffold (01-CANON, 02-ENGINE, 00-ORCHESTRATION)
 
 ---
 
@@ -48,6 +48,10 @@
 ### Domain Name
 Philosophical Foundations / Ontological Architecture
 
+### Scaffold Capture Status: CAPTURED
+**Evidence:** `CANON-00001-ORIGIN`, `CANON-00002-LINEAGE`, `CANON-00003-PRINCIPLES`, `CANON-00005-SYNCRESCENDENCE`, `CANON-10000-CELESTIAL_BODY`, `CANON-35100-TRANSCENDENCE`, `CANON-00015-MACROSCOPIC_NARRATIVES`
+**Minor Gap:** "Intelligence as Work" (Jensen Huang framing), Extropic thermodynamic computing, and the "Renaissance 2.0" / Ficino Academy parallel may not be term-for-term encoded in current CANON
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Consciousness Investigating Itself** -- the core premise that civilization has developed sufficient technological capability to create external structures enabling consciousness to examine and enhance itself systematically
 - **Syncrescendence** -- unified wisdom framework operating through recursive amplification across dimensional layers, planetary embodiments, and transcendent boundaries
@@ -86,6 +90,9 @@ Philosophical Foundations / Ontological Architecture
 ### Domain Name
 Tri-Helical Strategy / Three Synchronized Timelines
 
+### Scaffold Capture Status: CAPTURED
+**Evidence:** `CANON-21100-TRI_HELIX-lattice.md` directly encodes the tri-helical model. Also referenced in `CANON-00009-STRATEGY`, `CANON-00012-MODAL_SEQUENCE`, `CANON-21000-CHAIN_MATRIX`. The tri-helix is one of the most thoroughly captured convergence concepts.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Tri-Helical Strategy** -- three synchronized timelines operating in parallel, each enabling the others through precise causal dependencies
 - **Timeline One: Technological Maturity** -- external pacing clock determined by technological evolution
@@ -117,6 +124,10 @@ Tri-Helical Strategy / Three Synchronized Timelines
 
 ### Domain Name
 Alchemizing Catalyst / Operational Engine / Bootstrapping Mechanism
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-31142-PLATFORM_GRAMMAR`, `CANON-31143-FEED_CURATION`, `CANON-31115-IIC_IMPL`, `CANON-31141-FIVE_ACCOUNT` encode platform strategy; the "Alchemizing Catalyst" terminology exists in `CANON-00009-STRATEGY` and `CANON-21100-TRI_HELIX`.
+**MISSING:** The specific 5-tier phased rollout sequencing with month-by-month precision; the Catalyst Packet as named unit of work with its four-part structure (Claim + Micro-demo + Artifact + Invitation); the specific conversion metrics and kill criteria; the maturity gates (A/S/P/T) normalization scheme.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Alchemizing Catalyst** -- operational mechanism for bootstrapping from abstract frameworks toward economic sustainability
@@ -150,6 +161,10 @@ Alchemizing Catalyst / Operational Engine / Bootstrapping Mechanism
 
 ### Domain Name
 Platform Deployment Architecture / Platform Constellation
+
+### Scaffold Capture Status: CAPTURED
+**Evidence:** `CANON-31142-PLATFORM_GRAMMAR` has detailed platform specs; `CANON-31143-FEED_CURATION` has curation logic; `CANON-31141-FIVE_ACCOUNT` has account architecture; `CANON-31150-PLATFORM_CAPABILITY_CATALOG` has capability mapping. The IIC system deeply encodes platform logic.
+**PARTIAL Gap:** DOC-B's longer Phase 0-4 sequencing with visual content delayed until Month 33 is not reflected in scaffold (scaffold assumes nearer-term visual platform activation).
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Platform Constellation** -- complete set of coordinated platforms serving distinct functions
@@ -211,6 +226,10 @@ Platform Deployment Architecture / Platform Constellation
 ### Domain Name
 Three-Rail Operating System / Operational Rails
 
+### Scaffold Capture Status: PARTIAL
+**Evidence:** The three rails are mentioned in `CANON-00009-STRATEGY` and referenced in `CANON-21100-TRI_HELIX`.
+**MISSING:** Detailed specification of rail interaction mechanics; proof bundle requirements per gate; the "station" concept as advancement checkpoint.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Rail A -- Editorial (Transform)** -- converts ideas into demonstrations comprehensible in one minute
 - **Rail B -- Instrumentation (Validate)** -- provides tools, simulations, telemetry making claims measurable
@@ -239,6 +258,10 @@ Three-Rail Operating System / Operational Rails
 
 ### Domain Name
 Content Brand Architecture / Immutable Register / Cinematic Textbook Model
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-31130-SEVEN_LAYER` references content layers; `CANON-31142-PLATFORM_GRAMMAR` references YouTube; `CANON-00014-CONTENT_PROTOCOL` has content protocols; `CANON-31121-TONE_TAXONOMY` has tone specs.
+**MISSING:** The specific 12-season structure with episode titles and durations; the Brand Bible as deliverable; the Phase 0 text-only constraint; the "cinematic textbook" concept as central organizing principle; per-episode production timeline; equipment acquisition specifications.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Immutable Register** -- content brand identity remains CONSTANT across all phases; style guide is immutable
@@ -302,6 +325,10 @@ Content Brand Architecture / Immutable Register / Cinematic Textbook Model
 ### Domain Name
 Rhetorical Calibration / Voice Unification
 
+### Scaffold Capture Status: CAPTURED
+**Evidence:** `CANON-31120-TONE_LIBRARY`, `CANON-31121-TONE_TAXONOMY`, `CANON-31122-RHETORICAL` all extensively encode rhetorical calibration. The tone/rhetorical framework is one of the most deeply developed areas of current CANON.
+**Minor Gap:** The specific "elevated plainstyle" formulation and anti-emoji directive may not be term-for-term encoded.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Rhetorical Calibration** -- keystone priority that alchemizes scattered manifestations into coherent voice
 - **Elevated Plainstyle** -- cultured, refined, eloquent, witty, warm; eschews emojis or stark antitheses
@@ -332,6 +359,9 @@ Rhetorical Calibration / Voice Unification
 
 ### Domain Name
 Instrumentation Architecture / Three-Tier Measurement Hierarchy
+
+### Scaffold Capture Status: MISSING
+**Evidence:** `CANON-30410-COGNITIVE_ARCHITECTURE` mentions "world-shard" tangentially in context of AI cognitive architecture, not in the convergence instrumentation sense. The three-tier hierarchy (Helpers / Demonstrators / Nodelets) is NOT represented anywhere in current CANON. No dedicated CANON file for instrumentation architecture exists. The specific nodelet specifications (Power/Air/Water/Data) have no scaffold representation.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Tier 1: Helpers** -- internal acceleration tools reducing time-to-demo
@@ -382,6 +412,9 @@ Instrumentation Architecture / Three-Tier Measurement Hierarchy
 ### Domain Name
 World-Shards / Simulation Specifications / Bounded Experiments
 
+### Scaffold Capture Status: MISSING
+**Evidence:** No CANON file encodes the world-shard specification format as defined in convergence. The concept appears only tangentially in cognitive architecture context, not as the bounded simulation construct described in convergence docs.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **World-Shard** -- bounded simulation translating doctrine claims into repeatable predictions with known error
 - **Stated Domain and Boundary** -- what is inside model, outside, approximated
@@ -421,6 +454,10 @@ World-Shards / Simulation Specifications / Bounded Experiments
 
 ### Domain Name
 Four-Stage Curriculum / Syncrescendent Curriculum / Compositional Learning Architecture
+
+### Scaffold Capture Status: CAPTURED
+**Evidence:** `CANON-34110-CURRICULUM` has curriculum structure; `CANON-34120-SYLLABUS` has syllabus detail; `CANON-34100-MASTERY` has mastery framework; `CANON-00012-MODAL_SEQUENCE` has the four-stage modal sequence.
+**PARTIAL Gap:** DOC-B's detailed Phase I competency specifications (Python/JS/TypeScript curricula, BIM/CAD specifications, IBEW path) represent operational granularity not captured in scaffold; DOC-B's brand identity development phase (Months 22-30) has no scaffold equivalent.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Stage I: Abstract Foundations** -- symbolic representation, formal sciences, language models (~85% maturity)
@@ -502,6 +539,9 @@ Four-Stage Curriculum / Syncrescendent Curriculum / Compositional Learning Archi
 ### Domain Name
 Compositional Hierarchy / Enablement Chain Logic / Scientific Dependency Chain
 
+### Scaffold Capture Status: CAPTURED
+**Evidence:** `CANON-21000-CHAIN_MATRIX` encodes the chain logic; `CANON-00012-MODAL_SEQUENCE` maps the stages. The five chains in CANON (Intelligence, Information, Insight, Expertise, Knowledge, Wisdom) encode this hierarchy through the SN system.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Compositional Hierarchy** -- how complex systems necessarily develop through prerequisite stages
 - **Enablement Chain** -- each stage requires previous as enabling substrate
@@ -537,6 +577,10 @@ Compositional Hierarchy / Enablement Chain Logic / Scientific Dependency Chain
 ### Domain Name
 Neo-Liberal Arts / STEM + Humanities Integration
 
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-34110-CURRICULUM` references the integration of technical and meaning-making capacities; `CANON-00005-SYNCRESCENDENCE` positions the framework within broader educational context.
+**MISSING:** The specific "Neo-Liberal Arts" framing as a named concept; the three-trajectory decomposition (immediate/medium/long-term).
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Neo-Liberal Arts** -- bridging framework positioning curriculum within broader educational context
 - **STEM as Nested Dependencies** -- physics enables chemistry enables biology
@@ -565,6 +609,10 @@ Neo-Liberal Arts / STEM + Humanities Integration
 
 ### Domain Name
 Educational Infrastructure / Cohorts / Assessment / Pricing
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-34110-CURRICULUM` and `CANON-34120-SYLLABUS` encode curriculum; `CANON-33112-REVENUE_MODEL` touches educational revenue.
+**MISSING:** The Seven Pulses Dashboard; Cognitive Palace navigation; planetary facet exercises; shadow material integration; beta launch protocol; evidence ledger concept; six chains mapped to four stages; specific assessment tools.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Phase 0: Architectural Crystallization** (Day 0-30) -- finalize framework elements
@@ -613,6 +661,10 @@ Educational Infrastructure / Cohorts / Assessment / Pricing
 ### Domain Name
 Live Events / Experiential Dimension / Peak Experiences
 
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-00009-STRATEGY` references live events; `CANON-31130-SEVEN_LAYER` references experiential layer.
+**MISSING:** The four event format specifications (Proof Sessions / Quarterly Gatherings / Annual Convergences / Special Intensives); run-of-show template; roles specification; consent framework detail; production scaling plan; the "Sphere-level" aspiration.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Proof Sessions** -- intimate demonstrations (20-40 attendees), framework testing, working artifacts
 - **Quarterly Gatherings** -- community cohesion (50-100 attendees), teaching + practice + bonding
@@ -652,6 +704,10 @@ Live Events / Experiential Dimension / Peak Experiences
 
 ### Domain Name
 Gaian Field Nodes / Physical Infrastructure / Parcel-Scale Integration
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-35200-GAIAN_NODE` exists and covers Field Node concept at high level.
+**MISSING:** The specific system integration requirements (power/water/air/data/food with component specifications); detailed nodelet architecture; construction phasing with budget breakdowns; SOP library specifications; safety framework detail; DOC-B's physical specifications (sq footage, Passive House, aquaponics, permaculture, budget line items).
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Gaian Field Node** -- physical installation at parcel scale (1-10 acres) integrating multiple infrastructure systems under intelligent control
@@ -746,12 +802,9 @@ Gaian Field Nodes / Physical Infrastructure / Parcel-Scale Integration
 ### Domain Name
 Syncrescendent Way Places / Elevated Designation
 
-### Key Concepts (Rosetta Stone Candidates)
-- **Way Place** -- subset of Gaian Field Nodes achieving elevated designation through demonstrated excellence
-- **Elevated Designation** -- earned status, not automatic; "not all Nodes become Way Places, but all Way Places are Nodes"
-- **Temple, Church, and Way Place** -- infrastructure for Transcendence
-- **Hospitality Practices** -- accommodations, meals, genuine welcome
-- **Ritual Integration** -- regular consciousness practices, seasonal observances, transformational programming
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-35200-GAIAN_NODE` references Way Places as elevated designation.
+**MISSING:** The 7 specific criteria for Way Place designation; the distinction between Node and Way Place at operational detail level; hospitality/ritual specifications; pricing model for Way Place services.
 
 ### Criteria for Way Place Designation
 1. **Demonstrated Operational Excellence**: Sustained uptime, comprehensive telemetry, reliability
@@ -762,18 +815,18 @@ Syncrescendent Way Places / Elevated Designation
 6. **Network Contribution**: Sharing data, innovations, lessons learned
 7. **Ritual Integration**: Consciousness practices, seasonal observances, transformational programming
 
+### Pricing Model
+- Day passes: $50-200/day
+- Monthly memberships: $200-500/month
+- Programming fees: variable
+- Optional sponsorships limited by charter
+
 ### Specific Deliverables
 - Way Place designation criteria document
 - Governance charter template
 - Programming calendar template
 - Hospitality standards document
 - Network contribution protocols
-
-### Pricing Model
-- Day passes: $50-200/day
-- Monthly memberships: $200-500/month
-- Programming fees: variable
-- Optional sponsorships limited by charter
 
 ### Timeline References
 - First potential designation: Years 7-8
@@ -791,6 +844,10 @@ Syncrescendent Way Places / Elevated Designation
 
 ### Domain Name
 Economic Model / Revenue Architecture / Pricing Philosophy
+
+### Scaffold Capture Status: CAPTURED (at conceptual level)
+**Evidence:** `CANON-33112-REVENUE_MODEL` has revenue model; `CANON-33110-BIZ_BACKBONE` has business backbone; `CANON-33111-BIZ_ENHANCE` has business enhancement; `CANON-33100-EFFICACY` has efficacy chain.
+**PARTIAL Gap:** The specific 6-tier pricing structure with exact dollar amounts; the three financial scenarios with year-by-year projections; the unit economics specifications; the $500-900K Field Node budget -- these operational details are not in CANON at current granularity.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Price Against Risk Removed and Time Returned** -- pricing proportional to genuine value delivered
@@ -895,6 +952,10 @@ Economic Model / Revenue Architecture / Pricing Philosophy
 ### Domain Name
 Documentation Architecture / Multi-Layered Knowledge Management
 
+### Scaffold Capture Status: PARTIAL
+**Evidence:** The scaffold IS effectively an implementation of Layers 1-3 (01-CANON = constitutional/operational; 00-ORCHESTRATION/state = active knowledge base; 02-ENGINE = operational doctrine). `CANON-00011-ARTIFACT_PROTOCOL` has artifact standards; `CANON-00014-CONTENT_PROTOCOL` has content protocols.
+**MISSING:** The 5-layer framework explicitly articulated as a named architecture; telemetry dashboard specifications; website as central nervous system with interactive demonstrations; the Book(s) specification as deliverables; SOP library architecture.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Layer 1: Constitutional Foundations** -- stable reference, 10-20 pages, rarely updated
 - **Layer 2: Operational Doctrine** -- detailed methodology, 100-300 pages, versioned, regularly refined
@@ -936,6 +997,12 @@ Documentation Architecture / Multi-Layered Knowledge Management
 - Consent/privacy center
 - Community coordination (forums, calendar, steward directory, resources)
 
+### Website Versioning
+- v0.5: Month 8 (minimal hub)
+- v1.0: Month 35 (DOC-B, episode index + interactive viz)
+- v2.0: Month 60 (enhanced navigation, BIM viewers)
+- v3.0: Month 96/102 (Field Node design repository, real-time data)
+
 ### Specific Deliverables
 - Constitutional document (Layer 1)
 - Operational doctrine manual (Layer 2)
@@ -944,12 +1011,6 @@ Documentation Architecture / Multi-Layered Knowledge Management
 - Academic publications (Layer 5)
 - Book manuscript + distribution
 - Website with all architecture components
-
-### Website Versioning
-- v0.5: Month 8 (minimal hub)
-- v1.0: Month 35 (DOC-B, episode index + interactive viz)
-- v2.0: Month 60 (enhanced navigation, BIM viewers)
-- v3.0: Month 96/102 (Field Node design repository, real-time data)
 
 ### Timeline References
 - Layer 1 (Constitution): Week 1
@@ -969,6 +1030,10 @@ Documentation Architecture / Multi-Layered Knowledge Management
 
 ### Domain Name
 Artifact Standards / Versioning / Licensing / Quality Requirements
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-00011-ARTIFACT_PROTOCOL` has artifact standards at protocol level.
+**MISSING:** The specific detailed requirements (SHA checksums, color-safe charts, accessibility standards, sample data requirements, CHANGELOG format) at the level of operational specification in convergence docs.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Semantic Versioning** -- major.minor.patch (MAJOR = incompatible, MINOR = backwards-compatible new, PATCH = bug fix)
@@ -1010,6 +1075,10 @@ Artifact Standards / Versioning / Licensing / Quality Requirements
 
 ### Domain Name
 Community Formation / Discord Architecture / Steward Network / Governance
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-30440-SAFETY_ALIGNMENT` has safety/governance elements; `CANON-35200-GAIAN_NODE` references community function. The Constellation agent system provides operational governance for the scaffold but not for the external community/practitioner governance.
+**MISSING:** Steward network specification; governance council structure; explicit ethical enforcement mechanisms; community health monitoring protocols; Discord channel architecture.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Steward** -- trained community member capable of running demonstrations safely
@@ -1069,6 +1138,10 @@ Community Formation / Discord Architecture / Steward Network / Governance
 ### Domain Name
 Risk Analysis / Seven Risk Categories / Mitigation Strategies
 
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-00007-EVALUATION` has evaluation frameworks at conceptual level.
+**MISSING:** The specific seven-category risk taxonomy with manifestations/mitigations/contingencies; the kill-switch criteria; the explicit reversibility protocols per risk type.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Temporal Risks** -- timeline compression temptations
 - **Credibility Risks** -- teaching without embodiment
@@ -1114,6 +1187,9 @@ Risk Analysis / Seven Risk Categories / Mitigation Strategies
 
 ### Domain Name
 Kill Criteria / Anti-Patterns / Failure Mode Recognition
+
+### Scaffold Capture Status: MISSING
+**Evidence:** `CANON-00007-EVALUATION` has evaluation frameworks at conceptual level (quality assessment, coherence checking), but the specific operational metrics, kill criteria, and named anti-patterns are not encoded. The A/S/P/T maturity gate system is not represented. Some metrics thinking exists in `CANON-METRICS_STREAM_A` and `CANON-METRICS_STREAM_B` (in sn/) but these cover different measurement domains.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Kill-Switch** -- explicit trigger for pausing expansion and returning to foundations
@@ -1164,6 +1240,10 @@ Kill Criteria / Anti-Patterns / Failure Mode Recognition
 
 ### Domain Name
 Compliance / Safety / Liability / Ethical Frameworks
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-30440-SAFETY_ALIGNMENT` covers AI safety alignment; `CANON-00003-PRINCIPLES` has ethical principles.
+**MISSING:** The physical safety/regulatory framework (NEC, building codes, zoning); insurance specifications with dollar amounts; entity structure guidance; the specific 7-step ethical decision framework; data/privacy protocols; LOTO/PPE/emergency protocol specifications; compliance strategy for Field Node construction.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Code Boundaries** -- jurisdictional awareness; low-voltage first; subcontract for mains/potable
@@ -1252,6 +1332,10 @@ Compliance / Safety / Liability / Ethical Frameworks
 ### Domain Name
 Personal Trajectory / Embodiment Proof / Cross-Trade Mastery
 
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-00009-STRATEGY` references personal trajectory; `CANON-21100-TRI_HELIX` encodes it as Timeline Three.
+**MISSING:** The specific year-by-year skill development plan; IBEW pathway details; cross-trade synthesis specifics; DOC-B's Phase I-V competency specifications with learning architectures, daily practice structures, and project-based progressions.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Embodiment Proof** -- "Cannot teach what you haven't embodied"
 - **IBEW Enlistment** -- electrical apprenticeship via International Brotherhood of Electrical Workers
@@ -1302,6 +1386,10 @@ Personal Trajectory / Embodiment Proof / Cross-Trade Mastery
 
 ### Domain Name
 Phased Operational Timeline / Integrated Sequencing / Activation Sequence
+
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-00009-STRATEGY` has strategic phasing; `CANON-00012-MODAL_SEQUENCE` has the four-stage sequence.
+**MISSING:** The granular Phase I-V specifications with month-by-month milestones, revenue targets, subscriber targets, and maturity recognition criteria that DOC-B provides.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **First 120 Days** -- detailed week-by-week operational sequence
@@ -1361,6 +1449,10 @@ Phased Operational Timeline / Integrated Sequencing / Activation Sequence
 ### Domain Name
 Civilizational Context / Technological Velocity / Phase Transitions
 
+### Scaffold Capture Status: CAPTURED
+**Evidence:** `CANON-00012-MODAL_SEQUENCE` encodes the four-stage modal sequence with maturity assessments; `CANON-00009-STRATEGY` references technological pacing; `CANON-00001-ORIGIN`, `CANON-00002-LINEAGE` encode civilizational context.
+**Minor Gap:** Specific percentage maturity figures and named models (Sora 2, Veo 3.1, Optimus) are time-bound data not appropriate for CANON encoding.
+
 ### Key Concepts (Rosetta Stone Candidates)
 - **Fourth Turning** (Strauss-Howe) -- 80-year crisis cycle, current Crisis period 2008-2030s
 - **Fourth Industrial Revolution** (Schwab) -- AI, biotech, nanotech, quantum; blurring physical/digital/biological
@@ -1404,6 +1496,9 @@ Civilizational Context / Technological Velocity / Phase Transitions
 
 ### Domain Name
 Network Emergence / Replication Strategy / Distributed Coordination
+
+### Scaffold Capture Status: MISSING
+**Evidence:** `CANON-35200-GAIAN_NODE` mentions network at high level but does not encode replication model, support mechanisms, governance council, or success criteria. No dedicated CANON file for network coordination/replication exists. The specific replication model (open-source, decentralized, mutual support) is not structurally represented.
 
 ### Key Concepts (Rosetta Stone Candidates)
 - **Network Emergence** -- organic growth of distributed Field Node network
@@ -1494,6 +1589,10 @@ If successful, proves:
 ### Domain Name
 Complete Causal Chain / Master Dependency Architecture
 
+### Scaffold Capture Status: PARTIAL
+**Evidence:** `CANON-21000-CHAIN_MATRIX` encodes chain logic; `CANON-00012-MODAL_SEQUENCE` has the four-stage sequence; `CANON-00009-STRATEGY` has strategic dependencies.
+**MISSING:** The explicit 10-stage causal chain as a named sequence; the business dependency chain as a named artifact; the phase overlap learning preparation principle.
+
 ### The 10-Stage Causal Chain (DOC-A)
 
 ```
@@ -1578,6 +1677,7 @@ Phases overlap in LEARNING PREPARATION even though operational dependencies are 
 | **Field Node Budget** | $350-700k | $500-900k |
 | **Field Node Specs** | Functional (systems-level) | Architectural (sq footage, Passive House, aquaponics, permaculture) |
 | **Total YouTube Episodes** | ~8-10 per season, ~5 seasons | 8 per season, 12+ seasons, 96+ episodes with titles/runtimes |
+| **Live Events Timing** | Month 6-9 (Proof Session #1) | Month 114 (9-year divergence) |
 
 ### Convergent Principles (Shared Across Both)
 - Tri-helical strategy with three synchronized timelines
@@ -1600,190 +1700,112 @@ Phases overlap in LEARNING PREPARATION even though operational dependencies are 
 
 ---
 
+## SCAFFOLD CAPTURE MATRIX
+
+| # | Domain | Status | Key CANON Evidence | Critical Gaps |
+|---|--------|--------|--------------------|---------------|
+| 1 | Philosophical Foundations | **CAPTURED** | CANON-00001 through 00005, 10000, 35100 | Minor: Jensen Huang, Extropic, Renaissance 2.0 |
+| 2 | Tri-Helical Strategy | **CAPTURED** | CANON-21100-TRI_HELIX | -- |
+| 3 | Alchemizing Catalyst | **PARTIAL** | CANON-00009, 31142 | Catalyst Packet structure, metrics, A/S/P/T gates |
+| 4 | Platform Architecture | **CAPTURED** | CANON-31142, 31143, 31141, 31150 | DOC-B Phase 0 text-only constraint |
+| 5 | Three-Rail Operating System | **PARTIAL** | CANON-00009, 21100 | Station/proof bundle mechanics |
+| 6 | Content Brand Architecture | **PARTIAL** | CANON-31130, 00014, 31121 | 12-season spec, Brand Bible, cinematic textbook model |
+| 7 | Rhetorical Calibration | **CAPTURED** | CANON-31120, 31121, 31122 | Minor: "elevated plainstyle" exact formulation |
+| 8 | Instrumentation Architecture | **MISSING** | No CANON file | Entire 3-tier hierarchy (Helpers/Demonstrators/Nodelets) |
+| 9 | World-Shards | **MISSING** | No CANON file | Bounded simulation spec format |
+| 10 | Four-Stage Curriculum | **CAPTURED** | CANON-34110, 34120, 00012 | DOC-B operational granularity |
+| 11 | Compositional Hierarchy | **CAPTURED** | CANON-21000, 00012 | -- |
+| 12 | Neo-Liberal Arts | **PARTIAL** | CANON-34110, 00005 | Named concept, three-trajectory decomposition |
+| 13 | Educational Infrastructure | **PARTIAL** | CANON-34110, 34120, 33112 | Seven Pulses, Cognitive Palace, facet exercises, evidence ledger |
+| 14 | Live Events | **PARTIAL** | CANON-00009, 31130 | 4 event formats, run-of-show, consent framework |
+| 15 | Gaian Field Nodes | **PARTIAL** | CANON-35200 | System integration specs, construction phases, budgets |
+| 16 | Way Places | **PARTIAL** | CANON-35200 | 7 designation criteria, hospitality/ritual specs |
+| 17 | Economic Model | **CAPTURED** | CANON-33112, 33110, 33111 | Operational dollar amounts, scenarios |
+| 18 | Documentation Architecture | **PARTIAL** | Scaffold IS implementation | 5-layer model not explicit; website CNS; Book specs |
+| 19 | Artifact Standards | **PARTIAL** | CANON-00011 | SHA checksums, accessibility details |
+| 20 | Community/Governance | **PARTIAL** | CANON-30440, 35200 | Steward network, governance council, Discord arch |
+| 21 | Risk Frameworks | **PARTIAL** | CANON-00007 | 7-category taxonomy with details |
+| 22 | Kill Criteria/Anti-Patterns | **MISSING** | No CANON encoding | A/S/P/T gates, kill criteria, named anti-patterns |
+| 23 | Compliance/Safety/Liability | **PARTIAL** | CANON-30440, 00003 | Physical safety, insurance, NEC/building codes |
+| 24 | Personal Trajectory | **PARTIAL** | CANON-00009, 21100 | Year-by-year plan, IBEW details |
+| 25 | Phased Timeline | **PARTIAL** | CANON-00009, 00012 | DOC-B month-by-month milestones |
+| 26 | Civilizational Context | **CAPTURED** | CANON-00012, 00001, 00002 | Time-bound model names |
+| 27 | Network Replication | **MISSING** | No dedicated CANON file | Replication model, governance, success criteria |
+| 28 | Causal Chain | **PARTIAL** | CANON-21000, 00012 | 10-stage named sequence, overlap principle |
+
+### Capture Totals
+- **CAPTURED**: 8 domains (29%) -- Philosophical Foundations, Tri-Helix, Platform Architecture, Rhetorical Calibration, Curriculum, Compositional Hierarchy, Economic Model, Civilizational Context
+- **PARTIAL**: 16 domains (57%) -- Alchemizing Catalyst, Three-Rail, Content Brand, Neo-Liberal Arts, Educational Infrastructure, Live Events, Field Nodes, Way Places, Documentation, Artifact Standards, Community/Governance, Risk Frameworks, Compliance/Safety, Personal Trajectory, Phased Timeline, Causal Chain
+- **MISSING**: 4 domains (14%) -- Instrumentation Architecture, World-Shards, Kill Criteria/Anti-Patterns, Network Replication
+
+---
+
+## PRIORITY GAPS REQUIRING SCAFFOLD ATTENTION
+
+### Priority 1: MISSING Domains (no structural representation)
+
+1. **Instrumentation Architecture (Domain 8):** The three-tier hierarchy (Helpers -> Demonstrators/World-Shards -> Nodelets) is a load-bearing convergence concept with no CANON encoding. Includes specific nodelet specifications (Power/Air/Water/Data), helper tool catalog, and the world-shard format specification. Requires a new CANON file.
+
+2. **World-Shards (Domain 9):** The bounded simulation construct with its six required elements (domain/boundary, inputs, outputs, assumptions, error model, thresholds) has no structural home. Critical for the instrumentation rail and educational credibility.
+
+3. **Kill Criteria & Anti-Patterns (Domain 22):** The A/S/P/T maturity gates, conversion thresholds, kill-switch criteria, and five named anti-patterns are operationally critical and completely unencoded. These provide the measurement framework preventing the entire endeavor from drifting into narrative self-deception.
+
+4. **Network Replication (Domain 27):** The distributed coordination architecture -- open-source replication, decentralized governance, mutual support mechanisms, success criteria -- has no dedicated structural representation. This is the ultimate telos of the entire system.
+
+### Priority 2: PARTIAL Domains with Significant Gaps
+
+5. **Content Brand Architecture (Domain 6):** The 12-season structure with 88+ predetermined episodes, the Brand Bible deliverable, and the Phase 0 text-only constraint represent substantial unencoded intent.
+
+6. **Live Events (Domain 14):** The four event formats, run-of-show template, consent framework, and production scaling plan are operationally significant and unencoded.
+
+7. **Gaian Field Nodes (Domain 15):** System integration specifications (power/water/air/data/food), construction phasing with budgets, and SOP requirements need encoding beyond CANON-35200's high-level treatment.
+
+8. **Educational Infrastructure (Domain 13):** Seven Pulses Dashboard, Cognitive Palace navigation, planetary facet exercises, shadow material, evidence ledger -- all operational educational constructs unencoded.
+
+---
+
 ## ROSETTA STONE ENTRY CANDIDATES (CONSOLIDATED)
 
-The following terms are extracted across both documents as candidates for formal Rosetta Stone entries. They are grouped by the category system used in REF-ROSETTA_STONE.md:
+The following terms are extracted across both documents as candidates for formal Rosetta Stone entries. Grouped by the category system used in REF-ROSETTA_STONE.md:
 
 ### CANON Cosmology
-- Syncrescendence
-- Central Energetic Core
-- Dimensional Lattice
-- Transcendence Ring (Kuiper Belt-scale)
-- Four Planetary Bodies (helical paths)
-- Hypergiant Consciousness
-- Energy Coils
-- ModusOperandi (avatar manifestations)
-- Seven Pulses Dashboard
-- Cognitive Palace
+- Syncrescendence, Central Energetic Core, Dimensional Lattice, Transcendence Ring (Kuiper Belt-scale), Four Planetary Bodies (helical paths), Hypergiant Consciousness, Energy Coils, ModusOperandi (avatar manifestations), Seven Pulses Dashboard, Cognitive Palace
 
 ### Architecture / Strategy
-- Tri-Helical Strategy
-- Timeline One: Technological Maturity
-- Timeline Two: Business Trajectory
-- Timeline Three: Personal Trajectory (Embodiment Proof)
-- Alchemizing Catalyst
-- Catalyst Packet (Claim + Micro-demo + Artifact + Invitation)
-- Three-Rail Operating System (Editorial / Instrumentation / Stewardship)
-- Station (convergence point for three rails)
-- Proof Bundle
-- Gate Metric
-- Compositional Hierarchy
-- Enablement Chain
-- Irreducible Dependencies
-- Causal Chain (10-stage)
-- Business Dependency Chain
+- Tri-Helical Strategy, Timeline One: Technological Maturity, Timeline Two: Business Trajectory, Timeline Three: Personal Trajectory (Embodiment Proof), Alchemizing Catalyst, Catalyst Packet (Claim + Micro-demo + Artifact + Invitation), Three-Rail Operating System (Editorial / Instrumentation / Stewardship), Station (convergence point), Proof Bundle, Gate Metric, Compositional Hierarchy, Enablement Chain, Irreducible Dependencies, Causal Chain (10-stage), Business Dependency Chain
 
 ### Operations
-- Tiered Phased Rollout (5-tier)
-- Platform Constellation
-- Hand-off Chain
-- Upstream Reliability Principle
-- Single Invitation Rule
-- Three Channels Excellent Rule
-- Platform-Specific Radiation
-- Immutable Register
-- Cinematic Textbook Model
-- Elevated Plainstyle
-- Rhetorical Calibration
-- Catalytic Transmutation
-- Entropy Gradient Harvesting
-- Attentional Loops
-- Coils vs. Chaos
-- Days-to-Demo
-- Kill-Switch
-- Phase Gates
+- Tiered Phased Rollout (5-tier), Platform Constellation, Hand-off Chain, Upstream Reliability Principle, Single Invitation Rule, Three Channels Excellent Rule, Platform-Specific Radiation, Immutable Register, Cinematic Textbook Model, Elevated Plainstyle, Rhetorical Calibration, Catalytic Transmutation, Entropy Gradient Harvesting, Attentional Loops, Coils vs. Chaos, Days-to-Demo, Kill-Switch, Phase Gates
 
 ### Platform Roles
-- X/Twitter (rapid signals / ONLY adhoc)
-- Medium (authoritative essays)
-- Substack (speculative futures / "working theory")
-- Newsletter (direct transmission)
-- YouTube (cinematic textbook / CENTRAL)
-- YouTube Shorts (cinematic trailers / separate account)
-- YouTube Membership (director's commentary)
-- Instagram (movie posters / visual atmosphere)
-- TikTok (memetic infiltration / DELAYED)
-- LinkedIn (precision satire / RARE)
-- Facebook (journey documentation / ONLY personal)
-- Patreon (backstage / volcanic chambers)
-- Discord (steward coordination / 2-channel start)
-- Twitch (transparent process / cockpit aesthetics)
-- Website (central hub / dimensional lattice navigator)
-- Book (enduring codex / field manual)
-- Live Events (multi-modal immersive)
-- Rumble (contingency / geopolitical)
+- X/Twitter (rapid signals / ONLY adhoc), Medium (authoritative essays), Substack (speculative futures / "working theory"), Newsletter (direct transmission), YouTube (cinematic textbook / CENTRAL), YouTube Shorts (cinematic trailers / separate account), YouTube Membership (director's commentary), Instagram (movie posters / visual atmosphere), TikTok (memetic infiltration / DELAYED), LinkedIn (precision satire / RARE), Facebook (journey documentation / ONLY personal), Patreon (backstage / volcanic chambers), Discord (steward coordination / 2-channel start), Twitch (transparent process / cockpit aesthetics), Website (central hub / dimensional lattice navigator), Book (enduring codex / field manual), Live Events (multi-modal immersive), Rumble (contingency / geopolitical)
 
 ### Instrumentation
-- Tier 1: Helpers (internal acceleration)
-- Tier 2: Demonstrators (demo engines)
-- Tier 3: Nodelets (field hardware)
-- Power Nodelet
-- Air Nodelet
-- Water Nodelet
-- Data Nodelet
-- World-Shard (bounded simulation)
-- Residuals (measured - predicted)
-- Slider Demo
-- Maturity Gates (A/S/P/T)
+- Tier 1: Helpers (internal acceleration), Tier 2: Demonstrators (demo engines), Tier 3: Nodelets (field hardware), Power Nodelet, Air Nodelet, Water Nodelet, Data Nodelet, World-Shard (bounded simulation), Residuals (measured - predicted), Slider Demo, Maturity Gates (A/S/P/T)
 
 ### Educational
-- Four-Stage Curriculum (Abstract / Simulated / Physical / Transcendent)
-- Stage I: Abstract Foundations
-- Stage II: Simulated Worlds
-- Stage III: Physical Instantiation
-- Stage IV: Transcendent Synthesis
-- Neo-Liberal Arts Integration
-- Computational Intuition
-- Semantic Intuition
-- AI Collaboration Fluency
-- Information-Theoretic Literacy
-- Meta-Cognitive Monitoring
-- Cross-Trade Synthesis
-- Beta Cohort
-- Steward
-- Peer Coils
-- Shadow Material
+- Four-Stage Curriculum (Abstract / Simulated / Physical / Transcendent), Stage I-IV, Neo-Liberal Arts Integration, Computational Intuition, Semantic Intuition, AI Collaboration Fluency, Information-Theoretic Literacy, Meta-Cognitive Monitoring, Cross-Trade Synthesis, Beta Cohort, Steward, Peer Coils, Shadow Material
 
 ### Physical Infrastructure
-- Gaian Field Node
-- Syncrescendent Way Place
-- Meso-Scale Sovereignty
-- Living Laboratory
-- Five Core Systems (Power, Water, Air, Data, Food)
-- Intelligence Layer
-- Nodelet Architecture
-- Graceful Degradation
-- Way Place Designation Criteria (7 criteria)
+- Gaian Field Node, Syncrescendent Way Place, Meso-Scale Sovereignty, Living Laboratory, Five Core Systems (Power/Water/Air/Data/Food), Intelligence Layer, Nodelet Architecture, Graceful Degradation, Way Place Designation Criteria (7 criteria)
 
 ### Economic
-- Price Against Risk Removed / Time Returned
-- Free Tier / Community Tier / Educational Tier / Consulting Tier / Infrastructure Tier / Way Place Tier
-- Surplus Allocation Strategy
-- Content-Native Sustainability
-- LTV:CAC Ratio
-- Unit Economics
+- Price Against Risk Removed / Time Returned, 6 Revenue Tiers, Surplus Allocation Strategy, Content-Native Sustainability, LTV:CAC Ratio, Unit Economics
 
 ### Governance & Community
-- Steward Network
-- Governance Council
-- Ethical Oversight
-- Peer Coils
-- Two-Channel Start
-- Office Hours
-- Build Logs
-- Distributed Leadership
-- Voluntary Coordination (third mechanism beyond coercion and market)
-- Open-Source Replication
+- Steward Network, Governance Council, Ethical Oversight, Peer Coils, Two-Channel Start, Office Hours, Build Logs, Distributed Leadership, Voluntary Coordination, Open-Source Replication
 
 ### Documentation
-- Layer 1: Constitutional Foundations
-- Layer 2: Operational Doctrine
-- Layer 3: Active Knowledge Base
-- Layer 4: Telemetry and Evidence
-- Layer 5: Research and Publication
-- The Book (enduring codex)
-- Brand Bible (100-150 pages)
+- Layer 1-5, The Book (enduring codex), Brand Bible (100-150 pages)
 
 ### Risk & Safety
-- Seven Risk Categories
-- Temporal / Credibility / Economic / Technical / Community / Personal / Technological
-- Kill Criteria
-- Anti-Patterns (5 named)
-- Reversibility
-- LOTO (lockout/tagout)
-- Off Posture
-- Revert Plan
-- Opt-In Telemetry
-- Purge Mechanism
+- Seven Risk Categories, Kill Criteria, 5 Named Anti-Patterns, Reversibility, LOTO, Off Posture, Revert Plan, Opt-In Telemetry, Purge Mechanism
 
 ### Philosophical
-- Consciousness Investigating Itself
-- Recursive Amplification
-- Gaialogical Principles
-- Voluntary Coordination
-- Distributed Resilience
-- Integrative Interregnum
-- Fourth Turning
-- Fourth Industrial Revolution
-- Approaching Singularity
-- Intelligence as Work (Jensen Huang)
-- The Bitter Lesson (Richard Sutton)
-- Renaissance 2.0
-- Post-Labor Economics
-- Threshold Dynamics
-- Rising Reflexivity
-- Demonstration Principle
+- Consciousness Investigating Itself, Recursive Amplification, Gaialogical Principles, Voluntary Coordination, Distributed Resilience, Integrative Interregnum, Fourth Turning, Fourth Industrial Revolution, Approaching Singularity, Intelligence as Work, The Bitter Lesson, Renaissance 2.0, Post-Labor Economics, Threshold Dynamics, Rising Reflexivity, Demonstration Principle
 
 ### Civilizational / Technological
-- Technological Maturity Timeline (4 phases with %)
-- Abstraction Phase (~85%)
-- Simulation Phase (~40%)
-- Physical Phase (~15%)
-- Transcendence Phase (~5%)
-- Agentic Systems (bridge technology)
-- Automated AI Research
-- Thermodynamic Computing (Extropic)
-- Technology as Intrinsically Democratic
+- Technological Maturity Timeline (4 phases with %), Abstraction/Simulation/Physical/Transcendence Phases, Agentic Systems, Automated AI Research, Thermodynamic Computing (Extropic), Technology as Intrinsically Democratic
 
 ---
 
@@ -1806,8 +1828,9 @@ The following terms are extracted across both documents as candidates for formal
 - **Phase Structure (DOC-B)**: 5 phases + transition = 174+ months
 - **Ethical Commitments**: 4 core
 - **Ethical Boundaries**: 7 absolute prohibitions
+- **Scaffold Capture**: 8 CAPTURED (29%), 16 PARTIAL (57%), 4 MISSING (14%)
 
 ---
 
-*Extracted 2026-02-16 by comprehensive sequential read of both source documents.*
-*This taxonomy is intended as the authoritative reference for mapping Convergence vision into operational scaffold structures, Rosetta Stone entries, and Ontology Bridge relations.*
+*Extracted 2026-02-16 by comprehensive sequential read of both source documents with scaffold cross-reference.*
+*This taxonomy is the authoritative reference for mapping Convergence vision into operational scaffold structures, Rosetta Stone entries, and Ontology Bridge relations.*
