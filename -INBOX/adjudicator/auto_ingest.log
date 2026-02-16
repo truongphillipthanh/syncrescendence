@@ -10,3 +10,6 @@
 [2026-02-16 14:55:28] [adjudicator] Dispatched successfully: TASK-IIC-CONSOLIDATION
 [2026-02-16 14:58:27] [adjudicator] Task completed: TASK-IIC-CONSOLIDATION (182s,    34825 bytes)
 [2026-02-16 14:58:27] [adjudicator] Sent CONFIRM to commander
+[2026-02-16 15:07:24] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-16 15:07:47] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-16 15:07:47] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
