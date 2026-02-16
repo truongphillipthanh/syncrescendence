@@ -315,3 +315,4 @@
 | 2026-02-16T13:57:31 | COMMIT | commander | repo | chore(heartbeat): Stage operational artifacts | 0182ef7 | 0182ef7 | — | — |
 | 2026-02-16T14:58:00 | COMMIT | commander | repo | chore(heartbeat): Update operational state | 73a05eb | 73a05eb | — | — |
 | 2026-02-16T15:00:00 | DECISION | commander | commander | DA-RESEARCH-PARTITION-001: 267 files → 14 notebook dirs, 46 insights extracted, 46 backlog items injected | 73a05eb | — | DA-RESEARCH-PARTITION-001 | INT-1701,INT-1708 |
+| 2026-02-16T15:42:23 | COMMIT | commander | repo | feat: Research partitioning + insight injection — 267 files → 14 notebooks,  | 47516ca | 47516ca | — | — |
