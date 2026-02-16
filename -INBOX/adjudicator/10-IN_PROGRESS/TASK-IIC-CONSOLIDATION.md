@@ -22,3 +22,4 @@ Search 02-ENGINE/ for files matching `IIC-*` or `*IIC*` pattern.
 
 ## Context
 Part of Epic 1: Live Intelligence Substrate. The 02-ENGINE directory has 108 files with significant overlap. This consolidation reduces cognitive load and enables programmatic IIC generation.
+DISPATCH_FAILED: Agent rejected or structurally blocked
