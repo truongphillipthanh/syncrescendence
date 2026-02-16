@@ -112,16 +112,16 @@ Each intention entry contains:
 | ID | Oracle | Text | Status | Integrated Into |
 |----|--------|------|--------|-----------------|
 | INT-1701 | 17 | "Progressive Disclosure is the correct context loading pattern — 4-layer graduated system for vault traversal" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §1.1 |
-| INT-1702 | 17 | "Judgment Engineering as Service — exocortex encodes accumulated judgment that agents execute against" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.1 |
-| INT-1703 | 17 | "Attention as the Post-Labor Currency — cognitive sovereignty becomes a governance question" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.5 |
-| INT-1704 | 17 | "Anti-Tool-Shaped-Object Discipline — institutionalize 'what is the number before making it go up?'" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.6 |
+| INT-1702 | 17 | "Judgment Engineering as Service — exocortex encodes accumulated judgment that agents execute against" | active | → IMPL-Q-0005 (Three-Layer Memory); RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.1 |
+| INT-1703 | 17 | "Attention as the Post-Labor Currency — cognitive sovereignty becomes a governance question" | active | → CONVERGENCE-INTENT-TAXONOMY.md domain 7; strategic framing, no direct IMPL (academic); RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.5 |
+| INT-1704 | 17 | "Anti-Tool-Shaped-Object Discipline — institutionalize 'what is the number before making it go up?'" | active | → IMPL-Q-0027 (Anti-Tool-Shaped-Object Gate), IMPL-Q-0028 (Tool-Shaped System Audit); RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §3.6 |
 | INT-1705 | 17 | "Instruction → Skill → Hook maturity ladder — new patterns start as instructions, graduate to hooks" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §Cross-Cutting #3 |
-| INT-1706 | 17 | "Data Layer Sovereignty — ontology, convergence taxonomy, Rosetta Stone ARE proprietary data assets" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §INT-004 |
+| INT-1706 | 17 | "Data Layer Sovereignty — ontology, convergence taxonomy, Rosetta Stone ARE proprietary data assets" | active | → REF-ROSETTA_STONE.md v2.7.0 + ontology.db (1484 rows); RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §INT-004 |
 | INT-1707 | 17 | "Three-Layer Memory Architecture — Knowledge Graph + Daily Notes + Tacit Knowledge (consensus converging)" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §2.1 |
-| INT-1708 | 17 | "Research → NotebookLM pipeline automation — classify, partition, upload, question, extract, inject" | active | RESEARCH-PIPELINE-AUTOMATION-SPEC.md |
+| INT-1708 | 17 | "Research → NotebookLM pipeline automation — classify, partition, upload, question, extract, inject" | active | → IMPL-P-0001 through IMPL-P-0014 (full pipeline); MVP: P-0003→P-0001→P-0002→P-0004→P-0005→P-0007→P-0012→P-0013→P-0009; RESEARCH-PIPELINE-AUTOMATION-SPEC.md |
 | INT-1709 | 17 | "Security is existential — 200+ exposed instances, supply chain attacks via skill marketplaces" | active | RESEARCH-INSIGHTS-HIGH-SIGNAL.md §18 |
-| INT-1710 | 17 | "The Constellation pattern is validated — independent practitioners converged on our exact architecture" | active | RESEARCH-INSIGHTS-HIGH-SIGNAL.md §Theme 1 |
-| INT-1711 | 17 | "Agent Vault = Human-Agent Shared Knowledge Graph — Obsidian vault IS the agent's memory" | active | RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §INT-007 |
+| INT-1710 | 17 | "The Constellation pattern is validated — independent practitioners converged on our exact architecture" | active | → IMPL-Q-0021 (Personality File Alignment Audit); RESEARCH-INSIGHTS-HIGH-SIGNAL.md §Theme 1 |
+| INT-1711 | 17 | "Agent Vault = Human-Agent Shared Knowledge Graph — Obsidian vault IS the agent's memory" | active | → IMPL-Q-0005 (Three-Layer Memory) + IMPL-Q-0007 (Vault Index Pattern); RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md §INT-007 |
 | INT-1712 | 17 | "The perimeter is capability, not network — redefine security around what agents CAN DO" | active | RESEARCH-INSIGHTS-HIGH-SIGNAL.md §17 |
 
 ### BACKLOG (Future Work)
@@ -165,6 +165,21 @@ Each intention entry contains:
 | INT-P020 | 17 | "The Verbatim Trap Test — every synthesis must produce what the source didn't contain" | active | Connections, tensions, implications, questions. If not, reject and redo. Anti-pattern for all Constellation work. |
 | INT-P021 | 17 | "Knowledge-Code Isomorphism — knowledge bases and codebases share identical structure" | active | Same tools (git, grep, hooks, CI/CD) manage both. Vault index = skill discovery. Notes = skills. |
 | INT-P022 | 17 | "The Constellation pattern is emergent consensus — independent practitioners converged on our architecture" | active | Differentiation from quality of personality files, memory curation, coordination patterns, security hardening. |
+
+### SESSION 18 (2026-02-16): Token Economics + Antifragile Constellation
+
+**Sovereign Directive**: "Opus 4.6 is second-to-none in interpretability. 5.3-Codex is very meticulous but sub-optimal in rapport. Gemini CLI has large token limits but worst at tool use. Kimi K2.5 has generous but fickle limits. Most intelligent models strategize and plan. Open models conduct housekeeping. Onboard Cline and OpenCode."
+
+| ID | Oracle | Intention Text | Status | Notes |
+|----|--------|---------------|--------|-------|
+| INT-1801 | 18 | "Token Economics Dispatch — budget-aware routing across shared API plans" | active | ChatGPT Plus fuels BOTH Psyche (5.3-codex) AND Adjudicator (5.2-codex). Shared rate limit pool. Dispatch must account for cumulative consumption. |
+| INT-1802 | 18 | "Model Role Specialization — assign by cognitive strength, not availability" | active | Opus 4.6 = interpreter/orchestrator (rapport, interpretability). GPT-5.3-codex = meticulous executor (systematic, thorough). Gemini 2.5 Pro = capacity/fidelity passes (1M context, multi-pass). Kimi K2.5 = strategic auxiliary (generous limits, philosophical depth). |
+| INT-1803 | 18 | "Open Model Onboarding — Cline + OpenCode for housekeeping at scale" | active | Onboard Cline (VS Code agent) and OpenCode (terminal agent) with open models (DeepSeek, Qwen, Llama). Eliminate dependency on proprietary rate limits for routine tasks: formatting, linting, file moves, state sync, health checks. |
+| INT-1804 | 18 | "Antifragile Agent Infrastructure — self-healing constellation" | active | Five capabilities: (1) auto-ingest loop polls INBOX0, (2) health watchdog monitors panes every 60s, (3) rate limit circuit breaker with failover dispatch, (4) worktree isolation via git worktree or read-only mode, (5) local-first sync via SCP when git push blocked. |
+
+| INT-P023 | 18 | "Shared Rate Limit Awareness — competing agents on same API plan must be dispatch-coordinated" | active | Never dispatch simultaneous heavy tasks to Psyche + Adjudicator. Stagger or route overflow to Gemini/Kimi/open models. |
+| INT-P024 | 18 | "Intelligence Tiering — most capable models strategize, open models execute housekeeping" | active | Tier 1 (strategy/planning): Opus 4.6, Kimi K2.5. Tier 2 (meticulous execution): GPT-5.3-codex. Tier 3 (capacity passes): Gemini 2.5 Pro. Tier 4 (housekeeping): open models via Cline/OpenCode. |
+| INT-P025 | 18 | "Agent Auto-Recovery — agents must self-heal without Commander intervention" | active | Rate limits → exponential backoff + task queue. Dirty worktree → read-only analytical mode. Stale state → git pull + verify. Dead agent → watchdog restart. |
 
 ### CAPTURE (Pending Triage)
 

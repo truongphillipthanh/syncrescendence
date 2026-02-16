@@ -393,6 +393,17 @@
 - IMPL-Q-0024 — Minority Report Agent Dashboard: Kanban-style live status board with color-coded task cards, progress bars
 - IMPL-Q-0025 — Confidence-Scored Memory: Implement 5 memory types (insight, pattern, strategy, preference, lesson) with confidence scores and 30% influence ratio
 
+### P1 (Addendum — Orphan Resolution, per Adjudicator Audit)
+- IMPL-Q-0026 — File-First Architecture Enforcement: Codify plain-markdown-as-source pattern across vault. Validated by ClawVault benchmark (markdown+grep 74.0% vs specialized tools 68.5%). Enforce file ownership and grep-discoverability for all knowledge assets (INT-P017)
+- IMPL-Q-0027 — Anti-Tool-Shaped-Object Gate: Institutionalize "what is the number before making it go up?" as mandatory pre-adoption gate. Prevent false productivity loops from tools that look useful but don't serve mission. Framework: purpose → metric → baseline → tool → re-measure (INT-1704)
+- IMPL-Q-0028 — Tool-Shaped System Audit: Audit existing infrastructure for anti-patterns — tools adopted for perceived productivity without mission linkage, deprecated systems still running, false positive health signals. Produce remediation matrix with priority ordering (INT-1704, INT-P019)
+
+### P0 (Addendum — Antifragile Infrastructure, per Session 18 INT-1804)
+- IMPL-Q-0029 — Agent Auto-Ingest Loop: Build `auto_ingest_loop.sh` — polls agent INBOX0 every 30s, extracts Objective, feeds to CLI pane via tmux, monitors OUTBOX for result, manages DONE/FAILED lifecycle. Solves: agents don't autonomously pick up task files (INT-1804)
+- IMPL-Q-0030 — Constellation Health Watchdog: Build `constellation_watchdog.sh` + launchd plist — pings all 4 agent panes every 60s, detects RATE_LIMITED/ERROR/STALE/HEALTHY/IDLE states, writes DYN-CONSTELLATION_HEALTH.md, warns on prolonged failures (INT-1804)
+- IMPL-Q-0031 — Open Model Housekeeping Pipeline: Onboard Cline (VS Code agent) and OpenCode (terminal agent) with open models (DeepSeek/Qwen/Llama) for routine tasks: formatting, linting, file moves, state sync, health checks. Reduces proprietary API dependency (INT-1803)
+- IMPL-Q-0032 — Token Economics Dispatch Router: Budget-aware task routing that tracks ChatGPT Plus shared consumption (Psyche + Adjudicator), staggers heavy tasks, failovers to Gemini/Kimi/open models when quota is thin (INT-1801, INT-P023)
+
 ## 2026-02-16 (Tranche P — Research Pipeline Automation)
 
 *Source: RESEARCH-PIPELINE-AUTOMATION-SPEC.md (780 lines). Full pipeline from capture to NotebookLM to scaffold injection.*
