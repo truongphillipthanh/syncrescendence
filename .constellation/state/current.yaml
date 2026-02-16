@@ -1,4 +1,4 @@
-fingerprint: b5c308f
-timestamp: 2026-02-13T04:43:49Z
+fingerprint: 54bf13a
+timestamp: 2026-02-16T06:43:38Z
 branch: main
-message: feat(skills): 9 white-label Syncrescendence skill wrappers + Gemini /initialize
+message: chore: auto-compact wisdom at threshold (10 entries)
