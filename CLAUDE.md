@@ -140,6 +140,7 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 | SN encoding/decoding | `00-ORCHESTRATION/scripts/sn_encode.py`, `sn_decode.py` |
 | Intention archaeology | `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` |
 | Twin coordination | `00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md` |
+| Deferred commitments | `00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` |
 
 ---
 
@@ -173,6 +174,7 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 *Fires at the start of every non-trivial directive.*
 
 1. **Inbox scan**: Check `-INBOX/commander/00-INBOX0/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
+1b. **Deferred commitments check**: Read `00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` — identify any OPEN items that overlap with current directive. Update status for items being addressed this session.
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
 3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
 4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.

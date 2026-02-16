@@ -2,7 +2,8 @@
 ## ARCH-SKILL_REGISTRY.md
 
 **Document Type**: ARCHITECTURE (Living Document)
-**Last Updated**: 2026-02-12
+**Last Updated**: 2026-02-12 (registry created)
+**Last Verified**: 2026-02-15 (Commander formalization gap closure)
 **Source**: Skills Architecture Overhaul — BLITZKRIEG Phase 1
 
 ---
@@ -38,6 +39,22 @@ Consolidation reduces 264 → ~196 effective skills through mode-parameterized w
 | Trail of Bits Blockchain | 6 | 0 | 0 | 6 |
 | Vibeship/Community Utility | 63 | 19 | 44 | 0 |
 | **TOTAL** | **264** | **194** | **64** | **6** |
+
+### Installation Verification (2026-02-15)
+
+**MBA Claude Code project-level skills** (`.claude/skills/`): 34 installed
+- 18 Syncrescendence project skills (all present)
+- 16 canonical skills promoted to project level: brainstorming, commit-work, dispatching-parallel-agents, google-ai-mode-skill, last30days, lastday, lastweek, memory-systems, mermaid-diagrams, planning-with-files, session-handoff, skill-judge, subagent-driven-development, systematic-debugging, tmux, web-to-markdown, verification-before-completion
+
+**MBA Claude Code user-level skills** (`~/.claude/skills/`): 35 installed (34 symlinks to project + 1 standalone: `mba-commander-init`)
+
+**Skill sync pipeline**: `com.syncrescendence.skill-sync` launchd agent active on MBA with WatchPaths trigger and 5-second debounce.
+
+**DEC-C3 hard gates (enacted 2026-02-13)**: triage, claresce, execute, verification-before-completion, update_universal_ledger are wired into CLAUDE.md as mandatory stage gates per Ajna strategic assessment.
+
+**Anti-shelfware rule**: DEFINED in this document but NOT ENFORCED as automated lint. No cadenced sweep verifies the 30-day dormancy rule.
+
+**Security audit status**: Adjudicator completed 230-skill audit (2026-02-12): 0 quarantine, 119 flagged (false-positive heavy -- URLs + credential refs in skill text), 111 cleared. Full 264-skill security audit per meta-clarescence recommendation: NOT DONE.
 
 ---
 

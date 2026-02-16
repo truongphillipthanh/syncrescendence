@@ -21,7 +21,7 @@
 | DC-006 | CLAR-0208 (multiple) | Cockpit activation sequence: 16-min HQ + 30-min Phase 0 — test and turn on | P1 | OPEN | 2026-02-19 | "Configured but never turned on" — the defining gap |
 | DC-007 | CLAR-0212-pulse-check | Cross-session promise tracking mechanism | P0 | DONE | 2026-02-15 | THIS FILE. Completed by Commander meta-clarescence audit. |
 | DC-008 | CLAR-0212-DA-12 | SYN-51/53 completion (Jira/Todoist integration) | P1 | OPEN | 2026-02-19 | Pivoted to as highest-value, still "In Progress" in Linear |
-| DC-009 | CLAR-0208 (multiple) | TERMINAL-STACK-CONFIG.md: referenced by 4+ clarescences but file DOES NOT EXIST | P1 | OPEN | 2026-02-18 | Phantom reference — create or remove all references |
+| DC-009 | CLAR-0208 (multiple) | TERMINAL-STACK-CONFIG.md: referenced by 4+ clarescences but file DOES NOT EXIST | P1 | DONE | 2026-02-15 | Created `00-ORCHESTRATION/state/REF-TERMINAL_STACK_CONFIG.md` — practical reference with verified per-machine state |
 | DC-010 | CLAR-0209-live-ledger | Live Ledger sensing pipeline (Phases 2-4): cron-dispatched intelligence, MODEL-INDEX refresh | P1 | OPEN | 2026-02-22 | Requires clean 02-ENGINE substrate first |
 | DC-011 | CLAR-0209/0212 (multiple) | CANON annotations: Physics/Three-Pillar annotations on CANON-30300+ | P1 | OPEN | 2026-02-20 | 1 of 3 done; 2 remaining |
 | DC-012 | CLAR-0209/0212 (multiple) | Document formalization: promote clarescence decisions to ARCH- and REF- docs | P1 | OPEN | 2026-02-20 | 17% delivery rate on doc updates — systemic gap |
@@ -37,6 +37,7 @@
 |----|--------|-----------|--------|----------|-------|
 | DC-001 | CLAR-0212-triple-pass | Hard-gate skills in CLAUDE.md (DEC-C3) | DONE | 2026-02-15 | Enacted in CLAUDE.md by parallel agent |
 | DC-007 | CLAR-0212-pulse-check | Cross-session promise tracking mechanism | DONE | 2026-02-15 | This file created as part of meta-clarescence fidelity audit |
+| DC-009 | CLAR-0208 (multiple) | TERMINAL-STACK-CONFIG.md reference resolution | DONE | 2026-02-15 | Created `00-ORCHESTRATION/state/REF-TERMINAL_STACK_CONFIG.md` with verified MBA/HQ state |
 
 ---
 
