@@ -401,8 +401,10 @@
 ### P0 (Addendum — Antifragile Infrastructure, per Session 18 INT-1804)
 - IMPL-Q-0029 — Agent Auto-Ingest Loop: Build `auto_ingest_loop.sh` — polls agent INBOX0 every 30s, extracts Objective, feeds to CLI pane via tmux, monitors OUTBOX for result, manages DONE/FAILED lifecycle. Solves: agents don't autonomously pick up task files (INT-1804)
 - IMPL-Q-0030 — Constellation Health Watchdog: Build `constellation_watchdog.sh` + launchd plist — pings all 4 agent panes every 60s, detects RATE_LIMITED/ERROR/STALE/HEALTHY/IDLE states, writes DYN-CONSTELLATION_HEALTH.md, warns on prolonged failures (INT-1804)
-- IMPL-Q-0031 — Open Model Housekeeping Pipeline: Onboard Cline (VS Code agent) and OpenCode (terminal agent) with open models (DeepSeek/Qwen/Llama) for routine tasks: formatting, linting, file moves, state sync, health checks. Reduces proprietary API dependency (INT-1803)
+- IMPL-Q-0031 — Open Model Housekeeping Pipeline: Onboard Cline and OpenCode with free-tier open models via OpenRouter for routine tasks: formatting, linting, file moves, state sync, health checks. Reduces proprietary API dependency (INT-1803)
 - IMPL-Q-0032 — Token Economics Dispatch Router: Budget-aware task routing that tracks ChatGPT Plus shared consumption (Psyche + Adjudicator), staggers heavy tasks, failovers to Gemini/Kimi/open models when quota is thin (INT-1801, INT-P023)
+- IMPL-Q-0033 — Cline CLI Integration: Configure Cline v2.2.2 (`/opt/homebrew/bin/cline`) with OpenRouter API key pointing to best free model (DeepSeek-V3 or Qwen-2.5-72B). Create `~/.cline/` config for headless/non-TUI operation. Verify tmux send-keys dispatch works (unlike Gemini TUI). Add to cockpit as Tier 4 housekeeping agent (INT-1803, INT-C011)
+- IMPL-Q-0034 — OpenCode CLI Installation + Integration: Install OpenCode terminal agent, configure with OpenRouter free tier, verify tmux-dispatchable. Add to auto_ingest_loop.sh agent allowlist. Pair with Cline for dual housekeeping capacity (INT-1803, INT-C011)
 
 ## 2026-02-16 (Tranche P — Research Pipeline Automation)
 

@@ -6,10 +6,14 @@
 # Run manually: bash constellation_watchdog.sh
 # Run via launchd: see 00-ORCHESTRATION/launchd/com.syncrescendence.watchdog.plist
 
-set -euo pipefail
+# NOTE: No set -e/-o pipefail — monitoring scripts must degrade gracefully,
+# never crash on grep mismatches or transient tmux errors (Adjudicator pattern)
+set -u
 
 TMUX_SESSION="constellation"
-TMUX_BIN="/opt/homebrew/bin/tmux"
+# Explicit socket path — launchd can't reliably resolve TMUX_TMPDIR
+TMUX_SOCKET="/private/tmp/tmux-$(id -u)/default"
+TMUX_BIN="/opt/homebrew/bin/tmux -S ${TMUX_SOCKET}"
 REPO_DIR="${HOME}/Desktop/syncrescendence"
 STATE_DIR="${REPO_DIR}/00-ORCHESTRATION/state"
 HEALTH_REPORT="${STATE_DIR}/DYN-CONSTELLATION_HEALTH.md"
@@ -41,6 +45,7 @@ EOF
 }
 
 capture_pane() {
+    # Timeout prevents launchd hanging on tmux IPC deadlocks
     ${TMUX_BIN} capture-pane -t "${TMUX_SESSION}:${1}" -p -S -5 2>/dev/null || echo ""
 }
 

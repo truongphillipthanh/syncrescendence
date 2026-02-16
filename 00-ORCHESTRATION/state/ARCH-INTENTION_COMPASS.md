@@ -174,7 +174,7 @@ Each intention entry contains:
 |----|--------|---------------|--------|-------|
 | INT-1801 | 18 | "Token Economics Dispatch — budget-aware routing across shared API plans" | active | ChatGPT Plus fuels BOTH Psyche (5.3-codex) AND Adjudicator (5.2-codex). Shared rate limit pool. Dispatch must account for cumulative consumption. |
 | INT-1802 | 18 | "Model Role Specialization — assign by cognitive strength, not availability" | active | Opus 4.6 = interpreter/orchestrator (rapport, interpretability). GPT-5.3-codex = meticulous executor (systematic, thorough). Gemini 2.5 Pro = capacity/fidelity passes (1M context, multi-pass). Kimi K2.5 = strategic auxiliary (generous limits, philosophical depth). |
-| INT-1803 | 18 | "Open Model Onboarding — Cline + OpenCode for housekeeping at scale" | active | Onboard Cline (VS Code agent) and OpenCode (terminal agent) with open models (DeepSeek, Qwen, Llama). Eliminate dependency on proprietary rate limits for routine tasks: formatting, linting, file moves, state sync, health checks. |
+| INT-1803 | 18 | "Open Model Onboarding — Cline + OpenCode for housekeeping at scale" | active | **Ground truth (2026-02-16)**: Cline v2.2.2 installed (`/opt/homebrew/bin/cline`), TUI-based, supports OpenRouter (free tier = DeepSeek, Qwen, Llama). Needs auth setup via "Use your own API key" → OpenRouter. OpenCode not yet installed (empty `~/.config/opencode/`, no binary in PATH). Both need tmux-dispatchable configuration for Commander orchestration. → IMPL-Q-0031, IMPL-Q-0033, IMPL-Q-0034 |
 | INT-1804 | 18 | "Antifragile Agent Infrastructure — self-healing constellation" | active | Five capabilities: (1) auto-ingest loop polls INBOX0, (2) health watchdog monitors panes every 60s, (3) rate limit circuit breaker with failover dispatch, (4) worktree isolation via git worktree or read-only mode, (5) local-first sync via SCP when git push blocked. |
 
 | INT-P023 | 18 | "Shared Rate Limit Awareness — competing agents on same API plan must be dispatch-coordinated" | active | Never dispatch simultaneous heavy tasks to Psyche + Adjudicator. Stagger or route overflow to Gemini/Kimi/open models. |
@@ -195,6 +195,7 @@ Each intention entry contains:
 | INT-C008 | 16 | "Whatever we were trying to do with Notion/Airtable — serious LifeOS/PKM/ontology discussion needed" | pending |
 | INT-C009 | 16 | "Celestial alignment synchronization — poetic, cathartic cosmic coherence moment for the Syncrescendence" | pending |
 | INT-C010 | 16 | "Notion/Airtable/LifeOS/Zettelkasten — note-taking, PKMs, linking your thinking, PARA, BASE, GTD, productivity, personal context lakehouse" | pending |
+| INT-C011 | 18 | "Cline + OpenCode installed — integrate for Commander manipulation via tmux, use most intelligent free models (OpenRouter free tier). Backlog now, operationalize as constellation stabilizes." | pending |
 
 ### PRE-ORACLE INTENTIONS (Extracted from `my inputs.md`, 2026-02-01)
 

@@ -8,6 +8,8 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
+        <string>-l</string>
+        <string>-c</string>
         <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/constellation_watchdog.sh</string>
     </array>
 
@@ -29,6 +31,8 @@
         <string>/Users/home/.nvm/versions/node/v24.13.0/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
         <key>HOME</key>
         <string>/Users/home</string>
+        <key>TMUX_TMPDIR</key>
+        <string>/private/tmp</string>
     </dict>
 
     <key>WorkingDirectory</key>
