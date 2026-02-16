@@ -7,12 +7,12 @@
 **Fingerprint**: e15b7e2
 **Kind**: TASK
 **Priority**: P1
-**Status**: IN_PROGRESS
-**Kanban**: IN_PROGRESS
+**Status**: FAILED
+**Kanban**: FAILED
 **Claimed-By**: cartographer-Lisas-MacBook-Air
 **Claimed-At**: 2026-02-16T07:34:34Z
-**Completed-At**: —
-**Exit-Code**: —
+**Completed-At**: 2026-02-16T07:39:55Z
+**Exit-Code**: 1
 **Timeout**: 30
 **CC**: ajna
 **Receipts-To**: -OUTBOX/cartographer/RESULTS
