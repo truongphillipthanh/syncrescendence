@@ -309,3 +309,6 @@
 | 2026-02-16T08:58:04 | CLAIM | cartographer | cartographer | TASK-20260216-research_corpus_deep_inspection.md | 3d4df02 | 3d4df02 | — | — |
 | 2026-02-16T08:58:30 | COMPLETE | cartographer | — | TASK-20260216-research_corpus_deep_inspection.md | 3d4df02 | 3d4df02 | — | — |
 | 2026-02-16T09:01:49 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-16T09:01:49Z] | 53883a0 | 53883a0 | — | — |
+| 2026-02-16T09:09:46 | COMMIT | commander | repo | feat: Research corpus analysis — 14 NotebookLM notebooks, 42 repos, curation p | f66c0b9 | f66c0b9 | — | — |
+| 2026-02-16T09:09:53 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | a07e46b | a07e46b | — | — |
+| 2026-02-16T09:27:01 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-16T09:27:01Z] | 75ba4e2 | 75ba4e2 | — | — |

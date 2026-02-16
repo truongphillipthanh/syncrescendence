@@ -1,0 +1,10 @@
+{
+  "account": {
+    "name": "Claude Instance [ALPHA|BETA|GAMMA]",
+    "worktree": "../syncrescendence-[alpha|beta|gamma]"
+  },
+  "permissions": {
+    "allow": [],
+    "deny": []
+  }
+}
