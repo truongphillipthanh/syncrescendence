@@ -75,3 +75,25 @@ graph TD
 5. **Measure T+Login:** macOS desktop visible / SSH available.
 6. **Measure T+Operational:** Watchdog reports all agents `ACTIVE`.
 7. **Pass Criteria:** System returns to `OPERATIONAL` status within 10 minutes without manual intervention.
+
+## 7. Neural Bridge (Mac mini ↔ MBA)
+
+The Neural Bridge is the constellation's circulatory system. If this link is severed, the Mac mini is isolated from the Strategic node (MBA/Ajna).
+
+### A. Topology
+- **MBA (Ajna)** ↔ `ssh mini` ↔ **Mac mini (Commander)**
+- **Mac mini (Psyche)** ↔ `ssh macbook-air` ↔ **MBA (Ajna)**
+
+### B. Recovery Action
+| Symptom | Recovery Action |
+|---------|-----------------|
+| SSH Timeout | Check mDNS (`.local` resolution); restart `sshd` on target machine. |
+| Auth Failure | Verify `~/.ssh/id_ed25519*` exists and `authorized_keys` permissions are `600`. |
+| Dispatch Error | Verify `SYNCRESCENDENCE_REMOTE_AGENT_HOST_*` env vars in `~/.zshrc`. |
+
+### C. Vital Health Check
+```bash
+# From Mac mini:
+ssh -o BatchMode=yes -o ConnectTimeout=5 macbook-air hostname
+```
+Failure here triggers an immediate **VITAL ORGAN FAILURE** alert in the health watchdog.
