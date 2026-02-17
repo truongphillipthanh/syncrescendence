@@ -425,3 +425,26 @@
 | 2026-02-17T04:58:19 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T04:58:19Z] | eae3e1e | eae3e1e | — | — |
 | 2026-02-17T05:03:23 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:03:23Z] | 79b0fd5 | 79b0fd5 | — | — |
 | 2026-02-17T05:08:28 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:08:28Z] | 191e4de | 191e4de | — | — |
+| 2026-02-17T05:12:12 | COMMIT | commander | repo | chore(heartbeat): Operational state commit | fabbe0f | fabbe0f | — | — |
+| 2026-02-17T05:13:33 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:13:33Z] | 307e3a0 | 307e3a0 | — | — |
+| 2026-02-17T05:18:37 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:18:37Z] | a22894b | a22894b | — | — |
+| 2026-02-17T05:23:42 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:23:42Z] | bcc126e | bcc126e | — | — |
+| 2026-02-17T05:28:46 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:28:46Z] | 96497b3 | 96497b3 | — | — |
+| 2026-02-17T05:33:51 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:33:50Z] | 7af977f | 7af977f | — | — |
+| 2026-02-17T05:38:55 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:38:55Z] | 0db61da | 0db61da | — | — |
+| 2026-02-17T05:41:41 | COMMIT | commander | repo | feat(bridge): Neural Bridge genetic embedding — swarm results (Psyche + Cartog | 840e352 | 840e352 | — | — |
+| 2026-02-17T05:43:59 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:43:59Z] | 10d36d4 | 10d36d4 | — | — |
+| 2026-02-17T05:44:23 | COMMIT | commander | repo | fix(bridge): watchdog SSH health check + env var/SSH config repair — Commander | 4e18379 | 4e18379 | — | — |
+| 2026-02-17T05:48:21 | COMMIT | commander | repo | fix(bridge): correct env var documentation in CLAUDE.md and COCKPIT.md | 0d5e888 | 0d5e888 | — | — |
+| 2026-02-17T05:52:07 | DISPATCH | dispatch | psyche | TASK-20260216-neural_bridge_commit_and_verify.md | 0d5e888 | 0d5e888 | — | — |
+| 2026-02-17T05:52:15 | CLAIM | psyche | psyche | TASK-20260216-neural_bridge_commit_and_verify.md | 0d5e888 | 0d5e888 | — | — |
+| 2026-02-17T05:52:25 | DISPATCH | dispatch | adjudicator | TASK-20260216-neural_bridge_adversarial_audit.md | 0d5e888 | 0d5e888 | — | — |
+| 2026-02-17T05:52:26 | CLAIM | adjudicator | adjudicator | TASK-20260216-neural_bridge_adversarial_audit.md | 0d5e888 | 0d5e888 | — | — |
+| 2026-02-17T05:52:59 | COMMIT | commander | repo | feat(bridge): CONFIRM SCP-back + watchdog SSH health check — Neural Bridge vit | 61b8045 | 61b8045 | — | — |
+| 2026-02-17T05:53:10 | COMMIT | commander | repo | feat(bridge): CONFIRM SCP-back + watchdog SSH health check — Neural Bridge vit | b7bbb2c | b7bbb2c | — | — |
+| 2026-02-17T05:54:06 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:54:06Z] | 25b22fc | 25b22fc | — | — |
+| 2026-02-17T05:56:12 | COMPLETE | adjudicator | commander | TASK-20260217-neural_bridge_adversarial_audit_v2.md | 25b22fc | 25b22fc | — | — |
+| 2026-02-17T05:59:11 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T05:59:10Z] | 89480a0 | 89480a0 | — | — |
+| 2026-02-17T06:01:29 | COMMIT | commander | repo | feat(bridge): CONFIRM SCP-back + watchdog SSH health check — Neural Bridge vit | 8bf2937 | 8bf2937 | — | — |
+| 2026-02-17T06:01:39 | COMMIT | commander | repo | feat(bridge): CONFIRM SCP-back + watchdog SSH health check — Neural Bridge vit | 499b489 | 499b489 | — | — |
+| 2026-02-17T06:04:15 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T06:04:15Z] | 0cf0cf0 | 0cf0cf0 | — | — |
