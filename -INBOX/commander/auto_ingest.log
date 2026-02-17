@@ -48,3 +48,6 @@
 [2026-02-16 18:00:31] [commander] === Starting auto-ingest loop ===
 [2026-02-16 18:00:31] [commander] Agent: commander | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.3
 [2026-02-16 18:00:31] [commander] Recovered in-progress task: TASK-20260217-force_offline_test
+[2026-02-16 18:24:16] [commander] TIMEOUT: TASK-20260217-force_offline_test (1803s exceeded 1800s limit)
+[2026-02-16 18:24:22] [commander] Dispatching: TASK-20260217-sync_results_and_cleanup
+[2026-02-16 18:24:24] [commander] Dispatched successfully: TASK-20260217-sync_results_and_cleanup

@@ -44,3 +44,4 @@ tmux kill-server 2>/dev/null
 ```
 
 After executing, you will be terminated. The launchd recovery chain should bring everything back. MBA Commander will monitor.
+TIMEOUT: Exceeded 1800s
