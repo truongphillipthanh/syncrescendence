@@ -153,3 +153,10 @@
 [2026-02-17 07:18:05] [adjudicator] === Starting auto-ingest loop ===
 [2026-02-17 07:18:05] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
 [2026-02-17 07:18:05] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:38:15] [adjudicator] Dispatching: TASK-20260217-watchdog_recovery
+[2026-02-17 07:38:17] [adjudicator] Dispatched successfully: TASK-20260217-watchdog_recovery
+[2026-02-17 07:43:02] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-17 07:43:02] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-17 07:43:02] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-17 07:43:03] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:43:03] [adjudicator] Recovered in-progress task: TASK-20260217-watchdog_recovery
