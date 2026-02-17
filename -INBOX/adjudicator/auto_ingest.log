@@ -32,3 +32,6 @@
 [2026-02-16 16:06:16] [adjudicator] Dispatched successfully: TASK-20260216-resilience_adversarial_assessment
 [2026-02-16 16:06:47] [adjudicator] Task completed: TASK-20260216-resilience_adversarial_assessment (33s,    13230 bytes)
 [2026-02-16 16:06:47] [adjudicator] Sent CONFIRM to commander
+[2026-02-16 17:08:57] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-16 17:08:57] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 17:08:57] [adjudicator] Shutdown signal received, cleaning up
