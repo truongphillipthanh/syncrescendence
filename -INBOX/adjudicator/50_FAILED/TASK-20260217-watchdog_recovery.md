@@ -1,6 +1,6 @@
 # TASK: Health-triggered recovery actions in constellation_watchdog.sh
 
-**Status**: PENDING
+**Status**: FAILED
 **Retry-Count**: 3
 **Failure-Reason**: EXEC_TIMEOUT: Exceeded 1800s
 **Priority**: P0
