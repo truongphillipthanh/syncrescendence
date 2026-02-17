@@ -513,3 +513,7 @@
 - **2026-02-16 14:45:36** | `I am now home, able to triage any shortcomiings. I have a terminal open for each cli agent on the mac mini, what did we call this again? invacuation? let's fix this once and for all.`
 
 - **2026-02-16 15:05:05** | ` why can't we get Gemini to be autonomously part of the orchestration? weren't we able to before? let's fix everything. completely. what do you need me to do to have this 100% operational?`
+
+- **2026-02-16 19:00:41** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-16 19:00:41** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`

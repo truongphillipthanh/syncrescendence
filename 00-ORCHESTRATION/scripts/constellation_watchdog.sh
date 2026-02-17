@@ -15,6 +15,7 @@ TMUX_SESSION="constellation"
 TMUX_SOCKET="/private/tmp/tmux-$(id -u)/default"
 TMUX_BIN="/opt/homebrew/bin/tmux -S ${TMUX_SOCKET}"
 REPO_DIR="${HOME}/Desktop/syncrescendence"
+COCKPIT_SCRIPT="${REPO_DIR}/00-ORCHESTRATION/scripts/cockpit.sh"
 STATE_DIR="${REPO_DIR}/00-ORCHESTRATION/state"
 HEALTH_REPORT="${STATE_DIR}/DYN-CONSTELLATION_HEALTH.md"
 WATCHDOG_STATE="${STATE_DIR}/.watchdog_state"
@@ -27,9 +28,38 @@ log() {
     echo "[${TIMESTAMP}] $*" >> "${LOG_FILE}" 2>/dev/null || true
 }
 
+attempt_recovery() {
+    local uid_num
+    uid_num="$(id -u)"
+    local supervisor_plist="${HOME}/Library/LaunchAgents/com.syncrescendence.auto-ingest-supervisor.plist"
+    local cockpit_wrapper="${REPO_DIR}/00-ORCHESTRATION/scripts/launch_cockpit_when_docker_ready.sh"
+
+    log "RECOVERY: attempting cockpit relaunch + auto-ingest supervisor kick"
+
+    # Relaunch cockpit with Docker readiness guard.
+    if [ -x "$cockpit_wrapper" ]; then
+        /bin/bash "$cockpit_wrapper" >> "$LOG_FILE" 2>&1 || true
+    else
+        /bin/bash "$COCKPIT_SCRIPT" --launch-detached >> "$LOG_FILE" 2>&1 || true
+    fi
+
+    # Ensure supervisor label is loaded and kicked.
+    launchctl print "gui/${uid_num}/com.syncrescendence.auto-ingest-supervisor" >/dev/null 2>&1 || {
+        [ -f "$supervisor_plist" ] && launchctl bootstrap "gui/${uid_num}" "$supervisor_plist" >/dev/null 2>&1 || true
+    }
+    launchctl kickstart -k "gui/${uid_num}/com.syncrescendence.auto-ingest-supervisor" >/dev/null 2>&1 || true
+}
+
 check_session() {
     if ! ${TMUX_BIN} has-session -t "${TMUX_SESSION}" 2>/dev/null; then
         log "CRITICAL: tmux session '${TMUX_SESSION}' not found"
+        attempt_recovery
+        sleep 3
+        if ${TMUX_BIN} has-session -t "${TMUX_SESSION}" 2>/dev/null; then
+            log "RECOVERY: tmux session '${TMUX_SESSION}' restored"
+            return 0
+        fi
+
         cat > "${HEALTH_REPORT}" <<EOF
 # Constellation Health
 Last check: ${TIMESTAMP}
