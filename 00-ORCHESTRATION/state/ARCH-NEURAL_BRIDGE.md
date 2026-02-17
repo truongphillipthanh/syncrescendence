@@ -3,7 +3,7 @@
 **Version**: 1.0.0
 **Owner**: Psyche (CTO)
 **Exegete**: Cartographer (CIO)
-**Status**: OPERATIONAL
+**Status**: OPERATIONAL (launchd env pending validation)
 
 ## 1. Overview
 
