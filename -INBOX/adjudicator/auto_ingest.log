@@ -21,3 +21,14 @@
 [2026-02-16 15:40:53] [adjudicator] Sent CONFIRM to commander
 [2026-02-16 16:01:32] [adjudicator] Dispatching: TASK-20260216-resilience_adversarial_assessment
 [2026-02-16 16:01:34] [adjudicator] Dispatched successfully: TASK-20260216-resilience_adversarial_assessment
+[2026-02-16 16:05:31] [adjudicator] Task completed: TASK-20260216-resilience_adversarial_assessment (239s,    13230 bytes)
+[2026-02-16 16:05:31] [adjudicator] WARN: Could not move to DONE (file may already be moved)
+[2026-02-16 16:05:31] [adjudicator] Sent CONFIRM to commander
+[2026-02-16 16:05:36] [adjudicator] Dispatching: TASK-20260211-ontology_enrichment_validation
+[2026-02-16 16:05:39] [adjudicator] Dispatched successfully: TASK-20260211-ontology_enrichment_validation
+[2026-02-16 16:06:09] [adjudicator] Task completed: TASK-20260211-ontology_enrichment_validation (33s,     2914 bytes)
+[2026-02-16 16:06:09] [adjudicator] Sent CONFIRM to commander
+[2026-02-16 16:06:14] [adjudicator] Dispatching: TASK-20260216-resilience_adversarial_assessment
+[2026-02-16 16:06:16] [adjudicator] Dispatched successfully: TASK-20260216-resilience_adversarial_assessment
+[2026-02-16 16:06:47] [adjudicator] Task completed: TASK-20260216-resilience_adversarial_assessment (33s,    13230 bytes)
+[2026-02-16 16:06:47] [adjudicator] Sent CONFIRM to commander
