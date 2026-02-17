@@ -17,7 +17,10 @@ IN_PROGRESS_DIR="${REPO_PATH}/-INBOX/${AGENT_NAME}/10-IN_PROGRESS"
 DONE_DIR="${REPO_PATH}/-INBOX/${AGENT_NAME}/40-DONE"
 FAILED_DIR="${REPO_PATH}/-INBOX/${AGENT_NAME}/50_FAILED"
 OUTBOX_DIR="${REPO_PATH}/-OUTBOX/${AGENT_NAME}/RESULTS"
-LOCKFILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/.auto_ingest.lock"
+# Primary lock moved to /tmp for reboot resilience and easy global health checks.
+TMP_LOCKFILE="/tmp/auto_ingest_${AGENT_NAME}.lock"
+# Legacy lock retained for compatibility with existing tooling.
+LEGACY_LOCKFILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/.auto_ingest.lock"
 LOGFILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/auto_ingest.log"
 STATE_FILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/.current_task"
 
@@ -31,7 +34,7 @@ log() {
 }
 
 cleanup() {
-    rm -f "$LOCKFILE"
+    rm -f "$TMP_LOCKFILE" "$LEGACY_LOCKFILE"
     log "Shutdown signal received, cleaning up"
     exit 0
 }
@@ -39,17 +42,22 @@ cleanup() {
 trap cleanup INT TERM
 
 acquire_lock() {
-    if [ -f "$LOCKFILE" ]; then
-        existing_pid=$(cat "$LOCKFILE" 2>/dev/null || echo "")
-        if [ -n "$existing_pid" ] && kill -0 "$existing_pid" 2>/dev/null; then
-            log "ERROR: Another instance running (PID: $existing_pid)"
-            exit 1
-        else
-            log "Removing stale lockfile (PID $existing_pid gone)"
-            rm -f "$LOCKFILE"
+    # Check both lock locations, preferring /tmp lock as authoritative.
+    for lock in "$TMP_LOCKFILE" "$LEGACY_LOCKFILE"; do
+        if [ -f "$lock" ]; then
+            existing_pid=$(cat "$lock" 2>/dev/null || echo "")
+            if [ -n "$existing_pid" ] && kill -0 "$existing_pid" 2>/dev/null; then
+                log "ERROR: Another instance running (PID: $existing_pid via $lock)"
+                exit 1
+            else
+                log "Removing stale lockfile $lock (PID $existing_pid gone)"
+                rm -f "$lock"
+            fi
         fi
-    fi
-    echo $$ > "$LOCKFILE"
+    done
+
+    echo $$ > "$TMP_LOCKFILE"
+    echo $$ > "$LEGACY_LOCKFILE"
 }
 
 ensure_directories() {

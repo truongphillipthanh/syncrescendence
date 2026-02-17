@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.syncrescendence.watchdog</string>
+    <string>com.syncrescendence.auto-ingest-supervisor</string>
 
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/watchdog.sh</string>
+        <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_supervisor.sh</string>
     </array>
 
     <key>RunAtLoad</key>
@@ -26,14 +26,12 @@
         <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
         <key>HOME</key>
         <string>/Users/home</string>
-        <key>TMUX_TMPDIR</key>
-        <string>/private/tmp</string>
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/tmp/syncrescendence-watchdog.log</string>
+    <string>/tmp/syncrescendence-auto-ingest-supervisor.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/syncrescendence-watchdog.log</string>
+    <string>/tmp/syncrescendence-auto-ingest-supervisor.log</string>
 
     <key>ProcessType</key>
     <string>Background</string>

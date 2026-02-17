@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.syncrescendence.watchdog</string>
+    <string>com.syncrescendence.cockpit-autostart</string>
 
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/watchdog.sh</string>
+        <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/launch_cockpit_when_docker_ready.sh</string>
     </array>
 
     <key>RunAtLoad</key>
     <true/>
 
-    <key>KeepAlive</key>
-    <true/>
+    <key>StartInterval</key>
+    <integer>120</integer>
 
     <key>WorkingDirectory</key>
     <string>/Users/home/Desktop/syncrescendence</string>
@@ -31,9 +31,9 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/tmp/syncrescendence-watchdog.log</string>
+    <string>/tmp/syncrescendence-cockpit-autostart.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/syncrescendence-watchdog.log</string>
+    <string>/tmp/syncrescendence-cockpit-autostart.log</string>
 
     <key>ProcessType</key>
     <string>Background</string>
