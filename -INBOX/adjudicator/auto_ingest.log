@@ -118,3 +118,5 @@
 [2026-02-16 20:17:39] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
 [2026-02-16 21:54:17] [adjudicator] Dispatching: TASK-20260217-neural_bridge_adversarial_audit_v2
 [2026-02-16 21:54:20] [adjudicator] Dispatched successfully: TASK-20260217-neural_bridge_adversarial_audit_v2
+[2026-02-16 22:17:27] [adjudicator] Task completed: TASK-20260217-neural_bridge_adversarial_audit_v2 (1390s,    29240 bytes)
+[2026-02-16 22:17:27] [adjudicator] Sent CONFIRM to commander
