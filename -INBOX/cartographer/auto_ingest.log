@@ -6,3 +6,9 @@
 [2026-02-16 17:58:48] [cartographer] Shutdown signal received, cleaning up
 [2026-02-16 17:59:59] [cartographer] === Starting auto-ingest loop ===
 [2026-02-16 18:00:00] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 18:49:11] [cartographer] === Starting auto-ingest loop ===
+[2026-02-16 18:49:11] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 18:49:11] [cartographer] ERROR: Another instance running (PID: 878 via /Users/home/Desktop/syncrescendence/-INBOX/cartographer/.auto_ingest.lock)
+[2026-02-16 18:49:17] [cartographer] Shutdown signal received, cleaning up
+[2026-02-16 18:49:42] [cartographer] === Starting auto-ingest loop ===
+[2026-02-16 18:49:42] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7

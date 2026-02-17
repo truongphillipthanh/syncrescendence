@@ -55,3 +55,9 @@
 [2026-02-16 17:58:48] [psyche] Shutdown signal received, cleaning up
 [2026-02-16 18:00:31] [psyche] === Starting auto-ingest loop ===
 [2026-02-16 18:00:31] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 18:49:11] [psyche] === Starting auto-ingest loop ===
+[2026-02-16 18:49:11] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 18:49:11] [psyche] ERROR: Another instance running (PID: 2389 via /Users/home/Desktop/syncrescendence/-INBOX/psyche/.auto_ingest.lock)
+[2026-02-16 18:49:17] [psyche] Shutdown signal received, cleaning up
+[2026-02-16 18:49:42] [psyche] === Starting auto-ingest loop ===
+[2026-02-16 18:49:42] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
