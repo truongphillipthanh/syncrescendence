@@ -33,39 +33,6 @@ log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] [$AGENT_NAME] $*" | tee -a "$LOGFILE"
 }
 
-load_bridge_env_from_zshrc() {
-    [ -f "${HOME}/.zshrc" ] || return 0
-    while IFS= read -r line; do
-        case "$line" in
-            export\ SYNCRESCENDENCE_REMOTE_AGENT_HOST_*=*)
-                key=$(printf '%s' "$line" | sed -E 's/^export[[:space:]]+([^=]+)=.*/\1/')
-                val=$(printf '%s' "$line" | sed -E 's/^export[[:space:]]+[^=]+=//; s/^"//; s/"$//')
-                case "$key" in
-                    SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA|SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER|SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR|SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER|SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE)
-                        eval "$key=\"$val\""
-                        ;;
-                esac
-                ;;
-        esac
-    done < "${HOME}/.zshrc"
-}
-
-ensure_bridge_env() {
-    load_bridge_env_from_zshrc
-
-    : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA:=macbook-air}"
-    : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER:=local}"
-    : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR:=local}"
-    : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER:=local}"
-    : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE:=local}"
-
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE
-}
-
 cleanup() {
     rm -f "$TMP_LOCKFILE" "$LEGACY_LOCKFILE"
     log "Shutdown signal received, cleaning up"
@@ -352,9 +319,6 @@ recover_state() {
 main() {
     log "=== Starting auto-ingest loop ==="
     log "Agent: $AGENT_NAME | Repo: $REPO_PATH | Pane: ${TMUX_SESSION}:${TMUX_PANE}"
-
-    ensure_bridge_env
-    log "Neural Bridge env: AJNA=${SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA} CMD=${SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER} ADJ=${SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR} CART=${SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER} PSY=${SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE}"
 
     acquire_lock
     ensure_directories

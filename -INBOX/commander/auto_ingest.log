@@ -398,3 +398,15 @@
 [2026-02-16 22:42:16] [commander] Shutdown signal received, cleaning up
 [2026-02-16 22:42:16] [commander] === Starting auto-ingest loop ===
 [2026-02-16 22:42:16] [commander] Agent: commander | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.3
+[2026-02-16 22:47:45] [commander] Shutdown signal received, cleaning up
+[2026-02-16 22:48:02] [commander] === Starting auto-ingest loop ===
+[2026-02-16 22:48:02] [commander] Agent: commander | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.3
+[2026-02-16 22:48:02] [commander] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-16 22:48:17] [commander] Shutdown signal received, cleaning up
+[2026-02-16 22:48:18] [commander] === Starting auto-ingest loop ===
+[2026-02-16 22:48:18] [commander] Agent: commander | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.3
+[2026-02-16 22:48:18] [commander] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-16 22:48:56] [commander] Shutdown signal received, cleaning up
+[2026-02-16 22:48:57] [commander] === Starting auto-ingest loop ===
+[2026-02-16 22:48:57] [commander] Agent: commander | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.3
+[2026-02-16 22:48:57] [commander] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local

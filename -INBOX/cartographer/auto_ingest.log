@@ -74,3 +74,15 @@ Error executing tool yield_turn: Error: MCP tool 'yield_turn' reported an error.
 [2026-02-16 22:42:16] [cartographer] Shutdown signal received, cleaning up
 [2026-02-16 22:42:16] [cartographer] === Starting auto-ingest loop ===
 [2026-02-16 22:42:17] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 22:47:44] [cartographer] Shutdown signal received, cleaning up
+[2026-02-16 22:48:02] [cartographer] === Starting auto-ingest loop ===
+[2026-02-16 22:48:02] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 22:48:03] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-16 22:48:17] [cartographer] Shutdown signal received, cleaning up
+[2026-02-16 22:48:18] [cartographer] === Starting auto-ingest loop ===
+[2026-02-16 22:48:18] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 22:48:18] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-16 22:48:56] [cartographer] Shutdown signal received, cleaning up
+[2026-02-16 22:48:57] [cartographer] === Starting auto-ingest loop ===
+[2026-02-16 22:48:57] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 22:48:57] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local

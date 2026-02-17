@@ -7,38 +7,6 @@ set -u
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-# Neural Bridge: load cross-machine dispatch env vars
-# launchd does NOT source ~/.zshrc — parse only SYNCRESCENDENCE_REMOTE_AGENT_HOST_* safely.
-load_bridge_env_from_zshrc() {
-    [ -f "${HOME}/.zshrc" ] || return 0
-    while IFS= read -r line; do
-        case "$line" in
-            export\ SYNCRESCENDENCE_REMOTE_AGENT_HOST_*=*)
-                key=$(printf '%s' "$line" | sed -E 's/^export[[:space:]]+([^=]+)=.*/\1/')
-                val=$(printf '%s' "$line" | sed -E 's/^export[[:space:]]+[^=]+=//; s/^"//; s/"$//')
-                case "$key" in
-                    SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA|SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER|SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR|SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER|SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE)
-                        eval "$key=\"$val\""
-                        ;;
-                esac
-                ;;
-        esac
-    done < "${HOME}/.zshrc"
-}
-
-load_bridge_env_from_zshrc
-: "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA:=macbook-air}"
-: "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER:=local}"
-: "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR:=local}"
-: "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER:=local}"
-: "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE:=local}"
-
-export SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA
-export SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER
-export SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR
-export SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER
-export SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE
-
 REPO="${SYNCRESCENDENCE_PATH:-$HOME/Desktop/syncrescendence}"
 SCRIPT="${REPO}/00-ORCHESTRATION/scripts/auto_ingest_loop.sh"
 SESSION="${SYNCRESCENDENCE_TMUX_SESSION:-constellation}"
@@ -125,14 +93,9 @@ spawn_loop() {
         rm -f "$tmp_lock"
     fi
 
-    SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA="$SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA" \
-    SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER="$SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER" \
-    SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR="$SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR" \
-    SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER="$SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER" \
-    SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE="$SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE" \
     /bin/bash "$SCRIPT" "$agent" "$REPO" "$SESSION" "$pane" >> "/tmp/syncrescendence-auto-ingest-${agent}.log" 2>&1 &
     set_pid "$agent" $!
-    log "Spawned $agent loop (PID $!, pane $pane) [bridge AJNA=$SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA]"
+    log "Spawned $agent loop (PID $!, pane $pane)"
 }
 
 log "=== Supervisor starting ==="

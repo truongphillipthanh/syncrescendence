@@ -26,16 +26,6 @@
         <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
         <key>HOME</key>
         <string>/Users/home</string>
-        <key>SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA</key>
-        <string>macbook-air</string>
-        <key>SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER</key>
-        <string>local</string>
-        <key>SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR</key>
-        <string>local</string>
-        <key>SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER</key>
-        <string>local</string>
-        <key>SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE</key>
-        <string>local</string>
     </dict>
 
     <key>StandardOutPath</key>
