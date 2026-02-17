@@ -94,3 +94,7 @@ Error executing tool yield_turn: Error: MCP tool 'yield_turn' reported an error.
 [2026-02-17 07:18:05] [cartographer] === Starting auto-ingest loop ===
 [2026-02-17 07:18:05] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
 [2026-02-17 07:18:06] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:39:15] [cartographer] Dispatching: TASK-20260217-orchestration_architecture
+[2026-02-17 07:39:15] [cartographer] Gemini headless dispatch: running gemini -p -y -o text
+[2026-02-17 07:39:15] [cartographer] Gemini headless PID: 17668
+[2026-02-17 07:39:15] [cartographer] Dispatched successfully: TASK-20260217-orchestration_architecture

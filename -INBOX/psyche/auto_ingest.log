@@ -146,3 +146,5 @@
 [2026-02-17 07:18:06] [psyche] Recovered in-progress task: TASK-20260217-bulletproof_v2
 [2026-02-17 07:18:43] [psyche] Task completed: TASK-20260217-bulletproof_v2 (85s,     2290 bytes)
 [2026-02-17 07:18:43] [psyche] Sent CONFIRM to commander
+[2026-02-17 07:38:02] [psyche] Dispatching: TASK-20260217-retry_and_escalation
+[2026-02-17 07:38:05] [psyche] Dispatched successfully: TASK-20260217-retry_and_escalation
