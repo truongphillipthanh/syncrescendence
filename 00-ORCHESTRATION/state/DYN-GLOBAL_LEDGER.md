@@ -387,3 +387,4 @@
 | 2026-02-17T02:14:46 | COMMIT | commander | repo | chore(heartbeat): Final state stabilization | ece345e | ece345e | — | — |
 | 2026-02-17T02:21:02 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 34ca12a | 34ca12a | — | — |
 | 2026-02-17T02:25:11 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T02:25:11Z] | d263bb6 | d263bb6 | — | — |
+| 2026-02-17T02:42:26 | COMMIT | commander | repo | fix(resilience): unplug recovery coordination — autonomous boot chain verified | 5d765ca | 5d765ca | — | — |
