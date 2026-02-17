@@ -106,3 +106,13 @@
 [2026-02-16 22:38:06] [psyche] Shutdown signal received, cleaning up
 [2026-02-16 22:38:06] [psyche] === Starting auto-ingest loop ===
 [2026-02-16 22:38:06] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 22:39:44] [psyche] Shutdown signal received, cleaning up
+[2026-02-16 22:39:44] [psyche] === Starting auto-ingest loop ===
+[2026-02-16 22:39:44] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 22:42:15] [psyche] Dispatching: TASK-20260217-launchd_env_propagation
+[2026-02-16 22:42:16] [psyche] Shutdown signal received, cleaning up
+[2026-02-16 22:42:16] [psyche] === Starting auto-ingest loop ===
+[2026-02-16 22:42:16] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 22:42:17] [psyche] Recovered in-progress task: TASK-20260217-launchd_env_propagation
+[2026-02-16 22:43:20] [psyche] Task completed: TASK-20260217-launchd_env_propagation (65s,     2997 bytes)
+[2026-02-16 22:43:20] [psyche] Sent CONFIRM to commander

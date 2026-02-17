@@ -1,10 +1,12 @@
 # TASK: Fix launchd environment propagation for Neural Bridge
 
-**Status**: IN_PROGRESS
+**Status**: FAILED
 **Priority**: P0
 **Claimed-At**: 2026-02-17T06:36:51Z
 **Claimed-By**: psyche-M1-Mac-mini
-**Kanban**: IN_PROGRESS
+**Completed-At**: 2026-02-17T06:44:40Z
+**Exit-Code**: 1
+**Kanban**: FAILED
 **Reply-To**: commander
 **CC**: commander
 **To**: psyche

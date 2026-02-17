@@ -7,12 +7,6 @@ set -u
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-# Neural Bridge: load cross-machine dispatch env vars
-# launchd does NOT source ~/.zshrc — load SYNCRESCENDENCE_REMOTE_AGENT_HOST_* explicitly
-if [ -f "${HOME}/.zshrc" ]; then
-    eval "$(grep '^export SYNCRESCENDENCE_REMOTE_AGENT_HOST_' "${HOME}/.zshrc")"
-fi
-
 REPO="${SYNCRESCENDENCE_PATH:-$HOME/Desktop/syncrescendence}"
 SCRIPT="${REPO}/00-ORCHESTRATION/scripts/auto_ingest_loop.sh"
 SESSION="${SYNCRESCENDENCE_TMUX_SESSION:-constellation}"
