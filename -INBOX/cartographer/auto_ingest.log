@@ -94,3 +94,2023 @@ Error executing tool yield_turn: Error: MCP tool 'yield_turn' reported an error.
 [2026-02-17 07:18:05] [cartographer] === Starting auto-ingest loop ===
 [2026-02-17 07:18:05] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
 [2026-02-17 07:18:06] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:39:15] [cartographer] Dispatching: TASK-20260217-orchestration_architecture
+[2026-02-17 07:39:15] [cartographer] Gemini headless dispatch: running gemini -p -y -o text
+[2026-02-17 07:39:15] [cartographer] Gemini headless PID: 17668
+[2026-02-17 07:39:15] [cartographer] Dispatched successfully: TASK-20260217-orchestration_architecture
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loading extension: code-review
+Loading extension: conductor
+Loading extension: gemini-beads
+Loading extension: gemini-cli-security
+Loading extension: gemini-notifier
+Loading extension: gemini-obsidian
+Loading extension: plan
+Loading extension: self-command
+Server 'osvScanner' supports tool updates. Listening for changes...
+Server 'osvScanner' supports prompt updates. Listening for changes...
+Error during discovery for MCP server 'gemini-obsidian': MCP error -32000: Connection closedServer 'securityServer' supports tool updates. Listening for changes...
+Server 'securityServer' supports prompt updates. Listening for changes...
+Server 'selfCommand' supports tool updates. Listening for changes...
+Hook registry initialized with 4 hook entries
+[2026-02-17 07:39:45] [cartographer] WARN: Result file exists but is suspiciously small (       0 bytes) — may be stub
+[2026-02-17 07:39:45] [cartographer] Task completed: TASK-20260217-orchestration_architecture (30s,        0 bytes)
+[2026-02-17 07:39:45] [cartographer] Sent CONFIRM to commander
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: No capacity available for model gemini-2.5-flash-lite on the server
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:138:21)
+    at async CodeAssistServer.generateContent (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:48:26)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:100:34
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async BaseLlmClient._generateWithRetry (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:141:20)
+    at async BaseLlmClient.generateJson (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:44:24)
+    at async NumericalClassifierStrategy.route (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/routing/strategies/numericalClassifierStrategy.js:135:34) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1',
+      Accept: 'application/json'
+    },
+    responseType: 'json',
+    body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+      method: 'POST',
+      headers: [Object],
+      responseType: 'json',
+      body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:39:47 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=2304',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '5cd294cd134029fb',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent'
+    }
+  },
+  error: undefined,
+  status: 429,
+  code: 429,
+  errors: [
+    {
+      message: 'No capacity available for model gemini-2.5-flash-lite on the server',
+      domain: 'global',
+      reason: 'rateLimitExceeded'
+    }
+  ],
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: No capacity available for model gemini-2.5-flash-lite on the server
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:138:21)
+    at async CodeAssistServer.generateContent (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:48:26)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:100:34
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async BaseLlmClient._generateWithRetry (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:141:20)
+    at async BaseLlmClient.generateJson (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:44:24)
+    at async NumericalClassifierStrategy.route (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/routing/strategies/numericalClassifierStrategy.js:135:34) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1',
+      Accept: 'application/json'
+    },
+    responseType: 'json',
+    body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+      method: 'POST',
+      headers: [Object],
+      responseType: 'json',
+      body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:39:56 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=2766',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': 'd1aadcbe619e3b1a',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent'
+    }
+  },
+  error: undefined,
+  status: 429,
+  code: 429,
+  errors: [
+    {
+      message: 'No capacity available for model gemini-2.5-flash-lite on the server',
+      domain: 'global',
+      reason: 'rateLimitExceeded'
+    }
+  ],
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 3 failed with status 429. Retrying with backoff... GaxiosError: No capacity available for model gemini-2.5-flash-lite on the server
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:138:21)
+    at async CodeAssistServer.generateContent (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:48:26)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:100:34
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async BaseLlmClient._generateWithRetry (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:141:20)
+    at async BaseLlmClient.generateJson (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:44:24)
+    at async NumericalClassifierStrategy.route (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/routing/strategies/numericalClassifierStrategy.js:135:34) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1',
+      Accept: 'application/json'
+    },
+    responseType: 'json',
+    body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+      method: 'POST',
+      headers: [Object],
+      responseType: 'json',
+      body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:40:11 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=3822',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '7ceb88d9b1f3fd26',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent'
+    }
+  },
+  error: undefined,
+  status: 429,
+  code: 429,
+  errors: [
+    {
+      message: 'No capacity available for model gemini-2.5-flash-lite on the server',
+      domain: 'global',
+      reason: 'rateLimitExceeded'
+    }
+  ],
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 4 failed with status 429. Retrying with backoff... GaxiosError: No capacity available for model gemini-2.5-flash-lite on the server
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:138:21)
+    at async CodeAssistServer.generateContent (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:48:26)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:100:34
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async BaseLlmClient._generateWithRetry (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:141:20)
+    at async BaseLlmClient.generateJson (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/baseLlmClient.js:44:24)
+    at async NumericalClassifierStrategy.route (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/routing/strategies/numericalClassifierStrategy.js:135:34) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1',
+      Accept: 'application/json'
+    },
+    responseType: 'json',
+    body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent',
+      method: 'POST',
+      headers: [Object],
+      responseType: 'json',
+      body: '{"model":"gemini-2.5-flash-lite","project":"composite-matrix-h39xn","user_prompt_id":"65a18a91697ee","request":{"contents":[{"role":"user","parts":[{"text":"This is the Gemini CLI. We are setting up the context for our chat.\\nToday\'s date is Tuesday, February 17, 2026 (formatted according to the user\'s locale).\\nMy operating system is: darwin\\nThe project\'s temporary directory is: /Users/home/.gemini/tmp/9910d6140c84de7ed75d567c09015e77194530af693028f876af683c850f030e\\nI\'m currently working in the directory: /Users/home/Desktop/syncrescendence\\nHere is the folder structure of the current working directories:\\n\\nShowing up to 200 items (files + folders). Folders or files indicated with ... contain more items not shown, were ignored, or the display limit (200 items) was reached.\\n\\n/Users/home/Desktop/syncrescendence/\\n├───.gitattributes\\n├───.gitignore\\n├───AGENTS.md\\n├───CLAUDE.md\\n├───COCKPIT.md\\n├───findings.md\\n├───GEMINI.md\\n├───Makefile\\n├───Makefile 2\\n├───progress.md\\n├───task_plan.md\\n├───-INBOX/\\n│   ├───README.md\\n│   ├───adjudicator/\\n│   ├───ajna/\\n│   ├───bridgeprobe/\\n│   ├───cartographer/\\n│   ├───commander/\\n│   └───psyche/\\n├───-OUTBOX/\\n│   ├───adjudicator/...\\n│   ├───ajna/...\\n│   ├───bridgeprobe/...\\n│   ├───cartographer/...\\n│   ├───commander/...\\n│   └───psyche/...\\n├───-OUTGOING/\\n│   ├───ajna-skill-confirm.md\\n│   ├───DEPLOY-OPENCLAW-HARDENING.sh\\n│   ├───OPENCLAW-HARDENING-PSYCHE-AGENTS.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-HEARTBEAT.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-MEMORY.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-SOUL.md\\n│   ├───OPENCLAW-HARDENING-PSYCHE-USER.md\\n│   ├───README.md\\n│   └───commander/\\n├───-SOVEREIGN/\\n│   ├───DECISION-BATCH-MCP-ONBOARDING.md\\n│   ├───DECISION-MAC-MINI-PLIST-FIXES-20260213.md\\n│   ├───README.md\\n│   ├───REINIT-COMMANDER-2026-02-08.md\\n│   ├───SOVEREIGN-002-DOMAIN_REGISTRATION.md\\n│   ├───SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md\\n│   ├───SOVEREIGN-006-IMESSAGE_IDENTITY.md\\n│   ├───SOVEREIGN-010-PLATFORM_DEPLOYMENT.md\\n│   ├───SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md\\n│   ├───SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md\\n│   ├───SOVEREIGN-015-MBA-ENGINE-RESTORATION.md\\n│   ├───SOVEREIGN-016-ESCALATION-RESOLUTIONS.md\\n│   └───SOVEREIGN-TRAJECTORY.md\\n├───.agent/\\n│   └───skills/...\\n├───.agents/\\n│   └───skills/...\\n├───.claude/\\n│   ├───settings.json\\n│   ├───settings.local.json.template\\n│   ├───commands/\\n│   └───skills/\\n├───.constellation/\\n│   ├───phase-specs/\\n│   ├───state/\\n│   └───tokens/\\n├───.cursor/\\n│   └───skills/...\\n├───.gemini/\\n│   ├───GEMINI.md\\n│   └───commands/\\n├───.git/...\\n├───.github/\\n│   ├───CONNECTOR_PROTOCOL.md\\n│   └───workflows/\\n├───.obsidian/\\n│   ├───app.json\\n│   ├───appearance.json\\n│   ├───core-plugins.json\\n│   └───graph.json\\n├───.tmp.drivedownload/\\n├───.tmp.driveupload/\\n├───.windsurf/\\n│   └───skills/...\\n├───00-ORCHESTRATION/\\n│   ├───DEPLOYMENT-PLAYBOOK.md\\n│   ├───FLEET-COMMANDERS-HANDBOOK.md\\n│   ├───README.md\\n│   ├───archive/\\n│   ├───launchd/\\n│   ├───scripts/\\n│   ├───state/\\n│   └───templates/\\n├───01-CANON/\\n│   ├───CANON-00000-SCHEMA-cosmos.md\\n│   ├───CANON-00001-ORIGIN-cosmos.md\\n│   ├───CANON-00002-LINEAGE-cosmos.md\\n│   ├───CANON-00003-PRINCIPLES-cosmos.md\\n│   ├───CANON-00004-EVOLUTION-cosmos.md\\n│   ├───CANON-00005-SYNCRESCENDENCE-cosmos.md\\n│   ├───CANON-00006-CORPUS-cosmos.md\\n│   ├───CANON-00007-EVALUATION-cosmos.md\\n│   ├───CANON-00009-STRATEGY-cosmos.md\\n│   ├───CANON-00010-OPERATIONS-cosmos.md\\n│   ├───CANON-00011-ARTIFACT_PROTOCOL-cosmos.md\\n│   ├───CANON-00012-MODAL_SEQUENCE-cosmos.md\\n│   ├───CANON-00013-QUICKSTART-cosmos.md\\n│   ├───CANON-00014-CONTENT_PROTOCOL-cosmos.md\\n│   ├───CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md\\n│   ├───CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md\\n│   ├───CANON-00017-AGENTIC_CONSTITUTION-cosmos.md\\n│   ├───CANON-10000-CELESTIAL_BODY-core.md\\n│   ├───CANON-11000-FACETS-core.md\\n│   ├───CANON-20000-PALACE-lattice.md\\n│   ├───CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md\\n│   ├───CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md\\n│   ├───CANON-21000-CHAIN_MATRIX-lattice.md\\n│   ├───CANON-21100-TRI_HELIX-lattice.md\\n│   ├───CANON-22000-INTERFERENCE-lattice.md\\n│   ├───CANON-23000-LUNAR_NAV-lattice.md\\n│   ├───CANON-24000-OMNI_QUALITY-lattice.md\\n│   ├───CANON-25000-MEMORY_ARCH-lattice.md\\n│   ├───CANON-25100-CONTEXT_TRANS-lattice.md\\n│   ├───CANON-25200-CONSTELLATION_ARCH-lattice.md\\n│   ├───CANON-30000-INTELLIGENCE-chain.md\\n│   ├───CANON-30100-ASA-comet-INTELLIGENCE.md\\n│   ├───CANON-30200-POSITIONING-comet-INTELLIGENCE.md\\n│   ├───CANON-30300-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md\\n│   ├───CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md\\n│   ├───CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE.md\\n│   ├───CANON-30460-INTERACTION_DYNAMICS-comet.md\\n│   ├───CANON-31000-INFORMATION-chain.md\\n│   ├───CANON-31100-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md\\n│   ├───CANON-31150-PLATFORM_CAPABILITY_CATALOG.md\\n│   ├───CANON-32000-INSIGHT-chain.md\\n│   ├───CANON-32100-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md\\n│   ├───CANON-33000-EXPERTISE-chain.md\\n│   ├───CANON-33100-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md\\n│   ├───CANON-34000-KNOWLEDGE-chain.md\\n│   ├───CANON-34100-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md\\n│   ├───CANON-35000-WISDOM-chain.md\\n│   ├───CANON-35100-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md\\n│   ├───CANON-99000-HISTORICAL-meta.md\\n│   └───sn/\\n├───02-ENGINE/\\n│   ├───AVATAR-CHATGPT.md\\n│   ├───AVATAR-CODEX.md\\n│   ├───AVATAR-COMMANDER.md\\n│   ├───AVATAR-GEMINI-CLI.md\\n│   ├───AVATAR-GEMINI-WEB.md\\n│   ├───AVATAR-GROK.md\\n│   ├───AVATAR-OPENCLAW.md\\n│   ├───AVATAR-PERPLEXITY.md\\n│   ├───DEF-CONSTELLATION_VARIABLES.md\\n│   ├───DYN-ACCOUNTS.csv\\n│   ├───DYN-CONSTELLATION_CONFIGURATION.json\\n│   ├───DYN-COORDINATION.yaml\\n│   ├───DYN-IIC_REGISTRY.yaml\\n│   ├───DYN-PLATFORMS.csv\\n│   ├───DYN-ROLES.csv\\n│   ├───DYN-TICKER_FEED.md\\n│   ├───FUNC-absorb.xml\\n│   ├───FUNC-amalgamate.xml\\n│   ├───FUNC-amplify.xml\\n│   ├───FUNC-coalesce.xml\\n│   ├───FUNC-compile.xml\\n│   ├───FUNC-consolidate.xml\\n│   ├───FUNC-convert.xml\\n│   └───FUNC-harmonize.xml\\n│   └───...\\n├───04-SOURCES/\\n├───05-SIGMA/\\n├───memory/\\n└───skills/\\n\\nReminder: Do not return an empty response when a tool call is required.\\n\\nMy setup is complete. I will provide my first command in the next turn."}]},{"role":"user","parts":[{"text":"READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.\\nResearch the current scripts to understand the system, then document:\\n### Section 1: System Overview\\n- The constellation has 5 agents across 2 machines (MBA + Mac mini)\\n- Task lifecycle: dispatch → SCP sling → auto_ingest → execution → RESULT → CONFIRM → SCP-back\\n- Three automation layers: auto_ingest (task execution), watchdog (health monitoring), proactive_orchestrator (work generation)\\n### Section 2: Auto-Ingest System\\n- auto_ingest_supervisor.sh spawns loops for each agent\\n- auto_ingest_loop.sh polls INBOX0, dispatches to agent CLI, monitors completion\\n- Retry logic: transient failures auto-retry up to 3x, then escalate to -SOVEREIGN/\\n- CONFIRM SCP-back: cross-machine delivery of completion signals\\n### Section 3: Health Watchdog\\n- constellation_watchdog.sh runs every 60s via launchd\\n- Monitors 4 agent panes + Neural Bridge SSH + Docker\\n- Health-triggered recovery: heartbeat for STALE, interrupt for stuck, Docker restart for DOWN\\n- Sovereign alerts for unrecoverable errors\\n### Section 4: Pro'... 3996 more characters,
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:40:32 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=111',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '312df6edccc2da44',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:generateContent'
+    }
+  },
+  error: undefined,
+  status: 429,
+  code: 429,
+  errors: [
+    {
+      message: 'No capacity available for model gemini-2.5-flash-lite on the server',
+      domain: 'global',
+      reason: 'rateLimitExceeded'
+    }
+  ],
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:41:05 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=5512',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': 'c45d455fe3d2f789',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:42:21 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=384',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': 'e7c98a86486da6df',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:42:35 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=7196',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '14b5fed77c87474b',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 3 failed: No capacity available for model gemini-3-flash-preview on the server. Max attempts reached
+Error when talking to Gemini API Full report available at: /var/folders/5x/hk778dj173z93rgf1r4lvtl80000gn/T/gemini-client-error-Turn.run-sendMessageStream-2026-02-17T15-42-45-594Z.json RetryableQuotaError: No capacity available for model gemini-3-flash-preview on the server
+    at classifyGoogleError (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:242:16)
+    at retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:131:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30)
+    at async GeminiClient.processTurn (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:459:26)
+    at async GeminiClient.sendMessageStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:559:20)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/dist/src/nonInteractiveCli.js:193:34
+    at async main (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/dist/src/gemini.js:492:9) {
+  cause: {
+    code: 429,
+    message: 'No capacity available for model gemini-3-flash-preview on the server',
+    details: [ [Object] ]
+  },
+  retryDelayMs: undefined
+}
+An unexpected critical error occurred:[object Object]
+[2026-02-17 07:42:51] [cartographer] Dispatching: TASK-20260215-research_corpus_analysis
+[2026-02-17 07:42:51] [cartographer] Gemini headless dispatch: running gemini -p -y -o text
+[2026-02-17 07:42:51] [cartographer] Gemini headless PID: 21724
+[2026-02-17 07:42:51] [cartographer] Dispatched successfully: TASK-20260215-research_corpus_analysis
+[2026-02-17 07:43:02] [cartographer] Shutdown signal received, cleaning up
+[2026-02-17 07:43:03] [cartographer] === Starting auto-ingest loop ===
+[2026-02-17 07:43:03] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-17 07:43:03] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:43:03] [cartographer] Recovered in-progress task: TASK-20260215-research_corpus_analysis
+[2026-02-17 07:43:04] [cartographer] WARN: Result file exists but is suspiciously small (       0 bytes) — may be stub
+[2026-02-17 07:43:04] [cartographer] Task completed: TASK-20260215-research_corpus_analysis (12s,        0 bytes)
+[2026-02-17 07:43:04] [cartographer] Sent CONFIRM to ajna
+[2026-02-17 07:43:05] [cartographer] Neural Bridge: CONFIRM routed to macbook-air for ajna
+[2026-02-17 07:43:10] [cartographer] Dispatching: TASK-20260216-research_corpus_multipass_sensing
+[2026-02-17 07:43:10] [cartographer] Gemini headless dispatch: running gemini -p -y -o text
+[2026-02-17 07:43:10] [cartographer] Gemini headless PID: 22621
+[2026-02-17 07:43:10] [cartographer] Dispatched successfully: TASK-20260216-research_corpus_multipass_sensing
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loading extension: code-review
+Loading extension: conductor
+Loading extension: gemini-beads
+Loading extension: gemini-cli-security
+Loading extension: gemini-notifier
+Loading extension: gemini-obsidian
+Loading extension: plan
+Loading extension: self-command
+Server 'osvScanner' supports tool updates. Listening for changes...
+Server 'osvScanner' supports prompt updates. Listening for changes...
+Error during discovery for MCP server 'gemini-obsidian': MCP error -32000: Connection closedServer 'securityServer' supports tool updates. Listening for changes...
+Server 'securityServer' supports prompt updates. Listening for changes...
+Server 'selfCommand' supports tool updates. Listening for changes...
+Hook registry initialized with 4 hook entries
+[2026-02-17 07:43:41] [cartographer] WARN: Result file exists but is suspiciously small (       0 bytes) — may be stub
+[2026-02-17 07:43:41] [cartographer] Task completed: TASK-20260216-research_corpus_multipass_sensing (31s,        0 bytes)
+[2026-02-17 07:43:41] [cartographer] Sent CONFIRM to commander
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:44:35 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=390',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '413ea25fc461b10',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:45:22 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=6090',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '2b0a7b7c4cf41f6b',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:45:32 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=6844',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '4f9fe57c4bb86c1f',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:46:23 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=592',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': 'e59874ead11eea8f',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:46:28 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=566',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '96dd8ff0435fd24e',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 3 failed: No capacity available for model gemini-3-flash-preview on the server. Max attempts reached
+Error when talking to Gemini API Full report available at: /var/folders/5x/hk778dj173z93rgf1r4lvtl80000gn/T/gemini-client-error-Turn.run-sendMessageStream-2026-02-17T15-46-40-967Z.json RetryableQuotaError: No capacity available for model gemini-3-flash-preview on the server
+    at classifyGoogleError (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:242:16)
+    at retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:131:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30)
+    at async GeminiClient.processTurn (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:459:26)
+    at async GeminiClient.sendMessageStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:559:20)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/dist/src/nonInteractiveCli.js:193:34
+    at async main (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/dist/src/gemini.js:492:9) {
+  cause: {
+    code: 429,
+    message: 'No capacity available for model gemini-3-flash-preview on the server',
+    details: [ [Object] ]
+  },
+  retryDelayMs: undefined
+}
+An unexpected critical error occurred:[object Object]
+[2026-02-17 07:47:18] [cartographer] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/cartographer/00-INBOX0/TASK-20260217-idle_health_report.md
+[2026-02-17 07:47:48] [cartographer] Dispatching: TASK-20260217-idle_health_report
+[2026-02-17 07:47:48] [cartographer] Gemini headless dispatch: running gemini -p -y -o text
+[2026-02-17 07:47:49] [cartographer] Gemini headless PID: 28700
+[2026-02-17 07:47:49] [cartographer] Dispatched successfully: TASK-20260217-idle_health_report
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loading extension: code-review
+Loading extension: conductor
+Loading extension: gemini-beads
+Loading extension: gemini-cli-security
+Loading extension: gemini-notifier
+Loading extension: gemini-obsidian
+Loading extension: plan
+Loading extension: self-command
+Server 'osvScanner' supports tool updates. Listening for changes...
+Server 'osvScanner' supports prompt updates. Listening for changes...
+Error during discovery for MCP server 'gemini-obsidian': MCP error -32000: Connection closedServer 'securityServer' supports tool updates. Listening for changes...
+Server 'securityServer' supports prompt updates. Listening for changes...
+Server 'selfCommand' supports tool updates. Listening for changes...
+Hook registry initialized with 4 hook entries
+[2026-02-17 07:48:19] [cartographer] WARN: Result file exists but is suspiciously small (       0 bytes) — may be stub
+[2026-02-17 07:48:19] [cartographer] Task completed: TASK-20260217-idle_health_report (31s,        0 bytes)
+[2026-02-17 07:48:19] [cartographer] Sent CONFIRM to commander
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:48:20 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=204',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '74d7830ab051ece',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:48:27 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=477',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '9c8ae6dce77b05dc',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:48:44 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=464',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '2dcc6d724c6559c8',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:49:25 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=498',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '3809426063e744a1',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 1 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:50:02 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=499',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '50f3ca9b9995bc1',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 2 failed with status 429. Retrying with backoff... GaxiosError: [{
+  "error": {
+    "code": 429,
+    "message": "No capacity available for model gemini-3-flash-preview on the server",
+    "errors": [
+      {
+        "message": "No capacity available for model gemini-3-flash-preview on the server",
+        "domain": "global",
+        "reason": "rateLimitExceeded"
+      }
+    ],
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "MODEL_CAPACITY_EXHAUSTED",
+        "domain": "cloudcode-pa.googleapis.com",
+        "metadata": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    ]
+  }
+}
+]
+    at Gaxios._request (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:142:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async OAuth2Client.requestAsync (/opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestStreamingPost (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:171:21)
+    at async CodeAssistServer.generateContentStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:29:27)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/loggingContentGenerator.js:138:26
+    at async retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:109:28)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30) {
+  config: {
+    url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+    method: 'POST',
+    params: { alt: 'sse' },
+    headers: {
+      'Content-Type': 'application/json',
+      'User-Agent': 'GeminiCLI/0.28.2/gemini-3-pro-preview (darwin; arm64) google-api-nodejs-client/9.15.1',
+      Authorization: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      'x-goog-api-client': 'gl-node/25.6.1'
+    },
+    responseType: 'stream',
+    body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+    signal: AbortSignal { aborted: false },
+    paramsSerializer: [Function: paramsSerializer],
+    validateStatus: [Function: validateStatus],
+    errorRedactor: [Function: defaultErrorRedactor]
+  },
+  response: {
+    config: {
+      url: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse',
+      method: 'POST',
+      params: [Object],
+      headers: [Object],
+      responseType: 'stream',
+      body: '<<REDACTED> - See `errorRedactor` option in `gaxios` for configuration>.',
+      signal: [AbortSignal],
+      paramsSerializer: [Function: paramsSerializer],
+      validateStatus: [Function: validateStatus],
+      errorRedactor: [Function: defaultErrorRedactor]
+    },
+    data: '[{\n' +
+      '  "error": {\n' +
+      '    "code": 429,\n' +
+      '    "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '    "errors": [\n' +
+      '      {\n' +
+      '        "message": "No capacity available for model gemini-3-flash-preview on the server",\n' +
+      '        "domain": "global",\n' +
+      '        "reason": "rateLimitExceeded"\n' +
+      '      }\n' +
+      '    ],\n' +
+      '    "status": "RESOURCE_EXHAUSTED",\n' +
+      '    "details": [\n' +
+      '      {\n' +
+      '        "@type": "type.googleapis.com/google.rpc.ErrorInfo",\n' +
+      '        "reason": "MODEL_CAPACITY_EXHAUSTED",\n' +
+      '        "domain": "cloudcode-pa.googleapis.com",\n' +
+      '        "metadata": {\n' +
+      '          "model": "gemini-3-flash-preview"\n' +
+      '        }\n' +
+      '      }\n' +
+      '    ]\n' +
+      '  }\n' +
+      '}\n' +
+      ']',
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-length': '630',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Tue, 17 Feb 2026 15:50:07 GMT',
+      server: 'ESF',
+      'server-timing': 'gfet4t7; dur=454',
+      vary: 'Origin, X-Origin, Referer',
+      'x-cloudaicompanion-trace-id': '6994d7c3bcbb029b',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 429,
+    statusText: 'Too Many Requests',
+    request: {
+      responseURL: 'https://cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse'
+    }
+  },
+  error: undefined,
+  status: 429,
+  Symbol(gaxios-gaxios-error): '6.7.1'
+}
+Attempt 3 failed: No capacity available for model gemini-3-flash-preview on the server. Max attempts reached
+Error when talking to Gemini API Full report available at: /var/folders/5x/hk778dj173z93rgf1r4lvtl80000gn/T/gemini-client-error-Turn.run-sendMessageStream-2026-02-17T15-50-15-429Z.json RetryableQuotaError: No capacity available for model gemini-3-flash-preview on the server
+    at classifyGoogleError (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:242:16)
+    at retryWithBackoff (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:131:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async GeminiChat.makeApiCallAndProcessStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:431:32)
+    at async GeminiChat.streamWithRetries (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/geminiChat.js:263:40)
+    at async Turn.run (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/turn.js:66:30)
+    at async GeminiClient.processTurn (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:459:26)
+    at async GeminiClient.sendMessageStream (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:559:20)
+    at async file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/dist/src/nonInteractiveCli.js:193:34
+    at async main (file:///opt/homebrew/Cellar/gemini-cli/0.28.2/libexec/lib/node_modules/@google/gemini-cli/dist/src/gemini.js:492:9) {
+  cause: {
+    code: 429,
+    message: 'No capacity available for model gemini-3-flash-preview on the server',
+    details: [ [Object] ]
+  },
+  retryDelayMs: undefined
+}
+An unexpected critical error occurred:[object Object]
