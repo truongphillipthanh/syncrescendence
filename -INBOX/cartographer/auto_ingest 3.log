@@ -1,7 +1,1 @@
-[2026-02-16 15:07:50] [cartographer] === Starting auto-ingest loop ===
-[2026-02-16 15:07:50] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:
-[2026-02-16 17:09:47] [cartographer] === Starting auto-ingest loop ===
-[2026-02-16 17:09:47] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
-[2026-02-16 17:32:48] [cartographer] Shutdown signal received, cleaning up
-[2026-02-16 17:39:00] [cartographer] === Starting auto-ingest loop ===
-[2026-02-16 17:39:00] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-16 17:39:10] [cartographer] Shutdown signal received, cleaning up
