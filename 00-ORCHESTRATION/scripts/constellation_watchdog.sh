@@ -28,6 +28,53 @@ log() {
     echo "[${TIMESTAMP}] $*" >> "${LOG_FILE}" 2>/dev/null || true
 }
 
+write_alert() {
+    local name="$1" detail="$2"
+    local ts
+    ts=$(date '+%Y%m%d%H%M')
+    local alert_dir="${REPO_DIR}/-SOVEREIGN"
+    mkdir -p "${alert_dir}" 2>/dev/null || true
+    cat > "${alert_dir}/ALERT-${name}-${ts}.md" <<EOF
+# ALERT-${name}-${ts}
+
+**Agent**: ${name}
+**Timestamp**: $(date '+%Y-%m-%d %H:%M:%S')
+**Detail**: ${detail}
+**Status**: requires investigation
+EOF
+}
+
+attempt_agent_recovery() {
+    local name="$1" pane="$2" status="$3"
+    local elapsed="${RECOVERY_ELAPSED:-}"
+    local detail="${RECOVERY_DETAIL:-}"
+
+    case "$status" in
+        STALE)
+            if [ -n "$elapsed" ] && [ "$elapsed" -gt 1800 ]; then
+                ${TMUX_BIN} send-keys -t "${TMUX_SESSION}:${pane}" C-c C-c >/dev/null 2>&1 || true
+                sleep 3
+                ${TMUX_BIN} send-keys -t "${TMUX_SESSION}:${pane}" "" Enter >/dev/null 2>&1 || true
+                log "RECOVERY: Sent interrupt to ${name} (${pane}) — stale ${elapsed}s"
+                log "RECOVERY: Sent heartbeat to ${name} (${pane}) — stale ${elapsed}s"
+            elif [ -n "$elapsed" ] && [ "$elapsed" -gt 300 ]; then
+                ${TMUX_BIN} send-keys -t "${TMUX_SESSION}:${pane}" "" Enter >/dev/null 2>&1 || true
+                log "RECOVERY: Sent heartbeat to ${name} (${pane}) — stale ${elapsed}s"
+            fi
+            ;;
+        ERROR)
+            log "RECOVERY: ERROR in ${name} (${pane}) — ${detail} — requires investigation"
+            write_alert "$name" "$detail"
+            ;;
+        RATE_LIMITED)
+            log "RECOVERY: RATE_LIMITED ${name} (${pane}) — ${detail}"
+            if [ -n "$elapsed" ] && [ "$elapsed" -gt 3600 ]; then
+                write_alert "$name" "${detail} (>${elapsed}s)"
+            fi
+            ;;
+    esac
+}
+
 attempt_recovery() {
     local uid_num
     uid_num="$(id -u)"
@@ -161,6 +208,14 @@ main() {
             new_state="${new_state}${name}|${current_hash}|${state_time}"$'\n'
 
             log "${name} (${pane}): ${status} — ${detail}"
+
+            local elapsed=""
+            if [ -n "$prev_time" ]; then
+                elapsed=$(( UNIX_TIME - prev_time ))
+            fi
+            RECOVERY_ELAPSED="$elapsed"
+            RECOVERY_DETAIL="$detail"
+            attempt_agent_recovery "$name" "$pane" "$status"
         done
 
         # Neural Bridge health check (MBA connectivity)
@@ -182,6 +237,20 @@ main() {
 
     printf '%s' "$new_state" > "${WATCHDOG_STATE}"
     log "Health check complete"
+
+    # Docker health check
+    if ! docker info >/dev/null 2>&1; then
+        log "CRITICAL: Docker is DOWN"
+        if command -v open >/dev/null 2>&1; then
+            open -a Docker >/dev/null 2>&1 || true
+            sleep 5
+        fi
+        if docker info >/dev/null 2>&1; then
+            log "RECOVERY: Docker restarted"
+        else
+            log "RECOVERY: Docker restart attempt failed"
+        fi
+    fi
 }
 
 main "$@"
