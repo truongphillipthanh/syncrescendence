@@ -1,0 +1,7 @@
+[2026-02-17 07:16:14] [bridgeprobe] === Starting auto-ingest loop ===
+[2026-02-17 07:16:14] [bridgeprobe] Agent: bridgeprobe | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:
+[2026-02-17 07:16:14] [bridgeprobe] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:16:14] [bridgeprobe] Recovered in-progress task: TASK-20260217-e2e-scp-back-test
+[2026-02-17 07:16:15] [bridgeprobe] Task completed: TASK-20260217-e2e-scp-back-test (1s,      149 bytes)
+[2026-02-17 07:16:15] [bridgeprobe] Sent CONFIRM to ajna
+[2026-02-17 07:16:16] [bridgeprobe] Neural Bridge: CONFIRM routed to macbook-air for ajna

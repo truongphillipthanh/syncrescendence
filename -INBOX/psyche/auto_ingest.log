@@ -132,3 +132,15 @@
 [2026-02-16 22:50:45] [psyche] === Starting auto-ingest loop ===
 [2026-02-16 22:50:45] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
 [2026-02-16 22:50:46] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:14:47] [psyche] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/psyche/00-INBOX0/TASK-20260217-bulletproof_plist.md
+[2026-02-17 07:15:17] [psyche] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/psyche/00-INBOX0/TASK-20260217-bulletproof_plist.md
+[2026-02-17 07:15:47] [psyche] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/psyche/00-INBOX0/TASK-20260217-bulletproof_plist.md
+[2026-02-17 07:16:17] [psyche] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/psyche/00-INBOX0/TASK-20260217-bulletproof_plist.md
+[2026-02-17 07:16:47] [psyche] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/psyche/00-INBOX0/TASK-20260217-bulletproof_plist.md
+[2026-02-17 07:17:18] [psyche] Dispatching: TASK-20260217-bulletproof_v2
+[2026-02-17 07:17:20] [psyche] Dispatched successfully: TASK-20260217-bulletproof_v2
+[2026-02-17 07:18:05] [psyche] Shutdown signal received, cleaning up
+[2026-02-17 07:18:05] [psyche] === Starting auto-ingest loop ===
+[2026-02-17 07:18:05] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-17 07:18:05] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:18:06] [psyche] Recovered in-progress task: TASK-20260217-bulletproof_v2

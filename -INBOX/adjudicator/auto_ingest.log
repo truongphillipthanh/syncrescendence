@@ -145,3 +145,11 @@
 [2026-02-16 22:50:45] [adjudicator] === Starting auto-ingest loop ===
 [2026-02-16 22:50:45] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
 [2026-02-16 22:50:45] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:14:48] [adjudicator] Dispatching: TASK-20260217-e2e_scp_back_test
+[2026-02-17 07:14:50] [adjudicator] Dispatched successfully: TASK-20260217-e2e_scp_back_test
+[2026-02-17 07:16:53] [adjudicator] Task completed: TASK-20260217-e2e_scp_back_test (125s,     3062 bytes)
+[2026-02-17 07:16:53] [adjudicator] Sent CONFIRM to commander
+[2026-02-17 07:18:05] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-17 07:18:05] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-17 07:18:05] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-17 07:18:05] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
