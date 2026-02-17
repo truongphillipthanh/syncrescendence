@@ -116,3 +116,4 @@ Write to: `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260217-torture-retes
 Write CONFIRM to: `-INBOX/commander/00-INBOX0/CONFIRM-adjudicator-20260217-torture-retest.md`
 
 Git commit: `git add -A && git commit -m "audit(resilience): torture retest post-hardening — Adjudicator CQO" && git push`
+DISPATCH_FAILED: Agent rejected or structurally blocked
