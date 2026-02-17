@@ -38,3 +38,9 @@
 [2026-02-16 17:39:58] [commander] Agent: commander | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.3
 [2026-02-16 17:39:58] [commander] Recovered in-progress task: TASK-20260216-fetch_adjudicator_audit_and_deploy_openclaw
 [2026-02-16 17:39:58] [commander] TIMEOUT: TASK-20260216-fetch_adjudicator_audit_and_deploy_openclaw (1811s exceeded 1800s limit)
+[2026-02-16 17:53:35] [commander] Dispatching: TASK-20260217-disable_filevault_and_configure_autoboot
+[2026-02-16 17:53:37] [commander] Dispatched successfully: TASK-20260217-disable_filevault_and_configure_autoboot
+[2026-02-16 17:54:07] [commander] Task completed: TASK-20260217-disable_filevault_and_configure_autoboot (32s,     2062 bytes)
+[2026-02-16 17:54:08] [commander] Sent CONFIRM to commander
+[2026-02-16 17:54:13] [commander] Dispatching: TASK-20260217-force_offline_test
+[2026-02-16 17:54:15] [commander] Dispatched successfully: TASK-20260217-force_offline_test
