@@ -217,3 +217,7 @@
 [2026-02-17 09:19:03] [adjudicator] Dispatched successfully: TASK-20260217-watchdog_recovery
 [2026-02-17 09:49:04] [adjudicator] TIMEOUT: TASK-20260217-watchdog_recovery (1804s exceeded 1800s limit)
 [2026-02-17 09:50:10] [adjudicator] ESCALATION: TASK-20260217-watchdog_recovery.md → -SOVEREIGN/ (3 retries exhausted)
+[2026-02-17 12:02:09] [adjudicator] TIMEOUT: TASK-20260217-watchdog_recovery (11658s exceeded 1800s limit)
+[2026-02-17 12:02:45] [adjudicator] RETRY (3/3): TASK-20260217-watchdog_recovery.md — EXEC_TIMEOUT: Exceeded 1800s
+[2026-02-17 12:03:15] [adjudicator] Dispatching: TASK-20260217-watchdog_recovery
+[2026-02-17 12:03:18] [adjudicator] Dispatched successfully: TASK-20260217-watchdog_recovery
