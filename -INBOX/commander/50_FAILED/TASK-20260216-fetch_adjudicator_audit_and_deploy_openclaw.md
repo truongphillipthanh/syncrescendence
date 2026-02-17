@@ -31,3 +31,4 @@ git commit -m "feat(hardening): OpenClaw Psyche personality hardened with operat
 ```
 
 After both actions, write RESULT to `-OUTBOX/commander/RESULTS/RESULT-commander-20260216-fetch_adjudicator_audit_and_deploy_openclaw.md` confirming completion.
+TIMEOUT: Exceeded 1800s
