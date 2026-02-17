@@ -84,7 +84,6 @@ __pycache__/
 /tmp/*.tsv
 
 # Legacy alias (actual dir is -OUTGOING/)
--OUTBOX/
 
 # Avoid committing Finder/iCloud duplicate copies
 * 2.*
