@@ -34,3 +34,4 @@ find -INBOX/*/00-INBOX0/ -name "* 2.md" | xargs rm -f
 ```
 
 Write result confirming completion.
+TIMEOUT: Exceeded 1800s
