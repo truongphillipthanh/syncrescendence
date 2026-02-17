@@ -268,7 +268,7 @@ The SSH bidirectional link is the constellation's circulatory system. All cross-
 |-----------|-----------|-----------------|
 | SSH key | `~/.ssh/id_ed25519_ajna` | `~/.ssh/id_ed25519_ajna_to_psyche` |
 | SSH config alias | `mini` → `home@M1-Mac-mini.local` | `macbook-air` → `system@Lisas-MacBook-Air.local` |
-| Env vars | `REMOTE_AGENT_HOST_{CMD,ADJ,CART,PSY}=home@m1-mac-mini.local` | `REMOTE_AGENT_HOST_AJNA=macbook-air` |
+| Env vars | `REMOTE_AGENT_HOST_{CMD,ADJ,CART,PSY}=mini`, `_AJNA=local` | `REMOTE_AGENT_HOST_AJNA=macbook-air`, rest `=local` |
 | Watchdog | N/A (MBA is lightweight node) | SSH health check every 60s cycle |
 | Recovery | If MM unreachable: queue tasks locally, push via git | If MBA unreachable: continue local ops, git sync when restored |
 

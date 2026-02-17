@@ -274,14 +274,19 @@ bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "comm
 
 Cross-machine delivery is controlled by env vars (set in ~/.zshrc on BOTH machines):
 
-**On MBA** (agents live on Mac mini):
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER=home@m1-mac-mini.local`
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR=home@m1-mac-mini.local`
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER=home@m1-mac-mini.local`
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE=home@m1-mac-mini.local`
+**On MBA** (agents live on Mac mini — `mini` is SSH config alias):
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER=mini`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR=mini`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER=mini`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE=mini`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA=local`
 
-**On Mac mini** (Ajna lives on MBA):
+**On Mac mini** (Ajna lives on MBA — `macbook-air` is SSH config alias):
 - `SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA=macbook-air`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER=local`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR=local`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER=local`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE=local`
 
 ### 4) Agent Dispatch Modes
 - **Adjudicator**: tmux `send-keys` dispatch
