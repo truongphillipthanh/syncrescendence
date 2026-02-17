@@ -93,3 +93,5 @@
 [2026-02-16 20:17:40] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
 [2026-02-16 20:33:45] [psyche] Dispatching: TASK-20260217-neural_bridge_infrastructure
 [2026-02-16 20:33:47] [psyche] Dispatched successfully: TASK-20260217-neural_bridge_infrastructure
+[2026-02-16 20:39:16] [psyche] Task completed: TASK-20260217-neural_bridge_infrastructure (331s,     9068 bytes)
+[2026-02-16 20:39:16] [psyche] Sent CONFIRM to commander
