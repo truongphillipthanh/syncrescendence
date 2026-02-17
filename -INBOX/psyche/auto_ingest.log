@@ -52,3 +52,6 @@
 [2026-02-16 17:39:43] [psyche] Shutdown signal received, cleaning up
 [2026-02-16 17:39:58] [psyche] === Starting auto-ingest loop ===
 [2026-02-16 17:39:58] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 17:58:48] [psyche] Shutdown signal received, cleaning up
+[2026-02-16 18:00:31] [psyche] === Starting auto-ingest loop ===
+[2026-02-16 18:00:31] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1

@@ -61,3 +61,6 @@
 [2026-02-16 17:39:43] [adjudicator] Shutdown signal received, cleaning up
 [2026-02-16 17:39:58] [adjudicator] === Starting auto-ingest loop ===
 [2026-02-16 17:39:58] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-16 17:58:49] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-16 18:00:31] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-16 18:00:31] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
