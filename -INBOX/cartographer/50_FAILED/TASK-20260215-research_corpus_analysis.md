@@ -7,8 +7,8 @@
 **Fingerprint**: e15b7e2
 **Kind**: TASK
 **Priority**: P1
-**Status**: PENDING
-**Kanban**: INBOX0
+**Status**: FAILED
+**Kanban**: FAILED
 **Claimed-By**: cartographer-Lisas-MacBook-Air
 **Claimed-At**: 2026-02-16T07:34:34Z
 **Completed-At**: 2026-02-16T07:39:55Z
@@ -45,7 +45,3 @@ Consult as needed:
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
 3. If cross-machine: `git add -A && git commit -m "task: research_corpus_analysis complete" && git push`
-
-**Retry-Count**: 1
-**Retried-At**: 2026-02-17T15:42:35Z
-**Retried-By**: proactive_orchestrator.sh

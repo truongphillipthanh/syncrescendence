@@ -26,8 +26,12 @@ STATE_FILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/.current_task"
 
 POLL_INTERVAL=30
 TASK_TIMEOUT=1800  # 30 minutes
+RETRY_SCAN_INTERVAL=60
+MAX_RETRIES=3
+TRANSIENT_FAILURE_REGEX='rate[[:space:]._-]*limit|timeout|quota|capacity|RESOURCE_EXHAUSTED|usage[[:space:]._-]*limit|EXEC_TIMEOUT'
 
 TMUX_BIN="/opt/homebrew/bin/tmux"
+LAST_FAILURE_REASON=""
 
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] [$AGENT_NAME] $*" | tee -a "$LOGFILE"
@@ -129,6 +133,125 @@ extract_task_id() {
     basename "$1" .md
 }
 
+read_markdown_field() {
+    task_file="$1"
+    field_name="$2"
+    sed -n "s/^\*\*${field_name}\*\*:[[:space:]]*//p" "$task_file" 2>/dev/null | head -n1
+}
+
+upsert_markdown_field() {
+    task_file="$1"
+    field_name="$2"
+    field_value="$3"
+
+    if grep -q "^\*\*${field_name}\*\*:" "$task_file" 2>/dev/null; then
+        sed -i '' "s|^\*\*${field_name}\*\*:[[:space:]]*.*|**${field_name}**: ${field_value}|" "$task_file"
+    elif grep -q '^\*\*Status\*\*:' "$task_file" 2>/dev/null; then
+        sed -i '' "/^\*\*Status\*\*:/a\\
+**${field_name}**: ${field_value}
+" "$task_file"
+    else
+        printf "\n**%s**: %s\n" "$field_name" "$field_value" >> "$task_file"
+    fi
+}
+
+get_retry_count() {
+    task_file="$1"
+    retry_count=$(read_markdown_field "$task_file" "Retry-Count" | tr -cd '0-9')
+    [ -z "$retry_count" ] && retry_count=0
+    echo "$retry_count"
+}
+
+get_failure_reason() {
+    task_file="$1"
+    failure_reason=$(read_markdown_field "$task_file" "Failure-Reason")
+    if [ -z "$failure_reason" ]; then
+        failure_reason=$(grep -E '^(DISPATCH_FAILED|TIMEOUT|EXEC_TIMEOUT):' "$task_file" 2>/dev/null | tail -n1 | sed 's/^[^:]*:[[:space:]]*//')
+    fi
+    echo "$failure_reason"
+}
+
+is_transient_failure() {
+    failure_reason="$1"
+    echo "$failure_reason" | grep -qiE "$TRANSIENT_FAILURE_REGEX"
+}
+
+mark_task_failed() {
+    task_file="$1"
+    failure_reason="$2"
+
+    [ -f "$task_file" ] || return 0
+
+    upsert_markdown_field "$task_file" "Status" "FAILED"
+    upsert_markdown_field "$task_file" "Failure-Reason" "$failure_reason"
+
+    if ! grep -q '^\*\*Retry-Count\*\*:' "$task_file" 2>/dev/null; then
+        upsert_markdown_field "$task_file" "Retry-Count" "0"
+    fi
+}
+
+retry_failed_tasks() {
+    for task_file in "$FAILED_DIR"/TASK-*.md; do
+        [ -f "$task_file" ] || continue
+
+        retry_count=$(get_retry_count "$task_file")
+        [ "$retry_count" -ge "$MAX_RETRIES" ] && continue
+
+        failure_reason=$(get_failure_reason "$task_file")
+        is_transient_failure "$failure_reason" || continue
+
+        new_count=$((retry_count + 1))
+        upsert_markdown_field "$task_file" "Retry-Count" "$new_count"
+        upsert_markdown_field "$task_file" "Status" "PENDING"
+
+        task_base=$(basename "$task_file")
+        if mv "$task_file" "${INBOX_DIR}/${task_base}" 2>/dev/null; then
+            rm -f "${FAILED_DIR}/.escalated-${task_base}" 2>/dev/null || true
+            log "RETRY (${new_count}/${MAX_RETRIES}): ${task_base} — ${failure_reason}"
+        else
+            upsert_markdown_field "$task_file" "Status" "FAILED"
+            log "WARN: RETRY move failed for ${task_base}"
+        fi
+    done
+}
+
+escalate_exhausted_tasks() {
+    sovereign_dir="${REPO_PATH}/-SOVEREIGN"
+    mkdir -p "$sovereign_dir" 2>/dev/null || true
+
+    for task_file in "$FAILED_DIR"/TASK-*.md; do
+        [ -f "$task_file" ] || continue
+
+        retry_count=$(get_retry_count "$task_file")
+        [ "$retry_count" -lt "$MAX_RETRIES" ] && continue
+
+        base=$(basename "$task_file")
+        esc_marker="${FAILED_DIR}/.escalated-${base}"
+        [ -f "$esc_marker" ] && continue
+
+        failure_reason=$(get_failure_reason "$task_file")
+        [ -z "$failure_reason" ] && failure_reason="unknown"
+
+        esc_file="${sovereign_dir}/ESCALATION-${AGENT_NAME}-$(date +%Y%m%d)-${base}"
+        cat > "$esc_file" <<EOF
+# ESCALATION: Task exhausted retries
+
+**Kind**: ESCALATION
+**Agent**: ${AGENT_NAME}
+**Task**: ${base}
+**Retries**: ${retry_count}
+**Failure-Reason**: ${failure_reason}
+**Escalated-At**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')
+
+This task failed ${retry_count} times with transient errors and requires Sovereign intervention.
+Original task is in: -INBOX/${AGENT_NAME}/50_FAILED/${base}
+EOF
+
+        touch "$esc_marker"
+        log "ESCALATION: ${base} → -SOVEREIGN/ (${retry_count} retries exhausted)"
+    done
+}
+
 check_pane_for_rate_limit() {
     if [ -z "$TMUX_PANE" ]; then
         return 1
@@ -161,6 +284,7 @@ check_pane_exists() {
 
 send_prompt() {
     prompt="$1"
+    LAST_FAILURE_REASON=""
 
     # Gemini headless dispatch — doesn't need tmux pane at all
     if is_gemini_agent; then
@@ -177,12 +301,14 @@ send_prompt() {
 
     # --- tmux-based agents below this point ---
     if [ -z "$TMUX_PANE" ]; then
+        LAST_FAILURE_REASON="TMUX pane not specified"
         log "ERROR: No tmux pane specified"
         return 1
     fi
 
     # Check pane exists before attempting send (Adjudicator audit)
     if ! check_pane_exists; then
+        LAST_FAILURE_REASON="TMUX pane not found"
         log "ERROR: tmux pane ${TMUX_SESSION}:${TMUX_PANE} not found — transient failure"
         return 1
     fi
@@ -192,6 +318,7 @@ send_prompt() {
     while check_pane_for_rate_limit; do
         retry=$((retry + 1))
         if [ "$retry" -gt 10 ]; then
+            LAST_FAILURE_REASON="rate limit persisted after retries"
             log "ERROR: Rate limit persists after 10 retries (10 min)"
             return 1
         fi
@@ -240,6 +367,7 @@ dispatch_task() {
 
     send_prompt "$full_prompt"
     send_rc=$?
+    failure_reason="$LAST_FAILURE_REASON"
 
     if [ "$send_rc" -eq 0 ]; then
         log "Dispatched successfully: $task_id"
@@ -253,8 +381,10 @@ dispatch_task() {
     else
         # Transient failure — move to FAILED
         log "Dispatch failed: $task_id — moving to FAILED"
-        mv "$in_progress_path" "${FAILED_DIR}/$(basename "$task_file")" 2>/dev/null || true
-        echo "DISPATCH_FAILED: Agent rejected or structurally blocked" >> "${FAILED_DIR}/$(basename "$task_file")" 2>/dev/null || true
+        failed_path="${FAILED_DIR}/$(basename "$task_file")"
+        mv "$in_progress_path" "$failed_path" 2>/dev/null || true
+        [ -z "$failure_reason" ] && failure_reason="DISPATCH_FAILED: Agent rejected or structurally blocked"
+        mark_task_failed "$failed_path" "$failure_reason"
         rm -f "$STATE_FILE"
         return 1
     fi
@@ -325,8 +455,9 @@ CONFIRM_EOF
     # Check timeout
     if [ "$elapsed" -gt "$TASK_TIMEOUT" ]; then
         log "TIMEOUT: $task_id (${elapsed}s exceeded ${TASK_TIMEOUT}s limit)"
-        mv "$in_progress_path" "${FAILED_DIR}/$(basename "$in_progress_path")" 2>/dev/null || true
-        echo "TIMEOUT: Exceeded ${TASK_TIMEOUT}s" >> "${FAILED_DIR}/$(basename "$in_progress_path")" 2>/dev/null || true
+        failed_path="${FAILED_DIR}/$(basename "$in_progress_path")"
+        mv "$in_progress_path" "$failed_path" 2>/dev/null || true
+        mark_task_failed "$failed_path" "EXEC_TIMEOUT: Exceeded ${TASK_TIMEOUT}s"
         rm -f "$STATE_FILE"
         return 0
     fi
@@ -359,23 +490,32 @@ main() {
     acquire_lock
     ensure_directories
     recover_state
+    last_retry_scan=0
 
     while true; do
+        sleep_duration="$POLL_INTERVAL"
+
         # If a task is in progress, check for completion
         if [ -f "$STATE_FILE" ]; then
             check_completion
-            sleep 5
-            continue
+            sleep_duration=5
+        else
+            # Look for oldest pending task
+            task_file=$(find "$INBOX_DIR" -maxdepth 1 -name "TASK-*.md" -type f 2>/dev/null | sort | head -n1)
+
+            if [ -n "$task_file" ]; then
+                dispatch_task "$task_file" || true
+            fi
         fi
 
-        # Look for oldest pending task
-        task_file=$(find "$INBOX_DIR" -maxdepth 1 -name "TASK-*.md" -type f 2>/dev/null | sort | head -n1)
-
-        if [ -n "$task_file" ]; then
-            dispatch_task "$task_file" || true
+        now=$(date +%s)
+        if [ $((now - last_retry_scan)) -ge "$RETRY_SCAN_INTERVAL" ]; then
+            retry_failed_tasks
+            escalate_exhausted_tasks
+            last_retry_scan="$now"
         fi
 
-        sleep "$POLL_INTERVAL"
+        sleep "$sleep_duration"
     done
 }
 
