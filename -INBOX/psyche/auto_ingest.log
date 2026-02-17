@@ -6,3 +6,5 @@
 [2026-02-16 15:07:24] [psyche] Shutdown signal received, cleaning up
 [2026-02-16 15:07:48] [psyche] === Starting auto-ingest loop ===
 [2026-02-16 15:07:48] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 16:01:58] [psyche] Dispatching: TASK-20260216-cto_recovery_architecture
+[2026-02-16 16:02:01] [psyche] Dispatched successfully: TASK-20260216-cto_recovery_architecture

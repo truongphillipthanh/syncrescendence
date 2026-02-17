@@ -19,3 +19,5 @@
 [2026-02-16 15:36:42] [adjudicator] Sent CONFIRM to commander
 [2026-02-16 15:40:53] [adjudicator] Task completed: TASK-20260216-zero_offline_adversarial_audit (933s,    17155 bytes)
 [2026-02-16 15:40:53] [adjudicator] Sent CONFIRM to commander
+[2026-02-16 16:01:32] [adjudicator] Dispatching: TASK-20260216-resilience_adversarial_assessment
+[2026-02-16 16:01:34] [adjudicator] Dispatched successfully: TASK-20260216-resilience_adversarial_assessment
