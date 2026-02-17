@@ -144,3 +144,23 @@
 [2026-02-17 07:18:05] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
 [2026-02-17 07:18:05] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
 [2026-02-17 07:18:06] [psyche] Recovered in-progress task: TASK-20260217-bulletproof_v2
+[2026-02-17 07:18:43] [psyche] Task completed: TASK-20260217-bulletproof_v2 (85s,     2290 bytes)
+[2026-02-17 07:18:43] [psyche] Sent CONFIRM to commander
+[2026-02-17 07:38:02] [psyche] Dispatching: TASK-20260217-retry_and_escalation
+[2026-02-17 07:38:05] [psyche] Dispatched successfully: TASK-20260217-retry_and_escalation
+[2026-02-17 07:43:02] [psyche] Shutdown signal received, cleaning up
+[2026-02-17 07:43:02] [psyche] === Starting auto-ingest loop ===
+[2026-02-17 07:43:02] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-17 07:43:03] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 07:43:03] [psyche] Recovered in-progress task: TASK-20260217-retry_and_escalation
+[2026-02-17 07:44:07] [psyche] RETRY (1/3): TASK-TEST-RETRY-20260217074311.md — rate limit from provider
+[2026-02-17 07:45:10] [psyche] ESCALATION: TASK-TEST-ESCALATE-20260217074417.md → -SOVEREIGN/ (3 retries exhausted)
+[2026-02-17 07:45:46] [psyche] Task completed: TASK-20260217-retry_and_escalation (464s,     2842 bytes)
+[2026-02-17 07:45:46] [psyche] Sent CONFIRM to commander
+[2026-02-17 07:47:22] [psyche] Dispatching: TASK-20260217-idle_health_report
+[2026-02-17 07:47:24] [psyche] Dispatched successfully: TASK-20260217-idle_health_report
+[2026-02-17 07:48:21] [psyche] Task completed: TASK-20260217-idle_health_report (59s,      822 bytes)
+[2026-02-17 07:48:21] [psyche] Sent CONFIRM to commander
+[2026-02-17 07:51:59] [psyche] Dispatching: TASK-20260217-idle_health_report
+[2026-02-17 07:52:33] [psyche] Task completed: TASK-20260217-idle_health_report (34s,      669 bytes)
+[2026-02-17 07:52:34] [psyche] Sent CONFIRM to commander
