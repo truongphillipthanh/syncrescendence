@@ -238,8 +238,10 @@ Health check: `ssh -o ConnectTimeout=5 mini hostname` (from MBA) or `ssh -o Conn
 
 ICMP ping is BLOCKED by macOS Stealth Mode firewall on both machines. NEVER use ping for health checks — use SSH.
 
-### 1) Auto-Ingest System (task flow)
-Task lifecycle is deterministic and file-backed:
+**CRITICAL: launchd does NOT source ~/.zshrc.** Env vars for launchd services must be set in plist `EnvironmentVariables` OR explicitly loaded in the service script. Fixing .zshrc alone is insufficient for launchd-managed processes.
+
+### 1) Auto-Ingest System (task flow — SOLE DISPATCH SYSTEM)
+`auto_ingest_loop.sh` is the **only** task dispatch system. `watch_dispatch.sh` was deprecated on 2026-02-17 (caused race conditions, silent failures). Task lifecycle is deterministic and file-backed:
 
 1. `00-ORCHESTRATION/scripts/dispatch.sh` creates `TASK-*.md` in `-INBOX/<agent>/00-INBOX0/`
 2. Cross-machine SCP sling via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>` env vars
@@ -318,6 +320,9 @@ Cross-machine delivery is controlled by env vars (set in ~/.zshrc on BOTH machin
 - Never kill the tmux `constellation` session casually
 - Never delete auto-ingest lockfiles without validating owning PID
 - Never dispatch simultaneous heavy tasks to Psyche + Adjudicator under shared quota pressure
+- Never re-enable `watch_dispatch.sh` — it races with auto_ingest and its `openclaw agent` CLI mode produces 0-byte output
+- Never fix only `.zshrc` for launchd services — launchd doesn't source it; use plist EnvironmentVariables
+- Never claim "fix verified" based on `grep config-file` — verify with runtime checks (`ps eww`, process logs, actual SCP test)
 
 ## Session Protocol
 - Consult `ARCH-INTENTION_COMPASS.md` before executing directives
