@@ -1,10 +1,12 @@
 # TASK: Option B — Add Neural Bridge env vars to supervisor plist
 
-**Status**: IN_PROGRESS
+**Status**: COMPLETE
 **Priority**: P0
+**Exit-Code**: 0
+**Completed-At**: 2026-02-17T06:51:08Z
 **Claimed-At**: 2026-02-17T06:46:08Z
 **Claimed-By**: psyche-M1-Mac-mini
-**Kanban**: IN_PROGRESS
+**Kanban**: DONE
 **Reply-To**: commander
 **CC**: commander
 **To**: psyche

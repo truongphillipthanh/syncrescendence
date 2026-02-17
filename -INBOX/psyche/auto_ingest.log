@@ -128,3 +128,7 @@
 [2026-02-16 22:48:57] [psyche] === Starting auto-ingest loop ===
 [2026-02-16 22:48:57] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
 [2026-02-16 22:48:57] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-16 22:50:43] [psyche] Shutdown signal received, cleaning up
+[2026-02-16 22:50:45] [psyche] === Starting auto-ingest loop ===
+[2026-02-16 22:50:45] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-16 22:50:46] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
