@@ -240,9 +240,37 @@ Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/
 - **Platform**: OpenClaw (Kimi K2.5 via NVIDIA NIM API)
 - **Machine**: MacBook Air (Apple Silicon)
 - **Enterprise Role**: CSO (Chief Strategy Officer) — strategic direction, orchestration, dispatch
-- **Communication**: Git sync via `-INBOX/ajna/`, Tailscale network
+- **Communication**: SSH Neural Bridge (bidirectional), Git sync via `-INBOX/ajna/`
 - **Archon**: Forms AjnaPsyche Archon with Psyche (CSO steering wheel + CTO rudder)
-- **Status**: MBA configured — OpenClaw + NVIDIA provider active
+- **Status**: MBA configured — OpenClaw + NVIDIA provider active, SSH Neural Bridge OPERATIONAL
+
+### Neural Bridge (MBA ↔ Mac mini — VITAL ORGAN)
+
+The SSH bidirectional link is the constellation's circulatory system. All cross-machine dispatch, CONFIRM routing, health checks, and remote execution flow through it. Connectivity loss is a **critical incident** — equivalent to severing a vital organ from oxygen.
+
+```
+┌─────────────────────┐          SSH (ed25519)          ┌─────────────────────┐
+│    MacBook Air       │◄──────────────────────────────►│    Mac mini          │
+│    /Users/system     │   MBA→MM: id_ed25519_ajna      │    /Users/home       │
+│                      │   MM→MBA: id_ed25519_ajna_to_  │                      │
+│  Agents:             │          psyche                 │  Agents:             │
+│  - Ajna (CSO)        │                                 │  - Commander (COO)   │
+│  - Commander (MBA)   │   Aliases:                      │  - Psyche (CTO)      │
+│                      │   MBA: ssh mini                 │  - Adjudicator (CQO) │
+│  Env vars → MM       │   MM:  ssh macbook-air          │  - Cartographer (CIO)│
+│  dispatch.sh + SCP   │                                 │  Env vars → MBA      │
+│                      │   Health: ssh -o ConnectTimeout  │  dispatch.sh + SCP   │
+│                      │   =5 <alias> hostname            │                      │
+└─────────────────────┘   NEVER use ping (ICMP blocked)  └─────────────────────┘
+```
+
+| Component | MBA Config | Mac mini Config |
+|-----------|-----------|-----------------|
+| SSH key | `~/.ssh/id_ed25519_ajna` | `~/.ssh/id_ed25519_ajna_to_psyche` |
+| SSH config alias | `mini` → `home@M1-Mac-mini.local` | `macbook-air` → `system@Lisas-MacBook-Air.local` |
+| Env vars | `REMOTE_AGENT_HOST_{CMD,ADJ,CART,PSY}=home@m1-mac-mini.local` | `REMOTE_AGENT_HOST_AJNA=macbook-air` |
+| Watchdog | N/A (MBA is lightweight node) | SSH health check every 60s cycle |
+| Recovery | If MM unreachable: queue tasks locally, push via git | If MBA unreachable: continue local ops, git sync when restored |
 
 ### Commander (Dual-Residency — Mac mini Pane 2 + MacBook Air)
 - **Primary**: Mac mini cockpit Pane 2 (always-on, full orchestration)
@@ -408,10 +436,12 @@ Launch: `doom-dash` (alias for `emacsclient -nw -c`)
 **All agents down**
 - Recreate cockpit (`--kill` then `--launch`), verify watcher labels, restart gateway, then replay pending tasks from INBOX0.
 
-**Network partition (cross-machine dispatch failure)**
-- Continue local filesystem dispatch.
-- Queue remote tasks in target `-INBOX/<agent>/00-INBOX0/` when link restored.
-- Use SCP sling fallback via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_*`.
+**Network partition (Neural Bridge failure)**
+- Detect via: `ssh -o ConnectTimeout=5 <alias> hostname` returns non-zero
+- Continue local filesystem dispatch for local agents
+- Queue remote tasks locally; push via git as fallback transport
+- When link restored: SCP sling via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_*` resumes automatically
+- NEVER use ping (ICMP blocked by Stealth Mode) — always SSH for health checks
 
 **Disk full / I/O pressure**
 - Halt non-critical batch tasks.

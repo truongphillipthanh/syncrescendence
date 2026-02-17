@@ -225,27 +225,44 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 
 This section is mandatory operational context for all Claude Code agents (Commander, Adjudicator).
 
+### 0) Neural Bridge (MBA ↔ Mac mini — VITAL ORGAN)
+
+The SSH bidirectional link is the constellation's circulatory system. Every cross-machine dispatch, every CONFIRM routing, every health check flows through it. Treat connectivity loss as a critical incident.
+
+| Direction | SSH Config Alias | Key File | User@Host |
+|-----------|-----------------|----------|-----------|
+| **MBA → Mac mini** | `mini` | `~/.ssh/id_ed25519_ajna` | `home@M1-Mac-mini.local` |
+| **Mac mini → MBA** | `macbook-air` | `~/.ssh/id_ed25519_ajna_to_psyche` | `system@Lisas-MacBook-Air.local` |
+
+Health check: `ssh -o ConnectTimeout=5 mini hostname` (from MBA) or `ssh -o ConnectTimeout=5 macbook-air hostname` (from Mac mini)
+
+ICMP ping is BLOCKED by macOS Stealth Mode firewall on both machines. NEVER use ping for health checks — use SSH.
+
 ### 1) Auto-Ingest System (task flow)
 Task lifecycle is deterministic and file-backed:
 
 1. `00-ORCHESTRATION/scripts/dispatch.sh` creates `TASK-*.md` in `-INBOX/<agent>/00-INBOX0/`
-2. Optional cross-machine sling uses `SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>` via SCP
+2. Cross-machine SCP sling via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>` env vars
 3. `00-ORCHESTRATION/scripts/auto_ingest_loop.sh` polls INBOX0 every 30s
 4. Task is moved to `-INBOX/<agent>/10-IN_PROGRESS/`
 5. Agent CLI executes objective (tmux dispatch or Gemini headless)
 6. Result written to `-OUTBOX/<agent>/RESULTS/RESULT-<agent>-*.md`
 7. Task moves to `-INBOX/<agent>/40-DONE/` or `50_FAILED/`
 8. CONFIRM receipt sent to `-INBOX/<reply-to-agent>/00-INBOX0/`
+9. If reply-to agent is on another machine, CONFIRM is SCP'd via Neural Bridge
 
 ### 2) Health Watchdog
-A launchd watchdog cycle runs every ~60s and writes health state to:
+A launchd watchdog daemon runs every ~60s and writes health state to:
 
 - `00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
 
 Check command:
 
 ```bash
+# From Mac mini (local):
 cat 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
+# From MBA (remote):
+ssh mini "cat ~/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md"
 ```
 
 ### 3) Dispatch Protocol
@@ -255,13 +272,16 @@ Canonical dispatch command:
 bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"
 ```
 
-Cross-machine delivery is controlled by env vars:
+Cross-machine delivery is controlled by env vars (set in ~/.zshrc on BOTH machines):
 
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER`
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR`
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER`
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE`
-- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA`
+**On MBA** (agents live on Mac mini):
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER=home@m1-mac-mini.local`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR=home@m1-mac-mini.local`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER=home@m1-mac-mini.local`
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE=home@m1-mac-mini.local`
+
+**On Mac mini** (Ajna lives on MBA):
+- `SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA=macbook-air`
 
 ### 4) Agent Dispatch Modes
 - **Adjudicator**: tmux `send-keys` dispatch
