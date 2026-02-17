@@ -1,0 +1,12 @@
+{
+  "31150": {
+    "description": "Platform Capability Catalog",
+    "chain": "INFORMATION",
+    "data_sources": ["platform_capabilities.json"],
+    "output_pattern": "CANON-31150-PLATFORM_CAPABILITY_CATALOG.md",
+    "watch_paths": [
+      "00-ORCHESTRATION/state/platform_capabilities.json",
+      "02-ENGINE/MODEL-INDEX.md"
+    ]
+  }
+}
