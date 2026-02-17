@@ -103,3 +103,6 @@
 [2026-02-16 21:54:33] [psyche] Dispatched successfully: TASK-20260217-neural_bridge_commit_and_verify
 [2026-02-16 22:03:07] [psyche] Task completed: TASK-20260217-neural_bridge_commit_and_verify (516s,     4195 bytes)
 [2026-02-16 22:03:07] [psyche] Sent CONFIRM to commander
+[2026-02-16 22:38:06] [psyche] Shutdown signal received, cleaning up
+[2026-02-16 22:38:06] [psyche] === Starting auto-ingest loop ===
+[2026-02-16 22:38:06] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1

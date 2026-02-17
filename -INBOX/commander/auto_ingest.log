@@ -389,3 +389,6 @@
 [2026-02-16 21:39:18] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-LINEAR-STATUS-202602161423.md
 [2026-02-16 21:39:48] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-LINEAR-STATUS-202602161423.md
 [2026-02-16 21:40:18] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-LINEAR-STATUS-202602161423.md
+[2026-02-16 22:38:06] [commander] Shutdown signal received, cleaning up
+[2026-02-16 22:38:06] [commander] === Starting auto-ingest loop ===
+[2026-02-16 22:38:06] [commander] Agent: commander | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.3

@@ -120,3 +120,6 @@
 [2026-02-16 21:54:20] [adjudicator] Dispatched successfully: TASK-20260217-neural_bridge_adversarial_audit_v2
 [2026-02-16 22:17:27] [adjudicator] Task completed: TASK-20260217-neural_bridge_adversarial_audit_v2 (1390s,    29240 bytes)
 [2026-02-16 22:17:27] [adjudicator] Sent CONFIRM to commander
+[2026-02-16 22:38:06] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-16 22:38:06] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-16 22:38:06] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
