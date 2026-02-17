@@ -270,19 +270,6 @@ check_completion() {
 **Result-Path**: ${result_file}
 CONFIRM_EOF
             log "Sent CONFIRM to ${reply_to}"
-
-            # Neural Bridge: SCP CONFIRM to originator's machine if remote
-            REPLY_UPPER=$(echo "$reply_to" | tr '[:lower:]' '[:upper:]')
-            REMOTE_VAR="SYNCRESCENDENCE_REMOTE_AGENT_HOST_${REPLY_UPPER}"
-            REMOTE_HOST="${!REMOTE_VAR:-local}"
-            if [ -n "$REMOTE_HOST" ] && [ "$REMOTE_HOST" != "local" ] && [ "$REMOTE_HOST" != "localhost" ]; then
-                confirm_file="${confirm_dir}/CONFIRM-${AGENT_NAME}-${result_slug}.md"
-                if scp -q -o BatchMode=yes -o ConnectTimeout=5 "$confirm_file"                     "$REMOTE_HOST:~/Desktop/syncrescendence/-INBOX/${reply_to}/00-INBOX0/" 2>/dev/null; then
-                    log "Neural Bridge: CONFIRM routed to ${REMOTE_HOST} for ${reply_to}"
-                else
-                    log "WARN: Neural Bridge SCP failed for CONFIRM to ${REMOTE_HOST}"
-                fi
-            fi
         fi
 
         rm -f "$STATE_FILE"

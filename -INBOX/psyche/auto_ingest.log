@@ -95,3 +95,5 @@
 [2026-02-16 20:33:47] [psyche] Dispatched successfully: TASK-20260217-neural_bridge_infrastructure
 [2026-02-16 20:39:16] [psyche] Task completed: TASK-20260217-neural_bridge_infrastructure (331s,     9068 bytes)
 [2026-02-16 20:39:16] [psyche] Sent CONFIRM to commander
+[2026-02-16 21:53:53] [psyche] Dispatching: TASK-20260216-neural_bridge_commit_and_verify
+[2026-02-16 21:53:56] [psyche] Dispatched successfully: TASK-20260216-neural_bridge_commit_and_verify
