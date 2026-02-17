@@ -37,6 +37,36 @@ log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] [$AGENT_NAME] $*" | tee -a "$LOGFILE"
 }
 
+BRIDGE_ENV_KEYS="SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE"
+
+set_bridge_var_if_unset() {
+    key="$1"
+    value="$2"
+    eval "current=\${$key:-}"
+    [ -n "$current" ] && return 0
+    [ -z "$value" ] && return 0
+    eval "$key=\"$value\""
+}
+
+load_bridge_env_from_launchctl() {
+    command -v launchctl >/dev/null 2>&1 || return 0
+    for key in $BRIDGE_ENV_KEYS; do
+        value=$(launchctl getenv "$key" 2>/dev/null || true)
+        set_bridge_var_if_unset "$key" "$value"
+    done
+}
+
+load_bridge_env_from_supervisor_plist() {
+    plist="${HOME}/Library/LaunchAgents/com.syncrescendence.auto-ingest-supervisor.plist"
+    [ -f "$plist" ] || return 0
+    [ -x /usr/libexec/PlistBuddy ] || return 0
+
+    for key in $BRIDGE_ENV_KEYS; do
+        value=$(/usr/libexec/PlistBuddy -c "Print :EnvironmentVariables:${key}" "$plist" 2>/dev/null || true)
+        set_bridge_var_if_unset "$key" "$value"
+    done
+}
+
 load_bridge_env_from_zshrc() {
     [ -f "${HOME}/.zshrc" ] || return 0
     while IFS= read -r line; do
@@ -46,7 +76,7 @@ load_bridge_env_from_zshrc() {
                 val=$(printf '%s' "$line" | sed -E 's/^export[[:space:]]+[^=]+=//; s/^"//; s/"$//')
                 case "$key" in
                     SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA|SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER|SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR|SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER|SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE)
-                        eval "$key=\"$val\""
+                        set_bridge_var_if_unset "$key" "$val"
                         ;;
                 esac
                 ;;
@@ -55,6 +85,9 @@ load_bridge_env_from_zshrc() {
 }
 
 ensure_bridge_env() {
+    # Precedence: inherited env > launchctl user env > deployed supervisor plist > ~/.zshrc > hard defaults.
+    load_bridge_env_from_launchctl
+    load_bridge_env_from_supervisor_plist
     load_bridge_env_from_zshrc
 
     : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA:=macbook-air}"
@@ -63,11 +96,9 @@ ensure_bridge_env() {
     : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER:=local}"
     : "${SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE:=local}"
 
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_AJNA
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_ADJUDICATOR
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER
-    export SYNCRESCENDENCE_REMOTE_AGENT_HOST_PSYCHE
+    for key in $BRIDGE_ENV_KEYS; do
+        eval "export $key=\"\${$key}\""
+    done
 }
 
 cleanup() {
