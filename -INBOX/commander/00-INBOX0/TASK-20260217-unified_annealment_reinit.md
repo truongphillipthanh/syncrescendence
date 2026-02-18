@@ -98,7 +98,7 @@ Brutally honest. Numbered. Root cause for each. DO NOT REPEAT THESE.
 |-------|--------------|--------|
 | canon-indexer | `.scratch/ANNEAL-DIGEST-CANON.md` | **FAILED** — "Prompt is too long" (264K tokens exceeded agent capacity). Must split into 3-4 sub-agents by file range (e.g., CANON-00xxx, CANON-10xxx, CANON-20xxx, CANON-30xxx). |
 | clarescence-indexer | **WRONG PATH**: written to `impl/clarescence/.scratch/ANNEAL-DIGEST-CLARESCENCE.md` instead of `impl/.scratch/`. 581 lines, excellent quality. Move or read from actual location. | DONE (misplaced) |
-| scaffold-indexer | `.scratch/ANNEAL-DIGEST-SCAFFOLD.md` | **DONE** — 381 lines. Agent hit plan mode, content rescued from plans/ to correct path. Comprehensive: 5 invariants, 25+ patterns, 40+ intentions, 11 gaps identified. |
+| scaffold-indexer | `.scratch/ANNEAL-DIGEST-SCAFFOLD.md` | CHECK |
 | metachar-convergence-indexer | `.scratch/ANNEAL-DIGEST-METACHAR.md` | CHECK |
 | v1-gap-analyzer | `.scratch/ANNEAL-DIGEST-GAPS.md` | CHECK |
 
