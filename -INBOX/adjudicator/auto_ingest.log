@@ -153,3 +153,15 @@
 [2026-02-17 07:18:05] [adjudicator] === Starting auto-ingest loop ===
 [2026-02-17 07:18:05] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
 [2026-02-17 07:18:05] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 16:56:45] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-17 18:13:53] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-17 18:13:53] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-17 18:13:54] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-17 18:13:55] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-17 18:13:55] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 18:14:25] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 18:14:55] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 18:15:25] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 18:15:56] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-17 18:15:56] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 18:16:26] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
