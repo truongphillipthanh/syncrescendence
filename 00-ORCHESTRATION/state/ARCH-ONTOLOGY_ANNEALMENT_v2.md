@@ -286,6 +286,10 @@ DYNAMIC layer   → Who can do what: governance, permissions, policy
 9. Kernel is small; orbit is large — minimum viable kernel: typed entities + state machines + verbs + versioned history + action mediation
 10. Nation-state becomes Layer 0 infrastructure (physical substrate, dispute resolution, identity root)
 
+**Telos distinction**: Enterprise Palantir targets efficiency and coordination under uncertainty. The personal Ontology targets coherence under persuasion, overload, and fragmentation — remaining oneself while scaling oneself. *Coherence is the scarce resource*, not compute or storage. This distinction governs every design decision downstream.
+
+**Kernel implementation note**: "Versioned History" (kernel component 4) = event sourcing: append-only ledger where current state is calculated by replaying events. This is how banks and Palantir work. **Directionality test**: "If the app defines how you model your world → skeleton/shackle. If your ontology defines your world model and the app is one interface → organ doing its job." Complements the delete-the-app test for active-use evaluation.
+
 ### 3.4 Divergence Points Requiring Sovereign Adjudication
 
 | Dimension | Models | Stakes |
@@ -313,6 +317,14 @@ DYNAMIC layer   → Who can do what: governance, permissions, policy
 - Knowledge / Document (structured remembering; personal knowledge architecture)
 - Skill / Capability (developing → operational → degraded state machine)
 
+### Tier 3: Architecturally Significant (2/4 model convergence)
+| Type | Description | Sovereignty Notes |
+|------|-------------|------------------|
+| Memory | Versioned knowledge state; provenance-tagged; supports confidence scores, dispute-handling, time-travel ("what you believed then") | Distinct from Knowledge/Document: Memory is the living state, not the archived artifact |
+| Policy/Rule | Governance kernel; defines permissible actions, invariants, identity-level constraints | The legislature in a personal constitutional democracy |
+| Health State | Biological state as first-class ontological object; connects Capacity to σ₇ Sensorium | Enables glucose-aware throttling; biological constraint on agent dispatch |
+| Environment/Context | Situational hydration surface; enables Context-as-a-Service: when you think of a project, all relevant context instantiates | Gemini's unique architectural contribution (R1) |
+
 **V2 Additions** (from gap analysis, Sessions 17-18 intentions):
 - BudgetEnvelope (per-model quota ceilings, burn rates, reset schedules)
 - RateLimitPool (shared capacity across agents — Psyche + Adjudicator share ChatGPT Plus)
@@ -325,6 +337,8 @@ DYNAMIC layer   → Who can do what: governance, permissions, policy
 - SensingTask (Live Ledger pipeline unit)
 - EscalationQueue (-SOVEREIGN/ as first-class object type)
 - AgentVault (Obsidian vault as shared human-agent knowledge graph — INT-1711)
+
+**Primary failure mode — artifacts vs. invariants**: Most ontology-building fails by modeling artifacts (tasks, notes, documents) instead of invariants (commitments, capacities, constraints, identity-level goals). Without invariants, the ontology degenerates into a glorified CRM. The Tier 1 object set in §3.5 is invariant-first by design — resist any pressure to add artifact types at Tier 1.
 
 ### 3.6 Universal Action Verb Categories (All Models)
 
@@ -378,6 +392,8 @@ DYNAMIC layer   → Who can do what: governance, permissions, policy
 | Commander | COO / Viceroy | Claude Opus 4.6 | Mac mini (+ MBA dual-residency) | HEALTHY |
 | Adjudicator | CQO / Executor | Codex CLI (Claude Sonnet) | Mac mini | HEALTHY |
 | Cartographer | CIO / Exegete | Gemini 2.5 Pro | Mac mini | HEALTHY/IDLE |
+
+**DEC-SAAS-006**: Ajna uses Kimi K2.5 (not Claude) because Anthropic OAuth is blocked for Claude Max within the OpenClaw architecture. OpenClaw cannot authenticate to Claude API models. This is a hard architectural constraint, not a preference.
 
 **AjnaPsyche Archon**: Fused CSO+CTO executive brain. Ajna = steering wheel (strategic direction), Psyche = rudder (system cohesion). StarCraft High Templar → Archon metaphor.
 
@@ -575,6 +591,8 @@ FDIS (Field Deployable Intelligence System, SYN-17, Backlog) is the engineering 
 7. **HighCommand/Agendizer**: Implements OntologyClass enum and force-directed graph — may already partially build what V1 proposes. Not investigated. Risk of re-inventing existing work.
 8. **Convergence vision coverage**: ~12% scaffold coverage. Content strategy, curriculum, economic model near-zero — correct build order, but the gap is real.
 
+**Repeatedly Slipped** (distinct failure category from Persistent Gaps): Items committed to across ≥3 sessions, never executed: chezmoi activation, Agent Pipe/always-on mode (designed Feb 8, never activated), Notion config (SYN-59), Discord/Slack (SYN-50), anti-shelfware lint, SQLite↔Airtable sync. Diagnosis: not a planning failure — an activation failure. High intention, near-zero follow-through execution energy.
+
 ### 6.4 Emergent Patterns from Clarescence
 
 **Verbatim Trap Test** (INT-P020): Every synthesis must produce what sources didn't contain — connections, tensions, implications, questions. V1 partially fails this test (three EXEMPLA blocks restate rather than distill).
@@ -586,6 +604,8 @@ FDIS (Field Deployable Intelligence System, SYN-17, Backlog) is the engineering 
 **Supersede, Never Delete** (INT-P018): State changes preserve history via supersession chains. Directly conflicts with V1's Purge permission in governance table — must reconcile.
 
 **42% Delivery Rate**: Systemic measurement of clarescence-to-action conversion. 100% delivery categories: SQLite/Ontology DB, SOVEREIGN decisions, Filesystem kanban. 0% categories: Voice pipeline, Activation sequences, CLAUDE.md protocol changes, Proactive orchestration.
+
+**Lens Mutation Archaeology** (DEC-CONV-003): Forensic analysis of 23 clarescence sessions revealed 6 discrete lens mutation events producing 117 distinct lens names across sessions. Lenses drifted without tracking, creating silent inconsistency. The Dual-Path Lens System (Runbook v3.0.0) emerged from this archaeology. Record: LENS-ARCHAEOLOGY.md. Pattern: frameworks mutate unless archaeologically anchored.
 
 ---
 
@@ -609,6 +629,8 @@ FDIS (Field Deployable Intelligence System, SYN-17, Backlog) is the engineering 
 ### 7.3 P0 Gaps (Blocking to Kernel Crystallization)
 
 **Security Domain** (entirely absent from V1): INT-1709 ("200+ exposed instances"), INT-1712 ("perimeter is capability, not network"), INT-P019 ("security as binding constraint"). Missing: Credential object type (rotation/expiry/exposure states), SecurityBoundary, ThreatSurface, SkillAuditRecord. DC-002 and DC-003 are P0-CRITICAL and unaddressed.
+
+**Schema Capture (P0 threat surface)**: An actor who controls object type definitions — what entity types exist, what relationships are valid, what actions are permissible — controls the Sovereign's operational reality. This is ontological capture, distinct from credential theft. The SecurityBoundary must enforce schema sovereignty: only the Sovereign may define or modify the canonical entity taxonomy.
 
 **Token Economics Domain** (absent from V1): INT-1801 (token economics dispatch), INT-P014 ("tokens are the new minerals and vespene gas"), INT-P024 (Intelligence Tiering). Missing: BudgetEnvelope, RateLimitPool, IntelligenceTier objects. Routing constraint: token-budget-aware dispatch. Shared pool: Psyche + Adjudicator share ChatGPT Plus daily limit (not modeled).
 
