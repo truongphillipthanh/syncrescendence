@@ -266,3 +266,4 @@
 [2026-02-17 18:56:22] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-17 18:56:22] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-17 18:56:52] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 18:57:23] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
