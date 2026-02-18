@@ -1,6 +1,6 @@
 # TASK: Annealment v2 Verification & Gap Patching — MBA Reinit
 
-**Status**: PENDING
+**Status**: DONE
 **Priority**: P0
 **Reply-To**: commander
 **CC**: commander
