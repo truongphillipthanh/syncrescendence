@@ -37,7 +37,3 @@ The Global Ledger has **no entries after 2026-02-15**. Two full days of substant
 2. **Advance stalled sprint intentions** — INT-1206 (IIC configs), INT-1601 (Syncrescript), INT-1602 (IIC ingestion) show zero recent commits. Either dispatch tasks or explicitly defer these to prevent intention debt accumulation.
 
 3. **Validate 02-ENGINE file modifications** — 30+ ENGINE files were touched in the last 24h. Confirm these are intentional edits tied to the resilience/bridge work and not accidental state drift from automated processes.
-
-**Retry-Count**: 1
-**Retried-At**: 2026-02-17T16:37:09Z
-**Retried-By**: proactive_orchestrator.sh
