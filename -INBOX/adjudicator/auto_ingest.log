@@ -490,3 +490,12 @@
 [2026-02-17 20:26:58] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-17 20:27:50] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-17 20:27:55] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 20:28:56] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 20:29:36] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 20:30:07] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-17 20:30:07] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 20:30:47] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 20:31:24] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 20:31:59] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-17 20:32:49] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-17 20:32:51] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
