@@ -96,7 +96,7 @@ Brutally honest. Numbered. Root cause for each. DO NOT REPEAT THESE.
 
 | Agent | Target Output | Status |
 |-------|--------------|--------|
-| canon-indexer | `.scratch/ANNEAL-DIGEST-CANON.md` | CHECK |
+| canon-indexer | `.scratch/ANNEAL-DIGEST-CANON.md` | **FAILED** — "Prompt is too long" (264K tokens exceeded agent capacity). Must split into 3-4 sub-agents by file range (e.g., CANON-00xxx, CANON-10xxx, CANON-20xxx, CANON-30xxx). |
 | clarescence-indexer | `.scratch/ANNEAL-DIGEST-CLARESCENCE.md` | CHECK |
 | scaffold-indexer | `.scratch/ANNEAL-DIGEST-SCAFFOLD.md` | CHECK |
 | metachar-convergence-indexer | `.scratch/ANNEAL-DIGEST-METACHAR.md` | CHECK |
@@ -130,6 +130,8 @@ Brutally honest. Numbered. Root cause for each. DO NOT REPEAT THESE.
 ls -la /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-*.md
 wc -l /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-*.md
 ```
+
+**KNOWN FAILURE**: canon-indexer failed — "Prompt is too long." 264K tokens exceeded Sonnet agent capacity. CANON must be split into 3-4 sub-agents. Use `ls 01-CANON/*.md | wc -l` to count files, then split alphabetically or by CANON-ID range. Each sub-agent produces a partial digest, then a merge agent combines them.
 
 **Decision tree**:
 - All 5 present AND each >100 lines → proceed to Step 1
@@ -229,6 +231,7 @@ Key individual files:
 6. **DO NOT** use relative paths — always absolute from `/Users/home/Desktop/syncrescendence/`
 7. **DO NOT** try to hold >10K tokens of content reads in a single Opus session
 8. **DO NOT** launch N parallel agents that each try to read the full corpus — divide domains first
+9. **DO NOT** assume a single Sonnet agent can handle >200K tokens of file reads — CANON at 264K tokens blew out with "Prompt is too long." Split any domain >150K tokens into 2-4 sub-agents by file range.
 9. **DO NOT** rush ExitPlanMode before incorporating all Sovereign feedback
 10. **DO NOT** confuse "execute first" (do things you can do) with "interrupt the briefing" (don't listen)
 
