@@ -1,0 +1,5 @@
+state=CLOSED
+reason=manual_reset_post_sync_bomb_recovery
+changed_at_unix=1771383583
+changed_at_iso=2026-02-18T02:59:43Z
+cooldown_until=0
