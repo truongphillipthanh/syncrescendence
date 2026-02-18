@@ -109,8 +109,12 @@ Brutally honest. Numbered. Root cause for each. DO NOT REPEAT THESE.
 - `00-ORCHESTRATION/state/impl/.scratch/` — digest output directory (may need `mkdir -p`).
 
 ### Working Tree
-- Uncommitted changes mostly .DS_Store files + inbox file movements from Ajna sync.
-- No critical uncommitted code changes.
+- Committed at f27ca2b (Session 20 handoff).
+- **WARNING**: Convergence docs were git-deleted by Ajna sync but still exist on disk:
+  - `/Users/home/Desktop/syncrescendence/-INBOX/commander/syncrescendence_convergence.md` (142K)
+  - `/Users/home/Desktop/syncrescendence/-INBOX/commander/syncrescendent_convergence_aligned.md` (98K)
+  - They are physically present. If git shows them deleted, recover with `git checkout HEAD~1 -- <path>` or just read from disk.
+- Many CONFIRM/RESULT files were moved back from 40-DONE to 00-INBOX0 by Ajna sync (inbox churn — not critical, process or ignore).
 
 ### Constellation Health
 - All 4 agents HEALTHY as of session start (2026-02-17 19:32).
