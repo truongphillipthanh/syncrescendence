@@ -7130,3 +7130,6 @@
 [2026-02-19 21:48:04] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 21:48:36] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 21:48:53] [psyche] Shutdown signal received, cleaning up
+[2026-02-19 22:13:35] [psyche] === Starting auto-ingest loop ===
+[2026-02-19 22:13:39] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-19 22:14:15] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local

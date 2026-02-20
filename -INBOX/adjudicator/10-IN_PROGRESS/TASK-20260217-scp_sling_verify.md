@@ -8,11 +8,17 @@
 **Kind**: TASK
 **Priority**: P1
 **Status**: IN_PROGRESS
+**Retry-Count**: 1
+**Failed-At**: 2026-02-20T06:14:58Z
+**Failure-Reason**: Exceeded 1800s
+**Failure-Retryable**: true
+**Failure-Class**: timeout
+**Failure-Code**: EXEC_TIMEOUT
 **Lease-ID**: lease-adjudicator-1771566193-48554
-**Attempt**: 1
-**Kanban**: INBOX0
-**Claimed-By**: adjudicator
-**Claimed-At**: 2026-02-20T05:43:14Z
+**Attempt**: 2
+**Kanban**: IN_PROGRESS
+**Claimed-By**: adjudicator-M1-Mac-mini
+**Claimed-At**: 2026-02-20T06:15:19Z
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30

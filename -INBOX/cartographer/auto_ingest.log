@@ -6863,3 +6863,6 @@ Error executing tool yield_turn: Error: MCP tool 'yield_turn' reported an error.
 [2026-02-19 21:48:05] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 21:48:36] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 21:48:53] [cartographer] Shutdown signal received, cleaning up
+[2026-02-19 22:13:45] [cartographer] === Starting auto-ingest loop ===
+[2026-02-19 22:13:45] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-19 22:14:20] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
