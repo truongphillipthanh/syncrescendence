@@ -116,7 +116,7 @@ integrity_gate_ok() {
         return 0
     fi
 
-    "$INTEGRITY_GATE_SCRIPT" --repo "$REPO_DIR" --context orchestrator >/dev/null 2>&1
+    bash "$INTEGRITY_GATE_SCRIPT" --repo "$REPO_DIR" --context orchestrator >/dev/null 2>&1
 }
 
 enforce_integrity() {

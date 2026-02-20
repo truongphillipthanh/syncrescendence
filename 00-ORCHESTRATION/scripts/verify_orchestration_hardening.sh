@@ -51,7 +51,7 @@ check_exists_and_exec "$WATCHDOG"
 check_exists_and_exec "$SUPERVISOR"
 check_exists_and_exec "$DISPATCH"
 
-if "$INTEGRITY_GATE" --repo "$REPO_ROOT" --context verify_hardening --strict --quiet; then
+if bash "$INTEGRITY_GATE" --repo "$REPO_ROOT" --context verify_hardening --strict --quiet; then
     pass "strict integrity gate"
 else
     fail "strict integrity gate"

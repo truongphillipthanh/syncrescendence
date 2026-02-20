@@ -64,7 +64,7 @@ fi
 
 # Guardrails: fail-closed when integrity is unsafe or breaker is OPEN.
 if [ -x "$INTEGRITY_GATE" ]; then
-    if ! "$INTEGRITY_GATE" --repo "$REPO_ROOT" --context dispatch --quiet; then
+    if ! bash "$INTEGRITY_GATE" --repo "$REPO_ROOT" --context dispatch --quiet; then
         echo "Error: integrity gate failed; dispatch aborted"
         exit 1
     fi
