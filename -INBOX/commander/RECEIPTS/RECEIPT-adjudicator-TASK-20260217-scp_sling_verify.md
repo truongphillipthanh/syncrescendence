@@ -7,18 +7,18 @@
 **Fingerprint**: 1d405ad
 **Kind**: TASK
 **Priority**: P1
-**Status**: IN_PROGRESS
-**Retry-Count**: 2
+**Status**: FAILED
+**Retry-Count**: 1
 **Failed-At**: 2026-02-20T06:14:58Z
 **Failure-Reason**: You've hit your usage limit
 **Failure-Retryable**: true
 **Failure-Class**: timeout
 **Failure-Code**: EXEC_TIMEOUT
-**Lease-ID**: lease-adjudicator-1771569164-13610
-**Attempt**: 3
+**Lease-ID**: lease-adjudicator-1771566193-48554
+**Attempt**: 2
 **Kanban**: FAILED
-**Claimed-By**: adjudicator
-**Claimed-At**: 2026-02-20T06:32:44Z
+**Claimed-By**: adjudicator-M1-Mac-mini
+**Claimed-At**: 2026-02-20T06:15:19Z
 **Completed-At**: 2026-02-20T06:32:08Z
 **Exit-Code**: 75
 **Timeout**: 30

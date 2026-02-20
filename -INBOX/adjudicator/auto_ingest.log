@@ -2876,3 +2876,11 @@
 [2026-02-19 22:28:01] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-19 22:28:01] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 22:28:32] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:29:02] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:29:37] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:30:08] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:30:09] [adjudicator] BREAKER_OPEN: retry scan skipped
+[2026-02-19 22:30:40] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:32:14] [adjudicator] RETRY (2/3): TASK-20260217-scp_sling_verify.md
+[2026-02-19 22:32:44] [adjudicator] Dispatching: TASK-20260217-scp_sling_verify
+[2026-02-19 22:32:47] [adjudicator] Dispatched successfully: TASK-20260217-scp_sling_verify
