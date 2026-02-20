@@ -3,16 +3,19 @@
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-20 00:04:06
-**Fingerprint**: 0db4ff7
+**Issued**: 2026-02-20 00:07:35
+**Fingerprint**: ed82903
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: You've hit your usage limit
-**Status**: FAILED
+**Status**: IN_PROGRESS
+**Lease-ID**: lease-adjudicator-1771574903-13610
+**Attempt**: 2
+**Retry-Count**: 1
 **Kanban**: FAILED
-**Claimed-By**: adjudicator-M1-Mac-mini
-**Claimed-At**: 2026-02-20T08:04:09Z
-**Completed-At**: 2026-02-20T08:04:11Z
+**Claimed-By**: adjudicator
+**Claimed-At**: 2026-02-20T08:08:23Z
+**Completed-At**: 2026-02-20T08:07:38Z
 **Exit-Code**: 75
 **Timeout**: 30
 **CC**: —

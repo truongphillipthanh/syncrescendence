@@ -6912,3 +6912,18 @@
 [2026-02-20 00:03:27] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-20 00:03:27] [commander] BREAKER_OPEN: retry scan skipped
 [2026-02-20 00:03:57] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:04:27] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:04:28] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-20 00:04:58] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:05:29] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:05:29] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-20 00:05:59] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:06:29] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:06:29] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-20 00:07:00] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:07:31] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:08:03] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:08:35] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:09:06] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:09:37] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:10:09] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
