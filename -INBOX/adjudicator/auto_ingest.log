@@ -2884,3 +2884,6 @@
 [2026-02-19 22:32:14] [adjudicator] RETRY (2/3): TASK-20260217-scp_sling_verify.md
 [2026-02-19 22:32:44] [adjudicator] Dispatching: TASK-20260217-scp_sling_verify
 [2026-02-19 22:32:47] [adjudicator] Dispatched successfully: TASK-20260217-scp_sling_verify
+[2026-02-19 22:50:11] [adjudicator] BREAKER_OPEN: retry scan skipped
+[2026-02-19 22:51:14] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:53:20] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle

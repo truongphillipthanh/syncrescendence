@@ -6758,3 +6758,16 @@
 [2026-02-19 22:48:19] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-19 22:48:50] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-19 22:49:21] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 22:49:51] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:50:21] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:50:21] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-19 22:50:52] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:50:52] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:51:22] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:51:52] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:52:23] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:52:53] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:52:53] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:53:23] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:53:53] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:54:24] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
