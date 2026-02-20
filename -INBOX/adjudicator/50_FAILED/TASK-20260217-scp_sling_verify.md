@@ -62,3 +62,12 @@ Consult as needed:
 **Failed-At**: 2026-02-20T07:04:47Z
 **Stale-Duration**: 1923s (threshold: 1800s)
 **Moved-By**: proactive_orchestrator.sh
+
+---
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-20T07:41:17Z
+**Stale-Duration**: 2091s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh

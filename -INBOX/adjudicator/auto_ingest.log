@@ -2902,3 +2902,5 @@
 [2026-02-19 23:05:54] [adjudicator] RETRY (3/3): TASK-20260217-scp_sling_verify.md
 [2026-02-19 23:06:25] [adjudicator] Dispatching: TASK-20260217-scp_sling_verify
 [2026-02-19 23:06:29] [adjudicator] Dispatched successfully: TASK-20260217-scp_sling_verify
+[2026-02-19 23:36:28] [adjudicator] TIMEOUT: TASK-20260217-scp_sling_verify (1802s exceeded 1800s)
+[2026-02-19 23:37:05] [adjudicator] ESCALATION: TASK-20260217-scp_sling_verify.md → -SOVEREIGN/
