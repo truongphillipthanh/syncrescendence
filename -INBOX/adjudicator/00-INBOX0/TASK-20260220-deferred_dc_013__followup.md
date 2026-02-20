@@ -8,14 +8,14 @@
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: rate limit persisted after retries
-**Status**: IN_PROGRESS
-**Failed-At**: 2026-02-20T09:32:06Z
+**Status**: PENDING
+**Failed-At**: 2026-02-20T10:25:05Z
 **Failure-Retryable**: true
 **Failure-Class**: quota
 **Failure-Code**: RATE_LIMIT
 **Lease-ID**: lease-adjudicator-1771582500-49022
-**Attempt**: 3
-**Retry-Count**: 2
+**Attempt**: 4
+**Retry-Count**: 3
 **Kanban**: FAILED
 **Claimed-By**: adjudicator
 **Claimed-At**: 2026-02-20T10:15:00Z
