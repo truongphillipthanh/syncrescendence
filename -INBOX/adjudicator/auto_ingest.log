@@ -2909,3 +2909,9 @@
 [2026-02-19 23:53:03] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 23:53:34] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 23:54:04] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:02:46] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:02:46] [adjudicator] BREAKER_OPEN: retry scan skipped
+[2026-02-20 00:03:16] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:03:47] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:03:47] [adjudicator] BREAKER_OPEN: retry scan skipped
+[2026-02-20 00:04:18] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)

@@ -6901,3 +6901,14 @@
 [2026-02-19 23:57:48] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-19 23:58:19] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-19 23:58:50] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:59:20] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:59:52] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:00:22] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:00:53] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:01:24] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:01:55] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:02:25] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-20 00:02:56] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:03:27] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 00:03:27] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-20 00:03:57] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
