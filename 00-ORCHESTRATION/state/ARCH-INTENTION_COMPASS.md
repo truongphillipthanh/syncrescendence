@@ -1,6 +1,6 @@
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
-**Last Updated**: 2026-02-09
+**Last Updated**: 2026-02-19
 **Oracle Lineage**: 0 → 15+
 **Status**: Rolling snapshot
 **Authority**: Oracle 13+ / Commander
@@ -143,6 +143,7 @@ Each intention entry contains:
 | INT-1615 | 16 | "Health+fitness and homeowner property management modules" | active | P2 | Personal domain integration into Syncrescendence |
 | INT-1616 | 16 | "LifeOS/Zettelkasten/PKM/PARA/GTD architectural convergence" | active | P1 | Serious discussion needed: note-taking, linking your thinking, personal context lakehouse, pillars, pipelines, vaults |
 | INT-1618 | 16 | "Celestial alignment synchronization — cosmic coherence" | deferred | P3 | Poetic, cathartic moment for the Syncrescendence metaphor. When capacity allows. |
+| INT-1901 | 19 | "Avatarize Grok Build into the Constellation — xAI's first-party CLI coding agent (analogue to Claude Code). Monitor grokai.build / npm grok-build for public release. When available: install, configure avatar role, wire into auto-ingest dispatch, assign to constellation slot." | deferred | P2 | Blocked by: Grok Build not yet publicly released (2026-02-19). Pre-position: role = TBD (likely long-context reasoning or xAI-native tasks). Watch: grokai.build, github.com/xai-org, npm grok-build. |
 
 ### PATTERNS (Meta-Observations)
 
@@ -196,6 +197,7 @@ Each intention entry contains:
 | INT-C009 | 16 | "Celestial alignment synchronization — poetic, cathartic cosmic coherence moment for the Syncrescendence" | pending |
 | INT-C010 | 16 | "Notion/Airtable/LifeOS/Zettelkasten — note-taking, PKMs, linking your thinking, PARA, BASE, GTD, productivity, personal context lakehouse" | pending |
 | INT-C011 | 18 | "Cline + OpenCode installed — integrate for Commander manipulation via tmux, use most intelligent free models (OpenRouter free tier). Backlog now, operationalize as constellation stabilizes." | pending |
+| INT-C012 | 19 | "Grok Build (xAI's CLI coding agent, analogue to Claude Code) — not yet released publicly (npm package absent, waitlist only at grokai.build as of 2026-02-19). When released: avatarize into constellation as 6th agent." | pending |
 
 ### PRE-ORACLE INTENTIONS (Extracted from `my inputs.md`, 2026-02-01)
 
@@ -459,6 +461,11 @@ INT-P015 (dual-machine paradigm) ─────────► INT-1603, INT-16
 ---
 
 ## VERSION HISTORY
+
+**v3.1.0** (2026-02-19): Grok Build Backlog Entry (Session 19)
+- INT-1901: Grok Build avatarization — P2 backlog, blocked by public release. Pre-position slot in constellation.
+- INT-C012: Capture entry for Grok Build monitoring
+- Authority: Commander / Sovereign Session 19
 
 **v3.0.0** (2026-02-09): Sovereign Expansion Directive (Session 16)
 - 18 new intentions (INT-1601 through INT-1618) from massive Sovereign brain dump
