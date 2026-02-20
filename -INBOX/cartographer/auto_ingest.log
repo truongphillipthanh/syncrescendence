@@ -6951,3 +6951,16 @@ Error executing tool yield_turn: Error: MCP tool 'yield_turn' reported an error.
 [2026-02-20 00:06:53] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-20 00:06:53] [cartographer] BREAKER_OPEN: retry scan skipped
 [2026-02-20 00:07:24] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:07:56] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:08:27] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:08:27] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-20 04:08:57] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:09:27] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:09:27] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-20 04:09:58] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:10:28] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:10:28] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-20 04:10:58] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:11:29] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 04:11:29] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-20 04:11:59] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
