@@ -6796,3 +6796,16 @@
 [2026-02-19 23:03:31] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 23:04:01] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 23:04:31] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:05:01] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 23:05:01] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:05:32] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:06:02] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:06:32] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:07:03] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:07:33] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:08:04] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:08:35] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:09:06] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:09:37] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:10:08] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-19 23:10:38] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
