@@ -8,10 +8,13 @@
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: You've hit your usage limit
-**Status**: FAILED
+**Status**: IN_PROGRESS
+**Lease-ID**: lease-adjudicator-1771575495-49022
+**Attempt**: 2
+**Retry-Count**: 1
 **Kanban**: FAILED
-**Claimed-By**: adjudicator-M1-Mac-mini
-**Claimed-At**: 2026-02-20T08:17:12Z
+**Claimed-By**: adjudicator
+**Claimed-At**: 2026-02-20T08:18:15Z
 **Completed-At**: 2026-02-20T08:17:13Z
 **Exit-Code**: 75
 **Timeout**: 30
