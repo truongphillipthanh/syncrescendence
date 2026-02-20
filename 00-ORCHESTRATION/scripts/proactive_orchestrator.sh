@@ -94,7 +94,7 @@ changed_at_unix=$(now_epoch)
 changed_at_iso=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
 cooldown_until=${cooldown_until}
 BRK
-    log_action "BREAKER_${state}: ${reason}"
+    log_action "BREAKER_${state}: ${reason} [caller=${FUNCNAME[1]:-unknown} pid=$$]"
 }
 
 load_breaker_state() {
@@ -115,6 +115,9 @@ integrity_gate_ok() {
         log "WARN: integrity gate script missing, skipping hard gate"
         return 0
     fi
+
+    # Pre-clean Finder artifacts from git ref namespace before gate runs
+    find "${REPO_DIR}/.git/refs" "${REPO_DIR}/.git/logs/refs" -name '.DS_Store' -delete 2>/dev/null || true
 
     bash "$INTEGRITY_GATE_SCRIPT" --repo "$REPO_DIR" --context orchestrator >/dev/null 2>&1
 }
