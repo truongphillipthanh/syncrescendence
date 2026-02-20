@@ -7118,3 +7118,15 @@
 [2026-02-19 17:43:29] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-19 17:43:29] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-19 17:43:59] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 21:42:51] [psyche] === Starting auto-ingest loop ===
+[2026-02-19 21:42:55] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-19 21:43:07] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-19 21:43:08] [psyche] Removing stale lockfile /Users/home/Desktop/syncrescendence/-INBOX/psyche/.auto_ingest.lock (PID 68648 gone)
+[2026-02-19 21:43:23] [psyche] Shutdown signal received, cleaning up
+[2026-02-19 21:43:26] [psyche] === Starting auto-ingest loop ===
+[2026-02-19 21:43:27] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
+[2026-02-19 21:43:31] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-19 21:48:04] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 21:48:04] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 21:48:36] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 21:48:53] [psyche] Shutdown signal received, cleaning up

@@ -7,10 +7,12 @@
 **Fingerprint**: 1d405ad
 **Kind**: TASK
 **Priority**: P1
-**Status**: PENDING
+**Status**: IN_PROGRESS
+**Lease-ID**: lease-adjudicator-1771566193-48554
+**Attempt**: 1
 **Kanban**: INBOX0
-**Claimed-By**: —
-**Claimed-At**: —
+**Claimed-By**: adjudicator
+**Claimed-At**: 2026-02-20T05:43:14Z
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30
