@@ -7,11 +7,18 @@
 **Fingerprint**: 23bd8ff
 **Kind**: TASK
 **Priority**: P1
-**Failure-Reason**: You've hit your usage limit
-**Status**: FAILED
+**Failure-Reason**: rate limit persisted after retries
+**Status**: IN_PROGRESS
+**Failed-At**: 2026-02-20T12:43:44Z
+**Failure-Retryable**: true
+**Failure-Class**: quota
+**Failure-Code**: RATE_LIMIT
+**Lease-ID**: lease-adjudicator-1771591456-49022
+**Attempt**: 4
+**Retry-Count**: 3
 **Kanban**: FAILED
-**Claimed-By**: adjudicator-M1-Mac-mini
-**Claimed-At**: 2026-02-20T12:12:31Z
+**Claimed-By**: adjudicator
+**Claimed-At**: 2026-02-20T12:44:16Z
 **Completed-At**: 2026-02-20T12:12:33Z
 **Exit-Code**: 75
 **Timeout**: 30
