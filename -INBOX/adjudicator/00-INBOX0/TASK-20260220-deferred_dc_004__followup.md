@@ -3,16 +3,19 @@
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-20 00:34:35
-**Fingerprint**: 55cf473
+**Issued**: 2026-02-20 00:38:23
+**Fingerprint**: 3fad9bc
 **Kind**: TASK
 **Priority**: P1
+**Failure-Reason**: You've hit your usage limit
 **Status**: PENDING
-**Kanban**: INBOX0
-**Claimed-By**: —
-**Claimed-At**: —
-**Completed-At**: —
-**Exit-Code**: —
+**Attempt**: 2
+**Retry-Count**: 1
+**Kanban**: FAILED
+**Claimed-By**: adjudicator-M1-Mac-mini
+**Claimed-At**: 2026-02-20T08:38:24Z
+**Completed-At**: 2026-02-20T08:38:25Z
+**Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
 **Receipts-To**: -OUTBOX/adjudicator/RESULTS
