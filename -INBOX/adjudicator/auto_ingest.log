@@ -2841,3 +2841,25 @@
 [2026-02-19 22:15:47] [adjudicator] WARN: reply_to 'orchestrator' not in allowlist, ignoring
 [2026-02-19 22:15:49] [adjudicator] Dispatching: TASK-20260219-deferred_dc_004__followup
 [2026-02-19 22:17:33] [adjudicator] Dispatched successfully: TASK-20260219-deferred_dc_004__followup
+[2026-02-19 22:19:39] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-19 22:19:50] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-19 22:19:51] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-19 22:20:03] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-19 22:20:06] [adjudicator] Recovered in-progress task: TASK-20260219-deferred_dc_004__followup
+[2026-02-19 22:20:11] [adjudicator] Task completed: TASK-20260219-deferred_dc_004__followup (221s,     2174 bytes, lease=lease-adjudicator-1771568156-4545)
+[2026-02-19 22:20:13] [adjudicator] Sent CONFIRM to [2026-02-19 22:15:47] [adjudicator] WARN: reply_to 'orchestrator' not in allowlist, ignoring
+[2026-02-19 22:20:27] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-19 22:20:28] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-19 22:20:32] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-19 22:20:33] [adjudicator] Removing stale lockfile /Users/home/Desktop/syncrescendence/-INBOX/adjudicator/.auto_ingest.lock (PID 9844 gone)
+[2026-02-19 22:20:33] [adjudicator] WARN: Stale state for missing task file, clearing
+[2026-02-19 22:20:40] [adjudicator] WARN: reply_to 'orchestrator' not in allowlist, ignoring
+[2026-02-19 22:20:40] [adjudicator] Dispatching: TASK-20260219-deferred_dc_013__followup
+[2026-02-19 22:20:51] [adjudicator] Dispatched successfully: TASK-20260219-deferred_dc_013__followup
+[2026-02-19 22:21:27] [adjudicator] Task completed: TASK-20260219-deferred_dc_013__followup (42s,     2132 bytes, lease=lease-adjudicator-1771568441-10895)
+[2026-02-19 22:21:29] [adjudicator] Sent CONFIRM to [2026-02-19 22:20:40] [adjudicator] WARN: reply_to 'orchestrator' not in allowlist, ignoring
+[2026-02-19 22:21:31] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-19 22:21:32] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-19 22:21:41] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-19 22:21:42] [adjudicator] Removing stale lockfile /Users/home/Desktop/syncrescendence/-INBOX/adjudicator/.auto_ingest.lock (PID 10895 gone)
+[2026-02-19 22:21:43] [adjudicator] WARN: Stale state for missing task file, clearing
