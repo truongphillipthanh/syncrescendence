@@ -1,20 +1,18 @@
-# TASK-20260220-deferred_dc_013__followup
+# TASK-20260220-deferred_dc_004__followup
 
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-20 00:23:03
-**Fingerprint**: 11d4e86
+**Issued**: 2026-02-20 01:24:44
+**Fingerprint**: 8aa3c69
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: You've hit your usage limit
-**Status**: PENDING
-**Attempt**: 2
-**Retry-Count**: 1
+**Status**: FAILED
 **Kanban**: FAILED
 **Claimed-By**: adjudicator-M1-Mac-mini
-**Claimed-At**: 2026-02-20T08:23:03Z
-**Completed-At**: 2026-02-20T08:23:04Z
+**Claimed-At**: 2026-02-20T09:24:45Z
+**Completed-At**: 2026-02-20T09:24:47Z
 **Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
@@ -26,7 +24,7 @@
 
 ## Objective
 
-OVERDUE DEFERRED COMMITMENT: DC-013 — Protocol changes to CLAUDE.md: 4 proposed changes, 0 enacted. Target 2026-02-16. Assess status, blockers, and next concrete action.
+OVERDUE DEFERRED COMMITMENT: DC-004 — Rosetta Stone expansion: commit ~25 ontological terms resolved in clarescences to REF-ROSETTA_STONE.md. Target 2026-02-18. Assess status, blockers, and next concrete action.
 
 ---
 
@@ -40,11 +38,11 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260220-deferred_dc_013__followup.md`
+- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260220-deferred_dc_004__followup.md`
 - Or commit directly if you have write access
 
 ## Completion Protocol
 
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
-3. If cross-machine: `git add -A && git commit -m "task: deferred_dc_013__followup complete" && git push`
+3. If cross-machine: `git add -A && git commit -m "task: deferred_dc_004__followup complete" && git push`
