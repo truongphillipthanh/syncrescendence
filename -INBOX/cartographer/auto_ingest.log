@@ -8107,3 +8107,15 @@ Error executing tool yield_turn: Error: MCP tool 'yield_turn' reported an error.
 [2026-02-20 14:31:03] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-20 14:31:03] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-20 14:31:33] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:32:03] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:32:33] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:33:04] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-20 14:33:04] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:33:34] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:34:05] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:34:35] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:35:06] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-20 14:35:06] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:35:36] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:36:06] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 14:36:37] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
