@@ -2904,3 +2904,5 @@
 [2026-02-19 23:06:29] [adjudicator] Dispatched successfully: TASK-20260217-scp_sling_verify
 [2026-02-19 23:36:28] [adjudicator] TIMEOUT: TASK-20260217-scp_sling_verify (1802s exceeded 1800s)
 [2026-02-19 23:37:05] [adjudicator] ESCALATION: TASK-20260217-scp_sling_verify.md → -SOVEREIGN/
+[2026-02-19 23:52:33] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 23:52:33] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
