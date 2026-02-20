@@ -7137,3 +7137,13 @@
 [2026-02-19 22:19:52] [psyche] === Starting auto-ingest loop ===
 [2026-02-19 22:19:53] [psyche] Agent: psyche | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.1
 [2026-02-19 22:20:06] [psyche] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-19 22:24:40] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:24:40] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:25:10] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:25:40] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:26:11] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:26:41] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:26:41] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:27:11] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:27:42] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:28:12] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)

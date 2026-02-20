@@ -2863,3 +2863,16 @@
 [2026-02-19 22:21:41] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
 [2026-02-19 22:21:42] [adjudicator] Removing stale lockfile /Users/home/Desktop/syncrescendence/-INBOX/adjudicator/.auto_ingest.lock (PID 10895 gone)
 [2026-02-19 22:21:43] [adjudicator] WARN: Stale state for missing task file, clearing
+[2026-02-19 22:23:59] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:23:59] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:24:29] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:24:59] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:25:30] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:26:00] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:26:00] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:26:30] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:27:01] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:27:31] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:28:01] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:28:01] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:28:32] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)

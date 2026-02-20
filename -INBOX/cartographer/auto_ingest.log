@@ -6870,3 +6870,15 @@ Error executing tool yield_turn: Error: MCP tool 'yield_turn' reported an error.
 [2026-02-19 22:19:53] [cartographer] === Starting auto-ingest loop ===
 [2026-02-19 22:19:54] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
 [2026-02-19 22:20:07] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-19 22:24:18] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:24:18] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:24:48] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:25:19] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:25:49] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:26:20] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:26:20] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:26:50] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:27:20] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:27:50] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 22:28:21] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-19 22:28:21] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
