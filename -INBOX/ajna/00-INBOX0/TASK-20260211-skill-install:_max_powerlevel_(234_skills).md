@@ -47,10 +47,14 @@ Consult as needed:
 3. If cross-machine: `git add -A && git commit -m "task: skill-install:_max_powerlevel_(234_skills) complete" && git push`
 
 ---
-**Failure-Reason**: stale_in_progress_timeout (76889s)
-**Failed-At**: 2026-02-17T15:47:09Z
-**Failed-By**: proactive_orchestrator
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-20T04:12:47Z
+**Stale-Duration**: 193184s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh
 
 **Retry-Count**: 1
-**Retried-At**: 2026-02-17T16:42:16Z
+**Retried-At**: 2026-02-20T04:23:03Z
 **Retried-By**: proactive_orchestrator.sh
