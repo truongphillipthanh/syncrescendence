@@ -45,3 +45,12 @@ Consult as needed:
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
 3. If cross-machine: `git add -A && git commit -m "task: skill-install:_max_powerlevel_(234_skills) complete" && git push`
+
+---
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-20T04:12:47Z
+**Stale-Duration**: 193184s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh
