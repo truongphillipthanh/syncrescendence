@@ -7,11 +7,15 @@
 **Fingerprint**: 11d4e86
 **Kind**: TASK
 **Priority**: P1
-**Failure-Reason**: You've hit your usage limit
-**Status**: IN_PROGRESS
+**Failure-Reason**: rate limit persisted after retries
+**Status**: PENDING
+**Failed-At**: 2026-02-20T09:32:06Z
+**Failure-Retryable**: true
+**Failure-Class**: quota
+**Failure-Code**: RATE_LIMIT
 **Lease-ID**: lease-adjudicator-1771579323-49022
-**Attempt**: 2
-**Retry-Count**: 1
+**Attempt**: 3
+**Retry-Count**: 2
 **Kanban**: FAILED
 **Claimed-By**: adjudicator
 **Claimed-At**: 2026-02-20T09:22:03Z
