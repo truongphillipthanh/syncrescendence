@@ -3,23 +3,23 @@
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-20 03:47:10
-**Fingerprint**: 23bd8ff
+**Issued**: 2026-02-20 05:48:22
+**Fingerprint**: 6069394
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: rate limit persisted after retries
 **Status**: FAILED
-**Failed-At**: 2026-02-20T13:15:33Z
+**Failed-At**: 2026-02-20T14:20:22Z
 **Failure-Retryable**: true
 **Failure-Class**: quota
 **Failure-Code**: RATE_LIMIT
-**Lease-ID**: lease-adjudicator-1771592728-49022
+**Lease-ID**: lease-adjudicator-1771596618-49022
 **Attempt**: 4
 **Retry-Count**: 3
 **Kanban**: FAILED
 **Claimed-By**: adjudicator
-**Claimed-At**: 2026-02-20T13:05:28Z
-**Completed-At**: 2026-02-20T11:47:13Z
+**Claimed-At**: 2026-02-20T14:10:18Z
+**Completed-At**: 2026-02-20T13:48:27Z
 **Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
