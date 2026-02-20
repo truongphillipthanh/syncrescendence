@@ -2906,3 +2906,6 @@
 [2026-02-19 23:37:05] [adjudicator] ESCALATION: TASK-20260217-scp_sling_verify.md → -SOVEREIGN/
 [2026-02-19 23:52:33] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-19 23:52:33] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:53:03] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:53:34] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-19 23:54:04] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
