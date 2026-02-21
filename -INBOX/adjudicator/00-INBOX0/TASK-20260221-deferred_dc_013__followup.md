@@ -1,25 +1,20 @@
-# TASK-20260220-deferred_dc_013__followup
+# TASK-20260221-deferred_dc_013__followup
 
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-20 14:52:41
-**Fingerprint**: a514ff4
+**Issued**: 2026-02-21 09:05:31
+**Fingerprint**: 9c97c45
 **Kind**: TASK
 **Priority**: P1
-**Failure-Reason**: rate limit persisted after retries
-**Status**: FAILED
-**Failed-At**: 2026-02-21T16:59:11Z
-**Failure-Retryable**: true
-**Failure-Class**: quota
-**Failure-Code**: RATE_LIMIT
-**Lease-ID**: lease-adjudicator-1771692549-18397
-**Attempt**: 4
-**Retry-Count**: 3
+**Failure-Reason**: You've hit your usage limit
+**Status**: PENDING
+**Attempt**: 2
+**Retry-Count**: 1
 **Kanban**: FAILED
-**Claimed-By**: adjudicator
-**Claimed-At**: 2026-02-21T16:49:09Z
-**Completed-At**: 2026-02-21T06:34:36Z
+**Claimed-By**: adjudicator-M1-Mac-mini
+**Claimed-At**: 2026-02-21T17:05:32Z
+**Completed-At**: 2026-02-21T17:05:34Z
 **Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
@@ -45,7 +40,7 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260220-deferred_dc_013__followup.md`
+- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260221-deferred_dc_013__followup.md`
 - Or commit directly if you have write access
 
 ## Completion Protocol

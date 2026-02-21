@@ -1,0 +1,85 @@
+# TASK-20260221-infrastructure_audit
+
+**From**: orchestrator
+**To**: Psyche (OpenClaw GPT-5.3-codex)
+**Reply-To**: orchestrator
+**Issued**: 2026-02-21 07:54:09
+**Fingerprint**: 9c97c45
+**Kind**: TASK
+**Priority**: P1
+**Status**: IN_PROGRESS
+**Attempt**: 4
+**Retry-Count**: 3
+**Kanban**: IN_PROGRESS
+**Claimed-By**: psyche-M1-Mac-mini
+**Claimed-At**: 2026-02-21T17:25:52Z
+**Completed-At**: —
+**Exit-Code**: —
+**Timeout**: 30
+**CC**: —
+**Receipts-To**: -OUTBOX/psyche/RESULTS
+**Escalation-Contact**: orchestrator
+**Escalation-Delay**: 10
+
+---
+
+## Objective
+
+Run infrastructure coherence audit: launchd templates vs deployed, watchdog status, Docker restart policies, auto-ingest supervisor status.
+
+---
+
+## Context Files
+
+Consult as needed:
+- `COCKPIT.md` — Constellation overview
+- `CLAUDE.md` — Constitutional rules
+- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+
+## Expected Output
+
+- Write results to `-OUTBOX/psyche/RESULTS/RESULT-psyche-20260221-infrastructure_audit.md`
+- Or commit directly if you have write access
+
+## Completion Protocol
+
+1. Write output to the specified location
+2. Update **Status** above from PENDING to COMPLETE
+3. If cross-machine: `git add -A && git commit -m "task: infrastructure_audit complete" && git push`
+
+---
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-21T16:24:58Z
+**Stale-Duration**: 1848s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh
+
+---
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-21T16:55:21Z
+**Stale-Duration**: 1812s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh
+
+---
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-21T17:25:45Z
+**Stale-Duration**: 1814s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh
+
+---
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-21T17:56:29Z
+**Stale-Duration**: 1836s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh
