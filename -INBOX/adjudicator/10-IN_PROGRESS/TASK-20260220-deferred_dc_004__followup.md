@@ -7,20 +7,12 @@
 **Fingerprint**: 184c65e
 **Kind**: TASK
 **Priority**: P1
-**Failure-Reason**: rate limit persisted after retries
-**Status**: FAILED
-**Failed-At**: 2026-02-21T16:27:29Z
-**Failure-Retryable**: true
-**Failure-Class**: quota
-**Failure-Code**: RATE_LIMIT
-**Lease-ID**: lease-adjudicator-1771690646-18397
-**Attempt**: 4
-**Retry-Count**: 3
-**Kanban**: FAILED
-**Claimed-By**: adjudicator
-**Claimed-At**: 2026-02-21T16:17:26Z
-**Completed-At**: 2026-02-21T06:37:58Z
-**Exit-Code**: 75
+**Status**: IN_PROGRESS
+**Kanban**: IN_PROGRESS
+**Claimed-By**: adjudicator-M1-Mac-mini
+**Claimed-At**: 2026-02-21T19:07:51Z
+**Completed-At**: —
+**Exit-Code**: —
 **Timeout**: 30
 **CC**: —
 **Receipts-To**: -OUTBOX/adjudicator/RESULTS
