@@ -1,21 +1,21 @@
-# TASK-20260221-deferred_dc_003__followup
+# TASK-20260221-corpus_freshness
 
 **From**: orchestrator
-**To**: Adjudicator (Codex CLI)
+**To**: Cartographer (Gemini CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-21 12:56:04
-**Fingerprint**: 36eea95
+**Issued**: 2026-02-21 12:40:37
+**Fingerprint**: ace2d24
 **Kind**: TASK
 **Priority**: P1
-**Status**: PENDING
-**Kanban**: INBOX0
-**Claimed-By**: —
-**Claimed-At**: —
+**Status**: IN_PROGRESS
+**Kanban**: IN_PROGRESS
+**Claimed-By**: cartographer-M1-Mac-mini
+**Claimed-At**: 2026-02-21T21:10:54Z
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30
 **CC**: —
-**Receipts-To**: -OUTBOX/adjudicator/RESULTS
+**Receipts-To**: -OUTBOX/cartographer/RESULTS
 **Escalation-Contact**: orchestrator
 **Escalation-Delay**: 10
 
@@ -23,7 +23,7 @@
 
 ## Objective
 
-OVERDUE DEFERRED COMMITMENT: DC-003 — API key rotation (SOVEREIGN-012): plaintext keys in openclaw.json (NVIDIA, OpenAI, Slack, Discord). Target 2026-02-17. Assess status, blockers, and next concrete action.
+Survey corpus freshness and broken references. Report stale files and missing links.
 
 ---
 
@@ -37,11 +37,11 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260221-deferred_dc_003__followup.md`
+- Write results to `-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260221-corpus_freshness.md`
 - Or commit directly if you have write access
 
 ## Completion Protocol
 
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
-3. If cross-machine: `git add -A && git commit -m "task: deferred_dc_003__followup complete" && git push`
+3. If cross-machine: `git add -A && git commit -m "task: corpus_freshness complete" && git push`
