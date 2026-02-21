@@ -7,8 +7,8 @@
 **Fingerprint**: ace2d24
 **Kind**: TASK
 **Priority**: P1
-**Status**: IN_PROGRESS
-**Kanban**: IN_PROGRESS
+**Status**: PENDING
+**Kanban**: INBOX0
 **Claimed-By**: psyche-M1-Mac-mini
 **Claimed-At**: 2026-02-21T21:10:54Z
 **Completed-At**: —
@@ -54,3 +54,7 @@ Consult as needed:
 **Failed-At**: 2026-02-21T22:09:44Z
 **Stale-Duration**: 3530s (threshold: 1800s)
 **Moved-By**: proactive_orchestrator.sh
+
+**Retry-Count**: 1
+**Retried-At**: 2026-02-21T22:20:02Z
+**Retried-By**: proactive_orchestrator.sh
