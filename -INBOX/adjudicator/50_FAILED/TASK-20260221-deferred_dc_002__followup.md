@@ -3,23 +3,16 @@
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-21 15:09:38
+**Issued**: 2026-02-21 15:45:08
 **Fingerprint**: 7394ebc
 **Kind**: TASK
 **Priority**: P1
-**Failure-Reason**: rate limit persisted after retries
-**Status**: IN_PROGRESS
-**Failed-At**: 2026-02-21T23:31:50Z
-**Failure-Retryable**: true
-**Failure-Class**: quota
-**Failure-Code**: RATE_LIMIT
-**Lease-ID**: lease-adjudicator-1771716741-32331
-**Attempt**: 4
-**Retry-Count**: 3
+**Failure-Reason**: You've hit your usage limit
+**Status**: FAILED
 **Kanban**: FAILED
-**Claimed-By**: adjudicator
-**Claimed-At**: 2026-02-21T23:32:21Z
-**Completed-At**: 2026-02-21T23:09:41Z
+**Claimed-By**: adjudicator-M1-Mac-mini
+**Claimed-At**: 2026-02-21T23:45:10Z
+**Completed-At**: 2026-02-21T23:45:12Z
 **Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
