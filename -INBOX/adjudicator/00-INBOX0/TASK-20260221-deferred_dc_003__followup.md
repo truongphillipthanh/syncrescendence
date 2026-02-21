@@ -1,10 +1,10 @@
-# TASK-20260221-deferred_dc_002__followup
+# TASK-20260221-deferred_dc_003__followup
 
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-21 11:13:09
-**Fingerprint**: bff3a7a
+**Issued**: 2026-02-21 11:18:18
+**Fingerprint**: 55232b9
 **Kind**: TASK
 **Priority**: P1
 **Status**: PENDING
@@ -23,7 +23,7 @@
 
 ## Objective
 
-OVERDUE DEFERRED COMMITMENT: DC-002 — Security audit of 234+ skills: credential exfiltration risk assessment. Target 2026-02-17. Assess status, blockers, and next concrete action.
+OVERDUE DEFERRED COMMITMENT: DC-003 — API key rotation (SOVEREIGN-012): plaintext keys in openclaw.json (NVIDIA, OpenAI, Slack, Discord). Target 2026-02-17. Assess status, blockers, and next concrete action.
 
 ---
 
@@ -37,11 +37,11 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260221-deferred_dc_002__followup.md`
+- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260221-deferred_dc_003__followup.md`
 - Or commit directly if you have write access
 
 ## Completion Protocol
 
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
-3. If cross-machine: `git add -A && git commit -m "task: deferred_dc_002__followup complete" && git push`
+3. If cross-machine: `git add -A && git commit -m "task: deferred_dc_003__followup complete" && git push`
