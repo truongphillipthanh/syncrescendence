@@ -11306,3 +11306,13 @@
 [2026-02-21 13:16:28] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-21 13:16:28] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 13:16:58] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:17:29] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:17:59] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:18:29] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 13:19:00] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 13:19:31] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 13:20:01] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 13:20:32] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 13:21:03] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 13:21:33] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 13:22:04] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
