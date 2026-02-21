@@ -10227,3 +10227,4 @@
 [2026-02-21 15:06:19] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 15:06:49] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 15:07:19] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 15:25:02] [psyche] ESCALATION: TASK-20260221-infrastructure_audit.md → -SOVEREIGN/
