@@ -7,12 +7,16 @@
 **Fingerprint**: ace2d24
 **Kind**: TASK
 **Priority**: P1
+**Failure-Reason**: No capacity available for model
 **Status**: IN_PROGRESS
-**Kanban**: IN_PROGRESS
-**Claimed-By**: cartographer-M1-Mac-mini
-**Claimed-At**: 2026-02-21T21:10:54Z
-**Completed-At**: —
-**Exit-Code**: —
+**Lease-ID**: lease-cartographer-1771708494-32363
+**Attempt**: 2
+**Retry-Count**: 1
+**Kanban**: FAILED
+**Claimed-By**: cartographer
+**Claimed-At**: 2026-02-21T21:14:54Z
+**Completed-At**: 2026-02-21T20:52:17Z
+**Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
 **Receipts-To**: -OUTBOX/cartographer/RESULTS

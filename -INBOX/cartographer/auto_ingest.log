@@ -234,3 +234,40 @@
 [2026-02-21 12:29:13] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:43] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:30:03] [cartographer] Shutdown signal received, cleaning up
+[2026-02-21 13:12:19] [cartographer] === Starting auto-ingest loop ===
+[2026-02-21 13:12:19] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-21 13:12:20] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-21 13:12:22] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-21 13:12:22] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:12:52] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:13:23] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:13:53] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:14:24] [cartographer] RETRY (1/3): TASK-20260221-corpus_freshness.md
+[2026-02-21 13:14:54] [cartographer] WARN: reply_to 'orchestrator' not in allowlist, ignoring
+[2026-02-21 13:14:54] [cartographer] Dispatching: TASK-20260221-corpus_freshness
+[2026-02-21 13:14:54] [cartographer] Gemini headless dispatch: running gemini -p -y -o text
+[2026-02-21 13:14:54] [cartographer] Gemini headless PID: 36514
+[2026-02-21 13:14:54] [cartographer] Dispatched successfully: TASK-20260221-corpus_freshness
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loading extension: code-review
+Loading extension: conductor
+Loading extension: gemini-beads
+Loading extension: gemini-cli-security
+Loading extension: gemini-notifier
+Loading extension: gemini-obsidian
+Loading extension: plan
+Loading extension: self-command
+Server 'osvScanner' supports tool updates. Listening for changes...
+Server 'osvScanner' supports prompt updates. Listening for changes...
+Error during discovery for MCP server 'gemini-obsidian': MCP error -32000: Connection closedServer 'selfCommand' supports tool updates. Listening for changes...
+Server 'securityServer' supports tool updates. Listening for changes...
+Server 'securityServer' supports prompt updates. Listening for changes...
+[2026-02-21 13:15:24] [cartographer] Task completed: TASK-20260221-corpus_freshness (30s,      600 bytes, lease=lease-cartographer-1771708494-32363)
+[2026-02-21 13:15:24] [cartographer] Sent CONFIRM to [2026-02-21 13:14:54] [cartographer] WARN: reply_to 'orchestrator' not in allowlist, ignoring
+[2026-02-21 13:15:37] [cartographer] === Starting auto-ingest loop ===
+[2026-02-21 13:15:37] [cartographer] Agent: cartographer | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.7
+[2026-02-21 13:15:37] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-21 13:15:37] [cartographer] Removing stale lockfile /Users/home/Desktop/syncrescendence/-INBOX/cartographer/.auto_ingest.lock (PID 32363 gone)
+[2026-02-21 13:15:37] [cartographer] WARN: Stale state for missing task file, clearing

@@ -6955,3 +6955,15 @@
 [2026-02-21 12:29:07] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:37] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:30:03] [adjudicator] Shutdown signal received, cleaning up
+[2026-02-21 13:12:19] [adjudicator] === Starting auto-ingest loop ===
+[2026-02-21 13:12:19] [adjudicator] Agent: adjudicator | Repo: /Users/home/Desktop/syncrescendence | Pane: constellation:1.5
+[2026-02-21 13:12:20] [adjudicator] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
+[2026-02-21 13:12:21] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:12:22] [adjudicator] BREAKER_OPEN: retry scan skipped
+[2026-02-21 13:12:53] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 13:13:23] [adjudicator] WARN: reply_to 'orchestrator' not in allowlist, ignoring
+[2026-02-21 13:13:23] [adjudicator] Dispatching: TASK-20260221-deferred_dc_004__followup
+[2026-02-21 13:13:24] [adjudicator] Rate limit detected, waiting 60s (retry 1/10)...
+[2026-02-21 13:14:25] [adjudicator] Rate limit detected, waiting 60s (retry 2/10)...
+[2026-02-21 13:15:25] [adjudicator] Rate limit detected, waiting 60s (retry 3/10)...
+[2026-02-21 13:16:25] [adjudicator] Rate limit detected, waiting 60s (retry 4/10)...
