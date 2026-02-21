@@ -7,12 +7,13 @@
 **Fingerprint**: ace2d24
 **Kind**: TASK
 **Priority**: P1
-**Status**: IN_PROGRESS
-**Kanban**: IN_PROGRESS
+**Failure-Reason**: No capacity available for model
+**Status**: FAILED
+**Kanban**: FAILED
 **Claimed-By**: cartographer-M1-Mac-mini
 **Claimed-At**: 2026-02-21T20:40:39Z
-**Completed-At**: —
-**Exit-Code**: —
+**Completed-At**: 2026-02-21T20:52:17Z
+**Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
 **Receipts-To**: -OUTBOX/cartographer/RESULTS
