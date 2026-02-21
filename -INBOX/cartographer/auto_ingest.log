@@ -271,3 +271,243 @@ Server 'securityServer' supports prompt updates. Listening for changes...
 [2026-02-21 13:15:37] [cartographer] Neural Bridge env: AJNA=macbook-air CMD=local ADJ=local CART=local PSY=local
 [2026-02-21 13:15:37] [cartographer] Removing stale lockfile /Users/home/Desktop/syncrescendence/-INBOX/cartographer/.auto_ingest.lock (PID 32363 gone)
 [2026-02-21 13:15:37] [cartographer] WARN: Stale state for missing task file, clearing
+Bash command parsing error detected for command: <<EOF > -OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260221-corpus_freshness.md
+# Corpus Freshness & Reference Audit | 2026-02-21
+
+## 1. Corpus Freshness Summary
+
+| Zone | File Count | Last Significant Update | Freshness Status |
+|------|------------|-------------------------|------------------|
+| 01-CANON/ | 79 | 2025-12-30 (majority) | **STALE** |
+| 00-ORCHESTRATION/state/ | ~150 | 2026-02-21 (today) | **LIVE** |
+| 05-SIGMA/mechanics/ | 5 | 2026-02-17 | **FRESH** |
+
+### Observations:
+- **Canonical Drift**: 90% of the \`01-CANON/\` directory has not been updated in ~53 days. Only a few lattice/lattice-related files (\`CANON-25200\`, \`CANON-25000\`) show recent February activity.
+- **Orchestration Activity**: High-frequency updates in \`DYN-CONSTELLATION_STATE\` snapshots (140+ versions) indicate intense operational activity today.
+
+## 2. Reference Integrity Audit
+
+### Broken Links (Missing Files)
+The following references point to non-existent files:
+- \`[[CANON-00008-RESOLUTIONS-cosmos]]\` (Referenced in \`CANON-00004\`)
+- \`[[CANON-00009-STRATEGY]]\` (Should be \`CANON-00009-STRATEGY-cosmos\`)
+- \`[[CANON-30450]]\` (Should be \`CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE\`)
+
+### Placeholder & Mock References
+Multiple files contain "scaffold" links that were never resolved to actual sources:
+- \`[[Book A]]\`, \`[[Book B]]\`, \`[[Book C]]\`
+- \`[[Paper A]]\`, \`[[Paper B]]\`, \`[[Paper C]]\`
+- \`[[CANON-XXXXX]]\`
+
+### Abbreviated Link Fragmentation
+A significant pattern was detected where wikilinks use abbreviated IDs instead of full canonical filenames. This breaks standard Markdown/Obsidian resolution:
+- **Linked**: \`[[CANON-25000-MEMORY_ARCH]]\`
+- **Actual**: \`CANON-25000-MEMORY_ARCH-lattice.md\`
+- **Status**: Technically broken in vanilla Markdown parsers.
+
+## 3. Structural Health
+- **Orphan Count**: 0 files in \`01-CANON/\`. 
+- **Connectivity**: 100% of canonical files are reachable via at least one inbound wikilink.
+- **Redundancy**: Multiple \`DYN-CONSTELLATION_STATE\` files (\`1\`, \`2\`, \`3\`, etc.) suggest potential disk bloat in the state directory.
+
+## 4. Recommendations
+1. **Canonical Re-Sync**: Trigger a "Corpus-wide Annealment" to update \`updated:\` fields and verify content against current system state.
+2. **Link Normalization**: Standardize all abbreviated links to match full filenames to ensure cross-platform tool compatibility.
+3. **Placeholder Resolution**: Audit \`CANON-31142\` and others to replace "Book/Paper" placeholders with real research citations.
+4. **State Cleanup**: Archival or pruning of old \`DYN-CONSTELLATION_STATE\` versions to reduce directory noise.
+
+EOF Syntax Errors: [
+  'Error node: "<<EOF > -OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260221-corpus_freshness.md\n' +
+    '# Corpus Freshness & Reference Audit | 2026-02-21\n' +
+    '\n' +
+    '## 1. Corpus Freshness Summary\n' +
+    '\n' +
+    '| Zone | File Count | Last Significant Update | Freshness Status |\n' +
+    '|------|------------|-------------------------|------------------|\n' +
+    '| 01-CANON/ | 79 | 2025-12-30 (majority) | **STALE** |\n' +
+    '| 00-ORCHESTRATION/state/ | ~150 | 2026-02-21 (today) | **LIVE** |\n' +
+    '| 05-SIGMA/mechanics/ | 5 | 2026-02-17 | **FRESH** |\n' +
+    '\n' +
+    '### Observations:\n' +
+    '- **Canonical Drift**: 90% of the \\`01-CANON/\\` directory has not been updated in ~53 days. Only a few lattice/lattice-related files (\\`CANON-25200\\`, \\`CANON-25000\\`) show recent February activity.\n' +
+    '- **Orchestration Activity**: High-frequency updates in \\`DYN-CONSTELLATION_STATE\\` snapshots (140+ versions) indicate intense operational activity today.\n' +
+    '\n' +
+    '## 2. Reference Integrity Audit\n' +
+    '\n' +
+    '### Broken Links (Missing Files)\n' +
+    'The following references point to non-existent files:\n' +
+    '- \\`[[CANON-00008-RESOLUTIONS-cosmos]]\\` (Referenced in \\`CANON-00004\\`)\n' +
+    '- \\`[[CANON-00009-STRATEGY]]\\` (Should be \\`CANON-00009-STRATEGY-cosmos\\`)\n' +
+    '- \\`[[CANON-30450]]\\` (Should be \\`CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE\\`)\n' +
+    '\n' +
+    '### Placeholder & Mock References\n' +
+    'Multiple files contain "scaffold" links that were never resolved to actual sources:\n' +
+    '- \\`[[Book A]]\\`, \\`[[Book B]]\\`, \\`[[Book C]]\\`\n' +
+    '- \\`[[Paper A]]\\`, \\`[[Paper B]]\\`, \\`[[Paper C]]\\`\n' +
+    '- \\`[[CANON-XXXXX]]\\`\n' +
+    '\n' +
+    '### Abbreviated Link Fragmentation\n' +
+    'A significant pattern was detected where wikilinks use abbreviated IDs instead of full canonical filenames. This breaks standard Markdown/Obsidian resolution:\n' +
+    '- **Linked**: \\`[[CANON-25000-MEMORY_ARCH]]\\`\n' +
+    '- **Actual**: \\`CANON-25000-MEMORY_ARCH-lattice.md\\`\n' +
+    '- **Status**: Technically broken in vanilla Markdown parsers.\n' +
+    '\n' +
+    '## 3. Structural Health\n' +
+    '- **Orphan Count**: 0 files in \\`01-CANON/\\`. \n' +
+    '- **Connectivity**: 100% of canonical files are reachable via at least one inbound wikilink.\n' +
+    '- **Redundancy**: Multiple \\`DYN-CONSTELLATION_STATE\\` files (\\`1\\`, \\`2\\`, \\`3\\`, etc.) suggest potential disk bloat in the state directory.\n' +
+    '\n' +
+    '## 4. Recommendations\n' +
+    '1. **Canonical Re-Sync**: Trigger a "Corpus-wide Annealment" to update \\`updated:\\` fields and verify content against current system state.\n' +
+    '2. **Link Normalization**: Standardize all abbreviated links to match full filenames to ensure cross-platform tool compatibility.\n' +
+    '3. **Placeholder Resolution**: Audit \\`CANON-31142\\` and others to replace "Book/Paper" placeholders with real research citations.\n' +
+    '4. **State Cleanup**: Archival or pruning of old \\`DYN-CONSTELLATION_STATE\\` versions to reduce directory noise.\n' +
+    '\n' +
+    'EOF" at 0:0',
+  'Error node: "<" at 0:0',
+  'Error node: "|" at 5:0',
+  'Missing node: "" at 5:66',
+  'Error node: "|" at 7:0',
+  'Error node: "|" at 8:0',
+  'Error node: "|" at 9:0',
+  'Error node: "(" at 12:133',
+  'Error node: ")" at 12:166',
+  'Error node: "(" at 13:94',
+  'Error node: ")" at 13:108',
+  'Error node: "(" at 19:41',
+  'Error node: ")\n-" at 19:71',
+  'Error node: "(" at 20:31',
+  'Error node: ")\n-" at 20:73',
+  'Error node: "(" at 21:22',
+  'Error node: ")\n\n###" at 21:92',
+  'Error node: "&" at 23:16',
+  'Error node: "(" at 38:61',
+  'Error node: ")" at 38:87'
+]
+missing pgrep output
+Bash command parsing error detected for command: <<'EOF' > -OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260221-corpus_freshness.md
+# Corpus Freshness & Reference Audit | 2026-02-21
+
+## 1. Corpus Freshness Summary
+
+| Zone | File Count | Last Significant Update | Freshness Status |
+|------|------------|-------------------------|------------------|
+| 01-CANON/ | 79 | 2025-12-30 (majority) | **STALE** |
+| 00-ORCHESTRATION/state/ | ~150 | 2026-02-21 (today) | **LIVE** |
+| 05-SIGMA/mechanics/ | 5 | 2026-02-17 | **FRESH** |
+
+### Observations:
+- **Canonical Drift**: 90% of the `01-CANON/` directory has not been updated in ~53 days. Only a few lattice/lattice-related files (`CANON-25200`, `CANON-25000`) show recent February activity.
+- **Orchestration Activity**: High-frequency updates in `DYN-CONSTELLATION_STATE` snapshots (140+ versions) indicate intense operational activity today.
+
+## 2. Reference Integrity Audit
+
+### Broken Links (Missing Files)
+The following references point to non-existent files:
+- `[[CANON-00008-RESOLUTIONS-cosmos]]` (Referenced in `CANON-00004`)
+- `[[CANON-00009-STRATEGY]]` (Should be `CANON-00009-STRATEGY-cosmos`)
+- `[[CANON-30450]]` (Should be `CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE`)
+
+### Placeholder & Mock References
+Multiple files contain "scaffold" links that were never resolved to actual sources:
+- `[[Book A]]`, `[[Book B]]`, `[[Book C]]`
+- `[[Paper A]]`, `[[Paper B]]`, `[[Paper C]]`
+- `[[CANON-XXXXX]]`
+
+### Abbreviated Link Fragmentation
+A significant pattern was detected where wikilinks use abbreviated IDs instead of full canonical filenames. This breaks standard Markdown/Obsidian resolution:
+- **Linked**: `[[CANON-25000-MEMORY_ARCH]]`
+- **Actual**: `CANON-25000-MEMORY_ARCH-lattice.md`
+- **Status**: Technically broken in vanilla Markdown parsers.
+
+## 3. Structural Health
+- **Orphan Count**: 0 files in `01-CANON/`. 
+- **Connectivity**: 100% of canonical files are reachable via at least one inbound wikilink.
+- **Redundancy**: Multiple `DYN-CONSTELLATION_STATE` files (`1`, `2`, `3`, etc.) suggest potential disk bloat in the state directory.
+
+## 4. Recommendations
+1. **Canonical Re-Sync**: Trigger a "Corpus-wide Annealment" to update `updated:` fields and verify content against current system state.
+2. **Link Normalization**: Standardize all abbreviated links to match full filenames to ensure cross-platform tool compatibility.
+3. **Placeholder Resolution**: Audit `CANON-31142` and others to replace "Book/Paper" placeholders with real research citations.
+4. **State Cleanup**: Archival or pruning of old `DYN-CONSTELLATION_STATE` versions to reduce directory noise.
+EOF Syntax Errors: [
+  `Error node: "<<'EOF' > -OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260221-corpus_freshness.md\n` +
+    '# Corpus Freshness & Reference Audit | 2026-02-21\n' +
+    '\n' +
+    '## 1. Corpus Freshness Summary\n' +
+    '\n' +
+    '| Zone | File Count | Last Significant Update | Freshness Status |\n' +
+    '|------|------------|-------------------------|------------------|\n' +
+    '| 01-CANON/ | 79 | 2025-12-30 (majority) | **STALE** |\n' +
+    '| 00-ORCHESTRATION/state/ | ~150 | 2026-02-21 (today) | **LIVE** |\n' +
+    '| 05-SIGMA/mechanics/ | 5 | 2026-02-17 | **FRESH** |\n' +
+    '\n' +
+    '### Observations:\n' +
+    '- **Canonical Drift**: 90% of the `01-CANON/` directory has not been updated in ~53 days. Only a few lattice/lattice-related files (`CANON-25200`, `CANON-25000`) show recent February activity.\n' +
+    '- **Orchestration Activity**: High-frequency updates in `DYN-CONSTELLATION_STATE` snapshots (140+ versions) indicate intense operational activity today.\n' +
+    '\n' +
+    '## 2. Reference Integrity Audit\n' +
+    '\n' +
+    '### Broken Links (Missing Files)\n' +
+    'The following references point to non-existent files:\n' +
+    '- `[[CANON-00008-RESOLUTIONS-cosmos]]` (Referenced in `CANON-00004`)\n' +
+    '- `[[CANON-00009-STRATEGY]]` (Should be `CANON-00009-STRATEGY-cosmos`)\n' +
+    '- `[[CANON-30450]]` (Should be `CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE`)\n' +
+    '\n' +
+    '### Placeholder & Mock References\n' +
+    'Multiple files contain "scaffold" links that were never resolved to actual sources:\n' +
+    '- `[[Book A]]`, `[[Book B]]`, `[[Book C]]`\n' +
+    '- `[[Paper A]]`, `[[Paper B]]`, `[[Paper C]]`\n' +
+    '- `[[CANON-XXXXX]]`\n' +
+    '\n' +
+    '### Abbreviated Link Fragmentation\n' +
+    'A significant pattern was detected where wikilinks use abbreviated IDs instead of full canonical filenames. This breaks standard Markdown/Obsidian resolution:\n' +
+    '- **Linked**: `[[CANON-25000-MEMORY_ARCH]]`\n' +
+    '- **Actual**: `CANON-25000-MEMORY_ARCH-lattice.md`\n' +
+    '- **Status**: Technically broken in vanilla Markdown parsers.\n' +
+    '\n' +
+    '## 3. Structural Health\n' +
+    '- **Orphan Count**: 0 files in `01-CANON/`. \n' +
+    '- **Connectivity**: 100% of canonical files are reachable via at least one inbound wikilink.\n' +
+    '- **Redundancy**: Multiple `DYN-CONSTELLATION_STATE` files (`1`, `2`, `3`, etc.) suggest potential disk bloat in the state directory.\n' +
+    '\n' +
+    '## 4. Recommendations\n' +
+    '1. **Canonical Re-Sync**: Trigger a "Corpus-wide Annealment" to update `updated:` fields and verify content against current system state.\n' +
+    '2. **Link Normalization**: Standardize all abbreviated links to match full filenames to ensure cross-platform tool compatibility.\n' +
+    '3. **Placeholder Resolution**: Audit `CANON-31142` and others to replace "Book/Paper" placeholders with real research citations.\n' +
+    '4. **State Cleanup**: Archival or pruning of old `DYN-CONSTELLATION_STATE` versions to reduce directory noise.\n' +
+    'EOF" at 0:0',
+  'Error node: "<" at 0:0',
+  'Error node: "|" at 5:0',
+  'Missing node: "" at 5:66',
+  'Error node: "|" at 7:0',
+  'Error node: "|" at 8:0',
+  'Error node: "|" at 9:0',
+  'Error node: "(" at 12:131',
+  'Error node: ")" at 12:160',
+  'Error node: "(" at 13:92',
+  'Error node: ")" at 13:106',
+  'Error node: "CANON-00008-RESOLUTIONS-cosmos]]` (Referenced in `CANON-00004`)\n' +
+    '- `[[CANON-00009-STRATEGY]]` (Should be `CANON-00009-STRATEGY-cosmos`)\n' +
+    '- `[[CANON-30450]]` (Should be `CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE`)\n' +
+    '\n' +
+    '### Placeholder & Mock References\n' +
+    'Multiple files contain "scaffold" links that were never resolved to actual sources:\n' +
+    '- `[[Book A]]`, `[[Book B]]`, `[[Book C]]`\n' +
+    '- `[[Paper A]]`, `[[Paper B]]`, `[[Paper C]]`\n' +
+    '- `[[CANON-XXXXX]]" at 19:5',
+  'Missing node: "" at 31:42',
+  'Error node: "(" at 38:59',
+  'Error node: ")" at 38:79'
+]
+missing pgrep output
+Bash command parsing error detected for command: <<EOF >> 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
+
+### $SESSION_ID | $DATE_TIME
+- **Branch**: main | **Fingerprint**: $FINGERPRINT
+- **Outcome**: SUCCESS
+- **Commits**: 0 | **Changes**: 1
+- **Details**: Produced corpus freshness and reference audit report in -OUTBOX/cartographer/RESULTS/
+EOF Syntax Errors: [ 'Error node: "<" at 0:0' ]
+missing pgrep output
