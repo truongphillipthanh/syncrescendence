@@ -10207,3 +10207,4 @@
 [2026-02-21 12:28:33] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:03] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:34] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 12:30:03] [psyche] Shutdown signal received, cleaning up

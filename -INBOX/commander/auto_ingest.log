@@ -11289,3 +11289,5 @@
 [2026-02-21 12:29:02] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:32] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-21 12:29:32] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 12:30:03] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 12:30:03] [commander] Shutdown signal received, cleaning up

@@ -233,3 +233,4 @@
 [2026-02-21 12:28:43] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:13] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:43] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 12:30:03] [cartographer] Shutdown signal received, cleaning up

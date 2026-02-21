@@ -6954,3 +6954,4 @@
 [2026-02-21 12:29:07] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-21 12:29:07] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 12:29:37] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 12:30:03] [adjudicator] Shutdown signal received, cleaning up
