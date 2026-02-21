@@ -8,7 +8,9 @@
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: You've hit your usage limit
-**Status**: FAILED
+**Status**: PENDING
+**Attempt**: 2
+**Retry-Count**: 1
 **Kanban**: FAILED
 **Claimed-By**: adjudicator-M1-Mac-mini
 **Claimed-At**: 2026-02-21T21:26:05Z
