@@ -11545,3 +11545,15 @@
 [2026-02-21 15:17:16] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-21 15:17:46] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-21 15:18:17] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 15:18:47] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-21 15:18:47] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 15:19:17] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 15:19:48] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 15:20:18] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 15:20:48] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 15:21:19] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 15:21:49] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 15:22:20] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 15:22:51] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 15:23:21] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 15:23:52] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
