@@ -10072,3 +10072,15 @@
 [2026-02-20 22:47:33] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-20 22:47:33] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-20 22:48:03] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:48:34] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:49:04] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:49:34] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-20 22:49:34] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:50:04] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:50:35] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:51:05] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:51:35] [commander] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-20 22:51:35] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:52:06] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:52:36] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 22:53:06] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
