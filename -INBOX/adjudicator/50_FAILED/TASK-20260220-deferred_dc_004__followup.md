@@ -1,18 +1,19 @@
-# TASK-20260221-deferred_dc_002__followup
+# TASK-20260220-deferred_dc_004__followup
 
 **From**: orchestrator
 **To**: Adjudicator (Codex CLI)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-21 01:34:59
-**Fingerprint**: 698ca0f
+**Issued**: 2026-02-20 22:37:55
+**Fingerprint**: 184c65e
 **Kind**: TASK
 **Priority**: P1
-**Status**: IN_PROGRESS
-**Kanban**: IN_PROGRESS
+**Failure-Reason**: You've hit your usage limit
+**Status**: FAILED
+**Kanban**: FAILED
 **Claimed-By**: adjudicator-M1-Mac-mini
-**Claimed-At**: 2026-02-21T19:07:58Z
-**Completed-At**: —
-**Exit-Code**: —
+**Claimed-At**: 2026-02-21T19:07:51Z
+**Completed-At**: 2026-02-21T19:07:53Z
+**Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
 **Receipts-To**: -OUTBOX/adjudicator/RESULTS
@@ -23,7 +24,7 @@
 
 ## Objective
 
-OVERDUE DEFERRED COMMITMENT: DC-002 — Security audit of 234+ skills: credential exfiltration risk assessment. Target 2026-02-17. Assess status, blockers, and next concrete action.
+OVERDUE DEFERRED COMMITMENT: DC-004 — Rosetta Stone expansion: commit ~25 ontological terms resolved in clarescences to REF-ROSETTA_STONE.md. Target 2026-02-18. Assess status, blockers, and next concrete action.
 
 ---
 
@@ -37,11 +38,11 @@ Consult as needed:
 
 ## Expected Output
 
-- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260221-deferred_dc_002__followup.md`
+- Write results to `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260220-deferred_dc_004__followup.md`
 - Or commit directly if you have write access
 
 ## Completion Protocol
 
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
-3. If cross-machine: `git add -A && git commit -m "task: deferred_dc_002__followup complete" && git push`
+3. If cross-machine: `git add -A && git commit -m "task: deferred_dc_004__followup complete" && git push`

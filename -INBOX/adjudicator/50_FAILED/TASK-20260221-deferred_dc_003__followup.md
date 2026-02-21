@@ -7,12 +7,13 @@
 **Fingerprint**: 698ca0f
 **Kind**: TASK
 **Priority**: P1
-**Status**: PENDING
-**Kanban**: INBOX0
-**Claimed-By**: —
-**Claimed-At**: —
-**Completed-At**: —
-**Exit-Code**: —
+**Failure-Reason**: You've hit your usage limit
+**Status**: FAILED
+**Kanban**: FAILED
+**Claimed-By**: adjudicator-M1-Mac-mini
+**Claimed-At**: 2026-02-21T19:07:56Z
+**Completed-At**: 2026-02-21T19:07:57Z
+**Exit-Code**: 75
 **Timeout**: 30
 **CC**: —
 **Receipts-To**: -OUTBOX/adjudicator/RESULTS
