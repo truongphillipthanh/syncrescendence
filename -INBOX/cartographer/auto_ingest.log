@@ -159,3 +159,17 @@
 [2026-02-20 16:51:37] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-20 16:52:07] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-20 16:52:37] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:53:08] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-20 16:53:08] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:53:38] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:54:09] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:54:39] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:55:10] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-20 16:55:10] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:55:40] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:56:10] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:56:41] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:57:12] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-20 16:57:12] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:57:42] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-20 16:58:12] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
