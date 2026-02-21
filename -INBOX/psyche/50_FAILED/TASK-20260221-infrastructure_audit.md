@@ -3,16 +3,14 @@
 **From**: orchestrator
 **To**: Psyche (OpenClaw GPT-5.3-codex)
 **Reply-To**: orchestrator
-**Issued**: 2026-02-21 07:54:09
-**Fingerprint**: 9c97c45
+**Issued**: 2026-02-21 12:40:36
+**Fingerprint**: ace2d24
 **Kind**: TASK
 **Priority**: P1
 **Status**: IN_PROGRESS
-**Attempt**: 4
-**Retry-Count**: 3
 **Kanban**: IN_PROGRESS
 **Claimed-By**: psyche-M1-Mac-mini
-**Claimed-At**: 2026-02-21T17:25:52Z
+**Claimed-At**: 2026-02-21T21:10:54Z
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30
@@ -53,33 +51,6 @@ Consult as needed:
 **Failure-Class**: timeout
 **Failure-Retryable**: true
 **Failure-Reason**: stale_in_progress_timeout
-**Failed-At**: 2026-02-21T16:24:58Z
-**Stale-Duration**: 1848s (threshold: 1800s)
-**Moved-By**: proactive_orchestrator.sh
-
----
-**Failure-Code**: STALE_TIMEOUT
-**Failure-Class**: timeout
-**Failure-Retryable**: true
-**Failure-Reason**: stale_in_progress_timeout
-**Failed-At**: 2026-02-21T16:55:21Z
-**Stale-Duration**: 1812s (threshold: 1800s)
-**Moved-By**: proactive_orchestrator.sh
-
----
-**Failure-Code**: STALE_TIMEOUT
-**Failure-Class**: timeout
-**Failure-Retryable**: true
-**Failure-Reason**: stale_in_progress_timeout
-**Failed-At**: 2026-02-21T17:25:45Z
-**Stale-Duration**: 1814s (threshold: 1800s)
-**Moved-By**: proactive_orchestrator.sh
-
----
-**Failure-Code**: STALE_TIMEOUT
-**Failure-Class**: timeout
-**Failure-Retryable**: true
-**Failure-Reason**: stale_in_progress_timeout
-**Failed-At**: 2026-02-21T17:56:29Z
-**Stale-Duration**: 1836s (threshold: 1800s)
+**Failed-At**: 2026-02-21T22:09:44Z
+**Stale-Duration**: 3530s (threshold: 1800s)
 **Moved-By**: proactive_orchestrator.sh
