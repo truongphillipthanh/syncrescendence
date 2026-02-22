@@ -10873,3 +10873,15 @@
 [2026-02-21 21:41:19] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-21 21:41:19] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 21:41:49] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:42:19] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:42:50] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:43:20] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-21 21:43:20] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:43:50] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:44:20] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:44:51] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:45:21] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-21 21:45:21] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:45:51] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:46:22] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 21:46:52] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
