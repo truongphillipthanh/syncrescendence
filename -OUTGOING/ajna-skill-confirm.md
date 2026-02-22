@@ -1,1 +1,0 @@
-Ajna/CSO (MBA, Kimi K2.5 + Commander Opus 4.6) operational at max powerlevel — 234 skills installed across agents/openclaw/codex, all 11 key CSO skills confirmed, clarescence + dispatch + skillforge + session-handoff live, ready for strategic operations.
