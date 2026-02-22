@@ -7,10 +7,10 @@
 **Fingerprint**: ace2d24
 **Kind**: TASK
 **Priority**: P1
-**Status**: PENDING
-**Kanban**: INBOX0
+**Status**: IN_PROGRESS
+**Kanban**: IN_PROGRESS
 **Claimed-By**: psyche-M1-Mac-mini
-**Claimed-At**: 2026-02-21T21:10:54Z
+**Claimed-At**: 2026-02-22T08:27:03Z
 **Completed-At**: —
 **Exit-Code**: —
 **Timeout**: 30
