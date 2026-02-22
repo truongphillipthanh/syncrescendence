@@ -8,7 +8,7 @@
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: rate limit persisted after retries
-**Status**: FAILED
+**Status**: PENDING
 **Failed-At**: 2026-02-22T01:39:03Z
 **Failure-Retryable**: true
 **Failure-Class**: quota
@@ -16,7 +16,7 @@
 **Lease-ID**: lease-adjudicator-1771723740-32331
 **Attempt**: 2
 **Retry-Count**: 1
-**Kanban**: FAILED
+**Kanban**: INBOX0
 **Claimed-By**: adjudicator
 **Claimed-At**: 2026-02-22T01:29:00Z
 **Completed-At**: 2026-02-21T16:00:08Z
@@ -53,3 +53,7 @@ Consult as needed:
 1. Write output to the specified location
 2. Update **Status** above from PENDING to COMPLETE
 3. If cross-machine: `git add -A && git commit -m "task: ecosystem_health complete" && git push`
+
+**Retry-Count**: 2
+**Retried-At**: 2026-02-22T01:52:58Z
+**Retried-By**: proactive_orchestrator.sh
