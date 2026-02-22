@@ -10330,3 +10330,18 @@
 [2026-02-21 18:05:02] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 18:05:02] [psyche] BREAKER_OPEN: retry scan skipped
 [2026-02-21 18:05:32] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:06:03] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:06:03] [psyche] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:06:34] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:07:04] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:07:04] [psyche] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:07:35] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:08:05] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:08:05] [psyche] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:08:35] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:09:06] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:09:06] [psyche] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:09:36] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:10:07] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:10:07] [psyche] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:10:37] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)

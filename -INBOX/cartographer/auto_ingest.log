@@ -608,3 +608,18 @@ missing pgrep output
 [2026-02-21 18:04:55] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 18:05:25] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 18:05:25] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:05:55] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:06:26] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:06:26] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:06:57] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:07:27] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:07:27] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:07:58] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:08:28] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:08:28] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:08:59] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:09:29] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:09:29] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:10:00] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:10:30] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:10:30] [cartographer] BREAKER_OPEN: retry scan skipped
