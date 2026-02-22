@@ -11933,3 +11933,18 @@
 [2026-02-21 18:15:02] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 18:15:33] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 18:15:33] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:16:04] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:16:34] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:16:34] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:17:04] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:17:35] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:17:35] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:18:06] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:18:36] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:18:36] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:19:06] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:19:37] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:19:37] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-21 18:20:08] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:20:38] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 18:20:38] [commander] BREAKER_OPEN: retry scan skipped
