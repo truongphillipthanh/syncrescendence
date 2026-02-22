@@ -9681,3 +9681,15 @@
 [2026-02-22 09:16:19] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-22 09:16:49] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
 [2026-02-22 09:16:49] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:17:20] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:17:50] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:18:20] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:18:50] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-22 09:18:50] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:19:21] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:19:51] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:20:21] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:20:52] [adjudicator] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-22 09:20:52] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:21:22] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 09:21:52] [adjudicator] WRITE_GUARD: dispatch paused (integrity or breaker)
