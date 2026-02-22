@@ -11160,3 +11160,16 @@
 [2026-02-21 23:37:18] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 23:37:48] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-21 23:38:19] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:38:49] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-21 23:38:49] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:39:19] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:39:50] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:40:20] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:40:51] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-21 23:40:51] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:41:21] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:41:51] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:42:22] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:42:52] [psyche] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-21 23:42:52] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 23:43:23] [psyche] WRITE_GUARD: dispatch paused (integrity or breaker)
