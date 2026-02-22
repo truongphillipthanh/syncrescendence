@@ -1526,3 +1526,16 @@ missing pgrep output
 [2026-02-22 00:13:14] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-22 00:13:44] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
 [2026-02-22 00:14:14] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:14:45] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-22 00:14:46] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:15:16] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:15:46] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:16:16] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:16:47] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-22 00:16:47] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:17:17] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:17:48] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:18:18] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:18:49] [cartographer] INTEGRITY_GUARD: fail-closed active for this cycle
+[2026-02-22 00:18:49] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-22 00:19:19] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
