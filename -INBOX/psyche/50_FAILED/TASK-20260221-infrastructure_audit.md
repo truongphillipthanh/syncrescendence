@@ -58,3 +58,12 @@ Consult as needed:
 **Retry-Count**: 1
 **Retried-At**: 2026-02-21T22:20:02Z
 **Retried-By**: proactive_orchestrator.sh
+
+---
+**Failure-Code**: STALE_TIMEOUT
+**Failure-Class**: timeout
+**Failure-Retryable**: true
+**Failure-Reason**: stale_in_progress_timeout
+**Failed-At**: 2026-02-22T13:53:19Z
+**Stale-Duration**: 19576s (threshold: 1800s)
+**Moved-By**: proactive_orchestrator.sh
