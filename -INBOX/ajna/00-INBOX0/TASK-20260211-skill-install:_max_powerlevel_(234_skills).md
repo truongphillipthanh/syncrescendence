@@ -7,7 +7,7 @@
 **Fingerprint**: 34ac8ce
 **Kind**: TASK
 **Priority**: P1
-**Status**: PENDING
+**Status**: ESCALATED
 **Kanban**: INBOX0
 **Claimed-By**: ajna-M1-Mac-mini
 **Claimed-At**: 2026-02-12T03:42:48Z
