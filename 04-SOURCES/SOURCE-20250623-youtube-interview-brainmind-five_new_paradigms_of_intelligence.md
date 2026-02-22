@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250623-001
 title: Five New Paradigms of Intelligence

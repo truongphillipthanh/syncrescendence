@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250528-001
 title: An Informational Theory of Life

@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251021-002
 title: "Don't Die: Bryan Johnson on Living Forever, AI, and Blueprint's $60M Round"

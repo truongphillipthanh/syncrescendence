@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251030-001
 title: Solana, Crypto-AI Convergence, and Machine-to-Machine Economics

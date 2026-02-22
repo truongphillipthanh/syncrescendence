@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251024-002
 title: "The Future of Engineering: A Discipline Evolving to Meet Tomorrow's Challenges"

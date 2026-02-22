@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251020-002
 title: Godfather of AGI on Why Big Tech Innovation is Over

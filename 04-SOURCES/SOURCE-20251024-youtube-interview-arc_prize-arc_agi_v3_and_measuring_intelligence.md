@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251024-001
 title: ARC-AGI v3 and Measuring Intelligence

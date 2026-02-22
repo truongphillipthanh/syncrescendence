@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 url: "https://x.com/jamesjyu/status/2022926490619248883"
 author: "james yu (@jamesjyu)"

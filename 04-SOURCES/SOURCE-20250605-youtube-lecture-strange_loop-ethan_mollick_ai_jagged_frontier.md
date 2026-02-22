@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250605-001
 title: "Ethan Mollick on AI Jagged Frontier, Abundance Mindset, and Knowledge Collapse"

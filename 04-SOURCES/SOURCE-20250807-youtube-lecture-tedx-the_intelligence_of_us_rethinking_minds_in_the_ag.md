@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250807-001
 title: "The Intelligence of Us: Rethinking Minds in the Age of AI"

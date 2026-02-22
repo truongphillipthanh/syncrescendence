@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251029-001
 title: OpenAI Structure Change and AI Timelines

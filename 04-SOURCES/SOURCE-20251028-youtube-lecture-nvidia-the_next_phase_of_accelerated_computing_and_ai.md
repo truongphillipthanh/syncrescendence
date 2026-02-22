@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251028-001
 title: The Next Phase of Accelerated Computing and AI

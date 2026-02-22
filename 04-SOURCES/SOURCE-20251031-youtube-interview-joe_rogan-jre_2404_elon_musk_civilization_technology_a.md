@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-005
 title: "JRE #2404: Elon Musk - Civilization, Technology, and AI Future"

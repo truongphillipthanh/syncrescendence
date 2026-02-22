@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251101-001
 title: Renaissance 2.0 - Open AI Models Signal Democratic Revolution

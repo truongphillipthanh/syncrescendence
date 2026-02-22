@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250312-001
 title: "Dwarkesh Patel: Joseph Henrich - Cultural Evolution, Collective Brain, and the Origins of Modernity"

@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-006
 title: "Trevor McCourt on Probabilistic Circuits and the AI Energy Crisis"

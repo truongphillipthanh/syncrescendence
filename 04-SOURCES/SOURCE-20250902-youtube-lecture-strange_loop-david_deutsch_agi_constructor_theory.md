@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250902-001
 title: "David Deutsch on AGI vs AI Distinction and Constructor Theory"

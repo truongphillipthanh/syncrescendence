@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251020-001
 title: Reid Hoffman on AI, Consciousness, and the Future of Labor

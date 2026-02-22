@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251023-001
 title: Chain of Thought | MCP Atlas Benchmark Deep Dive

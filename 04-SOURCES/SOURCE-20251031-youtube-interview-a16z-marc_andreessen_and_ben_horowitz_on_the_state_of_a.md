@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-001
 title: Marc Andreessen and Ben Horowitz on the State of AI

@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251027-001
 title: Macroscopic Quantum Tunneling to Quantum Computing

@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251013-001
 title: "Faith, Physics, and the Quantum Race: Matthew Kinsella on Commercializing Quantum"

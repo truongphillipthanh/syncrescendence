@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251014-001
 title: Interface Theory of Perception and Consciousness

@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-004
 title: "John Gaeta on Transmedia, VFX History, and AI as Creative Permission"

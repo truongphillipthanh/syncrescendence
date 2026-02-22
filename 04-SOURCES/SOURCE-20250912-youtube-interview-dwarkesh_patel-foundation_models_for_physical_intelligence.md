@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250912-001
 title: Foundation Models for Physical Intelligence

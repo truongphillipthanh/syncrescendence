@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251025-001
 title: Life Emerges From Code

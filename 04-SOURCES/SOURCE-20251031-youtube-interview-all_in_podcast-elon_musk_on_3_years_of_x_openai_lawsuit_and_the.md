@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-003
 title: Elon Musk on 3 Years of X, OpenAI Lawsuit, and The Future of Everything

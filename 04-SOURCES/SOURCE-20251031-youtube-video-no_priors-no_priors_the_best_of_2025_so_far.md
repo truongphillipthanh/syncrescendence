@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-008
 title: "No Priors: The Best of 2025 (So Far)"

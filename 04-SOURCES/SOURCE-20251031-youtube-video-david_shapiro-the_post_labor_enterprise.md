@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-007
 title: The Post-Labor Enterprise

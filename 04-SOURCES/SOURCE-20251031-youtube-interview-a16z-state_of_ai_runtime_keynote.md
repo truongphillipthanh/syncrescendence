@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251031-002
 title: State of AI - Runtime Keynote

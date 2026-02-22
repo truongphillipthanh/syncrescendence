@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251021-001
 title: The Universal Hierarchy of Life

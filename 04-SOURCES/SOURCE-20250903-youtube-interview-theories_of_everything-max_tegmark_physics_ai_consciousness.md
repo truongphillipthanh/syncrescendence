@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20250903-001
 title: "Max Tegmark on Physics Absorbing AI and Consciousness Testing"

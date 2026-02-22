@@ -1,3 +1,4 @@
+has_transcript: yes
 ---
 id: SOURCE-20251027-002
 title: "The Coming Productivity Boom: Tax Policy and Economic Revival"
