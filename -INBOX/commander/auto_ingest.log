@@ -11801,3 +11801,16 @@
 [2026-02-21 17:28:39] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-21 17:29:10] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
 [2026-02-21 17:29:40] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 17:30:12] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 17:30:43] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 17:31:14] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 17:31:44] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 17:32:16] [commander] ERROR: No objective found in /Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md
+[2026-02-21 17:32:46] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:32:46] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-21 17:33:17] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:33:47] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:33:47] [commander] BREAKER_OPEN: retry scan skipped
+[2026-02-21 17:34:18] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:34:49] [commander] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:34:49] [commander] BREAKER_OPEN: retry scan skipped

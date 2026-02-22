@@ -511,3 +511,11 @@ Bash command parsing error detected for command: <<EOF >> 00-ORCHESTRATION/state
 - **Details**: Produced corpus freshness and reference audit report in -OUTBOX/cartographer/RESULTS/
 EOF Syntax Errors: [ 'Error node: "<" at 0:0' ]
 missing pgrep output
+[2026-02-21 17:32:55] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:32:55] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-21 17:33:25] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:33:56] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:33:56] [cartographer] BREAKER_OPEN: retry scan skipped
+[2026-02-21 17:34:26] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:34:56] [cartographer] WRITE_GUARD: dispatch paused (integrity or breaker)
+[2026-02-21 17:34:56] [cartographer] BREAKER_OPEN: retry scan skipped
