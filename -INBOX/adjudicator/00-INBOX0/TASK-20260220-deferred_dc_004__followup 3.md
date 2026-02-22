@@ -8,7 +8,7 @@
 **Kind**: TASK
 **Priority**: P1
 **Failure-Reason**: rate limit persisted after retries
-**Status**: IN_PROGRESS
+**Status**: PENDING
 **Failed-At**: 2026-02-21T21:34:02Z
 **Failure-Retryable**: true
 **Failure-Class**: quota
@@ -16,7 +16,7 @@
 **Lease-ID**: lease-adjudicator-1771709674-32331
 **Attempt**: 3
 **Retry-Count**: 2
-**Kanban**: FAILED
+**Kanban**: INBOX0
 **Claimed-By**: adjudicator
 **Claimed-At**: 2026-02-21T21:34:34Z
 **Completed-At**: 2026-02-21T19:07:53Z
@@ -62,3 +62,7 @@ Consult as needed:
 **Failed-At**: 2026-02-21T22:09:44Z
 **Stale-Duration**: 2110s (threshold: 1800s)
 **Moved-By**: proactive_orchestrator.sh
+
+**Retry-Count**: 3
+**Retried-At**: 2026-02-22T16:08:46Z
+**Retried-By**: proactive_orchestrator.sh
