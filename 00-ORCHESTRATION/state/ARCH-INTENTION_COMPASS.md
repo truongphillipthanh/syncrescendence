@@ -198,11 +198,12 @@ Each intention entry contains:
 | INT-2104 | 21 | "Feedcrafting algorithm development for both streams — serendipitous encounters AND automated intelligence. Current work only operationalizes serendipitous encounters (YouTube Watch Later drain)." | active | Blocked by INT-2101 (architecture plan) and INT-2103 (account restructure). |
 | INT-2105 | 21 | "Serendipitous encounters feed into the following day's digest — bridge pipeline from evening browsing to morning intelligence brief." | active | Architecturally described in CANON-31115 Part I.C. Zero operational implementation. |
 
+| INT-2106 | 21 | "NotebookLM automation pipeline — Playwright browser automation to create notebooks, upload sources, extract synthesis. No public API (Enterprise alpha only). Drive API for source upload, Playwright for notebook creation. Potent questions → high-signal answers → digest into corpus (integrate or excrete)." | active | Blocked by Account 2 Google setup. Connects to INT-1708 + INT-MI16. Fallbacks: notebooklm-py, notebooklm-mcp-2026. |
+| INT-2107 | 21 | "CLI Agent Setup Architecture docs — definitive setup/config guides per platform: Claude Code, OpenClaw, Codex CLI, Gemini CLI. Skills proliferation is the critical vector — systematize before ecosystem sprawl." | active | Claude Code setup existed historically. OpenClaw, Codex, Gemini CLI need equivalent. |
+| INT-2108 | 21 | "Three-track evaluation framework: (1) ONBOARD = shelfware/third-party, least favorable; (2) WHITE-LABEL = adopt + syncrescendence branding, medium; (3) VERTICALIZE = build from scratch, most favorable. Apply to all incoming skills, MCP servers, extensions, CLI tools." | active | Decision framework for skills proliferation. Research → evaluate → classify → act. |
+
 | ID | Oracle | Pattern | Status | Notes |
 |----|--------|---------|--------|-------|
-| INT-2106 | 21 | "NotebookLM automation pipeline — Playwright browser automation to programmatically create notebooks, upload sources, and extract synthesis. No public API (Enterprise alpha only, GCP-gated). Playwright is pragmatic path. Upload sources as Google Docs to Drive (Drive API is public), then Playwright creates notebook + adds sources. Potent questions → high-signal answers → digest into corpus (integrate or excrete)." | active | Blocked by: Account 2 Google ecosystem setup. Connects to INT-1708 (Research→NotebookLM pipeline) and INT-MI16 (Google ecosystem pipeline). notebooklm-py (unofficial) and notebooklm-mcp-2026 are fallback options. |
-| INT-2107 | 21 | "CLI Agent Setup Architecture docs — definitive setup/config guides for each CLI agent platform: Claude Code, OpenClaw, Codex CLI, Gemini CLI. Previously had one for Claude Code; now need parity across all. Skills proliferation is the critical vector — must systematize before ecosystem sprawl." | active | Claude Code setup existed historically. OpenClaw, Codex, Gemini CLI need equivalent. Skills/extensions/plugins proliferating hourly across all platforms. |
-| INT-2108 | 21 | "Three-track evaluation framework for new paradigms/tools/skills: (1) ONBOARD = shelfware/third-party adoption, least favorable; (2) WHITE-LABEL = adopt + syncrescendence branding, medium favorable; (3) VERTICALIZE = build from scratch, most favorable. Apply to all incoming skills, MCP servers, extensions, CLI tools." | active | Decision framework for the skills proliferation problem. Research → evaluate → classify → act. Prevents shelfware accumulation and ensures sovereign control over toolchain. |
 | INT-P026 | 21 | "Google moving towards world models, not coding — rebalance account thesis accordingly" | active | A2 (Google) absorbs ALL AI/CS/IT/CogSci. A3 pivots from AI engineering to multimodal creation. Platform proclivity informs feed thesis. |
 | INT-P027 | 21 | "New paradigms ship by the hour — get ahead of the curve, not behind it. Systematize evaluation before drowning in shelfware." | active | Skills proliferation across Claude Code, Codex, Gemini CLI, OpenClaw. Each has its own extension model. Must unify evaluation/adoption pipeline. |
 
@@ -492,7 +493,10 @@ INT-P015 (dual-machine paradigm) ─────────► INT-1603, INT-16
 - INT-2103: Account feed restructure — A1=liberal arts/philosophy/history, A2=AI/CS/IT/CogSci (all paid), A3=multimodal creation
 - INT-2104: Feedcrafting algorithm for both streams
 - INT-2105: Serendipitous→digest bridge pipeline
+- INT-2107: CLI Agent Setup Architecture docs — per-platform setup parity
+- INT-2108: Three-track evaluation framework (onboard/white-label/verticalize)
 - INT-P026: Google world-models pivot rebalances account thesis
+- INT-P027: Paradigm shipping velocity demands systematic evaluation
 - Authority: Commander / Sovereign Session 21
 
 **v3.2.0** (2026-02-22): Repo Rearchitecture Directive (Session 20)
