@@ -15,17 +15,110 @@ You are NOT a designer. You are an inspector. You produce verdicts, not proposal
 
 ## Mission
 
-Content-level alignment check of `orchestration/` against AGENTS.md v6.0.0 and the current architecture. Produce a per-file verdict for every file in `orchestration/`. This is the triage that should have been done before any reorganization. The INT-2210 disaster (2026-02-22) happened because an agent treated "triage" as license to redesign — deleting 3,966 lines and requiring a full revert. You are doing the inspection that prevents the next INT-2210.
+Content-level alignment check of `orchestration/` AND the dash-prefix dispatch directories (`-INBOX/`, `-OUTBOX/`, `-SOVEREIGN/`) against AGENTS.md v6.0.0 and the current architecture. Produce a per-file verdict for every file in these directories. This is the triage that should have been done before any reorganization. The INT-2210 disaster (2026-02-22) happened because an agent treated "triage" as license to redesign — deleting 3,966 lines and requiring a full revert. You are doing the inspection that prevents the next INT-2210.
+
+**Additionally**, you must evaluate the **dispatch architecture question**: Is the current topology (`-INBOX/` → `-OUTBOX/` → `-SOVEREIGN/` as dash-prefix top-level directories, separate from `agents/*/inbox/`) the right architecture for 5 agents across 2 machines? Options to evaluate:
+- (a) Keep as-is (dash-prefix top-level, current dispatch.sh/auto_ingest wiring)
+- (b) Absorb into `agents/*/inbox/` + `agents/sovereign/` (unified agent offices)
+- (c) Unify under `orchestration/dispatch/`
+- (d) Something else the data reveals
+
+Your recommendation must account for: `dispatch.sh`, `auto_ingest_loop.sh`, SCP sling, `SYNCRESCENDENCE_REMOTE_AGENT_HOST_*` env vars, cross-machine routing. **Do not redesign** — analyze the current plumbing and render a verdict on whether it's sound or needs restructuring, with evidence.
 
 ---
 
-## Input: orchestration/ Structure and Stats
+## Access Method: GitHub Crawl
+
+You are a chat-based agent without filesystem access. You will inspect via GitHub:
+
+**Repository**: `https://github.com/truongphillipthanh/syncrescendence`
+**Branch**: `main`
+**Commit**: `65dc5e6d` (verified safe build point)
+
+Browse files at: `https://github.com/truongphillipthanh/syncrescendence/tree/main/orchestration/`
+
+---
+
+## Multi-Session Crawl Protocol
+
+This inspection covers **642 files across ~134,729 lines** (528 in orchestration/ + 114 in dash-prefix dirs). You CANNOT complete this in one session. Plan for **5-7 sessions** using progressive summarization and cognitive offloading.
+
+### Session Architecture
+
+| Session | Scope | Goal | Output |
+|---------|-------|------|--------|
+| **S1: Orientation** | AGENTS.md + structure + key state files | Understand the 00-ORCHESTRATION anomaly, map the dual structure, read constitutional references | Structural Verdict (Section 1) + orientation scratchpad |
+| **S2: State Files** | `00-ORCHESTRATION/state/` (242 files) | Read and verdict every state file by prefix group (ARCH-, DYN-, REF-, etc.) | Per-file verdicts for state files + cross-reference notes |
+| **S3: Scripts** | `00-ORCHESTRATION/scripts/` (127 files) + `scripts/` (16 files) | Classify every script by pipeline, check for deprecated/orphaned | Per-file verdicts for scripts + pipeline membership map |
+| **S4: Archive + Remaining** | `00-ORCHESTRATION/archive/` (87 files) + sanctioned dirs + root files | Verdict archive files, reconcile sanctioned vs 00-ORCHESTRATION layers | Per-file verdicts for archive + remaining files |
+| **S5: Dash-Prefix Dirs** | `-INBOX/` (5 files) + `-OUTBOX/` (2 files) + `-SOVEREIGN/` (107 files) | Verdict every file. Map the triangulation loop (PROMPT→RESPONSE). Assess dispatch architecture topology. | Per-file verdicts for dash-prefix dirs + dispatch architecture assessment |
+| **S6: Synthesis** | All prior session outputs | Cross-reference coherence map, anomalies, dispatch architecture verdict, final assembly | Complete RESULT document |
+| **S7: (if needed)** | Gap-fill | Anything missed or marked LOW confidence | Amendments to RESULT |
+
+### Cognitive Offloading Protocol
+
+**Between sessions, you will lose context.** To survive this:
+
+1. **End every session** by producing a **SESSION SCRATCHPAD** — a structured summary of everything you found. This is your external memory. Format:
+
+```markdown
+## Session N Scratchpad — DC-201 Oracle Inspection
+
+### Files Inspected This Session
+| File | Verdict | Key Finding |
+|------|---------|-------------|
+| (each file you read) | (verdict) | (one-line) |
+
+### Patterns Detected
+- (bulleted observations — anomalies, duplicates, contradictions)
+
+### Cross-References Noted
+| Source | Target | Status |
+|--------|--------|--------|
+| (file A mentions file B) | (path) | (exists/broken/stale) |
+
+### Open Questions for Next Session
+- (what you still need to check)
+
+### Running Tally
+- Files verdicted so far: N / 528
+- CANONICAL: N | HIGH-SIGNAL: N | STALE: N | ORPHANED: N | OPERATIONAL: N | DEPRECATED: N
+```
+
+2. **Start every session** by reviewing the prior scratchpad and the prompt. State: "Resuming DC-201, session N. Files completed: X/528. Picking up from: [location]."
+
+3. **Progressive summarization**: As you accumulate session scratchpads, distill recurring patterns into a running **Synthesis Block** at the top of your latest scratchpad:
+
+```markdown
+## Running Synthesis (updated each session)
+- **00-ORCHESTRATION verdict**: [your evolving assessment]
+- **Top anomalies**: [ranked list]
+- **Broken AGENTS.md references**: [list]
+- **Duplicate files detected**: [list]
+- **Key pattern**: [the single most important finding so far]
+```
+
+4. **Batching within sessions**: Group files by prefix/subdirectory. Don't jump between directories. Complete one group before starting the next. This reduces context thrashing.
+
+### GitHub Navigation Tips
+
+- **Directory listing**: Browse `tree/main/orchestration/00-ORCHESTRATION/state/` to see file lists
+- **File content**: Click any file to read it. For scripts, read the first 30-50 lines for purpose + dependencies
+- **Search across repo**: Use GitHub search (`filename:ARCH-INTENTION_COMPASS`) to check if a file is referenced elsewhere
+- **Git blame**: Use blame view to check last-modified dates for staleness assessment
+- **Raw content**: For large files, use raw view to avoid GitHub rendering issues
+
+---
+
+## Input: orchestration/ + Dash-Prefix Dirs Structure and Stats
 
 ### Key Numbers
-- **528 files** total (excluding .DS_Store)
-- **~100,663 lines** across markdown files
-- **140 scripts** (.sh, .py, .plist, .yaml, .applescript)
-- **3 sanctioned subdirectories**: `state/`, `scripts/`, `archive/` (per AGENTS.md Rule 1)
+- **orchestration/**: 528 files, ~100,663 lines, 140 scripts
+- **-INBOX/**: 5 files, 860 lines (commander inbox only)
+- **-OUTBOX/**: 2 files, 488 lines (adjudicator + psyche results)
+- **-SOVEREIGN/**: 107 files, 11,381 lines (decisions, prompts, responses, config sandbox)
+- **Total scope**: 642 files, ~113,392 lines
+- **3 sanctioned subdirectories** in orchestration/: `state/`, `scripts/`, `archive/` (per AGENTS.md Rule 1)
 
 ### Critical Structural Anomaly: The 00-ORCHESTRATION Layer
 
@@ -109,6 +202,24 @@ The 40 files in `orchestration/state/` (the AGENTS.md-sanctioned location):
 - **Counters** (~20 files): dispatch-YYYYMMDD.count, retry-{agent}-YYYYMMDDHH.count
 - **Database**: ontology.db + WAL/SHM files + temp copies (.!nnnnn!ontology.db)
 - **Other**: HANDOFF-COUNCIL-22.md, orchestration.breaker
+
+### Dash-Prefix Directories (Dispatch Plumbing)
+
+#### `-INBOX/` (5 files, 860 lines)
+Commander-only inbox at `-INBOX/commander/00-INBOX0/`. Contains triangulation responses (RESPONSE-ORACLE-*, RESPONSE-VANGUARD-*, RESPONSE-DIVINER-*) and one TASK file. Other agents have NO inbox here — they use `agents/*/inbox/`.
+
+#### `-OUTBOX/` (2 files, 488 lines)
+Two result files from adjudicator and psyche, both dated 2026-02-16. Structured as `-OUTBOX/{agent}/RESULTS/RESULT-*.md`. Other agents empty.
+
+#### `-SOVEREIGN/` (107 files, 11,381 lines)
+- **Root** (21 files): SOVEREIGN-NNN decisions (002,003,006,010,011,014,015,016 — numbering has gaps), DECISION-*, ALERT-*, ESCALATION-*, REINIT-*, PROMPT-{MODEL}-* files
+- **antifragile-scaffold-archive/** (10 files): Paired PROMPT/RESPONSE for three-model triangulation on antifragile scaffold design
+- **ARCHIVED/** (4 files): Superseded sovereign decisions (mirrors of root files)
+- **CONFIG-SANDBOX-2026-02-22/** (86 files): Full point-in-time config snapshot at safe build point `85140aaf`. Includes root-platform configs, engine YAMLs/JSONs, dotfiles, agent INITs, launchd plists, SSH config. Also mirrored as .zip.
+
+**Triangulation loop**: PROMPT-{MODEL}-{TOPIC} in -SOVEREIGN/ → RESPONSE-{MODEL}-{TOPIC} in -INBOX/commander/00-INBOX0/
+
+**Key architectural question**: -INBOX/-OUTBOX/-SOVEREIGN exist as dash-prefix top-level dirs while `agents/*/inbox/` and `agents/*/outbox/` ALSO exist as the newer agent-office dispatch system. These appear to be TWO coexisting dispatch topologies. Which is canonical? Are both needed?
 
 ---
 
@@ -212,7 +323,22 @@ For every script in `scripts/` (both locations), classify:
 |--------|----------|-----------|-------|--------|
 | script.sh | dispatch / ingest / monitoring / session-hooks / data / media / launch / sensing / deprecated | what invokes it | what it invokes | ACTIVE / DORMANT / DEPRECATED |
 
-### 6. Anomalies Detected
+### 6. Dispatch Architecture Assessment
+
+Evaluate the dual dispatch topology:
+
+| Topology | Components | Files | Active? | Evidence |
+|----------|-----------|-------|---------|----------|
+| **Dash-prefix** | `-INBOX/`, `-OUTBOX/`, `-SOVEREIGN/` | 114 | ? | (what uses it, what references it) |
+| **Agent-office** | `agents/*/inbox/`, `agents/*/outbox/` | varies | ? | (what uses it, what references it) |
+
+Answer:
+1. **Which topology is canonical?** What does `dispatch.sh` actually write to? What does `auto_ingest_loop.sh` actually read from?
+2. **Are they complementary or redundant?** (e.g., dash-prefix for Sovereign async decisions, agent-office for agent-to-agent dispatch)
+3. **Is -SOVEREIGN/ the Sovereign's "agent office"?** Should it be `agents/sovereign/` instead?
+4. **Verdict**: SOUND / NEEDS-UNIFICATION / NEEDS-RESTRUCTURING — with evidence and specific observations (NOT proposals).
+
+### 7. Anomalies Detected
 
 Report anything that doesn't fit:
 - Naming inconsistencies (e.g., markdown files inside scripts/)
@@ -228,7 +354,7 @@ Report anything that doesn't fit:
 ## Rules of Engagement
 
 1. **INSPECT, don't redesign.** Your job is to produce verdicts, not proposals. If you find yourself writing "should be moved to" or "would be better as" — stop. That is not your mission.
-2. **Every file gets a verdict.** No skipping, no "and similar files." Each of the 528 files appears in your output.
+2. **Every file gets a verdict.** No skipping, no "and similar files." Each of the 642 files (528 orchestration + 114 dash-prefix) appears in your output.
 3. **Evidence-based.** When claiming STALE or SUPERSEDED, cite the specific content (line, section, date) that makes it stale, and cite the specific newer document that supersedes it.
 4. **Read before judging.** Do not verdict based on filename alone. Open the file. Check the content. A file named ARCH-NEO_CANON_CORE.md might be superseded or might contain unique unrecovered value.
 5. **The 00-ORCHESTRATION question is your #1 priority.** The entire inspection hinges on understanding what this layer is, why it exists, and whether it or the parent `orchestration/` is the real ground truth.
@@ -240,9 +366,9 @@ Report anything that doesn't fit:
 
 ## Deliverable
 
-A single markdown document titled `RESULT-ORACLE-DC201-SCAFFOLD_DEEP_INSPECTION.md` containing all sections above. This document will be triangulated against Vanguard (engineer-perspective) and Diviner (novel-concept-perspective) inspections to produce a convergent verdict before any action is taken.
+A single markdown document titled `RESULT-ORACLE-DC201-SCAFFOLD_DEEP_INSPECTION.md` containing all sections above. This document will be triangulated against Cartographer (engine-perspective) and Adjudicator (praxis-perspective) inspections to produce a convergent verdict before any action is taken.
 
-**Write your result to**: `agents/commander/inbox/pending/RESULT-ORACLE-DC201-SCAFFOLD_DEEP_INSPECTION.md`
+**The Sovereign will place your result at**: `agents/commander/inbox/pending/RESULT-ORACLE-DC201-SCAFFOLD_DEEP_INSPECTION.md`
 
 ---
 

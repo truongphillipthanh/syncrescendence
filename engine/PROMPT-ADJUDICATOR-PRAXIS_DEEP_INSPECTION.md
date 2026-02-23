@@ -1,6 +1,6 @@
 # Adjudicator Deep Inspection: praxis/ (DC-203)
 
-**Version**: 1.0.0
+**Version**: 1.1.0
 **Created**: 2026-02-23
 **Authored by**: Commander (Claude Opus 4.6)
 **Target Agent**: Adjudicator (Codex CLI) — CQO / Executor
@@ -21,6 +21,72 @@ Content-level alignment check of every file in `praxis/` against AGENTS.md v6.0.
 Determine for each file: does it reflect current operational reality, or is it stale, orphaned, or superseded?
 
 This is an INSPECTION, not a restructuring. Your output is a verdicted inventory that the Sovereign uses to decide what to keep, update, or retire.
+
+---
+
+## Access Method
+
+**Repository**: `https://github.com/truongphillipthanh/syncrescendence`
+**Branch**: `main`
+**Commit**: `65dc5e6d` (verified safe build point)
+
+You have filesystem access via Codex CLI. Use it to read files directly and run `ls`, `grep` for verification.
+
+---
+
+## Multi-Session Crawl Protocol
+
+`praxis/05-SIGMA/` contains **36 files** — this is the smallest inspection scope. Plan for **2-3 sessions**.
+
+### Session Architecture
+
+| Session | Scope | Goal | Output |
+|---------|-------|------|--------|
+| **S1: Orientation + MECH/PRAC** | AGENTS.md + CLAUDE.md + all 11 MECH-* + all 13 PRAC-* | Read constitution, then verdict every mechanics and practice file with reality checks | Verdicts for 24 files + reality check section + scratchpad |
+| **S2: SYNTHESIS + EXEMPLA + Root + Assembly** | All 5 SYNTHESIS-* + 4 EXEMPLA-* + README + REF-* + structural compliance + final assembly | Complete all verdicts, supersession chains, cross-references, structural compliance | Complete RESULT document |
+| **S3: (if needed)** | Gap-fill | LOW confidence items, deeper cross-reference checks | Amendments |
+
+### Cognitive Offloading Protocol
+
+**Write a SESSION SCRATCHPAD at the end of every session** to `agents/adjudicator/scratchpad/DC203-session-N.md`.
+
+Format:
+
+```markdown
+## Session N Scratchpad — DC-203 Adjudicator Inspection
+
+### Files Inspected This Session
+| # | File | Verdict | Confidence | Key Finding |
+|---|------|---------|------------|-------------|
+
+### Reality Checks Performed
+### <filename>
+- Claims verified: [list]
+- Claims falsified: [list]
+- Scripts referenced: [list] → [exist?]
+- Agents referenced: [list] → [match AGENTS.md?]
+
+### Supersession Relationships Found
+| Superseded | By | Evidence |
+
+### Cross-References Noted
+| Source | Target | Status |
+
+### Open Questions for Next Session
+- (what you still need to check)
+
+### Running Tally
+- Files verdicted: N / 36
+- CANONICAL: N | HIGH-SIGNAL: N | STALE: N | ORPHANED: N | SUPERSEDED: N
+```
+
+**Start every session** by reading prior scratchpads:
+```
+Read agents/adjudicator/scratchpad/DC203-session-1.md
+... etc.
+```
+
+Then state: "Resuming DC-203, session N. Files completed: X/36. Picking up from: [category]."
 
 ---
 
@@ -104,7 +170,7 @@ You MUST verify each file against these rules:
 - Dispatch: `auto_ingest_loop.sh` is the SOLE dispatch system. `watch_dispatch.sh` was deprecated 2026-02-17.
 - Hooks: 5 active hooks (session_log.sh, ajna_pedigree.sh, create_execution_log.sh, pre_compaction.sh, intent_compass.sh)
 - Machine topology: Mac mini (Commander, Adjudicator, Cartographer, Psyche) + MacBook Air (Ajna)
-- Neo4j/Graphiti: DOWN (blocked on Docker PATH fix = DC-100)
+- Neo4j/Graphiti: UP (Docker operational, memsync daemon running)
 
 ---
 
@@ -115,15 +181,17 @@ For each claim in a praxis file, verify against these actual repo locations:
 | Claim Domain | Verify Against |
 |---|---|
 | Hooks configuration | `CLAUDE.md` Hooks table (5 hooks listed) |
-| Scripts existence | `ls orchestration/scripts/` |
+| Scripts existence | `ls orchestration/00-ORCHESTRATION/scripts/` (NOTE: scripts live here, not orchestration/scripts/) |
 | Agent fleet state | `AGENTS.md` Enterprise Role Mapping + Operational Registry |
 | Dispatch system | `AGENTS.md` section "Auto-Ingest System" |
 | Directory structure | `AGENTS.md` Directory Structure section |
-| Ledger files | `ls engine/DYN-LEDGER-*.md` |
-| State files | `ls orchestration/state/` |
-| Skill files | `ls engine/SKILL-*.md` or equivalent |
+| Ledger files | `ls engine/02-ENGINE/DYN-LEDGER-*.md` (NOTE: files live under 02-ENGINE/) |
+| State files | `ls orchestration/00-ORCHESTRATION/state/` (NOTE: most state lives here) |
+| Skill files | `ls engine/02-ENGINE/SKILL-*.md` or equivalent |
 | Platform tool versions | `AGENTS.md` Operational Registry |
-| Deferred commitments | `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` |
+| Deferred commitments | `orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` |
+
+**CRITICAL PATH NOTE**: Many paths in praxis files may reference `orchestration/scripts/` or `orchestration/state/` — the actual files live under `orchestration/00-ORCHESTRATION/scripts/` and `orchestration/00-ORCHESTRATION/state/`. This is a known structural anomaly being investigated by Oracle (DC-201). Flag every such broken path reference you find.
 
 ---
 
@@ -223,17 +291,19 @@ Verify against AGENTS.md structural rules:
 2. **Every file gets a verdict.** Zero skips. If you cannot determine a verdict, mark confidence LOW and explain what blocked you.
 3. **VERIFY claims against actual file contents.** Read the files. Run `ls`. Check `git log` dates. Do not trust self-descriptions in file headers.
 4. **Flag any doc that describes a process or script that no longer exists.** This is the highest-priority finding class.
-5. **Cite your evidence.** Every verdict must include the specific check you performed. "Looks fine" is not evidence. "`ls orchestration/scripts/` shows dispatch.sh exists, matching MECH-task_orchestration.md line 42" is evidence.
-6. **Do not modify any files.** Read-only inspection. Your only write is the RESULT file in your outbox.
+5. **Cite your evidence.** Every verdict must include the specific check you performed. "Looks fine" is not evidence. "`ls orchestration/00-ORCHESTRATION/scripts/` shows dispatch.sh exists, matching MECH-task_orchestration.md line 42" is evidence.
+6. **Do not modify any files** except your scratchpad and RESULT file. Read-only inspection otherwise.
 7. **If a file is too large to fully inspect, note which sections you verified and which you could not.**
 8. **Time-bound**: If you hit context limits, write what you have to the RESULT file with a `## INCOMPLETE — context exhaustion` section listing uninspected files.
+9. **Write scratchpads between sessions.** Use `agents/adjudicator/scratchpad/DC203-session-N.md` as cognitive offload.
 
 ---
 
 ## Execution Command
 
 ```
-Read every file in praxis/05-SIGMA/ (all 35 .md files).
-Cross-reference each against AGENTS.md v6.0.0, CLAUDE.md, and actual repo contents.
-Write verdicted output to agents/adjudicator/outbox/RESULT-adjudicator-DC203-praxis-inspection.md.
+Session 1: Read AGENTS.md + CLAUDE.md. Then read and verdict all 24 MECH-* and PRAC-* files with reality checks.
+Session 2: Read and verdict all SYNTHESIS-*, EXEMPLA-*, root files. Assemble complete RESULT.
+Write scratchpad at end of each session to agents/adjudicator/scratchpad/DC203-session-N.md
+Write final output to agents/adjudicator/outbox/RESULT-adjudicator-DC203-praxis-inspection.md
 ```

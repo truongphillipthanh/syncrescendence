@@ -1,4 +1,4 @@
-# Cartographer Deep Inspection: engine/ (DC-202)
+# Cartographer Deep Inspection: engine/ + sources/ (DC-202)
 
 **Task ID**: DC-202
 **Dispatched by**: Commander
@@ -17,7 +17,9 @@ Your mandate: INSPECT, MAP, CLASSIFY. You do not redesign, rename, or restructur
 
 ## Mission
 
-Perform a **content-level alignment check** of `engine/` against AGENTS.md v6.0.0. This is tuned specifically for engine artifacts: ledgers, templates, prompts, functions, avatars, model profiles, queue items, capability declarations, tool registrations, and workflow definitions.
+Perform a **content-level alignment check** of `engine/` against AGENTS.md v6.0.0. Additionally, **catalog unmined wisdom in `sources/`** — what raw material exists that hasn't yet flowed through the `sources → engine → praxis → canon` pipeline.
+
+This is tuned specifically for engine artifacts: ledgers, templates, prompts, functions, avatars, model profiles, queue items, capability declarations, tool registrations, and workflow definitions.
 
 Answer these questions:
 1. Which files are **canonical** (actively used, correctly placed, well-maintained)?
@@ -28,6 +30,91 @@ Answer these questions:
 6. Which **FUNC-*** files are actually invoked by skills, hooks, or pipelines vs library-only?
 7. Which **PROMPT-*** files belong to which platforms and pipelines?
 8. Are cross-references between files internally consistent or broken?
+9. What in **sources/** hasn't been mined into engine/praxis/canon yet?
+
+---
+
+## Access Method
+
+**Repository**: `https://github.com/truongphillipthanh/syncrescendence`
+**Branch**: `main`
+**Commit**: `65dc5e6d` (verified safe build point)
+
+You have filesystem access via Gemini CLI. Use it to read files directly. For efficiency, batch your reads by category.
+
+---
+
+## Multi-Session Crawl Protocol
+
+This inspection covers **147 engine files + sources/ directory**. Plan for **3-5 sessions** using progressive summarization.
+
+### Session Architecture
+
+| Session | Scope | Goal | Output |
+|---------|-------|------|--------|
+| **S1: Orientation + REF/DYN** | AGENTS.md + README + all 32 REF-* + all 20 DYN-* (including 13 ledgers) | Constitutional grounding, ledger health, reference doc verdicts | Verdicts for 52 files + ledger health table + scratchpad |
+| **S2: FUNC + PROMPT + AVATAR** | All 28 FUNC-* + 18 PROMPT-* + 8 AVATAR-* | Pipeline membership, platform mapping, function currency | Verdicts for 54 files + pipeline map + scratchpad |
+| **S3: Remaining + Sources Survey** | MODEL/IIC/CAP/TOOL/TEMPLATE/QUEUE/PROTO/WF/DEF + sources/ directory survey | Complete engine verdicts, catalog unmined source material | Verdicts for remaining 41 files + sources inventory + scratchpad |
+| **S4: Synthesis** | All prior scratchpads | Cross-reference coherence, taxonomy report, anomalies, final assembly | Complete RESULT document |
+| **S5: (if needed)** | Gap-fill | LOW confidence items, deeper source mining | Amendments |
+
+### Cognitive Offloading Protocol
+
+**End every session** with a structured **SESSION SCRATCHPAD** written to your scratchpad directory. This is your external memory across sessions.
+
+**Scratchpad location**: `agents/cartographer/scratchpad/DC202-session-N.md`
+
+Format:
+
+```markdown
+## Session N Scratchpad — DC-202 Cartographer Inspection
+
+### Files Inspected This Session
+| # | File | Category | Verdict | Confidence | Pipeline | Key Finding |
+|---|------|----------|---------|------------|----------|-------------|
+
+### Ledger Health (if assessed this session)
+| Ledger | Status | Entry Count | Notes |
+
+### Pipeline Memberships Mapped
+| File | Pipeline | Evidence |
+
+### Cross-References Noted
+| Source | Target | Status |
+
+### Taxonomy Observations
+- (prefix consistency, misclassifications, overlaps)
+
+### Open Questions for Next Session
+- (what you still need to check)
+
+### Running Tally
+- Files verdicted: N / 147
+- Sources cataloged: N files in sources/
+```
+
+**Start every session** by reading your prior scratchpads:
+```
+Read agents/cartographer/scratchpad/DC202-session-1.md
+Read agents/cartographer/scratchpad/DC202-session-2.md
+... etc.
+```
+
+Then state: "Resuming DC-202, session N. Files completed: X/147. Picking up from: [category]."
+
+### Progressive Summarization
+
+After session 2+, maintain a **Running Synthesis** at the top of your latest scratchpad:
+
+```markdown
+## Running Synthesis (updated each session)
+- **Engine health**: [overall assessment]
+- **Ledger status**: [N populated, N seed, N partial]
+- **Orphaned files**: [list]
+- **Pipeline gaps**: [functions/prompts not mapped to any pipeline]
+- **Taxonomy issues**: [prefix problems]
+- **Sources unmined**: [key findings from sources/]
+```
 
 ---
 
@@ -197,7 +284,17 @@ For files that reference each other:
 - Which files are reference hubs (most inbound links)?
 - Which files are reference islands (zero inbound, zero outbound)?
 
-### 7. Anomalies Detected
+### 7. Sources Inventory (NEW — DC-208 preparation)
+
+Survey `sources/` and produce:
+
+| # | File/Directory | Type | Size | Mined? | Evidence |
+|---|---------------|------|------|--------|----------|
+| 1 | sources/research/topic.md | transcript / notebook / research / raw | lines | YES (cite destination) / NO / PARTIAL | where the mined content landed, or "no references found in engine/praxis/canon" |
+
+This inventory feeds Phase 2C (DC-208: Source Mining).
+
+### 8. Anomalies Detected
 
 List anything that doesn't fit:
 - Naming inconsistencies (spaces in filenames, mixed casing patterns, inconsistent delimiters)
@@ -207,7 +304,7 @@ List anything that doesn't fit:
 - The `engine/prompts/` subdirectory — is it sanctioned or a FLAT PRINCIPLE violation?
 - The `engine/02-ENGINE/` nesting — is this the canonical location or a migration artifact?
 
-### 8. Recommendations (INSPECT-ONLY — DO NOT EXECUTE)
+### 9. Recommendations (INSPECT-ONLY — DO NOT EXECUTE)
 
 Prioritized list of recommended actions for other agents to execute. Tag each with:
 - **Priority**: P0 (blocking) / P1 (important) / P2 (cleanup)
@@ -219,19 +316,19 @@ Prioritized list of recommended actions for other agents to execute. Tag each wi
 ## Rules of Engagement
 
 1. **INSPECT, don't redesign.** You are a cartographer, not an architect. Map the terrain; do not reshape it.
-2. **Every file gets a verdict.** All 147 files. No skipping, no "and the rest are fine."
+2. **Every file gets a verdict.** All 147 engine files. No skipping, no "and the rest are fine."
 3. **Evidence-based verdicts.** Cite the specific content, reference, or absence thereof that justifies each verdict.
 4. **Read before judging.** Open each file (at least first 50 lines) to understand its actual content, not just its filename.
 5. **Check inbound references.** For each file, grep the repo for its filename to find what references it.
 6. **Check outbound references.** For each file, scan its content for paths or filenames that point to other files.
 7. **Constitutional alignment.** Every verdict must be grounded in AGENTS.md v6.0.0 rules, not aesthetic preference.
 8. **Flag uncertainty.** If you cannot determine a verdict with HIGH confidence, say MEDIUM or LOW and explain why.
-9. **No structural changes.** Do not create, rename, move, or delete any files. Output only.
-10. **Output to**: `agents/cartographer/outbox/RESULT-CARTOGRAPHER-DC202-ENGINE_DEEP_INSPECTION.md`
+9. **No structural changes.** Do not create, rename, move, or delete any files (except your scratchpad and RESULT files).
+10. **Write scratchpads between sessions.** Your scratchpad files in `agents/cartographer/scratchpad/` are your cognitive offload. Use them.
 
 ---
 
-## Context Files to Read
+## Context Files to Read (Session 1)
 
 Before beginning your inspection, read these files for orientation:
 
@@ -244,9 +341,9 @@ Before beginning your inspection, read these files for orientation:
 7. `engine/02-ENGINE/REF-PROMPT_REGISTRY.md` — Prompt registry
 8. `engine/02-ENGINE/REF-SKILLS_PIPELINE_MAP.md` — Skills/pipeline mapping
 9. `orchestration/state/ARCH-INTENTION_COMPASS.md` — Current intentions
-10. `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — Deferred commitments (for DC-202 context)
+10. `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — Deferred commitments
 
-Then systematically read every file in `engine/02-ENGINE/` (first 50 lines each minimum) and perform the grep-based reference checks.
+Then systematically read every file in `engine/02-ENGINE/` (first 50 lines each minimum) and perform reference checks.
 
 ---
 
@@ -258,6 +355,7 @@ Your output is complete when:
 - [ ] All FUNC-*/PROMPT-*/TEMPLATE-* files have pipeline membership
 - [ ] Taxonomy coherence is assessed for all 19 prefix categories
 - [ ] Cross-references are checked with evidence
+- [ ] Sources/ inventory is complete
 - [ ] Anomalies are listed with specifics
 - [ ] Recommendations are prioritized and tagged
 - [ ] Output is written to `agents/cartographer/outbox/RESULT-CARTOGRAPHER-DC202-ENGINE_DEEP_INSPECTION.md`

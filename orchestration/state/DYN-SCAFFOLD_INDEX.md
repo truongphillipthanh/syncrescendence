@@ -1166,4 +1166,189 @@ canon/ (immutable verified knowledge)
 
 ---
 
+---
+
+## 4. `-INBOX/` — Async Input Queue
+
+**Total files:** 5 | **Total lines:** 860
+
+```
+-INBOX/
+└── commander/
+    └── 00-INBOX0/       ← active queue slot
+```
+
+| File Path | Lines | Category | Notes |
+|---|---|---|---|
+| `commander/00-INBOX0/RESPONSE-DIVINER-MEMORY_ARCHITECTURE_REASONING.md` | 47 | RESPONSE | Gemini (Diviner) triangulation on memory architecture |
+| `commander/00-INBOX0/RESPONSE-ORACLE-MEMORY_ARCHITECTURE_SENSING.md` | 82 | RESPONSE | Grok (Oracle) on memory/sensing architecture |
+| `commander/00-INBOX0/RESPONSE-ORACLE-SCAFFOLD_CONSENSUS.md` | 62 | RESPONSE | Grok (Oracle) scaffold consensus response |
+| `commander/00-INBOX0/RESPONSE-VANGUARD-MEMORY_ARCHITECTURE_ENGINEERING.md` | 645 | RESPONSE | GPT (Vanguard) — largest; engineering detail |
+| `commander/00-INBOX0/TASK-LINEAR-STATUS-202602221301.md` | 24 | TASK | Linear task status snapshot |
+
+**Patterns**: RESPONSE-{MODEL}-{TOPIC}.md naming. Triangulation loop: PROMPT in -SOVEREIGN/ → RESPONSE in -INBOX/. Only commander has an inbox here — other agents use `agents/*/inbox/`.
+
+---
+
+## 5. `-OUTBOX/` — Async Output Queue
+
+**Total files:** 2 | **Total lines:** 488
+
+```
+-OUTBOX/
+├── adjudicator/
+│   └── RESULTS/
+└── psyche/
+    └── RESULTS/
+```
+
+| File Path | Lines | Category | Notes |
+|---|---|---|---|
+| `adjudicator/RESULTS/RESULT-adjudicator-20260216-resilience_adversarial_assessment.md` | 288 | RESULT | CQO adversarial assessment; 2026-02-16 |
+| `psyche/RESULTS/RESULT-psyche-20260216-cto_recovery_architecture.md` | 200 | RESULT | CTO recovery architecture; 2026-02-16 |
+
+**Patterns**: Both files dated 2026-02-16 (same session). Only 2 of 5 agents have output here — asymmetric with agents/*/outbox/.
+
+---
+
+## 6. `-SOVEREIGN/` — Async Decision Queue
+
+**Total files:** 107 | **Total lines:** 11,381
+
+### Root-Level Files (21 files)
+
+| File | Lines | Category | Notes |
+|---|---|---|---|
+| `README.md` | 50 | META | Queue protocol docs |
+| `SOVEREIGN-TRAJECTORY.md` | 185 | META | Strategic trajectory |
+| `ALERT-adjudicator-202602210746.md` | 6 | ALERT | Twin alert with psyche |
+| `ALERT-psyche-202602210746.md` | 6 | ALERT | Twin alert with adjudicator |
+| `DECISION-BATCH-MCP-ONBOARDING.md` | 104 | DECISION | MCP onboarding decisions |
+| `DECISION-MAC-MINI-PLIST-FIXES-20260213.md` | 51 | DECISION | launchd fixes |
+| `ESCALATION-SUMMARY-adjudicator-rate-limit.md` | 29 | ESCALATION | Rate-limit escalation |
+| `REINIT-COMMANDER-2026-02-08.md` | 182 | REINIT | Commander re-init protocol |
+| `SOVEREIGN-002-DOMAIN_REGISTRATION.md` | 24 | SOVEREIGN | Domain registration |
+| `SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md` | 27 | SOVEREIGN | ChatGPT extraction |
+| `SOVEREIGN-006-IMESSAGE_IDENTITY.md` | 21 | SOVEREIGN | iMessage identity |
+| `SOVEREIGN-010-PLATFORM_DEPLOYMENT.md` | 235 | SOVEREIGN | Platform deployment |
+| `SOVEREIGN-011-BLITZKRIEG_SYNTHESIS_2026-02-09.md` | 297 | SOVEREIGN | Blitzkrieg synthesis |
+| `SOVEREIGN-014-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md` | 329 | SOVEREIGN | Narrative DNA + autonomy |
+| `SOVEREIGN-015-MBA-ENGINE-RESTORATION.md` | 84 | SOVEREIGN | MBA engine restoration |
+| `SOVEREIGN-016-ESCALATION-RESOLUTIONS.md` | 182 | SOVEREIGN | Escalation resolutions |
+| `PROMPT-DIVINER-MEMORY_ARCHITECTURE_REASONING.md` | 49 | PROMPT | To Gemini |
+| `PROMPT-GROK-LIVE_LEDGER_SENSING.md` | 126 | PROMPT | To Grok |
+| `PROMPT-ORACLE-CONFIG-CONSENSUS-ARCHITECTURE.md` | 117 | PROMPT | To Oracle |
+| `PROMPT-ORACLE-MEMORY_ARCHITECTURE_SENSING.md` | 70 | PROMPT | To Oracle |
+| `PROMPT-ORACLE-SCAFFOLD_CONSENSUS.md` | 54 | PROMPT | To Oracle |
+| `PROMPT-VANGUARD-MEMORY_ARCHITECTURE_ENGINEERING.md` | 48 | PROMPT | To Vanguard |
+
+### `antifragile-scaffold-archive/` (10 files)
+
+Paired PROMPT/RESPONSE files for three-model triangulation on antifragile scaffold design. RESPONSE-VANGUARD is 850 lines (engineering verbosity pattern).
+
+### `ARCHIVED/` (4 files)
+
+Superseded sovereign decisions. Mirrors of root files (DECISION-BATCH-MCP, REINIT-COMMANDER, SOVEREIGN-011, SOVEREIGN-014).
+
+### `CONFIG-SANDBOX-2026-02-22/` (86 files)
+
+Point-in-time config snapshot preserving full dotfile/engine state at commit `85140aaf`. Includes: root-platform configs, openclaw configs, engine YAMLs/JSONs, dotfiles (claude commands + settings, gemini, github, obsidian, constellation), agent INITs, launchd plists, SSH config. Also mirrored as `.zip`.
+
+**Numbering gap**: SOVEREIGN-001, 004, 005, 007, 008, 009, 012, 013 absent — either filed elsewhere or never created.
+
+---
+
+## 7. `sources/` — Raw Intellectual Feed
+
+**Total files:** 2,268 | **Total lines:** ~381,212
+
+### Structure
+
+```
+sources/
+└── 04-SOURCES/                         ← PRIMARY CORPUS
+    ├── _assets/                        ← 6 image files
+    ├── _index/                         ← 8 MOC files (27,757 lines)
+    ├── _meta/                          ← 64 operational meta files (30,218 lines)
+    ├── processed/                      ← 42 deep-processed transcripts
+    ├── research/                       ← 98 files across 10 subdirectories
+    ├── research-notebooks/             ← 269 files across 14 topic notebooks
+    └── [1,773 root SOURCE-*.md files]  ← bulk ingested corpus (~233,213 lines)
+```
+
+### Maps of Content (`_index/`, 8 files)
+
+| File | Lines | Notes |
+|---|---|---|
+| `MOC-by-topic.md` | 13,119 | Full topic taxonomy |
+| `MOC-by-creator.md` | 3,745 | By content creator |
+| `MOC-chronological.md` | 1,900 | Chronological listing |
+| `MOC-notebooklm.md` | 1,813 | NotebookLM integration |
+| `MOC-by-platform.md` | 1,804 | By platform |
+| `MOC-by-teleology.md` | 1,801 | By purpose category |
+| `MOC-by-signal-tier.md` | 1,792 | By signal quality tier |
+| `MOC-by-transcript.md` | 1,783 | By transcript availability |
+
+### Research Notebooks (14 thematic clusters, 269 files)
+
+| Notebook | Files | Topic |
+|---|---|---|
+| 01-openclaw-architecture-setup | 40 | OpenClaw setup patterns |
+| 02-agent-security-hardening | 14 | Security hardening |
+| 03-agent-memory-systems | 17 | Memory system design |
+| 04-agentic-notetaking-knowledge-vaults | 11 | Knowledge management |
+| 05-claude-code-cowork-power-patterns | 31 | Claude Code patterns |
+| 06-multi-agent-orchestration-swarms | 23 | Multi-agent orchestration |
+| 07-economic-reckoning-saas-labor-society | 30 | Economic analysis |
+| 08-vibe-coding-software-abundance | 18 | Software abundance |
+| 09-design-in-ai-era | 9 | AI-era design |
+| 10-ai-engineering-roadmaps-architecture | 19 | AI engineering |
+| 11-openclaw-deep-research-constellation | 10 | Constellation research |
+| 12-homelab-infrastructure | 12 | Homelab |
+| 13-prompt-engineering-skills-craft | 19 | Prompt engineering |
+| 14-philosophical-wildcards-cultural-commentary | 15 | Philosophy/culture |
+
+### Source Corpus Statistics
+
+| Period | Files | Notes |
+|---|---|---|
+| Pre-2025 | 10 | Historical/archival |
+| 2025 | 561 | Mid-period |
+| 2026 | 1,189 | Current active ingestion |
+| Undated | 13 | Origin unknown |
+
+| Platform | Files |
+|---|---|
+| YouTube (all types) | 1,189 |
+| X (articles + threads) | 526 |
+| Website/unknown | 58 |
+
+**Naming convention**: `SOURCE-{YYYYMMDD}-{platform}-{content_type}-{creator}-{slug}.md`
+
+### Cross-Reference Map (Dispatch Plumbing)
+
+| `-SOVEREIGN/` Prompt | `-INBOX/` Response |
+|---|---|
+| `PROMPT-ORACLE-MEMORY_ARCHITECTURE_SENSING.md` | `RESPONSE-ORACLE-MEMORY_ARCHITECTURE_SENSING.md` |
+| `PROMPT-VANGUARD-MEMORY_ARCHITECTURE_ENGINEERING.md` | `RESPONSE-VANGUARD-MEMORY_ARCHITECTURE_ENGINEERING.md` |
+| `PROMPT-DIVINER-MEMORY_ARCHITECTURE_REASONING.md` | `RESPONSE-DIVINER-MEMORY_ARCHITECTURE_REASONING.md` |
+| `PROMPT-ORACLE-SCAFFOLD_CONSENSUS.md` | `RESPONSE-ORACLE-SCAFFOLD_CONSENSUS.md` |
+
+---
+
+## Updated Grand Totals
+
+| Directory | Files | Lines |
+|---|---|---|
+| `orchestration/` | 459 | ~122,000 |
+| `engine/` | 147 | ~35,000 |
+| `praxis/` | 36 | ~9,500 |
+| `-INBOX/` | 5 | 860 |
+| `-OUTBOX/` | 2 | 488 |
+| `-SOVEREIGN/` | 107 | 11,381 |
+| `sources/` | 2,268 | ~381,212 |
+| **GRAND TOTAL** | **3,024** | **~560,441** |
+
+---
+
 *End of Scaffold Index. This document serves as input for Phase 2 triangulated agent inspections.*
