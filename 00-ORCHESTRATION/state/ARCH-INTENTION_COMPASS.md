@@ -144,6 +144,10 @@ Each intention entry contains:
 | INT-1616 | 16 | "LifeOS/Zettelkasten/PKM/PARA/GTD architectural convergence" | active | P1 | Serious discussion needed: note-taking, linking your thinking, personal context lakehouse, pillars, pipelines, vaults |
 | INT-1618 | 16 | "Celestial alignment synchronization — cosmic coherence" | deferred | P3 | Poetic, cathartic moment for the Syncrescendence metaphor. When capacity allows. |
 | INT-1901 | 19 | "Avatarize Grok Build into the Constellation — xAI's first-party CLI coding agent (analogue to Claude Code). Monitor grokai.build / npm grok-build for public release. When available: install, configure avatar role, wire into auto-ingest dispatch, assign to constellation slot." | deferred | P2 | Blocked by: Grok Build not yet publicly released (2026-02-19). Pre-position: role = TBD (likely long-context reasoning or xAI-native tasks). Watch: grokai.build, github.com/xai-org, npm grok-build. |
+| INT-2201 | 20 | "Complete repo rearchitecture — replace adhoc -INBOX/-OUTGOING/flat structure with agent-centric 'offices'. Each agent gets a root-level directory (commander/, adjudicator/, etc.) with standardized kanban + scratchpad + output folders. CLAUDE.md/AGENTS.md/GEMINI.md become per-agent init files pointing to their office. Rename COCKPIT.md to something more amenable. Add shared collaboration directory at root for multi-agent endeavors (blitzkrieg, etc.) with strict policies against proliferation." | deferred | P1 | BLOCKED BY: 04-SOURCES research deluge must inform architecture. Must also mirror/accommodate OpenClaw's root-level architecture. Gemini 3.1 Pro (weak tooling) and Grok Build (no real harness) need accommodation. Memory architecture research (Three-Layer, Graphiti, etc.) should inform office structure. |
+| INT-2202 | 20 | "MBA-primary consolidation — Mac mini largely unused due to flawed orchestration. Ideal: SSH into Mac mini and control constellation from MBA. Mac mini avatars may need different roles/config. Current cross-machine dispatch (SCP sling, Neural Bridge) is fragile and underutilized." | deferred | P1 | Depends on INT-2201 (rearchitecture). Current dual-machine paradigm (INT-P014) needs re-evaluation against single-control-plane reality. |
+| INT-2203 | 20 | "Collaboration directory design — root-level shared workspace for multi-agent endeavors. Needs rules, policies, procedures, and organization to prevent proliferation hell. Each blitzkrieg/project gets a scoped subdirectory with lifecycle management (create → active → archive)." | deferred | P1 | Sub-intention of INT-2201. Must define: naming conventions, ownership, cleanup policy, max active projects, archival triggers. |
+| INT-2204 | 20 | "Platform-native accommodation — work WITH model architectures instead of forcing uphill battles. Gemini 3.1 Pro (weak tools, strong context), Grok Build (no harness yet), OpenClaw (root-level arch). Each agent's office structure should play to its platform's strengths." | deferred | P2 | Depends on INT-2201. Research from 04-SOURCES should inform per-platform design decisions. |
 
 ### PATTERNS (Meta-Observations)
 
@@ -181,6 +185,26 @@ Each intention entry contains:
 | INT-P023 | 18 | "Shared Rate Limit Awareness — competing agents on same API plan must be dispatch-coordinated" | active | Never dispatch simultaneous heavy tasks to Psyche + Adjudicator. Stagger or route overflow to Gemini/Kimi/open models. |
 | INT-P024 | 18 | "Intelligence Tiering — most capable models strategize, open models execute housekeeping" | active | Tier 1 (strategy/planning): Opus 4.6, Kimi K2.5. Tier 2 (meticulous execution): GPT-5.3-codex. Tier 3 (capacity passes): Gemini 2.5 Pro. Tier 4 (housekeeping): open models via Cline/OpenCode. |
 | INT-P025 | 18 | "Agent Auto-Recovery — agents must self-heal without Commander intervention" | active | Rate limits → exponential backoff + task queue. Dirty worktree → read-only analytical mode. Stale state → git pull + verify. Dead agent → watchdog restart. |
+
+### SESSION 21 (2026-02-22): Dual-Stream Architecture + Account Feed Restructure
+
+*Source: Source Anneal session — audit of CANON-31115 dual-stream documentation + Sovereign account feed directive.*
+
+| ID | Oracle | Intention Text | Status | Notes |
+|----|--------|---------------|--------|-------|
+| INT-2101 | 21 | "Dual-stream architecture plan — automated intelligence stream (curated regular-cadence sources → 3-tier digest: read/listen/consumption-worthy) + serendipitous encounters stream (feeds into next day's digest). GCP/Gemini multimodal transcription pipeline for Dwarkesh-fidelity." | active | CANON-31115 describes vision; operational implementation is ~15%. YouTube serendipitous pipeline partially built (batch_transcribe.py, enrichment). Automated intelligence stream: 0% built. |
+| INT-2102 | 21 | "3-tier consumption model: read (distilled digest/telegram-esque), listen (more in-depth digest + synthesis), consumption-worthy (experience primary source). Replaces CANON-31143's 4-tier model (Immediate/Curated/Archive/Prune)." | active | New taxonomy — NOT in any current document. Must reconcile with CANON-31143 and canonize. |
+| INT-2103 | 21 | "Account feed restructure — unify paid accounts. Account 1 (iCloud/Apple): liberal arts, philosophy, history, culture. Account 2 (Google): AI, CS, IT, Cognitive Science — all paid apps here. Account 3: AI design+creation (visual/audio/simulation/multimodality). Overhaul algorithms accordingly." | active | Previously: A1=liberal arts+design, A2=Google infra, A3=AI engineering. Shift: A3 loses AI/CS to A2, gains multimodal creation from A1. A1 loses art/design, focuses philosophy/history/culture. A2 becomes AI+CS hub with all paid subscriptions. |
+| INT-2104 | 21 | "Feedcrafting algorithm development for both streams — serendipitous encounters AND automated intelligence. Current work only operationalizes serendipitous encounters (YouTube Watch Later drain)." | active | Blocked by INT-2101 (architecture plan) and INT-2103 (account restructure). |
+| INT-2105 | 21 | "Serendipitous encounters feed into the following day's digest — bridge pipeline from evening browsing to morning intelligence brief." | active | Architecturally described in CANON-31115 Part I.C. Zero operational implementation. |
+
+| ID | Oracle | Pattern | Status | Notes |
+|----|--------|---------|--------|-------|
+| INT-2106 | 21 | "NotebookLM automation pipeline — Playwright browser automation to programmatically create notebooks, upload sources, and extract synthesis. No public API (Enterprise alpha only, GCP-gated). Playwright is pragmatic path. Upload sources as Google Docs to Drive (Drive API is public), then Playwright creates notebook + adds sources. Potent questions → high-signal answers → digest into corpus (integrate or excrete)." | active | Blocked by: Account 2 Google ecosystem setup. Connects to INT-1708 (Research→NotebookLM pipeline) and INT-MI16 (Google ecosystem pipeline). notebooklm-py (unofficial) and notebooklm-mcp-2026 are fallback options. |
+| INT-2107 | 21 | "CLI Agent Setup Architecture docs — definitive setup/config guides for each CLI agent platform: Claude Code, OpenClaw, Codex CLI, Gemini CLI. Previously had one for Claude Code; now need parity across all. Skills proliferation is the critical vector — must systematize before ecosystem sprawl." | active | Claude Code setup existed historically. OpenClaw, Codex, Gemini CLI need equivalent. Skills/extensions/plugins proliferating hourly across all platforms. |
+| INT-2108 | 21 | "Three-track evaluation framework for new paradigms/tools/skills: (1) ONBOARD = shelfware/third-party adoption, least favorable; (2) WHITE-LABEL = adopt + syncrescendence branding, medium favorable; (3) VERTICALIZE = build from scratch, most favorable. Apply to all incoming skills, MCP servers, extensions, CLI tools." | active | Decision framework for the skills proliferation problem. Research → evaluate → classify → act. Prevents shelfware accumulation and ensures sovereign control over toolchain. |
+| INT-P026 | 21 | "Google moving towards world models, not coding — rebalance account thesis accordingly" | active | A2 (Google) absorbs ALL AI/CS/IT/CogSci. A3 pivots from AI engineering to multimodal creation. Platform proclivity informs feed thesis. |
+| INT-P027 | 21 | "New paradigms ship by the hour — get ahead of the curve, not behind it. Systematize evaluation before drowning in shelfware." | active | Skills proliferation across Claude Code, Codex, Gemini CLI, OpenClaw. Each has its own extension model. Must unify evaluation/adoption pipeline. |
 
 ### CAPTURE (Pending Triage)
 
@@ -461,6 +485,22 @@ INT-P015 (dual-machine paradigm) ─────────► INT-1603, INT-16
 ---
 
 ## VERSION HISTORY
+
+**v3.3.0** (2026-02-22): Dual-Stream Architecture + Account Feed Restructure (Session 21)
+- INT-2101: Dual-stream architecture plan — automated intelligence + serendipitous encounters, GCP/Gemini pipeline
+- INT-2102: 3-tier consumption model (read/listen/consumption-worthy) — replaces CANON-31143 4-tier
+- INT-2103: Account feed restructure — A1=liberal arts/philosophy/history, A2=AI/CS/IT/CogSci (all paid), A3=multimodal creation
+- INT-2104: Feedcrafting algorithm for both streams
+- INT-2105: Serendipitous→digest bridge pipeline
+- INT-P026: Google world-models pivot rebalances account thesis
+- Authority: Commander / Sovereign Session 21
+
+**v3.2.0** (2026-02-22): Repo Rearchitecture Directive (Session 20)
+- INT-2201: Complete repo rearchitecture — agent-centric offices, per-platform init files, rename COCKPIT — P1 backlog, blocked by 04-SOURCES research
+- INT-2202: MBA-primary consolidation — Mac mini underutilized, SSH control plane — P1 backlog
+- INT-2203: Collaboration directory design — shared multi-agent workspace with anti-proliferation policy — P1 backlog
+- INT-2204: Platform-native accommodation — Gemini 3.1 Pro, Grok Build, OpenClaw arch alignment — P2 backlog
+- Authority: Commander / Sovereign Session 20
 
 **v3.1.0** (2026-02-19): Grok Build Backlog Entry (Session 19)
 - INT-1901: Grok Build avatarization — P2 backlog, blocked by public release. Pre-position slot in constellation.

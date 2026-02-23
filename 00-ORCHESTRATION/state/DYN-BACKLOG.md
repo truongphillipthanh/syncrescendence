@@ -57,6 +57,7 @@
 | PROJ-LIVE-CANON | COMPLETE | — | 100% | Live CANON Ticker — MVP deployed + automation. SOVEREIGN-008 APPROVED 2026-02-06. |
 | PROJ-CRED-ROT | COMPLETE | — | 100% | API Key Rotation — Linear, ClickUp, OpenAI rotated. Google AI key added. OpenClaw .env synced. All 4 verified 2026-02-10. |
 | PROJ-DESKTOP | IN_PROGRESS | P1 | 85% | Desktop Metabolization — P0-P1 complete, P2 meta_narrative ingested, P3 ajna9 deleted. Coherence/ deferred (193 files) |
+| PROJ-DUALSTREAM | ACTIVE | P1 | 15% | Dual-Stream Architecture — YouTube serendipitous pipeline partial (batch_transcribe, enrichment, MOCs). Automated intelligence stream 0%. 3-tier digest 0%. Account feed restructure pending (A1→liberal arts, A2→AI/CS+paid, A3→multimodal creation). |
 
 ---
 
@@ -118,6 +119,8 @@ Items emerging from teleological settlement:
 | World/simulation models | Modal 2 queue | Technology maturity | |
 | Scholarly/academic tools | Backlog | Alignment with personal trajectory | |
 | Open-source Chinese models | Tracking | Proliferation monitoring | |
+| Dual-Stream Pipeline (INT-2101) | Active | Source Anneal complete | Automated intelligence stream + 3-tier digest (read/listen/consumption-worthy) + GCP/Gemini transcription |
+| Account Feed Restructure (INT-2103) | Active | Google world-models pivot | A1=liberal arts/philosophy/history, A2=AI/CS/IT/CogSci (all paid), A3=multimodal creation. Algorithm overhaul needed. |
 | Feedcraft (8 IIC accounts) | Deferred | Post-IIC config | 3 primary + 5 chain accounts |
 | Bespoke macOS apps | Deferred | Post-Modal 1 | Text editors, productivity equivalents |
 | Branding/entification | Deferred | Post-IIC | Dan Koe, Futur, Hormozi, Robbins |
