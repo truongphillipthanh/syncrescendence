@@ -118,3 +118,49 @@
 - **Context**: DC-204 traversed Commander→Oracle(DC-204E)→Diviner(DC-204D)→Commander(compilation)→Adjudicator(engineering review)
 - **Decision**: Mark playbook cycle as validated. This is the reference implementation for all future cycles
 - **Outcome**: 5 specs engineered, 2 BUILD, 1 REDESIGN, 2 DEFER. Build order locked. All artifacts saved per documentation invariants
+
+---
+
+## Phase 2C Decruft — Decision Atoms (Continuation)
+
+### DA-13: Parallel 4-Lane Decruft Swarm
+- **Context**: Phase 2C requires acting on 24 STALE + 25 ORPHANED + 6 SUPERSEDED + 6 stale MODEL-PROFILEs + 3 overlap clusters
+- **Decision**: Dispatch 4 parallel agents: (1) archive orphaned + mark superseded, (2) consolidate overlap clusters, (3) archive stale MODEL-PROFILEs, (4) handle stale praxis syntheses/mechanics
+- **Rationale**: All four workstreams touch non-overlapping file sets. Parallel execution ~4x faster than serial
+- **Outcome**: All 4 agents completed. 32 files changed in single commit `5426d51c`
+
+### DA-14: Consolidation Strategy — Keep Most Operational File
+- **Context**: 3 overlap clusters needed consolidation. Which file survives?
+- **Decision**: Keep the most operational/practical file as target, merge unique content from others
+- **Rationale**: Operational docs are consumed by agents during execution. Mechanical/theoretical docs are reference. Agents need "how" more than "why" during dispatch
+- **Precedent**: Worktree cluster → PRAC-blitzkrieg (most operational). Compaction cluster → MECH-context_compaction (most foundational). Subagent cluster → MECH-subagent_delegation (more complete)
+
+### DA-15: Staleness Banners vs Archive for Partially-Stale Files
+- **Context**: 8 praxis files are stale but contain >50% valid content
+- **Decision**: Add staleness banner in-place rather than archiving. Banner includes: status, date, specific issue, action needed, who flagged it
+- **Rationale**: Archiving destroys navigability. A file that's 70% good shouldn't be hidden — it should be visibly marked so the next agent who reads it knows what to trust and what to update
+- **Precedent**: Diviner's "Kata vs Kumite" insight — stale praxis actively misleads. Banners prevent misleading without destroying
+
+### DA-16: MODEL-PROFILE Archive — MODEL-INDEX.md as Single Source
+- **Context**: 6 YAML profile files all stale (2024-era models). MODEL-INDEX.md (2026-02-13) is comprehensive and current
+- **Decision**: Archive all 6 YAMLs. MODEL-INDEX.md becomes sole authoritative registry. New profiles will be generated from MODEL-INDEX when needed (per Adjudicator Option C from T0-3 analysis)
+- **Rationale**: Maintaining 20+ individual YAML files in parallel with a master index creates guaranteed drift. Single source of truth until the model router (DC-147) requires per-model config files
+
+### DA-17: Begin Playbook Loop for DC-208 (Source Mining)
+- **Context**: Source mining is the second half of Phase 2C. 1,773 sources, 0% integrated, 319 PARADIGM-tier
+- **Decision**: Begin playbook loop — Oracle prompt written for source mining strategy (own thesis + industry consensus)
+- **Rationale**: This is non-trivial enough to warrant full triangulation. The extraction protocol, batch architecture, and agent assignment decisions will shape weeks of work. Getting it wrong wastes massive context
+- **Gate**: Sovereign dispatches Oracle prompt → Oracle responds → Commander petitions Diviner → Commander compiles → Adjudicator engineers
+
+## Prompts Issued This Session (Updated)
+
+| Prompt | Target | Location | Status |
+|---|---|---|---|
+| DC-208 Source Mining Strategy | Oracle (Grok) | `engine/PROMPT-ORACLE-DC208_SOURCE_MINING_STRATEGY.md` + `~/Desktop/` | WRITTEN, AWAITING DISPATCH |
+
+## Artifacts Produced This Session (Updated)
+
+| Artifact | Path | Purpose |
+|---|---|---|
+| Phase 2C decruft commit | `5426d51c` | 3 orphans archived, 3 clusters consolidated, 6 MODEL-PROFILEs archived, 2 superseded marked, 8 staleness banners |
+| Oracle DC-208 prompt | `engine/PROMPT-ORACLE-DC208_SOURCE_MINING_STRATEGY.md` | Source mining strategy — begins playbook loop |
