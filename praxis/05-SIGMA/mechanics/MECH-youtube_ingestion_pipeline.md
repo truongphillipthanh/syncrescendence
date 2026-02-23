@@ -1,3 +1,6 @@
+> **STATUS: SUPERSEDED-BY**: `praxis/05-SIGMA/mechanics/MECH-source_anneal_pipeline.md`
+> **Date**: 2026-02-23 | **Reason**: Pipeline redesigned to handle all source types, not just YouTube
+
 > **STATUS: SUPERSEDED** — This research document was written 2026-02-02 before the Source Anneal operation.
 > The authoritative pipeline architecture is now in `MECH-source_anneal_pipeline.md`.
 > Retained for historical reference only.

@@ -1,5 +1,10 @@
 # MECH-source_anneal_pipeline
 
+> **STATUS: STALE** | Date: 2026-02-23
+> **Issue**: Referenced scripts not yet implemented (e.g., `sources/_scripts/ingest.py`, `anneal.py`, MOC generators, enrichment daemon). Pipeline is a blueprint, not operational code.
+> **Action needed**: Implement referenced scripts or update to reflect actual implementation state
+> **Flagged by**: Adjudicator DC-203, Commander DC-205
+
 **Type:** Mechanism
 **Domain:** Knowledge Infrastructure
 **Status:** Blueprint (post-manual-anneal, pre-automation)

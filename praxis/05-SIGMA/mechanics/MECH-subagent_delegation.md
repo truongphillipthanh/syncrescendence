@@ -212,8 +212,80 @@ end
 
 ---
 
+## Delegation Decision Tree
+
+```
+Is the task independent of current conversation?
+├── NO → Execute inline (main context)
+└── YES →
+    Does it require writing/editing files?
+    ├── NO → Use Explore agent (read-only, fast, cheap)
+    └── YES →
+        Is it > 5 minutes of work?
+        ├── NO → Execute inline
+        └── YES →
+            Can multiple tasks run in parallel?
+            ├── YES → Fork multiple sub-agents (Blitzkrieg)
+            └── NO → Fork single general-purpose agent
+```
+
+---
+
+## Skill Context Annotation
+
+Skills can declare their execution context preference:
+
+```markdown
+<!-- context: fork -->
+<!-- model: haiku -->
+<!-- reason: Heavy file scanning, independent of main thread -->
+```
+
+| Value | Meaning | Invocation |
+|-------|---------|-----------|
+| `inline` | Execute in main agent context | Skill tool (default) |
+| `fork` | Execute in isolated sub-agent | Task tool with subagent_type |
+| `parallel` | Can be batched with other fork tasks | Multiple Task tool calls |
+
+**Mark `fork`** when: read-heavy analysis, output is summary, >10K tokens, no iterative feedback needed.
+**Keep `inline`** when: modifies conversation state, feeds next step, requires back-and-forth, <2K tokens.
+
+---
+
+## Constellation Agent Mapping
+
+| Delegation Target | Agent | Model | When |
+|-------------------|-------|-------|------|
+| `explore` sub-agent | (built-in) | Haiku | Quick searches, file discovery |
+| `general-purpose` sub-agent | (built-in) | Sonnet | Implementation tasks |
+| Dispatch to Adjudicator | Codex CLI | Sonnet | Quality review, testing |
+| Dispatch to Cartographer | Gemini CLI | Gemini Pro 3.1 | Research, 1M context analysis |
+| Dispatch to Psyche | OpenClaw | GPT-5.3-codex | Automation, system cohesion |
+
+**Rule**: Intra-session delegation uses sub-agents (Task tool). Cross-session delegation uses dispatch.sh (INBOX files).
+
+---
+
+## Token Savings Examples
+
+| Scenario | Inline Cost | Forked Cost | Savings |
+|----------|------------|-------------|---------|
+| Audit 79 CANON files | ~80K tokens in main | ~80K in sub + 2K summary | Main context preserved |
+| 3 parallel explores | ~45K sequential in main | ~15K each in parallel, 3K total returned | 80% main context saved |
+| Research task (read-only) | ~30K polluting main | ~30K isolated + 1K summary | Main stays at peak intelligence |
+
+The savings aren't in total tokens consumed — they're in **main context preservation**. A main agent at 20% usage is dramatically smarter than one at 70%.
+
+---
+
 ## Cross-References
 
 - [[SYNTHESIS-agents_mcp_foundations]] → Agent patterns, orchestration
 - [[MECH-skill_system_architecture]] → Skills with sub-agent pairing
 - [[MECH-task_orchestration]] → Task tool mechanics
+
+---
+
+## Consolidated From
+
+- `praxis/05-SIGMA/practice/PRAC-subagent_delegation_guide.md` — Decision tree, skill context annotation, constellation agent mapping, token savings examples

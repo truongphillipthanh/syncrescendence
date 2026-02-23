@@ -1,5 +1,10 @@
 # Platform Topology: Durable Technical Specs (January 2026)
 
+> **STATUS: STALE** | Date: 2026-02-23
+> **Issue**: January 2026 snapshot — model names outdated (references "Gemini 3" but current frontier is Flash 3.0/Pro 3.1; "Claude 4.5" but current is Opus 4.6/Sonnet 4.5; "Grok 4.1 Fast" but current is Grok 4.20 Beta; "GPT-5.2" but current is GPT-5.2/5.3). Pricing and rate limits likely shifted.
+> **Action needed**: Refresh all model names and specs against current Frontier Model Registry in MEMORY.md; update pricing data
+> **Flagged by**: Adjudicator DC-203, Commander DC-205
+
 **Type:** Synthesis (extracted from competitive analysis)
 **Date:** 2026-01-10 (research), 2026-02-22 (distilled)
 **Status:** Snapshot — review quarterly for staleness

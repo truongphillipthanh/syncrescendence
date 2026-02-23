@@ -1,3 +1,7 @@
+> **ARCHIVED**: 2026-02-23 | Reason: ORPHANED — referenced scripts/paths no longer exist
+> **Origin**: praxis/05-SIGMA/practice/
+> **Archived by**: Commander (DC-205 Phase 2C decruft)
+
 # PRAC: Oracle-to-Executor Handoff
 
 **Scope**: Handoff document creation, timing, template, verification

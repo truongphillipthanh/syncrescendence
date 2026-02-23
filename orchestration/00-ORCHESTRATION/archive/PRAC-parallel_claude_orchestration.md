@@ -1,3 +1,7 @@
+> **ARCHIVED**: 2026-02-23 | Reason: CONSOLIDATED into PRAC-blitzkrieg_worktree_isolation.md
+> **Origin**: praxis/05-SIGMA/practice/
+> **Archived by**: Commander (DC-205 Phase 2C overlap consolidation)
+
 # PRAC: Parallel Claude Orchestration
 
 **Scope**: Multi-instance patterns, git worktrees, teleport, named sessions

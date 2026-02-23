@@ -1,5 +1,10 @@
 # SYNTHESIS: Codex CLI / OpenAI Developer-Agent Ecosystem
 
+> **STATUS: STALE** | Date: 2026-02-23
+> **Issue**: Missing source citations — references 5 AI research reports and 3 practitioner posts by filename (e.g., `claude-openai.md`, `chatgpt-openai.md`) but source files not found in repo. Model names may be outdated (GPT-5.2-Codex is now GPT-5.3-Codex per Frontier Model Registry).
+> **Action needed**: Verify source file locations or note they were consumed during synthesis; update model references to current registry
+> **Flagged by**: Adjudicator DC-203, Commander DC-205
+
 **Synthesis Date**: 2026-02-01
 **Protocol**: Syncrescendence Research Protocol — Phase 3 (Preservative Coalescence)
 **Sources**: 5 AI research reports (3,470 lines) + 3 practitioner posts + original prompt + AVATAR-CODEX.md

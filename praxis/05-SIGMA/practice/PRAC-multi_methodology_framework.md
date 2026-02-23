@@ -1,6 +1,11 @@
 # Multi-Methodology Project Management Framework
 ## Syncrescendence Operational Knowledge
 
+> **STATUS: STALE** | Date: 2026-02-23
+> **Issue**: External tool stack mappings unverifiable (ClickUp, Jira, Trello, Todoist, TeamGantt integrations described but not operationally confirmed). References `REF-STACK_TELEOLOGY.md` and Linear `SYN-58` which may be outdated. PROJ-* references unverified.
+> **Action needed**: Verify which tools are actually in use, remove or archive mappings for tools not adopted, update project references
+> **Flagged by**: Adjudicator DC-203, Commander DC-205
+
 **Version**: 1.0.0
 **Created**: 2026-02-10
 **Source**: SOVEREIGN-009 Decision 1 (Ratified 2026-02-10)

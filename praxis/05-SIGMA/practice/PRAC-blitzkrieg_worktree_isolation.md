@@ -161,9 +161,212 @@ This pattern is Phase 3 of the Neo-Blitzkrieg execution model:
 
 ---
 
+## Coordination Schema (coordination.yaml)
+
+Define zone ownership formally for automated enforcement:
+
+```yaml
+zones:
+  alpha:
+    files:
+      include: ["src/auth/**", "ledgers/*-alpha.csv"]
+    ledger: "ledgers/tasks-alpha.csv"
+    agent: "Commander"
+
+  beta:
+    files:
+      include: ["src/api/**", "ledgers/*-beta.csv"]
+    ledger: "ledgers/tasks-beta.csv"
+    agent: "Adjudicator"
+
+  gamma:
+    files:
+      include: ["tests/**", "ledgers/*-gamma.csv"]
+    ledger: "ledgers/tasks-gamma.csv"
+    agent: "Cartographer"
+
+  delta:
+    files:
+      include: ["docs/**", "ledgers/*-delta.csv"]
+    ledger: "ledgers/tasks-delta.csv"
+    agent: "Psyche"
+```
+
+### CODEOWNERS Enforcement
+
+```
+# .github/CODEOWNERS
+src/auth/**     @team-alpha
+src/api/**      @team-beta
+tests/**        @team-gamma
+docs/**         @team-delta
+```
+
+### Zone Verification Script
+
+```bash
+#!/bin/bash
+# verify-zone.sh - Run in pre-commit hook
+ZONE=$(git config --local zone.name)
+FILES=$(git diff --cached --name-only)
+
+for file in $FILES; do
+  if ! echo "$file" | grep -q "^$(cat coordination.yaml | yq ".zones.$ZONE.files.include[]")" ; then
+    echo "ERROR: $file not in zone $ZONE"
+    exit 1
+  fi
+done
+```
+
+---
+
+## Zone-Specific Ledgers
+
+Instead of all agents writing to shared CSV:
+
+```
+ledgers/
+├── tasks-alpha.csv    # Alpha zone only
+├── tasks-beta.csv     # Beta zone only
+├── tasks-gamma.csv    # Gamma zone only
+├── tasks-delta.csv    # Delta zone only
+└── tasks-main.csv     # Consolidated view (generated)
+```
+
+### Consolidation Script
+
+```bash
+#!/bin/bash
+# consolidate-ledgers.sh
+head -1 ledgers/tasks-alpha.csv > ledgers/tasks-main.csv
+for zone in alpha beta gamma delta; do
+  tail -n +2 ledgers/tasks-$zone.csv >> ledgers/tasks-main.csv
+done
+```
+
+---
+
+## Teleport: Local to Cloud
+
+### Send to Cloud
+```bash
+# Prefix with & to send to web
+& Analyze this codebase for performance bottlenecks
+```
+Creates background session on claude.ai/code that runs autonomously.
+
+### Retrieve from Cloud
+```bash
+claude --teleport
+```
+
+### Distributed Pattern
+```
+Local Machine                    Cloud (claude.ai/code)
+─────────────────────────────────────────────────────────
+Agent 1 (backend)                Agent 6 (long analysis)
+Agent 2 (frontend)               Agent 7 (batch processing)
+Agent 3 (tests)                  Agent 8 (research)
+Agent 4 (docs)
+Agent 5 (orchestrator)
+```
+
+---
+
+## File-Based Coordination (Oracle Pattern)
+
+```
+project/
+├── tasks/
+│   ├── task-001-auth.md        # Oracle creates
+│   ├── task-002-api.md         # Oracle creates
+│   └── task-003-tests.md       # Oracle creates
+├── results/
+│   ├── task-001-result.md      # Worker writes
+│   └── task-002-result.md      # Worker writes
+└── master_plan.md              # Oracle maintains
+```
+
+Workflow: Oracle (Opus) writes task specs → Workers (Sonnet) execute → Oracle reads results, updates plan. File system is the coordination bus — no complex networking.
+
+---
+
+## Resource Management
+
+### Context Window per Agent
+Each agent has independent 200K context — parallel agents multiply total capacity.
+
+### API Rate Limits
+Multiple instances may hit rate limits. Stagger launches or use multiple accounts.
+
+### Cost Control
+```bash
+# Use cheaper models for routine work
+claude --model sonnet --session routine-tasks
+# Reserve expensive models for complex work
+claude --model opus --session architecture-decisions
+```
+
+---
+
+## Practical Limits
+
+| Agents | Effectiveness |
+|--------|---------------|
+| 1-3 | Easy to manage, low overhead |
+| 3-7 | **Optimal** — good parallelism, manageable coordination |
+| 7-10 | Increasing overhead, human attention bottleneck |
+| 10+ | Coordination costs exceed benefits |
+
+**Bottleneck shifts**: From AI speed to human attention to integrate outputs.
+
+---
+
+## Worktree Management Commands
+
+```bash
+git worktree list              # List all worktrees
+git worktree remove ../path    # Remove worktree
+git worktree prune             # Prune stale entries
+git worktree move ../old ../new  # Move worktree
+```
+
+---
+
+## Named Sessions Integration
+
+```bash
+# Create worktree with corresponding session
+git worktree add ../project-feature-x -b feature/x main
+cd ../project-feature-x
+claude --session feature-x-implementation
+
+# Resume later
+cd ../project-feature-x
+claude --resume feature-x-implementation
+```
+
+---
+
+## Checklist: Starting Parallel Session
+
+1. [ ] Create git worktrees for isolation
+2. [ ] Define zone ownership (which agent edits what)
+3. [ ] Start named sessions for each workstream
+4. [ ] Set up file-based coordination (tasks/, results/)
+5. [ ] Consider teleporting long tasks to cloud
+6. [ ] Establish merge points and cadence
+
+---
+
 ## Cross-References
 
 - `orchestration/00-ORCHESTRATION/scripts/setup-worktrees.sh` — Setup script (70 lines)
-- `sources/research/MECH-git_worktree_coordination.md` — Deep mechanics (zone ownership, coordination.yaml schema)
-- `sources/research/PRAC-parallel_claude_orchestration.md` — Multi-instance patterns
 - `engine/REF-ROSETTA_STONE.md` — Gap Analysis G5
+
+---
+
+## Consolidated From
+
+- `praxis/05-SIGMA/mechanics/MECH-git_worktree_coordination.md` — Coordination schema, CODEOWNERS, zone verification script, zone-specific ledgers, worktree management commands, named sessions integration
+- `praxis/05-SIGMA/practice/PRAC-parallel_claude_orchestration.md` — Teleport pattern, file-based Oracle coordination, resource management, practical limits, parallel session checklist

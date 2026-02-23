@@ -1,5 +1,10 @@
 # PRAC: Multi-Account Coordination
 
+> **STATUS: STALE** | Date: 2026-02-23
+> **Issue**: References nonexistent path `orchestration/oracle_contexts/handoffs/` (line 76). Context portability section describes a handoff workflow that was never implemented at that location.
+> **Action needed**: Update handoff path references to match actual agent inbox/outbox structure, or remove the section
+> **Flagged by**: Adjudicator DC-203, Commander DC-205
+
 **Scope**: CLAUDE_CONFIG_DIR, known bugs, isolation patterns, rate limit handling
 
 ---

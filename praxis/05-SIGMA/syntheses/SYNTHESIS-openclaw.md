@@ -1,3 +1,6 @@
+> **STATUS: SUPERSEDED-BY**: `praxis/05-SIGMA/syntheses/SYNTHESIS-openclaw-v2.md`
+> **Date**: 2026-02-23 | **Reason**: v2 reflects current GPT-5.3 + OpenClaw architecture
+
 # SYNTHESIS: OpenClaw — Personal AI Agent Gateway Platform
 
 **Synthesis Date**: 2026-02-02

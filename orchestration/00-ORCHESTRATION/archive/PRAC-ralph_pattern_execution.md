@@ -1,3 +1,7 @@
+> **ARCHIVED**: 2026-02-23 | Reason: CONSOLIDATED into MECH-context_compaction_strategies.md
+> **Origin**: praxis/05-SIGMA/practice/
+> **Archived by**: Commander (DC-205 Phase 2C overlap consolidation)
+
 # PRAC: Ralph Pattern Execution
 
 **Scope**: Fresh context loops, static prompts, avoiding compaction entirely

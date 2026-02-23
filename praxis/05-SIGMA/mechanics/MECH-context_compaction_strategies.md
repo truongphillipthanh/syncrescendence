@@ -235,8 +235,71 @@ Some practitioners disable auto-compaction entirely, preferring to restart sessi
 
 ---
 
+## The Ralph Pattern: Fresh Context Alternative
+
+```
+TERM RalphPattern:
+sutra: "Wipe the whiteboard after every task—AI operates in smartest mode with fresh context"
+gloss: Ralph works because it keeps AI operating at peak capability by wiping context
+       completely after each task. No compaction, no growing memory files, no accumulated noise.
+spec:
+    type: PRACTICE
+    creator: "Jeff Huntley"
+    key_insight: "LLMs get worse as context grows—fresh start every time"
+    anti_pattern: "Compaction defeats the purpose"
+end
+```
+
+### Canonical Implementation
+
+```bash
+#!/bin/bash
+# ralph.sh
+while true; do
+    claude -p "$(cat prompt.md)" --max-turns 50
+    if grep -q "passes: true" prd.md && ! grep -q "passes: false" prd.md; then
+        echo "All tasks complete!"
+        break
+    fi
+    sleep 5
+done
+```
+
+### Required Files
+- **prompt.md** — Static instructions (NEVER changes). Reads prd.md, finds highest priority incomplete task, implements, validates, exits.
+- **prd.md** — Task list with `passes: true/false` flags per task. Each task has category, description, validation steps.
+- **activity.md** — Log file. Each loop appends what happened. Visibility without bloating context.
+- **settings.json** — Sandbox permissions to constrain damage radius.
+
+### Common Mistakes
+1. **Using compaction** instead of fresh context wipe — AI loses critical information.
+2. **Growing memory files** — Models are verbose; 10 iterations stuffs context before task starts. Keep prompt static.
+3. **Max iterations cap** — Cuts off discovery. Let it run until all tasks pass.
+
+### Variations
+- **Parallel Ralphs**: Multiple instances with `TASK_FILTER` for different categories.
+- **Browser validation**: AI opens app and clicks through flows instead of just running tests.
+- **GitHub Issues as tasks**: Ralph picks most important open issue, implements, closes.
+
+### Cost Math
+| Setup | Cost | Outcome |
+|-------|------|---------|
+| Correct (fresh context) | ~$30-50 | Working proof of concept |
+| Wrong (compaction/growing files) | ~$300 | Broken mess, rebuild manually |
+
+### When to Use Ralph
+**Good for**: Proof of concepts, validating architecture, overnight builds, exploratory implementation.
+**Not for**: Production engineering (needs human review), edge cases requiring judgment, architectural decisions requiring context.
+
+---
+
 ## Cross-References
 
 - [[SYNTHESIS-claude_code_architecture]] → ContextManagement TERM block
 - [[MECH-task_orchestration]] → Task persistence across compaction
-- [[PRAC-ralph_pattern_execution]] → Fresh context alternative to compaction
+
+---
+
+## Consolidated From
+
+- `praxis/05-SIGMA/practice/PRAC-ralph_pattern_execution.md` — Ralph pattern (fresh context loops, canonical implementation, required files, common mistakes, variations, cost math, when-to-use guidance)

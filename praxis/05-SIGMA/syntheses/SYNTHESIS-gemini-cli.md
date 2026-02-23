@@ -1,6 +1,11 @@
 # SYNTHESIS: Gemini CLI / Google AI Ecosystem
 ## Phase 3 — Preservative Coalescence
 
+> **STATUS: STALE** | Date: 2026-02-23
+> **Issue**: Dated 2025-07-15 — over 7 months old. Model references outdated (Gemini 2.5 Pro/Flash → now Gemini 3.0/3.1 per Frontier Model Registry). Pricing, context window sizes, and capability claims likely superseded. CLI-specific operational details were already flagged as a gap at synthesis time.
+> **Action needed**: Re-run research cycle against current Gemini CLI capabilities and pricing; update model names and specs
+> **Flagged by**: Adjudicator DC-203, Commander DC-205
+
 **Synthesized by**: Ajna (Claude Opus 4.5)
 **Date**: 2025-07-15
 **Sources**: 6 files, ~3,393 raw lines → ~1,100 synthesized lines (~67% reduction)

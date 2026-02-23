@@ -1,6 +1,11 @@
 # PRAC — Ontology Dataview Queries
 ## Ready-to-Use Obsidian Dataview Queries for CANON Ontology
 
+> **STATUS: STALE** | Date: 2026-02-23
+> **Issue**: Coverage claim "10/79 CANON files" is outdated — canon now contains 80 CANON files (in `canon/01-CANON/`). Frontmatter extension coverage unverified. Queries reference `FROM "canon"` which may not match actual vault path.
+> **Action needed**: Re-count CANON files with extended frontmatter, update coverage numbers, verify Dataview `FROM` paths match Obsidian vault structure
+> **Flagged by**: Adjudicator DC-203, Commander DC-205
+
 **Version**: 1.0.0
 **Created**: 2026-02-05
 **Authority**: Commander (Claude Code Opus)

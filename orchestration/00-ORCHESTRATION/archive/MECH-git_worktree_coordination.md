@@ -1,3 +1,7 @@
+> **ARCHIVED**: 2026-02-23 | Reason: CONSOLIDATED into PRAC-blitzkrieg_worktree_isolation.md
+> **Origin**: praxis/05-SIGMA/mechanics/
+> **Archived by**: Commander (DC-205 Phase 2C overlap consolidation)
+
 # MECH: Git Worktree Coordination
 
 **Scope**: Worktree creation, zone isolation, conflict prevention, multi-agent patterns
