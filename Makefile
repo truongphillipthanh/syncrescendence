@@ -1,7 +1,22 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit configs
+
+# ──────────────────────────────────────────────────────────────
+# Config Generation — Single-source build from AGENTS.md master
+# ──────────────────────────────────────────────────────────────
+# AGENTS.md is the single source of truth for all operational law.
+# Platform-specific extensions (*-EXT.md) add only platform-native deltas.
+# Generated files (CLAUDE.md, GEMINI.md) are what each CLI auto-loads.
+# Edit AGENTS.md or *-EXT.md, then run: make configs
+
+configs: AGENTS.md CLAUDE-EXT.md GEMINI-EXT.md OPENCLAW-EXT.md
+	@cat AGENTS.md CLAUDE-EXT.md > CLAUDE.md
+	@cat AGENTS.md GEMINI-EXT.md > GEMINI.md
+	@echo "✓ CLAUDE.md generated (AGENTS.md + CLAUDE-EXT.md)"
+	@echo "✓ GEMINI.md generated (AGENTS.md + GEMINI-EXT.md)"
+	@echo "✓ Configs regenerated from single source"
 
 # Default target
 help:
