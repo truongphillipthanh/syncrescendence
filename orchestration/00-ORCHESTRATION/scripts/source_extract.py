@@ -142,6 +142,7 @@ def make_llm_call_from_env() -> LLMCallFn:
     Supported backends (via LLM_BACKEND env var):
       - "openai"  — Uses OPENAI_API_KEY, OPENAI_MODEL (default: gpt-4)
       - "anthropic" — Uses ANTHROPIC_API_KEY, ANTHROPIC_MODEL (default: claude-sonnet-4-20250514)
+      - "openrouter" — Uses OPENROUTER_API_KEY, OPENROUTER_MODEL (default: google/gemini-2.5-flash)
       - unset / unknown — returns placeholder
 
     This keeps the extraction script dependency-free beyond jsonschema.
@@ -174,6 +175,35 @@ def make_llm_call_from_env() -> LLMCallFn:
             return resp.choices[0].message.content or "[]"
 
         return openai_call
+
+    elif backend == "openrouter":
+        api_key = os.environ.get("OPENROUTER_API_KEY")
+        model = os.environ.get("OPENROUTER_MODEL", "google/gemini-2.5-flash")
+        if not api_key:
+            logging.error("LLM_BACKEND=openrouter but OPENROUTER_API_KEY not set")
+            return _default_llm_call
+
+        def openrouter_call(system_prompt: str, user_text: str) -> str:
+            try:
+                from openai import OpenAI  # type: ignore[import-untyped]
+            except ImportError:
+                logging.error("openai package not installed (needed for OpenRouter)")
+                return "[]"
+            client = OpenAI(
+                api_key=api_key,
+                base_url="https://openrouter.ai/api/v1",
+            )
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_text},
+                ],
+                temperature=0.1,
+            )
+            return resp.choices[0].message.content or "[]"
+
+        return openrouter_call
 
     elif backend == "anthropic":
         api_key = os.environ.get("ANTHROPIC_API_KEY")
