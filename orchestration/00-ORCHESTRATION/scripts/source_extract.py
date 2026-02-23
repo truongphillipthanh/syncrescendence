@@ -254,9 +254,28 @@ def parse_source_file(path: Path) -> tuple[str, str, list[str]]:
             # Non-YAML line → stop
             break
         if bare_end > 0:
-            frontmatter = "\n".join(lines[:bare_end])
-            body_start = bare_end
-            # Skip a single blank line separator after bare frontmatter
+            # Check for a fenced YAML block immediately following bare lines
+            # (handles hybrid: bare keys on top, then ---...--- fenced block)
+            fence_start = bare_end
+            # Skip optional blank line between bare keys and fence
+            if fence_start < len(lines) and not lines[fence_start].strip():
+                fence_start += 1
+            if fence_start < len(lines) and lines[fence_start].strip() == "---":
+                # Found opening fence — scan for closing fence
+                for fi in range(fence_start + 1, len(lines)):
+                    if lines[fi].strip() == "---":
+                        # Include both bare and fenced YAML as frontmatter
+                        frontmatter = "\n".join(lines[:fi])
+                        body_start = fi + 1
+                        break
+                else:
+                    # No closing fence found — treat bare section only
+                    frontmatter = "\n".join(lines[:bare_end])
+                    body_start = bare_end
+            else:
+                frontmatter = "\n".join(lines[:bare_end])
+                body_start = bare_end
+            # Skip a single blank line separator after frontmatter
             if body_start < len(lines) and not lines[body_start].strip():
                 body_start += 1
 
