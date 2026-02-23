@@ -189,7 +189,7 @@
   source_path: 00-ORCHESTRATION/state/REF-FOUR_SYSTEMS.md
   source_lines: "System 1: Automatic-Push (Scheduled Monitoring)"
   intent: Turn System 1 from concept into a runnable scheduled monitor.
-  deliverable: Minimal System-1 runner spec + script (or Makefile target) that polls a defined feed list and writes a Daily/Weekly Brief artifact to -INBOX/ or SOURCES/processed/.
+  deliverable: Minimal System-1 runner spec + script (or Makefile target) that polls a defined feed list and writes a Daily/Weekly Brief artifact to agents/ or SOURCES/inbox/processed/.
   dependencies: Decide feed sources + auth surface (RSS/Feedly/YouTube); scheduling surface (launchd vs cron).
   owner_lane: Commander
   venue: repo
@@ -245,7 +245,7 @@
   source_lines: "How Systems Interact (diagram)"
   intent: Make the interaction model executable (not just a diagram).
   deliverable: A single ‘source intake’ state machine spec showing entrypoints (System 1/2/3) → triage (System 4) → outcomes (process/queue/archive/prune) with filenames/dirs.
-  dependencies: Dispatch kanban protocol + directory conventions (-INBOX/-OUTGOING/04-SOURCES).
+  dependencies: Dispatch kanban protocol + directory conventions (agents/-OUTGOING/inbox/04-SOURCES).
   owner_lane: Commander
   venue: repo
   status: new
@@ -324,7 +324,7 @@
   source_lines: "Inter-Twin Communication"
   intent: Make TWIN handoffs durable and discoverable.
   deliverable: Create canonical folder + naming spec for `TWIN-{FROM}-{TO}-{topic}.md` (or update to current kanban structure) and add a simple index/ledger entry type for TWIN relays.
-  dependencies: Decide whether TWIN relays live in `-INBOX/<agent>/` or a shared `-INBOX/outputs/` resurrected equivalent.
+  dependencies: Decide whether TWIN relays live in `agents/<agent>/inbox/` or a shared `agents/outputs/inbox/` resurrected equivalent.
   owner_lane: Commander
   venue: repo
   status: new
@@ -335,7 +335,7 @@
   source_lines: "Git: Only Ajna commits"
   intent: Reduce merge/drift risk while allowing Psyche to contribute safely.
   deliverable: Document ‘Psyche contribution protocol’: Psyche opens PATCH artifacts (diffs) or PR branches; Ajna merges/commits. Include receipts: how to produce a patch bundle.
-  dependencies: Decide branch naming + patch handoff surface (-OUTGOING/PATCH-* vs -OUTBOX/psyche/ARTIFACTS).
+  dependencies: Decide branch naming + patch handoff surface (-OUTGOING/PATCH-* vs agents/psyche/outbox/ARTIFACTS).
   owner_lane: Psyche
   venue: repo
   status: new
@@ -400,7 +400,7 @@
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
   source_lines: "Per-Agent Outbox Structure + RESULT Receipt Determinism"
   intent: Align watchers and humans on where RESULT receipts live.
-  deliverable: Create `-OUTBOX/<agent>/{RESULTS,ARTIFACTS}/` structure in repo + update watcher scripts to write there (not -OUTGOING), with a relay rule for what gets promoted to -OUTGOING.
+  deliverable: Create `agents/<agent>/outbox/{RESULTS,ARTIFACTS}/` structure in repo + update watcher scripts to write there (not -OUTGOING), with a relay rule for what gets promoted to -OUTGOING.
   dependencies: watch_dispatch.sh implementation state; repo directory conventions.
   owner_lane: Commander
   venue: repo
@@ -914,9 +914,9 @@
 
 - id: IMPL-D-0097
   source_path: 00-ORCHESTRATION/scripts/dispatch.sh
-  source_lines: "Receipts-To: -OUTBOX/<agent>/RESULTS"
+  source_lines: "Receipts-To: agents/<agent>/outbox"
   intent: Ensure -OUTBOX directory exists and is git-tracked policy-wise.
-  deliverable: dispatch.sh should mkdir -p -OUTBOX/<agent>/{RESULTS,ARTIFACTS} and/or emit a clear warning if missing.
+  deliverable: dispatch.sh should mkdir -p agents/<agent>/outbox/{RESULTS,ARTIFACTS} and/or emit a clear warning if missing.
   dependencies: Decision: track empty dirs via .keep files or mkdir at runtime only.
   owner_lane: Commander
   venue: repo
@@ -1762,7 +1762,7 @@
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
   source_lines: "§2–§6 (Structure + Lifecycle + Reply-To-Sender)"
   intent: Close the loop: make bidirectional feedback mandatory and machine-checkable.
-  deliverable: Extend ops_lint.sh (or add kanban_lint.sh) to validate: Kind present/allowed; Kanban mirrors folder; Reply-To is present; Receipts-To points at -OUTBOX/<agent>/RESULTS/; CONFIRM/RESULT/EXECLOG prefixes are excluded from watchers.
+  deliverable: Extend ops_lint.sh (or add kanban_lint.sh) to validate: Kind present/allowed; Kanban mirrors folder; Reply-To is present; Receipts-To points at agents/<agent>/outbox/; CONFIRM/RESULT/EXECLOG prefixes are excluded from watchers.
   dependencies: IMPL-B-0010; IMPL-D-0085.
   owner_lane: Commander
   venue: repo
@@ -1772,8 +1772,8 @@
 - id: IMPL-G-0009
   source_path: 00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md
   source_lines: "Operating Principles → Inter-Twin Communication"
-  intent: Repair protocol drift: doc references `-INBOX/outputs/` but it was deleted; twin relay surface needs a canonical path.
-  deliverable: Update DYN-TWIN_COORDINATION_PROTOCOL.md to point to the current canonical twin handoff surface (e.g., -OUTBOX/psyche/ARTIFACTS or a reinstated -INBOX/outputs); add a one-line rule for discoverability + indexing.
+  intent: Repair protocol drift: doc references `agents/outputs/inbox/` but it was deleted; twin relay surface needs a canonical path.
+  deliverable: Update DYN-TWIN_COORDINATION_PROTOCOL.md to point to the current canonical twin handoff surface (e.g., agents/psyche/outbox/ARTIFACTS or a reinstated agents/outputs);/inbox add a one-line rule for discoverability + indexing.
   dependencies: Decision on shared handoff directory.
   owner_lane: Psyche
   venue: repo
@@ -1877,8 +1877,8 @@
   source_path: DYN-DISPATCH_KANBAN_PROTOCOL.md + DYN-TWIN_COORDINATION_PROTOCOL.md
   source_lines: "cross-doc drift detection"
   intent: Close IMPL-G-0009 by making twin handoff surface discoverable and indexed.
-  deliverable: (a) Update DYN-TWIN_COORDINATION_PROTOCOL.md to replace -INBOX/outputs/ with canonical -OUTBOX/<agent>/ARTIFACTS/ path, (b) add INDEX.md entry in -OUTBOX/ pointing to latest twin relay files, (c) close IMPL-G-0009 as completed.
-  dependencies: IMPL-G-0009 status update; folder creation (if -OUTBOX/ structure not present).
+  deliverable: (a) Update DYN-TWIN_COORDINATION_PROTOCOL.md to replace agents/outputs/inbox/ with canonical agents/<agent>/outbox/ARTIFACTS/ path, (b) add INDEX.md entry in agents/ pointing to latest twin relay files, (c) close IMPL-G-0009 as completed./outbox
+  dependencies: IMPL-G-0009 status update; folder creation (if agents/ structure not present)./outbox
   owner_lane: Psyche
   venue: repo
   status: new

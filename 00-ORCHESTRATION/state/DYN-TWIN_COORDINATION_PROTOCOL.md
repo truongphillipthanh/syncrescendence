@@ -83,7 +83,7 @@ Phillip is **only** pinged when:
 2. **Latest commit**: `65af7ab` (chore: Update constellation state fingerprint to e70a9f3)
 3. **Workspace extractions migrated to**: `05-SIGMA/MEMORY-AJNA-THREAD-EXTRACTION.md`, `05-SIGMA/MEMORY-CHATGPT-ASSESSMENT-EXTRACTION.md`, `05-SIGMA/MEMORY-CHATGPT-MISC-EXTRACTION.md`
 4. **Ontology Registry**: Schema → `00-ORCHESTRATION/state/REF-ONTOLOGY_REGISTRY.md` (done). Data → `02-ENGINE/ontology/registry/` (10 spine entities seeded). Extraction table → `00-ORCHESTRATION/state/ARCH-ONTOLOGY_EXTRACTION_TABLE.md`.
-5. **Rosetta v2.0**: Expanded directly in canonical `02-ENGINE/REF-ROSETTA_STONE.md` (167 terms). Drop zone (formerly `-INBOX/outputs/`) was deleted during hygiene sprint; Ajna wrote directly to canonical location.
+5. **Rosetta v2.0**: Expanded directly in canonical `02-ENGINE/REF-ROSETTA_STONE.md` (167 terms). Drop zone (formerly `agents/outputs/inbox/`) was deleted during hygiene sprint; Ajna wrote directly to canonical location.
 
 ---
 

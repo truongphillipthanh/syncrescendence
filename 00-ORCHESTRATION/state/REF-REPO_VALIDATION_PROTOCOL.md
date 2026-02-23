@@ -27,7 +27,7 @@ Standardized procedure for validating repository health, structural compliance, 
 **Command**: `bash 00-ORCHESTRATION/scripts/verify_all.sh`
 
 **Checks**:
-- `-INBOX/`, `-OUTGOING/`, `-SOVEREIGN/` exist
+- `agents/`, `-OUTGOING/inbox/`, `-SOVEREIGN/` exist
 - Root contains only zones 00, 01, 02, 04, 05 plus sanctioned exceptions
 - No orphan files at root
 - COCKPIT.md paths resolve
@@ -49,11 +49,11 @@ Standardized procedure for validating repository health, structural compliance, 
 ### 3. Directory Sanity
 
 **Checks**:
-- Confirm `-INBOX/` exists
+- Confirm `agents/`/inbox exists
 - Confirm `-OUTGOING/` exists
 - Confirm `OUTGOING/` does NOT exist
 - Confirm `outgoing/` does NOT exist
-- List `-INBOX/` contents (should be transient only)
+- List `agents/`/inbox contents (should be transient only)
 
 **Pass Criteria**: All existence checks pass
 
@@ -104,7 +104,7 @@ bash 00-ORCHESTRATION/scripts/ops_lint.sh > lint.log 2>&1
 | Failure | Remediation |
 |---------|-------------|
 | Missing frontmatter | Add YAML block with id, kind, scope, target |
-| Legacy path refs | Update to `-OUTGOING/` or `-INBOX/` |
+| Legacy path refs | Update to `-OUTGOING/` or `agents/`/inbox |
 | Orphan root files | Move to appropriate zone |
 | Missing directories | Create with `mkdir -p` |
 

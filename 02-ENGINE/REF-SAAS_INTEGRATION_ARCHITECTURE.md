@@ -111,19 +111,19 @@ Web apps participate through the CAPTURE → DISPATCH → RETURN mnemonic. They 
 
 | Avatar | Epithet | Role | Platform | Lane | Acct | σ | Dispatch |
 |--------|---------|------|----------|------|------|---|----------|
-| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | A | 1 | σ₇ | -INBOX/commander/ |
-| **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | B | 2 | σ₇ | -INBOX/adjudicator/ |
+| **Commander** | Viceroy | EXECUTOR-LEAD | Claude Code (Opus) | A | 1 | σ₇ | agents/commander/inbox/ |
+| **Adjudicator** | Executor | PARALLEL-EXEC | Codex CLI | B | 2 | σ₇ | agents/adjudicator/inbox/ |
 | — | — | PARALLEL-EXEC | Claude Code (Sonnet ×2) | — | 2 | σ₇ | Microscopic tasks |
-| **Cartographer** | Exegete | SENSOR | Gemini CLI | C | 2 | σ₇ | -INBOX/cartographer/ |
+| **Cartographer** | Exegete | SENSOR | Gemini CLI | C | 2 | σ₇ | agents/cartographer/inbox/ |
 
-CLI agents interact with σ₄ through direct filesystem access and the kanban dispatch system. Each agent watches `00-INBOX0/` in their inbox, claims tasks via atomic `mv`, produces RESULT receipts in `-OUTBOX/<agent>/RESULTS/`. See DYN-DISPATCH_KANBAN_PROTOCOL.md for the full lifecycle.
+CLI agents interact with σ₄ through direct filesystem access and the kanban dispatch system. Each agent watches `00-INBOX0/` in their inbox, claims tasks via atomic `mv`, produces RESULT receipts in `agents/<agent>/outbox/`. See DYN-DISPATCH_KANBAN_PROTOCOL.md for the full lifecycle.
 
 ### D. Local Orchestrators — OpenClaw (σ₇ primary, spans σ₃–σ₇)
 
 | Avatar | Model | Device | Channel | σ | Dispatch |
 |--------|-------|--------|---------|---|----------|
-| **Ajna** | Opus 4.5 | M1 Mac mini | Discord + webchat + iMessage | σ₇ | -INBOX/ajna/ |
-| **Psyche** | GPT-5.2 | M4 MacBook Air | Slack + webchat | σ₇ | -INBOX/psyche/ |
+| **Ajna** | Opus 4.5 | M1 Mac mini | Discord + webchat + iMessage | σ₇ | agents/ajna/inbox/ |
+| **Psyche** | GPT-5.2 | M4 MacBook Air | Slack + webchat | σ₇ | agents/psyche/inbox/ |
 
 OpenClaw agents are the Constellation's persistent glue. They combine σ₇ execution (filesystem, git, cron, skills, sub-agent spawning) with σ₃ context engineering (persistent memory, daily notes) and σ₅ intelligence (model reasoning). They don't replace other platforms — they orchestrate them. Hub-spoke preserved: σ₀ → OpenClaw → Lanes → OpenClaw → σ₀.
 
@@ -216,9 +216,9 @@ Linear holds SYN-XX issues — every code-touching task. ClickUp holds everythin
 
 All inter-agent coordination at the σ₄↔σ₇ boundary flows through the kanban dispatch system, fully specified in DYN-DISPATCH_KANBAN_PROTOCOL.md.
 
-**Per-agent inbox**: `-INBOX/<agent>/` with kanban lanes: `00-INBOX0/` (new, unclaimed), `10-IN_PROGRESS/` (claimed, executing), `20-WAITING/` (external dependency), `30-BLOCKED/` (hard blocker), `40-DONE/` (completed), `50_FAILED/` (unsuccessful), `90_ARCHIVE/` (cold storage), `RECEIPTS/` (CC copies, watchers ignore).
+**Per-agent inbox**: `agents/<agent>/inbox/` with kanban lanes: `00-INBOX0/` (new, unclaimed), `10-IN_PROGRESS/` (claimed, executing), `20-WAITING/` (external dependency), `30-BLOCKED/` (hard blocker), `40-DONE/` (completed), `50_FAILED/` (unsuccessful), `90_ARCHIVE/` (cold storage), `RECEIPTS/` (CC copies, watchers ignore).
 
-**Per-agent outbox**: `-OUTBOX/<agent>/RESULTS/` (RESULT receipts), `-OUTBOX/<agent>/ARTIFACTS/` (produced files). `-OUTGOING/` remains the Sovereign relay surface for web app staging.
+**Per-agent outbox**: `agents/<agent>/outbox/` (RESULT receipts), `agents/<agent>/outbox/ARTIFACTS/` (produced files). `-OUTGOING/` remains the Sovereign relay surface for web app staging.
 
 **Eight dispatch kinds**: TASK (do something), SURVEY (report on something), DIRECTIVE (guidance), EVIDENCE (observation), RESULT (what happened), RECEIPT (CC copy), PATCH (change proposal), NOTE (informational).
 
@@ -230,7 +230,7 @@ Method: git push/pull, `gh` CLI. Commander (origin, Account 1), Adjudicator (for
 
 ### OpenClaw ↔ Repository (σ₇ → σ₄)
 
-Ajna and Psyche orchestrate hub-spoke dispatch: receive σ₀ intent → decompose into TASK files → dispatch to -INBOX/<agent>/00-INBOX0/ → collect RESULT receipts from -OUTBOX/ → synthesize and report. Twin coordination per DYN-TWIN_COORDINATION_PROTOCOL.md.
+Ajna and Psyche orchestrate hub-spoke dispatch: receive σ₀ intent → decompose into TASK files → dispatch to agents/<agent>/inbox/pending/ → collect RESULT receipts from agents/ → synthesize and report. Twin coordination per DYN-TWIN_COORDINATION_PROTOCOL.md./outbox
 
 ---
 
@@ -347,7 +347,7 @@ Parallel agent threads with git worktree isolation. 30-minute autonomous agent r
 
 Maps to the **Adjudicator** role's evolution. Codex CLI is single-thread (Lane B); the Codex App enables the Adjudicator as *swarm coordinator* — decomposing TASKs into parallel threads, running concurrently, producing consolidated RESULT receipts. Git worktree support means each parallel thread operates on an isolated branch — clean integration with the fork/PR workflow.
 
-**Kanban dispatch integration**: TASK dispatched to -INBOX/adjudicator/00-INBOX0/ → claimed by Codex App → decomposed into parallel worktree threads → executed → consolidated RESULT to -OUTBOX/adjudicator/RESULTS/.
+**Kanban dispatch integration**: TASK dispatched to agents/adjudicator/inbox/pending/ → claimed by Codex App → decomposed into parallel worktree threads → executed → consolidated RESULT to agents/adjudicator/outbox/.
 
 **Open questions**: Does the Codex App monitor the kanban inbox, or does σ₀ manually feed tasks? Can it write RESULT receipts in protocol format? Complement or replace CLI for Adjudicator?
 

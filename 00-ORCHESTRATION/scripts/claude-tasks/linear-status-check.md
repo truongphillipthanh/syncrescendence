@@ -19,7 +19,7 @@ Note: The LINEAR_API_KEY environment variable is already set. Use it directly as
 
 2. Parse the JSON response using jq.
 
-3. Write a summary report to `/Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-LINEAR-STATUS-$(date +%Y%m%d%H%M).md` with this format:
+3. Write a summary report to `/Users/home/Desktop/syncrescendence/agents/commander/inbox/pending/TASK-LINEAR-STATUS-$(date +%Y%m%d%H%M).md` with this format:
 
 ```markdown
 # Linear SYN Status Report — YYYY-MM-DD HH:MM

@@ -58,7 +58,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 **Goal**: Download and archive all relevant information.
 
 **Process**:
-1. Download/archive authoritative sources to `-INBOX/`
+1. Download/archive authoritative sources to `agents/`/inbox
 2. Collect testimonials with timestamps and attribution
 3. Note version-specific information (pin version numbers)
 4. Identify conflicting patterns across sources
@@ -72,7 +72,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 | Grok-sourced | Failure modes, anti-patterns, edge cases |
 | Perplexity-sourced | Research grounding, authoritative citations |
 
-**Output**: Raw source files in `-INBOX/` with metadata headers.
+**Output**: Raw source files in `agents/`/inbox with metadata headers.
 
 **Quality Gate**:
 - [ ] All P0 sources downloaded
@@ -167,7 +167,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 
 | Output | Location | Naming |
 |---|---|---|
-| Raw research sources | `-INBOX/` | `RESEARCH-[TOOL]-[DATE]-[source].md` |
+| Raw research sources | `agents/`/inbox | `RESEARCH-[TOOL]-[DATE]-[source].md` |
 | Synthesis documents | `05-SIGMA/synthesis/` | `SYNTHESIS-[tool]_[domain].md` |
 | Mechanics documents | `05-SIGMA/mechanics/` | `MECH-[mechanism].md` |
 | Practice documents | `05-SIGMA/practice/` | `PRAC-[pattern].md` |

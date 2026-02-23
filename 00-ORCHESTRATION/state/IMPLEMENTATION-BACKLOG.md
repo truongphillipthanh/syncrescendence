@@ -50,7 +50,7 @@
 ## 2026-02-06 (Tranche B) — Twin coordination + Intent Compass mechanics + Dispatch Kanban
 
 ### P0
-- IMPL-B-0009 — Establish -OUTBOX/<agent>/ structure + align watcher RESULT receipts + relay rule to -OUTGOING
+- IMPL-B-0009 — Establish agents/<agent>/outbox/ structure + align watcher RESULT receipts + relay rule to -OUTGOING
 - IMPL-B-0010 — Kanban schema linter: Kind gating + header validation (safety rail)
 
 ### P1
@@ -144,7 +144,7 @@
 - IMPL-D-0093 — intent_compass atomic append/lock
 - IMPL-D-0092 — intention queue correlation_id + richer capture
 - IMPL-D-0094 — jq dependency preflight/rate-limited warn
-- IMPL-D-0097 — -OUTBOX/<agent>/{RESULTS,ARTIFACTS} existence policy
+- IMPL-D-0097 — agents/<agent>/outbox/{RESULTS,ARTIFACTS} existence policy
 - IMPL-D-0098 — timeout semantics standardized + Kind defaults
 - IMPL-D-0099 — dispatch template aligns with ‘folder is canonical state’ doctrine
 - IMPL-D-0100 — ledger DISPATCH reliability (warn/stub)
@@ -242,7 +242,7 @@
 - IMPL-G-0008 — Kanban lint gating: validate Kind/Kanban/Reply-To/Receipts-To + watcher-safe prefixes
 
 ### P1
-- IMPL-G-0009 — Fix twin relay surface drift (replace stale -INBOX/outputs references with canonical path)
+- IMPL-G-0009 — Fix twin relay surface drift (replace stale agents/outputs/inbox references with canonical path)
 - IMPL-G-0003 — Five Invariants disambiguation (explicit list + override semantics in CLAUDE.md)
 
 ### P2
@@ -267,10 +267,10 @@
 
 ### P2
 - IMPL-I-0003 — corpus_health_check.py scheduled execution (launchd/cron + alerting)
-- IMPL-G-0009 — Fix twin relay surface drift (canonical -OUTBOX/<agent>/ARTIFACTS/ path)
+- IMPL-G-0009 — Fix twin relay surface drift (canonical agents/<agent>/outbox/ARTIFACTS/ path)
 
 ### P3
-- IMPL-I-0004 — Twin handoff indexing (INDEX.md in -OUTBOX/ + doc update)
+- IMPL-I-0004 — Twin handoff indexing (INDEX.md in agents/ + doc update)/outbox
 
 ## 2026-02-10 (Tranche J — Canon Hotspots: Five-Account + Multi-Agent + Memory + Seven-Layer)
 

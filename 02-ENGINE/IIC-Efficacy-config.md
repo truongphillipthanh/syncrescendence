@@ -321,7 +321,7 @@ grep "SOURCE-YYYYMMDD-NNN" 01-CANON/CANON-XXXXX.md
 ### A. Receiving from Coherence
 
 **Input Format**: Plan Packet (JSON or structured markdown)
-**Trigger**: File appears in `-INBOX/commander/`
+**Trigger**: File appears in `agents/commander/inbox/`
 **Action**: Parse, verify capabilities, execute or request clarification
 
 **Expected Fields**:
@@ -569,12 +569,12 @@ function update_csv() {
 ### Acumen (Information Chain)
 **Receives**: Qualified tasks requiring execution (e.g., transcription, automation setup)
 **Provides**: Execution confirmation, verified outputs
-**Interface**: Dispatch via `-INBOX/commander/` task files
+**Interface**: Dispatch via `agents/commander/inbox/` task files
 
 ### Coherence (Insight Chain)
 **Receives**: Implementation plans from synthesis
 **Provides**: Execution packets, verification evidence
-**Interface**: Dispatch system (`-INBOX/{agent}/` task files)
+**Interface**: Dispatch system (`agents/{agent}/inbox/` task files)
 
 ### Mastery (Knowledge Chain)
 **Receives**: Teaching pattern requests
@@ -609,7 +609,7 @@ function update_csv() {
 # Before executing Plan Packet
 make verify          # Ensure clean starting state
 git status           # No uncommitted changes
-ls -INBOX/commander/  # Plan packet exists
+ls agents/commander/inbox/  # Plan packet exists
 ```
 
 **Post-Flight Checks**:

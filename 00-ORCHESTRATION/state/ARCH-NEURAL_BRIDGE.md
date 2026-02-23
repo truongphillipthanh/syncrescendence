@@ -47,7 +47,7 @@ Loss of this link is considered a **VITAL ORGAN FAILURE** as it isolates the str
 ### A. TASK Dispatch
 1. **Initiation**: Agent A (e.g., Ajna on MBA) runs `dispatch.sh cartographer`.
 2. **Slinging**: `dispatch.sh` detects `SYNCRESCENDENCE_REMOTE_AGENT_HOST_CARTOGRAPHER=mini`.
-3. **Transport**: `scp TASK-*.md mini:~/Desktop/syncrescendence/-INBOX/cartographer/00-INBOX0/`.
+3. **Transport**: `scp TASK-*.md mini:~/Desktop/syncrescendence/agents/cartographer/inbox/pending/`.
 4. **Execution**: Mac mini `auto_ingest_loop.sh` detects file, claims it, and executes.
 
 ### B. CONFIRM Routing

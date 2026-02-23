@@ -18,7 +18,7 @@
 - AVATAR files exist for 6 platforms — **missing OpenClaw/Ajna, Claude Code/Commander**
 - Neo-Blitzkrieg pipeline is specified but not operationalized for the four CLI tools
 - Research syntheses (Codex, Gemini, OpenClaw) sit in 04-SOURCES but haven't been metabolized into CANON
-- The -INBOX/ dispatch model works for human-mediated handoffs but OpenClaw enables *autonomous* dispatch
+- The agents//inbox dispatch model works for human-mediated handoffs but OpenClaw enables *autonomous* dispatch
 
 **Does this serve the destination?** Yes — the execution substrate is the foundation everything else rests on. σ₇-First.
 
@@ -30,7 +30,7 @@
 |------|-----------|-------|
 | Syncrescendent Route | Aligns with civilizational sensing — unified toolchain = force multiplication | ✅ |
 | Bitter Lesson | Scaling compute + automation over manual coordination. OpenClaw as orchestrator eliminates manual relay | ✅ |
-| Antifragile | Redundancy: if Claude Code fails, Codex CLI can execute. If OpenClaw down, -INBOX/ still works | ✅ |
+| Antifragile | Redundancy: if Claude Code fails, Codex CLI can execute. If OpenClaw down, agents//inbox still works | ✅ |
 | Meet the Moment | We HAVE these tools deployed. Alignment is overdue | ✅ |
 | Steelman & Redteam | Redteam: "This is over-engineering." Counter: Without alignment, tools drift and the Constellation fragments | ✅ |
 | Personal Idiosyncrasies | Phillip's AuDHD coherence-first cognition requires explicit maps — implicit "just use whatever" doesn't work | ✅ |
@@ -221,10 +221,10 @@ This is INT-1202 work ("capitalize on heavy machinery"). P0.
 │                                                           │
 │  Interaction dynamics:                                    │
 │  • RECEIVES: Sovereign brainDumps via chat channels       │
-│  • DISPATCHES TO: Commander via -INBOX/ or sessions_spawn │
-│  • DISPATCHES TO: Adjudicator via -INBOX/ task files      │
-│  • DISPATCHES TO: Cartographer via -INBOX/ survey requests│
-│  • RECEIVES FROM: All tools via -INBOX/ajna/ results      │
+│  • DISPATCHES TO: Commander via agents//inbox or sessions_spawn │
+│  • DISPATCHES TO: Adjudicator via agents//inbox task files      │
+│  • DISPATCHES TO: Cartographer via agents//inbox survey requests│
+│  • RECEIVES FROM: All tools via agents/ajna/inbox/ results      │
 │  • RELAYS TO: Psyche via Slack #all-syncrescendence       │
 │  • ANNOUNCES: Results back to Sovereign's active channel  │
 │                                                           │
@@ -286,21 +286,21 @@ DISPATCH MODES:
    Format: Natural language directive
    
 2. OPENCLAW → COMMANDER (Claude Code)
-   Mode A: -INBOX/commander/TASK-*.md (async, file-based)
+   Mode A: agents/commander/inbox/TASK-*.md (async, file-based)
    Mode B: sessions_spawn (sub-agent, OpenClaw-native)
    Mode C: Direct exec (openclaw runs claude-code in PTY)
-   Return: -INBOX/ajna/RESULT-*.md or sub-agent announce
+   Return: agents/ajna/inbox/RESULT-*.md or sub-agent announce
 
 3. OPENCLAW → ADJUDICATOR (Codex CLI)  
-   Mode A: -INBOX/adjudicator/TASK-*.md (async, file-based)
+   Mode A: agents/adjudicator/inbox/TASK-*.md (async, file-based)
    Mode B: exec with `codex exec` (headless, non-interactive)
    Mode C: GitHub @codex mention (via browser or API)
-   Return: Git commits + -INBOX/ajna/RESULT-*.md
+   Return: Git commits + agents/ajna/inbox/RESULT-*.md
 
 4. OPENCLAW → CARTOGRAPHER (Gemini CLI)
-   Mode A: -INBOX/cartographer/SURVEY-*.md (async, file-based)
+   Mode A: agents/cartographer/inbox/SURVEY-*.md (async, file-based)
    Mode B: exec with `gemini` CLI piping corpus files
-   Return: Evidence pack to -INBOX/ajna/ or -OUTGOING/
+   Return: Evidence pack to agents/ajna/inbox/ or -OUTGOING/
 
 5. TWIN RELAY (Ajna ↔ Psyche)
    Channel: Slack #all-syncrescendence

@@ -480,11 +480,11 @@ LAYER 3: No Custom Instructions or Projects
 
 When transitioning work between platforms, memory must be explicitly captured:
 
-1. **Claude Web → Repository**: Export synthesized decisions to `-INBOX/` with context
+1. **Claude Web → Repository**: Export synthesized decisions to `agents/`/inbox with context
 2. **Repository → ChatGPT**: Provide complete specifications (no interpretation possible)
 3. **Repository → Gemini CLI**: Feed corpus paths + query (stateless, self-contained)
 4. **Repository → Claude Code**: Ensure CLAUDE.md reflects current architectural decisions
-5. **Claude Code → Repository**: Commit execution logs + artifacts to `-OUTGOING/`
+5. **Claude Code → Repository**: Commit execution logs + artifacts to `agents/<agent>/outbox/`
 
 ### Forbidden Patterns
 

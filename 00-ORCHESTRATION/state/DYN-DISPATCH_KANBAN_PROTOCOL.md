@@ -24,7 +24,7 @@ Filesystem kanban for dispatch surfaces. Each agent's inbox becomes a kanban boa
 ## 2. Per-Agent Kanban Structure
 
 ```
--INBOX/<agent>/
+agents/<agent>/inbox/
   00-INBOX0/          # New, unclaimed tasks only
   10-IN_PROGRESS/     # Claimed; currently executing
   20-WAITING/         # Waiting on external dependency
@@ -46,15 +46,15 @@ Filesystem kanban for dispatch surfaces. Each agent's inbox becomes a kanban boa
 ## 3. Per-Agent Outbox Structure
 
 ```
--OUTBOX/<agent>/
+agents/<agent>/outbox/
   RESULTS/            # RESULT-*.md receipt files
   ARTIFACTS/          # Any produced files (patches, drafts, data)
 ```
 
 **Rules:**
-- Watchers write RESULT files deterministically to `-OUTBOX/<agent>/RESULTS/`.
+- Watchers write RESULT files deterministically to `agents/<agent>/outbox/`.
 - `-OUTGOING/` remains as staging-for-commit (Sovereign relay surface).
-- Artifacts that need Sovereign relay go to `-OUTGOING/`; everything else goes to `-OUTBOX/`.
+- Artifacts that need Sovereign relay go to `-OUTGOING/`; everything else goes to `agents/`./outbox
 
 ---
 
@@ -108,7 +108,7 @@ All dispatch files use markdown bold-colon headers:
 **Exit-Code**: —
 **Timeout**: 30
 **CC**: —
-**Receipts-To**: -OUTBOX/commander/RESULTS/
+**Receipts-To**: agents/commander/outbox/
 ```
 
 **New fields (added by this protocol):**
@@ -130,7 +130,7 @@ All dispatch files use markdown bold-colon headers:
 ## 6. Lifecycle
 
 ### 6.1 Dispatch (new task creation)
-1. `dispatch.sh` writes file to `-INBOX/<agent>/00-INBOX0/`
+1. `dispatch.sh` writes file to `agents/<agent>/inbox/pending/`
 2. Sets `Status: PENDING`, `Kanban: INBOX0`
 3. Appends `DISPATCH` event to ledger
 
@@ -150,7 +150,7 @@ All dispatch files use markdown bold-colon headers:
 2. On failure: `mv 10-IN_PROGRESS/TASK-*.md → 50_FAILED/TASK-*.md`
 3. Updates header: `Status: COMPLETE|FAILED`, `Kanban: DONE|FAILED`, `Completed-At`, `Exit-Code`
 4. Writes RESULT receipt to `Receipts-To` path (deterministic naming)
-5. CC copies: finalized task → `-INBOX/<cc>/RECEIPTS/RECEIPT-<agent>-TASK-*.md`
+5. CC copies: finalized task → `agents/<cc>/inbox/pending/RECEIPT-<agent>-TASK-*.md`
 6. Appends `COMPLETE|FAILED` event to ledger
 
 ### 6.5 Completion Feedback (Reply-To-Sender) — MANDATORY
@@ -243,7 +243,7 @@ Use `queue_status.sh` (or manual `ls`) to check kanban state:
 for agent in commander adjudicator cartographer psyche ajna; do
   echo "=== $agent ==="
   for lane in 00-INBOX0 10-IN_PROGRESS 20-WAITING 30-BLOCKED 40-DONE 50_FAILED; do
-    count=$(ls -1 "$REPO_ROOT/-INBOX/$agent/$lane/" 2>/dev/null | grep -c '\.md$' || echo 0)
+    count=$(ls -1 "$REPO_ROOT/agents/$agent/inbox/$lane/" 2>/dev/null | grep -c '\.md$' || echo 0)
     [ "$count" -gt 0 ] && echo "  $lane: $count"
   done
 done
@@ -263,7 +263,7 @@ Migration rules:
 - `RESULT-*`, `RECEIPT-*` → `RECEIPTS/`
 - `RESPONSE-*`, bootstrap docs → `90_ARCHIVE/`
 - iCloud " 2" duplicates → deleted
-- Existing `-OUTGOING/RESULT-*` files → `-OUTBOX/<agent>/RESULTS/`
+- Existing `-OUTGOING/RESULT-*` files → `agents/<agent>/outbox/`
 
 ---
 

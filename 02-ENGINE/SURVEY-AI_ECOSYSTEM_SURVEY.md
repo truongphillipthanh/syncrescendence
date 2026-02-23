@@ -92,7 +92,7 @@ The **GPT-5.2 Pro** model ($21/$168 per MTok) provides the highest-fidelity reas
 
 The most significant shift in early 2026 is the move from **Turn-Based** to **Heartbeat** architectures.
 
-1. **Watchers**: Agents now monitor specific directories (`-INBOX/`) via `launchd` or `fswatch`, responding to filesystem events in real-time.
+1. **Watchers**: Agents now monitor specific directories (`agents/`)/inbox via `launchd` or `fswatch`, responding to filesystem events in real-time.
 2. **Pedigree Tracking**: Systems like the **Intention Archaeology Compass** and **Ajna Pedigree** track the lineage of decisions across agent boundaries.
 3. **Token Minerals**: Managing API budgets is now a strategic layer. "Tokens are the new minerals and vespene gas."
 4. **Hibernation/Reactivation**: Agents are spun up and down based on "Signal-to-Noise" (STN) thresholds (e.g., Cartographer reactivated Feb 12 after hibernation).

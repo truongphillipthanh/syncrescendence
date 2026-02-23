@@ -79,14 +79,14 @@
 - **Intent**: Encode full system access awareness into Psyche's memory
 - **Priority**: P1 — Agent capability alignment
 - **Linear**: SYN-35
-- **Status**: TASK dispatched to -INBOX/psyche/
+- **Status**: TASK dispatched to agents/psyche/inbox/
 
 ### 2026-02-09 08:30 — SOVEREIGN INTENT: Configuration cascade Mac mini -> MBA
 - **Signal**: "We'll need to mirror all the CLI upgrades and cascade into the MacBook Air"
 - **Intent**: Create installation playbook for replicating Mac mini configs on MBA
 - **Priority**: P2 — Infrastructure parity
 - **Linear**: SYN-34
-- **Status**: TASK dispatched to -INBOX/psyche/
+- **Status**: TASK dispatched to agents/psyche/inbox/
 
 ### 2026-02-09 08:30 — SOVEREIGN INTENT: Epics as sprint containers
 - **Signal**: "Start using Epics terminology"
@@ -146,7 +146,7 @@
 
 - **2026-02-09 03:30:15** | `Yegge's "vibes-based decision-making" sounds mystical but is actually precise: it describes a system where evaluation criteria are too complex to formalize but can be recognized by sufficiently calibr`
 
-- **2026-02-09 03:30:56** | `- **POST /dispatch** -- takes `{agent, topic, description, from_agent}`, creates a `TASK-{timestamp}-{topic}.md` file in `-INBOX/{agent}/00-INBOX0/` with the full dispatch format (Reply-To, CC, Status`
+- **2026-02-09 03:30:56** | `- **POST /dispatch** -- takes `{agent, topic, description, from_agent}`, creates a `TASK-{timestamp}-{topic}.md` file in `agents/{agent}/inbox/pending/` with the full dispatch format (Reply-To, CC, Status`
 
 - **2026-02-09 09:46:40** | `**Scope**: 9 priority targets from the awesome-openclaw ecosystem`
 

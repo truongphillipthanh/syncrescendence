@@ -49,7 +49,7 @@
 |-------------|---------------|-----------|---------|
 | Issue state changes | DYN-BACKLOG.md notes | Linear → repo | Scheduled pull |
 | New issues (ad-hoc) | IMPLEMENTATION-MAP.md | Linear → repo | Manual triage |
-| Comments | -INBOX/commander/ | Linear → repo | claudecron check |
+| Comments | agents/commander/inbox/ | Linear → repo | claudecron check |
 | Cycle metrics | DYN-EXECUTION_STAGING.md | Linear → repo | Weekly pull |
 
 ### Tier 3: Bidirectional (Reconciliation)
@@ -165,7 +165,7 @@ mutation($id: String!, $desc: String!) {
 1. Query all non-Done SYN issues
 2. Compare with DYN-BACKLOG.md project status
 3. Flag discrepancies (Linear says Done but repo says active)
-4. Write report to `-INBOX/commander/TASK-linear-sync-report.md`
+4. Write report to `agents/commander/inbox/TASK-linear-sync-report.md`
 5. Do NOT auto-modify repo files — report only for Commander review
 
 ### 3. `reconcile_impl_map` (bidirectional)

@@ -690,7 +690,7 @@ This directory exists solely for cross-platform state coordination. STATE.md cap
 
 ### agents/<name>/inbox/ and agents/<name>/outbox/: The Membrane
 
-These directories (within each agent's office under `agents/`) form the interface between cloud platforms (which cannot directly access the filesystem) and the repository (which is filesystem-native). Previously these were top-level `-INBOX/` and `-OUTGOING/` directories; they have been consolidated into per-agent offices.
+These directories (within each agent's office under `agents/`) form the interface between cloud platforms (which cannot directly access the filesystem) and the repository (which is filesystem-native). Previously these were top-level `agents/` and `-OUTGOING/inbox/` directories; they have been consolidated into per-agent offices.
 
 **Inbox teleology**: Cloud artifacts land in `agents/<name>/inbox/pending/`. When the Principal copies content from ChatGPT Canvas or downloads an artifact from Claude, it goes to the appropriate agent's inbox first. This is the decontamination chamber--content enters, is reviewed, and only then is committed to the repository proper. The inbox subdirectories (`pending/`, `active/`, `done/`, `failed/`) implement a filesystem kanban.
 

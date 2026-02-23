@@ -60,7 +60,7 @@ Tasks are classified by the `**Kind**` header:
 **Exit-Code**: —
 **Timeout**: 30
 **CC**: agent_slug_or_dash
-**Receipts-To**: -OUTBOX/agent/RESULTS
+**Receipts-To**: agents/agent/outbox
 **Escalation-Contact**: commander
 **Escalation-Delay**: 10
 
@@ -127,7 +127,7 @@ Tasks are classified by the `**Kind**` header:
 
 ### Receipt File (RECEIPT-*.md)
 
-Receipts are copies of finalized task files delivered to CC'd agents. Naming: `RECEIPT-<executing_agent>-TASK-*.md`. Stored in `-INBOX/<cc_agent>/RECEIPTS/`.
+Receipts are copies of finalized task files delivered to CC'd agents. Naming: `RECEIPT-<executing_agent>-TASK-*.md`. Stored in `agents/<cc_agent>/inbox/pending/`.
 
 ---
 
@@ -136,7 +136,7 @@ Receipts are copies of finalized task files delivered to CC'd agents. Naming: `R
 Each agent has a 6-folder kanban structure:
 
 ```
--INBOX/<agent>/
+agents/<agent>/inbox/
   00-INBOX0/       ← New tasks land here (PENDING)
   10-IN_PROGRESS/  ← Claimed and executing
   20-WAITING/      ← Awaiting external input (manual)
@@ -262,7 +262,7 @@ The watcher enforces multiple safety guards before processing:
 bash dispatch.sh cartographer "CORPUS_SURVEY" "Survey 01-CANON/ for orphaned references. Report as table."
 ```
 
-Creates: `-INBOX/cartographer/00-INBOX0/TASK-20260210-corpus_survey.md`
+Creates: `agents/cartographer/inbox/pending/TASK-20260210-corpus_survey.md`
 Reply-To: commander (auto-injected)
 CC: commander (auto-injected)
 
@@ -280,7 +280,7 @@ Creates task in Adjudicator's INBOX0. On completion, CONFIRM goes to Commander, 
 For agents that need custom headers, create the file directly:
 
 ```bash
-cat > -INBOX/psyche/00-INBOX0/TASK-20260210-custom.md << 'EOF'
+cat > agents/psyche/inbox/pending/TASK-20260210-custom.md << 'EOF'
 # TASK-20260210-custom
 
 **From**: Commander (Claude Code Opus)

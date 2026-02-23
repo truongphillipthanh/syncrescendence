@@ -416,7 +416,7 @@ Layer 3: Orchestration Plane  — proactive_orchestrator.sh (autonomous work, ci
 
 **Circuit Breaker**: OPEN → HALF_OPEN → CLOSED. File: `00-ORCHESTRATION/state/breakers/orchestration.breaker`.
 
-**Task Flow**: `dispatch.sh` creates `TASK-*.md` → INBOX0 → auto_ingest picks up → IN_PROGRESS → agent executes → RESULT in -OUTBOX/ → CONFIRM SCP'd back.
+**Task Flow**: `dispatch.sh` creates `TASK-*.md` → INBOX0 → auto_ingest picks up → IN_PROGRESS → agent executes → RESULT in agents/ → CONFIRM SCP'd back./outbox
 
 ### 4.4 Memory Infrastructure (Multi-Layer)
 
@@ -773,7 +773,7 @@ FDIS (Field Deployable Intelligence System, SYN-17, Backlog) is the engineering 
     ANNEAL-DIGEST-CLARESCENCE.md         (65 files, 180+ decisions, 2026-02-04 to 2026-02-17)
   02-ENGINE/
     IMPLEMENTATION-MAP.md                (197 IMPL entries, 14 tranches)
-  -INBOX/commander/
+  agents/commander/inbox/
     syncrescendence_convergence.md       (civilizational strategy doc)
     syncrescendent_convergence_aligned.md (aligned/extended convergence)
     new_ontology_metacharacterization/   (Set 1: Claude/ChatGPT/Gemini/Grok)

@@ -30,7 +30,7 @@ grep "$(date +%Y-%m-%d)" /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/st
 head -100 /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
 ```
 
-5. Write a daily review to `/Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-SESSION-REVIEW-$(date +%Y%m%d).md`:
+5. Write a daily review to `/Users/home/Desktop/syncrescendence/agents/commander/inbox/pending/TASK-SESSION-REVIEW-$(date +%Y%m%d).md`:
 
 ```markdown
 # Daily Session Review — YYYY-MM-DD

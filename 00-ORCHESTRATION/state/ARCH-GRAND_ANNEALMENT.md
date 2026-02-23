@@ -332,7 +332,7 @@ toggle. Auto-login verification post-reboot.
    Support/` for persistence across cold boots.
 6. **`flock` is Linux-only; does not exist on macOS.** Use PID-file lock pattern.
 7. **`git add -A` with no scope guard is a deletion bomb.** Files absent on one machine staged
-   as deletions. git_sync.sh must scope to -INBOX/ and -OUTGOING/ only, abort if >20 deletions.
+   as deletions. git_sync.sh must scope to agents/ and -OUTGOING/inbox/ only, abort if >20 deletions.
 8. **Google Drive Desktop Backup + git repos = silent corruption.** Ghost branches, .DS_Store in
    .git/, duplicate index files. Apply xattr `com.apple.fileprovider.ignore=1` and
    `com.google.drivefs.ignore=1`. Permanent fix: disable Desktop backup in GDrive (GUI, pending).

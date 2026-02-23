@@ -207,7 +207,7 @@ python3 00-ORCHESTRATION/scripts/verify_ledgers.py
 git log --since="24 hours ago" --oneline
 
 # Check packet queues
-ls -INBOX/commander/ -OUTGOING/  # Task dispatch + execution staging
+ls agents/commander/inbox/ -OUTGOING/  # Task dispatch + execution staging
 ```
 
 **Weekly Coherence Audit** (30 minutes):

@@ -85,7 +85,7 @@ target: engine
 
 **Reconciliation**: Preserve both terms. Our Fingerprint adds cryptographic ground-truth verification the community lacks. Consider simplifying for CLI-only transitions (where git hash suffices) while preserving full Token protocol for cross-platform transitions.
 
-**Migration Path**: Use FINGERPRINT.md for web handoff. Web apps now support GitHub connectors — they can directly load their FINGERPRINT. Critical: each platform must FINGERPRINT back (write state before releasing). This elevates the dispatch staging concept in `-INBOX/`. CLI-only transitions use HANDOFF.md (simpler).
+**Migration Path**: Use FINGERPRINT.md for web handoff. Web apps now support GitHub connectors — they can directly load their FINGERPRINT. Critical: each platform must FINGERPRINT back (write state before releasing). This elevates the dispatch staging concept in `agents/`./inbox CLI-only transitions use HANDOFF.md (simpler).
 
 ---
 
@@ -291,7 +291,7 @@ Sovereign: brainDump
 
 **Reconciliation**: The Neo-Blitzkrieg is the authoritative execution pattern. All prior Blitzkrieg variants (Lane A/B/C, Dropbox, CLAUDE.md references) are superseded.
 
-**Migration Path**: Implement via dispatch surfaces (`-INBOX/` per-agent folders, `-OUTGOING/`, `FINGERPRINT.md` protocol). Update REF-BLITZKRIEG_PROTOCOL_VNEXT.md to reflect this pipeline.
+**Migration Path**: Implement via dispatch surfaces (`agents/` per-agent folders, `-OUTGOING/inbox/`, `FINGERPRINT.md` protocol). Update REF-BLITZKRIEG_PROTOCOL_VNEXT.md to reflect this pipeline.
 
 ---
 
@@ -436,7 +436,7 @@ Significant community patterns without internal equivalents.
 | 50 | The Pantheon | UNIQUE | Avatar names for all platform roles (9 named) | No equivalent |
 | 51 | Numbered Directory Convention | UNIQUE | 00-06 top-level directories, each with defined purpose | Monorepo convention (loose) |
 | 52 | Protected Zones | UNIQUE | 00-ORCHESTRATION/state/ and 01-CANON/ require sovereign approval | No equivalent |
-| 53 | Sanctioned Exceptions | UNIQUE | -OUTGOING/ and -INBOX/ as only non-numbered root dirs | No equivalent |
+| 53 | Sanctioned Exceptions | UNIQUE | -OUTGOING/ and agents//inbox as only non-numbered root dirs | No equivalent |
 | 54 | FLAT PRINCIPLE | UNIQUE | All directories must be flat; use naming prefixes instead | No equivalent |
 | 55 | File Prefix System (ARCH/DYN/REF/SCAFF) | UNIQUE | Semantic prefixes replace subdirectories | No equivalent |
 | 56 | Cognitive Core / Nucleus | UNIQUE | Minimal interface contract + evaluation governors + retention doctrine | No equivalent |
@@ -633,8 +633,8 @@ Significant community patterns without internal equivalents.
 
 | # | Term | Status | Definition | Community Equivalent |
 |---|------|--------|-----------|---------------------|
-| 194 | Beads | ADAPTED | Git-backed atomic work units. Yegge's ticketing system stored as JSONL in git. Our equivalent: TASK-*.md files in -INBOX/. Adaptation: we use markdown instead of JSONL, filesystem instead of sqlite. | Yegge Gas Town tickets |
-| 195 | Hook (Gas Town) | ADAPTED | Persistent assignment queue per agent. In Gas Town: git-backed inbox. In Syncrescendence: -INBOX/{agent}/00-INBOX0/ directory. Same concept, different implementation. | Yegge Gas Town hooks |
+| 194 | Beads | ADAPTED | Git-backed atomic work units. Yegge's ticketing system stored as JSONL in git. Our equivalent: TASK-*.md files in agents/./inbox Adaptation: we use markdown instead of JSONL, filesystem instead of sqlite. | Yegge Gas Town tickets |
+| 195 | Hook (Gas Town) | ADAPTED | Persistent assignment queue per agent. In Gas Town: git-backed inbox. In Syncrescendence: agents/{agent}/inbox/pending/ directory. Same concept, different implementation. | Yegge Gas Town hooks |
 | 196 | GUPP | ADAPTED | "Git Up, Pull, Push" — deterministic handoffs through version control. Our equivalent: the Receipts (Closure Gate) invariant. Work is not done until committed. | Yegge Gas Town GUPP |
 | 197 | Sling | ADAPTED | Verb: attach work to an agent's hook with velocity. Cleaner than "dispatch" or "assign." Implies urgency and directionality. | No equivalent |
 | 198 | Convoy | ADAPTED | Bundled work items tracked as delivery unit. Maps to T2 Implementation Map sprints and Epics. A convoy is a coordinated movement. | Epic / Sprint (Agile) |
@@ -693,12 +693,12 @@ Significant community patterns without internal equivalents.
 
 ### Category 17: Exocortex Domain (10 terms)
 
-<!-- Provenance: Terms 232-241 extracted from Grok and Gemini Palantir Ontology Metacharacterization documents (-INBOX/commander/new_ontology_metacharacterization/{grok,gemini}.md) during Exocortex↔Scaffold Alignment Clarescence (2026-02-15). These terms name the functional layers of the "individual+AI as corporation" vision and map them to existing scaffold implementations. -->
+<!-- Provenance: Terms 232-241 extracted from Grok and Gemini Palantir Ontology Metacharacterization documents (agents/commander/inbox/new_ontology_metacharacterization/{grok,gemini}.md) during Exocortex↔Scaffold Alignment Clarescence (2026-02-15). These terms name the functional layers of the "individual+AI as corporation" vision and map them to existing scaffold implementations. -->
 
 | # | Term | Status | Definition | Community Equivalent |
 |---|------|--------|-----------|---------------------|
 | 232 | Exocortex | ADAPTED | The overarching meta-concept for Syncrescendence's SaaS + Constellation + Ontology integration: an external cognitive prosthesis that extends the individual's intelligence, memory, and agency to institutional scale. The scaffold (00-ORCHESTRATION, 02-ENGINE, 04-SOURCES, 05-SIGMA) + the Constellation + SaaS integrations collectively constitute the exocortex. Named by Grok in Palantir metacharacterization; implicit in Syncrescendence's framing since Oracle 0. Five functional layers: Sensorium, Ontology of Self (#213), Agency Layer, Sovereignty Layer, Reflexive Intelligence. | Exocortex (cyberpunk/posthuman literature) |
-| 233 | Sensorium | ADAPTED | The unified inbound data layer of the exocortex: all signals flowing into the system from external sources. In our scaffold: Feedcraft (#45) for curated content intake, Corpus Sensing (#96) for full-corpus intelligence, 5 webhook/watcher hooks for event-driven inputs, -INBOX/ kanban for dispatched tasks, and the intent_compass.sh hook for Sovereign intent capture. Currently limited to digital signals; future expansion: health telemetry, IoT, environmental sensing. Corresponds to the "perception and persistent memory" functional essence of enterprise data ingestion. | Data ingestion layer / Perception layer |
+| 233 | Sensorium | ADAPTED | The unified inbound data layer of the exocortex: all signals flowing into the system from external sources. In our scaffold: Feedcraft (#45) for curated content intake, Corpus Sensing (#96) for full-corpus intelligence, 5 webhook/watcher hooks for event-driven inputs, agents/ kanban for dispatched tasks, and the intent_compass.sh hook for Sovereign intent capture. Currently limited to digital signals; future expansion: health telemetry, IoT, environmental sensing. Corresponds to the "perception and persistent memory" functional essence of enterprise data ingestion. | Data ingestion layer /inbox/ Perception layer |
 | 234 | Agency Layer | ADAPTED | The agent orchestration stratum of the exocortex: all AI agents operating on behalf of the Sovereign. In our scaffold: the Constellation (5 CLI/local agents + 5 web avatars), the dispatch protocol (kanban FSM), 34 installed skills, sub-agent spawning (Task tool), and the 7-phase agent loop architecture. Manages task delegation, quality monitoring, inter-agent coordination, and capability management. Corresponds to "HRIS/Agentic Swarm Orchestration" in the enterprise reification. | Agentic orchestration / Multi-agent system |
 | 235 | Sovereignty Layer (exocortex) | UNIQUE | The trust, identity, security, and compliance boundary of the exocortex. Distinct from Sovereignty (#185, which is the constitutional concept) — this is the operational security implementation. In our scaffold: σ₆ Access Layer (3 accounts, OAuth), API key management, permission models, SOVEREIGN queue for async decisions. Currently underdeveloped compared to other layers: no formal trust topology (#241), no reputation management, no counterparty trust scoring. The "immune system" of the exocortex. | Security layer / Zero-trust architecture (narrower) |
 | 236 | Reflexive Intelligence | ADAPTED | The sensemaking and self-awareness function of the exocortex: computational introspection on the system's own state, patterns, and trajectory. In our scaffold: the Clarescence 10-pass procedure, meta-clarescences (fidelity audits), execution logs with auto-compaction, DYN-GLOBAL_LEDGER.md as event source, and the 18+ Lens evaluation framework. Currently manual (operator-invoked); future: automated periodic self-assessment. Corresponds to "BI/Analytics → metacognition" in the enterprise reification. | Business intelligence / Observability (weaker) |
@@ -982,7 +982,7 @@ Confidence: [low|medium|high]
 - Authority: Ajna (Opus 4.5) formalizing Sovereign-approved concept
 
 **v2.1.0** (2026-02-01): Sovereign terminology reconciliation
-- Applied 13 Sovereign clarifications from `-INBOX/rosetta_stone_notes.md`
+- Applied 13 Sovereign clarifications from `agents/rosetta_stone_notes.md`/inbox
 - Triumvirate arms mapped to concrete artifacts (Intent Compass, 18+ Lenses, Backlog)
 - Wells vs Rivers → DEPRECATED in favor of "ephemeral vs durable"
 - Oracle-Executor → DEPRECATED; Oracle now = Grok (RECON); use Plan/Implementation

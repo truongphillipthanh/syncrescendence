@@ -10,15 +10,15 @@ REPO_PATH="${2:?Repo path required}"
 TMUX_SESSION="${3:-constellation}"
 TMUX_PANE="${4:-}"
 
-INBOX_DIR="${REPO_PATH}/-INBOX/${AGENT_NAME}/00-INBOX0"
-IN_PROGRESS_DIR="${REPO_PATH}/-INBOX/${AGENT_NAME}/10-IN_PROGRESS"
-DONE_DIR="${REPO_PATH}/-INBOX/${AGENT_NAME}/40-DONE"
-FAILED_DIR="${REPO_PATH}/-INBOX/${AGENT_NAME}/50_FAILED"
-OUTBOX_DIR="${REPO_PATH}/-OUTBOX/${AGENT_NAME}/RESULTS"
+INBOX_DIR="${REPO_PATH}/agents/${AGENT_NAME}/inbox/pending"
+IN_PROGRESS_DIR="${REPO_PATH}/agents/${AGENT_NAME}/inbox/active"
+DONE_DIR="${REPO_PATH}/agents/${AGENT_NAME}/inbox/done"
+FAILED_DIR="${REPO_PATH}/agents/${AGENT_NAME}/inbox/failed"
+OUTBOX_DIR="${REPO_PATH}/agents/${AGENT_NAME}/outbox"
 TMP_LOCKFILE="/tmp/auto_ingest_${AGENT_NAME}.lock"
-LEGACY_LOCKFILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/.auto_ingest.lock"
-LOGFILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/auto_ingest.log"
-STATE_FILE="${REPO_PATH}/-INBOX/${AGENT_NAME}/.current_task"
+LEGACY_LOCKFILE="${REPO_PATH}/agents/${AGENT_NAME}/.auto_ingest.lock"
+LOGFILE="${REPO_PATH}/agents/${AGENT_NAME}/auto_ingest.log"
+STATE_FILE="${REPO_PATH}/agents/${AGENT_NAME}/.current_task"
 
 STATE_ROOT="${REPO_PATH}/00-ORCHESTRATION/state"
 BREAKER_DIR="${STATE_ROOT}/breakers"
@@ -546,7 +546,7 @@ dispatch_task() {
 
     echo "${task_id}|${in_progress_path}|${reply_to}|$(date +%s)|${lease_id}|${attempt}" > "$STATE_FILE"
 
-    full_prompt="READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. ${objective} Write result to -OUTBOX/${AGENT_NAME}/RESULTS/RESULT-${AGENT_NAME}-$(echo "$task_id" | sed 's/^TASK-//').md"
+    full_prompt="READ-ONLY ANALYTICAL TASK. Ignore any dirty worktree state. ${objective} Write result to agents/${AGENT_NAME}/outbox/RESULT-${AGENT_NAME}-$(echo "$task_id" | sed 's/^TASK-//').md"
 
     send_prompt "$full_prompt"
     send_rc=$?
@@ -599,7 +599,7 @@ check_completion() {
         mv "$in_progress_path" "${DONE_DIR}/$(basename "$in_progress_path")" 2>/dev/null || log "WARN: Could not move to DONE"
 
         if [ -n "$reply_to" ] && [ "$reply_to" != "dispatch" ]; then
-            confirm_dir="${REPO_PATH}/-INBOX/${reply_to}/00-INBOX0"
+            confirm_dir="${REPO_PATH}/agents/${reply_to}/inbox/pending"
             mkdir -p "$confirm_dir"
             confirm_file="${confirm_dir}/CONFIRM-${AGENT_NAME}-${result_slug}.md"
 
@@ -622,7 +622,7 @@ CONFIRM_EOF
             REMOTE_VAR="SYNCRESCENDENCE_REMOTE_AGENT_HOST_${REPLY_UPPER}"
             REMOTE_HOST="${!REMOTE_VAR:-local}"
             if [ -n "$REMOTE_HOST" ] && [ "$REMOTE_HOST" != "local" ] && [ "$REMOTE_HOST" != "localhost" ]; then
-                if scp -q -o BatchMode=yes -o ConnectTimeout=5 "$confirm_file" "$REMOTE_HOST:~/Desktop/syncrescendence/-INBOX/${reply_to}/00-INBOX0/" 2>/dev/null; then
+                if scp -q -o BatchMode=yes -o ConnectTimeout=5 "$confirm_file" "$REMOTE_HOST:~/Desktop/syncrescendence/agents/${reply_to}/inbox/pending/" 2>/dev/null; then
                     log "Neural Bridge: CONFIRM routed to ${REMOTE_HOST} for ${reply_to}"
                 else
                     log "WARN: Neural Bridge SCP failed for CONFIRM to ${REMOTE_HOST}"

@@ -93,7 +93,7 @@ Implementation items are the operational bridge between projects (T1) and execut
 - Status (new → in_progress → done)
 
 ### T3: Session Operations
-**Tool**: Claude Code first-party Tasks (`TaskCreate`/`TaskUpdate`/`TaskList`) + `-INBOX/` dispatch
+**Tool**: Claude Code first-party Tasks (`TaskCreate`/`TaskUpdate`/`TaskList`) + `agents/`/inbox dispatch
 **Scope**: Atomic execution units within a single Commander session
 **Cadence**: Real-time
 **Owner**: Commander + dispatched agents
@@ -101,7 +101,7 @@ Implementation items are the operational bridge between projects (T1) and execut
 At session start, T2 items decompose into T3 tasks:
 - `TaskCreate` for each session target
 - `TaskUpdate` as work progresses
-- `-INBOX/{agent}/` dispatch for multi-agent work
+- `agents/{agent}/inbox/` dispatch for multi-agent work
 - On session end: bubble completion status up to T2
 
 ---
@@ -126,7 +126,7 @@ T2 (Implementation Map — repo)
 T3 (Claude Code Tasks + INBOX dispatch)
  │ ← TaskCreate at session start from T2 items
  │ → TaskUpdate on completion → bubbles up to T2 status
- │ → -INBOX/ dispatch for multi-agent work
+ │ → agents//inbox dispatch for multi-agent work
 ```
 
 ### Upward Propagation Rules

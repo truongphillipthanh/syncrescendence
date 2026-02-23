@@ -35,7 +35,7 @@ Display: center 4/6 of 5120px (x: 853–4267). Flanking 1/6 each side free.
 Every agent follows a 7-phase operational loop. The cycle is continuous — agents don't wait for Sovereign input to begin work.
 
 ### Phase 1: Orient
-- Read `-INBOX/<agent>/00-INBOX0/` for pending TASK files
+- Read `agents/<agent>/inbox/pending/` for pending TASK files
 - Check for CONFIRM-* and RESULT-* completion signals
 - Scan `ARCH-INTENTION_COMPASS.md` for active intentions
 
@@ -87,7 +87,7 @@ BOOT:
   → Connect to webchat/iMessage bridges
 
 ORIENT:
-  Scan -INBOX/ajna/00-INBOX0/ for TASK files
+  Scan agents/ajna/inbox/pending/ for TASK files
   Process CONFIRM-* and RESULT-* signals from other agents
   Read ARCH-INTENTION_COMPASS.md
 
@@ -116,7 +116,7 @@ SOVEREIGN INTERACTION:
 | Component | Status |
 |-----------|--------|
 | `watch_dispatch.sh` (launchd watcher) | ACTIVE |
-| `-INBOX/ajna/00-INBOX0/` | ACTIVE |
+| `agents/ajna/inbox/pending/` | ACTIVE |
 | `ajna_pedigree.sh` (Stop hook) | ACTIVE |
 | OpenClaw gateway (port 18789) | ACTIVE |
 
@@ -138,7 +138,7 @@ BOOT:
   → Hooks fire: intent_compass.sh on UserPromptSubmit
 
 ORIENT (/claresce Phase 1-2):
-  Scan -INBOX/commander/00-INBOX0/ for TASK files
+  Scan agents/commander/inbox/pending/ for TASK files
   Process CONFIRM-* and RESULT-* signals
   git status — verify ground truth
   Read ARCH-INTENTION_COMPASS.md
@@ -191,7 +191,7 @@ SOVEREIGN INTERACTION:
 | `create_execution_log.sh` (Stop hook) | ACTIVE |
 | `pre_compaction.sh` (PreCompact hook) | ACTIVE |
 | `dispatch.sh` (manual delegation) | ACTIVE |
-| `-INBOX/commander/00-INBOX0/` | ACTIVE |
+| `agents/commander/inbox/pending/` | ACTIVE |
 | Linear API integration | ACTIVE (API key configured) |
 
 ---
@@ -212,7 +212,7 @@ BOOT:
   → Full-auto mode: execute without confirmation prompts
 
 ORIENT:
-  Scan -INBOX/adjudicator/00-INBOX0/ for TASK files
+  Scan agents/adjudicator/inbox/pending/ for TASK files
   Process CONFIRM-* and RESULT-* from Commander dispatches
 
 TRIAGE:
@@ -245,7 +245,7 @@ SOVEREIGN INTERACTION:
 | Component | Status |
 |-----------|--------|
 | `watch_dispatch.sh` (launchd watcher) | ACTIVE |
-| `-INBOX/adjudicator/00-INBOX0/` | ACTIVE |
+| `agents/adjudicator/inbox/pending/` | ACTIVE |
 | AGENTS.md (Codex config) | ACTIVE |
 
 ---
@@ -266,7 +266,7 @@ BOOT:
   → Load gemini-settings.json (MCP: filesystem)
 
 ORIENT:
-  Scan -INBOX/cartographer/00-INBOX0/ for TASK files
+  Scan agents/cartographer/inbox/pending/ for TASK files
   Process CONFIRM-* and RESULT-* from Commander dispatches
 
 TRIAGE:
@@ -298,7 +298,7 @@ SOVEREIGN INTERACTION:
 | Component | Status |
 |-----------|--------|
 | `watch_dispatch.sh` (launchd watcher) | ACTIVE |
-| `-INBOX/cartographer/00-INBOX0/` | ACTIVE |
+| `agents/cartographer/inbox/pending/` | ACTIVE |
 | gemini-settings.json (MCP config) | ACTIVE |
 
 ---
@@ -332,7 +332,7 @@ BOOT:
   → Access shared filesystem via git pull
 
 ORIENT:
-  Scan -INBOX/psyche/00-INBOX0/ for TASK files
+  Scan agents/psyche/inbox/pending/ for TASK files
   Check Slack for Commander/Ajna dispatches
 
 EXECUTE:
@@ -366,7 +366,7 @@ MBA config blocked by Tailscale setup on both machines. Estimated 70 minutes Sov
 | `dispatch.sh` | Manual | All | TASK-* files in agent inboxes |
 | `watch_dispatch.sh` | Background (launchd) | All agents | Task claim/execute/complete |
 | `triage_outgoing.sh` | Manual | Commander | -OUTGOING/ scan |
-| `triage_inbox.sh` | Manual | All | -INBOX/ scan |
+| `triage_inbox.sh` | Manual | All | agents//inbox scan |
 
 ### Existing Skills
 

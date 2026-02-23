@@ -70,7 +70,7 @@ plugins:
 - Ajna-specific role: focused precision, repo commits, sub-agent orchestration
 - Twin Coordination Protocol awareness (Ajna ↔ Psyche)
 - Repo directory structure knowledge
-- Dispatch protocol (check -INBOX/ajna/, produce results)
+- Dispatch protocol (check agents/ajna/inbox/, produce results)
 
 ### AGENTS.md (Current State)
 - Session init: Read SOUL.md → USER.md → memory/
@@ -95,7 +95,7 @@ plugins:
 ```
 
 **Gap**: No heartbeat configured. Twin Coordination Protocol specifies ~30min heartbeat cycle:
-1. Check -INBOX/ajna/ for new files
+1. Check agents/ajna/inbox/ for new files
 2. Check git log for new commits
 3. Report status to Psyche via Slack
 

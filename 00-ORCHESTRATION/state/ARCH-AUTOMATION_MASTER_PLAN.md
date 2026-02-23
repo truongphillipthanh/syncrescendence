@@ -38,7 +38,7 @@ The machine is built. Infrastructure delivery rate is high (83-88% for scripts, 
 **MBA-specific notes**:
 - watch-psyche was DISABLED per DEC-C1 (2026-02-13) to prevent task misrouting race condition with Mac mini
 - skill-sync uses WatchPaths trigger with 5-second debounce (replaced 600s watchdog cooldown)
-- git-sync provides MBA<->Mac mini coordination via -INBOX/ + Tailscale (100.91.240.128 <-> 100.70.181.35, 11ms direct LAN)
+- git-sync provides MBA<->Mac mini coordination via agents//inbox + Tailscale (100.91.240.128 <-> 100.70.181.35, 11ms direct LAN)
 
 ### Gap Analysis (8 remaining touchpoints — updated 2026-02-15)
 
@@ -209,7 +209,7 @@ launchd (StartCalendarInterval)
 dispatch.sh <agent> <topic> <description>
     |
     v
--INBOX/<agent>/00-INBOX0/TASK-*.md
+agents/<agent>/inbox/pending/TASK-*.md
     |
     v
 watch_dispatch.sh (fswatch/polling)

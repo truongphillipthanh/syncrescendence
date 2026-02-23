@@ -88,7 +88,7 @@ Relations use the primitives from REF-ONTOLOGY_REGISTRY.md:
 | 50 | The Pantheon | STR | `contains` 10 avatar names; v3 |
 | 51 | Numbered Directory Convention | STR | 00-05 top-level; `governed_by` FLAT PRINCIPLE |
 | 52 | Protected Zones | PROTO | `governs` 00-ORCHESTRATION/state/, 01-CANON/; `requires` Sovereign approval |
-| 53 | Sanctioned Exceptions | STR | -OUTGOING/, -INBOX/; only non-numbered root dirs |
+| 53 | Sanctioned Exceptions | STR | -OUTGOING/, agents/;/inbox only non-numbered root dirs |
 | 54 | FLAT PRINCIPLE | CON | no subdirectories except sanctioned; `governs` all STR |
 | 55 | File Prefix System | NOT | ARCH/DYN/REF/SCAFF; `replaces` subdirectories |
 | 56 | Cognitive Core / Nucleus | CON | minimal interface + evaluation + retention |

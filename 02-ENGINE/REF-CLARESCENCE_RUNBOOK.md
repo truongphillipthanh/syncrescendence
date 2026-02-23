@@ -90,7 +90,7 @@ decision in its operational context. This is not optional.
 
 1. **Read the Triumvirate**: CLAUDE.md (loaded), COCKPIT.md, ARCH-INTENTION_COMPASS.md
 2. **Check ground truth**: `git status`, `git log --oneline -5`
-3. **Scan inbox**: `-INBOX/commander/00-INBOX0/` for pending tasks or completion signals
+3. **Scan inbox**: `agents/commander/inbox/pending/` for pending tasks or completion signals
 4. **Note active urgencies**: What intentions are marked P0? What SOVEREIGN decisions are pending?
 
 ### 0b. Situate

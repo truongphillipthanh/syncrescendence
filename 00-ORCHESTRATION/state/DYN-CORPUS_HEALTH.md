@@ -33,21 +33,21 @@
 - **Status**: DIRTY
 - 25 uncommitted changes (5 expected DYN files excluded)
 
-  - `MM -INBOX/adjudicator/.auto_ingest.lock`
-  - `MM -INBOX/adjudicator/auto_ingest.log`
-  - `MM -INBOX/cartographer/.auto_ingest.lock`
-  - ` M "-INBOX/cartographer/auto_ingest 3.log"`
-  - `MM -INBOX/cartographer/auto_ingest.log`
-  - `MM -INBOX/commander/.auto_ingest.lock`
-  - `D  -INBOX/commander/00-INBOX0/CONFIRM-psyche-20260216-plist_env_vars.md`
-  - `D  -INBOX/commander/00-INBOX0/EXECLOG-psyche-20260216-plist_env_vars.log`
-  - `D  -INBOX/commander/00-INBOX0/RESULT-psyche-20260216-plist_env_vars.md`
-  - `D  -INBOX/commander/00-INBOX0/TASK-CORPUS-INSIGHT-20260217.md`
-  - `D  -INBOX/commander/RECEIPTS/RECEIPT-psyche-TASK-20260217-plist_env_vars.md`
-  - `MM -INBOX/commander/auto_ingest.log`
-  - `MM -INBOX/psyche/.auto_ingest.lock`
-  - `D  -INBOX/psyche/40-DONE/TASK-20260217-plist_env_vars.md`
-  - `MM -INBOX/psyche/auto_ingest.log`
+  - `MM agents/adjudicator/inbox/.auto_ingest.lock`
+  - `MM agents/adjudicator/inbox/auto_ingest.log`
+  - `MM agents/cartographer/inbox/.auto_ingest.lock`
+  - ` M "agents/cartographer/inbox/auto_ingest 3.log"`
+  - `MM agents/cartographer/inbox/auto_ingest.log`
+  - `MM agents/commander/inbox/.auto_ingest.lock`
+  - `D  agents/commander/inbox/pending/CONFIRM-psyche-20260216-plist_env_vars.md`
+  - `D  agents/commander/inbox/pending/EXECLOG-psyche-20260216-plist_env_vars.log`
+  - `D  agents/commander/inbox/pending/RESULT-psyche-20260216-plist_env_vars.md`
+  - `D  agents/commander/inbox/pending/TASK-CORPUS-INSIGHT-20260217.md`
+  - `D  agents/commander/inbox/pending/RECEIPT-psyche-TASK-20260217-plist_env_vars.md`
+  - `MM agents/commander/inbox/auto_ingest.log`
+  - `MM agents/psyche/inbox/.auto_ingest.lock`
+  - `D  agents/psyche/inbox/done/TASK-20260217-plist_env_vars.md`
+  - `MM agents/psyche/inbox/auto_ingest.log`
 
 ---
 **Findings**: 2 issue(s)

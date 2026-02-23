@@ -22,7 +22,7 @@ cd /Users/home/Desktop/syncrescendence && find . -name "*.md" -mtime -1 -not -pa
 
 4. Read `/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — check active intentions and their statuses.
 
-5. Write a brief insight report to `/Users/home/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/TASK-CORPUS-INSIGHT-$(date +%Y%m%d).md` with this format:
+5. Write a brief insight report to `/Users/home/Desktop/syncrescendence/agents/commander/inbox/pending/TASK-CORPUS-INSIGHT-$(date +%Y%m%d).md` with this format:
 
 ```markdown
 # Corpus Insight Report — YYYY-MM-DD

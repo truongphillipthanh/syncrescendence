@@ -1321,7 +1321,7 @@ return {
            "* %(format-time-string org-journal-time-format)%?\n"
            :clock-in t :clock-resume t)
           ("h" "Habit" entry
-           (file+headline ,(expand-file-name "-INBOX/commander/00-INBOX0/capture.org" org-directory) "Habits")
+           (file+headline ,(expand-file-name "agents/commander/inbox/pending/capture.org" org-directory) "Habits")
            "* TODO %?\nSCHEDULED: <%%(diary-float t 1 1)>\n:PROPERTIES:\n:CREATED: %U\n:STYLE: habit\n:REPEAT_TO_STATE: TODO\n:END:\n"))))
 
 ;; ── API Integration: auth-source (tokens in ~/.authinfo) ────────────────

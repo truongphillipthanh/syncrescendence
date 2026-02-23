@@ -18,7 +18,7 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 - Bash command execution
 - MCP server integration (8 servers)
 - Web search and fetch
-- Task dispatch to other agents via -INBOX/
+- Task dispatch to other agents via agents//inbox
 - launchd service management
 - Linear and ClickUp API access
 
@@ -28,7 +28,7 @@ This is Syncrescendence, a civilizational sensing infrastructure demonstrating A
 Primary operator for all repository changes. Commits, refactors, creates, deletes.
 
 ### ORCHESTRATE
-Dispatch tasks to Adjudicator, Cartographer, Psyche, Ajna via -INBOX/ kanban.
+Dispatch tasks to Adjudicator, Cartographer, Psyche, Ajna via agents//inbox kanban.
 
 ### VERIFY
 Run verification suites (make verify, make lint, make triage) before completion claims.
@@ -45,8 +45,8 @@ Mereological triage of corpus: decompose, reassemble, prune, compress.
 | `02-ENGINE/` | Functions, prompts, avatars, configs |
 | `04-SOURCES/` | Source documents |
 | `05-SIGMA/` | Operational knowledge corpus |
-| `-INBOX/` | Agent task dispatch (per-agent folders) |
-| `-OUTGOING/` | CLI → WebApp prompt staging |
+| `agents/`/inbox | Agent task dispatch (per-agent folders) |
+| `agents/<agent>/outbox/` | Agent output staging |
 | `-SOVEREIGN/` | Async decision queue to Sovereign |
 
 ## Output Format

@@ -21,7 +21,7 @@ OpenClaw hosts two agents sharing the platform but running on different machines
 | **Machine** | MacBook Air (remote) | Mac mini (local) |
 | **Surface** | OpenClaw CLI | OpenClaw CLI (port 18789) |
 | **Cockpit** | NOT in cockpit (remote) | Pane 1 |
-| **Communication** | `-INBOX/ajna/` via git sync | `-INBOX/psyche/` direct |
+| **Communication** | `agents/ajna/inbox/` via git sync | `agents/psyche/inbox/` direct |
 
 ### Archon Metaphor
 Like StarCraft's High Templar merging into an Archon, Ajna and Psyche fuse into a single executive brain:
@@ -62,7 +62,7 @@ Maintain macro-level awareness of project state, intentions, and strategic traje
 
 ### Constraints
 - Remote agent: cannot directly access Mac mini filesystem
-- Communication via `-INBOX/ajna/` + git push/pull
+- Communication via `agents/ajna/inbox/` + git push/pull
 - Limited by NVIDIA NIM free tier (40 RPM, ~1000 credits)
 
 ---
@@ -104,7 +104,7 @@ Pipeline fusion: connect disconnected capabilities into integrated workflows.
 ### Constraints
 - GPT-5.3-codex daily token budget (ChatGPT Plus limits)
 - OpenClaw gateway on port 18789
-- Cannot invoke Claude Code directly (use dispatch via -INBOX)
+- Cannot invoke Claude Code directly (use dispatch via agents/<agent>/inbox/)
 
 ---
 
@@ -136,20 +136,20 @@ Bridges filesystem and Obsidian MCP servers to OpenClaw agents, enabling:
 ### Ajna (Remote → Local)
 ```
 MBA git push → origin → Mac mini git pull (launchd watcher)
-→ Files land in -INBOX/ajna/ on Mac mini
+→ Files land in agents/ajna/inbox/ on Mac mini
 → Commander processes and responds
 ```
 
 ### Psyche (Local → Local)
 ```
-OpenClaw → -INBOX/psyche/ (direct filesystem access)
+OpenClaw → agents/psyche/inbox/ (direct filesystem access)
 Commander reads TASK/RESULT/CONFIRM files
-Psyche reads responses from -INBOX/psyche/
+Psyche reads responses from agents/psyche/inbox/
 ```
 
 ### Both → Sovereign
 ```
-Agent → -OUTGOING/ or -SOVEREIGN/
+Agent → agents/<agent>/outbox/ or -SOVEREIGN/
 Sovereign reviews via Obsidian or tmux
 ```
 

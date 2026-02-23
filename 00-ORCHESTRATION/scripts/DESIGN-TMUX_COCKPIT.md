@@ -260,7 +260,7 @@ tmux new-window -t "$SESSION" -n watchers -c "$REPO"
 
 # Pane 0: INBOX watcher / triage
 tmux send-keys -t "$SESSION":watchers.0 \
-  "cd '$REPO' && while true; do clear; echo '[INBOX triage]'; ls -la -INBOX/commander/00-INBOX0/ 2>/dev/null; echo; bash 00-ORCHESTRATION/scripts/triage_outgoing.sh 2>/dev/null || true; sleep 10; done" C-m
+  "cd '$REPO' && while true; do clear; echo '[INBOX triage]'; ls -la agents/commander/inbox/pending/ 2>/dev/null; echo; bash 00-ORCHESTRATION/scripts/triage_outgoing.sh 2>/dev/null || true; sleep 10; done" C-m
 
 # Pane 1: git status
 tmux split-window -h -t "$SESSION":watchers.0 -c "$REPO"

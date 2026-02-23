@@ -153,7 +153,7 @@ Concepts currently operational in the scaffold (repo minus canon):
 ### Semantic Infrastructure
 - **Semantic Notation (SN)** system: 9 DEF blocks, sn_expand.py, sn_decode.py
 - **σ₇ (Sigma)** paradigm + tau split governance
-- **4 dispatch surfaces**: -INBOX/ (inbound), -OUTGOING/ (outbound), -SOVEREIGN/ (decisions), -OUTBOX/ (results)
+- **4 dispatch surfaces**: agents/ (inbound), -OUTGOING/inbox/ (outbound), -SOVEREIGN/ (decisions), agents/ (results)/outbox
 - **Rosetta Stone**: authoritative terminology ledger (REF-ROSETTA_STONE.md)
 
 ### Ontological Substrate (Current State)

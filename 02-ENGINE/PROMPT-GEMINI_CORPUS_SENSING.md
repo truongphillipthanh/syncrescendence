@@ -37,7 +37,7 @@ Analyze the entire corpus and produce a structured report identifying:
 1. **Semantic Clusters** — Groups of documents that address the same concept but may be fragmented, duplicated, or inconsistently named
 2. **Strays & Orphans** — Documents that don't fit the taxonomy or reference nothing and are referenced by nothing
 3. **Scaffold Residue** — Working documents that served their purpose and should archive (look for prefixes: SCAFF-, WIP-, DRAFT-, TODO-)
-4. **Canonization Candidates** — Documents in -INBOX/, -OUTGOING/, or other staging areas that are mature enough for 01-CANON/ or 02-ENGINE/
+4. **Canonization Candidates** — Documents in agents/, -OUTGOING/inbox/, or other staging areas that are mature enough for 01-CANON/ or 02-ENGINE/
 5. **Hidden Intentions** — Documents in 05-MEMORY/ or elsewhere that contain unexecuted plans, decisions, or insights worth surfacing
 6. **Nomenclature Drift** — Inconsistent naming patterns that violate the established conventions (ARCH-, CANON-, REF-, DYN-, etc.)
 7. **Duplication Clusters** — Near-identical content across multiple files (semantic duplicates, not just filename matches)
@@ -51,7 +51,7 @@ Analyze the entire corpus and produce a structured report identifying:
 02-ENGINE/         — Functions, prompts, avatars, model profiles, queue items
 04-SOURCES/        — Source material (raw/, processed/, research/)
 05-SIGMA/          — Operational knowledge corpus + memory + exempla
--INBOX/            — Incoming artifacts from external platforms
+agents//inbox            — Incoming artifacts from external platforms
 -OUTGOING/         — Export staging, cross-platform handoffs
 -SOVEREIGN/        — Sovereign-only workspace
 ```
@@ -106,7 +106,7 @@ Total Size: [KB]
 
 | File | Current Location | Proposed Destination | Rationale |
 |------|------------------|---------------------|-----------|
-| [name] | -INBOX/ | 01-CANON/CANON-[name] | [why ready] |
+| [name] | agents/ | 01-CANON/inbox/CANON-[name] | [why ready] |
 
 ## 5. Hidden Intentions (Surfaced from Archive)
 

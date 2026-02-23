@@ -53,7 +53,7 @@
 **Vault Structure**:
 ```
 Coherence-Vault/
-├── 00-INBOX/           # Raw notes, captures, quick thoughts
+├── 00agents//inbox           # Raw notes, captures, quick thoughts
 ├── 01-SOURCES/         # Processed source material
 │   ├── Books/
 │   ├── Papers/

@@ -49,7 +49,7 @@ PROJ-006 (Ontology — "Final Boss")
 4. **MCP support**: Does Gemini CLI support MCP servers? What tooling is available?
 5. **API key management**: Account 2 (Google AI Pro) — how to configure, rotate, secure?
 6. **Output formatting**: Can it produce structured output (JSON, YAML) reliably?
-7. **Integration with our pipeline**: How to receive tasks from `-INBOX/cartographer/` and write to `-OUTGOING/`?
+7. **Integration with our pipeline**: How to receive tasks from `agents/cartographer/inbox/` and write to `-OUTGOING/`?
 
 ### Phase 3 Owner: Ajna (can synthesize from existing sources + web research)
 ### Phase 4-5 Owner: Ajna + Commander (test integration, update avatar config)

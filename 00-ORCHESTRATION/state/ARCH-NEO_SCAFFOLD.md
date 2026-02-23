@@ -95,7 +95,7 @@ MORNING WINDOW (Peak — σ₀ available)
   ┌─────────────────────────────────────────────┐
   │ 1. INBOUND GATE: /triage                    │
   │    - Scan EscalationQueue                   │
-  │    - Scan -INBOX/commander/00-INBOX0/       │
+  │    - Scan agents/commander/inbox/pending/       │
   │    - Health State assessment (energy tier)  │
   │    - Claim 1-3 items max (A2: capacity cap) │
   └─────────────────────────────────────────────┘

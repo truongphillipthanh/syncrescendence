@@ -82,7 +82,7 @@ ORIENT → RESEARCH → PLAN → EXECUTE → VERIFY → DISPATCH → COMMIT → 
 | Capability | Platform | Type |
 |-----------|----------|------|
 | dispatch.sh | All CLI | script |
-| -INBOX/ filesystem kanban | All | protocol |
+| agents//inbox filesystem kanban | All | protocol |
 | Ajna/CSO dispatch optimization | OpenClaw | role |
 | Linear MCP (33 tools) | Claude Code | MCP |
 | ClickUp MCP | Claude Code | MCP |

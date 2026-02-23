@@ -387,7 +387,7 @@ POST /rest/agile/1.0/sprint/{sprintId}/issue
 | Ceremony | Frequency | Jira Surface | Repo Artifact |
 |----------|-----------|-------------|---------------|
 | Sprint Planning | Every 2 weeks (Monday) | Sprint board, backlog grooming | IMPL-MAP priority updates |
-| Daily Standup | Daily (async) | Jira comments / Linear comments | `-INBOX/` dispatch notes |
+| Daily Standup | Daily (async) | Jira comments / Linear comments | `agents/`/inbox dispatch notes |
 | Sprint Review | End of sprint | Done column review | Commit log, execution log |
 | Sprint Retrospective | End of sprint | Jira retrospective board | `05-SIGMA/practice/` entry |
 | Backlog Grooming | Weekly (Wednesday) | Backlog ordering, story points | IMPL-MAP new entries |
