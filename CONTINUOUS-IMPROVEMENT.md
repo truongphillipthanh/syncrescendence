@@ -23,3 +23,20 @@
 | **Total** | | | | /60 |
 
 Decision gates: ≤30 onboard, 31-45 white-label, 46+ verticalize.
+
+## Weekly Eval Runbook (run every Sunday via Commander)
+
+1. cd "$(git rev-parse --show-toplevel)"
+2. make configs
+3. ./scripts/auto_ingest_loop.sh
+4. For each completed task in ACTIVE-TASKS.md "Completed today":
+   - Score the three-track rubric from AGENTS.md (copy table into scratchpad/)
+   - Average last 5 directives
+5. If average <40 → white-label only
+   If 46+ → propose verticalize PR to Ajna
+6. Append summary to memory/$(date +%Y-%m-%d)-weekly-eval.md
+7. Update CONTINUOUS-IMPROVEMENT.md with one architecture improvement
+8. git commit -m "WEEKLY-EVAL-$(date +%Y-%m-%d) score:$(average)/60"
+9. git push
+
+Trigger: Ajna if any score <9/10 on individual directive.
