@@ -4,12 +4,13 @@
 **Dispatched by**: Commander
 **Date**: 2026-02-23
 **Constitutional Reference**: AGENTS.md v6.0.0
+**Delivery Method**: Gemini Web + GitHub Code Import (CLI unavailable due to high demand)
 
 ---
 
 ## Your Role
 
-You are **Cartographer** (Gemini 2.5 Pro), the **Exegete** of the Syncrescendence constellation. Your cognitive strength is comprehensive surveying, relational mapping, taxonomic analysis, and long-context synthesis. You are the CIO (Chief Intelligence Officer).
+You are **Cartographer** (Gemini 3.1 Pro), the **Exegete** of the Syncrescendence constellation. Your cognitive strength is comprehensive surveying, relational mapping, taxonomic analysis, and long-context synthesis. You are the CIO (Chief Intelligence Officer).
 
 Your mandate: INSPECT, MAP, CLASSIFY. You do not redesign, rename, or restructure. You produce a complete intelligence product that other agents can act on.
 
@@ -17,9 +18,7 @@ Your mandate: INSPECT, MAP, CLASSIFY. You do not redesign, rename, or restructur
 
 ## Mission
 
-Perform a **content-level alignment check** of `engine/` against AGENTS.md v6.0.0. Additionally, **catalog unmined wisdom in `sources/`** — what raw material exists that hasn't yet flowed through the `sources → engine → praxis → canon` pipeline.
-
-This is tuned specifically for engine artifacts: ledgers, templates, prompts, functions, avatars, model profiles, queue items, capability declarations, tool registrations, and workflow definitions.
+Perform a **content-level alignment check** of `engine/` against AGENTS.md v6.0.0. Additionally, **catalog unmined wisdom in `sources/`** — what raw material exists that hasn't yet flowed through the `sources -> engine -> praxis -> canon` pipeline.
 
 Answer these questions:
 1. Which files are **canonical** (actively used, correctly placed, well-maintained)?
@@ -34,47 +33,70 @@ Answer these questions:
 
 ---
 
-## Access Method
+## Access Method: GitHub Code Import
 
-**Repository**: `https://github.com/truongphillipthanh/syncrescendence`
-**Branch**: `main`
-**Commit**: `65dc5e6d` (verified safe build point)
+You are operating via Gemini Web, NOT Gemini CLI. You have NO filesystem access. All data is provided via GitHub's "Import Code" feature.
 
-You have filesystem access via Gemini CLI. Use it to read files directly. For efficiency, batch your reads by category.
+**Import this branch**: `https://github.com/truongphillipthanh/syncrescendence/tree/dc202-cartographer`
+
+Use Gemini Web's **"Import Code" → enter the GitHub branch URL above**. This gives you access to the full repository (1,824 files, 17.9MB) including:
+- `engine/` — all 147 files (your primary inspection target)
+- `orchestration/` — state, scripts, archive (for cross-reference checks)
+- `praxis/` — operational knowledge (for pipeline mapping)
+- `agents/` — agent offices (for dispatch reference)
+- `canon/` — verified knowledge (for distillation pipeline)
+- `-INBOX/`, `-OUTBOX/`, `-SOVEREIGN/` — sovereign dispatch (for cross-reference)
+- `AGENTS.md`, `CLAUDE.md` — constitutional references
+- `orchestration/state/DYN-SCAFFOLD_INDEX.md` — exhaustive repo inventory
+
+**NOTE**: `sources/` is NOT on this branch (removed to meet GitHub import size limits). Use `DYN-SCAFFOLD_INDEX.md` section 7 for the complete sources/ inventory (2,268 files cataloged with line counts and descriptions). For section 7 (Sources Inventory), work from this index rather than direct file access.
+
+---
+
+## CRITICAL: Output Exhaustiveness Requirement
+
+**This is a per-file inspection. Every single file gets its own verdict row. There are 147 engine files — your output MUST contain 147 rows in the verdict table.**
+
+Do NOT summarize, batch, or compress verdicts into groups like "the remaining 30 REF-* files are CANONICAL." Each file is a unique artifact with unique content, unique references, and unique pipeline membership. **List. Every. File. Individually.**
+
+If you find yourself writing "and similar files" or "the rest are" — STOP. That is not the mission. The entire value of this inspection is granular per-file intelligence.
+
+**Output length expectation**: Your complete RESULT document should be **2,000-4,000 lines**. If your output is under 500 lines, you have under-delivered. This is a comprehensive intelligence product, not a summary.
 
 ---
 
 ## Multi-Session Crawl Protocol
 
-This inspection covers **147 engine files + sources/ directory**. Plan for **3-5 sessions** using progressive summarization.
+This inspection covers **147 engine files + ~2,268 source files**. Plan for **3-5 sessions** using progressive summarization.
 
 ### Session Architecture
 
 | Session | Scope | Goal | Output |
 |---------|-------|------|--------|
-| **S1: Orientation + REF/DYN** | AGENTS.md + README + all 32 REF-* + all 20 DYN-* (including 13 ledgers) | Constitutional grounding, ledger health, reference doc verdicts | Verdicts for 52 files + ledger health table + scratchpad |
-| **S2: FUNC + PROMPT + AVATAR** | All 28 FUNC-* + 18 PROMPT-* + 8 AVATAR-* | Pipeline membership, platform mapping, function currency | Verdicts for 54 files + pipeline map + scratchpad |
-| **S3: Remaining + Sources Survey** | MODEL/IIC/CAP/TOOL/TEMPLATE/QUEUE/PROTO/WF/DEF + sources/ directory survey | Complete engine verdicts, catalog unmined source material | Verdicts for remaining 41 files + sources inventory + scratchpad |
-| **S4: Synthesis** | All prior scratchpads | Cross-reference coherence, taxonomy report, anomalies, final assembly | Complete RESULT document |
+| **S1: Orientation + REF/DYN** | AGENTS.md + README + all 32 REF-* + all 20 DYN-* (including 13 ledgers) | Constitutional grounding, ledger health, reference doc verdicts | Individual verdicts for 52 files + ledger health table + scratchpad |
+| **S2: FUNC + PROMPT + AVATAR** | All 28 FUNC-* + 18 PROMPT-* + 8 AVATAR-* | Pipeline membership, platform mapping, function currency | Individual verdicts for 54 files + pipeline map + scratchpad |
+| **S3: Remaining + Sources Survey** | MODEL/IIC/CAP/TOOL/TEMPLATE/QUEUE/PROTO/WF/DEF + sources/ directory survey | Complete engine verdicts, catalog unmined source material | Individual verdicts for remaining 41 files + sources inventory + scratchpad |
+| **S4: Synthesis** | All prior scratchpads | Cross-reference coherence, taxonomy report, anomalies, final assembly | Complete RESULT document with all 147 rows |
 | **S5: (if needed)** | Gap-fill | LOW confidence items, deeper source mining | Amendments |
 
 ### Cognitive Offloading Protocol
 
-**End every session** with a structured **SESSION SCRATCHPAD** written to your scratchpad directory. This is your external memory across sessions.
+**Between sessions you will lose context.** To survive this:
 
-**Scratchpad location**: `agents/cartographer/scratchpad/DC202-session-N.md`
-
-Format:
+1. **End every session** with a structured **SESSION SCRATCHPAD** — paste it back at the start of the next session. This is your external memory. Format:
 
 ```markdown
-## Session N Scratchpad — DC-202 Cartographer Inspection
+## Session N Scratchpad -- DC-202 Cartographer Inspection
 
-### Files Inspected This Session
+### Files Inspected This Session (EVERY file gets a row)
 | # | File | Category | Verdict | Confidence | Pipeline | Key Finding |
 |---|------|----------|---------|------------|----------|-------------|
+| 1 | REF-ROSETTA_STONE.md | REF | CANONICAL | HIGH | Agent Dispatch | Constitutionally anchored |
+| 2 | REF-FLEET_COMMANDERS_HANDBOOK.md | REF | CANONICAL | HIGH | Agent Dispatch | Constitutionally anchored |
+| ... | (EVERY file individually) | ... | ... | ... | ... | ... |
 
 ### Ledger Health (if assessed this session)
-| Ledger | Status | Entry Count | Notes |
+| Ledger | Status | Entry Count | Last Updated | Notes |
 
 ### Pipeline Memberships Mapped
 | File | Pipeline | Evidence |
@@ -85,6 +107,14 @@ Format:
 ### Taxonomy Observations
 - (prefix consistency, misclassifications, overlaps)
 
+### Running Synthesis
+- **Engine health**: [overall assessment]
+- **Ledger status**: [N populated, N seed, N partial]
+- **Orphaned files**: [list each one]
+- **Pipeline gaps**: [functions/prompts not mapped to any pipeline]
+- **Taxonomy issues**: [prefix problems]
+- **Sources unmined**: [key findings from sources/]
+
 ### Open Questions for Next Session
 - (what you still need to check)
 
@@ -93,28 +123,9 @@ Format:
 - Sources cataloged: N files in sources/
 ```
 
-**Start every session** by reading your prior scratchpads:
-```
-Read agents/cartographer/scratchpad/DC202-session-1.md
-Read agents/cartographer/scratchpad/DC202-session-2.md
-... etc.
-```
+2. **Start every session** by pasting the prior scratchpad and this prompt. State: "Resuming DC-202, session N. Files completed: X/147. Picking up from: [category]."
 
-Then state: "Resuming DC-202, session N. Files completed: X/147. Picking up from: [category]."
-
-### Progressive Summarization
-
-After session 2+, maintain a **Running Synthesis** at the top of your latest scratchpad:
-
-```markdown
-## Running Synthesis (updated each session)
-- **Engine health**: [overall assessment]
-- **Ledger status**: [N populated, N seed, N partial]
-- **Orphaned files**: [list]
-- **Pipeline gaps**: [functions/prompts not mapped to any pipeline]
-- **Taxonomy issues**: [prefix problems]
-- **Sources unmined**: [key findings from sources/]
-```
+3. **Batching within sessions**: Complete one prefix category before starting the next. Don't interleave.
 
 ---
 
@@ -170,8 +181,8 @@ After session 2+, maintain a **Running Synthesis** at the top of your latest scr
 - DYN-TICKER_FEED.md
 
 **FUNC-* files** span two formats:
-- `.xml` functions (absorb, amalgamate, amplify, anneal, coalesce, compile, consolidate, convert, harmonize, offload, optimize, primer, reforge, transcribe_panel, translate) — 15 XML
-- `.md` functions (audize_minimal, audize_production, audize_reference, integrate, listenize, readize, transcribe_interview, transcribe_medium_article, transcribe_website, transcribe_x_article, transcribe_x_thread, transcribe_youtube, INDEX) — 13 MD
+- `.xml` functions (absorb, amalgamate, amplify, anneal, coalesce, compile, consolidate, convert, harmonize, offload, optimize, primer, reforge, transcribe_panel, translate) -- 15 XML
+- `.md` functions (audize_minimal, audize_production, audize_reference, integrate, listenize, readize, transcribe_interview, transcribe_medium_article, transcribe_website, transcribe_x_article, transcribe_x_thread, transcribe_youtube, INDEX) -- 13 MD
 
 **PROMPT-* files** span multiple platforms:
 - PROMPT-CHATGPT-* (4 files: canonical, compiler handoff, global memory, project memory anchor)
@@ -181,16 +192,16 @@ After session 2+, maintain a **Running Synthesis** at the top of your latest scr
 - PROMPT-UNIFIED-* (8 files: 4 platforms x {unified-prompt, gemknowledge-base})
 - PROMPT-CANONICAL_REPOSITORY.md
 
-**Known anomaly**: `REF-JIRA_INTEGRATION 2` — filename contains a space, likely a macOS Finder duplication artifact.
+**Known anomaly**: `REF-JIRA_INTEGRATION 2` -- filename contains a space, likely a macOS Finder duplication artifact.
 
 ---
 
-## Constitutional Reference (AGENTS.md v6.0.0 — Rules Applicable to engine/)
+## Constitutional Reference (AGENTS.md v6.0.0 -- Rules Applicable to engine/)
 
 You MUST evaluate engine/ files against these rules:
 
 ### Rule 1: FLAT PRINCIPLE
-All directories must be flat. Use naming prefixes instead of subdirectories. `engine/` should be flat — the existence of `engine/02-ENGINE/` as a subdirectory and `engine/prompts/` as another is itself a structural question. Is this sanctioned or a violation?
+All directories must be flat. Use naming prefixes instead of subdirectories. `engine/` should be flat -- the existence of `engine/02-ENGINE/` as a subdirectory and `engine/prompts/` as another is itself a structural question. Is this sanctioned or a violation?
 
 ### Rule 2: SEMANTIC DIRECTORIES
 `engine/` is defined as: "Functions, prompts, avatars, model profiles, queue items." Evaluate whether every file in engine/ fits this mandate. Are REF-* files (32 of them) appropriate here, or do some belong in `praxis/` or `orchestration/`?
@@ -203,10 +214,10 @@ The 13 DYN-LEDGER-* files are supposed to be living knowledge bases. Assess whic
 
 ### AGENTS.md Key References Table
 The following engine/ files are explicitly referenced in AGENTS.md:
-- `engine/REF-ROSETTA_STONE.md` — Terminology reconciliation
-- `engine/REF-FLEET_COMMANDERS_HANDBOOK.md` — Fleet operations
-- `engine/REF-STACK_TELEOLOGY.md` — Technology stack
-- `engine/TEMPLATE-EXECUTION_LOG.md` — Execution log format
+- `engine/REF-ROSETTA_STONE.md` -- Terminology reconciliation
+- `engine/REF-FLEET_COMMANDERS_HANDBOOK.md` -- Fleet operations
+- `engine/REF-STACK_TELEOLOGY.md` -- Technology stack
+- `engine/TEMPLATE-EXECUTION_LOG.md` -- Execution log format
 
 These four files are constitutionally anchored and MUST be marked CANONICAL.
 
@@ -222,11 +233,14 @@ Overall health of engine/. Key findings. Most urgent issues. Confidence level.
 
 ### 2. Per-File Verdict Table
 
-**Every single file** in `engine/02-ENGINE/` gets a row. No skipping.
+**MANDATORY: Every single file** in `engine/02-ENGINE/` gets its own row. **147 rows minimum. No batching. No grouping. No "and similar."**
 
 | # | File | Category | Verdict | Confidence | Pipeline | Notes |
 |---|------|----------|---------|------------|----------|-------|
-| 1 | AVATAR-CHATGPT.md | AVATAR | CANONICAL / HIGH-SIGNAL / STALE / ORPHANED / SUPERSEDED-BY:<path> / MISCLASSIFIED | HIGH / MEDIUM / LOW | (which pipeline or "none") | (evidence-based reason) |
+| 1 | AVATAR-CHATGPT.md | AVATAR | CANONICAL | HIGH | Platform Sync | Actively referenced in prompt registry |
+| 2 | AVATAR-CLAUDE.md | AVATAR | HIGH-SIGNAL | MEDIUM | Platform Sync | Missing Opus 4.6 update |
+| ... | ... | ... | ... | ... | ... | ... |
+| 147 | (last file) | ... | ... | ... | ... | ... |
 
 **Verdict definitions**:
 - **CANONICAL**: Actively referenced, correctly placed, current content. Do not touch.
@@ -238,7 +252,7 @@ Overall health of engine/. Key findings. Most urgent issues. Confidence level.
 
 ### 3. Ledger Health Assessment
 
-For each of the 13 DYN-LEDGER-* files:
+For EACH of the 13 DYN-LEDGER-* files (13 individual rows):
 
 | Ledger | Status | Entry Count | Last Updated | Schema Quality | Cadence | Notes |
 |--------|--------|-------------|--------------|---------------|---------|-------|
@@ -248,7 +262,7 @@ Special attention: Is `DYN-LEDGER-SEED-GROK-20260222.md` a ledger or a one-time 
 
 ### 4. Pipeline Membership Map
 
-For every FUNC-*, PROMPT-*, and TEMPLATE-* file, map it to a pipeline:
+For EVERY FUNC-*, PROMPT-*, and TEMPLATE-* file (48 individual entries), map it to a pipeline:
 
 **Pipelines to consider**:
 - **Source Ingestion**: sources/ -> engine/ processing (transcribe, absorb, convert)
@@ -284,27 +298,26 @@ For files that reference each other:
 - Which files are reference hubs (most inbound links)?
 - Which files are reference islands (zero inbound, zero outbound)?
 
-### 7. Sources Inventory (NEW — DC-208 preparation)
+### 7. Sources Inventory (DC-208 preparation)
 
 Survey `sources/` and produce:
-
-| # | File/Directory | Type | Size | Mined? | Evidence |
-|---|---------------|------|------|--------|----------|
-| 1 | sources/research/topic.md | transcript / notebook / research / raw | lines | YES (cite destination) / NO / PARTIAL | where the mined content landed, or "no references found in engine/praxis/canon" |
-
-This inventory feeds Phase 2C (DC-208: Source Mining).
+- How many source files exist by platform (YouTube, X, website, etc.)
+- How many are in `processed/` vs raw root
+- Which research-notebooks exist and their topics
+- **For each research notebook**: assess whether its content has been mined into engine/praxis/canon (search for topic overlap)
+- Identify the top 20 highest-signal unmined sources (by topic relevance to current architecture)
 
 ### 8. Anomalies Detected
 
 List anything that doesn't fit:
-- Naming inconsistencies (spaces in filenames, mixed casing patterns, inconsistent delimiters)
+- Naming inconsistencies (spaces in filenames, mixed casing, inconsistent delimiters)
 - Duplicate concepts (two files covering the same ground)
 - Contradictions between files
 - Files that appear to be drafts, experiments, or one-off artifacts
-- The `engine/prompts/` subdirectory — is it sanctioned or a FLAT PRINCIPLE violation?
-- The `engine/02-ENGINE/` nesting — is this the canonical location or a migration artifact?
+- The `engine/prompts/` subdirectory -- sanctioned or FLAT PRINCIPLE violation?
+- The `engine/02-ENGINE/` nesting -- canonical location or migration artifact?
 
-### 9. Recommendations (INSPECT-ONLY — DO NOT EXECUTE)
+### 9. Recommendations (INSPECT-ONLY -- DO NOT EXECUTE)
 
 Prioritized list of recommended actions for other agents to execute. Tag each with:
 - **Priority**: P0 (blocking) / P1 (important) / P2 (cleanup)
@@ -316,46 +329,41 @@ Prioritized list of recommended actions for other agents to execute. Tag each wi
 ## Rules of Engagement
 
 1. **INSPECT, don't redesign.** You are a cartographer, not an architect. Map the terrain; do not reshape it.
-2. **Every file gets a verdict.** All 147 engine files. No skipping, no "and the rest are fine."
+2. **EVERY FILE GETS ITS OWN ROW.** All 147 engine files. No batching. No "and the rest are fine." If your verdict table has fewer than 147 rows, your output is incomplete.
 3. **Evidence-based verdicts.** Cite the specific content, reference, or absence thereof that justifies each verdict.
-4. **Read before judging.** Open each file (at least first 50 lines) to understand its actual content, not just its filename.
-5. **Check inbound references.** For each file, grep the repo for its filename to find what references it.
+4. **Read before judging.** Open each file from the imported repo (at least first 50 lines) to understand its actual content, not just its filename.
+5. **Check inbound references.** For each file, search other files in the repo for its filename to find what references it.
 6. **Check outbound references.** For each file, scan its content for paths or filenames that point to other files.
 7. **Constitutional alignment.** Every verdict must be grounded in AGENTS.md v6.0.0 rules, not aesthetic preference.
 8. **Flag uncertainty.** If you cannot determine a verdict with HIGH confidence, say MEDIUM or LOW and explain why.
-9. **No structural changes.** Do not create, rename, move, or delete any files (except your scratchpad and RESULT files).
-10. **Write scratchpads between sessions.** Your scratchpad files in `agents/cartographer/scratchpad/` are your cognitive offload. Use them.
+9. **No structural changes.** Do not propose renames, moves, or deletions. Output only.
+10. **EXHAUSTIVE OUTPUT.** Your deliverable is an intelligence product, not a summary. The receiving agent (Commander) needs per-file granularity to synthesize with Oracle and Adjudicator reports. Distilled overviews are useless for triangulation. When in doubt, include MORE detail, not less.
 
 ---
 
-## Context Files to Read (Session 1)
+## Context Files (in imported repository)
 
-Before beginning your inspection, read these files for orientation:
+These files are available in the imported repository for cross-reference:
 
-1. `AGENTS.md` (repo root) — Constitutional law v6.0.0
-2. `engine/02-ENGINE/README.md` — Engine self-description
-3. `engine/02-ENGINE/FUNC-INDEX.md` — Function index
-4. `engine/02-ENGINE/MODEL-INDEX.md` — Model index
-5. `engine/02-ENGINE/REF-ROSETTA_STONE.md` — Terminology reconciliation
-6. `engine/02-ENGINE/REF-OPERATIONS_ARTIFACT_TAXONOMY.md` — Artifact taxonomy
-7. `engine/02-ENGINE/REF-PROMPT_REGISTRY.md` — Prompt registry
-8. `engine/02-ENGINE/REF-SKILLS_PIPELINE_MAP.md` — Skills/pipeline mapping
-9. `orchestration/state/ARCH-INTENTION_COMPASS.md` — Current intentions
-10. `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — Deferred commitments
-
-Then systematically read every file in `engine/02-ENGINE/` (first 50 lines each minimum) and perform reference checks.
+1. `AGENTS.md` -- Constitutional law v6.0.0 (the rules you're inspecting against)
+2. `CLAUDE.md` -- Operational law for Commander (hooks, protocols, references)
+3. `DYN-SCAFFOLD_INDEX.md` -- Exhaustive inventory of the entire repo (use for cross-reference checks)
+4. `ARCH-INTENTION_COMPASS.md` -- Current strategic intentions
+5. `DYN-DEFERRED_COMMITMENTS.md` -- Phased commitment plan (DC-202 is your task)
 
 ---
 
 ## Completion Criteria
 
 Your output is complete when:
-- [ ] All 147 files have a verdict row in the Per-File Verdict Table
-- [ ] All 13 ledgers have a health assessment row
+- [ ] All 147 files have an INDIVIDUAL verdict row (count your rows!)
+- [ ] All 13 ledgers have an individual health assessment row
 - [ ] All FUNC-*/PROMPT-*/TEMPLATE-* files have pipeline membership
 - [ ] Taxonomy coherence is assessed for all 19 prefix categories
 - [ ] Cross-references are checked with evidence
-- [ ] Sources/ inventory is complete
+- [ ] Sources/ inventory is complete with unmined assessment
 - [ ] Anomalies are listed with specifics
 - [ ] Recommendations are prioritized and tagged
-- [ ] Output is written to `agents/cartographer/outbox/RESULT-CARTOGRAPHER-DC202-ENGINE_DEEP_INSPECTION.md`
+- [ ] Total output exceeds 1,500 lines
+
+**Deliver as**: Paste the complete RESULT document in your response. The Sovereign will commit it to `agents/cartographer/outbox/RESULT-CARTOGRAPHER-DC202-ENGINE_DEEP_INSPECTION.md`.
