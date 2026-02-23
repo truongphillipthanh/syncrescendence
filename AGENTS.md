@@ -87,7 +87,7 @@ agents/<name>/
 | **Sovereign** | CEO | — | Human | Both | — |
 | **Ajna** | CSO (Chief Strategy Officer) | Strategos | Kimi K2.5 (NVIDIA) | MacBook Air | "Ajna, illuminate..." |
 | **Psyche** | CTO (Chief Technology Officer) | Synaptarch | GPT-5.3-codex | Mac mini | "Psyche, holistically calibrate..." |
-| **Commander** | COO (Chief Operating Officer) | Viceroy | Claude Opus 4.5 | Mac mini | "Commander, pivot to..." |
+| **Commander** | COO (Chief Operating Officer) | Viceroy | Claude Opus 4.6 | Mac mini | "Commander, pivot to..." |
 | **Adjudicator** | CQO (Chief Quality Officer) | Executor | Codex CLI (GPT-5.3-Codex) | Mac mini | "Adjudicator, execute..." |
 | **Cartographer** | CIO (Chief Intelligence Officer) | Exegete | Gemini Pro 3.1 | Mac mini | "Cartographer, survey..." |
 
@@ -97,7 +97,7 @@ agents/<name>/
 
 | Agent | CLI Tool | Dispatch Mode | Machine | tmux Pane | Rate-Limit Pool | Auto-Ingest |
 |---|---|---|---|---|---|---|
-| **Commander** | Claude Code (Opus 4.5) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | `auto_ingest_loop.sh commander` |
+| **Commander** | Claude Code (Opus 4.6) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | `auto_ingest_loop.sh commander` |
 | **Adjudicator** | Codex CLI (GPT-5.3-Codex) | tmux `send-keys` | Mac mini | `1.5` | Shared ChatGPT Plus with Psyche | `auto_ingest_loop.sh adjudicator` |
 | **Cartographer** | Gemini CLI (Gemini Pro 3.1) | Headless (`gemini -p -y -o text`) | Mac mini | `1.7` | Google AI Pro / Gemini quota | `auto_ingest_loop.sh cartographer` |
 | **Psyche** | OpenClaw (GPT-5.3-codex) | tmux `send-keys` | Mac mini | `1.1` | Shared ChatGPT Plus with Adjudicator | `auto_ingest_loop.sh psyche` |
