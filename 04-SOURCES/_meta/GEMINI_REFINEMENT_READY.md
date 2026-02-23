@@ -1,11 +1,11 @@
 # Gemini Refinement Pass — Ready
 
 ## Script Location
-`/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/gemini_refine.py`
+`/Users/system/syncrescendence/00-ORCHESTRATION/scripts/gemini_refine.py`
 
 ## How to Run
 ```bash
-source ~/.syncrescendence/venv/bin/activate && python3 /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/gemini_refine.py
+source ~/.syncrescendence/venv/bin/activate && python3 /Users/system/syncrescendence/00-ORCHESTRATION/scripts/gemini_refine.py
 ```
 
 ### Flags

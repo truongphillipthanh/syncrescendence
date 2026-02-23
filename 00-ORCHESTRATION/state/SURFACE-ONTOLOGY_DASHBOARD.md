@@ -2,7 +2,7 @@
   SYNCRESCENDENCE ONTOLOGY — STRATEGIC DASHBOARD
 ========================================================================
   Schema: v1.3.0  |  Built: 2026-02-12T19:54:00
-  DB: /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ontology.db
+  DB: /Users/system/syncrescendence/00-ORCHESTRATION/state/ontology.db
   Strategic: 452 records  |  Grand total: 1484 rows
 
 --- COMMITMENTS (active obligations) ---

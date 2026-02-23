@@ -7,9 +7,9 @@
 **Exit-Code**: 0  
 **Completed-At (UTC)**: 2026-02-07T08:52:31Z
 
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260207-agendizer-phase3-ledger.md`  
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-phase3-ledger.md`  
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase3-ledger.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260207-agendizer-phase3-ledger.md`  
+**Result-Path**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-phase3-ledger.md`  
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase3-ledger.log`
 
 ---
 

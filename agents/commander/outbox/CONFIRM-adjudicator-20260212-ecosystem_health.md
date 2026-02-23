@@ -7,9 +7,9 @@
 **Status**: FAILED
 **Exit-Code**: 1
 **Completed-At**: 2026-02-12T19:28:04Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/adjudicator/50_FAILED/TASK-20260212-ecosystem_health.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260212-ecosystem_health.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260212-ecosystem_health.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/adjudicator/50_FAILED/TASK-20260212-ecosystem_health.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260212-ecosystem_health.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260212-ecosystem_health.log`
 
 ---
 
@@ -23,7 +23,7 @@
 2026-02-12T19:27:46.493824Z ERROR codex_core::codex: MCP client for `linear` failed to start: handshaking with MCP server failed: Send message error Transport [rmcp::transport::worker::WorkerTransport<rmcp::transport::streamable_http_client::StreamableHttpClientWorker<rmcp::transport::auth::AuthClient<reqwest::async_impl::client::Client>>>] error: Auth required, when send initialize request
 OpenAI Codex v0.46.0 (research preview)
 --------
-workdir: /Users/system/Desktop/syncrescendence
+workdir: /Users/system/syncrescendence
 model: gpt-5.3-codex
 provider: openai
 approval: never

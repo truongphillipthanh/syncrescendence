@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-17T03:25:10Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260216-git_lock_test.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-git_lock_test.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260216-git_lock_test.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260216-git_lock_test.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-git_lock_test.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260216-git_lock_test.log`
 
 ---
 
@@ -41,7 +41,7 @@ thinking
 
 The plan is to update the task status inside the file without moving it from IN_PROGRESS to DONE since the folder may retain tasks; I'll also ensure the ledger updates accordingly and verify changes with git status before reporting back.
 exec
-/bin/zsh -lc 'git status -sb' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'git status -sb' in /Users/system/syncrescendence succeeded in 53ms:
 ## main...origin/main
  M -INBOX/adjudicator/.auto_ingest.lock
  M -INBOX/adjudicator/auto_ingest.log

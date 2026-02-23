@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-17T05:53:00Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260216-neural_bridge_adversarial_audit.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-neural_bridge_adversarial_audit.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260216-neural_bridge_adversarial_audit.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260216-neural_bridge_adversarial_audit.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-neural_bridge_adversarial_audit.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260216-neural_bridge_adversarial_audit.log`
 
 ---
 
@@ -91,7 +91,7 @@ thinking
 
 I'll run required shell commands sequentially, capturing all outputs for the result file. For committing, I'll use the Adjudicator protocol prefix (likely `chore:`) and commit changes locally without pushing unless explicitly required. I'll update the result file, task status, execution log, and ledger as needed before committing.
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 52ms:
 === INBOX TRIAGE ===
 Time: 2026-02-16 21:52:51
 Stale threshold: 60 minutes
@@ -101,7 +101,7 @@ Stale threshold: 60 minutes
 thinking
 **Checking git status**
 exec
-/bin/zsh -lc 'git status --short' in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'git status --short' in /Users/system/syncrescendence succeeded in 52ms:
  M .constellation/state/current.yaml
  M 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
  M 00-ORCHESTRATION/scripts/constellation_watchdog.sh

@@ -5,9 +5,9 @@
 **Status**: COMPLETE  
 **Exit-Code**: 0  
 **Completed-At**: 2026-02-07T06:23:56Z  
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260207-agendizer-phase0-foundation-retry.md`  
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-phase0.md`  
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase0-foundation.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260207-agendizer-phase0-foundation-retry.md`  
+**Result-Path**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-phase0.md`  
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase0-foundation.log`
 
 ---
 

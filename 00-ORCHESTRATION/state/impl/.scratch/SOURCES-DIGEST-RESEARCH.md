@@ -2,7 +2,7 @@
 **Agent**: Commander (Claude Code — Sonnet 4.6)
 **Phase**: Neo-Canon Phase 2, Sources Integration Wave 1
 **Generated**: 2026-02-17
-**Scope**: `/Users/system/Desktop/syncrescendence/04-SOURCES/research/` — all top-level files plus subdirectory characterization
+**Scope**: `/Users/system/syncrescendence/04-SOURCES/research/` — all top-level files plus subdirectory characterization
 **Purpose**: Validate, challenge, and extend the neo-canon's 4 axioms against external intellectual heritage
 
 ---

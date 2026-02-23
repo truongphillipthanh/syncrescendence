@@ -450,7 +450,7 @@
 
 - **2026-02-15 21:00:13** | `## Tomorrow's Priority`
 
-- **2026-02-15 22:12:51** | `okay great, instead go to /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence and conduct a /claresce on all of the clarescences. eludcidate where we are, where we need to be`
+- **2026-02-15 22:12:51** | `okay great, instead go to /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence and conduct a /claresce on all of the clarescences. eludcidate where we are, where we need to be`
 
 - **2026-02-15 22:17:23** | `- launchd plist: com.syncrescendence.emacs-server.plist (always-on daemon)`
 
@@ -474,7 +474,7 @@
 
 - **2026-02-15 23:32:04** | `10. **MBA Gap Summary** -- 16 specific gaps catalogued with priority ratings (P1 through P3 and N/A).`
 
-- **2026-02-16 00:00:22** | `very good, i need you now to examine /Users/system/Desktop/syncrescendence_convergence.md and /Users/system/Desktop/syncrescendent_convergence_aligned.md, these were from the before times. lots of int`
+- **2026-02-16 00:00:22** | `very good, i need you now to examine /Users/system/syncrescendence_convergence.md and /Users/system/Desktop/syncrescendent_convergence_aligned.md, these were from the before times. lots of int`
 
 - **2026-02-16 00:08:26** | `**56 new terms** proposed across 4 priority tiers:`
 
@@ -525,3 +525,15 @@
 - **2026-02-17 07:00:11** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
 
 - **2026-02-17 07:00:11** | `  -d '{"query":"{ team(id:\"7b039eee-f9c3-4602-8813-0e1520eba386\") { issues(filter:{state:{name:{nin:[\"Done\",\"Canceled\"]}}}) { nodes { identifier title state { name } priority assignee { name } l`
+
+- **2026-02-22 17:59:41** | `for the sandbox, can you make sure it's on github, and send me a github link to that directory. i'm going to have grok (oracle) look at it and try to pinpoint consensus architecture.`
+
+- **2026-02-22 18:11:16** | `- Plan Mode activation: always on session start`
+
+- **2026-02-22 18:15:06** | `- Full 19 KB constitutional law + Claude hooks always present in the exact file Claude Code opens.  `
+
+- **2026-02-22 18:19:16** | `- Always produce Receipts (commit hash + verification command).`
+
+- **2026-02-22 18:34:59** | `I have 3 sessions open that I want to merge into this commander ↔︎ oracle conversation, i've already sent your questions, please unify all sessions and point these questions to oracle, in addition to `
+
+- **2026-02-22 18:43:34** | `- Always attach task ID and receipt commit hash`

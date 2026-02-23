@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-16T23:09:08Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/cartographer/40-DONE/TASK-20260216-gemini_headless_smoke.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260216-gemini_headless_smoke.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-cartographer-20260216-gemini_headless_smoke.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/cartographer/40-DONE/TASK-20260216-gemini_headless_smoke.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260216-gemini_headless_smoke.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-cartographer-20260216-gemini_headless_smoke.log`
 
 ---
 

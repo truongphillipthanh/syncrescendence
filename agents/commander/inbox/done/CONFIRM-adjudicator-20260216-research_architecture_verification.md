@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-16T18:59:54Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260216-research_architecture_verification.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-research_architecture_verification.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260216-research_architecture_verification.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260216-research_architecture_verification.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-research_architecture_verification.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260216-research_architecture_verification.log`
 
 ---
 
@@ -91,7 +91,7 @@ mcp: linear ready
 mcp: notion ready
 mcp startup: ready: figma, linear, notion
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/Desktop/syncrescendence succeeded in 51ms:
+/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 51ms:
 === INBOX TRIAGE ===
 Time: 2026-02-16 10:59:48
 Stale threshold: 60 minutes
@@ -101,7 +101,7 @@ Stale threshold: 60 minutes
 thinking
 **Checking git status**
 exec
-/bin/zsh -lc 'git status --short' in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'git status --short' in /Users/system/syncrescendence succeeded in 52ms:
  D -INBOX/psyche/00-INBOX0/BRIEFING-20260209-constellation-reconfiguration.md
  D -INBOX/psyche/00-INBOX0/CONFIRM-adjudicator-20260211-install-hf-last-signal-skills.md
  D -INBOX/psyche/00-INBOX0/CONFIRM-ajna-20260211-install-hf-last-signal-skills.md

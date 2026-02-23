@@ -12,7 +12,7 @@
 
 OpenAI Codex v0.101.0 (research preview)
 --------
-workdir: /Users/system/Desktop/syncrescendence
+workdir: /Users/system/syncrescendence
 model: gpt-5.2-codex
 provider: openai
 approval: never

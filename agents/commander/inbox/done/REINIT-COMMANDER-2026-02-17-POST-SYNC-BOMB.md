@@ -45,7 +45,7 @@ MBA's `git_sync.sh` committed mass deletions of 1070+ files. Root cause was thre
 - All CANON, ENGINE, ORCHESTRATION, SOURCES content recovered
 
 ### 3. Hardened Orchestration Scripts Merged (from adjudicator fork)
-Source: `/Users/system/Desktop/syncrescendence-before-full/` (adjudicator's refactored clone)
+Source: `/Users/system/syncrescendence-before-full/` (adjudicator's refactored clone)
 
 8 scripts + 1 arch doc copied to primary repo:
 - `repo_integrity_gate.sh` — NEW. Layer-0 fail-closed integrity gate
@@ -72,10 +72,10 @@ Source: `/Users/system/Desktop/syncrescendence-before-full/` (adjudicator's refa
 ## Current State of Both Machines
 
 ### MBA (MacBook Air — /Users/system) — ABOUT TO RESTART
-- Repo at `/Users/system/Desktop/syncrescendence` — HEAD is `a62faeb`, working tree has minor runtime state diffs
+- Repo at `/Users/system/syncrescendence` — HEAD is `a62faeb`, working tree has minor runtime state diffs
 - `com.syncrescendence.git-sync` — UNLOADED (stopped before restart)
 - git_sync.sh at `~/.syncrescendence/scripts/git_sync.sh` — FIXED (scoped, safe)
-- Adjudicator fork at `/Users/system/Desktop/syncrescendence-before-full/` — still exists, can be deleted after confirming primary is stable
+- Adjudicator fork at `/Users/system/syncrescendence-before-full/` — still exists, can be deleted after confirming primary is stable
 
 ### Mac mini (M1 — /Users/home) — ABOUT TO RESTART
 - Repo at `/Users/home/Desktop/syncrescendence` — HEAD is `a62faeb` but **1165 dirty files** in working tree:
@@ -143,7 +143,7 @@ bash 00-ORCHESTRATION/scripts/verify_all.sh
 - SSH: `ssh mini` (MBA→MM), `ssh macbook-air` (MM→MBA)
 - ICMP ping BLOCKED by Stealth Mode — always use SSH
 - Google Drive account: `truongphillipthanh@gmail.com` — syncing on BOTH machines
-- Adjudicator fork: `/Users/system/Desktop/syncrescendence-before-full/`
+- Adjudicator fork: `/Users/system/syncrescendence-before-full/`
 - The old `git_sync.sh` did `git add -A` → never again
 - launchd does NOT source ~/.zshrc — use plist EnvironmentVariables
 - Mac mini plist still MISSING `SYNCRESCENDENCE_REMOTE_AGENT_HOST_*` env vars (SCP-back routing blocked)

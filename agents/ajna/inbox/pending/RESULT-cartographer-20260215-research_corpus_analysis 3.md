@@ -34,7 +34,7 @@ The analysis is complete, and the report has been generated. To fulfill the obje
 
 ## 1. Executive Summary
 
-This report provides a comprehensive analysis of the research corpus located in `/Users/system/Desktop/syncrescendence/04-SOURCES/research/`. The corpus consists of 100 files (not 268 as stated in the task, a discrepancy worth noting) and is organized into a combination of directories and root-level files.
+This report provides a comprehensive analysis of the research corpus located in `/Users/system/syncrescendence/04-SOURCES/research/`. The corpus consists of 100 files (not 268 as stated in the task, a discrepancy worth noting) and is organized into a combination of directories and root-level files.
 
 The research materials are heavily focused on the operational and conceptual frameworks of AI, particularly concerning agentic architectures, multi-model orchestration, and the practical application of large language models (LLMs) like Claude, Gemini, and others. A significant portion of the corpus is dedicated to "meta" topics: the process of using AI to build with AI, prompt engineering, and workflow optimization.
 

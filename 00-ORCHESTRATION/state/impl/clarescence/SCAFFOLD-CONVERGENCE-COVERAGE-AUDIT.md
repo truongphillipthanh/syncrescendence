@@ -4,7 +4,7 @@
 **Auditor**: Commander (Claude Opus 4.6)
 **Scope**: All scaffold files (everything OUTSIDE `01-CANON/`) measured against the convergence vision
 **Sources Audited**:
-- `/Users/system/Desktop/syncrescendence_convergence.md` (2726 lines -- referred to as DOC-A)
+- `/Users/system/syncrescendence_convergence.md` (2726 lines -- referred to as DOC-A)
 - `/Users/system/Desktop/syncrescendent_convergence_aligned.md` (2229 lines -- referred to as DOC-B)
 
 **Scaffold Files Examined**:
@@ -768,7 +768,7 @@ All coverage percentages in this audit were verified through:
 
 1. **Direct file reads**: All 19 scaffold files listed in the header were read via Read tool.
 2. **Directory listings**: `02-ENGINE/` (68 files), `00-ORCHESTRATION/state/` (56 files), `05-SIGMA/` (3 subdirs + files), `00-ORCHESTRATION/state/impl/clarescence/` (50+ files).
-3. **Grep searches** (all run against `/Users/system/Desktop/syncrescendence/`):
+3. **Grep searches** (all run against `/Users/system/syncrescendence/`):
    - `curriculum|educational|pedagog` -- 106 files (majority in CANON, not scaffold)
    - `field.?node|way.?place|nodelet` -- 55 files (majority in CANON)
    - `compliance|liability|insurance|safety.?protocol` -- 162 files (scaffold hits: AI operational only)

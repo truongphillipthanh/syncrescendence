@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-09T07:17:33Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/cartographer/40-DONE/TASK-20260208-watcher_smoke_test.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260208-watcher_smoke_test.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-cartographer-20260208-watcher_smoke_test.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/cartographer/40-DONE/TASK-20260208-watcher_smoke_test.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260208-watcher_smoke_test.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-cartographer-20260208-watcher_smoke_test.log`
 
 ---
 

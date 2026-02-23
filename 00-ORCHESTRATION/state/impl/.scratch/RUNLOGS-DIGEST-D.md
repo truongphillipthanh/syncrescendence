@@ -34,9 +34,9 @@ Request 2 — Triangulation of logs against kaizen autopsy:
 
 Post-approval actions:
 - Sovereign approved restore-clone and complete refactor.
-- Adjudicator created `/Users/system/Desktop/syncrescendence-before` (pinned to `46260d9`, Feb 15 23:46 PST).
+- Adjudicator created `/Users/system/syncrescendence-before` (pinned to `46260d9`, Feb 15 23:46 PST).
 - Noted it was missing key directories (`01-CANON`, `04-SOURCES`, `05-SIGMA`, `-OUTBOX`, `-SOVEREIGN`, `COCKPIT.md`, etc.).
-- Created `/Users/system/Desktop/syncrescendence-before-full` pinned to `0a604dd` with all directories present.
+- Created `/Users/system/syncrescendence-before-full` pinned to `0a604dd` with all directories present.
 - Executed full hardening refactor on `syncrescendence-before-full`:
   - `repo_integrity_gate.sh` — Layer-0 fail-closed integrity gate.
   - `auto_ingest_loop.sh` — structured failure envelope, lease/attempt tracking, heartbeat, retry budget cap.

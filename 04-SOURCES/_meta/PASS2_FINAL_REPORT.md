@@ -31,5 +31,5 @@
 ## Post-Merge State
 
 - `/Users/system/Desktop/research/` — **EMPTY** (safe to remove)
-- `/Users/system/Desktop/syncrescendence/04-SOURCES/` — 627 SOURCE-*.md files, unified and deduplicated
+- `/Users/system/syncrescendence/04-SOURCES/` — 627 SOURCE-*.md files, unified and deduplicated
 - All files follow naming convention: `SOURCE-YYYYMMDD-platform-type-author-slug.md`

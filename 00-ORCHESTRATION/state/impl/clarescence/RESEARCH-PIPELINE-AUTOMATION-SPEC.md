@@ -499,7 +499,7 @@ Conditions:
   - Name DOES NOT contain "manifest"
   - Name DOES NOT contain "README"
 Actions:
-  1. Run shell script: /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/classify_research.sh "$1"
+  1. Run shell script: /Users/system/syncrescendence/00-ORCHESTRATION/scripts/classify_research.sh "$1"
   2. Display notification: "Research classified: [filename]"
 ```
 
@@ -521,7 +521,7 @@ Actions:
     <string>com.syncrescendence.research-threshold</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/research_threshold.sh</string>
+        <string>/Users/system/syncrescendence/00-ORCHESTRATION/scripts/research_threshold.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -759,11 +759,11 @@ Phase 3: Integration (Month 2)
 ## X. References
 
 ### Internal Documents
-- `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-CHUNKING-TAXONOMY.md`
-- `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-SOVEREIGN-CURATION-PATTERN.md`
-- `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-REPO-EXTRACTION.md`
-- `/Users/system/Desktop/syncrescendence/COCKPIT.md`
-- `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md`
+- `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-CHUNKING-TAXONOMY.md`
+- `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-SOVEREIGN-CURATION-PATTERN.md`
+- `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-REPO-EXTRACTION.md`
+- `/Users/system/syncrescendence/COCKPIT.md`
+- `/Users/system/syncrescendence/00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md`
 
 ### External References
 - [NotebookLM Enterprise API: Notebooks](https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks) -- Official Google Cloud documentation for notebook creation/management

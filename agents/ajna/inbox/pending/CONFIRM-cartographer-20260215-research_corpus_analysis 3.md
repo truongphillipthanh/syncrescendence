@@ -7,9 +7,9 @@
 **Status**: FAILED
 **Exit-Code**: 1
 **Completed-At**: 2026-02-16T07:40:07Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/cartographer/50_FAILED/TASK-20260215-research_corpus_analysis.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260215-research_corpus_analysis.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/ajna/00-INBOX0/EXECLOG-cartographer-20260215-research_corpus_analysis.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/cartographer/50_FAILED/TASK-20260215-research_corpus_analysis.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260215-research_corpus_analysis.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/ajna/00-INBOX0/EXECLOG-cartographer-20260215-research_corpus_analysis.log`
 
 ---
 

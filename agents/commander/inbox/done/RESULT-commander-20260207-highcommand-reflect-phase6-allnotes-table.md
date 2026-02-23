@@ -9,7 +9,7 @@
 
 ## Output
 
-It looks like write permissions to the HighCommand directory keep getting denied. The HighCommand project is at `/Users/system/Desktop/HighCommand/` which is outside my session's primary working directory (`/Users/system/Desktop/syncrescendence`).
+It looks like write permissions to the HighCommand directory keep getting denied. The HighCommand project is at `/Users/system/Desktop/HighCommand/` which is outside my session's primary working directory (`/Users/system/syncrescendence`).
 
 I need you to either:
 

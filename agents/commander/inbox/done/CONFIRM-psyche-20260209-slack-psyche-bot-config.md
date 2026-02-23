@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-10T00:18:40Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/psyche/40-DONE/TASK-20260209-slack-psyche-bot-config.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/psyche/RESULTS/RESULT-psyche-20260209-slack-psyche-bot-config.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-psyche-20260209-slack-psyche-bot-config.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/psyche/40-DONE/TASK-20260209-slack-psyche-bot-config.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/psyche/RESULTS/RESULT-psyche-20260209-slack-psyche-bot-config.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-psyche-20260209-slack-psyche-bot-config.log`
 
 ---
 

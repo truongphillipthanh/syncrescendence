@@ -4,7 +4,7 @@
 **From-Agent**: adjudicator  
 **Status**: COMPLETE  
 **Completed-At**: 2026-02-07T06:56:00Z  
-**Patched-Script**: `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/watch_dispatch.sh`
+**Patched-Script**: `/Users/system/syncrescendence/00-ORCHESTRATION/scripts/watch_dispatch.sh`
 
 ---
 
@@ -22,12 +22,12 @@
 
 ## Backfilled Receipts
 
-- `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/CONFIRM-adjudicator-20260207-agendizer-phase0-foundation.md`
-- `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/CONFIRM-adjudicator-20260207-agendizer-phase1-interpretation.md`
-- `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase0-foundation.log`
-- `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase1-interpretation.log`
+- `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/CONFIRM-adjudicator-20260207-agendizer-phase0-foundation.md`
+- `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/CONFIRM-adjudicator-20260207-agendizer-phase1-interpretation.md`
+- `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase0-foundation.log`
+- `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260207-agendizer-phase1-interpretation.log`
 
 ## Verification
 
-- Syntax check passed: `bash -n /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/watch_dispatch.sh`
+- Syntax check passed: `bash -n /Users/system/syncrescendence/00-ORCHESTRATION/scripts/watch_dispatch.sh`
 - Watchers restarted so patch is active for subsequent completions.

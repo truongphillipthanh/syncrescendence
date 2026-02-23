@@ -22,7 +22,7 @@
 
 Execute a totalizing, wave-gated Blitzkrieg for Agendizer using the substantiated /clarescence^2 packet:
 
-- `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-clarescence2-substantiated.md`
+- `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-clarescence2-substantiated.md`
 
 Mission priority is P0: convert this packet into immediate execution directives and launch across Twin Swarms with strict gates, receipts, and rollback paths.
 
@@ -61,8 +61,8 @@ Mission priority is P0: convert this packet into immediate execution directives 
 - `/Users/system/Desktop/Agendizer/primitive_research.md`
 - `/Users/system/Desktop/Agendizer/primitive_research2.md`
 - `/Users/system/Desktop/Agendizer/agendizer-prd-v0.1.docx`
-- `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/DEC-20260206-144500-disposition-routing-charter.md`
-- `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/CLARESCENCE-2026-02-06-disposition-routing-charter.md`
+- `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/DEC-20260206-144500-disposition-routing-charter.md`
+- `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CLARESCENCE-2026-02-06-disposition-routing-charter.md`
 
 ---
 
@@ -70,7 +70,7 @@ Mission priority is P0: convert this packet into immediate execution directives 
 
 Write execution outcome + issued directives + receipts summary to:
 
-- `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-commander-20260207-agendizer-blitzkrieg-launch.md`
+- `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-commander-20260207-agendizer-blitzkrieg-launch.md`
 
 Include: Wave pass/fail status, blocked gates (if any), and corrective actions.
 

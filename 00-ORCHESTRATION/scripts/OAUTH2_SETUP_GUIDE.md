@@ -25,7 +25,7 @@ mv ~/Downloads/client_secret_*.json ~/.syncrescendence/client_secret.json
 ## 3. Authenticate
 
 ```bash
-source ~/.syncrescendence/venv/bin/activate && python3 /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/youtube_oauth_setup.py
+source ~/.syncrescendence/venv/bin/activate && python3 /Users/system/syncrescendence/00-ORCHESTRATION/scripts/youtube_oauth_setup.py
 ```
 
 A browser window will open. Approve access. Token saves to `~/.syncrescendence/youtube_token.json`.

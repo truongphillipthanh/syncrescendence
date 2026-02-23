@@ -130,9 +130,9 @@ SwarmHandoffEnvelope:
       - Maintain local-first interpretation default
       - Keep cloud execution explicitly opt-in
   artifact_inputs:
-    - /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
-    - /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md
-    - /Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-phase0.md
+    - /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
+    - /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md
+    - /Users/system/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-phase0.md
   artifact_outputs_expected:
     - Phase 2 dispatch package
     - Commander gate review receipt

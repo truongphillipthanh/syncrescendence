@@ -86,7 +86,7 @@ Of 43 total files audited (34 skills + 9 project commands), the vast majority ar
 
 ### MEDIUM-1: `update_universal_ledger` -- External API Credential Usage
 
-**File**: `/Users/system/Desktop/syncrescendence/.claude/skills/update_universal_ledger/SKILL.md`
+**File**: `/Users/system/syncrescendence/.claude/skills/update_universal_ledger/SKILL.md`
 
 **Finding**: Contains explicit `curl` commands with `Authorization: $LINEAR_API_KEY` and `Authorization: $CLICKUP_API_KEY` headers. These commands:
 - Send GraphQL mutations to `https://api.linear.app/graphql`
@@ -104,7 +104,7 @@ Of 43 total files audited (34 skills + 9 project commands), the vast majority ar
 
 ### MEDIUM-2: `triage` -- Linear API Read Access
 
-**File**: `/Users/system/Desktop/syncrescendence/.claude/skills/triage/SKILL.md`
+**File**: `/Users/system/syncrescendence/.claude/skills/triage/SKILL.md`
 
 **Finding**: Contains a `curl` command with `Authorization: $LINEAR_API_KEY` that queries the Linear GraphQL API for issue state. This is a read-only operation.
 
@@ -119,7 +119,7 @@ Of 43 total files audited (34 skills + 9 project commands), the vast majority ar
 
 ### MEDIUM-3: `last30days` / `lastweek` / `lastday` -- Research Pipeline Credential Auto-Detection
 
-**File**: `/Users/system/Desktop/syncrescendence/.claude/skills/last30days/SKILL.md` (and lastweek, lastday variants)
+**File**: `/Users/system/syncrescendence/.claude/skills/last30days/SKILL.md` (and lastweek, lastday variants)
 
 **Finding**: These skills invoke Python scripts that "auto-detect available API keys" from the environment for Reddit and X/Bird CLI access. The SKILL.md files reference:
 - `python3 scripts/last30days.py` or `scripts/hf_window.py`
@@ -143,7 +143,7 @@ However, the actual Python scripts were **not found in the skill directories** -
 
 ### MEDIUM-4: `google-ai-mode-skill` -- Persistent Browser Profile
 
-**File**: `/Users/system/Desktop/syncrescendence/.claude/skills/google-ai-mode-skill/SKILL.md`
+**File**: `/Users/system/syncrescendence/.claude/skills/google-ai-mode-skill/SKILL.md`
 
 **Finding**: The skill uses a persistent browser context at `~/.cache/google-ai-mode-skill/chrome_profile` to preserve cookies and session state between searches. It also:
 - Installs Google Chrome programmatically

@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-15T16:00:13Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260215-ecosystem_health.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260215-ecosystem_health.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260215-ecosystem_health.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/adjudicator/40-DONE/TASK-20260215-ecosystem_health.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260215-ecosystem_health.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-adjudicator-20260215-ecosystem_health.log`
 
 ---
 
@@ -19,7 +19,7 @@
 
 OpenAI Codex v0.101.0 (research preview)
 --------
-workdir: /Users/system/Desktop/syncrescendence
+workdir: /Users/system/syncrescendence
 model: gpt-5.2-codex
 provider: openai
 approval: never

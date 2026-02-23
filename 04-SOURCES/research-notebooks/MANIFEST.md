@@ -2,7 +2,7 @@
 
 **Generated**: 2026-02-16
 **Source**: `/Users/system/Desktop/research/` (267 files preserved intact)
-**Target**: `/Users/system/Desktop/syncrescendence/04-SOURCES/research-notebooks/`
+**Target**: `/Users/system/syncrescendence/04-SOURCES/research-notebooks/`
 **Method**: Copied (not moved, not symlinked) per RESEARCH-CORPUS-CHUNKING-TAXONOMY.md
 
 ---
@@ -53,4 +53,4 @@
 ## Taxonomy Reference
 
 Full assignment logic documented in:
-`/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-CHUNKING-TAXONOMY.md`
+`/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/RESEARCH-CORPUS-CHUNKING-TAXONOMY.md`

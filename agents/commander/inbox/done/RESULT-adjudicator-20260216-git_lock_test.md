@@ -27,7 +27,7 @@
 
 OpenAI Codex v0.101.0 (research preview)
 --------
-workdir: /Users/system/Desktop/syncrescendence
+workdir: /Users/system/syncrescendence
 model: gpt-5.2-codex
 provider: openai
 approval: never
@@ -98,7 +98,7 @@ mcp startup: ready: figma, linear, notion
 thinking
 **Starting task triage and environment check**
 exec
-/bin/zsh -lc ls in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc ls in /Users/system/syncrescendence succeeded in 53ms:
 -INBOX
 -OUTBOX
 -OUTGOING
@@ -123,7 +123,7 @@ skills
 thinking
 **Starting triage**
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 52ms:
 === INBOX TRIAGE ===
 Time: 2026-02-16 19:22:51
 Stale threshold: 60 minutes
@@ -133,7 +133,7 @@ Stale threshold: 60 minutes
 thinking
 **Checking git status**
 exec
-/bin/zsh -lc 'git status -sb' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'git status -sb' in /Users/system/syncrescendence succeeded in 53ms:
 ## main...origin/main
  M -INBOX/adjudicator/.auto_ingest.lock
  M -INBOX/adjudicator/auto_ingest.log
@@ -160,7 +160,7 @@ thinking
 
 The working tree is very dirty with many changes; the plan is to read the first 120 lines of COCKPIT.md and ARCH-INTENTION_COMPASS to gather context before proceeding.
 exec
-/bin/zsh -lc "sed -n '1,200p' COCKPIT.md" in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc "sed -n '1,200p' COCKPIT.md" in /Users/system/syncrescendence succeeded in 52ms:
 # COCKPIT.md
 ## Syncrescendence System Overview
 
@@ -182,7 +182,7 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 
 ### Three Accounts
 exec
-/bin/zsh -lc "sed -n '1,200p' 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md" in /Users/system/Desktop/syncrescendence succeeded in 50ms:
+/bin/zsh -lc "sed -n '1,200p' 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md" in /Users/system/syncrescendence succeeded in 50ms:
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
 **Last Updated**: 2026-02-09
@@ -214,7 +214,7 @@ thinking
 
 Acknowledged that only our changes will be committed while leaving existing modifications untouched, complying with protocol. Next, I'll produce the execution log following the provided template.
 exec
-/bin/zsh -lc "sed -n '1,200p' 02-ENGINE/TEMPLATE-EXECUTION_LOG.md" in /Users/system/Desktop/syncrescendence succeeded in 51ms:
+/bin/zsh -lc "sed -n '1,200p' 02-ENGINE/TEMPLATE-EXECUTION_LOG.md" in /Users/system/syncrescendence succeeded in 51ms:
 # EXECUTION LOG: DIRECTIVE-[NNN][A|B]
 ## [Directive Title]
 
@@ -241,7 +241,7 @@ thinking
 
 I'll review the current contents and format of DYN-EXECUTION_STAGING to ensure the new execution log matches the protocol template.
 exec
-/bin/zsh -lc "sed -n '1,200p' 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md" in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc "sed -n '1,200p' 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md" in /Users/system/syncrescendence succeeded in 53ms:
 # Execution Log Staging
 **Auto-managed by create_execution_log.sh**
 **Compacts into ARCH-EXECUTION_HISTORY.md when threshold reached**
@@ -273,20 +273,20 @@ thinking
 
 I'm verifying that no index lock file exists before creating one, then running `git add -A --dry-run` to provoke and capture the expected lock error, followed by cleanup of the lock file to record results safely.
 exec
-/bin/zsh -lc "test -f .git/index.lock && echo 'lock-present' || echo 'lock-absent'" in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc "test -f .git/index.lock && echo 'lock-present' || echo 'lock-absent'" in /Users/system/syncrescendence succeeded in 53ms:
 lock-absent
 
 thinking
 **Creating lock mechanism**
 exec
-/bin/zsh -lc 'touch .git/index.lock' in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'touch .git/index.lock' in /Users/system/syncrescendence succeeded in 52ms:
 
 
 thinking
 **Checking staged changes with dry run**
 exec
-/bin/zsh -lc 'git add -A --dry-run' in /Users/system/Desktop/syncrescendence exited 128 in 51ms:
-fatal: Unable to create '/Users/system/Desktop/syncrescendence/.git/index.lock': File exists.
+/bin/zsh -lc 'git add -A --dry-run' in /Users/system/syncrescendence exited 128 in 51ms:
+fatal: Unable to create '/Users/system/syncrescendence/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
@@ -299,7 +299,7 @@ thinking
 
 Planning to verify if `git status -sb` works while the git index lock is held, since `git add` fails; this will clarify which commands are blocked during a lock.
 exec
-/bin/zsh -lc 'git status -sb' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'git status -sb' in /Users/system/syncrescendence succeeded in 53ms:
 ## main...origin/main
  M -INBOX/adjudicator/.auto_ingest.lock
  M -INBOX/adjudicator/auto_ingest.log
@@ -337,7 +337,7 @@ if os.path.exists(path):
     print('removed')
 else:
     print('not found')
-PY" in /Users/system/Desktop/syncrescendence exited 127 in 52ms:
+PY" in /Users/system/syncrescendence exited 127 in 52ms:
 zsh:1: command not found: python
 
 thinking
@@ -353,7 +353,7 @@ if os.path.exists(path):
     print('removed')
 else:
     print('not found')
-PY" in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+PY" in /Users/system/syncrescendence succeeded in 52ms:
 removed
 
 thinking
@@ -361,7 +361,7 @@ thinking
 
 I'm creating the results file with test summary, commands, output, and timestamp, then updating the task file status to COMPLETE, including Completed-At and Exit-Code fields. Next, I'll open the task file to modify these fields.
 exec
-/bin/zsh -lc "sed -n '1,200p' -INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md" in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc "sed -n '1,200p' -INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md" in /Users/system/syncrescendence succeeded in 53ms:
 # TASK-20260216-git_lock_test
 
 **From**: dispatch
@@ -388,7 +388,7 @@ thinking
 
 I'm preparing to set the task status to COMPLETE with a UTC completion timestamp using the current date/time formatted as ISO 8601.
 exec
-/bin/zsh -lc 'date -u +"%Y-%m-%dT%H:%M:%SZ"' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'date -u +"%Y-%m-%dT%H:%M:%SZ"' in /Users/system/syncrescendence succeeded in 53ms:
 2026-02-17T03:23:48Z
 
 thinking
@@ -396,7 +396,7 @@ thinking
 
 Decided to record the Completed-At timestamp using local time formatted as `YYYY-MM-DD HH:MM`. Next, I'll write the result file and add an entry to the dynamic execution staging with this timestamp and relevant headers.
 exec
-/bin/zsh -lc 'date "+%Y-%m-%d %H:%M"' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'date "+%Y-%m-%d %H:%M"' in /Users/system/syncrescendence succeeded in 53ms:
 2026-02-16 19:23
 
 thinking
@@ -421,7 +421,7 @@ exec
    - Exit code: 128
    - Output:
      ```
-     fatal: Unable to create '"'/Users/system/Desktop/syncrescendence/.git/index.lock': File exists.
+     fatal: Unable to create '"'/Users/system/syncrescendence/.git/index.lock': File exists.
 
      Another git process seems to be running in this repository, e.g.
      an editor opened by 'git commit'. Please make sure all processes
@@ -438,13 +438,13 @@ exec
 
 ## Notes
 - No repository files were modified by this test (only transient `.git/index.lock`).
-EOF' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+EOF' in /Users/system/syncrescendence succeeded in 53ms:
 
 
 thinking
 **Updating task file status with patch**
 file update
-M /Users/system/Desktop/syncrescendence/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
+M /Users/system/syncrescendence/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
 @@ -9,8 +9,8 @@
  **Priority**: P1
 -**Status**: IN_PROGRESS
@@ -513,7 +513,7 @@ thinking
 
 I'm planning to log the task with the current branch (main) and a short HEAD commit fingerprint to include branch, fingerprint, outcome, commits, changes, and agent in the entry.
 exec
-/bin/zsh -lc 'git rev-parse --short HEAD' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'git rev-parse --short HEAD' in /Users/system/syncrescendence succeeded in 53ms:
 68aab69
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
@@ -552,7 +552,7 @@ exec
 - **Commits**: 0 | **Changes**: 3 files modified/created
 - **Agent**: Adjudicator
 - **Details**: Verified git index lock behavior (git add fails with lock error; git status succeeds). Removed lock and wrote result file.
-EOF" in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+EOF" in /Users/system/syncrescendence succeeded in 53ms:
 
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
@@ -581,7 +581,7 @@ index c2c27dcdee016bf8b3d99ea3bf695addaa09261f..9a55f6b8f15193e13a5742f3a7f81aae
 thinking
 **Running ledger append script**
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/append_ledger.sh COMPLETE adjudicator dispatch TASK-20260216-git_lock_test' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/append_ledger.sh COMPLETE adjudicator dispatch TASK-20260216-git_lock_test' in /Users/system/syncrescendence succeeded in 53ms:
 [Ledger] COMPLETE: adjudicator → dispatch (TASK-20260216-git_lock_test)
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
@@ -612,7 +612,7 @@ thinking
 
 I'm confirming the result file directory exists and that command outputs are recorded; also planning to verify lock removal based on the test file before updating status and writing results per protocol.
 exec
-/bin/zsh -lc "test -f .git/index.lock && echo 'lock-present' || echo 'lock-absent'" in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc "test -f .git/index.lock && echo 'lock-present' || echo 'lock-absent'" in /Users/system/syncrescendence succeeded in 53ms:
 lock-present
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
@@ -651,7 +651,7 @@ if os.path.exists(path):
     os.remove(path)
     print('removed')
 print('exists-after', os.path.exists(path))
-PY" in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+PY" in /Users/system/syncrescendence succeeded in 53ms:
 exists-before False
 exists-after False
 file update:
@@ -683,7 +683,7 @@ thinking
 
 The previous test command reported the lock file existed, but Python now reports it missing, suggesting a possible race condition or transient creation/deletion of the lock file or directory. I'll re-check to clarify this behavior.
 exec
-/bin/zsh -lc "test -f .git/index.lock && echo 'lock-present' || echo 'lock-absent'" in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc "test -f .git/index.lock && echo 'lock-present' || echo 'lock-absent'" in /Users/system/syncrescendence succeeded in 53ms:
 lock-absent
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
@@ -714,7 +714,7 @@ thinking
 
 I verified the result file notes the lock removal and updated the task file status accordingly; next, I'll ensure the result file is properly inserted and confirm its contents.
 exec
-/bin/zsh -lc "sed -n '1,200p' -OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-git_lock_test.md" in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc "sed -n '1,200p' -OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-git_lock_test.md" in /Users/system/syncrescendence succeeded in 52ms:
 # RESULT: git index lock behavior (2026-02-16)
 
 ## Summary
@@ -731,7 +731,7 @@ exec
    - Exit code: 128
    - Output:
      ```
-     fatal: Unable to create '/Users/system/Desktop/syncrescendence/.git/index.lock': File exists.
+     fatal: Unable to create '/Users/system/syncrescendence/.git/index.lock': File exists.
 
      Another git process seems to be running in this repository, e.g.
      an editor opened by 'git commit'. Please make sure all processes
@@ -764,7 +764,7 @@ thinking
 
 I'm planning to update the dynamic execution staging ledger next and will display a sample to confirm the new entry is appended correctly.
 exec
-/bin/zsh -lc 'tail -n 30 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md' in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'tail -n 30 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md' in /Users/system/syncrescendence succeeded in 52ms:
 ### SESSION-20260216-1850 | 2026-02-16 18:50
 - **Branch**: main | **Fingerprint**: d458b8e
 - **Outcome**: SUCCESS
@@ -814,7 +814,7 @@ thinking
 
 The plan is to update the task status inside the file without moving it from IN_PROGRESS to DONE since the folder may retain tasks; I'll also ensure the ledger updates accordingly and verify changes with git status before reporting back.
 exec
-/bin/zsh -lc 'git status -sb' in /Users/system/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'git status -sb' in /Users/system/syncrescendence succeeded in 53ms:
 ## main...origin/main
  M -INBOX/adjudicator/.auto_ingest.lock
  M -INBOX/adjudicator/auto_ingest.log

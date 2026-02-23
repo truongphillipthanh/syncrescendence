@@ -7,9 +7,9 @@
 **Status**: COMPLETE
 **Exit-Code**: 0
 **Completed-At**: 2026-02-12T04:54:58Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/ajna/40-DONE/TASK-20260211-int1612_automation_audit.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/ajna/RESULTS/RESULT-ajna-20260211-int1612_automation_audit.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-ajna-20260211-int1612_automation_audit.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/ajna/40-DONE/TASK-20260211-int1612_automation_audit.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/ajna/RESULTS/RESULT-ajna-20260211-int1612_automation_audit.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-ajna-20260211-int1612_automation_audit.log`
 
 ---
 

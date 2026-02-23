@@ -503,3 +503,4 @@
 | 2026-02-17T15:04:13 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T15:04:13Z] | 354b427 | 354b427 | — | — |
 | 2026-02-17T15:09:17 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T15:09:17Z] | 85538c0 | 85538c0 | — | — |
 | 2026-02-17T15:14:22 | COMMIT | commander | repo | sync(ajna): inbox/outgoing sync from MBA [2026-02-17T15:14:21Z] | 493bb47 | 493bb47 | — | — |
+| 2026-02-23T01:55:57 | COMMIT | commander | repo | chore: auto-compact wisdom at threshold (10 entries) | 944f5380 | 944f5380 | — | — |

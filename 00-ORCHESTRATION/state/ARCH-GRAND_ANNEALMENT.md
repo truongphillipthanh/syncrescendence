@@ -599,36 +599,36 @@ new sections.
 
 ```
 Annealment files:
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-GRAND_ANNEALMENT.md  (this file)
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v1.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/ARCH-GRAND_ANNEALMENT.md  (this file)
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v1.md
 
 Digest inputs:
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/.scratch/CLARESCE-MASTER-DIGEST.md
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/RUNLOGS-MASTER-DIGEST.md
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/ANNEAL-V2-PATCHES.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/.scratch/CLARESCE-MASTER-DIGEST.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/RUNLOGS-MASTER-DIGEST.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/ANNEAL-V2-PATCHES.md
 
 Canon reference:
-  /Users/system/Desktop/syncrescendence/02-ENGINE/REF-ROSETTA_STONE.md                  (v2.7.0, 311 terms)
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/REF-CLARESCENCE_RUNBOOK.md (v3.0.0)
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md  (T0 vectors)
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ontology.db               (1,484+ rows)
+  /Users/system/syncrescendence/02-ENGINE/REF-ROSETTA_STONE.md                  (v2.7.0, 311 terms)
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/REF-CLARESCENCE_RUNBOOK.md (v3.0.0)
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md  (T0 vectors)
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/ontology.db               (1,484+ rows)
 
 Clarescence analysis:
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CONVERGENCE-INTENT-TAXONOMY.md
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/SCAFFOLD-CONVERGENCE-COVERAGE-AUDIT.md
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/LENS-ARCHAEOLOGY.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CONVERGENCE-INTENT-TAXONOMY.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/SCAFFOLD-CONVERGENCE-COVERAGE-AUDIT.md
+  /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/LENS-ARCHAEOLOGY.md
 
 Scripts:
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_loop.sh
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/dispatch.sh
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/proactive_orchestrator.sh
+  /Users/system/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_loop.sh
+  /Users/system/syncrescendence/00-ORCHESTRATION/scripts/dispatch.sh
+  /Users/system/syncrescendence/00-ORCHESTRATION/scripts/proactive_orchestrator.sh
   /Users/home/.syncrescendence/scripts/git_sync.sh
-  /Users/system/Desktop/syncrescendence/00-ORCHESTRATION/scripts/cockpit.sh
+  /Users/system/syncrescendence/00-ORCHESTRATION/scripts/cockpit.sh
 
 Fork with hardened scripts (not yet promoted):
-  /Users/system/Desktop/syncrescendence-before-full/ (branch: codex/restore-pre-wipe, commit d0661ad)
+  /Users/system/syncrescendence-before-full/ (branch: codex/restore-pre-wipe, commit d0661ad)
 ```
 
 ---

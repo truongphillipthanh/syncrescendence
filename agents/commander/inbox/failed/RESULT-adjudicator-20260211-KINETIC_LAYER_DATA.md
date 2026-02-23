@@ -16,7 +16,7 @@
 2026-02-11T18:02:14.611495Z ERROR codex_core::codex: MCP client for `notion` failed to start: handshaking with MCP server failed: Send message error Transport [rmcp::transport::worker::WorkerTransport<rmcp::transport::streamable_http_client::StreamableHttpClientWorker<rmcp::transport::auth::AuthClient<reqwest::async_impl::client::Client>>>] error: Auth required, when send initialize request
 OpenAI Codex v0.46.0 (research preview)
 --------
-workdir: /Users/system/Desktop/syncrescendence
+workdir: /Users/system/syncrescendence
 model: gpt-5.3-codex
 provider: openai
 approval: never

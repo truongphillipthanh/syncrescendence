@@ -799,13 +799,13 @@ Phase 10 (Verification)      <- COMPLETE: all systems verified
 
 | Document | Path | Relevance |
 |----------|------|-----------|
-| SaaS Integration Architecture | `/Users/system/Desktop/syncrescendence/02-ENGINE/REF-SAAS_INTEGRATION_ARCHITECTURE.md` | Sections IV.B (Linear-Slack), IV.C (ClickUp-Slack), V.B (cross-post), XI (Slack playbook) |
-| MCP Bridge Architecture | `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-07-mcp-bridge-architecture.md` | Slack MCP server audit, bot token auth |
-| Psyche Machine Elucidation | `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-08-psyche-machine-elucidation.md` | DEC-PSYCHE-007 (twin coordination via Slack) |
-| Constellation Modus Operandi | `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-08-constellation-modus-operandi.md` | 4-agent always-on architecture, agent relay pattern |
-| MBA Ajna Setup | `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-09-mba-ajna-setup.md` | MBA OpenClaw config, @ajna existing setup |
-| Twin Coordination Protocol | `/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md` | Slack as primary inter-twin channel |
-| Stack Teleology | `/Users/system/Desktop/syncrescendence/02-ENGINE/REF-STACK_TELEOLOGY.md` | Slack disposition and teleological assignment |
+| SaaS Integration Architecture | `/Users/system/syncrescendence/02-ENGINE/REF-SAAS_INTEGRATION_ARCHITECTURE.md` | Sections IV.B (Linear-Slack), IV.C (ClickUp-Slack), V.B (cross-post), XI (Slack playbook) |
+| MCP Bridge Architecture | `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-07-mcp-bridge-architecture.md` | Slack MCP server audit, bot token auth |
+| Psyche Machine Elucidation | `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-08-psyche-machine-elucidation.md` | DEC-PSYCHE-007 (twin coordination via Slack) |
+| Constellation Modus Operandi | `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-08-constellation-modus-operandi.md` | 4-agent always-on architecture, agent relay pattern |
+| MBA Ajna Setup | `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-09-mba-ajna-setup.md` | MBA OpenClaw config, @ajna existing setup |
+| Twin Coordination Protocol | `/Users/system/syncrescendence/00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md` | Slack as primary inter-twin channel |
+| Stack Teleology | `/Users/system/syncrescendence/02-ENGINE/REF-STACK_TELEOLOGY.md` | Slack disposition and teleological assignment |
 
 ---
 

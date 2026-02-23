@@ -68,7 +68,7 @@ Per directive, Pool A files are never deleted. 5 rows in the manifest marked Poo
 | Pool | Location | .md files remaining |
 |------|----------|---------------------|
 | A (research) | `/Users/system/Desktop/research/` | 449 |
-| B (04-SOURCES) | `/Users/system/Desktop/syncrescendence/04-SOURCES/` | 123 |
+| B (04-SOURCES) | `/Users/system/syncrescendence/04-SOURCES/` | 123 |
 | C (NotebookLM) | `/Users/system/Desktop/NotebookLM Pipeline -Sources/` | 177 |
 | **Total** | | **749** |
 

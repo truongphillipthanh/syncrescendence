@@ -7,9 +7,9 @@
 **Status**: FAILED
 **Exit-Code**: 1
 **Completed-At**: 2026-02-16T19:13:09Z
-**Finalized-Task-Path**: `/Users/system/Desktop/syncrescendence/-INBOX/cartographer/50_FAILED/TASK-20260216-research_corpus_multipass_sensing.md`
-**Result-Path**: `/Users/system/Desktop/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260216-research_corpus_multipass_sensing.md`
-**Execution-Log**: `/Users/system/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-cartographer-20260216-research_corpus_multipass_sensing.log`
+**Finalized-Task-Path**: `/Users/system/syncrescendence/-INBOX/cartographer/50_FAILED/TASK-20260216-research_corpus_multipass_sensing.md`
+**Result-Path**: `/Users/system/syncrescendence/-OUTBOX/cartographer/RESULTS/RESULT-cartographer-20260216-research_corpus_multipass_sensing.md`
+**Execution-Log**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/EXECLOG-cartographer-20260216-research_corpus_multipass_sensing.log`
 
 ---
 

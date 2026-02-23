@@ -18,7 +18,7 @@ How do you want to handle these existing changes? Options:
 
 OpenAI Codex v0.101.0 (research preview)
 --------
-workdir: /Users/system/Desktop/syncrescendence
+workdir: /Users/system/syncrescendence
 model: gpt-5.2-codex
 provider: openai
 approval: never
@@ -117,7 +117,7 @@ mcp: linear ready
 mcp: notion ready
 mcp startup: ready: figma, linear, notion
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/Desktop/syncrescendence succeeded in 51ms:
+/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 51ms:
 === INBOX TRIAGE ===
 Time: 2026-02-16 10:59:48
 Stale threshold: 60 minutes
@@ -127,7 +127,7 @@ Stale threshold: 60 minutes
 thinking
 **Checking git status**
 exec
-/bin/zsh -lc 'git status --short' in /Users/system/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'git status --short' in /Users/system/syncrescendence succeeded in 52ms:
  D -INBOX/psyche/00-INBOX0/BRIEFING-20260209-constellation-reconfiguration.md
  D -INBOX/psyche/00-INBOX0/CONFIRM-adjudicator-20260211-install-hf-last-signal-skills.md
  D -INBOX/psyche/00-INBOX0/CONFIRM-ajna-20260211-install-hf-last-signal-skills.md
