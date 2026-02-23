@@ -8,24 +8,27 @@ cd "$REPO_ROOT"
 echo "=== Constellation Ingest Cycle $(date +%Y-%m-%d_%H:%M) ==="
 
 # 1. BOOT
-source <(echo "cd $REPO_ROOT; git pull --ff-only; make configs" | bash)
+git pull --ff-only 2>/dev/null || true
+make configs 2>/dev/null || true
 
 # 2. Scan all offices
 for office in agents/*/inbox/pending/*; do
   [ -f "$office" ] || continue
-  agent=$(basename "$(dirname "$(dirname "$office")")")
+  agent=$(basename "$(dirname "$(dirname "$(dirname "$office")")")")
+  filename=$(basename "$office")
+  active_path="agents/$agent/inbox/active/$filename"
   echo "Ingesting $office for $agent..."
 
   # Move to active/ per INIT.md
-  mv "$office" "agents/$agent/inbox/active/$(basename "$office")"
+  mv "$office" "$active_path"
 
   # Dispatch to Commander if Sovereign-tagged, else route via INTER-AGENT.md logic
-  if grep -q "SOVEREIGN" "$office"; then
-    cp "agents/$agent/inbox/active/$(basename "$office")" agents/commander/inbox/pending/
+  if grep -q "SOVEREIGN" "$active_path"; then
+    cp "$active_path" agents/commander/inbox/pending/
   else
     # Simple routing stub – extend with INTER-AGENT.md parse if needed
     echo "Handoff to Commander for triage"
-    cp "agents/$agent/inbox/active/$(basename "$office")" agents/commander/inbox/pending/
+    cp "$active_path" agents/commander/inbox/pending/
   fi
 done
 

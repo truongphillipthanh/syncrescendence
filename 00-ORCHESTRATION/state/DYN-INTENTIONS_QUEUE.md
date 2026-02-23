@@ -537,3 +537,7 @@
 - **2026-02-22 18:34:59** | `I have 3 sessions open that I want to merge into this commander ↔︎ oracle conversation, i've already sent your questions, please unify all sessions and point these questions to oracle, in addition to `
 
 - **2026-02-22 18:43:34** | `- Always attach task ID and receipt commit hash`
+
+- **2026-02-22 20:09:05** | `- Pre-compaction hook at 75 % context always fires before dispatch`
+
+- **2026-02-22 20:13:20** | `**Priority**: P0  `

@@ -9979,3 +9979,114 @@ none
 287 intention(s) captured by Intent Compass this session.
 
 ---
+
+## Session: 2026-02-22 20:06:18
+**Branch**: main | **Fingerprint**: a417a50c | **Commits**: 10
+
+### Commits
+```
+a417a50c feat: INT-2202+2203: unified harness, OpenClaw layer, path migration, 00-ORCH triage
+c69ba51a sync(ajna): inbox/outgoing sync from MBA [2026-02-23T04:05:23Z]
+212bcae9 feat: single-source config architecture — AGENTS.md master + make configs (INT-2201)
+944f5380 chore: auto-compact wisdom at threshold (10 entries)
+deb38ecc refactor: complete -INBOX/ → agents/ path migration across all tiers (INT-2201)
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+293 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-22 20:10:26
+**Branch**: main | **Fingerprint**: 9443fb6d | **Commits**: 10
+
+### Commits
+```
+9443fb6d feat: INT-2204: full per-agent INIT.md offices (5/5 agents)
+a417a50c feat: INT-2202+2203: unified harness, OpenClaw layer, path migration, 00-ORCH triage
+c69ba51a sync(ajna): inbox/outgoing sync from MBA [2026-02-23T04:05:23Z]
+212bcae9 feat: single-source config architecture — AGENTS.md master + make configs (INT-2201)
+944f5380 chore: auto-compact wisdom at threshold (10 entries)
+deb38ecc refactor: complete -INBOX/ → agents/ path migration across all tiers (INT-2201)
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+294 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-22 20:12:27
+**Branch**: main | **Fingerprint**: 7bcc3c2f | **Commits**: 10
+
+### Commits
+```
+7bcc3c2f feat: INT-2205: auto_ingest loop, dispatch template, weekly eval runbook
+9443fb6d feat: INT-2204: full per-agent INIT.md offices (5/5 agents)
+a417a50c feat: INT-2202+2203: unified harness, OpenClaw layer, path migration, 00-ORCH triage
+c69ba51a sync(ajna): inbox/outgoing sync from MBA [2026-02-23T04:05:23Z]
+212bcae9 feat: single-source config architecture — AGENTS.md master + make configs (INT-2201)
+944f5380 chore: auto-compact wisdom at threshold (10 entries)
+deb38ecc refactor: complete -INBOX/ → agents/ path migration across all tiers (INT-2201)
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+294 intention(s) captured by Intent Compass this session.
+
+---
