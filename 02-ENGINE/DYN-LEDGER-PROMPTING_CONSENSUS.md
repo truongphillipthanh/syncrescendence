@@ -24,4 +24,13 @@
 
 ## Entries
 
-> Awaiting Oracle (Grok) initial sensing pass. See `-SOVEREIGN/PROMPT-GROK-LIVE_LEDGER_SENSING.md` for the sensing directive.
+### [DOMAIN-008] Model Prompting Consensus — Feb 2026
+**Observed**: 2026-02-22 | **Source**: prompting literature 2026
+**Confidence**: HIGH
+**Freshness**: CURRENT
+**Tags**: #prompting
+
+Moved beyond pure CoT to role + constraint + receipt + clarescence-style refinement passes. Model-specific: Claude loves invariant-first; Gemini loves structured output.
+
+**Implications for Syncrescendence**: Rosetta Stone already encodes this—formalize as Syncrescript v2.
+**Cross-refs**: REF-ROSETTA_STONE.md.

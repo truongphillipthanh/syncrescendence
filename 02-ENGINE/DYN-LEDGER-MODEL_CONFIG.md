@@ -24,4 +24,13 @@
 
 ## Entries
 
-> Awaiting Oracle (Grok) initial sensing pass. See `-SOVEREIGN/PROMPT-GROK-LIVE_LEDGER_SENSING.md` for the sensing directive.
+### [DOMAIN-005] Model Config Consensus — Feb 2026
+**Observed**: 2026-02-22 | **Source**: practitioner threads, framework docs
+**Confidence**: HIGH
+**Freshness**: CURRENT
+**Tags**: #config #agentic
+
+Temperature 0.0–0.3 default for agentic; system prompts now role + invariant + receipt-gate patterns; tool-use via MCP emerging as standard.
+
+**Implications for Syncrescendence**: Our *-EXT.md thin extensions already embody this—add temperature lock in Makefile.
+**Cross-refs**: CLAUDE-EXT.md, GEMINI-EXT.md.

@@ -24,4 +24,13 @@
 
 ## Entries
 
-> Awaiting Oracle (Grok) initial sensing pass. See `-SOVEREIGN/PROMPT-GROK-LIVE_LEDGER_SENSING.md` for the sensing directive.
+### [DOMAIN-009] Context Engineering Consensus — Feb 2026
+**Observed**: 2026-02-22 | **Source**: RAG vs long-context papers
+**Confidence**: HIGH
+**Freshness**: CURRENT
+**Tags**: #context #RAG
+
+Long-context winning for most; RAG only where cost or precision demands; compaction via clarescence-style passes proven.
+
+**Implications for Syncrescendence**: Our file-first + daily logs already ahead—vector DBs losing to git.
+**Cross-refs**: ARCH-SCAFFOLD_ELUCIDATION.md.

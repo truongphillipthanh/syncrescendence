@@ -251,25 +251,86 @@ Every major platform now has some mechanism to view repositories:
 
 ---
 
-## Implementation Plan
+## Live Ticker Semantics (v1.1 — Sovereign Correction 2026-02-22)
 
-### Phase 1: Seed (this session)
-- [ ] Create all 12 DYN-LEDGER-*.md files with header + format template
-- [ ] Mine 04-SOURCES/research-notebooks/ for initial entries
-- [ ] Produce Grok sensing directive (for Oracle to execute)
+**The ledger is a TICKER, not a report.** Entries ACCUMULATE over time. They are APPENDED, not replaced. Staleness is VISIBLE. Drift between entries is DETECTABLE.
 
-### Phase 2: Populate (next 3 sessions)
-- [ ] Grok sensing pass across all 12 domains
-- [ ] Cartographer corpus survey of 04-SOURCES for extractable intelligence
-- [ ] Commander reconciliation with existing MODEL-*.yaml and DYN-*.csv
+### Ticker Rules
+1. **Append-only**: New entries are appended to the bottom of the `## Entries` section. Never delete or overwrite previous entries.
+2. **Timestamped**: Every entry has `**Observed**: YYYY-MM-DD`. Multiple entries on the same date are fine — they represent multiple sensing passes.
+3. **Entry IDs are sequential per domain**: `[DOMAIN-001]`, `[DOMAIN-002]`, etc. within each file. Never reuse an ID.
+4. **Freshness decays automatically**: Entries older than 7 days = AGING. Older than 30 days = STALE. Older than 90 days = EXPIRED.
+5. **Contradictions are signal**: If a new entry contradicts a previous entry, BOTH remain visible. The contradiction IS intelligence — it shows the field is shifting.
+6. **Cross-entry references**: New entries should reference previous entries they update, confirm, or contradict: `**Updates**: [DOMAIN-001]` or `**Contradicts**: [DOMAIN-003]`.
+7. **Source diversity**: Each domain should accumulate entries from MULTIPLE sources (Oracle, Cartographer, Commander, Sovereign). Monoculture sensing is blind.
 
-### Phase 3: Automate (next 2 weeks)
-- [ ] Weekly Grok sensing cadence via Sovereign
-- [ ] Monthly Cartographer corpus freshness sweep
-- [ ] Staleness detection script (flag entries >30 days old)
-- [ ] Cross-reference validation (entries must link to at least one existing doc)
+### Ticker vs. Snapshot (what we did wrong on first pass)
+| Aspect | Snapshot (wrong) | Ticker (correct) |
+|--------|-----------------|-------------------|
+| Update style | Replace content | Append new entry |
+| History | Lost on update | All entries preserved |
+| Staleness | Invisible | Visible via timestamps |
+| Contradictions | Overwritten | Both preserved as signal |
+| Cadence | One-time dump | Continuous accumulation |
+| Dashboard | Read the file | Generated SURFACE from entries |
 
-### Phase 4: Synapticate (ongoing)
+### Staleness Detection
+Script at `scripts/ledger_staleness.sh` (TODO) should:
+- Scan all DYN-LEDGER-*.md for entry dates
+- Flag domains with no entry <7 days old as STALE
+- Flag domains with no entry <30 days old as DEAD
+- Output to SURFACE-LIVE_LEDGER.md
+
+---
+
+## Scaffold Tightening Protocol (v1.1 — Sovereign Correction 2026-02-22)
+
+The scaffold elucidation (ARCH-SCAFFOLD_ELUCIDATION.md) was DESCRIPTIVE — "here's what exists." The Sovereign directive is PRESCRIPTIVE — "match this against consensus on the best way to organize, then TIGHTEN."
+
+### The Process
+1. **Oracle senses** → What does consensus say about how to organize AI agent repos? (Domain 12: Repo Epistemology)
+2. **Compare** → Our 00-ORCHESTRATION/state/ has ~80 files, many organic/adhoc. What does consensus say about operational state management?
+3. **Prescribe** → Produce a tightening plan: what to merge, what to archive, what to rename, what to restructure
+4. **Execute** → Commander implements, Adjudicator validates, Psyche enforces no-drift
+
+### Priority Target: 00-ORCHESTRATION/state/
+This directory is the "main culprit" — organic growth has produced:
+- Multiple ARCH-* files that may overlap or contradict
+- DYN-* files with unclear update cadence and ownership
+- impl/ subdirectories that may need promotion or archival
+- Potential for significant consolidation
+
+### The Consensus Gate
+No scaffold change is made without first checking: "What does the live ledger say about best practices for this?" The ledger feeds the tightening, not the other way around.
+
+---
+
+## Implementation Plan (Updated 2026-02-22)
+
+### Phase 1: Seed ✅ DONE
+- [x] Create all 12 DYN-LEDGER-*.md files with header + format template
+- [x] Produce Grok sensing directive
+- [x] Oracle initial sensing pass (12-domain snapshot ingested)
+
+### Phase 2: Live Ticker Activation (THIS SESSION)
+- [ ] Convert snapshot entries to ticker format (add sequential IDs, cross-refs)
+- [ ] Produce triangulation sensing directives (Oracle recon, Vanguard engineering, Diviner reasoning)
+- [ ] Memory architecture deep-dive (P0 per Sovereign)
+- [ ] Constellation avatar thesis (why each model got its role)
+
+### Phase 3: Scaffold Tightening (NEXT 3 SESSIONS)
+- [ ] Oracle senses repo epistemology consensus (focused probe, not landscape survey)
+- [ ] Audit 00-ORCHESTRATION/state/ against consensus
+- [ ] Produce prescriptive tightening plan
+- [ ] Execute tightening with full verification
+
+### Phase 4: Automate (next 2 weeks)
+- [ ] Staleness detection script (`scripts/ledger_staleness.sh`)
+- [ ] Weekly sensing cadence (Oracle + Cartographer)
+- [ ] SURFACE-LIVE_LEDGER.md dashboard generation
+- [ ] Cross-reference validation
+
+### Phase 5: Synapticate (ongoing)
 - [ ] Automated Grok→repo pipeline (when feasible)
-- [ ] Live Drive sync for Gemini Gems sensing
-- [ ] Dashboard surface (SURFACE-LIVE_LEDGER.md) for quick Sovereign review
+- [ ] MCP directive server (sovereign directive parser)
+- [ ] Chinese model integration for cost-tier bulk sensing
