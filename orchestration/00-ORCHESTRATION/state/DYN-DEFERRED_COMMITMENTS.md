@@ -58,8 +58,17 @@
 
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
-| DC-205 | Phase 2C | Sentence-by-sentence action on every file: canonical stays, stale archives, orphans wire or archive | P0 | OPEN | T1/T2 tightening (partial) done. Full decruft remains. |
-| DC-208 | Phase 2C | Source mining: extract unmined wisdom from sources/, flow through journal → memsync → Graphiti | P1 | OPEN | Sources <2% mined per Oracle/Diviner. Pipeline: sources → engine → praxis → canon. |
+| DC-205 | Phase 2C | Sentence-by-sentence action on every file: canonical stays, stale archives, orphans wire or archive | P0 | **DONE** | T1/T2 tightening + 4-lane decruft swarm (`5426d51c`). 32 files changed. |
+| DC-208 | Phase 2C | Source mining pipeline design — full triangulation playbook complete | P1 | **DESIGN DONE** | Second playbook cycle complete. 9 components engineered. Build phase next. |
+| DC-208-1 | Adjudicator | Triage script — Python, all-MiniLM-L6-v2, 520-680 LOC | P1 | **BUILD #1** | 9/10 feasibility. Unblocks everything. |
+| DC-208-2 | Adjudicator | Extraction template — 6-cat JSONL + chaperone metadata, 430-590 LOC | P1 | **BUILD #2** | 8/10 feasibility. Defines atom format. |
+| DC-208-5 | Adjudicator | Integration bridge — memsync extension + durable retry queue, 380-540 LOC | P1 | **BUILD #3** | 8/10 feasibility. Graphiti connection. |
+| DC-208-6 | Adjudicator | Quality gate — 4+1 gates + surprise×precision, 460-640 LOC | P1 | **BUILD #4** | 7/10 feasibility. Validates before scale. |
+| DC-208-3 | Adjudicator | Cluster engine — hybrid HDBSCAN + constrained K-means, 560-760 LOC | P1 | **BUILD #5** | 7/10 feasibility. REDESIGN from pure K-means. |
+| DC-208-4 | Adjudicator | Batch orchestrator — dispatch.sh integration, 300-420 LOC | P1 | **BUILD #6** | 8/10 feasibility. Scales after pilot. |
+| DC-208-8 | Adjudicator | Negative knowledge store — FAILED_PATH edges + decay, 220-320 LOC | P1 | **BUILD #7** | 8/10 feasibility. After component 5. |
+| DC-208-7 | Adjudicator | Lineage engine — memetic cladistics, 760-1080 LOC | P2 | **DEFER** | 6/10. After ≥50 mined sources. |
+| DC-208-9 | Adjudicator | Cyclical relevance model — DC-147 plugin, 260-420 LOC | P2 | **DEFER** | 5/10. After DC-147 + telemetry. |
 
 #### 2D — Triangulated Improvement (DC-206) — ⬜ AFTER 2C
 
@@ -142,6 +151,8 @@
 | DC-203 | Adjudicator praxis/ inspection | DONE | 2026-02-23 | Phase 2A |
 | DC-204 | Coherence synthesis (all sub-items) | DONE | 2026-02-23 | Phase 2B. First full playbook cycle. |
 | DC-207 | Architectural questions | RESOLVED | 2026-02-23 | Answered by DC-204T |
+| DC-205 | Content decruft | DONE | 2026-02-23 | Phase 2C. 4-lane swarm: orphans, clusters, MODEL-PROFILEs, staleness banners. |
+| DC-208 | Source mining pipeline design | DONE | 2026-02-23 | Phase 2C. Second full playbook cycle. 9 components engineered. |
 
 ---
 
@@ -163,11 +174,11 @@
 
 ## Metrics
 
-- **Total**: 51 commitments (19 DONE + 16 OPEN/BUILD + 10 PARKED + 4 SUPERSEDED + 2 DEFER)
-- **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B DONE, 2C+2D OPEN (12 items) | **Phase 3**: 6 OPEN | **Phase 4**: 9 items (2 P0, 5 P1/P2, 2 DEFER)
-- **Delivery rate**: 37% (19/51) — up from 14% at reset
+- **Total**: 60 commitments (21 DONE + 7 BUILD + 11 OPEN + 10 PARKED + 4 SUPERSEDED + 4 DEFER + 3 DESIGN DONE)
+- **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B DONE, 2C DESIGN DONE (7 BUILD + 2 DEFER pipeline components), 2D OPEN (8 items) | **Phase 3**: 6 OPEN | **Phase 4**: 9 items
+- **Delivery rate**: 35% (21/60) — new pipeline components added 9 items, but 2 more marked DONE
 - **Target**: >80% within 30 days
-- **Current position**: Phase 2C (content decruft + source mining)
+- **Current position**: Phase 2C → DC-208-1 (triage script BUILD)
 
 ---
 

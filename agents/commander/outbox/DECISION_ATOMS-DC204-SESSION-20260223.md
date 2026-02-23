@@ -156,7 +156,17 @@
 
 | Prompt | Target | Location | Status |
 |---|---|---|---|
-| DC-208 Source Mining Strategy | Oracle (Grok) | `engine/PROMPT-ORACLE-DC208_SOURCE_MINING_STRATEGY.md` + `~/Desktop/` | WRITTEN, AWAITING DISPATCH |
+| DC-208 Source Mining Strategy | Oracle (Grok) | `engine/PROMPT-ORACLE-DC208_SOURCE_MINING_STRATEGY.md` + `~/Desktop/` | DISPATCHED, RESPONSE INGESTED |
+| DC-208 Source Mining Synthesis | Diviner (Gemini) | `engine/PROMPT-DIVINER-DC208_SOURCE_MINING_SYNTHESIS.md` + `~/Desktop/` | DISPATCHED, RESPONSE INGESTED |
+| DC-208 Mining Pipeline Engineering | Adjudicator (Codex) | `engine/PROMPT-ADJUDICATOR-DC208_MINING_PIPELINE_ENGINEERING.md` + `~/Desktop/` | DISPATCHED, RESPONSE INGESTED |
+
+## Responses Ingested This Session (DC-208 Cycle)
+
+| Response | Source | Location | Status |
+|---|---|---|---|
+| Oracle DC-208 Source Mining Strategy | Grok 4.20β | `-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-DC208_SOURCE_MINING_STRATEGY.md` | INGESTED, COMPILED |
+| Diviner DC-208 Source Mining Synthesis | Gemini Pro 3.1 | `-INBOX/commander/00-INBOX0/RESPONSE-DIVINER-DC208_SOURCE_MINING_SYNTHESIS.md` | INGESTED, COMPILED |
+| Adjudicator DC-208 Mining Pipeline Engineering | Codex GPT-5.3 | `-INBOX/commander/00-INBOX0/RESPONSE-ADJUDICATOR-DC208_MINING_PIPELINE_ENGINEERING.md` | INGESTED |
 
 ## Artifacts Produced This Session (Updated)
 
@@ -164,3 +174,39 @@
 |---|---|---|
 | Phase 2C decruft commit | `5426d51c` | 3 orphans archived, 3 clusters consolidated, 6 MODEL-PROFILEs archived, 2 superseded marked, 8 staleness banners |
 | Oracle DC-208 prompt | `engine/PROMPT-ORACLE-DC208_SOURCE_MINING_STRATEGY.md` | Source mining strategy — begins playbook loop |
+| Diviner DC-208 prompt | `engine/PROMPT-DIVINER-DC208_SOURCE_MINING_SYNTHESIS.md` | Cross-disciplinary synthesis prompt |
+| Adjudicator DC-208 prompt | `engine/PROMPT-ADJUDICATOR-DC208_MINING_PIPELINE_ENGINEERING.md` | Pipeline engineering prompt |
+| Compiled schematic DC-208 | `agents/commander/outbox/RESULT-COMMANDER-DC208-COMPILED_SCHEMATIC.md` | Oracle+Diviner → 9 pipeline components |
+
+---
+
+## DC-208 Playbook Cycle — Decision Atoms
+
+### DA-18: Accept Adjudicator DC-208 Build Order (1→2→5→6→3→4→8→7→9)
+- **Context**: Adjudicator reviewed all 9 mining pipeline components with feasibility scores 5-9/10
+- **Decision**: Accept recommended build order as canonical. Critical path: 1→2→5→6→3→4
+- **Rationale**: Build order ensures no component starts without its inputs being available. Triage (1) unblocks everything. Extraction (2) defines atom format. Integration bridge (5) connects to Graphiti. Quality gate (6) validates before scaling. Cluster (3) + batch (4) enable scale
+- **Outcome**: Build order locked in deferred commitments
+
+### DA-19: Accept Component 3 REDESIGN Verdict (K-means → Hybrid HDBSCAN + Constrained K-means)
+- **Context**: Commander spec used pure K-means k=18. Adjudicator pushed back: "operationally convenient but not semantically robust"
+- **Decision**: Accept hybrid approach — HDBSCAN for natural clustering + constrained K-means for operational 18-cluster target
+- **Rationale**: Same pattern as DA-9 (Spec B redesign). Adjudicator provides implementation-level pushback with technical evidence. Secondary assignment table for azeotropes is elegant
+- **Precedent**: Reinforces "when Adjudicator pushes back with technical evidence, accept"
+
+### DA-20: Accept Components 7 and 9 DEFER Verdicts
+- **Context**: Lineage engine (7) scored 6/10, cyclical relevance (9) scored 5/10
+- **Decision**: Accept both deferrals. Component 7 waits for ≥50 mined sources. Component 9 integrates into DC-147 model router
+- **Rationale**: Lineage needs graph data that doesn't exist yet. Cyclical relevance needs usage telemetry that pipeline hasn't generated. Building either now is premature optimization
+- **Gate**: 7 unblocks after 50 sources mined. 9 unblocks after DC-147 + pipeline telemetry
+
+### DA-21: Second Full Playbook Cycle Complete (DC-208)
+- **Context**: DC-208 traversed Commander→Oracle(mining strategy)→Diviner(scientific overlay)→Commander(compiled schematic)→Adjudicator(pipeline engineering)
+- **Decision**: Mark second playbook cycle as validated. Pipeline design is complete — execution begins next
+- **Outcome**: 9 components: 6 BUILD, 1 REDESIGN, 2 DEFER. Total estimated LOC: ~3,890-5,050. Build order locked
+- **Key numbers from Adjudicator**: 1,773 sources, 233,213 lines, 33 files with non-standard frontmatter, 150 CSV rows with blank signal_tier
+
+### DA-22: Surprise × Precision Formula Accepted
+- **Context**: Adjudicator provided concrete formula for quality gate 5: `surprise = 0.6*novelty + 0.4*belief_violation`, `precision = 0.35*evidence + 0.25*reliability + 0.25*cross_support + 0.15*falsifiability`
+- **Decision**: Accept as initial calibration. Alert bands: ≥0.55 CRITICAL, 0.35-0.55 REVIEW, <0.35 IGNORE
+- **Rationale**: Formula is concrete, implementable, and the 0.88 consistency threshold is explicitly marked calibratable (recalibrate after first 50 sources against adjudicator labels via ROC/F1)
