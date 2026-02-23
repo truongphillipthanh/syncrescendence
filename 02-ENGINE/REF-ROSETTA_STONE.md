@@ -460,8 +460,8 @@ Significant community patterns without internal equivalents.
 
 | # | Term | Status | Definition | Community Equivalent |
 |---|------|--------|-----------|---------------------|
-| 72 | Oracle Session / Pedigree | UNIQUE | Strategic web-app sessions (numbered 0-13+); lineage enabling continuity | No equivalent |
-| 73 | Intention Archaeology | UNIQUE | Systematic extraction/tracking of Sovereign intentions across Oracles | No equivalent |
+| 72 | Council (fmr. Oracle Session) / Pedigree | UNIQUE | Strategic Sovereign+Commander sessions (Oracle 0-17 historical, Council 18+). NSC model: assess, decide, direct. "Oracle" sunsetted — now exclusively Grok's epithet. | No equivalent |
+| 73 | Intention Archaeology | UNIQUE | Systematic extraction/tracking of Sovereign intentions across Councils | No equivalent |
 | 74 | Context Graduation | UNIQUE | Promoting web-app conversation value into persistent repo artifacts | No equivalent |
 | 75 | Reinit Capsule | UNIQUE | Rehydration package for fresh thread re-initialization with full context | No equivalent |
 | 76 | Medley Mode | ALIGNED | Specialized prompts per platform, coordinated execution | Medley (community term) |

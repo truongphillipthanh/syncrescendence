@@ -1,15 +1,20 @@
 # INTENTION ARCHAEOLOGY COMPASS
-## Oracle Pedigree Extraction Instrument
-**Last Updated**: 2026-02-19
-**Oracle Lineage**: 0 → 15+
+## Council Pedigree Extraction Instrument
+**Last Updated**: 2026-02-22
+**Lineage**: Oracle 0–17 (historical) → Council 18+ (current)
 **Status**: Rolling snapshot
-**Authority**: Oracle 13+ / Commander
+**Authority**: Council 21 / Commander
+
+> **Terminology**: "Oracle" was sunsetted as a session term (now exclusively Grok's epithet).
+> Sessions 18+ are **Councils** — the National Security Council model:
+> Sovereign (President) + Commander (National Security Advisor) convene to assess, decide, direct.
+> Historical Oracle numbering (0–17) preserved as lineage markers.
 
 ---
 
 ## PURPOSE
 
-The Intention Archaeology Compass is a unified instrument that extracts, categorizes, and tracks Sovereign intentions across Oracle sessions. It serves as both:
+The Intention Archaeology Compass is a unified instrument that extracts, categorizes, and tracks Sovereign intentions across Council sessions. It serves as both:
 - **Cache**: Quick reference for active intentions
 - **Rolling Snapshot**: Historical record of intention evolution
 
@@ -24,13 +29,13 @@ Each intention entry contains:
 
 ```yaml
 - id: INT-XXXX
-  oracle: [origin Oracle number]
-  timestamp: [ISO datetime or Oracle reference]
+  council: [origin Council number (Oracle 0-17 for historical)]
+  timestamp: [ISO datetime or Council reference]
   category: [urgent|sprint|backlog|pattern|capture]
   priority: [P0|P1|P2|P3]
   status: [active|resolved|superseded|deferred]
   text: "[Sovereign's actual words]"
-  interpretation: "[Oracle's understanding]"
+  interpretation: "[Commander's understanding]"
   blocked_by: [null|dependency]
   integrated_into: [null|CANON/task/decision]
   notes: "[additional context]"
@@ -477,11 +482,11 @@ INT-P015 (dual-machine paradigm) ─────────► INT-1603, INT-16
 
 | Action | Frequency | Responsible |
 |--------|-----------|-------------|
-| Extract intentions | Every Oracle session | Active Oracle |
-| Categorize captures | Session checkpoint | Active Oracle |
-| Resolve completed | Immediately on completion | Executing instance |
-| Pattern analysis | Monthly | Any Oracle |
-| Archive old resolved | Quarterly | Any Oracle |
+| Extract intentions | Every Council session | Commander |
+| Categorize captures | Session checkpoint | Commander |
+| Resolve completed | Immediately on completion | Executing agent |
+| Pattern analysis | Monthly | Any Council |
+| Archive old resolved | Quarterly | Any Council |
 
 ---
 

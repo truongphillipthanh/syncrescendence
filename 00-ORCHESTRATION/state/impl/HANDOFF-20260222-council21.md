@@ -1,4 +1,4 @@
-# SESSION HANDOFF — Oracle 21 Culmination
+# SESSION HANDOFF — Council 21 Culmination
 **Date**: 2026-02-22 | **Agent**: Commander (Opus 4.6, MBA)
 **Fingerprint**: 84bb7163 | **Intention Compass**: v3.3.0
 
@@ -138,4 +138,4 @@ This bypasses the index lock machinery that triggers the timeout kill.
 
 ---
 
-**END HANDOFF — Oracle 21**
+**END HANDOFF — Council 21**
