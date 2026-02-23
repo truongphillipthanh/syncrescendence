@@ -1,9 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-135ac2c464d2c63ecc703f45b9328e41467d61e0 refs/heads/main
-96edf935dfeec4c9112faf12ada55a3a99a1d5be refs/heads/pre-nomenclature-backup
-5ea5ca9f23cb2172150e154fc36b7b14d45bfae7 refs/remotes/origin/main
-89f0ad0eeac41806068ac5ffa9d53bb4a1476e86 refs/stash
-21abaf7d4d0278f20d5ac2e965cc4421f02c1ad7 refs/tags/DIRECTIVE-024-POST
-8ad0dc6fe478c4f814c3aff647e4bb3fc32ac4ef refs/tags/DIRECTIVE-024-PRE
-a66bf41b628bda5c2b9eb8945f12256e0d92e85d refs/tags/pre-directive-030-20260101
-70cf01dba1000998b6d38f70460d86d9d6a81c19 refs/tags/pre-directive-031-20260101
