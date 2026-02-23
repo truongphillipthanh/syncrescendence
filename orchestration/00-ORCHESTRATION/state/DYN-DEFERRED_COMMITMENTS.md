@@ -64,7 +64,12 @@
 | DC-143 | ARCH-MEMORY_ARCHITECTURE Phase 3 | Cross-machine sync testing (MBA ↔ Mac mini via git + Graphiti) | P1 | OPEN | 2026-03-15 | |
 | DC-144 | Diviner MEMORY_ARCHITECTURE | Evaluate "Memory Agent" daemon (topological observer — the Sixth Agent) | P2 | OPEN | 2026-03-20 | Diviner's subconscious agent. PageRank, community detection over shared graph. |
 | DC-145 | Diviner ANTIFRAGILE_SCAFFOLD | Quarantine/limbo namespace for anomalous artifacts + promotion algorithm | P2 | OPEN | 2026-03-20 | Structural mutagenesis. Tracks desire paths. |
-| DC-146 | DC-123 gate | Execute numbered→semantic directory rename (ONLY after validate passes + memory works) | P2 | OPEN | 2026-03-20 | The rename that INT-2210 botched. This time: scaffold_validate PASSES first, memory persists the decision, rollback tested. |
+| DC-146 | DC-123 gate | Execute numbered→semantic directory rename (ONLY after validate passes + memory works) | P2 | SUPERSEDED | 2026-03-20 | SUPERSEDED by DC-204T Decision 1-3: sanctify numbered layers instead of renaming. Oracle evidence: 0 hardcoded refs to numbered prefixes across entire repo. |
+| DC-147 | Oracle DC-204E Rec 3 | Lightweight model router: R2-style reasoning prompt for model+budget selection before dispatch | P1 | OPEN | 2026-03-10 | Small effort. Maps to dispatch.sh. Demonstrated by R2-Router (arXiv 2602.02823). |
+| DC-148 | Oracle DC-204E Rec 5 | Auto knowledge graph view: weekly graph over praxis/canon with broken-link repair | P1 | OPEN | 2026-03-10 | Small effort. Script using existing prefix ontology. Demonstrated by Obsidian Bases + AI Canvas agents. |
+| DC-149 | Oracle DC-204E Rec 1 | AgentFS hybrid: SQLite under Markdown interface for ACID + audit while keeping Git versioning | P2 | OPEN | 2026-03-20 | Medium effort. Wrapper script + migration. Demonstrated by Turso AgentFS (Feb 2026). |
+| DC-150 | Oracle DC-204E Rec 4 | Git-native issue tracking (Beads pattern): replace ad-hoc outbox with Yegge-style work items + merge queues | P2 | OPEN | 2026-03-20 | Medium effort. Demonstrated by Gas Town / Beads (Steve Yegge, Jan 2026). |
+| DC-151 | Oracle DC-204E Rec 2 | Constitutional evolution loop: simulation-optimized rule discovery for AGENTS.md | P2 | OPEN | 2026-03-25 | Large effort. Simulation harness + validation. Demonstrated by arXiv 2602.00755. |
 
 ---
 
@@ -117,8 +122,8 @@ This is the rule that prevents the INT-2210 pattern: running rename before valid
 
 ## Metrics
 
-- **Total**: 27 commitments (16 active + 10 parked + 1 superseded batch)
-- **Phase 0**: 3 OPEN | **Phase 1**: 4 OPEN | **Phase 2**: 5 OPEN | **Phase 3**: 6 OPEN | **Phase 4**: 7 OPEN
+- **Total**: 32 commitments (20 active + 10 parked + 2 superseded)
+- **Phase 0**: 3 OPEN | **Phase 1**: 4 OPEN | **Phase 2**: 5 OPEN | **Phase 3**: 6 OPEN | **Phase 4**: 12 OPEN (5 new from Oracle DC-204E)
 - **Delivery rate at reset**: 14% (unchanged — this is what we're fixing)
 - **Target delivery rate**: >80% within 30 days
 
