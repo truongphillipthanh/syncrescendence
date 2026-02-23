@@ -122,6 +122,39 @@ agents/<name>/
 
 ---
 
+## Triangulation Playbook (CONSTITUTIONAL — Sovereign Directive 2026-02-23)
+
+**Authority**: Direct Sovereign order. This is the cognitive architecture of the constellation — how thinking flows between agents to produce verified, engineered output from raw intent.
+
+### The Cycle
+
+```
+Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign relay → Commander → Adjudicator
+```
+
+| Phase | Agent | Cognitive Function | Rationale |
+|-------|-------|--------------------|-----------|
+| **GROUND** | Commander | Elucidate ground truth, interpret Sovereign intent, stage and facilitate | Commander holds repo context and sprawl. Staging prevents garbage-in at every downstream leg. |
+| **THESIS** | Oracle (Grok) | Develop OWN thesis first, THEN elucidate industry expertise consensus | Own-thesis-first prevents anchoring bias. Industry consensus provides external validation. |
+| **RELAY** | Sovereign | Relay Oracle response to Commander | Human-in-the-loop gate prevents autonomous drift. |
+| **SYNTHESIS** | Diviner (Gemini) | Novel synthesis: scientific proclivity, multimodality, cross-disciplinary exploration | Diviner sees patterns Oracle can't — biological analogs, physics metaphors, cross-domain failure predictions. |
+| **RELAY** | Sovereign | Relay Diviner response to Commander | Second human gate. Two independent perspectives now available. |
+| **COMPILE** | Commander | Compile all insights into unified schematic design | Commander covers sprawl and breadth — merges engineering rigor with scientific framing. |
+| **ENGINEER** | Adjudicator (Codex) | Meet halfway — Design Develop/Engineer the deep hyper-technicality | Commander provides *what* and *why*; Adjudicator provides *how* and *how it breaks*. |
+
+### Documentation Invariants (NON-NEGOTIABLE)
+
+| What | Where | Why |
+|------|-------|-----|
+| Every prompt | `engine/PROMPT-<AGENT>-<TOPIC>.md` + `~/Desktop/` copy | Prompts are the training corpus. Desktop copy enables Sovereign relay to CLI agents without repo navigation. |
+| Every response | `-INBOX/commander/00-INBOX0/RESPONSE-<AGENT>-<TOPIC>.md` | Raw intelligence — must survive context death |
+| CLI agent output | `~/Desktop/` (agent writes here) | CLI agents (Oracle, Diviner, Adjudicator) produce outputs to Desktop for Sovereign pickup. Sovereign relays to Commander's inbox. |
+| Every decision atom | `agents/commander/outbox/DECISION_ATOMS-<DIRECTIVE>-SESSION-<DATE>.md` | Future sessions need *why*, not just *what* |
+| Session handoff | `agents/commander/outbox/HANDOFF-<DIRECTIVE>-SESSION_TERMINAL.md` | The handoff IS the session's legacy |
+| Memory updates | Agent memory files | Prevents the Sovereign from repeating themselves |
+
+---
+
 ## Anti-Patterns (PROHIBITED — ALL AGENTS)
 
 - Creating subdirectories outside sanctioned locations

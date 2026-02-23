@@ -84,3 +84,37 @@
 |---|---|---|---|
 | Oracle DC-204E Industry Consensus | Grok 4.20β | `-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-INDUSTRY_CONSENSUS_SCAFFOLD.md` | INGESTED, COMPILED |
 | Diviner DC-204D Industry Synthesis | Gemini Pro 3.1 | `-INBOX/commander/00-INBOX0/RESPONSE-DIVINER-INDUSTRY_SYNTHESIS.md` | INGESTED, COMPILED |
+| Adjudicator DC-204 Engineering Review | Codex GPT-5.3 | `-INBOX/commander/00-INBOX0/RESPONSE-ADJUDICATOR-DC204_ENGINEERING_REVIEW.md` | INGESTED |
+
+---
+
+## Adjudicator Ingestion — Decision Atoms (Continuation)
+
+### DA-8: Accept Adjudicator Build Order (A→D→B→C→E)
+- **Context**: Adjudicator reviewed all 5 specs and recommended: Model Router first, then Git-Native Tracking, then Knowledge Graph (redesigned), then AgentFS (deferred), then Evolution (deferred)
+- **Decision**: Accept as-is. This matches Commander's prior recommendation (DA-7) with one upgrade: Spec B redesigned from bash/jq to Python core
+- **Rationale**: Adjudicator's reasoning is sound — D must precede C because task identity/path normalization is prerequisite for DB sync. B needs Python for graph analytics at 3674 markdown files. E needs telemetry from A/D/C before it can score fitness
+- **Outcome**: Build order locked. Deferred commitments updated accordingly
+
+### DA-9: Accept Spec B REDESIGN Verdict (bash→Python)
+- **Context**: Commander specified "pure bash/jq" constraint for knowledge graph. Adjudicator pushed back: fuzzy matching, cycle detection, and transport gap analysis are unreliable in bash at 825+ files
+- **Decision**: Accept redesign. Python core with bash wrapper for cron/manual invocation
+- **Rationale**: Adjudicator is right — difflib/Levenshtein for fuzzy repair suggestions, SCC detection for cycles, and streaming parser for memory pressure all justify Python. bash/jq was an under-specified constraint from Commander's compilation
+- **Precedent**: When Adjudicator pushes back on implementation constraints with technical evidence, accept unless there's a constitutional reason not to
+
+### DA-10: Accept Spec C DEFER Verdict
+- **Context**: Commander had AgentFS as third in build order. Adjudicator deferred it behind D (git-native tracking)
+- **Decision**: Accept. C depends on D for task identity and stable path canonicalization
+- **Rationale**: Adjudicator identified real dependency: the dual inbox paths (`-INBOX/*` vs `agents/*/inbox/*`) and absence of git hooks mean AgentFS sync would be fragile. Hardening task identity (D) first gives C a stable substrate
+- **Key insight from Adjudicator**: "no active Git hooks are installed in `.git/hooks`" — this is a gap that D addresses
+
+### DA-11: Sear Triangulation Playbook into Constitutional Law
+- **Context**: Sovereign articulated the playbook verbatim for the second time
+- **Decision**: Seared into AGENTS.md and CLAUDE.md as constitutional section with rationale per phase
+- **Rationale**: Sovereign should never need to repeat a directive. Constitutional placement means every agent session inherits it at init. Added documentation invariants, CLI agent Desktop output convention, and session start protocol
+- **Outcome**: Committed as `cd1bca9b`
+
+### DA-12: First Full Playbook Cycle Complete
+- **Context**: DC-204 traversed Commander→Oracle(DC-204E)→Diviner(DC-204D)→Commander(compilation)→Adjudicator(engineering review)
+- **Decision**: Mark playbook cycle as validated. This is the reference implementation for all future cycles
+- **Outcome**: 5 specs engineered, 2 BUILD, 1 REDESIGN, 2 DEFER. Build order locked. All artifacts saved per documentation invariants

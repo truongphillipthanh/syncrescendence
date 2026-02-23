@@ -65,11 +65,11 @@
 | DC-144 | Diviner MEMORY_ARCHITECTURE | Evaluate "Memory Agent" daemon (topological observer — the Sixth Agent) | P2 | OPEN | 2026-03-20 | Diviner's subconscious agent. PageRank, community detection over shared graph. |
 | DC-145 | Diviner ANTIFRAGILE_SCAFFOLD | Quarantine/limbo namespace for anomalous artifacts + promotion algorithm | P2 | OPEN | 2026-03-20 | Structural mutagenesis. Tracks desire paths. |
 | DC-146 | DC-123 gate | Execute numbered→semantic directory rename (ONLY after validate passes + memory works) | P2 | SUPERSEDED | 2026-03-20 | SUPERSEDED by DC-204T Decision 1-3: sanctify numbered layers instead of renaming. Oracle evidence: 0 hardcoded refs to numbered prefixes across entire repo. |
-| DC-147 | Oracle DC-204E Rec 3 | Lightweight model router: R2-style reasoning prompt for model+budget selection before dispatch | P1 | OPEN | 2026-03-10 | Small effort. Maps to dispatch.sh. Demonstrated by R2-Router (arXiv 2602.02823). |
-| DC-148 | Oracle DC-204E Rec 5 | Auto knowledge graph view: weekly graph over praxis/canon with broken-link repair | P1 | OPEN | 2026-03-10 | Small effort. Script using existing prefix ontology. Demonstrated by Obsidian Bases + AI Canvas agents. |
-| DC-149 | Oracle DC-204E Rec 1 | AgentFS hybrid: SQLite under Markdown interface for ACID + audit while keeping Git versioning | P2 | OPEN | 2026-03-20 | Medium effort. Wrapper script + migration. Demonstrated by Turso AgentFS (Feb 2026). |
-| DC-150 | Oracle DC-204E Rec 4 | Git-native issue tracking (Beads pattern): replace ad-hoc outbox with Yegge-style work items + merge queues | P2 | OPEN | 2026-03-20 | Medium effort. Demonstrated by Gas Town / Beads (Steve Yegge, Jan 2026). |
-| DC-151 | Oracle DC-204E Rec 2 | Constitutional evolution loop: simulation-optimized rule discovery for AGENTS.md | P2 | OPEN | 2026-03-25 | Large effort. Simulation harness + validation. Demonstrated by arXiv 2602.00755. |
+| DC-147 | Oracle DC-204E Rec 3 + Adjudicator | Lightweight model router: salience-gated routing with fail-open dispatch integration | P1 | **BUILD** | 2026-03-10 | Adjudicator: BUILD 9/10, S complexity, 220-320 LOC. Build order: #1. Bash v1 sufficient. |
+| DC-148 | Oracle DC-204E Rec 5 + Adjudicator | Auto knowledge graph: Python core + bash wrapper, JSON-first, fuzzy repair, cycle detection | P1 | **REDESIGN→BUILD** | 2026-03-10 | Adjudicator: REDESIGN 7/10, M complexity, 420-620 LOC. Build order: #3. Bash/jq→Python for reliability at 3674 files. |
+| DC-149 | Oracle DC-204E Rec 1 + Adjudicator | AgentFS hybrid: SQLite shadow mode, incremental sync, patrol invariant | P2 | **DEFER** | 2026-03-20 | Adjudicator: DEFER 6/10, L complexity, 750-1050 LOC. Build order: #4. Blocked by DC-150 (task identity) + path canonicalization. |
+| DC-150 | Oracle DC-204E Rec 4 + Adjudicator | Git-native tracking (Beads): trailer convention, commit wrapper, incremental index | P1 | **BUILD** | 2026-03-15 | Adjudicator: BUILD 8/10, M complexity, 480-720 LOC. Build order: #2. Prerequisite for DC-149. |
+| DC-151 | Oracle DC-204E Rec 2 + Adjudicator | Constitutional evolution: offline replay MVP only, no auto-merge, Sovereign veto required | P2 | **DEFER** | 2026-03-25 | Adjudicator: DEFER 3/10, L complexity, 900-1400 LOC. Build order: #5. Needs telemetry from A/D/C. |
 
 ---
 

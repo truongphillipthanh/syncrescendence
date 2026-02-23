@@ -124,7 +124,7 @@ agents/<name>/
 
 ## Triangulation Playbook (CONSTITUTIONAL — Sovereign Directive 2026-02-23)
 
-**Authority**: Direct Sovereign order. This is the cognitive architecture of the constellation — how thinking flows between agents to produce verified, engineered output from raw intent. Violation is a coordination failure.
+**Authority**: Direct Sovereign order. This is the cognitive architecture of the constellation — how thinking flows between agents to produce verified, engineered output from raw intent.
 
 ### The Cycle
 
@@ -134,37 +134,24 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 
 | Phase | Agent | Cognitive Function | Rationale |
 |-------|-------|--------------------|-----------|
-| **GROUND** | Commander | Elucidate ground truth, interpret Sovereign intent, stage and facilitate | Commander holds repo context and sprawl. No other agent sees the full picture. Staging prevents garbage-in at every downstream leg. |
-| **THESIS** | Oracle (Grok) | Develop OWN thesis first, THEN elucidate industry expertise consensus | Own-thesis-first prevents anchoring bias. Industry consensus second provides external validation. Oracle's low hallucination rate and high effort make it the trusted first-mover. |
-| **RELAY** | Sovereign | Relay Oracle response to Commander | Human-in-the-loop gate. Sovereign filters, annotates, redirects. Prevents autonomous drift. |
-| **SYNTHESIS** | Diviner (Gemini) | Novel synthesis: scientific proclivity, multimodality, cross-disciplinary exploration | Diviner sees patterns Oracle can't — biological analogs, physics metaphors, failure mode predictions from other domains. HIGH creative value, LOW per-file reliability. |
-| **RELAY** | Sovereign | Relay Diviner response to Commander | Second human gate. Two independent perspectives now available for compilation. |
-| **COMPILE** | Commander | Compile all insights into unified schematic design | Commander covers sprawl and breadth — merges Oracle's engineering rigor with Diviner's scientific framing into specs an engineer can build against. |
-| **ENGINEER** | Adjudicator (Codex) | Meet halfway — Design Develop/Engineer the deep hyper-technicality | Adjudicator's strength is precise implementation. "Meet halfway" means Commander provides the *what* and *why*; Adjudicator provides the *how* and *how it breaks*. |
+| **GROUND** | Commander | Elucidate ground truth, interpret Sovereign intent, stage and facilitate | Commander holds repo context and sprawl. Staging prevents garbage-in at every downstream leg. |
+| **THESIS** | Oracle (Grok) | Develop OWN thesis first, THEN elucidate industry expertise consensus | Own-thesis-first prevents anchoring bias. Industry consensus provides external validation. |
+| **RELAY** | Sovereign | Relay Oracle response to Commander | Human-in-the-loop gate prevents autonomous drift. |
+| **SYNTHESIS** | Diviner (Gemini) | Novel synthesis: scientific proclivity, multimodality, cross-disciplinary exploration | Diviner sees patterns Oracle can't — biological analogs, physics metaphors, cross-domain failure predictions. |
+| **RELAY** | Sovereign | Relay Diviner response to Commander | Second human gate. Two independent perspectives now available. |
+| **COMPILE** | Commander | Compile all insights into unified schematic design | Commander covers sprawl and breadth — merges engineering rigor with scientific framing. |
+| **ENGINEER** | Adjudicator (Codex) | Meet halfway — Design Develop/Engineer the deep hyper-technicality | Commander provides *what* and *why*; Adjudicator provides *how* and *how it breaks*. |
 
 ### Documentation Invariants (NON-NEGOTIABLE)
 
-These exist because context dies between sessions. The only defense against amnesia is meticulous, mechanical record-keeping.
-
 | What | Where | Why |
 |------|-------|-----|
-| Every prompt to any agent | `engine/PROMPT-<AGENT>-<TOPIC>.md` + `~/Desktop/` copy | Prompts are the training corpus for playbook refinement. Desktop copy enables Sovereign relay without repo navigation. |
-| Every response from any agent | `-INBOX/commander/00-INBOX0/RESPONSE-<AGENT>-<TOPIC>.md` | Responses are the raw intelligence. Must be committed to survive context death. |
-| CLI agent output | `~/Desktop/` (agent writes here) | CLI agents (Oracle, Diviner, Adjudicator) produce outputs to Desktop for Sovereign pickup. Sovereign relays to Commander's inbox. This is the physical handoff point between CLI agents and the repo. |
-| Every decision atom | `agents/commander/outbox/DECISION_ATOMS-<DIRECTIVE>-SESSION-<DATE>.md` | Decisions without rationale are opaque. Future sessions need to know *why*, not just *what*. |
-| Session handoff | `agents/commander/outbox/HANDOFF-<DIRECTIVE>-SESSION_TERMINAL.md` | The handoff IS the session's legacy. Without it, the next session starts blind. |
-| Compiled outputs | `agents/commander/outbox/RESULT-COMMANDER-<DIRECTIVE>-<TOPIC>.md` | Commander's synthesis is the value-add — raw intel is noise without compilation. |
-| Memory updates | Commander memory files (auto-memory + `playbook-triangulation.md`) | Patterns confirmed across sessions graduate to memory. Memory prevents the Sovereign from repeating themselves. |
-
-### Session Start Protocol
-
-New Commander sessions MUST execute this sequence before any work. Rationale: the handoff file and deferred commitments ARE the session's starting context. Without them, Commander operates on stale or empty state.
-
-1. Read `playbook-triangulation.md` (this protocol)
-2. Read most recent `HANDOFF-*` in `agents/commander/outbox/`
-3. Read `orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md`
-4. Scan `agents/commander/inbox/pending/` for new items
-5. Resume from handoff state — **zero context loss permitted**
+| Every prompt | `engine/PROMPT-<AGENT>-<TOPIC>.md` + `~/Desktop/` copy | Prompts are the training corpus. Desktop copy enables Sovereign relay to CLI agents without repo navigation. |
+| Every response | `-INBOX/commander/00-INBOX0/RESPONSE-<AGENT>-<TOPIC>.md` | Raw intelligence — must survive context death |
+| CLI agent output | `~/Desktop/` (agent writes here) | CLI agents (Oracle, Diviner, Adjudicator) produce outputs to Desktop for Sovereign pickup. Sovereign relays to Commander's inbox. |
+| Every decision atom | `agents/commander/outbox/DECISION_ATOMS-<DIRECTIVE>-SESSION-<DATE>.md` | Future sessions need *why*, not just *what* |
+| Session handoff | `agents/commander/outbox/HANDOFF-<DIRECTIVE>-SESSION_TERMINAL.md` | The handoff IS the session's legacy |
+| Memory updates | Agent memory files | Prevents the Sovereign from repeating themselves |
 
 ---
 
