@@ -126,12 +126,20 @@ CREATE TABLE IF NOT EXISTS retry_queue (
     attempts        INTEGER NOT NULL DEFAULT 0,
     next_attempt_at TEXT NOT NULL,
     last_error      TEXT DEFAULT NULL,
-    created_at      TEXT NOT NULL
+    created_at      TEXT NOT NULL,
+    status          TEXT NOT NULL DEFAULT 'pending'
 );
 """
 
 _CREATE_INDEX_SQL = """
 CREATE INDEX IF NOT EXISTS idx_retry_next ON retry_queue(next_attempt_at);
+"""
+
+_CREATE_SENT_TABLE_SQL = """
+CREATE TABLE IF NOT EXISTS sent_records (
+    idempotency_key TEXT PRIMARY KEY,
+    sent_at         TEXT NOT NULL
+);
 """
 
 
@@ -143,13 +151,23 @@ def _init_db(db_path: str) -> sqlite3.Connection:
     conn.execute("PRAGMA journal_mode=WAL;")
     conn.execute(_CREATE_TABLE_SQL)
     conn.execute(_CREATE_INDEX_SQL)
+    conn.execute(_CREATE_SENT_TABLE_SQL)
+    # Migrate: add status column if missing (existing DBs)
+    try:
+        conn.execute("SELECT status FROM retry_queue LIMIT 1")
+    except sqlite3.OperationalError:
+        conn.execute("ALTER TABLE retry_queue ADD COLUMN status TEXT NOT NULL DEFAULT 'pending'")
     conn.commit()
     return conn
 
 
 def _backoff_seconds(attempt: int) -> float:
-    """Exponential backoff with jitter: 5, 15, 45, ... capped at 30 min."""
-    base = BACKOFF_BASE_S * (3 ** attempt)
+    """Exponential backoff with jitter: 5, 15, 45, ... capped at 30 min.
+
+    attempt is 1-based (first retry = attempt 1), so we use (attempt - 1)
+    as the exponent to yield 5s, 15s, 45s, ...
+    """
+    base = BACKOFF_BASE_S * (3 ** max(attempt - 1, 0))
     capped = min(base, BACKOFF_MAX_S)
     jitter = random.uniform(0, capped * 0.2)
     return capped + jitter
@@ -346,7 +364,16 @@ def enqueue_for_graphiti(
         target = d.get("target_atom_id", d.get("source_id", rec_uuid))
         idem_key = idempotency_key(rec_uuid, rel_type, target)
 
-        # Check for duplicate
+        # Check if already successfully sent
+        sent_row = conn.execute(
+            "SELECT idempotency_key FROM sent_records WHERE idempotency_key = ?",
+            (idem_key,),
+        ).fetchone()
+        if sent_row:
+            result.skipped_duplicate += 1
+            continue
+
+        # Check if already in retry queue
         row = conn.execute(
             "SELECT idempotency_key FROM retry_queue WHERE idempotency_key = ?",
             (idem_key,),
@@ -358,6 +385,12 @@ def enqueue_for_graphiti(
         if healthy:
             try:
                 _send_record_to_graphiti(graphiti_base, rec)
+                # Record successful send for idempotency
+                conn.execute(
+                    "INSERT OR IGNORE INTO sent_records (idempotency_key, sent_at) VALUES (?, ?)",
+                    (idem_key, _now_iso()),
+                )
+                conn.commit()
                 result.enqueued += 1
                 log.info("Sent %s (%s) to Graphiti", rec_uuid, d.get("record_type"))
                 continue
@@ -402,12 +435,23 @@ def drain_retry_queue(
     conn = _init_db(retry_db)
 
     now = _now_iso()
+
+    # Use BEGIN IMMEDIATE to prevent concurrent drains from selecting the same rows
+    conn.execute("BEGIN IMMEDIATE")
     rows = conn.execute(
         "SELECT idempotency_key, payload, attempts, last_error "
-        "FROM retry_queue WHERE next_attempt_at <= ? "
+        "FROM retry_queue WHERE next_attempt_at <= ? AND status = 'pending' "
         "ORDER BY next_attempt_at ASC LIMIT ?",
         (now, max_attempts),
     ).fetchall()
+
+    # Claim rows by setting status to in_flight
+    for idem_key, _, _, _ in rows:
+        conn.execute(
+            "UPDATE retry_queue SET status = 'in_flight' WHERE idempotency_key = ?",
+            (idem_key,),
+        )
+    conn.commit()
 
     dead_letters: List[Dict[str, Any]] = []
 
@@ -457,7 +501,12 @@ def drain_retry_queue(
             last_error = str(e)
 
         if success:
+            # Delete from retry queue and record as sent for idempotency
             conn.execute("DELETE FROM retry_queue WHERE idempotency_key = ?", (idem_key,))
+            conn.execute(
+                "INSERT OR IGNORE INTO sent_records (idempotency_key, sent_at) VALUES (?, ?)",
+                (idem_key, _now_iso()),
+            )
             result.succeeded += 1
             log.info("Retry succeeded: %s", idem_key[:16])
         else:
@@ -479,8 +528,8 @@ def drain_retry_queue(
                     time.time() + backoff, tz=timezone.utc
                 ).isoformat()
                 conn.execute(
-                    "UPDATE retry_queue SET attempts = ?, next_attempt_at = ?, last_error = ? "
-                    "WHERE idempotency_key = ?",
+                    "UPDATE retry_queue SET attempts = ?, next_attempt_at = ?, last_error = ?, "
+                    "status = 'pending' WHERE idempotency_key = ?",
                     (new_attempts, next_at, last_error, idem_key),
                 )
                 result.retried += 1
@@ -530,7 +579,7 @@ def health_report(retry_db: str, dlq_path: str = DEFAULT_DLQ_PATH) -> Dict[str, 
         conn = sqlite3.connect(retry_db)
         total = conn.execute("SELECT COUNT(*) FROM retry_queue").fetchone()[0]
         stuck = conn.execute(
-            "SELECT COUNT(*) FROM retry_queue WHERE attempts >= ?",
+            "SELECT COUNT(*) FROM retry_queue WHERE attempts >= ? AND status = 'pending'",
             (MAX_DEAD_LETTER_ATTEMPTS // 2,),
         ).fetchone()[0]
         conn.close()

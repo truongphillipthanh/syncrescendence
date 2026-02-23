@@ -266,7 +266,17 @@ def select_retest_candidates(
     quota randomly from the rest.
     """
     now = datetime.now(timezone.utc)
-    active = [r for r in records if not r.rehabilitated]
+    active = []
+    for r in records:
+        if r.rehabilitated:
+            continue
+        if r.expires_at is not None:
+            try:
+                if datetime.fromisoformat(r.expires_at) < now:
+                    continue
+            except ValueError:
+                pass
+        active.append(r)
     if not active:
         return []
 
@@ -295,20 +305,28 @@ def select_retest_candidates(
 
 
 def to_memsync_record(failure: FailureRecord) -> dict:
-    """Convert a FailureRecord to a memsync-compatible dict."""
+    """Convert a FailureRecord to a memsync-compatible FailurePheromoneRecord dict."""
+    # Deterministic UUID from failure_id
+    uuid = hashlib.sha256(failure.failure_id.encode()).hexdigest()[:32]
+    confidence = failure.decayed_confidence if failure.decayed_confidence is not None else failure.confidence
     return {
         "record_type": MEMSYNC_RECORD_TYPE,
-        "record_id": failure.failure_id,
+        "schema_version": "1.0.0",
+        "uuid": uuid,
+        "timestamp": failure.created_at,
         "source_id": failure.source_id,
-        "hypothesis_id": failure.hypothesis_id,
-        "failure_class": failure.failure_class,
-        "confidence": failure.decayed_confidence or failure.confidence,
-        "context_scope": failure.context_scope,
-        "evidence": failure.evidence,
-        "created_at": failure.created_at,
-        "expires_at": failure.expires_at,
-        "retest_after": failure.retest_after,
-        "rehabilitated": failure.rehabilitated,
+        "stage": failure.failure_class,
+        "error": failure.evidence,
+        "severity": "warning",
+        "metadata": {
+            "failure_id": failure.failure_id,
+            "hypothesis_id": failure.hypothesis_id,
+            "confidence": confidence,
+            "context_scope": failure.context_scope,
+            "expires_at": failure.expires_at,
+            "retest_after": failure.retest_after,
+            "rehabilitated": failure.rehabilitated,
+        },
     }
 
 
@@ -321,7 +339,7 @@ def to_graphiti_edge(failure: FailureRecord) -> dict:
         "target_node": failure.failure_id,
         "metadata": {
             "failure_class": failure.failure_class,
-            "confidence": failure.decayed_confidence or failure.confidence,
+            "confidence": failure.decayed_confidence if failure.decayed_confidence is not None else failure.confidence,
             "context_scope": failure.context_scope,
             "expires_at": failure.expires_at,
             "retest_after": failure.retest_after,

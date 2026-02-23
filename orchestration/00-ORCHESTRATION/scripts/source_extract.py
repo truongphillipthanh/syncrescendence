@@ -20,7 +20,9 @@ import os
 import re
 import sys
 import hashlib
+import uuid as _uuid_mod
 from dataclasses import dataclass, field, asdict
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable, Optional
 
@@ -215,15 +217,48 @@ def parse_source_file(path: Path) -> tuple[str, str, list[str]]:
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
 
-    # Extract frontmatter
+    # Extract frontmatter — handles both fenced (---) and bare YAML blocks.
+    # Bare frontmatter: first 4KB scanned for YAML-like key: value lines before
+    # any markdown content (heading, blank line, or non-YAML line terminates).
     frontmatter = ""
     body_start = 0
+
     if lines and lines[0].strip() == "---":
+        # Fenced frontmatter
         for i, line in enumerate(lines[1:], start=1):
             if line.strip() == "---":
                 frontmatter = "\n".join(lines[1:i])
                 body_start = i + 1
                 break
+    else:
+        # Bare (unfenced) frontmatter detection — scan first 4KB
+        _YAML_KEY_RE = re.compile(r"^[a-zA-Z_][a-zA-Z0-9_-]*\s*:")
+        char_budget = 4096
+        bare_end = 0
+        chars_seen = 0
+        for idx, line in enumerate(lines):
+            chars_seen += len(line) + 1
+            if chars_seen > char_budget:
+                break
+            stripped = line.strip()
+            if not stripped:
+                # blank line terminates bare frontmatter
+                bare_end = idx
+                break
+            if stripped.startswith("#"):
+                # heading = content, not frontmatter
+                break
+            if _YAML_KEY_RE.match(stripped):
+                bare_end = idx + 1
+                continue
+            # Non-YAML line → stop
+            break
+        if bare_end > 0:
+            frontmatter = "\n".join(lines[:bare_end])
+            body_start = bare_end
+            # Skip a single blank line separator after bare frontmatter
+            if body_start < len(lines) and not lines[body_start].strip():
+                body_start += 1
 
     # Extract source_id from frontmatter
     source_id = ""
@@ -418,13 +453,25 @@ def extract_atoms_from_chunk(
             tv = (tv + [0.0] * 6)[:6]
         chaperone.tension_vector = [max(0.0, min(1.0, v)) for v in tv]
 
+        # Clamp provenance lines to chunk bounds
+        raw_line_start = raw.get("line_start", chunk.line_start)
+        raw_line_end = raw.get("line_end", chunk.line_end)
+        clamped_start = max(raw_line_start, chunk.line_start)
+        clamped_end = min(raw_line_end, chunk.line_end)
+        if clamped_start > clamped_end:
+            logging.warning(
+                "Atom %s in chunk %d: clamped range invalid (%d > %d), rejecting",
+                atom_id, chunk.index, clamped_start, clamped_end,
+            )
+            continue
+
         atom = Atom(
             atom_id=atom_id,
             source_id=source_id,
             category=category,
             content=raw.get("content", ""),
-            line_start=raw.get("line_start", chunk.line_start),
-            line_end=raw.get("line_end", chunk.line_end),
+            line_start=clamped_start,
+            line_end=clamped_end,
             chaperone=chaperone,
             extensions=raw.get("extensions", {}),
         )
@@ -579,6 +626,101 @@ def consolidation_pass(
 # ---------------------------------------------------------------------------
 
 
+# ---------------------------------------------------------------------------
+# Bridge-compatible export (memsync_schema envelope)
+# ---------------------------------------------------------------------------
+
+CATEGORY_TO_ENTITY_TYPE = {
+    "claim": "Claim",
+    "framework": "Framework",
+    "prediction": "Prediction",
+    "concept": "Concept",
+    "analogy": "Concept",
+    "praxis_hook": "PraxisHook",
+}
+
+
+def _deterministic_uuid(atom_id: str) -> str:
+    """Generate a deterministic UUID v5 from an atom_id (DNS namespace)."""
+    return str(_uuid_mod.uuid5(_uuid_mod.NAMESPACE_DNS, atom_id))
+
+
+def write_bridge_jsonl(atoms: list[Atom], source_id: str, out_path: Path) -> None:
+    """Write bridge-compatible JSONL with memsync_schema envelopes.
+
+    Emits source_atom records for each atom, and source_relation records
+    for any opposes_atom_ids references (as CONTRADICTS edges).
+    """
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    now = datetime.now(timezone.utc).isoformat()
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        for atom in atoms:
+            entity_type = CATEGORY_TO_ENTITY_TYPE.get(atom.category, "Concept")
+            rec_uuid = _deterministic_uuid(atom.atom_id)
+
+            # Build a short name from content (first 80 chars, no newlines)
+            name = atom.content.replace("\n", " ")[:80].strip()
+
+            envelope = {
+                "record_type": "source_atom",
+                "schema_version": "1.0.0",
+                "uuid": rec_uuid,
+                "timestamp": now,
+                "payload": atom.to_dict(),
+                # Top-level fields expected by memsync_schema.SourceAtomRecord
+                "source_id": atom.source_id,
+                "entity_type": entity_type,
+                "name": name,
+                "content": atom.content,
+                "confidence": 1.0,
+                "provenance": {
+                    "source_id": atom.source_id,
+                    "line_start": atom.line_start,
+                    "line_end": atom.line_end,
+                    "atom_id": atom.atom_id,
+                },
+                "metadata": {
+                    "category": atom.category,
+                    "chaperone": atom.chaperone.__dict__ if hasattr(atom.chaperone, '__dict__') else {},
+                    "extensions": atom.extensions,
+                },
+            }
+            f.write(json.dumps(envelope, ensure_ascii=False) + "\n")
+
+            # Emit source_relation records for opposes_atom_ids
+            for target_atom_id in atom.chaperone.opposes_atom_ids:
+                rel_uuid = _deterministic_uuid(f"{atom.atom_id}:CONTRADICTS:{target_atom_id}")
+                target_uuid = _deterministic_uuid(target_atom_id)
+                relation_rec = {
+                    "record_type": "source_relation",
+                    "schema_version": "1.0.0",
+                    "uuid": rel_uuid,
+                    "timestamp": now,
+                    "source_atom_id": rec_uuid,
+                    "target_atom_id": target_uuid,
+                    "relation_type": "CONTRADICTS",
+                    "weight": 1.0,
+                    "provenance": {
+                        "source_id": atom.source_id,
+                        "line_start": atom.line_start,
+                        "line_end": atom.line_end,
+                        "atom_id": atom.atom_id,
+                    },
+                    "metadata": {
+                        "source_atom_id_raw": atom.atom_id,
+                        "target_atom_id_raw": target_atom_id,
+                    },
+                }
+                f.write(json.dumps(relation_rec, ensure_ascii=False) + "\n")
+
+    total_relations = sum(len(a.chaperone.opposes_atom_ids) for a in atoms)
+    logging.info(
+        "Wrote %d atom + %d relation bridge records to %s",
+        len(atoms), total_relations, out_path,
+    )
+
+
 def write_jsonl(atoms: list[Atom], out_path: Path) -> None:
     """Write atoms as JSONL — one atom per line."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -707,9 +849,11 @@ def run_extraction(
         out_dir = source_path.parent / "_meta"
 
     jsonl_path = out_dir / f"EXTRACT-{source_id}.jsonl"
+    bridge_path = out_dir / f"EXTRACT-{source_id}.bridge.jsonl"
     md_path = out_dir / f"EXTRACT-{source_id}.md"
 
     write_jsonl(final_atoms, jsonl_path)
+    write_bridge_jsonl(final_atoms, source_id, bridge_path)
     write_companion_md(final_atoms, source_id, source_path, md_path)
 
     return final_atoms

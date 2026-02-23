@@ -144,8 +144,14 @@ def load_dyn_sources_csv(path: str) -> list[SourceRecord]:
         for row in reader:
             topics_raw = row.get("topics", "")
             topics = [t.strip() for t in topics_raw.split(",") if t.strip()] if topics_raw else []
-            integrated_raw = row.get("integrated_into", "")
-            targets = [t.strip() for t in integrated_raw.split(",") if t.strip()] if integrated_raw else []
+            # Normalize both field names; accept scalar strings or comma-separated lists
+            integrated_raw = row.get("integration_targets", "") or row.get("integrated_into", "")
+            if isinstance(integrated_raw, list):
+                targets = [str(t).strip() for t in integrated_raw if str(t).strip()]
+            elif integrated_raw:
+                targets = [t.strip() for t in integrated_raw.split(",") if t.strip()]
+            else:
+                targets = []
 
             rec = SourceRecord(
                 source_id=row.get("id", "").strip(),
@@ -162,8 +168,10 @@ def load_dyn_sources_csv(path: str) -> list[SourceRecord]:
                 platform=row.get("platform", "").strip(),
                 format=row.get("format", "").strip(),
             )
-            if rec.source_id:
-                records.append(rec)
+            if not rec.source_id:
+                rec.source_id = f"SOURCE-NOID-{len(records):04d}"
+                log.debug("Generated fallback ID %s for row %d", rec.source_id, len(records))
+            records.append(rec)
     log.info("Loaded %d records from CSV", len(records))
     return records
 
@@ -284,6 +292,10 @@ def scan_source_frontmatter(
             results[fname] = fm
             new_cache[fname] = fm
 
+    # Count parse errors directly from scan results (not from mapped records)
+    scan_parse_errors = sum(1 for fm in results.values() if fm.get("_parse_error"))
+    log.info("Scan parse errors (direct from frontmatter): %d / %d files", scan_parse_errors, len(results))
+
     # Enrich records from frontmatter
     parse_errors = 0
     for rec in records:
@@ -316,9 +328,12 @@ def scan_source_frontmatter(
         if isinstance(fm_topics, list) and fm_topics:
             rec.topics = [str(t) for t in fm_topics if t]
 
-        fm_targets = fm.get("integrated_into")
-        if isinstance(fm_targets, list) and fm_targets:
-            rec.integration_targets = [str(t) for t in fm_targets if t]
+        fm_targets = fm.get("integration_targets") or fm.get("integrated_into")
+        if fm_targets:
+            if isinstance(fm_targets, str):
+                fm_targets = [t.strip() for t in fm_targets.split(",") if t.strip()]
+            if isinstance(fm_targets, list) and fm_targets:
+                rec.integration_targets = [str(t) for t in fm_targets if t]
 
         if not rec.signal_tier:
             rec.signal_tier = fm.get("signal_tier", "") or ""
@@ -606,10 +621,13 @@ def apply_wildfire(
             cand.wildfire_promoted = True
             promoted.append(cand)
 
-    # Insert wildfire picks at end of top-k
-    top_section = scores[:top_k]
+    # Replace bottom N of top-k with wildfire promotions so they appear in persisted output
+    n_promoted = len(promoted)
+    top_section = scores[:top_k - n_promoted]  # keep top entries minus slots for wildfire
     remaining = [s for s in scores[top_k:] if not s.wildfire_promoted]
-    result = top_section + promoted + remaining
+    # Displaced entries (bottom of original top-k) go back into the pool
+    displaced = scores[top_k - n_promoted:top_k]
+    result = top_section + promoted + displaced + remaining
     return result
 
 
@@ -707,13 +725,14 @@ def persist_triage_outputs(
 ) -> None:
     id_to_rec = {r.source_id: r for r in records}
 
-    # --- Triage JSON ---
+    # --- Triage JSON (ALL records, with rank + top_k flag) ---
     triage_path = f"{out_prefix}_TRIAGE.json"
     triage_records = []
-    for rank, sb in enumerate(scores[:top_k], 1):
+    for rank, sb in enumerate(scores, 1):
         rec = id_to_rec.get(sb.source_id)
         entry = asdict(sb)
         entry["rank"] = rank
+        entry["top_k"] = rank <= top_k
         if rec:
             entry["filename"] = rec.filename
             entry["title"] = rec.title
@@ -731,6 +750,7 @@ def persist_triage_outputs(
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "total_sources": len(records),
         "top_k": top_k,
+        "persisted_total": len(triage_records),
         "wildfire_promoted": sum(1 for s in scores[:top_k] if s.wildfire_promoted),
         "records": triage_records,
     }

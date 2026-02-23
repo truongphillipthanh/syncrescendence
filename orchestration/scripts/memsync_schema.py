@@ -166,6 +166,16 @@ class ValidationError(Exception):
     """Raised when a record fails schema validation."""
 
 
+# Required fields per record type (beyond the universal uuid/schema_version/record_type)
+REQUIRED_FIELDS: Dict[str, frozenset] = {
+    "source_atom": frozenset({"source_id", "entity_type", "name", "content"}),
+    "source_relation": frozenset({"source_atom_id", "target_atom_id", "relation_type"}),
+    "quality_gate": frozenset({"gate_name", "source_id"}),
+    "failure_pheromone": frozenset({"source_id", "stage", "error"}),
+    "lineage_event": frozenset({"source_id", "operation"}),
+}
+
+
 def validate_record(raw: Dict[str, Any]) -> None:
     """Validate a raw dict against schema rules.  Raises ValidationError."""
     rt = raw.get("record_type")
@@ -179,7 +189,13 @@ def validate_record(raw: Dict[str, Any]) -> None:
     if not raw.get("uuid"):
         raise ValidationError("Missing uuid")
 
-    # Type-specific checks
+    # Per-type required field checks
+    required = REQUIRED_FIELDS.get(rt, frozenset())
+    for field_name in required:
+        if not raw.get(field_name):
+            raise ValidationError(f"{rt} requires non-empty '{field_name}'")
+
+    # Type-specific value checks
     if rt == "source_atom":
         et = raw.get("entity_type", "")
         if et and et not in VALID_ENTITY_TYPES:
@@ -189,8 +205,6 @@ def validate_record(raw: Dict[str, Any]) -> None:
         rel = raw.get("relation_type", "")
         if rel and rel not in VALID_EDGE_TYPES:
             raise ValidationError(f"Invalid relation_type: {rel!r}")
-        if not raw.get("source_atom_id") or not raw.get("target_atom_id"):
-            raise ValidationError("source_relation requires source_atom_id and target_atom_id")
 
 
 def parse_record(raw: Dict[str, Any]) -> Union[
