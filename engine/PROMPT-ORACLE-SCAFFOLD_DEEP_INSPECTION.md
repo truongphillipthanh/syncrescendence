@@ -262,8 +262,8 @@ These files are explicitly referenced by path in AGENTS.md and MUST exist and be
 - `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — referenced in Key References
 - `orchestration/state/DYN-CONSTELLATION_HEALTH.md` — referenced in Health Watchdog
 - `orchestration/state/DYN-EXECUTION_STAGING.md` — referenced in Completion Protocol
-- `orchestration/scripts/dispatch.sh` — referenced in Dispatch Protocol
-- `orchestration/scripts/auto_ingest_loop.sh` — referenced in Auto-Ingest System
+- `orchestration/00-ORCHESTRATION/scripts/dispatch.sh` — referenced in Dispatch Protocol
+- `orchestration/00-ORCHESTRATION/scripts/auto_ingest_loop.sh` — referenced in Auto-Ingest System
 
 **Inspection question**: Do these paths resolve correctly, or do they actually live under `00-ORCHESTRATION/`? If the latter, every AGENTS.md reference is broken.
 

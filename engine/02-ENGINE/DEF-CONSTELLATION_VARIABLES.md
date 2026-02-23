@@ -301,6 +301,6 @@ Update workflow:
 
 ## Cross-References
 
-- Block template spec: `orchestration/scripts/SN_BLOCK_TEMPLATES.md`
-- Symbol glossary: `orchestration/scripts/sn_symbols.yaml`
+- Block template spec: `orchestration/00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`
+- Symbol glossary: `orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml`
 - CANON lean-out recommendations: `orchestration/archive/REF-CANON_LEAN_OUT_RECOMMENDATIONS.md`

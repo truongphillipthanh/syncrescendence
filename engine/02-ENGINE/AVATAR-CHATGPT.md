@@ -64,7 +64,7 @@ K    Knowledge chain
 W    Wisdom chain
 ```
 
-**Full glossary**: `orchestration/scripts/sn_symbols.yaml`
+**Full glossary**: `orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 ---
 
@@ -294,7 +294,7 @@ echo "Ψ :: ..." | ./sn_decode.py -
 ### Verify Glossary
 ```bash
 # Check symbols.yaml validity
-python -c "import yaml; yaml.safe_load(open('orchestration/scripts/sn_symbols.yaml'))"
+python -c "import yaml; yaml.safe_load(open('orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml'))"
 ```
 
 ---

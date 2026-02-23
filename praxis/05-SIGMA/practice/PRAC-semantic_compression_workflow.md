@@ -207,5 +207,5 @@ end
 ## Cross-References
 
 - [[SYNTHESIS-claude_code_architecture]] → Example of full SN document
-- [[orchestration/scripts/sn_symbols.yaml]] → Symbol glossary
-- [[orchestration/scripts/SN_BLOCK_TEMPLATES.md]] → SN templates
+- [[orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml]] → Symbol glossary
+- [[orchestration/00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md]] → SN templates

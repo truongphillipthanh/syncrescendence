@@ -9,7 +9,7 @@
 
 ## Overview
 
-Syncrescendence uses 6 Claude Code hooks plus 1 supplementary script to automate session lifecycle events. All hooks are bash scripts in `orchestration/scripts/`. They fire automatically based on Claude Code event triggers.
+Syncrescendence uses 6 Claude Code hooks plus 1 supplementary script to automate session lifecycle events. All hooks are bash scripts in `orchestration/00-ORCHESTRATION/scripts/`. They fire automatically based on Claude Code event triggers.
 
 ---
 
@@ -20,7 +20,7 @@ Syncrescendence uses 6 Claude Code hooks plus 1 supplementary script to automate
 | Property | Value |
 |----------|-------|
 | **Event** | Stop |
-| **Script** | `orchestration/scripts/session_log.sh` (38 lines) |
+| **Script** | `orchestration/00-ORCHESTRATION/scripts/session_log.sh` (38 lines) |
 | **Output** | `orchestration/state/DYN-SESSION_LOG.md` |
 | **Function** | Captures timestamp, branch, last 5 commits, files changed |
 | **Compaction** | None (append-only) |
@@ -43,7 +43,7 @@ Syncrescendence uses 6 Claude Code hooks plus 1 supplementary script to automate
 | Property | Value |
 |----------|-------|
 | **Event** | Stop |
-| **Script** | `orchestration/scripts/ajna_pedigree.sh` (73 lines) |
+| **Script** | `orchestration/00-ORCHESTRATION/scripts/ajna_pedigree.sh` (73 lines) |
 | **Output** | `orchestration/state/DYN-PEDIGREE_LOG.md` |
 | **Function** | Captures decision trail: last 10 commits (6h window), categorized file touches (state/CANON/ENGINE), queued intention count |
 | **Compaction** | Ad-hoc manual (86 sessions archived 2026-02-09) |
@@ -77,7 +77,7 @@ N intention(s) captured by Intent Compass this session.
 | Property | Value |
 |----------|-------|
 | **Event** | Stop (also callable manually) |
-| **Script** | `orchestration/scripts/create_execution_log.sh` (67 lines) |
+| **Script** | `orchestration/00-ORCHESTRATION/scripts/create_execution_log.sh` (67 lines) |
 | **Output** | `orchestration/state/DYN-EXECUTION_STAGING.md` |
 | **Function** | Logs directive ID, outcome, branch, fingerprint, commit count, file changes |
 | **Compaction** | **Automatic at 10 entries** via `compact_wisdom.sh` |
@@ -93,7 +93,7 @@ N intention(s) captured by Intent Compass this session.
 | Property | Value |
 |----------|-------|
 | **Event** | PreCompact |
-| **Script** | `orchestration/scripts/pre_compaction.sh` (37 lines) |
+| **Script** | `orchestration/00-ORCHESTRATION/scripts/pre_compaction.sh` (37 lines) |
 | **Output** | Console warnings (no file output) |
 | **Function** | Blocks context compaction if repo has uncommitted changes in protected dirs |
 | **Checks** | `git diff --quiet`, untracked files in `orchestration/state/`, `engine/`, `praxis/` |
@@ -108,7 +108,7 @@ N intention(s) captured by Intent Compass this session.
 | Property | Value |
 |----------|-------|
 | **Event** | UserPromptSubmit |
-| **Script** | `orchestration/scripts/intent_compass.sh` (51 lines) |
+| **Script** | `orchestration/00-ORCHESTRATION/scripts/intent_compass.sh` (51 lines) |
 | **Output** | `orchestration/state/DYN-INTENTIONS_QUEUE.md` |
 | **Function** | Scans every user prompt for intention-laden language, captures matched signals |
 | **Dependency** | `jq` (silent exit if unavailable) |
@@ -132,7 +132,7 @@ massive | manhattan | codify | formalize | operationalize
 | Property | Value |
 |----------|-------|
 | **Event** | Manual / auto-triggered by `create_execution_log.sh` |
-| **Script** | `orchestration/scripts/compact_wisdom.sh` (77 lines) |
+| **Script** | `orchestration/00-ORCHESTRATION/scripts/compact_wisdom.sh` (77 lines) |
 | **Inputs** | `DYN-DIRECTIVE_STAGING.md`, `DYN-EXECUTION_STAGING.md` |
 | **Outputs** | `orchestration/archive/ARCH-DIRECTIVE_COMPENDIUM.md`, `ARCH-EXECUTION_HISTORY.md` |
 | **Function** | Appends staging entries to archive compendiums, resets staging files |
@@ -145,7 +145,7 @@ massive | manhattan | codify | formalize | operationalize
 | Property | Value |
 |----------|-------|
 | **Event** | PostToolUse (after git commit) |
-| **Script** | `orchestration/scripts/post_commit_ledger.sh` |
+| **Script** | `orchestration/00-ORCHESTRATION/scripts/post_commit_ledger.sh` |
 | **Function** | Advisory: flags when CSV ledgers may need updating based on committed file patterns |
 | **Blocking** | No (purely informational) |
 
@@ -205,15 +205,15 @@ Hooks are registered in `.claude/settings.json` at the project level. The canoni
 {
   "hooks": {
     "Stop": [
-      { "command": "bash orchestration/scripts/session_log.sh" },
-      { "command": "bash orchestration/scripts/ajna_pedigree.sh" },
-      { "command": "bash orchestration/scripts/create_execution_log.sh" }
+      { "command": "bash orchestration/00-ORCHESTRATION/scripts/session_log.sh" },
+      { "command": "bash orchestration/00-ORCHESTRATION/scripts/ajna_pedigree.sh" },
+      { "command": "bash orchestration/00-ORCHESTRATION/scripts/create_execution_log.sh" }
     ],
     "PreCompact": [
-      { "command": "bash orchestration/scripts/pre_compaction.sh" }
+      { "command": "bash orchestration/00-ORCHESTRATION/scripts/pre_compaction.sh" }
     ],
     "UserPromptSubmit": [
-      { "command": "bash orchestration/scripts/intent_compass.sh" }
+      { "command": "bash orchestration/00-ORCHESTRATION/scripts/intent_compass.sh" }
     ]
   }
 }
@@ -238,7 +238,7 @@ tail -10 orchestration/state/DYN-INTENTIONS_QUEUE.md
 grep -c "^### " orchestration/state/DYN-EXECUTION_STAGING.md
 
 # Pre-compaction guard test
-COMPACTION_OVERRIDE=0 bash orchestration/scripts/pre_compaction.sh; echo "Exit: $?"
+COMPACTION_OVERRIDE=0 bash orchestration/00-ORCHESTRATION/scripts/pre_compaction.sh; echo "Exit: $?"
 ```
 
 ---

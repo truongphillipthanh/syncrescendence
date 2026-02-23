@@ -10,19 +10,19 @@ cd /path/to/syncrescendence
 mkdir -p agents/cartographer/outbox/$(date +%Y%m%d)-corpus-annealment-survey
 
 # Run sensing sweep (adjust paths as needed)
-gemini -p "$(cat orchestration/scripts/GEMINI-CORPUS-SENSING-PROMPT.md)" \
+gemini -p "$(cat orchestration/00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md)" \
   -f "$(find . -name '*.md' -o -name '*.txt' -o -name '*.csv' -o -name '*.yaml' | head -500 | tr '\n' ' ')" \
   > agents/cartographer/outbox/$(date +%Y%m%d)-corpus-annealment-survey/SENSING_REPORT.md
 ```
 
 Alternative if corpus-survey.sh exists:
 ```bash
-./orchestration/scripts/corpus-survey.sh
+./orchestration/00-ORCHESTRATION/scripts/corpus-survey.sh
 ```
 
 ---
 
-## Prompt (save as `orchestration/scripts/GEMINI-CORPUS-SENSING-PROMPT.md`)
+## Prompt (save as `orchestration/00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md`)
 
 ---
 

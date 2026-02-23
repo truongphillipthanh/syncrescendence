@@ -42,7 +42,7 @@ This corpus uses **Semantic Notation (SN)** for compression. Key operators:
 χ    Coherence
 ```
 
-**Full glossary**: `orchestration/scripts/sn_symbols.yaml`
+**Full glossary**: `orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 **Your take**: Match the notation when producing structured outputs, but **preserve your authentic voice** in gloss sections. Don't over-formalize—your colloquial strength is the point.
 

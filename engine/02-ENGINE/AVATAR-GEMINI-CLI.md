@@ -89,7 +89,7 @@ See `engine/PROMPT-GEMINI-CLI-FORENSIC-PROMPTS.md` for specialized analysis prom
 This corpus uses **Semantic Notation** for ~80% token reduction while preserving semantics.
 
 ### Glossary Location
-`orchestration/scripts/sn_symbols.yaml`
+`orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 ### Cartographer's Advantage
 With 1M+ token context (Flash 2.0: up to 2M), you can:

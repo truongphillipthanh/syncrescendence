@@ -60,7 +60,7 @@ Each lane owns specific file domains to prevent merge conflicts:
 
 ```bash
 # From repo root
-bash orchestration/scripts/setup-worktrees.sh
+bash orchestration/00-ORCHESTRATION/scripts/setup-worktrees.sh
 ```
 
 This creates 3 worktrees (alpha/beta/gamma) alongside the main checkout. For 4-lane Blitzkrieg, add delta manually:
@@ -163,7 +163,7 @@ This pattern is Phase 3 of the Neo-Blitzkrieg execution model:
 
 ## Cross-References
 
-- `orchestration/scripts/setup-worktrees.sh` — Setup script (70 lines)
+- `orchestration/00-ORCHESTRATION/scripts/setup-worktrees.sh` — Setup script (70 lines)
 - `sources/research/MECH-git_worktree_coordination.md` — Deep mechanics (zone ownership, coordination.yaml schema)
 - `sources/research/PRAC-parallel_claude_orchestration.md` — Multi-instance patterns
 - `engine/REF-ROSETTA_STONE.md` — Gap Analysis G5

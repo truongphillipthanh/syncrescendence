@@ -83,11 +83,11 @@ gemini --model gemini-3-flash "Generate token count inventory for sources/"
 
 ```bash
 # From Commander, dispatch a task:
-bash orchestration/scripts/dispatch.sh psyche "TOPIC" "Task description..."
+bash orchestration/00-ORCHESTRATION/scripts/dispatch.sh psyche "TOPIC" "Task description..."
 
 # Psyche watches agents/psyche/inbox/pending/ for TASK-*.md files
 # On the M4 MBA, start the watcher:
-bash orchestration/scripts/watch_dispatch.sh psyche
+bash orchestration/00-ORCHESTRATION/scripts/watch_dispatch.sh psyche
 ```
 
 **Config**: OpenClaw config on M4 MBA
@@ -102,10 +102,10 @@ bash orchestration/scripts/watch_dispatch.sh psyche
 
 ```bash
 # From any agent, dispatch a task to Ajna:
-bash orchestration/scripts/dispatch.sh ajna "TOPIC" "Task description..."
+bash orchestration/00-ORCHESTRATION/scripts/dispatch.sh ajna "TOPIC" "Task description..."
 
 # On the M1 Mini, start the watcher:
-bash orchestration/scripts/watch_dispatch.sh ajna
+bash orchestration/00-ORCHESTRATION/scripts/watch_dispatch.sh ajna
 ```
 
 **Config**: OpenClaw config on M1 Mini
@@ -134,7 +134,7 @@ wait
 ### Autonomous Twin Loop
 ```bash
 # Commander dispatches to Psyche, continues working
-bash orchestration/scripts/dispatch.sh psyche \
+bash orchestration/00-ORCHESTRATION/scripts/dispatch.sh psyche \
   "QA_REVIEW" \
   "Review all files modified in the last commit for quality issues"
 # Commander continues with other work...

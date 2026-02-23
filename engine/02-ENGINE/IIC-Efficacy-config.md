@@ -248,7 +248,7 @@ make sync
 
 ### A. Script Library
 
-**Location**: `orchestration/scripts/`
+**Location**: `orchestration/00-ORCHESTRATION/scripts/`
 
 **Categories**:
 - `ledger_*.py` — CSV validation and update scripts
@@ -290,7 +290,7 @@ python3 engine/functions/transcribe_interview.py \
   sources/processed/SOURCE-YYYYMMDD-NNN.md
 
 # 3. Update ledger
-python3 orchestration/scripts/update_source_ledger.py \
+python3 orchestration/00-ORCHESTRATION/scripts/update_source_ledger.py \
   SOURCE-YYYYMMDD-NNN processed
 
 # 4. Verify
@@ -484,7 +484,7 @@ python3 engine/functions/transcribe_interview.py \
 # ✓ Processing complete
 
 # 3. Update ledger
-python3 orchestration/scripts/update_source_ledger.py \
+python3 orchestration/00-ORCHESTRATION/scripts/update_source_ledger.py \
   SOURCE-20250926-057 processed
 # ✓ Ledger updated
 

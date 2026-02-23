@@ -188,7 +188,7 @@ This corpus uses **Semantic Notation** for token compression.
 ```
 
 ### Full glossary
-`orchestration/scripts/sn_symbols.yaml`
+`orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 ---
 

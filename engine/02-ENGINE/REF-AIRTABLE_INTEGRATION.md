@@ -439,4 +439,4 @@ curl -s -X PATCH "https://api.airtable.com/v0/appHyxiH0s9zOYH8I/tbl2bifSCiHt8WtF
 - [[REF-SAAS_INTEGRATION_ARCHITECTURE]] -- Sovereignty strata mapping
 - [[REF-STACK_TELEOLOGY]] -- Tool dispositional analysis
 - `~/.syncrescendence/ontology.db` -- SQLite substrate (source of truth)
-- `orchestration/scripts/ontology_query.py` -- CLI query interface
+- `orchestration/00-ORCHESTRATION/scripts/ontology_query.py` -- CLI query interface

@@ -283,7 +283,7 @@ iics:
       - "Task Execution Lifecycle (4 phases: Intake, Execution, Verification, Packaging)"
       - "Quality Metrics (completion rate, cycle time, defect rate)"
       - "Error Handling (execution failure + audit failure protocols)"
-      - "Script Library (orchestration/scripts/)"
+      - "Script Library (orchestration/00-ORCHESTRATION/scripts/)"
       - "Repeatable Operations (Source Processing, CANON Integration patterns)"
       - "Performance Optimization (parallel ops, automation priorities, QA checks)"
 

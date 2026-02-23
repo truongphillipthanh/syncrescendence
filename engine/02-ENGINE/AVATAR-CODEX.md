@@ -33,7 +33,7 @@ Update documentation to match code changes.
 
 | Directory | Purpose |
 |-----------|---------|
-| `orchestration/scripts/` | Automation scripts |
+| `orchestration/00-ORCHESTRATION/scripts/` | Automation scripts |
 | `engine/functions/` | Function definitions |
 | `.claude/` | Claude Code configuration |
 
@@ -81,7 +81,7 @@ This corpus uses **Semantic Notation** for ~80% token compression.
 ```
 
 ### Full glossary
-`orchestration/scripts/sn_symbols.yaml`
+`orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 ---
 

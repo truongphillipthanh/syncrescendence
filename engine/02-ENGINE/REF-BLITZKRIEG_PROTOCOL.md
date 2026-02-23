@@ -276,7 +276,7 @@ Required headers: BLITZKRIEG_DIRECTIVE_ID, TARGET_MODEL, RATIONALE, SUCCESS_CRIT
 | Command | Purpose |
 |---------|---------|
 | `/project:blitzkrieg_finalize` | Process dropbox and generate execution artifacts |
-| `./orchestration/scripts/blitzkrieg_finalize.sh` | Shell script equivalent |
+| `./orchestration/00-ORCHESTRATION/scripts/blitzkrieg_finalize.sh` | Shell script equivalent |
 
 ### Locations
 

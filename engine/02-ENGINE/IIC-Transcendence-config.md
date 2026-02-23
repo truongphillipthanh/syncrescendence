@@ -201,7 +201,7 @@ Synthesize across multiple files to identify system-level patterns.
 git status
 
 # Verify ledgers
-python3 orchestration/scripts/verify_ledgers.py
+python3 orchestration/00-ORCHESTRATION/scripts/verify_ledgers.py
 
 # Review recent activity
 git log --since="24 hours ago" --oneline

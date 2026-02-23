@@ -76,7 +76,7 @@ All outputs should be clarified digests delivered to `-OUTGOING/`:
 This corpus uses **Semantic Notation** for ~80% token reduction while preserving semantics.
 
 ### Glossary Location
-`orchestration/scripts/sn_symbols.yaml`
+`orchestration/00-ORCHESTRATION/scripts/sn_symbols.yaml`
 
 ### Key SN Operators
 ```

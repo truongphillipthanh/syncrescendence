@@ -194,10 +194,10 @@ zle -N sesh-sessions
 bindkey '^f' sesh-sessions
 
 # ── Cockpit ──
-alias cockpit='bash ~/Desktop/syncrescendence/orchestration/scripts/cockpit.sh'
-alias cockpit-launch='bash ~/Desktop/syncrescendence/orchestration/scripts/cockpit.sh --launch'
-alias cockpit-resize='bash ~/Desktop/syncrescendence/orchestration/scripts/cockpit.sh --resize'
-alias cockpit-kill='bash ~/Desktop/syncrescendence/orchestration/scripts/cockpit.sh --kill'
+alias cockpit='bash ~/Desktop/syncrescendence/orchestration/00-ORCHESTRATION/scripts/cockpit.sh'
+alias cockpit-launch='bash ~/Desktop/syncrescendence/orchestration/00-ORCHESTRATION/scripts/cockpit.sh --launch'
+alias cockpit-resize='bash ~/Desktop/syncrescendence/orchestration/00-ORCHESTRATION/scripts/cockpit.sh --resize'
+alias cockpit-kill='bash ~/Desktop/syncrescendence/orchestration/00-ORCHESTRATION/scripts/cockpit.sh --kill'
 
 # ── Doom Emacs ──
 export DOOMDIR="$HOME/.config/doom"
@@ -434,7 +434,7 @@ run '~/.tmux/plugins/tpm/tpm'
 [[session]]
 name = "constellation"
 path = "/Users/home/Desktop/syncrescendence"
-startup_command = "bash orchestration/scripts/cockpit.sh"
+startup_command = "bash orchestration/00-ORCHESTRATION/scripts/cockpit.sh"
 
 [[session]]
 name = "sync-edit"
@@ -446,7 +446,7 @@ path = "/Users/home"
 ```
 
 ### Cockpit Script
-**File**: `~/Desktop/syncrescendence/orchestration/scripts/cockpit.sh` (355 lines)
+**File**: `~/Desktop/syncrescendence/orchestration/00-ORCHESTRATION/scripts/cockpit.sh` (355 lines)
 **Rationale**: The cockpit script IS the constellation's physical instantiation. It creates a 4x2 tmux grid (4 agents top, 4 nvim editors bottom) positioned on the center 4/6 of a 5120x1440 ultrawide display.
 
 **Architecture**:
