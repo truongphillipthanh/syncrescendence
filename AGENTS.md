@@ -23,7 +23,7 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural (ABSOLUTE)
-1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `praxis/mechanics/`, `practice/`, `syntheses/`, `exempla/`; `orchestration/state/`, `scripts/`, `archive/`; `agents/<name>/` internal structure; `sources/research/`, `research-notebooks/`.
+1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `orchestration/00-ORCHESTRATION/` (canonical strategic-coordination layer containing state/, scripts/, archive/, templates/); `orchestration/state/`, `scripts/`, `archive/` (vestigial telemetry); `engine/02-ENGINE/` (canonical engine implementation layer); `praxis/05-SIGMA/` (canonical praxis container with mechanics/, practice/, syntheses/); `agents/<name>/` internal structure; `sources/research/`, `research-notebooks/`. Numbered-prefix layers (00-, 02-, 05-) are sanctioned structural containers per DC-204T evidence analysis (2026-02-23).
 2. **SEMANTIC DIRECTORIES**: Top-level directories use semantic names: `orchestration`, `canon`, `engine`, `sources`, `praxis`, `agents`, `collab`, `-SOVEREIGN`. Do not create new top-level directories without Sovereign approval.
 3. **PROTECTED ZONES**: `orchestration/state/` and `canon/` require explicit Sovereign approval for deletions.
 4. **PHASE GATE RULE** (Council 22): No structural changes (renames, dissolutions, reorganizations) may occur without: (a) `scaffold_validate.sh` passing, (b) memory system operational, (c) rollback tested. Violating this rule caused the INT-2210 catastrophe.
@@ -43,14 +43,20 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Directory Structure
 
 ```
-orchestration/   Strategic coordination (state/, scripts/, archive/)
+orchestration/   Strategic coordination
+  00-ORCHESTRATION/  Canonical living layer (state/, scripts/, archive/, templates/)
+  state/             Vestigial telemetry (counters, DB artifacts)
+  scripts/           Vestigial scripts (memsync, journal)
+  archive/           Empty (compliant)
 canon/           Verified canonical knowledge (PROTECTED) + sn/
 engine/          Functions, prompts, avatars, model profiles, queue items
+  02-ENGINE/       Canonical implementation layer (all 147 files)
 sources/         Source documents (raw/, processed/, research/)
 praxis/           Operational knowledge corpus + memory + exempla
-  syntheses/        Canonical platform references
-  mechanics/        Deep-dive mechanisms
-  practice/         Implementation patterns
+  05-SIGMA/        Canonical praxis container
+    syntheses/       Canonical platform references
+    mechanics/       Deep-dive mechanisms
+    practice/        Implementation patterns
 agents/             Agent offices (per-agent workspace + inbox + memory)
   commander/        Claude Code (Opus) — COO
   adjudicator/      Codex CLI — CQO
@@ -81,9 +87,9 @@ agents/<name>/
 | **Sovereign** | CEO | — | Human | Both | — |
 | **Ajna** | CSO (Chief Strategy Officer) | Strategos | Kimi K2.5 (NVIDIA) | MacBook Air | "Ajna, illuminate..." |
 | **Psyche** | CTO (Chief Technology Officer) | Synaptarch | GPT-5.3-codex | Mac mini | "Psyche, holistically calibrate..." |
-| **Commander** | COO (Chief Operating Officer) | Viceroy | Claude Opus 4.6 | Mac mini | "Commander, pivot to..." |
-| **Adjudicator** | CQO (Chief Quality Officer) | Executor | Codex CLI (Sonnet) | Mac mini | "Adjudicator, execute..." |
-| **Cartographer** | CIO (Chief Intelligence Officer) | Exegete | Gemini 2.5 Pro | Mac mini | "Cartographer, survey..." |
+| **Commander** | COO (Chief Operating Officer) | Viceroy | Claude Opus 4.5 | Mac mini | "Commander, pivot to..." |
+| **Adjudicator** | CQO (Chief Quality Officer) | Executor | Codex CLI (GPT-5.3-Codex) | Mac mini | "Adjudicator, execute..." |
+| **Cartographer** | CIO (Chief Intelligence Officer) | Exegete | Gemini Pro 3.1 | Mac mini | "Cartographer, survey..." |
 
 **AjnaPsyche Archon**: Ajna (steering wheel) + Psyche (rudder) = fused executive brain. StarCraft High Templar → Archon.
 
@@ -91,9 +97,9 @@ agents/<name>/
 
 | Agent | CLI Tool | Dispatch Mode | Machine | tmux Pane | Rate-Limit Pool | Auto-Ingest |
 |---|---|---|---|---|---|---|
-| **Commander** | Claude Code (Opus 4.6) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | `auto_ingest_loop.sh commander` |
-| **Adjudicator** | Codex CLI (GPT-5.2/5.3 codex) | tmux `send-keys` | Mac mini | `1.5` | Shared ChatGPT Plus with Psyche | `auto_ingest_loop.sh adjudicator` |
-| **Cartographer** | Gemini CLI (gemini-2.5-pro) | Headless (`gemini -p -y -o text`) | Mac mini | `1.7` | Google AI Pro / Gemini quota | `auto_ingest_loop.sh cartographer` |
+| **Commander** | Claude Code (Opus 4.5) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | `auto_ingest_loop.sh commander` |
+| **Adjudicator** | Codex CLI (GPT-5.3-Codex) | tmux `send-keys` | Mac mini | `1.5` | Shared ChatGPT Plus with Psyche | `auto_ingest_loop.sh adjudicator` |
+| **Cartographer** | Gemini CLI (Gemini Pro 3.1) | Headless (`gemini -p -y -o text`) | Mac mini | `1.7` | Google AI Pro / Gemini quota | `auto_ingest_loop.sh cartographer` |
 | **Psyche** | OpenClaw (GPT-5.3-codex) | tmux `send-keys` | Mac mini | `1.1` | Shared ChatGPT Plus with Adjudicator | `auto_ingest_loop.sh psyche` |
 | **Ajna** | OpenClaw (Kimi K2.5) | filesystem + SCP sling | MacBook Air | N/A (remote) | NVIDIA/Kimi pool | `auto_ingest_loop.sh ajna` |
 
