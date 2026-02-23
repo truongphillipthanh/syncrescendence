@@ -10090,3 +10090,77 @@ none
 294 intention(s) captured by Intent Compass this session.
 
 ---
+
+## Session: 2026-02-22 20:14:41
+**Branch**: main | **Fingerprint**: e28fc052 | **Commits**: 10
+
+### Commits
+```
+e28fc052 feat: INT-2206: launchd plist, sovereign test pack, ajna vision, ingest loop bugfix + first run
+7bcc3c2f feat: INT-2205: auto_ingest loop, dispatch template, weekly eval runbook
+9443fb6d feat: INT-2204: full per-agent INIT.md offices (5/5 agents)
+a417a50c feat: INT-2202+2203: unified harness, OpenClaw layer, path migration, 00-ORCH triage
+c69ba51a sync(ajna): inbox/outgoing sync from MBA [2026-02-23T04:05:23Z]
+212bcae9 feat: single-source config architecture — AGENTS.md master + make configs (INT-2201)
+944f5380 chore: auto-compact wisdom at threshold (10 entries)
+deb38ecc refactor: complete -INBOX/ → agents/ path migration across all tiers (INT-2201)
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+295 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-22 20:17:08
+**Branch**: main | **Fingerprint**: a175599f | **Commits**: 10
+
+### Commits
+```
+a175599f feat: INT-2207: weekly eval automation, Grok CLI stub, launchd weekly plist
+e28fc052 feat: INT-2206: launchd plist, sovereign test pack, ajna vision, ingest loop bugfix + first run
+7bcc3c2f feat: INT-2205: auto_ingest loop, dispatch template, weekly eval runbook
+9443fb6d feat: INT-2204: full per-agent INIT.md offices (5/5 agents)
+a417a50c feat: INT-2202+2203: unified harness, OpenClaw layer, path migration, 00-ORCH triage
+c69ba51a sync(ajna): inbox/outgoing sync from MBA [2026-02-23T04:05:23Z]
+212bcae9 feat: single-source config architecture — AGENTS.md master + make configs (INT-2201)
+944f5380 chore: auto-compact wisdom at threshold (10 entries)
+deb38ecc refactor: complete -INBOX/ → agents/ path migration across all tiers (INT-2201)
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+296 intention(s) captured by Intent Compass this session.
+
+---

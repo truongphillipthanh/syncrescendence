@@ -541,3 +541,5 @@
 - **2026-02-22 20:09:05** | `- Pre-compaction hook at 75 % context always fires before dispatch`
 
 - **2026-02-22 20:13:20** | `**Priority**: P0  `
+
+- **2026-02-22 20:16:06** | `- Hook: always surface one unasked connection per response`

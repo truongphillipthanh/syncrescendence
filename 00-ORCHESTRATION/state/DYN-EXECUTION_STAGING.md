@@ -22,3 +22,15 @@
 - **Outcome**: SUCCESS
 - **Commits**: 19 | **Changes**:  2074 files changed, 35118 insertions(+), 70887 deletions(-)
 - **Details**: 7bcc3c2f feat: INT-2205: auto_ingest loop, dispatch template, weekly eval runbook
+
+### SESSION-20260222-2014 | 2026-02-22 20:14
+- **Branch**: main | **Fingerprint**: e28fc052
+- **Outcome**: SUCCESS
+- **Commits**: 20 | **Changes**:  2159 files changed, 42752 insertions(+), 70227 deletions(-)
+- **Details**: e28fc052 feat: INT-2206: launchd plist, sovereign test pack, ajna vision, ingest loop bugfix + first run
+
+### SESSION-20260222-2017 | 2026-02-22 20:17
+- **Branch**: main | **Fingerprint**: a175599f
+- **Outcome**: SUCCESS
+- **Commits**: 21 | **Changes**:  2162 files changed, 42830 insertions(+), 70227 deletions(-)
+- **Details**: a175599f feat: INT-2207: weekly eval automation, Grok CLI stub, launchd weekly plist
