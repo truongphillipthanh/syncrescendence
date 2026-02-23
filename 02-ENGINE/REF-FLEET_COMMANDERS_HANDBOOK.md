@@ -179,7 +179,7 @@ Time targets:
 - Chat sessions = ephemeral (evaporate when closed)
 - Ephemeral state must be persisted to durable storage before session ends
 
-**Content Flow State Machine** (COCKPIT.md):
+**Content Flow State Machine** (README.md):
 ```
 CAPTURED > INTERPRETED > COMPILED > STAGED > COMMITTED
                        > DIGESTED >
@@ -399,7 +399,7 @@ Prefix key: 􀆕Space (Control + Space)
 | Hazel | TBD -- not yet configured | Automated file routing (INBOX processing) |
 | Stream Deck | TBD -- not yet configured | Physical buttons for common commands |
 | n8n | TBD -- not yet configured | Workflow automation bridge |
-| rclone / Drive Sync | Referenced in COCKPIT.md | Gemini Gem Drive synchronization |
+| rclone / Drive Sync | Referenced in README.md | Gemini Gem Drive synchronization |
 
 ### Automation Goals
 

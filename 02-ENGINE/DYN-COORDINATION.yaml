@@ -1,6 +1,6 @@
 # Syncrescendence Platform Constellation Coordination
 # Defines agent roles, platform allocation, and conflict prevention
-# Authority: CANON-25200-CONSTELLATION_ARCH + COCKPIT.md
+# Authority: CANON-25200-CONSTELLATION_ARCH + README.md
 # Version: 3.0.0
 # Updated: 2026-02-09
 # Change: Complete rewrite for AjnaPsyche Archon + Enterprise Role model
@@ -82,7 +82,7 @@ coordination:
         - "dispatch_optimization"
         - "meta_awareness"
         - "strategic_orchestration"
-      communication: "-INBOX/ajna/ via git sync"
+      communication: "agents/ajna/inbox/ via git sync"
       notes: "Remote agent (MBA), NOT in cockpit. AjnaPsyche Archon steering wheel."
 
     psyche:
@@ -99,7 +99,7 @@ coordination:
         - "policy_enforcement"
         - "pipeline_fusion"
         - "system_health"
-      communication: "-INBOX/psyche/"
+      communication: "agents/psyche/inbox/"
       cockpit_pane: 1
       notes: "AjnaPsyche Archon rudder. OpenClaw port 18789."
 
@@ -118,7 +118,7 @@ coordination:
         - "git_operations"
         - "agent_teams"
         - "230+ skills"
-      communication: "-INBOX/commander/"
+      communication: "agents/commander/inbox/"
       cockpit_pane: 2
       notes: "Primary executor. ~98% autonomous."
 
@@ -136,7 +136,7 @@ coordination:
         - "test_suites"
         - "linting"
         - "formatting"
-      communication: "-INBOX/adjudicator/"
+      communication: "agents/adjudicator/inbox/"
       cockpit_pane: 3
 
     cartographer:
@@ -153,26 +153,26 @@ coordination:
         - "corpus_surveys"
         - "youtube_processing"
         - "multimodal"
-      communication: "-INBOX/cartographer/"
+      communication: "agents/cartographer/inbox/"
       cockpit_pane: 4
 
   # Communication patterns
   communication:
     dispatch:
       method: "filesystem_kanban"
-      location: "-INBOX/{agent}/00-INBOX0/"
+      location: "agents/{agent}/inbox/pending/"
       pattern: "TASK-*.md files with Status: PENDING"
       protocol: "Must include Reply-To + CC headers"
 
     returns:
       method: "filesystem_kanban"
-      location: "-INBOX/{requester}/00-INBOX0/"
+      location: "agents/{requester}/inbox/pending/"
       pattern: "RESULT-*.md or CONFIRM-*.md files"
 
     staging:
       method: "outgoing_folder"
-      location: "-OUTGOING/"
-      pattern: "CLI → WebApp prompt relay via Sovereign"
+      location: "agents/{agent}/outbox/"
+      pattern: "CLI → WebApp prompt relay via Sovereign (formerly -OUTGOING/, now deleted)"
 
     ajna_sync:
       method: "git_sync"
@@ -215,7 +215,7 @@ coordination:
     - "01-CANON/"
     - "00-ORCHESTRATION/state/"
     - "CLAUDE.md"
-    - "COCKPIT.md"
+    - "README.md"
 
   # Ledger conventions
   ledger_protocol:

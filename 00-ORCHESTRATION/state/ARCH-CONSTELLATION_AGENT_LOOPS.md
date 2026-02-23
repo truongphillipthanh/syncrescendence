@@ -43,7 +43,7 @@ Each cockpit agent runs an always-on event loop. The tmux cockpit (4x2 grid) pro
 ## Agent Loop: AJNA (MacBook Air — CSO/Steering Wheel)
 
 **CLI**: `openclaw tui --session main`
-**Watch**: `-INBOX/ajna/00-INBOX0/` (plist active)
+**Watch**: `agents/ajna/inbox/pending/` (plist active)
 **Memory Architecture**: HEARTBEAT.md, skills, OpenClaw memory system
 **Model**: Kimi K2.5 (via NVIDIA NIM API)
 **Machine**: MacBook Air
@@ -57,9 +57,9 @@ Each cockpit agent runs an always-on event loop. The tmux cockpit (4x2 grid) pro
 2. SITUATE    → /claresce (2-situate)
    cd ~/Desktop/syncrescendence/01-CANON
 3. CALIBRATE  → /claresce (3-calibrate)
-   cd ~/Desktop/syncrescendence/-INBOX/ajna/
+   cd ~/Desktop/syncrescendence/agents/ajna/
 4. TRIAGE     → /claresce (4-triage)
-                /triage(-INBOX/ajna, Discord)
+                /triage(agents/ajna/inbox, Discord)
                 /PLAN
                 /EXECUTE → DISPATCH {DIRECTIVE/FINGERPRINT} → appropriate agent
    ON COMPLETION:
@@ -72,7 +72,7 @@ Each cockpit agent runs an always-on event loop. The tmux cockpit (4x2 grid) pro
 5. PROACTIVE  → Ascertain meta/macro system/org purpose/aspiration
      → /claresce (6-internal_awareness(inRepoWork)+external_awareness(apartFromRepoWork))
      → /PLAN
-     → /EXECUTE → DISPATCH → -INBOX/-OUTGOING(agent(appropriate))
+     → /EXECUTE → DISPATCH → agents/{agent}/inbox/(appropriate)
    ON COMPLETION: (same as step 4)
 6. SOVEREIGN INTERACTION →
      → /claresce (7-internal+external awareness)
@@ -89,7 +89,7 @@ REPEAT
 ## Agent Loop: COMMANDER (Pane 2)
 
 **CLI**: `claude --dangerously-skip-permissions`
-**Watch**: `-INBOX/commander/00-INBOX0/` (plist active)
+**Watch**: `agents/commander/inbox/pending/` (plist active)
 **Memory Architecture**: CLAUDE.md, skills, Claude Code memory system
 
 ### Loop
@@ -100,11 +100,11 @@ REPEAT
 2. SITUATE    → /claresce (2-situate)
    cd ~/Desktop/syncrescendence/01-CANON
 3. CALIBRATE  → /claresce (3-calibrate)
-   cd ~/Desktop/syncrescendence/-INBOX/commander/
+   cd ~/Desktop/syncrescendence/agents/commander/
 4. TRIAGE     → /claresce (4-triage)
-                /triage(-INBOX/commander, Backlog, HighCommand, ClickUp, Linear)
+                /triage(agents/commander/inbox, Backlog, HighCommand, ClickUp, Linear)
                 /PLAN: main=BLITZKRIEG, other=MultiAgentTactics
-                /EXECUTE → DISPATCH → -INBOX/-OUTGOING(self + agent(appropriate))
+                /EXECUTE → DISPATCH → agents/{agent}/inbox/(self + appropriate)
                 Comprehensively, meticulously, rigorously DEPLOY Swarm(AgentTeams)
    ON COMPLETION:
      → /claresce (5-document)
@@ -134,7 +134,7 @@ REPEAT
 ## Agent Loop: ADJUDICATOR (Pane 3)
 
 **CLI**: `codex --dangerously-bypass-approvals-and-sandbox` (fallback `--full-auto`)
-**Watch**: `-INBOX/adjudicator/00-INBOX0/` (plist active on both machines)
+**Watch**: `agents/adjudicator/inbox/pending/` (plist active on both machines)
 **Memory Architecture**: AGENTS.md, skills, Codex CLI memory system
 **Model**: gpt-5.2-codex (Mac mini verified 2026-02-13; MBA plist update per DEC-C2, unverified)
 **Operational Note**: Hits API usage limits on Claude Pro tier. Security audit of 234+ skills completed (230 audited: 0 quarantine, 119 flagged, 111 cleared).
@@ -147,9 +147,9 @@ REPEAT
 2. SITUATE    → /claresce (2-situate)
    cd ~/Desktop/syncrescendence/01-CANON
 3. CALIBRATE  → /claresce (3-calibrate)
-   cd ~/Desktop/syncrescendence/-INBOX/adjudicator/
+   cd ~/Desktop/syncrescendence/agents/adjudicator/
 4. TRIAGE     → /claresce (4-triage)
-                /triage(-INBOX/adjudicator, Github)
+                /triage(agents/adjudicator/inbox, Github)
                 /PLAN: acceptance criteria, testing
                 /EXECUTE: {DIRECTIVE(fromCommander)}
                 Deploy Swarm(CodexEquivalent)
@@ -166,7 +166,7 @@ REPEAT
 5. PROACTIVE  → System throughput, output quality, QA, standards elevation
      → /claresce (6-premier, superlative development)
      → /PLAN: function/feature/QoL enhancement
-     → /EXECUTE → DISPATCH → -INBOX/-OUTGOING(self + agent(appropriate))
+     → /EXECUTE → DISPATCH → agents/{agent}/inbox/(self + appropriate)
      → Deploy Swarm(CodexEquivalent)
      → /EVALUATE + /REPAIR+ENHANCE+HARDEN
    ON COMPLETION: (same as step 4)
@@ -185,7 +185,7 @@ REPEAT
 ## Agent Loop: CARTOGRAPHER (Pane 4)
 
 **CLI**: `gemini -m gemini-2.5-pro --yolo`
-**Watch**: `-INBOX/cartographer/00-INBOX0/` (plist active on both machines)
+**Watch**: `agents/cartographer/inbox/pending/` (plist active on both machines)
 **Memory Architecture**: GEMINI.md, skills, Gemini CLI memory system
 **Operational Note**: Reactivated 2026-02-12 (was hibernated ~3 days per DA-CART-001). Produced >300-line MODEL-INDEX refresh. Dispatch reliability needs smoke test. Intermittent output quality.
 
@@ -197,9 +197,9 @@ REPEAT
 2. SITUATE    → /claresce (2-situate)
    cd ~/Desktop/syncrescendence/01-CANON
 3. CALIBRATE  → /claresce (3-calibrate)
-   cd ~/Desktop/syncrescendence/-INBOX/cartographer/
+   cd ~/Desktop/syncrescendence/agents/cartographer/
 4. TRIAGE     → /claresce (4-triage)
-                /triage(-INBOX/cartographer)
+                /triage(agents/cartographer/inbox)
                 /PLAN: hermeneutical, exegesis, dialectic, hidden synergy/emergence
                 /EXECUTE: {DIRECTIVE(from Ajna, Psyche, Commander, Adjudicator)}
                 Deploy Swarm(GeminiEquivalent)
@@ -231,7 +231,7 @@ REPEAT
 ## Agent Loop: PSYCHE (Mac mini resident — CTO/Rudder)
 
 **CLI**: `openclaw tui --session main`
-**Watch**: `-INBOX/psyche/00-INBOX0/` (plist active)
+**Watch**: `agents/psyche/inbox/pending/` (plist active)
 **Memory Architecture**: HEARTBEAT.md, skills, OpenClaw memory system (Mem0 auto-recall/capture)
 **Model**: GPT-5.3-codex (OpenAI via ChatGPT Plus)
 **Machine**: Mac mini (previously Ajna's, now Psyche's permanent home)
@@ -254,8 +254,8 @@ Psyche and Ajna form the **AjnaPsyche Archon** — two High Templar fused. Ajna 
    Check: ARCH-CONSTELLATION_AGENT_LOOPS.md, IMPLEMENTATION-MAP.md
    Verify: All agents compliant with Constitutional Rules (CLAUDE.md, AGENTS.md)
 4. TRIAGE     → /claresce (4-triage)
-   cd ~/Desktop/syncrescendence/-INBOX/psyche/
-                /triage(-INBOX/psyche, Discord)
+   cd ~/Desktop/syncrescendence/agents/psyche/
+                /triage(agents/psyche/inbox, Discord)
                 /PLAN: Focus on automation + policy + pipeline tasks
                 /EXECUTE → Focus on system cohesion deliverables
    ON COMPLETION:
@@ -293,7 +293,7 @@ REPEAT
 
 **Platform**: OpenClaw (Kimi K2.5 via NVIDIA NIM)
 **Machine**: MacBook Air (previously Psyche's, now Ajna's permanent home)
-**Communication**: Git sync via `-INBOX/ajna/`, Tailscale network
+**Communication**: Git sync via `agents/ajna/inbox/`, Tailscale network
 **Enterprise Role**: Chief Strategy Officer (CSO) — strategic direction, orchestration, dispatch
 **Status**: MBA configured — OpenClaw v2026.2.9 + NVIDIA/Kimi K2.5 provider + launchd watchers + 16 universal skills + 11 workspace skills active
 
@@ -331,7 +331,7 @@ REPEAT
 - cockpit.sh: 4x2 grid, SEARED heights (48/15), nvim direct launch, tmux hooks
 - 5 plist watchers: commander, adjudicator, cartographer, psyche, canon (ALL LOADED)
 - watchdog.sh: Fallback watcher (cooldown raised from 600s to 3600s per skills overhaul)
-- watch_dispatch.sh: Full filesystem kanban (00-INBOX0 -> 10-IN_PROGRESS -> 40-DONE/50-FAILED)
+- watch_dispatch.sh: Full filesystem kanban (inbox/pending -> inbox/active -> inbox/done/inbox/failed)
 - dispatch.sh: Task creation with auto Reply-To/CC
 - Docker services: Neo4j (7474), Graphiti (8001), Qdrant (6333), Chroma (8765)
 - Codex CLI: Upgraded to 0.101.0, gpt-5.2-codex verified (2026-02-13)
@@ -400,7 +400,7 @@ Phases 1-4 (orient, situate, calibrate, triage) can be collapsed into ONE call:
 ```
 /SENSE := parallel({
   repo_state:    git status + diff + log (5 sec)
-  inbox_state:   ls -INBOX/*/00-INBOX0/ (1 sec)
+  inbox_state:   ls agents/*/inbox/pending/ (1 sec)
   canon_drift:   diff 01-CANON/ since last checkpoint (3 sec)
   intention_vec: read ARCH-INTENTION_COMPASS.md (1 sec)
   external_sig:  poll Linear + ClickUp + GitHub (5 sec, cached)
@@ -521,7 +521,7 @@ AGENT_LOOP := forever {
 
 ## Cross-References
 
-- `COCKPIT.md` — System overview + platform config
+- `README.md` — System overview + platform config
 - `00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md` — Blitzkrieg architecture
 - `00-ORCHESTRATION/scripts/cockpit.sh` — Tmux creation script
 - `00-ORCHESTRATION/scripts/watch_dispatch.sh` — Filesystem kanban watcher

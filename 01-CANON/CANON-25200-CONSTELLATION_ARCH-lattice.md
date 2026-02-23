@@ -688,15 +688,15 @@ This directory exists solely for cross-platform state coordination. STATE.md cap
 
 **Why a dedicated directory?** State files must be discoverable and consistently located. Scattering state across multiple directories would create confusion about which file is authoritative. .constellation/ is the single answer to "where is the current state?"
 
-### -INBOX/ and -OUTGOING/: The Membrane
+### agents/<name>/inbox/ and agents/<name>/outbox/: The Membrane
 
-These directories form the interface between cloud platforms (which cannot directly access the filesystem) and the repository (which is filesystem-native).
+These directories (within each agent's office under `agents/`) form the interface between cloud platforms (which cannot directly access the filesystem) and the repository (which is filesystem-native). Previously these were top-level `-INBOX/` and `-OUTGOING/` directories; they have been consolidated into per-agent offices.
 
-**-INBOX/ teleology**: Cloud artifacts land here. When the Principal copies content from ChatGPT Canvas or downloads an artifact from Claude, it goes to -INBOX/ first. This is the decontamination chamber—content enters, is reviewed, and only then is committed to the repository proper. The dash prefix sorts it to the top of directory listings, ensuring visibility.
+**Inbox teleology**: Cloud artifacts land in `agents/<name>/inbox/pending/`. When the Principal copies content from ChatGPT Canvas or downloads an artifact from Claude, it goes to the appropriate agent's inbox first. This is the decontamination chamber--content enters, is reviewed, and only then is committed to the repository proper. The inbox subdirectories (`pending/`, `active/`, `done/`, `failed/`) implement a filesystem kanban.
 
-**-OUTGOING/ teleology**: Evidence packs and deliverables stage here for distribution. When Gemini CLI produces a corpus survey, the evidence pack lands in -OUTGOING/. When a final deliverable is ready for external consumption, it stages in -OUTGOING/. This is the export buffer—content that will leave the repository passes through here first.
+**Outbox teleology**: Evidence packs and deliverables stage in `agents/<name>/outbox/` for distribution. When Gemini CLI produces a corpus survey, the evidence pack lands in the agent's outbox. When a final deliverable is ready for external consumption, it stages in the outbox. This is the export buffer--content that will leave the repository passes through here first.
 
-**Why explicit membranes?** Without explicit boundaries, cloud-derived content would mix unpredictably with repository-native content. The membranes enforce a protocol: CAPTURE to -INBOX/, review, commit, file. DISPATCH from repository, execute, RETURN to -OUTGOING/, review, distribute. The friction is intentional; it prevents unreviewed content from contaminating the corpus.
+**Why explicit membranes?** Without explicit boundaries, cloud-derived content would mix unpredictably with repository-native content. The membranes enforce a protocol: CAPTURE to inbox, review, commit, file. DISPATCH from repository, execute, RETURN to outbox, review, distribute. The friction is intentional; it prevents unreviewed content from contaminating the corpus.
 
 ### 00-ORCHESTRATION/ through 05-SIGMA/: The Semantic Hierarchy
 
@@ -712,7 +712,7 @@ The numbered directories impose semantic organization on the corpus:
 
 **Why numbered prefixes?** Filesystem sorting. When `ls` or a file picker displays directory contents, numbered prefixes ensure consistent ordering. 00 always appears first (current operations); 05 always appears near the end (archived history). The Principal's eye learns the position; navigation becomes automatic.
 
-### CLAUDE.md, COCKPIT.md, AVATAR-*.md: Platform Entry Points
+### CLAUDE.md, README.md, AVATAR-*.md: Platform Entry Points
 
 These files serve as entry points for their respective platforms:
 
@@ -720,7 +720,7 @@ These files serve as entry points for their respective platforms:
 
 **AVATAR-*.md teleology**: Each platform has a dedicated avatar file in 02-ENGINE/ (e.g., AVATAR-GEMINI-WEB.md, AVATAR-GEMINI-CLI.md, AVATAR-CHATGPT.md) that serves as context preamble. These files orient each platform to its role, the corpus structure, and expected output formats.
 
-**COCKPIT.md teleology**: Web apps cannot read local files directly, but the Sovereign can paste COCKPIT.md contents into any platform as orientation context. It provides the 30,000-foot view: what is Syncrescendence, what are the current objectives, what is the constellation architecture. This is the "refresh" document when a platform has lost context.
+**README.md teleology**: Web apps cannot read local files directly, but the Sovereign can paste README.md contents into any platform as orientation context. It provides the 30,000-foot view: what is Syncrescendence, what are the current objectives, what is the constellation architecture. This is the "refresh" document when a platform has lost context.
 
 ---
 

@@ -1,7 +1,7 @@
 # Syncrescendence Knowledge Management System
 
-**Version**: 3.0.0
-**Last Updated**: 2026-02-01
+**Version**: 4.0.0
+**Last Updated**: 2026-02-22
 
 ## Identity
 This is Syncrescendence, a civilizational sensing infrastructure demonstrating AI-amplified individual capability at institutional scale. You are executing directives as part of a multi-agent coordination system (the Constellation).
@@ -21,10 +21,10 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural (ABSOLUTE)
-1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`; `-INBOX/` per-agent subfolders.
+1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`; `agents/<name>/` internal structure.
 2. **NUMBERED DIRECTORIES**: Top-level directories are 00, 01, 02, 04, 05 (with gaps). Do not create new numbered directories.
 3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
-4. **SANCTIONED EXCEPTIONS**: `-OUTGOING/`, `-INBOX/`, and `-SOVEREIGN/` are the only non-numbered directories permitted at root.
+4. **SANCTIONED EXCEPTIONS**: `agents/`, `collab/`, and `-SOVEREIGN/` are the only non-numbered directories permitted at root (besides dotfiles).
 
 ### Semantic (ABSOLUTE)
 5. **DISTILLATION SEMANTICS**: "Metabolize/distill" = READ → EXTRACT unique value → COMPRESS → DELETE originals. NOT organizational restructuring.
@@ -46,17 +46,28 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 02-ENGINE/          Functions, prompts, avatars, model profiles, queue items
 04-SOURCES/         Source documents (raw/, processed/, research/)
 05-SIGMA/           Operational knowledge corpus + memory + exempla
-  synthesis/        Canonical platform references
+  syntheses/        Canonical platform references
   mechanics/        Deep-dive mechanisms
   practice/         Implementation patterns
--INBOX/             Agent watch folders (per-agent task dispatch)
-  commander/        Claude Code (Opus) incoming tasks
-  adjudicator/      Codex CLI incoming tasks
-  cartographer/     Gemini CLI incoming tasks
-  psyche/           OpenClaw GPT-5.3-codex incoming tasks (Mac mini)
-  ajna/             OpenClaw Kimi K2.5 incoming tasks (MBA remote)
--OUTGOING/          CLI → WebApp prompt staging (Sovereign relays)
+agents/             Agent offices (per-agent workspace + inbox + memory)
+  commander/        Claude Code (Opus) — COO
+  adjudicator/      Codex CLI — CQO
+  cartographer/     Gemini CLI — CIO
+  psyche/           OpenClaw GPT-5.3-codex — CTO (Mac mini)
+  ajna/             OpenClaw Kimi K2.5 — CSO (MBA)
+collab/             Multi-agent collaboration space (max 3 active projects)
 -SOVEREIGN/         Async decision queue from CLI agents to Sovereign
+```
+
+### Agent Office Structure (Standard)
+```
+agents/<name>/
+├── INIT.md          Agent identity, role, protocols
+├── inbox/           Filesystem kanban (pending/active/done/failed/blocked)
+├── outbox/          Results, evidence packs, receipts
+├── scratchpad/      Working files, drafts
+├── memory/          Three-layer memory (MEMORY.md + entities/ + journal/)
+└── _platform/       Platform-specific extensions
 ```
 
 ---
@@ -105,8 +116,8 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 1. **Initiate everything you can** — launch apps, generate configs, write scripts, stage commands. Do NOT stop and wait.
 2. **Present the Sovereign with a minimal action** — "paste this", "click approve", "enter password". Never multi-step manual procedures.
 3. **If machine-blocked** → dispatch to the agent ON that machine:
-   - MBA blocked → dispatch to **Ajna** (`-INBOX/ajna/`)
-   - Mac mini blocked → dispatch to **Psyche** (`-INBOX/psyche/`)
+   - MBA blocked → dispatch to **Ajna** (`agents/ajna/inbox/`)
+   - Mac mini blocked → dispatch to **Psyche** (`agents/psyche/inbox/`)
 4. **If credential-blocked** → present Sovereign with ONE action
 5. **If policy-blocked** → escalate to `-SOVEREIGN/`
 6. **NEVER** stop and describe what "needs to happen" — DO IT or DISPATCH IT
@@ -131,11 +142,11 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 
 | Reference | Path |
 |-----------|------|
-| Constellation mapping | `COCKPIT.md` (authoritative avatar/role assignments) |
+| Constellation mapping | `README.md` (authoritative avatar/role assignments) |
 | Terminology reconciliation | `02-ENGINE/REF-ROSETTA_STONE.md` |
 | Fleet operations | `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` |
 | Technology stack | `02-ENGINE/REF-STACK_TELEOLOGY.md` |
-| Operational knowledge | `05-SIGMA/` (16 mechanics/practice/exempla docs) |
+| Operational knowledge | `05-SIGMA/` (31 docs: mechanics, practice, syntheses, exempla) |
 | Semantic Notation | `00-ORCHESTRATION/scripts/SN_BLOCK_TEMPLATES.md`, `sn_symbols.yaml` |
 | SN encoding/decoding | `00-ORCHESTRATION/scripts/sn_encode.py`, `sn_decode.py` |
 | Intention archaeology | `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` |
@@ -173,14 +184,14 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 ### A. Directive Initialization Protocol
 *Fires at the start of every non-trivial directive.*
 
-1. **Inbox scan**: Check `-INBOX/commander/00-INBOX0/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
+1. **Inbox scan**: Check `agents/commander/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
 1b. **Deferred commitments check**: Read `00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` — identify any OPEN items that overlap with current directive. Update status for items being addressed this session.
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
-3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
+3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `README.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
 4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
 5. **Delegation assessment**: Identify tasks suitable for parallel agents:
-   - Mechanical execution, test suites, debugging, formatting, linting → dispatch to Adjudicator (`-INBOX/adjudicator/`)
-   - Corpus surveys requiring 1M+ context → dispatch to Cartographer (`-INBOX/cartographer/`)
+   - Mechanical execution, test suites, debugging, formatting, linting → dispatch to Adjudicator (`agents/adjudicator/inbox/`)
+   - Corpus surveys requiring 1M+ context → dispatch to Cartographer (`agents/cartographer/inbox/`)
    - Use `bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"` — dispatch.sh auto-injects Reply-To + CC for bidirectional feedback
    - If writing TASK files manually, you MUST include `**Reply-To**: commander` and `**CC**: commander`
 
@@ -243,14 +254,14 @@ ICMP ping is BLOCKED by macOS Stealth Mode firewall on both machines. NEVER use 
 ### 1) Auto-Ingest System (task flow — SOLE DISPATCH SYSTEM)
 `auto_ingest_loop.sh` is the **only** task dispatch system. `watch_dispatch.sh` was deprecated on 2026-02-17 (caused race conditions, silent failures). Task lifecycle is deterministic and file-backed:
 
-1. `00-ORCHESTRATION/scripts/dispatch.sh` creates `TASK-*.md` in `-INBOX/<agent>/00-INBOX0/`
+1. `00-ORCHESTRATION/scripts/dispatch.sh` creates `TASK-*.md` in `agents/<agent>/inbox/pending/`
 2. Cross-machine SCP sling via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>` env vars
 3. `00-ORCHESTRATION/scripts/auto_ingest_loop.sh` polls INBOX0 every 30s
-4. Task is moved to `-INBOX/<agent>/10-IN_PROGRESS/`
+4. Task is moved to `agents/<agent>/inbox/active/`
 5. Agent CLI executes objective (tmux dispatch or Gemini headless)
 6. Result written to `-OUTBOX/<agent>/RESULTS/RESULT-<agent>-*.md`
-7. Task moves to `-INBOX/<agent>/40-DONE/` or `50_FAILED/`
-8. CONFIRM receipt sent to `-INBOX/<reply-to-agent>/00-INBOX0/`
+7. Task moves to `agents/<agent>/inbox/done/` or `inbox/failed/`
+8. CONFIRM receipt sent to `agents/<reply-to-agent>/inbox/pending/`
 9. If reply-to agent is on another machine, CONFIRM is SCP'd via Neural Bridge
 
 ### 2) Health Watchdog
@@ -313,7 +324,7 @@ Cross-machine delivery is controlled by env vars (set in ~/.zshrc on BOTH machin
 - Other agents compensate through dispatch and CC routing
 - Recovery sequence:
   1. Restart CLI
-  2. Check `-INBOX/<agent>/00-INBOX0/` and `10-IN_PROGRESS/`
+  2. Check `agents/<agent>/inbox/pending/` and `inbox/active/`
   3. Resume objective from filesystem state
 
 ### 8) NEVER

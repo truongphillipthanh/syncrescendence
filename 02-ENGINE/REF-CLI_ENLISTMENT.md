@@ -79,13 +79,13 @@ gemini --model gemini-3-flash "Generate token count inventory for 04-SOURCES/"
 ## Psyche — OpenClaw (GPT-5.2, M4 MBA)
 
 **Account**: Local (no API key needed for OpenClaw)
-**Trigger**: Task file in `-INBOX/psyche/` + filesystem watcher
+**Trigger**: Task file in `agents/psyche/inbox/` + filesystem watcher
 
 ```bash
 # From Commander, dispatch a task:
 bash 00-ORCHESTRATION/scripts/dispatch.sh psyche "TOPIC" "Task description..."
 
-# Psyche watches -INBOX/psyche/ for TASK-*.md files
+# Psyche watches agents/psyche/inbox/pending/ for TASK-*.md files
 # On the M4 MBA, start the watcher:
 bash 00-ORCHESTRATION/scripts/watch_dispatch.sh psyche
 ```
@@ -98,7 +98,7 @@ bash 00-ORCHESTRATION/scripts/watch_dispatch.sh psyche
 ## Ajna — OpenClaw (Opus 4.5, M1 Mini)
 
 **Account**: Local
-**Trigger**: Task file in `-INBOX/ajna/` + filesystem watcher
+**Trigger**: Task file in `agents/ajna/inbox/` + filesystem watcher
 
 ```bash
 # From any agent, dispatch a task to Ajna:
@@ -138,7 +138,7 @@ bash 00-ORCHESTRATION/scripts/dispatch.sh psyche \
   "QA_REVIEW" \
   "Review all files modified in the last commit for quality issues"
 # Commander continues with other work...
-# Psyche processes and writes results to -OUTGOING/
+# Psyche processes and writes results to agents/psyche/outbox/
 ```
 
 ---
@@ -164,7 +164,7 @@ bash 00-ORCHESTRATION/scripts/dispatch.sh psyche \
 
 ## Cross-References
 
-- `COCKPIT.md` — Constellation overview and platform configs
+- `README.md` — Constellation overview and platform configs
 - `02-ENGINE/gemini-settings.json` — Gemini CLI settings template
 - `00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md` — Twin coordination
 - `02-ENGINE/DYN-COORDINATION.yaml` — Platform coordination state

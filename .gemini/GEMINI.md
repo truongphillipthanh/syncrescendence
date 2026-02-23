@@ -7,13 +7,13 @@ This is a 693+ file Obsidian vault and Git repository containing:
 - `02-ENGINE/` — Functions, prompts, avatars, model profiles, queue items
 - `04-SOURCES/` — Source documents (raw/, processed/, research/)
 - `05-SIGMA/` — Operational knowledge corpus + memory + exempla
-- `-INBOX/` — Filesystem kanban for agent task dispatch (per-agent subfolders)
-- `-OUTGOING/` — CLI to WebApp prompt staging
+- `agents/` — Filesystem kanban for agent task dispatch (per-agent subfolders)
+
 - `-SOVEREIGN/` — Async decision queue from CLI agents to Sovereign
 
 ## Key Files
 - `IMPLEMENTATION-MAP.md` at `00-ORCHESTRATION/state/IMPLEMENTATION-MAP.md` — 100+ sprint-level tasks
-- `COCKPIT.md` — Constellation avatar/role assignments (authoritative)
+- `README.md` — Constellation avatar/role assignments (authoritative)
 - `ARCH-INTENTION_COMPASS.md` — Active strategic intentions
 - `ARCH-CONSTELLATION_AGENT_LOOPS.md` — 7-phase agent loop architecture
 - `REF-ROSETTA_STONE.md` at `02-ENGINE/` — 209+ term glossary

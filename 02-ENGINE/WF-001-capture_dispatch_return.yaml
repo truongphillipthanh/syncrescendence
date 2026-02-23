@@ -20,5 +20,5 @@ quality_gates:
   - "Artifact committed to repo (Five Invariant #3: Receipts)"
   - "Conversation deletable without loss (Five Invariant #4: Continuation/Deletability)"
 provenance:
-  - source: "COCKPIT.md (The Three-Word Mnemonic)"
+  - source: "README.md (The Three-Word Mnemonic)"
   - source: "02-ENGINE/REF-ROSETTA_STONE.md (#7)"

@@ -11,7 +11,7 @@
 #   bash dispatch.sh ajna "FOO" "do bar" "psyche" TASK commander
 #
 # Agents: commander, adjudicator, cartographer, psyche, ajna
-# Writes a TASK file to -INBOX/<agent>/ for autonomous processing
+# Writes a TASK file to agents/<agent>/inbox/pending for autonomous processing
 #
 # BIDIRECTIONAL FEEDBACK: The dispatching agent is automatically added to CC
 # and a Reply-To header routes the RESULT back to the sender's inbox.
@@ -77,11 +77,11 @@ if [ -f "$BREAKER_FILE" ]; then
     fi
 fi
 
-INBOX0_DIR="$REPO_ROOT/-INBOX/$AGENT/00-INBOX0"
-INPROG_DIR="$REPO_ROOT/-INBOX/$AGENT/10-IN_PROGRESS"
-DONE_DIR="$REPO_ROOT/-INBOX/$AGENT/40-DONE"
-FAILED_DIR="$REPO_ROOT/-INBOX/$AGENT/50_FAILED"
-RECEIPTS_DIR="$REPO_ROOT/-INBOX/$AGENT/RECEIPTS"
+INBOX0_DIR="$REPO_ROOT/agents/$AGENT/inbox/pending"
+INPROG_DIR="$REPO_ROOT/agents/$AGENT/inbox/active"
+DONE_DIR="$REPO_ROOT/agents/$AGENT/inbox/done"
+FAILED_DIR="$REPO_ROOT/agents/$AGENT/inbox/failed"
+RECEIPTS_DIR="$REPO_ROOT/agents/$AGENT/outbox"
 
 # Ensure kanban dirs exist (do not rely on git tracking empty dirs)
 mkdir -p "$INBOX0_DIR" "$INPROG_DIR" "$DONE_DIR" "$FAILED_DIR" "$RECEIPTS_DIR"
@@ -112,7 +112,7 @@ case "$FROM_RAW" in
 esac
 
 TASK_FILE="$INBOX0_DIR/TASK-${DATE}-${TOPIC_SLUG}.md"
-RECEIPTS_TO="-OUTBOX/${AGENT}/RESULTS"
+RECEIPTS_TO="agents/${AGENT}/outbox"
 RESULT_FILE="${RECEIPTS_TO}/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md"
 
 cat > "$TASK_FILE" << EOF
@@ -148,14 +148,14 @@ $DESCRIPTION
 ## Context Files
 
 Consult as needed:
-- \`COCKPIT.md\` — Constellation overview
+- \`README.md\` — Constellation overview
 - \`CLAUDE.md\` — Constitutional rules
 - \`00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md\` — Active intentions
 - \`02-ENGINE/DEF-CONSTELLATION_VARIABLES.md\` — Global definitions
 
 ## Expected Output
 
-- Write results to \`-OUTBOX/${AGENT}/RESULTS/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md\`
+- Write results to \`agents/${AGENT}/outbox/RESULT-${AGENT}-${DATE}-${TOPIC_SLUG}.md\`
 - Or commit directly if you have write access
 
 ## Completion Protocol
@@ -178,10 +178,10 @@ AGENT_UPPER=$(echo "$AGENT" | tr '[:lower:]' '[:upper:]')
 REMOTE_HOST_VAR="SYNCRESCENDENCE_REMOTE_AGENT_HOST_${AGENT_UPPER}"
 REMOTE_HOST="${!REMOTE_HOST_VAR:-$AGENT}"
 if [ -n "$REMOTE_HOST" ] && [ "$REMOTE_HOST" != "local" ] && [ "$REMOTE_HOST" != "localhost" ]; then
-    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$REMOTE_HOST" "test -d ~/Desktop/syncrescendence/-INBOX/$AGENT/00-INBOX0" 2>/dev/null; then
+    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$REMOTE_HOST" "test -d ~/Desktop/syncrescendence/agents/$AGENT/inbox/pending" 2>/dev/null; then
         scp -q -o BatchMode=yes -o ConnectTimeout=5 "$TASK_FILE" \
-            "$REMOTE_HOST:~/Desktop/syncrescendence/-INBOX/$AGENT/00-INBOX0/" 2>/dev/null || true
-        echo "[Dispatch] Remote sling: copied task to $REMOTE_HOST:/-INBOX/$AGENT/00-INBOX0/"
+            "$REMOTE_HOST:~/Desktop/syncrescendence/agents/$AGENT/inbox/pending/" 2>/dev/null || true
+        echo "[Dispatch] Remote sling: copied task to $REMOTE_HOST:agents/$AGENT/inbox/pending/"
     fi
 fi
 

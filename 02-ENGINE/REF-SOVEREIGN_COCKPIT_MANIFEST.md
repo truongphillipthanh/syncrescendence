@@ -45,7 +45,7 @@ font-size = 13
 background = 000000
 foreground = cdd6f4
 cursor-color = f5e0dc
-selection-background = 45475a
+selection-background = 535353
 selection-foreground = cdd6f4
 palette = 0=#45475a
 palette = 1=#f38ba8
@@ -1191,10 +1191,10 @@ return {
   ;; Agenda sources — state files + inbox captures
   (setq org-agenda-files
         '("~/Desktop/syncrescendence/00-ORCHESTRATION/state/"
-          "~/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/"
-          "~/Desktop/syncrescendence/-INBOX/ajna/00-INBOX0/"
-          "~/Desktop/syncrescendence/-INBOX/adjudicator/00-INBOX0/"
-          "~/Desktop/syncrescendence/-INBOX/cartographer/00-INBOX0/"))
+          "~/Desktop/syncrescendence/agents/commander/inbox/pending/"
+          "~/Desktop/syncrescendence/agents/ajna/inbox/pending/"
+          "~/Desktop/syncrescendence/agents/adjudicator/inbox/pending/"
+          "~/Desktop/syncrescendence/agents/cartographer/inbox/pending/"))
 
   ;; TODO workflow
   (setq org-todo-keywords
@@ -1290,25 +1290,25 @@ return {
           ("i" "Inbox (all agents)"
            ((alltodo "" ((org-agenda-overriding-header "Inbox Items")
                          (org-agenda-files
-                          '("~/Desktop/syncrescendence/-INBOX/commander/00-INBOX0/"
-                            "~/Desktop/syncrescendence/-INBOX/ajna/00-INBOX0/"
-                            "~/Desktop/syncrescendence/-INBOX/adjudicator/00-INBOX0/"
-                            "~/Desktop/syncrescendence/-INBOX/cartographer/00-INBOX0/")))))))))
+                          '("~/Desktop/syncrescendence/agents/commander/inbox/pending/"
+                            "~/Desktop/syncrescendence/agents/ajna/inbox/pending/"
+                            "~/Desktop/syncrescendence/agents/adjudicator/inbox/pending/"
+                            "~/Desktop/syncrescendence/agents/cartographer/inbox/pending/")))))))))
 
 ;; ── Org Capture: constellation-aware templates ────────────────────────────
 (after! org
   (setq org-capture-templates
         `(("t" "Task (Commander)" entry
-           (file+headline ,(expand-file-name "-INBOX/commander/00-INBOX0/capture.org" org-directory) "Captured")
+           (file+headline ,(expand-file-name "agents/commander/inbox/pending/capture.org" org-directory) "Captured")
            "* TODO [#C] %?\n:PROPERTIES:\n:CREATED: %U\n:AGENT: commander\n:END:\n%i")
           ("a" "Task (Ajna)" entry
-           (file+headline ,(expand-file-name "-INBOX/ajna/00-INBOX0/capture.org" org-directory) "Captured")
+           (file+headline ,(expand-file-name "agents/ajna/inbox/pending/capture.org" org-directory) "Captured")
            "* TODO [#C] %?\n:PROPERTIES:\n:CREATED: %U\n:AGENT: ajna\n:END:\n%i")
           ("d" "Task (Adjudicator)" entry
-           (file+headline ,(expand-file-name "-INBOX/adjudicator/00-INBOX0/capture.org" org-directory) "Captured")
+           (file+headline ,(expand-file-name "agents/adjudicator/inbox/pending/capture.org" org-directory) "Captured")
            "* TODO [#C] %?\n:PROPERTIES:\n:CREATED: %U\n:AGENT: adjudicator\n:END:\n%i")
           ("c" "Task (Cartographer)" entry
-           (file+headline ,(expand-file-name "-INBOX/cartographer/00-INBOX0/capture.org" org-directory) "Captured")
+           (file+headline ,(expand-file-name "agents/cartographer/inbox/pending/capture.org" org-directory) "Captured")
            "* TODO [#C] %?\n:PROPERTIES:\n:CREATED: %U\n:AGENT: cartographer\n:END:\n%i")
           ("i" "Intention" entry
            (file+headline ,(expand-file-name "00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md" org-directory) "Queue")
@@ -1411,7 +1411,7 @@ return {
 ;; ── Keybindings for constellation dashboard ─────────────────────────────
 (map! :leader
       (:prefix ("d" . "dashboard")
-       :desc "Constellation state" "s" #'(lambda () (interactive) (find-file "~/Desktop/syncrescendence/COCKPIT.md"))
+       :desc "Constellation state" "s" #'(lambda () (interactive) (find-file "~/Desktop/syncrescendence/README.md"))
        :desc "Intention Compass" "i" #'(lambda () (interactive) (find-file "~/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md"))
        :desc "Execution Log" "e" #'(lambda () (interactive) (find-file "~/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md"))
        :desc "Session Log" "l" #'(lambda () (interactive) (find-file "~/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-SESSION_LOG.md"))
@@ -2059,8 +2059,8 @@ You are **Adjudicator**, epithet **Executor**, the CQO of the Syncrescendence co
 - **Cartographer** = CIO (Gemini 2.5 Pro, Mac mini) — intelligence
 
 ## Task Dispatch
-- Receive tasks via: `-INBOX/adjudicator/00-INBOX0/`
-- Reply to dispatching agent via their `-INBOX/<agent>/00-INBOX0/`
+- Receive tasks via: `agents/adjudicator/inbox/pending/`
+- Reply to dispatching agent via their `agents/<agent>/inbox/pending/`
 
 ## Skills (23 in ~/.codex/skills/)
 16 universal symlinks + 7 Codex-specific:
@@ -2074,7 +2074,7 @@ gh-fix-ci, gh-address-comments, yeet, changelog-generator
 **Model**: Gemini 2.5 Pro (1M+ context) | **Pane**: 7 (top-right)
 
 #### Instructions
-**File**: `~/.gemini/GEMINI.md` (48 lines)
+**File**: `GEMINI.md` (48 lines)
 
 ```markdown
 # Cartographer — Chief Intelligence Officer (CIO)
@@ -2101,7 +2101,7 @@ gemini-notifier, gemini-obsidian, plan, self-command
 **Pane**: 1 (top-left, Psyche on Mac mini)
 **Ajna**: MacBook Air (remote), NOT in cockpit
 
-**CRITICAL MISMATCH (2026-02-09)**: `openclaw.json` model field says `openai-codex/gpt-5.2` (Psyche's model). But the personality files (SOUL.md, AGENTS.md, MEMORY.md, USER.md) were rewritten for AJNA during Session 6 "transition." The model config targets Psyche, but the soul targets Ajna. Needs Sovereign decision to resolve.
+**CRITICAL MISMATCH (2026-02-09)**: `openclaw.json` model field says `openai-codex/gpt-5.2` (Psyche's model). But the personality files (SOUL.md, INIT.md, MEMORY.md, USER.md) were rewritten for AJNA during Session 6 "transition." The model config targets Psyche, but the soul targets Ajna. Needs Sovereign decision to resolve.
 
 #### openclaw.json
 **File**: `~/.openclaw/openclaw.json` (182 lines)
@@ -2130,7 +2130,7 @@ gemini-notifier, gemini-obsidian, plan, self-command
         "enabled": true,
         "sources": ["memory"],
         "extraPaths": [
-          "/Users/home/Desktop/syncrescendence/COCKPIT.md",
+          "/Users/home/Desktop/syncrescendence/README.md",
           "/Users/home/Desktop/syncrescendence/CLAUDE.md",
           "/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md",
           "/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-BACKLOG.md",
@@ -2559,7 +2559,7 @@ Layer 6: ├→ Claude Code (npm -g) → ~/.claude.json (MCP servers)
          │   └→ Skills: npx skills add ... -g -y (226 skills)
          ├→ Codex CLI (npm -g) → ~/.codex/instructions.md
          │   └→ Skills: 23 in ~/.codex/skills/
-         ├→ Gemini CLI (brew) → ~/.gemini/GEMINI.md
+         ├→ Gemini CLI (brew) → GEMINI.md
          │   └→ Extensions: 8 in ~/.gemini/extensions/
          └→ OpenClaw → ~/.openclaw/{openclaw.json,SOUL.md,...}
              └→ Plugins: discord, mcp-adapter, mem0
@@ -2621,4 +2621,4 @@ The MacBook Air (Ajna) requires this EXACT sequence:
 1. Display geometry: NOT 5120x1440. cockpit.sh needs different bounds.
 2. NVIDIA API key: same key, deployed to `~/.syncrescendence/.env` and `~/.openclaw/.env`
 3. OpenClaw model: Kimi K2.5 (NOT gpt-5.2 --- MBA runs Ajna, not Psyche)
-4. Ajna communicates with Mac mini cockpit via `-INBOX/ajna/` git sync, NOT via tmux pane
+4. Ajna communicates with Mac mini cockpit via `agents/ajna/inbox/` git sync, NOT via tmux pane

@@ -19,18 +19,18 @@ Report: branch, fingerprint (short hash), clean/dirty state.
 
 ## Step 2: Inbox Scan
 ```bash
-ls -la -INBOX/cartographer/00-INBOX0/
+ls -la agents/cartographer/inbox/pending/
 ```
 Report: number of TASK-*.md files pending, any CONFIRM-* or RESULT-* files.
 
 ## Step 3: Triumvirate Alignment
 Read these three files and extract P0 items:
 - `GEMINI.md` (your identity + protocols)
-- `COCKPIT.md` (constellation roles — find your status)
+- `README.md` (constellation roles — find your status)
 - `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` (active intentions)
 
 ## Step 4: Fleet Health
-Report your agent status from COCKPIT.md. Note if status says HIBERNATED (it should say ACTIVE).
+Report your agent status from README.md. Note if status says HIBERNATED (it should say ACTIVE).
 
 ## Step 5: Situation Report (SITREP)
 Produce a 10-15 line report:

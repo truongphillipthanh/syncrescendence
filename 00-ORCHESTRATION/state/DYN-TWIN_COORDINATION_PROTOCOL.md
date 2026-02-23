@@ -41,8 +41,8 @@ Phillip is **only** pinged when:
 
 ### Inter-Twin Communication
 - **Primary channel**: Slack (Psyche's native surface)
-- **Secondary**: Shared filesystem (`-INBOX/outputs/`, git commits)
-- **Protocol**: Any twin can write to `-INBOX/outputs/` with prefix `TWIN-{FROM}-{TO}-{topic}.md`
+- **Secondary**: Shared filesystem (`collab/`, git commits)
+- **Protocol**: Any twin can write to `collab/` with prefix `TWIN-{FROM}-{TO}-{topic}.md`
 - **Git**: Only Ajna commits (avoids merge conflicts on single-branch repo)
 
 ### Update Format (both twins)
@@ -83,7 +83,7 @@ Phillip is **only** pinged when:
 2. **Latest commit**: `65af7ab` (chore: Update constellation state fingerprint to e70a9f3)
 3. **Workspace extractions migrated to**: `05-SIGMA/MEMORY-AJNA-THREAD-EXTRACTION.md`, `05-SIGMA/MEMORY-CHATGPT-ASSESSMENT-EXTRACTION.md`, `05-SIGMA/MEMORY-CHATGPT-MISC-EXTRACTION.md`
 4. **Ontology Registry**: Schema → `00-ORCHESTRATION/state/REF-ONTOLOGY_REGISTRY.md` (done). Data → `02-ENGINE/ontology/registry/` (10 spine entities seeded). Extraction table → `00-ORCHESTRATION/state/ARCH-ONTOLOGY_EXTRACTION_TABLE.md`.
-5. **Rosetta v2.0**: Expanded directly in canonical `02-ENGINE/REF-ROSETTA_STONE.md` (167 terms). Drop zone `-INBOX/outputs/` was deleted during hygiene sprint; Ajna wrote directly to canonical location.
+5. **Rosetta v2.0**: Expanded directly in canonical `02-ENGINE/REF-ROSETTA_STONE.md` (167 terms). Drop zone (formerly `-INBOX/outputs/`) was deleted during hygiene sprint; Ajna wrote directly to canonical location.
 
 ---
 
@@ -92,7 +92,7 @@ Phillip is **only** pinged when:
 ### Completed
 - [x] Stack Teleology v0.1 (02-ENGINE/REF-STACK_TELEOLOGY.md)
 - [x] Platform Registry expanded (18 entries)
-- [x] COCKPIT.md updated with OpenClaw roles
+- [x] README.md updated with OpenClaw roles
 - [x] Desktop survey complete
 - [x] Workspace memory migrated to corpus
 - [x] Desktop Ingestion Protocol created
@@ -109,7 +109,7 @@ Phillip is **only** pinged when:
 - [x] Ontology extraction table from legacy/Tech — 131 files, 10 domains, 230+ tools, 130+ capabilities (Ajna, ARCH-ONTOLOGY_EXTRACTION_TABLE.md)
 - [x] Seed ontology registry — 10 spine entities in 02-ENGINE/ontology/registry/ (5 CAP, 4 TOOL, 1 WF) (Ajna)
 - [x] Rosetta v2.0 internal term expansion — 18 → 167 terms, 79% UNIQUE (Ajna, REF-ROSETTA_STONE.md)
-- [x] Pantheon naming integration into COCKPIT.md v2.2 (Ajna)
+- [x] Pantheon naming integration into README.md v2.2 (Ajna)
 
 ### In Progress
 - [ ] Desktop consolidation (legacy/ + configuration_layers/ pending sovereign review)
@@ -125,7 +125,7 @@ Phillip is **only** pinged when:
 
 ### Ajna Heartbeat (~30m)
 Each heartbeat, check:
-1. New files in `-INBOX/outputs/` from Psyche?
+1. New files in `collab/` from Psyche?
 2. Pending canonicalization tasks?
 3. Wikilink batch progress?
 
