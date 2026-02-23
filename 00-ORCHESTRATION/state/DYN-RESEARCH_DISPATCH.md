@@ -49,7 +49,7 @@ PROJ-006 (Ontology — "Final Boss")
 4. **MCP support**: Does Gemini CLI support MCP servers? What tooling is available?
 5. **API key management**: Account 2 (Google AI Pro) — how to configure, rotate, secure?
 6. **Output formatting**: Can it produce structured output (JSON, YAML) reliably?
-7. **Integration with our pipeline**: How to receive tasks from `agents/cartographer/inbox/` and write to `-OUTGOING/`?
+7. **Integration with our pipeline**: How to receive tasks from `agents/cartographer/inbox/` and write to `agents/cartographer/outbox/`?
 
 ### Phase 3 Owner: Ajna (can synthesize from existing sources + web research)
 ### Phase 4-5 Owner: Ajna + Commander (test integration, update avatar config)
@@ -91,7 +91,7 @@ PROJ-006 (Ontology — "Final Boss")
 
 **Pipeline Phase**: 1-5 (FULL PIPELINE — we're running on it but haven't formally researched)
 **Raw Sources**: None formally gathered (we're the source)
-**Avatar Config**: None yet (Ajna/Psyche defined in COCKPIT.md + Twin Protocol)
+**Avatar Config**: None yet (Ajna/Psyche defined in README.md + Twin Protocol)
 **Docs**: `/opt/homebrew/lib/node_modules/openclaw/docs/` (local), https://docs.openclaw.ai
 
 ### Research Questions (Phase 1-3)
@@ -156,16 +156,16 @@ Sovereign specifically called out "ultimate connectability" — platforms with n
 ### Reference Manifest (Draft — SOVEREIGN-010)
 | Platform | Must Read | Should Read | Nice to Have |
 |----------|-----------|-------------|--------------|
-| Commander (Claude Code) | CLAUDE.md | COCKPIT.md, REF-ROSETTA_STONE.md | ARCH-INTENTION_COMPASS.md |
-| Adjudicator (Codex CLI) | AGENTS.md | COCKPIT.md | REF-ROSETTA_STONE.md |
-| Cartographer (Gemini CLI) | GEMINI.md (needs root stub) | COCKPIT.md | 01-CANON/ subset |
-| Vizier (Claude Web) | AVATAR-CLAUDE-canonical.md | COCKPIT.md | DYN-BACKLOG.md |
-| Vanguard (ChatGPT Web) | AVATAR-CHATGPT.md | COCKPIT.md | DYN-BACKLOG.md |
-| Diviner (Gemini Web) | AVATAR-GEMINI-WEB.md | COCKPIT.md | — |
-| Oracle (Grok) | AVATAR-GROK.md | COCKPIT.md | — |
+| Commander (Claude Code) | CLAUDE.md | README.md, REF-ROSETTA_STONE.md | ARCH-INTENTION_COMPASS.md |
+| Adjudicator (Codex CLI) | AGENTS.md | README.md | REF-ROSETTA_STONE.md |
+| Cartographer (Gemini CLI) | GEMINI.md (needs root stub) | README.md | 01-CANON/ subset |
+| Vizier (Claude Web) | AVATAR-CLAUDE-canonical.md | README.md | DYN-BACKLOG.md |
+| Vanguard (ChatGPT Web) | AVATAR-CHATGPT.md | README.md | DYN-BACKLOG.md |
+| Diviner (Gemini Web) | AVATAR-GEMINI-WEB.md | README.md | — |
+| Oracle (Grok) | AVATAR-GROK.md | README.md | — |
 | Augur (Perplexity) | AVATAR-PERPLEXITY.md | — | — |
-| Ajna (OpenClaw) | MEMORY.md, SOUL.md | COCKPIT.md, CLAUDE.md | Full corpus access |
-| Psyche (OpenClaw) | MEMORY.md (own), SOUL.md | COCKPIT.md | Full corpus access |
+| Ajna (OpenClaw) | MEMORY.md, SOUL.md | README.md, CLAUDE.md | Full corpus access |
+| Psyche (OpenClaw) | MEMORY.md (own), SOUL.md | README.md | Full corpus access |
 
 ---
 

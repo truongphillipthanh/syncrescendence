@@ -301,7 +301,7 @@ DEF PlatformBudget:
         unit: USD/month
     gloss:
         Constrains account acquisition decisions.
-        Referenced in CANON-25200, DYN-COORDINATION.yaml, COCKPIT.md.
+        Referenced in CANON-25200, DYN-COORDINATION.yaml, README.md.
 end
 ```
 

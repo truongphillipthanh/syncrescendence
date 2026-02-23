@@ -60,7 +60,7 @@ When traversing the corpus via connector, optimize token usage:
 1. `/CLAUDE.md` — Claude-specific instructions and context
 2. `/CHATGPT.md` — ChatGPT-specific instructions (to be created)
 3. `/GEMINI.md` — Gemini-specific instructions
-4. `/COCKPIT.md` — Universal entry point and navigation hub
+4. `/README.md` — Universal entry point and navigation hub
 
 ### Navigation Strategy
 1. **Use README files**: Each major directory has a README.md for orientation
@@ -103,16 +103,16 @@ When traversing the corpus via connector, optimize token usage:
 
 ### Workflow 1: Claude Interprets → ChatGPT Compiles
 1. Claude reads user intent + relevant CANON
-2. Claude dispatches task to `-INBOX/{agent}/`
+2. Claude dispatches task to `agents/{agent}/inbox/`
 3. Claude commits and pushes to `main`
 4. ChatGPT reads directive via connector
 5. ChatGPT generates implementation
-6. ChatGPT outputs to `-OUTGOING/` for human handoff
+6. ChatGPT outputs to `agents/<agent>/outbox/` for human handoff
 
 ### Workflow 2: Gemini Oracle Analysis → Claude Specification
 1. Gemini ingests large corpus section (e.g., all 04-SOURCES)
 2. Gemini identifies patterns and opportunities
-3. Gemini writes oracle report to `-OUTGOING/`
+3. Gemini writes oracle report to `agents/cartographer/outbox/`
 4. Claude reads oracle report via connector
 5. Claude writes directive based on oracle insights
 6. Claude Code executes directive

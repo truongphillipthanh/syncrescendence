@@ -83,12 +83,12 @@ Relations use the primitives from REF-ONTOLOGY_REGISTRY.md:
 
 | # | Term | Entity Type | Relations |
 |---|------|-------------|-----------|
-| 48 | Constellation | STR | `contains` 10 agents; `governed_by` COCKPIT.md; `uses` 3 accounts |
+| 48 | Constellation | STR | `contains` 10 agents; `governed_by` README.md; `uses` 3 accounts |
 | 49 | OpenClaw | TOOL | `provides` persistent orchestration, memory, cron; `enables` Ajna, Psyche |
 | 50 | The Pantheon | STR | `contains` 10 avatar names; v3 |
 | 51 | Numbered Directory Convention | STR | 00-05 top-level; `governed_by` FLAT PRINCIPLE |
 | 52 | Protected Zones | PROTO | `governs` 00-ORCHESTRATION/state/, 01-CANON/; `requires` Sovereign approval |
-| 53 | Sanctioned Exceptions | STR | -OUTGOING/, agents/;/inbox only non-numbered root dirs |
+| 53 | Sanctioned Exceptions | STR | agents/ only non-numbered root dirs |
 | 54 | FLAT PRINCIPLE | CON | no subdirectories except sanctioned; `governs` all STR |
 | 55 | File Prefix System | NOT | ARCH/DYN/REF/SCAFF; `replaces` subdirectories |
 | 56 | Cognitive Core / Nucleus | CON | minimal interface + evaluation + retention |
@@ -285,7 +285,7 @@ Constellation (STR)
 │   ├── contains → Augur (AGT) → uses → Perplexity (TOOL) → provides → Verification (CAP)
 │   ├── contains → Oracle (AGT) → uses → Grok (TOOL) → provides → Cultural Sensing (CAP)
 │   └── contains → Adjudicator (AGT) → uses → Codex CLI (TOOL) → provides → Code Fabrication (CAP)
-└── governed_by → COCKPIT.md (ART), ASIA Constitution (ART)
+└── governed_by → README.md (ART), ASIA Constitution (ART)
 ```
 
 ### Cluster 2: Evaluation Stack (Clarescence Dependencies)
@@ -476,7 +476,7 @@ Explicit typed relations between entities. Each row = one relation.
 | CANON (STR) | governed_by | Five Invariants (CON) | CANON-00003, CLAUDE.md |
 | CANON (STR) | governed_by | SCHEMA (ART) | CANON-00000 |
 | Constellation (STR) | governed_by | ASIA Constitution (ART) | CANON-00017 |
-| Constellation (STR) | governed_by | COCKPIT.md (ART) | COCKPIT.md |
+| Constellation (STR) | governed_by | COCKPIT.md (ART) | README.md |
 | All Agents (AGT) | governed_by | ASIA Constitution (ART) | CANON-00017 |
 | Commander (AGT) | governed_by | CLAUDE.md (ART) | CLAUDE.md |
 | All STR entities | governed_by | FLAT PRINCIPLE (CON) | CLAUDE.md §1 |
@@ -516,17 +516,17 @@ Explicit typed relations between entities. Each row = one relation.
 | Efficacy (CON) | part_of | Expertise Chain (CON) | CANON-33000 |
 | Mastery (CON) | part_of | Knowledge Chain (CON) | CANON-34000 |
 | Transcendence (CON) | part_of | Wisdom Chain (CON) | CANON-35000 |
-| Constellation (STR) | contains | Pantheon (STR) | COCKPIT.md |
-| Pantheon (STR) | contains | Commander (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Adjudicator (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Cartographer (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Ajna (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Psyche (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Vizier (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Vanguard (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Diviner (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Oracle (AGT) | COCKPIT.md |
-| Pantheon (STR) | contains | Augur (AGT) | COCKPIT.md |
+| Constellation (STR) | contains | Pantheon (STR) | README.md |
+| Pantheon (STR) | contains | Commander (AGT) | README.md |
+| Pantheon (STR) | contains | Adjudicator (AGT) | README.md |
+| Pantheon (STR) | contains | Cartographer (AGT) | README.md |
+| Pantheon (STR) | contains | Ajna (AGT) | README.md |
+| Pantheon (STR) | contains | Psyche (AGT) | README.md |
+| Pantheon (STR) | contains | Vizier (AGT) | README.md |
+| Pantheon (STR) | contains | Vanguard (AGT) | README.md |
+| Pantheon (STR) | contains | Diviner (AGT) | README.md |
+| Pantheon (STR) | contains | Oracle (AGT) | README.md |
+| Pantheon (STR) | contains | Augur (AGT) | README.md |
 | Five-Tier Architecture (STR) | contains | T0 Intention Compass (ART) | ARCH-TASK_TIER_ARCHITECTURE |
 | Five-Tier Architecture (STR) | contains | T1a Linear (TOOL) | ARCH-TASK_TIER_ARCHITECTURE |
 | Five-Tier Architecture (STR) | contains | T1b ClickUp (TOOL) | ARCH-TASK_TIER_ARCHITECTURE |
@@ -554,16 +554,16 @@ Explicit typed relations between entities. Each row = one relation.
 ### Usage Relations (uses)
 | From | Relation | To | Evidence |
 |------|----------|-----|---------|
-| Commander (AGT) | uses | Claude Code (TOOL) | COCKPIT.md |
-| Adjudicator (AGT) | uses | Codex CLI (TOOL) | COCKPIT.md |
-| Cartographer (AGT) | uses | Gemini CLI (TOOL) | COCKPIT.md |
-| Ajna (AGT) | uses | OpenClaw (TOOL) | COCKPIT.md |
-| Psyche (AGT) | uses | OpenClaw (TOOL) | COCKPIT.md |
-| Vizier (AGT) | uses | Claude Web (TOOL) | COCKPIT.md |
-| Vanguard (AGT) | uses | ChatGPT Web (TOOL) | COCKPIT.md |
-| Diviner (AGT) | uses | Gemini Web (TOOL) | COCKPIT.md |
-| Oracle (AGT) | uses | Grok (TOOL) | COCKPIT.md |
-| Augur (AGT) | uses | Perplexity (TOOL) | COCKPIT.md |
+| Commander (AGT) | uses | Claude Code (TOOL) | README.md |
+| Adjudicator (AGT) | uses | Codex CLI (TOOL) | README.md |
+| Cartographer (AGT) | uses | Gemini CLI (TOOL) | README.md |
+| Ajna (AGT) | uses | OpenClaw (TOOL) | README.md |
+| Psyche (AGT) | uses | OpenClaw (TOOL) | README.md |
+| Vizier (AGT) | uses | Claude Web (TOOL) | README.md |
+| Vanguard (AGT) | uses | ChatGPT Web (TOOL) | README.md |
+| Diviner (AGT) | uses | Gemini Web (TOOL) | README.md |
+| Oracle (AGT) | uses | Grok (TOOL) | README.md |
+| Augur (AGT) | uses | Perplexity (TOOL) | README.md |
 | Ajna (AGT) | uses | M1 Mac mini (TOOL) | REF-OPENCLAW_CONFIG_MIRROR |
 | Psyche (AGT) | uses | M4 MacBook Air (TOOL) | REF-OPENCLAW_CONFIG_MIRROR |
 | Wikilink Graph (STR) | uses | Obsidian (TOOL) | CANON-00000 |
@@ -575,7 +575,7 @@ Explicit typed relations between entities. Each row = one relation.
 | Clarescence (WF) | uses | 18+ Lenses (MET) | REF-CLARESCENCE_RUNBOOK |
 | Clarescence (WF) | uses | Five Faces (CON) | REF-CLARESCENCE_RUNBOOK |
 | Clarescence (WF) | uses | Omni-Qualities (MET) | REF-CLARESCENCE_RUNBOOK |
-| Heartbeat (WF) | uses | OpenClaw (TOOL) | COCKPIT.md |
+| Heartbeat (WF) | uses | OpenClaw (TOOL) | README.md |
 | Corpus Sensing (CAP) | uses | Gemini CLI (TOOL) | CANON-25200 |
 
 ### Provision Relations (provides)
@@ -586,12 +586,12 @@ Explicit typed relations between entities. Each row = one relation.
 | OpenClaw (TOOL) | provides | Memory (CAP) | REF-OPENCLAW_CONFIG_MIRROR |
 | OpenClaw (TOOL) | provides | Cron (CAP) | REF-OPENCLAW_CONFIG_MIRROR |
 | Gemini CLI (TOOL) | provides | Corpus Sensing (CAP) | CANON-25200 |
-| Claude Web (TOOL) | provides | Interpretation (CAP) | COCKPIT.md |
-| ChatGPT Web (TOOL) | provides | Strategic Planning (CAP) | COCKPIT.md |
-| Gemini Web (TOOL) | provides | Clarification (CAP) | COCKPIT.md |
-| Grok (TOOL) | provides | Cultural Sensing (CAP) | COCKPIT.md |
-| Perplexity (TOOL) | provides | Verification (CAP) | COCKPIT.md |
-| Codex CLI (TOOL) | provides | Code Fabrication (CAP) | COCKPIT.md |
+| Claude Web (TOOL) | provides | Interpretation (CAP) | README.md |
+| ChatGPT Web (TOOL) | provides | Strategic Planning (CAP) | README.md |
+| Gemini Web (TOOL) | provides | Clarification (CAP) | README.md |
+| Grok (TOOL) | provides | Cultural Sensing (CAP) | README.md |
+| Perplexity (TOOL) | provides | Verification (CAP) | README.md |
+| Codex CLI (TOOL) | provides | Code Fabrication (CAP) | README.md |
 | T1a Linear (TOOL) | provides | Project Management (CAP) | ARCH-TASK_TIER_ARCHITECTURE |
 | T1b ClickUp (TOOL) | provides | Life Task Management (CAP) | ARCH-TASK_TIER_ARCHITECTURE |
 | CANON Frontmatter Schema (STR) | provides | Machine Readability (CAP) | PRAC-ontology_queries |
@@ -650,14 +650,14 @@ Explicit typed relations between entities. Each row = one relation.
 | From | Relation | To | Evidence |
 |------|----------|-----|---------|
 | IIC | alias_of | Intelligence Constellation | CANON-31140 |
-| Medley Mode (WF) | alias_of | Operational Constellation Mode | COCKPIT.md |
-| Vizier (AGT) | alias_of | INTERPRETER (AGT) | COCKPIT.md |
-| Vanguard (AGT) | alias_of | COMPILER (AGT) | COCKPIT.md |
-| Diviner (AGT) | alias_of | DIGESTOR (AGT) | COCKPIT.md |
-| Cartographer (AGT) | alias_of | SENSOR (AGT) | COCKPIT.md |
-| Commander (AGT) | alias_of | EXECUTOR-LEAD (AGT) | COCKPIT.md |
-| Oracle (AGT) | alias_of | RECON (AGT) | COCKPIT.md |
-| Augur (AGT) | alias_of | VERIFIER (AGT) | COCKPIT.md |
+| Medley Mode (WF) | alias_of | Operational Constellation Mode | README.md |
+| Vizier (AGT) | alias_of | INTERPRETER (AGT) | README.md |
+| Vanguard (AGT) | alias_of | COMPILER (AGT) | README.md |
+| Diviner (AGT) | alias_of | DIGESTOR (AGT) | README.md |
+| Cartographer (AGT) | alias_of | SENSOR (AGT) | README.md |
+| Commander (AGT) | alias_of | EXECUTOR-LEAD (AGT) | README.md |
+| Oracle (AGT) | alias_of | RECON (AGT) | README.md |
+| Augur (AGT) | alias_of | VERIFIER (AGT) | README.md |
 
 ### Supersession Relations (replaces)
 | From | Relation | To | Evidence |

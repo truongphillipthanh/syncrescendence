@@ -1,4 +1,7 @@
 # Proactive Orchestrator — Last Run
-timestamp: 2026-02-17T15:42:42Z
-pid: 20609
-cycle_duration_ms: 8
+timestamp: 2026-02-23T01:54:25Z
+pid: 98223
+cycle_duration_s: 1
+breaker_state: HALF_OPEN
+failed_tasks_total: 2
+daily_dispatch_count: 2

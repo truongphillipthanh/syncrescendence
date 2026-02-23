@@ -1,7 +1,7 @@
 #!/bin/bash
 # dispatch_to_psyche.sh — Create a task dispatch file for Psyche
 # Usage: bash dispatch_to_psyche.sh "TOPIC" "TASK_DESCRIPTION"
-# Writes a task file to -INBOX/psyche/ for autonomous processing
+# Writes a task file to agents/psyche/inbox/ for autonomous processing
 #
 # For dispatching to other agents, use dispatch.sh instead.
 

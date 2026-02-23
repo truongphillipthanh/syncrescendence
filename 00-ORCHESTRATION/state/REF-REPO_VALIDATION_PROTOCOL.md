@@ -11,7 +11,7 @@ version: 1.0.0
 
 ## Purpose
 
-Standardized procedure for validating repository health, structural compliance, and artifact conformance. Produces auditable reports in `-OUTGOING/`.
+Standardized procedure for validating repository health, structural compliance, and artifact conformance. Produces auditable reports in `agents/commander/outbox/`.
 
 ## When to Run
 
@@ -27,10 +27,10 @@ Standardized procedure for validating repository health, structural compliance, 
 **Command**: `bash 00-ORCHESTRATION/scripts/verify_all.sh`
 
 **Checks**:
-- `agents/`, `-OUTGOING/inbox/`, `-SOVEREIGN/` exist
+- `agents/`, `-SOVEREIGN/` exist
 - Root contains only zones 00, 01, 02, 04, 05 plus sanctioned exceptions
 - No orphan files at root
-- COCKPIT.md paths resolve
+- README.md paths resolve
 - Ledger integrity (DYN-TASKS.csv, DYN-PROJECTS.csv, DYN-SOURCES.csv)
 - CANON file count and integration status
 
@@ -50,7 +50,7 @@ Standardized procedure for validating repository health, structural compliance, 
 
 **Checks**:
 - Confirm `agents/`/inbox exists
-- Confirm `-OUTGOING/` exists
+- Confirm `agents/` exists with per-agent outbox/
 - Confirm `OUTGOING/` does NOT exist
 - Confirm `outgoing/` does NOT exist
 - List `agents/`/inbox contents (should be transient only)
@@ -67,7 +67,7 @@ Standardized procedure for validating repository health, structural compliance, 
 
 Validation produces a report at:
 ```
--OUTGOING/YYYYMMDD-repo_validation/VALIDATION_REPORT.md
+agents/commander/outbox/YYYYMMDD-repo_validation/VALIDATION_REPORT.md
 ```
 
 Report includes:
@@ -89,7 +89,7 @@ Report includes:
 
 ```bash
 DATE=$(date +%Y%m%d)
-mkdir -p "./-OUTGOING/${DATE}-repo_validation"
+mkdir -p "./agents/commander/outbox/${DATE}-repo_validation"
 
 # Run checks
 bash 00-ORCHESTRATION/scripts/verify_all.sh > struct.log 2>&1
@@ -104,7 +104,7 @@ bash 00-ORCHESTRATION/scripts/ops_lint.sh > lint.log 2>&1
 | Failure | Remediation |
 |---------|-------------|
 | Missing frontmatter | Add YAML block with id, kind, scope, target |
-| Legacy path refs | Update to `-OUTGOING/` or `agents/`/inbox |
+| Legacy path refs | Update to `agents/<agent>/outbox/` or `agents/<agent>/inbox/` |
 | Orphan root files | Move to appropriate zone |
 | Missing directories | Create with `mkdir -p` |
 

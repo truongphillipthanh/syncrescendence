@@ -243,8 +243,8 @@ cat > "$HOME/.claude/projects/-Users-$(whoami)-Desktop-syncrescendence/memory/ME
 
 ## Coordination
 - Git sync every 5 minutes via launchd (com.syncrescendence.git-sync)
-- -INBOX/commander/ on MBA is watched but Commander needs manual launch
-- -INBOX/ajna/ is watched by launchd (auto-dispatch to Ajna)
+- agents/commander/inbox/ on MBA is watched but Commander needs manual launch
+- agents/ajna/inbox/ is watched by launchd (auto-dispatch to Ajna)
 - Push changes promptly — Mac mini Commander depends on git sync
 
 ## Key Commands

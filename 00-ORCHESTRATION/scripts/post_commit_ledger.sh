@@ -24,7 +24,7 @@ fi
 NEEDS_UPDATE=""
 
 # Check if task-related files changed (implies tasks.csv may need updating)
-if echo "$CHANGED_FILES" | grep -qE "(-INBOX/|TASK-|DIRECTIVE-|RESULT-)"; then
+if echo "$CHANGED_FILES" | grep -qE "(agents/.*/inbox/|TASK-|DIRECTIVE-|RESULT-)"; then
     NEEDS_UPDATE="${NEEDS_UPDATE}tasks.csv "
 fi
 

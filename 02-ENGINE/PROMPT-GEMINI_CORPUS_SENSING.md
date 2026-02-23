@@ -7,12 +7,12 @@
 cd /path/to/syncrescendence
 
 # Create output directory
-mkdir -p -OUTGOING/$(date +%Y%m%d)-corpus-annealment-survey
+mkdir -p agents/cartographer/outbox/$(date +%Y%m%d)-corpus-annealment-survey
 
 # Run sensing sweep (adjust paths as needed)
 gemini -p "$(cat 00-ORCHESTRATION/scripts/GEMINI-CORPUS-SENSING-PROMPT.md)" \
   -f "$(find . -name '*.md' -o -name '*.txt' -o -name '*.csv' -o -name '*.yaml' | head -500 | tr '\n' ' ')" \
-  > -OUTGOING/$(date +%Y%m%d)-corpus-annealment-survey/SENSING_REPORT.md
+  > agents/cartographer/outbox/$(date +%Y%m%d)-corpus-annealment-survey/SENSING_REPORT.md
 ```
 
 Alternative if corpus-survey.sh exists:
@@ -37,7 +37,7 @@ Analyze the entire corpus and produce a structured report identifying:
 1. **Semantic Clusters** — Groups of documents that address the same concept but may be fragmented, duplicated, or inconsistently named
 2. **Strays & Orphans** — Documents that don't fit the taxonomy or reference nothing and are referenced by nothing
 3. **Scaffold Residue** — Working documents that served their purpose and should archive (look for prefixes: SCAFF-, WIP-, DRAFT-, TODO-)
-4. **Canonization Candidates** — Documents in agents/, -OUTGOING/inbox/, or other staging areas that are mature enough for 01-CANON/ or 02-ENGINE/
+4. **Canonization Candidates** — Documents in agents/, outbox/, or other staging areas that are mature enough for 01-CANON/ or 02-ENGINE/
 5. **Hidden Intentions** — Documents in 05-MEMORY/ or elsewhere that contain unexecuted plans, decisions, or insights worth surfacing
 6. **Nomenclature Drift** — Inconsistent naming patterns that violate the established conventions (ARCH-, CANON-, REF-, DYN-, etc.)
 7. **Duplication Clusters** — Near-identical content across multiple files (semantic duplicates, not just filename matches)
@@ -52,7 +52,7 @@ Analyze the entire corpus and produce a structured report identifying:
 04-SOURCES/        — Source material (raw/, processed/, research/)
 05-SIGMA/          — Operational knowledge corpus + memory + exempla
 agents//inbox            — Incoming artifacts from external platforms
--OUTGOING/         — Export staging, cross-platform handoffs
+agents/<agent>/outbox/ — Export staging, cross-platform handoffs
 -SOVEREIGN/        — Sovereign-only workspace
 ```
 
@@ -134,9 +134,9 @@ Total Size: [KB]
 |------|------|-------|----------------|
 | [name] | [KB] | Exceeds 50KB threshold | [split into N parts | compress | summarize] |
 
-## 9. -INBOX Deep Dive
+## 9. Inbox Deep Dive
 
-Current -INBOX contents requiring Sovereign decision:
+Current inbox contents requiring Sovereign decision:
 
 | File | Size | Apparent Purpose | Recommended Action | Confidence |
 |------|------|------------------|-------------------|------------|
@@ -170,4 +170,4 @@ A future agent with 100K context should be able to:
 
 ---
 
-*This prompt is part of the Syncrescendence constellation. Output should be saved to `-OUTGOING/YYYYMMDD-corpus-annealment-survey/SENSING_REPORT.md`*
+*This prompt is part of the Syncrescendence constellation. Output should be saved to `agents/cartographer/outbox/YYYYMMDD-corpus-annealment-survey/SENSING_REPORT.md`*

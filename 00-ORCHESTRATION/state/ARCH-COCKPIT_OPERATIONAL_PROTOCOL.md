@@ -41,7 +41,7 @@ Every agent follows a 7-phase operational loop. The cycle is continuous — agen
 
 ### Phase 2: Situate
 - `git status` — verify working tree state
-- Read `COCKPIT.md` + `CLAUDE.md` (or agent-equivalent config)
+- Read `README.md` + `CLAUDE.md` (or agent-equivalent config)
 - Verify fingerprint matches expected state
 
 ### Phase 3: Calibrate
@@ -66,7 +66,7 @@ Every agent follows a 7-phase operational loop. The cycle is continuous — agen
 
 ### Phase 7: Sovereign Interaction
 - Report completion/blockers to Sovereign
-- Stage handoff artifacts in `-OUTGOING/` if cross-platform relay needed
+- Stage handoff artifacts in `agents/<agent>/outbox/` if cross-platform relay needed
 - Update `DYN-SESSION_LOG.md` via hooks
 
 ---
@@ -108,7 +108,7 @@ PROACTIVE:
   HOOKS: {/updateOpenClawConfig(Ajna) — update Ajna-specific settings}  [ASPIRATIONAL]
 
 SOVEREIGN INTERACTION:
-  Report via -OUTGOING/ or direct conversation
+  Report via agents/ajna/outbox/ or direct conversation
   Escalate blocked items to -SOVEREIGN/
 ```
 
@@ -178,7 +178,7 @@ PROACTIVE:
 
 SOVEREIGN INTERACTION:
   Direct conversation (Commander IS the primary Sovereign interface)
-  Stage cross-platform artifacts in -OUTGOING/
+  Stage cross-platform artifacts in agents/commander/outbox/
 ```
 
 ### Existing Infrastructure
@@ -277,7 +277,7 @@ EXECUTE:
   Run 1M+ context surveys across CANON, ENGINE, SIGMA
   Extract citations and evidence packs
   Produce structured survey reports
-  Write results to -OUTGOING/ or RESULT-* files
+  Write results to agents/cartographer/outbox/ or RESULT-* files
 
 DOCUMENT:
   Write RESULT-* files back to Commander's inbox
@@ -365,7 +365,7 @@ MBA config blocked by Tailscale setup on both machines. Estimated 70 minutes Sov
 | `pre_compaction.sh` | PreCompact | Commander | stdout warning |
 | `dispatch.sh` | Manual | All | TASK-* files in agent inboxes |
 | `watch_dispatch.sh` | Background (launchd) | All agents | Task claim/execute/complete |
-| `triage_outgoing.sh` | Manual | Commander | -OUTGOING/ scan |
+| `triage_outgoing.sh` | Manual | Commander | agents/*/outbox/ scan |
 | `triage_inbox.sh` | Manual | All | agents//inbox scan |
 
 ### Existing Skills

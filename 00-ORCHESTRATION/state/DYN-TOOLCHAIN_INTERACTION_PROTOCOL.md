@@ -137,7 +137,7 @@ Each agent has a 6-folder kanban structure:
 
 ```
 agents/<agent>/inbox/
-  00-INBOX0/       ← New tasks land here (PENDING)
+  pending/         ← New tasks land here (PENDING)
   10-IN_PROGRESS/  ← Claimed and executing
   20-WAITING/      ← Awaiting external input (manual)
   30-BLOCKED/      ← Timed out (exit code 124)
@@ -317,7 +317,7 @@ EOF
 ## Cross-References
 
 - `CLAUDE.md` — Anti-pattern: "Dispatching without Reply-To"
-- `COCKPIT.md` — Agent role assignments and pane mapping
+- `README.md` — Agent role assignments and pane mapping
 - `AGENTS.md` — Agent capabilities and model specifications
 - `00-ORCHESTRATION/scripts/dispatch.sh` — Task creation script
 - `00-ORCHESTRATION/scripts/watch_dispatch.sh` — Autonomous task processor

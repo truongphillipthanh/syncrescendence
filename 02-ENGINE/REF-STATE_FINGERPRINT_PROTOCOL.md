@@ -86,7 +86,7 @@ Platform processes work, generates output, Sovereign downloads artifacts.
 #### Step 4: Verify Before Next Handoff
 ```bash
 cd ~/Desktop/syncrescendence/
-git add agents/ -OUTGOING/inbox/
+git add agents/
 git commit -m "Phase 2 complete (ChatGPT): specs → formatted artifacts"
 git push
 
@@ -107,7 +107,7 @@ If the new fingerprint doesn't match what you expect, something went wrong. Roll
 Repository                          Platform Caches
 ├─ .constellation/                  
 │  ├─ tokens/                       Claude Project Knowledge:
-│  │  ├─ active.json               ├─ COCKPIT.md (system overview)
+│  │  ├─ active.json               ├─ README.md (system overview)
 │  │  ├─ active.txt                ├─ Last 3 token files
 │  │  └─ archive/                  └─ Current phase spec
 │  │     ├─ 20260120-143022.json
@@ -118,7 +118,7 @@ Repository                          Platform Caches
 │  │  └─ phase-3-digest.md         Gemini Google Drive (live):
 │  └─ STATE.md (comprehensive)     └─ .constellation/tokens/ (synced)
 │                                     Auto-updated via rclone
-└─ agents/, -OUTGOING/inbox/
+└─ agents/
 ```
 
 ### Token File Format (`active.json`)
@@ -176,7 +176,7 @@ WHAT'S READY:
 WHAT TO DO NEXT:
 Transform specification → formatted Canvas document.
 Use template: phase-2-design-template.md
-Output destination: -OUTGOING/deliverables/
+Output destination: agents/commander/outbox/deliverables/
 
 VERIFY:
 Repository should be at commit: 7a3f9c2e
@@ -361,8 +361,8 @@ make token PHASE=1 NEXT=chatgpt
 ```bash
 # Sovereign downloads Canvas artifact
 cd ~/Desktop/syncrescendence/
-mv ~/Downloads/artifact.docx -OUTGOING/deliverables/
-git add -OUTGOING/
+mv ~/Downloads/artifact.docx agents/commander/outbox/deliverables/
+git add agents/commander/outbox/
 git commit -m "Phase 2: ChatGPT formatted specification"
 make token PHASE=2 NEXT=gemini
 make sync-gemini  # Auto-updates Gemini Gem
@@ -390,10 +390,10 @@ git rev-parse --short HEAD
 
 # Sovereign investigates
 git status
-# Shows uncommitted changes in -OUTGOING/
+# Shows uncommitted changes in agents/commander/outbox/
 
 # Fix it
-git add -OUTGOING/
+git add agents/commander/outbox/
 git commit -m "Phase 2: Actually commit the artifacts"
 make token PHASE=2 NEXT=claude  # Regenerate with correct fingerprint
 ```
@@ -409,7 +409,7 @@ Verification prevents cascading errors.
 **Initial Setup** (one-time, ~5 minutes):
 1. Create Claude Project: "Syncrescendence IIC"
 2. Upload to Project Knowledge:
-   - `COCKPIT.md` (1200 words - system overview)
+   - `README.md` (1200 words - system overview)
    - `.constellation/phase-specs/` (all 7 phase specification files)
    - Last 3 handoff token archive files (historical context)
 

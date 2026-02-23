@@ -4,7 +4,7 @@
 **Date**: 2026-02-05
 **Authority**: Ajna (Opus 4.5) — Full 10-Pass Clarescence
 **Fidelity**: Full
-**Input**: 3 research syntheses + CANON-31150 + COCKPIT.md + Rosetta Stone v2.2.0 + all AVATAR files
+**Input**: 3 research syntheses + CANON-31150 + README.md + Rosetta Stone v2.2.0 + all AVATAR files
 **Convergent Path**: See §10
 
 ---
@@ -58,11 +58,11 @@
 - `grok_oracle` ❌ MISSING
 - `perplexity_augur` ❌ MISSING
 
-**COCKPIT.md** is authoritative — it correctly distinguishes all 10+ roles. CANON-31150 needs to catch up.
+**README.md** is authoritative — it correctly distinguishes all 10+ roles. CANON-31150 needs to catch up.
 
 ### Terminology Conflicts
 
-| Concept | COCKPIT.md | CANON-31150 | Rosetta Stone | Actual |
+| Concept | README.md | CANON-31150 | Rosetta Stone | Actual |
 |---------|-----------|-------------|---------------|--------|
 | Claude Code role | EXECUTOR-LEAD | `claude_commander` | Commander/Viceroy | Commander is correct |
 | Claude Web role | INTERPRETER | (conflated with above) | Vizier/Hermeneut | Needs separation |
@@ -300,7 +300,7 @@ DISPATCH MODES:
 4. OPENCLAW → CARTOGRAPHER (Gemini CLI)
    Mode A: agents/cartographer/inbox/SURVEY-*.md (async, file-based)
    Mode B: exec with `gemini` CLI piping corpus files
-   Return: Evidence pack to agents/ajna/inbox/ or -OUTGOING/
+   Return: Evidence pack to agents/ajna/inbox/ or agents/cartographer/outbox/
 
 5. TWIN RELAY (Ajna ↔ Psyche)
    Channel: Slack #all-syncrescendence

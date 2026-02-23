@@ -13,14 +13,14 @@ Syncrescendence is a knowledge management system demonstrating AI-amplified indi
 - `02-ENGINE/` — Functions, prompts, model profiles, queue items
 - `04-SOURCES/` — Source documents (raw/, processed/)
 - `05-SIGMA/` — Operational knowledge corpus + memory + exempla
-- `-OUTGOING/` — Export staging, reinit capsules
+- `agents/<agent>/outbox/` — Agent output staging
 - `agents/`/inbox — Incoming artifacts from external platforms
 
 ## Constitutional Rules
 
 ### ABSOLUTE: Structure
 1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes instead of subdirectories.
-2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06 plus agents/-OUTGOING./inbox
+2. **NUMBERED DIRECTORIES**: Top-level directories are 00-06 plus agents/
 3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit approval for deletions.
 
 ### ABSOLUTE: Operations

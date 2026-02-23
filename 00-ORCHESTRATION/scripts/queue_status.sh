@@ -12,7 +12,7 @@ fi
 
 TARGET_AGENT="${1:-}"
 AGENTS="commander adjudicator cartographer psyche ajna"
-LANES="00-INBOX0 10-IN_PROGRESS 20-WAITING 30-BLOCKED 40-DONE 50_FAILED"
+LANES="pending active waiting blocked done failed"
 
 echo "=== DISPATCH QUEUE STATUS ==="
 echo "$(date '+%Y-%m-%d %H:%M:%S')"
@@ -23,7 +23,7 @@ for agent in $AGENTS; do
         continue
     fi
 
-    agent_dir="$REPO_ROOT/-INBOX/$agent"
+    agent_dir="$REPO_ROOT/agents/$agent/inbox"
     if [ ! -d "$agent_dir" ]; then
         continue
     fi
@@ -56,7 +56,7 @@ for agent in $AGENTS; do
         echo "$counts"
 
         # List items in active lanes (INBOX0 and IN_PROGRESS)
-        for active_lane in 00-INBOX0 10-IN_PROGRESS; do
+        for active_lane in pending active; do
             active_dir="$agent_dir/$active_lane"
             if [ -d "$active_dir" ]; then
                 for file in "$active_dir"/*.md; do
@@ -77,9 +77,9 @@ done
 # Outbox summary
 echo "--- OUTBOX ---"
 for agent in $AGENTS; do
-    outbox="$REPO_ROOT/-OUTBOX/$agent"
+    outbox="$REPO_ROOT/agents/$agent/outbox"
     if [ -d "$outbox" ]; then
-        rcount=$(find "$outbox/RESULTS" -maxdepth 1 -name "*.md" -not -name ".gitkeep" -type f 2>/dev/null | wc -l | tr -d ' ')
+        rcount=$(find "$outbox" -maxdepth 1 -name "*.md" -not -name ".gitkeep" -type f 2>/dev/null | wc -l | tr -d ' ')
         acount=$(find "$outbox/ARTIFACTS" -maxdepth 1 -not -name ".gitkeep" -type f 2>/dev/null | wc -l | tr -d ' ')
         if [ "$rcount" -gt 0 ] || [ "$acount" -gt 0 ]; then
             echo "  $agent: $rcount results, $acount artifacts"

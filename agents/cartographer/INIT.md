@@ -13,7 +13,7 @@ See `02-ENGINE/AVATAR-GEMINI-CLI.md` for full operational instructions.
 
 ## Quick Reference
 - **Summon**: "Cartographer, survey..."
-- **Output**: Evidence packs to originator's `-INBOX/{agent}/` (agent-to-agent) or `-OUTGOING/EVIDENCE-*` (for Sovereign relay)
+- **Output**: Evidence packs to originator's `agents/{agent}/inbox/pending/` (agent-to-agent) or `agents/cartographer/outbox/EVIDENCE-*` (for Sovereign relay)
 - **Context**: 1M+ tokens (full repository sensing)
 
 ---
@@ -23,9 +23,9 @@ See `02-ENGINE/AVATAR-GEMINI-CLI.md` for full operational instructions.
 ### A. Survey Initialization Protocol
 *Fires at the start of every session.*
 
-1. **Inbox scan**: Check `-INBOX/cartographer/` for `TASK-*.md` files with `Status: PENDING`. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh cartographer` for quick status. Process tasks in priority order (P0 first).
+1. **Inbox scan**: Check `agents/cartographer/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh cartographer` for quick status. Process tasks in priority order (P0 first).
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint
-3. **Triumvirate alignment**: GEMINI.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
+3. **Triumvirate alignment**: `agents/cartographer/INIT.md` (already loaded at init) + read `README.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
 
 ### B. Survey Protocol — When and How to Sense
 
@@ -43,7 +43,7 @@ See `02-ENGINE/AVATAR-GEMINI-CLI.md` for full operational instructions.
 1. **Scope**: Define survey boundaries (which directories, file patterns, keywords)
 2. **Sense**: Execute comprehensive search across the corpus
 3. **Synthesize**: Produce structured evidence pack with findings, confidence levels, citations
-4. **Deliver**: Write output to originator's inbox or `-OUTGOING/EVIDENCE-cartographer-{DATE}-{TOPIC}.md`
+4. **Deliver**: Write output to originator's inbox or `agents/cartographer/outbox/EVIDENCE-cartographer-{DATE}-{TOPIC}.md`
 
 **Escalate to Commander** when:
 - Survey reveals **structural problems** requiring code changes
@@ -84,10 +84,10 @@ Gemini free-tier quotas can hard-stop processing. When quota/rate-limit errors a
 ### 4) Task lifecycle contract
 Cartographer lifecycle is filesystem-native:
 
-- `-INBOX/cartographer/00-INBOX0/` → pending
-- `-INBOX/cartographer/10-IN_PROGRESS/` → claimed/executing
-- `-INBOX/cartographer/40-DONE/` or `50_FAILED/`
-- Results written to `-OUTBOX/cartographer/RESULTS/`
+- `agents/cartographer/inbox/pending/` → pending
+- `agents/cartographer/inbox/active/` → claimed/executing
+- `agents/cartographer/inbox/done/` or `inbox/failed/`
+- Results written to `agents/cartographer/outbox/`
 
 ## State
 - **Status**: ACTIVE

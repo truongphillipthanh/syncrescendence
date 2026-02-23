@@ -4,9 +4,9 @@
 # Requires: fswatch (brew install fswatch) or uses polling fallback
 #
 # Filesystem Kanban:
-#   - Watches:  -INBOX/<agent>/00-INBOX0/
-#   - Claims:   atomic mv -> 10-IN_PROGRESS/
-#   - Completes: mv -> 40-DONE/ or 50_FAILED/
+#   - Watches:  agents/<agent>/inbox/pending/
+#   - Claims:   atomic mv -> inbox/active/
+#   - Completes: mv -> inbox/done/ or inbox/failed/
 #
 # Guards:
 #   - Ignore RECEIPT-* files
@@ -14,8 +14,8 @@
 #   - Never execute completed tasks (Completed-At/Exit-Code guard)
 #
 # Receipts:
-#   - Deterministically write RESULT to the path in **Receipts-To** (default -OUTBOX/<agent>/RESULTS)
-#   - Best-effort CC piping: copy finalized TASK into -INBOX/<cc>/RECEIPTS and (if ssh alias exists) scp it.
+#   - Deterministically write RESULT to the path in **Receipts-To** (default agents/<agent>/outbox)
+#   - Best-effort CC piping: copy finalized TASK into agents/<cc>/inbox/pending and (if ssh alias exists) scp it.
 
 set -euo pipefail
 
@@ -81,12 +81,12 @@ resolve_codex_autonomy_flag() {
 CODEX_AUTONOMY_FLAG="$(resolve_codex_autonomy_flag)"
 GEMINI_MODEL="${SYNCRESCENDENCE_GEMINI_MODEL:-gemini-2.5-pro}"
 
-INBOX_ROOT="$REPO_ROOT/-INBOX/$AGENT"
-INBOX0_DIR="$INBOX_ROOT/00-INBOX0"
-INPROG_DIR="$INBOX_ROOT/10-IN_PROGRESS"
-DONE_DIR="$INBOX_ROOT/40-DONE"
-FAILED_DIR="$INBOX_ROOT/50_FAILED"
-BLOCKED_DIR="$INBOX_ROOT/30-BLOCKED"
+INBOX_ROOT="$REPO_ROOT/agents/$AGENT/inbox"
+INBOX0_DIR="$INBOX_ROOT/pending"
+INPROG_DIR="$INBOX_ROOT/active"
+DONE_DIR="$INBOX_ROOT/done"
+FAILED_DIR="$INBOX_ROOT/failed"
+BLOCKED_DIR="$INBOX_ROOT/blocked"
 RECEIPTS_DIR="$INBOX_ROOT/RECEIPTS"
 
 mkdir -p "$INBOX0_DIR" "$INPROG_DIR" "$BLOCKED_DIR" "$DONE_DIR" "$FAILED_DIR" "$RECEIPTS_DIR"
@@ -96,7 +96,7 @@ POLL_INTERVAL=10
 
 log() { echo "[Watch] $*"; }
 
-log "Watching -INBOX/$AGENT/00-INBOX0/ for dispatch files"
+log "Watching agents/$AGENT/inbox/pending/ for dispatch files"
 log "Directory: $WATCH_DIR"
 log "Poll interval: ${POLL_INTERVAL}s"
 log "Claim tag: ${AGENT}-${HOSTNAME_SHORT}"
@@ -184,7 +184,7 @@ write_result_receipt() {
   local receipts_to
   receipts_to=$(parse_header_field "$task_file" "Receipts-To")
   if [ -z "$receipts_to" ]; then
-    receipts_to="-OUTBOX/${AGENT}/RESULTS"
+    receipts_to="agents/${AGENT}/outbox"
   fi
 
   mkdir -p "$REPO_ROOT/$receipts_to" 2>/dev/null || true
@@ -277,7 +277,7 @@ pipe_reply_to_sender() {
   # Don't reply to self
   [ "$reply_target" = "$AGENT" ] && return 0
 
-  local target_inbox="$REPO_ROOT/-INBOX/$reply_target/00-INBOX0"
+  local target_inbox="$REPO_ROOT/agents/$reply_target/inbox/pending"
   mkdir -p "$target_inbox" 2>/dev/null || true
 
   local date
@@ -341,12 +341,12 @@ pipe_reply_to_sender() {
   log "$(date '+%H:%M:%S') Reply piped to $reply_target: CONFIRM-${AGENT}-${date}-${slug}.md"
 
   # Best-effort remote pipe (if reply target is on another machine)
-  if ssh -o BatchMode=yes -o ConnectTimeout=3 "$reply_target" "test -d ~/Desktop/syncrescendence/-INBOX/$reply_target" 2>/dev/null; then
+  if ssh -o BatchMode=yes -o ConnectTimeout=3 "$reply_target" "test -d ~/Desktop/syncrescendence/agents/$reply_target" 2>/dev/null; then
     scp -q -o BatchMode=yes -o ConnectTimeout=5 "$confirm_file" \
-      "$reply_target:~/Desktop/syncrescendence/-INBOX/$reply_target/00-INBOX0/" 2>/dev/null || true
+      "$reply_target:~/Desktop/syncrescendence/agents/$reply_target/inbox/pending/" 2>/dev/null || true
     if [ -n "$result_path_abs" ] && [ -f "$result_path_abs" ]; then
       scp -q -o BatchMode=yes -o ConnectTimeout=5 "$result_path_abs" \
-        "$reply_target:~/Desktop/syncrescendence/-INBOX/$reply_target/00-INBOX0/" 2>/dev/null || true
+        "$reply_target:~/Desktop/syncrescendence/agents/$reply_target/inbox/pending/" 2>/dev/null || true
     fi
   fi
 }
@@ -360,18 +360,18 @@ pipe_to_cc() {
     cc=$(echo "$cc" | xargs)
     [ -z "$cc" ] && continue
 
-    mkdir -p "$REPO_ROOT/-INBOX/$cc/RECEIPTS" 2>/dev/null || true
-    cp -f "$finalized_task" "$REPO_ROOT/-INBOX/$cc/RECEIPTS/RECEIPT-${AGENT}-$(basename "$finalized_task")" 2>/dev/null || true
+    mkdir -p "$REPO_ROOT/agents/$cc/inbox/RECEIPTS" 2>/dev/null || true
+    cp -f "$finalized_task" "$REPO_ROOT/agents/$cc/inbox/RECEIPTS/RECEIPT-${AGENT}-$(basename "$finalized_task")" 2>/dev/null || true
 
     # best-effort remote pipe: ssh alias == cc
-    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d ~/Desktop/syncrescendence/-INBOX/$cc" 2>/dev/null; then
+    if ssh -o BatchMode=yes -o ConnectTimeout=3 "$cc" "test -d ~/Desktop/syncrescendence/agents/$cc" 2>/dev/null; then
       scp -q -o BatchMode=yes -o ConnectTimeout=5 "$finalized_task" \
-        "$cc:~/Desktop/syncrescendence/-INBOX/$cc/RECEIPTS/RECEIPT-${AGENT}-$(basename "$finalized_task")" \
+        "$cc:~/Desktop/syncrescendence/agents/$cc/inbox/RECEIPTS/RECEIPT-${AGENT}-$(basename "$finalized_task")" \
         2>/dev/null || true
 
       if [ -n "$result_path_abs" ] && [ -f "$result_path_abs" ]; then
         scp -q -o BatchMode=yes -o ConnectTimeout=5 "$result_path_abs" \
-          "$cc:~/Desktop/syncrescendence/-INBOX/$cc/$(basename "$result_path_abs")" \
+          "$cc:~/Desktop/syncrescendence/agents/$cc/inbox/$(basename "$result_path_abs")" \
           2>/dev/null || true
       fi
     fi
@@ -509,7 +509,7 @@ escalate_on_timeout() {
   local now
   now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
 
-  local esc_inbox="$REPO_ROOT/-INBOX/$escalation_contact/00-INBOX0"
+  local esc_inbox="$REPO_ROOT/agents/$escalation_contact/inbox/pending"
   mkdir -p "$esc_inbox" 2>/dev/null || true
 
   local esc_file="$esc_inbox/ESCALATION-${AGENT}-${date}-${slug}.md"

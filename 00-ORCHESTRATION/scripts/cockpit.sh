@@ -277,16 +277,16 @@ CARTOGRAPHER_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -
 # This eliminates the send-keys race condition that killed nvim in 3/4 panes.
 # When nvim exits (:q), the pane closes — that's intentional and correct.
 
-tmux split-window -v -t "$CARTOGRAPHER_ID" -c "$REPO/-INBOX/cartographer" -l 25% "$NVIM_BIN"
+tmux split-window -v -t "$CARTOGRAPHER_ID" -c "$REPO/agents/cartographer/inbox" -l 25% "$NVIM_BIN"
 NVIM_CART_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 
-tmux split-window -v -t "$ADJUDICATOR_ID" -c "$REPO/-INBOX/adjudicator" -l 25% "$NVIM_BIN"
+tmux split-window -v -t "$ADJUDICATOR_ID" -c "$REPO/agents/adjudicator/inbox" -l 25% "$NVIM_BIN"
 NVIM_ADJ_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 
-tmux split-window -v -t "$COMMANDER_ID" -c "$REPO/-INBOX/commander" -l 25% "$NVIM_BIN"
+tmux split-window -v -t "$COMMANDER_ID" -c "$REPO/agents/commander/inbox" -l 25% "$NVIM_BIN"
 NVIM_CMD_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 
-tmux split-window -v -t "$PSYCHE_ID" -c "$REPO/-INBOX/psyche" -l 25% "$NVIM_BIN"
+tmux split-window -v -t "$PSYCHE_ID" -c "$REPO/agents/psyche/inbox" -l 25% "$NVIM_BIN"
 NVIM_PSYCHE_ID=$(tmux list-panes -t "$SESSION":cockpit -F '#{pane_id}' | tail -1)
 
 # ── Send commands to agent panes (top row) ─────────────────────────────────
@@ -322,7 +322,7 @@ tmux new-window -t "$SESSION" -n watchers -c "$REPO"
 
 # Pane 1: INBOX watcher / triage
 tmux send-keys -t "$SESSION":watchers.1 \
-  "cd '$REPO' && while true; do clear; echo '[INBOX triage]'; ls -la -- -INBOX/commander/00-INBOX0/ 2>/dev/null; echo; bash 00-ORCHESTRATION/scripts/triage_outgoing.sh 2>/dev/null || true; sleep 10; done" C-m
+  "cd '$REPO' && while true; do clear; echo '[INBOX triage]'; ls -la -- agents/commander/inbox/pending/ 2>/dev/null; echo; bash 00-ORCHESTRATION/scripts/triage_outgoing.sh 2>/dev/null || true; sleep 10; done" C-m
 
 # Pane 2: git status
 tmux split-window -h -t "$SESSION":watchers.1 -c "$REPO"

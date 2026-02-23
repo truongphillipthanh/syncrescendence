@@ -148,7 +148,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 2. Create/update skills if new capabilities warrant automation
 3. Test integration with existing workflows
 4. Document learnings in 05-SIGMA
-5. Update COCKPIT.md if Constellation roles change
+5. Update README.md if Constellation roles change
 6. Commit all artifacts with semantic prefix (`feat:`, `docs:`)
 
 **Output**: Updated operational infrastructure.
@@ -158,7 +158,7 @@ This pipeline provides a **repeatable five-phase process** for systematic invest
 - [ ] Skills added if needed
 - [ ] Integration tested
 - [ ] 05-SIGMA documents committed
-- [ ] COCKPIT.md updated if roles changed
+- [ ] README.md updated if roles changed
 - [ ] `make verify` passes
 
 ---
@@ -268,7 +268,7 @@ Copy and fill for each new tool investigation:
 - [ ] Platform config: [file]
 - [ ] Skills: [list]
 - [ ] SIGMA7 docs: [list]
-- [ ] COCKPIT.md updated: [yes/no]
+- [ ] README.md updated: [yes/no]
 - [ ] make verify: [pass/fail]
 
 ### Decision

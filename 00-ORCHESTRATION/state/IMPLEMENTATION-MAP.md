@@ -21,13 +21,13 @@
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
   source_lines: "Immediate Actions → Critical Fixes (2) + §8 Chorus/Medley"
   intent: Correct Chorus vs Medley terminology across ops docs.
-  deliverable: COCKPIT.md update: Constellation operates in Medley mode; reserve Chorus for same-prompt parallel.
+  deliverable: README.md update: Constellation operates in Medley mode; reserve Chorus for same-prompt parallel.
   dependencies: Identify all 'Chorus' references; adjust definitions.
   owner_lane: Psyche (spec) + Commander (edit)
   venue: repo
   status: done
   linear_id: SYN-6
-  notes: "Completed 2026-02-09: COCKPIT.md Modus Operandi updated with Medley/Chorus distinction. AVATAR-GROK.md and AVATAR-CHATGPT.md updated from 'Role in the Chorus' to 'Role in the Constellation (Medley Mode)', PROC Chorus → PROC Medley. 2026-02-10: Residual sweep — 3 more files fixed (SN_BLOCK_TEMPLATES.md PROC Chorus→Medley, EXEMPLA-PROVERBS.md, EXEMPLA-TALE-ajna2-lobotomy.md)."
+  notes: "Completed 2026-02-09: README.md (formerly COCKPIT.md) Modus Operandi updated with Medley/Chorus distinction. AVATAR-GROK.md and AVATAR-CHATGPT.md updated from 'Role in the Chorus' to 'Role in the Constellation (Medley Mode)', PROC Chorus → PROC Medley. 2026-02-10: Residual sweep — 3 more files fixed (SN_BLOCK_TEMPLATES.md PROC Chorus→Medley, EXEMPLA-PROVERBS.md, EXEMPLA-TALE-ajna2-lobotomy.md)."
 
 - id: IMPL-A-0003
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
@@ -94,7 +94,7 @@
   source_lines: "Pass 3 + ‘Required CANON-31150 Update’"
   intent: Bring CANON-31150 Platform Capability Catalog up to reality.
   deliverable: Rewrite CANON-31150 from 3 conflated entries → 7 distinct platform entries (separate CLI vs web; add OpenClaw, Codex; add Grok/Perplexity as separate external services).
-  dependencies: COCKPIT.md role truth; Rosetta naming.
+  dependencies: README.md role truth; Rosetta naming.
   owner_lane: Commander
   venue: repo
   status: done
@@ -245,7 +245,7 @@
   source_lines: "How Systems Interact (diagram)"
   intent: Make the interaction model executable (not just a diagram).
   deliverable: A single ‘source intake’ state machine spec showing entrypoints (System 1/2/3) → triage (System 4) → outcomes (process/queue/archive/prune) with filenames/dirs.
-  dependencies: Dispatch kanban protocol + directory conventions (agents/-OUTGOING/inbox/04-SOURCES).
+  dependencies: Dispatch kanban protocol + directory conventions (agents/<agent>/inbox/04-SOURCES).
   owner_lane: Commander
   venue: repo
   status: new
@@ -335,7 +335,7 @@
   source_lines: "Git: Only Ajna commits"
   intent: Reduce merge/drift risk while allowing Psyche to contribute safely.
   deliverable: Document ‘Psyche contribution protocol’: Psyche opens PATCH artifacts (diffs) or PR branches; Ajna merges/commits. Include receipts: how to produce a patch bundle.
-  dependencies: Decide branch naming + patch handoff surface (-OUTGOING/PATCH-* vs agents/psyche/outbox/ARTIFACTS).
+  dependencies: Decide branch naming + patch handoff surface (agents/psyche/outbox/PATCH-* vs agents/psyche/outbox/ARTIFACTS).
   owner_lane: Psyche
   venue: repo
   status: new
@@ -400,7 +400,7 @@
   source_path: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
   source_lines: "Per-Agent Outbox Structure + RESULT Receipt Determinism"
   intent: Align watchers and humans on where RESULT receipts live.
-  deliverable: Create `agents/<agent>/outbox/{RESULTS,ARTIFACTS}/` structure in repo + update watcher scripts to write there (not -OUTGOING), with a relay rule for what gets promoted to -OUTGOING.
+  deliverable: Create `agents/<agent>/outbox/{RESULTS,ARTIFACTS}/` structure in repo + update watcher scripts to write there.
   dependencies: watch_dispatch.sh implementation state; repo directory conventions.
   owner_lane: Commander
   venue: repo
@@ -446,7 +446,7 @@
   source_path: 01-CANON/CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE.md
   source_lines: "PART II: Five Core Orchestration Patterns"
   intent: Map industry orchestration patterns onto Syncrescendence’s actual execution substrate.
-  deliverable: A mapping doc/table: {Sequential, Concurrent, Group Chat, Handoff, Magentic} → {Neo‑Blitzkrieg stages, OpenClaw primitives, -INBOX kanban, sessions_spawn}, with a ‘when to use’ router.
+  deliverable: A mapping doc/table: {Sequential, Concurrent, Group Chat, Handoff, Magentic} → {Neo‑Blitzkrieg stages, OpenClaw primitives, inbox kanban, sessions_spawn}, with a ‘when to use’ router.
   dependencies: Neo‑Blitzkrieg spec + Toolchain interaction protocol.
   owner_lane: Psyche
   venue: repo
@@ -634,7 +634,7 @@
   venue: repo
   status: done
   linear_id: SYN-32
-  notes: "Completed 2026-02-09: Makefile verify now checks CLAUDE.md, COCKPIT.md, README.md explicitly and reports unexpected .md files."
+  notes: "Completed 2026-02-09: Makefile verify now checks CLAUDE.md, README.md explicitly and reports unexpected .md files."
 
 - id: IMPL-D-0073
   source_path: Makefile
@@ -696,9 +696,9 @@
 
 - id: IMPL-D-0078
   source_path: .github/CONNECTOR_PROTOCOL.md
-  source_lines: "Entry Points (CLAUDE.md / CHATGPT.md / GEMINI.md / COCKPIT.md)"
+  source_lines: "Entry Points (CLAUDE.md / CHATGPT.md / GEMINI.md / README.md)"
   intent: Remove protocol drift: ensure all entrypoint files exist and reflect current truth.
-  deliverable: Create missing CHATGPT.md (and/or update filenames) and ensure CLAUDE.md/GEMINI.md/COCKPIT.md are current; update CONNECTOR_PROTOCOL if names differ.
+  deliverable: Create missing CHATGPT.md (and/or update filenames) and ensure CLAUDE.md/GEMINI.md/README.md are current; update CONNECTOR_PROTOCOL if names differ.
   dependencies: Identify actual current entrypoints in repo.
   owner_lane: Psyche
   venue: repo
@@ -761,7 +761,7 @@
   venue: repo
   status: done
   linear_id: SYN-32
-  notes: "Completed 2026-02-09: verify_all.sh switched to explicit CLAUDE.md/COCKPIT.md/README.md allowlist, reports unexpected files. Aligned with Makefile verify."
+  notes: "Completed 2026-02-09: verify_all.sh switched to explicit CLAUDE.md/README.md allowlist, reports unexpected files. Aligned with Makefile verify."
 
 - id: IMPL-D-0084
   source_path: 00-ORCHESTRATION/scripts/verify_all.sh
@@ -798,7 +798,7 @@
 
 - id: IMPL-D-0087
   source_path: 00-ORCHESTRATION/scripts/triage_outgoing.sh
-  source_lines: "PENDING/IN_PROGRESS grep across -INBOX"
+  source_lines: "PENDING/IN_PROGRESS grep across inbox"
   intent: Make triage reflect kanban truth rather than header regex.
   deliverable: Update triage to report counts by lane folders (00/10/20/30/40/50) and flag mismatches between folder state and header Status/Kanban.
   dependencies: Kanban protocol; queue_status.sh (if present).
@@ -1041,15 +1041,15 @@
   source_path: 00-ORCHESTRATION/scripts/watch_dispatch.sh
   source_lines: "process_task case routing"
   intent: Guarantee that every executed task produces a durable receipt artifact.
-  deliverable: Capture executor stdout/stderr into -OUTGOING/RESULT-<agent>-<date>-<topic>.md (or a deterministic name derived from the task filename) automatically; link it in task header and ledger.
-  dependencies: dispatch.sh naming conventions; -OUTGOING/ directory structure; ledger event schema
+  deliverable: Capture executor stdout/stderr into agents/<agent>/outbox/RESULT-<agent>-<date>-<topic>.md (or a deterministic name derived from the task filename) automatically; link it in task header and ledger.
+  dependencies: dispatch.sh naming conventions; agents/<agent>/outbox/ directory structure; ledger event schema
   owner_lane: Commander
   venue: repo
   status: new
   linear_id: SYN-14
 
 - id: IMPL-D-0037
-  source_path: -OUTGOING/RESULT-commander-20260205-always_on_watchers_sweep.md
+  source_path: agents/commander/outbox/RESULT-commander-20260205-always_on_watchers_sweep.md
   source_lines: "Remediation Plan (Blockers 1-3)"
   intent: Restore always-on readiness for Ajna + Adjudicator + Commander on the Mac mini.
   deliverable: (1) Install OpenClaw on mini (openclaw binary + gateway), (2) configure Codex auth (codex login or API key), (3) resolve Claude billing/plan path for Commander.
@@ -1129,7 +1129,7 @@
   linear_id: SYN-43
 
 - id: IMPL-D-0044
-  source_path: -OUTGOING/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
+  source_path: agents/ajna/outbox/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
   source_lines: "Phase 1 SSH reachability failures"
   intent: Remove SSH trust/bootstrap friction as a blocker for operational sync.
   deliverable: Establish stable SSH aliasing (psyche/ajna), host discovery method, and host-key pinning procedure; generate receipts (fingerprints).
@@ -1140,7 +1140,7 @@
   linear_id: SYN-43
 
 - id: IMPL-D-0045
-  source_path: -OUTGOING/RESULT-ajna-20260205-sync_outfitment.md
+  source_path: agents/ajna/outbox/RESULT-ajna-20260205-sync_outfitment.md
   source_lines: "CRITICAL: OAuth dir missing (~/.openclaw/credentials)"
   intent: Ensure OpenClaw OAuth-based providers (openai-codex) are stable on Ajna.
   deliverable: Run `openclaw doctor --fix` (or equivalent) and verify ~/.openclaw/credentials exists; add a watcher preflight that fails fast if missing.
@@ -1195,7 +1195,7 @@
   linear_id: SYN-43
 
 - id: IMPL-D-0050
-  source_path: -OUTGOING/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
+  source_path: agents/ajna/outbox/RESULT-ajna-20260205-outfitment_sync_and_smoketest.md
   source_lines: "git stash used to proceed"
   intent: Avoid hidden local state (stashes) on Ajna causing drift or future merge surprises.
   deliverable: Define policy: no long-lived stashes on always-on node; create a periodic audit script that lists stashes and requires resolution.
@@ -1375,7 +1375,7 @@
   venue: repo
   status: done
   linear_id: SYN-32
-  notes: "Completed 2026-02-09: Same fix as D-0083 — verify_all.sh now uses explicit allowlist (CLAUDE.md, COCKPIT.md, README.md)."
+  notes: "Completed 2026-02-09: Same fix as D-0083 — verify_all.sh now uses explicit allowlist (CLAUDE.md, README.md)."
 
 - id: IMPL-D-0066
   source_path: 00-ORCHESTRATION/scripts/verify_all.sh
@@ -1685,7 +1685,7 @@
   source_path: 02-ENGINE/REF-ROSETTA_STONE.md
   source_lines: "Immediate Actions → Critical Fixes (2) + #8 Chorus/Medley"
   intent: Fix operational terminology drift: Constellation is Medley by default; Chorus reserved for same-prompt parallel runs.
-  deliverable: COCKPIT.md + any ops docs: replace incorrect ‘Chorus’ usage for day-to-day operations with ‘Medley’; add a one-paragraph glossary note + ‘when to use Chorus’ examples.
+  deliverable: README.md + any ops docs: replace incorrect ‘Chorus’ usage for day-to-day operations with ‘Medley’; add a one-paragraph glossary note + ‘when to use Chorus’ examples.
   dependencies: IMPL-A-0002.
   owner_lane: Commander
   venue: repo

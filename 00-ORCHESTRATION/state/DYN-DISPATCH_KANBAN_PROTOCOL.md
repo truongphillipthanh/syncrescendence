@@ -25,7 +25,7 @@ Filesystem kanban for dispatch surfaces. Each agent's inbox becomes a kanban boa
 
 ```
 agents/<agent>/inbox/
-  00-INBOX0/          # New, unclaimed tasks only
+  pending/            # New, unclaimed tasks only
   10-IN_PROGRESS/     # Claimed; currently executing
   20-WAITING/         # Waiting on external dependency
   30-BLOCKED/         # Cannot proceed (auth, install, etc.)
@@ -36,7 +36,7 @@ agents/<agent>/inbox/
 ```
 
 **Rules:**
-- Watchers ONLY watch `00-INBOX0/`.
+- Watchers ONLY watch `pending/`.
 - RECEIPTS/ is never executed. Used for CC-piped copies of completed tasks.
 - Manual triage may move items to `20-WAITING/` or `30-BLOCKED/`.
 - `90_ARCHIVE/` is for non-actionable historical files.
@@ -53,8 +53,7 @@ agents/<agent>/outbox/
 
 **Rules:**
 - Watchers write RESULT files deterministically to `agents/<agent>/outbox/`.
-- `-OUTGOING/` remains as staging-for-commit (Sovereign relay surface).
-- Artifacts that need Sovereign relay go to `-OUTGOING/`; everything else goes to `agents/`./outbox
+- Sovereign relay artifacts go to `agents/<agent>/outbox/`.
 
 ---
 
@@ -118,7 +117,7 @@ All dispatch files use markdown bold-colon headers:
 - `**Reply-To**:` — Agent slug that receives CONFIRM + RESULT upon completion (mandatory for bidirectional feedback)
 
 **Status values** (header truth, mirrors folder location):
-- `PENDING` → file in `00-INBOX0/`
+- `PENDING` → file in `pending/`
 - `IN_PROGRESS` → file in `10-IN_PROGRESS/`
 - `WAITING` → file in `20-WAITING/`
 - `BLOCKED` → file in `30-BLOCKED/`
@@ -135,8 +134,8 @@ All dispatch files use markdown bold-colon headers:
 3. Appends `DISPATCH` event to ledger
 
 ### 6.2 Claim (watcher picks up task)
-1. Watcher detects file in `00-INBOX0/`
-2. Atomic `mv` from `00-INBOX0/TASK-*.md` → `10-IN_PROGRESS/TASK-*.md`
+1. Watcher detects file in `pending/`
+2. Atomic `mv` from `pending/TASK-*.md` → `active/TASK-*.md`
 3. If `mv` fails → another watcher claimed it; skip
 4. Updates header: `Status: IN_PROGRESS`, `Kanban: IN_PROGRESS`, `Claimed-By`, `Claimed-At`
 5. Appends `CLAIM` event to ledger
@@ -191,8 +190,8 @@ Every task completion MUST notify the dispatching agent. This is non-negotiable.
 ## 7. Cross-Claim Prevention
 
 1. **To: guard**: Watchers MUST verify the `**To**:` field matches their agent before claiming.
-2. **Atomic mv**: Only one watcher can successfully `mv` a file from `00-INBOX0/`.
-3. **RECEIPTS/ isolation**: CC-piped copies land in `RECEIPTS/`, never in `00-INBOX0/`.
+2. **Atomic mv**: Only one watcher can successfully `mv` a file from `pending/`.
+3. **RECEIPTS/ isolation**: CC-piped copies land in `RECEIPTS/`, never in `pending/`.
 4. **Per-host tagging**: `Claimed-By` records `<agent>-<hostname>` for forensic traceability.
 
 ---
@@ -228,7 +227,7 @@ Existing ledger events remain valid. No new event types needed.
 
 | Event | Trigger |
 |-------|---------|
-| `DISPATCH` | Task written to `00-INBOX0/` |
+| `DISPATCH` | Task written to `pending/` |
 | `CLAIM` | Task moved to `10-IN_PROGRESS/` |
 | `COMPLETE` | Task moved to `40-DONE/` |
 | `FAILED` | Task moved to `50_FAILED/` |
@@ -256,14 +255,14 @@ done
 See `00-ORCHESTRATION/scripts/migrate_kanban.sh` for the one-time migration script.
 
 Migration rules:
-- `*.md` with `Status: PENDING` → `00-INBOX0/`
+- `*.md` with `Status: PENDING` → `pending/`
 - `*.claimed-by-*` → `10-IN_PROGRESS/` (strip suffix)
 - `*.complete` → `40-DONE/` (strip suffix)
 - `*.failed` → `50_FAILED/` (strip suffix)
 - `RESULT-*`, `RECEIPT-*` → `RECEIPTS/`
 - `RESPONSE-*`, bootstrap docs → `90_ARCHIVE/`
 - iCloud " 2" duplicates → deleted
-- Existing `-OUTGOING/RESULT-*` files → `agents/<agent>/outbox/`
+- Existing RESULT-* files → `agents/<agent>/outbox/`
 
 ---
 
@@ -273,7 +272,7 @@ Migration rules:
 - `append_ledger.sh` unchanged (same event types)
 - `dispatch.sh` v2 backwards-compatible (writes to new path, old watchers won't see files)
 - `watch_dispatch.sh` v2 must be deployed on all machines simultaneously with migration
-- `-OUTGOING/` retained as Sovereign relay surface (not replaced)
+- `agents/<agent>/outbox/` serves as Sovereign relay surface
 
 ---
 

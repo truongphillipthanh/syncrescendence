@@ -9819,3 +9819,163 @@ none
 287 intention(s) captured by Intent Compass this session.
 
 ---
+
+## Session: 2026-02-22 17:40:43
+**Branch**: main | **Fingerprint**: 65d35320 | **Commits**: 10
+
+### Commits
+```
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+9157b3f5 fix: add --no-incident flag to integrity gate callers, 6hr dedup safety net
+6a297666 refactor: scaffold agent offices, migrate -INBOX/, rename COCKPIT→BRIDGE (INT-2201)
+63759d04 docs: Oracle 21 session handoff + execution log + intention compass v3.3.0
+84bb7163 feat: CLI agent setup arch + three-track eval framework (INT-2107/2108)
+a05e8439 feat: Dual-stream architecture + account feed restructure intentions
+931c0979 feat: Source Anneal pipeline — scripts, indexes, MOCs, SIGMA docs
+135ac2c4 fix: has_transcript field + rebuild MOCs and CSV
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+287 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-22 17:46:07
+**Branch**: main | **Fingerprint**: 3a1964be | **Commits**: 10
+
+### Commits
+```
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+9157b3f5 fix: add --no-incident flag to integrity gate callers, 6hr dedup safety net
+6a297666 refactor: scaffold agent offices, migrate -INBOX/, rename COCKPIT→BRIDGE (INT-2201)
+63759d04 docs: Oracle 21 session handoff + execution log + intention compass v3.3.0
+84bb7163 feat: CLI agent setup arch + three-track eval framework (INT-2107/2108)
+a05e8439 feat: Dual-stream architecture + account feed restructure intentions
+60db8ca4 sync(ajna): inbox/outgoing sync from MBA [2026-02-23T00:48:57Z]
+```
+
+### State Files Touched
+```
+none
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+287 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-22 17:48:12
+**Branch**: main | **Fingerprint**: dc491423 | **Commits**: 10
+
+### Commits
+```
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+9157b3f5 fix: add --no-incident flag to integrity gate callers, 6hr dedup safety net
+6a297666 refactor: scaffold agent offices, migrate -INBOX/, rename COCKPIT→BRIDGE (INT-2201)
+63759d04 docs: Oracle 21 session handoff + execution log + intention compass v3.3.0
+84bb7163 feat: CLI agent setup arch + three-track eval framework (INT-2107/2108)
+a05e8439 feat: Dual-stream architecture + account feed restructure intentions
+```
+
+### State Files Touched
+```
+00-ORCHESTRATION/scripts/DESIGN-TMUX_COCKPIT.md
+00-ORCHESTRATION/state/ARCH-AUTOMATION_MASTER_PLAN.md
+00-ORCHESTRATION/state/ARCH-COCKPIT_OPERATIONAL_PROTOCOL.md
+00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md
+00-ORCHESTRATION/state/ARCH-GRAND_ANNEALMENT.md
+00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
+00-ORCHESTRATION/state/ARCH-LINEAR_SYNC_PROTOCOL.md
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+287 intention(s) captured by Intent Compass this session.
+
+---
+
+## Session: 2026-02-22 17:51:34
+**Branch**: main | **Fingerprint**: dc491423 | **Commits**: 10
+
+### Commits
+```
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+9157b3f5 fix: add --no-incident flag to integrity gate callers, 6hr dedup safety net
+6a297666 refactor: scaffold agent offices, migrate -INBOX/, rename COCKPIT→BRIDGE (INT-2201)
+63759d04 docs: Oracle 21 session handoff + execution log + intention compass v3.3.0
+84bb7163 feat: CLI agent setup arch + three-track eval framework (INT-2107/2108)
+a05e8439 feat: Dual-stream architecture + account feed restructure intentions
+```
+
+### State Files Touched
+```
+00-ORCHESTRATION/scripts/DESIGN-TMUX_COCKPIT.md
+00-ORCHESTRATION/state/ARCH-AUTOMATION_MASTER_PLAN.md
+00-ORCHESTRATION/state/ARCH-COCKPIT_OPERATIONAL_PROTOCOL.md
+00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md
+00-ORCHESTRATION/state/ARCH-GRAND_ANNEALMENT.md
+00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
+00-ORCHESTRATION/state/ARCH-LINEAR_SYNC_PROTOCOL.md
+```
+
+### CANON Files Touched
+```
+none
+```
+
+### ENGINE Files Touched
+```
+none
+```
+
+### Queued Intentions
+287 intention(s) captured by Intent Compass this session.
+
+---

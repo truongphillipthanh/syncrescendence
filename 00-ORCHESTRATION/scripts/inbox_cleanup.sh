@@ -8,8 +8,8 @@ REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo "$HOME/Desktop/sy
 AGENT="${1:-commander}"
 DRY_RUN="${2:-}"
 
-INBOX0="$REPO_ROOT/-INBOX/$AGENT/00-INBOX0"
-RECEIPTS="$REPO_ROOT/-INBOX/$AGENT/RECEIPTS"
+INBOX0="$REPO_ROOT/agents/$AGENT/inbox/pending"
+RECEIPTS="$REPO_ROOT/agents/$AGENT/inbox/RECEIPTS"
 
 mkdir -p "$RECEIPTS"
 

@@ -341,7 +341,7 @@ grep "SOURCE-YYYYMMDD-NNN" 01-CANON/CANON-XXXXX.md
 - Tool-specific optimizations discovered
 - Candidate patterns for teaching
 
-**Handoff Location**: `-OUTGOING/`
+**Handoff Location**: `agents/<agent>/outbox/`
 
 ### C. Cross-IIC Integration
 
@@ -579,7 +579,7 @@ function update_csv() {
 ### Mastery (Knowledge Chain)
 **Receives**: Teaching pattern requests
 **Provides**: Proven execution patterns, reusable blueprints
-**Interface**: Handoff via `-OUTGOING/` staging
+**Interface**: Handoff via `agents/<agent>/outbox/` staging
 
 ### Transcendence (Wisdom Chain)
 **Receives**: System health queries

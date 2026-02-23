@@ -72,3 +72,21 @@
 | 931c0979 | feat: Source Anneal pipeline (plumbing commit) |
 | a05e8439 | feat: Dual-stream architecture + account feed restructure intentions |
 | 84bb7163 | feat: CLI agent setup arch + three-track eval framework |
+
+### SESSION-20260222-1740 | 2026-02-22 17:40
+- **Branch**: main | **Fingerprint**: 65d35320
+- **Outcome**: SUCCESS
+- **Commits**: 24 | **Changes**:  2704 files changed, 291453 insertions(+), 62468 deletions(-)
+- **Details**: 65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+
+### SESSION-20260222-1746 | 2026-02-22 17:46
+- **Branch**: main | **Fingerprint**: 3a1964be
+- **Outcome**: SUCCESS
+- **Commits**: 25 | **Changes**:  2705 files changed, 291477 insertions(+), 62468 deletions(-)
+- **Details**: 3a1964be Merge remote-tracking branch 'origin/main'
+
+### SESSION-20260222-1748 | 2026-02-22 17:48
+- **Branch**: main | **Fingerprint**: dc491423
+- **Outcome**: SUCCESS
+- **Commits**: 26 | **Changes**:  2748 files changed, 293150 insertions(+), 62627 deletions(-)
+- **Details**: dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)

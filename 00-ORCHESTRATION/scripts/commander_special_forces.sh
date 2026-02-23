@@ -26,7 +26,7 @@ bash 00-ORCHESTRATION/scripts/triage_outgoing.sh 2>/dev/null || true
 echo
 
 echo "--- inbox: commander"
-ls -1 -t -INBOX/commander 2>/dev/null | head -n 20 || true
+ls -1 -t agents/commander/inbox/ 2>/dev/null | head -n 20 || true
 
 echo
 

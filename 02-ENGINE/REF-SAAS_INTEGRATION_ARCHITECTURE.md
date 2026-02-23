@@ -94,7 +94,7 @@ Each σ₇ platform is developing internal agentic swarm capabilities. Claude Co
 | **Oracle** | Recon | RECON | Grok | 1 | σ₅ | X firehose, prediction markets, adversarial challenge | ACTIVE |
 | **Augur** | Inquisitor | VERIFIER | Perplexity | — | σ₅ | Citation-backed research, discrete queries | ACTIVE |
 
-Web apps participate through the CAPTURE → DISPATCH → RETURN mnemonic. They receive handoff tokens from σ₀, process content through their specialized σ₅ function, and produce artifacts that return to σ₄ via -OUTGOING/ or manual commit. Integration is *human-mediated* — the Sovereign orchestrates transitions. Vizier has the richest native σ₆ connections (GitHub, Drive, Gmail connectors).
+Web apps participate through the CAPTURE → DISPATCH → RETURN mnemonic. They receive handoff tokens from σ₀, process content through their specialized σ₅ function, and produce artifacts that return to σ₄ via `agents/<agent>/outbox/` or manual commit. Integration is *human-mediated* — the Sovereign orchestrates transitions. Vizier has the richest native σ₆ connections (GitHub, Drive, Gmail connectors).
 
 ### B. AI Platforms — Desktop Apps (σ₅ + σ₇)
 
@@ -218,7 +218,7 @@ All inter-agent coordination at the σ₄↔σ₇ boundary flows through the kan
 
 **Per-agent inbox**: `agents/<agent>/inbox/` with kanban lanes: `00-INBOX0/` (new, unclaimed), `10-IN_PROGRESS/` (claimed, executing), `20-WAITING/` (external dependency), `30-BLOCKED/` (hard blocker), `40-DONE/` (completed), `50_FAILED/` (unsuccessful), `90_ARCHIVE/` (cold storage), `RECEIPTS/` (CC copies, watchers ignore).
 
-**Per-agent outbox**: `agents/<agent>/outbox/` (RESULT receipts), `agents/<agent>/outbox/ARTIFACTS/` (produced files). `-OUTGOING/` remains the Sovereign relay surface for web app staging.
+**Per-agent outbox**: `agents/<agent>/outbox/` (RESULT receipts), `agents/<agent>/outbox/ARTIFACTS/` (produced files). Sovereign relay surface for web app staging uses per-agent outbox paths.
 
 **Eight dispatch kinds**: TASK (do something), SURVEY (report on something), DIRECTIVE (guidance), EVIDENCE (observation), RESULT (what happened), RECEIPT (CC copy), PATCH (change proposal), NOTE (informational).
 
@@ -579,7 +579,7 @@ Midjourney Discord, fal API, asset management selection, website.
 | `ARCH-SOVEREIGNTY_STRATA.md` | **Canonical framework** — σ₀–σ₇ organizing principle for this document |
 | `REF-STACK_TELEOLOGY.md` | Companion — maps σ₁ (why); this doc maps σ₇ connections (how) |
 | `DYN-DISPATCH_KANBAN_PROTOCOL.md` | Authoritative σ₄↔σ₇ dispatch lifecycle |
-| `COCKPIT.md` | Authoritative σ₅ avatar/role assignments |
+| `README.md` | Authoritative σ₅ avatar/role assignments |
 | `DYN-TWIN_COORDINATION_PROTOCOL.md` | Ajna/Psyche σ₇ coordination |
 | `DYN-RESEARCH_DISPATCH.md` | Research targets for CLI agents |
 

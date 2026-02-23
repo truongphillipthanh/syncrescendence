@@ -23,11 +23,11 @@ This registry is required for every constellation agent. Keep it current.
 
 | Agent | CLI Tool + Version Surface | Dispatch Mode | Machine | tmux Pane | Rate-Limit Pool | Auto-Ingest Loop | Recovery Procedure |
 |---|---|---|---|---|---|---|---|
-| **Commander** | Claude Code (Opus 4.6 lane) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | Enabled via `auto_ingest_loop.sh commander` | Restart CLI in pane `1.3` → check `-INBOX/commander/00-INBOX0` + `10-IN_PROGRESS` → resume and write RESULT |
+| **Commander** | Claude Code (Opus 4.6 lane) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | Enabled via `auto_ingest_loop.sh commander` | Restart CLI in pane `1.3` → check `agents/commander/inbox/pending` + `inbox/active` → resume and write RESULT |
 | **Adjudicator** | Codex CLI (GPT-5.2/5.3 codex lane) | tmux `send-keys` | Mac mini | `1.5` | Shared ChatGPT Plus pressure domain with Psyche tasks | Enabled via `auto_ingest_loop.sh adjudicator` | Restart pane `1.5` CLI → inspect INBOX0/IN_PROGRESS → rerun verification and emit CONFIRM/RESULT |
 | **Cartographer** | Gemini CLI (`gemini-2.5-pro`) | Headless (`gemini -p -y -o text`) | Mac mini | `1.7` (monitor pane; execution can be headless) | Google AI Pro / Gemini quota pool (Acct 2) | Enabled via `auto_ingest_loop.sh cartographer` | Re-run headless command, inspect `auto_ingest.log`, resume from IN_PROGRESS, move to DONE/FAILED |
 | **Psyche** | OpenClaw (`openclaw tui --session main`, model GPT-5.3-codex) | tmux `send-keys` | Mac mini | `1.1` | Shared ChatGPT Plus pool (with Adjudicator workload contention) | Enabled via `auto_ingest_loop.sh psyche` | Restart OpenClaw TUI in pane `1.1` → check inbox lanes → continue objective and publish receipts |
-| **Ajna** | OpenClaw (Kimi K2.5 lane) | tmux/remote inbox dispatch (filesystem + SCP sling) | MacBook Air (remote) | N/A (remote lane) | NVIDIA/Kimi capacity pool | Enabled on MBA via `auto_ingest_loop.sh ajna` | Reconnect MBA lane, verify `-INBOX/ajna/00-INBOX0`, process backlog, write `-OUTBOX/ajna/RESULTS` |
+| **Ajna** | OpenClaw (Kimi K2.5 lane) | tmux/remote inbox dispatch (filesystem + SCP sling) | MacBook Air (remote) | N/A (remote lane) | NVIDIA/Kimi capacity pool | Enabled on MBA via `auto_ingest_loop.sh ajna` | Reconnect MBA lane, verify `agents/ajna/inbox/pending`, process backlog, write `agents/ajna/outbox/` |
 
 ---
 
@@ -106,16 +106,16 @@ This registry is required for every constellation agent. Keep it current.
 02-ENGINE/          Functions, prompts, avatars, model profiles
 04-SOURCES/         Source documents (raw/, processed/, research/)
 05-SIGMA/           Operational knowledge corpus
--INBOX/             Per-agent task dispatch folders
+agents/             Per-agent offices (inbox, outbox, memory, scratchpad)
 -OUTGOING/          CLI → WebApp staging
 -SOVEREIGN/         Async decision queue
 ```
 
 ## Dispatch Protocol
 
-Tasks arrive as `TASK-*.md` files in `-INBOX/{agent}/` with `Status: PENDING`.
+Tasks arrive as `TASK-*.md` files in `agents/{agent}/inbox/pending/` with `Status: PENDING`.
 The `auto_ingest_loop.sh` script polls these folders every 30s and routes to the appropriate CLI.
-After processing, tasks move through `10-IN_PROGRESS/` → `40-DONE/` or `50_FAILED/`.
+After processing, tasks move through `inbox/active/` → `inbox/done/` or `inbox/failed/`.
 
 ---
 
@@ -124,9 +124,9 @@ After processing, tasks move through `10-IN_PROGRESS/` → `40-DONE/` or `50_FAI
 ### A. Task Initialization Protocol
 *Fires at the start of every session and before each task.*
 
-1. **Inbox scan**: Check `-INBOX/adjudicator/` for `TASK-*.md` files with `Status: PENDING`. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator` for quick status. Process tasks in priority order (P0 first).
+1. **Inbox scan**: Check `agents/adjudicator/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator` for quick status. Process tasks in priority order (P0 first).
 2. **Ground truth scan**: Run `git status` — verify clean working tree, confirm fingerprint
-3. **Triumvirate alignment**: AGENTS.md (already loaded at init) + read `COCKPIT.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
+3. **Triumvirate alignment**: `agents/adjudicator/INIT.md` (already loaded at init) + read `README.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
 4. **Claim the task**: Atomic rename `TASK-xxx.md` → `TASK-xxx.md.claimed-by-adjudicator-{hostname}` (prevents duplicate consumers across machines)
 5. **Validate scope**: Confirm the task falls within Adjudicator jurisdiction (see B below). If it requires architectural judgment or CANON modification, escalate to Commander.
 
@@ -152,10 +152,10 @@ After processing, tasks move through `10-IN_PROGRESS/` → `40-DONE/` or `50_FAI
 - The fix requires an **architectural decision** (new patterns, structural changes)
 - The task involves **CANON modifications** (`01-CANON/` is a protected zone)
 - Specifications are **ambiguous** — unclear what "correct" means
-- The change would touch **triumvirate files** (AGENTS.md, COCKPIT.md, ARCH-INTENTION_COMPASS.md)
+- The change would touch **triumvirate files** (`agents/adjudicator/INIT.md`, `README.md`, ARCH-INTENTION_COMPASS.md)
 - The change requires **Sovereign approval** (route to `-SOVEREIGN/` instead)
 
-Escalation method: Write a TASK file to `-INBOX/commander/` with `Priority: P1` and context about what was attempted.
+Escalation method: Write a TASK file to `agents/commander/inbox/pending/` with `Priority: P1` and context about what was attempted.
 
 ### C. Task Completion Protocol
 *Fires at the end of every task.*
@@ -173,7 +173,7 @@ Escalation method: Write a TASK file to `-INBOX/commander/` with `Priority: P1` 
 ---
 
 ## References
-- Full constellation mapping: `COCKPIT.md`
+- Full constellation mapping: `README.md`
 - CLI enlistment guide: `02-ENGINE/REF-CLI_ENLISTMENT.md`
 - DEF variables: `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md`
 - Neo-Blitzkrieg buildout: `00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md`

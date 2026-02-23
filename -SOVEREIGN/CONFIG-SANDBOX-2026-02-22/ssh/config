@@ -1,0 +1,20 @@
+# MBA → Mac mini (Commander/Ajna dispatching to Psyche's machine)
+Host mini
+  HostName M1-Mac-mini.local
+  User home
+  IdentityFile ~/.ssh/id_ed25519_ajna
+  IdentitiesOnly yes
+  StrictHostKeyChecking accept-new
+  ServerAliveInterval 20
+  ServerAliveCountMax 3
+
+# Back-compat aliases
+Host mac-mini
+  HostName M1-Mac-mini.local
+  User home
+  IdentityFile ~/.ssh/id_ed25519_ajna
+  IdentitiesOnly yes
+  StrictHostKeyChecking accept-new
+  ServerAliveInterval 20
+  ServerAliveCountMax 3
+

@@ -16,8 +16,8 @@ echo "-- git status --"
 git status --short || true
 echo
 
-echo "-- PENDING / IN_PROGRESS TASKS (-INBOX) --"
-for agent_dir in ./-INBOX/*/00-INBOX0; do
+echo "-- PENDING / IN_PROGRESS TASKS (agents/*/inbox) --"
+for agent_dir in ./agents/*/inbox/pending; do
     agent=$(basename "$(dirname "$agent_dir")")
     tasks=$(ls "$agent_dir"/TASK-*.md 2>/dev/null)
     if [ -n "$tasks" ]; then
@@ -29,7 +29,7 @@ for agent_dir in ./-INBOX/*/00-INBOX0; do
         done
     fi
 done
-total=$(find ./-INBOX -name "TASK-*.md" -path "*/00-INBOX0/*" 2>/dev/null | wc -l | tr -d ' ')
+total=$(find ./agents -name "TASK-*.md" -path "*/inbox/pending/*" 2>/dev/null | wc -l | tr -d ' ')
 [ "$total" -eq 0 ] && echo "(none)"
 echo
 

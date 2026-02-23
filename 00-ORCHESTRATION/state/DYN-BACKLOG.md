@@ -11,7 +11,7 @@
 2. ~~**Memory architecture CANON**: Metabolize memory-architecture-teleology.md~~ — DONE (content already in CANON-25000 via lean-out; source deleted)
 3. ~~**FLEET_COMMANDERS_HANDBOOK**: Metabolize into 05-SIGMA~~ — DONE (→ PRAC-agentic_mastery_framework.md at `86bc00c`; source deleted)
 4. **IEETC interview prep**: Feb 10, 2026 @ 2:15 PM San Bernardino (NEC study, YT recon, practice)
-5. ~~**Dispatch surfaces**: Restructure agents/-OUTGOING/inbox/-SOVEREIGN~~ — DONE (per-agent subfolders, dispatch.sh, watch_dispatch.sh at `28b3a33`; enhanced with agent research patterns at `1d408d9`)
+5. ~~**Dispatch surfaces**: Restructure agents/-SOVEREIGN~~ — DONE (per-agent subfolders, dispatch.sh, watch_dispatch.sh at `28b3a33`; enhanced with agent research patterns at `1d408d9`)
 6. ~~**Rosetta Stone terminology reconciliation**: Apply Sovereign clarifications~~ — DONE (v2.1.0 at `ad63eaa`; 13 changes applied)
 7. ~~**Systematic triage**: 00-ORCHESTRATION + 02-ENGINE~~ — DONE (10 files archived, Blitzkrieg supersession noted, ephemeral/durable updated at `e8cbc3a`)
 

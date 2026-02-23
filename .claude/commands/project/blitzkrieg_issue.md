@@ -31,15 +31,15 @@ fi
 
 # Check for legacy OUTGOING
 if ls -1 | grep -E "^(OUTGOING|outgoing)$" > /dev/null 2>&1; then
-    echo "ERROR: Legacy OUTGOING/ or outgoing/ exists. Migrate to -OUTGOING/ first."
+    echo "ERROR: Legacy OUTGOING/ or outgoing/ exists. Migrate to agents/commander/outbox/ first."
     exit 1
 fi
 
 # Ensure -OUTGOING exists (use ./ prefix to avoid flag interpretation)
-mkdir -p "./-OUTGOING"
+mkdir -p "./agents/commander/outbox"
 
 # Determine output path (append suffix if exists)
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -61,7 +61,7 @@ GIT_HEAD=$(git rev-parse HEAD 2>/dev/null || echo "unknown")
 BRANCH=$(git branch --show-current 2>/dev/null || echo "unknown")
 GIT_STATUS=$(git status --short 2>/dev/null | head -20 || echo "unable to get status")
 
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -114,7 +114,7 @@ echo "Created: $OUTDIR/00_manifest/"
 ```bash
 SLUG="${1:-unnamed}"
 DATE=$(date +%Y%m%d)
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -166,7 +166,7 @@ echo "Created: $OUTDIR/01_context/context.md"
 ```bash
 SLUG="${1:-unnamed}"
 DATE=$(date +%Y%m%d)
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -199,7 +199,7 @@ cat > "$OUTDIR/02_pedigree/pedigree.md" << 'PEDEOF'
 1. FLAT PRINCIPLE: No subdirectories; use prefixes
 2. LEDGER GROUND TRUTH: tasks.csv is authoritative
 3. VERIFICATION BEFORE COMPLETION: Always verify
-4. SANCTIONED EXCEPTIONS: -OUTGOING/ and -INBOX/ only
+4. SANCTIONED EXCEPTIONS: agents/ only
 
 ## Critical Files
 
@@ -220,7 +220,7 @@ echo "Created: $OUTDIR/02_pedigree/pedigree.md"
 ```bash
 SLUG="${1:-unnamed}"
 DATE=$(date +%Y%m%d)
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -269,7 +269,7 @@ echo "Created: $OUTDIR/03_intention/intention_reference.md"
 ```bash
 SLUG="${1:-unnamed}"
 DATE=$(date +%Y%m%d)
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -422,7 +422,7 @@ echo "Created: $OUTDIR/04_directives/directive-{A,B,C}.md"
 ```bash
 SLUG="${1:-unnamed}"
 DATE=$(date +%Y%m%d)
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -491,7 +491,7 @@ echo "Created execution placeholders"
 ```bash
 SLUG="${1:-unnamed}"
 DATE=$(date +%Y%m%d)
-BASE="./-OUTGOING/${DATE}-blitzkrieg-${SLUG}"
+BASE="./agents/commander/outbox/${DATE}-blitzkrieg-${SLUG}"
 OUTDIR="$BASE"
 SUFFIX=2
 while [ -d "$OUTDIR" ]; do
@@ -518,7 +518,7 @@ echo "6. Run /project:blitzkrieg_finalize when complete"
 
 ## Output
 
-Creates blitzkrieg bundle at `-OUTGOING/YYYYMMDD-blitzkrieg-<slug>/` with:
+Creates blitzkrieg bundle at `agents/commander/outbox/YYYYMMDD-blitzkrieg-<slug>/` with:
 - `00_manifest/` — Environment info
 - `01_context/` — Context template (operator fills)
 - `02_pedigree/` — Pedigree template (operator fills)

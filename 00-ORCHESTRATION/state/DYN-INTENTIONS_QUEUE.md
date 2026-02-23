@@ -11,7 +11,7 @@
 - **Intent**: Codify always-on agent loops (7-phase /claresce per agent) as operational standard
 - **Priority**: P0 — This has been typed 3+ times and lost. Now persisted to ARCH-CONSTELLATION_AGENT_LOOPS.md
 - **Linked**: INT-1202 (maximize velocity), INT-MI19 (Palantir-like ontology)
-- **Actions**: Test plist watchers, update COCKPIT.md v3.0, activate Emacs Observation Layer
+- **Actions**: Test plist watchers, update README.md v3.0, activate Emacs Observation Layer
 - **Captured by**: Commander (Claude Code session 2026-02-08)
 
 ### 2026-02-08 01:30 — SOVEREIGN INTENT: Expand tactical repertoire beyond Blitzkrieg

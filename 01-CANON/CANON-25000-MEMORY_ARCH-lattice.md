@@ -1149,7 +1149,7 @@ Attempting uniform handoffs would fight each platform's architecture. Instead, t
 
 Cloud platforms have ephemeral, conflicting, partially-overlapping memory. The repository is permanent, version-controlled, and consistent. By making the repository the ground truth, the architecture creates a synchronization point that transcends platform-specific memory limitations.
 
-**The CAPTURE → DISPATCH → RETURN flow**: Cloud artifacts enter via agents/, are verified, then committed to the repository (CAPTURE). Directives dispatch from the repository to executors (DISPATCH). Execution results return to -OUTGOING/inbox/, are verified, then committed (RETURN). The repository sees everything; platforms see only their portion.
+**The CAPTURE → DISPATCH → RETURN flow**: Cloud artifacts enter via agents/, are verified, then committed to the repository (CAPTURE). Directives dispatch from the repository to executors (DISPATCH). Execution results return to agents/<agent>/outbox/, are verified, then committed (RETURN). The repository sees everything; platforms see only their portion.
 
 ---
 

@@ -55,7 +55,7 @@ Invocation Pattern:
   
 Directory Conventions:
   - Input from: agents//inbox
-  - Output to: -OUTGOING/
+  - Output to: agents/<agent>/outbox/
   - Logs to: 00-ORCHESTRATION/logs/
 
 Example Directive Format:
@@ -92,7 +92,7 @@ Invocation Pattern:
   Strong at: bulk operations, PR reviews, CI/CD integration
   
 Directory Conventions:
-  - Uses same agents/-OUTGOING/inbox pattern
+  - Uses same agents/<agent>/inbox/ pattern
   - Can trigger GitHub Actions
 
 ------------------------------------------------------------------------------
@@ -141,7 +141,7 @@ Repository Structure:
 Flow:
   1. Sovereign drops directive into agents//inbox
   2. Dispatcher (you or manual) routes to .dispatch/[agent]/
-  3. Agent picks up, executes, outputs to -OUTGOING/
+  3. Agent picks up, executes, outputs to agents/<agent>/outbox/
   4. Sovereign verifies, commits
 
 Status: TO_BE_IMPLEMENTED (requires Hazel or similar)
@@ -278,7 +278,7 @@ Fingerprint: 7a3f9c2e
 
 Compile this into a Claude Code directive:
 
-Objective: Restructure the -INBOX files by moving processed items to -ARCHIVE
+Objective: Restructure the inbox files by moving processed items to -ARCHIVE
 with timestamp prefixes.
 
 Constraints:
@@ -287,7 +287,7 @@ Constraints:
 - Log all moves to execution-log.md
 
 Destination: Claude Code Lead (Account 3)
-Verification: -INBOX contains only recent files, -ARCHIVE has timestamped files
+Verification: inbox contains only recent files, -ARCHIVE has timestamped files
 ```
 
 YOUR OUTPUT:
@@ -295,7 +295,7 @@ YOUR OUTPUT:
 # DIRECTIVE: DIR-20260120-INBOX-ARCHIVE
 
 ## Objective
-Restructure -INBOX by moving processed items to -ARCHIVE with timestamp prefixes.
+Restructure inbox by moving processed items to -ARCHIVE with timestamp prefixes.
 
 ## Constraints
 - Only move files with modification time > 24 hours ago
@@ -310,8 +310,8 @@ Restructure -INBOX by moving processed items to -ARCHIVE with timestamp prefixes
 
 ## Verification
 ```bash
-# Check -INBOX contains only recent files
-find ./-INBOX -type f -mtime +1 | wc -l  # Should be 0
+# Check inbox contains only recent files
+find ./agents/*/inbox/pending -type f -mtime +1 | wc -l  # Should be 0
 
 # Check -ARCHIVE has timestamped files
 ls -la ./-ARCHIVE/ | head -20

@@ -3,7 +3,7 @@
 # Designed for cron: 0 0 * * * /path/to/trigger-model-refresh.sh
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-INBOX="$REPO_ROOT/-INBOX/cartographer/00-INBOX0"
+INBOX="$REPO_ROOT/agents/cartographer/inbox/pending"
 TASK_FILE="$INBOX/TASK-$(date +%Y%m%d)-MODEL_REFRESH.md"
 
 cat <<EOF > "$TASK_FILE"

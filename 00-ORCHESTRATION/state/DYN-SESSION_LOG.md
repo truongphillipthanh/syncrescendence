@@ -5202,3 +5202,55 @@ fa18894 sync(ajna): inbox/outgoing sync from MBA [2026-02-17T14:38:51Z]
 **Changes**:  16 files changed, 200 insertions(+), 256 deletions(-)
 
 ---
+
+### 2026-02-22 17:40:43 | Branch: main
+**Recent commits**:
+```
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+9157b3f5 fix: add --no-incident flag to integrity gate callers, 6hr dedup safety net
+6a297666 refactor: scaffold agent offices, migrate -INBOX/, rename COCKPIT→BRIDGE (INT-2201)
+```
+**Changes**:  1 file changed, 487 deletions(-)
+
+---
+
+### 2026-02-22 17:46:07 | Branch: main
+**Recent commits**:
+```
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+9157b3f5 fix: add --no-incident flag to integrity gate callers, 6hr dedup safety net
+```
+**Changes**:  25 files changed, 212 insertions(+), 129 deletions(-)
+
+---
+
+### 2026-02-22 17:48:12 | Branch: main
+**Recent commits**:
+```
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+```
+**Changes**:  73 files changed, 1910 insertions(+), 281 deletions(-)
+
+---
+
+### 2026-02-22 17:51:34 | Branch: main
+**Recent commits**:
+```
+dc491423 refactor: update -INBOX/ refs to agents/ paths across state, engine, canon docs (INT-2201)
+3a1964be Merge remote-tracking branch 'origin/main'
+65d35320 fix: remove stale BRIDGE.md (README.md is the correct file)
+5dec8d13 fix: restore AGENTS.md, GEMINI.md to root; rename BRIDGE→README (INT-2201)
+62c3cd4d refactor: Oracle → Council — NSC model for Sovereign+Commander sessions
+```
+**Changes**:  74 files changed, 2024 insertions(+), 334 deletions(-)
+
+---

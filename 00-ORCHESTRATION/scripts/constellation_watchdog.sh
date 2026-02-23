@@ -155,12 +155,12 @@ artifact_age_for_agent() {
     local file
 
     for file in \
-        "${REPO_DIR}/-INBOX/${agent}/00-INBOX0" \
-        "${REPO_DIR}/-INBOX/${agent}/10-IN_PROGRESS" \
-        "${REPO_DIR}/-INBOX/${agent}/40-DONE" \
-        "${REPO_DIR}/-INBOX/${agent}/50_FAILED" \
-        "${REPO_DIR}/-OUTBOX/${agent}/RESULTS" \
-        "${REPO_DIR}/-INBOX/${agent}/.current_task"; do
+        "${REPO_DIR}/agents/${agent}/inbox/pending" \
+        "${REPO_DIR}/agents/${agent}/inbox/active" \
+        "${REPO_DIR}/agents/${agent}/inbox/done" \
+        "${REPO_DIR}/agents/${agent}/inbox/failed" \
+        "${REPO_DIR}/agents/${agent}/outbox" \
+        "${REPO_DIR}/agents/${agent}/inbox/.current_task"; do
         if [ -e "$file" ]; then
             m=$(stat -f %m "$file" 2>/dev/null || echo 0)
             [ "$m" -gt "$latest" ] && latest="$m"

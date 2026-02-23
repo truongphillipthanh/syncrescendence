@@ -39,7 +39,7 @@ A blitzkrieg is a bounded execution burst consisting of:
 
 The shared context document provides situational awareness for all directives.
 
-**Location**: `agents/blitzkrieg_drop/inbox/context.md` (dropbox) → `-OUTGOING/${DATE}-blitzkrieg/01_context/context.md` (archived)
+**Location**: `agents/blitzkrieg_drop/inbox/context.md` (dropbox) → `agents/commander/outbox/${DATE}-blitzkrieg/01_context/context.md` (archived)
 
 **Required Sections**:
 ```markdown
@@ -66,7 +66,7 @@ The shared context document provides situational awareness for all directives.
 
 Individual task specifications with required metadata headers.
 
-**Location**: `agents/blitzkrieg_drop/inbox/directive-*.md` (dropbox) → `-OUTGOING/${DATE}-blitzkrieg/02_directives/` (archived)
+**Location**: `agents/blitzkrieg_drop/inbox/directive-*.md` (dropbox) → `agents/commander/outbox/${DATE}-blitzkrieg/02_directives/` (archived)
 
 **Required Headers** (must appear at top of file):
 ```markdown
@@ -107,7 +107,7 @@ SUCCESS_CRITERIA: [Measurable completion conditions]
 
 Generated record of blitzkrieg execution, designed for "select all + copy" into ChatGPT.
 
-**Location**: `-OUTGOING/${DATE}-blitzkrieg/03_execution/execution_log.md`
+**Location**: `agents/commander/outbox/${DATE}-blitzkrieg/03_execution/execution_log.md`
 
 **Generated Structure**:
 ```markdown
@@ -151,7 +151,7 @@ Generated record of blitzkrieg execution, designed for "select all + copy" into 
 
 Structured variant compatible with orchestration packet protocol.
 
-**Location**: `-OUTGOING/${DATE}-blitzkrieg/03_execution/execution_log.json`
+**Location**: `agents/commander/outbox/${DATE}-blitzkrieg/03_execution/execution_log.json`
 
 **Schema**:
 ```json
@@ -208,7 +208,7 @@ For each directive:
 
 ### Phase 4: Archival
 
-The finalized blitzkrieg folder in `-OUTGOING/` becomes the permanent record.
+The finalized blitzkrieg folder in `agents/commander/outbox/` becomes the permanent record.
 Reference it in subsequent `/deviser_reint` exports via session archaeology.
 
 ---
@@ -229,7 +229,7 @@ The `/deviser_reint` command generates session continuity exports. Blitzkriegs c
 
 1. **Session Archaeology**: `/deviser_reint` should reference the latest blitzkrieg folder in its `session_archaeology.md`
 2. **Artifact Manifest**: Blitzkrieg execution logs can be listed in the artifacts manifest
-3. **Ground Truth**: Both commands write to `-OUTGOING/` with dated folders
+3. **Ground Truth**: Both commands write to `agents/commander/outbox/` with dated folders
 
 **Recommended Workflow**:
 1. Run blitzkrieg execution
@@ -243,7 +243,7 @@ The `/deviser_reint` command generates session continuity exports. Blitzkriegs c
 The structural validator enforces:
 - `agents/blitzkrieg_drop/inbox/` is permitted (transient dropbox)
 - No legacy `OUTGOING/` or lowercase `outgoing/` at root
-- Blitzkrieg output folders must be in `-OUTGOING/`
+- Blitzkrieg output folders must be in `agents/commander/outbox/`
 
 ---
 
@@ -283,7 +283,7 @@ Required headers: BLITZKRIEG_DIRECTIVE_ID, TARGET_MODEL, RATIONALE, SUCCESS_CRIT
 | Item | Path |
 |------|------|
 | Dropbox | `agents/blitzkrieg_drop/inbox/` |
-| Output | `-OUTGOING/${DATE}-blitzkrieg[-NN]/` |
+| Output | `agents/commander/outbox/${DATE}-blitzkrieg[-NN]/` |
 | Protocol doc | `02-ENGINE/BLITZKRIEG_PROTOCOL.md` |
 
 ### Required Headers

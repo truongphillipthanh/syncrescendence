@@ -50,7 +50,7 @@
 ## 2026-02-06 (Tranche B) — Twin coordination + Intent Compass mechanics + Dispatch Kanban
 
 ### P0
-- IMPL-B-0009 — Establish agents/<agent>/outbox/ structure + align watcher RESULT receipts + relay rule to -OUTGOING
+- IMPL-B-0009 — Establish agents/<agent>/outbox/ structure + align watcher RESULT receipts + relay rule to agents/<agent>/outbox/
 - IMPL-B-0010 — Kanban schema linter: Kind gating + header validation (safety rail)
 
 ### P1
@@ -154,7 +154,7 @@
 ## 2026-02-06 (Tranche D) — Always-on watchers readiness
 
 ### P0
-- IMPL-D-0036 — Watchers must auto-write RESULT receipts to -OUTGOING (durable proof of execution)
+- IMPL-D-0036 — Watchers must auto-write RESULT receipts to agents/<agent>/outbox/ (durable proof of execution)
 - IMPL-D-0037 — Unblock mini executors: install OpenClaw, fix Codex auth, resolve Claude billing for Commander
 
 ### P1

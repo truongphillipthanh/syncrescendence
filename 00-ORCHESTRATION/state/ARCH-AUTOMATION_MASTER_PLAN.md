@@ -106,7 +106,7 @@ Connect to external automation platforms.
 
 | Task | Deliverable | Notes |
 |------|------------|-------|
-| 4a | Hazel file automation rules | Desktop → -INBOX routing |
+| 4a | Hazel file automation rules | Desktop → agents/<agent>/inbox/ routing |
 | 4b | Clipboard monitor | TCC approval needed |
 | 4c | Dashboard aggregation (SYN-40 prep) | JIT HighCommand visualization |
 
@@ -139,7 +139,7 @@ n8n / Make / Zapier
     ↓ HTTP POST
 WEBHOOK RECEIVER (port 8888)
     ↓ parsed event
-DISPATCH (dispatch.sh or direct -INBOX write)
+DISPATCH (dispatch.sh or direct agents/<agent>/inbox/ write)
     ↓ TASK-*.md
 AGENT PROCESSING
 ```

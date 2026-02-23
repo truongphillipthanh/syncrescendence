@@ -4,9 +4,9 @@
 #
 # This script:
 #   1. Creates kanban subdirectories for all agents
-#   2. Creates -OUTBOX/<agent>/RESULTS/ and ARTIFACTS/ directories
+#   2. Creates agents/<agent>/outbox/ directories
 #   3. Moves existing files into correct kanban folders based on status/suffix
-#   4. Moves -OUTGOING RESULT files to -OUTBOX/<agent>/RESULTS/
+#   4. Moves -OUTGOING RESULT files to agents/<agent>/outbox/
 #   5. Removes iCloud " 2" duplicate files
 #
 # Protocol: DYN-DISPATCH_KANBAN_PROTOCOL.md
@@ -26,7 +26,7 @@ if [ "${1:-}" = "--dry-run" ]; then
 fi
 
 AGENTS="commander adjudicator cartographer psyche ajna"
-KANBAN_LANES="00-INBOX0 10-IN_PROGRESS 20-WAITING 30-BLOCKED 40-DONE 50_FAILED 90_ARCHIVE RECEIPTS"
+KANBAN_LANES="pending active waiting blocked done failed 90_ARCHIVE RECEIPTS"
 
 moved=0
 deleted=0
@@ -85,15 +85,15 @@ echo ""
 echo "--- Step 1: Create kanban directories ---"
 for agent in $AGENTS; do
     for lane in $KANBAN_LANES; do
-        do_mkdir "$REPO_ROOT/-INBOX/$agent/$lane"
+        do_mkdir "$REPO_ROOT/agents/$agent/inbox/$lane"
     done
 done
 
-# === Step 2: Create -OUTBOX directories ===
-echo "--- Step 2: Create -OUTBOX directories ---"
+# === Step 2: Create outbox directories ===
+echo "--- Step 2: Create outbox directories ---"
 for agent in $AGENTS; do
-    do_mkdir "$REPO_ROOT/-OUTBOX/$agent/RESULTS"
-    do_mkdir "$REPO_ROOT/-OUTBOX/$agent/ARTIFACTS"
+    do_mkdir "$REPO_ROOT/agents/$agent/outbox"
+    do_mkdir "$REPO_ROOT/agents/$agent/outbox/ARTIFACTS"
 done
 echo ""
 
@@ -101,13 +101,13 @@ echo ""
 echo "--- Step 3: Clean iCloud duplicates ---"
 while IFS= read -r -d '' file; do
     do_rm "$file"
-done < <(find "$REPO_ROOT/-INBOX" "$REPO_ROOT/-OUTGOING" -name "* 2*" -type f -print0 2>/dev/null)
+done < <(find "$REPO_ROOT/agents" "$REPO_ROOT/-OUTGOING" -name "* 2*" -type f -print0 2>/dev/null)
 echo ""
 
 # === Step 4: Migrate -INBOX files per agent ===
 echo "--- Step 4: Migrate -INBOX files ---"
 for agent in $AGENTS; do
-    agent_dir="$REPO_ROOT/-INBOX/$agent"
+    agent_dir="$REPO_ROOT/agents/$agent/inbox"
     echo "  Agent: $agent"
 
     # Process files directly in the agent root (flat structure)
@@ -148,35 +148,35 @@ for agent in $AGENTS; do
             # Completed files (suffix .complete)
             *.md.complete)
                 clean_name="${basename%.complete}"
-                do_mv "$file" "$agent_dir/40-DONE/$clean_name"
+                do_mv "$file" "$agent_dir/done/$clean_name"
                 ;;
 
             # Failed files (suffix .failed)
             *.md.failed)
                 clean_name="${basename%.failed}"
-                do_mv "$file" "$agent_dir/50_FAILED/$clean_name"
+                do_mv "$file" "$agent_dir/failed/$clean_name"
                 ;;
 
             # Claimed files (suffix .claimed-by-*)
             *.claimed-by-*)
                 # Extract original name: everything before .claimed-by-
                 clean_name=$(echo "$basename" | sed 's/\.claimed-by-.*//')
-                do_mv "$file" "$agent_dir/10-IN_PROGRESS/$clean_name"
+                do_mv "$file" "$agent_dir/active/$clean_name"
                 ;;
 
             # TASK-*.md and SURVEY-*.md (plain, no suffix) → check status
             TASK-*.md|SURVEY-*.md)
                 if grep -q "Status.*PENDING" "$file" 2>/dev/null; then
-                    do_mv "$file" "$agent_dir/00-INBOX0/$basename"
+                    do_mv "$file" "$agent_dir/pending/$basename"
                 elif grep -q "Status.*IN_PROGRESS" "$file" 2>/dev/null; then
-                    do_mv "$file" "$agent_dir/10-IN_PROGRESS/$basename"
+                    do_mv "$file" "$agent_dir/active/$basename"
                 elif grep -q "Status.*COMPLETE" "$file" 2>/dev/null; then
-                    do_mv "$file" "$agent_dir/40-DONE/$basename"
+                    do_mv "$file" "$agent_dir/done/$basename"
                 elif grep -q "Status.*FAILED" "$file" 2>/dev/null; then
-                    do_mv "$file" "$agent_dir/50_FAILED/$basename"
+                    do_mv "$file" "$agent_dir/failed/$basename"
                 else
-                    # Default: treat as pending (move to INBOX0)
-                    do_mv "$file" "$agent_dir/00-INBOX0/$basename"
+                    # Default: treat as pending
+                    do_mv "$file" "$agent_dir/pending/$basename"
                 fi
                 ;;
 
@@ -189,8 +189,8 @@ for agent in $AGENTS; do
 done
 echo ""
 
-# === Step 5: Migrate -OUTGOING RESULT files to -OUTBOX ===
-echo "--- Step 5: Migrate -OUTGOING RESULT files to -OUTBOX ---"
+# === Step 5: Migrate -OUTGOING RESULT files to agent outbox ===
+echo "--- Step 5: Migrate -OUTGOING RESULT files to agent outbox ---"
 for file in "$REPO_ROOT/-OUTGOING"/RESULT-*.md; do
     [ -f "$file" ] || continue
     basename=$(basename "$file")
@@ -198,7 +198,7 @@ for file in "$REPO_ROOT/-OUTGOING"/RESULT-*.md; do
     # Extract agent name from RESULT-<agent>-YYYYMMDD-topic.md
     agent=$(echo "$basename" | sed -n 's/^RESULT-\([a-z]*\)-.*/\1/p')
     if [ -n "$agent" ] && echo "$AGENTS" | grep -qw "$agent"; then
-        do_mv "$file" "$REPO_ROOT/-OUTBOX/$agent/RESULTS/$basename"
+        do_mv "$file" "$REPO_ROOT/agents/$agent/outbox/$basename"
     else
         echo "  [skip] $basename (cannot determine agent)"
         (( skipped++ )) || true
@@ -212,15 +212,15 @@ echo ""
 echo "--- Step 6: Add .gitkeep to new directories ---"
 for agent in $AGENTS; do
     for lane in $KANBAN_LANES; do
-        lane_dir="$REPO_ROOT/-INBOX/$agent/$lane"
+        lane_dir="$REPO_ROOT/agents/$agent/inbox/$lane"
         if [ -d "$lane_dir" ] && [ -z "$(ls -A "$lane_dir" 2>/dev/null)" ]; then
             if [ "$DRY_RUN" = false ]; then
                 touch "$lane_dir/.gitkeep"
             fi
         fi
     done
-    for sub in RESULTS ARTIFACTS; do
-        sub_dir="$REPO_ROOT/-OUTBOX/$agent/$sub"
+    for sub in "" ARTIFACTS; do
+        sub_dir="$REPO_ROOT/agents/$agent/outbox/$sub"
         if [ -d "$sub_dir" ] && [ -z "$(ls -A "$sub_dir" 2>/dev/null)" ]; then
             if [ "$DRY_RUN" = false ]; then
                 touch "$sub_dir/.gitkeep"

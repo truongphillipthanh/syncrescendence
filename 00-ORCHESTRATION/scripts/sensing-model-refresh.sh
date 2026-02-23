@@ -26,7 +26,7 @@ echo "Executing Gemini sensing sweep..."
 REPORT=$(gemini -p "$PROMPT")
 
 # Output to inbox for processing
-OUTPUT_FILE="-INBOX/cartographer/00-INBOX0/REPORT-MODEL-REFRESH-$(date +%Y%m%d).md"
+OUTPUT_FILE="agents/cartographer/inbox/pending/REPORT-MODEL-REFRESH-$(date +%Y%m%d).md"
 echo "$REPORT" > "$OUTPUT_FILE"
 
 echo "Sensing report generated: $OUTPUT_FILE"
