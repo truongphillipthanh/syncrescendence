@@ -60,31 +60,46 @@
 |----|--------|-----------|-----|--------|-------|
 | DC-205 | Phase 2C | Sentence-by-sentence action on every file: canonical stays, stale archives, orphans wire or archive | P0 | **DONE** | T1/T2 tightening + 4-lane decruft swarm (`5426d51c`). 32 files changed. |
 | DC-208 | Phase 2C | Source mining pipeline design — full triangulation playbook complete | P1 | **DESIGN DONE** | Second playbook cycle complete. 9 components engineered. Build phase next. |
-| DC-208-1 | Adjudicator | Triage script — Python, all-MiniLM-L6-v2, 520-680 LOC | P1 | **BUILD #1** | 9/10 feasibility. Unblocks everything. |
-| DC-208-2 | Adjudicator | Extraction template — 6-cat JSONL + chaperone metadata, 430-590 LOC | P1 | **BUILD #2** | 8/10 feasibility. Defines atom format. |
-| DC-208-5 | Adjudicator | Integration bridge — memsync extension + durable retry queue, 380-540 LOC | P1 | **BUILD #3** | 8/10 feasibility. Graphiti connection. |
-| DC-208-6 | Adjudicator | Quality gate — 4+1 gates + surprise×precision, 460-640 LOC | P1 | **BUILD #4** | 7/10 feasibility. Validates before scale. |
-| DC-208-3 | Adjudicator | Cluster engine — hybrid HDBSCAN + constrained K-means, 560-760 LOC | P1 | **BUILD #5** | 7/10 feasibility. REDESIGN from pure K-means. |
-| DC-208-4 | Adjudicator | Batch orchestrator — dispatch.sh integration, 300-420 LOC | P1 | **BUILD #6** | 8/10 feasibility. Scales after pilot. |
-| DC-208-8 | Adjudicator | Negative knowledge store — FAILED_PATH edges + decay, 220-320 LOC | P1 | **BUILD #7** | 8/10 feasibility. After component 5. |
+| DC-208-1 | Adjudicator | Triage script — Python, all-MiniLM-L6-v2, 996 LOC | P0 | **DONE** | Built `138b70bf`, R1 fix `2ada4b40`, R2 pass. 1,152 sources scored, DAG 5,676 edges. |
+| DC-208-2 | Adjudicator | Extraction template — 6-cat JSONL + chaperone + prompt, 1089 LOC | P0 | **DONE** | Built `138b70bf`, R1+R2 fixes, hybrid frontmatter fix `bc5ac112`. OpenRouter backend restored. |
+| DC-208-5 | Adjudicator | Integration bridge — memsync extension + durable retry queue, 952 LOC | P0 | **DONE** | Built `138b70bf`, R1 fix: sent_records + BEGIN IMMEDIATE + backoff. R2 pass. |
+| DC-208-8 | Adjudicator | Negative knowledge store — FAILED_PATH edges + decay, 494 LOC | P1 | **DONE** | Built `138b70bf`, R1 fix: schema alignment + decay bug. R2 pass. |
+| DC-208-PILOT | Commander | Pilot extraction: top-5 sources via Gemini 2.5 Flash | P0 | **DONE** | 820 atoms, 63 chunks, 0 errors, 100% JSON. Committed `01db01fd`. |
+| DC-209 | Oracle (Grok) | Model routing strategy — triangulated convergence | P0 | **DONE** | DC-209 + DC-209R. Gemini 2.5 Flash confirmed primary. GPT-4o-mini fallback. <$2.50 full corpus. |
+| DC-208-6 | Adjudicator | Quality gate — 4+1 gates + surprise×precision, 460-640 LOC | P1 | **BUILD NEXT** | 7/10 feasibility. Validates before scale. |
+| DC-208-3 | Adjudicator | Cluster engine — hybrid HDBSCAN + constrained K-means, 560-760 LOC | P1 | OPEN | 7/10 feasibility. REDESIGN from pure K-means. After quality gate. |
+| DC-208-4 | Adjudicator | Batch orchestrator — dispatch.sh integration, 300-420 LOC | P1 | OPEN | 8/10 feasibility. Scales after pilot. |
 | DC-208-7 | Adjudicator | Lineage engine — memetic cladistics, 760-1080 LOC | P2 | **DEFER** | 6/10. After ≥50 mined sources. |
 | DC-208-9 | Adjudicator | Cyclical relevance model — DC-147 plugin, 260-420 LOC | P2 | **DEFER** | 5/10. After DC-147 + telemetry. |
 
 #### 2D — Triangulated Improvement (DC-206) — ⬜ AFTER 2C
 
+> Agents propose improvements and innovations on surviving + newly-mined content. Convergence required before anything lands.
+
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
 | DC-206 | Phase 2D | Agents propose improvements on surviving + newly-mined content. Convergence required. | P0 | OPEN | |
+| DC-147 | Oracle+Adjudicator | **BUILD**: Model router — salience-gated, fail-open, 220-320 LOC | P1 | OPEN | Adjudicator: 9/10 feasibility, S complexity. Informed by DC-209 convergence. |
+| DC-150 | Oracle+Adjudicator | **BUILD**: Git-native tracking (Beads) — trailers, commit wrapper, index, 480-720 LOC | P1 | OPEN | Adjudicator: 8/10 feasibility, M complexity. Prerequisite for DC-149. |
+| DC-148 | Oracle+Adjudicator | **REDESIGN→BUILD**: Knowledge graph — Python core, fuzzy repair, 420-620 LOC | P1 | OPEN | Adjudicator: 7/10 feasibility, M complexity. Bash/jq→Python. |
+
+### Phase 3: Surface Organization + Enforcement — ⬜ AFTER Phase 2
+
+> Only now — with content audited, architecture decided, sources mined — does the veneer go on.
+
+| ID | Source | Commitment | Pri | Status | Notes |
+|----|--------|-----------|-----|--------|-------|
 | DC-120 | Vanguard | Install `scaffold_validate.sh` — structural integrity check | P0 | OPEN | Vanguard wrote complete script. Wire to pre-commit. |
 | DC-121 | Vanguard | Install `scaffold_heal.sh` — safe auto-repair | P0 | OPEN | Depends on DC-120. |
+| DC-300 | Phase 3 | Formalize naming conventions across all directories | P1 | OPEN | Derived from Phase 2 evidence, not imposed top-down. |
+| DC-301 | Phase 3 | Standardize headers and metadata across all files | P1 | OPEN | |
+| DC-302 | Phase 3 | Normalize duplicate concepts against Rosetta Stone | P1 | OPEN | |
+| DC-303 | DC-207 | Execute dispatch restructuring if DC-207 decided one needed | P1 | **RESOLVED** | DC-207 resolved: sanctify, don't restructure. No action needed. |
+| DC-304 | DC-124 | Convert top ARCH-* files to ADR format | P1 | OPEN | Oracle REPO-003 spec. |
 | DC-122 | Oracle+Diviner | Rename decision for praxis sigma container | P1 | OPEN | Sovereign to decide. |
 | DC-123 | Vanguard | Install `scaffold_rename.sh` for future migration | P1 | OPEN | Do NOT execute until DC-120 passes. INT-2210 lesson. |
-| DC-124 | Oracle | Convert top 10 ARCH-* to ADR format | P1 | OPEN | Oracle REPO-003 spec. |
-| DC-147 | Oracle+Adjudicator | **BUILD**: Model router — salience-gated, fail-open, 220-320 LOC | P1 | **BUILD #1** | Adjudicator: 9/10 feasibility, S complexity. |
-| DC-150 | Oracle+Adjudicator | **BUILD**: Git-native tracking (Beads) — trailers, commit wrapper, index, 480-720 LOC | P1 | **BUILD #2** | Adjudicator: 8/10 feasibility, M complexity. Prerequisite for DC-149. |
-| DC-148 | Oracle+Adjudicator | **REDESIGN→BUILD**: Knowledge graph — Python core, fuzzy repair, 420-620 LOC | P1 | **BUILD #3** | Adjudicator: 7/10 feasibility, M complexity. Bash/jq→Python. |
 
-### Phase 3: Automations + Sensing
+### Phase 4: Automations + Sensing — ⬜ AFTER Phase 3
 
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
@@ -95,7 +110,7 @@
 | DC-134 | DC-010 | Live Ledger sensing: cron-dispatched intel, MODEL-INDEX refresh | P1 | OPEN | 12 DYN-LEDGER files exist. Automation missing. |
 | DC-135 | Diviner | Root `.obsidian/` stub | P2 | OPEN | Trivial. |
 
-### Phase 4: Hardening + Scale
+### Phase 5: Hardening + Scale — ⬜ AFTER Phase 4
 
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
@@ -153,6 +168,12 @@
 | DC-207 | Architectural questions | RESOLVED | 2026-02-23 | Answered by DC-204T |
 | DC-205 | Content decruft | DONE | 2026-02-23 | Phase 2C. 4-lane swarm: orphans, clusters, MODEL-PROFILEs, staleness banners. |
 | DC-208 | Source mining pipeline design | DONE | 2026-02-23 | Phase 2C. Second full playbook cycle. 9 components engineered. |
+| DC-208-1 | Triage script | DONE | 2026-02-23 | 996 LOC. R1 FAIL→fix→R2 PASS. 1,152 sources scored. |
+| DC-208-2 | Extraction template + prompt | DONE | 2026-02-23 | 1,089 LOC. R1→R2→hybrid fix. OpenRouter backend. |
+| DC-208-5 | Integration bridge | DONE | 2026-02-23 | 952 LOC. sent_records + BEGIN IMMEDIATE. R2 PASS. |
+| DC-208-8 | Negative knowledge store | DONE | 2026-02-23 | 494 LOC. Schema alignment + decay fix. R2 PASS. |
+| DC-208-PILOT | Pilot extraction (top-5) | DONE | 2026-02-23 | 820 atoms via Gemini 2.5 Flash. 0 errors. `01db01fd`. |
+| DC-209 | Model routing convergence | DONE | 2026-02-23 | Oracle DC-209+DC-209R. Gemini 2.5 Flash primary. <$2.50 full corpus. |
 
 ---
 
@@ -174,11 +195,11 @@
 
 ## Metrics
 
-- **Total**: 60 commitments (21 DONE + 7 BUILD + 11 OPEN + 10 PARKED + 4 SUPERSEDED + 4 DEFER + 3 DESIGN DONE)
-- **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B DONE, 2C DESIGN DONE (7 BUILD + 2 DEFER pipeline components), 2D OPEN (8 items) | **Phase 3**: 6 OPEN | **Phase 4**: 9 items
-- **Delivery rate**: 35% (21/60) — new pipeline components added 9 items, but 2 more marked DONE
+- **Total**: 66 commitments (27 DONE + 3 OPEN-BUILD + 15 OPEN + 10 PARKED + 5 SUPERSEDED/RESOLVED + 4 DEFER + 2 DESIGN DONE)
+- **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B DONE, 2C 6/11 DONE (pilot complete, 3 components + 2 defer remain), 2D OPEN (4 items) | **Phase 3**: 9 items (surface org) | **Phase 4**: 6 items (automations) | **Phase 5**: 9 items (hardening)
+- **Delivery rate**: 41% (27/66) — 6 new items DONE this session (4 pipeline builds + pilot + model routing)
 - **Target**: >80% within 30 days
-- **Current position**: Phase 2C → DC-208-1 (triage script BUILD)
+- **Current position**: Phase 2C → DC-208-6 (quality gate BUILD), then scale extraction to full corpus
 
 ---
 
