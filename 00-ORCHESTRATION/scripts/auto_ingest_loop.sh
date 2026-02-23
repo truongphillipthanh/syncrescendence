@@ -317,7 +317,7 @@ integrity_allows_writes() {
 
     LAST_INTEGRITY_CHECK="$now"
     if [ -x "$INTEGRITY_GATE_SCRIPT" ]; then
-        if bash "$INTEGRITY_GATE_SCRIPT" --repo "$REPO_PATH" --context "auto_ingest_${AGENT_NAME}" --quiet; then
+        if bash "$INTEGRITY_GATE_SCRIPT" --repo "$REPO_PATH" --context "auto_ingest_${AGENT_NAME}" --quiet --no-incident; then
             INTEGRITY_OK_CACHE=1
             return 0
         fi

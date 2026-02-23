@@ -119,7 +119,7 @@ integrity_gate_ok() {
     # Pre-clean Finder artifacts from git ref namespace before gate runs
     find "${REPO_DIR}/.git/refs" "${REPO_DIR}/.git/logs/refs" -name '.DS_Store' -delete 2>/dev/null || true
 
-    bash "$INTEGRITY_GATE_SCRIPT" --repo "$REPO_DIR" --context orchestrator >/dev/null 2>&1
+    bash "$INTEGRITY_GATE_SCRIPT" --repo "$REPO_DIR" --context orchestrator --no-incident >/dev/null 2>&1
 }
 
 enforce_integrity() {

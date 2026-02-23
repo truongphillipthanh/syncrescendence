@@ -138,8 +138,8 @@ integrity_ok() {
     fi
 
     LAST_INTEGRITY_CHECK="$now"
-    if [ -x "$INTEGRITY_GATE_SCRIPT" ]; then
-        if "$INTEGRITY_GATE_SCRIPT" --repo "$REPO" --context auto_ingest_supervisor --quiet; then
+    if [ -f "$INTEGRITY_GATE_SCRIPT" ]; then
+        if bash "$INTEGRITY_GATE_SCRIPT" --repo "$REPO" --context auto_ingest_supervisor --quiet --no-incident; then
             INTEGRITY_OK_CACHE=1
             return 0
         fi

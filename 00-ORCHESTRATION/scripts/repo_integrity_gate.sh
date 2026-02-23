@@ -129,6 +129,24 @@ if [ -s "$failures_file" ]; then
     if [ "$EMIT_INCIDENT" -eq 1 ]; then
         sovereign_dir="$REPO_DIR/-SOVEREIGN"
         mkdir -p "$sovereign_dir" 2>/dev/null || true
+
+        # DEDUP: Skip if same context already has an incident from the last 6 hours
+        latest_existing="$(ls -1t "$sovereign_dir"/INCIDENT-INTEGRITY-"${CONTEXT}"-*.md 2>/dev/null | head -1)"
+        if [ -n "$latest_existing" ]; then
+            # Check if latest incident is less than 6 hours old (21600 seconds)
+            if [ "$(uname)" = "Darwin" ]; then
+                file_epoch="$(stat -f '%m' "$latest_existing")"
+            else
+                file_epoch="$(stat -c '%Y' "$latest_existing")"
+            fi
+            now_epoch="$(date +%s)"
+            age=$(( now_epoch - file_epoch ))
+            if [ "$age" -lt 21600 ]; then
+                err "  - dedup: incident for ${CONTEXT} already exists (${age}s old), skipping"
+                exit 1
+            fi
+        fi
+
         incident_file="$sovereign_dir/INCIDENT-INTEGRITY-${CONTEXT}-${timestamp_slug}.md"
         {
             echo "# INCIDENT-INTEGRITY-${CONTEXT}-${timestamp_slug}"
