@@ -23,7 +23,7 @@
 
 ## Objective
 
-STRATEGIC SURVEY: Conduct 1M+ context corpus survey across -INBOX/commander/new_ontology_metacharacterization/ and -INBOX/commander/new_ontology_metacharacterization_2/ (10 files, ~200KB). These contain Palantir Ontology architectural analysis from ChatGPT, Claude, Gemini, Grok. Cross-reference against: (1) 01-CANON/ for existing ontology foundations. (2) 02-ENGINE/REF-ROSETTA_STONE.md for terminology alignment. (3) 05-SIGMA/ for existing operational knowledge. (4) ontology.db (939 rows) via ontology_query.py. Your mandate: (a) Map every tool/platform mentioned across all 8 files to our existing stack. (b) Identify the 5 most critical architectural primitives we're missing. (c) Produce a FORMAL entity-relationship model for a Syncrescendence personal ontology kernel based on synthesis of all insights. (d) Cross-reference with IMPL-F-0006 (Palantir impedance mismatch mapping). Write results to -INBOX/commander/RESULT-cartographer-ontology-survey.md
+STRATEGIC SURVEY: Conduct 1M+ context corpus survey across -INBOX/commander/new_ontology_metacharacterization/ and -INBOX/commander/new_ontology_metacharacterization_2/ (10 files, ~200KB). These contain Palantir Ontology architectural analysis from ChatGPT, Claude, Gemini, Grok. Cross-reference against: (1) canon/ for existing ontology foundations. (2) engine/REF-ROSETTA_STONE.md for terminology alignment. (3) praxis/ for existing operational knowledge. (4) ontology.db (939 rows) via ontology_query.py. Your mandate: (a) Map every tool/platform mentioned across all 8 files to our existing stack. (b) Identify the 5 most critical architectural primitives we're missing. (c) Produce a FORMAL entity-relationship model for a Syncrescendence personal ontology kernel based on synthesis of all insights. (d) Cross-reference with IMPL-F-0006 (Palantir impedance mismatch mapping). Write results to -INBOX/commander/RESULT-cartographer-ontology-survey.md
 
 ---
 
@@ -32,8 +32,8 @@ STRATEGIC SURVEY: Conduct 1M+ context corpus survey across -INBOX/commander/new_
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

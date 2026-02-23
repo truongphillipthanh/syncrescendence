@@ -23,7 +23,7 @@
 
 ## Objective
 
-Survey the 05-SIGMA corpus for freshness. Identify any mechanics/ or practice/ files not updated in the last 14 days. Check for orphaned references (files mentioned in indexes but missing). Report corpus health metrics: total files, average age, stalest file, any broken cross-references.
+Survey the praxis corpus for freshness. Identify any mechanics/ or practice/ files not updated in the last 14 days. Check for orphaned references (files mentioned in indexes but missing). Report corpus health metrics: total files, average age, stalest file, any broken cross-references.
 
 ---
 
@@ -32,8 +32,8 @@ Survey the 05-SIGMA corpus for freshness. Identify any mechanics/ or practice/ f
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

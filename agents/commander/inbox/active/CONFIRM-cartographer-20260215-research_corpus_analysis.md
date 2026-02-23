@@ -17,7 +17,7 @@
 
 ```text
 
-**Recommendation**: The current directory-based organization is effective. To further improve, consider creating a master `_index.md` or `README.md` file within the `04-SOURCES/research/` directory that provides a map to the different clusters and key documents, similar to the structure of this report. This would aid future analysis and onboarding for any agent or human interacting with this corpus.
+**Recommendation**: The current directory-based organization is effective. To further improve, consider creating a master `_index.md` or `README.md` file within the `sources/research/` directory that provides a map to the different clusters and key documents, similar to the structure of this report. This would aid future analysis and onboarding for any agent or human interacting with this corpus.
 
 Loaded cached credentials.
 Hook registry initialized with 0 hook entries

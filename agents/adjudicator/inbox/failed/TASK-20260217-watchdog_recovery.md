@@ -65,10 +65,10 @@ fi
 
 ### Verification
 
-1. `grep -c 'attempt_agent_recovery\|RECOVERY:' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/constellation_watchdog.sh` — must be >= 5
-2. `grep -c 'Docker is DOWN\|Docker Desktop' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/constellation_watchdog.sh` — must be >= 2
-3. Run the watchdog manually: `bash ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/constellation_watchdog.sh` — verify it completes without errors and health report is written
-4. Commit: `git add 00-ORCHESTRATION/scripts/constellation_watchdog.sh && git commit -m 'feat(watchdog): health-triggered recovery — heartbeat, interrupt, Docker restart, Sovereign alerts'`
+1. `grep -c 'attempt_agent_recovery\|RECOVERY:' ~/Desktop/syncrescendence/orchestration/scripts/constellation_watchdog.sh` — must be >= 5
+2. `grep -c 'Docker is DOWN\|Docker Desktop' ~/Desktop/syncrescendence/orchestration/scripts/constellation_watchdog.sh` — must be >= 2
+3. Run the watchdog manually: `bash ~/Desktop/syncrescendence/orchestration/scripts/constellation_watchdog.sh` — verify it completes without errors and health report is written
+4. Commit: `git add orchestration/scripts/constellation_watchdog.sh && git commit -m 'feat(watchdog): health-triggered recovery — heartbeat, interrupt, Docker restart, Sovereign alerts'`
 
 **Reply-To**: commander
 **CC**: commander

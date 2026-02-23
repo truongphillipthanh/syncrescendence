@@ -4,10 +4,10 @@
     [2026-02-11 19:15:44] Psyche pane healthy (cmd=node)
     [2026-02-11 19:15:44] Qdrant (Docker): healthy (HTTP 200)
 
-     M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
-     M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
-     M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
-     M 00-ORCHESTRATION/state/DYN-SESSION_LOG.md
+     M orchestration/state/DYN-EXECUTION_STAGING.md
+     M orchestration/state/DYN-GLOBAL_LEDGER.md
+     M orchestration/state/DYN-PEDIGREE_LOG.md
+     M orchestration/state/DYN-SESSION_LOG.md
 
 ─ Worked for 1m 42s ──────────────────────────────────────────────────────────────────────────
 
@@ -38,13 +38,13 @@
 
   Cockpit compatibility:
 
-  - 00-ORCHESTRATION/scripts/cockpit.sh supports detached recovery mode (--launch-detached),
+  - orchestration/scripts/cockpit.sh supports detached recovery mode (--launch-detached),
     which watchdog uses for safe non-blocking revive.
 
   Verification run (fresh):
 
   - bash -n ~/.syncrescendence/scripts/watchdog.sh -> OK
-  - bash -n 00-ORCHESTRATION/scripts/cockpit.sh -> OK
+  - bash -n orchestration/scripts/cockpit.sh -> OK
   - Clean watchdog pass showed:
       - Psyche pane healthy (cmd=node)
       - Adjudicator pane healthy (cmd=node)

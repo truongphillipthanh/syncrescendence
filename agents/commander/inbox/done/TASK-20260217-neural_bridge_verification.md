@@ -76,8 +76,8 @@ for agent in commander adjudicator psyche cartographer; do
 done
 
 echo "--- 9. New architecture docs ---"
-ls -la 00-ORCHESTRATION/state/ARCH-NEURAL_BRIDGE.md 2>/dev/null
-ls -la 00-ORCHESTRATION/state/ARCH-UNPLUG_RECOVERY_ARCHITECTURE.md 2>/dev/null
+ls -la orchestration/state/ARCH-NEURAL_BRIDGE.md 2>/dev/null
+ls -la orchestration/state/ARCH-UNPLUG_RECOVERY_ARCHITECTURE.md 2>/dev/null
 
 echo "=== VERIFICATION COMPLETE ==="
 ```

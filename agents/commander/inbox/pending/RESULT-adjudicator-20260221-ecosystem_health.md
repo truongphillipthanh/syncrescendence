@@ -48,7 +48,7 @@ user
 
 ## Objective
 
-Perform a comprehensive health check of all Syncrescendence infrastructure: Docker containers (Neo4j 7474, Graphiti 8001, Qdrant 6333, Chroma 8765), launchd agents (15 expected via launchctl list | grep syncrescendence), MCP server connectivity (9 servers), CLI tools (recall, ccusage, ccundo, splitrail, vsync, gemini-mcp-tool), critical file paths (~/.syncrescendence/.env, dispatch.sh, CLAUDE.md, COCKPIT.md), and disk usage. Write a structured health report to -OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-YYYYMMDD-ecosystem_health.md with summary counts, failures, warnings, and recommendations. If any FAILURE is found, also escalate to -INBOX/commander/00-INBOX0/. Reference template: 00-ORCHESTRATION/state/impl/sensing/TEMPLATE-ecosystem-health.md
+Perform a comprehensive health check of all Syncrescendence infrastructure: Docker containers (Neo4j 7474, Graphiti 8001, Qdrant 6333, Chroma 8765), launchd agents (15 expected via launchctl list | grep syncrescendence), MCP server connectivity (9 servers), CLI tools (recall, ccusage, ccundo, splitrail, vsync, gemini-mcp-tool), critical file paths (~/.syncrescendence/.env, dispatch.sh, CLAUDE.md, COCKPIT.md), and disk usage. Write a structured health report to -OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-YYYYMMDD-ecosystem_health.md with summary counts, failures, warnings, and recommendations. If any FAILURE is found, also escalate to -INBOX/commander/00-INBOX0/. Reference template: orchestration/state/impl/sensing/TEMPLATE-ecosystem-health.md
 
 ---
 
@@ -57,8 +57,8 @@ Perform a comprehensive health check of all Syncrescendence infrastructure: Dock
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

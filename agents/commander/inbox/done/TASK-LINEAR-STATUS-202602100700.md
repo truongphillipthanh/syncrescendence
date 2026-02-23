@@ -10,7 +10,7 @@
 - **Backlog**: 10
 
 ## In Progress
-- **SYN-32**: 02-ENGINE consolidation — mereological triage into pipelines (Priority 2, Unassigned)
+- **SYN-32**: engine consolidation — mereological triage into pipelines (Priority 2, Unassigned)
 - **SYN-16**: IMPL-A-0012: Linear as source of truth with repo snapshot sync (Priority 1-High, Unassigned)
 
 ## Todo — Urgent (Priority 1)
@@ -62,7 +62,7 @@ Issues not updated in >7 days (before 2026-02-03):
 
 3. **5 P0-Critical items are blocked on Sovereign action** (API keys, email setup, SOVEREIGN decisions). These are human-gated — schedule a 15-minute Sovereign triage to unblock the batch.
 
-4. **SYN-32 (In Progress) updated yesterday** — this is the only actively moving issue. Consider pairing it with SYN-37 (Syncrescript Rails Convention Refactor) as they share domain overlap in 02-ENGINE.
+4. **SYN-32 (In Progress) updated yesterday** — this is the only actively moving issue. Consider pairing it with SYN-37 (Syncrescript Rails Convention Refactor) as they share domain overlap in engine.
 
 5. **Backlog grooming needed.** 10 Backlog items (SYN-8 through SYN-60) have no priority set (0). Assign priorities or archive items that are no longer relevant.
 

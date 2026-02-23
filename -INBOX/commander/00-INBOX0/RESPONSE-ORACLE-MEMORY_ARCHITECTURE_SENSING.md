@@ -70,7 +70,7 @@ This hybrid is what production multi-agent systems converging on right now (Grap
 
 **Red-team note** (adversarial as required): Over-graphing risks complexity explosion and "memory bloat" death spiral. Enforce hard rule: "only nodes/edges that serve a live Objective Lock". Graphiti's temporal pruning + our clarescence will keep it lean.
 
-Commit this output as `02-ENGINE/DYN-MEMORY-RECON-ORACLE-20260222.md` and ingest.  
+Commit this output as `engine/DYN-MEMORY-RECON-ORACLE-20260222.md` and ingest.  
 
 The constellation now possesses institutional-grade memory scaffolding.  
 

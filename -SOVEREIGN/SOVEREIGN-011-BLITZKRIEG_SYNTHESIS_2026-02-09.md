@@ -15,9 +15,9 @@ The following sovereign intents were captured from the 2026-02-09 session. Each 
 The corpus contains ~15 reference files that become stale within hours at current model velocity. The Cartographer (Gemini CLI) should be dispatched on cron to auto-refresh MODEL-INDEX, SURVEY-AI_ECOSYSTEM, and DYN-PLATFORMS. Obsolescence acceleration demands self-correcting corpus.
 
 **Linear**: SYN-31 (Todo, Priority 1)
-**Dependency**: Clean 02-ENGINE substrate first (see INT-ENGINE below)
+**Dependency**: Clean engine substrate first (see INT-ENGINE below)
 
-### INT-ENGINE: 02-ENGINE Consolidation (P1)
+### INT-ENGINE: engine Consolidation (P1)
 > "The corpus is proliferating and we somewhat do double work. Due for deeply contrived consolidation."
 
 108 files audited. 24 duplicates deleted (370KB). Remaining work:
@@ -243,7 +243,7 @@ To close the gap: **Claude Code needs event-driven triggers**. The hooks system 
 |-------|-------|--------|----------|
 | SYN-27 | Configure OpenClaw for Ajna | Done | - |
 | SYN-31 | Live Ledger Infrastructure | Todo | P1 |
-| SYN-32 | 02-ENGINE consolidation | In Progress | P2 |
+| SYN-32 | engine consolidation | In Progress | P2 |
 | SYN-33 | ~~Hindsight memory activation~~ | Done (CANCELLED — paid) | - |
 | SYN-34* | Config cascade Mac mini -> MBA | Todo | P2 |
 | SYN-35* | Psyche capability encoding | Todo | P2 |
@@ -259,7 +259,7 @@ Per sovereign directive, adopting "Epics" terminology for sprint-level container
 
 ### Epic 1: Live Intelligence Substrate (P0)
 - SYN-31: Live Ledger Infrastructure
-- SYN-32: 02-ENGINE consolidation
+- SYN-32: engine consolidation
 - Goal: Self-correcting corpus that refreshes faster than model capabilities evolve
 
 ### Epic 2: Agent Memory Activation (P1)

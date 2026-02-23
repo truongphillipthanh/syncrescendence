@@ -15,7 +15,7 @@
 
 ## Objective
 
-Take the Deployment Playbook (`00-ORCHESTRATION/DEPLOYMENT-PLAYBOOK.md`) and produce an MBA-specific adaptation. The MacBook Air is increasingly the primary surface for intellectual work — brain dumps with implementation directives — and needs a configuration that reflects this role.
+Take the Deployment Playbook (`orchestration/DEPLOYMENT-PLAYBOOK.md`) and produce an MBA-specific adaptation. The MacBook Air is increasingly the primary surface for intellectual work — brain dumps with implementation directives — and needs a configuration that reflects this role.
 
 ## Key Differentials (Mac mini HQ vs MBA Field)
 
@@ -43,7 +43,7 @@ Produce: `-OUTBOX/psyche/RESULT-MBA-CASCADE-20260209.md`
 Include: MBA-specific playbook, adapted launchd plists, tmux layout, git sync workflow, and your own capability self-assessment.
 
 ## Context Files
-- `00-ORCHESTRATION/DEPLOYMENT-PLAYBOOK.md` (source playbook)
+- `orchestration/DEPLOYMENT-PLAYBOOK.md` (source playbook)
 - `-SOVEREIGN/SOVEREIGN-012-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md` (Section 6: Cascade Architecture)
 - `-SOVEREIGN/SOVEREIGN-TRAJECTORY.md` (Section 6: Cascade Architecture)
 - `COCKPIT.md` (current cockpit spec)

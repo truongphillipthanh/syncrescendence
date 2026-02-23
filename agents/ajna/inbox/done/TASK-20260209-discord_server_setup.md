@@ -21,7 +21,7 @@
 
 ## Objective
 
-Execute CLARESCENCE-2026-02-09-discord-server-architecture.md. Start with Phase 3 (enable MESSAGE_CONTENT intent in Developer Portal — requires Sovereign) then Phase 4 (configure openclaw.json Discord channel allowlist). Clarescence is at 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-09-discord-server-architecture.md. Phase 1 (categories/channels) and Phase 2 (roles) require Sovereign action in Discord UI — flag these as Sovereign prerequisites.
+Execute CLARESCENCE-2026-02-09-discord-server-architecture.md. Start with Phase 3 (enable MESSAGE_CONTENT intent in Developer Portal — requires Sovereign) then Phase 4 (configure openclaw.json Discord channel allowlist). Clarescence is at orchestration/state/impl/clarescence/CLARESCENCE-2026-02-09-discord-server-architecture.md. Phase 1 (categories/channels) and Phase 2 (roles) require Sovereign action in Discord UI — flag these as Sovereign prerequisites.
 
 ---
 
@@ -30,8 +30,8 @@ Execute CLARESCENCE-2026-02-09-discord-server-architecture.md. Start with Phase 
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

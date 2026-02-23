@@ -27,7 +27,7 @@
 
 - **`findings.md`**, **`progress.md`**, **`task_plan.md`** — staged files in repo root with no clear intention link. Likely working artifacts from a session that weren't cleaned up.
 - **17+ `Untitled*.md` files** in `-INBOX/commander/RECEIPTS/cli_logs/` — unnamed session logs accumulating without triage.
-- **`02-ENGINE/SURVEY-AI_ECOSYSTEM_SURVEY.md`** — new file, likely Cartographer output, not linked to any intention or ledger entry.
+- **`engine/SURVEY-AI_ECOSYSTEM_SURVEY.md`** — new file, likely Cartographer output, not linked to any intention or ledger entry.
 - **`.gemini/commands/initialize.md`** — modified but no corresponding intention.
 
 ## Recommendations

@@ -132,8 +132,8 @@ SwarmHandoffEnvelope:
       - Preserve L0 one-action accessibility
       - Keep L2/L3/L4 undisclosed until subsequent phases
   artifact_inputs:
-    - /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase2-adjudicator.md
-    - /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
+    - /Users/system/syncrescendence/orchestration/state/impl/DISPATCH-20260207-agendizer-phase2-adjudicator.md
+    - /Users/system/syncrescendence/orchestration/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
     - /Users/system/syncrescendence/-INBOX/commander/00-INBOX0/RESULT-adjudicator-20260207-agendizer-phase1.md
   artifact_outputs_expected:
     - Phase 3 dispatch package

@@ -22,7 +22,7 @@
 
 Execute Agendizer Phase 0 (Foundation): scaffold the Xcode project and implement the complete SwiftData data model with CaptureView.
 
-Full execution brief: `00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase0-adjudicator.md`
+Full execution brief: `orchestration/state/impl/DISPATCH-20260207-agendizer-phase0-adjudicator.md`
 
 ---
 
@@ -50,9 +50,9 @@ Full execution brief: `00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-p
 
 - `/Users/home/Desktop/Agendizer/CLARESCENCE-2026-02-06-agendizer-prd-reinforcement.md` — Full PRD reinforcement
 - `/Users/home/Desktop/Agendizer/agendizer-prd-v0.1.docx` — Original PRD
-- `00-ORCHESTRATION/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md` — Non-negotiable deltas
-- `00-ORCHESTRATION/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md` — Handoff schemas
-- `00-ORCHESTRATION/state/impl/EVIDENCE-LOCK-20260207-agendizer-clarescence2.md` — Locked evidence
+- `orchestration/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md` — Non-negotiable deltas
+- `orchestration/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md` — Handoff schemas
+- `orchestration/state/impl/EVIDENCE-LOCK-20260207-agendizer-clarescence2.md` — Locked evidence
 
 ---
 

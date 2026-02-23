@@ -69,8 +69,8 @@ Create `~/.openclaw/openclaw.json`:
         "extraPaths": [
           "/Users/<user>/Desktop/syncrescendence/COCKPIT.md",
           "/Users/<user>/Desktop/syncrescendence/CLAUDE.md",
-          "/Users/<user>/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md",
-          "/Users/<user>/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-BACKLOG.md"
+          "/Users/<user>/Desktop/syncrescendence/orchestration/state/ARCH-INTENTION_COMPASS.md",
+          "/Users/<user>/Desktop/syncrescendence/orchestration/state/DYN-BACKLOG.md"
         ]
       },
       "heartbeat": {

@@ -13,8 +13,8 @@
 
 ## Deliverables Completed
 
-1.  **Updated**: `00-ORCHESTRATION/state/ARCH-UNPLUG_RECOVERY_ARCHITECTURE.md` with Neural Bridge recovery section.
-2.  **Created**: `00-ORCHESTRATION/state/ARCH-NEURAL_BRIDGE.md` with full bidirectional topology, component inventory, data flows, and failure modes.
+1.  **Updated**: `orchestration/state/ARCH-UNPLUG_RECOVERY_ARCHITECTURE.md` with Neural Bridge recovery section.
+2.  **Created**: `orchestration/state/ARCH-NEURAL_BRIDGE.md` with full bidirectional topology, component inventory, data flows, and failure modes.
 3.  **Surveyed**: Verified SSH connectivity from Mac mini to MBA (via `psyche` alias / `.local` hostname) and gathered MBA-side configuration.
 
 ## Key Findings

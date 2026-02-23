@@ -23,7 +23,7 @@ The last 24h was dominated by two focused workstreams:
 ## Orphaned Work
 
 - **Wisdom auto-compaction** (2 threshold commits) — Housekeeping, maps to general operational health
-- **02-ENGINE/ massive file touches** (~30 files modified) — No clear intention linkage visible for broad ENGINE edits. Likely incidental from heartbeat/state writes but warrants verification.
+- **engine/ massive file touches** (~30 files modified) — No clear intention linkage visible for broad ENGINE edits. Likely incidental from heartbeat/state writes but warrants verification.
 - **TASK-20260217-plist_env_vars** files staged for deletion (git status) — Completed task artifacts being cleaned up. Normal lifecycle.
 
 ## Ledger Gap
@@ -36,4 +36,4 @@ The Global Ledger has **no entries after 2026-02-15**. Two full days of substant
 
 2. **Advance stalled sprint intentions** — INT-1206 (IIC configs), INT-1601 (Syncrescript), INT-1602 (IIC ingestion) show zero recent commits. Either dispatch tasks or explicitly defer these to prevent intention debt accumulation.
 
-3. **Validate 02-ENGINE file modifications** — 30+ ENGINE files were touched in the last 24h. Confirm these are intentional edits tied to the resilience/bridge work and not accidental state drift from automated processes.
+3. **Validate engine file modifications** — 30+ ENGINE files were touched in the last 24h. Confirm these are intentional edits tied to the resilience/bridge work and not accidental state drift from automated processes.

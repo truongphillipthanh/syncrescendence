@@ -132,8 +132,8 @@ SwarmHandoffEnvelope:
       - Preserve Delta 5 immutability + append-only history
       - Maintain macOS 26 deployment target and SwiftUI lifecycle
   artifact_inputs:
-    - /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase0-adjudicator.md
-    - /Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
+    - /Users/system/syncrescendence/orchestration/state/impl/DISPATCH-20260207-agendizer-phase0-adjudicator.md
+    - /Users/system/syncrescendence/orchestration/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
   artifact_outputs_expected:
     - Commander gate review receipt
     - Phase 1 dispatch package

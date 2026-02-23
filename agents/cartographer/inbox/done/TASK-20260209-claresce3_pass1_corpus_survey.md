@@ -25,11 +25,11 @@ CLARESCE^3 Pass 1: Full corpus topography survey. EXHAUSTIVE ATOMIZATION at maxi
 
 DELIVERABLES (write to -INBOX/commander/RECEIPTS/RESULT-cartographer-CLARESCE3-pass1.md):
 
-1. FILE CENSUS: Count and categorize every file by directory (00-ORCHESTRATION, 01-CANON, 02-ENGINE, 04-SOURCES, 05-SIGMA, -INBOX, -OUTGOING, -SOVEREIGN). For each: file count, total lines, last-modified range, staleness (fresh <3d, aging 3-7d, stale >7d).
+1. FILE CENSUS: Count and categorize every file by directory (orchestration, canon, engine, sources, praxis, -INBOX, -OUTGOING, -SOVEREIGN). For each: file count, total lines, last-modified range, staleness (fresh <3d, aging 3-7d, stale >7d).
 
-2. CANON COHERENCE SCAN: Read 01-CANON/. For each CANON file: has frontmatter? content matches scope? cross-refs valid? last modified. Flag deprecated terminology or stale facts.
+2. CANON COHERENCE SCAN: Read canon/. For each CANON file: has frontmatter? content matches scope? cross-refs valid? last modified. Flag deprecated terminology or stale facts.
 
-3. STATE FILE AUDIT: Read all 00-ORCHESTRATION/state/ files. For each: what it tracks, whether data current, whether refs exist. Focus on DYN-BACKLOG.md (4d stale) and IMPLEMENTATION-MAP.md (50+ items many unassigned).
+3. STATE FILE AUDIT: Read all orchestration/state/ files. For each: what it tracks, whether data current, whether refs exist. Focus on DYN-BACKLOG.md (4d stale) and IMPLEMENTATION-MAP.md (50+ items many unassigned).
 
 4. ORPHAN DETECTION: Files referenced in CLAUDE.md/COCKPIT.md/IMPLEMENTATION-MAP.md that dont exist. Files that exist but referenced nowhere.
 
@@ -44,8 +44,8 @@ FORMAT: Tables. One per category. Paths, line counts, dates, condition. Do NOT i
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

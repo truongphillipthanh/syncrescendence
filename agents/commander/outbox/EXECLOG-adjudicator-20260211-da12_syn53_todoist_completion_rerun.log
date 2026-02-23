@@ -48,7 +48,7 @@ FAIL — API unreachable in this environment (DNS/network blocked), so create �
 ```
 
 **Blocked Write Steps**
-I could not update `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-da12_syn53_todoist_completion_rerun.md`, write the result file, or append logs in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md` due to read-only sandbox restrictions.
+I could not update `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-da12_syn53_todoist_completion_rerun.md`, write the result file, or append logs in `orchestration/state/DYN-EXECUTION_STAGING.md` due to read-only sandbox restrictions.
 
 **Next Steps**
 1. Run the same REST v2 smoke flow on a shell with outbound network access, then record the create→update→close responses.
@@ -100,8 +100,8 @@ Rerun DA-12 / SYN-53 end-to-end now that Codex model path is repaired. Perform T
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 
@@ -182,7 +182,7 @@ thinking
 
 The agent confirms the task is already claimed and acknowledges inability to write outputs due to read-only constraints, planning to transparently report this. It plans to run the triage script, git status, and read key files in parallel to gather necessary info before proceeding.
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/home/Desktop/syncrescendence succeeded in 93ms:
+/bin/zsh -lc 'bash orchestration/scripts/triage_inbox.sh adjudicator' in /Users/home/Desktop/syncrescendence succeeded in 93ms:
 === INBOX TRIAGE ===
 Time: 2026-02-11 20:09:47
 Stale threshold: 60 minutes
@@ -193,14 +193,14 @@ exec
 ## main...origin/main
  D -INBOX/ajna/40-DONE/TASK-20260211-skill-install:_max_powerlevel_(234_skills).md
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/scripts/cockpit.sh
- M 00-ORCHESTRATION/scripts/watch_dispatch.sh
- M 00-ORCHESTRATION/scripts/watchdog.sh
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
- M 00-ORCHESTRATION/state/DYN-SESSION_LOG.md
+ M orchestration/scripts/cockpit.sh
+ M orchestration/scripts/watch_dispatch.sh
+ M orchestration/scripts/watchdog.sh
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-INTENTIONS_QUEUE.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
+ M orchestration/state/DYN-SESSION_LOG.md
 ?? -INBOX/adjudicator/00-INBOX0/TASK-20260211-da12_syn51_jira_validation_rerun.md
 ?? -INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-da12_syn53_todoist_completion_rerun.md
 exec
@@ -226,7 +226,7 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 
 ### Three Accounts
 exec
-/bin/zsh -lc 'cat 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md' in /Users/home/Desktop/syncrescendence succeeded in 57ms:
+/bin/zsh -lc 'cat orchestration/state/ARCH-INTENTION_COMPASS.md' in /Users/home/Desktop/syncrescendence succeeded in 57ms:
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
 **Last Updated**: 2026-02-09
@@ -254,13 +254,13 @@ thinking
 I'm checking if CLAUDE.md requires commit rules but likely not needed now. Next, I'll search for DA-12 and SYN-53 references to find the Todoist completion e2e script or prior runs.
 exec
 /bin/zsh -lc 'rg -n "DA-12|SYN-53|todoist|Todoist" -S' in /Users/home/Desktop/syncrescendence succeeded in 133ms:
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:75:### 3. GTD — Getting Things Done (Todoist → ClickUp)
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:81:| **Tool** | Todoist (capture), ClickUp (organize), Things 3 (daily personal) |
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:84:| **Weekly Review** | Sunday: process Todoist inbox → ClickUp lists, review all open items |
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:85:| **Integration** | Todoist substructures ClickUp — quick capture flows up to structured PM |
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:89:1. **Capture**: Todoist (mobile/desktop quick entry) or Apple Reminders (Siri)
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:229:| GTD | Todoist → ClickUp | Quick capture | — | Task dispatch | -INBOX items | Weekly review |
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:250:                    ├── YES → GTD (Todoist)
+praxis/practice/PRAC-multi_methodology_framework.md:75:### 3. GTD — Getting Things Done (Todoist → ClickUp)
+praxis/practice/PRAC-multi_methodology_framework.md:81:| **Tool** | Todoist (capture), ClickUp (organize), Things 3 (daily personal) |
+praxis/practice/PRAC-multi_methodology_framework.md:84:| **Weekly Review** | Sunday: process Todoist inbox → ClickUp lists, review all open items |
+praxis/practice/PRAC-multi_methodology_framework.md:85:| **Integration** | Todoist substructures ClickUp — quick capture flows up to structured PM |
+praxis/practice/PRAC-multi_methodology_framework.md:89:1. **Capture**: Todoist (mobile/desktop quick entry) or Apple Reminders (Siri)
+praxis/practice/PRAC-multi_methodology_framework.md:229:| GTD | Todoist → ClickUp | Quick capture | — | Task dispatch | -INBOX items | Weekly review |
+praxis/practice/PRAC-multi_methodology_framework.md:250:                    ├── YES → GTD (Todoist)
 -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md:40:## Decision 2: Install Todoist MCP Server
 -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md:42:**Package**: `todoist-mcp` v1.2.4 (MIT license, minimal deps)
 -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md:45:"todoist": {
@@ -268,11 +268,11 @@ exec
 -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md:55:- Option A: Upgrade to Todoist Pro ($5/mo) -- unfreezes projects, enables reminders/labels
 -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md:88:## Decision 4: Todoist Weekly Review Cadence
 -SOVEREIGN/DECISION-BATCH-MCP-ONBOARDING.md:103:Executed: Commander installed jira, todoist, airtable MCP servers into ~/.claude.json project scope
-00-ORCHESTRATION/scripts/build_ontology_db.py:2821:            ("CMT-007", "Complete Todoist onboarding", "System", None, "active", "INT-1202", "SYN-53", "16 tasks, 13 labels, weekly review configured."),
-00-ORCHESTRATION/scripts/build_ontology_db.py:2843:            ("GOL-007", "Epic 8 Multi-Methodology Stack complete", "INT-1202", None, "partial", "All 5 onboarding tools operational (Jira, Todoist, Airtable, Trello, TeamGantt)", None, "Airtable DONE. Jira/Todoist in progress. Trello/TeamGantt todo."),
-00-ORCHESTRATION/scripts/build_ontology_db.py:2892:            ("RES-015", "Todoist workspace", "subscription", 0, "active", "System", None, "Free tier. 16 tasks, 13 labels, weekly review."),
-00-ORCHESTRATION/scripts/build_ontology_db.py:3017:            ("REL-032", "CMT-007", "commitment", "GOL-007", "goal", "contributes_to", 8, "Todoist onboarding → Multi-Methodology Stack", None),
-00-ORCHESTRATION/scripts/build_ontology_db.py:3026:            ("REL-040", "INT-1202", "intention", "CMT-007", "commitment", "drives", 8, "Heavy machinery → Todoist onboarding", None),
+orchestration/scripts/build_ontology_db.py:2821:            ("CMT-007", "Complete Todoist onboarding", "System", None, "active", "INT-1202", "SYN-53", "16 tasks, 13 labels, weekly review configured."),
+orchestration/scripts/build_ontology_db.py:2843:            ("GOL-007", "Epic 8 Multi-Methodology Stack complete", "INT-1202", None, "partial", "All 5 onboarding tools operational (Jira, Todoist, Airtable, Trello, TeamGantt)", None, "Airtable DONE. Jira/Todoist in progress. Trello/TeamGantt todo."),
+orchestration/scripts/build_ontology_db.py:2892:            ("RES-015", "Todoist workspace", "subscription", 0, "active", "System", None, "Free tier. 16 tasks, 13 labels, weekly review."),
+orchestration/scripts/build_ontology_db.py:3017:            ("REL-032", "CMT-007", "commitment", "GOL-007", "goal", "contributes_to", 8, "Todoist onboarding → Multi-Methodology Stack", None),
+orchestration/scripts/build_ontology_db.py:3026:            ("REL-040", "INT-1202", "intention", "CMT-007", "commitment", "drives", 8, "Heavy machinery → Todoist onboarding", None),
 -INBOX/adjudicator/00-INBOX0/TASK-20260211-da12_syn51_jira_validation_rerun.md:26:Cross-verify DA-12 / SYN-51 Jira state independently now that Codex model path is repaired. Validate auth, board/sprint status, SCRUM-10/11/12/13 status, apply only safe additive corrections if needed, and include exact evidence.
 
 thinking
@@ -316,34 +316,34 @@ thinking
 
 I'm focusing on verifying the MCP server setup for Todoist by inspecting the /.claude.json config and searching for related sync scripts or CLI tools to enable running tests with Todoist.
 exec
-/bin/zsh -lc 'rg -n "todoist_sync|todoist-mcp|TODOIST" -S 02-ENGINE 00-ORCHESTRATION 05-SIGMA' in /Users/home/Desktop/syncrescendence succeeded in 117ms:
-05-SIGMA/practice/PRAC-multi_methodology_framework.md:23:│ LINEAR │ │  JIRA  │ │TRELLO│ │TODOIST  │ │  TEAMGANTT   │
-02-ENGINE/REF-TODOIST_INTEGRATION.md:2:id: REF-TODOIST_INTEGRATION
-02-ENGINE/REF-TODOIST_INTEGRATION.md:46:| Auth | Bearer token: `$TODOIST_API_KEY` (in `~/.syncrescendence/.env`) |
-02-ENGINE/REF-TODOIST_INTEGRATION.md:47:| Auth Note | `source ~/.syncrescendence/.env` does NOT export vars. Use `KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env \| cut -d= -f2)` or use key directly. |
-02-ENGINE/REF-TODOIST_INTEGRATION.md:67:export $(grep TODOIST_API_KEY ~/.syncrescendence/.env | xargs)
-02-ENGINE/REF-TODOIST_INTEGRATION.md:68:curl -s -H "Authorization: Bearer $TODOIST_API_KEY" \
-02-ENGINE/REF-TODOIST_INTEGRATION.md:215:### Recommended: `todoist-mcp` v1.2.4
-02-ENGINE/REF-TODOIST_INTEGRATION.md:218:Package:     todoist-mcp
-02-ENGINE/REF-TODOIST_INTEGRATION.md:224:Binary:      todoist-mcp
-02-ENGINE/REF-TODOIST_INTEGRATION.md:234:      "args": ["-y", "todoist-mcp@1.2.4"],
-02-ENGINE/REF-TODOIST_INTEGRATION.md:236:        "TODOIST_API_KEY": "<key>"
-02-ENGINE/REF-TODOIST_INTEGRATION.md:247:| `todoist-mcp` | 1.2.4 | Best: maintained, minimal deps, MCP SDK 1.1.1 |
-02-ENGINE/REF-TODOIST_INTEGRATION.md:248:| `@chrusic/todoist-mcp-server-extended` | 0.2.5 | Larger (150KB), older MCP SDK 0.5.0, label-focused |
-02-ENGINE/REF-TODOIST_INTEGRATION.md:249:| `todoist-mcp-app` | 1.0.0 | Interactive UI -- not suitable for CLI agents |
-02-ENGINE/REF-TODOIST_INTEGRATION.md:250:| `@abhiz123/todoist-mcp-server` | 0.1.0 | Minimal, outdated |
-02-ENGINE/REF-TODOIST_INTEGRATION.md:294:- Install `todoist-mcp` into Commander's MCP config
-02-ENGINE/REF-TODOIST_INTEGRATION.md:334:TODOIST_KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env | cut -d= -f2)
-02-ENGINE/REF-TODOIST_INTEGRATION.md:340:TODOIST_KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env | cut -d= -f2)
-02-ENGINE/REF-TODOIST_INTEGRATION.md:342:  -H "Authorization: Bearer $TODOIST_KEY" \
-02-ENGINE/REF-TODOIST_INTEGRATION.md:357:  -H "Authorization: Bearer $TODOIST_KEY"
+/bin/zsh -lc 'rg -n "todoist_sync|todoist-mcp|TODOIST" -S engine orchestration praxis' in /Users/home/Desktop/syncrescendence succeeded in 117ms:
+praxis/practice/PRAC-multi_methodology_framework.md:23:│ LINEAR │ │  JIRA  │ │TRELLO│ │TODOIST  │ │  TEAMGANTT   │
+engine/REF-TODOIST_INTEGRATION.md:2:id: REF-TODOIST_INTEGRATION
+engine/REF-TODOIST_INTEGRATION.md:46:| Auth | Bearer token: `$TODOIST_API_KEY` (in `~/.syncrescendence/.env`) |
+engine/REF-TODOIST_INTEGRATION.md:47:| Auth Note | `source ~/.syncrescendence/.env` does NOT export vars. Use `KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env \| cut -d= -f2)` or use key directly. |
+engine/REF-TODOIST_INTEGRATION.md:67:export $(grep TODOIST_API_KEY ~/.syncrescendence/.env | xargs)
+engine/REF-TODOIST_INTEGRATION.md:68:curl -s -H "Authorization: Bearer $TODOIST_API_KEY" \
+engine/REF-TODOIST_INTEGRATION.md:215:### Recommended: `todoist-mcp` v1.2.4
+engine/REF-TODOIST_INTEGRATION.md:218:Package:     todoist-mcp
+engine/REF-TODOIST_INTEGRATION.md:224:Binary:      todoist-mcp
+engine/REF-TODOIST_INTEGRATION.md:234:      "args": ["-y", "todoist-mcp@1.2.4"],
+engine/REF-TODOIST_INTEGRATION.md:236:        "TODOIST_API_KEY": "<key>"
+engine/REF-TODOIST_INTEGRATION.md:247:| `todoist-mcp` | 1.2.4 | Best: maintained, minimal deps, MCP SDK 1.1.1 |
+engine/REF-TODOIST_INTEGRATION.md:248:| `@chrusic/todoist-mcp-server-extended` | 0.2.5 | Larger (150KB), older MCP SDK 0.5.0, label-focused |
+engine/REF-TODOIST_INTEGRATION.md:249:| `todoist-mcp-app` | 1.0.0 | Interactive UI -- not suitable for CLI agents |
+engine/REF-TODOIST_INTEGRATION.md:250:| `@abhiz123/todoist-mcp-server` | 0.1.0 | Minimal, outdated |
+engine/REF-TODOIST_INTEGRATION.md:294:- Install `todoist-mcp` into Commander's MCP config
+engine/REF-TODOIST_INTEGRATION.md:334:TODOIST_KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env | cut -d= -f2)
+engine/REF-TODOIST_INTEGRATION.md:340:TODOIST_KEY=$(grep TODOIST_API_KEY ~/.syncrescendence/.env | cut -d= -f2)
+engine/REF-TODOIST_INTEGRATION.md:342:  -H "Authorization: Bearer $TODOIST_KEY" \
+engine/REF-TODOIST_INTEGRATION.md:357:  -H "Authorization: Bearer $TODOIST_KEY"
 
 thinking
 **Accessing smoke test instructions**
 
 I'm opening the REF-TODOIST_INTEGRATION document to find specific instructions for running the smoke test and will review the relevant sections next.
 exec
-/bin/zsh -lc "sed -n '1,220p' 02-ENGINE/REF-TODOIST_INTEGRATION.md" in /Users/home/Desktop/syncrescendence succeeded in 72ms:
+/bin/zsh -lc "sed -n '1,220p' engine/REF-TODOIST_INTEGRATION.md" in /Users/home/Desktop/syncrescendence succeeded in 72ms:
 ---
 id: REF-TODOIST_INTEGRATION
 kind: REF
@@ -368,7 +368,7 @@ updated: 2026-02-11
 thinking
 **Continuing to locate smoke test instructions**
 exec
-/bin/zsh -lc "sed -n '220,520p' 02-ENGINE/REF-TODOIST_INTEGRATION.md" in /Users/home/Desktop/syncrescendence succeeded in 70ms:
+/bin/zsh -lc "sed -n '220,520p' engine/REF-TODOIST_INTEGRATION.md" in /Users/home/Desktop/syncrescendence succeeded in 70ms:
 Published:   2025-07-13
 Author:      stanislavlysenko
 License:     MIT
@@ -691,7 +691,7 @@ FAIL — API unreachable in this environment (DNS/network blocked), so create �
 ```
 
 **Blocked Write Steps**
-I could not update `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-da12_syn53_todoist_completion_rerun.md`, write the result file, or append logs in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md` due to read-only sandbox restrictions.
+I could not update `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-da12_syn53_todoist_completion_rerun.md`, write the result file, or append logs in `orchestration/state/DYN-EXECUTION_STAGING.md` due to read-only sandbox restrictions.
 
 **Next Steps**
 1. Run the same REST v2 smoke flow on a shell with outbound network access, then record the create→update→close responses.

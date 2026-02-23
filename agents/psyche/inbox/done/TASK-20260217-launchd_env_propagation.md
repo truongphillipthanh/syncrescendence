@@ -29,7 +29,7 @@ Fix the environment propagation so that ALL auto_ingest_loop.sh processes have t
 ## Required Fix (choose ONE approach — recommend Option A)
 
 ### Option A: Source env in auto_ingest_supervisor.sh (RECOMMENDED)
-Add to the TOP of `00-ORCHESTRATION/scripts/auto_ingest_supervisor.sh`, before spawning loops:
+Add to the TOP of `orchestration/scripts/auto_ingest_supervisor.sh`, before spawning loops:
 
 ```bash
 # Neural Bridge: load cross-machine dispatch env vars

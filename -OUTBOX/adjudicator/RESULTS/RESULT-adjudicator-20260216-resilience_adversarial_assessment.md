@@ -13,7 +13,7 @@ Risk scale: CRITICAL (blocks autonomous recovery) | HIGH (degrades within 1h) | 
 | R3 | macOS login | FileVault ON blocks auto-login; manual password required | CRITICAL | None in repo (only manual note in configure_auto_boot_recovery.sh:166-169) | Disable FileVault or accept non-autonomous recovery; document as hard gate |
 | R4 | macOS login | Auto-login not configured or breaks after OS update | CRITICAL | None | Add explicit checklist + verification command in recovery script |
 | R5 | launchd | LaunchAgents only run after user login; if login blocked, nothing starts | CRITICAL | None | Convert critical tasks to LaunchDaemons where possible; ensure auto-login or provide hardware unlock |
-| R6 | launchd | Missing launchd plists in repo for cockpit/autostart/docker/auto-ingest | HIGH | Only watchdog plist exists in repo | Commit plists to `00-ORCHESTRATION/launchd/` and install script |
+| R6 | launchd | Missing launchd plists in repo for cockpit/autostart/docker/auto-ingest | HIGH | Only watchdog plist exists in repo | Commit plists to `orchestration/launchd/` and install script |
 | R7 | Docker Desktop | Docker auto-start GUI-only; fallback plist only created by script, not in repo | HIGH | `configure_auto_boot_recovery.sh` writes LaunchAgent to ~/Library/LaunchAgents (lines 66-93) | Commit docker-autostart plist + add readiness wait + container auto-start |
 | R8 | Docker Desktop | Containers may not auto-start even if Docker starts | HIGH | None in scoped files | Add `docker compose up -d` post-ready hook and `restart: unless-stopped` |
 | R9 | tmux constellation | tmux-continuum requires TPM plugin installed; config only sets options | HIGH | configure_auto_boot_recovery.sh adds `@continuum` options (lines 100-106) but does not install TPM | Add TPM install step or rely on cockpit launchd to create fresh session |
@@ -37,7 +37,7 @@ Each item includes file path + line numbers for existing files, or â€œNEW FILEâ€
 ### B1) Auto-boot reapply + schedule fanout
 **Targets**: R1, R2, R21
 
-**NEW FILE**: `00-ORCHESTRATION/scripts/boot_reapply_power_settings.sh`
+**NEW FILE**: `orchestration/scripts/boot_reapply_power_settings.sh`
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
@@ -53,7 +53,7 @@ sudo systemsetup -getrestartpowerfailure || true
 pmset -g sched || true
 ```
 
-**NEW FILE**: `00-ORCHESTRATION/launchd/com.syncrescendence.power_reapply.plist`
+**NEW FILE**: `orchestration/launchd/com.syncrescendence.power_reapply.plist`
 ```xml
 <key>Label</key>
 <string>com.syncrescendence.power_reapply</string>
@@ -62,7 +62,7 @@ pmset -g sched || true
   <string>/bin/bash</string>
   <string>-l</string>
   <string>-c</string>
-  <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/boot_reapply_power_settings.sh</string>
+  <string>/Users/home/Desktop/syncrescendence/orchestration/scripts/boot_reapply_power_settings.sh</string>
 </array>
 <key>RunAtLoad</key>
 <true/>
@@ -73,7 +73,7 @@ pmset -g sched || true
 ### B2) Auto-login hard gate documentation
 **Targets**: R3, R4, R5
 
-**File**: `00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh` (lines 166-169)
+**File**: `orchestration/scripts/configure_auto_boot_recovery.sh` (lines 166-169)
 Add a hard-gate block after line 166:
 ```bash
 echo "HARD GATE: FileVault must be OFF for autonomous recovery."
@@ -84,7 +84,7 @@ echo "If FileVault is ON, autonomous recovery is impossible."
 ### B3) Commit and install cockpit autostart plist
 **Targets**: R6, R10, R22
 
-**NEW FILE**: `00-ORCHESTRATION/launchd/com.syncrescendence.cockpit-autostart.plist`
+**NEW FILE**: `orchestration/launchd/com.syncrescendence.cockpit-autostart.plist`
 ```xml
 <key>Label</key>
 <string>com.syncrescendence.cockpit-autostart</string>
@@ -93,7 +93,7 @@ echo "If FileVault is ON, autonomous recovery is impossible."
   <string>/bin/bash</string>
   <string>-l</string>
   <string>-c</string>
-  <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/cockpit.sh --launch-detached</string>
+  <string>/Users/home/Desktop/syncrescendence/orchestration/scripts/cockpit.sh --launch-detached</string>
 </array>
 <key>RunAtLoad</key>
 <true/>
@@ -113,7 +113,7 @@ echo "If FileVault is ON, autonomous recovery is impossible."
 ### B4) Dockers autostart + readiness
 **Targets**: R7, R8, R22
 
-**NEW FILE**: `00-ORCHESTRATION/launchd/com.syncrescendence.docker-autostart.plist`
+**NEW FILE**: `orchestration/launchd/com.syncrescendence.docker-autostart.plist`
 ```xml
 <key>Label</key>
 <string>com.syncrescendence.docker-autostart</string>
@@ -122,7 +122,7 @@ echo "If FileVault is ON, autonomous recovery is impossible."
   <string>/bin/bash</string>
   <string>-l</string>
   <string>-c</string>
-  <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/docker_autostart.sh</string>
+  <string>/Users/home/Desktop/syncrescendence/orchestration/scripts/docker_autostart.sh</string>
 </array>
 <key>RunAtLoad</key>
 <true/>
@@ -130,7 +130,7 @@ echo "If FileVault is ON, autonomous recovery is impossible."
 <integer>300</integer>
 ```
 
-**NEW FILE**: `00-ORCHESTRATION/scripts/docker_autostart.sh`
+**NEW FILE**: `orchestration/scripts/docker_autostart.sh`
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
@@ -148,7 +148,7 @@ fi
 ### B5) tmux-continuum install or bypass
 **Targets**: R9
 
-**File**: `00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh` (after line 95)
+**File**: `orchestration/scripts/configure_auto_boot_recovery.sh` (after line 95)
 ```bash
 # Ensure TPM installed for continuum
 if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
@@ -160,7 +160,7 @@ fi
 ### B6) CLI preflight + credential health
 **Targets**: R11, R17
 
-**File**: `00-ORCHESTRATION/scripts/cockpit.sh` (after line 208)
+**File**: `orchestration/scripts/cockpit.sh` (after line 208)
 ```bash
 for bin in claude codex gemini openclaw; do
   if ! command -v "$bin" >/dev/null 2>&1; then
@@ -170,7 +170,7 @@ for bin in claude codex gemini openclaw; do
 done
 ```
 
-**NEW FILE**: `00-ORCHESTRATION/scripts/credential_health_check.sh`
+**NEW FILE**: `orchestration/scripts/credential_health_check.sh`
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
@@ -184,17 +184,17 @@ ssh -o BatchMode=yes -o ConnectTimeout=3 ajna "exit" 2>/dev/null || echo "WARN: 
 ### B7) Auto-ingest LaunchAgents + tmux socket
 **Targets**: R13, R14
 
-**File**: `00-ORCHESTRATION/scripts/auto_ingest_loop.sh` (line 27)
+**File**: `orchestration/scripts/auto_ingest_loop.sh` (line 27)
 ```bash
 TMUX_SOCKET="/private/tmp/tmux-$(id -u)/default"
 TMUX_BIN="/opt/homebrew/bin/tmux -S ${TMUX_SOCKET}"
 ```
 
 **NEW FILES** (one per agent):
-- `00-ORCHESTRATION/launchd/com.syncrescendence.auto_ingest.commander.plist`
-- `00-ORCHESTRATION/launchd/com.syncrescendence.auto_ingest.adjudicator.plist`
-- `00-ORCHESTRATION/launchd/com.syncrescendence.auto_ingest.cartographer.plist`
-- `00-ORCHESTRATION/launchd/com.syncrescendence.auto_ingest.psyche.plist`
+- `orchestration/launchd/com.syncrescendence.auto_ingest.commander.plist`
+- `orchestration/launchd/com.syncrescendence.auto_ingest.adjudicator.plist`
+- `orchestration/launchd/com.syncrescendence.auto_ingest.cartographer.plist`
+- `orchestration/launchd/com.syncrescendence.auto_ingest.psyche.plist`
 Each should run:
 ```xml
 <key>ProgramArguments</key>
@@ -202,7 +202,7 @@ Each should run:
   <string>/bin/bash</string>
   <string>-l</string>
   <string>-c</string>
-  <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_loop.sh <agent> /Users/home/Desktop/syncrescendence constellation <pane></string>
+  <string>/Users/home/Desktop/syncrescendence/orchestration/scripts/auto_ingest_loop.sh <agent> /Users/home/Desktop/syncrescendence constellation <pane></string>
 </array>
 <key>RunAtLoad</key><true/>
 <key>KeepAlive</key><true/>
@@ -211,7 +211,7 @@ Each should run:
 ### B8) Watchdog KeepAlive + self-heal
 **Targets**: R15, R16, R18
 
-**File**: `00-ORCHESTRATION/launchd/com.syncrescendence.watchdog.plist` (after line 19)
+**File**: `orchestration/launchd/com.syncrescendence.watchdog.plist` (after line 19)
 ```xml
 <key>KeepAlive</key>
 <dict>
@@ -220,18 +220,18 @@ Each should run:
 <key>ThrottleInterval</key><integer>30</integer>
 ```
 
-**File**: `00-ORCHESTRATION/scripts/constellation_watchdog.sh` (after line 37)
+**File**: `orchestration/scripts/constellation_watchdog.sh` (after line 37)
 ```bash
-if [ -x "${REPO_DIR}/00-ORCHESTRATION/scripts/cockpit.sh" ]; then
+if [ -x "${REPO_DIR}/orchestration/scripts/cockpit.sh" ]; then
   log "Attempting cockpit auto-restart (detached)"
-  "${REPO_DIR}/00-ORCHESTRATION/scripts/cockpit.sh" --launch-detached >/dev/null 2>&1 || true
+  "${REPO_DIR}/orchestration/scripts/cockpit.sh" --launch-detached >/dev/null 2>&1 || true
 fi
 ```
 
 ### B9) Disk + CPU pressure checks
 **Targets**: R18, R21
 
-**File**: `00-ORCHESTRATION/scripts/constellation_watchdog.sh` (after line 107)
+**File**: `orchestration/scripts/constellation_watchdog.sh` (after line 107)
 ```bash
 disk_pct=$(df -Pk "$REPO_DIR" | awk "NR==2{gsub(/%/, "", $5); print $5}")
 echo "Disk usage: ${disk_pct}%"
@@ -240,7 +240,7 @@ echo "Disk usage: ${disk_pct}%"
 ### B10) Config drift check
 **Targets**: R19
 
-**NEW FILE**: `00-ORCHESTRATION/scripts/config_drift_check.sh`
+**NEW FILE**: `orchestration/scripts/config_drift_check.sh`
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
@@ -259,7 +259,7 @@ exit 0
 ### B11) Network readiness
 **Targets**: R12, R20
 
-**NEW FILE**: `00-ORCHESTRATION/scripts/network_ready.sh`
+**NEW FILE**: `orchestration/scripts/network_ready.sh`
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail

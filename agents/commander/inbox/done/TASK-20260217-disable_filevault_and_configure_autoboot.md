@@ -46,7 +46,7 @@ pmset -g sched
 
 ### Step 4: Run the full recovery configuration script
 ```bash
-sudo bash ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh
+sudo bash ~/Desktop/syncrescendence/orchestration/scripts/configure_auto_boot_recovery.sh
 ```
 
 ### Step 5: Enable Docker Desktop Auto-Start

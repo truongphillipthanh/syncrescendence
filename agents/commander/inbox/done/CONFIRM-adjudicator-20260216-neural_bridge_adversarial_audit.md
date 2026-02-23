@@ -17,7 +17,7 @@
 
 ```text
 ```bash
-grep -n -A10 'Neural Bridge' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/constellation_watchdog.sh
+grep -n -A10 'Neural Bridge' ~/Desktop/syncrescendence/orchestration/scripts/constellation_watchdog.sh
 ```
 Verify: SSH probe exists, uses 'macbook-air' alias, writes status to health report.
 
@@ -57,8 +57,8 @@ NEURAL BRIDGE AUDIT VERDICT: PASS or FAIL
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 
@@ -91,7 +91,7 @@ thinking
 
 I'll run required shell commands sequentially, capturing all outputs for the result file. For committing, I'll use the Adjudicator protocol prefix (likely `chore:`) and commit changes locally without pushing unless explicitly required. I'll update the result file, task status, execution log, and ledger as needed before committing.
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'bash orchestration/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 52ms:
 === INBOX TRIAGE ===
 Time: 2026-02-16 21:52:51
 Stale threshold: 60 minutes
@@ -103,13 +103,13 @@ thinking
 exec
 /bin/zsh -lc 'git status --short' in /Users/system/syncrescendence succeeded in 52ms:
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
- M 00-ORCHESTRATION/scripts/constellation_watchdog.sh
- M 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
- M 00-ORCHESTRATION/state/DYN-SESSION_LOG.md
+ M orchestration/scripts/auto_ingest_loop.sh
+ M orchestration/scripts/constellation_watchdog.sh
+ M orchestration/state/DYN-CONSTELLATION_HEALTH.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
+ M orchestration/state/DYN-SESSION_LOG.md
 ?? -INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-neural_bridge_adversarial_audit.md
 ?? -INBOX/psyche/10-IN_PROGRESS/
 
@@ -122,13 +122,13 @@ I ran the initial inbox triage and `git status --short` as required. The working
 
 ```
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
- M 00-ORCHESTRATION/scripts/constellation_watchdog.sh
- M 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
- M 00-ORCHESTRATION/state/DYN-SESSION_LOG.md
+ M orchestration/scripts/auto_ingest_loop.sh
+ M orchestration/scripts/constellation_watchdog.sh
+ M orchestration/state/DYN-CONSTELLATION_HEALTH.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
+ M orchestration/state/DYN-SESSION_LOG.md
 ?? -INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-neural_bridge_adversarial_audit.md
 ?? -INBOX/psyche/10-IN_PROGRESS/
 ```

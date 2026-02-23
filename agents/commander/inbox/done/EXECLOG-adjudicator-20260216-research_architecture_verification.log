@@ -1,4 +1,4 @@
-I’m seeing a dirty worktree with many pre-existing deletions/modifications (e.g., `-INBOX/psyche/00-INBOX0/...` deletions and edits in `00-ORCHESTRATION/state/...`, plus `01-CANON/...`), which I did not make. Per protocol, I need your guidance before proceeding.
+I’m seeing a dirty worktree with many pre-existing deletions/modifications (e.g., `-INBOX/psyche/00-INBOX0/...` deletions and edits in `orchestration/state/...`, plus `canon/...`), which I did not make. Per protocol, I need your guidance before proceeding.
 
 How do you want to handle these existing changes? Options:
 1. Proceed with this task without touching those files and leave them as-is.
@@ -47,12 +47,12 @@ Perform architectural verification and adversarial audit of the research partiti
 **CONTEXT**: Commander executed a 4-lane parallel swarm to partition 267 research files into 14 notebooks, extract 46 insights (28 VERY HIGH + 18 HIGH), write a 780-line pipeline automation spec, and inject 12 intent vectors + 46 backlog items. The operation clarescence scored 18/18 lenses. Your job is to CHALLENGE everything.
 
 **REQUIRED READS**:
-- 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record with DA-RESEARCH-PARTITION-001)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights with IMPL candidates)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights with IMPL candidates)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (11-step pipeline, 21 automation candidates)
-- 00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md — Tranche Q (IMPL-Q-0001-Q-0025) + Tranche P (IMPL-P-0001-P-0021)
-- 04-SOURCES/research-notebooks/MANIFEST.md
+- orchestration/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record with DA-RESEARCH-PARTITION-001)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights with IMPL candidates)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights with IMPL candidates)
+- orchestration/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (11-step pipeline, 21 automation candidates)
+- orchestration/state/IMPLEMENTATION-BACKLOG.md — Tranche Q (IMPL-Q-0001-Q-0025) + Tranche P (IMPL-P-0001-P-0021)
+- sources/research-notebooks/MANIFEST.md
 
 **VERIFICATION DIMENSIONS**:
 
@@ -83,8 +83,8 @@ Perform architectural verification and adversarial audit of the research partiti
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 
@@ -106,7 +106,7 @@ mcp: linear ready
 mcp: notion ready
 mcp startup: ready: figma, linear, notion
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/Desktop/syncrescendence succeeded in 51ms:
+/bin/zsh -lc 'bash orchestration/scripts/triage_inbox.sh adjudicator' in /Users/system/Desktop/syncrescendence succeeded in 51ms:
 === INBOX TRIAGE ===
 Time: 2026-02-16 10:59:48
 Stale threshold: 60 minutes
@@ -132,18 +132,18 @@ exec
  D -INBOX/psyche/00-INBOX0/RESULT-commander-20260211-install-hf-last-signal-skills.md
  D -INBOX/psyche/00-INBOX0/TASK-20260211-openclaw_adoption_6_actions.md
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/state/DYN-CANON_REGEN_LOG.md
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
+ M orchestration/state/DYN-CANON_REGEN_LOG.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-INTENTIONS_QUEUE.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
 
 thinking
 **Noticing unexpected deletions and modifications**
 
 There are many deletions and modifications in the repo that weren't intentionally made. Should I halt and await further instructions before proceeding?
 codex
-I’m seeing a dirty worktree with many pre-existing deletions/modifications (e.g., `-INBOX/psyche/00-INBOX0/...` deletions and edits in `00-ORCHESTRATION/state/...`, plus `01-CANON/...`), which I did not make. Per protocol, I need your guidance before proceeding.
+I’m seeing a dirty worktree with many pre-existing deletions/modifications (e.g., `-INBOX/psyche/00-INBOX0/...` deletions and edits in `orchestration/state/...`, plus `canon/...`), which I did not make. Per protocol, I need your guidance before proceeding.
 
 How do you want to handle these existing changes? Options:
 1. Proceed with this task without touching those files and leave them as-is.

@@ -35,7 +35,7 @@ Objective:
    - Ensure EnvironmentVariables.PATH includes /opt/homebrew/bin and any required paths.
    - Ensure NODE_OPTIONS=--no-warnings (optional but reduces noise) for all watchers.
 5) Re-arm watchers on mini using repo script:
-   - cd ~/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/rearm_watchers.sh --mini
+   - cd ~/Desktop/syncrescendence && bash orchestration/scripts/rearm_watchers.sh --mini
 6) Validate watchers are actually running and can execute:
    - launchctl print gui/503/com.syncrescendence.watch-ajna
    - ...watch-commander, ...watch-adjudicator, ...watch-cartographer
@@ -63,8 +63,8 @@ Important constraint:
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

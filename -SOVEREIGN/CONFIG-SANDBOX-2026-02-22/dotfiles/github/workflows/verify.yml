@@ -34,17 +34,17 @@ jobs:
         run: |
           echo "=== Ledger Verification ==="
           echo -n "DYN-TASKS.csv rows: "
-          wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv
+          wc -l < orchestration/state/DYN-TASKS.csv
           echo -n "DYN-PROJECTS.csv rows: "
-          wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv
+          wc -l < orchestration/state/DYN-PROJECTS.csv
 
       - name: Content verification
         run: |
           echo "=== Content Verification ==="
           echo -n "Processed sources: "
-          ls 04-SOURCES/processed/*.md 2>/dev/null | wc -l || echo "0"
+          ls sources/processed/*.md 2>/dev/null | wc -l || echo "0"
           echo -n "CANON with integrations: "
-          grep -rl "SOURCE-" 01-CANON/*.md 2>/dev/null | wc -l || echo "0"
+          grep -rl "SOURCE-" canon/*.md 2>/dev/null | wc -l || echo "0"
 
       - name: Git status
         run: git status --short
@@ -54,7 +54,7 @@ jobs:
         run: |
           echo "=== Python Syntax Check ==="
           FAILED=0
-          for f in 00-ORCHESTRATION/scripts/*.py; do
+          for f in orchestration/scripts/*.py; do
             if ! python -m py_compile "$f"; then
               echo "FAIL: $f"
               FAILED=1
@@ -91,7 +91,7 @@ jobs:
         run: |
           echo "=== CSV Validation ==="
           FAILED=0
-          for csv in 00-ORCHESTRATION/state/DYN-TASKS.csv 00-ORCHESTRATION/state/DYN-PROJECTS.csv; do
+          for csv in orchestration/state/DYN-TASKS.csv orchestration/state/DYN-PROJECTS.csv; do
             if [ ! -f "$csv" ]; then
               echo "WARN: $csv not found, skipping"
               continue

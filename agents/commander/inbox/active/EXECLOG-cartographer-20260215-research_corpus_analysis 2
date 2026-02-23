@@ -1,4 +1,4 @@
-Okay, I have analyzed the research corpus in `04-SOURCES/research/`. While the task mentioned 268 files, I found and processed 100 files in this directory.
+Okay, I have analyzed the research corpus in `sources/research/`. While the task mentioned 268 files, I found and processed 100 files in this directory.
 
 Here is the structured report of my findings. I will now write this report to the specified output file.
 I have completed the analysis and generated the report. However, I encountered an error when attempting to write the final report file: the `write_file` tool was not found. This is unexpected, as file system modification tools should be available to me.
@@ -23,7 +23,7 @@ The analysis is complete, and the report has been generated. To fulfill the obje
 
 ## 1. Executive Summary
 
-This report provides a comprehensive analysis of the research corpus located in `/Users/system/Desktop/syncrescendence/04-SOURCES/research/`. The corpus consists of 100 files (not 268 as stated in the task, a discrepancy worth noting) and is organized into a combination of directories and root-level files.
+This report provides a comprehensive analysis of the research corpus located in `/Users/system/Desktop/syncrescendence/sources/research/`. The corpus consists of 100 files (not 268 as stated in the task, a discrepancy worth noting) and is organized into a combination of directories and root-level files.
 
 The research materials are heavily focused on the operational and conceptual frameworks of AI, particularly concerning agentic architectures, multi-model orchestration, and the practical application of large language models (LLMs) like Claude, Gemini, and others. A significant portion of the corpus is dedicated to "meta" topics: the process of using AI to build with AI, prompt engineering, and workflow optimization.
 
@@ -49,88 +49,88 @@ The primary topic clusters identified are:
 **Summary**: This cluster focuses on the theory and practice of using AI agents, especially in a multi-agent or "sub-agent" configuration. It explores patterns for delegating tasks, orchestrating parallel work, and managing context effectively by isolating tasks into specialized agent instances. The core idea is to move from a single monolithic AI conversation to a "fleet" of specialized workers coordinated by a primary agent.
 
 **Representative Files**:
-- `04-SOURCES/research/agents/20260114-youtube_video-@leonvanzyl-stop_using_claude_code_like_this_use_sub-agents_instead.md`
-- `04-SOURCES/research/agents/agents_201_orchestrating_multiple_agents_that_actually_work-@ghumare64.md`
-- `04-SOURCES/research/MECH-subagent_delegation.md`
-- `04-SOURCES/research/PRAC-parallel_claude_orchestration.md`
+- `sources/research/agents/20260114-youtube_video-@leonvanzyl-stop_using_claude_code_like_this_use_sub-agents_instead.md`
+- `sources/research/agents/agents_201_orchestrating_multiple_agents_that_actually_work-@ghumare64.md`
+- `sources/research/MECH-subagent_delegation.md`
+- `sources/research/PRAC-parallel_claude_orchestration.md`
 
 ### Cluster 2: AI Model Research & Platform Comparison
 
 **Summary**: This is a large cluster containing comparative analyses of different AI models and platforms (ChatGPT, Claude, Gemini, Grok). The `ajna9-fodder` directory, in particular, contains "streams" of research where the same prompts are tested across different models to compare their outputs, reasoning, and capabilities. This research appears foundational to understanding the strengths and weaknesses of each "persona" in the broader system.
 
 **Representative Files**:
-- `04-SOURCES/research/ajna9-fodder/` (entire directory)
-- `04-SOURCES/research/gemini/` (entire directory)
-- `04-SOURCES/research/platform_features/` (entire directory)
-- `04-SOURCES/research/google_research.md`
-- `04-SOURCES/research/openai_research.md`
+- `sources/research/ajna9-fodder/` (entire directory)
+- `sources/research/gemini/` (entire directory)
+- `sources/research/platform_features/` (entire directory)
+- `sources/research/google_research.md`
+- `sources/research/openai_research.md`
 
 ### Cluster 3: The Claude Ecosystem (Claude Code & Cowork)
 
 **Summary**: A significant portion of the research is dedicated to the Anthropic Claude ecosystem, specifically the `Claude Code` CLI tool and the `Claude Cowork` desktop application. The documents are a mix of definitive guides, tutorials, and workflow patterns. They cover advanced concepts like `CLAUDE.md` for project-level instructions, using "Plan Mode" for structured thinking, context management, and extending functionality with Skills and Hooks.
 
 **Representative Files**:
-- `04-SOURCES/research/ajna9-fodder/Claude_Code_Definitive_Guide.md`
-- `04-SOURCES/research/cowork/20260115-x_article-the_complete_claude_cowork_guide-@armanhezarkhani.md`
-- `04-SOURCES/research/x-bookmarks/TRANS-aiedge_-claude_code_starter_pack_p2.md`
-- `04-SOURCES/research/20260122-x_article-how_i_built_a_visual_feedback_loop_for_claude_code-@seejayhess.md`
+- `sources/research/ajna9-fodder/Claude_Code_Definitive_Guide.md`
+- `sources/research/cowork/20260115-x_article-the_complete_claude_cowork_guide-@armanhezarkhani.md`
+- `sources/research/x-bookmarks/TRANS-aiedge_-claude_code_starter_pack_p2.md`
+- `sources/research/20260122-x_article-how_i_built_a_visual_feedback_loop_for_claude_code-@seejayhess.md`
 
 ### Cluster 4: Prompt Engineering & Cognitive Architecture
 
 **Summary**: This cluster focuses on the art and science of prompting. It goes beyond simple instructions, framing prompting as a form of "cognitive architecture." The content emphasizes the importance of clarity, context, task decomposition, and providing examples to guide the AI model's output. It distinguishes between novice and expert prompting, with a focus on achieving consistent, high-quality results.
 
 **Representative Files**:
-- `04-SOURCES/research/promptengineering/how_to_master_prompt_engineering-@exm777.md`
-- `04-SOURCES/research/MECH-prompt_engineering_patterns.md`
+- `sources/research/promptengineering/how_to_master_prompt_engineering-@exm777.md`
+- `sources/research/MECH-prompt_engineering_patterns.md`
 
 ### Cluster 5: OpenClaw Agent Gateway
 
 **Summary**: This cluster contains a deep-dive synthesis on "OpenClaw," a self-hosted, personal AI agent gateway. The research analyzes its architecture, security model, multi-agent patterns, and community adoption. It positions OpenClaw as a potential "Local Orchestrator" for the Syncrescendence project, capable of managing persistent, always-on AI agents across various messaging channels.
 
 **Representative Files**:
-- `04-SOURCES/research/openclaw/SYNTHESIS-openclaw.md`
-- `04-SOURCES/research/openclaw/SYNTHESIS-openclaw-v2.md`
-- `04-SOURCES/research/openclaw/SOURCE_INVENTORY.md`
+- `sources/research/openclaw/SYNTHESIS-openclaw.md`
+- `sources/research/openclaw/SYNTHESIS-openclaw-v2.md`
+- `sources/research/openclaw/SOURCE_INVENTORY.md`
 
 ### Cluster 6: Self-Improvement & Future of Work
 
 **Summary**: This collection of articles, mostly transcribed from X/Twitter, deals with broader themes of learning, focus, strategic thinking, and adapting to a world with AI. They are less about the technical implementation of AI and more about the human mindset required to thrive alongside it.
 
 **Representative Files**:
-- `04-SOURCES/research/20260115-x_article-how_to_articulate_yourself_intelligently-@thedankoe.md`
-- `04-SOURCES/research/20260121-x_article-you_need_to_become_a_polymath_or_get_replaced_by_machines-@hesamation.md`
-- `04-SOURCES/research/20260123-x_article-the_complete_guide_how_to_learn_anything_for_good-@armanhezarkhani.md`
-- `04-SOURCES/research/20260130-website-how_to_think_like_a_genius_the_map-letters-thedankoe.md`
+- `sources/research/20260115-x_article-how_to_articulate_yourself_intelligently-@thedankoe.md`
+- `sources/research/20260121-x_article-you_need_to_become_a_polymath_or_get_replaced_by_machines-@hesamation.md`
+- `sources/research/20260123-x_article-the_complete_guide_how_to_learn_anything_for_good-@armanhezarkhani.md`
+- `sources/research/20260130-website-how_to_think_like_a_genius_the_map-letters-thedankoe.md`
 
 ### Cluster 7: Automation, Tooling, & Technical Guides
 
 **Summary**: This cluster contains practical guides for specific technical workflows, many of which are relevant to managing a multi-agent development environment. It covers topics like Git worktrees for isolating parallel work, headless automation, and architecture for data ingestion pipelines.
 
 **Representative Files**:
-- `04-SOURCES/research/MECH-git_worktree_coordination.md`
-- `04-SOURCES/research/MECH-headless_mode_automation.md`
-- `04-SOURCES/research/20260202-research-youtube_ingestion_pipeline_architecture.md`
-- `04-SOURCES/research/x-bookmarks/` (contains many transcribed technical tutorials)
+- `sources/research/MECH-git_worktree_coordination.md`
+- `sources/research/MECH-headless_mode_automation.md`
+- `sources/research/20260202-research-youtube_ingestion_pipeline_architecture.md`
+- `sources/research/x-bookmarks/` (contains many transcribed technical tutorials)
 
 ### Cluster 8: AI in VFX and 3D Content Creation
 
 **Summary**: A small but distinct cluster of files prefixed with `QUEUE-` explores the application of AI in visual effects, 3D modeling, and video. It discusses technologies like NeRFs, 3D Gaussian Splatting, and the use of generative models like Sora in production pipelines. This suggests a forward-looking interest in applying AI to creative visual arts.
 
 **Representative Files**:
-- `04-SOURCES/research/QUEUE-AI_3D_VFX.md`
-- `04-SOURCES/research/QUEUE-AI_Workflows_in_Video_and_VFX.md`
-- `04-SOURCES/research/QUEUE-The_Next_Wave_in_AI_Video_and_VFX.md`
-- `04-SOURCES/research/QUEUE-Physical_AI.md`
+- `sources/research/QUEUE-AI_3D_VFX.md`
+- `sources/research/QUEUE-AI_Workflows_in_Video_and_VFX.md`
+- `sources/research/QUEUE-The_Next_Wave_in_AI_Video_and_VFX.md`
+- `sources/research/QUEUE-Physical_AI.md`
 
 ### Cluster 9: Corpus Meta-Analysis & Project-Specific Documents
 
 **Summary**: This cluster contains documents that are *about* the corpus itself or are specific to the Syncrescendence project's internal narrative and architecture. It includes sensing reports, evidence packs, and conceptual documents that tie the research back to the project's goals.
 
 **Representative Files**:
-- `04-SOURCES/research/20260202-corpus-survey/SENSING_REPORT.md`
-- `04-SOURCES/research/forensic-audit-type-theory/TYPE_THEORY_EVIDENCE_PACK.md`
-- `04-SOURCES/research/syncrescendence_convergence.md`
-- `04-SOURCES/research/meta_narrative_and_perspectival_schemas.md`
+- `sources/research/20260202-corpus-survey/SENSING_REPORT.md`
+- `sources/research/forensic-audit-type-theory/TYPE_THEORY_EVIDENCE_PACK.md`
+- `sources/research/syncrescendence_convergence.md`
+- `sources/research/meta_narrative_and_perspectival_schemas.md`
 
 ---
 
@@ -153,9 +153,9 @@ Several themes are present across all clusters:
 
 The research corpus is a rich and focused collection of materials supporting the development of a sophisticated multi-agent AI system. The content is highly relevant to the stated goals of the Syncrescendence project.
 
-**File Count Discrepancy**: The initial request mentioned 268 files, but only 100 were found in the specified `research` directory. It's possible that other files exist in the parent `04-SOURCES/` directory (e.g., in `processed/`) or that the initial count was an estimate. This should be clarified to ensure no part of the corpus was missed.
+**File Count Discrepancy**: The initial request mentioned 268 files, but only 100 were found in the specified `research` directory. It's possible that other files exist in the parent `sources/` directory (e.g., in `processed/`) or that the initial count was an estimate. This should be clarified to ensure no part of the corpus was missed.
 
-**Recommendation**: The current directory-based organization is effective. To further improve, consider creating a master `_index.md` or `README.md` file within the `04-SOURCES/research/` directory that provides a map to the different clusters and key documents, similar to the structure of this report. This would aid future analysis and onboarding for any agent or human interacting with this corpus.
+**Recommendation**: The current directory-based organization is effective. To further improve, consider creating a master `_index.md` or `README.md` file within the `sources/research/` directory that provides a map to the different clusters and key documents, similar to the structure of this report. This would aid future analysis and onboarding for any agent or human interacting with this corpus.
 
 Loaded cached credentials.
 Hook registry initialized with 0 hook entries

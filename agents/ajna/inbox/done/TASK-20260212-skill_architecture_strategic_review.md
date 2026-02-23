@@ -23,7 +23,7 @@
 
 ## Objective
 
-Review the new ARCH-SKILL_REGISTRY.md (at 00-ORCHESTRATION/state/ARCH-SKILL_REGISTRY.md) and the upgraded REF-SKILLS_PIPELINE_MAP.md (at 02-ENGINE/REF-SKILLS_PIPELINE_MAP.md). Assess: (1) Does the skill inventory align with Syncrescendence strategic direction? Are we over-invested in any domain (e.g., blockchain scanners) or under-invested in critical areas? (2) What capability gaps exist that no current skill addresses? (3) Which dormant skills should be activated (high value, low effort) or decommissioned (zero relevance)? (4) Prioritize the top 5 skills for immediate deep integration into agent loops and hooks. (5) Are the 5 named skill chains (INTELLIGENCE_REFRESH, SOURCE_INTAKE, TASK_EXECUTION, SKILL_CREATION, SECURITY_AUDIT) sufficient, or do we need additional chains? Write structured RESULT with strategic recommendations.
+Review the new ARCH-SKILL_REGISTRY.md (at orchestration/state/ARCH-SKILL_REGISTRY.md) and the upgraded REF-SKILLS_PIPELINE_MAP.md (at engine/REF-SKILLS_PIPELINE_MAP.md). Assess: (1) Does the skill inventory align with Syncrescendence strategic direction? Are we over-invested in any domain (e.g., blockchain scanners) or under-invested in critical areas? (2) What capability gaps exist that no current skill addresses? (3) Which dormant skills should be activated (high value, low effort) or decommissioned (zero relevance)? (4) Prioritize the top 5 skills for immediate deep integration into agent loops and hooks. (5) Are the 5 named skill chains (INTELLIGENCE_REFRESH, SOURCE_INTAKE, TASK_EXECUTION, SKILL_CREATION, SECURITY_AUDIT) sufficient, or do we need additional chains? Write structured RESULT with strategic recommendations.
 
 ---
 
@@ -32,8 +32,8 @@ Review the new ARCH-SKILL_REGISTRY.md (at 00-ORCHESTRATION/state/ARCH-SKILL_REGI
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

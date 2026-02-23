@@ -57,7 +57,7 @@
 
   Clarescence Produced
 
-  38KB analysis at 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-08-constellati
+  38KB analysis at orchestration/state/impl/clarescence/CLARESCENCE-2026-02-08-constellati
   on-modus-operandi.md — 10-pass analysis covering structural coherence, 18-lens scorecard
   (13 PASS, 5 WARN), canon divergences, phased implementation recommendations, and
   concurrency risk analysis.
@@ -168,7 +168,7 @@
   - Native compilation: YES
   - auth-source: Linear token retrieval confirmed
   - org-roam v2, org-journal, org-habit all loaded
-  - Journal directory created at 05-SIGMA/journal/
+  - Journal directory created at praxis/journal/
 
   Emacs is now a standalone Observation Layer — launch with doom-dash from any terminal,
   Moom-tile alongside the cockpit.

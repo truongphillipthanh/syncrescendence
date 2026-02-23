@@ -34,7 +34,7 @@
 | File | Key Findings |
 |------|-------------|
 | TASK-CORPUS-INSIGHT-20260213.md | 67 commits, 167 files modified. Skills pipeline + ontology + cross-agent ops active. Flagged: INT-1201 (revenue) failed since Jan 31, orphaned root files (findings.md, progress.md, task_plan.md), 17+ Untitled cli_logs. |
-| TASK-CORPUS-INSIGHT-20260215.md | Velocity stalled -- last substantive commit 57h ago. 16 unprocessed inbox items (this triage addresses that). INT-1612 misrouted. Staged but uncommitted 02-ENGINE files. |
+| TASK-CORPUS-INSIGHT-20260215.md | Velocity stalled -- last substantive commit 57h ago. 16 unprocessed inbox items (this triage addresses that). INT-1612 misrouted. Staged but uncommitted engine files. |
 
 **Metabolized**: Both reports' recommendations have been absorbed. The corpus insight for Feb 15 specifically called for this inbox triage.
 

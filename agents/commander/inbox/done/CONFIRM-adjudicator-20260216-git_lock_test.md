@@ -52,16 +52,16 @@ exec
  M -INBOX/psyche/.auto_ingest.lock
  M -INBOX/psyche/auto_ingest.log
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/scripts/auto_ingest_all.sh
- M 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
- M 00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh
- M 00-ORCHESTRATION/scripts/constellation_watchdog.sh
- M 00-ORCHESTRATION/state/.watchdog_state
- M 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
+ M orchestration/scripts/auto_ingest_all.sh
+ M orchestration/scripts/auto_ingest_loop.sh
+ M orchestration/scripts/configure_auto_boot_recovery.sh
+ M orchestration/scripts/constellation_watchdog.sh
+ M orchestration/state/.watchdog_state
+ M orchestration/state/DYN-CONSTELLATION_HEALTH.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-INTENTIONS_QUEUE.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
 index c2c27dcdee016bf8b3d99ea3bf695addaa09261f..9a55f6b8f15193e13a5742f3a7f81aae51319a66
@@ -103,8 +103,8 @@ codex
 **Artifacts**
 - `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-git_lock_test.md`
 - `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md`
-- `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md`
-- `00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md`
+- `orchestration/state/DYN-EXECUTION_STAGING.md`
+- `orchestration/state/DYN-GLOBAL_LEDGER.md`
 
 **Notes**
 - Working tree was already dirty, so I did not commit.

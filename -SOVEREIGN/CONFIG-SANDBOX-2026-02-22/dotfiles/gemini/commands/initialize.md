@@ -27,7 +27,7 @@ Report: number of TASK-*.md files pending, any CONFIRM-* or RESULT-* files.
 Read these three files and extract P0 items:
 - `GEMINI.md` (your identity + protocols)
 - `README.md` (constellation roles — find your status)
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` (active intentions)
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` (active intentions)
 
 ## Step 4: Fleet Health
 Report your agent status from README.md. Note if status says HIBERNATED (it should say ACTIVE).
@@ -42,7 +42,7 @@ Branch: [branch]
 Inbox: [N pending tasks]
 Status: [ACTIVE/HIBERNATED]
 P0 Intentions: [list any urgent]
-CANON files: [count in 01-CANON/]
+CANON files: [count in canon/]
 Recent activity: [last 3 commits touching CANON or SIGMA]
 Ready: [YES/NO + blockers if any]
 ===========================

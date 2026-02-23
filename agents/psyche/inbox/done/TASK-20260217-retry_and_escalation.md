@@ -106,9 +106,9 @@ Call `escalate_exhausted_tasks` right after `retry_failed_tasks`.
 ### Verification
 
 After implementing, verify:
-1. `grep -c 'retry_failed_tasks\|escalate_exhausted_tasks' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_loop.sh` — must be >= 4 (2 function defs + 2 calls)
+1. `grep -c 'retry_failed_tasks\|escalate_exhausted_tasks' ~/Desktop/syncrescendence/orchestration/scripts/auto_ingest_loop.sh` — must be >= 4 (2 function defs + 2 calls)
 2. Create a test task in 50_FAILED with Failure-Reason containing "rate limit" and Retry-Count: 0, verify it moves back to INBOX0 within 60s
-3. Commit: `git add 00-ORCHESTRATION/scripts/auto_ingest_loop.sh && git commit -m 'feat(orchestration): auto-retry transient failures + escalation to Sovereign'`
+3. Commit: `git add orchestration/scripts/auto_ingest_loop.sh && git commit -m 'feat(orchestration): auto-retry transient failures + escalation to Sovereign'`
 
 **Reply-To**: commander
 **CC**: commander

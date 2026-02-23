@@ -16,7 +16,7 @@
 
 ## Objective
 
-Goal: revive Ajna by switching away from Anthropic Max. Configure OpenClaw on the Mac mini to use OpenAI via OAuth (openai-codex) for agent runtime, keep OpenAI API key for embeddings if needed. Steps: (1) run: openclaw doctor --non-interactive; (2) openclaw configure (or openclaw auth/login for openai-codex oauth if available); ensure auth.profiles includes openai-codex:default mode oauth; (3) set agents.defaults.model.primary=openai-codex/gpt-5.2 (or other desired) and restart gateway; (4) verify with: openclaw gateway status; (5) run a test agent turn: openclaw agent --agent main --message 'Ajna is back' --timeout 60; (6) rearm watchers: bash 00-ORCHESTRATION/scripts/rearm_watchers.sh --mini; (7) report back with exact outputs + any blockers.
+Goal: revive Ajna by switching away from Anthropic Max. Configure OpenClaw on the Mac mini to use OpenAI via OAuth (openai-codex) for agent runtime, keep OpenAI API key for embeddings if needed. Steps: (1) run: openclaw doctor --non-interactive; (2) openclaw configure (or openclaw auth/login for openai-codex oauth if available); ensure auth.profiles includes openai-codex:default mode oauth; (3) set agents.defaults.model.primary=openai-codex/gpt-5.2 (or other desired) and restart gateway; (4) verify with: openclaw gateway status; (5) run a test agent turn: openclaw agent --agent main --message 'Ajna is back' --timeout 60; (6) rearm watchers: bash orchestration/scripts/rearm_watchers.sh --mini; (7) report back with exact outputs + any blockers.
 
 ---
 
@@ -25,8 +25,8 @@ Goal: revive Ajna by switching away from Anthropic Max. Configure OpenClaw on th
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

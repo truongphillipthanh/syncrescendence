@@ -24,7 +24,7 @@ Implement Phase 3 (Ledger) of the Agendizer Blitzkrieg: L2 Ledger depth layer wi
 
 Full execution brief with code scaffolds, gates, and step-by-step instructions:
 
-**`00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase3-adjudicator.md`**
+**`orchestration/state/impl/DISPATCH-20260207-agendizer-phase3-adjudicator.md`**
 
 ## Prior Gate Reviews
 

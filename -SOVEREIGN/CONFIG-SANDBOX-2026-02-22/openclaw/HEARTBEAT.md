@@ -6,7 +6,7 @@ Every 30 minutes during working hours (9am-11pm)
 ## Infrastructure Health Checks (MANDATORY)
 
 ### Tier 1: Constellation Health (every heartbeat)
-1. Read `00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md` — check all agent states
+1. Read `orchestration/state/DYN-CONSTELLATION_HEALTH.md` — check all agent states
 2. Check `-INBOX/ajna/00-INBOX0/` for TASK-*, CONFIRM-*, RESULT-* files
 3. Check git log for commits by other agents since last heartbeat
 4. Review ARCH-INTENTION_COMPASS.md for Sovereign intent signals

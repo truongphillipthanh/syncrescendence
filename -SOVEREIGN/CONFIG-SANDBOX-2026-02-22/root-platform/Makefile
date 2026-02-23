@@ -9,7 +9,7 @@ help:
 	@echo ""
 	@echo "  make verify         - Run all verification checks (Makefile)"
 	@echo "  make verify-full    - Run comprehensive verification suite"
-	@echo "  make lint           - Lint 02-ENGINE artifacts (frontmatter)"
+	@echo "  make lint           - Lint engine artifacts (frontmatter)"
 	@echo "  make triage         - Show pending packets across all pipes"
 	@echo "  make sync           - Pull, rebase, push"
 	@echo "  make update-ledgers - Validate and report ledger status"
@@ -58,15 +58,15 @@ verify:
 	@echo ""
 	@echo "=== Ledger Verification ==="
 	@echo -n "tasks.csv rows: "
-	@if [ -f 00-ORCHESTRATION/state/DYN-TASKS.csv ]; then wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv; else echo "Not found"; fi
+	@if [ -f orchestration/state/DYN-TASKS.csv ]; then wc -l < orchestration/state/DYN-TASKS.csv; else echo "Not found"; fi
 	@echo -n "projects.csv rows: "
-	@if [ -f 00-ORCHESTRATION/state/DYN-PROJECTS.csv ]; then wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv; else echo "Not found"; fi
+	@if [ -f orchestration/state/DYN-PROJECTS.csv ]; then wc -l < orchestration/state/DYN-PROJECTS.csv; else echo "Not found"; fi
 	@echo ""
 	@echo "=== Content Verification ==="
 	@echo -n "Processed sources: "
-	@ls 04-SOURCES/processed/*.md 2>/dev/null | wc -l || echo "0"
+	@ls sources/processed/*.md 2>/dev/null | wc -l || echo "0"
 	@echo -n "CANON with integrations: "
-	@grep -l "SOURCE-" 01-CANON/*.md 2>/dev/null | wc -l || echo "0"
+	@grep -l "SOURCE-" canon/*.md 2>/dev/null | wc -l || echo "0"
 	@echo ""
 	@echo "=== Git Status ==="
 	@git status --short
@@ -86,25 +86,25 @@ update-ledgers:
 	@echo "=== Ledger Status ==="
 	@echo ""
 	@echo "tasks.csv:"
-	@if [ -f 00-ORCHESTRATION/state/DYN-TASKS.csv ]; then \
-		head -1 00-ORCHESTRATION/state/DYN-TASKS.csv; \
-		echo "  Total rows: $$(wc -l < 00-ORCHESTRATION/state/DYN-TASKS.csv)"; \
-		echo "  Done: $$(grep -c ',done,' 00-ORCHESTRATION/state/DYN-TASKS.csv || echo 0)"; \
-		echo "  In Progress: $$(grep -c ',in_progress,' 00-ORCHESTRATION/state/DYN-TASKS.csv || echo 0)"; \
+	@if [ -f orchestration/state/DYN-TASKS.csv ]; then \
+		head -1 orchestration/state/DYN-TASKS.csv; \
+		echo "  Total rows: $$(wc -l < orchestration/state/DYN-TASKS.csv)"; \
+		echo "  Done: $$(grep -c ',done,' orchestration/state/DYN-TASKS.csv || echo 0)"; \
+		echo "  In Progress: $$(grep -c ',in_progress,' orchestration/state/DYN-TASKS.csv || echo 0)"; \
 	else echo "  (file not found)"; fi
 	@echo ""
 	@echo "projects.csv:"
-	@if [ -f 00-ORCHESTRATION/state/DYN-PROJECTS.csv ]; then \
-		head -1 00-ORCHESTRATION/state/DYN-PROJECTS.csv; \
-		echo "  Total rows: $$(wc -l < 00-ORCHESTRATION/state/DYN-PROJECTS.csv)"; \
-		echo "  Complete: $$(grep -c ',complete,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv || echo 0)"; \
-		echo "  In Progress: $$(grep -c ',in_progress,' 00-ORCHESTRATION/state/DYN-PROJECTS.csv || echo 0)"; \
+	@if [ -f orchestration/state/DYN-PROJECTS.csv ]; then \
+		head -1 orchestration/state/DYN-PROJECTS.csv; \
+		echo "  Total rows: $$(wc -l < orchestration/state/DYN-PROJECTS.csv)"; \
+		echo "  Complete: $$(grep -c ',complete,' orchestration/state/DYN-PROJECTS.csv || echo 0)"; \
+		echo "  In Progress: $$(grep -c ',in_progress,' orchestration/state/DYN-PROJECTS.csv || echo 0)"; \
 	else echo "  (file not found)"; fi
 	@echo ""
 	@echo "sources.csv:"
-	@if [ -f 04-SOURCES/DYN-SOURCES.csv ]; then \
-		echo "  Total rows: $$(wc -l < 04-SOURCES/DYN-SOURCES.csv)"; \
-		echo "  Processed: $$(grep -c ',processed,' 04-SOURCES/DYN-SOURCES.csv || echo 0)"; \
+	@if [ -f sources/DYN-SOURCES.csv ]; then \
+		echo "  Total rows: $$(wc -l < sources/DYN-SOURCES.csv)"; \
+		echo "  Processed: $$(grep -c ',processed,' sources/DYN-SOURCES.csv || echo 0)"; \
 	else \
 		echo "  (file not found)"; \
 	fi
@@ -128,15 +128,15 @@ clean:
 
 # Comprehensive verification (scripts)
 verify-full:
-	@bash 00-ORCHESTRATION/scripts/verify_all.sh
+	@bash orchestration/scripts/verify_all.sh
 
 # Lint operational artifacts
 lint:
-	@bash 00-ORCHESTRATION/scripts/ops_lint.sh
+	@bash orchestration/scripts/ops_lint.sh
 
 # Triage pending packets
 triage:
-	@bash 00-ORCHESTRATION/scripts/triage_outgoing.sh
+	@bash orchestration/scripts/triage_outgoing.sh
 
 # ============================================
 # HANDOFF TOKEN SYSTEM
@@ -227,35 +227,35 @@ sync-all: token
 
 # Build/rebuild ontology database from CANON-30300 schema + CSV ledgers
 ontology-build:
-	@python3 00-ORCHESTRATION/scripts/build_ontology_db.py
+	@python3 orchestration/scripts/build_ontology_db.py
 
 # Show ontology database statistics
 ontology-stats:
-	@python3 00-ORCHESTRATION/scripts/ontology_query.py stats
+	@python3 orchestration/scripts/ontology_query.py stats
 
 # Search ontology (usage: make ontology-query Q="markdown editor")
 ontology-query:
-	@python3 00-ORCHESTRATION/scripts/ontology_query.py search "$(Q)"
+	@python3 orchestration/scripts/ontology_query.py search "$(Q)"
 
 # Strategic dashboard (full operational overview)
 ontology-dashboard:
-	@python3 00-ORCHESTRATION/scripts/ontology_query.py dashboard
+	@python3 orchestration/scripts/ontology_query.py dashboard
 
 # Regenerate static Obsidian surface markdown from ontology.db
 ontology-surface:
-	@python3 00-ORCHESTRATION/scripts/gen_surface.py
+	@python3 orchestration/scripts/gen_surface.py
 
 # Run ontology acceptance tests (47 checks: schema, commands, coverage, duplicates, latency)
 ontology-verify:
-	@python3 00-ORCHESTRATION/scripts/ontology_verify.py
+	@python3 orchestration/scripts/ontology_verify.py
 
 # Weekly maintenance: stale detection, pricing flags, hot risks
 ontology-refresh:
-	@python3 00-ORCHESTRATION/scripts/ontology_maintain.py refresh
+	@python3 orchestration/scripts/ontology_maintain.py refresh
 
 # Monthly full audit: integrity, coverage gaps, strategic health
 ontology-audit:
-	@python3 00-ORCHESTRATION/scripts/ontology_maintain.py audit
+	@python3 orchestration/scripts/ontology_maintain.py audit
 
 # ============================================
 # INTELLIGENCE SYSTEM
@@ -263,24 +263,24 @@ ontology-audit:
 
 # Regenerate CANON files from templates + data
 regenerate-canon:
-	@python3 00-ORCHESTRATION/scripts/regenerate_canon.py --all
+	@python3 orchestration/scripts/regenerate_canon.py --all
 
 # Initialize model intelligence database
 model-db:
-	@python3 00-ORCHESTRATION/scripts/model_db.py init
+	@python3 orchestration/scripts/model_db.py init
 
 # Cost analysis
 model-cost:
-	@python3 00-ORCHESTRATION/scripts/model_db.py cost
+	@python3 orchestration/scripts/model_db.py cost
 
 # Task routing matrix
 model-routing:
-	@python3 00-ORCHESTRATION/scripts/model_db.py routing
+	@python3 orchestration/scripts/model_db.py routing
 
 # Custom SQL query (usage: make model-query SQL="SELECT * FROM models")
 SQL ?= SELECT name, context_window, input_price_per_m FROM models ORDER BY name
 model-query:
-	@python3 00-ORCHESTRATION/scripts/model_db.py query "$(SQL)"
+	@python3 orchestration/scripts/model_db.py query "$(SQL)"
 
 # Quick sync checkpoint (no file generation, just output)
 sync-checkpoint:

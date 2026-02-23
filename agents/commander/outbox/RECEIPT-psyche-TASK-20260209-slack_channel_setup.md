@@ -21,7 +21,7 @@
 
 ## Objective
 
-Execute CLARESCENCE-2026-02-09-slack-channel-architecture.md. Start with Phase 3 (configure @psyche on Mac mini once Sovereign provides tokens). Clarescence is at 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-09-slack-channel-architecture.md. Phase 1 (create channels) and Phase 2 (create @psyche Slack app) require Sovereign action in Slack admin — flag as Sovereign prerequisites. Also see TASK-20260209-slack-psyche-bot-config.md already in your inbox for the @psyche bot setup details.
+Execute CLARESCENCE-2026-02-09-slack-channel-architecture.md. Start with Phase 3 (configure @psyche on Mac mini once Sovereign provides tokens). Clarescence is at orchestration/state/impl/clarescence/CLARESCENCE-2026-02-09-slack-channel-architecture.md. Phase 1 (create channels) and Phase 2 (create @psyche Slack app) require Sovereign action in Slack admin — flag as Sovereign prerequisites. Also see TASK-20260209-slack-psyche-bot-config.md already in your inbox for the @psyche bot setup details.
 
 ---
 
@@ -30,8 +30,8 @@ Execute CLARESCENCE-2026-02-09-slack-channel-architecture.md. Start with Phase 3
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

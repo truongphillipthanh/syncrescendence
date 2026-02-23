@@ -53,8 +53,8 @@ No-op verification task for post-sync-bomb recovery. Auto-close on receipt.
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 
@@ -108,7 +108,7 @@ thinking
 
 Commit message will use allowed prefix "chore:" per constitutional rules, overriding task-specific "task:" prefix. Next, I’ll run the triage script, locate the task file with ripgrep, update status, write result file, update execution log and ledger script, then commit changes accordingly.
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/home/Desktop/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'bash orchestration/scripts/triage_inbox.sh adjudicator' in /Users/home/Desktop/syncrescendence succeeded in 52ms:
 === INBOX TRIAGE ===
 Time: 2026-02-19 22:15:46
 Stale threshold: 60 minutes
@@ -170,7 +170,7 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 thinking
 **Reviewing architecture intention document**
 exec
-/bin/zsh -lc "sed -n '1,200p' 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md" in /Users/home/Desktop/syncrescendence succeeded in 51ms:
+/bin/zsh -lc "sed -n '1,200p' orchestration/state/ARCH-INTENTION_COMPASS.md" in /Users/home/Desktop/syncrescendence succeeded in 51ms:
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
 **Last Updated**: 2026-02-19
@@ -363,7 +363,7 @@ thinking
 
 I'm crafting a concise result file for no-op verification that includes task info, agent, exit code, completion timestamp, and a clear message about auto-closing. Next, I'll prepare the execution log template in the staging area.
 exec
-/bin/zsh -lc "sed -n '1,200p' 02-ENGINE/TEMPLATE-EXECUTION_LOG.md" in /Users/home/Desktop/syncrescendence succeeded in 54ms:
+/bin/zsh -lc "sed -n '1,200p' engine/TEMPLATE-EXECUTION_LOG.md" in /Users/home/Desktop/syncrescendence succeeded in 54ms:
 # EXECUTION LOG: DIRECTIVE-[NNN][A|B]
 ## [Directive Title]
 
@@ -390,7 +390,7 @@ thinking
 
 I'm opening existing entries in DYN-EXECUTION_STAGING.md to verify its format and how it differs from the directive template in TEMPLATE-EXECUTION_LOG.md.
 exec
-/bin/zsh -lc 'tail -n 80 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md' in /Users/home/Desktop/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'tail -n 80 orchestration/state/DYN-EXECUTION_STAGING.md' in /Users/home/Desktop/syncrescendence succeeded in 53ms:
 # Execution Log Staging
 **Auto-managed by create_execution_log.sh**
 **Compacts into ARCH-EXECUTION_HISTORY.md when threshold reached**

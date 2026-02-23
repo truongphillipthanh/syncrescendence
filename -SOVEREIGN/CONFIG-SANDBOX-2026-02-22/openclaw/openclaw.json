@@ -68,12 +68,12 @@
         "extraPaths": [
           "/Users/system/Desktop/syncrescendence/COCKPIT.md",
           "/Users/system/Desktop/syncrescendence/CLAUDE.md",
-          "/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md",
-          "/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md",
-          "/Users/system/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-BACKLOG.md",
-          "/Users/system/Desktop/syncrescendence/02-ENGINE/REF-ROSETTA_STONE.md",
-          "/Users/system/Desktop/syncrescendence/02-ENGINE/REF-STACK_TELEOLOGY.md",
-          "/Users/system/Desktop/syncrescendence/02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md"
+          "/Users/system/Desktop/syncrescendence/orchestration/state/ARCH-INTENTION_COMPASS.md",
+          "/Users/system/Desktop/syncrescendence/orchestration/state/ARCH-CONSTELLATION_AGENT_LOOPS.md",
+          "/Users/system/Desktop/syncrescendence/orchestration/state/DYN-BACKLOG.md",
+          "/Users/system/Desktop/syncrescendence/engine/REF-ROSETTA_STONE.md",
+          "/Users/system/Desktop/syncrescendence/engine/REF-STACK_TELEOLOGY.md",
+          "/Users/system/Desktop/syncrescendence/engine/REF-FLEET_COMMANDERS_HANDBOOK.md"
         ],
         "provider": "openai",
         "remote": {

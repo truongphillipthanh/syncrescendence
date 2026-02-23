@@ -105,11 +105,11 @@ erification Plan
  Critical Files
 
  - ~/.syncrescendence/.env — credential store (key installation)
- - 00-ORCHESTRATION/state/IMPLEMENTATION-MAP.md — T2 tracker (bridge work)
- - 00-ORCHESTRATION/state/DYN-BACKLOG.md — project portfolio (status updates)
- - 00-ORCHESTRATION/state/ARCH-AUTOMATION_MASTER_PLAN.md — automation roadmap
- - 00-ORCHESTRATION/state/ARCH-LINEAR_SYNC_PROTOCOL.md — SYN-31 design reference
- - 00-ORCHESTRATION/scripts/dispatch.sh — agent dispatch system
+ - orchestration/state/IMPLEMENTATION-MAP.md — T2 tracker (bridge work)
+ - orchestration/state/DYN-BACKLOG.md — project portfolio (status updates)
+ - orchestration/state/ARCH-AUTOMATION_MASTER_PLAN.md — automation roadmap
+ - orchestration/state/ARCH-LINEAR_SYNC_PROTOCOL.md — SYN-31 design reference
+ - orchestration/scripts/dispatch.sh — agent dispatch system
  - ~/.claude.json — MCP server config (potential new servers)
  - ~/.local/share/graphiti/ — Graphiti MCP installation
  - ~/.syncrescendence/scripts/ — launchd script directory

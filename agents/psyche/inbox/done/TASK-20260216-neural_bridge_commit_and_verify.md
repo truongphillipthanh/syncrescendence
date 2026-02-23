@@ -30,19 +30,19 @@ Commit the uncommitted Neural Bridge hardening code, then run verification to pr
 
 ## Step 1: Commit the code changes
 The following files have uncommitted Neural Bridge code added by Commander:
-- `00-ORCHESTRATION/scripts/auto_ingest_loop.sh` — CONFIRM SCP-back code (routes CONFIRMs to remote agents via SSH)
-- `00-ORCHESTRATION/scripts/constellation_watchdog.sh` — SSH health check for Neural Bridge (probes macbook-air every 60s)
+- `orchestration/scripts/auto_ingest_loop.sh` — CONFIRM SCP-back code (routes CONFIRMs to remote agents via SSH)
+- `orchestration/scripts/constellation_watchdog.sh` — SSH health check for Neural Bridge (probes macbook-air every 60s)
 
 Run:
 ```bash
 cd ~/Desktop/syncrescendence
-git diff 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
-git diff 00-ORCHESTRATION/scripts/constellation_watchdog.sh
+git diff orchestration/scripts/auto_ingest_loop.sh
+git diff orchestration/scripts/constellation_watchdog.sh
 ```
 
 Review the diffs. If they look correct (SCP-back code in auto_ingest, SSH health check in watchdog), commit:
 ```bash
-git add 00-ORCHESTRATION/scripts/auto_ingest_loop.sh 00-ORCHESTRATION/scripts/constellation_watchdog.sh
+git add orchestration/scripts/auto_ingest_loop.sh orchestration/scripts/constellation_watchdog.sh
 git commit -m 'feat(bridge): CONFIRM SCP-back + watchdog SSH health check — Neural Bridge vital organ'
 ```
 
@@ -57,9 +57,9 @@ Run ALL of these verification commands and include their output in your RESULT:
 
 3. **SSH connectivity**: `ssh -o ConnectTimeout=5 macbook-air hostname` — Must return MBA hostname
 
-4. **auto_ingest SCP-back**: `grep -A10 'Neural Bridge: SCP CONFIRM' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_loop.sh` — Must show SCP code block
+4. **auto_ingest SCP-back**: `grep -A10 'Neural Bridge: SCP CONFIRM' ~/Desktop/syncrescendence/orchestration/scripts/auto_ingest_loop.sh` — Must show SCP code block
 
-5. **Watchdog SSH check**: `grep -A8 'Neural Bridge health check' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/constellation_watchdog.sh` — Must show SSH probe code
+5. **Watchdog SSH check**: `grep -A8 'Neural Bridge health check' ~/Desktop/syncrescendence/orchestration/scripts/constellation_watchdog.sh` — Must show SSH probe code
 
 6. **OpenClaw Neural Bridge**: `grep -c 'Neural Bridge' ~/.openclaw/SOUL.md ~/.openclaw/HEARTBEAT.md ~/.openclaw/MEMORY.md` — All three must have >0 matches
 
@@ -76,8 +76,8 @@ If ANY verification command fails or returns unexpected output, mark the task as
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

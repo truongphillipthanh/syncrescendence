@@ -33,16 +33,16 @@
 
   Included in commit:
 
-  - 00-ORCHESTRATION/scripts/watchdog.sh
-  - 00-ORCHESTRATION/scripts/rearm_watchers.sh
-  - 00-ORCHESTRATION/scripts/launchd/com.syncrescendence.watchdog.plist
-  - 00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watchdog.plist
-  - 00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watchdog.plist
+  - orchestration/scripts/watchdog.sh
+  - orchestration/scripts/rearm_watchers.sh
+  - orchestration/scripts/launchd/com.syncrescendence.watchdog.plist
+  - orchestration/scripts/launchd-mini/com.syncrescendence.watchdog.plist
+  - orchestration/scripts/launchd-psyche/com.syncrescendence.watchdog.plist
 
   Verification run before commit:
 
-  - bash -n passed for 00-ORCHESTRATION/scripts/watchdog.sh
-  - bash -n passed for 00-ORCHESTRATION/scripts/rearm_watchers.sh
+  - bash -n passed for orchestration/scripts/watchdog.sh
+  - bash -n passed for orchestration/scripts/rearm_watchers.sh
   - plutil -lint passed for all watchdog plist templates
   - Live watchdog pass from repo path showed Psyche + Adjudicator healthy and all health
     checks 200
@@ -50,11 +50,11 @@
   Not committed (left untouched, pre-existing runtime state churn):
 
   - .constellation/state/current.yaml
-  - 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
-  - 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
-  - 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
-  - 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
-  - 00-ORCHESTRATION/state/DYN-SESSION_LOG.md
+  - orchestration/state/DYN-EXECUTION_STAGING.md
+  - orchestration/state/DYN-GLOBAL_LEDGER.md
+  - orchestration/state/DYN-INTENTIONS_QUEUE.md
+  - orchestration/state/DYN-PEDIGREE_LOG.md
+  - orchestration/state/DYN-SESSION_LOG.md
 
   1. Push this commit now.
   2. Proceed to DA-12 execution with this hardened baseline.

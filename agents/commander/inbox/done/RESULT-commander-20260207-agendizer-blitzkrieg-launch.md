@@ -17,12 +17,12 @@ agent: commander-opus-4.6
 model_surface_used: claude-code
 proof_of_run: "6 state documents created, 1 adjudicator task dispatched"
 files_touched:
-  - 00-ORCHESTRATION/state/impl/EVIDENCE-LOCK-20260207-agendizer-clarescence2.md
-  - 00-ORCHESTRATION/state/impl/CAPABILITY-MATRIX-20260207-twin-swarm-routing.md
-  - 00-ORCHESTRATION/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
-  - 00-ORCHESTRATION/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md
-  - 00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase0-adjudicator.md
-  - 00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-architecture-commander.md
+  - orchestration/state/impl/EVIDENCE-LOCK-20260207-agendizer-clarescence2.md
+  - orchestration/state/impl/CAPABILITY-MATRIX-20260207-twin-swarm-routing.md
+  - orchestration/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md
+  - orchestration/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md
+  - orchestration/state/impl/DISPATCH-20260207-agendizer-phase0-adjudicator.md
+  - orchestration/state/impl/DISPATCH-20260207-agendizer-architecture-commander.md
   - -INBOX/adjudicator/00-INBOX0/TASK-20260207-agendizer-phase0-foundation.md
   - -INBOX/commander/00-INBOX0/RESULT-commander-20260207-agendizer-blitzkrieg-launch.md
 bench_or_test_outcome: "PASS — All 5 gates passed"

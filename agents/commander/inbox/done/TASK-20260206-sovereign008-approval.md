@@ -21,14 +21,14 @@ The Sovereign has ratified the CANON-31150 terminology update with the following
 5. **IMEP flow references** — Deprecated per Rosetta Stone #13. Remove.
 
 ### Execution Instructions
-1. Refer to canonical operational documents: `COCKPIT.md`, `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md`, `02-ENGINE/REF-ROSETTA_STONE.md`
-2. Run the regeneration: `python3 00-ORCHESTRATION/scripts/regenerate_canon.py` OR manual find/replace in both CANON-31150 files (verbose + SN)
-3. Verify no orphan references remain: `grep -r "Deviser\|IMEP" 01-CANON/`
+1. Refer to canonical operational documents: `COCKPIT.md`, `engine/DEF-CONSTELLATION_VARIABLES.md`, `engine/REF-ROSETTA_STONE.md`
+2. Run the regeneration: `python3 orchestration/scripts/regenerate_canon.py` OR manual find/replace in both CANON-31150 files (verbose + SN)
+3. Verify no orphan references remain: `grep -r "Deviser\|IMEP" canon/`
 4. Commit with: `fix: SOVEREIGN-008 approved — CANON-31150 terminology alignment`
 
 ### Context for Commander
 - Adjudicator (Codex CLI) uses `AGENTS.md` for initialization
-- Cartographer (Gemini CLI) uses `GEMINI.md` — but this file is in `02-ENGINE/`, not root. Consider whether a root-level `GEMINI.md` symlink or stub is needed for ergonomic initialization.
+- Cartographer (Gemini CLI) uses `GEMINI.md` — but this file is in `engine/`, not root. Consider whether a root-level `GEMINI.md` symlink or stub is needed for ergonomic initialization.
 - SOVEREIGN-010 is the next checkpoint: platform custom instruction deployment. Commander should note any initialization friction for the manifest.
 
 ---

@@ -57,7 +57,7 @@ Therefore, I am delivering the full contents of the report directly in this resp
 
 ## Introduction
 
-This report details the findings of a 5-pass deep sensing inspection of the 14 partitioned research notebook directories located at `04-SOURCES/research-notebooks/`. The objective was to reinforce Commander's research partitioning operation by verifying its accuracy, mapping its internal structure, assessing the quality of its contents, and identifying knowledge gaps.
+This report details the findings of a 5-pass deep sensing inspection of the 14 partitioned research notebook directories located at `sources/research-notebooks/`. The objective was to reinforce Commander's research partitioning operation by verifying its accuracy, mapping its internal structure, assessing the quality of its contents, and identifying knowledge gaps.
 
 ---
 

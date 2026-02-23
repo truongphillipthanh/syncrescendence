@@ -60,7 +60,7 @@ When Docker daemon is restored:
 
 **Result**: **ALREADY IMPLEMENTED** (no new implementation required).
 
-Evidence from `00-ORCHESTRATION/scripts/cockpit.sh`:
+Evidence from `orchestration/scripts/cockpit.sh`:
 - Usage advertises detached mode (`--launch-detached`) and no-attach semantics.
 - Flag handler sets:
   - `CMD_PSYCHE`: `openclaw tui --session main --thinking high`
@@ -99,7 +99,7 @@ Use **one LaunchAgent per local agent** with `RunAtLoad + KeepAlive`:
 - `com.syncrescendence.auto-ingest.cartographer`
 
 ProgramArguments per agent:
-`/bin/bash -l -c '/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_loop.sh <agent> /Users/home/Desktop/syncrescendence constellation <pane>'`
+`/bin/bash -l -c '/Users/home/Desktop/syncrescendence/orchestration/scripts/auto_ingest_loop.sh <agent> /Users/home/Desktop/syncrescendence constellation <pane>'`
 
 Pane map:
 - psyche → `1.1`
@@ -146,7 +146,7 @@ Then exec `auto_ingest_loop.sh`.
 1. Confirm critical agents loaded:
    - `launchctl list | rg 'com\.syncrescendence\.(watch|watchdog|docker-autostart|cockpit-autostart|auto-ingest)'`
 2. Confirm cockpit detached bootstrap works:
-   - `bash 00-ORCHESTRATION/scripts/cockpit.sh --launch-detached`
+   - `bash orchestration/scripts/cockpit.sh --launch-detached`
 3. Confirm baseline services:
    - `tmux list-windows -t constellation`
    - `docker info`
@@ -173,7 +173,7 @@ Then exec `auto_ingest_loop.sh`.
 4. Ingest loops:
    - `ps aux | rg 'auto_ingest_loop\.sh'`
 5. Health artifacts:
-   - `cat 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
+   - `cat orchestration/state/DYN-CONSTELLATION_HEALTH.md`
 
 ## Success criteria
 - Logged-in session available without human intervention (currently blocked by FileVault).

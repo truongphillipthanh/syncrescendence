@@ -23,7 +23,7 @@
 
 ## Objective
 
-Run infrastructure coherence audit: verify launchd plists match template copies in 00-ORCHESTRATION/scripts/launchd-mini/, check that watchdog is running and reporting, verify Docker container restart policies, confirm auto-ingest supervisor is active. Report any drift between deployed and template configurations.
+Run infrastructure coherence audit: verify launchd plists match template copies in orchestration/scripts/launchd-mini/, check that watchdog is running and reporting, verify Docker container restart policies, confirm auto-ingest supervisor is active. Report any drift between deployed and template configurations.
 
 ---
 
@@ -32,8 +32,8 @@ Run infrastructure coherence audit: verify launchd plists match template copies 
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

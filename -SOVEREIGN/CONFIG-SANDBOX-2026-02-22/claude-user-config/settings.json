@@ -14,19 +14,19 @@
           },
           {
             "type": "command",
-            "command": "cd /Users/system/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/running_log_capture.sh"
+            "command": "cd /Users/system/Desktop/syncrescendence && bash orchestration/scripts/running_log_capture.sh"
           },
           {
             "type": "command",
-            "command": "cd /Users/system/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/session_log.sh"
+            "command": "cd /Users/system/Desktop/syncrescendence && bash orchestration/scripts/session_log.sh"
           },
           {
             "type": "command",
-            "command": "cd /Users/system/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/ajna_pedigree.sh"
+            "command": "cd /Users/system/Desktop/syncrescendence && bash orchestration/scripts/ajna_pedigree.sh"
           },
           {
             "type": "command",
-            "command": "cd /Users/system/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/create_execution_log.sh"
+            "command": "cd /Users/system/Desktop/syncrescendence && bash orchestration/scripts/create_execution_log.sh"
           }
         ]
       }
@@ -37,7 +37,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd /Users/system/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/intent_compass.sh"
+            "command": "cd /Users/system/Desktop/syncrescendence && bash orchestration/scripts/intent_compass.sh"
           }
         ]
       }
@@ -48,7 +48,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd /Users/system/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/pre_compaction.sh"
+            "command": "cd /Users/system/Desktop/syncrescendence && bash orchestration/scripts/pre_compaction.sh"
           }
         ]
       }

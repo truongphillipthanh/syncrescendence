@@ -36,7 +36,7 @@ user
 
 ## Objective
 
-Validate current ontology DB state and prepare verification baseline. Run: python3 00-ORCHESTRATION/scripts/ontology_query.py stats > /tmp/ontology_pre_enrichment.txt 2>&1. Then run each strategic query: commitments, goals, risks, resources, verbs. Capture all output to /tmp/ontology_pre_enrichment.txt. This baseline will be compared against post-enrichment state.
+Validate current ontology DB state and prepare verification baseline. Run: python3 orchestration/scripts/ontology_query.py stats > /tmp/ontology_pre_enrichment.txt 2>&1. Then run each strategic query: commitments, goals, risks, resources, verbs. Capture all output to /tmp/ontology_pre_enrichment.txt. This baseline will be compared against post-enrichment state.
 
 ---
 
@@ -45,8 +45,8 @@ Validate current ontology DB state and prepare verification baseline. Run: pytho
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

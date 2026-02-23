@@ -17,11 +17,11 @@ Read these files first:
 - AGENTS.md (root)
 - GEMINI.md (root)
 - COCKPIT.md (root)
-- 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
-- 00-ORCHESTRATION/scripts/constellation_watchdog.sh
-- 00-ORCHESTRATION/launchd/com.syncrescendence.watchdog.plist
-- 00-ORCHESTRATION/scripts/cockpit.sh
-- 00-ORCHESTRATION/scripts/dispatch.sh
+- orchestration/scripts/auto_ingest_loop.sh
+- orchestration/scripts/constellation_watchdog.sh
+- orchestration/launchd/com.syncrescendence.watchdog.plist
+- orchestration/scripts/cockpit.sh
+- orchestration/scripts/dispatch.sh
 
 Then produce a RESULT file covering:
 

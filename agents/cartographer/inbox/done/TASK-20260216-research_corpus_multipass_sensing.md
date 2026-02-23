@@ -23,15 +23,15 @@
 
 ## Objective
 
-Execute a 5-pass deep sensing inspection of the 14 partitioned research notebook directories at 04-SOURCES/research-notebooks/. This reinforces Commander's research partitioning operation (SESSION 17, DA-RESEARCH-PARTITION-001).
+Execute a 5-pass deep sensing inspection of the 14 partitioned research notebook directories at sources/research-notebooks/. This reinforces Commander's research partitioning operation (SESSION 17, DA-RESEARCH-PARTITION-001).
 
 **CONTEXT**: Commander partitioned 267 research files into 14 NotebookLM-ready directories per RESEARCH-CORPUS-CHUNKING-TAXONOMY.md. 59 articles were deep-read yielding 46 insights. Your job is to SENSE what was missed, miscategorized, or undervalued.
 
 **REQUIRED READS**:
-- 04-SOURCES/research-notebooks/MANIFEST.md (partition inventory)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights)
-- 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record)
+- sources/research-notebooks/MANIFEST.md (partition inventory)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights)
+- orchestration/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record)
 
 **FIVE PASSES**:
 
@@ -54,8 +54,8 @@ Pass 5 (Gap Detection): Given the corpus's coverage, what critical topics are MI
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

@@ -16,8 +16,8 @@
 **Artifacts**
 - `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-git_lock_test.md`
 - `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md`
-- `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md`
-- `00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md`
+- `orchestration/state/DYN-EXECUTION_STAGING.md`
+- `orchestration/state/DYN-GLOBAL_LEDGER.md`
 
 **Notes**
 - Working tree was already dirty, so I did not commit.
@@ -71,8 +71,8 @@ Verify behavior under git index lock
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 
@@ -103,11 +103,11 @@ exec
 -OUTBOX
 -OUTGOING
 -SOVEREIGN
-00-ORCHESTRATION
-01-CANON
-02-ENGINE
-04-SOURCES
-05-SIGMA
+orchestration
+canon
+engine
+sources
+praxis
 AGENTS.md
 CLAUDE.md
 COCKPIT 2.md
@@ -123,7 +123,7 @@ skills
 thinking
 **Starting triage**
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'bash orchestration/scripts/triage_inbox.sh adjudicator' in /Users/system/syncrescendence succeeded in 52ms:
 === INBOX TRIAGE ===
 Time: 2026-02-16 19:22:51
 Stale threshold: 60 minutes
@@ -139,21 +139,21 @@ exec
  M -INBOX/adjudicator/auto_ingest.log
  M -INBOX/commander/auto_ingest.log
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/scripts/auto_ingest_all.sh
- M 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
- M 00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh
- M 00-ORCHESTRATION/scripts/constellation_watchdog.sh
- M 00-ORCHESTRATION/state/.watchdog_state
- M 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
- M 00-ORCHESTRATION/state/DYN-SESSION_LOG.md
+ M orchestration/scripts/auto_ingest_all.sh
+ M orchestration/scripts/auto_ingest_loop.sh
+ M orchestration/scripts/configure_auto_boot_recovery.sh
+ M orchestration/scripts/constellation_watchdog.sh
+ M orchestration/state/.watchdog_state
+ M orchestration/state/DYN-CONSTELLATION_HEALTH.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-INTENTIONS_QUEUE.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
+ M orchestration/state/DYN-SESSION_LOG.md
 ?? -INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
-?? 00-ORCHESTRATION/scripts/auto_ingest_supervisor.sh
-?? 00-ORCHESTRATION/scripts/ensure_docker_desktop.sh
-?? 00-ORCHESTRATION/scripts/launch_cockpit_when_docker_ready.sh
+?? orchestration/scripts/auto_ingest_supervisor.sh
+?? orchestration/scripts/ensure_docker_desktop.sh
+?? orchestration/scripts/launch_cockpit_when_docker_ready.sh
 
 thinking
 **Noting extensive changes and plan to read key docs**
@@ -182,7 +182,7 @@ Syncrescendence is a distributed cognition system designed to demonstrate that i
 
 ### Three Accounts
 exec
-/bin/zsh -lc "sed -n '1,200p' 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md" in /Users/system/syncrescendence succeeded in 50ms:
+/bin/zsh -lc "sed -n '1,200p' orchestration/state/ARCH-INTENTION_COMPASS.md" in /Users/system/syncrescendence succeeded in 50ms:
 # INTENTION ARCHAEOLOGY COMPASS
 ## Oracle Pedigree Extraction Instrument
 **Last Updated**: 2026-02-09
@@ -214,7 +214,7 @@ thinking
 
 Acknowledged that only our changes will be committed while leaving existing modifications untouched, complying with protocol. Next, I'll produce the execution log following the provided template.
 exec
-/bin/zsh -lc "sed -n '1,200p' 02-ENGINE/TEMPLATE-EXECUTION_LOG.md" in /Users/system/syncrescendence succeeded in 51ms:
+/bin/zsh -lc "sed -n '1,200p' engine/TEMPLATE-EXECUTION_LOG.md" in /Users/system/syncrescendence succeeded in 51ms:
 # EXECUTION LOG: DIRECTIVE-[NNN][A|B]
 ## [Directive Title]
 
@@ -241,7 +241,7 @@ thinking
 
 I'll review the current contents and format of DYN-EXECUTION_STAGING to ensure the new execution log matches the protocol template.
 exec
-/bin/zsh -lc "sed -n '1,200p' 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md" in /Users/system/syncrescendence succeeded in 53ms:
+/bin/zsh -lc "sed -n '1,200p' orchestration/state/DYN-EXECUTION_STAGING.md" in /Users/system/syncrescendence succeeded in 53ms:
 # Execution Log Staging
 **Auto-managed by create_execution_log.sh**
 **Compacts into ARCH-EXECUTION_HISTORY.md when threshold reached**
@@ -310,16 +310,16 @@ exec
  M -INBOX/psyche/.auto_ingest.lock
  M -INBOX/psyche/auto_ingest.log
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/scripts/auto_ingest_all.sh
- M 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
- M 00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh
- M 00-ORCHESTRATION/scripts/constellation_watchdog.sh
- M 00-ORCHESTRATION/state/.watchdog_state
- M 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
+ M orchestration/scripts/auto_ingest_all.sh
+ M orchestration/scripts/auto_ingest_loop.sh
+ M orchestration/scripts/configure_auto_boot_recovery.sh
+ M orchestration/scripts/constellation_watchdog.sh
+ M orchestration/state/.watchdog_state
+ M orchestration/state/DYN-CONSTELLATION_HEALTH.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-INTENTIONS_QUEUE.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
 
 thinking
 **Removing lock file after confirming status**
@@ -544,7 +544,7 @@ thinking
 
 Planning to log a success entry with 0 commits and 3 changed files after adjusting the execution staging file, including result creation, task update, and cleanup details.
 exec
-/bin/zsh -lc "cat <<'EOF' >> 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
+/bin/zsh -lc "cat <<'EOF' >> orchestration/state/DYN-EXECUTION_STAGING.md
 
 ### TASK-20260216-git_lock_test | 2026-02-16 19:23
 - **Branch**: main | **Fingerprint**: 68aab69
@@ -581,7 +581,7 @@ index c2c27dcdee016bf8b3d99ea3bf695addaa09261f..9a55f6b8f15193e13a5742f3a7f81aae
 thinking
 **Running ledger append script**
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/append_ledger.sh COMPLETE adjudicator dispatch TASK-20260216-git_lock_test' in /Users/system/syncrescendence succeeded in 53ms:
+/bin/zsh -lc 'bash orchestration/scripts/append_ledger.sh COMPLETE adjudicator dispatch TASK-20260216-git_lock_test' in /Users/system/syncrescendence succeeded in 53ms:
 [Ledger] COMPLETE: adjudicator → dispatch (TASK-20260216-git_lock_test)
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
@@ -764,7 +764,7 @@ thinking
 
 I'm planning to update the dynamic execution staging ledger next and will display a sample to confirm the new entry is appended correctly.
 exec
-/bin/zsh -lc 'tail -n 30 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md' in /Users/system/syncrescendence succeeded in 52ms:
+/bin/zsh -lc 'tail -n 30 orchestration/state/DYN-EXECUTION_STAGING.md' in /Users/system/syncrescendence succeeded in 52ms:
 ### SESSION-20260216-1850 | 2026-02-16 18:50
 - **Branch**: main | **Fingerprint**: d458b8e
 - **Outcome**: SUCCESS
@@ -825,16 +825,16 @@ exec
  M -INBOX/psyche/.auto_ingest.lock
  M -INBOX/psyche/auto_ingest.log
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/scripts/auto_ingest_all.sh
- M 00-ORCHESTRATION/scripts/auto_ingest_loop.sh
- M 00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh
- M 00-ORCHESTRATION/scripts/constellation_watchdog.sh
- M 00-ORCHESTRATION/state/.watchdog_state
- M 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
+ M orchestration/scripts/auto_ingest_all.sh
+ M orchestration/scripts/auto_ingest_loop.sh
+ M orchestration/scripts/configure_auto_boot_recovery.sh
+ M orchestration/scripts/constellation_watchdog.sh
+ M orchestration/state/.watchdog_state
+ M orchestration/state/DYN-CONSTELLATION_HEALTH.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-INTENTIONS_QUEUE.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
 file update:
 diff --git a/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md b/-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md
 index c2c27dcdee016bf8b3d99ea3bf695addaa09261f..9a55f6b8f15193e13a5742f3a7f81aae51319a66
@@ -876,8 +876,8 @@ codex
 **Artifacts**
 - `-OUTBOX/adjudicator/RESULTS/RESULT-adjudicator-20260216-git_lock_test.md`
 - `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260216-git_lock_test.md`
-- `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md`
-- `00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md`
+- `orchestration/state/DYN-EXECUTION_STAGING.md`
+- `orchestration/state/DYN-GLOBAL_LEDGER.md`
 
 **Notes**
 - Working tree was already dirty, so I did not commit.

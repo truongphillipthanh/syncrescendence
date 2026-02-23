@@ -28,12 +28,12 @@ Perform architectural verification and adversarial audit of the research partiti
 **CONTEXT**: Commander executed a 4-lane parallel swarm to partition 267 research files into 14 notebooks, extract 46 insights (28 VERY HIGH + 18 HIGH), write a 780-line pipeline automation spec, and inject 12 intent vectors + 46 backlog items. The operation clarescence scored 18/18 lenses. Your job is to CHALLENGE everything.
 
 **REQUIRED READS**:
-- 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record with DA-RESEARCH-PARTITION-001)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights with IMPL candidates)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights with IMPL candidates)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (11-step pipeline, 21 automation candidates)
-- 00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md — Tranche Q (IMPL-Q-0001-Q-0025) + Tranche P (IMPL-P-0001-P-0021)
-- 04-SOURCES/research-notebooks/MANIFEST.md
+- orchestration/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record with DA-RESEARCH-PARTITION-001)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights with IMPL candidates)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights with IMPL candidates)
+- orchestration/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (11-step pipeline, 21 automation candidates)
+- orchestration/state/IMPLEMENTATION-BACKLOG.md — Tranche Q (IMPL-Q-0001-Q-0025) + Tranche P (IMPL-P-0001-P-0021)
+- sources/research-notebooks/MANIFEST.md
 
 **VERIFICATION DIMENSIONS**:
 
@@ -64,8 +64,8 @@ Perform architectural verification and adversarial audit of the research partiti
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

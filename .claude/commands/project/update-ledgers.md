@@ -18,11 +18,11 @@ Update: $ARGUMENTS
 8. **Confirm**: Report changes made
 
 ## Supported Ledgers
-- `00-ORCHESTRATION/state/tasks.csv`
-- `00-ORCHESTRATION/state/projects.csv`
-- `00-ORCHESTRATION/state/sprints.csv`
-- `00-ORCHESTRATION/state/burndown.csv`
-- `04-SOURCES/sources.csv`
+- `orchestration/state/tasks.csv`
+- `orchestration/state/projects.csv`
+- `orchestration/state/sprints.csv`
+- `orchestration/state/burndown.csv`
+- `sources/sources.csv`
 
 ## Required Columns
 - tasks.csv: id, project_id, name, type, status, priority, owner

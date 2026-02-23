@@ -8,11 +8,11 @@ allowed-tools: Read, Write, Edit, Bash(python:*), Bash(grep:*), Glob
 Process: $ARGUMENTS
 
 ## Workflow
-1. **Locate**: Find in 04-SOURCES/raw/ using the provided identifier
+1. **Locate**: Find in sources/raw/ using the provided identifier
 2. **Read**: Extract full content and metadata
 3. **Analyze**: Identify key themes, claims, relevance to chains
 4. **Generate**: Create qualified brief with frontmatter
-5. **Write**: Save to 04-SOURCES/processed/ with correct naming
+5. **Write**: Save to sources/processed/ with correct naming
 6. **Update**: Add entry to sources.csv (status: processed, date_processed: today)
 7. **Verify**: Confirm file exists and CSV updated
 
@@ -37,6 +37,6 @@ status: processed
 ```
 
 ## Output
-- Processed file in 04-SOURCES/processed/
+- Processed file in sources/processed/
 - Updated sources.csv entry
 - Verification confirmation

@@ -33,10 +33,10 @@ Psyche box is now confirmed working:
 Canonical repo docs to include:
 - `~/Desktop/syncrescendence/COCKPIT.md`
 - `~/Desktop/syncrescendence/CLAUDE.md`
-- `~/Desktop/syncrescendence/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md`
-- `~/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-BACKLOG.md`
-- `~/Desktop/syncrescendence/02-ENGINE/REF-ROSETTA_STONE.md`
-- `~/Desktop/syncrescendence/02-ENGINE/REF-STACK_TELEOLOGY.md`
+- `~/Desktop/syncrescendence/orchestration/state/ARCH-INTENTION_COMPASS.md`
+- `~/Desktop/syncrescendence/orchestration/state/DYN-BACKLOG.md`
+- `~/Desktop/syncrescendence/engine/REF-ROSETTA_STONE.md`
+- `~/Desktop/syncrescendence/engine/REF-STACK_TELEOLOGY.md`
 
 OpenAI API key is available to Phillip; do **not** commit it anywhere in git.
 

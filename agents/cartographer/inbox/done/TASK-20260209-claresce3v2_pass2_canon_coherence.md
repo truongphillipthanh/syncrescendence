@@ -21,7 +21,7 @@
 
 ## Objective
 
-Canon coherence: read all 79 CANON files in 01-CANON/, map conceptual dependencies, identify contradictions/drift, classify maturity per file (theoretical/developing/canonical/premier), identify knowledge gaps. Exclude sn/ subdirectory. Output as structured table with columns: CANON-ID, Title, Maturity, Dependencies, Contradictions, Notes.
+Canon coherence: read all 79 CANON files in canon/, map conceptual dependencies, identify contradictions/drift, classify maturity per file (theoretical/developing/canonical/premier), identify knowledge gaps. Exclude sn/ subdirectory. Output as structured table with columns: CANON-ID, Title, Maturity, Dependencies, Contradictions, Notes.
 
 ---
 
@@ -30,8 +30,8 @@ Canon coherence: read all 79 CANON files in 01-CANON/, map conceptual dependenci
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

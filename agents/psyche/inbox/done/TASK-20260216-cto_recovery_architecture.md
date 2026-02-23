@@ -18,7 +18,7 @@ CTO RESILIENCE ARCHITECTURE: The Sovereign will physically unplug the Mac mini. 
 ### Context
 
 Commander has already:
-1. Written `00-ORCHESTRATION/scripts/configure_auto_boot_recovery.sh` — configures auto-boot, launchd agents, Docker fallback, tmux-continuum
+1. Written `orchestration/scripts/configure_auto_boot_recovery.sh` — configures auto-boot, launchd agents, Docker fallback, tmux-continuum
 2. Identified the critical gap: cockpit.sh needs a `--launch-detached` mode
 3. Identified the FileVault blocker: if enabled, manual password required on boot
 
@@ -31,7 +31,7 @@ Commander has already:
    - Verify containers come back after Docker daemon restart
 
 2. **cockpit.sh --launch-detached Implementation**:
-   - Read current `00-ORCHESTRATION/scripts/cockpit.sh`
+   - Read current `orchestration/scripts/cockpit.sh`
    - Implement a `--launch-detached` flag that:
      a. Creates the `constellation` tmux session (if not exists)
      b. Creates all 8 panes with correct layout

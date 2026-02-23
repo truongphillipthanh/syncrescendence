@@ -46,7 +46,7 @@ Observed consistent and non-empty strategic/kinetic surfaces:
 
 ## Artifact Updated
 
-- Regenerated: `00-ORCHESTRATION/state/SURFACE-ONTOLOGY_DASHBOARD.md`
+- Regenerated: `orchestration/state/SURFACE-ONTOLOGY_DASHBOARD.md`
 
 ## Recommended Next QC Step (optional)
 

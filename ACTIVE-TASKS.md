@@ -7,7 +7,7 @@
 
 **P1 (Active)**
 - [ ] INT-2209: Populate 12 DYN-LEDGER files from Grok sensing output
-- [ ] INT-2210: Mine 04-SOURCES/research-notebooks/ for operational wisdom → SIGMA
+- [ ] INT-2210: Mine sources/research-notebooks/ for operational wisdom → SIGMA
 - [ ] INT-2211: Chat↔CLI bridge synapticalization (per ARCH-LIVE_LEDGER.md bridge strategy)
 - [ ] Community survey B1/B2/B3
 
@@ -16,7 +16,7 @@
 - [ ] SURFACE-LIVE_LEDGER.md dashboard for Sovereign quick review
 - [ ] Convergence coverage push from 12% → 25%+
 - [ ] launchd plists updated on Mac mini for new ~/syncrescendence path
-- [ ] State relocations (REF files → 02-ENGINE, ARCH files compaction)
+- [ ] State relocations (REF files → engine, ARCH files compaction)
 
 **Blocked**
 - [ ] Automated Grok→repo pipeline (requires platform API or relay)
@@ -36,7 +36,7 @@
 - [x] Config decomposition: AGENTS.md + 3 EXT files + make configs
 - [x] Oracle consensus on all architecture questions
 - [x] Google Drive uninstalled, iCloud identified, repo cloned to ~/syncrescendence
-- [x] 00-ORCHESTRATION triage (363 files, 4 logs compacted)
+- [x] orchestration triage (363 files, 4 logs compacted)
 - [x] OpenClaw SOUL.md updated with OPERATIONAL.md reference
 - [x] Desktop symlink: ~/Desktop/syncrescendence → ~/syncrescendence
 

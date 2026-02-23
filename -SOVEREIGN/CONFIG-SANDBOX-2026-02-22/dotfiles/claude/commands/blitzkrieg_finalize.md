@@ -358,7 +358,7 @@ Generates in the blitzkrieg bundle:
 
 ## See Also
 
-- `00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md` — Full protocol documentation
+- `orchestration/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md` — Full protocol documentation
 - `/project:blitzkrieg_issue` — Create bundle skeleton
 - `/project:deviser_reint` — Session continuity export
 - `audizer.md` — TTS transcoding protocol

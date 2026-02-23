@@ -31,14 +31,14 @@ Previous session (Session 20a) produced 4 digests but CANON indexer failed at 26
 | canon-31 | `ANNEAL-DIGEST-CANON-31.md` | 236 | CANON-31000–31999 (26 files) |
 | canon-32-35 | `ANNEAL-DIGEST-CANON-32-35.md` | 387 | CANON-32000–35999 (20 files) |
 
-All at: `00-ORCHESTRATION/state/impl/.scratch/`
+All at: `orchestration/state/impl/.scratch/`
 
 Note: canon-30+31 combined (56 files) overflowed Sonnet's context. Had to split into two separate agents.
 
 ### Phase 2: Convergence Synthesis
 One Sonnet agent read ALL inputs and produced the final document:
 
-**Output**: `00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md`
+**Output**: `orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md`
 - 765 lines, 50KB
 - Committed as `bb0446d`
 
@@ -137,19 +137,19 @@ The convergence agent flagged ~25 ontological terms resolved in clarescences but
 
 | File | Path |
 |------|------|
-| V2 output | `00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md` |
-| V1 (superseded) | `00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v1.md` |
-| Canon digests | `00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-CANON-*.md` |
-| Other digests | `00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-{GAPS,METACHAR,SCAFFOLD}.md` |
-| Clarescence digest | `00-ORCHESTRATION/state/impl/clarescence/.scratch/ANNEAL-DIGEST-CLARESCENCE.md` |
+| V2 output | `orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md` |
+| V1 (superseded) | `orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v1.md` |
+| Canon digests | `orchestration/state/impl/.scratch/ANNEAL-DIGEST-CANON-*.md` |
+| Other digests | `orchestration/state/impl/.scratch/ANNEAL-DIGEST-{GAPS,METACHAR,SCAFFOLD}.md` |
+| Clarescence digest | `orchestration/state/impl/clarescence/.scratch/ANNEAL-DIGEST-CLARESCENCE.md` |
 | Task file (this) | `-INBOX/commander/00-INBOX0/TASK-20260217-annealment_v2_verification_reinit.md` |
 | Context engineering | `~/.claude/projects/-Users-home/memory/context-engineering.md` |
 | Inbox metachar 1 | `-INBOX/commander/new_ontology_metacharacterization/` |
 | Inbox metachar 2 | `-INBOX/commander/new_ontology_metacharacterization_2/` |
 | Convergence docs | `-INBOX/commander/syncrescendence_convergence.md` (DELETED from inbox post-commit — content in v2) |
 | Convergence aligned | `-INBOX/commander/syncrescendent_convergence_aligned.md` (DELETED from inbox post-commit — content in v2) |
-| Rosetta Stone | `02-ENGINE/REF-ROSETTA_STONE.md` |
-| Deferred Commitments | `00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` |
+| Rosetta Stone | `engine/REF-ROSETTA_STONE.md` |
+| Deferred Commitments | `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` |
 
 ---
 

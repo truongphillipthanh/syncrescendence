@@ -23,7 +23,7 @@
 
 ## Objective
 
-Confirm you can read this repo by running: (1) list the top-level directories, (2) count total .md files in 00-ORCHESTRATION/state/, (3) report the first 3 lines of CLAUDE.md. Output your findings concisely.
+Confirm you can read this repo by running: (1) list the top-level directories, (2) count total .md files in orchestration/state/, (3) report the first 3 lines of CLAUDE.md. Output your findings concisely.
 
 ---
 
@@ -32,8 +32,8 @@ Confirm you can read this repo by running: (1) list the top-level directories, (
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

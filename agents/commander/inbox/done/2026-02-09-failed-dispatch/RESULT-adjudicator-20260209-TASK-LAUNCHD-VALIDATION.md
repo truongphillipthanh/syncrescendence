@@ -64,7 +64,7 @@ Three new launchd services have been created. Validate, bootstrap, and test them
 4. Clean up test TASK file
 
 ### For corpus-health:
-1. Run manually: `python3 00-ORCHESTRATION/scripts/corpus_health_check.py`
+1. Run manually: `python3 orchestration/scripts/corpus_health_check.py`
 2. Verify DYN-CORPUS_HEALTH.md created/updated
 3. Verify terminal-notifier fires on STALE findings
 
@@ -76,9 +76,9 @@ Include: Test results for each service, any errors found, fixes applied, final s
 
 ## Context Files
 - `~/Library/LaunchAgents/com.syncrescendence.*.plist` (all plists)
-- `00-ORCHESTRATION/scripts/chroma_server.py`
-- `00-ORCHESTRATION/scripts/webhook_receiver.py`
-- `00-ORCHESTRATION/scripts/corpus_health_check.py`
+- `orchestration/scripts/chroma_server.py`
+- `orchestration/scripts/webhook_receiver.py`
+- `orchestration/scripts/corpus_health_check.py`
 
 **Reply-To**: commander
 **CC**: commander

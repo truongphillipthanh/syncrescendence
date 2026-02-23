@@ -9,9 +9,9 @@
 
 ## Objective
 Create a cron-ready refresh script that scans frontier AI model releases and updates:
-1. `02-ENGINE/MODEL-INDEX.md` — model capabilities, pricing, context windows
-2. `02-ENGINE/DYN-PLATFORMS.csv` — platform status changes
-3. `02-ENGINE/SURVEY-AI_ECOSYSTEM_SURVEY.md` — ecosystem landscape
+1. `engine/MODEL-INDEX.md` — model capabilities, pricing, context windows
+2. `engine/DYN-PLATFORMS.csv` — platform status changes
+3. `engine/SURVEY-AI_ECOSYSTEM_SURVEY.md` — ecosystem landscape
 
 ## Approach
 1. Web search for latest model releases from: Anthropic, OpenAI, Google, Meta, Mistral, Alibaba
@@ -23,7 +23,7 @@ Create a cron-ready refresh script that scans frontier AI model releases and upd
 ## Deliverables
 - [x] Updated MODEL-INDEX with current data
 - [x] Diff summary of what changed (See EXECUTION_LOG)
-- [x] Script template (bash) for future automated runs (See 00-ORCHESTRATION/scripts/corpus-survey.sh)
+- [x] Script template (bash) for future automated runs (See orchestration/scripts/corpus-survey.sh)
 - [x] `last_verified` timestamps on all entries
 
 ## Context

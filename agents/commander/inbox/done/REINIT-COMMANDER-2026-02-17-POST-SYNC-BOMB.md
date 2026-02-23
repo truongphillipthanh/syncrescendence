@@ -41,7 +41,7 @@ MBA's `git_sync.sh` committed mass deletions of 1070+ files. Root cause was thre
 - Proper error handling on fetch/rebase/merge
 
 ### 2. Primary Repo Restored from Pre-Bomb Commit 0a604dd
-- 1103 files, 303,983 lines restored (including 98 research files in 04-SOURCES/research/)
+- 1103 files, 303,983 lines restored (including 98 research files in sources/research/)
 - All CANON, ENGINE, ORCHESTRATION, SOURCES content recovered
 
 ### 3. Hardened Orchestration Scripts Merged (from adjudicator fork)
@@ -131,7 +131,7 @@ Only AFTER Google Drive exclusion is confirmed.
 
 ### Priority 4: Verify end-to-end
 ```bash
-bash 00-ORCHESTRATION/scripts/verify_all.sh
+bash orchestration/scripts/verify_all.sh
 ```
 
 ---
@@ -158,7 +158,7 @@ bash 00-ORCHESTRATION/scripts/verify_all.sh
 ---
 
 ## Reference Documents
-- Kaizen autopsy: `00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-17-autonomous-orchestration-kaizen-autopsy.md`
-- Hardened arch spec: `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION_HARDENED.md`
-- Agent loops: `00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md`
+- Kaizen autopsy: `orchestration/state/impl/clarescence/CLARESCENCE-2026-02-17-autonomous-orchestration-kaizen-autopsy.md`
+- Hardened arch spec: `orchestration/state/ARCH-AUTONOMOUS_ORCHESTRATION_HARDENED.md`
+- Agent loops: `orchestration/state/ARCH-CONSTELLATION_AGENT_LOOPS.md`
 - Running logs: `/Users/system/Desktop/desktop/running_logs/` (note: extra `desktop/`)

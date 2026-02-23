@@ -28,11 +28,11 @@ Commander dispatch — LOAD BALANCING from rate-limited Psyche. Audit the cohere
 **YOUR ROLE**: Systematic coherence auditor. Read the files below and stress-test the entire insight→intent→backlog chain.
 
 **REQUIRED READS** (all paths relative to repo root):
-1. 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights)
-2. 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights)
-3. 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (780 lines, 11-step pipeline)
-4. 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md — SESSION 17 (INT-1701 through INT-1712) and SESSION 18 (INT-1801 through INT-1804)
-5. 00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md — Tranche Q (IMPL-Q-0001 through Q-0025) and Tranche P (IMPL-P-0001 through P-0021)
+1. orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights)
+2. orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights)
+3. orchestration/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (780 lines, 11-step pipeline)
+4. orchestration/state/ARCH-INTENTION_COMPASS.md — SESSION 17 (INT-1701 through INT-1712) and SESSION 18 (INT-1801 through INT-1804)
+5. orchestration/state/IMPLEMENTATION-BACKLOG.md — Tranche Q (IMPL-Q-0001 through Q-0025) and Tranche P (IMPL-P-0001 through P-0021)
 
 **AUDIT DIMENSIONS**:
 
@@ -55,8 +55,8 @@ E. MISSING LINKS: Find overlooked automation candidates in the pipeline spec. Cr
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

@@ -23,7 +23,7 @@
 ### Constellation Watchdog (OPERATIONAL)
 - `constellation_watchdog.sh` runs as launchd daemon on Mac mini (60s cycle)
 - Monitors 4 tmux panes: Psyche (1.1), Commander (1.3), Adjudicator (1.5), Cartographer (1.7)
-- Writes health to `00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
+- Writes health to `orchestration/state/DYN-CONSTELLATION_HEALTH.md`
 - States: HEALTHY | IDLE | RATE_LIMITED | STALE | ERROR
 - Uses login shell (`bash -l -c`) for tmux socket access from launchd context
 

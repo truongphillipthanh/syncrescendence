@@ -9,7 +9,7 @@
 
 ## Objective
 
-Create `00-ORCHESTRATION/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.
+Create `orchestration/state/ARCH-AUTONOMOUS_ORCHESTRATION.md` documenting the full autonomous orchestration system being built right now. This is the architecture document for how the constellation self-heals, self-dispatches, and self-coordinates.
 
 Research the current scripts to understand the system, then document:
 

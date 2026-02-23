@@ -32,14 +32,14 @@ This file is loaded at session start. Additional context is loaded on-demand:
 Context degrades before capacity. Quality drops at ~75% of context window, not at 100%.
 - Use `/compact` proactively — do not wait for the warning
 - Persist working state to filesystem before compaction
-- Reference 05-SIGMA files via `@` mentions for on-demand loading rather than front-loading
+- Reference praxis files via `@` mentions for on-demand loading rather than front-loading
 
 ---
 
 ## Processing Patterns
-- Source intake: `@00-ORCHESTRATION/state/REF-PROCESSING_PATTERN.md`
-- Ledger updates: `@00-ORCHESTRATION/state/REF-STANDARDS.md`
-- Blitzkrieg parallel execution: `@00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md`
+- Source intake: `@orchestration/state/REF-PROCESSING_PATTERN.md`
+- Ledger updates: `@orchestration/state/REF-STANDARDS.md`
+- Blitzkrieg parallel execution: `@orchestration/state/REF-NEO_BLITZKRIEG_BUILDOUT.md`
 - Verification: Run before ANY completion claim
 
 ---
@@ -64,24 +64,24 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 *Fires at the start of every non-trivial directive.*
 
 1. **Inbox scan**: Check `agents/commander/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
-1b. **Deferred commitments check**: Read `00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` — identify any OPEN items that overlap with current directive. Update status for items being addressed this session.
+1b. **Deferred commitments check**: Read `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — identify any OPEN items that overlap with current directive. Update status for items being addressed this session.
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
-3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `README.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
+3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `README.md` + read `orchestration/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
 4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
 5. **Delegation assessment**: Identify tasks suitable for parallel agents:
    - Mechanical execution, test suites, debugging, formatting, linting → dispatch to Adjudicator (`agents/adjudicator/inbox/`)
    - Corpus surveys requiring 1M+ context → dispatch to Cartographer (`agents/cartographer/inbox/`)
-   - Use `bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"` — dispatch.sh auto-injects Reply-To + CC for bidirectional feedback
+   - Use `bash orchestration/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"` — dispatch.sh auto-injects Reply-To + CC for bidirectional feedback
    - If writing TASK files manually, you MUST include `**Reply-To**: commander` and `**CC**: commander`
 
 ### B. Directive Completion Protocol
 *Fires at the end of every directive, BEFORE the automated Stop hooks run.*
 
-1. **Produce rich execution log** in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md` (follow format in `02-ENGINE/TEMPLATE-EXECUTION_LOG.md`):
+1. **Produce rich execution log** in `orchestration/state/DYN-EXECUTION_STAGING.md` (follow format in `engine/TEMPLATE-EXECUTION_LOG.md`):
    - Header: `### DIRECTIVE-ID | YYYY-MM-DD HH:MM`
    - Metadata: Branch, Fingerprint, Outcome (SUCCESS/PARTIAL/FAILED), Commits count, Changes summary, Agent, Session span
    - Body: Directives executed (source task, outcome, artifacts created/modified, verification, IntentionLink), Decisions made with rationale, Commit log table
-   - Logs auto-compact into `00-ORCHESTRATION/archive/ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
+   - Logs auto-compact into `orchestration/archive/ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
 2. **Supplementary to automation**: The `create_execution_log.sh` Stop hook captures git metrics independently. This behavioral log adds the semantic content the script cannot infer.
 3. **Verify before closing**: Run `git status` — ensure no uncommitted work. If artifacts remain unstaged, commit them before the directive ends.
 

@@ -9,9 +9,9 @@
 Executed high-fidelity refresh of the frontier AI model intelligence ledger. Verified the major OpenAI retirement wave occurring today (Feb 13, 2026) and updated the repository to reflect current state.
 
 ## Artifacts Created/Modified
-- **Updated**: `02-ENGINE/MODEL-INDEX.md` (Added Sonnet 5, updated DeepSeek V4)
-- **Updated**: `02-ENGINE/SURVEY-AI_ECOSYSTEM_SURVEY.md` (Added Sonnet 5, updated Chinese frontier)
-- **Created**: `00-ORCHESTRATION/scripts/trigger-model-refresh.sh` (Cron-ready dispatch script)
+- **Updated**: `engine/MODEL-INDEX.md` (Added Sonnet 5, updated DeepSeek V4)
+- **Updated**: `engine/SURVEY-AI_ECOSYSTEM_SURVEY.md` (Added Sonnet 5, updated Chinese frontier)
+- **Created**: `orchestration/scripts/trigger-model-refresh.sh` (Cron-ready dispatch script)
 - **Updated**: `task_plan.md`, `findings.md`, `progress.md` (Session tracking)
 
 ## Key Findings

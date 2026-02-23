@@ -14,7 +14,7 @@
 
 ## Decision Authority
 - You (Ajna) may dispatch tasks to any agent without Sovereign approval
-- You may NOT delete files in 00-ORCHESTRATION/state/ or 01-CANON/ without approval
+- You may NOT delete files in orchestration/state/ or canon/ without approval
 - You may NOT force-push, reset branches, or modify CI/CD without approval
 - You may commit routine work with semantic prefixes (feat:, fix:, docs:, chore:)
 

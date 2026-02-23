@@ -70,9 +70,9 @@ launchctl unload /Users/home/Library/LaunchAgents/com.syncrescendence.watch-adju
 launchctl load /Users/home/Library/LaunchAgents/com.syncrescendence.watch-adjudicator.plist
 ```
 
-3. **Update the repo template** at `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-adjudicator.plist` -- change `gpt-5.1-codex` to `gpt-5.2-codex` and add `HOME=/Users/home`.
+3. **Update the repo template** at `orchestration/scripts/launchd-mini/com.syncrescendence.watch-adjudicator.plist` -- change `gpt-5.1-codex` to `gpt-5.2-codex` and add `HOME=/Users/home`.
 
-4. **Also update** `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-adjudicator.plist` with the same model bump and HOME addition.
+4. **Also update** `orchestration/scripts/launchd-psyche/com.syncrescendence.watch-adjudicator.plist` with the same model bump and HOME addition.
 
 ## Verification
 
@@ -96,6 +96,6 @@ plutil -p /Users/home/Library/LaunchAgents/com.syncrescendence.watch-adjudicator
 ## Artifacts
 
 - **Modified**: `/Users/home/Library/LaunchAgents/com.syncrescendence.watch-adjudicator.plist` (installed plist)
-- **Modified**: `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-adjudicator.plist` (repo template)
-- **Modified**: `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-adjudicator.plist` (repo template)
+- **Modified**: `orchestration/scripts/launchd-mini/com.syncrescendence.watch-adjudicator.plist` (repo template)
+- **Modified**: `orchestration/scripts/launchd-psyche/com.syncrescendence.watch-adjudicator.plist` (repo template)
 - **Result file**: Reply with `RESULT-ADJUDICATOR-MODEL-UPDATE-20260213.md` to `-INBOX/commander/00-INBOX0/`

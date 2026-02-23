@@ -43,7 +43,7 @@ Files here represent blocking decisions, external actions, or choices that need 
 - **Architectural decisions** with irreversible consequences
 - **External communications** (emails, interviews, registrations)
 - **Budget/spending decisions** exceeding established patterns
-- **Deletions in protected zones** (01-CANON/, 00-ORCHESTRATION/state/)
+- **Deletions in protected zones** (canon/, orchestration/state/)
 
 ## Interim Role
 

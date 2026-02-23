@@ -23,7 +23,7 @@
 
 Execute Agendizer Phase 2: Navigation (Progressive Disclosure Depth Stack).
 
-**Full dispatch package**: `00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase2-adjudicator.md`
+**Full dispatch package**: `orchestration/state/impl/DISPATCH-20260207-agendizer-phase2-adjudicator.md`
 
 **Primary Delta Enforcement**: Delta 2 (depth stack, NOT tabs), Delta 1 (Liquid Glass sidebar)
 
@@ -49,10 +49,10 @@ Execute Agendizer Phase 2: Navigation (Progressive Disclosure Depth Stack).
 
 ## Context Files
 
-- `00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase2-adjudicator.md` — Full dispatch package
-- `00-ORCHESTRATION/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md` — Five frozen deltas
-- `00-ORCHESTRATION/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md` — Receipt contract
-- `00-ORCHESTRATION/state/impl/GATE-REVIEW-20260207-agendizer-phase1.md` — Phase 1 approval
+- `orchestration/state/impl/DISPATCH-20260207-agendizer-phase2-adjudicator.md` — Full dispatch package
+- `orchestration/state/impl/PRD-DELTAS-20260207-agendizer-hard-locks.md` — Five frozen deltas
+- `orchestration/state/impl/CONTRACT-20260207-twin-swarm-deterministic.md` — Receipt contract
+- `orchestration/state/impl/GATE-REVIEW-20260207-agendizer-phase1.md` — Phase 1 approval
 
 ## Gates (7)
 

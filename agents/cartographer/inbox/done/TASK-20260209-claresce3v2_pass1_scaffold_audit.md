@@ -21,7 +21,7 @@
 
 ## Objective
 
-Full scaffold file-by-file audit across 00-ORCHESTRATION, 02-ENGINE, 04-SOURCES, 05-SIGMA. For EACH file: last meaningful update, active references from other files, value classification (VITAL/USEFUL/STALE/ZOMBIE/PROMOTE-TO-CANON). Output as table. Exclude 01-CANON.
+Full scaffold file-by-file audit across orchestration, engine, sources, praxis. For EACH file: last meaningful update, active references from other files, value classification (VITAL/USEFUL/STALE/ZOMBIE/PROMOTE-TO-CANON). Output as table. Exclude canon.
 
 ---
 
@@ -30,8 +30,8 @@ Full scaffold file-by-file audit across 00-ORCHESTRATION, 02-ENGINE, 04-SOURCES,
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

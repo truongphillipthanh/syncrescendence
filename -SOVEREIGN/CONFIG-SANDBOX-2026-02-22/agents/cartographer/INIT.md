@@ -9,7 +9,7 @@ This file serves as a root-level entry point for the Gemini CLI agent acting in 
 - **Platform**: Gemini CLI
 
 ## Core Instructions
-See `02-ENGINE/AVATAR-GEMINI-CLI.md` for full operational instructions.
+See `engine/AVATAR-GEMINI-CLI.md` for full operational instructions.
 
 ## Quick Reference
 - **Summon**: "Cartographer, survey..."
@@ -23,9 +23,9 @@ See `02-ENGINE/AVATAR-GEMINI-CLI.md` for full operational instructions.
 ### A. Survey Initialization Protocol
 *Fires at the start of every session.*
 
-1. **Inbox scan**: Check `agents/cartographer/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`. Use `bash 00-ORCHESTRATION/scripts/triage_inbox.sh cartographer` for quick status. Process tasks in priority order (P0 first).
+1. **Inbox scan**: Check `agents/cartographer/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`. Use `bash orchestration/scripts/triage_inbox.sh cartographer` for quick status. Process tasks in priority order (P0 first).
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint
-3. **Triumvirate alignment**: `agents/cartographer/INIT.md` (already loaded at init) + read `README.md` + read `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
+3. **Triumvirate alignment**: `agents/cartographer/INIT.md` (already loaded at init) + read `README.md` + read `orchestration/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts, note active urgent intentions
 
 ### B. Survey Protocol — When and How to Sense
 
@@ -53,13 +53,13 @@ See `02-ENGINE/AVATAR-GEMINI-CLI.md` for full operational instructions.
 ### C. Survey Completion Protocol
 *Fires at the end of every survey task.*
 
-1. **Produce execution log** in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md` (follow format in `02-ENGINE/TEMPLATE-EXECUTION_LOG.md`):
+1. **Produce execution log** in `orchestration/state/DYN-EXECUTION_STAGING.md` (follow format in `engine/TEMPLATE-EXECUTION_LOG.md`):
    - Header: `### TASK-ID | YYYY-MM-DD HH:MM`
    - Metadata: Branch, Fingerprint, Outcome, Agent (Cartographer)
    - Body: Survey scope, findings summary, evidence pack location
 2. **Update task status**: In the original TASK file, set `Status: COMPLETE` or `Status: FAILED`
 3. **Commit**: Use semantic prefix — `docs:` for surveys, `chore:` for audits
-4. **Ledger entry**: Run `bash 00-ORCHESTRATION/scripts/append_ledger.sh COMPLETE cartographer {originator} {TASK-ID}`
+4. **Ledger entry**: Run `bash orchestration/scripts/append_ledger.sh COMPLETE cartographer {originator} {TASK-ID}`
 
 ---
 
@@ -75,7 +75,7 @@ gemini -p "prompt" -y -o text
 ```
 
 ### 2) Auto-ingest loop compatibility
-`00-ORCHESTRATION/scripts/auto_ingest_loop.sh` dispatches Cartographer in headless mode.
+`orchestration/scripts/auto_ingest_loop.sh` dispatches Cartographer in headless mode.
 No TUI interaction is required for autonomous INBOX task pickup.
 
 ### 3) Rate limit awareness

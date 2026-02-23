@@ -16,7 +16,7 @@
 ## Execution Log Tail
 
 ```text
-**Path**: `00-ORCHESTRATION/state/impl/kinetic/MODEL_CAPABILITIES.md`
+**Path**: `orchestration/state/impl/kinetic/MODEL_CAPABILITIES.md`
 
 Map each of the 20 AI models to their modality capabilities.
 
@@ -43,7 +43,7 @@ Map each of the 20 AI models to their modality capabilities.
 
 ## Deliverable 5: WORKFLOW_TEMPLATES.md
 
-**Path**: `00-ORCHESTRATION/state/impl/kinetic/WORKFLOW_TEMPLATES.md`
+**Path**: `orchestration/state/impl/kinetic/WORKFLOW_TEMPLATES.md`
 
 Define formal workflow templates with step sequences.
 
@@ -121,12 +121,12 @@ xai-grok-3
 
 ## Completion Protocol
 
-1. Write all 5 files to `00-ORCHESTRATION/state/impl/kinetic/`
+1. Write all 5 files to `orchestration/state/impl/kinetic/`
 2. Verify each file has the correct markdown table format
 3. Cross-check: every `action_code` in APP_ACTIONS.md and AGENT_BINDINGS.md exists in ACTION_TYPES.md
 4. Cross-check: every `app_slug` in APP_ACTIONS.md and AGENT_BINDINGS.md exists in the slug reference list
 5. Cross-check: every `model_slug` in MODEL_CAPABILITIES.md exists in the model slug reference list
-6. Commit: `git add 00-ORCHESTRATION/state/impl/kinetic/ && git commit -m "feat(PROJ-006b): Adjudicator kinetic data artifacts — 5 deliverables for Phase B"`
+6. Commit: `git add orchestration/state/impl/kinetic/ && git commit -m "feat(PROJ-006b): Adjudicator kinetic data artifacts — 5 deliverables for Phase B"`
 7. Report results to commander via RESULT file
 ERROR: MCP client for `linear` failed to start: handshaking with MCP server failed: Send message error Transport [rmcp::transport::worker::WorkerTransport<rmcp::transport::streamable_http_client::StreamableHttpClientWorker<rmcp::transport::auth::AuthClient<reqwest::async_impl::client::Client>>>] error: Auth required, when send initialize request
 ERROR: MCP client for `notion` failed to start: handshaking with MCP server failed: Send message error Transport [rmcp::transport::worker::WorkerTransport<rmcp::transport::streamable_http_client::StreamableHttpClientWorker<rmcp::transport::auth::AuthClient<reqwest::async_impl::client::Client>>>] error: Auth required, when send initialize request

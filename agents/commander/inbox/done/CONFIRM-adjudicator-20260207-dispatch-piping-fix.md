@@ -4,7 +4,7 @@
 **From-Agent**: adjudicator  
 **Status**: COMPLETE  
 **Completed-At**: 2026-02-07T06:56:00Z  
-**Patched-Script**: `/Users/system/syncrescendence/00-ORCHESTRATION/scripts/watch_dispatch.sh`
+**Patched-Script**: `/Users/system/syncrescendence/orchestration/scripts/watch_dispatch.sh`
 
 ---
 
@@ -29,5 +29,5 @@
 
 ## Verification
 
-- Syntax check passed: `bash -n /Users/system/syncrescendence/00-ORCHESTRATION/scripts/watch_dispatch.sh`
+- Syntax check passed: `bash -n /Users/system/syncrescendence/orchestration/scripts/watch_dispatch.sh`
 - Watchers restarted so patch is active for subsequent completions.

@@ -67,7 +67,7 @@ Quick connectivity test: `ssh mini hostname` (from MBA) or `ssh macbook-air host
 ### Cross-Machine Dispatch
 Tasks route between machines via `dispatch.sh` + SCP sling:
 ```bash
-bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "ajna"
+bash orchestration/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "ajna"
 ```
 Remote delivery uses env vars: `SYNCRESCENDENCE_REMOTE_AGENT_HOST_COMMANDER`, `_ADJUDICATOR`, `_CARTOGRAPHER`, `_PSYCHE`, `_AJNA`.
 CONFIRM files route back via SCP to the originating agent's machine.
@@ -92,7 +92,7 @@ Every agent has an autonomous task pickup daemon (`auto_ingest_loop.sh`):
 ### Health Watchdog
 A launchd daemon (`constellation_watchdog.sh`) cycles every 60s on Mac mini:
 - Reads health of all 4 tmux panes
-- Writes to `00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
+- Writes to `orchestration/state/DYN-CONSTELLATION_HEALTH.md`
 - States: HEALTHY, IDLE, RATE_LIMITED, STALE, ERROR
 
 ### Rate Limit Awareness

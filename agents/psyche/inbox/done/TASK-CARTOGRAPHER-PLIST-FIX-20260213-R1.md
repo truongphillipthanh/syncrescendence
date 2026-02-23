@@ -33,7 +33,7 @@ On the MBA (MacBook Air), we fixed `com.syncrescendence.watch-cartographer.plist
 
 The Mac mini plist at `/Users/home/Library/LaunchAgents/com.syncrescendence.watch-cartographer.plist` currently only has `PATH` and `NODE_NO_WARNINGS` in its EnvironmentVariables dict -- it is missing both `SYNCRESCENDENCE_GEMINI_MODEL` and `HOME`.
 
-The repo template at `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` has the same gap.
+The repo template at `orchestration/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` has the same gap.
 
 Additionally, we created `.gemini/commands/initialize.md` in the repo, which gives Cartographer a `/initialize` slash command for session orientation. Once git-sync propagates the latest push to the Mac mini, this file should be in place automatically.
 
@@ -71,9 +71,9 @@ launchctl unload /Users/home/Library/LaunchAgents/com.syncrescendence.watch-cart
 launchctl load /Users/home/Library/LaunchAgents/com.syncrescendence.watch-cartographer.plist
 ```
 
-3. **Update the repo template** at `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` with the same env var additions, so future installs are correct.
+3. **Update the repo template** at `orchestration/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` with the same env var additions, so future installs are correct.
 
-4. **Also update** `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-cartographer.plist` with the same changes (this template currently has `/Users/system` paths which is wrong for Mac mini -- it should use `/Users/home`).
+4. **Also update** `orchestration/scripts/launchd-psyche/com.syncrescendence.watch-cartographer.plist` with the same changes (this template currently has `/Users/system` paths which is wrong for Mac mini -- it should use `/Users/home`).
 
 5. **Verify git-sync** has propagated `.gemini/commands/initialize.md` to the Mac mini repo:
 
@@ -103,7 +103,7 @@ cat /Users/home/Desktop/syncrescendence/.gemini/commands/initialize.md | head -5
 ## Artifacts
 
 - **Modified**: `/Users/home/Library/LaunchAgents/com.syncrescendence.watch-cartographer.plist` (installed plist)
-- **Modified**: `00-ORCHESTRATION/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` (repo template)
-- **Modified**: `00-ORCHESTRATION/scripts/launchd-psyche/com.syncrescendence.watch-cartographer.plist` (repo template)
+- **Modified**: `orchestration/scripts/launchd-mini/com.syncrescendence.watch-cartographer.plist` (repo template)
+- **Modified**: `orchestration/scripts/launchd-psyche/com.syncrescendence.watch-cartographer.plist` (repo template)
 - **Verified**: `.gemini/commands/initialize.md` present on Mac mini via git-sync
 - **Result file**: Reply with `RESULT-CARTOGRAPHER-PLIST-FIX-20260213-R1.md` to `-INBOX/commander/00-INBOX0/`

@@ -322,15 +322,15 @@ Check if `~/.claude/settings.json` exists on MBA. If not, create it with these e
           },
           {
             "type": "command",
-            "command": "cd /Users/home/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/session_log.sh"
+            "command": "cd /Users/home/Desktop/syncrescendence && bash orchestration/scripts/session_log.sh"
           },
           {
             "type": "command",
-            "command": "cd /Users/home/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/ajna_pedigree.sh"
+            "command": "cd /Users/home/Desktop/syncrescendence && bash orchestration/scripts/ajna_pedigree.sh"
           },
           {
             "type": "command",
-            "command": "cd /Users/home/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/create_execution_log.sh"
+            "command": "cd /Users/home/Desktop/syncrescendence && bash orchestration/scripts/create_execution_log.sh"
           }
         ]
       }
@@ -341,7 +341,7 @@ Check if `~/.claude/settings.json` exists on MBA. If not, create it with these e
         "hooks": [
           {
             "type": "command",
-            "command": "cd /Users/home/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/intent_compass.sh"
+            "command": "cd /Users/home/Desktop/syncrescendence && bash orchestration/scripts/intent_compass.sh"
           }
         ]
       }
@@ -352,7 +352,7 @@ Check if `~/.claude/settings.json` exists on MBA. If not, create it with these e
         "hooks": [
           {
             "type": "command",
-            "command": "cd /Users/home/Desktop/syncrescendence && bash 00-ORCHESTRATION/scripts/pre_compaction.sh"
+            "command": "cd /Users/home/Desktop/syncrescendence && bash orchestration/scripts/pre_compaction.sh"
           }
         ]
       }

@@ -23,7 +23,7 @@ The adjudicator has been cycling through deferred commitment followups (dc_002, 
 
 ## Orphaned Work
 
-- `02-ENGINE/REF-SOVEREIGN_COCKPIT_MANIFEST.md` — modified in last 24h but no corresponding commit or intention linkage
+- `engine/REF-SOVEREIGN_COCKPIT_MANIFEST.md` — modified in last 24h but no corresponding commit or intention linkage
 - `-INBOX/commander/RECEIPTS/RECEIPT-adjudicator-TASK-20260217-scp_sling_verify.md` — 3-day-old receipt still in inbox, unprocessed
 - Multiple `WARN: reply_to 'orchestrator' not in allowlist` directories — orphaned error artifacts from adjudicator dispatches with wrong reply-to routing. These are filesystem pollution.
 

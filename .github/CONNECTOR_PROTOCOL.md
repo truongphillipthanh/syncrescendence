@@ -110,7 +110,7 @@ When traversing the corpus via connector, optimize token usage:
 6. ChatGPT outputs to `agents/<agent>/outbox/` for human handoff
 
 ### Workflow 2: Gemini Oracle Analysis → Claude Specification
-1. Gemini ingests large corpus section (e.g., all 04-SOURCES)
+1. Gemini ingests large corpus section (e.g., all sources)
 2. Gemini identifies patterns and opportunities
 3. Gemini writes oracle report to `agents/cartographer/outbox/`
 4. Claude reads oracle report via connector

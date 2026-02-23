@@ -23,9 +23,9 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural (ABSOLUTE)
-1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `05-SIGMA/mechanics/`, `practice/`; `00-ORCHESTRATION/state/`, `scripts/`, `archive/`; `agents/<name>/` internal structure.
+1. **FLAT PRINCIPLE**: All directories must be flat. Use naming prefixes (ARCH-, DYN-, REF-, SCAFF-, FUNC-, PROMPT-, etc.) instead of subdirectories. Sanctioned exceptions: `praxis/mechanics/`, `practice/`; `orchestration/state/`, `scripts/`, `archive/`; `agents/<name>/` internal structure.
 2. **NUMBERED DIRECTORIES**: Top-level directories are 00, 01, 02, 04, 05 (with gaps). Do not create new numbered directories.
-3. **PROTECTED ZONES**: 00-ORCHESTRATION/state/ and 01-CANON/ require explicit Sovereign approval for deletions.
+3. **PROTECTED ZONES**: orchestration/state/ and canon/ require explicit Sovereign approval for deletions.
 4. **SANCTIONED EXCEPTIONS**: `agents/`, `collab/`, and `-SOVEREIGN/` are the only non-numbered directories permitted at root (besides dotfiles).
 
 ### Semantic (ABSOLUTE)
@@ -43,11 +43,11 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Directory Structure
 
 ```
-00-ORCHESTRATION/   Strategic coordination (state/, scripts/, archive/)
-01-CANON/           Verified canonical knowledge (PROTECTED) + sn/
-02-ENGINE/          Functions, prompts, avatars, model profiles, queue items
-04-SOURCES/         Source documents (raw/, processed/, research/)
-05-SIGMA/           Operational knowledge corpus + memory + exempla
+orchestration/   Strategic coordination (state/, scripts/, archive/)
+canon/           Verified canonical knowledge (PROTECTED) + sn/
+engine/          Functions, prompts, avatars, model profiles, queue items
+sources/         Source documents (raw/, processed/, research/)
+praxis/           Operational knowledge corpus + memory + exempla
   syntheses/        Canonical platform references
   mechanics/        Deep-dive mechanisms
   practice/         Implementation patterns
@@ -152,9 +152,9 @@ ICMP ping is BLOCKED by macOS Stealth Mode firewall on both machines. NEVER use 
 
 `auto_ingest_loop.sh` is the **only** task dispatch system. `watch_dispatch.sh` was deprecated on 2026-02-17 (caused race conditions, silent failures). Task lifecycle is deterministic and file-backed:
 
-1. `00-ORCHESTRATION/scripts/dispatch.sh` creates `TASK-*.md` in `agents/<agent>/inbox/pending/`
+1. `orchestration/scripts/dispatch.sh` creates `TASK-*.md` in `agents/<agent>/inbox/pending/`
 2. Cross-machine SCP sling via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>` env vars
-3. `00-ORCHESTRATION/scripts/auto_ingest_loop.sh` polls inbox every 30s
+3. `orchestration/scripts/auto_ingest_loop.sh` polls inbox every 30s
 4. Task is moved to `agents/<agent>/inbox/active/`
 5. Agent CLI executes objective (tmux dispatch or Gemini headless)
 6. Result written to `agents/<agent>/outbox/RESULT-<agent>-*.md`
@@ -167,7 +167,7 @@ ICMP ping is BLOCKED by macOS Stealth Mode firewall on both machines. NEVER use 
 Canonical dispatch command:
 
 ```bash
-bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "<your-agent>"
+bash orchestration/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "<your-agent>"
 ```
 
 Cross-machine delivery is controlled by env vars (set in ~/.zshrc on BOTH machines):
@@ -191,7 +191,7 @@ Cross-machine delivery is controlled by env vars (set in ~/.zshrc on BOTH machin
 
 ### 4) Health Watchdog
 
-A launchd watchdog daemon runs every ~60s and writes health state to `00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`.
+A launchd watchdog daemon runs every ~60s and writes health state to `orchestration/state/DYN-CONSTELLATION_HEALTH.md`.
 
 ### 5) Rate Limit Recovery
 - Respect per-model quotas and plan pooling
@@ -200,7 +200,7 @@ A launchd watchdog daemon runs every ~60s and writes health state to `00-ORCHEST
 - Do not dispatch simultaneous heavy jobs to both Psyche and Adjudicator when token pressure is high
 
 ### 6) Context Exhaustion Protocol
-- Persist work state to filesystem BEFORE compaction (`00-ORCHESTRATION/state/`, task/result files)
+- Persist work state to filesystem BEFORE compaction (`orchestration/state/`, task/result files)
 - Never allow context death without writing durable artifacts and committing relevant work
 
 ### 7) If You Go Offline
@@ -233,19 +233,19 @@ OpenClaw agents may concurrently read/write to the filesystem. Check `git status
 | Reference | Path |
 |-----------|------|
 | Constellation mapping | `README.md` (authoritative avatar/role assignments) |
-| Terminology reconciliation | `02-ENGINE/REF-ROSETTA_STONE.md` |
-| Fleet operations | `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` |
-| Technology stack | `02-ENGINE/REF-STACK_TELEOLOGY.md` |
-| Operational knowledge | `05-SIGMA/` (31 docs: mechanics, practice, syntheses, exempla) |
-| Intention archaeology | `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` |
-| Twin coordination | `00-ORCHESTRATION/state/DYN-TWIN_COORDINATION_PROTOCOL.md` |
-| Deferred commitments | `00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` |
+| Terminology reconciliation | `engine/REF-ROSETTA_STONE.md` |
+| Fleet operations | `engine/REF-FLEET_COMMANDERS_HANDBOOK.md` |
+| Technology stack | `engine/REF-STACK_TELEOLOGY.md` |
+| Operational knowledge | `praxis/` (31 docs: mechanics, practice, syntheses, exempla) |
+| Intention archaeology | `orchestration/state/ARCH-INTENTION_COMPASS.md` |
+| Twin coordination | `orchestration/state/DYN-TWIN_COORDINATION_PROTOCOL.md` |
+| Deferred commitments | `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` |
 
 ---
 
 ## Session Protocol (ALL AGENTS)
 - Consult `ARCH-INTENTION_COMPASS.md` before executing directives
-- Persist working state to `00-ORCHESTRATION/state/` before session end
+- Persist working state to `orchestration/state/` before session end
 - Commit frequently with semantic prefixes
 
 ---

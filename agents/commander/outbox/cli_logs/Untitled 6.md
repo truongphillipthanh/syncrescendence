@@ -1,6 +1,6 @@
- Write(00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-11-ontology-metacharacteri
+ Write(orchestration/state/impl/clarescence/CLARESCENCE-2026-02-11-ontology-metacharacteri
        zation.md)
-  ⎿  Wrote 288 lines to 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-11-on
+  ⎿  Wrote 288 lines to orchestration/state/impl/clarescence/CLARESCENCE-2026-02-11-on
      tology-metacharacterization.md
      CLARESCENCE: Palantir Ontology Metacharacterization — Chorus Coalescence
      Date: 2026-02-11
@@ -22,11 +22,11 @@
 
 ⏺ Now let me commit this clarescence artifact.
 
-⏺ Bash(git add 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-11-ontology-metacha
+⏺ Bash(git add orchestration/state/impl/clarescence/CLARESCENCE-2026-02-11-ontology-metacha
       racterization.md && git commit -m "docs(PROJ-006b): clarescence — Palanti…)
   ⎿  [main 8d741ed] docs(PROJ-006b): clarescence — Palantir ontology chorus coalescence
       1 file changed, 287 insertions(+)
-      create mode 100644 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-11-o
+      create mode 100644 orchestration/state/impl/clarescence/CLARESCENCE-2026-02-11-o
      ntology-metacharacterization.md
 
 ⏺ Clarescence complete. Here's the coalescence:
@@ -68,5 +68,5 @@
   a proto-action vocabulary waiting to be promoted to formal Action Types. Phase B is
   architecturally ready to build.
 
-  Committed as 8d741ed. Full clarescence at 00-ORCHESTRATION/state/impl/clarescence/CLARESCENC
+  Committed as 8d741ed. Full clarescence at orchestration/state/impl/clarescence/CLARESCENC
   E-2026-02-11-ontology-metacharacterization.md.

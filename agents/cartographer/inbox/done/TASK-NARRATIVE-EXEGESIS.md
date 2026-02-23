@@ -51,7 +51,7 @@ Format: Mapping table per universe showing (Source Concept → Syncrescendence P
 ## Context Files
 - `-SOVEREIGN/SOVEREIGN-012-NARRATIVE_DNA_AND_AUTONOMY_EXPANSION.md` (current synthesis)
 - `memory/narrative-dna.md` (persistent memory reference)
-- `02-ENGINE/REF-ROSETTA_STONE.md` (terminology to extend)
+- `engine/REF-ROSETTA_STONE.md` (terminology to extend)
 
 **Reply-To**: commander
 **CC**: commander

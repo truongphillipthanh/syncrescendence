@@ -97,9 +97,9 @@ cat > "$OUTDIR/00_manifest/inputs_used.md" << INPUTSEOF
 
 ## Reference Documents
 - CLAUDE.md (v2.3.0)
-- 00-ORCHESTRATION/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md
-- 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md
-- 00-ORCHESTRATION/state/DYN-BACKLOG.md
+- orchestration/state/REF-BLITZKRIEG_PROTOCOL_VNEXT.md
+- orchestration/state/ARCH-INTENTION_COMPASS.md
+- orchestration/state/DYN-BACKLOG.md
 
 ## Operator-Provided
 - 01_context/context.md (TO BE FILLED)
@@ -237,11 +237,11 @@ This blitzkrieg should be grounded in the Sovereign's documented intentions.
 
 ## Reference Documents
 
-- **ARCH-INTENTION_COMPASS.md**: `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md`
+- **ARCH-INTENTION_COMPASS.md**: `orchestration/state/ARCH-INTENTION_COMPASS.md`
   - Contains categorized intentions: urgent, sprint, backlog, pattern, capture
   - Extract relevant intentions for this blitzkrieg
 
-- **DYN-BACKLOG.md**: `00-ORCHESTRATION/state/DYN-BACKLOG.md`
+- **DYN-BACKLOG.md**: `orchestration/state/DYN-BACKLOG.md`
   - Contains active sprint and project status
   - Reference active projects this blitzkrieg addresses
 

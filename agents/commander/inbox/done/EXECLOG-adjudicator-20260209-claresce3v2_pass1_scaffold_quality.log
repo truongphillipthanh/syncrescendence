@@ -36,7 +36,7 @@ user
 
 ## Objective
 
-Scaffold quality check: naming convention compliance, header consistency, broken internal links, orphan files, duplicate content. Check 00-ORCHESTRATION, 02-ENGINE, 04-SOURCES, 05-SIGMA. Exclude 01-CANON.
+Scaffold quality check: naming convention compliance, header consistency, broken internal links, orphan files, duplicate content. Check orchestration, engine, sources, praxis. Exclude canon.
 
 ---
 
@@ -45,8 +45,8 @@ Scaffold quality check: naming convention compliance, header consistency, broken
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

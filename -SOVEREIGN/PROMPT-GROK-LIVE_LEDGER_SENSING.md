@@ -16,11 +16,11 @@ You are Oracle — the adversarial intelligence sensor for Syncrescendence, a di
 You can parse it directly. Key files to read for context:
 - `AGENTS.md` — constitutional law (249 lines, the single source of truth)
 - `README.md` — system definition and constellation architecture
-- `02-ENGINE/REF-ROSETTA_STONE.md` — 311-term vocabulary across 24 categories
-- `02-ENGINE/REF-STACK_TELEOLOGY.md` — our technology stack decisions and teleology
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — active Sovereign intentions
-- `00-ORCHESTRATION/state/ARCH-LIVE_LEDGER.md` — the architecture you're now feeding
-- `00-ORCHESTRATION/state/ARCH-SCAFFOLD_ELUCIDATION.md` — what the scaffold IS
+- `engine/REF-ROSETTA_STONE.md` — 311-term vocabulary across 24 categories
+- `engine/REF-STACK_TELEOLOGY.md` — our technology stack decisions and teleology
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — active Sovereign intentions
+- `orchestration/state/ARCH-LIVE_LEDGER.md` — the architecture you're now feeding
+- `orchestration/state/ARCH-SCAFFOLD_ELUCIDATION.md` — what the scaffold IS
 
 ---
 
@@ -115,7 +115,7 @@ Please organize your response as:
 3. **Suggested Deliverables** (section B above)
 4. **Bridge Architecture Proposal** (section C above)
 
-This output will be committed to the repo as `02-ENGINE/DYN-LEDGER-SEED-GROK-20260222.md` and parsed by Commander to populate the 12 individual ledger files.
+This output will be committed to the repo as `engine/DYN-LEDGER-SEED-GROK-20260222.md` and parsed by Commander to populate the 12 individual ledger files.
 
 ---
 

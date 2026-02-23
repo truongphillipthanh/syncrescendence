@@ -52,7 +52,7 @@ Update docs to reflect the clarified IO model:
 
 ### 2) Add claim-locking to prevent duplicate processing (P0)
 
-Update `00-ORCHESTRATION/scripts/watch_dispatch.sh` claim step to be atomic.
+Update `orchestration/scripts/watch_dispatch.sh` claim step to be atomic.
 
 Recommended mechanism:
 - watcher atomically renames the file when claiming:
@@ -63,13 +63,13 @@ Recommended mechanism:
 
 ### 3) Add global ledger (P0)
 Create:
-- `00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md` (append-only)
+- `orchestration/state/DYN-GLOBAL_LEDGER.md` (append-only)
 
 Create script:
-- `00-ORCHESTRATION/scripts/append_ledger.sh`
+- `orchestration/scripts/append_ledger.sh`
 
 Integrate ledger append in:
-- `00-ORCHESTRATION/scripts/dispatch.sh` (on dispatch)
+- `orchestration/scripts/dispatch.sh` (on dispatch)
 - `watch_dispatch.sh` (on claim + on completion)
 
 Ledger entry schema (suggested):
@@ -84,7 +84,7 @@ Ledger entry schema (suggested):
 
 ### 4) Add triage script for self-inbox (P1)
 
-Add `00-ORCHESTRATION/scripts/triage_inbox.sh <agent>`
+Add `orchestration/scripts/triage_inbox.sh <agent>`
 - lists PENDING/IN_PROGRESS
 - highlights stale IN_PROGRESS > N minutes
 
@@ -94,7 +94,7 @@ Add `00-ORCHESTRATION/scripts/triage_inbox.sh <agent>`
 - `20260202-corpus-survey/…`
 - `forensic-audit-type-theory/…`
 
-Option 1 (recommended): move to `04-SOURCES/research/` or `00-ORCHESTRATION/archive/` and leave stub notes.
+Option 1 (recommended): move to `sources/research/` or `orchestration/archive/` and leave stub notes.
 Option 2: explicitly exempt these as “REPORT-*” artifacts in README.
 
 ---

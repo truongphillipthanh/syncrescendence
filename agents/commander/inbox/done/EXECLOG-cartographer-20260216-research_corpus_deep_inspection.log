@@ -1,6 +1,6 @@
 I am unable to access the specified directory `/Users/system/Desktop/research/` because it is outside of my allowed workspace. For security reasons, I can only access files within the project directory (`/Users/system/Desktop/syncrescendence`) or the project's temporary directory.
 
-To proceed, please make the research files available within the project workspace. For example, you could copy them into a new directory like `04-SOURCES/research-external/`.
+To proceed, please make the research files available within the project workspace. For example, you could copy them into a new directory like `sources/research-external/`.
 
 Loaded cached credentials.
 Hook registry initialized with 0 hook entries

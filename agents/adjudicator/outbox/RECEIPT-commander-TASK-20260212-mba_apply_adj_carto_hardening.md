@@ -28,7 +28,7 @@ Apply latest orchestration hardening on MBA and verify adjudicator/cartographer 
 Actions on MBA Commander host:
 1) `cd ~/Desktop/syncrescendence && git pull --ff-only`
 2) `brew upgrade codex` then `codex --version`
-3) `bash 00-ORCHESTRATION/scripts/rearm_watchers.sh --psyche`
+3) `bash orchestration/scripts/rearm_watchers.sh --psyche`
 4) `launchctl kickstart -k gui/$(id -u)/com.syncrescendence.watch-adjudicator`
 5) `launchctl kickstart -k gui/$(id -u)/com.syncrescendence.watch-cartographer`
 6) Run model smoke:
@@ -37,7 +37,7 @@ Actions on MBA Commander host:
    - count dirs in `~/.agents/skills`
    - count dirs in `~/.codex/skills`
    - if codex count < agents count, run watchdog once and re-check:
-     `bash 00-ORCHESTRATION/scripts/watchdog.sh`
+     `bash orchestration/scripts/watchdog.sh`
 8) Cartographer smoke using stable model:
    - `gemini -m gemini-2.5-pro -p 'Reply exactly: MBA_CARTO_OK'`
 
@@ -55,8 +55,8 @@ Expected evidence in result:
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

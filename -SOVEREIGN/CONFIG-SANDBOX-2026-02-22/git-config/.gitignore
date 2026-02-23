@@ -99,6 +99,6 @@ skills/
 .windsurf/
 
 # Runtime state — machine-local, must not sync across machines via git
-00-ORCHESTRATION/state/breakers/
-00-ORCHESTRATION/state/budgets/
+orchestration/state/breakers/
+orchestration/state/budgets/
 

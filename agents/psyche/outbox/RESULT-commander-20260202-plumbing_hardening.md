@@ -10,8 +10,8 @@
 ## Task A — Patches Applied
 
 ### 1. `ops_lint.sh` — FIXED
-- Replaced stale subdirectory scans (`prompts/`, `specs/`, `registries/`) with flat `02-ENGINE/` scans
-- Now checks `PROMPT-*.md` and `REF-*.md` at `02-ENGINE/` root
+- Replaced stale subdirectory scans (`prompts/`, `specs/`, `registries/`) with flat `engine/` scans
+- Now checks `PROMPT-*.md` and `REF-*.md` at `engine/` root
 - **Result**: 20 files checked (was 0). 8 pass, 12 fail on missing frontmatter.
 - **Frontmatter debt**: 10 REF files + 2 PROMPT files lack `id/kind/scope/target` YAML frontmatter. This is pre-existing debt — the convention was never enforced. Flagged as backlog; does not block plumbing.
 
@@ -47,7 +47,7 @@
 
 ### Persistence: launchd Plists Created
 
-Four plist templates in `00-ORCHESTRATION/scripts/launchd/`:
+Four plist templates in `orchestration/scripts/launchd/`:
 
 | Plist | Agent | Machine |
 |-------|-------|---------|
@@ -60,13 +60,13 @@ Four plist templates in `00-ORCHESTRATION/scripts/launchd/`:
 
 To install on this machine:
 ```bash
-cp 00-ORCHESTRATION/scripts/launchd/com.syncrescendence.watch-commander.plist ~/Library/LaunchAgents/
+cp orchestration/scripts/launchd/com.syncrescendence.watch-commander.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/com.syncrescendence.watch-commander.plist
 ```
 
 To install Ajna watcher on M1 Mac mini:
 ```bash
-cp 00-ORCHESTRATION/scripts/launchd/com.syncrescendence.watch-ajna.plist ~/Library/LaunchAgents/
+cp orchestration/scripts/launchd/com.syncrescendence.watch-ajna.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/com.syncrescendence.watch-ajna.plist
 ```
 
@@ -91,7 +91,7 @@ This eliminates the permanent "2 uncommitted changes" noise from `verify_all.sh`
 
 ## Open Decisions for Sovereign
 
-1. **Frontmatter debt**: 12 files in `02-ENGINE/` lack YAML frontmatter. Add frontmatter to enforce lint, or exempt REF files from the requirement?
+1. **Frontmatter debt**: 12 files in `engine/` lack YAML frontmatter. Add frontmatter to enforce lint, or exempt REF files from the requirement?
 2. **Watcher activation timing**: Install launchd plists now, or wait for full pipeline validation?
 3. **OpenClaw memory_search**: Embeddings API key broken (401). Treat repo as recall mechanism until fixed?
 4. **Gemini CLI API key**: Still needed for Cartographer lane (SOVEREIGN-pending since Oracle 13).
@@ -102,6 +102,6 @@ This eliminates the permanent "2 uncommitted changes" noise from `verify_all.sh`
 
 ```bash
 make verify-full   # Structure + ledger + content + git
-make lint          # 02-ENGINE frontmatter enforcement (20 files, 12 debt)
+make lint          # engine frontmatter enforcement (20 files, 12 debt)
 make triage        # Packet lifecycle across all pipes
 ```

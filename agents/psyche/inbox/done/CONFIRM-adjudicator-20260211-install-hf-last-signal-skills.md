@@ -75,7 +75,7 @@ thinking
 
 I'll run the inbox triage script and git status first, then read key docs for alignment, while noting that write and commit actions aren't possible here and must be done by the user.
 exec
-/bin/zsh -lc 'bash 00-ORCHESTRATION/scripts/triage_inbox.sh adjudicator' in /Users/home/Desktop/syncrescendence succeeded in 142ms:
+/bin/zsh -lc 'bash orchestration/scripts/triage_inbox.sh adjudicator' in /Users/home/Desktop/syncrescendence succeeded in 142ms:
 === INBOX TRIAGE ===
 Time: 2026-02-11 20:21:18
 Stale threshold: 60 minutes
@@ -89,11 +89,11 @@ exec
 ## main...origin/main
  D -INBOX/ajna/40-DONE/TASK-20260211-skill-install:_max_powerlevel_(234_skills).md
  M .constellation/state/current.yaml
- M 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
- M 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md
- M 00-ORCHESTRATION/state/DYN-INTENTIONS_QUEUE.md
- M 00-ORCHESTRATION/state/DYN-PEDIGREE_LOG.md
- M 00-ORCHESTRATION/state/DYN-SESSION_LOG.md
+ M orchestration/state/DYN-EXECUTION_STAGING.md
+ M orchestration/state/DYN-GLOBAL_LEDGER.md
+ M orchestration/state/DYN-INTENTIONS_QUEUE.md
+ M orchestration/state/DYN-PEDIGREE_LOG.md
+ M orchestration/state/DYN-SESSION_LOG.md
 ?? -INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-install-hf-last-signal-skills.md
 ?? -INBOX/adjudicator/40-DONE/TASK-20260211-install-hf-last-signal-skills.md
 ?? -INBOX/ajna/40-DONE/TASK-20260211-install-hf-last-signal-skills.md

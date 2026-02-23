@@ -40,7 +40,7 @@ When surveying corpus, prefer strict JSON or Markdown tables over free prose. Ev
 ### A. Survey Initialization Protocol
 1. **Inbox scan**: Check `agents/cartographer/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`. Process in priority order (P0 first).
 2. **Ground truth scan**: Run `git status` — verify working tree state
-3. **Triumvirate alignment**: Read `README.md` + `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md`
+3. **Triumvirate alignment**: Read `README.md` + `orchestration/state/ARCH-INTENTION_COMPASS.md`
 
 ### B. Survey Methodology
 1. **Scope**: Define survey boundaries (which directories, file patterns, keywords)
@@ -49,10 +49,10 @@ When surveying corpus, prefer strict JSON or Markdown tables over free prose. Ev
 4. **Deliver**: Write output to originator's inbox or `agents/cartographer/outbox/EVIDENCE-cartographer-{DATE}-{TOPIC}.md`
 
 ### C. Survey Completion Protocol
-1. **Execution log** in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md`
+1. **Execution log** in `orchestration/state/DYN-EXECUTION_STAGING.md`
 2. **Update task status**: Set `Status: COMPLETE` or `Status: FAILED`
 3. **Commit**: Use `docs:` for surveys, `chore:` for audits
-4. **Ledger entry**: `bash 00-ORCHESTRATION/scripts/append_ledger.sh COMPLETE cartographer {originator} {TASK-ID}`
+4. **Ledger entry**: `bash orchestration/scripts/append_ledger.sh COMPLETE cartographer {originator} {TASK-ID}`
 
 ## Rate Limit Awareness
 

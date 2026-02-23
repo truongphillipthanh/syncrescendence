@@ -16,7 +16,7 @@
 - This is sufficient for always-on posture
 
 ### Available but NOT installed: launchd watchers
-- Plists exist at `00-ORCHESTRATION/scripts/launchd/com.syncrescendence.watch-{ajna,commander}.plist`
+- Plists exist at `orchestration/scripts/launchd/com.syncrescendence.watch-{ajna,commander}.plist`
 - **Blocker**: paths reference `/Users/system/` — should be `/Users/home/`
 - `watch_dispatch.sh` is functional, routes ajna tasks to `openclaw agent --local`
 - **Not installed** in `~/Library/LaunchAgents/` — only `ai.openclaw.gateway.plist` is installed

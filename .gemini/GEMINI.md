@@ -2,21 +2,21 @@
 
 ## Structure
 This is a 693+ file Obsidian vault and Git repository containing:
-- `00-ORCHESTRATION/` — Strategic coordination (state/, scripts/, archive/)
-- `01-CANON/` — 79 canonical knowledge artifacts with standardized frontmatter (PROTECTED)
-- `02-ENGINE/` — Functions, prompts, avatars, model profiles, queue items
-- `04-SOURCES/` — Source documents (raw/, processed/, research/)
-- `05-SIGMA/` — Operational knowledge corpus + memory + exempla
+- `orchestration/` — Strategic coordination (state/, scripts/, archive/)
+- `canon/` — 79 canonical knowledge artifacts with standardized frontmatter (PROTECTED)
+- `engine/` — Functions, prompts, avatars, model profiles, queue items
+- `sources/` — Source documents (raw/, processed/, research/)
+- `praxis/` — Operational knowledge corpus + memory + exempla
 - `agents/` — Filesystem kanban for agent task dispatch (per-agent subfolders)
 
 - `-SOVEREIGN/` — Async decision queue from CLI agents to Sovereign
 
 ## Key Files
-- `IMPLEMENTATION-MAP.md` at `00-ORCHESTRATION/state/IMPLEMENTATION-MAP.md` — 100+ sprint-level tasks
+- `IMPLEMENTATION-MAP.md` at `orchestration/state/IMPLEMENTATION-MAP.md` — 100+ sprint-level tasks
 - `README.md` — Constellation avatar/role assignments (authoritative)
 - `ARCH-INTENTION_COMPASS.md` — Active strategic intentions
 - `ARCH-CONSTELLATION_AGENT_LOOPS.md` — 7-phase agent loop architecture
-- `REF-ROSETTA_STONE.md` at `02-ENGINE/` — 209+ term glossary
+- `REF-ROSETTA_STONE.md` at `engine/` — 209+ term glossary
 
 ## Conventions
 - All files are Markdown (.md), not Org-mode

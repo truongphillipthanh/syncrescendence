@@ -129,7 +129,7 @@ FAIL — API unreachable in this environment (DNS/network blocked), so create �
 ```
 
 **Blocked Write Steps**
-I could not update `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-da12_syn53_todoist_completion_rerun.md`, write the result file, or append logs in `00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md` due to read-only sandbox restrictions.
+I could not update `-INBOX/adjudicator/10-IN_PROGRESS/TASK-20260211-da12_syn53_todoist_completion_rerun.md`, write the result file, or append logs in `orchestration/state/DYN-EXECUTION_STAGING.md` due to read-only sandbox restrictions.
 
 **Next Steps**
 1. Run the same REST v2 smoke flow on a shell with outbound network access, then record the create→update→close responses.

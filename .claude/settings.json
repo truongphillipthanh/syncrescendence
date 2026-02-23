@@ -36,15 +36,15 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash 00-ORCHESTRATION/scripts/session_log.sh"
+            "command": "bash orchestration/scripts/session_log.sh"
           },
           {
             "type": "command",
-            "command": "bash 00-ORCHESTRATION/scripts/ajna_pedigree.sh"
+            "command": "bash orchestration/scripts/ajna_pedigree.sh"
           },
           {
             "type": "command",
-            "command": "bash 00-ORCHESTRATION/scripts/create_execution_log.sh"
+            "command": "bash orchestration/scripts/create_execution_log.sh"
           }
         ]
       }
@@ -55,7 +55,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash 00-ORCHESTRATION/scripts/pre_compaction.sh"
+            "command": "bash orchestration/scripts/pre_compaction.sh"
           }
         ]
       }
@@ -66,7 +66,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash 00-ORCHESTRATION/scripts/intent_compass.sh"
+            "command": "bash orchestration/scripts/intent_compass.sh"
           }
         ]
       }
@@ -77,7 +77,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash 00-ORCHESTRATION/scripts/post_commit_ledger.sh"
+            "command": "bash orchestration/scripts/post_commit_ledger.sh"
           }
         ]
       }

@@ -31,19 +31,19 @@ Expected: Config shows macbook-air alias, SSH returns MBA hostname. Flag if host
 
 ### 3. dispatch.sh SCP Sling Audit
 ```bash
-grep -n 'REMOTE_AGENT_HOST' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/dispatch.sh | head -20
+grep -n 'REMOTE_AGENT_HOST' ~/Desktop/syncrescendence/orchestration/scripts/dispatch.sh | head -20
 ```
 Verify dispatch.sh reads the env vars correctly and skips SCP for 'local'.
 
 ### 4. auto_ingest CONFIRM SCP-back Audit
 ```bash
-grep -n -A15 'Neural Bridge' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/auto_ingest_loop.sh
+grep -n -A15 'Neural Bridge' ~/Desktop/syncrescendence/orchestration/scripts/auto_ingest_loop.sh
 ```
 Verify: SCP-back code exists, uses correct env var pattern, handles 'local' skip.
 
 ### 5. Watchdog SSH Health Audit
 ```bash
-grep -n -A10 'Neural Bridge' ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/constellation_watchdog.sh
+grep -n -A10 'Neural Bridge' ~/Desktop/syncrescendence/orchestration/scripts/constellation_watchdog.sh
 ```
 Verify: SSH probe exists, uses 'macbook-air' alias, writes status to health report.
 

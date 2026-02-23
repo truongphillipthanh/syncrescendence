@@ -39,7 +39,7 @@ Change: `gpt-5.1-codex` → `gpt-5.2-codex` in `SYNCRESCENDENCE_CODEX_MODEL`
 Then: same launchctl bootout/bootstrap cycle.
 
 ### Fix 3: Harden watch_dispatch.sh Output Validation
-File: `00-ORCHESTRATION/scripts/watch_dispatch.sh` (line ~609)
+File: `orchestration/scripts/watch_dispatch.sh` (line ~609)
 
 Add `usage limit` and `hit your.*limit` to the fatal error regex so rate-limited executions are correctly marked FAILED.
 

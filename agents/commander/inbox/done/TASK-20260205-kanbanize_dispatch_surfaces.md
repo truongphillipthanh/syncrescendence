@@ -20,10 +20,10 @@
 Read the clarescence + decision atom and propose/implement a concrete kanbanized dispatch architecture for the constellation.
 
 Inputs:
-- Clarescence: 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-05-kanban-inboxes.md
-- DecisionAtom: 00-ORCHESTRATION/state/impl/tooling/DEC-20260205-192130-kanban-inboxes.md
-- Current scripts: 00-ORCHESTRATION/scripts/dispatch.sh, watch_dispatch.sh, append_ledger.sh
-- Neo-Blitzkrieg context: 00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md (dispatch modes)
+- Clarescence: orchestration/state/impl/clarescence/CLARESCENCE-2026-02-05-kanban-inboxes.md
+- DecisionAtom: orchestration/state/impl/tooling/DEC-20260205-192130-kanban-inboxes.md
+- Current scripts: orchestration/scripts/dispatch.sh, watch_dispatch.sh, append_ledger.sh
+- Neo-Blitzkrieg context: orchestration/state/REF-NEO_BLITZKRIEG_BUILDOUT.md (dispatch modes)
 
 Objective:
 1) Convert flat -INBOX/-OUTGOING into a filesystem-kanban design that preserves Inbox 0 and retains directives/receipts/artifacts.
@@ -36,7 +36,7 @@ Objective:
    - ensure watchers ignore RECEIPT-* and only execute tasks addressed to them (**To** guard already exists on Psyche; make it canonical for all watchers)
 
 Deliverables:
-- A short architecture doc: 00-ORCHESTRATION/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
+- A short architecture doc: orchestration/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
 - Script patches + a one-time migration script for existing inbox files.
 - Smoke test instructions.
 
@@ -55,8 +55,8 @@ Constraints:
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

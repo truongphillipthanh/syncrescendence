@@ -32,7 +32,7 @@ This command invokes the clarescence skill defined in `.claude/skills/claresce.m
 - **Strategic (0 + 1–10)**: Substrate-affecting, irreversible
 
 ### Output
-- Clarescence record → `00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-YYYY-MM-DD-<slug>.md`
+- Clarescence record → `orchestration/state/impl/clarescence/CLARESCENCE-YYYY-MM-DD-<slug>.md`
 - DecisionAtom if a binding decision is made
 - Backlog + ledger updates
 - Falsifier + confidence level (mandatory)
@@ -42,4 +42,4 @@ Orient. Situate. Calibrate. Comprehensively. Meticulously. Rigorously.
 
 ## Skill Reference
 Full procedure: `.claude/skills/claresce.md`
-Full runbook with templates: `02-ENGINE/REF-CLARESCENCE_RUNBOOK.md`
+Full runbook with templates: `engine/REF-CLARESCENCE_RUNBOOK.md`

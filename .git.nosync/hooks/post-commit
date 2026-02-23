@@ -15,7 +15,7 @@ message: $(git log -1 --pretty=%B | head -1)
 EOF
 
 # Append COMMIT event to Global Ledger
-LEDGER_SCRIPT="$REPO_ROOT/00-ORCHESTRATION/scripts/append_ledger.sh"
+LEDGER_SCRIPT="$REPO_ROOT/orchestration/scripts/append_ledger.sh"
 if [ -x "$LEDGER_SCRIPT" ]; then
     AUTHOR=$(git log -1 --pretty=%an 2>/dev/null | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
     MSG=$(git log -1 --pretty=%s 2>/dev/null | head -c 80)

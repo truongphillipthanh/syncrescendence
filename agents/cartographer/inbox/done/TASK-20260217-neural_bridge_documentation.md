@@ -21,7 +21,7 @@ Comprehensively document the Neural Bridge architecture. This is the most critic
 ## Deliverable 1: Update ARCH-UNPLUG_RECOVERY_ARCHITECTURE.md
 
 Add a comprehensive Neural Bridge section to the existing recovery architecture document at:
-`00-ORCHESTRATION/state/ARCH-UNPLUG_RECOVERY_ARCHITECTURE.md`
+`orchestration/state/ARCH-UNPLUG_RECOVERY_ARCHITECTURE.md`
 
 Include:
 1. ASCII diagram of the full bidirectional SSH topology
@@ -33,7 +33,7 @@ Include:
 ## Deliverable 2: Create ARCH-NEURAL_BRIDGE.md
 
 Create a dedicated architecture document at:
-`00-ORCHESTRATION/state/ARCH-NEURAL_BRIDGE.md`
+`orchestration/state/ARCH-NEURAL_BRIDGE.md`
 
 Comprehensive contents:
 
@@ -50,9 +50,9 @@ Comprehensive contents:
 | SSH key (MM→MBA) | ~/.ssh/authorized_keys | ~/.ssh/id_ed25519_ajna_to_psyche | Authentication |
 | SSH config | ~/.ssh/config (alias: mini) | ~/.ssh/config (alias: macbook-air) | Connection params |
 | Env vars | ~/.zshrc | ~/.zshrc | Dispatch routing |
-| dispatch.sh | 00-ORCHESTRATION/scripts/ | 00-ORCHESTRATION/scripts/ | TASK SCP sling |
-| auto_ingest_loop.sh | N/A (MBA doesn't run ingest) | 00-ORCHESTRATION/scripts/ | CONFIRM SCP back |
-| constellation_watchdog.sh | N/A | 00-ORCHESTRATION/scripts/ | SSH health monitoring |
+| dispatch.sh | orchestration/scripts/ | orchestration/scripts/ | TASK SCP sling |
+| auto_ingest_loop.sh | N/A (MBA doesn't run ingest) | orchestration/scripts/ | CONFIRM SCP back |
+| constellation_watchdog.sh | N/A | orchestration/scripts/ | SSH health monitoring |
 
 ### 3. Data Flows
 - TASK dispatch: MBA Commander → dispatch.sh → SCP to MM INBOX → auto-ingest picks up

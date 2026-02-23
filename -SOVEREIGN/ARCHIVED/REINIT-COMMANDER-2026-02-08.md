@@ -80,7 +80,7 @@ Open a NEW Ghostty terminal (to pick up .zshrc changes):
    ```
    cockpit
    # OR: sesh connect constellation
-   # OR: bash ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/cockpit.sh
+   # OR: bash ~/Desktop/syncrescendence/orchestration/scripts/cockpit.sh
    ```
    Verify: 4 panes in 2x2 grid appear
 
@@ -126,12 +126,12 @@ Open a NEW Ghostty terminal (to pick up .zshrc changes):
 
 14. [ ] Test TTS:
     ```
-    echo "The Commander reports all systems nominal" | bash ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/voice-speak.sh --persona commander
+    echo "The Commander reports all systems nominal" | bash ~/Desktop/syncrescendence/orchestration/scripts/voice-speak.sh --persona commander
     ```
 
 15. [ ] Test STT (requires microphone):
     ```
-    bash ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/voice-capture.sh --clipboard
+    bash ~/Desktop/syncrescendence/orchestration/scripts/voice-capture.sh --clipboard
     # Speak → should see transcription → copied to clipboard
     ```
 

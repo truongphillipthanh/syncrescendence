@@ -25,7 +25,7 @@
 
 Design complete Kinetic Layer data artifacts for PROJ-006b Phase B. You are the **coequal data architect** for this phase. Commander owns the schema DDL and Python code; you own the **precision taxonomy and exhaustive mappings** that populate the kinetic tables.
 
-Produce **5 structured markdown files** in `00-ORCHESTRATION/state/impl/kinetic/`. Each file contains markdown tables that Commander will parse into Python seed data. Accuracy and coverage matter more than speed.
+Produce **5 structured markdown files** in `orchestration/state/impl/kinetic/`. Each file contains markdown tables that Commander will parse into Python seed data. Accuracy and coverage matter more than speed.
 
 ---
 
@@ -59,7 +59,7 @@ Keep existing `roles` table as-is (it has FK consumers). Create `action_types` a
 
 ## Deliverable 1: ACTION_TYPES.md
 
-**Path**: `00-ORCHESTRATION/state/impl/kinetic/ACTION_TYPES.md`
+**Path**: `orchestration/state/impl/kinetic/ACTION_TYPES.md`
 
 Design the complete action type vocabulary — the "verbs" of the ontology.
 
@@ -109,7 +109,7 @@ Design the complete action type vocabulary — the "verbs" of the ontology.
 
 ## Deliverable 2: APP_ACTIONS.md
 
-**Path**: `00-ORCHESTRATION/state/impl/kinetic/APP_ACTIONS.md`
+**Path**: `orchestration/state/impl/kinetic/APP_ACTIONS.md`
 
 Map the top 40 most functionally significant apps to their supported action types.
 
@@ -138,7 +138,7 @@ Each app: 3-8 action mappings. Be precise about quality — `excellent` means be
 
 ## Deliverable 3: AGENT_BINDINGS.md
 
-**Path**: `00-ORCHESTRATION/state/impl/kinetic/AGENT_BINDINGS.md`
+**Path**: `orchestration/state/impl/kinetic/AGENT_BINDINGS.md`
 
 Map each Constellation agent to their app-action bindings. This answers: "When agent X needs to do action Y, which app do they use and how?"
 
@@ -171,7 +171,7 @@ Map each Constellation agent to their app-action bindings. This answers: "When a
 
 ## Deliverable 4: MODEL_CAPABILITIES.md
 
-**Path**: `00-ORCHESTRATION/state/impl/kinetic/MODEL_CAPABILITIES.md`
+**Path**: `orchestration/state/impl/kinetic/MODEL_CAPABILITIES.md`
 
 Map each of the 20 AI models to their modality capabilities.
 
@@ -198,7 +198,7 @@ Map each of the 20 AI models to their modality capabilities.
 
 ## Deliverable 5: WORKFLOW_TEMPLATES.md
 
-**Path**: `00-ORCHESTRATION/state/impl/kinetic/WORKFLOW_TEMPLATES.md`
+**Path**: `orchestration/state/impl/kinetic/WORKFLOW_TEMPLATES.md`
 
 Define formal workflow templates with step sequences.
 
@@ -276,10 +276,10 @@ xai-grok-3
 
 ## Completion Protocol
 
-1. Write all 5 files to `00-ORCHESTRATION/state/impl/kinetic/`
+1. Write all 5 files to `orchestration/state/impl/kinetic/`
 2. Verify each file has the correct markdown table format
 3. Cross-check: every `action_code` in APP_ACTIONS.md and AGENT_BINDINGS.md exists in ACTION_TYPES.md
 4. Cross-check: every `app_slug` in APP_ACTIONS.md and AGENT_BINDINGS.md exists in the slug reference list
 5. Cross-check: every `model_slug` in MODEL_CAPABILITIES.md exists in the model slug reference list
-6. Commit: `git add 00-ORCHESTRATION/state/impl/kinetic/ && git commit -m "feat(PROJ-006b): Adjudicator kinetic data artifacts — 5 deliverables for Phase B"`
+6. Commit: `git add orchestration/state/impl/kinetic/ && git commit -m "feat(PROJ-006b): Adjudicator kinetic data artifacts — 5 deliverables for Phase B"`
 7. Report results to commander via RESULT file

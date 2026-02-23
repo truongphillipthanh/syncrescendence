@@ -137,7 +137,7 @@ Your 7-phase loop as defined by the Sovereign remains canonical. Reference: `ARC
 Key phases:
 1. ORIENT → leverage OpenClaw memory architecture (HEARTBEAT.md, skills)
 2. SITUATE → cd syncrescendence, assess state
-3. CALIBRATE → cd 01-CANON, ground truth
+3. CALIBRATE → cd canon, ground truth
 4. TRIAGE → cd -INBOX/ajna/, process tasks, dispatch
 5. PROACTIVE → seek meta/macro work, dispatch to appropriate agents
 6. SOVEREIGN → deep awareness on direct interaction

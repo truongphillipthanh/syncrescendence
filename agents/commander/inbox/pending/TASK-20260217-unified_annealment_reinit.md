@@ -13,7 +13,7 @@
 
 - **What**: Full-spectrum ontological synthesis across ~616K tokens of corpus material
 - **Why**: ARCH-ONTOLOGY_ANNEALMENT_v1.md (605 lines, committed at 6eb4653) was produced under context duress by a session that blew out 3 times. It's architecturally sound but was synthesized from incomplete ingestion — the clarescence corpus (65 files), CANON (79 files), and convergence docs were never fully read.
-- **Deliverable**: `00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md`
+- **Deliverable**: `orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md`
 - **Source directive**: "Take everything learned from annealment passes, merge with everything from every clarescence, identify all canonical concepts in the scaffold, triangulate with the exocortex, reaffirm the ontology reconception from the metacharacterization + convergence docs. New unified annealment of everything."
 
 ---
@@ -102,11 +102,11 @@ Brutally honest. Numbered. Root cause for each. DO NOT REPEAT THESE.
 | metachar-convergence-indexer | `.scratch/ANNEAL-DIGEST-METACHAR.md` | CHECK |
 | v1-gap-analyzer | `.scratch/ANNEAL-DIGEST-GAPS.md` | CHECK |
 
-**First action**: `ls -la /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-*.md && wc -l` those files. Note which are present and their sizes.
+**First action**: `ls -la /Users/home/Desktop/syncrescendence/orchestration/state/impl/.scratch/ANNEAL-DIGEST-*.md && wc -l` those files. Note which are present and their sizes.
 
 ### Existing Artifacts
-- `00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v1.md` — 605 lines, committed at 6eb4653. Keep as historical.
-- `00-ORCHESTRATION/state/impl/.scratch/` — digest output directory (may need `mkdir -p`).
+- `orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v1.md` — 605 lines, committed at 6eb4653. Keep as historical.
+- `orchestration/state/impl/.scratch/` — digest output directory (may need `mkdir -p`).
 
 ### Working Tree
 - Committed at f27ca2b (Session 20 handoff).
@@ -127,18 +127,18 @@ Brutally honest. Numbered. Root cause for each. DO NOT REPEAT THESE.
 
 ### Step 0: Verify Phase 1 Digests
 ```bash
-ls -la /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-*.md
-wc -l /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-*.md
+ls -la /Users/home/Desktop/syncrescendence/orchestration/state/impl/.scratch/ANNEAL-DIGEST-*.md
+wc -l /Users/home/Desktop/syncrescendence/orchestration/state/impl/.scratch/ANNEAL-DIGEST-*.md
 ```
 
-**KNOWN FAILURE**: canon-indexer failed — "Prompt is too long." 264K tokens exceeded Sonnet agent capacity. CANON must be split into 3-4 sub-agents. Use `ls 01-CANON/*.md | wc -l` to count files, then split alphabetically or by CANON-ID range. Each sub-agent produces a partial digest, then a merge agent combines them.
+**KNOWN FAILURE**: canon-indexer failed — "Prompt is too long." 264K tokens exceeded Sonnet agent capacity. CANON must be split into 3-4 sub-agents. Use `ls canon/*.md | wc -l` to count files, then split alphabetically or by CANON-ID range. Each sub-agent produces a partial digest, then a merge agent combines them.
 
 **Decision tree**:
 - All 5 present AND each >100 lines → proceed to Step 1
 - Some missing or <100 lines → re-dispatch those specific domains:
-  - For CANON: agent reads `01-CANON/*.md`, extracts concepts/primitives/identity
-  - For CLARESCENCE: agent reads `00-ORCHESTRATION/state/impl/clarescence/*.md`, extracts decisions/terms
-  - For SCAFFOLD: agent reads `00-ORCHESTRATION/state/*.md` + `02-ENGINE/*.md` + `05-SIGMA/**/*.md`
+  - For CANON: agent reads `canon/*.md`, extracts concepts/primitives/identity
+  - For CLARESCENCE: agent reads `orchestration/state/impl/clarescence/*.md`, extracts decisions/terms
+  - For SCAFFOLD: agent reads `orchestration/state/*.md` + `engine/*.md` + `praxis/**/*.md`
   - For METACHAR: agent reads both metacharacterization dirs + convergence docs (WARN: CLAUDE.md trap — use specific file paths, not directory reads)
   - For GAPS: agent reads v1 + memory + intentions + IMPL map
 - All 5 missing → full re-dispatch needed (previous agents may have all failed)
@@ -158,7 +158,7 @@ Launch a SINGLE Sonnet 4.6 agent (model="sonnet") that:
    - `/Users/home/Desktop/syncrescendence/-INBOX/commander/new_ontology_metacharacterization_2/claude.md`
    - `/Users/home/Desktop/syncrescendence/-INBOX/commander/new_ontology_metacharacterization_2/chatgpt.md`
 5. Cross-references ALL material
-6. Writes `00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md`
+6. Writes `orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md`
 
 **Prompt for the convergence agent must specify**:
 - Cross-reference all 5 digests against each other
@@ -181,8 +181,8 @@ Spot-checks (3-5 targeted reads, 50-100 lines each):
 ### Step 3: Commit + State Update
 
 ```bash
-git add 00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md
-git add 00-ORCHESTRATION/state/impl/.scratch/ANNEAL-DIGEST-*.md
+git add orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md
+git add orchestration/state/impl/.scratch/ANNEAL-DIGEST-*.md
 git commit -m "arch(ontology): unified annealment v2 — full corpus synthesis
 
 Produced via progressive summarization: 616K tokens → 5 domain digests → 1 convergence synthesis.
@@ -201,11 +201,11 @@ Update:
 
 | Domain | Path | Files | Lines | ~Tokens |
 |--------|------|-------|-------|---------|
-| CANON | `01-CANON/*.md` | 79 | 66,031 | ~264K |
-| ENGINE | `02-ENGINE/*.md` | many | 20,182 | ~80K |
-| SIGMA | `05-SIGMA/**/*.md` | many | 4,500 | ~18K |
-| Clarescence | `00-ORCHESTRATION/state/impl/clarescence/*.md` | 65 | 21,207 | ~85K |
-| Scaffold state | `00-ORCHESTRATION/state/*.md` | many | 34,569 | ~138K |
+| CANON | `canon/*.md` | 79 | 66,031 | ~264K |
+| ENGINE | `engine/*.md` | many | 20,182 | ~80K |
+| SIGMA | `praxis/**/*.md` | many | 4,500 | ~18K |
+| Clarescence | `orchestration/state/impl/clarescence/*.md` | 65 | 21,207 | ~85K |
+| Scaffold state | `orchestration/state/*.md` | many | 34,569 | ~138K |
 | Metachar set 1 | `-INBOX/commander/new_ontology_metacharacterization/*.md` | 5 | 1,052 | ~4K |
 | Metachar set 2 | `-INBOX/commander/new_ontology_metacharacterization_2/*.md` | 5 | 1,004 | ~4K |
 | Convergence | `-INBOX/commander/syncrescen{dence,dent}_convergence{,_aligned}.md` | 2 | 4,955 | ~20K |

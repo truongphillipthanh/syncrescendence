@@ -28,12 +28,12 @@ Audit the coherence, optimization, and resilience of the research-to-insight pip
 **CONTEXT**: Commander extracted 46 insights from 59 articles, injected 12 intent vectors + 7 patterns into ARCH-INTENTION_COMPASS.md (SESSION 17), and created 46 backlog items in IMPLEMENTATION-BACKLOG.md (Tranche Q: 25 items, Tranche P: 21 items). A 780-line pipeline automation spec was written. Your job is to stress-test the COHERENCE of this entire chain.
 
 **REQUIRED READS**:
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights)
-- 00-ORCHESTRATION/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (780 lines)
-- 00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md — specifically SESSION 17 (INT-1701 through INT-1712, INT-P017 through INT-P022)
-- 00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md — specifically Tranche Q (IMPL-Q-0001 through Q-0025) and Tranche P (IMPL-P-0001 through P-0021)
-- 00-ORCHESTRATION/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-VERY-HIGH-SIGNAL.md (28 insights)
+- orchestration/state/impl/clarescence/RESEARCH-INSIGHTS-HIGH-SIGNAL.md (18 insights)
+- orchestration/state/impl/clarescence/RESEARCH-PIPELINE-AUTOMATION-SPEC.md (780 lines)
+- orchestration/state/ARCH-INTENTION_COMPASS.md — specifically SESSION 17 (INT-1701 through INT-1712, INT-P017 through INT-P022)
+- orchestration/state/IMPLEMENTATION-BACKLOG.md — specifically Tranche Q (IMPL-Q-0001 through Q-0025) and Tranche P (IMPL-P-0001 through P-0021)
+- orchestration/state/impl/clarescence/CLARESCENCE-2026-02-16-research-partitioning-insights.md (operation record)
 
 **AUDIT DIMENSIONS**:
 
@@ -56,8 +56,8 @@ Audit the coherence, optimization, and resilience of the research-to-insight pip
 Consult as needed:
 - `COCKPIT.md` — Constellation overview
 - `CLAUDE.md` — Constitutional rules
-- `00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` — Active intentions
-- `02-ENGINE/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
+- `orchestration/state/ARCH-INTENTION_COMPASS.md` — Active intentions
+- `engine/DEF-CONSTELLATION_VARIABLES.md` — Global definitions
 
 ## Expected Output
 

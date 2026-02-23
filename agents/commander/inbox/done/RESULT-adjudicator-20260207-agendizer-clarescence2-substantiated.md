@@ -14,8 +14,8 @@
 - `/Users/system/Desktop/Agendizer/primitive_research.md`
 - `/Users/system/Desktop/Agendizer/primitive_research2.md`
 - `/Users/system/Desktop/Agendizer/agendizer-prd-v0.1.docx`
-- `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/DEC-20260206-144500-disposition-routing-charter.md`
-- `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CLARESCENCE-2026-02-06-disposition-routing-charter.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/DEC-20260206-144500-disposition-routing-charter.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/CLARESCENCE-2026-02-06-disposition-routing-charter.md`
 
 These documents remain coherent with Agendizer's core thesis: `capture -> interpret -> situate -> ledger -> connect -> dispatch` as one stateful cognitive supply chain.
 

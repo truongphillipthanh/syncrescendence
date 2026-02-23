@@ -126,15 +126,15 @@ Clarescence Complete — Session 16 Sovereign Expansion Directive
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
   │ .github/          │ 3     │ ~12K            │ CI/CD                        │
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
-  │ 00-ORCHESTRATION/ │ 212   │ ~2.5MB          │ Orchestration (largest)      │
+  │ orchestration/ │ 212   │ ~2.5MB          │ Orchestration (largest)      │
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
-  │ 01-CANON/         │ 160   │ ~4.2MB          │ Canon (heaviest by bytes)    │
+  │ canon/         │ 160   │ ~4.2MB          │ Canon (heaviest by bytes)    │
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
-  │ 02-ENGINE/        │ 75    │ ~700K           │ Engine                       │
+  │ engine/        │ 75    │ ~700K           │ Engine                       │
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
-  │ 04-SOURCES/       │ 150   │ ~2.5MB          │ Research + Processed         │
+  │ sources/       │ 150   │ ~2.5MB          │ Research + Processed         │
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
-  │ 05-SIGMA/         │ 18    │ ~95K            │ Operational knowledge        │
+  │ praxis/         │ 18    │ ~95K            │ Operational knowledge        │
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
   │ Root files        │ 5     │ ~58K            │ Config roots                 │
   ├───────────────────┼───────┼─────────────────┼──────────────────────────────┤
@@ -216,7 +216,7 @@ Clarescence Complete — Session 16 Sovereign Expansion Directive
 
   A-08: MASSIVE UNPROCESSED RESEARCH
 
-  04-SOURCES/research/ajna9-fodder/ — 27 files, ~600K+ total. Multi-platform research streams
+  sources/research/ajna9-fodder/ — 27 files, ~600K+ total. Multi-platform research streams
    (3 unified, 5 per-stream x3 platforms, 4 meta files). No evidence of processing into
   CANON.
 

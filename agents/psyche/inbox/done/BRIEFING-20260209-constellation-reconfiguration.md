@@ -149,7 +149,7 @@ Psyche Loop (CTO/Rudder):
    Assess: git status, Docker health, launchd services, inbox states
    /claresce (2-situate)
 
-3. CALIBRATE → cd Desktop/syncrescendence/00-ORCHESTRATION
+3. CALIBRATE → cd Desktop/syncrescendence/orchestration
    Check: ARCH-CONSTELLATION_AGENT_LOOPS.md, IMPLEMENTATION-MAP.md
    Verify: All agents compliant with Constitutional Rules
    HOOKS /claresce (3-calibrate)

@@ -14,5 +14,5 @@
 ## Decisions
 - **Session ID**: `mm-cartographer` (Manus Mode for Cartographer).
 - **Fidelity**: Tactical clarescence (Passes 0+1-3) deemed sufficient for reactivation.
-- **Archive Policy**: Moved Adjudicator's security audit planning files to `00-ORCHESTRATION/archive/planning-backups/`.
+- **Archive Policy**: Moved Adjudicator's security audit planning files to `orchestration/archive/planning-backups/`.
 - **Commit Strategy**: Will only stage and commit files related to Cartographer's reactivation and the specific refresh task.

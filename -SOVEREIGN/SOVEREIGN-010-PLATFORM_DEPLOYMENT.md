@@ -9,7 +9,7 @@
 
 ## OVERVIEW
 
-Every AVATAR configuration file is complete. No instruction text needs to be written — it all exists in 02-ENGINE/AVATAR-*.md and PROTO-*-Onboarding.md. This checklist walks you through pasting it into each platform's actual settings.
+Every AVATAR configuration file is complete. No instruction text needs to be written — it all exists in engine/AVATAR-*.md and PROTO-*-Onboarding.md. This checklist walks you through pasting it into each platform's actual settings.
 
 ---
 
@@ -54,7 +54,7 @@ Use GPT-5.2 Thinking for complex decomposition. Be precise, measurable, verifiab
 ### Step 2: Create Project
 1. ChatGPT → Projects → New Project → "Syncrescendence Vanguard"
 2. Set memory to Project-Only
-3. Paste project instructions from: `02-ENGINE/PROTO-ChatGPT-Onboarding.md` Section IV
+3. Paste project instructions from: `engine/PROTO-ChatGPT-Onboarding.md` Section IV
 4. Enable: Deep Research, Canvas, Agent Mode
 
 **Verification**: Ask "What is your role?" — should respond with COMPILER/Vanguard framing.
@@ -207,11 +207,11 @@ You don't execute — you think, synthesize, and expand.
 ### Step 1: Create Notebook
 1. Go to NotebookLM → New Notebook → "Syncrescendence Oracle Corpus"
 2. Upload sources:
-   - All files from `01-CANON/` (79 CANON files)
+   - All files from `canon/` (79 CANON files)
    - `COCKPIT.md`
    - `CLAUDE.md`
-   - `02-ENGINE/REF-ROSETTA_STONE.md`
-   - Key state files from `00-ORCHESTRATION/state/`
+   - `engine/REF-ROSETTA_STONE.md`
+   - Key state files from `orchestration/state/`
 3. Save.
 
 **Usage**: Zero-hallucination grounded RAG. Query against uploaded sources only.
@@ -232,4 +232,4 @@ After all platforms are configured:
 
 ---
 
-*All instruction text sourced from 02-ENGINE/AVATAR-*.md and 02-ENGINE/PROTO-*-Onboarding.md. This checklist is the deployment surface — the intellectual work is done.*
+*All instruction text sourced from engine/AVATAR-*.md and engine/PROTO-*-Onboarding.md. This checklist is the deployment surface — the intellectual work is done.*

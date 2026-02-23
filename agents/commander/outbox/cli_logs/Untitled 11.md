@@ -23,7 +23,7 @@
 
  1b. DYN-BACKLOG.md — PROJ-006b description
 
- - File: /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-BACKLOG.md (line ~36)
+ - File: /Users/home/Desktop/syncrescendence/orchestration/state/DYN-BACKLOG.md (line ~36)
  - Change: Update PROJ-006b to reflect current state:
    - "36 tables, 608 tracked rows" → "43 tables, 1080 tracked rows"
    - "13 commands" → "18 commands"
@@ -40,7 +40,7 @@
  ---
  Step 2: Ontology Strategic Enrichment (DA-10) — build_ontology_db.py
 
- File: /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/build_ontology_db.py
+ File: /Users/home/Desktop/syncrescendence/orchestration/scripts/build_ontology_db.py
 
  Replace seed data in seed_strategic_entities() with REAL operational data from verified sources.
 
@@ -161,7 +161,7 @@
  ---
  Step 3: Query Surface Expansion — ontology_query.py
 
- File: /Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/ontology_query.py
+ File: /Users/home/Desktop/syncrescendence/orchestration/scripts/ontology_query.py
 
  3a. Add cmd_relationships command
 
@@ -229,15 +229,15 @@
  ├────────────────────────────────────────────────────┼───────────────────────────────────────────┤
  │ COCKPIT.md                                         │ Cartographer Watcher → HIBERNATED         │
  ├────────────────────────────────────────────────────┼───────────────────────────────────────────┤
- │ 00-ORCHESTRATION/state/DYN-BACKLOG.md              │ PROJ-006b description + progress          │
+ │ orchestration/state/DYN-BACKLOG.md              │ PROJ-006b description + progress          │
  ├────────────────────────────────────────────────────┼───────────────────────────────────────────┤
  │ ~/.claude/projects/-Users-home/memory/MEMORY.md    │ PROJ-006b entry                           │
  ├────────────────────────────────────────────────────┼───────────────────────────────────────────┤
- │ 00-ORCHESTRATION/scripts/build_ontology_db.py      │ seed_strategic_entities() — real data     │
+ │ orchestration/scripts/build_ontology_db.py      │ seed_strategic_entities() — real data     │
  ├────────────────────────────────────────────────────┼───────────────────────────────────────────┤
- │ 00-ORCHESTRATION/scripts/ontology_query.py         │ +2 commands (relationships, environments) │
+ │ orchestration/scripts/ontology_query.py         │ +2 commands (relationships, environments) │
  ├────────────────────────────────────────────────────┼───────────────────────────────────────────┤
- │ 00-ORCHESTRATION/state/DYN-GLOBAL_LEDGER.md        │ Append DA-09/10/11 entries                │
+ │ orchestration/state/DYN-GLOBAL_LEDGER.md        │ Append DA-09/10/11 entries                │
  ├────────────────────────────────────────────────────┼───────────────────────────────────────────┤
  │ -INBOX/commander/00-INBOX0/TASK-LINEAR-STATUS-*.md │ Move to 40-DONE/                          │
  └────────────────────────────────────────────────────┴───────────────────────────────────────────┘

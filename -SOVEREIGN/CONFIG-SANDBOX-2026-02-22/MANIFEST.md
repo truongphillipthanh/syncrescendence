@@ -58,7 +58,7 @@ launchd/                ~/Library/LaunchAgents/ plists
   com.syncrescendence.proactive-orchestrator.plist
   com.syncrescendence.youtube-ingest.plist
 
-engine/                 02-ENGINE/ machine-readable configs
+engine/                 engine/ machine-readable configs
   yaml/                 DYN-COORDINATION, DYN-IIC_REGISTRY, TOOL-001..004, WF-001
   json/                 DYN-CONSTELLATION_CONFIGURATION, gemini-settings
   csv/                  DYN-ACCOUNTS, DYN-PLATFORMS, DYN-ROLES
@@ -92,5 +92,5 @@ skills/                 35 skill modules (SKILL.md each)
 
 - OpenClaw `.env` is redacted — original at `~/.openclaw/.env`
 - SSH config contains Neural Bridge aliases (`mini`, `macbook-air`) with key paths
-- launchd plists reference scripts in `00-ORCHESTRATION/scripts/`
+- launchd plists reference scripts in `orchestration/scripts/`
 - Skills are resolved from symlinks — these are the actual SKILL.md content

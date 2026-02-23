@@ -11,7 +11,7 @@
 
 ## In Progress
 - **SYN-36**: Skill ecosystem expansion — skills.sh + Apple Notes extraction (Low priority, Unassigned)
-- **SYN-32**: 02-ENGINE consolidation — mereological triage into pipelines (High priority, Unassigned)
+- **SYN-32**: engine consolidation — mereological triage into pipelines (High priority, Unassigned)
 - **SYN-16**: IMPL-A-0012: Linear as source of truth with repo snapshot sync (No priority, Unassigned) [P1-High label]
 
 ## Todo — Priority Items

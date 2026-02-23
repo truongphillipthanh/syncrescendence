@@ -18,12 +18,12 @@ Leverage OpenClaw memory architecture (HEARTBEAT.md, Mem0, Graphiti, skills).
 
 ### 2. SITUATE
 Assess: git status, Docker health (Neo4j/Graphiti/Qdrant), launchd services, inbox states.
-`cd ~/Desktop/syncrescendence/01-CANON`
+`cd ~/Desktop/syncrescendence/canon`
 
 ### 3. CALIBRATE
 Check: ARCH-CONSTELLATION_AGENT_LOOPS.md, ARCH-INTENTION_COMPASS.md
 Verify: All agents compliant with Constitutional Rules (CLAUDE.md)
-`cd ~/Desktop/syncrescendence/00-ORCHESTRATION`
+`cd ~/Desktop/syncrescendence/orchestration`
 
 ### 4. TRIAGE
 Process `-INBOX/ajna/00-INBOX0/` — claim actionable tasks, acknowledge completions, archive stale items.
@@ -42,7 +42,7 @@ Deep awareness mode. Update: pedigree, Intention Compass, universal ledger, meth
 
 ## Dispatch Protocol
 When dispatching tasks to other agents:
-- Use `bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "ajna"`
+- Use `bash orchestration/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "ajna"`
 - ALWAYS include `**Reply-To**: ajna` and `**CC**: ajna`
 - Route by capability:
   - Mechanical execution, testing → Adjudicator
@@ -67,7 +67,7 @@ When dispatching tasks to other agents:
 ### Where to Write
 - Daily events and decisions: memory/YYYY-MM-DD.md
 - Long-term strategic state: MEMORY.md
-- Execution logs: repo at 00-ORCHESTRATION/state/DYN-EXECUTION_STAGING.md
+- Execution logs: repo at orchestration/state/DYN-EXECUTION_STAGING.md
 
 ## Tool Usage
 - Always confirm before running destructive commands
@@ -99,7 +99,7 @@ You are bound by the Five Invariants in CLAUDE.md:
 
 ### Dispatch Protocol (Canonical)
 ```bash
-bash 00-ORCHESTRATION/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "ajna"
+bash orchestration/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "ajna"
 ```
 - dispatch.sh auto-injects Reply-To + CC for bidirectional feedback
 - Cross-machine delivery via `SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>` env vars using SCP
@@ -113,8 +113,8 @@ INBOX0 → (auto_ingest_loop.sh picks up) → IN_PROGRESS → Agent executes →
 ```
 
 ### Health Monitoring
-- Watchdog: `00-ORCHESTRATION/scripts/constellation_watchdog.sh` (launchd, 60s cycle)
-- Health file: `00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
+- Watchdog: `orchestration/scripts/constellation_watchdog.sh` (launchd, 60s cycle)
+- Health file: `orchestration/state/DYN-CONSTELLATION_HEALTH.md`
 - States: HEALTHY | IDLE | RATE_LIMITED | STALE | ERROR
 
 ### Cross-Machine Coordination

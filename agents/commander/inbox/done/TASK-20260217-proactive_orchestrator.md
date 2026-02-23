@@ -14,7 +14,7 @@
 
 ## Objective
 
-Create a new script `00-ORCHESTRATION/scripts/proactive_orchestrator.sh` that runs periodically (via launchd, every 5 minutes) and generates work for idle agents. This is the missing "brain" — currently agents only work when Commander dispatches. After this, the constellation generates its own tasks.
+Create a new script `orchestration/scripts/proactive_orchestrator.sh` that runs periodically (via launchd, every 5 minutes) and generates work for idle agents. This is the missing "brain" — currently agents only work when Commander dispatches. After this, the constellation generates its own tasks.
 
 IMPORTANT: Create a NEW script. Do NOT modify auto_ingest_loop.sh or constellation_watchdog.sh (other agents are editing those).
 
@@ -32,7 +32,7 @@ IMPORTANT: Create a NEW script. Do NOT modify auto_ingest_loop.sh or constellati
 set -u
 
 REPO_DIR="${HOME}/Desktop/syncrescendence"
-STATE_DIR="${REPO_DIR}/00-ORCHESTRATION/state"
+STATE_DIR="${REPO_DIR}/orchestration/state"
 HEALTH_FILE="${STATE_DIR}/DYN-CONSTELLATION_HEALTH.md"
 ORCHESTRATOR_LOG="${HOME}/Library/Logs/syncrescendence-orchestrator.log"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
@@ -176,7 +176,7 @@ Create `~/Library/LaunchAgents/com.syncrescendence.proactive-orchestrator.plist`
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/home/Desktop/syncrescendence/00-ORCHESTRATION/scripts/proactive_orchestrator.sh</string>
+        <string>/Users/home/Desktop/syncrescendence/orchestration/scripts/proactive_orchestrator.sh</string>
     </array>
     <key>StartInterval</key>
     <integer>300</integer>
@@ -213,11 +213,11 @@ Load it: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.syncrescen
 
 ### Verification
 
-1. Script exists and is executable: `ls -la ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/proactive_orchestrator.sh`
-2. Run it manually: `bash ~/Desktop/syncrescendence/00-ORCHESTRATION/scripts/proactive_orchestrator.sh` — verify no errors
-3. State file created: `cat ~/Desktop/syncrescendence/00-ORCHESTRATION/state/DYN-CONSTELLATION_STATE.md`
+1. Script exists and is executable: `ls -la ~/Desktop/syncrescendence/orchestration/scripts/proactive_orchestrator.sh`
+2. Run it manually: `bash ~/Desktop/syncrescendence/orchestration/scripts/proactive_orchestrator.sh` — verify no errors
+3. State file created: `cat ~/Desktop/syncrescendence/orchestration/state/DYN-CONSTELLATION_STATE.md`
 4. Plist loaded: `launchctl list | grep proactive`
-5. Commit: `git add 00-ORCHESTRATION/scripts/proactive_orchestrator.sh && git commit -m 'feat(orchestration): proactive orchestrator — stale cleanup, constellation state, idle dispatch'`
+5. Commit: `git add orchestration/scripts/proactive_orchestrator.sh && git commit -m 'feat(orchestration): proactive orchestrator — stale cleanup, constellation state, idle dispatch'`
 
 **Reply-To**: commander
 **CC**: commander

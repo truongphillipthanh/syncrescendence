@@ -99,11 +99,11 @@ The **repository** is ground truth. All platforms verify against it via:
 
 ```
 Repository (Account 1 Origin)
-├── 00-ORCHESTRATION/  # Strategic coordination (state/, scripts/, archive/)
-├── 01-CANON/          # Verified canonical knowledge (PROTECTED)
-├── 02-ENGINE/         # Functions, prompts, avatars, model profiles, queue items
-├── 04-SOURCES/        # Source documents (raw/, processed/, research/)
-├── 05-SIGMA/          # Operational knowledge + memory + exempla
+├── orchestration/  # Strategic coordination (state/, scripts/, archive/)
+├── canon/          # Verified canonical knowledge (PROTECTED)
+├── engine/         # Functions, prompts, avatars, model profiles, queue items
+├── sources/        # Source documents (raw/, processed/, research/)
+├── praxis/          # Operational knowledge + memory + exempla
 │   ├── mechanics/     # Deep-dive mechanisms
 │   ├── practice/      # Implementation patterns
 │   └── journal/       # Org-mode daily journal (dormant)
@@ -224,7 +224,7 @@ cockpit --kill       # Kill constellation session
 | 4 | **Cartographer** | `gemini -m gemini-2.5-pro --yolo` | Gemini CLI (2.5 Pro) | CIO, corpus sensing, 1M context surveys |
 
 ### Agent Loop Architecture
-Each agent runs a 7-phase always-on loop. Full specification: `00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md`
+Each agent runs a 7-phase always-on loop. Full specification: `orchestration/state/ARCH-CONSTELLATION_AGENT_LOOPS.md`
 
 ```
 1. ORIENT     → /claresce (situational awareness)
@@ -322,7 +322,7 @@ Doom Emacs serves as a **read-only state monitor and dashboard** — NOT a code 
 - Linear API: `SPC L f` fetches SYN team issues
 - ClickUp API: `SPC U f` fetches tasks by list
 - Dashboard: `SPC d s` (cockpit), `SPC d i` (intentions), `SPC d e` (exec log), `SPC d a` (agenda)
-- Read-only enforcement on `00-ORCHESTRATION/state/` files
+- Read-only enforcement on `orchestration/state/` files
 - Org-super-agenda with P0-P3, BLOCKED, IN-PROGRESS, agent-tag grouping
 
 ### Configured but Unused
@@ -398,7 +398,7 @@ Launch: `doom-dash` (alias for `emacsclient -nw -c`)
 ### 1) Cold Start (zero → operational)
 
 1. `cd ~/Desktop/syncrescendence`
-2. Bring up cockpit: `bash 00-ORCHESTRATION/scripts/cockpit.sh --launch`
+2. Bring up cockpit: `bash orchestration/scripts/cockpit.sh --launch`
 3. Ensure watcher daemons are loaded:
    - `launchctl list | rg com\.syncrescendence\.watch`
 4. Start/verify OpenClaw gateway if needed:
@@ -418,14 +418,14 @@ Launch: `doom-dash` (alias for `emacsclient -nw -c`)
 
 1. Gracefully stop/clear stale loops
 2. Recreate tmux session:
-   - `bash 00-ORCHESTRATION/scripts/cockpit.sh --kill`
-   - `bash 00-ORCHESTRATION/scripts/cockpit.sh --launch`
+   - `bash orchestration/scripts/cockpit.sh --kill`
+   - `bash orchestration/scripts/cockpit.sh --launch`
 3. Reload watcher services if needed
 4. Validate all agent panes + auto-ingest + watchdog report
 
 ### 4) Health Verification Checklist
 
-- `cat 00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md`
+- `cat orchestration/state/DYN-CONSTELLATION_HEALTH.md`
 - `launchctl list | rg com\.syncrescendence\.watch`
 - `docker ps --format '{{.Names}}: {{.Status}}'`
 - `curl -s http://localhost:18789/health || echo "GATEWAY DOWN"`
@@ -475,13 +475,13 @@ Launch: `doom-dash` (alias for `emacsclient -nw -c`)
 
 | Reference | Path |
 |-----------|------|
-| Agent loop architecture | `00-ORCHESTRATION/state/ARCH-CONSTELLATION_AGENT_LOOPS.md` |
-| Blitzkrieg buildout | `00-ORCHESTRATION/state/REF-NEO_BLITZKRIEG_BUILDOUT.md` |
-| Cockpit script | `00-ORCHESTRATION/scripts/cockpit.sh` |
-| Dispatch watcher | `00-ORCHESTRATION/scripts/watch_dispatch.sh` *(DEPRECATED 2026-02-17 — replaced by auto_ingest_loop.sh)* |
-| Fleet handbook | `02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md` |
-| Terminology | `02-ENGINE/REF-ROSETTA_STONE.md` |
-| Stack teleology | `02-ENGINE/REF-STACK_TELEOLOGY.md` |
-| Clarescence runbook | `02-ENGINE/REF-CLARESCENCE_RUNBOOK.md` |
+| Agent loop architecture | `orchestration/state/ARCH-CONSTELLATION_AGENT_LOOPS.md` |
+| Blitzkrieg buildout | `orchestration/state/REF-NEO_BLITZKRIEG_BUILDOUT.md` |
+| Cockpit script | `orchestration/scripts/cockpit.sh` |
+| Dispatch watcher | `orchestration/scripts/watch_dispatch.sh` *(DEPRECATED 2026-02-17 — replaced by auto_ingest_loop.sh)* |
+| Fleet handbook | `engine/REF-FLEET_COMMANDERS_HANDBOOK.md` |
+| Terminology | `engine/REF-ROSETTA_STONE.md` |
+| Stack teleology | `engine/REF-STACK_TELEOLOGY.md` |
+| Clarescence runbook | `engine/REF-CLARESCENCE_RUNBOOK.md` |
 
 *This document provides orientation. For detailed implementation, see the referenced files.*

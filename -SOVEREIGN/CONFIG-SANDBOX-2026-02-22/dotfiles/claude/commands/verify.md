@@ -21,22 +21,22 @@ ls *.md 2>/dev/null | wc -l || echo "0"
 echo ""
 echo "=== Ledger Verification ==="
 echo -n "tasks.csv rows: "
-wc -l < 00-ORCHESTRATION/state/tasks.csv
+wc -l < orchestration/state/tasks.csv
 
 echo -n "projects.csv rows: "
-wc -l < 00-ORCHESTRATION/state/projects.csv
+wc -l < orchestration/state/projects.csv
 
 echo -n "sources.csv rows: "
-wc -l < 04-SOURCES/sources.csv
+wc -l < sources/sources.csv
 
 # Content checks
 echo ""
 echo "=== Content Verification ==="
 echo -n "Processed sources: "
-ls 04-SOURCES/processed/*.md 2>/dev/null | wc -l || echo "0"
+ls sources/processed/*.md 2>/dev/null | wc -l || echo "0"
 
 echo -n "CANON integrations: "
-grep -l "SOURCE-" 01-CANON/*.md 2>/dev/null | wc -l || echo "0"
+grep -l "SOURCE-" canon/*.md 2>/dev/null | wc -l || echo "0"
 
 # Git status
 echo ""

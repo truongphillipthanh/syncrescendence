@@ -24,7 +24,7 @@ Implement Phase 4 (Connect) of the Agendizer Blitzkrieg: L3 Connect depth layer 
 
 Full execution brief with code scaffolds, gates, and step-by-step instructions:
 
-**`00-ORCHESTRATION/state/impl/DISPATCH-20260207-agendizer-phase4-adjudicator.md`**
+**`orchestration/state/impl/DISPATCH-20260207-agendizer-phase4-adjudicator.md`**
 
 ## Prior Gate Reviews
 

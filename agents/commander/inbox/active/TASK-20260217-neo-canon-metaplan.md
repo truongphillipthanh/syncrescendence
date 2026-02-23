@@ -31,17 +31,17 @@ This session (Session 21, 2026-02-17) completed the **Unified Annealment Trilogy
 | `RUNLOGS-MASTER-DIGEST.md` | 236 | Running logs → 22 painful lessons, failure forensics, agent grades |
 | `ARCH-GRAND_ANNEALMENT.md` | 639 | **Terminal synthesis — all layers unified. READ THIS FIRST.** |
 
-Supporting digests (all in `00-ORCHESTRATION/state/impl/.scratch/`):
+Supporting digests (all in `orchestration/state/impl/.scratch/`):
 - `ANNEAL-DIGEST-CANON-{0X,1X2X,30,31,32-35}.md` — canon digests (1,458 lines total)
 - `ANNEAL-DIGEST-{GAPS,METACHAR,SCAFFOLD}.md` — gap/metachar/scaffold digests
 - `ANNEAL-V2-PATCHES.md` — 8 gap patches applied to v2
 - `RUNLOGS-DIGEST-{A-E}.md` — running logs batch digests
 - `CLARESCE-DIGEST-{A-J}.md` — clarescence batch digests (in `impl/clarescence/.scratch/`)
 
-The 04-SOURCES library is now accessible:
-- `04-SOURCES/research/` — 44 files (~2.2MB)
-- `04-SOURCES/processed/` — 42 files (~284KB)
-- `04-SOURCES/research-notebooks/` — 15 notebooks
+The sources library is now accessible:
+- `sources/research/` — 44 files (~2.2MB)
+- `sources/processed/` — 42 files (~284KB)
+- `sources/research-notebooks/` — 15 notebooks
 
 These have never been systematically digested. They are ready for Sonnet progressive summarization.
 
@@ -163,7 +163,7 @@ Dispatch: Sonnet agent, reads all 5 canon digests (1,458 lines — within budget
 
 ### Layer 4 — Sources Integration (The Sonnet Unlock)
 
-The 04-SOURCES library (44 research + 42 processed = 86 files) has been "ever on the backburner."
+The sources library (44 research + 42 processed = 86 files) has been "ever on the backburner."
 It is now digestible via the proven progressive summarization infrastructure.
 
 **Purpose**: Validate and challenge the axioms. What does external intellectual heritage say?
@@ -283,11 +283,11 @@ Agent A: Heritage Archaeology
 - Output: `impl/.scratch/HERITAGE-MAP.md`
 
 Agent B: Sources Integration (Wave 1)
-- Survey `04-SOURCES/research/` (44 files) → partition → digest batches
+- Survey `sources/research/` (44 files) → partition → digest batches
 - Output: batch digests → `SOURCES-MASTER-DIGEST.md`
 
 Agent C: Sources Integration (Wave 2)
-- Survey `04-SOURCES/processed/` (42 files) + `research-notebooks/` (15) → digest
+- Survey `sources/processed/` (42 files) + `research-notebooks/` (15) → digest
 - Output: batch digests → merge into `SOURCES-MASTER-DIGEST.md`
 
 ### Phase 3 — Neo-Core Synthesis
@@ -321,15 +321,15 @@ Final: Full clarescence validation (dual-path, ≥24/36)
 
 | File | Path | Purpose |
 |------|------|---------|
-| Grand Annealment | `00-ORCHESTRATION/state/ARCH-GRAND_ANNEALMENT.md` | **Read first. Terminal synthesis.** |
-| Annealment v2 | `00-ORCHESTRATION/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md` | Ontological foundation |
+| Grand Annealment | `orchestration/state/ARCH-GRAND_ANNEALMENT.md` | **Read first. Terminal synthesis.** |
+| Annealment v2 | `orchestration/state/ARCH-ONTOLOGY_ANNEALMENT_v2.md` | Ontological foundation |
 | Clarescence master | `impl/clarescence/.scratch/CLARESCE-MASTER-DIGEST.md` | Reflective synthesis |
 | Runlogs master | `impl/.scratch/RUNLOGS-MASTER-DIGEST.md` | Operational reality |
 | Canon digests | `impl/.scratch/ANNEAL-DIGEST-CANON-{0X,1X2X,30,31,32-35}.md` | Heritage material |
 | Patches | `impl/.scratch/ANNEAL-V2-PATCHES.md` | Corrective layer |
-| Rosetta Stone | `02-ENGINE/REF-ROSETTA_STONE.md` | Terminology (v2.7.0, 311 entries) |
-| Sources library | `04-SOURCES/research/` (44 files), `processed/` (42), `notebooks/` (15) | External intellectual heritage |
-| Deferred commits | `00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` | Open P0s: DC-002,003,004,013 |
+| Rosetta Stone | `engine/REF-ROSETTA_STONE.md` | Terminology (v2.7.0, 311 entries) |
+| Sources library | `sources/research/` (44 files), `processed/` (42), `notebooks/` (15) | External intellectual heritage |
+| Deferred commits | `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` | Open P0s: DC-002,003,004,013 |
 
 ---
 

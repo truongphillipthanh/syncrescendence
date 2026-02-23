@@ -22,7 +22,7 @@ The last active Sovereign session (DA-14 blitzkrieg + cross-agent convergence) w
 
 ## Orphaned Work
 
-1. **`02-ENGINE/MODEL-INDEX.md`** and **`02-ENGINE/SURVEY-AI_ECOSYSTEM_SURVEY.md`** — Staged (git `A`) but never committed. These appear to be Cartographer output from the model-index refresh (entry 244-256) that got committed as research but these copies may be stale duplicates.
+1. **`engine/MODEL-INDEX.md`** and **`engine/SURVEY-AI_ECOSYSTEM_SURVEY.md`** — Staged (git `A`) but never committed. These appear to be Cartographer output from the model-index refresh (entry 244-256) that got committed as research but these copies may be stale duplicates.
 2. **`findings.md`**, **`progress.md`**, **`task_plan.md`** — Staged at repo root (`A`). These are likely session scratch files that violate flat principle and should be metabolized or deleted.
 3. **`-INBOX/commander/00-INBOX0/`** — Contains 16 unprocessed items (TASK-LINEAR-STATUS files from Feb 13-14, TASK-SESSION-REVIEW files, adjudicator ecosystem health results). Commander has not triaged inbox since Feb 13.
 4. **`.constellation/state/current.yaml`** — Modified but uncommitted. Constellation state drift.
@@ -33,4 +33,4 @@ The last active Sovereign session (DA-14 blitzkrieg + cross-agent convergence) w
 
 2. **Re-dispatch INT-1612 automation audit** — The original was misrouted due to Ajna identity drift (entry 148). This is a P0 intention ("Begin ALL automations") with zero progress since the failed dispatch. The 31 staged launchd plists need activation verification.
 
-3. **Clean repo root scratch files** — `findings.md`, `progress.md`, `task_plan.md` at repo root violate structural rules. Metabolize into appropriate locations or delete. Commit or discard the staged `02-ENGINE/` files.
+3. **Clean repo root scratch files** — `findings.md`, `progress.md`, `task_plan.md` at repo root violate structural rules. Metabolize into appropriate locations or delete. Commit or discard the staged `engine/` files.

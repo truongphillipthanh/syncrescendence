@@ -3,9 +3,9 @@
 
   What I changed:
 
-  - Updated 00-ORCHESTRATION/scripts/cockpit.sh:99 so Adjudicator launches as:
+  - Updated orchestration/scripts/cockpit.sh:99 so Adjudicator launches as:
       - codex --full-auto -m gpt-5.3-codex -c 'model_reasoning_effort="high"'
-  - Updated post-launch logic at 00-ORCHESTRATION/scripts/cockpit.sh:235 so Adjudicator is no
+  - Updated post-launch logic at orchestration/scripts/cockpit.sh:235 so Adjudicator is no
     longer switched via delayed /model; only Psyche keeps post-launch switch.
 
   Why:
@@ -15,7 +15,7 @@
 
   Verification:
 
-  - bash -n 00-ORCHESTRATION/scripts/cockpit.sh passed.
+  - bash -n orchestration/scripts/cockpit.sh passed.
   - com.syncrescendence.watch-adjudicator.plist is unchanged and valid (plutil -lint ... OK).
   - LaunchAgent remains running (state = running).
   - In tmux, Adjudicator pane was idle in zsh; I started it in constellation:cockpit.5 with
@@ -29,8 +29,8 @@
   If you want a clean full restart with the new launch logic:
 
   1. cd /Users/home/Desktop/syncrescendence
-  2. bash 00-ORCHESTRATION/scripts/cockpit.sh --kill
-  3. bash 00-ORCHESTRATION/scripts/cockpit.sh --launch
+  2. bash orchestration/scripts/cockpit.sh --kill
+  3. bash orchestration/scripts/cockpit.sh --launch
 
   Note:
 
@@ -43,9 +43,9 @@
 
   Changes applied:
 
-  - 00-ORCHESTRATION/scripts/cockpit.sh:96
+  - orchestration/scripts/cockpit.sh:96
     Psyche launch is now openclaw tui --session main --thinking high.
-  - 00-ORCHESTRATION/scripts/watch_dispatch.sh:380
+  - orchestration/scripts/watch_dispatch.sh:380
     Psyche watcher execution now adds --thinking high (Ajna unchanged).
   - /Users/home/.openclaw/openclaw.json:23 and /Users/home/.openclaw/openclaw.json:25
     Set:
@@ -58,8 +58,8 @@
     agent main | session main ... | openai-codex/gpt-5.3-codex | think high
   - Restarted com.syncrescendence.watch-psyche so watcher changes are live.
   - Validated syntax/plists:
-      - bash -n 00-ORCHESTRATION/scripts/cockpit.sh
-      - bash -n 00-ORCHESTRATION/scripts/watch_dispatch.sh
+      - bash -n orchestration/scripts/cockpit.sh
+      - bash -n orchestration/scripts/watch_dispatch.sh
       - plutil -lint /Users/home/Library/LaunchAgents/com.syncrescendence*.plist (all OK)
 
   To monitor directly:

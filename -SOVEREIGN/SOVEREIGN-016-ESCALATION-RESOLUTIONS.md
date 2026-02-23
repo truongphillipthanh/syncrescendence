@@ -36,7 +36,7 @@ Adjudicator (Codex CLI on Mac mini) cannot execute tasks. Two failures:
 | MODEL_CAPABILITIES.md | Model modality map | 51 | 3.9KB | COMPLETE |
 | WORKFLOW_TEMPLATES.md | Workflow templates + steps | 104 | 12KB | COMPLETE |
 
-Location: `00-ORCHESTRATION/state/impl/kinetic/`
+Location: `orchestration/state/impl/kinetic/`
 
 Duplicate re-dispatch task in Adjudicator inbox marked SUPERSEDED and moved to 40-DONE.
 
@@ -86,7 +86,7 @@ Adjudicator remains non-functional. To restore:
 SYN-24 is the Mastery IIC (Instruction + Initial Configuration) for the Knowledge Distillation/Teaching knowledge chain.
 
 ### The Specific Blocker
-In `02-ENGINE/IIC-Mastery-config.md`:
+In `engine/IIC-Mastery-config.md`:
 ```
 | **Email** | [Sovereign to fill: mastery account email] |
 ```
