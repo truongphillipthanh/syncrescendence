@@ -114,8 +114,8 @@ This registry is required for every constellation agent. Keep it current.
 ## Dispatch Protocol
 
 Tasks arrive as `TASK-*.md` files in `-INBOX/{agent}/` with `Status: PENDING`.
-The `watch_dispatch.sh` script monitors these folders and routes to the appropriate CLI.
-After processing, mark `Status: COMPLETE` or `Status: FAILED`.
+The `auto_ingest_loop.sh` script polls these folders every 30s and routes to the appropriate CLI.
+After processing, tasks move through `10-IN_PROGRESS/` → `40-DONE/` or `50_FAILED/`.
 
 ---
 
