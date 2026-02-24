@@ -1,0 +1,1 @@
+{"atom_id": "ATOM-SOURCE-20251114-1120-0001", "source_id": "SOURCE-20251114-1120", "category": "claim", "content": "Joshua Browder is the founder and CEO of DoNotPay.", "line_start": 10, "line_end": 10, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.0, 1.0, 0.0, 0.0, 0.0, 1.0], "opposes_atom_ids": []}, "extensions": {}}
