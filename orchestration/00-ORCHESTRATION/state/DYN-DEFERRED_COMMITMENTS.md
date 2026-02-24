@@ -83,7 +83,7 @@
 | DC-150 | Oracle+Adjudicator | **BUILD**: Git-native tracking (Beads) — trailers, commit wrapper, index, 480-720 LOC | P1 | OPEN | Adjudicator: 8/10 feasibility, M complexity. Prerequisite for DC-149. |
 | DC-148 | Oracle+Adjudicator | **REDESIGN→BUILD**: Knowledge graph — Python core, fuzzy repair, 420-620 LOC | P1 | OPEN | Adjudicator: 7/10 feasibility, M complexity. Bash/jq→Python. |
 
-### Phase 3: Surface Organization + Enforcement — ⬜ AFTER Phase 2
+### Phase 3: Surface Organization + Enforcement — ✅ DONE (except DC-122 Sovereign decision)
 
 > Only now — with content audited, architecture decided, sources mined — does the veneer go on.
 
@@ -91,13 +91,13 @@
 |----|--------|-----------|-----|--------|-------|
 | DC-120 | Vanguard | Install `scaffold_validate.sh` — structural integrity check | P0 | **DONE** | Installed, adapted for macOS. Baseline: 1,616 broken links + 104 ARCH headers. `127ace0b`. |
 | DC-121 | Vanguard | Install `scaffold_heal.sh` — safe auto-repair | P0 | **DONE** | Installed with correct path refs. `127ace0b`. |
-| DC-300 | Phase 3 | Formalize naming conventions across all directories | P1 | OPEN | Derived from Phase 2 evidence, not imposed top-down. Deliverable: `engine/REF-NAMING_CONVENTIONS.md`. |
-| DC-301 | Phase 3 | Standardize headers and metadata across all files | P1 | **IN PROGRESS** | DYN cadence headers: 39/39 done. ARCH Version/Date: 53/53 done. Broken links: 1,616 remain (wikilink false positives). |
-| DC-302 | Phase 3 | Normalize duplicate concepts against Rosetta Stone | P1 | OPEN | |
+| DC-300 | Phase 3 | Formalize naming conventions across all directories | P1 | **DONE** | `engine/02-ENGINE/REF-NAMING_CONVENTIONS.md` — 26 sanctioned prefixes with matrix. |
+| DC-301 | Phase 3 | Standardize headers and metadata across all files | P1 | **DONE** | DYN cadence: 39/39. ARCH headers: 53/53. Broken links: 21/21 fixed. scaffold_validate PASS (0 violations). |
+| DC-302 | Phase 3 | Normalize duplicate concepts against Rosetta Stone | P1 | **DONE** | 8 deprecated terms replaced across 17 files. 4 items escalated to Sovereign (canon/ file, AGENTS.md, IMEP filenames, historical lineage). |
 | DC-303 | DC-207 | Execute dispatch restructuring if DC-207 decided one needed | P1 | **RESOLVED** | DC-207 resolved: sanctify, don't restructure. No action needed. |
-| DC-304 | DC-124 | Convert top ARCH-* files to ADR format | P1 | OPEN | Oracle REPO-003 spec. |
+| DC-304 | DC-124 | Convert top ARCH-* files to ADR format | P1 | **DONE** | `engine/02-ENGINE/TEMPLATE-ADR.md` — bridges ADR with Decision Atoms. |
 | DC-122 | Oracle+Diviner | Rename decision for praxis sigma container | P1 | OPEN | Sovereign to decide. |
-| DC-123 | Vanguard | Install `scaffold_rename.sh` for future migration | P1 | OPEN | Do NOT execute until DC-120 passes. INT-2210 lesson. |
+| DC-123 | Vanguard | Install `scaffold_rename.sh` for future migration | P1 | **DONE** | `orchestration/00-ORCHESTRATION/scripts/scaffold_rename.sh` — git mv + cross-ref update + naming validation + dry-run. |
 
 ### Phase 4: Automations + Sensing — ⬜ AFTER Phase 3
 
@@ -187,6 +187,14 @@
 | DC-208-8 | Negative knowledge store | DONE | 2026-02-23 | 494 LOC. Schema alignment + decay fix. R2 PASS. |
 | DC-208-PILOT | Pilot extraction (top-5) | DONE | 2026-02-23 | 820 atoms via Gemini 2.5 Flash. 0 errors. `01db01fd`. |
 | DC-209 | Model routing convergence | DONE | 2026-02-23 | Oracle DC-209+DC-209R. Gemini 2.5 Flash primary. <$2.50 full corpus. |
+| DC-206 | Corpus×Intention synthesis | DONE | 2026-02-23 | 14,311 atoms × 80+ intentions. 5 gaps, 3 shifts, 5 discoveries. |
+| DC-120 | scaffold_validate.sh | DONE | 2026-02-23 | Installed, adapted for macOS. Final: PASS (0 violations). |
+| DC-121 | scaffold_heal.sh | DONE | 2026-02-23 | Installed with correct path refs. |
+| DC-300 | Naming conventions | DONE | 2026-02-23 | 26 sanctioned prefixes. REF-NAMING_CONVENTIONS.md. |
+| DC-301 | Header standardization | DONE | 2026-02-23 | 39 DYN cadence + 53 ARCH headers + 21 broken links. |
+| DC-302 | Rosetta normalization | DONE | 2026-02-23 | 8 terms, 17 files. 4 Sovereign escalations. |
+| DC-304 | ADR template | DONE | 2026-02-23 | TEMPLATE-ADR.md. Bridges ADR with Decision Atoms. |
+| DC-123 | scaffold_rename.sh | DONE | 2026-02-23 | git mv + cross-ref + naming validation + dry-run. |
 
 ---
 
@@ -208,11 +216,11 @@
 
 ## Metrics
 
-- **Total**: 79 commitments (27 DONE + 3 OPEN-BUILD + 15 OPEN + 23 PARKED + 5 SUPERSEDED/RESOLVED + 4 DEFER + 2 DESIGN DONE)
-- **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B DONE, 2C 6/11 DONE (pilot complete, 3 components + 2 defer remain), 2D OPEN (4 items) | **Phase 3**: 9 items (surface org) | **Phase 4**: 6 items (automations) | **Phase 5**: 9 items (hardening)
-- **Delivery rate**: 38% (30/79) — DC-120, DC-121 done; DC-301 in progress
+- **Total**: 79 commitments (35 DONE + 3 OPEN-BUILD + 10 OPEN + 23 PARKED + 6 SUPERSEDED/RESOLVED + 4 DEFER)
+- **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B+2D DONE, 2C: pipeline DONE, DC-208-3 cluster engine OPEN, DC-208-4 full extraction RUNNING | **Phase 3**: ✅ 6/7 DONE (DC-122 awaits Sovereign) | **Phase 4**: 6 items (automations) | **Phase 5**: 9 items (hardening)
+- **Delivery rate**: 44% (35/79) — Phase 3 substantially complete
 - **Target**: >80% within 30 days
-- **Current position**: Phase 3 IN PROGRESS. DC-120✅ DC-121✅ DC-301 partial (92/92 headers done, 1,616 broken links remain). DC-208-6 quality gate running on full 14,311-atom corpus. Phase 2 P1 items (DC-147/148/150, DC-208-3) can execute in parallel.
+- **Current position**: Phase 3 DONE (except DC-122 Sovereign decision). scaffold_validate PASS (0 violations). Quality gate running on 14,311-atom corpus. Phase 2 P1 items (DC-147/148/150, DC-208-3) can execute in parallel. Phase 4 now UNBLOCKED.
 
 ---
 
