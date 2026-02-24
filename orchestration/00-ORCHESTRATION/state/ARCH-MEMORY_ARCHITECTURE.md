@@ -1,5 +1,7 @@
 # ARCH-MEMORY_ARCHITECTURE.md
 ## Triangulated Memory Architecture Decision
+Version: 1.0.0
+Updated: 2026-02-22
 **Version**: 1.0.0
 **Created**: 2026-02-22
 **Authority**: Sovereign directive + Oracle/Vanguard/Diviner triangulation

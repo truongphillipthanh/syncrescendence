@@ -1,5 +1,7 @@
 # DESIGN DECISIONS: SYSTEM GENESIS
 ## Architectural Learnings from Experimentation (Dec 2025)
+Version: 1.0.0
+Updated: 2026-02-01
 
 **Compacted**: 2026-02-01 (from DESIGN_DECISIONS_ROOT, DESIGN_DECISIONS)
 **Purpose**: Preserve the WHY behind key architectural choices

@@ -1,5 +1,7 @@
 # Ontology Annealment v2.0.0
 ## Unified Synthesis: Canon Structure, Palantir Reconception, Scaffold State, Strategic Arc
+Version: 1.0.0
+Updated: 2026-02-17
 
 ---
 

@@ -1,5 +1,7 @@
 # Neural Bridge Architecture (MBA ↔ Mac mini)
 
+Version: 1.0.0
+Updated: 2026-02-23
 **Version**: 1.0.0
 **Owner**: Psyche (CTO)
 **Exegete**: Cartographer (CIO)

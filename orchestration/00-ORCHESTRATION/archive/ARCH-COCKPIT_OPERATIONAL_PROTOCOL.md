@@ -6,6 +6,8 @@ target: cockpit
 status: active
 updated: 2026-02-08
 ---
+Version: 1.0.0
+Updated: 2026-02-08
 
 # Cockpit Operational Protocol
 

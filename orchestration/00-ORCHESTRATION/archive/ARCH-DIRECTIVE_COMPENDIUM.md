@@ -1,4 +1,6 @@
 # DIRECTIVE COMPENDIUM
+Version: 1.0.0
+Updated: 2026-02-01
 **Compacted**: 2026-02-01 | **Source**: 60 individual directive files (2025-12-30 to 2026-01-31)
 **Purpose**: Chronological record of all directives with extracted patterns and wisdom
 

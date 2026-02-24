@@ -1,6 +1,8 @@
 # ARCH — Task Tier Architecture
 ## Five-Tier Model with Dual Project Management
 
+Version: 1.0.0
+Updated: 2026-02-05
 **Version**: 1.0.0
 **Created**: 2026-02-05
 **Authority**: Commander (Claude Code Opus)

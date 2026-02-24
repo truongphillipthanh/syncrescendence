@@ -1,6 +1,8 @@
 # ARCH — Rosetta-to-Ontology Bridge
 ## Typed Entity Classification + Relation Graph from REF-ROSETTA_STONE.md
 
+Version: 1.0.0
+Updated: 2026-02-06
 **Version**: 1.0.0
 **Created**: 2026-02-06
 **Updated**: 2026-02-05

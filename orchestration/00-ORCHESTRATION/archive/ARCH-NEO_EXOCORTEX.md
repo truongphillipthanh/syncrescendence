@@ -1,6 +1,8 @@
 # ARCH-NEO_EXOCORTEX.md
 ## The Cognitive Prosthesis Architecture
 
+Version: 1.0.0
+Updated: 2026-02-18
 **Version**: 1.0.0
 **Created**: 2026-02-18
 **Author**: Commander (Sonnet 4.6, MBA — Neo-Exocortex synthesis agent)

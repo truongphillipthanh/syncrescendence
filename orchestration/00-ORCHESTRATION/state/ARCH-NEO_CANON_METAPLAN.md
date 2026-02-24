@@ -1,6 +1,8 @@
 # ARCH-NEO_CANON_METAPLAN.md
 ## The Spiritual Successor — Complete Architectural Blueprint
 
+Version: 1.0.0
+Updated: 2026-02-17
 **Version**: 1.0.0
 **Created**: 2026-02-17
 **Author**: Commander (Opus 4.6, MBA)

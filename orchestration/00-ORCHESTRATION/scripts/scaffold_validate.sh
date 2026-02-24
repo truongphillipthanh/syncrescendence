@@ -217,8 +217,8 @@ done < <(find . -type f -name 'DYN-*' -print 2>/dev/null | sed 's|^\./||')
 while IFS= read -r f; do
   [[ -f "$f" ]] || continue
   head30="$(sed -n '1,30p' "$f")"
-  echo "$head30" | grep -Eq '^[Vv]ersion:\s*' || add_vio "ARCH_MISSING_VERSION" "$f" 0 "ARCH file missing 'Version:' header in first 30 lines."
-  echo "$head30" | grep -Eq '^([Dd]ate|[Uu]pdated):\s*[0-9]{4}-[0-9]{2}-[0-9]{2}' || add_vio "ARCH_MISSING_DATE" "$f" 0 "ARCH file missing 'Date:' or 'Updated:' header (YYYY-MM-DD) in first 30 lines."
+  echo "$head30" | grep -Eq '^\*{0,2}[Vv]ersion\*{0,2}:\s*' || add_vio "ARCH_MISSING_VERSION" "$f" 0 "ARCH file missing 'Version:' header in first 30 lines."
+  echo "$head30" | grep -Eq '^\*{0,2}([Dd]ate|[Uu]pdated|[Ll]ast [Uu]pdated)\*{0,2}:\s*[0-9]{4}-[0-9]{2}-[0-9]{2}' || add_vio "ARCH_MISSING_DATE" "$f" 0 "ARCH file missing 'Date:' or 'Updated:' header (YYYY-MM-DD) in first 30 lines."
 done < <(find . -type f -name 'ARCH-*' -print 2>/dev/null | sed 's|^\./||')
 
 # Broken markdown cross-references (local links)

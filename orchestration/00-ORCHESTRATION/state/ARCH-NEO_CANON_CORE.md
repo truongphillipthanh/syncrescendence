@@ -1,6 +1,8 @@
 # ARCH-NEO_CANON_CORE.md
 ## The Nucleic Core — Compiler Specification for the Neo-Canon
 
+Version: 1.0.0
+Updated: 2026-02-18
 **Version**: 1.0.0
 **Created**: 2026-02-18
 **Author**: Commander (Opus 4.6, MBA)

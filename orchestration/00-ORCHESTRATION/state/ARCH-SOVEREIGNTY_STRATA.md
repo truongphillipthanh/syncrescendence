@@ -1,5 +1,7 @@
 # Sovereignty Strata (σ₀–σ₇)
 
+Version: 1.0.0
+Updated: 2026-01-31
 **Version**: 1.0.0
 **Canonized**: 2026-01-31
 **Source**: ACCRETION-RESOLUTION-PASS-RING7-RETELEOLOGY.md (archaeology)

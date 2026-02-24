@@ -1,6 +1,8 @@
 # ARCH-ONTOLOGY_ANNEALMENT_v1.md
 ## Unified Annealment: Ontology Reconception + Corpus Synthesis
 
+Version: 1.0.0
+Updated: 2026-02-17
 **Version**: 1.0.0
 **Class**: ARCH | Synthesis
 **Date**: 2026-02-17

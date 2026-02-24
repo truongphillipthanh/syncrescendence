@@ -1,5 +1,7 @@
 # Skill Registry — Syncrescendence Constellation
 ## ARCH-SKILL_REGISTRY.md
+Version: 1.0.0
+Updated: 2026-02-12
 
 **Document Type**: ARCHITECTURE (Living Document)
 **Last Updated**: 2026-02-12 (registry created)

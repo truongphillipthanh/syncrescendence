@@ -1,5 +1,7 @@
 # ORACLE GENEALOGY
 ## The Complete Arc: Oracles 0-13
+Version: 1.0.0
+Updated: 2026-02-01
 
 **Compacted**: 2026-02-01 (from ORACLE_DECISIONS, ORACLE10_COMPREHENSIVE_ARCHAEOLOGY, ORACLE10_CONTEXT_FINAL, ORACLE13_CONTEXT, COHERENCE_ABSORPTION_AUDIT, INTERACTION_PARADIGM)
 **Purpose**: Institutional memory of the Oracle strategic planning arc

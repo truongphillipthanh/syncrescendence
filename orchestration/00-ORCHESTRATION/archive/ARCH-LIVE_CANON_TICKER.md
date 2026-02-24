@@ -1,5 +1,7 @@
 # Live CANON Ticker: Design Specification
 ## Dynamic Model/Capability/Economics Tracking System
+Version: 1.0.0
+Updated: 2026-02-01
 
 **Status**: DESIGN (awaiting Sovereign approval to implement)
 **Created**: 2026-02-01

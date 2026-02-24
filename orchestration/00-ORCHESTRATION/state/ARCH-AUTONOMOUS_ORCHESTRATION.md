@@ -1,6 +1,8 @@
 # ARCH-AUTONOMOUS_ORCHESTRATION.md
 ## Autonomous Orchestration System Architecture
 
+Version: 1.0.0
+Updated: 2026-02-17
 **Version**: 1.0.0
 **Date**: 2026-02-17
 **Author**: Commander (compiled from swarm deliverables)

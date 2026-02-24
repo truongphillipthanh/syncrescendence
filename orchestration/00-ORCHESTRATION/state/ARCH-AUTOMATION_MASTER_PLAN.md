@@ -1,5 +1,7 @@
 # AUTOMATION MASTER PLAN
 ## INT-1612: "Begin ALL Automations"
+Version: 1.2.0
+Updated: 2026-02-15
 **Version**: 1.2.0
 **Last Updated**: 2026-02-15 (formalization gap closure — Commander meta-clarescence audit)
 **Linear**: SYN-45

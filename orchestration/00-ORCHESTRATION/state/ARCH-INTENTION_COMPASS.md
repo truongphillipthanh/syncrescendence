@@ -1,5 +1,7 @@
 # INTENTION ARCHAEOLOGY COMPASS
 ## Council Pedigree Extraction Instrument
+Version: 3.4.0
+Updated: 2026-02-23
 **Last Updated**: 2026-02-23
 **Version**: 3.4.0
 **Lineage**: Oracle 0–17 (historical) → Council 18+ (current)

@@ -1,6 +1,8 @@
 # ARCH-CONSTELLATION_AGENT_LOOPS.md
 ## Sovereign-Authored Always-On Agent Loop Architecture
 
+Version: 1.1.0
+Updated: 2026-02-15
 **Version**: 1.1.0
 **Authored**: 2026-02-08
 **Last Updated**: 2026-02-15 (formalization gap closure — Commander meta-clarescence audit)

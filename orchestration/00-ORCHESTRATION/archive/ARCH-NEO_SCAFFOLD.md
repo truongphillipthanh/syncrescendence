@@ -1,6 +1,8 @@
 # ARCH-NEO_SCAFFOLD.md
 ## The Operational Layer — Derived from the Neo-Canon Core
 
+Version: 1.0.0
+Updated: 2026-02-18
 **Version**: 1.0.0
 **Created**: 2026-02-18
 **Author**: Commander (Sonnet 4.6, MBA)

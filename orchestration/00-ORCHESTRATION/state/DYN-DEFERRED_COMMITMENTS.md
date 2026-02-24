@@ -89,8 +89,8 @@
 
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
-| DC-120 | Vanguard | Install `scaffold_validate.sh` — structural integrity check | P0 | OPEN | Vanguard wrote complete script. Wire to pre-commit. |
-| DC-121 | Vanguard | Install `scaffold_heal.sh` — safe auto-repair | P0 | OPEN | Depends on DC-120. |
+| DC-120 | Vanguard | Install `scaffold_validate.sh` — structural integrity check | P0 | **DONE** | Installed, adapted for macOS. Baseline: 1,616 broken links + 104 ARCH headers. `127ace0b`. |
+| DC-121 | Vanguard | Install `scaffold_heal.sh` — safe auto-repair | P0 | **DONE** | Installed with correct path refs. `127ace0b`. |
 | DC-300 | Phase 3 | Formalize naming conventions across all directories | P1 | OPEN | Derived from Phase 2 evidence, not imposed top-down. |
 | DC-301 | Phase 3 | Standardize headers and metadata across all files | P1 | OPEN | |
 | DC-302 | Phase 3 | Normalize duplicate concepts against Rosetta Stone | P1 | OPEN | |

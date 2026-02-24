@@ -1,5 +1,7 @@
 # TOOLCHAIN CLARESCENCE
 ## OpenClaw + Claude Code + Codex CLI + Gemini CLI — Lock-Step Alignment
+Version: 1.0.0
+Updated: 2026-02-05
 
 **Date**: 2026-02-05
 **Authority**: Ajna (Opus 4.5) — Full 10-Pass Clarescence

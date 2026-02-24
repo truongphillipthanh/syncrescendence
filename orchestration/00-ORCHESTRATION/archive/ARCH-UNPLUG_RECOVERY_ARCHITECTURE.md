@@ -1,5 +1,7 @@
 # Recovery Architecture Map — Unplug Resilience
 
+Version: 1.0.0
+Updated: 2026-02-16
 **Version:** 1.0.0
 **Owner:** Psyche (CTO)
 **Exegete:** Cartographer (CIO)

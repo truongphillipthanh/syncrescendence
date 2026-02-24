@@ -1,4 +1,6 @@
 # Hardened Autonomous Orchestration Architecture
+Version: 1.0.0
+Updated: 2026-02-23
 
 ## Objective
 Eliminate split-brain and silent breakage by making repository integrity a mandatory control-plane gate, then enforcing bounded autonomy with explicit breaker and budget semantics.

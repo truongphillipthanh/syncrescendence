@@ -1,5 +1,7 @@
 # ARCH-CONSTELLATION_AVATAR_THESIS.md
 ## Why Each Model Got Its Role: The Neurodivergent Constellation
+Version: 1.0.0
+Updated: 2026-02-22
 **Version**: 1.0.0
 **Created**: 2026-02-22
 **Authority**: Sovereign intent + operational observation

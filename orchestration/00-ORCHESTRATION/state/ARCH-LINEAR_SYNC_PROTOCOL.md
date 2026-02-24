@@ -1,6 +1,8 @@
 # Linear ↔ Repository Sync Protocol
 ## SYN-30 — Design Specification
 
+Version: 1.0.0
+Updated: 2026-02-10
 **Version**: 1.0.0
 **Created**: 2026-02-10
 **Status**: DRAFT (awaiting Sovereign ratification)

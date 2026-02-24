@@ -1,6 +1,8 @@
 # ARCH-SCAFFOLD_ELUCIDATION.md
 ## What the Scaffold Is, What It Contains, and What It's For
 
+Version: 1.0.0
+Updated: 2026-02-22
 **Version**: 1.0.0
 **Created**: 2026-02-22
 **Authority**: Sovereign + Oracle consensus

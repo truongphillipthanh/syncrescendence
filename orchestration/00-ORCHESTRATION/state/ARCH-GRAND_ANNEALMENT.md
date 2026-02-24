@@ -1,6 +1,8 @@
 # ARCH-GRAND_ANNEALMENT — Unified Culmination
 ## Syncrescendence | All layers: logs + clarescences + canon + patches + ontology
 ## Commander (Sonnet 4.6) | 2026-02-17
+Version: 1.0.0
+Updated: 2026-02-17
 
 > One document to hold them all: the ontological model, the operational reality,
 > the reflective wisdom, and the corrective patches — synthesized into a single coherent whole.

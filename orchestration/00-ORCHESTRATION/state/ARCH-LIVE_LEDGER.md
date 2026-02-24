@@ -1,6 +1,8 @@
 # ARCH-LIVE_LEDGER.md
 ## Architecture for the Syncrescendence Live Intelligence Ledger
 
+Version: 1.0.0
+Updated: 2026-02-22
 **Version**: 1.0.0
 **Created**: 2026-02-22
 **Authority**: Sovereign directive + Oracle/Commander consensus
