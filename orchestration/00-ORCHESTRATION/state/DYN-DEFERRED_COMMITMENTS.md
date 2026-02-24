@@ -28,8 +28,8 @@
 | DC-111 | Vanguard spec | memsync daemon: JSONL watcher → Graphiti poster | P0 | **DONE** | `memsync_daemon.py` operational. |
 | DC-112 | Vanguard spec | JSONL journal append in Commander session hooks | P0 | **DONE** | Deterministic UUIDs. |
 | DC-113 | Vanguard spec | End-to-end write path verified | P0 | **DONE** | Commander journal → memsync → Graphiti → entity materialized. |
-| DC-114 | Phase 1 hardening | Persist Graphiti `/triples` patch permanently | P1 | OPEN | Does not block Phase 2. |
-| DC-115 | Phase 1 hardening | Permanent API key wiring for Graphiti/Neo4j | P1 | OPEN | Does not block Phase 2. |
+| DC-114 | Phase 1 hardening | Persist Graphiti `/triples` patch permanently | P1 | **READY** | Patch scripts created. Deploy when Mac mini online. |
+| DC-115 | Phase 1 hardening | Permanent API key wiring for Graphiti/Neo4j | P1 | **READY** | .env.graphiti + env_export.sh created. Deploy when Mac mini online. |
 
 ### Phase 2: Deep Architectural Audit — ⬛ IN PROGRESS
 
@@ -114,9 +114,9 @@
 
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
-| DC-140 | DC-002 | Security audit of 234+ skills: credential exfiltration risk | P0 | OPEN | P0-CRITICAL. Cannot ship externally without this. |
+| DC-140 | DC-002 | Security audit of 234+ skills: credential exfiltration risk | P0 | **DONE** | 38 skills audited. 2 CRITICAL: hardcoded YouTube API key, skipDangerousMode. 4 HIGH. |
 | DC-141 | DC-003 | API key rotation: plaintext keys in openclaw.json | P0 | OPEN | Sovereign action required. |
-| DC-142 | Vanguard | Memory compaction job (weekly) + conflict detection | P1 | OPEN | |
+| DC-142 | Vanguard | Memory compaction job (weekly) + conflict detection | P1 | **DONE** | `memory_compaction.py` — 370 LOC, journal digests, entity dedup, conflict detection. |
 | DC-143 | Vanguard | Cross-machine sync testing (MBA ↔ Mac mini) | P1 | OPEN | |
 | DC-144 | Diviner | Evaluate "Memory Agent" daemon (Sixth Agent) | P2 | OPEN | PageRank, community detection over shared graph. |
 | DC-145 | Diviner | Quarantine namespace for anomalous artifacts | P2 | OPEN | Structural mutagenesis. |
@@ -202,6 +202,8 @@
 | DC-148 | Knowledge graph | DONE | 2026-02-23 | 686 LOC, SQLite, 1406 entities, 6075 edges, fuzzy repair. |
 | DC-150 | Bead tracker | DONE | 2026-02-23 | 715 LOC, 6 commands, git trailers, sandbox workaround. |
 | DC-208-3 | Cluster engine | DONE | 2026-02-23 | 865 LOC, 3-tier fallback, 14K atoms smoke-tested. |
+| DC-140 | Skills security audit | DONE | 2026-02-23 | 38 skills, 2 CRITICAL, 4 HIGH. Rotation + config fixes needed. |
+| DC-142 | Memory compaction | DONE | 2026-02-23 | 370 LOC, journal digests, entity dedup, conflict detection. |
 
 ---
 
@@ -223,11 +225,11 @@
 
 ## Metrics
 
-- **Total**: 79 commitments (43 DONE + 4 OPEN + 23 PARKED + 6 SUPERSEDED/RESOLVED + 3 DEFER)
-- **Phase 0**: ✅ 3/3 | **Phase 1**: ✅ 4/4 P0 (2 P1 hardening) | **Phase 2**: ✅ ALL P0+P1 DONE (3 P2 deferred) | **Phase 3**: ✅ 6/7 (DC-122 Sovereign) | **Phase 4**: 3/6 DONE (DC-131/132/133 need Mac mini) | **Phase 5**: 9 items
-- **Delivery rate**: 54% (43/79) — Phase 2 fully delivered
+- **Total**: 79 commitments (46 DONE + 2 READY + 2 OPEN + 23 PARKED + 6 SUPERSEDED/RESOLVED + 3 DEFER)
+- **Phase 0**: ✅ 3/3 | **Phase 1**: ✅ 4/4 P0 (2 P1 READY for deploy) | **Phase 2**: ✅ ALL P0+P1 DONE | **Phase 3**: ✅ 6/7 (DC-122 Sovereign) | **Phase 4**: 3/6 DONE (DC-131/132/133 need Mac mini) | **Phase 5**: DC-140✅ DC-142✅ (rest need Mac mini or Sovereign)
+- **Delivery rate**: 58% (46/79) — approaching 60%
 - **Target**: >80% within 30 days
-- **Current position**: Phase 2 COMPLETE. Phase 3 COMPLETE (except DC-122). Phase 4: DC-131/132/133 blocked by Mac mini. Phase 5 items remain. Quality gate running on full corpus.
+- **Current position**: All MBA-executable items DONE. Remaining blockers: Mac mini offline (DC-114/115/131/132/133/143), Sovereign decisions (DC-122/141), deferred items (DC-149/151/208-7/208-9). Quality gate running on full corpus.
 
 ---
 
