@@ -3,6 +3,7 @@
 **Date**: 2026-02-18
 **Agent**: Commander (Opus 4.6, MBA)
 **Task**: TASK-20260217-neo-canon-metaplan.md
+**Cadence**: on-change
 
 ## Completed
 

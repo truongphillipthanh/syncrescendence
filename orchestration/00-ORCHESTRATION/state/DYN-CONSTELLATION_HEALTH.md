@@ -1,5 +1,6 @@
 # Constellation Health
 Last check: 2026-02-17 07:17:50
+**Cadence**: daily
 
 | Agent | Pane | Role | Status | Detail |
 |-------|------|------|--------|--------|

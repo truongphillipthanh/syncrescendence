@@ -4,6 +4,7 @@
 **Created**: 2026-02-06
 **Protocol**: Append only. Never edit existing entries. One entry per event.
 **Script**: `orchestration/scripts/append_ledger.sh`
+**Cadence**: on-change
 
 ---
 

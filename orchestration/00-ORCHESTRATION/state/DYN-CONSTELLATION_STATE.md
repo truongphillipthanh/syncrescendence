@@ -1,5 +1,6 @@
 # Constellation State
 Generated: 2026-02-23 00:18:34
+**Cadence**: on-change
 
 | Agent | Inbox0 | InProgress | Failed | Done (24h) | Health |
 |-------|--------|------------|--------|------------|--------|

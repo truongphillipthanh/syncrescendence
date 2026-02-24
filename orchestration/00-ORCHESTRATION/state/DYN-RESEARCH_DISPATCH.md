@@ -5,6 +5,7 @@
 **Created**: 2026-02-06
 **Authority**: Ajna (Opus 4.5) — capturing Sovereign sequencing directive
 **Purpose**: Execute the research pipeline (REF-RESEARCH_PIPELINE.md) for three critical platforms before SOVEREIGN-009 stack decisions can be made
+**Cadence**: on-change
 
 ---
 

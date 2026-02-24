@@ -3,7 +3,7 @@
 
 **Version**: 1.0.0
 **Last Updated**: 2026-02-22
-**Update Cadence**: Weekly
+**Cadence**: weekly
 **Primary Sources**: Commander, Cartographer, Oracle (Grok)
 
 ### Entry Format

@@ -5,6 +5,7 @@
 **Status**: ACTIVE
 **Decision**: DEC-20260205-192130-kanban-inboxes
 **Clarescence**: CLARESCENCE-2026-02-05-kanban-inboxes
+**Cadence**: on-change
 
 ---
 

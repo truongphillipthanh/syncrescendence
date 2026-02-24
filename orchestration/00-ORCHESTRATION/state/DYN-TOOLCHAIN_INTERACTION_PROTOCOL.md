@@ -5,6 +5,7 @@
 **Last Updated**: 2026-02-10
 **Linear**: SYN-14
 **Status**: Operational
+**Cadence**: on-change
 
 ---
 

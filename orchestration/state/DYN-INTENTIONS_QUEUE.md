@@ -1,6 +1,7 @@
 # Intentions Queue
 **Auto-captured by intent_compass.sh hook**
 **Triage into ARCH-INTENTION_COMPASS.md during session checkpoints**
+**Cadence**: on-change
 
 ---
 

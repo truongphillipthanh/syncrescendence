@@ -1,5 +1,6 @@
 # CANON Regeneration Log
 ## Append-only log of automated CANON regenerations
+**Cadence**: on-change
 
 | Timestamp | Trigger | Status | CANON IDs |
 |-----------|---------|--------|-----------|

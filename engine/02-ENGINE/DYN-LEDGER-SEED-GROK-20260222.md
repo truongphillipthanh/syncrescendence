@@ -3,6 +3,7 @@
 **Date**: 2026-02-22
 **Source**: Grok (Oracle) via Sovereign relay
 **Status**: INGESTED — parsed into 12 DYN-LEDGER-*.md files
+**Cadence**: on-change
 
 ---
 

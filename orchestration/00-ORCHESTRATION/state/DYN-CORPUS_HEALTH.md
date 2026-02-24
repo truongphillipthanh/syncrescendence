@@ -1,5 +1,6 @@
 # Corpus Health Report
 **Generated**: 2026-02-17 14:00 UTC
+**Cadence**: weekly
 
 ## MODEL-INDEX
 - **Status**: OK

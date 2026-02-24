@@ -2,6 +2,7 @@
 **Auto-managed by create_execution_log.sh**
 **Compacts into ARCH-EXECUTION_HISTORY.md when threshold reached**
 **Threshold**: 10 entries triggers compaction
+**Cadence**: on-change
 
 ---
 
@@ -112,3 +113,15 @@
 - **Outcome**: SUCCESS
 - **Commits**: 40 | **Changes**:  249 files changed, 152215 insertions(+), 1780 deletions(-)
 - **Details**: b0268441 docs: session terminal handoff — DC-208 pipeline execution
+
+### SESSION-20260223-1837 | 2026-02-23 18:37
+- **Branch**: main | **Fingerprint**: 2c63f1c0
+- **Outcome**: SUCCESS
+- **Commits**: 36 | **Changes**:  4521 files changed, 286146 insertions(+), 2864 deletions(-)
+- **Details**: 2c63f1c0 chore: remove stale .git.nosync from tracking (Desktop migration cleanup)
+
+### SESSION-20260223-2116 | 2026-02-23 21:16
+- **Branch**: main | **Fingerprint**: b98d180e
+- **Outcome**: SUCCESS
+- **Commits**: 12 | **Changes**:  4334 files changed, 272363 insertions(+), 1114 deletions(-)
+- **Details**: b98d180e feat: corpus×intention synthesis — Phase 2D capstone, 14,311 atoms × 80+ intentions

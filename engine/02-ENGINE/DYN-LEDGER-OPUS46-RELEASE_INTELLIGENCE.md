@@ -1,4 +1,5 @@
 # Claude Opus 4.6 vs 4.5: What changed
+**Cadence**: on-change
 
 **Claude Opus 4.6, released February 5, 2026, is a major upgrade over Opus 4.5 that doubles the output limit, introduces a 1M-token context window, and nearly doubles reasoning scores on hard benchmarks — all at the same price.** The model, accessed via the API string `claude-opus-4-6`, shifts Anthropic's flagship from a coding-focused powerhouse to a broader enterprise workhorse capable of financial analysis, multi-agent coordination, and long-horizon agentic tasks. Opus 4.5 launched just 73 days earlier on November 24, 2025, and itself represented a steep price cut and capability jump over Opus 4.1. Together, the two releases mark the fastest back-to-back Opus upgrades in Anthropic's history, reflecting intensifying competition with OpenAI's GPT-5.2 and Google's Gemini 3 Pro.
 

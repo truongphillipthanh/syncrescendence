@@ -2,6 +2,7 @@
 **Generated**: 2026-02-23
 **Authority**: Commander (Phase 2 Deep Audit)
 **Source**: Exhaustive inventory by 3 parallel Explore agents
+**Cadence**: on-change
 
 ---
 

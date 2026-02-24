@@ -3,6 +3,7 @@
 **Version**: 1.2.0
 **Updated**: 2026-02-01
 **Purpose**: Autonomous twin coordination. Minimize Sovereign interrupts.
+**Cadence**: on-change
 
 ---
 

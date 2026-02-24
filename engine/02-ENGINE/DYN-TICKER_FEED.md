@@ -4,6 +4,7 @@
 **Purpose**: Append-only record of AI ecosystem changes affecting the constellation.
 **Protocol**: New entries at TOP. Never edit existing entries. Commit: `chore(ticker): [CATEGORY] Provider — description`
 **Categories**: `[MODEL]`, `[PRICING]`, `[CAPABILITY]`, `[OSS]`, `[PLATFORM]`, `[TOOLING]`, `[REGULATION]`
+**Cadence**: weekly
 
 ---
 
