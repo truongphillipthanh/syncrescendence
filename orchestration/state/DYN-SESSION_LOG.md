@@ -249,3 +249,367 @@ cd1bca9b constitutional: sear Triangulation Playbook + Documentation Invariants 
 **Changes**:  7 files changed, 355 insertions(+), 84 deletions(-)
 
 ---
+
+### 2026-02-23 15:23:56 | Branch: main
+**Recent commits**:
+```
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+0ac862db feat: Adjudicator code review R2 prompt — verify fixes, regression hunt
+2ada4b40 fix: DC-208 pipeline — all 5 Adjudicator P0/P1 critical fixes applied
+```
+**Changes**:  2 files changed, 67 insertions(+)
+
+---
+
+### 2026-02-23 15:30:30 | Branch: main
+**Recent commits**:
+```
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+0ac862db feat: Adjudicator code review R2 prompt — verify fixes, regression hunt
+2ada4b40 fix: DC-208 pipeline — all 5 Adjudicator P0/P1 critical fixes applied
+```
+**Changes**:  8 files changed, 137 insertions(+)
+
+---
+
+### 2026-02-23 15:40:46 | Branch: main
+**Recent commits**:
+```
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+```
+**Changes**:  23 files changed, 7642 insertions(+)
+
+---
+
+### 2026-02-23 15:40:51 | Branch: main
+**Recent commits**:
+```
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+```
+**Changes**:  23 files changed, 7702 insertions(+)
+
+---
+
+### 2026-02-23 15:40:54 | Branch: main
+**Recent commits**:
+```
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+```
+**Changes**:  23 files changed, 7756 insertions(+)
+
+---
+
+### 2026-02-23 15:40:57 | Branch: main
+**Recent commits**:
+```
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+```
+**Changes**:  23 files changed, 7810 insertions(+)
+
+---
+
+### 2026-02-23 15:41:01 | Branch: main
+**Recent commits**:
+```
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+```
+**Changes**:  23 files changed, 7864 insertions(+)
+
+---
+
+### 2026-02-23 15:41:04 | Branch: main
+**Recent commits**:
+```
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+bc5ac112 fix: extraction hybrid frontmatter parsing — handles bare YAML + fenced YAML combo
+```
+**Changes**:  23 files changed, 7918 insertions(+)
+
+---
+
+### 2026-02-23 15:56:22 | Branch: main
+**Recent commits**:
+```
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+22df11de feat: DC-209R Oracle convergence check — test data vs thesis
+471e3933 feat: DC-209 Oracle prompt — extraction model routing strategy
+```
+**Changes**:  8 files changed, 532 insertions(+), 17 deletions(-)
+
+---
+
+### 2026-02-23 16:24:04 | Branch: main
+**Recent commits**:
+```
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+```
+**Changes**:  25 files changed, 6334 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:24:11 | Branch: main
+**Recent commits**:
+```
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+```
+**Changes**:  25 files changed, 6392 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:24:16 | Branch: main
+**Recent commits**:
+```
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+```
+**Changes**:  25 files changed, 6444 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:24:34 | Branch: main
+**Recent commits**:
+```
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+```
+**Changes**:  25 files changed, 6496 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:24:40 | Branch: main
+**Recent commits**:
+```
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+7ceea6e7 feat: ingest Oracle DC-209/DC-209R + Adjudicator DC-208 responses + triage outputs
+```
+**Changes**:  25 files changed, 6548 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:29:21 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  24 files changed, 5949 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:32:08 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  24 files changed, 6014 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:39:59 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  24 files changed, 6073 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:42:54 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  24 files changed, 6134 insertions(+), 4648 deletions(-)
+
+---
+
+### 2026-02-23 16:49:14 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  25 files changed, 6228 insertions(+), 4655 deletions(-)
+
+---
+
+### 2026-02-23 16:56:54 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  25 files changed, 6303 insertions(+), 4655 deletions(-)
+
+---
+
+### 2026-02-23 17:02:30 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  25 files changed, 6364 insertions(+), 4655 deletions(-)
+
+---
+
+### 2026-02-23 17:06:59 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  25 files changed, 6425 insertions(+), 4655 deletions(-)
+
+---
+
+### 2026-02-23 17:07:26 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  928 files changed, 6477 insertions(+), 5745 deletions(-)
+
+---
+
+### 2026-02-23 17:09:32 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  928 files changed, 6533 insertions(+), 5746 deletions(-)
+
+---
+
+### 2026-02-23 17:15:25 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  928 files changed, 6596 insertions(+), 5746 deletions(-)
+
+---
+
+### 2026-02-23 18:14:42 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  928 files changed, 6737 insertions(+), 5746 deletions(-)
+
+---
+
+### 2026-02-23 18:18:17 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  928 files changed, 6799 insertions(+), 5746 deletions(-)
+
+---
+
+### 2026-02-23 18:26:26 | Branch: main
+**Recent commits**:
+```
+b0268441 docs: session terminal handoff — DC-208 pipeline execution
+8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency
+b35437b7 feat: build DC-208-6 quality gate + DC-208-4 batch orchestrator
+b4d28384 docs: calibrate deferred commitments to Sovereign 5-phase plan
+01db01fd feat: pilot extraction — 820 atoms from top-5 sources via Gemini 2.5 Flash
+```
+**Changes**:  928 files changed, 6874 insertions(+), 5746 deletions(-)
+
+---
