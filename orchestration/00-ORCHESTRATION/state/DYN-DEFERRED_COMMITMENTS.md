@@ -68,7 +68,7 @@
 | DC-209 | Oracle (Grok) | Model routing strategy — triangulated convergence | P0 | **DONE** | DC-209 + DC-209R. Gemini 2.5 Flash confirmed primary. GPT-4o-mini fallback. <$2.50 full corpus. |
 | DC-208-6 | Commander | Quality gate — 4+1 gates + surprise×precision, 746 LOC | P0 | **DONE** | Built `b35437b7`. Pilot: 820 atoms, 100% consistency, 60% canon coverage. |
 | DC-208-4 | Commander | Batch orchestrator — resume-capable, concurrent, 601 LOC | P0 | **DONE** | Built `b35437b7`. Full corpus extraction RUNNING (1,152 sources, 118 batches). |
-| DC-208-3 | Adjudicator | Cluster engine — hybrid HDBSCAN + constrained K-means, 560-760 LOC | P1 | OPEN | 7/10 feasibility. After full extraction completes. |
+| DC-208-3 | Adjudicator | Cluster engine — hybrid HDBSCAN + constrained K-means, 560-760 LOC | P1 | **DONE** | `cluster_engine.py` — 865 LOC, 3-tier fallback, 14K atoms smoke-tested. |
 | DC-208-7 | Adjudicator | Lineage engine — memetic cladistics, 760-1080 LOC | P2 | **DEFER** | 6/10. After ≥50 mined sources. |
 | DC-208-9 | Adjudicator | Cyclical relevance model — DC-147 plugin, 260-420 LOC | P2 | **DEFER** | 5/10. After DC-147 + telemetry. |
 
@@ -80,8 +80,8 @@
 |----|--------|-----------|-----|--------|-------|
 | DC-206 | Phase 2D | Agents propose improvements on surviving + newly-mined content. Convergence required. | P0 | **DONE** | Corpus×Intention Synthesis: 14,311 atoms × 80+ intentions. 5 gaps, 3 perspectival shifts, 5 novel discoveries. |
 | DC-147 | Oracle+Adjudicator | **BUILD**: Model router — salience-gated, fail-open, 220-320 LOC | P1 | **DONE** | `model_router.py` — 234 LOC, 3-signal routing, fail-open, pool-aware. |
-| DC-150 | Oracle+Adjudicator | **BUILD**: Git-native tracking (Beads) — trailers, commit wrapper, index, 480-720 LOC | P1 | OPEN | Adjudicator: 8/10 feasibility, M complexity. Prerequisite for DC-149. |
-| DC-148 | Oracle+Adjudicator | **REDESIGN→BUILD**: Knowledge graph — Python core, fuzzy repair, 420-620 LOC | P1 | OPEN | Adjudicator: 7/10 feasibility, M complexity. Bash/jq→Python. |
+| DC-150 | Oracle+Adjudicator | **BUILD**: Git-native tracking (Beads) — trailers, commit wrapper, index, 480-720 LOC | P1 | **DONE** | `bead_tracker.py` — 715 LOC, 6 commands, sandbox-kill workaround. |
+| DC-148 | Oracle+Adjudicator | **REDESIGN→BUILD**: Knowledge graph — Python core, fuzzy repair, 420-620 LOC | P1 | **DONE** | `knowledge_graph.py` — 686 LOC, SQLite, 1406 entities, 6075 edges, fuzzy repair. |
 
 ### Phase 3: Surface Organization + Enforcement — ✅ DONE (except DC-122 Sovereign decision)
 
@@ -199,6 +199,9 @@
 | DC-134 | Ledger refresh automation | DONE | 2026-02-23 | ledger_refresh.sh + launchd plist. Weekly staleness scan. |
 | DC-135 | Obsidian vault stub | DONE | 2026-02-23 | Already configured. No action needed. |
 | DC-147 | Model router | DONE | 2026-02-23 | 234 LOC, 3-signal routing, fail-open, pool-aware. |
+| DC-148 | Knowledge graph | DONE | 2026-02-23 | 686 LOC, SQLite, 1406 entities, 6075 edges, fuzzy repair. |
+| DC-150 | Bead tracker | DONE | 2026-02-23 | 715 LOC, 6 commands, git trailers, sandbox workaround. |
+| DC-208-3 | Cluster engine | DONE | 2026-02-23 | 865 LOC, 3-tier fallback, 14K atoms smoke-tested. |
 
 ---
 
@@ -220,11 +223,11 @@
 
 ## Metrics
 
-- **Total**: 79 commitments (40 DONE + 2 OPEN-BUILD + 7 OPEN + 23 PARKED + 6 SUPERSEDED/RESOLVED + 4 DEFER)
-- **Phase 0**: ✅ 3/3 | **Phase 1**: ✅ 4/4 P0 (2 P1 hardening) | **Phase 2**: 2A+2B+2D DONE, 2C: pipeline DONE, DC-208-3 cluster OPEN | **Phase 3**: ✅ 6/7 (DC-122 Sovereign) | **Phase 4**: 3/6 DONE (DC-131/132/133 need Mac mini) | **Phase 5**: 9 items
-- **Delivery rate**: 51% (40/79) — crossed 50% threshold
+- **Total**: 79 commitments (43 DONE + 4 OPEN + 23 PARKED + 6 SUPERSEDED/RESOLVED + 3 DEFER)
+- **Phase 0**: ✅ 3/3 | **Phase 1**: ✅ 4/4 P0 (2 P1 hardening) | **Phase 2**: ✅ ALL P0+P1 DONE (3 P2 deferred) | **Phase 3**: ✅ 6/7 (DC-122 Sovereign) | **Phase 4**: 3/6 DONE (DC-131/132/133 need Mac mini) | **Phase 5**: 9 items
+- **Delivery rate**: 54% (43/79) — Phase 2 fully delivered
 - **Target**: >80% within 30 days
-- **Current position**: Phase 4 IN PROGRESS. DC-131/132/133 blocked by Mac mini offline. Phase 2 P1 (DC-148/150, DC-208-3) can execute in parallel. Quality gate running on full corpus.
+- **Current position**: Phase 2 COMPLETE. Phase 3 COMPLETE (except DC-122). Phase 4: DC-131/132/133 blocked by Mac mini. Phase 5 items remain. Quality gate running on full corpus.
 
 ---
 
