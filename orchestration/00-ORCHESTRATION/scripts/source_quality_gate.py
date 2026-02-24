@@ -28,8 +28,10 @@ os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
 from source_quality_metrics import (
     AtomMetrics,
+    batch_encode_atoms,
     evaluate_atom,
     load_canon_embeddings,
+    load_praxis_cache,
 )
 
 
@@ -213,7 +215,7 @@ def run_quality_gate(
         print("ERROR: no atoms loaded from extract files", file=sys.stderr)
         return []
 
-    print(f"Loaded {len(atoms)} atoms from extract files")
+    print(f"Loaded {len(atoms)} atoms from extract files", flush=True)
 
     canon_path = Path(canon_dir)
     if not canon_path.exists():
@@ -221,7 +223,7 @@ def run_quality_gate(
 
     print("Loading canon embeddings...")
     canon_embs, canon_texts = load_canon_embeddings(canon_path)
-    print(f"  {len(canon_texts)} canon paragraphs embedded")
+    print(f"  {len(canon_texts)} canon paragraphs embedded", flush=True)
 
     graph_state = load_graph_state(graph_state_path)
     praxis_path = Path(praxis_dir) if praxis_dir else None
@@ -230,11 +232,24 @@ def run_quality_gate(
 
     triage = load_triage(out_path)
 
+    # Pre-load praxis files into memory once (avoids N*M disk reads)
+    print("Loading praxis cache...", flush=True)
+    praxis_cache = load_praxis_cache(praxis_path)
+    if praxis_cache is not None:
+        print(f"  {len(praxis_cache)} praxis files cached in memory", flush=True)
+    else:
+        print("  praxis cache skipped (no praxis dir)", flush=True)
+
+    # Batch-encode all atom contents (single pass, huge speedup vs per-atom)
+    print("Batch-encoding atom embeddings...", flush=True)
+    atom_embs = batch_encode_atoms(atoms)
+    print(f"  Encoded {atom_embs.shape[0]} atoms ({atom_embs.shape[1]}d)", flush=True)
+
     # Evaluate each atom
     results: list[AtomMetrics] = []
     for i, atom in enumerate(atoms):
-        if verbose:
-            print(f"  [{i+1}/{len(atoms)}] {atom['atom_id']}")
+        if verbose and (i % 1000 == 0 or i == len(atoms) - 1):
+            print(f"  [{i+1}/{len(atoms)}] {atom['atom_id']}", flush=True)
         m = evaluate_atom(
             atom, canon_embs, canon_texts, graph_state, praxis_path,
             triage, atoms,
@@ -242,6 +257,10 @@ def run_quality_gate(
             graph_density_threshold=graph_density_threshold,
             praxis_threshold=praxis_threshold,
             consistency_threshold=consistency_threshold,
+            praxis_cache=praxis_cache,
+            atom_emb=atom_embs[i],
+            all_atom_embs=atom_embs,
+            atom_index=i,
         )
         results.append(m)
 
