@@ -2,9 +2,24 @@
 # orchestration/00-ORCHESTRATION/scripts/scaffold_validate.sh
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CONFIG_SH="$SCRIPT_DIR/config.sh"
+
 # ---- config ---------------------------------------------------------------
-SIGMA_DIR_DEFAULT="praxis"                         # sigma-equivalent dir name
-SIGMA_DIR="${SIGMA_DIR:-$SIGMA_DIR_DEFAULT}"      # override via env SIGMA_DIR
+if [[ -f "$CONFIG_SH" ]]; then
+  # shellcheck source=/dev/null
+  source "$CONFIG_SH"
+  SIGMA_DIR_DEFAULT="${PRAXIS_DIR#$REPO_ROOT/}"
+  SIGMA_TOPLEVEL_DEFAULT="${SIGMA_DIR_DEFAULT%%/*}"
+else
+  SIGMA_DIR_DEFAULT="praxis"
+  SIGMA_TOPLEVEL_DEFAULT="$SIGMA_DIR_DEFAULT"
+fi
+
+[[ -n "$SIGMA_TOPLEVEL_DEFAULT" ]] || SIGMA_TOPLEVEL_DEFAULT="$SIGMA_DIR_DEFAULT"
+
+SIGMA_DIR="${SIGMA_DIR:-$SIGMA_DIR_DEFAULT}"                       # override via env SIGMA_DIR
+SIGMA_TOPLEVEL_DIR="${SIGMA_TOPLEVEL_DIR:-$SIGMA_TOPLEVEL_DEFAULT}"  # override via env SIGMA_TOPLEVEL_DIR
 
 # Top-level directories required
 REQUIRED_TOP_DIRS=( "orchestration" "canon" "engine" "sources" "agents" )
@@ -98,7 +113,12 @@ for d in "${REQUIRED_TOP_DIRS[@]}"; do
 done
 
 # Sigma-equivalent dir
-if [[ -d "$SIGMA_DIR" ]]; then
+SIGMA_DIR_CHECK="$SIGMA_DIR"
+if [[ "$SIGMA_DIR_CHECK" != /* ]]; then
+  SIGMA_DIR_CHECK="$ROOT/$SIGMA_DIR_CHECK"
+fi
+
+if [[ -d "$SIGMA_DIR_CHECK" ]]; then
   :
 else
   # tolerate sigma-* if SIGMA_DIR doesn't exist
@@ -110,11 +130,11 @@ else
 fi
 
 # Orphaned top-level entries (anything not in allowlist)
-# Build allow set = REQUIRED_TOP_DIRS + SIGMA_DIR + ALLOWED_TOP_LEVEL
+# Build allow set = REQUIRED_TOP_DIRS + SIGMA_TOPLEVEL_DIR + ALLOWED_TOP_LEVEL
 # Using a flat list + loop instead of associative array (bash 3 compat)
 ALLOW_LIST=()
 for x in "${REQUIRED_TOP_DIRS[@]}"; do ALLOW_LIST+=("$x"); done
-ALLOW_LIST+=("$SIGMA_DIR")
+ALLOW_LIST+=("$SIGMA_TOPLEVEL_DIR")
 for x in "${ALLOWED_TOP_LEVEL[@]}"; do ALLOW_LIST+=("$x"); done
 
 _in_allow() {
