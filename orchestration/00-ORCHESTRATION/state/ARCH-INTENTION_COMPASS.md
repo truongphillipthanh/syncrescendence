@@ -596,6 +596,25 @@ INT-P015 (dual-machine paradigm) ─────────► INT-1603, INT-16
 - INT-P033: NEW pattern — research before architecture (DC-208 informs design)
 - Authority: Commander / Sovereign Session 24
 
+**v3.5.0** (2026-02-23): Corpus×Intention Synthesis — Phase 2 Capstone (Council 25)
+- 14,311 atoms from 1,152 sources cross-referenced against 80+ active intentions
+- 5 parallel mining agents: memory, dispatch, feedcraft, security, exocortex
+- INT-2413: NEW — Ingest execution logs as action nodes into Graphiti (context graphs pattern)
+- INT-2414: NEW — Mine execution logs for emergent operational patterns (process pattern mining)
+- INT-2415: NEW — Enable agent self-maintenance of memory (promote/demote/reorganize, Letta model)
+- INT-2416: NEW — Implement scored context loading with TTL decay (7d/30d/90d)
+- INT-P034: NEW pattern — Feedback loops > memory engineering (the real bottleneck is quality signals, not storage)
+- INT-P035: NEW pattern — Security is Phase 0 of every phase (not Phase 5 — 230+ malicious skills Jan-Feb 2026)
+- INT-P036: NEW pattern — Feedcrafting = computational RAS (filter by declared intentions, not engagement)
+- INT-P037: NEW pattern — Syncrescendence IS the exocortex (connect, don't build from scratch)
+- REFRAME: DC-140 security audit reclassified from Phase 5 → continuous concern
+- REFRAME: DC-P20 exocortex = "connect existing exocortex to external sources via MCP"
+- REFRAME: DC-P19 macOS actuators = "adopt OpenClaw CLI ecosystem, not buy GUI tools"
+- REFRAME: INT-2104 feedcrafting = "computational RAS with intention-weighted scoring"
+- Phase 2 assessed as SUBSTANTIALLY COMPLETE (all P0 items done, quality gate + cluster engine are P1)
+- Deliverable: `agents/commander/outbox/DECISION_ATOMS-PHASE2-CORPUS_INTENTION_SYNTHESIS-2026-02-23.md`
+- Authority: Commander / Sovereign Council 25
+
 **v3.4.0** (2026-02-23): The Revert — Execution Over Architecture (Council 22)
 - INT-2210 (scaffold triage) REVERTED: 6 commits rolled back to d33aaf13 (INT-2209)
 - INT-2301–2307: Infrastructure→Memory→Scaffold→Automations critical path established

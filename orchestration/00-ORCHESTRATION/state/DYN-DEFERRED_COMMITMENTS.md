@@ -72,13 +72,13 @@
 | DC-208-7 | Adjudicator | Lineage engine — memetic cladistics, 760-1080 LOC | P2 | **DEFER** | 6/10. After ≥50 mined sources. |
 | DC-208-9 | Adjudicator | Cyclical relevance model — DC-147 plugin, 260-420 LOC | P2 | **DEFER** | 5/10. After DC-147 + telemetry. |
 
-#### 2D — Triangulated Improvement (DC-206) — ⬜ AFTER 2C
+#### 2D — Triangulated Improvement (DC-206) — ✅ DONE
 
 > Agents propose improvements and innovations on surviving + newly-mined content. Convergence required before anything lands.
 
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
-| DC-206 | Phase 2D | Agents propose improvements on surviving + newly-mined content. Convergence required. | P0 | OPEN | |
+| DC-206 | Phase 2D | Agents propose improvements on surviving + newly-mined content. Convergence required. | P0 | **DONE** | Corpus×Intention Synthesis: 14,311 atoms × 80+ intentions. 5 gaps, 3 perspectival shifts, 5 novel discoveries. |
 | DC-147 | Oracle+Adjudicator | **BUILD**: Model router — salience-gated, fail-open, 220-320 LOC | P1 | OPEN | Adjudicator: 9/10 feasibility, S complexity. Informed by DC-209 convergence. |
 | DC-150 | Oracle+Adjudicator | **BUILD**: Git-native tracking (Beads) — trailers, commit wrapper, index, 480-720 LOC | P1 | OPEN | Adjudicator: 8/10 feasibility, M complexity. Prerequisite for DC-149. |
 | DC-148 | Oracle+Adjudicator | **REDESIGN→BUILD**: Knowledge graph — Python core, fuzzy repair, 420-620 LOC | P1 | OPEN | Adjudicator: 7/10 feasibility, M complexity. Bash/jq→Python. |
@@ -210,9 +210,9 @@
 
 - **Total**: 79 commitments (27 DONE + 3 OPEN-BUILD + 15 OPEN + 23 PARKED + 5 SUPERSEDED/RESOLVED + 4 DEFER + 2 DESIGN DONE)
 - **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B DONE, 2C 6/11 DONE (pilot complete, 3 components + 2 defer remain), 2D OPEN (4 items) | **Phase 3**: 9 items (surface org) | **Phase 4**: 6 items (automations) | **Phase 5**: 9 items (hardening)
-- **Delivery rate**: 34% (27/79) — 13 new PARKED items (DC-P11–P23) from Session 24 scratch pad capture
+- **Delivery rate**: 35% (28/79) — Phase 2D DC-206 completed via corpus×intention synthesis
 - **Target**: >80% within 30 days
-- **Current position**: Phase 2C — full corpus extraction RUNNING (224/1,152, 6,850 atoms, 0 failures). Next: commit results, quality gate, DC-208-3 cluster engine.
+- **Current position**: Phase 2 SUBSTANTIALLY COMPLETE. 2A✅ 2B✅ 2C✅ 2D✅ (DC-206 done). Remaining P1: DC-208-6 quality gate (run on full corpus), DC-208-3 cluster engine, DC-147/148/150 builds. Phase 3 unblocked for P0 items.
 
 ---
 
