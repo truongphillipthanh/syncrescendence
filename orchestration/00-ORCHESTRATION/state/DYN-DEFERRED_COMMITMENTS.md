@@ -79,7 +79,7 @@
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
 | DC-206 | Phase 2D | Agents propose improvements on surviving + newly-mined content. Convergence required. | P0 | **DONE** | Corpus×Intention Synthesis: 14,311 atoms × 80+ intentions. 5 gaps, 3 perspectival shifts, 5 novel discoveries. |
-| DC-147 | Oracle+Adjudicator | **BUILD**: Model router — salience-gated, fail-open, 220-320 LOC | P1 | OPEN | Adjudicator: 9/10 feasibility, S complexity. Informed by DC-209 convergence. |
+| DC-147 | Oracle+Adjudicator | **BUILD**: Model router — salience-gated, fail-open, 220-320 LOC | P1 | **DONE** | `model_router.py` — 234 LOC, 3-signal routing, fail-open, pool-aware. |
 | DC-150 | Oracle+Adjudicator | **BUILD**: Git-native tracking (Beads) — trailers, commit wrapper, index, 480-720 LOC | P1 | OPEN | Adjudicator: 8/10 feasibility, M complexity. Prerequisite for DC-149. |
 | DC-148 | Oracle+Adjudicator | **REDESIGN→BUILD**: Knowledge graph — Python core, fuzzy repair, 420-620 LOC | P1 | OPEN | Adjudicator: 7/10 feasibility, M complexity. Bash/jq→Python. |
 
@@ -99,16 +99,16 @@
 | DC-122 | Oracle+Diviner | Rename decision for praxis sigma container | P1 | OPEN | Sovereign to decide. |
 | DC-123 | Vanguard | Install `scaffold_rename.sh` for future migration | P1 | **DONE** | `orchestration/00-ORCHESTRATION/scripts/scaffold_rename.sh` — git mv + cross-ref update + naming validation + dry-run. |
 
-### Phase 4: Automations + Sensing — ⬜ AFTER Phase 3
+### Phase 4: Automations + Sensing — ⬛ IN PROGRESS
 
 | ID | Source | Commitment | Pri | Status | Notes |
 |----|--------|-----------|-----|--------|-------|
-| DC-130 | INT-1612 | Cockpit activation: 16-min HQ + 30-min startup sequence | P0 | OPEN | Requires Phase 0 + Phase 1 (both DONE). |
-| DC-131 | Vanguard | Graphiti `POST /triples` endpoint for deterministic edges | P1 | OPEN | Vanguard wrote exact code. |
-| DC-132 | Vanguard | Backfill MEMORY.md + entities into Graphiti | P1 | OPEN | `backfill_memory_md.py` skeleton ready. |
-| DC-133 | Vanguard | Graphiti query tools in agent harnesses via *-EXT.md | P1 | OPEN | Enables read path: agent → graph → cache → file. |
-| DC-134 | DC-010 | Live Ledger sensing: cron-dispatched intel, MODEL-INDEX refresh | P1 | OPEN | 12 DYN-LEDGER files exist. Automation missing. |
-| DC-135 | Diviner | Root `.obsidian/` stub | P2 | OPEN | Trivial. |
+| DC-130 | INT-1612 | Cockpit activation: 16-min HQ + 30-min startup sequence | P0 | **DONE** | `cockpit_startup.sh` — 6-check health, --quick/--json/--quiet modes. |
+| DC-131 | Vanguard | Graphiti `POST /triples` endpoint for deterministic edges | P1 | OPEN | Vanguard wrote exact code. Requires Mac mini online. |
+| DC-132 | Vanguard | Backfill MEMORY.md + entities into Graphiti | P1 | OPEN | `backfill_memory_md.py` skeleton ready. Requires Mac mini online. |
+| DC-133 | Vanguard | Graphiti query tools in agent harnesses via *-EXT.md | P1 | OPEN | Enables read path: agent → graph → cache → file. Requires Mac mini online. |
+| DC-134 | DC-010 | Live Ledger sensing: cron-dispatched intel, MODEL-INDEX refresh | P1 | **DONE** | `ledger_refresh.sh` + launchd plist. Weekly staleness scan + MODEL-INDEX drift. |
+| DC-135 | Diviner | Root `.obsidian/` stub | P2 | **DONE** | Already configured with full vault settings. No action needed. |
 
 ### Phase 5: Hardening + Scale — ⬜ AFTER Phase 4
 
@@ -195,6 +195,10 @@
 | DC-302 | Rosetta normalization | DONE | 2026-02-23 | 8 terms, 17 files. 4 Sovereign escalations. |
 | DC-304 | ADR template | DONE | 2026-02-23 | TEMPLATE-ADR.md. Bridges ADR with Decision Atoms. |
 | DC-123 | scaffold_rename.sh | DONE | 2026-02-23 | git mv + cross-ref + naming validation + dry-run. |
+| DC-130 | Cockpit startup | DONE | 2026-02-23 | 6-check health sequence, --quick/--json/--quiet modes. |
+| DC-134 | Ledger refresh automation | DONE | 2026-02-23 | ledger_refresh.sh + launchd plist. Weekly staleness scan. |
+| DC-135 | Obsidian vault stub | DONE | 2026-02-23 | Already configured. No action needed. |
+| DC-147 | Model router | DONE | 2026-02-23 | 234 LOC, 3-signal routing, fail-open, pool-aware. |
 
 ---
 
@@ -216,11 +220,11 @@
 
 ## Metrics
 
-- **Total**: 79 commitments (35 DONE + 3 OPEN-BUILD + 10 OPEN + 23 PARKED + 6 SUPERSEDED/RESOLVED + 4 DEFER)
-- **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B+2D DONE, 2C: pipeline DONE, DC-208-3 cluster engine OPEN, DC-208-4 full extraction RUNNING | **Phase 3**: ✅ 6/7 DONE (DC-122 awaits Sovereign) | **Phase 4**: 6 items (automations) | **Phase 5**: 9 items (hardening)
-- **Delivery rate**: 44% (35/79) — Phase 3 substantially complete
+- **Total**: 79 commitments (40 DONE + 2 OPEN-BUILD + 7 OPEN + 23 PARKED + 6 SUPERSEDED/RESOLVED + 4 DEFER)
+- **Phase 0**: ✅ 3/3 | **Phase 1**: ✅ 4/4 P0 (2 P1 hardening) | **Phase 2**: 2A+2B+2D DONE, 2C: pipeline DONE, DC-208-3 cluster OPEN | **Phase 3**: ✅ 6/7 (DC-122 Sovereign) | **Phase 4**: 3/6 DONE (DC-131/132/133 need Mac mini) | **Phase 5**: 9 items
+- **Delivery rate**: 51% (40/79) — crossed 50% threshold
 - **Target**: >80% within 30 days
-- **Current position**: Phase 3 DONE (except DC-122 Sovereign decision). scaffold_validate PASS (0 violations). Quality gate running on 14,311-atom corpus. Phase 2 P1 items (DC-147/148/150, DC-208-3) can execute in parallel. Phase 4 now UNBLOCKED.
+- **Current position**: Phase 4 IN PROGRESS. DC-131/132/133 blocked by Mac mini offline. Phase 2 P1 (DC-148/150, DC-208-3) can execute in parallel. Quality gate running on full corpus.
 
 ---
 
