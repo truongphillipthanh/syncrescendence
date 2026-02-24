@@ -21,9 +21,6 @@ ALLOWED_TOP_LEVEL=(
   "CONTINUOUS-IMPROVEMENT.md" "ACTIVE-TASKS.md"
   "-INBOX" "-OUTBOX" "-SOVEREIGN"
   "collab" "memory" "openclaw" "sovereign"
-  "com.syncrescendence.ingest.plist" "com.syncrescendence.weekly.plist"
-  "task_plan.md" "findings.md" "progress.md"
-  "Makefile 2"
 )
 
 # Agent office required structure
