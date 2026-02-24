@@ -91,8 +91,8 @@
 |----|--------|-----------|-----|--------|-------|
 | DC-120 | Vanguard | Install `scaffold_validate.sh` — structural integrity check | P0 | **DONE** | Installed, adapted for macOS. Baseline: 1,616 broken links + 104 ARCH headers. `127ace0b`. |
 | DC-121 | Vanguard | Install `scaffold_heal.sh` — safe auto-repair | P0 | **DONE** | Installed with correct path refs. `127ace0b`. |
-| DC-300 | Phase 3 | Formalize naming conventions across all directories | P1 | OPEN | Derived from Phase 2 evidence, not imposed top-down. |
-| DC-301 | Phase 3 | Standardize headers and metadata across all files | P1 | OPEN | |
+| DC-300 | Phase 3 | Formalize naming conventions across all directories | P1 | OPEN | Derived from Phase 2 evidence, not imposed top-down. Deliverable: `engine/REF-NAMING_CONVENTIONS.md`. |
+| DC-301 | Phase 3 | Standardize headers and metadata across all files | P1 | **IN PROGRESS** | DYN cadence headers: 39/39 done. ARCH Version/Date: 53/53 done. Broken links: 1,616 remain (wikilink false positives). |
 | DC-302 | Phase 3 | Normalize duplicate concepts against Rosetta Stone | P1 | OPEN | |
 | DC-303 | DC-207 | Execute dispatch restructuring if DC-207 decided one needed | P1 | **RESOLVED** | DC-207 resolved: sanctify, don't restructure. No action needed. |
 | DC-304 | DC-124 | Convert top ARCH-* files to ADR format | P1 | OPEN | Oracle REPO-003 spec. |
@@ -210,9 +210,9 @@
 
 - **Total**: 79 commitments (27 DONE + 3 OPEN-BUILD + 15 OPEN + 23 PARKED + 5 SUPERSEDED/RESOLVED + 4 DEFER + 2 DESIGN DONE)
 - **Phase 0**: ✅ 3/3 DONE | **Phase 1**: ✅ 4/4 P0 DONE (2 P1 hardening remain) | **Phase 2**: 2A+2B DONE, 2C 6/11 DONE (pilot complete, 3 components + 2 defer remain), 2D OPEN (4 items) | **Phase 3**: 9 items (surface org) | **Phase 4**: 6 items (automations) | **Phase 5**: 9 items (hardening)
-- **Delivery rate**: 35% (28/79) — Phase 2D DC-206 completed via corpus×intention synthesis
+- **Delivery rate**: 38% (30/79) — DC-120, DC-121 done; DC-301 in progress
 - **Target**: >80% within 30 days
-- **Current position**: Phase 2 SUBSTANTIALLY COMPLETE. 2A✅ 2B✅ 2C✅ 2D✅ (DC-206 done). Remaining P1: DC-208-6 quality gate (run on full corpus), DC-208-3 cluster engine, DC-147/148/150 builds. Phase 3 unblocked for P0 items.
+- **Current position**: Phase 3 IN PROGRESS. DC-120✅ DC-121✅ DC-301 partial (92/92 headers done, 1,616 broken links remain). DC-208-6 quality gate running on full 14,311-atom corpus. Phase 2 P1 items (DC-147/148/150, DC-208-3) can execute in parallel.
 
 ---
 
