@@ -1,3 +1,11 @@
+---
+agent: oracle
+council: DC-200
+topic: Scaffold Consensus — executable constitution pattern, hierarchical agent offices, ADR-as-living-code validation
+status: unprocessed
+collected: 2026-02-23
+---
+
 **Oracle RECON – Scaffold Consensus Directive Executed 2026-02-22**
 
 ### [REPO-001] Executable Constitution Pattern (AGENTS.md / CLAUDE.md + Skills Tiering)

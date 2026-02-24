@@ -1,3 +1,11 @@
+---
+agent: adjudicator
+council: DC-208
+topic: DC-208 Mining Pipeline Code Review — Round 1 (FAIL verdict, P0 bugs)
+status: unprocessed
+collected: 2026-02-23
+---
+
 # Adjudicator: DC-208 Mining Pipeline Code Review
 
 ## Overall Assessment

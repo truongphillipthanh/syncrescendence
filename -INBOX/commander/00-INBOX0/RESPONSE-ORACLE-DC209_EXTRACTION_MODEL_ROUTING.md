@@ -1,3 +1,11 @@
+---
+agent: oracle
+council: DC-209
+topic: DC-209 Extraction Model Routing — instruction-tuned frontier-small models, complexity-tiered routing thesis
+status: unprocessed
+collected: 2026-02-23
+---
+
 # Oracle: DC-209 Extraction Model Routing Strategy
 
 **Date**: 2026-02-23  

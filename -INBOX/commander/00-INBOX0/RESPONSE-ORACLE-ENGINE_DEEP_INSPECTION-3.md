@@ -1,4 +1,12 @@
-**Resuming DC-202, session S3.**  
+---
+agent: oracle
+council: DC-202
+topic: DC-202 Engine Deep Inspection — Session 3 (FUNC files, verdicts 45–72)
+status: unprocessed
+collected: 2026-02-23
+---
+
+**Resuming DC-202, session S3.**
 Files completed: 45/147. Picking up from: FUNC (all 28).  
 
 **S3 Scope Completed**  

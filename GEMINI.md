@@ -98,10 +98,12 @@ agents/<name>/
 | Agent | CLI Tool | Dispatch Mode | Machine | tmux Pane | Rate-Limit Pool | Auto-Ingest |
 |---|---|---|---|---|---|---|
 | **Commander** | Claude Code (Opus 4.6) | tmux `send-keys` | Mac mini (+ MBA secondary) | `1.3` | Claude Max / Account 1 | `auto_ingest_loop.sh commander` |
-| **Adjudicator** | Codex CLI (GPT-5.3-Codex) | tmux `send-keys` | Mac mini | `1.5` | Shared ChatGPT Plus with Psyche | `auto_ingest_loop.sh adjudicator` |
+| **Adjudicator** | Codex Desktop App (GPT-5.3-Codex) | tmux `send-keys` (CLI) / Desktop App (triangulation) | Mac mini | `1.5` | Shared ChatGPT Plus with Psyche | `auto_ingest_loop.sh adjudicator` |
 | **Cartographer** | Gemini CLI (Gemini Pro 3.1) | Headless (`gemini -p -y -o text`) | Mac mini | `1.7` | Google AI Pro / Gemini quota | `auto_ingest_loop.sh cartographer` |
 | **Psyche** | OpenClaw (GPT-5.3-codex) | tmux `send-keys` | Mac mini | `1.1` | Shared ChatGPT Plus with Adjudicator | `auto_ingest_loop.sh psyche` |
 | **Ajna** | OpenClaw (Kimi K2.5) | filesystem + SCP sling | MacBook Air | N/A (remote) | NVIDIA/Kimi pool | `auto_ingest_loop.sh ajna` |
+
+**WARNING: tmux `constellation` session is ANESTHETIZED (2026-02-24).** Do NOT attempt to dispatch via tmux panes — they are not operational. Flag any instruction to use tmux panes for agent dispatch.
 
 ---
 
@@ -152,6 +154,25 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 | Every decision atom | `agents/commander/outbox/DECISION_ATOMS-<DIRECTIVE>-SESSION-<DATE>.md` | Future sessions need *why*, not just *what* |
 | Session handoff | `agents/commander/outbox/HANDOFF-<DIRECTIVE>-SESSION_TERMINAL.md` | The handoff IS the session's legacy |
 | Memory updates | Agent memory files | Prevents the Sovereign from repeating themselves |
+
+### Commander Council (CC) Lineage — Ascertescence Protocol
+
+Triangulation sessions between Sovereign and Commander operate within the **Commander Council (CC)** session lineage, continuing from Council 25 (CC26 = current). Commander's instrument is **ascertescence** (captaining the squad: generating questions, staging prompts, orchestrating triangulation, synthesizing output). Ajna's instrument is **clarescence** (holistic/meta/macro illumination); Ajna is currently anesthetized (dormant).
+
+**CC artifact naming** (supersedes generic `<TOPIC>` for Sovereign↔Commander cycles):
+- Prompts: `PROMPT-COMMANDER-ASCERTESCENCE-CC{N}.md` → `engine/` + `~/Desktop/` copy
+- Responses: `RESPONSE-{AGENT}-ASCERTESCENCE-CC{N}.md` → `-INBOX/commander/00-INBOX0/`
+
+**Relay mechanism**: `ascertescence_relay.sh` — sequential single-file relay (ONE file on Desktop at a time):
+1. Commander creates prompt in `engine/02-ENGINE/`
+2. `ascertescence_relay.sh CC# send oracle` → rsyncs to Desktop as `RESPONSE-ORACLE-ASCERTESCENCE-CC{N}.md`
+3. Sovereign pastes prompt to Oracle (Grok web), overwrites Desktop file with response, drags into Commander inbox alias (→ `-INBOX/commander/00-INBOX0/`)
+4. Sovereign says "Oracle landed" → Commander reads, creates next prompt (`CC{N}-DIV.md`)
+5. `ascertescence_relay.sh CC# send diviner` → rsyncs to Desktop as `RESPONSE-DIVINER-*`
+6. Sovereign pastes prompt to Diviner (Gemini Pro 3.1 web), overwrites Desktop file with response, drags into Commander inbox alias (→ `-INBOX/commander/00-INBOX0/`). Do NOT use Gemini CLI (nerfed).
+7. Sovereign says "Diviner landed" → Commander reads, creates Adjudicator prompt (`CC{N}-ADJ.md`)
+8. `ascertescence_relay.sh CC# send adjudicator` → Adjudicator (Codex Desktop App, NOT Codex CLI) writes response directly, overwrites the file. Sovereign drops in Commander inbox. (Last leg.)
+Handoffs and dropoffs are fused into the CC lineage chain. Index at `-INBOX/commander/00-INBOX0/INDEX-TRIANGULATION_RESPONSES.md`.
 
 ---
 

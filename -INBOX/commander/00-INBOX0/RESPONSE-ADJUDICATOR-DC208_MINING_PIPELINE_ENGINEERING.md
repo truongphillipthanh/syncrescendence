@@ -1,3 +1,11 @@
+---
+agent: adjudicator
+council: DC-208
+topic: DC-208 Mining Pipeline Engineering — full component blueprint (triage, extract, bridge, promote)
+status: unprocessed
+collected: 2026-02-23
+---
+
 # Adjudicator: DC-208 Mining Pipeline Engineering
 
 ## Baseline Context

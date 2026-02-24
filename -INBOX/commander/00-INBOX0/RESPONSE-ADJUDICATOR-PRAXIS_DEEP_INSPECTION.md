@@ -1,3 +1,11 @@
+---
+agent: adjudicator
+council: DC-203
+topic: DC-203 Praxis Deep Inspection — final RESULT (36-file praxis/05-SIGMA audit, per-file verdicts + recommendations)
+status: unprocessed
+collected: 2026-02-23
+---
+
 # RESULT — Adjudicator Deep Inspection (DC-203)
 
 Inspection scope: `praxis/05-SIGMA/` (36 entries including `.DS_Store`).

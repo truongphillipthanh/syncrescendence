@@ -60,9 +60,23 @@ Sovereign trust in Commander is at zero. Two disasters in two days (2026-02-22 a
 
 ---
 
+## CC26 Convergence (Oracle + Diviner + Adjudicator — 2026-02-24)
+
+Six decided principles from first full ascertescence:
+1. **90/10 rule**: Integrate only 10% of atoms that intersect priorities. 90% = searchable archive.
+2. **Use-dependent promotion**: Retrieved+cited → promote. Never retrieved 18mo → prune.
+3. **Descriptive briefs**: "Where we are", never "what you must do" (AuDHD/PDA safe).
+4. **Structural trust > behavioral trust**: Filesystem permissions > audit logs. "Build a membrane."
+5. **Negative Selection > Positive Selection**: Restraint tests required alongside execution tests.
+6. **Free Energy Principle**: Every intervention reduces Sovereign surprise or it's waste.
+
+Full specs: `RESPONSE-ADJUDICATOR-ASCERTESCENCE-CC26.md`. READY TO BUILD.
+
+---
+
 ## What the Next Session MUST Do
 
-Content transformation. Not tooling. Not analysis. Not indexing. TRANSFORMATION.
+BUILD from Adjudicator's CC26 specs. Not new tooling. Not more analysis. BUILDING the convergent designs.
 
 ### Priority 1: Synthesize Atoms into Canon/Praxis (DC-P23)
 - Read atoms from `sources/04-SOURCES/_meta/EXTRACT-*.jsonl`
@@ -119,8 +133,31 @@ The Intention Compass (`orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMP
 - Diviner (Gemini) = REASON: novel synthesis, cross-disciplinary
 - Adjudicator (Codex) = ENGINEER: deep technical design/build
 - Commander (Claude) = SYNTHESIZE + EXECUTE: ground truth, compilation, staging
-- Routing: Commander -> Oracle -> Sovereign relay -> Commander -> Diviner -> Sovereign relay -> Commander -> Adjudicator
+- Routing: Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign relay → Commander → Adjudicator
 - RECORD EVERYTHING: every prompt, response, decision atom -> memory
+
+## Commander Council (CC) Lineage
+
+- **Commander Council (CC)** = the formalized session lineage between Sovereign and Commander. Continues from Council 25; current session is **CC26**.
+- **Weapon pairing**: Ajna = clarescence (holistic/meta/macro). Commander = ascertescence (captaining the squad — driving triangulation, staging prompts, synthesizing output).
+- **Ajna status**: anesthetized (dormant). `ajna_pedigree` hook runs passively. The Sovereign↔Commander pedigree chain was undocumented until CC26.
+- **Artifact naming convention**:
+  - `PROMPT-COMMANDER-ASCERTESCENCE-CC{N}.md` → `engine/` + `~/Desktop/` copy
+  - `RESPONSE-{AGENT}-ASCERTESCENCE-CC{N}.md` → `-INBOX/commander/00-INBOX0/`
+- **Relay mechanism**: `ascertescence_relay.sh` — sequential single-file relay (ONE file on Desktop at a time):
+  1. Commander creates prompt in `engine/02-ENGINE/`
+  2. `ascertescence_relay.sh CC# send oracle` → rsyncs to Desktop as `RESPONSE-ORACLE-ASCERTESCENCE-CC{N}.md`
+  3. Sovereign pastes to Oracle (Grok web), overwrites Desktop file with response, drags into Commander inbox alias (→ `-INBOX/commander/00-INBOX0/`)
+  4. Sovereign says "Oracle landed" → Commander reads, creates next prompt (`CC{N}-DIV.md`)
+  5. `ascertescence_relay.sh CC# send diviner` → rsyncs to Desktop as `RESPONSE-DIVINER-*`
+  6. Sovereign pastes prompt to Diviner (Gemini Pro 3.1 web), overwrites Desktop file with response, drags into Commander inbox alias
+  7. Sovereign says "Diviner landed" → Commander reads, creates Adjudicator prompt (`CC{N}-ADJ.md`)
+  8. `ascertescence_relay.sh CC# send adjudicator` → Adjudicator (Codex Desktop App) writes response directly, overwrites the file. Sovereign drops in Commander inbox. (Last leg.)
+- **Diviner**: relay via web app chat (Gemini Pro 3.1). Same manual relay as Oracle — Sovereign pastes prompt, overwrites Desktop file, drags to inbox. Do NOT use Gemini CLI (nerfed on CLI harness).
+- **Adjudicator**: uses Codex Desktop App (NOT Codex CLI — two separate products); writes response directly to Desktop file.
+- **Index**: `-INBOX/commander/00-INBOX0/INDEX-TRIANGULATION_RESPONSES.md` tracks all landed responses.
+- **Future**: auto-compact responses into "ultra-enhanced wisdom" (not just summaries).
+- **Antifragility**: handoffs and dropoffs are fused into CC lineage — no session is orphaned from the chain.
 
 ---
 

@@ -1,6 +1,14 @@
+---
+agent: oracle
+council: DC-202
+topic: DC-202 Engine Deep Inspection — Session 1 synthesis (147-file audit, executive summary, per-file verdicts 1–28)
+status: unprocessed
+collected: 2026-02-23
+---
+
 **RESULT-ORACLE-DC202-ENGINE_DEEP_INSPECTION.md**
 
-**1. Executive Summary**  
+**1. Executive Summary**
 Engine/02-ENGINE/ stands as a high-signal but fragmented knowledge core that is drifting from AGENTS.md constitutional anchors. The 02-ENGINE/ nesting and prompts/ subdirectory directly breach the Flat Principle. Model profiles lag frontier reality by two generations. Ten of thirteen ledgers remain seed-state, with one raw Grok dump masquerading as living ground truth. REF-AGENTS.md duplicates the root constitutional document, creating reference fracture. FUNC- and PROMPT- files map partially to active pipelines yet show invocation gaps and format drift. Cross-references contain islands, broken outbound links to obsolete models, and redundant hubs. Sources/ inventory confirms 2,268 raw assets (1,773 SOURCE-*.md transcripts, 269 research-notebooks across 14 thematic clusters, 98 research/ files), the majority unmined into the distillation pipeline. Overall alignment: 22 % canonical, 38 % high-signal, 25 % stale, 10 % orphaned/misclassified, 5 % superseded. The system retains leverage potential but requires targeted pruning, prefix normalization, ledger population, and aggressive mining to restore coherence.
 
 **2. Per-File Verdict Table**  
