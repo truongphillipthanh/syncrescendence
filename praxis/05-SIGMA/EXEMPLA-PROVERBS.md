@@ -28,7 +28,7 @@ execution. Building content pipelines before infrastructure creates orphaned art
 **Application**: When tempted to process content immediately, first ask: "Is the
 infrastructure to receive this output actually ready?"
 
-**Source**: Oracle sessions (passim)
+**Source**: Council sessions (passim)
 
 ---
 
@@ -82,7 +82,7 @@ that's signal—not noise.
 
 **Statement**: "Work that exists only in conversations is work that doesn't exist."
 
-**Context**: Oracle sessions 4-9 produced extensive architecture—deep analysis, structural
+**Context**: Council sessions 4-9 produced extensive architecture—deep analysis, structural
 decisions, canonical frameworks. But outputs stayed in chat threads, never committed to
 repository. When threads hit context limits, the work dissolved.
 

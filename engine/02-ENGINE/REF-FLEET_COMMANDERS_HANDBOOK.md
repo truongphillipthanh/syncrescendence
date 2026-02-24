@@ -83,7 +83,7 @@ This is a Syncrescendence-native pattern (see ROSETTA-STONE: UNIQUE). No communi
 
 | Command | Type | Effect |
 |---------|------|--------|
-| `/project:blitzkrieg` | Custom | Create parallel directive bundle with Lane A/B/C |
+| `/project:blitzkrieg` | Custom | Create parallel directive bundle (Neo-Blitzkrieg constellation pipeline) |
 | `/project:blitzkrieg_finalize` | Custom | Generate return packet, audio scripts, agent relay |
 | `/project:blitzkrieg_issue <slug>` | Custom | Create bundle skeleton with directive templates |
 | `/project:vanguard_reint` | Custom | Vanguard reintegration protocol |
@@ -201,7 +201,7 @@ CAPTURED > INTERPRETED > COMPILED > STAGED > COMMITTED
 | Skill | File | Purpose |
 |-------|------|---------|
 | Intentions | `.claude/skills/intentions.md` | Intention archaeology and alignment verification |
-| Pedigree | `.claude/skills/pedigree.md` | Oracle session lineage tracking |
+| Pedigree | `.claude/skills/pedigree.md` | Council session lineage tracking |
 
 ### Incoming Skills
 

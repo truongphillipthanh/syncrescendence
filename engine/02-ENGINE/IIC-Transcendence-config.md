@@ -172,7 +172,7 @@ OUTPUT STANDARDS:
 **Use Cases**:
 - **Corpus-Scale Analysis**: Load entire repository, identify coherence gaps
 - **Pattern Recognition**: Cross-IIC patterns and emergent capabilities
-- **Historical Synthesis**: Oracle 0-13 arc analysis
+- **Historical Synthesis**: Council 0-13 arc analysis
 - **Network Topology**: Relationship mapping across components
 
 **Gem Configuration**: "Transcendence Corpus Analyst"

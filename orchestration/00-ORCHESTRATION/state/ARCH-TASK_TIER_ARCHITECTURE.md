@@ -15,7 +15,7 @@ Updated: 2026-02-05
 ### T0: Strategic Intentions
 **Tool**: `ARCH-INTENTION_COMPASS.md` (repo)
 **Scope**: Vision vectors, meta-patterns, anti-patterns, civilizational-scale direction
-**Cadence**: Per-Oracle session / monthly review
+**Cadence**: Per-Council session / monthly review
 **Owner**: Sovereign
 **Capture Mechanism**: `intent_compass.sh` hook (fires on every user prompt)
 

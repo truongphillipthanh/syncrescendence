@@ -305,4 +305,4 @@ SUCCESS_CRITERIA: [Completion conditions]
 
 ---
 
-*This document is an operational reference. Modifications require Oracle approval.*
+*This document is an operational reference. Modifications require Sovereign/Council approval.*

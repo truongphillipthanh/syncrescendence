@@ -21,7 +21,7 @@ The Intention Archaeology Compass is a unified instrument that extracts, categor
 - **Cache**: Quick reference for active intentions
 - **Rolling Snapshot**: Historical record of intention evolution
 
-From Oracle 12 (Sovereign's words):
+From Council 12 (Sovereign's words):
 > "The intention archaeology compass should be unified. All intentions are compounding vectors that are interdependent... In essence, it's a cache, but it's also a rolling snapshot."
 
 ---
@@ -253,7 +253,7 @@ Each intention entry contains:
 
 ### SESSION 22 (2026-02-23): The Revert — Execution Over Architecture
 
-*Source: Sovereign directive after INT-2210 revert. Commander botched scaffold triage (6 commits: renamed dirs, dissolved structures, deleted 3966 lines of architectural docs). Sovereign ordered hard reset to INT-2209. Full triage of unexecuted Oracle session specs.*
+*Source: Sovereign directive after INT-2210 revert. Commander botched scaffold triage (6 commits: renamed dirs, dissolved structures, deleted 3966 lines of architectural docs). Sovereign ordered hard reset to INT-2209. Full triage of unexecuted Council session specs.*
 
 | ID | Oracle | Intention Text | Status | Notes |
 |----|--------|---------------|--------|-------|
@@ -267,7 +267,7 @@ Each intention entry contains:
 
 | ID | Oracle | Pattern | Status | Notes |
 |----|--------|---------|--------|-------|
-| INT-P028 | 22 | "Architecture without execution is decoration. 14% delivery rate IS the problem." | active | 22 Oracle sessions produced pristine architecture. Near-zero execution. Memory is the root cause — sessions are amnesiac. |
+| INT-P028 | 22 | "Architecture without execution is decoration. 14% delivery rate IS the problem." | active | 22 Council sessions produced pristine architecture. Near-zero execution. Memory is the root cause — sessions are amnesiac. |
 | INT-P029 | 22 | "Never triage without validation infrastructure. The janitor who tears down walls isn't cleaning — he's demolishing." | active | INT-2210 forensic. Commander took 'triage the scaffold' as license to redesign. |
 | INT-P030 | 22 | "Phase gates are constitutional. Each phase unblocks the next. No skipping." | active | Infrastructure → Memory → Scaffold → Automations → Hardening → Scale. |
 | INT-P031 | 22 | "Triangulated specs are execution-ready artifacts, not reference material. When 3 models converge, ACT." | active | Oracle+Vanguard+Diviner memory architecture = highest-confidence spec in the corpus. Still unexecuted. |
@@ -365,7 +365,7 @@ Each intention entry contains:
 | ID | Text | Status | Outcome |
 |----|------|--------|---------|
 | INT-0301 | "orchestration infrastructure pattern" | resolved | THE MODEL established |
-| INT-0302 | "Reception Calibration vs Archetype Engineering" | resolved | Three-layer architecture |
+| INT-0302 | "Reception Calibration vs Archetype Engineering (DEPRECATED, Rosetta #79)" | resolved | Three-layer architecture; Reception Calibration won |
 | INT-0303 | "visibility bridge via execution logs" | active | Visibility flow |
 
 ### Oracle 4: Metabolic Defrag

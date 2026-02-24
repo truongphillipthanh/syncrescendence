@@ -49,7 +49,7 @@ Status: `NOMINAL` (stable) · `WATCH` (change expected) · `UPDATING` (active tr
 
 | Model | API String | Context | Max Output | Release | Strengths | IIC Assignment |
 |-------|------------|---------|------------|---------|-----------|----------------|
-| **Claude Opus 4.6** | `claude-opus-4-6-20260205` | 200K (1M beta) | 128K | 2026-02-05 | Adaptive thinking, agent teams, highest agentic coding scores, 1M context beta | Oracle sessions, strategic synthesis, agent orchestration |
+| **Claude Opus 4.6** | `claude-opus-4-6-20260205` | 200K (1M beta) | 128K | 2026-02-05 | Adaptive thinking, agent teams, highest agentic coding scores, 1M context beta | Council sessions, strategic synthesis, agent orchestration |
 | **Claude Sonnet 5** | `claude-sonnet-5-20260205` | 200K (1M beta) | 128K | 2026-02-05 | Fast, efficient, excellent for sub-tasks and parallel execution | Dual-residency execution, high-velocity coding |
 | **Claude Opus 4.5** | `claude-opus-4-5-20251101` | 200K (1M beta) | 128K | 2025-11-01 | Deep synthesis, architectural thinking, extended thinking | Deep analysis, complex reasoning |
 | **Claude Sonnet 4.5** | `claude-sonnet-4-5-20241022` | 200K (1M beta) | 128K | 2024-10-22 | Fast, balanced, excellent coding | Daily operations, legacy support |

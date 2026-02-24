@@ -68,7 +68,7 @@ Relations use the primitives from REF-ONTOLOGY_REGISTRY.md:
 | 33 | Wikilink Graph | STR | `connects` all CANON files; `uses` Obsidian |
 | 34 | Solar System Metaphor | CON | `models` corpus structure; cosmos=sun, chains=planets |
 | 35 | SCHEMA (CANON-00000) | ART | `governs` all CANON; root document |
-| 36 | EVOLUTION (CANON-00004) | ART | `tracks` corpus evolution across Oracle sessions |
+| 36 | EVOLUTION (CANON-00004) | ART | `tracks` corpus evolution across Council sessions |
 | 37 | DEFRAG_CONVICTION | CON | `produces` "canonize or delete" principle; `from` Oracle 4 |
 | 38 | Experience Topology | CON | `part_of` Cognitive Palace; 7-layer framework |
 | 39 | Synapticality | CON | `replaces` Cognitive Palace; `enables` UX reimagination; `requires` Hardware Teleology |
@@ -380,8 +380,8 @@ Maps each CANON file to the entities it defines and its primary relations. This 
 | CANON-20000 | PALACE | Cognitive Palace (CON), Experience Topology (CON) | `models` cognitive architecture |
 | CANON-20010 | DIM_COORDINATORS | Dimension Coordinators (AGT) | `part_of` Cognitive Palace |
 | CANON-20020 | META_SYSTEMS | Meta-Systems (STR) | `part_of` Cognitive Palace |
-| CANON-21000 | CHAIN_MATRIX | Chain Matrix (STR), Chain Progression (WF) | `governs` all 6 chains |
-| CANON-21100 | TRI_HELIX | Tri-Helix (STR), Three Capacities (CON) | `cross-cuts` chains |
+| CANON-21000 | CHAIN_MATRIX | Chain Matrix (STR) [DEPRECATED name — Rosetta #16; see IIC framework], Chain Progression (WF) | `governs` all 6 chains |
+| CANON-21100 | TRI_HELIX | Tri-Helix (STR) [DEPRECATED name — Rosetta #16; NOT Tri-Helical Strategy #242], Three Capacities (CON) | `cross-cuts` chains |
 | CANON-22000 | INTERFERENCE | Interference Patterns (CON), Cross-chain Effects (CON) | `modulates` chain interactions |
 | CANON-23000 | LUNAR_NAV | Lunar Navigation (WF), Depth Framework (CON) | `governs` lunar-tier work |
 | CANON-24000 | OMNI_QUALITY | Omni-Qualities (MET), 4 O Horizons (CON) | `evaluates` aspirational dimensions |

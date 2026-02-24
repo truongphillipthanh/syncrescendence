@@ -116,7 +116,7 @@ Each model section gets a `Last Verified` date:
 - **API**: `claude-opus-4-5-20251101`
 - **Context**: 200K (1M beta)
 - **Strengths**: Deep synthesis, architectural thinking, extended thinking
-- **IIC**: Oracle sessions, strategic synthesis
+- **IIC**: Council sessions, strategic synthesis
 - **Last Verified**: 2026-02-01
 ```
 

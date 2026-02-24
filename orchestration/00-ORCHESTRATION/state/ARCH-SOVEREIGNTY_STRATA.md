@@ -23,7 +23,7 @@ These are distinct from the Celestial Cosmology's Transcendence Ring (τ-chain),
 |-------|------|----------|
 | **σ₀** | **Sovereign** | The human. Biological substrate. Attention as bottleneck. Constitutional authority. Cannot be delegated. |
 | **σ₁** | **Teleology** | Why we act. Intentions, objectives, destinations. The Compass. Intention Archaeology. Modal Sequence. |
-| **σ₂** | **Architecture** | How we structure. CANON, cosmology, ontological frameworks. The Schema (CANON-00000). Six Dimensions. Chain Matrix. |
+| **σ₂** | **Architecture** | How we structure. CANON, cosmology, ontological frameworks. The Schema (CANON-00000). Six Dimensions. IIC framework. |
 | **σ₃** | **Context Engineering** | What each instance knows. Memory architecture, project files, context transitions, handoff protocols. |
 | **σ₄** | **Ground Truth** | Where truth lives. Git repository. Ledgers. State files. "Repository is truth; web apps are cache." |
 | **σ₅** | **Intelligence Substrate** | Who does the thinking. Platforms, models, capabilities. Claude, Gemini, ChatGPT, Grok, Perplexity. |

@@ -99,10 +99,10 @@ Phillip is **only** pinged when:
 - [x] Desktop Ingestion Protocol created
 - [x] Ontology Registry schema promoted
 - [x] Twin Coordination Protocol formalized
-- [x] CANON wikilink conversion — 82/82 COMPLETE (Ajna, Oracle 13)
+- [x] CANON wikilink conversion — 82/82 COMPLETE (Ajna, Council 13)
 - [x] Relay research corpus Desktop → sources/ (Ajna, commit 149f112)
 - [x] Corpus hygiene sprint — 667 files deleted, 6 state artifacts refreshed (Ajna, commit e70a9f3)
-- [x] DYN-DASHBOARD regenerated to Oracle 13+ state (Ajna)
+- [x] DYN-DASHBOARD regenerated to Council 13+ state (Ajna)
 - [x] INT-1201 marked failed; INT-C003/C004 captured (Ajna)
 - [x] Stale tasks triaged: TASK-008/009/037/053/102 resolved (Ajna)
 

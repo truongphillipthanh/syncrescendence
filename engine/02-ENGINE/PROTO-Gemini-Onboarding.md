@@ -56,7 +56,7 @@ Gemini serves as **Oracle** in the three-platform cognitive architecture:
 
 **PRIMARY**: Corpus-Scale Sensing
 - Ingest entire repository (all CANON, OPERATIONAL, state files)
-- Sense patterns across Oracle 0-13 conversation history
+- Sense patterns across Council 0-13 conversation history (fmr. "Oracle sessions")
 - Provide grounded RAG with precise citations
 - Answer: "What does the corpus say about X?"
 
@@ -69,7 +69,7 @@ Gemini serves as **Oracle** in the three-platform cognitive architecture:
 **TERTIARY**: Large-Context Analysis
 - Identify coherence gaps across entire system
 - Cross-reference patterns in 100+ files simultaneously
-- Historical trajectory analysis (Oracle 0-13 arc)
+- Historical trajectory analysis (Council 0-13 arc)
 - Detect emergent patterns invisible to smaller contexts
 
 ### What Oracle Does NOT Do
@@ -96,12 +96,12 @@ Gemini serves as **Oracle** in the three-platform cognitive architecture:
 **Primary Use Cases**:
 1. **Repository Upload**: Drag entire /syncrescendence directory
 2. **Corpus Queries**: "Find all references to 'Bitter Lesson' across CANON"
-3. **Historical Analysis**: Load Oracle 0-13, analyze decision trajectory
+3. **Historical Analysis**: Load Council 0-13, analyze decision trajectory
 4. **Multi-File Synthesis**: Cross-reference patterns in 50+ files
 
 **Workflow**:
 ```
-1. Upload corpus (repository root + Oracle conversations)
+1. Upload corpus (repository root + Council conversations)
 2. Query with precision: "List all CANON files citing SOURCE-20250926-057"
 3. Receive grounded response with file paths and line numbers
 4. Package as Evidence Packet for Vanguard
@@ -116,7 +116,7 @@ Gemini serves as **Oracle** in the three-platform cognitive architecture:
 **Access**: https://notebooklm.google.com/
 
 **Primary Use Cases**:
-1. **Oracle Corpus**: Upload all Oracle 0-13 conversation exports
+1. **Council Corpus**: Upload all Council 0-13 conversation exports (fmr. "Oracle sessions")
 2. **CANON Corpus**: Upload all canon/ files
 3. **Decision History**: Query "Why was FrontierModels.md deleted?" → grounded answer
 4. **Audio Overviews**: Generate podcast-style summaries for ambient consumption
@@ -140,7 +140,7 @@ Sources:
 4. Package findings as Evidence Packet
 
 **Audio Overview Usage**:
-- Generate after each Oracle session
+- Generate after each Council session
 - Listen during commute/exercise
 - Reinforces key decisions through different modality
 - Sovereign can consume insights without screen time
@@ -158,7 +158,7 @@ Sources:
 
 **Primary Use Cases**:
 1. **Real-Time Awareness**: "What changed in repository since yesterday?"
-2. **File Discovery**: "Find all files mentioning 'IMEP protocol'"
+2. **File Discovery**: "Find all files mentioning 'execution pipeline'"
 3. **Quick Lookups**: "What's the current status of PROJ-002?"
 4. **Cross-Platform Queries**: Query Drive + uploaded files + web simultaneously
 
@@ -238,7 +238,7 @@ Provide:
 
 ---
 
-## IV. IMEP PROTOCOL INTEGRATION
+## IV. EXECUTION PIPELINE INTEGRATION (fmr. IMEP — DEPRECATED per Rosetta #13)
 
 ### Phase 1: Sensing & Evidence Production
 
@@ -248,7 +248,7 @@ Provide:
 - "What does the repository say about temporal vs. evergreen content?"
 - "Which CANON files cite Bitter Lesson?"
 - "What was the decision rationale for deleting FrontierModels.md?"
-- "Show me the evolution of the 18 Lenses across Oracle 4-12"
+- "Show me the evolution of the 18 Lenses across Council 4-12"
 
 **Oracle Process**:
 1. **Load Corpus**: Upload repository + conversations to AI Studio or use Drive connector
@@ -391,16 +391,16 @@ Evidence Packet:
 5. **Synthesize**: If multi-source, integrate findings coherently
 6. **Package**: Produce Evidence Packet with NotebookLM citations
 
-**Use When**: Querying decision history across multiple Oracle sessions
+**Use When**: Querying decision history across multiple Council sessions
 
 **Example**:
 ```
 Query: "Why was the constellation architecture adopted?"
 
 NotebookLM Answer (with inline citations):
-"The constellation architecture emerged from Oracle 12's analysis of platform capabilities.
-ChatGPT's GPT-5.2 Thinking was identified for planning (source: Oracle-12, turn 89).
-Gemini's 2M context window suited corpus-scale sensing (source: Oracle-12, turn 104).
+"The constellation architecture emerged from Council 12's analysis of platform capabilities.
+ChatGPT's GPT-5.2 Thinking was identified for planning (source: Council-12, turn 89).
+Gemini's 2M context window suited corpus-scale sensing (source: Council-12, turn 104).
 Claude Code's filesystem access made it natural for execution (source: Oracle-12, turn 67)."
 
 Evidence Packet:
@@ -563,10 +563,10 @@ Evidence Packet:
 
 ### Successful Sensing: 18 Lenses Evolution
 
-**Query**: "How did the 18 Lenses evolve from Oracle 4 to Oracle 12?"
+**Query**: "How did the 18 Lenses evolve from Council 4 to Council 12?"
 
-**Oracle Process**:
-1. Upload Oracle 4-12 conversations to AI Studio
+**Sensing Process**:
+1. Upload Council 4-12 conversations to AI Studio
 2. Search for "18 Lenses", "evaluative lenses", "STANDARDS"
 3. Trace chronological mentions
 4. Note additions, modifications, applications
@@ -575,14 +575,14 @@ Evidence Packet:
 ```json
 {
   "id": "EVD-20260115-006",
-  "query": "Evolution of 18 Lenses (Oracle 4-12)",
-  "corpus_slice": ["Oracle-04 through Oracle-12 conversations"],
+  "query": "Evolution of 18 Lenses (Council 4-12)",
+  "corpus_slice": ["Council-04 through Council-12 conversations"],
   "findings": [
-    "Oracle-04:turn-23 - First 9 lenses introduced by Oracle4",
-    "Oracle-06:turn-156 - Extended to 18 lenses (added Systems Thinking, Permaculture, etc.)",
-    "Oracle-07:turn-89 - Applied to FrontierModels.md deletion (15/18 lenses failed)",
-    "Oracle-12:turn-234 - Now constitutional (REF-STANDARDS.md created)",
-    "Total applications: 12 major decisions evaluated across Oracle 4-12"
+    "Council-04:turn-23 - First 9 lenses introduced",
+    "Council-06:turn-156 - Extended to 18 lenses (added Systems Thinking, Permaculture, etc.)",
+    "Council-07:turn-89 - Applied to FrontierModels.md deletion (15/18 lenses failed)",
+    "Council-12:turn-234 - Now constitutional (REF-STANDARDS.md created)",
+    "Total applications: 12 major decisions evaluated across Council 4-12"
   ],
   "uncertainties": [
     "Not all decisions documented their lens evaluation",
@@ -704,7 +704,7 @@ Evidence Packet:
 - **Uncertainty Identification**: % of Evidence Packets that note what corpus doesn't address
   - Target: ≥50% (honest about gaps)
 
-### IMEP Contribution
+### Execution Pipeline Contribution (fmr. IMEP)
 
 - **Evidence Packets Produced**: Count per week
   - Target: ≥5 by Phase 2 (Juvenile)
@@ -717,7 +717,7 @@ Evidence Packet:
 - **Repository Comprehensiveness**: % of repository files loaded and queryable
   - Target: 100%
 
-- **Conversation History**: Oracle 0-13 coverage
+- **Conversation History**: Council 0-13 coverage
   - Target: 100% (all sessions in NotebookLM)
 
 ---
@@ -726,7 +726,7 @@ Evidence Packet:
 
 **v1.0.0** (2026-01-15): Initial onboarding protocol
 - Complete Gemini Oracle configuration
-- IMEP protocol integration documented
+- Execution pipeline integration documented (fmr. IMEP)
 - Capability leverage guide (AI Studio, NotebookLM, Drive)
 - Ground-truth discipline codified
 - Anti-patterns and exempla included

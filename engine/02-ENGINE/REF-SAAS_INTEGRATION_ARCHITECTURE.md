@@ -345,7 +345,7 @@ Parallel agent threads with git worktree isolation. 30-minute autonomous agent r
 
 ### Constellation Mapping
 
-Maps to the **Adjudicator** role's evolution. Codex CLI is single-thread (Lane B); the Codex App enables the Adjudicator as *swarm coordinator* — decomposing TASKs into parallel threads, running concurrently, producing consolidated RESULT receipts. Git worktree support means each parallel thread operates on an isolated branch — clean integration with the fork/PR workflow.
+Maps to the **Adjudicator** role's evolution. Codex CLI is single-thread; the Codex App enables the Adjudicator as *swarm coordinator* — decomposing TASKs into parallel threads, running concurrently, producing consolidated RESULT receipts. Git worktree support means each parallel thread operates on an isolated branch — clean integration with the fork/PR workflow. (Note: former "Lane B" terminology is deprecated per Rosetta #18; see Neo-Blitzkrieg full constellation pipeline.)
 
 **Kanban dispatch integration**: TASK dispatched to agents/adjudicator/inbox/pending/ → claimed by Codex App → decomposed into parallel worktree threads → executed → consolidated RESULT to agents/adjudicator/outbox/.
 

@@ -91,11 +91,11 @@ Sovereign assigns directives to lanes via dispatch.sh or direct instruction.
 ### 2. Parallel Execution
 Each agent works in its worktree independently:
 ```bash
-# Lane A (Commander)
+# Commander worktree (fmr. Lane A — deprecated per Rosetta #18)
 cd ~/Desktop/syncrescendence-alpha
 claude -p "Execute directive: ..."
 
-# Lane B (Adjudicator)
+# Adjudicator worktree (fmr. Lane B — deprecated per Rosetta #18)
 cd ~/Desktop/syncrescendence-beta
 codex exec "Execute directive: ..."
 ```

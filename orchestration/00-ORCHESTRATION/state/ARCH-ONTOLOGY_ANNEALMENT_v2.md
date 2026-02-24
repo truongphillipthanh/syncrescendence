@@ -163,8 +163,8 @@ CANON-{5-digit-code}-{TOPIC}-cosmos.md
 11000  = core extension (FACETS/ModusOperandi)
 20000  = lattice tier (PALACE — root)
 200xx  = Palace satellites (20010 DIM_COORDINATORS, 20020 META_SYSTEMS)
-21000  = Chain Matrix (lattice)
-21100  = Tri-Helix (child of Chain Matrix)
+21000  = Chain Matrix (lattice) [DEPRECATED name — see IIC framework, Rosetta #16]
+21100  = Tri-Helix (lattice) [DEPRECATED name — see IIC framework, Rosetta #16. NOT the Tri-Helical Strategy #242]
 22000  = Interference (lattice)
 23000  = Lunar Nav (lattice)
 24000  = Omni-Quality (lattice)
@@ -564,7 +564,7 @@ FDIS (Field Deployable Intelligence System, SYN-17, Backlog) is the engineering 
 
 **Theme 2 — Activation Gap**: Multiple systems designed and configured but never turned on. Cockpit activation sequence (16-min HQ, "configured but never turned on" — DC-006). Live Ledger sensing (4 templates designed, 0 activated). Hard-gate skills (defined, 0% wired into CLAUDE.md). Voice pipeline (decided deferred 3+ times). This represents the most consistent systemic failure pattern.
 
-**Theme 3 — Terminology Drift and Correction**: Six mutation events in the lens system. Rosetta Stone grew from ~168 terms (v2.0) to 311 terms (v2.7.0) through continuous clarescence. Key corrections: Three Rings → σ₀-σ₇; -OUTGOING → -OUTBOX; Chorus → Medley; Oracle-Executor → Plan/Implementation.
+**Theme 3 — Terminology Drift and Correction**: Six mutation events in the lens system. Rosetta Stone grew from ~168 terms (v2.0) to 311 terms (v2.7.0) through continuous clarescence. Key corrections: Three Rings → σ₀-σ₇; -OUTGOING → -OUTBOX; Chorus → Medley; Oracle-Executor → Plan/Implementation (Rosetta #6).
 
 **Theme 4 — Ontological Enrichment as Real Progress**: SQLite ontology.db grew from 29 placeholder seeds to 2015 real rows (DA-10). Rosetta Stone achieved 311 entries. Frontmatter 79/79 CANON files complete. Quantifiable substrate progress even when operational activation stalls.
 
@@ -575,7 +575,7 @@ FDIS (Field Deployable Intelligence System, SYN-17, Backlog) is the engineering 
 | Tension | Resolution | Decision |
 |---------|-----------|----------|
 | Three Rings vs. sovereignty layers | σ₀-σ₇ replaces Three Rings | DEC-STRATA-001 |
-| Oracle-Executor nomenclature | Oracle = session numbering only; Plan/Implementation for clarescence | Rosetta #6 |
+| Oracle-Executor nomenclature | DEPRECATED (Rosetta #6): "Oracle" = Grok epithet only; use Plan/Implementation for clarescence roles | Rosetta #6 |
 | watch_dispatch.sh vs. auto_ingest | auto_ingest_loop.sh is SOLE dispatch; watch deprecated | DA-AO-001 |
 | cron vs. launchd | launchd > cron for all macOS (power management, TCC) | DEC-SOV-006 |
 | Cartographer hibernation | Reactivated 2026-02-13; Gemini 2.5 Pro operational | DA-CART-001 |
@@ -706,7 +706,7 @@ FDIS (Field Deployable Intelligence System, SYN-17, Backlog) is the engineering 
 | Three Rings | σ₀-σ₇ Sovereignty Strata | More precise; removes cosmological/celestial confusion |
 | -OUTGOING | -OUTBOX | Naming correction (DEC-KANBAN-004) |
 | Chorus | Medley | Terminology clarification — Chorus = same-prompt parallel; Medley = parallel agents on separate tasks |
-| Oracle-Executor (clarescence role) | Plan/Implementation | Oracle = session numbering only (still valid in that usage) |
+| Oracle-Executor (clarescence role) | Plan/Implementation | DEPRECATED (Rosetta #6): "Oracle" = Grok epithet; "Council" for sessions |
 | watch_dispatch.sh | auto_ingest_loop.sh | Deprecated — caused race conditions, silent failures, 0-byte output |
 | Purge (in state machines) | Supersede + RatifySupersession | Supersede-Never-Delete pattern replaces destructive deletion |
 

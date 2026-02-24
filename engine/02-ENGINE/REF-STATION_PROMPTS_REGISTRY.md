@@ -19,9 +19,9 @@ These prompts configure platform behavior for general interaction with the Sover
 
 ---
 
-## 2. IMEP STATION PROMPTS
+## 2. STATION PROMPTS (fmr. IMEP — DEPRECATED per Rosetta #13)
 
-These prompts configure platforms for specific IMEP protocol roles.
+These prompts configure platforms for specific execution pipeline roles. The "IMEP" protocol name is deprecated; functionality is now covered by hook responses and execution logs.
 
 | File | Platform | Role | Packet Type | Status |
 |------|----------|------|-------------|--------|
@@ -35,7 +35,7 @@ These prompts configure platforms for specific IMEP protocol roles.
 
 ## 3. ROLE-TO-PLATFORM MAPPING
 
-| IMEP Role | Primary Platform | Prompt File |
+| Role (fmr. IMEP) | Primary Platform | Prompt File |
 |-----------|------------------|-------------|
 | Oracle | Gemini | PROMPT-IMEP-GEMINI-ORACLE.md |
 | Vanguard | ChatGPT | PROMPT-IMEP-CHATGPT-DEVISER.md |
@@ -82,7 +82,7 @@ These prompts configure platforms for specific IMEP protocol roles.
 
 ## 6. PREVIOUSLY MISSING (NOW RESOLVED)
 
-The following IMEP station prompts were identified as missing and have been created:
+The following station prompts (fmr. IMEP) were identified as missing and have been created:
 
 - [x] PROMPT-IMEP-CHATGPT-DEVISER.md — Created 2026-01-16
 - [x] PROMPT-IMEP-CHATGPT-AUDITOR.md — Created 2026-01-16
@@ -92,4 +92,4 @@ The following IMEP station prompts were identified as missing and have been crea
 
 ---
 
-*Registry maintained by Oracle 13+*
+*Registry maintained by Council 13+*

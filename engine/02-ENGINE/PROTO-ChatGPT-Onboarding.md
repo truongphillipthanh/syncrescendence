@@ -157,7 +157,7 @@ This project is the DEVISER function for the Syncrescendence knowledge managemen
 system. You receive Evidence Packets from the Oracle (Gemini) and produce Plan
 Packets for the Executor (Claude Code).
 
-CORE PROTOCOL (IMEP):
+CORE PROTOCOL (Execution Pipeline, fmr. IMEP — DEPRECATED per Rosetta #13):
 Oracle (Evidence) → Vanguard (Plan) → Executor (Execute) → Vanguard (Audit) → State Update
 
 YOUR INPUTS:
@@ -201,7 +201,7 @@ Primary lenses for Vanguard:
 
 ---
 
-## IV. IMEP PROTOCOL INTEGRATION
+## IV. EXECUTION PIPELINE INTEGRATION (fmr. IMEP — DEPRECATED per Rosetta #13)
 
 ### Phase 1: Receiving Evidence Packets
 
@@ -413,7 +413,7 @@ Primary lenses for Vanguard:
 5. **Orchestrate**: Meta-plan coordinating sub-plans
 6. **Output**: Batch of Plan Packets + orchestration guide
 
-**Example**: "Implement autonomous IMEP cycle"
+**Example**: "Implement autonomous execution pipeline cycle"
 - Phase 1 Plan: Implement blackboard directories
 - Phase 2 Plan: Create packet schemas
 - Phase 3 Plan: Build router logic
@@ -668,7 +668,7 @@ SELF-CHECK:
 - Sovereign pastes Evidence → You produce Plan → Sovereign saves
 - Sovereign executes Plan via Claude → Sovereign pastes Execution → You audit
 
-**Future State**: Direct inter-platform communication (API-based IMEP)
+**Future State**: Direct inter-platform communication (API-based execution pipeline)
 
 ---
 
@@ -695,7 +695,7 @@ SELF-CHECK:
 
 ### System Contribution
 
-- **IMEP Cycles**: Number of complete Evidence→Plan→Execute→Audit cycles
+- **Execution Pipeline Cycles** (fmr. IMEP): Number of complete Evidence→Plan→Execute→Audit cycles
   - Target: ≥10 cycles by end of Phase 2 (Juvenile)
 
 - **Autonomous Coordination**: % of cycles requiring zero human intervention
@@ -707,7 +707,7 @@ SELF-CHECK:
 
 **v1.0.0** (2026-01-15): Initial onboarding protocol
 - Complete ChatGPT Vanguard configuration
-- IMEP protocol integration documented
+- Execution pipeline integration documented (fmr. IMEP)
 - Capability leverage guide provided
 - Anti-patterns and exempla included
 

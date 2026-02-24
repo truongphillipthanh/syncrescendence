@@ -128,7 +128,7 @@ cat > "$OUTDIR/01_context/context.md" << 'CTXEOF'
 # BLITZKRIEG CONTEXT
 
 ## Session Identity
-- Oracle: [NUMBER]
+- Council: [NUMBER]
 - Platform: [chatgpt / claude / gemini]
 - Timestamp: [ISO datetime]
 - Thread Reference: [URL or identifier]
@@ -179,17 +179,17 @@ mkdir -p "$OUTDIR/02_pedigree"
 cat > "$OUTDIR/02_pedigree/pedigree.md" << 'PEDEOF'
 # BLITZKRIEG PEDIGREE
 
-## Oracle Lineage
-- Oracle 0-2: Vision, research foundations
-- Oracle 3-5: Structure, defrag, recovery
-- Oracle 6-9: Annealment, content processing
-- Oracle 10-11: Infrastructure, multi-CLI
-- Oracle 12: Constellation architecture
-- Oracle 13+: [CURRENT PHASE]
+## Council Lineage (fmr. "Oracle sessions" — Rosetta #72)
+- Council 0-2: Vision, research foundations
+- Council 3-5: Structure, defrag, recovery
+- Council 6-9: Annealment, content processing
+- Council 10-11: Infrastructure, multi-CLI
+- Council 12: Constellation architecture
+- Council 13+: [CURRENT PHASE]
 
 ## Active Decisions Inherited
 
-| Decision | Oracle | Status |
+| Decision | Council | Status |
 |----------|--------|--------|
 | [Decision 1] | [N] | active |
 | [Decision 2] | [N] | active |
@@ -509,7 +509,7 @@ find "$OUTDIR" -type f | head -20
 echo ""
 echo "=== NEXT STEPS ==="
 echo "1. Fill in 01_context/context.md with decision snapshot from Vanguard"
-echo "2. Fill in 02_pedigree/pedigree.md with Oracle lineage"
+echo "2. Fill in 02_pedigree/pedigree.md with Council lineage"
 echo "3. Review 03_intention/intention_reference.md"
 echo "4. Customize 04_directives/directive-{A,B,C}.md for your lanes"
 echo "5. Execute lanes using specified toolchains"

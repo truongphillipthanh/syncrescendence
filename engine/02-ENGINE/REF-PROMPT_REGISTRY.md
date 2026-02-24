@@ -28,11 +28,11 @@ Last updated: 2026-01-18
 | PROMPT-CLAUDE-canonical.md | - | system_prompt | project | claude |
 | PROMPT-GEMINI-canonical.md | - | system_prompt | project | gemini |
 | PROMPT-GROK-canonical.md | - | system_prompt | project | grok |
-| PROMPT-IMEP-CHATGPT-AUDITOR.md | - | station_prompt | project | chatgpt |
-| PROMPT-IMEP-CHATGPT-DEVISER.md | - | station_prompt | project | chatgpt |
-| PROMPT-IMEP-CLAUDE-AUDITOR.md | - | station_prompt | project | claude |
-| PROMPT-IMEP-CLAUDE-ENGINEER.md | - | station_prompt | project | claude |
-| PROMPT-IMEP-GEMINI-ORACLE.md | - | station_prompt | project | gemini |
+| PROMPT-IMEP-CHATGPT-AUDITOR.md | - | station_prompt (fmr. IMEP) | project | chatgpt |
+| PROMPT-IMEP-CHATGPT-DEVISER.md | - | station_prompt (fmr. IMEP) | project | chatgpt |
+| PROMPT-IMEP-CLAUDE-AUDITOR.md | - | station_prompt (fmr. IMEP) | project | claude |
+| PROMPT-IMEP-CLAUDE-ENGINEER.md | - | station_prompt (fmr. IMEP) | project | claude |
+| PROMPT-IMEP-GEMINI-ORACLE.md | - | station_prompt (fmr. IMEP) | project | gemini |
 
 ## Unified Prompts (engine/prompts/unified/)
 
