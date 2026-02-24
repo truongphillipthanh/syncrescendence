@@ -66,9 +66,9 @@
 | DC-208-8 | Adjudicator | Negative knowledge store — FAILED_PATH edges + decay, 494 LOC | P1 | **DONE** | Built `138b70bf`, R1 fix: schema alignment + decay bug. R2 pass. |
 | DC-208-PILOT | Commander | Pilot extraction: top-5 sources via Gemini 2.5 Flash | P0 | **DONE** | 820 atoms, 63 chunks, 0 errors, 100% JSON. Committed `01db01fd`. |
 | DC-209 | Oracle (Grok) | Model routing strategy — triangulated convergence | P0 | **DONE** | DC-209 + DC-209R. Gemini 2.5 Flash confirmed primary. GPT-4o-mini fallback. <$2.50 full corpus. |
-| DC-208-6 | Adjudicator | Quality gate — 4+1 gates + surprise×precision, 460-640 LOC | P1 | **BUILD NEXT** | 7/10 feasibility. Validates before scale. |
-| DC-208-3 | Adjudicator | Cluster engine — hybrid HDBSCAN + constrained K-means, 560-760 LOC | P1 | OPEN | 7/10 feasibility. REDESIGN from pure K-means. After quality gate. |
-| DC-208-4 | Adjudicator | Batch orchestrator — dispatch.sh integration, 300-420 LOC | P1 | OPEN | 8/10 feasibility. Scales after pilot. |
+| DC-208-6 | Commander | Quality gate — 4+1 gates + surprise×precision, 746 LOC | P0 | **DONE** | Built `b35437b7`. Pilot: 820 atoms, 100% consistency, 60% canon coverage. |
+| DC-208-4 | Commander | Batch orchestrator — resume-capable, concurrent, 601 LOC | P0 | **DONE** | Built `b35437b7`. Full corpus extraction RUNNING (1,152 sources, 118 batches). |
+| DC-208-3 | Adjudicator | Cluster engine — hybrid HDBSCAN + constrained K-means, 560-760 LOC | P1 | OPEN | 7/10 feasibility. After full extraction completes. |
 | DC-208-7 | Adjudicator | Lineage engine — memetic cladistics, 760-1080 LOC | P2 | **DEFER** | 6/10. After ≥50 mined sources. |
 | DC-208-9 | Adjudicator | Cyclical relevance model — DC-147 plugin, 260-420 LOC | P2 | **DEFER** | 5/10. After DC-147 + telemetry. |
 
