@@ -246,7 +246,8 @@ for dirpath, dirnames, filenames in os.walk(root):
             md_files.append(os.path.join(dirpath, fn))
 
 link_pat = re.compile(r"\]\(([^)]+)\)")
-wik_pat  = re.compile(r"\[\[([^\]]+)\]\]")
+# Wikilinks [[...]] are Obsidian navigation aids, not file references — skip them entirely
+fence_pat = re.compile(r"^```", re.MULTILINE)
 
 def is_local(p: str) -> bool:
     p = p.strip()
@@ -254,6 +255,31 @@ def is_local(p: str) -> bool:
     if p.startswith("#"): return False
     if re.match(r"^(https?:|mailto:|tel:)", p, re.I): return False
     return True
+
+def looks_like_file_path(p: str) -> bool:
+    """Only check paths that look like actual file references."""
+    p = p.strip().split("#", 1)[0].split("?", 1)[0].strip()
+    if not p: return False
+    # Must have a file extension, or start with ./ ../ /
+    if re.search(r"\.\w{1,10}$", p): return True
+    if p.startswith(("./", "../", "/")): return True
+    return False
+
+def strip_fenced_code(txt: str) -> str:
+    """Remove content inside fenced code blocks."""
+    lines = txt.split("\n")
+    result = []
+    in_fence = False
+    for line in lines:
+        if fence_pat.match(line):
+            in_fence = not in_fence
+            result.append("")
+            continue
+        if in_fence:
+            result.append("")
+        else:
+            result.append(line)
+    return "\n".join(result)
 
 def normalize_target(p: str) -> str:
     p = p.strip().split("#", 1)[0].strip()
@@ -265,10 +291,13 @@ for fp in md_files:
     with open(fp, "r", encoding="utf-8", errors="ignore") as f:
         txt = f.read()
 
-    candidates = link_pat.findall(txt) + wik_pat.findall(txt)
+    txt = strip_fenced_code(txt)
+    candidates = link_pat.findall(txt)
     for raw in candidates:
         raw = raw.strip()
         if not is_local(raw):
+            continue
+        if not looks_like_file_path(raw):
             continue
         tgt = normalize_target(raw)
         # ignore empty after stripping anchor
