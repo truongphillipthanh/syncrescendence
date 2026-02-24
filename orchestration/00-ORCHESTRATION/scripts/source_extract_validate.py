@@ -92,6 +92,12 @@ ATOM_SCHEMA: dict[str, Any] = {
                         "speculation",
                         "anecdote",
                         "method",
+                        "prediction",
+                        "claim",
+                        "evidence",
+                        "counterevidence",
+                        "observation",
+                        "definition",
                     ],
                 },
                 "argument_role": {
