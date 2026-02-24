@@ -493,4 +493,4 @@ If you want MCP tools in launchd, you'd need to:
 - [claude-code-scheduler GitHub](https://github.com/jshchnz/claude-code-scheduler)
 - [SmartScope Claude Cron Guide](https://smartscope.blog/en/generative-ai/claude/claude-code-cron-automation-guide/)
 - [runCLAUDErun - Native macOS Scheduler](https://runclauderun.com/)
-- [Your launchd template: qmd-update.plist](/Users/home/Library/LaunchAgents/com.syncrescendence.qmd-update.plist)
+- Your launchd template: `~/Library/LaunchAgents/com.syncrescendence.qmd-update.plist` (on Mac mini)

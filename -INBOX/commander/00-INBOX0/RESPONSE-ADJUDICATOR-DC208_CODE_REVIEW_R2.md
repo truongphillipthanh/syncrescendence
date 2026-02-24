@@ -20,7 +20,7 @@
   - Provenance clamping works (`line_start/line_end` clamp to chunk bounds).
 - Remaining regression:
   - Hybrid frontmatter files that start with `has_transcript: yes` followed by fenced YAML are still misparsed by extractor frontmatter logic.
-  - Repro: [source_extract.py](/Users/system/syncrescendence/orchestration/00-ORCHESTRATION/scripts/source_extract.py:233) treats only the first bare line as frontmatter, then leaves fenced YAML in body.
+  - Repro: [source_extract.py](../../../orchestration/00-ORCHESTRATION/scripts/source_extract.py) (line 233) treats only the first bare line as frontmatter, then leaves fenced YAML in body.
   - Impacted corpus slice: 33 files (`has_transcript` + `---` on line 2).
 
 ### Fix 4: VERIFIED
@@ -50,13 +50,13 @@
 
 ## New Issues Found
 - [P1] Extractor frontmatter parsing still fails for hybrid files (`has_transcript` then fenced YAML).
-  - Location: [source_extract.py](/Users/system/syncrescendence/orchestration/00-ORCHESTRATION/scripts/source_extract.py:233)
+  - Location: [source_extract.py](../../../orchestration/00-ORCHESTRATION/scripts/source_extract.py) (line 233)
   - Effect: extraction body can include frontmatter block; provenance and atom quality can drift.
 - [P2] Opposing-relation target IDs can become stale after dedup/resequencing.
-  - Locations: ID resequence in [source_extract.py](/Users/system/syncrescendence/orchestration/00-ORCHESTRATION/scripts/source_extract.py:553), relation emit in [source_extract.py](/Users/system/syncrescendence/orchestration/00-ORCHESTRATION/scripts/source_extract.py:692)
+  - Locations: ID resequence in [source_extract.py](../../../orchestration/00-ORCHESTRATION/scripts/source_extract.py) (line 553), relation emit in [source_extract.py](../../../orchestration/00-ORCHESTRATION/scripts/source_extract.py) (line 692)
   - Effect: relation may point to non-existent target atom UUID if original IDs changed during dedup.
 - [P2] Retry rows can strand in `in_flight` on worker crash (no lease timeout/reaper).
-  - Location: claim logic in [memsync_bridge.py](/Users/system/syncrescendence/orchestration/scripts/memsync_bridge.py:439)
+  - Location: claim logic in [memsync_bridge.py](../../../orchestration/scripts/memsync_bridge.py) (line 439)
   - Effect: row may never re-enter `pending` without manual intervention.
 
 ## Non-Critical Improvements (Updated)
