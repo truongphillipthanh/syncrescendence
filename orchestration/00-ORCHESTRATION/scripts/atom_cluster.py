@@ -54,7 +54,7 @@ ACTIONABILITY_MAP = {
 ACTIONABILITY_DEFAULT = 0.25
 
 BAND_THRESHOLDS = {
-    "auto_promote_candidate": 0.78,
+    "auto_promote_candidate": 0.78,  # default; overridden by --auto-promote-percentile
     "sovereign_review": 0.58,
 }
 
@@ -382,8 +382,10 @@ def score_atoms(atoms: list[dict], quality_map: dict[str, dict],
 # ---------------------------------------------------------------------------
 
 def aggregate_clusters(atom_scores: list[dict], labels: np.ndarray,
-                       atoms: list[dict], top_n: int) -> list[dict]:
+                       atoms: list[dict], top_n: int,
+                       auto_promote_threshold: float | None = None) -> list[dict]:
     """Aggregate atom scores to cluster level, rank, return top N."""
+    ap_thresh = auto_promote_threshold or BAND_THRESHOLDS["auto_promote_candidate"]
     cluster_map = defaultdict(list)
     for idx, label in enumerate(labels):
         cid = int(label)
@@ -396,7 +398,7 @@ def aggregate_clusters(atom_scores: list[dict], labels: np.ndarray,
         max_score = float(np.max(scores_in))
 
         # Band by mean
-        if mean_score >= BAND_THRESHOLDS["auto_promote_candidate"]:
+        if mean_score >= ap_thresh:
             band = "auto_promote_candidate"
         elif mean_score >= BAND_THRESHOLDS["sovereign_review"]:
             band = "sovereign_review"
@@ -523,6 +525,8 @@ def main():
     parser.add_argument("--top-n", type=int, default=200, help="Top N clusters to output")
     parser.add_argument("--sample", type=int, default=None,
                         help="Sample N atoms for faster testing")
+    parser.add_argument("--auto-promote-percentile", type=float, default=3.0,
+                        help="Top N%% of atoms become auto_promote_candidate (default: 3)")
     args = parser.parse_args()
 
     repo = args.repo_root
@@ -554,8 +558,27 @@ def main():
     # 4. Score
     atom_scores = score_atoms(atoms, quality_map, priority_terms, embeddings)
 
+    # 4b. Recalculate auto_promote threshold from percentile
+    if args.auto_promote_percentile > 0:
+        all_scores = sorted([s["score"] for s in atom_scores], reverse=True)
+        cutoff_idx = max(1, int(len(all_scores) * args.auto_promote_percentile / 100.0))
+        percentile_threshold = all_scores[min(cutoff_idx - 1, len(all_scores) - 1)]
+        print(f"[threshold] auto_promote percentile={args.auto_promote_percentile}% "
+              f"→ threshold={percentile_threshold:.4f} (top {cutoff_idx} atoms)")
+        # Re-band atoms using percentile threshold
+        for s in atom_scores:
+            if s["score"] >= percentile_threshold:
+                s["band"] = "auto_promote_candidate"
+            elif s["score"] >= BAND_THRESHOLDS["sovereign_review"]:
+                s["band"] = "sovereign_review"
+            else:
+                s["band"] = "archive_candidate"
+    else:
+        percentile_threshold = None
+
     # 5. Aggregate + rank
-    clusters = aggregate_clusters(atom_scores, labels, atoms, args.top_n)
+    clusters = aggregate_clusters(atom_scores, labels, atoms, args.top_n,
+                                  auto_promote_threshold=percentile_threshold)
 
     # 6. Write outputs
     write_outputs(clusters, atom_scores, atoms, meta_dir)
