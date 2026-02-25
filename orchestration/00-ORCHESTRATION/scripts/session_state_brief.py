@@ -9,16 +9,15 @@ from config import *
 # Every section wrapped in try/except with fallback text.
 
 import json, re, subprocess, glob, os, sys
-from pathlib import Path
 from datetime import datetime, timezone
 from urllib.request import urlopen
 from urllib.error import URLError
 
-REPO_ROOT = REPO_ROOT
 STATE_DIR = ORCHESTRATION_DIR / "state"
 BRIEF_PATH = STATE_DIR / "DYN-SESSION_STATE_BRIEF.md"
 BASELINE_PATH = STATE_DIR / "DYN-SESSION_BASELINE.json"
 ERR_LOG = STATE_DIR / "DYN-SESSION_STATE_BRIEF.err.log"
+JOURNAL_BASE_DIR = AGENTS_DIR / "commander" / "memory" / "journal"
 
 MAX_WORDS = 300
 MAX_BULLETS = 5
@@ -34,6 +33,23 @@ def log_error(section: str, err: Exception):
             f.write(f"{datetime.now(timezone.utc).isoformat()} [{section}] {err}\n")
     except Exception:
         pass
+
+
+def append_brief_to_journal(brief: str):
+    """Append the generated brief to the commander's daily UTC journal JSONL."""
+    try:
+        now_utc = datetime.now(timezone.utc)
+        JOURNAL_BASE_DIR.mkdir(parents=True, exist_ok=True)
+        journal_path = JOURNAL_BASE_DIR / f"{now_utc.strftime('%Y-%m-%d')}.jsonl"
+        record = {
+            "timestamp": now_utc.isoformat(),
+            "type": "session_brief",
+            "content": brief,
+        }
+        with journal_path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except Exception as e:
+        log_error("journal_append", e)
 
 def word_count(text: str) -> int:
     return len(text.split())
@@ -438,6 +454,9 @@ def main():
 
     # Print to stdout
     print(brief)
+
+    # Persist brief to daily journal JSONL
+    append_brief_to_journal(brief)
 
     # Update baseline
     update_baseline()
