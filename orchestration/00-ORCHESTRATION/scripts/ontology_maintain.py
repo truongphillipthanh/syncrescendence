@@ -11,6 +11,7 @@ Usage:
     python3 ontology_maintain.py audit      # Monthly: full integrity + coverage gaps
     python3 ontology_maintain.py report     # Status report for dashboards
 """
+from config import *
 
 import sqlite3
 import sys

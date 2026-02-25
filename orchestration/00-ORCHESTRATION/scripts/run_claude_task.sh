@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # Generic Claude Code headless task runner for launchd
 # Usage: run_claude_task.sh <task-name> <prompt-file-or-string>
 set -euo pipefail

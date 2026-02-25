@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # corpus-survey.sh - Gemini CLI wrapper for corpus analysis
 # Usage: ./corpus-survey.sh [output-dir]
 #

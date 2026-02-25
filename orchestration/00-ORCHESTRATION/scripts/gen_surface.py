@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Generate static ontology surface markdown for Obsidian."""
+from config import *
+
 import sqlite3
 import datetime
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # launch_cockpit_when_docker_ready.sh
 # Periodic idempotent cockpit health launcher:
 # - if constellation exists: repair degraded panes only

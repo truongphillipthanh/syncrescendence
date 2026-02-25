@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Periodic corpus health checker for Syncrescendence vault."""
+from config import *
 
 import re
 import subprocess

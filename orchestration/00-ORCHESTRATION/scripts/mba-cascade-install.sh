@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # MBA Cascade Supplement - Homebrew Formula Installation
 # Run: bash orchestration/scripts/mba-cascade-install.sh
 # TASK-20260211-MBA_CASCADE_SUPPLEMENT | 2026-02-11

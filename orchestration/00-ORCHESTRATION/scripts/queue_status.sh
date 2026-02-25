@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # queue_status.sh — Print kanban queue status for all agents
 # Usage: bash queue_status.sh [AGENT]
 #

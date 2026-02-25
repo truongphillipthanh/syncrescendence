@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # triage_inbox.sh — List PENDING/IN_PROGRESS tasks for an agent's inbox
 # Usage: bash triage_inbox.sh [AGENT]
 #

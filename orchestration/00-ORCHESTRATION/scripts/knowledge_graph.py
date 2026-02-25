@@ -17,6 +17,7 @@ Usage:
 DB: orchestration/00-ORCHESTRATION/state/knowledge_graph.db
 Deps: stdlib only (sqlite3, re, json, pathlib, argparse, collections, difflib)
 """
+from config import *
 
 import argparse
 import collections

@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # auto_ingest_supervisor.sh — Persistent supervisor for all auto-ingest loops
 # Launchd target label: com.syncrescendence.auto-ingest-supervisor
 

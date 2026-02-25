@@ -12,6 +12,7 @@ Dependencies: jsonschema (required), tiktoken (optional, falls back to word-coun
 """
 
 from __future__ import annotations
+from config import *
 
 import argparse
 import json

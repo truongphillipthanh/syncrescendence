@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # Pre-compaction hook — fires on PreCompact event
 # Ensures working state is persisted to filesystem before context compaction
 

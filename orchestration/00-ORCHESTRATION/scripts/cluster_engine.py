@@ -15,6 +15,7 @@ Usage:
         [--method auto|hdbscan|kmeans|simple] [--verbose]
 """
 from __future__ import annotations
+from config import *
 
 import argparse
 import glob

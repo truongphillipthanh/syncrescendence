@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # orchestration/00-ORCHESTRATION/scripts/scaffold_heal.sh
 set -euo pipefail
 
@@ -12,7 +14,7 @@ repo_root() { git rev-parse --show-toplevel 2>/dev/null || die "Not in a git rep
 ROOT="$(repo_root)"
 cd "$ROOT"
 
-VALIDATE_SCRIPT="orchestration/00-ORCHESTRATION/scripts/scaffold_validate.sh"
+VALIDATE_SCRIPT="${ORCHESTRATION_DIR#$REPO_ROOT/}/scripts/scaffold_validate.sh"
 
 [[ -x "$VALIDATE_SCRIPT" ]] || die "$VALIDATE_SCRIPT not found or not executable."
 have python3 || die "python3 required for scaffold_heal."

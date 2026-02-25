@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 #
 # ops_lint.sh - Lightweight linter for engine artifacts
 #

@@ -12,6 +12,7 @@ Dependencies (all pre-installed):
     - scikit-learn (KMeans, TfidfVectorizer, silhouette)
     - numpy, PyYAML
 """
+from config import *
 
 import os
 os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")

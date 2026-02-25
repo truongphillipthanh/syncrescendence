@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # orchestration/00-ORCHESTRATION/scripts/scaffold_rename.sh
 # DC-123: Safe rename utility enforcing naming conventions.
 # Usage: scaffold_rename.sh [--dry-run] <old_path> <new_path>
@@ -63,29 +65,29 @@ SANCTIONED_PREFIXES=(
 
 # Prefix-to-directory binding (Section 3 of REF-NAMING_CONVENTIONS.md)
 declare -A PREFIX_DIRS
-PREFIX_DIRS["ARCH-"]="orchestration/00-ORCHESTRATION/ orchestration/state/"
-PREFIX_DIRS["DYN-"]="engine/02-ENGINE/ orchestration/state/ orchestration/00-ORCHESTRATION/ sources/04-SOURCES/"
-PREFIX_DIRS["REF-"]="engine/02-ENGINE/ praxis/05-SIGMA/ sources/04-SOURCES/"
-PREFIX_DIRS["FUNC-"]="engine/02-ENGINE/"
-PREFIX_DIRS["PROMPT-"]="engine/02-ENGINE/ -SOVEREIGN/"
+PREFIX_DIRS["ARCH-"]="${ORCHESTRATION_DIR#$REPO_ROOT/}/ orchestration/state/"
+PREFIX_DIRS["DYN-"]="${ENGINE_DIR#$REPO_ROOT/}/ orchestration/state/ orchestration/00-ORCHESTRATION/ sources/04-SOURCES/"
+PREFIX_DIRS["REF-"]="${ENGINE_DIR#$REPO_ROOT/}/ praxis/05-SIGMA/ sources/04-SOURCES/"
+PREFIX_DIRS["FUNC-"]="${ENGINE_DIR#$REPO_ROOT/}/"
+PREFIX_DIRS["PROMPT-"]="${ENGINE_DIR#$REPO_ROOT/}/ -SOVEREIGN/"
 PREFIX_DIRS["CANON-"]="canon/01-CANON/"
 PREFIX_DIRS["SOURCE-"]="sources/04-SOURCES/"
 PREFIX_DIRS["EXTRACT-"]="sources/04-SOURCES/"
-PREFIX_DIRS["AVATAR-"]="engine/02-ENGINE/"
-PREFIX_DIRS["IIC-"]="engine/02-ENGINE/"
-PREFIX_DIRS["TEMPLATE-"]="engine/02-ENGINE/ orchestration/00-ORCHESTRATION/templates/"
-PREFIX_DIRS["MODEL-"]="engine/02-ENGINE/"
+PREFIX_DIRS["AVATAR-"]="${ENGINE_DIR#$REPO_ROOT/}/"
+PREFIX_DIRS["IIC-"]="${ENGINE_DIR#$REPO_ROOT/}/"
+PREFIX_DIRS["TEMPLATE-"]="${ENGINE_DIR#$REPO_ROOT/}/ orchestration/00-ORCHESTRATION/templates/"
+PREFIX_DIRS["MODEL-"]="${ENGINE_DIR#$REPO_ROOT/}/"
 PREFIX_DIRS["RESPONSE-"]="-INBOX/"
 PREFIX_DIRS["QUEUE-"]="-SOVEREIGN/"
 PREFIX_DIRS["SOVEREIGN-"]="-SOVEREIGN/"
-PREFIX_DIRS["MECH-"]="praxis/05-SIGMA/mechanics/"
-PREFIX_DIRS["PRAC-"]="praxis/05-SIGMA/practice/"
-PREFIX_DIRS["SYNTHESIS-"]="praxis/05-SIGMA/syntheses/"
-PREFIX_DIRS["EXEMPLA-"]="praxis/05-SIGMA/"
+PREFIX_DIRS["MECH-"]="${PRAXIS_DIR#$REPO_ROOT/}/mechanics/"
+PREFIX_DIRS["PRAC-"]="${PRAXIS_DIR#$REPO_ROOT/}/practice/"
+PREFIX_DIRS["SYNTHESIS-"]="${PRAXIS_DIR#$REPO_ROOT/}/syntheses/"
+PREFIX_DIRS["EXEMPLA-"]="${PRAXIS_DIR#$REPO_ROOT/}/"
 PREFIX_DIRS["MOC-"]=""  # any directory
-PREFIX_DIRS["SCAFF-"]="orchestration/00-ORCHESTRATION/scripts/"
+PREFIX_DIRS["SCAFF-"]="${ORCHESTRATION_DIR#$REPO_ROOT/}/scripts/"
 PREFIX_DIRS["HANDOFF-"]="agents/"
-PREFIX_DIRS["DECISION-"]="orchestration/00-ORCHESTRATION/archive/"
+PREFIX_DIRS["DECISION-"]="${ORCHESTRATION_DIR#$REPO_ROOT/}/archive/"
 PREFIX_DIRS["ALERT-"]="-SOVEREIGN/"
 PREFIX_DIRS["RECEIPT-"]="agents/"
 

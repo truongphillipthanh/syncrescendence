@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # post_commit_ledger.sh — Lightweight post-commit ledger check
 # Triggered by PostToolUse hook after git commit commands
 # Checks if any ledger files need updating based on what was committed

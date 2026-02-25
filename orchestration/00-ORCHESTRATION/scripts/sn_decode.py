@@ -11,6 +11,7 @@ Examples:
     sn_decode.py "Ψ :: civilizational infrastructure"  # Decode text
     echo "α >> ε" | sn_decode.py -          # Decode stdin
 """
+from config import *
 
 import yaml
 import re

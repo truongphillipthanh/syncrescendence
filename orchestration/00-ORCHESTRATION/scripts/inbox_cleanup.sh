@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # inbox_cleanup.sh — Batch process CONFIRM/RESULT/EXECLOG from an agent's inbox
 # Usage: bash inbox_cleanup.sh [agent] [--dry-run]
 # Default agent: commander

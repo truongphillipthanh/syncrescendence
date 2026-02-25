@@ -4,6 +4,7 @@
 Creates/rebuilds source_index.db with WAL mode, also writes URL_INDEX.txt
 for backward compatibility.
 """
+from config import *
 
 import hashlib
 import os

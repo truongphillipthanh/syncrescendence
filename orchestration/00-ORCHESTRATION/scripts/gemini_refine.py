@@ -7,6 +7,7 @@ title/creator/content to Gemini 2.0 Flash Lite for proper classification.
 Usage:
     python3 gemini_refine.py [--dry-run] [--max N] [--verbose] [--resume]
 """
+from config import *
 
 import argparse
 import json

@@ -14,6 +14,7 @@ Examples:
     sn_expand.py --list-defs                     # Show all available DEFs
     echo '${AvatarMap.Commander.platform}' | sn_expand.py -
 """
+from config import *
 
 import re
 import sys

@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # compact_wisdom.sh — Compact staged directives/logs into wisdom compendiums
 # Triggered manually or when staging threshold (10 entries) is reached
 # Appends staging entries to compendiums and clears staging files

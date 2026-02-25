@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # configure_auto_boot_recovery.sh
 # Comprehensive unplug-recovery hardening installer (user launchd domain).
 

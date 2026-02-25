@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # create_directive.sh — Generate a new directive entry in staging
 # Usage: bash create_directive.sh "TITLE" "SUMMARY" [STREAM]
 # Appends to DYN-DIRECTIVE_STAGING.md for later compaction into wisdom

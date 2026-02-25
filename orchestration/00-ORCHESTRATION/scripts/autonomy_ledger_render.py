@@ -4,6 +4,7 @@
 Usage:
     python3 autonomy_ledger_render.py --agent commander
 """
+from config import *
 
 import argparse
 import json

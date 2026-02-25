@@ -11,6 +11,7 @@ Usage:
 
 DC-147 | 220-320 LOC | stdlib only | fail-open
 """
+from config import *
 
 import argparse
 import json

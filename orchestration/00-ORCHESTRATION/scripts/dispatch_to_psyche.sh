@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # dispatch_to_psyche.sh — Create a task dispatch file for Psyche
 # Usage: bash dispatch_to_psyche.sh "TOPIC" "TASK_DESCRIPTION"
 # Writes a task file to agents/psyche/inbox/ for autonomous processing

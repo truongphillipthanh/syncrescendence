@@ -6,6 +6,7 @@ Usage:
     python3 autonomy_ledger_update.py --agent commander --event SCOPE_VIOLATION --detail "Modified canon/ without approval"
     python3 autonomy_ledger_update.py --agent commander --event GATE_CHECK
 """
+from config import *
 
 import argparse
 import json

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Webhook receiver and task dispatcher for Syncrescendence constellation."""
+from config import *
 
 import subprocess
 from datetime import datetime, timezone

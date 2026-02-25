@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # ledger_refresh.sh — DC-134 Live Ledger Sensing Automation
 # Scans all DYN-LEDGER-*.md files, flags stale ones, checks MODEL-INDEX drift.
 # Designed for launchd (no ~/.zshrc dependency).
@@ -14,7 +16,7 @@ set -euo pipefail
 
 # --- Configuration (launchd-safe, no ~/.zshrc) ---
 REPO_ROOT="${SYNCRESCENDENCE_REPO_ROOT:-/Users/system/syncrescendence}"
-ENGINE_DIR="$REPO_ROOT/engine/02-ENGINE"
+ENGINE_DIR="$ENGINE_DIR"
 REPORT_DIR="$REPO_ROOT/orchestration/state"
 STALE_THRESHOLD_DAYS=7
 TODAY=$(date +%Y-%m-%d)

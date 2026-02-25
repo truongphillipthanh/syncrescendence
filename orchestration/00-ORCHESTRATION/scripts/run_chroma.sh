@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # Wrapper for chroma_server.py — launchd compatible
 export PYTHONUNBUFFERED=1
 export HOME=/Users/home

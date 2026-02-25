@@ -15,6 +15,7 @@ Usage:
         [--out-dir sources/04-SOURCES/_meta] [--verbose]
 """
 from __future__ import annotations
+from config import *
 
 import argparse
 import glob

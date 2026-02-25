@@ -17,6 +17,7 @@ Data flow:
 """
 
 from __future__ import annotations
+from config import *
 
 import argparse
 import hashlib

@@ -9,6 +9,7 @@ Gracefully handles IP bans by stopping early and reporting progress.
 Idempotent: skips files that already have a ## Transcript section.
 Updates has_transcript frontmatter field on success.
 """
+from config import *
 
 import argparse
 import glob

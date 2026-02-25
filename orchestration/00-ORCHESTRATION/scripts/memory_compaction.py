@@ -10,6 +10,7 @@ Usage:
     memory_compaction.py compact conflicts
     memory_compaction.py compact all [--dry-run]
 """
+from config import *
 
 import argparse
 import json

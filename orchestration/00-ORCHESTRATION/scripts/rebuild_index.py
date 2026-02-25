@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Rebuild DYN-SOURCES.csv and 8 MOC files from all SOURCE-*.md files."""
+from config import *
 
 import os
 import re

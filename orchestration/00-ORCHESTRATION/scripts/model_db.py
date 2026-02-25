@@ -20,6 +20,7 @@ Usage:
     python3 model_db.py capabilities  # Show capability matrix
     python3 model_db.py shell         # Interactive SQL shell
 """
+from config import *
 
 import sqlite3
 import sys

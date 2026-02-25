@@ -11,6 +11,7 @@ Examples:
     sn_encode.py canon/ --dry-run            # Preview encoding
     echo "Syncrescendence" | sn_encode.py -     # Encode stdin
 """
+from config import *
 
 import yaml
 import re

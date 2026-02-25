@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # append_ledger.sh — Append an event to DYN-GLOBAL_LEDGER.md
 # Usage: bash append_ledger.sh <EVENT> <FROM> <TO> <TASK_ID> [DECISION_ATOM] [INTENTION_LINK]
 #

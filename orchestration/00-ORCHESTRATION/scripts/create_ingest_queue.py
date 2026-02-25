@@ -8,6 +8,7 @@ Saves the playlist ID to ~/.syncrescendence/ingest_queue_playlist_id.txt.
 Usage:
   python create_ingest_queue.py
 """
+from config import *
 
 import json
 import os

@@ -11,6 +11,7 @@ Usage:
   python build_url_index.py
   python build_url_index.py --sources-dir /path/to/sources
 """
+from config import *
 
 import argparse
 import os

@@ -10,6 +10,7 @@ Targets the strategic_relationships table with schema:
 Usage:
     python3 ingest_rosetta_relations.py [--db-path PATH] [--bridge-path PATH] [--dry-run]
 """
+from config import *
 
 import os
 import re

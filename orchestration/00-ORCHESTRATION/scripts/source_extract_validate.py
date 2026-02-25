@@ -11,6 +11,7 @@ Dependencies: jsonschema
 """
 
 from __future__ import annotations
+from config import *
 
 import argparse
 import json

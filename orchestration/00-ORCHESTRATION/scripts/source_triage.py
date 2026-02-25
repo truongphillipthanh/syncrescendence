@@ -7,6 +7,7 @@ then emits ranked triage JSON, a dependency DAG, and a Mermaid sidecar.
 """
 
 from __future__ import annotations
+from config import *
 
 import argparse
 import csv

@@ -17,6 +17,7 @@ Usage:
     python3 ontology_query.py stats
     python3 ontology_query.py sql "SELECT ..."
 """
+from config import *
 
 import os
 import sqlite3

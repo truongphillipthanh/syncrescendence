@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # repo_integrity_gate.sh - Layer-0 integrity checks for autonomous orchestration
 # Fails closed when repository metadata or canonical structure is unsafe.
 

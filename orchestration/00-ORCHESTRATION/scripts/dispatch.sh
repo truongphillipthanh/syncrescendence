@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # dispatch.sh — Create a task dispatch file for any agent
 # Usage:
 #   bash dispatch.sh <agent> "TOPIC" "TASK_DESCRIPTION" [CC] [KIND] [FROM]

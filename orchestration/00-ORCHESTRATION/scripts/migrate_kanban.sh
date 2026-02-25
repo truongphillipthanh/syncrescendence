@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # migrate_kanban.sh — One-time migration from flat inbox/outgoing to kanban structure
 # Usage: bash migrate_kanban.sh [--dry-run]
 #

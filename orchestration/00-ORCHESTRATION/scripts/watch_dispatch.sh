@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # watch_dispatch.sh — Watch for dispatch files in an agent's Inbox0 folder (filesystem-kanban)
 # Usage: bash watch_dispatch.sh [AGENT_NAME]
 # Requires: fswatch (brew install fswatch) or uses polling fallback

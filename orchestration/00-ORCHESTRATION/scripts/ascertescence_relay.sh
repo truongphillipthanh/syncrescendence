@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # ascertescence_relay.sh — Sequential leg-by-leg relay for the ascertescence triangulation cycle
 #
 # WORKFLOW (sequential — one file at a time):
@@ -44,7 +46,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
 
-ENGINE_DIR="$REPO_ROOT/engine/02-ENGINE"
+ENGINE_DIR="$ENGINE_DIR"
 INBOX_DIR="$REPO_ROOT/-INBOX/commander/00-INBOX0"
 DESKTOP="$HOME/Desktop"
 

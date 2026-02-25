@@ -9,6 +9,7 @@ progress for resume, and produces a final report.
 """
 
 from __future__ import annotations
+from config import *
 
 import argparse
 import json

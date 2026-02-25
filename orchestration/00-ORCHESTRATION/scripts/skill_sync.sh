@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # skill_sync.sh — Instant skill synchronization across all agent platforms.
 # Triggered by launchd WatchPaths on canonical skills directory.
 # Replaces watchdog.sh 600s cooldown polling with event-driven sync.

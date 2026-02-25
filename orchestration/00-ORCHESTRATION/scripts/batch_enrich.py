@@ -3,6 +3,7 @@
 Batch heuristic enrichment for raw SOURCE-*.md files.
 NO API calls — pure pattern matching on title/creator/content.
 """
+from config import *
 
 import os
 import re

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # orchestration/00-ORCHESTRATION/scripts/scaffold_validate.sh
 set -euo pipefail
 

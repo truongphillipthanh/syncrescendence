@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 set -euo pipefail
 
 # journal_append.sh — Session-stop hook that captures what git CANNOT:

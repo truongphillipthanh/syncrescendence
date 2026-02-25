@@ -5,6 +5,7 @@ Computes coverage, graph density, praxis linkage, logical consistency,
 and the Surprise x Precision alert score for extracted knowledge atoms.
 """
 from __future__ import annotations
+from config import *
 
 import json
 import math

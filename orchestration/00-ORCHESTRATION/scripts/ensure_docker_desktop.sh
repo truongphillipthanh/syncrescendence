@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # ensure_docker_desktop.sh — Readiness gate only.
 # Docker launch is handled by macOS Login Items.
 

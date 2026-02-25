@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # proactive_orchestrator.sh — Autonomous work generation for idle agents
 # Hardened with Layer-0 integrity gate, circuit breaker, and hard budgets.
 

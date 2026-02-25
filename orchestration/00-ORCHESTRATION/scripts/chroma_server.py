@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """ChromaDB semantic search server for Syncrescendence vault."""
+from config import *
 
 import os
 import hashlib

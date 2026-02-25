@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # Backward-compatible shim.
 # Canonical supervisor is now auto_ingest_supervisor.sh
 

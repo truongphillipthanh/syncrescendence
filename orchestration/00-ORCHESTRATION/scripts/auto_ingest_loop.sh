@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # auto_ingest_loop.sh - Agent auto-ingest wrapper for Syncrescendence constellation
 # Usage: ./auto_ingest_loop.sh <agent_name> <repo_path> [tmux_session] [tmux_pane]
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # constellation_watchdog.sh - Health monitor for Syncrescendence constellation
 # Hardened liveness model: pane signal + heartbeat + artifact movement.
 

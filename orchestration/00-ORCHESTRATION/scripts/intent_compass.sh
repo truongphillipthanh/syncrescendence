@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # Intent Compass hook — fires on UserPromptSubmit
 # Scans user input for intention-laden language and captures to queue file
 # Lightweight: must complete fast since it runs on every prompt

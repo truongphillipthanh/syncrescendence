@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # create_execution_log.sh — Generate an execution log entry in staging
 # Usage: bash create_execution_log.sh "DIRECTIVE_ID" "OUTCOME" [DETAILS]
 # Appends to DYN-EXECUTION_STAGING.md for later compaction into wisdom

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # watchdog.sh — Long-lived watchdog daemon
 # Runs forever and executes constellation health check every 60s.
 

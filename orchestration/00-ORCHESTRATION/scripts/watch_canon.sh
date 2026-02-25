@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # watch_canon.sh — Monitor state/ for data changes and trigger CANON regeneration
 #
 # Usage:

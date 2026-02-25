@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from config import *
+
 # session_state_brief.py — Descriptive session state brief generator
 # CC26 Adjudicator spec Task 2A-2D
 #
@@ -12,8 +14,8 @@ from datetime import datetime, timezone
 from urllib.request import urlopen
 from urllib.error import URLError
 
-REPO_ROOT = Path("/Users/system/syncrescendence")
-STATE_DIR = REPO_ROOT / "orchestration/00-ORCHESTRATION/state"
+REPO_ROOT = REPO_ROOT
+STATE_DIR = ORCHESTRATION_DIR / "state"
 BRIEF_PATH = STATE_DIR / "DYN-SESSION_STATE_BRIEF.md"
 BASELINE_PATH = STATE_DIR / "DYN-SESSION_BASELINE.json"
 ERR_LOG = STATE_DIR / "DYN-SESSION_STATE_BRIEF.err.log"
@@ -213,7 +215,7 @@ def section_graph_health() -> list[str]:
         # Fallback: constellation health file
         health_path = STATE_DIR / "DYN-CONSTELLATION_HEALTH.md"
         if not health_path.exists():
-            health_path = REPO_ROOT / "orchestration/00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md"
+            health_path = ORCHESTRATION_DIR / "state/DYN-CONSTELLATION_HEALTH.md"
         if health_path.exists():
             text = health_path.read_text()
             last_m = re.search(r"Last check:\s*(.+)", text)

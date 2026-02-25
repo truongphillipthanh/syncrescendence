@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # running_log_capture.sh — Auto-capture conversation transcript to running logs
 # Fires on: Stop hook, PreCompact hook
 # Purpose: Hedge against context loss during autocompaction

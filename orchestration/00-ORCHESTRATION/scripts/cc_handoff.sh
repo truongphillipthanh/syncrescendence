@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # cc_handoff.sh — Commander Council PreCompact Handoff Generator
 # Fires on PreCompact event. Generates a bulletproof handoff file for cold-start continuity.
 # Uses git write-tree/commit-tree to avoid sandbox SIGKILL on large repos.
@@ -37,13 +39,13 @@ fi
 
 # Current priorities
 PRIORITIES="unavailable"
-if [ -f "orchestration/00-ORCHESTRATION/state/DYN-SESSION_STATE_BRIEF.md" ]; then
+if [ -f "${ORCHESTRATION_DIR#$REPO_ROOT/}/state/DYN-SESSION_STATE_BRIEF.md" ]; then
     PRIORITIES=$(cat orchestration/00-ORCHESTRATION/state/DYN-SESSION_STATE_BRIEF.md 2>/dev/null || echo "unavailable")
 fi
 
 # Deferred commitments (first 50 lines)
 DEFERRED="unavailable"
-if [ -f "orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md" ]; then
+if [ -f "${ORCHESTRATION_DIR#$REPO_ROOT/}/state/DYN-DEFERRED_COMMITMENTS.md" ]; then
     DEFERRED=$(head -50 orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md 2>/dev/null || echo "unavailable")
 elif [ -f "orchestration/state/DYN-DEFERRED_COMMITMENTS.md" ]; then
     DEFERRED=$(head -50 orchestration/state/DYN-DEFERRED_COMMITMENTS.md 2>/dev/null || echo "unavailable")

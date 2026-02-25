@@ -29,6 +29,7 @@ Usage:
   python drain_watch_later.py --cookies-file ~/cookies.txt
   python drain_watch_later.py --remove-after
 """
+from config import *
 
 import argparse
 import json

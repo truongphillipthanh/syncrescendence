@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # sync_openclaw_skills.sh — Mirror OpenClaw workspace skills between machines (no secrets)
 #
 # Purpose:

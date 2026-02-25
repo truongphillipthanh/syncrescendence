@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # rearm_watchers.sh — One-command re-arm for Syncrescendence launchd watchers
 #
 # What it does:

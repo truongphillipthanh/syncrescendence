@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # verify_orchestration_hardening.sh
 # Blocking verification for hardened orchestration control-plane.
 

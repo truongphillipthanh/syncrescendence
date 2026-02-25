@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # triage_outgoing.sh — Packet lifecycle observability
 # Shows pending tasks, prompts, sovereign briefs, and git dirtiness
 # Usage: bash triage_outgoing.sh

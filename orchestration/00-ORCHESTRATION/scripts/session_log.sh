@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # Session log hook — fires on Stop event
 # Captures: timestamp, branch, recent commits, files changed
 # Appends to orchestration/state/DYN-SESSION_LOG.md

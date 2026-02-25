@@ -14,6 +14,7 @@ Usage:
   python youtube_oauth_setup.py
   python youtube_oauth_setup.py --client-secret /path/to/client_secret.json
 """
+from config import *
 
 import argparse
 import json

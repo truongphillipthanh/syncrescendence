@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # cockpit.sh — Syncrescendence Constellation Cockpit
 # Creates a tmux session with a 4x2 grid layout:
 #   Top row (75%):  4 agent CLI panes (always-on watchers)

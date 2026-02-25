@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # trigger-model-refresh.sh - Drops a refresh task into Cartographer's inbox
 # Designed for cron: 0 0 * * * /path/to/trigger-model-refresh.sh
 

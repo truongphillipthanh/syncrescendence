@@ -13,6 +13,7 @@ Usage:
     python3 regenerate_canon.py --list
     python3 regenerate_canon.py --all
 """
+from config import *
 
 import json
 import sys

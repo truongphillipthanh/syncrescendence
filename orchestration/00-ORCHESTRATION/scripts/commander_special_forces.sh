@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # commander_special_forces.sh — Commander session entry (manual on Psyche laptop)
 #
 # Philosophy: this shell is an intervention lane. Assume you're about to do high-impact work.

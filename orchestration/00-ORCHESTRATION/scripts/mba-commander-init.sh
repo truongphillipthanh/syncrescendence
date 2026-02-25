@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # mba-commander-init.sh — One-shot initialization for Commander on MacBook Air
 # Run this ONCE on MBA to configure Claude Code MCP servers + aliases.
 #

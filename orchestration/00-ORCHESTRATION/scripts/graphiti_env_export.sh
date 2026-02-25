@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # DC-115: Export Graphiti/Neo4j env vars for non-login shells (launchd, cron).
 # Source this in any script that needs to talk to Graphiti/Neo4j.
 # CRITICAL: launchd does NOT source ~/.zshrc. This file is the workaround.

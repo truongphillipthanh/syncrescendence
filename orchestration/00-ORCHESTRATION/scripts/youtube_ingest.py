@@ -12,6 +12,7 @@ Usage:
   python youtube_ingest.py --playlist PLxxxxxx --max-results 50
   python youtube_ingest.py --dry-run
 """
+from config import *
 
 import argparse
 import json

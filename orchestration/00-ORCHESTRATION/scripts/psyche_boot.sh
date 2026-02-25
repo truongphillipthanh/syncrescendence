@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # psyche_boot.sh — enforce Psyche-box watcher topology + open a stateful dashboard
 #
 # Goal: on Psyche laptop, ONLY run psyche+canon watchers.

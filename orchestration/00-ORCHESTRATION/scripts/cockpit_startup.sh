@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # cockpit_startup.sh — Syncrescendence Constellation Startup Health Check
 # DC-130: Cockpit activation sequence
 # Runs FROM MacBook Air. Mac mini commands go through `ssh mini`.

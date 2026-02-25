@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # Ajna Pedigree hook — fires on Stop event
 # Captures decision lineage, artifacts, and session pedigree
 # More thorough than session_log.sh: focuses on decision trail and reasoning provenance

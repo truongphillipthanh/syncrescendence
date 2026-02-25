@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # deploy_graphiti_hardening.sh — DC-114 + DC-115 hardening for Graphiti/Neo4j
 #
 # DC-114: Persist Graphiti /triples endpoint permanently
@@ -221,7 +223,7 @@ YMLEOF
 fi
 
 # 5. Create persistent patch directory
-PATCH_PERSIST="$REPO_ROOT/orchestration/00-ORCHESTRATION/scripts/graphiti-patches"
+PATCH_PERSIST="$ORCHESTRATION_DIR/scripts/graphiti-patches"
 mkdir -p "$PATCH_PERSIST"
 
 cp "$PATCH_DIR/triples_dto.py" "$PATCH_PERSIST/triples_dto.py"
@@ -282,7 +284,7 @@ else
 fi
 
 # Create a launchd-compatible env export script for Mac mini
-ENV_EXPORT="$REPO_ROOT/orchestration/00-ORCHESTRATION/scripts/graphiti_env_export.sh"
+ENV_EXPORT="$ORCHESTRATION_DIR/scripts/graphiti_env_export.sh"
 if [ ! -f "$ENV_EXPORT" ]; then
     cat > "$ENV_EXPORT" << 'EXPEOF'
 #!/usr/bin/env bash

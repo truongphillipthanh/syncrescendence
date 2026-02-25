@@ -8,6 +8,7 @@ Usage:
     python sync_ledgers.py --ledger tasks --action update --id TASK-001 --field status --value done
     python sync_ledgers.py --validate
 """
+from config import *
 
 import argparse
 import csv

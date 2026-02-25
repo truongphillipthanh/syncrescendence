@@ -15,6 +15,7 @@ Usage:
 
 Stdlib only. Target: 480-720 LOC.
 """
+from config import *
 
 import argparse
 import json

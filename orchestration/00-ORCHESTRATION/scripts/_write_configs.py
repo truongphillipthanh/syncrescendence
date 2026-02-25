@@ -1,3 +1,4 @@
+from config import *
 
 import pathlib, json
 HOME = pathlib.Path.home()

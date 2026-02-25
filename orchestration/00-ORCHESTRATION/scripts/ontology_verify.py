@@ -15,6 +15,7 @@ Usage:
 
 Exit codes: 0 = PASS, 1 = FAIL, 2 = WARN (non-blocking issues)
 """
+from config import *
 
 import sqlite3
 import subprocess

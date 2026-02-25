@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # mba-cockpit.sh — MacBook Air Constellation Cockpit (2-pane)
 # Creates a tmux session with a 2-column layout:
 #   Left:  Ajna (OpenClaw / Kimi K2.5 / CSO)

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # audit_applications.sh — Syncrescendence Grand Unification Application Audit
 # Inventories all apps, cross-references brew/mas, generates Brewfile + report.
 set -uo pipefail

@@ -3,6 +3,7 @@
 Smart CANON SN Converter
 Transforms CANON documents to Semantic Notation format with structure preservation.
 """
+from config import *
 
 import sys
 import re

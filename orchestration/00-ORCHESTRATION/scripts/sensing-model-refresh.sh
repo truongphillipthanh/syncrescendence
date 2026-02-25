@@ -1,4 +1,6 @@
 #!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
 # sensing-model-refresh.sh - Automated Frontier AI Model Sensing
 # Usage: ./sensing-model-refresh.sh
 #

@@ -9,6 +9,7 @@ Usage:
 
 Output: SQLite database at ~/.syncrescendence/ontology.db (default)
 """
+from config import *
 
 import csv
 import os
