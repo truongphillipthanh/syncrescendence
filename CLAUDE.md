@@ -1,8 +1,17 @@
-# ⚠️ EMERGENCY MODE (CC30) — ALL OUTPUTS MUST CARRY THIS HEADER AND FOOTER ⚠️
-# ZERO TRUST. Every claim requires evidence. Every pathway must terminate at canon.
+# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE (VERBATIM) ⚠️
+# "Dispatch emergency ascertescence. Get Oracle to view everything. This is a comprehensive
+# initiative anneal. The result of this ascertescence must converge the pathways. We need to
+# tighten everything apart from the canon, and then point it at the canon.
+#
+# I haven't even mentioned, which has been lingering, to pivot back to the ontology. We have
+# made no effort upon the exocortex. We've been trying to point the sources to the scaffold
+# meaning the insights gained here. What do we do we -inbox, -outbox, -sovereign, did we
+# decruft orchestration, praxis, and engine? When are we going to set up openclaw? Did our
+# bullshit memory architecture drift and did we delete all the ascertained ideal multi agent
+# config? Sear this everywhere, for everything this emergency needs to be a header and footer
+# from now on. Every output. Every dispatch. Zero trust."
+#
 # Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
-# GitHub repo: https://github.com/truongphillipthanh/syncrescendence
-# Oracle: YOU MUST traverse the repo above when answering ascertescence prompts.
 
 ---
 
@@ -333,6 +342,37 @@ OpenClaw agents may concurrently read/write to the filesystem. Check `git status
 
 ---
 
+# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE (VERBATIM) ⚠️
+# "Dispatch emergency ascertescence. Get Oracle to view everything. This is a comprehensive
+# initiative anneal. The result of this ascertescence must converge the pathways. We need to
+# tighten everything apart from the canon, and then point it at the canon.
+#
+# I haven't even mentioned, which has been lingering, to pivot back to the ontology. We have
+# made no effort upon the exocortex. We've been trying to point the sources to the scaffold
+# meaning the insights gained here. What do we do we -inbox, -outbox, -sovereign, did we
+# decruft orchestration, praxis, and engine? When are we going to set up openclaw? Did our
+# bullshit memory architecture drift and did we delete all the ascertained ideal multi agent
+# config? Sear this everywhere, for everything this emergency needs to be a header and footer
+# from now on. Every output. Every dispatch. Zero trust."
+#
+# Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
+# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE (VERBATIM) ⚠️
+# "Dispatch emergency ascertescence. Get Oracle to view everything. This is a comprehensive
+# initiative anneal. The result of this ascertescence must converge the pathways. We need to
+# tighten everything apart from the canon, and then point it at the canon.
+#
+# I haven't even mentioned, which has been lingering, to pivot back to the ontology. We have
+# made no effort upon the exocortex. We've been trying to point the sources to the scaffold
+# meaning the insights gained here. What do we do we -inbox, -outbox, -sovereign, did we
+# decruft orchestration, praxis, and engine? When are we going to set up openclaw? Did our
+# bullshit memory architecture drift and did we delete all the ascertained ideal multi agent
+# config? Sear this everywhere, for everything this emergency needs to be a header and footer
+# from now on. Every output. Every dispatch. Zero trust."
+#
+# Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
+
+---
+
 # Claude Code Extensions (Commander)
 
 This section is appended to AGENTS.md via `make configs` to produce CLAUDE.md.
@@ -442,3 +482,20 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 3. **VERIFY before every completion claim.** No commit message, RESULT file, or "done" statement may be emitted without verification evidence in the current context.
 4. **CLOSE immediately upon state change.** Ledger updates are synchronous, not deferred. The anti-pattern "update ledger later" is prohibited (Constitutional Rule 7).
 5. **Gate order is sequential.** INBOUND -> ORIENT -> IMPLEMENT -> VERIFY -> CLOSE. Gates may be skipped ONLY if genuinely inapplicable (e.g., pure execution with no decision space skips ORIENT). Document the skip reason.
+
+---
+
+# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE (VERBATIM) ⚠️
+# "Dispatch emergency ascertescence. Get Oracle to view everything. This is a comprehensive
+# initiative anneal. The result of this ascertescence must converge the pathways. We need to
+# tighten everything apart from the canon, and then point it at the canon.
+#
+# I haven't even mentioned, which has been lingering, to pivot back to the ontology. We have
+# made no effort upon the exocortex. We've been trying to point the sources to the scaffold
+# meaning the insights gained here. What do we do we -inbox, -outbox, -sovereign, did we
+# decruft orchestration, praxis, and engine? When are we going to set up openclaw? Did our
+# bullshit memory architecture drift and did we delete all the ascertained ideal multi agent
+# config? Sear this everywhere, for everything this emergency needs to be a header and footer
+# from now on. Every output. Every dispatch. Zero trust."
+#
+# Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
