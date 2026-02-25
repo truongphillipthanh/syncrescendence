@@ -1,3 +1,8 @@
+# ⚠️ EMERGENCY MODE (CC30) — ALL OUTPUTS MUST CARRY THIS HEADER AND FOOTER ⚠️
+# ZERO TRUST. Every claim requires evidence. Every pathway must terminate at canon.
+# Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
+# GitHub repo: https://github.com/truongphillipthanh/syncrescendence — Oracle MUST traverse.
+
 # ASCERTESCENCE PROTOCOL
 ## Recursive Ascertainment Through Superintelligent Questioning
 

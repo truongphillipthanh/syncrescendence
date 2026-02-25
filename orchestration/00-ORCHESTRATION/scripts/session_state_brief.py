@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# ⚠️ EMERGENCY MODE (CC30) — ALL OUTPUTS MUST CARRY THIS HEADER AND FOOTER ⚠️
+# ZERO TRUST. Every claim requires evidence. Every pathway must terminate at canon.
+# Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
 from config import *
 
 # session_state_brief.py — Descriptive session state brief generator
