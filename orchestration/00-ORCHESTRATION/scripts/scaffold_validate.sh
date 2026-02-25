@@ -3,6 +3,7 @@ source "$(dirname "${BASH_SOURCE}")/config.sh"
 
 # orchestration/00-ORCHESTRATION/scripts/scaffold_validate.sh
 set -euo pipefail
+sync_config_preflight "$(basename "${BASH_SOURCE[0]}")"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONFIG_SH="$SCRIPT_DIR/config.sh"
@@ -87,8 +88,14 @@ now_epoch() { date +%s; }
 
 # violations TSV: code \t path \t fixable(0/1) \t message
 VIO_TMP="$(mktemp -t scaffold_vio.XXXXXX)"
-cleanup() { rm -f "$VIO_TMP"; }
+CONFIG_HEALTH_JSON="$(mktemp -t scaffold_cfg_health.XXXXXX)"
+cleanup() { rm -f "$VIO_TMP" "$CONFIG_HEALTH_JSON"; }
 trap cleanup EXIT
+
+CONFIG_HEALTH_STATUS="SKIP"
+CONFIG_HEALTH_FAILED=0
+CONFIG_HEALTH_WARNINGS=0
+CONFIG_HEALTH_TOTAL=0
 
 add_vio() {
   local code="$1" path="$2" fixable="$3" msg="$4"
@@ -108,6 +115,70 @@ ROOT="$(repo_root)"
 cd "$ROOT"
 
 # ---- checks ----------------------------------------------------------------
+
+# Config health section (first-class gate)
+CONFIG_HEALTH_SCRIPT="$SCRIPT_DIR/config_health.sh"
+if [[ -f "$CONFIG_HEALTH_SCRIPT" ]]; then
+  CONFIG_HEALTH_ARGS=("--json")
+  if [[ "${SCAFFOLD_CONFIG_HEALTH_STRICT:-0}" == "1" ]]; then
+    CONFIG_HEALTH_ARGS+=("--strict")
+  fi
+
+  set +e
+  bash "$CONFIG_HEALTH_SCRIPT" "${CONFIG_HEALTH_ARGS[@]}" >"$CONFIG_HEALTH_JSON" 2>/dev/null
+  config_health_rc=$?
+  set -e
+
+  if [[ -s "$CONFIG_HEALTH_JSON" ]]; then
+    if have python3; then
+      parse_line="$(
+        python3 - <<'PY' "$CONFIG_HEALTH_JSON" "$VIO_TMP"
+import json
+import sys
+
+report_path, vio_path = sys.argv[1:3]
+with open(report_path, "r", encoding="utf-8", errors="ignore") as handle:
+    report = json.load(handle)
+
+status = report.get("status", "UNKNOWN")
+summary = report.get("summary", {})
+failed = int(summary.get("failed", 0))
+warnings = int(summary.get("warnings", 0))
+total = int(summary.get("total", 0))
+
+checks = report.get("checks", [])
+with open(vio_path, "a", encoding="utf-8") as out:
+    for check in checks:
+        if check.get("status") != "FAIL":
+            continue
+        code = f"CONFIG_{check.get('id', 'UNKNOWN')}"
+        msg = check.get("message", "config health failure")
+        detail = check.get("detail", "")
+        if detail:
+            msg = f"{msg} [{detail}]"
+        msg = msg.replace("\t", " ").replace("\n", " ")
+        out.write(f"{code}\tconfig_health\t0\t{msg}\n")
+
+print(f"{status}\t{failed}\t{warnings}\t{total}")
+PY
+      )"
+      IFS=$'\t' read -r CONFIG_HEALTH_STATUS CONFIG_HEALTH_FAILED CONFIG_HEALTH_WARNINGS CONFIG_HEALTH_TOTAL <<< "$parse_line"
+    else
+      add_vio "MISSING_DEP" "python3" 0 "python3 not found; unable to parse config_health JSON."
+      CONFIG_HEALTH_STATUS="PARSE_ERROR"
+    fi
+  else
+    add_vio "CONFIG_HEALTH_EXEC" "config_health" 0 "config_health produced no JSON output."
+    CONFIG_HEALTH_STATUS="NO_OUTPUT"
+  fi
+
+  if [[ "$config_health_rc" != "0" && "$CONFIG_HEALTH_STATUS" == "PASS" ]]; then
+    add_vio "CONFIG_HEALTH_EXEC" "config_health" 0 "config_health exit was non-zero without explicit failures."
+  fi
+else
+  add_vio "MISSING_FILE" "orchestration/00-ORCHESTRATION/scripts/config_health.sh" 1 "config_health.sh is missing."
+  CONFIG_HEALTH_STATUS="MISSING"
+fi
 
 # Required top-level dirs
 for d in "${REQUIRED_TOP_DIRS[@]}"; do
@@ -360,6 +431,15 @@ if [[ "$OUTPUT_FORMAT" == "md" ]]; then
   echo "- status: $STATUS"
   echo "- repo_root: $ROOT"
   echo "- violations: $VCOUNT"
+  echo "- config_health_status: $CONFIG_HEALTH_STATUS"
+  echo
+  echo "## config_health"
+  echo
+  echo "- status: $CONFIG_HEALTH_STATUS"
+  echo "- checks: $CONFIG_HEALTH_TOTAL"
+  echo "- failed: $CONFIG_HEALTH_FAILED"
+  echo "- warnings: $CONFIG_HEALTH_WARNINGS"
+  echo "- strict: ${SCAFFOLD_CONFIG_HEALTH_STRICT:-0}"
   echo
   if [[ "$VCOUNT" != "0" ]]; then
     echo "## violations"
@@ -370,9 +450,9 @@ if [[ "$OUTPUT_FORMAT" == "md" ]]; then
   fi
 else
   if ! have python3; then die "python3 required for JSON emission."; fi
-  python3 - <<'PY' "$ROOT" "$STATUS" "$VIO_TMP"
+  python3 - <<'PY' "$ROOT" "$STATUS" "$VIO_TMP" "$CONFIG_HEALTH_STATUS" "$CONFIG_HEALTH_TOTAL" "$CONFIG_HEALTH_FAILED" "$CONFIG_HEALTH_WARNINGS" "${SCAFFOLD_CONFIG_HEALTH_STRICT:-0}"
 import json, sys, datetime
-root, status, vio = sys.argv[1], sys.argv[2], sys.argv[3]
+root, status, vio, cfg_status, cfg_total, cfg_failed, cfg_warn, cfg_strict = sys.argv[1:9]
 violations=[]
 with open(vio, "r", encoding="utf-8", errors="ignore") as f:
     for line in f:
@@ -382,8 +462,15 @@ with open(vio, "r", encoding="utf-8", errors="ignore") as f:
         violations.append({"code":code, "path":path, "fixable":bool(int(fixable)), "message":msg})
 out = {
   "status": status,
-  "timestamp": datetime.datetime.utcnow().replace(microsecond=0).isoformat()+"Z",
+  "timestamp": datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
   "repo_root": root,
+  "config_health": {
+    "status": cfg_status,
+    "strict": bool(int(cfg_strict)),
+    "checks": int(cfg_total),
+    "failed": int(cfg_failed),
+    "warnings": int(cfg_warn),
+  },
   "violations": violations,
   "stats": {"violations": len(violations)}
 }

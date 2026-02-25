@@ -15,8 +15,10 @@ while [ -h "$_CONFIG_SOURCE" ]; do
 done
 _CONFIG_DIR="$(cd -P "$(dirname "$_CONFIG_SOURCE")" && pwd)"
 
-# Repository root (auto-detect from this file's location)
-REPO_ROOT="$(cd "$_CONFIG_DIR/../../.." && pwd)"
+# Repository root (auto-detect from this file's location, override with SYNCRESCENDENCE_ROOT)
+REPO_ROOT_DETECTED="$(cd "$_CONFIG_DIR/../../.." && pwd)"
+SYNCRESCENDENCE_ROOT="${SYNCRESCENDENCE_ROOT:-$REPO_ROOT_DETECTED}"
+REPO_ROOT="$SYNCRESCENDENCE_ROOT"
 
 # Directory structure
 ORCHESTRATION_DIR="$REPO_ROOT/orchestration/00-ORCHESTRATION"
@@ -50,8 +52,86 @@ GRAPHITI_ENDPOINT="http://M1-Mac-mini.local:8001"
 SSH_KEY_AJNA="$HOME/.ssh/id_ed25519_ajna"
 SSH_KEY_PSYCHE="$HOME/.ssh/id_ed25519_ajna_to_psyche"
 
+# ---------------------------------------------------------------------------
+# Proprioceptive config assertions
+# ---------------------------------------------------------------------------
+
+_sync_config_fail() {
+  local assumption="$1"
+  local repair_hint="$2"
+  local context="${3:-config}"
+  {
+    printf "[config:%s] FAIL\n" "$context"
+    printf "assumption: %s\n" "$assumption"
+    printf "repair: %s\n" "$repair_hint"
+  } >&2
+  if [[ "${BASH_SOURCE[0]}" != "$0" ]]; then
+    return 1
+  fi
+  exit 1
+}
+
+sync_assert_dir() {
+  local path="$1"
+  local description="$2"
+  if [[ -d "$path" ]]; then
+    return 0
+  fi
+  _sync_config_fail \
+    "directory exists for ${description}: ${path}" \
+    "Set SYNCRESCENDENCE_ROOT correctly or create the directory." \
+    "assert_dir"
+}
+
+sync_assert_file() {
+  local path="$1"
+  local description="$2"
+  if [[ -f "$path" ]]; then
+    return 0
+  fi
+  _sync_config_fail \
+    "file exists for ${description}: ${path}" \
+    "Restore the file from canon/state or regenerate it before running this script." \
+    "assert_file"
+}
+
+sync_assert_env() {
+  local var_name="$1"
+  local description="$2"
+  local value="${!var_name-}"
+  if [[ -n "$value" ]]; then
+    return 0
+  fi
+  _sync_config_fail \
+    "environment variable is set for ${description}: ${var_name}" \
+    "Export ${var_name} before running this script (for root: export SYNCRESCENDENCE_ROOT=/path/to/repo)." \
+    "assert_env"
+}
+
+sync_config_preflight() {
+  local script_name="${1:-unknown-script}"
+  printf "[config:preflight] begin script=%s root=%s\n" "$script_name" "$REPO_ROOT" >&2
+
+  sync_assert_env "SYNCRESCENDENCE_ROOT" "syncrescendence root override/anchor" || return 1
+
+  sync_assert_dir "$ORCHESTRATION_DIR" "orchestration directory" || return 1
+  sync_assert_dir "$CANON_DIR" "canon directory" || return 1
+  sync_assert_dir "$ENGINE_DIR" "engine directory" || return 1
+  sync_assert_dir "$SOURCES_DIR" "sources directory" || return 1
+  sync_assert_dir "$PRAXIS_DIR" "praxis directory" || return 1
+  sync_assert_dir "$AGENTS_DIR" "agents directory" || return 1
+
+  sync_assert_file "$STATE_DIR/DYN-DEFERRED_COMMITMENTS.md" "deferred commitments state" || return 1
+  sync_assert_file "$STATE_DIR/ARCH-INTENTION_COMPASS.md" "intention compass architecture state" || return 1
+
+  printf "[config:preflight] pass script=%s\n" "$script_name" >&2
+}
+
 # Export for child-shell availability. Bash arrays remain shell-local by design.
 export REPO_ROOT
+export REPO_ROOT_DETECTED
+export SYNCRESCENDENCE_ROOT
+export SYNCRESCENDENCE_REPO_ROOT="$SYNCRESCENDENCE_ROOT"
 export ORCHESTRATION_DIR ENGINE_DIR SOURCES_DIR PRAXIS_DIR AGENTS_DIR
 export SOVEREIGN_DIR CANON_DIR COLLAB_DIR INBOX_DIR
 export STATE_DIR SCRIPTS_DIR ARCHIVE_DIR TEMPLATES_DIR
