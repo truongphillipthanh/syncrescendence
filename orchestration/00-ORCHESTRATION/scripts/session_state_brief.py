@@ -354,6 +354,75 @@ def section_delta() -> list[str]:
     return lines
 
 # ---------------------------------------------------------------------------
+# Section 6: Integration Metric
+# ---------------------------------------------------------------------------
+
+def section_integration_metric() -> list[str]:
+    lines = ["## Integration Metric", ""]
+    try:
+        day_start_utc = datetime.now(timezone.utc).replace(
+            hour=0, minute=0, second=0, microsecond=0
+        ).isoformat()
+
+        subjects_result = subprocess.run(
+            [
+                "git",
+                "-C",
+                str(REPO_ROOT),
+                "log",
+                f"--since={day_start_utc}",
+                "--pretty=format:%s",
+            ],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+        subjects = []
+        if subjects_result.returncode == 0 and subjects_result.stdout.strip():
+            subjects = [ln.strip() for ln in subjects_result.stdout.splitlines() if ln.strip()]
+
+        promoted_count = sum(
+            1 for subject in subjects if re.search(r"(promote|integrate)", subject, re.IGNORECASE)
+        )
+
+        migrated_result = subprocess.run(
+            [
+                "git",
+                "-C",
+                str(REPO_ROOT),
+                "log",
+                f"--since={day_start_utc}",
+                "-G",
+                r"from config import \*|config\.sh|config\.py",
+                "--name-only",
+                "--pretty=format:",
+                "--",
+                "orchestration/00-ORCHESTRATION/scripts",
+            ],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+
+        migrated_files = set()
+        if migrated_result.returncode == 0 and migrated_result.stdout.strip():
+            for ln in migrated_result.stdout.splitlines():
+                candidate = ln.strip()
+                if candidate.endswith(".sh") or candidate.endswith(".py"):
+                    migrated_files.add(candidate)
+        migrated_count = len(migrated_files)
+
+        gate = "PASS" if (promoted_count + migrated_count) >= 1 else "WARN"
+
+        lines.append(f"- Atoms promoted/integrated today: {promoted_count}")
+        lines.append(f"- Files migrated to config.sh/config.py today: {migrated_count}")
+        lines.append(f"- Integration-First Gate: {gate}")
+    except Exception as e:
+        log_error("integration_metric", e)
+        lines.append(f"- (Error computing integration metric: {e})")
+    return lines
+
+# ---------------------------------------------------------------------------
 # Assembly + Word Budget
 # ---------------------------------------------------------------------------
 
@@ -364,6 +433,7 @@ def build_brief() -> str:
         section_last_actions,
         section_graph_health,
         section_delta,
+        section_integration_metric,
     ]
 
     built = []
