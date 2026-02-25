@@ -12,7 +12,7 @@
 
 ```
 PID: 35738 (source_batch_orchestrator.py)
-Command: OPENROUTER_API_KEY="sk-or-v1-7f4eb36b34...c6e3a964" \
+Command: OPENROUTER_API_KEY="[REDACTED]" \
   LLM_BACKEND=openrouter OPENROUTER_MODEL=google/gemini-2.5-flash \
   KMP_DUPLICATE_LIB_OK=TRUE \
   python3 orchestration/00-ORCHESTRATION/scripts/source_batch_orchestrator.py \
@@ -129,8 +129,8 @@ ps aux | grep source_batch_orchestrator | grep -v grep
 ## Environment State
 
 ### API Keys in Session
-- OpenRouter: `OPENROUTER_API_KEY=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`
-- OpenAI: `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`
+- OpenRouter: [REDACTED — rotate immediately]
+- OpenAI: [REDACTED — rotate immediately]
 - NVIDIA NIM: in `~/.openclaw/.env`
 
 ### Dependencies Installed

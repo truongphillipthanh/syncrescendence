@@ -74,6 +74,30 @@ Full specs: `RESPONSE-ADJUDICATOR-ASCERTESCENCE-CC26.md`. READY TO BUILD.
 
 ---
 
+## CC27 Builds + Sovereign Strategic Insights (2026-02-24)
+
+### Builds Completed
+- **session_state_brief.py**: DONE, hooked to UserPromptSubmit, 300-word descriptive brief
+- **atom_cluster.py**: DONE, TF-IDF + KMeans, sample run shows 10.6% sovereign_review / 89.4% archive (validates 90/10 rule)
+- **Autonomy Ledger**: DONE, 6 files, Commander at L1 SANDBOX, 4/200 tasks tracked
+- **3 broken launchd plists**: FIXED (proactive-orchestrator, skill-sync, youtube-ingest)
+- **Safe build point**: `013ca4d3`
+
+### Sovereign Strategic Insights (CC27)
+- Sources deluge was INTENTIONAL — shifting to "coursing stream" via feedcraft + IIC
+- Feedcraft + IIC = irrigation to industrial scale sensing (progression)
+- **Syncrescript** (nee "semantic notation"): research on pseudo-code -> chorus workflow -> synthesis -> semantic notation. Sovereign wants Ruby on Rails "developer happiness" sensibilities. Also noting Elixir as good for LLMs/AI.
+- Chat apps (Grok, Gemini) need a **portal** — an index directory of key repo files for traversal since GitHub connectors can't do full repo
+- **Grok can now traverse repo on GitHub** — tactical opportunity for Oracle
+- **Ascertescence^2** = second-order ascertescence using CC26 convergence + CC27 builds as input
+
+### Ascertescence^2 Scope
+- Point the CC26 6-question audit findings at the triangulation playbook
+- **Siege**: parallel dispatch to Claude swarm + Codex session + Oracle (Grok via GitHub)
+- Gemini needs a portal directory of curated files for chat relay
+
+---
+
 ## What the Next Session MUST Do
 
 BUILD from Adjudicator's CC26 specs. Not new tooling. Not more analysis. BUILDING the convergent designs.
@@ -123,7 +147,7 @@ The Intention Compass (`orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMP
 | Extracted atoms | `sources/04-SOURCES/_meta/EXTRACT-*.jsonl` (14,311 atoms) |
 | Corpus x intention synthesis | `agents/commander/outbox/DECISION_ATOMS-PHASE2-CORPUS_INTENTION_SYNTHESIS-2026-02-23.md` |
 | Latest handoff | `agents/commander/outbox/HANDOFF-PHASE3-5-TOOLING_COMPLETE-SESSION_TERMINAL.md` |
-| Safe build point | `019f973e` (2026-02-23) |
+| Safe build point | `013ca4d3` (2026-02-24, CC27) |
 
 ---
 
@@ -138,7 +162,7 @@ The Intention Compass (`orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMP
 
 ## Commander Council (CC) Lineage
 
-- **Commander Council (CC)** = the formalized session lineage between Sovereign and Commander. Continues from Council 25; current session is **CC26**.
+- **Commander Council (CC)** = the formalized session lineage between Sovereign and Commander. Continues from Council 25; current session is **CC27**.
 - **Weapon pairing**: Ajna = clarescence (holistic/meta/macro). Commander = ascertescence (captaining the squad — driving triangulation, staging prompts, synthesizing output).
 - **Ajna status**: anesthetized (dormant). `ajna_pedigree` hook runs passively. The Sovereign↔Commander pedigree chain was undocumented until CC26.
 - **Artifact naming convention**:

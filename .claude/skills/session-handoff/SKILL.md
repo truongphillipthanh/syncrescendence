@@ -21,9 +21,9 @@ This skill defines the terminal node protocol for Commander Council (CC) session
 
 Commander Council sessions are numbered sequentially (CC26, CC27, ...). The handoff file is the session's legacy artifact.
 
-- Automated handoffs: `agents/commander/outbox/HANDOFF-CC{N}-AUTOCOMPACT-{timestamp}.md`
-- Manual handoffs: `agents/commander/outbox/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md`
-- The latest CC number is determined from `ls agents/commander/outbox/HANDOFF-CC*` — extract highest number.
+- Automated handoffs: `agents/commander/outbox/handoffs/HANDOFF-CC{N}-AUTOCOMPACT-{timestamp}.md`
+- Manual handoffs: `agents/commander/outbox/handoffs/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md`
+- The latest CC number is determined from `ls agents/commander/outbox/handoffs/HANDOFF-CC*` — extract highest number.
 
 ## Manual Invocation Protocol (`/session-handoff`)
 
@@ -34,7 +34,7 @@ When the agent explicitly runs this skill, produce a handoff that is RICHER than
 - Use sandbox-safe commit: `git write-tree` -> `git commit-tree` -> `git update-ref` (git commit gets SIGKILL'd on large repos).
 
 ### 2. MEMORY Stage (final)
-Write a handoff file to `agents/commander/outbox/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md` containing:
+Write a handoff file to `agents/commander/outbox/handoffs/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md` containing:
 
 #### Required Sections
 - **Header**: Date, Agent, Session (CC number), Git HEAD, Trust Level, Trigger (Manual/PreCompact)
@@ -57,8 +57,12 @@ This is the most important section. The automated handoff writes placeholders he
 ### 3. Pedigree Chain
 The handoff artifact feeds the pedigree system, creating traceable lineage from session to session.
 
-### 4. Copy to Desktop
-Copy the handoff to `~/Desktop/HANDOFF-LATEST.md` for quick Sovereign access.
+### 4. Deliver to Inbox + Print Initializer
+Copy the handoff to `-INBOX/commander/00-INBOX0/HANDOFF-LATEST.md` so the next session can cold-start from it.
+Print a one-liner initializer the Sovereign can paste into a fresh Claude Code session:
+```
+Resume CC{N}. Rehydrate from: @agents/commander/outbox/handoffs/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md
+```
 
 ### 5. Kaizen
 Every handoff should end with a brief note on what could be improved about the handoff FORMAT itself. This is how the protocol evolves:

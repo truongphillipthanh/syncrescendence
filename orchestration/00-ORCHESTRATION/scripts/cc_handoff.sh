@@ -11,7 +11,7 @@ cd "$REPO_ROOT"
 echo "[CC-Handoff] Generating Commander Council handoff..."
 
 # --- Determine CC number ---
-LATEST_HANDOFF=$(ls agents/commander/outbox/HANDOFF-CC* 2>/dev/null | sort -V | tail -1 || true)
+LATEST_HANDOFF=$(ls agents/commander/outbox/handoffs/HANDOFF-CC* 2>/dev/null | sort -V | tail -1 || true)
 if [ -n "$LATEST_HANDOFF" ]; then
     CC_NUM=$(echo "$LATEST_HANDOFF" | grep -oE 'CC[0-9]+' | grep -oE '[0-9]+' | tail -1)
 else
@@ -79,7 +79,7 @@ if [ -f "$JOURNAL_FILE" ]; then
 fi
 
 # --- Write handoff file ---
-HANDOFF_FILE="agents/commander/outbox/HANDOFF-CC${CC_NUM}-AUTOCOMPACT-${DATE_STAMP}.md"
+HANDOFF_FILE="agents/commander/outbox/handoffs/HANDOFF-CC${CC_NUM}-AUTOCOMPACT-${DATE_STAMP}.md"
 
 cat > "$HANDOFF_FILE" << HANDOFF_EOF
 # HANDOFF — Commander Council ${CC_NUM} — Auto-Compaction
@@ -164,9 +164,15 @@ HANDOFF_EOF
 
 echo "[CC-Handoff] Wrote: ${HANDOFF_FILE}"
 
-# --- Copy to Desktop for Sovereign access ---
-cp "$HANDOFF_FILE" ~/Desktop/HANDOFF-LATEST.md 2>/dev/null || echo "[CC-Handoff] WARNING: Could not copy to Desktop"
-echo "[CC-Handoff] Copied to ~/Desktop/HANDOFF-LATEST.md"
+# --- Copy to Commander inbox for next-session cold-start ---
+cp "$HANDOFF_FILE" "-INBOX/commander/00-INBOX0/HANDOFF-LATEST.md" 2>/dev/null || echo "[CC-Handoff] WARNING: Could not copy to inbox"
+echo "[CC-Handoff] Copied to -INBOX/commander/00-INBOX0/HANDOFF-LATEST.md"
+
+# --- Print initializer for Sovereign to paste into fresh session ---
+echo ""
+echo "=== PASTE THIS INTO FRESH CLAUDE CODE SESSION ==="
+echo "Resume CC${CC_NUM}. Rehydrate from: @agents/commander/outbox/handoffs/HANDOFF-CC${CC_NUM}-AUTOCOMPACT-${DATE_STAMP}.md"
+echo "================================================="
 
 # --- Sandbox-safe commit (git write-tree → commit-tree → update-ref) ---
 # Clean up any stale lock

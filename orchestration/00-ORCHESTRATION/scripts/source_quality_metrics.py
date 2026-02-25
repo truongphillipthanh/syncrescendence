@@ -122,17 +122,31 @@ class AtomMetrics:
         return {k: v for k, v in self.__dict__.items()}
 
 
+def batch_encode_atoms(atoms: list[dict], batch_size: int = 256) -> np.ndarray:
+    """Batch-encode all atom contents into embeddings.
+
+    Returns ndarray of shape (len(atoms), embedding_dim).
+    """
+    model = _get_model()
+    texts = [a["content"] for a in atoms]
+    return model.encode(texts, show_progress_bar=True, convert_to_numpy=True,
+                        batch_size=batch_size)
+
+
 def compute_coverage(atom: dict, canon_embs: np.ndarray, canon_texts: list[str],
-                     threshold: float = 0.45) -> bool:
+                     threshold: float = 0.45,
+                     atom_emb: np.ndarray | None = None) -> bool:
     """Gate 1: Does this atom's content map to at least one canon paragraph?
 
     Uses cosine similarity >= threshold as the mapping criterion.
+    If atom_emb is provided, skips re-encoding.
     """
     if canon_embs.shape[0] == 0:
         return False
-    model = _get_model()
-    emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
-    sims = _cosine_sim_batch(emb, canon_embs)
+    if atom_emb is None:
+        model = _get_model()
+        atom_emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
+    sims = _cosine_sim_batch(atom_emb, canon_embs)
     return bool(np.max(sims) >= threshold)
 
 
@@ -153,13 +167,35 @@ def compute_graph_density(atom: dict, graph_state: dict | None,
     return count, False
 
 
+def load_praxis_cache(praxis_dir: Path | None) -> list[str] | None:
+    """Pre-load all praxis .md file contents into memory once.
+
+    Returns None if praxis_dir is unavailable, otherwise a list of file contents.
+    """
+    if praxis_dir is None or not praxis_dir.exists():
+        return None
+    contents = []
+    for md_file in praxis_dir.rglob("*.md"):
+        try:
+            contents.append(md_file.read_text(errors="replace"))
+        except OSError:
+            continue
+    return contents
+
+
 def compute_praxis_linkage(atom: dict, praxis_dir: Path | None,
-                           threshold: int = 2) -> tuple[int, bool]:
+                           threshold: int = 2,
+                           praxis_cache: list[str] | None = None) -> tuple[int, bool]:
     """Gate 3: Count praxis artifacts linked to this atom.
 
     Simple heuristic: search praxis .md files for the atom_id string.
     Returns (link_count, skipped).
+    Uses praxis_cache if provided to avoid re-reading files per atom.
     """
+    if praxis_cache is not None:
+        atom_id = atom["atom_id"]
+        count = sum(1 for content in praxis_cache if atom_id in content)
+        return count, False
     if praxis_dir is None or not praxis_dir.exists():
         return 0, True
     atom_id = atom["atom_id"]
@@ -174,21 +210,19 @@ def compute_praxis_linkage(atom: dict, praxis_dir: Path | None,
 
 
 def compute_consistency(atom: dict, canon_embs: np.ndarray,
-                        canon_texts: list[str]) -> float:
+                        canon_texts: list[str],
+                        atom_emb: np.ndarray | None = None) -> float:
     """Gate 4: Logical consistency via NLI heuristic.
 
     Returns contradiction_score in [0, 1]. Lower is better.
-    If the atom is very dissimilar to ALL canon claims (max sim < 0.3),
-    that indicates potential contradiction (belief_violation).
-    For consistency gate, we look at whether the atom contradicts known canon:
-    atoms with moderate similarity (0.3-0.7) but opposing tension vectors
-    score higher contradiction.
+    If atom_emb is provided, skips re-encoding.
     """
     if canon_embs.shape[0] == 0:
         return 0.0
-    model = _get_model()
-    emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
-    sims = _cosine_sim_batch(emb, canon_embs)
+    if atom_emb is None:
+        model = _get_model()
+        atom_emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
+    sims = _cosine_sim_batch(atom_emb, canon_embs)
     max_sim = float(np.max(sims))
 
     # Heuristic: topically similar but not identical suggests potential tension
@@ -203,26 +237,30 @@ def compute_consistency(atom: dict, canon_embs: np.ndarray,
         return 0.04 + 0.08 * math.exp(-((max_sim - 0.55) ** 2) / 0.02)
 
 
-def compute_novelty(atom: dict, canon_embs: np.ndarray) -> float:
+def compute_novelty(atom: dict, canon_embs: np.ndarray,
+                    atom_emb: np.ndarray | None = None) -> float:
     """Novelty = 1 - max_cosine(atom_embedding, canon_neighbor_embeddings)."""
     if canon_embs.shape[0] == 0:
         return 1.0
-    model = _get_model()
-    emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
-    sims = _cosine_sim_batch(emb, canon_embs)
+    if atom_emb is None:
+        model = _get_model()
+        atom_emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
+    sims = _cosine_sim_batch(atom_emb, canon_embs)
     return float(1.0 - np.max(sims))
 
 
-def compute_belief_violation(atom: dict, canon_embs: np.ndarray) -> float:
+def compute_belief_violation(atom: dict, canon_embs: np.ndarray,
+                             atom_emb: np.ndarray | None = None) -> float:
     """Belief violation via cosine heuristic.
 
     If atom has < 0.3 similarity to any canon claim, belief_violation = high.
     """
     if canon_embs.shape[0] == 0:
         return 0.5  # unknown baseline
-    model = _get_model()
-    emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
-    sims = _cosine_sim_batch(emb, canon_embs)
+    if atom_emb is None:
+        model = _get_model()
+        atom_emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
+    sims = _cosine_sim_batch(atom_emb, canon_embs)
     max_sim = float(np.max(sims))
     if max_sim < 0.3:
         return 0.85
@@ -267,24 +305,45 @@ def compute_source_reliability(atom: dict, triage: dict | None) -> float:
 
 
 def compute_cross_source_support(atom: dict, other_atoms: list[dict],
-                                 threshold: float = 0.75) -> float:
+                                 threshold: float = 0.75,
+                                 atom_emb: np.ndarray | None = None,
+                                 all_atom_embs: np.ndarray | None = None,
+                                 atom_index: int | None = None) -> float:
     """Check if similar atoms appear in other EXTRACT files.
 
     Uses embedding similarity against atoms from other source_ids.
+    If all_atom_embs is provided, uses pre-computed embeddings (massive speedup).
     Returns a score in [0, 1].
     """
     own_source = atom.get("source_id", "")
+
+    if all_atom_embs is not None and atom_emb is not None:
+        # Fast path: use pre-computed embeddings
+        # Build mask of foreign atoms
+        foreign_mask = np.array([a.get("source_id", "") != own_source for a in other_atoms])
+        if not np.any(foreign_mask):
+            return 0.0
+        foreign_embs = all_atom_embs[foreign_mask]
+        # Cap at 2000 for memory
+        if foreign_embs.shape[0] > 2000:
+            indices = np.random.choice(foreign_embs.shape[0], 2000, replace=False)
+            foreign_embs = foreign_embs[indices]
+        sims = _cosine_sim_batch(atom_emb, foreign_embs)
+        supporting = int(np.sum(sims >= threshold))
+        return min(supporting / 3.0, 1.0)
+
+    # Slow fallback
     foreign = [a for a in other_atoms if a.get("source_id", "") != own_source]
     if not foreign:
         return 0.0
 
     model = _get_model()
-    emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
-    foreign_texts = [a["content"] for a in foreign[:500]]  # cap
+    if atom_emb is None:
+        atom_emb = model.encode([atom["content"]], show_progress_bar=False, convert_to_numpy=True)[0]
+    foreign_texts = [a["content"] for a in foreign[:500]]
     foreign_embs = model.encode(foreign_texts, show_progress_bar=False, convert_to_numpy=True)
-    sims = _cosine_sim_batch(emb, foreign_embs)
+    sims = _cosine_sim_batch(atom_emb, foreign_embs)
     supporting = int(np.sum(sims >= threshold))
-    # Normalize: 3+ supporting atoms = 1.0
     return min(supporting / 3.0, 1.0)
 
 
@@ -348,12 +407,20 @@ def evaluate_atom(
     graph_density_threshold: int = 8,
     praxis_threshold: int = 2,
     consistency_threshold: float = 0.12,
+    praxis_cache: list[str] | None = None,
+    atom_emb: np.ndarray | None = None,
+    all_atom_embs: np.ndarray | None = None,
+    atom_index: int | None = None,
 ) -> AtomMetrics:
-    """Run all 4+1 gates on a single atom and return metrics."""
+    """Run all 4+1 gates on a single atom and return metrics.
+
+    If atom_emb is provided, skips re-encoding (4x speedup).
+    If all_atom_embs is provided, cross-source support uses pre-computed embeddings.
+    """
     m = AtomMetrics(atom_id=atom["atom_id"])
 
     # Gate 1: Coverage
-    m.coverage_mapped = compute_coverage(atom, canon_embs, canon_texts, coverage_threshold)
+    m.coverage_mapped = compute_coverage(atom, canon_embs, canon_texts, coverage_threshold, atom_emb=atom_emb)
     m.gates["coverage"] = "PASS" if m.coverage_mapped else "FAIL"
 
     # Gate 2: Graph density
@@ -364,14 +431,14 @@ def evaluate_atom(
         m.gates["graph_density"] = "PASS" if m.graph_relation_count >= graph_density_threshold else "FAIL"
 
     # Gate 3: Praxis linkage
-    m.praxis_link_count, m.gate3_skipped = compute_praxis_linkage(atom, praxis_dir, praxis_threshold)
+    m.praxis_link_count, m.gate3_skipped = compute_praxis_linkage(atom, praxis_dir, praxis_threshold, praxis_cache=praxis_cache)
     if m.gate3_skipped:
         m.gates["praxis"] = "SKIPPED - no praxis dir"
     else:
         m.gates["praxis"] = "PASS" if m.praxis_link_count >= praxis_threshold else "FAIL"
 
     # Gate 4: Consistency
-    m.contradiction_score = compute_consistency(atom, canon_embs, canon_texts)
+    m.contradiction_score = compute_consistency(atom, canon_embs, canon_texts, atom_emb=atom_emb)
     m.consistency_score = 1.0 - m.contradiction_score
     if canon_embs.shape[0] == 0:
         m.gate4_skipped = True
@@ -380,11 +447,13 @@ def evaluate_atom(
         m.gates["consistency"] = "PASS" if m.contradiction_score <= consistency_threshold else "FAIL"
 
     # Gate 5 components
-    m.novelty = compute_novelty(atom, canon_embs)
-    m.belief_violation = compute_belief_violation(atom, canon_embs)
+    m.novelty = compute_novelty(atom, canon_embs, atom_emb=atom_emb)
+    m.belief_violation = compute_belief_violation(atom, canon_embs, atom_emb=atom_emb)
     m.evidence_coverage = compute_evidence_coverage(atom)
     m.source_reliability = compute_source_reliability(atom, triage)
-    m.cross_source_support = compute_cross_source_support(atom, other_atoms)
+    m.cross_source_support = compute_cross_source_support(
+        atom, other_atoms, atom_emb=atom_emb,
+        all_atom_embs=all_atom_embs, atom_index=atom_index)
     m.falsifiability_score = compute_falsifiability(atom)
 
     m.surprise, m.precision, m.alert_score, m.alert_band = compute_surprise_precision(
