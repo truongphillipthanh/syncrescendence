@@ -1,5 +1,5 @@
 # Session State Brief
-**Generated**: 2026-02-25 01:31 UTC
+**Generated**: 2026-02-25 04:09 UTC
 **Cadence**: on-demand
 
 ## Current Priorities
@@ -9,6 +9,12 @@
 - [P1] Sovereign intent: Expand tactical repertoire beyond Blitzkrieg
 - [P1] DC-114: Persist Graphiti `/triples` patch permanently
 - [P1] DC-115: Permanent API key wiring for Graphiti/Neo4j
+
+---
+
+## DAG Convergence
+
+- (Error reading DAG status: name 'Path' is not defined)
 
 ---
 
@@ -22,20 +28,15 @@
 
 ## Last 3 Agent Actions
 
-- [] : 
 - [2026-02-24 23:46] session_end: 7aa29e30 feat: CC28 Oracle prompt — GitHub-traversal aware, repo pushe
 - [2026-02-24 23:37] session_end: 89a7eab8 feat: CC handoff hook + ascertescence² siege prompts
+- [2026-02-24 23:30] session_end: 8f2aeae6 feat: add central config (config.sh, config.py)
 
 ---
 
 ## Graph Health
 
-- Graphiti: UNREACHABLE (endpoint timed out)
-- Last constellation check: 2026-02-17 07:17:50
-- Psyche: IDLE
-- Commander: STALE
-- Adjudicator: HEALTHY
-- Cartographer: STALE
+- Graphiti: HEALTHY ({"status":"healthy"})
 
 ---
 
@@ -47,8 +48,8 @@
 
 ## Integration Metric
 
-- Atoms promoted/integrated today: 0
-- Files migrated to config.sh/config.py today: 104
+- Atoms promoted/integrated today: 2
+- Files migrated to config.sh/config.py today: 107
 - Integration-First Gate: PASS
 
 ---

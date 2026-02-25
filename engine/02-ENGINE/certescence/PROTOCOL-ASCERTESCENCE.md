@@ -129,6 +129,18 @@ Transform all findings into a directed acyclic graph of questions where:
 - It surfaces hidden assumptions
 - It can be answered with evidence, not opinion
 
+### Step 4.5: CONVERGENCE CHECK (MANDATORY — CC29 Sovereign directive)
+
+**Before routing ANY new questions, report convergence on the existing DAG:**
+
+1. For each existing DAG question (C-001 through C-NNN), state: ANSWERED / PARTIAL / OPEN / BLOCKED
+2. If Tier 0-1 questions are answered but Tier 2 questions are OPEN, the cycle MUST target Tier 2. No lateral expansion.
+3. New questions may only be added to the DAG if they: (a) emerged from answering an existing question, (b) were directly asked by the Sovereign, or (c) represent a genuinely new discovery not covered by existing questions. Each must receive a tier assignment.
+4. Questions that were re-deepened (answered again at higher fidelity) must be marked as such — not counted as "new work."
+5. **C-009 (Sovereign bandwidth)** is a standing item. If it hasn't been addressed, flag it.
+
+**Violation of this step is equivalent to INT-2210**: abandoning the instrument instead of using it. The DAG is the heuristic. Using it is the work. Generating a new DAG is the Tooling Trap at the meta level.
+
 ### Step 5: ROUTE — Feed to Triangulation Playbook
 
 The top N questions (typically 3-7 per ascertescence cycle) become triangulation prompts fed through the **sequential single-file relay** via `ascertescence_relay.sh`:

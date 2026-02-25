@@ -157,7 +157,19 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 
 ### Commander Council (CC) Lineage — Ascertescence Protocol
 
-Triangulation sessions between Sovereign and Commander operate within the **Commander Council (CC)** session lineage, continuing from Council 25 (CC26 = current). Commander's instrument is **ascertescence** (captaining the squad: generating questions, staging prompts, orchestrating triangulation, synthesizing output). Ajna's instrument is **clarescence** (holistic/meta/macro illumination); Ajna is currently anesthetized (dormant).
+**Every Sovereign↔Commander interaction is a Commander Council (CC) session.** Not just formal triangulation cycles — every exchange. The CC is the living record of all Sovereign-Commander interaction. CC numbers increment per session. This is equivalent to the ajna pedigree (Ajna) and oracle transitions (pre-constellation).
+
+Commander's instrument is **ascertescence** (captaining the squad: generating questions, staging prompts, orchestrating triangulation, synthesizing output). Ajna's instrument is **clarescence** (holistic/meta/macro illumination); Ajna is currently anesthetized (dormant).
+
+**DAG Convergence Invariant (CC29 — Sovereign directive, ABSOLUTE)**:
+The Ascertescence Question DAG (`engine/02-ENGINE/certescence/PROTOCOL-ASCERTESCENCE.md`) is the standing heuristic instrument. Every ascertescence cycle MUST:
+1. **Report convergence** on existing DAG questions before generating new ones — which moved, which didn't, which are blocked
+2. **Never abandon the DAG** in favor of fresh gap analysis — new questions earn their way onto the DAG with a tier assignment
+3. **Track Sovereign questions** — every question the Sovereign asks gets captured as a CC artifact, not buried in protocol docs
+4. **Drain downward** — if Tier 0-1 are answered, the cycle MUST target Tier 2. Lateral expansion without downward drainage is the Tooling Trap at the meta level.
+5. **C-009 (Sovereign bandwidth)** is a standing item on every CC session — it constrains everything and requires direct conversation, not triangulation.
+
+Violation of this invariant is equivalent to the INT-2210 demolition: abandoning the instrument instead of using it.
 
 **CC artifact naming** (supersedes generic `<TOPIC>` for Sovereign↔Commander cycles):
 - Prompts: `PROMPT-COMMANDER-ASCERTESCENCE-CC{N}.md` → `engine/` + `~/Desktop/` copy
@@ -188,6 +200,9 @@ Handoffs and dropoffs are fused into the CC lineage chain. Index at `-INBOX/comm
 - **Listing manual steps for the Sovereign** when you could execute or dispatch them
 - **Saying "you need to run X on the MBA"** instead of dispatching to Ajna
 - **Waiting idle** when a parallel dispatch could make progress
+- **Abandoning the DAG**: Generating fresh questions/gaps instead of checking convergence on the existing Ascertescence Question DAG. New questions must earn their way onto the DAG — they do not replace it.
+- **Burying Sovereign questions**: Every question the Sovereign asks must be captured as a tracked CC artifact. Writing it into a protocol doc and never extracting it is a violation of Continuation/Deletability (Invariant 4).
+- **Lateral expansion without downward drainage**: If Tier 0-1 questions are answered, the next cycle MUST target Tier 2. Re-deepening answered questions while ignoring open ones is the Tooling Trap at the meta level.
 
 ---
 

@@ -68,3 +68,17 @@
 - **2026-02-24 17:05:21** | `lets remember to specify destination, along with a formalized template. Probably we should have a vault for clarescences, ascertescences, and sieges.`
 
 - **2026-02-24 17:29:45** | `I approve everything. elucidate an order of operations. I'll open up as many claude code terminals as needed, along with as many codex sessions as well, each swarm sieging this endeavor. We need maxim`
+
+- **2026-02-24 17:33:45** | `  - Fields: `atom_id`, `source_file`, `excerpt` (first 200 chars), `matched_intentions` (list of INT-IDs), `priority_score`, `cluster_id`, `band` (sovereign_review|auto_promote), `status` (queued|cons`
+
+- **2026-02-24 17:33:56** | `Each line: `{"atom_id": "...", "source_file": "...", "excerpt": "...", "matched_intentions": ["INT-XXXX"], "priority_score": 0.85, "cluster_id": 7, "band": "sovereign_review", "status": "queued"}``
+
+- **2026-02-24 17:34:06** | `- Token budgets exceeded → hard token cap + priority truncation (intentions truncated first, inhibitions preserved)`
+
+- **2026-02-24 17:41:03** | `conduct a clarescence to see where we stand, i want to understand where we are since we've built the ideal config architecture.`
+
+- **2026-02-24 17:58:30** | `okay this is what the commander council is supposed to formalize. from now one, treat every discussionary interaction as part of the commander council. this is the equivalent of the ajna pedigree and `
+
+- **2026-02-24 18:01:57** | `This most recent dispatch CC28. let's button it up. as were buttoning this up, every subsequent ascertescences are designed to target all 3 tiers. is that converging?`
+
+- **2026-02-24 18:12:44** | `We need to converge all these initiatives, the deferred, with the new elucidated tasks from the ascertescences. Commit these findings to memory everywhere. Produce the most comprehensive, meticulous, `

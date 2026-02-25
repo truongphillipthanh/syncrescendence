@@ -65,6 +65,7 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 
 1. **Inbox scan**: Check `agents/commander/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
 1b. **Deferred commitments check**: Read `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — identify any OPEN items that overlap with current directive. Update status for items being addressed this session.
+1c. **DAG convergence check**: Read the Ascertescence Question DAG status in `cc-lineage.md` (memory) — which questions are OPEN, which are ANSWERED. Report to Sovereign if any Tier 2 questions have been open for 2+ sessions without progress. Flag C-009 (Sovereign bandwidth) as standing agenda item.
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
 3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `README.md` + read `orchestration/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
 4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
@@ -84,6 +85,7 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
    - Logs auto-compact into `orchestration/archive/ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
 2. **Supplementary to automation**: The `create_execution_log.sh` Stop hook captures git metrics independently. This behavioral log adds the semantic content the script cannot infer.
 3. **Verify before closing**: Run `git status` — ensure no uncommitted work. If artifacts remain unstaged, commit them before the directive ends.
+4. **Sovereign question capture**: Review this session's conversation. Any question the Sovereign asked that isn't already tracked in the DAG or memory must be captured in `cc-lineage.md` with status (OPEN/ANSWERED) and tier assignment. Sovereign questions are not ephemeral — they are the DAG's input.
 
 ---
 

@@ -7,6 +7,19 @@
 
 ---
 
+## DAG CONVERGENCE INVARIANT (CC29 — SEARED)
+
+The Ascertescence Question DAG is the standing heuristic. 13 questions (C-001 through C-013), 3 tiers. It does NOT get replaced — it gets checked. Every session, every ascertescence cycle:
+1. Report which questions moved, which didn't
+2. No new questions without drainage of existing ones
+3. Every Sovereign question gets tracked (not buried)
+4. Tier 2 gets targeted when Tier 0-1 are answered
+5. C-009 (Sovereign bandwidth) is standing agenda — every session
+
+Violating this = INT-2210 at the meta level. The DAG is in `cc-lineage.md` (memory) and `engine/02-ENGINE/certescence/PROTOCOL-ASCERTESCENCE.md`.
+
+---
+
 ## TRUST STATUS: ZERO
 
 Sovereign trust in Commander is at zero. Two disasters in two days (2026-02-22 and 2026-02-23) burned all credibility. Trust is earned back ONLY through visible content transformation — not tooling, not metadata, not infrastructure. Every session must produce content artifacts or it failed.

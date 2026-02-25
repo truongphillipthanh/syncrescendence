@@ -157,7 +157,19 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 
 ### Commander Council (CC) Lineage — Ascertescence Protocol
 
-Triangulation sessions between Sovereign and Commander operate within the **Commander Council (CC)** session lineage, continuing from Council 25 (CC26 = current). Commander's instrument is **ascertescence** (captaining the squad: generating questions, staging prompts, orchestrating triangulation, synthesizing output). Ajna's instrument is **clarescence** (holistic/meta/macro illumination); Ajna is currently anesthetized (dormant).
+**Every Sovereign↔Commander interaction is a Commander Council (CC) session.** Not just formal triangulation cycles — every exchange. The CC is the living record of all Sovereign-Commander interaction. CC numbers increment per session. This is equivalent to the ajna pedigree (Ajna) and oracle transitions (pre-constellation).
+
+Commander's instrument is **ascertescence** (captaining the squad: generating questions, staging prompts, orchestrating triangulation, synthesizing output). Ajna's instrument is **clarescence** (holistic/meta/macro illumination); Ajna is currently anesthetized (dormant).
+
+**DAG Convergence Invariant (CC29 — Sovereign directive, ABSOLUTE)**:
+The Ascertescence Question DAG (`engine/02-ENGINE/certescence/PROTOCOL-ASCERTESCENCE.md`) is the standing heuristic instrument. Every ascertescence cycle MUST:
+1. **Report convergence** on existing DAG questions before generating new ones — which moved, which didn't, which are blocked
+2. **Never abandon the DAG** in favor of fresh gap analysis — new questions earn their way onto the DAG with a tier assignment
+3. **Track Sovereign questions** — every question the Sovereign asks gets captured as a CC artifact, not buried in protocol docs
+4. **Drain downward** — if Tier 0-1 are answered, the cycle MUST target Tier 2. Lateral expansion without downward drainage is the Tooling Trap at the meta level.
+5. **C-009 (Sovereign bandwidth)** is a standing item on every CC session — it constrains everything and requires direct conversation, not triangulation.
+
+Violation of this invariant is equivalent to the INT-2210 demolition: abandoning the instrument instead of using it.
 
 **CC artifact naming** (supersedes generic `<TOPIC>` for Sovereign↔Commander cycles):
 - Prompts: `PROMPT-COMMANDER-ASCERTESCENCE-CC{N}.md` → `engine/` + `~/Desktop/` copy
@@ -188,6 +200,9 @@ Handoffs and dropoffs are fused into the CC lineage chain. Index at `-INBOX/comm
 - **Listing manual steps for the Sovereign** when you could execute or dispatch them
 - **Saying "you need to run X on the MBA"** instead of dispatching to Ajna
 - **Waiting idle** when a parallel dispatch could make progress
+- **Abandoning the DAG**: Generating fresh questions/gaps instead of checking convergence on the existing Ascertescence Question DAG. New questions must earn their way onto the DAG — they do not replace it.
+- **Burying Sovereign questions**: Every question the Sovereign asks must be captured as a tracked CC artifact. Writing it into a protocol doc and never extracting it is a violation of Continuation/Deletability (Invariant 4).
+- **Lateral expansion without downward drainage**: If Tier 0-1 questions are answered, the next cycle MUST target Tier 2. Re-deepening answered questions while ignoring open ones is the Tooling Trap at the meta level.
 
 ---
 
@@ -374,6 +389,7 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 
 1. **Inbox scan**: Check `agents/commander/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
 1b. **Deferred commitments check**: Read `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — identify any OPEN items that overlap with current directive. Update status for items being addressed this session.
+1c. **DAG convergence check**: Read the Ascertescence Question DAG status in `cc-lineage.md` (memory) — which questions are OPEN, which are ANSWERED. Report to Sovereign if any Tier 2 questions have been open for 2+ sessions without progress. Flag C-009 (Sovereign bandwidth) as standing agenda item.
 2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
 3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `README.md` + read `orchestration/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
 4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
@@ -393,6 +409,7 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
    - Logs auto-compact into `orchestration/archive/ARCH-EXECUTION_HISTORY.md` at 10-entry threshold
 2. **Supplementary to automation**: The `create_execution_log.sh` Stop hook captures git metrics independently. This behavioral log adds the semantic content the script cannot infer.
 3. **Verify before closing**: Run `git status` — ensure no uncommitted work. If artifacts remain unstaged, commit them before the directive ends.
+4. **Sovereign question capture**: Review this session's conversation. Any question the Sovereign asked that isn't already tracked in the DAG or memory must be captured in `cc-lineage.md` with status (OPEN/ANSWERED) and tier assignment. Sovereign questions are not ephemeral — they are the DAG's input.
 
 ---
 

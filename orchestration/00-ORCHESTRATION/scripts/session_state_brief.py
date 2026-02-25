@@ -423,12 +423,52 @@ def section_integration_metric() -> list[str]:
     return lines
 
 # ---------------------------------------------------------------------------
+# Section 7: DAG Convergence (CC29 Sovereign directive)
+# ---------------------------------------------------------------------------
+
+def section_dag_convergence() -> list[str]:
+    """Report status of Ascertescence Question DAG from cc-lineage.md."""
+    lines = ["## DAG Convergence", ""]
+    try:
+        # Check global memory cc-lineage.md for DAG status
+        cc_lineage_paths = [
+            Path.home() / ".claude" / "projects" / "-Users-system" / "memory" / "cc-lineage.md",
+            Path.home() / ".claude" / "projects" / "-Users-system-syncrescendence" / "memory" / "cc-lineage.md",
+        ]
+        cc_lineage = None
+        for p in cc_lineage_paths:
+            if p.exists():
+                cc_lineage = p.read_text()
+                break
+
+        if not cc_lineage:
+            lines.append("- DAG status: cc-lineage.md not found")
+            lines.append("- **C-009 (Sovereign bandwidth)**: STANDING ITEM — unaddressed")
+            return lines
+
+        # Count OPEN vs ANSWERED from the table
+        open_count = cc_lineage.count("| **OPEN**") + cc_lineage.count("OPEN —")
+        answered_count = cc_lineage.count("ANSWERED") + cc_lineage.count("PARTIAL")
+        total = open_count + answered_count if (open_count + answered_count) > 0 else 13
+
+        lines.append(f"- DAG questions: {answered_count} answered, {open_count} open (of ~{total})")
+        if open_count > 0:
+            lines.append(f"- **{open_count} questions still OPEN** — check cc-lineage.md before generating new ones")
+        if "C-009" in cc_lineage and "OPEN" in cc_lineage.split("C-009")[1][:100]:
+            lines.append("- **C-009 (Sovereign bandwidth)**: STANDING ITEM — still unaddressed")
+    except Exception as e:
+        log_error("dag_convergence", e)
+        lines.append(f"- (Error reading DAG status: {e})")
+    return lines
+
+# ---------------------------------------------------------------------------
 # Assembly + Word Budget
 # ---------------------------------------------------------------------------
 
 def build_brief() -> str:
     sections = [
         section_priorities,
+        section_dag_convergence,
         section_open_decisions,
         section_last_actions,
         section_graph_health,
