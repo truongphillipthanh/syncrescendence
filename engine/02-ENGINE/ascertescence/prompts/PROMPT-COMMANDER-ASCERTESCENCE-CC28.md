@@ -1,5 +1,3 @@
-**Response inbox**: `/Users/system/syncrescendence/-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-ASCERTESCENCE-CC28.md`
-
 # ASCERTESCENCE CC28 — Oracle RECON
 
 **Leg**: 1 of 3 (Oracle → Diviner → Adjudicator)
