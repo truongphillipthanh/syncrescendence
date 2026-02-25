@@ -25,6 +25,7 @@ VALID_TRANSITIONS = {
     "pending":          {"queued"},
     "queued":           {"consumed"},
     "consumed":         {"promoted_praxis", "promoted_canon", "rejected"},
+    "promoted_praxis":  {"promoted_canon"},
 }
 
 QUEUE_REL      = "orchestration/00-ORCHESTRATION/state/DYN-PROTEASE_QUEUE.jsonl"
