@@ -1,7 +1,7 @@
 # Candidate Adapter Contract
 # Bridge between protease_promote.py output and lattice_annealer.py input
 # Source: Adjudicator Bid CC35, Spec Amendment #3
-version: "1.0.0"
+version: "1.1.0"
 
 protease_promote_output:
   description: "Current output of protease_promote.py when promoting an atom"
@@ -29,11 +29,22 @@ annealer_required_input:
       drift_score: float
     rosetta_terms: array[string]
     dimension_vector:
-      mode_of_access: float
-      content_domain: float
-      transformative_depth: float
-      social_distribution: float
-      practical_application: float
+      # 14-dimension Meaning Taxonomy (v1.1.0)
+      # Core integrative axes: cognitive, semiotic, psychological, volitional, social
+      cognitive: float
+      semiotic: float
+      psychological: float
+      phenomenological: float
+      volitional: float
+      embodied: float
+      behavioral: float
+      characterological: float
+      aesthetic: float
+      linguistic: float
+      social: float
+      spiritual: float
+      temporal: float
+      environmental: float
     proposed_edges:
       canonical_node_ids: array[string]
 
@@ -48,9 +59,10 @@ adapter_rules:
     note: "Empty rosetta_terms will cause low coherence score in annealer — acceptable for first pass"
 
   - field: dimension_vector
-    source: "Compute from CANON-00016 dimensional taxonomy against content"
-    fallback: "All zeros (0.0)"
+    source: "Compute from CANON-00016 dimensional taxonomy against content (14-dim Meaning Taxonomy)"
+    fallback: "All zeros (0.0) across 14 dimensions"
     note: "Zero vectors will score poorly but won't crash annealer"
+    backward_compatibility: "Legacy 5-dim vectors are auto-mapped via the adapter's map_legacy_vector() function"
 
   - field: proposed_edges.canonical_node_ids
     source: "Identify existing canon nodes referenced in content via node_id pattern matching"
