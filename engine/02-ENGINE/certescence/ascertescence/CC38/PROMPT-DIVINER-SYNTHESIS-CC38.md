@@ -6,7 +6,7 @@
 **Cycle**: CC38 — First Reviewtrospective, Leg 3
 **Reply-To**: Commander (Sovereign drops response into repo)
 **Repository mirror**: https://github.com/truongphillipthanh/syncrescendence
-**Staged slice**: If your Google Drive connector is available, a curated 11-file slice (~3,700 lines) is staged at `collab/CC38-diviner-slice/` in the repo. This contains every file referenced below. Test the connector — we're assessing its limits.
+**Staged slice (GitHub)**: https://github.com/truongphillipthanh/syncrescendence/tree/main/collab/CC38-diviner-slice — curated 11-file slice (~3,700 lines) containing every file referenced below. Test the GitHub connector — we're assessing its limits.
 
 ---
 
