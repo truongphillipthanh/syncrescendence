@@ -15,11 +15,29 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 DIMENSION_KEYWORDS = {
-    "mode_of_access": ["access", "interface", "api", "tool", "platform"],
-    "content_domain": ["knowledge", "ontology", "canon", "axiom", "theory"],
-    "transformative_depth": ["transform", "change", "evolve", "refactor", "restructure"],
-    "social_distribution": ["collaborate", "team", "agent", "constellation", "dispatch"],
-    "practical_application": ["implement", "build", "deploy", "execute", "run"],
+    "cognitive": ["reason", "logic", "inference", "analysis", "cognition", "abstraction", "model"],
+    "semiotic": ["sign", "symbol", "meaning", "reference", "interpret", "semantic", "signal"],
+    "psychological": ["emotion", "motivation", "perception", "awareness", "attention", "memory", "affect"],
+    "phenomenological": ["experience", "consciousness", "qualia", "intentionality", "presence", "embodiment"],
+    "volitional": ["will", "choice", "decision", "agency", "autonomy", "intention", "commitment"],
+    "embodied": ["body", "gesture", "sensation", "movement", "proprioception", "somatic"],
+    "behavioral": ["action", "habit", "pattern", "response", "conduct", "practice", "routine"],
+    "characterological": ["virtue", "integrity", "character", "identity", "disposition", "temperament"],
+    "aesthetic": ["beauty", "elegance", "harmony", "form", "design", "style", "composition"],
+    "linguistic": ["language", "grammar", "syntax", "discourse", "narrative", "rhetoric", "dialect"],
+    "social": ["collaborate", "team", "agent", "constellation", "community", "coordination", "collective"],
+    "spiritual": ["transcendence", "sacred", "wisdom", "contemplation", "unity", "purpose", "soul"],
+    "temporal": ["time", "duration", "rhythm", "cycle", "epoch", "sequence", "history"],
+    "environmental": ["ecology", "context", "habitat", "landscape", "system", "network", "infrastructure"],
+}
+
+# Legacy 5-dim → 14-dim mapper for backward compatibility
+LEGACY_DIM_MAP = {
+    "mode_of_access": "behavioral",
+    "content_domain": "cognitive",
+    "transformative_depth": "volitional",
+    "social_distribution": "social",
+    "practical_application": "behavioral",
 }
 
 
@@ -57,13 +75,22 @@ def match_rosetta(content: str, terms: list[str]) -> list[str]:
 
 
 def compute_dimension_vector(content: str) -> dict[str, float]:
-    """Heuristic dimension scoring from keyword counts, normalized to [0,1]."""
+    """Heuristic dimension scoring from word-boundary keyword matches, normalized to [0,1]."""
     lower = content.lower()
     vec: dict[str, float] = {}
     for dim, keywords in DIMENSION_KEYWORDS.items():
-        count = sum(lower.count(kw) for kw in keywords)
+        count = sum(len(re.findall(rf"\b{re.escape(kw)}\b", lower)) for kw in keywords)
         vec[dim] = min(count / 3.0, 1.0)
     return vec
+
+
+def map_legacy_vector(v: dict[str, float]) -> dict[str, float]:
+    """Map a legacy 5-dim vector to 14-dim, zero-filling unmapped dimensions."""
+    out = {k: 0.0 for k in DIMENSION_KEYWORDS}
+    for old_key, new_key in LEGACY_DIM_MAP.items():
+        if old_key in v:
+            out[new_key] = max(out[new_key], v[old_key])
+    return out
 
 
 def load_lattice_index(repo_root: Path) -> dict:
@@ -139,8 +166,17 @@ def self_test() -> None:
     assert isinstance(result["source_atom_ids"], list)
     assert isinstance(result["rosetta_terms"], list)
     assert set(result["dimension_vector"].keys()) == set(DIMENSION_KEYWORDS.keys())
+    assert len(result["dimension_vector"]) == 14, f"Expected 14 dims, got {len(result['dimension_vector'])}"
     assert all(0.0 <= v <= 1.0 for v in result["dimension_vector"].values())
     assert "CANON-00016" in result["proposed_edges"]["canonical_node_ids"]
+    # Test legacy mapper
+    legacy = {"mode_of_access": 0.5, "content_domain": 0.8, "transformative_depth": 0.3,
+              "social_distribution": 0.6, "practical_application": 0.9}
+    mapped = map_legacy_vector(legacy)
+    assert len(mapped) == 14, f"Legacy mapper produced {len(mapped)} dims"
+    assert mapped["cognitive"] == 0.8  # content_domain → cognitive
+    assert mapped["social"] == 0.6     # social_distribution → social
+    assert mapped["semiotic"] == 0.0   # unmapped → zero
     print("self-test PASSED")
     print(json.dumps(result, indent=2))
 

@@ -17,12 +17,49 @@ from typing import Any
 
 SCHEMA_VERSION = "1.0.0"
 DIM_KEYS = (
+    "cognitive",
+    "semiotic",
+    "psychological",
+    "phenomenological",
+    "volitional",
+    "embodied",
+    "behavioral",
+    "characterological",
+    "aesthetic",
+    "linguistic",
+    "social",
+    "spiritual",
+    "temporal",
+    "environmental",
+)
+NDIM = len(DIM_KEYS)
+
+# Core integrative axes for hypervolume scoring
+CORE_AXES = ("cognitive", "semiotic", "psychological", "volitional", "social")
+
+LEGACY_DIM_KEYS = (
     "mode_of_access",
     "content_domain",
     "transformative_depth",
     "social_distribution",
     "practical_application",
 )
+LEGACY_DIM_MAP = {
+    "mode_of_access": "behavioral",
+    "content_domain": "cognitive",
+    "transformative_depth": "volitional",
+    "social_distribution": "social",
+    "practical_application": "behavioral",
+}
+
+
+def map_legacy_dim(v: dict[str, float]) -> dict[str, float]:
+    """Map legacy 5-dim vector to 14-dim, zero-filling unmapped."""
+    out = {k: 0.0 for k in DIM_KEYS}
+    for old_key, new_key in LEGACY_DIM_MAP.items():
+        if old_key in v:
+            out[new_key] = max(out[new_key], float(v[old_key]))
+    return out
 
 STATE_REL = "orchestration/00-ORCHESTRATION/state"
 LOCK_DIR_REL = f"{STATE_REL}/locks"
@@ -168,16 +205,25 @@ def release_locks(held) -> None:
 
 def vec_list(v: Any) -> list[float]:
     if isinstance(v, list):
-        if len(v) != 5:
-            raise ValueError("dimension_vector list must be length 5")
+        if len(v) == 5:
+            # Legacy 5-dim list — map to 14-dim via positional legacy keys
+            legacy = {LEGACY_DIM_KEYS[i]: clamp(0.0, 1.0, fnum(v[i])) for i in range(5)}
+            mapped = map_legacy_dim(legacy)
+            return [mapped[k] for k in DIM_KEYS]
+        if len(v) != NDIM:
+            raise ValueError(f"dimension_vector list must be length {NDIM} (or 5 for legacy)")
         return [clamp(0.0, 1.0, fnum(x)) for x in v]
     if isinstance(v, dict):
-        return [clamp(0.0, 1.0, fnum(v[k])) for k in DIM_KEYS]
+        # Detect legacy 5-dim dict
+        if set(v.keys()) <= set(LEGACY_DIM_KEYS) and not set(v.keys()) & set(DIM_KEYS):
+            mapped = map_legacy_dim(v)
+            return [clamp(0.0, 1.0, fnum(mapped[k])) for k in DIM_KEYS]
+        return [clamp(0.0, 1.0, fnum(v.get(k, 0.0))) for k in DIM_KEYS]
     raise ValueError("dimension_vector must be list/object")
 
 
 def vec_dict(v: list[float]) -> dict[str, float]:
-    return {DIM_KEYS[i]: round(v[i], 6) for i in range(5)}
+    return {DIM_KEYS[i]: round(v[i], 6) for i in range(NDIM)}
 
 
 def is_zero(v: list[float]) -> bool:
@@ -237,7 +283,7 @@ def parse_candidate(raw: dict[str, Any]) -> tuple[dict[str, Any], list[str], int
         dim_v = vec_list(dim)
     except Exception:
         errs.append("dimension_vector:type")
-        dim_v = [0.0] * 5
+        dim_v = [0.0] * NDIM
 
     if errs:
         return {}, sorted(set(errs)), iteration
@@ -305,11 +351,20 @@ def terms_in_text(text: str, lex: list[str]) -> list[str]:
 def infer_dim(text: str) -> dict[str, float]:
     low = text.lower()
     buckets = {
-        "mode_of_access": ("protocol", "workflow", "execution", "operator", "system"),
-        "content_domain": ("canon", "ontology", "semantic", "domain", "schema"),
-        "transformative_depth": ("transform", "evolve", "adaptive", "synthesis", "insight"),
-        "social_distribution": ("agent", "multi", "team", "coordination", "collective"),
-        "practical_application": ("run", "deploy", "script", "monitor", "verify"),
+        "cognitive": ("reason", "logic", "inference", "analysis", "cognition", "abstraction", "model"),
+        "semiotic": ("sign", "symbol", "meaning", "reference", "interpret", "semantic", "signal"),
+        "psychological": ("emotion", "motivation", "perception", "awareness", "attention", "memory", "affect"),
+        "phenomenological": ("experience", "consciousness", "qualia", "intentionality", "presence"),
+        "volitional": ("will", "choice", "decision", "agency", "autonomy", "intention", "commitment"),
+        "embodied": ("body", "gesture", "sensation", "movement", "proprioception", "somatic"),
+        "behavioral": ("action", "habit", "pattern", "response", "conduct", "practice", "routine"),
+        "characterological": ("virtue", "integrity", "character", "identity", "disposition", "temperament"),
+        "aesthetic": ("beauty", "elegance", "harmony", "form", "design", "style", "composition"),
+        "linguistic": ("language", "grammar", "syntax", "discourse", "narrative", "rhetoric"),
+        "social": ("agent", "team", "coordination", "collective", "community", "collaborate"),
+        "spiritual": ("transcendence", "sacred", "wisdom", "contemplation", "unity", "purpose", "soul"),
+        "temporal": ("time", "duration", "rhythm", "cycle", "epoch", "sequence", "history"),
+        "environmental": ("ecology", "context", "habitat", "landscape", "system", "network", "infrastructure"),
     }
     out = {}
     for k, words in buckets.items():
@@ -370,7 +425,7 @@ def hydrate_index(repo_root: Path, idx: dict[str, Any], lex: list[str]) -> dict[
         try:
             v = vec_list(n.get("dimension_vector", {}))
         except Exception:
-            v = [0.0] * 5
+            v = [0.0] * NDIM
         if is_zero(v) and text:
             v = vec_list(infer_dim(text))
         adj = n.get("adjacency", []) if isinstance(n.get("adjacency"), list) else []
@@ -441,7 +496,7 @@ def top_neighbors(candidate: dict[str, Any], nodes: list[dict[str, Any]], k: int
         try:
             nv = vec_list(n.get("dimension_vector", {}))
         except Exception:
-            nv = [0.0] * 5
+            nv = [0.0] * NDIM
         scored.append((cos(cv, nv), n))
     scored.sort(key=lambda x: x[0], reverse=True)
     for _, n in scored:
@@ -467,17 +522,23 @@ def score(candidate: dict[str, Any], idx: dict[str, Any]) -> dict[str, Any]:
 
     if neigh:
         ws = [1.0 / (i + 1) for i in range(len(neigh))]
-        cen = [0.0] * 5
+        cen = [0.0] * NDIM
         den = sum(ws)
         for i, n in enumerate(neigh):
             try:
                 nv = vec_list(n.get("dimension_vector", {}))
             except Exception:
-                nv = [0.0] * 5
-            for j in range(5):
+                nv = [0.0] * NDIM
+            for j in range(NDIM):
                 cen[j] += nv[j] * ws[i]
         cen = [x / den for x in cen] if den > 0 else cen
-        s_dim = clamp(0.0, 1.0, (cos(candidate["dimension_vector"], cen) + 1.0) / 2.0)
+        cos_align = clamp(0.0, 1.0, (cos(candidate["dimension_vector"], cen) + 1.0) / 2.0)
+        # Hypervolume scoring on core integrative axes
+        eps = 1e-6
+        cv = vec_list(candidate.get("dimension_vector_raw", candidate["dimension_vector"]))
+        core_vals = [max(eps, cv[DIM_KEYS.index(ax)]) for ax in CORE_AXES]
+        hypervolume = math.prod(core_vals) ** (1.0 / len(core_vals))
+        s_dim = clamp(0.0, 1.0, 0.7 * cos_align + 0.3 * hypervolume)
     else:
         s_dim = 0.0
 
@@ -836,11 +897,11 @@ def mk_fixture_repo(root: Path) -> tuple[Path, Path, Path]:
                 "tier": "lattice",
                 "rosetta_terms": ["triumvirate", "coherence", "lattice", "protocol"],
                 "dimension_vector": {
-                    "mode_of_access": 0.9,
-                    "content_domain": 0.8,
-                    "transformative_depth": 0.6,
-                    "social_distribution": 0.7,
-                    "practical_application": 0.8,
+                    "cognitive": 0.8, "semiotic": 0.7, "psychological": 0.3,
+                    "phenomenological": 0.2, "volitional": 0.6, "embodied": 0.1,
+                    "behavioral": 0.9, "characterological": 0.1, "aesthetic": 0.2,
+                    "linguistic": 0.4, "social": 0.7, "spiritual": 0.1,
+                    "temporal": 0.3, "environmental": 0.5,
                 },
                 "adjacency": ["CANON-10002"],
                 "retired": False,
@@ -852,11 +913,11 @@ def mk_fixture_repo(root: Path) -> tuple[Path, Path, Path]:
                 "tier": "lattice",
                 "rosetta_terms": ["ontology", "coherence", "lattice", "protocol"],
                 "dimension_vector": {
-                    "mode_of_access": 0.8,
-                    "content_domain": 0.9,
-                    "transformative_depth": 0.7,
-                    "social_distribution": 0.6,
-                    "practical_application": 0.9,
+                    "cognitive": 0.9, "semiotic": 0.75, "psychological": 0.25,
+                    "phenomenological": 0.15, "volitional": 0.7, "embodied": 0.1,
+                    "behavioral": 0.85, "characterological": 0.15, "aesthetic": 0.3,
+                    "linguistic": 0.35, "social": 0.6, "spiritual": 0.1,
+                    "temporal": 0.25, "environmental": 0.55,
                 },
                 "adjacency": ["CANON-10001"],
                 "retired": False,
@@ -868,11 +929,11 @@ def mk_fixture_repo(root: Path) -> tuple[Path, Path, Path]:
                 "tier": "lattice",
                 "rosetta_terms": ["archive"],
                 "dimension_vector": {
-                    "mode_of_access": 0.1,
-                    "content_domain": 0.1,
-                    "transformative_depth": 0.1,
-                    "social_distribution": 0.1,
-                    "practical_application": 0.1,
+                    "cognitive": 0.1, "semiotic": 0.1, "psychological": 0.1,
+                    "phenomenological": 0.1, "volitional": 0.1, "embodied": 0.1,
+                    "behavioral": 0.1, "characterological": 0.1, "aesthetic": 0.1,
+                    "linguistic": 0.1, "social": 0.1, "spiritual": 0.1,
+                    "temporal": 0.1, "environmental": 0.1,
                 },
                 "adjacency": [],
                 "retired": False,
@@ -899,11 +960,11 @@ def cand_base() -> dict[str, Any]:
         },
         "rosetta_terms": ["triumvirate", "coherence", "lattice", "protocol", "ontology"],
         "dimension_vector": {
-            "mode_of_access": 0.88,
-            "content_domain": 0.86,
-            "transformative_depth": 0.64,
-            "social_distribution": 0.71,
-            "practical_application": 0.84,
+            "cognitive": 0.86, "semiotic": 0.72, "psychological": 0.30,
+            "phenomenological": 0.20, "volitional": 0.64, "embodied": 0.10,
+            "behavioral": 0.84, "characterological": 0.15, "aesthetic": 0.25,
+            "linguistic": 0.40, "social": 0.71, "spiritual": 0.10,
+            "temporal": 0.30, "environmental": 0.50,
         },
         "proposed_edges": {"canonical_node_ids": ["CANON-10001", "CANON-10002"]},
     }
@@ -931,7 +992,7 @@ def self_test(_: Path) -> int:
         c2w = cand_base()
         c2w["atom_id"] = "ATOM-TEST-002"
         c2w["rosetta_terms"] = ["agile", "scrum"]
-        c2w["dimension_vector"] = [0.1, 0.1, 0.1, 0.1, 0.1]
+        c2w["dimension_vector"] = [0.1] * NDIM
         c2w["proposed_edges"] = {"canonical_node_ids": []}
         c2w["iteration_count"] = 0
         write_candidate(cpath, c2w)
@@ -946,7 +1007,7 @@ def self_test(_: Path) -> int:
         c3 = cand_base()
         c3["atom_id"] = "ATOM-TEST-003"
         c3["rosetta_terms"] = ["noise"]
-        c3["dimension_vector"] = [0.0, 0.0, 0.0, 0.0, 0.0]
+        c3["dimension_vector"] = [0.0] * NDIM
         c3["proposed_edges"] = {"canonical_node_ids": []}
         c3["iteration_count"] = 3
         write_candidate(cpath, c3)
