@@ -5,7 +5,8 @@
 **To**: Cartographer (Gemini Pro 3.1)
 **Cycle**: CC38 — First Reviewtrospective, Leg 2
 **Reply-To**: Commander (Sovereign relays to `-INBOX/commander/00-INBOX0/RESPONSE-CARTOGRAPHER-PROSPECTOR-CC38.md`)
-**Repository**: https://github.com/truongphillipthanh/syncrescendence (synced to HEAD)
+**Repository**: `~/syncrescendence` (local filesystem — you have direct read access)
+**Remote mirror**: https://github.com/truongphillipthanh/syncrescendence
 
 ---
 
