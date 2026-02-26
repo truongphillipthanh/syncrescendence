@@ -1,5 +1,5 @@
 # Session State Brief
-**Generated**: 2026-02-25 04:31 UTC
+**Generated**: 2026-02-26 10:19 UTC
 **Cadence**: on-demand
 
 ## Current Priorities
@@ -20,17 +20,15 @@
 
 ## Open Decisions
 
-- SOVEREIGN-002-DOMAIN_REGISTRATION.md: SOVEREIGN-002: Register syncrescendence.com
-- SOVEREIGN-003-CHATGPT_THREAD_EXTRACTION.md: SOVEREIGN-003: Remaining ChatGPT Thread Extractions
-- SOVEREIGN-006-IMESSAGE_IDENTITY.md: SOVEREIGN-006: iMessage Channel Identity
+- No pending decisions in -SOVEREIGN/
 
 ---
 
 ## Last 3 Agent Actions
 
-- [] : 
 - [2026-02-24 23:46] session_end: 7aa29e30 feat: CC28 Oracle prompt — GitHub-traversal aware, repo pushe
 - [2026-02-24 23:37] session_end: 89a7eab8 feat: CC handoff hook + ascertescence² siege prompts
+- [2026-02-24 23:30] session_end: 8f2aeae6 feat: add central config (config.sh, config.py)
 
 ---
 
@@ -42,14 +40,16 @@
 
 ## What Changed Since Last
 
-- No new commits since last brief
+- Baseline: 2026-02-26T10:05:43.222336+00:00
+- 1 commits (1 signal, 0 noise)
+- `2faeceea` docs: CC35 Oracle prompt + Sovereign verbatim + State of the
 
 ---
 
 ## Integration Metric
 
-- Atoms promoted/integrated today: 2
-- Files migrated to config.sh/config.py today: 107
-- Integration-First Gate: PASS
+- Atoms promoted/integrated today: 0
+- Files migrated to config.sh/config.py today: 0
+- Integration-First Gate: WARN
 
 ---
