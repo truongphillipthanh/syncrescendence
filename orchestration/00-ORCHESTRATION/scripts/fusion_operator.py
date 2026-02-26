@@ -115,9 +115,12 @@ def build_clusters(
             tj = set(axioms[j].get("rosetta_terms", []))
             jac = jaccard(ti, tj)
 
-            vi = list((axioms[i].get("dimension_vector") or {}).values())
-            vj = list((axioms[j].get("dimension_vector") or {}).values())
-            cos = cosine_similarity(vi, vj) if vi and vj else 0.0
+            di = axioms[i].get("dimension_vector") or {}
+            dj = axioms[j].get("dimension_vector") or {}
+            dim_keys = sorted(set(di.keys()) | set(dj.keys()))
+            vi = [float(di.get(k, 0.0)) for k in dim_keys]
+            vj = [float(dj.get(k, 0.0)) for k in dim_keys]
+            cos = cosine_similarity(vi, vj) if dim_keys else 0.0
 
             sim[i][j] = sim[j][i] = 0.5 * jac + 0.5 * max(0.0, cos)
 
@@ -327,6 +330,19 @@ def run_fusion(
             "tokens_after": count_tokens(successor["content"]),
         })
 
+        # Update lattice index: append successor, retire merged members
+        lattice = load_json(lattice_path)
+        idx_nodes = lattice.get("nodes", [])
+        if isinstance(idx_nodes, dict):
+            idx_nodes = [{"node_id": k, **v} for k, v in idx_nodes.items()]
+        for n in idx_nodes:
+            if n.get("node_id") in member_ids:
+                n["retired"] = True
+                n["redirect_to"] = successor["node_id"]
+        idx_nodes.append(successor)
+        lattice["nodes"] = idx_nodes
+        write_json_atomic(lattice_path, lattice)
+
         results.append({
             "successor_id": successor["node_id"],
             "merged": [t["node_id"] for t in tombstones],
@@ -400,6 +416,14 @@ def self_test() -> int:
         ledger = load_jsonl(root / FUSION_LEDGER_REL)
         energy_ok = any(e.get("binding_energy", 0) > 0 for e in ledger)
         rec("FUS-T01c", energy_ok, f"ledger_entries={len(ledger)}")
+
+        # Check lattice index has successor node and merged members retired
+        lat = load_json(root / LATTICE_INDEX_REL)
+        lat_nodes = lat.get("nodes", [])
+        successor_in_index = any(n.get("node_id", "").startswith("FUSED-") for n in lat_nodes)
+        rec("FUS-T01d", successor_in_index, "successor_node_in_lattice_index")
+        retired_members = [n for n in lat_nodes if n.get("retired") and n.get("redirect_to", "").startswith("FUSED-")]
+        rec("FUS-T01e", len(retired_members) >= 4, f"retired_members={len(retired_members)}")
 
     with tf.TemporaryDirectory(prefix="fusion-selftest-t2-") as td:
         root = Path(td)
