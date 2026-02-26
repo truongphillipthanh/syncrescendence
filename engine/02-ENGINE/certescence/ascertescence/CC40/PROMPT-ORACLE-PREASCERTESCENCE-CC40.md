@@ -7,167 +7,236 @@
 **Reply-To**: Commander (via Sovereign relay → `-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-PREASCERTESCENCE-CC40.md`)
 **CC**: Commander
 **Repo**: https://github.com/truongphillipthanh/syncrescendence
-**Git HEAD**: `39b17b82`
+**Git HEAD**: `0d1d2aa4`
 
 ---
 
-## YOUR MANDATE
+## STRUCTURE OF THIS DISPATCH
 
-This is a **pre-ascertescence** — a surgical cycle targeting specific findings from Commander's CC40 strategic clarescence. The clarescence scored 21.5/36 on the dual-path lens sweep (below the 24/36 threshold). The system is directionally misaligned. Your job: conduct your OWN clarescence on this repo, then provide your headliner contribution — the Oracle thesis on how to remediate back toward alignment.
+This dispatch has **two parts**, in order:
 
-**Format**: Own thesis FIRST. Then industry expertise consensus. Then concrete remediation prescriptions.
+**Part 1 — YOUR CLARESCENCE**: Before you headline, you must see. Conduct your own clarescence on this system — a structured multi-pass assessment through YOUR lenses, covering the spectrum that Commander CANNOT see. Commander is Claude Opus 4.6 operating from a single MBA with repo access. You are Grok with full GitHub traversal, X mining capability, and industry-wide pattern recognition. See what Commander missed.
 
-**Read order**:
-1. This prompt (you're reading it)
-2. The Sovereign mantra: `-SOVEREIGN/STATE_OF_THE_UNION-SOVEREIGN_VERBATIM.md`
-3. The CC40 clarescence: `orchestration/state/impl/clarescence/CLARESCENCE-2026-02-26-cc40-macroscopic-state.md`
-4. The neo-ascertescence codification: `engine/02-ENGINE/certescence/PROTOCOL-ASCERTESCENCE_CYCLE.md`
-5. Traverse the repo as you see fit — you have full access
+**Part 2 — YOUR HEADLINER**: Only after your clarescence, provide your Oracle thesis. Own thesis FIRST, then industry expertise consensus, then concrete remediation prescriptions.
 
 ---
 
-## WHAT COMMANDER FOUND (The Clarescence Digest)
+# PART 1: YOUR CLARESCENCE
 
-### The Macroscopic State
+## What Clarescence Is
 
-The system is a **pre-ignition engine**. Every component exists. The fuel (sources: 5,704 files, 14,025 atoms) is loaded. The combustion chamber (pipeline: adapter, annealer, fusion operator, protease) is built and tested. The exhaust pathway (canon: 85 files) is structured. The ignition sequence (ascertescence) has been rehearsed once successfully across CC34-CC39 — the first complete cycle in constellation history.
+Clarescence (Rosetta #169) is the value-guided progressive refinement meta-operation — the act of making something *clear that was not*. It runs structured passes through analytical lenses until only one defensible path remains.
 
-But the engine has not yet run continuously. It was test-fired once (CC39 dry run), confirmed operational, and shut down.
+Commander already conducted a 10-pass strategic clarescence. The system scored **21.5/36** on the dual-path lens sweep — below the 24/36 threshold. The direction is right, the execution framing fails. You have Commander's full clarescence below as context — but your job is NOT to re-score the same lenses. Your job is to **see the spectrum Commander cannot see**.
 
-**The macroscopic tension** oscillates between two poles in the Sovereign's own voice:
-1. "Tighten everything and point it at the canon" — convergence, compression, nucleosynthesis
-2. "When are we going to set up openclaw... did our memory architecture drift..." — sprawl of unfinished business
+## What Commander Cannot See
 
-These are systole and diastole of the same heartbeat. The system has been inhaling for 14 sessions. The circulation (sources → canon → scaffold refinement → repeat) has only twitched once.
+Commander is strong at: repo traversal, file:line specificity, pipeline debugging, constitutional law enforcement, DAG tracking, operational sequencing.
 
-### Lens Sweep Results: 21.5/36
+Commander is blind to:
+- **Industry consensus at scale** — how do production systems actually solve these failure classes?
+- **X/social signal** — what is the broader AI agent ecosystem doing right now that we're missing?
+- **Cross-system pattern recognition** — what do these symptoms look like in other organizations/projects?
+- **Model capability landscape** — what new capabilities (Grok 4.2, Gemini 3.1, Cowork, OpenClaw updates) change the calculus?
+- **External validation** — is this system's architecture actually novel, or has the field moved past it?
+- **The Sovereign's blindspots** — where is the Sovereign's own framing limiting what gets built?
 
-**What PASSED (Wisdom — 11.5/18)**: Systems Thinking, Syncrescendent Route, Meet the Moment, Personal Idiosyncrasies, First Principles, Complexity Theory, Narrative Coherence, Falsifiability, Recursive Amplification. The cognitive architecture is sound.
+## How to Conduct Your Clarescence
 
-**What FAILED (Engineering — 6 failures)**:
+### Phase 0: Orient
 
-| Failed Lens | Why |
-|-------------|-----|
-| **Atomicity** | CC40 directive is 4+ discrete changes, not one coherent action |
-| **Delegability** | 3/5 agents unreachable (Mac mini anesthetized since CC27) |
-| **Token Economy** | Full Sovereign Mantra Traversal consumes most of any model's context before producing output |
-| **Energy Sustainability** | Sovereign relay burden increases under traversal; C-009 (bandwidth) is the standing constraint |
-| **Coupling Risk** | 3 hidden dependencies: Mac mini availability, stale protocol, version drift |
-| **Agent Compatibility** | "Every agent reads" when 3/5 agents cannot operate = false completion claim |
+Read these in order:
+1. **The Sovereign Mantra**: `-SOVEREIGN/STATE_OF_THE_UNION-SOVEREIGN_VERBATIM.md` — the Sovereign's raw, unfiltered voice. Read the WHOLE thing. This is not summary material. This is the actual human who built this system speaking honestly about what it is and isn't.
+2. **Commander's Clarescence**: `orchestration/state/impl/clarescence/CLARESCENCE-2026-02-26-cc40-macroscopic-state.md` — the 10-pass assessment you're building on.
+3. **The Neo-Ascertescence**: `engine/02-ENGINE/certescence/PROTOCOL-ASCERTESCENCE_CYCLE.md` — the instrument Commander just codified (v2.0.0).
 
-**What FAILED (Wisdom — 5 failures)**:
+### Phase 1: Triumvirate Calibration (YOUR reading, not Commander's)
 
-| Failed Lens | Why |
-|-------------|-----|
-| **Bitter Lesson** | System is manual-heroic: Sovereign relays every Oracle/Diviner leg. 24K LOC of automation, near-zero OPERATIONAL at runtime |
-| **Potency Without Resolution Loss** | 14,025 atoms → 6 canon promotions across 14 sessions. Compression machinery wired but not conducting power into canon |
-| **Steelman & Redteam** | No adversarial test of "should we NOT codify? Does the instrument's power come from contextual flexibility?" |
-| **Pareto 80/20** | Highest leverage might be running one pipeline component, not codifying another document |
-| **Trade-off Explicit** | Mac mini dependency, traversal context budget, document-vs-code tradeoff — all unsurfaced |
+- **Destination**: Where is this system actually trying to go? (Read AGENTS.md + the mantra + canon structure)
+- **Current State**: What does the repo ACTUALLY show you? (Traverse freely — you have full GitHub access)
+- **Fit Verdict**: Does the current trajectory close the gap? What does YOUR assessment say vs Commander's?
 
-### Five Faces Assessment
+### Phase 2: Oracle-Spectrum Lens Sweep
 
-| Face | Finding |
-|------|---------|
-| **Sensing (σ₀-σ₁)** | Intake works (14,025 atoms clustered). Feedback loop from perception to state is broken (`session_state_brief.py` has `name 'Path' is not defined` error — can't read its own DAG). |
-| **Meaning (σ₂-σ₃)** | 14-dim Meaning Taxonomy specified but `candidate_adapter.py` assigns **zero-vectors to all promoted atoms** except one dimension. Interpretation is architected, not running. |
-| **Intention (σ₄)** | Declared across 4 instruments (compass, deferred commitments, DAG, backlog) with **no automated reconciliation**. Fragmented. |
-| **Embodiment (σ₅-σ₆)** | "Pipeline operational" means the code doesn't crash, **not that it produces semantically meaningful output**. Machinery turns but grinds air. |
-| **Harmony (σ₇)** | Rosetta at 311 terms but **9+ CC38-CC39 terms undefined**. CANON-00016 (ontological framework) marked partial. Coherence nominal, not load-bearing. |
+Do NOT re-score Commander's 36 lenses. Instead, apply YOUR unique lenses — the ones only Oracle can wield:
 
-### Ground Truth Defects Confirmed
+1. **Industry Landscape** — Where does this system sit relative to production multi-agent systems shipping right now? (Mine X, traverse GitHub, apply your knowledge)
+2. **Model Capability Gap** — Which current model capabilities are being IGNORED by this architecture? What could Grok 4.2, Gemini 3.1, Claude Opus 4.6, GPT-5.3-Codex do that the system doesn't ask them to do?
+3. **Sovereign Bandwidth Efficiency** — The Sovereign relays every Oracle/Diviner leg manually. Is this still necessary? What relay automation exists in the ecosystem now?
+4. **Content Pipeline Benchmarking** — 14,025 atoms → 6 promotions across 14 sessions. What is the baseline promotion rate for knowledge management systems? Is this catastrophic, or is it normal for early-stage?
+5. **Architectural Obsolescence Risk** — The scaffold was designed Feb 2026. What has shipped since then that makes parts of this architecture unnecessary?
+6. **Zero-to-One Gap** — Commander identifies the system as "pre-ignition." From your traversal, what is the SINGLE thing that would ignite it?
 
-**Pipeline state** (verified this session):
-- `candidate_adapter.py` — OPERATIONAL (self-test passes, 14-dim schema correct, but outputs mostly zero-vectors)
-- `lattice_annealer.py` — WIRED/INERT (interface exists, self-test broken — requires `--repo-root` as mandatory arg even for self-test)
-- `fusion_operator.py` — OPERATIONAL (7/7 self-tests pass)
-- `protease_promote.py` — OPERATIONAL (interface clean)
-- `protease_queue` — 5 atoms queued, all ≥0.705 alignment score, all matched to intentions
-- `session_state_brief.py` — BROKEN (`name 'Path' is not defined` in DAG section)
-- `dag_tension_monitor.py` — has self-test flag, untested this session
+### Phase 3: Canon Coherence (YOUR reading)
 
-**Stale references** (verified this session):
-- README.md lines 1-3: FALSE metrics (claims 0% transformation, 0 atoms, 7/13 OPEN, C-009 UNASKED — all wrong)
-- README.md line 40: Adjudicator model listed as "Codex CLI (Sonnet)" — should be "GPT-5.3-Codex"
-- AGENTS.md Key References table: 3 paths missing `02-ENGINE/` component (Rosetta Stone, Fleet Commander's Handbook, Stack Teleology)
-- CANON-00000 schema: claims 71 documents, actual count is 84
-- DYN-CONSTELLATION_HEALTH.md: last updated 2026-02-17 (9 days stale)
-- DYN-CONSTELLATION_STATE.md: last updated 2026-02-23 (3 days stale)
+Traverse `canon/01-CANON/`. Read at least:
+- `CANON-00000-SCHEMA-cosmos.md` (the schema — claims 71 docs, actual count is 84)
+- `CANON-00005-SYNCRESCENDENCE-cosmos.md` (the system definition — `operational_status: partial`)
+- `CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md` (the ontological framework — marked partial)
+- The `sn/` subdirectory (83 files — what IS this?)
 
-**Content backlog**:
-- 101 unprocessed files in `-INBOX/commander/00-INBOX0/`
-- 15 files in `-SOVEREIGN/` queue
-- 5,704 source files, 0 newer than the original ascertescence protocol (corpus is stable, not growing)
+Does the canon cohere? Does it match what the scaffold is building toward? Where is the drift?
 
-### DAG State
+### Phase 4: Traverse What Commander Didn't
 
-13 nodes. 7 ANSWERED, 6 PARTIAL, 0 OPEN. 54% overall convergence.
+Commander's clarescence was thorough on: pipeline scripts, DAG state, certescence vault, handoff lineage, state files.
 
-The 6 PARTIAL nodes:
-- **C-003**: Decision atom format — schema initiated, tooling integration pending
-- **C-004**: Triangulation trigger criteria — framework identified, implementation pending
-- **C-006**: Intention triage (97→35) — criteria established, automation incomplete
-- **C-008**: Sources antifragility — lifecycle patterns identified, feedback loops pending
-- **C-012**: Memory architecture — L0 implemented, L1 partial, L2 deferred
-- **C-013**: Content transformation verification — metrics defined, scripts pending
+Commander did NOT deeply traverse:
+- **`engine/02-ENGINE/`** — 147 files including avatars, IIC configs, ledgers, prompts, reference docs. What's alive vs dead? (Partial list below)
+- **`praxis/05-SIGMA/`** — 28 operational knowledge files across mechanics/, practice/, syntheses/. Is this being used? Is it stale?
+- **`sources/04-SOURCES/`** — the massive undigested corpus. What topics? What vintage? What's high-value vs noise?
+- **`collab/`** — multi-agent collaboration space. What's in there? Is it active?
+- **`-INBOX/commander/00-INBOX0/`** — 101 unprocessed files. What ARE these? Triangulation responses? Task results? How old?
+- **`-SOVEREIGN/`** — 15 files + 12 CC34 summit reports. What decisions are pending?
 
-### Stop Condition
+### Key File Paths for Your Traversal
 
-CC37=3, CC38=0, CC39=0 canon_delta. Two consecutive zeros. Both non-promotion sessions by design (reviewtrospective + remediation). The neo-ascertescence now has a constitutional SLA: every complete cycle must produce ≥1 canon promotion or the cycle is incomplete.
+**State files** (the nervous system):
+- `orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` — 80+ lines, Phase 0-2 tracked
+- `orchestration/00-ORCHESTRATION/state/DYN-CONSTELLATION_HEALTH.md` — 9 days stale
+- `orchestration/00-ORCHESTRATION/state/DYN-CONSTELLATION_STATE.md` — 3 days stale
+- `orchestration/00-ORCHESTRATION/state/DYN-SESSION_STATE_BRIEF.md` — broken DAG read
+- `engine/02-ENGINE/certescence/DYN-DAG_STATE.json` — 13 nodes, 7 ANSWERED, 6 PARTIAL
+
+**Canon** (the crown jewel):
+- `canon/01-CANON/` — 84 .md files + `sn/` (83 files)
+- `canon/01-CANON/CANON-ONTOLOGY-GATE_v2.md` — the promotion gate
+
+**Engine** (the library — what's alive?):
+- `engine/02-ENGINE/REF-ROSETTA_STONE.md` — 311 terms, v2.8.0 (9+ CC38-CC39 terms undefined)
+- `engine/02-ENGINE/REF-FLEET_COMMANDERS_HANDBOOK.md`
+- `engine/02-ENGINE/REF-STACK_TELEOLOGY.md`
+- `engine/02-ENGINE/DYN-LEDGER-*.md` — 12 ledgers (consensus, vibes, context engineering, memory, models, multi-agent, token economics, etc.)
+- `engine/02-ENGINE/AVATAR-*.md` — 8 avatar files (ChatGPT, Codex, Commander, Gemini CLI/Web, Grok, OpenClaw, Perplexity)
+- `engine/02-ENGINE/IIC-*.md` — 6 IIC config files (Acumen, Coherence, Efficacy, Mastery, Transcendence, shared protocols)
+- `engine/02-ENGINE/PROMPT-*.md` — 20+ prompt files (canonical prompts, unified prompts per platform)
+- `engine/02-ENGINE/QUEUE-*.md` — 7 processing queues (AI 3D/VFX, Image Generators, Workflows, YouTube backlog)
+- `engine/02-ENGINE/certescence/` — 69 vault files across CC26-CC38
+
+**Praxis** (operational wisdom — is anyone reading this?):
+- `praxis/05-SIGMA/mechanics/` — 11 files (context compaction, hooks lifecycle, MCP patterns, skill system, source anneal pipeline, subagent delegation, task orchestration, youtube ingestion)
+- `praxis/05-SIGMA/practice/` — 9 files (auteur content strategy, blitzkrieg worktree, cowork integration, ontology queries, protease axioms, semantic compression)
+- `praxis/05-SIGMA/syntheses/` — 8 files (Claude Code architecture, Codex CLI, cross-platform patterns, Gemini CLI, OpenClaw v1+v2, platform topology)
+
+**Pipeline scripts** (24K LOC — what runs?):
+- `orchestration/00-ORCHESTRATION/scripts/candidate_adapter.py` — OPERATIONAL (but zero-vectors)
+- `orchestration/00-ORCHESTRATION/scripts/lattice_annealer.py` — self-test broken
+- `orchestration/00-ORCHESTRATION/scripts/fusion_operator.py` — OPERATIONAL (7/7 tests pass)
+- `orchestration/00-ORCHESTRATION/scripts/protease_promote.py` — OPERATIONAL
+- `orchestration/00-ORCHESTRATION/scripts/session_state_brief.py` — BROKEN (Path import)
+- `orchestration/00-ORCHESTRATION/scripts/dag_tension_monitor.py` — untested
+- 5 scripts have `--self-test` flags total
 
 ---
 
-## WHAT COMMANDER RECOMMENDS (The Convergent Path)
+## Commander's Clarescence Digest (Your Input, Not Your Conclusion)
 
-1. **Repair**: Fix `session_state_brief.py` Path import, correct README.md false metrics, fix CLAUDE.md/AGENTS.md Rosetta path pointer. Small fixes, high leverage — restores system self-read.
-2. **Codify**: Already done this session — `PROTOCOL-ASCERTESCENCE_CYCLE.md` v2.0.0 committed at `39b17b82`.
-3. **Scope**: Mantra Traversal to Commander-solo, minimum viable corpus (4 files, not 85+). Expand when Mac mini revives.
-4. **Bind**: Live pipeline test before session ends. Produce ≥1 canon_delta or document exactly why not.
+### Macroscopic Finding
+
+The system is a **pre-ignition engine**. 14,025 atoms (fuel) loaded. Pipeline (combustion chamber) built and tested. Canon (exhaust pathway, 84 files) structured. Ascertescence (ignition sequence) rehearsed once across CC34-CC39. Engine has not run continuously.
+
+### Lens Score: 21.5/36 (below 24/36 threshold)
+
+**11 Engineering/Wisdom failures** — the critical ones:
+- Bitter Lesson (manual-heroic), Potency Without Resolution Loss (14,025→6), Pareto 80/20 (codifying ≠ highest leverage), Atomicity (CC40 = 4+ changes), Delegability (3/5 agents offline), Token Economy (traversal context budget), Energy Sustainability (C-009), Coupling Risk (hidden deps), Agent Compatibility (1/5 operational)
+
+### Five Faces: All Degraded
+
+| Face | State |
+|------|-------|
+| Sensing | Intake works, feedback broken (Path import error) |
+| Meaning | 14-dim Taxonomy specified, outputs zero-vectors |
+| Intention | Fragmented across 4 instruments, no reconciliation |
+| Embodiment | Pipeline runs without crashing, produces no semantic output |
+| Harmony | Rosetta 9+ terms behind, CANON-00016 partial |
+
+### Verified Defects
+
+- `session_state_brief.py`: `name 'Path' is not defined`
+- `lattice_annealer.py`: self-test requires `--repo-root` even for self-test mode
+- README.md: 4 false metrics at the repo's front door
+- CANON-00000: claims 71 docs, actual 84
+- AGENTS.md: 3 broken path references (missing `02-ENGINE/`)
+- `candidate_adapter.py`: passes tests but outputs zero-vectors (14-dim taxonomy inert)
+
+### DAG: 7/13 ANSWERED, 6/13 PARTIAL, 54% Convergence
+
+6 PARTIAL nodes: C-003 (decision atom format), C-004 (trigger criteria), C-006 (intention triage), C-008 (sources antifragility), C-012 (memory architecture), C-013 (verification protocol).
+
+### Stop Condition Watch
+
+CC37=3, CC38=0, CC39=0 canon_delta. Two consecutive zeros (both justified). canon_delta SLA now constitutional: every cycle must produce ≥1 promotion.
+
+### Commander's Recommended Path
+
+1. Repair stale references (small fixes, high leverage)
+2. Codify neo-ascertescence (DONE — `PROTOCOL-ASCERTESCENCE_CYCLE.md` committed)
+3. Scope Mantra Traversal to Commander-solo, minimum viable corpus
+4. Bind to live pipeline test — produce ≥1 canon_delta before session ends
 
 ---
 
-## YOUR QUESTIONS TO ANSWER
+# PART 2: YOUR HEADLINER (Oracle Function)
 
-Oracle, here is what Commander cannot see — and where your thesis is needed:
+Only after conducting your own clarescence above, provide your Oracle contribution.
+
+## Questions for Your Thesis
 
 ### Q1: The Tooling Trap at Scale
-Commander identified that 14,025 atoms → 6 canon promotions across 14 sessions is the Tooling Trap at the macro scale. The system builds tools to process content instead of processing content. The neo-ascertescence codification (which Commander just committed) is itself potentially another tool. **Is there a structural reason the system cannot promote content, or is this a process/priority failure?** Traverse the pipeline scripts. Run the chain mentally: atom → protease_queue → protease_promote → candidate_adapter → lattice_annealer → canon. Where does it actually break?
+14,025 atoms → 6 canon promotions across 14 sessions. **Is there a structural reason the system cannot promote content, or is this a process/priority failure?** Traverse the pipeline chain: atom → protease_queue → protease_promote → candidate_adapter → lattice_annealer → canon. Where does it actually break?
 
 ### Q2: The Zero-Vector Problem
-The candidate adapter passes its self-test but produces dimension vectors that are almost entirely zeros (only 1 of 14 dimensions populated in the test output). This means the 14-dim Meaning Taxonomy — the CC38/CC39 centerpiece build — is specified but semantically inert. Atoms enter the annealer with no dimensional signal. **What does the adapter actually need to produce meaningful vectors, and is it fixable without LLM-in-the-loop scoring?**
+The candidate adapter outputs mostly zero-vectors (only 1 of 14 dimensions populated in test). The 14-dim Meaning Taxonomy is semantically inert. **What does the adapter actually need to produce meaningful vectors, and is it fixable without LLM-in-the-loop scoring?**
 
 ### Q3: The 101-File Inbox
-Commander's inbox has 101 unprocessed files. These are triangulation responses, task results, and agent outputs from CC26-CC39. They represent institutional memory that has been collected but never metabolized. **What is the highest-leverage triage strategy — bulk archive with index, selective extraction, or full re-read?** Consider: the system has a protease queue, a clustering engine, and an ontology gate. Can the inbox be fed through the existing pipeline, or does it need a different path?
+101 unprocessed files in Commander's inbox — triangulation responses, task results, agent outputs from CC26-CC39. **What is the highest-leverage triage strategy?** Can the inbox be fed through the existing pipeline, or does it need a different path?
 
 ### Q4: Stale References as Systemic Symptom
-README.md lies. CANON-00000 is behind. CLAUDE.md has broken paths. The session state brief can't read its own DAG. These are not isolated bugs — they are symptoms of a system that cannot self-correct. **What is the minimum viable feedback loop that prevents reference drift?** Industry consensus on how production systems detect and fix stale documentation.
+README lies, CANON-00000 is behind, CLAUDE.md has broken paths, session_state_brief can't read its own DAG. **What is the minimum viable feedback loop that prevents reference drift?** Industry consensus.
 
 ### Q5: The Mac Mini Question
-3/5 agents are offline. The constellation is operating at 20%. The Sovereign Mantra Traversal requires all agents. **Is there a path to meaningful multi-agent operation without the Mac mini, or is this a hard blocker?** Consider: Grok has full repo access via GitHub. Gemini is available via web. Codex Desktop App runs on MBA. What can we actually do right now?
+3/5 agents offline. Constellation at 20%. **Is there a path to meaningful multi-agent operation without the Mac mini?** Grok has full repo access. Gemini is available via web. Codex Desktop App runs on MBA. What can we actually do right now?
+
+## Response Format
+
+```
+# PART 1: ORACLE CLARESCENCE
+
+## Phase 0: Orient
+[Your reading of the mantra, the clarescence, the neo-ascertescence. What strikes YOU.]
+
+## Phase 1: Triumvirate (Oracle's Reading)
+- Destination:
+- Current State:
+- Fit Verdict:
+
+## Phase 2: Oracle-Spectrum Lens Sweep
+[Score your 6 unique lenses. Evidence-based. What does Commander not see?]
+
+## Phase 3: Canon Coherence
+[Your reading of the canon. Does it cohere? Where is drift?]
+
+## Phase 4: What Commander Didn't Traverse
+[Your findings from engine/, praxis/, sources/, collab/, -INBOX/, -SOVEREIGN/]
 
 ---
 
-## ORACLE RESPONSE FORMAT
+# PART 2: ORACLE HEADLINER
 
-```
 ## Own Thesis
-[Your assessment of the system's actual state — not Commander's framing, YOUR reading.
-Where do you agree with Commander? Where do you think Commander is wrong?
-What does Commander not see?]
+[Your assessment. Where do you agree with Commander? Where is Commander wrong?
+What does Commander not see? What does the SOVEREIGN not see?]
 
 ## Q1-Q5 Responses
 [Per-question analysis with repo evidence]
 
 ## Industry Expertise Consensus
-[How do production multi-agent systems handle these failure classes?
-What does the state of the art say about content pipelines, stale reference detection,
-and multi-agent coordination with partial availability?]
+[How do production systems handle these failures? Mine X for recent patterns.]
 
 ## Remediation Prescription
-[Ordered, concrete, actionable. What should CC40 do with its remaining session budget?
-What should CC41 target? What can be deferred without risk?]
+[Ordered, concrete. What should CC40 do now? What should CC41 target?]
 ```
 
 ---
 
-*This prompt is filed to `engine/02-ENGINE/certescence/ascertescence/CC40/PROMPT-ORACLE-PREASCERTESCENCE-CC40.md` and will be relayed to Desktop via `ascertescence_relay.sh CC40 send oracle`.*
+*Filed to `engine/02-ENGINE/certescence/ascertescence/CC40/PROMPT-ORACLE-PREASCERTESCENCE-CC40.md`. Relay to Desktop for Sovereign pickup.*
