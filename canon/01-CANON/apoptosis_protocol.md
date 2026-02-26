@@ -1,6 +1,6 @@
 ---
 id: CANON-APOPTOSIS-PROTOCOL
-name: Apoptosis Protocol — 5:1 Growth-Decay Coupling
+name: Apoptosis Protocol — 5:1 Nucleosynthesis Ratio
 tier: CANON
 type: policy
 version: 1.0.0
@@ -9,10 +9,10 @@ created: 2026-02-26
 updated: 2026-02-26
 change_velocity: quarterly
 supersedes: null
-synopsis: Governs the mandatory 5:1 ratio between new canon axiom promotions and retirement evaluations, ensuring the canon remains lean and self-pruning.
+synopsis: Governs the mandatory 5:1 nucleosynthesis ratio — 5 atoms condense into 1 denser axiom, releasing epistemic binding energy (reduced fragmentation, freed context, resolved contradictions). The canon is a stellar core, not a garden.
 operational_status: operational
 entities_defined:
-  - "5:1 Apoptotic Metabolism Ratio (CON)"
+  - "5:1 Nucleosynthesis Ratio (CON)"
   - "Tombstone Schema (STR)"
   - "Recycling Schema (STR)"
   - "Young-System Exception (PROTO)"
@@ -27,7 +27,7 @@ last_verified: 2026-02-26
 
 # CANON-APOPTOSIS-PROTOCOL: APOPTOSIS PROTOCOL
 
-## 5:1 Growth-Decay Coupling for Canon Axioms
+## 5:1 Nucleosynthesis Ratio for Canon Axioms
 
 > **Date**: February 26, 2026
 > **Status**: Canonical Policy
@@ -38,9 +38,9 @@ last_verified: 2026-02-26
 
 ## 1. Purpose
 
-Living systems that grow without decay become tumors. Canon is no exception. Every axiom admitted without a corresponding retirement evaluation adds mass without metabolic balance. This protocol enforces a constitutional growth-decay coupling: for every 5 new axioms promoted to canon, 1 existing axiom or sutra must be re-evaluated and either merged, retired, or explicitly reaffirmed.
+Stars that accumulate mass without fusion collapse under their own gravity. Canon is no exception. Every axiom admitted without a corresponding fusion evaluation adds mass without releasing binding energy. This protocol enforces a constitutional nucleosynthesis ratio: for every 5 atoms condensed into canon, 1 existing axiom or sutra must be re-evaluated and either fused into a denser successor, retired as spent fuel, or explicitly reaffirmed as load-bearing.
 
-This is the **apoptotic metabolism** of the canon — programmed cell death in service of systemic health.
+This is the **stellar nucleosynthesis** of the canon — 5 atoms condense into 1 denser axiom, releasing epistemic binding energy (reduced fragmentation, freed context, resolved contradictions). The canon is a stellar core, not a garden.
 
 ### Enforcement Scope
 
@@ -50,7 +50,7 @@ This protocol governs **canon axioms and sutras ONLY**. Tools, platforms, backlo
 
 ## 2. Ratio Rule
 
-**Core invariant**: For every 5 new axioms promoted to canon, 1 existing axiom/sutra must undergo retirement evaluation.
+**Core invariant**: For every 5 atoms condensed into canon, 1 existing axiom/sutra must undergo fusion evaluation — to be fused into a denser successor, retired as spent fuel, or reaffirmed.
 
 ```
 retirements_required = floor(new_axioms_promoted / 5)
@@ -61,7 +61,7 @@ retirements_required = floor(new_axioms_promoted / 5)
   - `promotion_batch_close` — canonical trigger, fires when a promotion batch is committed.
   - `weekly_backstop_audit` — safety net, fires weekly regardless of promotion activity to catch drift.
 
-The ratio is a **floor**, not a ceiling. More frequent retirement evaluations are welcome. The protocol enforces a minimum, not a maximum.
+The ratio is a **floor**, not a ceiling. More frequent fusion evaluations are welcome. The protocol enforces a minimum, not a maximum.
 
 ---
 
@@ -165,7 +165,7 @@ Every retired artifact receives exactly one tombstone record. Tombstones are per
 
 ## 6. Recycling Schema
 
-Insights extracted from retired artifacts are tracked separately to ensure no knowledge is silently lost.
+Epistemic binding energy released during fusion is tracked separately to ensure no knowledge is silently lost.
 
 ```jsonc
 {
@@ -190,7 +190,7 @@ Insights extracted from retired artifacts are tracked separately to ensure no kn
 
 ## 7. Young-System Exception
 
-A new canon system may not yet have retirable candidates. The protocol accounts for this without disabling enforcement.
+A new canon system may not yet have fusion candidates — the stellar core has not accumulated enough mass for ignition. The protocol accounts for this without disabling enforcement.
 
 ### Condition
 
@@ -210,7 +210,7 @@ if apoptosis_debt > 2:
     # ALL new canon promotions BLOCKED until debt cleared
 ```
 
-Three consecutive waivers without a single retirement triggers `DEBT_LOCK`. This prevents indefinite accumulation under the excuse of system youth. At some point, the system is no longer young — it is avoiding pruning.
+Three consecutive waivers without a single fusion triggers `DEBT_LOCK`. This prevents indefinite mass accumulation under the excuse of system youth. At some point, the core is massive enough to fuse — it is avoiding ignition.
 
 **Clearing debt**: Each retirement executed decrements `apoptosis_debt` by 1. Debt must reach 0 before `DEBT_LOCK` is lifted.
 
@@ -252,7 +252,7 @@ Five tests constitute the verification contract for this protocol. All must pass
 
 ## 10. Integration with lattice_annealer
 
-Retirement is not an isolated event. Removing an axiom from the lattice may invalidate downstream dependencies. The apoptosis protocol integrates with the lattice annealer to ensure structural coherence.
+Fusion is not an isolated event. Condensing an axiom into a denser successor may shift downstream dependencies. The nucleosynthesis protocol integrates with the lattice annealer to ensure structural coherence.
 
 ### Retirement Emission
 
@@ -269,11 +269,11 @@ lattice_annealer.py --mode reanneal --node <dependent_node_id>
 The reanneal evaluates whether the dependent node:
 - Can redirect to the successor axiom (automatic if `redirect_to` is set).
 - Requires manual review (queued for Sovereign evaluation).
-- Is itself a retirement candidate (recursive apoptosis).
+- Is itself a fusion candidate (recursive nucleosynthesis).
 
 ### Promotion Block During Reanneal
 
-**New promotions are blocked while the dependent reanneal queue contains fatal items.** A fatal reanneal item is one where no successor mapping exists and the dependent node cannot stand alone. This prevents the lattice from accumulating broken references.
+**New promotions are blocked while the dependent reanneal queue contains fatal items.** A fatal reanneal item is one where no successor mapping exists and the dependent node cannot stand alone. This prevents the lattice from accumulating broken references — unresolved fusion byproducts that destabilize the core.
 
 ---
 
@@ -296,13 +296,13 @@ Acquiring locks out of order is a protocol violation. If a lower lock is needed 
 ## 12. Operational Summary
 
 ```
-Promote 5 axioms  →  Evaluate 1 existing  →  Retire / Merge / Reaffirm
+Condense 5 atoms  →  Evaluate 1 existing  →  Fuse / Retire / Reaffirm
                             │
                    No candidates? → WAIVE (debt + 1)
                             │
                    Debt > 2? → LOCK all promotions
                             │
-                   Retirement executed? → Emit dependents → Reanneal → Clear
+                   Fusion executed? → Emit dependents → Reanneal → Clear
 ```
 
-The canon grows. The canon prunes. The ratio holds. This is the metabolism.
+The canon condenses. The canon fuses. The ratio holds. This is nucleosynthesis.
