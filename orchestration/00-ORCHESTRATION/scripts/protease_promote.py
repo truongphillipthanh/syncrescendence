@@ -8,6 +8,7 @@ Part of the Protease Protocol (CC28 Adjudicator Spec 1).
 """
 
 import argparse
+import fcntl
 import json
 import os
 import re
@@ -336,9 +337,11 @@ def run_annealer_gate(block: dict, repo: Path, skip: bool = False) -> dict:
         if not script.exists():
             die(f"Annealer gate: missing {script.name}. Cannot promote without v2 gate.")
 
-    # Build adapter input from block
+    # Build adapter input from block — preserve full lineage per ARCH-CANDIDATE_ADAPTER_CONTRACT
+    primary_id = block["source_atom_ids"][0] if block["source_atom_ids"] else block["title"]
     adapter_input = {
-        "atom_id": block["source_atom_ids"][0] if block["source_atom_ids"] else block["title"],
+        "atom_id": primary_id,
+        "source_atom_ids": list(block["source_atom_ids"]),  # full lineage, not just [0]
         "source_file": "",
         "content": block["axiom_text"],
         "origin_hash": "",
@@ -372,7 +375,7 @@ def run_annealer_gate(block: dict, repo: Path, skip: bool = False) -> dict:
              "--mode", "gate"],
             capture_output=True, text=True, timeout=60)
         if r.returncode != 0:
-            die(f"lattice_annealer failed: {r.stderr.strip()}")
+            die(f"lattice_annealer failed: stderr={r.stderr.strip()} stdout={r.stdout[:300]}")
 
         # Parse annealer stdout JSON
         result = json.loads(r.stdout)
@@ -435,50 +438,71 @@ def main() -> None:
         all_atom_ids.extend(b["source_atom_ids"])
     print(f"Referencing {len(all_atom_ids)} source atoms")
 
-    # Duplicate check
-    ensure_sn_file(sn_path, args.target)
-    check_duplicates(sn_path, blocks)
+    # Acquire LOCK_CANON_PROMOTION for the entire critical section (order 1 per hierarchy)
+    lock_dir = repo / "orchestration" / "00-ORCHESTRATION" / "state" / "locks"
+    lock_dir.mkdir(parents=True, exist_ok=True)
+    canon_lock_path = lock_dir / "LOCK_CANON_PROMOTION.lock"
+    canon_lock_fd = None
 
-    # Lattice Annealer Gate (v2 — mandatory for canon promotion)
-    if args.target == "canon":
-        blocked = []
-        for b in blocks:
-            result = run_annealer_gate(b, repo, skip=args.skip_annealer)
-            decision = result.get("decision", "REJECT")
-            justification = result.get("justification", {})
-            if decision == "PROMOTE":
-                print(f"  ANNEAL PASS: {b['title']} (coherence={justification.get('coherence_score', '?')})")
-            elif decision == "ADJUST":
-                repair = result.get("repair_prompt", "")
-                print(f"  ANNEAL ADJUST: {b['title']} — needs repair. Prompt: {repair[:120]}...",
-                      file=sys.stderr)
-                blocked.append(b["title"])
-            else:
-                codes = justification.get("reason_codes", [])
-                print(f"  ANNEAL REJECT: {b['title']} — {codes}", file=sys.stderr)
-                blocked.append(b["title"])
-        if blocked and not args.skip_annealer:
-            die(f"Annealer blocked {len(blocked)} axiom(s): {blocked}. "
-                f"Fix and retry, or use --skip-annealer for testing.")
+    if args.target == "canon" and not args.dry_run:
+        canon_lock_fd = open(canon_lock_path, "w")
+        try:
+            fcntl.flock(canon_lock_fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            canon_lock_fd.write(str(os.getpid()))
+            canon_lock_fd.flush()
+        except OSError:
+            canon_lock_fd.close()
+            die("LOCK_CANON_PROMOTION held by another process. Concurrent canon promotion blocked.")
 
-    # Transition atoms in index
-    updated = transition_atoms(index_path, all_atom_ids, target_status, args.dry_run)
-    print(f"{'Would update' if args.dry_run else 'Updated'} {updated} atoms -> {target_status}")
+    try:
+        # Duplicate check
+        ensure_sn_file(sn_path, args.target)
+        check_duplicates(sn_path, blocks)
 
-    # Append to SN file
-    text = append_axioms_to_sn(sn_path, blocks, args.dry_run)
-    if args.dry_run:
-        print(f"\n--- DRY RUN: would append to {sn_path.name} ---")
-        print(text)
-        print("--- END DRY RUN ---")
-    else:
-        print(f"Appended {len(blocks)} axioms to {sn_path.name}")
+        # Lattice Annealer Gate (v2 — mandatory for canon promotion)
+        if args.target == "canon":
+            blocked = []
+            for b in blocks:
+                result = run_annealer_gate(b, repo, skip=args.skip_annealer)
+                decision = result.get("decision", "REJECT")
+                justification = result.get("justification", {})
+                if decision == "PROMOTE":
+                    print(f"  ANNEAL PASS: {b['title']} (coherence={justification.get('coherence_score', '?')})")
+                elif decision == "ADJUST":
+                    repair = result.get("repair_prompt", "")
+                    print(f"  ANNEAL ADJUST: {b['title']} — needs repair. Prompt: {repair[:120]}...",
+                          file=sys.stderr)
+                    blocked.append(b["title"])
+                else:
+                    codes = justification.get("reason_codes", [])
+                    print(f"  ANNEAL REJECT: {b['title']} — {codes}", file=sys.stderr)
+                    blocked.append(b["title"])
+            if blocked and not args.skip_annealer:
+                die(f"Annealer blocked {len(blocked)} axiom(s): {blocked}. "
+                    f"Fix and retry, or use --skip-annealer for testing.")
 
-    # Write metrics
-    write_metrics(repo, blocks, args.target, updated, args.dry_run)
+        # Transition atoms in index
+        updated = transition_atoms(index_path, all_atom_ids, target_status, args.dry_run)
+        print(f"{'Would update' if args.dry_run else 'Updated'} {updated} atoms -> {target_status}")
 
-    prefix = "[DRY RUN] " if args.dry_run else ""
-    print(f"\n{prefix}Protease promote complete: {len(blocks)} axioms -> {args.target}")
+        # Append to SN file (inside lock for canon atomicity)
+        text = append_axioms_to_sn(sn_path, blocks, args.dry_run)
+        if args.dry_run:
+            print(f"\n--- DRY RUN: would append to {sn_path.name} ---")
+            print(text)
+            print("--- END DRY RUN ---")
+        else:
+            print(f"Appended {len(blocks)} axioms to {sn_path.name}")
+
+        # Write metrics
+        write_metrics(repo, blocks, args.target, updated, args.dry_run)
+
+        prefix = "[DRY RUN] " if args.dry_run else ""
+        print(f"\n{prefix}Protease promote complete: {len(blocks)} axioms -> {args.target}")
+    finally:
+        if canon_lock_fd is not None:
+            fcntl.flock(canon_lock_fd, fcntl.LOCK_UN)
+            canon_lock_fd.close()
 
 
 if __name__ == "__main__":

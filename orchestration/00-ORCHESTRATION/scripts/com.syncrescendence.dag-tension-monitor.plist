@@ -35,6 +35,8 @@
         <string>/usr/local/bin:/usr/bin:/bin</string>
         <key>PYTHONPATH</key>
         <string>/Users/system/syncrescendence</string>
+        <key>LANG</key>
+        <string>en_US.UTF-8</string>
     </dict>
 
     <key>RunAtLoad</key>
