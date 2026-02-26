@@ -345,18 +345,3 @@ OpenClaw agents may concurrently read/write to the filesystem. Check `git status
 - Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` — sequential, never copied elsewhere
 
 ---
-
-# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE (VERBATIM) ⚠️
-# "Dispatch emergency ascertescence. Get Oracle to view everything. This is a comprehensive
-# initiative anneal. The result of this ascertescence must converge the pathways. We need to
-# tighten everything apart from the canon, and then point it at the canon.
-#
-# I haven't even mentioned, which has been lingering, to pivot back to the ontology. We have
-# made no effort upon the exocortex. We've been trying to point the sources to the scaffold
-# meaning the insights gained here. What do we do we -inbox, -outbox, -sovereign, did we
-# decruft orchestration, praxis, and engine? When are we going to set up openclaw? Did our
-# bullshit memory architecture drift and did we delete all the ascertained ideal multi agent
-# config? Sear this everywhere, for everything this emergency needs to be a header and footer
-# from now on. Every output. Every dispatch. Zero trust."
-#
-# Content transformation: >0%. Atoms promoted: 6. DAG: 5/13 OPEN (62%). C-009: ANSWERED.
