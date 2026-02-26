@@ -168,6 +168,7 @@ Each intention entry contains:
 | INT-P028 | 22 | "Architecture without execution is decoration. 14% delivery rate IS the problem." | active | 22 Council sessions produced pristine architecture. Near-zero execution. Memory is the root cause — sessions are amnesiac. |
 | INT-P034 | 25 | "Feedback loops > memory engineering — the real bottleneck is quality signals, not storage" | active | Corpus×Intention synthesis finding. |
 | INT-P035 | 25 | "Security is Phase 0 of every phase — not Phase 5. 230+ malicious skills Jan-Feb 2026" | active | Corpus×Intention synthesis finding. Security escalation. |
+| INT-P036 | 33 | "Singular handoff protocol — one location, one file per session, hardened init" | active | CC33 Sovereign directive. No floor/ceiling. Claude MUST read handoff at init (tool calls or it didn't happen). Context gates: 30% alert, 15% auto-handoff. |
 
 ### SESSION 18 (2026-02-16): Token Economics + Antifragile Constellation
 

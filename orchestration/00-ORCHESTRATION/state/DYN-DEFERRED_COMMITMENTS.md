@@ -138,7 +138,7 @@
 | DC-P02 | DC-008 | SYN-51/53 (Jira/Todoist integration) | P1 | PARKED | Linear items. Not infra critical path. |
 | DC-P03 | DC-011 | CANON annotations: Physics/Three-Pillar on CANON-30300+ | P1 | PARKED | 1 of 3 done. Content work. |
 | DC-P04 | DC-012 | Document formalization: promote clarescence decisions to ARCH-/REF- | P1 | PARKED | Fix memory first. |
-| DC-P05 | DC-013 | Protocol changes to CLAUDE.md | P1 | PARKED | Addressed during Phase 2. |
+| DC-P05 | DC-013 | Protocol changes to CLAUDE.md | P1 | **PARTIAL** | CC33: Singular handoff protocol, hardened init, context gates. Remaining: other protocol improvements. |
 | DC-P06 | DC-014 | MCP server activation on MBA (Linear) | P1 | PARKED | OAuth needs Sovereign. |
 | DC-P07 | DC-015 | SOVEREIGN queue drain: 13 items | P1 | PARKED | Needs Sovereign decision sprint. |
 | DC-P08 | INT-1803 | Open model onboarding (Cline + OpenCode) | P2 | PARKED | Needs stable agents first. |
