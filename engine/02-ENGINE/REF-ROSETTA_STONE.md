@@ -827,6 +827,14 @@ Significant community patterns without internal equivalents.
 | 310 | "Scope Creep at Malibu" | UNIQUE | Anti-pattern: attempting comprehensive perfection that prevents completion. "Pick one measurable slice, publish to prove judgment." Named for the tendency to plan an entire Field Node when one nodelet would suffice as proof. Cure: publish the smallest complete thing first. | Scope creep / Perfect is enemy of good |
 | 311 | Kill-Switch Pattern | UNIQUE | Generalized response to sustained underperformance: pause→retreat to foundations→reinforce capability→re-attempt. Not failure but structured retreat. Two consecutive measurement cycles below threshold trigger the switch. Applied to content, events, platforms, and economic projections alike. | Circuit breaker / Fail-safe |
 
+### Category 25: Certescence Instruments (1 term)
+
+<!-- Provenance: Term 312 formalized during CC38 — the first strategic reviewtrospective. -->
+
+| # | Term | Status | Definition | Community Equivalent |
+|---|------|--------|-----------|---------------------|
+| 312 | Reviewtrospective | UNIQUE | Certescence instrument for post-build-cycle strategic synthesis. All 5 constellation agents contribute sequentially (Oracle→Cartographer→Diviner→Adjudicator→Commander), each compounding on prior perspectives. Unlike retrospective (backward-looking process improvement) or review (quality gate), the reviewtrospective is a hermeneutic circle across agents — each perspective reveals something invisible from the others. Frequency guard: max 1 per build cycle. Protocol: `engine/02-ENGINE/certescence/PROTOCOL-REVIEWTROSPECTIVE.md`. Lineage: 18 Lenses → Clarescence → Ascertescence → Reviewtrospective. | Retrospective / Post-mortem (weaker — those lack multi-agent compounding) |
+
 ---
 
 ### 169. Clarescence / Claresce (Value-Guided Progressive Refinement)
@@ -900,6 +908,12 @@ Confidence: [low|medium|high]
 ---
 
 ## Version History
+
+**v2.8.0** (2026-02-26): CC38 Reviewtrospective formalization
+- New term #312: Reviewtrospective — certescence instrument for post-build-cycle strategic synthesis
+- New category 25: Certescence Instruments
+- Total: 312 entries (306 distinct)
+- Authority: Commander (Opus 4.6) formalizing CC38 first strategic reviewtrospective
 
 **v2.7.0** (2026-02-16): Convergence Document Extraction — outward-facing strategic vocabulary (70 new terms)
 - 70 new terms added (#242-311), bringing total to 311 entries (305 distinct)
