@@ -169,7 +169,7 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 | Every response | `-INBOX/commander/00-INBOX0/RESPONSE-<AGENT>-<TOPIC>.md` | Raw intelligence — must survive context death |
 | CLI agent output | `~/Desktop/` (agent writes here) | CLI agents (Oracle, Diviner, Adjudicator) produce outputs to Desktop for Sovereign pickup. Sovereign relays to Commander's inbox. |
 | Every decision atom | `agents/commander/outbox/DECISION_ATOMS-<DIRECTIVE>-SESSION-<DATE>.md` | Future sessions need *why*, not just *what* |
-| Session handoff | `agents/commander/outbox/HANDOFF-<DIRECTIVE>-SESSION_TERMINAL.md` | The handoff IS the session's legacy |
+| Session handoff | `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` | The handoff IS the session's legacy — ONE file per session, sequential, never copied |
 | Memory updates | Agent memory files | Prevents the Sovereign from repeating themselves |
 
 ### Commander Council (CC) Lineage — Ascertescence Protocol
@@ -292,8 +292,9 @@ A launchd watchdog daemon runs every ~60s and writes health state to `orchestrat
 - Do not dispatch simultaneous heavy jobs to both Psyche and Adjudicator when token pressure is high
 
 ### 6) Context Exhaustion Protocol
-- Persist work state to filesystem BEFORE compaction (`orchestration/state/`, task/result files)
-- Never allow context death without writing durable artifacts and committing relevant work
+- At **<30% remaining**: ALERT the Sovereign. Continue working but flag it every response.
+- At **<15% remaining**: Execute the Handoff Protocol IMMEDIATELY (see CLAUDE-EXT.md Section C). This is non-negotiable.
+- Never allow context death without a committed handoff in `agents/commander/outbox/handoffs/`.
 
 ### 7) If You Go Offline
 - Watchdog should detect degraded state within ~60s
@@ -336,9 +337,12 @@ OpenClaw agents may concurrently read/write to the filesystem. Check `git status
 ---
 
 ## Session Protocol (ALL AGENTS)
+- Every session likely continues from a prior handoff — confirm this FIRST by reading the latest `HANDOFF-CC*.md` in `agents/commander/outbox/handoffs/`
+- Check commander inbox (`agents/commander/inbox/pending/`) at session start
 - Consult `ARCH-INTENTION_COMPASS.md` before executing directives
 - Persist working state to `orchestration/state/` before session end
 - Commit frequently with semantic prefixes
+- Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` — sequential, never copied elsewhere
 
 ---
 

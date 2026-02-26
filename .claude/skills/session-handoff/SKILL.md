@@ -1,95 +1,104 @@
 ---
 name: session-handoff
-description: Commander Council handoff protocol — ensures bulletproof state persistence and CC lineage continuity at session end or compaction
-wraps: session-handoff (vibeship)
-provenance: vibeship (MIT), upgraded CC27
-vetted: 2026-02-24
-pipeline_stages: [COMMIT, MEMORY]
+description: Commander Council handoff protocol — singular procedure for session continuity
+provenance: syncrescendence
+vetted: 2026-02-25 (CC33 — Sovereign directive, unified protocol)
+pipeline_stages: [COMMIT, UPDATE, HANDOFF, REINITIALIZE]
 ---
 
-# Session Handoff — Commander Council Edition
+# Session Handoff — Singular Protocol (CC33)
 
-## Overview
+## Authority
 
-This skill defines the terminal node protocol for Commander Council (CC) sessions. It fires at session end, compaction, or explicit `/session-handoff` invocation. The goal: the next session loads cold and knows exactly where to pick up.
+Sovereign directive CC33: "There should only be a singular handoff protocol."
 
-**Two paths exist:**
-1. **Automated (floor)**: `cc_handoff.sh` fires on PreCompact hook. Gathers git state, inbox, journal, deferred commitments, priorities. Writes a structured handoff file. This is the MINIMUM.
-2. **Manual (ceiling)**: The agent invokes `/session-handoff` and produces a RICHER handoff with actual context, reasoning, and in-progress thought.
+This supersedes all prior two-path (auto/manual, floor/ceiling) architecture. There is ONE procedure.
+
+## Location
+
+`agents/commander/outbox/handoffs/HANDOFF-CC{N}.md`
+
+- ONE file per session
+- Sequential by CC number
+- Never copied to inbox, Desktop, or anywhere else
+- This is where every Claude session looks at init
+
+## When This Fires
+
+- Explicit `/session-handoff` invocation
+- Context at <15% remaining (auto-triggered — non-negotiable)
+- PreCompact hook (`cc_handoff.sh`)
+- Session end
+
+The procedure is IDENTICAL in all cases.
+
+## Procedure
+
+### 1. COMMIT
+- `git add` and `git commit` ALL uncommitted work
+- No silent work loss
+- Use sandbox-safe commit (`git write-tree` → `git commit-tree` → `git update-ref`) if normal commit gets SIGKILL'd
+
+### 2. UPDATE STATE
+- Update `orchestration/state/ARCH-INTENTION_COMPASS.md` — new intentions or status changes
+- Update `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — new commitments or status changes
+- Update `agents/commander/memory/MEMORY.md` — durable learnings from this session
+
+### 3. WRITE HANDOFF
+Write to `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md`:
+
+```markdown
+# HANDOFF — Commander Council {N}
+
+**Date**: {ISO timestamp}
+**Agent**: Commander (Claude Opus 4.6)
+**Session**: CC{N}
+**Git HEAD**: {short hash}
+**Trigger**: {Manual | Auto-<15% | PreCompact}
+
+## What Was Accomplished
+{Completed directives, artifacts produced, commits made — be specific}
+
+## What Remains
+{Open tasks, blockers, in-progress work with specific next steps}
+
+## Key Decisions Made
+{Rationale for each — future sessions need the WHY}
+
+## Sovereign Intent
+{What was the Sovereign trying to achieve? What direction were they pushing?}
+
+## WHAT THE NEXT SESSION MUST KNOW
+{Your actual mental model. Warnings about traps. Specific first-action instructions.
+Context that would be lost. NOT placeholders. NOT "[AUTO-GENERATED]" stubs.}
+
+## Key Files
+| File | Purpose |
+|------|---------|
+
+## Session Metrics
+- Commits: {N}
+- Files changed: {N}
+- Dirty files at handoff: {N}
+- DAG status: {X}/13 OPEN
+- C-009: {ASKED/UNASKED}
+```
+
+### 4. PRINT REINITIALIZER
+Output a paste-ready prompt as the LAST thing printed. This is what the Sovereign copies when `> claude --dangerously-skip-permissions` shows a cursor:
+
+```
+Resume CC{N}. Read handoff: @agents/commander/outbox/handoffs/HANDOFF-CC{N}.md
+```
+
+## Session Initialization (the other half)
+
+Every Claude session begins by:
+1. Reading the latest `HANDOFF-CC*.md` from `agents/commander/outbox/handoffs/` (highest CC number)
+2. Confirming to Sovereign: continuing from handoff or fresh session
+3. Checking `agents/commander/inbox/pending/` for tasks/confirms/results
+4. This is NOT optional. Tool calls (Read) or it didn't happen. CLAUDE.md being "loaded at init" does NOT mean Claude read the handoff.
 
 ## CC Lineage
 
-Commander Council sessions are numbered sequentially (CC26, CC27, ...). The handoff file is the session's legacy artifact.
-
-- Automated handoffs: `agents/commander/outbox/handoffs/HANDOFF-CC{N}-AUTOCOMPACT-{timestamp}.md`
-- Manual handoffs: `agents/commander/outbox/handoffs/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md`
-- The latest CC number is determined from `ls agents/commander/outbox/handoffs/HANDOFF-CC*` — extract highest number.
-
-## Manual Invocation Protocol (`/session-handoff`)
-
-When the agent explicitly runs this skill, produce a handoff that is RICHER than the automated floor:
-
-### 1. COMMIT Stage (final)
-- Run `git status`. Any uncommitted work must be committed or explicitly stashed with a note. No silent work loss.
-- Use sandbox-safe commit: `git write-tree` -> `git commit-tree` -> `git update-ref` (git commit gets SIGKILL'd on large repos).
-
-### 2. MEMORY Stage (final)
-Write a handoff file to `agents/commander/outbox/handoffs/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md` containing:
-
-#### Required Sections
-- **Header**: Date, Agent, Session (CC number), Git HEAD, Trust Level, Trigger (Manual/PreCompact)
-- **What Was Accomplished**: Completed directives, artifacts produced, commits made
-- **What Remains**: Open tasks, blockers, in-progress work with specific next steps
-- **Key Decisions Made**: Rationale for each — future sessions need the WHY
-- **State Changes**: Anything the next session must know that changed this session
-- **WHAT THE NEXT SESSION MUST KNOW**: Fill this with ACTUAL context. Not placeholders. What were you thinking? What was the Sovereign's intent? What gotchas did you discover? What would you do differently?
-- **Key Files**: Table of files critical to resuming work
-- **Deferred Commitments**: Any new items added or status changes
-
-#### The "WHAT THE NEXT SESSION MUST KNOW" Section
-This is the most important section. The automated handoff writes placeholders here. When you invoke `/session-handoff` manually, you MUST fill this with:
-- Your actual mental model of the current state
-- Warnings about traps or dead ends you discovered
-- The Sovereign's most recent intent/direction
-- Specific instructions for what to do first
-- Any context that would be lost to compaction
-
-### 3. Pedigree Chain
-The handoff artifact feeds the pedigree system, creating traceable lineage from session to session.
-
-### 4. Deliver to Inbox + Print Initializer
-Copy the handoff to `-INBOX/commander/00-INBOX0/HANDOFF-LATEST.md` so the next session can cold-start from it.
-Print a one-liner initializer the Sovereign can paste into a fresh Claude Code session:
-```
-Resume CC{N}. Rehydrate from: @agents/commander/outbox/handoffs/HANDOFF-CC{N}-{TOPIC}-SESSION_TERMINAL.md
-```
-
-### 5. Kaizen
-Every handoff should end with a brief note on what could be improved about the handoff FORMAT itself. This is how the protocol evolves:
-```
-## Kaizen (Handoff Format Improvement)
-- [observation about what was hard to capture or would help the next session]
-```
-
-## Automated Path Reference
-
-The `cc_handoff.sh` script (`orchestration/00-ORCHESTRATION/scripts/cc_handoff.sh`) fires automatically on PreCompact. It:
-1. Determines current CC number from latest handoff file
-2. Gathers: git log/status/HEAD, autonomy ledger, session state brief, deferred commitments, inbox items, pending tasks, journal entries
-3. Writes structured handoff to `agents/commander/outbox/`
-4. Copies to `~/Desktop/HANDOFF-LATEST.md`
-5. Commits via sandbox-safe git method
-
-The automated handoff is the FLOOR. Manual `/session-handoff` is the CEILING.
-
-## Agent Scope
-
-- **Commander**: CC lineage handoffs (this protocol), dispatch queue status, plan state
-- **Cartographer**: Updated dependency graphs or architecture maps
-- **All agents**: Session ID, timestamp, agent identity, completed items, pending items, blockers
-
-## Config Notes
-
-- Handoff files live in `agents/<agent>/outbox/`
-- PreCompact hook in `~/.claude/settings.json` fires `cc_handoff.sh` BEFORE `pre_compaction.sh`
-- Desktop copy enables Sovereign to relay handoff context to next session without repo navigation
+Commander Council sessions are numbered sequentially (CC26, CC27, ...). The handoff file IS the session's legacy artifact. The chain of `HANDOFF-CC{N}.md` files is the complete lineage.

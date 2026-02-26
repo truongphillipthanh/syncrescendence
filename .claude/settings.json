@@ -55,6 +55,10 @@
         "hooks": [
           {
             "type": "command",
+            "command": "bash orchestration/00-ORCHESTRATION/scripts/cc_handoff.sh"
+          },
+          {
+            "type": "command",
             "command": "bash orchestration/scripts/pre_compaction.sh"
           }
         ]

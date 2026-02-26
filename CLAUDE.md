@@ -169,7 +169,7 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 | Every response | `-INBOX/commander/00-INBOX0/RESPONSE-<AGENT>-<TOPIC>.md` | Raw intelligence — must survive context death |
 | CLI agent output | `~/Desktop/` (agent writes here) | CLI agents (Oracle, Diviner, Adjudicator) produce outputs to Desktop for Sovereign pickup. Sovereign relays to Commander's inbox. |
 | Every decision atom | `agents/commander/outbox/DECISION_ATOMS-<DIRECTIVE>-SESSION-<DATE>.md` | Future sessions need *why*, not just *what* |
-| Session handoff | `agents/commander/outbox/HANDOFF-<DIRECTIVE>-SESSION_TERMINAL.md` | The handoff IS the session's legacy |
+| Session handoff | `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` | The handoff IS the session's legacy — ONE file per session, sequential, never copied |
 | Memory updates | Agent memory files | Prevents the Sovereign from repeating themselves |
 
 ### Commander Council (CC) Lineage — Ascertescence Protocol
@@ -292,8 +292,9 @@ A launchd watchdog daemon runs every ~60s and writes health state to `orchestrat
 - Do not dispatch simultaneous heavy jobs to both Psyche and Adjudicator when token pressure is high
 
 ### 6) Context Exhaustion Protocol
-- Persist work state to filesystem BEFORE compaction (`orchestration/state/`, task/result files)
-- Never allow context death without writing durable artifacts and committing relevant work
+- At **<30% remaining**: ALERT the Sovereign. Continue working but flag it every response.
+- At **<15% remaining**: Execute the Handoff Protocol IMMEDIATELY (see CLAUDE-EXT.md Section C). This is non-negotiable.
+- Never allow context death without a committed handoff in `agents/commander/outbox/handoffs/`.
 
 ### 7) If You Go Offline
 - Watchdog should detect degraded state within ~60s
@@ -336,9 +337,12 @@ OpenClaw agents may concurrently read/write to the filesystem. Check `git status
 ---
 
 ## Session Protocol (ALL AGENTS)
+- Every session likely continues from a prior handoff — confirm this FIRST by reading the latest `HANDOFF-CC*.md` in `agents/commander/outbox/handoffs/`
+- Check commander inbox (`agents/commander/inbox/pending/`) at session start
 - Consult `ARCH-INTENTION_COMPASS.md` before executing directives
 - Persist working state to `orchestration/state/` before session end
 - Commit frequently with semantic prefixes
+- Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` — sequential, never copied elsewhere
 
 ---
 
@@ -399,12 +403,17 @@ This file is loaded at session start. Additional context is loaded on-demand:
 
 ---
 
-## Context Economics
+## Context Vigilance (MANDATORY)
 
 Context degrades before capacity. Quality drops at ~75% of context window, not at 100%.
-- Use `/compact` proactively — do not wait for the warning
-- Persist working state to filesystem before compaction
+
+| Threshold | Action | Authority |
+|-----------|--------|-----------|
+| **<30% remaining** | **ALERT the Sovereign**: "Context at ~X%. Recommend handoff soon." Continue working but flag it. | Automatic — every response must check. |
+| **<15% remaining** | **AUTO-HANDOFF**: Stop current work immediately. Execute the Handoff Protocol (see below). This is non-negotiable. | Constitutional — Invariant 4 (Continuation/Deletability). |
+
 - Reference praxis files via `@` mentions for on-demand loading rather than front-loading
+- Do NOT wait for the PreCompact hook to fire — monitor proactively
 
 ---
 
@@ -423,6 +432,7 @@ Context degrades before capacity. Quality drops at ~75% of context window, not a
 | Stop | `session_log.sh` | Session metadata to DYN-SESSION_LOG.md |
 | Stop | `ajna_pedigree.sh` | Decision lineage to DYN-PEDIGREE_LOG.md |
 | Stop | `create_execution_log.sh` | Execution entry to DYN-EXECUTION_STAGING.md |
+| PreCompact | `cc_handoff.sh` | Auto-handoff: commit, gather state, write handoff, print reinitializer |
 | PreCompact | `pre_compaction.sh` | Warn about uncommitted state |
 | UserPromptSubmit | `intent_compass.sh` | Intention signals to DYN-INTENTIONS_QUEUE.md |
 
@@ -432,20 +442,38 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 
 ## Operational Protocols (Commander-Specific)
 
-### A. Directive Initialization Protocol
-*Fires at the start of every non-trivial directive.*
+### A. Directive Initialization Protocol (HARDENED — CC33)
+*Fires at the start of every session. Non-negotiable. Claude MUST actually execute these reads — not claim to, not summarize from memory. Tool calls or it didn't happen.*
 
-1. **Inbox scan**: Check `agents/commander/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`, AND for `CONFIRM-*` / `RESULT-*` files (completion replies from other agents). Triage: claim actionable tasks, acknowledge completions, note blocked ones, report stale items to Sovereign.
-1b. **Deferred commitments check**: Read `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — identify any OPEN items that overlap with current directive. Update status for items being addressed this session.
-1c. **DAG convergence check**: Read the Ascertescence Question DAG status in `cc-lineage.md` (memory) — which questions are OPEN, which are ANSWERED. Report to Sovereign if any Tier 2 questions have been open for 2+ sessions without progress. Flag C-009 (Sovereign bandwidth) as standing agenda item.
-2. **Ground truth scan**: Run `git status` — verify working tree state, confirm fingerprint matches expected
-3. **Triumvirate alignment**: CLAUDE.md (already loaded at init) + read `README.md` + read `orchestration/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive, note active urgent intentions
-4. **Plan Mode**: Enter Plan Mode for any directive touching >3 files or spanning multiple domains. Explore before executing.
-5. **Delegation assessment**: Identify tasks suitable for parallel agents:
-   - Mechanical execution, test suites, debugging, formatting, linting → dispatch to Adjudicator (`agents/adjudicator/inbox/`)
-   - Corpus surveys requiring 1M+ context → dispatch to Cartographer (`agents/cartographer/inbox/`)
-   - Use `bash orchestration/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"` — dispatch.sh auto-injects Reply-To + CC for bidirectional feedback
-   - If writing TASK files manually, you MUST include `**Reply-To**: commander` and `**CC**: commander`
+**Step 0 — Handoff Continuity Check** (FIRST THING, BEFORE ALL ELSE):
+- Use the Read tool on `agents/commander/outbox/handoffs/` to find the latest `HANDOFF-CC*.md` file (highest CC number).
+- READ IT. Extract: CC number, git HEAD, what was accomplished, what remains, what the Sovereign's last intent was.
+- Determine: Am I continuing from a handoff (most likely), or is this a fresh session with no prior lineage?
+- Report to Sovereign: "Resuming from CC{N}. Last session: {one-line summary}. Git HEAD: {hash}." OR "Fresh session — no prior handoff found. Starting CC{N}."
+- This session is CC{N+1}.
+
+**Step 1 — Commander Inbox Scan**:
+- Use the Read/Glob tool on `agents/commander/inbox/pending/` — check for `TASK-*.md`, `CONFIRM-*`, `RESULT-*` files.
+- Triage: claim actionable tasks, acknowledge completions, report stale items.
+
+**Step 2 — Ground Truth Scan**:
+- Run `git status` — verify working tree state matches handoff expectations.
+- If dirty files exist that the handoff didn't mention, flag to Sovereign.
+
+**Step 3 — Deferred Commitments + DAG Check**:
+- Read `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` — identify OPEN items.
+- Check DAG convergence status. Flag C-009 (Sovereign bandwidth) as standing agenda item.
+
+**Step 4 — Intention Compass**:
+- Read `orchestration/state/ARCH-INTENTION_COMPASS.md` — verify no conflicts with current directive.
+
+**Step 5 — Plan Mode** (conditional):
+- Enter Plan Mode for any directive touching >3 files or spanning multiple domains.
+
+**Step 6 — Delegation Assessment**:
+- Mechanical execution → dispatch to Adjudicator (`agents/adjudicator/inbox/`)
+- Corpus surveys → dispatch to Cartographer (`agents/cartographer/inbox/`)
+- Use `bash orchestration/scripts/dispatch.sh <agent> "TOPIC" "DESC" "" "TASK" "commander"`
 
 ### B. Directive Completion Protocol
 *Fires at the end of every directive, BEFORE the automated Stop hooks run.*
@@ -458,6 +486,75 @@ Staging files compact into wisdom compendiums at threshold (10 entries): run `co
 2. **Supplementary to automation**: The `create_execution_log.sh` Stop hook captures git metrics independently. This behavioral log adds the semantic content the script cannot infer.
 3. **Verify before closing**: Run `git status` — ensure no uncommitted work. If artifacts remain unstaged, commit them before the directive ends.
 4. **Sovereign question capture**: Review this session's conversation. Any question the Sovereign asked that isn't already tracked in the DAG or memory must be captured in `cc-lineage.md` with status (OPEN/ANSWERED) and tier assignment. Sovereign questions are not ephemeral — they are the DAG's input.
+
+### C. Handoff Protocol (SINGULAR — CC33 Sovereign Directive)
+*There is ONE handoff protocol. No floor/ceiling. No auto vs manual. One procedure, one location, one format.*
+
+**Authority**: Sovereign directive CC33. This supersedes all prior two-path handoff architecture.
+
+**Location**: `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` — ONE file per session. No copies to inbox. No copies to Desktop. This is the single source of truth. Every Claude session knows to look here.
+
+**Naming**: `HANDOFF-CC{N}.md` — sequential by CC number. One per session. Simple.
+
+**When**: At session end, at <15% context remaining (auto-triggered), or on explicit `/session-handoff` invocation. The procedure is identical in all cases.
+
+**Procedure**:
+
+1. **COMMIT**: `git add` and `git commit` ALL uncommitted work. No silent work loss. Use sandbox-safe commit (`git write-tree` → `git commit-tree` → `git update-ref`) if normal commit gets SIGKILL'd.
+
+2. **UPDATE STATE**:
+   - Update `orchestration/state/ARCH-INTENTION_COMPASS.md` with any new intentions or status changes from this session.
+   - Update `orchestration/state/DYN-DEFERRED_COMMITMENTS.md` with any new commitments or status changes.
+   - Update Commander memory (`agents/commander/memory/MEMORY.md`) with durable learnings.
+
+3. **WRITE HANDOFF** to `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md`:
+
+```markdown
+# HANDOFF — Commander Council {N}
+
+**Date**: {ISO timestamp}
+**Agent**: Commander (Claude Opus 4.6)
+**Session**: CC{N}
+**Git HEAD**: {short hash}
+**Trigger**: {Manual | Auto-<15% | PreCompact}
+
+## What Was Accomplished
+{Completed directives, artifacts produced, commits made — be specific}
+
+## What Remains
+{Open tasks, blockers, in-progress work with specific next steps}
+
+## Key Decisions Made
+{Rationale for each — future sessions need the WHY}
+
+## Sovereign Intent
+{What was the Sovereign trying to achieve? What direction were they pushing?}
+
+## WHAT THE NEXT SESSION MUST KNOW
+{This is the most important section. Your actual mental model of the current state.
+Warnings about traps or dead ends. Specific instructions for what to do first.
+Context that would be lost to compaction. NOT placeholders.}
+
+## Key Files
+| File | Purpose |
+|------|---------|
+{Files critical to resuming work}
+
+## Session Metrics
+- Commits: {N}
+- Files changed: {N}
+- Dirty files at handoff: {N}
+- DAG status: {X}/13 OPEN
+- C-009: {ASKED/UNASKED}
+```
+
+4. **PRINT REINITIALIZER**: Output a paste-ready prompt that the Sovereign copies into the next `claude --dangerously-skip-permissions` session:
+
+```
+Resume CC{N}. Read handoff: @agents/commander/outbox/handoffs/HANDOFF-CC{N}.md
+```
+
+This must be the LAST thing printed — visible at the cursor when the session ends.
 
 ---
 
