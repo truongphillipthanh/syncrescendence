@@ -14,6 +14,10 @@ status_weights:
 stress_multiplier_default: 1.0
 max_allowed_new_nodes_ambient: 0
 
+# Ambient charge parameters (CC39 — decouple ambient from veto)
+ambient_charge_per_node: 5.0
+ambient_charge_cap: 30.0
+
 # Lattice interference parameters
 lattice_interference_clamp_min: 0.5
 lattice_interference_clamp_max: 2.0

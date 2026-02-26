@@ -274,26 +274,38 @@ def run_once(repo_root, p, mode, now, write_state=True):
     last_fire, last_hist = read_hist(p["hist"])
     energy = audit_ambient(p["ambient"], last_hist, int(thr["max_allowed_new_nodes_ambient"]))
 
-    signal, state = "HOLD", "HOLD_EMITTED"
+    # Ambient charge: violations increase tension instead of vetoing
+    max_allowed = int(thr.get("max_allowed_new_nodes_ambient", 0))
+    charge_per_node = float(thr.get("ambient_charge_per_node", 5.0))
+    charge_cap = float(thr.get("ambient_charge_cap", 30.0))
+    excess_nodes = max(0, energy.get("max_net_new_nodes", 0) - max_allowed)
+    ambient_charge = min(charge_cap, excess_nodes * charge_per_node)
+    effective_tension = tension + ambient_charge
+
+    signal, state = "HOLD", "READY"
     if mode == "audit-only":
         reasons.append("AUDIT_ONLY_MODE")
-    elif energy["energy_audit_status"] == "REJECT":
-        reasons.append("ENERGY_VIOLATION")
-        state = "AMBIENT_REJECTED"
-    elif tension >= threshold:
+    elif effective_tension >= threshold:
         cool = dt.timedelta(hours=int(thr["cooldown_hours"]))
         if last_fire and now < (last_fire + cool):
             reasons.append("COOLDOWN_ACTIVE")
+            state = "COOLDOWN"
         else:
-            signal, state = "FIRE", "FIRE_EMITTED"
+            signal, state = "FIRE", "FIRE"
             reasons.append("THRESHOLD_EXCEEDED")
     else:
         reasons.append("BELOW_THRESHOLD")
+        state = "CHARGING" if ambient_charge > 0 else "READY"
+    if energy["energy_audit_status"] == "REJECT":
+        reasons.append("ENERGY_VIOLATION")
 
     payload = {
         "signal": signal,
         "tension": round(tension, 4),
+        "effective_tension": round(effective_tension, 4),
+        "ambient_charge": round(ambient_charge, 4),
         "threshold": threshold,
+        "oscillator_state": state,
         "node_count_unresolved": count,
         "reason_codes": sorted(set(reasons)),
         "energy_audit_status": energy["energy_audit_status"],
@@ -364,7 +376,9 @@ def self_test(_repo_root):
                 f"fire_threshold_base: {threshold}\n"
                 "cooldown_hours: 12\n"
                 "status_weights:\n  OPEN: 1.0\n  PARTIAL: 0.6\n  BLOCKED: 1.2\n"
-                "max_allowed_new_nodes_ambient: 0\n",
+                "max_allowed_new_nodes_ambient: 0\n"
+                "ambient_charge_per_node: 5.0\n"
+                "ambient_charge_cap: 30.0\n",
                 encoding="utf-8",
             )
             write_json(root / R["lattice"], {
@@ -385,7 +399,7 @@ def self_test(_repo_root):
         ("DTM-T02", lambda r: r["signal"] == "HOLD", case("DTM-T02", nodes(["PARTIAL", "PARTIAL"], 1), 10.0)),
         (
             "DTM-T03",
-            lambda r: r["signal"] == "HOLD" and r["energy_audit_status"] == "REJECT",
+            lambda r: r["signal"] == "FIRE" and r["energy_audit_status"] == "REJECT" and "ENERGY_VIOLATION" in r["reason_codes"] and r["ambient_charge"] > 0,
             case("DTM-T03", nodes(["OPEN"] * 8, 4), 30.0, ambient=[{"timestamp": "2026-02-26T11:00:00Z", "open_nodes_before": 4, "open_nodes_after": 5}]),
         ),
         (
