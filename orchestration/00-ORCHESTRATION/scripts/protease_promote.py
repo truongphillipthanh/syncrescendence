@@ -497,6 +497,19 @@ def main() -> None:
         # Write metrics
         write_metrics(repo, blocks, args.target, updated, args.dry_run)
 
+        # Post-promotion fusion hook (inside LOCK_CANON_PROMOTION)
+        try:
+            from fusion_operator import run_fusion
+            fusion_result = run_fusion(repo, dry_run=args.dry_run)
+            if fusion_result.get("fusions", 0) > 0:
+                print(f"\nFusion pass: {fusion_result['fusions']} cluster(s) fused.")
+            elif fusion_result.get("status") == "SKIPPED":
+                print(f"\nFusion skipped: {fusion_result.get('reason', 'below threshold')}")
+        except ImportError:
+            pass  # fusion_operator not available — non-fatal
+        except Exception as e:
+            print(f"\nWARNING: Fusion pass failed (non-fatal): {e}", file=sys.stderr)
+
         prefix = "[DRY RUN] " if args.dry_run else ""
         print(f"\n{prefix}Protease promote complete: {len(blocks)} axioms -> {args.target}")
     finally:
