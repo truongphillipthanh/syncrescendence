@@ -15,13 +15,32 @@ Canon axiom lifecycle (promotion, deprecation, apoptosis of canonical knowledge 
 
 ---
 
+## Capability Classes
+
+Every capability in the registry belongs to exactly one class. The class determines whether the 2:1 retirement ratio applies.
+
+| Class | Description | Examples | 2:1 Ratio |
+|-------|-------------|----------|-----------|
+| `tool` | CLI harnesses, SaaS integrations, abandoned utilities | `dispatch.sh`, `watch_dispatch.sh`, `auto_ingest_loop.sh` | **YES** — subject to 2:1 retirement ratio |
+| `platform` | Deployment targets, infrastructure | tmux session, launchd daemons, Neural Bridge | **YES** — subject to 2:1 retirement ratio |
+| `instrument` | Cognitive instruments/functions of the constellation | Clarescence, Ascertescence, Intent Compass, Reviewtrospective, Protease Protocol | **EXEMPT** — not subject to 2:1 retirement ratio |
+
+### Instrument Exemption Rationale
+
+Cognitive instruments are capabilities of the constellation's thinking — they are how the system reasons, not redundant tooling. The 2:1 ratio exists to prevent tooling sprawl: duplicate CLI scripts, abandoned integrations, parallel infrastructure serving the same niche. Instruments do not occupy the same competitive niche as tools or platforms. Adding a new certescence instrument (e.g., Reviewtrospective) does not create redundancy with existing instruments (e.g., Ascertescence) any more than acquiring a new cognitive skill makes an existing one obsolete.
+
+Instruments may still be retired through normal lifecycle transitions if they become genuinely unused, but their activation does not trigger the 2:1 ratio gate.
+
+---
+
 ## The 2:1 Ratio Rule
 
-- **Trigger**: Any capability status transition from `proposed` to `active`.
+- **Trigger**: Any capability with `class: tool` or `class: platform` transitioning from `proposed` to `active`.
 - **Requirement**: 2 retirements must be completed and archived before 1 new activation is permitted.
 - **Enforcement mode**: Automatic pre-check against the Retirement Ledger. Sovereign override waiver available (logged as a `waiver` event in the ledger).
+- **Scope**: Applies to `class: tool` and `class: platform` only. Capabilities with `class: instrument` are exempt (see Capability Classes above).
 
-No exceptions without a waiver. A waiver is not forgiveness — it is a debt that accrues.
+No exceptions for tools or platforms without a waiver. A waiver is not forgiveness — it is a debt that accrues.
 
 ---
 
@@ -37,7 +56,7 @@ Each entry tracks a single capability (platform, tool, or backlog item).
 |-------|------|-------------|
 | `capability_id` | string | Unique identifier (e.g., `CAP-0042`) |
 | `name` | string | Human-readable name |
-| `class` | enum | `platform`, `tool`, `backlog` |
+| `class` | enum | `platform`, `tool`, `instrument`, `backlog` |
 | `status` | enum | `proposed`, `active`, `retire_pending`, `retired`, `resurrection_pending`, `pilot` |
 | `niche` | string | The ecological niche this capability occupies |
 | `owner` | string | Responsible agent or Sovereign |
