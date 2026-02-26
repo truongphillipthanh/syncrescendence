@@ -205,13 +205,13 @@ def release_locks(held) -> None:
 
 def vec_list(v: Any) -> list[float]:
     if isinstance(v, list):
-        if len(v) == 5:
+        if len(v) == len(LEGACY_DIM_KEYS):
             # Legacy 5-dim list — map to 14-dim via positional legacy keys
-            legacy = {LEGACY_DIM_KEYS[i]: clamp(0.0, 1.0, fnum(v[i])) for i in range(5)}
+            legacy = {LEGACY_DIM_KEYS[i]: clamp(0.0, 1.0, fnum(v[i])) for i in range(len(LEGACY_DIM_KEYS))}
             mapped = map_legacy_dim(legacy)
             return [mapped[k] for k in DIM_KEYS]
         if len(v) != NDIM:
-            raise ValueError(f"dimension_vector list must be length {NDIM} (or 5 for legacy)")
+            raise ValueError(f"dimension_vector list must be length {NDIM} (or {len(LEGACY_DIM_KEYS)} for legacy)")
         return [clamp(0.0, 1.0, fnum(x)) for x in v]
     if isinstance(v, dict):
         # Detect legacy 5-dim dict

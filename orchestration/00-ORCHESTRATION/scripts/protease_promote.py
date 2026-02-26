@@ -476,7 +476,7 @@ def main() -> None:
                     promotable_blocks.append(b)
                 elif decision == "ADJUST":
                     repair = result.get("repair_prompt", "")
-                    iteration = result.get("iteration_count", 0)
+                    iteration = result.get("justification", {}).get("iteration_count", 0)
                     primary_id = b["source_atom_ids"][0] if b["source_atom_ids"] else b["title"]
                     print(f"  ANNEAL ADJUST: {b['title']} — quarantined for reanneal (iteration {iteration + 1}). "
                           f"Repair: {repair[:120]}...", file=sys.stderr)
