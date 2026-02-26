@@ -15,9 +15,14 @@ Review the CC39 build commits and verify that all 4 prescriptions from the CC38 
 ## Commits to Review
 
 ```
+0e9aae03 chore: remove CC30 emergency footer from constitutional configs
 00c5f072 feat: expand dimension scoring from 5 operational to 14 Meaning Taxonomy dims
 475cc648 feat: decouple ambient audit from oscillator veto — capacitive charging
 d476385d feat: fusion operator — semantic compression via merged reason class
+405eed19 docs: CC39 Adjudicator review prompt + P5 end-to-end dry run verified
+cec85aac docs: add instrument exemption to retirement protocol
+b83e2f06 docs: reframe apoptosis protocol — pruning to nucleosynthesis
+01cd18b9 fix: ADJUST loop — quarantine instead of batch abort
 ```
 
 (P1 threshold inversion was already implemented by Adjudicator in CC38 commit `22b2226d` — verify it survived the P2 changes.)
@@ -29,7 +34,10 @@ d476385d feat: fusion operator — semantic compression via merged reason class
 3. `orchestration/00-ORCHESTRATION/scripts/dag_tension_monitor.py` — ambient charge replaces veto, oscillator states (READY/CHARGING/COOLDOWN/FIRE), effective_tension in payload
 4. `orchestration/00-ORCHESTRATION/state/DYN-ASCERTESCENCE_THRESHOLDS.yaml` — ambient_charge_per_node, ambient_charge_cap added
 5. `orchestration/00-ORCHESTRATION/scripts/fusion_operator.py` — NEW: cluster detection, tombstones, binding energy, reanneal queue, fusion ledger
-6. `orchestration/00-ORCHESTRATION/scripts/protease_promote.py` — post-promotion fusion hook wired inside canon lock
+6. `orchestration/00-ORCHESTRATION/scripts/protease_promote.py` — post-promotion fusion hook + ADJUST loop fix (quarantine instead of batch abort)
+7. `canon/01-CANON/apoptosis_protocol.md` — rhetoric reframe: pruning → nucleosynthesis
+8. `canon/01-CANON/retirement_protocol.md` — class: instrument exemption added
+9. `AGENTS.md` + `CLAUDE.md` — CC30 emergency footer removed
 
 ## Review Checklist
 
@@ -87,6 +95,9 @@ d476385d feat: fusion operator — semantic compression via merged reason class
 ### P2 14-Dim: [PASS/FAIL] + defects
 ### P3 Ambient: [PASS/FAIL] + defects
 ### P4 Fusion: [PASS/FAIL] + defects
+### P5 ADJUST Loop Fix: [PASS/FAIL] + defects
+### P6 Apoptosis Reframe: [PASS/FAIL] — rhetoric only, no mechanical changes
+### P7 Retirement Instrument Exemption: [PASS/FAIL]
 ### Cross-cutting: [findings]
 
 ## Remediation Required
