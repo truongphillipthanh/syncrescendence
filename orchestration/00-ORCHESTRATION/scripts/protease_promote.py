@@ -34,6 +34,7 @@ QUEUE_REL      = "orchestration/00-ORCHESTRATION/state/DYN-PROTEASE_QUEUE.jsonl"
 ATOM_INDEX_REL = "sources/04-SOURCES/_meta/DYN-ATOM_INDEX.jsonl"
 METRICS_JSONL  = "orchestration/00-ORCHESTRATION/state/DYN-PROTEASE_METRICS.jsonl"
 METRICS_MD     = "orchestration/00-ORCHESTRATION/state/DYN-PROTEASE_METRICS.md"
+REANNEAL_QUEUE = "orchestration/00-ORCHESTRATION/state/DYN-REANNEAL_QUEUE.jsonl"
 
 TARGET_PATHS = {
     "praxis": "praxis/05-SIGMA/practice/PRAC-PROTEASE_AXIOMS.sn.md",
@@ -460,26 +461,53 @@ def main() -> None:
         check_duplicates(sn_path, blocks)
 
         # Lattice Annealer Gate (v2 — mandatory for canon promotion)
+        # Per CANON-ONTOLOGY-GATE_v2.md Rules 6/7: ADJUST is iterative (max 3),
+        # not an immediate batch abort. Only REJECT hard-blocks an atom.
+        quarantined = []
+        rejected = []
+        promotable_blocks = []
         if args.target == "canon":
-            blocked = []
             for b in blocks:
                 result = run_annealer_gate(b, repo, skip=args.skip_annealer)
                 decision = result.get("decision", "REJECT")
                 justification = result.get("justification", {})
                 if decision == "PROMOTE":
                     print(f"  ANNEAL PASS: {b['title']} (coherence={justification.get('coherence_score', '?')})")
+                    promotable_blocks.append(b)
                 elif decision == "ADJUST":
                     repair = result.get("repair_prompt", "")
-                    print(f"  ANNEAL ADJUST: {b['title']} — needs repair. Prompt: {repair[:120]}...",
-                          file=sys.stderr)
-                    blocked.append(b["title"])
+                    iteration = result.get("iteration_count", 0)
+                    primary_id = b["source_atom_ids"][0] if b["source_atom_ids"] else b["title"]
+                    print(f"  ANNEAL ADJUST: {b['title']} — quarantined for reanneal (iteration {iteration + 1}). "
+                          f"Repair: {repair[:120]}...", file=sys.stderr)
+                    quarantined.append(b["title"])
+                    # Queue for reanneal per CC38 Adjudicator contract
+                    if not args.skip_annealer and not args.dry_run:
+                        reanneal_entry = {
+                            "atom_id": primary_id,
+                            "source_atom_ids": list(b["source_atom_ids"]),
+                            "title": b["title"],
+                            "repair_prompt": repair,
+                            "iteration_count": iteration + 1,
+                            "status": "QUARANTINED_ADJUST_PENDING",
+                            "queued_at": datetime.now(timezone.utc).isoformat(),
+                        }
+                        append_jsonl(repo / REANNEAL_QUEUE, reanneal_entry)
                 else:
                     codes = justification.get("reason_codes", [])
                     print(f"  ANNEAL REJECT: {b['title']} — {codes}", file=sys.stderr)
-                    blocked.append(b["title"])
-            if blocked and not args.skip_annealer:
-                die(f"Annealer blocked {len(blocked)} axiom(s): {blocked}. "
+                    rejected.append(b["title"])
+            if rejected and not args.skip_annealer:
+                die(f"Annealer rejected {len(rejected)} axiom(s): {rejected}. "
                     f"Fix and retry, or use --skip-annealer for testing.")
+            blocks = promotable_blocks
+        else:
+            promotable_blocks = blocks
+
+        # Recollect atom IDs from promotable blocks only (quarantined atoms excluded)
+        all_atom_ids = []
+        for b in blocks:
+            all_atom_ids.extend(b["source_atom_ids"])
 
         # Transition atoms in index
         updated = transition_atoms(index_path, all_atom_ids, target_status, args.dry_run)
@@ -512,6 +540,10 @@ def main() -> None:
 
         prefix = "[DRY RUN] " if args.dry_run else ""
         print(f"\n{prefix}Protease promote complete: {len(blocks)} axioms -> {args.target}")
+        if quarantined:
+            print(f"\nWARNING: {len(quarantined)} atom(s) quarantined (ADJUST — pending reanneal): "
+                  f"{quarantined}", file=sys.stderr)
+            print(f"Reanneal queue: {repo / REANNEAL_QUEUE}", file=sys.stderr)
     finally:
         if canon_lock_fd is not None:
             fcntl.flock(canon_lock_fd, fcntl.LOCK_UN)
