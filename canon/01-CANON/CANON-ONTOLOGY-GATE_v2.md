@@ -99,7 +99,7 @@ ANNEAL_PRECHECK
 5. **Dynamic coherence threshold**: The gate threshold for `axiom_alignment_score` relaxes proportionally to measured Lattice coherence.
 
    ```
-   required = clamp(0.60, 0.78, 0.70 - 0.25 * (global_coherence - 0.70))
+   required = clamp(0.60, 0.78, 0.70 + 0.25 * (global_coherence - 0.70))
    ```
 
    Where:

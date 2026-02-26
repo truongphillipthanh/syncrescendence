@@ -546,7 +546,7 @@ def health_update(prev: dict[str, Any], c: dict[str, Any], s: dict[str, Any], de
 
 
 def threshold(global_coherence: float) -> tuple[float, bool]:
-    raw = 0.70 - 0.25 * (global_coherence - 0.70)
+    raw = 0.70 + 0.25 * (global_coherence - 0.70)
     req = clamp(0.60, 0.78, raw)
     return round(req, 6), abs(req - raw) > 1e-9
 
@@ -960,15 +960,22 @@ def self_test(_: Path) -> int:
         o4, _ = run_once(root, cpath, idx_path, 3, "gate", write_state=True)
         rec("LAN-T04", "hard_reject_on_drift", o4["decision"] == "REJECT" and "HARD_REJECT_DRIFT" in set(o4["justification"]["reason_codes"]) and o4["repair_prompt"] is None, json.dumps(o4, sort_keys=True))
 
-        high = health_default()
-        high["global_coherence"] = 0.90
-        write_json_atomic(health_path, high)
-        c5 = cand_base()
-        c5["atom_id"] = "ATOM-TEST-005"
-        write_candidate(cpath, c5)
-        o5, _ = run_once(root, cpath, idx_path, 3, "gate", write_state=True)
-        r5 = fnum(o5["justification"]["required_threshold"])
-        rec("LAN-T05", "dynamic_threshold_relaxes_with_high_global_coherence", r5 < 0.70 and r5 >= 0.60, json.dumps(o5, sort_keys=True))
+        t50, _ = threshold(0.50)
+        t00, _ = threshold(0.00)
+        t100, _ = threshold(1.00)
+        rec(
+            "LAN-T05",
+            "dynamic_threshold_relaxes_with_low_global_coherence",
+            t50 == 0.65 and t00 == 0.60 and t100 == 0.775,
+            json.dumps(
+                {
+                    "global_coherence_0_50": t50,
+                    "global_coherence_0_00": t00,
+                    "global_coherence_1_00": t100,
+                },
+                sort_keys=True,
+            ),
+        )
 
     passed = sum(1 for c in cases if c["status"] == "PASS")
     failed = len(cases) - passed

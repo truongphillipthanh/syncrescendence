@@ -103,7 +103,7 @@ def adapt(atom: dict, repo_root: Path) -> dict:
 
     return {
         "atom_id": atom["atom_id"],
-        "source_atom_ids": [atom["atom_id"]],
+        "source_atom_ids": list(atom.get("source_atom_ids") or [atom["atom_id"]]),
         "content": content,
         "metadata": {
             "origin_hash": atom.get("origin_hash", ""),
