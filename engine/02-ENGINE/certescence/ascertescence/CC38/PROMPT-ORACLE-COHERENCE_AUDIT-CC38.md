@@ -5,6 +5,7 @@
 **To**: Oracle (Grok)
 **Cycle**: CC38 — First Reviewtrospective
 **Reply-To**: Commander (Sovereign relays to `-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-COHERENCE_AUDIT-CC38.md`)
+**Repository**: https://github.com/truongphillipthanh/syncrescendence (synced to HEAD `5798dfe4`)
 
 ---
 
