@@ -33,6 +33,8 @@ SAFE_THR = {
     "cooldown_hours": 12,
     "status_weights": {"OPEN": 1.0, "PARTIAL": 0.6, "BLOCKED": 1.2},
     "max_allowed_new_nodes_ambient": 0,
+    "ambient_charge_per_node": 5.0,
+    "ambient_charge_cap": 30.0,
 }
 SAFE_LATTICE = {"global_coherence": 0.70, "global_drift": 0.0, "fragmentation_index": 0.0}
 
@@ -136,6 +138,8 @@ def load_thresholds(path):
             raise ValueError("invalid")
         cfg.update({"fire_threshold_base": fire, "cooldown_hours": cool, "status_weights": w})
         cfg["max_allowed_new_nodes_ambient"] = int(d.get("max_allowed_new_nodes_ambient", 0))
+        cfg["ambient_charge_per_node"] = float(d.get("ambient_charge_per_node", 5.0))
+        cfg["ambient_charge_cap"] = float(d.get("ambient_charge_cap", 30.0))
     except Exception:
         reasons.append("INVALID_THRESHOLD_CONFIG")
     return cfg, reasons
@@ -276,8 +280,8 @@ def run_once(repo_root, p, mode, now, write_state=True):
 
     # Ambient charge: violations increase tension instead of vetoing
     max_allowed = int(thr.get("max_allowed_new_nodes_ambient", 0))
-    charge_per_node = float(thr.get("ambient_charge_per_node", 5.0))
-    charge_cap = float(thr.get("ambient_charge_cap", 30.0))
+    charge_per_node = float(thr["ambient_charge_per_node"])
+    charge_cap = float(thr["ambient_charge_cap"])
     excess_nodes = max(0, energy.get("max_net_new_nodes", 0) - max_allowed)
     ambient_charge = min(charge_cap, excess_nodes * charge_per_node)
     effective_tension = tension + ambient_charge
