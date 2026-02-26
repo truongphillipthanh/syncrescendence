@@ -1,8 +1,8 @@
 {
-  "generated": "2026-02-25T01:36:07.467637+00:00",
+  "generated": "2026-02-26T12:22:42.051013+00:00",
   "safe_point": {
-    "hash": "7661a7ae",
-    "date": "2026-02-24"
+    "hash": "82967d54",
+    "date": "2026-02-26"
   },
   "current_phase": {
     "id": "2",
@@ -50,36 +50,6 @@
   ],
   "promoters": [
     {
-      "id": "INT-2301",
-      "title": "Fix Docker on Mac mini, bring Neo4j + Graphiti online"
-    },
-    {
-      "id": "INT-2302",
-      "title": "Agent fleet audit — verify which tmux panes are actually functional"
-    },
-    {
-      "id": "INT-2303",
-      "title": "Memory Phase 1 — memsync daemon + JSONL journals — EXECUTE the spec"
-    }
-  ],
-  "intentions_top10": [
-    {
-      "id": "INT-2301",
-      "title": "Fix Docker on Mac mini, bring Neo4j + Graphiti online"
-    },
-    {
-      "id": "INT-2302",
-      "title": "Agent fleet audit — verify which tmux panes are actually functional"
-    },
-    {
-      "id": "INT-2303",
-      "title": "Memory Phase 1 — memsync daemon + JSONL journals — EXECUTE the spec"
-    },
-    {
-      "id": "INT-2304",
-      "title": "Install antifragile scaffold scripts (validate + heal) BEFORE any rename"
-    },
-    {
       "id": "INT-1202",
       "title": "capitalize on these heavy machinery to construct as much of Syncrescendence"
     },
@@ -88,8 +58,18 @@
       "title": "Begin ALL automations"
     },
     {
-      "id": "INT-1209",
-      "title": "Temporal intelligence refresh pipeline"
+      "id": "INT-1203",
+      "title": "design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid"
+    }
+  ],
+  "intentions_top10": [
+    {
+      "id": "INT-1202",
+      "title": "capitalize on these heavy machinery to construct as much of Syncrescendence"
+    },
+    {
+      "id": "INT-1612",
+      "title": "Begin ALL automations"
     },
     {
       "id": "INT-1203",
@@ -102,6 +82,26 @@
     {
       "id": "INT-1501",
       "title": "Maximize Claude Code autonomy, close that final 30%"
+    },
+    {
+      "id": "INT-1503",
+      "title": "Close 30% gap to fiduciary level — Commander must self-improve, embrace or die"
+    },
+    {
+      "id": "INT-1504",
+      "title": "Cascade deployment from Mac mini HQ to MBA field ops"
+    },
+    {
+      "id": "INT-1505",
+      "title": "Deep syncretization of sci-fi/gaming/literature narratives"
+    },
+    {
+      "id": "INT-1506",
+      "title": "We are a Neo-organization — individual + AI constellation as institutional eq..."
+    },
+    {
+      "id": "INT-1601",
+      "title": "Syncrescript synchronized to corpus, adopt Rails sensibilities"
     }
   ],
   "transcription_factors": "Phase 2 output: structured markdown artifacts committed to repo with semantic prefixes",
@@ -114,5 +114,5 @@
     "session_state_brief.py",
     "state_vector.py"
   ],
-  "memory_status": "journal files: 3"
+  "memory_status": "journal files: 4"
 }

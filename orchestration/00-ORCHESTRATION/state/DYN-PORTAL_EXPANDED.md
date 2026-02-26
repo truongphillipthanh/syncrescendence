@@ -1,5 +1,5 @@
 # Expanded Portal (Tier 2)
-*Generated: 2026-02-25T01:36:07Z*
+*Generated: 2026-02-26T12:22:42Z*
 
 ## Phase Status
 
@@ -22,16 +22,16 @@
 - Deferring ledger updates to "later"
 
 ## Active Intentions (Top 10)
-1. **INT-2301**: Fix Docker on Mac mini, bring Neo4j + Graphiti online
-2. **INT-2302**: Agent fleet audit — verify which tmux panes are actually functional
-3. **INT-2303**: Memory Phase 1 — memsync daemon + JSONL journals — EXECUTE the spec
-4. **INT-2304**: Install antifragile scaffold scripts (validate + heal) BEFORE any rename
-5. **INT-1202**: capitalize on these heavy machinery to construct as much of Syncrescendence
-6. **INT-1612**: Begin ALL automations
-7. **INT-1209**: Temporal intelligence refresh pipeline
-8. **INT-1203**: design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid
-9. **INT-1206**: Complete Efficacy, Mastery, Transcendence IIC configs
-10. **INT-1501**: Maximize Claude Code autonomy, close that final 30%
+1. **INT-1202**: capitalize on these heavy machinery to construct as much of Syncrescendence
+2. **INT-1612**: Begin ALL automations
+3. **INT-1203**: design/architect for 3 Claude + 1 Gemini + 1 ChatGPT paid
+4. **INT-1206**: Complete Efficacy, Mastery, Transcendence IIC configs
+5. **INT-1501**: Maximize Claude Code autonomy, close that final 30%
+6. **INT-1503**: Close 30% gap to fiduciary level — Commander must self-improve, embrace or die
+7. **INT-1504**: Cascade deployment from Mac mini HQ to MBA field ops
+8. **INT-1505**: Deep syncretization of sci-fi/gaming/literature narratives
+9. **INT-1506**: We are a Neo-organization — individual + AI constellation as institutional eq...
+10. **INT-1601**: Syncrescript synchronized to corpus, adopt Rails sensibilities
 
 ## Transcription Factors
 Phase 2 output: structured markdown artifacts committed to repo with semantic prefixes
@@ -45,9 +45,9 @@ Phase 2 output: structured markdown artifacts committed to repo with semantic pr
 - `orchestration/00-ORCHESTRATION/scripts/state_vector.py`
 
 ## Memory Status
-journal files: 3
+journal files: 4
 
-## Last Safe Point: `7661a7ae` (2026-02-24)
+## Last Safe Point: `82967d54` (2026-02-26)
 
 ## Depth Links
 - Deferred Commitments: `orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md`
