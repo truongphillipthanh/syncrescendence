@@ -11,6 +11,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 import tempfile
 import time
@@ -312,6 +313,84 @@ def die(msg: str) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Lattice Annealer Gate (v2 — CC37)
+# ---------------------------------------------------------------------------
+
+SCRIPTS_DIR = Path(__file__).parent
+
+def run_annealer_gate(block: dict, repo: Path, skip: bool = False) -> dict:
+    """Run candidate_adapter + lattice_annealer as pre-promotion gate.
+
+    Returns {"decision": "PROMOTE"|"ADJUST"|"REJECT", "justification": {...}, ...}
+    If skip=True, returns synthetic PROMOTE (with warning).
+    """
+    if skip:
+        print("WARNING: --skip-annealer active. CANON-ONTOLOGY-GATE_v2 requires annealer.",
+              file=sys.stderr)
+        return {"decision": "PROMOTE", "justification": {"reason_codes": ["ANNEALER_SKIPPED"]}}
+
+    adapter_script = SCRIPTS_DIR / "candidate_adapter.py"
+    annealer_script = SCRIPTS_DIR / "lattice_annealer.py"
+
+    for script in (adapter_script, annealer_script):
+        if not script.exists():
+            die(f"Annealer gate: missing {script.name}. Cannot promote without v2 gate.")
+
+    # Build adapter input from block
+    adapter_input = {
+        "atom_id": block["source_atom_ids"][0] if block["source_atom_ids"] else block["title"],
+        "source_file": "",
+        "content": block["axiom_text"],
+        "origin_hash": "",
+        "axiom_alignment_score": 0.9,
+        "terminal_domain": "",
+        "matched_intention": block.get("matched_intention", "NONE"),
+        "drift_score": 0.0,
+    }
+
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as f_in:
+        json.dump(adapter_input, f_in)
+        input_path = f_in.name
+    output_path = input_path + ".adapted.json"
+
+    try:
+        # Step 1: Adapt
+        r = subprocess.run(
+            [sys.executable, str(adapter_script),
+             "--repo-root", str(repo),
+             "--input-json", input_path,
+             "--output-json", output_path],
+            capture_output=True, text=True, timeout=30)
+        if r.returncode != 0:
+            die(f"candidate_adapter failed: {r.stderr.strip()}")
+
+        # Step 2: Anneal
+        r = subprocess.run(
+            [sys.executable, str(annealer_script),
+             "--repo-root", str(repo),
+             "--candidate-json", output_path,
+             "--mode", "gate"],
+            capture_output=True, text=True, timeout=60)
+        if r.returncode != 0:
+            die(f"lattice_annealer failed: {r.stderr.strip()}")
+
+        # Parse annealer stdout JSON
+        result = json.loads(r.stdout)
+        return result
+
+    except subprocess.TimeoutExpired:
+        die("Annealer gate timed out")
+    except json.JSONDecodeError:
+        die(f"Annealer returned invalid JSON: {r.stdout[:200]}")
+    finally:
+        for p in (input_path, output_path):
+            try:
+                os.unlink(p)
+            except OSError:
+                pass
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -326,6 +405,8 @@ def main() -> None:
                         help="Destination tier")
     parser.add_argument("--dry-run", action="store_true",
                         help="Preview without writing")
+    parser.add_argument("--skip-annealer", action="store_true",
+                        help="Skip lattice annealer gate (v2 requires it — use only for testing)")
     args = parser.parse_args()
 
     repo = args.repo_root.resolve()
@@ -357,6 +438,28 @@ def main() -> None:
     # Duplicate check
     ensure_sn_file(sn_path, args.target)
     check_duplicates(sn_path, blocks)
+
+    # Lattice Annealer Gate (v2 — mandatory for canon promotion)
+    if args.target == "canon":
+        blocked = []
+        for b in blocks:
+            result = run_annealer_gate(b, repo, skip=args.skip_annealer)
+            decision = result.get("decision", "REJECT")
+            justification = result.get("justification", {})
+            if decision == "PROMOTE":
+                print(f"  ANNEAL PASS: {b['title']} (coherence={justification.get('coherence_score', '?')})")
+            elif decision == "ADJUST":
+                repair = result.get("repair_prompt", "")
+                print(f"  ANNEAL ADJUST: {b['title']} — needs repair. Prompt: {repair[:120]}...",
+                      file=sys.stderr)
+                blocked.append(b["title"])
+            else:
+                codes = justification.get("reason_codes", [])
+                print(f"  ANNEAL REJECT: {b['title']} — {codes}", file=sys.stderr)
+                blocked.append(b["title"])
+        if blocked and not args.skip_annealer:
+            die(f"Annealer blocked {len(blocked)} axiom(s): {blocked}. "
+                f"Fix and retry, or use --skip-annealer for testing.")
 
     # Transition atoms in index
     updated = transition_atoms(index_path, all_atom_ids, target_status, args.dry_run)
