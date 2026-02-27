@@ -1,0 +1,114 @@
+# Nucleosynthesis Routing Table — CC47 Skeleton
+#
+# This table drives nucleosynthesis_route.py. Each type has:
+#   - target_dir: where files go (relative to target_base)
+#   - patterns: list of regex patterns matched against filenames
+#   - description: human-readable purpose
+#
+# Patterns are evaluated in type order — first match wins.
+# Edit patterns here, not in the script.
+#
+# STATUS: SKELETON — patterns are minimal placeholders.
+# Blocked on canon remediation Passes 5-8 for final structure.
+
+target_base: /Users/system/syncrescendence
+
+# Directories that must exist before --execute runs.
+# The routing script creates these automatically.
+directories:
+  # These will be finalized post-canon ratification.
+  # Placeholder structure based on CC46 8-type proposal:
+  # - feed/
+  # - instruments/
+  # - agent-workspace/
+  # - engine/
+  # - arch/
+  # - infra/
+  # - notebooks/
+
+types:
+  # === FEED: SOURCE → EXTRACT → META pipeline (~66% of corpus) ===
+  FEED:
+    target_dir: feed
+    description: "Source documents, extracts, enrichments, atoms"
+    patterns:
+      - "^SOURCE-"
+      - "^EXTRACT-"
+      - "^META-"
+      - "^\\d{8}-"            # date-prefixed source atoms (20260127-*)
+      - "\\.jsonl$"           # atom streams
+
+  # === INSTRUMENT: Triangulation artifacts (~7%) ===
+  INSTRUMENT:
+    target_dir: instruments
+    description: "Prompts, responses, clarescence, handoffs, decision atoms"
+    patterns:
+      - "^PROMPT-"
+      - "^RESPONSE-"
+      - "^HANDOFF-"
+      - "^DECISION_ATOMS-"
+      - "^CLARESCENCE-"
+
+  # === AGENT: Constellation workspace (~10%) ===
+  AGENT:
+    target_dir: agent-workspace
+    description: "Agent inbox/outbox artifacts, tasks, results, confirms"
+    patterns:
+      - "^TASK-"
+      - "^RESULT-"
+      - "^CONFIRM-"
+      - "^EXECLOG-"
+      - "^RECEIPT-"
+      - "^INIT-"
+
+  # === ENGINE: Avatar/capability/function definitions (~1.5%) ===
+  ENGINE:
+    target_dir: engine
+    description: "Prompts, avatars, model profiles, queue items, capabilities"
+    patterns:
+      - "^CAP-"
+      - "^QUEUE-"
+      - "^FUNC-"
+      - "^AVATAR-"
+      - "^MODEL-"
+
+  # === ARCH: Architecture docs, state, references (~3%) ===
+  ARCH:
+    target_dir: arch
+    description: "Architecture docs, state files, reference materials, praxis"
+    patterns:
+      - "^ARCH-"
+      - "^DYN-"
+      - "^REF-"
+      - "^SCAFF-"
+      - "^PROTOCOL-"
+      - "^TEMPLATE-"
+
+  # === INFRA: Scripts, configs, daemons (~3%) ===
+  INFRA:
+    target_dir: infra
+    description: "Shell scripts, Python scripts, configs, launchd plists, locks"
+    patterns:
+      - "\\.sh$"
+      - "\\.py$"
+      - "\\.plist$"
+      - "^SCRIPT-"
+      - "^config\\."
+      - "\\.lock$"
+
+  # === NOTEBOOK: Research compilations (~2%) ===
+  NOTEBOOK:
+    target_dir: notebooks
+    description: "Research compilations, themed collections"
+    patterns:
+      - "^NOTEBOOK-"
+      - "^COMPILATION-"
+      - "^RESEARCH-"
+
+  # === SOVEREIGN: Sovereign decision artifacts ===
+  SOVEREIGN:
+    target_dir: sovereign
+    description: "Sovereign decisions, resolutions, directives"
+    patterns:
+      - "^SOVEREIGN-"
+      - "^DC-"
