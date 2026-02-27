@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-# ⚠️ EMERGENCY MODE (CC30) — ALL OUTPUTS MUST CARRY THIS HEADER AND FOOTER ⚠️
-# ZERO TRUST. Every claim requires evidence. Every pathway must terminate at canon.
-# Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
+# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE ⚠️
+# Content transformation: >0%. Atoms promoted: 6. DAG: 6/13 PARTIAL, 7/13 ANSWERED. C-009: ANSWERED.
 from config import *
 
 # session_state_brief.py — Descriptive session state brief generator
@@ -12,6 +11,7 @@ from config import *
 # Every section wrapped in try/except with fallback text.
 
 import json, re, subprocess, glob, os, sys
+from pathlib import Path
 from datetime import datetime, timezone
 from urllib.request import urlopen
 from urllib.error import URLError

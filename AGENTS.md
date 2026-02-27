@@ -326,7 +326,7 @@ OpenClaw agents may concurrently read/write to the filesystem. Check `git status
 | Reference | Path |
 |-----------|------|
 | Constellation mapping | `README.md` (authoritative avatar/role assignments) |
-| Terminology reconciliation | `engine/REF-ROSETTA_STONE.md` |
+| Terminology reconciliation | `engine/02-ENGINE/REF-ROSETTA_STONE.md` |
 | Fleet operations | `engine/REF-FLEET_COMMANDERS_HANDBOOK.md` |
 | Technology stack | `engine/REF-STACK_TELEOLOGY.md` |
 | Operational knowledge | `praxis/` (31 docs: mechanics, practice, syntheses, exempla) |

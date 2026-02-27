@@ -1,6 +1,5 @@
-# ⚠️ EMERGENCY MODE (CC30) — ALL OUTPUTS MUST CARRY THIS HEADER AND FOOTER ⚠️
-# ZERO TRUST. Every claim requires evidence. Every pathway must terminate at canon.
-# Content transformation: 0%. Atoms promoted: 0. DAG: 7/13 OPEN. C-009: UNASKED.
+# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE ⚠️
+# Content transformation: >0%. Atoms promoted: 6. DAG: 6/13 PARTIAL, 7/13 ANSWERED. C-009: ANSWERED.
 
 # Psyche Memory
 
