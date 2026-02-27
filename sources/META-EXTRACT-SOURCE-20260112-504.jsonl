@@ -1,0 +1,1 @@
+{"atom_id": "ATOM-SOURCE-20260112-504-0001", "source_id": "SOURCE-20260112-504", "category": "claim", "content": "AI is ubiquitous on college campuses.", "line_start": 9, "line_end": 9, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.9, 0.0, 0.1, 0.0, 0.9], "opposes_atom_ids": []}, "extensions": {}}

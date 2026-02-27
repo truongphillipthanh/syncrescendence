@@ -1,0 +1,1 @@
+{"atom_id": "ATOM-SOURCE-20251219-790-0001", "source_id": "SOURCE-20251219-790", "category": "claim", "content": "Firefox is increasing its focus on AI.", "line_start": 10, "line_end": 10, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.1, 0.8], "opposes_atom_ids": []}, "extensions": {}}

@@ -1,0 +1,1 @@
+CC_PIPE_TEST2_OK

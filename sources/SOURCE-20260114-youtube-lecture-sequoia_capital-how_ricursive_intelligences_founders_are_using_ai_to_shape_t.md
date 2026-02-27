@@ -1,0 +1,59 @@
+---
+id: SOURCE-20260114-463
+platform: youtube
+format: lecture
+cadence: evergreen
+value_modality: audio_primary
+signal_tier: strategic
+status: raw
+chain: null
+topics:
+  - "ricursive"
+  - "intelligence"
+  - "founders"
+  - "using"
+  - "shape"
+creator: "Sequoia Capital"
+guest: null
+title: "How Ricursive Intelligence’s Founders are Using AI to Shape The Future of Chip Design"
+url: "https://www.youtube.com/watch?v=55LT52eVArM"
+date_published: 2026-01-14
+date_processed: 2026-02-22
+date_integrated: null
+processing_function: transcribe_youtube
+integrated_into: []
+duration: "37m"
+has_transcript: no
+synopsis: "How Ricursive Intelligence’s Founders are Using AI to Shape The Future of Chip Design by Sequoia Capital. A lecture covering ricursive, intelligence, founders."
+key_insights: []
+visual_notes: null
+teleology: strategize
+notebooklm_category: vibe-coding
+aliases:
+  - "How Ricursive Intelligence’s Founders"
+  - "How Ricursive Intelligence’s Founders are Using"
+---
+
+# How Ricursive Intelligence’s Founders are Using AI to Shape The Future of Chip Design
+
+**Channel**: Sequoia Capital
+**Published**: 2026-01-14
+**Duration**: 37m
+**URL**: https://www.youtube.com/watch?v=55LT52eVArM
+
+## Description (no transcript available)
+
+Anna Goldie and Azalia Mirhoseini created AlphaChip at Google, using AI to design four generations of TPUs and reducing chip floor planning from months to hours. They explain how chip design has become the critical bottleneck for AI progress -- a process that typically takes years and costs hundreds of millions of dollars. Now at Ricursive Intelligence, they're enabling an evolution of the industry from “fabless” to "designless," where any company can create custom silicon with Ricursive Intelligence. Their vision: recursive self-improvement where AI designs more powerful chips, and faster, accelerating AI itself.
+
+Hosted by Stephanie Zhan and Sonya Huang
+
+00:00 Introduction
+00:56 Meet the Founders of Ricursive Intelligence
+03:00 The Alpha Chip Project: A Game Changer
+03:50 Challenges and Innovations in Chip Placement
+06:26 Revolutionizing Floor Planning with AI
+09:40 Recursive Self-Improvement and Superhuman Performance
+16:21 The Future of Chip Design: From Fabs to Designless
+22:36 Navigating Industry Skepticism and Adoption
+27:21 The Role of AI in the Future of Chip Design
+32:46 Final Thoughts and Future Vision
