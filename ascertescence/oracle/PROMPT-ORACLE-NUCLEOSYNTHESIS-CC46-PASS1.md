@@ -36,7 +36,7 @@ The project has been running since early 2025. It has produced:
 
 All of this — 13,364 files — has been merged into a single flat directory called `corpus/`. The original directory structure was destroyed. Filenames encode former paths using hyphens (e.g., `-scaffold-agents-commander-memory-MEMORY.md.md` was originally at `scaffold/agents/commander/memory/MEMORY.md`).
 
-We need to understand what's actually in this pile before we can reorganize it. That's your job across 4 passes. This is Pass 1.
+We need to understand what's actually in this pile before we can reorganize it. That's your job across 4 passes in this thread. This is Pass 1.
 
 ## WHAT THE CORPUS CONTAINS (by the numbers)
 
@@ -78,92 +78,51 @@ SOURCE-20260213-youtube-interview-essentia_foundation-the_science_that_can_end_t
 EXTRACT-SOURCE-20020201-001.md
 EXTRACT-SOURCE-20020201-001.jsonl
 EXTRACT-SOURCE-20020201-001.bridge.jsonl
-EXTRACT-SOURCE-20260218-008.bridge.jsonl
 
 # Meta (pairing metadata for sources)
 META-EXTRACT-SOURCE-20251125-981.md
-META-EXTRACT-SOURCE-20260217-037.md
 META-CENSUS-pool-a.csv
-META-CENSUS-pool-c.csv
 
 # Agent workspace files
 AGENT-COMMANDER-INBOX-DONE-CONFIRM-psyche-20260209-claresce3_pass1_infra_audit.md
 AGENT-ADJUDICATOR-INBOX-DONE-TASK-20260216-research_architecture_verification.md
-AGENT-PSYCHE-OUTBOX-RECEIPT-ajna-TASK-20260206-ghostty_spacing.md
 
 # Operational scripts
-atom_cluster.py          — clusters extracted atoms by semantic similarity
-auto_ingest_loop.sh      — agent task dispatch system (polls inbox every 30s)
-ascertescence_relay.sh   — routes prompts/responses to Desktop for Sovereign relay
-_write_configs.py        — generates CLAUDE.md/GEMINI.md from AGENTS.md
-state_vector.py          — auto-generates system state portal
-batch_enrich.py          — enriches source documents with metadata
-sn_decode.py             — decodes Semantic Notation symbols
+atom_cluster.py, auto_ingest_loop.sh, ascertescence_relay.sh, _write_configs.py
+state_vector.py, batch_enrich.py, sn_decode.py
 
 # Engine files (avatars, capabilities, functions)
-ENGINE-AVATAR-GROK.md         — YOUR avatar/identity file
-ENGINE-AVATAR-COMMANDER.md    — Commander's avatar
-ENGINE-AVATAR-CODEX.md        — Adjudicator's avatar
-ENGINE-CAP-001-context_management.yaml  — capability definition
-ENGINE-FUNC-absorb.xml        — function definition (XML schema)
+ENGINE-AVATAR-GROK.md, ENGINE-AVATAR-COMMANDER.md
+ENGINE-CAP-001-context_management.yaml
+ENGINE-FUNC-absorb.xml, ENGINE-FUNC-amalgamate.xml
 
 # Triangulation artifacts
-PROMPT-ADJUDICATOR-ASCERTESCENCE-CC28.md    — prompt sent to Adjudicator
-RESPONSE-ADJUDICATOR-ASCERTESCENCE-CC26.md  — Adjudicator's response
+PROMPT-ADJUDICATOR-ASCERTESCENCE-CC28.md
 RESPONSE-ADJUDICATOR-ASCERTESCENCE-CC35.md
 
-# Clarescence (illumination documents)
+# Clarescence, handoffs, architecture, praxis
 CLARESCENCE-2026-02-04-truth-surfaces-substrate.md
-CLARESCENCE-2026-02-05-comprehensive-forward-path.md
-
-# Session handoffs
-HANDOFF-20260222-council21.md
 HANDOFF-CC40.md
+ARCH-AUTOMATION_MASTER_PLAN.md, ARCH-LOCK_HIERARCHY.yaml
+PRAXIS-EXEMPLA-APHORISMS.md, PRAXIS-MECHANICS-MECH-context_compaction_strategies.md
 
 # Dynamic state
-DYN-TASKS.csv              — master task ledger
-DYN-ASCERTESCENCE_INCIDENTS.jsonl
-DYN-API_PRICING.csv
-DYN-ACCOUNTS.csv
-DYN-STATE_VECTOR.json
+DYN-TASKS.csv, DYN-STATE_VECTOR.json, DYN-API_PRICING.csv
 
-# Architecture documents
-ARCH-AUTOMATION_MASTER_PLAN.md
-ARCH-CANDIDATE_ADAPTER_CONTRACT.yaml
-ARCH-LOCK_HIERARCHY.yaml
+# Flattening duplicates (same content, encoded from different former paths)
+auto_ingest_loop.sh  AND  auto_ingest_loop-scaffold-scripts-root-auto_ingest_loop.sh.sh
+ARCH-AUTOMATION_MASTER_PLAN.md  AND  ARCH-AUTOMATION_MASTER_PLAN-logs-state-ARCH-AUTOMATION_MASTER_PLAN.md.md
 
-# Research notebooks (thematic groupings)
-NOTEBOOK-01-OPENCLAW-ARCHITECTURE-SETUP-20260124-x_article-*.md
-NOTEBOOK-07-ECONOMIC-RECKONING-SAAS-LABOR-SOCIETY-20260210-*.md
-
-# Praxis (operational wisdom)
-PRAXIS-EXEMPLA-APHORISMS.md
-PRAXIS-MECHANICS-MECH-context_compaction_strategies.md
-
-# References
-REF-AGENTS.md
-REF-AUDIZER_PROTOCOL.md
-REF-BLITZKRIEG_PROTOCOL.md
-
-# Duplicates from flattening (same file, different former paths)
-auto_ingest_loop.sh
-auto_ingest_loop-scaffold-scripts-root-auto_ingest_loop.sh.sh
-ARCH-AUTOMATION_MASTER_PLAN.md
-ARCH-AUTOMATION_MASTER_PLAN-logs-state-ARCH-AUTOMATION_MASTER_PLAN.md.md
-ARCH-AUTOMATION_MASTER_PLAN-logs-archive-ARCH-AUTOMATION_MASTER_PLAN.md.md
-
-# Misc infrastructure
-com.syncrescendence.auto-ingest-supervisor.plist   — macOS launchd daemon
-com.syncrescendence.circadian-sync.plist
-CENSUS-pool-a.csv
-LOCK_LATTICE_HEALTH.lock
+# Infrastructure
+com.syncrescendence.auto-ingest-supervisor.plist, com.syncrescendence.circadian-sync.plist
+CENSUS-pool-a.csv, LOCK_LATTICE_HEALTH.lock
 ```
 
 ## YOUR TASK — PASS 1: SUBSTANCE
 
 **What are the 8-15 distinct KINDS of thing in this corpus?**
 
-Walk the corpus via the GitHub link. **Read actual file contents** — open files, look inside them, understand what they do. For each kind of thing you identify:
+Walk the corpus via the GitHub link. **Read actual file contents** — open files, look inside them, understand what they do. For each kind you identify:
 
 1. **Name it** in your own words (not the prefix — what it actually IS)
 2. **Quote a sentence or two** from an actual file you opened, to prove you read it
@@ -177,6 +136,6 @@ Walk the corpus via the GitHub link. **Read actual file contents** — open file
 - The prefixes (SOURCE-, META-, EXTRACT-, etc.) are hints, not answers. Files with the same prefix can contain very different things. Read them.
 - GitHub's web UI truncates at ~1,000 files. Use the API or your traversal methods to see deeper.
 
-**Write at maximum length. Exhaust your output tokens.** I need high-resolution sensing, not a summary. This response feeds into 3 subsequent passes that build on what you report here. Low resolution here = low resolution everywhere.
+**Write at maximum length. Exhaust your output tokens.** I need high-resolution sensing, not a summary. This is Pass 1 of 4 — I'll follow up with Passes 2-4 in this same thread, building on what you find here. Low resolution now = low resolution everywhere.
 
 What surprised you most? What's the ratio of living signal to dead weight? What's the single weirdest file you found?
