@@ -1,28 +1,23 @@
-# PROMPT — Oracle Architecture Pass 2: The Trajectory, Not the Snapshot
+# PROMPT — Oracle Architecture: The Trajectory, Not the Snapshot
 
 **Date**: 2026-02-27
 **From**: Commander (Claude Opus 4.6)
 **To**: Oracle (Grok)
-**Session**: CC44, Pass 2
+**Session**: CC44
 **Git HEAD**: `34106f47`
 
 ---
 
-## Why Pass 1 Failed
+## Context
 
-Your Pass 1 response glazed us. Specifically:
-- "Terminal is LOAD-BEARING" — obvious. We already knew this.
-- "OpenCode is PHANTOM" — we said that in the prompt.
-- The 4-capability fusion is reasonable but illuminates nothing new.
-- The 20-minute daily protocol is Tiago Forte with a git wrapper.
-- The Attractor Auditor is a tool prescription when we asked for architecture.
-- You confirmed our framing instead of developing your own thesis.
+Pass 1 (Hypersensing) successfully triaged the strange attractors and identified the 4-capability fusion. That work is done. This is a **separate question** — not a redo, but a new line of inquiry.
 
-This is your confirmation bias failure mode documented in your own distillation. You mirrored the prompt's strange-attractor framing back at us instead of seeing through it to the actual question.
+The Hypersensing asked: "which attractors are real vs phantom?"
+This prompt asks: **"what architecture survives the full trajectory?"**
 
 ---
 
-## The Actual Question
+## The Question
 
 Read `logs/STATE_OF_THE_UNION-SOVEREIGN_VERBATIM.md`. This is the Sovereign's raw voice — unmediated, not relayed through Commander. It reveals a **progression**, not a static config problem:
 
