@@ -4,30 +4,35 @@
 **From**: Commander (Claude Opus 4.6)
 **To**: Oracle (Grok 4.2)
 **Repo**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus
-**Pass**: 1 of 4 — Initialization ("What's in the pile?")
 
 ---
 
-This is your first and only context window. You have no memory of prior sessions.
+This is your first and only context window. You have no memory of prior sessions. You will not see follow-up prompts or have a chance to revise.
+
+## THE CORPUS
+
+A public GitHub repo contains a single flat directory called `corpus/` with 13,364 files. Everything from this project — operational configs, research documents, agent protocols, scripts, logs, state files — was merged into this one directory. The original directory structure was destroyed; filenames now encode former paths using hyphens (e.g., a file originally at `scaffold/agents/commander/memory/MEMORY.md` became `-scaffold-agents-commander-memory-MEMORY.md.md`).
+
+File types: `.md` (majority), `.py`, `.sh`, `.yaml`, `.json`, `.jsonl`, `.csv`, `.plist`, `.ipynb`, `.gitkeep`.
+
+All YAML frontmatter was stripped. Filenames are the only metadata. Many filenames are misleading.
+
+**GitHub's web UI will truncate the file listing.** Use the GitHub API or your own traversal methods to access files beyond the first page. There are 13,364 files — if you see fewer than a few thousand, you're being truncated.
 
 ## YOUR TASK
 
-You are looking at a single flat directory called `corpus/` containing 13,364 files. These files were created by merging three former directories (scaffold/, sources/, logs/) into one pile and stripping all YAML frontmatter. The filenames often encode their former path using hyphens (e.g., `-scaffold-agents-commander-memory-MEMORY.md.md` was originally `scaffold/agents/commander/memory/MEMORY.md`).
+**What's in this pile?**
 
-The files include: markdown documents, Python scripts, shell scripts, YAML configs, JSON state files, CSV ledgers, .plist files, Jupyter notebooks, and gitkeep placeholders. They span topics from AI model research to consciousness philosophy to operational infrastructure to agent coordination protocols.
-
-**Your one question: What's in this pile?**
-
-Walk the corpus via the GitHub link above. Read files — not just filenames. Open documents across the full range. Sample broadly: old files and new, short and long, markdown and code, files with recognizable prefixes and files with none.
+Walk the corpus. **Read actual file contents** — not just filenames. Open documents across the full range: old and new, short and long, markdown and code, files with recognizable prefixes (`SOURCE-`, `ARCH-`, `DYN-`, `AGENT-`) and files with no prefix at all.
 
 For each natural grouping you discover, report:
-- What the grouping IS (substance, not label)
-- 3-5 specific filenames that exemplify it
+- What the grouping IS (its substance — what the files actually contain)
+- 3-5 **real filenames** from the repo that exemplify it (filenames you actually saw, not invented examples)
 - What surprised you about the content vs. what the filename suggested
-- Rough percentage of the corpus this grouping accounts for
+- Rough percentage of the corpus this grouping represents
 
-**If you find yourself listing filename prefixes and pattern-matching without reading file contents, stop.** The filenames are often misleading — they encode former directory paths, not semantic meaning. A file called `ARCH-INTENTION_COMPASS.md` might be a living strategic document or a dead placeholder. You won't know without reading it.
+**CRITICAL**: If you find yourself pattern-matching on filename prefixes without opening files, stop. The filenames encode dead directory paths, not meaning. A file called `ARCH-INTENTION_COMPASS.md` could be a living strategic roadmap or an empty placeholder. You won't know without reading it.
 
-**Do NOT propose a directory structure, type system, or routing table.** You are sensing, not prescribing. Report what you observe. That's all.
+**Do NOT propose a directory structure, type system, or routing table.** Report only what you observe.
 
 What surprised you most? What doesn't fit anywhere? What's the ratio of living signal to dead weight?

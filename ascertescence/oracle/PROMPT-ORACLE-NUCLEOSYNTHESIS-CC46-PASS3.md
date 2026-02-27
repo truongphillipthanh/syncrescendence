@@ -4,30 +4,37 @@
 **From**: Commander (Claude Opus 4.6)
 **To**: Oracle (Grok 4.2)
 **Repo**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus
-**Pass**: 3 of 4 — Width ("What did you miss?")
 
 ---
 
-This is your first and only context window. You have no memory of prior sessions.
+This is your first and only context window. You have no memory of prior sessions. You will not see follow-up prompts or have a chance to revise.
+
+## THE CORPUS
+
+A public GitHub repo contains a single flat directory called `corpus/` with 13,364 files. Everything from this project — operational configs, research documents, agent protocols, scripts, logs, state files — was merged into this one directory. The original directory structure was destroyed; filenames now encode former paths using hyphens (e.g., a file originally at `scaffold/agents/commander/memory/MEMORY.md` became `-scaffold-agents-commander-memory-MEMORY.md.md`).
+
+File types: `.md` (majority), `.py`, `.sh`, `.yaml`, `.json`, `.jsonl`, `.csv`, `.plist`, `.ipynb`, `.gitkeep`.
+
+All YAML frontmatter was stripped. Filenames are the only metadata. Many filenames are misleading.
+
+**GitHub's web UI will truncate the file listing.** Use the GitHub API or your own traversal methods to access files beyond the first page. There are 13,364 files — if you see fewer than a few thousand, you're being truncated.
 
 ## YOUR TASK
 
-You are looking at a single flat directory called `corpus/` containing 13,364 files. A previous analyst made two passes over this corpus — one asking "what's here?" and one asking "what connects to what?" Both passes had the same failure mode: they sampled the most visible, most recent, most recognizable files and glossed over the margins.
+**What's in the 20% of this corpus that a quick scan would skip?**
 
-**Your one question: What's in the 20% that a first pass would skip?**
+A quick scan of 13,364 files gravitates toward the most visible, most recent, most recognizable items — markdown docs with clear prefixes like `SOURCE-`, `AGENT-`, `ARCH-`. Your job is the opposite. Seek out and **read**:
 
-You must specifically seek out and read:
+1. **Non-markdown files**: the `.py`, `.sh`, `.yaml`, `.json`, `.jsonl`, `.csv`, `.plist` files. What do they actually do? Are they operational (actively used by other files) or archaeological (remnants of dead systems)?
 
-1. **Non-markdown files**: the `.py`, `.sh`, `.yaml`, `.json`, `.jsonl`, `.csv`, `.plist`, `.toml`, `.cfg` files. What do they do? Are they operational (actively used) or archaeological (remnants of dead systems)?
+2. **Files with no standard prefix**: Most files start with prefixes like `SOURCE-`, `META-`, `ARCH-`, `DYN-`, `AGENT-`, `SCRIPT-`, `RESPONSE-`, `PROMPT-`. Find files that follow NO prefix convention. What are they? Why are they different?
 
-2. **Files with no standard prefix**: Most files start with prefixes like `SOURCE-`, `META-`, `ARCH-`, `DYN-`, `AGENT-`, `SCRIPT-`, `RESPONSE-`, `PROMPT-`, etc. Find the files that DON'T follow any prefix convention. What are they? Why are they different?
+3. **The oldest content**: Files whose content references dates from 2020-2024. What were they? Where did they come from? Are they still relevant to the current project?
 
-3. **The oldest files**: Files whose content references dates from 2020-2024, before the current project existed. What were they? Where did they come from? Are they still relevant?
+4. **The smallest and largest files**: Tiny files (< 100 bytes) — placeholders or meaningful? Huge files (> 50KB) — what payload are they carrying?
 
-4. **The smallest and largest files**: Tiny files (< 100 bytes) — are they placeholders or meaningful? Huge files (> 50KB) — what are they carrying?
+5. **Duplicates**: The directory flattening may have created near-duplicates — files from different original paths that encode to similar names or contain identical content. Find examples.
 
-5. **Duplicate or near-duplicate content**: Files that appear to be copies of each other with slightly different names (the flattening process may have created these by encoding different paths to the same original file).
+**Spend your time on what looks boring, obscure, or broken.** The obvious files have been seen. Your job is to find what others would miss.
 
-Walk the repo via the GitHub link above. **Spend your time on the files that look boring, obscure, or broken.** The obvious files have been seen. Your job is to find what others missed.
-
-**Do NOT propose a directory structure.** Report what you find in the margins. What's dead? What's surprisingly alive? What's duplicated? What's unique and uncategorizable?
+**Do NOT propose a directory structure.** Report what you find in the margins: what's dead, what's surprisingly alive, what's duplicated, what's unique and uncategorizable.

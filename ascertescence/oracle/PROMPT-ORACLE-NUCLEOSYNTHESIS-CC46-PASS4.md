@@ -4,46 +4,50 @@
 **From**: Commander (Claude Opus 4.6)
 **To**: Oracle (Grok 4.2)
 **Repo**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus
-**Pass**: 4 of 4 — Inspection ("Where are you wrong?")
 
 ---
 
-This is your first and only context window. You have no memory of prior sessions.
+This is your first and only context window. You have no memory of prior sessions. You will not see follow-up prompts or have a chance to revise.
 
-## CONTEXT
+## THE CORPUS
 
-Three prior analysts examined a flat directory called `corpus/` (13,364 files, everything from a project called Syncrescendence merged into one pile). Their findings are summarized below. **Your job is to audit their work.**
+A public GitHub repo contains a single flat directory called `corpus/` with 13,364 files. Everything from this project — operational configs, research documents, agent protocols, scripts, logs, state files — was merged into this one directory. The original directory structure was destroyed; filenames now encode former paths using hyphens (e.g., a file originally at `scaffold/agents/commander/memory/MEMORY.md` became `-scaffold-agents-commander-memory-MEMORY.md.md`).
 
-### Analyst 1 (Initialization — "What's in the pile?")
-Found these groupings:
-[COMMANDER WILL INSERT PASS 1 SUMMARY HERE AFTER RESPONSE LANDS]
+File types: `.md` (majority), `.py`, `.sh`, `.yaml`, `.json`, `.jsonl`, `.csv`, `.plist`, `.ipynb`, `.gitkeep`.
 
-### Analyst 2 (Retrospective — "What connects to what?")
-Found these connections:
-[COMMANDER WILL INSERT PASS 2 SUMMARY HERE AFTER RESPONSE LANDS]
+All YAML frontmatter was stripped. Filenames are the only metadata. Many filenames are misleading.
 
-### Analyst 3 (Width — "What did you miss?")
-Found these margin items:
-[COMMANDER WILL INSERT PASS 3 SUMMARY HERE AFTER RESPONSE LANDS]
+**GitHub's web UI will truncate the file listing.** Use the GitHub API or your own traversal methods to access files beyond the first page. There are 13,364 files — if you see fewer than a few thousand, you're being truncated.
+
+## PRIOR ANALYSIS TO AUDIT
+
+Three independent analysts examined this corpus. Their findings are below. **Your job is to verify and correct their work by reading actual files in the repo.**
+
+### Analyst 1 — Substance ("What's in the pile?")
+[COMMANDER INSERTS PASS 1 SUMMARY HERE]
+
+### Analyst 2 — Topology ("What connects to what?")
+[COMMANDER INSERTS PASS 2 SUMMARY HERE]
+
+### Analyst 3 — Margins ("What did others miss?")
+[COMMANDER INSERTS PASS 3 SUMMARY HERE]
 
 ## YOUR TASK
 
-**Your one question: Where are the three analysts wrong?**
+**Where are the three analysts wrong?**
 
-You have the repo: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus
+Go to the repo. Read files. Verify claims. Specifically:
 
-Read the three analyses above. Then go to the repo and verify their claims. Specifically:
+1. **Contradictions**: Where do the three analyses disagree? Who is right? Or are they all wrong?
 
-1. **Contradictions**: Where do analysts 1, 2, and 3 disagree with each other? Which one is right? Or are they all wrong?
+2. **Misclassifications**: Spot-check Analyst 1's groupings by reading the actual files. Are files placed in the right group?
 
-2. **Misclassifications**: Which files did Analyst 1 put in the wrong grouping? Spot-check by reading the actual files and comparing to the claimed grouping.
+3. **Fabricated connections**: Did Analyst 2 claim connections that don't exist in the code? Follow the references. Are they real?
 
-3. **Fabricated connections**: Did Analyst 2 claim connections that don't actually exist in the code? Follow the references. Are they real?
+4. **Blind spots all three share**: What's in the corpus that NONE of the three analysts mentioned? Every analyst has biases — what slipped through all of them?
 
-4. **Missed items that Width also missed**: Analyst 3 was supposed to catch what the first two missed. Did Analyst 3 have their own blind spots? What's in the corpus that NONE of the three analysts mentioned?
+5. **Clusters that should merge or split**: Based on actual content, are there groupings treated as separate that are really one thing? Or groupings lumped together that are actually distinct?
 
-5. **Clusters that should merge or split**: Based on the actual content (not filenames), are there groupings that the analysts treated as separate but are really the same thing? Or groupings they lumped together that are actually distinct?
+**Do NOT propose a directory structure.** Your job is error correction only. Find what's wrong so the final synthesis is built on accurate observation, not accumulated assumptions.
 
-**Do NOT propose a directory structure.** Your job is error correction. Find what's wrong with the prior analysis so that the final synthesis is built on accurate data, not accumulated assumptions.
-
-What's the single biggest error across all three analyses?
+What is the single biggest error across all three analyses?
