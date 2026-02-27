@@ -1,0 +1,1 @@
+{"signal": "FIRE", "tension": 39.4515, "effective_tension": 39.4515, "ambient_charge": 0.0, "threshold": 30.0, "oscillator_state": "FIRE", "node_count_unresolved": 6, "reason_codes": ["THRESHOLD_EXCEEDED"], "energy_audit_status": "PASS"}

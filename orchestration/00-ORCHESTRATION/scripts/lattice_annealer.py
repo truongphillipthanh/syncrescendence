@@ -1059,8 +1059,9 @@ def self_test(_: Path) -> int:
 
 
 def parse_args() -> argparse.Namespace:
+    import sys
     p = argparse.ArgumentParser(description="Lattice annealer gate for candidate canon promotions.")
-    p.add_argument("--repo-root", required=True)
+    p.add_argument("--repo-root", required="--self-test" not in sys.argv)
     p.add_argument("--candidate-json")
     p.add_argument("--lattice-index", default=INDEX_REL)
     p.add_argument("--max-iterations", type=int, default=3)
