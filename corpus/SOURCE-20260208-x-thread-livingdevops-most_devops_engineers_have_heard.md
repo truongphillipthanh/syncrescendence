@@ -1,21 +1,3 @@
----
-url: https://x.com/livingdevops/status/2020435426457329670
-author: "Akhilesh Mishra (@livingdevops)"
-captured_date: 2026-02-08
-id: SOURCE-20260208-015
-original_filename: "20260208-x_thread-most_devops_engineers_have_heard-@livingdevops.md"
-status: triaged
-platform: x
-format: thread
-creator: livingdevops
-signal_tier: tactical
-topics: [devops, infrastructure, tutorial]
-teleology: implement
-notebooklm_category: career-growth
-aliases: ["livingdevops - Forward and Reverse Proxies"]
-synopsis: "Deep dive into forward and reverse proxies for DevOps engineers, explaining what reverse proxies actually do and why they matter in production infrastructure."
-key_insights: ["Understanding proxy mechanics is foundational DevOps knowledge often lacking in practitioners", "Nginx as reverse proxy is commonly cited but rarely deeply understood", "Forward vs reverse proxy distinction maps to different infrastructure use cases"]
----
 # Understanding Forward and Reverse Proxies: A DevOps Deep Dive
 
 Most DevOps engineers have heard of the term "reverse proxy," but few understand what it actually means.

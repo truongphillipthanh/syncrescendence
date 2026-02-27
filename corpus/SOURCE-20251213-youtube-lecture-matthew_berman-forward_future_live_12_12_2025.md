@@ -1,38 +1,3 @@
----
-id: SOURCE-20251213-834
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "forward"
-  - "future"
-  - "live"
-  - "2025"
-creator: "Matthew Berman"
-guest: null
-title: "Forward Future Live | 12/12/2025"
-url: "https://www.youtube.com/watch?v=JULsF4daTaI"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 54m 33s"
-has_transcript: no
-synopsis: "Forward Future Live | 12/12/2025 by Matthew Berman. A lecture covering forward, future, live."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Forward Future Live |"
-  - "Forward Future Live | 12/12/2025"
----
-
 # Forward Future Live | 12/12/2025
 
 **Channel**: Matthew Berman

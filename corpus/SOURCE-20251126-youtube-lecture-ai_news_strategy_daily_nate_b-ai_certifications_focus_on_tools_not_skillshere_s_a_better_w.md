@@ -1,39 +1,3 @@
----
-id: SOURCE-20251126-985
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "certifications"
-  - "focus"
-  - "tools"
-  - "skills"
-  - "here"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "AI Certifications Focus on Tools NOT Skills—Here's a Better Way"
-url: "https://www.youtube.com/watch?v=HDVG8RKYX9s"
-date_published: 2025-11-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 12s"
-has_transcript: no
-synopsis: "AI Certifications Focus on Tools NOT Skills—Here's a Better Way by AI News & Strategy Daily | Nate B Jones. A lecture covering certifications, focus, tools."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Certifications Focus on"
-  - "AI Certifications Focus on Tools NOT"
----
-
 # AI Certifications Focus on Tools NOT Skills—Here's a Better Way
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

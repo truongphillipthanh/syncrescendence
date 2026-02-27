@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-017
-title: Ai Agents 101
-platform: x
-format: article
-creator: vasuman
-date_published: "2026-01-16"
-status: triaged
-url: https://x.com/vasuman/status/2011983687433212330
-original_filename: "research/agents/ai_agents_101-@vasuman.md"
-aliases:
-  - "Vasuman - AI Agents 101"
-teleology: implement
-notebooklm_category: ai-agents
-synopsis: "Comprehensive guide on building AI agents from a former Meta SWE who worked on systems processing billions of transactions. Covers agent fundamentals, architecture patterns, tool integration, memory systems, and evaluation strategies."
-key_insights:
-  - "AI agents require four components: perception (understanding input), reasoning (deciding actions), action (executing via tools), and memory (maintaining state)"
-  - "Tool integration is the critical differentiator between a chatbot and an agent: the ability to take actions in the real world"
-  - "Agent evaluation must test reliability, consistency, and graceful degradation not just accuracy on happy-path scenarios"
-topics:
-  - "ai-agents"
-  - "ai-engineering"
-  - "tutorial"
-  - "framework"
-signal_tier: tactical
----
-
 My comprehensive guide on how to build AI Agents that work. 
 I spent 3 years at Meta as a software engineer. The systems I worked on processed billions of transactions, served millions of users, and generated hundreds of millions in revenue. Yet even the best engineers could have 10x'd their work if they had built reliable agents as opposed to babysitting automations.
 My goal for this article is to help you understand agents better, no matter if you're a beginner, an expert, or anything in between. (as someone who's running a $3M company building them)

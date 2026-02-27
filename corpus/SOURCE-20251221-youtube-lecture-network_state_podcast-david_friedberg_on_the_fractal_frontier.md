@@ -1,38 +1,3 @@
----
-id: SOURCE-20251221-732
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "david"
-  - "friedberg"
-  - "fractal"
-  - "frontier"
-creator: "Network State Podcast"
-guest: null
-title: "David Friedberg on the Fractal Frontier"
-url: "https://www.youtube.com/watch?v=_ca7vMbFjOk"
-date_published: 2025-12-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 42m 6s"
-has_transcript: no
-synopsis: "David Friedberg on the Fractal Frontier by Network State Podcast. A lecture covering david, friedberg, fractal."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "David Friedberg on the"
-  - "David Friedberg on the Fractal Frontier"
----
-
 # David Friedberg on the Fractal Frontier
 
 **Channel**: Network State Podcast

@@ -1,9 +1,3 @@
----
-url: https://x.com/dabit3/status/2020564900834111518
-author: nader dabit (@dabit3)
-captured_date: 2026-02-08
----
-
 # The Cloud Agent Thesis
 
 (Description: Abstract digital visualization with flowing cyan and white wireframe patterns, network-like structures, and geometric shapes against a dark background. A small silhouette figure stands on a reflective horizon with radiating light streams above.)

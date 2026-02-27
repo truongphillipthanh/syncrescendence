@@ -1,34 +1,3 @@
----
-id: SOURCE-20251224-001
-title: "MLST: Dr. Mike Israetel - ASI Timelines, Embodiment, and the Nature of Understanding"
-platform: youtube
-format: interview
-creator: Machine Learning Street Talk
-date_published: 2025-12-24
-status: processed
-url: "https://www.youtube.com/watch?v=4yYcN_mFi18"
-original_filename: processed/SOURCE-20251224-youtube-interview-mlst-mike_israetel.md
-aliases:
-  - "Israetel - ASI Timelines Embodiment"
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-guest: Dr. Mike Israetel
-signal_tier: strategic
-chain_relevance: Intelligence, Wisdom
-integration_targets: CANON-30000, CANON-00016, CANON-35100
-date_processed: 2026-01-05
-synopsis: "Sport scientist Mike Israetel debates AI researchers, predicting godlike ASI by 2045. Argues embodiment is not required for genuine intelligence: sufficient data and processing power can substitute for physical experience. Challenges the Chinese Room by claiming the system-as-a-whole understands."
-key_insights:
-  - "ASI timeline: significantly more capable than smartest humans by 2029-2030, orders of magnitude beyond human comprehension by 2035, godlike by 2045"
-  - "Embodiment not required: a model trained on billions of images and videos has grounding in reality sufficient for intelligence without physical body"
-  - "Processing power substitutes for embodiment: with trillion-times more data and processing, intelligence could learn basketball from videos alone since the limitation is processing not embodiment"
-topics:
-  - "consciousness"
-  - "ai-engineering"
-  - "philosophy"
-  - "research"
----
-
 # MLST: Dr. Mike Israetel on ASI Timelines, Embodiment, and Understanding
 
 ## Executive Summary

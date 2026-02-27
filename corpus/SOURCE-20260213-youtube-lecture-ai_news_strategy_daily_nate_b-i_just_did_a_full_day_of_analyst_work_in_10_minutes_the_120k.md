@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-089
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "just"
-  - "full"
-  - "day"
-  - "analyst"
-  - "work"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "I Just Did a Full Day of Analyst Work in 10 Minutes. The $120K Job Description Just Changed Forever."
-url: "https://www.youtube.com/watch?v=U1oHRqUkI1E"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 20s"
-has_transcript: no
-synopsis: "I Just Did a Full Day of Analyst Work in 10 Minutes. The $120K Job Description Just Changed Forever. by AI News & Strategy Daily | Nate B Jones. A lecture covering just, full, day."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "I Just Did a"
-  - "I Just Did a Full Day"
----
-
 # I Just Did a Full Day of Analyst Work in 10 Minutes. The $120K Job Description Just Changed Forever.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

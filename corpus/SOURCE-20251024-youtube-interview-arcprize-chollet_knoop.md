@@ -1,16 +1,3 @@
----
-id: SOURCE-20251024-youtube-interview-arcprize-chollet_knoop
-title: "ARC-AGI v3 and Measuring Intelligence"
-creator: ARC Prize
-guest: Francois Chollet, Mike Knoop
-date_published: 2025-10-24
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-30000-INTELLIGENCE, CANON-00003-PRINCIPLES]
----
-
 # ARC-AGI v3 and Measuring Intelligence
 
 ## Executive Summary

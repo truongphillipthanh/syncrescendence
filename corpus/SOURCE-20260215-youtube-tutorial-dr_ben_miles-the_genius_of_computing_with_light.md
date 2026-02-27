@@ -1,37 +1,3 @@
----
-id: SOURCE-20260215-068
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "genius"
-  - "computing"
-  - "light"
-creator: "Dr Ben Miles"
-guest: null
-title: "The Genius of Computing with Light"
-url: "https://www.youtube.com/watch?v=rbxcd9gaims"
-date_published: 2026-02-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 21s"
-has_transcript: no
-synopsis: "The Genius of Computing with Light by Dr Ben Miles. A tutorial covering genius, computing, light."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Genius of Computing"
-  - "The Genius of Computing with Light"
----
-
 # The Genius of Computing with Light
 
 **Channel**: Dr Ben Miles

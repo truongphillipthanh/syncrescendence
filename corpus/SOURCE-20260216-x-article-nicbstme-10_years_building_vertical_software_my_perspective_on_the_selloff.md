@@ -1,24 +1,3 @@
----
-url: https://x.com/nicbstme/status/2023501562480644501
-author: "Nicolas Bustamante (@nicbstme)"
-captured_date: 2026-02-16
-id: SOURCE-20260216-014
-original_filename: "20260216-x_article-10_years_building_vertical_software_my_perspective_on_the_selloff-@nicbstme.md"
-status: triaged
-platform: x
-format: article
-creator: nicbstme
-signal_tier: paradigm
-topics: [economics, entrepreneurship, ai-engineering, framework]
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases: ["nicbstme - vertical software moats vs LLMs"]
-synopsis: "A decade-veteran of vertical SaaS (Doctrine, Fintool) analyzes how LLMs systematically dismantle vertical software moats. Learned interfaces, custom workflows, public data access, talent scarcity, and bundling are all destroyed or weakened. Only proprietary data moats strengthen. Business logic migrates from years of engineering to markdown skill files writable in a week."
-key_insights:
-  - "LLMs collapse all proprietary interfaces into chat - years of muscle memory become worthless, switching costs dissolve"
-  - "Business logic migrates from code to markdown skill files: what took Doctrine years of Python engineering, Fintool does in a week of writing"
-  - "The agent IS the bundle - it cherry-picks best/cheapest provider per capability, breaking the vendor lock-in of monolithic suites"
----
 # 10 Years Building Vertical Software: My Perspective on the Selloff
 (Description: Large title graphic displaying "VERTICAL SOFTWARE, ARE WE COOKED?" in blue outlined block letters on a white background)
 In the past few weeks, nearly $1 trillion was wiped from software and services stocks. FactSet dropped from a $20B peak to under $8B. S&P Global lost 30% in weeks. Thomson Reuters shed almost half its market cap in a year. The S&P 500 Software & Services Index, 140 companies, fell 20% year to date.

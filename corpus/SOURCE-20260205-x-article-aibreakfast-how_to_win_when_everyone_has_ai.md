@@ -1,28 +1,3 @@
----
-url: "https://x.com/AiBreakfast/status/2019257319184355691"
-author: "AI Breakfast (@AiBreakfast)"
-captured_date: "2026-02-04"
-id: SOURCE-20260205-001
-original_filename: "20260205-x_article-how_to_win_when_everyone_has_ai-@aibreakfast.md"
-status: triaged
-platform: x
-format: article
-creator: aibreakfast
-signal_tier: strategic
-topics:
-  - product-development
-  - rag
-  - cli-tools
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "How to Win When Everyone Has AI"
-synopsis: "How to Win When Everyone Has AI TLDR AI arrived just in time to offset shrinking workforces and decades of weak productivity, and it fixes the economic math rather than breaking it. Jobs don't disappear, tasks shift, and AI amplifies differences by making good people better and great people unusually effective."
-key_insights:
-  - "The winning strategy is the talent stack: combine multiple top 25% skills plus commercialization, because rarity comes from overlap, not being the best at one thing."
-  - "Mistake #1: Focusing on Jobs Instead of Tasks The first mistake people make is focusing on jobs."
-  - "We have already lived through this cycle: > Executives once dictated > Secretaries typed > Email arrived > Executives typed > Secretaries moved to higher leverage work The structure remained."
----
 # How to Win When Everyone Has AI
 
 (Description: Illustration in blue ink showing a figure sitting under a palm tree on a beach, looking through binoculars toward the horizon—a contemplative scene suggesting vision and perspective.)

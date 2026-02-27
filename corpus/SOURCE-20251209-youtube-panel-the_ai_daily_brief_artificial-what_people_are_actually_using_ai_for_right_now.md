@@ -1,39 +1,3 @@
----
-id: SOURCE-20251209-874
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "people"
-  - "actually"
-  - "using"
-  - "right"
-  - "now"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "What People Are Actually Using AI for Right Now"
-url: "https://www.youtube.com/watch?v=BWTU9h0qjf0"
-date_published: 2025-12-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 22s"
-has_transcript: no
-synopsis: "What People Are Actually Using AI for Right Now by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering people, actually, using."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "What People Are Actually"
-  - "What People Are Actually Using AI"
----
-
 # What People Are Actually Using AI for Right Now
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

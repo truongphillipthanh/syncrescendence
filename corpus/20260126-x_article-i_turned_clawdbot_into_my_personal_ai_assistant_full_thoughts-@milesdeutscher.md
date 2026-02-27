@@ -1,9 +1,3 @@
----
-url: https://x.com/milesdeutscher/status/2016016997507862648
-author: Miles Deutscher (@milesdeutscher)
-captured_date: 2026-02-04
----
-
 # I Turned Clawdbot Into My Personal AI Assistant (Full Thoughts)
 
 (Description: Dark-themed header image showing dystopian mechanical figure with "CLAWDBOT" text and "My Full Thoughts" tagline in white serif font)

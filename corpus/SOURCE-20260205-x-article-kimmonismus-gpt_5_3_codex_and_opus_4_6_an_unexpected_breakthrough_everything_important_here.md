@@ -1,33 +1,3 @@
----
-url: https://x.com/kimmonismus/status/2019488076796686621
-author: "Chubby (@kimmonismus)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-012
-original_filename: "20260205-x_article-gpt_5_3_codex_and_opus_4_6_an_unexpected_breakthrough_everything_important_here-@kimmonismus.md"
-status: triaged
-platform: x
-format: article
-creator: kimmonismus
-signal_tier: strategic
-topics:
-  - agentic-development
-  - context-management
-  - codex
-  - gemini
-  - gpt
-  - anthropic
-  - benchmarks
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "GPT-5.3 Codex and Opus 4.6: An Unexpected Breakthrough -- Everything Important H"
-  - "GPT53 Codex and Opus 46 An Unexpected Breakthrough  Everything Important Here"
-synopsis: "GPT-5.3 Codex and Opus 4.6: An Unexpected Breakthrough -- Everything Important Here Release Intervals are Accelerating Release intervals are getting shorter. While Opus 4.5 was released on November 24th, the GPT-5.2 codex was released on December 18th, 2025. It's now early February, so release intervals are shrinking to 2-3 months."
-key_insights:
-  - "GPT-5.3 Codex and Opus 4.6: An Unexpected Breakthrough -- Everything Important Here Release Intervals are Accelerating Release intervals are getting shorter."
-  - "For ARC-AGI-1, Claude Opus 4.6 surpassed previous state of the art for medium, high, and max effort, with a best performance of 94% for high effort."
-  - "But OpenAI also has a few tricks up its sleeve."
----
 # GPT-5.3 Codex and Opus 4.6: An Unexpected Breakthrough -- Everything Important Here
 
 ## Release Intervals are Accelerating

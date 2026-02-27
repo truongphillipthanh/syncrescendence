@@ -1,37 +1,3 @@
----
-id: SOURCE-20251213-819
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "learn"
-  - "109"
-  - "minutes"
-creator: "Justin Sung"
-guest: null
-title: "Learn To Learn in 109 minutes"
-url: "https://www.youtube.com/watch?v=q6DnYfLQFCI"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 49m 5s"
-has_transcript: no
-synopsis: "Learn To Learn in 109 minutes by Justin Sung. A lecture covering learn, 109, minutes."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Learn To Learn in"
-  - "Learn To Learn in 109 minutes"
----
-
 # Learn To Learn in 109 minutes
 
 **Channel**: Justin Sung

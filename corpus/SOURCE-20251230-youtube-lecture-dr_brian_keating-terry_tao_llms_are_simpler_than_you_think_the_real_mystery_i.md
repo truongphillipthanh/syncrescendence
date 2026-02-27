@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-671
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "terry"
-  - "tao"
-  - "llms"
-  - "simpler"
-  - "than"
-creator: "Dr Brian Keating"
-guest: null
-title: "Terry Tao: "LLMs Are Simpler Than You Think – The Real Mystery Is Why They Work!""
-url: "https://www.youtube.com/watch?v=ukpCHo5v-Gc"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 11m 16s"
-has_transcript: no
-synopsis: "Terry Tao: "LLMs Are Simpler Than You Think – The Real Mystery Is Why They Work!" by Dr Brian Keating. A lecture covering terry, tao, llms."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Terry Tao: "LLMs Are"
-  - "Terry Tao: "LLMs Are Simpler Than"
----
-
 # Terry Tao: "LLMs Are Simpler Than You Think – The Real Mystery Is Why They Work!"
 
 **Channel**: Dr Brian Keating

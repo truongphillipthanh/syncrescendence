@@ -1,38 +1,3 @@
----
-id: SOURCE-20251125-990
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "shook"
-  - "openai"
-  - "core"
-creator: "Matthew Berman"
-guest: null
-title: "Gemini 3 Shook OpenAI To Its Core"
-url: "https://www.youtube.com/watch?v=B_zYJkWf2SI"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 48s"
-has_transcript: no
-synopsis: "Gemini 3 Shook OpenAI To Its Core by Matthew Berman. A lecture covering gemini, shook, openai."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3 Shook OpenAI"
-  - "Gemini 3 Shook OpenAI To Its"
----
-
 # Gemini 3 Shook OpenAI To Its Core
 
 **Channel**: Matthew Berman

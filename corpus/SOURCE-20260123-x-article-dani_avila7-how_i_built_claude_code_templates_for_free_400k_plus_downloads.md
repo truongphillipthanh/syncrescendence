@@ -1,22 +1,3 @@
----
-id: SOURCE-20260123-x-article-dani_avila7-how_i_built_claude_code_templates_for_free_400k_plus_downloads
-platform: x
-format: article
-creator: dani_avila7
-title: how i built claude code templates for free 400k plus downloads
-status: triaged
-original_filename: "20260123-x_article-how_i_built_claude_code_templates_for_free_400k_plus_downloads-@dani_avila7.md"
-url: https://x.com/dani_avila7/status/2014855040368783779
-author: "Daniel San (@dani_avila7)"
-captured_date: 2026-01-24
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # How I Built Claude Code Templates for Free (400K+ Downloads)
 
 Maintaining open source projects that scale is far from cheap. You need to get creative and leverage whatever free-tier services you can find.

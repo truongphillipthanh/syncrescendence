@@ -1,39 +1,3 @@
----
-id: SOURCE-20251119-1055
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "helping"
-  - "professional"
-  - "learn"
-  - "faster"
-  - "private"
-creator: "Justin Sung"
-guest: null
-title: "Helping a Professional Learn Faster - Private Coaching Call"
-url: "https://www.youtube.com/watch?v=8E0QZkU9ujw"
-date_published: 2025-11-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 38s"
-has_transcript: no
-synopsis: "Helping a Professional Learn Faster - Private Coaching Call by Justin Sung. A lecture covering helping, professional, learn."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Helping a Professional Learn"
-  - "Helping a Professional Learn Faster -"
----
-
 # Helping a Professional Learn Faster - Private Coaching Call
 
 **Channel**: Justin Sung

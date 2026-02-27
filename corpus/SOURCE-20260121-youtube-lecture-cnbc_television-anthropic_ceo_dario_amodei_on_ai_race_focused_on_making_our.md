@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-391
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "ceo"
-  - "dario"
-  - "amodei"
-  - "race"
-creator: "CNBC Television"
-guest: null
-title: "Anthropic CEO Dario Amodei on AI race: Focused on making our models as smart and capable as possible"
-url: "https://www.youtube.com/watch?v=e4w5hEnWz2A"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 37s"
-has_transcript: no
-synopsis: "Anthropic CEO Dario Amodei on AI race: Focused on making our models as smart and capable as possible by CNBC Television. A lecture covering anthropic, ceo, dario."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic CEO Dario Amodei"
-  - "Anthropic CEO Dario Amodei on AI"
----
-
 # Anthropic CEO Dario Amodei on AI race: Focused on making our models as smart and capable as possible
 
 **Channel**: CNBC Television

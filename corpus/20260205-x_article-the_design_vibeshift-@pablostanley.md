@@ -1,9 +1,3 @@
----
-url: https://x.com/pablostanley/status/2019508029390221706
-author: Pablo Stanley (@pablostanley)
-captured_date: 2026-02-13
----
-
 # The Design Vibeshift
 
 (Description: Illustration of two people collaborating at a round table. One person in a turquoise shirt sits on the left with a laptop displaying design tools. The other person in a black shirt sits on the right with another laptop. Between them are various sketched design elements, UI components, and prototyping tools floating in the air, rendered in a friendly, hand-drawn style with muted colors including teal and pink accents.)

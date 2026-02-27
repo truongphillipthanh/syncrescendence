@@ -1,9 +1,3 @@
----
-url: https://x.com/jumperz/status/2020305891430428767
-author: JUMPERZ (@jumperz)
-captured_date: 2026-02-07
----
-
 # I Built an AI Agent Swarm in Discord. It Works Better Than Anything I've Tried (Full Guide)
 
 (Description: A sleek digital illustration featuring a white Discord logo face with blue eyes, connected to flowing blue data streams and binary code, representing AI agent coordination)

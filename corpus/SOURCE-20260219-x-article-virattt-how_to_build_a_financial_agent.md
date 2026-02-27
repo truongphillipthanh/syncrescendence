@@ -1,31 +1,3 @@
----
-url: https://x.com/virattt/status/2024602489929003400
-author: "virat (@virattt)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-016
-original_filename: "20260219-x_article-how_to_build_a_financial_agent-@virattt.md"
-status: triaged
-platform: x
-format: article
-creator: virattt
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - testing
-  - extended-thinking
-  - api
-  - react
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How to Build a Financial Agent"
-synopsis: "How to Build a Financial Agent It's 4:01pm in NYC and NVIDIA just reported its earnings after market close. I open a bunch of tabs to compare earnings to analyst estimates, read the 10-K for management's forward guidance, check recent Form 4 filings for insider activity leading up to the report, and scan financial news sites for analyst reactions and how Mr."
-key_insights:
-  - "How to Build a Financial Agent It's 4:01pm in NYC and NVIDIA just reported its earnings after market close."
-  - "I'm sure there's a more sophisticated way to do all this, but this is my way."
-  - "On a good day, it's ~30 minutes of work."
----
 # How to Build a Financial Agent
 It's 4:01pm in NYC and NVIDIA just reported its earnings after market close.
 I open a bunch of tabs to compare earnings to analyst estimates, read the 10-K for management's forward guidance, check recent Form 4 filings for insider activity leading up to the report, and scan financial news sites for analyst reactions and how Mr. Market is reacting.

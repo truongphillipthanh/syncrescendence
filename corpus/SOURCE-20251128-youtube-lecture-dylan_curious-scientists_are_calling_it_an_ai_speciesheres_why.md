@@ -1,38 +1,3 @@
----
-id: SOURCE-20251128-974
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "scientists"
-  - "calling"
-  - "species"
-  - "here"
-creator: "Dylan Curious"
-guest: null
-title: "Scientists Are Calling It an “AI Species”—Here’s Why"
-url: "https://www.youtube.com/watch?v=DPI3SNHXbl8"
-date_published: 2025-11-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 55s"
-has_transcript: no
-synopsis: "Scientists Are Calling It an “AI Species”—Here’s Why by Dylan Curious. A lecture covering scientists, calling, species."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Scientists Are Calling It"
-  - "Scientists Are Calling It an “AI"
----
-
 # Scientists Are Calling It an “AI Species”—Here’s Why
 
 **Channel**: Dylan Curious

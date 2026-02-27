@@ -1,10 +1,3 @@
----
-id: prompt-gemini_cli_forensic
-kind: prompt
-scope: engine
-target: gemini
----
-
 # GEMINI CLI FORENSIC AUDIT PROMPTS
 
 ## Pre-Design Phase: 5 Superintelligent Perspectives

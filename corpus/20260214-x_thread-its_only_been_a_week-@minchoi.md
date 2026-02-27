@@ -1,9 +1,3 @@
----
-url: "https://x.com/minchoi/status/2018349261289578572"
-author: "@minchoi (Min Choi)"
-captured_date: "2026-02-14"
----
-
 # ClawdBot (now OpenClaw): The Personal AI Assistant That Lives on Your Computer
 
 ## 1. Opening Statement

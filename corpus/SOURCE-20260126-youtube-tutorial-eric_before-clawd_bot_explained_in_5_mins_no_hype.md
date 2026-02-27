@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-289
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "clawd"
-  - "bot"
-  - "explained"
-  - "mins"
-  - "hype"
-creator: "Eric Before "
-guest: null
-title: "Clawd Bot Explained In 5 mins (No Hype)"
-url: "https://www.youtube.com/watch?v=_6D4shWDnEc"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "5m 56s"
-has_transcript: no
-synopsis: "Clawd Bot Explained In 5 mins (No Hype) by Eric Before . A tutorial covering clawd, bot, explained."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawd Bot Explained In"
-  - "Clawd Bot Explained In 5 mins"
----
-
 # Clawd Bot Explained In 5 mins (No Hype)
 
 **Channel**: Eric Before 

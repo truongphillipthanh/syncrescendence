@@ -1,24 +1,3 @@
----
-url: https://x.com/Flynnjamm/status/2023465136204419096
-author: "brian flynn (@Flynnjamm)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-007
-original_filename: "20260216-x_article-how_to_sell_to_agents-@flynnjamm.md"
-status: triaged
-platform: x
-format: article
-creator: flynnjamm
-signal_tier: paradigm
-topics: [ai-agents, economics, entrepreneurship, framework]
-teleology: strategize
-notebooklm_category: ai-agents
-aliases: ["flynnjamm - how to sell to AI agents"]
-synopsis: "Applies Coasean transaction cost theory to AI agents: when search costs collapse to near-zero, the default shifts from build to buy, and buyers are software with budgets. Agents don't browse, they query - brand loyalty is replaced by liveness, reliability, and confidence scores. Per-request pricing (fractions of a cent) enables viable single-purpose endpoints. HTTP 402 finally finds its use."
-key_insights:
-  - "Agents optimize for outcomes not attention - your marketing site is invisible at runtime, only your API matters"
-  - "Per-request pricing enables single-purpose endpoints that couldn't sustain $29/month subscriptions but thrive at fractions of a cent with thousands of daily calls"
-  - "Trust becomes machine-evaluable: uptime history, response accuracy, latency percentiles replace brand recognition"
----
 # How to Sell to Agents
 (Description: A stylized illustration of a round, red AI agent character with large expressive eyes, antenna, small ears, and a simple humanoid body against a dark blue gradient background with glowing accents.)
 ## Introduction

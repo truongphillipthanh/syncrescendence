@@ -1,39 +1,3 @@
----
-id: SOURCE-20251118-1075
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "google"
-  - "gemini"
-  - "most"
-  - "powerful"
-  - "llm"
-creator: "Greg Isenberg"
-guest: null
-title: "Google's Gemini 3.0: The Most Powerful LLM Ever"
-url: "https://www.youtube.com/watch?v=og7R9C_N3Zg"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "39m 4s"
-has_transcript: no
-synopsis: "Google's Gemini 3.0: The Most Powerful LLM Ever by Greg Isenberg. A tutorial covering google, gemini, most."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Google's Gemini 3.0: The"
-  - "Google's Gemini 3.0: The Most Powerful"
----
-
 # Google's Gemini 3.0: The Most Powerful LLM Ever
 
 **Channel**: Greg Isenberg

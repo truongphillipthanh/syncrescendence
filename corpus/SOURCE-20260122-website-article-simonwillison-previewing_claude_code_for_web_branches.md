@@ -1,24 +1,3 @@
----
-id: SOURCE-20260122-website-article-simonwillison-previewing_claude_code_for_web_branches
-platform: website
-format: article
-creator: simonwillison
-title: previewing claude code for web branches
-status: triaged
-original_filename: 20260122-website-previewing_claude_code_for_web_branches--simonwillison.md
-url: https://til.simonwillison.net/claude-code/preview-github-pages
-domain: til.simonwillison.net
-published_date: 2026-01-22T08:43:41-08:00
-captured_date: 2026-01-24
-content_type: article
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Previewing Claude Code for web branches with GitHub Pages
 
 I'm a big user of [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web), Anthropic's poorly named cloud-based version of Claude Code which can be driven via the web or their native mobile and desktop applications.

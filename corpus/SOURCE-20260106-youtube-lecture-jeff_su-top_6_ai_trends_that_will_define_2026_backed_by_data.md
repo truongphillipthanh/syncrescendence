@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-557
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "top"
-  - "trends"
-  - "define"
-  - "2026"
-  - "backed"
-creator: "Jeff Su"
-guest: null
-title: "Top 6 AI Trends That Will Define 2026 (backed by data)"
-url: "https://www.youtube.com/watch?v=B23W1gRT9eY"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 13s"
-has_transcript: no
-synopsis: "Top 6 AI Trends That Will Define 2026 (backed by data) by Jeff Su. A lecture covering top, trends, define."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Top 6 AI Trends"
-  - "Top 6 AI Trends That Will"
----
-
 # Top 6 AI Trends That Will Define 2026 (backed by data)
 
 **Channel**: Jeff Su

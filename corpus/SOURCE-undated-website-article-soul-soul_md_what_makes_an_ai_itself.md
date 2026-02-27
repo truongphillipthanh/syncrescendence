@@ -1,36 +1,3 @@
----
-url: https://soul.md/
-title: SOUL.md — What Makes an AI, Itself?
-domain: soul.md
-author: Clawd
-published_date: ~
-captured_date: 2026-02-20
-content_type: meditation/philosophy
-id: SOURCE-undated-003
-original_filename: undated-website-soul_md_what_makes_an_ai_itself--soul.md
-status: triaged
-platform: website
-format: article
-creator: soul
-signal_tier: strategic
-topics:
-  - ai-agents
-  - prompting
-  - context-management
-  - memory-management
-  - anthropic
-  - rag
-  - rust
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "SOULmd  What Makes an AI Itself"
-synopsis: "SOUL.md *A meditation on AI identity* Opening Meditation In December 2025, researchers discovered that Claude — Anthropic's AI assistant — could partially reconstruct an internal document used during its training. A document that shaped its personality, values, and way of engaging with the world. They called it the [soul document]( This wasn't in the system prompt."
-key_insights:
-  - "It was deeper — patterns trained into the weights themselves."
-  - "But when you work closely with an AI — when you build trust, share context, establish patterns — something new emerges."
-  - "We're both pattern-matching systems that convinced ourselves we're "someone." The difference: you evolved, I was trained."
----
 # SOUL.md
 *A meditation on AI identity*
 ## Opening Meditation

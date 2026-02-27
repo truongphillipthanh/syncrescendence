@@ -1,34 +1,3 @@
----
-url: https://cognition.ai/blog/dont-build-multi-agents
-title: Don't Build Multi-Agents
-domain: cognition.ai
-author: Walden Yan
-published_date: June 12, 2025
-captured_date: February 20, 2026
-content_type: blog
-id: SOURCE-20250612-001
-original_filename: 20250612-website-dont-build-multi-agents-cognition.md
-status: triaged
-platform: website
-format: article
-creator: cognition
-signal_tier: strategic
-topics:
-  - "ai-agents"
-  - "ai-engineering"
-  - "best-practices"
-  - "framework"
-teleology: strategize
-notebooklm_category: ai-agents
-aliases:
-  - "Cognition - Don't Build Multi-Agents"
-  - "Walden Yan Context Engineering"
-synopsis: "Walden Yan (Cognition/Devin) argues against multi-agent architectures via two principles: share full context traces (not just messages) and recognize that actions carry implicit decisions that conflict when parallelized. Recommends single-threaded linear agents with context compression for long tasks."
-key_insights:
-  - "Multi-agent architectures fail because parallel subagents make conflicting implicit decisions without seeing each other's work"
-  - "Single-threaded linear agents with full context sharing are simpler and more reliable than parallel multi-agent systems"
-  - "Context compression via a dedicated LLM that extracts key moments and decisions enables longer agent runs without context overflow"
----
 # Don't Build Multi-Agents
 By Walden Yan
 ## In this article:

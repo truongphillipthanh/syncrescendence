@@ -1,32 +1,3 @@
----
-url: https://x.com/TukiFromKL/status/2015688502935978395
-author: "Tuki (@TukiFromKL)"
-captured_date: 2026-01-25
-id: SOURCE-20260126-011
-original_filename: "20260126-x_article-i_installed_clawdbot_yesterday_every_user_hits_the_same_dark_pattern_at_week_8-@tukifromkl.md"
-status: triaged
-platform: x
-format: article
-creator: tukifromkl
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - testing
-  - memory-management
-  - extended-thinking
-  - gpt
-  - open-source
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "I Installed Clawdbot Yesterday Every User Hits The Same Dark Pattern At Week 8"
-synopsis: "I Installed Clawdbot Yesterday. Every User Hits The Same Dark Pattern At Week 8. I bought a Mac mini and installed Clawdbot yesterday. Ten minutes of setup. Now I have an AI assistant that: - Lives in my WhatsApp - Remembers every conversation - Messages me first when something's important - Can actually DO things on my computer Everyone on Twitter is losing their minds over this thing."
-key_insights:
-  - "Every User Hits The Same Dark Pattern At Week 8."
-  - "A pattern in what people are saying."
-  - "But it's different from ChatGPT or Claude in three critical ways: **1."
----
 # I Installed Clawdbot Yesterday. Every User Hits The Same Dark Pattern At Week 8.
 
 (Description: Beige/tan background with pixelated brown creature with red eyes and angry expression on the right side. Black handwritten-style text reading "YOU'RE NEXT !" on the left side.)

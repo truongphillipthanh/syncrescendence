@@ -1,28 +1,3 @@
----
-url: https://x.com/tankots/status/2018758704682930510
-author: "Tanay Kothari (@tankots)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-024
-original_filename: "20260203-x_article-if_youre_still_applying_to_jobs_read_this-@tankots.md"
-status: triaged
-platform: x
-format: article
-creator: tankots
-signal_tier: tactical
-topics:
-  - extended-thinking
-  - product-development
-  - inspire-pattern
-teleology: inspire
-notebooklm_category: career-growth
-aliases:
-  - "If Youre Still Applying to Jobs Read This"
-synopsis: "If You're Still Applying to Jobs, Read This Core Principles Companies don't hire the most qualified person. They hire who makes the decision feel easiest. The recruiting game is rigged - but not in the way you think. I've hired over 200 employees across three companies and reviewed over 100,000 resumes. Here's what actually happens on the other side of the table."
-key_insights:
-  - "If You're Still Applying to Jobs, Read This Core Principles Companies don't hire the most qualified person."
-  - "After reviewing thousands of resumes, you start to see patterns."
-  - "There's a multitude of examples of employees hired directly who used this strategy: - A 20-year-old who became one of my best engineers didn't submit an application."
----
 # If You're Still Applying to Jobs, Read This
 
 (Description: Professional photograph of a business interview scene. Two men in formal business attire are shown across a desk, one viewed from behind in the foreground, the other in direct view wearing a dark blazer and light blue dress shirt. The setting appears to be an office interior with professional furnishings in soft focus behind them.)

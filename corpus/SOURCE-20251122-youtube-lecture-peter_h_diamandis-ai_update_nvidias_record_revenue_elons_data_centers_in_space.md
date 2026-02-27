@@ -1,39 +1,3 @@
----
-id: SOURCE-20251122-1025
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "update"
-  - "nvidia"
-  - "record"
-  - "revenue"
-  - "elon"
-creator: "Peter H. Diamandis"
-guest: null
-title: "AI Update: NVIDIA’s Record Revenue, Elon’s Data Centers in Space & Gemini 3’s Insane Performance"
-url: "https://www.youtube.com/watch?v=Ht9XtcV7ZYk"
-date_published: 2025-11-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 40m 59s"
-has_transcript: no
-synopsis: "AI Update: NVIDIA’s Record Revenue, Elon’s Data Centers in Space & Gemini 3’s Insane Performance by Peter H. Diamandis. A lecture covering update, nvidia, record."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Update: NVIDIA’s Record"
-  - "AI Update: NVIDIA’s Record Revenue, Elon’s"
----
-
 # AI Update: NVIDIA’s Record Revenue, Elon’s Data Centers in Space & Gemini 3’s Insane Performance
 
 **Channel**: Peter H. Diamandis

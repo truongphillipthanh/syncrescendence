@@ -1,39 +1,3 @@
----
-id: SOURCE-20260204-178
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "full"
-  - "tutorial"
-  - "beginners"
-  - "set"
-creator: "freeCodeCamp.org"
-guest: null
-title: "OpenClaw Full Tutorial for Beginners – How to Set Up and Use OpenClaw (ClawdBot / MoltBot)"
-url: "https://www.youtube.com/watch?v=n1sfrc-RjyM"
-date_published: 2026-02-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "54m 45s"
-has_transcript: no
-synopsis: "OpenClaw Full Tutorial for Beginners – How to Set Up and Use OpenClaw (ClawdBot / MoltBot) by freeCodeCamp.org. A tutorial covering openclaw, full, tutorial."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenClaw Full Tutorial for"
-  - "OpenClaw Full Tutorial for Beginners –"
----
-
 # OpenClaw Full Tutorial for Beginners – How to Set Up and Use OpenClaw (ClawdBot / MoltBot)
 
 **Channel**: freeCodeCamp.org

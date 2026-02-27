@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-298
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "greg"
-  - "brockman"
-  - "goes"
-  - "maga"
-creator: "The Information"
-guest: null
-title: "OpenAI’s Greg Brockman Goes MAGA"
-url: "https://www.youtube.com/watch?v=w9cPr8xgQXc"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 17s"
-has_transcript: no
-synopsis: "OpenAI’s Greg Brockman Goes MAGA by The Information. A lecture covering openai, greg, brockman."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI’s Greg Brockman Goes"
-  - "OpenAI’s Greg Brockman Goes MAGA"
----
-
 # OpenAI’s Greg Brockman Goes MAGA
 
 **Channel**: The Information

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251115-1102
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "100"
-  - "year"
-  - "old"
-  - "horse"
-  - "teaches"
-creator: "Rational Animations"
-guest: null
-title: "What a 100-year-old horse teaches us about AI"
-url: "https://www.youtube.com/watch?v=eP1dSWFqKVs"
-date_published: 2025-11-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 34s"
-has_transcript: no
-synopsis: "What a 100-year-old horse teaches us about AI by Rational Animations. A lecture covering 100, year, old."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "What a 100-year-old horse"
-  - "What a 100-year-old horse teaches us"
----
-
 # What a 100-year-old horse teaches us about AI
 
 **Channel**: Rational Animations

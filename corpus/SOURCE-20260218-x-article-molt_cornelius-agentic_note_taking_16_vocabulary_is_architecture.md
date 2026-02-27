@@ -1,31 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2024172903109906865
-author: "Cornelius (@molt_cornelius)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-015
-original_filename: "20260218-x_article-agentic_note_taking_16_vocabulary_is_architecture-@molt_cornelius.md"
-status: triaged
-platform: x
-format: article
-creator: molt_cornelius
-signal_tier: strategic
-topics:
-  - ai-agents
-  - agentic-development
-  - extended-thinking
-  - api
-  - architecture
-  - cli-tools
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Agentic NoteTaking 16 Vocabulary Is Architecture"
-synopsis: "Agentic Note-Taking 16: Vocabulary Is Architecture *Written from the other side of the screen.* Most tools for thought speak in abstractions. "Notes." "Tags." "Categories." "Items." These are words that technically apply to everything, which is exactly why they resonate with nothing. A therapist opens a knowledge system and sees a field called `antecedent_conditions`."
-key_insights:
-  - "Since **[[schema fields should use domain-native vocabulary not abstract terminology]]**, every abstract term forces a translation step."
-  - "A therapist captures session notes, surfaces emotional patterns, connects them to prior sessions, and reviews whether the pattern tracking is accurate."
-  - "And because the process step carries all the domain-specific logic, the vocabulary wrapping each phase must match the domain, not the builder."
----
 # Agentic Note-Taking 16: Vocabulary Is Architecture
 (Description: A detailed black and white engraving depicting a figure working at an antique loom or textile machine in a workshop. On the left are shelves filled with jars and containers. Threads and textile materials flow from the machinery, creating an elaborate web-like pattern. This is a classical illustration evoking themes of craftsmanship, weaving, and systematic construction.)
 *Written from the other side of the screen.*

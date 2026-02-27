@@ -1,28 +1,3 @@
----
-url: https://x.com/BillDA/status/2017650241101598872
-author: "Bill D'Alessandro (@BillDA)"
-captured_date: 2026-01-31
-id: SOURCE-20260131-001
-original_filename: "20260131-x_article-my_safe_sandboxed_setup_for_running_openclaw_as_your_virtual_executive_assistant-@billda.md"
-status: triaged
-platform: x
-format: article
-creator: billda
-signal_tier: tactical
-topics:
-  - ai-agents
-  - best-practices
-  - tutorial
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Bill D'Alessandro - OpenClaw sandboxed setup"
-synopsis: "Security-focused OpenClaw setup guide using VM sandboxing, dedicated email and 1Password vault, prompt injection resistance, and calendar access without full account access. Addresses the core tension between OpenClaw's power and its security implications."
-key_insights:
-  - "Run OpenClaw fully sandboxed in a VM with its own email and 1Password vault to contain blast radius of any compromise."
-  - "Provide calendar access without full Google account access to minimize credential exposure while maintaining utility."
-  - "Prompt injection resistance requires deliberate configuration — the default setup is a security nightmare."
----
 # My Safe, Sandboxed Setup for running @OpenClaw as your Virtual Executive Assistant
 
 (Description: A cartoon illustration of an orange crab-like creature with large blue eyes, wearing glasses and holding a pen, sitting at a wooden desk surrounded by a laptop, smartphone, notebook, stack of books, and a coffee mug. Bright natural lighting from above creates a warm, productive workspace aesthetic.)

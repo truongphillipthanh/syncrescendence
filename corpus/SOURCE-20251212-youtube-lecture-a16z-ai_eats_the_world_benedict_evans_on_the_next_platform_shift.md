@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-853
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "eats"
-  - "world"
-  - "benedict"
-  - "evans"
-  - "next"
-creator: "a16z"
-guest: null
-title: "AI Eats the World: Benedict Evans on the Next Platform Shift"
-url: "https://www.youtube.com/watch?v=RH9vJNxFKDA"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 7s"
-has_transcript: no
-synopsis: "AI Eats the World: Benedict Evans on the Next Platform Shift by a16z. A lecture covering eats, world, benedict."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Eats the World:"
-  - "AI Eats the World: Benedict Evans"
----
-
 # AI Eats the World: Benedict Evans on the Next Platform Shift
 
 **Channel**: a16z

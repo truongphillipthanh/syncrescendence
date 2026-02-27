@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-117
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "wake"
-  - "call"
-  - "everyone"
-  - "needs"
-  - "right"
-creator: "Matt Wolfe"
-guest: null
-title: "The AI Wake-Up Call Everyone Needs Right Now!"
-url: "https://www.youtube.com/watch?v=sLhxdcpuot0"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 6s"
-has_transcript: no
-synopsis: "The AI Wake-Up Call Everyone Needs Right Now! by Matt Wolfe. A lecture covering wake, call, everyone."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The AI Wake-Up Call"
-  - "The AI Wake-Up Call Everyone Needs"
----
-
 # The AI Wake-Up Call Everyone Needs Right Now!
 
 **Channel**: Matt Wolfe

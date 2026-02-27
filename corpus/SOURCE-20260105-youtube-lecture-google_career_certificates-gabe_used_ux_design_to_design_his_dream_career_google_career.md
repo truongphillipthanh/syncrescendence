@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-576
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gabe"
-  - "used"
-  - "design"
-  - "dream"
-  - "career"
-creator: "Google Career Certificates"
-guest: null
-title: "Gabe used UX Design to design his dream career | Google Career Certificates"
-url: "https://www.youtube.com/watch?v=iUx58ZjkigU"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1m 55s"
-has_transcript: no
-synopsis: "Gabe used UX Design to design his dream career | Google Career Certificates by Google Career Certificates. A lecture covering gabe, used, design."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: vibe-coding
-aliases:
-  - "Gabe used UX Design"
-  - "Gabe used UX Design to design"
----
-
 # Gabe used UX Design to design his dream career | Google Career Certificates
 
 **Channel**: Google Career Certificates

@@ -1,15 +1,3 @@
----
-id: CLARESCENCE-2026-02-05-task-arch-ontology-linear
-kind: CLARESCENCE
-scope: system
-target: syncrescendence
-fidelity: full
-passes: 1-10
-status: canonical
-created: 2026-02-05
-owner: Commander (Claude Code Opus)
----
-
 # CLARESCENCE: Task Architecture Operationalization + Ontology Foundation + Linear Onboarding
 
 **Date**: 2026-02-05

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251128-970
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "alphafold"
-  - "grand"
-  - "challenge"
-  - "nobel"
-  - "prize"
-creator: "Google DeepMind"
-guest: null
-title: "AlphaFold: Grand challenge to Nobel Prize | John Jumper"
-url: "https://www.youtube.com/watch?v=-pGs0btGmgY"
-date_published: 2025-11-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "48m 25s"
-has_transcript: no
-synopsis: "AlphaFold: Grand challenge to Nobel Prize | John Jumper by Google DeepMind. A lecture covering alphafold, grand, challenge."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AlphaFold: Grand challenge to"
-  - "AlphaFold: Grand challenge to Nobel Prize"
----
-
 # AlphaFold: Grand challenge to Nobel Prize | John Jumper
 
 **Channel**: Google DeepMind

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-619
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "end"
-  - "human"
-  - "jobs"
-  - "emad"
-  - "mostaque"
-creator: "Info-Tech Research Group"
-guest: null
-title: "AI Will End Human Jobs: Emad Mostaque on the Future of Human Work"
-url: "https://www.youtube.com/watch?v=uW-eYOxjUcY"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 10m 37s"
-has_transcript: no
-synopsis: "AI Will End Human Jobs: Emad Mostaque on the Future of Human Work by Info-Tech Research Group. A interview covering end, human, jobs."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "AI Will End Human"
-  - "AI Will End Human Jobs: Emad"
----
-
 # AI Will End Human Jobs: Emad Mostaque on the Future of Human Work
 
 **Channel**: Info-Tech Research Group

@@ -1,29 +1,3 @@
----
-url: https://x.com/milesdeutscher/status/2016016997507862648
-author: "Miles Deutscher (@milesdeutscher)"
-captured_date: 2026-02-04
-id: SOURCE-20260127-002
-original_filename: "20260127-x_article-i_turned_clawdbot_into_my_personal_ai_assistant_full_thoughts-@milesdeutscher.md"
-status: triaged
-platform: x
-format: article
-creator: milesdeutscher
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - developer-tools
-  - tutorial
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Miles Deutscher - Clawdbot personal assistant"
-synopsis: "Crypto influencer Miles Deutscher's hands-on review of setting up Clawdbot on a Mac Studio, covering installation, Telegram integration, Anthropic API connection, and real workflows including crypto research reports, vibe-coded yield tracking apps, and trading journals pulling from Notion. Includes honest Average Joe ratings (overall 5/10) highlighting security risks and hidden API costs."
-key_insights:
-  - "Clawdbot should NOT run on your main computer due to security risks — use a dedicated device and only download data you're comfortable exposing to the agent."
-  - "API costs with Clawdbot can escalate rapidly without limits; using paid subscription plans as a natural cost cap is recommended over raw API billing."
-  - "The gateway web interface produces better vibe-coding results than the Telegram chat interface for complex building tasks."
----
 # I Turned Clawdbot Into My Personal AI Assistant (Full Thoughts)
 
 (Description: Dark-themed header image showing dystopian mechanical figure with "CLAWDBOT" text and "My Full Thoughts" tagline in white serif font)

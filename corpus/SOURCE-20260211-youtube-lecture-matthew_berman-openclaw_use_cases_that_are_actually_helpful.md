@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-120
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "use"
-  - "cases"
-  - "actually"
-  - "helpful"
-creator: "Matthew Berman"
-guest: null
-title: "OpenClaw Use Cases that are actually helpful..."
-url: "https://www.youtube.com/watch?v=Q7r--i9lLck"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 41s"
-has_transcript: no
-synopsis: "OpenClaw Use Cases that are actually helpful... by Matthew Berman. A lecture covering openclaw, use, cases."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenClaw Use Cases that"
-  - "OpenClaw Use Cases that are actually"
----
-
 # OpenClaw Use Cases that are actually helpful...
 
 **Channel**: Matthew Berman

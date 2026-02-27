@@ -1,9 +1,3 @@
----
-url: https://x.com/shivambhadani_/status/2020504631697391736
-author: Shivam Bhadani (@shivambhadani_)
-captured_date: 2026-02-08
----
-
 # Learning Backend Development from Zero to Advanced Using First Principles
 
 (Description: Title card with gradient purple background displaying "Learning Backend Development From First Principles" in large white text)

@@ -1,9 +1,3 @@
----
-url: https://x.com/tomjohndesign/status/2018385296610746403
-author: Tom Johnson (@tomjohndesign)
-captured_date: 2026-02-13
----
-
 # The new design process
 
 (Description: A four-pointed star or cross-shaped icon in white against a dark background, rendered in a minimalist design style with selection handles visible around its edges, contained within a blue-bordered frame)

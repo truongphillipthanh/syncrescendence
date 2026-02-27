@@ -1,39 +1,3 @@
----
-id: SOURCE-20251216-818
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "tell"
-  - "cto"
-  - "before"
-  - "touch"
-  - "claude"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "What I Tell Every CTO Before They Touch Claude Code or the Anthropic API"
-url: "https://www.youtube.com/watch?v=mnWMTzkjWmk"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 5s"
-has_transcript: no
-synopsis: "What I Tell Every CTO Before They Touch Claude Code or the Anthropic API by AI News & Strategy Daily | Nate B Jones. A lecture covering tell, cto, before."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "What I Tell Every"
-  - "What I Tell Every CTO Before"
----
-
 # What I Tell Every CTO Before They Touch Claude Code or the Anthropic API
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

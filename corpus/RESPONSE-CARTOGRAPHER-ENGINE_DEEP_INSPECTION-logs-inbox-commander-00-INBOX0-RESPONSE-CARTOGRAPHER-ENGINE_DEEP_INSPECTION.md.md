@@ -1,11 +1,3 @@
----
-agent: cartographer
-council: DC-202
-topic: DC-202 Engine + Sources Deep Inspection — structural drift analysis, flat principle violations, per-file verdicts
-status: unprocessed
-collected: 2026-02-23
----
-
 # Cartographer Deep Inspection: engine/ + sources/ (DC-202)
 
 **Task ID**: DC-202

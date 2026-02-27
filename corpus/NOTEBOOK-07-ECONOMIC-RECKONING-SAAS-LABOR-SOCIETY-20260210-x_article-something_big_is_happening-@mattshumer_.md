@@ -1,9 +1,3 @@
----
-url: https://x.com/mattshumer_/status/2021256989876109403
-author: Matt Shumer (@mattshumer_)
-captured_date: 2026-02-10
----
-
 # Something Big Is Happening
 
 ![Something Big Is Happening](image) (Description: A photograph of two hands holding a white notecard with handwritten text reading "Something Big Is Happening". The scene is set on a desk with a coffee cup visible on the left side and a smartphone blurred in the background. The lighting is natural and warm.)

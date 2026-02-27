@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-352
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "apple"
-  - "took"
-  - "years"
-  - "catch"
-  - "kilo"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Apple Took Years to Catch Up. Kilo Code Took 6 Weeks--and It's Coming for Lovable, Cursor, Replit"
-url: "https://www.youtube.com/watch?v=2sY7Pcm2j2g"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 24s"
-has_transcript: no
-synopsis: "Apple Took Years to Catch Up. Kilo Code Took 6 Weeks--and It's Coming for Lovable, Cursor, Replit by AI News & Strategy Daily | Nate B Jones. A lecture covering apple, took, years."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Apple Took Years to"
-  - "Apple Took Years to Catch Up."
----
-
 # Apple Took Years to Catch Up. Kilo Code Took 6 Weeks--and It's Coming for Lovable, Cursor, Replit
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

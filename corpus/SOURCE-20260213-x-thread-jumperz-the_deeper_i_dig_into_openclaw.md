@@ -1,28 +1,3 @@
----
-url: https://x.com/jumperz/status/2022413963917693428
-author: "@jumperz"
-captured_date: 2026-02-13
-id: SOURCE-20260213-022
-original_filename: "20260213-x_thread-the_deeper_i_dig_into_openclaw-@jumperz.md"
-status: triaged
-platform: x
-format: thread
-creator: jumperz
-signal_tier: strategic
-topics:
-  - ai-agents
-  - architecture
-  - synthesize-pattern
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "The Orchestration Spine"
-synopsis: "The Orchestration Spine the deeper i dig into openclaw the more i realize orchestration isn't just about having a coordinator, its way more.. it's 5 main layers and most people only build 2 of them or probably 3 at most.. > **L1 intake** this is the front door.. someone drops a link, sends a message or flags a task."
-key_insights:
-  - "if you skip this, its like you have agents doing great work that never turns into a decision.."
-  - "the full architecture, the mistakes, and what actually worked etc.."
-  - "The Orchestration Spine the deeper i dig into openclaw the more i realize orchestration isn't just about having a coordinator, its way more.."
----
 # The Orchestration Spine
 the deeper i dig into openclaw the more i realize orchestration isn't just about having a coordinator, its way more..
 it's 5 main layers and most people only build 2 of them or probably 3 at most..

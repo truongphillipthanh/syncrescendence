@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-674
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "infinity"
-  - "paradoxes"
-  - "gödel"
-  - "incompleteness"
-  - "mathematical"
-creator: "Lex Fridman"
-guest: null
-title: "Infinity, Paradoxes, Gödel Incompleteness & the Mathematical Multiverse | Lex Fridman Podcast #488"
-url: "https://www.youtube.com/watch?v=14OPT6CcsH4"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3h 52m 18s"
-has_transcript: no
-synopsis: "Infinity, Paradoxes, Gödel Incompleteness & the Mathematical Multiverse | Lex Fridman Podcast #488 by Lex Fridman. A lecture covering infinity, paradoxes, gödel."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Infinity, Paradoxes, Gödel Incompleteness"
-  - "Infinity, Paradoxes, Gödel Incompleteness & the"
----
-
 # Infinity, Paradoxes, Gödel Incompleteness & the Mathematical Multiverse | Lex Fridman Podcast #488
 
 **Channel**: Lex Fridman

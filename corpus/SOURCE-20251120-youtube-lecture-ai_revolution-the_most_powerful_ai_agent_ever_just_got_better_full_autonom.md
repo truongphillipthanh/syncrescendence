@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1051
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "most"
-  - "powerful"
-  - "agent"
-  - "ever"
-  - "just"
-creator: "AI Revolution"
-guest: null
-title: "The Most Powerful AI Agent Ever Just Got Better: Full Autonomy"
-url: "https://www.youtube.com/watch?v=jtHzqYqZRBI"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 20s"
-has_transcript: no
-synopsis: "The Most Powerful AI Agent Ever Just Got Better: Full Autonomy by AI Revolution. A lecture covering most, powerful, agent."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "The Most Powerful AI"
-  - "The Most Powerful AI Agent Ever"
----
-
 # The Most Powerful AI Agent Ever Just Got Better: Full Autonomy
 
 **Channel**: AI Revolution

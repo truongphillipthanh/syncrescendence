@@ -1,11 +1,3 @@
----
-agent: vanguard
-council: DC-110
-topic: Memory Architecture Engineering — Graphiti HTTP spec, CQRS/Git-native substrate implementation, memsync daemon blueprint
-status: unprocessed
-collected: 2026-02-23
----
-
 You already have the correct empirical prior: "files are source of truth, databases are derived indices." Treat Graphiti as a *cross-session, cross-agent, temporally-aware indexing layer* that you can lose at any moment without losing memory. That single stance keeps the system coherent under failure, compaction, contradictions, and multi-machine drift.
 
 Below is an engineering-grade spec that assumes your Graphiti service is the `getzep/graphiti` HTTP graph service (FastAPI) running on port **8001** (their FalkorDB profile), which matches the upstream docker-compose mapping. ([GitHub][1])

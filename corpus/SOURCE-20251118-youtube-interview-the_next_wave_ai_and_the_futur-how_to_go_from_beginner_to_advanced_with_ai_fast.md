@@ -1,37 +1,3 @@
----
-id: SOURCE-20251118-1069
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "beginner"
-  - "advanced"
-  - "fast"
-creator: "The Next Wave - AI and the Future of Technology"
-guest: null
-title: "How to Go From Beginner to Advanced with AI (Fast) "
-url: "https://www.youtube.com/watch?v=BZuXGSm1lN8"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 56s"
-has_transcript: no
-synopsis: "How to Go From Beginner to Advanced with AI (Fast)  by The Next Wave - AI and the Future of Technology. A interview covering beginner, advanced, fast."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Go From"
-  - "How to Go From Beginner to"
----
-
 # How to Go From Beginner to Advanced with AI (Fast) 
 
 **Channel**: The Next Wave - AI and the Future of Technology

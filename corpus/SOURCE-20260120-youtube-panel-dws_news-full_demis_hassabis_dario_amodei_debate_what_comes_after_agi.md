@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-424
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "full"
-  - "demis"
-  - "hassabis"
-  - "dario"
-  - "amodei"
-creator: "DWS News"
-guest: null
-title: "FULL: Demis Hassabis, Dario Amodei Debate What Comes After AGI at World Economic Forum | AI1G"
-url: "https://www.youtube.com/watch?v=9Zz2KrBDXUo"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 5s"
-has_transcript: no
-synopsis: "FULL: Demis Hassabis, Dario Amodei Debate What Comes After AGI at World Economic Forum | AI1G by DWS News. A panel discussion covering full, demis, hassabis."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "FULL: Demis Hassabis, Dario"
-  - "FULL: Demis Hassabis, Dario Amodei Debate"
----
-
 # FULL: Demis Hassabis, Dario Amodei Debate What Comes After AGI at World Economic Forum | AI1G
 
 **Channel**: DWS News

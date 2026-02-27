@@ -1,35 +1,3 @@
----
-id: SOURCE-20251231-656
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "best"
-  - "2025"
-creator: "ARK Invest"
-guest: null
-title: "Best Of 2025"
-url: "https://www.youtube.com/watch?v=4c40sKEipQ8"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 21m 24s"
-has_transcript: no
-synopsis: "Best Of 2025 by ARK Invest. A lecture covering best, 2025."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Best Of 2025"
----
-
 # Best Of 2025
 
 **Channel**: ARK Invest

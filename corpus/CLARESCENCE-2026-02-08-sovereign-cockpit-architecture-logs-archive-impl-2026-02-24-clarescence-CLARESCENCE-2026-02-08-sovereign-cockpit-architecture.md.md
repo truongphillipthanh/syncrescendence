@@ -1,18 +1,3 @@
----
-id: CLARESCENCE-2026-02-08-sovereign-cockpit-architecture
-kind: clarescence
-scope: orchestration + engine
-status: active
-created: 2026-02-08
-author: Commander (Claude Code / Opus 4.6)
-related:
-  - DEC-20260206-144500-disposition-routing-charter.md
-  - engine/REF-STACK_TELEOLOGY.md
-  - orchestration/state/REF-NEO_BLITZKRIEG_BUILDOUT.md
-  - COCKPIT.md
-  - CLARESCENCE-2026-02-07-mcp-bridge-architecture.md
----
-
 # CLARESCENCE: The Sovereign Cockpit Architecture
 
 ## Provenance

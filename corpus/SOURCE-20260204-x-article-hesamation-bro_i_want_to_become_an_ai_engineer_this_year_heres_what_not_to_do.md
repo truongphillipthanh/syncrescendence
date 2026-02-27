@@ -1,29 +1,3 @@
----
-url: https://x.com/Hesamation/status/2018871027510452543
-author: "ℏεsam (@Hesamation)"
-captured_date: 2026-02-03
-id: SOURCE-20260204-005
-original_filename: "20260204-x_article-bro_i_want_to_become_an_ai_engineer_this_year_heres_what_not_to_do-@hesamation.md"
-status: triaged
-platform: x
-format: article
-creator: hesamation
-signal_tier: tactical
-topics:
-  - prompting
-  - extended-thinking
-  - architecture
-  - fine-tuning
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "bro I want to become an AI Engineer this year  heres what NOT to do"
-synopsis: ""bro, I want to become an AI Engineer this year" - here's what NOT to do. Introduction there's a thousand things to learn, you can't find a solid roadmap, everyone seems to be doing stuff and FOMO gets you. the pain is real, because you're doing it wrong. AI engineering is the hot job of 2026."
-key_insights:
-  - "you don't need to be able to calculate the chain rule by hand, or implement backprop from scratch."
-  - "there are subjects you must know, chances are you already do from high school / STEM degrees."
-  - "but the reality is that in practice, **you must think in systems, not models.** Building the wrong portfolio so you need to build a solid portfolio."
----
 # "bro, I want to become an AI Engineer this year" - here's what NOT to do.
 
 (Description: A black and white illustration showing a person sitting at a desk viewed from behind, wearing headphones, working at three computer monitors. To the right, there is a stack of books. The workspace is detailed with sketched elements suggesting deep focus and study.)

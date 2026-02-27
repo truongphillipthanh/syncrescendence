@@ -1,39 +1,3 @@
----
-id: SOURCE-20251205-841
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "customized"
-  - "care"
-  - "need"
-  - "most"
-  - "tampa"
-creator: "Palantir"
-guest: null
-title: "Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025"
-url: "https://www.youtube.com/watch?v=TwwTlyIhCYI"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 45s"
-has_transcript: no
-synopsis: "Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025 by Palantir. A lecture covering customized, care, need."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Customized Care When You"
-  - "Customized Care When You Need it"
----
-
 # Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025
 
 **Channel**: Palantir

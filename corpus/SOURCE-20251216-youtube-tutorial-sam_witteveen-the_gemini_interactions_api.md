@@ -1,36 +1,3 @@
----
-id: SOURCE-20251216-815
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "interactions"
-  - "api"
-creator: "Sam Witteveen"
-guest: null
-title: "The Gemini Interactions API"
-url: "https://www.youtube.com/watch?v=aZgH_wnmedQ"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 54s"
-has_transcript: no
-synopsis: "The Gemini Interactions API by Sam Witteveen. A tutorial covering gemini, interactions, api."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Gemini Interactions API"
----
-
 # The Gemini Interactions API
 
 **Channel**: Sam Witteveen

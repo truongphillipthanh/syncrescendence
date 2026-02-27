@@ -1,9 +1,3 @@
----
-url: https://x.com/manthanguptaa/status/2015780646770323543
-author: Manthan Gupta (@manthanguptaa)
-captured_date: 2026-01-26
----
-
 # How Clawdbot Remembers Everything
 
 Clawdbot is an open-source personal AI assistant (MIT licensed) created by [Peter Steinberger](https://x.com/steipete) that has quickly gained traction with over 32,600 stars on [GitHub](https://github.com/clawdbot/clawdbot) at the time of writing this blog. Unlike ChatGPT or Claude, which run in the cloud, Clawdbot runs locally on your machine and integrates with chat platforms you already use, like Discord, WhatsApp, Telegram, and more.

@@ -1,9 +1,3 @@
----
-url: https://x.com/armanhezarkhani/status/2011818455922553106/
-author: Arman Hezarkhani (@ArmanHezarkhani)
-captured_date: 2026-01-15
----
-
 # The Complete Claude Cowork Guide
 
 (Description: Cover image with coral/orange rounded square icon containing a white lightning bolt symbol, paired with serif typography reading "The Complete Claude Cowork Guide" and subtitle "Cowork: Claude Code for the rest of your work")

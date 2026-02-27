@@ -1,39 +1,3 @@
----
-id: SOURCE-20260202-196
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ceos"
-  - "just"
-  - "said"
-  - "same"
-  - "thing"
-creator: "Farzad"
-guest: null
-title: "5 AI CEOs Just Said The Same Thing"
-url: "https://www.youtube.com/watch?v=kMivoKHHkxQ"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 45s"
-has_transcript: no
-synopsis: "5 AI CEOs Just Said The Same Thing by Farzad. A tutorial covering ceos, just, said."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "5 AI CEOs Just"
-  - "5 AI CEOs Just Said The"
----
-
 # 5 AI CEOs Just Said The Same Thing
 
 **Channel**: Farzad

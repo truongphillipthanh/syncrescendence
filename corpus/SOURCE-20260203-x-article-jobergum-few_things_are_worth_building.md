@@ -1,29 +1,3 @@
----
-url: https://x.com/jobergum/status/2018706126842294315
-author: "Jo Kristian Bergum (@jobergum)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-020
-original_filename: "20260203-x_article-few_things_are_worth_building-@jobergum.md"
-status: triaged
-platform: x
-format: article
-creator: jobergum
-signal_tier: strategic
-topics:
-  - context-management
-  - extended-thinking
-  - api
-  - cost-optimization
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Few things are worth building"
-synopsis: "Few things are worth building The cost of integrations and simple CRUD software glue has collapsed to near zero. Anyone can wire together an app doing some API calls in minutes. So what's left worth building? The new user Every major platform shift rewrote software stacks. Mobile put a computer in every pocket. Cloud made software elastic."
-key_insights:
-  - "And: > Agent UX is incredibly important and I think most people are sleeping on it."
-  - "The obvious approaches, injecting documentation and hoping for in-context learning, didn't work well enough."
-  - "We go deeper on the technical approach in [How we build a retrieval engine for agents]( Few things are worth building Building distributed retrieval infrastructure is hard."
----
 # Few things are worth building
 
 (Description: A dramatic landscape painting depicting a solitary figure standing on rocky terrain overlooking turbulent ocean waves crashing against dark cliffs. The sky is moody and overcast, creating an atmosphere of contemplation and challenge.)

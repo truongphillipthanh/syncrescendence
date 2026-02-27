@@ -1,24 +1,3 @@
----
-url: https://x.com/MarkKnd/status/2023413937719672979
-author: "Mark Vassilevskiy (@MarkKnd)"
-captured_date: 2026-02-16
-id: SOURCE-20260216-012
-original_filename: "20260216-x_article-the_easiest_path_to_get_to_30k_followers_on_x-@markknd.md"
-status: triaged
-platform: x
-format: article
-creator: markknd
-signal_tier: tactical
-topics: [content-creation, entrepreneurship, tutorial]
-teleology: implement
-notebooklm_category: career-growth
-aliases: ["markknd - X followers growth guide to 30K"]
-synopsis: "Step-by-step X/Twitter growth strategy in four phases: 0-500 (reply guy, 30-50 quality comments/day), 500-5K (giveaways and lead magnets), 5K-10K (replicate viral posts from big accounts), 10K-30K+ (volume with 5-10 posts/day plus articles). Emphasizes consistency and that the first 500 followers are hardest."
-key_insights:
-  - "0-500 followers: become a reply guy with 30-50 meaningful comments daily under target accounts"
-  - "Giveaways of product/service/knowledge attract attention and can funnel into clients - never give away money"
-  - "At 10K+ followers, volume matters most - 5-10 posts/day, 1-2 articles/week, and long-form articles get algorithmic boost"
----
 # The easiest path to get to 30k followers on X
 (Description: Clean white background with a mathematical visualization. Large pink "0" on the left, red plus-equals symbol in the center, and large red "30K" on the right, representing the journey from zero to 30,000 followers.)
 X is the best social media platform for pretty much everyone.

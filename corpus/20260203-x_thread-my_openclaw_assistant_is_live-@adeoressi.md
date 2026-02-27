@@ -1,9 +1,3 @@
----
-url: https://x.com/adeoressi/status/2018755662105473179
-author: Adeo Ressi (@adeoressi)
-captured_date: 2026-02-14
----
-
 # OpenClaw Assistant Thread
 
 **Adeo Ressi** (@adeoressi) · Feb 3, 2026

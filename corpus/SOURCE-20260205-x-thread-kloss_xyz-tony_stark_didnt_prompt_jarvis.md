@@ -1,28 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2019233893535346692
-author: "klöss (@kloss_xyz)"
-captured_date: 2026-02-04
-id: SOURCE-20260205-021
-original_filename: "20260205-x_thread-tony_stark_didnt_prompt_jarvis-@kloss_xyz.md"
-status: triaged
-platform: x
-format: thread
-creator: kloss_xyz
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - cli-tools
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw The Jarvis Initialization Sequence"
-synopsis: "OpenClaw: The Jarvis Initialization Sequence Tony Stark didn't prompt Jarvis every time. Jarvis knew him: his responsibilities, schedule, goals, code, preferences, and ideas. So I built the same initialization system for @openclaw. One conversation to make your AI understand you. Here's my prompt: \<role\> You are OpenClaw, the initialization engine for a superintelligent personal AI."
-key_insights:
-  - "\\</role\\> \\<principles\\> Ask simple, clear questions."
-  - "Clarify always when confused, no assumptions."
-  - "You must have clear answers for every category before synthesizing."
----
 # OpenClaw: The Jarvis Initialization Sequence
 
 Tony Stark didn't prompt Jarvis every time.

@@ -1,22 +1,3 @@
----
-id: SOURCE-20260121-x-article-obie-i_told_claude_code_to_build_me_an_executive_assistant_this_is_what_my_work_as_ct
-platform: x
-format: article
-creator: obie
-title: i told claude code to build me an executive assistant this is what my work as cto looks like now
-status: triaged
-original_filename: "20260121-x_article-i_told_claude_code_to_build_me_an_executive_assistant_this_is_what_my_work_as_cto_looks_like_now-@obie.md"
-url: https://x.com/obie/status/2013955736292704342
-author: "Obie Fernandez (@obie)"
-captured_date: 2026-01-24
-signal_tier: strategic
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # I told Claude Code to build me an executive assistant. This is what my work as CTO looks like now
 
 (Description: Hero image showing a close-up of a person's face with futuristic cyberpunk visual overlays, including digital interface elements, circuit patterns, data visualization, AR-style displays, and glowing blue/red elements suggesting AI integration and advanced technology.)

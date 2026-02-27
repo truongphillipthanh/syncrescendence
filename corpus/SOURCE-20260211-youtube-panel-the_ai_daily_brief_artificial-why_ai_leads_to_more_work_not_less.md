@@ -1,38 +1,3 @@
----
-id: SOURCE-20260211-122
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "leads"
-  - "more"
-  - "work"
-  - "less"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Why AI Leads to More Work, Not Less"
-url: "https://www.youtube.com/watch?v=owFqgMcmDbA"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 56s"
-has_transcript: no
-synopsis: "Why AI Leads to More Work, Not Less by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering leads, more, work."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why AI Leads to"
-  - "Why AI Leads to More Work,"
----
-
 # Why AI Leads to More Work, Not Less
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

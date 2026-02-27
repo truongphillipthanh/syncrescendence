@@ -1,11 +1,3 @@
----
-id: prompt-registry
-kind: registry
-scope: repo
-target: repo
-owner: Vanguard
----
-
 # Prompt Registry
 
 Auto-generated index of all PROMPT-* files in engine/prompts/.

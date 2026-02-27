@@ -1,37 +1,3 @@
----
-id: SOURCE-20251116-1057
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "tsmc"
-  - "arizona"
-  - "water"
-creator: "Asianometry"
-guest: null
-title: "TSMC Arizona: What About the Water?"
-url: "https://www.youtube.com/watch?v=8YHAE9hP5xQ"
-date_published: 2025-11-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 49s"
-has_transcript: no
-synopsis: "TSMC Arizona: What About the Water? by Asianometry. A lecture covering tsmc, arizona, water."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "TSMC Arizona: What About"
-  - "TSMC Arizona: What About the Water?"
----
-
 # TSMC Arizona: What About the Water?
 
 **Channel**: Asianometry

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1128
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "surprise"
-  - "drops"
-  - "gpt"
-  - "but"
-creator: "AI For Humans"
-guest: null
-title: "OpenAI Surprise Drops GPT-5.1 But Google Is Lurking"
-url: "https://www.youtube.com/watch?v=YKdDdCRRQq4"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 12s"
-has_transcript: no
-synopsis: "OpenAI Surprise Drops GPT-5.1 But Google Is Lurking by AI For Humans. A tutorial covering openai, surprise, drops."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI Surprise Drops GPT-5.1"
-  - "OpenAI Surprise Drops GPT-5.1 But Google"
----
-
 # OpenAI Surprise Drops GPT-5.1 But Google Is Lurking
 
 **Channel**: AI For Humans

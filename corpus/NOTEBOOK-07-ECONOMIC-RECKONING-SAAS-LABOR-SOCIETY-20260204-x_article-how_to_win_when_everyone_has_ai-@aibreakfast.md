@@ -1,9 +1,3 @@
----
-url: "https://x.com/AiBreakfast/status/2019257319184355691"
-author: "AI Breakfast (@AiBreakfast)"
-captured_date: "2026-02-04"
----
-
 # How to Win When Everyone Has AI
 
 (Description: Illustration in blue ink showing a figure sitting under a palm tree on a beach, looking through binoculars toward the horizon—a contemplative scene suggesting vision and perspective.)

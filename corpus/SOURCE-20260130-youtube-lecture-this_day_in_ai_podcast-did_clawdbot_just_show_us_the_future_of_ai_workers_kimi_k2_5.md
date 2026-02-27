@@ -1,39 +1,3 @@
----
-id: SOURCE-20260130-239
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "just"
-  - "show"
-  - "future"
-  - "workers"
-creator: "This Day in AI Podcast"
-guest: null
-title: "Did Clawdbot Just Show Us the Future of AI Workers? & Kimi K2.5 Dis Track Tested - EP99.32"
-url: "https://www.youtube.com/watch?v=qYvFtV_s3Rg"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 20m 24s"
-has_transcript: no
-synopsis: "Did Clawdbot Just Show Us the Future of AI Workers? & Kimi K2.5 Dis Track Tested - EP99.32 by This Day in AI Podcast. A lecture covering clawdbot, just, show."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Did Clawdbot Just Show"
-  - "Did Clawdbot Just Show Us the"
----
-
 # Did Clawdbot Just Show Us the Future of AI Workers? & Kimi K2.5 Dis Track Tested - EP99.32
 
 **Channel**: This Day in AI Podcast

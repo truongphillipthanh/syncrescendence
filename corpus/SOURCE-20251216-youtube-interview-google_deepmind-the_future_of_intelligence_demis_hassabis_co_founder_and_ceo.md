@@ -1,39 +1,3 @@
----
-id: SOURCE-20251216-822
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "future"
-  - "intelligence"
-  - "demis"
-  - "hassabis"
-  - "founder"
-creator: "Google DeepMind"
-guest: null
-title: "The future of intelligence | Demis Hassabis (Co-founder and CEO of DeepMind)"
-url: "https://www.youtube.com/watch?v=PqVbypvxDto"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "56m 8s"
-has_transcript: no
-synopsis: "The future of intelligence | Demis Hassabis (Co-founder and CEO of DeepMind) by Google DeepMind. A interview covering future, intelligence, demis."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The future of intelligence"
-  - "The future of intelligence | Demis"
----
-
 # The future of intelligence | Demis Hassabis (Co-founder and CEO of DeepMind)
 
 **Channel**: Google DeepMind

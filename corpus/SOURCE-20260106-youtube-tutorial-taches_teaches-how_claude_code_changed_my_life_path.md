@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-304
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "changed"
-  - "life"
-  - "path"
-creator: "TÂCHES TEACHES"
-guest: null
-title: "How Claude Code Changed My Life Path"
-url: "https://www.youtube.com/watch?v=B1CQfL8d_lY"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 27s"
-has_transcript: no
-synopsis: "How Claude Code Changed My Life Path by TÂCHES TEACHES. A tutorial covering claude, code, changed."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How Claude Code Changed"
-  - "How Claude Code Changed My Life"
----
-
 # How Claude Code Changed My Life Path
 
 **Channel**: TÂCHES TEACHES

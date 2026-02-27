@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-006
-title: Ai Agents Learn Skills
-platform: x
-format: transcript
-creator: Saboo_Shubham_
-date_published: "2026-02-04"
-status: triaged
-url: https://x.com/Saboo_Shubham_/status/2018889059763146850
-original_filename: research/x-bookmarks/TRANS-Saboo_Shubham_-ai_agents_learn_skills.md
-aliases:
-  - "AI Agents Learn Skills"
-  - "Parallel Agent Scraping"
-teleology: extract
-notebooklm_category: ai-agents
-synopsis: "Open-source system where 8 parallel AI agents autonomously scrape documentation, GitHub repos, Stack Overflow, and blogs in 2 minutes to learn new skills. Demonstrates multi-agent parallelism for autonomous knowledge acquisition at speed, with implications for agent self-improvement pipelines."
-key_insights:
-  - "8 parallel agents completing doc/code scraping in 2 minutes establishes an efficiency benchmark for multi-agent knowledge acquisition"
-  - "Autonomous skill learning from diverse sources (docs, GitHub, SO, blogs) demonstrates agents can bootstrap domain expertise without human curation"
-  - "Open-source availability makes this pattern adoptable for custom research automation pipelines"
-topics:
-  - ai-agents
-  - automation
-  - ai-engineering
-signal_tier: tactical
----
-
 # AI Agents That Autonomously Learn New Skills
 > **Author**: Shubham Saboo (@Saboo_Shubham_)
 > **Date**: February 4, 2026 (~14h before transcription)

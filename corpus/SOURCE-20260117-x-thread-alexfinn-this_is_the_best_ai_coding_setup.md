@@ -1,30 +1,3 @@
----
-id: SOURCE-20260117-x-thread-alexfinn-this_is_the_best_ai_coding_setup
-platform: x
-format: thread
-creator: alexfinn
-title: this is the best ai coding setup
-status: triaged
-original_filename: "20260117-x_thread-this_is_the_best_ai_coding_setup-@alexfinn.md"
-url: https://x.com/AlexFinn/status/2012653446349131953
-author: "Alex Finn (@AlexFinn)"
-captured_date: 2026-01-17
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "vibe-coding"
-  - "developer-tools"
-  - "ai-engineering"
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Alex Finn - Best AI Coding Setup"
-synopsis: "Thread describing a dual-agent coding setup using Codex 5.2 xhigh and Claude Code Opus 4.5 side by side. Workflow involves Claude Code for planning, Codex for validation, and cross-review between both agents for quality assurance."
-key_insights:
-  - "Using two competing AI coding agents in parallel with cross-review produces higher quality output than either alone"
-  - "Claude Code excels at planning while Codex excels at validation and fixing, creating a complementary workflow"
-  - "The dual-agent setup feels like managing a team of engineers and produces apps significantly faster"
----
 # Claude Code + Codex 5.2 AI Coding Setup Thread
 
 This is the best AI coding setup ever:

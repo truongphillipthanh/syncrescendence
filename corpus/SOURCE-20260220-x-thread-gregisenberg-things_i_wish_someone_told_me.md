@@ -1,32 +1,3 @@
----
-url: https://x.com/gregisenberg/status/2024838731757224095
-author: "GREG ISENBERG (@gregisenberg)"
-captured_date: 2026-02-20
-id: SOURCE-20260220-012
-original_filename: "20260220-x_thread-things_i_wish_someone_told_me-@gregisenberg.md"
-status: triaged
-platform: x
-format: thread
-creator: gregisenberg
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - extended-thinking
-  - gemini
-  - cost-optimization
-  - token-management
-  - rules-files
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Things I wish someone told me before I almost gave up on Ope"
-synopsis: "Things I wish someone told me before I almost gave up on OpenClaw I've been in the same boat as a lot of people here spending the first two weeks babysitting, burning tokens, and watching my agent loop on the same answer eight times in a row. After a lot of trial and error I've got it running reliably and actually doing useful work. Here's what made the difference for me."
-key_insights:
-  - "Don't run everything through your best mode This is the single biggest mistake."
-  - "Anti-looping rules, compaction summaries, task checking before asking your questions."
-  - "YOU MUST RESEARCH YOURSELF and not assume the agent knows everything."
----
 # Things I wish someone told me before I almost gave up on OpenClaw
 (Description: Screenshot image from r/openclaw showing post titled "Things I wish someone told me before I almost gave up on OpenClaw" with a Tutorial/Guide tag)
 I've been in the same boat as a lot of people here spending the first two weeks babysitting, burning tokens, and watching my agent loop on the same answer eight times in a row.

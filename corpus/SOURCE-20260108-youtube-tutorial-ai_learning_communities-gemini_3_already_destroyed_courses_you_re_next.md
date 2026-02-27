@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-563
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "already"
-  - "destroyed"
-  - "courses"
-  - "next"
-creator: "AI Learning Communities"
-guest: null
-title: "Gemini 3 Already Destroyed Courses (You're Next)"
-url: "https://www.youtube.com/watch?v=48XjVPLHr-o"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 28m 9s"
-has_transcript: no
-synopsis: "Gemini 3 Already Destroyed Courses (You're Next) by AI Learning Communities. A tutorial covering gemini, already, destroyed."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3 Already Destroyed"
-  - "Gemini 3 Already Destroyed Courses (You're"
----
-
 # Gemini 3 Already Destroyed Courses (You're Next)
 
 **Channel**: AI Learning Communities

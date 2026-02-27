@@ -1,38 +1,3 @@
----
-id: SOURCE-20251119-1045
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "launch"
-  - "day"
-  - "reactions"
-creator: "Google for Developers"
-guest: null
-title: "Gemini 3: Launch day reactions"
-url: "https://www.youtube.com/watch?v=mci0f2dy7G0"
-date_published: 2025-11-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "42m 17s"
-has_transcript: no
-synopsis: "Gemini 3: Launch day reactions by Google for Developers. A lecture covering gemini, launch, day."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: vibe-coding
-aliases:
-  - "Gemini 3: Launch day"
-  - "Gemini 3: Launch day reactions"
----
-
 # Gemini 3: Launch day reactions
 
 **Channel**: Google for Developers

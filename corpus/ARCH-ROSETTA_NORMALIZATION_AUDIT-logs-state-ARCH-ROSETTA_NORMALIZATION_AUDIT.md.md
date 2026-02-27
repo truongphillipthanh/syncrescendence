@@ -1,10 +1,3 @@
----
-id: arch-rosetta_normalization_audit
-kind: architecture
-scope: orchestration
-target: state
----
-
 # Rosetta Stone Normalization Audit (DC-302)
 
 **Version**: 1.0.0

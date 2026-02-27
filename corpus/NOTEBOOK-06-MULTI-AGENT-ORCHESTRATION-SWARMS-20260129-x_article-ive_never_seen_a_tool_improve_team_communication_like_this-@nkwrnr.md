@@ -1,9 +1,3 @@
----
-url: https://x.com/nkwrnr/status/2017051991609135387
-author: nickwarner (@nkwrnr)
-captured_date: 2026-01-29
----
-
 # I've Never Seen a Tool Improve Team Communication Like This
 
 ## Opening Statement

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260119-333
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "use"
-  - "notebooklm"
-  - "better"
-  - "than"
-  - "people"
-creator: "Futurepedia"
-guest: null
-title: "How to Use NotebookLM Better than 99% of People"
-url: "https://www.youtube.com/watch?v=OdCmZvPdr4s"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 16s"
-has_transcript: no
-synopsis: "How to Use NotebookLM Better than 99% of People by Futurepedia. A panel discussion covering use, notebooklm, better."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Use NotebookLM"
-  - "How to Use NotebookLM Better than"
----
-
 # How to Use NotebookLM Better than 99% of People
 
 **Channel**: Futurepedia

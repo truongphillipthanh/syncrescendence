@@ -1,9 +1,3 @@
----
-url: https://x.com/VibeMarketer_/status/2019435524532904205
-author: J.B. (@VibeMarketer_)
-captured_date: 2026-02-05
----
-
 # the skill that changed how i use claude for marketing
 
 (Description: ASCII art visualization with folder icon labeled "marketing skills" - representing conceptual knowledge organization)

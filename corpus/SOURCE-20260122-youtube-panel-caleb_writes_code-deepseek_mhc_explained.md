@@ -1,36 +1,3 @@
----
-id: SOURCE-20260122-385
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "deepseek"
-  - "mhc"
-  - "explained"
-creator: "Caleb Writes Code"
-guest: null
-title: "DeepSeek mHC Explained"
-url: "https://www.youtube.com/watch?v=z9LRAxVRXOk"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 9s"
-has_transcript: no
-synopsis: "DeepSeek mHC Explained by Caleb Writes Code. A panel discussion covering deepseek, mhc, explained."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "DeepSeek mHC Explained"
----
-
 # DeepSeek mHC Explained
 
 **Channel**: Caleb Writes Code

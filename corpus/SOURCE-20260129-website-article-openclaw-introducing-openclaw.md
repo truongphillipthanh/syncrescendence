@@ -1,31 +1,3 @@
----
-url: https://openclaw.ai/blog/introducing-openclaw
-title: Introducing OpenClaw
-domain: openclaw.ai
-author: Peter Steinberger
-published_date: January 29, 2026
-captured_date: 2026-02-04
-content_type: blog
-id: SOURCE-20260129-001
-original_filename: 20260129-website-introducing-openclaw--openclaw.md
-status: triaged
-platform: website
-format: article
-creator: openclaw
-signal_tier: tactical
-topics:
-  - ai-agents
-  - announcement
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Peter Steinberger - OpenClaw rebrand announcement"
-synopsis: "Official announcement of the rebrand from Clawd/Moltbot to OpenClaw by creator Peter Steinberger. The project reached 100K GitHub stars and 2M visitors in one week. New release includes Twitch and Google Chat plugins, KIMI K2.5 and Xiaomi MiMo-V2-Flash model support, web chat image sending, and 34 security commits."
-key_insights:
-  - "OpenClaw went from weekend project to 100K GitHub stars and 2M visitors in a single week — the fastest-growing open-source AI agent platform."
-  - "The naming journey (Clawd → Moltbot → OpenClaw) reflects both Anthropic's trademark enforcement and community feedback on branding."
-  - "Prompt injection remains an industry-wide unsolved problem — the project released machine-checkable security models alongside the rebrand."
----
 # Introducing OpenClaw
 
 (Image: OpenClaw logo featuring a red cartoon lobster with large claws, alongside the text "OPENCLAW" with the word "CLAW" in red. Alt text: Introducing OpenClaw. Caption: Project rebrand announcement visual.)

@@ -1,32 +1,3 @@
----
-url: https://x.com/steipete/status/2024100112989848052
-author: "Peter Steinberger (@steipete)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-025
-original_filename: "20260218-x_thread-the_funniest_take_is-@steipete.md"
-status: triaged
-platform: x
-format: thread
-creator: steipete
-signal_tier: tactical
-topics:
-  - automation
-  - git
-  - codex
-  - model-context-protocol
-  - api
-  - cost-optimization
-  - token-management
-teleology: contextualize
-notebooklm_category: coding-tools
-aliases:
-  - "20260218 x thread steipete the funniest take is"
-synopsis: "The funniest take is that I "failed" 43 times when people look at my GitHub repos and projects. Most of these are part of @openclaw, I had to build an army to make it useful."
-key_insights:
-  - "The funniest take is that I "failed" 43 times when people look at my GitHub repos and projects."
-  - "Most of these are part of @openclaw, I had to build an army to make it useful."
-  - "- **Peekaboo** - Lightning-fast macOS screenshots & GUI automation (MCP + CLI) - **summarize** - Point at any URL or file."
----
 The funniest take is that I "failed" 43 times when people look at my GitHub repos and projects. Uhmm... no? Most of these are part of @openclaw, I had to build an army to make it useful. https://github.com/steipete/
 (Description: Image showing "Current Projects" - a comprehensive bulleted list of software development tools and utilities)
 ## Current Projects

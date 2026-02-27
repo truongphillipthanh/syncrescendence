@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-540
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "ralph"
-  - "wiggum"
-  - "agent"
-  - "10x"
-  - "claude"
-creator: "Greg Isenberg"
-guest: null
-title: ""Ralph Wiggum" AI Agent will 10x Claude Code/Amp"
-url: "https://www.youtube.com/watch?v=RpvQH0r0ecM"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 46s"
-has_transcript: no
-synopsis: ""Ralph Wiggum" AI Agent will 10x Claude Code/Amp by Greg Isenberg. A tutorial covering ralph, wiggum, agent."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - ""Ralph Wiggum" AI Agent"
-  - ""Ralph Wiggum" AI Agent will 10x"
----
-
 # "Ralph Wiggum" AI Agent will 10x Claude Code/Amp
 
 **Channel**: Greg Isenberg

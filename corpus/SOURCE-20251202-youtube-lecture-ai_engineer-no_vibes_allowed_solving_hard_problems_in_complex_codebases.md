@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-944
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "vibes"
-  - "allowed"
-  - "solving"
-  - "hard"
-  - "problems"
-creator: "AI Engineer"
-guest: null
-title: "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer"
-url: "https://www.youtube.com/watch?v=rmvDxxNubIg"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 31s"
-has_transcript: no
-synopsis: "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer by AI Engineer. A lecture covering vibes, allowed, solving."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "No Vibes Allowed: Solving"
-  - "No Vibes Allowed: Solving Hard Problems"
----
-
 # No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer
 
 **Channel**: AI Engineer

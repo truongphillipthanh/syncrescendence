@@ -1,11 +1,3 @@
----
-agent: diviner
-council: DC-110
-topic: Memory Architecture Reasoning — CQRS/Git-native substrate, trilemma resolution, ephemeral graph as read-model projection
-status: unprocessed
-collected: 2026-02-23
----
-
 The resolution to the trilemma of file-based determinism, graph-based relationality, and vector-based semantics lies in decoupling the epistemology of memory (what is true) from the phenomenology of recall (how it is accessed). The optimal hybrid architecture does not maintain three separate stores; it maintains a single, immutable event stream and dynamically projects the necessary topology.
 
 ### Sovereign Epistemology: Git as Event-Sourced Neural Substrate

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251221-751
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "insane"
-  - "models"
-  - "realtime"
-  - "video"
-  - "new"
-creator: "AI Search"
-guest: null
-title: "Insane 3D models, realtime AI video, new #1 open model, realtime AI worlds, Gemini 3 Flash: AI NEWS"
-url: "https://www.youtube.com/watch?v=JxrVtFER1Q8"
-date_published: 2025-12-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "47m 55s"
-has_transcript: no
-synopsis: "Insane 3D models, realtime AI video, new #1 open model, realtime AI worlds, Gemini 3 Flash: AI NEWS by AI Search. A lecture covering insane, models, realtime."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Insane 3D models, realtime"
-  - "Insane 3D models, realtime AI video,"
----
-
 # Insane 3D models, realtime AI video, new #1 open model, realtime AI worlds, Gemini 3 Flash: AI NEWS
 
 **Channel**: AI Search

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-989
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stop"
-  - "feeding"
-  - "context"
-  - "make"
-  - "research"
-creator: "Dylan Davis"
-guest: null
-title: "Stop Feeding AI Context... Make It Research for You"
-url: "https://www.youtube.com/watch?v=kzLY3FM6LDE"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 15s"
-has_transcript: no
-synopsis: "Stop Feeding AI Context... Make It Research for You by Dylan Davis. A lecture covering stop, feeding, context."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Stop Feeding AI Context..."
-  - "Stop Feeding AI Context... Make It"
----
-
 # Stop Feeding AI Context... Make It Research for You
 
 **Channel**: Dylan Davis

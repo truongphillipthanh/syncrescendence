@@ -1,36 +1,3 @@
----
-id: SOURCE-20260129-176
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "future"
-  - "work"
-creator: "Palantir"
-guest: null
-title: "The Future of AI and Work"
-url: "https://www.youtube.com/watch?v=8qXIoUxisxk"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 13s"
-has_transcript: no
-synopsis: "The Future of AI and Work by Palantir. A lecture covering future, work."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Future of AI"
-  - "The Future of AI and Work"
----
-
 # The Future of AI and Work
 
 **Channel**: Palantir

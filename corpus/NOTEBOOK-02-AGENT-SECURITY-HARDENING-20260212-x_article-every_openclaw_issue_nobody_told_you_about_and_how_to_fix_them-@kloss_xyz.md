@@ -1,9 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2022101005064974600
-author: klöss (@kloss_xyz)
-captured_date: 2026-02-12
----
-
 # Every OpenClaw Issue Nobody Told You About (And How to Fix Them)
 
 (Description: A stylized monochromatic illustration of a robotic sphere surrounded by mechanical gears, springs, and bolts in a radial pattern, with "OpenClaw" text centered below the sphere)

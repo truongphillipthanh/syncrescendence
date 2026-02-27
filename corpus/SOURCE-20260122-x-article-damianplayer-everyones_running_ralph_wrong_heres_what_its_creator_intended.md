@@ -1,22 +1,3 @@
----
-id: SOURCE-20260122-x-article-damianplayer-everyones_running_ralph_wrong_heres_what_its_creator_intended
-platform: x
-format: article
-creator: damianplayer
-title: everyones running ralph wrong heres what its creator intended
-status: triaged
-original_filename: "20260122-x_article-everyones_running_ralph_wrong_heres_what_its_creator_intended-@damianplayer.md"
-url: "https://x.com/damianplayer/status/2014327653264744566"
-author: "Damian Player (@damianplayer)"
-captured_date: "2026-01-24"
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # EVERYONE'S running ralph wrong. here's what its creator intended..
 
 (Description: Hero image featuring a cartoon character with wide eyes, labeled "NO MORE RALPH" in bold yellow text against dark background. The character appears to be Ralph from The Simpsons, rendered in monochromatic line-art style.)

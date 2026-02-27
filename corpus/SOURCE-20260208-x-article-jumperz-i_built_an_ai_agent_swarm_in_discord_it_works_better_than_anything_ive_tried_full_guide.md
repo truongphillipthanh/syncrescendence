@@ -1,21 +1,3 @@
----
-url: https://x.com/jumperz/status/2020305891430428767
-author: "JUMPERZ (@jumperz)"
-captured_date: 2026-02-07
-id: SOURCE-20260208-006
-original_filename: "20260208-x_article-i_built_an_ai_agent_swarm_in_discord_it_works_better_than_anything_ive_tried_full_guide-@jumperz.md"
-status: triaged
-platform: x
-format: article
-creator: jumperz
-signal_tier: strategic
-topics: [ai-agents, automation, tutorial, case-study]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["JUMPERZ - Discord Agent Swarm"]
-synopsis: "Full guide to building an AI agent swarm in Discord that outperformed other approaches, using Discord channels as the coordination layer for multiple agents working together."
-key_insights: ["Discord serves as an effective coordination layer for AI agent swarms due to its channel/thread structure", "Agent swarms in Discord outperform single-agent approaches for complex tasks", "The guide provides a complete build tutorial for agent orchestration via messaging platforms"]
----
 # I Built an AI Agent Swarm in Discord. It Works Better Than Anything I've Tried (Full Guide)
 
 (Description: A sleek digital illustration featuring a white Discord logo face with blue eyes, connected to flowing blue data streams and binary code, representing AI agent coordination)

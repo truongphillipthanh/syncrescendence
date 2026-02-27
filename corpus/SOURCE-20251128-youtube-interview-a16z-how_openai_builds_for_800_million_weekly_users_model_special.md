@@ -1,39 +1,3 @@
----
-id: SOURCE-20251128-973
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "builds"
-  - "800"
-  - "million"
-  - "weekly"
-creator: "a16z"
-guest: null
-title: "How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning"
-url: "https://www.youtube.com/watch?v=3x0jhpEj_6o"
-date_published: 2025-11-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "53m 23s"
-has_transcript: no
-synopsis: "How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning by a16z. A interview covering openai, builds, 800."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How OpenAI Builds for"
-  - "How OpenAI Builds for 800 Million"
----
-
 # How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning
 
 **Channel**: a16z

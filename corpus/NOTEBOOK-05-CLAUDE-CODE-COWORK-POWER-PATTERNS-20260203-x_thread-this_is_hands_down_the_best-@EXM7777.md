@@ -1,9 +1,3 @@
----
-url: https://x.com/EXM7777/status/2018745809056207266
-author: Machina (@EXM7777)
-captured_date: 2026-02-03
----
-
 # Claude Workflow Thread: Best Way to Work with Claude
 
 **Post 1 of 3**

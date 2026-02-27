@@ -1,30 +1,3 @@
----
-id: SOURCE-20260117-x-article-codevolutionweb-the_complete_guide_to_claude_md
-platform: x
-format: article
-creator: codevolutionweb
-title: the complete guide to claude md
-status: triaged
-original_filename: "2-BuilderTool--4-20260117-x_article-the_complete_guide_to_claude_md-@codevolutionweb.md"
-url: https://x.com/CodevolutionWeb/status/2010715163859542086
-author: "Vishwas (@CodevolutionWeb)"
-captured_date: 2026-01-17
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "context-engineering"
-  - "ai-engineering"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Codevolution - Complete Guide to CLAUDE.md"
-synopsis: "Comprehensive guide to creating and maintaining CLAUDE.md files for Claude Code, covering structure, hierarchy, best practices for project-specific instructions that persist across sessions. Applicable to similar AGENTS.md files for other AI coding tools."
-key_insights:
-  - "CLAUDE.md is automatically loaded before every session, making it the highest-leverage setup investment for Claude Code users"
-  - "The /init command bootstraps a starter CLAUDE.md from detected project structure, but manual iteration produces far better results"
-  - "CLAUDE.md hierarchy (managed, user, project, local) enables layered context from global preferences down to subdirectory-specific instructions"
----
 # The Complete Guide to CLAUDE.md
 
 ![CLAUDE CODE hero graphic](Description: Black background with white pixelated text reading "CLAUDE" stacked above "CODE" in a retro bitmap/8-bit style font.)

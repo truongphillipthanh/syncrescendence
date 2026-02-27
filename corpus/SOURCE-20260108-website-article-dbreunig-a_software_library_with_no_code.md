@@ -1,33 +1,3 @@
----
-id: SOURCE-20260108-website-article-dbreunig-a_software_library_with_no_code
-platform: website
-format: article
-creator: dbreunig
-title: a software library with no code
-status: triaged
-original_filename: 20260108-website-a-software-library-with-no-code--dbreunig.md
-url: https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html
-domain: dbreunig.com
-author: Drew Breunig
-published_date: 2026-01-08
-captured_date: 2026-02-04
-content_type: article
-signal_tier: strategic
-topics:
-  - "ai-engineering"
-  - "developer-tools"
-  - "vibe-coding"
-  - "opinion"
-teleology: strategize
-notebooklm_category: coding-tools
-aliases:
-  - "Breunig - Software Library No Code"
-synopsis: "Proposes software libraries defined entirely by specifications rather than code: AI agents generate implementations on-the-fly from specs. The spec becomes the library, eliminating dependency hell and version conflicts while enabling any language to consume any library."
-key_insights:
-  - "Software libraries could be defined entirely by specifications rather than code with AI agents generating implementations on-the-fly from specs"
-  - "Spec-based libraries eliminate dependency hell and version conflicts because the spec is the contract and implementation is generated fresh"
-  - "Any language could consume any library because the spec is language-agnostic and implementation is generated for the target language"
----
 # A Software Library with No Code
 
 **Tags:** OSS, AI, SPECS

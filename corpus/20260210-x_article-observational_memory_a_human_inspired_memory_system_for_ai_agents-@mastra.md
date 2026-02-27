@@ -1,9 +1,3 @@
----
-url: https://x.com/mastra/status/2021280193273336131
-author: Mastra (@mastra)
-captured_date: 2026-02-10T21:48:00Z
----
-
 # Observational Memory: A Human-Inspired Memory System for AI Agents
 
 (Description: A dark-themed promotional graphic with the Mastra logo and a stylized head profile containing neural/memory visualization. The title "Observational Memory" is displayed prominently in white text. A small profile avatar labeled "Tyler Barnes" appears in the corner.)

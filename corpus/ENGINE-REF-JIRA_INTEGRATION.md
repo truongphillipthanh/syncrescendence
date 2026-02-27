@@ -1,14 +1,3 @@
----
-id: REF-JIRA_INTEGRATION
-kind: REF
-scope: engine
-target: constellation
-status: active
-created: 2026-02-10
-updated: 2026-02-10
-linear: SYN-51
----
-
 # REF -- Jira Cloud Integration Design
 
 ## Scrum Methodology for Syncrescendence via Atlassian Jira Cloud

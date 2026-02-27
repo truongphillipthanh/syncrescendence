@@ -1,9 +1,3 @@
----
-url: https://x.com/TheAIColony/status/2020162022135022054
-author: The AI Colony (@TheAIColony)
-captured_date: 2026-02-13
----
-
 # How to Set Up Claude Cowork and Get Real Work Done
 
 (Description: Article header image featuring an orange app icon with a white lightning bolt symbol, alongside blue and black text reading "Claude Cowork: What Actually Works")

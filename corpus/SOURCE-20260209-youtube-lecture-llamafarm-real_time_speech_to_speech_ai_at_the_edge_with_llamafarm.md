@@ -1,39 +1,3 @@
----
-id: SOURCE-20260209-104
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "real"
-  - "time"
-  - "speech"
-  - "edge"
-  - "llamafarm"
-creator: "LlamaFarm"
-guest: null
-title: "Real-Time Speech-to-Speech AI at the Edge with LlamaFarm"
-url: "https://www.youtube.com/watch?v=OQ2K54cju_A"
-date_published: 2026-02-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 24s"
-has_transcript: no
-synopsis: "Real-Time Speech-to-Speech AI at the Edge with LlamaFarm by LlamaFarm. A lecture covering real, time, speech."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Real-Time Speech-to-Speech AI at"
-  - "Real-Time Speech-to-Speech AI at the Edge"
----
-
 # Real-Time Speech-to-Speech AI at the Edge with LlamaFarm
 
 **Channel**: LlamaFarm

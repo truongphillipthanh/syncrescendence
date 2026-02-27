@@ -1,39 +1,3 @@
----
-id: SOURCE-20260104-633
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "mhc"
-  - "explained"
-  - "deepseek"
-  - "rewires"
-  - "llms"
-creator: "AI Papers Academy"
-guest: null
-title: "mHC Explained: How DeepSeek Rewires LLMs for 2026"
-url: "https://www.youtube.com/watch?v=HmhV76_3nuA"
-date_published: 2026-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 5s"
-has_transcript: no
-synopsis: "mHC Explained: How DeepSeek Rewires LLMs for 2026 by AI Papers Academy. A lecture covering mhc, explained, deepseek."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "mHC Explained: How DeepSeek"
-  - "mHC Explained: How DeepSeek Rewires LLMs"
----
-
 # mHC Explained: How DeepSeek Rewires LLMs for 2026
 
 **Channel**: AI Papers Academy

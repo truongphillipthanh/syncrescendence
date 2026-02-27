@@ -1,39 +1,3 @@
----
-id: SOURCE-20251124-1014
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "google"
-  - "quantum"
-  - "computer"
-  - "just"
-  - "changed"
-creator: "Jean Lee"
-guest: null
-title: "Google's Quantum Computer Just Changed Everything!"
-url: "https://www.youtube.com/watch?v=lDYDebzZeGo"
-date_published: 2025-11-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 29s"
-has_transcript: no
-synopsis: "Google's Quantum Computer Just Changed Everything! by Jean Lee. A interview covering google, quantum, computer."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Google's Quantum Computer Just"
-  - "Google's Quantum Computer Just Changed Everything!"
----
-
 # Google's Quantum Computer Just Changed Everything!
 
 **Channel**: Jean Lee

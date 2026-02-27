@@ -1,16 +1,3 @@
----
-id: SOURCE-20251021-youtube-interview-tbpn-bryan_johnson
-title: "Don't Die: Bryan Johnson on Living Forever, AI, and Blueprint's $60M Round"
-creator: TBPN (John Coogan, Jordi Hays)
-guest: Bryan Johnson
-date_published: 2025-10-21
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: [Expertise, Wisdom]
-integration_targets: [CANON-35100-TRANSCENDENCE, CANON-33100-EFFICACY, CANON-10000-CELESTIAL_BODY]
----
-
 # Don't Die: Bryan Johnson on Living Forever, AI, and Blueprint's $60M Round
 
 ## Executive Summary

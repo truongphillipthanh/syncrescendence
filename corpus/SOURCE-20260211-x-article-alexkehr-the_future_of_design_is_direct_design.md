@@ -1,30 +1,3 @@
----
-url: https://x.com/alexkehr/status/2021667248608584183
-author: "Alex Kehr (@alexkehr)"
-captured_date: 2026-02-13
-id: SOURCE-20260211-001
-original_filename: "20260211-x_article-the_future_of_design_is_direct_design-@alexkehr.md"
-status: triaged
-platform: x
-format: article
-creator: alexkehr
-signal_tier: strategic
-topics:
-  - ai-workflow
-  - extended-thinking
-  - cursor
-  - api
-  - product-development
-teleology: synthesize
-notebooklm_category: ai-creative-media
-aliases:
-  - "The Future of Design is Direct Design"
-synopsis: "The Future of Design is Direct Design , a dark navy icon with colorful dots in red, green, and blue (Figma), and a dark gray icon with a white 3D geometric pyramid shape (possibly Claude Code). The icons are rounded squares, centered against the gradient.) I largely stopped using Figma ~3 months ago. Not because I have anything against Figma. I used it every day for years."
-key_insights:
-  - "The Handoff Problem The handoff was always the problem."
-  - "Not what it should look like..."
-  - "what it should _do_, how it should _feel_, who it's _for_."
----
 # The Future of Design is Direct Design
 
 (Description: A header image featuring a bright blue gradient background with three design tool application icons arranged horizontally: a coral-orange icon with a white star/asterisk shape (Cursor), a dark navy icon with colorful dots in red, green, and blue (Figma), and a dark gray icon with a white 3D geometric pyramid shape (possibly Claude Code). The icons are rounded squares, centered against the gradient.)

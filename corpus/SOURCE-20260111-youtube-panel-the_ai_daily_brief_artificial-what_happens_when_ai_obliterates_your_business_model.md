@@ -1,38 +1,3 @@
----
-id: SOURCE-20260111-529
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "happens"
-  - "obliterates"
-  - "business"
-  - "model"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "What Happens When AI Obliterates Your Business Model?"
-url: "https://www.youtube.com/watch?v=nflqTdNvUGs"
-date_published: 2026-01-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 46s"
-has_transcript: no
-synopsis: "What Happens When AI Obliterates Your Business Model? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering happens, obliterates, business."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "What Happens When AI"
-  - "What Happens When AI Obliterates Your"
----
-
 # What Happens When AI Obliterates Your Business Model?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

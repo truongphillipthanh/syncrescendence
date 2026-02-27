@@ -1,38 +1,3 @@
----
-id: SOURCE-20251112-1152
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "built"
-  - "agi"
-  - "lab"
-  - "months"
-creator: "Interconnects AI"
-guest: null
-title: "They Built an AGI Lab in 8 Months"
-url: "https://www.youtube.com/watch?v=vIgE1t1rKjg"
-date_published: 2025-11-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 17m 49s"
-has_transcript: no
-synopsis: "They Built an AGI Lab in 8 Months by Interconnects AI. A lecture covering built, agi, lab."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "They Built an AGI"
-  - "They Built an AGI Lab in"
----
-
 # They Built an AGI Lab in 8 Months
 
 **Channel**: Interconnects AI

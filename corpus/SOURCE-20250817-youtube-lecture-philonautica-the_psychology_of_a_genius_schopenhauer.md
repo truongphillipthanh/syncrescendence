@@ -1,37 +1,3 @@
----
-id: SOURCE-20250817-663
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "psychology"
-  - "genius"
-  - "schopenhauer"
-creator: "PhiloNautica "
-guest: null
-title: "The Psychology of a GENIUS | Schopenhauer"
-url: "https://www.youtube.com/watch?v=hNKYi_n18nU"
-date_published: 2025-08-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 16s"
-has_transcript: no
-synopsis: "The Psychology of a GENIUS | Schopenhauer by PhiloNautica . A lecture covering psychology, genius, schopenhauer."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Psychology of a"
-  - "The Psychology of a GENIUS |"
----
-
 # The Psychology of a GENIUS | Schopenhauer
 
 **Channel**: PhiloNautica 

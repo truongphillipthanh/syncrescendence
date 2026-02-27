@@ -1,39 +1,3 @@
----
-id: SOURCE-20260130-248
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "google"
-  - "mind"
-  - "blowing"
-  - "world"
-  - "creator"
-creator: "Wes Roth"
-guest: null
-title: "Google's MIND BLOWING World Creator (GENIE 3)"
-url: "https://www.youtube.com/watch?v=dq-olkv8tBs"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 17s"
-has_transcript: no
-synopsis: "Google's MIND BLOWING World Creator (GENIE 3) by Wes Roth. A interview covering google, mind, blowing."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google's MIND BLOWING World"
-  - "Google's MIND BLOWING World Creator (GENIE"
----
-
 # Google's MIND BLOWING World Creator (GENIE 3)
 
 **Channel**: Wes Roth

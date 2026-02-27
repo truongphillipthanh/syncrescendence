@@ -1,39 +1,3 @@
----
-id: SOURCE-20251216-316
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "humans"
-  - "became"
-  - "white"
-  - "history"
-  - "sleep"
-creator: "Sleepy Time History"
-guest: null
-title: "How Humans Became WHITE? History for Sleep"
-url: "https://www.youtube.com/watch?v=V0gCnX2JDK4"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 6m 3s"
-has_transcript: no
-synopsis: "How Humans Became WHITE? History for Sleep by Sleepy Time History. A lecture covering humans, became, white."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "How Humans Became WHITE?"
-  - "How Humans Became WHITE? History for"
----
-
 # How Humans Became WHITE? History for Sleep
 
 **Channel**: Sleepy Time History

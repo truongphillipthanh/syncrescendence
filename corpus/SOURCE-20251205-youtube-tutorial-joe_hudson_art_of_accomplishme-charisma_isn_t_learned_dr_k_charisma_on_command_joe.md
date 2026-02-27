@@ -1,39 +1,3 @@
----
-id: SOURCE-20251205-902
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "charisma"
-  - "isn"
-  - "learned"
-  - "command"
-  - "joe"
-creator: "Joe Hudson | Art of Accomplishment"
-guest: null
-title: "Charisma isn't learned (Dr. K, Charisma on Command & Joe)"
-url: "https://www.youtube.com/watch?v=OM8Gtt37-m4"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 58m 6s"
-has_transcript: no
-synopsis: "Charisma isn't learned (Dr. K, Charisma on Command & Joe) by Joe Hudson | Art of Accomplishment. A tutorial covering charisma, isn, learned."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Charisma isn't learned (Dr."
-  - "Charisma isn't learned (Dr. K, Charisma"
----
-
 # Charisma isn't learned (Dr. K, Charisma on Command & Joe)
 
 **Channel**: Joe Hudson | Art of Accomplishment

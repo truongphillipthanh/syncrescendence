@@ -1,39 +1,3 @@
----
-id: SOURCE-20260128-245
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "honest"
-  - "experience"
-  - "clawdbot"
-  - "now"
-  - "moltbot"
-creator: "How I AI"
-guest: null
-title: "My honest experience with Clawdbot (now Moltbot): where it was great, where it sucked"
-url: "https://www.youtube.com/watch?v=fcFOYzMeG7U"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "55m 48s"
-has_transcript: no
-synopsis: "My honest experience with Clawdbot (now Moltbot): where it was great, where it sucked by How I AI. A tutorial covering honest, experience, clawdbot."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "My honest experience with"
-  - "My honest experience with Clawdbot (now"
----
-
 # My honest experience with Clawdbot (now Moltbot): where it was great, where it sucked
 
 **Channel**: How I AI

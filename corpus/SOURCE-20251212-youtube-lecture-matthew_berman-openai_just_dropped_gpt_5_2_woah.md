@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-866
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "just"
-  - "dropped"
-  - "gpt"
-  - "woah"
-creator: "Matthew Berman"
-guest: null
-title: "OpenAI just dropped GPT-5.2... (WOAH)"
-url: "https://www.youtube.com/watch?v=yB3ly_ZRr5o"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 18s"
-has_transcript: no
-synopsis: "OpenAI just dropped GPT-5.2... (WOAH) by Matthew Berman. A lecture covering openai, just, dropped."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI just dropped GPT-5.2..."
-  - "OpenAI just dropped GPT-5.2... (WOAH)"
----
-
 # OpenAI just dropped GPT-5.2... (WOAH)
 
 **Channel**: Matthew Berman

@@ -1,22 +1,3 @@
----
-id: SOURCE-20260122-x-article-trq212-were_turning_todos_into_tasks_in_claude_code
-platform: x
-format: article
-creator: trq212
-title: were turning todos into tasks in claude code
-status: triaged
-original_filename: "20260122-x_article-were_turning_todos_into_tasks_in_claude_code-@trq212.md"
-url: https://x.com/trq212/status/2014480496013803643
-author: "Thariq (@trq212)"
-captured_date: 2026-01-22
-signal_tier: strategic
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # We're turning Todos into Tasks in Claude Code
 
 (Description: A task management interface showing a checklist with 4 done items and 6 open items, including grocery-related tasks with dependencies and blockers marked with strikethrough text)

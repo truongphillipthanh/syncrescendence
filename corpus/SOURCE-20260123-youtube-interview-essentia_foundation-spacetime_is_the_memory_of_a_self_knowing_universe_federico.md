@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-329
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "spacetime"
-  - "memory"
-  - "self"
-  - "knowing"
-  - "universe"
-creator: "Essentia Foundation"
-guest: null
-title: "Spacetime Is The Memory  Of A Self Knowing Universe | Federico Faggin"
-url: "https://www.youtube.com/watch?v=cXlxCOoNZ7E"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 37m 3s"
-has_transcript: no
-synopsis: "Spacetime Is The Memory  Of A Self Knowing Universe | Federico Faggin by Essentia Foundation. A interview covering spacetime, memory, self."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Spacetime Is The Memory"
-  - "Spacetime Is The Memory Of A"
----
-
 # Spacetime Is The Memory  Of A Self Knowing Universe | Federico Faggin
 
 **Channel**: Essentia Foundation

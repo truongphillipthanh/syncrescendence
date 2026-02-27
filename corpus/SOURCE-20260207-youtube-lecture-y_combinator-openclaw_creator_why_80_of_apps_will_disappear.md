@@ -1,38 +1,3 @@
----
-id: SOURCE-20260207-152
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "creator"
-  - "apps"
-  - "disappear"
-creator: "Y Combinator"
-guest: null
-title: "OpenClaw Creator: Why 80% Of Apps Will Disappear"
-url: "https://www.youtube.com/watch?v=4uzGDAoNOZc"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 36s"
-has_transcript: no
-synopsis: "OpenClaw Creator: Why 80% Of Apps Will Disappear by Y Combinator. A lecture covering openclaw, creator, apps."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenClaw Creator: Why 80%"
-  - "OpenClaw Creator: Why 80% Of Apps"
----
-
 # OpenClaw Creator: Why 80% Of Apps Will Disappear
 
 **Channel**: Y Combinator

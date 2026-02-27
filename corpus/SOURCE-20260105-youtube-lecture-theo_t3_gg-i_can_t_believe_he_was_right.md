@@ -1,36 +1,3 @@
----
-id: SOURCE-20260105-625
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "believe"
-  - "right"
-creator: "Theo - t3․gg"
-guest: null
-title: "I can't believe he was right."
-url: "https://www.youtube.com/watch?v=xBM307YwVRw"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 28s"
-has_transcript: no
-synopsis: "I can't believe he was right. by Theo - t3․gg. A lecture covering believe, right."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "I can't believe he"
-  - "I can't believe he was right."
----
-
 # I can't believe he was right.
 
 **Channel**: Theo - t3․gg

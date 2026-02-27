@@ -1,37 +1,3 @@
----
-id: SOURCE-20260216-057
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "just"
-  - "bought"
-  - "openclaw"
-creator: "Sam Witteveen"
-guest: null
-title: "OpenAI Just Bought OpenClaw!!"
-url: "https://www.youtube.com/watch?v=cQeZY0FRMFE"
-date_published: 2026-02-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 45s"
-has_transcript: no
-synopsis: "OpenAI Just Bought OpenClaw!! by Sam Witteveen. A tutorial covering openai, just, bought."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI Just Bought OpenClaw!!"
----
-
 # OpenAI Just Bought OpenClaw!!
 
 **Channel**: Sam Witteveen

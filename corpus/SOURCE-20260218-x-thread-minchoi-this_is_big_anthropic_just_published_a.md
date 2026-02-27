@@ -1,35 +1,3 @@
----
-url: https://x.com/minchoi/status/2024343249792499943
-author: Min Choi
-handle: minchoi
-published_date: 2026-02-18
-captured_date: 2026-02-21
-post_count: 9
-id: SOURCE-20260218-024
-original_filename: "20260218-x_thread-this_is_big_anthropic_just_published_a-@minchoi.md"
-status: triaged
-platform: x
-format: thread
-creator: minchoi
-signal_tier: strategic
-topics:
-  - ai-agents
-  - testing
-  - anthropic
-  - api
-  - architecture
-  - security
-  - rag
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "20260218 x thread minchoi this is big anthropic just publish"
-synopsis: "Initial Post This is big. Anthropic just published a framework for measuring AI agent autonomy... how independently an AI can plan, use tools, recover from mistakes, and finish tasks end-to-end. This will shape the agent wars."
-key_insights:
-  - "how independently an AI can plan, use tools, recover from mistakes, and finish tasks end-to-end."
-  - "Anthropic just published a framework for measuring AI agent autonomy..."
-  - "This will shape the agent wars."
----
 ## 1. Initial Post
 This is big.
 Anthropic just published a framework for measuring AI agent autonomy... how independently an AI can plan, use tools, recover from mistakes, and finish tasks end-to-end.

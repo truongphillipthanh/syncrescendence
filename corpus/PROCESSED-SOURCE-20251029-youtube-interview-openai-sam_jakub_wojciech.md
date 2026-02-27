@@ -1,16 +1,3 @@
----
-id: SOURCE-20251029-youtube-interview-openai-sam_jakub_wojciech
-title: "OpenAI Structure Change and AI Timelines"
-creator: OpenAI
-guest: Sam Altman, Jakub Pachocki
-date_published: 2025-10-28
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-00004-EVOLUTION, CANON-30000-INTELLIGENCE]
----
-
 # OpenAI Structure Change and AI Timelines
 
 ## Executive Summary

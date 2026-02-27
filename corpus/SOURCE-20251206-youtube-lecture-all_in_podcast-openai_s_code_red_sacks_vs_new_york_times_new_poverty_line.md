@@ -1,39 +1,3 @@
----
-id: SOURCE-20251206-913
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "code"
-  - "red"
-  - "sacks"
-  - "new"
-creator: "All-In Podcast"
-guest: null
-title: "OpenAI's Code Red, Sacks vs New York Times, New Poverty Line?"
-url: "https://www.youtube.com/watch?v=Uxi6LVKanuY"
-date_published: 2025-12-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 14m 17s"
-has_transcript: no
-synopsis: "OpenAI's Code Red, Sacks vs New York Times, New Poverty Line? by All-In Podcast. A lecture covering openai, code, red."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI's Code Red, Sacks"
-  - "OpenAI's Code Red, Sacks vs New"
----
-
 # OpenAI's Code Red, Sacks vs New York Times, New Poverty Line?
 
 **Channel**: All-In Podcast

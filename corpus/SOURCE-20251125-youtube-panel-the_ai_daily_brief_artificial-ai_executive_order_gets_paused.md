@@ -1,38 +1,3 @@
----
-id: SOURCE-20251125-998
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "executive"
-  - "order"
-  - "gets"
-  - "paused"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "AI Executive Order Gets Paused"
-url: "https://www.youtube.com/watch?v=GRZ78RkHySE"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 45s"
-has_transcript: no
-synopsis: "AI Executive Order Gets Paused by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering executive, order, gets."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "AI Executive Order Gets"
-  - "AI Executive Order Gets Paused"
----
-
 # AI Executive Order Gets Paused
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

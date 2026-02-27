@@ -1,39 +1,3 @@
----
-id: SOURCE-20251112-1153
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "large"
-  - "language"
-  - "model"
-  - "selection"
-  - "masterclass"
-creator: "Marina Wyss - AI & Machine Learning"
-guest: null
-title: "Large Language Model Selection Masterclass - Nov 2025"
-url: "https://www.youtube.com/watch?v=n4NokjyAklg"
-date_published: 2025-11-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 13s"
-has_transcript: no
-synopsis: "Large Language Model Selection Masterclass - Nov 2025 by Marina Wyss - AI & Machine Learning. A tutorial covering large, language, model."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Large Language Model Selection"
-  - "Large Language Model Selection Masterclass -"
----
-
 # Large Language Model Selection Masterclass - Nov 2025
 
 **Channel**: Marina Wyss - AI & Machine Learning

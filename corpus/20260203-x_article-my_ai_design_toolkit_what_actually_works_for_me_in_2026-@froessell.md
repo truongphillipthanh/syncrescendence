@@ -1,9 +1,3 @@
----
-url: https://x.com/froessell/status/2018621691006439603
-author: ✌︎ frederik ✌︎ (@froessell)
-captured_date: 2026-02-03
----
-
 # My AI Design Toolkit: What Actually Works For Me in 2026
 
 (Description: Screenshot showing six tool icons arranged horizontally: a dotted grid pattern (v0), a hand holding a pen (Superdesign), Figma logo, a 3D box (Aura.build), a sun-like icon (Jitter), and the Jitter text logo on black background.)

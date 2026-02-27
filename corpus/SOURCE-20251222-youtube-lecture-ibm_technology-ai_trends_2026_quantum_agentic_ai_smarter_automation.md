@@ -1,39 +1,3 @@
----
-id: SOURCE-20251222-723
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "trends"
-  - "2026"
-  - "quantum"
-  - "agentic"
-  - "smarter"
-creator: "IBM Technology"
-guest: null
-title: "AI Trends 2026: Quantum, Agentic AI & Smarter Automation"
-url: "https://www.youtube.com/watch?v=zt0JA5rxdfM"
-date_published: 2025-12-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 39s"
-has_transcript: no
-synopsis: "AI Trends 2026: Quantum, Agentic AI & Smarter Automation by IBM Technology. A lecture covering trends, 2026, quantum."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: agents-orchestration
-aliases:
-  - "AI Trends 2026: Quantum,"
-  - "AI Trends 2026: Quantum, Agentic AI"
----
-
 # AI Trends 2026: Quantum, Agentic AI & Smarter Automation
 
 **Channel**: IBM Technology

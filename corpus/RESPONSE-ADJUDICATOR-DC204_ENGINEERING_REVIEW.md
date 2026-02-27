@@ -1,11 +1,3 @@
----
-agent: adjudicator
-council: DC-204
-topic: DC-204 Engineering Review — model router, dispatch architecture, spec decisions
-status: unprocessed
-collected: 2026-02-23
----
-
 # Adjudicator: DC-204 Engineering Review
 
 Repo baseline used for adjudication:

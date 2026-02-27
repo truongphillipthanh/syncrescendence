@@ -1,32 +1,3 @@
----
-url: https://x.com/EXM7777/status/2019433098795225325
-author: "Machina (@EXM7777)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-020
-original_filename: "20260205-x_thread-stop_trusting_other_peoples_takes-@exm7777.md"
-status: triaged
-platform: x
-format: thread
-creator: exm7777
-signal_tier: tactical
-topics:
-  - ai-workflow
-  - prompting
-  - automation
-  - testing
-  - gemini
-  - gpt
-  - openai
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "X Thread Model Benchmarking  AI Evaluation Strategy"
-synopsis: "X Thread: Model Benchmarking & AI Evaluation Strategy stop trusting other people's takes for new models like Sonnet 5... everyone on X judges models based on coding evals... but your workflow is not their workflow you might need it for copywriting, research, strategy, data analysis..."
-key_insights:
-  - "X Thread: Model Benchmarking & AI Evaluation Strategy stop trusting other people's takes for new models like Sonnet 5..."
-  - "but your workflow is not their workflow you might need it for copywriting, research, strategy, data analysis..."
-  - "The judge must return its scores as JSON."
----
 # X Thread: Model Benchmarking & AI Evaluation Strategy
 
 stop trusting other people's takes for new models like Sonnet 5... everyone on X judges models based on coding evals... but your workflow is not their workflow

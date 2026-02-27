@@ -1,39 +1,3 @@
----
-id: SOURCE-20260103-315
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "7th"
-  - "civilization"
-  - "sumerian"
-  - "records"
-  - "show"
-creator: "Anunnaki Dreams"
-guest: null
-title: "We Are the 7th Civilization | Sumerian Records Show 6 Advanced Societies Before Ours"
-url: "https://www.youtube.com/watch?v=gw5-unEikkg"
-date_published: 2026-01-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 43m 47s"
-has_transcript: no
-synopsis: "We Are the 7th Civilization | Sumerian Records Show 6 Advanced Societies Before Ours by Anunnaki Dreams. A lecture covering 7th, civilization, sumerian."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "We Are the 7th"
-  - "We Are the 7th Civilization |"
----
-
 # We Are the 7th Civilization | Sumerian Records Show 6 Advanced Societies Before Ours
 
 **Channel**: Anunnaki Dreams

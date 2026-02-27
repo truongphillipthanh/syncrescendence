@@ -1,32 +1,3 @@
----
-id: SOURCE-20260114-001
-title: "2026 This Is Agi @Gradypb"
-platform: x
-format: article
-creator: Pat Grady, Sonya Huang
-date_published: 20260114
-status: triaged
-original_filename: "research/20260114-x_article-2026_this_is_agi-@gradypb.md"
-aliases:
-  - "Sequoia - 2026 This Is AGI"
-teleology: strategize
-notebooklm_category: ai-engineering
-url: "https://x.com/gradypb/status/2011491957730918510"
-author: Pat Grady, Sonya Huang
-captured_date: 2026-01-14
-synopsis: "Sequoia Capital partners Pat Grady and Sonya Huang declare 2026 as AGI arrival: AI agents reliably completing multi-hour knowledge work tasks, economic impact becoming measurable, and the transition from chatbot to autonomous colleague accelerating across enterprise adoption."
-key_insights:
-  - "2026 marks AGI arrival by practical definition: AI agents reliably completing multi-hour knowledge work tasks with measurable economic impact"
-  - "The transition from chatbot to autonomous colleague is accelerating with enterprises redesigning workflows around AI capabilities"
-  - "Sequoia identifies the addressable market expanding from software spend to total labor spend as the defining investment thesis of the era"
-topics:
-  - "ai-engineering"
-  - "economics"
-  - "entrepreneurship"
-  - "announcement"
-signal_tier: strategic
----
-
 # 2026: This is AGI
 
 (Description: A minimalist 3D render showing a long, cream-colored beam or platform suspended horizontally, floating above a textured cliff or rocky mountainside photographed against a dark sky. The image evokes concepts of ambition, ascension, and possibility.)

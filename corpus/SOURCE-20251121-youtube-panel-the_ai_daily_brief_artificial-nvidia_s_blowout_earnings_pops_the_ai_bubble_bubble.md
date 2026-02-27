@@ -1,39 +1,3 @@
----
-id: SOURCE-20251121-1040
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "blowout"
-  - "earnings"
-  - "pops"
-  - "bubble"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Nvidia's Blowout Earnings Pops the AI Bubble Bubble"
-url: "https://www.youtube.com/watch?v=ouaqfgp-elU"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 44s"
-has_transcript: no
-synopsis: "Nvidia's Blowout Earnings Pops the AI Bubble Bubble by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering nvidia, blowout, earnings."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Nvidia's Blowout Earnings Pops"
-  - "Nvidia's Blowout Earnings Pops the AI"
----
-
 # Nvidia's Blowout Earnings Pops the AI Bubble Bubble
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

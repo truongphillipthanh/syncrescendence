@@ -1,39 +1,3 @@
----
-id: SOURCE-20260111-522
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "100"
-  - "private"
-  - "agent"
-  - "anything"
-  - "just"
-creator: "David Ondrej"
-guest: null
-title: "This 100% private AI Agent can do anything… just watch"
-url: "https://www.youtube.com/watch?v=SEBWHaX2L5s"
-date_published: 2026-01-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 6s"
-has_transcript: no
-synopsis: "This 100% private AI Agent can do anything… just watch by David Ondrej. A tutorial covering 100, private, agent."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "This 100% private AI"
-  - "This 100% private AI Agent can"
----
-
 # This 100% private AI Agent can do anything… just watch
 
 **Channel**: David Ondrej

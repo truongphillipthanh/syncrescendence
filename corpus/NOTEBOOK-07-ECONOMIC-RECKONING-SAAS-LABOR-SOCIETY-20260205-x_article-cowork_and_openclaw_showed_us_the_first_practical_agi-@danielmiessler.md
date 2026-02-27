@@ -1,9 +1,3 @@
----
-url: https://x.com/DanielMiessler/status/2019629633839231190
-author: Daniel Miessler (@DanielMiessler)
-captured_date: 2026-02-05
----
-
 # Cowork and OpenClaw Showed Us The First Practical AGI
 
 (Description: Hero image displaying two distinct visual concepts side by side. Left panel features a figure in business attire sitting above a chess board with mathematical and technical diagrams in the background, labeled "NARROW vs GENERAL" with "Two definitions of intelligence" subtitle on the right. The right panel shows abstract neural network-like organic structures in red and purple tones with various annotations and connection diagrams representing neural complexity.)

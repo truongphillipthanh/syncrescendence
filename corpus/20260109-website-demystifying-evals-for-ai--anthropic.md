@@ -1,13 +1,3 @@
----
-url: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
-title: Demystifying evals for AI agents
-domain: anthropic.com
-author: Mikaela Grace, Jeremy Hadfield, Rodrigo Olivares, Jiri De Jonghe
-published_date: 2026-01-09
-captured_date: 2026-01-30
-content_type: article
----
-
 # Demystifying evals for AI agents
 
 (Image: Stylized graphic showing various geometric symbols and patterns arranged in a grid layout with the "Anthropic Engineering" branding. Alt text: Engineering at Anthropic. Caption: Components of evaluations for agents.)

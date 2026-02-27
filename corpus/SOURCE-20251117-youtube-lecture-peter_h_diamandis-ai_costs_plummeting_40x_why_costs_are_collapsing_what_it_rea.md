@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1085
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "costs"
-  - "plummeting"
-  - "40x"
-  - "collapsing"
-  - "really"
-creator: "Peter H. Diamandis"
-guest: null
-title: "AI Costs Plummeting 40x: Why Costs Are Collapsing & What It Really Means w/ Dave, Salim & AWG"
-url: "https://www.youtube.com/watch?v=Z62fRtabY5E"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 48m 1s"
-has_transcript: no
-synopsis: "AI Costs Plummeting 40x: Why Costs Are Collapsing & What It Really Means w/ Dave, Salim & AWG by Peter H. Diamandis. A lecture covering costs, plummeting, 40x."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Costs Plummeting 40x:"
-  - "AI Costs Plummeting 40x: Why Costs"
----
-
 # AI Costs Plummeting 40x: Why Costs Are Collapsing & What It Really Means w/ Dave, Salim & AWG
 
 **Channel**: Peter H. Diamandis

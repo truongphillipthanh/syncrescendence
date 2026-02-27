@@ -1,9 +1,3 @@
----
-url: https://x.com/YJstacked/status/2020396417542463546
-author: YJ (@YJstacked)
-captured_date: 2026-02-13
----
-
 # How to Build a One Person Company with Multi-Agent Swarms (Claude Code)
 
 (Description: A dark sci-fi illustration depicting a central commanding figure with glowing orange/red geometric patterns and energy, surrounded by a futuristic cityscape with multiple human figures in collaborative poses. The word "Claude" appears in the upper right corner. Lightning and dynamic energy elements frame the composition, suggesting coordination and power.)

@@ -1,34 +1,3 @@
----
-id: SOURCE-20251030-002
-title: The End of AI - Complete Integration into Society
-platform: youtube
-format: video
-creator: AI Explained
-date_published: 2025-10-30
-status: processed
-url: ""
-original_filename: processed/SOURCE-20251030-youtube-video-aiexp-end_of_ai.md
-aliases:
-  - "AI Explained - End of AI Integration"
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-guest: None (Solo)
-signal_tier: paradigm
-chain_relevance: Wisdom
-integration_targets: [CANON-00015-MACROSCOPIC_NARRATIVES, CANON-35000-WISDOM]
-date_processed: 2026-01-05
-synopsis: "Philosophical analysis of AI as an emerging subsystem with its own operational logic incompatible with human meaning-making. Identifies a specification class (technocratic elite defining reward functions) as the new locus of power. Predicts AI ends by becoming invisible infrastructure."
-key_insights:
-  - "A specification class is emerging: technocratic elite who translate human goals into formal objective functions, defining how AI systems shape societal behavior"
-  - "Human society operates through meaning and narrative while AI operates through optimization and probabilistic inference: these are fundamentally incompatible logic systems"
-  - "AI ends not through destruction but invisibility: complete integration into society where we no longer notice it as separate intelligence"
-topics:
-  - "philosophy"
-  - "ai-engineering"
-  - "economics"
-  - "framework"
----
-
 # The End of AI: Complete Integration into Society
 
 ## Executive Summary

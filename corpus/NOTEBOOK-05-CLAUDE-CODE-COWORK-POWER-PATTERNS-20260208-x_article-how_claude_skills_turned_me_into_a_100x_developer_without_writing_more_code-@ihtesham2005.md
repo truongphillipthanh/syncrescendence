@@ -1,9 +1,3 @@
----
-url: https://x.com/ihtesham2005/status/2020534925934641200
-author: Ihtesham Ali (@ihtesham2005)
-captured_date: 2026-02-08
----
-
 # How Claude Skills turned me into a 100x developer (without writing more code)
 
 ![Claude Skills Header](data:image/svg+xml) (Description: Colorful anime-style illustration featuring various characters in martial arts stances. Text overlay reads "Claude Skills" in orange and black text with subtitle "5 skills that made me a stressed-free developer" on light yellow banner background)

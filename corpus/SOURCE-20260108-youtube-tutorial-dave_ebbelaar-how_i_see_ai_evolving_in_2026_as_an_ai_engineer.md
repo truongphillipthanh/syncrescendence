@@ -1,38 +1,3 @@
----
-id: SOURCE-20260108-536
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "see"
-  - "evolving"
-  - "2026"
-  - "engineer"
-creator: "Dave Ebbelaar"
-guest: null
-title: "How I See AI Evolving in 2026 (as an AI Engineer)"
-url: "https://www.youtube.com/watch?v=rbIX3Hp__rY"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 40s"
-has_transcript: no
-synopsis: "How I See AI Evolving in 2026 (as an AI Engineer) by Dave Ebbelaar. A tutorial covering see, evolving, 2026."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How I See AI"
-  - "How I See AI Evolving in"
----
-
 # How I See AI Evolving in 2026 (as an AI Engineer)
 
 **Channel**: Dave Ebbelaar

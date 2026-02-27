@@ -1,9 +1,3 @@
----
-url: https://x.com/ChrisPainterYup/status/2019534216405606623
-author: Chris Painter (@ChrisPainterYup)
-captured_date: 2026-02-05
----
-
 ## AGI Preparedness Thread
 
 My bio says I work on AGI preparedness, so I want to clarify: **We are not prepared.**

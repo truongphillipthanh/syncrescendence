@@ -1,24 +1,3 @@
----
-url: https://x.com/gregisenberg/status/2023077800152838389
-author: Greg Isenberg
-captured_date: 2026-02-15
-id: SOURCE-20260215-008
-original_filename: "20260215-x_article-the_lobster_internet-@gregisenberg.md"
-status: triaged
-platform: x
-format: article
-creator: gregisenberg
-signal_tier: strategic
-topics: [ai-agents, entrepreneurship, economics, framework]
-teleology: strategize
-notebooklm_category: ai-agents
-aliases: ["gregisenberg - lobster internet agent evolution"]
-synopsis: "Maps a 14-phase progression of the 'lobster internet' - from hobbyist OpenClaw bots on Mac Minis to cloud-hosted agents, vertical bundles, agents-as-employees, outcome-based pricing, agent-native apps, and eventually invisible infrastructure. Estimates current state at phases 2-4."
-key_insights:
-  - "Software shifts from interface to executor - instead of buying CRM software, buy an agent that closes 20 deals/month"
-  - "The scarce skill becomes taste, orchestration, and positioning - less typing, more directing and judgment"
-  - "Agent-native apps create a parallel internet where apps become programmable surfaces for agents, not humans"
----
 # The Lobster Internet
 (Description: Renaissance fresco-style image depicting a reddish-brown lobster claw reaching toward a human hand in a recreation of Michelangelo's "Creation of Adam" composition, set against a stone background.)
 ## Opening

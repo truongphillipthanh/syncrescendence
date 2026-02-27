@@ -1,21 +1,3 @@
----
-url: https://x.com/gdb/status/2019566641491963946
-author: "Greg Brockman (@gdb)"
-captured_date: 2026-02-05
-id: SOURCE-20260206-033
-original_filename: "20260206-x_thread-software_development_is_undergoing_a_renaissance-@gdb.md"
-status: triaged
-platform: x
-format: thread
-creator: gdb
-signal_tier: paradigm
-topics: [ai-engineering, developer-tools, vibe-coding, best-practices, announcement]
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases: ["Greg Brockman - OpenAI Agentic Development"]
-synopsis: "Greg Brockman shares OpenAI's internal approach to retooling teams toward agentic software development, with a March 31 target for agents to be the tool of first resort for all technical tasks. Outlines 6 action areas: try tools, create AGENTS.md files, inventory internal tools for agent access, structure codebases agent-first, maintain code quality ('say no to slop'), and build observability infrastructure."
-key_insights: ["OpenAI's internal goal: by March 31, the tool of first resort for any technical task is interacting with an agent rather than using an editor or terminal", "Engineers at OpenAI report their job has fundamentally changed since December — Codex now writes essentially all code and handles operations/debugging", "The 'say no to slop' principle: ensure a human is accountable for every merged code, maintaining the same review bar as human-written code"]
----
 # Software Development Renaissance: OpenAI's Approach to Agentic Development
 
 Software development is undergoing a renaissance in front of our eyes.

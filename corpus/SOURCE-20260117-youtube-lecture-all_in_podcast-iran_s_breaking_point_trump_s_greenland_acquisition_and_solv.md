@@ -1,39 +1,3 @@
----
-id: SOURCE-20260117-454
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "iran"
-  - "breaking"
-  - "point"
-  - "trump"
-  - "greenland"
-creator: "All-In Podcast"
-guest: null
-title: "Iran's Breaking Point, Trump's Greenland Acquisition, and Solving Energy Costs"
-url: "https://www.youtube.com/watch?v=y2NeAef6d30"
-date_published: 2026-01-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 10m 45s"
-has_transcript: no
-synopsis: "Iran's Breaking Point, Trump's Greenland Acquisition, and Solving Energy Costs by All-In Podcast. A lecture covering iran, breaking, point."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Iran's Breaking Point, Trump's"
-  - "Iran's Breaking Point, Trump's Greenland Acquisition,"
----
-
 # Iran's Breaking Point, Trump's Greenland Acquisition, and Solving Energy Costs
 
 **Channel**: All-In Podcast

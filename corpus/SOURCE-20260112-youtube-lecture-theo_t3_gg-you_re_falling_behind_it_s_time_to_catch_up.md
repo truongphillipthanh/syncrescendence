@@ -1,38 +1,3 @@
----
-id: SOURCE-20260112-520
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "falling"
-  - "behind"
-  - "time"
-  - "catch"
-creator: "Theo - t3․gg"
-guest: null
-title: "You're falling behind. It's time to catch up."
-url: "https://www.youtube.com/watch?v=Z9UxjmNF7b0"
-date_published: 2026-01-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 45s"
-has_transcript: no
-synopsis: "You're falling behind. It's time to catch up. by Theo - t3․gg. A lecture covering falling, behind, time."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "You're falling behind. It's"
-  - "You're falling behind. It's time to"
----
-
 # You're falling behind. It's time to catch up.
 
 **Channel**: Theo - t3․gg

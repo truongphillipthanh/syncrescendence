@@ -1,14 +1,3 @@
----
-id: REF-JIRA_SYNC_MAP
-kind: REF
-scope: engine
-target: constellation
-status: active
-created: 2026-02-10
-updated: 2026-02-10
-linear: SYN-51
----
-
 # REF -- Jira <-> Linear Sync Map
 
 ## Bidirectional Issue Mapping

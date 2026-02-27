@@ -1,39 +1,3 @@
----
-id: SOURCE-20251124-845
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stanford"
-  - "club"
-  - "jeff"
-  - "dean"
-  - "important"
-creator: "Stanford AI Club"
-guest: null
-title: "Stanford AI Club: Jeff Dean on Important AI Trends"
-url: "https://www.youtube.com/watch?v=AnTw_t21ayE"
-date_published: 2025-11-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "41m 45s"
-has_transcript: no
-synopsis: "Stanford AI Club: Jeff Dean on Important AI Trends by Stanford AI Club. A lecture covering stanford, club, jeff."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Stanford AI Club: Jeff"
-  - "Stanford AI Club: Jeff Dean on"
----
-
 # Stanford AI Club: Jeff Dean on Important AI Trends
 
 **Channel**: Stanford AI Club

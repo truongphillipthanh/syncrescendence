@@ -1,30 +1,3 @@
----
-url: https://x.com/farzyness/status/2021709279917400244
-author: "Farzad (@farzyness)"
-captured_date: 2026-02-13
-id: SOURCE-20260211-006
-original_filename: "20260211-x_article-how_love_and_empathy_will_shape_the_post_ai_economy-@farzyness.md"
-status: triaged
-platform: x
-format: article
-creator: farzyness
-signal_tier: paradigm
-topics:
-  - extended-thinking
-  - api
-  - product-development
-  - security
-  - cost-optimization
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "How Love and Empathy will shape the postAI economy"
-synopsis: "How Love and Empathy will shape the post-AI economy The Crisis We're Not Talking About Loneliness & poor mental health costs America about $460 billion a year. That's roughly the GDP of Vietnam—an entire country's economic output, wiped out by people feeling alone. More than the US spends on its military research and development. More than every venture capital deal in 2025 combined."
-key_insights:
-  - "How Love and Empathy will shape the post-AI economy The Crisis We're Not Talking About Loneliness & poor mental health costs America about $460 billion a year."
-  - "That's roughly the GDP of Vietnam—an entire country's economic output, wiped out by people feeling alone."
-  - "More than the US spends on its military research and development."
----
 # How Love and Empathy will shape the post-AI economy
 
 (Description: A digital illustration of two hands meeting—a golden ornate human hand on the left glowing with warmth and light, meeting a blue circuit-board mechanical hand on the right. The background is a cosmic dark space with stars. Intricate patterns of circuitry blend into organic flowing designs, symbolizing the convergence of human emotion and artificial intelligence.)

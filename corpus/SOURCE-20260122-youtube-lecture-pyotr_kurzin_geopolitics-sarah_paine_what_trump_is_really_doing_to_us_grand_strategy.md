@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-299
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "sarah"
-  - "paine"
-  - "trump"
-  - "really"
-  - "doing"
-creator: "Pyotr Kurzin | Geopolitics"
-guest: null
-title: "Sarah Paine: What Trump is Really Doing to US Grand Strategy"
-url: "https://www.youtube.com/watch?v=CSUE1n8yWng"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "33m 23s"
-has_transcript: no
-synopsis: "Sarah Paine: What Trump is Really Doing to US Grand Strategy by Pyotr Kurzin | Geopolitics. A lecture covering sarah, paine, trump."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Sarah Paine: What Trump"
-  - "Sarah Paine: What Trump is Really"
----
-
 # Sarah Paine: What Trump is Really Doing to US Grand Strategy
 
 **Channel**: Pyotr Kurzin | Geopolitics

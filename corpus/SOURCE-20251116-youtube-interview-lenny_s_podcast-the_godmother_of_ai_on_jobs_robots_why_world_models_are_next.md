@@ -1,39 +1,3 @@
----
-id: SOURCE-20251116-1099
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "godmother"
-  - "jobs"
-  - "robots"
-  - "world"
-  - "models"
-creator: "Lenny's Podcast"
-guest: null
-title: "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li"
-url: "https://www.youtube.com/watch?v=Ctjiatnd6Xk"
-date_published: 2025-11-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 19m 34s"
-has_transcript: no
-synopsis: "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li by Lenny's Podcast. A interview covering godmother, jobs, robots."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "The Godmother of AI"
-  - "The Godmother of AI on jobs,"
----
-
 # The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li
 
 **Channel**: Lenny's Podcast

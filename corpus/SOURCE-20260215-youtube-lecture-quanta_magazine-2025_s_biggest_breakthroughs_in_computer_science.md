@@ -1,39 +1,3 @@
----
-id: SOURCE-20260215-053
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "2025"
-  - "biggest"
-  - "breakthroughs"
-  - "computer"
-  - "science"
-creator: "Quanta Magazine"
-guest: null
-title: "2025's Biggest Breakthroughs in Computer Science"
-url: "https://www.youtube.com/watch?v=DFwppvrL_pE"
-date_published: 2026-02-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 3s"
-has_transcript: no
-synopsis: "2025's Biggest Breakthroughs in Computer Science by Quanta Magazine. A lecture covering 2025, biggest, breakthroughs."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "2025's Biggest Breakthroughs in"
-  - "2025's Biggest Breakthroughs in Computer Science"
----
-
 # 2025's Biggest Breakthroughs in Computer Science
 
 **Channel**: Quanta Magazine

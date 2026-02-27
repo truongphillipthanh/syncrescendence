@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-408
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "multiple"
-  - "interests"
-  - "waste"
-  - "next"
-  - "years"
-creator: "Dan Koe"
-guest: null
-title: "If you have multiple interests, do not waste the next 2-3 years"
-url: "https://www.youtube.com/watch?v=ExNWGF-q64M"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "52m 22s"
-has_transcript: no
-synopsis: "If you have multiple interests, do not waste the next 2-3 years by Dan Koe. A tutorial covering multiple, interests, waste."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "If you have multiple"
-  - "If you have multiple interests, do"
----
-
 # If you have multiple interests, do not waste the next 2-3 years
 
 **Channel**: Dan Koe

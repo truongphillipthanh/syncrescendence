@@ -1,39 +1,3 @@
----
-id: SOURCE-20260104-514
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "new"
-  - "way"
-  - "create"
-  - "realistic"
-  - "talking"
-creator: "Tao Prompts"
-guest: null
-title: "The NEW Way to Create Realistic Talking AI Avatars"
-url: "https://www.youtube.com/watch?v=QUTBcyv0HsU"
-date_published: 2026-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 20s"
-has_transcript: no
-synopsis: "The NEW Way to Create Realistic Talking AI Avatars by Tao Prompts. A tutorial covering new, way, create."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "The NEW Way to"
-  - "The NEW Way to Create Realistic"
----
-
 # The NEW Way to Create Realistic Talking AI Avatars
 
 **Channel**: Tao Prompts

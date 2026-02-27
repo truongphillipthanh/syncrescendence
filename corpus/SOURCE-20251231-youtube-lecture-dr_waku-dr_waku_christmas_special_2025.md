@@ -1,38 +1,3 @@
----
-id: SOURCE-20251231-676
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "waku"
-  - "christmas"
-  - "special"
-  - "2025"
-creator: "Dr Waku"
-guest: null
-title: "Dr Waku Christmas Special 2025"
-url: "https://www.youtube.com/watch?v=a6frBKUlZno"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 50s"
-has_transcript: no
-synopsis: "Dr Waku Christmas Special 2025 by Dr Waku. A lecture covering waku, christmas, special."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Dr Waku Christmas Special"
-  - "Dr Waku Christmas Special 2025"
----
-
 # Dr Waku Christmas Special 2025
 
 **Channel**: Dr Waku

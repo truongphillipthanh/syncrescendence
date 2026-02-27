@@ -1,39 +1,3 @@
----
-id: SOURCE-20251203-946
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "goes"
-  - "nuclear"
-  - "code"
-  - "red"
-creator: "Matthew Berman"
-guest: null
-title: "OpenAI goes NUCLEAR (CODE RED)"
-url: "https://www.youtube.com/watch?v=NosPd9LxMDs"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 50s"
-has_transcript: no
-synopsis: "OpenAI goes NUCLEAR (CODE RED) by Matthew Berman. A lecture covering openai, goes, nuclear."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI goes NUCLEAR (CODE"
-  - "OpenAI goes NUCLEAR (CODE RED)"
----
-
 # OpenAI goes NUCLEAR (CODE RED)
 
 **Channel**: Matthew Berman

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-334
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "inside"
-  - "zipline"
-  - "factory"
-  - "world"
-  - "largest"
-creator: "Sourcery with Molly O'Shea"
-guest: null
-title: "Inside Zipline’s Factory: The World’s Largest Drone Delivery Network"
-url: "https://www.youtube.com/watch?v=_qbbwichFIk"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "37m 37s"
-has_transcript: no
-synopsis: "Inside Zipline’s Factory: The World’s Largest Drone Delivery Network by Sourcery with Molly O'Shea. A interview covering inside, zipline, factory."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Inside Zipline’s Factory: The"
-  - "Inside Zipline’s Factory: The World’s Largest"
----
-
 # Inside Zipline’s Factory: The World’s Largest Drone Delivery Network
 
 **Channel**: Sourcery with Molly O'Shea

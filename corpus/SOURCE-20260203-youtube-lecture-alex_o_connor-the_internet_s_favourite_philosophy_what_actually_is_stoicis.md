@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-194
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "internet"
-  - "favourite"
-  - "philosophy"
-  - "actually"
-  - "stoicism"
-creator: "Alex O'Connor"
-guest: null
-title: "The Internet's Favourite Philosophy: What Actually Is Stoicism?"
-url: "https://www.youtube.com/watch?v=lQOWyoO92Co"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 42m 18s"
-has_transcript: no
-synopsis: "The Internet's Favourite Philosophy: What Actually Is Stoicism? by Alex O'Connor. A lecture covering internet, favourite, philosophy."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Internet's Favourite Philosophy:"
-  - "The Internet's Favourite Philosophy: What Actually"
----
-
 # The Internet's Favourite Philosophy: What Actually Is Stoicism?
 
 **Channel**: Alex O'Connor

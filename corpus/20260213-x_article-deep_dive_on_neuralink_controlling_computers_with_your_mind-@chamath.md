@@ -1,9 +1,3 @@
----
-url: https://x.com/chamath/status/2022396027555418456
-author: Chamath Palihapitiya (@chamath)
-captured_date: 2026-02-13
----
-
 # Deep Dive on Neuralink: Controlling Computers With Your Mind
 
 ## The Problem: The Brain-Computer Bottleneck

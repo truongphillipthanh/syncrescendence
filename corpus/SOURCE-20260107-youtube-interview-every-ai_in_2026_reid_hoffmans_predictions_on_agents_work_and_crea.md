@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-590
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "reid"
-  - "hoffman"
-  - "predictions"
-  - "agents"
-creator: "Every"
-guest: null
-title: "AI in 2026: Reid Hoffman’s Predictions on Agents, Work, and Creation"
-url: "https://www.youtube.com/watch?v=QyierGDlMOY"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "59m 35s"
-has_transcript: no
-synopsis: "AI in 2026: Reid Hoffman’s Predictions on Agents, Work, and Creation by Every. A interview covering 2026, reid, hoffman."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: agents-orchestration
-aliases:
-  - "AI in 2026: Reid"
-  - "AI in 2026: Reid Hoffman’s Predictions"
----
-
 # AI in 2026: Reid Hoffman’s Predictions on Agents, Work, and Creation
 
 **Channel**: Every

@@ -1,29 +1,3 @@
----
-url: https://x.com/rohit4verse/status/2009663737469542875
-author: "Rohit (@rohit4verse)"
-captured_date: 2026-02-13
-id: SOURCE-20260109-001
-original_filename: "20260109-x_article-the_2026_ai_engineer_roadmap-@rohit4verse.md"
-status: triaged
-platform: x
-format: article
-creator: rohit4verse
-signal_tier: tactical
-topics:
-  - "ai-engineering"
-  - "career"
-  - "education"
-  - "tutorial"
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Rohit4verse - 2026 AI Engineer Roadmap"
-synopsis: "Comprehensive roadmap for becoming an AI engineer in 2026 covering foundations (Python, ML basics), intermediate skills (fine-tuning, RAG), advanced topics (agent architectures, evaluation), and career positioning strategies in the rapidly evolving AI landscape."
-key_insights:
-  - "The 2026 AI engineer stack requires foundations in Python and ML basics, intermediate skills in fine-tuning and RAG, and advanced mastery of agent architectures and evaluation"
-  - "Career positioning in AI engineering requires building in public and demonstrating practical project experience over credentials"
-  - "The field is evolving so fast that continuous learning and adaptability matter more than any specific technology mastery"
----
 # the 2026 ai engineer roadmap
 
 (Description: A stylized black and white sculptural head with a bright cyan neon horizontal line across the eyes, surrounded by an abstract network diagram with colorful nodes (blue, yellow, purple, pink, orange, green) connected by black lines. Code snippets are visible in the margins of the image. The composition suggests artificial intelligence and neural networks intersecting with human consciousness.)

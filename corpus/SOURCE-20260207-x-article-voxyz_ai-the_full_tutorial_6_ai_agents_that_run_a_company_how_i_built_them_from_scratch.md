@@ -1,21 +1,3 @@
----
-url: https://x.com/Voxyz_ai/status/2020272022417289587
-author: "Vox (@Voxyz_ai)"
-captured_date: 2026-02-07
-id: SOURCE-20260207-016
-original_filename: "20260207-x_article-the_full_tutorial_6_ai_agents_that_run_a_company_how_i_built_them_from_scratch-@voxyz_ai.md"
-status: triaged
-platform: x
-format: article
-creator: voxyz_ai
-signal_tier: strategic
-topics: [ai-agents, ai-engineering, tutorial, vibe-coding]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Voxyz - 6 AI Agents Build Guide"]
-synopsis: "Complete 5,600-word build guide for creating 6 autonomous AI agents that run a company, written as a follow-up to a viral post (600K views). Designed for non-coders who can talk to an AI coding assistant, covering every step from scratch with nothing hidden."
-key_insights: ["The build guide is designed for people who can talk to AI coding assistants but cannot code — the meta-skill of directing AI is sufficient", "6 specialized agents (decision-maker, strategist, scout, writer, social media, quality checker) cover the core functions of a small company", "The 600K-view viral response proved that the gap between understanding agent systems and building them is the primary bottleneck"]
----
 # The Full Tutorial: 6 AI Agents That Run a Company — How I Built Them From Scratch
 
 (Description: Cyberpunk isometric office scene titled "AGENTS AT WORK" featuring pixel-art style workspace with multiple robotic/AI agents at desks, whiteboards, and collaborative spaces with neon lighting and futuristic aesthetic)

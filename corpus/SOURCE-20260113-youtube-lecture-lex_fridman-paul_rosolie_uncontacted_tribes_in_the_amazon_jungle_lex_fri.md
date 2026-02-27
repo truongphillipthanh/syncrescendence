@@ -1,39 +1,3 @@
----
-id: SOURCE-20260113-490
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "paul"
-  - "rosolie"
-  - "uncontacted"
-  - "tribes"
-  - "amazon"
-creator: "Lex Fridman"
-guest: null
-title: "Paul Rosolie: Uncontacted Tribes in the Amazon Jungle | Lex Fridman Podcast #489"
-url: "https://www.youtube.com/watch?v=Z-FRe5AKmCU"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3h 6m 19s"
-has_transcript: no
-synopsis: "Paul Rosolie: Uncontacted Tribes in the Amazon Jungle | Lex Fridman Podcast #489 by Lex Fridman. A lecture covering paul, rosolie, uncontacted."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Paul Rosolie: Uncontacted Tribes"
-  - "Paul Rosolie: Uncontacted Tribes in the"
----
-
 # Paul Rosolie: Uncontacted Tribes in the Amazon Jungle | Lex Fridman Podcast #489
 
 **Channel**: Lex Fridman

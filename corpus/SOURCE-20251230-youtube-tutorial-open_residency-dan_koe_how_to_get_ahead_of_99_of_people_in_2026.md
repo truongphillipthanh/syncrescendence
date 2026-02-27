@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-683
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "dan"
-  - "koe"
-  - "get"
-  - "ahead"
-  - "people"
-creator: "Open Residency"
-guest: null
-title: "Dan Koe: How To Get Ahead Of 99% Of People in 2026"
-url: "https://www.youtube.com/watch?v=EVDQ1MijHbk"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 35m 16s"
-has_transcript: no
-synopsis: "Dan Koe: How To Get Ahead Of 99% Of People in 2026 by Open Residency. A tutorial covering dan, koe, get."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Dan Koe: How To"
-  - "Dan Koe: How To Get Ahead"
----
-
 # Dan Koe: How To Get Ahead Of 99% Of People in 2026
 
 **Channel**: Open Residency

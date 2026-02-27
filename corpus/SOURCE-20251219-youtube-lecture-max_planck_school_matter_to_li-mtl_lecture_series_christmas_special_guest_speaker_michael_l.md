@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-765
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "mtl"
-  - "lecture"
-  - "series"
-  - "christmas"
-  - "special"
-creator: "Max Planck School Matter to Life"
-guest: null
-title: "MtL Lecture Series Christmas Special: Guest Speaker Michael Levin (10 December 2025)"
-url: "https://www.youtube.com/watch?v=J0h9-v2o-N8"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 5m 19s"
-has_transcript: no
-synopsis: "MtL Lecture Series Christmas Special: Guest Speaker Michael Levin (10 December 2025) by Max Planck School Matter to Life. A lecture covering mtl, lecture, series."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "MtL Lecture Series Christmas"
-  - "MtL Lecture Series Christmas Special: Guest"
----
-
 # MtL Lecture Series Christmas Special: Guest Speaker Michael Levin (10 December 2025)
 
 **Channel**: Max Planck School Matter to Life

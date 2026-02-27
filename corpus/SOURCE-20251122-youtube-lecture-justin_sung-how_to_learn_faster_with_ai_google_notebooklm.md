@@ -1,38 +1,3 @@
----
-id: SOURCE-20251122-1023
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "learn"
-  - "faster"
-  - "google"
-  - "notebooklm"
-creator: "Justin Sung"
-guest: null
-title: "How to Learn FASTER With AI - Google NotebookLM"
-url: "https://www.youtube.com/watch?v=LBQz1KmFOUc"
-date_published: 2025-11-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "43m 58s"
-has_transcript: no
-synopsis: "How to Learn FASTER With AI - Google NotebookLM by Justin Sung. A lecture covering learn, faster, google."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Learn FASTER"
-  - "How to Learn FASTER With AI"
----
-
 # How to Learn FASTER With AI - Google NotebookLM
 
 **Channel**: Justin Sung

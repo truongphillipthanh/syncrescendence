@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1125
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "texting"
-  - "while"
-  - "driving"
-  - "tesla"
-  - "allowed"
-creator: "ARK Invest"
-guest: null
-title: "Texting While ‘Driving’ In A Tesla Is… Allowed? | The Brainstorm EP 109"
-url: "https://www.youtube.com/watch?v=SCnF2-ZtHQk"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 16s"
-has_transcript: no
-synopsis: "Texting While ‘Driving’ In A Tesla Is… Allowed? | The Brainstorm EP 109 by ARK Invest. A panel discussion covering texting, while, driving."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Texting While ‘Driving’ In"
-  - "Texting While ‘Driving’ In A Tesla"
----
-
 # Texting While ‘Driving’ In A Tesla Is… Allowed? | The Brainstorm EP 109
 
 **Channel**: ARK Invest

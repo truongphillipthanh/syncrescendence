@@ -1,37 +1,3 @@
----
-id: SOURCE-20260218-034
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "need"
-  - "hear"
-  - "update"
-creator: "The AI Advantage"
-guest: null
-title: "You Need to Hear This Update..."
-url: "https://www.youtube.com/watch?v=KFVUQAYHwzI"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 20s"
-has_transcript: no
-synopsis: "You Need to Hear This Update... by The AI Advantage. A lecture covering need, hear, update."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "You Need to Hear"
-  - "You Need to Hear This Update..."
----
-
 # You Need to Hear This Update...
 
 **Channel**: The AI Advantage

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251217-807
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "kernel"
-  - "generation"
-  - "working"
-  - "next"
-  - "natalie"
-creator: "AI Engineer"
-guest: null
-title: "AI Kernel Generation: What's working, what's not, what's next – Natalie Serrino, Gimlet Labs"
-url: "https://www.youtube.com/watch?v=6guQG_tGt0o"
-date_published: 2025-12-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 15s"
-has_transcript: no
-synopsis: "AI Kernel Generation: What's working, what's not, what's next – Natalie Serrino, Gimlet Labs by AI Engineer. A tutorial covering kernel, generation, working."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Kernel Generation: What's"
-  - "AI Kernel Generation: What's working, what's"
----
-
 # AI Kernel Generation: What's working, what's not, what's next – Natalie Serrino, Gimlet Labs
 
 **Channel**: AI Engineer

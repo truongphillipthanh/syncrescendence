@@ -1,24 +1,3 @@
----
-url: https://x.com/PeterDiamandis/status/2023412348120072590
-author: Peter H. Diamandis, MD
-captured_date: 2026-02-16
-id: SOURCE-20260216-015
-original_filename: "20260216-x_article-how_we_get_to_abundance_by_2035_and_why_the_next_18_months_will_define_the_next_century-@peterdiamandis.md"
-status: triaged
-platform: x
-format: article
-creator: peterdiamandis
-signal_tier: strategic
-topics: [economics, philosophy, ai-engineering, framework]
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases: ["peterdiamandis - Solve Everything abundance 2035"]
-synopsis: "Diamandis and Wissner-Gross present 'Solve Everything,' a manifesto for achieving post-scarcity abundance by 2035 through directed superintelligence. Introduces the Industrial Intelligence Stack (7 layers), 15 Giga-XPRIZEs, and warns of the Muddle (wasting ASI on ads and bureaucracy). Claims we are in the Intelligence Revolution where cognition becomes a commodity utility."
-key_insights:
-  - "The race isn't building the best model - it's writing the best scorecard (benchmark) that everyone else is graded on"
-  - "Capitalists are being replaced first, not workers - Moravec's Paradox means reasoning/strategy tasks automate before manual dexterity"
-  - "18-month window: decisions about AI direction will lock in patterns for decades like QWERTY persisted 150+ years"
----
 # How We Get to Abundance by 2035 & Why the Next 18 Months Will Define the Next Century
 (Description: A futuristic digital artwork showing a glowing circular space habitat or planetary ring-world suspended in space. Golden light illuminates the structure, which features architectural elements and layers. Below are silhouettes of people gathered together looking up at the structure. Around them float blue holographic icons representing various concepts: a globe, connectivity nodes, growth charts, medical symbols, and other technological imagery. The top of the image displays the text "SOLVE EVERYTHING" in large gold letters with "Abundance 2035" below it. The overall aesthetic is optimistic and visionary, suggesting humanity's collective effort toward solving major challenges.)
 ## "Solve Everything" — The Roadmap to Abundance by 2035

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251130-963
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "michael"
-  - "levin"
-  - "hidden"
-  - "reality"
-  - "alien"
-creator: "Lex Fridman"
-guest: null
-title: "Michael Levin: Hidden Reality of Alien Intelligence & Biological Life | Lex Fridman Podcast #486"
-url: "https://www.youtube.com/watch?v=Qp0rCU49lMs"
-date_published: 2025-11-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3h 18m 9s"
-has_transcript: no
-synopsis: "Michael Levin: Hidden Reality of Alien Intelligence & Biological Life | Lex Fridman Podcast #486 by Lex Fridman. A lecture covering michael, levin, hidden."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Michael Levin: Hidden Reality"
-  - "Michael Levin: Hidden Reality of Alien"
----
-
 # Michael Levin: Hidden Reality of Alien Intelligence & Biological Life | Lex Fridman Podcast #486
 
 **Channel**: Lex Fridman

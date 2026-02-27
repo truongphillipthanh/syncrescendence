@@ -1,32 +1,3 @@
----
-url: https://x.com/ArmanHezarkhani/status/2024499196993101927
-author: "Arman Hezarkhani (@ArmanHezarkhani)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-003
-original_filename: "20260219-x_article-the_complete_guide_how_to_write_with_ai_slop_free-@armanhezarkhani.md"
-status: triaged
-platform: x
-format: article
-creator: armanhezarkhani
-signal_tier: tactical
-topics:
-  - prompt-engineering
-  - ai-workflow
-  - prompting
-  - extended-thinking
-  - cursor
-  - gpt
-  - rag
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "The Complete Guide How to Write with AI Slop Free"
-synopsis: "The Complete Guide: How to Write with AI, Slop Free Introduction 90% of what I write is done with AI tools. That distinction matters, and its the unlock for efficiency. I use the same tools software engineers use to write code—Claude Code, Cursor, Wispr Flow—except I point them at prose instead of Python."
-key_insights:
-  - "They've learned how to direct AI precisely—spec the output, constrain the behavior, iterate on feedback, never ship what they can't explain."
-  - "- **Iterate on feedback** — First draft is never final."
-  - "The golden rule for AI-assisted writing is the same as Ad."
----
 # The Complete Guide: How to Write with AI, Slop Free
 (Description: Dark-themed banner image featuring a golden hand holding a pen against a circuit board pattern background with the text "No More Slop" in large white serif font, and subtitle "The Complete Guide: How to Write with AI, Slop Free")
 ## Introduction

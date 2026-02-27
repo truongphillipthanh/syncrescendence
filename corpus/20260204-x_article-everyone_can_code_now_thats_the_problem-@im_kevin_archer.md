@@ -1,9 +1,3 @@
----
-url: https://x.com/IM_Kevin_Archer/status/2019009861271306376
-author: Kevin (@IM_Kevin_Archer)
-captured_date: 2026-02-04
----
-
 # Everyone Can Code Now. That's the Problem.
 
 (Description: Dark navy background with abstract code visualization. Multiple horizontal lines of varying colors (red, orange, yellow, green, blue, purple) representing lines of code. Red X marks scattered throughout, yellow warning/alert triangles placed on several sections, and chaotic red squiggles suggesting broken or error-prone code patterns. The visualization metaphorically depicts buggy, problematic software development.)

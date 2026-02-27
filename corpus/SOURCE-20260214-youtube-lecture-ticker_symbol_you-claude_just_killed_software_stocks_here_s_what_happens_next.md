@@ -1,39 +1,3 @@
----
-id: SOURCE-20260214-077
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "just"
-  - "killed"
-  - "software"
-  - "stocks"
-creator: "Ticker Symbol: YOU"
-guest: null
-title: "Claude Just Killed Software Stocks (Here's What Happens Next)"
-url: "https://www.youtube.com/watch?v=JGm_v3YFMes"
-date_published: 2026-02-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 39s"
-has_transcript: no
-synopsis: "Claude Just Killed Software Stocks (Here's What Happens Next) by Ticker Symbol: YOU. A lecture covering claude, just, killed."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Claude Just Killed Software"
-  - "Claude Just Killed Software Stocks (Here's"
----
-
 # Claude Just Killed Software Stocks (Here's What Happens Next)
 
 **Channel**: Ticker Symbol: YOU

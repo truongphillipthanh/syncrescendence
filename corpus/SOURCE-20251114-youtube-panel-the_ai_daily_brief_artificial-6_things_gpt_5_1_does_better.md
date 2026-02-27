@@ -1,37 +1,3 @@
----
-id: SOURCE-20251114-1137
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "things"
-  - "gpt"
-  - "better"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "6 Things GPT-5.1 Does Better"
-url: "https://www.youtube.com/watch?v=wWHeqYZJH5c"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 18s"
-has_transcript: no
-synopsis: "6 Things GPT-5.1 Does Better by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering things, gpt, better."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "6 Things GPT-5.1 Does"
-  - "6 Things GPT-5.1 Does Better"
----
-
 # 6 Things GPT-5.1 Does Better
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

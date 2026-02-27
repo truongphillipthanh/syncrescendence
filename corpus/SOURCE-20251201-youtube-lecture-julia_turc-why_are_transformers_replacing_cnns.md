@@ -1,37 +1,3 @@
----
-id: SOURCE-20251201-755
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "transformers"
-  - "replacing"
-  - "cnns"
-creator: "Julia Turc"
-guest: null
-title: "Why are Transformers replacing CNNs?"
-url: "https://www.youtube.com/watch?v=KnCRTP11p5U"
-date_published: 2025-12-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 57s"
-has_transcript: no
-synopsis: "Why are Transformers replacing CNNs? by Julia Turc. A lecture covering transformers, replacing, cnns."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "Why are Transformers replacing"
-  - "Why are Transformers replacing CNNs?"
----
-
 # Why are Transformers replacing CNNs?
 
 **Channel**: Julia Turc

@@ -1,28 +1,3 @@
----
-url: https://x.com/steipete/status/2022513027870810384
-author: "Peter Steinberger (@steipete)"
-captured_date: 2026-02-13
-id: SOURCE-20260214-009
-original_filename: "20260214-x_article-new_version_of_summarize_sh_is_out_0_11_can_now_even_use_cursor_for_free_tokens_uses_groq_for_way_faster_tts_inference_lots_lots_of_other_improvements-@steipete.md"
-status: triaged
-platform: x
-format: article
-creator: steipete
-signal_tier: tactical
-topics:
-  - git
-  - cursor
-  - token-management
-teleology: reference
-notebooklm_category: coding-tools
-aliases:
-  - "New Version of summarizesh 011 Release"
-synopsis: "New Version of summarize.sh 0.11 Release New version of [summarize.sh]( is out! 0.11 can now even use cursor for free tokens + uses Groq for way faster TTS inference + lots lots of other improvements. [github.com/steipete/summarize/releases/tag/v0.11.1]( Usage summarize [youtube.com/watch\?v\=n1E9IZfvGMA --slides]( My favorite way to consume YT. or literally any website or remote or local file."
-key_insights:
-  - "New Version of summarize.sh 0.11 Release New version of [summarize.sh]( is out!"
-  - "0.11 can now even use cursor for free tokens + uses Groq for way faster TTS inference + lots lots of other improvements."
-  - "[github.com/steipete/summarize/releases/tag/v0.11.1]( Usage summarize [youtube.com/watch\\?v\\=n1E9IZfvGMA --slides]( My favorite way to consume YT."
----
 # New Version of summarize.sh 0.11 Release
 New version of [summarize.sh](https://t.co/VBw4Rt1V5A) is out! 0.11 can now even use cursor for free tokens + uses Groq for way faster TTS inference + lots lots of other improvements. [github.com/steipete/summarize/releases/tag/v0.11.1](https://github.com/steipete/summarize/releases/tag/v0.11.1)
 ## Usage

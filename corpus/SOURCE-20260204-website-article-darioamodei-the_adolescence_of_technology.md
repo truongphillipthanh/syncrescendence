@@ -1,25 +1,3 @@
----
-id: SOURCE-20260204-website-article-darioamodei-the_adolescence_of_technology
-platform: website
-format: article
-creator: darioamodei
-title: the adolescence of technology
-status: triaged
-original_filename: 20260204-website-the_adolescence_of_technology--darioamodei.md
-url: https://www.darioamodei.com/essay/the-adolescence-of-technology
-domain: darioamodei.com
-author: Dario Amodei
-published_date: January 2026
-captured_date: 2026-02-04
-content_type: essay
-signal_tier: paradigm
-topics: ""
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # The Adolescence of Technology
 
 ## Confronting and Overcoming the Risks of Powerful AI

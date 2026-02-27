@@ -1,24 +1,3 @@
----
-url: https://x.com/boringmarketer/status/2024265175575015599
-author: "@boringmarketer"
-captured_date: 2026-02-18
-id: SOURCE-20260218-003
-original_filename: "20260218-x_article-i_stopped_writing_better_skills_and_started_building_skill_architecture-@boringmarketer.md"
-status: triaged
-platform: x
-format: article
-creator: boringmarketer
-signal_tier: strategic
-topics: [ai-engineering, claude-code, developer-tools, best-practices]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["boringmarketer - skill architecture over better skills"]
-synopsis: "Describes five architectural improvements that moved the needle beyond writing better SKILL.md files: persistent memory (shared brand directory with ownership rules), scored context loading (context matrix with TTL freshness decay), schema contracts between skills (6 JSON Schema interfaces for pipeline data flow), learning loops (ship/edit/rewrite feedback logged and reused), and a shared protocol layer (one document for system-wide coherence). 11 skills, 32,000 lines."
-key_insights:
-  - "Scored context loading: output went from generic to focused when skills stopped getting everything and started getting only the right things — with TTL freshness (7d pass, 30d flag, 90d+ don't load)"
-  - "Schema contracts turn skills into pipeline nodes: /keyword-research outputs a typed keyword plan that /seo-content reads as input — no re-explaining between sessions"
-  - "Learning loops: after every deliverable, log whether it shipped as-is, needed minor edits, or was significantly rewritten — session 1 teaches session 5, mistakes made once"
----
 # i stopped writing better skills and started building skill architecture
 (Description: Abstract visualization featuring layered horizontal bars with a gradient from purple to cyan blue against a dark background with subtle particle effects, suggesting data architecture or system layers)
 most people think an ai skill is a well-written instruction file. a really good SKILL.md with examples, scoring criteria, maybe a decision tree. that's the baseline.

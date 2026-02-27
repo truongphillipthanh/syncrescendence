@@ -1,30 +1,3 @@
----
-url: https://x.com/ridd_design/status/2019450056735179102
-author: '@ridd_design'
-captured_date: 2026-02-05
-id: SOURCE-20260205-024
-original_filename: "20260205-x_thread-i_finally_fixed_my-@ridd_design.md"
-status: triaged
-platform: x
-format: thread
-creator: ridd_design
-signal_tier: tactical
-topics:
-  - claude-code
-  - ai-workflow
-  - context-management
-  - extended-thinking
-  - cursor
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "I finally fixed my biggest problem with AI coding"
-synopsis: "I (finally) fixed my biggest problem with AI coding I can crank out 10+ prototypes a day but somehow sharing my work is harder than its ever been. The multiplayer canvas is gone. Now it's desktop folders, screen recordings, and PRs. You're telling me I have to use a bunch of engineering tools just to share a quick concept with my PM? It's the final_v4_updated era all over again."
-key_insights:
-  - "I (finally) fixed my biggest problem with AI coding I can crank out 10+ prototypes a day but somehow sharing my work is harder than its ever been."
-  - "The multiplayer canvas is gone."
-  - "Now it's desktop folders, screen recordings, and PRs."
----
 # I (finally) fixed my biggest problem with AI coding
 
 I can crank out 10+ prototypes a day but somehow sharing my work is harder than its ever been.

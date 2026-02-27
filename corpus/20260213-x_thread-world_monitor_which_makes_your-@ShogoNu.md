@@ -1,9 +1,3 @@
----
-url: https://x.com/ShogoNu/status/2022230196284522788
-author: @ShogoNu
-captured_date: 2026-02-14
----
-
 # X Thread: World Monitor
 
 ## Post 1

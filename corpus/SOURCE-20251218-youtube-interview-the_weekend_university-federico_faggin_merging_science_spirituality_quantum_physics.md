@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-763
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "federico"
-  - "faggin"
-  - "merging"
-  - "science"
-  - "spirituality"
-creator: "The Weekend University"
-guest: null
-title: "Federico Faggin: Merging Science & Spirituality, Quantum Physics, Meaning, & Free Will"
-url: "https://www.youtube.com/watch?v=w6cBQESNDV0"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 39s"
-has_transcript: no
-synopsis: "Federico Faggin: Merging Science & Spirituality, Quantum Physics, Meaning, & Free Will by The Weekend University. A interview covering federico, faggin, merging."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Federico Faggin: Merging Science"
-  - "Federico Faggin: Merging Science & Spirituality,"
----
-
 # Federico Faggin: Merging Science & Spirituality, Quantum Physics, Meaning, & Free Will
 
 **Channel**: The Weekend University

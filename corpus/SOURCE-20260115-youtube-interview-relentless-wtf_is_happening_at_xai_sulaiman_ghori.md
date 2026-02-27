@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-467
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "wtf"
-  - "happening"
-  - "xai"
-  - "sulaiman"
-  - "ghori"
-creator: "Relentless"
-guest: null
-title: "WTF is happening at xAI | Sulaiman Ghori"
-url: "https://www.youtube.com/watch?v=8jN60eJr4Ps"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 11m 40s"
-has_transcript: no
-synopsis: "WTF is happening at xAI | Sulaiman Ghori by Relentless. A interview covering wtf, happening, xai."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "WTF is happening at"
-  - "WTF is happening at xAI |"
----
-
 # WTF is happening at xAI | Sulaiman Ghori
 
 **Channel**: Relentless

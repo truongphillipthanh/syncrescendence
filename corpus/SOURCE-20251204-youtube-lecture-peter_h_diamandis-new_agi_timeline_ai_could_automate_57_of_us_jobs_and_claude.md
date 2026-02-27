@@ -1,39 +1,3 @@
----
-id: SOURCE-20251204-926
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "new"
-  - "agi"
-  - "timeline"
-  - "automate"
-  - "jobs"
-creator: "Peter H. Diamandis"
-guest: null
-title: "New AGI Timeline, AI Could Automate 57% of US Jobs, and Claude Consciousness w/ Naveen, Salim & AWG"
-url: "https://www.youtube.com/watch?v=WNaHRiRg5CA"
-date_published: 2025-12-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 2m 47s"
-has_transcript: no
-synopsis: "New AGI Timeline, AI Could Automate 57% of US Jobs, and Claude Consciousness w/ Naveen, Salim & AWG by Peter H. Diamandis. A lecture covering new, agi, timeline."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "New AGI Timeline, AI"
-  - "New AGI Timeline, AI Could Automate"
----
-
 # New AGI Timeline, AI Could Automate 57% of US Jobs, and Claude Consciousness w/ Naveen, Salim & AWG
 
 **Channel**: Peter H. Diamandis

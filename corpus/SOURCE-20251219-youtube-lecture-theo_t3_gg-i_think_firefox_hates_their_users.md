@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-790
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "think"
-  - "firefox"
-  - "hates"
-  - "their"
-  - "users"
-creator: "Theo - t3․gg"
-guest: null
-title: "I think Firefox hates their users"
-url: "https://www.youtube.com/watch?v=0kCn2f6ngAs"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 13s"
-has_transcript: no
-synopsis: "I think Firefox hates their users by Theo - t3․gg. A lecture covering think, firefox, hates."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "I think Firefox hates"
-  - "I think Firefox hates their users"
----
-
 # I think Firefox hates their users
 
 **Channel**: Theo - t3․gg

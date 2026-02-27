@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-116
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "humanoid"
-  - "takeover"
-  - "50t"
-  - "market"
-  - "figure"
-creator: "Peter H. Diamandis"
-guest: null
-title: "The Humanoid Takeover: $50T Market, Figure's Full Body Autonomy, and Robots in Dorms #229"
-url: "https://www.youtube.com/watch?v=S_fXhVT67Uw"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 43m 48s"
-has_transcript: no
-synopsis: "The Humanoid Takeover: $50T Market, Figure's Full Body Autonomy, and Robots in Dorms #229 by Peter H. Diamandis. A lecture covering humanoid, takeover, 50t."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Humanoid Takeover: $50T"
-  - "The Humanoid Takeover: $50T Market, Figure's"
----
-
 # The Humanoid Takeover: $50T Market, Figure's Full Body Autonomy, and Robots in Dorms #229
 
 **Channel**: Peter H. Diamandis

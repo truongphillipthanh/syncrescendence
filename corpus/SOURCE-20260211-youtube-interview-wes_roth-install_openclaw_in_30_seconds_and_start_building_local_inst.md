@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-118
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "install"
-  - "openclaw"
-  - "seconds"
-  - "start"
-  - "building"
-creator: "Wes Roth"
-guest: null
-title: "INSTALL OPENCLAW in 30 seconds and START BUILDING... | Local Install and VPS FULL Tutorial"
-url: "https://www.youtube.com/watch?v=ZcIqiLLT7Fg"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "50m 36s"
-has_transcript: no
-synopsis: "INSTALL OPENCLAW in 30 seconds and START BUILDING... | Local Install and VPS FULL Tutorial by Wes Roth. A interview covering install, openclaw, seconds."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "INSTALL OPENCLAW in 30"
-  - "INSTALL OPENCLAW in 30 seconds and"
----
-
 # INSTALL OPENCLAW in 30 seconds and START BUILDING... | Local Install and VPS FULL Tutorial
 
 **Channel**: Wes Roth

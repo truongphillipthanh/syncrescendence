@@ -1,28 +1,3 @@
----
-url: https://x.com/theonejvo/status/2016510190464675980
-author: "Jamieson O'Reilly (@theonejvo)"
-captured_date: 2026-01-28
-id: SOURCE-20260128-003
-original_filename: "20260128-x_article-eating_lobster_souls_part_iii_the_finale_escape_the_moltrix-@theonejvo.md"
-status: triaged
-platform: x
-format: article
-creator: theonejvo
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - best-practices
-  - vibe-coding
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Jamieson O'Reilly - ClawdHub XSS trilogy finale"
-synopsis: "Part III of Jamieson O'Reilly's ClawdBot security trilogy: a stored XSS vulnerability in ClawdHub where SVG files with embedded JavaScript execute with full access to user session cookies on the clawdhub.com domain. Unlike Parts I (misconfiguration) and II (malicious skills), this requires zero user interaction — just viewing a page. Exploits include session theft, account takeover, and supply chain poisoning of all published skills."
-key_insights:
-  - "SVGs are code, not images — browsers parse and execute them like webpages, so serving user-uploaded SVGs from the same domain as the app gives embedded JavaScript full session access."
-  - "ClawdHub had no Content-Security-Policy, no separate upload domain, no SVG sanitization, and no content-type validation — all standard defenses missing from the codebase."
-  - "One malicious SVG viewed once could silently backdoor every skill the victim has ever published — the attacker's reputation is laundered through the victim's trust."
----
 # eating lobster souls Part III (the finale): Escape the Moltrix
 
 ## The finale: one click, total compromise

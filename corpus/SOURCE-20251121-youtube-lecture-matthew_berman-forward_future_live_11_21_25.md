@@ -1,37 +1,3 @@
----
-id: SOURCE-20251121-1026
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "forward"
-  - "future"
-  - "live"
-creator: "Matthew Berman"
-guest: null
-title: "Forward Future Live | 11/21/25"
-url: "https://www.youtube.com/watch?v=0Yv9wSph9hY"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 36s"
-has_transcript: no
-synopsis: "Forward Future Live | 11/21/25 by Matthew Berman. A lecture covering forward, future, live."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Forward Future Live |"
-  - "Forward Future Live | 11/21/25"
----
-
 # Forward Future Live | 11/21/25
 
 **Channel**: Matthew Berman

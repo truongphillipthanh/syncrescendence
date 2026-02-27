@@ -1,35 +1,3 @@
----
-id: SOURCE-20260113-498
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "wtf"
-  - "anthropic"
-creator: "The PrimeTime"
-guest: null
-title: "WTF Anthropic"
-url: "https://www.youtube.com/watch?v=guuGl34HI3Q"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 45s"
-has_transcript: no
-synopsis: "WTF Anthropic by The PrimeTime. A interview covering wtf, anthropic."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "WTF Anthropic"
----
-
 # WTF Anthropic
 
 **Channel**: The PrimeTime

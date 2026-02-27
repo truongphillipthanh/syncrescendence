@@ -1,33 +1,3 @@
----
-url: https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read
-title: My AGENTS.md file for building plans you actually read
-domain: aihero.dev
-author: Matt Pocock
-published_date: null
-captured_date: 2026-02-20
-content_type: blog
-id: SOURCE-20260113-001
-original_filename: 20260113-aihero-my-agents-md-file-for-building-plans-aihero.md
-status: triaged
-platform: aihero
-format: article
-creator: aihero
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "ai-engineering"
-  - "best-practices"
-  - "tutorial"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "AIHero - AGENTS.md Planning Loop"
-synopsis: "Describes a planning loop technique using AGENTS.md that transforms AI from unreliable code generator to indispensable coding partner. Four-step process: describe what you want, let AI create a plan, review and refine, then execute."
-key_insights:
-  - "The planning loop transforms AI from unreliable code generator to indispensable coding partner by separating planning from execution"
-  - "AGENTS.md file acts as persistent instructions that shape how the AI approaches planning and implementation across sessions"
-  - "A four-step process (describe, plan, review, execute) consistently produces better results than direct code generation requests"
----
 # My AGENTS.md file for building plans you actually read
 Most developers are skeptical about AI code generation at first. It seems impossible that an AI could understand your codebase the way you do, or match the instincts you've built up over years of experience.
 But there's a technique that changes everything: the planning loop. Instead of asking AI to write code directly, you work through a structured cycle that dramatically improves the quality of what you get.

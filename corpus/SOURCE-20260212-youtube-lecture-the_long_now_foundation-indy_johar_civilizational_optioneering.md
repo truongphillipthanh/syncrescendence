@@ -1,38 +1,3 @@
----
-id: SOURCE-20260212-075
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "indy"
-  - "johar"
-  - "civilizational"
-  - "optioneering"
-creator: "The Long Now Foundation"
-guest: null
-title: "Indy Johar | Civilizational Optioneering"
-url: "https://www.youtube.com/watch?v=TyEYt7R_zFU"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 4m 33s"
-has_transcript: no
-synopsis: "Indy Johar | Civilizational Optioneering by The Long Now Foundation. A lecture covering indy, johar, civilizational."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Indy Johar | Civilizational"
-  - "Indy Johar | Civilizational Optioneering"
----
-
 # Indy Johar | Civilizational Optioneering
 
 **Channel**: The Long Now Foundation

@@ -1,28 +1,3 @@
----
-url: https://x.com/nbaschez/status/2018027072720130090
-author: "Nathan Baschez (@nbaschez)"
-captured_date: 2026-02-01
-id: SOURCE-20260201-008
-original_filename: 20260201-x_thread-single_biggest_improvement_to_your-nbaschez.md
-status: triaged
-platform: x
-format: thread
-creator: nbaschez
-signal_tier: strategic
-topics:
-  - claude-code
-  - best-practices
-  - developer-tools
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Nathan Baschez - bug-first testing CLAUDE.md tip"
-synopsis: "Nathan Baschez shares a high-impact CLAUDE.md instruction: when a bug is reported, don't start fixing it — first write a test that reproduces it, then have subagents try fixes and prove them with passing tests. Described as the single biggest improvement to CLAUDE.md/AGENTS.md."
-key_insights:
-  - "The test-first bug fixing pattern — reproduce bug as test, then have subagents fix and prove with passing test — prevents fix regressions and teaches the agent verification discipline."
-  - "Using subagents for the fix attempts while the main agent manages the test creates a clean separation of concerns."
-  - "This single CLAUDE.md instruction reportedly produces the biggest improvement in code quality across agent-driven development."
----
 # X Thread: Bug Testing and Agentic Development
 
 **Post 1** — 10:22 AM · Feb 1, 2026

@@ -1,22 +1,3 @@
----
-id: SOURCE-20260125-x-thread-hesamation-everyone_must_read_this_piece
-platform: x
-format: thread
-creator: hesamation
-title: everyone must read this piece
-status: triaged
-original_filename: "20260125-x_thread-everyone_must_read_this_piece-@hesamation.md"
-url: https://x.com/Hesamation/status/2015608341884494072
-author: "ℏεsam (@Hesamation)"
-captured_date: 2026-01-25
-signal_tier: strategic
-topics: ""
-teleology: inspire
-notebooklm_category: career-growth
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # X Thread: Steve Jobs Essay on Startups
 
 ## Post 1

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-258
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "marc"
-  - "andreessen"
-  - "real"
-  - "boom"
-  - "hasn"
-creator: "Lenny's Podcast"
-guest: null
-title: "Marc Andreessen: The real AI boom hasn’t even started yet"
-url: "https://www.youtube.com/watch?v=87Pm0SGTtN8"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 44m 36s"
-has_transcript: no
-synopsis: "Marc Andreessen: The real AI boom hasn’t even started yet by Lenny's Podcast. A tutorial covering marc, andreessen, real."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Marc Andreessen: The real"
-  - "Marc Andreessen: The real AI boom"
----
-
 # Marc Andreessen: The real AI boom hasn’t even started yet
 
 **Channel**: Lenny's Podcast

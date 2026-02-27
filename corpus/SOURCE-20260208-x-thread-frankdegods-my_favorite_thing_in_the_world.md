@@ -1,21 +1,3 @@
----
-url: https://x.com/frankdegods/status/2020541790332342581
-author: "@frankdegods"
-captured_date: 2026-02-08
-id: SOURCE-20260208-014
-original_filename: "20260208-x_thread-my_favorite_thing_in_the_world-@frankdegods.md"
-status: triaged
-platform: x
-format: thread
-creator: frankdegods
-signal_tier: tactical
-topics: [claude-code, content-creation, developer-tools]
-teleology: extract
-notebooklm_category: claude-code
-aliases: ["frankdegods - X Research Skill"]
-synopsis: "Thread about developing an X (Twitter) research skill for Claude Code, describing the author's favorite workflow for AI-powered content research and analysis."
-key_insights: ["X research skills automate content discovery and analysis workflows", "Skill development for social media research is a high-leverage automation opportunity", "Custom research skills compound in value as they accumulate domain knowledge"]
----
 ## Thread: X Research Skill Development
 
 ### Post 1 - Main Post

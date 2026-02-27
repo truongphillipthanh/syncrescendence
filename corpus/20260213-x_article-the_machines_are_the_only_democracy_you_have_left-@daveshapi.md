@@ -1,9 +1,3 @@
----
-url: https://x.com/DaveShapi/status/2022334611347439636
-author: David Shapiro (@DaveShapi)
-captured_date: 2026-02-13
----
-
 # The Machines Are the Only Democracy You Have Left
 
 (Description: A man in his mid-40s wearing a red shirt under an olive/khaki colored sweater sits at a desk in front of a microphone, positioned at an angle. Behind him is a wall with a geometric pattern of black hexagons on a light blue/gray background. To the right, there is blue LED lighting illuminating shelving with various items. The setting appears to be a professional recording or podcast studio. A video player shows 0:01 / 32:39 timestamp.)

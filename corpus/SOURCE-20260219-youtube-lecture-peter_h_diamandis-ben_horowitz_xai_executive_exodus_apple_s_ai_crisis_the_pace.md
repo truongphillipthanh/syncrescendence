@@ -1,39 +1,3 @@
----
-id: SOURCE-20260219-025
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "ben"
-  - "horowitz"
-  - "xai"
-  - "executive"
-  - "exodus"
-creator: "Peter H. Diamandis"
-guest: null
-title: "Ben Horowitz: xAI Executive Exodus, Apple's AI Crisis, The Pace of AI | EP #232"
-url: "https://www.youtube.com/watch?v=C1GLT9_tag0"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 51m 31s"
-has_transcript: no
-synopsis: "Ben Horowitz: xAI Executive Exodus, Apple's AI Crisis, The Pace of AI | EP #232 by Peter H. Diamandis. A lecture covering ben, horowitz, xai."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Ben Horowitz: xAI Executive"
-  - "Ben Horowitz: xAI Executive Exodus, Apple's"
----
-
 # Ben Horowitz: xAI Executive Exodus, Apple's AI Crisis, The Pace of AI | EP #232
 
 **Channel**: Peter H. Diamandis

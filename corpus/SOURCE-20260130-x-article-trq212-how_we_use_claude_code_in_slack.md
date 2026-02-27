@@ -1,30 +1,3 @@
----
-id: SOURCE-20260130-x-article-trq212-how_we_use_claude_code_in_slack
-platform: x
-format: article
-creator: trq212
-title: how we use claude code in slack
-status: triaged
-original_filename: "20260130-x_article-how_we_use_claude_code_in_slack-@trq212.md"
-url: https://x.com/trq212/status/2017350486756888917
-author: "Thariq (@trq212)"
-captured_date: 2026-02-04
-signal_tier: paradigm
-topics:
-  - claude-code
-  - developer-tools
-  - best-practices
-  - case-study
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Thariq - Claude Code in Slack at Anthropic"
-synopsis: "Anthropic engineer Thariq reveals how the Claude Code team uses Claude Code inside Slack for answering codebase questions, acting on feedback, and trying out prototypes. The ultimate source of truth is the codebase itself, and Claude Code can answer questions like 'when was this feature released?' via git access."
-key_insights:
-  - "At Anthropic, Claude Code in Slack serves as an always-available codebase oracle — answering questions from go-to-market, support, marketing, and product teams directly from source code."
-  - "The biggest difference between internal Anthropic usage and public usage is the degree of Slack-integrated collaborative workflows."
-  - "Claude Code's git access enables meta-questions about the codebase itself: release timing, code ownership, and feature history."
----
 # How we use Claude Code in Slack
 
 (Description: Screenshot of a Slack conversation thread showing Claude Code APP responding with "Perfect! I have successfully updated the VS Code IDE." The message includes buttons for "View Claude Code session" and "Create PR", with metadata "Worked in payment-service - Requested by @Nate")

@@ -1,24 +1,3 @@
----
-url: https://x.com/DimitrisPapail/status/2023080289828831349
-author: "Dimitris Papailiopoulos (@DimitrisPapail)"
-captured_date: 2026-02-15
-id: SOURCE-20260215-007
-original_filename: "20260215-x_article-the_golden_age_of_asking_questions-@dimitrispapail.md"
-status: triaged
-platform: x
-format: article
-creator: dimitrispapail
-signal_tier: paradigm
-topics: [claude-code, ai-engineering, research, philosophy]
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases: ["dimitrispapail - golden age of asking questions"]
-synopsis: "A researcher describes using Claude Code to run an end-to-end ML experiment autonomously - SSH into GPU instances, pushing code, monitoring jobs, queuing runs - reducing weeks of human effort to days. Argues the distance between a question and a first answer has collapsed, creating a 'magic box' for rapid research signal-finding."
-key_insights:
-  - "Claude Code handles full research infrastructure: SSH, GitHub, GPU job monitoring, ETA estimation - the researcher only checks in"
-  - "The distance between question and first answer is now near-zero, enabling rapid exploration of side ideas"
-  - "Quick signal-finding (does this idea have meat?) no longer requires taking up anyone else's time"
----
 # The Golden Age of Asking Questions
 A few days ago I wrote about waking up grumpy after watching Claude Code and Codex spend a full day (and night) iterating on a silly GSM8K idea about solving math problems with purely symbolic methods.
 That post was mostly about the dread I felt with the revelation of the automation afforded by the new gen of coding agents. This post is about leaning into it.

@@ -1,9 +1,3 @@
----
-url: https://x.com/mernit/status/2021324284875153544
-author: Eli Mernit (@mernit)
-captured_date: 2026-02-10
----
-
 # Your Company is a Filesystem
 
 ## Introduction

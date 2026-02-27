@@ -1,39 +1,3 @@
----
-id: SOURCE-20251206-905
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "just"
-  - "get"
-  - "nano"
-  - "banana"
-  - "video"
-creator: "Matt Wolfe"
-guest: null
-title: "Did We Just Get the Nano Banana of Video?"
-url: "https://www.youtube.com/watch?v=baz59aUgCDQ"
-date_published: 2025-12-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 38s"
-has_transcript: no
-synopsis: "Did We Just Get the Nano Banana of Video? by Matt Wolfe. A lecture covering just, get, nano."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Did We Just Get"
-  - "Did We Just Get the Nano"
----
-
 # Did We Just Get the Nano Banana of Video?
 
 **Channel**: Matt Wolfe

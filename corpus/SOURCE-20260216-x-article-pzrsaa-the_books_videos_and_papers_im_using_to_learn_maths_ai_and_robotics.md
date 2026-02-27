@@ -1,24 +1,3 @@
----
-url: https://x.com/pzrsaa/status/2023475024011706710
-author: "parsa (@pzrsaa)"
-captured_date: 2026-02-16
-id: SOURCE-20260216-016
-original_filename: "20260216-x_article-the_books_videos_and_papers_im_using_to_learn_maths_ai_and_robotics-@pzrsaa.md"
-status: triaged
-platform: x
-format: article
-creator: pzrsaa
-signal_tier: tactical
-topics: [education, ai-engineering, research]
-teleology: reference
-notebooklm_category: career-growth
-aliases: ["pzrsaa - self-taught AI robotics learning path"]
-synopsis: "A self-taught engineer (Google at 18, Tesla) shares their learning resources for pivoting into AI and robotics at Yaak. Covers maths (Kun's Programmer's Intro, 3Blue1Brown), AI (Goodfellow's Deep Learning, Karpathy's Zero to Hero), and key robotics papers (pi0, RT-2, ACT, Diffusion Policy)."
-key_insights:
-  - "Two math resources suffice for an engineer pivoting to AI: Programmer's Intro to Mathematics + 3Blue1Brown videos"
-  - "Key robotics papers: pi0 (vision-language-action), RT-2 (VLA models), ACT/ALOHA (action chunking with transformers)"
-  - "Autodidact approach: don't overwhelm yourself, learn enough math to get by, not to become a mathematician"
----
 # The Books, Videos and Papers I'm Using to Learn Maths, AI and Robotics
 last week I shared that I left Tesla to pivot into AI and robotics [@Yaak_AI](https://x.com/@Yaak_AI).
 naturally, people were curious as to how I'm planning to learn these new topics, because I've never formally studied them before. most of my work as a software engineer hasn't required any formal knowledge in maths, nor knowledge in AI to use LLMs.

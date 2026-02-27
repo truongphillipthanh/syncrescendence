@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-777
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "new"
-  - "growth"
-  - "playbook"
-  - "2026"
-  - "lovable"
-creator: "Lenny's Podcast"
-guest: null
-title: "The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year"
-url: "https://www.youtube.com/watch?v=6qAB6aUMIeA"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 31m 56s"
-has_transcript: no
-synopsis: "The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year by Lenny's Podcast. A tutorial covering new, growth, playbook."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The new AI growth"
-  - "The new AI growth playbook for"
----
-
 # The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year
 
 **Channel**: Lenny's Podcast

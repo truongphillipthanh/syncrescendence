@@ -1,39 +1,3 @@
----
-id: SOURCE-20251223-743
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "learn"
-  - "faster"
-  - "than"
-  - "people"
-  - "work"
-creator: "Justin Sung"
-guest: null
-title: "How To Learn Faster Than 99% of People At Work"
-url: "https://www.youtube.com/watch?v=ajQcvdWwc-A"
-date_published: 2025-12-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 32s"
-has_transcript: no
-synopsis: "How To Learn Faster Than 99% of People At Work by Justin Sung. A lecture covering learn, faster, than."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How To Learn Faster"
-  - "How To Learn Faster Than 99%"
----
-
 # How To Learn Faster Than 99% of People At Work
 
 **Channel**: Justin Sung

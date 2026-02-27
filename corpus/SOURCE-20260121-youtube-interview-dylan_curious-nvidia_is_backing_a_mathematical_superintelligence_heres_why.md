@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-412
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "backing"
-  - "mathematical"
-  - "superintelligence"
-  - "here"
-creator: "Dylan Curious"
-guest: null
-title: "Nvidia Is Backing a “Mathematical Superintelligence” — Here’s Why That Matters"
-url: "https://www.youtube.com/watch?v=d7l3qIWyZCs"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 22s"
-has_transcript: no
-synopsis: "Nvidia Is Backing a “Mathematical Superintelligence” — Here’s Why That Matters by Dylan Curious. A interview covering nvidia, backing, mathematical."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Nvidia Is Backing a"
-  - "Nvidia Is Backing a “Mathematical Superintelligence”"
----
-
 # Nvidia Is Backing a “Mathematical Superintelligence” — Here’s Why That Matters
 
 **Channel**: Dylan Curious

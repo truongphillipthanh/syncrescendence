@@ -1,23 +1,3 @@
----
-id: SOURCE-20260124-website-article-agentskills-overview_agent_skills_agentskills
-platform: website
-format: article
-creator: agentskills
-title: overview  agent skills agentskills
-status: triaged
-original_filename: 20260124-website-overview--agent-skills-agentskills.md
-url: https://agentskills.io/home
-domain: agentskills.io
-content_type: documentation
-captured_date: 2026-01-24
-signal_tier: tactical
-topics: ""
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Overview
 
 A simple, open format for giving agents new capabilities and expertise.

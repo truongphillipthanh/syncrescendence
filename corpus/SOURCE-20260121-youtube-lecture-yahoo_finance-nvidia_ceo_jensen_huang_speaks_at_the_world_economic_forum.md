@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-411
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "ceo"
-  - "jensen"
-  - "huang"
-  - "speaks"
-creator: "Yahoo Finance"
-guest: null
-title: "Nvidia CEO Jensen Huang speaks at the World Economic Forum"
-url: "https://www.youtube.com/watch?v=CxysykYyRG8"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 22s"
-has_transcript: no
-synopsis: "Nvidia CEO Jensen Huang speaks at the World Economic Forum by Yahoo Finance. A lecture covering nvidia, ceo, jensen."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Nvidia CEO Jensen Huang"
-  - "Nvidia CEO Jensen Huang speaks at"
----
-
 # Nvidia CEO Jensen Huang speaks at the World Economic Forum
 
 **Channel**: Yahoo Finance

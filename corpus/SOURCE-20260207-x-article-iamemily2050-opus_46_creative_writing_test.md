@@ -1,21 +1,3 @@
----
-url: https://x.com/IamEmily2050/status/2020087471707504992
-author: "Emily (@IamEmily2050)"
-captured_date: 2026-02-07
-id: SOURCE-20260207-008
-original_filename: "20260207-x_article-opus_46_creative_writing_test-@iamemily2050.md"
-status: triaged
-platform: x
-format: article
-creator: iamemily2050
-signal_tier: tactical
-topics: [llm-architecture, content-creation, opinion]
-teleology: extract
-notebooklm_category: ai-creative-media
-aliases: ["Emily - Opus 4.6 Creative Writing Test"]
-synopsis: "Tests Opus 4.6 creative writing capability with a specific flash fiction prompt (500-word second-person space station piece) and a formatting constraint: no em dashes anywhere, calling them 'an AI writing crutch.' Evaluates whether Opus 4.6 can produce quality creative writing without its most common stylistic crutch."
-key_insights: ["Em dashes are identified as a key AI writing tell — banning them forces more varied and natural punctuation choices", "Second-person flash fiction with ambiguous endings tests multiple creative writing capabilities simultaneously", "Formatting constraints (like em dash bans) are an effective way to push AI writing beyond default patterns"]
----
 # Opus 4.6 Creative Writing Test
 
 (Description: A dimly lit space station interior with industrial paneling, flickering ceiling panels, control systems, and a large observation window framing Earth below in white and blue. Text overlay reads "INVENTORY: The Final Hours on Station")

@@ -1,35 +1,3 @@
----
-id: SOURCE-20260203-206
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "moltbook"
-  - "matters"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Why Moltbook Matters"
-url: "https://www.youtube.com/watch?v=kRgQotgNwrw"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 22s"
-has_transcript: no
-synopsis: "Why Moltbook Matters by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering moltbook, matters."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why Moltbook Matters"
----
-
 # Why Moltbook Matters
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

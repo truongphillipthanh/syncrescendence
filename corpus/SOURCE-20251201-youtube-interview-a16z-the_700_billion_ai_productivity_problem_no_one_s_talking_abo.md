@@ -1,39 +1,3 @@
----
-id: SOURCE-20251201-964
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "700"
-  - "billion"
-  - "productivity"
-  - "problem"
-  - "one"
-creator: "a16z"
-guest: null
-title: "The $700 Billion AI Productivity Problem No One's Talking About"
-url: "https://www.youtube.com/watch?v=VMv00WR8EaA"
-date_published: 2025-12-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "57m 8s"
-has_transcript: no
-synopsis: "The $700 Billion AI Productivity Problem No One's Talking About by a16z. A interview covering 700, billion, productivity."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The $700 Billion AI"
-  - "The $700 Billion AI Productivity Problem"
----
-
 # The $700 Billion AI Productivity Problem No One's Talking About
 
 **Channel**: a16z

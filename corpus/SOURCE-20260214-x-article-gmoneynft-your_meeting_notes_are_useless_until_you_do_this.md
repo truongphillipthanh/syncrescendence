@@ -1,31 +1,3 @@
----
-url: https://x.com/gmoneyNFT/status/2022656894247034956
-author: "gmoney.eth (@gmoneyNFT)"
-captured_date: 2026-02-14
-id: SOURCE-20260214-003
-original_filename: "20260214-x_article-your_meeting_notes_are_useless_until_you_do_this-@gmoneyNFT.md"
-status: triaged
-platform: x
-format: article
-creator: gmoneynft
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - automation
-  - memory-management
-  - extended-thinking
-  - api
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Your Meeting Notes Are Useless Until You Do This"
-synopsis: "Your Meeting Notes Are Useless Until You Do This Introduction i've been recording meetings for the last couple of years. every call, every zoom, every sync. i always said i was going to do something with them. review them, extract the value, turn them into something useful. life gets in the way. i never do anything with them."
-key_insights:
-  - "i always said i was going to do something with them."
-  - "the recordings just pile up in some folder i never open."
-  - "all those good ideas, all those insights, all that ip - gone."
----
 # Your Meeting Notes Are Useless Until You Do This
 (Description: A dark blue gradient background with large golden "6" numerals at the top. Below reads: "i recorded meetings for years | and did nothing with them" in white text. Smaller text beneath states "until i built a system that turns transcripts into content automatically" and "STEP BY STEP GUIDE" in accent color.)
 ## Introduction

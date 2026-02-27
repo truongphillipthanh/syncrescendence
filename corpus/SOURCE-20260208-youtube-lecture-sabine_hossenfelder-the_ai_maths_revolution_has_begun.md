@@ -1,37 +1,3 @@
----
-id: SOURCE-20260208-109
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "maths"
-  - "revolution"
-  - "begun"
-creator: "Sabine Hossenfelder"
-guest: null
-title: "The AI Maths Revolution Has Begun"
-url: "https://www.youtube.com/watch?v=IKjfrFMjz08"
-date_published: 2026-02-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 15s"
-has_transcript: no
-synopsis: "The AI Maths Revolution Has Begun by Sabine Hossenfelder. A lecture covering maths, revolution, begun."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The AI Maths Revolution"
-  - "The AI Maths Revolution Has Begun"
----
-
 # The AI Maths Revolution Has Begun
 
 **Channel**: Sabine Hossenfelder

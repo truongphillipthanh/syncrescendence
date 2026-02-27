@@ -1,38 +1,3 @@
----
-id: SOURCE-20260107-582
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "building"
-  - "agents"
-  - "speak"
-  - "other"
-creator: "Google Cloud Tech"
-guest: null
-title: "Building AI agents that speak to each other"
-url: "https://www.youtube.com/watch?v=_79txIhM_tQ"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3m 13s"
-has_transcript: no
-synopsis: "Building AI agents that speak to each other by Google Cloud Tech. A lecture covering building, agents, speak."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Building AI agents that"
-  - "Building AI agents that speak to"
----
-
 # Building AI agents that speak to each other
 
 **Channel**: Google Cloud Tech

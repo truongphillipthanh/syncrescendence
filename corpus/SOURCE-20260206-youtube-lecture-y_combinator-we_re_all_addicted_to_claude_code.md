@@ -1,37 +1,3 @@
----
-id: SOURCE-20260206-155
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "addicted"
-  - "claude"
-  - "code"
-creator: "Y Combinator"
-guest: null
-title: "We're All Addicted To Claude Code"
-url: "https://www.youtube.com/watch?v=qwmmWzPnhog"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "46m"
-has_transcript: no
-synopsis: "We're All Addicted To Claude Code by Y Combinator. A lecture covering addicted, claude, code."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "We're All Addicted To"
-  - "We're All Addicted To Claude Code"
----
-
 # We're All Addicted To Claude Code
 
 **Channel**: Y Combinator

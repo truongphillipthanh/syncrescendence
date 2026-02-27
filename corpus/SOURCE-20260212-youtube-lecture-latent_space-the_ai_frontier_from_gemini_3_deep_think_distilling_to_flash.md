@@ -1,39 +1,3 @@
----
-id: SOURCE-20260212-098
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "frontier"
-  - "gemini"
-  - "deep"
-  - "think"
-  - "distilling"
-creator: "Latent Space"
-guest: null
-title: "The AI Frontier: from Gemini 3 Deep Think distilling to Flash — Jeff Dean"
-url: "https://www.youtube.com/watch?v=F_1oDPWxpFQ"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 23m 31s"
-has_transcript: no
-synopsis: "The AI Frontier: from Gemini 3 Deep Think distilling to Flash — Jeff Dean by Latent Space. A lecture covering frontier, gemini, deep."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The AI Frontier: from"
-  - "The AI Frontier: from Gemini 3"
----
-
 # The AI Frontier: from Gemini 3 Deep Think distilling to Flash — Jeff Dean
 
 **Channel**: Latent Space

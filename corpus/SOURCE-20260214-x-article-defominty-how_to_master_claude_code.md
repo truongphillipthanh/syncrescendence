@@ -1,32 +1,3 @@
----
-url: https://x.com/DeFiMinty/status/2022470560505090071
-author: "Minty (@DeFiMinty)"
-captured_date: 2026-02-13
-id: SOURCE-20260214-002
-original_filename: "20260214-x_article-how_to_master_claude_code-@defominty.md"
-status: triaged
-platform: x
-format: article
-creator: defominty
-signal_tier: tactical
-topics:
-  - claude-code
-  - ai-workflow
-  - context-management
-  - automation
-  - memory-management
-  - api
-  - token-management
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How to Master Claude Code"
-synopsis: "How to Master Claude Code I am no longer treating Claude Code like a chatbot but as an actual assistant that handles whatever I give it. Here is everything I learned through the process so you can supercharge your AI workflow. The Fresh Context Problem Every Claude Code session starts blank."
-key_insights:
-  - "Your project structure doesn't change day to day, but everything else does, including lessons you've learned, sessions you've had, context about ongoing work."
-  - "Keep secrets out of these files since they live in your codebase."
-  - "Throughout the session, whenever I learn something worth keeping, I tell it to save memory and describe what to save."
----
 # How to Master Claude Code
 (Description: Cinematic image of a modern high-speed train in motion with motion blur effect, teal and orange lighting against a modern tunnel setting.)
 I am no longer treating Claude Code like a chatbot but as an actual assistant that handles whatever I give it. Here is everything I learned through the process so you can supercharge your AI workflow.

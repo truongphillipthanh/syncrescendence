@@ -1,39 +1,3 @@
----
-id: SOURCE-20260118-439
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "just"
-  - "added"
-  - "these"
-  - "features"
-creator: "Ray Amjad"
-guest: null
-title: "Anthropic Just Added These Features to Claude Code"
-url: "https://www.youtube.com/watch?v=aF4QAHbNDrA"
-date_published: 2026-01-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 47s"
-has_transcript: no
-synopsis: "Anthropic Just Added These Features to Claude Code by Ray Amjad. A lecture covering anthropic, just, added."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic Just Added These"
-  - "Anthropic Just Added These Features to"
----
-
 # Anthropic Just Added These Features to Claude Code
 
 **Channel**: Ray Amjad

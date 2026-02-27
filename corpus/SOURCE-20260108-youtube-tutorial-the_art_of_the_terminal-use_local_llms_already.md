@@ -1,37 +1,3 @@
----
-id: SOURCE-20260108-548
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "use"
-  - "local"
-  - "llms"
-  - "already"
-creator: "The Art Of The Terminal"
-guest: null
-title: "Use Local LLMs Already!"
-url: "https://www.youtube.com/watch?v=pfxgLX-MxMY"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "56m 31s"
-has_transcript: no
-synopsis: "Use Local LLMs Already! by The Art Of The Terminal. A tutorial covering use, local, llms."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Use Local LLMs Already!"
----
-
 # Use Local LLMs Already!
 
 **Channel**: The Art Of The Terminal

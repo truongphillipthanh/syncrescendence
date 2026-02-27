@@ -1,32 +1,3 @@
----
-url: https://x.com/jsongrad/status/2021957085043232890
-author: "Jason Grad (@jsongrad)"
-captured_date: 2026-02-20
-id: SOURCE-20260212-003
-original_filename: "20260212-x_article-clawpod_use_an_unblockable_swarm_of_145000_openclaw_agents_to_surf_the_open_web-@jsongrad.md"
-status: triaged
-platform: x
-format: article
-creator: jsongrad
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - gpt
-  - api
-  - product-development
-  - token-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "ClawPod - Use an Unblockable Swarm of 145,000 OpenClaw Agents to Surf the Open W"
-  - "ClawPod  Use an Unblockable Swarm of 145000 OpenClaw Agents to Surf the Open Web"
-synopsis: "ClawPod - Use an Unblockable Swarm of 145,000 OpenClaw Agents to Surf the Open Web Overview ClawPod is an OpenClaw skill that hooks your agent's browser or unblocking API into @joinmassive's residential proxy network. Your requests route through a swarm of real residential IPs, so every site sees a real user, not a bot."
-key_insights:
-  - "Your requests route through a swarm of real residential IPs, so every site sees a real user, not a bot."
-  - "Installation **OPENCLAW SKILL** Install from ClawHub or ask your OpenClaw agent: "install clawpod" The Problem with Agent Web Access Every OpenClaw agent hitting the web uses your IP address."
-  - "One IP making hundreds of requests per hour looks like a bot, because it is one."
----
 # ClawPod - Use an Unblockable Swarm of 145,000 OpenClaw Agents to Surf the Open Web
 ## Overview
 (Description: Featured image showing the ClawPod logo—an illustration of an orange crustacean surfing on a surfboard against a dark background—with white text reading "ClawPod" and gray text to the right stating "Use an unblockable swarm of 145,000 OpenClaw agents to surf the open web". Below are two dark-bordered labels: "geotargeting" and "session management".)

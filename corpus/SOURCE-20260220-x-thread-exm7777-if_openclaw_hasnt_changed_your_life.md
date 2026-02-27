@@ -1,32 +1,3 @@
----
-url: https://x.com/EXM7777/status/2024869672978710731
-author: "Machina (@EXM7777)"
-captured_date: 2026-02-20
-id: SOURCE-20260220-011
-original_filename: "20260220-x_thread-if_openclaw_hasnt_changed_your_life-@exm7777.md"
-status: triaged
-platform: x
-format: thread
-creator: exm7777
-signal_tier: tactical
-topics:
-  - ai-agents
-  - agentic-development
-  - ai-workflow
-  - prompting
-  - context-management
-  - automation
-  - memory-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw How to Get Insane Results from the Lobster"
-synopsis: "OpenClaw: How to Get Insane Results from the Lobster if openclaw hasn't changed your life yet, that's a skill issue... here's how to get insane results from the lobster: 1. Your main agent prompt is everything don't just tell it what to do... engineer it like you're building a co-founder you want to talk to every single day this is where most people half-ass it and wonder why their outputs suck 2."
-key_insights:
-  - "OpenClaw: How to Get Insane Results from the Lobster if openclaw hasn't changed your life yet, that's a skill issue..."
-  - "here's how to get insane results from the lobster: 1."
-  - "Your main agent prompt is everything don't just tell it what to do..."
----
 # OpenClaw: How to Get Insane Results from the Lobster
 if openclaw hasn't changed your life yet, that's a skill issue... here's how to get insane results from the lobster:
 ## 1. Your main agent prompt is everything

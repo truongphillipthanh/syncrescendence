@@ -1,39 +1,3 @@
----
-id: SOURCE-20260130-223
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "program"
-  - "computer"
-  - "notes"
-  - "code"
-  - "obsidian"
-creator: "Tony Huang"
-guest: null
-title: "Program Your Computer with Notes, Not Code | Obsidian + AI Agents"
-url: "https://www.youtube.com/watch?v=VLbH6Vx2Ww8"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 59s"
-has_transcript: no
-synopsis: "Program Your Computer with Notes, Not Code | Obsidian + AI Agents by Tony Huang. A lecture covering program, computer, notes."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: agents-orchestration
-aliases:
-  - "Program Your Computer with"
-  - "Program Your Computer with Notes, Not"
----
-
 # Program Your Computer with Notes, Not Code | Obsidian + AI Agents
 
 **Channel**: Tony Huang

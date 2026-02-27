@@ -1,38 +1,3 @@
----
-id: SOURCE-20251210-879
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "a2a"
-  - "mcp"
-  - "explained"
-  - "adk"
-creator: "Google for Developers"
-guest: null
-title: "A2A and MCP explained: with ADK"
-url: "https://www.youtube.com/watch?v=W3h_-eCcmqc"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 53s"
-has_transcript: no
-synopsis: "A2A and MCP explained: with ADK by Google for Developers. A tutorial covering a2a, mcp, explained."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "A2A and MCP explained:"
-  - "A2A and MCP explained: with ADK"
----
-
 # A2A and MCP explained: with ADK
 
 **Channel**: Google for Developers

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-652
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "matt"
-  - "fitzpatrick"
-  - "who"
-  - "wins"
-  - "data"
-creator: "20VC with Harry Stebbings"
-guest: null
-title: "Matt Fitzpatrick: Who Wins the Data Labelling Race & Why Al Needs Forward-Deployed Engineers"
-url: "https://www.youtube.com/watch?v=9bzeQRGtA-4"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 25m 57s"
-has_transcript: no
-synopsis: "Matt Fitzpatrick: Who Wins the Data Labelling Race & Why Al Needs Forward-Deployed Engineers by 20VC with Harry Stebbings. A lecture covering matt, fitzpatrick, who."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Matt Fitzpatrick: Who Wins"
-  - "Matt Fitzpatrick: Who Wins the Data"
----
-
 # Matt Fitzpatrick: Who Wins the Data Labelling Race & Why Al Needs Forward-Deployed Engineers
 
 **Channel**: 20VC with Harry Stebbings

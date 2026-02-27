@@ -1,39 +1,3 @@
----
-id: SOURCE-20260114-463
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ricursive"
-  - "intelligence"
-  - "founders"
-  - "using"
-  - "shape"
-creator: "Sequoia Capital"
-guest: null
-title: "How Ricursive Intelligence’s Founders are Using AI to Shape The Future of Chip Design"
-url: "https://www.youtube.com/watch?v=55LT52eVArM"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "37m"
-has_transcript: no
-synopsis: "How Ricursive Intelligence’s Founders are Using AI to Shape The Future of Chip Design by Sequoia Capital. A lecture covering ricursive, intelligence, founders."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: vibe-coding
-aliases:
-  - "How Ricursive Intelligence’s Founders"
-  - "How Ricursive Intelligence’s Founders are Using"
----
-
 # How Ricursive Intelligence’s Founders are Using AI to Shape The Future of Chip Design
 
 **Channel**: Sequoia Capital

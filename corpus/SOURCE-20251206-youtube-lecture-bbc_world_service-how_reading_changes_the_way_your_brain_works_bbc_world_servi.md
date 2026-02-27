@@ -1,39 +1,3 @@
----
-id: SOURCE-20251206-883
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "reading"
-  - "changes"
-  - "way"
-  - "brain"
-  - "works"
-creator: "BBC World Service"
-guest: null
-title: "How reading changes the way your brain works - BBC World Service"
-url: "https://www.youtube.com/watch?v=X1L1Hd3xfrU"
-date_published: 2025-12-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "5m 55s"
-has_transcript: no
-synopsis: "How reading changes the way your brain works - BBC World Service by BBC World Service. A lecture covering reading, changes, way."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "How reading changes the"
-  - "How reading changes the way your"
----
-
 # How reading changes the way your brain works - BBC World Service
 
 **Channel**: BBC World Service

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-006
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "days"
-  - "openclaw"
-  - "hype"
-  - "reality"
-  - "actually"
-creator: "VelvetShark"
-guest: null
-title: "50 days with OpenClaw: The hype, the reality & what actually broke"
-url: "https://www.youtube.com/watch?v=NZ1mKAWJPr4"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "47m 58s"
-has_transcript: no
-synopsis: "50 days with OpenClaw: The hype, the reality & what actually broke by VelvetShark. A tutorial covering days, openclaw, hype."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "50 days with OpenClaw:"
-  - "50 days with OpenClaw: The hype,"
----
-
 # 50 days with OpenClaw: The hype, the reality & what actually broke
 
 **Channel**: VelvetShark

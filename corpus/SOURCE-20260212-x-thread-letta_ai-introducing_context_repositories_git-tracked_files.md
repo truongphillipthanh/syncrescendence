@@ -1,32 +1,3 @@
----
-url: https://x.com/Letta_AI/status/2022082571988058536
-author: "Letta (@Letta_AI)"
-captured_date: 2026-02-14
-id: SOURCE-20260212-015
-original_filename: "20260212-x_thread-introducing_context_repositories_git-tracked_files-@Letta_AI.md"
-status: triaged
-platform: x
-format: thread
-creator: letta_ai
-signal_tier: tactical
-topics:
-  - prompting
-  - context-management
-  - git
-  - memory-management
-  - codex
-  - rag
-  - token-management
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Introducing Context Repositories"
-synopsis: "Introducing Context Repositories **@Letta_AI • Feb 12, 2026 • 2:57 PM** Introducing Context Repositories: git-tracked files for storing agent context Agents can now write scripts and spawn memory subagents to programmatically restructure prior context and learn in token-space."
-key_insights:
-  - "Note that Claude Code doesn't support progressive memory disclosure (outside of claude\\.md), unlike Letta Code."
-  - "--- **@Letta_AI • Feb 12, 2026** --- **@Letta_AI • Feb 12, 2026** (Reply to @bensenescu) Not yet, but we'll turn it on by default soon 👾 ---."
-  - "Explores introducing context repositories."
----
 # Introducing Context Repositories
 
 **@Letta_AI • Feb 12, 2026 • 2:57 PM**

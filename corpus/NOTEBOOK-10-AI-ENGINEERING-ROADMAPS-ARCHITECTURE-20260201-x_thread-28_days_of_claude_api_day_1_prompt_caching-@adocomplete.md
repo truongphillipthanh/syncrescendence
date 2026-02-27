@@ -1,9 +1,3 @@
----
-url: https://x.com/adocomplete/status/2018041429361320443
-author: Ado (@adocomplete)
-captured_date: 2026-02-01
----
-
 # 28 Days of Claude API - Day 1 - Prompt Caching
 
 Sending the same prompt over and over again?

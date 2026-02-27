@@ -1,16 +1,3 @@
----
-id: SOURCE-20250623-youtube-interview-brainmind-blaise_aguera_y_arcas
-title: "Five New Paradigms of Intelligence"
-creator: BrainMind
-guest: Blaise Aguera y Arcas
-date_published: 2025-06-23
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: [Intelligence, Wisdom]
-integration_targets: [CANON-30000-INTELLIGENCE, CANON-30410-COGNITIVE_ARCHITECTURE, CANON-35210-METAHUMANISM]
----
-
 # Five New Paradigms of Intelligence
 
 ## Executive Summary

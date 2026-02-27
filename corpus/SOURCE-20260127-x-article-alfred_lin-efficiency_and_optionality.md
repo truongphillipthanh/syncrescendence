@@ -1,22 +1,3 @@
----
-id: SOURCE-20260127-x-article-alfred_lin-efficiency_and_optionality
-platform: x
-format: article
-creator: alfred_lin
-title: efficiency and optionality
-status: triaged
-original_filename: "20260127-x_article-efficiency_and_optionality-@alfred_lin.md"
-url: https://x.com/Alfred_Lin/status/2016137527254761963
-author: "Alfred Lin (@Alfred_Lin)"
-captured_date: 2026-01-27
-signal_tier: strategic
-topics: ""
-teleology: strategize
-notebooklm_category: career-growth
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Efficiency AND Optionality
 
 ![Image](https://x.com/Alfred_Lin/status/2016137527254761963/media/2016135929161809920) 

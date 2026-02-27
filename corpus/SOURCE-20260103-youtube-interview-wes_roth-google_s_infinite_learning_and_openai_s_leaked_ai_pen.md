@@ -1,39 +1,3 @@
----
-id: SOURCE-20260103-647
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "google"
-  - "infinite"
-  - "learning"
-  - "openai"
-  - "leaked"
-creator: "Wes Roth"
-guest: null
-title: "Google's "Infinite Learning" and OpenAI's leaked "AI Pen""
-url: "https://www.youtube.com/watch?v=yCYGNXNKoqw"
-date_published: 2026-01-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 5s"
-has_transcript: no
-synopsis: "Google's "Infinite Learning" and OpenAI's leaked "AI Pen" by Wes Roth. A interview covering google, infinite, learning."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google's "Infinite Learning" and"
-  - "Google's "Infinite Learning" and OpenAI's leaked"
----
-
 # Google's "Infinite Learning" and OpenAI's leaked "AI Pen"
 
 **Channel**: Wes Roth

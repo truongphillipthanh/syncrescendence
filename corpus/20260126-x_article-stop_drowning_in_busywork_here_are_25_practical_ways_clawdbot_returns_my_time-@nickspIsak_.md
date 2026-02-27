@@ -1,9 +1,3 @@
----
-url: https://x.com/NickSpisak_/status/2015853310310228313
-author: Nick Spisak (@NickSpisak_)
-captured_date: 2026-01-26
----
-
 # Stop Drowning in Busywork. Here are 25 Practical Ways Clawdbot Returns My Time
 
 (Description: Hand-written style text on a cream-colored background reading "clawdbot" and "25 practical uses" with a red checkmark in the top right corner)

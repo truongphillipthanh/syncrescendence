@@ -1,38 +1,3 @@
----
-id: SOURCE-20260119-433
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "state"
-  - "industry"
-  - "openai"
-  - "podcast"
-creator: "OpenAI"
-guest: null
-title: "State of the AI industry — the OpenAI Podcast Ep. 12"
-url: "https://www.youtube.com/watch?v=Z3D2UmAesN4"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 42s"
-has_transcript: no
-synopsis: "State of the AI industry — the OpenAI Podcast Ep. 12 by OpenAI. A lecture covering state, industry, openai."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "State of the AI"
-  - "State of the AI industry —"
----
-
 # State of the AI industry — the OpenAI Podcast Ep. 12
 
 **Channel**: OpenAI

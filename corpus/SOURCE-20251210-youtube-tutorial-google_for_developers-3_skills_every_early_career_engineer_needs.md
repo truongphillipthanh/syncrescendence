@@ -1,39 +1,3 @@
----
-id: SOURCE-20251210-880
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "skills"
-  - "early"
-  - "career"
-  - "engineer"
-  - "needs"
-creator: "Google for Developers"
-guest: null
-title: "3 skills every early-career engineer needs"
-url: "https://www.youtube.com/watch?v=P0flg_P8TK0"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 32s"
-has_transcript: no
-synopsis: "3 skills every early-career engineer needs by Google for Developers. A tutorial covering skills, early, career."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "3 skills every early-career"
-  - "3 skills every early-career engineer needs"
----
-
 # 3 skills every early-career engineer needs
 
 **Channel**: Google for Developers

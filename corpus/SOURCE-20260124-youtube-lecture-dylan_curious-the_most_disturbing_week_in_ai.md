@@ -1,37 +1,3 @@
----
-id: SOURCE-20260124-346
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "most"
-  - "disturbing"
-  - "week"
-creator: "Dylan Curious"
-guest: null
-title: "The Most Disturbing Week in AI"
-url: "https://www.youtube.com/watch?v=bXHkbA3kFAY"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 12s"
-has_transcript: no
-synopsis: "The Most Disturbing Week in AI by Dylan Curious. A lecture covering most, disturbing, week."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Most Disturbing Week"
-  - "The Most Disturbing Week in AI"
----
-
 # The Most Disturbing Week in AI
 
 **Channel**: Dylan Curious

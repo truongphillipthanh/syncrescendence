@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-003
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "pro"
-  - "beginners"
-  - "new"
-  - "features"
-creator: "TheAIGRID"
-guest: null
-title: "Gemini 3.1 Pro For Beginners - All New Features Explained (Gemini 3.1 Pro Tutorial)"
-url: "https://www.youtube.com/watch?v=1Sxxscn4Vfk"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 43s"
-has_transcript: no
-synopsis: "Gemini 3.1 Pro For Beginners - All New Features Explained (Gemini 3.1 Pro Tutorial) by TheAIGRID. A tutorial covering gemini, pro, beginners."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3.1 Pro For"
-  - "Gemini 3.1 Pro For Beginners -"
----
-
 # Gemini 3.1 Pro For Beginners - All New Features Explained (Gemini 3.1 Pro Tutorial)
 
 **Channel**: TheAIGRID

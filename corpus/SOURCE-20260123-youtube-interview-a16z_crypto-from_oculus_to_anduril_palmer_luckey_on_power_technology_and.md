@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-344
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "oculus"
-  - "anduril"
-  - "palmer"
-  - "luckey"
-  - "power"
-creator: "a16z crypto"
-guest: null
-title: "From Oculus to Anduril: Palmer Luckey on Power, Technology, and the Future"
-url: "https://www.youtube.com/watch?v=qxPE7dvjVOk"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 1m 21s"
-has_transcript: no
-synopsis: "From Oculus to Anduril: Palmer Luckey on Power, Technology, and the Future by a16z crypto. A interview covering oculus, anduril, palmer."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "From Oculus to Anduril:"
-  - "From Oculus to Anduril: Palmer Luckey"
----
-
 # From Oculus to Anduril: Palmer Luckey on Power, Technology, and the Future
 
 **Channel**: a16z crypto

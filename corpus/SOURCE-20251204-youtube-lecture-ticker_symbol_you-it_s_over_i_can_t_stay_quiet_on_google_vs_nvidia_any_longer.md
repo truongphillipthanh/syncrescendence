@@ -1,39 +1,3 @@
----
-id: SOURCE-20251204-909
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "over"
-  - "stay"
-  - "quiet"
-  - "google"
-  - "nvidia"
-creator: "Ticker Symbol: YOU"
-guest: null
-title: "IT'S OVER! I Can't Stay Quiet on GOOGLE vs NVIDIA Any Longer"
-url: "https://www.youtube.com/watch?v=ZZ2nWg1QhR4"
-date_published: 2025-12-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 18s"
-has_transcript: no
-synopsis: "IT'S OVER! I Can't Stay Quiet on GOOGLE vs NVIDIA Any Longer by Ticker Symbol: YOU. A lecture covering over, stay, quiet."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "IT'S OVER! I Can't"
-  - "IT'S OVER! I Can't Stay Quiet"
----
-
 # IT'S OVER! I Can't Stay Quiet on GOOGLE vs NVIDIA Any Longer
 
 **Channel**: Ticker Symbol: YOU

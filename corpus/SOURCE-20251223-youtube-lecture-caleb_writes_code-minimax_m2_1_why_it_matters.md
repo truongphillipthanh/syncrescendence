@@ -1,36 +1,3 @@
----
-id: SOURCE-20251223-740
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "minimax"
-  - "matters"
-creator: "Caleb Writes Code"
-guest: null
-title: "MiniMax M2.1, Why it matters"
-url: "https://www.youtube.com/watch?v=nqZZTlo1y5g"
-date_published: 2025-12-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "4m 50s"
-has_transcript: no
-synopsis: "MiniMax M2.1, Why it matters by Caleb Writes Code. A lecture covering minimax, matters."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "MiniMax M2.1, Why it"
-  - "MiniMax M2.1, Why it matters"
----
-
 # MiniMax M2.1, Why it matters
 
 **Channel**: Caleb Writes Code

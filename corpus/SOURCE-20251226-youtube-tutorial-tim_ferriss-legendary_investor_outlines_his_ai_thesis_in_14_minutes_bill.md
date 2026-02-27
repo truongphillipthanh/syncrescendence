@@ -1,39 +1,3 @@
----
-id: SOURCE-20251226-665
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "legendary"
-  - "investor"
-  - "outlines"
-  - "thesis"
-  - "minutes"
-creator: "Tim Ferriss"
-guest: null
-title: "Legendary Investor Outlines His AI Thesis in 14 Minutes — Bill Gurley"
-url: "https://www.youtube.com/watch?v=D0230eZsRFw"
-date_published: 2025-12-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 18s"
-has_transcript: no
-synopsis: "Legendary Investor Outlines His AI Thesis in 14 Minutes — Bill Gurley by Tim Ferriss. A tutorial covering legendary, investor, outlines."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Legendary Investor Outlines His"
-  - "Legendary Investor Outlines His AI Thesis"
----
-
 # Legendary Investor Outlines His AI Thesis in 14 Minutes — Bill Gurley
 
 **Channel**: Tim Ferriss

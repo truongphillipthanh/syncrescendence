@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-357
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "alex"
-  - "connor"
-  - "god"
-  - "consciousness"
-  - "changing"
-creator: "Unsolicited advice"
-guest: null
-title: "Alex O'Connor on God, consciousness, and changing his mind"
-url: "https://www.youtube.com/watch?v=_9OsTxOtOYk"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 58m 46s"
-has_transcript: no
-synopsis: "Alex O'Connor on God, consciousness, and changing his mind by Unsolicited advice. A tutorial covering alex, connor, god."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Alex O'Connor on God,"
-  - "Alex O'Connor on God, consciousness, and"
----
-
 # Alex O'Connor on God, consciousness, and changing his mind
 
 **Channel**: Unsolicited advice

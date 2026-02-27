@@ -1,19 +1,3 @@
----
-kind: clarescence
-id: CLARESCENCE-2026-02-11-mba-commander-init
-title: "MBA Commander Initialization: MCP + Cockpit + Memory"
-date: 2026-02-11
-status: executed
-fidelity: tactical
-agent: commander
-passes: 3
-decision_atoms: 4
-linear: SYN-35
-predecessors:
-  - CLARESCENCE-2026-02-09-mba-ajna-setup.md
-  - RESULT-mba-commander-20260211.md
----
-
 # CLARESCENCE: MBA Commander Initialization
 
 **Date**: 2026-02-11

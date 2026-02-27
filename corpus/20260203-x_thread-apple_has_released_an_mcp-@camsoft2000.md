@@ -1,9 +1,3 @@
----
-url: https://x.com/camsoft2000/status/2018756550802780668
-author: camsoft2000
-captured_date: 2026-02-04
----
-
 # Apple MCP Server Release for Xcode 26.3 - Thread Discussion
 
 ## Post 1 - Feb 3, 2026 (10:40 AM)

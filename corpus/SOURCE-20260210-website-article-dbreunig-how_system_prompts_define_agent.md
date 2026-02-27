@@ -1,36 +1,3 @@
----
-url: https://www.dbreunig.com/2026/02/10/system-prompts-define-the-agent-as-much-as-the-model.html
-title: How System Prompts Define Agent Behavior
-domain: dbreunig.com
-author: D. Breunig with Srihari Sriraman
-published_date: 2026-02-10
-captured_date: 2026-02-20
-content_type: article
-id: SOURCE-20260210-001
-original_filename: 20260210-website-how_system_prompts_define_agent--dbreunig.md
-status: triaged
-platform: website
-format: article
-creator: dbreunig
-signal_tier: strategic
-topics:
-  - ai-agents
-  - prompting
-  - context-management
-  - cursor
-  - codex
-  - gemini
-  - architecture
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "How System Prompts Define Agent Behavior"
-synopsis: "How System Prompts Define Agent Behavior **Tags:** AI, AGENTS, SYSTEM PROMPTS, CONTEXT, COLLABORATION, CONTEXT ENGINEERING This post was co-authored with [Srihari Sriraman]( --- Coding agents are fascinating to study. They help us build software in a new way, while themselves exemplifying a novel approach to architecting and implementing software."
-key_insights:
-  - "They help us build software in a new way, while themselves exemplifying a novel approach to architecting and implementing software."
-  - "A critical part of this harness is the system prompt, the baseline instructions for the application."
-  - "The system prompt is always present, defining a core set of behaviors, strategies, and tone."
----
 # How System Prompts Define Agent Behavior
 **Tags:** AI, AGENTS, SYSTEM PROMPTS, CONTEXT, COLLABORATION, CONTEXT ENGINEERING
 This post was co-authored with [Srihari Sriraman](https://blog.nilenso.com/blog/2026/02/10/how-system-prompts-define-agent-behaviiour/)

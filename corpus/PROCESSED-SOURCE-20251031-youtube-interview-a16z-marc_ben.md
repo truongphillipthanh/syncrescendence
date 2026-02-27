@@ -1,16 +1,3 @@
----
-id: SOURCE-20251031-youtube-interview-a16z-marc_ben
-title: "State of AI - Runtime Keynote"
-creator: a16z
-guest: Marc Andreessen, Ben Horowitz
-date_published: 2025-10-31
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-00004-EVOLUTION, CANON-30000-INTELLIGENCE]
----
-
 # State of AI - Runtime Keynote
 
 ## Executive Summary

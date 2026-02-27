@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-350
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "notebooklm"
-  - "just"
-  - "got"
-  - "10x"
-  - "better"
-creator: "Jack Roberts"
-guest: null
-title: "NotebookLM just got 10X better (AntiGravity)"
-url: "https://www.youtube.com/watch?v=HRDYY-qSDuU"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 19s"
-has_transcript: no
-synopsis: "NotebookLM just got 10X better (AntiGravity) by Jack Roberts. A lecture covering notebooklm, just, got."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "NotebookLM just got 10X"
-  - "NotebookLM just got 10X better (AntiGravity)"
----
-
 # NotebookLM just got 10X better (AntiGravity)
 
 **Channel**: Jack Roberts

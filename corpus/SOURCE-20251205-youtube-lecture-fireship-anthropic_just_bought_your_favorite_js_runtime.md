@@ -1,39 +1,3 @@
----
-id: SOURCE-20251205-910
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "just"
-  - "bought"
-  - "favorite"
-  - "runtime"
-creator: "Fireship"
-guest: null
-title: "Anthropic just bought your favorite JS runtime..."
-url: "https://www.youtube.com/watch?v=5JMiNsV7P3Y"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "4m 3s"
-has_transcript: no
-synopsis: "Anthropic just bought your favorite JS runtime... by Fireship. A lecture covering anthropic, just, bought."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic just bought your"
-  - "Anthropic just bought your favorite JS"
----
-
 # Anthropic just bought your favorite JS runtime...
 
 **Channel**: Fireship

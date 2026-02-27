@@ -1,39 +1,3 @@
----
-id: SOURCE-20260102-649
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "failure"
-  - "mode"
-  - "nobody"
-  - "warned"
-  - "prevent"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The AI Failure Mode Nobody Warned You About (And how to prevent it from happening)"
-url: "https://www.youtube.com/watch?v=T74uZgfu6mU"
-date_published: 2026-01-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 45s"
-has_transcript: no
-synopsis: "The AI Failure Mode Nobody Warned You About (And how to prevent it from happening) by AI News & Strategy Daily | Nate B Jones. A tutorial covering failure, mode, nobody."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The AI Failure Mode"
-  - "The AI Failure Mode Nobody Warned"
----
-
 # The AI Failure Mode Nobody Warned You About (And how to prevent it from happening)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

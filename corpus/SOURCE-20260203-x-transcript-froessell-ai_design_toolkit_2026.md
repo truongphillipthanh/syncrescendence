@@ -1,32 +1,3 @@
----
-id: SOURCE-undated-011
-title: Ai Design Toolkit 2026
-platform: x
-format: transcript
-creator: froessell
-date_published: "2026-02-03"
-status: triaged
-url: https://x.com/froessell/status/2018621691006439603
-original_filename: research/x-bookmarks/TRANS-froessell-ai_design_toolkit_2026.md
-aliases:
-  - "AI Design Toolkit 2026"
-  - "Frederik Design Workflow"
-teleology: extract
-notebooklm_category: ai-creative-media
-synopsis: "Senior product designer breaks down AI design tools across a 6-phase creative workflow (Ideation, Iteration, Build, Polish, Content, Motion). Key finding: no single tool works for everything — AI handles ~60% of design, but the last 40% (taste, details, 'why does this feel right') remains human + Figma territory."
-key_insights:
-  - "Right tool at right phase beats one-tool-fits-all: v0/Aura for quick concepts, Figma for iteration, specialized tools for polish/content/motion"
-  - "AI gets 60% of design there — the last 40% requiring taste and 'why does this feel right' judgment remains a human differentiator"
-  - "Side project workflows (greenfield, experimental) benefit far more from AI than enterprise design work with established systems and stakeholder alignment"
-topics:
-  - design
-  - ai-creative-media
-  - developer-tools
-  - best-practices
-  - tutorial
-signal_tier: tactical
----
-
 # My AI Design Toolkit: What Actually Works For Me in 2026
 > **Author**: ✌︎ frederik ✌︎ (@froessell) — senior product designer at large ecommerce company
 > **Date**: February 3, 2026 · 1:44 AM

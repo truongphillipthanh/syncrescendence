@@ -1,38 +1,3 @@
----
-id: SOURCE-20260130-228
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "news"
-  - "google"
-  - "infinite"
-  - "worlds"
-creator: "Matt Wolfe"
-guest: null
-title: "AI News: Google's Infinite AI Worlds"
-url: "https://www.youtube.com/watch?v=cEPTbXuw55Q"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 47s"
-has_transcript: no
-synopsis: "AI News: Google's Infinite AI Worlds by Matt Wolfe. A lecture covering news, google, infinite."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI News: Google's Infinite"
-  - "AI News: Google's Infinite AI Worlds"
----
-
 # AI News: Google's Infinite AI Worlds
 
 **Channel**: Matt Wolfe

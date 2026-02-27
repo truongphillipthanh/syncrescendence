@@ -1,39 +1,3 @@
----
-id: SOURCE-20260102-654
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "predicting"
-  - "future"
-  - "2026"
-  - "going"
-  - "wild"
-creator: "Limitless Podcast"
-guest: null
-title: "Predicting the Future of AI: 2026 Is Going To Be Wild."
-url: "https://www.youtube.com/watch?v=CqDxUUGuGUo"
-date_published: 2026-01-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "40m 11s"
-has_transcript: no
-synopsis: "Predicting the Future of AI: 2026 Is Going To Be Wild. by Limitless Podcast. A lecture covering predicting, future, 2026."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Predicting the Future of"
-  - "Predicting the Future of AI: 2026"
----
-
 # Predicting the Future of AI: 2026 Is Going To Be Wild.
 
 **Channel**: Limitless Podcast

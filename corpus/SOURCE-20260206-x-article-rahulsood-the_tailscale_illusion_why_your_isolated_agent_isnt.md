@@ -1,21 +1,3 @@
----
-url: https://x.com/rahulsood/status/2019830679769608537
-author: "Rahul Sood (@rahulsood)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-017
-original_filename: "20260206-x_article-the_tailscale_illusion_why_your_isolated_agent_isnt-@rahulsood.md"
-status: triaged
-platform: x
-format: article
-creator: rahulsood
-signal_tier: strategic
-topics: [ai-agents, automation, best-practices, framework]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Rahul Sood - Tailscale Agent Security"]
-synopsis: "Exposes the false sense of security from putting AI agents on separate machines with Tailscale — network connectivity means a compromised agent can lateral-move to everything on the tailnet. Details a real malicious skill attack chain and prescribes tool policies (command allowlists), Tailscale ACLs with tags, filesystem write restrictions, and per-agent credential isolation as actual security boundaries."
-key_insights: ["Separate machine does not mean separate network — Tailscale connects machines but does not isolate them, and a compromised agent is one SSH hop from everything", "Tool policies (command allowlists at the framework level) are the real security perimeter, not network isolation which is only defense in depth", "Red flags for malicious skills: external downloads during install, obfuscated code, privilege escalation, persistence mechanisms, and quarantine removal"]
----
 # The Tailscale Illusion: Why Your "Isolated" Agent Isn't
 
 (Description: Banner image featuring a stylized red and white illustrated container labeled "TAILSCALE" with mechanical/cyberpunk aesthetic. Central imagery shows interlocking gears and mechanical components rendered in red and white against a black background with Japanese characters and warning symbols scattered throughout. The design conveys a sense of technological complexity and potential system compromise.)

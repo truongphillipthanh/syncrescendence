@@ -1,37 +1,3 @@
----
-id: SOURCE-20251223-730
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "happen"
-  - "deepmind"
-  - "leader"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "If This Can Happen to an Ex-DeepMind Leader, It Can Happen to You"
-url: "https://www.youtube.com/watch?v=AzOJ9QLgfIk"
-date_published: 2025-12-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 31s"
-has_transcript: no
-synopsis: "If This Can Happen to an Ex-DeepMind Leader, It Can Happen to You by AI News & Strategy Daily | Nate B Jones. A lecture covering happen, deepmind, leader."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "If This Can Happen"
-  - "If This Can Happen to an"
----
-
 # If This Can Happen to an Ex-DeepMind Leader, It Can Happen to You
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

@@ -1,21 +1,3 @@
----
-url: https://x.com/Midnight_Captl/status/2019925703966499244
-author: "Midnight Capital LLC (@Midnight_Captl)"
-captured_date: 2026-02-06
-id: SOURCE-20260207-011
-original_filename: "20260207-x_article-the_coming_corporate_war_for_compute-@midnight_captl.md"
-status: triaged
-platform: x
-format: article
-creator: midnight_captl
-signal_tier: strategic
-topics: [economics, ai-engineering, opinion]
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases: ["Midnight Capital - Corporate War for Compute"]
-synopsis: "Argues that the software index (IGV) decline is just the first cloud of a coming storm as intelligence commodification disrupts far beyond SaaS. Positions compute as a weapon that can defend or lay siege to corporate moats, predicting companies will race to secure compute supply as compute risk is repriced."
-key_insights: ["Compute is becoming a weapon that can defend a castle or lay siege to one — companies that secure compute supply will survive", "The SaaS disruption visible in the IGV decline is only the beginning; intelligence commodification will impact every sector", "As compute risk is repriced, securing supply will become an existential corporate priority comparable to securing raw materials"]
----
 # The Coming Corporate War for Compute
 
 ## As compute risk is repriced, companies will race to secure supply

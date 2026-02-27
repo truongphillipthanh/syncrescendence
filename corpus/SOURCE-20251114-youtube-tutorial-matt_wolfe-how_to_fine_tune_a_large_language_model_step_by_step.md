@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1103
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "fine"
-  - "tune"
-  - "large"
-  - "language"
-  - "model"
-creator: "Matt Wolfe"
-guest: null
-title: "How To Fine-Tune A Large Language Model (Step-By-Step)"
-url: "https://www.youtube.com/watch?v=pddeyCqevnw"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 20s"
-has_transcript: no
-synopsis: "How To Fine-Tune A Large Language Model (Step-By-Step) by Matt Wolfe. A tutorial covering fine, tune, large."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How To Fine-Tune A"
-  - "How To Fine-Tune A Large Language"
----
-
 # How To Fine-Tune A Large Language Model (Step-By-Step)
 
 **Channel**: Matt Wolfe

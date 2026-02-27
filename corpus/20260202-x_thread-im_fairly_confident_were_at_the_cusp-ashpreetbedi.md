@@ -1,9 +1,3 @@
----
-url: https://x.com/ashpreetbedi/status/2018479845886320728
-author: Ashpreet Bedi (@ashpreetbedi)
-captured_date: 2026-02-14
----
-
 # Ashpreet Bedi Thread - Dash: Self-Learning Data Agent
 
 ## Post 1 (Feb 2, 2026, 4:21 PM)

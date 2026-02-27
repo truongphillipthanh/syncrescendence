@@ -1,9 +1,3 @@
----
-url: https://x.com/Voxyz_ai/status/2020272022417289587
-author: Vox (@Voxyz_ai)
-captured_date: 2026-02-07
----
-
 # The Full Tutorial: 6 AI Agents That Run a Company — How I Built Them From Scratch
 
 (Description: Cyberpunk isometric office scene titled "AGENTS AT WORK" featuring pixel-art style workspace with multiple robotic/AI agents at desks, whiteboards, and collaborative spaces with neon lighting and futuristic aesthetic)

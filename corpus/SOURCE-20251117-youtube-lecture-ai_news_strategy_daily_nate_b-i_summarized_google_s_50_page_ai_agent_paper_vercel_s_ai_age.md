@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1088
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "summarized"
-  - "google"
-  - "page"
-  - "agent"
-  - "paper"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "I Summarized Google's 50 Page AI Agent Paper + Vercel's AI Agent Doc in 8 Minutes: Here's the TLDR"
-url: "https://www.youtube.com/watch?v=LNpp73qHbJA"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 21s"
-has_transcript: no
-synopsis: "I Summarized Google's 50 Page AI Agent Paper + Vercel's AI Agent Doc in 8 Minutes: Here's the TLDR by AI News & Strategy Daily | Nate B Jones. A lecture covering summarized, google, page."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: agents-orchestration
-aliases:
-  - "I Summarized Google's 50"
-  - "I Summarized Google's 50 Page AI"
----
-
 # I Summarized Google's 50 Page AI Agent Paper + Vercel's AI Agent Doc in 8 Minutes: Here's the TLDR
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

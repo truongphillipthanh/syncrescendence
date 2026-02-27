@@ -1,31 +1,3 @@
----
-url: https://x.com/Saboo_Shubham_/status/2022014147450614038
-author: "Shubham Saboo (@Saboo_Shubham_)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-008
-original_filename: "20260212-x_article-how_i_built_an_autonomous_ai_agent_team_that_runs_24_7-@saboo_shubham.md"
-status: triaged
-platform: x
-format: article
-creator: saboo_shubham
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - context-management
-  - git
-  - architecture
-  - cost-optimization
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How I built an Autonomous AI Agent team that runs 247"
-synopsis: "How I built an Autonomous AI Agent team that runs 24/7 Six AI agents run my entire life while I sleep. Not a weekend project. A real team that works 24/7 making sure I'm never behind. By the time I open Telegram in the morning, they've already put in a full shift. Yesterday I posted about my agent team. The number one question: "How do I actually set this thing up?" This is the answer."
-key_insights:
-  - "A real team that works 24/7 making sure I'm never behind."
-  - "How I built an Autonomous AI Agent team that runs 24/7 Six AI agents run my entire life while I sleep."
-  - "By the time I open Telegram in the morning, they've already put in a full shift."
----
 # How I built an Autonomous AI Agent team that runs 24/7
 
 Six AI agents run my entire life while I sleep.

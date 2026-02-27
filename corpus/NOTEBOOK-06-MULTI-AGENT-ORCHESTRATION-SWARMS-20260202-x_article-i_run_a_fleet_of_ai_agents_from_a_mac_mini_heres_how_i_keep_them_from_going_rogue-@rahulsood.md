@@ -1,9 +1,3 @@
----
-url: https://x.com/rahulsood/status/2018394405028364384
-author: Rahul Sood (@rahulsood)
-captured_date: 2026-02-02
----
-
 # I Run a Fleet of AI Agents from a Mac Mini. Here's How I Keep Them From Going Rogue.
 
 (Description: A futuristic underground facility with concrete pillars and warm amber lighting. In the center, a humanoid robot in dark clothing works at a control station displaying streaming data on glowing screens. To the left and right, two quadrupedal robotic units with articulated limbs stand at workstations. Background displays multiple wall-mounted monitors showing cascading green code and Japanese text (セキュリティログ = "Security Log", 問題 = "Problem", 取引データ = "Trading Data"). The entire scene is rendered in a cyberpunk aesthetic with neon purple and orange accents.)

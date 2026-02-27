@@ -1,39 +1,3 @@
----
-id: SOURCE-20260119-398
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "clearly"
-  - "explained"
-  - "use"
-creator: "Greg Isenberg"
-guest: null
-title: "Claude Code Clearly Explained (and how to use it)"
-url: "https://www.youtube.com/watch?v=zxMjOqM7DFs"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 28s"
-has_transcript: no
-synopsis: "Claude Code Clearly Explained (and how to use it) by Greg Isenberg. A interview covering claude, code, clearly."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code Clearly Explained"
-  - "Claude Code Clearly Explained (and how"
----
-
 # Claude Code Clearly Explained (and how to use it)
 
 **Channel**: Greg Isenberg

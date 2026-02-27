@@ -1,34 +1,3 @@
----
-id: SOURCE-20260109-001
-title: Demystifying evals for AI agents
-platform: web
-format: article
-creator: Mikaela Grace, Jeremy Hadfield, Rodrigo Olivares, Jiri De Jonghe
-date_published: 2026-01-09
-status: triaged
-original_filename: research/20260109-website-demystifying-evals-for-ai--anthropic.md
-aliases:
-  - "Anthropic - Demystifying Agent Evals"
-teleology: implement
-notebooklm_category: ai-agents
-url: "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
-domain: anthropic.com
-author: Mikaela Grace, Jeremy Hadfield, Rodrigo Olivares, Jiri De Jonghe
-captured_date: 2026-01-30
-content_type: article
-synopsis: "Anthropic Engineering comprehensive guide to evaluating AI agents. Covers evaluation taxonomy (component vs integration vs end-to-end), designing realistic test environments, measuring reliability and consistency, and handling the challenges of non-deterministic agent behavior."
-key_insights:
-  - "Agent evaluation requires three levels: component evals (individual tool calls), integration evals (multi-step workflows), and end-to-end evals (full task completion)"
-  - "Non-deterministic agent behavior means evaluations must run multiple times and use statistical methods rather than binary pass/fail"
-  - "Realistic test environments matter more than synthetic benchmarks because agent failures in production often stem from environmental complexity not capability gaps"
-topics:
-  - "ai-agents"
-  - "ai-engineering"
-  - "best-practices"
-  - "framework"
-signal_tier: strategic
----
-
 # Demystifying evals for AI agents
 
 (Image: Stylized graphic showing various geometric symbols and patterns arranged in a grid layout with the "Anthropic Engineering" branding. Alt text: Engineering at Anthropic. Caption: Components of evaluations for agents.)

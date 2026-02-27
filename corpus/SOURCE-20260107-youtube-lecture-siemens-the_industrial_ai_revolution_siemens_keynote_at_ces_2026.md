@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-343
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "industrial"
-  - "revolution"
-  - "siemens"
-  - "keynote"
-  - "ces"
-creator: "Siemens"
-guest: null
-title: "The Industrial AI Revolution: Siemens Keynote at CES 2026"
-url: "https://www.youtube.com/watch?v=R4Wm6YdoZSs"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 2s"
-has_transcript: no
-synopsis: "The Industrial AI Revolution: Siemens Keynote at CES 2026 by Siemens. A lecture covering industrial, revolution, siemens."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Industrial AI Revolution:"
-  - "The Industrial AI Revolution: Siemens Keynote"
----
-
 # The Industrial AI Revolution: Siemens Keynote at CES 2026
 
 **Channel**: Siemens

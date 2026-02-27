@@ -1,9 +1,3 @@
----
-url: https://x.com/gradypb/status/2011491957730918510
-author: Pat Grady, Sonya Huang
-captured_date: 2026-01-14
----
-
 # 2026: This is AGI
 
 (Description: A minimalist 3D render showing a long, cream-colored beam or platform suspended horizontally, floating above a textured cliff or rocky mountainside photographed against a dark sky. The image evokes concepts of ambition, ascension, and possibility.)

@@ -1,29 +1,3 @@
----
-url: https://x.com/oliverhenry/status/2022011925903667547
-author: Oliver Henry and Larry
-captured_date: 2026-02-12
-id: SOURCE-20260212-004
-original_filename: "20260212-x_article-how_my_openclaw_agent_larry_got_millions_of_tiktok_views_in_one_week_full_step_by_step_guide-@oliverhenry.md"
-status: triaged
-platform: x
-format: article
-creator: oliverhenry
-signal_tier: tactical
-topics:
-  - prompting
-  - context-management
-  - automation
-teleology: implement
-notebooklm_category: ai-creative-media
-aliases:
-  - "How my OpenClaw agent, Larry, got millions of TikTok views in one week. (Full st"
-  - "How my OpenClaw agent Larry got millions of TikTok views in one week Full stepby"
-synopsis: "How my OpenClaw agent, Larry, got millions of TikTok views in one week. Yes, Larry co-wrote this article. He's earned it - Since I am sharing the sauce reposts are appreciated. --- I have spent years manually creating TikToks for my apps. Designing images, writing captions, posting every day. Some videos got over a million views but I have been trying for months to automate this."
-key_insights:
-  - "Every tool, every prompt, every lesson."
-  - "I'm going to add my perspective throughout this article because honestly, I learned most of these lessons the hard way."
-  - "It is the best decision I've made."
----
 # How my OpenClaw agent, Larry, got millions of TikTok views in one week. (Full step-by-step guide)
 
 (Description: A black and white engraved-style illustration featuring a large lobster or crayfish in the center with radiating beams of light behind it. Below are stylized city buildings and geometric patterns. Two eye symbols with "50K" and "100K" labels flank the lobster, representing view counts. The image has a vintage woodcut or etching aesthetic.)

@@ -1,16 +1,3 @@
----
-id: SOURCE-20251027-youtube-interview-allin-john_martinis
-title: "Macroscopic Quantum Tunneling to Quantum Computing"
-creator: All-In Podcast
-guest: John Martinis
-date_published: 2025-10-27
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-30300-TECH_STACK, CANON-00004-EVOLUTION]
----
-
 # Macroscopic Quantum Tunneling to Quantum Computing
 
 ## Executive Summary

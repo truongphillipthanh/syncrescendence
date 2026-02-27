@@ -1,32 +1,3 @@
----
-url: https://x.com/ThisWeeknAI/status/2022067742925275147
-author: "This Week in AI (@ThisWeeknAI)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-012
-original_filename: "20260212-x_article-openclaw_set_up_for_under_20_month-@thisweekinai.md"
-status: triaged
-platform: x
-format: article
-creator: thisweekinai
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - cursor
-  - openai
-  - anthropic
-  - api
-  - security
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw Set Up for Under 20Month"
-synopsis: "OpenClaw Set Up for Under $20/Month 5 Minute OpenClaw Set Up: AWS EC2 Here's exactly how to do it. What You Need - An AWS account (free to create) ([aws.amazon.com]( - An API key from Anthropic, OpenAI, or Moonshot AI - 5 minutes Step 1: Launch an EC2 Instance Go to the AWS console and search for EC2. Click "Launch Instance." - **Name:** Whatever you want (e.g."
-key_insights:
-  - "OpenClaw Set Up for Under $20/Month 5 Minute OpenClaw Set Up: AWS EC2 Here's exactly how to do it."
-  - "Click "Launch Instance." - **Name:** Whatever you want (e.g."
-  - "- Mac/Linux: choose .pem - Windows: choose .ppk Download it and keep it safe."
----
 # OpenClaw Set Up for Under $20/Month
 (Description: An artistic rendering of a bright red lobster floating against a sky background with white clouds, digitally illustrated with hyperrealistic details and warm lighting.)
 ## 5 Minute OpenClaw Set Up: AWS EC2

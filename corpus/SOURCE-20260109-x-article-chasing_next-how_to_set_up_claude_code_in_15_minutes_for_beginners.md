@@ -1,29 +1,3 @@
----
-id: SOURCE-20260109-x-article-chasing_next-how_to_set_up_claude_code_in_15_minutes_for_beginners
-platform: x
-format: article
-creator: chasing_next
-title: how to set up claude code in 15 minutes for beginners
-status: triaged
-original_filename: "20260109-x_article-how_to_set_up_claude_code_in_15_minutes_for_beginners-@chasing_next.md"
-url: https://x.com/chasing_next/status/2009642836715802910
-author: "Riley (@chasing_next)"
-captured_date: 2026-01-24
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "tutorial"
-  - "developer-tools"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "ChasingNext - Claude Code Beginner Setup"
-synopsis: "Step-by-step beginner guide for non-technical people to set up Claude Code in under 15 minutes. Covers installation, API key configuration, basic commands, and first project setup without scary developer terminology."
-key_insights:
-  - "Claude Code setup can be completed in under 15 minutes even by non-technical users with step-by-step guidance"
-  - "The guide deliberately avoids developer jargon to make AI coding tools accessible to non-programmers"
-  - "Basic CLI literacy is the only prerequisite for using Claude Code effectively"
----
 # How to Set Up Claude Code in <15 Minutes (For Beginners)
 
 (Description: A vibrant orange instructional banner featuring the text "HOW TO SET UP CLAUDE CODE IN <15 MINUTES FOR BEGINNERS" with a cartoon character resembling a yellow figure in a blue shirt, sitting at a computer desk with retro styling. The banner includes the Claude Code logo.)

@@ -1,31 +1,3 @@
----
-id: SOURCE-20251222-002
-title: How AI Agents Will Transform in 2026
-platform: youtube
-format: panel
-creator: a16z
-date_published: 2025-12-22
-status: triaged
-original_filename: processed/SOURCE-20251222-youtube-video-a16z-agents_2026.md
-aliases:
-  - "a16z - AI Agents 2026 Predictions"
-teleology: strategize
-notebooklm_category: ai-agents
-signal_tier: strategic
-date_processed: 2026-01-05
-url: "https://www.youtube.com/watch?v=ULszsXDyjMY"
-synopsis: "a16z panel predicting 2026 as death of the prompt box and rise of proactive AI agents. Five-tier employee model for AI agency. Machine legibility replacing visual hierarchy (SEO to AEO). Voice agents breaking through in healthcare, banking, and recruiting. Addressable market expands from 400B software to 13T labor."
-key_insights:
-  - "S-tier AI agency means AI identifies problems, researches diagnosis, evaluates solutions, implements, and seeks final approval: moving from chatbot to autonomous colleague"
-  - "Machine legibility replaces visual hierarchy: optimization shifts from human attention (headlines, H1 tags) to agent parsing (data structure, API access, programmatic navigation)"
-  - "Voice agents breaking through in healthcare (patient intake), banking (outperforming humans on compliance), and recruiting (instant interviews for retail to mid-level roles)"
-topics:
-  - "ai-agents"
-  - "ai-engineering"
-  - "career"
-  - "entrepreneurship"
----
-
 # a16z 2026 AI Agent Predictions
 
 ## Core Thesis

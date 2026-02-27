@@ -1,39 +1,3 @@
----
-id: SOURCE-20260102-644
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "2025"
-  - "year"
-  - "stopped"
-  - "writing"
-  - "code"
-creator: "Theo - t3․gg"
-guest: null
-title: "2025: The year I stopped writing code"
-url: "https://www.youtube.com/watch?v=Ge8LoXfJJdA"
-date_published: 2026-01-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "47m"
-has_transcript: no
-synopsis: "2025: The year I stopped writing code by Theo - t3․gg. A lecture covering 2025, year, stopped."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "2025: The year I"
-  - "2025: The year I stopped writing"
----
-
 # 2025: The year I stopped writing code
 
 **Channel**: Theo - t3․gg

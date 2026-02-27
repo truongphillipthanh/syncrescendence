@@ -1,30 +1,3 @@
----
-id: SOURCE-20260116-x-article-affaanmustafa-the_shorthand_guide_to_everything_claude_code
-platform: x
-format: article
-creator: affaanmustafa
-title: the shorthand guide to everything claude code
-status: triaged
-original_filename: "20260116-x_article-the_shorthand_guide_to_everything_claude_code-@affaanmustafa.md"
-url: https://x.com/affaanmustafa/status/2012378465664745795
-author: "cogsec (@affaanmustafa)"
-captured_date: 2026-01-16
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "reference"
-  - "best-practices"
-teleology: reference
-notebooklm_category: claude-code
-aliases:
-  - "Affaan - Claude Code Shorthand Guide"
-synopsis: "Complete Claude Code reference after 10 months daily use covering skills, hooks, subagents, MCPs, plugins, and advanced configuration. Serves as a comprehensive shorthand reference for all Claude Code features and best practices."
-key_insights:
-  - "After 10 months of daily use the complete Claude Code stack includes skills, hooks, subagents, MCPs, and plugins working together"
-  - "Skills and hooks provide the most leverage for customizing Claude Code behavior without fighting the model"
-  - "The guide serves as a quick-reference for the full Claude Code feature set organized by practical use cases"
----
 # The Shorthand Guide to Everything Claude Code
 
 Here's my complete setup after 10 months of daily use: skills, hooks, subagents, MCPs, plugins, and what actually works.

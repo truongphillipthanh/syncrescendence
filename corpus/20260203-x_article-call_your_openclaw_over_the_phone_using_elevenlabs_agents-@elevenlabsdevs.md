@@ -1,9 +1,3 @@
----
-url: https://x.com/ElevenLabsDevs/status/2018798792485880209
-author: ElevenLabs Developers (@ElevenLabsDevs)
-captured_date: 2026-02-03
----
-
 # Call Your OpenClaw over the phone using ElevenLabs Agents
 
 *if you copy this article to your coding agent, it can perform many steps from it for you*

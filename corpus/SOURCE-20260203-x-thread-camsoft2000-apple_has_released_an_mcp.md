@@ -1,31 +1,3 @@
----
-url: https://x.com/camsoft2000/status/2018756550802780668
-author: camsoft2000
-captured_date: 2026-02-04
-id: SOURCE-20260203-031
-original_filename: "20260203-x_thread-apple_has_released_an_mcp-@camsoft2000.md"
-status: triaged
-platform: x
-format: thread
-creator: camsoft2000
-signal_tier: tactical
-topics:
-  - agentic-development
-  - automation
-  - debugging
-  - testing
-  - extended-thinking
-  - model-context-protocol
-teleology: reference
-notebooklm_category: coding-tools
-aliases:
-  - "Apple MCP Server Release for Xcode 263  Thread Discussion"
-synopsis: "Apple MCP Server Release for Xcode 26.3 - Thread Discussion Post 1 - Feb 3, 2026 (10:40 AM) Apple has released an MCP server as part of Xcode 26.3! It extends the IDE and requires the IDE to be running and your project open."
-key_insights:
-  - "--- Post 4 - Feb 4, 2026 So the MCP essentially exposes the IDE's features to external coding agents."
-  - "Apple MCP Server Release for Xcode 26.3 - Thread Discussion Post 1 - Feb 3, 2026 (10:40 AM) Apple has released an MCP server as part of Xcode 26.3!"
-  - "It extends the IDE and requires the IDE to be running and your project open."
----
 # Apple MCP Server Release for Xcode 26.3 - Thread Discussion
 
 ## Post 1 - Feb 3, 2026 (10:40 AM)

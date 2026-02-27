@@ -1,39 +1,3 @@
----
-id: SOURCE-20260114-482
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "mit"
-  - "paper"
-  - "everyone"
-  - "building"
-  - "agents"
-creator: "Brainqub3"
-guest: null
-title: "The MIT Paper Everyone Building Agents Should Read Right Now"
-url: "https://www.youtube.com/watch?v=NQ2MiVuuJ6A"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 5m 46s"
-has_transcript: no
-synopsis: "The MIT Paper Everyone Building Agents Should Read Right Now by Brainqub3. A lecture covering mit, paper, everyone."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "The MIT Paper Everyone"
-  - "The MIT Paper Everyone Building Agents"
----
-
 # The MIT Paper Everyone Building Agents Should Read Right Now
 
 **Channel**: Brainqub3

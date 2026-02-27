@@ -1,39 +1,3 @@
----
-id: SOURCE-20260219-022
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "biggest"
-  - "career"
-  - "opportunity"
-  - "just"
-  - "appeared"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Why the Biggest AI Career Opportunity Just Appeared—and Almost Nobody Sees It."
-url: "https://www.youtube.com/watch?v=6r0UeMQE66I"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 3s"
-has_transcript: no
-synopsis: "Why the Biggest AI Career Opportunity Just Appeared—and Almost Nobody Sees It. by AI News & Strategy Daily | Nate B Jones. A lecture covering biggest, career, opportunity."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "Why the Biggest AI"
-  - "Why the Biggest AI Career Opportunity"
----
-
 # Why the Biggest AI Career Opportunity Just Appeared—and Almost Nobody Sees It.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

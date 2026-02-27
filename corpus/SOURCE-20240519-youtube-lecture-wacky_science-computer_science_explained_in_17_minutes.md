@@ -1,38 +1,3 @@
----
-id: SOURCE-20240519-107
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "computer"
-  - "science"
-  - "explained"
-  - "minutes"
-creator: "Wacky Science"
-guest: null
-title: "COMPUTER SCIENCE explained in 17 Minutes"
-url: "https://www.youtube.com/watch?v=CxGSnA-RTsA"
-date_published: 2024-05-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 49s"
-has_transcript: no
-synopsis: "COMPUTER SCIENCE explained in 17 Minutes by Wacky Science. A lecture covering computer, science, explained."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "COMPUTER SCIENCE explained in"
-  - "COMPUTER SCIENCE explained in 17 Minutes"
----
-
 # COMPUTER SCIENCE explained in 17 Minutes
 
 **Channel**: Wacky Science

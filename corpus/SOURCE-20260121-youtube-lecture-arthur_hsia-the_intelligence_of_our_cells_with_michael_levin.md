@@ -1,38 +1,3 @@
----
-id: SOURCE-20260121-238
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "intelligence"
-  - "cells"
-  - "michael"
-  - "levin"
-creator: "Arthur Hsia"
-guest: null
-title: "The Intelligence of Our Cells with Michael Levin"
-url: "https://www.youtube.com/watch?v=ROWBN3l-Wks"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 6s"
-has_transcript: no
-synopsis: "The Intelligence of Our Cells with Michael Levin by Arthur Hsia. A lecture covering intelligence, cells, michael."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Intelligence of Our"
-  - "The Intelligence of Our Cells with"
----
-
 # The Intelligence of Our Cells with Michael Levin
 
 **Channel**: Arthur Hsia

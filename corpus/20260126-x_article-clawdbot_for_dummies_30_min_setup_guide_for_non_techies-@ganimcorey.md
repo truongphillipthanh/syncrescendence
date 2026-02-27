@@ -1,9 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2015854323599867956
-author: Corey Ganim (@GanimCorey)
-captured_date: 2026-01-26
----
-
 # Clawdbot for Dummies (30-min setup guide for non-techies)
 
 (Description: A man in a light blue shirt sits at a desk with a laptop. He is smiling and holding a red and white robot with articulated arms. The robot has a screen on its chest. In the background are icons representing a chat bubble, a desk lamp, and office elements. The scene is rendered in a vibrant turquoise and teal color palette with warm lighting.)

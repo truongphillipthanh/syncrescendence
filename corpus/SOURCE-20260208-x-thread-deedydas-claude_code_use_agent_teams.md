@@ -1,21 +1,3 @@
----
-url: https://x.com/deedydas/status/2020350881464742330
-author: "@deedydas"
-captured_date: 2026-02-14
-id: SOURCE-20260208-013
-original_filename: "20260208-x_thread-claude_code_use_agent_teams-@deedydas.md"
-status: triaged
-platform: x
-format: thread
-creator: deedydas
-signal_tier: tactical
-topics: [claude-code, ai-agents]
-teleology: extract
-notebooklm_category: claude-code
-aliases: ["deedydas - Agent Teams Thread"]
-synopsis: "Thread discussing Claude Code agent teams usage patterns and experiences with multi-agent collaboration features."
-key_insights: ["Agent teams are gaining traction among power users for complex development tasks", "Real-world usage reveals practical patterns not covered in documentation", "Community discussion surfaces best practices for agent team coordination"]
----
 # Claude Code Thread Archive
 
 "Claude Code, use Agent Teams to explore the `claude` binary and tell me all the codenames and unreleased features"

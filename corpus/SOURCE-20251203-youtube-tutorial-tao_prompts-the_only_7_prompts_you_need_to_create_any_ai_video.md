@@ -1,39 +1,3 @@
----
-id: SOURCE-20251203-420
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "only"
-  - "prompts"
-  - "need"
-  - "create"
-  - "any"
-creator: "Tao Prompts"
-guest: null
-title: "The ONLY 7 Prompts You Need to Create Any AI Video"
-url: "https://www.youtube.com/watch?v=zzBmvzR-URg"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 15s"
-has_transcript: no
-synopsis: "The ONLY 7 Prompts You Need to Create Any AI Video by Tao Prompts. A tutorial covering only, prompts, need."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "The ONLY 7 Prompts"
-  - "The ONLY 7 Prompts You Need"
----
-
 # The ONLY 7 Prompts You Need to Create Any AI Video
 
 **Channel**: Tao Prompts

@@ -1,38 +1,3 @@
----
-id: SOURCE-20251223-711
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "van"
-  - "fraassen"
-  - "radical"
-  - "claim"
-creator: "Curt Jaimungal"
-guest: null
-title: "Van Fraassen's Radical Claim About What You Are"
-url: "https://www.youtube.com/watch?v=zUJxGDQ54vY"
-date_published: 2025-12-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 26s"
-has_transcript: no
-synopsis: "Van Fraassen's Radical Claim About What You Are by Curt Jaimungal. A lecture covering van, fraassen, radical."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Van Fraassen's Radical Claim"
-  - "Van Fraassen's Radical Claim About What"
----
-
 # Van Fraassen's Radical Claim About What You Are
 
 **Channel**: Curt Jaimungal

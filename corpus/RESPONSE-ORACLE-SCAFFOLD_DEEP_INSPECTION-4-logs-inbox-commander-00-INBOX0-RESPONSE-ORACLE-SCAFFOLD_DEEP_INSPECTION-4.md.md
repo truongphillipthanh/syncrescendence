@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-201
-topic: DC-201 Scaffold Deep Inspection — Session 4 (archive + remaining dirs, protected zone verdicts)
-status: unprocessed
-collected: 2026-02-23
----
-
 **Resuming DC-201, session 4.** Files completed: 425/528. Picking up from: orchestration/00-ORCHESTRATION/archive/ (87 files) + sanctioned dirs + root files + templates/launchd remainder. Prior scratchpad and team inputs reviewed: state/scripts layers coherent; 00-ORCHESTRATION confirmed canonical; pipelines mapped; dispatch topologies complementary; watch_dispatch.sh calibration holds.
 
 ## Session 4: Archive + Remaining Verdicts

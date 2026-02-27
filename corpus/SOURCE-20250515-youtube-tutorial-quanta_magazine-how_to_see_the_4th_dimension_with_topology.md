@@ -1,38 +1,3 @@
----
-id: SOURCE-20250515-938
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "see"
-  - "4th"
-  - "dimension"
-  - "topology"
-creator: "Quanta Magazine"
-guest: null
-title: "How to 'See' the 4th Dimension with Topology"
-url: "https://www.youtube.com/watch?v=MURzTFRRuJQ"
-date_published: 2025-05-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 36s"
-has_transcript: no
-synopsis: "How to 'See' the 4th Dimension with Topology by Quanta Magazine. A tutorial covering see, 4th, dimension."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to 'See' the"
-  - "How to 'See' the 4th Dimension"
----
-
 # How to 'See' the 4th Dimension with Topology
 
 **Channel**: Quanta Magazine

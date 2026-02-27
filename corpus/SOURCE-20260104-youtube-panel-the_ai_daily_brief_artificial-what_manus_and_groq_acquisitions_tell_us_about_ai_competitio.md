@@ -1,39 +1,3 @@
----
-id: SOURCE-20260104-636
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "manus"
-  - "groq"
-  - "acquisitions"
-  - "tell"
-  - "competition"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "What Manus and Groq Acquisitions Tell Us About AI Competition"
-url: "https://www.youtube.com/watch?v=h1mQF0J6r9k"
-date_published: 2026-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 8s"
-has_transcript: no
-synopsis: "What Manus and Groq Acquisitions Tell Us About AI Competition by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering manus, groq, acquisitions."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "What Manus and Groq"
-  - "What Manus and Groq Acquisitions Tell"
----
-
 # What Manus and Groq Acquisitions Tell Us About AI Competition
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

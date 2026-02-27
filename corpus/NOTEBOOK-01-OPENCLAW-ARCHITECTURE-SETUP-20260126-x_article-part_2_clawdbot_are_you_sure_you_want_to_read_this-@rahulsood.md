@@ -1,9 +1,3 @@
----
-url: https://x.com/rahulsood/status/2015805211517042763
-author: Rahul Sood (@rahulsood)
-captured_date: 2026-01-26
----
-
 # Part 2: Clawdbot: Are you sure you want to read this?
 
 (Description: A dark-themed diagram showing a central hexagonal node labeled "AGENT" in orange, with multiple directional arrows connecting to various labeled inputs: "Email," "Message," "Calendar," "Files," "Images," "Website," "Chat app," and "Cloud logs." The diagram emphasizes multiple content input vectors. Quote at top: "anything the bot can read, an attacker can write to." Text below reads: "PART 2: THE ATTACK SURFACE IS EVERYWHERE IT TOUCHES")

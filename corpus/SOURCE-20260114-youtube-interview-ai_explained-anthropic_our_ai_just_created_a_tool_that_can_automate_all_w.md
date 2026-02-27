@@ -1,39 +1,3 @@
----
-id: SOURCE-20260114-484
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "just"
-  - "created"
-  - "tool"
-  - "automate"
-creator: "AI Explained"
-guest: null
-title: "Anthropic: Our AI just created a tool that can ‘automate all white collar work’, Me:"
-url: "https://www.youtube.com/watch?v=wYs6HWZ2FdM"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 3s"
-has_transcript: no
-synopsis: "Anthropic: Our AI just created a tool that can ‘automate all white collar work’, Me: by AI Explained. A interview covering anthropic, just, created."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic: Our AI just"
-  - "Anthropic: Our AI just created a"
----
-
 # Anthropic: Our AI just created a tool that can ‘automate all white collar work’, Me:
 
 **Channel**: AI Explained

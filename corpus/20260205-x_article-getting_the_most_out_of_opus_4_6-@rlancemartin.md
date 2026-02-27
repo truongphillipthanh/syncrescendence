@@ -1,9 +1,3 @@
----
-url: https://x.com/RLanceMartin/status/2019482019324219477
-author: Lance Martin (@RLanceMartin)
-captured_date: 2026-02-05
----
-
 # Getting the Most Out of Opus 4.6
 
 Claude Opus 4.6 adds a new adaptive thinking mode and several API improvements to help with context management for long-running tasks. Here's an overview of Opus 4.6 with links to some useful API docs.

@@ -1,33 +1,3 @@
----
-url: https://x.com/byteofbits/status/2019447660864807345
-author: "Alexander Christie (@byteofbits)"
-captured_date: 2026-02-13
-published_date: 2026-02-05
-id: SOURCE-20260205-005
-original_filename: "20260205-x_article-introducing_universal_context-@byteofbits.md"
-status: triaged
-platform: x
-format: article
-creator: byteofbits
-signal_tier: tactical
-topics:
-  - agentic-development
-  - ai-workflow
-  - context-management
-  - extended-thinking
-  - api
-  - architecture
-  - product-development
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Introducing Universal Context"
-synopsis: "Introducing Universal Context Overview Three years ago, I wrote an article about the reasons that Salesforce was great — arguing that its flexible data model was its real moat, even if the complexity was painful. Since that article was written, a lot of things have changed in the software space: most notably, the rapid advancements of generative AI and large language models."
-key_insights:
-  - "Since that article was written, a lot of things have changed in the software space: most notably, the rapid advancements of generative AI and large language models."
-  - "As these models have matured, they have yielded agentic workflows that are capable of processing information from varied sources and taking complex actions over extended periods of time."
-  - "Agentic systems place new demands on the systems that they operate on and require a fundamentally new type of application and system architecture in order to operate effectively."
----
 # Introducing Universal Context
 
 (Description: Dark-themed article cover image featuring the title "Introducing Universal Context" on the left in large white sans-serif typography, with a geometric visualization on the right showing a wireframe sphere and descending matrix-like elements in white/gray ASCII-style characters against a dark background.)

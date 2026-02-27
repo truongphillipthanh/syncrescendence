@@ -1,39 +1,3 @@
----
-id: SOURCE-20251209-796
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "professor"
-  - "answers"
-  - "coding"
-  - "questions"
-  - "tech"
-creator: "WIRED"
-guest: null
-title: "Professor Answers Coding Questions | Tech Support | WIRED"
-url: "https://www.youtube.com/watch?v=PZ_ebxkNZmo"
-date_published: 2025-12-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "33m 49s"
-has_transcript: no
-synopsis: "Professor Answers Coding Questions | Tech Support | WIRED by WIRED. A lecture covering professor, answers, coding."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Professor Answers Coding Questions"
-  - "Professor Answers Coding Questions | Tech"
----
-
 # Professor Answers Coding Questions | Tech Support | WIRED
 
 **Channel**: WIRED

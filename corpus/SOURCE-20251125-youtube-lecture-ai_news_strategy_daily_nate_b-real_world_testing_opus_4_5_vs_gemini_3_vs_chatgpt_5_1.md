@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-997
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "real"
-  - "world"
-  - "testing"
-  - "opus"
-  - "gemini"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Real World Testing: Opus 4.5 vs. Gemini 3 vs. ChatGPT 5.1"
-url: "https://www.youtube.com/watch?v=EbZbGPi8ftA"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 20s"
-has_transcript: no
-synopsis: "Real World Testing: Opus 4.5 vs. Gemini 3 vs. ChatGPT 5.1 by AI News & Strategy Daily | Nate B Jones. A lecture covering real, world, testing."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Real World Testing: Opus"
-  - "Real World Testing: Opus 4.5 vs."
----
-
 # Real World Testing: Opus 4.5 vs. Gemini 3 vs. ChatGPT 5.1
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

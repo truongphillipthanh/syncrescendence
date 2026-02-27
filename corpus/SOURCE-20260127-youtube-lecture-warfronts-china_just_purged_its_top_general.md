@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-285
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "china"
-  - "just"
-  - "purged"
-  - "top"
-  - "general"
-creator: "WarFronts"
-guest: null
-title: "China Just Purged its Top General."
-url: "https://www.youtube.com/watch?v=Qpt_n0Uj6tQ"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 51s"
-has_transcript: no
-synopsis: "China Just Purged its Top General. by WarFronts. A lecture covering china, just, purged."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "China Just Purged its"
-  - "China Just Purged its Top General."
----
-
 # China Just Purged its Top General.
 
 **Channel**: WarFronts

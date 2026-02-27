@@ -1,9 +1,3 @@
----
-url: https://x.com/Midnight_Captl/status/2019925703966499244
-author: Midnight Capital LLC (@Midnight_Captl)
-captured_date: 2026-02-06
----
-
 # The Coming Corporate War for Compute
 
 ## As compute risk is repriced, companies will race to secure supply

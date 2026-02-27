@@ -1,39 +1,3 @@
----
-id: SOURCE-20260117-406
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "reject"
-  - "hustle"
-  - "culture"
-  - "become"
-  - "renaissance"
-creator: "Unsolicited advice"
-guest: null
-title: "Reject Hustle Culture. Become a Renaissance Man"
-url: "https://www.youtube.com/watch?v=6SnPrSGlrrA"
-date_published: 2026-01-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 2s"
-has_transcript: no
-synopsis: "Reject Hustle Culture. Become a Renaissance Man by Unsolicited advice. A lecture covering reject, hustle, culture."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Reject Hustle Culture. Become"
-  - "Reject Hustle Culture. Become a Renaissance"
----
-
 # Reject Hustle Culture. Become a Renaissance Man
 
 **Channel**: Unsolicited advice

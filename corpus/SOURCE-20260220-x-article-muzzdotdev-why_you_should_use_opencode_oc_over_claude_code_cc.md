@@ -1,29 +1,3 @@
----
-url: https://x.com/muzzdotdev/status/2024706032660869418
-author: "muzz khan (@muzzdotdev)"
-captured_date: 2026-02-19
-id: SOURCE-20260220-004
-original_filename: "20260220-x_article-why_you_should_use_opencode_oc_over_claude_code_cc-@muzzdotdev.md"
-status: triaged
-platform: x
-format: article
-creator: muzzdotdev
-signal_tier: tactical
-topics:
-  - agentic-development
-  - ai-workflow
-  - prompting
-  - terminal
-teleology: contextualize
-notebooklm_category: coding-tools
-aliases:
-  - "Why you should use opencodeoc over claude codecc"
-synopsis: "Why you should use opencode(oc) over claude code(cc) Somewhat in order of importance: > **model agnostic** - try new ones as soon as they come out (you even get free usage for the leading OSS ones kimi2.5, glm 5, mm 2.5...). This is becoming more and more important with every other lab releasing better and cheaper models by the minute."
-key_insights:
-  - "This is becoming more and more important with every other lab releasing better and cheaper models by the minute."
-  - "lol > **oc built for a faster, keyboard oriented workflow.** This is the main reason of using a tui agent and being in the terminal - you're close to your code and env to work fasterrr."
-  - "oc has every bind as configurable with support for stuff like <leader> key."
----
 # Why you should use opencode(oc) over claude code(cc)
 (Description: A stylized versus graphic with "opencode" in gray pixelated text on the left, a gold diagonal slash in the center, and "CLAUDE CODE" in orange/red pixelated text on the right against a dark background)
 ## Somewhat in order of importance:

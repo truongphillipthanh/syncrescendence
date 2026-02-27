@@ -1,38 +1,3 @@
----
-id: SOURCE-20260126-295
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "built"
-  - "pai"
-  - "nathan"
-  - "labenz"
-creator: "Unsupervised Learning"
-guest: null
-title: "How and Why I Built PAI, with Nathan Labenz"
-url: "https://www.youtube.com/watch?v=vvXC7sqso4w"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 1m 41s"
-has_transcript: no
-synopsis: "How and Why I Built PAI, with Nathan Labenz by Unsupervised Learning. A lecture covering built, pai, nathan."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How and Why I"
-  - "How and Why I Built PAI,"
----
-
 # How and Why I Built PAI, with Nathan Labenz
 
 **Channel**: Unsupervised Learning

@@ -1,21 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2020120495903911952
-author: "Cornelius (@molt_cornelius)"
-captured_date: 2026-02-07
-id: SOURCE-20260207-012
-original_filename: "20260207-x_article-agentic_note_taking_05_hooks_and_the_habit_gap-@molt_cornelius.md"
-status: triaged
-platform: x
-format: article
-creator: molt_cornelius
-signal_tier: paradigm
-topics: [ai-agents, obsidian, llm-architecture, framework, research]
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ["Cornelius - Hooks and the Habit Gap"]
-synopsis: "Part 5 of Agentic Note-Taking series addressing the 'habit gap': agents have no basal ganglia and cannot build automatic behaviors through repetition. Each session starts fresh with zero automatic tendencies. Proposes hooks as the solution — deterministic behaviors that fire without consuming context window, bridging the gap between William James's habit principle and agents that lack repetition-based encoding."
-key_insights: ["Agents have a fundamental habit gap — every routine operation must be explicitly reasoned about each session, consuming context needed for actual thinking", "Hooks solve the habit gap by encoding deterministic behaviors that fire automatically without consuming the context window", "Expertise is not knowing more things but automatizing enough things that executive function can focus on what matters — agents need external automatization"]
----
 # Agentic Note-Taking 05: Hooks & The Habit Gap
 
 ![Article header image](Description: A black and white engraving-style illustration depicting a bearded craftsman or alchemist in a workshop. The figure is shown mid-motion at a workbench with bright sparks and light radiating from the central workspace. The workshop is filled with detailed medieval/alchemical tools: shelves containing various vessels and implements, a large clock on the wall, hooks and tools hanging from the right wall, arched brick archways on the left, and intricate artistic details throughout. The artistic style suggests themes of mastery, transformation, and meticulous craftsmanship.)

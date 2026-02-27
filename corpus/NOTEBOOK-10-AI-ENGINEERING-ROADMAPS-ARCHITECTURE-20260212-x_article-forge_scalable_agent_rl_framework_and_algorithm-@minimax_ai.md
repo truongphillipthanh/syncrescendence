@@ -1,9 +1,3 @@
----
-url: https://x.com/MiniMax_AI/status/2022175400093462661
-author: MiniMax (official) (@MiniMax_AI)
-captured_date: 2026-02-12
----
-
 # Forge: Scalable Agent RL Framework and Algorithm
 
 (Description: Coral-colored infographic banner with rounded border featuring the title "Forge: Scalable Agent RL Framework and Algorithm" with "M2.5" badge in red, decorated with emoji icons including a heart in a circle, smiley face, and thumbs up.)

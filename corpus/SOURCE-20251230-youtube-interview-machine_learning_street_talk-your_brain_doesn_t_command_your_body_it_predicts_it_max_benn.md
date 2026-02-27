@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-688
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "brain"
-  - "doesn"
-  - "command"
-  - "body"
-  - "predicts"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]"
-url: "https://www.youtube.com/watch?v=RvYSsi6rd4g"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3h 17m 10s"
-has_transcript: no
-synopsis: "Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett] by Machine Learning Street Talk. A interview covering brain, doesn, command."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Your Brain Doesn't Command"
-  - "Your Brain Doesn't Command Your Body."
----
-
 # Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]
 
 **Channel**: Machine Learning Street Talk

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-009
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "pro"
-  - "downfall"
-  - "benchmarks"
-  - "welcome"
-creator: "AI Explained"
-guest: null
-title: "Gemini 3.1 Pro and the Downfall of Benchmarks: Welcome to the Vibe Era of AI"
-url: "https://www.youtube.com/watch?v=2_DPnzoiHaY"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 50s"
-has_transcript: no
-synopsis: "Gemini 3.1 Pro and the Downfall of Benchmarks: Welcome to the Vibe Era of AI by AI Explained. A interview covering gemini, pro, downfall."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3.1 Pro and"
-  - "Gemini 3.1 Pro and the Downfall"
----
-
 # Gemini 3.1 Pro and the Downfall of Benchmarks: Welcome to the Vibe Era of AI
 
 **Channel**: AI Explained

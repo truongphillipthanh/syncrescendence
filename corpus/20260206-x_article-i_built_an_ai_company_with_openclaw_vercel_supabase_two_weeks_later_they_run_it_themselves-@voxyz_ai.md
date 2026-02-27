@@ -1,9 +1,3 @@
----
-url: https://x.com/Voxyz_ai/status/2019914775061270747
-author: Vox (@Voxyz_ai)
-captured_date: 2026-02-06
----
-
 # I Built an AI Company with OpenClaw + Vercel + Supabase — Two Weeks Later, They Run It Themselves
 
 (Description: Pixel-art illustration titled "THE AI OFFICE" showing 6 colorful robot characters at desks in a bright, modern office with windows, plants, charts on walls, and various workstations. Bots are engaged in different tasks—some at laptops, one at a control panel, others reviewing data.)

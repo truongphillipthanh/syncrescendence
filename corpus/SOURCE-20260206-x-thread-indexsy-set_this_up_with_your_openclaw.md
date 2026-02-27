@@ -1,21 +1,3 @@
----
-url: https://x.com/indexsy/status/2019657721314939014
-author: "Jacky Chou (@indexsy)"
-captured_date: 2026-02-05
-id: SOURCE-20260206-034
-original_filename: "20260206-x_thread-set_this_up_with_your_openclaw-@indexsy.md"
-status: triaged
-platform: x
-format: thread
-creator: indexsy
-signal_tier: tactical
-topics: [ai-agents, automation, tutorial, best-practices]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Jacky Chou - OpenClaw Memory System Setup"]
-synopsis: "Provides a complete copy-paste prompt to set up an advanced OpenClaw memory system with 8 configuration files: AGENTS.md (operating rules), SOUL.md (personality), USER.md (human context), MEMORY.md (long-term memory), HEARTBEAT.md (recurring tasks), TOOLS.md (environment config), IDENTITY.md (agent identity), and BOOTSTRAP.md (first-run guide). Recommends Opus 4.6 main agent with Kimi K2.5 subagent."
-key_insights: ["The 8-file memory kit transforms OpenClaw from a forgetful chatbot into a persistent assistant with cross-session memory, proactive heartbeats, and personality", "Daily memory files (memory/YYYY-MM-DD.md) plus weekly consolidation into MEMORY.md creates a compounding knowledge system", "Security.md should be loaded every session with prompt injection defenses as a core requirement, not an afterthought"]
----
 # OpenClaw Advanced Memory System Setup
 
 Set this up with your OpenClaw and never have issues with memory again... (bookmark for later)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-347
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "google"
-  - "deepmind"
-  - "demis"
-  - "hassabis"
-  - "paradox"
-creator: "Semafor"
-guest: null
-title: "Google DeepMind’s Demis Hassabis & The Paradox of AI Progress | Semafor Tech"
-url: "https://www.youtube.com/watch?v=6aXpIloAg2I"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 46s"
-has_transcript: no
-synopsis: "Google DeepMind’s Demis Hassabis & The Paradox of AI Progress | Semafor Tech by Semafor. A interview covering google, deepmind, demis."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google DeepMind’s Demis Hassabis"
-  - "Google DeepMind’s Demis Hassabis & The"
----
-
 # Google DeepMind’s Demis Hassabis & The Paradox of AI Progress | Semafor Tech
 
 **Channel**: Semafor

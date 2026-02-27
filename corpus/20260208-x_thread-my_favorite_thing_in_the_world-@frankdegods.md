@@ -1,9 +1,3 @@
----
-url: https://x.com/frankdegods/status/2020541790332342581
-author: @frankdegods
-captured_date: 2026-02-08
----
-
 ## Thread: X Research Skill Development
 
 ### Post 1 - Main Post

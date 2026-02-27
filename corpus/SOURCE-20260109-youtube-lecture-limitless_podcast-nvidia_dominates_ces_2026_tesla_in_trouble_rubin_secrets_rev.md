@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-553
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "dominates"
-  - "ces"
-  - "2026"
-  - "tesla"
-creator: "Limitless Podcast"
-guest: null
-title: "Nvidia Dominates CES 2026: Tesla in Trouble, Rubin Secrets Revealed"
-url: "https://www.youtube.com/watch?v=WUL3deO02UA"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 6s"
-has_transcript: no
-synopsis: "Nvidia Dominates CES 2026: Tesla in Trouble, Rubin Secrets Revealed by Limitless Podcast. A lecture covering nvidia, dominates, ces."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Nvidia Dominates CES 2026:"
-  - "Nvidia Dominates CES 2026: Tesla in"
----
-
 # Nvidia Dominates CES 2026: Tesla in Trouble, Rubin Secrets Revealed
 
 **Channel**: Limitless Podcast

@@ -1,36 +1,3 @@
----
-id: SOURCE-20260131-208
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "new"
-  - "unemployable"
-  - "class"
-creator: "How Money Works Uncut"
-guest: null
-title: "The New "Unemployable" Class"
-url: "https://www.youtube.com/watch?v=bdWzXAzzqYA"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "56m 14s"
-has_transcript: no
-synopsis: "The New "Unemployable" Class by How Money Works Uncut. A tutorial covering new, unemployable, class."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The New "Unemployable" Class"
----
-
 # The New "Unemployable" Class
 
 **Channel**: How Money Works Uncut

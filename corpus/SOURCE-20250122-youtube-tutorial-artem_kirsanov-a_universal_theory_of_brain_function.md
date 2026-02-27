@@ -1,38 +1,3 @@
----
-id: SOURCE-20250122-1029
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "universal"
-  - "theory"
-  - "brain"
-  - "function"
-creator: "Artem Kirsanov"
-guest: null
-title: "A Universal Theory of Brain Function"
-url: "https://www.youtube.com/watch?v=iPj9D9LgK2A"
-date_published: 2025-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 31s"
-has_transcript: no
-synopsis: "A Universal Theory of Brain Function by Artem Kirsanov. A tutorial covering universal, theory, brain."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "A Universal Theory of"
-  - "A Universal Theory of Brain Function"
----
-
 # A Universal Theory of Brain Function
 
 **Channel**: Artem Kirsanov

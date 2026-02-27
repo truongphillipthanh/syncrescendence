@@ -1,39 +1,3 @@
----
-id: SOURCE-20260130-246
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "turned"
-  - "clawdbot"
-  - "into"
-  - "ultimate"
-  - "personal"
-creator: "Nate Herk | AI Automation"
-guest: null
-title: "I Turned Clawdbot Into the Ultimate Personal Assistant"
-url: "https://www.youtube.com/watch?v=rlJovzVhlIo"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 38s"
-has_transcript: no
-synopsis: "I Turned Clawdbot Into the Ultimate Personal Assistant by Nate Herk | AI Automation. A tutorial covering turned, clawdbot, into."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "I Turned Clawdbot Into"
-  - "I Turned Clawdbot Into the Ultimate"
----
-
 # I Turned Clawdbot Into the Ultimate Personal Assistant
 
 **Channel**: Nate Herk | AI Automation

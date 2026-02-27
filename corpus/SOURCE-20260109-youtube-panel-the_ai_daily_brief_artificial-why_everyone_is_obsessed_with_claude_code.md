@@ -1,38 +1,3 @@
----
-id: SOURCE-20260109-594
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "everyone"
-  - "obsessed"
-  - "claude"
-  - "code"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Why Everyone Is Obsessed with Claude Code"
-url: "https://www.youtube.com/watch?v=_WXyavHYb5c"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 25s"
-has_transcript: no
-synopsis: "Why Everyone Is Obsessed with Claude Code by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering everyone, obsessed, claude."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Why Everyone Is Obsessed"
-  - "Why Everyone Is Obsessed with Claude"
----
-
 # Why Everyone Is Obsessed with Claude Code
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

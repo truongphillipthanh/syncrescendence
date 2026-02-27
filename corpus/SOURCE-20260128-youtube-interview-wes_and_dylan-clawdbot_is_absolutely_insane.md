@@ -1,36 +1,3 @@
----
-id: SOURCE-20260128-271
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "absolutely"
-  - "insane"
-creator: "Wes and Dylan"
-guest: null
-title: "Clawdbot is absolutely INSANE"
-url: "https://www.youtube.com/watch?v=6-wY_16PEx0"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 45m 44s"
-has_transcript: no
-synopsis: "Clawdbot is absolutely INSANE by Wes and Dylan. A interview covering clawdbot, absolutely, insane."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawdbot is absolutely INSANE"
----
-
 # Clawdbot is absolutely INSANE
 
 **Channel**: Wes and Dylan

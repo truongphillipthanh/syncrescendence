@@ -1,30 +1,3 @@
----
-url: https://x.com/KimiProduct/status/2018989483258183742
-author: "Kimi Product (@KimiProduct)"
-captured_date: 2026-02-04
-id: SOURCE-20260204-007
-original_filename: "20260204-x_article-kimi_x_openclaw_the_simplest_setup_yet-@kimiproduct.md"
-status: triaged
-platform: x
-format: article
-creator: kimiproduct
-signal_tier: tactical
-topics:
-  - ai-agents
-  - github-copilot
-  - api
-  - cost-optimization
-  - token-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Kimi  OpenClaw  The Simplest Setup Yet"
-synopsis: "Kimi × OpenClaw — The Simplest Setup Yet × Kimi (white K logo on dark background)) Kimi K2.5 is currently the #1 most-used model for OpenClaw on OpenRouter! We previously shared a guide on running Kimi with OpenClaw. Since then, a lot has changed — for the better. OpenClaw now natively supports Kimi K2.5, which means the setup becomes a lot simpler. Here's an updated step-by-step guide."
-key_insights:
-  - "Select `Kimi Code API Key` , Kimi API key (.cn), and Kimi Code API key (subscription) highlighted) 2."
-  - "Create your API Key and make sure to copy it 4."
-  - "Select `Kimi API Key (.ai)` Or `Kimi API key (.cn)` depending on where you usually top up your API credits."
----
 # Kimi × OpenClaw — The Simplest Setup Yet
 
 (Description: A horizontal banner showing three logos connected by multiplication symbols: OpenClaw mascot (red character) × Kimi (white K logo on dark background))

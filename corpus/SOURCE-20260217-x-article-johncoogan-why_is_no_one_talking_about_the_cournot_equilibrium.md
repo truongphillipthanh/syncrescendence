@@ -1,24 +1,3 @@
----
-url: https://x.com/johncoogan/status/2023832750848159755
-author: "John Coogan (@johncoogan)"
-captured_date: 2026-02-17
-id: SOURCE-20260217-008
-original_filename: "20260217-x_article-why_is_no_one_talking_about_the_cournot_equilibrium-@johncoogan.md"
-status: triaged
-platform: x
-format: article
-creator: johncoogan
-signal_tier: strategic
-topics: [economics, ai-industry, business-strategy]
-teleology: contextualize
-notebooklm_category: career-growth
-aliases: ["johncoogan - Cournot equilibrium in AI labs"]
-synopsis: "Analysis of Dario Amodei's invocation of Cournot equilibrium to explain AI lab economics. Breaks frontier labs into two businesses (model training as depreciating asset, inference as manufacturing). Argues the oligopoly of frontier labs competes on supply rather than price, keeping margins high. If exponential progress slows, competition shifts from Cournot to Bertrand, resembling the AWS/Azure/GCP hyperscaler dynamic."
-key_insights:
-  - "Two businesses inside every frontier lab: training (depreciating asset with each new frontier model) and inference (manufacturing business with positive contribution margins)"
-  - "Cournot equilibrium: small number of frontier labs compete on supply (data centers, GPUs, capacity allocation) not price — margins stay high as long as frontier access has no good substitutes"
-  - "If we reach 'final models,' competition shifts from Cournot to Bertrand — resembling the hyperscaler cloud market with differentiation on latency, safety, and enterprise tooling"
----
 # Why Is No One Talking About the Cournot Equilibrium?
 (Description: A podcast screenshot featuring a man wearing glasses and a blue cardigan, seated in front of a microphone. To his left is a large "f" logo with a glowing green dot. Behind him is a wooden-paneled wall, geometric patterns, and professional recording equipment. A "RODE" microphone is visible in the background. TBPN branding appears at the bottom right.)
 ## Introduction

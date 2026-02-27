@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-268
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "early"
-  - "human"
-  - "life"
-  - "short"
-  - "history"
-creator: "Human History for Sleep"
-guest: null
-title: "Why Was Early Human Life So Short? | History for Sleep"
-url: "https://www.youtube.com/watch?v=OmfG_h-lOCA"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 31m 35s"
-has_transcript: no
-synopsis: "Why Was Early Human Life So Short? | History for Sleep by Human History for Sleep. A lecture covering early, human, life."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why Was Early Human"
-  - "Why Was Early Human Life So"
----
-
 # Why Was Early Human Life So Short? | History for Sleep
 
 **Channel**: Human History for Sleep

@@ -1,15 +1,3 @@
----
-agent: adjudicator
-priority: P1
-category: sensing
-frequency: daily
-schedule: "08:00"
-launchd_agent: com.syncrescendence.sensing-ecosystem-health
-description: >
-  Audit health of all infrastructure: MCP servers, launchd agents, Docker containers,
-  CLI tools, and critical file paths. Report failures and drift.
----
-
 # SENSING: Ecosystem Health Audit
 
 **From**: Scheduler (launchd/claudecron)

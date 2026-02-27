@@ -1,39 +1,3 @@
----
-id: SOURCE-20260208-133
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "make"
-  - "claude"
-  - "code"
-  - "better"
-  - "time"
-creator: "Peter Yang"
-guest: null
-title: "How to Make Claude Code Better Every Time You Use It (50 Min Tutorial) | Kieran Klaassen"
-url: "https://www.youtube.com/watch?v=g6z_4TMDiaE"
-date_published: 2026-02-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "53m 52s"
-has_transcript: no
-synopsis: "How to Make Claude Code Better Every Time You Use It (50 Min Tutorial) | Kieran Klaassen by Peter Yang. A interview covering make, claude, code."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How to Make Claude"
-  - "How to Make Claude Code Better"
----
-
 # How to Make Claude Code Better Every Time You Use It (50 Min Tutorial) | Kieran Klaassen
 
 **Channel**: Peter Yang

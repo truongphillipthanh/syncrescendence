@@ -1,39 +1,3 @@
----
-id: SOURCE-20260131-217
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "rule"
-  - "prompt"
-  - "stops"
-  - "chatgpt"
-  - "gemini"
-creator: "Dylan Davis"
-guest: null
-title: "The 3-Rule Prompt That Stops ChatGPT, Gemini, and Claude From Guessing"
-url: "https://www.youtube.com/watch?v=EH8Mdx948Kw"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 55s"
-has_transcript: no
-synopsis: "The 3-Rule Prompt That Stops ChatGPT, Gemini, and Claude From Guessing by Dylan Davis. A lecture covering rule, prompt, stops."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "The 3-Rule Prompt That"
-  - "The 3-Rule Prompt That Stops ChatGPT,"
----
-
 # The 3-Rule Prompt That Stops ChatGPT, Gemini, and Claude From Guessing
 
 **Channel**: Dylan Davis

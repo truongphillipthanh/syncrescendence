@@ -1,30 +1,3 @@
----
-id: SOURCE-20260118-x-article-rohit4verse-how_to_build_an_agent_that_never_forgets
-platform: x
-format: article
-creator: rohit4verse
-title: how to build an agent that never forgets
-status: triaged
-original_filename: "20260118-x_article-how_to_build_an_agent_that_never_forgets-@rohit4verse.md"
-url: "https://x.com/rohit4verse/status/2012925228159295810"
-author: "Rohit (@rohit4verse)"
-captured_date: "2026-01-18"
-signal_tier: strategic
-topics:
-  - "ai-agents"
-  - "ai-engineering"
-  - "context-engineering"
-  - "memory-systems"
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Rohit - Agent That Never Forgets"
-synopsis: "Deep dive into building persistent agent memory beyond simple RAG. Argues memory is infrastructure not a feature, showing how naive approaches (context stuffing, vector similarity) fail at scale with contradictions and temporal confusion. Presents a multi-tier memory architecture."
-key_insights:
-  - "Memory is infrastructure not a feature: conversation history is just a chat log, and naive vector retrieval produces contradictory fragments at scale"
-  - "After weeks of interactions, similarity search returns temporally confused fragments that the agent cannot reconcile without explicit memory management"
-  - "A multi-tier memory system with episodic, semantic, and procedural layers solves the contradiction and staleness problems that RAG alone cannot"
----
 # How to Build an Agent That Never Forgets
 
 (Description: Abstract neural network visualization with a circular/spherical AI design featuring interconnected nodes and pathways on a dark background)

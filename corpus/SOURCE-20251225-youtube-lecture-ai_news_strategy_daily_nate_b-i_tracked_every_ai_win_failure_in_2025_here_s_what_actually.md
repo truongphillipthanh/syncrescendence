@@ -1,39 +1,3 @@
----
-id: SOURCE-20251225-725
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "tracked"
-  - "win"
-  - "failure"
-  - "2025"
-  - "here"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "I Tracked Every AI Win & Failure in 2025. Here's What Actually Worked (9 Surprises)"
-url: "https://www.youtube.com/watch?v=uVZMc-i5EEs"
-date_published: 2025-12-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 52s"
-has_transcript: no
-synopsis: "I Tracked Every AI Win & Failure in 2025. Here's What Actually Worked (9 Surprises) by AI News & Strategy Daily | Nate B Jones. A lecture covering tracked, win, failure."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "I Tracked Every AI"
-  - "I Tracked Every AI Win &"
----
-
 # I Tracked Every AI Win & Failure in 2025. Here's What Actually Worked (9 Surprises)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

@@ -1,25 +1,3 @@
----
-url: https://x.com/Meer_AIIT/status/2023763364502008002
-author: "@Meer_AIIT"
-captured_date: 2026-02-17
-title: The Complete Guide to Building Skills for Claude
-id: SOURCE-20260217-009
-original_filename: "20260217-x_article-the_complete_guide_to_building_skills_for_claude-@meer_aiit.md"
-status: triaged
-platform: x
-format: article
-creator: meer_aiit
-signal_tier: strategic
-topics: [claude-code, developer-tools, ai-engineering, best-practices]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["meer_aiit - complete guide to building Claude skills"]
-synopsis: "Comprehensive breakdown of Anthropic's 33-page Skills guide. Covers skill folder structure (SKILL.md, scripts, references, assets), three-level loading (hook/instructions/deep), YAML frontmatter design, three skill categories (making stuff, running processes, making MCP better), testing approaches, distribution via Claude.ai/Code/API, and four implementation patterns (sequential workflows, multi-tool coordination, iterative improvement, smart tool selection)."
-key_insights:
-  - "Skills have three loading levels: hook (always in system prompt), instructions (loaded when relevant), deep files (discovered on demand) — keeps context small until needed"
-  - "MCP gives Claude the tools, Skills teach Claude how to use them — without skills, users connect MCP and ask 'now what?' and every session starts from zero"
-  - "Four skill patterns: sequential workflows (ordered steps with validation), multi-tool coordination (phase handoffs), iterative improvement (quality-gated refinement), and smart tool selection (context-dependent routing)"
----
 # The Complete Guide to Building Skills for Claude
 *Anthropic just dropped a 33-page guide on building Skills for Claude. I broke it down so you don't have to read the whole thing.*
 By the end of this article, you'll know what Skills are, how they work, and how to build one from scratch. No fluff, just what you need:

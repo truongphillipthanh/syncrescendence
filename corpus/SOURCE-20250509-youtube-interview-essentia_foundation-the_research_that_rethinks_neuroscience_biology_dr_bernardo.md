@@ -1,39 +1,3 @@
----
-id: SOURCE-20250509-1028
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "research"
-  - "rethinks"
-  - "neuroscience"
-  - "biology"
-  - "bernardo"
-creator: "Essentia Foundation"
-guest: null
-title: "The Research That Rethinks Neuroscience & Biology | Dr. Bernardo Kastrup"
-url: "https://www.youtube.com/watch?v=UUg1uYMq8vs"
-date_published: 2025-05-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 19m"
-has_transcript: no
-synopsis: "The Research That Rethinks Neuroscience & Biology | Dr. Bernardo Kastrup by Essentia Foundation. A interview covering research, rethinks, neuroscience."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Research That Rethinks"
-  - "The Research That Rethinks Neuroscience &"
----
-
 # The Research That Rethinks Neuroscience & Biology | Dr. Bernardo Kastrup
 
 **Channel**: Essentia Foundation

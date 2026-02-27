@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-281
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "conscious"
-  - "roger"
-  - "penrose"
-  - "sabrina"
-creator: "The Institute of Art and Ideas"
-guest: null
-title: "Could ChatGPT be conscious? | Roger Penrose, Sabrina Gonzalez, Max Tegmark"
-url: "https://www.youtube.com/watch?v=gLSQ4Hs2_OA"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 58s"
-has_transcript: no
-synopsis: "Could ChatGPT be conscious? | Roger Penrose, Sabrina Gonzalez, Max Tegmark by The Institute of Art and Ideas. A lecture covering chatgpt, conscious, roger."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Could ChatGPT be conscious?"
-  - "Could ChatGPT be conscious? | Roger"
----
-
 # Could ChatGPT be conscious? | Roger Penrose, Sabrina Gonzalez, Max Tegmark
 
 **Channel**: The Institute of Art and Ideas

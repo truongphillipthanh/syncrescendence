@@ -1,39 +1,3 @@
----
-id: SOURCE-20260131-221
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "just"
-  - "got"
-  - "scary"
-  - "moltbook"
-creator: "Matthew Berman"
-guest: null
-title: "Clawdbot just got scary (Moltbook)"
-url: "https://www.youtube.com/watch?v=-fmNzXCp7zA"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 23s"
-has_transcript: no
-synopsis: "Clawdbot just got scary (Moltbook) by Matthew Berman. A lecture covering clawdbot, just, got."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawdbot just got scary"
-  - "Clawdbot just got scary (Moltbook)"
----
-
 # Clawdbot just got scary (Moltbook)
 
 **Channel**: Matthew Berman

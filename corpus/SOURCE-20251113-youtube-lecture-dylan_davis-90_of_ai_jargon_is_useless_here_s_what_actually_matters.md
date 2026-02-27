@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-1132
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "jargon"
-  - "useless"
-  - "here"
-  - "actually"
-  - "matters"
-creator: "Dylan Davis"
-guest: null
-title: "90% of AI Jargon Is Useless — Here's What Actually Matters"
-url: "https://www.youtube.com/watch?v=m2rsWawXq_w"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 39s"
-has_transcript: no
-synopsis: "90% of AI Jargon Is Useless — Here's What Actually Matters by Dylan Davis. A lecture covering jargon, useless, here."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "90% of AI Jargon"
-  - "90% of AI Jargon Is Useless"
----
-
 # 90% of AI Jargon Is Useless — Here's What Actually Matters
 
 **Channel**: Dylan Davis

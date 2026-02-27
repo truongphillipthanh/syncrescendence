@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-337
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "andrew"
-  - "wilkinson"
-  - "uses"
-  - "opus"
-  - "work"
-creator: "Every"
-guest: null
-title: "How Andrew Wilkinson Uses Opus 4.5  in His Work and Life"
-url: "https://www.youtube.com/watch?v=WDQ-lMvqx90"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 58s"
-has_transcript: no
-synopsis: "How Andrew Wilkinson Uses Opus 4.5  in His Work and Life by Every. A lecture covering andrew, wilkinson, uses."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How Andrew Wilkinson Uses"
-  - "How Andrew Wilkinson Uses Opus 4.5"
----
-
 # How Andrew Wilkinson Uses Opus 4.5  in His Work and Life
 
 **Channel**: Every

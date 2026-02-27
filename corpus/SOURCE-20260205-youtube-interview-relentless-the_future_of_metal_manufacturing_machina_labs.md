@@ -1,39 +1,3 @@
----
-id: SOURCE-20260205-129
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "future"
-  - "metal"
-  - "manufacturing"
-  - "machina"
-  - "labs"
-creator: "Relentless"
-guest: null
-title: "The Future of Metal Manufacturing | Machina Labs"
-url: "https://www.youtube.com/watch?v=JQpwOkDUHvg"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 20m 56s"
-has_transcript: no
-synopsis: "The Future of Metal Manufacturing | Machina Labs by Relentless. A interview covering future, metal, manufacturing."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Future of Metal"
-  - "The Future of Metal Manufacturing |"
----
-
 # The Future of Metal Manufacturing | Machina Labs
 
 **Channel**: Relentless

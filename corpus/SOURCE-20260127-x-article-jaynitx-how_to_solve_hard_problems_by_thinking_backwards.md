@@ -1,30 +1,3 @@
----
-id: SOURCE-20260127-x-article-jaynitx-how_to_solve_hard_problems_by_thinking_backwards
-platform: x
-format: article
-creator: jaynitx
-title: how to solve hard problems by thinking backwards
-status: triaged
-original_filename: "20260127-x_article-how_to_solve_hard_problems_by_thinking_backwards-@jaynitx.md"
-url: https://x.com/jaynitx/status/2016120120746377497
-author: "Jaynit (@jaynitx)"
-captured_date: 2026-01-27
-signal_tier: strategic
-topics:
-  - philosophy
-  - best-practices
-  - entrepreneurship
-  - framework
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Jaynit - inversion thinking Munger"
-synopsis: "Deep exploration of Charlie Munger's inversion principle — solving problems by asking 'what would guarantee failure?' rather than 'how do I succeed?' Covers pre-mortems, Bezos's regret minimization framework, and the concept of 'unforced errors' in business and life. Includes personal application examples."
-key_insights:
-  - "The paths to failure are few and well-documented while paths to success are many and uncertain — avoiding obvious failure modes outperforms chasing clever strategies."
-  - "Pre-mortems (imagining a project has already failed and asking why) surface concerns people are afraid to voice, making them more effective than optimistic planning."
-  - "Fear of failure and fear of success are the same underlying fear — the fear of discovering what you're actually capable of — and inversion exposes the failure paths you're already walking down."
----
 # How to solve hard problems by thinking backwards
 
 (Description: A diagram on a gridded background with the title "Invert, Always Invert" at top. A brain illustration is centered with a red arrow labeled "99%" pointing left toward a box with double arrows, and a green arrow labeled "1%" pointing right toward another box with double arrows. Visual metaphor for the predominance of backward thinking approaches versus forward thinking.)

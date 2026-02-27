@@ -1,36 +1,3 @@
----
-id: SOURCE-20260205-082
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "using"
-  - "tailscale"
-creator: "Syntax"
-guest: null
-title: "You Should Be Using Tailscale"
-url: "https://www.youtube.com/watch?v=G0sEM9ijkTE"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 58s"
-has_transcript: no
-synopsis: "You Should Be Using Tailscale by Syntax. A lecture covering using, tailscale."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "You Should Be Using"
-  - "You Should Be Using Tailscale"
----
-
 # You Should Be Using Tailscale
 
 **Channel**: Syntax

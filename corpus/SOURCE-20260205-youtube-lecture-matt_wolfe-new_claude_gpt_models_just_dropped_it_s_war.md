@@ -1,39 +1,3 @@
----
-id: SOURCE-20260205-170
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "new"
-  - "claude"
-  - "gpt"
-  - "models"
-  - "just"
-creator: "Matt Wolfe"
-guest: null
-title: "New Claude & GPT Models Just Dropped (It's War!)"
-url: "https://www.youtube.com/watch?v=9f2egsZZjnw"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 22s"
-has_transcript: no
-synopsis: "New Claude & GPT Models Just Dropped (It's War!) by Matt Wolfe. A lecture covering new, claude, gpt."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "New Claude & GPT"
-  - "New Claude & GPT Models Just"
----
-
 # New Claude & GPT Models Just Dropped (It's War!)
 
 **Channel**: Matt Wolfe

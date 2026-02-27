@@ -1,11 +1,3 @@
----
-id: DEC-20260204-213941-native-swarms-substrate
-kind: DECISION_ATOM
-scope: substrate
-status: provisional
-updated: 2026-02-04
----
-
 Decision ID: DEC-20260204-213941-native-swarms-substrate
 Choice: Treat **platform-native swarms** as first-class execution substrate. Shift routing from “task → single model” toward “task → platform swarm profile,” with a normalized cross-swarm **handoff packet** and explicit **trust/approval gradients** for side effects.
 Why (lens 1-2): Meet the Moment (native swarms proliferating across platforms), Potency Without Resolution Loss (use native power without locking in; normalize interface)

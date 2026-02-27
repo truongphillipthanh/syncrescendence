@@ -1,16 +1,3 @@
----
-name: Readability Response Transformer
-description: Transform any prompt to generate responses exhibiting crystalline intellectual density, recursive coherence, and architectonic elegance optimized for reading
-trigger_phrases:
-  - "optimize for reading"
-  - "make this read-optimized"
-  - "crystalline response"
-  - "elevate this prompt"
-  - "transform for readability"
-version: 1.0
-model_compatibility: claude-3-5-sonnet, claude-opus-4
----
-
 # Readability Response Transformer
 
 Accept any existing prompt and output a transformed version that generates responses exhibiting crystalline intellectual density, recursive coherence, and architectonic elegance optimized for visual reading comprehension.

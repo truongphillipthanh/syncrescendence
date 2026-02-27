@@ -1,10 +1,3 @@
----
-id: ref-fleet_commanders_handbook
-kind: reference
-scope: engine
-target: engine
----
-
 # FLEET COMMANDER'S HANDBOOK: Syncrescendent Edition
 ## Non-Coding Claude Code for Distributed Cognition
 

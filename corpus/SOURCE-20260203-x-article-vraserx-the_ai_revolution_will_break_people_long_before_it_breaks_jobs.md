@@ -1,35 +1,3 @@
----
-url: https://x.com/VraserX/status/2018596863029411955
-author: "VraserX e/acc (@VraserX)"
-captured_date: 2026-02-13
-article_published: 2026-02-03T12:06:00Z
-engagement: 
-replies: 18
-reposts: 9
-likes: 88
-bookmarks: 60
-views: 6654
-id: SOURCE-20260203-027
-original_filename: "20260203-x_article-the_ai_revolution_will_break_people_long_before_it_breaks_jobs-@vraserx.md"
-status: triaged
-platform: x
-format: article
-creator: vraserx
-signal_tier: paradigm
-topics:
-  - automation
-  - extended-thinking
-  - synthesize-pattern
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The AI Revolution Will Break People Long Before It Breaks Jo"
-synopsis: "The AI Revolution Will Break People Long Before It Breaks Jobs Introduction When people look back on the rise of artificial intelligence, many will assume the shock was primarily technological. Faster systems, smarter models, large-scale automation. That explanation will sound logical, but it will miss what actually unsettled people at a deeper level. The true disruption was psychological."
-key_insights:
-  - "Yet something important changed beneath the surface."
-  - "The AI Revolution Will Break People Long Before It Breaks Jobs Introduction When people look back on the rise of artificial intelligence, many will assume the shock was primarily technological."
-  - "Faster systems, smarter models, large-scale automation."
----
 # The AI Revolution Will Break People Long Before It Breaks Jobs
 
 (Description: A dramatic cinematic image showing a silhouetted figure of a person facing forward, surrounded by radiating white light and digital circuit board patterns in shades of blue and teal, creating a sense of confrontation with technology and illumination.)

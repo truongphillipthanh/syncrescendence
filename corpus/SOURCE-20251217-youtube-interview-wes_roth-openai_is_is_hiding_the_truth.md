@@ -1,37 +1,3 @@
----
-id: SOURCE-20251217-809
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "hiding"
-  - "truth"
-creator: "Wes Roth"
-guest: null
-title: "OpenAI is "Is Hiding the Truth""
-url: "https://www.youtube.com/watch?v=NhMq52kqjC4"
-date_published: 2025-12-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 58s"
-has_transcript: no
-synopsis: "OpenAI is "Is Hiding the Truth" by Wes Roth. A interview covering openai, hiding, truth."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI is "Is Hiding"
-  - "OpenAI is "Is Hiding the Truth""
----
-
 # OpenAI is "Is Hiding the Truth"
 
 **Channel**: Wes Roth

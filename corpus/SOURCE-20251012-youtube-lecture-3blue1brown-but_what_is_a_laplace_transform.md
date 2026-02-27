@@ -1,37 +1,3 @@
----
-id: SOURCE-20251012-754
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "but"
-  - "laplace"
-  - "transform"
-creator: "3Blue1Brown"
-guest: null
-title: "But what is a Laplace Transform?"
-url: "https://www.youtube.com/watch?v=j0wJBEZdwLs"
-date_published: 2025-10-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 41s"
-has_transcript: no
-synopsis: "But what is a Laplace Transform? by 3Blue1Brown. A lecture covering but, laplace, transform."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "But what is a"
-  - "But what is a Laplace Transform?"
----
-
 # But what is a Laplace Transform?
 
 **Channel**: 3Blue1Brown

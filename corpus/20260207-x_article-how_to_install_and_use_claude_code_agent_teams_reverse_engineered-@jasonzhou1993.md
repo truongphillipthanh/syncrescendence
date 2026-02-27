@@ -1,9 +1,3 @@
----
-url: https://x.com/jasonzhou1993/status/2020086991740891526
-author: Jason Zhou (@jasonzhou1993)
-captured_date: 2026-02-13
----
-
 # How to install and use Claude Code Agent Teams (Reverse-engineered)
 
 (Description: Pixel art style header with large orange text reading "AGENT TEAMS" accompanied by three pixelated robot/character icons on the right side)

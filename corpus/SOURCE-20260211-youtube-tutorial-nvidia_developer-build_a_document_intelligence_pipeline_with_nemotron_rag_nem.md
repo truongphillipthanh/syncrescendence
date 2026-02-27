@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-100
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "build"
-  - "document"
-  - "intelligence"
-  - "pipeline"
-  - "nemotron"
-creator: "NVIDIA Developer"
-guest: null
-title: "Build a Document Intelligence Pipeline With Nemotron RAG | Nemotron Labs"
-url: "https://www.youtube.com/watch?v=8uNnpnzYoqw"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "58m 35s"
-has_transcript: no
-synopsis: "Build a Document Intelligence Pipeline With Nemotron RAG | Nemotron Labs by NVIDIA Developer. A tutorial covering build, document, intelligence."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Build a Document Intelligence"
-  - "Build a Document Intelligence Pipeline With"
----
-
 # Build a Document Intelligence Pipeline With Nemotron RAG | Nemotron Labs
 
 **Channel**: NVIDIA Developer

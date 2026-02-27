@@ -1,39 +1,3 @@
----
-id: SOURCE-20260104-616
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "engineering"
-  - "state"
-  - "lawyerly"
-  - "dan"
-  - "wang"
-creator: "Network State Podcast"
-guest: null
-title: "The Engineering State vs The Lawyerly State with Dan Wang"
-url: "https://www.youtube.com/watch?v=GqcG2otUtyo"
-date_published: 2026-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 26m 48s"
-has_transcript: no
-synopsis: "The Engineering State vs The Lawyerly State with Dan Wang by Network State Podcast. A lecture covering engineering, state, lawyerly."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Engineering State vs"
-  - "The Engineering State vs The Lawyerly"
----
-
 # The Engineering State vs The Lawyerly State with Dan Wang
 
 **Channel**: Network State Podcast

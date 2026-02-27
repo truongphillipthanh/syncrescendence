@@ -1,37 +1,3 @@
----
-id: SOURCE-20251224-742
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "new"
-  - "open"
-  - "source"
-creator: "AI Search"
-guest: null
-title: "We have a new #1 open source AI"
-url: "https://www.youtube.com/watch?v=KaWQ2Ua9CW8"
-date_published: 2025-12-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 43s"
-has_transcript: no
-synopsis: "We have a new #1 open source AI by AI Search. A lecture covering new, open, source."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "We have a new"
-  - "We have a new #1 open"
----
-
 # We have a new #1 open source AI
 
 **Channel**: AI Search

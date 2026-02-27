@@ -1,21 +1,3 @@
----
-url: https://x.com/poof_eth/status/2020541601739579626
-author: "poof (@poof_eth)"
-captured_date: 2026-02-08
-id: SOURCE-20260208-017
-original_filename: "20260208-x_thread-by_popular_demand_here_are_my-@poof_eth.md"
-status: triaged
-platform: x
-format: thread
-creator: poof_eth
-signal_tier: tactical
-topics: [ai-engineering, developer-tools, best-practices]
-teleology: implement
-notebooklm_category: ai-engineering
-aliases: ["poof_eth - Agent Coding Tips"]
-synopsis: "Practical tips and tricks for agent-assisted coding, covering model selection by task type, with Codex excelling at ML/AI work and Opus being more pragmatic for general development."
-key_insights: ["Best model choice is task-dependent not universally one model", "Codex 5.2/5.3 outperforms on AI/ML/PyTorch tasks specifically", "Opus 4.5/4.6 is more pragmatic and faster for general coding"]
----
 # Agent Coding Tips and Tricks
 
 by popular demand, here are my agent coding tips and tricks that **YOU MUST know or be LEFT BEHIND FOREVER:**

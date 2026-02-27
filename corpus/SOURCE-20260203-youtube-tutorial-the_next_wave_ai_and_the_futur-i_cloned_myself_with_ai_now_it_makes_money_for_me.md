@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-198
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "cloned"
-  - "myself"
-  - "now"
-  - "makes"
-  - "money"
-creator: "The Next Wave - AI and the Future of Technology"
-guest: null
-title: "I Cloned Myself With AI (Now It Makes Money For Me)"
-url: "https://www.youtube.com/watch?v=oUZLO426xW4"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "40m 30s"
-has_transcript: no
-synopsis: "I Cloned Myself With AI (Now It Makes Money For Me) by The Next Wave - AI and the Future of Technology. A tutorial covering cloned, myself, now."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "I Cloned Myself With"
-  - "I Cloned Myself With AI (Now"
----
-
 # I Cloned Myself With AI (Now It Makes Money For Me)
 
 **Channel**: The Next Wave - AI and the Future of Technology

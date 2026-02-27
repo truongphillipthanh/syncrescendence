@@ -1,29 +1,3 @@
----
-url: https://x.com/oprydai/status/2019418290087723196
-author: "Mustafa (@oprydai)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-013
-original_filename: "20260205-x_article-how_to_build_a_tony_stark_like_home_lab-@oprydai.md"
-status: triaged
-platform: x
-format: article
-creator: oprydai
-signal_tier: tactical
-topics:
-  - testing
-  - git
-  - extended-thinking
-  - api
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "How to Build a Tony Stark Like HomeLab"
-synopsis: "How to Build a Tony Stark Like Home-Lab > (not aesthetic. real.) A tony stark lab is not about holograms and blue lights. It's about **tight feedback loops between thinking, building, and testing**. This is a systems problem, not a shopping problem."
-key_insights:
-  - "You should: - Log experiments - Version hardware revisions - Document failures - Anno."
-  - "How to Build a Tony Stark Like Home-Lab > (not aesthetic."
-  - "real.) A tony stark lab is not about holograms and blue lights."
----
 # How to Build a Tony Stark Like Home-Lab
 
 (Description: Composite image from Marvel films showing Tony Stark working in his lab. Left panel shows illuminated holographic interface panels in blue. Center panel depicts a man in black shirt with the Arc Reactor symbol, working at a bench. Right panel shows additional laboratory equipment and armor suits in the background. The aesthetic emphasizes functional workshop environment with advanced technology integration.)

@@ -1,35 +1,3 @@
----
-id: SOURCE-20260121-002
-title: "The Future Of Work When Work Is Meaningless @Thedankoe"
-platform: x
-format: article
-creator: DAN KOE (thedankoe)
-date_published: 20260121
-status: triaged
-original_filename: "research/20260121-x_article-the_future_of_work_when_work_is_meaningless-@thedankoe.md"
-aliases:
-  - "Dan Koe Future of Work"
-  - "Meaning Crisis Work"
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-synopsis: "Dan Koe explores what happens to creative work and meaning when AI automates most production. Traces the meaning crisis through societal evolution (premodern to metamodern), argues that meaning itself becomes the scarce good in a post-AGI economy, and proposes that human experience, struggle, and curiosity are the irreplaceable elements."
-key_insights:
-  - "In a world without scarcity, becoming the scarce good requires cultivating irreplaceable human qualities — lived experience, taste, and meaning-making capacity"
-  - "The meaning crisis predates AI — automation merely accelerates the collapse of meaning structures that industrialization already hollowed out"
-  - "Creative work survives AGI precisely because it emerges from subjective human experience that cannot be replicated by pattern-matching"
-topics:
-  - philosophy
-  - career
-  - content-creation
-  - ai-engineering
-  - opinion
-  - framework
-signal_tier: paradigm
-url: "https://x.com/thedankoe/status/2014022520513634718"
-author: "DAN KOE (@thedankoe)"
-captured_date: 2026-01-21
----
-
 # The Future of Work When Work Is Meaningless
 
 Everyone is worried about whether or not AI will replace them.

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251115-1118
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "scientists"
-  - "found"
-  - "mechanical"
-  - "flaw"
-  - "then"
-creator: "Dylan Curious"
-guest: null
-title: "Scientists Found a “Mechanical Flaw”… Then Turned It Into a Superpower"
-url: "https://www.youtube.com/watch?v=vTZRV-Sa1IA"
-date_published: 2025-11-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 39s"
-has_transcript: no
-synopsis: "Scientists Found a “Mechanical Flaw”… Then Turned It Into a Superpower by Dylan Curious. A lecture covering scientists, found, mechanical."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Scientists Found a “Mechanical"
-  - "Scientists Found a “Mechanical Flaw”… Then"
----
-
 # Scientists Found a “Mechanical Flaw”… Then Turned It Into a Superpower
 
 **Channel**: Dylan Curious

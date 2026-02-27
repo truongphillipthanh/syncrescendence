@@ -1,30 +1,3 @@
----
-id: SOURCE-20250918-x-thread-sebkrier-think_our_entire_ontology
-platform: x
-format: thread
-creator: sebkrier
-title: think our entire ontology
-status: triaged
-original_filename: "20250918-x_thread-think_our_entire_ontology-@sebkrier.md"
-url: https://x.com/sebkrier/status/1968753358216302894
-author: "Sèb Krier (@sebkrier)"
-captured_date: 2026-02-04
-signal_tier: strategic
-topics:
-  - "ai-engineering"
-  - "philosophy"
-  - "economics"
-  - "opinion"
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Krier - AGI Ontology Confusion"
-synopsis: "Seb Krier argues our entire ontology for conceptualizing AI is confused. AGI will be a distributed ecosystem of models from different actors—saying we need to prepare for AGI is like saying we need to prepare for The Economy. Alignment is governance, not a one-off technical fix."
-key_insights:
-  - "Talking about AGI as a monolithic entity is a category error—it will be a distributed ecosystem of different models with different capabilities and incentive structures"
-  - "Solving alignment in the broad sense is equivalent to solving truth or solving conflict—it is perpetual governance, not a one-off technical solution"
-  - "The discourse risks cementing bad memes (like nuclear energy stigma) that take decades to undo"
----
 # AGI Ontology and Conceptualization Thread
 
 ## Post 1: Main Thread (Sep 18, 2025)

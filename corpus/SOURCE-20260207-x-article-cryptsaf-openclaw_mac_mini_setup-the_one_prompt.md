@@ -1,21 +1,3 @@
----
-url: https://x.com/CrypSaf/status/2020211635579756905
-author: "SafZ (@CrypSaf)"
-captured_date: 2026-02-13
-id: SOURCE-20260207-005
-original_filename: "20260207-x_article-openclaw_mac_mini_setup-the_one_prompt-@cryptsaf.md"
-status: triaged
-platform: x
-format: article
-creator: cryptsaf
-signal_tier: tactical
-topics: [ai-agents, automation, tutorial]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["CrypSaf - OpenClaw Mac Mini Setup"]
-synopsis: "A single-prompt setup guide for OpenClaw on Mac Mini that addresses common pitfalls: picking Opus as default model (causing $300/week bills) and poor memory configuration. Provides the optimal configuration in one copy-paste prompt."
-key_insights: ["Most OpenClaw users waste money by defaulting to Opus for all tasks — model tiering is essential from day one", "A single well-crafted setup prompt can prevent the two most common OpenClaw pitfalls: excessive API costs and memory loss", "Mac Mini is the recommended dedicated hardware for always-on OpenClaw agents"]
----
 # OpenClaw Mac Mini Setup - The One Prompt 🦞
 
 (Description: A dark-themed hero image featuring a Mac Mini computer on the left, security lock icon, lightning bolt symbol, and a cartoon lobster emoji on the right. Text overlay reads "GET STARTED / OpenClaw × Mac Mini – The Only Setup Guide You Need" with neon cyan and purple accents.)

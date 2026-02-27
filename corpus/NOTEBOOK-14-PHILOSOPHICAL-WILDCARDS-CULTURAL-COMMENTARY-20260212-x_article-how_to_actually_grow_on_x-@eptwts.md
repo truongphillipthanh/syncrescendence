@@ -1,10 +1,3 @@
----
-url: https://x.com/eptwts/status/2021947976831148445
-author: EP (@eptwts)
-captured_date: 2026-02-12
-engagement: 54 replies, 78 reposts, 1055 likes, 3191 bookmarks, 313730 views
----
-
 # How to ACTUALLY Grow on X
 
 [Description: Stylized article header screenshot showing author EP's profile card with verified badge, @eptwts handle, and statistics: 18.4K verified followers, 98.2M impressions, 4% engagement rate. Below are secondary metrics: 59.6K replies, 877.9K likes, 32.9K reposts. The title "how to ACTUALLY grow on X..." is displayed prominently in large white text on a dark background.]

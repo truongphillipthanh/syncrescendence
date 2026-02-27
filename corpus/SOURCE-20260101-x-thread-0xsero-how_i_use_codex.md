@@ -1,30 +1,3 @@
----
-id: SOURCE-20260101-x-thread-0xsero-how_i_use_codex
-platform: x
-format: thread
-creator: 0xsero
-title: how i use codex
-status: triaged
-original_filename: "20260101-x_thread-how_i_use_codex-@0xsero.md"
-url: https://x.com/0xSero/status/2006809193916055584
-author: "@0xSero"
-captured_date: 2026-02-04
-signal_tier: tactical
-topics:
-  - "vibe-coding"
-  - "developer-tools"
-  - "ai-engineering"
-  - "tutorial"
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "0xSero - Codex Task Chaining"
-synopsis: "Workflow for chaining long Codex runs: GPT-5.2 XHIGH plans and creates sequential task files in /tasks directory, then Codex executes each task-00.md through task-N.md with scope and rules files. Each task takes 15-60 minutes, enabling 2-24 hour autonomous runs."
-key_insights:
-  - "Separate planning from execution: use GPT-5.2 XHIGH for planning and code mapping, then switch to Codex for sequential task execution"
-  - "Chain prompts via sequential task files (task-00.md through task-N.md) in a /tasks directory to enable long autonomous coding runs of 2-24 hours"
-  - "Codex excels at execution but struggles at planning because it asks too many questions: use the right model for each phase"
----
 # How I use Codex
 
 **step 1:**

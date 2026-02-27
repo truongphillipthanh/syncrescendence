@@ -1,9 +1,3 @@
----
-url: https://x.com/DavidOndrej1/status/2019126831761572169
-author: David Ondrej (@DavidOndrej1)
-captured_date: 2026-02-04
----
-
 # SaaS is Dead. Agents Killed It.
 
 (Description: A heatmap visualization showing stock price performance across multiple software companies. The grid displays company tickers including ZM (Zoom, -9.75%), FICO (-39.40%), CRM (Salesforce, -44.60%), DT (DataBricks, -41.40%), INTU (Intuit, -47.22%), NOW (ServiceNow, -48.51%), MSFT (Microsoft, -26.03%), DDOG (DataDog, -41.28%), APP (Appfolio, -34.73%), GWRE (Guidewire, -28.45%), DOCU (DocuSign, -33.78%), ORCL (Oracle, -13.51%), and TEAM (Atlassian). The darker red coloring indicates more significant percentage declines. This appears to represent the $285 billion loss in market value mentioned in the article.)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260114-407
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "japan"
-  - "startup"
-  - "revolution"
-  - "feat"
-  - "kathy"
-creator: "This Week in Startups"
-guest: null
-title: "Japan’s Startup Revolution (feat. Kathy Matsui) | E2235"
-url: "https://www.youtube.com/watch?v=f_-VGpQa8N0"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 7m 44s"
-has_transcript: no
-synopsis: "Japan’s Startup Revolution (feat. Kathy Matsui) | E2235 by This Week in Startups. A panel discussion covering japan, startup, revolution."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "Japan’s Startup Revolution (feat."
-  - "Japan’s Startup Revolution (feat. Kathy Matsui)"
----
-
 # Japan’s Startup Revolution (feat. Kathy Matsui) | E2235
 
 **Channel**: This Week in Startups

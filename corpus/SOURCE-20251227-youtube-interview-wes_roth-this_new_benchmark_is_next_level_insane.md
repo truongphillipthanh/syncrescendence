@@ -1,39 +1,3 @@
----
-id: SOURCE-20251227-716
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "new"
-  - "benchmark"
-  - "next"
-  - "level"
-  - "insane"
-creator: "Wes Roth"
-guest: null
-title: "this new benchmark is next-level insane"
-url: "https://www.youtube.com/watch?v=37KHTE_HA2Y"
-date_published: 2025-12-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 28m 45s"
-has_transcript: no
-synopsis: "this new benchmark is next-level insane by Wes Roth. A interview covering new, benchmark, next."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "this new benchmark is"
-  - "this new benchmark is next-level insane"
----
-
 # this new benchmark is next-level insane
 
 **Channel**: Wes Roth

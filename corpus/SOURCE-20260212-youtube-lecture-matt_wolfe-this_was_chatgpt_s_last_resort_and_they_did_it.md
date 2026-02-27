@@ -1,37 +1,3 @@
----
-id: SOURCE-20260212-099
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "last"
-  - "resort"
-creator: "Matt Wolfe"
-guest: null
-title: "This Was ChatGPT's Last Resort (And They Did It)"
-url: "https://www.youtube.com/watch?v=Tk9bVpYIIjc"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 43s"
-has_transcript: no
-synopsis: "This Was ChatGPT's Last Resort (And They Did It) by Matt Wolfe. A lecture covering chatgpt, last, resort."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "This Was ChatGPT's Last"
-  - "This Was ChatGPT's Last Resort (And"
----
-
 # This Was ChatGPT's Last Resort (And They Did It)
 
 **Channel**: Matt Wolfe

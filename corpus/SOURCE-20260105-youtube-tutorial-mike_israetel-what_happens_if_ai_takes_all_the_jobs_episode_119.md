@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-624
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "happens"
-  - "takes"
-  - "jobs"
-  - "episode"
-  - "119"
-creator: "Mike Israetel"
-guest: null
-title: "What Happens If AI Takes All The Jobs? | Episode #119"
-url: "https://www.youtube.com/watch?v=Vd2XjUjFJis"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 19s"
-has_transcript: no
-synopsis: "What Happens If AI Takes All The Jobs? | Episode #119 by Mike Israetel. A tutorial covering happens, takes, jobs."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "What Happens If AI"
-  - "What Happens If AI Takes All"
----
-
 # What Happens If AI Takes All The Jobs? | Episode #119
 
 **Channel**: Mike Israetel

@@ -1,24 +1,3 @@
----
-id: SOURCE-20260220-008
-original_filename: "20260220-x_thread-between_gemini_31_and_claude_46-@bilawalsidhu.md"
-status: triaged
-platform: x
-format: thread
-creator: bilawalsidhu
-url: https://x.com/bilawalsidhu/status/2024672151949766950
-author: "Bilawal Sidhu (@bilawalsidhu)"
-captured_date: 2026-02-21
-signal_tier: strategic
-topics: [vibe-coding, geospatial-ai, ai-agents, gemini, claude]
-teleology: inspire
-notebooklm_category: vibe-coding
-aliases: []
-synopsis: Bilawal Sidhu demonstrates building a classified-intelligence-style geospatial system using Gemini 3.1 and Claude 4.6, featuring real-time plane/satellite tracking, traffic cams, FLIR/CRT/panoptic detection overlays — prompting Palantir co-founder response and open-source commitment.
-key_insights:
-  - Vibe-coded geospatial intelligence system rivals commercial platforms like Palantir using AI coding agents
-  - Combining multiple frontier models (Gemini + Claude) enables rapid prototyping of complex systems
-  - Open-source commitment signals democratization of intelligence tooling
----
 # Bilawal Sidhu X Thread: Spatial Intelligence & Geospatial AI
 Between Gemini 3.1 and Claude 4.6 it's honestly wild what you can build. This feels like Google Earth and Palantir had a baby.
 Made this with all the geospatial bells and whistles -- real time plane & satellite tracking, real traffic cams in Austin, and even got a traffic system working. Panoptic detection on everything.

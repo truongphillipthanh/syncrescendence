@@ -1,9 +1,3 @@
----
-url: https://x.com/froessell/status/2019743782632091990
-author: Frederik (@froessell)
-captured_date: 2026-02-06
----
-
 # What Designers Are Missing About Claude Code
 
 ## I didn't get the hype.

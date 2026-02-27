@@ -1,19 +1,3 @@
----
-kind: clarescence
-id: CLARESCENCE-2026-02-09-mba-ajna-setup
-title: "MBA Ajna (CSO) Deployment: OpenClaw + Kimi K2.5 + launchd + Git Sync"
-date: 2026-02-09
-status: ready-for-execution
-agent: commander
-passes: 10
-decision_atoms: 12
-linear: SYN-36 (Skills expansion), Epic 5 (Constellation Reconfiguration)
-predecessors:
-  - BRIEFING-20260209-constellation-reconfiguration.md
-  - RESULT-ajna-20260209-mba-deployment-guide.md
-  - ARCH-CONSTELLATION_AGENT_LOOPS.md
----
-
 # CLARESCENCE: MBA Ajna (CSO) Deployment Guide
 
 **Date**: 2026-02-09

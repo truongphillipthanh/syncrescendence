@@ -1,39 +1,3 @@
----
-id: SOURCE-20260218-017
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "full"
-  - "summit"
-  - "deepmind"
-  - "ceo"
-  - "demis"
-creator: "DWS News"
-guest: null
-title: "FULL SUMMIT: DeepMind CEO Demis Hassabis Stuns India AI Summit with Bold AI Predictions | AI1Z"
-url: "https://www.youtube.com/watch?v=v8hPUYnMxCQ"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 37s"
-has_transcript: no
-synopsis: "FULL SUMMIT: DeepMind CEO Demis Hassabis Stuns India AI Summit with Bold AI Predictions | AI1Z by DWS News. A lecture covering full, summit, deepmind."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "FULL SUMMIT: DeepMind CEO"
-  - "FULL SUMMIT: DeepMind CEO Demis Hassabis"
----
-
 # FULL SUMMIT: DeepMind CEO Demis Hassabis Stuns India AI Summit with Bold AI Predictions | AI1Z
 
 **Channel**: DWS News

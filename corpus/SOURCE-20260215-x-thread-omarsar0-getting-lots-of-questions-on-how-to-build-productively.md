@@ -1,27 +1,3 @@
----
-url: https://x.com/omarsar0/status/2023057709877391854
-author: elvis
-handle: omarsar0
-published_date: February 15, 2026
-captured_date: February 21, 2026
-post_count: 2
-id: SOURCE-20260215-021
-original_filename: "20260215-x_thread-getting-lots-of-questions-on-how-to-build-productively-@omarsar0.md"
-status: triaged
-platform: x
-format: thread
-creator: omarsar0
-signal_tier: tactical
-topics: [claude-code, vibe-coding, tutorial, education]
-teleology: reference
-notebooklm_category: claude-code
-aliases: ["omarsar0 - Claude Code hands-on course"]
-synopsis: "Promotes a 2-hour hands-on course for productive Claude Code usage covering memory tools, skills, debugging/testing with Chrome tool, and deployment. Emphasizes learning by building over advanced config setups."
-key_insights:
-  - "2 hours is sufficient for Claude Code onboarding - avoid overcomplicating with advanced configs early"
-  - "Focus on building and solving issues rather than elaborate setup - that's what top builders prioritize"
-  - "Course covers memory, skills, debugging with Chrome tool, and deployment as the essential Claude Code toolkit"
----
 ## Post 1/2
 Getting lots of questions on how to build productively with Claude Code.
 I built these new hands-on lessons to get you onboarded fast.

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251115-1111
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "defense"
-  - "tech"
-  - "palantir"
-  - "mosley"
-  - "warfare"
-creator: "Bloomberg Technology"
-guest: null
-title: "Defense Tech: Palantir’s Mosley on AI, Warfare, and the End of US Unipolarity"
-url: "https://www.youtube.com/watch?v=QUy_6mDaEPQ"
-date_published: 2025-11-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 3s"
-has_transcript: no
-synopsis: "Defense Tech: Palantir’s Mosley on AI, Warfare, and the End of US Unipolarity by Bloomberg Technology. A lecture covering defense, tech, palantir."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Defense Tech: Palantir’s Mosley"
-  - "Defense Tech: Palantir’s Mosley on AI,"
----
-
 # Defense Tech: Palantir’s Mosley on AI, Warfare, and the End of US Unipolarity
 
 **Channel**: Bloomberg Technology

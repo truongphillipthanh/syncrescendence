@@ -1,38 +1,3 @@
----
-id: SOURCE-20251212-844
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "bitcoin"
-  - "standard"
-  - "network"
-  - "state"
-creator: "Network State Podcast"
-guest: null
-title: "The Bitcoin Standard and the Network State"
-url: "https://www.youtube.com/watch?v=ac_JRmIwnQI"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 28m 36s"
-has_transcript: no
-synopsis: "The Bitcoin Standard and the Network State by Network State Podcast. A lecture covering bitcoin, standard, network."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Bitcoin Standard and"
-  - "The Bitcoin Standard and the Network"
----
-
 # The Bitcoin Standard and the Network State
 
 **Channel**: Network State Podcast

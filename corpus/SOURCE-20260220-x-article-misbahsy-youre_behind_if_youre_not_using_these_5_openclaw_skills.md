@@ -1,32 +1,3 @@
----
-url: https://x.com/MisbahSy/status/2024919095318045029
-author: "Misbah Syed (@MisbahSy)"
-captured_date: 2026-02-21
-id: SOURCE-20260220-003
-original_filename: "20260220-x_article-youre_behind_if_youre_not_using_these_5_openclaw_skills-@misbahsy.md"
-status: triaged
-platform: x
-format: article
-creator: misbahsy
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - git
-  - gemini
-  - architecture
-  - rag
-  - cli-tools
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Youre Behind If Youre Not Using These 5 OpenClaw Skills"
-synopsis: "You're Behind If You're Not Using These 5 OpenClaw Skills , "SUMMARIZE" (center-left), "GITHUB" (center), "NANO BANANA PRO" (center-right), and "NANO PDF" (right). Each section contains symbolic imagery representing its function — documents, a brain, code symbols, and editing tools."
-key_insights:
-  - "You're Behind If You're Not Using These 5 OpenClaw Skills , "SUMMARIZE" (center-left), "GITHUB" (center), "NANO BANANA PRO" (center-right), and "NANO PDF" (right)."
-  - "Each section contains symbolic imagery representing its function — documents, a brain, code symbols, and editing tools."
-  - "Winged figures and architectural elements complete the mystical, epic composition.) Most people are using OpenClaw like a chat toy."
----
 # You're Behind If You're Not Using These 5 OpenClaw Skills
 (Description: A dramatic black-and-white engraving-style illustration featuring a central figure in flowing robes surrounded by turbulent clouds and waves. Five labeled sections float above the clouds representing the five skills: "GOG — GOOGLE WORKSPACE" (left), "SUMMARIZE" (center-left), "GITHUB" (center), "NANO BANANA PRO" (center-right), and "NANO PDF" (right). Each section contains symbolic imagery representing its function — documents, a brain, code symbols, and editing tools. Winged figures and architectural elements complete the mystical, epic composition.)
 Most people are using OpenClaw like a chat toy.

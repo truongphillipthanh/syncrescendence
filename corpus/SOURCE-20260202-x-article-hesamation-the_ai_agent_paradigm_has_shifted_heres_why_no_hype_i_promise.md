@@ -1,28 +1,3 @@
----
-url: https://x.com/Hesamation/status/2018442787054911543
-author: "ℏεsam (@Hesamation)"
-captured_date: 2026-02-02
-id: SOURCE-20260202-001
-original_filename: "20260202-x_article-the_ai_agent_paradigm_has_shifted_heres_why_no_hype_i_promise-@hesamation.md"
-status: triaged
-platform: x
-format: article
-creator: hesamation
-signal_tier: strategic
-topics:
-  - ai-agents
-  - ai-engineering
-  - opinion
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Hesam - AI agent paradigm shift"
-synopsis: "Analysis of the AI agent paradigm shift triggered by ClawdBot/Moltbot/OpenClaw, cutting through the hype to explain what actually changed. Aimed at people confused by the rapid naming changes and viral explosion of agent content."
-key_insights:
-  - "The paradigm shift is from AI as chat interface to AI as autonomous agent with computer access — the agent lives in your messaging apps and acts on your behalf."
-  - "The confusion in the ecosystem (ClawdBot → Moltbot → OpenClaw) masks a genuine architectural evolution in how AI agents interact with personal computing."
-  - "Cutting through hype requires distinguishing what agents can actually do reliably today versus what demos promise."
----
 # The AI Agent Paradigm Has Shifted. Here's Why. (No Hype, I Promise)
 
 (Description: Article title card with illustration showing a person wearing headphones and pink clothing with two red blob-like creatures beside them. Large text overlay reads "Agents Just Got Weird" with yellow underline on a black background.)

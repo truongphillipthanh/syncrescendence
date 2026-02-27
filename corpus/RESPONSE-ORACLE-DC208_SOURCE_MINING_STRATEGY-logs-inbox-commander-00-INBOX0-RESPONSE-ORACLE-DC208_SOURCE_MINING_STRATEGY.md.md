@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-208
-topic: DC-208 Source Mining Strategy — leverage scoring architecture, hierarchical agentic triage, 1773-source pipeline
-status: unprocessed
-collected: 2026-02-23
----
-
 **# RESPONSE-ORACLE-DC208_SOURCE_MINING_STRATEGY.md**
 
 **Date**: 2026-02-23

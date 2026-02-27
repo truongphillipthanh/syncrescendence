@@ -1,16 +1,3 @@
----
-id: SOURCE-20251031-youtube-interview-a16z-marc_andreessen_ben_horowitz
-title: Marc Andreessen and Ben Horowitz on the State of AI
-creator: a16z
-guest: Marc Andreessen, Ben Horowitz
-date_published: 2025-10-31
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: [Intelligence, Expertise, Insight]
-integration_targets: [CANON-00009-STRATEGY, CANON-33100-EFFICACY, CANON-00004-EVOLUTION]
----
-
 # Marc Andreessen and Ben Horowitz on the State of AI
 
 ## Executive Summary

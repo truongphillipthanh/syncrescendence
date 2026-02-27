@@ -1,29 +1,3 @@
----
-url: https://x.com/tomjohndesign/status/2018385296610746403
-author: "Tom Johnson (@tomjohndesign)"
-captured_date: 2026-02-13
-id: SOURCE-20260202-007
-original_filename: "20260202-x_article-the_new_design_process-@tomjohndesign.md"
-status: triaged
-platform: x
-format: article
-creator: tomjohndesign
-signal_tier: strategic
-topics:
-  - ai-engineering
-  - design
-  - workflow
-  - vibe-coding
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Tom Johnson - AI-native design process"
-synopsis: "A new 4-step design process built around AI tools: brain dump (dictate unstructured context), scope and plan (research with Claude Code as assistant), bad build (let AI generate a functionally sound but poorly designed scaffold), then creative director (critique and redline the bad build into something good). The key insight is that AI's terrible design output is a feature, not a bug — it gives you something concrete to react against."
-key_insights:
-  - "Starting from AI's intentionally bad design output is more productive than starting from a blank canvas — the cost to rebuild from poor decisions is now effectively zero."
-  - "The brain dump step eliminates the friction of organizing context before feeding it to AI — unstructured transcripts and raw notes work better than curated briefs."
-  - "The creative director role shifts from generating design to critiquing and redlining AI output, making the designer's taste and judgment the irreplaceable skill."
----
 # The new design process
 
 (Description: A four-pointed star or cross-shaped icon in white against a dark background, rendered in a minimalist design style with selection handles visible around its edges, contained within a blue-bordered frame)

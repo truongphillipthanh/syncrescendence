@@ -1,39 +1,3 @@
----
-id: SOURCE-20260116-313
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "bible"
-  - "way"
-  - "weirder"
-  - "than"
-  - "think"
-creator: "Nils Glenn"
-guest: null
-title: "The Bible is WAY Weirder Than You Think"
-url: "https://www.youtube.com/watch?v=bzvjpjaMki8"
-date_published: 2026-01-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 2m 32s"
-has_transcript: no
-synopsis: "The Bible is WAY Weirder Than You Think by Nils Glenn. A lecture covering bible, way, weirder."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Bible is WAY"
-  - "The Bible is WAY Weirder Than"
----
-
 # The Bible is WAY Weirder Than You Think
 
 **Channel**: Nils Glenn

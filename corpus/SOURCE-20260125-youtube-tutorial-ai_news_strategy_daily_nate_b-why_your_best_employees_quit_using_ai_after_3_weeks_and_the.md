@@ -1,39 +1,3 @@
----
-id: SOURCE-20260125-338
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "best"
-  - "employees"
-  - "quit"
-  - "using"
-  - "after"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Why Your Best Employees Quit Using AI After 3 Weeks (And the 6 Skills That Would Have Saved Them)"
-url: "https://www.youtube.com/watch?v=EZ4EjJ0iDDQ"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 32s"
-has_transcript: no
-synopsis: "Why Your Best Employees Quit Using AI After 3 Weeks (And the 6 Skills That Would Have Saved Them) by AI News & Strategy Daily | Nate B Jones. A tutorial covering best, employees, quit."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why Your Best Employees"
-  - "Why Your Best Employees Quit Using"
----
-
 # Why Your Best Employees Quit Using AI After 3 Weeks (And the 6 Skills That Would Have Saved Them)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

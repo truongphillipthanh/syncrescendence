@@ -1,39 +1,3 @@
----
-id: SOURCE-20260103-626
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "wasn"
-  - "food"
-  - "human"
-  - "farming"
-  - "began"
-creator: "Anton Petrov"
-guest: null
-title: "It Wasn't food! Human Farming Began For a Super Bizarre Reason: BEER!"
-url: "https://www.youtube.com/watch?v=OLqgtyFyJ1o"
-date_published: 2026-01-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 2s"
-has_transcript: no
-synopsis: "It Wasn't food! Human Farming Began For a Super Bizarre Reason: BEER! by Anton Petrov. A lecture covering wasn, food, human."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "It Wasn't food! Human"
-  - "It Wasn't food! Human Farming Began"
----
-
 # It Wasn't food! Human Farming Began For a Super Bizarre Reason: BEER!
 
 **Channel**: Anton Petrov

@@ -1,28 +1,3 @@
----
-url: https://georgeguimaraes.com/your-agent-orchestrator-is-just-a-bad-clone-of-elixir/
-title: Your Agent Framework Is Just a Bad Clone of Elixir: Concurrency Lessons from Telecom to AI
-domain: georgeguimaraes.com
-author: George Guimarães
-published_date: Feb 16, 2026
-captured_date: 2026-02-20
-content_type: article
-id: SOURCE-20260216-001
-original_filename: 20260216-website-your-agent-framework-is-just--georgeguimaraes.md
-status: triaged
-platform: website
-format: article
-creator: georgeguimaraes
-signal_tier: paradigm
-topics: [ai-agents, ai-engineering, llm-architecture, framework]
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases: ["georgeguimaraes - agent frameworks reinventing Erlang/BEAM"]
-synopsis: "Argues that Python/JS AI agent frameworks (LangGraph, CrewAI, AutoGen, Langroid) are reinventing what Erlang's BEAM VM solved in 1986: isolated state, message passing, supervision trees, fault recovery, and hot code swapping. The actor model IS the agent model. Details why BEAM's preemptive scheduling, per-process GC, and 'let it crash' philosophy are architecturally ideal for non-deterministic AI workloads."
-key_insights:
-  - "Every major agent framework pattern (isolated state, message passing, supervision, fault recovery) already exists as BEAM runtime primitives since 1986-1998"
-  - "AI agents are inherently non-deterministic - 'let it crash' with supervisor restarts beats defensive try/except on every call"
-  - "You can get ~70% of actor model benefits in Python/JS with engineering effort; the remaining 30% requires runtime-level support that can't be bolted on"
----
 # Your Agent Framework Is Just a Bad Clone of Elixir: Concurrency Lessons from Telecom to AI
 Python and JavaScript/TypeScript AI frameworks are reinventing what telecom solved in 1986. What 40 years of production-grade concurrency teaches us about building AI agents.
 By [George Guimarães](/author/george/)

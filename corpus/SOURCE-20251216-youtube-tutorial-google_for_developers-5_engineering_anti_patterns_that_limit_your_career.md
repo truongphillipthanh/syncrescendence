@@ -1,39 +1,3 @@
----
-id: SOURCE-20251216-752
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "engineering"
-  - "anti"
-  - "patterns"
-  - "limit"
-  - "career"
-creator: "Google for Developers"
-guest: null
-title: "5 engineering anti-patterns that limit your career"
-url: "https://www.youtube.com/watch?v=bhR0c3n7uZA"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 25s"
-has_transcript: no
-synopsis: "5 engineering anti-patterns that limit your career by Google for Developers. A tutorial covering engineering, anti, patterns."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "5 engineering anti-patterns that"
-  - "5 engineering anti-patterns that limit your"
----
-
 # 5 engineering anti-patterns that limit your career
 
 **Channel**: Google for Developers

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-296
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "cia"
-  - "black"
-  - "ops"
-  - "actually"
-  - "work"
-creator: "Insider"
-guest: null
-title: "How CIA Black Ops Actually Work | Authorized Account | Insider"
-url: "https://www.youtube.com/watch?v=Pcfwx50zl40"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "57m 42s"
-has_transcript: no
-synopsis: "How CIA Black Ops Actually Work | Authorized Account | Insider by Insider. A interview covering cia, black, ops."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "How CIA Black Ops"
-  - "How CIA Black Ops Actually Work"
----
-
 # How CIA Black Ops Actually Work | Authorized Account | Insider
 
 **Channel**: Insider

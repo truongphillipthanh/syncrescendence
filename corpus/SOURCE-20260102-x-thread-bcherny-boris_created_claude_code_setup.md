@@ -1,31 +1,3 @@
----
-id: SOURCE-20260102-x-thread-bcherny-boris_created_claude_code_setup
-platform: x
-format: thread
-creator: bcherny
-url: https://x.com/bcherny/status/2007179832300581177
-author: "Boris Cherny (@bcherny)"
-captured_date: 2026-01-17
-title: boris created claude code setup bcherny
-status: triaged
-original_filename: 3-BestPractice_ProTiips--5-20260102-x_thread-boris_created_claude_code_setup-bcherny.md
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "best-practices"
-  - "tutorial"
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Boris Cherny - Claude Code Setup"
-synopsis: "Boris Cherny, creator of Claude Code, shares his surprisingly vanilla setup: minimal customization, relies on out-of-box features, runs multiple Claude instances in terminal tabs. Demonstrates that effective Claude Code usage does not require complex configuration."
-key_insights:
-  - "The creator of Claude Code uses a surprisingly vanilla setup with minimal customization proving the tool works great out of the box"
-  - "Running 5 Claude instances in parallel terminal tabs with notifications when input is needed enables high throughput"
-  - "Effective Claude Code usage is more about workflow discipline than elaborate configuration or custom tooling"
----
-
 # How I Use Claude Code: My Setup and Workflow
 
 I'm Boris and I created Claude Code. Lots of people have asked how I use Claude Code, so I wanted to show off my setup a bit.

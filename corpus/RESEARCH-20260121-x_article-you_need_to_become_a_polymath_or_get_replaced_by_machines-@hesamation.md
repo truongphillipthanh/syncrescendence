@@ -1,9 +1,3 @@
----
-url: https://x.com/Hesamation/status/2014172186865459455
-author: ℏεsam (@Hesamation)
-captured_date: 2026-01-30
----
-
 # You Need to Become a Polymath (or Get Replaced by Machines)
 
 ![Featured image](https://pbs.twimg.com/media/GhX3Z-AasAAMkkZ?format=jpg&name=large)

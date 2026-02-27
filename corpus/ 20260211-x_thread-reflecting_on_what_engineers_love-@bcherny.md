@@ -1,9 +1,3 @@
----
-url: https://x.com/bcherny/status/2021699851499798911
-author: Boris Cherny (@bcherny)
-captured_date: 2026-02-11
----
-
 # Claude Code Customization Thread
 
 Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LSPs, MCPs, skills, effort, custom agents, status lines, output styles, etc.

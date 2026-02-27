@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-769
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "china"
-  - "just"
-  - "drop"
-  - "ball"
-  - "global"
-creator: "Economics Explained"
-guest: null
-title: "Did China Just Drop The Ball On Global Dominance?"
-url: "https://www.youtube.com/watch?v=lDqYA11oA9w"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 14s"
-has_transcript: no
-synopsis: "Did China Just Drop The Ball On Global Dominance? by Economics Explained. A lecture covering china, just, drop."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Did China Just Drop"
-  - "Did China Just Drop The Ball"
----
-
 # Did China Just Drop The Ball On Global Dominance?
 
 **Channel**: Economics Explained

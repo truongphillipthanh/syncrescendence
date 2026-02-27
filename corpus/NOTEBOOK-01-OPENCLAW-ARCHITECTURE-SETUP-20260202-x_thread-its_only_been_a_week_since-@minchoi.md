@@ -1,9 +1,3 @@
----
-url: https://x.com/minchoi/status/2018349261289578572
-author: "@minchoi"
-captured_date: 2026-02-04
----
-
 # ClawdBot (now OpenClaw) Thread
 
 **Min Choi** (@minchoi) • Feb 2, 2026

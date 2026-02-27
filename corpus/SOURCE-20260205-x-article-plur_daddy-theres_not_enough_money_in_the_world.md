@@ -1,28 +1,3 @@
----
-url: https://x.com/plur_daddy/status/2019522793751347604
-author: "plur daddy (@plur_daddy)"
-captured_date: 2026-02-13
-id: SOURCE-20260205-015
-original_filename: "20260205-x_article-theres_not_enough_money_in_the_world-@plur_daddy.md"
-status: triaged
-platform: x
-format: article
-creator: plur_daddy
-signal_tier: strategic
-topics:
-  - deployment
-  - api
-  - cost-optimization
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Theres Not Enough Money In The World"
-synopsis: "There's Not Enough Money In The World Market Regime Change We are experiencing a market regime change due to the shortage of financial capital due to the AI capex cycle. This has massive implications for asset prices, as capital has been overabundant for so long."
-key_insights:
-  - "There's Not Enough Money In The World Market Regime Change We are experiencing a market regime change due to the shortage of financial capital due to the AI capex cycle."
-  - "This has massive implications for asset prices, as capital has been overabundant for so long."
-  - "The web 2.0 and SaaS paradigms that powered the 2010s market boom were super capital light, allowing an excess of capital to flow into speculative assets."
----
 # There's Not Enough Money In The World
 
 (Description: A neon-lit stock exchange building at dusk with bright green and blue signage, featuring the text "STOCK EXCHANGE" prominently displayed, set against a purple and orange sunset sky)

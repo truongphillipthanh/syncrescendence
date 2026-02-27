@@ -1,9 +1,3 @@
----
-url: https://x.com/omarsar0/status/2020546189536399568
-author: elvis (@omarsar0)
-captured_date: 2026-02-08
----
-
 # The Claude Code Plugin That Replaced My Entire Visual Workflow
 
 ## Introduction

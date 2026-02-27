@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-431
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "singularity"
-  - "countdown"
-  - "agi"
-  - "2029"
-  - "humans"
-creator: "Peter H. Diamandis"
-guest: null
-title: "The Singularity Countdown: AGI by 2029, Humans Merge with AI, Intelligence 1000x | Ray Kurzweil"
-url: "https://www.youtube.com/watch?v=8iWSNwIRazc"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 39m 31s"
-has_transcript: no
-synopsis: "The Singularity Countdown: AGI by 2029, Humans Merge with AI, Intelligence 1000x | Ray Kurzweil by Peter H. Diamandis. A lecture covering singularity, countdown, agi."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Singularity Countdown: AGI"
-  - "The Singularity Countdown: AGI by 2029,"
----
-
 # The Singularity Countdown: AGI by 2029, Humans Merge with AI, Intelligence 1000x | Ray Kurzweil
 
 **Channel**: Peter H. Diamandis

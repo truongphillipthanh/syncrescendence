@@ -1,29 +1,3 @@
----
-url: https://x.com/spacepixel/status/2015967798636556777
-author: "pixel (@spacepixel)"
-captured_date: 2026-02-04
-id: SOURCE-20260127-004
-original_filename: "20260127-x_article-the_three_layer_memory_system_upgrade_for_clawdbot-@spacepixel.md"
-status: triaged
-platform: x
-format: article
-creator: spacepixel
-signal_tier: strategic
-topics:
-  - ai-agents
-  - automation
-  - framework
-  - best-practices
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "pixel - three layer Clawdbot memory"
-synopsis: "Architectural guide for upgrading Clawdbot's static memory into a self-maintaining, compounding knowledge graph with three layers: Layer 1 (entity-based knowledge graph with atomic facts in items.json and living summaries), Layer 2 (daily notes as raw event logs), Layer 3 (tacit knowledge in MEMORY.md). Includes automatic fact extraction via cheap sub-agents every 30 minutes and weekly synthesis crons that prune stale context."
-key_insights:
-  - "Facts should be superseded rather than deleted — marking old facts as historical while preserving full history enables tracing how relationships and context evolved over time."
-  - "The compounding flywheel (conversation → fact extraction → knowledge graph → weekly synthesis → better context → better responses) makes the assistant progressively smarter at pennies per day in sub-agent costs."
-  - "Entity-based storage (per person, company, project) with tiered retrieval (summary first, raw facts on demand) beats both monolithic context files and black-box vector databases for transparency and maintainability."
----
 # The Three-Layer Memory System Upgrade for Clawdbot
 
 (Description: A futuristic digital illustration showing a holographic crab-bot with glowing blue and purple energy connecting to a knowledge network. On the left is a stack of leather-bound books labeled "OLD STATIC MEMORY." The crab's claws extend toward a dynamic network diagram with interconnected nodes labeled PEOPLE, COMPANIES, PROJECTS, and WEEKLY SYNTHESIS, illustrating the transformation from static to dynamic memory systems.)

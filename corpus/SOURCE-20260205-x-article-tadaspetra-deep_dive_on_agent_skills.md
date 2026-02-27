@@ -1,29 +1,3 @@
----
-url: https://x.com/tadaspetra/status/2019204136982532407
-author: "Tadas Petra (@tadaspetra)"
-captured_date: 2026-02-04
-id: SOURCE-20260205-017
-original_filename: "20260205-x_article-deep_dive_on_agent_skills-@tadaspetra.md"
-status: triaged
-platform: x
-format: article
-creator: tadaspetra
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - testing
-  - cursor
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Deep Dive on Agent Skills"
-synopsis: "Deep Dive on Agent Skills I spent the last few weeks building elevenlabs/skills, which got 500+ installs in the first 24 hours. Here's everything I've learned about how to use and build Agent Skills. Agent Skills are folders containing context (mostly Markdown files) on a specific topic to increase the coding agent's likelihood of accomplishing a related task."
-key_insights:
-  - "Each of these folders must have a file named `SKILL.md` in the root of that folder."
-  - "Progressive Disclosure The reason skills have become a go-to approach for developers is due to the way they manage context efficiently."
-  - "How to Use Skills Once you have the skills in the appropriate location, in theory, the LLM should just be able to find them and use them when it is deemed useful."
----
 # Deep Dive on Agent Skills
 
 I spent the last few weeks building elevenlabs/skills, which got 500+ installs in the first 24 hours.

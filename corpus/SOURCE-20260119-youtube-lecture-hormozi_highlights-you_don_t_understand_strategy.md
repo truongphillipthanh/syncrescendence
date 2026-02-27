@@ -1,36 +1,3 @@
----
-id: SOURCE-20260119-400
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "don"
-  - "understand"
-  - "strategy"
-creator: "Hormozi Highlights"
-guest: null
-title: "You Don't Understand Strategy"
-url: "https://www.youtube.com/watch?v=isT5jAuYwQo"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2m 54s"
-has_transcript: no
-synopsis: "You Don't Understand Strategy by Hormozi Highlights. A lecture covering don, understand, strategy."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "You Don't Understand Strategy"
----
-
 # You Don't Understand Strategy
 
 **Channel**: Hormozi Highlights

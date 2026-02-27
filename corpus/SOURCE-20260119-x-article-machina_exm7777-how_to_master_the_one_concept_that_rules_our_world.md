@@ -1,32 +1,3 @@
----
-id: SOURCE-20260119-001
-title: "How To Master The One Concept That Rules Our World @Exm7777"
-platform: x
-format: article
-creator: Machina (EXM7777)
-date_published: 20260119
-status: triaged
-original_filename: "research/20260119-x_article-how_to_master_the_one_concept_that_rules_our_world-@exm7777.md"
-aliases:
-  - "Machina - Game Theory Mastery"
-teleology: contextualize
-notebooklm_category: general
-url: "https://x.com/EXM7777/status/2013258826259005636"
-author: "Machina (@EXM7777)"
-captured_date: 2026-01-30
-synopsis: "Comprehensive introduction to game theory as the operating system of human civilization, covering applications from business pricing to geopolitics. Argues game theory principles underlie every negotiation, competitive situation, and strategic decision."
-key_insights:
-  - "Game theory is not an academic concept but the operating system of civilization: every negotiation, business decision, and political move runs on its principles"
-  - "Understanding Nash equilibrium, prisoners dilemma, and dominant strategies provides a universal framework for strategic decision-making"
-  - "The gap between knowing game theory exists and actually applying it to daily decisions is where most people lose competitive advantage"
-topics:
-  - "philosophy"
-  - "strategy"
-  - "economics"
-  - "decision-making"
-signal_tier: noise
----
-
 # How to Master the One Concept That Rules Our World
 
 (Description: Black and white photograph of two hands playing chess at a table, with one hand moving a piece. A glass of whiskey sits on the side of the board. The image conveys strategic thinking and high-stakes decision-making.)

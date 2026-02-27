@@ -1,29 +1,3 @@
----
-url: https://x.com/ericosiu/status/2019572343023243272
-author: ericosiu
-captured_date: 2026-02-05
-id: SOURCE-20260206-006
-original_filename: "20260206-x_article-openclaw_for_business_setup_that_scales_revenue-@ericosiu.md"
-status: triaged
-platform: x
-format: article
-creator: ericosiu
-signal_tier: tactical
-topics:
-  - ai-agents
-  - memory-management
-  - architecture
-  - rust
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw For Business Setup That Scales Revenue"
-synopsis: "OpenClaw For Business Setup (That Scales Revenue) Ordering food with your OpenClaw is cute, but making money with it is better. In this post, I'm going to talk about how my system works under the hood. If you want some OpenClaw business use case examples, the original post is [here]( 1. Verify + Learn Loops Agents can't mark something "done" until they verify it actually happened."
-key_insights:
-  - "After each task, they extract lessons and write them down so the same mistake never happens twice."
-  - "Decision Interface Pattern Agents don't send me reports that dead-end."
-  - "Autonomy Levels (Codified) New agents start restricted - insights only, no execution."
----
 # OpenClaw For Business Setup (That Scales Revenue)
 
 (Description: Illustration showing the evolution from primitive ape to human businessman sitting at a desk, with the final figure holding a large red lobster/claw, representing OpenClaw's progression into business use.)

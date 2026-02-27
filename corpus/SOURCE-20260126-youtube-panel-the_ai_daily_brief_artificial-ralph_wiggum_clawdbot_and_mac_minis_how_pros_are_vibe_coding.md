@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-326
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ralph"
-  - "wiggum"
-  - "clawdbot"
-  - "mac"
-  - "minis"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Ralph Wiggum, Clawdbot and Mac Minis: How Pros are Vibe Coding in 2026"
-url: "https://www.youtube.com/watch?v=wWpjf_aShHE"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 40s"
-has_transcript: no
-synopsis: "Ralph Wiggum, Clawdbot and Mac Minis: How Pros are Vibe Coding in 2026 by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering ralph, wiggum, clawdbot."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "Ralph Wiggum, Clawdbot and"
-  - "Ralph Wiggum, Clawdbot and Mac Minis:"
----
-
 # Ralph Wiggum, Clawdbot and Mac Minis: How Pros are Vibe Coding in 2026
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

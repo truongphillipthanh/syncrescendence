@@ -1,39 +1,3 @@
----
-id: SOURCE-20251124-1009
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "2045"
-  - "superintelligence"
-  - "timeline"
-  - "epoch"
-  - "data"
-creator: "a16z"
-guest: null
-title: "The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast"
-url: "https://www.youtube.com/watch?v=TbFSGiQdCaw"
-date_published: 2025-11-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "58m 50s"
-has_transcript: no
-synopsis: "The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast by a16z. A lecture covering 2045, superintelligence, timeline."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The 2045 Superintelligence Timeline:"
-  - "The 2045 Superintelligence Timeline: Epoch AI’s"
----
-
 # The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast
 
 **Channel**: a16z

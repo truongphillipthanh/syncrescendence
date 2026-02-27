@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1059
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "math"
-  - "suggests"
-  - "may"
-  - "only"
-  - "intelligent"
-creator: "Anton Petrov"
-guest: null
-title: "Math Suggests We May Be the Only Intelligent Life in the Universe"
-url: "https://www.youtube.com/watch?v=OD9nYixgp6A"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 53s"
-has_transcript: no
-synopsis: "Math Suggests We May Be the Only Intelligent Life in the Universe by Anton Petrov. A lecture covering math, suggests, may."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Math Suggests We May"
-  - "Math Suggests We May Be the"
----
-
 # Math Suggests We May Be the Only Intelligent Life in the Universe
 
 **Channel**: Anton Petrov

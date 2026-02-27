@@ -1,39 +1,3 @@
----
-id: SOURCE-20260113-506
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "cowork"
-  - "anthropic"
-  - "operating"
-  - "system"
-creator: "WorldofAI"
-guest: null
-title: "Claude Cowork: Anthropic's AI Operating System That Automates Your Life!"
-url: "https://www.youtube.com/watch?v=TVPxU8MfeXY"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 37s"
-has_transcript: no
-synopsis: "Claude Cowork: Anthropic's AI Operating System That Automates Your Life! by WorldofAI. A lecture covering claude, cowork, anthropic."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Cowork: Anthropic's AI"
-  - "Claude Cowork: Anthropic's AI Operating System"
----
-
 # Claude Cowork: Anthropic's AI Operating System That Automates Your Life!
 
 **Channel**: WorldofAI

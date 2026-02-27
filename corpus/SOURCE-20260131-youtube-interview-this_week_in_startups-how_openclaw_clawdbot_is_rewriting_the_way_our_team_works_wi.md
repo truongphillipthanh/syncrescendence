@@ -1,39 +1,3 @@
----
-id: SOURCE-20260131-227
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "clawdbot"
-  - "rewriting"
-  - "way"
-  - "team"
-creator: "This Week in Startups"
-guest: null
-title: "How OpenClaw (Clawdbot) Is Rewriting the Way Our Team Works with Rahul Sood | E2242"
-url: "https://www.youtube.com/watch?v=sejqZld2yZ8"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 26m 38s"
-has_transcript: no
-synopsis: "How OpenClaw (Clawdbot) Is Rewriting the Way Our Team Works with Rahul Sood | E2242 by This Week in Startups. A interview covering openclaw, clawdbot, rewriting."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "How OpenClaw (Clawdbot) Is"
-  - "How OpenClaw (Clawdbot) Is Rewriting the"
----
-
 # How OpenClaw (Clawdbot) Is Rewriting the Way Our Team Works with Rahul Sood | E2242
 
 **Channel**: This Week in Startups

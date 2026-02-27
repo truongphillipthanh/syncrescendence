@@ -1,9 +1,3 @@
----
-url: https://x.com/ArmanHezarkhani/status/2014708119029399914
-author: Arman Hezarkhani (@ArmanHezarkhani)
-captured_date: 2026-01-23T06:33:00Z
----
-
 # The Complete Guide: How to Learn Anything. For Good.
 
 (Description: Hero image featuring a glowing lightbulb against a dark background, with serif typography reading "The Complete Guide: How to Learn Anything. For Good." and subheading "Build durable expertise fast with spaced repetition and active recall.")

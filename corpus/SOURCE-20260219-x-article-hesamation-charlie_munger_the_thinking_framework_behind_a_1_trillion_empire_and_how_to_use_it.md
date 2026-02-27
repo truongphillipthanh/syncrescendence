@@ -1,30 +1,3 @@
----
-url: https://x.com/Hesamation/status/2024283719528218712
-author: "ℏεsam (@Hesamation)"
-captured_date: 2026-02-18
-id: SOURCE-20260219-006
-original_filename: "20260219-x_article-charlie_munger_the_thinking_framework_behind_a_1_trillion_empire_and_how_to_use_it-@hesamation.md"
-status: triaged
-platform: x
-format: article
-creator: hesamation
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - api
-  - product-development
-  - cli-tools
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Charlie Munger, the thinking framework behind a $1 trillion empire (and how to u"
-  - "Charlie Munger the thinking framework behind a 1 trillion empire and how to use "
-synopsis: "Charlie Munger, the thinking framework behind a $1 trillion empire (and how to use it) ![Featured Image] Most people get decision-making exactly backwards. They think hoarding more information eliminates uncertainty. But 80 totally unrelated Mental Models do. Charlie Munger was Warren Buffett's partner who built a now-worth-$1-trillion investment empire, Berkshire Hathaway."
-key_insights:
-  - "It's his concept of **Mental Models**, a system of thinking that he credits as the foundation behind nearly all critical decisions at Berkshire Hathaway."
-  - "It's not a productivity hack or an investment trick."
-  - "But you can't rely on your intuition for critical decisions."
----
 # Charlie Munger, the thinking framework behind a $1 trillion empire (and how to use it)
 ![Featured Image](Description: Portrait illustration of elderly man wearing glasses with financial chart overlay showing candlestick patterns in orange, yellow, and blue tones against a dark background)
 Most people get decision-making exactly backwards. They think hoarding more information eliminates uncertainty. It doesn't. But 80 totally unrelated Mental Models do.

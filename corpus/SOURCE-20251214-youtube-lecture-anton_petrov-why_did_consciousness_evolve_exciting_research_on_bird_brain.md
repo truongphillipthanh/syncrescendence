@@ -1,39 +1,3 @@
----
-id: SOURCE-20251214-800
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "consciousness"
-  - "evolve"
-  - "exciting"
-  - "research"
-  - "bird"
-creator: "Anton Petrov"
-guest: null
-title: "Why Did Consciousness Evolve? Exciting Research on Bird Brains"
-url: "https://www.youtube.com/watch?v=OlnioeAtloY"
-date_published: 2025-12-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 27s"
-has_transcript: no
-synopsis: "Why Did Consciousness Evolve? Exciting Research on Bird Brains by Anton Petrov. A lecture covering consciousness, evolve, exciting."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why Did Consciousness Evolve?"
-  - "Why Did Consciousness Evolve? Exciting Research"
----
-
 # Why Did Consciousness Evolve? Exciting Research on Bird Brains
 
 **Channel**: Anton Petrov

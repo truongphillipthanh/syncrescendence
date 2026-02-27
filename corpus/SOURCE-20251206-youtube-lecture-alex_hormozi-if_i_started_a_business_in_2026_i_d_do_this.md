@@ -1,37 +1,3 @@
----
-id: SOURCE-20251206-900
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "started"
-  - "business"
-  - "2026"
-creator: "Alex Hormozi"
-guest: null
-title: "If I Started A Business in 2026, I'd Do This"
-url: "https://www.youtube.com/watch?v=uWdIgftpvBI"
-date_published: 2025-12-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 25s"
-has_transcript: no
-synopsis: "If I Started A Business in 2026, I'd Do This by Alex Hormozi. A lecture covering started, business, 2026."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "If I Started A"
-  - "If I Started A Business in"
----
-
 # If I Started A Business in 2026, I'd Do This
 
 **Channel**: Alex Hormozi

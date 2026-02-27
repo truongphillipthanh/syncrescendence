@@ -1,9 +1,3 @@
----
-url: https://x.com/Saboo_Shubham_/status/2021416352637125110
-author: Shubham Saboo (@Saboo_Shubham_)
-captured_date: 2026-02-10
----
-
 # The Only Skills that Matter in 2026
 
 (Description: A beige/cream colored graphic showing a timeline arrow progression from left to right. On the left side, text reads "2020" followed by struck-through skill names: "syntax", "debugging", "scaffolding" with dots dispersing. The arrow progresses upward and to the right toward "2026", with an upward trending arrow burst effect. On the right side, five red/rust-colored underlined skill labels are clustered: "problem shaping", "context", "orchestration", "taste", and "restraint".)

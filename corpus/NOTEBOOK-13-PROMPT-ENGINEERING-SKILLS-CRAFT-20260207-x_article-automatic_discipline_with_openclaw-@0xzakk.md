@@ -1,9 +1,3 @@
----
-url: https://x.com/0xZakk/status/2020155560268632235
-author: Zakk (@0xZakk)
-captured_date: 2026-02-13
----
-
 # Automatic Discipline with OpenClaw
 
 How I use an AI agent to enforce structure in my day without willpower.

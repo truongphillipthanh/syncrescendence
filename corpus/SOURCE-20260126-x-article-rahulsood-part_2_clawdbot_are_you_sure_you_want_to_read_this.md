@@ -1,32 +1,3 @@
----
-url: https://x.com/rahulsood/status/2015805211517042763
-author: "Rahul Sood (@rahulsood)"
-captured_date: 2026-01-26
-id: SOURCE-20260126-009
-original_filename: "20260126-x_article-part_2_clawdbot_are_you_sure_you_want_to_read_this-@rahulsood.md"
-status: triaged
-platform: x
-format: article
-creator: rahulsood
-signal_tier: tactical
-topics:
-  - ai-agents
-  - testing
-  - deployment
-  - api
-  - product-development
-  - security
-  - rag
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Part 2 Clawdbot Are you sure you want to read this"
-synopsis: "Part 2: Clawdbot: Are you sure you want to read this? Overview In [Part 1]( I covered the general security model of Clawdbot. Now let's talk about where or if you actually run this thing. The Cloud Shortcuts (and Why I Wouldn't) Clawdbot is gaining in popularity, so solutions like Railway's one-click deploy will be launched everywhere."
-key_insights:
-  - "Click a button, set a password, paste your API keys, and you have a running agent accessible from anywhere."
-  - "If someone gets your password, they get your keys."
-  - "You've never met them in person."
----
 # Part 2: Clawdbot: Are you sure you want to read this?
 
 (Description: A dark-themed diagram showing a central hexagonal node labeled "AGENT" in orange, with multiple directional arrows connecting to various labeled inputs: "Email," "Message," "Calendar," "Files," "Images," "Website," "Chat app," and "Cloud logs." The diagram emphasizes multiple content input vectors. Quote at top: "anything the bot can read, an attacker can write to." Text below reads: "PART 2: THE ATTACK SURFACE IS EVERYWHERE IT TOUCHES")

@@ -1,27 +1,3 @@
----
-url: https://x.com/badlogicgames/status/2023042675646337517
-author: Mario Zechner
-handle: badlogicgames
-published_date: February 15, 2026
-captured_date: February 21, 2026
-post_count: 11
-id: SOURCE-20260215-013
-original_filename: "20260215-x_thread-lots_of_talk_on_here_not-@badlogicgames.md"
-status: triaged
-platform: x
-format: thread
-creator: badlogicgames
-signal_tier: strategic
-topics: [ai-agents, developer-tools, opinion, vibe-coding]
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases: ["badlogicgames - critique of agent innovation stagnation"]
-synopsis: "A sharp critique arguing that despite all the agent hype, there has been little genuine innovation since the original Claude Code. Calls out multi-agent UIs, git-stuffed sessions, and token-obsessed builders as recycled ideas that don't solve fundamental agent problems like the 'lethal trifecta.'"
-key_insights:
-  - "The lethal trifecta for general agents may be fundamentally undecidable - all solutions are papering over the core issue"
-  - "Stuffing agent sessions into git creates logs nobody reads, just like nobody reads the code agents write"
-  - "Most 'innovation' is repackaging May 2025 ideas - genuine product breakthroughs from agents remain scarce"
----
 # Mario Zechner Thread: "Lots of talk on here, not a lot of innovation"
 lots of talk on here, not a lot of innovation (that includes my work). models have improved, but everything around them is basically a play on the original CC.
 if agents make experimentation in software so feasible, then why don't we see that materialize in products?

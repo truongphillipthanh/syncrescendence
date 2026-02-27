@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-675
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "500k"
-  - "mistake"
-  - "engineers"
-  - "doing"
-  - "implementation"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The $500K Mistake: 8 Engineers Doing Implementation, 0 Doing Governance"
-url: "https://www.youtube.com/watch?v=Zwq_5jvFZH8"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 48s"
-has_transcript: no
-synopsis: "The $500K Mistake: 8 Engineers Doing Implementation, 0 Doing Governance by AI News & Strategy Daily | Nate B Jones. A lecture covering 500k, mistake, engineers."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The $500K Mistake: 8"
-  - "The $500K Mistake: 8 Engineers Doing"
----
-
 # The $500K Mistake: 8 Engineers Doing Implementation, 0 Doing Governance
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

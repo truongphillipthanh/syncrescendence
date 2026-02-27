@@ -1,31 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2024572078314451146
-author: "klöss (@kloss_xyz)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-022
-original_filename: "20260219-x_thread-most_give_their_openclaw_tasks-@kloss_xyz.md"
-status: triaged
-platform: x
-format: thread
-creator: kloss_xyz
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - prompting
-  - context-management
-  - automation
-  - rules-files
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "21 OpenClaw Prompts for Agent SelfImprovement"
-synopsis: "21 OpenClaw Prompts for Agent Self-Improvement Most give their OpenClaw tasks. Almost nobody asks theirs the real questions that make it smarter. Your agent understands your context, patterns, blind spots, and workflows. It's sitting on insights about YOU that it will never ever surface unless you ask."
-key_insights:
-  - "Your agent understands your context, patterns, blind spots, and workflows."
-  - "It's sitting on insights about YOU that it will never ever surface unless you ask."
-  - "What assumptions do you currently hold about me, my priorities, or my preferences that could be wrong and that we should vet and correct right now?"
----
 # 21 OpenClaw Prompts for Agent Self-Improvement
 Most give their OpenClaw tasks. Almost nobody asks theirs the real questions that make it smarter.
 Your agent understands your context, patterns, blind spots, and workflows.

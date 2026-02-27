@@ -1,39 +1,3 @@
----
-id: SOURCE-20260216-065
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "intelligence"
-  - "didn"
-  - "evolve"
-  - "there"
-  - "start"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "What If Intelligence Didn't Evolve? It "Was There" From the Start! - Blaise Agüera y Arcas"
-url: "https://www.youtube.com/watch?v=M2iX6HQOoLg"
-date_published: 2026-02-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "55m 49s"
-has_transcript: no
-synopsis: "What If Intelligence Didn't Evolve? It "Was There" From the Start! - Blaise Agüera y Arcas by Machine Learning Street Talk. A tutorial covering intelligence, didn, evolve."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "What If Intelligence Didn't"
-  - "What If Intelligence Didn't Evolve? It"
----
-
 # What If Intelligence Didn't Evolve? It "Was There" From the Start! - Blaise Agüera y Arcas
 
 **Channel**: Machine Learning Street Talk

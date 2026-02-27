@@ -1,32 +1,3 @@
----
-url: https://x.com/Saboo_Shubham_/status/2021416352637125110
-author: "Shubham Saboo (@Saboo_Shubham_)"
-captured_date: 2026-02-10
-id: SOURCE-20260211-010
-original_filename: "20260211-x_article-the_only_skills_that_matter_in_2026-@saboo_shubham_.md"
-status: triaged
-platform: x
-format: article
-creator: saboo_shubham_
-signal_tier: tactical
-topics:
-  - prompting
-  - context-management
-  - testing
-  - gemini
-  - api
-  - product-development
-  - startup
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "The Only Skills that Matter in 2026"
-synopsis: "The Only Skills that Matter in 2026 Six months ago, I would have hired for skills I now consider worthless. Not "less important." Not "evolving." Worthless. The skills that made developers valuable for the last decade got commoditized in one model generation. In the time between Gemini 3 pro and Claude Opus 4.6. And most people haven't updated their mental model yet."
-key_insights:
-  - "Not "less important." Not "evolving." Worthless."
-  - "What should someone understand in the first three seconds?"
-  - "The Only Skills that Matter in 2026 Six months ago, I would have hired for skills I now consider worthless."
----
 # The Only Skills that Matter in 2026
 
 (Description: A beige/cream colored graphic showing a timeline arrow progression from left to right. On the left side, text reads "2020" followed by struck-through skill names: "syntax", "debugging", "scaffolding" with dots dispersing. The arrow progresses upward and to the right toward "2026", with an upward trending arrow burst effect. On the right side, five red/rust-colored underlined skill labels are clustered: "problem shaping", "context", "orchestration", "taste", and "restraint".)

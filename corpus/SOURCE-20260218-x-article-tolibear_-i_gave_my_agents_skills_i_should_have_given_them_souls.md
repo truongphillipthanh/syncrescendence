@@ -1,32 +1,3 @@
----
-url: https://x.com/tolibear_/status/2024155081281560700
-author: "toli (@tolibear_)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-017
-original_filename: "20260218-x_article-i_gave_my_agents_skills_i_should_have_given_them_souls-@tolibear_.md"
-status: triaged
-platform: x
-format: article
-creator: tolibear_
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - context-management
-  - testing
-  - memory-management
-  - product-development
-  - startup
-  - token-management
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "I Gave My Agents Skills I Should Have Given Them Souls"
-synopsis: "I Gave My Agents Skills. I Should Have Given Them Souls. I spent the last 30 days running a team of 17 Openclaw agents across multiple startups, experimenting with everything I found on the timeline. The thing that determined whether an agent produced senior-level work or absolute garbage was something almost nobody talks about: its soul."
-key_insights:
-  - "I Should Have Given Them Souls."
-  - "Context that shouldn't be there mixed with context that should."
-  - "--- Your Agent's Soul Is Everything Your agent's set of identity files -- what is commonly called the soul -- is the single most important lever you have."
----
 # I Gave My Agents Skills. I Should Have Given Them Souls.
 (Description: Stylized illustration showing two figures in profile standing back-to-back, one smaller figure holding a large red lobster claw on each side, rendered in a minimalist sketch style.)
 I spent the last 30 days running a team of 17 Openclaw agents across multiple startups, experimenting with everything I found on the timeline. The thing that determined whether an agent produced senior-level work or absolute garbage was something almost nobody talks about: its soul.

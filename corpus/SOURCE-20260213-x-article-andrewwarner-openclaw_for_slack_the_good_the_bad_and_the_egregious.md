@@ -1,28 +1,3 @@
----
-url: https://x.com/AndrewWarner/status/2022414698365243425
-author: Andrew Warner
-captured_date: 2026-02-13
-id: SOURCE-20260213-002
-original_filename: "20260213-x_article-openclaw_for_slack_the_good_the_bad_and_the_egregious-@andrewwarner.md"
-status: triaged
-platform: x
-format: article
-creator: andrewwarner
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - contextualize-pattern
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw for Slack  The good the bad and the egregious"
-synopsis: ""OpenClaw for Slack" - The good, the bad, and the egregious I had to try this "OpenClaw for Slack" app after it somehow hit $1 million within 3 hours. It's amazing, but now I have to remove it ASAP! Context This post was trending when I logged into X this morning. It's what led me (and many others) to try new software named Viktor. with text "We launched OpenClaw for Slack."
-key_insights:
-  - "Since my YouTube channel is starting to get traction with founders of AI companies (you should see it), it might be time to get sponsors."
-  - ""OpenClaw for Slack" - The good, the bad, and the egregious I had to try this "OpenClaw for Slack" app after it somehow hit $1 million within 3 hours."
-  - "It's amazing, but now I have to remove it ASAP!"
----
 # "OpenClaw for Slack" - The good, the bad, and the egregious
 I had to try this "OpenClaw for Slack" app after it somehow hit $1 million within 3 hours. It's amazing, but now I have to remove it ASAP!
 ## Context

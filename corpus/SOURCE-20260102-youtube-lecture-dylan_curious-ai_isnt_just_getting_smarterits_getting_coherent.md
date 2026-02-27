@@ -1,39 +1,3 @@
----
-id: SOURCE-20260102-646
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "isn"
-  - "just"
-  - "getting"
-  - "smarter"
-  - "coherent"
-creator: "Dylan Curious"
-guest: null
-title: "AI Isn’t Just Getting Smarter—It’s Getting Coherent"
-url: "https://www.youtube.com/watch?v=V8WPTfXb7eY"
-date_published: 2026-01-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 54s"
-has_transcript: no
-synopsis: "AI Isn’t Just Getting Smarter—It’s Getting Coherent by Dylan Curious. A lecture covering isn, just, getting."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Isn’t Just Getting"
-  - "AI Isn’t Just Getting Smarter—It’s Getting"
----
-
 # AI Isn’t Just Getting Smarter—It’s Getting Coherent
 
 **Channel**: Dylan Curious

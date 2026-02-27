@@ -1,11 +1,3 @@
----
-url: https://x.com/shedrinkswater/status/2019785416556359874
-author: smoothie (@shedrinkswater)
-captured_date: 2026-02-13
-article_published_date: 2026-02-06
-engagement: "341 replies, 3.7K reposts, 19K likes, 29K bookmarks, 6.9M views"
----
-
 # Instagram is Training You to Leave People Who Love You
 
 (Description: Macro photograph with black background showing close-up textures of two natural forms. On the left are two tan/brown curved organic shapes with intricate surface patterns and fibers. On the right is a large cream and golden-yellow circular form with fine hair-like fibers radiating outward, resembling biological cellular or iris structures. The image creates an abstract, intimate aesthetic emphasizing natural texture and detail.)

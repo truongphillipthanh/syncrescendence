@@ -1,9 +1,3 @@
----
-url: https://x.com/alexalbert__/status/2019477447868313634
-author: Alex Albert (@alexalbert__)
-captured_date: 2026-02-05
----
-
 # Claude transformed coding in 2025. In 2026, it will transform knowledge work.
 
 ## Benchmark Overview

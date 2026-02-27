@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-945
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stop"
-  - "getting"
-  - "purple"
-  - "gradients"
-  - "prompting"
-creator: "Dylan Davis"
-guest: null
-title: "Stop Getting Purple Gradients From AI (The Prompting Altitude Fix)"
-url: "https://www.youtube.com/watch?v=Oz7evK_FeQQ"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 57s"
-has_transcript: no
-synopsis: "Stop Getting Purple Gradients From AI (The Prompting Altitude Fix) by Dylan Davis. A lecture covering stop, getting, purple."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: prompt-engineering
-aliases:
-  - "Stop Getting Purple Gradients"
-  - "Stop Getting Purple Gradients From AI"
----
-
 # Stop Getting Purple Gradients From AI (The Prompting Altitude Fix)
 
 **Channel**: Dylan Davis

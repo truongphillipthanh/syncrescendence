@@ -1,31 +1,3 @@
----
-url: https://x.com/milesdeutscher/status/2024170023221370919
-author: "Miles Deutscher (@milesdeutscher)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-014
-original_filename: "20260218-x_article-sam_altman_didnt_buy_openclaw_to_win_the_ai_race_he_bought_it_to_replace_you-@milesdeutscher.md"
-status: triaged
-platform: x
-format: article
-creator: milesdeutscher
-signal_tier: strategic
-topics:
-  - ai-agents
-  - git
-  - gpt
-  - openai
-  - anthropic
-  - rag
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Sam Altman Didnt Buy OpenClaw to Win the AI Race He Bought It to Replace You"
-synopsis: "Sam Altman Didn't Buy OpenClaw to Win the AI Race. He Bought It to Replace You. Opening Sam Altman just hired the creator of OpenClaw, Peter Steinberger - the open-source AI agent that controls your computer and does your job while you sleep. But his motive runs much deeper than the headlines suggest. And if you work a white-collar job, what I'm about to explain directly affects you."
-key_insights:
-  - "The Enterprise Agent Platform Strategy Firstly, let's go back to the week before the hire, when Altman quietly launched OpenAI's enterprise agent platform."
-  - "Goldman's CIO calls them "digital co-workers." Essentially a private, custom enterprise-grade solution behind their firewall."
-  - "OpenAI's Strategy Anthropic's moat has always been the technical end: Developers, researchers, enterprise teams."
----
 # Sam Altman Didn't Buy OpenClaw to Win the AI Race. He Bought It to Replace You.
 (Description: Header image with a stylized portrait of a man with a black censor bar across his eyes, against a geometric background of red and orange pixelated shapes in a pop-art style)
 ## Opening

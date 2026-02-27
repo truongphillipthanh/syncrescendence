@@ -1,22 +1,3 @@
----
-id: SOURCE-20260127-x-article-armanhezarkhani-the_complete_guide_how_to_become_an_ai_agent_engineer_in_2026
-platform: x
-format: article
-creator: armanhezarkhani
-title: the complete guide how to become an ai agent engineer in 2026
-status: triaged
-original_filename: "20260127-x_article-the_complete_guide_how_to_become_an_ai_agent_engineer_in_2026-@armanhezarkhani.md"
-url: https://x.com/ArmanHezarkhani/status/2016195092877578490
-author: Arman Hezarkhani
-captured_date: 2026-02-04
-signal_tier: strategic
-topics: ""
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # The Complete Guide: How to Become an AI Agent Engineer in 2026
 
 (Description: Hero banner image with gradient background transitioning from deep blue to purple with circuit board pattern overlay. Large red underlined text reading "1,000,000x" on left side. White text on right reads "The Complete Guide: Become an AI Agent Engineer" with subtitle "Learn the path from zero to building AI agents from scratch, for free." Bright white sparkle accent in bottom right corner.)

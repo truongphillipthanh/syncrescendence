@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-473
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ben"
-  - "marc"
-  - "everything"
-  - "get"
-  - "10x"
-creator: "a16z"
-guest: null
-title: "Ben & Marc: Why Everything Is About to Get 10x Bigger"
-url: "https://www.youtube.com/watch?v=Kdql4I-NJ0M"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "54m 53s"
-has_transcript: no
-synopsis: "Ben & Marc: Why Everything Is About to Get 10x Bigger by a16z. A panel discussion covering ben, marc, everything."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Ben & Marc: Why"
-  - "Ben & Marc: Why Everything Is"
----
-
 # Ben & Marc: Why Everything Is About to Get 10x Bigger
 
 **Channel**: a16z

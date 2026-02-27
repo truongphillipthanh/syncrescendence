@@ -1,9 +1,3 @@
----
-url: https://x.com/DhravyaShah/status/2016308406701981731
-author: Dhravya Shah (@DhravyaShah)
-captured_date: 2026-01-27
----
-
 # Clawd / Molt bot's memory SUCKS. We gave it supermemory.
 
 (Description: Brand collaboration graphic with Supermemory logo on left and red lobster illustration on right against gradient blue background)

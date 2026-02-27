@@ -1,28 +1,3 @@
----
-url: https://x.com/TommiPedruzzi/status/2024499629858181159
-author: "Tommi Pedruzzi (@TommiPedruzzi)"
-captured_date: 2026-02-21
-id: SOURCE-20260219-014
-original_filename: "20260219-x_article-how_to_get_rich_while_getting_lucky-@tommipedruzzi.md"
-status: triaged
-platform: x
-format: article
-creator: tommipedruzzi
-signal_tier: tactical
-topics:
-  - extended-thinking
-  - rag
-  - inspire-pattern
-teleology: inspire
-notebooklm_category: career-growth
-aliases:
-  - "How to Get Rich While Getting Lucky"
-synopsis: "How to Get Rich (While Getting Lucky) Naval Ravikant changed how a generation thinks about money. The ideas hit like a freight train. But he left something on the table. And it's worth picking up."
-key_insights:
-  - "How to Get Rich (While Getting Lucky) Naval Ravikant changed how a generation thinks about money."
-  - "The ideas hit like a freight train."
-  - "But he left something on the table."
----
 # How to Get Rich (While Getting Lucky)
 Naval Ravikant changed how a generation thinks about money. One tweetstorm. Millions of people. The ideas hit like a freight train.
 But he left something on the table. And it's worth picking up.

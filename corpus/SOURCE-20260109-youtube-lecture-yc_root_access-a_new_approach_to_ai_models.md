@@ -1,37 +1,3 @@
----
-id: SOURCE-20260109-549
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "new"
-  - "approach"
-  - "models"
-creator: "YC Root Access"
-guest: null
-title: "A New Approach To AI Models"
-url: "https://www.youtube.com/watch?v=1pjiS-t_O0w"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 15s"
-has_transcript: no
-synopsis: "A New Approach To AI Models by YC Root Access. A lecture covering new, approach, models."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "A New Approach To"
-  - "A New Approach To AI Models"
----
-
 # A New Approach To AI Models
 
 **Channel**: YC Root Access

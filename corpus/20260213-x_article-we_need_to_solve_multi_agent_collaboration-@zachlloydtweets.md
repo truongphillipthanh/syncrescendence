@@ -1,9 +1,3 @@
----
-url: https://x.com/zachlloydtweets/status/2022336577087705417
-author: Zach Lloyd (@zachlloydtweets)
-captured_date: 2026-02-13
----
-
 # We need to solve multi-agent collaboration
 
 (Description: A visual diagram titled "The primitives" showing four connected boxes with colored borders arranged horizontally. From left to right: a yellow-bordered box labeled "Agents", a blue-bordered box labeled "Cloud runners", an orange-bordered box labeled "Message passing", and a green-bordered box labeled "Persistent storage". Plus signs (+) connect each box sequentially.)

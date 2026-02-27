@@ -1,38 +1,3 @@
----
-id: SOURCE-20260206-151
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "xai"
-  - "birth"
-  - "sentient"
-  - "sun"
-creator: "Wes Roth"
-guest: null
-title: "xAI will birth a SENTIENT SUN..."
-url: "https://www.youtube.com/watch?v=w52IzEfzz1E"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 30s"
-has_transcript: no
-synopsis: "xAI will birth a SENTIENT SUN... by Wes Roth. A interview covering xai, birth, sentient."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "xAI will birth a"
-  - "xAI will birth a SENTIENT SUN..."
----
-
 # xAI will birth a SENTIENT SUN...
 
 **Channel**: Wes Roth

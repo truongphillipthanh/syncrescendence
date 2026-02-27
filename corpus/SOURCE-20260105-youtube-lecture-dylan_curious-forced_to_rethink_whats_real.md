@@ -1,37 +1,3 @@
----
-id: SOURCE-20260105-606
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "forced"
-  - "rethink"
-  - "real"
-creator: "Dylan Curious"
-guest: null
-title: "Forced to Rethink What’s Real"
-url: "https://www.youtube.com/watch?v=2nB36E9JzJ4"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 13s"
-has_transcript: no
-synopsis: "Forced to Rethink What’s Real by Dylan Curious. A lecture covering forced, rethink, real."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Forced to Rethink What’s"
-  - "Forced to Rethink What’s Real"
----
-
 # Forced to Rethink What’s Real
 
 **Channel**: Dylan Curious

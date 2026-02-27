@@ -1,39 +1,3 @@
----
-id: SOURCE-20251211-862
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "arrival"
-  - "agi"
-  - "shane"
-  - "legg"
-  - "founder"
-creator: "Google DeepMind"
-guest: null
-title: "The arrival of AGI | Shane Legg (co-founder of DeepMind)"
-url: "https://www.youtube.com/watch?v=l3u_FAv33G0"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "53m 10s"
-has_transcript: no
-synopsis: "The arrival of AGI | Shane Legg (co-founder of DeepMind) by Google DeepMind. A lecture covering arrival, agi, shane."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "The arrival of AGI"
-  - "The arrival of AGI | Shane"
----
-
 # The arrival of AGI | Shane Legg (co-founder of DeepMind)
 
 **Channel**: Google DeepMind

@@ -1,38 +1,3 @@
----
-id: SOURCE-20260131-216
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "humans"
-  - "make"
-  - "any"
-  - "better"
-creator: "Welch Labs"
-guest: null
-title: "Can humans make AI any better?"
-url: "https://www.youtube.com/watch?v=2hcsmtkSzIw"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 39s"
-has_transcript: no
-synopsis: "Can humans make AI any better? by Welch Labs. A interview covering humans, make, any."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Can humans make AI"
-  - "Can humans make AI any better?"
----
-
 # Can humans make AI any better?
 
 **Channel**: Welch Labs

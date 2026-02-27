@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-288
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "built"
-  - "tab"
-  - "financial"
-  - "model"
-  - "minutes"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "I Built an 11-Tab Financial Model in 10 Minutes. The $20/Month Tool That's About Change How We Work."
-url: "https://www.youtube.com/watch?v=f-v0fJgBqhk"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 8s"
-has_transcript: no
-synopsis: "I Built an 11-Tab Financial Model in 10 Minutes. The $20/Month Tool That's About Change How We Work. by AI News & Strategy Daily | Nate B Jones. A lecture covering built, tab, financial."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "I Built an 11-Tab"
-  - "I Built an 11-Tab Financial Model"
----
-
 # I Built an 11-Tab Financial Model in 10 Minutes. The $20/Month Tool That's About Change How We Work.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

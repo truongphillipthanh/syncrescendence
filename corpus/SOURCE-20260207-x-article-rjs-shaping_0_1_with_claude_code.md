@@ -1,21 +1,3 @@
----
-url: https://x.com/rjs/status/2020184079350563263
-author: "Ryan Singer (@rjs)"
-captured_date: 2026-02-13
-id: SOURCE-20260207-013
-original_filename: "20260207-x_article-shaping_0_1_with_claude_code-@rjs.md"
-status: triaged
-platform: x
-format: article
-creator: rjs
-signal_tier: strategic
-topics: [claude-code, vibe-coding, best-practices, tutorial, case-study]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["Ryan Singer - Shaping 0-1 with Claude Code"]
-synopsis: "Step-by-step walkthrough of shaping and building a small project from zero to working product in Claude Code, using Ryan Singer's shaping skills from GitHub. Shows the complete process with no steps skipped, from initial prompt to finished product."
-key_insights: ["Shaping (defining the problem before building) is even more important when working with AI — the first prompt sets the trajectory", "The complete 0-to-1 process in Claude Code can be demonstrated without skipping steps, showing the real workflow", "Shaping skills from product management translate directly into effective AI-assisted development"]
----
 # Shaping 0-1 with Claude Code
 
 Here's what it looks like to shape and build a small project from 0-1 in Claude Code. This example uses my shaping skills on GitHub. I am not skipping any steps here. You're seeing the whole thing from scratch to working product.

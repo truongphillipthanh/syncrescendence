@@ -1,32 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2015854323599867956
-author: "Corey Ganim (@GanimCorey)"
-captured_date: 2026-01-26
-id: SOURCE-20260126-005
-original_filename: "20260126-x_article-clawdbot_for_dummies_30_min_setup_guide_for_non_techies-@ganimcorey.md"
-status: triaged
-platform: x
-format: article
-creator: ganimcorey
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - automation
-  - extended-thinking
-  - gpt
-  - anthropic
-  - mac-mini
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Clawdbot for Dummies 30min setup guide for nontechies"
-synopsis: "Clawdbot for Dummies (30-min setup guide for non-techies) I'm not a software engineer. I literally failed computer science 1 in college. But I still set up 3 custom Clawdbot agents in under 30 minutes to handle different parts of my business."
-key_insights:
-  - "Clawdbot for Dummies (30-min setup guide for non-techies) I'm not a software engineer."
-  - "I literally failed computer science 1 in college."
-  - "But I still set up 3 custom Clawdbot agents in under 30 minutes to handle different parts of my business."
----
 # Clawdbot for Dummies (30-min setup guide for non-techies)
 
 (Description: A man in a light blue shirt sits at a desk with a laptop. He is smiling and holding a red and white robot with articulated arms. The robot has a screen on its chest. In the background are icons representing a chat bubble, a desk lamp, and office elements. The scene is rendered in a vibrant turquoise and teal color palette with warm lighting.)

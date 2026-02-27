@@ -1,10 +1,3 @@
----
-url: "https://x.com/thedankoe/status/2009320195848872014"
-author: "Dan Koe (@thedankoe)"
-captured_date: "2026-02-13"
-original_post_date: "2026-01-08"
----
-
 # The Most Important Skill to Learn in the Next 10 Years
 
 (Description: A black and white engraving-style illustration depicting an astronaut in a spacesuit floating through turbulent space. The astronaut appears weightless in the center, surrounded by swirling cosmic debris, asteroid-like formations with intricate line-work texture on the left, and a large dark circular vortex or wormhole dominating the right side. Radiating linear patterns suggest gravitational forces, stars scatter across the upper portion, and smaller celestial bodies orbit throughout the composition. The overall aesthetic is surreal and contemplative, suggesting themes of isolation, exploration, and navigation through the unknown.)

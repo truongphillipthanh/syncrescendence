@@ -1,9 +1,3 @@
----
-url: https://x.com/heyshrutimishra/status/2015327280911073789
-author: Shruti (@heyshrutimishra)
-captured_date: 2026-01-24
----
-
 # I Spent 40 Hours Researching Clawdbot. Here's Everything They're Not Telling You
 
 (Description: Hero image showing Clawdbot logo with red mascot character and tagline "THE AI THAT ACTUALLY DOES THINGS" with descriptive text about clearing inbox, sending emails, managing calendar, and checking flights - all from WhatsApp, Telegram, or any chat app already in use)

@@ -1,38 +1,3 @@
----
-id: SOURCE-20250816-848
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "ways"
-  - "mathematics"
-  - "alters"
-  - "brain"
-creator: "DIBEOS"
-guest: null
-title: "3 Ways Mathematics Alters Your Brain"
-url: "https://www.youtube.com/watch?v=E_EanZrYbTw"
-date_published: 2025-08-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 49s"
-has_transcript: no
-synopsis: "3 Ways Mathematics Alters Your Brain by DIBEOS. A lecture covering ways, mathematics, alters."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "3 Ways Mathematics Alters"
-  - "3 Ways Mathematics Alters Your Brain"
----
-
 # 3 Ways Mathematics Alters Your Brain
 
 **Channel**: DIBEOS

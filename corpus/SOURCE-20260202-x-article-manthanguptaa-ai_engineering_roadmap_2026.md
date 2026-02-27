@@ -1,28 +1,3 @@
----
-url: https://x.com/manthanguptaa/status/2018297734995075200
-author: "Manthan Gupta (@manthanguptaa)"
-captured_date: 2026-02-02T04:17:00Z
-id: SOURCE-20260202-004
-original_filename: "20260202-x_article-ai_engineering_roadmap_2026-@manthanguptaa.md"
-status: triaged
-platform: x
-format: article
-creator: manthanguptaa
-signal_tier: strategic
-topics:
-  - ai-engineering
-  - career
-  - framework
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Manthan Gupta - AI engineering roadmap 2026"
-synopsis: "Roadmap distinguishing AI Engineering from ML Engineering: AI engineers build applications on top of foundation models rather than training from scratch. Covers the fundamental shift in what practitioners need to learn in 2026."
-key_insights:
-  - "AI Engineering is now a distinct discipline from ML Engineering — you build on foundation models rather than training from scratch."
-  - "The career path shift means learning application architecture, prompt engineering, and orchestration matters more than PyTorch and model training."
-  - "Understanding the boundary between AI Engineering (application layer) and ML Engineering (model layer) determines what skills to prioritize."
----
 # AI Engineering Roadmap 2026
 
 ![Cover Image](Description: Traditional East Asian landscape painting in muted sage and cream tones. A bearded figure in golden robes poles a wooden boat across a calm, misty lake. Gnarled pine tree with dark trunk and feathered foliage extends from upper right. Distant pagoda visible through morning mist on far shore. Rocky outcropping in foreground with dark stones partially submerged in blue water. Monochrome signature and seal mark visible in lower left corner.)

@@ -1,32 +1,3 @@
----
-url: https://x.com/honchodotdev/status/2018701610596098435
-author: "Honcho (@honchodotdev)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-019
-original_filename: "20260203-x_article-openclaw_honcho_memory_that_reasons_for_openclaw-@honchodotdev.md"
-status: triaged
-platform: x
-format: article
-creator: honchodotdev
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - context-management
-  - automation
-  - memory-management
-  - api
-  - token-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw  Honcho Memory That Reasons for OpenClaw"
-synopsis: "OpenClaw + Honcho: Memory That Reasons for OpenClaw ![Hero image showing integration] Markdown files got you started.... but they won't get you anywhere close to AI native memory. Take your OpenClaw assistant to the next level with SOTA memory. Honcho doesn't just remember—it builds a working model of who you are. Already have context in your OpenClaw's memory files?"
-key_insights:
-  - "Setup ```bash echo "HONCHO_API_KEY=hc_..." >> ~/.openclaw/.env ``` ```bash openclaw plugins install @honcho-ai/openclaw ``` Restart the gateway, and you've got Honcho memory!"
-  - "See more at How It Works **Context on demand** — Before your assistant responds, Honcho injects relevant context into the prompt: your preferences, patterns, and conversation history."
-  - "Our reasoning models analyze patterns and derive conclusions about you—not just store facts."
----
 # OpenClaw + Honcho: Memory That Reasons for OpenClaw
 
 ![Hero image showing integration](Description: Landscape image on a light blue textured background featuring three elements arranged horizontally: on the left, a pixelated black and white circuit-board-style character with a friendly expression; in the center, a large black letter X; on the right, a red rounded blob-like character with antenna, two circular eyes, and small rectangular feet.)

@@ -1,9 +1,3 @@
----
-url: https://x.com/DrDominicNg/status/2013969295097655729
-author: Dr. Dominic Ng (@DrDominicNg)
-captured_date: 2026-01-21
----
-
 # The Dopamine Trap: Why You Can't Focus and the 8-Day Fix
 
 ![Hero image depicting a close-up human eye transitioning from grayscale dotted texture on the left to a vibrant, colorful pixelated pattern on the right, symbolizing the shift from overstimulation to clarity. (Description: Artistic illustration showing an eye in cross-section with white highlights against black background on left side, transitioning to curved linear patterns in the center, and dense multicolored dots (pink, blue, yellow, purple, orange) filling the right portion, representing visual overstimulation and cognitive overload.)](image)

@@ -1,9 +1,3 @@
----
-url: https://x.com/tadaspetra/status/2019204136982532407
-author: Tadas Petra (@tadaspetra)
-captured_date: 2026-02-04
----
-
 # Deep Dive on Agent Skills
 
 I spent the last few weeks building elevenlabs/skills, which got 500+ installs in the first 24 hours.

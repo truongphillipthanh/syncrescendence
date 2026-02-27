@@ -1,39 +1,3 @@
----
-id: SOURCE-20251112-1142
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "neural"
-  - "interface"
-  - "writes"
-  - "code"
-  - "brain"
-creator: "Fireship"
-guest: null
-title: "This neural interface writes code from my brain waves…"
-url: "https://www.youtube.com/watch?v=4bQ2qhfJUjA"
-date_published: 2025-11-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "4m 3s"
-has_transcript: no
-synopsis: "This neural interface writes code from my brain waves… by Fireship. A lecture covering neural, interface, writes."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "This neural interface writes"
-  - "This neural interface writes code from"
----
-
 # This neural interface writes code from my brain waves…
 
 **Channel**: Fireship

@@ -1,28 +1,3 @@
----
-url: https://x.com/rryssf_/status/2022728826401563036
-author: "Robert Youssef (@rryssf_)"
-captured_date: 2026-02-14
-id: SOURCE-20260214-019
-original_filename: 20260214-x_thread-stanford_and_caltech_researchers_just_published-rryssf_.md
-status: triaged
-platform: x
-format: thread
-creator: rryssf_
-signal_tier: strategic
-topics:
-  - architecture
-  - rag
-  - extract-pattern
-teleology: extract
-notebooklm_category: ai-engineering
-aliases:
-  - "Large Language Model Reasoning Failures"
-synopsis: "Large Language Model Reasoning Failures Stanford and Caltech researchers just published the first comprehensive taxonomy of how llms fail at reasoning not a list of cherry-picked gotchas. a 2-axis framework that finally lets you compare failure modes across tasks instead of treating each one as a random anecdote the findings are uncomfortable ."
-key_insights:
-  - "Large Language Model Reasoning Failures Stanford and Caltech researchers just published the first comprehensive taxonomy of how llms fail at reasoning not a list of cherry-picked gotchas."
-  - "a 2-axis framework that finally lets you compare failure modes across tasks instead of treating each one as a random anecdote the findings are uncomfortable ."
-  - "Reviewed on OpenReview: Abstract: Large Language Models (LLMs) have exhibited remarkable reasoning capabilities, achieving impressive results across a wide range of tasks."
----
 # Large Language Model Reasoning Failures
 Stanford and Caltech researchers just published the first comprehensive taxonomy of how llms fail at reasoning
 not a list of cherry-picked gotchas. a 2-axis framework that finally lets you compare failure modes across tasks instead of treating each one as a random anecdote

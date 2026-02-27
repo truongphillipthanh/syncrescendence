@@ -1,28 +1,3 @@
----
-url: https://x.com/pablostanley/status/2019508029390221706
-author: "Pablo Stanley (@pablostanley)"
-captured_date: 2026-02-13
-id: SOURCE-20260205-014
-original_filename: "20260205-x_article-the_design_vibeshift-@pablostanley.md"
-status: triaged
-platform: x
-format: article
-creator: pablostanley
-signal_tier: strategic
-topics:
-  - ai-workflow
-  - cursor
-  - synthesize-pattern
-teleology: synthesize
-notebooklm_category: ai-creative-media
-aliases:
-  - "The Design Vibeshift"
-synopsis: "The Design Vibeshift A change is happening... for a lot of designers, code is becoming our new canvas I've been watching my feed on X and the vibe has changed. More and more, I see designers sharing finished experiments or prototypes they coded themselves, rather than static Figma files. Moving from working on a canvas to talking to an LLM. The conversation isn't "here's a design I made" anymore..."
-key_insights:
-  - "The Design Vibeshift A change is happening..."
-  - "for a lot of designers, code is becoming our new canvas I've been watching my feed on X and the vibe has changed."
-  - "More and more, I see designers sharing finished experiments or prototypes they coded themselves, rather than static Figma files."
----
 # The Design Vibeshift
 
 (Description: Illustration of two people collaborating at a round table. One person in a turquoise shirt sits on the left with a laptop displaying design tools. The other person in a black shirt sits on the right with another laptop. Between them are various sketched design elements, UI components, and prototyping tools floating in the air, rendered in a friendly, hand-drawn style with muted colors including teal and pink accents.)

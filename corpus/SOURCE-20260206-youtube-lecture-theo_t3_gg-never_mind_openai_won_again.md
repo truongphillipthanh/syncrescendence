@@ -1,39 +1,3 @@
----
-id: SOURCE-20260206-160
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "never"
-  - "mind"
-  - "openai"
-  - "won"
-  - "again"
-creator: "Theo - t3․gg"
-guest: null
-title: "Never mind (OpenAI won again)"
-url: "https://www.youtube.com/watch?v=RYWrK2hsIB8"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "43m 33s"
-has_transcript: no
-synopsis: "Never mind (OpenAI won again) by Theo - t3․gg. A lecture covering never, mind, openai."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Never mind (OpenAI won"
-  - "Never mind (OpenAI won again)"
----
-
 # Never mind (OpenAI won again)
 
 **Channel**: Theo - t3․gg

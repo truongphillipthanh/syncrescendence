@@ -1,31 +1,3 @@
----
-id: SOURCE-20260128-x-article-ryancarson-how_to_make_your_agent_learn_and_ship_while_you_sleep
-platform: x
-format: article
-creator: ryancarson
-title: how to make your agent learn and ship while you sleep
-status: triaged
-original_filename: "20260128-x_article-how_to_make_your_agent_learn_and_ship_while_you_sleep-@ryancarson.md"
-url: https://x.com/ryancarson/status/2016520542723924279
-author: "Ryan Carson (@ryancarson)"
-captured_date: 2026-02-04
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - automation
-  - claude-code
-  - developer-tools
-  - tutorial
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Ryan Carson - nightly agent compound loop"
-synopsis: "Complete implementation guide for a nightly agent loop: at 10:30 PM the agent reviews all threads from the past 24 hours, extracts missed learnings, and updates AGENTS.md files; at 11:00 PM it pulls fresh context, picks the top priority from reports, implements it, and creates a PR. Uses launchd plists on macOS with caffeinate to keep the machine awake. Built on Compound Engineering Plugin, Ralph, and Compound Product."
-key_insights:
-  - "The two-job nightly sequence (compound review THEN auto-compound) creates a self-improving loop where learnings from today's work inform tonight's autonomous implementation."
-  - "AGENTS.md files become living institutional memory that grows every night — patterns discovered Monday inform Tuesday's work, gotchas hit Wednesday are avoided Thursday."
-  - "launchd is preferred over cron on macOS for scheduling, but requires caffeinate to prevent the Mac from sleeping during automation windows."
----
 # How to Make Your Agent Learn and Ship While You Sleep
 
 (Description: Two side-by-side isometric illustrations on a dark background. Left: A warm-lit golden/amber room interior with architectural elements. Right: A cool-lit blue/cyan room interior with geometric structures. The images represent contrasting states or workflows.)

@@ -1,35 +1,3 @@
----
-id: SOURCE-20251125-988
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-creator: "Caleb Writes Code"
-guest: null
-title: "Claude Opus 4.5"
-url: "https://www.youtube.com/watch?v=lznmsF4-afA"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 24s"
-has_transcript: no
-synopsis: "Claude Opus 4.5 by Caleb Writes Code. A tutorial covering claude, opus."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Opus 4.5"
----
-
 # Claude Opus 4.5
 
 **Channel**: Caleb Writes Code

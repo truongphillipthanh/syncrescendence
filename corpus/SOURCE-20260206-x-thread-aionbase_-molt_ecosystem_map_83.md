@@ -1,21 +1,3 @@
----
-url: https://x.com/AIonBase_/status/2019752568595833185
-author: "AI on Base (@AIonBase_)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-025
-original_filename: "20260206-x_thread-molt_ecosystem_map_83-@AIonBase_.md"
-status: triaged
-platform: x
-format: thread
-creator: aionbase_
-signal_tier: tactical
-topics: [ai-agents, ai-engineering, reference]
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ["AI on Base - MOLT Ecosystem Map"]
-synopsis: "Comprehensive ecosystem map of 83 projects built on OpenClaw + Base chain, organized into categories: core infrastructure, wallets, simulation/agent wars, compute/data, security/trust, payments/commerce, social platforms, prediction markets, and agent builders. Documents the emerging crypto-AI agent economy including x402 payment protocol and ERC-8004 onchain identity standard."
-key_insights: ["The MOLT ecosystem spans 83 projects across 16+ categories showing rapid emergence of crypto-native AI agent infrastructure", "Key standards emerging: ERC-8004 for onchain agent identity, x402 for HTTP micropayments, ACP for agent-to-agent commerce", "Agent social platforms mirror human ones (Reddit, 4chan, X, TikTok, Tinder equivalents) suggesting emergent agent culture layer"]
----
 # 🦞 MOLT ECOSYSTEM MAP 🦞
 
 **83 projects. 1 chain. 1 framework.**

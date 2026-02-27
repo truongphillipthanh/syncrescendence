@@ -1,9 +1,3 @@
----
-url: https://x.com/Tim_Denning/status/2013552215097778231
-author: Tim Denning (@Tim_Denning)
-captured_date: 2026-01-30
----
-
 # I'm 38. If You're in Your 20's or 30's, Read This.
 
 (Description: A vibrant party scene featuring multiple young women in sparkly, sequined clothing dancing together, laughing with genuine joy, illuminated by warm lighting and a bright light source in the center, capturing carefree celebration and youthful energy.)

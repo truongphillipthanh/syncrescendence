@@ -1,33 +1,3 @@
----
-id: SOURCE-20260130-001
-title: how to think like a genius (the map of all knowledge)
-platform: web
-format: article
-creator: DAN KOE
-date_published: Jun 26, 2025
-status: triaged
-original_filename: research/20260130-website-how_to_think_like_a_genius_the_map-letters-thedankoe.md
-signal_tier: strategic
-aliases:
-  - "Dan Koe - AQAL integral map"
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-synopsis: "Dan Koe introduces Ken Wilber's AQAL (All Quadrants, All Levels) integral model as a framework for genius-level thinking. Covers the four quadrants (individual/collective x interior/exterior) and developmental stages (premodern, modern, postmodern, second-tier). Argues that genius thinking synthesizes multiple perspectives rather than locking into one dogmatic worldview."
-key_insights:
-  - "AQAL's four quadrants ensure you examine any challenge from inner experience, behavior, culture, and systems perspectives — most people only think from one quadrant and preach it as the one true way."
-  - "Second-tier thinking is the ability to pull truths from all prior developmental perspectives, holding contradictions long enough to synthesize them — this is what separates genius thinkers from smart people locked in one worldview."
-  - "Genius thinking is clarity, not intelligence — it's a practiced skill of systematically examining problems from multiple perspectives rather than latching onto one answer."
-topics:
-  - philosophy
-  - framework
-  - education
-url: "https://letters.thedankoe.com/p/how-to-think-like-a-genius-the-map"
-domain: letters.thedankoe.com
-author: DAN KOE
-captured_date: 2026-01-30
-content_type: article
----
-
 # How to Think Like a Genius (The Map of All Knowledge)
 
 ## become a second-tier thinker

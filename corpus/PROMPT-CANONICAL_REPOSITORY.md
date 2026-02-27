@@ -1,11 +1,3 @@
----
-id: prompt-canonical-repository
-kind: system_prompt
-scope: global
-target: all_platforms
-version: 2.1
----
-
 # Reception Calibration System Prompts
 ## Canonical Repository — All Platform Deployments
 

@@ -1,9 +1,3 @@
----
-url: https://x.com/oprydai/status/2018910834815381833
-author: Mustafa (@oprydai)
-captured_date: 2026-02-13
----
-
 # how to build a hardware homelab
 
 (Description: Overhead view of a hardware engineering workbench. A person wearing a dark blue hoodie sits at a desk with two large external monitors displaying circuit schematics and PCB layouts. The work surface is organized with various electronic components, soldering equipment, breadboards, and tools scattered across the white work mat. Wooden storage shelves and containers visible on the sides hold additional equipment and materials. Yellow storage bins and testing apparatus are visible to the right. Warm ambient lighting illuminates the workspace.)

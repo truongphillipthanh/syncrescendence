@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-1130
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "world"
-  - "model"
-  - "rag"
-  - "generative"
-  - "semantic"
-creator: "Discover AI"
-guest: null
-title: "World Model RAG: Generative Semantic Workspaces"
-url: "https://www.youtube.com/watch?v=PJs2oldF8s0"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 38s"
-has_transcript: no
-synopsis: "World Model RAG: Generative Semantic Workspaces by Discover AI. A lecture covering world, model, rag."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "World Model RAG: Generative"
-  - "World Model RAG: Generative Semantic Workspaces"
----
-
 # World Model RAG: Generative Semantic Workspaces
 
 **Channel**: Discover AI

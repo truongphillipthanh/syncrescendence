@@ -1,9 +1,3 @@
----
-url: https://x.com/thebeautyofsaas/status/2018396858305892382
-author: BOSS (@thebeautyofsaas)
-captured_date: 2026-02-14
----
-
 # X Thread: Claude + Wealth Dynamics Test + Personality Type
 
 ## Post 1/4 — 10:51 AM · Feb 2, 2026

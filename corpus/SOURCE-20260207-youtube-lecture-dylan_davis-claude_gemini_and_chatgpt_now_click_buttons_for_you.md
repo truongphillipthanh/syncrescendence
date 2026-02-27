@@ -1,39 +1,3 @@
----
-id: SOURCE-20260207-145
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "gemini"
-  - "chatgpt"
-  - "now"
-  - "click"
-creator: "Dylan Davis"
-guest: null
-title: "Claude, Gemini, and ChatGPT Now Click Buttons For You"
-url: "https://www.youtube.com/watch?v=U7QwIu2UZt4"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 16s"
-has_transcript: no
-synopsis: "Claude, Gemini, and ChatGPT Now Click Buttons For You by Dylan Davis. A lecture covering claude, gemini, chatgpt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude, Gemini, and ChatGPT"
-  - "Claude, Gemini, and ChatGPT Now Click"
----
-
 # Claude, Gemini, and ChatGPT Now Click Buttons For You
 
 **Channel**: Dylan Davis

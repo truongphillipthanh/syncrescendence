@@ -1,32 +1,3 @@
----
-id: SOURCE-20260118-001
-title: "Learning 2 0 The Shift Most People Will Miss @Hesamation"
-platform: x
-format: article
-creator: ℏεsam (Hesamation)
-date_published: 20260118
-status: triaged
-original_filename: "research/20260118-x_article-learning_2_0_the_shift_most_people_will_miss-@hesamation.md"
-aliases:
-  - "Hesamation - Learning 2.0"
-teleology: strategize
-notebooklm_category: career-growth
-url: "https://x.com/Hesamation/status/2013044418228498468"
-author: "ℏεsam (@Hesamation)"
-captured_date: 2026-01-30
-synopsis: "Argues AI has obsoleted bottom-up learning (fundamentals-first) in favor of top-down learning where you start with real problems, hit walls, then learn specific foundations on demand. The old system was optimized for teachers, not learners."
-key_insights:
-  - "Bottom-up learning (fundamentals before application) was optimized for teacher convenience, not learner efficiency, and AI removes this constraint entirely"
-  - "Top-down learning with AI means starting with a real problem, hitting walls, then learning specific foundational knowledge on demand with AI as tutor"
-  - "AI democratized learning by removing the prerequisite chain: you no longer need permission to study, just motivation and the right approach"
-topics:
-  - "career"
-  - "education"
-  - "personal-productivity"
-  - "philosophy"
-signal_tier: strategic
----
-
 # Learning 2.0: the shift most people will miss
 
 (Description: A stylized digital illustration featuring a figure in a vibrant magenta/pink hoodie seated on a rocky outcrop, holding an open laptop. The background is a swirling, cosmic-inspired pattern in black and white with spiral galaxies, stars, and planetary orbs, evoking themes of learning and discovery in a digital age.)

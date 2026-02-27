@@ -1,21 +1,3 @@
----
-url: https://x.com/MengTo/status/2019789723590697257
-author: "Meng To (@MengTo)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-012
-original_filename: "20260206-x_article-how_openclaw_codex_are_changing_the_way_i_work_as_a_designer-@mengto.md"
-status: triaged
-platform: x
-format: article
-creator: mengto
-signal_tier: strategic
-topics: [ai-agents, design, vibe-coding, developer-tools, content-creation, case-study]
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ["Meng To - OpenClaw Codex Designer Workflow"]
-synopsis: "A designer-entrepreneur details how OpenClaw + Codex replaced Notion, Midjourney, Cursor, and Figma in his production workflow. Covers splitting 4 Telegram bots by responsibility (writing, image ops, design critique, system ops), using Nano Banana Pro for image generation, and shipping $95K MRR across multiple products at 10-50x pre-AI speed."
-key_insights: ["Splitting agents into specialized bots (Shiori/Komori/Sakura/Shimo) with separate SOUL.md files reduces context confusion and cross-contamination", "OpenClaw is the agency layer for cross-app workflow while Codex is the coding specialist — use both for different strengths", "Production speed went from 3-month team cycles to 1-week solo shipping, with 20-50 templates per month across 500K+ line codebases"]
----
 # How OpenClaw + Codex are changing the way I work as a designer
 
 (Description: Hero image showing multiple design application interfaces and outputs including chat windows with AI-generated content, design mockups with green accent colors, and "VISION BEYOND DESIGN" branded material displayed on a landscape background)

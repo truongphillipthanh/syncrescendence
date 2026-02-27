@@ -1,21 +1,3 @@
----
-url: https://x.com/froessell/status/2019743782632091990
-author: "Frederik (@froessell)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-008
-original_filename: "20260206-x_article-what_designers_are_missing_about_claude_code-@froessell.md"
-status: triaged
-platform: x
-format: article
-creator: froessell
-signal_tier: strategic
-topics: [claude-code, design, mcp, vibe-coding, case-study]
-teleology: inspire
-notebooklm_category: claude-code
-aliases: ["froessell - Designers Missing Claude Code", "Frederik - Claude Code for Designers"]
-synopsis: "A designer describes three 'WTF moments' discovering Claude Code's power: fixing an entire app's styling via skills, creating client videos with Remotion, and restyling a Framer site via MCP. Argues designers are missing that Claude Code plus MCPs is not about writing code from scratch but having a project-aware assistant that transforms tedious multi-file work into seconds."
-key_insights: ["Skills and MCPs transform Claude Code from a coding tool into a design automation platform connecting Figma, Framer, and Remotion", "The speed claims are not hype — tasks that take hours manually complete in seconds when the AI understands the full project context", "Designers do not need to be technical to benefit; Claude Code meets users at their skill level"]
----
 # What Designers Are Missing About Claude Code
 
 ## I didn't get the hype.

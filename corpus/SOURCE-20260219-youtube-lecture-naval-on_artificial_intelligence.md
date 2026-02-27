@@ -1,35 +1,3 @@
----
-id: SOURCE-20260219-020
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "artificial"
-  - "intelligence"
-creator: "Naval"
-guest: null
-title: "On Artificial Intelligence"
-url: "https://www.youtube.com/watch?v=sXCKgEl9hBo"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "52m 6s"
-has_transcript: no
-synopsis: "On Artificial Intelligence by Naval. A lecture covering artificial, intelligence."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "On Artificial Intelligence"
----
-
 # On Artificial Intelligence
 
 **Channel**: Naval

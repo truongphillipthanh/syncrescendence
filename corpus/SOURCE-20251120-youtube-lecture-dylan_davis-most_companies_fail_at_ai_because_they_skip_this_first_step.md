@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1060
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "most"
-  - "companies"
-  - "fail"
-  - "because"
-  - "skip"
-creator: "Dylan Davis"
-guest: null
-title: "Most Companies Fail at AI Because They Skip This First Step"
-url: "https://www.youtube.com/watch?v=9nhbBIimch8"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 57s"
-has_transcript: no
-synopsis: "Most Companies Fail at AI Because They Skip This First Step by Dylan Davis. A lecture covering most, companies, fail."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Most Companies Fail at"
-  - "Most Companies Fail at AI Because"
----
-
 # Most Companies Fail at AI Because They Skip This First Step
 
 **Channel**: Dylan Davis

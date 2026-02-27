@@ -1,39 +1,3 @@
----
-id: SOURCE-20260206-144
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-  - "first"
-  - "impressions"
-  - "more"
-creator: "The AI Advantage"
-guest: null
-title: "Claude Opus 4.6 First Impressions & More AI News You Can Use"
-url: "https://www.youtube.com/watch?v=arVyX0VcoD0"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 54s"
-has_transcript: no
-synopsis: "Claude Opus 4.6 First Impressions & More AI News You Can Use by The AI Advantage. A lecture covering claude, opus, first."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Opus 4.6 First"
-  - "Claude Opus 4.6 First Impressions &"
----
-
 # Claude Opus 4.6 First Impressions & More AI News You Can Use
 
 **Channel**: The AI Advantage

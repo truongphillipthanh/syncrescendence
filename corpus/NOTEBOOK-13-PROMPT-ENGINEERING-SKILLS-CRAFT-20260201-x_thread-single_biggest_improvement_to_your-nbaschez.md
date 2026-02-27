@@ -1,9 +1,3 @@
----
-url: https://x.com/nbaschez/status/2018027072720130090
-author: Nathan Baschez (@nbaschez)
-captured_date: 2026-02-01
----
-
 # X Thread: Bug Testing and Agentic Development
 
 **Post 1** — 10:22 AM · Feb 1, 2026

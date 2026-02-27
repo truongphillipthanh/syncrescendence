@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-008
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "figma"
-  - "taste"
-  - "only"
-creator: "Department of Product"
-guest: null
-title: "Claude Code to Figma: Is Taste the Only Skill That Matters Now?"
-url: "https://www.youtube.com/watch?v=nqepPcYxouY"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 46s"
-has_transcript: no
-synopsis: "Claude Code to Figma: Is Taste the Only Skill That Matters Now? by Department of Product. A lecture covering claude, code, figma."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code to Figma:"
-  - "Claude Code to Figma: Is Taste"
----
-
 # Claude Code to Figma: Is Taste the Only Skill That Matters Now?
 
 **Channel**: Department of Product

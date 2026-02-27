@@ -1,28 +1,3 @@
----
-url: https://x.com/alex_prompter/status/2025216983055167906
-author: "Alex Prompter (@alex_prompter)"
-captured_date: 2026-02-21
-id: SOURCE-20260221-002
-original_filename: "20260221-x_thread-this_site_is_literally-@alex_prompter.md"
-status: triaged
-platform: x
-format: thread
-creator: alex_prompter
-signal_tier: tactical
-topics:
-  - prompting
-  - gemini
-  - reference-pattern
-teleology: reference
-notebooklm_category: coding-tools
-aliases:
-  - "Alex Prompter X Thread"
-synopsis: "Alex Prompter X Thread This site is literally a prompt library with thousands of prompts for Claude, Gemini & Nano Banana. - Shows images of luxury car interiors 2. "Generate Luxury Handbag Grid Advertisements" (PREMIUM badge) - Shows luxury handbag photography 3. "Generate Cartoon Character Illustrations" (PREMIUM badge) - Shows cartoon illustration of a character with wild hair 4."
-key_insights:
-  - "Alex Prompter X Thread This site is literally a prompt library with thousands of prompts for Claude, Gemini & Nano Banana."
-  - "- Shows images of luxury car interiors 2."
-  - ""Generate Luxury Handbag Grid Advertisements" (PREMIUM badge) - Shows luxury handbag photography 3."
----
 # Alex Prompter X Thread
 This site is literally a prompt library with thousands of prompts for Claude, Gemini & Nano Banana.
 (Description: Website interface showing "Powered by God of Prompt" at the top. Large centered heading reads "The #1 Best AI Prompt Library" with the phrase "AI Prompt Library" highlighted in bright yellow. Subtitle states "Discover the best AI prompts for ChatGPT & Midjourney, designed to supercharge your business and boost your productivity." A search bar displays placeholder text "Search prompts like 'Sales, SEO, etc.'" with keyboard shortcut ⌘K. Navigation tabs below include: Journey, ChatGPT, Real Estate, Sales, Solopreneurs, Productivity, Art, Architecture, Design, Photography, Marketing. Filter options show "All", "Premium", "Free" buttons. Tool dropdown is set to "Select", Output Type to "All", Sort by "Select". Below are four dark-themed prompt cards displaying:

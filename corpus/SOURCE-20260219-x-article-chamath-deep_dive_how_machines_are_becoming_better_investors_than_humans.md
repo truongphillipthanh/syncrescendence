@@ -1,29 +1,3 @@
----
-url: https://x.com/chamath/status/2024542359611134253
-author: "Chamath Palihapitiya (@chamath)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-004
-original_filename: "20260219-x_article-deep_dive_how_machines_are_becoming_better_investors_than_humans-@chamath.md"
-status: triaged
-platform: x
-format: article
-creator: chamath
-signal_tier: strategic
-topics:
-  - ai-agents
-  - automation
-  - api
-  - react
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "Deep Dive How Machines Are Becoming Better Investors Than Humans"
-synopsis: "Deep Dive: How Machines Are Becoming Better Investors Than Humans Humans are not wired to win in today's modern markets. For most of history, investing was about relationships, judgment, and timing. It was about who you knew, what you believed, and whether you had the conviction to act. That edge worked when information was scarce, and markets were slower."
-key_insights:
-  - "Unsurprisingly, the best long-term returns in modern investing come from a fund mainly managed by code, not by humans."
-  - "Rules that don't rely on human guesses."
-  - "Deep Dive: How Machines Are Becoming Better Investors Than Humans Humans are not wired to win in today's modern markets."
----
 # Deep Dive: How Machines Are Becoming Better Investors Than Humans
 Humans are not wired to win in today's modern markets.
 For most of history, investing was about relationships, judgment, and timing. It was about who you knew, what you believed, and whether you had the conviction to act. That edge worked when information was scarce, and markets were slower.

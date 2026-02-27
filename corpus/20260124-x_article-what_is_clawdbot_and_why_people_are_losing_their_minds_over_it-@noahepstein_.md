@@ -1,9 +1,3 @@
----
-url: https://x.com/NoahEpstein_/status/2015073824799371370
-author: Nozz (@NoahEpstein_)
-captured_date: 2026-01-24
----
-
 # What Is Clawdbot? (And Why People Are Losing Their Minds Over It)
 
 Imagine if Siri actually worked.

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-403
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "260"
-  - "claude"
-  - "cowork"
-  - "just"
-  - "changed"
-creator: "Multiplai AI"
-guest: null
-title: "260 | Claude Cowork Just Changed the Game: How You Can Automate Everything (Without Coding)"
-url: "https://www.youtube.com/watch?v=5u8nvw9LTr4"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 18s"
-has_transcript: no
-synopsis: "260 | Claude Cowork Just Changed the Game: How You Can Automate Everything (Without Coding) by Multiplai AI. A lecture covering 260, claude, cowork."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "260 | Claude Cowork"
-  - "260 | Claude Cowork Just Changed"
----
-
 # 260 | Claude Cowork Just Changed the Game: How You Can Automate Everything (Without Coding)
 
 **Channel**: Multiplai AI

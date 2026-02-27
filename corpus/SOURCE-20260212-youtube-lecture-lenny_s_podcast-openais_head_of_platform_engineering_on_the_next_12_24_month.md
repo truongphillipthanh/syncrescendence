@@ -1,39 +1,3 @@
----
-id: SOURCE-20260212-097
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "head"
-  - "platform"
-  - "engineering"
-  - "next"
-creator: "Lenny's Podcast"
-guest: null
-title: "OpenAI’s head of platform engineering on the next 12-24 months of AI | Sherwin Wu"
-url: "https://www.youtube.com/watch?v=B26CwKm5C1k"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 19m 40s"
-has_transcript: no
-synopsis: "OpenAI’s head of platform engineering on the next 12-24 months of AI | Sherwin Wu by Lenny's Podcast. A lecture covering openai, head, platform."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI’s head of platform"
-  - "OpenAI’s head of platform engineering on"
----
-
 # OpenAI’s head of platform engineering on the next 12-24 months of AI | Sherwin Wu
 
 **Channel**: Lenny's Podcast

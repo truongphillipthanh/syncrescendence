@@ -1,31 +1,3 @@
----
-id: SOURCE-undated-003
-title: 10 More Clawdbot Setups
-platform: x
-format: transcript
-creator: GanimCorey
-date_published: "2026-02-04"
-status: triaged
-url: https://x.com/GanimCorey/status/2019058134598221886
-original_filename: research/x-bookmarks/TRANS-GanimCorey-10_more_clawdbot_setups.md
-aliases:
-  - "10 More Clawdbot Use Cases"
-  - "Corey Ganim OpenClaw Setups"
-teleology: extract
-notebooklm_category: ai-agents
-synopsis: "Corey Ganim curates 10 real-world OpenClaw use cases from Reddit, Hacker News, and creator interviews including autonomous car purchase negotiation ($4,200 saved), voice calls to restaurants via 11 Labs API, and a supervisor agent managing 20 other AI agents simultaneously. Demonstrates the breadth of agentic capability beyond coding."
-key_insights:
-  - "OpenClaw agents can negotiate real-world transactions autonomously — researching prices, emailing dealers, and closing deals without human intervention"
-  - "Multi-modal agent capability includes voice: when digital APIs fail, agents can place actual phone calls using voice synthesis APIs as fallback"
-  - "Supervisor agent pattern (one agent managing 20 others) demonstrates hierarchical multi-agent orchestration is already production-viable"
-topics:
-  - ai-agents
-  - automation
-  - developer-tools
-  - best-practices
-signal_tier: tactical
----
-
 # 10 More Clawdbot Setups That Made Me Say 'Wait, It Can Do That?'
 
 **Author:** Corey Ganim (Verified)  

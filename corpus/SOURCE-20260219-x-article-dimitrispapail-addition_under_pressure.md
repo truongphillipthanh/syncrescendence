@@ -1,30 +1,3 @@
----
-url: https://x.com/DimitrisPapail/status/2024555561199480918
-author: "Dimitris Papailiopoulos (@DimitrisPapail)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-005
-original_filename: "20260219-x_article-addition_under_pressure-@dimitrispapail.md"
-status: triaged
-platform: x
-format: article
-creator: dimitrispapail
-signal_tier: strategic
-topics:
-  - prompting
-  - testing
-  - git
-  - codex
-  - rules-files
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Addition Under Pressure"
-synopsis: "Addition Under Pressure I asked Claude Code and Codex to each train the smallest possible transformer that can do 10-digit addition. Claude Code came back with a 6,080-parameter model and Codex came back with 1,644 parameters. But that's not quite the interesting part. The interesting part is how they got there, and what that says about how agents shape the way we do research."
-key_insights:
-  - "I was really curious to see how they would approach a mini research project under constraints, whether they would reward hack, whether they would invent anything interesting."
-  - "Most importantly they can't ask Dimitris any questions."
-  - "I didn't suggest reversing digits, or padding, or any specific approach."
----
 # Addition Under Pressure
 I asked Claude Code and Codex to each train the smallest possible transformer that can do 10-digit addition. Claude Code came back with a 6,080-parameter model and Codex came back with 1,644 parameters. But that's not quite the interesting part.
 The interesting part is how they got there, and what that says about how agents shape the way we do research.

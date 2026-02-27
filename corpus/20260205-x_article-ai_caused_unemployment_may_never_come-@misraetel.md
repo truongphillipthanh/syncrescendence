@@ -1,9 +1,3 @@
----
-url: https://x.com/misraetel/status/2019587245330579848
-author: Dr. Mike Israetel (@misraetel)
-captured_date: 2026-02-13
----
-
 # AI-Caused Unemployment May Never Come
 
 (Description: A futuristic industrial warehouse scene. On the left, a humanoid robot with a white and black metallic face and glowing blue eyes stands facing right. On the right, a human worker in a blue hard hat and navy work jacket smiles while holding a cardboard box. Multiple other robots work in the blurred background under bright industrial lighting.)

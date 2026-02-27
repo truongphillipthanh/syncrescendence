@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-370
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "taking"
-  - "over"
-  - "don"
-creator: "AI For Humans"
-guest: null
-title: "Claude Code Is Taking Over (And We Don't Hate It)"
-url: "https://www.youtube.com/watch?v=y5W26N-Opys"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "59m 16s"
-has_transcript: no
-synopsis: "Claude Code Is Taking Over (And We Don't Hate It) by AI For Humans. A tutorial covering claude, code, taking."
-key_insights: []
-visual_notes: null
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code Is Taking"
-  - "Claude Code Is Taking Over (And"
----
-
 # Claude Code Is Taking Over (And We Don't Hate It)
 
 **Channel**: AI For Humans

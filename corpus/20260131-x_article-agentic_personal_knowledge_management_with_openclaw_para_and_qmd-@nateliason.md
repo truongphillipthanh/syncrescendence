@@ -1,9 +1,3 @@
----
-url: https://x.com/nateliason/status/2017636775347331276
-author: Nat Eliason (@nateliason)
-captured_date: 2026-01-31
----
-
 # Agentic Personal Knowledge Management with OpenClaw, PARA, and QMD
 
 (Description: Red cartoon lobster mascot wearing blue bow tie and glasses, holding a pencil and open book)

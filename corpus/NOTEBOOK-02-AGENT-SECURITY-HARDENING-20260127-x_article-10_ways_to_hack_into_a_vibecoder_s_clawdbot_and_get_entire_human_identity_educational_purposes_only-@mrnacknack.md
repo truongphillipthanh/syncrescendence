@@ -1,9 +1,3 @@
----
-url: https://x.com/mrnacknack/status/2016134416897360212
-author: chirag (@mrnacknack)
-captured_date: 2026-02-04
----
-
 # 10 ways to hack into a vibecoder's clawdbot & get entire human identity (educational purposes only)
 
 This is for education purposes only so that you understand how vibecoding can get vulnerable in setups like moltbot (previously clawdbot) and how you can prevent this from happening with you. I don't encourage trying any of this with anyone. Also this is not a complete deepdive, I have only explained the approach and not how to actually do it. The code maybe inaccurate.

@@ -1,20 +1,3 @@
----
-id: SOURCE-20260116-x-article-danshipper-openai_has_some_catching_up_to_do
-platform: x
-date_published: "2026-01-16"
-format: article
-creator: danshipper
-title: openai has some catching up to do
-status: triaged
-original_filename: "openai_has_some_catching_up_to_do-@danshipper.md"
-signal_tier: strategic
-topics: ""
-teleology: contextualize
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 This morning I hit my usage limit on Codex, OpenAI's competitor to Claude Code. I'm building an agent-native Markdown editor for the Every team. It's exactly the kind of complex, detail-heavy project where Codex shines.
 But this week was an exception. Most of my coding happens in Claude Code now—and I'm not alone.
 On Tuesday night, we had about 20 founders over to the office for a dinner on the future of AI. I asked everyone what their daily driver AI tools were. Of the programmers, almost everyone said Claude Code with Opus 4.5. The lone holdout was Naveen Naidu—general manager of Monologue—who still prefers Codex.

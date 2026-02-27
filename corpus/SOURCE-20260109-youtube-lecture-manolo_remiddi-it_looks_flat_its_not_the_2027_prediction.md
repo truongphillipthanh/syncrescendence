@@ -1,38 +1,3 @@
----
-id: SOURCE-20260109-539
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "looks"
-  - "flat"
-  - "2027"
-  - "prediction"
-creator: "Manolo Remiddi"
-guest: null
-title: "It Looks Flat. It’s Not. (The 2027 Prediction)"
-url: "https://www.youtube.com/watch?v=oWT3-EPRBhQ"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 2s"
-has_transcript: no
-synopsis: "It Looks Flat. It’s Not. (The 2027 Prediction) by Manolo Remiddi. A lecture covering looks, flat, 2027."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "It Looks Flat. It’s"
-  - "It Looks Flat. It’s Not. (The"
----
-
 # It Looks Flat. It’s Not. (The 2027 Prediction)
 
 **Channel**: Manolo Remiddi

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260206-143
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-  - "agent"
-  - "teams"
-  - "change"
-creator: "Creator Magic"
-guest: null
-title: "Claude Opus 4.6: Agent Teams Change Everything!"
-url: "https://www.youtube.com/watch?v=RWDK5414yL4"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 54s"
-has_transcript: no
-synopsis: "Claude Opus 4.6: Agent Teams Change Everything! by Creator Magic. A tutorial covering claude, opus, agent."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Opus 4.6: Agent"
-  - "Claude Opus 4.6: Agent Teams Change"
----
-
 # Claude Opus 4.6: Agent Teams Change Everything!
 
 **Channel**: Creator Magic

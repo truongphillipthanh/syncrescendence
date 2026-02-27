@@ -1,9 +1,3 @@
----
-url: https://x.com/jumperz/status/2019531293726503358
-author: JUMPERZ (@jumperz)
-captured_date: 2026-02-05
----
-
 # How to Run Opus 4.6 on OpenClaw (Easy Guide, Copy Paste)
 
 (Description: Digital artwork featuring two gray stone/marble sculptured faces in profile facing each other, with glowing red numbers "4.6" displayed prominently in the center, on a black background.)

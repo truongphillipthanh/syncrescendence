@@ -1,30 +1,3 @@
----
-url: https://x.com/arscontexta/status/2013045749580259680
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-01-18
-id: SOURCE-20260119-001
-original_filename: "20260119-x_article-obsidian_claude_code_101-@arscontexta.md"
-status: triaged
-platform: x
-format: article
-creator: arscontexta
-signal_tier: strategic
-topics:
-  - "obsidian"
-  - "claude-code"
-  - "context-engineering"
-  - "knowledge-management"
-  - "second-brain"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Arscontexta - Obsidian Claude Code 101"
-synopsis: "Describes using Claude Code to operate Obsidian vaults as a thinking operating system. Knowledge bases and codebases share patterns: vault index helps agents decide which notes to load, similar to how Claude Code loads skills. Notes become contextual skills injected when relevant."
-key_insights:
-  - "Knowledge bases and codebases share structural patterns: vault index for note selection mirrors how Claude Code decides which skills to load"
-  - "A vault encodes how you think, not just what you thought about: methodology becomes part of the system as living markdown files"
-  - "Every note is essentially a skill: highly curated knowledge that gets injected when relevant, making Obsidian vaults a personal context engineering system"
----
 # obsidian + claude code 101
 
 (Description: A monochromatic engraving-style illustration featuring a minimalist desk workspace. Central focus shows an Apple laptop with the Apple logo visible. Surrounding items include antique navigation instruments: a brass compass, a detailed astrolabe with intricate geometric patterns, globes at various angles, and hanging pendulum-like instruments. Books are stacked nearby. The artistic style uses fine cross-hatching and line work typical of classical scientific illustration, rendered in grayscale with a wooden surface and brick wall background.)

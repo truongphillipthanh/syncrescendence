@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-612
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "agent"
-  - "skills"
-  - "yet"
-  - "another"
-  - "tool"
-creator: "Adam Lucek"
-guest: null
-title: "Agent Skills - Yet Another Tool Standard?"
-url: "https://www.youtube.com/watch?v=sSqzg_W8OnA"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 31s"
-has_transcript: no
-synopsis: "Agent Skills - Yet Another Tool Standard? by Adam Lucek. A lecture covering agent, skills, yet."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: agents-orchestration
-aliases:
-  - "Agent Skills - Yet"
-  - "Agent Skills - Yet Another Tool"
----
-
 # Agent Skills - Yet Another Tool Standard?
 
 **Channel**: Adam Lucek

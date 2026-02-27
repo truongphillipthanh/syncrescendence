@@ -1,22 +1,3 @@
----
-id: SOURCE-20260123-x-article-trq212-merging_slash_commands_into_skills_in_claude_code
-platform: x
-format: article
-creator: trq212
-title: merging slash commands into skills in claude code
-status: triaged
-original_filename: "20260123-x_article-merging_slash_commands_into_skills_in_claude_code-@trq212.md"
-url: https://x.com/trq212/status/2014836841846132761
-author: "Thariq (@trq212)"
-captured_date: 2026-01-23
-signal_tier: tactical
-topics: ""
-teleology: reference
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Merging Slash Commands into Skills in Claude Code
 
 We've merged Slash Commands into Skills in Claude Code. You do not need to do anything to migrate to this and it should not disrupt any of your existing workflows.

@@ -1,38 +1,3 @@
----
-id: SOURCE-20251207-898
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "1250"
-  - "professionals"
-  - "said"
-  - "working"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "What 1250 Professionals Said About Working With AI"
-url: "https://www.youtube.com/watch?v=ZwXY0U6l8yQ"
-date_published: 2025-12-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 28s"
-has_transcript: no
-synopsis: "What 1250 Professionals Said About Working With AI by The AI Daily Brief: Artificial Intelligence News. A interview covering 1250, professionals, said."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "What 1250 Professionals Said"
-  - "What 1250 Professionals Said About Working"
----
-
 # What 1250 Professionals Said About Working With AI
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

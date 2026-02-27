@@ -1,30 +1,3 @@
----
-url: https://x.com/alexwg/status/2023018406966964280
-author: "Dr. Alex Wissner-Gross (@alexwg)"
-captured_date: 2026-02-15
-id: SOURCE-20260215-002
-original_filename: "20260215-x_article-physical_superintelligence-@alexwg.md"
-status: triaged
-platform: x
-format: article
-creator: alexwg
-signal_tier: paradigm
-topics:
-  - testing
-  - deployment
-  - api
-  - architecture
-  - cli-tools
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Physical Superintelligence"
-synopsis: "Physical Superintelligence rendered in metallic silver and gold, emanating from swirling blue and golden energy vortexes. The background depicts a ethereal cloudscape with towering crystalline architectural structures emerging from white cumulus clouds, bathed in warm golden sunlight."
-key_insights:
-  - "The key insight is that the domains are not independent."
-  - "Physical Superintelligence rendered in metallic silver and gold, emanating from swirling blue and golden energy vortexes."
-  - "The background depicts a ethereal cloudscape with towering crystalline architectural structures emerging from white cumulus clouds, bathed in warm golden sunlight."
----
 # Physical Superintelligence
 (Description: A stylized illustration featuring a luminous trident/psi symbol (Ψ) rendered in metallic silver and gold, emanating from swirling blue and golden energy vortexes. The background depicts a ethereal cloudscape with towering crystalline architectural structures emerging from white cumulus clouds, bathed in warm golden sunlight. Text overlay reads "PHYSICAL SUPERINTELLIGENCE" in white sans-serif capitals.)
 ## Opening Statement

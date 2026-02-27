@@ -1,39 +1,3 @@
----
-id: SOURCE-20260207-132
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "prompt"
-  - "caching"
-  - "optimize"
-  - "llm"
-  - "latency"
-creator: "IBM Technology"
-guest: null
-title: "What is Prompt Caching? Optimize LLM Latency with AI Transformers"
-url: "https://www.youtube.com/watch?v=u57EnkQaUTY"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 6s"
-has_transcript: no
-synopsis: "What is Prompt Caching? Optimize LLM Latency with AI Transformers by IBM Technology. A lecture covering prompt, caching, optimize."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: prompt-engineering
-aliases:
-  - "What is Prompt Caching?"
-  - "What is Prompt Caching? Optimize LLM"
----
-
 # What is Prompt Caching? Optimize LLM Latency with AI Transformers
 
 **Channel**: IBM Technology

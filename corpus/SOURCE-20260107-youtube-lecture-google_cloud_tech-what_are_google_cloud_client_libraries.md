@@ -1,38 +1,3 @@
----
-id: SOURCE-20260107-581
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "google"
-  - "cloud"
-  - "client"
-  - "libraries"
-creator: "Google Cloud Tech"
-guest: null
-title: "What are Google Cloud Client Libraries?"
-url: "https://www.youtube.com/watch?v=AF-Nnegz6mY"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3m 57s"
-has_transcript: no
-synopsis: "What are Google Cloud Client Libraries? by Google Cloud Tech. A lecture covering google, cloud, client."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "What are Google Cloud"
-  - "What are Google Cloud Client Libraries?"
----
-
 # What are Google Cloud Client Libraries?
 
 **Channel**: Google Cloud Tech

@@ -1,32 +1,3 @@
----
-url: https://x.com/howietl/status/2024611780174180371
-author: "Howie Liu (@howietl)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-007
-original_filename: "20260219-x_article-agi_is_here_now_harness_it-@howietl.md"
-status: triaged
-platform: x
-format: article
-creator: howietl
-signal_tier: strategic
-topics:
-  - ai-workflow
-  - deployment
-  - extended-thinking
-  - api
-  - startup
-  - rag
-  - token-management
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AGI is here Now harness it"
-synopsis: "I've been personally burning through billions of tokens a week for the past few months as a builder. Today, I'm excited to announce Hyperagent, by Airtable. Hyperagent gives agents a full computing environment — real browser, shell, filesystem — along with powerful tools like image and video generation, mapping, data warehouse access, and hundreds of enterprise integrations."
-key_insights:
-  - "Now any teammate can say "this house just hit the market" and get the same high-quality output, following the best-practice steps, every time."
-  - "I've been personally burning through billions of tokens a week for the past few months as a builder."
-  - "Today, I'm excited to announce Hyperagent, by Airtable."
----
 # AGI is here. Now harness it.
 I've been personally burning through billions of tokens a week for the past few months as a builder. Today, I'm excited to announce Hyperagent, by Airtable.
 Hyperagent gives agents a full computing environment — real browser, shell, filesystem — along with powerful tools like image and video generation, mapping, data warehouse access, and hundreds of enterprise integrations. Think OpenClaw, but secure and cloud-based from the get-go — with skill learning that compounds over time, one-click deployment into Slack, and a command center to manage your entire fleet of agents at scale.

@@ -1,35 +1,3 @@
----
-id: SOURCE-20260125-341
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "insane"
-creator: "Julian Goldie SEO"
-guest: null
-title: "Clawdbot is INSANE!"
-url: "https://www.youtube.com/watch?v=noSZusDie58"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 42s"
-has_transcript: no
-synopsis: "Clawdbot is INSANE! by Julian Goldie SEO. A tutorial covering clawdbot, insane."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawdbot is INSANE!"
----
-
 # Clawdbot is INSANE!
 
 **Channel**: Julian Goldie SEO

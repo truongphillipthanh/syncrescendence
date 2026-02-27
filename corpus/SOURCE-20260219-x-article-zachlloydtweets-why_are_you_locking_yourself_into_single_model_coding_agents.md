@@ -1,32 +1,3 @@
----
-url: https://x.com/zachlloydtweets/status/2024495648330936553
-author: "Zach Lloyd (@zachlloydtweets)"
-captured_date: 2026-02-21
-id: SOURCE-20260219-017
-original_filename: "20260219-x_article-why_are_you_locking_yourself_into_single_model_coding_agents-@zachlloydtweets.md"
-status: triaged
-platform: x
-format: article
-creator: zachlloydtweets
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - codex
-  - gemini
-  - gpt
-  - architecture
-  - product-development
-  - benchmarks
-teleology: strategize
-notebooklm_category: coding-tools
-aliases:
-  - "Why are you locking yourself into singlemodel coding agents"
-synopsis: "Why are you locking yourself into single-model coding agents? ![Article Header Image: An infographic comparing single-model architecture vs. multi-model architecture. Left side shows a locked harness icon with a model labeled "Harness + Model"."
-key_insights:
-  - "But the best coding model is changing frequently."
-  - "Currently Codex 5.3 is best, but before that it was Opus 4.6, and before that (for a moment) Gemini 3 Pro, and before that Sonnet 4.5, and way back GPT-4, etc."
-  - "The models are the infra in this analogy and the agent is the app – they should stay separate and pluggable."
----
 # Why are you locking yourself into single-model coding agents?
 ![Article Header Image: An infographic comparing single-model architecture vs. multi-model architecture. Left side shows a locked harness icon with a model labeled "Harness + Model". Right side shows an unlocked harness icon labeled "Harness" with three separate boxes pointing to it: "Frontier reasoning model" (blue), "Open weight model" (green), and "Local model" (orange). (Description: Visual diagram illustrating the concept of coupled vs. decoupled AI agent-model architecture, with the right side emphasizing flexibility through multiple interchangeable model options)](image.png)
 There's a ton of well-deserved hype around both Claude Code and Codex – they are awesome coding agents backed by incredible models (both of which we offer in Warp).

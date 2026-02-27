@@ -1,31 +1,3 @@
----
-id: SOURCE-20260127-x-article-kloss_xyz-why_you_suck_at_prompting_and_the_system_to_fix_you
-platform: x
-format: article
-creator: kloss_xyz
-title: why you suck at prompting and the system to fix you
-status: triaged
-original_filename: "20260127-x_article-why_you_suck_at_prompting_and_the_system_to_fix_you-@kloss_xyz.md"
-url: https://x.com/kloss_xyz/status/2016384553472970995
-author: "klöss (@kloss_xyz)"
-captured_date: 2026-01-27
-signal_tier: strategic
-topics:
-  - prompt-engineering
-  - best-practices
-  - vibe-coding
-  - framework
-  - tutorial
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "kloss - prompting system fix"
-synopsis: "Aggressive, comprehensive prompt engineering guide by kloss that reframes prompting as systems engineering rather than conversation. Introduces a 5-layer prompt architecture (Identity, Context, Task, Process, Output) and a one-day protocol for building reusable prompt infrastructure including role libraries, context templates, constraints docs, and output format libraries."
-key_insights:
-  - "Prompt portability across models is a myth — prompt adaptation per model is the actual skill, since different models respond to different structures (XML for Claude, JSON for GPT/Gemini)."
-  - "The 5-layer prompt architecture (Identity, Context, Task, Process, Output) maps to how models process and prioritize information — missing any layer introduces hallucination-prone assumption gaps."
-  - "Canonical documentation (PRD, App Flow, Design System, Constraints Doc) is the separator between inconsistent and compounding results — without external truth documents, every AI session starts at zero."
----
 # why you suck at prompting (and the system to fix you)
 
 ## Introduction

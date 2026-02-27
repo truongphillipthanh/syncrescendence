@@ -1,27 +1,3 @@
----
-url: https://x.com/jbrukh/status/2018182175393239283
-author: "Jake Brukhman (@jbrukh)"
-captured_date: 2026-02-01
-id: SOURCE-20260202-003
-original_filename: "20260202-x_article-prompt_engineering_501_thinking_critically-@jbrukh.md"
-status: triaged
-platform: x
-format: article
-creator: jbrukh
-signal_tier: tactical
-topics:
-  - prompt-engineering
-  - developer-tools
-teleology: extract
-notebooklm_category: prompt-engineering
-aliases:
-  - "Jake Brukhman - sharpen-output prompt skill"
-synopsis: "Introduces 'sharpen-output' — an agent skill that iteratively asks you questions about your prompt to improve it before execution. A meta-prompting approach where the AI helps you clarify what you actually want before generating output."
-key_insights:
-  - "The sharpen-output skill uses iterative questioning to improve prompts before execution — a meta-prompting approach that front-loads clarity."
-  - "Having AI ask YOU questions to clarify intent produces better results than trying to write the perfect prompt upfront."
-  - "This represents prompt engineering moving from manual craft to agent-assisted refinement loops."
----
 # Prompt Engineering 501: Thinking Critically
 
 (Description: An isometric illustration featuring a mechanical/industrial aesthetic. The image shows a central platform with gears, cogs, and mechanical components in blue and cream tones. Surrounding elements include architectural structures with stairs, wheels, and various mechanical parts arranged in an abstract three-dimensional landscape, representing the concept of systematic thinking and mechanical problem-solving.)

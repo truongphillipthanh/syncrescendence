@@ -1,37 +1,3 @@
----
-id: SOURCE-20251118-1067
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "actually"
-  - "insane"
-creator: "Matthew Berman"
-guest: null
-title: "Gemini 3 is actually insane..."
-url: "https://www.youtube.com/watch?v=W8HeSP_JJQc"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 57s"
-has_transcript: no
-synopsis: "Gemini 3 is actually insane... by Matthew Berman. A lecture covering gemini, actually, insane."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3 is actually"
-  - "Gemini 3 is actually insane..."
----
-
 # Gemini 3 is actually insane...
 
 **Channel**: Matthew Berman

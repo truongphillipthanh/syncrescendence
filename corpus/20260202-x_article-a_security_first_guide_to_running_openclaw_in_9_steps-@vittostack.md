@@ -1,9 +1,3 @@
----
-url: https://x.com/VittoStack/status/2018326025373900881
-author: Vitto Rivabella (@VittoStack)
-captured_date: 2026-02-13
----
-
 # A Security-First Guide to Running OpenClaw (in 9 Steps)
 
 (Description: A stylized illustration in deep red/burgundy tones showing a large robotic claw emerging from a cityscape with padlock symbols and shield icons integrated into the design. Text overlay reads "9 STEPS" in bold letters centered in the composition)

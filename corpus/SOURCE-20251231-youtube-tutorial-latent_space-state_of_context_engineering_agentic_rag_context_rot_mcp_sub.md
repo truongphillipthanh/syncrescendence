@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-659
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "state"
-  - "context"
-  - "engineering"
-  - "agentic"
-  - "rag"
-creator: "Latent Space"
-guest: null
-title: "[State of Context Engineering] Agentic RAG, Context Rot, MCP, Subagents — Nina Lopatina, Contextual"
-url: "https://www.youtube.com/watch?v=tSRqTerZrH8"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 48s"
-has_transcript: no
-synopsis: "[State of Context Engineering] Agentic RAG, Context Rot, MCP, Subagents — Nina Lopatina, Contextual by Latent Space. A tutorial covering state, context, engineering."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "[State of Context Engineering]"
-  - "[State of Context Engineering] Agentic RAG,"
----
-
 # [State of Context Engineering] Agentic RAG, Context Rot, MCP, Subagents — Nina Lopatina, Contextual
 
 **Channel**: Latent Space

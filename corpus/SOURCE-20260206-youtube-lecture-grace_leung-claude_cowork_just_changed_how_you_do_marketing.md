@@ -1,39 +1,3 @@
----
-id: SOURCE-20260206-141
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "cowork"
-  - "just"
-  - "changed"
-  - "marketing"
-creator: "Grace Leung"
-guest: null
-title: "Claude Cowork Just Changed How You Do Marketing"
-url: "https://www.youtube.com/watch?v=l_Iy4ZCK1lY"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 17s"
-has_transcript: no
-synopsis: "Claude Cowork Just Changed How You Do Marketing by Grace Leung. A lecture covering claude, cowork, just."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Cowork Just Changed"
-  - "Claude Cowork Just Changed How You"
----
-
 # Claude Cowork Just Changed How You Do Marketing
 
 **Channel**: Grace Leung

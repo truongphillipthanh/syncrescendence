@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-005
-title: Kimi Openclaw Simplest Setup
-platform: x
-format: transcript
-creator: KimiProduct
-date_published: "2026-02-04"
-status: triaged
-url: https://x.com/KimiProduct/status/2018989483258183742
-original_filename: research/x-bookmarks/TRANS-KimiProduct-kimi_openclaw_simplest_setup.md
-aliases:
-  - "Kimi OpenClaw Setup Guide"
-  - "Kimi K2.5 Native Setup"
-teleology: implement
-notebooklm_category: coding-tools
-synopsis: "Official Kimi Product guide for the simplest Kimi K2.5 + OpenClaw setup. Kimi K2.5 is now the #1 most-used model on OpenRouter for OpenClaw. Native support means simplified configuration: install OpenClaw, select Moonshot AI as provider in QuickStart, choose between Kimi Code Plan, API, or OpenRouter options."
-key_insights:
-  - "Kimi K2.5 achieved #1 most-used model status for OpenClaw on OpenRouter — indicating significant community adoption beyond Claude"
-  - "Native OpenClaw support for Kimi eliminates the need for manual gateway configuration — QuickStart handles provider selection"
-  - "Three billing options (subscription plan, direct API, OpenRouter) give users flexibility to match their usage patterns and budgets"
-topics:
-  - ai-engineering
-  - developer-tools
-  - tutorial
-signal_tier: noise
----
-
 # Kimi × OpenClaw — The Simplest Setup Yet
 
 **Author:** Kimi Product (Verified)  

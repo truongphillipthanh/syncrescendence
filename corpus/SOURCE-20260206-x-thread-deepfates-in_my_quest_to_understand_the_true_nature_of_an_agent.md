@@ -1,21 +1,3 @@
----
-url: https://x.com/deepfates/status/2019912654173651131
-author: "@deepfates"
-captured_date: 2026-02-06
-id: SOURCE-20260206-029
-original_filename: "20260206-x_thread-in_my_quest_to_understand_the_true_nature_of_an_agent-@deepfates.md"
-status: triaged
-platform: x
-format: thread
-creator: deepfates
-signal_tier: paradigm
-topics: [ai-agents, llm-architecture, ai-engineering, research, framework]
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ["deepfates - Recursive Language Model"]
-synopsis: "Proposes that agents are not chatbots but programming languages come alive. Introduces the Recursive Language Model (RLM) architecture where the LLM is hooked directly to a REPL, context is a variable, and both users and sub-LLMs become functions inside the computational environment. Reports processing 6M tokens without context degradation by spawning sub-agents that pass variables without reading their contents."
-key_insights: ["The RLM architecture puts the agent inside the computer rather than having a chat as the 'main world' — users and sub-LLMs become tools within the environment", "Context rot is solved by offloading long-term memory to variables that sub-agents can operate over without reading into the main context window, making it effectively infinite", "Future agents will feel like councils, senates, and hive minds rather than single chat-thread instance minds — post-training must find patterns for multi-agent, multi-channel worlds"]
----
 # Agents as Programming Languages Come Alive
 
 In my quest to understand the true nature of an Agent I have been thinking a lot about the loop and the actions and the environment. And I think i see where we're headed next.

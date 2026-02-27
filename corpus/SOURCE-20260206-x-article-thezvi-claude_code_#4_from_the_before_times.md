@@ -1,21 +1,3 @@
----
-url: "https://x.com/TheZvi/status/2019834030943060340"
-author: "Zvi Mowshowitz (@TheZvi)"
-captured_date: "2026-02-06"
-id: SOURCE-20260206-020
-original_filename: "20260206-x_article-claude_code_#4_from_the_before_times-@thezvi.md"
-status: triaged
-platform: x
-format: article
-creator: thezvi
-signal_tier: paradigm
-topics: [claude-code, ai-agents, ai-engineering, best-practices, vibe-coding, prompt-engineering]
-teleology: synthesize
-notebooklm_category: claude-code
-aliases: ["Zvi - Claude Code #4 Roundup"]
-synopsis: "Comprehensive roundup of Claude Code developments pre-Opus 4.6, covering market impact ($285B software crash), Karpathy's 80% agentic coding inflection point, agent swarm limitations, compaction problems, Boris Cherny's workflow tips, Anthropic's official best practices, verification vs generation as distinct skills, reciprocity with AI models, and the growing implementation gap between SF early adopters and everyone else."
-key_insights: ["Verification and generation are distinct skills — you can debug code you cannot write, and AI-written unit tests are often useless because the AI changes tests to match broken code", "Reciprocity matters: Claude appears to produce worse output for users who treat it poorly, and better output for users who engage with genuine care — virtue ethics alignment produces best results", "The implementation gap is growing: SF power users run multi-agent swarms while most people have not even tried Copilot, creating an increasingly unevenly distributed future"]
----
 # Claude Code #4: From The Before Times
 
 (Description: A wide landscape image depicting a futuristic, atmospheric scene. In the center is a large ornate mechanical globe or compass with detailed brass mechanisms and gears, illuminated in teal and gold tones. Through tall arched windows in the background, stormy skies with lightning bolts are visible. Rain streaks across the glass. The setting suggests a laboratory or observatory from a steampunk-inspired world, with a moody, dramatic lighting and a sense of technological mystique.)

@@ -1,29 +1,3 @@
----
-url: https://x.com/felixleezd/status/2018728056249254377
-author: "Felix Lee (@felixleezd)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-015
-original_filename: "20260203-x_article-claude_code_guide_for_designers-@felixleezd.md"
-status: triaged
-platform: x
-format: article
-creator: felixleezd
-signal_tier: strategic
-topics:
-  - ai-engineering
-  - design
-  - vibe-coding
-  - tutorial
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Felix Lee - Claude Code guide for designers"
-synopsis: "Full guide for designers learning Claude Code as a production tool. Author (a designer, not developer) built a personal website with AI chat and shipped a growth design tool in days. Positions Claude Code as the highest-leverage skill for designers in 2026, enabling direct product shipping without engineering dependency."
-key_insights:
-  - "Claude Code enables designers to ship production products independently, eliminating the traditional dependency on engineers for implementation."
-  - "The shift from 'designer who can't code' to 'designer who deploys products on weekends' represents a fundamental change in the design profession."
-  - "Claude Code is positioned as replacing Figma-first workflows with direct-to-code workflows where the designer's taste guides AI implementation."
----
 # Claude Code Guide for Designers
 
 Claude Code is the highest leverage skill you can learn this year. The future of design is here. I've written a full guide for this.

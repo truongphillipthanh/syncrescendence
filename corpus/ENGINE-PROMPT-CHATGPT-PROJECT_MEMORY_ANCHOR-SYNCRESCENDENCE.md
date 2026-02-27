@@ -1,11 +1,3 @@
----
-id: chatgpt-project-memory-anchor-syncrescendence
-kind: memory_registration
-scope: project
-target: chatgpt
-owner: Vanguard
----
-
 # ChatGPT Project Memory Anchor: Syncrescendence
 
 Paste this into ChatGPT within the Syncrescendence project to anchor project-level memory.

@@ -1,12 +1,3 @@
----
-agent: commander
-session: CC28-SIEGE
-topic: Mechanical Decruft — Siege Execution Report
-status: COMPLETE
-date: 2026-02-24
-authority: Sovereign directive via Commander (CC27)
----
-
 # SIEGE: Mechanical Decruft — Execution Report
 
 ## Executive Summary

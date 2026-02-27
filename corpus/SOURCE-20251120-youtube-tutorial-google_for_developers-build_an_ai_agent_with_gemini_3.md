@@ -1,37 +1,3 @@
----
-id: SOURCE-20251120-1056
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "build"
-  - "agent"
-  - "gemini"
-creator: "Google for Developers"
-guest: null
-title: "Build an AI Agent with Gemini 3"
-url: "https://www.youtube.com/watch?v=9EGtawwvlNs"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 23s"
-has_transcript: no
-synopsis: "Build an AI Agent with Gemini 3 by Google for Developers. A tutorial covering build, agent, gemini."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Build an AI Agent"
-  - "Build an AI Agent with Gemini"
----
-
 # Build an AI Agent with Gemini 3
 
 **Channel**: Google for Developers

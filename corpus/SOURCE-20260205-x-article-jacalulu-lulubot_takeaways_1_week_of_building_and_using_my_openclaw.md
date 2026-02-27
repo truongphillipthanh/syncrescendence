@@ -1,32 +1,3 @@
----
-url: https://x.com/jacalulu/status/2019529992951198073
-author: "Jaclyn Konzelmann (@jacalulu)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-008
-original_filename: "20260205-x_article-lulubot_takeaways_1_week_of_building_and_using_my_openclaw-@jacalulu.md"
-status: triaged
-platform: x
-format: article
-creator: jacalulu
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - automation
-  - testing
-  - git
-  - memory-management
-  - api
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Lulubot Takeaways 1 Week of Building and Using My OpenClaw"
-synopsis: "Lulubot Takeaways: 1 Week of Building and Using My OpenClaw *Disclaimer: These takeaways are based on one week of active building."
-key_insights:
-  - "OpenClaw Components with a key icon, USER.md ("Who I serve?"
-  - "Lulubot Takeaways: 1 Week of Building and Using My OpenClaw *Disclaimer: These takeaways are based on one week of active building."
-  - "Over the last week, I built and lived with my own OpenClaw, "Lulubot"."
----
 # Lulubot Takeaways: 1 Week of Building and Using My OpenClaw
 
 *Disclaimer: These takeaways are based on one week of active building. Given how fast the OpenClaw ecosystem is evolving, consider this a "working document." The observations below range from high-level insights to raw, unprocessed thoughts on a rapidly shifting landscape.*

@@ -1,9 +1,3 @@
----
-url: https://x.com/minchoi/status/2015457223372087467
-author: Min Choi (@minchoi)
-captured_date: 2026-01-25
----
-
 # ClawdBot Thread: 10 Wild Examples + No-Code Setup Guide
 
 ## Post 1: Main Thread Introduction

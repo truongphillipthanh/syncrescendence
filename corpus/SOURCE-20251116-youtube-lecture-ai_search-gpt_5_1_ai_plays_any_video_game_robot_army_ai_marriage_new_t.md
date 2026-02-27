@@ -1,39 +1,3 @@
----
-id: SOURCE-20251116-1107
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "gpt"
-  - "plays"
-  - "any"
-  - "video"
-  - "game"
-creator: "AI Search"
-guest: null
-title: "GPT-5.1, AI plays any video game, robot army, AI marriage, new TTS, world models: AI NEWS"
-url: "https://www.youtube.com/watch?v=xAS2tMquyU0"
-date_published: 2025-11-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "43m 12s"
-has_transcript: no
-synopsis: "GPT-5.1, AI plays any video game, robot army, AI marriage, new TTS, world models: AI NEWS by AI Search. A lecture covering gpt, plays, any."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "GPT-5.1, AI plays any"
-  - "GPT-5.1, AI plays any video game,"
----
-
 # GPT-5.1, AI plays any video game, robot army, AI marriage, new TTS, world models: AI NEWS
 
 **Channel**: AI Search

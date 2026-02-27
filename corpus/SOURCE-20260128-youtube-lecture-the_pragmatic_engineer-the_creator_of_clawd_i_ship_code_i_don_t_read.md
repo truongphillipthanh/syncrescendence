@@ -1,39 +1,3 @@
----
-id: SOURCE-20260128-266
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "creator"
-  - "clawd"
-  - "ship"
-  - "code"
-  - "don"
-creator: "The Pragmatic Engineer"
-guest: null
-title: "The creator of Clawd: "I ship code I don't read""
-url: "https://www.youtube.com/watch?v=8lF7HmQ_RgY"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 54m 5s"
-has_transcript: no
-synopsis: "The creator of Clawd: "I ship code I don't read" by The Pragmatic Engineer. A lecture covering creator, clawd, ship."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The creator of Clawd:"
-  - "The creator of Clawd: "I ship"
----
-
 # The creator of Clawd: "I ship code I don't read"
 
 **Channel**: The Pragmatic Engineer

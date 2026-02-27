@@ -1,22 +1,3 @@
----
-id: SOURCE-20260120-x-article-armanhezarkhani-the_complete_guide_how_to_become_an_ml_engineer
-platform: x
-format: article
-creator: armanhezarkhani
-title: the complete guide how to become an ml engineer
-status: triaged
-original_filename: "20260120-x_article-the_complete_guide_how_to_become_an_ml_engineer-@armanhezarkhani.md"
-url: https://x.com/ArmanHezarkhani/status/2013608521900683765
-author: "Arman Hezarkhani (@ArmanHezarkhani)"
-captured_date: 2026-01-20
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: ai-engineering
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # The Complete Guide: How to Become an ML Engineer
 
 (Description: A professional headshot photograph of a smiling man against a dark blue-black background with circuit board patterns and glowing nodes. Bold white text reads "The Complete Guide: Become an ML Engineer" with subtitle "Learn the path from zero to building GPT from scratch, for free.")

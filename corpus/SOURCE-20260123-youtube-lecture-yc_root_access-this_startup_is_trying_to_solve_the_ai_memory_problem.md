@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-360
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "startup"
-  - "trying"
-  - "solve"
-  - "memory"
-  - "problem"
-creator: "YC Root Access"
-guest: null
-title: "This Startup Is Trying To Solve The AI Memory Problem"
-url: "https://www.youtube.com/watch?v=Sr1STQP0cds"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 23s"
-has_transcript: no
-synopsis: "This Startup Is Trying To Solve The AI Memory Problem by YC Root Access. A lecture covering startup, trying, solve."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "This Startup Is Trying"
-  - "This Startup Is Trying To Solve"
----
-
 # This Startup Is Trying To Solve The AI Memory Problem
 
 **Channel**: YC Root Access

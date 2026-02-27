@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-009
-title: Claude Cowork Code Lesson
-platform: x
-format: transcript
-creator: bcherny
-date_published: "2026-01-23"
-status: triaged
-url: https://x.com/bcherny/status/2014790469721768160
-original_filename: research/x-bookmarks/TRANS-bcherny-claude_cowork_code_lesson.md
-aliases:
-  - "Boris Cherny Cowork Podcast"
-  - "Claude Code Creator Interview"
-teleology: extract
-notebooklm_category: claude-code
-synopsis: "Boris Cherny (creator of Claude Code) appears on Greg Isenberg's podcast to explain Claude Cowork and his personal Claude Code setup. Primary source intelligence from the product creator on design philosophy, intended use cases, and the distinction between Claude Code (CLI) and Claude Cowork (web-based collaborative coding)."
-key_insights:
-  - "The creator of Claude Code distinguishes between CLI-based autonomous coding (Claude Code) and web-based collaborative coding (Claude Cowork) as complementary surfaces"
-  - "High bookmark-to-engagement ratio (849 bookmarks) signals the community treats this as reference material, not casual content"
-  - "Expert knowledge transfer through conversation format captures tacit design philosophy that documentation alone cannot convey"
-topics:
-  - claude-code
-  - developer-tools
-  - ai-engineering
-signal_tier: strategic
----
-
 # X/Twitter Transcription: @bcherny - Claude Cowork & Claude Code Private Lesson
 
 **Author:** Boris Cherny (@bcherny) ✓  

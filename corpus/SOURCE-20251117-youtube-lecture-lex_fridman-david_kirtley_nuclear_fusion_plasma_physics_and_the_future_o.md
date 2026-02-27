@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1032
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "david"
-  - "kirtley"
-  - "nuclear"
-  - "fusion"
-  - "plasma"
-creator: "Lex Fridman"
-guest: null
-title: "David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fridman Podcast #485"
-url: "https://www.youtube.com/watch?v=m_CFCyc2Shs"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 36m 55s"
-has_transcript: no
-synopsis: "David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fridman Podcast #485 by Lex Fridman. A lecture covering david, kirtley, nuclear."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "David Kirtley: Nuclear Fusion,"
-  - "David Kirtley: Nuclear Fusion, Plasma Physics,"
----
-
 # David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fridman Podcast #485
 
 **Channel**: Lex Fridman

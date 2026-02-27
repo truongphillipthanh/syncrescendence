@@ -1,39 +1,3 @@
----
-id: SOURCE-20251203-928
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "google"
-  - "insider"
-  - "warns"
-  - "prepared"
-  - "2027"
-creator: "The Diary Of A CEO Clips"
-guest: null
-title: "Ex-Google Insider WARNS: "You Are Not Prepared For 2027""
-url: "https://www.youtube.com/watch?v=x4ZY25OU4Ys"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 25s"
-has_transcript: no
-synopsis: "Ex-Google Insider WARNS: "You Are Not Prepared For 2027" by The Diary Of A CEO Clips. A lecture covering google, insider, warns."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Ex-Google Insider WARNS: "You"
-  - "Ex-Google Insider WARNS: "You Are Not"
----
-
 # Ex-Google Insider WARNS: "You Are Not Prepared For 2027"
 
 **Channel**: The Diary Of A CEO Clips

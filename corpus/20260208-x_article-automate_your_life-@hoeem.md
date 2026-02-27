@@ -1,10 +1,3 @@
----
-url: https://x.com/hooeem/status/2020522623134822537
-author: hoeem (@hoeem)
-captured_date: 2026-02-08
-engagement: 55 replies, 179 reposts, 2.1K likes, 7.8K bookmarks, 514K views
----
-
 # Automate Your Life
 
 (Description: Abstract digital visualization. Left side shows tangled purple and pink neural network patterns. Center features a crystalline pyramidal structure in white and light blue. Right side displays cyan-colored circuit board lines and technology icons flowing horizontally. Dark background. Motion and energy implied through flowing light trails.)

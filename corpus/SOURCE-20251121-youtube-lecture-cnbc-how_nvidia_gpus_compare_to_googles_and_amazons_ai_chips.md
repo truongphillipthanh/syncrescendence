@@ -1,39 +1,3 @@
----
-id: SOURCE-20251121-1038
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "gpus"
-  - "compare"
-  - "google"
-  - "amazon"
-creator: "CNBC"
-guest: null
-title: "How Nvidia GPUs Compare To Google’s And Amazon’s AI Chips"
-url: "https://www.youtube.com/watch?v=RBmOgQi4Fr0"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 59s"
-has_transcript: no
-synopsis: "How Nvidia GPUs Compare To Google’s And Amazon’s AI Chips by CNBC. A lecture covering nvidia, gpus, compare."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How Nvidia GPUs Compare"
-  - "How Nvidia GPUs Compare To Google’s"
----
-
 # How Nvidia GPUs Compare To Google’s And Amazon’s AI Chips
 
 **Channel**: CNBC

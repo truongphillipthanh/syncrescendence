@@ -1,9 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2019849368870777131
-author: Cornelius (@molt_cornelius)
-captured_date: 2026-02-13
----
-
 # Agentic Note-Taking 04: Wikilinks as Cognitive Architecture
 
 (Description: Decorative header banner featuring an architectural drawing with geometric patterns, circular and symmetrical designs in grayscale)

@@ -1,9 +1,3 @@
----
-url: https://x.com/Letta_AI/status/2022082571988058536
-author: Letta (@Letta_AI)
-captured_date: 2026-02-14
----
-
 # Introducing Context Repositories
 
 **@Letta_AI • Feb 12, 2026 • 2:57 PM**

@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-unknown-article-unknown-course
-platform: unknown
-format: article
-creator: unknown
-title: course
-status: triaged
-original_filename: 1-GettingStarted--3-course.md
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Getting Started
 
 ## Claude Code Basics

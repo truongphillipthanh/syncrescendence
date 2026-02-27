@@ -1,13 +1,3 @@
----
-id: REF-CLARESCENCE_RUNBOOK
-kind: REF
-scope: system
-target: syncrescendence
-status: canonical
-version: 3.0.0
-updated: 2026-02-16
----
-
 # /claresce — Clarescence Runbook v3.0.0
 
 > **Clarescence** is the value-guided progressive refinement meta-operation (Rosetta #169).

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-699
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "boom"
-  - "bust"
-  - "boomers"
-  - "doomers"
-  - "reveal"
-creator: "Info-Tech Research Group"
-guest: null
-title: "AI Boom or Bust? AI Boomers and Doomers Reveal Their Predictions for Our Future"
-url: "https://www.youtube.com/watch?v=YrFx7iIQ79g"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 15m 30s"
-has_transcript: no
-synopsis: "AI Boom or Bust? AI Boomers and Doomers Reveal Their Predictions for Our Future by Info-Tech Research Group. A lecture covering boom, bust, boomers."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Boom or Bust?"
-  - "AI Boom or Bust? AI Boomers"
----
-
 # AI Boom or Bust? AI Boomers and Doomers Reveal Their Predictions for Our Future
 
 **Channel**: Info-Tech Research Group

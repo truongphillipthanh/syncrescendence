@@ -1,9 +1,3 @@
----
-url: https://x.com/seejayhess/status/2014448070214197485
-author: CJ Hess (@seejayhess)
-captured_date: 2026-01-22
----
-
 # How I Built a Visual Feedback Loop for Claude Code
 
 ## ASCII Art Isn't Cutting It Anymore

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260128-260
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "elon"
-  - "musk"
-  - "spacex"
-  - "ipo"
-  - "largest"
-creator: "Sourcery with Molly O'Shea"
-guest: null
-title: "Elon Musk & The SpaceX IPO: Largest Wealth Event in History? | Shaun Maguire, Sequoia"
-url: "https://www.youtube.com/watch?v=lPXYqPXo_R0"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "42m 55s"
-has_transcript: no
-synopsis: "Elon Musk & The SpaceX IPO: Largest Wealth Event in History? | Shaun Maguire, Sequoia by Sourcery with Molly O'Shea. A lecture covering elon, musk, spacex."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Elon Musk & The"
-  - "Elon Musk & The SpaceX IPO:"
----
-
 # Elon Musk & The SpaceX IPO: Largest Wealth Event in History? | Shaun Maguire, Sequoia
 
 **Channel**: Sourcery with Molly O'Shea

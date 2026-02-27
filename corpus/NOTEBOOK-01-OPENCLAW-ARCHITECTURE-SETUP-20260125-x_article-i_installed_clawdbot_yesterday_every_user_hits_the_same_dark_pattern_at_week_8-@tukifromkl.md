@@ -1,9 +1,3 @@
----
-url: https://x.com/TukiFromKL/status/2015688502935978395
-author: Tuki (@TukiFromKL)
-captured_date: 2026-01-25
----
-
 # I Installed Clawdbot Yesterday. Every User Hits The Same Dark Pattern At Week 8.
 
 (Description: Beige/tan background with pixelated brown creature with red eyes and angry expression on the right side. Black handwritten-style text reading "YOU'RE NEXT !" on the left side.)

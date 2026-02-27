@@ -1,18 +1,3 @@
----
-source_id: SOURCE-20251024-039
-title: "The Future of Engineering: A Discipline Evolving to Meet Tomorrow's Challenges"
-platform: youtube
-format: lecture
-creator: Engineering Institute of Technology
-guest: Henrik von Scheel
-date_published: 2025-10-24
-date_processed: 2026-01-05
-chain: expertise
-topics: [fourth_industrial_revolution, engineering_evolution, megatrends, systems_thinking]
-signal_tier: tactical
-integrated_into: []
----
-
 # Henrik von Scheel: Engineering in the Fourth Industrial Revolution
 
 ## Core Thesis

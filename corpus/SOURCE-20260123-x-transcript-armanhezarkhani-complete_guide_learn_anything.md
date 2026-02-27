@@ -1,31 +1,3 @@
----
-id: SOURCE-undated-001
-title: Complete Guide Learn Anything
-platform: x
-format: transcript
-creator: ArmanHezarkhani
-date_published: "2026-01-23"
-status: triaged
-url: https://x.com/ArmanHezarkhani/status/2014708119029399914
-original_filename: research/x-bookmarks/TRANS-ArmanHezarkhani-complete_guide_learn_anything.md
-aliases:
-  - "Arman Learn Anything Transcript"
-  - "Spaced Repetition Claude Transcript"
-teleology: extract
-notebooklm_category: claude-code
-synopsis: "Detailed transcript of Arman Hezarkhani's system for rapid expertise acquisition using Claude Code + Notion MCP. Includes full database schema, spaced repetition intervals, three-phase workflow (learning sessions, daily reviews, Socratic challenges), and the exact prompts and Notion structure for replication."
-key_insights:
-  - "The Notion database schema with confidence tracking, next-review dates, and concept relations creates a machine-readable knowledge graph that Claude can query and maintain autonomously"
-  - "Failed recall resets the spaced repetition interval to 1 day — the system is self-correcting and forces re-engagement with weak spots"
-  - "Cross-domain connections compound: each new domain enriches the entire knowledge base through relational links"
-topics:
-  - claude-code
-  - mcp
-  - tutorial
-  - best-practices
-signal_tier: strategic
----
-
 # The Complete Guide: How to Learn Anything. For Good.
 > **Author**: Arman Hezarkhani (@ArmanHezarkhani) — cofounder @tenex_labs, previously @google, @carnegiemellon
 > **Date**: January 23, 2026 · 6:33 AM

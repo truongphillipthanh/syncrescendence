@@ -1,9 +1,3 @@
----
-url: https://x.com/farzyness/status/2021709279917400244
-author: Farzad (@farzyness)
-captured_date: 2026-02-13
----
-
 # How Love and Empathy will shape the post-AI economy
 
 (Description: A digital illustration of two hands meeting—a golden ornate human hand on the left glowing with warmth and light, meeting a blue circuit-board mechanical hand on the right. The background is a cosmic dark space with stars. Intricate patterns of circuitry blend into organic flowing designs, symbolizing the convergence of human emotion and artificial intelligence.)

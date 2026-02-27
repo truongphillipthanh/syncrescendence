@@ -1,10 +1,3 @@
----
-url: https://x.com/byteofbits/status/2019447660864807345
-author: Alexander Christie (@byteofbits)
-captured_date: 2026-02-13
-published_date: 2026-02-05
----
-
 # Introducing Universal Context
 
 (Description: Dark-themed article cover image featuring the title "Introducing Universal Context" on the left in large white sans-serif typography, with a geometric visualization on the right showing a wireframe sphere and descending matrix-like elements in white/gray ASCII-style characters against a dark background.)

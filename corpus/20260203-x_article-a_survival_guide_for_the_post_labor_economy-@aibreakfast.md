@@ -1,9 +1,3 @@
----
-url: https://x.com/AiBreakfast/status/2018883530500059636
-author: AI Breakfast (@AiBreakfast)
-captured_date: 2026-02-03
----
-
 # A Survival Guide for the Post-Labor Economy
 
 (Description: Illustration on cream-colored background showing a large pile of currency bills with dark blue flames engulfing the pile from above. Sketched in a minimalist, line-art style with navy blue ink.)

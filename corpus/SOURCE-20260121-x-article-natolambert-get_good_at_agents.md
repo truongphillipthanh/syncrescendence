@@ -1,22 +1,3 @@
----
-id: SOURCE-20260121-x-article-natolambert-get_good_at_agents
-platform: x
-format: article
-creator: natolambert
-title: get good at agents
-status: triaged
-original_filename: "20260121-x_article-get_good_at_agents-@natolambert.md"
-url: https://x.com/natolambert/article/2014023020302704698
-author: "Nathan Lambert (@natolambert)"
-captured_date: 2026-01-21
-signal_tier: strategic
-topics: ""
-teleology: strategize
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Get Good at Agents
 
 (Description: A conductor standing at a podium with arms raised in front of a full orchestra. The conductor is wearing a black tuxedo, viewed from behind. Violinists, cellists, and other orchestra members are seated throughout the frame with sheet music visible on stands. Warm stage lighting illuminates the scene with golden-amber tones.)

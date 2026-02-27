@@ -1,21 +1,3 @@
----
-url: https://x.com/tomcrawshaw01/status/2020866308230009189
-author: "Tom (@tomcrawshaw01)"
-captured_date: 2026-02-09
-id: SOURCE-20260209-005
-original_filename: "20260209-x_article-claude_code_told_me_everything_im_doing_wrong_then_it_built_three_agents_to_fix_it-@tomcrawshaw01.md"
-status: triaged
-platform: x
-format: article
-creator: tomcrawshaw01
-signal_tier: strategic
-topics: [claude-code, developer-tools, self-improvement]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["tomcrawshaw01 - Claude Code /insights Self-Audit"]
-synopsis: "Using Claude Code's /insights command to analyze 2,555 messages across 318 sessions, revealing workflow anti-patterns, then building three specialized agents to fix the identified issues."
-key_insights: ["The /insights command provides a meta-analysis of your own AI usage patterns across sessions", "Self-audit of AI workflows reveals blind spots invisible during individual sessions", "Building corrective agents from insight data creates a self-improving development system"]
----
 # Claude Code Told Me Everything I'm Doing Wrong. Then It Built Three Agents To Fix It.
 
 (Description: Terminal window screenshot with orange pixelated retro-style text reading "CLAUDE CODE" on two lines, followed by white monospace text "/insights" below on a dark background with macOS-style window controls at top)

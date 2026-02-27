@@ -1,28 +1,3 @@
----
-url: "https://x.com/minchoi/status/2018349261289578572"
-author: "@minchoi (Min Choi)"
-captured_date: "2026-02-14"
-id: SOURCE-20260202-013
-original_filename: "20260202-x_thread-its_only_been_a_week-@minchoi.md"
-status: triaged
-platform: x
-format: thread
-creator: minchoi
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - openclaw
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Min Choi - OpenClaw app killer thread"
-synopsis: "Thread documenting how ClawdBot/OpenClaw broke the internet in one week and is killing entire categories of apps. Frames OpenClaw as a personal AI assistant that lives on your computer, with examples of people using it to run life and business tasks without complex setup."
-key_insights:
-  - "OpenClaw's value proposition is replacing multiple standalone apps with a single persistent AI agent that lives on your computer."
-  - "The 'no fancy prompts, no MCP' framing emphasizes that the breakthrough is in accessibility and always-on availability, not in prompting sophistication."
-  - "One week of adoption was enough to demonstrate category-killing potential across personal productivity tools."
----
 # ClawdBot (now OpenClaw): The Personal AI Assistant That Lives on Your Computer
 
 ## 1. Opening Statement

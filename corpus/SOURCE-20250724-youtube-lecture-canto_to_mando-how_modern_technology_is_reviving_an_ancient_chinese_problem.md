@@ -1,39 +1,3 @@
----
-id: SOURCE-20250724-042
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "modern"
-  - "technology"
-  - "reviving"
-  - "ancient"
-  - "chinese"
-creator: "Canto to Mando"
-guest: null
-title: "How Modern Technology Is Reviving An Ancient Chinese Problem"
-url: "https://www.youtube.com/watch?v=3ZeTPA17-UE"
-date_published: 2025-07-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 24s"
-has_transcript: no
-synopsis: "How Modern Technology Is Reviving An Ancient Chinese Problem by Canto to Mando. A lecture covering modern, technology, reviving."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "How Modern Technology Is"
-  - "How Modern Technology Is Reviving An"
----
-
 # How Modern Technology Is Reviving An Ancient Chinese Problem
 
 **Channel**: Canto to Mando

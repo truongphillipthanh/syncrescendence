@@ -1,39 +1,3 @@
----
-id: SOURCE-20260205-177
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ultimate"
-  - "antigravity"
-  - "masterclass"
-  - "hour"
-  - "free"
-creator: "Jack Roberts"
-guest: null
-title: "The Ultimate AntiGravity Masterclass (3+ HOUR FREE COURSE)"
-url: "https://www.youtube.com/watch?v=mvHGl6zEA3w"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3h 16m 14s"
-has_transcript: no
-synopsis: "The Ultimate AntiGravity Masterclass (3+ HOUR FREE COURSE) by Jack Roberts. A lecture covering ultimate, antigravity, masterclass."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Ultimate AntiGravity Masterclass"
-  - "The Ultimate AntiGravity Masterclass (3+ HOUR"
----
-
 # The Ultimate AntiGravity Masterclass (3+ HOUR FREE COURSE)
 
 **Channel**: Jack Roberts

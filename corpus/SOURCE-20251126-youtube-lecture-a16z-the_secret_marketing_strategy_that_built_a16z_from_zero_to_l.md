@@ -1,39 +1,3 @@
----
-id: SOURCE-20251126-991
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "secret"
-  - "marketing"
-  - "strategy"
-  - "built"
-  - "a16z"
-creator: "a16z"
-guest: null
-title: "The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm"
-url: "https://www.youtube.com/watch?v=jO-SWlW6DFY"
-date_published: 2025-11-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "59m 3s"
-has_transcript: no
-synopsis: "The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm by a16z. A lecture covering secret, marketing, strategy."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Secret Marketing Strategy"
-  - "The Secret Marketing Strategy That Built"
----
-
 # The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm
 
 **Channel**: a16z

@@ -1,9 +1,3 @@
----
-url: https://x.com/DavidOndrej1/status/2020669705426538593
-author: David Ondrej (@DavidOndrej1)
-captured_date: 2026-02-13
----
-
 # The AI Agent that runs locally, costs nothing, and does everything
 
 ![Description: A dark tech-themed banner with neon glowing elements. The text "AGENT ZERO" appears in large white letters at the top. Below is a futuristic robotic camera or sensor head rendered in neon orange, cyan, and hot pink glowing lines with a transparent core. Particle effects and lens flares scatter throughout a dark starfield background, creating a cinematic sci-fi aesthetic.]

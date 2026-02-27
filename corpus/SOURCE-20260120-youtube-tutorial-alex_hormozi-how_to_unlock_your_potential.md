@@ -1,36 +1,3 @@
----
-id: SOURCE-20260120-418
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "unlock"
-  - "potential"
-creator: "Alex Hormozi"
-guest: null
-title: "How to Unlock Your Potential"
-url: "https://www.youtube.com/watch?v=xz-ymFOhBAE"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 9m 42s"
-has_transcript: no
-synopsis: "How to Unlock Your Potential by Alex Hormozi. A tutorial covering unlock, potential."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Unlock Your"
-  - "How to Unlock Your Potential"
----
-
 # How to Unlock Your Potential
 
 **Channel**: Alex Hormozi

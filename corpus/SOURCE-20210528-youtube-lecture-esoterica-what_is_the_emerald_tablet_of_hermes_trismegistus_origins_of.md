@@ -1,39 +1,3 @@
----
-id: SOURCE-20210528-669
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "emerald"
-  - "tablet"
-  - "hermes"
-  - "trismegistus"
-  - "origins"
-creator: "ESOTERICA"
-guest: null
-title: "What is the Emerald Tablet of Hermes Trismegistus - Origins of Alchemy and Hermetic Philosophy"
-url: "https://www.youtube.com/watch?v=5qa4woIz_Ag"
-date_published: 2021-05-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 58s"
-has_transcript: no
-synopsis: "What is the Emerald Tablet of Hermes Trismegistus - Origins of Alchemy and Hermetic Philosophy by ESOTERICA. A lecture covering emerald, tablet, hermes."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "What is the Emerald"
-  - "What is the Emerald Tablet of"
----
-
 # What is the Emerald Tablet of Hermes Trismegistus - Origins of Alchemy and Hermetic Philosophy
 
 **Channel**: ESOTERICA

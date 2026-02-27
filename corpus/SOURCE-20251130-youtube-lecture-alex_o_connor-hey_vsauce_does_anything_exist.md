@@ -1,38 +1,3 @@
----
-id: SOURCE-20251130-953
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "hey"
-  - "vsauce"
-  - "anything"
-  - "exist"
-creator: "Alex O'Connor"
-guest: null
-title: "Hey Vsauce, Does Anything Exist?"
-url: "https://www.youtube.com/watch?v=fvpLTJX4_D8"
-date_published: 2025-11-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 36m 11s"
-has_transcript: no
-synopsis: "Hey Vsauce, Does Anything Exist? by Alex O'Connor. A lecture covering hey, vsauce, anything."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Hey Vsauce, Does Anything"
-  - "Hey Vsauce, Does Anything Exist?"
----
-
 # Hey Vsauce, Does Anything Exist?
 
 **Channel**: Alex O'Connor

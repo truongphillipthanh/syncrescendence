@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-753
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "easy"
-  - "way"
-  - "seen"
-  - "high"
-  - "performer"
-creator: "A Life Engineered"
-guest: null
-title: "The Easy Way To Be Seen As A High-Performer"
-url: "https://www.youtube.com/watch?v=qn4T9QciJ44"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 34s"
-has_transcript: no
-synopsis: "The Easy Way To Be Seen As A High-Performer by A Life Engineered. A lecture covering easy, way, seen."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Easy Way To"
-  - "The Easy Way To Be Seen"
----
-
 # The Easy Way To Be Seen As A High-Performer
 
 **Channel**: A Life Engineered

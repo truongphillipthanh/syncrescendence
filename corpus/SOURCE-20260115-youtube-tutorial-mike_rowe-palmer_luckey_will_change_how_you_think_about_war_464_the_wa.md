@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-469
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "palmer"
-  - "luckey"
-  - "change"
-  - "think"
-  - "war"
-creator: "Mike Rowe"
-guest: null
-title: "Palmer Luckey Will Change How You Think About War | #464 | The Way I Heard It"
-url: "https://www.youtube.com/watch?v=dejWbn_-gUQ"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 12m 3s"
-has_transcript: no
-synopsis: "Palmer Luckey Will Change How You Think About War | #464 | The Way I Heard It by Mike Rowe. A tutorial covering palmer, luckey, change."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Palmer Luckey Will Change"
-  - "Palmer Luckey Will Change How You"
----
-
 # Palmer Luckey Will Change How You Think About War | #464 | The Way I Heard It
 
 **Channel**: Mike Rowe

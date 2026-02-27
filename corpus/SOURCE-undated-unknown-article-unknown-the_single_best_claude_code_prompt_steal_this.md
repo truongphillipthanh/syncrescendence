@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-unknown-article-unknown-the_single_best_claude_code_prompt_steal_this
-platform: unknown
-format: article
-creator: unknown
-title: the single best claude code prompt steal this
-status: triaged
-original_filename: 2-BuilderTool--1-the_single_best_claude_code_prompt_steal_this.md
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 ****ultrathink**** — Take a deep breath. We're not here to write code. We're here to make a dent in the universe.
 
 ## The Vision

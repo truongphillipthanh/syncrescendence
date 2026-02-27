@@ -1,36 +1,3 @@
----
-id: SOURCE-20260114-480
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "meta"
-  - "overspending"
-creator: "The Information"
-guest: null
-title: "Is Meta Overspending on AI?"
-url: "https://www.youtube.com/watch?v=E-8ggYAYp_8"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 21s"
-has_transcript: no
-synopsis: "Is Meta Overspending on AI? by The Information. A lecture covering meta, overspending."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Is Meta Overspending on"
-  - "Is Meta Overspending on AI?"
----
-
 # Is Meta Overspending on AI?
 
 **Channel**: The Information

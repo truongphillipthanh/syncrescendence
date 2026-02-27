@@ -1,9 +1,3 @@
----
-url: https://x.com/YJstacked/status/2020784187582931292
-author: YJ (@YJstacked)
-captured_date: 2026-02-13
----
-
 # How to Build an AI Agent Army with Claude Skills
 
 (Description: Hero image showing two hands reaching toward each other in a classic "creation of Adam" pose. One hand appears robotic/digital with blue circuitry patterns, the other is human. A MacBook with an Apple logo is visible in the background on a marble surface, suggesting collaboration between human and AI.)

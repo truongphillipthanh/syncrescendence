@@ -1,38 +1,3 @@
----
-id: SOURCE-20251113-1131
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "controllable"
-  - "world"
-  - "models"
-  - "here"
-creator: "Matthew Berman"
-guest: null
-title: "Controllable World Models are HERE"
-url: "https://www.youtube.com/watch?v=-QbM6_BSdS0"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 46s"
-has_transcript: no
-synopsis: "Controllable World Models are HERE by Matthew Berman. A lecture covering controllable, world, models."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Controllable World Models are"
-  - "Controllable World Models are HERE"
----
-
 # Controllable World Models are HERE
 
 **Channel**: Matthew Berman

@@ -1,32 +1,3 @@
----
-url: https://x.com/rryssf_/status/2022022278544773629
-author: "Robert Youssef (@rryssf_)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-007
-original_filename: "20260212-x_article-the_tool_isnt_the_work-@rryssf_.md"
-status: triaged
-platform: x
-format: article
-creator: rryssf_
-signal_tier: strategic
-topics:
-  - ai-workflow
-  - testing
-  - api
-  - security
-  - cost-optimization
-  - token-management
-  - cli-tools
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "the tool isnt the work"
-synopsis: "the tool isn't the work ![Article Header Image] Opening: The OpenClaw Example 180,000 developers installed OpenClaw in a single week. Cisco, Palo Alto Networks, CrowdStrike, and Trend Micro all published security advisories about it within days. Over 1,800 exposed instances were found leaking API keys, chat histories, and account credentials across the open internet."
-key_insights:
-  - "Over 1,800 exposed instances were found leaking API keys, chat histories, and account credentials across the open internet."
-  - "And now we're watching the entirely predictable aftermath: a critical vulnerability (CVE-2026-25253, CVSS 8.8) that allowed one-click remote code execution."
-  - "The Pattern But this article isn't really about OpenClaw."
----
 # the tool isn't the work
 
 ![Article Header Image](Description: Evolution of humanity silhouettes from primitive ape-like figures progressing to upright humans using increasingly complex tools, with the final figures shown using laptop computers. A red horizontal line appears above the title "the tool isn't the work")

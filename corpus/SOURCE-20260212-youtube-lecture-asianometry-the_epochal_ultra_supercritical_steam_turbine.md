@@ -1,39 +1,3 @@
----
-id: SOURCE-20260212-072
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "epochal"
-  - "ultra"
-  - "supercritical"
-  - "steam"
-  - "turbine"
-creator: "Asianometry"
-guest: null
-title: "The Epochal Ultra-Supercritical Steam Turbine"
-url: "https://www.youtube.com/watch?v=suCEKLCCgzw"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 50s"
-has_transcript: no
-synopsis: "The Epochal Ultra-Supercritical Steam Turbine by Asianometry. A lecture covering epochal, ultra, supercritical."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Epochal Ultra-Supercritical Steam"
-  - "The Epochal Ultra-Supercritical Steam Turbine"
----
-
 # The Epochal Ultra-Supercritical Steam Turbine
 
 **Channel**: Asianometry

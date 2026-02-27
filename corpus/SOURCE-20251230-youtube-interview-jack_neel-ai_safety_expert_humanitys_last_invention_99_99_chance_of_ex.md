@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-692
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "safety"
-  - "expert"
-  - "humanity"
-  - "last"
-  - "invention"
-creator: "Jack Neel"
-guest: null
-title: "AI Safety Expert: Humanity’s Last Invention— 99.99% Chance of Extinction | Dr. Roman Yampolskiy"
-url: "https://www.youtube.com/watch?v=hns1g4dm0Qo"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 16m 33s"
-has_transcript: no
-synopsis: "AI Safety Expert: Humanity’s Last Invention— 99.99% Chance of Extinction | Dr. Roman Yampolskiy by Jack Neel. A interview covering safety, expert, humanity."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Safety Expert: Humanity’s"
-  - "AI Safety Expert: Humanity’s Last Invention—"
----
-
 # AI Safety Expert: Humanity’s Last Invention— 99.99% Chance of Extinction | Dr. Roman Yampolskiy
 
 **Channel**: Jack Neel

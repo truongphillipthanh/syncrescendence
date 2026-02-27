@@ -1,32 +1,3 @@
----
-url: https://x.com/arscontexta/status/2015201046469943660
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-01-24
-id: SOURCE-20260124-001
-original_filename: "20260124-x_article-build_claude_a_tool_for_thought-@arscontexta.md"
-status: triaged
-platform: x
-format: article
-creator: arscontexta
-signal_tier: strategic
-topics:
-  - claude-code
-  - vibe-coding
-  - context-management
-  - automation
-  - testing
-  - git
-  - memory-management
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Build Claude a Tool for Thought"
-synopsis: "Build Claude a Tool for Thought vibe note-taking has the same problem like vibe coding before ralph a few ideas works fine but dump hundreds and you're drowning in slop what's the "testing" for knowledge work? what catches drift before it compounds?"
-key_insights:
-  - "what catches drift before it compounds?"
-  - "but how do you actually build this?"
-  - "Explores build claude a tool for thought."
----
 # Build Claude a Tool for Thought
 
 (Description: A large gray engraved illustration showing a figure in period clothing gesturing toward a circular diagram labeled "CLAUDE CODE" with concentric circles, geometric patterns, and symbolic elements including an eye, mathematical symbols, and architectural details)

@@ -1,26 +1,3 @@
----
-id: SOURCE-20260204-website-article-unknown-agentmail_api_first_email_platform_clawhub
-platform: website
-format: article
-creator: unknown
-title: agentmail api first email platform clawhub
-status: triaged
-original_filename: 20260204-website-agentmail_api_first_email_platform-clawhub.md
-url: https://clawhub.ai/adboio/agentmail
-domain: clawhub.ai
-author: "@adboio"
-published_date: ""
-modified_date: ""
-captured_date: 2026-02-04
-content_type: documentation
-signal_tier: tactical
-topics: ""
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # AgentMail
 
 API-first email platform designed for AI agents. Create and manage dedicated email inboxes, send and receive emails programmatically, and handle email-based workflows with webhooks and real-time events. Use when you need to set up agent email identity, send emails from agents, handle incoming email workflows, or replace traditional email providers like Gmail with agent-friendly infrastructure.

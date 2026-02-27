@@ -1,39 +1,3 @@
----
-id: SOURCE-20260214-084
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "volatility"
-  - "signals"
-  - "boom"
-  - "bust"
-  - "itk"
-creator: "ARK Invest"
-guest: null
-title: "Volatility Signals: AI Boom or Bust? | ITK With Cathie Wood"
-url: "https://www.youtube.com/watch?v=HiX6AxmF500"
-date_published: 2026-02-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 39s"
-has_transcript: no
-synopsis: "Volatility Signals: AI Boom or Bust? | ITK With Cathie Wood by ARK Invest. A lecture covering volatility, signals, boom."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Volatility Signals: AI Boom"
-  - "Volatility Signals: AI Boom or Bust?"
----
-
 # Volatility Signals: AI Boom or Bust? | ITK With Cathie Wood
 
 **Channel**: ARK Invest

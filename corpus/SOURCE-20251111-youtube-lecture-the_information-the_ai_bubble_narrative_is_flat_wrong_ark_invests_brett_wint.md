@@ -1,39 +1,3 @@
----
-id: SOURCE-20251111-1158
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "bubble"
-  - "narrative"
-  - "flat"
-  - "wrong"
-  - "ark"
-creator: "The Information"
-guest: null
-title: "The AI Bubble Narrative Is "Flat Wrong" | ARK Invest’s Brett Winton"
-url: "https://www.youtube.com/watch?v=WMvgKidm46A"
-date_published: 2025-11-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 50s"
-has_transcript: no
-synopsis: "The AI Bubble Narrative Is "Flat Wrong" | ARK Invest’s Brett Winton by The Information. A lecture covering bubble, narrative, flat."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The AI Bubble Narrative"
-  - "The AI Bubble Narrative Is "Flat"
----
-
 # The AI Bubble Narrative Is "Flat Wrong" | ARK Invest’s Brett Winton
 
 **Channel**: The Information

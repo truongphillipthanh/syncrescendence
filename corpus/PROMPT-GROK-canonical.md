@@ -1,11 +1,3 @@
----
-id: grok-canonical-system-prompt
-kind: system_prompt
-scope: global
-target: grok
-version: 2.1
----
-
 # PROMPT-GROK-canonical
 ## Reception Calibration System Prompt
 

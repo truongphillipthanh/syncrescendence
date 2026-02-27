@@ -1,28 +1,3 @@
----
-url: https://x.com/willccbb/status/2011509849268596830
-author: "will brown (@willccbb)"
-captured_date: 2026-01-14
-id: SOURCE-20260114-001
-original_filename: "20260114-x_thread-got_nerdsniped_into_finally_reading-@willccbb.md"
-status: triaged
-platform: x
-format: thread
-creator: willccbb
-signal_tier: noise
-topics:
-  - "ai-engineering"
-  - "economics"
-  - "opinion"
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "willccbb - Gas Town Commentary"
-synopsis: "Commentary thread on Gas Town post about AI and economics. Brief thread with limited content captured."
-key_insights:
-  - "Thread provides commentary on Gas Town analysis of AI economic implications"
-  - "Limited content captured due to JavaScript rendering limitations on Twitter"
-  - "Thread contributes to discourse on AI economic disruption framing"
----
 # Thread: Gas Town Post Commentary
 
 ## Post 1

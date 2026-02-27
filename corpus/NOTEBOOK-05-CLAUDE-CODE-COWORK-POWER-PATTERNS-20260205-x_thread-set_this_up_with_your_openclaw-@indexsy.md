@@ -1,9 +1,3 @@
----
-url: https://x.com/indexsy/status/2019657721314939014
-author: Jacky Chou (@indexsy)
-captured_date: 2026-02-05
----
-
 # OpenClaw Advanced Memory System Setup
 
 Set this up with your OpenClaw and never have issues with memory again... (bookmark for later)

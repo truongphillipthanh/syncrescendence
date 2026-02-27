@@ -1,9 +1,3 @@
----
-url: https://x.com/AndrewWarner/status/2019456827033866482
-author: Andrew Warner (@AndrewWarner)
-captured_date: 2026-02-05
----
-
 # OpenClaw Workforce: The complete guide to running yours
 
 (Description: Title card with large text "HOW TO LEAD AN OpenClaw WORKFORCE" with stylized red circular character icons arranged in a row below)

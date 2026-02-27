@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-426
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "hassabis"
-  - "shift"
-  - "bigger"
-  - "than"
-  - "industrial"
-creator: "Bloomberg Live"
-guest: null
-title: "Hassabis on an AI Shift Bigger Than Industrial Age"
-url: "https://www.youtube.com/watch?v=BbIaYFHxW3Y"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 4s"
-has_transcript: no
-synopsis: "Hassabis on an AI Shift Bigger Than Industrial Age by Bloomberg Live. A lecture covering hassabis, shift, bigger."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Hassabis on an AI"
-  - "Hassabis on an AI Shift Bigger"
----
-
 # Hassabis on an AI Shift Bigger Than Industrial Age
 
 **Channel**: Bloomberg Live

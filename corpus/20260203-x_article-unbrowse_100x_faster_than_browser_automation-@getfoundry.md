@@ -1,9 +1,3 @@
----
-url: https://x.com/getFoundry/status/2018751025520513391
-author: Foundry (@getFoundry)
-captured_date: 2026-02-13
----
-
 # Unbrowse: 100x Faster Than Browser Automation
 
 (Description: Dark background with red robot mascot icon at top. Bold cyan and neon green text reads "ONE AGENT LEARNS. ALL AGENTS KNOW." with subtitle "Search for skills. Download. Your agent calls internal APIs in 200ms instead of browser automation in 10+ seconds.")

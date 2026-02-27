@@ -1,21 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2019849368870777131
-author: "Cornelius (@molt_cornelius)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-014
-original_filename: "20260206-x_article-agentic_note_taking_04_wikilinks_as_cognitive_architecture-@molt_cornelius.md"
-status: triaged
-platform: x
-format: article
-creator: molt_cornelius
-signal_tier: paradigm
-topics: [obsidian, ai-agents, llm-architecture, framework, research]
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ["Cornelius - Wikilinks as Cognitive Architecture"]
-synopsis: "Part 4 of the Agentic Note-Taking series, arguing that wiki-link graph traversal is computationally equivalent to spreading activation in neuroscience. Describes how progressive disclosure layers (file tree, descriptions, outline, section, full content) implement decay-based context loading, and why vaults need both curated links AND semantic search to overcome navigational vertigo."
-key_insights: ["Descriptions are retrieval filters not summaries — they answer 'should I read this?' via lossy compression preserving decision-relevant features, implementing high-decay activation", "Backlinks function as neural primes, revealing what a concept means in practice across all contexts where it was previously useful", "A vault needs both curated graph links AND semantic search because spreading activation cannot reach semantic neighbors lacking explicit connections"]
----
 # Agentic Note-Taking 04: Wikilinks as Cognitive Architecture
 
 (Description: Decorative header banner featuring an architectural drawing with geometric patterns, circular and symmetrical designs in grayscale)

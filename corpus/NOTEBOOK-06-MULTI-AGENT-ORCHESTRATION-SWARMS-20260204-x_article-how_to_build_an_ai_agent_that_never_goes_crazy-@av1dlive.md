@@ -1,9 +1,3 @@
----
-url: https://x.com/Av1dlive/status/2019104781172896103
-author: Avid (@Av1dlive)
-captured_date: 2026-02-04
----
-
 # How to Build an AI Agent That Never Goes Crazy
 
 (Description: Cinematic overhead shot of a laptop keyboard with a coffee cup on a desk overlooking a neon-lit cityscape at night, conveying AI development in an urban tech environment.)

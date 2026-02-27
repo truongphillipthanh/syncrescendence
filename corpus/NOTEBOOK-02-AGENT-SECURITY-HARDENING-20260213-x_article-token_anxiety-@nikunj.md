@@ -1,9 +1,3 @@
----
-url: https://x.com/nikunj/status/2022438070092759281
-author: Nikunj Kothari (@nikunj)
-captured_date: 2026-02-13
----
-
 # Token Anxiety
 
 ![Article header image](Description: A gradient background transitioning from blue on the left to coral/salmon on the right. On the left side, two stacked cylindrical coins or tokens in white line-art style, with a notification badge marked "1" floating above. On the right side, a silhouetted figure of a person in profile, bent forward over a laptop computer, rendered in white line-art. Above the figure's head are small wavy lines suggesting stress or anxiety. The overall aesthetic is minimalist and uses a warm color palette.)

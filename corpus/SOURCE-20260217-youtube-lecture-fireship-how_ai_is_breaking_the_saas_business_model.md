@@ -1,38 +1,3 @@
----
-id: SOURCE-20260217-043
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "breaking"
-  - "saas"
-  - "business"
-  - "model"
-creator: "Fireship"
-guest: null
-title: "How AI is breaking the SaaS business model..."
-url: "https://www.youtube.com/watch?v=cxcb55zr2Q8"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "5m 2s"
-has_transcript: no
-synopsis: "How AI is breaking the SaaS business model... by Fireship. A lecture covering breaking, saas, business."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "How AI is breaking"
-  - "How AI is breaking the SaaS"
----
-
 # How AI is breaking the SaaS business model...
 
 **Channel**: Fireship

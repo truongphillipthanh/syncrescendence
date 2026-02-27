@@ -1,24 +1,3 @@
----
-url: https://x.com/hooeem/status/2024142700702744606
-author: "hoeem (@hooeem)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-007
-original_filename: "20260218-x_article-i_want_to_learn_how_to_use_claude_cowork-@hooeem.md"
-status: triaged
-platform: x
-format: article
-creator: hooeem
-signal_tier: tactical
-topics: [claude-code, developer-tools, workflow-automation]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["hooeem - Claude CoWork guide"]
-synopsis: "Beginner-to-advanced guide for Claude CoWork, structured in five levels: file management (cleanup, rename, data extraction), web agent (research, competitor intel, sentiment analysis via Chrome extension), connectors (Gmail, Calendar, Drive via MCP), skills (saved repeatable workflows), and expert tactics (parallel processing across tabs, plan mode, self-verification, project integration). Notes limitations: no cross-session memory, requires desktop app open, faster quota burn."
-key_insights:
-  - "CoWork acts, it doesn't advise — the gap between 'Claude told me how' and 'Claude did it' is the gap between a tool and a workflow"
-  - "Five progressive levels: file management -> web agent -> connectors -> skills -> expert tactics — each compounds the previous"
-  - "Skills are the multiplier: one hour building a Skill saves that hour every single week it runs"
----
 # I want to learn how to use Claude CoWork.
 (Description: Illustration showing a person seated at a desk with a laptop, surrounded by workflow icons including calendar, spreadsheet, documents, email, gear/settings, magnifying glass, email envelope, chart, and a prominent "Claude CoWork" badge in the upper right corner. Multiple red arrows point outward from the central figure, symbolizing distributed task automation and multi-directional workflow execution.)
 ## Overview

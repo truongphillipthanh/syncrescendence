@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-282
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "legora"
-  - "ceo"
-  - "max"
-  - "junestrand"
-  - "arr"
-creator: "20VC with Harry Stebbings"
-guest: null
-title: "Legora CEO, Max Junestrand: $7M ARR in a Day | Harvey vs Legora: Is a Legal AI Winner Takes All?"
-url: "https://www.youtube.com/watch?v=ZjwrXqjr59A"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 6m 38s"
-has_transcript: no
-synopsis: "Legora CEO, Max Junestrand: $7M ARR in a Day | Harvey vs Legora: Is a Legal AI Winner Takes All? by 20VC with Harry Stebbings. A tutorial covering legora, ceo, max."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Legora CEO, Max Junestrand:"
-  - "Legora CEO, Max Junestrand: $7M ARR"
----
-
 # Legora CEO, Max Junestrand: $7M ARR in a Day | Harvey vs Legora: Is a Legal AI Winner Takes All?
 
 **Channel**: 20VC with Harry Stebbings

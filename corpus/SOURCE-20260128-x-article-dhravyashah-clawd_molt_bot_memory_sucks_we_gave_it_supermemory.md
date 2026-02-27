@@ -1,27 +1,3 @@
----
-url: https://x.com/DhravyaShah/status/2016308406701981731
-author: "Dhravya Shah (@DhravyaShah)"
-captured_date: 2026-01-27
-id: SOURCE-20260128-002
-original_filename: "20260128-x_article-clawd_molt_bot_memory_sucks_we_gave_it_supermemory-@dhravyashah.md"
-status: triaged
-platform: x
-format: article
-creator: dhravyashah
-signal_tier: tactical
-topics:
-  - ai-agents
-  - developer-tools
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "Dhravya Shah - Supermemory for Clawdbot"
-synopsis: "Supermemory founder Dhravya Shah diagnoses Clawdbot's memory problem: it relies on tool-calling for memory access but models aren't trained to consistently use tools. The fix integrates Supermemory for automatic recall at all times, cross-platform context sync (Telegram/WhatsApp/Slack), plus /remember and /recall commands."
-key_insights:
-  - "Clawdbot's memory architecture fails because LLMs aren't trained to proactively use memory tools — memory must be fed into context on every run, not gated behind tool calls."
-  - "Cross-platform memory sync (Telegram, WhatsApp, Slack) via Supermemory integration enables seamless context continuity across messaging platforms."
-  - "The fundamental insight from Anthropic: post-training with specific tools doesn't generalize — being good at file reading doesn't make the model good at using the filesystem for memory."
----
 # Clawd / Molt bot's memory SUCKS. We gave it supermemory.
 
 (Description: Brand collaboration graphic with Supermemory logo on left and red lobster illustration on right against gradient blue background)

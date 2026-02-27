@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-680
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "autograd"
-  - "changed"
-  - "everything"
-  - "transformers"
-  - "jeff"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]"
-url: "https://www.youtube.com/watch?v=9suqiofCiwM"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 16m 38s"
-has_transcript: no
-synopsis: "AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck] by Machine Learning Street Talk. A lecture covering autograd, changed, everything."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AutoGrad Changed Everything (Not"
-  - "AutoGrad Changed Everything (Not Transformers) [Dr."
----
-
 # AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]
 
 **Channel**: Machine Learning Street Talk

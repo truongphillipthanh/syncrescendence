@@ -1,24 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2023753104789786955
-author: "Corey Ganim (@GanimCorey)"
-captured_date: 2026-02-17
-id: SOURCE-20260217-006
-original_filename: "20260217-x_article-how_i_built_a_4_person_ai_executive_team_in_3_weeks_coo_cmo_cfo_ceo-@ganimcorey.md"
-status: triaged
-platform: x
-format: article
-creator: ganimcorey
-signal_tier: tactical
-topics: [ai-agents, entrepreneurship, workflow-automation, best-practices]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["ganimcorey - 4-person AI executive team"]
-synopsis: "Detailed framework for building a 4-role AI executive team (COO, CMO, CFO, CEO) using OpenClaw. Each role has specific responsibilities, real output examples, and build instructions. Recommends building in order: COO first (biggest ROI in task triage), then CMO (content), CFO (finance), CEO (strategy). Claims 2-3 hours saved per day at $20-80/month total cost."
-key_insights:
-  - "Reframe from 'AI assistant' to 'AI executive team' — executives own outcomes and make decisions, assistants complete tasks and wait for instructions"
-  - "Build order matters: COO first (task triage saves 2 hours/day immediately), then CMO, CFO, CEO last (strategy needs data from other roles)"
-  - "The real shift: stop context-switching into operations mode — review, approve, execute instead of draft, triage, plan"
----
 # How I Built a 4-Person AI Executive Team in 3 Weeks (COO, CMO, CFO, CEO)
 Most people treat AI like an assistant.
 "Draft this email." "Summarize this document." "Answer this question."

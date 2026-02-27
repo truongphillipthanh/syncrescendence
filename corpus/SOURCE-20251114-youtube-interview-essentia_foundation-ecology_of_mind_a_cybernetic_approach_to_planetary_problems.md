@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1105
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "ecology"
-  - "mind"
-  - "cybernetic"
-  - "approach"
-  - "planetary"
-creator: "Essentia Foundation"
-guest: null
-title: "Ecology of Mind: A Cybernetic Approach To Planetary Problems"
-url: "https://www.youtube.com/watch?v=3ekzHzRMjOk"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 45m 51s"
-has_transcript: no
-synopsis: "Ecology of Mind: A Cybernetic Approach To Planetary Problems by Essentia Foundation. A interview covering ecology, mind, cybernetic."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Ecology of Mind: A"
-  - "Ecology of Mind: A Cybernetic Approach"
----
-
 # Ecology of Mind: A Cybernetic Approach To Planetary Problems
 
 **Channel**: Essentia Foundation

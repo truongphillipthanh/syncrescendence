@@ -1,39 +1,3 @@
----
-id: SOURCE-20251201-965
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "china"
-  - "just"
-  - "popped"
-  - "america"
-  - "bubble"
-creator: "Wes Roth"
-guest: null
-title: "China Just Popped America's AI Bubble: Cyrus Janssen Reveals What Happens Next!"
-url: "https://www.youtube.com/watch?v=1Mw6-oyOFjM"
-date_published: 2025-12-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 38s"
-has_transcript: no
-synopsis: "China Just Popped America's AI Bubble: Cyrus Janssen Reveals What Happens Next! by Wes Roth. A interview covering china, just, popped."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "China Just Popped America's"
-  - "China Just Popped America's AI Bubble:"
----
-
 # China Just Popped America's AI Bubble: Cyrus Janssen Reveals What Happens Next!
 
 **Channel**: Wes Roth

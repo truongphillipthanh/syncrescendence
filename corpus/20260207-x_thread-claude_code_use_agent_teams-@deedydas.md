@@ -1,9 +1,3 @@
----
-url: https://x.com/deedydas/status/2020350881464742330
-author: @deedydas
-captured_date: 2026-02-14
----
-
 # Claude Code Thread Archive
 
 "Claude Code, use Agent Teams to explore the `claude` binary and tell me all the codenames and unreleased features"

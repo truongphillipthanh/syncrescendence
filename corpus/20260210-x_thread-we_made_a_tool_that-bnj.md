@@ -1,9 +1,3 @@
----
-url: https://x.com/bnj/status/2021330958671380625
-author: Ben South (@bnj)
-captured_date: 2026-02-14
----
-
 # Style Dropper Thread
 
 **Post 1 — Feb 10, 2026, 1:10 PM**

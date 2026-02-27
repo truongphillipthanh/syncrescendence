@@ -1,9 +1,3 @@
----
-url: https://x.com/alex_prompter/status/2018625586751820241
-author: Alex Prompter (@alex_prompter)
-captured_date: 2026-02-03
----
-
 # You Can Clone Anyone's Writing Voice Using Claude Sonnet 4.5
 
 You can clone anyone's writing voice using Claude Sonnet 4.5 easily.

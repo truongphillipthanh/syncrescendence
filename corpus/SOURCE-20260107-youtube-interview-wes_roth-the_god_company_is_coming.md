@@ -1,37 +1,3 @@
----
-id: SOURCE-20260107-602
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "god"
-  - "company"
-  - "coming"
-creator: "Wes Roth"
-guest: null
-title: "the "GOD" company is coming..."
-url: "https://www.youtube.com/watch?v=jbBi1dlAbaQ"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 51m 10s"
-has_transcript: no
-synopsis: "the "GOD" company is coming... by Wes Roth. A interview covering god, company, coming."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "the "GOD" company is"
-  - "the "GOD" company is coming..."
----
-
 # the "GOD" company is coming...
 
 **Channel**: Wes Roth

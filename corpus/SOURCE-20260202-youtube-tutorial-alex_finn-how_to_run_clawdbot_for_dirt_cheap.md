@@ -1,38 +1,3 @@
----
-id: SOURCE-20260202-201
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "run"
-  - "clawdbot"
-  - "dirt"
-  - "cheap"
-creator: "Alex Finn"
-guest: null
-title: "How to run ClawdBot for DIRT CHEAP"
-url: "https://www.youtube.com/watch?v=lxfakTpdz1Y"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 18s"
-has_transcript: no
-synopsis: "How to run ClawdBot for DIRT CHEAP by Alex Finn. A tutorial covering run, clawdbot, dirt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to run ClawdBot"
-  - "How to run ClawdBot for DIRT"
----
-
 # How to run ClawdBot for DIRT CHEAP
 
 **Channel**: Alex Finn

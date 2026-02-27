@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-681
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "state"
-  - "startups"
-  - "memory"
-  - "learning"
-  - "envs"
-creator: "Latent Space"
-guest: null
-title: "[State of AI Startups] Memory/Learning, RL Envs & DBT-Fivetran — Sarah Catanzaro, Amplify"
-url: "https://www.youtube.com/watch?v=LdVldygYE6I"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 43s"
-has_transcript: no
-synopsis: "[State of AI Startups] Memory/Learning, RL Envs & DBT-Fivetran — Sarah Catanzaro, Amplify by Latent Space. A lecture covering state, startups, memory."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "[State of AI Startups]"
-  - "[State of AI Startups] Memory/Learning, RL"
----
-
 # [State of AI Startups] Memory/Learning, RL Envs & DBT-Fivetran — Sarah Catanzaro, Amplify
 
 **Channel**: Latent Space

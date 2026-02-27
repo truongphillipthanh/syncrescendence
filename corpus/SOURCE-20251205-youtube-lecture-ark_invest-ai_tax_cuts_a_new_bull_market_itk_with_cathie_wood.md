@@ -1,39 +1,3 @@
----
-id: SOURCE-20251205-906
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "tax"
-  - "cuts"
-  - "new"
-  - "bull"
-  - "market"
-creator: "ARK Invest"
-guest: null
-title: "AI, Tax Cuts & A New Bull Market?| ITK With Cathie Wood"
-url: "https://www.youtube.com/watch?v=S0FHyju1iRs"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 13s"
-has_transcript: no
-synopsis: "AI, Tax Cuts & A New Bull Market?| ITK With Cathie Wood by ARK Invest. A lecture covering tax, cuts, new."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI, Tax Cuts &"
-  - "AI, Tax Cuts & A New"
----
-
 # AI, Tax Cuts & A New Bull Market?| ITK With Cathie Wood
 
 **Channel**: ARK Invest

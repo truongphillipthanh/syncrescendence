@@ -1,9 +1,3 @@
----
-url: https://x.com/thedankoe/status/2012956603297964167
-author: DAN KOE (@thedankoe)
-captured_date: 2026-01-18
----
-
 # Full Guide: How to Unlock Extreme Focus on Command
 
 You haven't experienced anything near what you're capable of.

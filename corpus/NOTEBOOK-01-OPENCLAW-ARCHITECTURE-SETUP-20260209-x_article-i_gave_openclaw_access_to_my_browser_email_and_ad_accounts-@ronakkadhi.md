@@ -1,9 +1,3 @@
----
-url: https://x.com/ronakkadhi/status/2020897035919176092
-author: Ronak Kadhi (@ronakkadhi)
-captured_date: 2026-02-09
----
-
 # I gave Openclaw access to my browser, email, and ad accounts. Here's what it does for me every week
 
 (Description: OpenClaw logo and branding banner featuring a red mascot character, tagline "THE AI THAT ACTUALLY DOES THINGS," and descriptive text: "Clean your inbox, send emails, manage your calendar, check you in for flights. All from WhatsApp, Telegram, or any chat app you already use." Badge indicates "OpenClaw Partners with Wealthfor for B2B Security")

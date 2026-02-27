@@ -1,16 +1,3 @@
----
-id: SOURCE-20251031-youtube-video-nopriors-best_of_2025
-title: "No Priors: The Best of 2025 (So Far)"
-creator: No Priors
-guest: Multiple (Winston Weinberg, Fei-Fei Li, Brendan Foody, Dan Hendrycks, Noubar Afeyan, OpenAI researchers, Arvind Jain, Shiv Rao)
-date_published: 2025-10-31
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-30000-INTELLIGENCE, CANON-33000-EXPERTISE]
----
-
 # No Priors: The Best of 2025 (So Far)
 
 ## Executive Summary

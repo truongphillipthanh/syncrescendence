@@ -1,34 +1,3 @@
----
-id: SOURCE-20251222-001
-title: "MLST: Categorical Deep Learning - From Alchemy to Science"
-platform: youtube
-format: interview
-creator: Machine Learning Street Talk
-date_published: 2025-12-22
-status: processed
-url: "https://www.youtube.com/watch?v=AWqvBdqCAAE"
-original_filename: processed/SOURCE-20251222-youtube-interview-mlst-categorical_deep_learning.md
-aliases:
-  - "MLST - Categorical Deep Learning"
-teleology: synthesize
-notebooklm_category: ai-engineering
-guest: Bruno Gavranovic (presumably)
-signal_tier: paradigm
-chain_relevance: Intelligence, Knowledge
-integration_targets: CANON-30000, CANON-30410, CANON-00016
-date_processed: 2026-01-05
-synopsis: "Framework arguing deep learning is in its alchemy phase and needs category theory to become systematic science. Demonstrates LLMs fundamentally cannot perform addition. Proposes categorical deep learning as principled Lego-like approach to neural architecture design recovering geometric deep learning as special case."
-key_insights:
-  - "LLMs fundamentally cannot do addition: they learn patterns that work most of the time but fail when computational structure matters, performing billions of multiplications yet unable to reliably multiply small numbers"
-  - "Category theory provides the systematic framework to move deep learning from alchemy to science: a Lego-like approach to building neural architectures for specific tasks"
-  - "The carry operation in arithmetic is fundamentally at odds with how graph neural networks work, pointing toward how to build actual CPUs in neural networks"
-topics:
-  - "llm-architecture"
-  - "ai-engineering"
-  - "research"
-  - "framework"
----
-
 # MLST: Categorical Deep Learning - From Alchemy to Science
 
 ## Executive Summary

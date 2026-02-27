@@ -1,9 +1,3 @@
----
-url: "https://x.com/Jacobsklug/status/2021665138592321799"
-author: "Jacob Klug (@Jacobsklug)"
-captured_date: "2026-02-13"
----
-
 # How to Become AI-Proof
 
 *Don't let AI control you. Control it first.*

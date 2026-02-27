@@ -1,16 +1,3 @@
----
-id: SOURCE-20251031-youtube-interview-jre-elon_musk
-title: "JRE #2404: Elon Musk - Civilization, Technology, and AI Future"
-creator: Joe Rogan
-guest: Elon Musk
-date_published: 2025-10-31
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence, Information, Expertise
-integration_targets: CANON-00015, CANON-30300, CANON-30400
----
-
 # JRE #2404: Elon Musk on Civilization, Technology, and AI Future
 
 ## Executive Summary

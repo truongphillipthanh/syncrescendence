@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-493
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "watched"
-  - "brain"
-  - "emerge"
-  - "might"
-  - "kill"
-creator: "The Neuron"
-guest: null
-title: "We Watched a Brain Emerge..." The AI That Might Kill Transformers (w/ Pathway's Zuzanna Stamirowska)"
-url: "https://www.youtube.com/watch?v=duw7RUif8hE"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "48m 51s"
-has_transcript: no
-synopsis: "We Watched a Brain Emerge..." The AI That Might Kill Transformers (w/ Pathway's Zuzanna Stamirowska) by The Neuron. A interview covering watched, brain, emerge."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "We Watched a Brain"
-  - "We Watched a Brain Emerge..." The"
----
-
 # We Watched a Brain Emerge..." The AI That Might Kill Transformers (w/ Pathway's Zuzanna Stamirowska)
 
 **Channel**: The Neuron

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251209-881
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "prompting"
-  - "habit"
-  - "saves"
-  - "hours"
-  - "week"
-creator: "Dylan Davis"
-guest: null
-title: "The AI Prompting Habit That Saves Me 10+ Hours a Week"
-url: "https://www.youtube.com/watch?v=eSazjse0GrA"
-date_published: 2025-12-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 52s"
-has_transcript: no
-synopsis: "The AI Prompting Habit That Saves Me 10+ Hours a Week by Dylan Davis. A lecture covering prompting, habit, saves."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: prompt-engineering
-aliases:
-  - "The AI Prompting Habit"
-  - "The AI Prompting Habit That Saves"
----
-
 # The AI Prompting Habit That Saves Me 10+ Hours a Week
 
 **Channel**: Dylan Davis

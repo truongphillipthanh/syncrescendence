@@ -1,16 +1,3 @@
----
-id: SOURCE-20251222-youtube-interview-mlst-categorical_deep_learning
-title: "MLST: Categorical Deep Learning - From Alchemy to Science"
-creator: Machine Learning Street Talk
-guest: Bruno Gavranovic (presumably)
-date_published: 2025-12-22
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence, Knowledge
-integration_targets: CANON-30000, CANON-30410, CANON-00016
----
-
 # MLST: Categorical Deep Learning - From Alchemy to Science
 
 ## Executive Summary

@@ -1,9 +1,3 @@
----
-url: https://x.com/dani_avila7/status/2020170608290549906
-author: Daniel San (@dani_avila7)
-captured_date: 2026-02-13
----
-
 # Agent Teams in Claude Code
 
 I've been running Claude Code's Agent Teams for real work. It's experimental, but already useful if you understand how agents coordinate and how file edits are controlled.

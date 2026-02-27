@@ -1,31 +1,3 @@
----
-url: https://voicebox.sh/
-title: Voicebox - Open Source Voice Cloning Desktop App Powered by Qwen3-TTS
-domain: voicebox.sh
-captured_date: 2026-02-20
-content_type: landing
-id: SOURCE-undated-004
-original_filename: undated-website-voicebox_open_source_voice_cloning_powered--voicebox.md
-status: triaged
-platform: website
-format: article
-creator: voicebox
-signal_tier: tactical
-topics:
-  - git
-  - extended-thinking
-  - open-source
-  - python
-teleology: reference
-notebooklm_category: ai-creative-media
-aliases:
-  - "Voicebox  Open Source Voice Cloning Desktop App Powered by Qwen3TTS"
-synopsis: "Voicebox (Image: Voicebox application logo featuring a golden vintage microphone on a dark rounded square background. Alt text: "Voicebox Logo".) Open source voice cloning powered by Qwen3-TTS. Create natural-sounding speech from text with near-perfect voice replication."
-key_insights:
-  - "Voicebox (Image: Voicebox application logo featuring a golden vintage microphone on a dark rounded square background."
-  - "Alt text: "Voicebox Logo".) Open source voice cloning powered by Qwen3-TTS."
-  - "Create natural-sounding speech from text with near-perfect voice replication."
----
 # Voicebox
 (Image: Voicebox application logo featuring a golden vintage microphone on a dark rounded square background. Alt text: "Voicebox Logo".)
 Open source voice cloning powered by Qwen3-TTS. Create natural-sounding speech from text with near-perfect voice replication.

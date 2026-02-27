@@ -1,39 +1,3 @@
----
-id: SOURCE-20240607-600
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "masters"
-  - "slaves"
-  - "nietzsche"
-  - "genealogy"
-  - "morality"
-creator: "Johnathan Bi"
-guest: null
-title: "Masters vs. Slaves | Nietzsche's Genealogy of Morality Explained"
-url: "https://www.youtube.com/watch?v=M0w2eQ-FcEA"
-date_published: 2024-06-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 36m 24s"
-has_transcript: no
-synopsis: "Masters vs. Slaves | Nietzsche's Genealogy of Morality Explained by Johnathan Bi. A interview covering masters, slaves, nietzsche."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Masters vs. Slaves |"
-  - "Masters vs. Slaves | Nietzsche's Genealogy"
----
-
 # Masters vs. Slaves | Nietzsche's Genealogy of Morality Explained
 
 **Channel**: Johnathan Bi

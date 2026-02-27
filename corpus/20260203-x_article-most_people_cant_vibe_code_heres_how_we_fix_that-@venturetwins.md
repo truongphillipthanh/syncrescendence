@@ -1,9 +1,3 @@
----
-url: https://x.com/venturetwins/status/2018728397573398608
-author: Justine Moore (@venturetwins)
-captured_date: 2026-02-03
----
-
 # Most People Can't Vibe Code. Here's How We Fix That
 
 (Description: Hero image showing a person sitting on a mountain cliff at sunset/sunrise using a laptop, with abstract digital data visualization overlaid in the sky. Title text reads "Most People Can't Vibe Code. Here's How We Fix That" with author credit to Justine Moore.)

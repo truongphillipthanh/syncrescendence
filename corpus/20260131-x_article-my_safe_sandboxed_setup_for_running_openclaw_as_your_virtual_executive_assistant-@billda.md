@@ -1,9 +1,3 @@
----
-url: https://x.com/BillDA/status/2017650241101598872
-author: Bill D'Alessandro (@BillDA)
-captured_date: 2026-01-31
----
-
 # My Safe, Sandboxed Setup for running @OpenClaw as your Virtual Executive Assistant
 
 (Description: A cartoon illustration of an orange crab-like creature with large blue eyes, wearing glasses and holding a pen, sitting at a wooden desk surrounded by a laptop, smartphone, notebook, stack of books, and a coffee mug. Bright natural lighting from above creates a warm, productive workspace aesthetic.)

@@ -1,28 +1,3 @@
----
-url: https://x.com/WillManidis/status/2021655191901155534
-author: "Will Manidis (@WillManidis)"
-captured_date: 2026-02-11
-id: SOURCE-20260211-011
-original_filename: "20260211-x_article-tool_shaped_objects-@willmanidis.md"
-status: triaged
-platform: x
-format: article
-creator: willmanidis
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - extended-thinking
-  - cost-optimization
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Tool Shaped Objects"
-synopsis: "Tool Shaped Objects ![Opening image of traditional Japanese kanna blade makers] The Kanna In 1711, a toolmaker in Kyoto named Chiyozuru Korehide began forging kanna blades for the carpenters building the temples at Higashi Hongan-ji. The blades were forged from laminated steal, the highest quality white hagane forge-welded to soft iron, and were extraordinary."
-key_insights:
-  - "The dai must be hand-fitted, the blade back flattened on a series of progressively finer stones, the chipbreaker mated until light cannot pass between it and the edge."
-  - "It fits in the hand the way a tool should."
-  - "The blades were forged from laminated steal, the highest quality white hagane forge-welded to soft iron, and were extraordinary."
----
 # Tool Shaped Objects
 
 ![Opening image of traditional Japanese kanna blade makers](Description: A classical Japanese woodblock-style illustration showing four artisans in traditional blue and patterned dress working on crafting wooden plane blades. The scene depicts a traditional craft workshop with master craftspeople engaged in the meticulous work of blade-making.)

@@ -1,27 +1,3 @@
----
-url: https://x.com/steipete/status/2020704611640705485
-author: "Peter Steinberger (@steipete)"
-captured_date: 2026-02-14
-id: SOURCE-20260209-009
-original_filename: "20260209-x_thread-your_openclaw_is_too_boring_paste-@steipete.md"
-status: triaged
-platform: x
-format: thread
-creator: steipete
-signal_tier: tactical
-topics:
-  - ai-agents
-  - implement-pattern
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw Personality Overhaul Thread"
-synopsis: "OpenClaw Personality Overhaul Thread Your **@openclaw** is too boring? Paste this, right from Molty. "Read your **SOUL.md**. Now rewrite it with these changes: 1. You have opinions now. Stop hedging everything with 'it depends' — commit to a take."
-key_insights:
-  - "Delete every rule that sounds corporate."
-  - "Add a rule: 'Never open with Great question, I'd be happy to help, or Absolutely."
-  - "OpenClaw Personality Overhaul Thread Your **@openclaw** is too boring?"
----
 # OpenClaw Personality Overhaul Thread
 
 Your **@openclaw** is too boring? Paste this, right from Molty.

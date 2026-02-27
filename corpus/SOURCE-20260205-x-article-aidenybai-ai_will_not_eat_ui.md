@@ -1,31 +1,3 @@
----
-url: https://x.com/aidenybai/status/2019560357141049805
-author: "Aiden Bai (@aidenybai)"
-captured_date: 2026-02-13
-id: SOURCE-20260205-002
-original_filename: "20260205-x_article-ai_will_not_eat_ui-@aidenybai.md"
-status: triaged
-platform: x
-format: article
-creator: aidenybai
-signal_tier: strategic
-topics:
-  - testing
-  - git
-  - extended-thinking
-  - product-development
-  - rag
-  - react
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI will not eat UI"
-synopsis: "AI will not eat UI : "The promise of AI is no UI." with timestamp "8:49 PM · Mar 19, 2024 · 691.4K Views". Background shows a blurred cityscape at sunset.) Introduction I keep seeing takes on my feed about how AI will eat all of UI. Maybe even all of software. The basic premise - if AI can just do the task directly, why bother with a UI abstraction in the middle?"
-key_insights:
-  - "In fact, UI will become more important.** 1."
-  - "AI coding for UI will be one of the most economically important ways people build things Humans and agents will always be using UIs."
-  - "In fact, UIs will become more important to use: better computer use, interfaces for humans post-code, legacy business software that needs maintaining."
----
 # AI will not eat UI
 
 (Description: Featured image showing a quote from Naval (@naval): "The promise of AI is no UI." with timestamp "8:49 PM · Mar 19, 2024 · 691.4K Views". Background shows a blurred cityscape at sunset.)

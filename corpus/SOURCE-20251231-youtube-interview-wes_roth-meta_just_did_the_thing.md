@@ -1,37 +1,3 @@
----
-id: SOURCE-20251231-678
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "meta"
-  - "just"
-  - "thing"
-creator: "Wes Roth"
-guest: null
-title: "Meta just did the thing"
-url: "https://www.youtube.com/watch?v=XxsDlctCS1Y"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 45s"
-has_transcript: no
-synopsis: "Meta just did the thing by Wes Roth. A interview covering meta, just, thing."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Meta just did the"
-  - "Meta just did the thing"
----
-
 # Meta just did the thing
 
 **Channel**: Wes Roth

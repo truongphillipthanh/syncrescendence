@@ -1,39 +1,3 @@
----
-id: SOURCE-20260130-240
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "new"
-  - "open"
-  - "source"
-  - "model"
-  - "wild"
-creator: "AI Search"
-guest: null
-title: "New #1 open-source AI model is WILD"
-url: "https://www.youtube.com/watch?v=F-ANHe_hr9w"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 22s"
-has_transcript: no
-synopsis: "New #1 open-source AI model is WILD by AI Search. A tutorial covering new, open, source."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "New #1 open-source AI"
-  - "New #1 open-source AI model is"
----
-
 # New #1 open-source AI model is WILD
 
 **Channel**: AI Search

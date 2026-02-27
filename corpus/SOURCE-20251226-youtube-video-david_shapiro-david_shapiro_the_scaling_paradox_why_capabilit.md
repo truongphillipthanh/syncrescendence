@@ -1,34 +1,3 @@
----
-id: SOURCE-20251226-001
-title: "David Shapiro: The Scaling Paradox - Why Capabilities Accelerate Despite Diminishing Returns"
-platform: youtube
-format: video
-creator: David Shapiro
-date_published: 2025-12-26
-status: processed
-url: "https://www.youtube.com/watch?v=jKM_5A8-oKg"
-original_filename: processed/SOURCE-20251226-youtube-video-dshapiro-scaling_paradox.md
-aliases:
-  - "Shapiro - Scaling Paradox"
-teleology: contextualize
-notebooklm_category: ai-engineering
-guest: null
-signal_tier: strategic
-chain_relevance: Intelligence
-integration_targets: CANON-30000, CANON-00004, CANON-30400
-date_processed: 2026-01-05
-synopsis: "Resolves the apparent contradiction between scaling hitting a wall and AI capabilities accelerating. Diminishing returns on vanilla pre-training does not imply diminishing returns on the overall capability frontier, which advances through multiple simultaneous vectors: test-time compute, architectural innovations, agent scaffolding, and post-training improvements."
-key_insights:
-  - "Machine autonomy task length has been doubling every 7 months for 6 years, recently accelerating to every 4 months: capabilities are genuinely accelerating"
-  - "ARC-AGI took 4 years to go from 0% to 5% then only months to reach near saturation, forcing researchers to release harder benchmarks"
-  - "The paradox resolves by recognizing multiple simultaneous scaling vectors: test-time compute, architectural innovations, agent scaffolding, post-training, and better recipes"
-topics:
-  - "ai-engineering"
-  - "llm-architecture"
-  - "research"
-  - "framework"
----
-
 # The Scaling Paradox: Why AI Capabilities Accelerate Despite Diminishing Returns
 
 ## Executive Summary

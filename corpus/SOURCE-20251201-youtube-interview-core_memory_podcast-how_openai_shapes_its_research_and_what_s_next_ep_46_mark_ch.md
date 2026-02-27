@@ -1,39 +1,3 @@
----
-id: SOURCE-20251201-717
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "shapes"
-  - "research"
-  - "next"
-  - "mark"
-creator: "Core Memory Podcast"
-guest: null
-title: "How OpenAI Shapes Its Research And What's Next - EP 46 Mark Chen"
-url: "https://www.youtube.com/watch?v=ZeyHBM2Y5_4"
-date_published: 2025-12-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 38m 18s"
-has_transcript: no
-synopsis: "How OpenAI Shapes Its Research And What's Next - EP 46 Mark Chen by Core Memory Podcast. A interview covering openai, shapes, research."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "How OpenAI Shapes Its"
-  - "How OpenAI Shapes Its Research And"
----
-
 # How OpenAI Shapes Its Research And What's Next - EP 46 Mark Chen
 
 **Channel**: Core Memory Podcast

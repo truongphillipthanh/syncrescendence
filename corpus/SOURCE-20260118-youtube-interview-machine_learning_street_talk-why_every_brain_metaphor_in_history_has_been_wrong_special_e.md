@@ -1,39 +1,3 @@
----
-id: SOURCE-20260118-396
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "brain"
-  - "metaphor"
-  - "history"
-  - "wrong"
-  - "special"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "Why Every Brain Metaphor in History Has Been Wrong [SPECIAL EDITION]"
-url: "https://www.youtube.com/watch?v=pO0WZsN8Oiw"
-date_published: 2026-01-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "42m 5s"
-has_transcript: no
-synopsis: "Why Every Brain Metaphor in History Has Been Wrong [SPECIAL EDITION] by Machine Learning Street Talk. A interview covering brain, metaphor, history."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Why Every Brain Metaphor"
-  - "Why Every Brain Metaphor in History"
----
-
 # Why Every Brain Metaphor in History Has Been Wrong [SPECIAL EDITION]
 
 **Channel**: Machine Learning Street Talk

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-018
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "news"
-  - "new"
-  - "models"
-  - "dropped"
-  - "week"
-creator: "Matt Wolfe"
-guest: null
-title: "AI News: 5 New Models Dropped This Week!"
-url: "https://www.youtube.com/watch?v=5cMZqjrgq6Y"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 6s"
-has_transcript: no
-synopsis: "AI News: 5 New Models Dropped This Week! by Matt Wolfe. A lecture covering news, new, models."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI News: 5 New"
-  - "AI News: 5 New Models Dropped"
----
-
 # AI News: 5 New Models Dropped This Week!
 
 **Channel**: Matt Wolfe

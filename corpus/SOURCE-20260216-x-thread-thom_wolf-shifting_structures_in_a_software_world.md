@@ -1,24 +1,3 @@
----
-url: https://x.com/Thom_Wolf/status/2023387043967959138
-author: "Thomas Wolf (@Thom_Wolf)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-028
-original_filename: "20260216-x_thread-shifting_structures_in_a_software_world-@thom_wolf.md"
-status: triaged
-platform: x
-format: thread
-creator: thom_wolf
-signal_tier: paradigm
-topics: [ai-engineering, llm-architecture, developer-tools, philosophy]
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases: ["thom_wolf - shifting software structures under AI"]
-synopsis: "Thomas Wolf (HuggingFace) argues AI-dominated software development brings: return of monoliths (cheap rewriting kills dependency trees), end of Lindy effect (legacy code loses its moat), rise of strongly typed languages (formal verification over human ergonomics), restructuring of open source (human motivations break down when AI writes/reads code), and divergence toward LLM-optimal languages."
-key_insights:
-  - "When rewriting code becomes cheap, dependency trees collapse - monoliths return with smaller attack surface and better performance"
-  - "Formal verification becomes essential, not optional - unknown unknowns persist even when AI can explore any codebase"
-  - "Open source restructures: communities of AIs building libraries together will lack human motivations, making alignment decisive"
----
 # Shifting Structures in a Software World Dominated by AI
 Shifting structures in a software world dominated by AI. Some first-order reflections (TL;DR at the end):
 ## **Reducing software supply chains, the return of software monoliths**

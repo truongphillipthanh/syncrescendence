@@ -1,29 +1,3 @@
----
-url: https://x.com/zain_hoda/status/2019049069134417975
-author: "Zain Hoda (@zain_hoda)"
-captured_date: 2026-02-13
-id: SOURCE-20260204-013
-original_filename: "20260204-x_article-the_agent_will_eat_your_system_of_record-@zain_hoda.md"
-status: triaged
-platform: x
-format: article
-creator: zain_hoda
-signal_tier: strategic
-topics:
-  - ai-agents
-  - ai-workflow
-  - context-management
-  - api
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "The Agent Will Eat Your System of Record"
-synopsis: "The Agent Will Eat Your System of Record There's a term in enterprise software called "system of record." It refers to the authoritative source of a particular type of data. Salesforce is your system of record for customer data. Workday is your system of record for employee data. NetSuite is your system of record for financial data."
-key_insights:
-  - "The Agent Will Eat Your System of Record There's a term in enterprise software called "system of record." It refers to the authoritative source of a particular type of data."
-  - "Salesforce is your system of record for customer data."
-  - "Workday is your system of record for employee data."
----
 # The Agent Will Eat Your System of Record
 
 (Description: A diagram showing three connected boxes. Left box labeled "System of Record" with a database icon, connected via arrow labeled "Slow, Rate-limited API" to a center box labeled "AI Agent" in green, which connects to a right box labeled "SoR Cache" in blue with two-way arrows labeled "Fast, Unlimited API".)

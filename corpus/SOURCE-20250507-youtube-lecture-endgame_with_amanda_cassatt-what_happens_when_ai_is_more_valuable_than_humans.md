@@ -1,39 +1,3 @@
----
-id: SOURCE-20250507-1134
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "happens"
-  - "more"
-  - "valuable"
-  - "than"
-  - "humans"
-creator: "Endgame with Amanda Cassatt"
-guest: null
-title: "What Happens When AI Is More Valuable Than Humans?"
-url: "https://www.youtube.com/watch?v=mFE-Frsi6Uw"
-date_published: 2025-05-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 9m 49s"
-has_transcript: no
-synopsis: "What Happens When AI Is More Valuable Than Humans? by Endgame with Amanda Cassatt. A lecture covering happens, more, valuable."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "What Happens When AI"
-  - "What Happens When AI Is More"
----
-
 # What Happens When AI Is More Valuable Than Humans?
 
 **Channel**: Endgame with Amanda Cassatt

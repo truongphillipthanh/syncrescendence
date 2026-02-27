@@ -1,38 +1,3 @@
----
-id: SOURCE-20260109-554
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "absolutely"
-  - "need"
-  - "know"
-  - "2026"
-creator: "The AI Advantage"
-guest: null
-title: "What You Absolutely NEED to Know About AI in 2026"
-url: "https://www.youtube.com/watch?v=K0UwutA4utA"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 26s"
-has_transcript: no
-synopsis: "What You Absolutely NEED to Know About AI in 2026 by The AI Advantage. A lecture covering absolutely, need, know."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "What You Absolutely NEED"
-  - "What You Absolutely NEED to Know"
----
-
 # What You Absolutely NEED to Know About AI in 2026
 
 **Channel**: The AI Advantage

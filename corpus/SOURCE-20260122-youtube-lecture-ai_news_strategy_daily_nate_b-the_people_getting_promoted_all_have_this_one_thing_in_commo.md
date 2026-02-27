@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-384
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "people"
-  - "getting"
-  - "promoted"
-  - "one"
-  - "thing"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The People Getting Promoted All Have This One Thing in Common (AI Is Supercharging this Mindset)"
-url: "https://www.youtube.com/watch?v=HZ9iL_lFYgQ"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 7s"
-has_transcript: no
-synopsis: "The People Getting Promoted All Have This One Thing in Common (AI Is Supercharging this Mindset) by AI News & Strategy Daily | Nate B Jones. A lecture covering people, getting, promoted."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The People Getting Promoted"
-  - "The People Getting Promoted All Have"
----
-
 # The People Getting Promoted All Have This One Thing in Common (AI Is Supercharging this Mindset)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

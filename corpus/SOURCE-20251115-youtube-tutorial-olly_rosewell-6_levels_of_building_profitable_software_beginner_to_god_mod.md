@@ -1,39 +1,3 @@
----
-id: SOURCE-20251115-1097
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "levels"
-  - "building"
-  - "profitable"
-  - "software"
-  - "beginner"
-creator: "Olly Rosewell"
-guest: null
-title: "6 Levels of Building PROFITABLE Software (beginner to god mode)"
-url: "https://www.youtube.com/watch?v=8oYc6ogRFwI"
-date_published: 2025-11-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 50s"
-has_transcript: no
-synopsis: "6 Levels of Building PROFITABLE Software (beginner to god mode) by Olly Rosewell. A tutorial covering levels, building, profitable."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "6 Levels of Building"
-  - "6 Levels of Building PROFITABLE Software"
----
-
 # 6 Levels of Building PROFITABLE Software (beginner to god mode)
 
 **Channel**: Olly Rosewell

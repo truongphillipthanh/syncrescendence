@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-202
-topic: DC-202 Engine Deep Inspection — Session 4 (PROMPT + PROTO + IIC files, verdicts 73–98)
-status: unprocessed
-collected: 2026-02-23
----
-
 **Resuming DC-202, session S4.**
 Files completed: 73/147. Picking up from: PROMPT + PROTO + IIC.  
 

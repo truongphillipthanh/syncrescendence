@@ -1,32 +1,3 @@
----
-url: https://x.com/minchoi/status/2015457223372087467
-author: "Min Choi (@minchoi)"
-captured_date: 2026-01-25
-id: SOURCE-20260125-003
-original_filename: "20260125-x_thread-ok_clawdbot_is_insane_people-@minchoi.md"
-status: triaged
-platform: x
-format: thread
-creator: minchoi
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - testing
-  - deployment
-  - git
-  - cost-optimization
-  - terminal
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "ClawdBot Thread 10 Wild Examples  NoCode Setup Guide"
-synopsis: "ClawdBot Thread: 10 Wild Examples + No-Code Setup Guide Post 1: Main Thread Introduction Ok Clawdbot is insane. People can't stop building and founders are making money with it. 10 wild examples + how to setup (No-code required guide in ~30 minutes). Bookmark this 👇 - Hetzner + 24/7 time - AWS Free Tier works great SELECT GROWTH SEARCH "FIRST" (e.g., 12 more GPU) CONNECT / Look like a terminal."
-key_insights:
-  - "YOUR ASSISTANT IS ALIVE!) --- Post 2: The Most Important Video You'll Watch This Year 1."
-  - "The most important video you'll watch this year --- Post 3: Deploying Clawdbot in Under 5 Minutes on AWS Free Tier 2."
-  - "ClawdBot Thread: 10 Wild Examples + No-Code Setup Guide Post 1: Main Thread Introduction Ok Clawdbot is insane."
----
 # ClawdBot Thread: 10 Wild Examples + No-Code Setup Guide
 
 ## Post 1: Main Thread Introduction

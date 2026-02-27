@@ -1,9 +1,3 @@
----
-url: https://x.com/honchodotdev/status/2018701610596098435
-author: Honcho (@honchodotdev)
-captured_date: 2026-02-13
----
-
 # OpenClaw + Honcho: Memory That Reasons for OpenClaw
 
 ![Hero image showing integration](Description: Landscape image on a light blue textured background featuring three elements arranged horizontally: on the left, a pixelated black and white circuit-board-style character with a friendly expression; in the center, a large black letter X; on the right, a red rounded blob-like character with antenna, two circular eyes, and small rectangular feet.)

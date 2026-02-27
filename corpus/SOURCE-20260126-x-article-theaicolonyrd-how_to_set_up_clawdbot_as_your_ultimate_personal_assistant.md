@@ -1,31 +1,3 @@
----
-url: https://x.com/TheAIColonyRD/status/2015775367277977989
-author: "The AI Colony R&D (@TheAIColonyRD)"
-captured_date: 2026-01-26
-id: SOURCE-20260126-010
-original_filename: "20260126-x_article-how_to_set_up_clawdbot_as_your_ultimate_personal_assistant-@theaicolonyrd.md"
-status: triaged
-platform: x
-format: article
-creator: theaicolonyrd
-signal_tier: tactical
-topics:
-  - ai-agents
-  - memory-management
-  - extended-thinking
-  - gpt
-  - react
-  - clawdbot
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How to Set Up Clawdbot as Your Ultimate Personal Assistant"
-synopsis: "How to Set Up Clawdbot as Your Ultimate Personal Assistant Most people think they are using AI efficiently because they ask good questions. In reality, asking questions is the lowest level of interaction you can have with artificial intelligence. Tools like ChatGPT and Claude are impressive, but they are still reactive by design."
-key_insights:
-  - "Clawdbot exists to change that pattern entirely."
-  - "How to Set Up Clawdbot as Your Ultimate Personal Assistant Most people think they are using AI efficiently because they ask good questions."
-  - "In reality, asking questions is the lowest level of interaction you can have with artificial intelligence."
----
 # How to Set Up Clawdbot as Your Ultimate Personal Assistant
 
 (Description: ASCII-art pixel logo spelling "CLAWBOT" in white blocky letters with "FRESH DAILY" tagline beneath in orange text. Below this is a terminal-style info box with orange "Clawbot onboarding" label, green Security section header, and monospace gray text containing security documentation link and permissions description.)

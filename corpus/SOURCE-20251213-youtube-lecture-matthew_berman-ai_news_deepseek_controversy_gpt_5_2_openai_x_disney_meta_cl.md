@@ -1,39 +1,3 @@
----
-id: SOURCE-20251213-854
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "news"
-  - "deepseek"
-  - "controversy"
-  - "gpt"
-  - "openai"
-creator: "Matthew Berman"
-guest: null
-title: "AI News: Deepseek Controversy, GPT-5.2, OpenAI x Disney, Meta Closed-Source and more!"
-url: "https://www.youtube.com/watch?v=IHwt6UxiKOw"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 1s"
-has_transcript: no
-synopsis: "AI News: Deepseek Controversy, GPT-5.2, OpenAI x Disney, Meta Closed-Source and more! by Matthew Berman. A lecture covering news, deepseek, controversy."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "AI News: Deepseek Controversy,"
-  - "AI News: Deepseek Controversy, GPT-5.2, OpenAI"
----
-
 # AI News: Deepseek Controversy, GPT-5.2, OpenAI x Disney, Meta Closed-Source and more!
 
 **Channel**: Matthew Berman

@@ -1,9 +1,3 @@
----
-url: https://x.com/DoktorMoose/status/2019913523229536677
-author: Mustafa Akben, PhD (@DoktorMoose)
-captured_date: 2026-02-14
----
-
 # Claude Code & Codex Plugin Thread
 
 ## Post 1: February 6, 2026 - 3:18 PM

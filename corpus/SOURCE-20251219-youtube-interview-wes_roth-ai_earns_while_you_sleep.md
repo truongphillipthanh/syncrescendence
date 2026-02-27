@@ -1,37 +1,3 @@
----
-id: SOURCE-20251219-805
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "earns"
-  - "while"
-  - "sleep"
-creator: "Wes Roth"
-guest: null
-title: "AI earns while you sleep"
-url: "https://www.youtube.com/watch?v=ivxVIdyY_Jc"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38m 57s"
-has_transcript: no
-synopsis: "AI earns while you sleep by Wes Roth. A interview covering earns, while, sleep."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI earns while you"
-  - "AI earns while you sleep"
----
-
 # AI earns while you sleep
 
 **Channel**: Wes Roth

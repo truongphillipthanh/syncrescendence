@@ -1,38 +1,3 @@
----
-id: SOURCE-20260114-486
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stop"
-  - "trying"
-  - "work"
-  - "harder"
-creator: "HealthyGamerGG"
-guest: null
-title: "Stop Trying To Work Harder"
-url: "https://www.youtube.com/watch?v=SiFlnf--5EA"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 1s"
-has_transcript: no
-synopsis: "Stop Trying To Work Harder by HealthyGamerGG. A tutorial covering stop, trying, work."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Stop Trying To Work"
-  - "Stop Trying To Work Harder"
----
-
 # Stop Trying To Work Harder
 
 **Channel**: HealthyGamerGG

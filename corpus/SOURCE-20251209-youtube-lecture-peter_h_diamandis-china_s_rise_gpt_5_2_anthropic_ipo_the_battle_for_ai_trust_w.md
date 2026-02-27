@@ -1,39 +1,3 @@
----
-id: SOURCE-20251209-887
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "china"
-  - "rise"
-  - "gpt"
-  - "anthropic"
-  - "ipo"
-creator: "Peter H. Diamandis"
-guest: null
-title: "China's Rise, GPT-5.2, Anthropic IPO & the Battle for AI Trust w/ Emad, Salim, Dave & AWG | EP #214"
-url: "https://www.youtube.com/watch?v=zGD5mv-XKU0"
-date_published: 2025-12-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 59m 44s"
-has_transcript: no
-synopsis: "China's Rise, GPT-5.2, Anthropic IPO & the Battle for AI Trust w/ Emad, Salim, Dave & AWG | EP #214 by Peter H. Diamandis. A lecture covering china, rise, gpt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "China's Rise, GPT-5.2, Anthropic"
-  - "China's Rise, GPT-5.2, Anthropic IPO &"
----
-
 # China's Rise, GPT-5.2, Anthropic IPO & the Battle for AI Trust w/ Emad, Salim, Dave & AWG | EP #214
 
 **Channel**: Peter H. Diamandis

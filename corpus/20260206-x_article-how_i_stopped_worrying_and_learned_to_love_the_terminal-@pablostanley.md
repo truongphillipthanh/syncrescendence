@@ -1,9 +1,3 @@
----
-url: https://x.com/pablostanley/status/2019813770336620560
-author: Pablo Stanley (@pablostanley)
-captured_date: 2026-02-13
----
-
 # How I Stopped Worrying and Learned to Love the Terminal
 
 I'm a designer. For years, my world has been Figma, Sketch, Adobe. Nice GUIs with buttons and panels and things I could click. The terminal? That was a black rectangle where the dev team did hacker things. No buttons. No UI. Just a blinking cursor judging you for not knowing what `ls -la` meant.

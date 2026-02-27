@@ -1,9 +1,3 @@
----
-url: https://x.com/pradeep24/status/2021319785947316490
-author: pradeep (@pradeep24)
-captured_date: 2026-02-10
----
-
 # camofox-browser - A openclaw browser that doesn't get blocked
 
 (Description: A red fox character with golden eyes, facing forward, with white chest markings. Text reads "camofox-browser / An OpenClaw browser that doesn't get blocked" with tagline "C++ anti-detection · element refs · search macros")

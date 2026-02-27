@@ -1,37 +1,3 @@
----
-id: SOURCE-20260205-165
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "don"
-  - "prompt"
-  - "let"
-creator: "Dylan Davis"
-guest: null
-title: "Don’t Prompt AI. Let It Prompt You."
-url: "https://www.youtube.com/watch?v=lxxcSxSAaec"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 24s"
-has_transcript: no
-synopsis: "Don’t Prompt AI. Let It Prompt You. by Dylan Davis. A lecture covering don, prompt, let."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: prompt-engineering
-aliases:
-  - "Don’t Prompt AI. Let"
-  - "Don’t Prompt AI. Let It Prompt"
----
-
 # Don’t Prompt AI. Let It Prompt You.
 
 **Channel**: Dylan Davis

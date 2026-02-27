@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-766
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "vibe"
-  - "check"
-  - "actual"
-  - "bottleneck"
-  - "research"
-creator: "Unsupervised Learning: Redpoint's AI Podcast"
-guest: null
-title: "AI Vibe Check: The Actual Bottleneck In Research, SSI’s Mystique, & Spicy 2026 Predictions"
-url: "https://www.youtube.com/watch?v=DnCD8oFUM4M"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 18m 5s"
-has_transcript: no
-synopsis: "AI Vibe Check: The Actual Bottleneck In Research, SSI’s Mystique, & Spicy 2026 Predictions by Unsupervised Learning: Redpoint's AI Podcast. A lecture covering vibe, check, actual."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Vibe Check: The"
-  - "AI Vibe Check: The Actual Bottleneck"
----
-
 # AI Vibe Check: The Actual Bottleneck In Research, SSI’s Mystique, & Spicy 2026 Predictions
 
 **Channel**: Unsupervised Learning: Redpoint's AI Podcast

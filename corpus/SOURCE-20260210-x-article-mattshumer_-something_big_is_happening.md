@@ -1,29 +1,3 @@
----
-url: https://x.com/mattshumer_/status/2021256989876109403
-author: "Matt Shumer (@mattshumer_)"
-captured_date: 2026-02-10
-id: SOURCE-20260210-003
-original_filename: "20260210-x_article-something_big_is_happening-@mattshumer_.md"
-status: triaged
-platform: x
-format: article
-creator: mattshumer_
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - openai
-  - anthropic
-  - startup
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Something Big Is Happening"
-synopsis: "Something Big Is Happening ![Something Big Is Happening](image) Opening Think back to February 2020. If you were paying close attention, you might have noticed a few people talking about a virus spreading overseas. But most of us weren't paying close attention. The stock market was doing great, your kids were in school, you were going to restaurants and shaking hands and planning trips."
-key_insights:
-  - "I should be clear about something up front: even though I work in AI, I have almost no influence over what's about to happen, and neither does the vast majority of the industry."
-  - "Not in an "eventually we should talk about this" way."
-  - "Something Big Is Happening ![Something Big Is Happening](image) Opening Think back to February 2020."
----
 # Something Big Is Happening
 
 ![Something Big Is Happening](image) (Description: A photograph of two hands holding a white notecard with handwritten text reading "Something Big Is Happening". The scene is set on a desk with a coffee cup visible on the left side and a smartphone blurred in the background. The lighting is natural and warm.)

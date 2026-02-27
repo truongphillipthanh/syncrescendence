@@ -1,9 +1,3 @@
----
-url: https://x.com/cboyack/status/2021647373571862952
-author: Connor Boyack (@cboyack)
-captured_date: 2026-02-13
----
-
 # AI isn't coming for your future. Fear is.
 
 (Description: A split-panel engraving showing two contrasting emotional expressions of a man—left panel labeled "THE SEEN" shows horror/fear; right panel labeled "THE UNSEEN" shows optimism/opportunity.)

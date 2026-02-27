@@ -1,34 +1,3 @@
----
-url: https://x.com/LLMJunky/status/2024647077586731351
-author: am.will
-handle: LLMJunky
-published_date: February 19, 2026
-captured_date: February 21, 2026
-post_count: 2
-id: SOURCE-20260219-023
-original_filename: "20260219-x_thread-one_line_of_config_is_about-@LLMJunky.md"
-status: triaged
-platform: x
-format: thread
-creator: llmjunky
-signal_tier: tactical
-topics:
-  - prompting
-  - testing
-  - codex
-  - openai
-  - multi-agent
-  - token-management
-teleology: reference
-notebooklm_category: coding-tools
-aliases:
-  - "Agent Teams Coming to Codex"
-synopsis: "Agent Teams Coming to Codex One line of config is about to change how you Codex Update 0.105.0 will bring configurable multi-agent depth. Your agents can now spawn agents that spawn agents. Max agent depth used to be hard-coded to 1 level deep. Root agent spawns a researcher. Researcher spawns a frontend agent, a backend agent, a tester, and code reviewer. All running in parallel."
-key_insights:
-  - "Agent Teams Coming to Codex One line of config is about to change how you Codex Update 0.105.0 will bring configurable multi-agent depth."
-  - "Your agents can now spawn agents that spawn agents."
-  - "Max agent depth used to be hard-coded to 1 level deep."
----
 # Agent Teams Coming to Codex
 One line of config is about to change how you Codex
 Update 0.105.0 will bring configurable multi-agent depth. Your agents can now spawn agents that spawn agents.

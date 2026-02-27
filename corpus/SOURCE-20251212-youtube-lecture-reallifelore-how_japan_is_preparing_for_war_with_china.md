@@ -1,38 +1,3 @@
----
-id: SOURCE-20251212-728
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "japan"
-  - "preparing"
-  - "war"
-  - "china"
-creator: "RealLifeLore"
-guest: null
-title: "How Japan is Preparing for War With China"
-url: "https://www.youtube.com/watch?v=QOUBqb1jHsA"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 33s"
-has_transcript: no
-synopsis: "How Japan is Preparing for War With China by RealLifeLore. A lecture covering japan, preparing, war."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "How Japan is Preparing"
-  - "How Japan is Preparing for War"
----
-
 # How Japan is Preparing for War With China
 
 **Channel**: RealLifeLore

@@ -1,32 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2018951817892442260
-author: "klöss (@kloss_xyz)"
-captured_date: 2026-02-03
-id: SOURCE-20260204-008
-original_filename: "20260204-x_article-how_to_build_a_prompt_for_anything_and_remix_them_at_will-@kloss_xyz.md"
-status: triaged
-platform: x
-format: article
-creator: kloss_xyz
-signal_tier: tactical
-topics:
-  - prompt-engineering
-  - vibe-coding
-  - agentic-development
-  - prompting
-  - context-management
-  - gpt
-  - architecture
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "How to Build a Prompt for Anything and Remix Them at Will"
-synopsis: "How to Build a Prompt for Anything (and Remix Them at Will) I've written a few articles now. This might be my most valuable one though. "Why You Suck at Prompting" for LLM chats and "Why You Suck at Vibe Coding" for agentic engineering both came down to a simple system."
-key_insights:
-  - "Here's the problem: a prompt built for someone else's use case, with someone else's context, for someone else's output, will never work as well as one you built or remix yourself."
-  - "When you write a paragraph, the model has to guess where the role ends and the task begins, where the constraints are, what the output should look like, and if there's any context or memory related."
-  - "```xml <role> Who you are </role> <mission> What you do </mission> <rules> How you behave </rules> ``` The model doesn't have to interpret structure."
----
 # How to Build a Prompt for Anything (and Remix Them at Will)
 
 (Description: An isometric technical illustration featuring two hands assembling an abstract 3D geometric structure with wireframe grid overlay, rendered in grayscale line art style)

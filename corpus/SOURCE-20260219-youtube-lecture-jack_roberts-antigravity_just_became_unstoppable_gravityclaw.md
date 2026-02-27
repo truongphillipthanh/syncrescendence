@@ -1,39 +1,3 @@
----
-id: SOURCE-20260219-016
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "antigravity"
-  - "just"
-  - "became"
-  - "unstoppable"
-  - "gravityclaw"
-creator: "Jack Roberts"
-guest: null
-title: "AntiGravity just became UNSTOPPABLE (GravityClaw)"
-url: "https://www.youtube.com/watch?v=-hYE5U6FGk8"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 45s"
-has_transcript: no
-synopsis: "AntiGravity just became UNSTOPPABLE (GravityClaw) by Jack Roberts. A lecture covering antigravity, just, became."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AntiGravity just became UNSTOPPABLE"
-  - "AntiGravity just became UNSTOPPABLE (GravityClaw)"
----
-
 # AntiGravity just became UNSTOPPABLE (GravityClaw)
 
 **Channel**: Jack Roberts

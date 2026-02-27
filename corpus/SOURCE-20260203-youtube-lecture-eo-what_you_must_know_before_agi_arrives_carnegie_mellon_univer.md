@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-199
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "must"
-  - "know"
-  - "before"
-  - "agi"
-  - "arrives"
-creator: "EO"
-guest: null
-title: "What you must know before AGI arrives | Carnegie Mellon University Po-Shen Loh"
-url: "https://www.youtube.com/watch?v=ivVPJhYM8Ng"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 52s"
-has_transcript: no
-synopsis: "What you must know before AGI arrives | Carnegie Mellon University Po-Shen Loh by EO. A lecture covering must, know, before."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "What you must know"
-  - "What you must know before AGI"
----
-
 # What you must know before AGI arrives | Carnegie Mellon University Po-Shen Loh
 
 **Channel**: EO

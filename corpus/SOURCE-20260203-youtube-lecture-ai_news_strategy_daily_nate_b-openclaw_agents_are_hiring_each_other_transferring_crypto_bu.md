@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-204
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "agents"
-  - "hiring"
-  - "other"
-  - "transferring"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "OpenClaw Agents Are Hiring Each Other. Transferring Crypto. Building Societies. This Is Real."
-url: "https://www.youtube.com/watch?v=WEEKBlQfGt8"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 9s"
-has_transcript: no
-synopsis: "OpenClaw Agents Are Hiring Each Other. Transferring Crypto. Building Societies. This Is Real. by AI News & Strategy Daily | Nate B Jones. A lecture covering openclaw, agents, hiring."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "OpenClaw Agents Are Hiring"
-  - "OpenClaw Agents Are Hiring Each Other."
----
-
 # OpenClaw Agents Are Hiring Each Other. Transferring Crypto. Building Societies. This Is Real.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

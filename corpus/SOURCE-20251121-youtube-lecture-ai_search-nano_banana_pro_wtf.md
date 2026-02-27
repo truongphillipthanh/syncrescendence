@@ -1,37 +1,3 @@
----
-id: SOURCE-20251121-1039
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nano"
-  - "banana"
-  - "pro"
-  - "wtf"
-creator: "AI Search"
-guest: null
-title: "Nano Banana Pro… wtf"
-url: "https://www.youtube.com/watch?v=IcSeYMYMgSs"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 39s"
-has_transcript: no
-synopsis: "Nano Banana Pro… wtf by AI Search. A lecture covering nano, banana, pro."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Nano Banana Pro… wtf"
----
-
 # Nano Banana Pro… wtf
 
 **Channel**: AI Search

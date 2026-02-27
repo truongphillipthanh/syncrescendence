@@ -1,32 +1,3 @@
----
-url: https://x.com/aakashgupta/status/2022539848301842630
-author: "Aakash Gupta (@aakashgupta)"
-captured_date: 2026-02-13
-id: SOURCE-20260214-010
-original_filename: "20260214-x_thread-google_and_microsoft_just_co-authored-@aakashgupta.md"
-status: triaged
-platform: x
-format: thread
-creator: aakashgupta
-signal_tier: strategic
-topics:
-  - ai-agents
-  - context-management
-  - model-context-protocol
-  - api
-  - benchmarks
-  - rag
-  - python
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "WebMCP Browser API Standard for AI Agents"
-synopsis: "WebMCP: Browser API Standard for AI Agents Google and Microsoft just co-authored the spec that turns every website into an API for AI agents. The second-order effects here are massive. Right now, browser agents work by taking screenshots, parsing the DOM, and guessing which buttons to click. It works about as well as you'd expect. Fragile, expensive, slow."
-key_insights:
-  - "WebMCP: Browser API Standard for AI Agents Google and Microsoft just co-authored the spec that turns every website into an API for AI agents."
-  - "The second-order effects here are massive."
-  - "Right now, browser agents work by taking screenshots, parsing the DOM, and guessing which buttons to click."
----
 # WebMCP: Browser API Standard for AI Agents
 Google and Microsoft just co-authored the spec that turns every website into an API for AI agents. The second-order effects here are massive.
 Right now, browser agents work by taking screenshots, parsing the DOM, and guessing which buttons to click. It works about as well as you'd expect. Fragile, expensive, slow. WebMCP replaces all of that with a single browser API: `navigator.modelContext`. Websites register structured tools directly in client-side JavaScript. The agent reads a menu of available actions, calls them, gets structured data back. No scraping. No backend MCP server in Python or Node. The tools run inside the browser tab and share the user's existing auth session.

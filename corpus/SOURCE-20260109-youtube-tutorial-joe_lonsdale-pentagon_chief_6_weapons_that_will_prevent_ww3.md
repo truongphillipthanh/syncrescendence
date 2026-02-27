@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-537
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "pentagon"
-  - "chief"
-  - "weapons"
-  - "prevent"
-  - "ww3"
-creator: "Joe Lonsdale"
-guest: null
-title: "Pentagon Chief: 6 Weapons That Will Prevent WW3"
-url: "https://www.youtube.com/watch?v=U3ZqGHLxlQ0"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 58s"
-has_transcript: no
-synopsis: "Pentagon Chief: 6 Weapons That Will Prevent WW3 by Joe Lonsdale. A tutorial covering pentagon, chief, weapons."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Pentagon Chief: 6 Weapons"
-  - "Pentagon Chief: 6 Weapons That Will"
----
-
 # Pentagon Chief: 6 Weapons That Will Prevent WW3
 
 **Channel**: Joe Lonsdale

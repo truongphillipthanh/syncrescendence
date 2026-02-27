@@ -1,39 +1,3 @@
----
-id: SOURCE-20260216-030
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "use"
-  - "cases"
-  - "actually"
-  - "helpful"
-creator: "Duncan Rogoff | AI Automation"
-guest: null
-title: "OpenClaw Use Cases that are Actually Helpful! (ClawdBot)"
-url: "https://www.youtube.com/watch?v=LV6Juz0xcrY"
-date_published: 2026-02-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 29s"
-has_transcript: no
-synopsis: "OpenClaw Use Cases that are Actually Helpful! (ClawdBot) by Duncan Rogoff | AI Automation. A tutorial covering openclaw, use, cases."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenClaw Use Cases that"
-  - "OpenClaw Use Cases that are Actually"
----
-
 # OpenClaw Use Cases that are Actually Helpful! (ClawdBot)
 
 **Channel**: Duncan Rogoff | AI Automation

@@ -1,38 +1,3 @@
----
-id: SOURCE-20251113-1113
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "evolution"
-  - "works"
-  - "sean"
-  - "carroll"
-creator: "Big Think"
-guest: null
-title: "How evolution works | Sean B. Carroll"
-url: "https://www.youtube.com/watch?v=iH60VHQtHrs"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 25s"
-has_transcript: no
-synopsis: "How evolution works | Sean B. Carroll by Big Think. A interview covering evolution, works, sean."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "How evolution works |"
-  - "How evolution works | Sean B."
----
-
 # How evolution works | Sean B. Carroll
 
 **Channel**: Big Think

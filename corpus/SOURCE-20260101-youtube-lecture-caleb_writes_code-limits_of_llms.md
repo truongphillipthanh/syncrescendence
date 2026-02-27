@@ -1,35 +1,3 @@
----
-id: SOURCE-20260101-657
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "limits"
-  - "llms"
-creator: "Caleb Writes Code"
-guest: null
-title: "Limits of LLMs"
-url: "https://www.youtube.com/watch?v=_pY-JXtkW6g"
-date_published: 2026-01-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 15s"
-has_transcript: no
-synopsis: "Limits of LLMs by Caleb Writes Code. A lecture covering limits, llms."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Limits of LLMs"
----
-
 # Limits of LLMs
 
 **Channel**: Caleb Writes Code

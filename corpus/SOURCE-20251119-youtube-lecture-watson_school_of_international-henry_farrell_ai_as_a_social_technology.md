@@ -1,38 +1,3 @@
----
-id: SOURCE-20251119-1021
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "henry"
-  - "farrell"
-  - "social"
-  - "technology"
-creator: "Watson School of International and Public Affairs"
-guest: null
-title: "Henry Farrell — AI as a Social Technology"
-url: "https://www.youtube.com/watch?v=mwdzanirFBQ"
-date_published: 2025-11-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 31m 8s"
-has_transcript: no
-synopsis: "Henry Farrell — AI as a Social Technology by Watson School of International and Public Affairs. A lecture covering henry, farrell, social."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Henry Farrell — AI"
-  - "Henry Farrell — AI as a"
----
-
 # Henry Farrell — AI as a Social Technology
 
 **Channel**: Watson School of International and Public Affairs

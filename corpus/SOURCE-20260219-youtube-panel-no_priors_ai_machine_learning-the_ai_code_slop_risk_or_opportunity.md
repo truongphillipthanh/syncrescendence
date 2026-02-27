@@ -1,38 +1,3 @@
----
-id: SOURCE-20260219-011
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "code"
-  - "slop"
-  - "risk"
-  - "opportunity"
-creator: "No Priors: AI, Machine Learning, Tech, & Startups"
-guest: null
-title: "The AI Code Slop: Risk or Opportunity"
-url: "https://www.youtube.com/watch?v=efUt__S_AjY"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "40m 42s"
-has_transcript: no
-synopsis: "The AI Code Slop: Risk or Opportunity by No Priors: AI, Machine Learning, Tech, & Startups. A panel discussion covering code, slop, risk."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "The AI Code Slop:"
-  - "The AI Code Slop: Risk or"
----
-
 # The AI Code Slop: Risk or Opportunity
 
 **Channel**: No Priors: AI, Machine Learning, Tech, & Startups

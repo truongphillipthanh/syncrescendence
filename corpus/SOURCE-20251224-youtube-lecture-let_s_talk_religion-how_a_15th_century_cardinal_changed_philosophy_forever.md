@@ -1,39 +1,3 @@
----
-id: SOURCE-20251224-724
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "15th"
-  - "century"
-  - "cardinal"
-  - "changed"
-  - "philosophy"
-creator: "Let's Talk Religion"
-guest: null
-title: "How a 15th-Century Cardinal Changed Philosophy Forever"
-url: "https://www.youtube.com/watch?v=IwE-79m1jgs"
-date_published: 2025-12-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 12m 29s"
-has_transcript: no
-synopsis: "How a 15th-Century Cardinal Changed Philosophy Forever by Let's Talk Religion. A lecture covering 15th, century, cardinal."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "How a 15th-Century Cardinal"
-  - "How a 15th-Century Cardinal Changed Philosophy"
----
-
 # How a 15th-Century Cardinal Changed Philosophy Forever
 
 **Channel**: Let's Talk Religion

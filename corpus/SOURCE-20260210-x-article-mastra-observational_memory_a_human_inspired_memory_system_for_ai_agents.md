@@ -1,32 +1,3 @@
----
-url: https://x.com/mastra/status/2021280193273336131
-author: "Mastra (@mastra)"
-captured_date: 2026-02-10T21:48:00Z
-id: SOURCE-20260210-002
-original_filename: "20260210-x_article-observational_memory_a_human_inspired_memory_system_for_ai_agents-@mastra.md"
-status: triaged
-platform: x
-format: article
-creator: mastra
-signal_tier: strategic
-topics:
-  - ai-agents
-  - agentic-development
-  - prompting
-  - context-management
-  - debugging
-  - memory-management
-  - openai
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Observational Memory A HumanInspired Memory System for AI Agents"
-synopsis: "Observational Memory: A Human-Inspired Memory System for AI Agents At Mastra, we just shipped a new type of memory for agentic systems: observational memory. Observational memory is text-based (no vector/graph DB needed), SoTA on benchmarks like LongMemEval, and compatible with Anthropic/OpenAI/etc prompt caching. Even better: our implementation is open-source."
-key_insights:
-  - "- **Emoji-based prioritization.** We're essentially using emojis to reimplement log levels."
-  - "Observational Memory: A Human-Inspired Memory System for AI Agents At Mastra, we just shipped a new type of memory for agentic systems: observational memory."
-  - "Observational memory is text-based (no vector/graph DB needed), SoTA on benchmarks like LongMemEval, and compatible with Anthropic/OpenAI/etc prompt caching."
----
 # Observational Memory: A Human-Inspired Memory System for AI Agents
 
 (Description: A dark-themed promotional graphic with the Mastra logo and a stylized head profile containing neural/memory visualization. The title "Observational Memory" is displayed prominently in white text. A small profile avatar labeled "Tyler Barnes" appears in the corner.)

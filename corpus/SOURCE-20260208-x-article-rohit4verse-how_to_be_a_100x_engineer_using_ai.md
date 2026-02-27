@@ -1,21 +1,3 @@
----
-url: https://x.com/rohit4verse/status/2020501497377968397
-author: "Rohit (@rohit4verse)"
-captured_date: 2026-02-08
-id: SOURCE-20260208-010
-original_filename: "20260208-x_article-how_to_be_a_100x_engineer_using_ai-@rohit4verse.md"
-status: triaged
-platform: x
-format: article
-creator: rohit4verse
-signal_tier: tactical
-topics: [ai-engineering, developer-tools, best-practices, tutorial]
-teleology: implement
-notebooklm_category: ai-engineering
-aliases: ["Rohit - 100x Engineer with AI"]
-synopsis: "Guide to becoming a 100x engineer by leveraging AI tools effectively, covering workflow patterns, tool selection, and productivity multiplication strategies."
-key_insights: ["The 100x multiplier comes from AI-augmented workflows not raw coding speed", "Effective AI usage requires systematic workflow integration not ad-hoc prompting", "Engineer productivity with AI compounds over time as skills accumulate"]
----
 # How to be a 100x Engineer Using AI
 
 (Description: A collage illustration featuring a silhouette of a human head in profile wearing a business suit, with a bright orange circular aura emanating from the brain area. The brain is depicted as a circuit board pattern. To the left is a robotic hand holding a black device or clipboard. To the right is another hand holding a computer chip labeled "AI". In the background are small window/menu UI elements suggesting software interfaces.)

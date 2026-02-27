@@ -1,9 +1,3 @@
----
-url: https://x.com/DanielMiessler/status/2015865548714975475
-author: Daniel Miessler (@DanielMiessler)
-captured_date: 2026-01-26
----
-
 # CLAWDBOT Security Hardening: Top 10 Vulnerabilities and Their Fixes
 
 As a Security / 98% AI YOLO Maximalist with Guardrails guy, I'm asking you to please listen to this.

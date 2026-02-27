@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-012
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "000"
-  - "day"
-  - "costs"
-  - "three"
-  - "engineers"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "$1,000 a Day in AI Costs. Three Engineers. No Writing Code. No Code Review. But More Output."
-url: "https://www.youtube.com/watch?v=-bQcWs1Z9a0"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 13s"
-has_transcript: no
-synopsis: "$1,000 a Day in AI Costs. Three Engineers. No Writing Code. No Code Review. But More Output. by AI News & Strategy Daily | Nate B Jones. A lecture covering 000, day, costs."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "$1,000 a Day in"
-  - "$1,000 a Day in AI Costs."
----
-
 # $1,000 a Day in AI Costs. Three Engineers. No Writing Code. No Code Review. But More Output.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

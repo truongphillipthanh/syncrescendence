@@ -1,22 +1,3 @@
----
-id: SOURCE-20260125-x-thread-garrytan-i_dont_know_why_this_isnt_just_in_claude
-platform: x
-format: thread
-creator: garrytan
-title: i dont know why this isnt just in claude
-status: triaged
-original_filename: "20260125-x_thread-i_dont_know_why_this_isnt_just_in_claude-@garrytan.md"
-url: https://x.com/garrytan/status/2015540619855425959
-author: "Garry Tan (@garrytan)"
-captured_date: 2026-01-25
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # CLAUDE.md Instructions for Bash Behavior Thread
 
 I don't know why this isn't just in Claude Code's system prompt

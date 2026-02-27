@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-thread-r00k-what_a_prompt_create_a_history
-platform: x
-format: thread
-creator: r00k
-title: what a prompt create a history
-status: triaged
-original_filename: "20260126-x_thread-what_a_prompt_create_a_history-@r00k.md"
-url: https://x.com/r00k/status/2015934407014568101
-author: "Ben Orenstein (@r00k)"
-captured_date: 2026-01-27
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # X Thread: HISTORY.md Story Generation
 
 ## Post 1

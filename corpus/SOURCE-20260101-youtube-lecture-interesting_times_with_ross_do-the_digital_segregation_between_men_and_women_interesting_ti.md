@@ -1,39 +1,3 @@
----
-id: SOURCE-20260101-648
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "digital"
-  - "segregation"
-  - "between"
-  - "men"
-  - "women"
-creator: "Interesting Times with Ross Douthat"
-guest: null
-title: "The “Digital Segregation” Between Men and Women | Interesting Times with Ross Douthat"
-url: "https://www.youtube.com/watch?v=_HPpIp-NHzY"
-date_published: 2026-01-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 2s"
-has_transcript: no
-synopsis: "The “Digital Segregation” Between Men and Women | Interesting Times with Ross Douthat by Interesting Times with Ross Douthat. A lecture covering digital, segregation, between."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The “Digital Segregation” Between"
-  - "The “Digital Segregation” Between Men and"
----
-
 # The “Digital Segregation” Between Men and Women | Interesting Times with Ross Douthat
 
 **Channel**: Interesting Times with Ross Douthat

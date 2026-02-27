@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-760
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "went"
-  - "intel"
-  - "arizona"
-  - "chip"
-  - "fab"
-creator: "CNBC"
-guest: null
-title: "We Went To Intel’s Arizona Chip Fab To See If It Can Regain Its Edge"
-url: "https://www.youtube.com/watch?v=YFE0zNMqQyg"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 51s"
-has_transcript: no
-synopsis: "We Went To Intel’s Arizona Chip Fab To See If It Can Regain Its Edge by CNBC. A lecture covering went, intel, arizona."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "We Went To Intel’s"
-  - "We Went To Intel’s Arizona Chip"
----
-
 # We Went To Intel’s Arizona Chip Fab To See If It Can Regain Its Edge
 
 **Channel**: CNBC

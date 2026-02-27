@@ -1,31 +1,3 @@
----
-url: https://x.com/karpathy/status/2024583544157458452
-author: "Andrej Karpathy (@karpathy)"
-captured_date: 2026-02-21
-id: SOURCE-20260219-021
-original_filename: "20260219-x_thread-very_interested_in_what_the_coming-@karpathy.md"
-status: triaged
-platform: x
-format: thread
-creator: karpathy
-signal_tier: paradigm
-topics:
-  - vibe-coding
-  - debugging
-  - git
-  - api
-  - product-development
-  - cli-tools
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Highly Bespoke Software Era"
-synopsis: "Highly Bespoke Software Era Very interested in what the coming era of highly bespoke software might look like. Example from this morning - I've become a bit loosy goosy with my cardio recently so I decided to do a more srs, regimented experiment to try to lower my Resting Heart Rate from 50 -> 45, over experiment duration of 8 weeks."
-key_insights:
-  - "But I still feel like the overall direction is clear: 1) There will never be (and shouldn't be) a specific app on the app store for this kind of thing."
-  - "I shouldn't have to look for, download and use some kind of a "Cardio experiment tracker", when this thing is ~300 lines of code that an LLM agent will give you in seconds."
-  - "It shouldn't maintain some human-readable frontend and my LLM agent shouldn't have to reverse engineer it, it should be an API/CLI easily usable by my agent."
----
 # Highly Bespoke Software Era
 Very interested in what the coming era of highly bespoke software might look like.
 Example from this morning - I've become a bit loosy goosy with my cardio recently so I decided to do a more srs, regimented experiment to try to lower my Resting Heart Rate from 50 -> 45, over experiment duration of 8 weeks. The primary way to do this is to aspire to a certain sum total minute goals in Zone 2 cardio and 1 HIIT/week.

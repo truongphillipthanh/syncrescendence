@@ -1,28 +1,3 @@
----
-id: SOURCE-20260127-x-thread-unknown-openai_and_anthropic_engineers_leaked_aiwithmayank
-platform: x
-format: thread
-creator: unknown
-title: openai and anthropic engineers leaked aiwithmayank
-status: triaged
-original_filename: 20260127-x_thread-openai_and_anthropic_engineers_leaked-aiwithmayank.md
-url: https://x.com/aiwithmayank/status/2016072196985389466
-author: "Mayank Vora (@aiwithmayank)"
-captured_date: 2026-01-27
-signal_tier: tactical
-topics:
-  - prompt-engineering
-  - best-practices
-teleology: extract
-notebooklm_category: prompt-engineering
-aliases:
-  - "Mayank Vora - 6 leaked prompt techniques"
-synopsis: "Six structured prompt templates framed as insider techniques: deep research prompt (5 questions with mainstream/contrarian views), content mutation engine (idea to 10 formats), founder reality check (3 adversarial advisors), reverse engineering virality, strategic scenario planner (4 futures), and weakness-to-strength transformer (brutal critique then fix)."
-key_insights:
-  - "The Deep Researcher prompt structures research by forcing mainstream views, contrarian perspectives, and evidence criteria for each sub-question — eliminating scattered source reading."
-  - "The Founder's Reality Check uses three distinct adversarial advisor personas (skeptical investor, successful founder, customer) to surface problems before real-world impact."
-  - "The key differentiator between average and elite prompt users is structural thinking — forcing frameworks rather than asking questions."
----
 # OpenAI and Anthropic Engineers Leaked Prompt Techniques
 
 OpenAI and Anthropic engineers leaked the prompt techniques that actually work in 2026. I've been using insider knowledge for 6 months. The difference is insane.

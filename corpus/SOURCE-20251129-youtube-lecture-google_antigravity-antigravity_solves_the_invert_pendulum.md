@@ -1,38 +1,3 @@
----
-id: SOURCE-20251129-951
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "antigravity"
-  - "solves"
-  - "invert"
-  - "pendulum"
-creator: "Google Antigravity"
-guest: null
-title: "Antigravity solves the invert pendulum"
-url: "https://www.youtube.com/watch?v=rKQ9b4UMpGQ"
-date_published: 2025-11-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2m 58s"
-has_transcript: no
-synopsis: "Antigravity solves the invert pendulum by Google Antigravity. A lecture covering antigravity, solves, invert."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Antigravity solves the invert"
-  - "Antigravity solves the invert pendulum"
----
-
 # Antigravity solves the invert pendulum
 
 **Channel**: Google Antigravity

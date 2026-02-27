@@ -1,35 +1,3 @@
----
-url: https://agents.md/
-title: AGENTS.md
-domain: agents.md
-published_date: null
-captured_date: 2026-02-20
-content_type: landing
-id: SOURCE-undated-001
-original_filename: undated-website-agents_md_simple_open_format_guiding--agents.md
-status: triaged
-platform: website
-format: article
-creator: agents
-signal_tier: strategic
-topics:
-  - ai-agents
-  - context-management
-  - testing
-  - git
-  - extended-thinking
-  - cursor
-  - github-copilot
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "AGENTSmd"
-synopsis: "AGENTS.md A simple, open format for guiding coding agents, used by over [60k open-source projects]( Think of AGENTS.md as a **README for agents**: a dedicated, predictable place to provide the context and instructions to help AI coding agents work on your project."
-key_insights:
-  - "The commit should pass all tests before you merge."
-  - "- To focus on one step, add the Vitest pattern: `pnpm vitest run -t "<test name>"`."
-  - "- After moving files or changing imports, run `pnpm lint --filter <project_name>` to be sure ESLint and TypeScript rules still pass."
----
 # AGENTS.md
 A simple, open format for guiding coding agents, used by over [60k open-source projects](https://github.com/search?q=path%3AAGENTS.md+NOT+is%3Afork+NOT+is%3Aarchived&type=code).
 Think of AGENTS.md as a **README for agents**: a dedicated, predictable place to provide the context and instructions to help AI coding agents work on your project.

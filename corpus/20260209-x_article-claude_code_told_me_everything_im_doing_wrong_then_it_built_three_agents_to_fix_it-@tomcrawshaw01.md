@@ -1,9 +1,3 @@
----
-url: https://x.com/tomcrawshaw01/status/2020866308230009189
-author: Tom (@tomcrawshaw01)
-captured_date: 2026-02-09
----
-
 # Claude Code Told Me Everything I'm Doing Wrong. Then It Built Three Agents To Fix It.
 
 (Description: Terminal window screenshot with orange pixelated retro-style text reading "CLAUDE CODE" on two lines, followed by white monospace text "/insights" below on a dark background with macOS-style window controls at top)

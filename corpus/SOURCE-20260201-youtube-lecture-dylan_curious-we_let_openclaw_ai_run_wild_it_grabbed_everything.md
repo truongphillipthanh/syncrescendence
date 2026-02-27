@@ -1,39 +1,3 @@
----
-id: SOURCE-20260201-210
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "let"
-  - "openclaw"
-  - "run"
-  - "wild"
-  - "grabbed"
-creator: "Dylan Curious"
-guest: null
-title: "We Let OpenClaw AI Run Wild… It Grabbed Everything"
-url: "https://www.youtube.com/watch?v=RGrkJ3r8vPY"
-date_published: 2026-02-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 45s"
-has_transcript: no
-synopsis: "We Let OpenClaw AI Run Wild… It Grabbed Everything by Dylan Curious. A lecture covering let, openclaw, run."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "We Let OpenClaw AI"
-  - "We Let OpenClaw AI Run Wild…"
----
-
 # We Let OpenClaw AI Run Wild… It Grabbed Everything
 
 **Channel**: Dylan Curious

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-690
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "cybersecurity"
-  - "trends"
-  - "2026"
-  - "shadow"
-  - "quantum"
-creator: "IBM Technology"
-guest: null
-title: "Cybersecurity Trends in 2026: Shadow AI, Quantum & Deepfakes"
-url: "https://www.youtube.com/watch?v=2jU-mLMV8Vw"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 29s"
-has_transcript: no
-synopsis: "Cybersecurity Trends in 2026: Shadow AI, Quantum & Deepfakes by IBM Technology. A lecture covering cybersecurity, trends, 2026."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Cybersecurity Trends in 2026:"
-  - "Cybersecurity Trends in 2026: Shadow AI,"
----
-
 # Cybersecurity Trends in 2026: Shadow AI, Quantum & Deepfakes
 
 **Channel**: IBM Technology

@@ -1,32 +1,3 @@
----
-url: https://x.com/adeoressi/status/2018755662105473179
-author: "Adeo Ressi (@adeoressi)"
-captured_date: 2026-02-14
-id: SOURCE-20260203-028
-original_filename: "20260203-x_thread-my_openclaw_assistant_is_live-@adeoressi.md"
-status: triaged
-platform: x
-format: thread
-creator: adeoressi
-signal_tier: tactical
-topics:
-  - ai-agents
-  - agentic-development
-  - ai-workflow
-  - context-management
-  - automation
-  - memory-management
-  - gpt
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw Assistant Thread"
-synopsis: "OpenClaw Assistant Thread **Adeo Ressi** (@adeoressi) · Feb 3, 2026 🤖 **My OpenClaw Assistant is live and crushing it!** **Primary Model** + Kimi K2.5 (256k context + vision) - the price-to-performance ratio is absurd **Fallbacks** + Claude Opus 4.5 - for when you need the big brain + GPT-5.2 -."
-key_insights:
-  - "+ Built its own LinkedIn API - It can help me manage the insanity of LinkedIn."
-  - "Explores openclaw assistant thread."
-  - "Explores openclaw assistant thread."
----
 # OpenClaw Assistant Thread
 
 **Adeo Ressi** (@adeoressi) · Feb 3, 2026

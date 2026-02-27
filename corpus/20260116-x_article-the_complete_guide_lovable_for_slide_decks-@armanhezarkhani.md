@@ -1,9 +1,3 @@
----
-url: https://x.com/ArmanHezarkhani/status/2012224841374486998
-author: Arman Hezarkhaki (@ArmanHezarkhani)
-captured_date: 2026-02-13
----
-
 # The Complete Guide: Lovable for Slide Decks
 
 *Build slide decks that actually impress clients.*

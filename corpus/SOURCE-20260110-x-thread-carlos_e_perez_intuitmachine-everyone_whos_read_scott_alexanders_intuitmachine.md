@@ -1,32 +1,3 @@
----
-id: SOURCE-20260110-001
-title: "Everyone Whos Read Scott Alexanders @Intuitmachine"
-platform: x
-format: thread
-creator: Carlos E. Perez (IntuitMachine)
-date_published: 20260110
-status: triaged
-original_filename: "research/20260110-x_thread-everyone_whos_read_scott_alexanders-@intuitmachine.md"
-aliases:
-  - "Carlos Perez - Meditations on Moloch AI"
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-url: "https://x.com/IntuitMachine/status/2010063657581822138"
-author: "Carlos E. Perez (@IntuitMachine)"
-captured_date: 2026-01-10
-synopsis: "Thread analyzing Scott Alexanders Meditations on Moloch through AI lens. Argues the Molochian trap of individual rationality leading to collective doom may have an escape route through AI coordination systems that can optimize for collective rather than individual outcomes."
-key_insights:
-  - "Meditations on Moloch describes how individual rationality leads to collective doom through competitive dynamics that no single actor can escape"
-  - "AI coordination systems could potentially break Molochian traps by optimizing for collective outcomes rather than individual competitive advantage"
-  - "The escape from Moloch requires systems that can align individual incentives with collective welfare at scale which AI uniquely enables"
-topics:
-  - "philosophy"
-  - "ai-engineering"
-  - "economics"
-  - "framework"
-signal_tier: strategic
----
-
 # Meditations on Moloch: Escape is Possible
 
 1/ Everyone who's read Scott Alexander's "Meditations on Moloch" walks away with the same sinking feeling:

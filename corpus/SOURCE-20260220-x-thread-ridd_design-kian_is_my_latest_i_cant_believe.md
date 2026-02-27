@@ -1,28 +1,3 @@
----
-url: https://x.com/ridd_design/status/2024969506175484027
-author: "@ridd_design"
-captured_date: 2026-02-20
-id: SOURCE-20260220-014
-original_filename: "20260220-x_thread-kian_is_my_latest_i_cant_believe-@ridd_design.md"
-status: triaged
-platform: x
-format: thread
-creator: ridd_design
-signal_tier: noise
-topics:
-  - testing
-  - reference-pattern
-teleology: reference
-notebooklm_category: general
-aliases:
-  - "Kian is my latest "I can't believe I haven't been following this person" account"
-  - "Kian is my latest I cant believe I havent been following this person account"
-synopsis: "Kian is my latest "I can't believe I haven't been following this person" account ✅ > **Quote from @kianbazza** (Feb 19) > > Hand-drawn signature, built with @motiondotdev > > ⊙ SVG paths w/ sequential timing + custom easing > ⊙ Each stroke drawn using pathLength animation > ⊙ Ghost layer underneath gives an ink-indent effect..."
-key_insights:
-  - "Explores kian is my latest "i can't believe i haven't been following this person" account ✅."
-  - "Explores kian is my latest "i can't believe i haven't been following this person" account ✅."
-  - "Explores kian is my latest "i can't believe i haven't been following this person" account ✅."
----
 # Kian is my latest "I can't believe I haven't been following this person" account ✅
 > **Quote from @kianbazza** (Feb 19)
 >

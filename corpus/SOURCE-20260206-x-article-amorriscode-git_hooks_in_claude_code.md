@@ -1,28 +1,3 @@
----
-url: https://x.com/amorriscode/status/2019833252794757299
-author: "Anthony Morris (@amorriscode)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-002
-original_filename: "20260206-x_article-git_hooks_in_claude_code-@amorriscode.md"
-status: triaged
-platform: x
-format: article
-creator: amorriscode
-signal_tier: tactical
-topics:
-  - claude-code
-  - ai-workflow
-  - git
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "git hooks in Claude Code"
-synopsis: "git hooks in Claude Code Did you know you can hook into git commands with Claude Code? The PreToolUse/PostToolHooks hooks receive the tool input as JSON on stdin, so you can check if the command is a git command. Let's go through an example."
-key_insights:
-  - "git hooks in Claude Code Did you know you can hook into git commands with Claude Code?"
-  - "The PreToolUse/PostToolHooks hooks receive the tool input as JSON on stdin, so you can check if the command is a git command."
-  - "We have many more examples in our docs:."
----
 # git hooks in Claude Code
 
 (Description: Illustration with a cream-colored background featuring a stylized magnifying glass rendered in black lines connected to a red diamond shape with a white curved symbol inside, suggesting the intersection of search/inspection and code/programming concepts.)

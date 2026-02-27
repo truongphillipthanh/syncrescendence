@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-article-kevinxu-how_to_fix_your_entire_portfolio_in_1_day
-platform: x
-format: article
-creator: kevinxu
-title: how to fix your entire portfolio in 1 day
-status: triaged
-original_filename: "20260126-x_article-how_to_fix_your_entire_portfolio_in_1_day-@kevinxu.md"
-url: https://x.com/kevinxu/status/2015987698520252613
-author: "Kevin Xu (@kevinxu)"
-captured_date: 2026-01-26
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: vibe-coding
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # How to fix your entire portfolio in 1 day
 
 (Description: A black and white engraved-style illustration showing a figure being swept in turbulent market waves with a wooden bull figurine in orange/rust color floating nearby, representing market volatility and trading dynamics)

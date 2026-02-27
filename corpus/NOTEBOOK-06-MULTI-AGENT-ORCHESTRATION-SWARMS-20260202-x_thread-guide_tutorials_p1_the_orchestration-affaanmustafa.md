@@ -1,9 +1,3 @@
----
-url: https://x.com/affaanmustafa/status/2018270130674029037
-author: cogsec (@affaanmustafa)
-captured_date: 2026-02-14
----
-
 # Guide Tutorials: P1 - The Orchestration Workflow
 
 **cogsec** @affaanmustafa · Feb 2, 2026

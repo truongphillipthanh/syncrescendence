@@ -1,39 +1,3 @@
----
-id: SOURCE-20251119-1076
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "there"
-  - "wall"
-  - "gemini"
-  - "really"
-  - "means"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "There Is No Wall: What Gemini 3 Really Means For Your Job"
-url: "https://www.youtube.com/watch?v=nktAnCHK94I"
-date_published: 2025-11-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 6s"
-has_transcript: no
-synopsis: "There Is No Wall: What Gemini 3 Really Means For Your Job by AI News & Strategy Daily | Nate B Jones. A lecture covering there, wall, gemini."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "There Is No Wall:"
-  - "There Is No Wall: What Gemini"
----
-
 # There Is No Wall: What Gemini 3 Really Means For Your Job
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

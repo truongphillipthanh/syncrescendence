@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-007
-title: Kimi K25 Free Nvidia
-platform: x
-format: transcript
-creator: Shpigford
-date_published: "2026-02-03"
-status: triaged
-url: https://x.com/Shpigford/status/2018710065239269785
-original_filename: research/x-bookmarks/TRANS-Shpigford-kimi_k25_free_nvidia.md
-aliases:
-  - "Kimi K2.5 Free NVIDIA"
-  - "Shpigford Kimi OpenClaw"
-teleology: implement
-notebooklm_category: coding-tools
-synopsis: "Josh Pigford demonstrates using Kimi K2.5 for free via NVIDIA's build.nvidia.com API with OpenClaw. The setup involves generating an NVIDIA API key and pointing OpenClaw to it. High engagement (4,555 bookmarks, 181K views) suggests strong community demand for free/alternative model providers for OpenClaw."
-key_insights:
-  - "NVIDIA offers Kimi K2.5 at no cost via build.nvidia.com — a viable free alternative to Claude for OpenClaw users who hit rate limits"
-  - "Setup is minimal: generate API key, point OpenClaw to NVIDIA endpoint — the model handles the rest"
-  - "Community reports mixed results on speed and limits, but the free tier provides a useful overflow option when primary model quotas are exhausted"
-topics:
-  - ai-engineering
-  - developer-tools
-  - tutorial
-signal_tier: tactical
----
-
 # kimi-k2.5 for free with OpenClaw via NVIDIA
 
 **Author:** Josh Pigford (Verified)  

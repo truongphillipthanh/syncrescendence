@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-773
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "reasons"
-  - "use"
-  - "imagegen"
-  - "over"
-  - "nano"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro"
-url: "https://www.youtube.com/watch?v=tK2nyI4NCWk"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 16s"
-has_transcript: no
-synopsis: "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering reasons, use, imagegen."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "4 Reasons to Use"
-  - "4 Reasons to Use ImageGen 1.5"
----
-
 # 4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1126
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "war"
-  - "against"
-  - "human"
-  - "nature"
-  - "interesting"
-creator: "Interesting Times with Ross Douthat"
-guest: null
-title: "‘This Is the War Against Human Nature’ | Interesting Times with Ross Douthat"
-url: "https://www.youtube.com/watch?v=s5wdJqJ708U"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "48m 8s"
-has_transcript: no
-synopsis: "‘This Is the War Against Human Nature’ | Interesting Times with Ross Douthat by Interesting Times with Ross Douthat. A tutorial covering war, against, human."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "‘This Is the War"
-  - "‘This Is the War Against Human"
----
-
 # ‘This Is the War Against Human Nature’ | Interesting Times with Ross Douthat
 
 **Channel**: Interesting Times with Ross Douthat

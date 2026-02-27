@@ -1,24 +1,3 @@
----
-url: https://x.com/DhravyaShah/status/2023630749065228364
-author: "Dhravya Shah (@DhravyaShah)"
-captured_date: 2026-02-16
-id: SOURCE-20260217-005
-original_filename: "20260217-x_article-why_everyone_is_complaining_about_openclaw_memory_it_sucks_and_why_supermemory_fixes_it-@dhravyashah.md"
-status: triaged
-platform: x
-format: article
-creator: dhravyashah
-signal_tier: strategic
-topics: [ai-agents, memory-systems, developer-tools, ai-engineering]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["dhravyashah - supermemory fixes OpenClaw memory"]
-synopsis: "Technical breakdown of OpenClaw's memory architecture problems (tool-based not hook-based, no knowledge updates, no forgetting) and how Supermemory fixes them with a vector-graph layer, hooks instead of tools, temporal reasoning, contradiction resolution, and managed forgetting. Benchmarks show Supermemory at 85.9% vs OpenClaw RAG at 58.3% and filesystem at 54.2%."
-key_insights:
-  - "OpenClaw memory is tool-based (agent must decide to call memory tools) vs hook-based (automatic pre-request recall and post-response extraction) — hooks are faster, cheaper, and more reliable"
-  - "Managed forgetting is critical: irrelevant information must decay over time, unlike static markdown files that accumulate noise indefinitely"
-  - "Supermemory benchmarks 31.7% better than OpenClaw RAG (85.9% vs 58.3%) while using fewer tokens via automatic hook-based architecture"
----
 # Why everyone is complaining about OpenClaw's memory (it sucks) – and why supermemory fixes it
 **TLDR:** Today, we are releasing a new version of our openclaw plugin - https://github.com/supermemoryai/openclaw-supermemory. This post is going to be a bit technical, so bear with me (or bookmark for later!)
 In this post, I will talk about what we do about OpenClaw memory, and how we fix it.

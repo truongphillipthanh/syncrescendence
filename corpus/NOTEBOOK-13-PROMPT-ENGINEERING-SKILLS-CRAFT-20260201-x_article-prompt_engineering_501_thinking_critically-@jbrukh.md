@@ -1,9 +1,3 @@
----
-url: https://x.com/jbrukh/status/2018182175393239283
-author: Jake Brukhman (@jbrukh)
-captured_date: 2026-02-01
----
-
 # Prompt Engineering 501: Thinking Critically
 
 (Description: An isometric illustration featuring a mechanical/industrial aesthetic. The image shows a central platform with gears, cogs, and mechanical components in blue and cream tones. Surrounding elements include architectural structures with stairs, wheels, and various mechanical parts arranged in an abstract three-dimensional landscape, representing the concept of systematic thinking and mechanical problem-solving.)

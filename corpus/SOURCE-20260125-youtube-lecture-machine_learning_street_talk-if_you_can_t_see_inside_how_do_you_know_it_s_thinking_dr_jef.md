@@ -1,39 +1,3 @@
----
-id: SOURCE-20260125-342
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "see"
-  - "inside"
-  - "know"
-  - "thinking"
-  - "jeff"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "If You Can't See Inside, How Do You Know It's THINKING? [Dr. Jeff Beck]"
-url: "https://www.youtube.com/watch?v=Ucqfb33GJJ4"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "46m 57s"
-has_transcript: no
-synopsis: "If You Can't See Inside, How Do You Know It's THINKING? [Dr. Jeff Beck] by Machine Learning Street Talk. A lecture covering see, inside, know."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: coding-tools
-aliases:
-  - "If You Can't See"
-  - "If You Can't See Inside, How"
----
-
 # If You Can't See Inside, How Do You Know It's THINKING? [Dr. Jeff Beck]
 
 **Channel**: Machine Learning Street Talk

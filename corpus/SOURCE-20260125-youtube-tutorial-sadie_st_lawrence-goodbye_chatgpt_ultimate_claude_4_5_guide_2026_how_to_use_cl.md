@@ -1,39 +1,3 @@
----
-id: SOURCE-20260125-318
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "goodbye"
-  - "chatgpt"
-  - "ultimate"
-  - "claude"
-  - "guide"
-creator: "Sadie St Lawrence"
-guest: null
-title: "Goodbye ChatGPT... Ultimate Claude 4.5 Guide 2026 (How to use Claude AI for beginners)"
-url: "https://www.youtube.com/watch?v=L5dPqUKCQgg"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 47s"
-has_transcript: no
-synopsis: "Goodbye ChatGPT... Ultimate Claude 4.5 Guide 2026 (How to use Claude AI for beginners) by Sadie St Lawrence. A tutorial covering goodbye, chatgpt, ultimate."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Goodbye ChatGPT... Ultimate Claude"
-  - "Goodbye ChatGPT... Ultimate Claude 4.5 Guide"
----
-
 # Goodbye ChatGPT... Ultimate Claude 4.5 Guide 2026 (How to use Claude AI for beginners)
 
 **Channel**: Sadie St Lawrence

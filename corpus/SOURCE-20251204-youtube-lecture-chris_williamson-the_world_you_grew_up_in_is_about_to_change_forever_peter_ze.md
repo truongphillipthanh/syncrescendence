@@ -1,39 +1,3 @@
----
-id: SOURCE-20251204-917
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "world"
-  - "grew"
-  - "change"
-  - "forever"
-  - "peter"
-creator: "Chris Williamson"
-guest: null
-title: "The World You Grew Up In Is About to Change Forever - Peter Zeihan"
-url: "https://www.youtube.com/watch?v=oiT0bF3brHw"
-date_published: 2025-12-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 19m 28s"
-has_transcript: no
-synopsis: "The World You Grew Up In Is About to Change Forever - Peter Zeihan by Chris Williamson. A lecture covering world, grew, change."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The World You Grew"
-  - "The World You Grew Up In"
----
-
 # The World You Grew Up In Is About to Change Forever - Peter Zeihan
 
 **Channel**: Chris Williamson

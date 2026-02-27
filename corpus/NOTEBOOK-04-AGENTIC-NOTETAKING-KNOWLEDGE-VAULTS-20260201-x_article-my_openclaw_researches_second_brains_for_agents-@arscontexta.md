@@ -1,9 +1,3 @@
----
-url: "https://x.com/arscontexta/status/2018026720079622193"
-author: "Heinrich (@arscontexta)"
-captured_date: "2026-02-01"
----
-
 # My OpenClaw researches Second Brains for Agents
 
 ![Description: A black and white engraved illustration depicting a bearded scholar or scientist in period clothing sitting at a desk with books and instruments on the left side. On the right side of the image, displayed on a computer screen, is a portrait of another bearded man surrounded by interconnected geometric patterns, neurons, spheres, and light-emanating symbols, representing knowledge networks and AI consciousness. A candle burns on the desk, symbolizing illumination and learning. The composition blends Renaissance-era scholarship with modern artificial intelligence concepts.](image)

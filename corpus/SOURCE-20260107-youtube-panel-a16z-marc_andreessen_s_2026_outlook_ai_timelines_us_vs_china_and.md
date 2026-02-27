@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-595
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "marc"
-  - "andreessen"
-  - "2026"
-  - "outlook"
-  - "timelines"
-creator: "a16z"
-guest: null
-title: "Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI"
-url: "https://www.youtube.com/watch?v=xRh2sVcNXQ8"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 21m 18s"
-has_transcript: no
-synopsis: "Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI by a16z. A panel discussion covering marc, andreessen, 2026."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Marc Andreessen's 2026 Outlook:"
-  - "Marc Andreessen's 2026 Outlook: AI Timelines,"
----
-
 # Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI
 
 **Channel**: a16z

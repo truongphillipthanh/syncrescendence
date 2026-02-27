@@ -1,9 +1,3 @@
----
-url: https://x.com/chasing_next/status/2020153291917967706
-author: Riley (@chasing_next)
-captured_date: 2026-02-13
----
-
 # The Skillmaxxer-3000: Use This To Build Expert-Level Claude Skills
 
 (Description: Meme image featuring two characters from Back to the Future - Doc Brown with wild white hair and Marty McFly looking amazed/shocked in conversation. Used humorously to illustrate the power of the Skillmaxxer tool.)

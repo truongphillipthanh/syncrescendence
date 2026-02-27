@@ -1,17 +1,3 @@
----
-id: CLARESCENCE-2026-02-12-mba-commander-reinit
-type: clarescence
-fidelity: operational
-passes_run: 0+1-7
-date: 2026-02-12
-agent: commander
-topic: Commander reinit prompt for MacBook Air — session bootstrap context
-predecessors:
-  - CLARESCENCE-2026-02-11-mba-commander-init.md
-  - CLARESCENCE-2026-02-09-mba-ajna-setup.md
-  - CLARESCENCE-2026-02-12-post-da11-next-path.md
----
-
 # CLARESCENCE: MBA Commander Reinit Prompt
 
 **Date**: 2026-02-12

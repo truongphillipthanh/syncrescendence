@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-article-tim_denning-the_most_successful_people_i_know_have_a_psychopathic_sense_of_urgency
-platform: x
-format: article
-creator: tim_denning
-title: the most successful people i know have a psychopathic sense of urgency
-status: triaged
-original_filename: "20260126-x_article-the_most_successful_people_i_know_have_a_psychopathic_sense_of_urgency-@tim_denning.md"
-url: https://x.com/Tim_Denning/status/2015740755550351762
-author: "Tim Denning (@Tim_Denning)"
-captured_date: 2026-01-26
-signal_tier: tactical
-topics: ""
-teleology: inspire
-notebooklm_category: career-growth
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # The Most Successful People I Know Have a Psychopathic Sense of Urgency
 
 (Description: Cinematic film still showing a person with dark hair from behind, wearing a light cream/beige colored jacket, standing in a surreal room filled with stacked vintage television sets glowing with green-tinted screens; artistic, dystopian aesthetic)

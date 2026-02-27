@@ -1,9 +1,3 @@
----
-url: https://x.com/theonejvo/status/2015401219746128322
-author: Jamieson O'Reilly (@theonejvo)
-captured_date: 2026-02-04
----
-
 # Hacking ClawdBot and Eating Lobster Souls
 
 (Description: Glitchy cyberpunk-style artwork featuring a hooded figure in profile against a digital background of green matrix-style characters and data streams, with pink/magenta chromatic aberration effects, suggesting hacking or cyber intrusion)

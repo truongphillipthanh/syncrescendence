@@ -1,28 +1,3 @@
----
-id: SOURCE-20260203-008
-original_filename: RESPONSE-VANGUARD-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: vanguard
-signal_tier: strategic
-topics:
-  - ai-agents
-  - openclaw
-  - security
-  - best-practices
-  - research
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Vanguard response - OpenClaw security best practices"
-synopsis: "Practical security audit and config best practices for OpenClaw. Covers gateway localhost binding, channel allowlists, Docker sandboxing, tool deny-lists for non-owner agents, and workspace file permissions with JSON config examples."
-url: internal
-key_insights:
-  - "P0 security requires gateway localhost binding, channel allowlists, plugin pinning, and Docker sandboxes — treat all npm plugins as untrusted code."
-  - "Tool deny-lists with workspace read-only access create defense-in-depth for multi-agent setups."
-  - "The openclaw security audit command provides automated misconfiguration detection analogous to cloud security scanners."
----
 # OpenClaw Best Practices Audit
 
 Audit security and config (P0). Ensure gateway is bound to localhost only (gateway.bind: "loopback") and use the built-in gateway token; lock down channels with allowlists/pairing[1][2]. Use openclaw pairing or Slack/iMessage DM allowlists so only authorized users can trigger the agent[2]. Inspect and pin all plugins/skills before enabling (treat npm-based plugins as untrusted code)[3]. Set workspace file permissions (e.g. ~/.openclaw/openclaw.json to 600) and firewall to block unwanted ports[4][5]. Verify that the gateway isn't exposed on 0.0.0.0; use VPN/Tailscale for any remote access[6][7]. Run openclaw security audit to catch misconfigurations and require human approval for risky actions[7].

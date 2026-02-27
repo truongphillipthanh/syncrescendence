@@ -1,9 +1,3 @@
----
-url: https://x.com/MengTo/status/2019789723590697257
-author: Meng To (@MengTo)
-captured_date: 2026-02-06
----
-
 # How OpenClaw + Codex are changing the way I work as a designer
 
 (Description: Hero image showing multiple design application interfaces and outputs including chat windows with AI-generated content, design mockups with green accent colors, and "VISION BEYOND DESIGN" branded material displayed on a landscape background)

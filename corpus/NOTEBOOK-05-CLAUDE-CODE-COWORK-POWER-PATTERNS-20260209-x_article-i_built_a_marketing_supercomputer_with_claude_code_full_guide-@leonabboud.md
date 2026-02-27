@@ -1,9 +1,3 @@
----
-url: https://x.com/leonabboud/status/2020821834296414279
-author: Leon Abboud (@leonabboud)
-captured_date: 2026-02-13
----
-
 # I built a Marketing Supercomputer with Claude Code (Full Guide)
 
 I put the greatest marketing minds in history inside my laptop, here's how. What if you could ask Elon Musk about how he would go about building a monopoly in your industry?

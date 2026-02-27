@@ -1,36 +1,3 @@
----
-id: SOURCE-20240121-684
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "mysticism"
-  - "ancient"
-  - "greece"
-creator: "Let's Talk Religion"
-guest: null
-title: "Mysticism in Ancient Greece"
-url: "https://www.youtube.com/watch?v=stUXFuN-6T4"
-date_published: 2024-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "46m 25s"
-has_transcript: no
-synopsis: "Mysticism in Ancient Greece by Let's Talk Religion. A lecture covering mysticism, ancient, greece."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Mysticism in Ancient Greece"
----
-
 # Mysticism in Ancient Greece
 
 **Channel**: Let's Talk Religion

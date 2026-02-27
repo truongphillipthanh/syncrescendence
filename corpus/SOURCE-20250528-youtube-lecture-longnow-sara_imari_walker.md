@@ -1,39 +1,3 @@
----
-id: SOURCE-20250528-043
-platform: youtube
-format: lecture
-cadence: arrhythmic
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: integrated
-chain: intelligence
-topics: [assembly_theory, origin_of_life, complexity, information_theory, evolution, technosphere, planetary_scale]
-creator: Long Now Foundation
-guest: Sara Imari Walker
-title: "An Informational Theory of Life"
-url: https://www.youtube.com/watch?v=longnow_walker
-date_published: 2025-05-28
-date_processed: 2026-01-02
-date_integrated: 2026-01-02
-processing_function: transcribe_lecture
-integrated_into: [CANON-00015, CANON-00004, CANON-35200]
-synopsis: |
-  Sara Imari Walker presents Assembly Theory—a rigorous physical theory proposing that life is defined by the production of high-complexity objects that require historical processes of selection to exist. Objects are not just physical structures but embodied history. Technology is life by this definition—the technosphere is part of the same evolutionary process as biological life. The universe itself may be a self-constructing system where matter remembers its own history.
-key_insights:
-  - "Life is the process by which the universe explores the space of possible complex objects through historical processes of selection and construction."
-  - "Objects are not just defined by physical properties—they're defined by their history: how they came to exist."
-  - "Assembly index threshold of 15: objects above this cannot be produced repeatedly by any known abiotic process."
-  - "We are our history. Every living thing is a physical embodiment of a historical process."
-  - "Technology is life—literally. Technologies are high-assembly objects that exist because of historical processes of selection."
-  - "The technosphere is life. The totality of human technology, viewed as a global evolving system, has all characteristics of life."
-  - "Selection didn't begin with biology—it began at the level of chemistry, before the first cell."
-  - "The fundamental unit of life is not the cell. It's the lineage."
-  - "Life at planetary scale: it takes a planet to make life as we know it."
-  - "The newest things are actually the oldest things—a smartphone contains more evolutionary history than a simple molecule."
-visual_notes: |
-  Lecture with extensive discussion with Benjamin Bratton. Visual elements include assembly space diagrams, LEGO combinatorial explosion illustrations, and molecular complexity visualizations. Bratton dialogue adds significant synthesis.
----
-
 # Sara Imari Walker: An Informational Theory of Life
 
 ## MACROSCOPIC NARRATIVE LENS ALIGNMENT

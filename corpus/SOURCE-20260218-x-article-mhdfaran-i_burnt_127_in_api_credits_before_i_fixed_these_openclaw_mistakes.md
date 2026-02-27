@@ -1,32 +1,3 @@
----
-url: https://x.com/mhdfaran/status/2024107207252713752
-author: "Farhan (@mhdfaran)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-013
-original_filename: "20260218-x_article-i_burnt_127_in_api_credits_before_i_fixed_these_openclaw_mistakes-@mhdfaran.md"
-status: triaged
-platform: x
-format: article
-creator: mhdfaran
-signal_tier: tactical
-topics:
-  - ai-agents
-  - debugging
-  - extended-thinking
-  - api
-  - startup
-  - token-management
-  - rules-files
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "I Burnt 127 in API Credits Before I Fixed These OpenClaw Mistakes"
-synopsis: "I Burnt $127 in API Credits Before I Fixed These OpenClaw Mistakes Everyone on Twitter said OpenClaw would build my startup while I slept. Instead, I spent two weeks watching it burn through my API credits while it asked the same question eight times in a row. It wasn't thinking hard. It was stuck in a loop, and I was the idiot paying $0.03 per token to watch it spin."
-key_insights:
-  - "I Burnt $127 in API Credits Before I Fixed These OpenClaw Mistakes Everyone on Twitter said OpenClaw would build my startup while I slept."
-  - "If you're currently babysitting your agent, watching it loop on simple tasks, or wondering if you should just go back to coding manually, I was there."
-  - "It was fixing these specific, stupid mistakes."
----
 # I Burnt $127 in API Credits Before I Fixed These OpenClaw Mistakes
 (Description: A white background image featuring the article title in serif black text on the left side, with an illustration of a red cartoon ant character on the right side, rendered in a minimalist style.)
 Everyone on Twitter said OpenClaw would build my startup while I slept. Instead, I spent two weeks watching it burn through my API credits while it asked the same question eight times in a row. It wasn't thinking hard. It was stuck in a loop, and I was the idiot paying $0.03 per token to watch it spin.

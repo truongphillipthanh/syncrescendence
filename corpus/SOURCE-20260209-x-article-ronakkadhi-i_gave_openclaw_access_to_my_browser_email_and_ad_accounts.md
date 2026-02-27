@@ -1,21 +1,3 @@
----
-url: https://x.com/ronakkadhi/status/2020897035919176092
-author: "Ronak Kadhi (@ronakkadhi)"
-captured_date: 2026-02-09
-id: SOURCE-20260209-003
-original_filename: "20260209-x_article-i_gave_openclaw_access_to_my_browser_email_and_ad_accounts-@ronakkadhi.md"
-status: triaged
-platform: x
-format: article
-creator: ronakkadhi
-signal_tier: strategic
-topics: [ai-agents, automation, productivity]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["ronakkadhi - OpenClaw Full Business Automation"]
-synopsis: "Account of giving OpenClaw access to browser, email, and ad accounts to automate half a business, covering weekly automated workflows across inbox management, calendar, and advertising."
-key_insights: ["Deep system access transforms AI from writing assistant to operational business partner", "Browser and email integration via OpenClaw enables end-to-end workflow automation", "B2B security partnerships signal enterprise readiness for agent-level system access"]
----
 # I gave Openclaw access to my browser, email, and ad accounts. Here's what it does for me every week
 
 (Description: OpenClaw logo and branding banner featuring a red mascot character, tagline "THE AI THAT ACTUALLY DOES THINGS," and descriptive text: "Clean your inbox, send emails, manage your calendar, check you in for flights. All from WhatsApp, Telegram, or any chat app you already use." Badge indicates "OpenClaw Partners with Wealthfor for B2B Security")

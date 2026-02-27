@@ -1,11 +1,3 @@
----
-agent: adjudicator
-council: DC-203
-topic: DC-203 Praxis Deep Inspection — Session 2 scratchpad (files 25–36, syntheses + exempla verdicts)
-status: unprocessed
-collected: 2026-02-23
----
-
 ## Session 2 Scratchpad — DC-203 Adjudicator Inspection
 
 ### Files Inspected This Session

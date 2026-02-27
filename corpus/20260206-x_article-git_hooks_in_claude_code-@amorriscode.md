@@ -1,9 +1,3 @@
----
-url: https://x.com/amorriscode/status/2019833252794757299
-author: Anthony Morris (@amorriscode)
-captured_date: 2026-02-06
----
-
 # git hooks in Claude Code
 
 (Description: Illustration with a cream-colored background featuring a stylized magnifying glass rendered in black lines connected to a red diamond shape with a white curved symbol inside, suggesting the intersection of search/inspection and code/programming concepts.)

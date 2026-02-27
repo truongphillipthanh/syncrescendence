@@ -1,28 +1,3 @@
----
-url: https://x.com/ashpreetbedi/status/2018059495335764273
-author: "Ashpreet Bedi (@ashpreetbedi)"
-captured_date: 2026-02-13
-id: SOURCE-20260201-002
-original_filename: "20260201-x_article-dash_open_sourcing_openais_in_house_data_agent-@ashpreetbedi.md"
-status: triaged
-platform: x
-format: article
-creator: ashpreetbedi
-signal_tier: strategic
-topics:
-  - ai-agents
-  - ai-engineering
-  - announcement
-teleology: extract
-notebooklm_category: ai-engineering
-aliases:
-  - "Ashpreet Bedi - Dash self-learning data agent"
-synopsis: "Open-source release of Dash, a self-learning data agent inspired by OpenAI's internal data agent architecture. Uses 6 layers of context and a continuous learning memory system. Validates the 'gpu-poor' approach of learning from every query run rather than requiring massive compute."
-key_insights:
-  - "OpenAI's internal data agent uses 6 layers of context and a self-learning memory system that improves with every run — now open-sourced as Dash."
-  - "The continuous learning approach means the agent gets better at answering data questions over time without retraining — it learns from production usage."
-  - "The 'gpu-poor' continuous learning approach is validated by OpenAI's own internal architecture, making it accessible to smaller teams."
----
 # Dash: Open Sourcing OpenAI's In-House Data Agent
 
 (Description: Minimalist hero image with layered isometric illustration. Top layer features a white chip/processor tile with a dark wavy dash icon. Middle layer shows a control interface with dots and circular UI elements. Lower layers display grid patterns of database tables. Typography reads "Dash" in large black sans-serif with subtitle "Self-Learning Data Agent" in gray)

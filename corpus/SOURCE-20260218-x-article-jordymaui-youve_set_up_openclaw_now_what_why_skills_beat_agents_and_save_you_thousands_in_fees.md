@@ -1,32 +1,3 @@
----
-url: https://x.com/jordymaui/status/2024251460553199935
-author: "jordy (@jordymaui)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-009
-original_filename: "20260218-x_article-youve_set_up_openclaw_now_what_why_skills_beat_agents_and_save_you_thousands_in_fees-@jordymaui.md"
-status: triaged
-platform: x
-format: article
-creator: jordymaui
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - memory-management
-  - extended-thinking
-  - api
-  - cost-optimization
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "You've set up OpenClaw, Now What? Why skills beat agents - and save you thousand"
-  - "Youve set up OpenClaw Now What Why skills beat agents  and save you thousands in"
-synopsis: "You've set up OpenClaw, Now What? Why skills beat agents - and save you thousands in fees. ![Description: Monochrome illustration of a humanoid figure with a fly/insect head, muscular build, wearing a suit. The figure is tearing open its shirt to reveal a blue glowing "SKILLS" emblem on the chest. Surrounding the figure are scattered office items, documents, and papers in a chaotic arrangement."
-key_insights:
-  - "Each one with its own API key, its own context, its own bills."
-  - "Spinning up a new agent is like hiring a new employee who knows nothing about your company and has never met anyone on the team."
-  - "You've set up OpenClaw, Now What?"
----
 # You've set up OpenClaw, Now What? Why skills beat agents - and save you thousands in fees.
 ![Description: Monochrome illustration of a humanoid figure with a fly/insect head, muscular build, wearing a suit. The figure is tearing open its shirt to reveal a blue glowing "SKILLS" emblem on the chest. Surrounding the figure are scattered office items, documents, and papers in a chaotic arrangement. The art style is detailed etching/engraving-like with high contrast black and white.](image-hero.png)
 ## Introduction

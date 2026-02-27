@@ -1,21 +1,3 @@
----
-url: https://x.com/Zephyr_hg/status/2019835315897168263
-author: "Zephyr (@Zephyr_hg)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-024
-original_filename: "20260206-x_article-ai_business_ideas_nobody_is_building_yet-@zephyr_hg.md"
-status: triaged
-platform: x
-format: article
-creator: zephyr_hg
-signal_tier: tactical
-topics: [entrepreneurship, ai-engineering, automation, tutorial]
-teleology: implement
-notebooklm_category: career-growth
-aliases: ["Zephyr - AI Business Ideas"]
-synopsis: "Lists 5 underserved AI business opportunities with specific pricing and implementation details: niche research services for creators ($200-500/mo), local business AI audits ($500-1500), meeting summarizers for sales teams ($50-100/user/mo), AI hiring assistants ($200-500/posting), and custom industry-specific AI training ($2000-5000 build + monthly maintenance)."
-key_insights: ["Most AI businesses fail by building solutions looking for problems — these are problems looking for solutions with clear ROI", "Local business AI audits sell clarity not technology — business owners will pay $500-1500 for someone to map their processes and show exactly where AI saves time", "Each idea can be validated in 48 hours by reaching out to 10-20 prospects before building anything"]
----
 # AI Business Ideas Nobody Is Building Yet
 
 (Description: A detailed monochromatic illustration showing a landscape with gnarled trees and a sunburst in the sky above. Five business-related icons are arranged in a row beneath the landscape: a laptop/computer, a document/report, a megaphone/speaker, a briefcase, and a folder/filing cabinet.)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20240805-255
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "woman"
-  - "who"
-  - "helps"
-  - "nba"
-  - "stars"
-creator: "The Diary Of A CEO"
-guest: null
-title: "The Woman Who Helps NBA Stars To Sleep: Stop Having Showers Just Before Bed! Dr Cheri Mah"
-url: "https://www.youtube.com/watch?v=fybq6V74qRk"
-date_published: 2024-08-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 36m 20s"
-has_transcript: no
-synopsis: "The Woman Who Helps NBA Stars To Sleep: Stop Having Showers Just Before Bed! Dr Cheri Mah by The Diary Of A CEO. A lecture covering woman, who, helps."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "The Woman Who Helps"
-  - "The Woman Who Helps NBA Stars"
----
-
 # The Woman Who Helps NBA Stars To Sleep: Stop Having Showers Just Before Bed! Dr Cheri Mah
 
 **Channel**: The Diary Of A CEO

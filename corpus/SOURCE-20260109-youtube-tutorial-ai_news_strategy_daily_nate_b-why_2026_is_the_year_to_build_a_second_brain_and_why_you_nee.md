@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-565
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "year"
-  - "build"
-  - "second"
-  - "brain"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Why 2026 Is the Year to Build a Second Brain (And Why You NEED One)"
-url: "https://www.youtube.com/watch?v=0TpON5T-Sw4"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 6s"
-has_transcript: no
-synopsis: "Why 2026 Is the Year to Build a Second Brain (And Why You NEED One) by AI News & Strategy Daily | Nate B Jones. A tutorial covering 2026, year, build."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why 2026 Is the"
-  - "Why 2026 Is the Year to"
----
-
 # Why 2026 Is the Year to Build a Second Brain (And Why You NEED One)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

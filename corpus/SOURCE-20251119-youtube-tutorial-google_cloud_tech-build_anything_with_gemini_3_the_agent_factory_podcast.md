@@ -1,39 +1,3 @@
----
-id: SOURCE-20251119-1050
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "build"
-  - "anything"
-  - "gemini"
-  - "agent"
-  - "factory"
-creator: "Google Cloud Tech"
-guest: null
-title: "Build ANYTHING with Gemini 3 | The Agent Factory Podcast"
-url: "https://www.youtube.com/watch?v=hj0nTLbhIEY"
-date_published: 2025-11-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 28s"
-has_transcript: no
-synopsis: "Build ANYTHING with Gemini 3 | The Agent Factory Podcast by Google Cloud Tech. A tutorial covering build, anything, gemini."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Build ANYTHING with Gemini"
-  - "Build ANYTHING with Gemini 3 |"
----
-
 # Build ANYTHING with Gemini 3 | The Agent Factory Podcast
 
 **Channel**: Google Cloud Tech

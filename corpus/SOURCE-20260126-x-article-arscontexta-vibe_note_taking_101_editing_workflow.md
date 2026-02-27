@@ -1,30 +1,3 @@
----
-url: https://x.com/arscontexta/status/2015909609999941965
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-01-26
-id: SOURCE-20260126-002
-original_filename: "20260126-x_article-vibe_note_taking_101_editing_workflow-@arscontexta.md"
-status: triaged
-platform: x
-format: article
-creator: arscontexta
-signal_tier: tactical
-topics:
-  - claude-code
-  - ai-workflow
-  - context-management
-  - memory-management
-  - rag
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Vibe NoteTaking 101 Editing Workflow"
-synopsis: "Vibe Note-Taking 101: Editing Workflow The Problem editing long content with claude code sucks the normal way looks like this: - read through your draft - notice paragraph 3 needs work - copy that paragraph - paste it to claude with your comment - scroll to paragraph 7 - copy that one too - past."
-key_insights:
-  - ""feels abstract" → added concrete mechanism 2."
-  - ""make it hit harder" → expanded with specific pain points 3."
-  - "write your draft without stopping 2."
----
 # Vibe Note-Taking 101: Editing Workflow
 
 (Description: Black-and-white engraving illustration of a bearded scholar in period clothing examining handwritten documents with annotations, surrounded by papers, books, and an ink lamp. The aesthetic evokes classical scholarly editing practices with visible editorial marks and marginalia on the manuscripts.)

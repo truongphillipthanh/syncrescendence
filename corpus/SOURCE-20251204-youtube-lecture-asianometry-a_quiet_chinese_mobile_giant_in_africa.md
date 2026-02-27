@@ -1,39 +1,3 @@
----
-id: SOURCE-20251204-916
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "quiet"
-  - "chinese"
-  - "mobile"
-  - "giant"
-  - "africa"
-creator: "Asianometry"
-guest: null
-title: "A Quiet Chinese Mobile Giant in Africa"
-url: "https://www.youtube.com/watch?v=PiXEJ6qe_Cg"
-date_published: 2025-12-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 19s"
-has_transcript: no
-synopsis: "A Quiet Chinese Mobile Giant in Africa by Asianometry. A lecture covering quiet, chinese, mobile."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "A Quiet Chinese Mobile"
-  - "A Quiet Chinese Mobile Giant in"
----
-
 # A Quiet Chinese Mobile Giant in Africa
 
 **Channel**: Asianometry

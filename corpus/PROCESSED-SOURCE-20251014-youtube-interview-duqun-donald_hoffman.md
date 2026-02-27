@@ -1,16 +1,3 @@
----
-id: SOURCE-20251014-youtube-interview-duqun-donald_hoffman
-title: "Interface Theory of Perception and Consciousness"
-creator: Duqun
-guest: Donald Hoffman
-date_published: 2025-10-14
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Wisdom
-integration_targets: [CANON-35000-WISDOM, CANON-00016-ONTOLOGICAL_FRAMEWORK]
----
-
 # Interface Theory of Perception and Consciousness
 
 ## Executive Summary

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-004
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "learned"
-  - "designing"
-  - "more"
-  - "than"
-  - "any"
-creator: "Aakash Gupta"
-guest: null
-title: "I learned AI designing more in this 1 hr than any course ever"
-url: "https://www.youtube.com/watch?v=IUvi2YHayS0"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 1m 56s"
-has_transcript: no
-synopsis: "I learned AI designing more in this 1 hr than any course ever by Aakash Gupta. A lecture covering learned, designing, more."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "I learned AI designing"
-  - "I learned AI designing more in"
----
-
 # I learned AI designing more in this 1 hr than any course ever
 
 **Channel**: Aakash Gupta

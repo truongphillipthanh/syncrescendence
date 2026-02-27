@@ -1,37 +1,3 @@
----
-id: SOURCE-20260127-319
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "moltbot"
-  - "clearly"
-  - "explained"
-creator: "Prompt Engineering"
-guest: null
-title: "Clawdbot (moltbot) Clearly Explained..."
-url: "https://www.youtube.com/watch?v=9wmiXD04uE8"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 57s"
-has_transcript: no
-synopsis: "Clawdbot (moltbot) Clearly Explained... by Prompt Engineering. A lecture covering clawdbot, moltbot, clearly."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "Clawdbot (moltbot) Clearly Explained..."
----
-
 # Clawdbot (moltbot) Clearly Explained...
 
 **Channel**: Prompt Engineering

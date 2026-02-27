@@ -1,39 +1,3 @@
----
-id: SOURCE-20260103-632
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "just"
-  - "got"
-  - "infinite"
-  - "memory"
-  - "google"
-creator: "LogicLayers"
-guest: null
-title: "AI Just Got Infinite Memory Google DeepMind Breakthrough & OpenAI Device"
-url: "https://www.youtube.com/watch?v=-F4JejTHrrQ"
-date_published: 2026-01-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 1s"
-has_transcript: no
-synopsis: "AI Just Got Infinite Memory Google DeepMind Breakthrough & OpenAI Device by LogicLayers. A lecture covering just, got, infinite."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Just Got Infinite"
-  - "AI Just Got Infinite Memory Google"
----
-
 # AI Just Got Infinite Memory Google DeepMind Breakthrough & OpenAI Device
 
 **Channel**: LogicLayers

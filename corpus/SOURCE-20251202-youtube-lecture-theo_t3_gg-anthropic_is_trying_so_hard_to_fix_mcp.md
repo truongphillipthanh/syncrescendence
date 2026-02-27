@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-956
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "trying"
-  - "hard"
-  - "fix"
-  - "mcp"
-creator: "Theo - t3․gg"
-guest: null
-title: "Anthropic is trying SO hard to fix MCP..."
-url: "https://www.youtube.com/watch?v=hPPTrsUzLA8"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38m 50s"
-has_transcript: no
-synopsis: "Anthropic is trying SO hard to fix MCP... by Theo - t3․gg. A lecture covering anthropic, trying, hard."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic is trying SO"
-  - "Anthropic is trying SO hard to"
----
-
 # Anthropic is trying SO hard to fix MCP...
 
 **Channel**: Theo - t3․gg

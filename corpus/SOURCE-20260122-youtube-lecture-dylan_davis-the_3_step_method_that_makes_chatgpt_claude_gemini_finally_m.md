@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-383
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "step"
-  - "method"
-  - "makes"
-  - "chatgpt"
-  - "claude"
-creator: "Dylan Davis"
-guest: null
-title: "The 3-Step Method That Makes ChatGPT, Claude & Gemini Finally Match Your Standards"
-url: "https://www.youtube.com/watch?v=FkR-1Qol8PI"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 55s"
-has_transcript: no
-synopsis: "The 3-Step Method That Makes ChatGPT, Claude & Gemini Finally Match Your Standards by Dylan Davis. A lecture covering step, method, makes."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "The 3-Step Method That"
-  - "The 3-Step Method That Makes ChatGPT,"
----
-
 # The 3-Step Method That Makes ChatGPT, Claude & Gemini Finally Match Your Standards
 
 **Channel**: Dylan Davis

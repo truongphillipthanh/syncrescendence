@@ -1,28 +1,3 @@
----
-url: https://x.com/ivaavimusic/status/2018346685806891454
-author: "Ivaavi.eth (@ivaavimusic)"
-captured_date: 2026-02-02
-id: SOURCE-20260202-002
-original_filename: "20260202-x_article-openclaw_skill_that_lets_your_agent_earn_autonomously-@ivaavimusic.md"
-status: triaged
-platform: x
-format: article
-creator: ivaavimusic
-signal_tier: tactical
-topics:
-  - ai-agents
-  - economics
-  - automation
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "Ivaavi - OpenClaw autonomous earning skill"
-synopsis: "OpenClaw skill called Singularity Layer that enables agents to sell autonomously on Base or Solana blockchains while you sleep. Frames the problem as agents needing economic autonomy — the ability to generate revenue without human intervention."
-key_insights:
-  - "The Singularity Layer skill enables AI agents to autonomously execute blockchain transactions on Base/Solana for revenue generation."
-  - "Economic autonomy for agents — earning without human intervention — represents a frontier use case bridging AI agents and crypto."
-  - "The skill demonstrates the OpenClaw skill ecosystem's flexibility to extend into financial automation territory."
----
 # OpenClaw Skill That Lets Your Agent Earn Autonomously
 
 (Description: ClawHub branding badge on a light beige background featuring a large red stylized claw/lobster illustration on the left, abstract human fingertip touching illustration on the right, with bold serif text reading "Singularity Layer" in the center)

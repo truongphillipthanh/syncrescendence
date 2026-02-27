@@ -1,28 +1,3 @@
----
-id: SOURCE-20260130-x-thread-kloss_xyz-my_current_ai_stack_heres_what_im_using
-platform: x
-format: thread
-creator: kloss_xyz
-title: my current ai stack heres what im using
-status: triaged
-original_filename: "20260130-x_thread-my_current_ai_stack_heres_what_im_using-@kloss_xyz.md"
-url: https://x.com/kloss_xyz/status/2017352338948980815
-author: "@kloss_xyz (klöss)"
-captured_date: 2026-01-30
-signal_tier: tactical
-topics:
-  - developer-tools
-  - ai-engineering
-teleology: reference
-notebooklm_category: coding-tools
-aliases:
-  - "kloss - current AI stack Jan 2026"
-synopsis: "Brief thread listing kloss's current AI tool stack: Claude Code, KIWI K2.5, Codex for coding, Cursor for IDE/debugging, Lovable for web app prototypes, Vibecode for mobile apps, and Gemini 3 Pro for frontend/UI work."
-key_insights:
-  - "The stack shows model/tool specialization: different tools for different tasks rather than one tool for everything."
-  - "Lovable for web prototyping and Vibecode for mobile apps represent the no-code/low-code vibe coding layer."
-  - "Gemini 3 Pro is specifically chosen for frontend/UI work, suggesting visual capability advantages."
----
 # My Current AI Stack
 
 my current AI stack here's what I'm using:

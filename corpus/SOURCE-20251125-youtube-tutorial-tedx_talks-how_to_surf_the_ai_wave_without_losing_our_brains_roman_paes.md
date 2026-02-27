@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-981
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "surf"
-  - "wave"
-  - "without"
-  - "losing"
-  - "brains"
-creator: "TEDx Talks"
-guest: null
-title: "How to surf the AI wave without losing our brains | Roman Paeske | TEDxSomerset West"
-url: "https://www.youtube.com/watch?v=-1rttkGJQkg"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 58s"
-has_transcript: no
-synopsis: "How to surf the AI wave without losing our brains | Roman Paeske | TEDxSomerset West by TEDx Talks. A tutorial covering surf, wave, without."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to surf the"
-  - "How to surf the AI wave"
----
-
 # How to surf the AI wave without losing our brains | Roman Paeske | TEDxSomerset West
 
 **Channel**: TEDx Talks

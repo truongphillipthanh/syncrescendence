@@ -1,39 +1,3 @@
----
-id: SOURCE-20251116-1098
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "biggest"
-  - "mystery"
-  - "llms"
-  - "just"
-  - "solved"
-creator: "bycloud"
-guest: null
-title: "The biggest Mystery of LLMs have just been solved"
-url: "https://www.youtube.com/watch?v=BbI8n9XZJo4"
-date_published: 2025-11-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 35s"
-has_transcript: no
-synopsis: "The biggest Mystery of LLMs have just been solved by bycloud. A tutorial covering biggest, mystery, llms."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The biggest Mystery of"
-  - "The biggest Mystery of LLMs have"
----
-
 # The biggest Mystery of LLMs have just been solved
 
 **Channel**: bycloud

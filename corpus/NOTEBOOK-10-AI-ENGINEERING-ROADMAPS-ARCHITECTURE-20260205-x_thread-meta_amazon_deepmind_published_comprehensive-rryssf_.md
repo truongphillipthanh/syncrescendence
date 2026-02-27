@@ -1,9 +1,3 @@
----
-url: https://x.com/rryssf_/status/2019371384900841539
-author: Robert Youssef (@rryssf_)
-captured_date: 2026-02-05
----
-
 # Agentic Reasoning for LLMs: What The Survey Doesn't Tell You
 
 meta, amazon, and deepmind researchers just published a comprehensive survey on "agentic reasoning" for llms.

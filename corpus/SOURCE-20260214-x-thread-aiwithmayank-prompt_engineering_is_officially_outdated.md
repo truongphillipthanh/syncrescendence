@@ -1,32 +1,3 @@
----
-url: https://x.com/aiwithmayank/status/2022646689648251382
-author: "Mayank Vora (@aiwithmayank)"
-captured_date: 2026-02-14
-id: SOURCE-20260214-011
-original_filename: "20260214-x_thread-prompt_engineering_is_officially_outdated-@aiwithmayank.md"
-status: triaged
-platform: x
-format: thread
-creator: aiwithmayank
-signal_tier: tactical
-topics:
-  - claude-code
-  - ai-workflow
-  - best-practices
-  - prompting
-  - context-management
-  - automation
-  - testing
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "The Complete Guide to Building Skills for Claude"
-synopsis: "The Complete Guide to Building Skills for Claude 🚨 **Prompt engineering is officially outdated.** Anthropic just released the real playbook for building AI agents that actually work. It's a 30+ page deep dive called The Complete Guide to Building Skills for Claude and it quietly shifts the conversation from "prompt engineering" to real execution design."
-key_insights:
-  - "With skills: workflows trigger automatically, best practices are embedded, API calls become consistent."
-  - "The Complete Guide to Building Skills for Claude 🚨 **Prompt engineering is officially outdated.** Anthropic just released the real playbook for building AI agents that actually work."
-  - "It's a 30+ page deep dive called The Complete Guide to Building Skills for Claude and it quietly shifts the conversation from "prompt engineering" to real execution design."
----
 # The Complete Guide to Building Skills for Claude
 🚨 **Prompt engineering is officially outdated.**
 Anthropic just released the real playbook for building AI agents that actually work.

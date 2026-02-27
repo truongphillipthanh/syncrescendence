@@ -1,39 +1,3 @@
----
-id: SOURCE-20251130-955
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "agents"
-  - "kill"
-  - "2026"
-  - "unless"
-  - "build"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Agents Will Kill Your Ul by 2026--Unless You Build This Instead"
-url: "https://www.youtube.com/watch?v=x-01UrScIrA"
-date_published: 2025-11-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 13s"
-has_transcript: no
-synopsis: "Agents Will Kill Your Ul by 2026--Unless You Build This Instead by AI News & Strategy Daily | Nate B Jones. A lecture covering agents, kill, 2026."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Agents Will Kill Your"
-  - "Agents Will Kill Your Ul by"
----
-
 # Agents Will Kill Your Ul by 2026--Unless You Build This Instead
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

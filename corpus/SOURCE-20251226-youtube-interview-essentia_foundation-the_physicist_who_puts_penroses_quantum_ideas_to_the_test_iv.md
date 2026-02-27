@@ -1,39 +1,3 @@
----
-id: SOURCE-20251226-712
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "physicist"
-  - "who"
-  - "puts"
-  - "penrose"
-  - "quantum"
-creator: "Essentia Foundation"
-guest: null
-title: "The Physicist Who Puts Penrose’s Quantum Ideas To The Test | Ivette Fuentes"
-url: "https://www.youtube.com/watch?v=0azYGnISuMY"
-date_published: 2025-12-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 37m 47s"
-has_transcript: no
-synopsis: "The Physicist Who Puts Penrose’s Quantum Ideas To The Test | Ivette Fuentes by Essentia Foundation. A interview covering physicist, who, puts."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Physicist Who Puts"
-  - "The Physicist Who Puts Penrose’s Quantum"
----
-
 # The Physicist Who Puts Penrose’s Quantum Ideas To The Test | Ivette Fuentes
 
 **Channel**: Essentia Foundation

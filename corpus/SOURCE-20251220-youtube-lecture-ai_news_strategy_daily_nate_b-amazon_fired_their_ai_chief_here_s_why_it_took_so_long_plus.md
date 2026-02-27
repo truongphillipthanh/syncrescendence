@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-782
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "amazon"
-  - "fired"
-  - "their"
-  - "chief"
-  - "here"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Amazon Fired Their AI Chief. Here's Why It Took So Long (Plus 5 Newsworthy Moments in AI This Week)"
-url: "https://www.youtube.com/watch?v=EaMz3g1OYPA"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 32s"
-has_transcript: no
-synopsis: "Amazon Fired Their AI Chief. Here's Why It Took So Long (Plus 5 Newsworthy Moments in AI This Week) by AI News & Strategy Daily | Nate B Jones. A lecture covering amazon, fired, their."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Amazon Fired Their AI"
-  - "Amazon Fired Their AI Chief. Here's"
----
-
 # Amazon Fired Their AI Chief. Here's Why It Took So Long (Plus 5 Newsworthy Moments in AI This Week)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

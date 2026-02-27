@@ -1,35 +1,3 @@
----
-id: SOURCE-20251122-939
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "emergent"
-  - "complexity"
-creator: "Emergent Garden"
-guest: null
-title: "Emergent Complexity"
-url: "https://www.youtube.com/watch?v=0HqUYpGQIfs"
-date_published: 2025-11-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 40s"
-has_transcript: no
-synopsis: "Emergent Complexity by Emergent Garden. A lecture covering emergent, complexity."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Emergent Complexity"
----
-
 # Emergent Complexity
 
 **Channel**: Emergent Garden

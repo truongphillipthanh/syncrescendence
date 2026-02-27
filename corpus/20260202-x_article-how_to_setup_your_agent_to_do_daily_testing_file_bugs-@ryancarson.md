@@ -1,9 +1,3 @@
----
-url: https://x.com/ryancarson/status/2018354837918732297
-author: Ryan Carson (@ryancarson)
-captured_date: 2026-02-13
----
-
 # How to Setup Your Agent to Do Daily Testing + File Bugs
 
 Every morning at 9 AM, a script tests our signup and onboarding flow. Fresh signup. Full onboarding. Every agent tool. If something breaks, a bug appears in our tracker before we've finished coffee.

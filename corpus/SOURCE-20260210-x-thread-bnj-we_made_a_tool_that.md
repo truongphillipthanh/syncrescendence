@@ -1,26 +1,3 @@
----
-url: https://x.com/bnj/status/2021330958671380625
-author: "Ben South (@bnj)"
-captured_date: 2026-02-14
-id: SOURCE-20260210-009
-original_filename: 20260210-x_thread-we_made_a_tool_that-bnj.md
-status: triaged
-platform: x
-format: thread
-creator: bnj
-signal_tier: tactical
-topics:
-  - reference-pattern
-teleology: reference
-notebooklm_category: ai-creative-media
-aliases:
-  - "Style Dropper Thread"
-synopsis: "Style Dropper Thread **Post 1 — Feb 10, 2026, 1:10 PM** We made a tool that lets you absorb the vibe of anything you point it at and apply it to your designs It's absurd and it just works Style Dropper, now available in @variantui **Post 2 — Feb 10, 2026** We grew up on Kid Pix and MS Paint, and."
-key_insights:
-  - "Explores style dropper thread."
-  - "Explores style dropper thread."
-  - "Explores style dropper thread."
----
 # Style Dropper Thread
 
 **Post 1 — Feb 10, 2026, 1:10 PM**

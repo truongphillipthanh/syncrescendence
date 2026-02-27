@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-700
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "year"
-  - "builder"
-  - "lovable"
-  - "ceo"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika"
-url: "https://www.youtube.com/watch?v=Nfy9BCSOTF4"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 2s"
-has_transcript: no
-synopsis: "Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering 2026, year, builder."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why 2026 is the"
-  - "Why 2026 is the Year of"
----
-
 # Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

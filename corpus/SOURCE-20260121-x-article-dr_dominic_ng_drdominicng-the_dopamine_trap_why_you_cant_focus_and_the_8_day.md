@@ -1,33 +1,3 @@
----
-id: SOURCE-20260121-001
-title: "The Dopamine Trap Why You Cant Focus And The 8 Day Fix @Drdominicng"
-platform: x
-format: article
-creator: Dr. Dominic Ng (DrDominicNg)
-date_published: 20260121
-status: triaged
-original_filename: "research/20260121-x_article-the_dopamine_trap_why_you_cant_focus_and_the_8_day_fix-@drdominicng.md"
-aliases:
-  - "Dopamine Trap Focus Fix"
-  - "8 Day Dopamine Reset"
-teleology: implement
-notebooklm_category: career-growth
-synopsis: "Neuroscientist Dr. Dominic Ng explains how chronic overstimulation raises the dopamine baseline, making focused work feel like deprivation. Provides a practical 8-day protocol to recalibrate attention without going off-grid, including friction-adding, morning/evening phone boundaries, and deliberate boredom windows."
-key_insights:
-  - "Willpower fails against distraction not because of weak discipline but because chronic stimulation has trained the nervous system to expect constant novelty"
-  - "Boredom is the recalibration mechanism — pushing through 7-8 days of reduced stimulation resets the dopamine floor so focus stops feeling punishing"
-  - "Mind-wandering during boredom is functional — nearly half of unfocused thinking processes future plans, which phone-filling eliminates"
-topics:
-  - career
-  - best-practices
-  - tutorial
-  - philosophy
-signal_tier: tactical
-url: "https://x.com/DrDominicNg/status/2013969295097655729"
-author: "Dr. Dominic Ng (@DrDominicNg)"
-captured_date: 2026-01-21
----
-
 # The Dopamine Trap: Why You Can't Focus and the 8-Day Fix
 
 ![Hero image depicting a close-up human eye transitioning from grayscale dotted texture on the left to a vibrant, colorful pixelated pattern on the right, symbolizing the shift from overstimulation to clarity. (Description: Artistic illustration showing an eye in cross-section with white highlights against black background on left side, transitioning to curved linear patterns in the center, and dense multicolored dots (pink, blue, yellow, purple, orange) filling the right portion, representing visual overstimulation and cognitive overload.)](image)

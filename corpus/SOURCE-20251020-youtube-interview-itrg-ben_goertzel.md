@@ -1,18 +1,3 @@
----
-source_id: SOURCE-20251020-141
-title: "Godfather of AGI on Why Big Tech Innovation is Over"
-platform: youtube
-format: interview
-creator: Info Tech Research Group
-guest: Ben Goertzel
-date_published: 2025-10-20
-date_processed: 2026-01-05
-chain: intelligence
-topics: [agi, superintelligence, decentralized_ai, singularitynet]
-signal_tier: strategic
-integrated_into: []
----
-
 # Ben Goertzel: AGI, Big Tech Innovation Limits, and Decentralized Future
 
 ## Core Thesis

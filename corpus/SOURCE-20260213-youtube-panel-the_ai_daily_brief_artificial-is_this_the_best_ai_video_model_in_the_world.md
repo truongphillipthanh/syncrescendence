@@ -1,38 +1,3 @@
----
-id: SOURCE-20260213-096
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "best"
-  - "video"
-  - "model"
-  - "world"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Is This the Best AI Video Model in the World?"
-url: "https://www.youtube.com/watch?v=TgyBWACUOfk"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 57s"
-has_transcript: no
-synopsis: "Is This the Best AI Video Model in the World? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering best, video, model."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Is This the Best"
-  - "Is This the Best AI Video"
----
-
 # Is This the Best AI Video Model in the World?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260202-212
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "future"
-  - "intelligence"
-  - "already"
-  - "here"
-  - "alex"
-creator: "TEDx Talks"
-guest: null
-title: "Why the Future of Intelligence Is Already Here | Alex Wissner-Gross | TEDxBoston"
-url: "https://www.youtube.com/watch?v=BYjt88zq4go"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 57s"
-has_transcript: no
-synopsis: "Why the Future of Intelligence Is Already Here | Alex Wissner-Gross | TEDxBoston by TEDx Talks. A lecture covering future, intelligence, already."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why the Future of"
-  - "Why the Future of Intelligence Is"
----
-
 # Why the Future of Intelligence Is Already Here | Alex Wissner-Gross | TEDxBoston
 
 **Channel**: TEDx Talks

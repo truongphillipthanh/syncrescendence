@@ -1,21 +1,3 @@
----
-url: https://x.com/omarsar0/status/2020546189536399568
-author: "elvis (@omarsar0)"
-captured_date: 2026-02-08
-id: SOURCE-20260208-009
-original_filename: "20260208-x_article-the_claude_code_plugin_that_replaced_my_entire_visual_workflow-@omarsar0.md"
-status: triaged
-platform: x
-format: article
-creator: omarsar0
-signal_tier: tactical
-topics: [claude-code, design, developer-tools, case-study]
-teleology: extract
-notebooklm_category: claude-code
-aliases: ["elvis - Claude Code Visual Workflow Plugin"]
-synopsis: "Describes the Playground plugin for Claude Code that replaced the author's entire visual workflow, enabling GUI-based visual feedback loops for design and image generation work."
-key_insights: ["The Playground plugin bridges terminal-based Claude Code and visual design workflows", "Visual feedback loops within Claude Code eliminate context switching to external design tools", "Plugins can transform Claude Code from text-only to visual workspace"]
----
 # The Claude Code Plugin That Replaced My Entire Visual Workflow
 
 ## Introduction

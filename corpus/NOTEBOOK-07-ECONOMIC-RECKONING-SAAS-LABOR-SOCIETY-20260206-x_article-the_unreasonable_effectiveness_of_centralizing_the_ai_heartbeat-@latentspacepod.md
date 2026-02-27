@@ -1,9 +1,3 @@
----
-url: https://x.com/latentspacepod/status/2019987978077303027
-author: Latent.Space (@latentspacepod)
-captured_date: 2026-02-06
----
-
 # The Unreasonable Effectiveness of Centralizing the AI Heartbeat
 
 ![Article header image with red arrows pointing from various devices toward a central smartphone](Description: A flat lay photograph on white marble showing a central smartphone with orange/red arrows radiating outward to vintage and modern devices including a red rotary telephone, e-reader tablet, video camera, flip phone, calculator, and digital watch, illustrating centralization and information convergence.)

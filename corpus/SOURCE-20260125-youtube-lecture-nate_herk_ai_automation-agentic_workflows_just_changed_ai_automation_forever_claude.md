@@ -1,39 +1,3 @@
----
-id: SOURCE-20260125-335
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "agentic"
-  - "workflows"
-  - "just"
-  - "changed"
-  - "automation"
-creator: "Nate Herk | AI Automation"
-guest: null
-title: "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)"
-url: "https://www.youtube.com/watch?v=AO5aW01DKHo"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 40s"
-has_transcript: no
-synopsis: "Agentic Workflows Just Changed AI Automation Forever! (Claude Code) by Nate Herk | AI Automation. A lecture covering agentic, workflows, just."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Agentic Workflows Just Changed"
-  - "Agentic Workflows Just Changed AI Automation"
----
-
 # Agentic Workflows Just Changed AI Automation Forever! (Claude Code)
 
 **Channel**: Nate Herk | AI Automation

@@ -1,37 +1,3 @@
----
-id: SOURCE-20251203-941
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "neuralink"
-  - "overview"
-  - "fall"
-  - "2025"
-creator: "Neuralink"
-guest: null
-title: "Neuralink Overview, Fall 2025"
-url: "https://www.youtube.com/watch?v=QJdgHXyJh7M"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 40s"
-has_transcript: no
-synopsis: "Neuralink Overview, Fall 2025 by Neuralink. A lecture covering neuralink, overview, fall."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Neuralink Overview, Fall 2025"
----
-
 # Neuralink Overview, Fall 2025
 
 **Channel**: Neuralink

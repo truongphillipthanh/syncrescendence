@@ -1,34 +1,3 @@
----
-id: SOURCE-20191220-1147
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "speak"
-creator: "MIT OpenCourseWare"
-guest: null
-title: "How to Speak"
-url: "https://www.youtube.com/watch?v=Unzc731iCUY"
-date_published: 2019-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 3m 43s"
-has_transcript: no
-synopsis: "How to Speak by MIT OpenCourseWare. A tutorial covering speak."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Speak"
----
-
 # How to Speak
 
 **Channel**: MIT OpenCourseWare

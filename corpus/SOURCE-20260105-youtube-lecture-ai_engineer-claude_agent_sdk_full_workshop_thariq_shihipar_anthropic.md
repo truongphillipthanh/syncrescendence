@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-614
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "agent"
-  - "sdk"
-  - "full"
-  - "workshop"
-creator: "AI Engineer"
-guest: null
-title: "Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic"
-url: "https://www.youtube.com/watch?v=TqC1qOfiVcQ"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 52m 25s"
-has_transcript: no
-synopsis: "Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic by AI Engineer. A lecture covering claude, agent, sdk."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Agent SDK [Full"
-  - "Claude Agent SDK [Full Workshop] —"
----
-
 # Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic
 
 **Channel**: AI Engineer

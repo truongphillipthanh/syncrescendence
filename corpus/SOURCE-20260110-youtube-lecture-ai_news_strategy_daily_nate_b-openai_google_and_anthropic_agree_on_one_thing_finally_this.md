@@ -1,39 +1,3 @@
----
-id: SOURCE-20260110-556
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "google"
-  - "anthropic"
-  - "agree"
-  - "one"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "OpenAI, Google, and Anthropic Agree on One Thing (Finally) - This Week's Biggest AI Stories"
-url: "https://www.youtube.com/watch?v=TTMOSR-nKjg"
-date_published: 2026-01-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 42s"
-has_transcript: no
-synopsis: "OpenAI, Google, and Anthropic Agree on One Thing (Finally) - This Week's Biggest AI Stories by AI News & Strategy Daily | Nate B Jones. A lecture covering openai, google, anthropic."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "OpenAI, Google, and Anthropic"
-  - "OpenAI, Google, and Anthropic Agree on"
----
-
 # OpenAI, Google, and Anthropic Agree on One Thing (Finally) - This Week's Biggest AI Stories
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

@@ -1,21 +1,3 @@
----
-url: https://x.com/JordanLyall/status/2019594755370545168
-author: "Jordan Lyall (@JordanLyall)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-011
-original_filename: "20260206-x_article-how_i_set_up_openclaw_clawdbot_without_giving_it_the_keys_to_my_life-@jordanlyall.md"
-status: triaged
-platform: x
-format: article
-creator: jordanlyall
-signal_tier: strategic
-topics: [ai-agents, automation, best-practices, tutorial, framework]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Jordan Lyall - Secure OpenClaw Setup"]
-synopsis: "Security-first guide to setting up OpenClaw (named TARS) on a dedicated Mac Mini with Tailscale VPN, command allowlists, read-only API tokens, and one-way data flow. Written from a crypto professional's perspective where prompt injection attacks are existential threats, covering phased capability expansion and emergency kill procedures."
-key_insights: ["Command allowlists are the critical security layer — restricting executable commands (no rm, sudo, ssh) contains prompt injection blast radius", "One-way data flow architecture (agent writes to inbox, existing systems process) prevents corruption of primary knowledge management systems", "Start read-only with no posting or financial access; prove 2 weeks of stable operation before expanding capabilities"]
----
 # How I Set Up OpenClaw (Clawdbot) Without Giving It the Keys to My Life
 
 (Description: A stylized illustration featuring a cheerful red robotic crab with yellow safety helmet and white eyes, positioned next to a blue shield icon. Both sit against a dark background with circuit board patterns. The image represents security and protection for AI agents.)

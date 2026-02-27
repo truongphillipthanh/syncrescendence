@@ -1,18 +1,3 @@
----
-source_id: SOURCE-20251222-074
-title: "How AI Agents Will Transform in 2026"
-platform: youtube
-format: panel
-creator: a16z
-guests: [Marc Andrusko, Stephenie Zhang, Olivia Moore]
-date_published: 2025-12-22
-date_processed: 2026-01-05
-chain: information
-topics: [ai_agents, voice_agents, machine_legibility, proactive_ai, enterprise]
-signal_tier: strategic
-integrated_into: []
----
-
 # a16z 2026 AI Agent Predictions
 
 ## Core Thesis

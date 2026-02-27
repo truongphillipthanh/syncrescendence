@@ -1,37 +1,3 @@
----
-id: SOURCE-20260106-580
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "architecting"
-  - "multi"
-  - "agent"
-  - "systems"
-creator: "Google Cloud Tech"
-guest: null
-title: "Architecting multi-agent systems"
-url: "https://www.youtube.com/watch?v=j_l-9uNX2SA"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3m 20s"
-has_transcript: no
-synopsis: "Architecting multi-agent systems by Google Cloud Tech. A lecture covering architecting, multi, agent."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Architecting multi-agent systems"
----
-
 # Architecting multi-agent systems
 
 **Channel**: Google Cloud Tech

@@ -1,32 +1,3 @@
----
-url: https://x.com/vasuman/status/2021362047980892628
-author: "vas (@vasuman)"
-captured_date: 2026-02-13
-id: SOURCE-20260210-006
-original_filename: "20260210-x_article-ai_for_enterprise_finance-@vasuman.md"
-status: triaged
-platform: x
-format: article
-creator: vasuman
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - context-management
-  - automation
-  - deployment
-  - git
-  - product-development
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "AI for Enterprise Finance"
-synopsis: "AI for Enterprise Finance Overview As most CFOs know, finance feels more bloated than ever. ERPs, close management platforms, AP automations, expense tools, treasury systems, and more."
-key_insights:
-  - "AI for Enterprise Finance Overview As most CFOs know, finance feels more bloated than ever."
-  - "ERPs, close management platforms, AP automations, expense tools, treasury systems, and more."
-  - "Concur/SAP/Bill.com/etc) handles big ticket items."
----
 # AI for Enterprise Finance
 
 (Description: Black and white sketch-style illustration depicting a busy corporate office scene. Multiple professionals in business attire are working at desks with computers, stacks of papers, and documents scattered throughout. The scene conveys controlled chaos and intensive collaborative work, with figures leaning over desks, gesturing while communicating, and managing extensive paperwork. A bright light source emanates from the upper right, symbolizing insight or clarity emerging from complexity. The art style suggests both the mechanical nature of routine work and human effort involved in enterprise operations.)

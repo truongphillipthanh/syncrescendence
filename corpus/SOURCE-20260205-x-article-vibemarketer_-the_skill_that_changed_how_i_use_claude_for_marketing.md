@@ -1,28 +1,3 @@
----
-url: https://x.com/VibeMarketer_/status/2019435524532904205
-author: "J.B. (@VibeMarketer_)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-018
-original_filename: "20260205-x_article-the_skill_that_changed_how_i_use_claude_for_marketing-@vibemarketer_.md"
-status: triaged
-platform: x
-format: article
-creator: vibemarketer_
-signal_tier: tactical
-topics:
-  - claude-code
-  - prompting
-  - testing
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "the skill that changed how i use claude for marketing"
-synopsis: "the skill that changed how i use claude for marketing it's called a recursive self-improvement loop. and once you understand it, you'll never prompt the normal way again. How It Works i've been using this with amazing results lately. here's how it works: most people prompt claude once and ship whatever comes back. a recursive skill works differently."
-key_insights:
-  - "and once you understand it, you'll never prompt the normal way again."
-  - "The Pattern Works for Everything - **email sequences**: generates the full drip, then stress-tests every subject line, hook, and cta against the same loop."
-  - "The Core Pattern the pattern is always the same: **generate → evaluate → diagnose → improve → repeat**."
----
 # the skill that changed how i use claude for marketing
 
 (Description: ASCII art visualization with folder icon labeled "marketing skills" - representing conceptual knowledge organization)

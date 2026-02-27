@@ -1,10 +1,3 @@
----
-url: https://x.com/renatonitta/status/2022053849670762858
-author: Renato Nitta (@renatonitta)
-captured_date: 2026-02-12
-article_type: X Article
----
-
 # I gave OpenClaw a name, its own computer, and told it to figure things out. Here's the 32-hour recap
 
 (Description: Header image featuring the OpenClaw logo (red lobster mascot) and a smiling raccoon character mascot side-by-side)

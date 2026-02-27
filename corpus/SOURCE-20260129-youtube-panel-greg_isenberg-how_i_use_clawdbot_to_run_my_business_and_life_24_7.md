@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-241
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "use"
-  - "clawdbot"
-  - "run"
-  - "business"
-  - "life"
-creator: "Greg Isenberg"
-guest: null
-title: "How I Use Clawdbot to Run My Business and Life 24/7"
-url: "https://www.youtube.com/watch?v=YRhGtHfs1Lw"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 59s"
-has_transcript: no
-synopsis: "How I Use Clawdbot to Run My Business and Life 24/7 by Greg Isenberg. A panel discussion covering use, clawdbot, run."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "How I Use Clawdbot"
-  - "How I Use Clawdbot to Run"
----
-
 # How I Use Clawdbot to Run My Business and Life 24/7
 
 **Channel**: Greg Isenberg

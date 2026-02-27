@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-1000
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "thinking"
-  - "game"
-  - "full"
-  - "documentary"
-  - "tribeca"
-creator: "Google DeepMind"
-guest: null
-title: "The Thinking Game | Full documentary | Tribeca Film Festival official selection"
-url: "https://www.youtube.com/watch?v=d95J8yzvjbQ"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 24m 8s"
-has_transcript: no
-synopsis: "The Thinking Game | Full documentary | Tribeca Film Festival official selection by Google DeepMind. A lecture covering thinking, game, full."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Thinking Game |"
-  - "The Thinking Game | Full documentary"
----
-
 # The Thinking Game | Full documentary | Tribeca Film Festival official selection
 
 **Channel**: Google DeepMind

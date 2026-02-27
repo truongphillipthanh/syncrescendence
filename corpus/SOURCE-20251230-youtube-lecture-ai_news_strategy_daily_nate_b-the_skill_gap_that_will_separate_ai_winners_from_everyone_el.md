@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-685
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "skill"
-  - "gap"
-  - "separate"
-  - "winners"
-  - "everyone"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The Skill Gap That Will Separate AI Winners from Everyone Else"
-url: "https://www.youtube.com/watch?v=LwKnvqVdUgA"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 52s"
-has_transcript: no
-synopsis: "The Skill Gap That Will Separate AI Winners from Everyone Else by AI News & Strategy Daily | Nate B Jones. A lecture covering skill, gap, separate."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Skill Gap That"
-  - "The Skill Gap That Will Separate"
----
-
 # The Skill Gap That Will Separate AI Winners from Everyone Else
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

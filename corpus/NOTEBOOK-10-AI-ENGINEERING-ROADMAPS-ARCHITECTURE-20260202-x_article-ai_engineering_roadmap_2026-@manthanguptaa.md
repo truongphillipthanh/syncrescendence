@@ -1,9 +1,3 @@
----
-url: https://x.com/manthanguptaa/status/2018297734995075200
-author: Manthan Gupta (@manthanguptaa)
-captured_date: 2026-02-02T04:17:00Z
----
-
 # AI Engineering Roadmap 2026
 
 ![Cover Image](Description: Traditional East Asian landscape painting in muted sage and cream tones. A bearded figure in golden robes poles a wooden boat across a calm, misty lake. Gnarled pine tree with dark trunk and feathered foliage extends from upper right. Distant pagoda visible through morning mist on far shore. Rocky outcropping in foreground with dark stones partially submerged in blue water. Monochrome signature and seal mark visible in lower left corner.)

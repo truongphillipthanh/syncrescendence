@@ -1,32 +1,3 @@
----
-url: https://x.com/omooretweets/status/2015618038088024164
-author: "Olivia Moore (@omooretweets)"
-captured_date: 2026-01-25
-id: SOURCE-20260126-008
-original_filename: "20260126-x_article-clawdbot_is_amazing_and_i_dont_think_consumers_should_use_it-@omooretweets.md"
-status: triaged
-platform: x
-format: article
-creator: omooretweets
-signal_tier: strategic
-topics:
-  - ai-agents
-  - agentic-development
-  - automation
-  - debugging
-  - extended-thinking
-  - gemini
-  - gpt
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Clawdbot is amazing  and I dont think consumers should use it"
-synopsis: "Clawdbot is amazing - and, I don't think consumers should use it I spent the weekend setting up Clawdbot. By Sunday evening, I had an AI agent that summarizes my Twitter feed, one that recommends new books weekly based on my recent reads, and a third that texts me every morning with my schedule, a weather alert, and a fun quote. It's genuinely magical."
-key_insights:
-  - "Clawdbot is amazing - and, I don't think consumers should use it I spent the weekend setting up Clawdbot."
-  - "And, I don't think most people should try it (yet!) Here's why, and here's what you can use instead."
-  - "- **It's easy to trigger things you don't want.** Technical users have the mental model to catch mistakes - ex."
----
 # Clawdbot is amazing - and, I don't think consumers should use it
 
 (Description: A surreal digital illustration featuring an anthropomorphic orange octopus-like creature with large eyes, wearing a brown/tan shirt, sitting at a wooden desk. The desk displays a laptop with green code on the screen. The background shows a cozy steampunk-inspired workspace with vintage wooden drawers, bookshelves, warm lighting, and desk accessories including a coffee mug and stacked papers. The color palette is predominantly warm oranges and browns.)

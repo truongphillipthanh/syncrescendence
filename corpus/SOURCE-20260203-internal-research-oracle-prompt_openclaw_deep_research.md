@@ -1,27 +1,3 @@
----
-id: SOURCE-20260203-005
-original_filename: PROMPT-ORACLE-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: oracle
-signal_tier: tactical
-topics:
-  - ai-agents
-  - openclaw
-  - research
-  - orchestration
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Oracle prompt - OpenClaw deep research medley"
-synopsis: "Research prompt dispatched from Ajna to Oracle (Grok) as RECON — cultural discourse mining from the X/Twitter firehose for the OpenClaw research medley."
-url: internal
-key_insights:
-  - "Oracle's recon role leverages Grok's X/Twitter firehose access for real-time cultural discourse mining."
-  - "Assigning emotional intelligence and cultural divination as explicit roles shows sophisticated prompt engineering for multi-model coordination."
-  - "The prompt structures model-specific strengths as formal research roles within a parallel intelligence operation."
----
 # PROMPT-ORACLE-20260203-openclaw_deep_research
 
 **From**: Ajna (OpenClaw, M1 Mac mini)

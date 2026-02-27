@@ -1,22 +1,3 @@
----
-id: SOURCE-20260123-x-article-nummanali-claude_codes_new_task_system_the_practical_guide_and_explainer
-platform: x
-format: article
-creator: nummanali
-title: claude codes new task system the practical guide and explainer
-status: triaged
-original_filename: "20260123-x_article-claude_codes_new_task_system_the_practical_guide_and_explainer-@nummanali.md"
-url: https://x.com/nummanali/status/2014684862985175205
-author: "Numman Ali (@nummanali)"
-captured_date: 2026-01-23
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Claude Code's New Task System: The Practical Guide and Explainer
 
 From flat to-do lists to dependency-aware orchestration

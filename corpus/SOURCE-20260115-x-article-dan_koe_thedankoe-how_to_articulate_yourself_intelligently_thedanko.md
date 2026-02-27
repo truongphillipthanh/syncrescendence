@@ -1,32 +1,3 @@
----
-id: SOURCE-20260115-001
-title: "How To Articulate Yourself Intelligently @Thedankoe"
-platform: x
-format: article
-creator: Dan Koe (thedankoe)
-date_published: 20260115
-status: triaged
-original_filename: "research/20260115-x_article-how_to_articulate_yourself_intelligently-@thedankoe.md"
-aliases:
-  - "Dan Koe - Articulate Intelligently"
-teleology: inspire
-notebooklm_category: career-growth
-url: "https://x.com/thedankoe/status/2011827303962329458"
-author: "Dan Koe (@thedankoe)"
-captured_date: 2026-01-30
-synopsis: "Dan Koe on articulating yourself intelligently: the ability to construct clear mental models and communicate them precisely is the meta-skill underlying all other skills. Covers frameworks for thinking clearly, writing persuasively, and building an audience through articulation."
-key_insights:
-  - "Articulation is the meta-skill: the ability to construct clear mental models and communicate them precisely underlies all other professional skills"
-  - "Clear thinking precedes clear writing: you cannot articulate what you do not understand so articulation forces deep understanding"
-  - "Building an audience through articulation creates a personal brand that compounds over time as each piece of content reinforces your perspective"
-topics:
-  - "content-creation"
-  - "career"
-  - "education"
-  - "philosophy"
-signal_tier: tactical
----
-
 # How to articulate yourself intelligently
 
 (Description: A black and white artistic illustration showing a profile of a human head with an open mouth on the left side, emitting or releasing a spiral galaxy and cosmic cloud formations toward the upper right. The imagery suggests the flow of ideas, knowledge, or communication emerging from thought and speech.)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1082
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "fund"
-  - "andrew"
-  - "llms"
-  - "next"
-  - "geopolitical"
-creator: "20VC with Harry Stebbings"
-guest: null
-title: "AI Fund’s GP, Andrew Ng: LLMs as the Next Geopolitical Weapon & Do Margins Still Matter in AI?"
-url: "https://www.youtube.com/watch?v=rT74mF6_NhQ"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 6m 6s"
-has_transcript: no
-synopsis: "AI Fund’s GP, Andrew Ng: LLMs as the Next Geopolitical Weapon & Do Margins Still Matter in AI? by 20VC with Harry Stebbings. A lecture covering fund, andrew, llms."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Fund’s GP, Andrew"
-  - "AI Fund’s GP, Andrew Ng: LLMs"
----
-
 # AI Fund’s GP, Andrew Ng: LLMs as the Next Geopolitical Weapon & Do Margins Still Matter in AI?
 
 **Channel**: 20VC with Harry Stebbings

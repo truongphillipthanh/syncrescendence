@@ -1,39 +1,3 @@
----
-id: SOURCE-20260104-575
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "jamie"
-  - "phillips"
-  - "shares"
-  - "clear"
-  - "clinical"
-creator: "Notion"
-guest: null
-title: "Dr Jamie Phillips shares how clear clinical governance enables health innovation"
-url: "https://www.youtube.com/watch?v=MODyHQtzHLo"
-date_published: 2026-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1m 29s"
-has_transcript: no
-synopsis: "Dr Jamie Phillips shares how clear clinical governance enables health innovation by Notion. A lecture covering jamie, phillips, shares."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Dr Jamie Phillips shares"
-  - "Dr Jamie Phillips shares how clear"
----
-
 # Dr Jamie Phillips shares how clear clinical governance enables health innovation
 
 **Channel**: Notion

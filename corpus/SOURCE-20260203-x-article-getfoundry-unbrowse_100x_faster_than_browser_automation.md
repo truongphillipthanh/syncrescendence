@@ -1,29 +1,3 @@
----
-url: https://x.com/getFoundry/status/2018751025520513391
-author: "Foundry (@getFoundry)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-017
-original_filename: "20260203-x_article-unbrowse_100x_faster_than_browser_automation-@getfoundry.md"
-status: triaged
-platform: x
-format: article
-creator: getfoundry
-signal_tier: strategic
-topics:
-  - ai-agents
-  - developer-tools
-  - performance
-  - openclaw
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Foundry - Unbrowse API-first agent tool"
-synopsis: "Unbrowse replaces browser automation with direct API calls for OpenClaw agents — 100x faster (200ms vs 10+ seconds), more reliable, and less resource-intensive. The insight is that every browser action is just an API call wearing a button costume, and agents should call APIs directly instead of puppeteering browsers."
-key_insights:
-  - "Browser automation for agents is fundamentally wasteful — every button click is an API call in disguise, and agents should call those APIs directly."
-  - "The 'one agent learns, all agents know' pattern means API discovery skills can be shared across the agent community via a skill registry."
-  - "Moving from browser automation (10-45s, 15-30% failure, 500MB RAM) to direct API calls (200ms) represents a 100x improvement in agent action speed."
----
 # Unbrowse: 100x Faster Than Browser Automation
 
 (Description: Dark background with red robot mascot icon at top. Bold cyan and neon green text reads "ONE AGENT LEARNS. ALL AGENTS KNOW." with subtitle "Search for skills. Download. Your agent calls internal APIs in 200ms instead of browser automation in 10+ seconds.")

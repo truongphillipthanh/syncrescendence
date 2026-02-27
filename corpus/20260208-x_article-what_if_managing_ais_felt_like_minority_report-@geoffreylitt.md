@@ -1,9 +1,3 @@
----
-url: https://x.com/geoffreylitt/status/2020599545206313171
-author: Geoffrey Litt (@geoffreylitt)
-captured_date: 2026-02-08
----
-
 # What if managing AIs felt like Minority Report?
 
 (Description: A futuristic image showing a man in dark clothing with glowing blue holographic interfaces, his hands raised in a gesture toward floating digital elements. Cinematic sci-fi aesthetic with blue and cyan color grading.)

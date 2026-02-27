@@ -1,30 +1,3 @@
----
-id: SOURCE-20260112-x-article-eyad_khrais-the_claude_code_tutorial_level_2
-platform: x
-format: article
-creator: eyad_khrais
-title: the claude code tutorial level 2
-status: triaged
-original_filename: "3-BestPractice_ProTiips--3-20260112-x_article-the_claude_code_tutorial_level_2-@eyad_khrais.md"
-url: https://x.com/eyad_khrais/status/2010810802023141688
-author: "Eyad (@eyad_khrais)"
-captured_date: 2026-01-17
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "tutorial"
-  - "best-practices"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Eyad Khrais - Claude Code Tutorial L2"
-synopsis: "Advanced Claude Code tutorial covering sub-agents, MCP integrations, custom slash commands, hooks for automation, and advanced plan mode strategies. Part 2 of comprehensive guide from Amazon/Disney/Capital One SWE veteran."
-key_insights:
-  - "Sub-agents enable Claude to delegate specialized tasks to focused instances reducing context pollution in the main conversation"
-  - "Custom slash commands and hooks automate repetitive workflows turning multi-step processes into single invocations"
-  - "Advanced plan mode strategies include multi-file architecture plans and iterative refinement before any code execution"
----
 # The Claude Code Tutorial Level 2
 
 (Description: A terminal window displaying large pixelated text reading "CLAUDE CODE 102" with vintage computer-style green monochrome font against a dark background with three window control buttons visible at the top.)

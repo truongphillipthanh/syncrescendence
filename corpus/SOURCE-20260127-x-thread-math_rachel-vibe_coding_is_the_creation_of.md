@@ -1,30 +1,3 @@
----
-id: SOURCE-20260127-x-thread-math_rachel-vibe_coding_is_the_creation_of
-platform: x
-format: thread
-creator: math_rachel
-title: vibe coding is the creation of
-status: triaged
-original_filename: "20260127-x_thread-vibe_coding_is_the_creation_of-@math_rachel.md"
-url: https://x.com/math_rachel/status/2016232343388999901
-author: "Rachel Thomas (@math_rachel)"
-captured_date: 2026-01-27
-signal_tier: strategic
-topics:
-  - vibe-coding
-  - ai-engineering
-  - opinion
-  - research
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Rachel Thomas - dark flow vibe coding"
-synopsis: "Rachel Thomas (fast.ai) draws parallels between vibe coding and gambling addiction research, introducing the concept of 'dark flow' — a highly absorbed state that mimics productive flow but lacks accurate performance feedback. Cites the METR study showing developers estimated 20% speed gain while actually working 19% slower with AI tools."
-key_insights:
-  - "Vibe coding induces 'dark flow' analogous to slot machine gambling — misleading losses disguised as wins, murky skill-challenge matching, and a false sense of control."
-  - "The METR study found developers using AI tools estimated working 20% faster but actually worked 19% slower — a 39 percentage point perception gap."
-  - "AI coding agents produce syntactically correct code but don't produce useful abstraction layers, meaningful modularization, or conciseness — we've automated coding but not software engineering."
----
 # Vibe Coding Thread
 
 Vibe coding is the creation of large quantities of complex AI-generated code. Executives push lay-offs claiming AI can handle the work. Managers pressure employees to meet quotas of how much of their code must be AI-generated... yet results are far from what was promised 1/

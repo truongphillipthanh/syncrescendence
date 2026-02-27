@@ -1,21 +1,3 @@
----
-url: https://x.com/godofprompt/status/2020499426389741784
-author: "God of Prompt (@godofprompt)"
-captured_date: 2026-02-13
-id: SOURCE-20260208-003
-original_filename: "20260208-x_article-youre_using_opus_46_wrong-@godofprompt.md"
-status: triaged
-platform: x
-format: article
-creator: godofprompt
-signal_tier: tactical
-topics: [prompt-engineering, llm-architecture, best-practices]
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases: ["God of Prompt - Using Opus 4.6 Right"]
-synopsis: "Argues that most people focus on Opus 4.6 benchmark comparisons instead of learning how to actually use it effectively. Provides practical guidance on proper prompting and usage patterns to unlock Opus 4.6's full capabilities beyond what benchmarks measure."
-key_insights: ["Benchmark comparisons miss the point — effective Opus 4.6 usage requires understanding its unique interaction patterns", "The gap between benchmark performance and real-world utility is a prompting and workflow problem, not a model problem", "Proper Opus 4.6 usage patterns differ significantly from approaches that work with smaller models"]
----
 # 🔑 You're Using Opus 4.6 Wrong
 
 (Description: A dark-themed graphic showing pixelated block-style text reading "OPUS 4.6" with a yellow chevron arrow (>) and dash (-) symbol in the upper left corner)

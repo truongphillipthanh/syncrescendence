@@ -1,9 +1,3 @@
----
-url: https://x.com/nicbstme/status/2019149771706102022
-author: Nicolas Bustamante (@nicbstme)
-captured_date: 2026-02-13
----
-
 # The Crumbling Workflow Moat: Aggregation Theory's Final Chapter
 
 *36 replies, 75 reposts, 485 likes, 1,338 bookmarks, 176.7K views*

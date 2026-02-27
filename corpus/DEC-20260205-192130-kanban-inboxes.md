@@ -1,11 +1,3 @@
----
-id: DEC-20260205-192130-kanban-inboxes
-kind: DECISION_ATOM
-scope: substrate
-status: proposed
-updated: 2026-02-05
----
-
 Decision ID: DEC-20260205-192130-kanban-inboxes
 Choice: Adopt **filesystem kanban** for dispatch surfaces: per-agent `-INBOX/<agent>/00-INBOX0 → 10-IN_PROGRESS → 40-DONE/50_FAILED` folder lifecycle, watchers only consume Inbox0, and receipts/artifacts go to per-agent outboxes.
 

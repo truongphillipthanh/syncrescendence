@@ -1,31 +1,3 @@
----
-url: https://x.com/DavidOndrej1/status/2022597312024056285
-author: "David Ondrej (@DavidOndrej1)"
-captured_date: 2026-02-20
-id: SOURCE-20260214-001
-original_filename: "20260214-x_article-this_new_ai_benchmark_changes_everything-@daviddondrej1.md"
-status: triaged
-platform: x
-format: article
-creator: daviddondrej1
-signal_tier: strategic
-topics:
-  - testing
-  - git
-  - extended-thinking
-  - openai
-  - anthropic
-  - benchmarks
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "This New AI Benchmark Changes Everything"
-synopsis: "This New AI Benchmark Changes Everything , followed by Claude Opus 4.6 at 51.7%. Western AI labs (Anthropic, OpenAI, Google) dominate the top positions shown in red, light gray, and other colors. Chinese models including Kimi, GLM, Qwen, and MiniMax appear in the lower rankings, shown in green, cyan, and purple bars, with MiniMax M2.5 at 39.6%.) Everyone thinks the AI race is close."
-key_insights:
-  - "These models were never comparable."
-  - "This New AI Benchmark Changes Everything , followed by Claude Opus 4.6 at 51.7%."
-  - "Western AI labs (Anthropic, OpenAI, Google) dominate the top positions shown in red, light gray, and other colors."
----
 # This New AI Benchmark Changes Everything
 (Description: A horizontal bar chart showing AI model performance rankings on SWE-rebench. Models are listed on the x-axis with corresponding percentage scores on the y-axis, ranging from approximately 30% to 52.9%. Claude Code with Opus 4.6 leads at 52.9% (red bar), followed by Claude Opus 4.6 at 51.7%. Western AI labs (Anthropic, OpenAI, Google) dominate the top positions shown in red, light gray, and other colors. Chinese models including Kimi, GLM, Qwen, and MiniMax appear in the lower rankings, shown in green, cyan, and purple bars, with MiniMax M2.5 at 39.6%.)
 Everyone thinks the AI race is close.

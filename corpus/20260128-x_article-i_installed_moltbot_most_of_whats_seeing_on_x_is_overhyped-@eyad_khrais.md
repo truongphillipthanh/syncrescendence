@@ -1,9 +1,3 @@
----
-url: https://x.com/eyad_khrais/status/2016672772651405550
-author: Eyad (@eyad_khrais)
-captured_date: 2026-01-28
----
-
 # I Installed Moltbot. Most Of What You're Seeing On X Is Overhyped.
 
 (Description: A grayscale dramatic illustration showing a lobster-like creature in a cave or underground setting with swirling textures)

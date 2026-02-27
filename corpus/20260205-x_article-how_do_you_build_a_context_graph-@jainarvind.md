@@ -1,9 +1,3 @@
----
-url: https://x.com/jainarvind/status/2019553277571190821
-author: Arvind Jain (@jainarvind)
-captured_date: 2026-02-05
----
-
 # How do you build a context graph?
 
 ## Introduction

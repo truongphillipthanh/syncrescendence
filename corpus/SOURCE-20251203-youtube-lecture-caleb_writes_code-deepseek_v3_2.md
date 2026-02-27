@@ -1,34 +1,3 @@
----
-id: SOURCE-20251203-949
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "deepseek"
-creator: "Caleb Writes Code"
-guest: null
-title: "DeepSeek V3.2"
-url: "https://www.youtube.com/watch?v=u0n6wMnEYsk"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 33s"
-has_transcript: no
-synopsis: "DeepSeek V3.2 by Caleb Writes Code. A lecture covering deepseek."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "DeepSeek V3.2"
----
-
 # DeepSeek V3.2
 
 **Channel**: Caleb Writes Code

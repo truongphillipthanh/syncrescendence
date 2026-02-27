@@ -1,33 +1,3 @@
----
-id: SOURCE-20260213-001
-title: Agentic Team Memory
-platform: x
-format: article
-creator: dabit3
-date_published: 20260213
-status: triaged
-original_filename: "research-notebooks/03-agent-memory-systems/20260213-x_article-agentic_team_memory-@dabit3.md"
-aliases:
-  - "Devin Agentic Team Memory"
-  - "Nader Dabit Team Knowledge"
-teleology: extract
-notebooklm_category: ai-agents
-synopsis: "Nader Dabit describes Cognition's approach to team knowledge capture through Devin: instead of asking engineers to write docs, the system captures corrections they already make ('don't call fetch directly, use the wrapper') and suggests persisting them as knowledge items. Knowledge accumulates from chat feedback, auto-generated repo scans, and manual creation — scoped per-repo or org-wide."
-key_insights:
-  - "Knowledge that writes itself stays current — capturing corrections engineers already make eliminates the documentation maintenance burden that kills wikis"
-  - "Multi-source knowledge ingestion (chat corrections, repo scans of CLAUDE.md/.cursorrules, manual creation) creates comprehensive coverage without dedicated documentation effort"
-  - "Scoped knowledge (per-repo vs org-wide) prevents context pollution — backend deployment conventions don't surface during frontend work"
-topics:
-  - ai-agents
-  - ai-engineering
-  - developer-tools
-  - best-practices
-signal_tier: strategic
-url: "https://x.com/dabit3/status/2022459842342916559"
-author: "nader dabit (@dabit3)"
-captured_date: 2026-02-13
----
-
 # Agentic Team Memory
 
 (Description: Abstract header image with a geometric pattern of blue and orange squares, circles, diamonds, and triangular shapes in white, arranged in a dynamic composition)

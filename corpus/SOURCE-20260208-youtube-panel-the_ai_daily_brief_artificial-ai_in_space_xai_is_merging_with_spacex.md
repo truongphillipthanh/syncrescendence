@@ -1,38 +1,3 @@
----
-id: SOURCE-20260208-149
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "space"
-  - "xai"
-  - "merging"
-  - "spacex"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "AI in Space! xAI is Merging with SpaceX"
-url: "https://www.youtube.com/watch?v=Zv-phrlnIcg"
-date_published: 2026-02-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 9s"
-has_transcript: no
-synopsis: "AI in Space! xAI is Merging with SpaceX by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering space, xai, merging."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "AI in Space! xAI"
-  - "AI in Space! xAI is Merging"
----
-
 # AI in Space! xAI is Merging with SpaceX
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

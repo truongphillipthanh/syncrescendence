@@ -1,32 +1,3 @@
----
-url: https://x.com/nummanali/status/2021692332849131738
-author: "Numman Ali (@nummanali)"
-captured_date: 2026-02-13
-id: SOURCE-20260211-009
-original_filename: "20260211-x_article-the_future_of_engineering_self_driving_software-@nummanali.md"
-status: triaged
-platform: x
-format: article
-creator: nummanali
-signal_tier: paradigm
-topics:
-  - prompting
-  - context-management
-  - testing
-  - git
-  - codex
-  - openai
-  - product-development
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Future of Engineering Self Driving Software"
-synopsis: "The Future of Engineering: Self Driving Software How OpenAI, StrongDM, and I independently arrived at the same process for building software with coding agents. OpenAI just published how their engineering team spent five months building a real product where every line of code was written by Codex."
-key_insights:
-  - "The humans never contributed code directly."
-  - "> "The primary job of our engineering team became enabling the agents to do useful work." When something failed, the question was never "how do I write better prompts?"
-  - "The patterns These teams didn't coordinate."
----
 # The Future of Engineering: Self Driving Software
 
 How OpenAI, StrongDM, and I independently arrived at the same process for building software with coding agents.

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-279
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "japan"
-  - "debt"
-  - "bomb"
-  - "explode"
-  - "hit"
-creator: "Alice Cheung"
-guest: null
-title: "Japan’s Debt Bomb Is About To Explode And Hit The US"
-url: "https://www.youtube.com/watch?v=CGoYHWT-0Tk"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 22s"
-has_transcript: no
-synopsis: "Japan’s Debt Bomb Is About To Explode And Hit The US by Alice Cheung. A lecture covering japan, debt, bomb."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Japan’s Debt Bomb Is"
-  - "Japan’s Debt Bomb Is About To"
----
-
 # Japan’s Debt Bomb Is About To Explode And Hit The US
 
 **Channel**: Alice Cheung

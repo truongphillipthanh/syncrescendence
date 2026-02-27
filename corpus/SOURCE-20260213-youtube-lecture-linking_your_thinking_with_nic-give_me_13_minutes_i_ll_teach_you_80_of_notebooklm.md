@@ -1,38 +1,3 @@
----
-id: SOURCE-20260213-074
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "give"
-  - "minutes"
-  - "teach"
-  - "notebooklm"
-creator: "Linking Your Thinking with Nick Milo"
-guest: null
-title: "Give Me 13 Minutes. I'll Teach You 80% of NotebookLM"
-url: "https://www.youtube.com/watch?v=646GdYl2nKs"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 26s"
-has_transcript: no
-synopsis: "Give Me 13 Minutes. I'll Teach You 80% of NotebookLM by Linking Your Thinking with Nick Milo. A lecture covering give, minutes, teach."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Give Me 13 Minutes."
-  - "Give Me 13 Minutes. I'll Teach"
----
-
 # Give Me 13 Minutes. I'll Teach You 80% of NotebookLM
 
 **Channel**: Linking Your Thinking with Nick Milo

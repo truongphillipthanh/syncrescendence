@@ -1,38 +1,3 @@
----
-id: SOURCE-20251219-799
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "companies"
-  - "seeing"
-  - "positive"
-  - "roi"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "82% of Companies Are Seeing Positive AI ROI"
-url: "https://www.youtube.com/watch?v=-Eaie89b0z0"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 20s"
-has_transcript: no
-synopsis: "82% of Companies Are Seeing Positive AI ROI by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering companies, seeing, positive."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "82% of Companies Are"
-  - "82% of Companies Are Seeing Positive"
----
-
 # 82% of Companies Are Seeing Positive AI ROI
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

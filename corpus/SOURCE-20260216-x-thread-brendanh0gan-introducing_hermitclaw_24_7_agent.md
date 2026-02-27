@@ -1,24 +1,3 @@
----
-url: https://x.com/brendanh0gan/status/2023230513230614563
-author: "@brendanh0gan"
-captured_date: 2026-02-15
-id: SOURCE-20260216-021
-original_filename: "20260216-x_thread-introducing_hermitclaw_24_7_agent-@brendanh0gan.md"
-status: triaged
-platform: x
-format: thread
-creator: brendanh0gan
-signal_tier: tactical
-topics: [ai-agents, developer-tools, announcement]
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ["brendanh0gan - HermitClaw sandboxed 24/7 agent"]
-synopsis: "Introduces HermitClaw, a 24/7 agent confined to a single desktop folder. It autonomously follows research curiosities, surfs the web, writes code, and interacts with any files dropped in its folder. Features a game-like isometric visual interface. 182.7K views."
-key_insights:
-  - "Single-folder sandboxing provides simple security model - agent can only access one designated folder"
-  - "Autonomous research curiosity: agent follows its own interests, writes code, and creates project documentation"
-  - "File-drop interaction pattern: drop any file in the folder and the agent will engage with it"
----
 # Introducing HermitClaw - A 24/7 Agent
 **Brendan Hogan** @brendanh0gan
 introducing HermitClaw - a 24/7 Agent that lives (and can only access) a single folder on your desktop

@@ -1,16 +1,3 @@
----
-id: SOURCE-20251013-youtube-interview-indset-matthew_kinsella
-title: "Faith, Physics, and the Quantum Race: Matthew Kinsella on Commercializing Quantum"
-creator: The Quantum Economy Podcast (Anders Indset)
-guest: Matthew Kinsella
-date_published: 2025-10-13
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: [Intelligence, Expertise, Wisdom]
-integration_targets: [CANON-30300-TECH_STACK, CANON-35200-GAIAN_NODE]
----
-
 # Faith, Physics, and the Quantum Race: Matthew Kinsella on Commercializing Quantum
 
 ## Executive Summary

@@ -1,9 +1,3 @@
----
-url: https://x.com/AndrewWarner/status/2019837230060044628
-author: "@AndrewWarner"
-captured_date: 2026-02-06
----
-
 # Andrew Warner's OpenClaw Troubleshooting Thread
 
 I'm at a Claude Code event right now. Everyone's complaint: Openclaw keeps shutting down. @calebhodges gave us all a markdown file that solves the common issues. Want it? Comment "openclaw" and I'll DM it to you.

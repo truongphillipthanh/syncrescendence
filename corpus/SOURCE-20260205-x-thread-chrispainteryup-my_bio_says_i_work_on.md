@@ -1,30 +1,3 @@
----
-url: https://x.com/ChrisPainterYup/status/2019534216405606623
-author: "Chris Painter (@ChrisPainterYup)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-019
-original_filename: 20260205-x_thread-my_bio_says_i_work_on-chrispainteryup.md
-status: triaged
-platform: x
-format: thread
-creator: chrispainteryup
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - api
-  - product-development
-  - benchmarks
-  - cost-optimization
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "20260205 x thread chrispainteryup my bio says i work on"
-synopsis: "AGI Preparedness Thread My bio says I work on AGI preparedness, so I want to clarify: **We are not prepared.** Over the last year, dangerous capability evaluations have moved into a state where it's difficult to find any Q&A benchmark that models don't saturate."
-key_insights:
-  - "Broadly, it's becoming a stretch to rule out any threat model using Q&A benchmarks as a proxy."
-  - "And what happens if we concede that it's difficult to "rule out" these risks?"
-  - "Does society wait to take action until we can "rule them in" by showing they are end-to-end clearly realizable?"
----
 ## AGI Preparedness Thread
 
 My bio says I work on AGI preparedness, so I want to clarify: **We are not prepared.**

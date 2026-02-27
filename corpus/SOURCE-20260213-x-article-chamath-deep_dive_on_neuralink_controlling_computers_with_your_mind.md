@@ -1,28 +1,3 @@
----
-url: https://x.com/chamath/status/2022396027555418456
-author: "Chamath Palihapitiya (@chamath)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-003
-original_filename: "20260213-x_article-deep_dive_on_neuralink_controlling_computers_with_your_mind-@chamath.md"
-status: triaged
-platform: x
-format: article
-creator: chamath
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - cli-tools
-  - extract-pattern
-teleology: extract
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Deep Dive on Neuralink Controlling Computers With Your Mind"
-synopsis: "Deep Dive on Neuralink: Controlling Computers With Your Mind The Problem: The Brain-Computer Bottleneck The human brain receives data at ~1,000,000,000 bits per second. But it can act on and express only ~10 bits per second. This includes tasks like moving, thinking, and speaking. This is like being connected to fiber-optic internet, but only being able to respond through a 1990s dial-up modem."
-key_insights:
-  - "Deep Dive on Neuralink: Controlling Computers With Your Mind The Problem: The Brain-Computer Bottleneck The human brain receives data at ~1,000,000,000 bits per second."
-  - "But it can act on and express only ~10 bits per second."
-  - "This includes tasks like moving, thinking, and speaking."
----
 # Deep Dive on Neuralink: Controlling Computers With Your Mind
 
 ## The Problem: The Brain-Computer Bottleneck

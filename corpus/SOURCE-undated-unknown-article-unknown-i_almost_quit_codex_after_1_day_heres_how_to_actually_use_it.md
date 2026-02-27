@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-unknown-article-unknown-i_almost_quit_codex_after_1_day_heres_how_to_actually_use_it
-platform: unknown
-format: article
-creator: unknown
-title: i almost quit codex after 1 day heres how to actually use it
-status: triaged
-original_filename: i_almost_quit_codex_after_1_day_heres_how_to_actually_use_it.md
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: coding-tools
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 I almost rage-quit Codex after one day. It doesn't infer intent as well as Claude Code.
 I literally pasted in an error log and it said "what do you want to do with this".
 The permissions system is super annoying, it asks for permission constantly.

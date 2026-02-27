@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-584
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "coding"
-  - "agents"
-  - "help"
-  - "devs"
-  - "ship"
-creator: "NVIDIA Developer"
-guest: null
-title: "Coding Agents That Help Devs Ship Faster With CodeRabbit | Nemotron Labs"
-url: "https://www.youtube.com/watch?v=OvXUM1_5JGk"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "50m 56s"
-has_transcript: no
-synopsis: "Coding Agents That Help Devs Ship Faster With CodeRabbit | Nemotron Labs by NVIDIA Developer. A tutorial covering coding, agents, help."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Coding Agents That Help"
-  - "Coding Agents That Help Devs Ship"
----
-
 # Coding Agents That Help Devs Ship Faster With CodeRabbit | Nemotron Labs
 
 **Channel**: NVIDIA Developer

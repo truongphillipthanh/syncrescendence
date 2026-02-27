@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-361
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "got"
-  - "private"
-  - "lesson"
-  - "claude"
-  - "cowork"
-creator: "Greg Isenberg"
-guest: null
-title: "I got a private lesson on Claude Cowork & Claude Code"
-url: "https://www.youtube.com/watch?v=DW4a1Cm8nG4"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "42m 8s"
-has_transcript: no
-synopsis: "I got a private lesson on Claude Cowork & Claude Code by Greg Isenberg. A panel discussion covering got, private, lesson."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "I got a private"
-  - "I got a private lesson on"
----
-
 # I got a private lesson on Claude Cowork & Claude Code
 
 **Channel**: Greg Isenberg

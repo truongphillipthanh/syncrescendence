@@ -1,28 +1,3 @@
----
-url: https://x.com/TheShortBear/status/2024271500778332393
-author: "THE SHORT BEAR (@TheShortBear)"
-captured_date: 2026-02-21
-id: SOURCE-20260218-026
-original_filename: "20260218-x_thread-if_you_are_working_vibe_coding-@theshortbear.md"
-status: triaged
-platform: x
-format: thread
-creator: theshortbear
-signal_tier: tactical
-topics:
-  - vibe-coding
-  - cost-optimization
-  - cli-tools
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "The Short Bear Thread"
-synopsis: "The Short Bear Thread If you are working/vibe coding more than 40min per day you are within 0.01% of users using it the most. This is the part where everything feels too late but it's only because we are so early and everyone is scrambling. Line graph showing "Turn duration (minutes)" on Y-axis (ranging from ~20 to ~47 minutes) and "Date" on X-axis (spanning from 2025-10-01 to 2026-02-15)."
-key_insights:
-  - "The Short Bear Thread If you are working/vibe coding more than 40min per day you are within 0.01% of users using it the most."
-  - "This is the part where everything feels too late but it's only because we are so early and everyone is scrambling."
-  - "Line graph showing "Turn duration (minutes)" on Y-axis (ranging from ~20 to ~47 minutes) and "Date" on X-axis (spanning from 2025-10-01 to 2026-02-15)."
----
 # The Short Bear Thread
 If you are working/vibe coding more than 40min per day you are within 0.01% of users using it the most.
 You are not late.

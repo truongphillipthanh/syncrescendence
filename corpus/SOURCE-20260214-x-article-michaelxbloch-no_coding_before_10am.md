@@ -1,29 +1,3 @@
----
-url: https://x.com/michaelxbloch/status/2022678437362598163
-author: "Michael Bloch (@michaelxbloch)"
-captured_date: 2026-02-20
-original_date: 2026-02-14
-id: SOURCE-20260214-004
-original_filename: "20260214-x_article-no_coding_before_10am-@michaelxbloch.md"
-status: triaged
-platform: x
-format: article
-creator: michaelxbloch
-signal_tier: tactical
-topics:
-  - prompting
-  - context-management
-  - startup
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "No Coding Before 10am"
-synopsis: "No Coding Before 10am A startup I work with just scrapped their entire playbook. They've been making fast progress, but over the last month their way of working broke because of Claude Code. They called a war room and rebuilt how they operate from scratch. Their first new rule: no coding before 10am. For twenty years, engineering culture has been about maximizing time spent writing code."
-key_insights:
-  - "Their first new rule: no coding before 10am."
-  - "Humans interact with systems through agents whenever possible."
-  - "Agents should work overnight, on commutes, in meetings, asynchronously."
----
 # No Coding Before 10am
 (Description: A photograph of a modern office workspace with floor-to-ceiling windows overlooking a city skyline. In the center, a handwritten sign reads "No Coding Before 10am" in black marker on tan cardboard. A laptop is visible in the lower right. The setting suggests a high-rise office with urban views in the background.)
 A startup I work with just scrapped their entire playbook. They've been making fast progress, but over the last month their way of working broke because of Claude Code. They called a war room and rebuilt how they operate from scratch.

@@ -1,9 +1,3 @@
----
-url: https://x.com/jacalulu/status/2019529992951198073
-author: Jaclyn Konzelmann (@jacalulu)
-captured_date: 2026-02-05
----
-
 # Lulubot Takeaways: 1 Week of Building and Using My OpenClaw
 
 *Disclaimer: These takeaways are based on one week of active building. Given how fast the OpenClaw ecosystem is evolving, consider this a "working document." The observations below range from high-level insights to raw, unprocessed thoughts on a rapidly shifting landscape.*

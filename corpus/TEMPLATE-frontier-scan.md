@@ -1,15 +1,3 @@
----
-agent: cartographer
-priority: P2
-category: sensing
-frequency: weekly
-schedule: "Sunday 06:00"
-launchd_agent: com.syncrescendence.sensing-frontier-scan
-description: >
-  Scan frontier model landscape for updates to MODEL-INDEX.md.
-  Detects new model releases, deprecations, pricing changes, and platform shifts.
----
-
 # SENSING: Frontier Model & Platform Scan
 
 **From**: Scheduler (launchd/claudecron)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-668
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "run"
-  - "claude"
-  - "code"
-  - "hours"
-  - "autonomously"
-creator: "Developers Digest"
-guest: null
-title: "How to Run Claude Code For Hours Autonomously"
-url: "https://www.youtube.com/watch?v=o-pMCoVPN_k"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 36s"
-has_transcript: no
-synopsis: "How to Run Claude Code For Hours Autonomously by Developers Digest. A tutorial covering run, claude, code."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How to Run Claude"
-  - "How to Run Claude Code For"
----
-
 # How to Run Claude Code For Hours Autonomously
 
 **Channel**: Developers Digest

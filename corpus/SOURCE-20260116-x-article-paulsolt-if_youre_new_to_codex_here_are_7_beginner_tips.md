@@ -1,28 +1,3 @@
----
-id: SOURCE-20260116-x-article-paulsolt-if_youre_new_to_codex_here_are_7_beginner_tips
-date_published: "2026-01-16"
-platform: x
-format: article
-creator: paulsolt
-title: if youre new to codex here are 7 beginner tips
-status: triaged
-url: https://x.com/PaulSolt/status/2012010080414081188
-original_filename: "if_youre_new_to_codex_here_are_7_beginner_tips-@paulsolt.md"
-signal_tier: tactical
-topics:
-  - "vibe-coding"
-  - "developer-tools"
-  - "tutorial"
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "PaulSolt - Codex Beginner Tips"
-synopsis: "Seven beginner tips for OpenAI Codex: start with GPT-5.2-Codex high, use clear prompts, leverage the queue feature, and other practical getting-started advice for new Codex users."
-key_insights:
-  - "Start with GPT-5.2-Codex high reasoning effort as the default for balanced speed and quality"
-  - "Clear concise prompts with specific context produce better results than verbose instructions"
-  - "The queue feature enables batching multiple tasks for continuous agent execution"
----
 1. Start with:
 
 GPT-5.2-Codex high

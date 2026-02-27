@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-698
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "new"
-  - "context"
-  - "learning"
-  - "works"
-  - "explained"
-creator: "Discover AI"
-guest: null
-title: "NEW: Why AI In-Context Learning Works (Explained)"
-url: "https://www.youtube.com/watch?v=mOjWG7hxPUI"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 22s"
-has_transcript: no
-synopsis: "NEW: Why AI In-Context Learning Works (Explained) by Discover AI. A lecture covering new, context, learning."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "NEW: Why AI In-Context"
-  - "NEW: Why AI In-Context Learning Works"
----
-
 # NEW: Why AI In-Context Learning Works (Explained)
 
 **Channel**: Discover AI

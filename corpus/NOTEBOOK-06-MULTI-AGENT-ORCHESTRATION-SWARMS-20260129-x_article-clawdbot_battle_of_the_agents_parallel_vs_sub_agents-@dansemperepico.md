@@ -1,9 +1,3 @@
----
-url: https://x.com/dansemperepico/status/2016953453638267002
-author: Daniel Sempere Pico (@dansemperepico)
-captured_date: 2026-02-04
----
-
 # ClawdBot Battle of the Agents - Parallel vs Sub-Agents
 
 ![Description: A futuristic dark command center scene showing a silhouetted figure seated at a curved control panel facing a large curved wall display. The display shows 8 illuminated AI head profiles arranged in an arc - rendered as neon blue, green, and orange holographic busts with digital interfaces and code visible in the background. Additional monitoring panels and technical readouts line the sides of the room, creating an atmosphere of managing multiple AI agents simultaneously.]

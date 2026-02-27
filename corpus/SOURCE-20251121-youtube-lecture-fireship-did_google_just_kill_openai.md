@@ -1,38 +1,3 @@
----
-id: SOURCE-20251121-1017
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "google"
-  - "just"
-  - "kill"
-  - "openai"
-creator: "Fireship"
-guest: null
-title: "Did Google just kill OpenAI?"
-url: "https://www.youtube.com/watch?v=bsL7ZnKIAhs"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "4m 6s"
-has_transcript: no
-synopsis: "Did Google just kill OpenAI? by Fireship. A lecture covering google, just, kill."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Did Google just kill"
-  - "Did Google just kill OpenAI?"
----
-
 # Did Google just kill OpenAI?
 
 **Channel**: Fireship

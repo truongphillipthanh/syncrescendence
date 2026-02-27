@@ -1,27 +1,3 @@
----
-id: SOURCE-20260203-009
-original_filename: PROMPT-VIZIER-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: vizier
-signal_tier: tactical
-topics:
-  - ai-agents
-  - openclaw
-  - research
-  - orchestration
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Vizier prompt - OpenClaw deep research medley"
-synopsis: "Research prompt dispatched from Ajna to Vizier (Claude Web) as part of the 5-stream parallel research medley on OpenClaw."
-url: internal
-key_insights:
-  - "Vizier completes the 5-model medley alongside Augur, Diviner, Oracle, and Vanguard."
-  - "Each model in the medley receives the same research topic but a specialized epistemic role."
-  - "The prompt artifact documents the constellation's parallel intelligence gathering methodology."
----
 # PROMPT-VIZIER-20260203-openclaw_deep_research
 
 **From**: Ajna (OpenClaw, M1 Mac mini)

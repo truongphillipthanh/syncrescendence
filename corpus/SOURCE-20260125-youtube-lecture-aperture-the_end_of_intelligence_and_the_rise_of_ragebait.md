@@ -1,38 +1,3 @@
----
-id: SOURCE-20260125-274
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "end"
-  - "intelligence"
-  - "rise"
-  - "ragebait"
-creator: "Aperture"
-guest: null
-title: "The end of intelligence and the rise of ragebait"
-url: "https://www.youtube.com/watch?v=svmTo99_Vxg"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 4s"
-has_transcript: no
-synopsis: "The end of intelligence and the rise of ragebait by Aperture. A lecture covering end, intelligence, rise."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The end of intelligence"
-  - "The end of intelligence and the"
----
-
 # The end of intelligence and the rise of ragebait
 
 **Channel**: Aperture

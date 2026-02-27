@@ -1,38 +1,3 @@
----
-id: SOURCE-20260116-458
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "changed"
-  - "game"
-  - "days"
-creator: "Wes Roth"
-guest: null
-title: "Anthropic Changed the Game in 10 DAYS"
-url: "https://www.youtube.com/watch?v=bEbaQMKmfdc"
-date_published: 2026-01-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 4s"
-has_transcript: no
-synopsis: "Anthropic Changed the Game in 10 DAYS by Wes Roth. A interview covering anthropic, changed, game."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic Changed the Game"
-  - "Anthropic Changed the Game in 10"
----
-
 # Anthropic Changed the Game in 10 DAYS
 
 **Channel**: Wes Roth

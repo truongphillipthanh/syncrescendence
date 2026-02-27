@@ -1,39 +1,3 @@
----
-id: SOURCE-20260216-054
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "roots"
-  - "suffering"
-  - "solve"
-  - "episode"
-  - "125"
-creator: "Mike Israetel"
-guest: null
-title: "The Roots Of Suffering And How To Solve It | Episode #125"
-url: "https://www.youtube.com/watch?v=uh2MxHDXSiE"
-date_published: 2026-02-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "48m 39s"
-has_transcript: no
-synopsis: "The Roots Of Suffering And How To Solve It | Episode #125 by Mike Israetel. A tutorial covering roots, suffering, solve."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Roots Of Suffering"
-  - "The Roots Of Suffering And How"
----
-
 # The Roots Of Suffering And How To Solve It | Episode #125
 
 **Channel**: Mike Israetel

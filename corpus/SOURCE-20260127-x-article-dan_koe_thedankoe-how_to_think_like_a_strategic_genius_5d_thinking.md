@@ -1,33 +1,3 @@
----
-id: SOURCE-20260127-001
-title: "How To Think Like A Strategic Genius 5D Thinking @Thedankoe"
-platform: x
-format: article
-creator: Dan Koe (thedankoe)
-date_published: 20260127
-status: triaged
-original_filename: "research/20260127-x_article-how_to_think_like_a_strategic_genius_5d_thinking-@thedankoe.md"
-aliases:
-  - "Dan Koe 5D Thinking"
-  - "Strategic Genius Thinking"
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-synopsis: "Dan Koe introduces a 5-dimensional thinking framework progressing from one-dimensional (tribal, reductionistic) to genius-level thought. Distinguishes horizontal knowing (domain expertise) from vertical understanding (cognitive operating system sophistication), arguing that the 'smart but dumb' phenomenon stems from being horizontally advanced but vertically stuck."
-key_insights:
-  - "Stupid thinking stops too early — it closes the mind at the limits of current knowledge rather than venturing into threatening or unfamiliar ideas"
-  - "Knowing is horizontal (domain facts) while understanding is vertical (cognitive OS sophistication) — you can understand deeply while knowing little, and that insight drives better outcomes"
-  - "The 'smart but dumb' phenomenon occurs when horizontal expertise lacks vertical depth — a businessman with money but no happiness, a creative with taste but no income"
-topics:
-  - philosophy
-  - framework
-  - career
-  - opinion
-signal_tier: strategic
-url: "https://x.com/thedankoe/status/2016200242690195509"
-author: "Dan Koe (@thedankoe)"
-captured_date: 2026-01-27
----
-
 # How to Think Like a Strategic Genius (5D Thinking)
 
 Your ability to think determines the outcome of your life.

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-593
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "jensen"
-  - "huang"
-  - "reasoning"
-  - "models"
-creator: "No Priors: AI, Machine Learning, Tech, & Startups"
-guest: null
-title: "NVIDIA’s Jensen Huang on Reasoning Models, Robotics, and Refuting the “AI Bubble” Narrative"
-url: "https://www.youtube.com/watch?v=k-xtmISBCNE"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 16m 21s"
-has_transcript: no
-synopsis: "NVIDIA’s Jensen Huang on Reasoning Models, Robotics, and Refuting the “AI Bubble” Narrative by No Priors: AI, Machine Learning, Tech, & Startups. A panel discussion covering nvidia, jensen, huang."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "NVIDIA’s Jensen Huang on"
-  - "NVIDIA’s Jensen Huang on Reasoning Models,"
----
-
 # NVIDIA’s Jensen Huang on Reasoning Models, Robotics, and Refuting the “AI Bubble” Narrative
 
 **Channel**: No Priors: AI, Machine Learning, Tech, & Startups

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-673
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "change"
-  - "life"
-  - "2026"
-  - "reverse"
-  - "goal"
-creator: "Justin Sung"
-guest: null
-title: "How to Change Your Life in 2026 with Reverse Goal Setting"
-url: "https://www.youtube.com/watch?v=LTaCZRsVIB0"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 41s"
-has_transcript: no
-synopsis: "How to Change Your Life in 2026 with Reverse Goal Setting by Justin Sung. A lecture covering change, life, 2026."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Change Your"
-  - "How to Change Your Life in"
----
-
 # How to Change Your Life in 2026 with Reverse Goal Setting
 
 **Channel**: Justin Sung

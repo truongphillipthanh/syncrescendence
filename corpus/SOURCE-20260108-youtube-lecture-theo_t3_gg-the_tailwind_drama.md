@@ -1,35 +1,3 @@
----
-id: SOURCE-20260108-572
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "tailwind"
-  - "drama"
-creator: "Theo - t3․gg"
-guest: null
-title: "The Tailwind drama"
-url: "https://www.youtube.com/watch?v=luhgjBrRulk"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 2s"
-has_transcript: no
-synopsis: "The Tailwind drama by Theo - t3․gg. A lecture covering tailwind, drama."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: vibe-coding
-aliases:
-  - "The Tailwind drama"
----
-
 # The Tailwind drama
 
 **Channel**: Theo - t3․gg

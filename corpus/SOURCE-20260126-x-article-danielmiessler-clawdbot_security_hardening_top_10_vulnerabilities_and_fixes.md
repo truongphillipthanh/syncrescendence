@@ -1,32 +1,3 @@
----
-url: https://x.com/DanielMiessler/status/2015865548714975475
-author: "Daniel Miessler (@DanielMiessler)"
-captured_date: 2026-01-26
-id: SOURCE-20260126-003
-original_filename: "20260126-x_article-clawdbot_security_hardening_top_10_vulnerabilities_and_fixes-@danielmiessler.md"
-status: triaged
-platform: x
-format: article
-creator: danielmiessler
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - docker
-  - git
-  - model-context-protocol
-  - security
-  - token-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "CLAWDBOT Security Hardening Top 10 Vulnerabilities and Their Fixes"
-synopsis: "CLAWDBOT Security Hardening: Top 10 Vulnerabilities and Their Fixes As a Security / 98% AI YOLO Maximalist with Guardrails guy, I'm asking you to please listen to this. Here are some of the top security issues with [clawd.bot]( that you all should be avoiding. Don't avoid the project. But please be safe with it! Fixes Vulnerabilities 1. Gateway exposed on 0.0.0.0:18789 2."
-key_insights:
-  - "Here are some of the top security issues with [clawd.bot]( that you all should be avoiding."
-  - "CLAWDBOT Security Hardening: Top 10 Vulnerabilities and Their Fixes As a Security / 98% AI YOLO Maximalist with Guardrails guy, I'm asking you to please listen to this."
-  - "Gateway exposed on 0.0.0.0:18789 2."
----
 # CLAWDBOT Security Hardening: Top 10 Vulnerabilities and Their Fixes
 
 As a Security / 98% AI YOLO Maximalist with Guardrails guy, I'm asking you to please listen to this.

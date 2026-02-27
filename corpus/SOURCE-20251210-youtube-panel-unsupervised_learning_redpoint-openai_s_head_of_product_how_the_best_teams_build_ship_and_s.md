@@ -1,39 +1,3 @@
----
-id: SOURCE-20251210-885
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "head"
-  - "product"
-  - "best"
-  - "teams"
-creator: "Unsupervised Learning: Redpoint's AI Podcast"
-guest: null
-title: "OpenAI's Head of Product: How the Best Teams Build, Ship and Scale AI Products"
-url: "https://www.youtube.com/watch?v=8y6wJ-_FMSY"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "57m 38s"
-has_transcript: no
-synopsis: "OpenAI's Head of Product: How the Best Teams Build, Ship and Scale AI Products by Unsupervised Learning: Redpoint's AI Podcast. A panel discussion covering openai, head, product."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI's Head of Product:"
-  - "OpenAI's Head of Product: How the"
----
-
 # OpenAI's Head of Product: How the Best Teams Build, Ship and Scale AI Products
 
 **Channel**: Unsupervised Learning: Redpoint's AI Podcast

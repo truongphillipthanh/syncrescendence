@@ -1,27 +1,3 @@
----
-url: https://x.com/mitchellh/status/2018400993466331431
-author: "Mitchell Hashimoto (@mitchellh)"
-captured_date: 2026-02-14
-id: SOURCE-20260202-015
-original_filename: "20260202-x_thread-ghostty_nightly_now_supports_click-@mitchellh.md"
-status: triaged
-platform: x
-format: thread
-creator: mitchellh
-signal_tier: tactical
-topics:
-  - developer-tools
-  - terminal
-teleology: extract
-notebooklm_category: coding-tools
-aliases:
-  - "Mitchell Hashimoto - Ghostty click events extension"
-synopsis: "Ghostty nightly adds support for Kitty's click_events terminal extension, enabling click-to-move-cursor at shell prompts in Fish 4.1+. Unlike the fragile synthetic-left-arrow approach, this extension lets the shell handle cursor movement logic directly, making it reliable across multi-line prompts and indentation."
-key_insights:
-  - "The click_events extension replaces fragile synthetic keypress hacks with a proper shell-terminal protocol for cursor movement, solving edge cases around multi-line prompts and indentation."
-  - "Ghostty is the first terminal outside Kitty to support this extension, signaling convergence on better terminal-shell interaction protocols."
-  - "Terminal UX improvements like native click-to-cursor matter more in the AI coding era where developers spend more time in terminal environments."
----
 # Ghostty Click Events Thread
 
 Ghostty nightly now supports the `click_events` extension introduced by Kitty and supported by Fish. If you're using Fish 4.1+, you can click (no modifiers!) anywhere at a prompt to move the mouse. I believe Ghostty is the first to support this extension outside of Kitty.

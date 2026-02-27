@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-251
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "who"
-  - "needs"
-  - "claude"
-  - "build"
-  - "kimi"
-creator: "Limitless Podcast"
-guest: null
-title: "Who Needs Claude When You Can Build It With Kimi K2.5?"
-url: "https://www.youtube.com/watch?v=fCOcHFnEqLU"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 7s"
-has_transcript: no
-synopsis: "Who Needs Claude When You Can Build It With Kimi K2.5? by Limitless Podcast. A lecture covering who, needs, claude."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Who Needs Claude When"
-  - "Who Needs Claude When You Can"
----
-
 # Who Needs Claude When You Can Build It With Kimi K2.5?
 
 **Channel**: Limitless Podcast

@@ -1,38 +1,3 @@
----
-id: SOURCE-20240327-628
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "david"
-  - "pearce"
-  - "end"
-  - "suffering"
-creator: "Foresight Institute"
-guest: null
-title: "David Pearce | How to End All Suffering"
-url: "https://www.youtube.com/watch?v=COYzvDwrTKY"
-date_published: 2024-03-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 1m 5s"
-has_transcript: no
-synopsis: "David Pearce | How to End All Suffering by Foresight Institute. A tutorial covering david, pearce, end."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "David Pearce | How"
-  - "David Pearce | How to End"
----
-
 # David Pearce | How to End All Suffering
 
 **Channel**: Foresight Institute

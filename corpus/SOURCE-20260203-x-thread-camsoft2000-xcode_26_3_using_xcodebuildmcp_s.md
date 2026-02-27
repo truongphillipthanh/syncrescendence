@@ -1,22 +1,3 @@
----
-id: SOURCE-20260203-x-thread-camsoft2000-xcode_26_3_using_xcodebuildmcp_s
-platform: x
-format: thread
-creator: camsoft2000
-title: xcode 26 3 using xcodebuildmcp s
-status: triaged
-original_filename: "20260203-x_thread-xcode_26_3_using_xcodebuildmcp_s-@camsoft2000.md"
-url: https://x.com/camsoft2000/status/2018818932396658695
-author: "@camsoft2000"
-captured_date: 2026-02-04
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: coding-tools
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # XcodeBuildMCP Simulator Integration Thread
 
 ## Post 1

@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-201
-topic: DC-201 Scaffold Deep Inspection — Session 3 (scripts layer, dispatch/ingest group verdicts)
-status: unprocessed
-collected: 2026-02-23
----
-
 **Resuming DC-201, session 3.** Files completed: 425/528. Picking up from: orchestration/00-ORCHESTRATION/scripts/ (127 files) + orchestration/scripts/ (16 files). Prior scratchpad + team inputs reviewed: state layer clean, 00-ORCHESTRATION canonical, dispatch topologies complementary, watch_dispatch.sh anchor confirmed deprecated.
 
 ## Session 3: Scripts Verdicts

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-801
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "new"
-  - "chatgpt"
-  - "images"
-  - "here"
-creator: "AI For Humans"
-guest: null
-title: "OpenAI’s new ChatGPT Images is here! But…Will it top Nano Banana Pro?"
-url: "https://www.youtube.com/watch?v=QHtSj9qR6do"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 20s"
-has_transcript: no
-synopsis: "OpenAI’s new ChatGPT Images is here! But…Will it top Nano Banana Pro? by AI For Humans. A lecture covering openai, new, chatgpt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI’s new ChatGPT Images"
-  - "OpenAI’s new ChatGPT Images is here!"
----
-
 # OpenAI’s new ChatGPT Images is here! But…Will it top Nano Banana Pro?
 
 **Channel**: AI For Humans

@@ -1,11 +1,3 @@
----
-digest_id: ANNEAL-DIGEST-CANON-32-35
-generated: 2026-02-17
-source_range: CANON-32000 through CANON-35999
-files_processed: 20
-generator: canon-indexer-agent
----
-
 # Canon Digest: 32-35 Range (CANON-32000 through CANON-35999)
 
 ## Files Processed: 20

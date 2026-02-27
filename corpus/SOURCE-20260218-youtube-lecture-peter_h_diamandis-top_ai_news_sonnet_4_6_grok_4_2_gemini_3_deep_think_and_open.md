@@ -1,39 +1,3 @@
----
-id: SOURCE-20260218-046
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "top"
-  - "news"
-  - "sonnet"
-  - "grok"
-  - "gemini"
-creator: "Peter H. Diamandis"
-guest: null
-title: "Top AI News: Sonnet 4.6, Grok 4.2, Gemini 3 Deep Think, and OpenClaw | EP #231"
-url: "https://www.youtube.com/watch?v=HklyjXKYFng"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 6m 37s"
-has_transcript: no
-synopsis: "Top AI News: Sonnet 4.6, Grok 4.2, Gemini 3 Deep Think, and OpenClaw | EP #231 by Peter H. Diamandis. A lecture covering top, news, sonnet."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Top AI News: Sonnet"
-  - "Top AI News: Sonnet 4.6, Grok"
----
-
 # Top AI News: Sonnet 4.6, Grok 4.2, Gemini 3 Deep Think, and OpenClaw | EP #231
 
 **Channel**: Peter H. Diamandis

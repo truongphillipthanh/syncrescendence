@@ -1,39 +1,3 @@
----
-id: SOURCE-20260205-163
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "figured"
-  - "out"
-  - "best"
-  - "way"
-  - "run"
-creator: "Matthew Berman"
-guest: null
-title: "I figured out the best way to run OpenClaw"
-url: "https://www.youtube.com/watch?v=3GrG-dOmrLU"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 31s"
-has_transcript: no
-synopsis: "I figured out the best way to run OpenClaw by Matthew Berman. A lecture covering figured, out, best."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "I figured out the"
-  - "I figured out the best way"
----
-
 # I figured out the best way to run OpenClaw
 
 **Channel**: Matthew Berman

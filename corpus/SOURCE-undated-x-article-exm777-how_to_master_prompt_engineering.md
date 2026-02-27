@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-019
-title: How To Master Prompt Engineering
-platform: x
-format: article
-creator: exm777
-date_published: ""
-status: triaged
-original_filename: "research/promptengineering/how_to_master_prompt_engineering-@exm777.md"
-aliases:
-  - "Master Prompt Engineering"
-  - "Exm777 Prompting Guide"
-teleology: implement
-notebooklm_category: prompt-engineering
-synopsis: "Comprehensive prompt engineering guide arguing that the real work happens before typing — sharpening your mental model of the desired output. Covers 5 rules: clarity of vision before prompting, context engineering via persistent project files (context.json), task decomposition, output format specification, and few-shot examples. Emphasizes that vague ideas produce vague outputs regardless of technique."
-key_insights:
-  - "The gap between what you want and what you get is not a model limitation — it is a clarity-of-thought limitation that no prompting technique can fix"
-  - "Maintaining a persistent context.json file updated across conversations handles 80% of context engineering automatically"
-  - "Output format specification is as important as content specification — unusable output is worthless regardless of accuracy"
-topics:
-  - prompt-engineering
-  - best-practices
-  - tutorial
-  - framework
-signal_tier: tactical
----
-
 in 2026 each and every tool you use daily will eventually become a chatbox
 if you're able to engineer great prompts, you'll get outputs only few people are able to reproduce, and prompting becomes an edge more than ever before
 you probably think you figured out prompting when you created a custom GPT or Claude project to write prompts for you

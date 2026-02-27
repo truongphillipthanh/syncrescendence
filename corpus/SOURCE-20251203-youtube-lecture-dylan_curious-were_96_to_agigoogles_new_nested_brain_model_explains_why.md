@@ -1,39 +1,3 @@
----
-id: SOURCE-20251203-948
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "agi"
-  - "google"
-  - "new"
-  - "nested"
-  - "brain"
-creator: "Dylan Curious"
-guest: null
-title: "We’re 96% to AGI—Google’s New “Nested Brain” Model Explains Why"
-url: "https://www.youtube.com/watch?v=7zC8oD5dps4"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 28s"
-has_transcript: no
-synopsis: "We’re 96% to AGI—Google’s New “Nested Brain” Model Explains Why by Dylan Curious. A lecture covering agi, google, new."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "We’re 96% to AGI—Google’s"
-  - "We’re 96% to AGI—Google’s New “Nested"
----
-
 # We’re 96% to AGI—Google’s New “Nested Brain” Model Explains Why
 
 **Channel**: Dylan Curious

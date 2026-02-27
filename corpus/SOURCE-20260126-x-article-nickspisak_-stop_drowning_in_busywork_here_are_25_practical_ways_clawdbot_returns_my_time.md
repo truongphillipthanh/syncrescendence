@@ -1,31 +1,3 @@
----
-url: https://x.com/NickSpisak_/status/2015853310310228313
-author: "Nick Spisak (@NickSpisak_)"
-captured_date: 2026-01-26
-id: SOURCE-20260126-007
-original_filename: "20260126-x_article-stop_drowning_in_busywork_here_are_25_practical_ways_clawdbot_returns_my_time-@nickspIsak_.md"
-status: triaged
-platform: x
-format: article
-creator: nickspisak_
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - gpt
-  - product-development
-  - rag
-  - clawdbot
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Stop Drowning in Busywork Here are 25 Practical Ways Clawdbot Returns My Time"
-synopsis: "Stop Drowning in Busywork. Here are 25 Practical Ways Clawdbot Returns My Time Intimidated by Clawdbot? Here are 25 practical ways I'm using it currently (or will be soon) as my executive assistant to return 10+ hours a week. Before we dive in, we created a free custom GPT that will build you an Agent Blueprint tailored to your business in under 3 minutes."
-key_insights:
-  - "The 'Never Forget the Milk' Assistant My wife used to text me reminders that would get lost in my notifications."
-  - "It's my secret weapon for maintaining inbox zero."
-  - "Here are 25 Practical Ways Clawdbot Returns My Time Intimidated by Clawdbot?"
----
 # Stop Drowning in Busywork. Here are 25 Practical Ways Clawdbot Returns My Time
 
 (Description: Hand-written style text on a cream-colored background reading "clawdbot" and "25 practical uses" with a red checkmark in the top right corner)

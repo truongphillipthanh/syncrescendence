@@ -1,37 +1,3 @@
----
-id: SOURCE-20250710-1008
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "fundamental"
-  - "unit"
-  - "intelligence"
-creator: "Artem Kirsanov"
-guest: null
-title: "A Fundamental Unit Of Intelligence"
-url: "https://www.youtube.com/watch?v=Dykkubb-Qus"
-date_published: 2025-07-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 37s"
-has_transcript: no
-synopsis: "A Fundamental Unit Of Intelligence by Artem Kirsanov. A lecture covering fundamental, unit, intelligence."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "A Fundamental Unit Of"
-  - "A Fundamental Unit Of Intelligence"
----
-
 # A Fundamental Unit Of Intelligence
 
 **Channel**: Artem Kirsanov

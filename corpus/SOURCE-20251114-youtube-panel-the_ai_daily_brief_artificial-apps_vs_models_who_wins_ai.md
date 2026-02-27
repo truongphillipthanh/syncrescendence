@@ -1,38 +1,3 @@
----
-id: SOURCE-20251114-1116
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "apps"
-  - "models"
-  - "who"
-  - "wins"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Apps vs Models: Who Wins AI?"
-url: "https://www.youtube.com/watch?v=q9gzesGntdg"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 13s"
-has_transcript: no
-synopsis: "Apps vs Models: Who Wins AI? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering apps, models, who."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Apps vs Models: Who"
-  - "Apps vs Models: Who Wins AI?"
----
-
 # Apps vs Models: Who Wins AI?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

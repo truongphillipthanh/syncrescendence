@@ -1,13 +1,3 @@
----
-url: https://letters.thedankoe.com/p/how-to-think-like-a-genius-the-map
-title: how to think like a genius (the map of all knowledge)
-domain: letters.thedankoe.com
-author: DAN KOE
-published_date: Jun 26, 2025
-captured_date: 2026-01-30
-content_type: article
----
-
 # How to Think Like a Genius (The Map of All Knowledge)
 
 ## become a second-tier thinker

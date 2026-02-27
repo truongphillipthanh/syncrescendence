@@ -1,28 +1,3 @@
----
-id: SOURCE-20260103-x-article-minchoi-optimization
-date_published: "2026-01-03"
-platform: x
-format: article
-creator: minchoi
-title: optimization
-status: triaged
-url: https://x.com/minchoi/status/2007487037335847001
-original_filename: "optimization-@minchoi.md"
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "best-practices"
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "MinChoi - Claude Code Optimization Tips"
-synopsis: "Quick reference summarizing how the creator of Claude Code uses it: 5 parallel Claude instances in terminal tabs, notifications on input needed, minimal configuration. Links to official terminal config docs for iTerm2 system notifications."
-key_insights:
-  - "Run 5 Claude instances in parallel terminal tabs with system notifications when input is needed for maximum throughput"
-  - "The creator of Claude Code uses minimal configuration proving complex setups are unnecessary"
-  - "iTerm2 system notifications integration enables passive monitoring of multiple parallel Claude sessions"
----
 The creator of Claude Code literally dropped how he uses Claude Code
 Bookmark this.
 

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260206-166
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "frontier"
-  - "might"
-  - "job"
-  - "killer"
-creator: "Wes Roth"
-guest: null
-title: "OpenAI's FRONTIER might be the "JOB KILLER" we were waiting for"
-url: "https://www.youtube.com/watch?v=MRLt90GMvOg"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 44s"
-has_transcript: no
-synopsis: "OpenAI's FRONTIER might be the "JOB KILLER" we were waiting for by Wes Roth. A interview covering openai, frontier, might."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: career-growth
-aliases:
-  - "OpenAI's FRONTIER might be"
-  - "OpenAI's FRONTIER might be the "JOB"
----
-
 # OpenAI's FRONTIER might be the "JOB KILLER" we were waiting for
 
 **Channel**: Wes Roth

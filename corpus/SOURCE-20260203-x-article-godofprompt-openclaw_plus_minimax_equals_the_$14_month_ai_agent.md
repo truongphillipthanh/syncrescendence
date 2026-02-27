@@ -1,29 +1,3 @@
----
-url: https://x.com/godofprompt/status/2018729045203066912
-author: "God of Prompt (@godofprompt)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-018
-original_filename: "20260203-x_article-openclaw_plus_minimax_equals_the_$14_month_ai_agent-@godofprompt.md"
-status: triaged
-platform: x
-format: article
-creator: godofprompt
-signal_tier: tactical
-topics:
-  - ai-agents
-  - openclaw
-  - economics
-  - infrastructure
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "God of Prompt - OpenClaw MiniMax $14/month agent"
-synopsis: "Guide for running OpenClaw with MiniMax as the LLM provider at $14/month instead of $200/month for premium API costs. Demonstrates that the same agent capabilities can run 90% cheaper by swapping to cost-effective model providers."
-key_insights:
-  - "OpenClaw's model-agnostic architecture enables 90% cost reduction by swapping from premium APIs to cost-effective providers like MiniMax."
-  - "The $14/month price point makes 24/7 AI agent operation economically viable for individual developers and hobbyists."
-  - "Cost optimization through model provider selection is becoming a key competency in agent operations, separate from prompt engineering."
----
 # 🔑 OpenClaw + MiniMax = The $14/Month AI Agent
 
 (Description: Comic illustration featuring two anthropomorphic red lobsters. The left lobster displays a cheerful expression with raised claws. The right lobster wears a headband with a star and holds a sword. Blue radial starburst pattern fills the background. Bold white text reads "OpenClaw MiniMax")

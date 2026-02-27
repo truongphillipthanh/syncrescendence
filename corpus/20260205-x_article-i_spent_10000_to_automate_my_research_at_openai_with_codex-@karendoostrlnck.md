@@ -1,9 +1,3 @@
----
-url: https://x.com/KarelDoostrlnck/status/2019477361557926281
-author: Karel (@KarelDoostrlnck)
-captured_date: 2026-02-13
----
-
 # I spent $10,000 to automate my research at OpenAI with Codex
 
 I use **billions** of codex tokens. Here is my setup and is what I learned.

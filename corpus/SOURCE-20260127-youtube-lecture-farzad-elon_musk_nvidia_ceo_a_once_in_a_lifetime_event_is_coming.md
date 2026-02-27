@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-284
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "elon"
-  - "musk"
-  - "nvidia"
-  - "ceo"
-  - "once"
-creator: "Farzad"
-guest: null
-title: "Elon Musk + NVIDIA CEO: A Once in a Lifetime Event is Coming"
-url: "https://www.youtube.com/watch?v=tyWed995p04"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 2s"
-has_transcript: no
-synopsis: "Elon Musk + NVIDIA CEO: A Once in a Lifetime Event is Coming by Farzad. A lecture covering elon, musk, nvidia."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Elon Musk + NVIDIA"
-  - "Elon Musk + NVIDIA CEO: A"
----
-
 # Elon Musk + NVIDIA CEO: A Once in a Lifetime Event is Coming
 
 **Channel**: Farzad

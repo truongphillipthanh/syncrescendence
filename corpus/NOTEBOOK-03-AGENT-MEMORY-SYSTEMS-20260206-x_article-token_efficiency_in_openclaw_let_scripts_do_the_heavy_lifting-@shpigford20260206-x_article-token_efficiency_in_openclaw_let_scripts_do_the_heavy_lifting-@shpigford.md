@@ -1,9 +1,3 @@
----
-url: https://x.com/Shpigford/status/2019743885942002144
-author: Josh Pigford (@Shpigford)
-captured_date: 2026-02-13
----
-
 # Token Efficiency in OpenClaw: Let Scripts Do the Heavy Lifting
 
 (Description: Hero image showing a scorpion silhouette surrounded by orange and red flames against a dark rocky background, with dramatic fire effects)

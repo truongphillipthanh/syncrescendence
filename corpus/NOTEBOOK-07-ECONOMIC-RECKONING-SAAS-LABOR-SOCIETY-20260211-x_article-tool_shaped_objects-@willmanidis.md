@@ -1,9 +1,3 @@
----
-url: https://x.com/WillManidis/status/2021655191901155534
-author: Will Manidis (@WillManidis)
-captured_date: 2026-02-11
----
-
 # Tool Shaped Objects
 
 ![Opening image of traditional Japanese kanna blade makers](Description: A classical Japanese woodblock-style illustration showing four artisans in traditional blue and patterned dress working on crafting wooden plane blades. The scene depicts a traditional craft workshop with master craftspeople engaged in the meticulous work of blade-making.)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-776
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "ruliad"
-  - "observer"
-  - "physics"
-  - "also"
-  - "aliens"
-creator: "The Last Theory"
-guest: null
-title: "Ruliad + observer = physics ... also aliens"
-url: "https://www.youtube.com/watch?v=6zShjO9Xpbo"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 36s"
-has_transcript: no
-synopsis: "Ruliad + observer = physics ... also aliens by The Last Theory. A interview covering ruliad, observer, physics."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Ruliad + observer ="
-  - "Ruliad + observer = physics ..."
----
-
 # Ruliad + observer = physics ... also aliens
 
 **Channel**: The Last Theory

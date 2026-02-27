@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-278
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "davos"
-  - "2026"
-  - "china"
-  - "race"
-  - "gpu"
-creator: "Peter H. Diamandis"
-guest: null
-title: "Davos 2026: The US-China AI Race, GPU Diplomacy, and Robots Walking the Streets | #225"
-url: "https://www.youtube.com/watch?v=hGRiklWYMas"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 40m 37s"
-has_transcript: no
-synopsis: "Davos 2026: The US-China AI Race, GPU Diplomacy, and Robots Walking the Streets | #225 by Peter H. Diamandis. A lecture covering davos, 2026, china."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Davos 2026: The US-China"
-  - "Davos 2026: The US-China AI Race,"
----
-
 # Davos 2026: The US-China AI Race, GPU Diplomacy, and Robots Walking the Streets | #225
 
 **Channel**: Peter H. Diamandis

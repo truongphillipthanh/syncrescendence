@@ -1,25 +1,3 @@
----
-id: SOURCE-20260204-website-article-unknown-machines_of_loving_grace_darioamodei
-platform: website
-format: article
-creator: unknown
-title: machines of loving grace darioamodei\
-status: triaged
-original_filename: 20260204-website-machines-of-loving-grace-darioamodei\.md
-url: https://www.darioamodei.com/essay/machines-of-loving-grace
-domain: darioamodei.com
-author: Dario Amodei
-published_date: October 2024
-captured_date: 2026-02-04
-content_type: essay
-signal_tier: paradigm
-topics: ""
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Machines of Loving Grace
 
 *How AI Could Transform the World for the Better*

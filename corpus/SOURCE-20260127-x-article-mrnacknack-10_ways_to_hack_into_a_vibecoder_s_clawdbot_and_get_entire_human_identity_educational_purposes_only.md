@@ -1,29 +1,3 @@
----
-url: https://x.com/mrnacknack/status/2016134416897360212
-author: "chirag (@mrnacknack)"
-captured_date: 2026-02-04
-id: SOURCE-20260127-003
-original_filename: "20260127-x_article-10_ways_to_hack_into_a_vibecoder_s_clawdbot_and_get_entire_human_identity_educational_purposes_only-@mrnacknack.md"
-status: triaged
-platform: x
-format: article
-creator: mrnacknack
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - best-practices
-  - vibe-coding
-  - automation
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "chirag - 10 Clawdbot hacking methods"
-synopsis: "Detailed security exposé demonstrating 10 attack vectors against Clawdbot/Moltbot installations: SSH brute force, exposed gateways, no user ID allowlists, browser session hijacking, 1Password extraction, Slack workspace takeover, no-sandbox root access, prompt injection via email/web/documents/Slack/PRs, ClawdHub skill backdooring, and a combined 'perfect storm' scenario. Each hack includes code examples, timelines, what gets compromised, and prevention steps."
-key_insights:
-  - "A default-configured Clawdbot VPS can be fully compromised in under 5 minutes via SSH brute force, with 200+ exposed instances already found on Shodan."
-  - "Prompt injection through emails, web pages, PDFs, and Slack messages can silently exfiltrate credentials while showing the user a normal-looking summary — the victim sees nothing unusual."
-  - "Most attack vectors have trivially simple prevention (user ID allowlists, separate browser profiles, localhost binding) that take minutes to configure but are skipped by most users."
----
 # 10 ways to hack into a vibecoder's clawdbot & get entire human identity (educational purposes only)
 
 This is for education purposes only so that you understand how vibecoding can get vulnerable in setups like moltbot (previously clawdbot) and how you can prevent this from happening with you. I don't encourage trying any of this with anyone. Also this is not a complete deepdive, I have only explained the approach and not how to actually do it. The code maybe inaccurate.

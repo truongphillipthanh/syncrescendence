@@ -1,10 +1,3 @@
----
-id: ref-research_methodology_synthesis
-kind: reference
-scope: engine
-target: engine
----
-
 # Distributed Cognition Research Synthesis
 ## A Formalized Methodology for Building Upon Previous Research
 

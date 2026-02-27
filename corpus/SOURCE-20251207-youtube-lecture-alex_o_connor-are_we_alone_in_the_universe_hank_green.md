@@ -1,38 +1,3 @@
----
-id: SOURCE-20251207-892
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "alone"
-  - "universe"
-  - "hank"
-  - "green"
-creator: "Alex O'Connor"
-guest: null
-title: "Are We Alone in the Universe? - Hank Green"
-url: "https://www.youtube.com/watch?v=EgLbYhnK30Y"
-date_published: 2025-12-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 14m 10s"
-has_transcript: no
-synopsis: "Are We Alone in the Universe? - Hank Green by Alex O'Connor. A lecture covering alone, universe, hank."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Are We Alone in"
-  - "Are We Alone in the Universe?"
----
-
 # Are We Alone in the Universe? - Hank Green
 
 **Channel**: Alex O'Connor

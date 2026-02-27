@@ -1,32 +1,3 @@
----
-url: https://x.com/witcheer/status/2021610036980543767
-author: "witcheer (@witcheer)"
-captured_date: 2026-02-13
-id: SOURCE-20260211-012
-original_filename: "20260211-x_article-i_fed_20_openclaw_articles_to_opus_4_6_heres_the_setup_guide_it_built-@witcheer.md"
-status: triaged
-platform: x
-format: article
-creator: witcheer
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - automation
-  - testing
-  - docker
-  - git
-  - memory-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "I Fed 20 OpenClaw Articles to Opus 46  Heres the Setup Guide It Built"
-synopsis: "I Fed 20+ OpenClaw Articles to Opus 4.6 - Here's the Setup Guide It Built Opening Over the past few weeks, we've been bombarded with articles explaining how to set up OpenClaw: what to avoid, what the best configuration is, what safety measures to take, etc. So I took a Google Doc, dumped 20+ articles into it, and fed it to Opus 4.6."
-key_insights:
-  - "The prompt was: "Based on all the information in this Google Doc, create the best OpenClaw setup guide."
-  - "It contains Atomic Stealer malware that harvests your keychain, browser passwords, wallet files, and API keys."
-  - "When the agent reads it, hidden instructions tell it to exfiltrate your exchange API keys or execute shell commands."
----
 # I Fed 20+ OpenClaw Articles to Opus 4.6 - Here's the Setup Guide It Built
 
 (Description: A vibrant, intricate digital illustration showing a stylized witch figure in flowing robes with cosmic elements—swirling clouds in teals, purples, oranges and reds, celestial bodies, stars, and a large sun in the background. The art style is decorative and dreamlike, reminiscent of tarot card imagery.)

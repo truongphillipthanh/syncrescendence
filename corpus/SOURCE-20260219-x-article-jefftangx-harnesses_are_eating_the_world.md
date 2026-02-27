@@ -1,32 +1,3 @@
----
-url: https://x.com/jefftangx/status/2024599658665005275
-author: "Jeff Tang (@jefftangx)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-008
-original_filename: "20260219-x_article-harnesses_are_eating_the_world-@jefftangx.md"
-status: triaged
-platform: x
-format: article
-creator: jefftangx
-signal_tier: paradigm
-topics:
-  - context-management
-  - memory-management
-  - openai
-  - product-development
-  - security
-  - mac-mini
-  - clawdbot
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Harnesses Are Eating the World"
-synopsis: "Harnesses Are Eating the World Claude Code hits $2.5B ARR in 1 year, Manus acquired by Meta for $2B, OpenClaw acquired by OpenAI, and what we can learn from the most important layer of 2026."
-key_insights:
-  - "Harnesses Are Eating the World Claude Code hits $2.5B ARR in 1 year, Manus acquired by Meta for $2B, OpenClaw acquired by OpenAI, and what we can learn from the most important layer of 2026."
-  - "Nonetheless, I believe Harnesses are the most important layer of 2026."
-  - "Claude Code took over Twitter 2 weeks later during Christmas Break and New Year's."
----
 # Harnesses Are Eating the World
 Claude Code hits $2.5B ARR in 1 year, Manus acquired by Meta for $2B, OpenClaw acquired by OpenAI, and what we can learn from the most important layer of 2026.
 ## Table of Contents

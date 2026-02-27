@@ -1,9 +1,3 @@
----
-url: https://x.com/Bouazizalex/status/2020159203382550530
-author: Alex Bouaziz (@Bouazizalex)
-captured_date: 2026-02-07
----
-
 # You can build a $10B+ company fully remotely
 
 (Description: Two people lying on a red couch in casual clothing during a nap, photographed in daylight. This image encapsulates the "hacker-bedroom energy" of early Deel.)

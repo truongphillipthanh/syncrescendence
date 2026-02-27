@@ -1,39 +1,3 @@
----
-id: SOURCE-20260219-010
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "paying"
-  - "attention"
-  - "india"
-  - "interesting"
-  - "times"
-creator: "Interesting Times with Ross Douthat"
-guest: null
-title: "You Should Be Paying Attention to India | Interesting Times with Ross Douthat"
-url: "https://www.youtube.com/watch?v=3wpMgpUGlw4"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "44m 43s"
-has_transcript: no
-synopsis: "You Should Be Paying Attention to India | Interesting Times with Ross Douthat by Interesting Times with Ross Douthat. A lecture covering paying, attention, india."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "You Should Be Paying"
-  - "You Should Be Paying Attention to"
----
-
 # You Should Be Paying Attention to India | Interesting Times with Ross Douthat
 
 **Channel**: Interesting Times with Ross Douthat

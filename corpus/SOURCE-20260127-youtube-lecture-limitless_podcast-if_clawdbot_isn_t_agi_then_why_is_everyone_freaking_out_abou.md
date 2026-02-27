@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-297
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "isn"
-  - "agi"
-  - "then"
-  - "everyone"
-creator: "Limitless Podcast"
-guest: null
-title: "If Clawdbot Isn't AGI, Then Why Is Everyone Freaking Out About It?"
-url: "https://www.youtube.com/watch?v=e8Zt6Lxz9o8"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 12s"
-has_transcript: no
-synopsis: "If Clawdbot Isn't AGI, Then Why Is Everyone Freaking Out About It? by Limitless Podcast. A lecture covering clawdbot, isn, agi."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "If Clawdbot Isn't AGI,"
-  - "If Clawdbot Isn't AGI, Then Why"
----
-
 # If Clawdbot Isn't AGI, Then Why Is Everyone Freaking Out About It?
 
 **Channel**: Limitless Podcast

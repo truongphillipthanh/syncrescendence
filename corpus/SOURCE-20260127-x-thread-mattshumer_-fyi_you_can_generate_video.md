@@ -1,28 +1,3 @@
----
-id: SOURCE-20260127-x-thread-mattshumer_-fyi_you_can_generate_video
-platform: x
-format: thread
-creator: mattshumer_
-title: fyi you can generate video
-status: triaged
-original_filename: "20260127-x_thread-fyi_you_can_generate_video-@mattshumer_.md"
-url: https://x.com/mattshumer_/status/2016227435637887310
-author: "Matt Shumer (@mattshumer_)"
-captured_date: 2026-02-04
-signal_tier: tactical
-topics:
-  - ai-creative-media
-  - content-creation
-teleology: extract
-notebooklm_category: ai-creative-media
-aliases:
-  - "Matt Shumer - Nano Banana video generation"
-synopsis: "Matt Shumer demonstrates a frame-by-frame video generation technique using Claude for prompt sequencing and Nano Banana Pro for image generation — essentially AI-powered stop motion. Each frame prompt is informed by the previous generated image."
-key_insights:
-  - "Frame-by-frame video generation with Nano Banana Pro works by having Claude write sequential prompts, each informed by the previous generated frame, then combining them."
-  - "The technique is primitive but functional — essentially AI stop-motion animation using image generation rather than dedicated video models."
-  - "This approach gives more directorial control over each frame compared to end-to-end video generation models."
----
 # AI Video Generation with Nano Banana - Thread Archive
 
 ## Post 1

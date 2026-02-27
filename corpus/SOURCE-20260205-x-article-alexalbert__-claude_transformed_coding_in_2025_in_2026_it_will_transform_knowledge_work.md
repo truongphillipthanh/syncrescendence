@@ -1,32 +1,3 @@
----
-url: https://x.com/alexalbert__/status/2019477447868313634
-author: "Alex Albert (@alexalbert__)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-003
-original_filename: "20260205-x_article-claude_transformed_coding_in_2025_in_2026_it_will_transform_knowledge_work-@alexalbert__.md"
-status: triaged
-platform: x
-format: article
-creator: alexalbert__
-signal_tier: paradigm
-topics:
-  - claude-code
-  - vibe-coding
-  - agentic-development
-  - extended-thinking
-  - gemini
-  - gpt
-  - product-development
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Claude transformed coding in 2025 In 2026 it will transform knowledge work"
-synopsis: "Claude transformed coding in 2025. In 2026, it will transform knowledge work. Benchmark Overview , Opus 4.5, Sonnet 4.5, Gemini 3 Pro, and GPT-3.5."
-key_insights:
-  - "The AI Coding Parallel I think the best way to understand what's about to happen is to look at how coding played out."
-  - "Claude transformed coding in 2025."
-  - "In 2026, it will transform knowledge work."
----
 # Claude transformed coding in 2025. In 2026, it will transform knowledge work.
 
 ## Benchmark Overview

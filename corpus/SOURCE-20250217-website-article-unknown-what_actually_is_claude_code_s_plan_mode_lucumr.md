@@ -1,34 +1,3 @@
----
-id: SOURCE-20250217-website-article-unknown-what_actually_is_claude_code_s_plan_mode_lucumr
-platform: website
-format: article
-creator: unknown
-title: what actually is claude code's plan mode—lucumr
-status: triaged
-original_filename: 20250217-website-what-actually-is-claude-code's-plan-mode—lucumr.md
-url: https://lucumr.pocoo.org/2025/12/17/what-is-plan-mode/
-domain: lucumr.pocoo.org
-author: Armin Ronacher
-published_date: 2025-12-17
-captured_date: 2026-01-24
-content_type: blog
-signal_tier: strategic
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "prompt-engineering"
-  - "ai-engineering"
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Armin Ronacher - Plan Mode Internals"
-  - "Lucumr Plan Mode"
-synopsis: "Armin Ronacher (Flask creator) reverse-engineers Claude Code plan mode internals, finding it is essentially a short prompt injection plus UX—not a fundamentally different tool mode. Plan mode writes a markdown file, enforces read-only via prompt, and follows a 4-phase workflow."
-key_insights:
-  - "Plan mode is just prompt engineering plus UX—the tools remain available, only prompt reinforcement enforces read-only behavior"
-  - "The plan mode prompt follows 4 phases: Initial Understanding, Design, Review, Final Plan—reproducible via custom slash commands"
-  - "The agent can enter/exit plan mode itself via a tool, which is why the plan confirmation screen sometimes appears unprompted"
----
 # What Actually Is Claude Code's Plan Mode?
 
 *written on December 17, 2025*

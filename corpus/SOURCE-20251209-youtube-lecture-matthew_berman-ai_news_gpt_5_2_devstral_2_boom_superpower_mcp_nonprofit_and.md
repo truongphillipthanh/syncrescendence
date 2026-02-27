@@ -1,39 +1,3 @@
----
-id: SOURCE-20251209-882
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "news"
-  - "gpt"
-  - "devstral"
-  - "boom"
-  - "superpower"
-creator: "Matthew Berman"
-guest: null
-title: "AI News: GPT-5.2, Devstral 2, Boom Superpower, MCP Nonprofit and more!"
-url: "https://www.youtube.com/watch?v=GMQ58GUpcD0"
-date_published: 2025-12-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 41s"
-has_transcript: no
-synopsis: "AI News: GPT-5.2, Devstral 2, Boom Superpower, MCP Nonprofit and more! by Matthew Berman. A lecture covering news, gpt, devstral."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: agents-orchestration
-aliases:
-  - "AI News: GPT-5.2, Devstral"
-  - "AI News: GPT-5.2, Devstral 2, Boom"
----
-
 # AI News: GPT-5.2, Devstral 2, Boom Superpower, MCP Nonprofit and more!
 
 **Channel**: Matthew Berman

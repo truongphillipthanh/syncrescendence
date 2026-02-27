@@ -1,18 +1,3 @@
----
-source_id: SOURCE-20251023-035
-title: "Chain of Thought | MCP Atlas Benchmark Deep Dive"
-platform: youtube
-format: panel
-creator: Scale AI
-guests: [Brad Kenstler, Chaitanya Bandi, Sami Hassaan, Chetan Rane]
-date_published: 2025-10-23
-date_processed: 2026-01-05
-chain: intelligence
-topics: [mcp, model_context_protocol, tool_use, agents, benchmarks]
-signal_tier: strategic
-integrated_into: []
----
-
 # Scale AI MCP Atlas Benchmark: Evaluating Agent Capabilities
 
 ## Core Thesis

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251124-1004
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "prompting"
-  - "wild"
-  - "west"
-  - "here"
-  - "prompt"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Prompting is the Wild West: Here's the Prompt Lifecycle Guide + 19 Tools + a Demo"
-url: "https://www.youtube.com/watch?v=V0YhpeSOuzk"
-date_published: 2025-11-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 40s"
-has_transcript: no
-synopsis: "Prompting is the Wild West: Here's the Prompt Lifecycle Guide + 19 Tools + a Demo by AI News & Strategy Daily | Nate B Jones. A lecture covering prompting, wild, west."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Prompting is the Wild"
-  - "Prompting is the Wild West: Here's"
----
-
 # Prompting is the Wild West: Here's the Prompt Lifecycle Guide + 19 Tools + a Demo
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

@@ -1,9 +1,3 @@
----
-url: https://x.com/flavioAd/status/2019474660866290061
-author: Flavio Adamo (@flavioAd)
-captured_date: 2026-02-05
----
-
 # GPT 5.3-Codex: Are we becoming the bottleneck?
 
 (Description: Large gradient banner with blue-to-purple transition containing white text reading "GPT-5.3-Codex")

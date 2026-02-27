@@ -1,24 +1,3 @@
----
-url: https://x.com/Saboo_Shubham_/status/2023105475919884562
-author: "Shubham Saboo (@Saboo_Shubham_)"
-captured_date: 2026-02-15
-id: SOURCE-20260215-011
-original_filename: "20260215-x_article-what_30_days_of_running_24_7_ai_agent_team_taught_me-@saboo_shubham_.md"
-status: triaged
-platform: x
-format: article
-creator: saboo_shubham_
-signal_tier: paradigm
-topics: [ai-agents, automation, best-practices, case-study, prompt-engineering]
-teleology: extract
-notebooklm_category: ai-agents
-aliases: ["saboo_shubham - 30 days running AI agent team"]
-synopsis: "Documents 30 days of operating a multi-agent AI team (content writer, research agent, chief-of-staff), revealing three adoption phases: mediocre everything (days 1-7), specific competence (days 8-21), and compounding returns (day 22+). Introduces corrective prompt-engineering and shows how memory files, skill files, and feedback loops compound over time."
-key_insights:
-  - "Three things compound in agent teams: memory files (preferences), skill files (rules from failures), and feedback loops - everything else is static"
-  - "Start with one agent, get it to Phase 2 before adding a second - onboarding six agents simultaneously creates chaos"
-  - "Context bloat degrades quality: Kelly hit 161K tokens and output degraded - memory files need biweekly refactoring like codebases"
----
 # What 30 days of running 24/7 AI Agent team taught me
 (Description: Featured image showing OpenClaw logo with red octopus creature mascot on the left side, and a beige/gold diagram box titled "THE THREE PHASES OF AGENT TEAM ADOPTION" showing progression from Phase 1 (Mediocre Everything) through Phase 2 (Specific Competence) to Phase 3 (Compounding Returns) with golden curves indicating improvement over time. On the right side are preview cards of team members (Monica, Ross, Kelly and Dwight, Rachel and Pam) with chat-style notifications showing their updates and tasks.)
 I built a 24/7 AI agent team and almost killed it on day four.

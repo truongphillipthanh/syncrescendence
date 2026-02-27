@@ -1,39 +1,3 @@
----
-id: SOURCE-20260214-086
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "learn"
-  - "pretty"
-  - "much"
-  - "anything"
-  - "thinking"
-creator: "Justin Sung"
-guest: null
-title: "Learn Pretty Much Anything by Thinking on Paper"
-url: "https://www.youtube.com/watch?v=tGrMjRqQGVY"
-date_published: 2026-02-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 54s"
-has_transcript: no
-synopsis: "Learn Pretty Much Anything by Thinking on Paper by Justin Sung. A lecture covering learn, pretty, much."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Learn Pretty Much Anything"
-  - "Learn Pretty Much Anything by Thinking"
----
-
 # Learn Pretty Much Anything by Thinking on Paper
 
 **Channel**: Justin Sung

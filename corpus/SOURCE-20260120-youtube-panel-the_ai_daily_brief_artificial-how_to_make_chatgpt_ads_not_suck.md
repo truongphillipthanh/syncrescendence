@@ -1,38 +1,3 @@
----
-id: SOURCE-20260120-425
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "make"
-  - "chatgpt"
-  - "ads"
-  - "suck"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "How to Make ChatGPT Ads Not Suck"
-url: "https://www.youtube.com/watch?v=b7LNP1RZemI"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 8s"
-has_transcript: no
-synopsis: "How to Make ChatGPT Ads Not Suck by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering make, chatgpt, ads."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "How to Make ChatGPT"
-  - "How to Make ChatGPT Ads Not"
----
-
 # How to Make ChatGPT Ads Not Suck
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

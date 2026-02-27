@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-579
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "bigquery"
-  - "migration"
-  - "service"
-  - "sql"
-  - "data"
-creator: "Google Cloud Tech"
-guest: null
-title: "BigQuery Migration Service: SQL and data transfer"
-url: "https://www.youtube.com/watch?v=vY_m9dM6WxE"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 14s"
-has_transcript: no
-synopsis: "BigQuery Migration Service: SQL and data transfer by Google Cloud Tech. A tutorial covering bigquery, migration, service."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "BigQuery Migration Service: SQL"
-  - "BigQuery Migration Service: SQL and data"
----
-
 # BigQuery Migration Service: SQL and data transfer
 
 **Channel**: Google Cloud Tech

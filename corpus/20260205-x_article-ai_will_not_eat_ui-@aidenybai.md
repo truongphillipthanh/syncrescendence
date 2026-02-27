@@ -1,9 +1,3 @@
----
-url: https://x.com/aidenybai/status/2019560357141049805
-author: Aiden Bai (@aidenybai)
-captured_date: 2026-02-13
----
-
 # AI will not eat UI
 
 (Description: Featured image showing a quote from Naval (@naval): "The promise of AI is no UI." with timestamp "8:49 PM · Mar 19, 2024 · 691.4K Views". Background shows a blurred cityscape at sunset.)

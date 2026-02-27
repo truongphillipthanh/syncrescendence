@@ -1,15 +1,3 @@
----
-agent: commander
-priority: P1
-category: sensing
-frequency: daily
-schedule: "07:30"
-launchd_agent: com.syncrescendence.sensing-linear-impl-sync
-description: >
-  Reconcile Linear SYN issues with IMPLEMENTATION-MAP.md entries.
-  Detect status drift, unmapped issues, and stale links.
----
-
 # SENSING: Linear <-> IMPL-MAP Sync
 
 **From**: Scheduler (launchd/claudecron)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251228-704
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "one"
-  - "year"
-  - "mcp"
-  - "david"
-  - "soria"
-creator: "Latent Space"
-guest: null
-title: "One Year of MCP — with David Soria Parria and AAIF leads from OpenAI, Goose, Linux Foundation"
-url: "https://www.youtube.com/watch?v=z6XWYCM3Q8s"
-date_published: 2025-12-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 39m 19s"
-has_transcript: no
-synopsis: "One Year of MCP — with David Soria Parria and AAIF leads from OpenAI, Goose, Linux Foundation by Latent Space. A tutorial covering one, year, mcp."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "One Year of MCP"
-  - "One Year of MCP — with"
----
-
 # One Year of MCP — with David Soria Parria and AAIF leads from OpenAI, Goose, Linux Foundation
 
 **Channel**: Latent Space

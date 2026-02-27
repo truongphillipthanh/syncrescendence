@@ -1,9 +1,3 @@
----
-url: https://x.com/felixleezd/status/2018728056249254377
-author: Felix Lee (@felixleezd)
-captured_date: 2026-02-13
----
-
 # Claude Code Guide for Designers
 
 Claude Code is the highest leverage skill you can learn this year. The future of design is here. I've written a full guide for this.

@@ -1,15 +1,3 @@
----
-agent: cartographer
-priority: P2
-category: sensing
-frequency: weekly
-schedule: "Monday 05:30"
-launchd_agent: com.syncrescendence.sensing-corpus-staleness
-description: >
-  Audit all DYN-* and REF-* files for staleness (last_updated > 7 days).
-  Produce a freshness report and flag documents needing refresh.
----
-
 # SENSING: Corpus Staleness Audit
 
 **From**: Scheduler (launchd/claudecron)

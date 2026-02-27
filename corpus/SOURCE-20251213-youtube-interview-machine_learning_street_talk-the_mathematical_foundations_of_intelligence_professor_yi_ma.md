@@ -1,38 +1,3 @@
----
-id: SOURCE-20251213-829
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "mathematical"
-  - "foundations"
-  - "intelligence"
-  - "professor"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "The Mathematical Foundations of Intelligence [Professor Yi Ma]"
-url: "https://www.youtube.com/watch?v=QWidx8cYVRs"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 5m 28s"
-has_transcript: no
-synopsis: "The Mathematical Foundations of Intelligence [Professor Yi Ma] by Machine Learning Street Talk. A interview covering mathematical, foundations, intelligence."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Mathematical Foundations of"
-  - "The Mathematical Foundations of Intelligence [Professor"
----
-
 # The Mathematical Foundations of Intelligence [Professor Yi Ma]
 
 **Channel**: Machine Learning Street Talk

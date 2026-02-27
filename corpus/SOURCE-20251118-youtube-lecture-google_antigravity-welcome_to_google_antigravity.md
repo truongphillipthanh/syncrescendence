@@ -1,37 +1,3 @@
----
-id: SOURCE-20251118-1046
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "welcome"
-  - "google"
-  - "antigravity"
-creator: "Google Antigravity"
-guest: null
-title: "Welcome to Google Antigravity 🚀"
-url: "https://www.youtube.com/watch?v=SVCBA-pBgt0"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2m 24s"
-has_transcript: no
-synopsis: "Welcome to Google Antigravity 🚀 by Google Antigravity. A lecture covering welcome, google, antigravity."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Welcome to Google Antigravity"
-  - "Welcome to Google Antigravity 🚀"
----
-
 # Welcome to Google Antigravity 🚀
 
 **Channel**: Google Antigravity

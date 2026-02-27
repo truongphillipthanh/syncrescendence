@@ -1,19 +1,3 @@
----
-id: CLARESCENCE-2026-02-06-disposition-routing-charter
-kind: clarescence
-scope: orchestration
-status: draft
-created: 2026-02-06
-updated: 2026-02-06
-inputs:
-  - engine/REF-SAAS_INTEGRATION_ARCHITECTURE.md
-  - orchestration/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
-  - orchestration/state/ARCH-TOOLCHAIN_CLARESCENCE.md
-  - .github/CONNECTOR_PROTOCOL.md
-outputs:
-  - orchestration/state/impl/DEC-20260206-144500-disposition-routing-charter.md
----
-
 # CLARESCENCE — Disposition + Routing Charter (reinforced rationale)
 
 ## Pass 1 — Triumvirate Calibration

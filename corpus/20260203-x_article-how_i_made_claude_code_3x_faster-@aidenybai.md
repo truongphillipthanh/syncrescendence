@@ -1,9 +1,3 @@
----
-url: https://x.com/aidenybai/status/2018812643369488747
-author: Aiden Bai (@aidenybai)
-captured_date: 2026-02-13
----
-
 # How I made Claude Code 3x faster
 
 (Description: A dark-themed benchmark visualization showing a magenta and gray distribution curve with the title "3x faster on average" displayed below. The x-axis represents "Time per Edit (seconds)" ranging from 0 to 30, with two overlapping probability distributions illustrating the performance comparison between control and treatment groups.)

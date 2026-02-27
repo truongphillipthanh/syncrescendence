@@ -1,10 +1,3 @@
----
-id: ref-memory_architecture_matrix
-kind: reference
-scope: engine
-target: engine
----
-
 # IIC Constellation: Memory Architecture Matrix
 **Date**: 2026-01-20  
 **Status**: DEFINITIVE REFERENCE  

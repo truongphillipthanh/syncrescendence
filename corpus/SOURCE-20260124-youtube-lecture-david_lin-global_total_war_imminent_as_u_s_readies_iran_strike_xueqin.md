@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-317
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "global"
-  - "total"
-  - "war"
-  - "imminent"
-  - "readies"
-creator: "David Lin "
-guest: null
-title: "Global ‘Total War’ Imminent As U.S. Readies Iran Strike | Xueqin Jiang"
-url: "https://www.youtube.com/watch?v=2f3OSVZg2tI"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "44m 27s"
-has_transcript: no
-synopsis: "Global ‘Total War’ Imminent As U.S. Readies Iran Strike | Xueqin Jiang by David Lin . A lecture covering global, total, war."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Global ‘Total War’ Imminent"
-  - "Global ‘Total War’ Imminent As U.S."
----
-
 # Global ‘Total War’ Imminent As U.S. Readies Iran Strike | Xueqin Jiang
 
 **Channel**: David Lin 

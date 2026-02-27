@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-article-nicbstme-llms_eat_scaffolding_for_breakfast
-platform: x
-format: article
-creator: nicbstme
-title: llms eat scaffolding for breakfast
-status: triaged
-original_filename: "20260126-x_article-llms_eat_scaffolding_for_breakfast-@nicbstme.md"
-url: https://x.com/nicbstme/status/2015795605524901957
-author: "Nicolas Bustamante (@nicbstme)"
-captured_date: 2026-01-26
-signal_tier: paradigm
-topics: ""
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # LLMs Eat Scaffolding for Breakfast
 
 (Description: Three colorful abstract icons representing AI concepts: a black spiral/DNA-like shape, an orange sunburst pattern, and a rainbow gradient 4-pointed star)

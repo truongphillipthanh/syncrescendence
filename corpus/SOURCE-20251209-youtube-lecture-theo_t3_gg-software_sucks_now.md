@@ -1,36 +1,3 @@
----
-id: SOURCE-20251209-871
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "software"
-  - "sucks"
-  - "now"
-creator: "Theo - t3․gg"
-guest: null
-title: "Software Sucks Now"
-url: "https://www.youtube.com/watch?v=FI5ba4RRE8U"
-date_published: 2025-12-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 37s"
-has_transcript: no
-synopsis: "Software Sucks Now by Theo - t3․gg. A lecture covering software, sucks, now."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Software Sucks Now"
----
-
 # Software Sucks Now
 
 **Channel**: Theo - t3․gg

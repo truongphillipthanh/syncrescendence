@@ -1,9 +1,3 @@
----
-url: https://x.com/kimmonismus/status/2019488076796686621
-author: Chubby (@kimmonismus)
-captured_date: 2026-02-05
----
-
 # GPT-5.3 Codex and Opus 4.6: An Unexpected Breakthrough -- Everything Important Here
 
 ## Release Intervals are Accelerating

@@ -1,31 +1,3 @@
----
-url: https://x.com/claudeai/status/2024986293248127452
-author: Claude
-handle: claudeai
-published_date: Feb 20, 2026
-captured_date: Feb 21, 2026
-post_count: 7
-id: SOURCE-20260220-010
-original_filename: "20260220-x_thread-our_latest_claude_code_hackathon-@claudeai.md"
-status: triaged
-platform: x
-format: thread
-creator: claudeai
-signal_tier: tactical
-topics:
-  - claude-code
-  - testing
-  - extended-thinking
-teleology: reference
-notebooklm_category: claude-code
-aliases:
-  - "20260220 x thread claudeai our latest claude code hackathon"
-synopsis: "Post 1 Our latest Claude Code hackathon is officially a wrap. 500 builders spent a week exploring what they could do with Opus 4.6 and Claude Code. Meet the winners: --- Post 2: 🥇 CrossBeam by Mike Brown California builders lose months navigating permit corrections."
-key_insights:
-  - "Post 1 Our latest Claude Code hackathon is officially a wrap."
-  - "500 builders spent a week exploring what they could do with Opus 4.6 and Claude Code."
-  - "Meet the winners: --- Post 2: 🥇 CrossBeam by Mike Brown California builders lose months navigating permit corrections."
----
 ## Post 1
 Our latest Claude Code hackathon is officially a wrap.
 500 builders spent a week exploring what they could do with Opus 4.6 and Claude Code.

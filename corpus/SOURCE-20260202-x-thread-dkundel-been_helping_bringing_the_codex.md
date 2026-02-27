@@ -1,29 +1,3 @@
----
-url: https://x.com/dkundel/status/2018455598267027894
-author: "dominik kundel (@dkundel)"
-captured_date: 2026-02-14
-id: SOURCE-20260202-011
-original_filename: "20260202-x_thread-been_helping_bringing_the_codex-@dkundel.md"
-status: triaged
-platform: x
-format: thread
-creator: dkundel
-signal_tier: tactical
-topics:
-  - developer-tools
-  - ai-engineering
-  - automation
-  - best-practices
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Dominik Kundel - Codex app tips and tricks"
-synopsis: "Tips for getting the most out of the OpenAI Codex desktop app from one of its developers. Covers automating AGENTS.md updates from past sessions, pinned threads for multitasking, preventing sleep during long runs, notifications for approval requests, local environment actions, and skills/MCP integration."
-key_insights:
-  - "Having Codex automatically read past sessions and update AGENTS.md creates a self-improving agent loop where the tool learns from its own history."
-  - "Pinned threads, sleep prevention, and background notifications transform the Codex app from a chat interface into an always-on development companion."
-  - "Local environment actions (dev server, build triggers) integrated into the agent app blur the line between IDE and AI assistant."
----
 # Codex App Tips and Tricks Thread
 
 Been helping bringing the Codex app to life and at this point I've fully moved from using an IDE and the Codex Extension to working 99.9% of the time exclusively in the Codex app.

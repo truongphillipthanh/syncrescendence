@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-thread-exm7777-everyone_is_sleeping_on_notebooklm
-platform: x
-format: thread
-creator: exm7777
-title: everyone is sleeping on notebooklm
-status: triaged
-original_filename: "20260126-x_thread-everyone_is_sleeping_on_notebooklm-@exm7777.md"
-url: https://x.com/EXM7777/status/2015790271779475573
-author: "Machina (@EXM7777)"
-captured_date: 2026-01-26
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: coding-tools
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # NotebookLM Thread
 
 ## Post 1 - 6:13 AM · Jan 26, 2026

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-345
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "deepmind"
-  - "risk"
-  - "chief"
-  - "warns"
-  - "might"
-creator: "Amplify - Dr. Ayesha Khanna"
-guest: null
-title: "DeepMind’s Risk Chief Warns: “We Might Not Be Ready For AGI…”"
-url: "https://www.youtube.com/watch?v=mwrBbZTS2dg"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "54m 13s"
-has_transcript: no
-synopsis: "DeepMind’s Risk Chief Warns: “We Might Not Be Ready For AGI…” by Amplify - Dr. Ayesha Khanna. A tutorial covering deepmind, risk, chief."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "DeepMind’s Risk Chief Warns:"
-  - "DeepMind’s Risk Chief Warns: “We Might"
----
-
 # DeepMind’s Risk Chief Warns: “We Might Not Be Ready For AGI…”
 
 **Channel**: Amplify - Dr. Ayesha Khanna

@@ -1,9 +1,3 @@
----
-url: https://x.com/ihtesham2005/status/2019791183296471368
-author: Ihtesham Ali (@ihtesham2005)
-captured_date: 2026-02-13
----
-
 # How to Setup OpenClaw (the guide that should have existed from day one)
 
 (Description: A colorful promotional banner featuring the OpenClaw logo with the tagline "THE AI THAT ACTUALLY DOES THINGS" flanked by cartoon character illustrations representing workflow automation. The banner includes testimonial quotes from users describing OpenClaw's capabilities.)

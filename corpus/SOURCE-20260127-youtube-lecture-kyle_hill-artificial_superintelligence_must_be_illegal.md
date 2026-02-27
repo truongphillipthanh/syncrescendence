@@ -1,38 +1,3 @@
----
-id: SOURCE-20260127-237
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "artificial"
-  - "superintelligence"
-  - "must"
-  - "illegal"
-creator: "Kyle Hill"
-guest: null
-title: "Artificial Superintelligence Must Be Illegal."
-url: "https://www.youtube.com/watch?v=8EvoUAxOlAQ"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 19s"
-has_transcript: no
-synopsis: "Artificial Superintelligence Must Be Illegal. by Kyle Hill. A lecture covering artificial, superintelligence, must."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Artificial Superintelligence Must Be"
-  - "Artificial Superintelligence Must Be Illegal."
----
-
 # Artificial Superintelligence Must Be Illegal.
 
 **Channel**: Kyle Hill

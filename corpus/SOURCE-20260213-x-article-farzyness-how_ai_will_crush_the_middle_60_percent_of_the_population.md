@@ -1,29 +1,3 @@
----
-url: "https://x.com/farzyness/status/2022293579725480162"
-author: "Farzad (@farzyness)"
-captured_date: "2026-02-13"
-id: SOURCE-20260213-009
-original_filename: "20260213-x_article-how_ai_will_crush_the_middle_60_percent_of_the_population-@farzyness.md"
-status: triaged
-platform: x
-format: article
-creator: farzyness
-signal_tier: strategic
-topics:
-  - testing
-  - deployment
-  - api
-  - cli-tools
-teleology: synthesize
-notebooklm_category: career-growth
-aliases:
-  - "How AI Will Crush The Middle 60 Of The Population"
-synopsis: "How AI Will Crush The Middle 60% Of The Population Picture a barbell at the gym. Two heavy weights on the ends, connected by a thin bar in the middle. That is the economic shape AI is creating - and almost nobody sees it coming. The top 20 percent will thrive. The bottom 20 percent will actually be lifted up."
-key_insights:
-  - "How AI Will Crush The Middle 60% Of The Population Picture a barbell at the gym."
-  - "Two heavy weights on the ends, connected by a thin bar in the middle."
-  - "That is the economic shape AI is creating - and almost nobody sees it coming."
----
 # How AI Will Crush The Middle 60% Of The Population
 
 (Description: A split-tree illustration with a golden/yellow brain-like structure on the left side and a blue circuit-board pattern on the right side, unified by a central trunk. The visual represents the intersection of biological and artificial intelligence. White text overlays read "THE MIDDLE 60%" and the subtitle "How AI Will Crush The Middle 60% Of The Population".)

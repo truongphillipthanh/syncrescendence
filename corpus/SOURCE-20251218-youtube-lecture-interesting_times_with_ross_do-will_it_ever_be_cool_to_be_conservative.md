@@ -1,37 +1,3 @@
----
-id: SOURCE-20251218-771
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ever"
-  - "cool"
-  - "conservative"
-creator: "Interesting Times with Ross Douthat"
-guest: null
-title: "Will It Ever Be Cool to Be Conservative?"
-url: "https://www.youtube.com/watch?v=4hdkgfjUkfM"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 26s"
-has_transcript: no
-synopsis: "Will It Ever Be Cool to Be Conservative? by Interesting Times with Ross Douthat. A lecture covering ever, cool, conservative."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Will It Ever Be"
-  - "Will It Ever Be Cool to"
----
-
 # Will It Ever Be Cool to Be Conservative?
 
 **Channel**: Interesting Times with Ross Douthat

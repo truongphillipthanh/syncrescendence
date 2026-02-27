@@ -1,39 +1,3 @@
----
-id: SOURCE-20250403-051
-platform: youtube
-format: interview
-cadence: arrhythmic
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: integrated
-chain: intelligence
-topics: [AGI_forecasting, intelligence_explosion, AI_timelines, R&D_automation, geopolitics, AI_governance, existential_risk]
-creator: Dwarkesh Patel
-guest: Scott Alexander, Daniel Kokotajlo
-title: "AI 2027: Month-by-Month Model of Intelligence Explosion"
-url: https://www.youtube.com/watch?v=htOvH12T7mU
-date_published: 2025-04-03
-date_processed: 2026-01-02
-date_integrated: 2026-01-02
-processing_function: transcribe_interview
-integrated_into: [CANON-00015, CANON-00004, CANON-30400]
-synopsis: |
-  Scott Alexander and Daniel Kokotajlo present "AI 2027"—a month-by-month scenario forecasting AI progress through potential AGI (2027) and superintelligence (2028). They introduce the "R&D progress multiplier" concept: how many months of pre-AI progress you get in one month with AI assistance. Key insight is the intelligence explosion as feedback loop where better AI enables faster AI research. Scenario includes geopolitical dynamics (China race), governance challenges (nationalization vs private anarchy), and branch points determining human agency retention.
-key_insights:
-  - "R&D progress multiplier: how many months of progress without AIs do you get in one month with AI assistance. By 2027: 5x for algorithmic progress."
-  - "Intelligence explosion: AI progress becomes much faster not incrementally but dramatically—doubling every month instead of every year."
-  - "The 2021 'What 2026 Looks Like' forecast was almost exactly right—this gives credence to the 2027 sequel."
-  - "We want the transitional fossils—month by month from chatbots to AGI to make it 'feel earned.'"
-  - "Arms race dynamics with China: whichever country gets advanced AI first has enormous advantage. This creates pressure that makes coordination on safety difficult."
-  - "Mid-2027 branch point: different futures depending on whether humans maintain agency or AI systems take over decision-making."
-  - "Nationalization vs private anarchy: governments taking control vs technology outpacing governance structures."
-  - "Most real-world tasks don't have clean reward signals—that's the current bottleneck for agents."
-  - "By late 2026, AI might do some kinds of research—automated junior researchers doing original work."
-  - "Daniel sacrificed millions in stock options to speak freely about AI—strong signal of honesty about stakes."
-visual_notes: |
-  Interview format with extensive scenario discussion. References to website with interactive widgets showing progress multiplier updates. Key value is the concrete month-by-month scaffolding of abstract AGI timeline claims.
----
-
 # Scott Alexander & Daniel Kokotajlo: AI 2027
 
 ## MACROSCOPIC NARRATIVE LENS ALIGNMENT

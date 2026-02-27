@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-573
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ces"
-  - "just"
-  - "cheesy"
-  - "gadgets"
-  - "anymore"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "AI at CES is Not Just Cheesy Gadgets Anymore"
-url: "https://www.youtube.com/watch?v=19NE_to9I-8"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 56s"
-has_transcript: no
-synopsis: "AI at CES is Not Just Cheesy Gadgets Anymore by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering ces, just, cheesy."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "AI at CES is"
-  - "AI at CES is Not Just"
----
-
 # AI at CES is Not Just Cheesy Gadgets Anymore
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

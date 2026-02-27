@@ -1,39 +1,3 @@
----
-id: SOURCE-20251126-992
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "google"
-  - "won"
-  - "image"
-  - "generation"
-  - "even"
-creator: "Theo - t3․gg"
-guest: null
-title: "Google won image generation (it's not even close) NANO BANANA PRO BREAKDOWN"
-url: "https://www.youtube.com/watch?v=UV9GqinedQ8"
-date_published: 2025-11-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 19s"
-has_transcript: no
-synopsis: "Google won image generation (it's not even close) NANO BANANA PRO BREAKDOWN by Theo - t3․gg. A lecture covering google, won, image."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-creative-media
-aliases:
-  - "Google won image generation"
-  - "Google won image generation (it's not"
----
-
 # Google won image generation (it's not even close) NANO BANANA PRO BREAKDOWN
 
 **Channel**: Theo - t3․gg

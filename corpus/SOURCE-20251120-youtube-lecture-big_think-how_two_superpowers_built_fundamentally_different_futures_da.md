@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1015
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "two"
-  - "superpowers"
-  - "built"
-  - "fundamentally"
-  - "different"
-creator: "Big Think"
-guest: null
-title: "How two superpowers built fundamentally different futures | Dan Wang and Kmele Foster"
-url: "https://www.youtube.com/watch?v=GiO3Zh2Ue9E"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "56m 55s"
-has_transcript: no
-synopsis: "How two superpowers built fundamentally different futures | Dan Wang and Kmele Foster by Big Think. A lecture covering two, superpowers, built."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "How two superpowers built"
-  - "How two superpowers built fundamentally different"
----
-
 # How two superpowers built fundamentally different futures | Dan Wang and Kmele Foster
 
 **Channel**: Big Think

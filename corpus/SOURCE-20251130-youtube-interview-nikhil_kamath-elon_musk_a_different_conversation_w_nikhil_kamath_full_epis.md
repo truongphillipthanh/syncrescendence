@@ -1,39 +1,3 @@
----
-id: SOURCE-20251130-968
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "elon"
-  - "musk"
-  - "different"
-  - "conversation"
-  - "nikhil"
-creator: "Nikhil Kamath"
-guest: null
-title: "Elon Musk: A Different Conversation w/ Nikhil Kamath | Full Episode | People by WTF Ep. 16"
-url: "https://www.youtube.com/watch?v=Rni7Fz7208c"
-date_published: 2025-11-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 54m 14s"
-has_transcript: no
-synopsis: "Elon Musk: A Different Conversation w/ Nikhil Kamath | Full Episode | People by WTF Ep. 16 by Nikhil Kamath. A interview covering elon, musk, different."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Elon Musk: A Different"
-  - "Elon Musk: A Different Conversation w/"
----
-
 # Elon Musk: A Different Conversation w/ Nikhil Kamath | Full Episode | People by WTF Ep. 16
 
 **Channel**: Nikhil Kamath

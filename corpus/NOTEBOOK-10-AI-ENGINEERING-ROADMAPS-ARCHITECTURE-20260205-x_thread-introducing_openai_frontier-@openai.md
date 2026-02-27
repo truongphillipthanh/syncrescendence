@@ -1,9 +1,3 @@
----
-url: https://x.com/OpenAI/status/2019413712772411528
-author: "@OpenAI"
-captured_date: 2026-02-05
----
-
 # OpenAI Frontier Announcement Thread
 
 ## Post 1

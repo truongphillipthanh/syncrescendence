@@ -1,39 +1,3 @@
----
-id: SOURCE-20260206-154
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "coding"
-  - "updates"
-  - "openai"
-  - "anthropic"
-  - "good"
-creator: "AI For Humans"
-guest: null
-title: "AI Coding Updates from OpenAI & Anthropic Are Good... Maybe Too Good?"
-url: "https://www.youtube.com/watch?v=AAt4z0HT-pI"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "57m 15s"
-has_transcript: no
-synopsis: "AI Coding Updates from OpenAI & Anthropic Are Good... Maybe Too Good? by AI For Humans. A lecture covering coding, updates, openai."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "AI Coding Updates from"
-  - "AI Coding Updates from OpenAI &"
----
-
 # AI Coding Updates from OpenAI & Anthropic Are Good... Maybe Too Good?
 
 **Channel**: AI For Humans

@@ -1,21 +1,3 @@
----
-url: https://x.com/YJstacked/status/2020784187582931292
-author: "YJ (@YJstacked)"
-captured_date: 2026-02-13
-id: SOURCE-20260209-007
-original_filename: "20260209-x_article-how_to_build_an_ai_agent_army_with_claude_skills-@yjstacked.md"
-status: triaged
-platform: x
-format: article
-creator: yjstacked
-signal_tier: tactical
-topics: [claude-code, ai-agents, developer-tools]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["yjstacked - AI Agent Army Claude Skills"]
-synopsis: "Guide to building an AI agent army using Claude Skills as modular capabilities that load automatically, turning Claude from a general assistant into specialized experts that remember team-specific workflows."
-key_insights: ["Claude Skills are modular capabilities not saved prompts — they load contextually", "Pasting instructions repeatedly burns tokens and degrades output quality", "Skills transform Claude from stateless assistant to persistent specialized workforce"]
----
 # How to Build an AI Agent Army with Claude Skills
 
 (Description: Hero image showing two hands reaching toward each other in a classic "creation of Adam" pose. One hand appears robotic/digital with blue circuitry patterns, the other is human. A MacBook with an Apple logo is visible in the background on a marble surface, suggesting collaboration between human and AI.)

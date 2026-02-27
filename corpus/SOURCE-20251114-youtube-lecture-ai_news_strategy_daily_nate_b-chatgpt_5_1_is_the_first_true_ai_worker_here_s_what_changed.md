@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1119
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "first"
-  - "true"
-  - "worker"
-  - "here"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "ChatGPT 5.1 Is the First True AI Worker: Here's What Changed"
-url: "https://www.youtube.com/watch?v=uySTyxsmrxM"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 9s"
-has_transcript: no
-synopsis: "ChatGPT 5.1 Is the First True AI Worker: Here's What Changed by AI News & Strategy Daily | Nate B Jones. A lecture covering chatgpt, first, true."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "ChatGPT 5.1 Is the"
-  - "ChatGPT 5.1 Is the First True"
----
-
 # ChatGPT 5.1 Is the First True AI Worker: Here's What Changed
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

@@ -1,38 +1,3 @@
----
-id: SOURCE-20251128-975
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "write"
-  - "code"
-  - "please"
-  - "watch"
-creator: "Theo - t3․gg"
-guest: null
-title: "If you write code, please watch this."
-url: "https://www.youtube.com/watch?v=dNviWH13dNY"
-date_published: 2025-11-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 30s"
-has_transcript: no
-synopsis: "If you write code, please watch this. by Theo - t3․gg. A lecture covering write, code, please."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "If you write code,"
-  - "If you write code, please watch"
----
-
 # If you write code, please watch this.
 
 **Channel**: Theo - t3․gg

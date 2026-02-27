@@ -1,39 +1,3 @@
----
-id: SOURCE-20251112-1150
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "lovable"
-  - "boasts"
-  - "users"
-  - "long"
-  - "live"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Lovable Boasts 8m Users: Long-Live Vibe Coding?"
-url: "https://www.youtube.com/watch?v=Wklrvo9bQWg"
-date_published: 2025-11-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 28s"
-has_transcript: no
-synopsis: "Lovable Boasts 8m Users: Long-Live Vibe Coding? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering lovable, boasts, users."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: vibe-coding
-aliases:
-  - "Lovable Boasts 8m Users:"
-  - "Lovable Boasts 8m Users: Long-Live Vibe"
----
-
 # Lovable Boasts 8m Users: Long-Live Vibe Coding?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

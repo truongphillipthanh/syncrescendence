@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-496
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "truth"
-  - "recovery"
-  - "missing"
-  - "mike"
-  - "israetel"
-creator: "Dr. Luba Khakham, PT, DPT"
-guest: null
-title: "The Truth About Recovery: What You’re Missing with Dr. Mike Israetel"
-url: "https://www.youtube.com/watch?v=UYULGLjslik"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "55m 12s"
-has_transcript: no
-synopsis: "The Truth About Recovery: What You’re Missing with Dr. Mike Israetel by Dr. Luba Khakham, PT, DPT. A lecture covering truth, recovery, missing."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Truth About Recovery:"
-  - "The Truth About Recovery: What You’re"
----
-
 # The Truth About Recovery: What You’re Missing with Dr. Mike Israetel
 
 **Channel**: Dr. Luba Khakham, PT, DPT

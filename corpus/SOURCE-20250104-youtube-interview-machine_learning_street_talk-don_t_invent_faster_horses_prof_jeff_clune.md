@@ -1,39 +1,3 @@
----
-id: SOURCE-20250104-643
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "don"
-  - "invent"
-  - "faster"
-  - "horses"
-  - "prof"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "Don't invent faster horses - Prof. Jeff Clune"
-url: "https://www.youtube.com/watch?v=mw5WIDGRLnA"
-date_published: 2025-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 14s"
-has_transcript: no
-synopsis: "Don't invent faster horses - Prof. Jeff Clune by Machine Learning Street Talk. A interview covering don, invent, faster."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Don't invent faster horses"
-  - "Don't invent faster horses - Prof."
----
-
 # Don't invent faster horses - Prof. Jeff Clune
 
 **Channel**: Machine Learning Street Talk

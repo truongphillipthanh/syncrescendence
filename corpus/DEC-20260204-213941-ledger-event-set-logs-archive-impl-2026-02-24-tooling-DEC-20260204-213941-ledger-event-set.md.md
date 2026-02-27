@@ -1,11 +1,3 @@
----
-id: DEC-20260204-213941-ledger-event-set
-kind: DECISION_ATOM
-scope: substrate
-status: provisional
-updated: 2026-02-04
----
-
 Decision ID: DEC-20260204-213941-ledger-event-set
 Choice: Extend `DYN-GLOBAL_LEDGER.md` event set to include **COMPACT** (for staging→archive compactions) and **REGEN** (for CANON regeneration runs). Keep existing core lifecycle events unchanged.
 Why (lens 1-2): Systems Thinking (ledger is the spine; compaction/regen are state transitions), Observability (sensors must report key transforms)

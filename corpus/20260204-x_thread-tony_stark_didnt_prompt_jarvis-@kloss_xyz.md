@@ -1,9 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2019233893535346692
-author: klöss (@kloss_xyz)
-captured_date: 2026-02-04
----
-
 # OpenClaw: The Jarvis Initialization Sequence
 
 Tony Stark didn't prompt Jarvis every time.

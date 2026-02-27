@@ -1,9 +1,3 @@
----
-url: https://x.com/arscontexta/status/2015201046469943660
-author: Heinrich (@arscontexta)
-captured_date: 2026-01-24
----
-
 # Build Claude a Tool for Thought
 
 (Description: A large gray engraved illustration showing a figure in period clothing gesturing toward a circular diagram labeled "CLAUDE CODE" with concentric circles, geometric patterns, and symbolic elements including an eye, mathematical symbols, and architectural details)

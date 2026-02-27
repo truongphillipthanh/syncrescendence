@@ -1,16 +1,3 @@
----
-id: SOURCE-20251224-youtube-interview-mlst-mike_israetel
-title: "MLST: Dr. Mike Israetel - ASI Timelines, Embodiment, and the Nature of Understanding"
-creator: Machine Learning Street Talk
-guest: Dr. Mike Israetel
-date_published: 2025-12-24
-date_processed: 2026-01-05
-signal_tier: strategic
-status: processed
-chain_relevance: Intelligence, Wisdom
-integration_targets: CANON-30000, CANON-00016, CANON-35100
----
-
 # MLST: Dr. Mike Israetel on ASI Timelines, Embodiment, and Understanding
 
 ## Executive Summary

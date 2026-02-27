@@ -1,38 +1,3 @@
----
-id: SOURCE-20260129-252
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "absurd"
-  - "case"
-  - "thinking"
-  - "machines"
-creator: "Wall Street Millennial"
-guest: null
-title: "The Absurd Case of Thinking Machines"
-url: "https://www.youtube.com/watch?v=kj-SOMwDNhA"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 20s"
-has_transcript: no
-synopsis: "The Absurd Case of Thinking Machines by Wall Street Millennial. A lecture covering absurd, case, thinking."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "The Absurd Case of"
-  - "The Absurd Case of Thinking Machines"
----
-
 # The Absurd Case of Thinking Machines
 
 **Channel**: Wall Street Millennial

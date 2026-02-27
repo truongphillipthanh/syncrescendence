@@ -1,39 +1,3 @@
----
-id: SOURCE-20251215-718
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "boris"
-  - "cherny"
-  - "creator"
-  - "claude"
-  - "code"
-creator: "Ryan Peterman"
-guest: null
-title: "Boris Cherny (Creator of Claude Code) On What Grew His Career And Building at Anthropic"
-url: "https://www.youtube.com/watch?v=AmdLVWMdjOk"
-date_published: 2025-12-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 24m 32s"
-has_transcript: no
-synopsis: "Boris Cherny (Creator of Claude Code) On What Grew His Career And Building at Anthropic by Ryan Peterman. A interview covering boris, cherny, creator."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Boris Cherny (Creator of"
-  - "Boris Cherny (Creator of Claude Code)"
----
-
 # Boris Cherny (Creator of Claude Code) On What Grew His Career And Building at Anthropic
 
 **Channel**: Ryan Peterman

@@ -1,9 +1,3 @@
----
-url: https://x.com/thedankoe/status/2016200242690195509
-author: Dan Koe (@thedankoe)
-captured_date: 2026-01-27
----
-
 # How to Think Like a Strategic Genius (5D Thinking)
 
 Your ability to think determines the outcome of your life.

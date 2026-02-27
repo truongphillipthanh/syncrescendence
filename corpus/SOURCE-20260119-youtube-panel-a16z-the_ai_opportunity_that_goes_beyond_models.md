@@ -1,38 +1,3 @@
----
-id: SOURCE-20260119-438
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "opportunity"
-  - "goes"
-  - "beyond"
-  - "models"
-creator: "a16z"
-guest: null
-title: "The AI Opportunity that goes beyond Models"
-url: "https://www.youtube.com/watch?v=3XVDtPU8xKE"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 9m 45s"
-has_transcript: no
-synopsis: "The AI Opportunity that goes beyond Models by a16z. A panel discussion covering opportunity, goes, beyond."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The AI Opportunity that"
-  - "The AI Opportunity that goes beyond"
----
-
 # The AI Opportunity that goes beyond Models
 
 **Channel**: a16z

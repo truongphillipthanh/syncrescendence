@@ -1,38 +1,3 @@
----
-id: SOURCE-20251130-954
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "watch"
-  - "get"
-  - "ahead"
-  - "2026"
-creator: "Alex Hormozi"
-guest: null
-title: "Watch This To Get Ahead In 2026"
-url: "https://www.youtube.com/watch?v=spXH1kJ6q-Q"
-date_published: 2025-11-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 10m 30s"
-has_transcript: no
-synopsis: "Watch This To Get Ahead In 2026 by Alex Hormozi. A lecture covering watch, get, ahead."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Watch This To Get"
-  - "Watch This To Get Ahead In"
----
-
 # Watch This To Get Ahead In 2026
 
 **Channel**: Alex Hormozi

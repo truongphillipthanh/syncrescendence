@@ -1,21 +1,3 @@
----
-url: https://x.com/Bouazizalex/status/2020159203382550530
-author: "Alex Bouaziz (@Bouazizalex)"
-captured_date: 2026-02-07
-id: SOURCE-20260207-003
-original_filename: "20260207-x_article-you_can_build_a_10b_company_fully_remotely-@bouazizalex.md"
-status: triaged
-platform: x
-format: article
-creator: bouazizalex
-signal_tier: tactical
-topics: [entrepreneurship, career, opinion]
-teleology: inspire
-notebooklm_category: career-growth
-aliases: ["Alex Bouaziz - Remote $10B Company"]
-synopsis: "Deel's co-founder argues that large companies can be built fully remote, sharing how Deel grew from zero to $1B ARR not despite being remote but because of it. Advocates for maintaining 'hacker-bedroom energy' over building traditional HQs."
-key_insights: ["Deel grew fast because of remote work, not despite it — remote is a competitive advantage not a compromise", "All large companies are already remote companies once they reach multi-office scale", "The hacker-bedroom energy of early-stage startups can be preserved permanently through remote-first culture"]
----
 # You can build a $10B+ company fully remotely
 
 (Description: Two people lying on a red couch in casual clothing during a nap, photographed in daylight. This image encapsulates the "hacker-bedroom energy" of early Deel.)

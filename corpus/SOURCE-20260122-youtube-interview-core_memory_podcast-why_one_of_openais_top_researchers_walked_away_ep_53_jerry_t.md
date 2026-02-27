@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-380
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "one"
-  - "openai"
-  - "top"
-  - "researchers"
-  - "walked"
-creator: "Core Memory Podcast"
-guest: null
-title: "Why One of OpenAI’s Top Researchers Walked Away - EP 53 Jerry Tworek"
-url: "https://www.youtube.com/watch?v=VaCq4u5c78U"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 16m 30s"
-has_transcript: no
-synopsis: "Why One of OpenAI’s Top Researchers Walked Away - EP 53 Jerry Tworek by Core Memory Podcast. A interview covering one, openai, top."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why One of OpenAI’s"
-  - "Why One of OpenAI’s Top Researchers"
----
-
 # Why One of OpenAI’s Top Researchers Walked Away - EP 53 Jerry Tworek
 
 **Channel**: Core Memory Podcast

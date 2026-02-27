@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-471
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "supercharging"
-  - "new"
-  - "fda"
-  - "marty"
-  - "makary"
-creator: "All-In Podcast"
-guest: null
-title: "Supercharging a New FDA: Marty Makary on Science, Power & Patients"
-url: "https://www.youtube.com/watch?v=DBlOJpT9Y1Y"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 29m 48s"
-has_transcript: no
-synopsis: "Supercharging a New FDA: Marty Makary on Science, Power & Patients by All-In Podcast. A tutorial covering supercharging, new, fda."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Supercharging a New FDA:"
-  - "Supercharging a New FDA: Marty Makary"
----
-
 # Supercharging a New FDA: Marty Makary on Science, Power & Patients
 
 **Channel**: All-In Podcast

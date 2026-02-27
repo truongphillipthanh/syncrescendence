@@ -1,38 +1,3 @@
----
-id: SOURCE-20251217-797
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "2025"
-  - "biggest"
-  - "breakthroughs"
-  - "physics"
-creator: "Quanta Magazine"
-guest: null
-title: "2025's Biggest Breakthroughs in Physics"
-url: "https://www.youtube.com/watch?v=CPoQkE9KaAY"
-date_published: 2025-12-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 46s"
-has_transcript: no
-synopsis: "2025's Biggest Breakthroughs in Physics by Quanta Magazine. A lecture covering 2025, biggest, breakthroughs."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "2025's Biggest Breakthroughs in"
-  - "2025's Biggest Breakthroughs in Physics"
----
-
 # 2025's Biggest Breakthroughs in Physics
 
 **Channel**: Quanta Magazine

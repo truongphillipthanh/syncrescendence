@@ -1,39 +1,3 @@
----
-id: SOURCE-20250912-1007
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "don"
-  - "chase"
-  - "happiness"
-  - "become"
-  - "antifragile"
-creator: "Big Think"
-guest: null
-title: "Don't chase happiness. Become antifragile | Tal Ben-Shahar: Full Interview"
-url: "https://www.youtube.com/watch?v=q6yPcEk93nk"
-date_published: 2025-09-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 19s"
-has_transcript: no
-synopsis: "Don't chase happiness. Become antifragile | Tal Ben-Shahar: Full Interview by Big Think. A interview covering don, chase, happiness."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Don't chase happiness. Become"
-  - "Don't chase happiness. Become antifragile |"
----
-
 # Don't chase happiness. Become antifragile | Tal Ben-Shahar: Full Interview
 
 **Channel**: Big Think

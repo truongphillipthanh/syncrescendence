@@ -1,37 +1,3 @@
----
-id: SOURCE-20251224-735
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "biggest"
-  - "stories"
-  - "2025"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "The 10 Biggest AI Stories of 2025"
-url: "https://www.youtube.com/watch?v=BpAlN1KBHEQ"
-date_published: 2025-12-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 56s"
-has_transcript: no
-synopsis: "The 10 Biggest AI Stories of 2025 by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering biggest, stories, 2025."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The 10 Biggest AI"
-  - "The 10 Biggest AI Stories of"
----
-
 # The 10 Biggest AI Stories of 2025
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

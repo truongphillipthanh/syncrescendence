@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-311
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "just"
-  - "replaced"
-  - "myself"
-  - "clawdbot"
-  - "here"
-creator: "David Ondrej"
-guest: null
-title: "I just replaced myself with Clawdbot… here's how"
-url: "https://www.youtube.com/watch?v=2zWGFLrTVmI"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 9s"
-has_transcript: no
-synopsis: "I just replaced myself with Clawdbot… here's how by David Ondrej. A tutorial covering just, replaced, myself."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "I just replaced myself"
-  - "I just replaced myself with Clawdbot…"
----
-
 # I just replaced myself with Clawdbot… here's how
 
 **Channel**: David Ondrej

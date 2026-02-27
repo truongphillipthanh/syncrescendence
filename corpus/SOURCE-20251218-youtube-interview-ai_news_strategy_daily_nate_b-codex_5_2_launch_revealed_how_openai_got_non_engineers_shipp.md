@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-792
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "codex"
-  - "launch"
-  - "revealed"
-  - "openai"
-  - "got"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Codex 5.2 Launch Revealed: How OpenAI Got Non-Engineers Shipping Real Code"
-url: "https://www.youtube.com/watch?v=tuLWIK1AVEM"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 9m 17s"
-has_transcript: no
-synopsis: "Codex 5.2 Launch Revealed: How OpenAI Got Non-Engineers Shipping Real Code by AI News & Strategy Daily | Nate B Jones. A interview covering codex, launch, revealed."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Codex 5.2 Launch Revealed:"
-  - "Codex 5.2 Launch Revealed: How OpenAI"
----
-
 # Codex 5.2 Launch Revealed: How OpenAI Got Non-Engineers Shipping Real Code
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

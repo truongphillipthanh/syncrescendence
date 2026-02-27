@@ -1,38 +1,3 @@
----
-id: SOURCE-20251230-651
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "these"
-  - "jobs"
-  - "skyrocket"
-  - "economy"
-creator: "Joe Lonsdale"
-guest: null
-title: "These Jobs Will Skyrocket in the AI Economy"
-url: "https://www.youtube.com/watch?v=EVZdkY7EoNA"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 57s"
-has_transcript: no
-synopsis: "These Jobs Will Skyrocket in the AI Economy by Joe Lonsdale. A lecture covering these, jobs, skyrocket."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: career-growth
-aliases:
-  - "These Jobs Will Skyrocket"
-  - "These Jobs Will Skyrocket in the"
----
-
 # These Jobs Will Skyrocket in the AI Economy
 
 **Channel**: Joe Lonsdale

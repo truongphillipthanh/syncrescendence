@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-543
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "deep"
-  - "think"
-  - "reviewed"
-  - "more"
-creator: "The AI Advantage"
-guest: null
-title: "Gemini 3 Deep Think Reviewed & More AI Use Cases"
-url: "https://www.youtube.com/watch?v=dD4iEit2Bv0"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 7s"
-has_transcript: no
-synopsis: "Gemini 3 Deep Think Reviewed & More AI Use Cases by The AI Advantage. A interview covering gemini, deep, think."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3 Deep Think"
-  - "Gemini 3 Deep Think Reviewed &"
----
-
 # Gemini 3 Deep Think Reviewed & More AI Use Cases
 
 **Channel**: The AI Advantage

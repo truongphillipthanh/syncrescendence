@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-276
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "actual"
-  - "science"
-  - "says"
-  - "brain"
-  - "rot"
-creator: "Howtown"
-guest: null
-title: "What the actual science says about "brain rot""
-url: "https://www.youtube.com/watch?v=tdIUMkXxtHg"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 31s"
-has_transcript: no
-synopsis: "What the actual science says about "brain rot" by Howtown. A lecture covering actual, science, says."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "What the actual science"
-  - "What the actual science says about"
----
-
 # What the actual science says about "brain rot"
 
 **Channel**: Howtown

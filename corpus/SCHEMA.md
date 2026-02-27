@@ -1,9 +1,3 @@
----
-title: "Source Frontmatter Schema"
-date_generated: "2026-02-21T23:04:12"
-source_count: 624
----
-
 # Source Frontmatter Schema
 
 Complete schema for SOURCE-*.md frontmatter fields in the sources corpus.

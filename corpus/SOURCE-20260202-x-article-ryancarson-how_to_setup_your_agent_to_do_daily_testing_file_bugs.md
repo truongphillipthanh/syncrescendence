@@ -1,30 +1,3 @@
----
-url: https://x.com/ryancarson/status/2018354837918732297
-author: "Ryan Carson (@ryancarson)"
-captured_date: 2026-02-13
-id: SOURCE-20260202-006
-original_filename: "20260202-x_article-how_to_setup_your_agent_to_do_daily_testing_file_bugs-@ryancarson.md"
-status: triaged
-platform: x
-format: article
-creator: ryancarson
-signal_tier: strategic
-topics:
-  - ai-agents
-  - automation
-  - testing
-  - best-practices
-  - developer-tools
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Ryan Carson - daily agent-driven E2E testing"
-synopsis: "Guide for setting up an AI agent to run daily end-to-end testing of signup and onboarding flows at 9 AM via macOS launchd. Uses accessibility tree snapshots instead of brittle CSS selectors, auto-files bugs when tests fail, and handles Google OAuth unattended via a pre-signed Chrome debug profile."
-key_insights:
-  - "Agent-driven E2E testing uses accessibility tree snapshots rather than CSS selectors, making tests resilient to UI changes while catching real user journey regressions."
-  - "Running tests daily as a safety net rather than PR-gating CI allows catching regressions in adaptive AI/chat flows that traditional deterministic test suites cannot handle."
-  - "The pattern of fresh user creation plus automated bug filing creates a zero-touch regression detection loop that surfaces issues before humans notice them."
----
 # How to Setup Your Agent to Do Daily Testing + File Bugs
 
 Every morning at 9 AM, a script tests our signup and onboarding flow. Fresh signup. Full onboarding. Every agent tool. If something breaks, a bug appears in our tracker before we've finished coffee.

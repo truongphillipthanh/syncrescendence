@@ -1,29 +1,3 @@
----
-url: https://x.com/Andrey__HQ/status/2018767494178349484
-author: "Andrey (@Andrey__HQ)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-012
-original_filename: "20260203-x_article-what_lives_inside_openclaw-@andrey__hq.md"
-status: triaged
-platform: x
-format: article
-creator: andrey__hq
-signal_tier: strategic
-topics:
-  - ai-agents
-  - openclaw
-  - architecture
-  - best-practices
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Andrey - OpenClaw anatomy and file architecture"
-synopsis: "Deep dive into OpenClaw's core file architecture (SOUL.md, USER.md, MEMORY.md, HEARTBEAT.md, AGENTS.md) and how they define agent behavior. Notes that this markdown-files-on-disk pattern is universal across agent platforms (GPTs, Claude projects, Cursor rules), making the configuration skill transferable."
-key_insights:
-  - "OpenClaw's entire agent behavior is rooted in markdown files on disk — a pattern that has converged across all serious agent systems."
-  - "The markdown-as-config skill transfers to any agent platform (GPTs, Claude projects, Cursor rules) because the underlying architecture is identical."
-  - "Understanding the interaction between SOUL.md (personality), MEMORY.md (persistence), and HEARTBEAT.md (scheduling) is the key to effective agent configuration."
----
 # The Anatomy of OpenClaw
 
 ![Header image with stylized orange muscular figure with labels pointing to different components: SOUL.md, USER.md, MEMORY.md, HEARTBEAT.md, AGENTS.md, and annotations for Context Window and Tools. Title reads "The Anatomy of OpenClaw"](Description: Dark background with white serif typography showing "The Anatomy of OpenClaw" on the left with a gold underline accent. On the right side, an orange/copper anatomical illustration of a muscular humanoid figure with labeled arrows pointing to different system components: SOUL.md (upper head), USER.md (upper right), MEMORY.md (center), HEARTBEAT.md (lower center), AGENTS.md (lower left), with additional labels for "Context Window" and "Tools" on the right side.)

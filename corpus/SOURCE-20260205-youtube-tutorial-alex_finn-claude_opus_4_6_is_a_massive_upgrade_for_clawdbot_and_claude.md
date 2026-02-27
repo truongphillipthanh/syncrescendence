@@ -1,39 +1,3 @@
----
-id: SOURCE-20260205-173
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-  - "massive"
-  - "upgrade"
-  - "clawdbot"
-creator: "Alex Finn"
-guest: null
-title: "Claude Opus 4.6 is a MASSIVE upgrade for ClawdBot and Claude Code (full guide)"
-url: "https://www.youtube.com/watch?v=iGkhfUvRV6o"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 29s"
-has_transcript: no
-synopsis: "Claude Opus 4.6 is a MASSIVE upgrade for ClawdBot and Claude Code (full guide) by Alex Finn. A tutorial covering claude, opus, massive."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Opus 4.6 is"
-  - "Claude Opus 4.6 is a MASSIVE"
----
-
 # Claude Opus 4.6 is a MASSIVE upgrade for ClawdBot and Claude Code (full guide)
 
 **Channel**: Alex Finn

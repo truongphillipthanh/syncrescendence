@@ -1,32 +1,3 @@
----
-url: https://x.com/AiBreakfast/status/2018883530500059636
-author: "AI Breakfast (@AiBreakfast)"
-captured_date: 2026-02-03
-id: SOURCE-20260204-001
-original_filename: "20260204-x_article-a_survival_guide_for_the_post_labor_economy-@aibreakfast.md"
-status: triaged
-platform: x
-format: article
-creator: aibreakfast
-signal_tier: strategic
-topics:
-  - deployment
-  - git
-  - api
-  - product-development
-  - rag
-  - cost-optimization
-  - cli-tools
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "A Survival Guide for the PostLabor Economy"
-synopsis: "A Survival Guide for the Post-Labor Economy TL;DR Knowledge and labor matter less every day, and human labor may soon have **negative** value. Value moves to ownership: IP, audiences, land, scarce assets, and equity. Those without ownership lose all leverage in tomorrow's economy."
-key_insights:
-  - "A Survival Guide for the Post-Labor Economy TL;DR Knowledge and labor matter less every day, and human labor may soon have **negative** value."
-  - "Value moves to ownership: IP, audiences, land, scarce assets, and equity."
-  - "Those without ownership lose all leverage in tomorrow's economy."
----
 # A Survival Guide for the Post-Labor Economy
 
 (Description: Illustration on cream-colored background showing a large pile of currency bills with dark blue flames engulfing the pile from above. Sketched in a minimalist, line-art style with navy blue ink.)

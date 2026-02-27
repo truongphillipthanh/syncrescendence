@@ -1,36 +1,3 @@
----
-id: SOURCE-20260206-142
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "obsidian"
-  - "just"
-  - "won"
-creator: "Linking Your Thinking with Nick Milo"
-guest: null
-title: "Obsidian Just Won"
-url: "https://www.youtube.com/watch?v=y6YTk0C5pBY"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 15s"
-has_transcript: no
-synopsis: "Obsidian Just Won by Linking Your Thinking with Nick Milo. A tutorial covering obsidian, just, won."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Obsidian Just Won"
----
-
 # Obsidian Just Won
 
 **Channel**: Linking Your Thinking with Nick Milo

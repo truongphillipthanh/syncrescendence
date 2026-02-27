@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1071
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "agi"
-  - "here"
-  - "legend"
-  - "peter"
-  - "norvig"
-creator: "Info-Tech Research Group"
-guest: null
-title: "AGI Is Here: AI Legend Peter Norvig on Why it Doesn't Matter Anymore"
-url: "https://www.youtube.com/watch?v=lELZHocLGDI"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 6m 10s"
-has_transcript: no
-synopsis: "AGI Is Here: AI Legend Peter Norvig on Why it Doesn't Matter Anymore by Info-Tech Research Group. A interview covering agi, here, legend."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AGI Is Here: AI"
-  - "AGI Is Here: AI Legend Peter"
----
-
 # AGI Is Here: AI Legend Peter Norvig on Why it Doesn't Matter Anymore
 
 **Channel**: Info-Tech Research Group

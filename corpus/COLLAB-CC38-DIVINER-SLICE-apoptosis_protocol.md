@@ -1,30 +1,3 @@
----
-id: CANON-APOPTOSIS-PROTOCOL
-name: Apoptosis Protocol — 5:1 Growth-Decay Coupling
-tier: CANON
-type: policy
-version: 1.0.0
-status: canonical
-created: 2026-02-26
-updated: 2026-02-26
-change_velocity: quarterly
-supersedes: null
-synopsis: Governs the mandatory 5:1 ratio between new canon axiom promotions and retirement evaluations, ensuring the canon remains lean and self-pruning.
-operational_status: operational
-entities_defined:
-  - "5:1 Apoptotic Metabolism Ratio (CON)"
-  - "Tombstone Schema (STR)"
-  - "Recycling Schema (STR)"
-  - "Young-System Exception (PROTO)"
-  - "Apoptosis State Machine (STR)"
-  - "Apoptosis Failure Modes (REF)"
-  - "Apoptosis Verification Contract (PROTO)"
-depends_on:
-  - CANON-00011
-  - CANON-00007
-last_verified: 2026-02-26
----
-
 # CANON-APOPTOSIS-PROTOCOL: APOPTOSIS PROTOCOL
 
 ## 5:1 Growth-Decay Coupling for Canon Axioms

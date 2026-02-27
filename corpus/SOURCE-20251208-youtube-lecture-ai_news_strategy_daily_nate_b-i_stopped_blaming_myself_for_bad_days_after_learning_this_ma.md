@@ -1,39 +1,3 @@
----
-id: SOURCE-20251208-894
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stopped"
-  - "blaming"
-  - "myself"
-  - "bad"
-  - "days"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "I Stopped Blaming Myself for Bad Days After Learning This Math"
-url: "https://www.youtube.com/watch?v=UrJdtQgXnCw"
-date_published: 2025-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 9s"
-has_transcript: no
-synopsis: "I Stopped Blaming Myself for Bad Days After Learning This Math by AI News & Strategy Daily | Nate B Jones. A lecture covering stopped, blaming, myself."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "I Stopped Blaming Myself"
-  - "I Stopped Blaming Myself for Bad"
----
-
 # I Stopped Blaming Myself for Bad Days After Learning This Math
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

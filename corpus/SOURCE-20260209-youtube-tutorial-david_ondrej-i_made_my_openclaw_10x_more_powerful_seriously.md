@@ -1,39 +1,3 @@
----
-id: SOURCE-20260209-124
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "made"
-  - "openclaw"
-  - "10x"
-  - "more"
-  - "powerful"
-creator: "David Ondrej"
-guest: null
-title: "I made my OpenClaw 10x more powerful (seriously)"
-url: "https://www.youtube.com/watch?v=cod50CWlZeU"
-date_published: 2026-02-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "43m 45s"
-has_transcript: no
-synopsis: "I made my OpenClaw 10x more powerful (seriously) by David Ondrej. A tutorial covering made, openclaw, 10x."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "I made my OpenClaw"
-  - "I made my OpenClaw 10x more"
----
-
 # I made my OpenClaw 10x more powerful (seriously)
 
 **Channel**: David Ondrej

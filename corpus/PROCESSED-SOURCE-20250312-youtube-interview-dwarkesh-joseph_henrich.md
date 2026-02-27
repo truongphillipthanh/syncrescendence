@@ -1,16 +1,3 @@
----
-id: SOURCE-20250312-youtube-interview-dwarkesh-joseph_henrich
-title: "Dwarkesh Patel: Joseph Henrich - Cultural Evolution, Collective Brain, and the Origins of Modernity"
-creator: Dwarkesh Patel
-guest: Joseph Henrich
-date_published: 2025-03-12
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence, Knowledge, Wisdom
-integration_targets: CANON-00015, CANON-00016, CANON-35000
----
-
 # Joseph Henrich: Cultural Evolution and the Collective Brain
 
 ## Executive Summary

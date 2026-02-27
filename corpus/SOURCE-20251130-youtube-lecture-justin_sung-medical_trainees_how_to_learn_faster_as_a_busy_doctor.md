@@ -1,39 +1,3 @@
----
-id: SOURCE-20251130-967
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "medical"
-  - "trainees"
-  - "learn"
-  - "faster"
-  - "busy"
-creator: "Justin Sung"
-guest: null
-title: "Medical Trainees: How to Learn FASTER as a Busy Doctor"
-url: "https://www.youtube.com/watch?v=m8AcAxOqUBo"
-date_published: 2025-11-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "37m 5s"
-has_transcript: no
-synopsis: "Medical Trainees: How to Learn FASTER as a Busy Doctor by Justin Sung. A lecture covering medical, trainees, learn."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Medical Trainees: How to"
-  - "Medical Trainees: How to Learn FASTER"
----
-
 # Medical Trainees: How to Learn FASTER as a Busy Doctor
 
 **Channel**: Justin Sung

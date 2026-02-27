@@ -1,39 +1,3 @@
----
-id: SOURCE-20251123-1018
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "invented"
-  - "transformer"
-  - "now"
-  - "continuous"
-  - "thought"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]"
-url: "https://www.youtube.com/watch?v=DtePicx_kFY"
-date_published: 2025-11-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 12m 40s"
-has_transcript: no
-synopsis: "He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow] by Machine Learning Street Talk. A lecture covering invented, transformer, now."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "He Co-Invented the Transformer."
-  - "He Co-Invented the Transformer. Now: Continuous"
----
-
 # He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]
 
 **Channel**: Machine Learning Street Talk

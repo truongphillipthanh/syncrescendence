@@ -1,28 +1,3 @@
----
-url: "https://x.com/packyM/status/2024114991666794943"
-author: "Packy McCormick (@packyM)"
-captured_date: "2026-02-18"
-id: SOURCE-20260218-016
-original_filename: "20260218-x_article-power_in_the_age_of_intelligence-@packym.md"
-status: triaged
-platform: x
-format: article
-creator: packym
-signal_tier: paradigm
-topics:
-  - vibe-coding
-  - extended-thinking
-  - api
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Power in the Age of Intelligence"
-synopsis: "Power in the Age of Intelligence *Or, strategy for those who plan to benefit from abundance* Émile Borel once said that given enough time, a bunch of monkeys banging on typewriters would come up with Shakespeare. And yet, despite the innumerable X Articles on software moats in the face of AI, I haven't read a single one that's satisfying."
-key_insights:
-  - "Those companies, not vibe coders, are the ones that point solutions should be worried about."
-  - "And yet, despite the innumerable X Articles on software moats in the face of AI, I haven't read a single one that's satisfying."
-  - "They will win enormous market shares and fortunes."
----
 # Power in the Age of Intelligence
 *Or, strategy for those who plan to benefit from abundance*
 (Description: Black and white portrait photograph of an older man in formal attire, representative of industrial-era industrialists)

@@ -1,29 +1,3 @@
----
-url: https://x.com/Tesla_Teslaway/status/2022187588589957276
-author: "스케치 (@Tesla_Teslaway)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-015
-original_filename: "20260213-x_article-data_center_semiconductor_bottleneck_timeline_essential_knowledge_for_the_ai_era_you_must_study-@tesla_teslaway.md"
-status: triaged
-platform: x
-format: article
-creator: tesla_teslaway
-signal_tier: strategic
-topics:
-  - memory-management
-  - product-development
-  - extract-pattern
-teleology: extract
-notebooklm_category: ai-engineering
-aliases:
-  - "Data Center/Semiconductor Bottleneck Timeline: Essential Knowledge for the AI Er"
-  - "Data CenterSemiconductor Bottleneck Timeline Essential Knowledge for the AI Era "
-synopsis: "Data Center/Semiconductor Bottleneck Timeline: Essential Knowledge for the AI Era!!"
-key_insights:
-  - "Data Center/Semiconductor Bottleneck Timeline: Essential Knowledge for the AI Era!!"
-  - "CPU → GPU Transition (Compute Bottleneck) **Period:** 2020–2022 **Why the bottleneck?** Deep learning requires thousands of simple calculations (matrix multiplications) simultaneously."
-  - "CPUs are "sequential geniuses" but weak at parallel processing."
----
 # Data Center/Semiconductor Bottleneck Timeline: Essential Knowledge for the AI Era!! You must study
 
 (Description: A timeline diagram spanning 2020 to 2030+, illustrated in a stylized cityscape motif. Each era depicts infrastructure progression: 2020 shows single vehicles (CPU Serial); 2022 shows multiple parallel vehicles (GPU Parallel with Korean text "연산 병목 해결" - Compute Bottleneck Solved); 2022-2024 depicts highway expansion (GDDR Memory Wall and HBM 8-Stack Highway with Korean text "메모리 대역폭 병목" - Memory Bandwidth Bottleneck); 2024-2026 shows construction/congestion (HBM Production/CoWoS Packaging, labeled "공급 부족" - Supply Shortage and "현재" - Current); 2026-2028 displays industrial complex with heat visualization (Power Wall/Cooling Infra "지연·낭비 병목" - Delay/Waste Bottleneck; Silicon Photonics/Optical Interconnect "최강 데이터 이동" - Peak Data Movement); 2030+ shows advanced micro-circuitry (Data/Latency Wall with Synthetic Data, Neuromorphic elements, 1nm Limit, Chiplet, and New Materials/GaA labels).)

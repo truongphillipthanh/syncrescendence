@@ -1,9 +1,3 @@
----
-url: https://x.com/steipete/status/2020704611640705485
-author: Peter Steinberger (@steipete)
-captured_date: 2026-02-14
----
-
 # OpenClaw Personality Overhaul Thread
 
 Your **@openclaw** is too boring? Paste this, right from Molty.

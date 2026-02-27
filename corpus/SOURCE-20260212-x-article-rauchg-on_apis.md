@@ -1,32 +1,3 @@
----
-url: https://x.com/rauchg/status/2022050269262151783
-author: "Guillermo Rauch (@rauchg)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-005
-original_filename: "20260212-x_article-on_apis-@rauchg.md"
-status: triaged
-platform: x
-format: article
-creator: rauchg
-signal_tier: strategic
-topics:
-  - vibe-coding
-  - agentic-development
-  - model-context-protocol
-  - api
-  - rag
-  - react
-  - cli-tools
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "On APIs"
-synopsis: "On APIs Investment Thesis When I started angel investing my thesis was: the best companies are going to start out as APIs. I went on to seed invest in Scale AI, called [scaleapi.com]( at the time, the API to human intelligence. Auth0, the API to identity. Clearbit, the API to business data. cc [@vcbrags]( Why APIs? Why was "API" a thesis?"
-key_insights:
-  - "On APIs Investment Thesis When I started angel investing my thesis was: the best companies are going to start out as APIs."
-  - "The best software is the one that works for you, represents you, looks like you."
-  - "Off-the-shelf software was "worst-common-denominator" software."
----
 # On APIs
 
 (Description: Abstract network visualization on dark background featuring interconnected white nodes and gray lines forming complex web patterns, symbolizing API connections and data flow)

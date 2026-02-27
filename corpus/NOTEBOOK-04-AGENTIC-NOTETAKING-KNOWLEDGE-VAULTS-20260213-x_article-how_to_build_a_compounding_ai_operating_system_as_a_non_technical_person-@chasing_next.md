@@ -1,9 +1,3 @@
----
-url: https://x.com/chasing_next/status/2022350894889865474
-author: Riley (@chasing_next)
-captured_date: 2026-02-13
----
-
 # How To Build a Compounding AI Operating System (as a Non-Technical Person)
 
 (Description: A vibrant, colorful illustration of a multi-drawer filing cabinet rendered in isometric perspective. The cabinet features gradient colors transitioning from warm tones (red, orange, yellow) at the top through green and cyan in the middle to cool purple and blue tones at the bottom. Bright radial light rays emanate outward from the cabinet in all directions, creating an energetic, dynamic effect against a white background.)

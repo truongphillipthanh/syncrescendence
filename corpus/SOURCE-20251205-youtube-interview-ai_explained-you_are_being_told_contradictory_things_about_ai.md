@@ -1,37 +1,3 @@
----
-id: SOURCE-20251205-921
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "told"
-  - "contradictory"
-  - "things"
-creator: "AI Explained"
-guest: null
-title: "You Are Being Told Contradictory Things About AI"
-url: "https://www.youtube.com/watch?v=iO844izo9kw"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 16s"
-has_transcript: no
-synopsis: "You Are Being Told Contradictory Things About AI by AI Explained. A interview covering told, contradictory, things."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "You Are Being Told"
-  - "You Are Being Told Contradictory Things"
----
-
 # You Are Being Told Contradictory Things About AI
 
 **Channel**: AI Explained

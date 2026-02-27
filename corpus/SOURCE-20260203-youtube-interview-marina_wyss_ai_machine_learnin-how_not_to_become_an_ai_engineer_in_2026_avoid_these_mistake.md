@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-182
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "become"
-  - "engineer"
-  - "2026"
-  - "avoid"
-  - "these"
-creator: "Marina Wyss - AI & Machine Learning"
-guest: null
-title: "How NOT to Become an AI Engineer in 2026 (Avoid These Mistakes)"
-url: "https://www.youtube.com/watch?v=fXk03gptR4k"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 54s"
-has_transcript: no
-synopsis: "How NOT to Become an AI Engineer in 2026 (Avoid These Mistakes) by Marina Wyss - AI & Machine Learning. A interview covering become, engineer, 2026."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How NOT to Become"
-  - "How NOT to Become an AI"
----
-
 # How NOT to Become an AI Engineer in 2026 (Avoid These Mistakes)
 
 **Channel**: Marina Wyss - AI & Machine Learning

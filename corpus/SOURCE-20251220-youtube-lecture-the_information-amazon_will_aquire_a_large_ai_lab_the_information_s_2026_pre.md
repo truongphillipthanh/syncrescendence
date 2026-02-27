@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-761
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "amazon"
-  - "aquire"
-  - "large"
-  - "lab"
-  - "information"
-creator: "The Information"
-guest: null
-title: "Amazon will Aquire a Large AI Lab |  The Information's 2026 Predictions"
-url: "https://www.youtube.com/watch?v=bm9BV9fB01o"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2m 44s"
-has_transcript: no
-synopsis: "Amazon will Aquire a Large AI Lab |  The Information's 2026 Predictions by The Information. A lecture covering amazon, aquire, large."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Amazon will Aquire a"
-  - "Amazon will Aquire a Large AI"
----
-
 # Amazon will Aquire a Large AI Lab |  The Information's 2026 Predictions
 
 **Channel**: The Information

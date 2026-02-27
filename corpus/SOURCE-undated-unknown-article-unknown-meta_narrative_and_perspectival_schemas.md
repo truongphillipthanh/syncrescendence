@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-unknown-article-unknown-meta_narrative_and_perspectival_schemas
-platform: internal
-format: article
-creator: sovereign
-title: meta narrative and perspectival schemas
-status: triaged
-original_filename: meta_narrative_and_perspectival_schemas.md
-signal_tier: paradigm
-topics: ""
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Comprehensive Taxonomy of Meta-Narratives and Perspectival Schemas
 
 ## Foundational Orientation

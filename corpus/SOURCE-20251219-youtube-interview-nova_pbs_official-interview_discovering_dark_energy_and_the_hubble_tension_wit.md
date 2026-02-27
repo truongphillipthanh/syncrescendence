@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-750
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "interview"
-  - "discovering"
-  - "dark"
-  - "energy"
-  - "hubble"
-creator: "NOVA PBS Official"
-guest: null
-title: "Interview: Discovering Dark Energy and the Hubble Tension with Nobel Prize Winner Adam Riess"
-url: "https://www.youtube.com/watch?v=0-gEJoSa1Kg"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 16m 20s"
-has_transcript: no
-synopsis: "Interview: Discovering Dark Energy and the Hubble Tension with Nobel Prize Winner Adam Riess by NOVA PBS Official. A interview covering interview, discovering, dark."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Interview: Discovering Dark Energy"
-  - "Interview: Discovering Dark Energy and the"
----
-
 # Interview: Discovering Dark Energy and the Hubble Tension with Nobel Prize Winner Adam Riess
 
 **Channel**: NOVA PBS Official

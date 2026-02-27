@@ -1,9 +1,3 @@
----
-url: https://x.com/dani_avila7/status/2018453309808390226
-author: Daniel San (@dani_avila7)
-captured_date: 2026-02-14
----
-
 # Ghostty + Worktrees + Lazygit Thread
 
 Ghostty + Worktrees + Lazygit is one of those combos you try once, and you're never going back

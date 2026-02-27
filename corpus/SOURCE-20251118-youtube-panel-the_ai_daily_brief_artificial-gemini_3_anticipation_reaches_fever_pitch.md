@@ -1,39 +1,3 @@
----
-id: SOURCE-20251118-1087
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "anticipation"
-  - "reaches"
-  - "fever"
-  - "pitch"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Gemini 3 Anticipation Reaches Fever Pitch"
-url: "https://www.youtube.com/watch?v=FO91u3McYcw"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 36s"
-has_transcript: no
-synopsis: "Gemini 3 Anticipation Reaches Fever Pitch by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering gemini, anticipation, reaches."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Gemini 3 Anticipation Reaches"
-  - "Gemini 3 Anticipation Reaches Fever Pitch"
----
-
 # Gemini 3 Anticipation Reaches Fever Pitch
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

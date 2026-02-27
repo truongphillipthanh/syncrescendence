@@ -1,11 +1,3 @@
----
-id: ref-naming_conventions
-kind: reference
-scope: constellation
-target: all-agents
-dc: DC-300
----
-
 # Naming Conventions Specification
 
 **Version**: 1.0.0

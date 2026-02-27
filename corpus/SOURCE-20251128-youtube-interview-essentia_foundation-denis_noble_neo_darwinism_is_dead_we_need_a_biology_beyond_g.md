@@ -1,39 +1,3 @@
----
-id: SOURCE-20251128-940
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "denis"
-  - "noble"
-  - "neo"
-  - "darwinism"
-  - "dead"
-creator: "Essentia Foundation"
-guest: null
-title: "Denis Noble: "Neo-Darwinism Is Dead" | We Need A Biology Beyond Genes"
-url: "https://www.youtube.com/watch?v=NAPhBt8VJCM"
-date_published: 2025-11-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 36m 59s"
-has_transcript: no
-synopsis: "Denis Noble: "Neo-Darwinism Is Dead" | We Need A Biology Beyond Genes by Essentia Foundation. A interview covering denis, noble, neo."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Denis Noble: "Neo-Darwinism Is"
-  - "Denis Noble: "Neo-Darwinism Is Dead" |"
----
-
 # Denis Noble: "Neo-Darwinism Is Dead" | We Need A Biology Beyond Genes
 
 **Channel**: Essentia Foundation

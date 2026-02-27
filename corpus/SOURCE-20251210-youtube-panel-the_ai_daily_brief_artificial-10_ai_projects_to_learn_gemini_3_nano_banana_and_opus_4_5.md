@@ -1,39 +1,3 @@
----
-id: SOURCE-20251210-875
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "projects"
-  - "learn"
-  - "gemini"
-  - "nano"
-  - "banana"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5"
-url: "https://www.youtube.com/watch?v=fRgzQXFlaFg"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 36s"
-has_transcript: no
-synopsis: "10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5 by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering projects, learn, gemini."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "10 AI Projects to"
-  - "10 AI Projects to Learn Gemini"
----
-
 # 10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-390
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stop"
-  - "using"
-  - "n8n"
-  - "use"
-  - "google"
-creator: "Nick Puru | AI Automation"
-guest: null
-title: "STOP Using n8n — Use Google's NEW Antigravity to Build Agentic Workflows Instead"
-url: "https://www.youtube.com/watch?v=BAxPDHcFg_M"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "55m 23s"
-has_transcript: no
-synopsis: "STOP Using n8n — Use Google's NEW Antigravity to Build Agentic Workflows Instead by Nick Puru | AI Automation. A lecture covering stop, using, n8n."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "STOP Using n8n —"
-  - "STOP Using n8n — Use Google's"
----
-
 # STOP Using n8n — Use Google's NEW Antigravity to Build Agentic Workflows Instead
 
 **Channel**: Nick Puru | AI Automation

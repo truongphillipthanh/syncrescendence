@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1084
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "embodied"
-  - "general"
-  - "intelligence"
-  - "prediction"
-  - "one"
-creator: "Dylan Curious"
-guest: null
-title: "Embodied General Intelligence: The Prediction No One’s Ready For"
-url: "https://www.youtube.com/watch?v=nynJRbDxCMc"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 28s"
-has_transcript: no
-synopsis: "Embodied General Intelligence: The Prediction No One’s Ready For by Dylan Curious. A lecture covering embodied, general, intelligence."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Embodied General Intelligence: The"
-  - "Embodied General Intelligence: The Prediction No"
----
-
 # Embodied General Intelligence: The Prediction No One’s Ready For
 
 **Channel**: Dylan Curious

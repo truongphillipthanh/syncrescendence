@@ -1,29 +1,3 @@
----
-url: https://x.com/mernit/status/2021324284875153544
-author: "Eli Mernit (@mernit)"
-captured_date: 2026-02-10
-id: SOURCE-20260210-004
-original_filename: "20260210-x_article-your_company_is_a_filesystem-@mernit.md"
-status: triaged
-platform: x
-format: article
-creator: mernit
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - ai-workflow
-  - context-management
-  - api
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Your Company is a Filesystem"
-synopsis: "Your Company is a Filesystem Introduction One of the reasons Openclaw is so good is because its entire context is a filesystem on your computer. Openclaw runs on a computer and lets you talk to it via a chat app like Telegram or iMessage. When you ask it to run a task, it calls the Claude API and uses context from files on your machine."
-key_insights:
-  - "Your Company is a Filesystem Introduction One of the reasons Openclaw is so good is because its entire context is a filesystem on your computer."
-  - "Openclaw runs on a computer and lets you talk to it via a chat app like Telegram or iMessage."
-  - "When you ask it to run a task, it calls the Claude API and uses context from files on your machine."
----
 # Your Company is a Filesystem
 
 ## Introduction

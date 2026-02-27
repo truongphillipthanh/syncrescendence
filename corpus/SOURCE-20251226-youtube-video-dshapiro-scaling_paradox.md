@@ -1,16 +1,3 @@
----
-id: SOURCE-20251226-youtube-video-dshapiro-scaling_paradox
-title: "David Shapiro: The Scaling Paradox - Why Capabilities Accelerate Despite Diminishing Returns"
-creator: David Shapiro
-guest: null
-date_published: 2025-12-26
-date_processed: 2026-01-05
-signal_tier: strategic
-status: processed
-chain_relevance: Intelligence
-integration_targets: CANON-30000, CANON-00004, CANON-30400
----
-
 # The Scaling Paradox: Why AI Capabilities Accelerate Despite Diminishing Returns
 
 ## Executive Summary

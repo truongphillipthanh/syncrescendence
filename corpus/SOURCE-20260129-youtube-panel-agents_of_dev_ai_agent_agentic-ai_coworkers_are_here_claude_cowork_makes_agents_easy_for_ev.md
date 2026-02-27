@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-229
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "coworkers"
-  - "here"
-  - "claude"
-  - "cowork"
-  - "makes"
-creator: "Agents of Dev - AI, Agent, & Agentic Development"
-guest: null
-title: "AI Coworkers Are Here: Claude Cowork Makes Agents Easy for Everyone | Agents Of Dev Ep. 7"
-url: "https://www.youtube.com/watch?v=bff-wVxB5wU"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38m 19s"
-has_transcript: no
-synopsis: "AI Coworkers Are Here: Claude Cowork Makes Agents Easy for Everyone | Agents Of Dev Ep. 7 by Agents of Dev - AI, Agent, & Agentic Development. A panel discussion covering coworkers, here, claude."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "AI Coworkers Are Here:"
-  - "AI Coworkers Are Here: Claude Cowork"
----
-
 # AI Coworkers Are Here: Claude Cowork Makes Agents Easy for Everyone | Agents Of Dev Ep. 7
 
 **Channel**: Agents of Dev - AI, Agent, & Agentic Development

@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-thread-unknown-agent_browser_0_8_3_is_even_ctatedev
-platform: x
-format: thread
-creator: unknown
-title: agent browser 0 8 3 is even ctatedev
-status: triaged
-original_filename: 20260126-x_thread-agent-browser_0_8_3_is_even-ctatedev.md
-url: https://x.com/ctatedev/status/2016046020761665773
-author: "Chris Tate (@ctatedev)"
-captured_date: 2026-01-27
-signal_tier: tactical
-topics: ""
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # agent-browser 0.8.3 Performance Update Thread
 
 ## Post 1: Main Announcement

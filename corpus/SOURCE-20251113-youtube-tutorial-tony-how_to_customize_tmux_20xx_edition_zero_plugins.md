@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-139
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "customize"
-  - "tmux"
-  - "20xx"
-  - "edition"
-  - "zero"
-creator: "tony"
-guest: null
-title: "How to Customize Tmux (20XX Edition) | Zero Plugins"
-url: "https://www.youtube.com/watch?v=XivdyrFCV4M"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 5s"
-has_transcript: no
-synopsis: "How to Customize Tmux (20XX Edition) | Zero Plugins by tony. A tutorial covering customize, tmux, 20xx."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "How to Customize Tmux"
-  - "How to Customize Tmux (20XX Edition)"
----
-
 # How to Customize Tmux (20XX Edition) | Zero Plugins
 
 **Channel**: tony

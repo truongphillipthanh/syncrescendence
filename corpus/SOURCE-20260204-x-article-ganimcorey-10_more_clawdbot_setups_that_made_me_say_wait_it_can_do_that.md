@@ -1,33 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2019058134598221886
-author: "Corey Ganim (@GanimCorey)"
-captured_date: 2026-02-13
-post_date: 2026-02-04
-id: SOURCE-20260204-004
-original_filename: "20260204-x_article-10_more_clawdbot_setups_that_made_me_say_wait_it_can_do_that-@ganimcorey.md"
-status: triaged
-platform: x
-format: article
-creator: ganimcorey
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - api
-  - security
-  - multi-agent
-  - terminal
-  - cli-tools
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "10 More Clawdbot Setups That Made Me Say Wait It Can Do That"
-synopsis: "10 More Clawdbot Setups That Made Me Say 'Wait, It Can Do That?' Everyone's talking about Clawdbot (now @openclaw). But buried in Reddit threads, Hacker News comments, and creator interviews are people actually using this thing to do real work. I spent hours digging through the noise to find 10 real-life use cases that people are running right now. One user saved $4,200 on a car purchase."
-key_insights:
-  - "10 More Clawdbot Setups That Made Me Say 'Wait, It Can Do That?' Everyone's talking about Clawdbot (now @openclaw)."
-  - "But buried in Reddit threads, Hacker News comments, and creator interviews are people actually using this thing to do real work."
-  - "I spent hours digging through the noise to find 10 real-life use cases that people are running right now."
----
 # 10 More Clawdbot Setups That Made Me Say 'Wait, It Can Do That?'
 
 (Description: A white card-style image with bold black text reading "clawdbot in action." and "10 real uses." on the left side. On the right is an illustration of an abstract orange and red claw or mechanical hand design in a stylized, artistic manner. A red numbered badge showing "10" appears in the top right corner of the illustration.)

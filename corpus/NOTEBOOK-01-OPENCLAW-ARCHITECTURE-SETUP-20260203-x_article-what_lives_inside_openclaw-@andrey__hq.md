@@ -1,9 +1,3 @@
----
-url: https://x.com/Andrey__HQ/status/2018767494178349484
-author: Andrey (@Andrey__HQ)
-captured_date: 2026-02-13
----
-
 # The Anatomy of OpenClaw
 
 ![Header image with stylized orange muscular figure with labels pointing to different components: SOUL.md, USER.md, MEMORY.md, HEARTBEAT.md, AGENTS.md, and annotations for Context Window and Tools. Title reads "The Anatomy of OpenClaw"](Description: Dark background with white serif typography showing "The Anatomy of OpenClaw" on the left with a gold underline accent. On the right side, an orange/copper anatomical illustration of a muscular humanoid figure with labeled arrows pointing to different system components: SOUL.md (upper head), USER.md (upper right), MEMORY.md (center), HEARTBEAT.md (lower center), AGENTS.md (lower left), with additional labels for "Context Window" and "Tools" on the right side.)

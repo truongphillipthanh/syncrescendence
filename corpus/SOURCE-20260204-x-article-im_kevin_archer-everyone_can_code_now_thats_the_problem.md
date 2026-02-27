@@ -1,28 +1,3 @@
----
-url: https://x.com/IM_Kevin_Archer/status/2019009861271306376
-author: "Kevin (@IM_Kevin_Archer)"
-captured_date: 2026-02-04
-id: SOURCE-20260204-006
-original_filename: "20260204-x_article-everyone_can_code_now_thats_the_problem-@im_kevin_archer.md"
-status: triaged
-platform: x
-format: article
-creator: im_kevin_archer
-signal_tier: strategic
-topics:
-  - codex
-  - api
-  - security
-teleology: synthesize
-notebooklm_category: vibe-coding
-aliases:
-  - "Everyone Can Code Now Thats the Problem"
-synopsis: "Everyone Can Code Now. representing lines of code. Red X marks scattered throughout, yellow warning/alert triangles placed on several sections, and chaotic red squiggles suggesting broken or error-prone code patterns. The visualization metaphorically depicts buggy, problematic software development.) The Narrative of Software's Death "Software is Dead" the new narrative I see everywhere."
-key_insights:
-  - "Red X marks scattered throughout, yellow warning/alert triangles placed on several sections, and chaotic red squiggles suggesting broken or error-prone code patterns."
-  - "And I'm not even talking about security negligence: leaked API keys, exposed credentials, the basics that get ignored."
-  - "The visualization metaphorically depicts buggy, problematic software development.) The Narrative of Software's Death "Software is Dead" the new narrative I see everywhere."
----
 # Everyone Can Code Now. That's the Problem.
 
 (Description: Dark navy background with abstract code visualization. Multiple horizontal lines of varying colors (red, orange, yellow, green, blue, purple) representing lines of code. Red X marks scattered throughout, yellow warning/alert triangles placed on several sections, and chaotic red squiggles suggesting broken or error-prone code patterns. The visualization metaphorically depicts buggy, problematic software development.)

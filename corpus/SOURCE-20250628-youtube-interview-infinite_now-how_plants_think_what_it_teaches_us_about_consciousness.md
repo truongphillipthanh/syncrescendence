@@ -1,38 +1,3 @@
----
-id: SOURCE-20250628-1033
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "plants"
-  - "think"
-  - "teaches"
-  - "consciousness"
-creator: "Infinite Now"
-guest: null
-title: "How Plants Think & What It Teaches us about Consciousness"
-url: "https://www.youtube.com/watch?v=uIk-S2zW41U"
-date_published: 2025-06-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 47s"
-has_transcript: no
-synopsis: "How Plants Think & What It Teaches us about Consciousness by Infinite Now. A interview covering plants, think, teaches."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "How Plants Think &"
-  - "How Plants Think & What It"
----
-
 # How Plants Think & What It Teaches us about Consciousness
 
 **Channel**: Infinite Now

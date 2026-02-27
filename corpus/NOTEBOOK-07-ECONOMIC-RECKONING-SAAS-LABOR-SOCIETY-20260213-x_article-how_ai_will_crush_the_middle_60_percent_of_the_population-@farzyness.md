@@ -1,9 +1,3 @@
----
-url: "https://x.com/farzyness/status/2022293579725480162"
-author: "Farzad (@farzyness)"
-captured_date: "2026-02-13"
----
-
 # How AI Will Crush The Middle 60% Of The Population
 
 (Description: A split-tree illustration with a golden/yellow brain-like structure on the left side and a blue circuit-board pattern on the right side, unified by a central trunk. The visual represents the intersection of biological and artificial intelligence. White text overlays read "THE MIDDLE 60%" and the subtitle "How AI Will Crush The Middle 60% Of The Population".)

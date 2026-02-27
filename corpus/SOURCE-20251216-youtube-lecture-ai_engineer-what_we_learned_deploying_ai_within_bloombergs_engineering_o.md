@@ -1,39 +1,3 @@
----
-id: SOURCE-20251216-813
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "learned"
-  - "deploying"
-  - "within"
-  - "bloomberg"
-  - "engineering"
-creator: "AI Engineer"
-guest: null
-title: "What We Learned Deploying AI within Bloomberg’s Engineering Organization – Lei Zhang, Bloomberg"
-url: "https://www.youtube.com/watch?v=Q81AzlA-VE8"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 21s"
-has_transcript: no
-synopsis: "What We Learned Deploying AI within Bloomberg’s Engineering Organization – Lei Zhang, Bloomberg by AI Engineer. A lecture covering learned, deploying, within."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "What We Learned Deploying"
-  - "What We Learned Deploying AI within"
----
-
 # What We Learned Deploying AI within Bloomberg’s Engineering Organization – Lei Zhang, Bloomberg
 
 **Channel**: AI Engineer

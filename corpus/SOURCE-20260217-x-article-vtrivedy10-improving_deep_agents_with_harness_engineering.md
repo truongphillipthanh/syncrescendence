@@ -1,24 +1,3 @@
----
-url: https://x.com/Vtrivedy10/status/2023805578561060992
-author: "Viv (@Vtrivedy10)"
-captured_date: 2026-02-17
-id: SOURCE-20260217-016
-original_filename: "20260217-x_article-improving_deep_agents_with_harness_engineering-@vtrivedy10.md"
-status: triaged
-platform: x
-format: article
-creator: vtrivedy10
-signal_tier: paradigm
-topics: [ai-engineering, developer-tools, llm-architecture, best-practices]
-teleology: implement
-notebooklm_category: ai-engineering
-aliases: ["vtrivedy10 - harness engineering for deep agents"]
-synopsis: "LangChain's approach to harness engineering that improved their coding agent from 52.8% to 66.5% on Terminal Bench 2.0 (Top 30 to Top 5) by only changing the harness, not the model. Key techniques: self-verification loops (build-verify-fix cycle), PreCompletionChecklistMiddleware, LoopDetectionMiddleware for doom loops, LocalContextMiddleware for environment onboarding, and the 'reasoning sandwich' (xhigh-high-xhigh) for compute allocation. Uses automated trace analysis as a boosting-style improvement loop."
-key_insights:
-  - "13.7 point improvement by only changing the harness, not the model — the purpose of harness engineering is to prepare and deliver context so agents can autonomously complete work"
-  - "The 'reasoning sandwich': spend heavy compute on planning (first 25%) and verification (last 25%), lighter compute on implementation (middle 50%) — xhigh reasoning on everything scored poorly due to timeouts"
-  - "Most common failure: agent writes solution, re-reads own code, confirms it looks ok, and stops — forced self-verification via PreCompletionChecklistMiddleware is the single biggest improvement"
----
 # Improving Deep Agents with Harness Engineering
 ## TLDR
 Our coding agent went from Top 30 to Top 5 on Terminal Bench 2.0. We only changed the harness. Here's our approach to harness engineering (teaser: self-verification & tracing help a lot).

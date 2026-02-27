@@ -1,35 +1,3 @@
----
-id: SOURCE-20260113-501
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "time"
-  - "build"
-creator: "a16z"
-guest: null
-title: "It's Time To Build"
-url: "https://www.youtube.com/watch?v=M9VKnPMs6Rw"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1m 46s"
-has_transcript: no
-synopsis: "It's Time To Build by a16z. A lecture covering time, build."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "It's Time To Build"
----
-
 # It's Time To Build
 
 **Channel**: a16z

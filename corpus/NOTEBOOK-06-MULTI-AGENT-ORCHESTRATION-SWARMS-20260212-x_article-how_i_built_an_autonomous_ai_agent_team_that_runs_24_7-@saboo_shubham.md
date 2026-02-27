@@ -1,9 +1,3 @@
----
-url: https://x.com/Saboo_Shubham_/status/2022014147450614038
-author: Shubham Saboo (@Saboo_Shubham_)
-captured_date: 2026-02-12
----
-
 # How I built an Autonomous AI Agent team that runs 24/7
 
 Six AI agents run my entire life while I sleep.

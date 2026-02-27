@@ -1,39 +1,3 @@
----
-id: SOURCE-20251216-821
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "deepdive"
-  - "personal"
-  - "infrastructure"
-  - "pai"
-  - "december"
-creator: "Unsupervised Learning"
-guest: null
-title: "A Deepdive on my Personal AI Infrastructure (PAI v2.0, December 2025)"
-url: "https://www.youtube.com/watch?v=Le0DLrn7ta0"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "48m 38s"
-has_transcript: no
-synopsis: "A Deepdive on my Personal AI Infrastructure (PAI v2.0, December 2025) by Unsupervised Learning. A tutorial covering deepdive, personal, infrastructure."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "A Deepdive on my"
-  - "A Deepdive on my Personal AI"
----
-
 # A Deepdive on my Personal AI Infrastructure (PAI v2.0, December 2025)
 
 **Channel**: Unsupervised Learning

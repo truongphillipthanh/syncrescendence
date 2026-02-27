@@ -1,39 +1,3 @@
----
-id: SOURCE-20260111-531
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "layer"
-  - "framework"
-  - "predicts"
-  - "which"
-  - "jobs"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The 3-Layer Framework That Predicts Which Jobs AI Will (and Won't) Replace"
-url: "https://www.youtube.com/watch?v=5Et9WoDCsYs"
-date_published: 2026-01-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 58s"
-has_transcript: no
-synopsis: "The 3-Layer Framework That Predicts Which Jobs AI Will (and Won't) Replace by AI News & Strategy Daily | Nate B Jones. A lecture covering layer, framework, predicts."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "The 3-Layer Framework That"
-  - "The 3-Layer Framework That Predicts Which"
----
-
 # The 3-Layer Framework That Predicts Which Jobs AI Will (and Won't) Replace
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

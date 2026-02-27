@@ -1,37 +1,3 @@
----
-id: SOURCE-20251126-986
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "agent"
-  - "skills"
-  - "explained"
-creator: "Anthropic"
-guest: null
-title: "Claude Agent Skills Explained"
-url: "https://www.youtube.com/watch?v=fOxC44g8vig"
-date_published: 2025-11-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3m 15s"
-has_transcript: no
-synopsis: "Claude Agent Skills Explained by Anthropic. A lecture covering claude, agent, skills."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: claude-code
-aliases:
-  - "Claude Agent Skills Explained"
----
-
 # Claude Agent Skills Explained
 
 **Channel**: Anthropic

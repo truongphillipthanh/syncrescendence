@@ -1,36 +1,3 @@
----
-id: SOURCE-20251127-977
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "black"
-  - "friday"
-  - "gpt"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Black Friday GPT"
-url: "https://www.youtube.com/watch?v=vx--h2ErQ2Q"
-date_published: 2025-11-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 14s"
-has_transcript: no
-synopsis: "Black Friday GPT by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering black, friday, gpt."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Black Friday GPT"
----
-
 # Black Friday GPT
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

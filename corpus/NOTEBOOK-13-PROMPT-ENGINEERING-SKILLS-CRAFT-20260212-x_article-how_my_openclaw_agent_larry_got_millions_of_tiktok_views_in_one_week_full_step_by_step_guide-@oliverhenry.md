@@ -1,9 +1,3 @@
----
-url: https://x.com/oliverhenry/status/2022011925903667547
-author: Oliver Henry and Larry
-captured_date: 2026-02-12
----
-
 # How my OpenClaw agent, Larry, got millions of TikTok views in one week. (Full step-by-step guide)
 
 (Description: A black and white engraved-style illustration featuring a large lobster or crayfish in the center with radiating beams of light behind it. Below are stylized city buildings and geometric patterns. Two eye symbols with "50K" and "100K" labels flank the lobster, representing view counts. The image has a vintage woodcut or etching aesthetic.)

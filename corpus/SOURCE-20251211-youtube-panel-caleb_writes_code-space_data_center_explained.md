@@ -1,37 +1,3 @@
----
-id: SOURCE-20251211-863
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "space"
-  - "data"
-  - "center"
-  - "explained"
-creator: "Caleb Writes Code"
-guest: null
-title: "Space Data Center Explained"
-url: "https://www.youtube.com/watch?v=mHKGP5TAxyQ"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 9s"
-has_transcript: no
-synopsis: "Space Data Center Explained by Caleb Writes Code. A panel discussion covering space, data, center."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Space Data Center Explained"
----
-
 # Space Data Center Explained
 
 **Channel**: Caleb Writes Code

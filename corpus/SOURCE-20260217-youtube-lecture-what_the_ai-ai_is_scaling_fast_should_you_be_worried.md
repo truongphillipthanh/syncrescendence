@@ -1,37 +1,3 @@
----
-id: SOURCE-20260217-027
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "scaling"
-  - "fast"
-  - "worried"
-creator: "What the AI?!"
-guest: null
-title: "AI Is Scaling Fast. Should You Be Worried?"
-url: "https://www.youtube.com/watch?v=-pBgDeCIdyk"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 25s"
-has_transcript: no
-synopsis: "AI Is Scaling Fast. Should You Be Worried? by What the AI?!. A lecture covering scaling, fast, worried."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Is Scaling Fast."
-  - "AI Is Scaling Fast. Should You"
----
-
 # AI Is Scaling Fast. Should You Be Worried?
 
 **Channel**: What the AI?!

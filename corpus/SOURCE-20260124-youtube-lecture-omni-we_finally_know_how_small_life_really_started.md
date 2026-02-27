@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-307
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "finally"
-  - "know"
-  - "small"
-  - "life"
-  - "really"
-creator: "OMNI"
-guest: null
-title: "We Finally Know How Small Life Really Started"
-url: "https://www.youtube.com/watch?v=owLY9b565R8"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 33m 52s"
-has_transcript: no
-synopsis: "We Finally Know How Small Life Really Started by OMNI. A lecture covering finally, know, small."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "We Finally Know How"
-  - "We Finally Know How Small Life"
----
-
 # We Finally Know How Small Life Really Started
 
 **Channel**: OMNI

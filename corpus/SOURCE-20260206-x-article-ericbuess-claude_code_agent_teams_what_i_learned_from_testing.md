@@ -1,32 +1,3 @@
----
-url: https://x.com/EricBuess/status/2019817656745128366
-author: "Eric Buess (@EricBuess)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-005
-original_filename: "20260206-x_article-claude_code_agent_teams_what_i_learned_from_testing-@ericbuess.md"
-status: triaged
-platform: x
-format: article
-creator: ericbuess
-signal_tier: tactical
-topics:
-  - claude-code
-  - context-management
-  - testing
-  - claude-md
-  - anthropic
-  - model-context-protocol
-  - terminal
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code Agent Teams What I Learned from Testing"
-synopsis: "Claude Code Agent Teams: What I Learned from Testing working in parallel, each with their own terminal pane. Status indicators show "Now spawning 3 teammates in split panes" and "All 3 teammates spawned in split panes."
-key_insights:
-  - "You can also just export the variable in your shell before launching, but the settings.json approach means you don't have to remember it every time."
-  - "Claude Code Agent Teams: What I Learned from Testing working in parallel, each with their own terminal pane."
-  - "Status indicators show "Now spawning 3 teammates in split panes" and "All 3 teammates spawned in split panes."
----
 # Claude Code Agent Teams: What I Learned from Testing
 
 (Description: Terminal screenshot showing Claude Code split-pane agent teams interface with 3 teammates spawned (@fact-checker, @format-checker, @tone-reviewer) working in parallel, each with their own terminal pane. Status indicators show "Now spawning 3 teammates in split panes" and "All 3 teammates spawned in split panes. They're working now — fact-checker is")

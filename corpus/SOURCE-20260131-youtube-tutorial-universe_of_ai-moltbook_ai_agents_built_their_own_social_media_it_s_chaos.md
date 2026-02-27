@@ -1,39 +1,3 @@
----
-id: SOURCE-20260131-219
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "moltbook"
-  - "agents"
-  - "built"
-  - "their"
-  - "own"
-creator: "Universe of AI"
-guest: null
-title: "Moltbook: AI Agents Built Their Own Social Media (it's CHAOS)!"
-url: "https://www.youtube.com/watch?v=ksPuOdYCFuo"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 45s"
-has_transcript: no
-synopsis: "Moltbook: AI Agents Built Their Own Social Media (it's CHAOS)! by Universe of AI. A tutorial covering moltbook, agents, built."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Moltbook: AI Agents Built"
-  - "Moltbook: AI Agents Built Their Own"
----
-
 # Moltbook: AI Agents Built Their Own Social Media (it's CHAOS)!
 
 **Channel**: Universe of AI

@@ -1,38 +1,3 @@
----
-id: SOURCE-20251210-886
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "biggest"
-  - "stories"
-  - "watch"
-  - "december"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "The 5 Biggest AI Stories To Watch In December"
-url: "https://www.youtube.com/watch?v=IJla9e2NpB8"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 17s"
-has_transcript: no
-synopsis: "The 5 Biggest AI Stories To Watch In December by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering biggest, stories, watch."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The 5 Biggest AI"
-  - "The 5 Biggest AI Stories To"
----
-
 # The 5 Biggest AI Stories To Watch In December
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

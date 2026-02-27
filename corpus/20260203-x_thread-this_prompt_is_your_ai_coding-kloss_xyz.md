@@ -1,9 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2018762791692423242
-author: klöss (@kloss_xyz)
-captured_date: 2026-02-03
----
-
 # AI Coding Debug Agent - Part 4
 
 This prompt is your AI coding debug agent (it fixes your issues without breaking everything else).

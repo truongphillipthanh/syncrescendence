@@ -1,35 +1,3 @@
----
-id: SOURCE-20260218-044
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "grok"
-  - "different"
-creator: "Wes Roth"
-guest: null
-title: "GROK 4.20 is... different"
-url: "https://www.youtube.com/watch?v=d4tbdFpcuSQ"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 34s"
-has_transcript: no
-synopsis: "GROK 4.20 is... different by Wes Roth. A interview covering grok, different."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "GROK 4.20 is... different"
----
-
 # GROK 4.20 is... different
 
 **Channel**: Wes Roth

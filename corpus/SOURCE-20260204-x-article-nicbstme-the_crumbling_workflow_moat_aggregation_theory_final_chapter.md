@@ -1,32 +1,3 @@
----
-url: https://x.com/nicbstme/status/2019149771706102022
-author: "Nicolas Bustamante (@nicbstme)"
-captured_date: 2026-02-13
-id: SOURCE-20260204-009
-original_filename: "20260204-x_article-the_crumbling_workflow_moat_aggregation_theory_final_chapter-@nicbstme.md"
-status: triaged
-platform: x
-format: article
-creator: nicbstme
-signal_tier: paradigm
-topics:
-  - ai-workflow
-  - automation
-  - extended-thinking
-  - api
-  - product-development
-  - rag
-  - cost-optimization
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Crumbling Workflow Moat Aggregation Theorys Final Chapter"
-synopsis: "The Crumbling Workflow Moat: Aggregation Theory's Final Chapter *36 replies, 75 reposts, 485 likes, 1,338 bookmarks, 176.7K views* *Published: 12:43 PM · Feb 4, 2026* --- Introduction The interface moat is dying. Every vertical software company built on workflow complexity is about to learn this the hard way."
-key_insights:
-  - "The Web 2.0 Aggregation Stack in middle, and Suppliers at bottom, with arrows indicating value flow) But suppliers retained two critical assets."
-  - "When you search "best Italian restaurant SF," you don't care which site ranks #1."
-  - "Every vertical software company built on workflow complexity is about to learn this the hard way."
----
 # The Crumbling Workflow Moat: Aggregation Theory's Final Chapter
 
 *36 replies, 75 reposts, 485 likes, 1,338 bookmarks, 176.7K views*

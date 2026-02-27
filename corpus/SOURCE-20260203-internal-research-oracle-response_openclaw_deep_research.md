@@ -1,27 +1,3 @@
----
-id: SOURCE-20260203-006
-original_filename: RESPONSE-ORACLE-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: oracle
-signal_tier: strategic
-topics:
-  - ai-agents
-  - openclaw
-  - research
-  - community
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Oracle response - OpenClaw cultural discourse intelligence"
-synopsis: "Cultural discourse intelligence on OpenClaw's X/Twitter ecosystem. Maps power users and thought leaders, documents 68k+ GitHub stars, and captures the community's mix of developer excitement and security paranoia."
-url: internal
-key_insights:
-  - "OpenClaw reached 68k+ GitHub stars in weeks, with practitioner-heavy signal rather than influencer noise."
-  - "Top community members are builders sharing configs and code — indicating genuine technical adoption over hype."
-  - "The community mood is collaborative but chaotic — an open-source gold rush mixing excitement with security concerns."
----
 # OpenClaw Deep Research: Recon Intelligence Dump
 
 **Date Compiled**: February 04, 2026  

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1089
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "building"
-  - "own"
-  - "mcp"
-  - "server"
-  - "adk"
-creator: "Google Cloud Tech"
-guest: null
-title: "Building your own MCP server with ADK"
-url: "https://www.youtube.com/watch?v=XwlVHm3JKWU"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 2s"
-has_transcript: no
-synopsis: "Building your own MCP server with ADK by Google Cloud Tech. A tutorial covering building, own, mcp."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Building your own MCP"
-  - "Building your own MCP server with"
----
-
 # Building your own MCP server with ADK
 
 **Channel**: Google Cloud Tech

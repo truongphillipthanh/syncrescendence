@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1052
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "build"
-  - "research"
-  - "agent"
-  - "deep"
-  - "agents"
-creator: "LangChain"
-guest: null
-title: "Build a Research Agent with Deep Agents"
-url: "https://www.youtube.com/watch?v=5tn6O0uXYEg"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 30s"
-has_transcript: no
-synopsis: "Build a Research Agent with Deep Agents by LangChain. A tutorial covering build, research, agent."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Build a Research Agent"
-  - "Build a Research Agent with Deep"
----
-
 # Build a Research Agent with Deep Agents
 
 **Channel**: LangChain

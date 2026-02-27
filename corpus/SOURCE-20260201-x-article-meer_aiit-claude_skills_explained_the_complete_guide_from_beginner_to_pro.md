@@ -1,28 +1,3 @@
----
-url: https://x.com/Meer_AIIT/status/2017984668205756551
-author: "Meer | AI Tools & News (@Meer_AIIT)"
-captured_date: 2026-02-13
-id: SOURCE-20260201-004
-original_filename: "20260201-x_article-claude_skills_explained_the_complete_guide_from_beginner_to_pro-@meer_aiit.md"
-status: triaged
-platform: x
-format: article
-creator: meer_aiit
-signal_tier: tactical
-topics:
-  - claude-code
-  - tutorial
-  - developer-tools
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Meer - Claude Skills complete guide"
-synopsis: "Comprehensive guide to Claude Skills from beginner to pro, based on weeks of building 12+ custom skills. Distinguishes what works from what fails in skill design, going beyond recycled explanations to share hard-won lessons from real implementation experience."
-key_insights:
-  - "Building Claude Skills requires iterative experimentation — some skills flop hard while others fundamentally change your workflow with Claude."
-  - "The guide covers the full skill lifecycle from concept through deployment, addressing common failure modes most tutorials skip."
-  - "Skills represent a shift from one-off prompting to reusable, composable AI capabilities."
----
 # Claude Skills Explained: The Complete Guide from Beginner to Pro
 
 (Description: A branded cover image featuring the text "Claude" with a decorative starburst icon above it, followed by "SKILLS" and "EXPLAINED" in bold typography on a light background.)

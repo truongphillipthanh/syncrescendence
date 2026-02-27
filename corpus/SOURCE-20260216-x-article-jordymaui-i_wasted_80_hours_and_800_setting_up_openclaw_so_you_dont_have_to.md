@@ -1,24 +1,3 @@
----
-url: https://x.com/jordymaui/status/2023421221744877903
-author: "jordy (@jordymaui)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-009
-original_filename: "20260216-x_article-i_wasted_80_hours_and_800_setting_up_openclaw_so_you_dont_have_to-@jordymaui.md"
-status: triaged
-platform: x
-format: article
-creator: jordymaui
-signal_tier: tactical
-topics: [ai-agents, tutorial, developer-tools]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["jordymaui - OpenClaw beginner setup guide"]
-synopsis: "A beginner-friendly OpenClaw setup guide born from $800 and 80 hours of mistakes. Covers Mac Mini setup, Claude Max vs API billing, Telegram bot creation, Brave/Groq integration, QMD installation, and SOUL/USER/MEMORY file personalization. Emphasizes skills over multiple agents and voice note interaction via Groq."
-key_insights:
-  - "Claude Max subscription is far cheaper than pay-per-use Anthropic API - use the Claude token, not the API key"
-  - "One agent with proper skills beats a squad of confused agents - avoid running 8 agents simultaneously"
-  - "Install QMD from the start, not halfway through - mid-session installation causes resets and lost chat logs"
----
 # I wasted 80 hours and $800 setting up OpenClaw - so you don't have to
 (Description: A monochromatic engraved illustration showing a central AI interface or device on a pedestal, flanked by figures in business attire reaching upward. The image has a sci-fi aesthetic with geometric patterns and warning signs visible in the background, suggesting a futuristic yet cautionary tone.)
 I tried everything. AWS servers, remote setups, wrong API keys, wrong models. I burned through about $800 on Anthropic API tokens alone. Tried Kimi. Tried Opus. Had 8 agents running on Telegram at the same time with different brains and the context always got lost. Every single one forgot what the other was doing. *I made every mistake in the book.*

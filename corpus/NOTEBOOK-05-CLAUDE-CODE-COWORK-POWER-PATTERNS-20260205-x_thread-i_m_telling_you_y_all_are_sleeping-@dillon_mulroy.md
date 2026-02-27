@@ -1,9 +1,3 @@
----
-url: https://x.com/dillon_mulroy/status/2019641525312057789
-author: Dillon Mulroy (@dillon_mulroy)
-captured_date: 2026-02-05
----
-
 # CodeMode MCPs Thread
 
 **Post 1 — Feb 5, 2026 at 9:17 PM**

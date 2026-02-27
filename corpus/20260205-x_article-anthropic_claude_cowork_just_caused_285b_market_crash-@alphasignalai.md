@@ -1,9 +1,3 @@
----
-url: https://x.com/AlphaSignalAI/status/2019641856225866247
-author: AlphaSignal AI (@AlphaSignalAI)
-captured_date: 2026-02-05
----
-
 # Anthropic's Claude Cowork just caused a $285B market crash
 
 (Description: Wide banner image showing a chaotic financial trading floor scene. The image depicts silhouetted figures of traders at workstations with blue trading screens visible in the background. A large red downward-trending stock chart dominates the center, displaying a sharp market decline. Blue and red illuminated data displays are visible throughout the trading floor, with dramatic lighting emphasizing market turmoil.)

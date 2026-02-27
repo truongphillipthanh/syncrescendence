@@ -1,21 +1,3 @@
----
-url: https://x.com/shivambhadani_/status/2020504631697391736
-author: "Shivam Bhadani (@shivambhadani_)"
-captured_date: 2026-02-08
-id: SOURCE-20260208-011
-original_filename: "20260208-x_article-learning_backend_development_from_zero_to_advanced_using_first_principles-@shivambhadani_.md"
-status: triaged
-platform: x
-format: article
-creator: shivambhadani_
-signal_tier: tactical
-topics: [education, developer-tools, tutorial]
-teleology: implement
-notebooklm_category: career-growth
-aliases: ["Shivam Bhadani - Backend First Principles"]
-synopsis: "Zero-to-advanced backend development learning path built on first principles thinking, covering fundamental concepts needed for robust server-side applications."
-key_insights: ["First principles thinking prevents dependency on specific frameworks that may become obsolete", "Zero-to-advanced paths are more effective than intermediate tutorials assuming prior knowledge", "Understanding fundamentals enables adaptation to AI-assisted development workflows"]
----
 # Learning Backend Development from Zero to Advanced Using First Principles
 
 (Description: Title card with gradient purple background displaying "Learning Backend Development From First Principles" in large white text)

@@ -1,9 +1,3 @@
----
-url: https://x.com/Team9_ai/status/2020846025418916052
-author: Winrey (Team9)
-captured_date: 2026-02-13
----
-
 # After Installing OpenClaw for 50 Teammates, Here Are 5 Things I Learned
 
 ![Image](Description: Logo composite showing a stylized red lobster/claw mascot on the left with a plus sign, combined with Team9's colorful spiral galaxy logo on the right featuring purples, blues, and oranges with "team9" text embedded in the design)

@@ -1,9 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2019787923202195507
-author: Corey Ganim (@GanimCorey)
-captured_date: 2026-02-13
----
-
 # The Skills Masterclass: 5 AI Workflows That Run Forever
 
 ![the skills masterclass promotional image](Description: Left side shows "the skills masterclass" in bold black text with "masterclass" highlighted in teal/green. Subtitle reads "5 workflows that run forever" in gray text with a horizontal teal underline. Right side displays a white card with a teal clipboard icon labeled "Content Creation" at the top, followed by three additional section headers: "Email Sequences" (blurred gray text), "Meeting Prep" (bold black), and "Client Management" (bold black), each with accompanying blurred descriptive text below.)

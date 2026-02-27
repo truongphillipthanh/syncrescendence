@@ -1,9 +1,3 @@
----
-url: https://x.com/omooretweets/status/2015618038088024164
-author: Olivia Moore (@omooretweets)
-captured_date: 2026-01-25
----
-
 # Clawdbot is amazing - and, I don't think consumers should use it
 
 (Description: A surreal digital illustration featuring an anthropomorphic orange octopus-like creature with large eyes, wearing a brown/tan shirt, sitting at a wooden desk. The desk displays a laptop with green code on the screen. The background shows a cozy steampunk-inspired workspace with vintage wooden drawers, bookshelves, warm lighting, and desk accessories including a coffee mug and stacked papers. The color palette is predominantly warm oranges and browns.)

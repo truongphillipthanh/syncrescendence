@@ -1,29 +1,3 @@
----
-url: https://x.com/aidenybai/status/2018812643369488747
-author: "Aiden Bai (@aidenybai)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-011
-original_filename: "20260203-x_article-how_i_made_claude_code_3x_faster-@aidenybai.md"
-status: triaged
-platform: x
-format: article
-creator: aidenybai
-signal_tier: strategic
-topics:
-  - ai-engineering
-  - developer-tools
-  - vibe-coding
-  - performance
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Aiden Bai - Claude Code 3x faster for frontend"
-synopsis: "Analysis of why coding agents struggle with frontend work — the intent translation pipeline (UI vision to prompt to code to UI) is lossy. Presents a solution that achieves 3x faster edits on average by reducing this translation loss, with benchmark data showing distribution improvements."
-key_insights:
-  - "The core bottleneck for AI coding agents on frontend is the lossy intent translation pipeline: mental image to prompt to code to rendered UI."
-  - "Reducing translation loss between intent and output produces 3x speed improvements, suggesting the prompt-to-code step is the primary bottleneck, not model speed."
-  - "Benchmark-driven optimization of agent workflows (measuring time per edit with distribution analysis) is emerging as a rigorous approach to agent performance engineering."
----
 # How I made Claude Code 3x faster
 
 (Description: A dark-themed benchmark visualization showing a magenta and gray distribution curve with the title "3x faster on average" displayed below. The x-axis represents "Time per Edit (seconds)" ranging from 0 to 30, with two overlapping probability distributions illustrating the performance comparison between control and treatment groups.)

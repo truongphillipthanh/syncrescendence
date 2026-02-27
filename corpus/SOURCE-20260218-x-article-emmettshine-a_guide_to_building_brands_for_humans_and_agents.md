@@ -1,24 +1,3 @@
----
-url: https://x.com/emmettshine/status/2024113482623258907
-author: "Emmett (@emmettshine)"
-captured_date: 2026-02-20
-id: SOURCE-20260218-006
-original_filename: "20260218-x_article-a_guide_to_building_brands_for_humans_and_agents-@emmettshine.md"
-status: triaged
-platform: x
-format: article
-creator: emmettshine
-signal_tier: paradigm
-topics: [ai-agents, content-creation, brand-strategy, ai-engineering]
-teleology: synthesize
-notebooklm_category: career-growth
-aliases: ["emmettshine - building brands for humans and agents"]
-synopsis: "Introduces 'dual-native brand systems' — delivering both traditional human brand guidelines (Figma, PDFs, design systems) and agent-readable structured data (YAML, JSON, markdown chunks of ~400 tokens with metadata). Shows example Agent-First Brand Kit with positioning, voice, and retrieval rules. Each chunk has context_tags and task-to-chunk mappings for context-aware loading. Also describes giving each internal agent identity via SOUL.md, IDENTITY.md, and PRINCIPLES.md files."
-key_insights:
-  - "Dual-native brand systems: same positioning, voice, and values delivered in two formats — human deliverables (Figma/PDFs) and agent deliverables (YAML/JSON/markdown chunks with metadata)"
-  - "Agent-First Brand Kit uses ~400 token chunks with context_tags and task-to-chunk retrieval rules (always_load vs load_if_relevant with token budgets per task type)"
-  - "When everything can be generated instantly, craft becomes more valuable — your visual system is craft, your agent's markdown files are how teams and AI tools understand that craft"
----
 # A Guide to Building Brands for Humans & Agents
 (Description: A large infographic divided into two columns labeled "Human" and "Agent". The left side shows traditional brand materials including website screenshots, PDFs, and design guideline documents arranged in an overlapping layout. The right side displays structured data files with green syntax highlighting, representing YAML and JSON code blocks.)
 ## The New Workflow

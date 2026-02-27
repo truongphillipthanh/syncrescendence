@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-unknown-article-unknown-claude_code_learning_path
-platform: unknown
-format: article
-creator: unknown
-title: claude code learning path
-status: triaged
-original_filename: 1-GettingStarted--4-claude_code_learning_path.md
-signal_tier: tactical
-topics: ""
-teleology: reference
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 ## Claude Code Learning Path: An Architectural Overview
 
 The provided roadmap delineates a progressive mastery of Claude Code, transitioning from basic terminal interactions to sophisticated enterprise-scale deployments. The curriculum is structured into five distinct evolutionary tiers, each expanding the agent's agency and integration depth.

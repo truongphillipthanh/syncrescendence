@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-430
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "disposable"
-  - "software"
-  - "trend"
-  - "people"
-  - "getting"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Disposable Software: The Trend 90% of People are Getting Wrong--The Hidden Costs We Need to Consider"
-url: "https://www.youtube.com/watch?v=ra7nYJe86GI"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 21s"
-has_transcript: no
-synopsis: "Disposable Software: The Trend 90% of People are Getting Wrong--The Hidden Costs We Need to Consider by AI News & Strategy Daily | Nate B Jones. A tutorial covering disposable, software, trend."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Disposable Software: The Trend"
-  - "Disposable Software: The Trend 90% of"
----
-
 # Disposable Software: The Trend 90% of People are Getting Wrong--The Hidden Costs We Need to Consider
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

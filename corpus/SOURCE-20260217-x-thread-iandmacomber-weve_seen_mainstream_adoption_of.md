@@ -1,24 +1,3 @@
----
-url: https://x.com/iandmacomber/status/2023869483706728761
-author: "Ian Macomber (@iandmacomber)"
-captured_date: 2026-02-17
-id: SOURCE-20260217-019
-original_filename: "20260217-x_thread-weve_seen_mainstream_adoption_of-@iandmacomber.md"
-status: triaged
-platform: x
-format: thread
-creator: iandmacomber
-signal_tier: strategic
-topics: [claude-code, ai-adoption, organizational-change, data-engineering]
-teleology: contextualize
-notebooklm_category: claude-code
-aliases: ["iandmacomber - Claude Code adoption across non-eng at Ramp"]
-synopsis: "Documents mainstream Claude Code adoption at Ramp across non-engineering roles: 80% PMs, 70% compliance, 55% finance. Traces evolution from analysts filing bugs in #helpdata (2021) to analysts submitting PRs themselves (Feb 2026). Finance team ships SQL, product team runs causal analysis. Argues this is Jevons paradox: AI expands what data people can do, but the remaining work is harder, more creative, and strategic."
-key_insights:
-  - "Four-stage evolution at Ramp: analyst reports bug → data team fixes (2021) → data team uses CC to fix (2024) → analyst identifies fix with CC (Jan 2026) → analyst submits PR (Feb 2026)"
-  - "Jevons paradox for data teams: AI doesn't shrink the team, it expands what each person can do — but the remaining work is harder, more creative, and strategic"
-  - "If you define yourself by skillset ('I do dbt models and dashboards'), that scope is shrinking fast — the future is entrepreneurial, cross-functional, and conviction-driven"
----
 We've seen mainstream adoption of Claude Code across non-eng in the last six weeks at @tryramp. 80% of PMs, 70% of compliance, 55% of the finance team. It's changed how I think about the role of the data team.
 * **2021-2024:** analyst says "hey the numbers look off" in #helpdata, someone on the data team digs through code, troubleshoots, and pushes a PR. You could fill your entire day just doing this (and stakeholders were happy and grateful)!
 * **2024-2025:** analyst says "hey the numbers look off" in #helpdata, someone on the data team copies the question into Claude Code, troubleshoots, and pushes a PR

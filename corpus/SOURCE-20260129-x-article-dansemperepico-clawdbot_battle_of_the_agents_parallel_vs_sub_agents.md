@@ -1,28 +1,3 @@
----
-url: https://x.com/dansemperepico/status/2016953453638267002
-author: "Daniel Sempere Pico (@dansemperepico)"
-captured_date: 2026-02-04
-id: SOURCE-20260129-002
-original_filename: "20260129-x_article-clawdbot_battle_of_the_agents_parallel_vs_sub_agents-@dansemperepico.md"
-status: triaged
-platform: x
-format: article
-creator: dansemperepico
-signal_tier: strategic
-topics:
-  - ai-agents
-  - automation
-  - framework
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Daniel Sempere Pico - parallel vs sub-agents"
-synopsis: "Practical guide distinguishing parallel agents (independent agents with their own context, memory, and Telegram bots for different domains) from sub-agents (temporary workers spawned by a parallel agent for specific tasks using cheaper models). Includes a decision table and real examples: chief of staff on Opus 4.5, health coach on Sonnet, marketing agent on Gemini."
-key_insights:
-  - "Parallel agents provide redundancy — when one agent's configuration breaks, another operational agent can troubleshoot and restore it."
-  - "Sub-agents are the most granular way to apply the right model for the right task, keeping the main agent free for other work while sub-agents handle batch/grunt work on cheaper models."
-  - "The decision framework: use parallel agents for different expertise domains and direct access; use sub-agents for batch work, research tasks, and cost-sensitive operations."
----
 # ClawdBot Battle of the Agents - Parallel vs Sub-Agents
 
 ![Description: A futuristic dark command center scene showing a silhouetted figure seated at a curved control panel facing a large curved wall display. The display shows 8 illuminated AI head profiles arranged in an arc - rendered as neon blue, green, and orange holographic busts with digital interfaces and code visible in the background. Additional monitoring panels and technical readouts line the sides of the room, creating an atmosphere of managing multiple AI agents simultaneously.]

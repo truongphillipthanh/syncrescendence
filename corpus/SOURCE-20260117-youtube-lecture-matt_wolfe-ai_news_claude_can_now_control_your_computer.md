@@ -1,39 +1,3 @@
----
-id: SOURCE-20260117-452
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "news"
-  - "claude"
-  - "now"
-  - "control"
-  - "computer"
-creator: "Matt Wolfe"
-guest: null
-title: "AI News: Claude Can Now Control Your Computer!"
-url: "https://www.youtube.com/watch?v=a_T5fjA2ulY"
-date_published: 2026-01-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 10s"
-has_transcript: no
-synopsis: "AI News: Claude Can Now Control Your Computer! by Matt Wolfe. A lecture covering news, claude, now."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "AI News: Claude Can"
-  - "AI News: Claude Can Now Control"
----
-
 # AI News: Claude Can Now Control Your Computer!
 
 **Channel**: Matt Wolfe

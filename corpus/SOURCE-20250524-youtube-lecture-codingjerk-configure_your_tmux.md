@@ -1,35 +1,3 @@
----
-id: SOURCE-20250524-140
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "configure"
-  - "tmux"
-creator: "codingjerk"
-guest: null
-title: "configure your tmux."
-url: "https://www.youtube.com/watch?v=wpODsyBHxH0"
-date_published: 2025-05-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m"
-has_transcript: no
-synopsis: "configure your tmux. by codingjerk. A lecture covering configure, tmux."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "configure your tmux."
----
-
 # configure your tmux.
 
 **Channel**: codingjerk

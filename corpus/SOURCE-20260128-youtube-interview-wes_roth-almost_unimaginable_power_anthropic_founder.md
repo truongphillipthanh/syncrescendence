@@ -1,39 +1,3 @@
----
-id: SOURCE-20260128-267
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "almost"
-  - "unimaginable"
-  - "power"
-  - "anthropic"
-  - "founder"
-creator: "Wes Roth"
-guest: null
-title: ""Almost UNIMAGINABLE Power" - Anthropic Founder"
-url: "https://www.youtube.com/watch?v=AWqjodHJ3es"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 8s"
-has_transcript: no
-synopsis: ""Almost UNIMAGINABLE Power" - Anthropic Founder by Wes Roth. A interview covering almost, unimaginable, power."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - ""Almost UNIMAGINABLE Power" -"
-  - ""Almost UNIMAGINABLE Power" - Anthropic Founder"
----
-
 # "Almost UNIMAGINABLE Power" - Anthropic Founder
 
 **Channel**: Wes Roth

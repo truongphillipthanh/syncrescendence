@@ -1,35 +1,3 @@
----
-id: SOURCE-20251219-798
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "introducing"
-  - "functiongemma"
-creator: "Google for Developers"
-guest: null
-title: "Introducing FunctionGemma"
-url: "https://www.youtube.com/watch?v=-Tgc_9uYJLI"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "5m 3s"
-has_transcript: no
-synopsis: "Introducing FunctionGemma by Google for Developers. A lecture covering introducing, functiongemma."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Introducing FunctionGemma"
----
-
 # Introducing FunctionGemma
 
 **Channel**: Google for Developers

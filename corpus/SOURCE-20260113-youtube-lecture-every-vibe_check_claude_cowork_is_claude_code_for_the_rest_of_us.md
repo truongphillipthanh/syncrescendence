@@ -1,39 +1,3 @@
----
-id: SOURCE-20260113-494
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "vibe"
-  - "check"
-  - "claude"
-  - "cowork"
-  - "code"
-creator: "Every"
-guest: null
-title: "Vibe Check: Claude Cowork Is Claude Code for the Rest of Us"
-url: "https://www.youtube.com/watch?v=oPBN-QIfLaY"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 32m 45s"
-has_transcript: no
-synopsis: "Vibe Check: Claude Cowork Is Claude Code for the Rest of Us by Every. A lecture covering vibe, check, claude."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Vibe Check: Claude Cowork"
-  - "Vibe Check: Claude Cowork Is Claude"
----
-
 # Vibe Check: Claude Cowork Is Claude Code for the Rest of Us
 
 **Channel**: Every

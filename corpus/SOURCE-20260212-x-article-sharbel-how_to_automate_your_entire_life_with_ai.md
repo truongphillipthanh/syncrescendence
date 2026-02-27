@@ -1,32 +1,3 @@
----
-url: https://x.com/sharbel/status/2021954042058948623
-author: "Sharbel (@sharbel)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-009
-original_filename: "20260212-x_article-how_to_automate_your_entire_life_with_ai-@sharbel.md"
-status: triaged
-platform: x
-format: article
-creator: sharbel
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - testing
-  - extended-thinking
-  - github-copilot
-  - gpt
-  - rules-files
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How To Automate Your Entire Life With AI"
-synopsis: "How To Automate Your Entire Life With AI Last Tuesday at 6:47am, I woke up to a notification. My AI agent had just made its 418th winning trade. On a $600 Mac Mini sitting in my home office. But that's not the interesting part. The interesting part is what happened in the 6 hours before I woke up."
-key_insights:
-  - "It has 14 different safety rules."
-  - "They want to automate something they've never done themselves."
-  - "How To Automate Your Entire Life With AI Last Tuesday at 6:47am, I woke up to a notification."
----
 # How To Automate Your Entire Life With AI
 
 (Description: Dark-themed image of a home office setup at night. A Mac Mini sits on a desk illuminated by blue ambient lighting, with two monitors displaying trading charts and analytics dashboards. A warm orange/red desk lamp glows on the left side, creating a cinematic contrast with the cool blue monitor light. Timestamp shows 2:47 AM in the top right corner of the monitors.)

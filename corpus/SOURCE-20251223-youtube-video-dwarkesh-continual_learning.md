@@ -1,16 +1,3 @@
----
-id: SOURCE-20251223-youtube-video-dwarkesh-continual_learning
-title: "Dwarkesh Patel: What Are We Scaling? - The Continual Learning Bottleneck"
-creator: Dwarkesh Patel
-guest: null
-date_published: 2025-12-23
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence, Expertise
-integration_targets: CANON-30000, CANON-30400, CANON-33100
----
-
 # What Are We Scaling? The Continual Learning Bottleneck
 
 ## Executive Summary

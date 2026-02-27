@@ -1,10 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2019058134598221886
-author: Corey Ganim (@GanimCorey)
-captured_date: 2026-02-13
-post_date: 2026-02-04
----
-
 # 10 More Clawdbot Setups That Made Me Say 'Wait, It Can Do That?'
 
 (Description: A white card-style image with bold black text reading "clawdbot in action." and "10 real uses." on the left side. On the right is an illustration of an abstract orange and red claw or mechanical hand design in a stylized, artistic manner. A red numbered badge showing "10" appears in the top right corner of the illustration.)

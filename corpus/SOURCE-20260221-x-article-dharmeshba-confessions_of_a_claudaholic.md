@@ -1,28 +1,3 @@
----
-url: https://x.com/dharmeshba/status/2025195502606672344
-author: "Dharmesh Ba (@dharmeshba)"
-captured_date: 2026-02-21
-id: SOURCE-20260221-001
-original_filename: "20260221-x_article-confessions_of_a_claudaholic-@dharmeshba.md"
-status: triaged
-platform: x
-format: article
-creator: dharmeshba
-signal_tier: tactical
-topics:
-  - claude-code
-  - product-development
-  - terminal
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Confessions of a Claudaholic"
-synopsis: "Confessions of a Claudaholic! ![messy logic header with figure holding coffee and garden plants](data:image/description;base64,) Opening: The Code-Design Divide The best time to learn coding was 10 years ago and the second best time was never. I say this as someone who burnt his hands multiple times trying to learn frontend."
-key_insights:
-  - "I say this as someone who burnt his hands multiple times trying to learn frontend."
-  - "Design and code need two different parts of your brain firing simultaneously - the creative and the logical."
-  - "I respected the hell out of people who could do both."
----
 # Confessions of a Claudaholic!
 ![messy logic header with figure holding coffee and garden plants](data:image/description;base64,)(Description: A cream-colored banner image for "messy logic" newsletter. On the left, "messy logic" text in red italics. On the right, a sketched illustration of a person with dark wavy hair shown from behind, wearing a light-colored shirt, holding a red coffee cup. The background includes botanical elements: wild plants and flowers in black/red ink sketches.)
 ## Opening: The Code-Design Divide

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260128-270
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ww3"
-  - "ended"
-  - "lost"
-  - "nuclear"
-  - "missiles"
-creator: "Lines on Maps Extra"
-guest: null
-title: "WW3 Has Ended. You Lost. You Have 16 Nuclear Missiles. What Do You Do?"
-url: "https://www.youtube.com/watch?v=B1I8wHr3tN8"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 31s"
-has_transcript: no
-synopsis: "WW3 Has Ended. You Lost. You Have 16 Nuclear Missiles. What Do You Do? by Lines on Maps Extra. A lecture covering ww3, ended, lost."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "WW3 Has Ended. You"
-  - "WW3 Has Ended. You Lost. You"
----
-
 # WW3 Has Ended. You Lost. You Have 16 Nuclear Missiles. What Do You Do?
 
 **Channel**: Lines on Maps Extra

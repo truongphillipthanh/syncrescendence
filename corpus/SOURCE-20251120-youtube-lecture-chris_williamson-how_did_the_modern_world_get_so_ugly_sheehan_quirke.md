@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1010
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "modern"
-  - "world"
-  - "get"
-  - "ugly"
-  - "sheehan"
-creator: "Chris Williamson"
-guest: null
-title: "How Did The Modern World Get So Ugly? - Sheehan Quirke"
-url: "https://www.youtube.com/watch?v=tOezS6uCGg8"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 55m 31s"
-has_transcript: no
-synopsis: "How Did The Modern World Get So Ugly? - Sheehan Quirke by Chris Williamson. A lecture covering modern, world, get."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "How Did The Modern"
-  - "How Did The Modern World Get"
----
-
 # How Did The Modern World Get So Ugly? - Sheehan Quirke
 
 **Channel**: Chris Williamson

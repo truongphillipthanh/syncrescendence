@@ -1,32 +1,3 @@
----
-url: https://x.com/pradeep24/status/2021319785947316490
-author: "pradeep (@pradeep24)"
-captured_date: 2026-02-10
-id: SOURCE-20260210-005
-original_filename: "20260210-x_article-camofox_browser_a_openclaw_browser_that_doesnt_get_blocked-@pradeep24.md"
-status: triaged
-platform: x
-format: article
-creator: pradeep24
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - context-management
-  - automation
-  - api
-  - product-development
-  - cli-tools
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "camofoxbrowser  A openclaw browser that doesnt get blocked"
-synopsis: "camofox-browser - A openclaw browser that doesn't get blocked **camofox-browser** is an OpenClaw plugin that lets your agents browse sites that normally block automation — X, Product Hunt, Amazon, and more. It was extracted from Jo, where it powers our server-side web browsing."
-key_insights:
-  - "WHAT GETS INTERCEPTED The patches follow a simple pattern: check config, return spoofed value if set, otherwise fall through to normal implementation."
-  - "It was extracted from Jo, where it powers our server-side web browsing."
-  - "It's a headless browser server built on Camoufox, a Firefox fork that spoofs browser fingerprints at the C++ level rather than in JavaScript."
----
 # camofox-browser - A openclaw browser that doesn't get blocked
 
 (Description: A red fox character with golden eyes, facing forward, with white chest markings. Text reads "camofox-browser / An OpenClaw browser that doesn't get blocked" with tagline "C++ anti-detection · element refs · search macros")

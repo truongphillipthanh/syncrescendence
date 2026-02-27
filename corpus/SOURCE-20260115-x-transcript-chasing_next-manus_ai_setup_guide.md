@@ -1,29 +1,3 @@
----
-id: SOURCE-undated-010
-title: Manus Ai Setup Guide
-platform: x
-format: transcript
-creator: chasing_next
-date_published: "2026-01-15"
-status: triaged
-url: https://x.com/chasing_next/status/2011832613569216804
-original_filename: research/x-bookmarks/TRANS-chasing_next-manus_ai_setup_guide.md
-aliases:
-  - "ChasingNext - Manus AI Setup"
-teleology: implement
-notebooklm_category: ai-agents
-synopsis: "Beginner guide for setting up Manus AI agents in under 15 minutes. Covers installation, configuration, and first agent creation for non-technical users wanting to use AI automation."
-key_insights:
-  - "Manus AI agents can be set up in under 15 minutes even by non-technical users"
-  - "The guide targets business and marketing strategists wanting AI automation without developer expertise"
-  - "Step-by-step approach removes barriers to entry for AI agent adoption"
-topics:
-  - "ai-agents"
-  - "automation"
-  - "tutorial"
-signal_tier: tactical
----
-
 # How to Set Up Manus AI Agents in <15 Minutes (For Beginners)
 > **Author**: Riley (@chasing_next) — ex biz/marketing strategist, AI for non-technical people
 > **Date**: January 15, 2026 · 8:07 AM

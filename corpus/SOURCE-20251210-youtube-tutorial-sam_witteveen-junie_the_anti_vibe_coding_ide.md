@@ -1,39 +1,3 @@
----
-id: SOURCE-20251210-876
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "junie"
-  - "anti"
-  - "vibe"
-  - "coding"
-  - "ide"
-creator: "Sam Witteveen"
-guest: null
-title: "Junie The Anti-Vibe Coding IDE"
-url: "https://www.youtube.com/watch?v=WHoTpk_BJys"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 15s"
-has_transcript: no
-synopsis: "Junie The Anti-Vibe Coding IDE by Sam Witteveen. A tutorial covering junie, anti, vibe."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Junie The Anti-Vibe Coding"
-  - "Junie The Anti-Vibe Coding IDE"
----
-
 # Junie The Anti-Vibe Coding IDE
 
 **Channel**: Sam Witteveen

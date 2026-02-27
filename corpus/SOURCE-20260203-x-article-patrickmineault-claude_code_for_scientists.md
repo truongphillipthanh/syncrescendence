@@ -1,32 +1,3 @@
----
-url: https://x.com/patrickmineault/status/2018656607098351892
-author: "Patrick Mineault (@patrickmineault)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-022
-original_filename: "20260203-x_article-claude_code_for_scientists-@patrickmineault.md"
-status: triaged
-platform: x
-format: article
-creator: patrickmineault
-signal_tier: tactical
-topics:
-  - claude-code
-  - context-management
-  - testing
-  - plan-mode
-  - cursor
-  - codex
-  - api
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code for Scientists"
-synopsis: "Claude Code for Scientists ![Description: Screenshot of a terminal or code editor window with a brown/tan border. The window displays ASCII art or monospaced text output in white on a black background. At the top are three colored circles (red, yellow, green) typical of macOS window controls."
-key_insights:
-  - "The metacognition required to know when you're on thin ice, which usually comes from having made mistakes in the past and knowing when they are likely to happen."
-  - "Claude Code for Scientists ![Description: Screenshot of a terminal or code editor window with a brown/tan border."
-  - "The window displays ASCII art or monospaced text output in white on a black background."
----
 # Claude Code for Scientists
 
 ![Description: Screenshot of a terminal or code editor window with a brown/tan border. The window displays ASCII art or monospaced text output in white on a black background. At the top are three colored circles (red, yellow, green) typical of macOS window controls. The content shows various repeated characters including numbers 8, quotation marks, and letters e, arranged in a pattern that appears to be generated code or program output.]

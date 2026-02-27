@@ -1,38 +1,3 @@
----
-id: SOURCE-20251220-759
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "market"
-  - "goes"
-  - "nuclear"
-  - "ford"
-creator: "Farzad"
-guest: null
-title: "The Market Goes Nuclear on Ford"
-url: "https://www.youtube.com/watch?v=Rtt740mLFFA"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 24s"
-has_transcript: no
-synopsis: "The Market Goes Nuclear on Ford by Farzad. A lecture covering market, goes, nuclear."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Market Goes Nuclear"
-  - "The Market Goes Nuclear on Ford"
----
-
 # The Market Goes Nuclear on Ford
 
 **Channel**: Farzad

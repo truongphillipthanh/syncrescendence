@@ -1,39 +1,3 @@
----
-id: SOURCE-20260112-509
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "just"
-  - "solved"
-  - "one"
-  - "hardest"
-  - "math"
-creator: "Matthew Berman"
-guest: null
-title: "AI just solved one of the hardest math problems... (INTELLIGENCE EXPLOSION)"
-url: "https://www.youtube.com/watch?v=TbqPhoH_7TU"
-date_published: 2026-01-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 16s"
-has_transcript: no
-synopsis: "AI just solved one of the hardest math problems... (INTELLIGENCE EXPLOSION) by Matthew Berman. A lecture covering just, solved, one."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "AI just solved one"
-  - "AI just solved one of the"
----
-
 # AI just solved one of the hardest math problems... (INTELLIGENCE EXPLOSION)
 
 **Channel**: Matthew Berman

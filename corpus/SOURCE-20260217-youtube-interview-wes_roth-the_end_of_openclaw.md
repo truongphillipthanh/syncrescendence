@@ -1,35 +1,3 @@
----
-id: SOURCE-20260217-048
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "end"
-  - "openclaw"
-creator: "Wes Roth"
-guest: null
-title: "the end of OpenClaw"
-url: "https://www.youtube.com/watch?v=OHJb4Hr_0Sg"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 34s"
-has_transcript: no
-synopsis: "the end of OpenClaw by Wes Roth. A interview covering end, openclaw."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "the end of OpenClaw"
----
-
 # the end of OpenClaw
 
 **Channel**: Wes Roth

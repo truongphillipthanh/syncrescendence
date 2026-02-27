@@ -1,39 +1,3 @@
----
-id: SOURCE-20260216-060
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "codex"
-  - "opus"
-  - "benchmark"
-  - "nobody"
-  - "expected"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Codex 5.3 vs Opus 4.6: The Benchmark Nobody Expected. (How to STOP Picking the Wrong Agent)"
-url: "https://www.youtube.com/watch?v=41UDGsBEjoI"
-date_published: 2026-02-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 22s"
-has_transcript: no
-synopsis: "Codex 5.3 vs Opus 4.6: The Benchmark Nobody Expected. (How to STOP Picking the Wrong Agent) by AI News & Strategy Daily | Nate B Jones. A tutorial covering codex, opus, benchmark."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Codex 5.3 vs Opus"
-  - "Codex 5.3 vs Opus 4.6: The"
----
-
 # Codex 5.3 vs Opus 4.6: The Benchmark Nobody Expected. (How to STOP Picking the Wrong Agent)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

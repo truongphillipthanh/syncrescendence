@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-783
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "started"
-  - "learning"
-  - "today"
-  - "2026"
-  - "here"
-creator: "Dylan Davis"
-guest: null
-title: "If I Started Learning AI Today for 2026, Here’s the Exact Skill Stack I’d Build"
-url: "https://www.youtube.com/watch?v=kV2qfIAO3O8"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 5s"
-has_transcript: no
-synopsis: "If I Started Learning AI Today for 2026, Here’s the Exact Skill Stack I’d Build by Dylan Davis. A lecture covering started, learning, today."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "If I Started Learning"
-  - "If I Started Learning AI Today"
----
-
 # If I Started Learning AI Today for 2026, Here’s the Exact Skill Stack I’d Build
 
 **Channel**: Dylan Davis

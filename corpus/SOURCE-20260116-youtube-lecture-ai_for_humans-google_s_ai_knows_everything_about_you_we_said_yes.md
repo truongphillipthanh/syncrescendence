@@ -1,39 +1,3 @@
----
-id: SOURCE-20260116-456
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "google"
-  - "knows"
-  - "everything"
-  - "said"
-  - "yes"
-creator: "AI For Humans"
-guest: null
-title: "Google's AI Knows Everything About You (We Said Yes)"
-url: "https://www.youtube.com/watch?v=jrsZRYHy7-w"
-date_published: 2026-01-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "55m 25s"
-has_transcript: no
-synopsis: "Google's AI Knows Everything About You (We Said Yes) by AI For Humans. A lecture covering google, knows, everything."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Google's AI Knows Everything"
-  - "Google's AI Knows Everything About You"
----
-
 # Google's AI Knows Everything About You (We Said Yes)
 
 **Channel**: AI For Humans

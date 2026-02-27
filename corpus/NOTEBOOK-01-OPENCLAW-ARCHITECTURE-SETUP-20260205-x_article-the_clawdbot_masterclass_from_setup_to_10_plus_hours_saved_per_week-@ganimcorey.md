@@ -1,9 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2019515233392349326
-author: Corey Ganim (@GanimCorey)
-captured_date: 2026-02-05
----
-
 # The Clawdbot Masterclass (from setup to 10+ hours saved per week)
 
 (Description: Article cover image showing "clawdbot masterclass" text in cyan with "setup → 10+ hours saved/week" tagline. Right panel displays "The Stack" section with blurred content including topic headings and a teal accent bar.)

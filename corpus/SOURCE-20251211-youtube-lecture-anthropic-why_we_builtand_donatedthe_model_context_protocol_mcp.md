@@ -1,39 +1,3 @@
----
-id: SOURCE-20251211-846
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "built"
-  - "donated"
-  - "model"
-  - "context"
-  - "protocol"
-creator: "Anthropic"
-guest: null
-title: "Why we built—and donated—the Model Context Protocol (MCP)"
-url: "https://www.youtube.com/watch?v=PLyCki2K0Lg"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 32s"
-has_transcript: no
-synopsis: "Why we built—and donated—the Model Context Protocol (MCP) by Anthropic. A lecture covering built, donated, model."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Why we built—and donated—the"
-  - "Why we built—and donated—the Model Context"
----
-
 # Why we built—and donated—the Model Context Protocol (MCP)
 
 **Channel**: Anthropic

@@ -1,24 +1,3 @@
----
-url: https://x.com/ryancarson/status/2023452909883609111
-author: "Ryan Carson (@ryancarson)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-018
-original_filename: "20260216-x_article-code_factory_how_to_setup_your_repo_so_your_agent_can_auto_write_and_review_100_percent_of_your_code-@ryancarson.md"
-status: triaged
-platform: x
-format: article
-creator: ryancarson
-signal_tier: paradigm
-topics: [ai-agents, git-workflows, developer-tools, best-practices, framework]
-teleology: implement
-notebooklm_category: ai-engineering
-aliases: ["ryancarson - Code Factory harness engineering"]
-synopsis: "Detailed harness engineering pattern for fully agent-driven code: machine-readable risk contracts (JSON), preflight policy gates before expensive CI, current-head SHA discipline for review state, automated remediation loops, browser evidence as first-class proof, and harness-gap incident memory. 1.7M views, 13.6K bookmarks."
-key_insights:
-  - "Current-head SHA matching is non-negotiable - without it you can merge PRs using stale 'clean' evidence"
-  - "Machine-readable risk contracts remove ambiguity and prevent silent drift between scripts, workflows, and policy docs"
-  - "Production regressions feed into harness gap issues that become test cases - incidents grow long-term coverage"
----
 # Code Factory: How to setup your repo so your agent can auto write and review 100% of your code
 (Description: A whimsical steampunk-themed illustration titled "CODE FACTORY" showing a complex mechanical system with gears, clockwork, robotic arms, and multiple interlocking chambers. A robot character on the left oversees the operation. Various labeled sections show: "MACHINE-READABLE CONTRACT" at top left, "REVIEW GATE" in the center, "EVIDENCE CLARITY" on the upper right, and "REPAIR PRIORITY" on the right. The bottom shows "PATH TO BRANCH" and "FINDINGS" with interconnected workflow loops. The aesthetic is Victorian-industrial with brass tones and detailed technical illustrations.)
 **Engagement**: 66 replies, 388 reposts, 3,772 likes, 13,603 bookmarks, 1.7M views

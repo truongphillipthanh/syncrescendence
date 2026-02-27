@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-695
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "new"
-  - "benchmark"
-  - "changes"
-  - "everything"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Anthropic's New Benchmark Changes Everything—Most People Will Miss Why"
-url: "https://www.youtube.com/watch?v=X_EJi6yCuTM"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 23s"
-has_transcript: no
-synopsis: "Anthropic's New Benchmark Changes Everything—Most People Will Miss Why by AI News & Strategy Daily | Nate B Jones. A lecture covering anthropic, new, benchmark."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic's New Benchmark Changes"
-  - "Anthropic's New Benchmark Changes Everything—Most People"
----
-
 # Anthropic's New Benchmark Changes Everything—Most People Will Miss Why
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

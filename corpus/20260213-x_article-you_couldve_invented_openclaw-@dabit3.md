@@ -1,9 +1,3 @@
----
-url: https://x.com/dabit3/status/2021387483364151451
-author: nader dabit (@dabit3)
-captured_date: 2026-02-13
----
-
 # You Could've Invented OpenClaw
 
 ## Overview

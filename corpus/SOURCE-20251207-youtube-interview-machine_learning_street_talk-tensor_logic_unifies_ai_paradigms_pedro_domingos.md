@@ -1,39 +1,3 @@
----
-id: SOURCE-20251207-858
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "tensor"
-  - "logic"
-  - "unifies"
-  - "paradigms"
-  - "pedro"
-creator: "Machine Learning Street Talk"
-guest: null
-title: "Tensor Logic "Unifies" AI Paradigms [Pedro Domingos]"
-url: "https://www.youtube.com/watch?v=4APMGvicmxY"
-date_published: 2025-12-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 27m 49s"
-has_transcript: no
-synopsis: "Tensor Logic "Unifies" AI Paradigms [Pedro Domingos] by Machine Learning Street Talk. A interview covering tensor, logic, unifies."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Tensor Logic "Unifies" AI"
-  - "Tensor Logic "Unifies" AI Paradigms [Pedro"
----
-
 # Tensor Logic "Unifies" AI Paradigms [Pedro Domingos]
 
 **Channel**: Machine Learning Street Talk

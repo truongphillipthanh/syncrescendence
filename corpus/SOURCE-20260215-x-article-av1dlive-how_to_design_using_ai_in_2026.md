@@ -1,24 +1,3 @@
----
-url: https://x.com/Av1dlive/status/2023086925817729306
-author: "Avid (@Av1dlive)"
-captured_date: 2026-02-15
-id: SOURCE-20260215-005
-original_filename: "20260215-x_article-how_to_design_using_ai_in_2026-@av1dlive.md"
-status: triaged
-platform: x
-format: article
-creator: av1dlive
-signal_tier: strategic
-topics: [vibe-coding, design, ai-engineering, best-practices, tutorial]
-teleology: implement
-notebooklm_category: vibe-coding
-aliases: ["av1dlive - AI design workflow with taste"]
-synopsis: "A practical design workflow for AI-assisted UI development in 2026, arguing that taste (not prompting skill) is the real differentiator. Introduces the Zoom-In Method (50% full dump, 99% self-review, 100% micro-polish), meta-prompts for style generation, and skills-based quality enforcement using UI Skills, UI/UX Pro Max, and RAMS."
-key_insights:
-  - "You can't prompt what you can't name - learning design vocabulary (kerning, leading, contrast ratio) enables precision AI output"
-  - "The Zoom-In Method: dump context for 50%, AI self-review to 99%, then pixel-perfect micro-adjustments for 100%"
-  - "Skills as reusable constraint packs compound quality - every future UI inherits past design rules by default"
----
 # How to Design Using AI in 2026
 (Description: Hero image featuring a serene landscape with a field of white and orange flowers at dusk, a bright golden-glowing architectural structure in the center, and dramatic swirling light trails in vibrant orange, pink, and blue tones across a clear blue sky)
 Designing was hard. The era of vibe-coding, made the ability to build good designs super easy.

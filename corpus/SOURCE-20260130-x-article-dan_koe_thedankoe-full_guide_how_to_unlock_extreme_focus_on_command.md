@@ -1,31 +1,3 @@
----
-id: SOURCE-20260130-003
-title: "Full Guide How To Unlock Extreme Focus On Command @Thedankoe"
-platform: x
-format: article
-creator: DAN KOE (thedankoe)
-date_published: 20260130
-status: triaged
-original_filename: "research/20260130-x_article-full_guide_how_to_unlock_extreme_focus_on_command-@thedankoe.md"
-signal_tier: strategic
-aliases:
-  - "Dan Koe - extreme focus protocol"
-teleology: implement
-notebooklm_category: philosophy-paradigm
-synopsis: "Comprehensive focus masterclass by Dan Koe covering psychic entropy, flow state mechanics (challenge vs skill matching), Default Mode Network for creativity during rest, and a practical protocol: vision/anti-vision, hierarchy of goals, project-based learning, and lever-moving tasks. Argues successful creatives work less but think more, and that one hour of focused daily work can change your life in 365 hours."
-key_insights:
-  - "Humans process only ~50 bits of conscious information per second with ~125 billion lifetime bits total — every distraction permanently reduces your life's potential output."
-  - "The Default Mode Network activates during rest and connects brain regions for visual thinking and creativity — successful creatives take rest deliberately because their brain does its best work in that mode."
-  - "The focus protocol chains clarity → importance → urgency: break overwhelming goals into sub-goals just barely above your skill level to enter flow, then execute 1-3 lever-moving tasks daily."
-topics:
-  - philosophy
-  - best-practices
-  - framework
-url: "https://x.com/thedankoe/status/2012956603297964167"
-author: "DAN KOE (@thedankoe)"
-captured_date: 2026-01-18
----
-
 # Full Guide: How to Unlock Extreme Focus on Command
 
 You haven't experienced anything near what you're capable of.

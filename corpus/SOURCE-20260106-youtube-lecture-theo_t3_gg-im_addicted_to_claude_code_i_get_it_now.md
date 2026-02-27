@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-610
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "addicted"
-  - "claude"
-  - "code"
-  - "get"
-  - "now"
-creator: "Theo - t3․gg"
-guest: null
-title: "I’m addicted to Claude Code (i get it now)"
-url: "https://www.youtube.com/watch?v=-5LfRL82Jck"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 21s"
-has_transcript: no
-synopsis: "I’m addicted to Claude Code (i get it now) by Theo - t3․gg. A lecture covering addicted, claude, code."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "I’m addicted to Claude"
-  - "I’m addicted to Claude Code (i"
----
-
 # I’m addicted to Claude Code (i get it now)
 
 **Channel**: Theo - t3․gg

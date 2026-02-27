@@ -1,9 +1,3 @@
----
-url: https://x.com/petergyang/status/2020520605905567854
-author: Peter Yang (@petergyang)
-captured_date: 2026-02-14
----
-
 ## Compound Engineering: Making Claude Code Smarter
 
 "**Compoung engineering is how you make Claude Code smarter every time you use it.**"

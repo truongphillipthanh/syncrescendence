@@ -1,19 +1,3 @@
----
-id: operations-artifact-taxonomy
-kind: protocol
-scope: repo
-target: repo
-owner: Vanguard
-triggers:
-  - new prompt/spec/script created
-  - Blitzkrieg
-  - /deviser_reint
-outputs:
-  - consistent naming
-  - frontmatter presence
-  - discoverable registries
----
-
 # Operations Artifact Taxonomy, Naming, and Frontmatter
 
 ## Purpose

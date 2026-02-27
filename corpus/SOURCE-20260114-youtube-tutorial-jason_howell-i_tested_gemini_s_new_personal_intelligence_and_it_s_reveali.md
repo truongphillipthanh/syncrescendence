@@ -1,39 +1,3 @@
----
-id: SOURCE-20260114-485
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "tested"
-  - "gemini"
-  - "new"
-  - "personal"
-  - "intelligence"
-creator: "Jason Howell"
-guest: null
-title: "I Tested Gemini's New 'Personal Intelligence' and It's Revealing"
-url: "https://www.youtube.com/watch?v=zh1Ou9ZG9_A"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 29s"
-has_transcript: no
-synopsis: "I Tested Gemini's New 'Personal Intelligence' and It's Revealing by Jason Howell. A tutorial covering tested, gemini, new."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "I Tested Gemini's New"
-  - "I Tested Gemini's New 'Personal Intelligence'"
----
-
 # I Tested Gemini's New 'Personal Intelligence' and It's Revealing
 
 **Channel**: Jason Howell

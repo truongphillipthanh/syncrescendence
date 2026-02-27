@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-325
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "inflection"
-  - "point"
-  - "history"
-  - "e2240"
-creator: "This Week in Startups"
-guest: null
-title: "Clawdbot is an inflection point in AI history | E2240"
-url: "https://www.youtube.com/watch?v=UHum7glkRTs"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 46s"
-has_transcript: no
-synopsis: "Clawdbot is an inflection point in AI history | E2240 by This Week in Startups. A tutorial covering clawdbot, inflection, point."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "Clawdbot is an inflection"
-  - "Clawdbot is an inflection point in"
----
-
 # Clawdbot is an inflection point in AI history | E2240
 
 **Channel**: This Week in Startups

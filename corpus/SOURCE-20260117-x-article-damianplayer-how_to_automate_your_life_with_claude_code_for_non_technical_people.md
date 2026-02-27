@@ -1,30 +1,3 @@
----
-id: SOURCE-20260117-x-article-damianplayer-how_to_automate_your_life_with_claude_code_for_non_technical_people
-platform: x
-format: article
-creator: damianplayer
-title: how to automate your life with claude code for non technical people
-status: triaged
-original_filename: "20260117-x_article-how_to_automate_your_life_with_claude_code_for_non_technical_people-@damianplayer.md"
-url: https://x.com/damianplayer/status/2012611857392009242
-author: "Damian Player (@damianplayer)"
-captured_date: 2026-01-24
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "vibe-coding"
-  - "personal-productivity"
-  - "automation"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Damian Player - Automate Life with Claude Code"
-synopsis: "Guide for non-technical users to leverage Claude Code for life automation. Argues the barrier is not technical skill but knowing what to ask for, and walks through identifying repetitive tasks, structuring prompts, and building personal automations."
-key_insights:
-  - "The primary failure mode for non-technical Claude Code users is not lack of skill but lack of knowing what to build or ask for"
-  - "Starting with personal pain points and repetitive tasks provides the clearest path to automation value"
-  - "Claude Code is fundamentally a chat interface that can execute actions, not a developer tool requiring coding knowledge"
----
 # How to Automate Your Life With Claude Code (for Non-Technical People)
 
 (Description: Image showing the Claude Code logo - a large coral-colored sunburst/mandala pattern with text overlaid reading "Claude Code is insane." and the article title below in serif font)

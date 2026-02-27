@@ -1,27 +1,3 @@
----
-id: SOURCE-20260203-002
-original_filename: RESPONSE-AUGUR-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: augur
-signal_tier: strategic
-topics:
-  - ai-agents
-  - openclaw
-  - research
-  - infrastructure
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Augur response - OpenClaw ecosystem intelligence"
-synopsis: "Citation-backed research on OpenClaw's ClawHub skill ecosystem. Confirms 700+ community skills, all public and free, with confidence-labeled findings on ecosystem size and growth."
-url: internal
-key_insights:
-  - "OpenClaw's ClawHub has 700+ community skills as of late January 2026, all public and free — confirming rapid ecosystem growth."
-  - "Citation-backed verification with confidence labels provides a reliability layer over raw intelligence gathering."
-  - "The skill ecosystem's growth rate suggests OpenClaw is following the npm/package-manager growth pattern for AI agent capabilities."
----
 OpenClaw’s skill ecosystem and multi-model patterns are evolving quickly, but many details are still informal or scattered across community channels. Below are structured findings with confidence labels and inline citations.
 
 ***

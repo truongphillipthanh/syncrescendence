@@ -1,39 +1,3 @@
----
-id: SOURCE-20260207-125
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "founder"
-  - "daniela"
-  - "amodei"
-  - "responsible"
-creator: "ABC News"
-guest: null
-title: "Anthropic co-founder Daniela Amodei on responsible AI and Anthropic's first Super Bowl ad"
-url: "https://www.youtube.com/watch?v=qUDG06BvWxc"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 36s"
-has_transcript: no
-synopsis: "Anthropic co-founder Daniela Amodei on responsible AI and Anthropic's first Super Bowl ad by ABC News. A interview covering anthropic, founder, daniela."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic co-founder Daniela Amodei"
-  - "Anthropic co-founder Daniela Amodei on responsible"
----
-
 # Anthropic co-founder Daniela Amodei on responsible AI and Anthropic's first Super Bowl ad
 
 **Channel**: ABC News

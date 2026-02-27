@@ -1,32 +1,3 @@
----
-url: https://x.com/sillydarket/status/2022394007448429004
-author: "Pedro (@sillydarket)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-014
-original_filename: "20260213-x_article-solving_memory_for_openclaw_and_general_agents-@sillydarket.md"
-status: triaged
-platform: x
-format: article
-creator: sillydarket
-signal_tier: strategic
-topics:
-  - ai-agents
-  - context-management
-  - memory-management
-  - api
-  - architecture
-  - benchmarks
-  - rag
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Solving Memory for Openclaw  General Agents"
-synopsis: "Solving Memory for Openclaw & General Agents Every AI agent you've ever used has the same fatal flaw: **context death**. The moment a session ends, everything dies. Decisions, preferences, relationships, project context — gone. Your "intelligent" assistant wakes up tomorrow as a stranger. We spent months obsessing over this problem at Versatly."
-key_insights:
-  - "The result is **ClawVault™** — an open-source memory architecture that gives AI agents something they've never had: **continuity**."
-  - "And why Obsidian's approach to knowledge was the key insight that unlocked everything."
-  - "The Research That Changed Our Approach We benchmarked every agent memory solution we could find."
----
 # Solving Memory for Openclaw & General Agents
 
 (Description: A stylized engraving of an elephant's head in profile on a beige parchment background, connected by geometric lines and dotted points forming a network pattern, with a compass rose in the corner.)

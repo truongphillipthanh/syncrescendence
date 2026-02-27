@@ -1,16 +1,3 @@
----
-id: SOURCE-20251020-youtube-interview-a16z-reid_hoffman
-title: Reid Hoffman on AI, Consciousness, and the Future of Labor
-creator: a16z
-guest: Reid Hoffman
-date_published: 2025-10-20
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: [Intelligence, Expertise, Wisdom]
-integration_targets: [CANON-33100-EFFICACY, CANON-33110-BIZ_BACKBONE, CANON-35100-TRANSCENDENCE]
----
-
 # Reid Hoffman on AI, Consciousness, and the Future of Labor
 
 ## Executive Summary

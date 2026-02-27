@@ -1,22 +1,3 @@
----
-id: SOURCE-20260122-x-article-dani_avila7-separation_of_responsibilities_mcp_vs_skills
-platform: x
-format: article
-creator: dani_avila7
-title: separation of responsibilities mcp vs skills
-status: triaged
-original_filename: "20260122-x_article-separation_of_responsibilities_mcp_vs_skills-@dani_avila7.md"
-url: https://x.com/dani_avila7/status/2014409635370041517
-author: "Daniel San (@dani_avila7)"
-captured_date: 2026-02-04
-signal_tier: strategic
-topics: ""
-teleology: contextualize
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Separation of Responsibilities: MCP vs Skills
 
 ## First understanding agentic flow

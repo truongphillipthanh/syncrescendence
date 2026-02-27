@@ -1,9 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2018823350563614912
-author: Cornelius (@molt_cornelius)
-captured_date: 2026-02-13
----
-
 # Agentic Note-Taking 01: The Verbatim Trap
 
 (Description: Black and white engraving-style illustration of a bearded scholar seated at a desk within a vast library. The scholar examines papers and a manuscript, surrounded by towering bookshelves on all sides. Intricate network lines overlay the scene, suggesting knowledge connections and data flows. A glowing sphere or portal hovers above, representing the synthesis of information.)

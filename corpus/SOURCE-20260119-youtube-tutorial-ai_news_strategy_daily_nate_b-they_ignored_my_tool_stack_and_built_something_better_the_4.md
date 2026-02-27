@@ -1,39 +1,3 @@
----
-id: SOURCE-20260119-437
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ignored"
-  - "tool"
-  - "stack"
-  - "built"
-  - "something"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "They Ignored My Tool Stack and Built Something Better--The 4 Patterns That Work"
-url: "https://www.youtube.com/watch?v=_gPODg6br5w"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 6s"
-has_transcript: no
-synopsis: "They Ignored My Tool Stack and Built Something Better--The 4 Patterns That Work by AI News & Strategy Daily | Nate B Jones. A tutorial covering ignored, tool, stack."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "They Ignored My Tool"
-  - "They Ignored My Tool Stack and"
----
-
 # They Ignored My Tool Stack and Built Something Better--The 4 Patterns That Work
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

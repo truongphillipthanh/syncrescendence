@@ -1,36 +1,3 @@
----
-id: SOURCE-20260127-320
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "die"
-  - "boredom"
-creator: "The Rest Is Science"
-guest: null
-title: "Can You Die Of Boredom?"
-url: "https://www.youtube.com/watch?v=vQU6u5dgD98"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "44m 24s"
-has_transcript: no
-synopsis: "Can You Die Of Boredom? by The Rest Is Science. A lecture covering die, boredom."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Can You Die Of"
-  - "Can You Die Of Boredom?"
----
-
 # Can You Die Of Boredom?
 
 **Channel**: The Rest Is Science

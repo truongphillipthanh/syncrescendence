@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-481
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "only"
-  - "ces"
-  - "tech"
-  - "worth"
-  - "talking"
-creator: "Matt Wolfe"
-guest: null
-title: "The Only CES Tech Worth Talking About"
-url: "https://www.youtube.com/watch?v=tn_LSdehnAQ"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 31s"
-has_transcript: no
-synopsis: "The Only CES Tech Worth Talking About by Matt Wolfe. A lecture covering only, ces, tech."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Only CES Tech"
-  - "The Only CES Tech Worth Talking"
----
-
 # The Only CES Tech Worth Talking About
 
 **Channel**: Matt Wolfe

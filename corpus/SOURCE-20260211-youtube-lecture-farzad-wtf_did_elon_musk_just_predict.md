@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-113
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "wtf"
-  - "elon"
-  - "musk"
-  - "just"
-  - "predict"
-creator: "Farzad"
-guest: null
-title: "WTF Did Elon Musk Just Predict."
-url: "https://www.youtube.com/watch?v=UwTjD0j4L-c"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 37s"
-has_transcript: no
-synopsis: "WTF Did Elon Musk Just Predict. by Farzad. A lecture covering wtf, elon, musk."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "WTF Did Elon Musk"
-  - "WTF Did Elon Musk Just Predict."
----
-
 # WTF Did Elon Musk Just Predict.
 
 **Channel**: Farzad

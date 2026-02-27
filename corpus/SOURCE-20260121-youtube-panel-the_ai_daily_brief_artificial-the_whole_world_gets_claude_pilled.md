@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-419
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "whole"
-  - "world"
-  - "gets"
-  - "claude"
-  - "pilled"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "The Whole World Gets Claude-Pilled"
-url: "https://www.youtube.com/watch?v=YDQ4Fpcv4Z8"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 4s"
-has_transcript: no
-synopsis: "The Whole World Gets Claude-Pilled by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering whole, world, gets."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "The Whole World Gets"
-  - "The Whole World Gets Claude-Pilled"
----
-
 # The Whole World Gets Claude-Pilled
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

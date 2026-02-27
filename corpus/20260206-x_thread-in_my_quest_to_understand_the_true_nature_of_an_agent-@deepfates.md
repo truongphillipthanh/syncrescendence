@@ -1,9 +1,3 @@
----
-url: https://x.com/deepfates/status/2019912654173651131
-author: @deepfates
-captured_date: 2026-02-06
----
-
 # Agents as Programming Languages Come Alive
 
 In my quest to understand the true nature of an Agent I have been thinking a lot about the loop and the actions and the environment. And I think i see where we're headed next.

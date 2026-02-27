@@ -1,39 +1,3 @@
----
-id: SOURCE-20260205-179
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "spacex"
-  - "xai"
-  - "biggest"
-  - "deal"
-  - "history"
-creator: "Wes and Dylan"
-guest: null
-title: "SpaceX and xAI is the biggest deal in History | ClawBot / Open Claw starts a business | AI in space"
-url: "https://www.youtube.com/watch?v=lxBjtvMVgdc"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 35s"
-has_transcript: no
-synopsis: "SpaceX and xAI is the biggest deal in History | ClawBot / Open Claw starts a business | AI in space by Wes and Dylan. A interview covering spacex, xai, biggest."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "SpaceX and xAI is"
-  - "SpaceX and xAI is the biggest"
----
-
 # SpaceX and xAI is the biggest deal in History | ClawBot / Open Claw starts a business | AI in space
 
 **Channel**: Wes and Dylan

@@ -1,28 +1,3 @@
----
-url: https://x.com/nkwrnr/status/2017051991609135387
-author: "nickwarner (@nkwrnr)"
-captured_date: 2026-01-29
-id: SOURCE-20260130-002
-original_filename: "20260130-x_article-ive_never_seen_a_tool_improve_team_communication_like_this-@nkwrnr.md"
-status: triaged
-platform: x
-format: article
-creator: nkwrnr
-signal_tier: tactical
-topics:
-  - ai-creative-media
-  - content-creation
-  - case-study
-teleology: contextualize
-notebooklm_category: ai-creative-media
-aliases:
-  - "Nick Warner - HeyGen Video Agent team updates"
-synopsis: "Case study of a 38-person cross-functional growth team using HeyGen's Video Agent for 6 months of weekly async video updates. The tool scripts, styles, edits, and adds motion/captions automatically. Reports replacing 30-minute sync calls with higher-resolution async communication that creates 'emotional alignment' across engineering, marketing, product, and content teams."
-key_insights:
-  - "AI video agents create a modality shift — not just productivity but fundamentally different communication at higher resolution with tone, momentum, and thinking visible, not just tickets."
-  - "The Friday async video update framework replaced sync meetings while creating 'emotional alignment' — you see what people are proud of and stuck on, building collective momentum."
-  - "Beyond recaps, the tool is used for narrating PRDs, visualizing engineering systems for non-technical stakeholders, and async onboarding documentation."
----
 # I've Never Seen a Tool Improve Team Communication Like This
 
 ## Opening Statement

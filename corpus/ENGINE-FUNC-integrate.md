@@ -1,16 +1,3 @@
----
-name: Disparate Materials Integrator
-description: Synthesize disparate materials into unified narrative intelligence, transforming fragmented insights into seamless architectonic coherence through deep integration
-trigger_phrases:
-  - "synthesize these sources"
-  - "integrate these materials"
-  - "combine these documents"
-  - "create unified synthesis"
-  - "merge these insights"
-version: 1.0
-model_compatibility: claude-3-5-sonnet, claude-opus-4
----
-
 # Disparate Materials Integration
 
 Transform fragmented sources into unified narrative intelligence. Synthesize disparate materials into seamless architectonic coherence where diverse elements achieve mutual necessity through recursive integration.

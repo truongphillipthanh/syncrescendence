@@ -1,29 +1,3 @@
----
-url: https://x.com/VittoStack/status/2018326025373900881
-author: "Vitto Rivabella (@VittoStack)"
-captured_date: 2026-02-13
-id: SOURCE-20260202-008
-original_filename: "20260202-x_article-a_security_first_guide_to_running_openclaw_in_9_steps-@vittostack.md"
-status: triaged
-platform: x
-format: article
-creator: vittostack
-signal_tier: tactical
-topics:
-  - ai-agents
-  - security
-  - best-practices
-  - infrastructure
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Vitto Rivabella - OpenClaw security guide"
-synopsis: "Security-first 9-step guide for running OpenClaw safely. Addresses the tension between the utility of a self-hosted AI assistant with full computer access (shell commands, file read/write, web browsing) and the security risks of running it carelessly. Covers threat model awareness for always-on AI agents connected via messaging apps."
-key_insights:
-  - "The more useful a self-hosted AI assistant becomes (file access, shell commands, web browsing), the more dangerous it is to run without explicit security hardening."
-  - "OpenClaw's power comes from living on your computer with full access, which inverts the traditional security model — you must constrain a maximally-capable agent rather than granting permissions incrementally."
-  - "Security for always-on AI agents is a distinct discipline from traditional application security, requiring attention to messaging channel lockdown, command scoping, and supply chain auditing."
----
 # A Security-First Guide to Running OpenClaw (in 9 Steps)
 
 (Description: A stylized illustration in deep red/burgundy tones showing a large robotic claw emerging from a cityscape with padlock symbols and shield icons integrated into the design. Text overlay reads "9 STEPS" in bold letters centered in the composition)

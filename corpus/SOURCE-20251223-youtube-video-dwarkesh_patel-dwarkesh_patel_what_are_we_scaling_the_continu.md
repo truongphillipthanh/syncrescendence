@@ -1,34 +1,3 @@
----
-id: SOURCE-20251223-002
-title: "Dwarkesh Patel: What Are We Scaling? - The Continual Learning Bottleneck"
-platform: youtube
-format: video
-creator: Dwarkesh Patel
-date_published: 2025-12-23
-status: processed
-url: "https://www.youtube.com/watch?v=_zgnSbu5GqE"
-original_filename: processed/SOURCE-20251223-youtube-video-dwarkesh-continual_learning.md
-aliases:
-  - "Dwarkesh - Continual Learning Bottleneck"
-teleology: synthesize
-notebooklm_category: ai-engineering
-guest: null
-signal_tier: paradigm
-chain_relevance: Intelligence, Expertise
-integration_targets: CANON-30000, CANON-30400, CANON-33100
-date_processed: 2026-01-05
-synopsis: "Dwarkesh Patel argues continual learning is the key capability gap: models get impressive at short-timeline rate but useful at long-timeline rate. The macrophage example shows it is not net productive to build custom training pipelines for every lab-specific microtask. Economic diffusion lag reveals models are nowhere near human knowledge worker capability."
-key_insights:
-  - "Models get more impressive at the rate short-timelines people predict but more useful at the rate long-timelines people predict, revealing the continual learning gap"
-  - "The macrophage problem: it is not net productive to build custom training pipelines for every lab-specific microtask, which is exactly what human workers handle effortlessly"
-  - "If AI models actually were like humans on a server they would diffuse incredibly quickly: economic diffusion speed is the real capability test for AGI"
-topics:
-  - "ai-engineering"
-  - "llm-architecture"
-  - "economics"
-  - "research"
----
-
 # What Are We Scaling? The Continual Learning Bottleneck
 
 ## Executive Summary

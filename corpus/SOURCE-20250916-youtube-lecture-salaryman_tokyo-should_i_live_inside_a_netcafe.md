@@ -1,37 +1,3 @@
----
-id: SOURCE-20250916-1100
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "live"
-  - "inside"
-  - "netcafe"
-creator: "Salaryman Tokyo"
-guest: null
-title: "should i live inside a netcafe?"
-url: "https://www.youtube.com/watch?v=YsVGT1VypG4"
-date_published: 2025-09-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 30s"
-has_transcript: no
-synopsis: "should i live inside a netcafe? by Salaryman Tokyo. A lecture covering live, inside, netcafe."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: coding-tools
-aliases:
-  - "should i live inside"
-  - "should i live inside a netcafe?"
----
-
 # should i live inside a netcafe?
 
 **Channel**: Salaryman Tokyo

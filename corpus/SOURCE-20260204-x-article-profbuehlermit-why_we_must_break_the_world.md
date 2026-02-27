@@ -1,28 +1,3 @@
----
-url: https://x.com/ProfBuehlerMIT/status/2019034681711161702
-author: "Markus J. Buehler (@ProfBuehlerMIT)"
-captured_date: 2026-02-13
-id: SOURCE-20260204-011
-original_filename: "20260204-x_article-why_we_must_break_the_world-@profbuehlermit.md"
-status: triaged
-platform: x
-format: article
-creator: profbuehlermit
-signal_tier: paradigm
-topics:
-  - deployment
-  - rules-files
-  - synthesize-pattern
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why We Must Break The World"
-synopsis: "Why We Must Break The World The Paradox of Learning Within Closed Systems If you train a vanilla LLM on everything Newton ever wrote, and ask it what happens when you fire particles through two slits, it will tell you they land in two piles. It will never predict the interference pattern that actually appears—the one that says particles somehow go through both slits at once!"
-key_insights:
-  - "It will never predict the interference pattern that actually appears—the one that says particles somehow go through both slits at once!"
-  - "Learning inside a closed theoretical system won't produce hypotheses that system rules out."
-  - "Critical Juncture: Assistants vs."
----
 # Why We Must Break The World
 
 ## The Paradox of Learning Within Closed Systems

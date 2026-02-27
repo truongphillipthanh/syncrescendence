@@ -1,33 +1,3 @@
----
-id: SOURCE-20260211-001
-title: Reflecting On What Engineers Love
-platform: x
-format: thread
-creator: bcherny
-date_published: 20260211
-status: triaged
-original_filename: "research-notebooks/08-vibe-coding-software-abundance/20260211-x_thread-reflecting_on_what_engineers_love-@bcherny.md"
-aliases:
-  - "Boris Cherny Customization Thread"
-  - "Claude Code Customization Guide"
-teleology: reference
-notebooklm_category: claude-code
-synopsis: "Boris Cherny (Claude Code creator) catalogs the customization surface that engineers love: themes, effort levels, plugins/MCPs/skills, hooks, custom agents, status lines, and output styles. Explains that Claude Code was built from the ground up to be configurable, and this extensibility is a primary growth driver."
-key_insights:
-  - "Claude Code's customizability (hooks, plugins, LSPs, MCPs, skills, effort levels, custom agents) is identified by its creator as the primary reason developers fall in love with it"
-  - "Effort level toggle (low/medium/high) lets users trade tokens for intelligence on a per-task basis — high effort for everything is the creator's personal preference"
-  - "Plugin marketplace supports LSPs for every major language, MCPs, skills, agents, and custom hooks — enabling team-specific and company-specific configurations"
-topics:
-  - claude-code
-  - developer-tools
-  - best-practices
-  - reference
-signal_tier: strategic
-url: "https://x.com/bcherny/status/2021699851499798911"
-author: "Boris Cherny (@bcherny)"
-captured_date: 2026-02-11
----
-
 # Claude Code Customization Thread
 
 Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LSPs, MCPs, skills, effort, custom agents, status lines, output styles, etc.

@@ -1,38 +1,3 @@
----
-id: SOURCE-20260120-330
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "book"
-  - "changed"
-  - "see"
-  - "genius"
-creator: "Nic Munoz"
-guest: null
-title: "This book changed how I see genius"
-url: "https://www.youtube.com/watch?v=ovsOkUpVC_g"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 28s"
-has_transcript: no
-synopsis: "This book changed how I see genius by Nic Munoz. A tutorial covering book, changed, see."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "This book changed how"
-  - "This book changed how I see"
----
-
 # This book changed how I see genius
 
 **Channel**: Nic Munoz

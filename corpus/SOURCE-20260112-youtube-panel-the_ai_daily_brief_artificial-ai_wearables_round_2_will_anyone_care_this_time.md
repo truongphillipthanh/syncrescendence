@@ -1,39 +1,3 @@
----
-id: SOURCE-20260112-516
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "wearables"
-  - "round"
-  - "anyone"
-  - "care"
-  - "time"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "AI Wearables Round 2: Will Anyone Care This Time?"
-url: "https://www.youtube.com/watch?v=YcR2-XRIxVs"
-date_published: 2026-01-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 56s"
-has_transcript: no
-synopsis: "AI Wearables Round 2: Will Anyone Care This Time? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering wearables, round, anyone."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "AI Wearables Round 2:"
-  - "AI Wearables Round 2: Will Anyone"
----
-
 # AI Wearables Round 2: Will Anyone Care This Time?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

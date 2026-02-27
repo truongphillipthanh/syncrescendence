@@ -1,28 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2022101005064974600
-author: "klöss (@kloss_xyz)"
-captured_date: 2026-02-12
-id: SOURCE-20260213-010
-original_filename: "20260213-x_article-every_openclaw_issue_nobody_told_you_about_and_how_to_fix_them-@kloss_xyz.md"
-status: triaged
-platform: x
-format: article
-creator: kloss_xyz
-signal_tier: tactical
-topics:
-  - ai-agents
-  - memory-management
-  - clawdbot
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Every OpenClaw Issue Nobody Told You About And How to Fix Them"
-synopsis: "Every OpenClaw Issue Nobody Told You About (And How to Fix Them) I've been running multi agent orchestration with my OpenClaw for over a week. It's getting much, much closer to where I want it to be. The issue is though that everyone's telling you theirs is perfect, and they did it in a day. I've been building mine for a week plus."
-key_insights:
-  - "You shouldn't be babysitting this manually."
-  - "Every OpenClaw Issue Nobody Told You About (And How to Fix Them) I've been running multi agent orchestration with my OpenClaw for over a week."
-  - "It's getting much, much closer to where I want it to be."
----
 # Every OpenClaw Issue Nobody Told You About (And How to Fix Them)
 
 (Description: A stylized monochromatic illustration of a robotic sphere surrounded by mechanical gears, springs, and bolts in a radial pattern, with "OpenClaw" text centered below the sphere)

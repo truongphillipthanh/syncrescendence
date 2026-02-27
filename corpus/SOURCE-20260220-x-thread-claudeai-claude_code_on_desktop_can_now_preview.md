@@ -1,28 +1,3 @@
----
-url: https://x.com/claudeai/status/2024937960572104707
-author: "@claudeai"
-captured_date: 2026-02-20
-id: SOURCE-20260220-009
-original_filename: "20260220-x_thread-claude_code_on_desktop_can_now_preview-@claudeai.md"
-status: triaged
-platform: x
-format: thread
-creator: claudeai
-signal_tier: tactical
-topics:
-  - claude-code
-  - automation
-  - cli-tools
-teleology: reference
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code on Desktop Features"
-synopsis: "Claude Code on Desktop Features **Claude** @claudeai · Feb 20 Claude Code on desktop can now preview your running apps, review your code, and handle CI failures and PRs in the background. Here's what's new: --- **Claude** @claudeai · Feb 20 **Server previews:** Claude can now start dev servers and preview your running app right in the desktop interface."
-key_insights:
-  - "Claude Code on Desktop Features **Claude** @claudeai · Feb 20 Claude Code on desktop can now preview your running apps, review your code, and handle CI failures and PRs in the background."
-  - "Here's what's new: --- **Claude** @claudeai · Feb 20 **Server previews:** Claude can now start dev servers and preview your running app right in the desktop interface."
-  - "It reads console logs, catches errors, and keeps iterating."
----
 # Claude Code on Desktop Features
 **Claude** @claudeai · Feb 20
 Claude Code on desktop can now preview your running apps, review your code, and handle CI failures and PRs in the background.

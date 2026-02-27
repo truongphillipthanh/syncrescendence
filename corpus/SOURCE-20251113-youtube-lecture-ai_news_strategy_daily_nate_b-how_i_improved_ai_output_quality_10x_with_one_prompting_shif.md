@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-1141
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "improved"
-  - "output"
-  - "quality"
-  - "10x"
-  - "one"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "How I Improved AI Output Quality 10X With One Prompting Shift"
-url: "https://www.youtube.com/watch?v=XfcZujr426o"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 21s"
-has_transcript: no
-synopsis: "How I Improved AI Output Quality 10X With One Prompting Shift by AI News & Strategy Daily | Nate B Jones. A lecture covering improved, output, quality."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: prompt-engineering
-aliases:
-  - "How I Improved AI"
-  - "How I Improved AI Output Quality"
----
-
 # How I Improved AI Output Quality 10X With One Prompting Shift
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

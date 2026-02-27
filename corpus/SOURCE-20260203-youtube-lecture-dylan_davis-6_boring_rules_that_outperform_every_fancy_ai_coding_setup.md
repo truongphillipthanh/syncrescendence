@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-190
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "boring"
-  - "rules"
-  - "outperform"
-  - "fancy"
-  - "coding"
-creator: "Dylan Davis"
-guest: null
-title: "6 Boring Rules That Outperform Every Fancy AI Coding Setup"
-url: "https://www.youtube.com/watch?v=mrIty8VbkBs"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 6s"
-has_transcript: no
-synopsis: "6 Boring Rules That Outperform Every Fancy AI Coding Setup by Dylan Davis. A lecture covering boring, rules, outperform."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "6 Boring Rules That"
-  - "6 Boring Rules That Outperform Every"
----
-
 # 6 Boring Rules That Outperform Every Fancy AI Coding Setup
 
 **Channel**: Dylan Davis

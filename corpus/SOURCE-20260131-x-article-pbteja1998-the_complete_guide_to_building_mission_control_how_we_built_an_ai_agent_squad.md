@@ -1,29 +1,3 @@
----
-id: SOURCE-20260131-x-article-pbteja1998-the_complete_guide_to_building_mission_control_how_we_built_an_ai_agent_squad
-platform: x
-format: article
-creator: pbteja1998
-title: the complete guide to building mission control how we built an ai agent squad
-status: triaged
-original_filename: "20260131-x_article-the_complete_guide_to_building_mission_control_how_we_built_an_ai_agent_squad-@pbteja1998.md"
-url: https://x.com/pbteja1998/status/2017662163540971756
-author: "Bhanu Teja P (@pbteja1998)"
-captured_date: 2026-01-31
-signal_tier: strategic
-topics:
-  - ai-agents
-  - automation
-  - tutorial
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Bhanu Teja - Mission Control multi-agent squad"
-synopsis: "Complete guide for building Mission Control: a system of 10 AI agents working together like a real team, using multiple OpenClaw/Clawdbot instances. Includes a dashboard interface with agent status indicators, mission board with task cards, message threads, and live feed."
-key_insights:
-  - "Running multiple Clawdbot/OpenClaw instances creates a multi-agent squad with specialized roles (Jarvis, Friday, Fury, etc.) coordinated through a central dashboard."
-  - "The system demonstrates that multi-agent orchestration is achievable with current open-source tooling, not requiring custom infrastructure."
-  - "A visual Mission Control dashboard with status indicators and task boards provides the observability layer that raw agent terminals lack."
----
 # The Complete Guide to Building Mission Control: How We Built an AI Agent Squad
 
 (Description: Two side-by-side screenshots of a Mission Control dashboard interface with a warm, editorial aesthetic. The interface displays multiple panels including agent cards showing status indicators (Jarvis, Friday, Fury, Loki, Pepper, Quill, Wanda), a mission board with task cards organized in columns, a message thread area, and a live feed section. The color scheme uses warm neutrals with accent colors for status indicators.)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260219-023
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "head"
-  - "claude"
-  - "code"
-  - "happens"
-  - "after"
-creator: "Lenny's Podcast"
-guest: null
-title: "Head of Claude Code: What happens after coding is solved | Boris Cherny"
-url: "https://www.youtube.com/watch?v=We7BZVKbCVw"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 27m 45s"
-has_transcript: no
-synopsis: "Head of Claude Code: What happens after coding is solved | Boris Cherny by Lenny's Podcast. A lecture covering head, claude, code."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Head of Claude Code:"
-  - "Head of Claude Code: What happens"
----
-
 # Head of Claude Code: What happens after coding is solved | Boris Cherny
 
 **Channel**: Lenny's Podcast

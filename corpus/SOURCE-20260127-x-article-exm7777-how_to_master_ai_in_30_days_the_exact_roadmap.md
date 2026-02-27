@@ -1,32 +1,3 @@
----
-id: SOURCE-20260127-x-article-exm7777-how_to_master_ai_in_30_days_the_exact_roadmap
-platform: x
-format: article
-creator: exm7777
-title: how to master ai in 30 days the exact roadmap
-status: triaged
-original_filename: "20260127-x_article-how_to_master_ai_in_30_days_the_exact_roadmap-@exm7777.md"
-url: https://x.com/EXM7777/status/2016160442603995321
-author: "Machina (@EXM7777)"
-captured_date: 2026-01-27
-signal_tier: tactical
-topics:
-  - ai-engineering
-  - prompt-engineering
-  - vibe-coding
-  - developer-tools
-  - notebooklm
-  - tutorial
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Machina - 30 day AI mastery roadmap"
-synopsis: "Comprehensive 30-day curriculum by Machina covering the full AI operator stack: mental models of LLMs, model selection (Claude/Gemini/GPT-5), prompt engineering, context engineering, image/video generation, vibe coding, automation with n8n and MCP, open-source models, RAG with NotebookLM, and personal AI agents like Clawdbot. Structured as a progressive learning path from fundamentals to infrastructure."
-key_insights:
-  - "Context engineering (managing the information environment around AI interactions) has replaced prompt engineering as the high-leverage skill in 2026, with Claude Projects and RAG as key tools."
-  - "The decision framework for model selection is task-based, not model-based: Claude for coding/writing, Gemini for research/long docs, Grok for social analysis."
-  - "The automation pipeline of Claude Code generating n8n configurations from natural language descriptions bypasses visual builder learning curves entirely."
----
 # How to Master AI in 30 Days (The Exact Roadmap)
 
 (Description: A grayscale illustration of a person viewed from behind, seated at a desk with three monitors. The figure wears headphones and is surrounded by scattered papers and stacked books. Multiple code windows and technical interfaces are displayed on the screens. The composition suggests focused, intensive technical work.)

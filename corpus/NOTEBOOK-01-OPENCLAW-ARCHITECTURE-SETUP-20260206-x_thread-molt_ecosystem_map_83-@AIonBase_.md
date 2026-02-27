@@ -1,9 +1,3 @@
----
-url: https://x.com/AIonBase_/status/2019752568595833185
-author: AI on Base (@AIonBase_)
-captured_date: 2026-02-06
----
-
 # 🦞 MOLT ECOSYSTEM MAP 🦞
 
 **83 projects. 1 chain. 1 framework.**

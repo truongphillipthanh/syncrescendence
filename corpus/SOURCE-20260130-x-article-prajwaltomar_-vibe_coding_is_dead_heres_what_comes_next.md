@@ -1,29 +1,3 @@
----
-url: https://x.com/PrajwalTomar_/status/2017202993087893813
-author: "Prajwal Tomar (@PrajwalTomar_)"
-captured_date: 2026-02-13
-id: SOURCE-20260130-003
-original_filename: "20260130-x_article-vibe_coding_is_dead_heres_what_comes_next-@prajwaltomar_.md"
-status: triaged
-platform: x
-format: article
-creator: prajwaltomar_
-signal_tier: strategic
-topics:
-  - vibe-coding
-  - ai-engineering
-  - best-practices
-  - opinion
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Prajwal Tomar - vibe coding is dead"
-synopsis: "Manifesto distinguishing 'vibe coding' (no planning, no review, blind acceptance) from 'AI coding' (human strategy + AI implementation + rigorous review). Argues we're in Software 3.0 (prompt-based programming) and the real opportunity is the $5.5T labor market being eaten by AI agents. Based on shipping 45+ MVPs at an agency."
-key_insights:
-  - "The formula is human strategy + AI implementation + rigorous review — staying in charge of scope, tech stack, and structure while AI executes is what separates production software from throwaway demos."
-  - "Software is expanding from the $230B SaaS market into the $5.5T knowledge worker labor market because AI agents can now do entire series of tasks (which is basically a job)."
-  - "When you don't know a decision, ask AI for options with pros/cons, then YOU choose — this one extra step prevents technical debt explosion and builds genuine decision-making skill."
----
 # Vibe Coding is Dead. Here's What Comes Next.
 
 (Description: Article header featuring a geometric 3D cube icon in grayscale, accompanied by text in yellow and white caps reading "VIBE CODING IS DEAD. HERE'S WHAT COMES NEXT." against a dark background)

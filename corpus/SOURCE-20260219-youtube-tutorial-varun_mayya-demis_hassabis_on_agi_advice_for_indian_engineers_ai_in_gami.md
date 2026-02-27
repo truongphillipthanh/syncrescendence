@@ -1,39 +1,3 @@
----
-id: SOURCE-20260219-013
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "demis"
-  - "hassabis"
-  - "agi"
-  - "advice"
-  - "indian"
-creator: "Varun Mayya"
-guest: null
-title: "Demis Hassabis On AGI, Advice For Indian Engineers, AI In Gaming & More"
-url: "https://www.youtube.com/watch?v=Me6a99Hk-as"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "39m 18s"
-has_transcript: no
-synopsis: "Demis Hassabis On AGI, Advice For Indian Engineers, AI In Gaming & More by Varun Mayya. A tutorial covering demis, hassabis, agi."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Demis Hassabis On AGI,"
-  - "Demis Hassabis On AGI, Advice For"
----
-
 # Demis Hassabis On AGI, Advice For Indian Engineers, AI In Gaming & More
 
 **Channel**: Varun Mayya

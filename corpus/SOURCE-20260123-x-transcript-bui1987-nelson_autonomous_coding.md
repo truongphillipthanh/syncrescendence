@@ -1,31 +1,3 @@
----
-id: SOURCE-undated-002
-title: Nelson Autonomous Coding
-platform: x
-format: transcript
-creator: Bui1987
-date_published: "2026-01-23"
-status: triaged
-url: https://x.com/Bui1987/status/2014830029000134939
-original_filename: research/x-bookmarks/TRANS-Bui1987-nelson_autonomous_coding.md
-aliases:
-  - "Nelson Autonomous Coding"
-  - "Ralph Fix Persistent Memory"
-teleology: extract
-notebooklm_category: ai-agents
-synopsis: "Introduces Nelson, an open-source fix for Ralph's autonomous coding loop problems. Nelson solves context amnesia through persistent memory with decision rationale handoffs, error snowballing through self-review gates, and single-agent bottlenecks through parallel specialized instances (frontend Nelson, backend Nelson)."
-key_insights:
-  - "Context compaction causes amnesia in long autonomous coding loops — Nelson fixes this by persisting decision rationale across handoff summaries to fresh instances"
-  - "Self-review between iterations catches bugs before they compound — preventing the error snowball that plagued single-context autonomous loops"
-  - "Parallel specialized agent instances (frontend, backend) working simultaneously outperform a single agent trying to hold everything in one context"
-topics:
-  - ai-agents
-  - claude-code
-  - automation
-  - developer-tools
-signal_tier: tactical
----
-
 # Nelson: Autonomous Coding Loops with Persistent Memory
 > **Author**: bustar (@Bui1987)
 > **Date**: January 23, 2026 · 2:38 PM

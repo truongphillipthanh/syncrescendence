@@ -1,24 +1,3 @@
----
-url: https://x.com/TheZvi/status/2023404171643519417
-author: "Zvi Mowshowitz (@TheZvi)"
-captured_date: 2026-02-16
-id: SOURCE-20260216-019
-original_filename: "20260216-x_article-on_dwarkesh_patels_2026_podcast_with_dario_amodei-@thezvi.md"
-status: triaged
-platform: x
-format: article
-creator: thezvi
-signal_tier: paradigm
-topics: [ai-engineering, economics, philosophy, research]
-teleology: extract
-notebooklm_category: philosophy-paradigm
-aliases: ["thezvi - Dario Amodei Dwarkesh podcast breakdown"]
-synopsis: "Zvi's detailed breakdown of Dwarkesh Patel's interview with Dario Amodei. Key claims: AI writing 90% of code happened at Anthropic, 'country of geniuses in data center' 90% within 10 years, Anthropic grew from $1B to $9-10B ARR in 2025, current coding models give 15-20% speedup. Discusses Cournot equilibrium, export controls, alignment conspicuously absent, and regulation stance."
-key_insights:
-  - "Dario predicts Cournot oligopoly (few firms with economic profits) not monopoly - lack of network effects + high fixed costs like cloud providers"
-  - "Current coding models give 15-20% speedup but Amdahl's law means much bigger gains once you close full loops"
-  - "Anthropic went 0 → $100M → $1B → $9-10B ARR in 3 years, with potential profitability in 2026"
----
 # On Dwarkesh Patel's 2026 Podcast With Dario Amodei
 ![Podcast Studio Scene](Description: A man with dark hair and glasses wearing a blue cardigan and white shirt sits in a podcast studio. He is gesturing with his hand near his face while speaking into a large black microphone mounted on a stand. Behind him is a warm, modern studio backdrop featuring vertical tan slats with decorative dark patterned panels and green foliage.)
 Some podcasts are self-recommending on the 'yep, I'm going to be breaking this one down' level. This was very clearly one of those. So here we go.

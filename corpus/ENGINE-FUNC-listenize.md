@@ -1,16 +1,3 @@
----
-name: Listenability Response Transformer
-description: Transform any prompt to generate responses exhibiting crystalline intellectual density, recursive coherence, and architectonic elegance optimized for audio delivery via Read Aloud
-trigger_phrases:
-  - "optimize for listening"
-  - "make this listen-optimized"
-  - "audio-friendly response"
-  - "transform for speech"
-  - "read aloud optimized"
-version: 1.0
-model_compatibility: claude-3-5-sonnet, claude-opus-4
----
-
 # Listenability Response Transformer
 
 Accept any existing prompt and output a transformed version that generates responses exhibiting crystalline intellectual density, recursive coherence, and architectonic elegance **optimized for spoken delivery through Read Aloud functionality**.

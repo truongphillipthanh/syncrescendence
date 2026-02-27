@@ -1,38 +1,3 @@
----
-id: SOURCE-20251224-727
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "chrome"
-  - "teach"
-  - "work"
-creator: "Eliot Prince"
-guest: null
-title: "Claude in Chrome: How To Teach AI To Do ALL Your Work 🤯"
-url: "https://www.youtube.com/watch?v=XkjCXBw4lLs"
-date_published: 2025-12-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 35s"
-has_transcript: no
-synopsis: "Claude in Chrome: How To Teach AI To Do ALL Your Work 🤯 by Eliot Prince. A tutorial covering claude, chrome, teach."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude in Chrome: How"
-  - "Claude in Chrome: How To Teach"
----
-
 # Claude in Chrome: How To Teach AI To Do ALL Your Work 🤯
 
 **Channel**: Eliot Prince

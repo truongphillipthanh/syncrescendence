@@ -1,21 +1,3 @@
----
-url: https://x.com/VibeMarketer_/status/2020142441769156678
-author: "J.B. (@VibeMarketer_)"
-captured_date: 2026-02-13
-id: SOURCE-20260207-015
-original_filename: "20260207-x_article-claude_code_agent_teams_marketing_department-@vibemarker_.md"
-status: triaged
-platform: x
-format: article
-creator: vibemarker_
-signal_tier: tactical
-topics: [claude-code, ai-agents, content-creation, tutorial]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["VibeMarketer - Agent Teams Marketing Department"]
-synopsis: "Guide to building a marketing department inside Claude Code's Agent Teams feature, with specialized agents for different marketing functions. Reports 'kind of ridiculous' results using agent swarms for marketing workflows across major projects."
-key_insights: ["Agent Teams can be structured as functional departments (marketing) with specialized agents for different marketing functions", "The marketing use case benefits from parallelism: research, copywriting, and campaign planning can run simultaneously", "Non-technical marketers can leverage Agent Teams by describing desired marketing workflows in plain language"]
----
 # Claude Code Just Shipped Agent Teams. Here's How to Build Your Own Marketing Department Inside It.
 
 (Description: Hero image showing a glowing plus/cross symbol on a blue circuit board background with golden light rays, and a person visible from the side in amber lighting. Text overlay reads "claud agent swarm (for marketers)")

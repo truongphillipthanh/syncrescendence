@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-364
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "conversation"
-  - "satya"
-  - "nadella"
-  - "ceo"
-  - "microsoft"
-creator: "World Economic Forum"
-guest: null
-title: "Conversation with Satya Nadella, CEO of Microsoft | World Economic Forum Annual Meeting 2026"
-url: "https://www.youtube.com/watch?v=1co3zt3-r7I"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38m 11s"
-has_transcript: no
-synopsis: "Conversation with Satya Nadella, CEO of Microsoft | World Economic Forum Annual Meeting 2026 by World Economic Forum. A interview covering conversation, satya, nadella."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Conversation with Satya Nadella,"
-  - "Conversation with Satya Nadella, CEO of"
----
-
 # Conversation with Satya Nadella, CEO of Microsoft | World Economic Forum Annual Meeting 2026
 
 **Channel**: World Economic Forum

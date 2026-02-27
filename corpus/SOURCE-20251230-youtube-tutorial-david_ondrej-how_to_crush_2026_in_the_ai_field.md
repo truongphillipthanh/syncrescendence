@@ -1,37 +1,3 @@
----
-id: SOURCE-20251230-667
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "crush"
-  - "2026"
-  - "field"
-creator: "David Ondrej"
-guest: null
-title: "How to crush 2026 in the AI field"
-url: "https://www.youtube.com/watch?v=Y4GXrYEJNu8"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m"
-has_transcript: no
-synopsis: "How to crush 2026 in the AI field by David Ondrej. A tutorial covering crush, 2026, field."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to crush 2026"
-  - "How to crush 2026 in the"
----
-
 # How to crush 2026 in the AI field
 
 **Channel**: David Ondrej

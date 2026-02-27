@@ -1,9 +1,3 @@
----
-url: https://x.com/mitchellh/status/2018400993466331431
-author: Mitchell Hashimoto (@mitchellh)
-captured_date: 2026-02-14
----
-
 # Ghostty Click Events Thread
 
 Ghostty nightly now supports the `click_events` extension introduced by Kitty and supported by Fish. If you're using Fish 4.1+, you can click (no modifiers!) anywhere at a prompt to move the mouse. I believe Ghostty is the first to support this extension outside of Kitty.

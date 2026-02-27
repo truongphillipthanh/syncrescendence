@@ -1,39 +1,3 @@
----
-id: SOURCE-20251004-1016
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "cuts"
-  - "off"
-  - "mark"
-  - "cut"
-  - "like"
-creator: "Essential Craftsman"
-guest: null
-title: "Why Your Cuts Are Off (How To Mark + Cut Like a Pro)"
-url: "https://www.youtube.com/watch?v=RDar0rrCVOw"
-date_published: 2025-10-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 46s"
-has_transcript: no
-synopsis: "Why Your Cuts Are Off (How To Mark + Cut Like a Pro) by Essential Craftsman. A tutorial covering cuts, off, mark."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why Your Cuts Are"
-  - "Why Your Cuts Are Off (How"
----
-
 # Why Your Cuts Are Off (How To Mark + Cut Like a Pro)
 
 **Channel**: Essential Craftsman

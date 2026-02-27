@@ -1,39 +1,3 @@
----
-id: SOURCE-20251208-893
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "code"
-  - "red"
-  - "over"
-  - "openai"
-  - "blow"
-creator: "Wes Roth"
-guest: null
-title: ""Code Red" Over, OpenAI is about to blow..."
-url: "https://www.youtube.com/watch?v=F9EKRZ0wdxE"
-date_published: 2025-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 31s"
-has_transcript: no
-synopsis: ""Code Red" Over, OpenAI is about to blow... by Wes Roth. A interview covering code, red, over."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - ""Code Red" Over, OpenAI"
-  - ""Code Red" Over, OpenAI is about"
----
-
 # "Code Red" Over, OpenAI is about to blow...
 
 **Channel**: Wes Roth

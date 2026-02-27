@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-371
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "builders"
-  - "who"
-  - "figure"
-  - "out"
-  - "first"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The Builders Who Figure This Out First Will Be Impossible to Catch. Why You Need an Identity Shift."
-url: "https://www.youtube.com/watch?v=5Di6o6zuMLc"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 16s"
-has_transcript: no
-synopsis: "The Builders Who Figure This Out First Will Be Impossible to Catch. Why You Need an Identity Shift. by AI News & Strategy Daily | Nate B Jones. A lecture covering builders, who, figure."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Builders Who Figure"
-  - "The Builders Who Figure This Out"
----
-
 # The Builders Who Figure This Out First Will Be Impossible to Catch. Why You Need an Identity Shift.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

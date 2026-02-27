@@ -1,39 +1,3 @@
----
-id: SOURCE-20251224-736
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "flash"
-  - "models"
-  - "frontier"
-  - "win"
-  - "2026"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Why Flash Models, Not Frontier Models, Will Win in 2026"
-url: "https://www.youtube.com/watch?v=RVviMEfaJUY"
-date_published: 2025-12-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 41s"
-has_transcript: no
-synopsis: "Why Flash Models, Not Frontier Models, Will Win in 2026 by AI News & Strategy Daily | Nate B Jones. A lecture covering flash, models, frontier."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why Flash Models, Not"
-  - "Why Flash Models, Not Frontier Models,"
----
-
 # Why Flash Models, Not Frontier Models, Will Win in 2026
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

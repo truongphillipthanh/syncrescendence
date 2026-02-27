@@ -1,21 +1,3 @@
----
-id: QUEUE-36200
-name: Screenplay Orchestration Format
-identity: SCREENPLAY_ORCHESTRATION
-tier: QUEUE
-status: pending
-priority: medium
-created: 2025-12-31
-updated: 2025-12-31
-target_tier: CANON
-target_id: CANON-37XXX
-target_chain: APPARATUS
-synopsis: >
-  Agentic AI Screenplay Format - Universal notation system for AI orchestration
-  using screenplay conventions. Bridges cinematic narrative structure with
-  computational orchestration for human-readable production scripts.
----
-
 # QUEUE-36200: SCREENPLAY ORCHESTRATION FORMAT
 
 ## Summary

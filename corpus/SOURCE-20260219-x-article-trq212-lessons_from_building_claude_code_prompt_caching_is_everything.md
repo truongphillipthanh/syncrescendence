@@ -1,32 +1,3 @@
----
-url: https://x.com/trq212/status/2024574133011673516
-author: "Thariq (@trq212)"
-captured_date: 2026-02-21
-id: SOURCE-20260219-015
-original_filename: "20260219-x_article-lessons_from_building_claude_code_prompt_caching_is_everything-@trq212.md"
-status: triaged
-platform: x
-format: article
-creator: trq212
-signal_tier: strategic
-topics:
-  - claude-code
-  - agentic-development
-  - prompting
-  - context-management
-  - memory-management
-  - claude-md
-  - model-context-protocol
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Lessons from Building Claude Code Prompt Caching Is Everything"
-synopsis: "Lessons from Building Claude Code: Prompt Caching Is Everything It is often said in engineering that "Cache Rules Everything Around Me", and the same rule holds for agents. Long running agentic products like Claude Code are made feasible by **prompt caching** which allows us to reuse computation from previous roundtrips and significantly decrease latency and cost."
-key_insights:
-  - "Lessons from Building Claude Code: Prompt Caching Is Everything It is often said in engineering that "Cache Rules Everything Around Me", and the same rule holds for agents."
-  - "These are the (often unintuitive) lessons we've learned from optimizing prompt caching at scale."
-  - "The best way to do this is static content first, dynamic content last."
----
 # Lessons from Building Claude Code: Prompt Caching Is Everything
 It is often said in engineering that "Cache Rules Everything Around Me", and the same rule holds for agents.
 Long running agentic products like Claude Code are made feasible by **prompt caching** which allows us to reuse computation from previous roundtrips and significantly decrease latency and cost. What is prompt caching, how does it work and how do you implement it technically? Read more in [@RLanceMartin's piece on prompt caching and our new auto-caching launch](https://x.com/RLanceMartin/status/2024573404888911886).

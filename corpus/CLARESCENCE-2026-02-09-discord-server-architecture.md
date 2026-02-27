@@ -1,14 +1,3 @@
----
-kind: clarescence
-id: CLARESCENCE-2026-02-09-discord-server-architecture
-title: "Discord Server Architecture: Constellation Community & Strategic Hub"
-date: 2026-02-09
-status: ready-for-execution
-agent: ajna
-passes: 7
-linear: Epic 5 (Constellation Reconfiguration)
----
-
 # CLARESCENCE: Discord Server Architecture
 
 **Date**: 2026-02-09

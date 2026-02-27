@@ -1,32 +1,3 @@
----
-url: https://x.com/akshay_pachaar/status/2022309334483677654
-author: "Akshay (@akshay_pachaar)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-001
-original_filename: "20260213-x_article-i_cut_my_openclaw_cost_by_95_percent-@akshay_pachaar.md"
-status: triaged
-platform: x
-format: article
-creator: akshay_pachaar
-signal_tier: tactical
-topics:
-  - ai-agents
-  - agentic-development
-  - ai-workflow
-  - context-management
-  - memory-management
-  - api
-  - open-source
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "I Cut My OpenClaw Cost by 95"
-synopsis: "I Cut My OpenClaw Cost by 95% and Minimax M2.5 logo on dark background with white and red text styling) Overview An open source model just released that is: - Better than Opus 4.6 for coding - Faster than Sonnet - State of the art for tool calling Minimax just dropped M2.5. It scores on par with Opus 4.6 on coding benchmarks. It's built from the ground up for agentic workflows."
-key_insights:
-  - "At roughly $1 per hour with 100 tokens per second, you can now scale long-running agents in a way that was never economically feasible before."
-  - "Always grab the latest command from the official site: openclaw.ai Step 2: Pick Your Model During setup, OpenClaw will prompt you to choose a model."
-  - "It scores on par with Opus 4.6 on coding benchmarks."
----
 # I Cut My OpenClaw Cost by 95%
 
 (Description: Hero image featuring OpenClaw mascot (red crab character) and Minimax M2.5 logo on dark background with white and red text styling)

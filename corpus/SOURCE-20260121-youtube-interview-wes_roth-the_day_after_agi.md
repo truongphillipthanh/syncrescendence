@@ -1,36 +1,3 @@
----
-id: SOURCE-20260121-417
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "day"
-  - "after"
-  - "agi"
-creator: "Wes Roth"
-guest: null
-title: "the day *after* AGI..."
-url: "https://www.youtube.com/watch?v=RP-k7AFqTuo"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "40m 4s"
-has_transcript: no
-synopsis: "the day *after* AGI... by Wes Roth. A interview covering day, after, agi."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "the day *after* AGI..."
----
-
 # the day *after* AGI...
 
 **Channel**: Wes Roth

@@ -1,9 +1,3 @@
----
-url: https://x.com/tankots/status/2018758704682930510
-author: Tanay Kothari (@tankots)
-captured_date: 2026-02-13
----
-
 # If You're Still Applying to Jobs, Read This
 
 (Description: Professional photograph of a business interview scene. Two men in formal business attire are shown across a desk, one viewed from behind in the foreground, the other in direct view wearing a dark blazer and light blue dress shirt. The setting appears to be an office interior with professional furnishings in soft focus behind them.)

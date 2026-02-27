@@ -1,32 +1,3 @@
----
-url: https://x.com/DlSPUTED/status/2024216967335625048
-author: conrad house
-handle: DISPUTED
-published_date: Feb 18, 2026
-captured_date: Feb 21, 2026
-post_count: 12
-id: SOURCE-20260218-021
-original_filename: "20260218-x_thread-using_obsidian_with_claude_has_been-@DISPUTED.md"
-status: triaged
-platform: x
-format: thread
-creator: disputed
-signal_tier: tactical
-topics:
-  - claude-code
-  - memory-management
-  - architecture
-  - rag
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "20260218 x thread disputed using obsidian with claude has be"
-synopsis: "using Obsidian with Claude has been such a nice way to keep things organized, maintain better persistent memory/patterns, visualize system architectures using canvas files and more. build /skills that work directly inline. no other note or file management system comes close."
-key_insights:
-  - "using Obsidian with Claude has been such a nice way to keep things organized, maintain better persistent memory/patterns, visualize system architectures using canvas files and more."
-  - "build /skills that work directly inline."
-  - "no other note or file management system comes close."
----
 using Obsidian with Claude has been such a nice way to keep things organized, maintain better persistent memory/patterns, visualize system architectures using canvas files and more. build /skills that work directly inline.
 no other note or file management system comes close.
 (Description: A screenshot showing Obsidian interface with system architecture diagram. The image contains nested windows showing: Store Architecture (with components like "Artifacts, Assets, Stores, Actions, Interfaces"), Nodes Types (describing grid quality, visibility preferences, and transformations), and Interactive Features (including buttons, searches, and grid options). A colorful map visualization is visible at the bottom.)

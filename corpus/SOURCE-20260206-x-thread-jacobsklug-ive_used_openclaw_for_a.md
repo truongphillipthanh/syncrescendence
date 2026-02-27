@@ -1,21 +1,3 @@
----
-url: https://x.com/Jacobsklug/status/2019768290336453024
-author: "Jacob Klug (@JacobsKlug)"
-captured_date: 2026-02-14
-id: SOURCE-20260206-035
-original_filename: "20260206-x_thread-ive_used_openclaw_for_a-@jacobsklug.md"
-status: triaged
-platform: x
-format: thread
-creator: jacobsklug
-signal_tier: strategic
-topics: [ai-agents, automation, opinion, case-study]
-teleology: extract
-notebooklm_category: ai-agents
-aliases: ["Jacob Klug - Honest OpenClaw Review"]
-synopsis: "Candid one-week review of OpenClaw covering both genuine value (cross-tool orchestration, daily briefs reducing cognitive load) and real friction: memory degradation over days, huge planning-over-execution bias, ~$100/day API costs, 4-hour painful setup, and failure when trying to build a self-managing AI OS. Concludes by moving the OS to Lovable with OpenClaw as orchestration layer on top."
-key_insights: ["Cross-tool orchestration is the real unlock — chat may become the main interface for software, with apps becoming databases + execution layers", "OpenClaw has a huge planning > execution bias — you can easily spend hours discussing work instead of shipping, and creators are overselling the autonomous employee angle", "Cost reality: ~$100/day in Claude credits with unclear ROI, and long-term memory still degrades requiring constant re-prompting of basic context"]
----
 # Honest Breakdown: One Week with OpenClaw
 
 i've used @openclaw for a week. there's a lot of noise out there. here's the honest breakdown.

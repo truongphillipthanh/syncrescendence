@@ -1,39 +1,3 @@
----
-id: SOURCE-20251211-662
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "polymathic"
-  - "poet"
-  - "who"
-  - "taught"
-  - "himself"
-creator: "Anthony Metivier"
-guest: null
-title: "The Polymathic Poet Who Taught Himself "Impossible" Skills"
-url: "https://www.youtube.com/watch?v=HwQiW1XDAvI"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 33s"
-has_transcript: no
-synopsis: "The Polymathic Poet Who Taught Himself "Impossible" Skills by Anthony Metivier. A lecture covering polymathic, poet, who."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Polymathic Poet Who"
-  - "The Polymathic Poet Who Taught Himself"
----
-
 # The Polymathic Poet Who Taught Himself "Impossible" Skills
 
 **Channel**: Anthony Metivier

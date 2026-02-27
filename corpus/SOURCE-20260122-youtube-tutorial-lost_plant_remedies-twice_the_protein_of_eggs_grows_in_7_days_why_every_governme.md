@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-294
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "twice"
-  - "protein"
-  - "eggs"
-  - "grows"
-  - "days"
-creator: "Lost Plant Remedies"
-guest: null
-title: "Twice The Protein Of Eggs. Grows In 7 Days. Why Every Government Wants It Gone."
-url: "https://www.youtube.com/watch?v=-UqTUHE7NFA"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 54s"
-has_transcript: no
-synopsis: "Twice The Protein Of Eggs. Grows In 7 Days. Why Every Government Wants It Gone. by Lost Plant Remedies. A tutorial covering twice, protein, eggs."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Twice The Protein Of"
-  - "Twice The Protein Of Eggs. Grows"
----
-
 # Twice The Protein Of Eggs. Grows In 7 Days. Why Every Government Wants It Gone.
 
 **Channel**: Lost Plant Remedies

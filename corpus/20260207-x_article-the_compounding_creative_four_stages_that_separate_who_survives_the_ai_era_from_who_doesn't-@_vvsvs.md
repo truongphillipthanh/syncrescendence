@@ -1,9 +1,3 @@
----
-url: https://x.com/_VVSVS/status/2020060955665641946
-author: Ivan — VVSVS™ (@_VVSVS)
-captured_date: 2026-02-07
----
-
 # The creative industry isn't dying. It's sorting.
 
 ## The Compounding Creative: four stages that separate who survives the AI era from who doesn't.

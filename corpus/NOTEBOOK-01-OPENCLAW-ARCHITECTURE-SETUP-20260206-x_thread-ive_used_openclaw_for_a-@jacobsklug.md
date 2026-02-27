@@ -1,9 +1,3 @@
----
-url: https://x.com/Jacobsklug/status/2019768290336453024
-author: Jacob Klug (@JacobsKlug)
-captured_date: 2026-02-14
----
-
 # Honest Breakdown: One Week with OpenClaw
 
 i've used @openclaw for a week. there's a lot of noise out there. here's the honest breakdown.

@@ -1,32 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2018762791692423242
-author: "klöss (@kloss_xyz)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-033
-original_filename: 20260203-x_thread-this_prompt_is_your_ai_coding-kloss_xyz.md
-status: triaged
-platform: x
-format: thread
-creator: kloss_xyz
-signal_tier: tactical
-topics:
-  - prompt-engineering
-  - prompting
-  - context-management
-  - debugging
-  - api
-  - architecture
-  - refactoring
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "AI Coding Debug Agent  Part 4"
-synopsis: "AI Coding Debug Agent - Part 4 This prompt is your AI coding debug agent (it fixes your issues without breaking everything else). It isolates bugs, determines root cause vs symptom, and updates LESSONS (.md) so your build agent doesn't make the same mistake. Parts 1–3 in the thread below.** Prompt: [describe your bug + attach references] Then paste this into your agent below."
-key_insights:
-  - "It isolates bugs, determines root cause vs symptom, and updates LESSONS (.md) so your build agent doesn't make the same mistake."
-  - "**LESSONS (.md)** — has this mistake happened before?"
-  - "Is there already a rule for it?"
----
 # AI Coding Debug Agent - Part 4
 
 This prompt is your AI coding debug agent (it fixes your issues without breaking everything else).

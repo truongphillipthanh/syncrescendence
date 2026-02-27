@@ -1,13 +1,3 @@
----
-url: https://openclaw.ai/blog/introducing-openclaw
-title: Introducing OpenClaw
-domain: openclaw.ai
-author: Peter Steinberger
-published_date: January 29, 2026
-captured_date: 2026-02-04
-content_type: blog
----
-
 # Introducing OpenClaw
 
 (Image: OpenClaw logo featuring a red cartoon lobster with large claws, alongside the text "OPENCLAW" with the word "CLAW" in red. Alt text: Introducing OpenClaw. Caption: Project rebrand announcement visual.)

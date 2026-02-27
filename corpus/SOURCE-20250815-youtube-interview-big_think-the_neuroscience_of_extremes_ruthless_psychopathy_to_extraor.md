@@ -1,39 +1,3 @@
----
-id: SOURCE-20250815-999
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "neuroscience"
-  - "extremes"
-  - "ruthless"
-  - "psychopathy"
-  - "extraordinary"
-creator: "Big Think"
-guest: null
-title: "The neuroscience of extremes: Ruthless psychopathy to extraordinary generosity | Abigail Marsh"
-url: "https://www.youtube.com/watch?v=rK-UfTCGOdU"
-date_published: 2025-08-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 24m 20s"
-has_transcript: no
-synopsis: "The neuroscience of extremes: Ruthless psychopathy to extraordinary generosity | Abigail Marsh by Big Think. A interview covering neuroscience, extremes, ruthless."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "The neuroscience of extremes:"
-  - "The neuroscience of extremes: Ruthless psychopathy"
----
-
 # The neuroscience of extremes: Ruthless psychopathy to extraordinary generosity | Abigail Marsh
 
 **Channel**: Big Think

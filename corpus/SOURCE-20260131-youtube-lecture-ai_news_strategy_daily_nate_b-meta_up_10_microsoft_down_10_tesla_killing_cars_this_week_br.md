@@ -1,39 +1,3 @@
----
-id: SOURCE-20260131-218
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "meta"
-  - "microsoft"
-  - "down"
-  - "tesla"
-  - "killing"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Meta Up 10%, Microsoft Down 10%, Tesla Killing Cars. This Week Broke Something."
-url: "https://www.youtube.com/watch?v=kuGg0b2IrHQ"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 50s"
-has_transcript: no
-synopsis: "Meta Up 10%, Microsoft Down 10%, Tesla Killing Cars. This Week Broke Something. by AI News & Strategy Daily | Nate B Jones. A lecture covering meta, microsoft, down."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Meta Up 10%, Microsoft"
-  - "Meta Up 10%, Microsoft Down 10%,"
----
-
 # Meta Up 10%, Microsoft Down 10%, Tesla Killing Cars. This Week Broke Something.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

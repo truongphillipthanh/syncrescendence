@@ -1,27 +1,3 @@
----
-url: https://x.com/DamiDina/status/2023750037700817240
-author: Dami Dina
-handle: DamiDina
-published_date: February 17, 2026
-captured_date: February 21, 2026
-post_count: 8
-id: SOURCE-20260217-017
-original_filename: 20260217-x_thread-introducing_openeditor_figma_like_canvas-damidina.md
-status: triaged
-platform: x
-format: thread
-creator: damidina
-signal_tier: noise
-topics: [developer-tools, design]
-teleology: reference
-notebooklm_category: coding-tools
-aliases: ["damidina - OpenEditor Figma-like canvas"]
-synopsis: "Brief announcement of OpenEditor, a desktop app providing a Figma-like canvas for previewing code projects in real time across different breakpoints, app states, and environments. Uses a config file to map routes and states to previews."
-key_insights:
-  - "OpenEditor provides bird's eye view of web apps across breakpoints, states, and environments simultaneously"
-  - "Config-file-based route and state mapping enables real-time preview without manual refresh"
-  - "Bridges the gap between code-first development and visual design review tools"
----
 # OpenEditor Thread — Dami Dina
 ## Post 1
 **Dami Dina** @DamiDina · Feb 17, 2026 · 5:23 AM

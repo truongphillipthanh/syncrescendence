@@ -1,39 +1,3 @@
----
-id: SOURCE-20260114-488
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "new"
-  - "technology"
-  - "kill"
-  - "tsmc"
-  - "asml"
-creator: "Anastasi In Tech"
-guest: null
-title: "This New Technology Could Kill TSMC and ASML"
-url: "https://www.youtube.com/watch?v=R539FPNAwes"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 15s"
-has_transcript: no
-synopsis: "This New Technology Could Kill TSMC and ASML by Anastasi In Tech. A lecture covering new, technology, kill."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "This New Technology Could"
-  - "This New Technology Could Kill TSMC"
----
-
 # This New Technology Could Kill TSMC and ASML
 
 **Channel**: Anastasi In Tech

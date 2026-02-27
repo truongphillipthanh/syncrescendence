@@ -1,35 +1,3 @@
----
-id: SOURCE-20251223-719
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "impressed"
-creator: "New Scientist"
-guest: null
-title: "No AI Has Impressed Me"
-url: "https://www.youtube.com/watch?v=3Kyvp1Rd6aM"
-date_published: 2025-12-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "59m 25s"
-has_transcript: no
-synopsis: "No AI Has Impressed Me by New Scientist. A lecture covering impressed."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "No AI Has Impressed"
-  - "No AI Has Impressed Me"
----
-
 # No AI Has Impressed Me
 
 **Channel**: New Scientist

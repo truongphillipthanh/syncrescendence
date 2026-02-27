@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-article-ashpreetbedi-agents_need_a_database
-platform: x
-format: article
-creator: ashpreetbedi
-title: agents need a database
-status: triaged
-original_filename: "20260126-x_article-agents_need_a_database-@ashpreetbedi.md"
-url: https://x.com/ashpreetbedi/status/2015935966268018823
-author: "Ashpreet Bedi (@ashpreetbedi)"
-captured_date: 2026-01-26
-signal_tier: strategic
-topics: ""
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Agents Need a Database
 
 (Description: Isometric illustration featuring layered platforms with a brain-like icon at the top and data grid patterns below, representing database architecture for AI agents)

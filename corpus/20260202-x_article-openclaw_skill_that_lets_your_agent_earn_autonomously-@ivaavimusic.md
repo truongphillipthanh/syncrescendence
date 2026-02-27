@@ -1,9 +1,3 @@
----
-url: https://x.com/ivaavimusic/status/2018346685806891454
-author: Ivaavi.eth (@ivaavimusic)
-captured_date: 2026-02-02
----
-
 # OpenClaw Skill That Lets Your Agent Earn Autonomously
 
 (Description: ClawHub branding badge on a light beige background featuring a large red stylized claw/lobster illustration on the left, abstract human fingertip touching illustration on the right, with bold serif text reading "Singularity Layer" in the center)

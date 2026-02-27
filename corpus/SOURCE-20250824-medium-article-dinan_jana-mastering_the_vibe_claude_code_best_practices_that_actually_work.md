@@ -1,27 +1,3 @@
----
-id: SOURCE-20250824-medium-article-dinan_jana-mastering_the_vibe_claude_code_best_practices_that_actually_work
-platform: medium
-format: article
-creator: dinan_jana
-title: mastering the vibe claude code best practices that actually work
-status: triaged
-original_filename: "20250824-medium_articla-@dinan_jana-mastering_the_vibe_claude_code_best_practices_that_actually_work.md"
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "vibe-coding"
-  - "best-practices"
-  - "tutorial"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Dinan Jana - Claude Code Best Practices"
-synopsis: "Developer diary on leveling up with Claude Code: CLAUDE.md hierarchy as project memory, Plan Mode (Shift+Tab) for architecture before coding, the think/think hard/ultrathink reasoning hierarchy, and teaching Claude to ask clarifying questions before implementation."
-key_insights:
-  - "Plan Mode (Shift+Tab twice) forces Claude into architect mode—research and analyze without executing—dramatically improving implementation quality"
-  - "The think hierarchy (think < think hard < think harder < ultrathink) maps to increasing reasoning budgets; use strategically not universally"
-  - "Writing plans to external files (plan.md, architecture.md) creates persistent working memory across sessions rather than losing context"
----
 https://dinanjana.medium.com/mastering-the-vibe-claude-code-best-practices-that-actually-work-823371daf64c
 
 *How I went from fumbling with AI-generated spaghetti code to building production-ready apps with Claude Code*

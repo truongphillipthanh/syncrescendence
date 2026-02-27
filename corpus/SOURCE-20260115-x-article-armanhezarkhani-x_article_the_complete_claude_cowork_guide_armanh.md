@@ -1,32 +1,3 @@
----
-id: SOURCE-20260115-002
-title: "X Article The Complete Claude Cowork Guide @Armanhezarkhani"
-platform: x
-format: article
-creator: armanhezarkhani
-date_published: 20260115
-status: triaged
-original_filename: "research/cowork/20260115-x_article-the_complete_claude_cowork_guide-@armanhezarkhani.md"
-aliases:
-  - "Arman - Complete Cowork Guide"
-teleology: implement
-notebooklm_category: claude-code
-url: "https://x.com/armanhezarkhani/status/2011818455922553106/"
-author: "Arman Hezarkhani (@ArmanHezarkhani)"
-captured_date: 2026-01-15
-synopsis: "Comprehensive guide to Claude Cowork covering setup, workflow integration, automated file organization, proactive AI assistance, and tips for getting maximum value from the collaborative AI workspace feature."
-key_insights:
-  - "Claude Cowork enables proactive AI that observes your workflow and intervenes rather than waiting for prompts"
-  - "Setup involves configuring workspace preferences, file organization rules, and notification settings for optimal collaboration"
-  - "The guide covers advanced patterns for integrating Cowork into existing development workflows for maximum productivity"
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "tutorial"
-  - "best-practices"
-signal_tier: tactical
----
-
 # The Complete Claude Cowork Guide
 
 (Description: Cover image with coral/orange rounded square icon containing a white lightning bolt symbol, paired with serif typography reading "The Complete Claude Cowork Guide" and subtitle "Cowork: Claude Code for the rest of your work")

@@ -1,30 +1,3 @@
----
-id: SOURCE-20250910-x-article-alexreibman-no_xp_waste
-platform: x
-format: article
-creator: alexreibman
-title: no xp waste
-status: triaged
-original_filename: "20250910-x_article-no_xp_waste-@alexreibman.md"
-url: https://x.com/AlexReibman/status/1965923096445296869
-author: "Alex Reibman (@AlexReibman)"
-captured_date: 2025-09-10
-signal_tier: tactical
-topics:
-  - "vibe-coding"
-  - "ai-engineering"
-  - "career"
-  - "opinion"
-teleology: inspire
-notebooklm_category: vibe-coding
-aliases:
-  - "Reibman - No XP Waste"
-synopsis: "Alex Reibman frames AI-assisted engineering through a competitive gaming lens: every moment not running AI agents is XP waste. Draws parallels between RuneScape grinding culture, StarCraft APM management, and managing multiple concurrent AI coding agents for maximum throughput."
-key_insights:
-  - "Think of engineering like an RTS game: units (AI agents) should never sit idle, and you are the productivity bottleneck managing them"
-  - "The mindset shift from traditional programming to hyper engineering means managing multiple concurrent agent threads like StarCraft unit control"
-  - "RuneScape culture of XP waste maps directly to the opportunity cost of not running agents 24/7 in the AI era"
----
 # No XP Waste
 
 ## Introduction

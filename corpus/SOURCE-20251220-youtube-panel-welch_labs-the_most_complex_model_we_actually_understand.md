@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-786
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "most"
-  - "complex"
-  - "model"
-  - "actually"
-  - "understand"
-creator: "Welch Labs"
-guest: null
-title: "The most complex model we actually understand"
-url: "https://www.youtube.com/watch?v=D8GOeCFFby4"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 29s"
-has_transcript: no
-synopsis: "The most complex model we actually understand by Welch Labs. A panel discussion covering most, complex, model."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The most complex model"
-  - "The most complex model we actually"
----
-
 # The most complex model we actually understand
 
 **Channel**: Welch Labs

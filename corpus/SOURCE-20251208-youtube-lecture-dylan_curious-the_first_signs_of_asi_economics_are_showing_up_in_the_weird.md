@@ -1,39 +1,3 @@
----
-id: SOURCE-20251208-890
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "first"
-  - "signs"
-  - "asi"
-  - "economics"
-  - "showing"
-creator: "Dylan Curious"
-guest: null
-title: "The First Signs of ASI Economics Are Showing Up… In the Weirdest Places"
-url: "https://www.youtube.com/watch?v=syu0XLNtu_A"
-date_published: 2025-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 40s"
-has_transcript: no
-synopsis: "The First Signs of ASI Economics Are Showing Up… In the Weirdest Places by Dylan Curious. A lecture covering first, signs, asi."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "The First Signs of"
-  - "The First Signs of ASI Economics"
----
-
 # The First Signs of ASI Economics Are Showing Up… In the Weirdest Places
 
 **Channel**: Dylan Curious

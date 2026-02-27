@@ -1,39 +1,3 @@
----
-id: SOURCE-20260210-114
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "agents"
-  - "now"
-  - "hiring"
-  - "humans"
-  - "need"
-creator: "The Next Wave - AI and the Future of Technology"
-guest: null
-title: "AI Agents Are Now Hiring Humans. We Need to Talk"
-url: "https://www.youtube.com/watch?v=en8aDnS-d18"
-date_published: 2026-02-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "41m 39s"
-has_transcript: no
-synopsis: "AI Agents Are Now Hiring Humans. We Need to Talk by The Next Wave - AI and the Future of Technology. A lecture covering agents, now, hiring."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "AI Agents Are Now"
-  - "AI Agents Are Now Hiring Humans."
----
-
 # AI Agents Are Now Hiring Humans. We Need to Talk
 
 **Channel**: The Next Wave - AI and the Future of Technology

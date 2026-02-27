@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-189
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "google"
-  - "cooking"
-  - "beyond"
-  - "next"
-  - "token"
-creator: "Discover AI"
-guest: null
-title: "Google is cooking: Beyond the 'Next-Token' Manifold"
-url: "https://www.youtube.com/watch?v=anEVsOPtbnw"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 37s"
-has_transcript: no
-synopsis: "Google is cooking: Beyond the 'Next-Token' Manifold by Discover AI. A lecture covering google, cooking, beyond."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google is cooking: Beyond"
-  - "Google is cooking: Beyond the 'Next-Token'"
----
-
 # Google is cooking: Beyond the 'Next-Token' Manifold
 
 **Channel**: Discover AI

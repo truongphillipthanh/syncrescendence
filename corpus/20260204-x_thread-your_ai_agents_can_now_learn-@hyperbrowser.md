@@ -1,9 +1,3 @@
----
-url: https://x.com/hyperbrowser/status/2019126793119338649
-author: "@hyperbrowser"
-captured_date: 2026-02-14
----
-
 # Hyperbrowser Thread: AI Agent Skill Learning
 
 ## Post 1: Core Announcement

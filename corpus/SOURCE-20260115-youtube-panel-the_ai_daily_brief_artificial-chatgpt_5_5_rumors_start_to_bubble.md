@@ -1,38 +1,3 @@
----
-id: SOURCE-20260115-477
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "rumors"
-  - "start"
-  - "bubble"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "ChatGPT 5.5 Rumors Start to Bubble"
-url: "https://www.youtube.com/watch?v=Smh50q7UTcY"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 23s"
-has_transcript: no
-synopsis: "ChatGPT 5.5 Rumors Start to Bubble by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering chatgpt, rumors, start."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "ChatGPT 5.5 Rumors Start"
-  - "ChatGPT 5.5 Rumors Start to Bubble"
----
-
 # ChatGPT 5.5 Rumors Start to Bubble
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

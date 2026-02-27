@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-314
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "google"
-  - "greatest"
-  - "model"
-  - "ever"
-creator: "WorldofAI"
-guest: null
-title: "Gemini 3.5 Is Google's Greatest Model Ever! Most Powerful AI EVER! (Tested)"
-url: "https://www.youtube.com/watch?v=0lVt3nKmyFk"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 49s"
-has_transcript: no
-synopsis: "Gemini 3.5 Is Google's Greatest Model Ever! Most Powerful AI EVER! (Tested) by WorldofAI. A lecture covering gemini, google, greatest."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3.5 Is Google's"
-  - "Gemini 3.5 Is Google's Greatest Model"
----
-
 # Gemini 3.5 Is Google's Greatest Model Ever! Most Powerful AI EVER! (Tested)
 
 **Channel**: WorldofAI

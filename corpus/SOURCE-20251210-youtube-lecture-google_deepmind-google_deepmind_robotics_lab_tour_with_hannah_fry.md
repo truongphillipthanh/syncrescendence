@@ -1,39 +1,3 @@
----
-id: SOURCE-20251210-878
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "google"
-  - "deepmind"
-  - "robotics"
-  - "lab"
-  - "tour"
-creator: "Google DeepMind"
-guest: null
-title: "Google DeepMind robotics lab tour with Hannah Fry"
-url: "https://www.youtube.com/watch?v=UALxgn1MnZo"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 44s"
-has_transcript: no
-synopsis: "Google DeepMind robotics lab tour with Hannah Fry by Google DeepMind. A lecture covering google, deepmind, robotics."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google DeepMind robotics lab"
-  - "Google DeepMind robotics lab tour with"
----
-
 # Google DeepMind robotics lab tour with Hannah Fry
 
 **Channel**: Google DeepMind

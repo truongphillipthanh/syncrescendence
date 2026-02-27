@@ -1,39 +1,3 @@
----
-id: SOURCE-20251213-835
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "trump"
-  - "just"
-  - "gutted"
-  - "state"
-  - "laws"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Trump Just Gutted State Al Laws, OpenAl Panicked, Al Agents Stole $4.6M--Your 10-Minute Breakdown"
-url: "https://www.youtube.com/watch?v=pEsoqm0o3Dk"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 3s"
-has_transcript: no
-synopsis: "Trump Just Gutted State Al Laws, OpenAl Panicked, Al Agents Stole $4.6M--Your 10-Minute Breakdown by AI News & Strategy Daily | Nate B Jones. A lecture covering trump, just, gutted."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Trump Just Gutted State"
-  - "Trump Just Gutted State Al Laws,"
----
-
 # Trump Just Gutted State Al Laws, OpenAl Panicked, Al Agents Stole $4.6M--Your 10-Minute Breakdown
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

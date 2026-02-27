@@ -1,31 +1,3 @@
----
-url: https://x.com/DanielMiessler/status/2019629633839231190
-author: "Daniel Miessler (@DanielMiessler)"
-captured_date: 2026-02-05
-id: SOURCE-20260206-003
-original_filename: "20260206-x_article-cowork_and_openclaw_showed_us_the_first_practical_agi-@danielmiessler.md"
-status: triaged
-platform: x
-format: article
-creator: danielmiessler
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - ai-workflow
-  - automation
-  - extended-thinking
-  - rag
-  - cli-tools
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Cowork and OpenClaw Showed Us The First Practical AGI"
-synopsis: "Cowork and OpenClaw Showed Us The First Practical AGI I think we just saw the first glimpse of AGI, and most are missing it. But what does that even mean. Well, if you're an academic in an AI or related field you probably jump to some theoretical level of synthetic intelligence that meets or exceeds human performance on any cognitive task. Which many believe is impossible using current LLMs."
-key_insights:
-  - "Corporate says we're switching from OKRs to KPIs, with a focus on first principles thinking, so we need to redo our whole performance measurement system we built over the last 6 months."
-  - "The reason OpenClaw and Claude Cowork are so significant is because they are approaching this gener."
-  - "Cowork and OpenClaw Showed Us The First Practical AGI I think we just saw the first glimpse of AGI, and most are missing it."
----
 # Cowork and OpenClaw Showed Us The First Practical AGI
 
 (Description: Hero image displaying two distinct visual concepts side by side. Left panel features a figure in business attire sitting above a chess board with mathematical and technical diagrams in the background, labeled "NARROW vs GENERAL" with "Two definitions of intelligence" subtitle on the right. The right panel shows abstract neural network-like organic structures in red and purple tones with various annotations and connection diagrams representing neural complexity.)

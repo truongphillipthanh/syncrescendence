@@ -1,31 +1,3 @@
----
-url: https://x.com/NoahEpstein_/status/2015073824799371370
-author: "Nozz (@NoahEpstein_)"
-captured_date: 2026-01-24
-id: SOURCE-20260124-002
-original_filename: "20260124-x_article-what_is_clawdbot_and_why_people_are_losing_their_minds_over_it-@noahepstein_.md"
-status: triaged
-platform: x
-format: article
-creator: noahepstein_
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - extended-thinking
-  - gpt
-  - mac-mini
-  - clawdbot
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "What Is Clawdbot And Why People Are Losing Their Minds Over It"
-synopsis: "Like, remembered what you told it. And messaged YOU when something important happened. People are losing their minds over this thing - buying Mac Minis, building server setups, overcomplicating everything. You don't need any of that. Let me break it down simply. Think of it like this: ChatGPT and Claude live on a website."
-key_insights:
-  - "And messaged YOU when something important happened."
-  - "Like, remembered what you told it."
-  - "People are losing their minds over this thing - buying Mac Minis, building server setups, overcomplicating everything."
----
 # What Is Clawdbot? (And Why People Are Losing Their Minds Over It)
 
 Imagine if Siri actually worked.

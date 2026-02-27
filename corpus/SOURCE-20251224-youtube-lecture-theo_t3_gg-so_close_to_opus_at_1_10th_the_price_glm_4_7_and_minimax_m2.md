@@ -1,39 +1,3 @@
----
-id: SOURCE-20251224-733
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "close"
-  - "opus"
-  - "10th"
-  - "price"
-  - "glm"
-creator: "Theo - t3․gg"
-guest: null
-title: "So close to Opus at 1/10th the price (GLM-4.7 and Minimax M2.1 showdown)"
-url: "https://www.youtube.com/watch?v=kEPLuEjVr_4"
-date_published: 2025-12-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 39s"
-has_transcript: no
-synopsis: "So close to Opus at 1/10th the price (GLM-4.7 and Minimax M2.1 showdown) by Theo - t3․gg. A lecture covering close, opus, 10th."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "So close to Opus"
-  - "So close to Opus at 1/10th"
----
-
 # So close to Opus at 1/10th the price (GLM-4.7 and Minimax M2.1 showdown)
 
 **Channel**: Theo - t3․gg

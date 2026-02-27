@@ -1,32 +1,3 @@
----
-url: https://x.com/venturetwins/status/2018728397573398608
-author: "Justine Moore (@venturetwins)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-026
-original_filename: "20260203-x_article-most_people_cant_vibe_code_heres_how_we_fix_that-@venturetwins.md"
-status: triaged
-platform: x
-format: article
-creator: venturetwins
-signal_tier: tactical
-topics:
-  - vibe-coding
-  - prompting
-  - automation
-  - testing
-  - extended-thinking
-  - cursor
-  - gpt
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "Most People Cant Vibe Code Heres How We Fix That"
-synopsis: "Most People Can't Vibe Code. Here's How We Fix That Vibe coding promised to democratize software engineering. Instead, it's created a new class of power users without touching everyday consumers. The Reality We are living through the golden age of software."
-key_insights:
-  - "The Gap Is Enormous Try to put yourself in the mindset of someone who has never coded before."
-  - "This is going to be difficult if you're technical or even tech-adjacent — you've internalized so many things that the average person has never encountered."
-  - "I'd never interacted with an IDE before I started vibe coding."
----
 # Most People Can't Vibe Code. Here's How We Fix That
 
 (Description: Hero image showing a person sitting on a mountain cliff at sunset/sunrise using a laptop, with abstract digital data visualization overlaid in the sky. Title text reads "Most People Can't Vibe Code. Here's How We Fix That" with author credit to Justine Moore.)

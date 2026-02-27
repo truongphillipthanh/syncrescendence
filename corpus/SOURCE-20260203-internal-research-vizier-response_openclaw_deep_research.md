@@ -1,28 +1,3 @@
----
-id: SOURCE-20260203-010
-original_filename: RESPONSE-VIZIER-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: vizier
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - openclaw
-  - architecture
-  - security
-  - research
-teleology: strategize
-notebooklm_category: ai-agents
-aliases:
-  - "Vizier response - OpenClaw vs Claude Code strategic analysis"
-synopsis: "Strategic intelligence distinguishing OpenClaw from Claude Code — OpenClaw uses Claude's API but is an independent open-source project with full system access, while Claude Code is Anthropic's official controlled agentic tool. Compares security models, extensibility, and integration strategies for Syncrescendence's multi-avatar architecture."
-url: internal
-key_insights:
-  - "OpenClaw is NOT Claude Code — it's an independent open-source project using Claude as its brain, with fundamentally different security models and extensibility."
-  - "Claude Code's MCP and subagent system provides controlled paths to autonomous dispatch, while OpenClaw offers aggressive but security-risky extensibility."
-  - "The 'constellation' coordination patterns from production systems like Polaris offer proven blueprints, though security remains the dominant unsolved problem."
----
 # Strategic intelligence: OpenClaw, Claude Code, and multi-model orchestration for Syncrescendence
 
 **Bottom line**: OpenClaw is *not* Claude Code—it's a separate open-source project that *uses* Claude as its brain. This distinction fundamentally reshapes integration strategy. Claude Code's official capabilities through MCP and the subagent system provide more controlled paths to autonomous dispatch, while OpenClaw's ecosystem offers aggressive but security-risky extensibility. For Syncrescendence's multi-avatar architecture, the emerging "constellation" patterns from production systems like Polaris offer proven coordination blueprints, though security remains the dominant unsolved problem across all approaches.

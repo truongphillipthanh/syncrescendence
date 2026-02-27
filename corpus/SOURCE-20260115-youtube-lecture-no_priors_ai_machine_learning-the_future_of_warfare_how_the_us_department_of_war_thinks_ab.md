@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-464
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "future"
-  - "warfare"
-  - "department"
-  - "war"
-  - "thinks"
-creator: "No Priors: AI, Machine Learning, Tech, & Startups"
-guest: null
-title: "The Future of Warfare: How the US Department of War Thinks About AI"
-url: "https://www.youtube.com/watch?v=djv5UDHrg7g"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "44m 31s"
-has_transcript: no
-synopsis: "The Future of Warfare: How the US Department of War Thinks About AI by No Priors: AI, Machine Learning, Tech, & Startups. A lecture covering future, warfare, department."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "The Future of Warfare:"
-  - "The Future of Warfare: How the"
----
-
 # The Future of Warfare: How the US Department of War Thinks About AI
 
 **Channel**: No Priors: AI, Machine Learning, Tech, & Startups

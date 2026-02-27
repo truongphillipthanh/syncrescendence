@@ -1,9 +1,3 @@
----
-url: https://x.com/emollick/status/2019571750862819811
-author: Ethan Mollick (@emollick)
-captured_date: 2026-02-14
----
-
 # Ethan Mollick - Opus 4.6 System Card Thread
 
 ## Post 1

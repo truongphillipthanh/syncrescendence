@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-016
-title: Agents 201 Orchestrating Multiple Agents That Actually Work
-platform: x
-format: article
-creator: ghumare64
-date_published: "2026-01-16"
-status: triaged
-url: https://x.com/ghumare64/status/2012136491133145364
-original_filename: "research/agents/agents_201_orchestrating_multiple_agents_that_actually_work-@ghumare64.md"
-aliases:
-  - "Ghumare - Agents 201 Orchestration"
-teleology: implement
-notebooklm_category: ai-agents
-synopsis: "Advanced guide on orchestrating multiple AI agents: covers orchestration patterns, communication protocols, state management, error handling, and practical architectures for multi-agent systems that actually work in production."
-key_insights:
-  - "Multi-agent orchestration requires explicit communication protocols and shared state management not just spawning multiple instances"
-  - "Error handling in multi-agent systems must account for cascading failures where one agent failure can corrupt others work"
-  - "Practical multi-agent architectures use supervisor patterns with clear delegation and result aggregation rather than peer-to-peer communication"
-topics:
-  - "ai-agents"
-  - "ai-engineering"
-  - "best-practices"
-  - "framework"
-signal_tier: strategic
----
-
 After building your first single agent, the next challenge isn't making it smarter, it's making multiple agents work together without burning through your token budget or creating coordination chaos.
 This guide covers what happens when you need more than one agent: orchestration patterns, communication strategies, and production lessons from real deployments.
 Why Multiple Agents?

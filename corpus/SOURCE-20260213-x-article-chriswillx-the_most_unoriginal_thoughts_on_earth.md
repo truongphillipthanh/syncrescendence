@@ -1,28 +1,3 @@
----
-url: https://x.com/ChrisWillx/status/2022364071299776942
-author: "Chris Williamson (@ChrisWillx)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-005
-original_filename: "20260213-x_article-the_most_unoriginal_thoughts_on_earth-@chriswillx.md"
-status: triaged
-platform: x
-format: article
-creator: chriswillx
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - product-development
-  - rag
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Most Unoriginal Thoughts on Earth"
-synopsis: "The Most Unoriginal Thoughts on Earth You are not original. I've talked to thousands of people one-on-one at my live show meet & greets over the last year. Here is a list of thoughts that almost everyone has, but thinks that no one else has… - I'm terrified that momentum is more important than talent, and I lost mine."
-key_insights:
-  - "Here is a list of thoughts that almost everyone has, but thinks that no one else has… - I'm terrified that momentum is more important than talent, and I lost mine."
-  - "- My parents did the best they could, and I'm still quietly angry about it."
-  - "- I mistake familiarity for truth."
----
 # The Most Unoriginal Thoughts on Earth
 (Description: A muted blue-grey cinematic image depicting dozens of identical humanoid figures with simple geometric facial features arranged in a crowd formation. Each figure has a smooth, sphere-like head with minimal facial details rendered as dots and lines, creating an effect of uniformity and anonymity. The lighting casts subtle shadows across the smooth surfaces, suggesting a contemplative, somber mood. The composition emphasizes repetition and the loss of individual identity.)
 You are not original.

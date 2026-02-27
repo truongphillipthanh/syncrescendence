@@ -1,39 +1,3 @@
----
-id: SOURCE-20251122-1035
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "things"
-  - "nano"
-  - "banana"
-  - "pro"
-  - "couldn"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "25 Things Nano Banana Pro Does That AI Couldn't Before"
-url: "https://www.youtube.com/watch?v=8_yeRvhn5r4"
-date_published: 2025-11-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 41s"
-has_transcript: no
-synopsis: "25 Things Nano Banana Pro Does That AI Couldn't Before by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering things, nano, banana."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "25 Things Nano Banana"
-  - "25 Things Nano Banana Pro Does"
----
-
 # 25 Things Nano Banana Pro Does That AI Couldn't Before
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

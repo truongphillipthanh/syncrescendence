@@ -1,32 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2019515233392349326
-author: "Corey Ganim (@GanimCorey)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-007
-original_filename: "20260205-x_article-the_clawdbot_masterclass_from_setup_to_10_plus_hours_saved_per_week-@ganimcorey.md"
-status: triaged
-platform: x
-format: article
-creator: ganimcorey
-signal_tier: tactical
-topics:
-  - ai-agents
-  - extended-thinking
-  - anthropic
-  - api
-  - rag
-  - cost-optimization
-  - terminal
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "The Clawdbot Masterclass from setup to 10 hours saved per week"
-synopsis: "The Clawdbot Masterclass (from setup to 10+ hours saved per week) Most people use AI to write emails or generate images. But I use it as an employee that runs 24/7, manages my task list, drafts my content, handles my calendar, and preps my entire day before I wake up. She cost me $0 in salary. And she's getting better every week."
-key_insights:
-  - "The Clawdbot Masterclass (from setup to 10+ hours saved per week) Most people use AI to write emails or generate images."
-  - "But I use it as an employee that runs 24/7, manages my task list, drafts my content, handles my calendar, and preps my entire day before I wake up."
-  - "And she's getting better every week."
----
 # The Clawdbot Masterclass (from setup to 10+ hours saved per week)
 
 (Description: Article cover image showing "clawdbot masterclass" text in cyan with "setup → 10+ hours saved/week" tagline. Right panel displays "The Stack" section with blurred content including topic headings and a teal accent bar.)

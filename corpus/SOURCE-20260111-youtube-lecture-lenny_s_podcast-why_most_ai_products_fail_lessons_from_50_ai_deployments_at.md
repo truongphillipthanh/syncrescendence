@@ -1,39 +1,3 @@
----
-id: SOURCE-20260111-533
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "most"
-  - "products"
-  - "fail"
-  - "lessons"
-  - "deployments"
-creator: "Lenny's Podcast"
-guest: null
-title: "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon"
-url: "https://www.youtube.com/watch?v=z7T1pCxgvlA"
-date_published: 2026-01-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 26m 23s"
-has_transcript: no
-synopsis: "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon by Lenny's Podcast. A lecture covering most, products, fail."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why most AI products"
-  - "Why most AI products fail: Lessons"
----
-
 # Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon
 
 **Channel**: Lenny's Podcast

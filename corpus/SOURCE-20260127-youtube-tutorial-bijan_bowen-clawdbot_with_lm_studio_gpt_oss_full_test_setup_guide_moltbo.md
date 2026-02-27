@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-287
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "studio"
-  - "gpt"
-  - "oss"
-  - "full"
-creator: "Bijan Bowen"
-guest: null
-title: "Clawdbot With LM Studio & GPT-OSS – Full Test & Setup Guide (Moltbot)"
-url: "https://www.youtube.com/watch?v=3K37-n80tDg"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 9s"
-has_transcript: no
-synopsis: "Clawdbot With LM Studio & GPT-OSS – Full Test & Setup Guide (Moltbot) by Bijan Bowen. A tutorial covering clawdbot, studio, gpt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Clawdbot With LM Studio"
-  - "Clawdbot With LM Studio & GPT-OSS"
----
-
 # Clawdbot With LM Studio & GPT-OSS – Full Test & Setup Guide (Moltbot)
 
 **Channel**: Bijan Bowen

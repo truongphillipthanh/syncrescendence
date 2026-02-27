@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-564
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "mortgage"
-  - "rates"
-  - "falling"
-  - "oil"
-  - "prices"
-creator: "ARK Invest"
-guest: null
-title: "Mortgage Rates And Falling Oil Prices | ITK With Cathie Wood"
-url: "https://www.youtube.com/watch?v=-RH8u_v17HM"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "58m 37s"
-has_transcript: no
-synopsis: "Mortgage Rates And Falling Oil Prices | ITK With Cathie Wood by ARK Invest. A lecture covering mortgage, rates, falling."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Mortgage Rates And Falling"
-  - "Mortgage Rates And Falling Oil Prices"
----
-
 # Mortgage Rates And Falling Oil Prices | ITK With Cathie Wood
 
 **Channel**: ARK Invest

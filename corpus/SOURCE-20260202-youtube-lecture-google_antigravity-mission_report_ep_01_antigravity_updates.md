@@ -1,38 +1,3 @@
----
-id: SOURCE-20260202-202
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "mission"
-  - "report"
-  - "antigravity"
-  - "updates"
-creator: "Google Antigravity"
-guest: null
-title: "Mission Report Ep. 01 | Antigravity Updates"
-url: "https://www.youtube.com/watch?v=im_cBjH6lDQ"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2m 34s"
-has_transcript: no
-synopsis: "Mission Report Ep. 01 | Antigravity Updates by Google Antigravity. A lecture covering mission, report, antigravity."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Mission Report Ep. 01"
-  - "Mission Report Ep. 01 | Antigravity"
----
-
 # Mission Report Ep. 01 | Antigravity Updates
 
 **Channel**: Google Antigravity

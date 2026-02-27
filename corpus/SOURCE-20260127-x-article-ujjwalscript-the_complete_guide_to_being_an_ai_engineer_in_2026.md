@@ -1,30 +1,3 @@
----
-id: SOURCE-20260127-x-article-ujjwalscript-the_complete_guide_to_being_an_ai_engineer_in_2026
-platform: x
-format: article
-creator: ujjwalscript
-title: the complete guide to being an ai engineer in 2026
-status: triaged
-original_filename: "20260127-x_article-the_complete_guide_to_being_an_ai_engineer_in_2026-@ujjwalscript.md"
-url: https://x.com/ujjwalscript/status/2016139850966286577
-author: "Ujjwal Chadha (@ujjwalscript)"
-captured_date: 2026-02-04
-signal_tier: tactical
-topics:
-  - ai-engineering
-  - career
-  - tutorial
-  - framework
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Ujjwal Chadha - AI engineer guide 2026"
-synopsis: "Concise roadmap for becoming an AI Engineer in 2026, arguing the role is 80% software engineering and 20% AI whispering. Covers four pillars: Dynamic RAG with vector databases and reranking, Agentic workflows with LangGraph, LLM evaluation with LLM-as-a-judge patterns, and Model distillation for cost optimization. Includes three progressive build projects."
-key_insights:
-  - "The AI Engineer role has shifted from training models to building reliable plumbing — the bottleneck is implementation (making LLMs useful, reliable, and cheap), not the models themselves."
-  - "Dynamic RAG with self-querying retrieval and reranking (e.g., Cohere) has replaced simple top-K vector search as the baseline standard."
-  - "Model distillation — using large model outputs to fine-tune smaller models like Llama-3-8B — is the key cost optimization skill, reducing per-query costs by 10,000x."
----
 # The Complete Guide to being an AI Engineer in 2026
 
 (Description: A dark, monochromatic technical illustration showing a woman in a sleek black outfit interacting with holographic displays in a futuristic control room. Multiple human figures and circular visualizations are visible, representing data flows and AI systems management.)

@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-202
-topic: DC-202 Engine Deep Inspection — Session 5 (REF + QUEUE + Sources survey, verdicts 99–147)
-status: unprocessed
-collected: 2026-02-23
----
-
 **Resuming DC-202, session S5.**
 Files completed: 99/147. Picking up from: REF + remaining + Sources Survey.  
 

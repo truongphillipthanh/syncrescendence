@@ -1,39 +1,3 @@
----
-id: SOURCE-20260128-250
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "100"
-  - "hours"
-  - "testing"
-  - "clawdbot"
-  - "claude"
-creator: "Nate Herk | AI Automation"
-guest: null
-title: "100 Hours Testing Clawdbot vs Claude Code (honest results)"
-url: "https://www.youtube.com/watch?v=CBNbcbMs_Lc"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 47s"
-has_transcript: no
-synopsis: "100 Hours Testing Clawdbot vs Claude Code (honest results) by Nate Herk | AI Automation. A lecture covering 100, hours, testing."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "100 Hours Testing Clawdbot"
-  - "100 Hours Testing Clawdbot vs Claude"
----
-
 # 100 Hours Testing Clawdbot vs Claude Code (honest results)
 
 **Channel**: Nate Herk | AI Automation

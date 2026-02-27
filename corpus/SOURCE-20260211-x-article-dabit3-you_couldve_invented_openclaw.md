@@ -1,32 +1,3 @@
----
-url: https://x.com/dabit3/status/2021387483364151451
-author: "nader dabit (@dabit3)"
-captured_date: 2026-02-13
-id: SOURCE-20260211-004
-original_filename: "20260211-x_article-you_couldve_invented_openclaw-@dabit3.md"
-status: triaged
-platform: x
-format: article
-creator: dabit3
-signal_tier: strategic
-topics:
-  - ai-agents
-  - context-management
-  - memory-management
-  - gpt
-  - api
-  - architecture
-  - multi-agent
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "You Couldve Invented OpenClaw"
-synopsis: "You Could've Invented OpenClaw Overview This tutorial builds a persistent AI assistant from scratch, demonstrating how the architecture behind OpenClaw emerges from practical problems. The post covers sessions, personality systems, tools, permissions, gateways, context compaction, memory, command queues, heartbeats, and multi-agent routing."
-key_insights:
-  - "You Could've Invented OpenClaw Overview This tutorial builds a persistent AI assistant from scratch, demonstrating how the architecture behind OpenClaw emerges from practical problems."
-  - "The post covers sessions, personality systems, tools, permissions, gateways, context compaction, memory, command queues, heartbeats, and multi-agent routing."
-  - "> This tutorial involves a lot of code and is therefore also available as markdown."
----
 # You Could've Invented OpenClaw
 
 ## Overview

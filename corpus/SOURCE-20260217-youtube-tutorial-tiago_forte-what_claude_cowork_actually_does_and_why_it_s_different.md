@@ -1,38 +1,3 @@
----
-id: SOURCE-20260217-039
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "cowork"
-  - "actually"
-  - "different"
-creator: "Tiago Forte"
-guest: null
-title: "What Claude Cowork Actually Does (And Why It's Different)"
-url: "https://www.youtube.com/watch?v=_42sUaf037k"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 3s"
-has_transcript: no
-synopsis: "What Claude Cowork Actually Does (And Why It's Different) by Tiago Forte. A tutorial covering claude, cowork, actually."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "What Claude Cowork Actually"
-  - "What Claude Cowork Actually Does (And"
----
-
 # What Claude Cowork Actually Does (And Why It's Different)
 
 **Channel**: Tiago Forte

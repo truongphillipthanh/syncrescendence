@@ -1,37 +1,3 @@
----
-id: SOURCE-20251219-772
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "2030s"
-  - "new"
-  - "renaissance"
-creator: "Medieval Mindset"
-guest: null
-title: "Why The 2030s Will Be The New Renaissance"
-url: "https://www.youtube.com/watch?v=gBrm1M87_Fc"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 7s"
-has_transcript: no
-synopsis: "Why The 2030s Will Be The New Renaissance by Medieval Mindset. A tutorial covering 2030s, new, renaissance."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why The 2030s Will"
-  - "Why The 2030s Will Be The"
----
-
 # Why The 2030s Will Be The New Renaissance
 
 **Channel**: Medieval Mindset

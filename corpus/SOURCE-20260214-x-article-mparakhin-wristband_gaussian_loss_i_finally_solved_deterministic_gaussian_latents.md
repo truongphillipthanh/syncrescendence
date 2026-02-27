@@ -1,31 +1,3 @@
----
-url: https://x.com/MParakhin/status/2022814674899865771
-author: "Mikhail Parakhin (@MParakhin)"
-captured_date: 2026-02-20
-id: SOURCE-20260214-005
-original_filename: "20260214-x_article-wristband_gaussian_loss_i_finally_solved_deterministic_gaussian_latents-@mparakhin.md"
-status: triaged
-platform: x
-format: article
-creator: mparakhin
-signal_tier: strategic
-topics:
-  - testing
-  - extended-thinking
-  - gpt
-  - rag
-  - embeddings
-  - cli-tools
-teleology: extract
-notebooklm_category: ai-engineering
-aliases:
-  - "Wristband Gaussian Loss I finally solved deterministic Gaussian latents"
-synopsis: "Wristband Gaussian Loss: I finally solved "deterministic Gaussian latents" *(after 7 years… + a collaboration with GPT‑5.2 Pro, Extended Thinking)* I've been stuck on the same representation-learning problem for ~7 years: I want a **deterministic** encoder that maps data → a latent space that's **ac."
-key_insights:
-  - "Problem 1: Uniform-on-sphere is not composable Even if you have **two** sets of vectors that each look uniform on a sphere, their **concatenation is not uniform** on a bigger sphere."
-  - "A concrete way to see it: - Let u ∈ S^{d1-1} and v ∈ S^{d2-1} be uniform (each has fixed norm 1)."
-  - "- Concatenate and renormalize: w = [u, v] / ||[u, v]|| = [u, v] / √2."
----
 # Wristband Gaussian Loss: I finally solved "deterministic Gaussian latents"
 *(after 7 years… + a collaboration with GPT‑5.2 Pro, Extended Thinking)*
 I've been stuck on the same representation-learning problem for ~7 years:

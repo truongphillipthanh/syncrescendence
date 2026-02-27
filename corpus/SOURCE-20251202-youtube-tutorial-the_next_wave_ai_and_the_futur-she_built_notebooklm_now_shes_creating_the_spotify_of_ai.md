@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-952
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "built"
-  - "notebooklm"
-  - "now"
-  - "creating"
-  - "spotify"
-creator: "The Next Wave - AI and the Future of Technology"
-guest: null
-title: "She Built NotebookLM. Now She’s Creating The 'Spotify of AI'"
-url: "https://www.youtube.com/watch?v=pYVGFDdcLlU"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 42s"
-has_transcript: no
-synopsis: "She Built NotebookLM. Now She’s Creating The 'Spotify of AI' by The Next Wave - AI and the Future of Technology. A tutorial covering built, notebooklm, now."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "She Built NotebookLM. Now"
-  - "She Built NotebookLM. Now She’s Creating"
----
-
 # She Built NotebookLM. Now She’s Creating The 'Spotify of AI'
 
 **Channel**: The Next Wave - AI and the Future of Technology

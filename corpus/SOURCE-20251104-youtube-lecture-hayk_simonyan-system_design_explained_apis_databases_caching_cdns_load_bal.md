@@ -1,39 +1,3 @@
----
-id: SOURCE-20251104-136
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "system"
-  - "design"
-  - "explained"
-  - "apis"
-  - "databases"
-creator: "Hayk Simonyan"
-guest: null
-title: "System Design Explained: APIs, Databases, Caching, CDNs, Load Balancing & Production Infra"
-url: "https://www.youtube.com/watch?v=adOkTjIIDnk"
-date_published: 2025-11-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 49m 49s"
-has_transcript: no
-synopsis: "System Design Explained: APIs, Databases, Caching, CDNs, Load Balancing & Production Infra by Hayk Simonyan. A lecture covering system, design, explained."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "System Design Explained: APIs,"
-  - "System Design Explained: APIs, Databases, Caching,"
----
-
 # System Design Explained: APIs, Databases, Caching, CDNs, Load Balancing & Production Infra
 
 **Channel**: Hayk Simonyan

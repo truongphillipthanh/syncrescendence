@@ -1,38 +1,3 @@
----
-id: SOURCE-20260109-568
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "break"
-  - "everything"
-creator: "Wes Roth"
-guest: null
-title: "Claude Code is about to break everything"
-url: "https://www.youtube.com/watch?v=XCUWrrmaNck"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 23s"
-has_transcript: no
-synopsis: "Claude Code is about to break everything by Wes Roth. A interview covering claude, code, break."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code is about"
-  - "Claude Code is about to break"
----
-
 # Claude Code is about to break everything
 
 **Channel**: Wes Roth

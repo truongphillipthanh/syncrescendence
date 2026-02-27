@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-570
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "ceo"
-  - "jensen"
-  - "huang"
-  - "thinking"
-creator: "CNBC Television"
-guest: null
-title: "Nvidia CEO Jensen Huang: We've been thinking about robotics for a long time"
-url: "https://www.youtube.com/watch?v=mP-TyDeVoUU"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 41s"
-has_transcript: no
-synopsis: "Nvidia CEO Jensen Huang: We've been thinking about robotics for a long time by CNBC Television. A lecture covering nvidia, ceo, jensen."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Nvidia CEO Jensen Huang:"
-  - "Nvidia CEO Jensen Huang: We've been"
----
-
 # Nvidia CEO Jensen Huang: We've been thinking about robotics for a long time
 
 **Channel**: CNBC Television

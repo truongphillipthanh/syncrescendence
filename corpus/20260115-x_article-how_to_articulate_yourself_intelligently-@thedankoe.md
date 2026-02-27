@@ -1,9 +1,3 @@
----
-url: https://x.com/thedankoe/status/2011827303962329458
-author: Dan Koe (@thedankoe)
-captured_date: 2026-01-30
----
-
 # How to articulate yourself intelligently
 
 (Description: A black and white artistic illustration showing a profile of a human head with an open mouth on the left side, emitting or releasing a spiral galaxy and cosmic cloud formations toward the upper right. The imagery suggests the flow of ideas, knowledge, or communication emerging from thought and speech.)

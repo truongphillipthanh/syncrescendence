@@ -1,31 +1,3 @@
----
-url: https://x.com/AndrewWarner/status/2019456827033866482
-author: "Andrew Warner (@AndrewWarner)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-004
-original_filename: "20260205-x_article-openclaw_workforce_the_complete_guide_to_running_yours-@andrewwarner.md"
-status: triaged
-platform: x
-format: article
-creator: andrewwarner
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - extended-thinking
-  - gpt
-  - mac-mini
-  - clawdbot
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw Workforce The complete guide to running yours"
-synopsis: "OpenClaw Workforce: The complete guide to running yours @pbteja1998 told me he has a workforce of 14 OpenClaw/Clawdbot agents. So I asked him to show me how they collaborate & grow his business, @SiteGPT."
-key_insights:
-  - "He wanted specialists for each important task."
-  - "OpenClaw Workforce: The complete guide to running yours @pbteja1998 told me he has a workforce of 14 OpenClaw/Clawdbot agents."
-  - "So I asked him to show me how they collaborate & grow his business, @SiteGPT."
----
 # OpenClaw Workforce: The complete guide to running yours
 
 (Description: Title card with large text "HOW TO LEAD AN OpenClaw WORKFORCE" with stylized red circular character icons arranged in a row below)

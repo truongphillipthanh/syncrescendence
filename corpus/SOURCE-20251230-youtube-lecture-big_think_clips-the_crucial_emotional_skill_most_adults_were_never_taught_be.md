@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-666
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "crucial"
-  - "emotional"
-  - "skill"
-  - "most"
-  - "adults"
-creator: "Big Think Clips"
-guest: null
-title: "The crucial emotional skill most adults were never taught | Becky Kennedy"
-url: "https://www.youtube.com/watch?v=P67QcUyQ6lU"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "41m 52s"
-has_transcript: no
-synopsis: "The crucial emotional skill most adults were never taught | Becky Kennedy by Big Think Clips. A lecture covering crucial, emotional, skill."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The crucial emotional skill"
-  - "The crucial emotional skill most adults"
----
-
 # The crucial emotional skill most adults were never taught | Becky Kennedy
 
 **Channel**: Big Think Clips

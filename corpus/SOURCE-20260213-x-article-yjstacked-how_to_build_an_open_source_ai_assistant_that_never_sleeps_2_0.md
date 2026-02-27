@@ -1,32 +1,3 @@
----
-url: https://x.com/YJstacked/status/2022371168469254168
-author: "YJ (@YJstacked)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-016
-original_filename: "20260213-x_article-how_to_build_an_open_source_ai_assistant_that_never_sleeps_2_0-@yjstacked.md"
-status: triaged
-platform: x
-format: article
-creator: yjstacked
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - prompting
-  - automation
-  - deployment
-  - docker
-  - git
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How to Build an Open Source AI Assistant That Never Sleeps 20"
-synopsis: "How to Build an Open Source AI Assistant That Never Sleeps. That loop has a ceiling. OpenClaw removes the ceiling entirely. Before that, if you want us to set this up for you or automate different business operations head here - WHAT OPENCLAW ACTUALLY IS OpenClaw is an open source framework (MIT licensed) that turns your own hardware into a persistent AI agent you fully control."
-key_insights:
-  - "How to Build an Open Source AI Assistant That Never Sleeps."
-  - "VPS deployment from around $5 a month for always-on operation."
-  - "OpenClaw removes the ceiling entirely."
----
 # How to Build an Open Source AI Assistant That Never Sleeps. (2.0)
 ![OpenClaw Agent Interface](https://x.com/YJstacked/status/2022371168469254168/media/2022370801362833410)
 (Description: Futuristic holographic interface showing a red glowing spherical AI agent at the center labeled "OpenClaw" with radiating light paths. Surrounding the agent are multiple smartphones, laptops, and displays arranged in a circle showing data dashboards, world maps with network overlays, and analytics panels. The environment features neon blue and red lighting with transparent glass panels and sci-fi architecture.)

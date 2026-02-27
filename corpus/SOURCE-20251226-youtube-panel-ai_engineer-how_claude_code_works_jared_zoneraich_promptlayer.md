@@ -1,39 +1,3 @@
----
-id: SOURCE-20251226-708
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "works"
-  - "jared"
-  - "zoneraich"
-creator: "AI Engineer"
-guest: null
-title: "How Claude Code Works - Jared Zoneraich, PromptLayer"
-url: "https://www.youtube.com/watch?v=RFKCzGlAU6Q"
-date_published: 2025-12-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 5m 43s"
-has_transcript: no
-synopsis: "How Claude Code Works - Jared Zoneraich, PromptLayer by AI Engineer. A panel discussion covering claude, code, works."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How Claude Code Works"
-  - "How Claude Code Works - Jared"
----
-
 # How Claude Code Works - Jared Zoneraich, PromptLayer
 
 **Channel**: AI Engineer

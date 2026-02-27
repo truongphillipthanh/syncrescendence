@@ -1,39 +1,3 @@
----
-id: SOURCE-20260119-414
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "just"
-  - "made"
-  - "genius"
-  - "move"
-creator: "Matthew Berman"
-guest: null
-title: "OpenAI just made a genius move"
-url: "https://www.youtube.com/watch?v=eC85AquemOU"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 33s"
-has_transcript: no
-synopsis: "OpenAI just made a genius move by Matthew Berman. A lecture covering openai, just, made."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI just made a"
-  - "OpenAI just made a genius move"
----
-
 # OpenAI just made a genius move
 
 **Channel**: Matthew Berman

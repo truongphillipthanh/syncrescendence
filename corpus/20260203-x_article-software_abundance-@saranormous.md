@@ -1,9 +1,3 @@
----
-url: https://x.com/saranormous/status/2018801883222253737
-author: sarah guo (@saranormous)
-captured_date: 2026-02-03
----
-
 # Software Abundance
 
 (Description: A vibrant digital illustration featuring a futuristic purple and neon-pink cyberpunk cityscape. White sans-serif text reads "SOFTWARE ABUNDANCE" with the subtitle "WHEN CODE IS CHEAP, JUDGMENT BECOMES THE WORK". The scene includes flying vehicles, glowing planets, a sun-like sphere with warm orange glow, and stylized city towers against a star-filled sky with neon accents.)

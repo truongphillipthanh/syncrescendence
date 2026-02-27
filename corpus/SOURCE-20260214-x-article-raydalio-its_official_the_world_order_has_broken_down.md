@@ -1,28 +1,3 @@
----
-url: https://x.com/RayDalio/status/2022788750388998543
-author: Ray Dalio
-captured_date: 2026-02-20
-id: SOURCE-20260214-006
-original_filename: "20260214-x_article-its_official_the_world_order_has_broken_down-@raydalio.md"
-status: triaged
-platform: x
-format: article
-creator: raydalio
-signal_tier: paradigm
-topics:
-  - extended-thinking
-  - security
-  - rules-files
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Its Official The World Order Has Broken Down"
-synopsis: "It's Official: The World Order Has Broken Down At the Munich Security Conference, the post-1945 world order was pronounced dead by most leaders and the picture behind it was laid out in the Security Report 2026, entitled "Under Destruction." More specifically, German Chancellor Friedrich Merz said,."
-key_insights:
-  - "French President Emmanuel Macron echoed Merz's assessment and said that Europe's old security structures tied to the previous world order don't exist and that Europe must prepare for war."
-  - "Secretary of State Marco Rubio said that we are in a "new geopolitics era" because the "old world" is gone."
-  - "How Stage 6 works is explained in detail in Chapter 6, "The Big Cycle of External Order and Disorder," in my book *Principles for Dealing with the Changing World Order*."
----
 # It's Official: The World Order Has Broken Down
 At the Munich Security Conference, the post-1945 world order was pronounced dead by most leaders and the picture behind it was laid out in the Security Report 2026, entitled "Under Destruction." More specifically, German Chancellor Friedrich Merz said, "The world order as it has stood for decades no longer exists," and that we are in a period of "great power politics." He made clear that freedom "is no longer a given" in this new era. French President Emmanuel Macron echoed Merz's assessment and said that Europe's old security structures tied to the previous world order don't exist and that Europe must prepare for war. U.S. Secretary of State Marco Rubio said that we are in a "new geopolitics era" because the "old world" is gone.
 In my parlance, we are in the Stage 6 part of the Big Cycle in which there is great disorder arising from being in a period in which there are no rules, might is right, and there is a clash of great powers. How Stage 6 works is explained in detail in Chapter 6, "The Big Cycle of External Order and Disorder," in my book *Principles for Dealing with the Changing World Order*. While I previously shared a lengthy set of excerpts from Chapter 5 ("The Big Cycle of Internal Order and Disorder"), so you could see how what is going on with the United States tracks the classic cycle explained in that chapter, I am including all of Chapter 6 here for your review. Given the now nearly universal agreement that the post-1945 world order has broken down and that we are entering a new world order, I think it would be worth your time to read.

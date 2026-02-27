@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-551
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "pretty"
-  - "good"
-  - "first"
-  - "pass"
-  - "costing"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Why "Pretty Good on First Pass" Is Costing You Thousands--How To Fix It TODAY"
-url: "https://www.youtube.com/watch?v=iG_CCjdyeX0"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 40s"
-has_transcript: no
-synopsis: "Why "Pretty Good on First Pass" Is Costing You Thousands--How To Fix It TODAY by AI News & Strategy Daily | Nate B Jones. A tutorial covering pretty, good, first."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why "Pretty Good on"
-  - "Why "Pretty Good on First Pass""
----
-
 # Why "Pretty Good on First Pass" Is Costing You Thousands--How To Fix It TODAY
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

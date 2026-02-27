@@ -1,33 +1,3 @@
----
-id: SOURCE-20260120-001
-title: "Im 38 If Youre In Your 20S Or 30S Read This @Tim Denning"
-platform: x
-format: article
-creator: Tim Denning (Tim_Denning)
-date_published: 20260120
-status: triaged
-original_filename: "research/20260120-x_article-im_38_if_youre_in_your_20s_or_30s_read_this-@tim_denning.md"
-aliases:
-  - "Tim Denning Life Advice"
-  - "38 Year Old Lessons"
-teleology: inspire
-notebooklm_category: career-growth
-synopsis: "Tim Denning shares hard-won life lessons from age 38, covering risk-taking, parenthood, obsession as a performance driver, and the importance of skill acquisition over credentials. Draws on personal experiences including bankruptcy, mental illness, and entrepreneurship to argue that comfort-seeking and short-term thinking are the primary enemies of a meaningful life."
-key_insights:
-  - "Obsessive dedication to one thing outperforms distributed lukewarm interest — the world rewards depth of commitment, not breadth of dabbling"
-  - "Risk-taking compounds visibly by age 35 — the gap between those who took risks and those who played it safe becomes undeniable"
-  - "Nobody cares about your credentials or character traits — they care whether you can solve their specific problem right now"
-topics:
-  - career
-  - philosophy
-  - opinion
-  - best-practices
-signal_tier: tactical
-url: "https://x.com/Tim_Denning/status/2013552215097778231"
-author: "Tim Denning (@Tim_Denning)"
-captured_date: 2026-01-30
----
-
 # I'm 38. If You're in Your 20's or 30's, Read This.
 
 (Description: A vibrant party scene featuring multiple young women in sparkly, sequined clothing dancing together, laughing with genuine joy, illuminated by warm lighting and a bright light source in the center, capturing carefree celebration and youthful energy.)

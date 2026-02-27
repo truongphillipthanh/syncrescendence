@@ -1,21 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2019787923202195507
-author: "Corey Ganim (@GanimCorey)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-009
-original_filename: "20260206-x_article-the_skills_masterclass_5_ai_workflows_that_run_forever-@ganimcorey.md"
-status: triaged
-platform: x
-format: article
-creator: ganimcorey
-signal_tier: tactical
-topics: [claude-code, automation, ai-agents, content-creation, best-practices, tutorial]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["Corey Ganim - Skills Masterclass"]
-synopsis: "Detailed walkthrough of building 5 reusable Claude Code skills for recurring business tasks: X article creation, YouTube promotion, podcast guest research, LinkedIn outreach, and Stripe invoicing. Demonstrates how documenting processes as markdown skill files creates compounding automation that reclaims 20+ hours per week."
-key_insights: ["Skills are reusable markdown playbooks that turn recurring tasks into one-command executions, saving 30 min to 3 hours each", "The compounding effect is the real value — 10 skills x 2 uses/week = 20 hours reclaimed weekly", "Common mistakes include being too generic, skipping examples, and not updating skills as processes evolve"]
----
 # The Skills Masterclass: 5 AI Workflows That Run Forever
 
 ![the skills masterclass promotional image](Description: Left side shows "the skills masterclass" in bold black text with "masterclass" highlighted in teal/green. Subtitle reads "5 workflows that run forever" in gray text with a horizontal teal underline. Right side displays a white card with a teal clipboard icon labeled "Content Creation" at the top, followed by three additional section headers: "Email Sequences" (blurred gray text), "Meeting Prep" (bold black), and "Client Management" (bold black), each with accompanying blurred descriptive text below.)

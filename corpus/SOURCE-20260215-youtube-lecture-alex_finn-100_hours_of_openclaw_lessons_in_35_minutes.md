@@ -1,39 +1,3 @@
----
-id: SOURCE-20260215-070
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "100"
-  - "hours"
-  - "openclaw"
-  - "lessons"
-  - "minutes"
-creator: "Alex Finn"
-guest: null
-title: "100 hours of OpenClaw lessons in 35 minutes"
-url: "https://www.youtube.com/watch?v=_kZCoW-Qxnc"
-date_published: 2026-02-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 35s"
-has_transcript: no
-synopsis: "100 hours of OpenClaw lessons in 35 minutes by Alex Finn. A lecture covering 100, hours, openclaw."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "100 hours of OpenClaw"
-  - "100 hours of OpenClaw lessons in"
----
-
 # 100 hours of OpenClaw lessons in 35 minutes
 
 **Channel**: Alex Finn

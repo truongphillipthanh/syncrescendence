@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-377
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "irony"
-  - "llms"
-  - "insane"
-  - "new"
-  - "meta"
-creator: "bycloud"
-guest: null
-title: "The RL Irony in LLMs (and its insane new meta)"
-url: "https://www.youtube.com/watch?v=IdV5TEIsJhs"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 56s"
-has_transcript: no
-synopsis: "The RL Irony in LLMs (and its insane new meta) by bycloud. A tutorial covering irony, llms, insane."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The RL Irony in"
-  - "The RL Irony in LLMs (and"
----
-
 # The RL Irony in LLMs (and its insane new meta)
 
 **Channel**: bycloud

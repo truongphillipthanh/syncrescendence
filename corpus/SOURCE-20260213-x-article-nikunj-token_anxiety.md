@@ -1,28 +1,3 @@
----
-url: https://x.com/nikunj/status/2022438070092759281
-author: "Nikunj Kothari (@nikunj)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-013
-original_filename: "20260213-x_article-token_anxiety-@nikunj.md"
-status: triaged
-platform: x
-format: article
-creator: nikunj
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - codex
-  - token-management
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Token Anxiety"
-synopsis: "Token Anxiety ![Article header image] A friend left a party at 9:30 on a Saturday. He wanted to get back to his agents. Nobody questions it anymore. Half the room is thinking the same thing. The other half are probably checking the progress of their agents. All the parties are sober now."
-key_insights:
-  - "Always Running I replaced Netflix with Claude Code."
-  - "Token Anxiety ![Article header image] A friend left a party at 9:30 on a Saturday."
-  - "He wanted to get back to his agents."
----
 # Token Anxiety
 
 ![Article header image](Description: A gradient background transitioning from blue on the left to coral/salmon on the right. On the left side, two stacked cylindrical coins or tokens in white line-art style, with a notification badge marked "1" floating above. On the right side, a silhouetted figure of a person in profile, bent forward over a laptop computer, rendered in white line-art. Above the figure's head are small wavy lines suggesting stress or anxiety. The overall aesthetic is minimalist and uses a warm color palette.)

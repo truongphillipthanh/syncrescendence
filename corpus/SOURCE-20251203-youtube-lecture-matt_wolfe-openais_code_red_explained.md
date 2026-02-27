@@ -1,37 +1,3 @@
----
-id: SOURCE-20251203-943
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "code"
-  - "red"
-  - "explained"
-creator: "Matt Wolfe"
-guest: null
-title: "OpenAI’s Code Red Explained"
-url: "https://www.youtube.com/watch?v=8uGqOAYmPfw"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 31s"
-has_transcript: no
-synopsis: "OpenAI’s Code Red Explained by Matt Wolfe. A lecture covering openai, code, red."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI’s Code Red Explained"
----
-
 # OpenAI’s Code Red Explained
 
 **Channel**: Matt Wolfe

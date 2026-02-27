@@ -1,9 +1,3 @@
----
-url: https://x.com/rryssf_/status/2022022278544773629
-author: Robert Youssef (@rryssf_)
-captured_date: 2026-02-12
----
-
 # the tool isn't the work
 
 ![Article Header Image](Description: Evolution of humanity silhouettes from primitive ape-like figures progressing to upright humans using increasingly complex tools, with the final figures shown using laptop computers. A red horizontal line appears above the title "the tool isn't the work")

@@ -1,28 +1,3 @@
----
-url: https://x.com/omarsar0/status/2024847274157945035
-author: "elvis (@omarsar0)"
-captured_date: 2026-02-20T06:03:00Z
-id: SOURCE-20260220-013
-original_filename: "20260220-x_thread-orchestration_design_is_now_a_first-@omarsar0.md"
-status: triaged
-platform: x
-format: thread
-creator: omarsar0
-signal_tier: strategic
-topics:
-  - ai-agents
-  - benchmarks
-  - multi-agent
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Orchestration Design as FirstClass Optimization Target"
-synopsis: "Orchestration Design as First-Class Optimization Target Orchestration design is now a first-class optimization target, independent of model scaling. As LLMs from different providers converge toward comparable benchmark performance, picking the best model yields diminishing returns."
-key_insights:
-  - "As LLMs from different providers converge toward comparable benchmark performance, picking the best model yields diminishing returns."
-  - "Orchestration Design as First-Class Optimization Target Orchestration design is now a first-class optimization target, independent of model scaling."
-  - "The real lever is orchestration topology, where you strategize how multiple agents are coordinated, parallelized, and synthesized."
----
 # Orchestration Design as First-Class Optimization Target
 Orchestration design is now a first-class optimization target, independent of model scaling.
 As LLMs from different providers converge toward comparable benchmark performance, picking the best model yields diminishing returns.

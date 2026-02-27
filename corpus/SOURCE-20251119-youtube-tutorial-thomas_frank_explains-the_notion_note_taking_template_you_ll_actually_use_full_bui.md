@@ -1,39 +1,3 @@
----
-id: SOURCE-20251119-409
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "notion"
-  - "note"
-  - "taking"
-  - "template"
-  - "actually"
-creator: "Thomas Frank Explains"
-guest: null
-title: "The Notion note-taking template you'll actually use (full build)"
-url: "https://www.youtube.com/watch?v=d5_kFtU9xnU"
-date_published: 2025-11-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 34m 20s"
-has_transcript: no
-synopsis: "The Notion note-taking template you'll actually use (full build) by Thomas Frank Explains. A tutorial covering notion, note, taking."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Notion note-taking template"
-  - "The Notion note-taking template you'll actually"
----
-
 # The Notion note-taking template you'll actually use (full build)
 
 **Channel**: Thomas Frank Explains

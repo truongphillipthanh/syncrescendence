@@ -1,24 +1,3 @@
----
-url: https://x.com/NathanWorsley_/status/2022986783244296302
-author: "Nathan Worsley (@NathanWorsley_)"
-captured_date: 2026-02-20
-id: SOURCE-20260215-020
-original_filename: "20260215-x_thread-i_did_an_experiment_this_weekend-@nathanworsley_.md"
-status: triaged
-platform: x
-format: thread
-creator: nathanworsley_
-signal_tier: strategic
-topics: [ai-agents, automation, opinion]
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases: ["nathanworsley - CEO productivity experiment with OpenClaw"]
-synopsis: "A CEO sets up OpenClaw on a Mac Mini with full access to WhatsApp, Telegram, Slack, filesystem, X timeline, and health data. Concludes AI provides only 10-20% productivity gain for executive decision-making roles, not 2-10x, because it misses context, can't judge importance, and lacks taste for creative feedback."
-key_insights:
-  - "CEO-level work (context gathering, decisions, vision, morale, stakeholder management) resists AI automation more than execution work"
-  - "AI email/message summarization misses critical context - manually checking reveals poor understanding of situations"
-  - "Honest assessment: massive unlock for many jobs but executive decision-making roles see modest gains without capability leaps"
----
 # I did an experiment this weekend to see if I could boost my productivity with AI
 I did an experiment this weekend to see if I could boost my productivity with AI. I set up OpenClaw on a Mac Mini and gave it full access. It can see my WhatsApp and Telegram messages, read my diaries, browse my entire filesystem, access all my work communications through Slack/Discord, read my X timeline, see the photos I take, and view my Oura ring and Eight Sleep data, et cetera.
 I put some safety guardrails in to harden for security. Only I can prompt it; inputs are sanitised, there are various emergency measures and human-gated permissions.

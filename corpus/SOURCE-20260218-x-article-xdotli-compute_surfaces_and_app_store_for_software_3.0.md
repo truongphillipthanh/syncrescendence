@@ -1,30 +1,3 @@
----
-url: https://x.com/xdotli/status/2024087475438907787
-author: "Xiangyi Li (@xdotli)"
-captured_date: 2026-02-21
-id: SOURCE-20260218-018
-original_filename: "20260218-x_article-compute_surfaces_and_app_store_for_software_3.0-@xdotli.md"
-status: triaged
-platform: x
-format: article
-creator: xdotli
-signal_tier: paradigm
-topics:
-  - testing
-  - git
-  - codex
-  - terminal
-  - cli-tools
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Compute Surfaces and App Store for Software 30"
-synopsis: "Compute Surfaces and App Store for Software 3.0 Introduction There are maybe 20 skills registries, marketplaces, or app stores out there right now. Everyone wants to be the single source of truth for distribution. But what actually builds the moat for a skills registry? **tldr** - Skills are the apps in Software 3.0, and skills stores will be the new App Stores."
-key_insights:
-  - "The App Store Lesson The lesson from the App Store is instructive."
-  - "Compute Surfaces and App Store for Software 3.0 Introduction There are maybe 20 skills registries, marketplaces, or app stores out there right now."
-  - "Everyone wants to be the single source of truth for distribution."
----
 # Compute Surfaces and App Store for Software 3.0
 ## Introduction
 There are maybe 20 skills registries, marketplaces, or app stores out there right now. Everyone wants to be the single source of truth for distribution. But what actually builds the moat for a skills registry?

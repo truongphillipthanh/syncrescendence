@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-679
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "predictions"
-  - "come"
-  - "a16z"
-  - "big"
-creator: "a16z"
-guest: null
-title: "AI in 2026: 3 Predictions For What’s To Come (a16z Big Ideas)"
-url: "https://www.youtube.com/watch?v=J6_nNjy3al8"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 56s"
-has_transcript: no
-synopsis: "AI in 2026: 3 Predictions For What’s To Come (a16z Big Ideas) by a16z. A lecture covering 2026, predictions, come."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI in 2026: 3"
-  - "AI in 2026: 3 Predictions For"
----
-
 # AI in 2026: 3 Predictions For What’s To Come (a16z Big Ideas)
 
 **Channel**: a16z

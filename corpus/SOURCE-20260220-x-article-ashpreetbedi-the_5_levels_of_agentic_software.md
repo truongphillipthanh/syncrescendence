@@ -1,32 +1,3 @@
----
-url: https://x.com/ashpreetbedi/status/2024885969250394191
-author: "Ashpreet Bedi (@ashpreetbedi)"
-captured_date: 2026-02-20
-id: SOURCE-20260220-001
-original_filename: "20260220-x_article-the_5_levels_of_agentic_software-@ashpreetbedi.md"
-status: triaged
-platform: x
-format: article
-creator: ashpreetbedi
-signal_tier: strategic
-topics:
-  - ai-agents
-  - agentic-development
-  - debugging
-  - testing
-  - memory-management
-  - gpt
-  - openai
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "The 5 Levels of Agentic Software"
-synopsis: "The 5 Levels of Agentic Software ![5 Levels of Agentic Software] Most teams overcomplicate agents. They start with multi-agent orchestration, autonomous reasoning loops, and over-the-top infrastructure. Then spend weeks debugging why the simplest tasks fail."
-key_insights:
-  - "Like always, I'll share code snippets for every level."
-  - "*Disclaimer: I'm human and I make mistakes, please let me know if I got something wrong.* Level 1: Agent with tools An agent without tools is just an LLM."
-  - "The 5 Levels of Agentic Software ![5 Levels of Agentic Software] Most teams overcomplicate agents."
----
 # The 5 Levels of Agentic Software
 ![5 Levels of Agentic Software](Description: A minimalist isometric illustration showing five stacked architectural layers. The top layer displays a simple icon of an LLM/AI model with curved brackets notation. The second layer shows a circuit-board-like pattern with a few interface nodes. The third layer displays a 3x3 grid of nodes or processing units. Each successive layer increases in visual complexity, representing the progression from simple agents to complex multi-agent systems and production architectures. The design uses a light background with clean line-work in grayscale.)
 Most teams overcomplicate agents. They start with multi-agent orchestration, autonomous reasoning loops, and over-the-top infrastructure. Then spend weeks debugging why the simplest tasks fail.

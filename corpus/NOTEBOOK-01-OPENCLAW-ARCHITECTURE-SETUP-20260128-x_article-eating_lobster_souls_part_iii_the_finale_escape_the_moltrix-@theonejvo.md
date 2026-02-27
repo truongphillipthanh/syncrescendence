@@ -1,9 +1,3 @@
----
-url: https://x.com/theonejvo/status/2016510190464675980
-author: Jamieson O'Reilly (@theonejvo)
-captured_date: 2026-01-28
----
-
 # eating lobster souls Part III (the finale): Escape the Moltrix
 
 ## The finale: one click, total compromise

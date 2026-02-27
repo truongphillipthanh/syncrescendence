@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1122
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "brutal"
-  - "truth"
-  - "biotech"
-  - "per"
-  - "drug"
-creator: "a16z"
-guest: null
-title: "The Brutal Truth About Biotech: Why $2B Per Drug Is Killing Innovation"
-url: "https://www.youtube.com/watch?v=M7eXyc8GLSo"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 1m 17s"
-has_transcript: no
-synopsis: "The Brutal Truth About Biotech: Why $2B Per Drug Is Killing Innovation by a16z. A lecture covering brutal, truth, biotech."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Brutal Truth About"
-  - "The Brutal Truth About Biotech: Why"
----
-
 # The Brutal Truth About Biotech: Why $2B Per Drug Is Killing Innovation
 
 **Channel**: a16z

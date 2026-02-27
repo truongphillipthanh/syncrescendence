@@ -1,37 +1,3 @@
----
-id: SOURCE-20251216-749
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "really"
-  - "made"
-  - "stars"
-creator: "The Rest Is Science"
-guest: null
-title: "Are You REALLY Made Of Stars?"
-url: "https://www.youtube.com/watch?v=vTq3q03mcF0"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "33m 30s"
-has_transcript: no
-synopsis: "Are You REALLY Made Of Stars? by The Rest Is Science. A lecture covering really, made, stars."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Are You REALLY Made"
-  - "Are You REALLY Made Of Stars?"
----
-
 # Are You REALLY Made Of Stars?
 
 **Channel**: The Rest Is Science

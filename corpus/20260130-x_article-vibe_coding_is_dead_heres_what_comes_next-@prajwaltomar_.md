@@ -1,9 +1,3 @@
----
-url: https://x.com/PrajwalTomar_/status/2017202993087893813
-author: Prajwal Tomar (@PrajwalTomar_)
-captured_date: 2026-02-13
----
-
 # Vibe Coding is Dead. Here's What Comes Next.
 
 (Description: Article header featuring a geometric 3D cube icon in grayscale, accompanied by text in yellow and white caps reading "VIBE CODING IS DEAD. HERE'S WHAT COMES NEXT." against a dark background)

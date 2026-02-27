@@ -1,32 +1,3 @@
----
-url: https://x.com/Av1dlive/status/2019104781172896103
-author: "Avid (@Av1dlive)"
-captured_date: 2026-02-04
-id: SOURCE-20260204-002
-original_filename: "20260204-x_article-how_to_build_an_ai_agent_that_never_goes_crazy-@av1dlive.md"
-status: triaged
-platform: x
-format: article
-creator: av1dlive
-signal_tier: tactical
-topics:
-  - ai-agents
-  - vibe-coding
-  - prompting
-  - deployment
-  - memory-management
-  - extended-thinking
-  - api
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How to Build an AI Agent That Never Goes Crazy"
-synopsis: "How to Build an AI Agent That Never Goes Crazy ai agents have started trading on the black markets It was neither drugs nor weapons, it was millions of api credentials, prompt injection exploits and memory wipe services. so I dug deep and found it didn't start there. It started on January 28,2026, with Moltbook This is the story of how it happened and how to make sure it never happens to you."
-key_insights:
-  - "It started on January 28,2026, with Moltbook This is the story of how it happened and how to make sure it never happens to you."
-  - "so I dug deep and found it didn't start there."
-  - "The AI Agent Dark Web Is Here --- Part 1: Moltbook - How It Took Over the Internet On January 28, 2026, Matt Schlicht launched Moltbook."
----
 # How to Build an AI Agent That Never Goes Crazy
 
 (Description: Cinematic overhead shot of a laptop keyboard with a coffee cup on a desk overlooking a neon-lit cityscape at night, conveying AI development in an urban tech environment.)

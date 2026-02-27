@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-703
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "where"
-  - "consumer"
-  - "stand"
-  - "end"
-  - "2025"
-creator: "a16z"
-guest: null
-title: "Where does consumer AI stand at the end of 2025?"
-url: "https://www.youtube.com/watch?v=p4-7x6QiYr0"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "43m 15s"
-has_transcript: no
-synopsis: "Where does consumer AI stand at the end of 2025? by a16z. A lecture covering where, consumer, stand."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Where does consumer AI"
-  - "Where does consumer AI stand at"
----
-
 # Where does consumer AI stand at the end of 2025?
 
 **Channel**: a16z

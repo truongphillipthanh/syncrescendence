@@ -1,9 +1,3 @@
----
-url: https://x.com/witcheer/status/2021610036980543767
-author: witcheer (@witcheer)
-captured_date: 2026-02-13
----
-
 # I Fed 20+ OpenClaw Articles to Opus 4.6 - Here's the Setup Guide It Built
 
 (Description: A vibrant, intricate digital illustration showing a stylized witch figure in flowing robes with cosmic elements—swirling clouds in teals, purples, oranges and reds, celestial bodies, stars, and a large sun in the background. The art style is decorative and dreamlike, reminiscent of tarot card imagery.)

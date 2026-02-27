@@ -1,9 +1,3 @@
----
-url: https://x.com/philhchen/status/2019832109180023214
-author: Phil Chen (@philhchen)
-captured_date: 2026-02-13
----
-
 # Cowork will not be your virtual coworker
 
 I built a Claude Cowork clone in 3 days. Here's what I learned.

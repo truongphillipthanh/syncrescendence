@@ -1,30 +1,3 @@
----
-url: https://x.com/minchoi/status/2024343249792499943
-author: "Min Choi (@minchoi)"
-captured_date: 2026-02-18
-id: SOURCE-20260219-009
-original_filename: "20260219-x_article-measuring_ai_agent_autonomy_framework-@minchoi.md"
-status: triaged
-platform: x
-format: article
-creator: minchoi
-signal_tier: strategic
-topics:
-  - ai-agents
-  - ai-workflow
-  - anthropic
-  - architecture
-  - rag
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "Anthropic AI Agent Autonomy Framework Thread"
-synopsis: "Anthropic AI Agent Autonomy Framework Thread Post 1: Introduction **This is big.** Anthropic just published a framework for measuring AI agent autonomy… how independently an AI can plan, use tools, recover from mistakes, and finish tasks end-to-end. This will shape the agent wars."
-key_insights:
-  - "This will shape the agent wars."
-  - "Bookmark this 🧵 **Engagement:** 60 replies, 46 reposts, 360 likes, 367 bookmarks, 52.3K views --- Post 2: Studying Agents in the Wild **2."
-  - "Studying agents in the wild** Agents are hard to measure (no standard definition + architectures vary)."
----
 # Anthropic AI Agent Autonomy Framework Thread
 ## Post 1: Introduction
 **This is big.**

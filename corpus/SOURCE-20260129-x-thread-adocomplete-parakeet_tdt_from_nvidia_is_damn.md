@@ -1,28 +1,3 @@
----
-id: SOURCE-20260129-x-thread-adocomplete-parakeet_tdt_from_nvidia_is_damn
-platform: x
-format: thread
-creator: adocomplete
-title: parakeet tdt from nvidia is damn
-status: triaged
-original_filename: "20260129-x_thread-parakeet_tdt_from_nvidia_is_damn-@adocomplete.md"
-url: https://x.com/adocomplete/status/2016926628044292237
-author: "@adocomplete"
-captured_date: 2026-01-29
-signal_tier: tactical
-topics:
-  - developer-tools
-  - automation
-teleology: extract
-notebooklm_category: coding-tools
-aliases:
-  - "adocomplete - Parakeet TDT local voice transcription"
-synopsis: "Brief thread about deploying NVIDIA's parakeet-tdt-0.6b-v3 speech-to-text model on a homelab server (Ryzen 9 9745HX) and building a local macOS voice transcription app with Claude Code. Near-instant transcription quality comparable to Whispr Flow but free and self-hosted."
-key_insights:
-  - "NVIDIA's parakeet-tdt-0.6b-v3 provides near-instant local voice transcription with correct formatting (capitalization, punctuation) on consumer hardware."
-  - "The model can replace paid services like Whispr Flow ($12/month) with equivalent quality on self-hosted infrastructure."
-  - "Claude Code was used to build the macOS transcription app, demonstrating practical vibe-coding for desktop utility apps."
----
 # Parakeet TDT Thread
 
 parakeet-tdt-0.6b-v3 from nVidia is damn good.

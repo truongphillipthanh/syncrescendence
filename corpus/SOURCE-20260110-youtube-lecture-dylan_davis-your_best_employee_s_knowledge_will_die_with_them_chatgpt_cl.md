@@ -1,39 +1,3 @@
----
-id: SOURCE-20260110-547
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "best"
-  - "employee"
-  - "knowledge"
-  - "die"
-  - "chatgpt"
-creator: "Dylan Davis"
-guest: null
-title: "Your Best Employee's Knowledge Will Die With Them (ChatGPT, Claude & Gemini Can Save It)"
-url: "https://www.youtube.com/watch?v=Q9a5ZatUTe4"
-date_published: 2026-01-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 48s"
-has_transcript: no
-synopsis: "Your Best Employee's Knowledge Will Die With Them (ChatGPT, Claude & Gemini Can Save It) by Dylan Davis. A lecture covering best, employee, knowledge."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Your Best Employee's Knowledge"
-  - "Your Best Employee's Knowledge Will Die"
----
-
 # Your Best Employee's Knowledge Will Die With Them (ChatGPT, Claude & Gemini Can Save It)
 
 **Channel**: Dylan Davis

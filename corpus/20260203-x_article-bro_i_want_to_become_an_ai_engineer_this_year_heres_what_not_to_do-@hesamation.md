@@ -1,9 +1,3 @@
----
-url: https://x.com/Hesamation/status/2018871027510452543
-author: ℏεsam (@Hesamation)
-captured_date: 2026-02-03
----
-
 # "bro, I want to become an AI Engineer this year" - here's what NOT to do.
 
 (Description: A black and white illustration showing a person sitting at a desk viewed from behind, wearing headphones, working at three computer monitors. To the right, there is a stack of books. The workspace is detailed with sketched elements suggesting deep focus and study.)

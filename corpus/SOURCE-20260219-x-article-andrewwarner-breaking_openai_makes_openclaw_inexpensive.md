@@ -1,32 +1,3 @@
----
-url: https://x.com/AndrewWarner/status/2024518232271417434
-author: "Andrew Warner (@AndrewWarner)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-002
-original_filename: "20260219-x_article-breaking_openai_makes_openclaw_inexpensive-@andrewwarner.md"
-status: triaged
-platform: x
-format: article
-creator: andrewwarner
-signal_tier: tactical
-topics:
-  - ai-agents
-  - gpt
-  - openai
-  - anthropic
-  - api
-  - product-development
-  - token-management
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Breaking OpenAI makes OpenClaw inexpensive"
-synopsis: "Breaking: OpenAI makes OpenClaw inexpensive Yesterday, Claude said they'd CANCEL OpenClaw users who connect their Claude subscriptions. But OpenAI said they'd allow it! This is the step-by-step guide to using your ChatGPT subscription and eliminating API fees. Yesterday, Claude made their restrictions clear."
-key_insights:
-  - "This is a link to their [full Legal & Compliance doc]( but to me, the important part is this: is intended exclusively for Claude Code and Claude.ai."
-  - "Breaking: OpenAI makes OpenClaw inexpensive Yesterday, Claude said they'd CANCEL OpenClaw users who connect their Claude subscriptions."
-  - "But OpenAI said they'd allow it!"
----
 # Breaking: OpenAI makes OpenClaw inexpensive
 Yesterday, Claude said they'd CANCEL OpenClaw users who connect their Claude subscriptions. But OpenAI said they'd allow it! This is the step-by-step guide to using your ChatGPT subscription and eliminating API fees.
 (If you just want to see how to use OpenAI, [skip to the walkthrough here](https://www.youtube.com/watch?v=7DNlQgl2Kk0&t=1s).)

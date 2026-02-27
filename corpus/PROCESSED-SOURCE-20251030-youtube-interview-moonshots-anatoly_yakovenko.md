@@ -1,16 +1,3 @@
----
-id: SOURCE-20251030-youtube-interview-moonshots-anatoly_yakovenko
-title: "Solana, Crypto-AI Convergence, and Machine-to-Machine Economics"
-creator: Moonshots with Peter Diamandis
-guest: Anatoly Yakovenko
-date_published: 2025-10-30
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-30000-INTELLIGENCE, CANON-33000-EXPERTISE]
----
-
 # Solana, Crypto-AI Convergence, and Machine-to-Machine Economics
 
 ## Executive Summary

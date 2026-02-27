@@ -1,29 +1,3 @@
----
-url: https://x.com/arscontexta/status/2016587691505164749
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-01-28
-id: SOURCE-20260128-001
-original_filename: "20260128-x_article-obsidian_and_claude_code_async_hooks_for_note_history-@arscontexta.md"
-status: triaged
-platform: x
-format: article
-creator: arscontexta
-signal_tier: strategic
-topics:
-  - claude-code
-  - obsidian
-  - git-workflows
-  - developer-tools
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Heinrich - Obsidian note history async hooks"
-synopsis: "Guide for using Claude Code's async hooks to auto-commit every Obsidian vault edit to git, then using a /note-history skill to interpret the git diffs semantically — showing not just what changed but how thinking evolved. Includes the bash hook script and skill definition."
-key_insights:
-  - "Claude Code async hooks enable silent background git commits after every edit without blocking the active session — the key enabler for automatic note versioning."
-  - "The /note-history skill interprets git diffs conceptually rather than syntactically, identifying evolution patterns like 'started as research extraction, developed practical implications, added epistemic humility.'"
-  - "Every note in an Obsidian vault becomes a timeline of thinking evolution — a self-writing journal of intellectual development."
----
 # Obsidian & Claude Code: Async Hooks for Note History
 
 (Description: Black and white engraving-style illustration depicting a bearded scholar in period clothing examining a large ornate mechanical device resembling an astrolabe or temporal instrument, surrounded by scattered papers, books, and scientific instruments including globes, lamps, and writing implements)

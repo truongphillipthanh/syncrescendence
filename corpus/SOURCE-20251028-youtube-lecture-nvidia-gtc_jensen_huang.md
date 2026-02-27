@@ -1,16 +1,3 @@
----
-id: SOURCE-20251028-youtube-lecture-nvidia-gtc_jensen_huang
-title: "The Next Phase of Accelerated Computing and AI"
-creator: NVIDIA
-guest: Jensen Huang
-date_published: 2025-10-28
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-30300-TECH_STACK, CANON-00004-EVOLUTION]
----
-
 # The Next Phase of Accelerated Computing and AI
 
 ## Executive Summary

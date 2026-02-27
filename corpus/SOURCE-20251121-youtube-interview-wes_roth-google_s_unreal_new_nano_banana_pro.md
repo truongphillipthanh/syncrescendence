@@ -1,39 +1,3 @@
----
-id: SOURCE-20251121-1044
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "google"
-  - "unreal"
-  - "new"
-  - "nano"
-  - "banana"
-creator: "Wes Roth"
-guest: null
-title: "Google's UNREAL New Nano Banana Pro..."
-url: "https://www.youtube.com/watch?v=8F1Y5l9cFjI"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 38s"
-has_transcript: no
-synopsis: "Google's UNREAL New Nano Banana Pro... by Wes Roth. A interview covering google, unreal, new."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google's UNREAL New Nano"
-  - "Google's UNREAL New Nano Banana Pro..."
----
-
 # Google's UNREAL New Nano Banana Pro...
 
 **Channel**: Wes Roth

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251121-1036
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "tested"
-  - "gemini"
-  - "designer"
-  - "terrifyingly"
-  - "good"
-creator: "Greg Isenberg"
-guest: null
-title: "I Tested Gemini 3 as a Designer. It’s Terrifyingly Good."
-url: "https://www.youtube.com/watch?v=QNh4SUQuts4"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 47s"
-has_transcript: no
-synopsis: "I Tested Gemini 3 as a Designer. It’s Terrifyingly Good. by Greg Isenberg. A panel discussion covering tested, gemini, designer."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "I Tested Gemini 3"
-  - "I Tested Gemini 3 as a"
----
-
 # I Tested Gemini 3 as a Designer. It’s Terrifyingly Good.
 
 **Channel**: Greg Isenberg

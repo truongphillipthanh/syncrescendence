@@ -1,39 +1,3 @@
----
-id: SOURCE-20260123-382
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "soul"
-  - "doc"
-  - "reveals"
-  - "something"
-creator: "Wes Roth"
-guest: null
-title: "Claude "SOUL DOC" reveals something strange..."
-url: "https://www.youtube.com/watch?v=vAh1I6yI-hU"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 11s"
-has_transcript: no
-synopsis: "Claude "SOUL DOC" reveals something strange... by Wes Roth. A interview covering claude, soul, doc."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Claude "SOUL DOC" reveals"
-  - "Claude "SOUL DOC" reveals something strange..."
----
-
 # Claude "SOUL DOC" reveals something strange...
 
 **Channel**: Wes Roth

@@ -1,9 +1,3 @@
----
-url: https://x.com/ashpreetbedi/status/2018059495335764273
-author: Ashpreet Bedi (@ashpreetbedi)
-captured_date: 2026-02-13
----
-
 # Dash: Open Sourcing OpenAI's In-House Data Agent
 
 (Description: Minimalist hero image with layered isometric illustration. Top layer features a white chip/processor tile with a dark wavy dash icon. Middle layer shows a control interface with dots and circular UI elements. Lower layers display grid patterns of database tables. Typography reads "Dash" in large black sans-serif with subtitle "Self-Learning Data Agent" in gray)

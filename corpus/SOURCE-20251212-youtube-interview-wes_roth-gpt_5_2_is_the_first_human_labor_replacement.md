@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-857
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "gpt"
-  - "first"
-  - "human"
-  - "labor"
-  - "replacement"
-creator: "Wes Roth"
-guest: null
-title: "GPT 5.2 is the first HUMAN LABOR replacement"
-url: "https://www.youtube.com/watch?v=aNYl-O-XxCA"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 18s"
-has_transcript: no
-synopsis: "GPT 5.2 is the first HUMAN LABOR replacement by Wes Roth. A interview covering gpt, first, human."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "GPT 5.2 is the"
-  - "GPT 5.2 is the first HUMAN"
----
-
 # GPT 5.2 is the first HUMAN LABOR replacement
 
 **Channel**: Wes Roth

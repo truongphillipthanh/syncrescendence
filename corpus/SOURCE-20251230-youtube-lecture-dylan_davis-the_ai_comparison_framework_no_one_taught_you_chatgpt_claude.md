@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-682
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "comparison"
-  - "framework"
-  - "one"
-  - "taught"
-  - "chatgpt"
-creator: "Dylan Davis"
-guest: null
-title: "The AI Comparison Framework No One Taught You (ChatGPT, Claude, Gemini, Grok)"
-url: "https://www.youtube.com/watch?v=kSVkDXbu07M"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 32s"
-has_transcript: no
-synopsis: "The AI Comparison Framework No One Taught You (ChatGPT, Claude, Gemini, Grok) by Dylan Davis. A lecture covering comparison, framework, one."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "The AI Comparison Framework"
-  - "The AI Comparison Framework No One"
----
-
 # The AI Comparison Framework No One Taught You (ChatGPT, Claude, Gemini, Grok)
 
 **Channel**: Dylan Davis

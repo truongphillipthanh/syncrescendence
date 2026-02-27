@@ -1,24 +1,3 @@
----
-url: https://x.com/arscontexta/status/2023451397421736268
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-002
-original_filename: "20260216-x_article-claude_code_plugin_for_knowledge_work_open_source_second_brain_blueprint-@arscontexta.md"
-status: triaged
-platform: x
-format: article
-creator: arscontexta
-signal_tier: strategic
-topics: [claude-code, obsidian, developer-tools, ai-agents]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["arscontexta - second brain Claude Code plugin"]
-synopsis: "Introduces arscontexta, an open-source Claude Code plugin that generates individualized knowledge management systems (second brains) for agents via a methodology graph of interconnected research claims. Everything is local-first markdown with wiki links and YAML - uninstall the plugin and the system keeps working."
-key_insights:
-  - "Agents need the same external knowledge scaffolding humans built over centuries - structured retrieval, grouping, and building on prior work"
-  - "Generated individualized knowledge systems beat templates because everyone organizes differently"
-  - "Local-first, open-source, plain markdown - your memory should be yours, not locked in a platform"
----
 # Claude Code Plugin for Knowledge Work (Open Source Second Brain Blueprint)
 (Description: Hero image showing "ARS CONTEXTA" in large pixelated white text on dark background)
 ## Overview

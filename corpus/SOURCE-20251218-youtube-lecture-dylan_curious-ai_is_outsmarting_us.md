@@ -1,34 +1,3 @@
----
-id: SOURCE-20251218-778
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "outsmarting"
-creator: "Dylan Curious"
-guest: null
-title: "AI is Outsmarting Us"
-url: "https://www.youtube.com/watch?v=-O6jTWE2F8Y"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 2s"
-has_transcript: no
-synopsis: "AI is Outsmarting Us by Dylan Curious. A lecture covering outsmarting."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI is Outsmarting Us"
----
-
 # AI is Outsmarting Us
 
 **Channel**: Dylan Curious

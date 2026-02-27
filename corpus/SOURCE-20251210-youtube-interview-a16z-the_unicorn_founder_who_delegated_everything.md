@@ -1,39 +1,3 @@
----
-id: SOURCE-20251210-872
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "unicorn"
-  - "founder"
-  - "who"
-  - "delegated"
-  - "everything"
-creator: "a16z"
-guest: null
-title: "The Unicorn Founder Who Delegated Everything."
-url: "https://www.youtube.com/watch?v=MT4l_XrrRNc"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "56m 50s"
-has_transcript: no
-synopsis: "The Unicorn Founder Who Delegated Everything. by a16z. A interview covering unicorn, founder, who."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "The Unicorn Founder Who"
-  - "The Unicorn Founder Who Delegated Everything."
----
-
 # The Unicorn Founder Who Delegated Everything.
 
 **Channel**: a16z

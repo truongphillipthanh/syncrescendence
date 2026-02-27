@@ -1,37 +1,3 @@
----
-id: SOURCE-20260202-167
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "think"
-  - "like"
-  - "top"
-creator: "Justin Sung"
-guest: null
-title: "How To Think Like The Top 1%"
-url: "https://www.youtube.com/watch?v=XNzRIlcsOEQ"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "51m 34s"
-has_transcript: no
-synopsis: "How To Think Like The Top 1% by Justin Sung. A lecture covering think, like, top."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How To Think Like"
-  - "How To Think Like The Top"
----
-
 # How To Think Like The Top 1%
 
 **Channel**: Justin Sung

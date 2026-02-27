@@ -1,39 +1,3 @@
----
-id: SOURCE-20260216-047
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "south"
-  - "africa"
-  - "ruined"
-  - "synthetic"
-  - "oil"
-creator: "Asianometry"
-guest: null
-title: "South Africa's Ruined Synthetic Oil Giant"
-url: "https://www.youtube.com/watch?v=oddrlPVvdWs"
-date_published: 2026-02-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m"
-has_transcript: no
-synopsis: "South Africa's Ruined Synthetic Oil Giant by Asianometry. A lecture covering south, africa, ruined."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "South Africa's Ruined Synthetic"
-  - "South Africa's Ruined Synthetic Oil Giant"
----
-
 # South Africa's Ruined Synthetic Oil Giant
 
 **Channel**: Asianometry

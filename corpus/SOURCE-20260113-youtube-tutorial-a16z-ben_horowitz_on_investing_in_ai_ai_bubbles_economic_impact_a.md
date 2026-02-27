@@ -1,39 +1,3 @@
----
-id: SOURCE-20260113-492
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ben"
-  - "horowitz"
-  - "investing"
-  - "bubbles"
-  - "economic"
-creator: "a16z"
-guest: null
-title: "Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration"
-url: "https://www.youtube.com/watch?v=r8_2CSpcmls"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 9s"
-has_transcript: no
-synopsis: "Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration by a16z. A tutorial covering ben, horowitz, investing."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Ben Horowitz on Investing"
-  - "Ben Horowitz on Investing in AI:"
----
-
 # Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration
 
 **Channel**: a16z

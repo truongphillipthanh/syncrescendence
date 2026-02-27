@@ -1,12 +1,3 @@
----
-id: audizer-protocol
-kind: protocol
-scope: project
-target: chatgpt
-owner: Vanguard
-version: 3.0.0
----
-
 # Audizer Protocol
 
 ## System Role

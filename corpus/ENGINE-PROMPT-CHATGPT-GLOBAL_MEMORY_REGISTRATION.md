@@ -1,11 +1,3 @@
----
-id: chatgpt-global-memory-registration
-kind: memory_registration
-scope: global
-target: chatgpt
-owner: Vanguard
----
-
 # ChatGPT Global Memory Registration
 
 Paste this into ChatGPT to register global preferences in Saved Memory.

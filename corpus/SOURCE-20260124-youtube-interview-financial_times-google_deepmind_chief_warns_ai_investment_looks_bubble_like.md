@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-355
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "google"
-  - "deepmind"
-  - "chief"
-  - "warns"
-  - "investment"
-creator: "Financial Times"
-guest: null
-title: "Google DeepMind chief warns AI investment looks ‘bubble-like’ | FT Interview"
-url: "https://www.youtube.com/watch?v=-RPbxvz6sB8"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 22s"
-has_transcript: no
-synopsis: "Google DeepMind chief warns AI investment looks ‘bubble-like’ | FT Interview by Financial Times. A interview covering google, deepmind, chief."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google DeepMind chief warns"
-  - "Google DeepMind chief warns AI investment"
----
-
 # Google DeepMind chief warns AI investment looks ‘bubble-like’ | FT Interview
 
 **Channel**: Financial Times

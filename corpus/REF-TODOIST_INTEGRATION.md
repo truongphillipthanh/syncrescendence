@@ -1,12 +1,3 @@
----
-id: REF-TODOIST_INTEGRATION
-kind: REF
-scope: engine
-target: constellation
-status: active
-updated: 2026-02-11
----
-
 # REF -- Todoist GTD Integration
 ## Rapid Capture, Context-Based Execution, Weekly Review
 

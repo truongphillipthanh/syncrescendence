@@ -1,9 +1,3 @@
----
-url: https://x.com/stevesi/status/2019167552794948020
-author: Steven Sinofsky (@stevesi)
-captured_date: 2026-02-04
----
-
 # Death of Software. Nah.
 
 (Description: A wide, dynamic image of turbulent water with splashing waves and light blue-white bokeh orbs floating across the frame, evoking flow, movement, and transformation.)

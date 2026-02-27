@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-850
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "news"
-  - "gpt"
-  - "here"
-  - "plus"
-  - "runway"
-creator: "Matt Wolfe"
-guest: null
-title: "AI NEWS: GPT-5.2 Is HERE! (Plus Runway 4.5 and the Next Image AI Leaks)"
-url: "https://www.youtube.com/watch?v=3-5czU5IxaU"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 21s"
-has_transcript: no
-synopsis: "AI NEWS: GPT-5.2 Is HERE! (Plus Runway 4.5 and the Next Image AI Leaks) by Matt Wolfe. A lecture covering news, gpt, here."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-creative-media
-aliases:
-  - "AI NEWS: GPT-5.2 Is"
-  - "AI NEWS: GPT-5.2 Is HERE! (Plus"
----
-
 # AI NEWS: GPT-5.2 Is HERE! (Plus Runway 4.5 and the Next Image AI Leaks)
 
 **Channel**: Matt Wolfe

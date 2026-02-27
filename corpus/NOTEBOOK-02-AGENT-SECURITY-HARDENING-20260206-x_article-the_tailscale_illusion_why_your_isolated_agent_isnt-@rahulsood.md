@@ -1,9 +1,3 @@
----
-url: https://x.com/rahulsood/status/2019830679769608537
-author: Rahul Sood (@rahulsood)
-captured_date: 2026-02-13
----
-
 # The Tailscale Illusion: Why Your "Isolated" Agent Isn't
 
 (Description: Banner image featuring a stylized red and white illustrated container labeled "TAILSCALE" with mechanical/cyberpunk aesthetic. Central imagery shows interlocking gears and mechanical components rendered in red and white against a black background with Japanese characters and warning symbols scattered throughout. The design conveys a sense of technological complexity and potential system compromise.)

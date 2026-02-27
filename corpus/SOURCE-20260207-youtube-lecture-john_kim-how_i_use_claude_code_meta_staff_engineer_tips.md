@@ -1,39 +1,3 @@
----
-id: SOURCE-20260207-128
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "use"
-  - "claude"
-  - "code"
-  - "meta"
-  - "staff"
-creator: "John Kim"
-guest: null
-title: "How I use Claude Code (Meta Staff Engineer Tips)"
-url: "https://www.youtube.com/watch?v=mZzhfPle9QU"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "46m 13s"
-has_transcript: no
-synopsis: "How I use Claude Code (Meta Staff Engineer Tips) by John Kim. A lecture covering use, claude, code."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: claude-code
-aliases:
-  - "How I use Claude"
-  - "How I use Claude Code (Meta"
----
-
 # How I use Claude Code (Meta Staff Engineer Tips)
 
 **Channel**: John Kim

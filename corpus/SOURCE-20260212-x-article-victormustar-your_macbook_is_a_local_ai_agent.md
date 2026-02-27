@@ -1,32 +1,3 @@
----
-url: https://x.com/victormustar/status/2021964315994046897
-author: "Victor M (@victormustar)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-014
-original_filename: "20260212-x_article-your_macbook_is_a_local_ai_agent-@victormustar.md"
-status: triaged
-platform: x
-format: article
-creator: victormustar
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - context-management
-  - memory-management
-  - openai
-  - api
-  - token-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Your MacBook Is a Local AI Agent"
-synopsis: "Your MacBook Is a Local AI Agent Your MacBook can run a fully local, offline AI agent that writes code, manages files, orchestrate complex tools by running shell commands. No data leaving your machine. Apple Silicon's unified memory is the reason this works: the CPU and GPU share the same RAM, so your MacBook's full memory is available for inference."
-key_insights:
-  - "--repeat-penalty 1.0 disables repeat penalty (important for this model)."
-  - "Your MacBook Is a Local AI Agent Your MacBook can run a fully local, offline AI agent that writes code, manages files, orchestrate complex tools by running shell commands."
-  - "Apple Silicon's unified memory is the reason this works: the CPU and GPU share the same RAM, so your MacBook's full memory is available for inference."
----
 # Your MacBook Is a Local AI Agent
 
 (Description: Black and white ink sketch illustration featuring a MacBook laptop centered in a swirling, organic landscape of branches and flowing lines. The image uses a high-contrast artistic style with intricate line work suggesting a natural, almost mystical computer environment.)

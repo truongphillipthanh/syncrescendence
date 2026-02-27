@@ -1,39 +1,3 @@
----
-id: SOURCE-20250320-041
-platform: youtube
-format: lecture
-cadence: arrhythmic
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: integrated
-chain: intelligence
-topics: [planetary_computation, cosmopolitics, AI_philosophy, pre-paradigmatic, institutional_design, allocentrism]
-creator: Long Now Foundation
-guest: Benjamin Bratton
-title: "A Philosophy of Planetary Computation"
-url: https://www.youtube.com/watch?v=longnow_bratton
-date_published: 2025-03-20
-date_processed: 2026-01-02
-date_integrated: 2026-01-02
-processing_function: transcribe_lecture
-integrated_into: [CANON-00015, CANON-00004, CANON-30400]
-synopsis: |
-  Benjamin Bratton argues we are in a "pre-paradigmatic moment" where technology has outpaced our conceptual frameworks. He proposes viewing computation as a planetary phenomenon—not just human invention but something the planet does through humans. This demands "extrinsic philosophy" that starts from the world rather than human consciousness, and "cosmopolitics" that accounts for non-human agents including AI.
-key_insights:
-  - "We are in a pre-paradigmatic moment. Technology is ahead of our concepts. Philosophy's job is to invent those concepts."
-  - "Computation was discovered as much as it was invented. Natural computation, artificial computation—the universe may be computational."
-  - "Life has always been computational. DNA is a computational substrate. Evolution is a computational process."
-  - "When we build AI, we're not doing something alien to nature—we're extending computational processes that were already there."
-  - "AI is becoming part of the computational infrastructure of the planet itself."
-  - "We need extrinsic philosophy—starting not from human consciousness but from the world that precedes thought."
-  - "Cosmopolitics: how do different forms of being coexist? We're bringing new agents into the world with AI."
-  - "The Stack: we live inside layered technical infrastructure that has become environmental context rather than optional tool."
-  - "AI is a pharmakón—both remedy and poison. Which it becomes depends on what we do."
-  - "The best institutions do work so that everyone else can get on with it."
-visual_notes: |
-  This is a lecture with slides showing the Antikythera mechanism, The Stack diagram, and planetary computation visualizations. The Q&A adds significant value with extended discussion of cultural evolution, allocentrism, and institutional design.
----
-
 # Benjamin Bratton: A Philosophy of Planetary Computation
 
 ## MACROSCOPIC NARRATIVE LENS ALIGNMENT

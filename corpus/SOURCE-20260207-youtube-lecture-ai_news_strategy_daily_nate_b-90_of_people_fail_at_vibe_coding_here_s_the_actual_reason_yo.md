@@ -1,39 +1,3 @@
----
-id: SOURCE-20260207-153
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "people"
-  - "fail"
-  - "vibe"
-  - "coding"
-  - "here"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "90% of People Fail at Vibe Coding. Here's the Actual Reason: You're Skipping the Hard Part."
-url: "https://www.youtube.com/watch?v=sLz4mAyykeE"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 10s"
-has_transcript: no
-synopsis: "90% of People Fail at Vibe Coding. Here's the Actual Reason: You're Skipping the Hard Part. by AI News & Strategy Daily | Nate B Jones. A lecture covering people, fail, vibe."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "90% of People Fail"
-  - "90% of People Fail at Vibe"
----
-
 # 90% of People Fail at Vibe Coding. Here's the Actual Reason: You're Skipping the Hard Part.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

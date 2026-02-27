@@ -1,39 +1,3 @@
----
-id: SOURCE-20260114-445
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "panspermia"
-  - "radical"
-  - "theory"
-  - "life"
-  - "origins"
-creator: "melodysheep"
-guest: null
-title: "PANSPERMIA:  The Radical Theory of Life's Origins"
-url: "https://www.youtube.com/watch?v=I4MlC1hCIs4"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 47s"
-has_transcript: no
-synopsis: "PANSPERMIA:  The Radical Theory of Life's Origins by melodysheep. A lecture covering panspermia, radical, theory."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "PANSPERMIA: The Radical Theory"
-  - "PANSPERMIA: The Radical Theory of Life's"
----
-
 # PANSPERMIA:  The Radical Theory of Life's Origins
 
 **Channel**: melodysheep

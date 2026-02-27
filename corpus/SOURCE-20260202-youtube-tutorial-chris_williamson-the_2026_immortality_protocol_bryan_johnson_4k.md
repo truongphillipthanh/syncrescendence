@@ -1,39 +1,3 @@
----
-id: SOURCE-20260202-211
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "immortality"
-  - "protocol"
-  - "bryan"
-  - "johnson"
-creator: "Chris Williamson"
-guest: null
-title: "The 2026 Immortality Protocol - Bryan Johnson (4K)"
-url: "https://www.youtube.com/watch?v=NgazxADZdhQ"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 53m 47s"
-has_transcript: no
-synopsis: "The 2026 Immortality Protocol - Bryan Johnson (4K) by Chris Williamson. A tutorial covering 2026, immortality, protocol."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The 2026 Immortality Protocol"
-  - "The 2026 Immortality Protocol - Bryan"
----
-
 # The 2026 Immortality Protocol - Bryan Johnson (4K)
 
 **Channel**: Chris Williamson

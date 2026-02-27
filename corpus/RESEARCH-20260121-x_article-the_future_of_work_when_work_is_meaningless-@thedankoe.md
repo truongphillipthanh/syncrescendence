@@ -1,9 +1,3 @@
----
-url: https://x.com/thedankoe/status/2014022520513634718
-author: DAN KOE (@thedankoe)
-captured_date: 2026-01-21
----
-
 # The Future of Work When Work Is Meaningless
 
 Everyone is worried about whether or not AI will replace them.

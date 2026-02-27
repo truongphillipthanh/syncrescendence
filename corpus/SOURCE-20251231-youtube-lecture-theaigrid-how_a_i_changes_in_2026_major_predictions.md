@@ -1,38 +1,3 @@
----
-id: SOURCE-20251231-670
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "changes"
-  - "2026"
-  - "major"
-  - "predictions"
-creator: "TheAIGRID"
-guest: null
-title: "How A.I Changes In 2026 - Major Predictions"
-url: "https://www.youtube.com/watch?v=z2MUcmJS3aI"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 21s"
-has_transcript: no
-synopsis: "How A.I Changes In 2026 - Major Predictions by TheAIGRID. A lecture covering changes, 2026, major."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "How A.I Changes In"
-  - "How A.I Changes In 2026 -"
----
-
 # How A.I Changes In 2026 - Major Predictions
 
 **Channel**: TheAIGRID

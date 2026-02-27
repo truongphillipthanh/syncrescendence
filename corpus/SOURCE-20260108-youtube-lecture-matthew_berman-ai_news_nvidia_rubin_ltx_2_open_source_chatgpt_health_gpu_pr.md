@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-589
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "news"
-  - "nvidia"
-  - "rubin"
-  - "ltx"
-  - "open"
-creator: "Matthew Berman"
-guest: null
-title: "AI News: NVIDIA Rubin, LTX-2 Open Source, ChatGPT Health, GPU Prices and More!"
-url: "https://www.youtube.com/watch?v=HLhfepgHLcg"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 35s"
-has_transcript: no
-synopsis: "AI News: NVIDIA Rubin, LTX-2 Open Source, ChatGPT Health, GPU Prices and More! by Matthew Berman. A lecture covering news, nvidia, rubin."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "AI News: NVIDIA Rubin,"
-  - "AI News: NVIDIA Rubin, LTX-2 Open"
----
-
 # AI News: NVIDIA Rubin, LTX-2 Open Source, ChatGPT Health, GPU Prices and More!
 
 **Channel**: Matthew Berman

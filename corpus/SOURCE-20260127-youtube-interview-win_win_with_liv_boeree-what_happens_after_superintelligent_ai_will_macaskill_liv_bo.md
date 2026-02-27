@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-265
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "happens"
-  - "after"
-  - "superintelligent"
-  - "macaskill"
-  - "liv"
-creator: "Win-Win with Liv Boeree"
-guest: null
-title: "What Happens AFTER Superintelligent AI? | Will MacAskill & Liv Boeree"
-url: "https://www.youtube.com/watch?v=6fH0vfg2gdA"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 29m 52s"
-has_transcript: no
-synopsis: "What Happens AFTER Superintelligent AI? | Will MacAskill & Liv Boeree by Win-Win with Liv Boeree. A interview covering happens, after, superintelligent."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "What Happens AFTER Superintelligent"
-  - "What Happens AFTER Superintelligent AI? |"
----
-
 # What Happens AFTER Superintelligent AI? | Will MacAskill & Liv Boeree
 
 **Channel**: Win-Win with Liv Boeree

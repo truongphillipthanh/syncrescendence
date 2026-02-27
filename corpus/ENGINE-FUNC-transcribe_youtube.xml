@@ -1,16 +1,3 @@
----
-name: YouTube Transcript Cleaner
-description: Transform YouTube transcripts into polished essay-form narratives by removing preview content, ads, and filler while preserving the speaker's intellectual flow
-trigger_phrases:
-  - "youtube transcript"
-  - "clean this transcript"
-  - "remove ads from transcript"
-  - "transcript to essay"
-  - "polish this youtube video"
-version: 1.0
-model_compatibility: claude-3-5-sonnet, claude-opus-4
----
-
 # YouTube Transcript Transformation
 
 Transform raw YouTube transcripts into coherent, article-quality narratives by removing commercial content and retention devices while preserving the speaker's authentic voice and intellectual structure.

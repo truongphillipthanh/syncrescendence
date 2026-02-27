@@ -1,38 +1,3 @@
----
-id: SOURCE-20260219-007
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "bret"
-  - "taylor"
-  - "future"
-  - "software"
-creator: "Uncapped with Jack Altman"
-guest: null
-title: "Bret Taylor on AI and the Future of Software | Ep. 42"
-url: "https://www.youtube.com/watch?v=tJwiP0zqVp4"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 38s"
-has_transcript: no
-synopsis: "Bret Taylor on AI and the Future of Software | Ep. 42 by Uncapped with Jack Altman. A tutorial covering bret, taylor, future."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Bret Taylor on AI"
-  - "Bret Taylor on AI and the"
----
-
 # Bret Taylor on AI and the Future of Software | Ep. 42
 
 **Channel**: Uncapped with Jack Altman

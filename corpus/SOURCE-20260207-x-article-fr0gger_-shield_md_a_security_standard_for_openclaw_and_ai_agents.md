@@ -1,21 +1,3 @@
----
-url: https://x.com/fr0gger_/status/2020025525784514671
-author: "Thomas Roccia (@fr0gger_)"
-captured_date: 2026-02-06
-id: SOURCE-20260207-007
-original_filename: "20260207-x_article-shield_md_a_security_standard_for_openclaw_and_ai_agents-@fr0gger_.md"
-status: triaged
-platform: x
-format: article
-creator: fr0gger_
-signal_tier: strategic
-topics: [ai-agents, best-practices, framework]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Thomas Roccia - SHIELD.md Security Standard"]
-synopsis: "Introduces SHIELD.md as a security standard for OpenClaw and AI agents, addressing risks from internet exposure, malicious skills, compromised packages, and prompt injection. Includes MoltThreat, the first human-curated threat intelligence database tailored for agents, which updates a local Security.md file with tracked malicious activity."
-key_insights: ["SHIELD.md provides structured security policy for AI agents covering prompt injection, malicious skills, and compromised package threats", "MoltThreat is the first human-curated threat intelligence database specifically designed for AI agent ecosystems", "Without proper security, an internet-exposed agent gives attackers access to the connected machine through the agent's tool access"]
----
 # SHIELD.md: A Security Standard for OpenClaw and AI Agents
 
 (Description: Black and white pen-and-ink illustration with high-contrast stippled shading. Center shield emblem bearing "SHIELD.MD: AGENT SECURITY POLICY" text. Left side depicts grotesque virus-like forms labeled "PROMPT INJECTION," "MALICIOUS SKILLS," and "COMPROMISED PACKAGES." Right side shows red lobster claws flanking document pages labeled "AGENTS.MD," "HEARTBEAT.MD," "IDENTITY.MD," "MEMORY.MD," "SOUL.MD," "TOOLS.MD," "USER.MD," and "SKILL.MD." Dynamic radial line background suggests explosive force and urgency.)

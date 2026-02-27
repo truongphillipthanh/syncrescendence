@@ -1,38 +1,3 @@
----
-id: SOURCE-20251124-1012
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "thinking"
-  - "game"
-  - "documentary"
-  - "trailer"
-creator: "Google DeepMind"
-guest: null
-title: "The Thinking Game | Documentary trailer"
-url: "https://www.youtube.com/watch?v=1Jld_rBomp0"
-date_published: 2025-11-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1m 21s"
-has_transcript: no
-synopsis: "The Thinking Game | Documentary trailer by Google DeepMind. A lecture covering thinking, game, documentary."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Thinking Game |"
-  - "The Thinking Game | Documentary trailer"
----
-
 # The Thinking Game | Documentary trailer
 
 **Channel**: Google DeepMind

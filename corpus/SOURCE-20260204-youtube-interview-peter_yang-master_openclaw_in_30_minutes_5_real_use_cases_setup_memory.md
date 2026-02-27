@@ -1,39 +1,3 @@
----
-id: SOURCE-20260204-081
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "master"
-  - "openclaw"
-  - "minutes"
-  - "real"
-  - "use"
-creator: "Peter Yang"
-guest: null
-title: "Master OpenClaw in 30 Minutes (5 Real Use Cases + Setup + Memory)"
-url: "https://www.youtube.com/watch?v=ji_Sd4si7jo"
-date_published: 2026-02-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 52s"
-has_transcript: no
-synopsis: "Master OpenClaw in 30 Minutes (5 Real Use Cases + Setup + Memory) by Peter Yang. A interview covering master, openclaw, minutes."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Master OpenClaw in 30"
-  - "Master OpenClaw in 30 Minutes (5"
----
-
 # Master OpenClaw in 30 Minutes (5 Real Use Cases + Setup + Memory)
 
 **Channel**: Peter Yang

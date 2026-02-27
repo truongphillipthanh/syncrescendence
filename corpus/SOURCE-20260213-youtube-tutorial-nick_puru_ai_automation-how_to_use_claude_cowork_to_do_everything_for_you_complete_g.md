@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-071
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "use"
-  - "claude"
-  - "cowork"
-  - "everything"
-  - "complete"
-creator: "Nick Puru | AI Automation"
-guest: null
-title: "How to Use Claude Cowork To Do EVERYTHING For You (Complete Guide)"
-url: "https://www.youtube.com/watch?v=NZlblvXPJmI"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 57s"
-has_transcript: no
-synopsis: "How to Use Claude Cowork To Do EVERYTHING For You (Complete Guide) by Nick Puru | AI Automation. A tutorial covering use, claude, cowork."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How to Use Claude"
-  - "How to Use Claude Cowork To"
----
-
 # How to Use Claude Cowork To Do EVERYTHING For You (Complete Guide)
 
 **Channel**: Nick Puru | AI Automation

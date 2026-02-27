@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-300
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "year"
-  - "review"
-  - "venezuela"
-  - "regime"
-creator: "Lines on Maps Extra"
-guest: null
-title: "2026 Year in Review: Venezuela Regime Change, Iran Protests, Greenland, & War (Still) in Ukraine"
-url: "https://www.youtube.com/watch?v=ehWu_CjITV4"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "46m 37s"
-has_transcript: no
-synopsis: "2026 Year in Review: Venezuela Regime Change, Iran Protests, Greenland, & War (Still) in Ukraine by Lines on Maps Extra. A lecture covering 2026, year, review."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "2026 Year in Review:"
-  - "2026 Year in Review: Venezuela Regime"
----
-
 # 2026 Year in Review: Venezuela Regime Change, Iran Protests, Greenland, & War (Still) in Ukraine
 
 **Channel**: Lines on Maps Extra

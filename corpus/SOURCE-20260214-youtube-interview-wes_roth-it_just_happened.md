@@ -1,35 +1,3 @@
----
-id: SOURCE-20260214-088
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "just"
-  - "happened"
-creator: "Wes Roth"
-guest: null
-title: "it JUST happened"
-url: "https://www.youtube.com/watch?v=hgnZPx5x03g"
-date_published: 2026-02-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 19s"
-has_transcript: no
-synopsis: "it JUST happened by Wes Roth. A interview covering just, happened."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "it JUST happened"
----
-
 # it JUST happened
 
 **Channel**: Wes Roth

@@ -1,29 +1,3 @@
----
-url: https://x.com/ArmanHezarkhani/status/2012224841374486998
-author: "Arman Hezarkhaki (@ArmanHezarkhani)"
-captured_date: 2026-02-13
-id: SOURCE-20260116-001
-original_filename: "20260116-x_article-the_complete_guide_lovable_for_slide_decks-@armanhezarkhani.md"
-status: triaged
-platform: x
-format: article
-creator: armanhezarkhani
-signal_tier: tactical
-topics:
-  - "ai-creative-media"
-  - "content-creation"
-  - "tutorial"
-  - "design"
-teleology: implement
-notebooklm_category: ai-creative-media
-aliases:
-  - "Arman - Lovable Slide Decks Guide"
-synopsis: "Guide for using Lovable AI tool to create professional slide decks that impress clients. Covers prompting strategies, design principles, and workflow for AI-generated presentations."
-key_insights:
-  - "Lovable can generate professional slide decks with proper prompting strategies and design constraints"
-  - "AI-generated presentations require clear design principles and brand guidelines as context for quality output"
-  - "The workflow combines AI generation with human review for client-ready presentation quality"
----
 # The Complete Guide: Lovable for Slide Decks
 
 *Build slide decks that actually impress clients.*

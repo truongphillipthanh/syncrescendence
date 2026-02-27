@@ -1,16 +1,3 @@
----
-url: https://x.com/VraserX/status/2018596863029411955
-author: VraserX e/acc (@VraserX)
-captured_date: 2026-02-13
-article_published: 2026-02-03T12:06:00Z
-engagement:
-  replies: 18
-  reposts: 9
-  likes: 88
-  bookmarks: 60
-  views: 6654
----
-
 # The AI Revolution Will Break People Long Before It Breaks Jobs
 
 (Description: A dramatic cinematic image showing a silhouetted figure of a person facing forward, surrounded by radiating white light and digital circuit board patterns in shades of blue and teal, creating a sense of confrontation with technology and illumination.)

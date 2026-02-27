@@ -1,11 +1,3 @@
----
-id: CLARESCENCE-2026-02-04-TRUTH_SURFACES_SUBSTRATE
-kind: CLARESCENCE
-scope: substrate
-target: sigma-7
-updated: 2026-02-04
----
-
 # CLARESCENCE: Unify “truth surfaces” + lifecycle semantics across substrate tooling
 
 **Date**: 2026-02-04

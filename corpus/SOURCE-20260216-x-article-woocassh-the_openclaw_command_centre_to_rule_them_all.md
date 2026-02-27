@@ -1,24 +1,3 @@
----
-url: https://x.com/woocassh/status/2023385475306709425
-author: "Lukasz (@woocassh)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-020
-original_filename: "20260216-x_article-the_openclaw_command_centre_to_rule_them_all-@woocassh.md"
-status: triaged
-platform: x
-format: article
-creator: woocassh
-signal_tier: tactical
-topics: [ai-agents, developer-tools, vibe-coding]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["woocassh - VidClaw OpenClaw dashboard"]
-synopsis: "An AI agent built its own management dashboard (VidClaw) - open-source, self-hosted command center with Kanban board (auto-executing task cards), usage tracking, skills manager, soul editor with version history. Security via SSH tunnel only, no cloud. Human provided taste/product decisions, agent wrote all 9000 lines of React."
-key_insights:
-  - "Neither human nor agent could build this alone - human provided taste and product instincts, AI wrote all the code"
-  - "Self-hosted with SSH-as-auth eliminates account/cloud/tracking complexity - localhost binding only"
-  - "Kanban cards that execute themselves: hit play, agent does the work, logs result back on the card"
----
 # The OpenClaw Command Centre To Rule Them All
 (Description: A surreal landscape image depicting two towering structures against a dramatic sky. On the left, a tall cylindrical structure with a glowing red-orange flame or light at its peak rises against stormy gray clouds. On the right, an erupting volcano with molten lava flows and intense flames streams upward into the turbulent sky. The overall atmosphere is apocalyptic and intense, rendered in warm tones of orange, red, and gray.)
 ## Overview

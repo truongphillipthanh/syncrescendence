@@ -1,9 +1,3 @@
----
-url: https://x.com/VraserX/status/2020724431257997358
-author: VraserX e/acc (@VraserX)
-captured_date: 2026-02-13
----
-
 # The Attention Economy Will Be the Largest Market in a Post Labor Society
 
 (Description: Futuristic digital illustration. A silhouetted figure stands facing away from the viewer toward a glowing eye symbol overlaid with wireframe brain patterns. The eye is rendered in luminous blue and gold light. Behind the figure, an array of illuminated screens and digital displays recede into the distance, creating a tunnel effect. Color palette transitions from cool blues on the left to warm oranges on the right, symbolizing the convergence of human consciousness with digital systems.)

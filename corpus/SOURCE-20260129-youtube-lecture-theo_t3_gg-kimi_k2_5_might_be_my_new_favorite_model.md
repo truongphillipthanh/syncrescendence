@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-256
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "kimi"
-  - "might"
-  - "new"
-  - "favorite"
-  - "model"
-creator: "Theo - t3․gg"
-guest: null
-title: "Kimi K2.5 might be my new favorite model..."
-url: "https://www.youtube.com/watch?v=s5USum9JiRA"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "39m 3s"
-has_transcript: no
-synopsis: "Kimi K2.5 might be my new favorite model... by Theo - t3․gg. A lecture covering kimi, might, new."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Kimi K2.5 might be"
-  - "Kimi K2.5 might be my new"
----
-
 # Kimi K2.5 might be my new favorite model...
 
 **Channel**: Theo - t3․gg

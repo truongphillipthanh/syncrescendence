@@ -1,38 +1,3 @@
----
-id: SOURCE-20260220-014
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "just"
-  - "end"
-  - "openclaw"
-creator: "Wes Roth"
-guest: null
-title: "did Anthropic just END OpenClaw?"
-url: "https://www.youtube.com/watch?v=RoSdjdpbtIA"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 58s"
-has_transcript: no
-synopsis: "did Anthropic just END OpenClaw? by Wes Roth. A interview covering anthropic, just, end."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "did Anthropic just END"
-  - "did Anthropic just END OpenClaw?"
----
-
 # did Anthropic just END OpenClaw?
 
 **Channel**: Wes Roth

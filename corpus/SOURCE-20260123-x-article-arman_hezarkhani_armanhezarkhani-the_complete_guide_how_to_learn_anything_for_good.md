@@ -1,34 +1,3 @@
----
-id: SOURCE-20260123-001
-title: "The Complete Guide How To Learn Anything For Good @Armanhezarkhani"
-platform: x
-format: article
-creator: Arman Hezarkhani (ArmanHezarkhani)
-date_published: 20260123
-status: triaged
-original_filename: "research/20260123-x_article-the_complete_guide_how_to_learn_anything_for_good-@armanhezarkhani.md"
-aliases:
-  - "Arman Learn Anything System"
-  - "Claude Code Spaced Repetition"
-teleology: implement
-notebooklm_category: claude-code
-synopsis: "A systematic framework for rapid domain expertise using Claude Code + Notion + Notion MCP. Combines spaced repetition, active recall, and Socratic teaching into an automated learning system that builds a personal knowledge base, generates daily review 'newsletters,' and claims genuine expertise in 2-3 weeks instead of years."
-key_insights:
-  - "Claude Code can automate all three pillars of durable learning — spaced repetition scheduling, active recall testing, and connected understanding mapping"
-  - "The system produces a compounding knowledge base where each domain learned enriches future learning through cross-domain connections"
-  - "Daily AI-generated review documents calibrated to your forgetting curve replace motivation-dependent study habits with systematic knowledge maintenance"
-topics:
-  - claude-code
-  - mcp
-  - tutorial
-  - best-practices
-  - ai-engineering
-signal_tier: strategic
-url: "https://x.com/ArmanHezarkhani/status/2014708119029399914"
-author: "Arman Hezarkhani (@ArmanHezarkhani)"
-captured_date: "2026-01-23T06:33:00Z"
----
-
 # The Complete Guide: How to Learn Anything. For Good.
 
 (Description: Hero image featuring a glowing lightbulb against a dark background, with serif typography reading "The Complete Guide: How to Learn Anything. For Good." and subheading "Build durable expertise fast with spaced repetition and active recall.")

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260212-105
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "160"
-  - "000"
-  - "developers"
-  - "building"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "OpenClaw: 160,000 Developers Are Building Something OpenAI & Google Can't Stop. Where Do You Stand?"
-url: "https://www.youtube.com/watch?v=q-sClVMYY4w"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 13s"
-has_transcript: no
-synopsis: "OpenClaw: 160,000 Developers Are Building Something OpenAI & Google Can't Stop. Where Do You Stand? by AI News & Strategy Daily | Nate B Jones. A lecture covering openclaw, 160, 000."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenClaw: 160,000 Developers Are"
-  - "OpenClaw: 160,000 Developers Are Building Something"
----
-
 # OpenClaw: 160,000 Developers Are Building Something OpenAI & Google Can't Stop. Where Do You Stand?
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

@@ -1,16 +1,3 @@
----
-id: SOURCE-20250807-youtube-lecture-tedx-blaise_aguera_y_arcas
-title: "The Intelligence of Us: Rethinking Minds in the Age of AI"
-creator: TEDx
-guest: Blaise Aguera y Arcas
-date_published: 2025-08-07
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: [Intelligence, Wisdom]
-integration_targets: [CANON-30000-INTELLIGENCE, CANON-35210-METAHUMANISM, CANON-00004-EVOLUTION]
----
-
 # The Intelligence of Us: Rethinking Minds in the Age of AI
 
 ## Executive Summary

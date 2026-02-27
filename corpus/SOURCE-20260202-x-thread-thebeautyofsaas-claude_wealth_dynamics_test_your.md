@@ -1,27 +1,3 @@
----
-url: https://x.com/thebeautyofsaas/status/2018396858305892382
-author: "BOSS (@thebeautyofsaas)"
-captured_date: 2026-02-14
-id: SOURCE-20260202-016
-original_filename: "20260202-x_thread-claude_wealth_dynamics_test_your-@thebeautyofsaas.md"
-status: triaged
-platform: x
-format: thread
-creator: thebeautyofsaas
-signal_tier: noise
-topics:
-  - personal-development
-  - ai-engineering
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "BOSS - Claude personality test synthesis"
-synopsis: "Short thread suggesting combining Claude with Wealth Dynamics test results and MBTI/Enneagram personality type for self-insight. Light on technical content."
-key_insights:
-  - "Using Claude to synthesize multiple personality frameworks (Wealth Dynamics, MBTI, Enneagram) into unified self-insight is an emerging personal-use pattern."
-  - "The thread represents the 'Claude as life coach' usage pattern rather than technical application."
-  - "Cross-framework personality synthesis is a lightweight but popular consumer use case for LLMs."
----
 # X Thread: Claude + Wealth Dynamics Test + Personality Type
 
 ## Post 1/4 — 10:51 AM · Feb 2, 2026

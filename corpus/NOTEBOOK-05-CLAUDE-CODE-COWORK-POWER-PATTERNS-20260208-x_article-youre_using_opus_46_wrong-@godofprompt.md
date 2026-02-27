@@ -1,9 +1,3 @@
----
-url: https://x.com/godofprompt/status/2020499426389741784
-author: God of Prompt (@godofprompt)
-captured_date: 2026-02-13
----
-
 # 🔑 You're Using Opus 4.6 Wrong
 
 (Description: A dark-themed graphic showing pixelated block-style text reading "OPUS 4.6" with a yellow chevron arrow (>) and dash (-) symbol in the upper left corner)

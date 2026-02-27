@@ -1,39 +1,3 @@
----
-id: SOURCE-20251213-837
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "just"
-  - "solved"
-  - "landing"
-  - "pages"
-  - "here"
-creator: "Dylan Davis"
-guest: null
-title: "AI Just Solved Landing Pages  Here's the Exact System I Use"
-url: "https://www.youtube.com/watch?v=WqGHjpwsLto"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 45s"
-has_transcript: no
-synopsis: "AI Just Solved Landing Pages  Here's the Exact System I Use by Dylan Davis. A lecture covering just, solved, landing."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Just Solved Landing"
-  - "AI Just Solved Landing Pages Here's"
----
-
 # AI Just Solved Landing Pages  Here's the Exact System I Use
 
 **Channel**: Dylan Davis

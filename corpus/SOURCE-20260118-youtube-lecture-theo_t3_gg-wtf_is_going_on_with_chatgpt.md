@@ -1,37 +1,3 @@
----
-id: SOURCE-20260118-442
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "wtf"
-  - "going"
-  - "chatgpt"
-creator: "Theo - t3․gg"
-guest: null
-title: "wtf is going on with ChatGPT?"
-url: "https://www.youtube.com/watch?v=s3AWPNLeUlU"
-date_published: 2026-01-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 29s"
-has_transcript: no
-synopsis: "wtf is going on with ChatGPT? by Theo - t3․gg. A lecture covering wtf, going, chatgpt."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "wtf is going on"
-  - "wtf is going on with ChatGPT?"
----
-
 # wtf is going on with ChatGPT?
 
 **Channel**: Theo - t3․gg

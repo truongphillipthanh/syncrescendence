@@ -1,24 +1,3 @@
----
-url: https://x.com/ky__zo/status/2023344439482274014
-author: "kyzo (@ky__zo)"
-captured_date: 2026-02-16
-id: SOURCE-20260216-011
-original_filename: "20260216-x_article-the_world_is_about_to_flip_upside_down-@ky__zo.md"
-status: triaged
-platform: x
-format: article
-creator: ky__zo
-signal_tier: strategic
-topics: [ai-agents, entrepreneurship, philosophy, economics]
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases: ["ky__zo - world flipping upside down agents"]
-synopsis: "Founder reflects on the inflection point where AI agents eliminate coordination problems (dinner bill splitting as metaphor), UI-based software becomes obsolete (APIs over interfaces), and 99% of code is AI-written. Argues products must be built for agents not humans, and the collapse of distance between intention and execution makes consciousness itself the scarce resource."
-key_insights:
-  - "If your software isn't accessible via API, it effectively doesn't exist in an agent-driven world"
-  - "The blank canvas problem: anything is possible with AI, yet most people don't do anything with it"
-  - "We're heading toward collapse of distance between intention and execution - the real leverage is the thought itself"
----
 # The world is about to flip upside down
 (Description: Black and white illustration of Earth in an abstract space setting with a human figure appearing to float or flip above it, surrounded by stars, orbital lines, and geometric elements suggesting transformation and cosmic scale.)
 We're lucky enough to witness it all.

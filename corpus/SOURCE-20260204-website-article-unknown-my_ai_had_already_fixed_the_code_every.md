@@ -1,25 +1,3 @@
----
-id: SOURCE-20260204-website-article-unknown-my_ai_had_already_fixed_the_code_every
-platform: website
-format: article
-creator: unknown
-title: my ai had already fixed the code every
-status: triaged
-original_filename: 20260204-website-my_ai_had_already_fixed_the_code-every.md
-url: https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it-f4a29a07-ea95-409f-bcb2-487a970bed4a
-domain: every.to
-author: Kieran Klaassen
-published_date: January 27, 2026
-captured_date: 2026-02-04
-content_type: article
-signal_tier: strategic
-topics: ""
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # My AI Had Already Fixed the Code Before I Saw It
 
 Compounding engineering turns every pull request, bug fix, and code review into permanent lessons your development tools apply automatically

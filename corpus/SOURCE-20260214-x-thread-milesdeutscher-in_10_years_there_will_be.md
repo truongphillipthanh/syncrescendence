@@ -1,28 +1,3 @@
----
-url: https://x.com/milesdeutscher/status/2022556923955155362
-author: "Miles Deutscher (@milesdeutscher)"
-captured_date: 2026-02-20
-id: SOURCE-20260214-018
-original_filename: "20260214-x_thread-in_10_years_there_will_be-@milesdeutscher.md"
-status: triaged
-platform: x
-format: thread
-creator: milesdeutscher
-signal_tier: strategic
-topics:
-  - ai-workflow
-  - automation
-  - synthesize-pattern
-teleology: synthesize
-notebooklm_category: career-growth
-aliases:
-  - "KShaped Economy The AI Divide"
-synopsis: "K-Shaped Economy: The AI Divide In 10 years, there will be two classes of people. Economists call it the "K-shaped economy" - and the next 2-3 years will decide which line you're on. - An overclass that uses AI as a lever to build wealth, automate income, and make decisions at a speed no human can compete with alone. - And an underclass that gets managed by it. This isn't just "coming"."
-key_insights:
-  - "K-Shaped Economy: The AI Divide In 10 years, there will be two classes of people."
-  - "Economists call it the "K-shaped economy" - and the next 2-3 years will decide which line you're on."
-  - "- An overclass that uses AI as a lever to build wealth, automate income, and make decisions at a speed no human can compete with alone."
----
 # K-Shaped Economy: The AI Divide
 In 10 years, there will be two classes of people.
 Economists call it the "K-shaped economy" - and the next 2-3 years will decide which line you're on.

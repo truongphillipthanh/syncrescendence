@@ -1,9 +1,3 @@
----
-url: https://x.com/farzyness/status/2021592242821968114
-author: Farzad (@farzyness)
-captured_date: 2026-02-11
----
-
 # Abundance or Collapse: The Fork in the Road for AI, Robotics, and Civilization
 
 (Description: A stylized tree illustration split vertically down the center. The left side shows golden/yellow foliage and organic branch patterns, while the right side displays blue circuitry-like patterns resembling electronic pathways. The trunk merges both natural and technological elements, symbolizing the convergence of biological and artificial systems. The black background emphasizes the contrast between the two halves.)

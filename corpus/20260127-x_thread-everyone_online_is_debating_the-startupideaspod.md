@@ -1,9 +1,3 @@
----
-url: https://x.com/startupideaspod/status/2016236538775142791
-author: @startupideaspod
-captured_date: 2026-01-27
----
-
 # Clawdbot (aka Moltbot) Setup Guide
 
 Everyone online is debating the best Clawdbot (aka Moltbot) setup. I've tested every method.

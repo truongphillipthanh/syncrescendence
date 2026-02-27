@@ -1,29 +1,3 @@
----
-url: https://x.com/froessell/status/2018621691006439603
-author: "✌︎ frederik ✌︎ (@froessell)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-016
-original_filename: "20260203-x_article-my_ai_design_toolkit_what_actually_works_for_me_in_2026-@froessell.md"
-status: triaged
-platform: x
-format: article
-creator: froessell
-signal_tier: tactical
-topics:
-  - design
-  - developer-tools
-  - ai-engineering
-  - workflow
-teleology: extract
-notebooklm_category: ai-engineering
-aliases:
-  - "Frederik - AI design toolkit 2026"
-synopsis: "Honest breakdown of AI design tools that actually work in 2026 production workflows, from a senior product designer at a large ecommerce company. Covers v0, Superdesign, Figma, Aura.build, and Jitter, distinguishing between enterprise design system contexts and side project contexts."
-key_insights:
-  - "AI design tool effectiveness varies dramatically between enterprise contexts (established design systems, token pipelines) and indie/side project contexts."
-  - "The honest 'what I actually use' framing cuts through AI tool hype by grounding recommendations in real production workflows."
-  - "Tool selection for AI-assisted design depends on whether you need design system integration or rapid prototyping freedom."
----
 # My AI Design Toolkit: What Actually Works For Me in 2026
 
 (Description: Screenshot showing six tool icons arranged horizontally: a dotted grid pattern (v0), a hand holding a pen (Superdesign), Figma logo, a 3D box (Aura.build), a sun-like icon (Jitter), and the Jitter text logo on black background.)

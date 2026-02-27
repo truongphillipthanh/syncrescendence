@@ -1,39 +1,3 @@
----
-id: SOURCE-20251222-302
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "missing"
-  - "100"
-  - "000"
-  - "years"
-  - "humans"
-creator: "Sleepy Time History"
-guest: null
-title: "The Missing 100,000 Years: What Humans Did BEFORE Civilization | History for Sleep"
-url: "https://www.youtube.com/watch?v=FEe4kEP2SqA"
-date_published: 2025-12-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 21m 35s"
-has_transcript: no
-synopsis: "The Missing 100,000 Years: What Humans Did BEFORE Civilization | History for Sleep by Sleepy Time History. A lecture covering missing, 100, 000."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Missing 100,000 Years:"
-  - "The Missing 100,000 Years: What Humans"
----
-
 # The Missing 100,000 Years: What Humans Did BEFORE Civilization | History for Sleep
 
 **Channel**: Sleepy Time History

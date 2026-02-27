@@ -1,18 +1,3 @@
----
-source_id: SOURCE-20251223-080
-title: "How AI Starts Doing the Work in 2026"
-platform: youtube
-format: interview
-creator: AI Daily Brief
-guest: Mike Krieger
-date_published: 2025-12-23
-date_processed: 2026-01-05
-chain: intelligence
-topics: [anthropic, claude_code, enterprise_ai, agentic_workflows, coding_agents]
-signal_tier: strategic
-integrated_into: []
----
-
 # Mike Krieger (Anthropic CPO): 2026 Enterprise AI Vision
 
 ## Core Thesis

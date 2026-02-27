@@ -1,39 +1,3 @@
----
-id: SOURCE-20260214-056
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "agent"
-  - "teams"
-  - "kimi"
-  - "swarm"
-creator: "Sean‘s AI Stories"
-guest: null
-title: "Claude Agent Teams VS Kimi Agent Swarm Explained (Beginner, Demos+System Design)"
-url: "https://www.youtube.com/watch?v=WuOlqBsDg-w"
-date_published: 2026-02-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 30s"
-has_transcript: no
-synopsis: "Claude Agent Teams VS Kimi Agent Swarm Explained (Beginner, Demos+System Design) by Sean‘s AI Stories. A panel discussion covering claude, agent, teams."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Agent Teams VS"
-  - "Claude Agent Teams VS Kimi Agent"
----
-
 # Claude Agent Teams VS Kimi Agent Swarm Explained (Beginner, Demos+System Design)
 
 **Channel**: Sean‘s AI Stories

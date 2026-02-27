@@ -1,38 +1,3 @@
----
-id: SOURCE-20251208-891
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gpt"
-  - "garlic"
-  - "coming"
-  - "week"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Is GPT-5.2 "Garlic" Coming This Week?"
-url: "https://www.youtube.com/watch?v=Qmn187sGAUY"
-date_published: 2025-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 48s"
-has_transcript: no
-synopsis: "Is GPT-5.2 "Garlic" Coming This Week? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering gpt, garlic, coming."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Is GPT-5.2 "Garlic" Coming"
-  - "Is GPT-5.2 "Garlic" Coming This Week?"
----
-
 # Is GPT-5.2 "Garlic" Coming This Week?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

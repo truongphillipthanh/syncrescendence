@@ -1,9 +1,3 @@
----
-url: https://x.com/tomcrawshaw01/status/2019778646043758957
-author: Tom (@tomcrawshaw01)
-captured_date: 2026-02-06
----
-
 # How to Install and Use Claude Code Agent Teams (Complete Guide)
 
 (Description: A dark-themed header image displaying the text "AGENT TEAMS" in large white letters. Below the title is a network diagram showing a central orange node with connections to five smaller orange nodes labeled "research", "code", "test", "review", and "display".)

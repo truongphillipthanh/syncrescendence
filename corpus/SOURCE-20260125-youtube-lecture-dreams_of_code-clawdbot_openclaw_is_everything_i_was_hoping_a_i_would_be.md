@@ -1,38 +1,3 @@
----
-id: SOURCE-20260125-339
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "openclaw"
-  - "everything"
-  - "hoping"
-creator: "Dreams of Code"
-guest: null
-title: "Clawdbot (OpenClaw) is everything I was hoping A.I. would be"
-url: "https://www.youtube.com/watch?v=Z-FXHuiUJSU"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 15s"
-has_transcript: no
-synopsis: "Clawdbot (OpenClaw) is everything I was hoping A.I. would be by Dreams of Code. A lecture covering clawdbot, openclaw, everything."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawdbot (OpenClaw) is everything"
-  - "Clawdbot (OpenClaw) is everything I was"
----
-
 # Clawdbot (OpenClaw) is everything I was hoping A.I. would be
 
 **Channel**: Dreams of Code

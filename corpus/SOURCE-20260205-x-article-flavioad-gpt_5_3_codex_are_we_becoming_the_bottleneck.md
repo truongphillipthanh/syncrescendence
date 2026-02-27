@@ -1,30 +1,3 @@
----
-url: https://x.com/flavioAd/status/2019474660866290061
-author: "Flavio Adamo (@flavioAd)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-006
-original_filename: "20260205-x_article-gpt_5_3_codex_are_we_becoming_the_bottleneck-@flavioAd.md"
-status: triaged
-platform: x
-format: article
-creator: flavioad
-signal_tier: strategic
-topics:
-  - context-management
-  - codex
-  - gpt
-  - product-development
-  - benchmarks
-teleology: contextualize
-notebooklm_category: coding-tools
-aliases:
-  - "GPT 53Codex Are we becoming the bottleneck"
-synopsis: "GPT 5.3-Codex: Are we becoming the bottleneck? I started using GPT-5.3-Codex as my main model about two weeks ago, fully expecting it to be "just another iteration," but day after day it just made the work feel smoother in ways that were hard to quantify at first. Beyond the usual benchmarks, I thought it would be more useful to share what will actually change in your day-to-day work."
-key_insights:
-  - "Is this just a UX trick to make the wait feel shorter?"
-  - "GPT 5.3-Codex: Are we becoming the bottleneck?"
-  - "Beyond the usual benchmarks, I thought it would be more useful to share what will actually change in your day-to-day work."
----
 # GPT 5.3-Codex: Are we becoming the bottleneck?
 
 (Description: Large gradient banner with blue-to-purple transition containing white text reading "GPT-5.3-Codex")

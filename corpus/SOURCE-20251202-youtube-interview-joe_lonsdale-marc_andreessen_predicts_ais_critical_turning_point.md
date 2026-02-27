@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-929
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "marc"
-  - "andreessen"
-  - "predicts"
-  - "critical"
-  - "turning"
-creator: "Joe Lonsdale"
-guest: null
-title: "Marc Andreessen Predicts AI’s Critical Turning Point"
-url: "https://www.youtube.com/watch?v=dgxiFHcPluA"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "5m 39s"
-has_transcript: no
-synopsis: "Marc Andreessen Predicts AI’s Critical Turning Point by Joe Lonsdale. A interview covering marc, andreessen, predicts."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Marc Andreessen Predicts AI’s"
-  - "Marc Andreessen Predicts AI’s Critical Turning"
----
-
 # Marc Andreessen Predicts AI’s Critical Turning Point
 
 **Channel**: Joe Lonsdale

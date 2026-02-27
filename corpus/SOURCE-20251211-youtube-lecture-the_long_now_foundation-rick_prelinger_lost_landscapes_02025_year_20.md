@@ -1,39 +1,3 @@
----
-id: SOURCE-20251211-726
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "rick"
-  - "prelinger"
-  - "lost"
-  - "landscapes"
-  - "02025"
-creator: "The Long Now Foundation"
-guest: null
-title: "Rick Prelinger | Lost Landscapes 02025: YEAR 20!"
-url: "https://www.youtube.com/watch?v=B4OrjUezqKg"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 16m 7s"
-has_transcript: no
-synopsis: "Rick Prelinger | Lost Landscapes 02025: YEAR 20! by The Long Now Foundation. A lecture covering rick, prelinger, lost."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Rick Prelinger | Lost"
-  - "Rick Prelinger | Lost Landscapes 02025:"
----
-
 # Rick Prelinger | Lost Landscapes 02025: YEAR 20!
 
 **Channel**: The Long Now Foundation

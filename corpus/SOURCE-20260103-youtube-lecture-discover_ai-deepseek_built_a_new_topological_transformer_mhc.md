@@ -1,39 +1,3 @@
----
-id: SOURCE-20260103-631
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "deepseek"
-  - "built"
-  - "new"
-  - "topological"
-  - "transformer"
-creator: "Discover AI"
-guest: null
-title: "DeepSeek built a New Topological Transformer (mHC)"
-url: "https://www.youtube.com/watch?v=Tki2Zy4jOAc"
-date_published: 2026-01-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 21s"
-has_transcript: no
-synopsis: "DeepSeek built a New Topological Transformer (mHC) by Discover AI. A lecture covering deepseek, built, new."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "DeepSeek built a New"
-  - "DeepSeek built a New Topological Transformer"
----
-
 # DeepSeek built a New Topological Transformer (mHC)
 
 **Channel**: Discover AI

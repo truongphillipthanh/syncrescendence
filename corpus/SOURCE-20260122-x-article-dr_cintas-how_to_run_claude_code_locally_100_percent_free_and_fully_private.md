@@ -1,22 +1,3 @@
----
-id: SOURCE-20260122-x-article-dr_cintas-how_to_run_claude_code_locally_100_percent_free_and_fully_private
-platform: x
-format: article
-creator: dr_cintas
-title: how to run claude code locally 100 percent free and fully private
-status: triaged
-original_filename: "20260122-x_article-how_to_run_claude_code_locally_100_percent_free_and_fully_private-@dr_cintas.md"
-url: https://x.com/dr_cintas/status/2014380662300533180
-author: "Alvaro Cintas (@dr_cintas)"
-captured_date: 2026-01-22
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # How to Run Claude Code Locally (100% Free & Fully Private)
 
 In this tutorial, you'll learn how to run Claude Code entirely on your own machine using local open-source models. This setup lets the AI read files, edit code, and run commands without sending any data to the cloud, no API costs, no tracking, and complete privacy.

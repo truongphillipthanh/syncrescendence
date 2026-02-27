@@ -1,9 +1,3 @@
----
-url: https://x.com/Andrey__HQ/status/2016228427901370760
-author: Andrey (@Andrey__HQ)
-captured_date: 2026-01-27
----
-
 # The Thing About Moltbot That Nobody Wants to Admit
 
 (Description: Header image with text "Rise of Moltbot" in gold lettering on a dark blue background, with an abstract swooping design in orange-red pixelated or dotted pattern suggesting motion and scale)

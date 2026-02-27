@@ -1,36 +1,3 @@
----
-id: SOURCE-20251206-903
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "microsoft"
-  - "changing"
-  - "targets"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Microsoft Changing AI Targets?"
-url: "https://www.youtube.com/watch?v=r7w8aGYGrME"
-date_published: 2025-12-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "6m 14s"
-has_transcript: no
-synopsis: "Microsoft Changing AI Targets? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering microsoft, changing, targets."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Microsoft Changing AI Targets?"
----
-
 # Microsoft Changing AI Targets?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

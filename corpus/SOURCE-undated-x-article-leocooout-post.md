@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-x-article-leocooout-post
-platform: x
-format: article
-creator: leocooout
-title: post
-status: triaged
-original_filename: "post-@leocooout.md"
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 today I did an exploration and reduced the file search time in the TikTok codebase from nearly 8s to less than 200ms. mentioning any file in Claude is practically instantaneous now
 
 the default configuration of fast filesystem traversal is good for smaller projects but for large-scale projects a custom indexing system is recommended

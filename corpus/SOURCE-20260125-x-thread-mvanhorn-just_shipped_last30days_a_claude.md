@@ -1,22 +1,3 @@
----
-id: SOURCE-20260125-x-thread-mvanhorn-just_shipped_last30days_a_claude
-platform: x
-format: thread
-creator: mvanhorn
-title: just shipped last30days a claude
-status: triaged
-original_filename: "20260125-x_thread-just_shipped_last30days_a_claude-@mvanhorn.md"
-url: https://x.com/mvanhorn/status/2015551849710190697
-author: "Matt Van Horn (@mvanhorn)"
-captured_date: 2026-02-04
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # /last30days Thread - Jan 25, 2026
 
 ## Post 1: Initial Announcement

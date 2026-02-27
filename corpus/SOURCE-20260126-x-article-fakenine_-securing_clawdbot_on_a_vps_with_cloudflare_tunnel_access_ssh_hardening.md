@@ -1,31 +1,3 @@
----
-url: https://x.com/fakenine_/status/2015925432718155860
-author: "Samy Kacimi (@fakenine_)"
-captured_date: 2026-02-04
-id: SOURCE-20260126-004
-original_filename: "20260126-x_article-securing_clawdbot_on_a_vps_with_cloudflare_tunnel_access_ssh_hardening-@fakenine_.md"
-status: triaged
-platform: x
-format: article
-creator: fakenine_
-signal_tier: tactical
-topics:
-  - ai-agents
-  - git
-  - token-management
-  - rust
-  - cli-tools
-  - clawdbot
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Securing Clawdbot on a VPS with Cloudflare Tunnel  Access  SSH Hardening"
-synopsis: "Securing Clawdbot on a VPS with Cloudflare (Tunnel + Access + SSH Hardening) Ok, so you've got Clawdbot running on a VPS (DigitalOcean, AWS etc) and you want it secure 🔒 Practical Goal - No public dashboard ports - HTTPS everywhere - Identity-based login in front of the dashboard (not just a toke."
-key_insights:
-  - "So we need to secure it as if it's a public target by default."
-  - "Threat Model (What We're Protecting Against) When you run a dashboard on a VPS, the danger is not "a hacker manually targeting you"."
-  - "Cloudflare Tunnel creates an outbound connection from your VPS to Cloudflare."
----
 # Securing Clawdbot on a VPS with Cloudflare (Tunnel + Access + SSH Hardening)
 
 (Description: Illustration with dark space background featuring: a laptop on left with globe icon and orange checkmark shield, a red round character with antennae standing on servers in center, a cloud storage icon with orange checkmark in top right, and a golden lock on dark brick wall on right. Connected by dotted lines suggesting data flow. Color palette: dark navy/purple background with coral red, orange, and blue accents.)

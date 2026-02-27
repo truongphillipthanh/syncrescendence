@@ -1,38 +1,3 @@
----
-id: SOURCE-20251211-847
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "new"
-  - "gpt"
-  - "total"
-  - "bloodbath"
-creator: "Discover AI"
-guest: null
-title: "NEW GPT 5.2: A Total Bloodbath"
-url: "https://www.youtube.com/watch?v=9wg0dGz5-bs"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 59s"
-has_transcript: no
-synopsis: "NEW GPT 5.2: A Total Bloodbath by Discover AI. A lecture covering new, gpt, total."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "NEW GPT 5.2: A"
-  - "NEW GPT 5.2: A Total Bloodbath"
----
-
 # NEW GPT 5.2: A Total Bloodbath
 
 **Channel**: Discover AI

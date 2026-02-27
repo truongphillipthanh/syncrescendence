@@ -1,39 +1,3 @@
----
-id: SOURCE-20260219-001
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "new"
-  - "studio"
-  - "here"
-  - "full"
-creator: "Peter Yang"
-guest: null
-title: "Gemini 3.1 + New AI Studio Is Here: Full Prototyping Tutorial in 18 Minutes"
-url: "https://www.youtube.com/watch?v=2sLO9NYr8Rc"
-date_published: 2026-02-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 12s"
-has_transcript: no
-synopsis: "Gemini 3.1 + New AI Studio Is Here: Full Prototyping Tutorial in 18 Minutes by Peter Yang. A interview covering gemini, new, studio."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3.1 + New"
-  - "Gemini 3.1 + New AI Studio"
----
-
 # Gemini 3.1 + New AI Studio Is Here: Full Prototyping Tutorial in 18 Minutes
 
 **Channel**: Peter Yang

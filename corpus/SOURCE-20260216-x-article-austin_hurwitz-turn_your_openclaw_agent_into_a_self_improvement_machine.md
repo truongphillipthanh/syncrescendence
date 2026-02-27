@@ -1,24 +1,3 @@
----
-url: https://x.com/austin_hurwitz/status/2023384954546049065
-author: "austin (@austin_hurwitz)"
-captured_date: 2026-02-16
-id: SOURCE-20260216-003
-original_filename: "20260216-x_article-turn_your_openclaw_agent_into_a_self_improvement_machine-@austin_hurwitz.md"
-status: triaged
-platform: x
-format: article
-creator: austin_hurwitz
-signal_tier: strategic
-topics: [ai-agents, automation, best-practices, prompt-engineering]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["austin_hurwitz - AI self-improvement digest skill"]
-synopsis: "A complete OpenClaw skill that generates daily AI self-improvement digests - scanning tiered sources (Anthropic Engineering, Simon Willison, HN, arXiv), filtering for actionable content, and running a mandatory setup review against the agent's own configuration. Includes experiment tracking, deduplication, and a continuous improvement loop."
-key_insights:
-  - "Setup Review is mandatory: connect each day's findings to existing infrastructure and make affirmative suggestions"
-  - "Tiered source scanning (daily/2-3x week/weekly) with deduplication prevents content recycling"
-  - "Experiment tracking in JSON creates a compounding loop: digest → experiment → outcome → lesson → improved agent"
----
 # Turn Your OpenClaw Agent into a Self Improvement Machine
 (Description: A 3D rendered scene showing a character in a red winter hat sitting at a vintage computer desk. On the left, a tall stack of colorful books; in the center, a boxy retro monitor displaying a turquoise and magenta interface; on the right, a computer tower with a plaid blanket visible in the background. Warm, ambient lighting illuminates the scene.)
 ## AI Self-Improvement Digest

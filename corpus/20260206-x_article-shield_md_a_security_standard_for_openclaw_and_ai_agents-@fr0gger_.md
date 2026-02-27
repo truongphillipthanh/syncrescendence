@@ -1,9 +1,3 @@
----
-url: https://x.com/fr0gger_/status/2020025525784514671
-author: Thomas Roccia (@fr0gger_)
-captured_date: 2026-02-06
----
-
 # SHIELD.md: A Security Standard for OpenClaw and AI Agents
 
 (Description: Black and white pen-and-ink illustration with high-contrast stippled shading. Center shield emblem bearing "SHIELD.MD: AGENT SECURITY POLICY" text. Left side depicts grotesque virus-like forms labeled "PROMPT INJECTION," "MALICIOUS SKILLS," and "COMPROMISED PACKAGES." Right side shows red lobster claws flanking document pages labeled "AGENTS.MD," "HEARTBEAT.MD," "IDENTITY.MD," "MEMORY.MD," "SOUL.MD," "TOOLS.MD," "USER.MD," and "SKILL.MD." Dynamic radial line background suggests explosive force and urgency.)

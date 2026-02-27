@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-585
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "major"
-  - "shifts"
-  - "landscape"
-  - "brainstorm"
-  - "115"
-creator: "ARK Invest"
-guest: null
-title: "Major Shifts In The AI Landscape | The Brainstorm EP 115"
-url: "https://www.youtube.com/watch?v=QH-iyYyPxUc"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "51m 6s"
-has_transcript: no
-synopsis: "Major Shifts In The AI Landscape | The Brainstorm EP 115 by ARK Invest. A panel discussion covering major, shifts, landscape."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Major Shifts In The"
-  - "Major Shifts In The AI Landscape"
----
-
 # Major Shifts In The AI Landscape | The Brainstorm EP 115
 
 **Channel**: ARK Invest

@@ -1,9 +1,3 @@
----
-url: https://x.com/alexkehr/status/2021667248608584183
-author: Alex Kehr (@alexkehr)
-captured_date: 2026-02-13
----
-
 # The Future of Design is Direct Design
 
 (Description: A header image featuring a bright blue gradient background with three design tool application icons arranged horizontally: a coral-orange icon with a white star/asterisk shape (Cursor), a dark navy icon with colorful dots in red, green, and blue (Figma), and a dark gray icon with a white 3D geometric pyramid shape (possibly Claude Code). The icons are rounded squares, centered against the gradient.)

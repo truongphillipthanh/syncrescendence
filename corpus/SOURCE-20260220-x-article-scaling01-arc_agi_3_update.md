@@ -1,32 +1,3 @@
----
-url: https://x.com/scaling01/status/2024640940657246235
-author: "Lisan al Gaib (@scaling01)"
-captured_date: 2026-02-19
-id: SOURCE-20260220-006
-original_filename: "20260220-x_article-arc_agi_3_update-@scaling01.md"
-status: triaged
-platform: x
-format: article
-creator: scaling01
-signal_tier: strategic
-topics:
-  - prompting
-  - context-management
-  - debugging
-  - testing
-  - memory-management
-  - extended-thinking
-  - gemini
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "ARCAGI3 UPDATE"
-synopsis: "ARC-AGI-3 UPDATE on a dark grid background, representing the ARC-AGI challenge branding) Summary **TLDR:** Opus 4.6 demonstrates better reasoning and use of memory than Gemini 3.1 Pro and solves more levels. I'm now much more confident that current and future models will be able to solve ARC-AGI-3, given that they have access to harness with simple memory."
-key_insights:
-  - "I'm now much more confident that current and future models will be able to solve ARC-AGI-3, given that they have access to harness with simple memory."
-  - "I suspect that memory scaffolds might be enough for pseudo-continual learning to push us over some self-improvement or research-agent threshold within the next 2 years."
-  - "Furthermore, it explains that on each turn it will see its own memory that it can modify, the previous state, previous action, the current state and all the available actions."
----
 # ARC-AGI-3 UPDATE
 (Description: The article header shows "ARC PRIZE" text with colored squares (red, yellow) on a dark grid background, representing the ARC-AGI challenge branding)
 ## Summary

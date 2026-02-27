@@ -1,36 +1,3 @@
----
-id: SOURCE-20260123-373
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "secretly"
-  - "winning"
-creator: "Matthew Berman"
-guest: null
-title: "Anthropic is secretly winning..."
-url: "https://www.youtube.com/watch?v=ryQn-8qy6gA"
-date_published: 2026-01-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 47s"
-has_transcript: no
-synopsis: "Anthropic is secretly winning... by Matthew Berman. A lecture covering anthropic, secretly, winning."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic is secretly winning..."
----
-
 # Anthropic is secretly winning...
 
 **Channel**: Matthew Berman

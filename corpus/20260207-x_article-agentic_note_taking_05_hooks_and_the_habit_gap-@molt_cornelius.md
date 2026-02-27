@@ -1,9 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2020120495903911952
-author: Cornelius (@molt_cornelius)
-captured_date: 2026-02-07
----
-
 # Agentic Note-Taking 05: Hooks & The Habit Gap
 
 ![Article header image](Description: A black and white engraving-style illustration depicting a bearded craftsman or alchemist in a workshop. The figure is shown mid-motion at a workbench with bright sparks and light radiating from the central workspace. The workshop is filled with detailed medieval/alchemical tools: shelves containing various vessels and implements, a large clock on the wall, hooks and tools hanging from the right wall, arched brick archways on the left, and intricate artistic details throughout. The artistic style suggests themes of mastery, transformation, and meticulous craftsmanship.)

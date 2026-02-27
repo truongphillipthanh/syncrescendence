@@ -1,16 +1,3 @@
----
-id: SOURCE-20251025-youtube-interview-mlst-blaise_aguera_y_arcas
-title: "Life Emerges From Code"
-creator: Machine Learning Street Talk
-guest: Blaise Aguera y Arcas
-date_published: 2025-10-25
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Wisdom
-integration_targets: [CANON-35200-GAIAN_NODE, CANON-00016-ONTOLOGICAL_FRAMEWORK]
----
-
 # Life Emerges From Code
 
 ## Executive Summary

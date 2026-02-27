@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-thread-karpathy-a_few_random_notes_from_claude
-platform: x
-format: thread
-creator: karpathy
-title: a few random notes from claude
-status: triaged
-original_filename: "20260126-x_thread-a_few_random_notes_from_claude-@karpathy.md"
-url: https://x.com/karpathy/status/2015883857489522876
-author: "@karpathy"
-captured_date: 2026-01-26
-signal_tier: paradigm
-topics: ""
-teleology: synthesize
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # A Few Random Notes from Claude Coding
 
 A few random notes from claude coding quite a bit last few weeks.

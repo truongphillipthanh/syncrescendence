@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-386
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "peering"
-  - "into"
-  - "claude"
-  - "soul"
-  - "believe"
-creator: "Theo - t3․gg"
-guest: null
-title: "Peering into Claude's soul (I can't believe this is real...)"
-url: "https://www.youtube.com/watch?v=ho4pQ6pI8Rg"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 12m 20s"
-has_transcript: no
-synopsis: "Peering into Claude's soul (I can't believe this is real...) by Theo - t3․gg. A lecture covering peering, into, claude."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Peering into Claude's soul"
-  - "Peering into Claude's soul (I can't"
----
-
 # Peering into Claude's soul (I can't believe this is real...)
 
 **Channel**: Theo - t3․gg

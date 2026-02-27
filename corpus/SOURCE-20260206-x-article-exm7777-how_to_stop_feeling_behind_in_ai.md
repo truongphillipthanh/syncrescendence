@@ -1,30 +1,3 @@
----
-url: https://x.com/EXM7777/status/2019787951530725396
-author: "Machina (@EXM7777)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-007
-original_filename: "20260206-x_article-how_to_stop_feeling_behind_in_ai-@exm7777.md"
-status: triaged
-platform: x
-format: article
-creator: exm7777
-signal_tier: tactical
-topics:
-  - testing
-  - codex
-  - gpt
-  - product-development
-  - benchmarks
-teleology: inspire
-notebooklm_category: career-growth
-aliases:
-  - "how to stop feeling behind in AI"
-synopsis: "how to stop feeling behind in AI yesterday GPT-5.3 Codex dropped 20 minutes after Opus 4.6... two releases in the same day, both "redefining everything" the day before, Kling 3.0 came out and changed AI video production forever the day before that..."
-key_insights:
-  - "how to stop feeling behind in AI yesterday GPT-5.3 Codex dropped 20 minutes after Opus 4.6..."
-  - "two releases in the same day, both "redefining everything" the day before, Kling 3.0 came out and changed AI video production forever the day before that..."
-  - "every new release that hasn't been tested yet feels like a loss** not an opportunity - psychologists call this loss aversion..."
----
 # how to stop feeling behind in AI
 
 (Description: Black and white cinematic image of a man in a dark t-shirt standing in a high-tech command center, hand raised to his ear in a thoughtful gesture. Behind him extends a massive curved wall covered entirely with dozens of monitor screens displaying data and code. A curved desk with multiple keyboards and equipment sits in the foreground, lit dramatically. The aesthetic suggests an AI operations or tech monitoring environment.)

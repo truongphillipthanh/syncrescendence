@@ -1,9 +1,3 @@
----
-url: https://x.com/theo/status/2018091358251372601
-author: Theo - t3.gg (@theo)
-captured_date: 2026-02-01
----
-
 # The Agentic Code Problem
 
 (Description: Diagram showing three projects (A, B, C) split across Terminal, IDE, and Browser tabs with specific ports and services labeled for each project)

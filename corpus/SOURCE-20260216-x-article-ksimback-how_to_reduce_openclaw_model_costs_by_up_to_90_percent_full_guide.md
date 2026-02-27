@@ -1,24 +1,3 @@
----
-url: https://x.com/KSimback/status/2023362295166873743
-author: "Kevin Simback (@KSimback)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-010
-original_filename: "20260216-x_article-how_to_reduce_openclaw_model_costs_by_up_to_90_percent_full_guide-@ksimback.md"
-status: triaged
-platform: x
-format: article
-creator: ksimback
-signal_tier: strategic
-topics: [ai-agents, ai-engineering, best-practices, tutorial]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["ksimback - OpenClaw cost reduction guide 90%"]
-synopsis: "Comprehensive guide to reducing OpenClaw API costs by up to 90% through intelligent model routing (4-tier task classification), prompt caching (90% savings on system prompts), ClawRouter integration, OpenRouter auto-routing, and local model deployment via Ollama. Includes pricing comparisons across Anthropic, OpenAI, Google, and open-weight models."
-key_insights:
-  - "OpenClaw sends everything to primary model by default - heartbeats on Opus cost $100+/month vs $0.50/month with Haiku + caching"
-  - "Prompt caching saves 90% on system prompts (SOUL.md, AGENTS.md) by reusing cached context within TTL windows"
-  - "ClawRouter (2.4k stars in 11 days) classifies queries locally and routes to cheapest capable model per complexity tier"
----
 # How to Reduce OpenClaw Model Costs by up to 90% (Full Guide)
 (Description: A beige-colored illustration showing a humanoid character in front of a computer monitor, with a toilet overflowing with papers and plants, and a money bag spilling coins. Text bubble reads "Task inefficiently. Costs add up medially here.")
 ## TLDR

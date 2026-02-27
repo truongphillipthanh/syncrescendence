@@ -1,39 +1,3 @@
----
-id: SOURCE-20260131-226
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ice"
-  - "chaos"
-  - "minneapolis"
-  - "clawdbot"
-  - "takeover"
-creator: "All-In Podcast"
-guest: null
-title: "ICE Chaos in Minneapolis, Clawdbot Takeover, Why the Dollar is Dropping"
-url: "https://www.youtube.com/watch?v=gXY1kx7zlkk"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 30m 2s"
-has_transcript: no
-synopsis: "ICE Chaos in Minneapolis, Clawdbot Takeover, Why the Dollar is Dropping by All-In Podcast. A lecture covering ice, chaos, minneapolis."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "ICE Chaos in Minneapolis,"
-  - "ICE Chaos in Minneapolis, Clawdbot Takeover,"
----
-
 # ICE Chaos in Minneapolis, Clawdbot Takeover, Why the Dollar is Dropping
 
 **Channel**: All-In Podcast

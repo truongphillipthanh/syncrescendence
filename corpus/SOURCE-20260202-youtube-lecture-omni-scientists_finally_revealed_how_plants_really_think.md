@@ -1,39 +1,3 @@
----
-id: SOURCE-20260202-156
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "scientists"
-  - "finally"
-  - "revealed"
-  - "plants"
-  - "really"
-creator: "OMNI"
-guest: null
-title: "Scientists Finally Revealed How Plants Really Think"
-url: "https://www.youtube.com/watch?v=Yb42OQ_hwc4"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "50m 51s"
-has_transcript: no
-synopsis: "Scientists Finally Revealed How Plants Really Think by OMNI. A lecture covering scientists, finally, revealed."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Scientists Finally Revealed How"
-  - "Scientists Finally Revealed How Plants Really"
----
-
 # Scientists Finally Revealed How Plants Really Think
 
 **Channel**: OMNI

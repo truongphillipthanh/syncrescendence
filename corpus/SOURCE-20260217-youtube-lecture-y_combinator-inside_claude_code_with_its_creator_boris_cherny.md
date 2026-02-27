@@ -1,39 +1,3 @@
----
-id: SOURCE-20260217-035
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "inside"
-  - "claude"
-  - "code"
-  - "creator"
-  - "boris"
-creator: "Y Combinator"
-guest: null
-title: "Inside Claude Code With Its Creator Boris Cherny"
-url: "https://www.youtube.com/watch?v=PQU9o_5rHC4"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "50m 11s"
-has_transcript: no
-synopsis: "Inside Claude Code With Its Creator Boris Cherny by Y Combinator. A lecture covering inside, claude, code."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Inside Claude Code With"
-  - "Inside Claude Code With Its Creator"
----
-
 # Inside Claude Code With Its Creator Boris Cherny
 
 **Channel**: Y Combinator

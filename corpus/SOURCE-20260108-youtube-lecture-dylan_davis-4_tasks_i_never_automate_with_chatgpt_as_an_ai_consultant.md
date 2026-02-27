@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-588
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "tasks"
-  - "never"
-  - "automate"
-  - "chatgpt"
-  - "consultant"
-creator: "Dylan Davis"
-guest: null
-title: "4 Tasks I NEVER Automate With ChatGPT As An AI Consultant"
-url: "https://www.youtube.com/watch?v=YOgjnsjKits"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 16s"
-has_transcript: no
-synopsis: "4 Tasks I NEVER Automate With ChatGPT As An AI Consultant by Dylan Davis. A lecture covering tasks, never, automate."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "4 Tasks I NEVER"
-  - "4 Tasks I NEVER Automate With"
----
-
 # 4 Tasks I NEVER Automate With ChatGPT As An AI Consultant
 
 **Channel**: Dylan Davis

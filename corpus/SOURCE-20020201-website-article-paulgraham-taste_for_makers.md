@@ -1,34 +1,3 @@
----
-url: https://paulgraham.com/taste.html
-title: Taste for Makers
-domain: paulgraham.com
-author: Paul Graham
-published_date: February 2002
-captured_date: 2026-02-20
-content_type: essay
-id: SOURCE-20020201-001
-original_filename: 20020201-website-taste_for_makers-paulgraham.md
-status: triaged
-platform: website
-format: article
-creator: paulgraham
-signal_tier: paradigm
-topics:
-  - "design"
-  - "philosophy"
-  - "best-practices"
-  - "content-creation"
-teleology: inspire
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Paul Graham - Taste for Makers"
-  - "PG Taste"
-synopsis: "Paul Graham distills 14 principles of good design—simplicity, timelessness, solving the right problem, daring—drawing on examples from math, painting, architecture, and software. A foundational essay arguing taste is objective and cultivable, not subjective."
-key_insights:
-  - "Good design is simple because simplicity forces you to face the real problem rather than hiding behind ornament"
-  - "Good design happens in chunks—environment and community matter more than individual genius, as Renaissance Florence versus Milan demonstrates"
-  - "Intolerance for ugliness plus the ability to gratify exacting taste is the recipe for great work"
----
 # Taste for Makers
 (Image: A military aircraft (appears to be an SR-71 or similar high-speed jet) photographed from above, showing the sleek profile of the fuselage with twin engines and dark intake ports against a desert/mountainous background landscape.)
 **February 2002**

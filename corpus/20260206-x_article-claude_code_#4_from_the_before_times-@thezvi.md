@@ -1,9 +1,3 @@
----
-url: "https://x.com/TheZvi/status/2019834030943060340"
-author: "Zvi Mowshowitz (@TheZvi)"
-captured_date: "2026-02-06"
----
-
 # Claude Code #4: From The Before Times
 
 (Description: A wide landscape image depicting a futuristic, atmospheric scene. In the center is a large ornate mechanical globe or compass with detailed brass mechanisms and gears, illuminated in teal and gold tones. Through tall arched windows in the background, stormy skies with lightning bolts are visible. Rain streaks across the glass. The setting suggests a laboratory or observatory from a steampunk-inspired world, with a moody, dramatic lighting and a sense of technological mystique.)

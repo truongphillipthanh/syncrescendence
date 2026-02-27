@@ -1,37 +1,3 @@
----
-id: SOURCE-20251208-897
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "chip"
-  - "unlock"
-  - "agi"
-creator: "a16z"
-guest: null
-title: "The Chip That Could Unlock AGI."
-url: "https://www.youtube.com/watch?v=wZ4DT20OHXE"
-date_published: 2025-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 9s"
-has_transcript: no
-synopsis: "The Chip That Could Unlock AGI. by a16z. A interview covering chip, unlock, agi."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Chip That Could"
-  - "The Chip That Could Unlock AGI."
----
-
 # The Chip That Could Unlock AGI.
 
 **Channel**: a16z

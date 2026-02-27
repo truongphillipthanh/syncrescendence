@@ -1,35 +1,3 @@
----
-id: SOURCE-20251222-739
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "power"
-  - "everything"
-creator: "Anastasi In Tech"
-guest: null
-title: "This Will Power Everything"
-url: "https://www.youtube.com/watch?v=KTyNig7enkQ"
-date_published: 2025-12-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 24s"
-has_transcript: no
-synopsis: "This Will Power Everything by Anastasi In Tech. A lecture covering power, everything."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "This Will Power Everything"
----
-
 # This Will Power Everything
 
 **Channel**: Anastasi In Tech

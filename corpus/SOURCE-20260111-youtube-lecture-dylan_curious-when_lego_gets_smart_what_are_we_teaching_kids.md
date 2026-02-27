@@ -1,39 +1,3 @@
----
-id: SOURCE-20260111-532
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "lego"
-  - "gets"
-  - "smart"
-  - "teaching"
-  - "kids"
-creator: "Dylan Curious"
-guest: null
-title: "When LEGO Gets Smart, What Are We Teaching Kids?"
-url: "https://www.youtube.com/watch?v=dBwBqQlnCqw"
-date_published: 2026-01-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 28s"
-has_transcript: no
-synopsis: "When LEGO Gets Smart, What Are We Teaching Kids? by Dylan Curious. A lecture covering lego, gets, smart."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "When LEGO Gets Smart,"
-  - "When LEGO Gets Smart, What Are"
----
-
 # When LEGO Gets Smart, What Are We Teaching Kids?
 
 **Channel**: Dylan Curious

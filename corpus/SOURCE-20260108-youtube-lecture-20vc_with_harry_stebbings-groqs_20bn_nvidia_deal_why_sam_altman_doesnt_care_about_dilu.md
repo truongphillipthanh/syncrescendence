@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-591
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "groq"
-  - "20bn"
-  - "nvidia"
-  - "deal"
-  - "sam"
-creator: "20VC with Harry Stebbings"
-guest: null
-title: "Groq’s $20BN NVIDIA Deal | Why Sam Altman Doesn’t Care About Dilution & Invisible Unemployment 2026"
-url: "https://www.youtube.com/watch?v=jGii3mpwsNU"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 27m 29s"
-has_transcript: no
-synopsis: "Groq’s $20BN NVIDIA Deal | Why Sam Altman Doesn’t Care About Dilution & Invisible Unemployment 2026 by 20VC with Harry Stebbings. A lecture covering groq, 20bn, nvidia."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Groq’s $20BN NVIDIA Deal"
-  - "Groq’s $20BN NVIDIA Deal | Why"
----
-
 # Groq’s $20BN NVIDIA Deal | Why Sam Altman Doesn’t Care About Dilution & Invisible Unemployment 2026
 
 **Channel**: 20VC with Harry Stebbings

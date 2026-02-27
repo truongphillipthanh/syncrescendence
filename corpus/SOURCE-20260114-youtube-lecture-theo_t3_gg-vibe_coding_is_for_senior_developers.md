@@ -1,38 +1,3 @@
----
-id: SOURCE-20260114-475
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "vibe"
-  - "coding"
-  - "senior"
-  - "developers"
-creator: "Theo - t3․gg"
-guest: null
-title: "Vibe Coding is For Senior Developers"
-url: "https://www.youtube.com/watch?v=5vp9ypOUgMw"
-date_published: 2026-01-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 46s"
-has_transcript: no
-synopsis: "Vibe Coding is For Senior Developers by Theo - t3․gg. A lecture covering vibe, coding, senior."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: vibe-coding
-aliases:
-  - "Vibe Coding is For"
-  - "Vibe Coding is For Senior Developers"
----
-
 # Vibe Coding is For Senior Developers
 
 **Channel**: Theo - t3․gg

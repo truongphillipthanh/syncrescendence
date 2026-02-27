@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-092
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "deep"
-  - "think"
-  - "insane"
-  - "hands"
-creator: "Bijan Bowen"
-guest: null
-title: "Gemini 3 Deep Think Is INSANE – Hands-On With THE Smartest Model Yet!"
-url: "https://www.youtube.com/watch?v=8kxkFlnhYBs"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 15s"
-has_transcript: no
-synopsis: "Gemini 3 Deep Think Is INSANE – Hands-On With THE Smartest Model Yet! by Bijan Bowen. A lecture covering gemini, deep, think."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3 Deep Think"
-  - "Gemini 3 Deep Think Is INSANE"
----
-
 # Gemini 3 Deep Think Is INSANE – Hands-On With THE Smartest Model Yet!
 
 **Channel**: Bijan Bowen

@@ -1,38 +1,3 @@
----
-id: SOURCE-20260111-530
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "palantir"
-  - "crashes"
-  - "out"
-  - "response"
-creator: "GNCA - GamersNexus Consumer Advocacy"
-guest: null
-title: "Palantir Crashes Out in Response to GN"
-url: "https://www.youtube.com/watch?v=5Idb_D4Tdu8"
-date_published: 2026-01-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 52s"
-has_transcript: no
-synopsis: "Palantir Crashes Out in Response to GN by GNCA - GamersNexus Consumer Advocacy. A lecture covering palantir, crashes, out."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Palantir Crashes Out in"
-  - "Palantir Crashes Out in Response to"
----
-
 # Palantir Crashes Out in Response to GN
 
 **Channel**: GNCA - GamersNexus Consumer Advocacy

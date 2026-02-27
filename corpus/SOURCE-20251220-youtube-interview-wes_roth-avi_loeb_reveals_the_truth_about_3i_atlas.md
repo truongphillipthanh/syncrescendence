@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-729
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "avi"
-  - "loeb"
-  - "reveals"
-  - "truth"
-  - "atlas"
-creator: "Wes Roth"
-guest: null
-title: "Avi Loeb reveals the truth about 3I/ATLAS"
-url: "https://www.youtube.com/watch?v=3LAFmwf0RMM"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 7s"
-has_transcript: no
-synopsis: "Avi Loeb reveals the truth about 3I/ATLAS by Wes Roth. A interview covering avi, loeb, reveals."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Avi Loeb reveals the"
-  - "Avi Loeb reveals the truth about"
----
-
 # Avi Loeb reveals the truth about 3I/ATLAS
 
 **Channel**: Wes Roth

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260207-158
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "cathie"
-  - "wood"
-  - "bitcoin"
-  - "volatility"
-  - "saaspocalypse"
-creator: "ARK Invest"
-guest: null
-title: "Cathie Wood On Bitcoin Volatility And SaaSpocalypse Fears"
-url: "https://www.youtube.com/watch?v=DqAstqD7Pzc"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 58s"
-has_transcript: no
-synopsis: "Cathie Wood On Bitcoin Volatility And SaaSpocalypse Fears by ARK Invest. A lecture covering cathie, wood, bitcoin."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Cathie Wood On Bitcoin"
-  - "Cathie Wood On Bitcoin Volatility And"
----
-
 # Cathie Wood On Bitcoin Volatility And SaaSpocalypse Fears
 
 **Channel**: ARK Invest

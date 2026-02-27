@@ -1,22 +1,3 @@
----
-id: SOURCE-20260124-x-thread-unknown-add_this_paragraph_to_zarazhangrui
-platform: x
-format: thread
-creator: unknown
-title: add this paragraph to zarazhangrui
-status: triaged
-original_filename: 20260124-x_thread-add_this_paragraph_to-zarazhangrui.md
-url: https://x.com/zarazhangrui/status/2015057205800980731
-author: "Zara Zhang (@zarazhangrui)"
-captured_date: 2026-01-24
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Claude Teacher Framework
 
 Add this paragraph to the **CLAUDE.md** file to turn Claude Code into Claude Teacher. Every project is a lesson to become more technical.

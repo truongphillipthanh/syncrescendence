@@ -1,21 +1,3 @@
----
-url: https://x.com/philhchen/status/2019832109180023214
-author: "Phil Chen (@philhchen)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-016
-original_filename: "20260206-x_article-cowork_will_not_be_your_virtual_coworker-@philhchen.md"
-status: triaged
-platform: x
-format: article
-creator: philhchen
-signal_tier: paradigm
-topics: [ai-agents, ai-engineering, prompt-engineering, research, case-study]
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ["Phil Chen - Cowork Clone Analysis"]
-synopsis: "Engineer builds a Claude Cowork clone in 3 days for $250 and discovers that context engineering (system reminders injected into user/tool messages) matters more than model choice — Haiku with proper system reminders outperforms Opus without. Finds that knowledge work tasks are fundamentally out-of-distribution for current models because the context graph is 'fuzzier' than software's code/commands/outputs structure."
-key_insights: ["Context engineering impact cannot be overstated — Haiku with system reminders outperforms Opus without them, and the system is extremely brittle to reminder placement", "Knowledge work context graphs center on people, communications, and timing rather than software's code/commands/outputs, making them fundamentally harder for current models", "Gemini Flash was fastest and most reliable at cross-platform knowledge work tasks (Slack, email, Calendar, Notion), completing in ~1 minute vs Opus at 2-5 minutes"]
----
 # Cowork will not be your virtual coworker
 
 I built a Claude Cowork clone in 3 days. Here's what I learned.

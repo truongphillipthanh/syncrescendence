@@ -1,38 +1,3 @@
----
-id: SOURCE-20260103-641
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "now"
-  - "writing"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Claude Code is Now Writing Claude Code"
-url: "https://www.youtube.com/watch?v=0zdLr7xiOFw"
-date_published: 2026-01-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 56s"
-has_transcript: no
-synopsis: "Claude Code is Now Writing Claude Code by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering claude, code, now."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code is Now"
-  - "Claude Code is Now Writing Claude"
----
-
 # Claude Code is Now Writing Claude Code
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

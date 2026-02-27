@@ -1,39 +1,3 @@
----
-id: SOURCE-20251205-899
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "want"
-  - "invest"
-  - "openai"
-  - "spacex"
-  - "know"
-creator: "CNBC"
-guest: null
-title: "Want To ‘Invest' In OpenAI or SpaceX? What To Know About Tokenization"
-url: "https://www.youtube.com/watch?v=Yw_QLbJxUKw"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 2s"
-has_transcript: no
-synopsis: "Want To ‘Invest' In OpenAI or SpaceX? What To Know About Tokenization by CNBC. A tutorial covering want, invest, openai."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Want To ‘Invest' In"
-  - "Want To ‘Invest' In OpenAI or"
----
-
 # Want To ‘Invest' In OpenAI or SpaceX? What To Know About Tokenization
 
 **Channel**: CNBC

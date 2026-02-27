@@ -1,39 +1,3 @@
----
-id: SOURCE-20251213-831
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "inside"
-  - "america"
-  - "race"
-  - "build"
-  - "next"
-creator: "CNBC"
-guest: null
-title: "Inside America’s Race To Build The Next Generation Of AI Chips"
-url: "https://www.youtube.com/watch?v=wa7J_X2N8-s"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "47m 39s"
-has_transcript: no
-synopsis: "Inside America’s Race To Build The Next Generation Of AI Chips by CNBC. A interview covering inside, america, race."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Inside America’s Race To"
-  - "Inside America’s Race To Build The"
----
-
 # Inside America’s Race To Build The Next Generation Of AI Chips
 
 **Channel**: CNBC

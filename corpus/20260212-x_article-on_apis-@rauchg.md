@@ -1,9 +1,3 @@
----
-url: https://x.com/rauchg/status/2022050269262151783
-author: Guillermo Rauch (@rauchg)
-captured_date: 2026-02-12
----
-
 # On APIs
 
 (Description: Abstract network visualization on dark background featuring interconnected white nodes and gray lines forming complex web patterns, symbolizing API connections and data flow)

@@ -1,9 +1,3 @@
----
-url: https://x.com/arscontexta/status/2015585363318743071
-author: Heinrich (@arscontexta)
-captured_date: 2026-01-25
----
-
 # Obsidian & Claude Code 101: Context Engineering
 
 (Description: A stylized illustration showing a Renaissance-era scholar figure examining documents alongside layered computational diagrams. The left side displays file tree structures and YAML frontmatter examples. The center shows marked sections with numbered callouts (①②③④) indicating the progressive disclosure layers. On the right, a bearded figure in period clothing holds documents, symbolizing knowledge work and information architecture.)

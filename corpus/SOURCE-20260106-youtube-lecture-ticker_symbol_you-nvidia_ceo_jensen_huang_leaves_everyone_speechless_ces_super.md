@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-598
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "ceo"
-  - "jensen"
-  - "huang"
-  - "leaves"
-creator: "Ticker Symbol: YOU"
-guest: null
-title: "NVIDIA CEO Jensen Huang Leaves Everyone SPEECHLESS (CES Supercut)"
-url: "https://www.youtube.com/watch?v=tXGlS460b_w"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 10s"
-has_transcript: no
-synopsis: "NVIDIA CEO Jensen Huang Leaves Everyone SPEECHLESS (CES Supercut) by Ticker Symbol: YOU. A lecture covering nvidia, ceo, jensen."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "NVIDIA CEO Jensen Huang"
-  - "NVIDIA CEO Jensen Huang Leaves Everyone"
----
-
 # NVIDIA CEO Jensen Huang Leaves Everyone SPEECHLESS (CES Supercut)
 
 **Channel**: Ticker Symbol: YOU

@@ -1,10 +1,3 @@
----
-id: ref-research_pipeline
-kind: reference
-scope: engine
-target: engine
----
-
 # RESEARCH PIPELINE: Systematic Tool/Platform Investigation
 
 **Version**: 1.0.0

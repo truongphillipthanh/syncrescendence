@@ -1,32 +1,3 @@
----
-url: https://x.com/xdotli/status/2022409507826213048
-author: "Xiangyi Li (@xdotli)"
-captured_date: 2026-02-20
-id: SOURCE-20260213-025
-original_filename: "20260213-x_thread-agent_skills_are_everywhere_claude_code-@xdotli.md"
-status: triaged
-platform: x
-format: thread
-creator: xdotli
-signal_tier: tactical
-topics:
-  - ai-agents
-  - ai-workflow
-  - codex
-  - gemini
-  - gpt
-  - architecture
-  - benchmarks
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Agent Skills Benchmark Thread"
-synopsis: "Agent Skills Benchmark Thread Agent Skills are everywhere - Claude Code, Gemini CLI, Codex all support them. But do they actually work? 105 domain experts from Stanford, CMU, Berkeley, Oxford, Amazon, ByteDance & more built SkillsBench to find that out."
-key_insights:
-  - "Agent Skills Benchmark Thread Agent Skills are everywhere - Claude Code, Gemini CLI, Codex all support them."
-  - "105 domain experts from Stanford, CMU, Berkeley, Oxford, Amazon, ByteDance & more built SkillsBench to find that out."
-  - "Analogous to an operating system that mediates between applications and hardware."
----
 # Agent Skills Benchmark Thread
 Agent Skills are everywhere - Claude Code, Gemini CLI, Codex all support them. But do they actually work?
 105 domain experts from Stanford, CMU, Berkeley, Oxford, Amazon, ByteDance & more built SkillsBench to find that out.

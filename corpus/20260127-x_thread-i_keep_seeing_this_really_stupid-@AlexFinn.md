@@ -1,9 +1,3 @@
----
-url: https://x.com/AlexFinn/status/2016212448148389980
-author: "@AlexFinn"
-captured_date: 2026-01-27
----
-
 # ClawdBot Use Cases Thread
 
 I keep seeing this really stupid post: "I tried ClawdBot and there are NO good use cases"

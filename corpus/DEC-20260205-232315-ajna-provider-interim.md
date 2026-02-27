@@ -1,11 +1,3 @@
----
-id: DEC-20260205-232315-ajna-provider-interim
-kind: DECISION_ATOM
-scope: substrate
-status: provisional
-updated: 2026-02-05
----
-
 Decision ID: DEC-20260205-232315-ajna-provider-interim
 Choice: Interim Ajna revival strategy: move Ajna’s primary LLM provider away from Anthropic Max to **OpenAI (openai-codex OAuth)** via OpenClaw, while keeping OpenClaw as the orchestrator substrate. Do not attempt to use “ChatGPT Plus” as an automation provider (Plus is a web subscription, not a stable orchestration API surface).
 Why (lens 1-2): Meet the Moment (Anthropic plan instability), Systems Thinking (keep orchestrator stable; swap model brain)

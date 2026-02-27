@@ -1,9 +1,3 @@
----
-url: https://x.com/zain_hoda/status/2019049069134417975
-author: Zain Hoda (@zain_hoda)
-captured_date: 2026-02-13
----
-
 # The Agent Will Eat Your System of Record
 
 (Description: A diagram showing three connected boxes. Left box labeled "System of Record" with a database icon, connected via arrow labeled "Slow, Rate-limited API" to a center box labeled "AI Agent" in green, which connects to a right box labeled "SoR Cache" in blue with two-way arrows labeled "Fast, Unlimited API".)

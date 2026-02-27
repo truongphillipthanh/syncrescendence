@@ -1,37 +1,3 @@
----
-id: SOURCE-20251114-1121
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "tavus"
-  - "human"
-  - "platform"
-creator: "YC Root Access"
-guest: null
-title: "Tavus: The AI Human Platform"
-url: "https://www.youtube.com/watch?v=6yPs2nDpYZo"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 20s"
-has_transcript: no
-synopsis: "Tavus: The AI Human Platform by YC Root Access. A interview covering tavus, human, platform."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Tavus: The AI Human"
-  - "Tavus: The AI Human Platform"
----
-
 # Tavus: The AI Human Platform
 
 **Channel**: YC Root Access

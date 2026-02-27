@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-599
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "reclaim"
-  - "brain"
-  - "2026"
-  - "andrew"
-  - "huberman"
-creator: "Chris Williamson"
-guest: null
-title: "How to Reclaim Your Brain in 2026 - Dr Andrew Huberman (4K)"
-url: "https://www.youtube.com/watch?v=YvWU4Zd-IMc"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3h 5m 36s"
-has_transcript: no
-synopsis: "How to Reclaim Your Brain in 2026 - Dr Andrew Huberman (4K) by Chris Williamson. A tutorial covering reclaim, brain, 2026."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Reclaim Your"
-  - "How to Reclaim Your Brain in"
----
-
 # How to Reclaim Your Brain in 2026 - Dr Andrew Huberman (4K)
 
 **Channel**: Chris Williamson

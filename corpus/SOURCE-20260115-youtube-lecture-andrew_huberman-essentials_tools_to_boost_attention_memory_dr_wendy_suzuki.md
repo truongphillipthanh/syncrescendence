@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-395
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "essentials"
-  - "tools"
-  - "boost"
-  - "attention"
-  - "memory"
-creator: "Andrew Huberman"
-guest: null
-title: "Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki"
-url: "https://www.youtube.com/watch?v=RmwbNdyrilk"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 52s"
-has_transcript: no
-synopsis: "Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki by Andrew Huberman. A lecture covering essentials, tools, boost."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Essentials: Tools to Boost"
-  - "Essentials: Tools to Boost Attention &"
----
-
 # Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki
 
 **Channel**: Andrew Huberman

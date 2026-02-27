@@ -1,32 +1,3 @@
----
-url: https://x.com/RLanceMartin/status/2019482019324219477
-author: "Lance Martin (@RLanceMartin)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-016
-original_filename: "20260205-x_article-getting_the_most_out_of_opus_4_6-@rlancemartin.md"
-status: triaged
-platform: x
-format: article
-creator: rlancemartin
-signal_tier: tactical
-topics:
-  - claude-code
-  - agentic-development
-  - prompting
-  - context-management
-  - extended-thinking
-  - anthropic
-  - api
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Getting the Most Out of Opus 46"
-synopsis: "Getting the Most Out of Opus 4.6 Claude Opus 4.6 adds a new adaptive thinking mode and several API improvements to help with context management for long-running tasks. Here's an overview of Opus 4.6 with links to some useful API docs. Adaptive Thinking Several papers have explored how Claude thinks. Sonnet 3.7 introduced extended thinking, which gave Claude space to plan **before** taking action."
-key_insights:
-  - "Thinking has been controlled with the `budget_tokens` parameter in the API and with thinking-mode or keywords (e.g., ultrathink) in Claude Code."
-  - "Getting the Most Out of Opus 4.6 Claude Opus 4.6 adds a new adaptive thinking mode and several API improvements to help with context management for long-running tasks."
-  - "Here's an overview of Opus 4.6 with links to some useful API docs."
----
 # Getting the Most Out of Opus 4.6
 
 Claude Opus 4.6 adds a new adaptive thinking mode and several API improvements to help with context management for long-running tasks. Here's an overview of Opus 4.6 with links to some useful API docs.

@@ -1,37 +1,3 @@
----
-id: SOURCE-20251216-814
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gpt"
-  - "total"
-  - "monster"
-creator: "AI Search"
-guest: null
-title: "GPT-5.2 is a total monster"
-url: "https://www.youtube.com/watch?v=jnTSGk0gi5c"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 28s"
-has_transcript: no
-synopsis: "GPT-5.2 is a total monster by AI Search. A lecture covering gpt, total, monster."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "GPT-5.2 is a total"
-  - "GPT-5.2 is a total monster"
----
-
 # GPT-5.2 is a total monster
 
 **Channel**: AI Search

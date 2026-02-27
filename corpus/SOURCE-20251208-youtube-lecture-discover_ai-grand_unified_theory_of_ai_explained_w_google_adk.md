@@ -1,39 +1,3 @@
----
-id: SOURCE-20251208-895
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "grand"
-  - "unified"
-  - "theory"
-  - "explained"
-  - "google"
-creator: "Discover AI"
-guest: null
-title: "Grand Unified Theory of AI (Explained w/ Google ADK)"
-url: "https://www.youtube.com/watch?v=5eBU_9fyPFs"
-date_published: 2025-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 1s"
-has_transcript: no
-synopsis: "Grand Unified Theory of AI (Explained w/ Google ADK) by Discover AI. A lecture covering grand, unified, theory."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Grand Unified Theory of"
-  - "Grand Unified Theory of AI (Explained"
----
-
 # Grand Unified Theory of AI (Explained w/ Google ADK)
 
 **Channel**: Discover AI

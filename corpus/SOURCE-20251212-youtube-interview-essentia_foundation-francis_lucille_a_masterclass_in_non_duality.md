@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-849
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "francis"
-  - "lucille"
-  - "masterclass"
-  - "non"
-  - "duality"
-creator: "Essentia Foundation"
-guest: null
-title: "Francis Lucille: A Masterclass In Non-Duality"
-url: "https://www.youtube.com/watch?v=ocOO0cdSnJ0"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 47m 33s"
-has_transcript: no
-synopsis: "Francis Lucille: A Masterclass In Non-Duality by Essentia Foundation. A interview covering francis, lucille, masterclass."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Francis Lucille: A Masterclass"
-  - "Francis Lucille: A Masterclass In Non-Duality"
----
-
 # Francis Lucille: A Masterclass In Non-Duality
 
 **Channel**: Essentia Foundation

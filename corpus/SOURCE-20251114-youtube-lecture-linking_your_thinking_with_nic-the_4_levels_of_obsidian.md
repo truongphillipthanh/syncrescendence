@@ -1,36 +1,3 @@
----
-id: SOURCE-20251114-1124
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "levels"
-  - "obsidian"
-creator: "Linking Your Thinking with Nick Milo"
-guest: null
-title: "The 4 Levels of Obsidian"
-url: "https://www.youtube.com/watch?v=J3KHlz89cRs"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 26s"
-has_transcript: no
-synopsis: "The 4 Levels of Obsidian by Linking Your Thinking with Nick Milo. A lecture covering levels, obsidian."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The 4 Levels of"
-  - "The 4 Levels of Obsidian"
----
-
 # The 4 Levels of Obsidian
 
 **Channel**: Linking Your Thinking with Nick Milo

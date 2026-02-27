@@ -1,9 +1,3 @@
----
-url: https://x.com/rohit4verse/status/2009663737469542875
-author: Rohit (@rohit4verse)
-captured_date: 2026-02-13
----
-
 # the 2026 ai engineer roadmap
 
 (Description: A stylized black and white sculptural head with a bright cyan neon horizontal line across the eyes, surrounded by an abstract network diagram with colorful nodes (blue, yellow, purple, pink, orange, green) connected by black lines. Code snippets are visible in the margins of the image. The composition suggests artificial intelligence and neural networks intersecting with human consciousness.)

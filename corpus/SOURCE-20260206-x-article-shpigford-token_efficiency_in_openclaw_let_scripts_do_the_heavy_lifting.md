@@ -1,21 +1,3 @@
----
-url: https://x.com/Shpigford/status/2019743885942002144
-author: "Josh Pigford (@Shpigford)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-019
-original_filename: "20260206-x_article-token_efficiency_in_openclaw_let_scripts_do_the_heavy_lifting-@shpigford.md"
-status: triaged
-platform: x
-format: article
-creator: shpigford
-signal_tier: strategic
-topics: [ai-agents, automation, best-practices, ai-engineering, tutorial]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Shpigford - OpenClaw Token Efficiency"]
-synopsis: "Demonstrates how to cut AI agent operational costs by replacing 'smart polling' with 'dumb scripts + smart triggers.' Shows real savings: 260+ empty Opus queue checks ($10-20 wasted) eliminated by moving deterministic logic to cron/bash scripts and reserving model invocations for genuine ambiguity. Introduces a three-tier model strategy (Opus for conversation, Sonnet for research, Haiku for browser automation at 5x cheaper)."
-key_insights: ["Models are expensive thinkers, scripts are free doers — if a task can be expressed as deterministic logic (if X then Y), it belongs in a script not a model invocation", "Three-tier model strategy: Opus ($0.089/turn) for conversation, Sonnet for research, Haiku ($0.017/turn) for browser automation yields 5x cost reduction on identical work", "Scripts should output nothing on success — the model only wakes when there is something worth reporting, eliminating hundreds of empty 'HEARTBEAT_OK' invocations"]
----
 # Token Efficiency in OpenClaw: Let Scripts Do the Heavy Lifting
 
 (Description: Hero image showing a scorpion silhouette surrounded by orange and red flames against a dark rocky background, with dramatic fire effects)

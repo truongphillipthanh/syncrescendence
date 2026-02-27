@@ -1,37 +1,3 @@
----
-id: SOURCE-20260115-479
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "grok"
-  - "cracked"
-  - "code"
-creator: "Wes Roth"
-guest: null
-title: "GROK 4.20 cracked the code"
-url: "https://www.youtube.com/watch?v=F_Yly8Ra520"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 20s"
-has_transcript: no
-synopsis: "GROK 4.20 cracked the code by Wes Roth. A interview covering grok, cracked, code."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "GROK 4.20 cracked the"
-  - "GROK 4.20 cracked the code"
----
-
 # GROK 4.20 cracked the code
 
 **Channel**: Wes Roth

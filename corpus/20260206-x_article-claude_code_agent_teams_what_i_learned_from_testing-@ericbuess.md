@@ -1,9 +1,3 @@
----
-url: https://x.com/EricBuess/status/2019817656745128366
-author: Eric Buess (@EricBuess)
-captured_date: 2026-02-13
----
-
 # Claude Code Agent Teams: What I Learned from Testing
 
 (Description: Terminal screenshot showing Claude Code split-pane agent teams interface with 3 teammates spawned (@fact-checker, @format-checker, @tone-reviewer) working in parallel, each with their own terminal pane. Status indicators show "Now spawning 3 teammates in split panes" and "All 3 teammates spawned in split panes. They're working now — fact-checker is")

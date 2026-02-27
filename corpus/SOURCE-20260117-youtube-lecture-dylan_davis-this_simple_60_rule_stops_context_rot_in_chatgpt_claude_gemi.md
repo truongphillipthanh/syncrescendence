@@ -1,39 +1,3 @@
----
-id: SOURCE-20260117-446
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "simple"
-  - "rule"
-  - "stops"
-  - "context"
-  - "rot"
-creator: "Dylan Davis"
-guest: null
-title: "This Simple 60% Rule Stops Context Rot in ChatGPT, Claude & Gemini"
-url: "https://www.youtube.com/watch?v=xaQG-eD9d58"
-date_published: 2026-01-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 49s"
-has_transcript: no
-synopsis: "This Simple 60% Rule Stops Context Rot in ChatGPT, Claude & Gemini by Dylan Davis. A lecture covering simple, rule, stops."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "This Simple 60% Rule"
-  - "This Simple 60% Rule Stops Context"
----
-
 # This Simple 60% Rule Stops Context Rot in ChatGPT, Claude & Gemini
 
 **Channel**: Dylan Davis

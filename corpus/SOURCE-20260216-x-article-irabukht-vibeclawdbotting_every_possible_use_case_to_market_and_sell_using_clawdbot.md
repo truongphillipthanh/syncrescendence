@@ -1,24 +1,3 @@
----
-url: https://x.com/irabukht/status/2023408664439361867
-author: "Ira Bodnar (@irabukht)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-008
-original_filename: "20260216-x_article-vibeclawdbotting_every_possible_use_case_to_market_and_sell_using_clawdbot-@irabukht.md"
-status: triaged
-platform: x
-format: article
-creator: irabukht
-signal_tier: tactical
-topics: [ai-agents, entrepreneurship, content-creation, automation]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["irabukht - agent-powered marketing and sales playbook"]
-synopsis: "Documents 10 agent-powered marketing/sales use cases at an agency scale: buying intent sniping on X/Reddit, AI content distribution across 20+ platforms for LLM SEO, directory submissions, TikTok content factory, autonomous reply guy, job posting sniping, keyword gap exploitation, and community infiltration. Includes specific metrics (50 visits/1K views, $1/topic for 20 pieces)."
-key_insights:
-  - "LLM SEO strategy: publish across 50+ platforms so crawling LLMs find you everywhere when answering questions"
-  - "Self-improving skill files compound: every failure becomes a rule, every success a formula - agent never repeats mistakes"
-  - "Job posting sniping: company hiring = public admission they need help and are about to spend $120K/yr"
----
 # Vibeclawdbotting: Every Possible Use Case to Market & Sell Using Clawdbot
 (Description: An infographic displaying a network diagram in orange and gray tones. Central to the image is a stylized lobster/claw creature with a circled dot, surrounded by connected logos and icons representing various platforms: infinity symbol, "A", "M", "in" (LinkedIn), SimilarWeb branding, TikTok, Instagram, "M", Discord, Reddit, and Twitter. Lines connect each element in a web-like topology pattern, illustrating platform integration and interconnection.)
 So, we kind of started an agency to do wild marketing/sales using Clawdbot. We did it for our own startup and for several of our friends. Here are the use cases that scaled best so far.

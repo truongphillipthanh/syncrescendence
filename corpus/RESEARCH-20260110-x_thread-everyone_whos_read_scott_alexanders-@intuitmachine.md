@@ -1,9 +1,3 @@
----
-url: https://x.com/IntuitMachine/status/2010063657581822138
-author: Carlos E. Perez (@IntuitMachine)
-captured_date: 2026-01-10
----
-
 # Meditations on Moloch: Escape is Possible
 
 1/ Everyone who's read Scott Alexander's "Meditations on Moloch" walks away with the same sinking feeling:

@@ -1,35 +1,3 @@
----
-id: SOURCE-20251218-774
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "lessons"
-  - "2025"
-creator: "Chris Williamson"
-guest: null
-title: "23 Lessons from 2025"
-url: "https://www.youtube.com/watch?v=2NjN6W8cnIg"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 21m 55s"
-has_transcript: no
-synopsis: "23 Lessons from 2025 by Chris Williamson. A tutorial covering lessons, 2025."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "23 Lessons from 2025"
----
-
 # 23 Lessons from 2025
 
 **Channel**: Chris Williamson

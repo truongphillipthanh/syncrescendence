@@ -1,9 +1,3 @@
----
-url: https://x.com/EXM7777/status/2020944295616991677
-author: Machina (@EXM7777)
-captured_date: 2026-02-14
----
-
 # Prompt Libraries & System Design Thread
 
 everyone's building prompt libraries... and still getting generic outputs

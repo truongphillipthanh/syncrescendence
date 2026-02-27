@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-937
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "first"
-  - "opus"
-  - "rethinking"
-  - "model"
-creator: "Unsupervised Learning: Redpoint's AI Podcast"
-guest: null
-title: "Anthropic's First PM: Opus 4.5, Rethinking Model Scaffolding & Safety as a Competitive Advantage"
-url: "https://www.youtube.com/watch?v=V5gTVTCtC6Y"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "42m 6s"
-has_transcript: no
-synopsis: "Anthropic's First PM: Opus 4.5, Rethinking Model Scaffolding & Safety as a Competitive Advantage by Unsupervised Learning: Redpoint's AI Podcast. A lecture covering anthropic, first, opus."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic's First PM: Opus"
-  - "Anthropic's First PM: Opus 4.5, Rethinking"
----
-
 # Anthropic's First PM: Opus 4.5, Rethinking Model Scaffolding & Safety as a Competitive Advantage
 
 **Channel**: Unsupervised Learning: Redpoint's AI Podcast

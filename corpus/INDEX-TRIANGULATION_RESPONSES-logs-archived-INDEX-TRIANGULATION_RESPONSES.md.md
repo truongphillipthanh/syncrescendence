@@ -1,11 +1,3 @@
----
-type: index
-scope: -INBOX/commander/00-INBOX0
-description: Master index of all triangulation response files collected in Commander's inbox
-maintained_by: commander
-updated: 2026-02-24
----
-
 # INDEX — Triangulation Responses (Commander Inbox)
 
 **Path**: `-INBOX/commander/00-INBOX0/`

@@ -1,30 +1,3 @@
----
-url: "https://x.com/ElevenLabsDevs/status/2019729311901638663"
-author: "ElevenLabs Developers (@ElevenLabsDevs)"
-captured_date: "2026-02-06"
-id: SOURCE-20260206-004
-original_filename: "20260206-x_article-let_your_openclaw_call_you_on_the_phone_using_elevenagents-@elevenlabsdevs.md"
-status: triaged
-platform: x
-format: article
-creator: elevenlabsdevs
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - memory-management
-  - api
-  - security
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Let your OpenClaw call you on the phone using ElevenAgents"
-synopsis: "Let your OpenClaw call you on the phone using ElevenAgents In the last article we covered how to make a phone call to your OpenClaw bot. This one enables your agent to initiate calls to your phone! Wouldn't it be cool if your openclaw called you in the morning to wake up and brief you on the day ahead? Or called you to report that your coding agent failed? Or perhaps to check on your gym progress?"
-key_insights:
-  - "Now, go to dashboard: ```bash openclaw dashboard ``` Go to the skills tab, find "agents" and put your ElevenLabs API key in the field next to it."
-  - "**Note:** For extra security, make sure ElevenLabs API key you create has a scope limited to "agents-write" and reasonable spend limit."
-  - "If you want all calls to share one agent instance, provide `x-openclaw-session-key` header to your custom LLM."
----
 # Let your OpenClaw call you on the phone using ElevenAgents
 
 (Description: Banner image showing "IIElevenLabs × OpenClaw" with a red robot mascot character on a geometric background)

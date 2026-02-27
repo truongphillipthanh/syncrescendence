@@ -1,39 +1,3 @@
----
-id: SOURCE-20251112-1154
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "palantir"
-  - "warp"
-  - "speed"
-  - "deep"
-  - "dive"
-creator: "Palantir"
-guest: null
-title: "Palantir Warp Speed Deep Dive"
-url: "https://www.youtube.com/watch?v=mfmD1QqnaKg"
-date_published: 2025-11-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "41m 50s"
-has_transcript: no
-synopsis: "Palantir Warp Speed Deep Dive by Palantir. A lecture covering palantir, warp, speed."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Palantir Warp Speed Deep"
-  - "Palantir Warp Speed Deep Dive"
----
-
 # Palantir Warp Speed Deep Dive
 
 **Channel**: Palantir

@@ -1,31 +1,3 @@
----
-url: https://x.com/nikunj/status/2024278811395969302
-author: "Nikunj Kothari (@nikunj)"
-captured_date: 2026-02-18
-id: SOURCE-20260219-010
-original_filename: "20260219-x_article-your_org_structure_is_my_opportunity-@nikunj.md"
-status: triaged
-platform: x
-format: article
-creator: nikunj
-signal_tier: strategic
-topics:
-  - ai-agents
-  - context-management
-  - extended-thinking
-  - github-copilot
-  - product-development
-  - startup
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Your Org Structure Is My Opportunity"
-synopsis: "Your Org Structure Is My Opportunity A founder told me that his hardest problem isn't the product or the customers. He can't find people who can do more than one thing well. And I think I know why. A generation of talent spent the last decade inside companies that trained them to do exactly one job, in exactly one box, on exactly one org chart."
-key_insights:
-  - "The best AI-native startups I see are spending thousands a month on token costs instead of adding headcount."
-  - "I think that says more about where companies are headed than any AI "strategy" deck."
-  - "Your Org Structure Is My Opportunity A founder told me that his hardest problem isn't the product or the customers."
----
 # Your Org Structure Is My Opportunity
 (Description: A horizontal workflow diagram with a gradient background from blue on the left to yellow on the right. Four icons connected by a dotted line representing a workflow: a lightning bolt, a cloud shape, a code bracket symbol, and a checkmark box. Below each icon are two small stick figures, representing people at each stage of the process. A curved line beneath suggests the continuous flow from left to right.)
 A founder told me that his hardest problem isn't the product or the customers. It's hiring. He can't find people who can do more than one thing well. And I think I know why. A generation of talent spent the last decade inside companies that trained them to do exactly one job, in exactly one box, on exactly one org chart.

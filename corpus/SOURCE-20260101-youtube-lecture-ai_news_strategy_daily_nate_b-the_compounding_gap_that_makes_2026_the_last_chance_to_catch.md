@@ -1,39 +1,3 @@
----
-id: SOURCE-20260101-658
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "compounding"
-  - "gap"
-  - "makes"
-  - "2026"
-  - "last"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The Compounding Gap That Makes 2026 the Last Chance to Catch Up"
-url: "https://www.youtube.com/watch?v=pOb0pjXpn6Q"
-date_published: 2026-01-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 49s"
-has_transcript: no
-synopsis: "The Compounding Gap That Makes 2026 the Last Chance to Catch Up by AI News & Strategy Daily | Nate B Jones. A lecture covering compounding, gap, makes."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Compounding Gap That"
-  - "The Compounding Gap That Makes 2026"
----
-
 # The Compounding Gap That Makes 2026 the Last Chance to Catch Up
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

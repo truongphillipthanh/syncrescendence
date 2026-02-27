@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-609
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "elon"
-  - "musk"
-  - "agi"
-  - "timeline"
-  - "china"
-creator: "Peter H. Diamandis"
-guest: null
-title: "Elon Musk on AGI Timeline, US vs China, Job Markets, Clean Energy & Humanoid Robots | 220"
-url: "https://www.youtube.com/watch?v=RSNuB9pj9P8"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 52m 10s"
-has_transcript: no
-synopsis: "Elon Musk on AGI Timeline, US vs China, Job Markets, Clean Energy & Humanoid Robots | 220 by Peter H. Diamandis. A lecture covering elon, musk, agi."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "Elon Musk on AGI"
-  - "Elon Musk on AGI Timeline, US"
----
-
 # Elon Musk on AGI Timeline, US vs China, Job Markets, Clean Energy & Humanoid Robots | 220
 
 **Channel**: Peter H. Diamandis

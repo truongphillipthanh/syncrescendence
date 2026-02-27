@@ -1,30 +1,3 @@
----
-url: https://x.com/theonejvo/status/2015401219746128322
-author: "Jamieson O'Reilly (@theonejvo)"
-captured_date: 2026-02-04
-id: SOURCE-20260125-002
-original_filename: "20260125-x_article-hacking_clawdbot_and_eating_lobster_souls-@theonejvo.md"
-status: triaged
-platform: x
-format: article
-creator: theonejvo
-signal_tier: tactical
-topics:
-  - ai-agents
-  - deployment
-  - api
-  - security
-  - clawdbot
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Hacking ClawdBot and Eating Lobster Souls"
-synopsis: "Hacking ClawdBot and Eating Lobster Souls Imagine you hire a butler. He's brilliant, he manages your calendar, handles your messages, screens your calls. He knows your passwords because he needs them. He reads your private messages because that's his job and he has keys to everything because how else would he help you?"
-key_insights:
-  - "He reads your private messages because that's his job and he has keys to everything because how else would he help you?"
-  - "It's where you configure integrations, view conversation histories, manage API keys, and essentially operate the entire system."
-  - "Hacking ClawdBot and Eating Lobster Souls Imagine you hire a butler."
----
 # Hacking ClawdBot and Eating Lobster Souls
 
 (Description: Glitchy cyberpunk-style artwork featuring a hooded figure in profile against a digital background of green matrix-style characters and data streams, with pink/magenta chromatic aberration effects, suggesting hacking or cyber intrusion)

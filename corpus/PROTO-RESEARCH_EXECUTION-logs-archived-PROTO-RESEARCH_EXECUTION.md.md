@@ -1,10 +1,3 @@
----
-id: proto-research_execution
-kind: protocol
-scope: engine
-target: constellation
----
-
 # PROTO — Research Execution Protocol
 
 **Version**: 1.0.0

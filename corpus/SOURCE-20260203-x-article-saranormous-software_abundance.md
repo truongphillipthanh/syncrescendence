@@ -1,28 +1,3 @@
----
-url: https://x.com/saranormous/status/2018801883222253737
-author: "sarah guo (@saranormous)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-023
-original_filename: "20260203-x_article-software_abundance-@saranormous.md"
-status: triaged
-platform: x
-format: article
-creator: saranormous
-signal_tier: paradigm
-topics:
-  - context-management
-  - rag
-  - rust
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Software Abundance"
-synopsis: "Software Abundance When code is cheap, judgment becomes the work For most of software history, execution was scarce. Writing code was slow, expensive, and constrained by human throughput. The hard part was getting software to exist at all. AI coding agents invert that world. Code can now be produced quickly, cheaply, and in enormous volume."
-key_insights:
-  - "The best and most respected engineers have historically been closest to the code—reading it deeply, writing it carefully, understanding systems by touching them directly."
-  - "At times, I felt stupid—like I was making mistakes I shouldn't be making."
-  - "It pointed to parts of the system I understood tacitly but had never articulated."
----
 # Software Abundance
 
 (Description: A vibrant digital illustration featuring a futuristic purple and neon-pink cyberpunk cityscape. White sans-serif text reads "SOFTWARE ABUNDANCE" with the subtitle "WHEN CODE IS CHEAP, JUDGMENT BECOMES THE WORK". The scene includes flying vehicles, glowing planets, a sun-like sphere with warm orange glow, and stylized city towers against a star-filled sky with neon accents.)

@@ -1,29 +1,3 @@
----
-id: SOURCE-20251229-x-article-steipete-shipping_at_inference_speed
-date_published: "2025-12-29"
-platform: x
-format: article
-creator: steipete
-title: shipping at inference speed
-status: triaged
-url: https://x.com/steipete/status/2005451576971043097
-original_filename: "shipping_at_inference_speed-@steipete.md"
-signal_tier: strategic
-topics:
-  - "vibe-coding"
-  - "developer-tools"
-  - "ai-engineering"
-  - "case-study"
-teleology: extract
-notebooklm_category: coding-tools
-aliases:
-  - "Steipete - Shipping Inference Speed"
-synopsis: "Peter Steinberger describes shipping code at inference speed with GPT 5.2 Codex: rarely reading code, managing 3-8 projects simultaneously, using Oracle CLI to query GPT 5 Pro when agents get stuck, and building Clawdis AI assistant with full computer control. Codex reads code for 10-15 minutes before acting, unlike Opus which acts eagerly."
-key_insights:
-  - "Codex silently reads files for 10-15 minutes before writing code, greatly increasing accuracy on large refactors compared to Opus which acts eagerly and often misses context"
-  - "Oracle CLI allows agents to escalate hard problems to GPT 5 Pro, managing sessions so answers can be retrieved later: a meta-agent pattern for capability escalation"
-  - "Most software is boring data shuffling and does not require hard thinking: start everything as CLI first so agents can call it directly and verify output in the loop"
----
 Shipping at Inference-Speed
 Published:
 28 Dec, 2025

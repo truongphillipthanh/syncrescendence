@@ -1,21 +1,3 @@
----
-url: https://x.com/dillon_mulroy/status/2019641525312057789
-author: "Dillon Mulroy (@dillon_mulroy)"
-captured_date: 2026-02-05
-id: SOURCE-20260206-030
-original_filename: "20260206-x_thread-i_m_telling_you_y_all_are_sleeping-@dillon_mulroy.md"
-status: triaged
-platform: x
-format: thread
-creator: dillon_mulroy
-signal_tier: tactical
-topics: [claude-code, mcp, developer-tools]
-teleology: extract
-notebooklm_category: coding-tools
-aliases: ["Dillon Mulroy - CodeMode MCPs"]
-synopsis: "Demonstrates CodeMode MCPs where Claude Code agents write and execute async JavaScript code to surgically extract specific methods from source code repositories without context pollution. Shows three examples of agents reading Rust source files, grepping for patterns, and navigating file structures programmatically."
-key_insights: ["CodeMode MCPs let agents write targeted extraction code rather than loading entire files into context, dramatically reducing context pollution", "Agents can programmatically navigate source code with async functions that grep, slice, and filter — more precise than loading whole files", "The pattern enables agents to find exactly what they need from large codebases with zero unnecessary context consumption"]
----
 # CodeMode MCPs Thread
 
 **Post 1 — Feb 5, 2026 at 9:17 PM**

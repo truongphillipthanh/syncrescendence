@@ -1,9 +1,3 @@
----
-url: https://x.com/fakenine_/status/2015925432718155860
-author: Samy Kacimi (@fakenine_)
-captured_date: 2026-02-04
----
-
 # Securing Clawdbot on a VPS with Cloudflare (Tunnel + Access + SSH Hardening)
 
 (Description: Illustration with dark space background featuring: a laptop on left with globe icon and orange checkmark shield, a red round character with antennae standing on servers in center, a cloud storage icon with orange checkmark in top right, and a golden lock on dark brick wall on right. Connected by dotted lines suggesting data flow. Color palette: dark navy/purple background with coral red, orange, and blue accents.)

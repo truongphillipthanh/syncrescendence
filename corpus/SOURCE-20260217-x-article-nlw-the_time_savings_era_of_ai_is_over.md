@@ -1,24 +1,3 @@
----
-url: https://x.com/nlw/status/2023896872054882536
-author: "Nathaniel Whittemore (@nlw)"
-captured_date: 2026-02-17
-id: SOURCE-20260217-011
-original_filename: "20260217-x_article-the_time_savings_era_of_ai_is_over-@nlw.md"
-status: triaged
-platform: x
-format: article
-creator: nlw
-signal_tier: strategic
-topics: [ai-adoption, economics, ai-landscape]
-teleology: contextualize
-notebooklm_category: career-growth
-aliases: ["nlw - time savings era of AI is over"]
-synopsis: "Survey data from AIDB Intel showing time savings dropped from #1 to #3 as AI's primary value proposition, suggesting users are moving up the value chain. 50% of non-engineer AI users who vibe code now identify coding as their most important use case. 38% deploying agentic use cases, with C-suite at 57% adoption. Claude is #1 primary model choice at 46%."
-key_insights:
-  - "Time savings dropped from #1 to #3 as AI value proposition — users are moving up the value chain from efficiency to capability expansion"
-  - "69% of users are vibe coding, with ~50% of non-engineers who vibe code identifying it as their most important use case"
-  - "12-point value premium: 83% report increased AI value vs 71% increased usage — even people not using it more are getting more out of it"
----
 # The Time Savings Era of AI is Over
 ![Article header image](Description: A vibrant, illustrative graphic featuring a humanoid robot with a gray beard and white/blue coloring in a centered meditative position with legs crossed. The robot wears a yellow/gold circular frame around its torso. Surrounding the figure on a teal background are 12+ laptop and computer monitors arranged in a radial pattern, with red crabs/crayfish positioned throughout the composition. The art style is modern, colorful, and carries a tech-meets-nature aesthetic with a dominant color palette of teal, coral orange, and light blue.)
 ## TL;DR

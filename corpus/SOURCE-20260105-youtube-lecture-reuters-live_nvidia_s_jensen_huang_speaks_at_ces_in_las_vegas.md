@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-571
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "live"
-  - "nvidia"
-  - "jensen"
-  - "huang"
-  - "speaks"
-creator: "Reuters"
-guest: null
-title: "LIVE: Nvidia's Jensen Huang speaks at CES in Las Vegas"
-url: "https://www.youtube.com/watch?v=2nhcecncRPw"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 50m 43s"
-has_transcript: no
-synopsis: "LIVE: Nvidia's Jensen Huang speaks at CES in Las Vegas by Reuters. A lecture covering live, nvidia, jensen."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "LIVE: Nvidia's Jensen Huang"
-  - "LIVE: Nvidia's Jensen Huang speaks at"
----
-
 # LIVE: Nvidia's Jensen Huang speaks at CES in Las Vegas
 
 **Channel**: Reuters

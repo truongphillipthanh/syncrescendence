@@ -1,9 +1,3 @@
----
-url: https://x.com/rjs/status/2020184079350563263
-author: Ryan Singer (@rjs)
-captured_date: 2026-02-13
----
-
 # Shaping 0-1 with Claude Code
 
 Here's what it looks like to shape and build a small project from 0-1 in Claude Code. This example uses my shaping skills on GitHub. I am not skipping any steps here. You're seeing the whole thing from scratch to working product.

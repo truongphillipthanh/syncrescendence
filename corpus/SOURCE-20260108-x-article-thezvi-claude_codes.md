@@ -1,29 +1,3 @@
----
-id: SOURCE-20260108-x-article-thezvi-claude_codes
-date_published: "2026-01-08"
-platform: x
-format: article
-creator: thezvi
-title: claude codes
-status: triaged
-url: https://x.com/TheZvi/status/2009277777267093635
-original_filename: "claude_codes-@thezvi.md"
-signal_tier: strategic
-topics:
-  - "claude-code"
-  - "vibe-coding"
-  - "ai-engineering"
-  - "opinion"
-teleology: contextualize
-notebooklm_category: claude-code
-aliases:
-  - "Zvi - Claude Codes Analysis"
-synopsis: "Zvi Mowshowitz comprehensive analysis of Claude Code with Opus 4.5 phenomenon: detailed examination of workflows, limitations, economics, and the cultural moment where coding agents became mainstream. Covers use beyond coding including research, writing, and computer automation."
-key_insights:
-  - "Claude Code with Opus 4.5 is being used for everything beyond coding including research, writing, and computer automation via a mini-you employee metaphor"
-  - "The cool kids ship code they barely read, relying on tests and type checking rather than line-by-line review of AI-generated code"
-  - "Context window management and compaction are the primary practical constraints, not model capability, in extended Claude Code sessions"
----
 Claude Code with Opus 4.5 is so hot right now. The cool kids use it for everything.
 They definitely use it for coding, often letting it write all of their code.
 They also increasingly use it for everything else one can do with a computer.

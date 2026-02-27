@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-793
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "agents"
-  - "non"
-  - "technical"
-  - "people"
-  - "actually"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The 4 AI Agents Non-Technical People Actually Need (And How to Use Them Today)"
-url: "https://www.youtube.com/watch?v=DAxARHKQAXs"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 18s"
-has_transcript: no
-synopsis: "The 4 AI Agents Non-Technical People Actually Need (And How to Use Them Today) by AI News & Strategy Daily | Nate B Jones. A tutorial covering agents, non, technical."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "The 4 AI Agents"
-  - "The 4 AI Agents Non-Technical People"
----
-
 # The 4 AI Agents Non-Technical People Actually Need (And How to Use Them Today)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

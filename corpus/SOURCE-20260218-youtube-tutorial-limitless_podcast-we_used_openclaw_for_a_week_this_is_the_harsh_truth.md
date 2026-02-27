@@ -1,39 +1,3 @@
----
-id: SOURCE-20260218-029
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "used"
-  - "openclaw"
-  - "week"
-  - "harsh"
-  - "truth"
-creator: "Limitless Podcast"
-guest: null
-title: "We Used OpenClaw for a Week. This is the Harsh Truth."
-url: "https://www.youtube.com/watch?v=4xDc00EF_eY"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 22s"
-has_transcript: no
-synopsis: "We Used OpenClaw for a Week. This is the Harsh Truth. by Limitless Podcast. A tutorial covering used, openclaw, week."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "We Used OpenClaw for"
-  - "We Used OpenClaw for a Week."
----
-
 # We Used OpenClaw for a Week. This is the Harsh Truth.
 
 **Channel**: Limitless Podcast

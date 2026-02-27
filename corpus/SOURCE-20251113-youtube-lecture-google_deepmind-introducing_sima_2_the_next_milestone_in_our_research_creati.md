@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-1136
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "introducing"
-  - "sima"
-  - "next"
-  - "milestone"
-  - "research"
-creator: "Google DeepMind"
-guest: null
-title: "Introducing SIMA 2, the next milestone in our research creating general and helpful AI agents."
-url: "https://www.youtube.com/watch?v=Zphax4f6Rls"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1m 38s"
-has_transcript: no
-synopsis: "Introducing SIMA 2, the next milestone in our research creating general and helpful AI agents. by Google DeepMind. A lecture covering introducing, sima, next."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Introducing SIMA 2, the"
-  - "Introducing SIMA 2, the next milestone"
----
-
 # Introducing SIMA 2, the next milestone in our research creating general and helpful AI agents.
 
 **Channel**: Google DeepMind

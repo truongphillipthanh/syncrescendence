@@ -1,38 +1,3 @@
----
-id: SOURCE-20260202-209
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "serene"
-  - "revolution"
-  - "episode"
-  - "123"
-creator: "Mike Israetel"
-guest: null
-title: "The Serene Revolution | Episode #123"
-url: "https://www.youtube.com/watch?v=L4G8VJXbA44"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 11s"
-has_transcript: no
-synopsis: "The Serene Revolution | Episode #123 by Mike Israetel. A tutorial covering serene, revolution, episode."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Serene Revolution |"
-  - "The Serene Revolution | Episode #123"
----
-
 # The Serene Revolution | Episode #123
 
 **Channel**: Mike Israetel

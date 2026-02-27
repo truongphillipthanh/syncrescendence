@@ -1,9 +1,3 @@
----
-url: https://x.com/EXM7777/status/2019433098795225325
-author: Machina (@EXM7777)
-captured_date: 2026-02-05
----
-
 # X Thread: Model Benchmarking & AI Evaluation Strategy
 
 stop trusting other people's takes for new models like Sonnet 5... everyone on X judges models based on coding evals... but your workflow is not their workflow

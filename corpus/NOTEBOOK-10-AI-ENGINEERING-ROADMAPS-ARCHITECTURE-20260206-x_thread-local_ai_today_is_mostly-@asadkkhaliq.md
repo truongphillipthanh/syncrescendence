@@ -1,9 +1,3 @@
----
-url: https://x.com/asadkkhaliq/status/2019769887087046986
-author: Asad Khaliq (@asadkkhaliq)
-captured_date: 2026-02-06
----
-
 # (essay) Life At The Edge
 
 "Local AI" today is mostly about giving models OS-level access so that more files and context can be transferred to the cloud for inference. But intelligence is about to diffuse to the edge just as computing did in the 80s and 90s

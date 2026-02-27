@@ -1,39 +1,3 @@
----
-id: SOURCE-20251213-466
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "brain"
-  - "supplement"
-  - "actually"
-  - "works"
-  - "explained"
-creator: "Psych This"
-guest: null
-title: "Every Brain Supplement That Actually Works Explained"
-url: "https://www.youtube.com/watch?v=PAd6VZM7qFc"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 57s"
-has_transcript: no
-synopsis: "Every Brain Supplement That Actually Works Explained by Psych This. A lecture covering brain, supplement, actually."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Every Brain Supplement That"
-  - "Every Brain Supplement That Actually Works"
----
-
 # Every Brain Supplement That Actually Works Explained
 
 **Channel**: Psych This

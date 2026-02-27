@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1108
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "introducing"
-  - "upgraded"
-  - "elevenlabs"
-  - "mobile"
-  - "app"
-creator: "ElevenLabs"
-guest: null
-title: "Introducing the Upgraded ElevenLabs Mobile App"
-url: "https://www.youtube.com/watch?v=L2vlI1vZ4h4"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38s"
-has_transcript: no
-synopsis: "Introducing the Upgraded ElevenLabs Mobile App by ElevenLabs. A lecture covering introducing, upgraded, elevenlabs."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Introducing the Upgraded ElevenLabs"
-  - "Introducing the Upgraded ElevenLabs Mobile App"
----
-
 # Introducing the Upgraded ElevenLabs Mobile App
 
 **Channel**: ElevenLabs

@@ -1,9 +1,3 @@
----
-url: https://x.com/TheAIColonyRD/status/2015775367277977989
-author: The AI Colony R&D (@TheAIColonyRD)
-captured_date: 2026-01-26
----
-
 # How to Set Up Clawdbot as Your Ultimate Personal Assistant
 
 (Description: ASCII-art pixel logo spelling "CLAWBOT" in white blocky letters with "FRESH DAILY" tagline beneath in orange text. Below this is a terminal-style info box with orange "Clawbot onboarding" label, green Security section header, and monospace gray text containing security documentation link and permissions description.)

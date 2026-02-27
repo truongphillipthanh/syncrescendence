@@ -1,39 +1,3 @@
----
-id: SOURCE-20251217-513
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "super"
-  - "gems"
-  - "google"
-  - "new"
-creator: "WorldofAI"
-guest: null
-title: "Gemini Super Gems: Google's NEW AI Super Agent! Goodbye N8N! (FULLY FREE AI App Generator)"
-url: "https://www.youtube.com/watch?v=1choivCbZDg"
-date_published: 2025-12-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 44s"
-has_transcript: no
-synopsis: "Gemini Super Gems: Google's NEW AI Super Agent! Goodbye N8N! (FULLY FREE AI App Generator) by WorldofAI. A tutorial covering gemini, super, gems."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Gemini Super Gems: Google's"
-  - "Gemini Super Gems: Google's NEW AI"
----
-
 # Gemini Super Gems: Google's NEW AI Super Agent! Goodbye N8N! (FULLY FREE AI App Generator)
 
 **Channel**: WorldofAI

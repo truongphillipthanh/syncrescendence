@@ -1,30 +1,3 @@
----
-id: SOURCE-20260114-002
-title: Youtube Video  Stop Using Claude Code Like This Use Sub Agents Instead
-platform: youtube
-format: video
-creator: leonvanzyl
-date_published: 20260114
-status: triaged
-original_filename: "research/agents/20260114-youtube_video-@leonvanzyl-stop_using_claude_code_like_this_use_sub-agents_instead.md"
-aliases:
-  - "Leon Van Zyl - Claude Code Sub-Agents"
-teleology: implement
-notebooklm_category: claude-code
-url: "https://www.youtube.com/watch?v=P60LqQg1RH8"
-synopsis: "Video tutorial on Claude Code sub-agents and background agents. Explains how to properly use sub-agents for specialized tasks and background agents for long-running operations instead of putting everything in the main conversation thread."
-key_insights:
-  - "Sub-agents should be used for specialized focused tasks to prevent context pollution in the main Claude Code conversation"
-  - "Background agents handle long-running operations without blocking your main workflow enabling parallel task execution"
-  - "Most users misuse Claude Code by putting everything in one conversation when sub-agents and background agents would be more effective"
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "tutorial"
-  - "ai-agents"
-signal_tier: tactical
----
-
 [[00:00](http://www.youtube.com/watch?v=P60LqQg1RH8&t=0)]
 
 **LEON VAN ZYL**: In this video, we are looking at sub-agents and background agents. Understanding how sub-agents work and knowing how to run specialized agents in the background is a critical skill to have, whether you are vibe coding or using agentic coding as an experienced developer. By the end of this video, you will know exactly what sub-agents are and how to create your own specialized agents. I will also demonstrate my workflow for implementing complex solutions.

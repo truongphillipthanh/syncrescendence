@@ -1,39 +1,3 @@
----
-id: SOURCE-20250430-1106
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stephen"
-  - "heintz"
-  - "kim"
-  - "stanley"
-  - "robinson"
-creator: "The Long Now Foundation"
-guest: null
-title: "Stephen Heintz & Kim Stanley Robinson | A Logic For The Future | Long Now Talks"
-url: "https://www.youtube.com/watch?v=qO7eG4I2xcs"
-date_published: 2025-04-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 4m 38s"
-has_transcript: no
-synopsis: "Stephen Heintz & Kim Stanley Robinson | A Logic For The Future | Long Now Talks by The Long Now Foundation. A lecture covering stephen, heintz, kim."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Stephen Heintz & Kim"
-  - "Stephen Heintz & Kim Stanley Robinson"
----
-
 # Stephen Heintz & Kim Stanley Robinson | A Logic For The Future | Long Now Talks
 
 **Channel**: The Long Now Foundation

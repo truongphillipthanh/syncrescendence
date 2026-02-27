@@ -1,29 +1,3 @@
----
-url: https://x.com/ashpreetbedi/status/2018479845886320728
-author: "Ashpreet Bedi (@ashpreetbedi)"
-captured_date: 2026-02-14
-id: SOURCE-20260203-030
-original_filename: 20260203-x_thread-im_fairly_confident_were_at_the_cusp-ashpreetbedi.md
-status: triaged
-platform: x
-format: thread
-creator: ashpreetbedi
-signal_tier: strategic
-topics:
-  - ai-agents
-  - context-management
-  - git
-  - architecture
-teleology: strategize
-notebooklm_category: ai-agents
-aliases:
-  - "Ashpreet Bedi Thread  Dash SelfLearning Data Agent"
-synopsis: "Ashpreet Bedi Thread - Dash: Self-Learning Data Agent Post 1 (Feb 2, 2026, 4:21 PM) I'm fairly confident we're at the cusp of a new architecture for agents. Going from stateless tools in a loop to machines that learn and improve. Every Agent 1.0 will evolve into this pattern."
-key_insights:
-  - "Every Agent 1.0 will evolve into this pattern."
-  - "Dash not only solves a clear pain point, it does so with an architecture that enables the agent to learn from its mistakes, layer in context as needed, and get smarter with use."
-  - "When the agent makes a mistake, it captures the fix and stores it in a learning store it can search later."
----
 # Ashpreet Bedi Thread - Dash: Self-Learning Data Agent
 
 ## Post 1 (Feb 2, 2026, 4:21 PM)

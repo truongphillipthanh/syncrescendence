@@ -1,39 +1,3 @@
----
-id: SOURCE-20260216-051
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "hinduism"
-  - "consciousness"
-  - "advaita"
-  - "vedanta"
-  - "swami"
-creator: "Alex O'Connor"
-guest: null
-title: "Hinduism, Consciousness and Advaita Vedanta - Swami Sarvapriyananda"
-url: "https://www.youtube.com/watch?v=wCo7QozGKWA"
-date_published: 2026-02-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 55m 44s"
-has_transcript: no
-synopsis: "Hinduism, Consciousness and Advaita Vedanta - Swami Sarvapriyananda by Alex O'Connor. A lecture covering hinduism, consciousness, advaita."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Hinduism, Consciousness and Advaita"
-  - "Hinduism, Consciousness and Advaita Vedanta -"
----
-
 # Hinduism, Consciousness and Advaita Vedanta - Swami Sarvapriyananda
 
 **Channel**: Alex O'Connor

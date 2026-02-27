@@ -1,32 +1,3 @@
----
-url: https://x.com/TheZvi/status/2021980108416844177
-author: "Zvi Mowshowitz (@TheZvi)"
-captured_date: 2026-02-13
-id: SOURCE-20260212-011
-original_filename: "20260212-x_article-ai_155_welcome_to_recursive_self_improvement-@thezvi.md"
-status: triaged
-platform: x
-format: article
-creator: thezvi
-signal_tier: paradigm
-topics:
-  - agentic-development
-  - codex
-  - gpt
-  - openai
-  - benchmarks
-  - rust
-  - react
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI 155 Welcome to Recursive SelfImprovement"
-synopsis: "AI #155: Welcome to Recursive Self-Improvement This was the week of Claude Opus 4.6, and also of ChatGPT-5.3-Codex. Both leading models got substantial upgrades, although OpenAI's is confined to Codex. Once again, the frontier of AI got more advanced, especially for agentic coding but also for everything else."
-key_insights:
-  - "LLMs continue to exhibit consistent patterns of bias."
-  - "AI #155: Welcome to Recursive Self-Improvement This was the week of Claude Opus 4.6, and also of ChatGPT-5.3-Codex."
-  - "Both leading models got substantial upgrades, although OpenAI's is confined to Codex."
----
 # AI #155: Welcome to Recursive Self-Improvement
 
 This was the week of Claude Opus 4.6, and also of ChatGPT-5.3-Codex. Both leading models got substantial upgrades, although OpenAI's is confined to Codex. Once again, the frontier of AI got more advanced, especially for agentic coding but also for everything else.

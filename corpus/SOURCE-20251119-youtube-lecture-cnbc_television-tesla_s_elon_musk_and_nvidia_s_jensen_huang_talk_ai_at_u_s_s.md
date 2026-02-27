@@ -1,39 +1,3 @@
----
-id: SOURCE-20251119-1068
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "tesla"
-  - "elon"
-  - "musk"
-  - "nvidia"
-  - "jensen"
-creator: "CNBC Television"
-guest: null
-title: "Tesla's Elon Musk and Nvidia's Jensen Huang talk AI at U.S.-Saudi Investment Forum — 11/19/25"
-url: "https://www.youtube.com/watch?v=E2bU6n7F9hM"
-date_published: 2025-11-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 6s"
-has_transcript: no
-synopsis: "Tesla's Elon Musk and Nvidia's Jensen Huang talk AI at U.S.-Saudi Investment Forum — 11/19/25 by CNBC Television. A lecture covering tesla, elon, musk."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Tesla's Elon Musk and"
-  - "Tesla's Elon Musk and Nvidia's Jensen"
----
-
 # Tesla's Elon Musk and Nvidia's Jensen Huang talk AI at U.S.-Saudi Investment Forum — 11/19/25
 
 **Channel**: CNBC Television

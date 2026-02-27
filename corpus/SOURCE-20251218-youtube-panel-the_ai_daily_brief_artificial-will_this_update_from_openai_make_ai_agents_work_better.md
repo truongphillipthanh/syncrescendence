@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-806
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "update"
-  - "openai"
-  - "make"
-  - "agents"
-  - "work"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Will this Update from OpenAI Make AI Agents Work Better?"
-url: "https://www.youtube.com/watch?v=vjlk3aKZv20"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 33s"
-has_transcript: no
-synopsis: "Will this Update from OpenAI Make AI Agents Work Better? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering update, openai, make."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: agents-orchestration
-aliases:
-  - "Will this Update from"
-  - "Will this Update from OpenAI Make"
----
-
 # Will this Update from OpenAI Make AI Agents Work Better?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

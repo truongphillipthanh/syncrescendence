@@ -1,27 +1,3 @@
----
-url: https://x.com/Math_files/status/2022498532507426929
-author: "@Math_files"
-captured_date: 2026-02-13
-id: SOURCE-20260214-017
-original_filename: "20260214-x_thread-bayes_theorem_is_probably_the-@math_files.md"
-status: triaged
-platform: x
-format: thread
-creator: math_files
-signal_tier: tactical
-topics:
-  - cli-tools
-  - extract-pattern
-teleology: extract
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Bayes Theorem A Rational Foundation for Belief"
-synopsis: "Bayes' Theorem: A Rational Foundation for Belief **Bayes' theorem is probably the single most important thing any rational person can learn.** So many of our debates and disagreements that we shout about are because we don't understand Bayes' theorem or how human rationality often works."
-key_insights:
-  - "Bayes' theorem is named after the 18th-century Thomas Bayes, and essentially it's a formula that asks: when you are presented with all of the evidence for something, how much should you believe it?"
-  - "**It's about what is most reasonable based on the best available evidence.** But for this to work, we need to be presented with as much high-quality data as possible."
-  - "**Bayes' theorem teaches us that our beliefs are not fixed; they are probabilities.** Our beliefs change as we weigh new evidence against our assumptions, or our priors."
----
 # Bayes' Theorem: A Rational Foundation for Belief
 **Bayes' theorem is probably the single most important thing any rational person can learn.** So many of our debates and disagreements that we shout about are because we don't understand Bayes' theorem or how human rationality often works.
 Bayes' theorem is named after the 18th-century Thomas Bayes, and essentially it's a formula that asks: when you are presented with all of the evidence for something, how much should you believe it?

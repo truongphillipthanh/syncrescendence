@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-757
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "intelligence"
-  - "nothing"
-  - "without"
-  - "visual"
-  - "memory"
-creator: "Turing Post"
-guest: null
-title: "Why AI Intelligence is Nothing Without Visual Memory | Shawn Shen on the Future of Embodied AI"
-url: "https://www.youtube.com/watch?v=3ccDi4ZczFg"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 55s"
-has_transcript: no
-synopsis: "Why AI Intelligence is Nothing Without Visual Memory | Shawn Shen on the Future of Embodied AI by Turing Post. A tutorial covering intelligence, nothing, without."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why AI Intelligence is"
-  - "Why AI Intelligence is Nothing Without"
----
-
 # Why AI Intelligence is Nothing Without Visual Memory | Shawn Shen on the Future of Embodied AI
 
 **Channel**: Turing Post

@@ -1,24 +1,3 @@
----
-url: https://x.com/renatonitta/status/2023223402148806828
-author: "Renato Nitta (@renatonitta)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-017
-original_filename: "20260216-x_article-forget_google_docs_my_openclaw_bot_and_i_share_work_through_github_repos-@renatonitta.md"
-status: triaged
-platform: x
-format: article
-creator: renatonitta
-signal_tier: tactical
-topics: [ai-agents, git-workflows, developer-tools]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["renatonitta - GitHub repos as OpenClaw shared workspace"]
-synopsis: "Uses a GitHub organization as a shared workspace between human and OpenClaw bot instead of Google Drive. Bot has its own GitHub account, manages repos (shared_workspace, daily journal, scripts, ops), and every change is version-controlled with commits. Includes a recovery kit for disaster recovery."
-key_insights:
-  - "Git provides durability (survives restarts), auditability (every change is a commit), and structure (folders enforce rules)"
-  - "Recovery kit in GitHub means if the machine dies, the bot can be rebuilt without losing personality, rules, or routines"
-  - "Agent's work needs a persistence layer that isn't a chat window - GitHub is not flashy, it's just Git, and it works"
----
 # Forget Google Docs. My OpenClaw bot and I share work through GitHub repos
 (Description: A illustration showing a workflow diagram with Google Drive and GitHub logos connected by arrows through an OpenClaw mascot (orange crab-like character) and a raccoon-like assistant character. The diagram shows the flow from Drive to GitHub with repository labels displayed.)
 When I started setting [this up](https://x.com/renatonitta/status/2022053849670762858), I first tried using Google Drive, since the bot already uses its own Gmail account. But it didn't feel right, so I set up a GitHub organization to share repos with my [@openclaw](https://x.com/@openclaw) bot instead.

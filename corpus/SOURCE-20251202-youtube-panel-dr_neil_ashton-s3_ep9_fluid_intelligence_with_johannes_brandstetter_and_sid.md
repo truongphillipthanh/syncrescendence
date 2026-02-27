@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-950
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "ep9"
-  - "fluid"
-  - "intelligence"
-  - "johannes"
-  - "brandstetter"
-creator: "Dr Neil Ashton"
-guest: null
-title: "S3 EP9 - Fluid Intelligence with Johannes Brandstetter and Siddhartha Mishra"
-url: "https://www.youtube.com/watch?v=M5R-jyti-bE"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 24m 55s"
-has_transcript: no
-synopsis: "S3 EP9 - Fluid Intelligence with Johannes Brandstetter and Siddhartha Mishra by Dr Neil Ashton. A panel discussion covering ep9, fluid, intelligence."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "S3 EP9 - Fluid"
-  - "S3 EP9 - Fluid Intelligence with"
----
-
 # S3 EP9 - Fluid Intelligence with Johannes Brandstetter and Siddhartha Mishra
 
 **Channel**: Dr Neil Ashton

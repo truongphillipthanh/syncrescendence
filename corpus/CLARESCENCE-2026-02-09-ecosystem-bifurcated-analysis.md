@@ -1,14 +1,3 @@
----
-kind: clarescence
-id: CLARESCENCE-2026-02-09-ecosystem-bifurcated
-title: "Third Clarescence: Ecosystem Bifurcated Analysis (Commander / Archon / Fleet)"
-date: 2026-02-09
-status: complete
-agent: commander
-passes: 10
-decision_atoms: 19
----
-
 # CLARESCENCE: Third Ecosystem Analysis (Bifurcated)
 
 **Date**: 2026-02-09

@@ -1,27 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2017959821111083068
-author: "Corey Ganim (@GanimCorey)"
-captured_date: 2026-02-04
-id: SOURCE-20260201-003
-original_filename: "20260201-x_article-20_more_clawdbot_setups_that_made_me_say_wait_it_can_do_that-@ganimcorey.md"
-status: triaged
-platform: x
-format: article
-creator: ganimcorey
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "Corey Ganim - 20 more Clawdbot setups"
-synopsis: "Part 2 compilation of 20 real-world Clawdbot/OpenClaw setups, following a Part 1 that received 90K views and 2,300+ bookmarks. Curates community-contributed use cases demonstrating the expanding frontier of personal AI agent applications."
-key_insights:
-  - "The community is generating novel use cases faster than any single guide can capture — crowdsourced setup compilations serve as living pattern libraries."
-  - "Part 1's viral success (90K views, 2,300 bookmarks) indicates massive demand for concrete, demonstrated agent workflows rather than theoretical guides."
-  - "Each setup represents a validated pattern that others can replicate, creating a network effect of shared agent configurations."
----
 # 20 More Clawdbot Setups That Made Me Say 'Wait, It Can Do That?'
 
 ## Overview

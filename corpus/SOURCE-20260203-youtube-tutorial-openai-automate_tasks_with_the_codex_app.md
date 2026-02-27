@@ -1,38 +1,3 @@
----
-id: SOURCE-20260203-188
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "automate"
-  - "tasks"
-  - "codex"
-  - "app"
-creator: "OpenAI"
-guest: null
-title: "Automate tasks with the Codex app"
-url: "https://www.youtube.com/watch?v=xHnlzAPD9QI"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "4m 36s"
-has_transcript: no
-synopsis: "Automate tasks with the Codex app by OpenAI. A tutorial covering automate, tasks, codex."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Automate tasks with the"
-  - "Automate tasks with the Codex app"
----
-
 # Automate tasks with the Codex app
 
 **Channel**: OpenAI

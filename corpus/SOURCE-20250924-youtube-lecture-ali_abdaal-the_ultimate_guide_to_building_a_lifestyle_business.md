@@ -1,39 +1,3 @@
----
-id: SOURCE-20250924-1053
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ultimate"
-  - "guide"
-  - "building"
-  - "lifestyle"
-  - "business"
-creator: "Ali Abdaal"
-guest: null
-title: "The Ultimate Guide to Building a Lifestyle Business"
-url: "https://www.youtube.com/watch?v=FSj7LX5GYgA"
-date_published: 2025-09-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 8m 45s"
-has_transcript: no
-synopsis: "The Ultimate Guide to Building a Lifestyle Business by Ali Abdaal. A lecture covering ultimate, guide, building."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "The Ultimate Guide to"
-  - "The Ultimate Guide to Building a"
----
-
 # The Ultimate Guide to Building a Lifestyle Business
 
 **Channel**: Ali Abdaal

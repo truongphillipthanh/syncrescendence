@@ -1,39 +1,3 @@
----
-id: SOURCE-20260210-127
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "same"
-  - "task"
-  - "half"
-  - "users"
-  - "get"
-creator: "Dylan Davis"
-guest: null
-title: "Same AI. Same Task. Why Did Half the Users Get Dumber?"
-url: "https://www.youtube.com/watch?v=P6PUblCPkn8"
-date_published: 2026-02-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 41s"
-has_transcript: no
-synopsis: "Same AI. Same Task. Why Did Half the Users Get Dumber? by Dylan Davis. A lecture covering same, task, half."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Same AI. Same Task."
-  - "Same AI. Same Task. Why Did"
----
-
 # Same AI. Same Task. Why Did Half the Users Get Dumber?
 
 **Channel**: Dylan Davis

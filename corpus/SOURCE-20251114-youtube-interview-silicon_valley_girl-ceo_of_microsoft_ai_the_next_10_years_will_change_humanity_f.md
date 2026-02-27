@@ -1,39 +1,3 @@
----
-id: SOURCE-20251114-1112
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "ceo"
-  - "microsoft"
-  - "next"
-  - "years"
-  - "change"
-creator: "Silicon Valley Girl"
-guest: null
-title: "CEO of Microsoft AI:The Next 10 Years Will Change Humanity Forever"
-url: "https://www.youtube.com/watch?v=SP76PvgMzVU"
-date_published: 2025-11-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "41m 51s"
-has_transcript: no
-synopsis: "CEO of Microsoft AI:The Next 10 Years Will Change Humanity Forever by Silicon Valley Girl. A interview covering ceo, microsoft, next."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "CEO of Microsoft AI:The"
-  - "CEO of Microsoft AI:The Next 10"
----
-
 # CEO of Microsoft AI:The Next 10 Years Will Change Humanity Forever
 
 **Channel**: Silicon Valley Girl

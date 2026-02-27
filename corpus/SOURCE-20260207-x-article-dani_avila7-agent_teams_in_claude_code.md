@@ -1,21 +1,3 @@
----
-url: https://x.com/dani_avila7/status/2020170608290549906
-author: "Daniel San (@dani_avila7)"
-captured_date: 2026-02-13
-id: SOURCE-20260207-006
-original_filename: "20260207-x_article-agent_teams_in_claude_code-@dani_avila7.md"
-status: triaged
-platform: x
-format: article
-creator: dani_avila7
-signal_tier: tactical
-topics: [claude-code, ai-agents, best-practices, tutorial]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["Daniel San - Agent Teams Patterns"]
-synopsis: "Practical patterns for using Claude Code Agent Teams in real work, focusing on how agents coordinate and how file edits are controlled. Covers patterns for improving throughput and avoiding edit collisions between independent Claude Code instances."
-key_insights: ["Agent Teams require understanding coordination patterns and file edit control to be useful in practice", "Edit collision avoidance is the primary operational challenge when running multiple independent Claude Code instances", "The architecture involves a Team Lead coordinating reviewer agents through shared tasks and messages within CLAUDE.md context"]
----
 # Agent Teams in Claude Code
 
 I've been running Claude Code's Agent Teams for real work. It's experimental, but already useful if you understand how agents coordinate and how file edits are controlled.

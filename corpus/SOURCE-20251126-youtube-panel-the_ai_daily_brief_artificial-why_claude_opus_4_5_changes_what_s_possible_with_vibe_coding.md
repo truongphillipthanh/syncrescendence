@@ -1,39 +1,3 @@
----
-id: SOURCE-20251126-993
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-  - "changes"
-  - "possible"
-  - "vibe"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Why Claude Opus 4.5 Changes What's Possible with Vibe Coding"
-url: "https://www.youtube.com/watch?v=wvoNi4lR2rg"
-date_published: 2025-11-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 42s"
-has_transcript: no
-synopsis: "Why Claude Opus 4.5 Changes What's Possible with Vibe Coding by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering claude, opus, changes."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Why Claude Opus 4.5"
-  - "Why Claude Opus 4.5 Changes What's"
----
-
 # Why Claude Opus 4.5 Changes What's Possible with Vibe Coding
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

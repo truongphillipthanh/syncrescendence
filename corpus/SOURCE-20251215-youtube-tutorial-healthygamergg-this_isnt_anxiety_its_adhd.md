@@ -1,37 +1,3 @@
----
-id: SOURCE-20251215-826
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "isn"
-  - "anxiety"
-  - "adhd"
-creator: "HealthyGamerGG"
-guest: null
-title: "This Isn’t Anxiety, It’s ADHD"
-url: "https://www.youtube.com/watch?v=bj_PSYBCUsM"
-date_published: 2025-12-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 45s"
-has_transcript: no
-synopsis: "This Isn’t Anxiety, It’s ADHD by HealthyGamerGG. A tutorial covering isn, anxiety, adhd."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "This Isn’t Anxiety, It’s"
-  - "This Isn’t Anxiety, It’s ADHD"
----
-
 # This Isn’t Anxiety, It’s ADHD
 
 **Channel**: HealthyGamerGG

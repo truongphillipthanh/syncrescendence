@@ -1,21 +1,3 @@
----
-url: https://x.com/0xZakk/status/2020155560268632235
-author: "Zakk (@0xZakk)"
-captured_date: 2026-02-13
-id: SOURCE-20260207-001
-original_filename: "20260207-x_article-automatic_discipline_with_openclaw-@0xzakk.md"
-status: triaged
-platform: x
-format: article
-creator: 0xzakk
-signal_tier: strategic
-topics: [ai-agents, automation, obsidian, best-practices, case-study]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["0xZakk - Automatic Discipline with OpenClaw"]
-synopsis: "Detailed system for using an OpenClaw agent (Chewy) with a shared LogSeq database to enforce productivity structure without willpower. Describes a daily flow: agent works overnight and produces morning reports, syncs throughout the day, delivers an evening check-in template at 4:30 PM, plus weekly and monthly reviews. Includes complete templates for goals, morning reports, evening check-ins, and reviews."
-key_insights: ["Automatic discipline beats willpower — the AI enforces frameworks (templates, check-ins, review cadences) that humans design once and stop maintaining", "The morning report pattern is high-leverage: agent works overnight, surfaces what it completed, where it got stuck, and what decisions the human needs to make first thing", "Shared markdown files (LogSeq/Obsidian) as the substrate enables bidirectional human-AI collaboration where both parties read and write to the same workspace"]
----
 # Automatic Discipline with OpenClaw
 
 How I use an AI agent to enforce structure in my day without willpower.

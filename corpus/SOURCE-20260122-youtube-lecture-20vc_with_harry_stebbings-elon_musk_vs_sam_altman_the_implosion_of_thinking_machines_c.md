@@ -1,39 +1,3 @@
----
-id: SOURCE-20260122-376
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "elon"
-  - "musk"
-  - "sam"
-  - "altman"
-  - "implosion"
-creator: "20VC with Harry Stebbings"
-guest: null
-title: "Elon Musk vs Sam Altman | The Implosion of Thinking Machines | Can VC Survive Public Pricing?"
-url: "https://www.youtube.com/watch?v=h_ZpvRjB9JI"
-date_published: 2026-01-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 23m 13s"
-has_transcript: no
-synopsis: "Elon Musk vs Sam Altman | The Implosion of Thinking Machines | Can VC Survive Public Pricing? by 20VC with Harry Stebbings. A lecture covering elon, musk, sam."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Elon Musk vs Sam"
-  - "Elon Musk vs Sam Altman |"
----
-
 # Elon Musk vs Sam Altman | The Implosion of Thinking Machines | Can VC Survive Public Pricing?
 
 **Channel**: 20VC with Harry Stebbings

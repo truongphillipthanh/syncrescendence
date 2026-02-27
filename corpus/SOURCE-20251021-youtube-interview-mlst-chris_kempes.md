@@ -1,16 +1,3 @@
----
-id: SOURCE-20251021-youtube-interview-mlst-chris_kempes
-title: "The Universal Hierarchy of Life"
-creator: Machine Learning Street Talk
-guest: Chris Kempes
-date_published: 2025-10-21
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Wisdom
-integration_targets: [CANON-35200-GAIAN_NODE, CANON-00016-ONTOLOGICAL_FRAMEWORK]
----
-
 # The Universal Hierarchy of Life
 
 ## Executive Summary

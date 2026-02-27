@@ -1,13 +1,3 @@
----
-id: REF-AIRTABLE_INTEGRATION
-kind: REF
-scope: engine
-target: constellation
-status: operational
-updated: 2026-02-12
-linear_issue: SYN-55
----
-
 # REF -- Airtable Ontology Surface Integration
 
 ## Visual Surface for the Syncrescendence Ontology (INT-MI19)

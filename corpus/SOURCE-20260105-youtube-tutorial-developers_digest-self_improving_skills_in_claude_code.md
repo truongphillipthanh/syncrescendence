@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-617
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "self"
-  - "improving"
-  - "skills"
-  - "claude"
-  - "code"
-creator: "Developers Digest"
-guest: null
-title: "Self-Improving Skills in Claude Code"
-url: "https://www.youtube.com/watch?v=-4nUCaMNBR8"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 36s"
-has_transcript: no
-synopsis: "Self-Improving Skills in Claude Code by Developers Digest. A tutorial covering self, improving, skills."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Self-Improving Skills in Claude"
-  - "Self-Improving Skills in Claude Code"
----
-
 # Self-Improving Skills in Claude Code
 
 **Channel**: Developers Digest

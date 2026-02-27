@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-545
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "psychedelics"
-  - "quantum"
-  - "mechanics"
-  - "hyper"
-  - "reality"
-creator: "Essentia Foundation"
-guest: null
-title: "Psychedelics, Quantum Mechanics and Hyper Reality | Christof Koch & Bernardo Kastrup"
-url: "https://www.youtube.com/watch?v=7wOhvPx2g0I"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 19m 7s"
-has_transcript: no
-synopsis: "Psychedelics, Quantum Mechanics and Hyper Reality | Christof Koch & Bernardo Kastrup by Essentia Foundation. A interview covering psychedelics, quantum, mechanics."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Psychedelics, Quantum Mechanics and"
-  - "Psychedelics, Quantum Mechanics and Hyper Reality"
----
-
 # Psychedelics, Quantum Mechanics and Hyper Reality | Christof Koch & Bernardo Kastrup
 
 **Channel**: Essentia Foundation

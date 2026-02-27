@@ -1,39 +1,3 @@
----
-id: SOURCE-20260112-470
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "tidar"
-  - "think"
-  - "diffusion"
-  - "talk"
-creator: "Emergent Behaviors"
-guest: null
-title: "NVIDIA: TiDAR: Think in Diffusion, Talk in Autoregression"
-url: "https://www.youtube.com/watch?v=Y-u-V5v9RiE"
-date_published: 2026-01-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3m 55s"
-has_transcript: no
-synopsis: "NVIDIA: TiDAR: Think in Diffusion, Talk in Autoregression by Emergent Behaviors. A lecture covering nvidia, tidar, think."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "NVIDIA: TiDAR: Think in"
-  - "NVIDIA: TiDAR: Think in Diffusion, Talk"
----
-
 # NVIDIA: TiDAR: Think in Diffusion, Talk in Autoregression
 
 **Channel**: Emergent Behaviors

@@ -1,38 +1,3 @@
----
-id: SOURCE-20260121-415
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "coding"
-  - "reached"
-  - "tipping"
-  - "point"
-creator: "Dr Waku"
-guest: null
-title: "AI coding has reached a tipping point"
-url: "https://www.youtube.com/watch?v=80NmkjiODAk"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "16m 51s"
-has_transcript: no
-synopsis: "AI coding has reached a tipping point by Dr Waku. A lecture covering coding, reached, tipping."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "AI coding has reached"
-  - "AI coding has reached a tipping"
----
-
 # AI coding has reached a tipping point
 
 **Channel**: Dr Waku

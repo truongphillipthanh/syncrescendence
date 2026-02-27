@@ -1,9 +1,3 @@
----
-url: https://x.com/arscontexta/status/2013045749580259680
-author: Heinrich (@arscontexta)
-captured_date: 2026-01-18
----
-
 # obsidian + claude code 101
 
 (Description: A monochromatic engraving-style illustration featuring a minimalist desk workspace. Central focus shows an Apple laptop with the Apple logo visible. Surrounding items include antique navigation instruments: a brass compass, a detailed astrolabe with intricate geometric patterns, globes at various angles, and hanging pendulum-like instruments. Books are stacked nearby. The artistic style uses fine cross-hatching and line work typical of classical scientific illustration, rendered in grayscale with a wooden surface and brick wall background.)

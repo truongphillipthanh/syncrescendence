@@ -1,16 +1,3 @@
----
-id: SOURCE-20251101-youtube-video-dshapiro-renaissance_2_0
-title: "Renaissance 2.0 - Open AI Models Signal Democratic Revolution"
-creator: David Shapiro
-guest: None (Solo)
-date_published: 2025-11-01
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Wisdom
-integration_targets: [CANON-00015-MACROSCOPIC_NARRATIVES, CANON-00004-EVOLUTION]
----
-
 # Renaissance 2.0: Open AI Models Signal Democratic Revolution
 
 ## Executive Summary

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260104-634
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "forget"
-  - "llm"
-  - "mit"
-  - "new"
-  - "rlm"
-creator: "Discover AI"
-guest: null
-title: "Forget LLM: MIT's New RLM (Phase Shift in AI)"
-url: "https://www.youtube.com/watch?v=mtRJmIup3b8"
-date_published: 2026-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 48s"
-has_transcript: no
-synopsis: "Forget LLM: MIT's New RLM (Phase Shift in AI) by Discover AI. A lecture covering forget, llm, mit."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Forget LLM: MIT's New"
-  - "Forget LLM: MIT's New RLM (Phase"
----
-
 # Forget LLM: MIT's New RLM (Phase Shift in AI)
 
 **Channel**: Discover AI

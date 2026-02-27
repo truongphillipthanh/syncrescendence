@@ -1,39 +1,3 @@
----
-id: SOURCE-20251223-737
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "users"
-  - "still"
-  - "don"
-  - "know"
-creator: "Dylan Davis"
-guest: null
-title: "99% Of Claude Users STILL Don't Know These 7 Official Prompting Rules"
-url: "https://www.youtube.com/watch?v=GKTkPnqhnf0"
-date_published: 2025-12-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 57s"
-has_transcript: no
-synopsis: "99% Of Claude Users STILL Don't Know These 7 Official Prompting Rules by Dylan Davis. A lecture covering claude, users, still."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "99% Of Claude Users"
-  - "99% Of Claude Users STILL Don't"
----
-
 # 99% Of Claude Users STILL Don't Know These 7 Official Prompting Rules
 
 **Channel**: Dylan Davis

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260102-535
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "consciousness"
-  - "emerged"
-  - "single"
-  - "cells"
-  - "complex"
-creator: "OMNI"
-guest: null
-title: "How Consciousness Emerged: From Single Cells to Complex Minds"
-url: "https://www.youtube.com/watch?v=gt7zSykqQpY"
-date_published: 2026-01-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 18m 9s"
-has_transcript: no
-synopsis: "How Consciousness Emerged: From Single Cells to Complex Minds by OMNI. A lecture covering consciousness, emerged, single."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "How Consciousness Emerged: From"
-  - "How Consciousness Emerged: From Single Cells"
----
-
 # How Consciousness Emerged: From Single Cells to Complex Minds
 
 **Channel**: OMNI

@@ -1,22 +1,3 @@
----
-id: SOURCE-20260120-x-article-arscontexta-yapping_to_prds_claude_code_and_obsidian
-platform: x
-format: article
-creator: arscontexta
-title: yapping to prds claude code and obsidian
-status: triaged
-original_filename: "20260120-x_article-yapping_to_prds_claude_code_and_obsidian-@arscontexta.md"
-url: https://x.com/arscontexta/status/2013718955576250466
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-01-24
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Yapping to PRDs: Claude Code & Obsidian
 
 (Description: Engraved illustration in classical style showing a bearded man in period clothing with pointed hat, gesturing expressively while sitting at a desk with a laptop. Drafting tools, scrolls, hourglasses, and architectural elements surround him, rendered in black ink with detailed cross-hatching.)

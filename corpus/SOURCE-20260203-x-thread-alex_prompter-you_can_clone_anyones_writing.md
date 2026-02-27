@@ -1,32 +1,3 @@
----
-url: https://x.com/alex_prompter/status/2018625586751820241
-author: "Alex Prompter (@alex_prompter)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-029
-original_filename: "20260203-x_thread-you_can_clone_anyones_writing-@alex_prompter.md"
-status: triaged
-platform: x
-format: thread
-creator: alex_prompter
-signal_tier: tactical
-topics:
-  - prompt-engineering
-  - prompting
-  - context-management
-  - testing
-  - gpt
-  - rag
-  - cli-tools
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "You Can Clone Anyones Writing Voice Using Claude Sonnet 45"
-synopsis: "You Can Clone Anyone's Writing Voice Using Claude Sonnet 4.5 You can clone anyone's writing voice using Claude Sonnet 4.5 easily. I've cloned: - Hemingway - Paul Graham essays - My CEO's email style The accuracy is scary good (validated by blind tests: 94% can't tell)."
-key_insights:
-  - "Sentence structure patterns > 2."
-  - "Reading the PDF to analyze the author's writing style and voice patterns."
-  - "You Can Clone Anyone's Writing Voice Using Claude Sonnet 4.5 You can clone anyone's writing voice using Claude Sonnet 4.5 easily."
----
 # You Can Clone Anyone's Writing Voice Using Claude Sonnet 4.5
 
 You can clone anyone's writing voice using Claude Sonnet 4.5 easily.

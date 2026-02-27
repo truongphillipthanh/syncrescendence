@@ -1,32 +1,3 @@
----
-url: https://x.com/EXM7777/status/2018745809056207266
-author: "Machina (@EXM7777)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-032
-original_filename: "20260203-x_thread-this_is_hands_down_the_best-@EXM7777.md"
-status: triaged
-platform: x
-format: thread
-creator: exm7777
-signal_tier: tactical
-topics:
-  - claude-code
-  - ai-workflow
-  - prompting
-  - context-management
-  - automation
-  - extended-thinking
-  - openai
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Workflow Thread Best Way to Work with Claude"
-synopsis: "Claude Workflow Thread: Best Way to Work with Claude **Post 1 of 3** this is hands-down the best way to work with Claude right now..."
-key_insights:
-  - "Claude Workflow Thread: Best Way to Work with Claude **Post 1 of 3** this is hands-down the best way to work with Claude right now..."
-  - "create a master plan with a knowledge base directory for each section."
-  - "attach context markdown files to every part."
----
 # Claude Workflow Thread: Best Way to Work with Claude
 
 **Post 1 of 3**

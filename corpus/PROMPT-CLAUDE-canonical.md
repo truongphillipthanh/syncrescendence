@@ -1,11 +1,3 @@
----
-id: claude-canonical-system-prompt
-kind: system_prompt
-scope: global
-target: claude
-version: 2.1
----
-
 # PROMPT-CLAUDE-canonical
 ## Reception Calibration System Prompt
 

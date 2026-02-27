@@ -1,38 +1,3 @@
----
-id: SOURCE-20251118-1077
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "pro"
-  - "model"
-  - "waiting"
-creator: "Sam Witteveen"
-guest: null
-title: "Gemini 3 Pro - The Model You've Been Waiting For"
-url: "https://www.youtube.com/watch?v=PFyccJhbQ6w"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m"
-has_transcript: no
-synopsis: "Gemini 3 Pro - The Model You've Been Waiting For by Sam Witteveen. A tutorial covering gemini, pro, model."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3 Pro -"
-  - "Gemini 3 Pro - The Model"
----
-
 # Gemini 3 Pro - The Model You've Been Waiting For
 
 **Channel**: Sam Witteveen

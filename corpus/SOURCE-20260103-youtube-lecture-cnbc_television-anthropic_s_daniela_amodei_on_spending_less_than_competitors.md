@@ -1,39 +1,3 @@
----
-id: SOURCE-20260103-639
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "daniela"
-  - "amodei"
-  - "spending"
-  - "less"
-creator: "CNBC Television"
-guest: null
-title: "Anthropic's Daniela Amodei on spending less than competitors, keeping AI safe and a possible IPO"
-url: "https://www.youtube.com/watch?v=GMXnmaky9FY"
-date_published: 2026-01-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m 24s"
-has_transcript: no
-synopsis: "Anthropic's Daniela Amodei on spending less than competitors, keeping AI safe and a possible IPO by CNBC Television. A lecture covering anthropic, daniela, amodei."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic's Daniela Amodei on"
-  - "Anthropic's Daniela Amodei on spending less"
----
-
 # Anthropic's Daniela Amodei on spending less than competitors, keeping AI safe and a possible IPO
 
 **Channel**: CNBC Television

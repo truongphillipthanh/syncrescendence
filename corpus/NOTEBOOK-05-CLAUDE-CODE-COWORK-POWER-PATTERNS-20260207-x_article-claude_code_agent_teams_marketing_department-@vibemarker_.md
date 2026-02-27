@@ -1,9 +1,3 @@
----
-url: https://x.com/VibeMarketer_/status/2020142441769156678
-author: J.B. (@VibeMarketer_)
-captured_date: 2026-02-13
----
-
 # Claude Code Just Shipped Agent Teams. Here's How to Build Your Own Marketing Department Inside It.
 
 (Description: Hero image showing a glowing plus/cross symbol on a blue circuit board background with golden light rays, and a person visible from the side in amber lighting. Text overlay reads "claud agent swarm (for marketers)")

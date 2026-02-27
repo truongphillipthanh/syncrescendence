@@ -1,9 +1,3 @@
----
-url: https://x.com/victormustar/status/2021964315994046897
-author: Victor M (@victormustar)
-captured_date: 2026-02-12
----
-
 # Your MacBook Is a Local AI Agent
 
 (Description: Black and white ink sketch illustration featuring a MacBook laptop centered in a swirling, organic landscape of branches and flowing lines. The image uses a high-contrast artistic style with intricate line work suggesting a natural, almost mystical computer environment.)

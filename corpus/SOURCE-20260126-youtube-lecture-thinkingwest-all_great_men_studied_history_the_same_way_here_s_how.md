@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-164
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "great"
-  - "men"
-  - "studied"
-  - "history"
-  - "same"
-creator: "ThinkingWest"
-guest: null
-title: "All Great Men Studied History the Same Way — Here's How"
-url: "https://www.youtube.com/watch?v=EAyM8LXbwiw"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 28s"
-has_transcript: no
-synopsis: "All Great Men Studied History the Same Way — Here's How by ThinkingWest. A lecture covering great, men, studied."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "All Great Men Studied"
-  - "All Great Men Studied History the"
----
-
 # All Great Men Studied History the Same Way — Here's How
 
 **Channel**: ThinkingWest

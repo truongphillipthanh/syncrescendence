@@ -1,39 +1,3 @@
----
-id: SOURCE-20251219-748
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "priors"
-  - "144"
-  - "2026"
-  - "forecast"
-  - "sarah"
-creator: "No Priors: AI, Machine Learning, Tech, & Startups"
-guest: null
-title: "No Priors Ep. 144 | The 2026 AI Forecast with Sarah & Elad"
-url: "https://www.youtube.com/watch?v=TOsNrV3bXtQ"
-date_published: 2025-12-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "40m 47s"
-has_transcript: no
-synopsis: "No Priors Ep. 144 | The 2026 AI Forecast with Sarah & Elad by No Priors: AI, Machine Learning, Tech, & Startups. A lecture covering priors, 144, 2026."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "No Priors Ep. 144"
-  - "No Priors Ep. 144 | The"
----
-
 # No Priors Ep. 144 | The 2026 AI Forecast with Sarah & Elad
 
 **Channel**: No Priors: AI, Machine Learning, Tech, & Startups

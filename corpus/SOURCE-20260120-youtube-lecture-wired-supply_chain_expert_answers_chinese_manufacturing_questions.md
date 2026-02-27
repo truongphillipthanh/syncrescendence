@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-354
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "supply"
-  - "chain"
-  - "expert"
-  - "answers"
-  - "chinese"
-creator: "WIRED"
-guest: null
-title: "Supply Chain Expert Answers Chinese Manufacturing Questions | Tech Support | WIRED"
-url: "https://www.youtube.com/watch?v=L-fK_BUmesc"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 44s"
-has_transcript: no
-synopsis: "Supply Chain Expert Answers Chinese Manufacturing Questions | Tech Support | WIRED by WIRED. A lecture covering supply, chain, expert."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Supply Chain Expert Answers"
-  - "Supply Chain Expert Answers Chinese Manufacturing"
----
-
 # Supply Chain Expert Answers Chinese Manufacturing Questions | Tech Support | WIRED
 
 **Channel**: WIRED

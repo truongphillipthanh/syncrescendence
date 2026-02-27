@@ -1,39 +1,3 @@
----
-id: SOURCE-20260220-021
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "just"
-  - "dropped"
-  - "superintelligence"
-  - "coming"
-creator: "AI For Humans"
-guest: null
-title: "Gemini 3.1 Just Dropped. SuperIntelligence Is Coming. We're Fine."
-url: "https://www.youtube.com/watch?v=EuzBYGswhUs"
-date_published: 2026-02-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "52m 21s"
-has_transcript: no
-synopsis: "Gemini 3.1 Just Dropped. SuperIntelligence Is Coming. We're Fine. by AI For Humans. A lecture covering gemini, just, dropped."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Gemini 3.1 Just Dropped."
-  - "Gemini 3.1 Just Dropped. SuperIntelligence Is"
----
-
 # Gemini 3.1 Just Dropped. SuperIntelligence Is Coming. We're Fine.
 
 **Channel**: AI For Humans

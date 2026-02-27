@@ -1,24 +1,3 @@
----
-url: https://x.com/thedankoe/status/2023779299367809063
-author: "DAN KOE (@thedankoe)"
-captured_date: 2026-02-17
-id: SOURCE-20260217-014
-original_filename: "20260217-x_article-human_3.0_a_map_to_reach_the_top_1_percent-@thedankoe.md"
-status: triaged
-platform: x
-format: article
-creator: thedankoe
-signal_tier: tactical
-topics: [philosophy, psychology, personal-development]
-teleology: inspire
-notebooklm_category: general
-aliases: ["thedankoe - Human 3.0 development model"]
-synopsis: "Introduces the Human 3.0 model: a four-quadrant (Mind, Body, Spirit, Vocation) development framework with three levels (Conformist, Individualist, Synthesist), three phases per level (Dissonance, Uncertainty, Discovery), and horizontal traits (Knowledge, Experience, Skill). Adapted from Wilber's AQAL and Spiral Dynamics. Includes Archetypes per quadrant, Metatypes as composite scores, Channels as flow-state rabbit holes, and 'Glitches' (psychedelics, AI, PEDs) as accelerants with risk proportional to consciousness level."
-key_insights:
-  - "AI is framed as a 'Glitch' — an accelerant that crosses all domains but requires a base of knowledge and skill to use safely, like steroids without training fundamentals"
-  - "False Transformation trap: advancing in one domain (mind) and assuming advancement in another (vocation) without actually developing the required traits"
-  - "Channels are flow-state rabbit holes that emerge during Dissonance phases — the fastest path to the next level is finding obsessive engagement with knowledge or skill acquisition"
----
 # Human 3.0 – A Map To Reach The Top 1%
 As corny as this may sound, I've always wanted to become an absolute unit of an individual.
 Not just having a nice and muscular body, but to be fully developed in every domain of life.

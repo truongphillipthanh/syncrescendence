@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-095
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "video"
-  - "just"
-  - "went"
-  - "too"
-  - "far"
-creator: "Wes Roth"
-guest: null
-title: "AI Video Just Went TOO FAR... NOT OK!"
-url: "https://www.youtube.com/watch?v=U3o5cgG105E"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 31s"
-has_transcript: no
-synopsis: "AI Video Just Went TOO FAR... NOT OK! by Wes Roth. A interview covering video, just, went."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Video Just Went"
-  - "AI Video Just Went TOO FAR..."
----
-
 # AI Video Just Went TOO FAR... NOT OK!
 
 **Channel**: Wes Roth

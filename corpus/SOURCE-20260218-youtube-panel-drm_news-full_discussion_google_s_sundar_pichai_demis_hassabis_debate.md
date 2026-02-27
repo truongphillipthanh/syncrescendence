@@ -1,39 +1,3 @@
----
-id: SOURCE-20260218-005
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "full"
-  - "discussion"
-  - "google"
-  - "sundar"
-  - "pichai"
-creator: "DRM News"
-guest: null
-title: "FULL DISCUSSION: Google's Sundar Pichai, Demis Hassabis Debate AI, India Impact, Job Market | AI1G"
-url: "https://www.youtube.com/watch?v=1ZhsdckCK2c"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 40s"
-has_transcript: no
-synopsis: "FULL DISCUSSION: Google's Sundar Pichai, Demis Hassabis Debate AI, India Impact, Job Market | AI1G by DRM News. A panel discussion covering full, discussion, google."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "FULL DISCUSSION: Google's Sundar"
-  - "FULL DISCUSSION: Google's Sundar Pichai, Demis"
----
-
 # FULL DISCUSSION: Google's Sundar Pichai, Demis Hassabis Debate AI, India Impact, Job Market | AI1G
 
 **Channel**: DRM News

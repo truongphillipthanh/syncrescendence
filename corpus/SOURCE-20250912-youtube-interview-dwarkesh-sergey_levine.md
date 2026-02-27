@@ -1,16 +1,3 @@
----
-id: SOURCE-20250912-youtube-interview-dwarkesh-sergey_levine
-title: "Foundation Models for Physical Intelligence"
-creator: Dwarkesh Patel
-guest: Sergey Levine
-date_published: 2025-09-12
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Intelligence
-integration_targets: [CANON-30000-INTELLIGENCE, CANON-30400-AGENTIC_ARCHITECTURE]
----
-
 # Foundation Models for Physical Intelligence
 
 ## Executive Summary

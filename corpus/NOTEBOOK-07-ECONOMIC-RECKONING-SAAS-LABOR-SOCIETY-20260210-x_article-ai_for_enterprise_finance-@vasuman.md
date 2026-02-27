@@ -1,9 +1,3 @@
----
-url: https://x.com/vasuman/status/2021362047980892628
-author: vas (@vasuman)
-captured_date: 2026-02-13
----
-
 # AI for Enterprise Finance
 
 (Description: Black and white sketch-style illustration depicting a busy corporate office scene. Multiple professionals in business attire are working at desks with computers, stacks of papers, and documents scattered throughout. The scene conveys controlled chaos and intensive collaborative work, with figures leaning over desks, gesturing while communicating, and managing extensive paperwork. A bright light source emanates from the upper right, symbolizing insight or clarity emerging from complexity. The art style suggests both the mechanical nature of routine work and human effort involved in enterprise operations.)

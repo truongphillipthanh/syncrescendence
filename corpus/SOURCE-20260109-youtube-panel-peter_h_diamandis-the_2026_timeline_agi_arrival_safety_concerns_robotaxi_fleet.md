@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-566
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "timeline"
-  - "agi"
-  - "arrival"
-  - "safety"
-creator: "Peter H. Diamandis"
-guest: null
-title: "The 2026 Timeline: AGI Arrival, Safety Concerns, Robotaxi Fleets & Hyperscaler Timelines | 221"
-url: "https://www.youtube.com/watch?v=2WTFuSeYJ6o"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 59s"
-has_transcript: no
-synopsis: "The 2026 Timeline: AGI Arrival, Safety Concerns, Robotaxi Fleets & Hyperscaler Timelines | 221 by Peter H. Diamandis. A panel discussion covering 2026, timeline, agi."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The 2026 Timeline: AGI"
-  - "The 2026 Timeline: AGI Arrival, Safety"
----
-
 # The 2026 Timeline: AGI Arrival, Safety Concerns, Robotaxi Fleets & Hyperscaler Timelines | 221
 
 **Channel**: Peter H. Diamandis

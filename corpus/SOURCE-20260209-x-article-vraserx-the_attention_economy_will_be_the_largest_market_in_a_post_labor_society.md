@@ -1,21 +1,3 @@
----
-url: https://x.com/VraserX/status/2020724431257997358
-author: "VraserX e/acc (@VraserX)"
-captured_date: 2026-02-13
-id: SOURCE-20260209-006
-original_filename: "20260209-x_article-the_attention_economy_will_be_the_largest_market_in_a_post_labor_society-@vraserx.md"
-status: triaged
-platform: x
-format: article
-creator: vraserx
-signal_tier: paradigm
-topics: [economics, philosophy, attention-economy]
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases: ["vraserx - Attention Economy Post-Labor"]
-synopsis: "Analysis of the attention economy as the dominant market in a post-labor society, tracing from Herbert Simon's 1971 observation on information scarcity to the convergence of human consciousness with digital systems."
-key_insights: ["Attention becomes the primary scarce resource as labor is automated away", "Herbert Simon's 1971 prediction about information abundance creating attention poverty is now structural reality", "Post-labor economics will be organized around capturing and directing human attention"]
----
 # The Attention Economy Will Be the Largest Market in a Post Labor Society
 
 (Description: Futuristic digital illustration. A silhouetted figure stands facing away from the viewer toward a glowing eye symbol overlaid with wireframe brain patterns. The eye is rendered in luminous blue and gold light. Behind the figure, an array of illuminated screens and digital displays recede into the distance, creating a tunnel effect. Color palette transitions from cool blues on the left to warm oranges on the right, symbolizing the convergence of human consciousness with digital systems.)

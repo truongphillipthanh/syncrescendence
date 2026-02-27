@@ -1,39 +1,3 @@
----
-id: SOURCE-20260117-455
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "mcp"
-  - "problem"
-  - "just"
-creator: "Kenny Liao"
-guest: null
-title: "Claude Code's MCP Problem Just Got Fixed"
-url: "https://www.youtube.com/watch?v=l7qVtHpctic"
-date_published: 2026-01-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 24s"
-has_transcript: no
-synopsis: "Claude Code's MCP Problem Just Got Fixed by Kenny Liao. A lecture covering claude, code, mcp."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code's MCP Problem"
-  - "Claude Code's MCP Problem Just Got"
----
-
 # Claude Code's MCP Problem Just Got Fixed
 
 **Channel**: Kenny Liao

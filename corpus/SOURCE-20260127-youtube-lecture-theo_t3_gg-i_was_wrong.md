@@ -1,34 +1,3 @@
----
-id: SOURCE-20260127-303
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "wrong"
-creator: "Theo - t3․gg"
-guest: null
-title: "I was wrong"
-url: "https://www.youtube.com/watch?v=CL0vkl8Sxvs"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "40m 4s"
-has_transcript: no
-synopsis: "I was wrong by Theo - t3․gg. A lecture covering wrong."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "I was wrong"
----
-
 # I was wrong
 
 **Channel**: Theo - t3․gg

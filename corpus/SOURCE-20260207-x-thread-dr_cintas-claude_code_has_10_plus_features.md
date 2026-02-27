@@ -1,21 +1,3 @@
----
-url: https://x.com/dr_cintas/status/2020201275040641385
-author: "Alvaro Cintas (@dr_cintas)"
-captured_date: 2026-02-14
-id: SOURCE-20260207-017
-original_filename: "20260207-x_thread-claude_code_has_10_plus_features-@dr_cintas.md"
-status: triaged
-platform: x
-format: thread
-creator: dr_cintas
-signal_tier: tactical
-topics: [claude-code, developer-tools, tutorial, reference]
-teleology: reference
-notebooklm_category: claude-code
-aliases: ["Alvaro Cintas - Claude Code Hidden Features"]
-synopsis: "Repository overview explaining 10+ Claude Code features most users never touch: Skills, Subagents, Memory, Hooks, and MCP servers. Covers when to use each feature and how to set them up properly."
-key_insights: ["Most Claude Code users only use basic chat and miss Skills, Subagents, Memory, Hooks, and MCP servers entirely", "Each feature has specific use cases — understanding when to use each one prevents overcomplication", "A single reference repo can serve as the setup guide for all advanced Claude Code features"]
----
 # Claude Code: 10+ Hidden Features Explained
 
 Claude Code has 10+ features most people never touch.

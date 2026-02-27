@@ -1,21 +1,3 @@
----
-url: https://x.com/NickSpisak_/status/2020579444067573850
-author: "Nick Spisak (@NickSpisak_)"
-captured_date: 2026-02-13
-id: SOURCE-20260208-008
-original_filename: "20260208-x_article-the_only_ai_agent_architecture_guide_youll_ever_need-@nickspiska_.md"
-status: triaged
-platform: x
-format: article
-creator: nickspiska_
-signal_tier: strategic
-topics: [ai-agents, ai-engineering, framework, tutorial]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Nick Spisak - AI Agent Architecture Guide"]
-synopsis: "Comprehensive architecture guide for AI agent systems covering design patterns, coordination mechanisms, and system architecture decisions. Positioned as a definitive reference."
-key_insights: ["Agent architecture requires deliberate design decisions about coordination, memory, and tool access", "A comprehensive guide can consolidate scattered knowledge across dozens of partial tutorials", "Architecture patterns for agents are standardizing enough for definitive documentation"]
----
 # The Only AI Agent Architecture Guide You'll Ever Need
 
 (Description: Article header image with title "The Only AI Agent Architecture Guide You'll Ever Need" in large text with "AI Agent Architecture" highlighted in green. Subtitle reads "Built by a 15-year software veteran. Tested on real client stacks." Right side shows a pyramid diagram labeled "The Six-Layer Agent Stack" with layers for AGENT HARNESS, LLM, SKILLS, SESSION & MEMORY, TOOLS, and DATA.)

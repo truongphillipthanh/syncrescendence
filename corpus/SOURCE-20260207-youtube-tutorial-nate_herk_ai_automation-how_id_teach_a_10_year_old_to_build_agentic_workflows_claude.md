@@ -1,39 +1,3 @@
----
-id: SOURCE-20260207-147
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "teach"
-  - "year"
-  - "old"
-  - "build"
-  - "agentic"
-creator: "Nate Herk | AI Automation"
-guest: null
-title: "How I’d Teach a 10 Year Old to Build Agentic Workflows (Claude Code)"
-url: "https://www.youtube.com/watch?v=3GAxd90fEE4"
-date_published: 2026-02-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "28m 24s"
-has_transcript: no
-synopsis: "How I’d Teach a 10 Year Old to Build Agentic Workflows (Claude Code) by Nate Herk | AI Automation. A tutorial covering teach, year, old."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How I’d Teach a"
-  - "How I’d Teach a 10 Year"
----
-
 # How I’d Teach a 10 Year Old to Build Agentic Workflows (Claude Code)
 
 **Channel**: Nate Herk | AI Automation

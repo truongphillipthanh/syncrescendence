@@ -1,39 +1,3 @@
----
-id: SOURCE-20251211-864
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "brutal"
-  - "truth"
-  - "female"
-  - "attraction"
-  - "macken"
-creator: "Chris Williamson"
-guest: null
-title: "The Brutal Truth About Female Attraction - Macken Murphy"
-url: "https://www.youtube.com/watch?v=oOIEIEXH_f4"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 41m 35s"
-has_transcript: no
-synopsis: "The Brutal Truth About Female Attraction - Macken Murphy by Chris Williamson. A lecture covering brutal, truth, female."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Brutal Truth About"
-  - "The Brutal Truth About Female Attraction"
----
-
 # The Brutal Truth About Female Attraction - Macken Murphy
 
 **Channel**: Chris Williamson

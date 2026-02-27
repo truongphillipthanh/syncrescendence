@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-770
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "people"
-  - "mistake"
-  - "feelings"
-  - "moral"
-  - "insight"
-creator: "Big Think Clips"
-guest: null
-title: "Why people mistake feelings for moral insight | Alex O'Connor"
-url: "https://www.youtube.com/watch?v=0tRxtfHpVk4"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 30s"
-has_transcript: no
-synopsis: "Why people mistake feelings for moral insight | Alex O'Connor by Big Think Clips. A lecture covering people, mistake, feelings."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Why people mistake feelings"
-  - "Why people mistake feelings for moral"
----
-
 # Why people mistake feelings for moral insight | Alex O'Connor
 
 **Channel**: Big Think Clips

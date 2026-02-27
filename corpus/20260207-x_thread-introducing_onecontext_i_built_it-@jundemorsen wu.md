@@ -1,9 +1,3 @@
----
-url: https://x.com/JundeMorsenWu/status/2020161412593774922
-author: JUNDE WU (@JundeMorsenWu)
-captured_date: 2026-02-14
----
-
 # OneContext: Agent Self-Managed Context Layer
 
 ## Post 1 — Feb 7, 2026

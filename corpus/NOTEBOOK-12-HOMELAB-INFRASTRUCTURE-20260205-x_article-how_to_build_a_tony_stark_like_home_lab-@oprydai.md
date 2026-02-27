@@ -1,9 +1,3 @@
----
-url: https://x.com/oprydai/status/2019418290087723196
-author: Mustafa (@oprydai)
-captured_date: 2026-02-05
----
-
 # How to Build a Tony Stark Like Home-Lab
 
 (Description: Composite image from Marvel films showing Tony Stark working in his lab. Left panel shows illuminated holographic interface panels in blue. Center panel depicts a man in black shirt with the Arc Reactor symbol, working at a bench. Right panel shows additional laboratory equipment and armor suits in the background. The aesthetic emphasizes functional workshop environment with advanced technology integration.)

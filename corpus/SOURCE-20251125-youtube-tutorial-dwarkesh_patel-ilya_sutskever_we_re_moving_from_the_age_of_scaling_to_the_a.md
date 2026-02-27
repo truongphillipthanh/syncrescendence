@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-1003
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "ilya"
-  - "sutskever"
-  - "moving"
-  - "age"
-  - "scaling"
-creator: "Dwarkesh Patel"
-guest: null
-title: "Ilya Sutskever – We're moving from the age of scaling to the age of research"
-url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 36m 4s"
-has_transcript: no
-synopsis: "Ilya Sutskever – We're moving from the age of scaling to the age of research by Dwarkesh Patel. A tutorial covering ilya, sutskever, moving."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Ilya Sutskever – We're"
-  - "Ilya Sutskever – We're moving from"
----
-
 # Ilya Sutskever – We're moving from the age of scaling to the age of research
 
 **Channel**: Dwarkesh Patel

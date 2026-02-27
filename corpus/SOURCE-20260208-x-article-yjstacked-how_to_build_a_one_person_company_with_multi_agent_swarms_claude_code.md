@@ -1,21 +1,3 @@
----
-url: https://x.com/YJstacked/status/2020396417542463546
-author: "YJ (@YJstacked)"
-captured_date: 2026-02-13
-id: SOURCE-20260208-012
-original_filename: "20260208-x_article-how_to_build_a_one_person_company_with_multi_agent_swarms_claude_code-@yjstacked.md"
-status: triaged
-platform: x
-format: article
-creator: yjstacked
-signal_tier: strategic
-topics: [claude-code, ai-agents, entrepreneurship, tutorial]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["YJ - One Person Company Agent Swarms"]
-synopsis: "Guide to building a one-person company with multi-agent swarms in Claude Code, where specialized agents handle different business functions that traditionally require a team."
-key_insights: ["Multi-agent swarms enable one person to operate at team-level capacity", "Specialized agents for different roles create a virtual team structure", "The one-person company with AI agents is becoming a viable business architecture"]
----
 # How to Build a One Person Company with Multi-Agent Swarms (Claude Code)
 
 (Description: A dark sci-fi illustration depicting a central commanding figure with glowing orange/red geometric patterns and energy, surrounded by a futuristic cityscape with multiple human figures in collaborative poses. The word "Claude" appears in the upper right corner. Lightning and dynamic energy elements frame the composition, suggesting coordination and power.)

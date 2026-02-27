@@ -1,9 +1,3 @@
----
-url: https://x.com/livingdevops/status/2020435426457329670
-author: Akhilesh Mishra (@livingdevops)
-captured_date: 2026-02-08
----
-
 # Understanding Forward and Reverse Proxies: A DevOps Deep Dive
 
 Most DevOps engineers have heard of the term "reverse proxy," but few understand what it actually means.

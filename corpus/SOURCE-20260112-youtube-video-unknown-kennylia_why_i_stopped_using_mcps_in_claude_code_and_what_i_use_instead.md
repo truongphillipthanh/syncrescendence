@@ -1,28 +1,3 @@
----
-id: SOURCE-20260112-youtube-video-unknown-kennylia_why_i_stopped_using_mcps_in_claude_code_and_what_i_use_instead
-platform: youtube
-format: video
-creator: unknown
-title: "@kennylia why i stopped using mcps in claude code and what i use instead"
-status: triaged
-original_filename: "20260112-youtube_video-@kennylia-why_i_stopped_using_mcps_in_claude_code_and_what_i_use_instead.md"
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "mcp"
-  - "developer-tools"
-  - "opinion"
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Kenny Liao - Why I Stopped Using MCPs"
-synopsis: "Kenny Liao explains why he stopped using MCP servers in Claude Code and switched to bash scripts and custom tools. MCP adds latency, complexity, and unreliability compared to simple tool scripts that Claude can call directly."
-key_insights:
-  - "MCP servers add unnecessary latency and complexity when simple bash scripts and custom tools achieve the same result more reliably"
-  - "Claude Code can call bash scripts and read their output directly which is simpler than setting up and maintaining MCP server connections"
-  - "The overhead of MCP connection management and protocol parsing is not justified for most tool integrations in solo developer workflows"
-url: "https://www.youtube.com/watch?v=Xs2CkHEpIrM"
----
 [[00:00](http://www.youtube.com/watch?v=Xs2CkHEpIrM&t=0)]
 **KENNY LIAO**: I have been saying this for a while, but there is a massive problem with using Model Context Protocol (MCP) servers right now, especially with Claude Code or other coding agents. That problem is how much context they take up. When I am connected to the seven MCP servers I use on a daily basis, my Claude Code context window is severely impacted. Claude's context window has a 200,000 token limit. With these seven servers, the MCP tools alone consume around 100,000 tokens, or 50% of that total capacity. This is visually represented by stacks of blue token icons taking up half of the graph.
 

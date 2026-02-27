@@ -1,28 +1,3 @@
----
-url: https://x.com/maithra_raghu/status/2024154498961420509
-author: "Maithra Raghu (@maithra_raghu)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-012
-original_filename: "20260218-x_article-the_post_scaling_era_for_frontier_ai-@maithra_raghu.md"
-status: triaged
-platform: x
-format: article
-creator: maithra_raghu
-signal_tier: paradigm
-topics:
-  - gpt
-  - open-source
-  - cost-optimization
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The PostScaling Era for Frontier AI"
-synopsis: "The Post-Scaling Era for Frontier AI Opening The most surprising point from @DarioAmodei's interview on the @dwarkesh_sp podcast was the candid discussion on **what happens when frontier model training costs stop exponentially increasing — and where that leaves the AI labs.** (First time I've heard."
-key_insights:
-  - "The individual models make returns, but the lab is at a deficit as it invests in the next model."
-  - "But exponential increase in training costs can't continue forever — eventually scaling both hits real world capacity constraints and diminishing returns on improving capabilities."
-  - "This has been my top question for the past few years."
----
 # The Post-Scaling Era for Frontier AI
 ## Opening
 The most surprising point from @DarioAmodei's interview on the @dwarkesh_sp podcast was the candid discussion on **what happens when frontier model training costs stop exponentially increasing — and where that leaves the AI labs.** (First time I've heard an AI lab CEO discuss this so explicitly.)

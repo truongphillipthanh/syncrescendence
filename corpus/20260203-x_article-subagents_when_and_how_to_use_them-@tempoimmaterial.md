@@ -1,9 +1,3 @@
----
-url: https://x.com/tempoimmaterial/status/2018735048439021597
-author: alice alexandra moore (@tempoimmaterial)
-captured_date: 2026-02-03
----
-
 # Subagents: When and How to Use Them
 
 (Description: Visual illustration of a bright cyan robot figure with dotted connection lines to robot silhouettes on a dark background, with handwritten-style text reading "Manage subagent chaos")

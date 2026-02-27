@@ -1,24 +1,3 @@
----
-url: https://x.com/dabit3/status/2023986942300627132
-author: "nader dabit (@dabit3)"
-captured_date: 2026-02-20
-id: SOURCE-20260218-005
-original_filename: "20260218-x_article-how_to_build_a_custom_agent_framework_with_pi_the_agent_stack_powering_openclaw-@dabit3.md"
-status: triaged
-platform: x
-format: article
-creator: dabit3
-signal_tier: paradigm
-topics: [ai-engineering, developer-tools, llm-architecture]
-teleology: implement
-notebooklm_category: ai-engineering
-aliases: ["dabit3 - PI agent stack powering OpenClaw"]
-synopsis: "Deep technical walkthrough of PI, the layered agent framework powering OpenClaw. Four layers: pi-ai (multi-provider LLM communication), pi-agent-core (agent loop with tool calling), pi-coding-agent (full coding agent with built-in tools, JSONL session persistence, compaction, extensions), and pi-tui (terminal UI). Covers tool definition with TypeBox schemas, streaming normalization across providers, session branching via JSONL tree structure, and the extension system for modifying agent behavior."
-key_insights:
-  - "PI normalizes all provider streaming formats into a single event set (text_delta, thinking_delta, toolcall_delta, done, error) — write handler once, works with any provider"
-  - "Sessions stored as JSONL with tree structure (id + parentId) enabling branching — navigate to any previous point and continue without losing history, crash-safe via append-only"
-  - "Extensions hook into lifecycle events (context, compaction, tool_call) without the LLM knowing — this is where you put context pruning, permission gating, and custom summarization pipelines"
----
 # How to Build a Custom Agent Framework with PI: The Agent Stack Powering OpenClaw
 (Description: Technical header image featuring a black hand silhouette playing a keyboard against a red and white geometric background, with the PI logo visible in the upper right corner.)
 PI is a toolkit for building AI agents. It's a monorepo of packages that layer on top of each other:

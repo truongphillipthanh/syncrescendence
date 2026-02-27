@@ -1,21 +1,3 @@
----
-url: https://x.com/tomcrawshaw01/status/2019778646043758957
-author: "Tom (@tomcrawshaw01)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-021
-original_filename: "20260206-x_article-how_to_install_and_use_claude_code_agent_teams_complete_guide-@tomcrawshaw01.md"
-status: triaged
-platform: x
-format: article
-creator: tomcrawshaw01
-signal_tier: strategic
-topics: [claude-code, ai-agents, tutorial, best-practices]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["Tom Crawshaw - Agent Teams Complete Guide"]
-synopsis: "Complete installation and usage guide for Claude Code's native agent teams feature (research preview). Covers the difference between sub-agents (quick focused tasks) and agent teams (fully independent sessions with inter-agent communication), when teams add value vs waste tokens, delegate mode to prevent leads from doing work themselves, and current limitations including no session resumption for in-process teammates."
-key_insights: ["Agent teams are fully independent Claude Code sessions that communicate directly with each other, unlike sub-agents which just report back — use teams when workers need to collaborate", "Delegate mode (Shift+Tab) locks the lead agent into coordination-only, preventing it from doing implementation work itself — critical for effective team orchestration", "Sweet spots for agent teams: parallel debugging with competing hypotheses, cross-layer work (frontend/backend/tests), and multi-angle code review — avoid for sequential tasks or same-file edits"]
----
 # How to Install and Use Claude Code Agent Teams (Complete Guide)
 
 (Description: A dark-themed header image displaying the text "AGENT TEAMS" in large white letters. Below the title is a network diagram showing a central orange node with connections to five smaller orange nodes labeled "research", "code", "test", "review", and "display".)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251227-630
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stopped"
-  - "using"
-  - "powerpoint"
-  - "once"
-  - "learned"
-creator: "Dylan Davis"
-guest: null
-title: "I Stopped Using PowerPoint Once I Learned This Claude Method"
-url: "https://www.youtube.com/watch?v=TZ3yYXAz_i8"
-date_published: 2025-12-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 24s"
-has_transcript: no
-synopsis: "I Stopped Using PowerPoint Once I Learned This Claude Method by Dylan Davis. A lecture covering stopped, using, powerpoint."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "I Stopped Using PowerPoint"
-  - "I Stopped Using PowerPoint Once I"
----
-
 # I Stopped Using PowerPoint Once I Learned This Claude Method
 
 **Channel**: Dylan Davis

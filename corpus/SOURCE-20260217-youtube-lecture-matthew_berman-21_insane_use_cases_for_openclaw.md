@@ -1,38 +1,3 @@
----
-id: SOURCE-20260217-040
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "insane"
-  - "use"
-  - "cases"
-  - "openclaw"
-creator: "Matthew Berman"
-guest: null
-title: "21 INSANE Use Cases For OpenClaw..."
-url: "https://www.youtube.com/watch?v=8kNv3rjQaVA"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "33m 44s"
-has_transcript: no
-synopsis: "21 INSANE Use Cases For OpenClaw... by Matthew Berman. A lecture covering insane, use, cases."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "21 INSANE Use Cases"
-  - "21 INSANE Use Cases For OpenClaw..."
----
-
 # 21 INSANE Use Cases For OpenClaw...
 
 **Channel**: Matthew Berman

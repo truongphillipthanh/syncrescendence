@@ -1,32 +1,3 @@
----
-url: https://x.com/heyshrutimishra/status/2015327280911073789
-author: "Shruti (@heyshrutimishra)"
-captured_date: 2026-01-24
-id: SOURCE-20260125-001
-original_filename: "20260125-x_article-i_spent_40_hours_researching_clawdbot_heres_everything_theyre_not_telling_you-@heyshrutimishra.md"
-status: triaged
-platform: x
-format: article
-creator: heyshrutimishra
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - testing
-  - extended-thinking
-  - api
-  - mac-mini
-  - clawdbot
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "I Spent 40 Hours Researching Clawdbot Heres Everything Theyre Not Telling You"
-synopsis: "I Spent 40 Hours Researching Clawdbot. Here's Everything They're Not Telling You Overview Clawdbot is everywhere on X right now. Vague "I automated everything" claims. People calling it "the future" without explaining why. I spent 40 hours deep in the documentation, analyzing use cases, watching tutorials, and reading every implementation guide I could find."
-key_insights:
-  - "**Important caveat:** This isn't magic."
-  - "I Spent 40 Hours Researching Clawdbot."
-  - "Here's Everything They're Not Telling You Overview Clawdbot is everywhere on X right now."
----
 # I Spent 40 Hours Researching Clawdbot. Here's Everything They're Not Telling You
 
 (Description: Hero image showing Clawdbot logo with red mascot character and tagline "THE AI THAT ACTUALLY DOES THINGS" with descriptive text about clearing inbox, sending emails, managing calendar, and checking flights - all from WhatsApp, Telegram, or any chat app already in use)

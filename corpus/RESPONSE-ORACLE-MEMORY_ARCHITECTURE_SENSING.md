@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-110
-topic: Memory Architecture Sensing — file-first sovereignty, Graphiti temporal graph, hybrid three-layer architecture
-status: unprocessed
-collected: 2026-02-23
----
-
 **Oracle RECON – Memory Architecture Directive Executed 2026-02-22**
 
 ### [MEM-001] Sovereign File-First Architecture

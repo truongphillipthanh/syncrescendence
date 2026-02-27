@@ -1,38 +1,3 @@
----
-id: SOURCE-20260206-148
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-  - "gpt"
-  - "codex"
-creator: "Greg Isenberg"
-guest: null
-title: "Claude Opus 4.6 vs GPT-5.3 Codex"
-url: "https://www.youtube.com/watch?v=gmSnQPzoYHA"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "48m 55s"
-has_transcript: no
-synopsis: "Claude Opus 4.6 vs GPT-5.3 Codex by Greg Isenberg. A tutorial covering claude, opus, gpt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Opus 4.6 vs"
-  - "Claude Opus 4.6 vs GPT-5.3 Codex"
----
-
 # Claude Opus 4.6 vs GPT-5.3 Codex
 
 **Channel**: Greg Isenberg

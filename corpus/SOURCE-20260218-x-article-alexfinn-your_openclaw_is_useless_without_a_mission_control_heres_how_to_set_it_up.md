@@ -1,24 +1,3 @@
----
-url: https://x.com/AlexFinn/status/2024169334344679783
-author: "Alex Finn (@AlexFinn)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-001
-original_filename: "20260218-x_article-your_openclaw_is_useless_without_a_mission_control_heres_how_to_set_it_up-@alexfinn.md"
-status: triaged
-platform: x
-format: article
-creator: alexfinn
-signal_tier: tactical
-topics: [ai-agents, developer-tools, workflow-automation]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["alexfinn - OpenClaw mission control setup"]
-synopsis: "Guide to building an OpenClaw-generated Mission Control app (NextJS + Convex) with six components: task board for agent/human task tracking, content pipeline for automated content creation, calendar for scheduled tasks and cron jobs, memory screen with searchable memory logs, team structure for subagent organization, and a visual office view. Includes prompts for building each component."
-key_insights:
-  - "Mission Control is an OpenClaw-generated app that transforms as you use it — the agent builds its own management interface"
-  - "Task board is critical for proactive agent behavior: when the agent can see your tasks, it can take items off your plate autonomously"
-  - "Calendar component solves the common complaint of agents not doing scheduled tasks — provides visibility into whether cron jobs are properly configured"
----
 # Your OpenClaw is Useless Without a Mission Control. Here's How to Set It Up
 (Description: A 3D isometric digital office scene with multiple colorful agent avatars at workstations, displaying various characters labeled with roles like "Developer," "Writer," "Designer," and others working around a central collaborative space with UI panels and code elements visible.)
 The single most powerful way to upgrade your OpenClaw right now is it set up a Mission Control with it.

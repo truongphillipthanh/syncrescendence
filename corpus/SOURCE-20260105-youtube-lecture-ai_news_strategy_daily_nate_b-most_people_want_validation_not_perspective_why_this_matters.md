@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-618
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "most"
-  - "people"
-  - "want"
-  - "validation"
-  - "perspective"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Most People Want Validation, Not Perspective (Why This Matters Now)"
-url: "https://www.youtube.com/watch?v=BaC5FEN2e4Y"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 50s"
-has_transcript: no
-synopsis: "Most People Want Validation, Not Perspective (Why This Matters Now) by AI News & Strategy Daily | Nate B Jones. A lecture covering most, people, want."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Most People Want Validation,"
-  - "Most People Want Validation, Not Perspective"
----
-
 # Most People Want Validation, Not Perspective (Why This Matters Now)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

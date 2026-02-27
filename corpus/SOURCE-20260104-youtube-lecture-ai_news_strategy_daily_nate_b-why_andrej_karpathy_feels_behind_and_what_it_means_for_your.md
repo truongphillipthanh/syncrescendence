@@ -1,39 +1,3 @@
----
-id: SOURCE-20260104-635
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "andrej"
-  - "karpathy"
-  - "feels"
-  - "behind"
-  - "means"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Why Andrej Karpathy Feels "Behind" (And What It Means for Your Career)"
-url: "https://www.youtube.com/watch?v=fyHnGHxGuhI"
-date_published: 2026-01-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 9s"
-has_transcript: no
-synopsis: "Why Andrej Karpathy Feels "Behind" (And What It Means for Your Career) by AI News & Strategy Daily | Nate B Jones. A lecture covering andrej, karpathy, feels."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "Why Andrej Karpathy Feels"
-  - "Why Andrej Karpathy Feels "Behind" (And"
----
-
 # Why Andrej Karpathy Feels "Behind" (And What It Means for Your Career)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

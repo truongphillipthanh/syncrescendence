@@ -1,28 +1,3 @@
----
-url: https://x.com/nateliason/status/2017636775347331276
-author: "Nat Eliason (@nateliason)"
-captured_date: 2026-01-31
-id: SOURCE-20260131-002
-original_filename: "20260131-x_article-agentic_personal_knowledge_management_with_openclaw_para_and_qmd-@nateliason.md"
-status: triaged
-platform: x
-format: article
-creator: nateliason
-signal_tier: strategic
-topics:
-  - ai-agents
-  - obsidian
-  - framework
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Nat Eliason - PARA knowledge management for OpenClaw"
-synopsis: "Guide for giving OpenClaw agents durable, structured memory using the PARA framework (Projects, Areas, Resources, Archives) and atomic facts. Addresses the fundamental problem that most AI assistants have goldfish memory — flat fact lists with no structure, decay, or hierarchy."
-key_insights:
-  - "PARA framework (Projects, Areas, Resources, Archives) provides hierarchical structure for AI agent memory that flat fact lists cannot."
-  - "Atomic facts with structured organization solve the 'repeat yourself constantly' problem across AI conversations."
-  - "The key insight is that AI memory needs decay and hierarchy, not just persistence — old facts should fade in relevance automatically."
----
 # Agentic Personal Knowledge Management with OpenClaw, PARA, and QMD
 
 (Description: Red cartoon lobster mascot wearing blue bow tie and glasses, holding a pencil and open book)

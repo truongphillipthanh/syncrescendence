@@ -1,37 +1,3 @@
----
-id: SOURCE-20260125-349
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "2026"
-  - "going"
-  - "wild"
-creator: "Wes Roth"
-guest: null
-title: "AI in 2026 is going to be wild"
-url: "https://www.youtube.com/watch?v=-0i2ERMGoq4"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 43s"
-has_transcript: no
-synopsis: "AI in 2026 is going to be wild by Wes Roth. A interview covering 2026, going, wild."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI in 2026 is"
-  - "AI in 2026 is going to"
----
-
 # AI in 2026 is going to be wild
 
 **Channel**: Wes Roth

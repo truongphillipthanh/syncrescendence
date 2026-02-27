@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-108
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "use"
-  - "claude"
-  - "cowork"
-  - "better"
-  - "than"
-creator: "Brooke Wright - AI Strategist + Educator"
-guest: null
-title: "How to use Claude Cowork better than 99% of people (full tutorial)"
-url: "https://www.youtube.com/watch?v=oC1e0sqhJew"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 19s"
-has_transcript: no
-synopsis: "How to use Claude Cowork better than 99% of people (full tutorial) by Brooke Wright - AI Strategist + Educator. A tutorial covering use, claude, cowork."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "How to use Claude"
-  - "How to use Claude Cowork better"
----
-
 # How to use Claude Cowork better than 99% of people (full tutorial)
 
 **Channel**: Brooke Wright - AI Strategist + Educator

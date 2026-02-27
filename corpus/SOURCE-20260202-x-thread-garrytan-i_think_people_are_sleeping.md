@@ -1,29 +1,3 @@
----
-url: https://x.com/garrytan/status/2018368128108167344
-author: "Garry Tan (@garrytan)"
-captured_date: 2026-02-14
-id: SOURCE-20260202-012
-original_filename: "20260202-x_thread-i_think_people_are_sleeping-@garrytan.md"
-status: triaged
-platform: x
-format: thread
-creator: garrytan
-signal_tier: strategic
-topics:
-  - ai-engineering
-  - vibe-coding
-  - developer-tools
-  - ruby-on-rails
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Garry Tan - Rails plus Claude Code unlock"
-synopsis: "Argument that Ruby on Rails + Claude Code is an underappreciated combination because Rails' convention-over-configuration philosophy is 'LLM catnip' — standardized file locations, predictable patterns, and opinionated DSLs give LLMs strong structural priors for code generation."
-key_insights:
-  - "Convention-over-configuration frameworks like Rails give LLMs strong structural priors — standardized patterns mean the model knows exactly where code belongs and how it should look."
-  - "Rails' philosophy of 'one right way' aligns perfectly with LLM strengths, making it a better target for AI-assisted development than more flexible frameworks."
-  - "The syntactic sugar that Rails was designed for human developer happiness turns out to be equally beneficial for LLM code generation quality."
----
 I think people are sleeping a bit on how much **Ruby on Rails + Claude Code** is a *"crazy unlock"* - I mean Rails was designed for people who love syntactic sugar, and LLMs are sugar fiends.
 
 (Description: Embedded educational image titled "Convention Over Configuration is LLM Catnip" containing the following content:)

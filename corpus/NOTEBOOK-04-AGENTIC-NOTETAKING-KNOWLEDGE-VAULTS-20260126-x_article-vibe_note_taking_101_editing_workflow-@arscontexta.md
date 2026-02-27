@@ -1,9 +1,3 @@
----
-url: https://x.com/arscontexta/status/2015909609999941965
-author: Heinrich (@arscontexta)
-captured_date: 2026-01-26
----
-
 # Vibe Note-Taking 101: Editing Workflow
 
 (Description: Black-and-white engraving illustration of a bearded scholar in period clothing examining handwritten documents with annotations, surrounded by papers, books, and an ink lamp. The aesthetic evokes classical scholarly editing practices with visible editorial marks and marginalia on the manuscripts.)

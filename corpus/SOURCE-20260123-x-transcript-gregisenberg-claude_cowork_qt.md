@@ -1,29 +1,3 @@
----
-id: SOURCE-undated-012
-title: Claude Cowork Qt
-platform: x
-format: transcript
-creator: gregisenberg
-date_published: "2026-01-23"
-status: triaged
-url: https://x.com/gregisenberg/status/2014808753183309998
-original_filename: research/x-bookmarks/TRANS-gregisenberg-claude_cowork_qt.md
-aliases:
-  - "Greg Isenberg Cowork QT"
-  - "Boris Cherny Podcast QT"
-teleology: contextualize
-notebooklm_category: claude-code
-synopsis: "Greg Isenberg's quote tweet promoting his podcast episode with Boris Cherny (Claude Code creator). Serves as a pointer to the full podcast conversation about Claude Cowork and Claude Code setup. High engagement (849 bookmarks, 103K views) signals strong community interest in creator-level product insights."
-key_insights:
-  - "Creator-explains-to-community format generates exceptional save rates — people treat authoritative product knowledge as reference material"
-  - "The Claude Code vs Claude Cowork distinction is a key architectural concept the community is actively trying to understand"
-  - "Community response included derivative content creation (99 Claude Cowork Use Cases compilation) — expert sharing catalyzes collective intelligence"
-topics:
-  - claude-code
-  - developer-tools
-signal_tier: noise
----
-
 # Claude Cowork + Claude Code Setup (Quote Tweet)
 > **Author**: GREG ISENBERG (@gregisenberg)
 > **Date**: January 23, 2026

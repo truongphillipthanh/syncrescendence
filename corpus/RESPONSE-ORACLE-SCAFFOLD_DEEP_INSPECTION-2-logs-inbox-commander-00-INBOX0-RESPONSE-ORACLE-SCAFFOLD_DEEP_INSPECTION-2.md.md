@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-201
-topic: DC-201 Scaffold Deep Inspection — Session 2 (state files, ARCH- prefix group, verdicts 41–240)
-status: unprocessed
-collected: 2026-02-23
----
-
 Resuming DC-201, session 2. Files completed: 40/528 (S1 orientation + AGENTS.md cross-refs + dash-prefix summary). Picking up from: orchestration/00-ORCHESTRATION/state/ (242 files). Prior scratchpad reviewed: 00-ORCHESTRATION confirmed as de-facto canonical; all AGENTS.md paths resolve only under it; flatness violations isolated to unsanctioned nesting; dispatch topologies complementary and sound.
 
 ## Session 2: State Files Verdicts

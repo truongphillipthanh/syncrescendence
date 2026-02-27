@@ -1,39 +1,3 @@
----
-id: SOURCE-20251210-855
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "releases"
-  - "method"
-  - "claude"
-  - "code"
-creator: "Greg Isenberg"
-guest: null
-title: "Anthropic releases method to 10× Claude Code / Opus 4.5"
-url: "https://www.youtube.com/watch?v=Xob-2a1OnvA"
-date_published: 2025-12-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 7s"
-has_transcript: no
-synopsis: "Anthropic releases method to 10× Claude Code / Opus 4.5 by Greg Isenberg. A lecture covering anthropic, releases, method."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic releases method to"
-  - "Anthropic releases method to 10× Claude"
----
-
 # Anthropic releases method to 10× Claude Code / Opus 4.5
 
 **Channel**: Greg Isenberg

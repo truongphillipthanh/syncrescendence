@@ -1,38 +1,3 @@
----
-id: SOURCE-20260125-310
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "high"
-  - "performers"
-  - "get"
-  - "ahead"
-creator: "HealthyGamerGG"
-guest: null
-title: "How High Performers Get Ahead"
-url: "https://www.youtube.com/watch?v=k0iUzEJQ1so"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 2s"
-has_transcript: no
-synopsis: "How High Performers Get Ahead by HealthyGamerGG. A tutorial covering high, performers, get."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How High Performers Get"
-  - "How High Performers Get Ahead"
----
-
 # How High Performers Get Ahead
 
 **Channel**: HealthyGamerGG

@@ -1,37 +1,3 @@
----
-id: SOURCE-20251106-1157
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "change"
-  - "everything"
-  - "fei"
-creator: "Young and Profiting"
-guest: null
-title: "How AI Will Change Everything! w/ Dr. Fei-Fei Li"
-url: "https://www.youtube.com/watch?v=ru3_O_dM_9s"
-date_published: 2025-11-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "52m 3s"
-has_transcript: no
-synopsis: "How AI Will Change Everything! w/ Dr. Fei-Fei Li by Young and Profiting. A interview covering change, everything, fei."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How AI Will Change"
-  - "How AI Will Change Everything! w/"
----
-
 # How AI Will Change Everything! w/ Dr. Fei-Fei Li
 
 **Channel**: Young and Profiting

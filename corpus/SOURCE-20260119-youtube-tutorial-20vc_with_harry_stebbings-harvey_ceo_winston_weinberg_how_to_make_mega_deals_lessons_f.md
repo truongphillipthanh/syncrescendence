@@ -1,39 +1,3 @@
----
-id: SOURCE-20260119-397
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "harvey"
-  - "ceo"
-  - "winston"
-  - "weinberg"
-  - "make"
-creator: "20VC with Harry Stebbings"
-guest: null
-title: "Harvey CEO Winston Weinberg: How to Make Mega Deals | Lessons from Rabois, Halligan & Grady"
-url: "https://www.youtube.com/watch?v=PhbVnUBmygA"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 13m 24s"
-has_transcript: no
-synopsis: "Harvey CEO Winston Weinberg: How to Make Mega Deals | Lessons from Rabois, Halligan & Grady by 20VC with Harry Stebbings. A tutorial covering harvey, ceo, winston."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Harvey CEO Winston Weinberg:"
-  - "Harvey CEO Winston Weinberg: How to"
----
-
 # Harvey CEO Winston Weinberg: How to Make Mega Deals | Lessons from Rabois, Halligan & Grady
 
 **Channel**: 20VC with Harry Stebbings

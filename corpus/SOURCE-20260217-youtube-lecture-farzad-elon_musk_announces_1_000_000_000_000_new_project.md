@@ -1,39 +1,3 @@
----
-id: SOURCE-20260217-041
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "elon"
-  - "musk"
-  - "announces"
-  - "000"
-  - "new"
-creator: "Farzad"
-guest: null
-title: "Elon Musk Announces $1,000,000,000,000 New Project"
-url: "https://www.youtube.com/watch?v=24sdM1ZC2cw"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 43s"
-has_transcript: no
-synopsis: "Elon Musk Announces $1,000,000,000,000 New Project by Farzad. A lecture covering elon, musk, announces."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Elon Musk Announces $1,000,000,000,000"
-  - "Elon Musk Announces $1,000,000,000,000 New Project"
----
-
 # Elon Musk Announces $1,000,000,000,000 New Project
 
 **Channel**: Farzad

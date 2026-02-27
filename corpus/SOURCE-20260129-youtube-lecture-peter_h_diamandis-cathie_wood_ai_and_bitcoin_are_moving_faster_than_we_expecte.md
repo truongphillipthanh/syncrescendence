@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-249
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "cathie"
-  - "wood"
-  - "bitcoin"
-  - "moving"
-  - "faster"
-creator: "Peter H. Diamandis"
-guest: null
-title: "Cathie Wood: “AI and Bitcoin Are Moving Faster Than We Expected” | EP #226"
-url: "https://www.youtube.com/watch?v=VoW13oUTTV0"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 57m 54s"
-has_transcript: no
-synopsis: "Cathie Wood: “AI and Bitcoin Are Moving Faster Than We Expected” | EP #226 by Peter H. Diamandis. A lecture covering cathie, wood, bitcoin."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Cathie Wood: “AI and"
-  - "Cathie Wood: “AI and Bitcoin Are"
----
-
 # Cathie Wood: “AI and Bitcoin Are Moving Faster Than We Expected” | EP #226
 
 **Channel**: Peter H. Diamandis

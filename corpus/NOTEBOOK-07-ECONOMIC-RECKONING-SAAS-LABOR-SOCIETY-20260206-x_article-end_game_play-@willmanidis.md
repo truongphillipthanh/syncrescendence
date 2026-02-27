@@ -1,9 +1,3 @@
----
-url: https://x.com/WillManidis/status/2019850913599676524
-author: Will Manidis
-captured_date: 2026-02-06
----
-
 # End Game Play
 
 (Description: A dimly lit photograph of two men seated at opposite sides of a chess board. The lighting is warm and dramatic, casting shadows across their faces and the ornate chess pieces. Both figures are dressed formally in dark clothing. The setting appears to be from a historical chess match, with a classical, museum-like atmosphere.)

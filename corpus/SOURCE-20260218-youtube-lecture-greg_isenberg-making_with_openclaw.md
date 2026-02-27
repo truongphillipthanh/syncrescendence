@@ -1,35 +1,3 @@
----
-id: SOURCE-20260218-031
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "making"
-  - "openclaw"
-creator: "Greg Isenberg"
-guest: null
-title: "Making $$$ with OpenClaw"
-url: "https://www.youtube.com/watch?v=i13XK-uUOLQ"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "52m 4s"
-has_transcript: no
-synopsis: "Making $$$ with OpenClaw by Greg Isenberg. A lecture covering making, openclaw."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Making $$$ with OpenClaw"
----
-
 # Making $$$ with OpenClaw
 
 **Channel**: Greg Isenberg

@@ -1,35 +1,3 @@
----
-id: SOURCE-20260115-478
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "subscription"
-  - "h100"
-creator: "Caleb Writes Code"
-guest: null
-title: "AI Subscription vs H100"
-url: "https://www.youtube.com/watch?v=SmYNK0kqaDI"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 11s"
-has_transcript: no
-synopsis: "AI Subscription vs H100 by Caleb Writes Code. A lecture covering subscription, h100."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Subscription vs H100"
----
-
 # AI Subscription vs H100
 
 **Channel**: Caleb Writes Code

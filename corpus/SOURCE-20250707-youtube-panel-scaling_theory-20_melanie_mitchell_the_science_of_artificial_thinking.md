@@ -1,39 +1,3 @@
----
-id: SOURCE-20250707-1114
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "melanie"
-  - "mitchell"
-  - "science"
-  - "artificial"
-  - "thinking"
-creator: "Scaling Theory"
-guest: null
-title: "#20 – Melanie Mitchell: The Science of Artificial Thinking"
-url: "https://www.youtube.com/watch?v=nX_i9fyC5oM"
-date_published: 2025-07-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "41m 44s"
-has_transcript: no
-synopsis: "#20 – Melanie Mitchell: The Science of Artificial Thinking by Scaling Theory. A panel discussion covering melanie, mitchell, science."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "#20 – Melanie Mitchell:"
-  - "#20 – Melanie Mitchell: The Science"
----
-
 # #20 – Melanie Mitchell: The Science of Artificial Thinking
 
 **Channel**: Scaling Theory

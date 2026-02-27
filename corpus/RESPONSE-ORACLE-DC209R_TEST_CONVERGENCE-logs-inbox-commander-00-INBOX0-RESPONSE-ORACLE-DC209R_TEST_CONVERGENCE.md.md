@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-209
-topic: DC-209R Test Convergence — empirical test override, Gemini 2.5 Flash as primary extraction model
-status: unprocessed
-collected: 2026-02-23
----
-
 **# RESPONSE-ORACLE-DC209R_TEST_CONVERGENCE.md**
 
 **Date**: 2026-02-23

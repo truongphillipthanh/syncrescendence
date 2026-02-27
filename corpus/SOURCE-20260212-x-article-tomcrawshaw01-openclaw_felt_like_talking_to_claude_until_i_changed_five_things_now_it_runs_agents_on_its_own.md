@@ -1,33 +1,3 @@
----
-url: https://x.com/tomcrawshaw01/status/2021951399857467820
-author: "Tom (@tomcrawshaw01)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-013
-original_filename: "20260212-x_article-openclaw_felt_like_talking_to_claude_until_i_changed_five_things_now_it_runs_agents_on_its_own-@tomcrawshaw01.md"
-status: triaged
-platform: x
-format: article
-creator: tomcrawshaw01
-signal_tier: tactical
-topics:
-  - ai-agents
-  - deployment
-  - docker
-  - memory-management
-  - extended-thinking
-  - api
-  - security
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "OpenClaw Felt Like Talking To Claude Until I Changed Five Things. Now It Runs Ag"
-  - "OpenClaw Felt Like Talking To Claude Until I Changed Five Things Now It Runs Age"
-synopsis: "OpenClaw Felt Like Talking To Claude Until I Changed Five Things. Now It Runs Agents On Its Own. Your bot has files for personality, memory, and a heartbeat that lets it work without you. Here's how to edit each one, what skills to install, and how to cut API costs by 70%. Most People Install OpenClaw And Never Get Past The Chatbot Stage You install it. Connect it to Telegram."
-key_insights:
-  - "Most People Install OpenClaw And Never Get Past The Chatbot Stage You install it."
-  - "Before You Touch Anything, Lock Down Your Instance (Or Risk Losing Your API Keys) If you installed OpenClaw and didn't secure your connection, stop here."
-  - "This is essentially workplace instructions."
----
 # OpenClaw Felt Like Talking To Claude Until I Changed Five Things. Now It Runs Agents On Its Own.
 
 (Description: Illustration of a red humanoid robot with prominent cyan eyes and small antenna-like protrusions on its head, positioned centrally and standing out from a crowd of smaller, darker red robots with glowing cyan eyes arranged in rows on either side. The scene has a dark, moody color palette with emphasis on the silhouetted figures against a dusky background.)

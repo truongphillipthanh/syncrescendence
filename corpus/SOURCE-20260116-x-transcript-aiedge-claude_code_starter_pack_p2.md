@@ -1,29 +1,3 @@
----
-id: SOURCE-undated-008
-title: Claude Code Starter Pack P2
-platform: x
-format: transcript
-creator: aiedge_
-date_published: "2026-01-16"
-status: triaged
-url: https://x.com/aiedge_/status/2012219230662623372
-original_filename: research/x-bookmarks/TRANS-aiedge_-claude_code_starter_pack_p2.md
-aliases:
-  - "AI Edge - Claude Code Starter Pack P2"
-teleology: implement
-notebooklm_category: claude-code
-synopsis: "Part 2 of Claude Code starter pack covering advanced features, workflow optimizations, and practical tips for getting more out of Claude Code beyond basic setup."
-key_insights:
-  - "Advanced Claude Code features build on basics to create compound productivity gains"
-  - "Workflow optimizations for Claude Code focus on reducing context switching and maximizing agent autonomy"
-  - "Practical tips for daily Claude Code usage patterns shared from experienced users"
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "tutorial"
-signal_tier: tactical
----
-
 # X/Twitter Transcription: @aiedge_ - Claude Code Starter Pack P.2
 
 **Author:** AI Edge (@aiedge_) ✓  

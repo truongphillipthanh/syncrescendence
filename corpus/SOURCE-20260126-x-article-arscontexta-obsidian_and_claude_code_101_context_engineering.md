@@ -1,31 +1,3 @@
----
-url: https://x.com/arscontexta/status/2015585363318743071
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-01-25
-id: SOURCE-20260126-001
-original_filename: "20260126-x_article-obsidian_and_claude_code_101_context_engineering-@arscontexta.md"
-status: triaged
-platform: x
-format: article
-creator: arscontexta
-signal_tier: strategic
-topics:
-  - claude-code
-  - context-management
-  - git
-  - memory-management
-  - extended-thinking
-  - architecture
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Obsidian  Claude Code 101 Context Engineering"
-synopsis: "Obsidian & Claude Code 101: Context Engineering indicating the progressive disclosure layers. On the right, a bearded figure in period clothing holds documents, symbolizing knowledge work and information architecture.) Overview Vibe note-taking works better if you force Claude Code to be selective about what it reads. By default Claude reads full files whenever they seem useful for the task."
-key_insights:
-  - "By default Claude reads full files whenever they seem useful for the task."
-  - "The pattern is called **progressive disclosure**."
-  - "> "queries evolve during search so agents should checkpoint md" This tells you more than "search notes md"."
----
 # Obsidian & Claude Code 101: Context Engineering
 
 (Description: A stylized illustration showing a Renaissance-era scholar figure examining documents alongside layered computational diagrams. The left side displays file tree structures and YAML frontmatter examples. The center shows marked sections with numbered callouts (①②③④) indicating the progressive disclosure layers. On the right, a bearded figure in period clothing holds documents, symbolizing knowledge work and information architecture.)

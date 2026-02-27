@@ -1,38 +1,3 @@
----
-id: SOURCE-20251220-785
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "news"
-  - "headlines"
-  - "one"
-  - "expected"
-creator: "Matt Wolfe"
-guest: null
-title: "AI News: 28 Headlines No One Expected"
-url: "https://www.youtube.com/watch?v=IT8LbiACH_g"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "37m 38s"
-has_transcript: no
-synopsis: "AI News: 28 Headlines No One Expected by Matt Wolfe. A lecture covering news, headlines, one."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI News: 28 Headlines"
-  - "AI News: 28 Headlines No One"
----
-
 # AI News: 28 Headlines No One Expected
 
 **Channel**: Matt Wolfe

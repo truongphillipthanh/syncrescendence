@@ -1,39 +1,3 @@
----
-id: SOURCE-20251226-709
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "steve"
-  - "yegge"
-  - "vibe"
-  - "coding"
-  - "manifesto"
-creator: "Latent Space"
-guest: null
-title: "Steve Yegge's Vibe Coding Manifesto: Why Claude Code Isn't It & What Comes After the IDE"
-url: "https://www.youtube.com/watch?v=zuJyJP517Uw"
-date_published: 2025-12-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "37m 25s"
-has_transcript: no
-synopsis: "Steve Yegge's Vibe Coding Manifesto: Why Claude Code Isn't It & What Comes After the IDE by Latent Space. A lecture covering steve, yegge, vibe."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Steve Yegge's Vibe Coding"
-  - "Steve Yegge's Vibe Coding Manifesto: Why"
----
-
 # Steve Yegge's Vibe Coding Manifesto: Why Claude Code Isn't It & What Comes After the IDE
 
 **Channel**: Latent Space

@@ -1,21 +1,3 @@
----
-url: https://x.com/WillManidis/status/2019850913599676524
-author: Will Manidis
-captured_date: 2026-02-06
-id: SOURCE-20260206-023
-original_filename: "20260206-x_article-end_game_play-@willmanidis.md"
-status: triaged
-platform: x
-format: article
-creator: willmanidis
-signal_tier: paradigm
-topics: [philosophy, consciousness, economics, opinion]
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases: ["Will Manidis - End Game Play"]
-synopsis: "Uses chess history (Kasparov-Karpov 1985 to Carlsen's 2023 retirement) as a lens to argue that simulation has compressed the opening and middlegame of every domain — war, technology, business — causing humanity to skip directly to endgame reasoning. Argues this is a category error: simulating an endgame is not arriving at one. The middlegame is still where complications live, still two thousand years long, and still our vocation."
-key_insights: ["We have confused simulating an endgame with arriving at one — fluency in modeling terminal states creates a false sense of proximity that makes only endgame work feel urgent", "Musk exemplifies terminal endgame reasoning: every middlegame question becomes a bottleneck to eliminate, which works for hardware (SpaceX, Tesla) but breaks for human-AI alignment questions", "The middlegame is not a phase to be recited past — it is where ambiguity lives, where unmodeled complications arise, and where vocation resides"]
----
 # End Game Play
 
 (Description: A dimly lit photograph of two men seated at opposite sides of a chess board. The lighting is warm and dramatic, casting shadows across their faces and the ornate chess pieces. Both figures are dressed formally in dark clothing. The setting appears to be from a historical chess match, with a classical, museum-like atmosphere.)

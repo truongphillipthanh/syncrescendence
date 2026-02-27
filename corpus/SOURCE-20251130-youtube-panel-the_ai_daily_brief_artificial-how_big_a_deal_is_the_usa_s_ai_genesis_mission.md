@@ -1,39 +1,3 @@
----
-id: SOURCE-20251130-960
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "big"
-  - "deal"
-  - "usa"
-  - "genesis"
-  - "mission"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "How Big a Deal is the USA's AI Genesis Mission?"
-url: "https://www.youtube.com/watch?v=5O_iCMqBvH8"
-date_published: 2025-11-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8m 38s"
-has_transcript: no
-synopsis: "How Big a Deal is the USA's AI Genesis Mission? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering big, deal, usa."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "How Big a Deal"
-  - "How Big a Deal is the"
----
-
 # How Big a Deal is the USA's AI Genesis Mission?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-623
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "context"
-  - "graphs"
-  - "next"
-  - "big"
-  - "idea"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Context Graphs: AI's Next Big Idea"
-url: "https://www.youtube.com/watch?v=SVUymPVBvfo"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 17s"
-has_transcript: no
-synopsis: "Context Graphs: AI's Next Big Idea by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering context, graphs, next."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Context Graphs: AI's Next"
-  - "Context Graphs: AI's Next Big Idea"
----
-
 # Context Graphs: AI's Next Big Idea
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

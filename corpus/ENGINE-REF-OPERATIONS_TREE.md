@@ -1,11 +1,3 @@
----
-id: operations-tree
-kind: registry
-scope: repo
-target: repo
-owner: Vanguard
----
-
 # Operations Tree: What Lives Where
 
 Quick reference for engine directory structure.

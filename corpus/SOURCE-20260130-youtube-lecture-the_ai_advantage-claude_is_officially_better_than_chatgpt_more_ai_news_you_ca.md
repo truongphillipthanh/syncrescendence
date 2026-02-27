@@ -1,39 +1,3 @@
----
-id: SOURCE-20260130-230
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "officially"
-  - "better"
-  - "than"
-  - "chatgpt"
-creator: "The AI Advantage"
-guest: null
-title: "Claude is Officially Better Than ChatGPT & More AI News You Can Use"
-url: "https://www.youtube.com/watch?v=rYLWrh6vSMs"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 52s"
-has_transcript: no
-synopsis: "Claude is Officially Better Than ChatGPT & More AI News You Can Use by The AI Advantage. A lecture covering claude, officially, better."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: claude-code
-aliases:
-  - "Claude is Officially Better"
-  - "Claude is Officially Better Than ChatGPT"
----
-
 # Claude is Officially Better Than ChatGPT & More AI News You Can Use
 
 **Channel**: The AI Advantage

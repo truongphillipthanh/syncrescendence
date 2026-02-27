@@ -1,39 +1,3 @@
----
-id: SOURCE-20251220-758
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "bizarre"
-  - "plant"
-  - "doesn"
-  - "photosynthesize"
-  - "pretends"
-creator: "Anton Petrov"
-guest: null
-title: "Bizarre Plant Doesn't Photosynthesize and Pretends to Be a Mushroom"
-url: "https://www.youtube.com/watch?v=rNYckz-Sm-U"
-date_published: 2025-12-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 57s"
-has_transcript: no
-synopsis: "Bizarre Plant Doesn't Photosynthesize and Pretends to Be a Mushroom by Anton Petrov. A lecture covering bizarre, plant, doesn."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: ai-engineering
-aliases:
-  - "Bizarre Plant Doesn't Photosynthesize"
-  - "Bizarre Plant Doesn't Photosynthesize and Pretends"
----
-
 # Bizarre Plant Doesn't Photosynthesize and Pretends to Be a Mushroom
 
 **Channel**: Anton Petrov

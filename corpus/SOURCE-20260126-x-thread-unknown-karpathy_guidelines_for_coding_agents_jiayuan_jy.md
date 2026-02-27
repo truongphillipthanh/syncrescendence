@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-thread-unknown-karpathy_guidelines_for_coding_agents_jiayuan_jy
-platform: x
-format: thread
-creator: unknown
-title: karpathy guidelines for coding agents jiayuan jy
-status: triaged
-original_filename: 20260126-x_thread-karpathy_guidelines_for_coding_agents-jiayuan_jy.md
-url: https://x.com/jiayuan_jy/status/2016000962641723668
-author: "@jiayuan_jy"
-captured_date: 2026-01-26
-signal_tier: strategic
-topics: ""
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Karpathy Guidelines for coding agents
 
 Karpathy Guidelines for coding agents

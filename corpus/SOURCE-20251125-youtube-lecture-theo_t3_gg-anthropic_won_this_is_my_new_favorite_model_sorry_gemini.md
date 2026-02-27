@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-1001
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "won"
-  - "new"
-  - "favorite"
-  - "model"
-creator: "Theo - t3․gg"
-guest: null
-title: "Anthropic won. This is my new favorite model (sorry Gemini…)"
-url: "https://www.youtube.com/watch?v=QzEsYFcaAkY"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 16s"
-has_transcript: no
-synopsis: "Anthropic won. This is my new favorite model (sorry Gemini…) by Theo - t3․gg. A lecture covering anthropic, won, new."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic won. This is"
-  - "Anthropic won. This is my new"
----
-
 # Anthropic won. This is my new favorite model (sorry Gemini…)
 
 **Channel**: Theo - t3․gg

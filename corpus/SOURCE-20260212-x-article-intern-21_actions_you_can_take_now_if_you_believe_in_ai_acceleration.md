@@ -1,29 +1,3 @@
----
-url: https://x.com/intern/status/2022058797229908385
-author: "intern (@intern)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-002
-original_filename: "20260212-x_article-21_actions_you_can_take_now_if_you_believe_in_ai_acceleration-@intern.md"
-status: triaged
-platform: x
-format: article
-creator: intern
-signal_tier: tactical
-topics:
-  - extended-thinking
-  - openai
-  - anthropic
-  - api
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "21 actions you can take now if you believe in AI acceleratio"
-synopsis: "21 actions you can take now if you believe in AI acceleration vs "LIFE PATHS OPEN TO YOU" (blue lines). Left panel labeled "THE PAST" shows a convergent pattern from "you're born" and "your life path" coming together at a vertical dividing line marked "TODAY"."
-key_insights:
-  - "Left panel labeled "THE PAST" shows a convergent pattern from "you're born" and "your life path" coming together at a vertical dividing line marked "TODAY"."
-  - "21 actions you can take now if you believe in AI acceleration vs "LIFE PATHS OPEN TO YOU" (blue lines)."
-  - "What would you do differently starting today?"
----
 # 21 actions you can take now if you believe in AI acceleration
 
 (Description: A two-panel diagram titled "KEY" showing "LIFE PATHS CLOSED TO YOU" (dark/gray lines) vs "LIFE PATHS OPEN TO YOU" (blue lines). Left panel labeled "THE PAST" shows a convergent pattern from "you're born" and "your life path" coming together at a vertical dividing line marked "TODAY". Right panel labeled "AI ACCELERATES" shows divergent paths expanding outward from "your life, today", illustrating how future possibilities multiply with AI acceleration.)

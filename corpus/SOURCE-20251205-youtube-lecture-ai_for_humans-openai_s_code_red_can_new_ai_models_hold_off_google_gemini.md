@@ -1,39 +1,3 @@
----
-id: SOURCE-20251205-924
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "openai"
-  - "code"
-  - "red"
-  - "new"
-  - "models"
-creator: "AI For Humans"
-guest: null
-title: "OpenAI's Code Red: Can New AI Models Hold Off Google Gemini?"
-url: "https://www.youtube.com/watch?v=xAhwjvKthps"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 17s"
-has_transcript: no
-synopsis: "OpenAI's Code Red: Can New AI Models Hold Off Google Gemini? by AI For Humans. A lecture covering openai, code, red."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI's Code Red: Can"
-  - "OpenAI's Code Red: Can New AI"
----
-
 # OpenAI's Code Red: Can New AI Models Hold Off Google Gemini?
 
 **Channel**: AI For Humans

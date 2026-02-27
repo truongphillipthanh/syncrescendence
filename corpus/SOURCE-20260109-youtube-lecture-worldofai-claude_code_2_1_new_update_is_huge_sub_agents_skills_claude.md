@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-528
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "new"
-  - "update"
-  - "huge"
-creator: "WorldofAI"
-guest: null
-title: "Claude Code 2.1 NEW Update IS HUGE! Sub Agents /skills, Claude Canvas, LSPs, & MORE!"
-url: "https://www.youtube.com/watch?v=s0JCE3WCL3s"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 43s"
-has_transcript: no
-synopsis: "Claude Code 2.1 NEW Update IS HUGE! Sub Agents /skills, Claude Canvas, LSPs, & MORE! by WorldofAI. A lecture covering claude, code, new."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code 2.1 NEW"
-  - "Claude Code 2.1 NEW Update IS"
----
-
 # Claude Code 2.1 NEW Update IS HUGE! Sub Agents /skills, Claude Canvas, LSPs, & MORE!
 
 **Channel**: WorldofAI

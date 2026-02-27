@@ -1,37 +1,3 @@
----
-id: SOURCE-20260211-110
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "codex"
-  - "checks"
-  - "work"
-creator: "OpenAI"
-guest: null
-title: "Codex checks its work for you"
-url: "https://www.youtube.com/watch?v=dHCNpcNyoFM"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2m 24s"
-has_transcript: no
-synopsis: "Codex checks its work for you by OpenAI. A lecture covering codex, checks, work."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: coding-tools
-aliases:
-  - "Codex checks its work"
-  - "Codex checks its work for you"
----
-
 # Codex checks its work for you
 
 **Channel**: OpenAI

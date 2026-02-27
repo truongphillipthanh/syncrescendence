@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-138
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "tmux"
-  - "popups"
-  - "secret"
-  - "better"
-  - "workflow"
-creator: "Marco Peluso"
-guest: null
-title: "Tmux Popups: The Secret to a Better Workflow"
-url: "https://www.youtube.com/watch?v=JMl-WZMCMss"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 5s"
-has_transcript: no
-synopsis: "Tmux Popups: The Secret to a Better Workflow by Marco Peluso. A tutorial covering tmux, popups, secret."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "Tmux Popups: The Secret"
-  - "Tmux Popups: The Secret to a"
----
-
 # Tmux Popups: The Secret to a Better Workflow
 
 **Channel**: Marco Peluso

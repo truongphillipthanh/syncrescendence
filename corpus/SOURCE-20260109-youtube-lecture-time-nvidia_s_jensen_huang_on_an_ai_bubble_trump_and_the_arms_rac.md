@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-546
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "jensen"
-  - "huang"
-  - "bubble"
-  - "trump"
-creator: "TIME"
-guest: null
-title: "Nvidia's Jensen Huang on an AI Bubble, Trump, and the Arms Race with China"
-url: "https://www.youtube.com/watch?v=s4haopj2XeA"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 32s"
-has_transcript: no
-synopsis: "Nvidia's Jensen Huang on an AI Bubble, Trump, and the Arms Race with China by TIME. A lecture covering nvidia, jensen, huang."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Nvidia's Jensen Huang on"
-  - "Nvidia's Jensen Huang on an AI"
----
-
 # Nvidia's Jensen Huang on an AI Bubble, Trump, and the Arms Race with China
 
 **Channel**: TIME

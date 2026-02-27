@@ -1,39 +1,3 @@
----
-id: SOURCE-20251112-1101
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "most"
-  - "people"
-  - "miss"
-  - "marcus"
-  - "aurelius"
-creator: "Unsolicited advice"
-guest: null
-title: "What Most People Miss in Marcus Aurelius' Meditations"
-url: "https://www.youtube.com/watch?v=ZJEyvRiHjl8"
-date_published: 2025-11-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "44m 21s"
-has_transcript: no
-synopsis: "What Most People Miss in Marcus Aurelius' Meditations by Unsolicited advice. A lecture covering most, people, miss."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "What Most People Miss"
-  - "What Most People Miss in Marcus"
----
-
 # What Most People Miss in Marcus Aurelius' Meditations
 
 **Channel**: Unsolicited advice

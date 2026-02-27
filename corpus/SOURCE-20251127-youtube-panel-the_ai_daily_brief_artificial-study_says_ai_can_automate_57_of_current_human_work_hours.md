@@ -1,39 +1,3 @@
----
-id: SOURCE-20251127-984
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "study"
-  - "says"
-  - "automate"
-  - "current"
-  - "human"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Study Says AI Can Automate 57% of Current Human Work Hours"
-url: "https://www.youtube.com/watch?v=WPGaIJACR9c"
-date_published: 2025-11-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 53s"
-has_transcript: no
-synopsis: "Study Says AI Can Automate 57% of Current Human Work Hours by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering study, says, automate."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Study Says AI Can"
-  - "Study Says AI Can Automate 57%"
----
-
 # Study Says AI Can Automate 57% of Current Human Work Hours
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

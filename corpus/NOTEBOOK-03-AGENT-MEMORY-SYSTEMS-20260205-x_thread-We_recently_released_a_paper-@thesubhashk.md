@@ -1,9 +1,3 @@
----
-url: https://x.com/thesubhashk/status/2019594242692460942
-author: Subhash Kantamneni (@thesubhashk)
-captured_date: 2026-02-14
----
-
 # Activation Oracles Thread
 
 We recently released a paper on Activation Oracles (AOs), a technique for training LLMs to explain their own neural activations in natural language.

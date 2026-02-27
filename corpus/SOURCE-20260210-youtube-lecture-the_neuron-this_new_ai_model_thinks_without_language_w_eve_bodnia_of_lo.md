@@ -1,39 +1,3 @@
----
-id: SOURCE-20260210-115
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "new"
-  - "model"
-  - "thinks"
-  - "without"
-  - "language"
-creator: "The Neuron"
-guest: null
-title: "This New AI Model Thinks Without Language (w/ Eve Bodnia of Logical Intelligence)"
-url: "https://www.youtube.com/watch?v=rvwBsWDOFIE"
-date_published: 2026-02-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "55m 40s"
-has_transcript: no
-synopsis: "This New AI Model Thinks Without Language (w/ Eve Bodnia of Logical Intelligence) by The Neuron. A lecture covering new, model, thinks."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "This New AI Model"
-  - "This New AI Model Thinks Without"
----
-
 # This New AI Model Thinks Without Language (w/ Eve Bodnia of Logical Intelligence)
 
 **Channel**: The Neuron

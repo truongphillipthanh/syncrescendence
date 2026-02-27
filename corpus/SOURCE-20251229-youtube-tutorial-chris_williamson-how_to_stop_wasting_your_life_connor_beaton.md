@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-693
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "stop"
-  - "wasting"
-  - "life"
-  - "connor"
-  - "beaton"
-creator: "Chris Williamson"
-guest: null
-title: "How to Stop Wasting Your Life - Connor Beaton"
-url: "https://www.youtube.com/watch?v=3MZqj2COk68"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 58m 25s"
-has_transcript: no
-synopsis: "How to Stop Wasting Your Life - Connor Beaton by Chris Williamson. A tutorial covering stop, wasting, life."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Stop Wasting"
-  - "How to Stop Wasting Your Life"
----
-
 # How to Stop Wasting Your Life - Connor Beaton
 
 **Channel**: Chris Williamson

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251001-1104
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "non"
-  - "narrative"
-  - "thinking"
-  - "literally"
-  - "changing"
-creator: "Newel of Knowledge "
-guest: null
-title: ""Non narrative thinking" is literally changing my life"
-url: "https://www.youtube.com/watch?v=kkAcohbmz80"
-date_published: 2025-10-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 48s"
-has_transcript: no
-synopsis: ""Non narrative thinking" is literally changing my life by Newel of Knowledge . A tutorial covering non, narrative, thinking."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - ""Non narrative thinking" is"
-  - ""Non narrative thinking" is literally changing"
----
-
 # "Non narrative thinking" is literally changing my life
 
 **Channel**: Newel of Knowledge 

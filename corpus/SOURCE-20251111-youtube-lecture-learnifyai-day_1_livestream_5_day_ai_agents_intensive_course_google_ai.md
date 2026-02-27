@@ -1,39 +1,3 @@
----
-id: SOURCE-20251111-1155
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "day"
-  - "livestream"
-  - "agents"
-  - "intensive"
-  - "course"
-creator: "LearnifyAI"
-guest: null
-title: "🔴 DAY 1 Livestream - 5-Day AI Agents Intensive Course Google Ai - Agent What is AI Agent"
-url: "https://www.youtube.com/watch?v=QNBIZJHRFHc"
-date_published: 2025-11-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 30s"
-has_transcript: no
-synopsis: "🔴 DAY 1 Livestream - 5-Day AI Agents Intensive Course Google Ai - Agent What is AI Agent by LearnifyAI. A lecture covering day, livestream, agents."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: agents-orchestration
-aliases:
-  - "🔴 DAY 1 Livestream"
-  - "🔴 DAY 1 Livestream - 5-Day"
----
-
 # 🔴 DAY 1 Livestream - 5-Day AI Agents Intensive Course Google Ai - Agent What is AI Agent
 
 **Channel**: LearnifyAI

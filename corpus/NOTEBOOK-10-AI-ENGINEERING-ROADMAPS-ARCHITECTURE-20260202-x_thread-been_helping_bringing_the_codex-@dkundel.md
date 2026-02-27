@@ -1,9 +1,3 @@
----
-url: https://x.com/dkundel/status/2018455598267027894
-author: dominik kundel (@dkundel)
-captured_date: 2026-02-14
----
-
 # Codex App Tips and Tricks Thread
 
 Been helping bringing the Codex app to life and at this point I've fully moved from using an IDE and the Codex Extension to working 99.9% of the time exclusively in the Codex app.

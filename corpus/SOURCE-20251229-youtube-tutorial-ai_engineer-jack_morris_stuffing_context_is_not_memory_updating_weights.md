@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-697
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "jack"
-  - "morris"
-  - "stuffing"
-  - "context"
-  - "memory"
-creator: "AI Engineer"
-guest: null
-title: "Jack Morris: Stuffing Context is not Memory, Updating Weights is"
-url: "https://www.youtube.com/watch?v=Jty4s9-Jb78"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 44s"
-has_transcript: no
-synopsis: "Jack Morris: Stuffing Context is not Memory, Updating Weights is by AI Engineer. A tutorial covering jack, morris, stuffing."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Jack Morris: Stuffing Context"
-  - "Jack Morris: Stuffing Context is not"
----
-
 # Jack Morris: Stuffing Context is not Memory, Updating Weights is
 
 **Channel**: AI Engineer

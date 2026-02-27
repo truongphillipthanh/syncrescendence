@@ -1,39 +1,3 @@
----
-id: SOURCE-20251128-971
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "two"
-  - "years"
-  - "left"
-  - "prepare"
-  - "roman"
-creator: "Wes Roth"
-guest: null
-title: "You have TWO YEARS LEFT to prepare  - Dr. Roman Yampolskiy"
-url: "https://www.youtube.com/watch?v=0d727qv_MYs"
-date_published: 2025-11-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 21m 11s"
-has_transcript: no
-synopsis: "You have TWO YEARS LEFT to prepare  - Dr. Roman Yampolskiy by Wes Roth. A interview covering two, years, left."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "You have TWO YEARS"
-  - "You have TWO YEARS LEFT to"
----
-
 # You have TWO YEARS LEFT to prepare  - Dr. Roman Yampolskiy
 
 **Channel**: Wes Roth

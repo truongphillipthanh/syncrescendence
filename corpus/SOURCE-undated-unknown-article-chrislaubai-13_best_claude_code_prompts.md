@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-unknown-article-chrislaubai-13_best_claude_code_prompts
-platform: x
-format: article
-creator: chrislaubai
-title: 13 best claude code prompts
-status: triaged
-original_filename: "2-BuilderTool--2-13_best_claude_code_prompts-@chrislaubai.md"
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 1. The "Contradictions Finder"
 
 Perfect for papers, reports, or long docs.

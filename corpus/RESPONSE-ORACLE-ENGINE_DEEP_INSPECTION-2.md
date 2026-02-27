@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-202
-topic: DC-202 Engine Deep Inspection — Session 2 (DYN/ledger files, verdicts 21–44)
-status: unprocessed
-collected: 2026-02-23
----
-
 **Resuming DC-202, session S2.**
 Files completed: 25/147 (S1 AVATAR/CAP/MODEL/TOOL complete). Picking up from: DYN + Ledgers.  
 

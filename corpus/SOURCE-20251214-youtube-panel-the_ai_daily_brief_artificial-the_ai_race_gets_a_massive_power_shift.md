@@ -1,39 +1,3 @@
----
-id: SOURCE-20251214-810
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "race"
-  - "gets"
-  - "massive"
-  - "power"
-  - "shift"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "The AI Race Gets a Massive Power Shift"
-url: "https://www.youtube.com/watch?v=aeGueDitA4A"
-date_published: 2025-12-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 51s"
-has_transcript: no
-synopsis: "The AI Race Gets a Massive Power Shift by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering race, gets, massive."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The AI Race Gets"
-  - "The AI Race Gets a Massive"
----
-
 # The AI Race Gets a Massive Power Shift
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

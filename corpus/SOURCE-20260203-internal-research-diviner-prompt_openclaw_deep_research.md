@@ -1,27 +1,3 @@
----
-id: SOURCE-20260203-003
-original_filename: PROMPT-DIVINER-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: diviner
-signal_tier: tactical
-topics:
-  - ai-agents
-  - openclaw
-  - research
-  - orchestration
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Diviner prompt - OpenClaw deep research medley"
-synopsis: "Research prompt dispatched from Ajna to Diviner (Gemini Web) as DIGESTOR — technical spec extraction and long-context analysis for the OpenClaw research medley."
-url: internal
-key_insights:
-  - "Diviner's digestor role leverages Gemini's long-context window for extracting technical specifications from large documentation."
-  - "The prompt documents role-specialization of each AI model based on its architectural strengths."
-  - "Parallel research dispatch to 5 models creates redundancy and cross-validation across different model biases."
----
 # PROMPT-DIVINER-20260203-openclaw_deep_research
 
 **From**: Ajna (OpenClaw, M1 Mac mini)

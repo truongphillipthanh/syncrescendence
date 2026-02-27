@@ -1,31 +1,3 @@
----
-url: https://x.com/PeterDiamandis/status/2024324617490616397
-author: "Peter H. Diamandis, MD (@PeterDiamandis)"
-captured_date: 2026-02-18
-id: SOURCE-20260219-011
-original_filename: "20260219-x_article-the_lobster_revolution_why_24_7_ai_agents_just_changed_everything-@peterdiamandis.md"
-status: triaged
-platform: x
-format: article
-creator: peterdiamandis
-signal_tier: strategic
-topics:
-  - ai-agents
-  - extended-thinking
-  - gemini
-  - openai
-  - anthropic
-  - benchmarks
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "The Lobster Revolution Why 247 AI Agents Just Changed Everything"
-synopsis: "The Lobster Revolution: Why 24/7 AI Agents Just Changed Everything Math is cooked. Probably gone (or significantly re-invented) within 24 months. But here's what nobody's telling you: this isn't a crisis. It's the biggest opportunity in human history – if you understand what just happened. Last week, a single developer with a side project outcompeted every AI lab on the planet."
-key_insights:
-  - "Here's the insight that matters: when these curves get close to 100%, they look like diminishing returns."
-  - "OpenAI just published research discovering new scattering amplitudes in particle physics: problems physicists assumed were zero and never bothered checking."
-  - "The Lobster Revolution: Why 24/7 AI Agents Just Changed Everything Math is cooked."
----
 # The Lobster Revolution: Why 24/7 AI Agents Just Changed Everything
 (Description: Futuristic digital visualization featuring a glowing blue brain with neural network patterns, flanked by pink upward trending arrows labeled "EXPONENTIAL AI GROWTH" on both sides. Dark background with circuit board elements and two humanoid figures standing before illuminated spheres.)
 Math is cooked. Physics is next. Your job? Probably gone (or significantly re-invented) within 24 months.

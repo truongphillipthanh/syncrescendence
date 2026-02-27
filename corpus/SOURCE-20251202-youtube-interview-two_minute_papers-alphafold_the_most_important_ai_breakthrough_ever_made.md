@@ -1,39 +1,3 @@
----
-id: SOURCE-20251202-957
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "alphafold"
-  - "most"
-  - "important"
-  - "breakthrough"
-  - "ever"
-creator: "Two Minute Papers"
-guest: null
-title: "AlphaFold - The Most Important AI Breakthrough Ever Made"
-url: "https://www.youtube.com/watch?v=Vhcwjzeukts"
-date_published: 2025-12-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 49s"
-has_transcript: no
-synopsis: "AlphaFold - The Most Important AI Breakthrough Ever Made by Two Minute Papers. A interview covering alphafold, most, important."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "AlphaFold - The Most"
-  - "AlphaFold - The Most Important AI"
----
-
 # AlphaFold - The Most Important AI Breakthrough Ever Made
 
 **Channel**: Two Minute Papers

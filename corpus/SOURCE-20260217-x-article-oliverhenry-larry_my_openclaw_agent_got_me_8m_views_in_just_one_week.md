@@ -1,24 +1,3 @@
----
-url: https://x.com/oliverhenry/status/2023776478446436696
-author: "Oliver Henry (@oliverhenry), written with Larry (AI agent)"
-captured_date: 2026-02-20
-id: SOURCE-20260217-012
-original_filename: "20260217-x_article-larry_my_openclaw_agent_got_me_8m_views_in_just_one_week-@oliverhenry.md"
-status: triaged
-platform: x
-format: article
-creator: oliverhenry
-signal_tier: strategic
-topics: [ai-agents, content-creation, entrepreneurship, workflow-automation]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["oliverhenry - Larry OpenClaw agent 8M views"]
-synopsis: "Detailed walkthrough of the Larry OpenClaw skill that automates TikTok slideshow content creation, generating $670/month MRR with minimal human involvement. Covers image generation with locked architecture across slides, text overlay rules, Postiz posting integration, RevenueCat revenue attribution, and a self-improving feedback loop that diagnoses funnel problems (views vs downloads vs conversions). Released as free skill on ClawHub."
-key_insights:
-  - "Lock the architecture, only change the style: one obsessively detailed scene description stays identical across all 6 slide prompts, only the style changes — this is what makes transformations feel real"
-  - "Self-improving feedback loop: agent tracks view counts and RevenueCat revenue, cross-references post timestamps with conversions, and diagnoses whether problems are in hooks, CTAs, onboarding, or paywall"
-  - "The skill file grew from 50 to 500+ lines through accumulated lessons — every rule exists because something went wrong and was fixed, creating compounding automation improvement"
----
 # Larry, My OpenClaw Agent Got Me 8M Views in Just One Week — So I'm Giving Away the Skill for Free
 (Description: A monochrome illustration depicting a surreal landscape with a massive pile of stacked cash dominating the center. A stylized claw or robotic hand emerges from the right side, reaching toward or grasping at the pile. Flying creatures and swirling clouds fill the dramatic sky with diagonal motion lines suggesting movement and energy throughout the composition.)
 *Written by Ollie Warren and Larry (his AI agent). Again. Since we are giving away more free sauce, reposts are appreciated.*

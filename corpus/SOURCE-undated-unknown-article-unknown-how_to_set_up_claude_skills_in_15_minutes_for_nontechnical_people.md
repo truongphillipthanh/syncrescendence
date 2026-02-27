@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-unknown-article-unknown-how_to_set_up_claude_skills_in_15_minutes_for_nontechnical_people
-platform: unknown
-format: article
-creator: unknown
-title: how to set up claude skills in 15 minutes for nontechnical people
-status: triaged
-original_filename: 2-BuilderTool--3-how_to_set_up_claude_skills_in_15_minutes_for_nontechnical_people.md
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: claude-code
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # How to Set Up Claude Skills in <15 Minutes (for Non-Technical People)
 
 **Other**

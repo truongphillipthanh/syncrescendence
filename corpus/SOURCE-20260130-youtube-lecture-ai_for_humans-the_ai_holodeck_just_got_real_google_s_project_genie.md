@@ -1,39 +1,3 @@
----
-id: SOURCE-20260130-232
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "holodeck"
-  - "just"
-  - "got"
-  - "real"
-  - "google"
-creator: "AI For Humans"
-guest: null
-title: "The AI Holodeck Just Got Real: Google's Project Genie"
-url: "https://www.youtube.com/watch?v=sGeQUo-VDTw"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "53m 42s"
-has_transcript: no
-synopsis: "The AI Holodeck Just Got Real: Google's Project Genie by AI For Humans. A lecture covering holodeck, just, got."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The AI Holodeck Just"
-  - "The AI Holodeck Just Got Real:"
----
-
 # The AI Holodeck Just Got Real: Google's Project Genie
 
 **Channel**: AI For Humans

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251218-803
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "livestream"
-  - "indy"
-  - "johar"
-  - "civilizational"
-  - "optioneering"
-creator: "The Long Now Foundation"
-guest: null
-title: "LIVESTREAM | Indy Johar |  Civilizational Optioneering"
-url: "https://www.youtube.com/watch?v=AT6fWX4CbhA"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 24m 16s"
-has_transcript: no
-synopsis: "LIVESTREAM | Indy Johar |  Civilizational Optioneering by The Long Now Foundation. A lecture covering livestream, indy, johar."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "LIVESTREAM | Indy Johar"
-  - "LIVESTREAM | Indy Johar | Civilizational"
----
-
 # LIVESTREAM | Indy Johar |  Civilizational Optioneering
 
 **Channel**: The Long Now Foundation

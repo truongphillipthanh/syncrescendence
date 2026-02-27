@@ -1,37 +1,3 @@
----
-id: SOURCE-20251204-942
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "experiment"
-  - "end"
-  - "hype"
-creator: "Wes Roth"
-guest: null
-title: "this experiment could END the AI hype"
-url: "https://www.youtube.com/watch?v=EWAUutf9xKQ"
-date_published: 2025-12-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 54s"
-has_transcript: no
-synopsis: "this experiment could END the AI hype by Wes Roth. A interview covering experiment, end, hype."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "this experiment could END"
-  - "this experiment could END the AI"
----
-
 # this experiment could END the AI hype
 
 **Channel**: Wes Roth

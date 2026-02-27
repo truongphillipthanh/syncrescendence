@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-191
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "stop"
-  - "prompting"
-  - "build"
-  - "design"
-  - "app"
-creator: "Marketing Against the Grain"
-guest: null
-title: "Stop Prompting: Build an AI "Design App" Instead (Demo)"
-url: "https://www.youtube.com/watch?v=uGIQQDD5CvQ"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "39m 13s"
-has_transcript: no
-synopsis: "Stop Prompting: Build an AI "Design App" Instead (Demo) by Marketing Against the Grain. A lecture covering stop, prompting, build."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "Stop Prompting: Build an"
-  - "Stop Prompting: Build an AI "Design"
----
-
 # Stop Prompting: Build an AI "Design App" Instead (Demo)
 
 **Channel**: Marketing Against the Grain

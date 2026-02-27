@@ -1,29 +1,3 @@
----
-url: https://x.com/tankots/status/2022068761009041902
-author: "Tanay Kothari (@tankots)"
-captured_date: 2026-02-12
-id: SOURCE-20260212-010
-original_filename: "20260212-x_article-how_to_build_a_product_people_cant_stop_using-@tankots.md"
-status: triaged
-platform: x
-format: article
-creator: tankots
-signal_tier: tactical
-topics:
-  - context-management
-  - extended-thinking
-  - product-development
-  - startup
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "How to build a product people cant stop using"
-synopsis: "How to build a product people can't stop using 99% of consumer products fail for the same reason. It's one thing to build a product people will use, but it's another to build something people can't live without. My most recent company (voice-to-text AI) recently reached **100,000+ concurrent daily active users** and over **10 billion words dictated**."
-key_insights:
-  - "The most important realization following this idea is this: **You can only change one behavior at a time.** This is the most expensive lesson in consumer."
-  - "Hardware should be an upgrade, not a leap of faith."
-  - "How to build a product people can't stop using 99% of consumer products fail for the same reason."
----
 # How to build a product people can't stop using
 (Description: Movie scene featuring four young men gathered around a laptop computer in what appears to be a basement or office setting with warm overhead lighting. They are intently focused on the screen. The aesthetic is cinematic with golden-toned lighting and suggests collaboration or problem-solving.)
 99% of consumer products fail for the same reason.

@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-article-armanhezarkhani-the_complete_guide_vibe_coding_versus_ai_engineering
-platform: x
-format: article
-creator: armanhezarkhani
-title: the complete guide vibe coding versus ai engineering
-status: triaged
-original_filename: "20260126-x_article-the_complete_guide_vibe_coding_versus_ai_engineering-@armanhezarkhani.md"
-url: "https://x.com/ArmanHezarkhani/status/2015803108706656530"
-author: "Arman Hezarkhaki (@ArmanHezarkhani)"
-captured_date: "2026-02-04"
-signal_tier: strategic
-topics: ""
-teleology: contextualize
-notebooklm_category: vibe-coding
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # The Complete Guide: Vibe Coding versus AI Engineering
 
 ![Hero image with illustrated design featuring an orange circle with fork-like elements on the left and a pink/salmon circle with interface elements on the right, set against a dark background with geometric patterns. Text overlay reads: "The Complete Guide: Vibe Coding versus AI Engineering - Both very useful, but very different"](Description: Colorful abstract illustration with two prominent circles—one orange with minimalist design elements, one pink with UI-like motifs—against a dark hexagonal grid background, accompanied by the article title in large white serif font)

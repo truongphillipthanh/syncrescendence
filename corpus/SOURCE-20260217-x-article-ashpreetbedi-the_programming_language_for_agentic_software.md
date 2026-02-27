@@ -1,24 +1,3 @@
----
-url: https://x.com/ashpreetbedi/status/2023563296440267176
-author: "Ashpreet Bedi (@ashpreetbedi)"
-captured_date: 2026-02-20
-id: SOURCE-20260217-002
-original_filename: "20260217-x_article-the_programming_language_for_agentic_software-@ashpreetbedi.md"
-status: triaged
-platform: x
-format: article
-creator: ashpreetbedi
-signal_tier: strategic
-topics: [ai-engineering, llm-architecture, developer-tools, philosophy]
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases: ["ashpreetbedi - programming language for agentic software"]
-synopsis: "Argues every computing era develops its own programming language and the agentic era needs one with new primitives (agents, teams, memory, knowledge, tools), a new execution engine, and a new runtime. Identifies three new requirements: interaction model (streaming/iteration), governance model (approval hierarchies), and trust model (guardrails/evals). Positions Agno as this language."
-key_insights:
-  - "Agentic software breaks the fundamental 'same input, same output' contract that software has had for decades"
-  - "Three new capabilities needed: interaction (streaming as default), governance (approval hierarchies in agent definitions), trust (guardrails and evals as runtime semantics)"
-  - "Each computing era gets the language it needs — COBOL for mainframes, C for systems, Python for iteration, and now agent-native primitives for the agentic era"
----
 # The Programming Language for Agentic Software
 (Description: A minimalist design illustration featuring layered geometric shapes, including stacked plates or cards with small icons representing AI/computational elements. At the top is a curved element suggesting an AI brain or neural pathway. The design uses a light/white background with gray line-work in an isometric perspective style. Text overlaid reads "Programming Language For Agentic Software".)
 Every era of computing develops its own programming language.

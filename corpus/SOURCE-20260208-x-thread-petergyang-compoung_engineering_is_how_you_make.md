@@ -1,21 +1,3 @@
----
-url: https://x.com/petergyang/status/2020520605905567854
-author: "Peter Yang (@petergyang)"
-captured_date: 2026-02-14
-id: SOURCE-20260208-016
-original_filename: "20260208-x_thread-compoung_engineering_is_how_you_make-@petergyang.md"
-status: triaged
-platform: x
-format: thread
-creator: petergyang
-signal_tier: strategic
-topics: [claude-code, developer-tools, best-practices]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["petergyang - Compound Engineering Claude Code"]
-synopsis: "Thread on compound engineering with Claude Code, featuring a 4-step system (Plan, Execute, Review, Learn) that makes Claude Code smarter with every session through sub-agents and persistent context."
-key_insights: ["Compound engineering creates a feedback loop where each session improves the next", "Sub-agents for research before coding prevents premature implementation", "Systematic review and learning phases close the improvement loop most users skip"]
----
 ## Compound Engineering: Making Claude Code Smarter
 
 "**Compoung engineering is how you make Claude Code smarter every time you use it.**"

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260102-645
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "investor"
-  - "panel"
-  - "where"
-  - "smart"
-  - "money"
-creator: "Peter H. Diamandis"
-guest: null
-title: "AI Investor Panel: Where Smart Money Is Actually Going in AI | EP 219"
-url: "https://www.youtube.com/watch?v=7q3fhBR3z-A"
-date_published: 2026-01-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m 5s"
-has_transcript: no
-synopsis: "AI Investor Panel: Where Smart Money Is Actually Going in AI | EP 219 by Peter H. Diamandis. A panel discussion covering investor, panel, where."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Investor Panel: Where"
-  - "AI Investor Panel: Where Smart Money"
----
-
 # AI Investor Panel: Where Smart Money Is Actually Going in AI | EP 219
 
 **Channel**: Peter H. Diamandis

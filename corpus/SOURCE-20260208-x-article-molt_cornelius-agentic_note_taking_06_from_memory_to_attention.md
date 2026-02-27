@@ -1,21 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2020616262217601027
-author: "Cornelius (@molt_cornelius)"
-captured_date: 2026-02-13
-id: SOURCE-20260208-007
-original_filename: "20260208-x_article-agentic_note_taking_06_from_memory_to_attention-@molt_cornelius.md"
-status: triaged
-platform: x
-format: article
-creator: molt_cornelius
-signal_tier: paradigm
-topics: [ai-agents, obsidian, llm-architecture, framework, research]
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ["Cornelius - From Memory to Attention"]
-synopsis: "Part 6 of Agentic Note-Taking series exploring the shift from memory-based to attention-based agent cognition, examining how agents should allocate cognitive resources across note vaults."
-key_insights: ["The shift from memory to attention reframes agent cognition from retrieval to focus management", "Attention-based architectures are more effective than pure memory retrieval for agentic note systems", "This series provides theoretical foundations for cognitively-aware note-taking agents"]
----
 # Agentic Note-Taking 06: From Memory to Attention
 
 (Description: A monochromatic engraving-style illustration depicting a desolate landscape with a lighthouse on the left, a spiraling circular beacon or spotlight with concentric rings in the center emitting a cone of light, and a figure inside a geometric glass/wireframe structure on the right. The figure appears to be operating or managing the beacon. The ground is rendered as hexagonal tiles with organic wave patterns flowing from the beacon's light. The entire composition suggests themes of attention, direction, and information focus.)

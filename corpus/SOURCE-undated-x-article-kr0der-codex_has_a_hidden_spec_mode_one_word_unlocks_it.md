@@ -1,19 +1,3 @@
----
-id: SOURCE-undated-x-article-kr0der-codex_has_a_hidden_spec_mode_one_word_unlocks_it
-platform: x
-format: article
-creator: kr0der
-title: codex has a hidden spec mode one word unlocks it
-status: triaged
-original_filename: "codex_has_a_hidden_spec_mode_one_word_unlocks_it-@kr0der.md"
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: coding-tools
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 Codex planning felt underwhelming.
 "Make a plan" gave me 6-7 bullet points. This was fine for small tasks but made it hard to review plans for long tasks.
 But then I randomly wrote "make a spec" in one of my prompts, and this changed everything.

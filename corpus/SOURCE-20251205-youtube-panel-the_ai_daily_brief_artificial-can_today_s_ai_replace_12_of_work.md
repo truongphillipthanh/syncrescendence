@@ -1,37 +1,3 @@
----
-id: SOURCE-20251205-914
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "today"
-  - "replace"
-  - "work"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Can Today's AI Replace 12% of Work?"
-url: "https://www.youtube.com/watch?v=aNifWzsFOq8"
-date_published: 2025-12-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 42s"
-has_transcript: no
-synopsis: "Can Today's AI Replace 12% of Work? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering today, replace, work."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Can Today's AI Replace"
-  - "Can Today's AI Replace 12% of"
----
-
 # Can Today's AI Replace 12% of Work?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

@@ -1,9 +1,3 @@
----
-url: https://x.com/gdb/status/2019566641491963946
-author: Greg Brockman (@gdb)
-captured_date: 2026-02-05
----
-
 # Software Development Renaissance: OpenAI's Agentic Development Strategy
 
 **Software development is undergoing a renaissance in front of our eyes.** If you haven't used the tools recently, you likely are underestimating what you're missing. Since December, there's been a step function improvement in what tools like Codex can do. Some great engineers at OpenAI yesterday told me that their job has fundamentally changed since December. Prior to then, they could use Codex for unit tests; now it writes essentially all the code and does a great deal of their operations and debugging. Not everyone has yet made that leap, but it's usually because of factors besides the capability of the model.

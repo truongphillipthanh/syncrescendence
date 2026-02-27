@@ -1,27 +1,3 @@
----
-id: SOURCE-20260203-001
-original_filename: PROMPT-AUGUR-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: augur
-signal_tier: tactical
-topics:
-  - ai-agents
-  - openclaw
-  - research
-  - orchestration
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Augur prompt - OpenClaw deep research medley"
-synopsis: "Research prompt dispatched from Ajna to Augur (Perplexity) as part of a 5-stream parallel research medley on OpenClaw. Augur's role is VERIFIER — citation-backed intelligence gathering."
-url: internal
-key_insights:
-  - "The medley pattern dispatches the same research topic to 5 different AI models in parallel, each with a specialized role."
-  - "Augur's verifier role leverages Perplexity's strength in sourced information retrieval."
-  - "This prompt artifact documents the multi-agent research coordination pattern used by the Syncrescendence constellation."
----
 # PROMPT-AUGUR-20260203-openclaw_deep_research
 
 **From**: Ajna (OpenClaw, M1 Mac mini)

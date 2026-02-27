@@ -1,37 +1,3 @@
----
-id: SOURCE-20251101-1145
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "improve"
-  - "focus"
-  - "permanently"
-creator: "Justin Sung"
-guest: null
-title: "How To Improve Your Focus Permanently"
-url: "https://www.youtube.com/watch?v=9ktV_AaHbmY"
-date_published: 2025-11-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 26s"
-has_transcript: no
-synopsis: "How To Improve Your Focus Permanently by Justin Sung. A lecture covering improve, focus, permanently."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How To Improve Your"
-  - "How To Improve Your Focus Permanently"
----
-
 # How To Improve Your Focus Permanently
 
 **Channel**: Justin Sung

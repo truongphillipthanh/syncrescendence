@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-812
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "big"
-  - "ideas"
-  - "begin"
-  - "here"
-  - "sergey"
-creator: "Stanford University School of Engineering"
-guest: null
-title: "Big ideas begin here: Sergey Brin at Stanford"
-url: "https://www.youtube.com/watch?v=0nlNX94FcUE"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 10m 30s"
-has_transcript: no
-synopsis: "Big ideas begin here: Sergey Brin at Stanford by Stanford University School of Engineering. A interview covering big, ideas, begin."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Big ideas begin here:"
-  - "Big ideas begin here: Sergey Brin"
----
-
 # Big ideas begin here: Sergey Brin at Stanford
 
 **Channel**: Stanford University School of Engineering

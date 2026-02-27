@@ -1,9 +1,3 @@
----
-url: https://x.com/spacepixel/status/2015967798636556777
-author: pixel (@spacepixel)
-captured_date: 2026-02-04
----
-
 # The Three-Layer Memory System Upgrade for Clawdbot
 
 (Description: A futuristic digital illustration showing a holographic crab-bot with glowing blue and purple energy connecting to a knowledge network. On the left is a stack of leather-bound books labeled "OLD STATIC MEMORY." The crab's claws extend toward a dynamic network diagram with interconnected nodes labeled PEOPLE, COMPANIES, PROJECTS, and WEEKLY SYNTHESIS, illustrating the transformation from static to dynamic memory systems.)

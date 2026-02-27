@@ -1,39 +1,3 @@
----
-id: SOURCE-20260217-037
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "saga"
-  - "zuckerberg"
-  - "begged"
-  - "developer"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "The OpenClaw Saga: Zuckerberg Begged This Developer to Join Meta. He Said No. Here's Who Got Him."
-url: "https://www.youtube.com/watch?v=5IzPLjqkFaE"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 51s"
-has_transcript: no
-synopsis: "The OpenClaw Saga: Zuckerberg Begged This Developer to Join Meta. He Said No. Here's Who Got Him. by AI News & Strategy Daily | Nate B Jones. A lecture covering openclaw, saga, zuckerberg."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The OpenClaw Saga: Zuckerberg"
-  - "The OpenClaw Saga: Zuckerberg Begged This"
----
-
 # The OpenClaw Saga: Zuckerberg Begged This Developer to Join Meta. He Said No. Here's Who Got Him.
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

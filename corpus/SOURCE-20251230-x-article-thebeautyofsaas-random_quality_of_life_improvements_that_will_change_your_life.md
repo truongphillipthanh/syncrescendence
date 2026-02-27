@@ -1,29 +1,3 @@
----
-url: https://x.com/thebeautyofsaas/status/2006104228381721052
-author: "BOSS (@thebeautyofsaas)"
-captured_date: 2026-02-20
-id: SOURCE-20251230-001
-original_filename: "20251230-x_article-random_quality_of_life_improvements_that_will_change_your_life-@thebeautyofsaas.md"
-status: triaged
-platform: x
-format: article
-creator: thebeautyofsaas
-signal_tier: tactical
-topics:
-  - "career"
-  - "philosophy"
-  - "best-practices"
-  - "opinion"
-teleology: inspire
-notebooklm_category: career-growth
-aliases:
-  - "BOSS - Quality of Life Improvements"
-synopsis: "Comprehensive lifestyle optimization guide covering walking, silence, sleep, time-money calculations, curiosity protection, AI for personal health research, and the case against retirement. Practical framework for prioritizing health over time over money."
-key_insights:
-  - "Prioritize health then time then money: without health you have no time, without time you have no money, they build sequentially"
-  - "Calculate the cost of your time by dividing income by hours to determine whether delegating tasks is worth it: a simple framework for outsourcing decisions"
-  - "Use AI to cross-reference specific health data (bloodwork) against curated materials (books, research) for personalized actionable advice rather than generic searches"
----
 # Random Quality Of Life Improvements That Will Change Your Life
 Bringing you a random list of things (activities, protocols, items) that will improve your life. Prepare yourself… 25 min reading time.
 (Description: Two silhouetted figures running on a beach with warm red and orange color grading, suggesting movement, energy, and vitality in a coastal setting.)

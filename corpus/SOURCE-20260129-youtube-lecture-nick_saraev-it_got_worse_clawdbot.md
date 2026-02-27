@@ -1,36 +1,3 @@
----
-id: SOURCE-20260129-257
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "got"
-  - "worse"
-  - "clawdbot"
-creator: "Nick Saraev"
-guest: null
-title: "It Got Worse (Clawdbot)"
-url: "https://www.youtube.com/watch?v=rPAKq2oQVBs"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 25s"
-has_transcript: no
-synopsis: "It Got Worse (Clawdbot) by Nick Saraev. A lecture covering got, worse, clawdbot."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "It Got Worse (Clawdbot)"
----
-
 # It Got Worse (Clawdbot)
 
 **Channel**: Nick Saraev

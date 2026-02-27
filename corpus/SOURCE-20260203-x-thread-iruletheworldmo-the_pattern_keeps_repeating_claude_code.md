@@ -1,22 +1,3 @@
----
-id: SOURCE-20260203-x-thread-iruletheworldmo-the_pattern_keeps_repeating_claude_code
-platform: x
-format: thread
-creator: iruletheworldmo
-title: the pattern keeps repeating claude code
-status: triaged
-original_filename: "20260203-x_thread-the_pattern_keeps_repeating_claude_code-@iruletheworldmo.md"
-url: https://x.com/iruletheworldmo/status/2018672167647416665
-author: "@iruletheworldmo"
-captured_date: 2026-02-03
-signal_tier: strategic
-topics: ""
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # The Pattern Keeps Repeating: Claude Code & The Everything Agent
 
 the pattern keeps repeating

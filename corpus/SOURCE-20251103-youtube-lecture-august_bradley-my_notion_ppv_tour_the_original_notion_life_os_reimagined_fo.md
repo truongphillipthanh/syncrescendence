@@ -1,39 +1,3 @@
----
-id: SOURCE-20251103-1123
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "notion"
-  - "ppv"
-  - "tour"
-  - "original"
-  - "life"
-creator: "August Bradley"
-guest: null
-title: "My Notion PPV Tour: the original Notion Life OS, reimagined for 2026"
-url: "https://www.youtube.com/watch?v=oPyeiiJyGA8"
-date_published: 2025-11-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 6s"
-has_transcript: no
-synopsis: "My Notion PPV Tour: the original Notion Life OS, reimagined for 2026 by August Bradley. A lecture covering notion, ppv, tour."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "My Notion PPV Tour:"
-  - "My Notion PPV Tour: the original"
----
-
 # My Notion PPV Tour: the original Notion Life OS, reimagined for 2026
 
 **Channel**: August Bradley

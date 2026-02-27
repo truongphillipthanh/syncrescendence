@@ -1,29 +1,3 @@
----
-url: https://x.com/ElevenLabsDevs/status/2018798792485880209
-author: "ElevenLabs Developers (@ElevenLabsDevs)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-013
-original_filename: "20260203-x_article-call_your_openclaw_over_the_phone_using_elevenlabs_agents-@elevenlabsdevs.md"
-status: triaged
-platform: x
-format: article
-creator: elevenlabsdevs
-signal_tier: tactical
-topics:
-  - ai-agents
-  - openclaw
-  - voice
-  - integration
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "ElevenLabs - phone call interface for OpenClaw"
-synopsis: "Guide for adding phone call capability to OpenClaw using ElevenLabs Agents. Enables calling your agent to check on coding tasks, dictate reminders while driving, or get digests — ElevenLabs handles voice orchestration while OpenClaw provides the cognitive backend."
-key_insights:
-  - "Separating voice orchestration (ElevenLabs) from agent cognition (OpenClaw) creates a modular architecture where each system does what it does best."
-  - "Phone-based agent interaction unlocks hands-free and mobile-first use cases that text-based interfaces cannot serve."
-  - "The article is designed to be self-referentially fed to a coding agent for automated implementation — a meta-pattern for technical documentation."
----
 # Call Your OpenClaw over the phone using ElevenLabs Agents
 
 *if you copy this article to your coding agent, it can perform many steps from it for you*

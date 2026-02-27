@@ -1,24 +1,3 @@
----
-url: https://x.com/arscontexta/status/2023957499183829467
-author: "Heinrich (@arscontexta)"
-captured_date: 2026-02-20
-id: SOURCE-20260218-002
-original_filename: "20260218-x_article-skill_graphs_greater_than_skill_md-@arscontexta.md"
-status: triaged
-platform: x
-format: article
-creator: arscontexta
-signal_tier: paradigm
-topics: [knowledge-management, ai-engineering, claude-code, developer-tools]
-teleology: synthesize
-notebooklm_category: claude-code
-aliases: ["arscontexta - skill graphs greater than SKILL.md"]
-synopsis: "Argues that single SKILL.md files cannot capture domain depth — skill graphs (networks of markdown files connected with wikilinks) enable recursive skill discovery, progressive disclosure, and domain understanding. Each node has YAML frontmatter for scanning, wikilinks embedded in prose carry semantic context, and MOCs organize clusters. Arscontexta is a 249-file skill graph that teaches agents to build skill graphs."
-key_insights:
-  - "Skill graphs apply skill discovery recursively: index -> descriptions -> links -> sections -> full content — most decisions happen before reading a single full file"
-  - "Wikilinks embedded in prose carry semantic meaning (when and why to follow), unlike reference-only links — this gives agents contextual traversal paths"
-  - "The difference between an agent that follows instructions and an agent that understands a domain is whether it navigates a knowledge structure vs reads a single file"
----
 # Skill Graphs > SKILL.md
 (Description: A dark-themed network graph visualization showing interconnected nodes with links radiating outward from a central purple node, representing a complex knowledge graph structure with labeled connection points)
 People underestimate the power of structured knowledge. It enables entirely new kinds of applications.

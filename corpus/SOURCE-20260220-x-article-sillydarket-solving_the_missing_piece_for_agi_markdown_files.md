@@ -1,31 +1,3 @@
----
-url: https://x.com/sillydarket/status/2024658475372921243
-author: "Pedro (@sillydarket)"
-captured_date: 2026-02-19
-id: SOURCE-20260220-007
-original_filename: "20260220-x_article-solving_the_missing_piece_for_agi_markdown_files-@sillydarket.md"
-status: triaged
-platform: x
-format: article
-creator: sillydarket
-signal_tier: strategic
-topics:
-  - ai-agents
-  - ai-workflow
-  - context-management
-  - memory-management
-  - extended-thinking
-  - architecture
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Solving the Missing Piece for AGI Markdown files"
-synopsis: "Solving the Missing Piece for AGI: Markdown files ![Article hero image] We don't have the answer. But I think we see a path. For the past few weeks, we've been building memory systems for autonomous agents. Not the flashy kind — no new model architectures, no billion-dollar training runs. Just the quiet, unglamorous question: how does an intelligence keep going over time? What we found surprised us."
-key_insights:
-  - "Can't learn from last month's mistakes."
-  - "Think about what cognition actually needs: You need to **remember things** — facts, decisions, lessons, preferences."
-  - "This lesson contradicts that assumption."
----
 # Solving the Missing Piece for AGI: Markdown files
 ![Article hero image](Description: An ornate, vintage-style illustration in cream and navy tones featuring an intricate serpentine or octopus-like form with multiple tentacles emerging from a cylindrical base. The tentacles are decorated with baroque flourishes and corner ornaments. Behind the central figure is a constellation-like pattern of connected nodes and stars. A compass rose appears in the bottom right corner. The overall aesthetic combines classical engraving style with network visualization elements.)
 We don't have the answer. But I think we see a path.

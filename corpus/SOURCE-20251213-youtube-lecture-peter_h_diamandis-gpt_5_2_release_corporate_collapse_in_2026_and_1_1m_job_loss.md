@@ -1,39 +1,3 @@
----
-id: SOURCE-20251213-840
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gpt"
-  - "release"
-  - "corporate"
-  - "collapse"
-  - "2026"
-creator: "Peter H. Diamandis"
-guest: null
-title: "GPT 5.2 Release, Corporate Collapse in 2026, and 1.1M Job Loss | EP #215"
-url: "https://www.youtube.com/watch?v=z6U-jqHzBqY"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 2m 7s"
-has_transcript: no
-synopsis: "GPT 5.2 Release, Corporate Collapse in 2026, and 1.1M Job Loss | EP #215 by Peter H. Diamandis. A lecture covering gpt, release, corporate."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "GPT 5.2 Release, Corporate"
-  - "GPT 5.2 Release, Corporate Collapse in"
----
-
 # GPT 5.2 Release, Corporate Collapse in 2026, and 1.1M Job Loss | EP #215
 
 **Channel**: Peter H. Diamandis

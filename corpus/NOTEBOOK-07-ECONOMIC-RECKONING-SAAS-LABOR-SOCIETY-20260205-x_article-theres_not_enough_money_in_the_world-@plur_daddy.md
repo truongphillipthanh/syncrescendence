@@ -1,9 +1,3 @@
----
-url: https://x.com/plur_daddy/status/2019522793751347604
-author: plur daddy (@plur_daddy)
-captured_date: 2026-02-13
----
-
 # There's Not Enough Money In The World
 
 (Description: A neon-lit stock exchange building at dusk with bright green and blue signage, featuring the text "STOCK EXCHANGE" prominently displayed, set against a purple and orange sunset sky)

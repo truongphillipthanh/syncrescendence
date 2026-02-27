@@ -1,31 +1,3 @@
----
-id: SOURCE-20250421-x-thread-alexalbert-we_wrote_up_what_weve_learned
-platform: x
-format: thread
-creator: alexalbert
-title: we wrote up what weve learned
-status: triaged
-original_filename: "3-BestPractice_ProTiips--4-20250421-x_thread-we_wrote_up_what_weve_learned-@alexalbert.md"
-url: https://x.com/alexalbert__/status/1914333320877584397
-author: "@alexalbert__"
-captured_date: 2025-04-21
-signal_tier: strategic
-topics:
-  - "claude-code"
-  - "best-practices"
-  - "developer-tools"
-  - "git-workflows"
-  - "ai-engineering"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Alex Albert - Claude Code Best Practices"
-synopsis: "Anthropic employee Alex Albert shares internal Claude Code best practices including CLAUDE.md as hidden gem, explore-plan-code workflow, TDD integration, headless mode for CI, multi-Claude review workflows, and git worktree parallelism."
-key_insights:
-  - "The explore-plan-code workflow dramatically improves quality over letting Claude jump straight to implementation"
-  - "Multi-Claude workflow: one writes code while another independently reviews, catching issues the first missed"
-  - "Git worktrees enable parallel Claude sessions on separate branches with zero merge conflicts"
----
 # Claude Code: Best Practices for Agile Coding
 
 We wrote up what we've learned about using Claude Code internally at Anthropic.

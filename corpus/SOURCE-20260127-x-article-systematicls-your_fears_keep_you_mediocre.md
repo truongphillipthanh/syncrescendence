@@ -1,29 +1,3 @@
----
-id: SOURCE-20260127-x-article-systematicls-your_fears_keep_you_mediocre
-platform: x
-format: article
-creator: systematicls
-title: your fears keep you mediocre
-status: triaged
-original_filename: "20260127-x_article-your_fears_keep_you_mediocre-@systematicls.md"
-url: https://x.com/systematicls/status/2016142964335247797
-author: "sysls (@systematicls)"
-captured_date: 2026-02-04
-signal_tier: tactical
-topics:
-  - philosophy
-  - career
-  - opinion
-teleology: inspire
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "SysLS - fear of failure and success"
-synopsis: "Personal essay arguing that fear of failure and fear of success are the same underlying terror — the fear of discovering what you're actually capable of. Includes the author's poker/startup backstory and his wife's 'you're just a dog' intervention. Draws on Heraclitus and the concept of 'outdated threat models' to reframe fear as a signal of growth opportunity."
-key_insights:
-  - "Fear of failure produces failure with 100% reliability — by not trying, you guarantee the outcome you were trying to avoid."
-  - "Fear of success makes people sabotage themselves at the exact moment of breakthrough, because success would destroy the identity built around being an underdog."
-  - "Confidence is built through accumulated evidence of facing hard things and surviving, not through positive thinking — each time you move toward fear, it loses power."
----
 # Your Fears Keep You Mediocre
 
 (Description: A cosmic black background scattered with white particles and stars. Centered is a large white epsilon (∈) symbol, with bold white sans-serif title text below reading "Your Fears Keep You Mediocre")

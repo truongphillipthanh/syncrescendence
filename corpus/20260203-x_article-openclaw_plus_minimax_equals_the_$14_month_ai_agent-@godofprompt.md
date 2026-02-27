@@ -1,9 +1,3 @@
----
-url: https://x.com/godofprompt/status/2018729045203066912
-author: God of Prompt (@godofprompt)
-captured_date: 2026-02-03
----
-
 # 🔑 OpenClaw + MiniMax = The $14/Month AI Agent
 
 (Description: Comic illustration featuring two anthropomorphic red lobsters. The left lobster displays a cheerful expression with raised claws. The right lobster wears a headband with a star and holds a sword. Blue radial starburst pattern fills the background. Bold white text reads "OpenClaw MiniMax")

@@ -1,39 +1,3 @@
----
-id: SOURCE-20250522-053
-platform: youtube
-format: interview
-cadence: arrhythmic
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: integrated
-chain: intelligence
-topics: [RL_scaling, mechanistic_interpretability, agentic_systems, neuralese, inference_compute, model_capabilities, Anthropic_research]
-creator: Dwarkesh Patel
-guest: Sholto Douglas, Trenton Bricken
-title: "Is RL + LLMs Enough for AGI?"
-url: https://www.youtube.com/watch?v=dwarkesh_sholto_trenton
-date_published: 2025-05-22
-date_processed: 2026-01-02
-date_integrated: 2026-01-02
-processing_function: transcribe_interview
-integrated_into: [CANON-00004, CANON-30400, CANON-30300]
-synopsis: |
-  Anthropic researchers Sholto Douglas (RL scaling) and Trenton Bricken (mechanistic interpretability) discuss the state of AI capabilities in 2025. Key insight: RL has "finally worked" for achieving expert-level performance given clean reward signals (math, code). Current bottleneck is lack of clean reward signals for most tasks. They introduce "neuralese"—the possibility that models think in their own internal language we may not fully capture through human interpretations. Prediction: by end of 2025, software engineering agents doing a day's work for junior engineers.
-key_insights:
-  - "RL in language models has finally worked. We have proof of an algorithm that can give us expert human reliability and performance, given the right feedback loop."
-  - "Two axes: intellectual complexity of task, and time horizon. We've proven peaks of intellectual complexity. Haven't yet demonstrated long-running agentic performance."
-  - "If you can give it a good feedback loop, it's pretty good. If you can't, they struggle."
-  - "By end of 2025: software engineering agents doing close to a day's worth of work for a junior engineer."
-  - "Neuralese: models might develop their own internal language optimized for how they compute, not for how humans read."
-  - "We can identify THAT the model is computing something but not always WHY it chose to compute it that way."
-  - "LLMs are 'baby AGI' because they can reason about things outside their training distribution. AlphaZero can't."
-  - "Inference compute will bottleneck AGI—harder to scale than training compute."
-  - "Taste is fundamentally subjective. For tasks where taste matters, RL doesn't help in the traditional sense."
-  - "DeepSeek shows more efficiency on the table than realized—doesn't break scaling laws but pulls specific levers."
-visual_notes: |
-  Interview format. High technical density. References to Claude Plays Pokemon as real-world agent example. Discussion of DeepSeek efficiency claims. Insider perspective from Anthropic on current frontier.
----
-
 # Sholto Douglas & Trenton Bricken: Is RL + LLMs Enough for AGI?
 
 ## MACROSCOPIC NARRATIVE LENS ALIGNMENT

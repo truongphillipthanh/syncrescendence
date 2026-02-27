@@ -1,24 +1,3 @@
----
-url: https://x.com/LLMJunky/status/2023490752446427440
-author: "am.will (@LLMJunky)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-023
-original_filename: "20260216-x_thread-hell_yeah_subagent_configurability_in-@llmjunky.md"
-status: triaged
-platform: x
-format: thread
-creator: llmjunky
-signal_tier: tactical
-topics: [ai-agents, developer-tools, announcement]
-teleology: reference
-notebooklm_category: coding-tools
-aliases: ["llmjunky - Codex subagent configurability"]
-synopsis: "Announces Codex subagent configurability via TOML config: define custom agents with different models and reasoning levels (planner with high reasoning, explorer with read-only, tester with low reasoning). Enables planning with one model and executing with another."
-key_insights:
-  - "Codex now supports multi-model subagent orchestration via simple TOML config file"
-  - "Role-specific agent profiles: planner (high reasoning), explorer (read-only, fast), tester (low reasoning)"
-  - "Custom instructions files per agent role enable specialized behavior without code changes"
----
 # Subagent Configurability in Codex Launch Thread
 **Hell yeah! Subagent Configurability in Codex will launch tomorrow!**
 Create, define, and launch custom agents with your model / reasoning level of choice with a simple edit to config file.

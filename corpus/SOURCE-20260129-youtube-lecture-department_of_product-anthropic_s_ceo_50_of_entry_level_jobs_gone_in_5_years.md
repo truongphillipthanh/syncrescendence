@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-234
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "ceo"
-  - "entry"
-  - "level"
-  - "jobs"
-creator: "Department of Product"
-guest: null
-title: "Anthropic's CEO: 50% of entry-level jobs gone in 5 years"
-url: "https://www.youtube.com/watch?v=hOvjDxbgiEs"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 24s"
-has_transcript: no
-synopsis: "Anthropic's CEO: 50% of entry-level jobs gone in 5 years by Department of Product. A lecture covering anthropic, ceo, entry."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic's CEO: 50% of"
-  - "Anthropic's CEO: 50% of entry-level jobs"
----
-
 # Anthropic's CEO: 50% of entry-level jobs gone in 5 years
 
 **Channel**: Department of Product

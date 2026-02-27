@@ -1,37 +1,3 @@
----
-id: SOURCE-20260130-231
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "wild"
-  - "rise"
-  - "openclaw"
-creator: "Fireship"
-guest: null
-title: "The wild rise of OpenClaw..."
-url: "https://www.youtube.com/watch?v=ssYt09bCgUY"
-date_published: 2026-01-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "5m 19s"
-has_transcript: no
-synopsis: "The wild rise of OpenClaw... by Fireship. A tutorial covering wild, rise, openclaw."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The wild rise of"
-  - "The wild rise of OpenClaw..."
----
-
 # The wild rise of OpenClaw...
 
 **Channel**: Fireship

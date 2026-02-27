@@ -1,32 +1,3 @@
----
-url: https://x.com/rryssf_/status/2019371384900841539
-author: "Robert Youssef (@rryssf_)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-025
-original_filename: 20260205-x_thread-meta_amazon_deepmind_published_comprehensive-rryssf_.md
-status: triaged
-platform: x
-format: thread
-creator: rryssf_
-signal_tier: strategic
-topics:
-  - agentic-development
-  - context-management
-  - testing
-  - deployment
-  - memory-management
-  - architecture
-  - product-development
-teleology: extract
-notebooklm_category: ai-engineering
-aliases:
-  - "Agentic Reasoning for LLMs What The Survey Doesnt Tell You"
-synopsis: "Agentic Reasoning for LLMs: What The Survey Doesn't Tell You meta, amazon, and deepmind researchers just published a comprehensive survey on "agentic reasoning" for llms. hundreds of citations. i read the whole thing."
-key_insights:
-  - "--- the survey distinguishes two approaches: > in-context reasoning: scales test-time interaction without changing weights > post-training: optimizes via reinforcement learning sounds clean."
-  - "Agentic Reasoning for LLMs: What The Survey Doesn't Tell You meta, amazon, and deepmind researchers just published a comprehensive survey on "agentic reasoning" for llms."
-  - "production --- the number they don't cite: **multi-agent llm systems fail 41-86.7% of the time in production.** not edge cases."
----
 # Agentic Reasoning for LLMs: What The Survey Doesn't Tell You
 
 meta, amazon, and deepmind researchers just published a comprehensive survey on "agentic reasoning" for llms.

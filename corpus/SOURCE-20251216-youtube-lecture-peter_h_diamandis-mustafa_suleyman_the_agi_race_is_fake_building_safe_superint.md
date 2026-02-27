@@ -1,39 +1,3 @@
----
-id: SOURCE-20251216-824
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "mustafa"
-  - "suleyman"
-  - "agi"
-  - "race"
-  - "fake"
-creator: "Peter H. Diamandis"
-guest: null
-title: "Mustafa Suleyman: The AGI Race Is Fake, Building Safe Superintelligence & the Agentic Economy | #216"
-url: "https://www.youtube.com/watch?v=XWGnWcmns_M"
-date_published: 2025-12-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 24m 59s"
-has_transcript: no
-synopsis: "Mustafa Suleyman: The AGI Race Is Fake, Building Safe Superintelligence & the Agentic Economy | #216 by Peter H. Diamandis. A lecture covering mustafa, suleyman, agi."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Mustafa Suleyman: The AGI"
-  - "Mustafa Suleyman: The AGI Race Is"
----
-
 # Mustafa Suleyman: The AGI Race Is Fake, Building Safe Superintelligence & the Agentic Economy | #216
 
 **Channel**: Peter H. Diamandis

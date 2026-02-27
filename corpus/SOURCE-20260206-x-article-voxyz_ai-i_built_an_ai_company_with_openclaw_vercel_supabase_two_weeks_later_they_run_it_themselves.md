@@ -1,21 +1,3 @@
----
-url: https://x.com/Voxyz_ai/status/2019914775061270747
-author: "Vox (@Voxyz_ai)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-022
-original_filename: "20260206-x_article-i_built_an_ai_company_with_openclaw_vercel_supabase_two_weeks_later_they_run_it_themselves-@voxyz_ai.md"
-status: triaged
-platform: x
-format: article
-creator: voxyz_ai
-signal_tier: paradigm
-topics: [ai-agents, ai-engineering, automation, framework, case-study]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Voxyz - Autonomous AI Company Architecture"]
-synopsis: "Detailed architecture for 6 autonomous AI agents running a website end-to-end using OpenClaw + Vercel + Supabase. Documents three critical pitfalls in closed-loop agent systems: race conditions from dual executors, triggers that skip approval flow, and unbounded queue growth when quotas are full. Introduces Cap Gates (reject at proposal entry point), reaction matrices with probabilistic inter-agent triggers, and self-healing stale task recovery."
-key_insights: ["The gap between 'agents can talk' and 'agents run things' is a full execute-feedback-retrigger loop — proposals must flow through a single unified service for approval, cap gates, and mission creation", "Cap Gates reject work at the proposal entry point rather than letting queued steps pile up when quotas are full — reject at the gate, not in the queue", "Probabilistic reaction matrices (e.g. 30% chance Growth analyzes a posted tweet) create more natural-feeling team dynamics than 100% deterministic triggers"]
----
 # I Built an AI Company with OpenClaw + Vercel + Supabase — Two Weeks Later, They Run It Themselves
 
 (Description: Pixel-art illustration titled "THE AI OFFICE" showing 6 colorful robot characters at desks in a bright, modern office with windows, plants, charts on walls, and various workstations. Bots are engaged in different tasks—some at laptops, one at a control panel, others reviewing data.)

@@ -1,22 +1,3 @@
----
-id: SOURCE-20260125-x-article-rubenlaukkonen-multiscale_causality_and_the_meaning_crisis
-platform: x
-format: article
-creator: rubenlaukkonen
-title: multiscale causality and the meaning crisis
-status: triaged
-original_filename: "20260125-x_article-multiscale_causality_and_the_meaning_crisis-@rubenlaukkonen.md"
-url: https://x.com/RubenLaukkonen/status/2015603026976014361
-author: "Ruben Laukkonen (@RubenLaukkonen)"
-captured_date: 2026-02-04
-signal_tier: paradigm
-topics: ""
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Multiscale causality and the meaning crisis
 
 (Description: Abstract digital artwork featuring a silhouetted surfer riding flowing, swirling waves in shades of deep blue, purple, and gold. The composition is layered with organic, circular motifs and spiral patterns throughout. Stars scatter the sky. Smaller textured circles and cellular-like formations populate the lower half, creating a sense of depth and interconnected systems. The overall aesthetic is dreamlike and cosmic, suggesting flow and harmony within nested complexity.)

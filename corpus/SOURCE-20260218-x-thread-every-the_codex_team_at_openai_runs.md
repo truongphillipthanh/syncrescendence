@@ -1,32 +1,3 @@
----
-url: https://x.com/every/status/2024246222241091676
-author: Every
-handle: every
-published_date: Feb 18, 2026
-captured_date: Feb 21, 2026
-post_count: 6
-id: SOURCE-20260218-022
-original_filename: "20260218-x_thread-the_codex_team_at_openai_runs-@every.md"
-status: triaged
-platform: x
-format: thread
-creator: every
-signal_tier: strategic
-topics:
-  - automation
-  - codex
-  - openai
-  - cli-tools
-teleology: contextualize
-notebooklm_category: coding-tools
-aliases:
-  - "The Codex team at OpenAI runs its own coding agent on its ow"
-synopsis: "The Codex team at OpenAI runs its own coding agent on its own codebase The Codex team at OpenAI runs its own coding agent on its own codebase. @danshipper asked @thsottiaux and @ajambrosino what automations and skills they use daily. Here are five of them (some of them run while the team sleeps). --- 2/ Hourly merge-conflict resolver: When multiple people work on the same codebase, changes collide."
-key_insights:
-  - "Ambrosino runs an automation every hour or two that scans for conflicts and quietly resolves them, so code is always ready to ship."
-  - "It picks a random file from the codebase and looks for bugs, uses a random number generator so each run explores a different corner, and catches non-critical bugs nobody would have gone looking for."
-  - "The Codex team at OpenAI runs its own coding agent on its own codebase The Codex team at OpenAI runs its own coding agent on its own codebase."
----
 # The Codex team at OpenAI runs its own coding agent on its own codebase
 The Codex team at OpenAI runs its own coding agent on its own codebase.
 @danshipper asked @thsottiaux and @ajambrosino what automations and skills they use daily. Here are five of them (some of them run while the team sleeps).

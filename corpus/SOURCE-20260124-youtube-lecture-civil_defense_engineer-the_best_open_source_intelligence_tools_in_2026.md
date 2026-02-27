@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-309
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "best"
-  - "open"
-  - "source"
-  - "intelligence"
-  - "tools"
-creator: "Civil Defense Engineer"
-guest: null
-title: "The Best Open Source Intelligence Tools in 2026"
-url: "https://www.youtube.com/watch?v=V10Q_t7Gdho"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "34m 6s"
-has_transcript: no
-synopsis: "The Best Open Source Intelligence Tools in 2026 by Civil Defense Engineer. A lecture covering best, open, source."
-key_insights: []
-visual_notes: null
-teleology: inspire
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Best Open Source"
-  - "The Best Open Source Intelligence Tools"
----
-
 # The Best Open Source Intelligence Tools in 2026
 
 **Channel**: Civil Defense Engineer

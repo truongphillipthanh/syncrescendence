@@ -1,38 +1,3 @@
----
-id: SOURCE-20251203-933
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "some"
-  - "people"
-  - "divine"
-  - "aura"
-creator: "HealthyGamerGG"
-guest: null
-title: "Why Some People Have DIVINE Aura"
-url: "https://www.youtube.com/watch?v=HXP90XxvhTU"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 34s"
-has_transcript: no
-synopsis: "Why Some People Have DIVINE Aura by HealthyGamerGG. A tutorial covering some, people, divine."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why Some People Have"
-  - "Why Some People Have DIVINE Aura"
----
-
 # Why Some People Have DIVINE Aura
 
 **Channel**: HealthyGamerGG

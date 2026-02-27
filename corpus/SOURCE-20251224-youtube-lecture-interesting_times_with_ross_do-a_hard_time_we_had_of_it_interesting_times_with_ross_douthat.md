@@ -1,39 +1,3 @@
----
-id: SOURCE-20251224-734
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "hard"
-  - "time"
-  - "interesting"
-  - "times"
-  - "ross"
-creator: "Interesting Times with Ross Douthat"
-guest: null
-title: "‘A Hard Time We Had of It’ | Interesting Times with Ross Douthat"
-url: "https://www.youtube.com/watch?v=_fkUW_ao4ys"
-date_published: 2025-12-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3m 45s"
-has_transcript: no
-synopsis: "‘A Hard Time We Had of It’ | Interesting Times with Ross Douthat by Interesting Times with Ross Douthat. A lecture covering hard, time, interesting."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "‘A Hard Time We"
-  - "‘A Hard Time We Had of"
----
-
 # ‘A Hard Time We Had of It’ | Interesting Times with Ross Douthat
 
 **Channel**: Interesting Times with Ross Douthat

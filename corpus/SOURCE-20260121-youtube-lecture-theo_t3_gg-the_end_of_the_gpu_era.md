@@ -1,37 +1,3 @@
----
-id: SOURCE-20260121-422
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "end"
-  - "gpu"
-  - "era"
-creator: "Theo - t3․gg"
-guest: null
-title: "The end of the GPU era"
-url: "https://www.youtube.com/watch?v=J8lxHyQmcaI"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 25s"
-has_transcript: no
-synopsis: "The end of the GPU era by Theo - t3․gg. A lecture covering end, gpu, era."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The end of the"
-  - "The end of the GPU era"
----
-
 # The end of the GPU era
 
 **Channel**: Theo - t3․gg

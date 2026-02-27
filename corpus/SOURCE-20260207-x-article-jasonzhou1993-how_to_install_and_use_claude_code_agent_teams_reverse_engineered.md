@@ -1,21 +1,3 @@
----
-url: https://x.com/jasonzhou1993/status/2020086991740891526
-author: "Jason Zhou (@jasonzhou1993)"
-captured_date: 2026-02-13
-id: SOURCE-20260207-009
-original_filename: "20260207-x_article-how_to_install_and_use_claude_code_agent_teams_reverse_engineered-@jasonzhou1993.md"
-status: triaged
-platform: x
-format: article
-creator: jasonzhou1993
-signal_tier: strategic
-topics: [claude-code, ai-agents, ai-engineering, tutorial]
-teleology: extract
-notebooklm_category: claude-code
-aliases: ["Jason Zhou - Agent Teams Reverse Engineered"]
-synopsis: "Reverse-engineering analysis of Claude Code Agent Teams by tracing model calls, inspecting logs, and analyzing filesystem changes. Reveals the actual execution model: 3-5 independent Claude Code instances collaborating through a shared task system with message exchange, fundamentally different from the old sub-agent model."
-key_insights: ["Agent Teams use a fundamentally different execution model from sub-agents — each teammate is a fully independent Claude Code instance with its own context", "The shared filesystem and task system are the coordination primitives, not the conversation thread", "Understanding when Agent Teams are worth using over traditional sub-agents requires analyzing the actual coordination overhead vs parallelism benefit"]
----
 # How to install and use Claude Code Agent Teams (Reverse-engineered)
 
 (Description: Pixel art style header with large orange text reading "AGENT TEAMS" accompanied by three pixelated robot/character icons on the right side)

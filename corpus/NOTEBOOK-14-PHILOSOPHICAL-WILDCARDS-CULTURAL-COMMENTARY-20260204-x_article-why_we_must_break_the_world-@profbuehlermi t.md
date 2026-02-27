@@ -1,9 +1,3 @@
----
-url: https://x.com/ProfBuehlerMIT/status/2019034681711161702
-author: Markus J. Buehler (@ProfBuehlerMIT)
-captured_date: 2026-02-13
----
-
 # Why We Must Break The World
 
 ## The Paradox of Learning Within Closed Systems

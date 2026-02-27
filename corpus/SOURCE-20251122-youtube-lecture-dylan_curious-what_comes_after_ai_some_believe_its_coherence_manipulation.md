@@ -1,39 +1,3 @@
----
-id: SOURCE-20251122-1034
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "comes"
-  - "after"
-  - "some"
-  - "believe"
-  - "coherence"
-creator: "Dylan Curious"
-guest: null
-title: "What Comes After AI? Some Believe It’s “Coherence Manipulation”"
-url: "https://www.youtube.com/watch?v=yp2AIStDZ08"
-date_published: 2025-11-22
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "36m"
-has_transcript: no
-synopsis: "What Comes After AI? Some Believe It’s “Coherence Manipulation” by Dylan Curious. A lecture covering comes, after, some."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "What Comes After AI?"
-  - "What Comes After AI? Some Believe"
----
-
 # What Comes After AI? Some Believe It’s “Coherence Manipulation”
 
 **Channel**: Dylan Curious

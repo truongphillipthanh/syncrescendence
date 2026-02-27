@@ -1,39 +1,3 @@
----
-id: SOURCE-20251209-860
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "bret"
-  - "weinstein"
-  - "humanity"
-  - "just"
-  - "entered"
-creator: "Dr Brian Keating"
-guest: null
-title: "Bret Weinstein: Humanity Just Entered an Evolutionary Trap—and AI Might Finish the Job"
-url: "https://www.youtube.com/watch?v=f15x2UjSSt8"
-date_published: 2025-12-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 26m 25s"
-has_transcript: no
-synopsis: "Bret Weinstein: Humanity Just Entered an Evolutionary Trap—and AI Might Finish the Job by Dr Brian Keating. A interview covering bret, weinstein, humanity."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: career-growth
-aliases:
-  - "Bret Weinstein: Humanity Just"
-  - "Bret Weinstein: Humanity Just Entered an"
----
-
 # Bret Weinstein: Humanity Just Entered an Evolutionary Trap—and AI Might Finish the Job
 
 **Channel**: Dr Brian Keating

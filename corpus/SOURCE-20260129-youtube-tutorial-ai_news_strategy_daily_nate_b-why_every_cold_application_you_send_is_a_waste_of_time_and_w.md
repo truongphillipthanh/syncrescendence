@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-253
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "cold"
-  - "application"
-  - "send"
-  - "waste"
-  - "time"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Why Every Cold Application You Send Is a Waste of Time (And What Actually Works)"
-url: "https://www.youtube.com/watch?v=AoA9h3TjxE0"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 58s"
-has_transcript: no
-synopsis: "Why Every Cold Application You Send Is a Waste of Time (And What Actually Works) by AI News & Strategy Daily | Nate B Jones. A tutorial covering cold, application, send."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Why Every Cold Application"
-  - "Why Every Cold Application You Send"
----
-
 # Why Every Cold Application You Send Is a Waste of Time (And What Actually Works)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

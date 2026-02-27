@@ -1,39 +1,3 @@
----
-id: SOURCE-20260204-183
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "autonomous"
-  - "agents"
-  - "gone"
-  - "too"
-  - "far"
-creator: "Matt Wolfe"
-guest: null
-title: "Autonomous AI Agents Have Gone Too Far!"
-url: "https://www.youtube.com/watch?v=KGHoVptow30"
-date_published: 2026-02-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 52s"
-has_transcript: no
-synopsis: "Autonomous AI Agents Have Gone Too Far! by Matt Wolfe. A lecture covering autonomous, agents, gone."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: agents-orchestration
-aliases:
-  - "Autonomous AI Agents Have"
-  - "Autonomous AI Agents Have Gone Too"
----
-
 # Autonomous AI Agents Have Gone Too Far!
 
 **Channel**: Matt Wolfe

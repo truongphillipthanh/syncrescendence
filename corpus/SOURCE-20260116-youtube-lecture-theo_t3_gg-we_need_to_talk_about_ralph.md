@@ -1,37 +1,3 @@
----
-id: SOURCE-20260116-459
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "need"
-  - "talk"
-  - "ralph"
-creator: "Theo - t3․gg"
-guest: null
-title: "We need to talk about Ralph"
-url: "https://www.youtube.com/watch?v=Yr9O6KFwbW4"
-date_published: 2026-01-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 3s"
-has_transcript: no
-synopsis: "We need to talk about Ralph by Theo - t3․gg. A lecture covering need, talk, ralph."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "We need to talk"
-  - "We need to talk about Ralph"
----
-
 # We need to talk about Ralph
 
 **Channel**: Theo - t3․gg

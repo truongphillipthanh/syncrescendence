@@ -1,21 +1,3 @@
----
-url: https://x.com/asadkkhaliq/status/2019769887087046986
-author: "Asad Khaliq (@asadkkhaliq)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-028
-original_filename: "20260206-x_thread-local_ai_today_is_mostly-@asadkkhaliq.md"
-status: triaged
-platform: x
-format: thread
-creator: asadkkhaliq
-signal_tier: strategic
-topics: [ai-engineering, llm-architecture, opinion]
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases: ["Asad Khaliq - Life At The Edge"]
-synopsis: "Essay arguing that 'local AI' today is mostly about giving models OS-level access to transfer more context to cloud inference, but intelligence is about to diffuse to the edge just as computing did in the 80s-90s. Discusses the rent vs own tradeoff for inference and the coming dance of edge and cloud compute."
-key_insights: ["Current 'local AI' is a misnomer — it mostly means giving cloud models more local context, not running intelligence at the edge", "Intelligence will diffuse to edge devices following the same pattern as computing's mainframe-to-PC transition", "Consumer GPU capability is rapidly closing the gap with frontier models, enabling true edge inference"]
----
 # (essay) Life At The Edge
 
 "Local AI" today is mostly about giving models OS-level access so that more files and context can be transferred to the cloud for inference. But intelligence is about to diffuse to the edge just as computing did in the 80s and 90s

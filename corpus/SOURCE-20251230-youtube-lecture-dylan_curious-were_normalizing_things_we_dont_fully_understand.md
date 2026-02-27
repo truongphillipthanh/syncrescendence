@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-686
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "normalizing"
-  - "things"
-  - "don"
-  - "fully"
-  - "understand"
-creator: "Dylan Curious"
-guest: null
-title: "We’re Normalizing Things We Don’t Fully Understand"
-url: "https://www.youtube.com/watch?v=PlRT1a-DuwA"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 16s"
-has_transcript: no
-synopsis: "We’re Normalizing Things We Don’t Fully Understand by Dylan Curious. A lecture covering normalizing, things, don."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "We’re Normalizing Things We"
-  - "We’re Normalizing Things We Don’t Fully"
----
-
 # We’re Normalizing Things We Don’t Fully Understand
 
 **Channel**: Dylan Curious

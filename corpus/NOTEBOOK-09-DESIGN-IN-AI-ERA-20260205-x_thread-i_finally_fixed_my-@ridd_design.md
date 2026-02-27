@@ -1,9 +1,3 @@
----
-url: https://x.com/ridd_design/status/2019450056735179102
-author: '@ridd_design'
-captured_date: 2026-02-05
----
-
 # I (finally) fixed my biggest problem with AI coding
 
 I can crank out 10+ prototypes a day but somehow sharing my work is harder than its ever been.

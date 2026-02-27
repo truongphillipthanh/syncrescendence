@@ -1,9 +1,3 @@
----
-url: https://x.com/arscontexta/status/2016587691505164749
-author: Heinrich (@arscontexta)
-captured_date: 2026-01-28
----
-
 # Obsidian & Claude Code: Async Hooks for Note History
 
 (Description: Black and white engraving-style illustration depicting a bearded scholar in period clothing examining a large ornate mechanical device resembling an astrolabe or temporal instrument, surrounded by scattered papers, books, and scientific instruments including globes, lamps, and writing implements)

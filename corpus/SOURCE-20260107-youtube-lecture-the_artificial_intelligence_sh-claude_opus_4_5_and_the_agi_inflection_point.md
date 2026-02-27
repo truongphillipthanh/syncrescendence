@@ -1,39 +1,3 @@
----
-id: SOURCE-20260107-569
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-  - "agi"
-  - "inflection"
-  - "point"
-creator: "The Artificial Intelligence Show Podcast"
-guest: null
-title: "Claude Opus 4.5 and the AGI Inflection Point"
-url: "https://www.youtube.com/watch?v=YxGcyf3l-Pw"
-date_published: 2026-01-07
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 8s"
-has_transcript: no
-synopsis: "Claude Opus 4.5 and the AGI Inflection Point by The Artificial Intelligence Show Podcast. A lecture covering claude, opus, agi."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Claude Opus 4.5 and"
-  - "Claude Opus 4.5 and the AGI"
----
-
 # Claude Opus 4.5 and the AGI Inflection Point
 
 **Channel**: The Artificial Intelligence Show Podcast

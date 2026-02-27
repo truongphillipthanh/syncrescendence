@@ -1,39 +1,3 @@
----
-id: SOURCE-20260128-273
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "name"
-  - "change"
-  - "meta"
-  - "new"
-creator: "TBPN"
-guest: null
-title: "Clawdbot’s name change, Meta’s new pricing plan, Tyler’s 21st birthday | Diet TBPN"
-url: "https://www.youtube.com/watch?v=13Nk_edvS98"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 24s"
-has_transcript: no
-synopsis: "Clawdbot’s name change, Meta’s new pricing plan, Tyler’s 21st birthday | Diet TBPN by TBPN. A lecture covering clawdbot, name, change."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawdbot’s name change, Meta’s"
-  - "Clawdbot’s name change, Meta’s new pricing"
----
-
 # Clawdbot’s name change, Meta’s new pricing plan, Tyler’s 21st birthday | Diet TBPN
 
 **Channel**: TBPN

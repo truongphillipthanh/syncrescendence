@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-328
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "zuckerberg"
-  - "taught"
-  - "him"
-  - "beat"
-  - "software"
-creator: "Sajjaad Khader"
-guest: null
-title: "Zuckerberg Taught Him How to Beat 99% of Software Engineers"
-url: "https://www.youtube.com/watch?v=9iIiKh3pdPs"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 26s"
-has_transcript: no
-synopsis: "Zuckerberg Taught Him How to Beat 99% of Software Engineers by Sajjaad Khader. A tutorial covering zuckerberg, taught, him."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Zuckerberg Taught Him How"
-  - "Zuckerberg Taught Him How to Beat"
----
-
 # Zuckerberg Taught Him How to Beat 99% of Software Engineers
 
 **Channel**: Sajjaad Khader

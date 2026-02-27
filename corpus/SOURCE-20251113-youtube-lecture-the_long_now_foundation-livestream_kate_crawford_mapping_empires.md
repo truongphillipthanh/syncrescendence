@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-1149
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "livestream"
-  - "kate"
-  - "crawford"
-  - "mapping"
-  - "empires"
-creator: "The Long Now Foundation"
-guest: null
-title: "LIVESTREAM | Kate Crawford |  Mapping Empires"
-url: "https://www.youtube.com/watch?v=Guiq56fLQV8"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 21m 22s"
-has_transcript: no
-synopsis: "LIVESTREAM | Kate Crawford |  Mapping Empires by The Long Now Foundation. A lecture covering livestream, kate, crawford."
-key_insights: []
-visual_notes: null
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "LIVESTREAM | Kate Crawford"
-  - "LIVESTREAM | Kate Crawford | Mapping"
----
-
 # LIVESTREAM | Kate Crawford |  Mapping Empires
 
 **Channel**: The Long Now Foundation

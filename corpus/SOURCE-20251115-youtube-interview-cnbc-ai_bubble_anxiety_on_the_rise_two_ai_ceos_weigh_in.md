@@ -1,39 +1,3 @@
----
-id: SOURCE-20251115-1095
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "bubble"
-  - "anxiety"
-  - "rise"
-  - "two"
-  - "ceos"
-creator: "CNBC"
-guest: null
-title: "AI Bubble Anxiety On The Rise: Two AI CEOs Weigh In"
-url: "https://www.youtube.com/watch?v=KU57CWWWc3g"
-date_published: 2025-11-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 46s"
-has_transcript: no
-synopsis: "AI Bubble Anxiety On The Rise: Two AI CEOs Weigh In by CNBC. A interview covering bubble, anxiety, rise."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Bubble Anxiety On"
-  - "AI Bubble Anxiety On The Rise:"
----
-
 # AI Bubble Anxiety On The Rise: Two AI CEOs Weigh In
 
 **Channel**: CNBC

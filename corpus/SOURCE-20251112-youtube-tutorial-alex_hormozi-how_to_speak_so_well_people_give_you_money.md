@@ -1,39 +1,3 @@
----
-id: SOURCE-20251112-1129
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "speak"
-  - "well"
-  - "people"
-  - "give"
-  - "money"
-creator: "Alex Hormozi"
-guest: null
-title: "How to Speak So Well People Give You Money"
-url: "https://www.youtube.com/watch?v=sGakuNs9mT4"
-date_published: 2025-11-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 29s"
-has_transcript: no
-synopsis: "How to Speak So Well People Give You Money by Alex Hormozi. A tutorial covering speak, well, people."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Speak So"
-  - "How to Speak So Well People"
----
-
 # How to Speak So Well People Give You Money
 
 **Channel**: Alex Hormozi

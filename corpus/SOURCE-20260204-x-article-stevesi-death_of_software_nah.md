@@ -1,29 +1,3 @@
----
-url: https://x.com/stevesi/status/2019167552794948020
-author: "Steven Sinofsky (@stevesi)"
-captured_date: 2026-02-04
-id: SOURCE-20260204-012
-original_filename: "20260204-x_article-death_of_software_nah-@stevesi.md"
-status: triaged
-platform: x
-format: article
-creator: stevesi
-signal_tier: strategic
-topics:
-  - context-management
-  - extended-thinking
-  - architecture
-  - cli-tools
-teleology: contextualize
-notebooklm_category: ai-engineering
-aliases:
-  - "Death of Software Nah"
-synopsis: "Too much of what is going on is a race to get to a theoretical end state of a whole new world of business and technology. Many pushing this were around for the tail end of the transition to an internet-based economy and are struggling with what appears to be a "compressed timeline," much the way people record disruption as a "moment" versus a journey."
-key_insights:
-  - "The most important thing about the PC is that the first predictions were *de minimis*, followed by the prediction that it would eliminate mainframe computing and the data center."
-  - "The lesson here is that whatever the world thought would end just ended up being vastly larger than anyone thought."
-  - "And the thing that people thought would forever be replaced was not simply legacy but ended up being a key enabler."
----
 # Death of Software. Nah.
 
 (Description: A wide, dynamic image of turbulent water with splashing waves and light blue-white bokeh orbs floating across the frame, evoking flow, movement, and transformation.)

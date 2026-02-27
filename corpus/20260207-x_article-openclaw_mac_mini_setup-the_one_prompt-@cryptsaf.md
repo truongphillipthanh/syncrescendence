@@ -1,9 +1,3 @@
----
-url: https://x.com/CrypSaf/status/2020211635579756905
-author: SafZ (@CrypSaf)
-captured_date: 2026-02-13
----
-
 # OpenClaw Mac Mini Setup - The One Prompt 🦞
 
 (Description: A dark-themed hero image featuring a Mac Mini computer on the left, security lock icon, lightning bolt symbol, and a cartoon lobster emoji on the right. Text overlay reads "GET STARTED / OpenClaw × Mac Mini – The Only Setup Guide You Need" with neon cyan and purple accents.)

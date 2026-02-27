@@ -1,30 +1,3 @@
----
-kind: clarescence
-id: CLARESCENCE-2026-02-11-ontological-metacharacterization-strategic
-title: "Ontological Metacharacterization: Strategic Synthesis + Path to Personal Palantir"
-date: 2026-02-11
-status: executed
-fidelity: strategic
-agent: commander
-passes: 10
-decision_atoms: 7
-linear: SYN-22, SYN-24, SYN-39
-predecessors:
-  - CLARESCENCE-2026-02-04-truth-surfaces-substrate.md
-  - CLARESCENCE-2026-02-05-task-arch-ontology-linear.md
-  - CLARESCENCE-2026-02-05-integration-architecture-strata-alignment.md
-intention_links:
-  - INT-MI19 (Palantir-like ontology — FINAL BOSS)
-  - INT-1612 (Begin ALL automations)
-  - INT-C006 (HighCommand ontology linkage)
-  - INT-C008 (Serious LifeOS/PKM/ontology discussion)
-  - INT-P014 (Tokens are minerals and vespene gas)
-multi_agent:
-  dispatched_to: [adjudicator, cartographer]
-  dispatch_ids: [TASK-20260211-ontology_metacharacterization_audit, TASK-20260211-ontology_corpus_survey_+_gap_analysis]
-corpus_size: "~200KB across 10 files (2 choral prompts + 8 model responses)"
----
-
 # CLARESCENCE: Ontological Metacharacterization — Strategic Synthesis
 
 **Date**: 2026-02-11

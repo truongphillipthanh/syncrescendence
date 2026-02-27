@@ -1,39 +1,3 @@
----
-id: SOURCE-20260212-091
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "smartphone"
-  - "era"
-  - "over"
-  - "one"
-  - "sees"
-creator: "Farzad"
-guest: null
-title: "The Smartphone Era is Over (And No One Sees It Coming)"
-url: "https://www.youtube.com/watch?v=hUBV1avKum0"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 27s"
-has_transcript: no
-synopsis: "The Smartphone Era is Over (And No One Sees It Coming) by Farzad. A lecture covering smartphone, era, over."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Smartphone Era is"
-  - "The Smartphone Era is Over (And"
----
-
 # The Smartphone Era is Over (And No One Sees It Coming)
 
 **Channel**: Farzad

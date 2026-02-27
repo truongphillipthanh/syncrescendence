@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-578
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "transcript"
-  - "method"
-  - "changed"
-  - "2026"
-  - "workflow"
-creator: "Dylan Davis"
-guest: null
-title: "The Transcript Method That Changed My 2026 Workflow (ChatGPT Turns Meetings Into Assets)"
-url: "https://www.youtube.com/watch?v=k9mBvveAzkc"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 13s"
-has_transcript: no
-synopsis: "The Transcript Method That Changed My 2026 Workflow (ChatGPT Turns Meetings Into Assets) by Dylan Davis. A lecture covering transcript, method, changed."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Transcript Method That"
-  - "The Transcript Method That Changed My"
----
-
 # The Transcript Method That Changed My 2026 Workflow (ChatGPT Turns Meetings Into Assets)
 
 **Channel**: Dylan Davis

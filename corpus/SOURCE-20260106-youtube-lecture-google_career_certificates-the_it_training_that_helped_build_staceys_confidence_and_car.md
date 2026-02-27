@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-577
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "training"
-  - "helped"
-  - "build"
-  - "stacey"
-  - "confidence"
-creator: "Google Career Certificates"
-guest: null
-title: "The IT training that helped build Stacey’s confidence and career | Google Career Certificates"
-url: "https://www.youtube.com/watch?v=-w1G89zgYoE"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1m 48s"
-has_transcript: no
-synopsis: "The IT training that helped build Stacey’s confidence and career | Google Career Certificates by Google Career Certificates. A lecture covering training, helped, build."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "The IT training that"
-  - "The IT training that helped build"
----
-
 # The IT training that helped build Stacey’s confidence and career | Google Career Certificates
 
 **Channel**: Google Career Certificates

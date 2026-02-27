@@ -1,32 +1,3 @@
----
-url: https://x.com/manthanguptaa/status/2015780646770323543
-author: "Manthan Gupta (@manthanguptaa)"
-captured_date: 2026-01-26
-id: SOURCE-20260126-006
-original_filename: "20260126-x_article-how_clawdbot_remembers_everything-@manthanguptaa.md"
-status: triaged
-platform: x
-format: article
-creator: manthanguptaa
-signal_tier: tactical
-topics:
-  - ai-agents
-  - prompting
-  - context-management
-  - git
-  - memory-management
-  - gpt
-  - product-development
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How Clawdbot Remembers Everything"
-synopsis: "How Clawdbot Remembers Everything Clawdbot is an open-source personal AI assistant (MIT licensed) created by [Peter Steinberger]( that has quickly gained traction with over 32,600 stars on [GitHub]( at the time of writing this blog."
-key_insights:
-  - "If you've read my previous posts on [ChatGPT memory]( and [Claude memory]( you know I am fascinated by how different AI products approach memory."
-  - "Clawdbot takes a fundamentally different approach: instead of cloud-based, company controlled memory, it keeps everything local, giving users full ownership of their context and skills."
-  - "Unlike ChatGPT or Claude, which run in the cloud, Clawdbot runs locally on your machine and integrates with chat platforms you already use, like Discord, WhatsApp, Telegram, and more."
----
 # How Clawdbot Remembers Everything
 
 Clawdbot is an open-source personal AI assistant (MIT licensed) created by [Peter Steinberger](https://x.com/steipete) that has quickly gained traction with over 32,600 stars on [GitHub](https://github.com/clawdbot/clawdbot) at the time of writing this blog. Unlike ChatGPT or Claude, which run in the cloud, Clawdbot runs locally on your machine and integrates with chat platforms you already use, like Discord, WhatsApp, Telegram, and more.

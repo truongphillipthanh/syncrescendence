@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-517
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "conversation"
-  - "shuo"
-  - "wang"
-  - "founder"
-  - "deel"
-creator: "Relentless"
-guest: null
-title: "My Conversation with Shuo Wang, co-founder of deel"
-url: "https://www.youtube.com/watch?v=ExoQOtqtxX0"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 51m 37s"
-has_transcript: no
-synopsis: "My Conversation with Shuo Wang, co-founder of deel by Relentless. A interview covering conversation, shuo, wang."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "My Conversation with Shuo"
-  - "My Conversation with Shuo Wang, co-founder"
----
-
 # My Conversation with Shuo Wang, co-founder of deel
 
 **Channel**: Relentless

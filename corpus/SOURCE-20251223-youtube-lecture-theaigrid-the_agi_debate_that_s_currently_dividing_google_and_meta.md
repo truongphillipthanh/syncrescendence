@@ -1,39 +1,3 @@
----
-id: SOURCE-20251223-731
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "agi"
-  - "debate"
-  - "currently"
-  - "dividing"
-  - "google"
-creator: "TheAIGRID"
-guest: null
-title: "The AGI Debate That's Currently Dividing Google And Meta"
-url: "https://www.youtube.com/watch?v=nflOt5HOE-k"
-date_published: 2025-12-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 39s"
-has_transcript: no
-synopsis: "The AGI Debate That's Currently Dividing Google And Meta by TheAIGRID. A lecture covering agi, debate, currently."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The AGI Debate That's"
-  - "The AGI Debate That's Currently Dividing"
----
-
 # The AGI Debate That's Currently Dividing Google And Meta
 
 **Channel**: TheAIGRID

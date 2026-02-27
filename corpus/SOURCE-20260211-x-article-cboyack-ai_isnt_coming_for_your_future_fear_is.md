@@ -1,28 +1,3 @@
----
-url: https://x.com/cboyack/status/2021647373571862952
-author: "Connor Boyack (@cboyack)"
-captured_date: 2026-02-13
-id: SOURCE-20260211-003
-original_filename: "20260211-x_article-ai_isnt_coming_for_your_future_fear_is-@cboyack.md"
-status: triaged
-platform: x
-format: article
-creator: cboyack
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - react
-  - inspire-pattern
-teleology: inspire
-notebooklm_category: career-growth
-aliases:
-  - "AI isnt coming for your future Fear is"
-synopsis: "AI isn't coming for your future. One of the most-shared articles on X right now is a warning about AI. Tons of likes, millions of impressions. I read it and, yeah, I shared it. These articles are everywhere. And they're getting more attention than almost anything else on X."
-key_insights:
-  - "AI isn't coming for your future."
-  - "One of the most-shared articles on X right now is a warning about AI."
-  - "Tons of likes, millions of impressions."
----
 # AI isn't coming for your future. Fear is.
 
 (Description: A split-panel engraving showing two contrasting emotional expressions of a man—left panel labeled "THE SEEN" shows horror/fear; right panel labeled "THE UNSEEN" shows optimism/opportunity.)

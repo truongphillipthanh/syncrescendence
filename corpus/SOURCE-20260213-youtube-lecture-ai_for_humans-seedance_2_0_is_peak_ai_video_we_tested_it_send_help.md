@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-090
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "seedance"
-  - "peak"
-  - "video"
-  - "tested"
-  - "send"
-creator: "AI For Humans"
-guest: null
-title: "Seedance 2.0 Is Peak AI Video. We Tested It. Send Help."
-url: "https://www.youtube.com/watch?v=7V-yKuBQxa4"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 43s"
-has_transcript: no
-synopsis: "Seedance 2.0 Is Peak AI Video. We Tested It. Send Help. by AI For Humans. A lecture covering seedance, peak, video."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Seedance 2.0 Is Peak"
-  - "Seedance 2.0 Is Peak AI Video."
----
-
 # Seedance 2.0 Is Peak AI Video. We Tested It. Send Help.
 
 **Channel**: AI For Humans

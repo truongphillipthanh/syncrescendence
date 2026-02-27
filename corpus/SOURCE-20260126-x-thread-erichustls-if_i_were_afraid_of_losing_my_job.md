@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-thread-erichustls-if_i_were_afraid_of_losing_my_job
-platform: x
-format: thread
-creator: erichustls
-title: if i were afraid of losing my job
-status: triaged
-original_filename: "20260126-x_thread-if_i_were_afraid_of_losing_my_job-@erichustls.md"
-url: https://x.com/erichustls/status/2015833498137804986
-author: "Eric Cole (@erichustls)"
-captured_date: 2026-01-26
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: career-growth
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 If I were afraid of losing my job to AI & had 6 months to save myself, here's exactly what I'd do:
 
 - Stop pretending my job is secure

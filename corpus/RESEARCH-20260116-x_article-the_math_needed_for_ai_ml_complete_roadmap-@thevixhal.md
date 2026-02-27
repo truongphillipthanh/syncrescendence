@@ -1,9 +1,3 @@
----
-url: https://x.com/TheVixhal/status/2012140932054106547
-author: vixhaℓ (@TheVixhal)
-captured_date: 2026-01-16
----
-
 # The Math Needed for AI/ML (Complete Roadmap)
 
 (Description: Header image with a surreal, cyberpunk aesthetic featuring three Renaissance-style portrait busts with neon green faces, wearing ornate period clothing. The busts are positioned around vintage computer monitors and connected by a web of lines and colored nodes in blue, purple, and green. Scattered code snippets visible in the upper left corner, including lines with "MATTE.IN" and class definitions. The composition blends classical art with modern technology symbolism.)

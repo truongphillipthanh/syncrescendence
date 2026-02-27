@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-244
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gave"
-  - "claude"
-  - "code"
-  - "whole"
-  - "genome"
-creator: "Nick Saraev"
-guest: null
-title: "I Gave Claude Code My Whole Genome (And It's Amazing)"
-url: "https://www.youtube.com/watch?v=O1ICQworLVc"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "22m 32s"
-has_transcript: no
-synopsis: "I Gave Claude Code My Whole Genome (And It's Amazing) by Nick Saraev. A tutorial covering gave, claude, code."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "I Gave Claude Code"
-  - "I Gave Claude Code My Whole"
----
-
 # I Gave Claude Code My Whole Genome (And It's Amazing)
 
 **Channel**: Nick Saraev

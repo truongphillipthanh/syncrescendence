@@ -1,38 +1,3 @@
----
-id: SOURCE-20251126-982
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "safety"
-  - "expert"
-  - "destroy"
-  - "humanity"
-creator: "Alex O'Connor"
-guest: null
-title: "AI Safety Expert: Will AI Destroy Humanity?"
-url: "https://www.youtube.com/watch?v=MoIpDVF79x8"
-date_published: 2025-11-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 3s"
-has_transcript: no
-synopsis: "AI Safety Expert: Will AI Destroy Humanity? by Alex O'Connor. A lecture covering safety, expert, destroy."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Safety Expert: Will"
-  - "AI Safety Expert: Will AI Destroy"
----
-
 # AI Safety Expert: Will AI Destroy Humanity?
 
 **Channel**: Alex O'Connor

@@ -1,9 +1,3 @@
----
-url: https://x.com/jobergum/status/2018706126842294315
-author: Jo Kristian Bergum (@jobergum)
-captured_date: 2026-02-03
----
-
 # Few things are worth building
 
 (Description: A dramatic landscape painting depicting a solitary figure standing on rocky terrain overlooking turbulent ocean waves crashing against dark cliffs. The sky is moody and overcast, creating an atmosphere of contemplation and challenge.)

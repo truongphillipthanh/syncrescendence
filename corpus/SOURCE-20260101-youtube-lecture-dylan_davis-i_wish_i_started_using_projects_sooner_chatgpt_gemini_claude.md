@@ -1,39 +1,3 @@
----
-id: SOURCE-20260101-655
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "wish"
-  - "started"
-  - "using"
-  - "projects"
-  - "sooner"
-creator: "Dylan Davis"
-guest: null
-title: "I Wish I Started Using "Projects" Sooner (ChatGPT, Gemini, Claude)"
-url: "https://www.youtube.com/watch?v=YMlSKguLbxg"
-date_published: 2026-01-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 49s"
-has_transcript: no
-synopsis: "I Wish I Started Using "Projects" Sooner (ChatGPT, Gemini, Claude) by Dylan Davis. A lecture covering wish, started, using."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "I Wish I Started"
-  - "I Wish I Started Using "Projects""
----
-
 # I Wish I Started Using "Projects" Sooner (ChatGPT, Gemini, Claude)
 
 **Channel**: Dylan Davis

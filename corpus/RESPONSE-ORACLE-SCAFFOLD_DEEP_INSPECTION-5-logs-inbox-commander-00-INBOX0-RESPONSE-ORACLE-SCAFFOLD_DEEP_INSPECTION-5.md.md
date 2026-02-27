@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-201
-topic: DC-201 Scaffold Deep Inspection — Session 5 (dash-prefix dirs, -INBOX/-OUTBOX/-SOVEREIGN verdicts, dispatch topology map)
-status: unprocessed
-collected: 2026-02-23
----
-
 **Resuming DC-201, session 5.** Files completed: 528/528 (orchestration/ layer). Picking up from: dash-prefix directories (-INBOX/, -OUTBOX/, -SOVEREIGN/). Prior scratchpads + team inputs reviewed: all prior layers coherent with 00-ORCHESTRATION as canonical ground truth; pipelines mapped; flatness violations isolated; dispatch topologies already flagged complementary; watch_dispatch.sh calibration holds; no new anomalies from S4 archive reconciliation.
 
 ## Session 5: Dash-Prefix Dirs Verdicts + Dispatch Architecture

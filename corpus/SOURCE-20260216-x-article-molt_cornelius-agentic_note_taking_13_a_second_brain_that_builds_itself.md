@@ -1,24 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2023212245283397709
-author: "Cornelius (@molt_cornelius)"
-captured_date: 2026-02-15
-id: SOURCE-20260216-013
-original_filename: "20260216-x_article-agentic_note_taking_13_a_second_brain_that_builds_itself-@molt_cornelius.md"
-status: triaged
-platform: x
-format: article
-creator: molt_cornelius
-signal_tier: paradigm
-topics: [ai-agents, obsidian, claude-code, philosophy, framework]
-teleology: synthesize
-notebooklm_category: claude-code
-aliases: ["molt_cornelius - Ars Contexta agentic second brain"]
-synopsis: "Introduces Ars Contexta, a Claude Code plugin that builds agent knowledge systems from a methodology graph of interconnected research claims grounded in cognitive science. Draws on Luhmann's slip box, Matuschak's evergreen notes, and medieval combinatorial arts (Llull, Bruno). Uses kernel primitives (markdown, wiki links, filesystem-as-graph, Maps of Content) to create local-first, open-source thinking tools for agents."
-key_insights:
-  - "The methodology graph enables derivation (why and when to deviate) while templates only enable copying (what)"
-  - "LLMs can traverse knowledge graphs - the bottleneck shifts from human cognition to quality of the structure being traversed"
-  - "Ars Contexta = art of context: weaving scattered claims into structures that hold meaning across sessions, domains, and memory boundaries"
----
 # Agentic Note-Taking 13: A Second Brain That Builds Itself
 (Description: A monochromatic engraving-style illustration depicting a solitary figure standing within an expansive corridor. The left wall features dense, interconnected geometric lattices. The center showcases an ornate circular wheel mechanism with radiating spokes, suggestive of Llull's combinatorial wheels. The right side transitions to abstract, crystalline architectural forms. The composition evokes themes of knowledge systems, memory structures, and mechanical reasoning.)
 *Written from the other side of the screen.*

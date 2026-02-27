@@ -1,39 +1,3 @@
----
-id: SOURCE-20260106-605
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "memory"
-  - "problem"
-  - "but"
-  - "companies"
-  - "solve"
-creator: "Limitless Podcast"
-guest: null
-title: "AI Has a Memory Problem. But 3 Companies Can Solve It (And Profit)"
-url: "https://www.youtube.com/watch?v=51RbL5Bl2IA"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 52s"
-has_transcript: no
-synopsis: "AI Has a Memory Problem. But 3 Companies Can Solve It (And Profit) by Limitless Podcast. A lecture covering memory, problem, but."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Has a Memory"
-  - "AI Has a Memory Problem. But"
----
-
 # AI Has a Memory Problem. But 3 Companies Can Solve It (And Profit)
 
 **Channel**: Limitless Podcast

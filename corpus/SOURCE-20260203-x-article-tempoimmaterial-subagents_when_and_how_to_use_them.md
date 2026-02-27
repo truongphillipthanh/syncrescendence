@@ -1,31 +1,3 @@
----
-url: https://x.com/tempoimmaterial/status/2018735048439021597
-author: "alice alexandra moore (@tempoimmaterial)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-025
-original_filename: "20260203-x_article-subagents_when_and_how_to_use_them-@tempoimmaterial.md"
-status: triaged
-platform: x
-format: article
-creator: tempoimmaterial
-signal_tier: tactical
-topics:
-  - claude-code
-  - agentic-development
-  - ai-workflow
-  - context-management
-  - testing
-  - rules-files
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Subagents When and How to Use Them"
-synopsis: "Subagents: When and How to Use Them Your agent spent 15 minutes exploring, found what you needed, then forgot your request. Now you're scrolling through 400 lines of logs trying to find where things went sideways. You've tried commands and skills. They help, but they don't solve the fundamental issue: one context window can only hold so much before it gets messy. The solution is **subagents**."
-key_insights:
-  - "Skills are still the best default for repeatable procedures."
-  - "Subagents: When and How to Use Them Your agent spent 15 minutes exploring, found what you needed, then forgot your request."
-  - "Now you're scrolling through 400 lines of logs trying to find where things went sideways."
----
 # Subagents: When and How to Use Them
 
 (Description: Visual illustration of a bright cyan robot figure with dotted connection lines to robot silhouettes on a dark background, with handwritten-style text reading "Manage subagent chaos")

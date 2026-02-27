@@ -1,24 +1,3 @@
----
-url: https://x.com/dabit3/status/2023206853715325068
-author: "nader dabit (@dabit3)"
-captured_date: 2026-02-15
-id: SOURCE-20260216-005
-original_filename: "20260216-x_article-the_self_healing_pr-@dabit3.md"
-status: triaged
-platform: x
-format: article
-creator: dabit3
-signal_tier: strategic
-topics: [ai-agents, automation, git-workflows, developer-tools]
-teleology: extract
-notebooklm_category: ai-engineering
-aliases: ["dabit3 - self-healing PR with Devin autofix"]
-synopsis: "Describes Cognition's autofix system where Devin reads review bot comments on GitHub PRs and automatically pushes fixes, creating a loop: code → review bot → Devin fix → CI → repeat until clean. Humans review only after automated passes handle lint, type, and CI failures. Uses bot allowlisting to prevent infinite loops."
-key_insights:
-  - "Connect coding agents to review bots and each pass makes the PR better without human context-shuttling"
-  - "Bot allowlisting prevents infinite fix loops - lint failures always processed, other bots opted in explicitly"
-  - "Humans shift to reviewing logic and architecture after mechanical issues are auto-resolved"
----
 # The Self-Healing PR
 (Description: A split-panel illustration showing chaotic scribbled lines on the left side in gray, transitioning to a clean light background on the right. In the center, a red toggle switch labeled "ON" is positioned horizontally with a red circular indicator, suggesting activation or engagement. Below reads "AUTOFIX ENGAGED" in monospace text.)
 ## Overview

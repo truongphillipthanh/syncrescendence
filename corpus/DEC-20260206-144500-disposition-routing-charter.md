@@ -1,18 +1,3 @@
----
-id: DEC-20260206-144500-disposition-routing-charter
-kind: decision
-scope: orchestration
-status: proposed
-created: 2026-02-06
-updated: 2026-02-06
-supersedes:
-  - DEC-20260206-113900-saas-integration-teleology
-related:
-  - engine/REF-SAAS_INTEGRATION_ARCHITECTURE.md
-  - orchestration/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
-  - .github/CONNECTOR_PROTOCOL.md
----
-
 # DEC — Disposition + Routing Charter (SaaS↔AI↔SaaS)
 
 ## Rename / designation

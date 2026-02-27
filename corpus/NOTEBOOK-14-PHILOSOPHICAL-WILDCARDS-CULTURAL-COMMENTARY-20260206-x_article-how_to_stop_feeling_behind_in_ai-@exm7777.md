@@ -1,9 +1,3 @@
----
-url: https://x.com/EXM7777/status/2019787951530725396
-author: Machina (@EXM7777)
-captured_date: 2026-02-13
----
-
 # how to stop feeling behind in AI
 
 (Description: Black and white cinematic image of a man in a dark t-shirt standing in a high-tech command center, hand raised to his ear in a thoughtful gesture. Behind him extends a massive curved wall covered entirely with dozens of monitor screens displaying data and code. A curved desk with multiple keyboards and equipment sits in the foreground, lit dramatically. The aesthetic suggests an AI operations or tech monitoring environment.)

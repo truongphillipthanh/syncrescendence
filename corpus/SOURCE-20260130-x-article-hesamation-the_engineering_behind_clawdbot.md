@@ -1,28 +1,3 @@
----
-url: https://x.com/Hesamation/status/2017038553058857413
-author: "ℏεsam (@Hesamation)"
-captured_date: 2026-01-29
-id: SOURCE-20260130-001
-original_filename: "20260130-x_article-the_engineering_behind_clawdbot-@hesamation.md"
-status: triaged
-platform: x
-format: article
-creator: hesamation
-signal_tier: strategic
-topics:
-  - ai-agents
-  - ai-engineering
-  - case-study
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "Hesam - Clawdbot engineering deep dive"
-synopsis: "Technical deep dive into Clawdbot's TypeScript CLI architecture: channel adapters, gateway server with lane-based command queue (serial-by-default, explicit parallel), agent runner with dynamic system prompt assembly, agentic loop with tool execution, hybrid memory (vector search via SQLite + keyword search via FTS5), and browser control via Playwright semantic snapshots (ARIA tree) instead of screenshots."
-key_insights:
-  - "Clawdbot uses lane-based command queues that default to serial execution — the mental model shifts from 'what do I need to lock?' to 'what's safe to parallelize?' following Cognition's 'Don't Build Multi-Agents' philosophy."
-  - "Browser automation uses semantic snapshots (accessibility tree/ARIA) instead of screenshots, reducing 5MB images to <50KB text at a fraction of the token cost."
-  - "Memory is surprisingly simple: hybrid vector + keyword search over markdown files, with no memory merging or compression — the agent writes to memory/*.md using standard file tools."
----
 # The Engineering Behind Clawdbot
 
 (Description: Dark background with white and yellow text. Large serif title "The Engineering Behind Clawdbot" with yellow underline on "Engineering". To the right is an illustrated musculature figure of an orange/rust-colored creature with large crab claws, bulging muscles, two eye stalks, and a prominent mustache-like facial feature.)

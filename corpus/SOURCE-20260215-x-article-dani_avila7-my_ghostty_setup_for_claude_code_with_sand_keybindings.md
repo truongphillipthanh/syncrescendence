@@ -1,24 +1,3 @@
----
-url: https://x.com/dani_avila7/status/2023151176758268349
-author: "Daniel San (@dani_avila7)"
-captured_date: 2026-02-15
-id: SOURCE-20260215-006
-original_filename: "20260215-x_article-my_ghostty_setup_for_claude_code_with_sand_keybindings-@dani_avila7.md"
-status: triaged
-platform: x
-format: article
-creator: dani_avila7
-signal_tier: tactical
-topics: [claude-code, developer-tools, tutorial, git-workflows]
-teleology: implement
-notebooklm_category: coding-tools
-aliases: ["dani_avila7 - Ghostty SAND keybindings for Claude Code"]
-synopsis: "Explains why Ghostty terminal is superior to VSCode's terminal for Claude Code sessions (VSCode crashes under AI-scale output), and introduces the SAND mnemonic for panel management: Split, Across, Navigate, Destroy. Shows how to run multiple Claude Code instances in parallel using git worktrees."
-key_insights:
-  - "VSCode terminal crashes on long Claude Code sessions even on M4 - a dedicated terminal like Ghostty is more stable"
-  - "SAND mnemonic (Split/Across/Navigate/Destroy) makes Ghostty panel management second nature"
-  - "Combining Ghostty splits with git worktrees enables multi-agent parallel development from one terminal"
----
 # My Ghostty setup for Claude Code with SAND Keybindings
 ## First... Why I Switched to Ghostty
 After months using Claude Code daily I realized I was barely using VSCode or Cursor, just the terminal and git panel, everything else Claude Code handled.

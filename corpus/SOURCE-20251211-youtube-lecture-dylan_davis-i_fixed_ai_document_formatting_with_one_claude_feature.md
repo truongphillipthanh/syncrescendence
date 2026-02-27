@@ -1,39 +1,3 @@
----
-id: SOURCE-20251211-867
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "fixed"
-  - "document"
-  - "formatting"
-  - "one"
-  - "claude"
-creator: "Dylan Davis"
-guest: null
-title: "I Fixed AI Document Formatting With One Claude Feature"
-url: "https://www.youtube.com/watch?v=DXDn4GCgqos"
-date_published: 2025-12-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 36s"
-has_transcript: no
-synopsis: "I Fixed AI Document Formatting With One Claude Feature by Dylan Davis. A lecture covering fixed, document, formatting."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "I Fixed AI Document"
-  - "I Fixed AI Document Formatting With"
----
-
 # I Fixed AI Document Formatting With One Claude Feature
 
 **Channel**: Dylan Davis

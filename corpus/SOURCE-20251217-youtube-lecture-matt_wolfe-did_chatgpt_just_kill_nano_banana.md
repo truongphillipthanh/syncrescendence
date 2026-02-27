@@ -1,39 +1,3 @@
----
-id: SOURCE-20251217-808
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "just"
-  - "kill"
-  - "nano"
-  - "banana"
-creator: "Matt Wolfe"
-guest: null
-title: "Did ChatGPT Just Kill Nano Banana?"
-url: "https://www.youtube.com/watch?v=ADqxZY5rpHg"
-date_published: 2025-12-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 13s"
-has_transcript: no
-synopsis: "Did ChatGPT Just Kill Nano Banana? by Matt Wolfe. A lecture covering chatgpt, just, kill."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Did ChatGPT Just Kill"
-  - "Did ChatGPT Just Kill Nano Banana?"
----
-
 # Did ChatGPT Just Kill Nano Banana?
 
 **Channel**: Matt Wolfe

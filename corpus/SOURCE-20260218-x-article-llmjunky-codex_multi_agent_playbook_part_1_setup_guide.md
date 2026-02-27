@@ -1,31 +1,3 @@
----
-url: https://x.com/LLMJunky/status/2024152021436121220
-author: "am.will (@LLMJunky)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-011
-original_filename: "20260218-x_article-codex_multi_agent_playbook_part_1_setup_guide-@llmjunky.md"
-status: triaged
-platform: x
-format: article
-creator: llmjunky
-signal_tier: tactical
-topics:
-  - prompting
-  - git
-  - codex
-  - openai
-  - multi-agent
-  - rag
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "CODEX MULTIAGENT PLAYBOOK PART 1 SETUP GUIDE"
-synopsis: "CODEX MULTI-AGENT PLAYBOOK PART 1: SETUP GUIDE Greetings builders! If you've been using Codex subagents, you already know how powerful they are. But up until now, you were limited to the three built-in roles. You can now create your own custom subagent roles (now called "multi agents") with their own models, reasoning levels, permissions, system prompts, and a whole lot more."
-key_insights:
-  - "I'm really excited to share more on that topic, but for now, it's important you know how to configure them at all."
-  - "CODEX MULTI-AGENT PLAYBOOK PART 1: SETUP GUIDE Greetings builders!"
-  - "If you've been using Codex subagents, you already know how powerful they are."
----
 # CODEX MULTI-AGENT PLAYBOOK PART 1: SETUP GUIDE
 (Description: Dark blue and orange isometric 3D illustration of interconnected cube-shaped modules with flowing energy circuits and the word "CODEX" prominently displayed on a central cube, representing multi-agent architecture)
 Greetings builders!

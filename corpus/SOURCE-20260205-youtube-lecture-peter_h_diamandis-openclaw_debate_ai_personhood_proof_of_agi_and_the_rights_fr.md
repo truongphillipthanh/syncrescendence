@@ -1,39 +1,3 @@
----
-id: SOURCE-20260205-174
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "openclaw"
-  - "debate"
-  - "personhood"
-  - "proof"
-  - "agi"
-creator: "Peter H. Diamandis"
-guest: null
-title: "OpenClaw Debate: AI Personhood, Proof of AGI, and the ‘Rights’ Framework | EP #227"
-url: "https://www.youtube.com/watch?v=JlB852LGRJk"
-date_published: 2026-02-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 13m 30s"
-has_transcript: no
-synopsis: "OpenClaw Debate: AI Personhood, Proof of AGI, and the ‘Rights’ Framework | EP #227 by Peter H. Diamandis. A lecture covering openclaw, debate, personhood."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenClaw Debate: AI Personhood,"
-  - "OpenClaw Debate: AI Personhood, Proof of"
----
-
 # OpenClaw Debate: AI Personhood, Proof of AGI, and the ‘Rights’ Framework | EP #227
 
 **Channel**: Peter H. Diamandis

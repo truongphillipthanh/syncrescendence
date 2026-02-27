@@ -1,39 +1,3 @@
----
-id: SOURCE-20251201-927
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "china"
-  - "robotics"
-  - "open"
-  - "source"
-  - "clem"
-creator: "Relentless"
-guest: null
-title: "China, Robotics, & Open-Source AI | Clem Delangue"
-url: "https://www.youtube.com/watch?v=b0iJZS9HgJA"
-date_published: 2025-12-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 47m 58s"
-has_transcript: no
-synopsis: "China, Robotics, & Open-Source AI | Clem Delangue by Relentless. A interview covering china, robotics, open."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "China, Robotics, & Open-Source"
-  - "China, Robotics, & Open-Source AI |"
----
-
 # China, Robotics, & Open-Source AI | Clem Delangue
 
 **Channel**: Relentless

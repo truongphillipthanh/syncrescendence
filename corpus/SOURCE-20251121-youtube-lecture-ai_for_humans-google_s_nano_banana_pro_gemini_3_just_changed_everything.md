@@ -1,39 +1,3 @@
----
-id: SOURCE-20251121-1041
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "google"
-  - "nano"
-  - "banana"
-  - "pro"
-  - "gemini"
-creator: "AI For Humans"
-guest: null
-title: "Google's Nano Banana Pro & Gemini 3 Just Changed Everything!"
-url: "https://www.youtube.com/watch?v=9KqFxAbfnbA"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "44m 40s"
-has_transcript: no
-synopsis: "Google's Nano Banana Pro & Gemini 3 Just Changed Everything! by AI For Humans. A lecture covering google, nano, banana."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Google's Nano Banana Pro"
-  - "Google's Nano Banana Pro & Gemini"
----
-
 # Google's Nano Banana Pro & Gemini 3 Just Changed Everything!
 
 **Channel**: AI For Humans

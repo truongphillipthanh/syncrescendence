@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-1139
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "stealth"
-  - "release"
-  - "blowing"
-  - "fully"
-creator: "Wes Roth"
-guest: null
-title: "GEMINI 3.0 stealth release is blowing up (FULLY TESTED)"
-url: "https://www.youtube.com/watch?v=0-CbsNB9tdk"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 28s"
-has_transcript: no
-synopsis: "GEMINI 3.0 stealth release is blowing up (FULLY TESTED) by Wes Roth. A interview covering gemini, stealth, release."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "GEMINI 3.0 stealth release"
-  - "GEMINI 3.0 stealth release is blowing"
----
-
 # GEMINI 3.0 stealth release is blowing up (FULLY TESTED)
 
 **Channel**: Wes Roth

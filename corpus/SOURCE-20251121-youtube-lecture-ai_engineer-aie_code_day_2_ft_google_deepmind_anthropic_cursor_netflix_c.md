@@ -1,39 +1,3 @@
----
-id: SOURCE-20251121-1027
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "aie"
-  - "code"
-  - "day"
-  - "google"
-  - "deepmind"
-creator: "AI Engineer"
-guest: null
-title: "AIE CODE Day 2: ft Google Deepmind, Anthropic, Cursor, Netflix, Cline, OpenAI, Meta, and METR"
-url: "https://www.youtube.com/watch?v=xmbSQz-PNMM"
-date_published: 2025-11-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "8h 57m 6s"
-has_transcript: no
-synopsis: "AIE CODE Day 2: ft Google Deepmind, Anthropic, Cursor, Netflix, Cline, OpenAI, Meta, and METR by AI Engineer. A lecture covering aie, code, day."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "AIE CODE Day 2:"
-  - "AIE CODE Day 2: ft Google"
----
-
 # AIE CODE Day 2: ft Google Deepmind, Anthropic, Cursor, Netflix, Cline, OpenAI, Meta, and METR
 
 **Channel**: AI Engineer

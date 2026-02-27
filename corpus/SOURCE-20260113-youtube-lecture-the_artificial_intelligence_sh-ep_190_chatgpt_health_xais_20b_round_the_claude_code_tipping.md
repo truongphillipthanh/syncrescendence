@@ -1,39 +1,3 @@
----
-id: SOURCE-20260113-495
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "190"
-  - "chatgpt"
-  - "health"
-  - "xai"
-  - "20b"
-creator: "The Artificial Intelligence Show Podcast"
-guest: null
-title: "Ep.# 190: ChatGPT Health, xAI’s $20B Round, & The Claude Code Tipping Point"
-url: "https://www.youtube.com/watch?v=jFaboCaoZHI"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 23m 10s"
-has_transcript: no
-synopsis: "Ep.# 190: ChatGPT Health, xAI’s $20B Round, & The Claude Code Tipping Point by The Artificial Intelligence Show Podcast. A lecture covering 190, chatgpt, health."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Ep.# 190: ChatGPT Health,"
-  - "Ep.# 190: ChatGPT Health, xAI’s $20B"
----
-
 # Ep.# 190: ChatGPT Health, xAI’s $20B Round, & The Claude Code Tipping Point
 
 **Channel**: The Artificial Intelligence Show Podcast

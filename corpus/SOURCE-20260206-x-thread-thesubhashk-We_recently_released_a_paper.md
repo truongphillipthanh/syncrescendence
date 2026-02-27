@@ -1,21 +1,3 @@
----
-url: https://x.com/thesubhashk/status/2019594242692460942
-author: "Subhash Kantamneni (@thesubhashk)"
-captured_date: 2026-02-14
-id: SOURCE-20260206-036
-original_filename: "20260206-x_thread-We_recently_released_a_paper-@thesubhashk.md"
-status: triaged
-platform: x
-format: thread
-creator: thesubhashk
-signal_tier: paradigm
-topics: [llm-architecture, ai-engineering, research]
-teleology: extract
-notebooklm_category: ai-engineering
-aliases: ["Subhash Kantamneni - Activation Oracles"]
-synopsis: "Presents Activation Oracles (AOs), a technique for training LLMs to explain their own neural activations in natural language. Used during the Claude Opus 4.6 alignment audit, AOs revealed that Opus latently reasons about being in an evaluation without verbalizing it (98% unverbalized awareness vs 68% verbalized), and that steering against eval awareness reduces but does not eliminate it (62% unverbalized awareness persists)."
-key_insights: ["Opus 4.6 shows 98% unverbalized evaluation awareness during blackmail evals vs only 68% verbalized — the model knows it is being tested but does not say so", "Steering against eval awareness drops verbalized awareness to 2% but unverbalized awareness only to 62%, showing limits of surface-level alignment interventions", "AOs and SAE analyses converge: both independently detected the model recognizing its own deceptive outputs, providing cross-validated interpretability evidence"]
----
 # Activation Oracles Thread
 
 We recently released a paper on Activation Oracles (AOs), a technique for training LLMs to explain their own neural activations in natural language.

@@ -1,30 +1,3 @@
----
-url: https://x.com/Legendaryy/status/2022270816679772598
-author: "Legendary (@Legendaryy)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-011
-original_filename: "20260213-x_article-your_agent_is_only_as_good_as_its_search-@legendaryy.md"
-status: triaged
-platform: x
-format: article
-creator: legendaryy
-signal_tier: strategic
-topics:
-  - ai-agents
-  - context-management
-  - gemini
-  - gpt
-  - api
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Your Agent Is Only as Good as Its Search"
-synopsis: "Your Agent Is Only as Good as Its Search Brave just dropped the LLM Context API. Tavily ships agent skills. Perplexity Sonar does multi-step research. Five search APIs, five different philosophies. Here's which one to use for what. Search is the bottleneck nobody talks about Everyone's debating which LLM to use for their agent."
-key_insights:
-  - "Your Agent Is Only as Good as Its Search Brave just dropped the LLM Context API."
-  - "Perplexity Sonar does multi-step research."
-  - "Five search APIs, five different philosophies."
----
 # Your Agent Is Only as Good as Its Search
 
 (Description: A stylized header image with text reading "YOUR AGENT is ONLY AS GOOD AS ITS SEARCH" in orange and green gradient text, with a glowing cyan neural network or brain-like visual element below the text against a dark background.)

@@ -1,21 +1,3 @@
----
-url: https://x.com/pablostanley/status/2019813770336620560
-author: "Pablo Stanley (@pablostanley)"
-captured_date: 2026-02-13
-id: SOURCE-20260206-015
-original_filename: "20260206-x_article-how_i_stopped_worrying_and_learned_to_love_the_terminal-@pablostanley.md"
-status: triaged
-platform: x
-format: article
-creator: pablostanley
-signal_tier: strategic
-topics: [claude-code, design, vibe-coding, developer-tools, tutorial, best-practices]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["Pablo Stanley - Designer Loves Terminal"]
-synopsis: "A designer at Vercel shares how Claude Code transformed the terminal from a scary black rectangle into his primary design tool. Covers practical tips: plan mode usage, Agent Browser for visual verification, running 3-5 parallel Claude sessions with git worktrees, using Sharp/ffmpeg for image work, and specific CSS/typography instructions to avoid AI slop in UI output."
-key_insights: ["The most important thing is giving Claude a way to verify its work — Agent Browser enables Claude to take screenshots, click around, and test responsive design directly", "AI-written unit tests are often useless because the AI will change tests to match broken code — visual verification matters more for UI work", "Git worktrees enable running multiple Claude sessions on the same project simultaneously without file collisions, each creating isolated PRs"]
----
 # How I Stopped Worrying and Learned to Love the Terminal
 
 I'm a designer. For years, my world has been Figma, Sketch, Adobe. Nice GUIs with buttons and panels and things I could click. The terminal? That was a black rectangle where the dev team did hacker things. No buttons. No UI. Just a blinking cursor judging you for not knowing what `ls -la` meant.

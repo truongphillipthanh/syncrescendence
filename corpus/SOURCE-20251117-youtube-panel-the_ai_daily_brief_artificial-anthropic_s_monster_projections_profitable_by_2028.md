@@ -1,39 +1,3 @@
----
-id: SOURCE-20251117-1072
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "monster"
-  - "projections"
-  - "profitable"
-  - "2028"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Anthropic's Monster Projections: Profitable by 2028?"
-url: "https://www.youtube.com/watch?v=3nT-8Rv-cbE"
-date_published: 2025-11-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 43s"
-has_transcript: no
-synopsis: "Anthropic's Monster Projections: Profitable by 2028? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering anthropic, monster, projections."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic's Monster Projections: Profitable"
-  - "Anthropic's Monster Projections: Profitable by 2028?"
----
-
 # Anthropic's Monster Projections: Profitable by 2028?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-254
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "elon"
-  - "musk"
-  - "tesla"
-  - "just"
-  - "their"
-creator: "Farzad"
-guest: null
-title: "Elon Musk & Tesla just had their best moment ever"
-url: "https://www.youtube.com/watch?v=G9VR37TYwOw"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "29m 40s"
-has_transcript: no
-synopsis: "Elon Musk & Tesla just had their best moment ever by Farzad. A lecture covering elon, musk, tesla."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Elon Musk & Tesla"
-  - "Elon Musk & Tesla just had"
----
-
 # Elon Musk & Tesla just had their best moment ever
 
 **Channel**: Farzad

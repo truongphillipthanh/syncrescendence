@@ -1,31 +1,3 @@
----
-id: SOURCE-undated-013
-title: Openclaw Honcho Memory
-platform: x
-format: transcript
-creator: honchodotdev
-date_published: "2026-02-03"
-status: triaged
-url: https://x.com/honchodotdev/status/2018701610596098435
-original_filename: research/x-bookmarks/TRANS-honchodotdev-openclaw_honcho_memory.md
-aliases:
-  - "Honcho OpenClaw Memory"
-  - "AI Native Memory Plugin"
-teleology: extract
-notebooklm_category: ai-agents
-synopsis: "Honcho announces an OpenClaw plugin providing AI-native memory that goes beyond markdown files. Instead of storing facts, Honcho's reasoning models analyze patterns across interactions to build a working model of the user. Includes automatic migration from existing OpenClaw memory files, $100 free credits, and three layers: context injection, continual learning, and memory query tools."
-key_insights:
-  - "AI-native memory reasons about patterns rather than storing facts — extracting implicit connections and predictions across interactions rather than explicit key-value pairs"
-  - "Automatic migration from existing OpenClaw markdown memory files eliminates adoption friction for the plugin"
-  - "Three memory layers (pre-response context injection, background pattern learning, on-demand query tools) provide both passive and active memory access"
-topics:
-  - ai-agents
-  - mcp
-  - developer-tools
-  - automation
-signal_tier: tactical
----
-
 # OpenClaw + Honcho: Memory That Reasons for OpenClaw
 
 **Author:** Honcho (Verified)  

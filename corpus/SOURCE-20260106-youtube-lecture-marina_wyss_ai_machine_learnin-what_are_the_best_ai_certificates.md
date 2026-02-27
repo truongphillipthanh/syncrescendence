@@ -1,36 +1,3 @@
----
-id: SOURCE-20260106-608
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "best"
-  - "certificates"
-creator: "Marina Wyss - AI & Machine Learning"
-guest: null
-title: "What Are the Best AI Certificates?"
-url: "https://www.youtube.com/watch?v=F5vIkq8BCl4"
-date_published: 2026-01-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 42s"
-has_transcript: no
-synopsis: "What Are the Best AI Certificates? by Marina Wyss - AI & Machine Learning. A lecture covering best, certificates."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "What Are the Best"
-  - "What Are the Best AI Certificates?"
----
-
 # What Are the Best AI Certificates?
 
 **Channel**: Marina Wyss - AI & Machine Learning

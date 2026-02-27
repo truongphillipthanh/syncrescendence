@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-621
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "full"
-  - "ces"
-  - "2026"
-  - "event"
-  - "nvidia"
-creator: "DWS News"
-guest: null
-title: "FULL CES 2026 EVENT: NVIDIA CEO Reveals Physical AI and Autonomous Robots Changing Industries | AI14"
-url: "https://www.youtube.com/watch?v=UrMnOp2N9Kw"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 33m 26s"
-has_transcript: no
-synopsis: "FULL CES 2026 EVENT: NVIDIA CEO Reveals Physical AI and Autonomous Robots Changing Industries | AI14 by DWS News. A lecture covering full, ces, 2026."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "FULL CES 2026 EVENT:"
-  - "FULL CES 2026 EVENT: NVIDIA CEO"
----
-
 # FULL CES 2026 EVENT: NVIDIA CEO Reveals Physical AI and Autonomous Robots Changing Industries | AI14
 
 **Channel**: DWS News

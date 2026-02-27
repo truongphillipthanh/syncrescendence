@@ -1,39 +1,3 @@
----
-id: SOURCE-20251123-1020
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "new"
-  - "top"
-  - "video"
-  - "models"
-  - "google"
-creator: "AI Search"
-guest: null
-title: "New top AI video models, Google dominates, top 3D model generator, Grok 4.1, GPT-Codex-Max: AI NEWS"
-url: "https://www.youtube.com/watch?v=XN-OL6YDZjs"
-date_published: 2025-11-23
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38m 56s"
-has_transcript: no
-synopsis: "New top AI video models, Google dominates, top 3D model generator, Grok 4.1, GPT-Codex-Max: AI NEWS by AI Search. A lecture covering new, top, video."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: coding-tools
-aliases:
-  - "New top AI video"
-  - "New top AI video models, Google"
----
-
 # New top AI video models, Google dominates, top 3D model generator, Grok 4.1, GPT-Codex-Max: AI NEWS
 
 **Channel**: AI Search

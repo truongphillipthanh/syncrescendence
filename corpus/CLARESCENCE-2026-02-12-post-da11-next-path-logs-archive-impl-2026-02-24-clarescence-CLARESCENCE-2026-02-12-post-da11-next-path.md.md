@@ -1,13 +1,3 @@
----
-id: CLARESCENCE-2026-02-12-post-da11-next-path
-type: clarescence
-fidelity: operational
-passes_run: 0+1-7
-date: 2026-02-12
-agent: commander
-topic: Next highest-value execution path after DA-09/10/11 ontology enrichment
----
-
 # CLARESCENCE: Post-DA-11 Next Path
 
 **Date**: 2026-02-12

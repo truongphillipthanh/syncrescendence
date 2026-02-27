@@ -1,39 +1,3 @@
----
-id: SOURCE-20260109-393
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "company"
-  - "taking"
-  - "china"
-  - "trying"
-  - "restart"
-creator: "Core Memory "
-guest: null
-title: "The Company Taking On China And Trying To Restart Manufacturing In America"
-url: "https://www.youtube.com/watch?v=EbFZ24Lffo0"
-date_published: 2026-01-09
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 57s"
-has_transcript: no
-synopsis: "The Company Taking On China And Trying To Restart Manufacturing In America by Core Memory . A interview covering company, taking, china."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Company Taking On"
-  - "The Company Taking On China And"
----
-
 # The Company Taking On China And Trying To Restart Manufacturing In America
 
 **Channel**: Core Memory 

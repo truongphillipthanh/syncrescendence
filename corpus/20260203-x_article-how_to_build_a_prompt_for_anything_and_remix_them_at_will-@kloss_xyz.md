@@ -1,9 +1,3 @@
----
-url: https://x.com/kloss_xyz/status/2018951817892442260
-author: klöss (@kloss_xyz)
-captured_date: 2026-02-03
----
-
 # How to Build a Prompt for Anything (and Remix Them at Will)
 
 (Description: An isometric technical illustration featuring two hands assembling an abstract 3D geometric structure with wireframe grid overlay, rendered in grayscale line art style)

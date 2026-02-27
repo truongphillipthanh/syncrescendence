@@ -1,27 +1,3 @@
----
-url: https://x.com/ivanhzhao/status/2024083641685385324
-author: "Ivan Zhao (@ivanhzhao)"
-captured_date: 2026-02-18
-id: SOURCE-20260218-008
-original_filename: "20260218-x_article-on_universe_life_and_ai-@ivanhzhao.md"
-status: triaged
-platform: x
-format: article
-creator: ivanhzhao
-signal_tier: paradigm
-topics:
-  - api
-  - synthesize-pattern
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "On Universe Life and AI"
-synopsis: "On Universe, Life, and AI Content 1. The universe doesn't care. Life, such as humans, cares and does have a value system. If possible, all amoebas, flowers, and humans would want to live like kings. That is the value system of life. The quest for life is to exert that value against this cold universe that doesn't care."
-key_insights:
-  - "But life has this magic to summon more life, and discover tricks and trades among the alliance of lives — to arrange the energy of the universe according to their value."
-  - "Humans accelerate the discovery of these tricks and trades with culture and tools, sculpting the universe further towards life and humanity's value."
-  - "Money and capital are also tools and tricks."
----
 # On Universe, Life, and AI
 (Description: A cinematic landscape image showing a barren desert valley at sunset/sunrise. Ancient stone monoliths and architectural structures tower in the distance with warm golden-orange sky. In the foreground, small groups of robed figures stand on sandy terrain, suggesting an alien or post-apocalyptic civilization.)
 ## Content

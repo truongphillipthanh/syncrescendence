@@ -1,9 +1,3 @@
----
-url: https://x.com/KimiProduct/status/2018989483258183742
-author: Kimi Product (@KimiProduct)
-captured_date: 2026-02-04
----
-
 # Kimi × OpenClaw — The Simplest Setup Yet
 
 (Description: A horizontal banner showing three logos connected by multiplication symbols: OpenClaw mascot (red character) × Kimi (white K logo on dark background))

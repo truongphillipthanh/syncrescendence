@@ -1,9 +1,3 @@
----
-url: https://x.com/tomcrawshaw01/status/2021951399857467820
-author: Tom (@tomcrawshaw01)
-captured_date: 2026-02-12
----
-
 # OpenClaw Felt Like Talking To Claude Until I Changed Five Things. Now It Runs Agents On Its Own.
 
 (Description: Illustration of a red humanoid robot with prominent cyan eyes and small antenna-like protrusions on its head, positioned centrally and standing out from a crowd of smaller, darker red robots with glowing cyan eyes arranged in rows on either side. The scene has a dark, moody color palette with emphasis on the silhouetted figures against a dusky background.)

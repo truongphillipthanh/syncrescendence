@@ -1,29 +1,3 @@
----
-id: SOURCE-20260131-x-thread-exm7777-how_to_build_a_claude_skill
-platform: x
-format: thread
-creator: exm7777
-title: how to build a claude skill
-status: triaged
-original_filename: "20260131-x_thread-how_to_build_a_claude_skill-@EXM7777.md"
-url: https://x.com/EXM7777/status/2017659658425758193
-author: "Machina (@EXM7777)"
-captured_date: 2026-01-31
-signal_tier: tactical
-topics:
-  - claude-code
-  - prompt-engineering
-  - content-creation
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Machina - Claude Skill for humanized writing"
-synopsis: "Guide for building a Claude Skill that writes humanized AI content using a two-pass approach: pass one diagnoses banned phrases, repetitive sentence lengths, and audience intent; pass two rewrites accordingly. Teaches Claude to think in diagnostic then execution passes."
-key_insights:
-  - "The two-pass Skill approach (diagnose then rewrite) produces more human-sounding output than single-pass prompting."
-  - "Banning specific AI-sounding phrases ('leverage,' 'robust,' 'delve') and flagging repetitive sentence lengths catches the most common tells."
-  - "Protecting factual elements (numbers, names, dates) while rewriting style prevents hallucination during the humanization pass."
----
 # How to Build a Claude Skill to Consistently Write Humanized AI Content
 
 how to build a Claude Skill to consistently write humanized AI content:

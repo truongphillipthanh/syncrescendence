@@ -1,9 +1,3 @@
----
-url: https://x.com/garrytan/status/2018368128108167344
-author: Garry Tan (@garrytan)
-captured_date: 2026-02-14
----
-
 I think people are sleeping a bit on how much **Ruby on Rails + Claude Code** is a *"crazy unlock"* - I mean Rails was designed for people who love syntactic sugar, and LLMs are sugar fiends.
 
 (Description: Embedded educational image titled "Convention Over Configuration is LLM Catnip" containing the following content:)

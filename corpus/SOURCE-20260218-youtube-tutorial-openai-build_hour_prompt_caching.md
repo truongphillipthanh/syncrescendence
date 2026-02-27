@@ -1,37 +1,3 @@
----
-id: SOURCE-20260218-032
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "build"
-  - "hour"
-  - "prompt"
-  - "caching"
-creator: "OpenAI"
-guest: null
-title: "Build Hour: Prompt Caching"
-url: "https://www.youtube.com/watch?v=tECAkJAI_Vk"
-date_published: 2026-02-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "56m 4s"
-has_transcript: no
-synopsis: "Build Hour: Prompt Caching by OpenAI. A tutorial covering build, hour, prompt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "Build Hour: Prompt Caching"
----
-
 # Build Hour: Prompt Caching
 
 **Channel**: OpenAI

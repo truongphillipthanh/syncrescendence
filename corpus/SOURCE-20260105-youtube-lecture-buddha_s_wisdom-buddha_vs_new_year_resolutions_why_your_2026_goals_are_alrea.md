@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-615
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "buddha"
-  - "new"
-  - "year"
-  - "resolutions"
-  - "2026"
-creator: "Buddha's Wisdom"
-guest: null
-title: "BUDDHA vs New Year RESOLUTIONS | Why Your 2026 Goals Are Already Dead"
-url: "https://www.youtube.com/watch?v=NYOLdvv2wjQ"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 16s"
-has_transcript: no
-synopsis: "BUDDHA vs New Year RESOLUTIONS | Why Your 2026 Goals Are Already Dead by Buddha's Wisdom. A lecture covering buddha, new, year."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "BUDDHA vs New Year"
-  - "BUDDHA vs New Year RESOLUTIONS |"
----
-
 # BUDDHA vs New Year RESOLUTIONS | Why Your 2026 Goals Are Already Dead
 
 **Channel**: Buddha's Wisdom

@@ -1,28 +1,3 @@
----
-url: https://x.com/rahulsood/status/2018394405028364384
-author: "Rahul Sood (@rahulsood)"
-captured_date: 2026-02-02
-id: SOURCE-20260202-005
-original_filename: "20260202-x_article-i_run_a_fleet_of_ai_agents_from_a_mac_mini_heres_how_i_keep_them_from_going_rogue-@rahulsood.md"
-status: triaged
-platform: x
-format: article
-creator: rahulsood
-signal_tier: strategic
-topics:
-  - ai-agents
-  - automation
-  - best-practices
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Rahul Sood - Mac Mini agent fleet management"
-synopsis: "Guide for running and securing a fleet of multiple AI agents 24/7 from a single Mac Mini. Covers keeping agents in sync, preventing rogue behavior, and maintaining security without constant babysitting."
-key_insights:
-  - "Running multiple 24/7 AI agents from a single Mac Mini requires explicit coordination and security constraints to prevent rogue behavior."
-  - "Fleet management of AI agents introduces coordination challenges similar to distributed systems — sync, health monitoring, and access control."
-  - "The Mac Mini as agent fleet host has become a genuine infrastructure pattern, not just a hobbyist setup."
----
 # I Run a Fleet of AI Agents from a Mac Mini. Here's How I Keep Them From Going Rogue.
 
 (Description: A futuristic underground facility with concrete pillars and warm amber lighting. In the center, a humanoid robot in dark clothing works at a control station displaying streaming data on glowing screens. To the left and right, two quadrupedal robotic units with articulated limbs stand at workstations. Background displays multiple wall-mounted monitors showing cascading green code and Japanese text (セキュリティログ = "Security Log", 問題 = "Problem", 取引データ = "Trading Data"). The entire scene is rendered in a cyberpunk aesthetic with neon purple and orange accents.)

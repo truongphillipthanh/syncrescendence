@@ -1,39 +1,3 @@
----
-id: SOURCE-20251203-915
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "jensen"
-  - "huang"
-  - "securing"
-  - "american"
-creator: "Center for Strategic & International Studies"
-guest: null
-title: "NVIDIA’s Jensen Huang on Securing American Leadership on AI"
-url: "https://www.youtube.com/watch?v=jpZ0dPsnIWw"
-date_published: 2025-12-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "52m 8s"
-has_transcript: no
-synopsis: "NVIDIA’s Jensen Huang on Securing American Leadership on AI by Center for Strategic & International Studies. A panel discussion covering nvidia, jensen, huang."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "NVIDIA’s Jensen Huang on"
-  - "NVIDIA’s Jensen Huang on Securing American"
----
-
 # NVIDIA’s Jensen Huang on Securing American Leadership on AI
 
 **Channel**: Center for Strategic & International Studies

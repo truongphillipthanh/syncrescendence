@@ -1,9 +1,3 @@
----
-url: https://x.com/sillydarket/status/2022394007448429004
-author: Pedro (@sillydarket)
-captured_date: 2026-02-13
----
-
 # Solving Memory for Openclaw & General Agents
 
 (Description: A stylized engraving of an elephant's head in profile on a beige parchment background, connected by geometric lines and dotted points forming a network pattern, with a compass rose in the corner.)

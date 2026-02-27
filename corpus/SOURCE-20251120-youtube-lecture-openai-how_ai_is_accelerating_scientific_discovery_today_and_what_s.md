@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1058
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "accelerating"
-  - "scientific"
-  - "discovery"
-  - "today"
-  - "ahead"
-creator: "OpenAI"
-guest: null
-title: "How AI is accelerating scientific discovery today and what's ahead — the OpenAI Podcast Ep. 10"
-url: "https://www.youtube.com/watch?v=0sNOaD9xT_4"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "48m 13s"
-has_transcript: no
-synopsis: "How AI is accelerating scientific discovery today and what's ahead — the OpenAI Podcast Ep. 10 by OpenAI. A lecture covering accelerating, scientific, discovery."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "How AI is accelerating"
-  - "How AI is accelerating scientific discovery"
----
-
 # How AI is accelerating scientific discovery today and what's ahead — the OpenAI Podcast Ep. 10
 
 **Channel**: OpenAI

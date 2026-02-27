@@ -1,18 +1,3 @@
----
-id: CLARESCENCE-2026-02-08-psyche-machine-elucidation
-kind: clarescence
-scope: orchestration + engine
-status: active
-created: 2026-02-08
-author: Commander (Claude Code / Opus 4.6)
-related:
-  - CLARESCENCE-2026-02-08-headquarters-elucidation.md
-  - CLARESCENCE-2026-02-08-sovereign-cockpit-architecture.md
-  - orchestration/state/DYN-TWIN_COORDINATION_PROTOCOL.md
-  - engine/REF-STACK_TELEOLOGY.md
-  - orchestration/TERMINAL-STACK-CONFIG.md
----
-
 # CLARESCENCE: Psyche's Machine Elucidation
 ## M4 MacBook Air Configuration Relative to the M1 Mac Mini Headquarters
 

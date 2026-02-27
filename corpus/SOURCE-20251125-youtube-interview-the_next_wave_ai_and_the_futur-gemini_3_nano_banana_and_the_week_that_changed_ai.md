@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-994
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "nano"
-  - "banana"
-  - "week"
-  - "changed"
-creator: "The Next Wave - AI and the Future of Technology"
-guest: null
-title: "Gemini 3, Nano Banana, and The Week That Changed AI"
-url: "https://www.youtube.com/watch?v=VMEcXofRl7c"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 34s"
-has_transcript: no
-synopsis: "Gemini 3, Nano Banana, and The Week That Changed AI by The Next Wave - AI and the Future of Technology. A interview covering gemini, nano, banana."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3, Nano Banana,"
-  - "Gemini 3, Nano Banana, and The"
----
-
 # Gemini 3, Nano Banana, and The Week That Changed AI
 
 **Channel**: The Next Wave - AI and the Future of Technology

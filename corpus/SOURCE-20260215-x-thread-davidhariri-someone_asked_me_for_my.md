@@ -1,27 +1,3 @@
----
-url: https://x.com/davidhariri/status/2023108710982414358
-author: David Hariri
-handle: davidhariri
-published_date: February 15, 2026
-captured_date: February 21, 2026
-post_count: 4
-id: SOURCE-20260215-016
-original_filename: "20260215-x_thread-someone_asked_me_for_my-@davidhariri.md"
-status: triaged
-platform: x
-format: thread
-creator: davidhariri
-signal_tier: tactical
-topics: [claude-code, developer-tools, automation]
-teleology: reference
-notebooklm_category: claude-code
-aliases: ["davidhariri - plain-text life operating system"]
-synopsis: "Open-sources a 'life system' built with Claude Code, inspired by Carmack's .plan files and Franklin's self-improvement method. Used daily for 30-minute morning sessions with SuperWhisper voice input."
-key_insights:
-  - "Plain-text life operating systems powered by Claude Code combine voice input with structured daily routines"
-  - "Inspiration from Carmack .plan files and Franklin systematic self-improvement provides proven design patterns"
-  - "30 minutes daily with voice input (SuperWhisper) is a practical usage pattern for personal AI systems"
----
 ## Post 1/4
 **David Hariri** (@davidhariri) - 10:54 AM · Feb 15, 2026
 Someone asked me for my "life system" which I built with Claude Code. I open sourced it here in case interesting to others ¯\\_(ツ)_/¯

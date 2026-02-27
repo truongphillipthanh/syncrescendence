@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-851
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "deciphering"
-  - "secrets"
-  - "ancient"
-  - "civilizations"
-  - "noah"
-creator: "Lex Fridman"
-guest: null
-title: "Deciphering Secrets of Ancient Civilizations, Noah's Ark, and Flood Myths | Lex Fridman Podcast #487"
-url: "https://www.youtube.com/watch?v=_bBRVNkAfkQ"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 5m 13s"
-has_transcript: no
-synopsis: "Deciphering Secrets of Ancient Civilizations, Noah's Ark, and Flood Myths | Lex Fridman Podcast #487 by Lex Fridman. A lecture covering deciphering, secrets, ancient."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Deciphering Secrets of Ancient"
-  - "Deciphering Secrets of Ancient Civilizations, Noah's"
----
-
 # Deciphering Secrets of Ancient Civilizations, Noah's Ark, and Flood Myths | Lex Fridman Podcast #487
 
 **Channel**: Lex Fridman

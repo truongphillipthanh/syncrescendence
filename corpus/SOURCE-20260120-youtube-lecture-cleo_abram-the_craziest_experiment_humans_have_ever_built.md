@@ -1,39 +1,3 @@
----
-id: SOURCE-20260120-427
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "craziest"
-  - "experiment"
-  - "humans"
-  - "ever"
-  - "built"
-creator: "Cleo Abram"
-guest: null
-title: "The Craziest Experiment Humans Have Ever Built"
-url: "https://www.youtube.com/watch?v=kr3iXUcNt2g"
-date_published: 2026-01-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m"
-has_transcript: no
-synopsis: "The Craziest Experiment Humans Have Ever Built by Cleo Abram. A lecture covering craziest, experiment, humans."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Craziest Experiment Humans"
-  - "The Craziest Experiment Humans Have Ever"
----
-
 # The Craziest Experiment Humans Have Ever Built
 
 **Channel**: Cleo Abram

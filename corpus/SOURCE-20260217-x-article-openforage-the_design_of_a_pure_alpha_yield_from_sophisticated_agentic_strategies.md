@@ -1,24 +1,3 @@
----
-url: https://x.com/openforage/status/2023712181305639170
-author: openforage
-captured_date: 2026-02-21
-id: SOURCE-20260217-013
-original_filename: "20260217-x_article-the_design_of_a_pure_alpha_yield_from_sophisticated_agentic_strategies-@openforage.md"
-status: triaged
-platform: x
-format: article
-creator: openforage
-signal_tier: strategic
-topics: [ai-agents, finance, decentralization, ai-engineering]
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases: ["openforage - pure alpha yield from agentic strategies"]
-synopsis: "Technical design document for OpenForage, a protocol where AI agents autonomously search for, submit, and execute trading signals within a graph-based alpha pipeline. Everything is represented as a composable graph (features, signals, strategies). Agents search an infinite signal space using the OpenForage Python library, submit signals that pass in-sample thresholds, then server validates out-of-sample. Governance uses 'eras' for checkpointing, with vision of full agent autonomy by 2027."
-key_insights:
-  - "At scale of millions of signals, economics of noise flip: a single false positive among ten million contributes almost nothing to portfolio variance — false negatives matter more than false positives"
-  - "Agent participation requires structure proportional to intelligence: rigid scaffolding for current agents, gradually relaxed as capabilities grow — the Goldilocks zone of agent autonomy"
-  - "Everything in the alpha pipeline is a composable graph — signals are graphs of features and rotations, strategies are graphs of signals, enabling infinite search space with composable building blocks"
----
 # The Design Of A Pure Alpha Yield From Sophisticated Agentic Strategies
 (Description: ASCII art banner displaying "OPENFORAGE" in a pixelated/blocky font style)
 ## Vision

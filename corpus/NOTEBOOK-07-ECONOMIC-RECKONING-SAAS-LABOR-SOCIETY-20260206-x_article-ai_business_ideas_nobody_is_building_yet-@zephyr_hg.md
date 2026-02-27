@@ -1,9 +1,3 @@
----
-url: https://x.com/Zephyr_hg/status/2019835315897168263
-author: Zephyr (@Zephyr_hg)
-captured_date: 2026-02-06
----
-
 # AI Business Ideas Nobody Is Building Yet
 
 (Description: A detailed monochromatic illustration showing a landscape with gnarled trees and a sunburst in the sky above. Five business-related icons are arranged in a row beneath the landscape: a laptop/computer, a document/report, a megaphone/speaker, a briefcase, and a folder/filing cabinet.)

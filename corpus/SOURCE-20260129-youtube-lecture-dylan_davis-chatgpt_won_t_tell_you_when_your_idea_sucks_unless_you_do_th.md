@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-247
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "won"
-  - "tell"
-  - "idea"
-  - "sucks"
-creator: "Dylan Davis"
-guest: null
-title: "ChatGPT Won't Tell You When Your Idea SUCKS (Unless You Do THIS)"
-url: "https://www.youtube.com/watch?v=JSsXhd1a8z4"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 14s"
-has_transcript: no
-synopsis: "ChatGPT Won't Tell You When Your Idea SUCKS (Unless You Do THIS) by Dylan Davis. A lecture covering chatgpt, won, tell."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "ChatGPT Won't Tell You"
-  - "ChatGPT Won't Tell You When Your"
----
-
 # ChatGPT Won't Tell You When Your Idea SUCKS (Unless You Do THIS)
 
 **Channel**: Dylan Davis

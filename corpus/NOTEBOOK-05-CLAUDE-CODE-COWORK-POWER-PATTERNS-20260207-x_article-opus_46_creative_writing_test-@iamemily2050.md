@@ -1,9 +1,3 @@
----
-url: https://x.com/IamEmily2050/status/2020087471707504992
-author: Emily (@IamEmily2050)
-captured_date: 2026-02-07
----
-
 # Opus 4.6 Creative Writing Test
 
 (Description: A dimly lit space station interior with industrial paneling, flickering ceiling panels, control systems, and a large observation window framing Earth below in white and blue. Text overlay reads "INVENTORY: The Final Hours on Station")

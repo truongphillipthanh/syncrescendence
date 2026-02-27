@@ -1,9 +1,3 @@
----
-url: https://x.com/ericosiu/status/2019572343023243272
-author: ericosiu
-captured_date: 2026-02-05
----
-
 # OpenClaw For Business Setup (That Scales Revenue)
 
 (Description: Illustration showing the evolution from primitive ape to human businessman sitting at a desk, with the final figure holding a large red lobster/claw, representing OpenClaw's progression into business use.)

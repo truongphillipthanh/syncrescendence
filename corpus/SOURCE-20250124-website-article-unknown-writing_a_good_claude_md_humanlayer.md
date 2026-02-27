@@ -1,34 +1,3 @@
----
-id: SOURCE-20250124-website-article-unknown-writing_a_good_claude_md_humanlayer
-platform: website
-format: article
-creator: unknown
-title: writing a good claude md humanlayer
-status: triaged
-original_filename: 20250124-website-writing-a-good-claude-md-humanlayer.md
-url: https://www.humanlayer.dev/blog/writing-a-good-claude-md
-domain: humanlayer.dev
-author: Kyle
-published_date: November 25, 2025
-captured_date: 2025-01-24
-content_type: blog
-signal_tier: strategic
-topics:
-  - "claude-code"
-  - "prompt-engineering"
-  - "best-practices"
-  - "context-engineering"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "HumanLayer - Writing Good CLAUDE.md"
-  - "CLAUDE.md Best Practices"
-synopsis: "HumanLayer guide on writing effective CLAUDE.md files, revealing that Claude Code wraps CLAUDE.md in a system reminder that may cause ignoring. Recommends fewer than 60 lines, progressive disclosure via separate docs, and never using LLMs as linters."
-key_insights:
-  - "Claude Code system prompt contains ~50 instructions, leaving only 100-150 reliable instruction slots for your CLAUDE.md on frontier models"
-  - "Claude ignores CLAUDE.md contents it deems irrelevant due to the system-reminder wrapper—keep instructions universally applicable"
-  - "Progressive disclosure pattern: point Claude to separate docs rather than stuffing all context into CLAUDE.md"
----
 # Writing a good CLAUDE.md
 
 **Kyle** · November 25, 2025 · < 10 min read

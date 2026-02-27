@@ -1,16 +1,3 @@
----
-id: SOURCE-20251031-youtube-video-dshapiro-post_labor_enterprise
-title: "The Post-Labor Enterprise"
-creator: David Shapiro
-guest: None (Solo)
-date_published: 2025-10-31
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Expertise
-integration_targets: [CANON-33000-EXPERTISE, CANON-33110-BIZ_BACKBONE]
----
-
 # The Post-Labor Enterprise
 
 ## Executive Summary

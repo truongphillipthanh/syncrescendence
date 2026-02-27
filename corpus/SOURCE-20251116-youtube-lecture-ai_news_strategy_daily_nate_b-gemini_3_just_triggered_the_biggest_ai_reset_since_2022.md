@@ -1,39 +1,3 @@
----
-id: SOURCE-20251116-1096
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "just"
-  - "triggered"
-  - "biggest"
-  - "reset"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Gemini 3 Just Triggered The Biggest AI Reset Since 2022"
-url: "https://www.youtube.com/watch?v=F-m4AIU8blY"
-date_published: 2025-11-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 35s"
-has_transcript: no
-synopsis: "Gemini 3 Just Triggered The Biggest AI Reset Since 2022 by AI News & Strategy Daily | Nate B Jones. A lecture covering gemini, just, triggered."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini 3 Just Triggered"
-  - "Gemini 3 Just Triggered The Biggest"
----
-
 # Gemini 3 Just Triggered The Biggest AI Reset Since 2022
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

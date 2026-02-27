@@ -1,38 +1,3 @@
----
-id: SOURCE-20251116-1094
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "never"
-  - "find"
-  - "meaning"
-  - "life"
-creator: "Unsolicited advice"
-guest: null
-title: "Why you'll never find the meaning of life"
-url: "https://www.youtube.com/watch?v=QhySRHpcSrU"
-date_published: 2025-11-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "41m 18s"
-has_transcript: no
-synopsis: "Why you'll never find the meaning of life by Unsolicited advice. A lecture covering never, find, meaning."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Why you'll never find"
-  - "Why you'll never find the meaning"
----
-
 # Why you'll never find the meaning of life
 
 **Channel**: Unsolicited advice

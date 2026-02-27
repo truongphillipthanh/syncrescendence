@@ -1,30 +1,3 @@
----
-id: SOURCE-20260120-x-article-abhigyawangoo-why_your_ai_agents_still_dont_work
-platform: x
-format: article
-creator: abhigyawangoo
-title: why your ai agents still dont work
-status: triaged
-original_filename: "20260120-x_article-why_your_ai_agents_still_dont_work-@abhigyawangoo.md"
-url: https://x.com/Abhigyawangoo/status/2013823175855923640
-author: "abhi (@Abhigyawangoo)"
-captured_date: 2026-01-20
-signal_tier: strategic
-topics:
-  - "ai-agents"
-  - "ai-engineering"
-  - "mlops"
-  - "feedback-loops"
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "Abhigya - Why AI Agents Dont Work"
-synopsis: "Production agent engineering guide from someone who owned agent infrastructure serving millions. Argues feedback loops are the inevitability every agent builder must embrace, not just RAG. Covers signal design, reward hacking prevention, and continuous improvement cycles."
-key_insights:
-  - "Memory and RAG are not enough: agents need continuous feedback loops with multi-signal measurement to tangibly improve over weeks and months"
-  - "Signal design is the real job of an agent builder: single signals lead to reward hacking, while diverse signals across time horizons prevent overoptimization"
-  - "Define your agents core thesis (engagement, utility, speed) first because it determines every subsequent architectural decision"
----
 # Why your AI agents still don't work
 
 (Description: A neon glowing sign displaying the word "SIGNALS" against a dark background)

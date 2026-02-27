@@ -1,28 +1,3 @@
----
-url: https://x.com/minchoi/status/2018349261289578572
-author: "@minchoi"
-captured_date: 2026-02-04
-id: SOURCE-20260202-014
-original_filename: "20260202-x_thread-its_only_been_a_week_since-@minchoi.md"
-status: triaged
-platform: x
-format: thread
-creator: minchoi
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - openclaw
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Min Choi - OpenClaw app killer thread v2"
-synopsis: "Thread cataloging how OpenClaw/ClawdBot is displacing entire categories of apps after just one week. People are using it as a personal AI agent to run life and business without fancy prompts or MCP, with wild real-world examples and key takeaways."
-key_insights:
-  - "OpenClaw is displacing standalone apps by serving as a general-purpose personal AI agent that handles tasks previously requiring dedicated tools."
-  - "The simplicity of the interaction model — no fancy prompts, no MCP — is what makes adoption explosive among non-technical users."
-  - "The speed of app category displacement (one week) signals a phase change in how people think about software as service vs. agent-mediated capability."
----
 # ClawdBot (now OpenClaw) Thread
 
 **Min Choi** (@minchoi) • Feb 2, 2026

@@ -1,18 +1,3 @@
----
-source_id: SOURCE-20251027-153
-title: "The Coming Productivity Boom: Tax Policy and Economic Revival"
-platform: youtube
-format: interview
-creator: David Carbutt
-guest: Cathie Wood
-date_published: 2025-10-27
-date_processed: 2026-01-05
-chain: expertise
-topics: [macroeconomics, tax_policy, productivity, bitcoin, dollar]
-signal_tier: tactical
-integrated_into: []
----
-
 # Cathie Wood: Productivity-Driven Economic Boom Thesis
 
 ## Core Thesis

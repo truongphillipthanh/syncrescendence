@@ -1,9 +1,3 @@
----
-url: https://x.com/nummanali/status/2021692332849131738
-author: Numman Ali (@nummanali)
-captured_date: 2026-02-13
----
-
 # The Future of Engineering: Self Driving Software
 
 How OpenAI, StrongDM, and I independently arrived at the same process for building software with coding agents.

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-192
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "want"
-  - "2026"
-  - "best"
-  - "year"
-  - "life"
-creator: "Alex Hormozi"
-guest: null
-title: "If you want 2026 to be the best year of your life, please watch this video..."
-url: "https://www.youtube.com/watch?v=vhOV_Od0A3M"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7h 30m 44s"
-has_transcript: no
-synopsis: "If you want 2026 to be the best year of your life, please watch this video... by Alex Hormozi. A lecture covering want, 2026, best."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "If you want 2026"
-  - "If you want 2026 to be"
----
-
 # If you want 2026 to be the best year of your life, please watch this video...
 
 **Channel**: Alex Hormozi

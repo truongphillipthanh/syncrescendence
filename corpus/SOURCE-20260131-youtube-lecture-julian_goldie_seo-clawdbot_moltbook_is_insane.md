@@ -1,37 +1,3 @@
----
-id: SOURCE-20260131-224
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "moltbook"
-  - "insane"
-creator: "Julian Goldie SEO"
-guest: null
-title: "Clawdbot + Moltbook is INSANE!"
-url: "https://www.youtube.com/watch?v=yAbXL6082BI"
-date_published: 2026-01-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "37m 19s"
-has_transcript: no
-synopsis: "Clawdbot + Moltbook is INSANE! by Julian Goldie SEO. A lecture covering clawdbot, moltbook, insane."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawdbot + Moltbook is"
-  - "Clawdbot + Moltbook is INSANE!"
----
-
 # Clawdbot + Moltbook is INSANE!
 
 **Channel**: Julian Goldie SEO

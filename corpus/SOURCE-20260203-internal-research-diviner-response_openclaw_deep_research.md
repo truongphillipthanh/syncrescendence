@@ -1,28 +1,3 @@
----
-id: SOURCE-20260203-004
-original_filename: RESPONSE-DIVINER-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: diviner
-signal_tier: paradigm
-topics:
-  - ai-agents
-  - openclaw
-  - infrastructure
-  - architecture
-  - research
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Diviner response - OpenClaw technical architecture spec"
-synopsis: "Deep technical architecture specification of OpenClaw v2026.2. Documents the Gateway as a persistent event-driven daemon, Agent/Node topology, multi-agent event routing, and the shift from ephemeral cloud chat to local-first persistent agent runtime."
-url: internal
-key_insights:
-  - "OpenClaw's Gateway is a persistent event-driven daemon decoupling agent cognitive runtime from I/O, enabling persistence across UI restarts."
-  - "The Agent/Node topology allows hardware mesh extension — mobile devices expose sensors back to the Gateway, extending agent actuation."
-  - "Multi-agent routing through a single inbound transport represents a novel multiplexing pattern for agent platforms."
----
 # **Technical Architecture Specification: OpenClaw Platform (v2026.2)**
 
 ## **1\. Architectural Topology and System Dynamics**

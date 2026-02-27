@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-413
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "cowork"
-  - "operating"
-  - "system"
-  - "automates"
-creator: "WorldofAI"
-guest: null
-title: "Gemini Cowork: AI Operating System That Automates Your Life! (Opensource)"
-url: "https://www.youtube.com/watch?v=yUU5E-U5B3M"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 18s"
-has_transcript: no
-synopsis: "Gemini Cowork: AI Operating System That Automates Your Life! (Opensource) by WorldofAI. A lecture covering gemini, cowork, operating."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini Cowork: AI Operating"
-  - "Gemini Cowork: AI Operating System That"
----
-
 # Gemini Cowork: AI Operating System That Automates Your Life! (Opensource)
 
 **Channel**: WorldofAI

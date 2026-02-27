@@ -1,28 +1,3 @@
----
-url: https://x.com/RyanHoliday/status/2022732708112212212
-author: "Ryan Holiday (@RyanHoliday)"
-captured_date: 2026-02-14
-id: SOURCE-20260214-008
-original_filename: "20260214-x_article-this_simple_skill_will_put_you_ahead_in_the_era_of_ai-@RyanHoliday.md"
-status: triaged
-platform: x
-format: article
-creator: ryanholiday
-signal_tier: strategic
-topics:
-  - extended-thinking
-  - gpt
-  - inspire-pattern
-teleology: inspire
-notebooklm_category: career-growth
-aliases:
-  - "This Simple Skill Will Put You Ahead In The Era Of AI"
-synopsis: "This Simple Skill Will Put You Ahead In The Era Of AI ![Workspace Image] Opening Positions I do all my research on physical notecards. I only read physical books. If I have to read a research paper or an article, I print it out and go through it with a pen. The book I am working on now is currently laid out on an old school cork bulletin board covered in push pins."
-key_insights:
-  - "This Simple Skill Will Put You Ahead In The Era Of AI ![Workspace Image] Opening Positions I do all my research on physical notecards."
-  - "If I have to read a research paper or an article, I print it out and go through it with a pen."
-  - "The book I am working on now is currently laid out on an old school cork bulletin board covered in push pins."
----
 # This Simple Skill Will Put You Ahead In The Era Of AI
 ![Workspace Image](Description: A man in a black t-shirt with a graphic design sits at a light wood desk facing a computer monitor. His desk is organized with scattered notecards, pen holders filled with writing implements, and various papers. Behind him is a tall shelving unit filled with hundreds of books organized by color and size, demonstrating an extensive personal library. The setting conveys a research-focused, analog-first workspace.)
 ## Opening Positions

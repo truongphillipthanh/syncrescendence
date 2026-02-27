@@ -1,27 +1,3 @@
----
-id: SOURCE-20260203-007
-original_filename: PROMPT-VANGUARD-20260203-openclaw_deep_research.md
-status: triaged
-platform: internal
-format: research
-creator: vanguard
-signal_tier: tactical
-topics:
-  - ai-agents
-  - openclaw
-  - research
-  - orchestration
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Vanguard prompt - OpenClaw deep research medley"
-synopsis: "Research prompt dispatched from Ajna to Vanguard (ChatGPT) as COMPILER — practical implementation patterns and creative expansion for the OpenClaw research medley."
-url: internal
-key_insights:
-  - "Vanguard's compiler role leverages ChatGPT's strength in practical code compilation and creative pattern expansion."
-  - "The medley's 5 roles map to distinct epistemic functions in intelligence gathering."
-  - "This prompt documents the multi-agent research coordination pattern using role-specialized prompts across foundation models."
----
 # PROMPT-VANGUARD-20260203-openclaw_deep_research
 
 **From**: Ajna (OpenClaw, M1 Mac mini)

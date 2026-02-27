@@ -1,39 +1,3 @@
----
-id: SOURCE-20250613-1049
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "built"
-  - "business"
-  - "months"
-  - "step"
-  - "explained"
-creator: "Ali Abdaal"
-guest: null
-title: "He Built a $1M Business in 12 Months - Every Step Explained (Case Study)"
-url: "https://www.youtube.com/watch?v=f7IECetqDLY"
-date_published: 2025-06-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 40m 14s"
-has_transcript: no
-synopsis: "He Built a $1M Business in 12 Months - Every Step Explained (Case Study) by Ali Abdaal. A interview covering built, business, months."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "He Built a $1M"
-  - "He Built a $1M Business in"
----
-
 # He Built a $1M Business in 12 Months - Every Step Explained (Case Study)
 
 **Channel**: Ali Abdaal

@@ -1,31 +1,3 @@
----
-id: SOURCE-20260107-website-article-producttalk-how_to_use_claude_code_a_guide
-platform: website
-format: article
-creator: producttalk
-title: how to use claude code a guide
-status: triaged
-original_filename: 20260107-website-how_to_use_claude_code_a_guide--producttalk.md
-url: https://agentskills.io/specification
-domain: agentskills.io
-content_type: documentation
-captured_date: 2026-01-24
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "developer-tools"
-  - "ai-agents"
-  - "reference"
-teleology: reference
-notebooklm_category: claude-code
-aliases:
-  - "ProductTalk - Claude Code Skills Guide"
-synopsis: "Complete format specification for Agent Skills in Claude Code. Defines the skills format, directory structure, configuration options, and how skills integrate with the Claude Code harness for extensible agent capabilities."
-key_insights:
-  - "Agent Skills provide a standardized format for extending Claude Code capabilities beyond built-in tools"
-  - "Skills integrate with the Claude Code harness through defined directory structure and configuration patterns"
-  - "The specification enables community-built extensions that plug into Claude Code workflows"
----
 # Specification
 
 The complete format specification for Agent Skills.

@@ -1,9 +1,3 @@
----
-url: "https://x.com/EXM7777/status/2013258826259005636"
-author: "Machina (@EXM7777)"
-captured_date: "2026-01-30"
----
-
 # How to Master the One Concept That Rules Our World
 
 (Description: Black and white photograph of two hands playing chess at a table, with one hand moving a piece. A glass of whiskey sits on the side of the board. The image conveys strategic thinking and high-stakes decision-making.)

@@ -1,31 +1,3 @@
----
-url: https://x.com/_VVSVS/status/2020060955665641946
-author: "Ivan — VVSVS™ (@_VVSVS)"
-captured_date: 2026-02-07
-id: SOURCE-20260207-002
-original_filename: "20260207-x_article-the_compounding_creative_four_stages_that_separate_who_survives_the_ai_era_from_who_doesn't-@_vvsvs.md"
-status: triaged
-platform: x
-format: article
-creator: _vvsvs
-signal_tier: strategic
-topics:
-  - prompting
-  - extended-thinking
-  - codex
-  - architecture
-  - rag
-  - cli-tools
-teleology: synthesize
-notebooklm_category: career-growth
-aliases:
-  - "The creative industry isnt dying Its sorting"
-synopsis: "The creative industry isn't dying. The Compounding Creative: four stages that separate who survives the AI era from who doesn't. There are four types of creatives right now. Only one of them is building something that lasts. This isn't about talent. It isn't about which tool you use, how many followers you have, or whether you jumped on AI early."
-key_insights:
-  - "How to approach a frame like a director, not a prompter."
-  - "And a handful of hobbyist developers, in a single weekend, packaged a tool that made cinematic knowledge instantly actionable for thousands of people who will never read my codex."
-  - "Buckminster Fuller called it decades ago: "You never change things by fighting the existing reality."
----
 # The creative industry isn't dying. It's sorting.
 
 ## The Compounding Creative: four stages that separate who survives the AI era from who doesn't.

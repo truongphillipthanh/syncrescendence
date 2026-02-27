@@ -1,16 +1,3 @@
----
-id: SOURCE-20251031-youtube-interview-allin-elon_musk
-title: Elon Musk on 3 Years of X, OpenAI Lawsuit, and The Future of Everything
-creator: All-In Podcast
-guest: Elon Musk
-date_published: 2025-10-31
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: [Intelligence, Information, Insight, Expertise]
-integration_targets: [CANON-00015-MACROSCOPIC_NARRATIVES, CANON-30000-INTELLIGENCE, CANON-00009-STRATEGY]
----
-
 # Elon Musk on 3 Years of X, OpenAI Lawsuit, and The Future of Everything
 
 ## Executive Summary

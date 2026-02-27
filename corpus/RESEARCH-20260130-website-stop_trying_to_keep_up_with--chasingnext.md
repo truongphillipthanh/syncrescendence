@@ -1,13 +1,3 @@
----
-url: https://www.chasingnext.com/stop-trying-to-keep-up-with-every-ai-launch/
-title: Stop Trying to Keep Up With Every AI Launch
-domain: chasingnext.com
-author: Riley
-published_date: 2026-01-06
-captured_date: 2026-01-30
-content_type: article
----
-
 # Stop Trying to Keep Up With Every AI Launch
 
 Your AI Advantage Weekly

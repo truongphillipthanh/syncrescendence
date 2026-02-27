@@ -1,37 +1,3 @@
----
-id: SOURCE-20251126-980
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "global"
-  - "class"
-  - "hierarchies"
-  - "explained"
-creator: "Analyzing Finance with Nick"
-guest: null
-title: "Global Class Hierarchies Explained"
-url: "https://www.youtube.com/watch?v=GKyuUa0o9Hc"
-date_published: 2025-11-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "56m 51s"
-has_transcript: no
-synopsis: "Global Class Hierarchies Explained by Analyzing Finance with Nick. A lecture covering global, class, hierarchies."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Global Class Hierarchies Explained"
----
-
 # Global Class Hierarchies Explained
 
 **Channel**: Analyzing Finance with Nick

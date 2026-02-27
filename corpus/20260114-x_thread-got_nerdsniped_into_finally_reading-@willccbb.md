@@ -1,9 +1,3 @@
----
-url: https://x.com/willccbb/status/2011509849268596830
-author: will brown (@willccbb)
-captured_date: 2026-01-14
----
-
 # Thread: Gas Town Post Commentary
 
 ## Post 1

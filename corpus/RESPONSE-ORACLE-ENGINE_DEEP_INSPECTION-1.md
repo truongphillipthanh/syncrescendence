@@ -1,11 +1,3 @@
----
-agent: oracle
-council: DC-202
-topic: DC-202 Engine Deep Inspection — Session 1 synthesis (147-file audit, executive summary, per-file verdicts 1–28)
-status: unprocessed
-collected: 2026-02-23
----
-
 **RESULT-ORACLE-DC202-ENGINE_DEEP_INSPECTION.md**
 
 **1. Executive Summary**

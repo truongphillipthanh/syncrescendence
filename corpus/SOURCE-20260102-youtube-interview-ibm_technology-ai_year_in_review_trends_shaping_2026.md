@@ -1,39 +1,3 @@
----
-id: SOURCE-20260102-653
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "year"
-  - "review"
-  - "trends"
-  - "shaping"
-  - "2026"
-creator: "IBM Technology"
-guest: null
-title: "AI year in review: Trends shaping 2026"
-url: "https://www.youtube.com/watch?v=ARXS-uk19h8"
-date_published: 2026-01-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38m 38s"
-has_transcript: no
-synopsis: "AI year in review: Trends shaping 2026 by IBM Technology. A interview covering year, review, trends."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "AI year in review:"
-  - "AI year in review: Trends shaping"
----
-
 # AI year in review: Trends shaping 2026
 
 **Channel**: IBM Technology

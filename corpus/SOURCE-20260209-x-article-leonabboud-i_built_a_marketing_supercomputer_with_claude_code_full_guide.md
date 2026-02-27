@@ -1,21 +1,3 @@
----
-url: https://x.com/leonabboud/status/2020821834296414279
-author: "Leon Abboud (@leonabboud)"
-captured_date: 2026-02-13
-id: SOURCE-20260209-002
-original_filename: "20260209-x_article-i_built_a_marketing_supercomputer_with_claude_code_full_guide-@leonabboud.md"
-status: triaged
-platform: x
-format: article
-creator: leonabboud
-signal_tier: tactical
-topics: [claude-code, content-creation, marketing]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["leonabboud - Marketing Supercomputer Claude Code"]
-synopsis: "Full guide to building a marketing supercomputer with Claude Code by embedding the strategic frameworks of marketing legends (Hormozi, Bezos, Godin) as AI-accessible personas for on-demand business advice."
-key_insights: ["Expert persona embedding turns Claude Code into domain-specific strategic advisors", "Marketing frameworks from historical experts can be operationalized as AI consultants", "Multi-persona systems enable cross-disciplinary pressure-testing of business decisions"]
----
 # I built a Marketing Supercomputer with Claude Code (Full Guide)
 
 I put the greatest marketing minds in history inside my laptop, here's how. What if you could ask Elon Musk about how he would go about building a monopoly in your industry?

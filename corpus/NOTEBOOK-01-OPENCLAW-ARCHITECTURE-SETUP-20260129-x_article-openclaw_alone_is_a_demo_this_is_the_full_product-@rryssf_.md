@@ -1,9 +1,3 @@
----
-url: https://x.com/rryssf_/status/2016900174769963042
-author: Robert Youssef (@rryssf_)
-captured_date: 2026-01-29
----
-
 # openclaw alone is a demo. this is the full product.
 
 (Description: Two illustrated characters connected by a plus sign on a dark space-themed background. Left: a red rounded character with cyan eyes and small ears. Right: a warm-toned smiling character with large purple eyes and floating colorful orbs above it, representing AI agents combining capabilities.)

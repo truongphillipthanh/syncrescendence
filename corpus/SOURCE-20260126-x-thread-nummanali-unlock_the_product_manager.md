@@ -1,22 +1,3 @@
----
-id: SOURCE-20260126-x-thread-nummanali-unlock_the_product_manager
-platform: x
-format: thread
-creator: nummanali
-title: unlock the product manager
-status: triaged
-original_filename: "20260126-x_thread-unlock_the_product_manager-@nummanali.md"
-url: https://x.com/nummanali/status/2015904199280652426
-author: "Numman Ali (@nummanali)"
-captured_date: 2026-01-26
-signal_tier: tactical
-topics: ""
-teleology: implement
-notebooklm_category: coding-tools
-aliases: ""
-synopsis: ""
-key_insights: ""
----
 # Unlock the Product Manager in Codex v0.91.0
 
 Unlock the Product Manager in Codex v0.91.0 comes with Plan Mode > codex --enable colloboration_modes

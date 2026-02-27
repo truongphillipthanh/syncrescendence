@@ -1,28 +1,3 @@
----
-url: https://x.com/theo/status/2018091358251372601
-author: "Theo - t3.gg (@theo)"
-captured_date: 2026-02-01
-id: SOURCE-20260201-006
-original_filename: "20260201-x_article-the_agentic_code_problem-@theo.md"
-status: triaged
-platform: x
-format: article
-creator: theo
-signal_tier: tactical
-topics:
-  - claude-code
-  - developer-tools
-  - opinion
-teleology: contextualize
-notebooklm_category: claude-code
-aliases:
-  - "Theo - agentic code problem"
-synopsis: "Theo (t3.gg) identifies the UX problem of running multiple parallel Claude Code workflows: when a notification sounds, you don't know which terminal tab finished. Highlights the emerging developer ergonomics challenge of managing multiple concurrent AI agent sessions across terminals, IDEs, and browsers."
-key_insights:
-  - "Running multiple parallel agentic coding sessions creates a new UX problem — managing attention across terminals, IDEs, and browser tabs for different projects."
-  - "The notification/context-switching overhead of parallel agent workflows is an unsolved developer ergonomics challenge."
-  - "As parallel agent sessions become the productivity standard, tooling must evolve to provide better session management and routing."
----
 # The Agentic Code Problem
 
 (Description: Diagram showing three projects (A, B, C) split across Terminal, IDE, and Browser tabs with specific ports and services labeled for each project)

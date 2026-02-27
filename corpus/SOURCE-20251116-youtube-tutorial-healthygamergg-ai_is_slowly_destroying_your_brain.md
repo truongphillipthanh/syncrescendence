@@ -1,37 +1,3 @@
----
-id: SOURCE-20251116-1086
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "slowly"
-  - "destroying"
-  - "brain"
-creator: "HealthyGamerGG"
-guest: null
-title: "AI Is Slowly Destroying Your Brain"
-url: "https://www.youtube.com/watch?v=MW6FMgOzklw"
-date_published: 2025-11-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "21m 37s"
-has_transcript: no
-synopsis: "AI Is Slowly Destroying Your Brain by HealthyGamerGG. A tutorial covering slowly, destroying, brain."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI Is Slowly Destroying"
-  - "AI Is Slowly Destroying Your Brain"
----
-
 # AI Is Slowly Destroying Your Brain
 
 **Channel**: HealthyGamerGG

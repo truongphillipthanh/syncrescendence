@@ -1,27 +1,3 @@
----
-url: https://x.com/Legendaryy/status/2022969521271615867
-author: Legendary
-handle: Legendaryy
-published_date: February 15, 2026
-captured_date: February 21, 2026
-post_count: 2
-id: SOURCE-20260215-019
-original_filename: "20260215-x_thread-this_should_get_way_more_attention_christopher-@legendaryy.md"
-status: triaged
-platform: x
-format: thread
-creator: legendaryy
-signal_tier: tactical
-topics: [ai-agents, developer-tools, mcp]
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ["legendaryy - Grok integration for OpenClaw"]
-synopsis: "Highlights a Grok integration for OpenClaw built by X's head of cybersecurity, enabling real-time X/Twitter search and web search via xAI API. Installable via clawhub install grok."
-key_insights:
-  - "Grok skill enables OpenClaw agents to search X and the web in real-time with domain/handle filtering"
-  - "Built by X's head of cybersecurity, adding credibility to the integration's security posture"
-  - "Simple one-command install (clawhub install grok) with just an xAI API key required"
----
 ## Post 1
 This should get way more attention!
 Christopher who's head of cyber security at X built a grok integration for openclaw.

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-085
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "update"
-  - "changes"
-  - "claude"
-  - "forever"
-  - "more"
-creator: "The AI Advantage"
-guest: null
-title: "This Update Changes Claude Forever & More AI News You Can Use"
-url: "https://www.youtube.com/watch?v=aU5jApm8fWU"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 50s"
-has_transcript: no
-synopsis: "This Update Changes Claude Forever & More AI News You Can Use by The AI Advantage. A tutorial covering update, changes, claude."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "This Update Changes Claude"
-  - "This Update Changes Claude Forever &"
----
-
 # This Update Changes Claude Forever & More AI News You Can Use
 
 **Channel**: The AI Advantage

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-389
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "satya"
-  - "nadella"
-  - "business"
-  - "revolution"
-  - "happens"
-creator: "All-In Podcast"
-guest: null
-title: "Satya Nadella on AI’s Business Revolution: What Happens to SaaS, OpenAI, and Microsoft?"
-url: "https://www.youtube.com/watch?v=5nCbHsCG334"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "32m"
-has_transcript: no
-synopsis: "Satya Nadella on AI’s Business Revolution: What Happens to SaaS, OpenAI, and Microsoft? by All-In Podcast. A lecture covering satya, nadella, business."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "Satya Nadella on AI’s"
-  - "Satya Nadella on AI’s Business Revolution:"
----
-
 # Satya Nadella on AI’s Business Revolution: What Happens to SaaS, OpenAI, and Microsoft?
 
 **Channel**: All-In Podcast

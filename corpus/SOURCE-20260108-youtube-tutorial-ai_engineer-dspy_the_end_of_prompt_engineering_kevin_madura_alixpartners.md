@@ -1,39 +1,3 @@
----
-id: SOURCE-20260108-525
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "dspy"
-  - "end"
-  - "prompt"
-  - "engineering"
-  - "kevin"
-creator: "AI Engineer"
-guest: null
-title: "DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners"
-url: "https://www.youtube.com/watch?v=-cKUW6n8hBU"
-date_published: 2026-01-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 13m 13s"
-has_transcript: no
-synopsis: "DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners by AI Engineer. A tutorial covering dspy, end, prompt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "DSPy: The End of"
-  - "DSPy: The End of Prompt Engineering"
----
-
 # DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners
 
 **Channel**: AI Engineer

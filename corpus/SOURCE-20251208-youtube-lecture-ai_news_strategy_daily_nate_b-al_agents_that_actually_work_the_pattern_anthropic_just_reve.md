@@ -1,39 +1,3 @@
----
-id: SOURCE-20251208-873
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "agents"
-  - "actually"
-  - "work"
-  - "pattern"
-  - "anthropic"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Al Agents That Actually Work: The Pattern Anthropic Just Revealed"
-url: "https://www.youtube.com/watch?v=xNcEgqzlPqs"
-date_published: 2025-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 36s"
-has_transcript: no
-synopsis: "Al Agents That Actually Work: The Pattern Anthropic Just Revealed by AI News & Strategy Daily | Nate B Jones. A lecture covering agents, actually, work."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Al Agents That Actually"
-  - "Al Agents That Actually Work: The"
----
-
 # Al Agents That Actually Work: The Pattern Anthropic Just Revealed
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

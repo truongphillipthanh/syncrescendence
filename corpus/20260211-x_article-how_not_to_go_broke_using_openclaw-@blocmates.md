@@ -1,9 +1,3 @@
----
-url: https://x.com/blocmates/status/2021592071912714256
-author: blocmates (@blocmates)
-captured_date: 2026-02-11
----
-
 # How Not To Go Broke Using OpenClaw
 
 (Description: A dark, moody graphic featuring a stylized claw or creature silhouette in red/orange tones with the text "ClawRouter" prominently displayed)

@@ -1,30 +1,3 @@
----
-url: https://x.com/zachlloydtweets/status/2022336577087705417
-author: "Zach Lloyd (@zachlloydtweets)"
-captured_date: 2026-02-13
-id: SOURCE-20260213-017
-original_filename: "20260213-x_article-we_need_to_solve_multi_agent_collaboration-@zachlloydtweets.md"
-status: triaged
-platform: x
-format: article
-creator: zachlloydtweets
-signal_tier: strategic
-topics:
-  - ai-agents
-  - testing
-  - memory-management
-  - extended-thinking
-  - multi-agent
-teleology: strategize
-notebooklm_category: ai-agents
-aliases:
-  - "We need to solve multiagent collaboration"
-synopsis: "We need to solve multi-agent collaboration connect each box sequentially.) I recently wrote about how [this year development will move to the cloud]( because agents need to scale off of our laptops. Moving to the cloud solves our scaling problem, but I've also been thinking about how to solve the orchestration problem."
-key_insights:
-  - "Many approaches are going to be viable..."
-  - "That's why I'm less interested in finding the perfect orchestration pattern, and much more interested in getting the primitives right for the community to test these different approaches."
-  - "The primary challenge for teams of agents is setting an established communication pattern, and tracking their memory as they work."
----
 # We need to solve multi-agent collaboration
 
 (Description: A visual diagram titled "The primitives" showing four connected boxes with colored borders arranged horizontally. From left to right: a yellow-bordered box labeled "Agents", a blue-bordered box labeled "Cloud runners", an orange-bordered box labeled "Message passing", and a green-bordered box labeled "Persistent storage". Plus signs (+) connect each box sequentially.)

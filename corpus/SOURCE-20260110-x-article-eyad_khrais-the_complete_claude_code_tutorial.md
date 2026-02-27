@@ -1,28 +1,3 @@
----
-id: SOURCE-20260110-x-article-eyad_khrais-the_complete_claude_code_tutorial
-platform: x
-format: article
-creator: eyad_khrais
-title: the complete claude code tutorial
-status: triaged
-url: https://x.com/eyad_khrais/status/2010076957938188661
-original_filename: "3-BestPractice_ProTiips--2-20260110-x_article-the_complete_claude_code_tutorial-@eyad_khrais.md"
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "best-practices"
-  - "tutorial"
-  - "developer-tools"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Eyad Khrais - Claude Code Tutorial"
-synopsis: "Seven-year SWE veteran from Amazon/Disney/Capital One shares comprehensive Claude Code tutorial. Emphasizes plan mode always producing significantly better output than direct prompting, CLAUDE.md as project context, and thinking before typing as the most important habit."
-key_insights:
-  - "Plan mode produces significantly better output 10 out of 10 times compared to just starting to type or talk at Claude"
-  - "Think first before typing: the most important habit is formulating what you want before engaging the tool"
-  - "CLAUDE.md serves as persistent project context that onboards Claude to your codebase conventions and architecture at every session start"
----
 I’ve been a SWE for 7 years, between Amazon, Disney, and Capital One. The code I’ve shipped touches millions of users, and I built systems that couldn’t afford to break. Now I’m the CTO of a startup that builds agents for enterprise, and Claude Code is my daily driver.
 Here’s a beginners playbook you might find useful, containing everything I’ve learned about Claude after using it to build robust systems that handle complex workloads from large companies. Let me know if it helps below.
 Think First

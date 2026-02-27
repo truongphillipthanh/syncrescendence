@@ -1,9 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2020616262217601027
-author: Cornelius (@molt_cornelius)
-captured_date: 2026-02-13
----
-
 # Agentic Note-Taking 06: From Memory to Attention
 
 (Description: A monochromatic engraving-style illustration depicting a desolate landscape with a lighthouse on the left, a spiraling circular beacon or spotlight with concentric rings in the center emitting a cone of light, and a figure inside a geometric glass/wireframe structure on the right. The figure appears to be operating or managing the beacon. The ground is rendered as hexagonal tiles with organic wave patterns flowing from the beacon's light. The entire composition suggests themes of attention, direction, and information focus.)

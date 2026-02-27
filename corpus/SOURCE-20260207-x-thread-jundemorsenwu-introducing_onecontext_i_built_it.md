@@ -1,21 +1,3 @@
----
-url: https://x.com/JundeMorsenWu/status/2020161412593774922
-author: "JUNDE WU (@JundeMorsenWu)"
-captured_date: 2026-02-14
-id: SOURCE-20260207-018
-original_filename: "20260207-x_thread-introducing_onecontext_i_built_it-@jundemorsenwu.md"
-status: triaged
-platform: x
-format: thread
-creator: jundemorsenwu
-signal_tier: strategic
-topics: [ai-agents, developer-tools, ai-engineering, announcement]
-teleology: extract
-notebooklm_category: ai-agents
-aliases: ["Junde Wu - OneContext"]
-synopsis: "Introduces OneContext, an agent self-managed context layer that persists across different sessions, devices, and coding agents (Codex/Claude Code). Built for personal use but shared because the creator could no longer work without it."
-key_insights: ["Cross-session, cross-device, cross-agent context persistence is a critical missing infrastructure layer", "OneContext enables agents to self-manage their own context rather than relying on per-session memory", "The tool bridges the gap between Codex and Claude Code by providing a shared context layer"]
----
 # OneContext: Agent Self-Managed Context Layer
 
 ## Post 1 — Feb 7, 2026

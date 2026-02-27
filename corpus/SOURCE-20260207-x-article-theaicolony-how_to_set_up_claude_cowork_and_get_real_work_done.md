@@ -1,21 +1,3 @@
----
-url: https://x.com/TheAIColony/status/2020162022135022054
-author: "The AI Colony (@TheAIColony)"
-captured_date: 2026-02-13
-id: SOURCE-20260207-014
-original_filename: "20260207-x_article-how_to_set_up_claude_cowork_and_get_real_work_done-@theaicolony.md"
-status: triaged
-platform: x
-format: article
-creator: theaicolony
-signal_tier: tactical
-topics: [claude-code, automation, tutorial]
-teleology: implement
-notebooklm_category: claude-code
-aliases: ["AI Colony - Claude Cowork Setup"]
-synopsis: "Practical setup guide for Claude Cowork, Anthropic's autonomous task execution mode where Claude works independently on entire tasks (file organization, document creation, data processing) while the user does something else. Covers setup and effective usage patterns."
-key_insights: ["Cowork shifts from chat-based interaction to task delegation — give an entire task and let Claude work independently", "The key difference from regular Claude is autonomous execution: Claude can organize files, create documents, and process data without supervision", "Effective Cowork usage requires clear task scoping upfront since the AI works without real-time feedback"]
----
 # How to Set Up Claude Cowork and Get Real Work Done
 
 (Description: Article header image featuring an orange app icon with a white lightning bolt symbol, alongside blue and black text reading "Claude Cowork: What Actually Works")

@@ -1,24 +1,3 @@
----
-url: https://x.com/austin_hurwitz/status/2023132187466641771
-author: "austin (@austin_hurwitz)"
-captured_date: 2026-02-20
-id: SOURCE-20260215-004
-original_filename: "20260215-x_article-the_ultimate_openclaw_setup_point_your_agent_here-@austin_hurwitz.md"
-status: triaged
-platform: x
-format: article
-creator: austin_hurwitz
-signal_tier: paradigm
-topics: [ai-agents, automation, best-practices, tutorial, developer-tools]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["austin_hurwitz - ultimate openclaw setup guide"]
-synopsis: "Comprehensive guide to deploying a persistent AI agent with OpenClaw, covering workspace structure (AGENTS.md, SOUL.md, MEMORY.md), file-based memory systems, heartbeat self-checks, skill design, security posture, and observability. Provides a complete replication checklist from install to autonomous operation."
-key_insights:
-  - "Permission boundaries matter more than personality tuning - clear rules on autonomous vs approval-required actions"
-  - "File-based memory with active-tasks.md for crash recovery eliminates 'what were we doing' conversations"
-  - "The files are the product, the AI is just the runtime - workspace harness is the real breakthrough"
----
 # The Ultimate OpenClaw Setup (Point Your Agent Here)
 (Description: A surreal digital illustration featuring a peculiar pink/mauve creature with distinctive vertical-slit reptilian eyes, spiky textured skin, and an upright posture. The being holds a wooden stick-like implement and stands before an open bright neon-green plastic bin or container against a cracked, weathered concrete or tile background. The contrast between the organic creature and industrial environment creates a deliberately unsettling, whimsical effect.)
 A complete guide to deploying a persistent AI agent with memory, automation, and integrations. Point your agent directly at this article and watch them fly.

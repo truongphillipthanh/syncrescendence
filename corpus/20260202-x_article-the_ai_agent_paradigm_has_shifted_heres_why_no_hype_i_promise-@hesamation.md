@@ -1,9 +1,3 @@
----
-url: https://x.com/Hesamation/status/2018442787054911543
-author: ℏεsam (@Hesamation)
-captured_date: 2026-02-02
----
-
 # The AI Agent Paradigm Has Shifted. Here's Why. (No Hype, I Promise)
 
 (Description: Article title card with illustration showing a person wearing headphones and pink clothing with two red blob-like creatures beside them. Large text overlay reads "Agents Just Got Weird" with yellow underline on a black background.)

@@ -1,31 +1,3 @@
----
-id: SOURCE-20260119-x-article-damianplayer-the_people_learning_this_now_will_be_untouchable_in_3_months
-platform: x
-format: article
-creator: damianplayer
-title: the people learning this now will be untouchable in 3 months
-status: triaged
-original_filename: "20260119-x_article-the_people_learning_this_now_will_be_untouchable_in_3_months-@damianplayer.md"
-url: https://x.com/damianplayer/status/2013338667964604909
-author: "Damian Player (@damianplayer)"
-captured_date: 2026-01-24
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "ai-agents"
-  - "vibe-coding"
-  - "automation"
-  - "developer-tools"
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Damian Player - Ralph Autonomous Coding"
-synopsis: "Introduces Ralph, an Anthropic AI agent that builds software autonomously while you sleep. You give it a list of small tasks, it picks one, builds it, tests it, saves it, and repeats. Argues normal AI coding fails because people lack plans and AI loses context."
-key_insights:
-  - "Ralph operates as an autonomous loop: pick task, build, test, save, repeat - enabling overnight software development without human supervision"
-  - "The key insight is decomposing work into small atomic tasks rather than giving AI a big vague idea, solving the context loss problem"
-  - "Normal AI coding fails because people start with no plan and hit frustration loops: Ralph forces structured task decomposition upfront"
----
 # The People Learning This Now Will Be Untouchable in 3 Months
 
 (Description: Header image showing "RALPH BY ANTHROPIC" in bold yellow text with a white sketch illustration of Ralph Wiggum from The Simpsons on the right side, known for naive, relentless persistence)

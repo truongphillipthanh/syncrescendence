@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-283
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ranked"
-  - "feature"
-  - "most"
-  - "waste"
-  - "time"
-creator: "Dylan Davis"
-guest: null
-title: "I Ranked Every AI Feature (Most Are a Waste of Time)"
-url: "https://www.youtube.com/watch?v=8w4ZH73z97g"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "18m 39s"
-has_transcript: no
-synopsis: "I Ranked Every AI Feature (Most Are a Waste of Time) by Dylan Davis. A lecture covering ranked, feature, most."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "I Ranked Every AI"
-  - "I Ranked Every AI Feature (Most"
----
-
 # I Ranked Every AI Feature (Most Are a Waste of Time)
 
 **Channel**: Dylan Davis

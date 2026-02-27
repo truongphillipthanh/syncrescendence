@@ -1,39 +1,3 @@
----
-id: SOURCE-20251212-856
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "need"
-  - "know"
-  - "before"
-  - "gets"
-  - "too"
-creator: "Dylan Curious"
-guest: null
-title: "What You Need to Know Before AI Gets Too Smart"
-url: "https://www.youtube.com/watch?v=odwMIsk11lo"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "25m 13s"
-has_transcript: no
-synopsis: "What You Need to Know Before AI Gets Too Smart by Dylan Curious. A lecture covering need, know, before."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "What You Need to"
-  - "What You Need to Know Before"
----
-
 # What You Need to Know Before AI Gets Too Smart
 
 **Channel**: Dylan Curious

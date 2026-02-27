@@ -1,35 +1,3 @@
----
-id: SOURCE-20251214-825
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gpt"
-  - "matters"
-creator: "Caleb Writes Code"
-guest: null
-title: "GPT-5.2, Why it matters"
-url: "https://www.youtube.com/watch?v=soylxlt-l9c"
-date_published: 2025-12-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 58s"
-has_transcript: no
-synopsis: "GPT-5.2, Why it matters by Caleb Writes Code. A lecture covering gpt, matters."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "GPT-5.2, Why it matters"
----
-
 # GPT-5.2, Why it matters
 
 **Channel**: Caleb Writes Code

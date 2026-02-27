@@ -1,32 +1,3 @@
----
-id: SOURCE-undated-015
-title: The Swarm Has Arrived
-platform: x
-format: transcript
-creator: seejayhess
-date_published: "2026-01-24"
-status: triaged
-url: https://x.com/seejayhess/status/2015148706471846275
-original_filename: research/x-bookmarks/TRANS-seejayhess-the_swarm_has_arrived.md
-aliases:
-  - "Swarm Has Arrived"
-  - "Claude Code Task System Swarm"
-teleology: extract
-notebooklm_category: claude-code
-synopsis: "CJ Hess analyzes Claude Code's task system as a breakthrough multi-agent coordination layer, not just a to-do list. Each task spawns an isolated 200K-token sub-agent; dependencies auto-unblock in waves. Tested during a large auth refactor where hierarchical agent swarms coordinated through shared dependency graphs with persistent state across sessions."
-key_insights:
-  - "Claude Code's task system is a coordination layer for hierarchical multi-agent swarms — tasks survive /clear, session restarts, and terminal closes via CLAUDE_CODE_TASK_LIST_ID"
-  - "Context isolation is the key feature: each sub-agent gets its own 200K window so auth-focused work doesn't pollute schema-focused work"
-  - "Dependencies baked into task structure replace active coordination — blocked items auto-unblock when predecessors complete, enabling wave-based parallel execution"
-topics:
-  - claude-code
-  - ai-agents
-  - automation
-  - developer-tools
-  - best-practices
-signal_tier: strategic
----
-
 # The Swarm Has Arrived
 > **Author**: CJ Hess (@seejayhess)
 > **Date**: January 24, 2026 · 11:44 AM

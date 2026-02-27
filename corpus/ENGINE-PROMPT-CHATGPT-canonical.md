@@ -1,11 +1,3 @@
----
-id: chatgpt-canonical-system-prompt
-kind: system_prompt
-scope: global
-target: chatgpt
-version: 2.1
----
-
 # PROMPT-CHATGPT-canonical
 ## Reception Calibration System Prompt
 

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-534
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "mathematician"
-  - "edward"
-  - "frenkel"
-  - "finding"
-  - "meaning"
-creator: "London Institute for Mathematical Sciences"
-guest: null
-title: "Mathematician Edward Frenkel on finding meaning in the AI age."
-url: "https://www.youtube.com/watch?v=rMTXgMw4KqY"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 46m 11s"
-has_transcript: no
-synopsis: "Mathematician Edward Frenkel on finding meaning in the AI age. by London Institute for Mathematical Sciences. A panel discussion covering mathematician, edward, frenkel."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Mathematician Edward Frenkel on"
-  - "Mathematician Edward Frenkel on finding meaning"
----
-
 # Mathematician Edward Frenkel on finding meaning in the AI age.
 
 **Channel**: London Institute for Mathematical Sciences

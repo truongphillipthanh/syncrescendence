@@ -1,30 +1,3 @@
----
-id: SOURCE-undated-014
-title: Hardware Homelab
-platform: x
-format: transcript
-creator: oprydai
-date_published: "2026-02-04"
-status: triaged
-url: https://x.com/oprydai/status/2018910834815381833
-original_filename: research/x-bookmarks/TRANS-oprydai-hardware_homelab.md
-aliases:
-  - "Hardware Homelab Guide"
-  - "Oprydai Homelab Tiers"
-teleology: reference
-notebooklm_category: general
-synopsis: "First-principles tiered breakdown of hardware homelab equipment for robotics, embedded systems, IoT, and hardware startups. Three tiers (basic, intermediate, advanced) with every item commonly available on Amazon. Emphasizes buying tools not toys, preferring general instruments over niche gadgets, and growing the lab with skill not aesthetics."
-key_insights:
-  - "A hardware homelab is private infrastructure for learning and shipping, not a maker aesthetic — optimize for repairability, measurement, and iteration speed"
-  - "Buy general instruments over niche gadgets: a good oscilloscope and logic analyzer serve across all projects while specialized tools become deadweight"
-  - "Start with foundation layer (soldering, breadboard, basic components) and grow with demonstrated skill, not anticipated needs"
-topics:
-  - tutorial
-  - reference
-  - best-practices
-signal_tier: noise
----
-
 # How to Build a Hardware Homelab
 > **Author**: Mustafa (@oprydai)
 > **Date**: February 3, 2026 · 8:53 PM

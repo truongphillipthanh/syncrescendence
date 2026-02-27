@@ -1,39 +1,3 @@
----
-id: SOURCE-20260125-336
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "nvidia"
-  - "new"
-  - "voice"
-  - "absolutely"
-  - "wild"
-creator: "Better Stack"
-guest: null
-title: "NVIDIA’s New Voice AI is Absolutely WILD! (PersonaPlex)"
-url: "https://www.youtube.com/watch?v=n_m0fqp8xwQ"
-date_published: 2026-01-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 39s"
-has_transcript: no
-synopsis: "NVIDIA’s New Voice AI is Absolutely WILD! (PersonaPlex) by Better Stack. A tutorial covering nvidia, new, voice."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "NVIDIA’s New Voice AI"
-  - "NVIDIA’s New Voice AI is Absolutely"
----
-
 # NVIDIA’s New Voice AI is Absolutely WILD! (PersonaPlex)
 
 **Channel**: Better Stack

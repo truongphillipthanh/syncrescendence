@@ -1,39 +1,3 @@
----
-id: SOURCE-20260217-038
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "sonnet"
-  - "just"
-  - "released"
-  - "greatest"
-creator: "Alex Finn"
-guest: null
-title: "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?"
-url: "https://www.youtube.com/watch?v=HjQ5ty3_X_0"
-date_published: 2026-02-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 19s"
-has_transcript: no
-synopsis: "Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever? by Alex Finn. A tutorial covering claude, sonnet, just."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Sonnet 4.6 just"
-  - "Claude Sonnet 4.6 just released. Greatest"
----
-
 # Claude Sonnet 4.6 just released. Greatest model for OpenClaw ever?
 
 **Channel**: Alex Finn

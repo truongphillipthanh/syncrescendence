@@ -1,28 +1,3 @@
----
-url: https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the?r=i5f7&triedRedirect=true
-title: A Guide to Which AI to Use in the Agentic Era
-domain: oneusefulthing.org
-author: Ethan Mollick
-published_date: 2026-02-17
-captured_date: 2026-02-21
-content_type: article
-id: SOURCE-20260217-001
-original_filename: 20260217-website-a-guide-to-which-ai-oneusefulthing.md
-status: triaged
-platform: website
-format: article
-creator: oneusefulthing
-signal_tier: paradigm
-topics: [ai-landscape, developer-tools, ai-agents, product-strategy, philosophy]
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases: ["oneusefulthing - AI guide for the agentic era"]
-synopsis: "Ethan Mollick's comprehensive guide to the AI landscape in 2026, introducing the Models/Apps/Harnesses framework. Covers the shift from chatbots to agents, comparing Claude Opus 4.6, GPT-5.2, and Gemini 3 Pro across chatbot interfaces, coding tools (Claude Code, Codex, Antigravity), and new apps like Claude Cowork, NotebookLM, and OpenClaw. Argues the harness now matters more than the model."
-key_insights:
-  - "The Models/Apps/Harnesses framework: same model behaves very differently depending on its harness — harness now matters more than model selection"
-  - "Claude Cowork is 'Claude Code for non-technical work' — runs on desktop with VM isolation, built by Claude Code in two weeks, signals where all AI is heading"
-  - "The shift from chatbot to agent is the most important change in how people use AI since ChatGPT launched — AI that does things is fundamentally more useful than AI that says things"
----
 # A Guide to Which AI to Use in the Agentic Era
 It's not just chatbots anymore
 By Ethan Mollick | Feb 17, 2026

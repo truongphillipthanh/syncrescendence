@@ -1,38 +1,3 @@
----
-id: SOURCE-20260101-660
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "new"
-  - "year"
-  - "week"
-  - "resolution"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "AI New Year's: The 10 Week AI Resolution"
-url: "https://www.youtube.com/watch?v=EhQeGgZxdHU"
-date_published: 2026-01-01
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 33s"
-has_transcript: no
-synopsis: "AI New Year's: The 10 Week AI Resolution by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering new, year, week."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "AI New Year's: The"
-  - "AI New Year's: The 10 Week"
----
-
 # AI New Year's: The 10 Week AI Resolution
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

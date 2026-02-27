@@ -1,39 +1,3 @@
----
-id: SOURCE-20260115-476
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "antigravity"
-  - "new"
-  - "update"
-  - "huge"
-  - "agent"
-creator: "WorldofAI"
-guest: null
-title: "Antigravity NEW Update is HUGE! Agent Skills, Subagents, AI Automation, and More!"
-url: "https://www.youtube.com/watch?v=oRAeNVx2kqM"
-date_published: 2026-01-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 11s"
-has_transcript: no
-synopsis: "Antigravity NEW Update is HUGE! Agent Skills, Subagents, AI Automation, and More! by WorldofAI. A tutorial covering antigravity, new, update."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Antigravity NEW Update is"
-  - "Antigravity NEW Update is HUGE! Agent"
----
-
 # Antigravity NEW Update is HUGE! Agent Skills, Subagents, AI Automation, and More!
 
 **Channel**: WorldofAI

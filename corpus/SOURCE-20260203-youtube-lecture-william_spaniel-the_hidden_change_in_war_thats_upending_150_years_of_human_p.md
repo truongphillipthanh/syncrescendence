@@ -1,39 +1,3 @@
----
-id: SOURCE-20260203-195
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "hidden"
-  - "change"
-  - "war"
-  - "upending"
-  - "150"
-creator: "William Spaniel"
-guest: null
-title: "The Hidden Change in War That’s Upending 150 Years of Human Progress"
-url: "https://www.youtube.com/watch?v=l9fumHee1oA"
-date_published: 2026-02-03
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "15m 22s"
-has_transcript: no
-synopsis: "The Hidden Change in War That’s Upending 150 Years of Human Progress by William Spaniel. A lecture covering hidden, change, war."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Hidden Change in"
-  - "The Hidden Change in War That’s"
----
-
 # The Hidden Change in War That’s Upending 150 Years of Human Progress
 
 **Channel**: William Spaniel

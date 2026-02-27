@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-291
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ceo"
-  - "conversations"
-  - "scaling"
-  - "agentic"
-  - "systems"
-creator: "Cognizant"
-guest: null
-title: "CEO Conversations—Scaling Agentic Systems: Context Engineering & the Future of AI in the Enterprise"
-url: "https://www.youtube.com/watch?v=Xwgx_9oU6H4"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "19m 41s"
-has_transcript: no
-synopsis: "CEO Conversations—Scaling Agentic Systems: Context Engineering & the Future of AI in the Enterprise by Cognizant. A lecture covering ceo, conversations, scaling."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: agents-orchestration
-aliases:
-  - "CEO Conversations—Scaling Agentic Systems:"
-  - "CEO Conversations—Scaling Agentic Systems: Context Engineering"
----
-
 # CEO Conversations—Scaling Agentic Systems: Context Engineering & the Future of AI in the Enterprise
 
 **Channel**: Cognizant

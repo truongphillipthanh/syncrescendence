@@ -1,9 +1,3 @@
----
-url: https://x.com/sharbel/status/2021954042058948623
-author: Sharbel (@sharbel)
-captured_date: 2026-02-12
----
-
 # How To Automate Your Entire Life With AI
 
 (Description: Dark-themed image of a home office setup at night. A Mac Mini sits on a desk illuminated by blue ambient lighting, with two monitors displaying trading charts and analytics dashboards. A warm orange/red desk lamp glows on the left side, creating a cinematic contrast with the cool blue monitor light. Timestamp shows 2:47 AM in the top right corner of the monitors.)

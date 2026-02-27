@@ -1,39 +1,3 @@
----
-id: SOURCE-20251124-931
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "create"
-  - "anything"
-  - "nano"
-  - "banana"
-  - "pro"
-creator: "David Ondrej"
-guest: null
-title: "Create Anything with Nano Banana Pro, Here’s How"
-url: "https://www.youtube.com/watch?v=2VktR2fAmF0"
-date_published: 2025-11-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "58m 7s"
-has_transcript: no
-synopsis: "Create Anything with Nano Banana Pro, Here’s How by David Ondrej. A tutorial covering create, anything, nano."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Create Anything with Nano"
-  - "Create Anything with Nano Banana Pro,"
----
-
 # Create Anything with Nano Banana Pro, Here’s How
 
 **Channel**: David Ondrej

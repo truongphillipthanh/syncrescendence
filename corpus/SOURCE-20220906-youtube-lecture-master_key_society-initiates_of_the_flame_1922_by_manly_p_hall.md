@@ -1,39 +1,3 @@
----
-id: SOURCE-20220906-650
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "initiates"
-  - "flame"
-  - "1922"
-  - "manly"
-  - "hall"
-creator: "Master Key Society"
-guest: null
-title: "Initiates of the Flame (1922) by Manly P. Hall"
-url: "https://www.youtube.com/watch?v=P1K52wXNoUw"
-date_published: 2022-09-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 31m 27s"
-has_transcript: no
-synopsis: "Initiates of the Flame (1922) by Manly P. Hall by Master Key Society. A lecture covering initiates, flame, 1922."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Initiates of the Flame"
-  - "Initiates of the Flame (1922) by"
----
-
 # Initiates of the Flame (1922) by Manly P. Hall
 
 **Channel**: Master Key Society

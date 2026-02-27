@@ -1,9 +1,3 @@
----
-url: https://x.com/Hesamation/status/2013044418228498468
-author: ℏεsam (@Hesamation)
-captured_date: 2026-01-30
----
-
 # Learning 2.0: the shift most people will miss
 
 (Description: A stylized digital illustration featuring a figure in a vibrant magenta/pink hoodie seated on a rocky outcrop, holding an open laptop. The background is a swirling, cosmic-inspired pattern in black and white with spiral galaxies, stars, and planetary orbs, evoking themes of learning and discovery in a digital age.)

@@ -1,31 +1,3 @@
----
-url: https://x.com/AlphaSignalAI/status/2019641856225866247
-author: "AlphaSignal AI (@AlphaSignalAI)"
-captured_date: 2026-02-05
-id: SOURCE-20260206-001
-original_filename: "20260206-x_article-anthropic_claude_cowork_just_caused_285b_market_crash-@alphasignalai.md"
-status: triaged
-platform: x
-format: article
-creator: alphasignalai
-signal_tier: strategic
-topics:
-  - ai-agents
-  - agentic-development
-  - automation
-  - anthropic
-  - rag
-  - cli-tools
-teleology: contextualize
-notebooklm_category: ai-agents
-aliases:
-  - "Anthropics Claude Cowork just caused a 285B market crash"
-synopsis: "Anthropic's Claude Cowork just caused a $285B market crash Overview Something crazy just happened today. @AnthropicAI's new plugins for Claude Cowork just triggered a $285 billion crash from global software, legal, and data services companies. Cowork is an agentic AI assistant designed to act as a virtual teammate by directly managing files, folders, and applications on your computer."
-key_insights:
-  - "Anthropic's Claude Cowork just caused a $285B market crash Overview Something crazy just happened today."
-  - "@AnthropicAI's new plugins for Claude Cowork just triggered a $285 billion crash from global software, legal, and data services companies."
-  - "Cowork is an agentic AI assistant designed to act as a virtual teammate by directly managing files, folders, and applications on your computer."
----
 # Anthropic's Claude Cowork just caused a $285B market crash
 
 (Description: Wide banner image showing a chaotic financial trading floor scene. The image depicts silhouetted figures of traders at workstations with blue trading screens visible in the background. A large red downward-trending stock chart dominates the center, displaying a sharp market decline. Blue and red illuminated data displays are visible throughout the trading floor, with dramatic lighting emphasizing market turmoil.)

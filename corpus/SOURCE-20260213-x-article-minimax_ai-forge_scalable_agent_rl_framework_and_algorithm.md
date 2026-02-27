@@ -1,29 +1,3 @@
----
-url: https://x.com/MiniMax_AI/status/2022175400093462661
-author: "MiniMax (official) (@MiniMax_AI)"
-captured_date: 2026-02-12
-id: SOURCE-20260213-012
-original_filename: "20260213-x_article-forge_scalable_agent_rl_framework_and_algorithm-@minimax_ai.md"
-status: triaged
-platform: x
-format: article
-creator: minimax_ai
-signal_tier: strategic
-topics:
-  - context-management
-  - architecture
-  - product-development
-  - rag
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Forge Scalable Agent RL Framework and Algorithm"
-synopsis: "Forge: Scalable Agent RL Framework and Algorithm Introduction Scaling RL for complex, real-world agents confronts a fundamental trilemma: balancing **system throughput**, **training stability**, and **agent flexibility**. These conflicting constraints have long impeded the application of large-scale RL in industrial-grade systems."
-key_insights:
-  - "These conflicting constraints have long impeded the application of large-scale RL in industrial-grade systems."
-  - "Throughout the construction of MiniMax M2.5, our RL system navigated over a hundred thousand distinct real-world agent scaffolds and environments."
-  - "Integrated with our CISPO algorithm and composite reward framework, M2.5 pushes the frontier for efficient and reliable real-world productivity, achieving our mission "Intelligence with Everyone"."
----
 # Forge: Scalable Agent RL Framework and Algorithm
 
 (Description: Coral-colored infographic banner with rounded border featuring the title "Forge: Scalable Agent RL Framework and Algorithm" with "M2.5" badge in red, decorated with emoji icons including a heart in a circle, smiley face, and thumbs up.)

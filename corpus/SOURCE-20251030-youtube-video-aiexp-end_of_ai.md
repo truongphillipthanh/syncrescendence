@@ -1,16 +1,3 @@
----
-id: SOURCE-20251030-youtube-video-aiexp-end_of_ai
-title: "The End of AI - Complete Integration into Society"
-creator: AI Explained
-guest: None (Solo)
-date_published: 2025-10-30
-date_processed: 2026-01-05
-signal_tier: paradigm
-status: processed
-chain_relevance: Wisdom
-integration_targets: [CANON-00015-MACROSCOPIC_NARRATIVES, CANON-35000-WISDOM]
----
-
 # The End of AI: Complete Integration into Society
 
 ## Executive Summary

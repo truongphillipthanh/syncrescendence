@@ -1,9 +1,3 @@
----
-url: https://x.com/GanimCorey/status/2017959821111083068
-author: Corey Ganim (@GanimCorey)
-captured_date: 2026-02-04
----
-
 # 20 More Clawdbot Setups That Made Me Say 'Wait, It Can Do That?'
 
 ## Overview

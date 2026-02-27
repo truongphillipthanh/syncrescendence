@@ -1,9 +1,3 @@
----
-url: https://x.com/AlexFinn/status/2019816560190521563
-author: Alex Finn (@AlexFinn)
-captured_date: 2026-02-06
----
-
 # 3 THINGS YOU NEED TO BUILD IMMEDIATELY WITH OpenClaw
 
 **3 THINGS YOU NEED TO BUILD IMMEDIATELY WITH OpenClaw:**

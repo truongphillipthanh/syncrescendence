@@ -1,9 +1,3 @@
----
-url: https://x.com/rohit4verse/status/2018013775023263806
-author: Rohit (@rohit4verse)
-captured_date: 2026-02-01
----
-
 # What makes an engineer when everyone can vibe code
 
 (Description: Collage of engineering imagery featuring: a robotic hand with servo motors and circuit board; detailed blueprint diagches of mechanical systems; intricate technical drawings and schematics; a central text block with the word "engineer" and definition; a rocket launch vehicle blueprint; mathematical equations on dark background; and decorative compass/gear motifs. The visual metaphor contrasts precision engineering with technical complexity.)

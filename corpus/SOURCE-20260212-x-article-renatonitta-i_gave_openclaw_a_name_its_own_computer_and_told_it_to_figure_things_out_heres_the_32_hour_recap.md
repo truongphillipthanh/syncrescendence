@@ -1,30 +1,3 @@
----
-url: https://x.com/renatonitta/status/2022053849670762858
-author: "Renato Nitta (@renatonitta)"
-captured_date: 2026-02-12
-article_type: X Article
-id: SOURCE-20260212-006
-original_filename: "20260212-x_article-i_gave_openclaw_a_name_its_own_computer_and_told_it_to_figure_things_out_heres_the_32_hour_recap-@renatonitta.md"
-status: triaged
-platform: x
-format: article
-creator: renatonitta
-signal_tier: tactical
-topics:
-  - ai-agents
-  - git
-  - extended-thinking
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "I gave OpenClaw a name, its own computer, and told it to figure things out. Here"
-  - "I gave OpenClaw a name its own computer and told it to figure things out Heres t"
-synopsis: "I gave OpenClaw a name, its own computer, and told it to figure things out. Here's the 32-hour recap and a smiling raccoon character mascot side-by-side) I didn't give an AI agent access to my computer. I didn't give it access to my email, GitHub, browser sessions, or files. I gave it its own computer, accounts, and workspace."
-key_insights:
-  - "That's a very capable team member sitting at your keyboard."
-  - "I gave OpenClaw a name, its own computer, and told it to figure things out."
-  - "Here's the 32-hour recap and a smiling raccoon character mascot side-by-side) I didn't give an AI agent access to my computer."
----
 # I gave OpenClaw a name, its own computer, and told it to figure things out. Here's the 32-hour recap
 
 (Description: Header image featuring the OpenClaw logo (red lobster mascot) and a smiling raccoon character mascot side-by-side)

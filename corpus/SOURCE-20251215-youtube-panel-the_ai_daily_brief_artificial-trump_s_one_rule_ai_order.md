@@ -1,38 +1,3 @@
----
-id: SOURCE-20251215-827
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "trump"
-  - "one"
-  - "rule"
-  - "order"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Trump's One Rule AI Order"
-url: "https://www.youtube.com/watch?v=jOGNcwWjB2M"
-date_published: 2025-12-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "7m 29s"
-has_transcript: no
-synopsis: "Trump's One Rule AI Order by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering trump, one, rule."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Trump's One Rule AI"
-  - "Trump's One Rule AI Order"
----
-
 # Trump's One Rule AI Order
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260117-443
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "palantir"
-  - "assists"
-  - "ice"
-  - "interesting"
-  - "times"
-creator: "Interesting Times with Ross Douthat"
-guest: null
-title: "How Palantir Assists ICE | Interesting Times with Ross Douthat"
-url: "https://www.youtube.com/watch?v=GYWmoyUUHoI"
-date_published: 2026-01-17
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 13s"
-has_transcript: no
-synopsis: "How Palantir Assists ICE | Interesting Times with Ross Douthat by Interesting Times with Ross Douthat. A interview covering palantir, assists, ice."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "How Palantir Assists ICE"
-  - "How Palantir Assists ICE | Interesting"
----
-
 # How Palantir Assists ICE | Interesting Times with Ross Douthat
 
 **Channel**: Interesting Times with Ross Douthat

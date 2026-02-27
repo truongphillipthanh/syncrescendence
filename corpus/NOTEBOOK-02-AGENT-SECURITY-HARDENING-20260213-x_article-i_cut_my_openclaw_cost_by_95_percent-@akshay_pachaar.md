@@ -1,9 +1,3 @@
----
-url: https://x.com/akshay_pachaar/status/2022309334483677654
-author: Akshay (@akshay_pachaar)
-captured_date: 2026-02-13
----
-
 # I Cut My OpenClaw Cost by 95%
 
 (Description: Hero image featuring OpenClaw mascot (red crab character) and Minimax M2.5 logo on dark background with white and red text styling)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251125-1002
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "free"
-  - "tools"
-  - "replace"
-  - "paid"
-  - "apps"
-creator: "Matt Wolfe"
-guest: null
-title: "11 FREE AI Tools That WILL Replace Your Paid Apps"
-url: "https://www.youtube.com/watch?v=p7SRuKWZMvQ"
-date_published: 2025-11-25
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 28s"
-has_transcript: no
-synopsis: "11 FREE AI Tools That WILL Replace Your Paid Apps by Matt Wolfe. A lecture covering free, tools, replace."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "11 FREE AI Tools"
-  - "11 FREE AI Tools That WILL"
----
-
 # 11 FREE AI Tools That WILL Replace Your Paid Apps
 
 **Channel**: Matt Wolfe

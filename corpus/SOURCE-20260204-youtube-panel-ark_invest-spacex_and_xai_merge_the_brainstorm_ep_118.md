@@ -1,39 +1,3 @@
----
-id: SOURCE-20260204-180
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "spacex"
-  - "xai"
-  - "merge"
-  - "brainstorm"
-  - "118"
-creator: "ARK Invest"
-guest: null
-title: "SpaceX And xAI Merge | The Brainstorm EP 118"
-url: "https://www.youtube.com/watch?v=prBSc4TAUW0"
-date_published: 2026-02-04
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "49m 34s"
-has_transcript: no
-synopsis: "SpaceX And xAI Merge | The Brainstorm EP 118 by ARK Invest. A panel discussion covering spacex, xai, merge."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "SpaceX And xAI Merge"
-  - "SpaceX And xAI Merge | The"
----
-
 # SpaceX And xAI Merge | The Brainstorm EP 118
 
 **Channel**: ARK Invest

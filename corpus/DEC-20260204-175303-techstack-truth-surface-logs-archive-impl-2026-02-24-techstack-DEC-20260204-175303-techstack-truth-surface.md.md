@@ -1,11 +1,3 @@
----
-id: DEC-20260204-175303-techstack-truth-surface
-kind: DECISION_ATOM
-scope: substrate
-status: provisional
-updated: 2026-02-04
----
-
 Decision ID: DEC-20260204-175303-techstack-truth-surface
 Choice: Unify “model_db” and “Tech Stack DB” by declaring a single canonical boundary: **model intelligence (models/pricing/capabilities/routing)** remains in `orchestration/state/model_intelligence.db` (managed by `model_db.py`), while **apps/workflows/primitives/apparatus** becomes the future “Tech Stack DB” slice. The Tech Stack DB must *not* create a second overlapping models/pricing store; it must import from, or federate to, model_intelligence.
 Why (lens 1-2): Systems Thinking (one truth surface per domain), Antifragile (reduce drift/duplication)

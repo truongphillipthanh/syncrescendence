@@ -1,16 +1,3 @@
----
-id: DEC-20260206-113900-saas-integration-teleology
-kind: decision
-scope: orchestration
-status: proposed
-created: 2026-02-06
-updated: 2026-02-06
-related:
-  - engine/REF-SAAS_INTEGRATION_ARCHITECTURE.md
-  - orchestration/state/DYN-DISPATCH_KANBAN_PROTOCOL.md
-  - orchestration/state/ARCH-TOOLCHAIN_CLARESCENCE.md
----
-
 # DEC — SaaS Integration Teleology (Cheap-first, Sovereignty-first)
 
 ## Decision

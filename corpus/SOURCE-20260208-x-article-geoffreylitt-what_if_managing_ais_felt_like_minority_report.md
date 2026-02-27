@@ -1,21 +1,3 @@
----
-url: https://x.com/geoffreylitt/status/2020599545206313171
-author: "Geoffrey Litt (@geoffreylitt)"
-captured_date: 2026-02-08
-id: SOURCE-20260208-002
-original_filename: "20260208-x_article-what_if_managing_ais_felt_like_minority_report-@geoffreylitt.md"
-status: triaged
-platform: x
-format: article
-creator: geoffreylitt
-signal_tier: paradigm
-topics: [ai-agents, design, developer-tools, framework, opinion]
-teleology: strategize
-notebooklm_category: ai-agents
-aliases: ["Geoffrey Litt - Minority Report Agent UI"]
-synopsis: "Explores the UI design question for managing fleets of AI agents. Argues that juggling chat threads (like managing humans) is suboptimal. Proposes a Minority Report-style interface with high-bandwidth data visualization for compressed views of vast information, combining natural language and direct manipulation for flow state rather than scatterbrained context switching."
-key_insights: ["Managing agents via chat threads mimics human management patterns but fails to leverage the unique properties of AI coordination", "The ideal agent management UI uses data visualization for compressed information views combined with natural language and direct manipulation", "The goal is flow state (feeling plugged in) not scatterbrained context switching between multiple chat windows"]
----
 # What if managing AIs felt like Minority Report?
 
 (Description: A futuristic image showing a man in dark clothing with glowing blue holographic interfaces, his hands raised in a gesture toward floating digital elements. Cinematic sci-fi aesthetic with blue and cyan color grading.)

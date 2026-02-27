@@ -1,39 +1,3 @@
----
-id: SOURCE-20260127-286
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "clawdbot"
-  - "openclaw"
-  - "clearly"
-  - "explained"
-  - "use"
-creator: "Greg Isenberg"
-guest: null
-title: "Clawdbot/OpenClaw Clearly Explained (and how to use it)"
-url: "https://www.youtube.com/watch?v=U8kXfk8enrY"
-date_published: 2026-01-27
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "35m 14s"
-has_transcript: no
-synopsis: "Clawdbot/OpenClaw Clearly Explained (and how to use it) by Greg Isenberg. A tutorial covering clawdbot, openclaw, clearly."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Clawdbot/OpenClaw Clearly Explained (and"
-  - "Clawdbot/OpenClaw Clearly Explained (and how to"
----
-
 # Clawdbot/OpenClaw Clearly Explained (and how to use it)
 
 **Channel**: Greg Isenberg

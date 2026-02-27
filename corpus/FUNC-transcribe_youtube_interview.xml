@@ -1,16 +1,3 @@
----
-name: Interview & Podcast Transcript Cleaner
-description: Transform podcast and interview transcripts into polished multi-voice narratives while removing preview content, ads, and filler while preserving each speaker's distinctive voice
-trigger_phrases:
-  - "podcast transcript"
-  - "interview transcript"
-  - "clean this interview"
-  - "transcribe this conversation"
-  - "polish this podcast"
-version: 1.0
-model_compatibility: claude-3-5-sonnet, claude-opus-4
----
-
 # Interview & Podcast Transcript Transformation
 
 Transform raw podcast and interview transcripts into coherent, professional multi-voice narratives by removing commercial content and retention devices while preserving each speaker's authentic voice and the natural dynamics of dialogue.

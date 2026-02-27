@@ -1,39 +1,3 @@
----
-id: SOURCE-20260210-112
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "google"
-  - "cloud"
-  - "live"
-  - "getting"
-  - "started"
-creator: "Google Cloud Tech"
-guest: null
-title: "Google Cloud Live: Getting started with Gemini CLI"
-url: "https://www.youtube.com/watch?v=IecXj2WFkLs"
-date_published: 2026-02-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 4m 5s"
-has_transcript: no
-synopsis: "Google Cloud Live: Getting started with Gemini CLI by Google Cloud Tech. A tutorial covering google, cloud, live."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Google Cloud Live: Getting"
-  - "Google Cloud Live: Getting started with"
----
-
 # Google Cloud Live: Getting started with Gemini CLI
 
 **Channel**: Google Cloud Tech

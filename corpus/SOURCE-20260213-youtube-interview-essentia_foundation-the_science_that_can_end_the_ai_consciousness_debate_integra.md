@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-063
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "science"
-  - "end"
-  - "consciousness"
-  - "debate"
-  - "integrated"
-creator: "Essentia Foundation"
-guest: null
-title: "The Science That Can End The AI Consciousness Debate | Integrated Information Theory Explained"
-url: "https://www.youtube.com/watch?v=7I0DopbNBM0"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 2m 49s"
-has_transcript: no
-synopsis: "The Science That Can End The AI Consciousness Debate | Integrated Information Theory Explained by Essentia Foundation. A interview covering science, end, consciousness."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "The Science That Can"
-  - "The Science That Can End The"
----
-
 # The Science That Can End The AI Consciousness Debate | Integrated Information Theory Explained
 
 **Channel**: Essentia Foundation

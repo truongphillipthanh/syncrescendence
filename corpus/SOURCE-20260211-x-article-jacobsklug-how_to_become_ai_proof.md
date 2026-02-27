@@ -1,32 +1,3 @@
----
-url: "https://x.com/Jacobsklug/status/2021665138592321799"
-author: "Jacob Klug (@Jacobsklug)"
-captured_date: "2026-02-13"
-id: SOURCE-20260211-007
-original_filename: "20260211-x_article-how_to_become_ai_proof-@jacobsklug.md"
-status: triaged
-platform: x
-format: article
-creator: jacobsklug
-signal_tier: tactical
-topics:
-  - debugging
-  - testing
-  - extended-thinking
-  - codex
-  - gpt
-  - anthropic
-  - security
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "How to Become AIProof"
-synopsis: "How to Become AI-Proof *Don't let AI control you. Control it first.* Opening Matt Shumer published an article yesterday called "Something Big Is Happening." If you haven't read it yet, stop what you're doing and go read it. Because what he described isn't a prediction. It's a status report. AI is building entire applications from scratch. Not assisting a developer."
-key_insights:
-  - "Here's the part that should make you uncomfortable: GPT-5.3 Codex was used to debug its own training process."
-  - "They formed their opinion on AI two years ago and never updated it."
-  - "How to Become AI-Proof *Don't let AI control you."
----
 # How to Become AI-Proof
 
 *Don't let AI control you. Control it first.*

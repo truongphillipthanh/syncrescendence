@@ -1,38 +1,3 @@
----
-id: SOURCE-20260112-505
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "progressive"
-  - "disclosure"
-  - "claude"
-  - "code"
-creator: "Developers Digest"
-guest: null
-title: "Progressive Disclosure in Claude Code"
-url: "https://www.youtube.com/watch?v=DQHFow2NoQc"
-date_published: 2026-01-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m"
-has_transcript: no
-synopsis: "Progressive Disclosure in Claude Code by Developers Digest. A tutorial covering progressive, disclosure, claude."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Progressive Disclosure in Claude"
-  - "Progressive Disclosure in Claude Code"
----
-
 # Progressive Disclosure in Claude Code
 
 **Channel**: Developers Digest

@@ -1,39 +1,3 @@
----
-id: SOURCE-20251229-696
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "ranking"
-  - "best"
-  - "worst"
-  - "companies"
-  - "year"
-creator: "Limitless Podcast"
-guest: null
-title: "Ranking the Best and Worst AI Companies This Year (2025 AI Awards)"
-url: "https://www.youtube.com/watch?v=Nih8Ny1SVec"
-date_published: 2025-12-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "40m 3s"
-has_transcript: no
-synopsis: "Ranking the Best and Worst AI Companies This Year (2025 AI Awards) by Limitless Podcast. A lecture covering ranking, best, worst."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Ranking the Best and"
-  - "Ranking the Best and Worst AI"
----
-
 # Ranking the Best and Worst AI Companies This Year (2025 AI Awards)
 
 **Channel**: Limitless Podcast

@@ -1,38 +1,3 @@
----
-id: SOURCE-20251118-1073
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "learn"
-  - "basics"
-  - "google"
-  - "antigravity"
-creator: "Google Antigravity"
-guest: null
-title: "Learn the basics of Google Antigravity"
-url: "https://www.youtube.com/watch?v=nTOVIGsqCuY"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "13m 54s"
-has_transcript: no
-synopsis: "Learn the basics of Google Antigravity by Google Antigravity. A tutorial covering learn, basics, google."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Learn the basics of"
-  - "Learn the basics of Google Antigravity"
----
-
 # Learn the basics of Google Antigravity
 
 **Channel**: Google Antigravity

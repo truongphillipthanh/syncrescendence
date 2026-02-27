@@ -1,32 +1,3 @@
----
-url: https://cpojer.net/posts/fastest-frontend-tooling
-title: Fastest Frontend Tooling for Humans & AI
-domain: cpojer.net
-author: Christoph Nakazawa
-published_date: 2026-02-19
-captured_date: 2026-02-20
-content_type: article
-id: SOURCE-20260219-001
-original_filename: 20260219-website-fastest-frontend-tooling-for-humans-cpojer.md
-status: triaged
-platform: website
-format: article
-creator: cpojer
-signal_tier: tactical
-topics:
-  - testing
-  - typescript
-  - implement-pattern
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "Fastest Frontend Tooling for Humans  AI"
-synopsis: "Fastest Frontend Tooling for Humans & AI Published on February 19, 2026 | 7 minutes reading time, 1300 words Overview 2026 is the year JavaScript tooling gets faster. [TypeScript is being rewritten in Go]( and tools like [Oxlint]( and [Oxfmt]( are getting ready for mass adoption."
-key_insights:
-  - "Fastest Frontend Tooling for Humans & AI Published on February 19, 2026 | 7 minutes reading time, 1300 words Overview 2026 is the year JavaScript tooling gets faster."
-  - "[TypeScript is being rewritten in Go]( and tools like [Oxlint]( and [Oxfmt]( are getting ready for mass adoption."
-  - "Humans and LLMs both perform much better in codebases that have a fast feedback loop, strict guardrails, and strong local reasoning."
----
 # Fastest Frontend Tooling for Humans & AI
 Published on February 19, 2026 | 7 minutes reading time, 1300 words
 ## Overview

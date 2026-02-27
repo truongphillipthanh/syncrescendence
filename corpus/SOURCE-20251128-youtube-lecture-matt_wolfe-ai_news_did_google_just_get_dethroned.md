@@ -1,39 +1,3 @@
----
-id: SOURCE-20251128-972
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "news"
-  - "google"
-  - "just"
-  - "get"
-  - "dethroned"
-creator: "Matt Wolfe"
-guest: null
-title: "AI NEWS: Did Google Just Get DETHRONED?"
-url: "https://www.youtube.com/watch?v=lwrPjDQkVCQ"
-date_published: 2025-11-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "38m 11s"
-has_transcript: no
-synopsis: "AI NEWS: Did Google Just Get DETHRONED? by Matt Wolfe. A lecture covering news, google, just."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI NEWS: Did Google"
-  - "AI NEWS: Did Google Just Get"
----
-
 # AI NEWS: Did Google Just Get DETHRONED?
 
 **Channel**: Matt Wolfe

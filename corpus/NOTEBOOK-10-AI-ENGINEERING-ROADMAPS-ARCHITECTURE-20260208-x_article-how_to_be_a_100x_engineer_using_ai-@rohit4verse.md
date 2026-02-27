@@ -1,9 +1,3 @@
----
-url: https://x.com/rohit4verse/status/2020501497377968397
-author: Rohit (@rohit4verse)
-captured_date: 2026-02-08
----
-
 # How to be a 100x Engineer Using AI
 
 (Description: A collage illustration featuring a silhouette of a human head in profile wearing a business suit, with a bright orange circular aura emanating from the brain area. The brain is depicted as a circuit board pattern. To the left is a robotic hand holding a black device or clipboard. To the right is another hand holding a computer chip labeled "AI". In the background are small window/menu UI elements suggesting software interfaces.)

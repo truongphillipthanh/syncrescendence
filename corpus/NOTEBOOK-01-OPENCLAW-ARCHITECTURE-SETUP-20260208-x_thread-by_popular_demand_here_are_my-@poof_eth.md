@@ -1,9 +1,3 @@
----
-url: https://x.com/poof_eth/status/2020541601739579626
-author: poof (@poof_eth)
-captured_date: 2026-02-08
----
-
 # Agent Coding Tips and Tricks
 
 by popular demand, here are my agent coding tips and tricks that **YOU MUST know or be LEFT BEHIND FOREVER:**

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-305
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "google"
-  - "just"
-  - "proved"
-  - "more"
-  - "agents"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Google Just Proved More Agents Can Make Things WORSE -- Here's What Actually Does Work"
-url: "https://www.youtube.com/watch?v=2EXyj_fHU48"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 54s"
-has_transcript: no
-synopsis: "Google Just Proved More Agents Can Make Things WORSE -- Here's What Actually Does Work by AI News & Strategy Daily | Nate B Jones. A lecture covering google, just, proved."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Google Just Proved More"
-  - "Google Just Proved More Agents Can"
----
-
 # Google Just Proved More Agents Can Make Things WORSE -- Here's What Actually Does Work
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

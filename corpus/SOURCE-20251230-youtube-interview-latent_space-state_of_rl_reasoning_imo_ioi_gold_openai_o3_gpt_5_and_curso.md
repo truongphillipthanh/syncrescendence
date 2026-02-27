@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-661
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "state"
-  - "reasoning"
-  - "imo"
-  - "ioi"
-  - "gold"
-creator: "Latent Space"
-guest: null
-title: "[State of RL/Reasoning] IMO/IOI Gold, OpenAI o3/GPT-5, and Cursor Composer — Ashvin Nair, Cursor"
-url: "https://www.youtube.com/watch?v=4JHXU1Cpcsc"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "45m 13s"
-has_transcript: no
-synopsis: "[State of RL/Reasoning] IMO/IOI Gold, OpenAI o3/GPT-5, and Cursor Composer — Ashvin Nair, Cursor by Latent Space. A interview covering state, reasoning, imo."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "[State of RL/Reasoning] IMO/IOI"
-  - "[State of RL/Reasoning] IMO/IOI Gold, OpenAI"
----
-
 # [State of RL/Reasoning] IMO/IOI Gold, OpenAI o3/GPT-5, and Cursor Composer — Ashvin Nair, Cursor
 
 **Channel**: Latent Space

@@ -1,24 +1,3 @@
----
-url: https://x.com/hwbhatti/status/2023736845079900216
-author: "Hassan W. Bhatti (@hwbhatti)"
-captured_date: 2026-02-21
-id: SOURCE-20260217-018
-original_filename: "20260217-x_thread-think_it_say_it_done-@hwbhatti.md"
-status: triaged
-platform: x
-format: thread
-creator: hwbhatti
-signal_tier: noise
-topics: [ai-agents, developer-tools]
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ["hwbhatti - Lemon voice-to-action AI agent"]
-synopsis: "Product announcement for Lemon, a voice-to-action AI agent that converts voice commands into finished tasks. Claims to eliminate 3 hours of typing and 1,000 tab switches per day. Includes thinking mode with integrations and screen context analysis."
-key_insights:
-  - "Lemon targets the voice-to-action gap: converting spoken intent directly into completed tasks without keyboard intermediation"
-  - "Screen context analysis enables high-leverage task identification from current user environment"
-  - "Voice-first AI agents represent an alternative interaction paradigm to text-based chat and code interfaces"
----
 # Hassan W. Bhatti X Thread: Think it. Say it. Done.
 **Think it. Say it. Done.**
 The average person spends 3 hours typing + switches 1,000 tabs per day.

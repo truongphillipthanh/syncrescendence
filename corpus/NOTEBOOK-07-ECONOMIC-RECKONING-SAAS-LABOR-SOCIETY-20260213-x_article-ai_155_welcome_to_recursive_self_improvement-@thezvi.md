@@ -1,9 +1,3 @@
----
-url: https://x.com/TheZvi/status/2021980108416844177
-author: Zvi Mowshowitz (@TheZvi)
-captured_date: 2026-02-13
----
-
 # AI #155: Welcome to Recursive Self-Improvement
 
 This was the week of Claude Opus 4.6, and also of ChatGPT-5.3-Codex. Both leading models got substantial upgrades, although OpenAI's is confined to Codex. Once again, the frontier of AI got more advanced, especially for agentic coding but also for everything else.

@@ -1,37 +1,3 @@
----
-id: SOURCE-20260202-213
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "dram"
-  - "shortage"
-  - "crisis"
-  - "explained"
-creator: "Caleb Writes Code"
-guest: null
-title: "DRAM Shortage Crisis explained.."
-url: "https://www.youtube.com/watch?v=qJtHp9ph01Y"
-date_published: 2026-02-02
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 8s"
-has_transcript: no
-synopsis: "DRAM Shortage Crisis explained.. by Caleb Writes Code. A lecture covering dram, shortage, crisis."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "DRAM Shortage Crisis explained.."
----
-
 # DRAM Shortage Crisis explained..
 
 **Channel**: Caleb Writes Code

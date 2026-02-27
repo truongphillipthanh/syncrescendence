@@ -1,30 +1,3 @@
----
-id: SOURCE-20260111-x-article-andrey__hq-how_the_best_people_actually_use_ai
-platform: x
-format: article
-creator: andrey__hq
-title: how the best people actually use ai
-status: triaged
-original_filename: "20260111-x_article-how_the_best_people_actually_use_ai-@andrey__hq.md"
-url: https://x.com/Andrey__HQ/status/2010458127117025455
-author: "Andrey (@Andrey__HQ)"
-captured_date: 2026-01-11
-signal_tier: tactical
-topics:
-  - "ai-engineering"
-  - "career"
-  - "education"
-  - "opinion"
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "Andrey - Best People Use AI"
-synopsis: "A 20-year-old with experience at 4 companies shares observations on the learning gap in AI usage. Covers how top performers use AI as a thinking partner rather than an autocomplete tool, and the widening gap between those who learn with AI and those who delegate to AI."
-key_insights:
-  - "Top AI performers use it as a thinking partner not autocomplete: they think first then use AI to accelerate execution of well-formed ideas"
-  - "The learning gap is widening between those who learn with AI and those who delegate thinking to AI losing their own capability"
-  - "Three years at four companies revealed that the best engineers spend more time on problem definition than on prompting"
----
 # How the Best People Actually Use AI
 
 (Description: Pixelated retro-style banner displaying "THE LEARNING GAP" in white block letters on a dark gray background with macOS-style window controls at top)

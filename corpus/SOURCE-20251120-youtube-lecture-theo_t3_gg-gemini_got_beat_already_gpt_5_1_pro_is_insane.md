@@ -1,39 +1,3 @@
----
-id: SOURCE-20251120-1061
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "got"
-  - "beat"
-  - "already"
-  - "gpt"
-creator: "Theo - t3․gg"
-guest: null
-title: "Gemini Got Beat Already??? (GPT-5.1-Pro is insane)"
-url: "https://www.youtube.com/watch?v=bLoBezKKiiI"
-date_published: 2025-11-20
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 59s"
-has_transcript: no
-synopsis: "Gemini Got Beat Already??? (GPT-5.1-Pro is insane) by Theo - t3․gg. A lecture covering gemini, got, beat."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Gemini Got Beat Already???"
-  - "Gemini Got Beat Already??? (GPT-5.1-Pro is"
----
-
 # Gemini Got Beat Already??? (GPT-5.1-Pro is insane)
 
 **Channel**: Theo - t3․gg

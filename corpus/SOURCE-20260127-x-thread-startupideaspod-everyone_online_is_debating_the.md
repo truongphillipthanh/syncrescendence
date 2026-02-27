@@ -1,27 +1,3 @@
----
-url: https://x.com/startupideaspod/status/2016236538775142791
-author: "@startupideaspod"
-captured_date: 2026-01-27
-id: SOURCE-20260127-006
-original_filename: 20260127-x_thread-everyone_online_is_debating_the-startupideaspod.md
-status: triaged
-platform: x
-format: thread
-creator: startupideaspod
-signal_tier: tactical
-topics:
-  - ai-agents
-  - developer-tools
-teleology: extract
-notebooklm_category: ai-agents
-aliases:
-  - "startupideaspod - Clawdbot setup comparison"
-synopsis: "Brief comparison of Clawdbot setup methods: Cloud/VPS (cheapest, fastest, but API-heavy and confusing) versus Mac Mini/spare computer (more control, real-time observation). Argues watching the agent work on physical hardware teaches you how it thinks."
-key_insights:
-  - "Watching Clawdbot work on a physical machine in real-time teaches you how it thinks — the learning value of observability outweighs VPS cost savings."
-  - "Mac Mini or spare computer setups provide better environment control and tool access visibility compared to VPS deployments."
-  - "Start with hardware you can see rather than optimizing for the 'correct' deployment path."
----
 # Clawdbot (aka Moltbot) Setup Guide
 
 Everyone online is debating the best Clawdbot (aka Moltbot) setup. I've tested every method.

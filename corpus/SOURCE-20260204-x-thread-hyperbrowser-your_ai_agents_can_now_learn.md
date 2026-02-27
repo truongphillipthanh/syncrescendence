@@ -1,30 +1,3 @@
----
-url: https://x.com/hyperbrowser/status/2019126793119338649
-author: "@hyperbrowser"
-captured_date: 2026-02-14
-id: SOURCE-20260204-014
-original_filename: "20260204-x_thread-your_ai_agents_can_now_learn-@hyperbrowser.md"
-status: triaged
-platform: x
-format: thread
-creator: hyperbrowser
-signal_tier: tactical
-topics:
-  - ai-agents
-  - automation
-  - git
-  - model-context-protocol
-  - api
-teleology: reference
-notebooklm_category: ai-agents
-aliases:
-  - "Hyperbrowser Thread AI Agent Skill Learning"
-synopsis: "Hyperbrowser Thread: AI Agent Skill Learning Post 1: Core Announcement **@hyperbrowser** · Feb 4 Your AI agents can now learn new skills from the web. And update them automatically. /learn stripe-payments Searches the docs. No more outdated skills. Powered by Hyperbrowser, Setup Guide ↓ --- Post 2: API Key Setup **@hyperbrowser** · Feb 4 Get your API keys 1."
-key_insights:
-  - "Powered by Hyperbrowser, Setup Guide ↓ --- Post 2: API Key Setup **@hyperbrowser** · Feb 4 Get your API keys 1."
-  - "Hyperbrowser API Key → hyperbrowser.ai 2."
-  - "Hyperbrowser Thread: AI Agent Skill Learning Post 1: Core Announcement **@hyperbrowser** · Feb 4 Your AI agents can now learn new skills from the web."
----
 # Hyperbrowser Thread: AI Agent Skill Learning
 
 ## Post 1: Core Announcement

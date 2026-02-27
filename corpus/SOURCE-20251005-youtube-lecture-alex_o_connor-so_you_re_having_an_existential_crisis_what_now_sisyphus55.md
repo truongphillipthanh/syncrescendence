@@ -1,39 +1,3 @@
----
-id: SOURCE-20251005-629
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "having"
-  - "existential"
-  - "crisis"
-  - "now"
-  - "sisyphus55"
-creator: "Alex O'Connor"
-guest: null
-title: "So You're Having an Existential Crisis. What Now? - Sisyphus55"
-url: "https://www.youtube.com/watch?v=VdGop8C_oGQ"
-date_published: 2025-10-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 33m 4s"
-has_transcript: no
-synopsis: "So You're Having an Existential Crisis. What Now? - Sisyphus55 by Alex O'Connor. A lecture covering having, existential, crisis."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "So You're Having an"
-  - "So You're Having an Existential Crisis."
----
-
 # So You're Having an Existential Crisis. What Now? - Sisyphus55
 
 **Channel**: Alex O'Connor

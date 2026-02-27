@@ -1,38 +1,3 @@
----
-id: SOURCE-20251124-1005
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "just"
-  - "dropped"
-  - "opus"
-creator: "Matthew Berman"
-guest: null
-title: "Anthropic just dropped Opus 4.5..."
-url: "https://www.youtube.com/watch?v=VhuUcVhwqi8"
-date_published: 2025-11-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "10m 27s"
-has_transcript: no
-synopsis: "Anthropic just dropped Opus 4.5... by Matthew Berman. A lecture covering anthropic, just, dropped."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic just dropped Opus"
-  - "Anthropic just dropped Opus 4.5..."
----
-
 # Anthropic just dropped Opus 4.5...
 
 **Channel**: Matthew Berman

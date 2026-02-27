@@ -1,38 +1,3 @@
----
-id: SOURCE-20251215-764
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "process"
-  - "documents"
-  - "scale"
-  - "llms"
-creator: "Hamel Husain"
-guest: null
-title: "How to Process Documents at Scale with LLMs"
-url: "https://www.youtube.com/watch?v=t6r4U0SlnPc"
-date_published: 2025-12-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 14m 17s"
-has_transcript: no
-synopsis: "How to Process Documents at Scale with LLMs by Hamel Husain. A tutorial covering process, documents, scale."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How to Process Documents"
-  - "How to Process Documents at Scale"
----
-
 # How to Process Documents at Scale with LLMs
 
 **Channel**: Hamel Husain

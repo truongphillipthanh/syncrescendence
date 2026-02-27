@@ -1,29 +1,3 @@
----
-url: https://x.com/eptwts/status/2021947976831148445
-author: "EP (@eptwts)"
-captured_date: 2026-02-12
-engagement: 54 replies, 78 reposts, 1055 likes, 3191 bookmarks, 313730 views
-id: SOURCE-20260212-001
-original_filename: "20260212-x_article-how_to_actually_grow_on_x-@eptwts.md"
-status: triaged
-platform: x
-format: article
-creator: eptwts
-signal_tier: tactical
-topics:
-  - extended-thinking
-  - rust
-  - implement-pattern
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "How to ACTUALLY Grow on X"
-synopsis: "How to ACTUALLY Grow on X [Description: Stylized article header screenshot showing author EP's profile card with verified badge, @eptwts handle, and statistics: 18.4K verified followers, 98.2M impressions, 4% engagement rate. Below are secondary metrics: 59.6K replies, 877.9K likes, 32.9K reposts."
-key_insights:
-  - "Two Ways Around This - **Use an old account you've been lurking on.** That's your best option."
-  - "Your bio should be one line that explains what you do."
-  - "So the niche you pick is essentially choosing which network you want to tap into and dominate."
----
 # How to ACTUALLY Grow on X
 
 [Description: Stylized article header screenshot showing author EP's profile card with verified badge, @eptwts handle, and statistics: 18.4K verified followers, 98.2M impressions, 4% engagement rate. Below are secondary metrics: 59.6K replies, 877.9K likes, 32.9K reposts. The title "how to ACTUALLY grow on X..." is displayed prominently in large white text on a dark background.]

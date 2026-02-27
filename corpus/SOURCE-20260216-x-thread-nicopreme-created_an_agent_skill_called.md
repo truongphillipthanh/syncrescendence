@@ -1,24 +1,3 @@
----
-url: https://x.com/nicopreme/status/2023495040258261460
-author: "Nico Bailon (@nicopreme)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-025
-original_filename: "20260216-x_thread-created_an_agent_skill_called-@nicopreme.md"
-status: triaged
-platform: x
-format: thread
-creator: nicopreme
-signal_tier: tactical
-topics: [claude-code, developer-tools, ai-agents]
-teleology: reference
-notebooklm_category: claude-code
-aliases: ["nicopreme - Visual Explainer agent skill"]
-synopsis: "An agent skill called Visual Explainer that renders complex explanations as rich HTML pages instead of terminal text. Includes reference templates, CSS pattern library, and slash commands. Reduces cognitive debt by making agent output visually digestible with code reviews, architecture diagrams, and state flows."
-key_insights:
-  - "Terminal text walls create cognitive debt - rich HTML output with consistent CSS makes complex explanations digestible"
-  - "Skill includes reference templates and CSS pattern library so output stays consistently well-designed"
-  - "Complements code review workflows: findings rendered as structured visual documents with file references"
----
 # Visual Explainer Agent Skill
 Created an agent skill called **"Visual Explainer"** + set of complementary slash commands aimed to reduce my cognitive debt so the agent can explain complex things as rich HTML pages. The skill includes reference templates and a CSS pattern library so output stays consistently well-designed. Much easier for me to digest than squinting at walls of terminal text.
 [github.com/nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer)

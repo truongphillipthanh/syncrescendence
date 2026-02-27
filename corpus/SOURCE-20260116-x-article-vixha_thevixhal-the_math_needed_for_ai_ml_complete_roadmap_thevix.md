@@ -1,32 +1,3 @@
----
-id: SOURCE-20260116-001
-title: "The Math Needed For Ai Ml Complete Roadmap @Thevixhal"
-platform: x
-format: article
-creator: vixhaℓ (TheVixhal)
-date_published: 20260116
-status: triaged
-original_filename: "research/20260116-x_article-the_math_needed_for_ai_ml_complete_roadmap-@thevixhal.md"
-aliases:
-  - "Vixhal - Math for AI/ML Roadmap"
-teleology: reference
-notebooklm_category: ai-engineering
-url: "https://x.com/TheVixhal/status/2012140932054106547"
-author: "vixhaℓ (@TheVixhal)"
-captured_date: 2026-01-16
-synopsis: "Complete mathematics roadmap for AI/ML covering linear algebra, calculus, probability, statistics, optimization, and information theory. Maps each math topic to its specific AI/ML application."
-key_insights:
-  - "Linear algebra and calculus are foundational: everything in neural networks reduces to matrix operations and gradient computations"
-  - "Probability and statistics are essential for understanding model uncertainty, Bayesian methods, and evaluation metrics"
-  - "Information theory provides the theoretical foundation for loss functions, entropy-based methods, and generative models"
-topics:
-  - "ai-engineering"
-  - "education"
-  - "tutorial"
-  - "reference"
-signal_tier: tactical
----
-
 # The Math Needed for AI/ML (Complete Roadmap)
 
 (Description: Header image with a surreal, cyberpunk aesthetic featuring three Renaissance-style portrait busts with neon green faces, wearing ornate period clothing. The busts are positioned around vintage computer monitors and connected by a web of lines and colored nodes in blue, purple, and green. Scattered code snippets visible in the upper left corner, including lines with "MATTE.IN" and class definitions. The composition blends classical art with modern technology symbolism.)

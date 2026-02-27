@@ -1,9 +1,3 @@
----
-url: https://x.com/gdb/status/2019566641491963946
-author: Greg Brockman (@gdb)
-captured_date: 2026-02-05
----
-
 # Software Development Renaissance: OpenAI's Approach to Agentic Development
 
 Software development is undergoing a renaissance in front of our eyes.

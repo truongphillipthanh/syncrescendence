@@ -1,32 +1,3 @@
----
-url: https://x.com/OpenAI/status/2019413712772411528
-author: "@OpenAI"
-captured_date: 2026-02-05
-id: SOURCE-20260205-022
-original_filename: "20260205-x_thread-introducing_openai_frontier-@openai.md"
-status: triaged
-platform: x
-format: thread
-creator: openai
-signal_tier: strategic
-topics:
-  - ai-workflow
-  - best-practices
-  - context-management
-  - deployment
-  - openai
-  - product-development
-  - security
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "OpenAI Frontier Announcement Thread"
-synopsis: "OpenAI Frontier Announcement Thread Post 1 Introducing OpenAI Frontier—a new platform that helps enterprises build, deploy, and manage AI coworkers that can do real work."
-key_insights:
-  - "And there's a tight feedback loop to OpenAI Research: as you deploy agents, we learn what needs to improve around the model and how models should evolve to be more useful for your work."
-  - "OpenAI Frontier Announcement Thread Post 1 Introducing OpenAI Frontier—a new platform that helps enterprises build, deploy, and manage AI coworkers that can do real work."
-  - "Post 4 Frontier is available today to a limited set of customers, with broader availability coming over the next few months."
----
 # OpenAI Frontier Announcement Thread
 
 ## Post 1

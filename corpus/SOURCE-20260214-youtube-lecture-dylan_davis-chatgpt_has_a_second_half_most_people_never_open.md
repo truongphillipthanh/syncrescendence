@@ -1,39 +1,3 @@
----
-id: SOURCE-20260214-079
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "second"
-  - "half"
-  - "most"
-  - "people"
-creator: "Dylan Davis"
-guest: null
-title: "ChatGPT has a second half most people never open"
-url: "https://www.youtube.com/watch?v=OqB7TXdXln4"
-date_published: 2026-02-14
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 23s"
-has_transcript: no
-synopsis: "ChatGPT has a second half most people never open by Dylan Davis. A lecture covering chatgpt, second, half."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "ChatGPT has a second"
-  - "ChatGPT has a second half most"
----
-
 # ChatGPT has a second half most people never open
 
 **Channel**: Dylan Davis

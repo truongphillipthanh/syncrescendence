@@ -1,9 +1,3 @@
----
-url: https://x.com/intern/status/2022058797229908385
-author: intern (@intern)
-captured_date: 2026-02-12
----
-
 # 21 actions you can take now if you believe in AI acceleration
 
 (Description: A two-panel diagram titled "KEY" showing "LIFE PATHS CLOSED TO YOU" (dark/gray lines) vs "LIFE PATHS OPEN TO YOU" (blue lines). Left panel labeled "THE PAST" shows a convergent pattern from "you're born" and "your life path" coming together at a vertical dividing line marked "TODAY". Right panel labeled "AI ACCELERATES" shows divergent paths expanding outward from "your life, today", illustrating how future possibilities multiply with AI acceleration.)

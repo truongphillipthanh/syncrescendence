@@ -1,39 +1,3 @@
----
-id: SOURCE-20260116-436
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "context"
-  - "engineering"
-  - "explained"
-  - "prompting"
-  - "production"
-creator: "agentbuildai"
-guest: null
-title: "Context Engineering Explained: From Prompting to Production AI with Denis Rothman"
-url: "https://www.youtube.com/watch?v=384hXsu8XZA"
-date_published: 2026-01-16
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "52m 48s"
-has_transcript: no
-synopsis: "Context Engineering Explained: From Prompting to Production AI with Denis Rothman by agentbuildai. A tutorial covering context, engineering, explained."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: agents-orchestration
-aliases:
-  - "Context Engineering Explained: From"
-  - "Context Engineering Explained: From Prompting to"
----
-
 # Context Engineering Explained: From Prompting to Production AI with Denis Rothman
 
 **Channel**: agentbuildai

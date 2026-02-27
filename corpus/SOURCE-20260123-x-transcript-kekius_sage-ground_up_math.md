@@ -1,31 +1,3 @@
----
-id: SOURCE-undated-004
-title: Ground Up Math
-platform: x
-format: transcript
-creator: Kekius_Sage
-date_published: "2026-01-23"
-status: triaged
-url: https://x.com/Kekius_Sage/status/2014841012003512616
-original_filename: research/x-bookmarks/TRANS-Kekius_Sage-ground_up_math.md
-aliases:
-  - "Ground Up Math Roadmap"
-  - "Physicist Math Thread"
-teleology: reference
-notebooklm_category: general
-synopsis: "A 54-year-old physicist provides a 29-post thread mapping a complete ground-up mathematics curriculum: Algebra through Linear Algebra and Multivariable Calculus, followed by career-specific applications (engineering, ML, finance, physics, medicine). Emphasizes conceptual understanding over memorization and visual-algebraic dual reasoning."
-key_insights:
-  - "Treat derivatives as 'what happens if I change this slightly' and integration as 'what is being added up' — conceptual framing before formula memorization prevents rote learning"
-  - "Linear algebra should come early, not late — matrices as transformations (not tables) is the mental shift that unlocks multi-variable systems thinking"
-  - "Career applications map directly: ML = linear algebra + probability + optimization; engineering = calculus + linear algebra + constraints; finance = probability + stochastic calculus"
-topics:
-  - tutorial
-  - framework
-  - career
-  - reference
-signal_tier: tactical
----
-
 # X/Twitter Transcription: @Kekius_Sage - Ground-up Math Thread
 
 **Author:** Kekius Maximus (@Kekius_Sage) ✓  

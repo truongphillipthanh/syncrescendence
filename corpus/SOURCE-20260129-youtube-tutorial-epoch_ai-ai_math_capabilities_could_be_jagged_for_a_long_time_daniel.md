@@ -1,39 +1,3 @@
----
-id: SOURCE-20260129-242
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "math"
-  - "capabilities"
-  - "jagged"
-  - "long"
-  - "time"
-creator: "Epoch AI"
-guest: null
-title: "AI math capabilities could be jagged for a long time – Daniel Litt"
-url: "https://www.youtube.com/watch?v=jFJku8sxLWY"
-date_published: 2026-01-29
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 11m"
-has_transcript: no
-synopsis: "AI math capabilities could be jagged for a long time – Daniel Litt by Epoch AI. A tutorial covering math, capabilities, jagged."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AI math capabilities could"
-  - "AI math capabilities could be jagged"
----
-
 # AI math capabilities could be jagged for a long time – Daniel Litt
 
 **Channel**: Epoch AI

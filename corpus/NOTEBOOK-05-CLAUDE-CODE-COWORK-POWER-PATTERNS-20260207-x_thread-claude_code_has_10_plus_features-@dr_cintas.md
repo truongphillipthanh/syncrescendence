@@ -1,9 +1,3 @@
----
-url: https://x.com/dr_cintas/status/2020201275040641385
-author: Alvaro Cintas (@dr_cintas)
-captured_date: 2026-02-14
----
-
 # Claude Code: 10+ Hidden Features Explained
 
 Claude Code has 10+ features most people never touch.

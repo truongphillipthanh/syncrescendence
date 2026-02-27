@@ -1,39 +1,3 @@
----
-id: SOURCE-20260113-499
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "opencode"
-  - "just"
-  - "killed"
-  - "vibe"
-  - "coding"
-creator: "David Ondrej"
-guest: null
-title: "OpenCode just killed all vibe coding apps (it’s insane)"
-url: "https://www.youtube.com/watch?v=syK7yprJknM"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 38s"
-has_transcript: no
-synopsis: "OpenCode just killed all vibe coding apps (it’s insane) by David Ondrej. A tutorial covering opencode, just, killed."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "OpenCode just killed all"
-  - "OpenCode just killed all vibe coding"
----
-
 # OpenCode just killed all vibe coding apps (it’s insane)
 
 **Channel**: David Ondrej

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260124-353
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "google"
-  - "ceo"
-  - "just"
-  - "called"
-  - "out"
-creator: "TheAIGRID"
-guest: null
-title: "Google’s AI CEO Just Called Out OpenAI Over AGI Claims"
-url: "https://www.youtube.com/watch?v=Ds5afyJm_7k"
-date_published: 2026-01-24
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 46s"
-has_transcript: no
-synopsis: "Google’s AI CEO Just Called Out OpenAI Over AGI Claims by TheAIGRID. A lecture covering google, ceo, just."
-key_insights: []
-visual_notes: null
-teleology: reference
-notebooklm_category: ai-engineering
-aliases:
-  - "Google’s AI CEO Just"
-  - "Google’s AI CEO Just Called Out"
----
-
 # Google’s AI CEO Just Called Out OpenAI Over AGI Claims
 
 **Channel**: TheAIGRID

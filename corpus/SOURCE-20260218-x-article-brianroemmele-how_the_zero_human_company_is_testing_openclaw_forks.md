@@ -1,24 +1,3 @@
----
-url: https://x.com/BrianRoemmele/status/2024180229057761400
-author: "Brian Roemmele (@BrianRoemmele)"
-captured_date: 2026-02-21
-id: SOURCE-20260218-004
-original_filename: "20260218-x_article-how_the_zero_human_company_is_testing_openclaw_forks-@brianroemmele.md"
-status: triaged
-platform: x
-format: article
-creator: brianroemmele
-signal_tier: tactical
-topics: [ai-agents, infrastructure, security]
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ["brianroemmele - Zero Human Company testing OpenClaw forks"]
-synopsis: "Comprehensive catalog of OpenClaw forks and ecosystem tools being tested by the Zero-Human Company (ZHC). Covers rewrites (Nanobot, ZeroClaw, NanoClaw, PicoClaw, IronClaw, TinyClaw, etc.), infrastructure (Archestra, ClawRouter, ClawVault), security (Secure-OpenClaw, ClawSec, ClawBands), and desktop/hardware variants. Each entry includes Git repo and testing rationale. ZHC runs entirely on AI agents with CEO 'Mr. Grok.'"
-key_insights:
-  - "OpenClaw ecosystem has spawned 20+ forks addressing efficiency (Rust rewrites), security (sandboxing, zero-LLM deterministic approaches), and edge deployment (RISC-V, microcontrollers)"
-  - "Testing criteria for autonomous company use: cost reduction on legacy hardware, security for autonomous workflows, multi-agent interoperability, and hardware extensibility"
-  - "OpenClaw configuration files (SOUL.md, USER.md, MEMORY.md, HEARTBEAT.md) are becoming a de facto standard for agent identity and state management"
----
 # How the Zero-Human Company is Testing OpenClaw Forks
 (Description: A vivid photograph of red and orange flower buds in sharp focus, arranged vertically with a softly blurred classroom or office background featuring a teal wall and educational materials.)
 ## Introduction

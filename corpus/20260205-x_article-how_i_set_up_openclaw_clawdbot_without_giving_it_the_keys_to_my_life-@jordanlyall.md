@@ -1,9 +1,3 @@
----
-url: https://x.com/JordanLyall/status/2019594755370545168
-author: Jordan Lyall (@JordanLyall)
-captured_date: 2026-02-13
----
-
 # How I Set Up OpenClaw (Clawdbot) Without Giving It the Keys to My Life
 
 (Description: A stylized illustration featuring a cheerful red robotic crab with yellow safety helmet and white eyes, positioned next to a blue shield icon. Both sit against a dark background with circuit board patterns. The image represents security and protection for AI agents.)

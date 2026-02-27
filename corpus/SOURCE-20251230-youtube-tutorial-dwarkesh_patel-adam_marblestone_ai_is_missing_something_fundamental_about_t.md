@@ -1,39 +1,3 @@
----
-id: SOURCE-20251230-689
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "adam"
-  - "marblestone"
-  - "missing"
-  - "something"
-  - "fundamental"
-creator: "Dwarkesh Patel"
-guest: null
-title: "Adam Marblestone – AI is missing something fundamental about the brain"
-url: "https://www.youtube.com/watch?v=_9V_Hbe-N1A"
-date_published: 2025-12-30
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 49m 54s"
-has_transcript: no
-synopsis: "Adam Marblestone – AI is missing something fundamental about the brain by Dwarkesh Patel. A tutorial covering adam, marblestone, missing."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "Adam Marblestone – AI"
-  - "Adam Marblestone – AI is missing"
----
-
 # Adam Marblestone – AI is missing something fundamental about the brain
 
 **Channel**: Dwarkesh Patel

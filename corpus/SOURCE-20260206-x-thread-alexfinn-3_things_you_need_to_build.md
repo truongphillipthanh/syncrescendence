@@ -1,21 +1,3 @@
----
-url: https://x.com/AlexFinn/status/2019816560190521563
-author: "Alex Finn (@AlexFinn)"
-captured_date: 2026-02-06
-id: SOURCE-20260206-026
-original_filename: "20260206-x_thread-3_things_you_need_to_build-@alexfinn.md"
-status: triaged
-platform: x
-format: thread
-creator: alexfinn
-signal_tier: tactical
-topics: [ai-agents, automation, developer-tools, tutorial]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["Alex Finn - OpenClaw Mission Control"]
-synopsis: "Recommends building three essential OpenClaw monitoring tools: an activity feed tracking every agent action, a calendar view of scheduled tasks, and global search across memories/tasks/documents. Includes a copy-paste prompt to build all three using NextJS + Convex + Codex."
-key_insights: ["Activity feed is critical for autonomous agent oversight — without it you cannot verify what the agent is doing or whether it is wasting tokens", "Global search across agent memories, documents, and past conversations unlocks OpenClaw's memory system which has no native browsing interface", "All three tools can be built with a single prompt targeting NextJS + Convex + Codex"]
----
 # 3 THINGS YOU NEED TO BUILD IMMEDIATELY WITH OpenClaw
 
 **3 THINGS YOU NEED TO BUILD IMMEDIATELY WITH OpenClaw:**

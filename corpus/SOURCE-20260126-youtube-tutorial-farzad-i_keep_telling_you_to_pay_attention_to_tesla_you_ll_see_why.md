@@ -1,39 +1,3 @@
----
-id: SOURCE-20260126-312
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "keep"
-  - "telling"
-  - "pay"
-  - "attention"
-  - "tesla"
-creator: "Farzad"
-guest: null
-title: "I keep telling you to pay attention to Tesla. You'll see why."
-url: "https://www.youtube.com/watch?v=igmYg5vmjrM"
-date_published: 2026-01-26
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "24m 3s"
-has_transcript: no
-synopsis: "I keep telling you to pay attention to Tesla. You'll see why. by Farzad. A tutorial covering keep, telling, pay."
-key_insights: []
-visual_notes: null
-teleology: extract
-notebooklm_category: ai-engineering
-aliases:
-  - "I keep telling you"
-  - "I keep telling you to pay"
----
-
 # I keep telling you to pay attention to Tesla. You'll see why.
 
 **Channel**: Farzad

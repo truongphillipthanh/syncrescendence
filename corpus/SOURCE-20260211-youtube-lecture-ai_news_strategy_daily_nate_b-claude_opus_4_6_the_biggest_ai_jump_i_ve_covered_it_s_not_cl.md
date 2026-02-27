@@ -1,39 +1,3 @@
----
-id: SOURCE-20260211-121
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "opus"
-  - "biggest"
-  - "jump"
-  - "covered"
-creator: "AI News & Strategy Daily | Nate B Jones"
-guest: null
-title: "Claude Opus 4.6: The Biggest AI Jump I've Covered--It's Not Close. (Here's What You Need to Know)"
-url: "https://www.youtube.com/watch?v=JKk77rzOL34"
-date_published: 2026-02-11
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "30m 39s"
-has_transcript: no
-synopsis: "Claude Opus 4.6: The Biggest AI Jump I've Covered--It's Not Close. (Here's What You Need to Know) by AI News & Strategy Daily | Nate B Jones. A lecture covering claude, opus, biggest."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Opus 4.6: The"
-  - "Claude Opus 4.6: The Biggest AI"
----
-
 # Claude Opus 4.6: The Biggest AI Jump I've Covered--It's Not Close. (Here's What You Need to Know)
 
 **Channel**: AI News & Strategy Daily | Nate B Jones

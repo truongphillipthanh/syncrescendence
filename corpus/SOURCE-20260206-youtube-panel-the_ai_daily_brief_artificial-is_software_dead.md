@@ -1,35 +1,3 @@
----
-id: SOURCE-20260206-172
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "software"
-  - "dead"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Is Software Dead?"
-url: "https://www.youtube.com/watch?v=6VDLzRi6vsM"
-date_published: 2026-02-06
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "17m 47s"
-has_transcript: no
-synopsis: "Is Software Dead? by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering software, dead."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Is Software Dead?"
----
-
 # Is Software Dead?
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

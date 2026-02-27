@@ -1,39 +1,3 @@
----
-id: SOURCE-20260212-101
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "future"
-  - "everyday"
-  - "driving"
-  - "rivian"
-  - "ceo"
-creator: "No Priors: AI, Machine Learning, Tech, & Startups"
-guest: null
-title: "AI, R2 and the Future of Everyday Driving | Rivian CEO RJ Scaringe"
-url: "https://www.youtube.com/watch?v=OScO1It9V5g"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "31m 47s"
-has_transcript: no
-synopsis: "AI, R2 and the Future of Everyday Driving | Rivian CEO RJ Scaringe by No Priors: AI, Machine Learning, Tech, & Startups. A interview covering future, everyday, driving."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: career-growth
-aliases:
-  - "AI, R2 and the"
-  - "AI, R2 and the Future of"
----
-
 # AI, R2 and the Future of Everyday Driving | Rivian CEO RJ Scaringe
 
 **Channel**: No Priors: AI, Machine Learning, Tech, & Startups

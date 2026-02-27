@@ -1,39 +1,3 @@
----
-id: SOURCE-20260121-348
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "claude"
-  - "code"
-  - "ollama"
-  - "local"
-  - "cloud"
-creator: "CodeCrafters"
-guest: null
-title: "Claude Code + Ollama: Local & Cloud Models from Your Terminal (Step‑by‑Step Guide)"
-url: "https://www.youtube.com/watch?v=RujtpfFzVtQ"
-date_published: 2026-01-21
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "4m 44s"
-has_transcript: no
-synopsis: "Claude Code + Ollama: Local & Cloud Models from Your Terminal (Step‑by‑Step Guide) by CodeCrafters. A tutorial covering claude, code, ollama."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Claude Code + Ollama:"
-  - "Claude Code + Ollama: Local &"
----
-
 # Claude Code + Ollama: Local & Cloud Models from Your Terminal (Step‑by‑Step Guide)
 
 **Channel**: CodeCrafters

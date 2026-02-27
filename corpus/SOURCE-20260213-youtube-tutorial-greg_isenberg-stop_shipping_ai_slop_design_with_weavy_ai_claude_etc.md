@@ -1,39 +1,3 @@
----
-id: SOURCE-20260213-062
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "stop"
-  - "shipping"
-  - "slop"
-  - "design"
-  - "weavy"
-creator: "Greg Isenberg"
-guest: null
-title: "Stop Shipping AI Slop. Design with Weavy AI, Claude etc."
-url: "https://www.youtube.com/watch?v=9OnN4O4uapI"
-date_published: 2026-02-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "54m 12s"
-has_transcript: no
-synopsis: "Stop Shipping AI Slop. Design with Weavy AI, Claude etc. by Greg Isenberg. A tutorial covering stop, shipping, slop."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Stop Shipping AI Slop."
-  - "Stop Shipping AI Slop. Design with"
----
-
 # Stop Shipping AI Slop. Design with Weavy AI, Claude etc.
 
 **Channel**: Greg Isenberg

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260118-405
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "deep"
-  - "chemistry"
-  - "life"
-  - "death"
-  - "professor"
-creator: " The Science and Cocktails Foundation"
-guest: null
-title: "The deep chemistry of life and death with Professor Nick Lane"
-url: "https://www.youtube.com/watch?v=tj-yDddobM4"
-date_published: 2026-01-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 3m 35s"
-has_transcript: no
-synopsis: "The deep chemistry of life and death with Professor Nick Lane by  The Science and Cocktails Foundation. A lecture covering deep, chemistry, life."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The deep chemistry of"
-  - "The deep chemistry of life and"
----
-
 # The deep chemistry of life and death with Professor Nick Lane
 
 **Channel**:  The Science and Cocktails Foundation

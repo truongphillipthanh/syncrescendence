@@ -1,39 +1,3 @@
----
-id: SOURCE-20241208-168
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "generative"
-  - "art"
-  - "touchdesigner"
-  - "role"
-  - "algorithms"
-creator: "Okamirufu Vizualizer"
-guest: null
-title: "What is Generative Art: TouchDesigner’s Role in Art, Algorithms, and Creative Systems Explained"
-url: "https://www.youtube.com/watch?v=1RD83NjwNIk"
-date_published: 2024-12-08
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "26m 26s"
-has_transcript: no
-synopsis: "What is Generative Art: TouchDesigner’s Role in Art, Algorithms, and Creative Systems Explained by Okamirufu Vizualizer. A tutorial covering generative, art, touchdesigner."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "What is Generative Art:"
-  - "What is Generative Art: TouchDesigner’s Role"
----
-
 # What is Generative Art: TouchDesigner’s Role in Art, Algorithms, and Creative Systems Explained
 
 **Channel**: Okamirufu Vizualizer

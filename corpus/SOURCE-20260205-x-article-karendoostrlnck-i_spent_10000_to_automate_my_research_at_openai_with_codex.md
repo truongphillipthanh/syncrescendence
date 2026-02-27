@@ -1,32 +1,3 @@
----
-url: https://x.com/KarelDoostrlnck/status/2019477361557926281
-author: "Karel (@KarelDoostrlnck)"
-captured_date: 2026-02-13
-id: SOURCE-20260205-011
-original_filename: "20260205-x_article-i_spent_10000_to_automate_my_research_at_openai_with_codex-@karendoostrlnck.md"
-status: triaged
-platform: x
-format: article
-creator: karendoostrlnck
-signal_tier: strategic
-topics:
-  - ai-workflow
-  - automation
-  - git
-  - extended-thinking
-  - codex
-  - openai
-  - api
-teleology: implement
-notebooklm_category: coding-tools
-aliases:
-  - "I spent 10000 to automate my research at OpenAI with Codex"
-synopsis: "I spent $10,000 to automate my research at OpenAI with Codex I use **billions** of codex tokens. Here is my setup and is what I learned. Many people drastically underestimate what codex can do. Even some of my colleagues still underutilize codex, but they are eager to experiment once you show them some ambitious use-cases."
-key_insights:
-  - "I've never actually read these notes, their utility to me is purely the effect on codex's performance."
-  - "In settings where mistakes are costly, you want an incredibly diligent, high-recall search agent."
-  - "Coding agents are also great at data analysis, and have made it very easy to quickly get insights from data."
----
 # I spent $10,000 to automate my research at OpenAI with Codex
 
 I use **billions** of codex tokens. Here is my setup and is what I learned.

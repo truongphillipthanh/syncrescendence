@@ -1,27 +1,3 @@
----
-url: https://x.com/farzyness/status/2018816737853227509
-author: "Farzad (@farzyness)"
-captured_date: 2026-02-03
-id: SOURCE-20260203-014
-original_filename: "20260203-x_article-conspiracy_theory_time_ready_tesla_spacex_merger_national_security-@farzyness.md"
-status: triaged
-platform: x
-format: article
-creator: farzyness
-signal_tier: noise
-topics:
-  - geopolitics
-  - opinion
-teleology: contextualize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Farzad - Tesla SpaceX merger conspiracy theory"
-synopsis: "Speculative conspiracy theory about Tesla becoming a US-only company due to national security concerns and then merging with SpaceX to create America's most powerful business entity. Off-topic from AI/tech engineering."
-key_insights:
-  - "Speculative geopolitical analysis about Tesla-SpaceX merger driven by national security framing."
-  - "Represents the conspiracy theory content genre that appears in AI-adjacent X feeds but lacks technical substance."
-  - "Low signal value for AI engineering or agent development — contextual noise in the source corpus."
----
 # Conspiracy theory time. Ready?
 
 (Description: Portrait photograph of a man with light-colored eyes, overlaid with the text "ENDGAME" in large white letters)

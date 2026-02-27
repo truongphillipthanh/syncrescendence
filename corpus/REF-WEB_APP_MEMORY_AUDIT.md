@@ -1,16 +1,3 @@
----
-id: ref-web_app_memory_audit
-kind: reference
-scope: engine
-target: engine
-linear: SYN-38
-intention: INT-1604
-version: 1.0.0
-status: canonical
-created: 2026-02-10
-updated: 2026-02-10
----
-
 # Web App Memory Architecture Audit
 ## SYN-38 | INT-1604
 

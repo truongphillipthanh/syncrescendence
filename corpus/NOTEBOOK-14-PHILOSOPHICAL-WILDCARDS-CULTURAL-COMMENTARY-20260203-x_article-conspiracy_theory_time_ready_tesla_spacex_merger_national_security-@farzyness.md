@@ -1,9 +1,3 @@
----
-url: https://x.com/farzyness/status/2018816737853227509
-author: Farzad (@farzyness)
-captured_date: 2026-02-03
----
-
 # Conspiracy theory time. Ready?
 
 (Description: Portrait photograph of a man with light-colored eyes, overlaid with the text "ENDGAME" in large white letters)

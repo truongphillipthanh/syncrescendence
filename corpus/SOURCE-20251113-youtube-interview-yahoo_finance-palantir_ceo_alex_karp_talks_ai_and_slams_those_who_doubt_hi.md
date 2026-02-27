@@ -1,39 +1,3 @@
----
-id: SOURCE-20251113-1143
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "palantir"
-  - "ceo"
-  - "alex"
-  - "karp"
-  - "talks"
-creator: "Yahoo Finance"
-guest: null
-title: "Palantir CEO Alex Karp talks AI and slams those who doubt his company's stock"
-url: "https://www.youtube.com/watch?v=-6LakOrqDL4"
-date_published: 2025-11-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 44s"
-has_transcript: no
-synopsis: "Palantir CEO Alex Karp talks AI and slams those who doubt his company's stock by Yahoo Finance. A interview covering palantir, ceo, alex."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Palantir CEO Alex Karp"
-  - "Palantir CEO Alex Karp talks AI"
----
-
 # Palantir CEO Alex Karp talks AI and slams those who doubt his company's stock
 
 **Channel**: Yahoo Finance

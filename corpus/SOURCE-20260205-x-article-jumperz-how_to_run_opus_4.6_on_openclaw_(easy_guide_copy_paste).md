@@ -1,32 +1,3 @@
----
-url: https://x.com/jumperz/status/2019531293726503358
-author: "JUMPERZ (@jumperz)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-010
-original_filename: "20260205-x_article-how_to_run_opus_4.6_on_openclaw_(easy_guide_copy_paste)-@jumperz.md"
-status: triaged
-platform: x
-format: article
-creator: jumperz
-signal_tier: tactical
-topics:
-  - ai-agents
-  - context-management
-  - testing
-  - anthropic
-  - api
-  - cost-optimization
-  - token-management
-teleology: implement
-notebooklm_category: ai-agents
-aliases:
-  - "How to Run Opus 46 on OpenClaw Easy Guide Copy Paste"
-synopsis: "How to Run Opus 4.6 on OpenClaw (Easy Guide, Copy Paste) Overview Opus 4.6 dropped today. OpenClaw hasn't updated yet. We patched the model catalog and it's already running. Copy / Paste into your terminal. Step 1: Find Your OpenClaw Install ```bash npm root -g ``` That gives you the path. Everything below is relative to it."
-key_insights:
-  - "Important Notes - npm update will overwrite the patches."
-  - "If your session exceeds that and falls back, it will break Confirmation That's it, you should be on Opus 4.6 =========== You should see this after you hit `/status` or ask it to check the model."
-  - "How to Run Opus 4.6 on OpenClaw (Easy Guide, Copy Paste) Overview Opus 4.6 dropped today."
----
 # How to Run Opus 4.6 on OpenClaw (Easy Guide, Copy Paste)
 
 (Description: Digital artwork featuring two gray stone/marble sculptured faces in profile facing each other, with glowing red numbers "4.6" displayed prominently in the center, on a black background.)

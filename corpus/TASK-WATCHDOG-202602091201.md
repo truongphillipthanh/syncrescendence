@@ -1,9 +1,3 @@
----
-Status: PENDING
-Priority: P0
-Reply-To: watchdog
-CC: commander
----
 # WATCHDOG ESCALATION: Service restart loop detected
 
 **Time**: 2026-02-09 12:01:55

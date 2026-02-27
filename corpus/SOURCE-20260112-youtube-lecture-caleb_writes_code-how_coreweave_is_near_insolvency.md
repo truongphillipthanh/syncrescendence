@@ -1,37 +1,3 @@
----
-id: SOURCE-20260112-524
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "coreweave"
-  - "near"
-  - "insolvency"
-creator: "Caleb Writes Code"
-guest: null
-title: "How CoreWeave is near insolvency"
-url: "https://www.youtube.com/watch?v=WPRbhr5ak4Y"
-date_published: 2026-01-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 37s"
-has_transcript: no
-synopsis: "How CoreWeave is near insolvency by Caleb Writes Code. A lecture covering coreweave, near, insolvency."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "How CoreWeave is near"
-  - "How CoreWeave is near insolvency"
----
-
 # How CoreWeave is near insolvency
 
 **Channel**: Caleb Writes Code

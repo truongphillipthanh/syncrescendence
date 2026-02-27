@@ -1,35 +1,3 @@
----
-id: SOURCE-20251212-865
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "gpt"
-  - "here"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "GPT-5.2 is Here"
-url: "https://www.youtube.com/watch?v=_6WTIDY7aYs"
-date_published: 2025-12-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "20m 27s"
-has_transcript: no
-synopsis: "GPT-5.2 is Here by The AI Daily Brief: Artificial Intelligence News. A lecture covering gpt, here."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "GPT-5.2 is Here"
----
-
 # GPT-5.2 is Here
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

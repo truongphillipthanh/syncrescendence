@@ -1,39 +1,3 @@
----
-id: SOURCE-20260118-441
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "pioneering"
-  - "pai"
-  - "daniel"
-  - "miessler"
-  - "personal"
-creator: "Cognitive Revolution "How AI Changes Everything""
-guest: null
-title: "Pioneering PAI: How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity"
-url: "https://www.youtube.com/watch?v=DbNUDMcEjzY"
-date_published: 2026-01-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "2h 29m 42s"
-has_transcript: no
-synopsis: "Pioneering PAI: How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity by Cognitive Revolution "How AI Changes Everything". A lecture covering pioneering, pai, daniel."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Pioneering PAI: How Daniel"
-  - "Pioneering PAI: How Daniel Miessler's Personal"
----
-
 # Pioneering PAI: How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity
 
 **Channel**: Cognitive Revolution "How AI Changes Everything"

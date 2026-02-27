@@ -1,38 +1,3 @@
----
-id: SOURCE-20251213-838
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "google"
-  - "deepmind"
-  - "arrival"
-  - "agi"
-creator: "Wes Roth"
-guest: null
-title: "Google DeepMind: "The arrival of AGI""
-url: "https://www.youtube.com/watch?v=hUabJaV0h8w"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 21s"
-has_transcript: no
-synopsis: "Google DeepMind: "The arrival of AGI" by Wes Roth. A interview covering google, deepmind, arrival."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Google DeepMind: "The arrival"
-  - "Google DeepMind: "The arrival of AGI""
----
-
 # Google DeepMind: "The arrival of AGI"
 
 **Channel**: Wes Roth

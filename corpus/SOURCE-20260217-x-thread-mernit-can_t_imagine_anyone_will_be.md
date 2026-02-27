@@ -1,27 +1,3 @@
----
-url: https://x.com/mernit/status/2023886695570285015
-author: Eli Mernit
-handle: mernit
-published_date: Feb 17, 2026
-captured_date: Feb 21, 2026
-post_count: 4
-id: SOURCE-20260217-020
-original_filename: "20260217-x_thread-can_t_imagine_anyone_will_be-@mernit.md"
-status: triaged
-platform: x
-format: thread
-creator: mernit
-signal_tier: noise
-topics: [ai-agents, workflow-automation]
-teleology: reference
-notebooklm_category: ai-agents
-aliases: ["mernit - n8n vs OpenClaw automation"]
-synopsis: "Sarcastic thread showing a complex n8n automation pipeline and joking that OpenClaw is 'just an n8n wrapper.' Implies existing workflow automation tools already handle much of what OpenClaw promises. Brief, comedic tone."
-key_insights:
-  - "Existing workflow automation tools like n8n already handle complex multi-step pipelines that OpenClaw claims to enable"
-  - "The n8n subreddit community views OpenClaw as overlapping with established automation platforms"
-  - "Humorous commentary on the hype cycle around AI agents vs established automation tools"
----
 ## Post 1
 can't imagine anyone will be using this to automate their work 6 months from now
 (Description: A detailed workflow diagram showing a comprehensive automation pipeline. The diagram displays the following components connected in sequence:

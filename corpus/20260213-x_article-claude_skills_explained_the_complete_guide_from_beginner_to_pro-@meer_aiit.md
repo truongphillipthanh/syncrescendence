@@ -1,9 +1,3 @@
----
-url: https://x.com/Meer_AIIT/status/2017984668205756551
-author: Meer | AI Tools & News (@Meer_AIIT)
-captured_date: 2026-02-13
----
-
 # Claude Skills Explained: The Complete Guide from Beginner to Pro
 
 (Description: A branded cover image featuring the text "Claude" with a decorative starburst icon above it, followed by "SKILLS" and "EXPLAINED" in bold typography on a light background.)

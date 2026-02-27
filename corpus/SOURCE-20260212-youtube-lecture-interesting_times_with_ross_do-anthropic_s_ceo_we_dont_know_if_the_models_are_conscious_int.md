@@ -1,39 +1,3 @@
----
-id: SOURCE-20260212-106
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "anthropic"
-  - "ceo"
-  - "don"
-  - "know"
-  - "models"
-creator: "Interesting Times with Ross Douthat"
-guest: null
-title: "Anthropic's CEO: ‘We Don’t Know if the Models Are Conscious’ | Interesting Times with Ross Douthat"
-url: "https://www.youtube.com/watch?v=N5JDzS9MQYI"
-date_published: 2026-02-12
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 2m 33s"
-has_transcript: no
-synopsis: "Anthropic's CEO: ‘We Don’t Know if the Models Are Conscious’ | Interesting Times with Ross Douthat by Interesting Times with Ross Douthat. A lecture covering anthropic, ceo, don."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: claude-code
-aliases:
-  - "Anthropic's CEO: ‘We Don’t"
-  - "Anthropic's CEO: ‘We Don’t Know if"
----
-
 # Anthropic's CEO: ‘We Don’t Know if the Models Are Conscious’ | Interesting Times with Ross Douthat
 
 **Channel**: Interesting Times with Ross Douthat

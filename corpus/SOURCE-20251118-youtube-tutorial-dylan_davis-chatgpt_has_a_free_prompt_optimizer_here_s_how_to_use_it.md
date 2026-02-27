@@ -1,39 +1,3 @@
----
-id: SOURCE-20251118-1079
-platform: youtube
-format: tutorial
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "chatgpt"
-  - "free"
-  - "prompt"
-  - "optimizer"
-  - "here"
-creator: "Dylan Davis"
-guest: null
-title: "ChatGPT Has a Free Prompt Optimizer — Here's How to Use It"
-url: "https://www.youtube.com/watch?v=MA_FhYB-Zoo"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "14m 19s"
-has_transcript: no
-synopsis: "ChatGPT Has a Free Prompt Optimizer — Here's How to Use It by Dylan Davis. A tutorial covering chatgpt, free, prompt."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: prompt-engineering
-aliases:
-  - "ChatGPT Has a Free"
-  - "ChatGPT Has a Free Prompt Optimizer"
----
-
 # ChatGPT Has a Free Prompt Optimizer — Here's How to Use It
 
 **Channel**: Dylan Davis

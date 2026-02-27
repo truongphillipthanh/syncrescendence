@@ -1,39 +1,3 @@
----
-id: SOURCE-20260113-512
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "adam"
-  - "carolla"
-  - "california"
-  - "collapse"
-  - "fires"
-creator: "All-In Podcast"
-guest: null
-title: "Adam Carolla on California’s Collapse: Fires, Failed Leadership, and Gyno-Fascism"
-url: "https://www.youtube.com/watch?v=pw7po593hJM"
-date_published: 2026-01-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 9m 49s"
-has_transcript: no
-synopsis: "Adam Carolla on California’s Collapse: Fires, Failed Leadership, and Gyno-Fascism by All-In Podcast. A lecture covering adam, carolla, california."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Adam Carolla on California’s"
-  - "Adam Carolla on California’s Collapse: Fires,"
----
-
 # Adam Carolla on California’s Collapse: Fires, Failed Leadership, and Gyno-Fascism
 
 **Channel**: All-In Podcast

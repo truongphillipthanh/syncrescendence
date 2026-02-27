@@ -1,9 +1,3 @@
----
-url: https://x.com/Hesamation/status/2017038553058857413
-author: ℏεsam (@Hesamation)
-captured_date: 2026-01-29
----
-
 # The Engineering Behind Clawdbot
 
 (Description: Dark background with white and yellow text. Large serif title "The Engineering Behind Clawdbot" with yellow underline on "Engineering". To the right is an illustrated musculature figure of an orange/rust-colored creature with large crab claws, bulging muscles, two eye stalks, and a prominent mustache-like facial feature.)

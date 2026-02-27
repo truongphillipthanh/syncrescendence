@@ -1,30 +1,3 @@
----
-id: SOURCE-20260103-x-thread-alexfinn-anthropic_just_released_all
-platform: x
-format: thread
-creator: alexfinn
-title: anthropic just released all
-status: triaged
-original_filename: "3-BestPractice_ProTiips--1-20260103-x_thread-anthropic_just_released_all-@alexfinn.md"
-url: https://x.com/AlexFinn/status/2007585393584353688
-author: "Alex Finn (@AlexFinn)"
-captured_date: January 17, 2026
-signal_tier: tactical
-topics:
-  - "claude-code"
-  - "prompt-engineering"
-  - "best-practices"
-  - "tutorial"
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "AlexFinn - Claude Code Secrets"
-synopsis: "Thread summarizing Anthropic official Claude Code prompting best practices documentation. Covers explore-plan-code workflow, thinking hierarchy (think to ultrathink), CLAUDE.md hierarchy, headless mode, and multi-Claude review patterns."
-key_insights:
-  - "Anthropic official docs recommend the explore-plan-code workflow: read files first, make a plan with think keywords, then implement"
-  - "Thinking hierarchy maps to increasing reasoning budgets: think < think hard < think harder < ultrathink for proportionally deeper analysis"
-  - "CLAUDE.md hierarchy supports root, parent, child, and home directory locations for monorepo inheritance of global and per-package guidance"
----
 # Anthropic Just Released ALL the Claude Code Secrets
 
 **Anthropic just released ALL the Claude Code secrets**

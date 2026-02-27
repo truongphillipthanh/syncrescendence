@@ -1,9 +1,3 @@
----
-url: "https://x.com/ElevenLabsDevs/status/2019729311901638663"
-author: "ElevenLabs Developers (@ElevenLabsDevs)"
-captured_date: "2026-02-06"
----
-
 # Let your OpenClaw call you on the phone using ElevenAgents
 
 (Description: Banner image showing "IIElevenLabs × OpenClaw" with a red robot mascot character on a geometric background)

@@ -1,29 +1,3 @@
----
-url: https://x.com/rohit4verse/status/2018013775023263806
-author: "Rohit (@rohit4verse)"
-captured_date: 2026-02-01
-id: SOURCE-20260201-005
-original_filename: "20260201-x_article-what_makes_an_engineer_when_everyone_can_vibe_code-@rohit4verse.md"
-status: triaged
-platform: x
-format: article
-creator: rohit4verse
-signal_tier: strategic
-topics:
-  - vibe-coding
-  - career
-  - ai-engineering
-  - opinion
-teleology: strategize
-notebooklm_category: career-growth
-aliases:
-  - "Rohit - what makes an engineer post-vibe-coding"
-synopsis: "Examines what distinguishes a real engineer when vibe-coding tools like Claude Code and Cursor have collapsed the entry barrier. Addresses the identity crisis when non-techies ship applications faster than average developers."
-key_insights:
-  - "The entry barrier to shipping software has collapsed, creating an identity crisis for traditional engineers who defined themselves by coding ability."
-  - "Engineering differentiation shifts from 'can you write code' to 'can you architect systems, debug at scale, and make sound technical decisions.'"
-  - "When everyone can vibe-code, the engineers who understand WHY things work will outperform those who only know HOW to prompt."
----
 # What makes an engineer when everyone can vibe code
 
 (Description: Collage of engineering imagery featuring: a robotic hand with servo motors and circuit board; detailed blueprint diagches of mechanical systems; intricate technical drawings and schematics; a central text block with the word "engineer" and definition; a rocket launch vehicle blueprint; mathematical equations on dark background; and decorative compass/gear motifs. The visual metaphor contrasts precision engineering with technical complexity.)

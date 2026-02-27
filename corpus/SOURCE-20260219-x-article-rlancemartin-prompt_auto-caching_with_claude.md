@@ -1,32 +1,3 @@
----
-url: https://x.com/RLanceMartin/status/2024573404888911886
-author: "Lance Martin (@RLanceMartin)"
-captured_date: 2026-02-21
-id: SOURCE-20260219-013
-original_filename: "20260219-x_article-prompt_auto-caching_with_claude-@rlancemartin.md"
-status: triaged
-platform: x
-format: article
-creator: rlancemartin
-signal_tier: tactical
-topics:
-  - claude-code
-  - prompting
-  - context-management
-  - api
-  - product-development
-  - cost-optimization
-  - token-management
-teleology: implement
-notebooklm_category: claude-code
-aliases:
-  - "Prompt autocaching with Claude"
-synopsis: "Prompt auto-caching with Claude TL;DR Prompt caching is a great way to save cost + latency when using Claude. Input tokens that use the prompt cache are 10% the cost of non-cached tokens. Auto-caching was just added to the API, which makes it easier to cache your prompt with a single `cache_control` parameter in the API request."
-key_insights:
-  - "[@peakji]( from Manus called out the cache hit rate as [the single most important metric]( for a production AI agent."
-  - "[@trq212]( has noted that prompt caching is [critical for long running / token-heavy agents like Claude Code]( dated Dec 24, 2025, replying to @irl_danB."
-  - "Inference libraries / frameworks like [vLLM]( and [SGLang]( use different approaches to achieve this central idea."
----
 # Prompt auto-caching with Claude
 ## TL;DR
 Prompt caching is a great way to save cost + latency when using Claude. Input tokens that use the prompt cache are 10% the cost of non-cached tokens. Auto-caching was just added to the API, which makes it easier to cache your prompt with a single `cache_control` parameter in the API request. Also, check out [@trq212's deep dive](https://x.com/trq212/status/2024574133011673516) on Claude Code's use of prompt caching and useful tips for cache-friendly prompt design.

@@ -1,9 +1,3 @@
----
-url: https://x.com/mattpocockuk/status/2018651995830362324
-author: Matt Pocock (@mattpocockuk)
-captured_date: 2026-02-14
----
-
 # Skills I'm Currently Running
 
 Skills I'm currently running:

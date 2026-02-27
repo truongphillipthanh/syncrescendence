@@ -1,11 +1,3 @@
----
-id: chatgpt-memory-policy
-kind: protocol
-scope: project
-target: chatgpt
-owner: Vanguard
----
-
 # Memory Policy: what goes in Saved Memory vs Project vs Repo
 
 ## Principle

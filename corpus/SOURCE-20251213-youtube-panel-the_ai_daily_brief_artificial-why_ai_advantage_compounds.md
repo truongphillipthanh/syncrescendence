@@ -1,35 +1,3 @@
----
-id: SOURCE-20251213-832
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "advantage"
-  - "compounds"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "Why AI Advantage Compounds"
-url: "https://www.youtube.com/watch?v=QONt74CTUyE"
-date_published: 2025-12-13
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "11m 45s"
-has_transcript: no
-synopsis: "Why AI Advantage Compounds by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering advantage, compounds."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "Why AI Advantage Compounds"
----
-
 # Why AI Advantage Compounds
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

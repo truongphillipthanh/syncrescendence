@@ -1,37 +1,3 @@
----
-id: SOURCE-20260110-542
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "people"
-  - "using"
-  - "health"
-creator: "The AI Daily Brief: Artificial Intelligence News"
-guest: null
-title: "How People Are Using AI for Health"
-url: "https://www.youtube.com/watch?v=RVVO0JNo8c0"
-date_published: 2026-01-10
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "12m 4s"
-has_transcript: no
-synopsis: "How People Are Using AI for Health by The AI Daily Brief: Artificial Intelligence News. A panel discussion covering people, using, health."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "How People Are Using"
-  - "How People Are Using AI for"
----
-
 # How People Are Using AI for Health
 
 **Channel**: The AI Daily Brief: Artificial Intelligence News

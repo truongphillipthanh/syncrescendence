@@ -1,37 +1,3 @@
----
-id: SOURCE-20251218-767
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "device"
-  - "maps"
-  - "heavens"
-creator: "The Rest Is Science"
-guest: null
-title: "The Device That Maps The Heavens"
-url: "https://www.youtube.com/watch?v=bZ58N81pS_A"
-date_published: 2025-12-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "23m 30s"
-has_transcript: no
-synopsis: "The Device That Maps The Heavens by The Rest Is Science. A lecture covering device, maps, heavens."
-key_insights: []
-visual_notes: null
-teleology: synthesize
-notebooklm_category: ai-engineering
-aliases:
-  - "The Device That Maps"
-  - "The Device That Maps The Heavens"
----
-
 # The Device That Maps The Heavens
 
 **Channel**: The Rest Is Science

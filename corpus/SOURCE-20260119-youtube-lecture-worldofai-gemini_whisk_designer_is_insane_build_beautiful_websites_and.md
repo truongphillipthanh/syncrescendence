@@ -1,39 +1,3 @@
----
-id: SOURCE-20260119-394
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "gemini"
-  - "whisk"
-  - "designer"
-  - "insane"
-  - "build"
-creator: "WorldofAI"
-guest: null
-title: "Gemini Whisk Designer Is INSANE! Build Beautiful Websites and Apps In Minutes FOR FREE!"
-url: "https://www.youtube.com/watch?v=62XRkJD0kRI"
-date_published: 2026-01-19
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "9m 1s"
-has_transcript: no
-synopsis: "Gemini Whisk Designer Is INSANE! Build Beautiful Websites and Apps In Minutes FOR FREE! by WorldofAI. A lecture covering gemini, whisk, designer."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: vibe-coding
-aliases:
-  - "Gemini Whisk Designer Is"
-  - "Gemini Whisk Designer Is INSANE! Build"
----
-
 # Gemini Whisk Designer Is INSANE! Build Beautiful Websites and Apps In Minutes FOR FREE!
 
 **Channel**: WorldofAI

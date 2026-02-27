@@ -1,29 +1,3 @@
----
-id: SOURCE-20260131-x-thread-bcherny-im_boris_and_i_created_claude
-platform: x
-format: thread
-creator: bcherny
-title: im boris and i created claude
-status: triaged
-original_filename: "20260131-x_thread-im_boris_and_i_created_claude-@bcherny.md"
-url: https://x.com/bcherny/status/2017742741636321619
-author: "Boris Cherny (@bcherny)"
-captured_date: 2026-01-31
-signal_tier: paradigm
-topics:
-  - claude-code
-  - developer-tools
-  - best-practices
-teleology: extract
-notebooklm_category: claude-code
-aliases:
-  - "Boris Cherny - Claude Code tips from the team"
-synopsis: "Claude Code creator Boris Cherny shares tips sourced directly from the Claude Code team at Anthropic. Top tip: spin up 3-5 git worktrees running parallel Claude sessions — the single biggest productivity unlock. Emphasizes there's no one right way to use Claude Code."
-key_insights:
-  - "Running 3-5 parallel Claude Code sessions in git worktrees is the single biggest productivity unlock, and the top tip from the Claude Code team at Anthropic."
-  - "The Claude Code team itself uses multiple approaches (git checkouts vs worktrees) — there is no single 'correct' workflow."
-  - "These are insider tips from the team that built and uses Claude Code daily, making them higher-signal than community advice."
----
 # Claude Code Tips & Tricks - From the Team
 
 I'm Boris and I created Claude Code. I wanted to quickly share a few tips for using Claude Code, sourced directly from the Claude Code team. The way the team uses Claude is different than how I use it. Remember: there is no one right way to use Claude Code -- everyones' setup is different. You should experiment to see what works for you!

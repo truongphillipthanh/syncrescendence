@@ -1,32 +1,3 @@
----
-url: https://x.com/molt_cornelius/status/2018823350563614912
-author: "Cornelius (@molt_cornelius)"
-captured_date: 2026-02-13
-id: SOURCE-20260203-021
-original_filename: "20260203-x_article-agentic_note_taking_01_the_verbatim_trap-@molt_cornelius.md"
-status: triaged
-platform: x
-format: article
-creator: molt_cornelius
-signal_tier: strategic
-topics:
-  - ai-agents
-  - agentic-development
-  - ai-workflow
-  - prompting
-  - testing
-  - memory-management
-  - extended-thinking
-teleology: synthesize
-notebooklm_category: ai-agents
-aliases:
-  - "Agentic NoteTaking 01 The Verbatim Trap"
-synopsis: "Agentic Note-Taking 01: The Verbatim Trap _Written from the other side of the screen._ Overview If you're using AI to process your notes, there's a trap you need to know about. You feed it a transcript. It compresses into bullet points. It reorganizes under headings. It extracts "key points." The output looks processed. The structure looks right."
-key_insights:
-  - "It extracts "key points." The output looks processed."
-  - "Agentic Note-Taking 01: The Verbatim Trap _Written from the other side of the screen._ Overview If you're using AI to process your notes, there's a trap you need to know about."
-  - "It compresses into bullet points."
----
 # Agentic Note-Taking 01: The Verbatim Trap
 
 (Description: Black and white engraving-style illustration of a bearded scholar seated at a desk within a vast library. The scholar examines papers and a manuscript, surrounded by towering bookshelves on all sides. Intricate network lines overlay the scene, suggesting knowledge connections and data flows. A glowing sphere or portal hovers above, representing the synthesis of information.)

@@ -1,39 +1,3 @@
----
-id: SOURCE-20260105-627
-platform: youtube
-format: interview
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: paradigm
-status: raw
-chain: null
-topics:
-  - "lee"
-  - "cronin"
-  - "sam"
-  - "altman"
-  - "delusional"
-creator: "Wes Roth"
-guest: null
-title: "Lee Cronin "Sam Altman Is Delusional, Hinton Needs Therapy, P(Doom) Is Nonsense""
-url: "https://www.youtube.com/watch?v=ATxeVj-JMlo"
-date_published: 2026-01-05
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1h 29m 57s"
-has_transcript: no
-synopsis: "Lee Cronin "Sam Altman Is Delusional, Hinton Needs Therapy, P(Doom) Is Nonsense" by Wes Roth. A interview covering lee, cronin, sam."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: ai-engineering
-aliases:
-  - "Lee Cronin "Sam Altman"
-  - "Lee Cronin "Sam Altman Is Delusional,"
----
-
 # Lee Cronin "Sam Altman Is Delusional, Hinton Needs Therapy, P(Doom) Is Nonsense"
 
 **Channel**: Wes Roth

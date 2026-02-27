@@ -1,38 +1,3 @@
----
-id: SOURCE-20251118-1065
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "new"
-  - "era"
-  - "intelligence"
-  - "gemini"
-creator: "Google DeepMind"
-guest: null
-title: "A new era of intelligence with Gemini 3"
-url: "https://www.youtube.com/watch?v=98DcoXwGX6I"
-date_published: 2025-11-18
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "1m 57s"
-has_transcript: no
-synopsis: "A new era of intelligence with Gemini 3 by Google DeepMind. A lecture covering new, era, intelligence."
-key_insights: []
-visual_notes: null
-teleology: strategize
-notebooklm_category: philosophy-paradigm
-aliases:
-  - "A new era of"
-  - "A new era of intelligence with"
----
-
 # A new era of intelligence with Gemini 3
 
 **Channel**: Google DeepMind

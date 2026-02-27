@@ -1,30 +1,3 @@
----
-url: https://x.com/jainarvind/status/2019553277571190821
-author: "Arvind Jain (@jainarvind)"
-captured_date: 2026-02-05
-id: SOURCE-20260205-009
-original_filename: "20260205-x_article-how_do_you_build_a_context_graph-@jainarvind.md"
-status: triaged
-platform: x
-format: article
-creator: jainarvind
-signal_tier: strategic
-topics:
-  - context-management
-  - automation
-  - deployment
-  - product-development
-  - cli-tools
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "How do you build a context graph"
-synopsis: "How do you build a context graph? Introduction Context graphs are quickly becoming one of the most talked about ideas in enterprise AI, with investors @JayaGup10 and @ashugarg calling them a "trillion-dollar opportunity." That's because while AI models can now use tools, they still lack the process knowledge needed to actually automate work."
-key_insights:
-  - "In this blog, we'll lay out @Glean's approach to building context graphs and explain why we took the path we did."
-  - "It then surfaces actionable insights from those traces so AI understands how work actually gets done."
-  - "How do you build a context graph?"
----
 # How do you build a context graph?
 
 ## Introduction

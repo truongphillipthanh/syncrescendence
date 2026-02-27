@@ -1,36 +1,3 @@
----
-id: SOURCE-20260128-262
-platform: youtube
-format: panel
-cadence: evergreen
-value_modality: dialogue_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "alphagenome"
-  - "author"
-  - "roundtable"
-creator: "Google DeepMind"
-guest: null
-title: "AlphaGenome author roundtable"
-url: "https://www.youtube.com/watch?v=V8lhUqKqzUc"
-date_published: 2026-01-28
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "27m 4s"
-has_transcript: no
-synopsis: "AlphaGenome author roundtable by Google DeepMind. A panel discussion covering alphagenome, author, roundtable."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "AlphaGenome author roundtable"
----
-
 # AlphaGenome author roundtable
 
 **Channel**: Google DeepMind

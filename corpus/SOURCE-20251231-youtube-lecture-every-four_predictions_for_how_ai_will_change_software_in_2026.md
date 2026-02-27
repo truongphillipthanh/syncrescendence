@@ -1,39 +1,3 @@
----
-id: SOURCE-20251231-664
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: strategic
-status: raw
-chain: null
-topics:
-  - "four"
-  - "predictions"
-  - "change"
-  - "software"
-  - "2026"
-creator: "Every"
-guest: null
-title: "Four Predictions for How AI Will Change Software in 2026"
-url: "https://www.youtube.com/watch?v=srnTvlmTq3U"
-date_published: 2025-12-31
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "37m 9s"
-has_transcript: no
-synopsis: "Four Predictions for How AI Will Change Software in 2026 by Every. A lecture covering four, predictions, change."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "Four Predictions for How"
-  - "Four Predictions for How AI Will"
----
-
 # Four Predictions for How AI Will Change Software in 2026
 
 **Channel**: Every

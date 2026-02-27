@@ -1,12 +1,3 @@
----
-id: REF-SAAS_INTEGRATION_ARCHITECTURE
-kind: REF
-scope: engine
-target: constellation
-status: draft
-updated: 2026-02-05
----
-
 # REF — Constellation Integration Architecture
 ## Every Surface, Every Platform, Every Pipeline — Connected
 

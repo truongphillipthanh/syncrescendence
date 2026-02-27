@@ -1,39 +1,3 @@
----
-id: SOURCE-20251215-816
-platform: youtube
-format: lecture
-cadence: evergreen
-value_modality: audio_primary
-signal_tier: tactical
-status: raw
-chain: null
-topics:
-  - "renaissance"
-  - "american"
-  - "factory"
-  - "a16z"
-  - "2026"
-creator: "a16z"
-guest: null
-title: "The Renaissance of the American Factory | a16z 2026 Big Ideas"
-url: "https://www.youtube.com/watch?v=JUAj9o6xCwg"
-date_published: 2025-12-15
-date_processed: 2026-02-22
-date_integrated: null
-processing_function: transcribe_youtube
-integrated_into: []
-duration: "3m 27s"
-has_transcript: no
-synopsis: "The Renaissance of the American Factory | a16z 2026 Big Ideas by a16z. A lecture covering renaissance, american, factory."
-key_insights: []
-visual_notes: null
-teleology: implement
-notebooklm_category: ai-engineering
-aliases:
-  - "The Renaissance of the"
-  - "The Renaissance of the American Factory"
----
-
 # The Renaissance of the American Factory | a16z 2026 Big Ideas
 
 **Channel**: a16z

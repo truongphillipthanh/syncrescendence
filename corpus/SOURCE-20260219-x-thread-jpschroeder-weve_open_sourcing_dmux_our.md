@@ -1,29 +1,3 @@
----
-url: https://x.com/jpschroeder/status/2024507517359788224
-author: "Justin Schroeder (@jpschroeder)"
-captured_date: 2026-02-19
-id: SOURCE-20260219-020
-original_filename: "20260219-x_thread-weve_open_sourcing_dmux_our-@jpschroeder.md"
-status: triaged
-platform: x
-format: thread
-creator: jpschroeder
-signal_tier: tactical
-topics:
-  - automation
-  - git
-  - codex
-  - terminal
-teleology: reference
-notebooklm_category: coding-tools
-aliases:
-  - "dmux Thread Archive"
-synopsis: "dmux Thread Archive Original Post **We're open sourcing dmux.** Our internal tool for running Codex and Claude Code swarms. - tmux + worktrees + claude/codex/opencode - hooks for worktree automation - a/b claude vs codex - manage worktrees - multi-project per session ...more."
-key_insights:
-  - "dmux Thread Archive Original Post **We're open sourcing dmux.** Our internal tool for running Codex and Claude Code swarms."
-  - "- tmux + worktrees + claude/codex/opencode - hooks for worktree automation - a/b claude vs codex - manage worktrees - multi-project per session ...more."
-  - "🔗 [dmux.ai]( **7:33 AM · Feb 19, 2026** · 305.6K Views --- Thread Posts by Justin Schroeder Post 1: Coordinator Feature **Feb 19, 2026** One of my favorite features is to create a "coordinator"."
----
 # dmux Thread Archive
 ## Original Post
 **We're open sourcing dmux.**

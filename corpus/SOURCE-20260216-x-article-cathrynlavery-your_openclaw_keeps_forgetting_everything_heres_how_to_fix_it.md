@@ -1,24 +1,3 @@
----
-url: https://x.com/cathrynlavery/status/2023496245981982803
-author: "Cathryn (@cathrynlavery)"
-captured_date: 2026-02-20
-id: SOURCE-20260216-004
-original_filename: "20260216-x_article-your_openclaw_keeps_forgetting_everything_heres_how_to_fix_it-@cathrynlavery.md"
-status: triaged
-platform: x
-format: article
-creator: cathrynlavery
-signal_tier: strategic
-topics: [ai-agents, prompt-engineering, best-practices, tutorial]
-teleology: implement
-notebooklm_category: ai-agents
-aliases: ["cathrynlavery - OpenClaw memory system with 5 files"]
-synopsis: "Builds the case for OpenClaw's file-based memory as superior to black-box ChatGPT memory. Details 5 core files (SOUL.md as Donna Paulsen from Suits, IDENTITY.md, USER.md, TOOLS.md, MEMORY.md) plus AGENTS.md as the correction loop. Emphasizes that 'figure it out' is more valuable than detailed instructions, and every mistake should become a permanent rule."
-key_insights:
-  - "The 'NOT' section of SOUL.md matters more than the 'IS' section - add every annoyance as a rule"
-  - "'Figure it out' teaches problem-solving; detailed instructions only teach the answer"
-  - "The correction loop in AGENTS.md is the real magic - every mistake becomes a rule the agent follows permanently"
----
 # Your OpenClaw Keeps Forgetting Everything. Here's How to Fix It.
 (Description: Hand-drawn illustration showing a beige-colored robotic or mechanical figure on a patterned surface with labels pointing to files: SOUL.md, IDENTITY.md, USER.md, TOOLS.md, and MEMORY.md. Small red dots indicate connection points between the files and the central figure.)
 ## The Problem
