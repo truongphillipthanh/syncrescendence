@@ -1,13 +1,14 @@
 # HANDOFF — Commander Council 41
 
-**Date**: 2026-02-27T01:13:49Z
+**Date**: 2026-02-27T02:14:28Z
 **Agent**: Commander (Claude Opus 4.6)
 **Session**: CC41
-**Git HEAD**: 8d0c0872
+**Git HEAD**: d3d4ec7f
 **Trigger**: PreCompact (auto-handoff)
 
 ## What Was Accomplished
 ```
+d3d4ec7f chore: CC41 handoff
 8d0c0872 feat: Oracle Pass 4 encore response landed — 29/36 lens score, 5 tensions resolved
 479b81fc feat: Oracle Pass 4 encore prompt — formal clarescence illuminated by full exchange arc
 700a8cbb fix: update atom count 6→8 after CC42 canon promotions
@@ -17,7 +18,6 @@ a5c993bc feat: promote CANON-25600 (Ascertescence Cycle) + CANON-25610 (Diviner 
 278b9d5f docs: CC41 hyperfidelity handoff — 3-pass exchange complete, honest assessment
 3ac2a3e0 feat: CC40 3-pass Oracle-Diviner pre-ascertescence exchange (complete)
 d8268a9e chore: CC40 handoff
-323e6319 docs: CC40 handoff — clarescence + neo-ascertescence codified, Oracle staged
 ```
 
 ## What Remains
@@ -37,6 +37,8 @@ d8268a9e chore: CC40 handoff
 
 ## Uncommitted Work
 ```
+ M -INBOX/commander/00-INBOX0/RESPONSE-ORACLE-PREASCERTESCENCE-CC40-PASS2.md
+ D -SOVEREIGN/PROMPT-ORACLE-ASCERTESCENCE-CC35.md
  M agents/commander/memory/journal/2026-02-26.jsonl
  M agents/commander/memory/sync/state.json
  M memory/2026-02-26-ingest.log
@@ -45,6 +47,7 @@ d8268a9e chore: CC40 handoff
  M orchestration/00-ORCHESTRATION/state/DYN-SESSION_BASELINE.json
  M orchestration/00-ORCHESTRATION/state/DYN-SESSION_STATE_BRIEF.err.log
  M orchestration/00-ORCHESTRATION/state/DYN-SESSION_STATE_BRIEF.md
+ M orchestration/00-ORCHESTRATION/state/locks/LOCK_LATTICE_HEALTH.lock
  M orchestration/orchestration/state/.orchestrator_last_run
  M orchestration/orchestration/state/DYN-CONSTELLATION_STATE.md
  M orchestration/state/DYN-EXECUTION_STAGING.md
@@ -53,6 +56,12 @@ d8268a9e chore: CC40 handoff
  M orchestration/state/DYN-SESSION_LOG.md
 ?? -INBOX/commander/00-INBOX0/PROMPT-DIVINER-PREASCERTESCENCE-CC40-PASS3.md
 ?? agents/commander/memory/journal/2026-02-27.jsonl
+?? orchestration/00-ORCHESTRATION/state/DYN-DAG_SIGNAL.json
+?? orchestration/00-ORCHESTRATION/state/DYN-DAG_TENSION_HISTORY.jsonl
+?? orchestration/00-ORCHESTRATION/state/DYN-DAG_TENSION_MONITOR.stderr.log
+?? orchestration/00-ORCHESTRATION/state/DYN-DAG_TENSION_MONITOR.stdout.log
+?? orchestration/00-ORCHESTRATION/state/DYN-EPISTEMIC_ENERGY_AUDIT.jsonl
+?? orchestration/00-ORCHESTRATION/state/locks/LOCK_DAG_STATE.lock
 ```
 
 ## Key Files
@@ -66,6 +75,6 @@ d8268a9e chore: CC40 handoff
 
 ## Session Metrics
 - Commits: 0
-- Dirty files at handoff: 16
+- Dirty files at handoff: 25
 - DAG status: see memory
 - C-009: check memory
