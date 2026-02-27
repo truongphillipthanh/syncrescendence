@@ -40,7 +40,7 @@ This cosmological schema serves as the **complete navigational blueprint** for t
 
 Practitioners engage this artifact to:
 - Understand the complete system architecture at a glance
-- Navigate dependencies between all **71 CANON documents**
+- Navigate dependencies between all **86 CANON documents**
 - Track developmental progress across six chains
 - Identify appropriate entry points for their tier
 - Troubleshoot common challenges systematically
