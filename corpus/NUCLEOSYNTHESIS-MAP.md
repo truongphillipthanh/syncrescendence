@@ -59,11 +59,60 @@
 
 ---
 
-## CRUSH Results (CC57)
+## Repetitions — Nature, Causes, and Resolution (CC57)
 
-**Near-Duplicate CRUSH**: 122 adjudicated candidates. 116 removed (6 already gone from prior waves). All confirmed subsets, truncated copies, or formatting-only variants. Registry in git history (`1a5eba0c`).
+The corpus contained ~895 redundant files. Forensic analysis revealed six distinct mechanisms — each a different species of repetition with different root causes and different implications.
 
-**JSONL Redundancy CRUSH**: 773 Flat JSONL files removed. Each was byte-for-byte identical to the `payload` field of a paired Graphiti JSONL in the same folder. 146 Flat JSONL remain (no matching Graphiti pair — unique content). Graphiti variants preserve all data plus metadata (uuid, schema_version, provenance, timestamp, confidence, entity_type).
+### Mechanism 1: Pipeline Handshake Artifacts (773 pairs — dominant)
+
+The atom extraction pipeline ran in two stages: a Flat extractor produced `EXTRACT-SOURCE-*.jsonl` (bare atoms), then `memsync_bridge.py` wrapped each into a Graphiti bridge format (adding uuid, schema_version, provenance, timestamp, confidence). Both outputs were committed together. The Flat file was the input; the bridge file was the output. Neither stage deleted the other.
+
+**Nature**: Not an error — a pipeline that never cleaned up its intermediates. The Flat JSONL was the precursor; the Graphiti JSONL was the cleaned version. Both surviving is the artifact of a batch process that committed everything.
+
+**Resolution**: 773 Flat JSONL removed. 146 Flat JSONL with no matching bridge pair retained (unique content). Graphiti variants preserve all data plus metadata.
+
+### Mechanism 2: Multi-Stage Ingestion Copies (bulk of 122 near-dupes)
+
+The same web/X article was captured, renamed, and re-committed at each pipeline stage: `feed/` (raw drop) → `04-SOURCES/` (research notebook) → `corpus/` (numeric ID). Each stage produced a file. When corpus was flattened to numeric IDs, multiple stages' outputs coexisted as separate numbered files.
+
+**Nature**: Not sync errors — pipeline archaeology. Each copy is a fossilized stage of a linear process. The later copy is typically fuller (canonicalized SOURCE format with richer metadata). The earlier copy is often truncated or missing the `.md` extension.
+
+### Mechanism 3: Double-Capture from Scraping (subset of 122)
+
+The same article was scraped at different times, producing slightly different title renderings or truncation points. Example: "OpenClaw + MiniMax = The $14/Month AI Agent" captured as two files — one 464 lines, one 243 lines — with subtly different filenames (`minimax_the_14_month` vs `minimax_equals_the_$14_month`).
+
+**Nature**: A pain signal. The ingestion pipeline had no deduplication gate — no URL-level or content-hash check to prevent re-ingestion of already-captured articles. The corpus absorbed whatever was dropped into `feed/`, including re-scrapes.
+
+### Mechanism 4: Agent Task Broadcast Copies (small count)
+
+The orchestrator broadcast identical task templates to multiple agents (e.g., health check sent to all 5 agents). Each agent's copy differed only in the `To:` and `Reply-To:` fields. All copies landed in corpus when operational artifacts were aggregated.
+
+**Nature**: Not errors — the broadcast protocol working as designed. The repetition is structural: N agents × 1 broadcast = N near-identical files. The semantic content is identical; only the addressing differs.
+
+### Mechanism 5: Race Condition Double-Claims (rare)
+
+Two instances of the same agent (Mac mini + MacBook Air) both claimed an unclaimed task within seconds, each producing a `.complete` file. No distributed lock prevented concurrent claims.
+
+**Nature**: An alarm bell. The auto-ingest system lacked mutex on task claiming. Both instances read the task as unclaimed and wrote competing completion records. Low frequency but a real concurrency bug.
+
+### Mechanism 6: Sequential Compaction Snapshots (rare)
+
+The `cc_handoff.sh` PreCompact hook fired twice within one minute during rapid-fire commits near the context limit, producing two handoff files timestamped one minute apart with slightly different git HEADs.
+
+**Nature**: Not an error — legitimate versioned snapshots of a continuously evolving state. The later snapshot supersedes the earlier one. Both are valid; only the later one is needed.
+
+### Summary
+
+| Mechanism | Count | Nature | Signal |
+|-----------|------:|--------|--------|
+| Pipeline intermediates (Flat→Graphiti) | 773 | Precursor/cleaned pair, no cleanup step | Pipeline hygiene |
+| Multi-stage ingestion copies | ~80 | Fossilized pipeline stages | Pipeline needs single-output |
+| Double-capture scraping | ~20 | Same URL scraped twice | Missing dedup gate |
+| Agent broadcast copies | ~15 | N agents × 1 broadcast | Structural, not a bug |
+| Race condition claims | ~5 | Concurrency bug | Alarm bell — needs mutex |
+| Sequential compaction | ~2 | Versioned snapshots | Expected behavior |
+
+**Total removed (CC57)**: 889 files (773 JSONL + 116 near-dupes). Corpus: 11,733 → 5,954 (49.3% reduction).
 
 ---
 
