@@ -1,0 +1,101 @@
+{
+  "poc_version": "V-4",
+  "model": "gpt-4o-mini",
+  "dry_run": false,
+  "files_processed": 10,
+  "total_original_words": 48927,
+  "total_compressed_words": 12266,
+  "overall_ratio": 3.99,
+  "results": [
+    {
+      "id": "CANON-00003",
+      "status": "PASS",
+      "original_words": 1532,
+      "compressed_words": 1402,
+      "ratio": 1.09,
+      "elapsed_s": 53.5,
+      "issues": []
+    },
+    {
+      "id": "CANON-00005",
+      "status": "PASS",
+      "original_words": 12870,
+      "compressed_words": 1309,
+      "ratio": 9.83,
+      "elapsed_s": 98.8,
+      "issues": []
+    },
+    {
+      "id": "CANON-21000",
+      "status": "PASS",
+      "original_words": 3977,
+      "compressed_words": 1206,
+      "ratio": 3.3,
+      "elapsed_s": 52.7,
+      "issues": []
+    },
+    {
+      "id": "CANON-30100",
+      "status": "PASS",
+      "original_words": 9967,
+      "compressed_words": 1594,
+      "ratio": 6.25,
+      "elapsed_s": 129.6,
+      "issues": []
+    },
+    {
+      "id": "CANON-30340",
+      "status": "PASS",
+      "original_words": 1925,
+      "compressed_words": 1096,
+      "ratio": 1.76,
+      "elapsed_s": 40.7,
+      "issues": []
+    },
+    {
+      "id": "CANON-31100",
+      "status": "PASS",
+      "original_words": 6559,
+      "compressed_words": 1254,
+      "ratio": 5.23,
+      "elapsed_s": 69.4,
+      "issues": []
+    },
+    {
+      "id": "CANON-33100",
+      "status": "PASS",
+      "original_words": 1855,
+      "compressed_words": 874,
+      "ratio": 2.12,
+      "elapsed_s": 28.3,
+      "issues": []
+    },
+    {
+      "id": "CANON-34100",
+      "status": "PASS",
+      "original_words": 1822,
+      "compressed_words": 875,
+      "ratio": 2.08,
+      "elapsed_s": 27.4,
+      "issues": []
+    },
+    {
+      "id": "CANON-35200",
+      "status": "PASS",
+      "original_words": 7043,
+      "compressed_words": 1704,
+      "ratio": 4.13,
+      "elapsed_s": 56.9,
+      "issues": []
+    },
+    {
+      "id": "CANON-35210",
+      "status": "PASS",
+      "original_words": 1377,
+      "compressed_words": 952,
+      "ratio": 1.45,
+      "elapsed_s": 43.0,
+      "issues": []
+    }
+  ]
+}
