@@ -46,7 +46,6 @@ entities_defined:
 **Parent**: [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Planetary Mastery)
 
 **Siblings**:
-- [[CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE]] (Mastery Syllabus)
 
 ---
 

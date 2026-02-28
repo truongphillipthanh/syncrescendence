@@ -62,7 +62,6 @@ entities_defined:
 - [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]] (Feedcraft)
 - [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack)
 - [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]] (IIC Constellation)
-- [[CANON-31150-PLATFORM_CAPABILITY_CATALOG]] (Platform Capability Catalog)
 
 **Children**:
 - [[CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION]] — Tone Library Taxonomy [🛰️ Satellite]

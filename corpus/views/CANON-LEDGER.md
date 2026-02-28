@@ -1,5 +1,5 @@
 # Canon Ledger
-> Generated 2026-02-27 18:07
+> Generated 2026-02-27 18:18
 
 | ID | Name | Tier | Volatility | Status | Words | Entities |
 |---|---|---|---|---|---|---|
@@ -9,7 +9,7 @@
 | CANON-00003 | Principles | cosmos | permanent | operational | 1,443 | 11 |
 | CANON-00004 | Evolution | cosmos | moderate | operational | 1,884 | 7 |
 | CANON-00005 | Syncrescendence | cosmos | permanent | partial | 12,787 | 8 |
-| CANON-00006 | Syncrescendent Corpus | cosmos | dynamic | operational | 8,550 | 8 |
+| CANON-00006 | Syncrescendent Corpus | cosmos | dynamic | operational | 8,546 | 8 |
 | CANON-00007 | Syncrescendence Evaluation & Resolu | cosmos | moderate | operational | 11,376 | 9 |
 | CANON-00009 | Syncrescendent Strategy | cosmos | moderate | operational | 4,308 | 11 |
 | CANON-00010 | Syncrescendent Operations | cosmos | moderate | operational | 6,129 | 11 |
@@ -45,12 +45,12 @@
 | CANON-30330 | Research Protocols | lattice | dynamic | operational | 1,525 | 7 |
 | CANON-30340 | Implementation Patterns | lattice | moderate | partial | 1,835 | 8 |
 | CANON-30400 | Agentic Architecture | lattice | moderate | partial | 2,822 | 9 |
-| CANON-30460 | Interaction Dynamics | lattice | moderate | operational | 5,320 | 10 |
+| CANON-30460 | Interaction Dynamics | lattice | moderate | operational | 5,299 | 10 |
 | CANON-31000 | Information Chain | chain | moderate | partial | 658 | 4 |
 | CANON-31100 | Acumen | chain | stable | partial | 6,470 | 6 |
-| CANON-31110 | Feedcraft | chain | moderate | partial | 7,180 | 7 |
+| CANON-31110 | Feedcraft | chain | moderate | partial | 7,175 | 7 |
 | CANON-31115 | Acumen IIC Implementation | chain | dynamic | partial | 10,147 | 7 |
-| CANON-31120 | Tone Library | chain | moderate | partial | 9,204 | 10 |
+| CANON-31120 | Tone Library | chain | moderate | partial | 9,199 | 10 |
 | CANON-31121 | Tone Library Taxonomy | chain | moderate | theoretical | 2,314 | 11 |
 | CANON-31122 | Rhetorical Calibration | chain | moderate | theoretical | 3,223 | 6 |
 | CANON-31130 | Seven-Layer Stack | chain | moderate | partial | 11,359 | 10 |
@@ -64,11 +64,11 @@
 | CANON-32120 | Meta-Analytical Framework | chain | moderate | theoretical | 5,254 | 4 |
 | CANON-33000 | Expertise Chain | chain | moderate | theoretical | 896 | 4 |
 | CANON-33100 | Efficacy | chain | stable | theoretical | 1,790 | 4 |
-| CANON-33110 | Business Operations Backbone | chain | moderate | partial | 1,338 | 4 |
-| CANON-33112 | Revenue Model Reconciliation | chain | moderate | theoretical | 1,267 | 3 |
+| CANON-33110 | Business Operations Backbone | chain | moderate | partial | 1,330 | 4 |
+| CANON-33112 | Revenue Model Reconciliation | chain | moderate | theoretical | 1,262 | 3 |
 | CANON-34000 | Knowledge Chain | chain | moderate | operational | 1,052 | 4 |
-| CANON-34100 | Mastery | chain | stable | theoretical | 1,764 | 4 |
-| CANON-34110 | Syncrescendent Curriculum | chain | moderate | theoretical | 6,567 | 4 |
+| CANON-34100 | Mastery | chain | stable | theoretical | 1,757 | 4 |
+| CANON-34110 | Syncrescendent Curriculum | chain | moderate | theoretical | 6,563 | 4 |
 | CANON-35000 | Wisdom Chain | chain | moderate | operational | 1,230 | 4 |
 | CANON-35100 | Transcendence Ring | chain | stable | theoretical | 1,782 | 4 |
 | CANON-35110 | Transcendence Synthesis System | chain | moderate | theoretical | 2,197 | 7 |

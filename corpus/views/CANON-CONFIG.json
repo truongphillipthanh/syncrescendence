@@ -1,6 +1,6 @@
 {
   "canon_config_version": "2.0",
-  "generated": "2026-02-27T18:07:34.612695",
+  "generated": "2026-02-27T18:18:38.264162",
   "stats": {
     "file_count": 78,
     "node_count": 78,
@@ -344,7 +344,7 @@
       ],
       "status": "canonical",
       "operational_status": "operational",
-      "word_count": 8550,
+      "word_count": 8546,
       "filename": "CANON-00006-CORPUS-cosmos.md"
     },
     "CANON-00007": {
@@ -1375,7 +1375,7 @@
       ],
       "status": "canonical",
       "operational_status": "operational",
-      "word_count": 5320,
+      "word_count": 5299,
       "filename": "CANON-30460-INTERACTION_DYNAMICS-comet.md"
     },
     "CANON-31000": {
@@ -1469,7 +1469,7 @@
       ],
       "status": "canonical",
       "operational_status": "partial",
-      "word_count": 7180,
+      "word_count": 7175,
       "filename": "CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md"
     },
     "CANON-31115": {
@@ -1536,7 +1536,7 @@
       ],
       "status": "canonical",
       "operational_status": "partial",
-      "word_count": 9204,
+      "word_count": 9199,
       "filename": "CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md"
     },
     "CANON-31121": {
@@ -1924,7 +1924,7 @@
       ],
       "status": "canonical",
       "operational_status": "partial",
-      "word_count": 1338,
+      "word_count": 1330,
       "filename": "CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md"
     },
     "CANON-33112": {
@@ -1948,7 +1948,7 @@
       ],
       "status": "canonical",
       "operational_status": "theoretical",
-      "word_count": 1267,
+      "word_count": 1262,
       "filename": "CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md"
     },
     "CANON-34000": {
@@ -1997,7 +1997,7 @@
       ],
       "status": "canonical",
       "operational_status": "theoretical",
-      "word_count": 1764,
+      "word_count": 1757,
       "filename": "CANON-34100-MASTERY-planetary-KNOWLEDGE.md"
     },
     "CANON-34110": {
@@ -2021,7 +2021,7 @@
       ],
       "status": "canonical",
       "operational_status": "theoretical",
-      "word_count": 6567,
+      "word_count": 6563,
       "filename": "CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md"
     },
     "CANON-35000": {

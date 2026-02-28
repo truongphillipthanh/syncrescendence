@@ -53,7 +53,6 @@ entities_defined:
 **Parent**: [[CANON-33100-EFFICACY-planetary-EXPERTISE]] (Planetary Efficacy)
 
 **Children**:
-- [[CANON-33111-BIZ_ENHANCE-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] — Business Operations Enhancements [🛰️ Satellite]
 - [[CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE]] — Revenue Model Reconciliation [🛰️ Satellite]
 
 ---

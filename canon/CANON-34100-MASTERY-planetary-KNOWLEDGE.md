@@ -55,7 +55,6 @@ entities_defined:
 
 **Children**:
 - [[CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE]] — Syncrescendent Curriculum [🌙 Lunar]
-- [[CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE]] — Mastery Syllabus [🌙 Lunar]
 
 ---
 

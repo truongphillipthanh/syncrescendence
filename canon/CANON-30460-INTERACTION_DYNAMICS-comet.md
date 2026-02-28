@@ -62,11 +62,6 @@ entities_defined:
 **Parent**: [[CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE]] (Agentic Architecture)
 
 **Siblings**:
-- [[CANON-30410-COGNITIVE_ARCHITECTURE-asteroid-INTELLIGENCE]] (Cognitive Architecture)
-- [[CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE]] (Multi-Agent Orchestration)
-- [[CANON-30430-MEMORY_SYSTEMS-asteroid-INTELLIGENCE]] (Memory Systems)
-- [[CANON-30440-SAFETY_ALIGNMENT-asteroid-INTELLIGENCE]] (Safety and Alignment)
-- [[CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE]] (Production Frameworks)
 
 ---
 

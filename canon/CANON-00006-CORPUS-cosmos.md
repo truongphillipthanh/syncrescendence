@@ -883,7 +883,6 @@ These documents establish the foundational architecture of Syncrescendence—the
 
 **Related Lunars**: 
 - [[CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE]]: Curriculum Architecture
-- [[CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE]]: Syllabus Design
 
 ---
 

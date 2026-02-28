@@ -1,5 +1,5 @@
 # Canon Scripture — Living Overview
-> Generated 2026-02-27 18:07 by Canon Compiler
+> Generated 2026-02-27 18:18 by Canon Compiler
 > 78 files | 78 nodes | 278 edges | Max depth 7
 
 ## COSMOS — Universal Laws
@@ -16,7 +16,7 @@
   Entities: Oracle Arc (WF), Metabolic Defrag (WF), Reconception (WF), Kintsugi Principle (CON), Two-Stream Architecture (STR) +2 more
 - **CANON-00005** — Syncrescendence `root` ● ← CANON-00000 (12,787 words)
   Entities: Syncrescendence (CON), Recursive Amplification Architecture (STR), Six Developmental Chains (STR), Cognitive Palace (STR), Energy Coils (CON) +3 more
-- **CANON-00006** — Syncrescendent Corpus `root` ○ ← CANON-00000 (8,550 words)
+- **CANON-00006** — Syncrescendent Corpus `root` ○ ← CANON-00000 (8,546 words)
   Entities: Corpus Manifest (ART), Artifact Catalog (STR), Progressive Disclosure Tiers (STR), Access Pathways (WF), Maintenance Rhythms (PROTO) +3 more
 - **CANON-00007** — Syncrescendence Evaluation & Resolutions `root` ◑ ← CANON-00000 (11,376 words)
   Entities: Omni-Quality Dimensions (MET), Validation Architecture (STR), Falsification Criteria (MET), Beta Cohort Design (PROTO), Founder Effect Detection (PROTO) +4 more
@@ -93,7 +93,7 @@
   Entities: Over-Engineering Anti-Pattern (CON), Memory System Bootstrapping (WF), Orchestration Patterns (STR), Context Engineering Economics (CON), Security Defense Patterns (PROTO) +3 more
 - **CANON-30400** — Agentic Architecture `comet` ◑ ← CANON-30000 (2,822 words)
   Entities: Agenticness Spectrum (CON), Three-Layer Architecture (STR), CoALA Framework (STR), Human Agency Scale (MET), Five Core Orchestration Patterns (STR) +4 more
-- **CANON-30460** — Interaction Dynamics `comet` ◑ ← CANON-30400 (5,320 words)
+- **CANON-30460** — Interaction Dynamics `comet` ◑ ← CANON-30400 (5,299 words)
   Entities: Interaction State Machine (STR), Convergent Refinement Pattern (PROTO), Oscillating Refinement Pattern (PROTO), Triangulated Synthesis Pattern (PROTO), Sensing Loop Pattern (PROTO) +5 more
 
 ## CHAIN — Developmental Pathways
@@ -102,11 +102,11 @@
   Entities: Information Chain (CON), Acumen (CON), Feedcraft (CAP), IIC (STR)
 - **CANON-31100** — Acumen `planetary` ◐ ← CANON-31000 (6,470 words)
   Entities: Planetary Acumen (CON), Acumen IIC (TOOL), Priority Band (PROTO), Dual-Stream Intelligence (PROTO), Seven Archaeological Domains (STR) +1 more
-- **CANON-31110** — Feedcraft `lunar` ◑ ← CANON-31100 (7,180 words)
+- **CANON-31110** — Feedcraft `lunar` ◑ ← CANON-31100 (7,175 words)
   Entities: Feedcraft (CON), Functional Platform Topology (STR), Nine Platform Categories (STR), Constitutional Practice (PROTO), Three Cognitive Modes (CON) +2 more
 - **CANON-31115** — Acumen IIC Implementation `lunar` ○ ← CANON-31110 (10,147 words)
   Entities: Acumen IIC Implementation (WF), Daily Intelligence Cycle (PROTO), Intelligence Brief Template (ART), Recommendation Scoring System (MET), Cross-IIC Handoff Protocol (PROTO) +2 more
-- **CANON-31120** — Tone Library `lunar` ◑ ← CANON-31100 (9,204 words)
+- **CANON-31120** — Tone Library `lunar` ◑ ← CANON-31100 (9,199 words)
   Entities: Tone Library (TOOL), Recipe (ART), Rhetorical Function Taxonomy (STR), Stylistic Form Matrix (STR), Evidence Type System (STR) +5 more
 - **CANON-31121** — Tone Library Taxonomy `satellite` ◑ ← CANON-31120 (2,314 words)
   Entities: Rhetorical Function Taxonomy (STR), Stylistic Form Taxonomy (STR), Cadence Pattern Taxonomy (STR), Diction Pattern Taxonomy (STR), Guardrail Taxonomy (STR) +6 more
@@ -134,15 +134,15 @@
   Entities: Expertise Chain (CON), Efficacy (CON), Business Backbone (CON), Revenue Model (CON)
 - **CANON-33100** — Efficacy `planetary` ◐ ← CANON-33000 (1,790 words)
   Entities: Planetary Efficacy (CON), Fire Element Modality (CON), Intention-Formation Modality (CON), Volitional Capacity (CAP)
-- **CANON-33110** — Business Operations Backbone `lunar` ◑ ← CANON-33100 (1,338 words)
+- **CANON-33110** — Business Operations Backbone `lunar` ◑ ← CANON-33100 (1,330 words)
   Entities: Business Operations Backbone (STR), Economic Capability Development (CON), Business Operation Phases (STR), Revenue Model (STR)
-- **CANON-33112** — Revenue Model Reconciliation `satellite` ◑ ← CANON-33110 (1,267 words)
+- **CANON-33112** — Revenue Model Reconciliation `satellite` ◑ ← CANON-33110 (1,262 words)
   Entities: Revenue Model Reconciliation (STR), Convergence 4-Level Architecture (STR), Operations 3-Phase Structure (STR)
 - **CANON-34000** — Knowledge Chain `lunar` ◑ ← CANON-30000 (1,052 words)
   Entities: Knowledge Chain (CON), Mastery (CON), Curriculum (CON), Syllabus (ART)
-- **CANON-34100** — Mastery `planetary` ◐ ← CANON-34000 (1,764 words)
+- **CANON-34100** — Mastery `planetary` ◐ ← CANON-34000 (1,757 words)
   Entities: Planetary Mastery (CON), Earth Element Modality (CON), Embodiment Modality (CON), Embodied Capability (CAP)
-- **CANON-34110** — Syncrescendent Curriculum `lunar` ◑ ← CANON-34100 (6,567 words)
+- **CANON-34110** — Syncrescendent Curriculum `lunar` ◑ ← CANON-34100 (6,563 words)
   Entities: Syncrescendent Curriculum (STR), Four-Stage Progression (STR), Enablement Architecture (CON), Human-AI Symbiosis Curriculum (CON)
 - **CANON-35000** — Wisdom Chain `lunar` ◑ ← CANON-30000 (1,230 words)
   Entities: Wisdom Chain (CON), Transcendence (CON), Gaian Field Node (CON), Metahumanism (CON)
