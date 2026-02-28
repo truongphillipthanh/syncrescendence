@@ -4,7 +4,7 @@
 Stage 1: PARSE    — Extract frontmatter + body structure → IR (JSON)
 Stage 2: VALIDATE — S-1 schema enforcement + cross-file coherence
 Stage 3: GRAPH    — Build dependency DAG, detect cycles, emit Mermaid
-Stage 4: COMPRESS — Generate Syncrescript v2 output (future)
+Stage 4: COMPRESS — Generate Syncrescript v2 structural skeleton + metrics
 Stage 5: EMIT     — Render views: Scripture, Config, Graph, Ledger, Compiled (future)
 
 The compiler IS the immune system (T-6 ratified).
@@ -644,6 +644,214 @@ def format_graph_text(graph_result):
 
 
 # ============================================================
+# STAGE 4: COMPRESS — Syncrescript v2 structural skeleton
+# ============================================================
+
+# SN v2 block types mapped from heading/content patterns
+SN_BLOCK_TYPES = {
+    "definition": "TERM",    # Defines a concept
+    "normative": "NORM",     # Establishes a standard/rule
+    "procedural": "PROC",    # Steps/process
+    "passage": "PASS",       # Expository/teaching content
+}
+
+# Greek letter prefix for CANON IDs in SN notation
+SN_PREFIX = "Κ"
+
+
+def _classify_section(heading_text):
+    """Classify a section heading into SN block type."""
+    h = heading_text.lower()
+    proc_signals = ["how", "step", "process", "procedure", "protocol", "workflow", "guide", "usage"]
+    norm_signals = ["rule", "principle", "invariant", "constraint", "requirement", "must", "standard", "law"]
+    term_signals = ["definition", "what is", "overview", "concept", "glossary", "terminology"]
+
+    for s in proc_signals:
+        if s in h:
+            return "PROC"
+    for s in norm_signals:
+        if s in h:
+            return "NORM"
+    for s in term_signals:
+        if s in h:
+            return "TERM"
+    return "PASS"
+
+
+def _compress_id(canon_id):
+    """Compress CANON-XXXXX to Κ-XXXXX."""
+    return canon_id.replace("CANON-", f"{SN_PREFIX}-")
+
+
+def _make_block_name(heading_text):
+    """Convert heading text to PascalCase block name."""
+    words = re.sub(r'[^a-zA-Z0-9\s]', '', heading_text).split()
+    return "".join(w.capitalize() for w in words[:4])
+
+
+def compress_file_ir(file_ir, graph_result=None):
+    """Compress a single file IR into Syncrescript v2 skeleton."""
+    fm = file_ir["frontmatter"]
+    if not fm:
+        return None
+
+    fid = str(fm.get("id", ""))
+    body = file_ir["body"]
+    headings = body.get("headings", [])
+    sections = body.get("sections", [])
+
+    # SN v2 header (lossless structural data)
+    sn_header = {
+        "id": f"[[{fid}]]",
+        "name": fm.get("canonical_name", fm.get("title", fid)),
+        "tier": fm.get("tier", ""),
+        "chain": fm.get("chain"),
+        "celestial_type": fm.get("celestial_type", ""),
+        "volatility_band": fm.get("volatility_band", ""),
+        "sn_version": "2.0",
+        "parent": fm.get("parent"),
+        "requires": fm.get("requires", []),
+        "siblings": fm.get("siblings", []),
+        "synthesizes": fm.get("synthesizes", []),
+        "entities": fm.get("entities_defined", []),
+        "original_words": body.get("word_count", 0),
+        "original_lines": body.get("line_count", 0),
+    }
+
+    # Remove null/empty values
+    sn_header = {k: v for k, v in sn_header.items()
+                 if v is not None and v != [] and v != "" and v != "null"}
+
+    # Generate SN blocks from sections
+    blocks = []
+    for heading in headings:
+        if heading["level"] > 3:
+            continue  # Skip deep headings
+        block_type = _classify_section(heading["text"])
+        block_name = _make_block_name(heading["text"])
+        if not block_name:
+            continue
+        blocks.append({
+            "type": block_type,
+            "name": block_name,
+            "source_heading": heading["text"],
+            "level": heading["level"],
+            "line": heading["line"],
+        })
+
+    # Compute compression metrics
+    # SN skeleton word count estimate (header + block stubs)
+    sn_lines = []
+    sn_lines.append("---")
+    for k, v in sn_header.items():
+        sn_lines.append(f"{k}: {v}")
+    sn_lines.append("---")
+    sn_lines.append("")
+    sn_lines.append(f"# {_compress_id(fid)}: {sn_header.get('name', fid)} (SN)")
+    sn_lines.append("")
+
+    for block in blocks:
+        indent = "    "
+        sn_lines.append(f"{block['type']} {block['name']}:")
+        sn_lines.append(f'{indent}sutra: "← compress {block["source_heading"]}"')
+        sn_lines.append(f"{indent}gloss:")
+        sn_lines.append(f"{indent}    ← semantic compression required")
+        sn_lines.append("end")
+        sn_lines.append("")
+
+    sn_text = "\n".join(sn_lines)
+    sn_words = len(sn_text.split())
+    original_words = body.get("word_count", 1) or 1
+
+    return {
+        "id": fid,
+        "sn_header": sn_header,
+        "blocks": blocks,
+        "sn_text": sn_text,
+        "metrics": {
+            "original_words": original_words,
+            "skeleton_words": sn_words,
+            "block_count": len(blocks),
+            "compression_potential": round(1 - (sn_words / original_words), 2) if original_words > sn_words else 0,
+        },
+    }
+
+
+def stage_compress(ir_collection, graph_result=None, output_dir=None):
+    """Stage 4: Generate Syncrescript v2 structural skeletons."""
+    results = {
+        "stage": "compress",
+        "timestamp": datetime.now().isoformat(),
+        "file_count": 0,
+        "total_original_words": 0,
+        "total_skeleton_words": 0,
+        "total_blocks": 0,
+        "files": [],
+        "skeletons_written": 0,
+    }
+
+    for file_ir in ir_collection["files"]:
+        compressed = compress_file_ir(file_ir, graph_result)
+        if not compressed:
+            continue
+
+        results["file_count"] += 1
+        results["total_original_words"] += compressed["metrics"]["original_words"]
+        results["total_skeleton_words"] += compressed["metrics"]["skeleton_words"]
+        results["total_blocks"] += compressed["metrics"]["block_count"]
+        results["files"].append({
+            "id": compressed["id"],
+            "blocks": compressed["metrics"]["block_count"],
+            "original_words": compressed["metrics"]["original_words"],
+            "skeleton_words": compressed["metrics"]["skeleton_words"],
+        })
+
+        # Write skeleton files if output dir specified
+        if output_dir:
+            out_path = output_dir / f"{compressed['id']}.sn.md"
+            out_path.write_text(compressed["sn_text"], encoding="utf-8")
+            results["skeletons_written"] += 1
+
+    # Aggregate metrics
+    if results["total_original_words"] > 0:
+        results["skeleton_ratio"] = round(
+            results["total_skeleton_words"] / results["total_original_words"], 3
+        )
+        results["avg_blocks_per_file"] = round(
+            results["total_blocks"] / max(results["file_count"], 1), 1
+        )
+
+    return results
+
+
+def format_compress_text(compress_result):
+    """Human-readable compression report."""
+    lines = []
+    lines.append("Canon Compiler — Compression Report (Stage 4)")
+    lines.append("=" * 60)
+    lines.append(f"Files processed:   {compress_result['file_count']}")
+    lines.append(f"Total blocks:      {compress_result['total_blocks']}")
+    lines.append(f"Avg blocks/file:   {compress_result.get('avg_blocks_per_file', 0)}")
+    lines.append(f"Original words:    {compress_result['total_original_words']:,}")
+    lines.append(f"Skeleton words:    {compress_result['total_skeleton_words']:,}")
+    lines.append(f"Skeleton ratio:    {compress_result.get('skeleton_ratio', 0):.1%}")
+    lines.append(f"Skeletons written: {compress_result['skeletons_written']}")
+
+    if compress_result["skeletons_written"] > 0:
+        lines.append(f"\n✓ SN v2 skeletons emitted. Semantic compression pending (V-4 PoC).")
+    else:
+        lines.append(f"\nℹ Dry run — use --sn-out <dir> to write skeleton files.")
+
+    # Top 10 largest files
+    sorted_files = sorted(compress_result["files"], key=lambda f: f["original_words"], reverse=True)
+    lines.append(f"\nLargest files (compression priority):")
+    for f in sorted_files[:10]:
+        lines.append(f"  {f['id']:40s}  {f['original_words']:>6,} words  {f['blocks']:>3} blocks")
+
+    return "\n".join(lines)
+
+
+# ============================================================
 # MUTAGENIC ZONE (M-1 ratified CC49)
 # ============================================================
 
@@ -722,12 +930,13 @@ def format_text(validation, ir_collection):
 def main():
     parser = argparse.ArgumentParser(description="Canon Compiler (5-stage pipeline)")
     parser.add_argument("stage", nargs="?", default="validate",
-                        choices=["parse", "validate", "graph", "compile"],
+                        choices=["parse", "validate", "graph", "compress", "compile"],
                         help="Which stage(s) to run")
     parser.add_argument("--out", help="Write IR/results to file")
     parser.add_argument("--json", action="store_true", help="JSON output")
     parser.add_argument("--strict", action="store_true", help="Warnings = errors")
     parser.add_argument("--mermaid", help="Write Mermaid diagram to file (graph/compile stage)")
+    parser.add_argument("--sn-out", help="Write SN v2 skeleton files to directory (compress/compile stage)")
     args = parser.parse_args()
 
     # Stage 1: Parse
@@ -783,9 +992,29 @@ def main():
             print(format_graph_text(graph_result))
         sys.exit(1 if validation["total_errors"] > 0 else 0)
 
+    # Stage 4: Compress
+    sn_out_dir = Path(args.sn_out) if args.sn_out else None
+    if sn_out_dir:
+        sn_out_dir.mkdir(parents=True, exist_ok=True)
+    compress_result = stage_compress(ir, graph_result, output_dir=sn_out_dir)
+
+    if args.stage == "compress":
+        if args.json:
+            output = json.dumps(compress_result, indent=2, default=str)
+            if args.out:
+                Path(args.out).write_text(output)
+                print(f"Compression written to {args.out}")
+            else:
+                print(output)
+        else:
+            print(format_text(validation, ir))
+            print()
+            print(format_compress_text(compress_result))
+        sys.exit(1 if validation["total_errors"] > 0 else 0)
+
     # Stage "compile" — all stages
     if args.json:
-        combined = {"validation": validation, "graph": graph_result}
+        combined = {"validation": validation, "graph": graph_result, "compress": compress_result}
         output = json.dumps(combined, indent=2, default=str)
         if args.out:
             Path(args.out).write_text(output)
@@ -796,6 +1025,8 @@ def main():
         print(format_text(validation, ir))
         print()
         print(format_graph_text(graph_result))
+        print()
+        print(format_compress_text(compress_result))
 
     sys.exit(1 if validation["total_errors"] > 0 else 0)
 

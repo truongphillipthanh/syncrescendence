@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit configs validate-canon migrate-canon compile-canon graph-canon parse-canon
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit configs validate-canon migrate-canon compile-canon graph-canon compress-canon parse-canon
 
 # ──────────────────────────────────────────────────────────────
 # Config Generation — Single-source build from AGENTS.md master
@@ -156,6 +156,10 @@ compile-canon:
 # Graph canon dependency DAG (stage 3)
 graph-canon:
 	@python3 corpus/canon_compiler.py graph --mermaid corpus/canon_graph.mmd
+
+# Compress canon to SN v2 skeletons (stage 4)
+compress-canon:
+	@python3 corpus/canon_compiler.py compress --sn-out corpus/sn_skeletons
 
 # Parse canon to IR (stage 1 only)
 parse-canon:
