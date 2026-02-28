@@ -3,7 +3,7 @@
 
 Stage 1: PARSE    — Extract frontmatter + body structure → IR (JSON)
 Stage 2: VALIDATE — S-1 schema enforcement + cross-file coherence
-Stage 3: GRAPH    — Build dependency DAG + volatility heatmap (future)
+Stage 3: GRAPH    — Build dependency DAG, detect cycles, emit Mermaid
 Stage 4: COMPRESS — Generate Syncrescript v2 output (future)
 Stage 5: EMIT     — Render views: Scripture, Config, Graph, Ledger, Compiled (future)
 
@@ -172,6 +172,22 @@ def stage_parse(canon_dir=CANON_DIR):
 
 
 # ============================================================
+# UTILITIES
+# ============================================================
+
+def _extract_refs(fm, field):
+    """Extract reference IDs from a frontmatter field."""
+    refs = fm.get(field)
+    if refs is None:
+        return []
+    if isinstance(refs, str):
+        refs = [refs]
+    if not isinstance(refs, list):
+        refs = [refs]
+    return [str(r).strip() for r in refs if str(r).strip() and str(r).strip() != "null"]
+
+
+# ============================================================
 # STAGE 2: VALIDATE — S-1 schema enforcement
 # ============================================================
 
@@ -292,11 +308,21 @@ def stage_validate(ir_collection, strict=False):
                 if ref_str and ref_str != "null":
                     referenced_ids.add(ref_str)
 
+    # Files with a valid parent are positionally anchored, not orphaned
+    parented_ids = set()
+    for file_ir in ir_collection["files"]:
+        fm = file_ir["frontmatter"]
+        if fm:
+            parent_refs = _extract_refs(fm, "parent") if "parent" in fm else []
+            for p in parent_refs:
+                if p in all_ids:
+                    parented_ids.add(str(fm.get("id", "")))
+
     for file_ir in ir_collection["files"]:
         fm = file_ir["frontmatter"]
         if fm and "id" in fm:
             fid = str(fm["id"])
-            if fid not in referenced_ids and fid != "CANON-00000":
+            if fid not in referenced_ids and fid != "CANON-00000" and fid not in parented_ids:
                 validation["orphans"].append(fid)
 
     # Heatmap summary
@@ -319,6 +345,302 @@ def stage_validate(ir_collection, strict=False):
     validation["heatmap"] = heatmap
 
     return validation
+
+
+# ============================================================
+# STAGE 3: GRAPH — Dependency DAG, cycle detection, Mermaid
+# ============================================================
+
+def _detect_cycles(adjacency):
+    """Detect cycles via DFS. Returns list of cycles found."""
+    WHITE, GRAY, BLACK = 0, 1, 2
+    color = {n: WHITE for n in adjacency}
+    parent_map = {}
+    cycles = []
+
+    def dfs(u, path):
+        color[u] = GRAY
+        for v in adjacency.get(u, []):
+            if v not in color:
+                continue
+            if color[v] == GRAY:
+                # Found cycle — extract it
+                cycle_start = path.index(v)
+                cycles.append(path[cycle_start:] + [v])
+            elif color[v] == WHITE:
+                dfs(v, path + [v])
+        color[u] = BLACK
+
+    for node in adjacency:
+        if color[node] == WHITE:
+            dfs(node, [node])
+
+    return cycles
+
+
+def _topo_sort(adjacency, all_nodes):
+    """Topological sort via Kahn's algorithm. Returns (sorted_list, has_cycle)."""
+    in_degree = {n: 0 for n in all_nodes}
+    for u in adjacency:
+        for v in adjacency[u]:
+            if v in in_degree:
+                in_degree[v] += 1
+
+    queue = sorted([n for n in all_nodes if in_degree[n] == 0])
+    result = []
+    while queue:
+        node = queue.pop(0)
+        result.append(node)
+        for v in sorted(adjacency.get(node, [])):
+            if v in in_degree:
+                in_degree[v] -= 1
+                if in_degree[v] == 0:
+                    queue.append(v)
+
+    return result, len(result) != len(all_nodes)
+
+
+def _compute_depths(adjacency, all_nodes):
+    """Compute max depth from roots for each node using BFS."""
+    in_degree = {n: 0 for n in all_nodes}
+    for u in adjacency:
+        for v in adjacency.get(u, []):
+            if v in in_degree:
+                in_degree[v] += 1
+
+    depths = {n: 0 for n in all_nodes if in_degree[n] == 0}
+    queue = list(depths.keys())
+    visited = set()
+
+    while queue:
+        node = queue.pop(0)
+        if node in visited:
+            continue
+        visited.add(node)
+        for v in adjacency.get(node, []):
+            if v in all_nodes:
+                new_d = depths[node] + 1
+                if v not in depths or new_d > depths[v]:
+                    depths[v] = new_d
+                if v not in visited:
+                    queue.append(v)
+
+    # Assign depth 0 to any unvisited nodes (in cycles)
+    for n in all_nodes:
+        if n not in depths:
+            depths[n] = 0
+
+    return depths
+
+
+def stage_graph(ir_collection):
+    """Stage 3: Build dependency DAG from IR, detect cycles, compute metrics."""
+    # Build adjacency: parent→child, requires edges
+    adjacency = {}  # node → [nodes it points to]
+    reverse_adj = {}  # node → [nodes that point to it]
+    all_nodes = set()
+    node_meta = {}  # id → {tier, celestial_type, volatility_band, filename}
+    edge_list = []  # (source, target, edge_type)
+
+    for file_ir in ir_collection["files"]:
+        fm = file_ir["frontmatter"]
+        if not fm or "id" not in fm:
+            continue
+        fid = str(fm["id"])
+        all_nodes.add(fid)
+        adjacency.setdefault(fid, [])
+        reverse_adj.setdefault(fid, [])
+        node_meta[fid] = {
+            "tier": str(fm.get("tier", "")),
+            "celestial_type": str(fm.get("celestial_type", "")),
+            "volatility_band": str(fm.get("volatility_band", "")),
+            "filename": file_ir["filename"],
+        }
+
+        # Parent → child (parent points to this node)
+        for parent_id in _extract_refs(fm, "parent"):
+            if parent_id == fid:
+                continue  # Skip self-refs
+            if parent_id in ir_collection["id_index"] or parent_id in all_nodes:
+                adjacency.setdefault(parent_id, [])
+                if fid not in adjacency[parent_id]:
+                    adjacency[parent_id].append(fid)
+                reverse_adj.setdefault(fid, [])
+                if parent_id not in reverse_adj[fid]:
+                    reverse_adj[fid].append(parent_id)
+                edge_list.append((parent_id, fid, "parent"))
+
+        # Requires: this node depends on required nodes (required → this)
+        for req_id in _extract_refs(fm, "requires"):
+            adjacency.setdefault(req_id, [])
+            if fid not in adjacency[req_id]:
+                adjacency[req_id].append(fid)
+            if req_id not in reverse_adj.setdefault(fid, []):
+                reverse_adj[fid].append(req_id)
+            edge_list.append((req_id, fid, "requires"))
+
+        # Siblings: bidirectional (model as undirected)
+        for sib_id in _extract_refs(fm, "siblings"):
+            edge_list.append((fid, sib_id, "sibling"))
+
+        # Synthesizes: this node synthesizes others (others → this)
+        for syn_id in _extract_refs(fm, "synthesizes"):
+            edge_list.append((syn_id, fid, "synthesizes"))
+
+    # Cycle detection
+    cycles = _detect_cycles(adjacency)
+
+    # Topological sort
+    topo_order, has_cycle = _topo_sort(adjacency, all_nodes)
+
+    # Depth computation
+    depths = _compute_depths(adjacency, all_nodes)
+    max_depth = max(depths.values()) if depths else 0
+
+    # Roots and leaves
+    roots = sorted([n for n in all_nodes if not reverse_adj.get(n)])
+    leaves = sorted([n for n in all_nodes if not adjacency.get(n, [])])
+
+    # Tier distribution
+    tier_counts = {}
+    for nid, meta in node_meta.items():
+        t = meta["tier"]
+        tier_counts[t] = tier_counts.get(t, 0) + 1
+
+    # Depth layers
+    depth_layers = {}
+    for nid, d in depths.items():
+        depth_layers.setdefault(d, [])
+        depth_layers[d].append(nid)
+
+    # Connected components (undirected)
+    visited = set()
+    components = []
+    undirected = {n: set() for n in all_nodes}
+    for src, tgt, _ in edge_list:
+        if src in all_nodes and tgt in all_nodes:
+            undirected[src].add(tgt)
+            undirected[tgt].add(src)
+
+    def bfs_component(start):
+        comp = set()
+        queue = [start]
+        while queue:
+            n = queue.pop(0)
+            if n in comp:
+                continue
+            comp.add(n)
+            for nb in undirected.get(n, []):
+                if nb not in comp:
+                    queue.append(nb)
+        return comp
+
+    for n in sorted(all_nodes):
+        if n not in visited:
+            comp = bfs_component(n)
+            visited |= comp
+            components.append(sorted(comp))
+
+    # Generate Mermaid
+    mermaid_lines = ["graph TD"]
+
+    # Style classes by tier
+    mermaid_lines.append("    classDef cosmos fill:#FFD700,stroke:#B8860B,color:#000")
+    mermaid_lines.append("    classDef core fill:#FF6347,stroke:#B22222,color:#fff")
+    mermaid_lines.append("    classDef lattice fill:#4682B4,stroke:#2F4F4F,color:#fff")
+    mermaid_lines.append("    classDef chain fill:#32CD32,stroke:#228B22,color:#000")
+    mermaid_lines.append("    classDef archive fill:#808080,stroke:#696969,color:#fff")
+    mermaid_lines.append("    classDef immune fill:#DA70D6,stroke:#8B008B,color:#000")
+    mermaid_lines.append("")
+
+    # Nodes
+    def mermaid_id(canon_id):
+        return canon_id.replace("-", "_")
+
+    for nid in sorted(all_nodes):
+        mid = mermaid_id(nid)
+        short = nid.replace("CANON-", "")
+        meta = node_meta.get(nid, {})
+        tier = meta.get("tier", "")
+        mermaid_lines.append(f"    {mid}[\"{short}\"]:::{tier}")
+
+    mermaid_lines.append("")
+
+    # Edges (deduplicated)
+    seen_edges = set()
+    for src, tgt, etype in edge_list:
+        if src not in all_nodes or tgt not in all_nodes:
+            continue
+        key = (src, tgt, etype)
+        if key in seen_edges:
+            continue
+        seen_edges.add(key)
+        msrc = mermaid_id(src)
+        mtgt = mermaid_id(tgt)
+        if etype == "parent":
+            mermaid_lines.append(f"    {msrc} --> {mtgt}")
+        elif etype == "requires":
+            mermaid_lines.append(f"    {msrc} -.-> {mtgt}")
+        elif etype == "sibling":
+            mermaid_lines.append(f"    {msrc} <--> {mtgt}")
+        elif etype == "synthesizes":
+            mermaid_lines.append(f"    {msrc} ==> {mtgt}")
+
+    mermaid_text = "\n".join(mermaid_lines)
+
+    return {
+        "stage": "graph",
+        "timestamp": datetime.now().isoformat(),
+        "node_count": len(all_nodes),
+        "edge_count": len(seen_edges),
+        "max_depth": max_depth,
+        "depth_layers": {str(k): sorted(v) for k, v in sorted(depth_layers.items())},
+        "roots": roots,
+        "leaves": leaves,
+        "root_count": len(roots),
+        "leaf_count": len(leaves),
+        "cycles": cycles,
+        "has_cycle": len(cycles) > 0,
+        "topo_order": topo_order,
+        "connected_components": len(components),
+        "component_sizes": [len(c) for c in components],
+        "tier_distribution": tier_counts,
+        "mermaid": mermaid_text,
+    }
+
+
+def format_graph_text(graph_result):
+    """Human-readable graph report."""
+    lines = []
+    lines.append("Canon Compiler — Graph Report (Stage 3)")
+    lines.append("=" * 60)
+    lines.append(f"Nodes:             {graph_result['node_count']}")
+    lines.append(f"Edges:             {graph_result['edge_count']}")
+    lines.append(f"Max depth:         {graph_result['max_depth']}")
+    lines.append(f"Roots:             {graph_result['root_count']}")
+    lines.append(f"Leaves:            {graph_result['leaf_count']}")
+    lines.append(f"Components:        {graph_result['connected_components']}")
+    lines.append(f"Cycles:            {len(graph_result['cycles'])}")
+
+    lines.append(f"\nTier distribution:")
+    for tier, count in sorted(graph_result["tier_distribution"].items()):
+        lines.append(f"  {tier:12s}: {count}")
+
+    lines.append(f"\nDepth layers:")
+    for depth, nodes in sorted(graph_result["depth_layers"].items()):
+        lines.append(f"  Depth {depth}: {len(nodes)} nodes")
+
+    if graph_result["cycles"]:
+        lines.append(f"\n✗ CYCLES DETECTED ({len(graph_result['cycles'])}):")
+        for cycle in graph_result["cycles"]:
+            lines.append(f"  {' → '.join(cycle)}")
+    else:
+        lines.append(f"\n✓ No cycles. DAG is valid.")
+
+    lines.append(f"\nRoots: {', '.join(graph_result['roots'])}")
+    lines.append(f"Leaves: {', '.join(graph_result['leaves'])}")
+
+    return "\n".join(lines)
 
 
 # ============================================================
@@ -400,11 +722,12 @@ def format_text(validation, ir_collection):
 def main():
     parser = argparse.ArgumentParser(description="Canon Compiler (5-stage pipeline)")
     parser.add_argument("stage", nargs="?", default="validate",
-                        choices=["parse", "validate", "compile"],
+                        choices=["parse", "validate", "graph", "compile"],
                         help="Which stage(s) to run")
     parser.add_argument("--out", help="Write IR/results to file")
     parser.add_argument("--json", action="store_true", help="JSON output")
     parser.add_argument("--strict", action="store_true", help="Warnings = errors")
+    parser.add_argument("--mermaid", help="Write Mermaid diagram to file (graph/compile stage)")
     args = parser.parse_args()
 
     # Stage 1: Parse
@@ -427,15 +750,52 @@ def main():
     if mutagenic:
         validation["mutagenic_zone"] = mutagenic
 
+    if args.stage == "validate":
+        if args.json:
+            output = json.dumps(validation, indent=2, default=str)
+            if args.out:
+                Path(args.out).write_text(output)
+                print(f"Validation written to {args.out}")
+            else:
+                print(output)
+        else:
+            print(format_text(validation, ir))
+        sys.exit(1 if validation["total_errors"] > 0 else 0)
+
+    # Stage 3: Graph
+    graph_result = stage_graph(ir)
+
+    if args.mermaid:
+        Path(args.mermaid).write_text(graph_result["mermaid"])
+        print(f"Mermaid diagram written to {args.mermaid}")
+
+    if args.stage == "graph":
+        if args.json:
+            output = json.dumps(graph_result, indent=2, default=str)
+            if args.out:
+                Path(args.out).write_text(output)
+                print(f"Graph written to {args.out}")
+            else:
+                print(output)
+        else:
+            print(format_text(validation, ir))
+            print()
+            print(format_graph_text(graph_result))
+        sys.exit(1 if validation["total_errors"] > 0 else 0)
+
+    # Stage "compile" — all stages
     if args.json:
-        output = json.dumps(validation, indent=2, default=str)
+        combined = {"validation": validation, "graph": graph_result}
+        output = json.dumps(combined, indent=2, default=str)
         if args.out:
             Path(args.out).write_text(output)
-            print(f"Validation written to {args.out}")
+            print(f"Compilation written to {args.out}")
         else:
             print(output)
     else:
         print(format_text(validation, ir))
+        print()
+        print(format_graph_text(graph_result))
 
     sys.exit(1 if validation["total_errors"] > 0 else 0)
 

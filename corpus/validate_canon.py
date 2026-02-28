@@ -234,12 +234,21 @@ def main():
                 if ref:
                     referenced_ids.add(str(ref))
 
+    # Files with a valid parent are positionally anchored, not orphaned
+    parented_ids = set()
+    for f in canon_files:
+        fm, _ = parse_frontmatter(f)
+        if fm and "id" in fm:
+            parent = fm.get("parent")
+            if parent and str(parent) != "null" and str(parent) in all_ids and str(parent) != str(fm["id"]):
+                parented_ids.add(str(fm["id"]))
+
     orphans = []
     for f in canon_files:
         fm, _ = parse_frontmatter(f)
         if fm and "id" in fm:
             fid = str(fm["id"])
-            if fid not in referenced_ids and fid != "CANON-00000":
+            if fid not in referenced_ids and fid != "CANON-00000" and fid not in parented_ids:
                 orphans.append(fid)
 
     # Output
