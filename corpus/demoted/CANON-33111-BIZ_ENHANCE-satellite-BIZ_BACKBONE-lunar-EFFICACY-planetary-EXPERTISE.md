@@ -17,7 +17,10 @@ requires:
 siblings: []
 synthesizes: []
 
-status: canonical
+status: demoted
+demotion_reason: "Incomplete — partial status, never developed beyond skeleton"
+demoted_from: canon
+demoted_date: 2026-02-27
 operational_status: partial
 version: 2.0.0
 created: 2025-10-17

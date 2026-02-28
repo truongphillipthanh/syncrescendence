@@ -8,8 +8,8 @@ chain: intelligence
 layer: lattice
 developmental_status: active
 celestial_type: asteroid
-volatility_band: dynamic
-refresh_cadence: monthly
+volatility_band: moderate
+refresh_cadence: quarterly
 
 parent: CANON-30300
 requires:

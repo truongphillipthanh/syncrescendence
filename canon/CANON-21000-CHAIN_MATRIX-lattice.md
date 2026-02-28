@@ -6,7 +6,7 @@ title: "Chain Interdependency Matrix"
 tier: lattice
 chain: null
 celestial_type: planetary
-volatility_band: stable
+volatility_band: moderate
 refresh_cadence: semi-annual
 
 parent: CANON-20000

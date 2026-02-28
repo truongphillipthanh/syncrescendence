@@ -6,8 +6,8 @@ title: "Platform Constellation Architecture"
 tier: lattice
 chain: null
 celestial_type: planetary
-volatility_band: stable
-refresh_cadence: semi-annual
+volatility_band: dynamic
+refresh_cadence: quarterly
 
 parent: CANON-25000
 requires:

@@ -6,8 +6,8 @@ title: "Syncrescendence Evaluation & Resolutions"
 tier: cosmos
 chain: null
 celestial_type: root
-volatility_band: permanent
-refresh_cadence: annual
+volatility_band: moderate
+refresh_cadence: semi-annual
 
 parent: CANON-00000
 requires: []

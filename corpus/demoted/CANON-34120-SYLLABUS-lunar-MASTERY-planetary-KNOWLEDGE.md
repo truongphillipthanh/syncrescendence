@@ -17,7 +17,10 @@ siblings:
   - CANON-34110
 synthesizes: []
 
-status: canonical
+status: demoted
+demotion_reason: "Explicitly dated 'October 2025' — stale reference, not scripture"
+demoted_from: canon
+demoted_date: 2026-02-27
 operational_status: theoretical
 version: 2.0.0
 created: 2025-10-17

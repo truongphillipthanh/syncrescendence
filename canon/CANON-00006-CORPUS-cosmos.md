@@ -6,8 +6,8 @@ title: "Syncrescendent Corpus"
 tier: cosmos
 chain: null
 celestial_type: root
-volatility_band: permanent
-refresh_cadence: annual
+volatility_band: dynamic
+refresh_cadence: monthly
 
 parent: CANON-00000
 requires: []

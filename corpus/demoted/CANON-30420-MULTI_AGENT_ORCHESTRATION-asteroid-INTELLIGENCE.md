@@ -17,7 +17,10 @@ requires:
 siblings: []
 synthesizes: []
 
-status: canonical
+status: demoted
+demotion_reason: "Textbook import — 30400 peninsula, never integrated, theoretical status"
+demoted_from: canon
+demoted_date: 2026-02-27
 operational_status: partial
 version: 2.0.0
 created: 2025-12-30

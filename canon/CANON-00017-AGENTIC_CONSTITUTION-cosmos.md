@@ -6,8 +6,8 @@ title: "Agentic Constitution"
 tier: cosmos
 chain: null
 celestial_type: root
-volatility_band: permanent
-refresh_cadence: annual
+volatility_band: moderate
+refresh_cadence: quarterly
 
 parent: CANON-00010
 requires:

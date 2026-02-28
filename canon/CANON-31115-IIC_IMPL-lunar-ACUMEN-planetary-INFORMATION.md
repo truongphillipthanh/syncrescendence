@@ -6,8 +6,8 @@ title: "Acumen IIC Implementation"
 tier: chain
 chain: information
 celestial_type: lunar
-volatility_band: moderate
-refresh_cadence: quarterly
+volatility_band: dynamic
+refresh_cadence: monthly
 
 parent: CANON-31110
 requires:

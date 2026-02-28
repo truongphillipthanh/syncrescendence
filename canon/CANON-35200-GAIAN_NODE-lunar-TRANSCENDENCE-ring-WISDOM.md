@@ -7,7 +7,7 @@ tier: chain
 chain: wisdom
 celestial_type: lunar
 volatility_band: moderate
-refresh_cadence: quarterly
+refresh_cadence: semi-annual
 
 parent: CANON-35000
 requires:

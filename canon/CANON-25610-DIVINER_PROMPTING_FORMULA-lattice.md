@@ -6,8 +6,8 @@ title: "Diviner Prompting Formula"
 tier: lattice
 chain: null
 celestial_type: planetary
-volatility_band: stable
-refresh_cadence: semi-annual
+volatility_band: moderate
+refresh_cadence: quarterly
 
 parent: CANON-25600
 requires:

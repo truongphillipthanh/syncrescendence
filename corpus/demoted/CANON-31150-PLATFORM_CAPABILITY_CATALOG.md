@@ -14,7 +14,10 @@ requires: []
 siblings: []
 synthesizes: []
 
-status: canonical
+status: demoted
+demotion_reason: "Auto-generated catalog, no sovereign voice — reference material not canon"
+demoted_from: canon
+demoted_date: 2026-02-27
 operational_status: operational
 version: 1.0.0
 created: 2026-02-27

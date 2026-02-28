@@ -6,7 +6,7 @@ title: "Platform Grammar"
 tier: chain
 chain: information
 celestial_type: satellite
-volatility_band: moderate
+volatility_band: dynamic
 refresh_cadence: quarterly
 
 parent: CANON-31140
