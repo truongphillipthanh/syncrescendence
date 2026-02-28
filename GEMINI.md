@@ -253,15 +253,17 @@ Every dispatch involving corpus or file classification MUST include this verbati
 
 **Anti-patterns**: Asking for synthesis or creative work (= wrong tool). Depth without width (= incomplete audit). Vague instructions (= aspergerly interpretation). No row counts (= truncated output).
 
-### Universal Prompt Requirements (ALL AGENTS)
+### Universal Prompt Requirements (ALL AGENTS — MANDATORY, NO EXCEPTIONS)
 
-Every dispatch prompt MUST include:
-1. **Repo link**: `https://github.com/truongphillipthanh/syncrescendence` (push first!)
-2. **Specific file paths** to key reference documents (e.g., `corpus/NUCLEOSYNTHESIS-MAP.md`)
+Every dispatch prompt MUST include ALL of the following. Missing any one is a prompt failure.
+
+1. **Repo link**: `https://github.com/truongphillipthanh/syncrescendence` — push BEFORE creating the prompt!
+2. **Explicit GitHub paths to EVERY relevant directory and file.** Not just the repo root — full clickable URLs. Example: `https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/multi-agent-systems` for a folder, `https://github.com/truongphillipthanh/syncrescendence/blob/main/corpus/NUCLEOSYNTHESIS-MAP.md` for a file. List every folder and every reference document the agent needs to access. Agents cannot navigate from vague references — give them the PATHS.
 3. **Git HEAD hash** so the agent knows which state they're validating
 4. **Clustering principle** quoted verbatim if the task involves classification
 5. **Absolute prohibitions** relevant to the task (type-based clustering, deletions, etc.)
 6. **Constellation context** — who they are, what the project is, who the other agents are
+7. **A "HOW TO ACCESS THE REPO" section** with clickable links to every directory and key file the agent will need. This is NOT optional — it is the difference between an agent that reads content and an agent that hallucinates filenames.
 
 ---
 

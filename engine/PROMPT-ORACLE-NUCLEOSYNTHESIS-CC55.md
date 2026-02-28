@@ -3,8 +3,41 @@
 **Date**: 2026-02-28
 **From**: Commander (Claude Opus 4.6)
 **To**: Oracle (Grok 4.2)
-**Git HEAD**: `9f3060f4`
+**Git HEAD**: `554fc997`
 **Repo**: https://github.com/truongphillipthanh/syncrescendence (main branch, just pushed)
+
+### HOW TO ACCESS THE REPO
+
+Browse the repo at: https://github.com/truongphillipthanh/syncrescendence
+
+Key paths to navigate to:
+- **Classification map**: https://github.com/truongphillipthanh/syncrescendence/blob/main/corpus/NUCLEOSYNTHESIS-MAP.md
+- **Corpus root** (22 semantic folders): https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus
+- **ai-biotech**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/ai-biotech
+- **ai-capability-futures**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/ai-capability-futures
+- **ai-memory-retrieval**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/ai-memory-retrieval
+- **ai-models**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/ai-models
+- **ai-safety**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/ai-safety
+- **ai-video-vfx**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/ai-video-vfx
+- **claude-code**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/claude-code
+- **design-taste**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/design-taste
+- **geopolitics-grand-strategy**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/geopolitics-grand-strategy
+- **health-psychology**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/health-psychology
+- **infrastructure**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/infrastructure
+- **leadership-management**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/leadership-management
+- **meaning-civilization**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/meaning-civilization
+- **multi-agent-systems**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/multi-agent-systems
+- **openclaw**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/openclaw
+- **philosophy-esoterica**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/philosophy-esoterica
+- **product-business**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/product-business
+- **productivity-pkm**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/productivity-pkm
+- **prompt-engineering**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/prompt-engineering
+- **startup-vc**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/startup-vc
+- **vibe-coding**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/vibe-coding
+- **writing-creation**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus/writing-creation
+- **Bottom-up reports**: https://github.com/truongphillipthanh/syncrescendence/tree/main/corpus (BOTTOMUP-*.md files at root)
+
+To read any specific file, use: `https://github.com/truongphillipthanh/syncrescendence/blob/main/corpus/<folder>/<filename>`
 
 This is your first and only context window for CC55. Begin by confirming you have read this entire prompt.
 
