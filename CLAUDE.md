@@ -324,7 +324,15 @@ Do NOT wait for compaction — monitor proactively.
 
 1. **COMMIT**: `git add` and `git commit` ALL uncommitted work.
 
-2. **WRITE HANDOFF**:
+2. **KAIZEN SWEEP** (before writing the handoff — this IS the process improvement):
+
+   **a. Seared Lessons Extraction**: Did this session produce any new lesson that future sessions must never forget? If yes, append it to `critical-lessons.md` in auto-memory. Lessons are patterns, not events — "mass-editing generated files corrupts the build" not "in CC31 we edited 29 files." If no new lesson, skip.
+
+   **b. Config Drift Check**: Run `make configs` and verify no phantom paths crept into AGENTS.md or CLAUDE-EXT.md during the session. If any directory referenced in the config files was created, moved, or deleted this session, update the Directory Structure section and FLAT PRINCIPLE sanctioned exceptions NOW. The CC52-CC57 catastrophe (16 sessions of phantom paths) happened because nobody checked.
+
+   **c. Memory Hygiene**: Read MEMORY.md. Is anything stale, contradictory, or missing? Does the directory structure still match? Are topic file references still valid? Fix now — not "next session." Memory is cache; if the cache is wrong, every future session inherits the error.
+
+3. **WRITE HANDOFF**:
 
 ```markdown
 # HANDOFF — Commander Council {N}
@@ -354,13 +362,22 @@ Do NOT wait for compaction — monitor proactively.
 | File | Purpose |
 |------|---------|
 
+## Kaizen
+- Seared lessons extracted: {yes — topic | no new lessons}
+- Config drift: {clean | fixed — what changed}
+- Memory hygiene: {clean | fixed — what was stale}
+
 ## Session Metrics
 - Commits: {N}
 - Files changed: {N}
 - Dirty files at handoff: {N}
 ```
 
-3. **PRINT REINITIALIZER** (last thing printed):
+4. **SOVEREIGN FEEDBACK** (post-handoff, async):
+
+The Sovereign may grade any handoff 1-5 and flag what was missing. This feedback is cumulative — patterns in low scores drive protocol evolution. Feedback lives as a comment at the bottom of the handoff file, added by the Sovereign at their discretion.
+
+5. **PRINT REINITIALIZER** (last thing printed):
 
 ```
 Resume CC{N+1}. Read handoff: @agents/commander/outbox/handoffs/HANDOFF-CC{N}.md
