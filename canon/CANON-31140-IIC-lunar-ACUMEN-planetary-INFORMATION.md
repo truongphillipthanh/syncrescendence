@@ -1,34 +1,42 @@
 ---
 id: CANON-31140
-name: IIC Constellation
-identity: Identity-Intelligence Complex Constellation
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: IIC Constellation
+title: "IIC Constellation"
+
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31100
+requires:
+  - CANON-31100
+  - CANON-31000
+siblings:
+  - CANON-31130
+synthesizes:
+  - CANON-31141
+  - CANON-31142
+  - CANON-31143
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Multi-account intelligence framework operationalizing Seven-Layer Stack across chain-aligned email identities for polymathic synthesis and systematic capability development
-chain: INFORMATION
-planetary: ACUMEN
-parent: CANON-31100
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "IIC Constellation (STR)"
   - "Identity-Intelligence Complex (CON)"
   - "Multi-Account Intelligence Framework (STR)"
   - "Functional Compartmentalization (CON)"
   - "Progressive Activation Sequence (PROTO)"
-depends_on:
-  - CANON-31100
-  - CANON-31130
-  - CANON-31141
-  - CANON-31142
-  - CANON-31143
-  - CANON-31000
-last_verified: 2026-02-05
 ---
-
 # CANON-31140: IIC CONSTELLATION
 ## Multi-Account Intelligence Framework
 ### Chain: INFORMATION | Planetary: ACUMEN | Lunar System

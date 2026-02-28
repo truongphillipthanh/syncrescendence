@@ -1,25 +1,36 @@
 ---
 id: CANON-99000
-name: Historical Archive - Syncrescendence Lunar Consolidation
-identity: HISTORICAL
-tier: CANON
-type: meta
-version: 2.0.0
+canonical_name: Historical Archive - Syncrescendence Lunar Consolidation
+title: "Historical Archive - Syncrescendence Lunar Consolidation"
+
+tier: archive
+chain: null
+celestial_type: meta
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-90000
+requires:
+  - CANON-00000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Complete documentation of framework evolution and artifact supersession—comprehensive index preserving lineage of all superseded artifacts with clear migration paths
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Historical Archive (ART)"
   - "Lunar Consolidation Record (ART)"
   - "Artifact Supersession Index (STR)"
   - "Migration Path Registry (STR)"
-depends_on:
-  - CANON-00000
-last_verified: 2026-02-05
 ---
-
 > **Historical Note**: This document intentionally preserves legacy CANON-1 through CANON-17 numbering as historical record. Current numbering uses 5-digit format (e.g., [[CANON-00001-ORIGIN-cosmos]], [[CANON-30000-INTELLIGENCE-chain]]). See [[CANON-00000-SCHEMA-cosmos]]-SCHEMA for current mapping.
 
 # HISTORICAL ARCHIVE: SYNCRESCENDENCE LUNAR CONSOLIDATION

@@ -1,31 +1,39 @@
 ---
 id: CANON-33110
-name: Business Operations Backbone
-identity: Business Operations Backbone
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Business Operations Backbone
+title: "Business Operations Backbone"
+
+tier: chain
+chain: expertise
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-33100
+requires:
+  - CANON-33100
+  - CANON-33000
+siblings: []
+synthesizes:
+  - CANON-33111
+  - CANON-33112
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Economic capability development through strategic excellence, providing systematic framework for business operation phases and revenue model execution
-chain: EXPERTISE
-planetary: EFFICACY
-parent: CANON-33100
-operational_status: partial
+last_verified: 2026-02-05
+
+element: fire
+ooda_phase: decide
+volatile_sections: []
 entities_defined:
   - "Business Operations Backbone (STR)"
   - "Economic Capability Development (CON)"
   - "Business Operation Phases (STR)"
   - "Revenue Model (STR)"
-depends_on:
-  - CANON-33100
-  - CANON-33000
-  - CANON-33111
-  - CANON-33112
-last_verified: 2026-02-05
 ---
-
 # CANON-33110: CHAIN EXPERTISE - PLANETARY EFFICACY
 ## Economic Capability Development Through Strategic Excellence
 

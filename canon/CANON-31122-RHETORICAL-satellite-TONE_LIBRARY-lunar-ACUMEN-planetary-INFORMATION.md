@@ -1,19 +1,35 @@
 ---
 id: CANON-31122
-name: Rhetorical Calibration
-identity: Rhetorical Calibration - Constitutional Voice Architecture
-tier: CANON
-type: satellite
-version: 2.0.0
+canonical_name: Rhetorical Calibration
+title: "Rhetorical Calibration"
+
+tier: chain
+chain: information
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31120
+requires:
+  - CANON-31120
+  - CANON-31000
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+siblings:
+  - CANON-31121
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Constitutional voice architecture establishing unified rhetorical foundation for coherent messaging across platforms while preserving register flexibility
-chain: INFORMATION
-planetary: ACUMEN
-lunar: TONE_LIBRARY
-parent: CANON-31120
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Rhetorical Calibration (CON)"
   - "Voice Principles (PROTO)"
@@ -21,16 +37,7 @@ entities_defined:
   - "Platform-Specific Registers (STR)"
   - "Anti-Patterns Catalog (STR)"
   - "Evolution Protocol (PROTO)"
-depends_on:
-  - CANON-31120
-  - CANON-31121
-  - CANON-31000
-  - CANON-00000
-  - CANON-00006
-  - CANON-30000
-last_verified: 2026-02-05
 ---
-
 # Rhetorical Calibration: Constitutional Voice Architecture
 
 ---

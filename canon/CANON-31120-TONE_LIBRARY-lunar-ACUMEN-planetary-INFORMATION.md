@@ -1,18 +1,36 @@
 ---
 id: CANON-31120
-name: Tone Library
-identity: Tone Library Dissemination Execution System
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Tone Library
+title: "Tone Library"
+
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31100
+requires:
+  - CANON-31000
+  - CANON-31100
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+siblings: []
+synthesizes:
+  - CANON-31121
+  - CANON-31122
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Systematic architecture for producing coherent, high-quality content at scale across platforms via rhetorical dimension mapping and Recipe-based execution
-chain: INFORMATION
-planetary: ACUMEN
-parent: CANON-31100
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Tone Library (TOOL)"
   - "Recipe (ART)"
@@ -24,17 +42,7 @@ entities_defined:
   - "CTA Pattern Library (STR)"
   - "Guardrail System (PROTO)"
   - "Production Workflow (WF)"
-depends_on:
-  - CANON-31000
-  - CANON-31100
-  - CANON-31121
-  - CANON-31122
-  - CANON-00000
-  - CANON-00006
-  - CANON-30000
-last_verified: 2026-02-05
 ---
-
 # TONE LIBRARY: Dissemination Execution System
 
 ---

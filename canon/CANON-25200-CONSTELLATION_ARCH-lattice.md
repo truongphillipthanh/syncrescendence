@@ -1,28 +1,38 @@
 ---
 id: CANON-25200
-name: Platform Constellation Architecture
-identity: CONSTELLATION_ARCH
-tier: CANON
-type: lattice
-version: 2.0.0
+canonical_name: Platform Constellation Architecture
+title: "Platform Constellation Architecture"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-25000
+requires:
+  - CANON-25000
+  - CANON-00017
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2026-01-11
 updated: 2026-02-10
-synopsis: Specification for multi-platform AI orchestration with integrated teleological analysis — defining specializations, routing patterns, sustainability targets, and the rationale behind every architectural decision
-operational_status: partial
-entities_defined:
-  - Constellation (STR)
-  - Pantheon (STR)
-  - Medley Mode (WF)
-  - Characteristic Cognition (CON)
-  - Three Accounts (STR)
-depends_on:
-  - CANON-25000
-  - CANON-25100
-  - CANON-00017
 last_verified: 2026-02-05
----
 
+element: null
+ooda_phase: null
+volatile_sections: []
+entities_defined:
+  - "Constellation (STR)"
+  - "Pantheon (STR)"
+  - "Medley Mode (WF)"
+  - "Characteristic Cognition (CON)"
+  - "Three Accounts (STR)"
+---
 # CANON-25200: PLATFORM CONSTELLATION ARCHITECTURE
 ## Multi-Platform AI Orchestration Specification
 

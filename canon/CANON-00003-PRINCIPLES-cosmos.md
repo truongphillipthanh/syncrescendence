@@ -1,15 +1,31 @@
 ---
 id: CANON-00003
-name: The Principles
-identity: PRINCIPLES
-tier: CANON
-type: cosmos
-version: 1.0.0
+canonical_name: Principles
+title: "The Principles"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00000
+requires: []
+siblings:
+  - CANON-00001
+  - CANON-00002
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 1.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Aphoristic distillation - the thirty governing principles, chain sutras, layer sutras, and paradox teachings.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Thirty Principles (CON)"
   - "Chain Sutras (NOT)"
@@ -22,13 +38,7 @@ entities_defined:
   - "Recursion (CON)"
   - "Demonstration (CON)"
   - "Transmission (CON)"
-depends_on:
-  - CANON-00000
-  - CANON-00001
-  - CANON-00002
-last_verified: 2026-02-05
 ---
-
 # CANON-00003: THE PRINCIPLES
 ## Aphoristic Distillation of Syncrescendent Wisdom
 

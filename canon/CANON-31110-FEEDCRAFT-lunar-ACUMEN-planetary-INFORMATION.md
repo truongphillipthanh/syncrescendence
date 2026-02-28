@@ -1,18 +1,39 @@
 ---
 id: CANON-31110
-name: Feedcraft
-identity: Feedcraft - Constitutional Architecture of Digital Sovereignty
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Feedcraft
+title: "Feedcraft"
+
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31100
+requires:
+  - CANON-31000
+  - CANON-31100
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+siblings:
+  - CANON-31120
+  - CANON-31130
+  - CANON-31140
+  - CANON-31150
+synthesizes:
+  - CANON-31115
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Constitutional framework for sovereign platform engagement, mapping cognitive archetypes to functional platform categories while resisting algorithmic manipulation
-chain: INFORMATION
-planetary: ACUMEN
-parent: CANON-31100
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Feedcraft (CON)"
   - "Functional Platform Topology (STR)"
@@ -21,20 +42,7 @@ entities_defined:
   - "Three Cognitive Modes (CON)"
   - "Resonance Calculation (MET)"
   - "Temporal Choreography (PROTO)"
-depends_on:
-  - CANON-31000
-  - CANON-31100
-  - CANON-00000
-  - CANON-00006
-  - CANON-30000
-  - CANON-31115
-  - CANON-31120
-  - CANON-31130
-  - CANON-31140
-  - CANON-31150
-last_verified: 2026-02-05
 ---
-
 # Feedcraft: The Constitutional Architecture of Digital Sovereignty
 ## Recalibrated for the Functional Platform Topology
 

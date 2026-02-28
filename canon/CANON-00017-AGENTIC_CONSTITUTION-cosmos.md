@@ -1,15 +1,31 @@
 ---
 id: CANON-00017
-name: Agentic Constitution
-identity: AGENTIC_CONSTITUTION
-tier: CANON
-type: cosmos
-version: 1.0.0
+canonical_name: Agentic Constitution
+title: "Agentic Constitution"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00010
+requires:
+  - CANON-00010
+siblings:
+  - CANON-00006
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 1.0.0
 created: 2026-01-02
 updated: 2026-01-02
-synopsis: Constitution of the Antifragile Syncrescendent Intelligence Apparatus—federalist governance for multi-agent coordination with DIKW mandate and antifragile scaling.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "ASIA Federation (STR)"
   - "Five States (STR)"
@@ -20,12 +36,7 @@ entities_defined:
   - "Agentic Delegation (CON)"
   - "Point of Convergence (CON)"
   - "Bitter Lesson Alignment (CON)"
-depends_on:
-  - CANON-00006
-  - CANON-00010
-last_verified: 2026-02-05
 ---
-
 # CANON-00017-AGENTIC_CONSTITUTION-cosmos.md
 ## Constitution of the Antifragile Syncrescendent Intelligence Apparatus
 

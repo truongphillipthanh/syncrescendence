@@ -1,17 +1,30 @@
 ---
 id: CANON-30200
-name: Strategic Positioning
-identity: Strategic Positioning Supplement
-tier: CANON
-type: comet
-version: 2.0.0
+canonical_name: Strategic Positioning
+title: "Strategic Positioning"
+
+tier: chain
+chain: intelligence
+celestial_type: comet
+volatility_band: dynamic
+refresh_cadence: monthly
+
+parent: CANON-30000
+requires:
+  - CANON-30000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Corporate and platform characterization framework for rational tool selection, providing institutional intelligence for navigating technology ecosystems
-chain: INTELLIGENCE
-parent: CANON-30000
-operational_status: partial
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Institutional Personality Assessment (CON)"
   - "Lock-In Risk Assessment Framework (TOOL)"
@@ -19,13 +32,7 @@ entities_defined:
   - "Tool Selection Decision Framework (WF)"
   - "Platform Presence Strategy (STR)"
   - "Corporate Risk Scoring (MET)"
-depends_on:
-  - CANON-30000
-  - CANON-30100
-  - CANON-30300
-last_verified: 2026-02-05
 ---
-
 # P1-1: STRATEGIC POSITIONING SUPPLEMENT
 ## Corporate & Platform Characterization for Technology Intelligence
 

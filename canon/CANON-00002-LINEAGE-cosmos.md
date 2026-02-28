@@ -1,15 +1,29 @@
 ---
 id: CANON-00002
-name: The Intellectual Lineage
-identity: LINEAGE
-tier: CANON
-type: cosmos
-version: 1.0.0
+canonical_name: Intellectual Lineage
+title: "The Intellectual Lineage"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00000
+requires: []
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 1.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Intellectual genealogy tracing Syncrescendence roots from philosophy, psychology, systems thinking, and contemplative traditions.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Extended Mind Thesis (CON)"
   - "Strange Loops (CON)"
@@ -21,11 +35,7 @@ entities_defined:
   - "Systems Thinking (CON)"
   - "Recurse Theory of Consciousness (CON)"
   - "Synthesis Principle (CON)"
-depends_on:
-  - CANON-00000
-last_verified: 2026-02-05
 ---
-
 # CANON-00002: THE INTELLECTUAL LINEAGE
 ## Where Syncrescendence Comes From
 

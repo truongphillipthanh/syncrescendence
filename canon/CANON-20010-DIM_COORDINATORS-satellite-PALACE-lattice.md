@@ -1,17 +1,30 @@
 ---
 id: CANON-20010
-name: Dimensional Coordinators
-identity: DIM_COORDINATORS
-tier: CANON
-type: satellite
+canonical_name: Dimensional Coordinators
+title: "Dimensional Coordinators"
+
+tier: lattice
+chain: null
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
 parent: CANON-20000
-chain: LATTICE
-version: 1.0.0
+requires:
+  - CANON-20000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 1.0.0
 created: 2026-01-02
 updated: 2026-01-02
-synopsis: Seven dimensional coordination patterns for Cognitive Palace navigation—the orchestrating intelligence layer that makes 87 components feel like natural intuition.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Reality Coordinator (AGT)"
   - "Imaginality Coordinator (AGT)"
@@ -23,11 +36,7 @@ entities_defined:
   - "Meta-Governor (AGT)"
   - "Seven Pulses Dashboard (TOOL)"
   - "Cross-Layer Integration Matrices (STR)"
-depends_on:
-  - CANON-20000
-last_verified: 2026-02-05
 ---
-
 # CANON-20010: DIMENSIONAL COORDINATORS
 ## Cognitive Palace Satellite — The Orchestrating Intelligence
 

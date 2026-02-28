@@ -1,29 +1,36 @@
 ---
 id: CANON-33111
-name: Business Operations Enhancements
-identity: Business Operations Backbone v1.2 Enhancements
-tier: CANON
-type: satellite
-version: 2.0.0
-status: canonical
-created: 2025-10-17
-updated: 2025-12-30
-synopsis: Content production pace revision and consulting protocol specification resolving operational realism and revenue confidence gaps
-chain: EXPERTISE
-planetary: EFFICACY
-lunar: BIZ_BACKBONE
+canonical_name: Business Operations Enhancements
+title: "Business Operations Enhancements"
+
+tier: chain
+chain: expertise
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
 parent: CANON-33110
-operational_status: partial
-entities_defined:
-  - "Content Production Pace Revision (PROTO)"
-  - "Consulting Protocol (PROTO)"
-depends_on:
+requires:
   - CANON-33110
   - CANON-33100
   - CANON-33000
-last_verified: 2026-02-05
----
+siblings: []
+synthesizes: []
 
+status: canonical
+operational_status: partial
+version: 2.0.0
+created: 2025-10-17
+updated: 2025-12-30
+last_verified: 2026-02-05
+
+element: fire
+ooda_phase: decide
+volatile_sections: []
+entities_defined:
+  - "Content Production Pace Revision (PROTO)"
+  - "Consulting Protocol (PROTO)"
+---
 # BUSINESS OPERATIONS BACKBONE: ENHANCEMENTS
 ## Content Production Pace Revision + Consulting Protocol Specification
 

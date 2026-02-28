@@ -1,29 +1,37 @@
 ---
 id: CANON-32120
-name: Meta-Analytical Framework
-identity: The Meta-Analytical Framework
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Meta-Analytical Framework
+title: "Meta-Analytical Framework"
+
+tier: chain
+chain: insight
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-32100
+requires:
+  - CANON-32100
+  - CANON-32000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Comprehensive taxonomy for civilizational sense-making, providing navigational architecture for holding multiple analytical perspectives simultaneously during phase transition
-chain: INSIGHT
-planetary: COHERENCE
-parent: CANON-32100
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: water
+ooda_phase: orient
+volatile_sections: []
 entities_defined:
   - "Meta-Analytical Framework (STR)"
   - "Civilizational Sense-Making Taxonomy (STR)"
   - "Framework Proliferation (CON)"
   - "Phase Transition Navigation (CAP)"
-depends_on:
-  - CANON-32100
-  - CANON-32000
-last_verified: 2026-02-05
 ---
-
 # THE META-ANALYTICAL FRAMEWORK
 ## Comprehensive Taxonomy for Civilizational Sense-Making
 

@@ -1,16 +1,29 @@
 ---
 id: CANON-APOPTOSIS-PROTOCOL
-name: Apoptosis Protocol — 5:1 Nucleosynthesis Ratio
-tier: CANON
-type: policy
-version: 1.0.0
+canonical_name: Apoptosis Protocol — 5:1 Nucleosynthesis Ratio
+title: "Apoptosis Protocol — 5:1 Nucleosynthesis Ratio"
+
+tier: chain
+chain: null
+celestial_type: policy
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: null
+requires: []
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 1.0.0
 created: 2026-02-26
 updated: 2026-02-26
-change_velocity: quarterly
-supersedes: null
-synopsis: Governs the mandatory 5:1 nucleosynthesis ratio — 5 atoms condense into 1 denser axiom, releasing epistemic binding energy (reduced fragmentation, freed context, resolved contradictions). The canon is a stellar core, not a garden.
-operational_status: operational
+last_verified: 2026-02-26
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "5:1 Nucleosynthesis Ratio (CON)"
   - "Tombstone Schema (STR)"
@@ -19,12 +32,7 @@ entities_defined:
   - "Apoptosis State Machine (STR)"
   - "Apoptosis Failure Modes (REF)"
   - "Apoptosis Verification Contract (PROTO)"
-depends_on:
-  - CANON-00011
-  - CANON-00007
-last_verified: 2026-02-26
 ---
-
 # CANON-APOPTOSIS-PROTOCOL: APOPTOSIS PROTOCOL
 
 ## 5:1 Nucleosynthesis Ratio for Canon Axioms

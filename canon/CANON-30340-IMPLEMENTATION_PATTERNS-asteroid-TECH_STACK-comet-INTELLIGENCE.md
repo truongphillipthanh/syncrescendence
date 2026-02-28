@@ -1,26 +1,32 @@
 ---
 id: CANON-30340
-name: Implementation Patterns
-identity: IMPLEMENTATION_PATTERNS
-tier: CANON
-type: asteroid
+canonical_name: Implementation Patterns
+title: "Implementation Patterns"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30300
-chain: INTELLIGENCE
-comet: TECH_STACK
-version: 2.0.0
+requires:
+  - CANON-30000
+  - CANON-30300
+siblings:
+  - CANON-30330
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-12-31
 updated: 2025-12-31
-change_velocity: quarterly
-dependencies:
-  - CANON-30300
-  - CANON-30330
-  - CANON-30000
-synopsis: >
-  Production-validated implementation patterns for AI-augmented systems:
-  architectural anti-patterns, memory bootstrapping, orchestration strategies,
-  context engineering economics, security governance, and operational cadences.
-operational_status: partial
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Over-Engineering Anti-Pattern (CON)"
   - "Memory System Bootstrapping (WF)"
@@ -30,13 +36,7 @@ entities_defined:
   - "Bootstrap Roadmap (WF)"
   - "Maintenance Cadences (PROTO)"
   - "Success Metrics (MET)"
-depends_on:
-  - CANON-30000
-  - CANON-30300
-  - CANON-30330
-last_verified: 2026-02-05
 ---
-
 # CANON-30340: IMPLEMENTATION PATTERNS
 ## Production Workflows and Operational Guidance
 

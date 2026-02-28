@@ -1,15 +1,33 @@
 ---
 id: CANON-25000
-name: Memory Architecture
-identity: MEMORY_ARCH
-tier: CANON
-type: lattice
-version: 3.0.0
+canonical_name: Memory Architecture
+title: "Memory Architecture"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-20000
+requires:
+  - CANON-00000
+  - CANON-00005
+siblings: []
+synthesizes:
+  - CANON-25100
+  - CANON-25200
+
 status: canonical
+operational_status: operational
+version: 3.0.0
 created: 2025-10-17
 updated: 2026-02-01
-synopsis: Universal protocol for cognitive persistence with integrated teleological analysis — establishing sovereignty principles, memory layers, lifecycle management, and platform-specific rationale across AI platforms and temporal horizons
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Memory Architecture (STR)"
   - "Memory Sovereignty Principle (CON)"
@@ -28,16 +46,7 @@ entities_defined:
   - "Corpus Update Protocol (PROTO)"
   - "Forgetting Protocol (PROTO)"
   - "IIC Memory Configuration (PROTO)"
-depends_on:
-  - CANON-00000
-  - CANON-00005
-  - CANON-31140
-  - CANON-31130
-  - CANON-25100
-  - CANON-25200
-last_verified: 2026-02-05
 ---
-
 # CANON-25000: MEMORY ARCHITECTURE
 ## Universal Protocol for Cognitive Persistence
 ### Lattice Tier | Navigation Infrastructure

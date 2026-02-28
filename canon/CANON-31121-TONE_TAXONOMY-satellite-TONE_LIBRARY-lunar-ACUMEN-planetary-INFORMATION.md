@@ -1,19 +1,35 @@
 ---
 id: CANON-31121
-name: Tone Library Taxonomy
-identity: Tone Library Complete Taxonomy Reference
-tier: CANON
-type: satellite
-version: 2.0.0
+canonical_name: Tone Library Taxonomy
+title: "Tone Library Taxonomy"
+
+tier: chain
+chain: information
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31120
+requires:
+  - CANON-31120
+  - CANON-31000
+  - CANON-00000
+  - CANON-00006
+  - CANON-30000
+siblings:
+  - CANON-31122
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Complete classification framework for systematic content production, providing 11 taxonomies spanning rhetorical functions, stylistic forms, and execution parameters
-chain: INFORMATION
-planetary: ACUMEN
-lunar: TONE_LIBRARY
-parent: CANON-31120
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Rhetorical Function Taxonomy (STR)"
   - "Stylistic Form Taxonomy (STR)"
@@ -26,16 +42,7 @@ entities_defined:
   - "Family Taxonomy (STR)"
   - "Recipient Archetype Taxonomy (STR)"
   - "Domain Taxonomy (STR)"
-depends_on:
-  - CANON-31120
-  - CANON-31122
-  - CANON-31000
-  - CANON-00000
-  - CANON-00006
-  - CANON-30000
-last_verified: 2026-02-05
 ---
-
 # TONE LIBRARY: Complete Taxonomy Reference
 
 ---

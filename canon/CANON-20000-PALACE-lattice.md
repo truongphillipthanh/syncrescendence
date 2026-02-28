@@ -1,16 +1,37 @@
 ---
 id: CANON-20000
-name: Cognitive Palace
-identity: PALACE
-tier: CANON
-type: lattice
-version: 2.0.0
+canonical_name: Cognitive Palace
+title: "Cognitive Palace"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-00000
+requires:
+  - CANON-00000
+siblings: []
+synthesizes:
+  - CANON-20010
+  - CANON-20020
+  - CANON-21000
+  - CANON-22000
+  - CANON-23000
+  - CANON-24000
+  - CANON-25000
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-change_velocity: quarterly
-synopsis: Seven-layer dimensional lattice establishing the spacetime substrate through which consciousness moves—the topological fabric enabling orbital motion and vertical integration.
-operational_status: partial
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Cognitive Palace (STR)"
   - "Reality Layer (STR)"
@@ -23,18 +44,7 @@ entities_defined:
   - "Vertical Integration Protocols (PROTO)"
   - "Daily Layer Check-In (PROTO)"
   - "Weekly Seven-Layer Audit (PROTO)"
-depends_on:
-  - CANON-00000
-  - CANON-20010
-  - CANON-20020
-  - CANON-21000
-  - CANON-22000
-  - CANON-23000
-  - CANON-24000
-  - CANON-25000
-last_verified: 2026-02-05
 ---
-
 # CANON-20000: COGNITIVE PALACE
 ## Seven-Layer Dimensional Lattice
 ### The Spacetime Substrate Through Which Consciousness Moves

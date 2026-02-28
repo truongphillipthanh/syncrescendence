@@ -1,31 +1,38 @@
 ---
 id: CANON-31142
-name: Platform Grammar
-identity: Platform Grammar - Tactical Interaction Protocols
-tier: CANON
-type: satellite
-version: 2.0.0
+canonical_name: Platform Grammar
+title: "Platform Grammar"
+
+tier: chain
+chain: information
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31140
+requires:
+  - CANON-31140
+siblings:
+  - CANON-31110
+  - CANON-31130
+  - CANON-31141
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Per-platform tactical interaction protocols for Identity-Intelligence Complexes, providing Layer 3 execution guidance for systematic platform engagement
-chain: INFORMATION
-planetary: ACUMEN
-lunar: IIC
-parent: CANON-31140
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Platform Grammar (PROTO)"
   - "Layer 3 Tactical Protocols (PROTO)"
   - "Per-Platform Interaction Rules (STR)"
-depends_on:
-  - CANON-31140
-  - CANON-31110
-  - CANON-31130
-  - CANON-31141
-last_verified: 2026-02-05
 ---
-
 # CANON-31142: PLATFORM GRAMMAR
 ## Per-Platform Tactical Interaction Protocols for Identity-Intelligence Complexes
 

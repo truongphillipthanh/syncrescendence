@@ -1,28 +1,37 @@
 ---
 id: CANON-34000
-name: Knowledge Chain
-identity: Knowledge Chain - Knowledge Orbital Path
-tier: CANON
-type: chain
-version: 2.0.0
+canonical_name: Knowledge Chain
+title: "Knowledge Chain"
+
+tier: chain
+chain: knowledge
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-30000
+requires:
+  - CANON-00000
+  - CANON-33000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Capability crystallization development through four progressive stages, tracking embodied competence from conceptual learning toward mastery teaching
-chain: KNOWLEDGE
-operational_status: operational
-entities_defined:
-  - Knowledge Chain (CON)
-  - Mastery (CON)
-  - Curriculum (CON)
-  - Syllabus (ART)
-depends_on:
-  - CANON-00000
-  - CANON-21000
-  - CANON-33000
 last_verified: 2026-02-05
----
 
+element: earth
+ooda_phase: act
+volatile_sections: []
+entities_defined:
+  - "Knowledge Chain (CON)"
+  - "Mastery (CON)"
+  - "Curriculum (CON)"
+  - "Syllabus (ART)"
+---
 # EMBODIMENT CHAIN: KNOWLEDGE ORBITAL PATH
 ## Skill Development Through Physical Grounding
 

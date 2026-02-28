@@ -1,17 +1,31 @@
 ---
 id: CANON-30310
-name: Tech Stack Migration
-identity: Technology Stack Database Complete Migration
-tier: CANON
-type: asteroid
-version: 2.0.0
+canonical_name: Tech Stack Migration
+title: "Tech Stack Migration"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
+parent: CANON-30300
+requires:
+  - CANON-30000
+  - CANON-30300
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Complete migration protocol for transforming fragmentary Technology artifacts into coherent, queryable database implementing ASA Model classification
-chain: INTELLIGENCE
-parent: CANON-30300
-operational_status: partial
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Migration Protocol (WF)"
   - "Bedrock Layer Schema (STR)"
@@ -19,13 +33,7 @@ entities_defined:
   - "Primitive Layer Schema (STR)"
   - "Intelligence Layer Schema (STR)"
   - "Navigation Interface (TOOL)"
-depends_on:
-  - CANON-30000
-  - CANON-30100
-  - CANON-30300
-last_verified: 2026-02-05
 ---
-
 # Technology Stack Database: Complete Migration
 
 ---

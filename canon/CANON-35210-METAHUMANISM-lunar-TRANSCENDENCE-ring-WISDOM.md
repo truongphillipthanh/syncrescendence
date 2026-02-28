@@ -1,18 +1,31 @@
 ---
 id: CANON-35210
-name: Metahumanism Framework
-identity: METAHUMANISM
-tier: CANON
-type: lunar
+canonical_name: Metahumanism Framework
+title: "Metahumanism Framework"
+
+tier: chain
+chain: wisdom
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
 parent: CANON-35200
-chain: WISDOM
-ring: TRANSCENDENCE
-version: 1.0.0
+requires:
+  - CANON-35200
+  - CANON-35000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 1.0.0
 created: 2026-01-02
 updated: 2026-01-02
-synopsis: Comprehensive philosophical framework synthesizing belief systems, epistemic stratigraphy, volition, spiritual planes, causation, and fundamental essentia into unified metahuman worldview.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: sharpen
+volatile_sections: []
 entities_defined:
   - "Metahumanism Framework (CON)"
   - "Epistemic Stratigraphy (CON)"
@@ -20,13 +33,7 @@ entities_defined:
   - "Spiritual Planes Integration (CON)"
   - "Causation Theory (CON)"
   - "Fundamental Essentia (CON)"
-depends_on:
-  - CANON-35200
-  - CANON-35100
-  - CANON-35000
-last_verified: 2026-02-05
 ---
-
 # CANON-35210: METAHUMANISM FRAMEWORK
 ## Transcendence Ring Lunar — Philosophical Integration
 

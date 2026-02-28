@@ -1,27 +1,36 @@
 ---
 id: CANON-32000
-name: Insight Chain
-identity: Insight Chain - Insight Orbital Path
-tier: CANON
-type: chain
-version: 2.0.0
+canonical_name: Insight Chain
+title: "Insight Chain"
+
+tier: chain
+chain: insight
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-30000
+requires:
+  - CANON-00000
+  - CANON-31000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Hermeneutic sophistication development through four progressive stages, tracking interpretive capacity from ontological foundations toward wisdom emergence
-chain: INSIGHT
-operational_status: partial
-entities_defined:
-  - Insight Chain (CON)
-  - Coherence (CON)
-  - Meta-Analysis (CAP)
-depends_on:
-  - CANON-00000
-  - CANON-21000
-  - CANON-31000
 last_verified: 2026-02-05
----
 
+element: water
+ooda_phase: orient
+volatile_sections: []
+entities_defined:
+  - "Insight Chain (CON)"
+  - "Coherence (CON)"
+  - "Meta-Analysis (CAP)"
+---
 # INSIGHT CHAIN: INSIGHT ORBITAL PATH
 ## Interpretive Development Through Framework Mastery
 

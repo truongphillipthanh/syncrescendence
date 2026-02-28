@@ -1,15 +1,29 @@
 ---
 id: CANON-00001
-name: The Founding Moment
-identity: ORIGIN
-tier: CANON
-type: cosmos
-version: 1.0.0
+canonical_name: Founding Moment
+title: "The Founding Moment"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00000
+requires: []
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 1.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Why Syncrescendence exists - the convergence crisis, founding decisions, and aspiration across individual, civilizational, and evolutionary scales.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Convergence Crisis (CON)"
   - "Six Chains (STR)"
@@ -19,11 +33,7 @@ entities_defined:
   - "Metahuman (CON)"
   - "Mythopoetic Mode (NOT)"
   - "Operational Mode (NOT)"
-depends_on:
-  - CANON-00000
-last_verified: 2026-02-05
 ---
-
 # CANON-00001: THE FOUNDING MOMENT
 ## Why Syncrescendence Exists
 

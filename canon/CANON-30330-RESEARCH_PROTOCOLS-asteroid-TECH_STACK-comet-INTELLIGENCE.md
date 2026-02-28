@@ -1,25 +1,31 @@
 ---
 id: CANON-30330
-name: Research Protocols
-identity: RESEARCH_PROTOCOLS
-tier: CANON
-type: asteroid
+canonical_name: Research Protocols
+title: "Research Protocols"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30300
-chain: INTELLIGENCE
-comet: TECH_STACK
-version: 2.0.0
+requires:
+  - CANON-30000
+  - CANON-30300
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-12-31
 updated: 2025-12-31
-change_velocity: quarterly
-dependencies:
-  - CANON-30300
-  - CANON-30000
-synopsis: >
-  Methodologies and quality standards for AI-augmented research,
-  including the Source Triad Method, verdicting process, decision-bearing
-  question prioritization, anti-patterns, and infrastructure evaluation.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Source Triad Method (PROTO)"
   - "Verdicting Process (PROTO)"
@@ -28,12 +34,7 @@ entities_defined:
   - "Capability Contract Audit (PROTO)"
   - "Research Anti-Patterns (CON)"
   - "Confidence Levels (MET)"
-depends_on:
-  - CANON-30000
-  - CANON-30300
-last_verified: 2026-02-05
 ---
-
 # CANON-30330: RESEARCH PROTOCOLS
 ## Methodologies and Quality Standards
 

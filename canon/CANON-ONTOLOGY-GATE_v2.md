@@ -1,3 +1,30 @@
+---
+id: CANON-ONTOLOGY-GATE-V2
+canonical_name: Ontology Gate v2
+title: "Runtime Contract — Layer 2 Enforcement"
+
+tier: immune
+chain: null
+celestial_type: policy
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: null
+requires: []
+siblings: []
+synthesizes: []
+
+status: canonical
+operational_status: operational
+version: 1.0.0
+created: 2026-02-27
+updated: 2026-02-27
+last_verified: 
+
+element: null
+ooda_phase: null
+volatile_sections: []
+---
 # CANON-ONTOLOGY-GATE_v2.md
 ## Runtime Contract — Layer 1 Enforcement Extension (σ₂ Ontology of Self)
 

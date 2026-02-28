@@ -1,3 +1,30 @@
+---
+id: CANON-ONTOLOGY-GATE-V1
+canonical_name: Ontology Gate v1
+title: "Runtime Contract — Layer 1 Enforcement"
+
+tier: immune
+chain: null
+celestial_type: policy
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: null
+requires: []
+siblings: []
+synthesizes: []
+
+status: canonical
+operational_status: operational
+version: 1.0.0
+created: 2026-02-27
+updated: 2026-02-27
+last_verified: 
+
+element: null
+ooda_phase: null
+volatile_sections: []
+---
 # CANON-ONTOLOGY-GATE_v1.md
 ## Runtime Contract — Layer 1 Enforcement (σ₂ Ontology of Self)
 **Authority**: ARCH-ONTOLOGY_ANNEALMENT_v1.md (9-step protocol) + REF-ROSETTA_STONE.md v2.7.0

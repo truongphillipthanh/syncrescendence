@@ -1,16 +1,31 @@
 ---
 id: CANON-00012
-name: Modal Sequence Architecture
-identity: MODAL_SEQUENCE
-tier: CANON
-type: cosmos
-version: 2.0.0
+canonical_name: Modal Sequence Architecture
+title: "Modal Sequence Architecture"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00010
+requires: []
+siblings:
+  - CANON-00005
+  - CANON-00009
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-11-10
 updated: 2025-12-30
-change_velocity: quarterly
-synopsis: Sixth canonical dimension defining technology-aligned strategic progression through four modals—Abstraction, Simulation, Embodiment, Transcendence.
-operational_status: partial
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Modal Sequence (STR)"
   - "Modal 1 Abstraction (CON)"
@@ -20,13 +35,7 @@ entities_defined:
   - "Technology Maturity Windows (CON)"
   - "Causal Dependencies (CON)"
   - "Modal Transition Criteria (MET)"
-depends_on:
-  - CANON-00000
-  - CANON-00005
-  - CANON-00009
-last_verified: 2026-02-05
 ---
-
 # CANON-00012: MODAL SEQUENCE ARCHITECTURE
 ## Temporal-Strategic Progression Framework
 

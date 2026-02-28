@@ -1,15 +1,31 @@
 ---
 id: CANON-21100
-name: Tri-Helical Timeline Visualization
-identity: TRI_HELIX
-tier: CANON
-type: lattice
-version: 2.0.0
+canonical_name: Tri-Helical Timeline Visualization
+title: "Tri-Helical Timeline Visualization"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-21000
+requires:
+  - CANON-21000
+  - CANON-00000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Visual representation of three synchronized timelines—technological maturity, business development, and personal capability—for strategic decision-making alignment
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Tri-Helical Timeline (STR)"
   - "Technological Maturity Timeline (CON)"
@@ -17,12 +33,7 @@ entities_defined:
   - "Personal Capability Timeline (CON)"
   - "Synchronization Matrix (STR)"
   - "Decision Grounding Framework (PROTO)"
-depends_on:
-  - CANON-21000
-  - CANON-00000
-last_verified: 2026-02-05
 ---
-
 # TRI-HELICAL TIMELINE VISUALIZATION
 ## Three Synchronized Development Trajectories
 

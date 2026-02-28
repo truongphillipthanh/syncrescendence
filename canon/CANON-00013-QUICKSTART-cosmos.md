@@ -1,16 +1,33 @@
 ---
 id: CANON-00013
-name: Syncrescendent Quickstart
-identity: QUICKSTART
-tier: CANON
-type: cosmos
-version: 2.0.0
+canonical_name: Syncrescendent Quickstart
+title: "Syncrescendent Quickstart"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00010
+requires:
+  - CANON-00010
+siblings:
+  - CANON-00005
+  - CANON-00009
+  - CANON-00012
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-10-01
 updated: 2025-12-30
-change_velocity: quarterly
-synopsis: Five-minute assessment and entry pathway selection for new practitioners—self-assessment across six dimensions with appropriate starting point identification.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Six Dimensions Self-Assessment (TOOL)"
   - "Three Entry Pathways (WF)"
@@ -19,15 +36,7 @@ entities_defined:
   - "Professional Consulting Pathway (WF)"
   - "Value Proposition (CON)"
   - "Cognitive Profile Assessment (TOOL)"
-depends_on:
-  - CANON-00000
-  - CANON-00005
-  - CANON-00009
-  - CANON-00010
-  - CANON-00012
-last_verified: 2026-02-05
 ---
-
 # CANON-00013: SYNCRESCENDENT QUICKSTART
 ## Five-Minute Assessment & Entry Pathway
 

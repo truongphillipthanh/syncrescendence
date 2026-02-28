@@ -1,15 +1,30 @@
 ---
 id: CANON-11000
-name: Syncrescendent Facets - ModusOperandi
-identity: FACETS
-tier: CANON
-type: core
-version: 2.0.0
+canonical_name: Syncrescendent Facets - ModusOperandi
+title: "Syncrescendent Facets - ModusOperandi"
+
+tier: core
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-10000
+requires:
+  - CANON-10000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Establishes the ModusOperandi as five faces of singular consciousness—avatar manifestations that maintain unified essence while operating through differentiated modalities
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "ModusOperandi (CON)"
   - "Sensing Face (CON)"
@@ -19,12 +34,7 @@ entities_defined:
   - "Strategic Harmony Face (CON)"
   - "Perichoretic Integration (CON)"
   - "Face Fluency Assessment (MET)"
-depends_on:
-  - CANON-10000
-  - CANON-00000
-last_verified: 2026-02-05
 ---
-
 # MODUSOPERANDI: FIVE FACES OF UNIFIED CONSCIOUSNESS
 ## Avatar Manifestations of the Syncrescendent Core
 

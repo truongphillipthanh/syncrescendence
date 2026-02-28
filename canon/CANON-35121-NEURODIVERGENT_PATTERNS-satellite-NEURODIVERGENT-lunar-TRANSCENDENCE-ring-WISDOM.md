@@ -1,19 +1,32 @@
 ---
 id: CANON-35121
-name: Neurodivergent Patterns
-identity: NEURODIVERGENT_PATTERNS
-tier: CANON
-type: satellite
-version: 2.0.0
+canonical_name: Neurodivergent Patterns
+title: "Neurodivergent Patterns"
+
+tier: chain
+chain: wisdom
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-35120
+requires:
+  - CANON-35120
+  - CANON-35100
+  - CANON-35000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-12-30
 updated: 2025-12-30
-chain: WISDOM
-ring: TRANSCENDENCE
-lunar: NEURODIVERGENT
-parent: CANON-35120
-synopsis: AuDHD-specific implementation patterns for psychological dimension integration—executive function, sensory processing, energy management, and double-masking dynamics.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: sharpen
+volatile_sections: []
 entities_defined:
   - "Neurodivergent Patterns (STR)"
   - "AuDHD Implementation Patterns (PROTO)"
@@ -21,13 +34,7 @@ entities_defined:
   - "Sensory Processing Adaptations (PROTO)"
   - "Energy Management Patterns (PROTO)"
   - "Double-Masking Dynamics (CON)"
-depends_on:
-  - CANON-35120
-  - CANON-35100
-  - CANON-35000
-last_verified: 2026-02-05
 ---
-
 # CANON-35121: Neurodivergent Patterns
 ## AuDHD Implementation Satellite
 

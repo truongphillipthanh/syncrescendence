@@ -1,17 +1,30 @@
 ---
 id: CANON-30100
-name: ASA Model
-identity: The Anthromachina Symbiosis Architecture
-tier: CANON
-type: comet
-version: 2.0.0
+canonical_name: ASA Model
+title: "ASA Model"
+
+tier: chain
+chain: intelligence
+celestial_type: comet
+volatility_band: dynamic
+refresh_cadence: monthly
+
+parent: CANON-30000
+requires:
+  - CANON-30000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Comprehensive framework for understanding and designing hybrid cognitive systems where biological and artificial intelligence integrate through sophisticated patterns of mutual enhancement
-chain: INTELLIGENCE
-parent: CANON-30000
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Anthromachina Symbiosis (CON)"
   - "Hybrid Cognitive Systems (CON)"
@@ -24,11 +37,7 @@ entities_defined:
   - "Capability Contracts (CON)"
   - "Platform Overlay Architecture (STR)"
   - "Resonance Index (MET)"
-depends_on:
-  - CANON-30000
-last_verified: 2026-02-05
 ---
-
 # The Anthromachina Symbiosis Architecture (ASA) Model
 ## A Comprehensive Framework for Human-Technology Integration
 

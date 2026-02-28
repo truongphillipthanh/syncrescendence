@@ -1,27 +1,35 @@
 ---
 id: CANON-30000
-name: Intelligence Chain
-identity: INTELLIGENCE
-tier: CANON
-type: chain
-chain: INTELLIGENCE
-version: 2.0.0
+canonical_name: Intelligence Chain
+title: "Intelligence Chain"
+
+tier: chain
+chain: intelligence
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-00000
+requires:
+  - CANON-00000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-change_velocity: quarterly
-synopsis: The Intelligence Chain establishing AI collaboration and tool mastery as foundational substrate—interplanetary infrastructure enabling operations across all worlds.
-operational_status: partial
-entities_defined:
-  - Intelligence Chain (CON)
-  - AI Collaboration (CAP)
-  - Tool Mastery (CAP)
-depends_on:
-  - CANON-00000
-  - CANON-21000
 last_verified: 2026-02-05
----
 
+element: quintessence
+ooda_phase: null
+volatile_sections: []
+entities_defined:
+  - "Intelligence Chain (CON)"
+  - "AI Collaboration (CAP)"
+  - "Tool Mastery (CAP)"
+---
 # CANON-30000: INTELLIGENCE CHAIN
 ## Technology Orbital Path
 ### Interplanetary Substrate Enabling All Operations

@@ -1,27 +1,37 @@
 ---
 id: CANON-33100
-name: Planetary Efficacy
-identity: Planetary Efficacy - Fire Element Intention-Formation Modality
-tier: CANON
-type: planetary
-version: 2.0.0
+canonical_name: Efficacy
+title: "Planetary Efficacy"
+
+tier: chain
+chain: expertise
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-33000
+requires:
+  - CANON-33000
+siblings: []
+synthesizes:
+  - CANON-33110
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Cultivation of volitional capacity through Fire-aligned transformation practices, decision quality development, and sustainable value creation
-chain: EXPERTISE
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: fire
+ooda_phase: decide
+volatile_sections: []
 entities_defined:
   - "Planetary Efficacy (CON)"
   - "Fire Element Modality (CON)"
   - "Intention-Formation Modality (CON)"
   - "Volitional Capacity (CAP)"
-depends_on:
-  - CANON-33000
-  - CANON-33110
-last_verified: 2026-02-05
 ---
-
 # PLANETARY EFFICACY: FIRE ELEMENT / INTENTION-FORMATION MODALITY
 ## Catalytic Will and Transformative Decision-Making
 

@@ -1,15 +1,30 @@
 ---
 id: CANON-10000
-name: Syncrescendent Core - The Central Celestial Body
-identity: CELESTIAL_BODY
-tier: CANON
-type: core
-version: 2.0.0
+canonical_name: Syncrescendent Core - The Central Celestial Body
+title: "Syncrescendent Core - The Central Celestial Body"
+
+tier: core
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-00000
+requires: []
+siblings: []
+synthesizes:
+  - CANON-11000
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Establishes the Syncrescendent Core as the living, expanding center of consciousness evolution—a hypergiant celestial body radiating outward with recursive amplification architecture
-operational_status: partial
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Syncrescendent Core (CON)"
   - "Seven Pulses Assessment (PROTO)"
@@ -18,12 +33,7 @@ entities_defined:
   - "Evening Integration (PROTO)"
   - "Recursive Amplification Architecture (CON)"
   - "Expansion Indicators (MET)"
-depends_on:
-  - CANON-00000
-  - CANON-11000
-last_verified: 2026-02-05
 ---
-
 # SYNCRESCENDENT CORE: THE CENTRAL CELESTIAL BODY
 ## Ever-Expanding Hypergiant of Consciousness Evolution
 

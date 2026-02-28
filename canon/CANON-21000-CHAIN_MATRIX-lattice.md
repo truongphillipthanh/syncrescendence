@@ -1,15 +1,31 @@
 ---
 id: CANON-21000
-name: Chain Interdependency Matrix
-identity: CHAIN_MATRIX
-tier: CANON
-type: lattice
-version: 2.0.0
+canonical_name: Chain Interdependency Matrix
+title: "Chain Interdependency Matrix"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-20000
+requires:
+  - CANON-00000
+siblings: []
+synthesizes:
+  - CANON-21100
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Comprehensive mapping of hard and soft dependencies between six causal chains, enabling optimal sequencing for curriculum, practitioner guidance, and assessment protocols
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Chain Interdependency Matrix (STR)"
   - "Hard Dependency (CON)"
@@ -25,14 +41,7 @@ entities_defined:
   - "Dual-Track System (STR)"
   - "Stage Readiness Checklist (PROTO)"
   - "Remediation Protocols (PROTO)"
-depends_on:
-  - CANON-00000
-  - CANON-30000
-  - CANON-35000
-  - CANON-21100
-last_verified: 2026-02-05
 ---
-
 # CHAIN INTERDEPENDENCY MATRIX
 ## Systematic Documentation of Causal Chain Dependencies and Development Logic
 

@@ -1,27 +1,36 @@
 ---
 id: CANON-31000
-name: Information Chain
-identity: Information Chain - Information Orbital Path
-tier: CANON
-type: chain
-version: 2.0.0
+canonical_name: Information Chain
+title: "Information Chain"
+
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-30000
+requires:
+  - CANON-00000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Perceptual sophistication development through four progressive stages, tracking sensing capacity from pattern recognition toward embodied knowing
-chain: INFORMATION
-operational_status: partial
-entities_defined:
-  - Information Chain (CON)
-  - Acumen (CON)
-  - Feedcraft (CAP)
-  - IIC (STR)
-depends_on:
-  - CANON-00000
-  - CANON-21000
 last_verified: 2026-02-05
----
 
+element: air
+ooda_phase: observe
+volatile_sections: []
+entities_defined:
+  - "Information Chain (CON)"
+  - "Acumen (CON)"
+  - "Feedcraft (CAP)"
+  - "IIC (STR)"
+---
 # INFORMATION CHAIN: INFORMATION ORBITAL PATH
 ## Perceptual Development Through Acumen Correspondence
 

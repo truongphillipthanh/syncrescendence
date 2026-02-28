@@ -1,17 +1,31 @@
 ---
 id: CANON-30320
-name: Workflow Intelligence
-identity: Technology Stack Workflow Intelligence Framework
-tier: CANON
-type: asteroid
-version: 2.0.0
+canonical_name: Workflow Intelligence
+title: "Workflow Intelligence"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
+parent: CANON-30300
+requires:
+  - CANON-30000
+  - CANON-30300
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Systematic methodology for apparatus crystallization, tool selection, and process optimization through hierarchical work structures and convergent pattern detection
-chain: INTELLIGENCE
-parent: CANON-30300
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Work Typology Hierarchy (STR)"
   - "Delegation Philosophy (CON)"
@@ -22,12 +36,7 @@ entities_defined:
   - "Meta-Orchestration Layer (CAP)"
   - "Personal Ontology (CON)"
   - "Apparatus Crystallization Protocol (PROTO)"
-depends_on:
-  - CANON-30000
-  - CANON-30300
-last_verified: 2026-02-05
 ---
-
 # Technology Stack: Workflow Intelligence Framework
 
 ---

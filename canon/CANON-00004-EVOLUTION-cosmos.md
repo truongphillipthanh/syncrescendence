@@ -1,16 +1,32 @@
 ---
 id: CANON-00004
-name: The Evolution
-identity: EVOLUTION
-tier: CANON
-type: cosmos
-version: 1.0.0
+canonical_name: Evolution
+title: "The Evolution"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00000
+requires: []
+siblings:
+  - CANON-00001
+  - CANON-00002
+  - CANON-00003
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 1.0.0
 created: 2025-12-30
 updated: 2025-12-30
-change_velocity: monthly
-synopsis: Living history documenting the Oracle arc, Defrag decision, reconception, and ongoing development.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Oracle Arc (WF)"
   - "Metabolic Defrag (WF)"
@@ -19,14 +35,7 @@ entities_defined:
   - "Two-Stream Architecture (STR)"
   - "Oracle 0-8 (WF)"
   - "Directive-017 (PROTO)"
-depends_on:
-  - CANON-00000
-  - CANON-00001
-  - CANON-00002
-  - CANON-00003
-last_verified: 2026-02-05
 ---
-
 # CANON-00004: THE EVOLUTION
 ## How We Got Here
 

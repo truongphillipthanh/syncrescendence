@@ -1,33 +1,41 @@
 ---
 id: CANON-35200
-name: Gaian Field Node Architecture
-identity: Gaian Field Node Architecture
-tier: CANON
-type: lunar
-version: 2.0.0
-status: canonical
-created: 2025-10-17
-updated: 2025-12-30
-synopsis: Self-sufficient regenerative infrastructure demonstrating post-institutional civilizational alternatives through permanent, utility-producing, ecologically-integrated habitation
-chain: WISDOM
-parent: CANON-35100
-operational_status: theoretical
-entities_defined:
-  - Gaian Field Node (CON)
-  - Post-Labor Economics (CON)
-  - Regenerative Infrastructure (CON)
-  - Network Coordination (PROTO)
-  - Replication Pathway (WF)
-depends_on:
+canonical_name: Gaian Field Node Architecture
+title: "Gaian Field Node Architecture"
+
+tier: chain
+chain: wisdom
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-35000
+requires:
   - CANON-35000
-  - CANON-35100
   - CANON-34000
   - CANON-33000
   - CANON-30000
   - CANON-31130
-last_verified: 2026-02-05
----
+siblings: []
+synthesizes: []
 
+status: canonical
+operational_status: theoretical
+version: 2.0.0
+created: 2025-10-17
+updated: 2025-12-30
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: sharpen
+volatile_sections: []
+entities_defined:
+  - "Gaian Field Node (CON)"
+  - "Post-Labor Economics (CON)"
+  - "Regenerative Infrastructure (CON)"
+  - "Network Coordination (PROTO)"
+  - "Replication Pathway (WF)"
+---
 # CANON-35200: GAIAN FIELD NODE ARCHITECTURE
 **Chain 6 (Wisdom) → Ring (Transcendence) → Lunar System**
 

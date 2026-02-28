@@ -1,17 +1,35 @@
 ---
 id: CANON-30460
-name: Interaction Dynamics
-identity: INTERACTION_DYNAMICS
-tier: CANON
-type: comet
-chain: INTELLIGENCE
+canonical_name: Interaction Dynamics
+title: "Interaction Dynamics"
+
+tier: chain
+chain: intelligence
+celestial_type: comet
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30400
-version: 1.0.0
+requires:
+  - CANON-30400
+siblings:
+  - CANON-30410
+  - CANON-30420
+  - CANON-30430
+  - CANON-30440
+  - CANON-30450
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 1.0.0
 created: 2026-01-20
 updated: 2026-01-20
-synopsis: Comprehensive operational specification for multi-platform AI constellation interaction—state machine, platform limitations, handoff protocols, automation architecture, and decision tracking.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Interaction State Machine (STR)"
   - "Convergent Refinement Pattern (PROTO)"
@@ -23,16 +41,7 @@ entities_defined:
   - "Cross-Platform Porting Protocols (PROTO)"
   - "Handoff Token (ART)"
   - "State Broadcast Automation (WF)"
-depends_on:
-  - CANON-30400
-  - CANON-30410
-  - CANON-30420
-  - CANON-30430
-  - CANON-30440
-  - CANON-30450
-last_verified: 2026-02-05
 ---
-
 # Interaction Dynamics Specification
 ## Syncrescendence Constellation: Operational Configuration
 

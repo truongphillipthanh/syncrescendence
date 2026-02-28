@@ -1,32 +1,39 @@
 ---
 id: CANON-31143
-name: Feed Curation
-identity: Feed Curation as Teleological Practice
-tier: CANON
-type: satellite
-version: 2.0.0
+canonical_name: Feed Curation
+title: "Feed Curation"
+
+tier: chain
+chain: information
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31140
+requires:
+  - CANON-31140
+  - CANON-31100
+siblings:
+  - CANON-31110
+  - CANON-31130
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Deliberate cognitive substrate engineering through chain-aligned feed curation, qualification criteria, and systematic intelligence amplification protocols
-chain: INFORMATION
-planetary: ACUMEN
-lunar: IIC
-parent: CANON-31140
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Feed Curation (PROTO)"
   - "Teleological Curation Practice (CON)"
   - "Chain-Aligned Feed Architecture (STR)"
   - "Qualification Criteria (MET)"
-depends_on:
-  - CANON-31140
-  - CANON-31110
-  - CANON-31130
-  - CANON-31100
-last_verified: 2026-02-05
 ---
-
 # CANON-31143: FEED CURATION AS TELEOLOGICAL PRACTICE
 ## Chain: INFORMATION | Planetary: ACUMEN | Lunar: IIC CONSTELLATION | Satellite Specification
 

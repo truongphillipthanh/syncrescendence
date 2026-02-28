@@ -1,17 +1,30 @@
 ---
 id: CANON-30440
-name: Safety and Alignment
-identity: SAFETY_ALIGNMENT
-tier: CANON
-type: asteroid
-chain: INTELLIGENCE
+canonical_name: Safety and Alignment
+title: "Safety and Alignment"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30400
-version: 2.0.0
+requires:
+  - CANON-30400
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Agent security, attack vectors, defense-in-depth, governance frameworks, and alignment principles.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Attack Vector Taxonomy (STR)"
   - "Five-Layer Defense Architecture (STR)"
@@ -22,11 +35,7 @@ entities_defined:
   - "Progressive Trust (CON)"
   - "Reversible Delegation (CON)"
   - "Intrinsic Alignment (CON)"
-depends_on:
-  - CANON-30400
-last_verified: 2026-02-05
 ---
-
 # CANON-30440: SAFETY AND ALIGNMENT
 ## Intelligence Chain Asteroid
 

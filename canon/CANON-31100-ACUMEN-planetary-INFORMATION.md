@@ -1,25 +1,21 @@
 ---
 id: CANON-31100
-name: Planetary Acumen
-identity: Planetary Acumen - Air Element Sensing Modality
-tier: CANON
-type: planetary
-version: 2.0.0
-status: canonical
-created: 2025-10-17
-updated: 2025-12-30
-synopsis: Cultivation of perceptual sophistication through Air-aligned awareness practices, signal detection across seven domains, and technology sovereignty via IIC implementation
-chain: INFORMATION
-operational_status: partial
-entities_defined:
-  - "Planetary Acumen (CON)"
-  - "Acumen IIC (TOOL)"
-  - "Priority Band (PROTO)"
-  - "Dual-Stream Intelligence (PROTO)"
-  - "Seven Archaeological Domains (STR)"
-  - "Four-Stage Architecture (STR)"
-depends_on:
+canonical_name: Acumen
+title: "Planetary Acumen"
+
+tier: chain
+chain: information
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-31000
+requires:
   - CANON-31000
+  - CANON-35120
+  - CANON-00012
+siblings: []
+synthesizes:
   - CANON-31110
   - CANON-31120
   - CANON-31130
@@ -27,11 +23,25 @@ depends_on:
   - CANON-31141
   - CANON-31142
   - CANON-31143
-  - CANON-35120
-  - CANON-00012
-last_verified: 2026-02-05
----
 
+status: canonical
+operational_status: partial
+version: 2.0.0
+created: 2025-10-17
+updated: 2025-12-30
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
+entities_defined:
+  - "Planetary Acumen (CON)"
+  - "Acumen IIC (TOOL)"
+  - "Priority Band (PROTO)"
+  - "Dual-Stream Intelligence (PROTO)"
+  - "Seven Archaeological Domains (STR)"
+  - "Four-Stage Architecture (STR)"
+---
 # PLANETARY ACUMEN: AIR ELEMENT / SENSING MODALITY
 ## Atmospheric Awareness and Perceptual Sophistication
 

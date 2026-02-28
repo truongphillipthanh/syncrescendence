@@ -1,18 +1,31 @@
 ---
 id: CANON-32110
-name: Coherence Synthesis System
-identity: Coherence Synthesis & Lunar Mastery System
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Coherence Synthesis System
+title: "Coherence Synthesis System"
+
+tier: chain
+chain: insight
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-32100
+requires:
+  - CANON-32100
+  - CANON-32000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Five Degrees of meaning-making integration tracking mastery progression through Recognition, Exploration, Commitment, Integration, and Transmission
-chain: INSIGHT
-planetary: COHERENCE
-parent: CANON-32100
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: water
+ooda_phase: orient
+volatile_sections: []
 entities_defined:
   - "Coherence Synthesis System (STR)"
   - "Five Degrees of Meaning-Making (STR)"
@@ -21,12 +34,7 @@ entities_defined:
   - "Commitment Degree (CON)"
   - "Integration Degree (CON)"
   - "Transmission Degree (CON)"
-depends_on:
-  - CANON-32100
-  - CANON-32000
-last_verified: 2026-02-05
 ---
-
 # CANON-32110: COHERENCE SYNTHESIS & LUNAR MASTERY SYSTEM
 ## The Five Degrees of Meaning-Making Integration (Master Schema Version)
 

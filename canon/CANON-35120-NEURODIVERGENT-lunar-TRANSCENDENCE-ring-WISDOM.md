@@ -1,29 +1,38 @@
 ---
 id: CANON-35120
-name: Neurodivergent Practice Adaptations
-identity: Neurodivergent Practice Adaptations
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Neurodivergent Practice Adaptations
+title: "Neurodivergent Practice Adaptations"
+
+tier: chain
+chain: wisdom
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-35100
+requires:
+  - CANON-35100
+  - CANON-35000
+siblings: []
+synthesizes:
+  - CANON-35121
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Universal practice adaptation principles derived from neurodivergent experience, providing energy-aware protocol design for resistance navigation
-chain: WISDOM
-parent: CANON-35100
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: sharpen
+volatile_sections: []
 entities_defined:
   - "Neurodivergent Practice Adaptations (PROTO)"
   - "Energy-Aware Protocol Design (PROTO)"
   - "Universal Resistance Navigation (CON)"
   - "AuDHD Profile (CON)"
-depends_on:
-  - CANON-35100
-  - CANON-35121
-  - CANON-35000
-last_verified: 2026-02-05
 ---
-
 # CANON-35120: NEURODIVERGENT PRACTICE ADAPTATIONS
 ## Universal Resistance Navigation & Energy-Aware Protocol Design
 

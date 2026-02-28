@@ -1,17 +1,32 @@
 ---
 id: CANON-00011
-name: Artifact Production Protocol
-identity: ARTIFACT_PROTOCOL
-tier: CANON
-type: cosmos
-version: 2.0.0
+canonical_name: Artifact Production Protocol
+title: "Artifact Production Protocol"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00010
+requires:
+  - CANON-00010
+siblings:
+  - CANON-00005
+  - CANON-00007
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-10-19
 updated: 2025-12-30
-change_velocity: quarterly
-supersedes: null
-synopsis: Framework evolution protocol governing artifact creation, maintenance, and community contribution while maintaining architectural coherence.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Artifact Taxonomy (STR)"
   - "Quality Tier System (STR)"
@@ -23,14 +38,7 @@ entities_defined:
   - "Reconstructive Capacity (CON)"
   - "Cascade Congruence (CON)"
   - "Semantic Versioning (PROTO)"
-depends_on:
-  - CANON-00000
-  - CANON-00005
-  - CANON-00007
-  - CANON-00010
-last_verified: 2026-02-05
 ---
-
 # CANON-00011: ARTIFACT PRODUCTION PROTOCOL
 > *Note: This document was previously CANON-17 in legacy numbering. The 5-digit format ([[CANON-00007-EVALUATION-cosmos]]) is now canonical.*
 ## Systematic Framework Evolution While Maintaining Coherence

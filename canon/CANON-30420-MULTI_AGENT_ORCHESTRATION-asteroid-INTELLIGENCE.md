@@ -1,17 +1,30 @@
 ---
 id: CANON-30420
-name: Multi-Agent Orchestration
-identity: MULTI_AGENT_ORCHESTRATION
-tier: CANON
-type: asteroid
-chain: INTELLIGENCE
+canonical_name: Multi-Agent Orchestration
+title: "Multi-Agent Orchestration"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30400
-version: 2.0.0
+requires:
+  - CANON-30400
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Multi-agent orchestration patterns, collaboration topologies, communication protocols, and specialist coordination architectures.
-operational_status: partial
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Specialist Resolution (CON)"
   - "Sequential Orchestration (PROTO)"
@@ -22,11 +35,7 @@ entities_defined:
   - "MCP Protocol (PROTO)"
   - "A2A Protocol (PROTO)"
   - "Progressive Trust Model (PROTO)"
-depends_on:
-  - CANON-30400
-last_verified: 2026-02-05
 ---
-
 # CANON-30420: MULTI-AGENT ORCHESTRATION
 ## Intelligence Chain Asteroid
 

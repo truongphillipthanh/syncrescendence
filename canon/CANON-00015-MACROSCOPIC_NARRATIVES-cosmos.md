@@ -1,16 +1,32 @@
 ---
 id: CANON-00015
-name: Macroscopic Narratives
-classification: cosmos
+canonical_name: Macroscopic Narratives
+title: "Macroscopic Narratives"
+
+tier: cosmos
 chain: null
-version: 1.0.0
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-00010
+requires: []
+siblings:
+  - CANON-00005
+  - CANON-00007
+  - CANON-00012
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 1.0.0
 created: 2026-01-02
 updated: 2026-01-02
-source: intelligence architecture/macroscopic_narratives.md (recovered from git 96edf93)
-principle: "These aren't academic frameworks—they're active filters the apparatus uses to qualify signals."
-synopsis: "The civilizational narrative lenses through which Syncrescendence interprets external content and positions for phase transition."
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Macroscopic Narratives (STR)"
   - "Reflexive Epoch (CON)"
@@ -20,14 +36,7 @@ entities_defined:
   - "Convergent Insights (CON)"
   - "Narrative Lens Families (STR)"
   - "Signal Qualification (PROTO)"
-depends_on:
-  - CANON-00000
-  - CANON-00005
-  - CANON-00007
-  - CANON-00012
-last_verified: 2026-02-05
 ---
-
 # CANON-00015: MACROSCOPIC NARRATIVES
 ## Interpretive Lenses for Civilizational Sensing
 

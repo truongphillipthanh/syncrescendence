@@ -1,3 +1,30 @@
+---
+id: CANON-31150
+canonical_name: Platform Capability Catalog
+title: "Platform Capability Catalog"
+
+tier: chain
+chain: information
+celestial_type: satellite
+volatility_band: dynamic
+refresh_cadence: monthly
+
+parent: null
+requires: []
+siblings: []
+synthesizes: []
+
+status: canonical
+operational_status: operational
+version: 1.0.0
+created: 2026-02-27
+updated: 2026-02-27
+last_verified: 
+
+element: air
+ooda_phase: observe
+volatile_sections: []
+---
 # CANON-31150: PLATFORM CAPABILITY CATALOG
 
 ---

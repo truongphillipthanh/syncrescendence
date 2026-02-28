@@ -1,28 +1,38 @@
 ---
 id: CANON-32100
-name: Planetary Coherence
-identity: Planetary Coherence - Water Element Meaning-Making Modality
-tier: CANON
-type: planetary
-version: 2.0.0
+canonical_name: Coherence
+title: "Planetary Coherence"
+
+tier: chain
+chain: insight
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-32000
+requires:
+  - CANON-32000
+siblings: []
+synthesizes:
+  - CANON-32110
+  - CANON-32120
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Cultivation of hermeneutic sophistication through Water-aligned understanding practices, framework fluency development, and semantic synthesis capacity
-chain: INSIGHT
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: water
+ooda_phase: orient
+volatile_sections: []
 entities_defined:
   - "Planetary Coherence (CON)"
   - "Water Element Modality (CON)"
   - "Hermeneutic Sophistication (CAP)"
   - "Meaning-Making Modality (CON)"
-depends_on:
-  - CANON-32000
-  - CANON-32110
-  - CANON-32120
-last_verified: 2026-02-05
 ---
-
 # PLANETARY COHERENCE: WATER ELEMENT / MEANING-MAKING MODALITY
 ## Fluid Understanding and Hermeneutic Sophistication
 

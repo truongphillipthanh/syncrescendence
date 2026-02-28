@@ -1,30 +1,38 @@
 ---
 id: CANON-34110
-name: Syncrescendent Curriculum
-identity: The Syncrescendent Curriculum
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Syncrescendent Curriculum
+title: "Syncrescendent Curriculum"
+
+tier: chain
+chain: knowledge
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-34100
+requires:
+  - CANON-34100
+  - CANON-34000
+siblings:
+  - CANON-34120
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Enablement architecture for consciousness evolution through four-stage progression from abstract foundations toward transcendent contribution via human-AI symbiosis
-chain: KNOWLEDGE
-planetary: MASTERY
-parent: CANON-34100
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: earth
+ooda_phase: act
+volatile_sections: []
 entities_defined:
   - "Syncrescendent Curriculum (STR)"
   - "Four-Stage Progression (STR)"
   - "Enablement Architecture (CON)"
   - "Human-AI Symbiosis Curriculum (CON)"
-depends_on:
-  - CANON-34100
-  - CANON-34120
-  - CANON-34000
-last_verified: 2026-02-05
 ---
-
 # The Syncrescendent Curriculum
 
 ## Preface: The Enablement Architecture of Consciousness Evolution

@@ -1,18 +1,33 @@
 ---
 id: CANON-31130
-name: Seven-Layer Stack
-identity: Seven-Layer Technosphere Stack
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Seven-Layer Stack
+title: "Seven-Layer Stack"
+
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31100
+requires:
+  - CANON-31100
+  - CANON-31000
+siblings:
+  - CANON-31140
+  - CANON-31141
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Sovereign intelligence architecture for engineering identity-intelligence complexes across seven technology layers to maintain sovereignty amid pervasive AI integration
-chain: INFORMATION
-planetary: ACUMEN
-parent: CANON-31100
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Seven-Layer Technosphere Stack (STR)"
   - "Layer 0 Physical Substrate (CON)"
@@ -24,14 +39,7 @@ entities_defined:
   - "Layer 6 Production Tools (CON)"
   - "Layer 7 Meta-Intelligence (CON)"
   - "Differential Sovereignty (CON)"
-depends_on:
-  - CANON-31100
-  - CANON-31140
-  - CANON-31141
-  - CANON-31000
-last_verified: 2026-02-05
 ---
-
 # CANON-31130: SEVEN-LAYER TECHNOSPHERE STACK
 ## Sovereign Intelligence Architecture for the Intelligenced Era
 

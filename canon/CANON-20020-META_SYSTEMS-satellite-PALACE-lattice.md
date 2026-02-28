@@ -1,28 +1,37 @@
 ---
 id: CANON-20020
-name: Meta-Systems
-identity: META_SYSTEMS
-tier: CANON
-type: satellite
+canonical_name: Meta-Systems
+title: "Meta-Systems"
+
+tier: lattice
+chain: null
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
 parent: CANON-20000
-chain: LATTICE
-version: 1.0.0
+requires:
+  - CANON-20000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 1.0.0
 created: 2026-01-02
 updated: 2026-01-02
-synopsis: Universal Resonance Field, Pattern Library, Seven Pulses Dashboard, and Adaptive Interface—the meta-level systems enabling coherent 87-component operation.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Universal Resonance Field (STR)"
   - "Pattern Library System (TOOL)"
   - "Seven Pulses Dashboard (TOOL)"
   - "Adaptive Interface System (TOOL)"
   - "Pattern Mining Operations (WF)"
-depends_on:
-  - CANON-20000
-last_verified: 2026-02-05
 ---
-
 # CANON-20020: META-SYSTEMS
 ## Cognitive Palace Satellite — Infrastructure for Coherence
 

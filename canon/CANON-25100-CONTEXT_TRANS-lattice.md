@@ -1,15 +1,30 @@
 ---
 id: CANON-25100
-name: Context Transition Protocol
-identity: CONTEXT_TRANS
-tier: CANON
-type: lattice
-version: 2.1.0
+canonical_name: Context Transition Protocol
+title: "Context Transition Protocol"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-25000
+requires:
+  - CANON-25000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.1.0
 created: 2025-10-17
 updated: 2026-01-11
-synopsis: Unified interface for managing cognitive continuity across sessions, threads, and platforms—the librarian's session management system for context transitions
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Context Transition Protocol (PROTO)"
   - "Culmination Mode (PROTO)"
@@ -20,11 +35,7 @@ entities_defined:
   - "Distillation Interface (PROTO)"
   - "Oracle Pedigree Protocol (PROTO)"
   - "Cross-IIC Handoff (PROTO)"
-depends_on:
-  - CANON-25000
-last_verified: 2026-02-05
 ---
-
 # CANON-25100: CONTEXT TRANSITION PROTOCOL
 ## Unified Interface for Cognitive Continuity Across Sessions
 

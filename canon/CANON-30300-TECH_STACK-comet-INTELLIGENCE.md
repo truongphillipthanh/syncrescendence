@@ -1,17 +1,30 @@
 ---
 id: CANON-30300
-name: Technology Stack Database
-identity: Technology Stack Database
-tier: CANON
-type: comet
-version: 2.0.0
+canonical_name: Technology Stack Database
+title: "Technology Stack Database"
+
+tier: chain
+chain: intelligence
+celestial_type: comet
+volatility_band: dynamic
+refresh_cadence: monthly
+
+parent: CANON-30000
+requires:
+  - CANON-30000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: pilot
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: ASA Model implementation database for systematic tool classification, navigation, and workflow optimization across 447 applications, 42 AI models, and 31 APIs
-chain: INTELLIGENCE
-parent: CANON-30000
-operational_status: pilot
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Technology Stack Database (TOOL)"
   - "Bedrock Tables (STR)"
@@ -21,12 +34,7 @@ entities_defined:
   - "Apparatus (CON)"
   - "Primitives (CON)"
   - "Navigation Specifications (WF)"
-depends_on:
-  - CANON-30000
-  - CANON-30100
-last_verified: 2026-02-05
 ---
-
 # P0-3: TECHNOLOGY STACK DATABASE
 ## ASA Implementation for Rational Tool Navigation
 

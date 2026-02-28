@@ -1,17 +1,32 @@
 ---
 id: CANON-00014
-name: Content Production Protocol
-identity: CONTENT_PROTOCOL
-tier: CANON
-type: cosmos
-version: 2.0.0
+canonical_name: Content Production Protocol
+title: "Content Production Protocol"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00010
+requires:
+  - CANON-00010
+siblings:
+  - CANON-00006
+  - CANON-00012
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-11-11
 updated: 2025-12-30
-change_velocity: monthly
-parent: CANON-00006
-synopsis: Comprehensive tactical guidance for content production across the Three-Rail System—step-by-step workflows, production templates, and platform-specific protocols.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Three-Rail System (STR)"
   - "Content Tier Classification (STR)"
@@ -22,13 +37,7 @@ entities_defined:
   - "Quality Gates (MET)"
   - "Batch Production Protocol (PROTO)"
   - "Content Repurposing Framework (WF)"
-depends_on:
-  - CANON-00006
-  - CANON-00010
-  - CANON-00012
-last_verified: 2026-02-05
 ---
-
 # CANON-00014: CONTENT PRODUCTION PROTOCOL
 **Classification**: Operational Supplement
 **Version**: 1.0

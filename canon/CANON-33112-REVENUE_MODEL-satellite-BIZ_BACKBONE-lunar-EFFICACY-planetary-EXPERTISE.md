@@ -1,30 +1,37 @@
 ---
 id: CANON-33112
-name: Revenue Model Reconciliation
-identity: Revenue Model Reconciliation
-tier: CANON
-type: satellite
-version: 2.0.0
+canonical_name: Revenue Model Reconciliation
+title: "Revenue Model Reconciliation"
+
+tier: chain
+chain: expertise
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-33110
+requires:
+  - CANON-33110
+  - CANON-33100
+  - CANON-33000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Explicit mapping reconciling Convergence 4-level revenue model with Operations 3-phase structure for timeline and revenue clarity
-chain: EXPERTISE
-planetary: EFFICACY
-lunar: BIZ_BACKBONE
-parent: CANON-33110
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: fire
+ooda_phase: decide
+volatile_sections: []
 entities_defined:
   - "Revenue Model Reconciliation (STR)"
   - "Convergence 4-Level Architecture (STR)"
   - "Operations 3-Phase Structure (STR)"
-depends_on:
-  - CANON-33110
-  - CANON-33100
-  - CANON-33000
-last_verified: 2026-02-05
 ---
-
 # REVENUE MODEL RECONCILIATION
 ## Mapping Convergence 4-Level Architecture to Operations Phase Structure
 

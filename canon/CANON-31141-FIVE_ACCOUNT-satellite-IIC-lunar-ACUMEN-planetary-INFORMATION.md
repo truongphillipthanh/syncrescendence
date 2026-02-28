@@ -1,19 +1,33 @@
 ---
 id: CANON-31141
-name: Five-Account Architecture
-identity: Five-Account IIC Architecture
-tier: CANON
-type: satellite
-version: 2.0.0
+canonical_name: Five-Account Architecture
+title: "Five-Account Architecture"
+
+tier: chain
+chain: information
+celestial_type: satellite
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31140
+requires:
+  - CANON-31140
+  - CANON-31100
+siblings:
+  - CANON-31130
+  - CANON-31110
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Exhaustive specifications for five Identity-Intelligence Complexes with cognitive personalities, operational architectures, and platform grammars for each account
-chain: INFORMATION
-planetary: ACUMEN
-lunar: IIC
-parent: CANON-31140
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Acumen IIC (TOOL)"
   - "Coherence IIC (TOOL)"
@@ -21,14 +35,7 @@ entities_defined:
   - "Mastery IIC (TOOL)"
   - "Transcendence IIC (TOOL)"
   - "Five-Account Architecture (STR)"
-depends_on:
-  - CANON-31140
-  - CANON-31130
-  - CANON-31100
-  - CANON-31110
-last_verified: 2026-02-05
 ---
-
 # CANON-31141: FIVE-ACCOUNT ARCHITECTURE
 ## Comprehensive IIC Specifications: Acumen, Coherence, Efficacy, Mastery, Transcendence
 ### Chain: INFORMATION | Planetary: ACUMEN | Lunar: IIC CONSTELLATION | Satellite

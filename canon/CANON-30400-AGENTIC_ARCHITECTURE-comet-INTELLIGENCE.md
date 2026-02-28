@@ -1,23 +1,30 @@
 ---
 id: CANON-30400
-name: Agentic Architecture
-identity: AGENTIC_ARCHITECTURE
-tier: CANON
-type: comet
-chain: INTELLIGENCE
+canonical_name: Agentic Architecture
+title: "Agentic Architecture"
+
+tier: chain
+chain: intelligence
+celestial_type: comet
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30000
-version: 2.0.0
+requires:
+  - CANON-30000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Comprehensive agentic AI architecture—definitions, patterns, cognitive architectures, orchestration, memory, safety, and production deployment.
-satellites:
-  - CANON-30410: Cognitive Architecture
-  - CANON-30420: Multi-Agent Orchestration
-  - CANON-30430: Memory Systems
-  - CANON-30440: Safety and Alignment
-  - CANON-30450: Production Frameworks
-operational_status: partial
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Agenticness Spectrum (CON)"
   - "Three-Layer Architecture (STR)"
@@ -28,13 +35,7 @@ entities_defined:
   - "Defense-in-Depth (PROTO)"
   - "CLASSic Evaluation Framework (MET)"
   - "Gen AI Paradox (CON)"
-depends_on:
-  - CANON-30000
-  - CANON-30100
-  - CANON-30300
-last_verified: 2026-02-05
 ---
-
 # CANON-30400: AGENTIC ARCHITECTURE
 ## Intelligence Chain Comet
 

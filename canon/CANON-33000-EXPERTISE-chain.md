@@ -1,28 +1,37 @@
 ---
 id: CANON-33000
-name: Expertise Chain
-identity: Expertise Chain - Expertise Orbital Path
-tier: CANON
-type: chain
-version: 2.0.0
+canonical_name: Expertise Chain
+title: "Expertise Chain"
+
+tier: chain
+chain: expertise
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-30000
+requires:
+  - CANON-00000
+  - CANON-30000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Economic capability and decision quality development through four progressive stages, tracking volitional capacity from abstract planning toward transcendent contribution
-chain: EXPERTISE
-operational_status: theoretical
-entities_defined:
-  - Expertise Chain (CON)
-  - Efficacy (CON)
-  - Business Backbone (CON)
-  - Revenue Model (CON)
-depends_on:
-  - CANON-00000
-  - CANON-21000
-  - CANON-30000
 last_verified: 2026-02-05
----
 
+element: fire
+ooda_phase: decide
+volatile_sections: []
+entities_defined:
+  - "Expertise Chain (CON)"
+  - "Efficacy (CON)"
+  - "Business Backbone (CON)"
+  - "Revenue Model (CON)"
+---
 # EFFICACY CHAIN: EXPERTISE ORBITAL PATH
 ## Economic Development Through Strategic Capacity
 

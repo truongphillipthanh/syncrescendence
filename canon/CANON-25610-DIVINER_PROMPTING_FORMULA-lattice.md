@@ -1,27 +1,38 @@
 ---
 id: CANON-25610
-name: Diviner Prompting Formula
-identity: DIVINER_PROMPTING_FORMULA
-tier: CANON
-type: lattice
-version: 1.0.0
-status: canonical
-created: 2026-02-27
-updated: 2026-02-27
-synopsis: The empirically seared prompting formula for the Diviner agent (Gemini) — the specific structural elements that produce legendary all-sciences synthesis outputs. Derived through failure (two rejected prompts CC41) and validated across CC35, CC38, CC40.
-operational_status: operational
-entities_defined:
-  - Cognitive Launching Pads (PROTO)
-  - Symmetry-Breaking Fields (CON)
-  - Micro-Falsifiability Covenant (PROTO)
-  - Negative Space Hardening (PROTO)
-  - All-Sciences Palette (PROTO)
-depends_on:
+canonical_name: Diviner Prompting Formula
+title: "Diviner Prompting Formula"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-25600
+requires:
   - CANON-00016
   - CANON-25600
-last_verified: 2026-02-27
----
+siblings: []
+synthesizes: []
 
+status: canonical
+operational_status: operational
+version: 1.0.0
+created: 2026-02-27
+updated: 2026-02-27
+last_verified: 2026-02-27
+
+element: null
+ooda_phase: null
+volatile_sections: []
+entities_defined:
+  - "Cognitive Launching Pads (PROTO)"
+  - "Symmetry-Breaking Fields (CON)"
+  - "Micro-Falsifiability Covenant (PROTO)"
+  - "Negative Space Hardening (PROTO)"
+  - "All-Sciences Palette (PROTO)"
+---
 # CANON-25610: THE DIVINER PROMPTING FORMULA
 ## Structural Elements for Multi-Agent Dialectical Synthesis
 

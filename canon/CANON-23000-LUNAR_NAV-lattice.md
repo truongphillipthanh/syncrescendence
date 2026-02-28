@@ -1,15 +1,30 @@
 ---
 id: CANON-23000
-name: Lunar Navigation
-identity: LUNAR_NAV
-tier: CANON
-type: lattice
-version: 2.0.0
+canonical_name: Lunar Navigation
+title: "Lunar Navigation"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-20000
+requires:
+  - CANON-20000
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Progressive disclosure architecture for Coherence-Transcendence systems using five orthogonal dimensions to guide practitioner mastery through lunar degree progression
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Lunar Navigation (STR)"
   - "Five Orthogonal Dimensions (STR)"
@@ -22,17 +37,7 @@ entities_defined:
   - "Ontology-Oriented Entry (WF)"
   - "Integration-Oriented Entry (WF)"
   - "Degree Progression (PROTO)"
-depends_on:
-  - CANON-20000
-  - CANON-21000
-  - CANON-22000
-  - CANON-20010
-  - CANON-20020
-  - CANON-24000
-  - CANON-25000
-last_verified: 2026-02-05
 ---
-
 # CANON-23000: LUNAR NAVIGATION
 ## Progressive Disclosure Architecture for Coherence-Transcendence Systems
 

@@ -1,17 +1,30 @@
 ---
 id: CANON-30450
-name: Production Frameworks
-identity: PRODUCTION_FRAMEWORKS
-tier: CANON
-type: asteroid
-chain: INTELLIGENCE
+canonical_name: Production Frameworks
+title: "Production Frameworks"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30400
-version: 2.0.0
+requires:
+  - CANON-30400
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Production agent frameworks, SDK comparisons, MCP/A2A protocols, tool integration, and deployment patterns.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "LangGraph Framework (TOOL)"
   - "OpenAI Agents SDK (TOOL)"
@@ -21,11 +34,7 @@ entities_defined:
   - "CLASSic Evaluation (MET)"
   - "Trajectory Evaluation (MET)"
   - "Gen AI Paradox Resolution (CON)"
-depends_on:
-  - CANON-30400
-last_verified: 2026-02-05
 ---
-
 # CANON-30450: PRODUCTION FRAMEWORKS
 ## Intelligence Chain Asteroid
 

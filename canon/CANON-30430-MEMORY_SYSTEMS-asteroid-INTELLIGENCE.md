@@ -1,17 +1,30 @@
 ---
 id: CANON-30430
-name: Memory Systems
-identity: MEMORY_SYSTEMS
-tier: CANON
-type: asteroid
-chain: INTELLIGENCE
+canonical_name: Memory Systems
+title: "Memory Systems"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30400
-version: 2.0.0
+requires:
+  - CANON-30400
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Agent memory architectures, taxonomies, vector databases, context engineering, and production memory systems.
-operational_status: partial
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Memory Taxonomy (STR)"
   - "A-MEM System (TOOL)"
@@ -21,11 +34,7 @@ entities_defined:
   - "Sleep-Time Compute (CON)"
   - "Memory Interface Operations (PROTO)"
   - "Retrieval Optimization (CAP)"
-depends_on:
-  - CANON-30400
-last_verified: 2026-02-05
 ---
-
 # CANON-30430: MEMORY SYSTEMS
 ## Intelligence Chain Asteroid
 

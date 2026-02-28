@@ -1,3 +1,30 @@
+---
+id: CANON-RETIREMENT-PROTOCOL
+canonical_name: Retirement Protocol
+title: "Retirement Protocol — Competitive Exclusion with Enforced Pruning"
+
+tier: immune
+chain: null
+celestial_type: policy
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: null
+requires: []
+siblings: []
+synthesizes: []
+
+status: canonical
+operational_status: operational
+version: 1.0.0
+created: 2026-02-27
+updated: 2026-02-27
+last_verified: 
+
+element: null
+ooda_phase: null
+volatile_sections: []
+---
 # Retirement Protocol — Competitive Exclusion with Enforced Pruning
 
 **Version**: 1.0.0

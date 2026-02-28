@@ -1,35 +1,44 @@
 ---
 id: CANON-25600
-name: Ascertescence Cycle
-identity: ASCERTESCENCE_CYCLE
-tier: CANON
-type: lattice
-version: 1.0.0
-status: canonical
-created: 2026-02-27
-updated: 2026-02-27
-synopsis: The 6-phase operational cycle for recursive ascertainment through multi-agent dialectic — the system's primary process for converting raw intelligence into canon. Empirically validated across CC34-CC39 (first complete cycle in constellation history).
-operational_status: operational
-entities_defined:
-  - Ascertescence Cycle (PROTO)
-  - Rendezvous Phase (PROTO)
-  - Triangulation Phase (PROTO)
-  - Construction Phase (PROTO)
-  - Build Phase (PROTO)
-  - Reviewtrospective Phase (PROTO)
-  - Remediation Phase (PROTO)
-  - Means-Ends Inversion Halt (PROTO)
-  - Hub-and-Spoke Routing (STR)
-  - Unification Artifact (PROTO)
-depends_on:
+canonical_name: Ascertescence Cycle
+title: "Ascertescence Cycle"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: CANON-25000
+requires:
   - CANON-00000
   - CANON-00003
   - CANON-00010
-  - CANON-25200
-  - CANON-25500
-last_verified: 2026-02-27
----
+siblings: []
+synthesizes: []
 
+status: canonical
+operational_status: operational
+version: 1.0.0
+created: 2026-02-27
+updated: 2026-02-27
+last_verified: 2026-02-27
+
+element: null
+ooda_phase: null
+volatile_sections: []
+entities_defined:
+  - "Ascertescence Cycle (PROTO)"
+  - "Rendezvous Phase (PROTO)"
+  - "Triangulation Phase (PROTO)"
+  - "Construction Phase (PROTO)"
+  - "Build Phase (PROTO)"
+  - "Reviewtrospective Phase (PROTO)"
+  - "Remediation Phase (PROTO)"
+  - "Means-Ends Inversion Halt (PROTO)"
+  - "Hub-and-Spoke Routing (STR)"
+  - "Unification Artifact (PROTO)"
+---
 # CANON-25600: THE ASCERTESCENCE CYCLE
 ## Full-Rotation Instrument for Recursive Ascertainment Through Multi-Agent Dialectic
 

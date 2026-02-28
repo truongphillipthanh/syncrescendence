@@ -1,16 +1,36 @@
 ---
 id: CANON-00006
-name: Syncrescendent Corpus
-identity: CORPUS
-tier: CANON
-type: cosmos
-version: 2.0.0
+canonical_name: Syncrescendent Corpus
+title: "Syncrescendent Corpus"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00000
+requires: []
+siblings:
+  - CANON-00005
+  - CANON-00007
+  - CANON-00009
+  - CANON-00010
+  - CANON-00011
+  - CANON-00012
+  - CANON-00013
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-10-01
 updated: 2025-12-30
-change_velocity: weekly
-synopsis: Authoritative manifest of all canonical architecture and operational supplements—complete documentation registry with integration record.
-operational_status: operational
+last_verified: 2026-02-05
+
+element: null
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "Corpus Manifest (ART)"
   - "Artifact Catalog (STR)"
@@ -20,18 +40,7 @@ entities_defined:
   - "Contribution Protocols (PROTO)"
   - "Discontinuation Criteria (MET)"
   - "Dissolution Protocol (PROTO)"
-depends_on:
-  - CANON-00000
-  - CANON-00005
-  - CANON-00007
-  - CANON-00009
-  - CANON-00010
-  - CANON-00011
-  - CANON-00012
-  - CANON-00013
-last_verified: 2026-02-05
 ---
-
 # CANON-00006: SYNCRESCENDENT CORPUS MANIFEST
 ## Complete Architectural Documentation & Integration Record
 

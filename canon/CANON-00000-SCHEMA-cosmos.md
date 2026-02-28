@@ -1,25 +1,35 @@
 ---
 id: CANON-00000
-name: Syncrescendent Schema
-identity: SCHEMA
-tier: CANON
-type: cosmos
-version: 2.0.0
+canonical_name: Syncrescendent Schema
+title: "Syncrescendent Schema"
+
+tier: cosmos
+chain: null
+celestial_type: root
+volatility_band: permanent
+refresh_cadence: annual
+
+parent: CANON-00000
+requires: []
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: operational
+version: 2.0.0
 created: 2025-10-01
 updated: 2025-12-30
-change_velocity: quarterly
-synopsis: Master structural schema defining document hierarchy, numbering conventions, celestial metaphor, and complete navigational grammar for the Syncrescendent system.
-operational_status: operational
-entities_defined:
-  - CANON (STR)
-  - Six Chains (CON)
-  - tau notation (NOT)
-  - Solar System Metaphor (CON)
-depends_on: []
 last_verified: 2026-02-05
----
 
+element: null
+ooda_phase: null
+volatile_sections: []
+entities_defined:
+  - "CANON (STR)"
+  - "Six Chains (CON)"
+  - "tau notation (NOT)"
+  - "Solar System Metaphor (CON)"
+---
 # CANON-00000: SYNCRESCENDENT SCHEMA
 ## Complete Navigational Blueprint for the Syncrescendent System
 

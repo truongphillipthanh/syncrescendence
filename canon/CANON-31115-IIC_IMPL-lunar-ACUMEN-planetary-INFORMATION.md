@@ -1,18 +1,34 @@
 ---
 id: CANON-31115
-name: Acumen IIC Implementation
-identity: Acumen IIC Implementation Guide
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Acumen IIC Implementation
+title: "Acumen IIC Implementation"
+
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-31110
+requires:
+  - CANON-31100
+  - CANON-31110
+siblings:
+  - CANON-31130
+  - CANON-31140
+  - CANON-31143
+synthesizes: []
+
 status: canonical
+operational_status: partial
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Complete tactical guide for implementing Acumen IIC from zero to operational intelligence cycle, providing step-by-step worked examples and platform-specific tactics
-chain: INFORMATION
-planetary: ACUMEN
-parent: CANON-31100
-operational_status: partial
+last_verified: 2026-02-05
+
+element: air
+ooda_phase: observe
+volatile_sections: []
 entities_defined:
   - "Acumen IIC Implementation (WF)"
   - "Daily Intelligence Cycle (PROTO)"
@@ -21,15 +37,7 @@ entities_defined:
   - "Cross-IIC Handoff Protocol (PROTO)"
   - "Aggregation-of-Aggregators (PROTO)"
   - "Heat Mapping (TOOL)"
-depends_on:
-  - CANON-31100
-  - CANON-31110
-  - CANON-31130
-  - CANON-31140
-  - CANON-31143
-last_verified: 2026-02-05
 ---
-
 # [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]]-supplement: ACUMEN IIC IMPLEMENTATION GUIDE
 ## Complete Operational Specification with Worked Examples
 

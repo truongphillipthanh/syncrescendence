@@ -1,17 +1,30 @@
 ---
 id: CANON-30410
-name: Cognitive Architecture
-identity: COGNITIVE_ARCHITECTURE
-tier: CANON
-type: asteroid
-chain: INTELLIGENCE
+canonical_name: Cognitive Architecture
+title: "Cognitive Architecture"
+
+tier: chain
+chain: intelligence
+celestial_type: asteroid
+volatility_band: dynamic
+refresh_cadence: monthly
+
 parent: CANON-30400
-version: 2.0.0
+requires:
+  - CANON-30400
+siblings: []
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-12-30
 updated: 2025-12-30
-synopsis: Detailed cognitive architectures for language agents—CoALA framework, reasoning patterns, perception and planning primitives.
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: quintessence
+ooda_phase: null
+volatile_sections: []
 entities_defined:
   - "CoALA Architecture (STR)"
   - "ReAct Pattern (PROTO)"
@@ -22,11 +35,7 @@ entities_defined:
   - "Perception Primitives (CAP)"
   - "Planning Primitives (CAP)"
   - "Primitive Composition Patterns (STR)"
-depends_on:
-  - CANON-30400
-last_verified: 2026-02-05
 ---
-
 # CANON-30410: COGNITIVE ARCHITECTURE
 ## Intelligence Chain Asteroid
 

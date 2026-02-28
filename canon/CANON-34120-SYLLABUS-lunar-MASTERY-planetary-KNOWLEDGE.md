@@ -1,29 +1,37 @@
 ---
 id: CANON-34120
-name: Mastery Syllabus
-identity: Mastery Lunar Syllabus
-tier: CANON
-type: lunar
-version: 2.0.0
+canonical_name: Mastery Syllabus
+title: "Mastery Syllabus"
+
+tier: chain
+chain: knowledge
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-34100
+requires:
+  - CANON-34100
+  - CANON-34000
+siblings:
+  - CANON-34110
+synthesizes: []
+
 status: canonical
+operational_status: theoretical
+version: 2.0.0
 created: 2025-10-17
 updated: 2025-12-30
-synopsis: Tactical implementation pathways with October 2025 tool ecosystem, providing current technology recommendations for curriculum delivery
-chain: KNOWLEDGE
-planetary: MASTERY
-parent: CANON-34100
-operational_status: theoretical
+last_verified: 2026-02-05
+
+element: earth
+ooda_phase: act
+volatile_sections: []
 entities_defined:
   - "Mastery Syllabus (ART)"
   - "Tool Ecosystem Recommendations (STR)"
   - "Implementation Pathways (WF)"
-depends_on:
-  - CANON-34100
-  - CANON-34110
-  - CANON-34000
-last_verified: 2026-02-05
 ---
-
 # MASTERY LUNAR: SYLLABUS
 ## Tactical Implementation Pathways - October 2025 Tool Ecosystem
 

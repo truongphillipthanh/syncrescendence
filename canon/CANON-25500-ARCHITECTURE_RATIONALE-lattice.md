@@ -1,3 +1,30 @@
+---
+id: CANON-25500
+canonical_name: Architecture Rationale
+title: "Architecture Rationale — Complete Reconstruction Guide"
+
+tier: lattice
+chain: null
+celestial_type: planetary
+volatility_band: stable
+refresh_cadence: semi-annual
+
+parent: null
+requires: []
+siblings: []
+synthesizes: []
+
+status: canonical
+operational_status: operational
+version: 1.0.0
+created: 2026-02-27
+updated: 2026-02-27
+last_verified: 
+
+element: null
+ooda_phase: null
+volatile_sections: []
+---
 # CANON-25500: Architecture Rationale — Complete Reconstruction Guide
 ## How We Arrived Here and How to Rebuild from Scratch
 **Version**: 1.0.0
