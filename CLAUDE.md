@@ -203,7 +203,10 @@ Every dispatch involving corpus or file classification MUST include this verbati
 > - Everything about OpenClaw — same.
 > - Everything about prompt engineering — same.
 > - The clusters are TOPICS, not file types.
+> - **CLUSTERING BY TYPE IS FORBIDDEN.** A .jsonl about consciousness goes in philosophy-esoterica. A .py about dispatch goes in multi-agent-systems. A .log about memory goes in ai-memory-retrieval. NEVER route files by extension, format, or artifact role. This is the single most common classification error and it is constitutionally prohibited.
 > - Nothing gets deleted.
+>
+> **Teleology**: We cluster progressively — more and more granularly. Subcategories will form. Metacategories will form. We semantically tighten for maximal coherence. The end result is a textbook, a compendium to build the Syncrescendence. Every misclassification is a flaw in the canon. Every reclassification illuminates.
 
 ### Oracle (Grok 4.2) — Hypersensing + Industry Expertise
 

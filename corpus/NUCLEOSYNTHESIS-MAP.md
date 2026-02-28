@@ -6,35 +6,35 @@
 
 ---
 
-## Section 1: Folder Census
+## Section 1: Folder Census (Updated CC56 — Post-Validation Reclassification)
 
 | Folder | Files | Description |
 |--------|------:|-------------|
-| ai-biotech | 29 | Biotechnology, synthetic biology, and AI applications in life sciences. |
-| ai-capability-futures | 328 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions, and future trajectory analysis. |
-| ai-memory-retrieval | 487 | Long-term memory systems, RAG, vector databases, knowledge graphs, Graphiti, episodic memory, agent memory architecture. Core Sovereign research interest. |
-| ai-models | 958 | Model releases (GPT-5, Gemini, Opus, GLM, Kimi), benchmarks, capability comparisons, LLM architecture, training techniques, fine-tuning, tokenization, scaling laws. Includes YouTube stubs awaiting Gemini transcription. |
-| ai-safety | 118 | Constitutional AI, RLHF, value alignment, AI governance, alignment research, existential risk analysis. |
-| ai-video-vfx | 159 | AI image generation, video generation models, VFX workflows, creative AI tooling, visual media production. |
-| claude-code | 662 | Claude Code architecture, CLAUDE.md hierarchy, hooks, Plan Mode, extended thinking, context compaction, MCP integration, skills/subagents, permissions model, worktrees, Boris Cherny posts, designer adoption stories. |
-| design-taste | 265 | Design philosophy, aesthetics, craft, "Taste for Makers" (Paul Graham), aesthetic judgment, Figma, UI/UX, direct design. |
-| geopolitics-grand-strategy | 222 | Geopolitics, US-China dynamics, international relations, grand strategy, civilizational analysis, Russia, Iran, defense. |
-| health-psychology | 230 | Sleep science, fitness, mental health, neuroscience, biohacking, psychology, brain research, wellness. |
-| infrastructure | 89 | DevOps, cloud infrastructure, deployment, servers, networking, system administration, compute economics. |
-| leadership-management | 71 | Executive decision-making, management frameworks, organizational design, team building, CEO perspectives. |
-| meaning-civilization | 281 | Meaning crisis (Vervaeke), civilizational inflection points, Age of Turbulence, philosophy of meaning, cultural criticism, deep humanistic inquiry. High atom density. |
-| multi-agent-systems | 788 | Multi-agent coordination, swarms, orchestration patterns, tool-calling, harness engineering, MCP server patterns, sub-agent delegation. The largest folder — includes Syncrescendence internal operational files (tasks, results, confirms, prompts, configs, architecture, pipelines, session logs, certescence artifacts, canon outputs). |
-| openclaw | 639 | OpenClaw/ClawdBot/Moltbot framework: installation, security hardening, memory systems, SOUL.md personality, phone integration, cost optimization, multi-agent fleets, Molt marketplace. |
-| philosophy-esoterica | 301 | Consciousness, transhumanism, qualia, panpsychism, David Pearce, bioethics, mind uploading. Esoteric/occult: Hermetic tradition, Emerald Tablet, alchemy, Kabbalah, sacred geometry, Thelema. Very high atom density (67 atoms/source avg). |
-| product-business | 247 | Business models, product-market fit, growth, SaaS, enterprise software, AI product strategy, distribution, aggregation theory. |
-| productivity-pkm | 342 | Second Brain, PKM, habit systems, Obsidian, workflow automation, learning techniques, focus, agentic note-taking. |
-| prompt-engineering | 45 | Prompt design, prompt templates, system prompts, prompt optimization techniques, few-shot patterns. |
-| startup-vc | 111 | Founder advice, fundraising, startup culture, VC dynamics, early-stage company building. |
+| ai-biotech | 22 | Biotechnology, synthetic biology, and AI applications in life sciences. |
+| ai-capability-futures | 354 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions, and future trajectory analysis. |
+| ai-memory-retrieval | 480 | Long-term memory systems, RAG, vector databases, knowledge graphs, Graphiti, episodic memory, agent memory architecture. Core Sovereign research interest. |
+| ai-models | 957 | Model releases (GPT-5, Gemini, Opus, GLM, Kimi), benchmarks, capability comparisons, LLM architecture, training techniques, fine-tuning, tokenization, scaling laws. Includes YouTube stubs awaiting Gemini transcription. |
+| ai-safety | 117 | Constitutional AI, RLHF, value alignment, AI governance, alignment research, existential risk analysis. |
+| ai-video-vfx | 147 | AI image generation, video generation models, VFX workflows, creative AI tooling, visual media production. |
+| claude-code | 653 | Claude Code architecture, CLAUDE.md hierarchy, hooks, Plan Mode, extended thinking, context compaction, MCP integration, skills/subagents, permissions model, worktrees, Boris Cherny posts, designer adoption stories. |
+| design-taste | 254 | Design philosophy, aesthetics, craft, "Taste for Makers" (Paul Graham), aesthetic judgment, Figma, UI/UX, direct design. |
+| geopolitics-grand-strategy | 218 | Geopolitics, US-China dynamics, international relations, grand strategy, civilizational analysis, Russia, Iran, defense. |
+| health-psychology | 223 | Sleep science, fitness, mental health, neuroscience, biohacking, psychology, brain research, wellness. |
+| infrastructure | 93 | DevOps, cloud infrastructure, deployment, servers, networking, system administration, compute economics. |
+| leadership-management | 63 | Executive decision-making, management frameworks, organizational design, team building, CEO perspectives. |
+| meaning-civilization | 284 | Meaning crisis (Vervaeke), civilizational inflection points, Age of Turbulence, philosophy of meaning, cultural criticism, deep humanistic inquiry. High atom density. |
+| multi-agent-systems | 812 | Multi-agent coordination, swarms, orchestration patterns, tool-calling, harness engineering, MCP server patterns, sub-agent delegation. The largest folder — includes Syncrescendence internal operational files (tasks, results, confirms, prompts, configs, architecture, pipelines, session logs, certescence artifacts, canon outputs). |
+| openclaw | 642 | OpenClaw/ClawdBot/Moltbot framework: installation, security hardening, memory systems, SOUL.md personality, phone integration, cost optimization, multi-agent fleets, Molt marketplace. |
+| philosophy-esoterica | 303 | Consciousness, transhumanism, qualia, panpsychism, David Pearce, bioethics, mind uploading. Esoteric/occult: Hermetic tradition, Emerald Tablet, alchemy, Kabbalah, sacred geometry, Thelema. Very high atom density (67 atoms/source avg). |
+| product-business | 263 | Business models, product-market fit, growth, SaaS, enterprise software, AI product strategy, distribution, aggregation theory. |
+| productivity-pkm | 343 | Second Brain, PKM, habit systems, Obsidian, workflow automation, learning techniques, focus, agentic note-taking. |
+| prompt-engineering | 44 | Prompt design, prompt templates, system prompts, prompt optimization techniques, few-shot patterns. |
+| startup-vc | 99 | Founder advice, fundraising, startup culture, VC dynamics, early-stage company building. |
 | uncategorized | 1 | Residual file pending manual classification. |
-| vibe-coding | 199 | Vibe coding practice, AI engineer career paths, prompt-to-product workflows, compounding engineering, Karpathy guidelines, "everyone can code" takes, critical perspectives. |
-| writing-creation | 267 | Writing craft, rhetoric, narrative structure, essay form, communication strategy, content creation, voice/audio/TTS. |
+| vibe-coding | 205 | Vibe coding practice, AI engineer career paths, prompt-to-product workflows, compounding engineering, Karpathy guidelines, "everyone can code" takes, critical perspectives. |
+| writing-creation | 260 | Writing craft, rhetoric, narrative structure, essay form, communication strategy, content creation, voice/audio/TTS. |
 
-**Total**: 6,839 files across 23 folders.
+**Total**: 6,837 files across 23 folders (2 scratch files removed CC56).
 
 ---
 
@@ -51,6 +51,15 @@
 - 28 clusters collapsed into 22 semantic folders (now 23 with uncategorized residual)
 - Type-based clusters (extraction triplets, task/result/confirm, certescence, operational logs, architecture/state, pipeline scripts, prompt/config, dead infra cruft) redistributed by semantic topic into the 22 knowledge folders
 - Key redistribution: Syncrescendence internal files (clusters 20-28, ~2,700 files) classified by what they are ABOUT, not what they ARE
+
+### CC56 — 3-Agent Validation + Reclassification (2026-02-28)
+- Oracle (Grok 4.2), Cartographer (Gemini Pro 3.1), Adjudicator (Codex GPT-5.3) independently validated all 22 folders
+- 161 files reclassified across 3 waves (115 agent findings + 46 degraded-folder audit)
+- 153 CANON/SN files verified — all correctly placed post-moves
+- 10 superseded BOTTOMUP-*.md files deleted
+- 5 open validation questions resolved: Q1-Q4 confirmed, Q5 ruled SEPARATE by Sovereign
+- JSONL deep audit dispatched for remaining type-based misclassifications
+- Teleology seared: progressive semantic tightening toward textbook/compendium
 
 ### Source Map: Which Cluster Maps Fed Which Folders
 | Source File | Coverage | Primary Destination Folders |
@@ -233,14 +242,24 @@ Approximately **1,002 Flat JSONL files** are confirmed redundant. Each Flat `.js
 
 ## Section 6: Constitutional Constraints
 
-1. **TYPE-BASED CLUSTERING IS FORBIDDEN** (Sovereign directive, SEARED). A script about memory goes in ai-memory-retrieval. A config about dispatch goes in multi-agent-systems. A .jsonl about consciousness goes in philosophy-esoterica. Classification is by SEMANTIC TOPIC of contents, never by artifact type, file format, pipeline stage, or document role.
+1. **CLUSTERING BY TYPE IS FORBIDDEN** (Sovereign directive, SEARED CC56). A .jsonl about consciousness goes in philosophy-esoterica. A .py about dispatch goes in multi-agent-systems. A .log about memory goes in ai-memory-retrieval. NEVER route files by extension, format, or artifact role. This is the single most common classification error — it caused the CC55 validation failure (Adjudicator routed all JSONL to ai-memory-retrieval by type, violating the constitution). Classification is by SEMANTIC TOPIC of contents, always and only.
 
 2. **No "other" / "general" / "uncategorized" buckets.** Every file must earn its folder placement by semantic topic. The single `uncategorized` folder (1 file) exists only as a transient residual pending manual review.
 
 3. **Every folder named for the SEMANTIC TOPIC of its contents.** Folder names describe what the files are ABOUT, not what they ARE.
 
-4. **NUCLEOSYNTHESIS target**: 50% reduction from 11,733 originals. Current corpus: 6,839 files (41.7% reduction achieved). Remaining reduction via near-dupe merges (122 candidates), JSONL redundancy crush (~1,002 files), and further deduplication yields projected ~5,700 files (51.4% total reduction).
+4. **NUCLEOSYNTHESIS target**: 50% reduction from 11,733 originals. Current corpus: 6,837 files (41.7% reduction achieved). Remaining reduction via near-dupe merges (122 candidates), JSONL redundancy crush (~1,002 files), and further deduplication yields projected ~5,700 files (51.4% total reduction).
+
+5. **philosophy-esoterica and meaning-civilization remain SEPARATE** (Sovereign ruling CC56). Natural joint confirmed: consciousness/mysticism IS different from meaning/civilization. Oracle validated; Sovereign ratified.
+
+## Section 7: Teleology (Sovereign Directive CC56 — SEARED)
+
+**The corpus is becoming a textbook.** A compendium to build the Syncrescendence.
+
+We cluster progressively — more and more granularly. Subcategories will form within folders. Metacategories will form across folders. We semantically tighten for maximal coherence. Every misclassification is a flaw in the canon. Every reclassification illuminates.
+
+The end state is not "organized files." The end state is a navigable knowledge architecture where any reader can find any piece of the Syncrescendence vision by semantic topic, drill into subcategories for depth, and zoom out to metacategories for breadth.
 
 ---
 
-*This document is the single classification authority for the corpus. All 22 pre-clustering files listed in the header are superseded.*
+*This document is the single classification authority for the corpus. All pre-clustering files are superseded.*
