@@ -1,18 +1,3 @@
-# ⚠️ EMERGENCY MODE (CC30) — SOVEREIGN DIRECTIVE (VERBATIM) ⚠️
-# "Dispatch emergency ascertescence. Get Oracle to view everything. This is a comprehensive
-# initiative anneal. The result of this ascertescence must converge the pathways. We need to
-# tighten everything apart from the canon, and then point it at the canon.
-#
-# I haven't even mentioned, which has been lingering, to pivot back to the ontology. We have
-# made no effort upon the exocortex. We've been trying to point the sources to the scaffold
-# meaning the insights gained here. What do we do we -inbox, -outbox, -sovereign, did we
-# decruft orchestration, praxis, and engine? When are we going to set up openclaw? Did our
-# bullshit memory architecture drift and did we delete all the ascertained ideal multi agent
-# config? Sear this everywhere, for everything this emergency needs to be a header and footer
-# from now on. Every output. Every dispatch. Zero trust."
-#
-# Content transformation: >0%. Atoms promoted: 8. DAG: 6/13 PARTIAL, 7/13 ANSWERED. C-009: ANSWERED.
-
 ---
 
 # Syncrescendence — Operational Law
@@ -202,6 +187,81 @@ Violation of this invariant is equivalent to the INT-2210 demolition: abandoning
 7. Sovereign says "Diviner landed" → Commander reads, creates Adjudicator prompt (`CC{N}-ADJ.md`)
 8. `ascertescence_relay.sh CC# send adjudicator` → Adjudicator (Codex Desktop App, NOT Codex CLI) writes response directly, overwrites the file. Sovereign drops in Commander inbox. (Last leg.)
 Handoffs and dropoffs are fused into the CC lineage chain. Index at `-INBOX/commander/00-INBOX0/INDEX-TRIANGULATION_RESPONSES.md`.
+
+---
+
+## Agent Prompting Formulas (SEARED — Sovereign Corrections CC46/CC41/CC32/CC55)
+
+**Authority**: Sovereign corrections across CC32, CC41, CC46, CC55. These are the TESTED formulas for getting high-quality output from each agent. Deviating from these produces generic, shallow, or hallucinated output.
+
+### Clustering Principle (CONSTITUTIONAL — ALL PROMPTS)
+
+Every dispatch involving corpus or file classification MUST include this verbatim:
+
+> Group files by **SEMANTIC TOPIC** — what they are ABOUT. Not by filename prefix. Not by file type. Not by source platform. Not by artifact role.
+> - Everything about Claude Code — tweets, configs, logs, manuals, our notes — is ONE cluster.
+> - Everything about OpenClaw — same.
+> - Everything about prompt engineering — same.
+> - The clusters are TOPICS, not file types.
+> - Nothing gets deleted.
+
+### Oracle (Grok 4.2) — Hypersensing + Industry Expertise
+
+**Cognitive function**: Multi-pass recursive traversal that surfaces what others miss, COMBINED WITH deep AI industry and developer tooling expertise. Scans, re-scans, detects hidden patterns across large corpora. Brings domain authority.
+
+**Formula requirements**:
+1. **Pre-digested context IN the prompt.** Do NOT make Grok paginate GitHub. Give it representative filenames, file paths, folder census. It should spend tokens reading, not navigating.
+2. **Named anchor files.** "Start by opening THESE files" — specific, real paths that force Grok into content. Not prescriptive (don't say what to find), but directional (say where to look).
+3. **Content proof requirement.** "Quote one sentence from each file to prove you read it." Mechanical check against hallucination — fabricated filenames can't produce real quotes.
+4. **Output pressure.** "Exhaust your output tokens." "Maximum length." Grok defaults to conciseness when given autonomy — the opposite of what we need.
+5. **Constrained enumeration questions.** Not "What's in this pile?" → "Identify 8-12 distinct sub-themes with 3 real filenames and a content quote for each."
+6. **Positive mandates over negative framing.** "DO read content and quote it" > "Do NOT pattern-match filenames."
+7. **Avatar context.** Oracle performs exponentially better with constellation identity context. Include it or summarize it.
+8. **High-fidelity context injection.** The more context about the project, corpus, and Sovereign intent — the better. Tabula rasa = failure. Go the OPPOSITE of tabula rasa.
+9. **Always sync the repo and link specific repo paths.** Oracle traverses via GitHub — push first, then link `https://github.com/truongphillipthanh/syncrescendence` with specific file paths.
+
+**Anti-patterns**: Stateless prompts (= hallucination). Vague questions (= generic answers). Negative framing without positive mandates (= confusion). Trusting Grok to navigate 10K+ files autonomously (= pagination failure + conciseness default).
+
+### Cartographer (Gemini Pro 3.1) — Hidden Connections + Survey & Map
+
+**Cognitive function**: Illuminates non-obvious cross-domain connections AND surveys the full terrain with maximum resolution and conciseness. Finds thematic threads spanning multiple clusters, affinity patterns, family resemblances that resist clean partition.
+
+**Formula requirements**:
+1. **Per-question cognitive launching pads.** Specific scientific frameworks as runways per question (Wittgenstein's family resemblance, Ashby's requisite variety, Signal Detection Theory, Marr's levels, etc.). These are **symmetry-breaking fields** — they collapse the possibility space from "synthesize anything" to "extend this precise analogy."
+2. **All-sciences palette.** Natural, formal, social, applied. Not biology-primary. Name the sciences.
+3. **Negative space hardening.** "If you find yourself wanting to list files or produce filename tables — STOP. That is Oracle's domain." Prevents Cartographer from doing reconnaissance instead of synthesis.
+4. **Survey comprehensively.** Cover ALL folders/clusters, not just the suspicious ones. Maximum resolution, conciseness. Score each.
+5. **Cross-folder connection mapping.** Explicit task: "For each folder, which OTHER folder has strongest thematic affinity? Evidence?"
+6. **Do NOT prescribe lenses.** Give launching pads and let Cartographer find its own spectrum. The launching pads ARE the prompt injection.
+7. **Always sync the repo and link specific repo paths.** Push first, then provide GitHub URL with specific folder paths.
+
+**Anti-patterns**: Stripping the formula / "simplifying" (= generic output every time). Prescribing what to find (= Commander projecting). Letting it list files instead of synthesize (= wasted capacity). Asking for depth without width (= incomplete survey).
+
+### Adjudicator (Codex GPT-5.3) — Meticulous Engineer + Methodical Width
+
+**Cognitive function**: Engineering precision, systematic verification, exhaustive enumeration. Methodical WIDTH across all targets, not just depth into a few. Quietly performs and delivers. No handwaving.
+
+**Formula requirements**:
+1. **Exhaustive enumeration.** "Every file you check gets a row. Count your rows — I will count them too." Specific row-count expectations.
+2. **Structured table output.** Specify exact table format. Adjudicator excels at filling tables methodically.
+3. **WIDTH mandate.** Scan ALL folders/targets, not just the top 5. Specify: "Do not skip any folder."
+4. **Evenly distributed sampling.** "Sample files at positions ~1, ~50, ~100, ~200..." Not just the first N.
+5. **Binary verdicts.** "CORRECT or MISPLACED (and where it should go)." No ambiguity, no "maybe."
+6. **Accuracy percentages.** Calculate per-section accuracy. Engineering metric.
+7. **No creative latitude.** Do not ask for synthesis, theories, or novel insights. Verification tasks only.
+8. **Always sync the repo and link specific repo paths.** Push first, provide GitHub URL, point to specific files.
+
+**Anti-patterns**: Asking for synthesis or creative work (= wrong tool). Depth without width (= incomplete audit). Vague instructions (= aspergerly interpretation). No row counts (= truncated output).
+
+### Universal Prompt Requirements (ALL AGENTS)
+
+Every dispatch prompt MUST include:
+1. **Repo link**: `https://github.com/truongphillipthanh/syncrescendence` (push first!)
+2. **Specific file paths** to key reference documents (e.g., `corpus/NUCLEOSYNTHESIS-MAP.md`)
+3. **Git HEAD hash** so the agent knows which state they're validating
+4. **Clustering principle** quoted verbatim if the task involves classification
+5. **Absolute prohibitions** relevant to the task (type-based clustering, deletions, etc.)
+6. **Constellation context** — who they are, what the project is, who the other agents are
 
 ---
 
