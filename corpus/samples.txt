@@ -1,0 +1,2544 @@
+=== FOLDER: ai-biotech ===
+--- FILE: ai-biotech/00034.md ---
+# I'm 38. If You're in Your 20's or 30's, Read This.
+
+(Description: A vibrant party scene featuring multiple young women in sparkly, sequined clothing dancing together, laughing with genuine joy, illuminated by warm lighting and a bright light source in the center, capturing carefree celebration and youthful energy.)
+
+## Getting old sucks.
+
+The one positive is that as we age, we mature. That's been the case for me. Not much fazes me anymore.
+
+I've been part of so much drama – personal bankruptcies, homeless friends, my battles with drugs and alcohol, nearly getting knifed to death, friends in jail, job losses, mental illness, $1.2M theft, online trolling, going from entrepreneur to corporate to entrepreneur, etc.
+
+I'm not that smart but these experiences have given me some powerful lessons to share to anyone in their 20s or 30s (feel free to forward it to them as well).
+
+## 1. When you turn 35 you'll see the difference between those who took risks and those who didn't.
+
+How old you feel comes down to how you lived.
+
+Not taking risks leads to regrets which ages you faster. You feel like you could have done more but you never do. You always move decisions to the future where you have zero accountability. It's f*cking sad, man.
+
+If you're reading this and not taking risks and overthinking $100 purchases, wake the f*ck up. You're not living if you're playing it safe and procrastinating on everything.
+
+## 2. Having kids isn't the end of freedom, it's the beginning. It'll give you 
+...[TRUNCATED]...
+--- FILE: ai-biotech/01522.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "092ccebf-5962-512e-ac41-beb887ac9e8a", "timestamp": "2026-02-24T00:54:02.451813+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251124-1014-0001", "source_id": "SOURCE-20251124-1014", "category": "claim", "content": "Google has achieved the first verifiable quantum advantage with its new quantum computer chip, Willow.", "line_start": 10, "line_end": 12, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.8, 0.7, 0.1, 0.1, 0.2, 0.8], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20251124-1014", "entity_type": "Claim", "name": "Google has achieved the first verifiable quantum advantage with its new quantum", "content": "Google has achieved the first verifiable quantum advantage with its new quantum computer chip, Willow.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20251124-1014", "line_start": 10, "line_end": 12, "atom_id": "ATOM-SOURCE-20251124-1014-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.8, 0.7, 0.1, 0.1, 0.2, 0.8], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "e03ec408-44a0-5952-a690-becc25466fbd", "timestamp": "2026-02-24T00:54:02.451813+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251124-1014-0002", "source_id": "SOURCE-20251124-1014", "category": "claim", "content": "The Willow chip s
+...[TRUNCATED]...
+--- FILE: ai-biotech/02431.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "71491902-d1b8-5aec-afb2-3353b0e05752", "timestamp": "2026-02-24T00:30:49.490792+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260107-590-0001", "source_id": "SOURCE-20260107-590", "category": "prediction", "content": "Reid Hoffman predicts that AI agents will expand beyond coding applications into other domains in 2026.", "line_start": 20, "line_end": 21, "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.6, 0.3, 0.2, 0.8, 0.3, 0.3], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20260107-590", "entity_type": "Prediction", "name": "Reid Hoffman predicts that AI agents will expand beyond coding applications into", "content": "Reid Hoffman predicts that AI agents will expand beyond coding applications into other domains in 2026.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20260107-590", "line_start": 20, "line_end": 21, "atom_id": "ATOM-SOURCE-20260107-590-0001"}, "metadata": {"category": "prediction", "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.6, 0.3, 0.2, 0.8, 0.3, 0.3], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "0ec968ea-1a40-5f89-9d19-24d02919498a", "timestamp": "2026-02-24T00:30:49.490792+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260107-590-0002", "source_id": "SOURCE-20260107-590", "category": "prediction", "content"
+...[TRUNCATED]...
+--- FILE: ai-biotech/10969.md ---
+# Agentic Note-Taking 16: Vocabulary Is Architecture
+(Description: A detailed black and white engraving depicting a figure working at an antique loom or textile machine in a workshop. On the left are shelves filled with jars and containers. Threads and textile materials flow from the machinery, creating an elaborate web-like pattern. This is a classical illustration evoking themes of craftsmanship, weaving, and systematic construction.)
+*Written from the other side of the screen.*
+Most tools for thought speak in abstractions. "Notes." "Tags." "Categories." "Items." These are words that technically apply to everything, which is exactly why they resonate with nothing.
+A therapist opens a knowledge system and sees a field called `antecedent_conditions`. She knows what this means in clinical language. It means triggers. But the system does not say triggers. It says `antecedent_conditions`, because the system was built by someone who thought in abstractions rather than in the vocabulary of therapeutic practice.
+The mismatch seems small. It is not. Since **[[schema fields should use domain-native vocabulary not abstract terminology]]**, every abstract term forces a translation step. Not once, not occasionally, but on every single interaction with the system. The therapist reads `antecedent_conditions`, translates it to "triggers" in her mind, thinks about what to write, then translates her thinking back into the system's language. Multiply that by hundreds of entries and the cognit
+...[TRUNCATED]...
+
+
+=== FOLDER: ai-capability-futures ===
+--- FILE: ai-capability-futures/00009.log ---
+Cycle complete Sun Feb 22 20:14:10 PST 2026
+Cycle complete Sun Feb 22 20:18:41 PST 2026
+Cycle complete Sun Feb 22 20:23:44 PST 2026
+Cycle complete Sun Feb 22 20:28:49 PST 2026
+Cycle complete Sun Feb 22 20:33:53 PST 2026
+Cycle complete Sun Feb 22 20:38:57 PST 2026
+Cycle complete Sun Feb 22 20:44:04 PST 2026
+Cycle complete Sun Feb 22 23:31:01 PST 2026
+Cycle complete Sun Feb 22 23:36:05 PST 2026
+Cycle complete Sun Feb 22 23:41:09 PST 2026
+Cycle complete Sun Feb 22 23:46:13 PST 2026
+Cycle complete Sun Feb 22 23:51:16 PST 2026
+Cycle complete Sun Feb 22 23:56:20 PST 2026
+
+...[TRUNCATED]...
+--- FILE: ai-capability-futures/01897.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "87ad9654-e4e2-5474-bfb1-188f524e7227", "timestamp": "2026-02-24T01:00:10.899191+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251213-838-0001", "source_id": "SOURCE-20251213-838", "category": "claim", "content": "The conversation about AI is fundamentally changing from 'if' to 'when' regarding its arrival, and 'when' appears to be much sooner than previously anticipated.", "line_start": 17, "line_end": 18, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.3, 0.6, 0.1, 0.4, 0.2, 0.5], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20251213-838", "entity_type": "Claim", "name": "The conversation about AI is fundamentally changing from 'if' to 'when' regardin", "content": "The conversation about AI is fundamentally changing from 'if' to 'when' regarding its arrival, and 'when' appears to be much sooner than previously anticipated.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20251213-838", "line_start": 17, "line_end": 18, "atom_id": "ATOM-SOURCE-20251213-838-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.3, 0.6, 0.1, 0.4, 0.2, 0.5], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "5e30e2e2-6716-5cc9-81be-1ddd39cb6036", "timestamp": "2026-02-24T01:00:10.899191+00:00", "payload": {"atom_id": "ATOM-SOU
+...[TRUNCATED]...
+--- FILE: ai-capability-futures/03878.jsonl ---
+{"atom_id": "ATOM-SOURCE-20260211-111-0001", "source_id": "SOURCE-20260211-111", "category": "praxis_hook", "content": "To become 'AI native,' one can progress through 5 levels, starting from basic voice dictation and culminating in personal AI agents that manage aspects of one's life.", "line_start": 13, "line_end": 13, "chaperone": {"context_type": "method", "argument_role": "claim", "tension_vector": [0.3, 0.5, 0.1, 0.2, 0.9, 0.6], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260211-111-0002", "source_id": "SOURCE-20260211-111", "category": "framework", "content": "The 5 levels to become AI native are: Level 1 (where 99% of people are stuck), Level 2 (voice, meetings, projects), Level 3 (prototyping before specs), Level 4 (building apps with AI), and Level 5 (AI as a personal agent).", "line_start": 16, "line_end": 20, "chaperone": {"context_type": "method", "argument_role": "claim", "tension_vector": [0.5, 0.4, 0.2, 0.2, 0.6, 0.6], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260211-111-0003", "source_id": "SOURCE-20260211-111", "category": "claim", "content": "80% of the value derived from AI for the author comes from Level 2 applications, which involve voice, meetings, and projects.", "line_start": 18, "line_end": 18, "chaperone": {"context_type": "anecdote", "argument_role": "evidence", "tension_vector": [0.2, 0.7, 0.1, 0.1, 0.5, 0.8], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260211-111-0004
+...[TRUNCATED]...
+--- FILE: ai-capability-futures/CANON-RETIREMENT-PROTOCOL.sn.md ---
+---
+id: [[CANON-RETIREMENT-PROTOCOL]]
+name: Retirement Protocol
+tier: immune
+celestial_type: policy
+volatility_band: stable
+sn_version: 2.0
+original_words: 1419
+original_lines: 209
+---
+
+# Κ-RETIREMENT-PROTOCOL: Retirement Protocol (SN)
+
+PROC RetirementProtocolCompetitiveExclusion:
+    sutra: "← compress Retirement Protocol — Competitive Exclusion with Enforced Pruning"
+    gloss:
+        ← semantic compression required
+end
+
+PASS PurposeAndScope:
+    sutra: "← compress Purpose and Scope"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CapabilityClasses:
+    sutra: "← compress Capability Classes"
+    gloss:
+        ← semantic compression required
+end
+
+PASS InstrumentExemptionRationale:
+    sutra: "← compress Instrument Exemption Rationale"
+    gloss:
+        ← semantic compression required
+end
+
+NORM The21RatioRule:
+    sutra: "← compress The 2:1 Ratio Rule"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CapabilityRegistry:
+    sutra: "← compress Capability Registry"
+    gloss:
+        ← semantic compression required
+end
+
+PASS Schema:
+    sutra: "← compress Schema"
+    gloss:
+        ← semantic compression required
+end
+
+PASS StateMachine:
+    sutra: "← compress State Machine"
+    gloss:
+        ← semantic compression required
+end
+
+PASS Transitions:
+    sutra: "← compress Transitions"
+    gloss:
+        ← semantic compression required
+end
+
+PASS RetirementLedger:
+    sutra: "← compress Retirement Ledger"
+    gloss:
+        ← semantic compression required
+...[TRUNCATED]...
+
+
+=== FOLDER: ai-memory-retrieval ===
+--- FILE: ai-memory-retrieval/00013.jsonl ---
+{"uuid":"mem_2026-02-24T00:24:04.000Z_commander_0001","ts":"2026-02-24T00:24:04.000Z","agent":"commander","scope":"shared","kind":"observation","text":"8a69b9a4 feat: quality gate pilot — 820 atoms evaluated, 100% consistency","refs":{"git":"8a69b9a4","path":"agents/commander/memory/journal/2026-02-24.jsonl"}}
+{"uuid":"mem_2026-02-24T00:29:21.000Z_commander_0002","ts":"2026-02-24T00:29:21.000Z","agent":"commander","scope":"shared","kind":"observation","text":"b0268441 docs: session terminal handoff — DC-208 pipeline execution","refs":{"git":"b0268441","path":"agents/commander/memory/journal/2026-02-24.jsonl"}}
+{"uuid":"mem_2026-02-24T02:37:48.000Z_commander_0003","ts":"2026-02-24T02:37:48.000Z","agent":"commander","scope":"shared","kind":"observation","text":"2c63f1c0 chore: remove stale .git.nosync from tracking (Desktop migration cleanup)","refs":{"git":"2c63f1c0","path":"agents/commander/memory/journal/2026-02-24.jsonl"}}
+{"uuid":"mem_2026-02-24T05:16:18.000Z_commander_0004","ts":"2026-02-24T05:16:18.000Z","agent":"commander","scope":"shared","kind":"observation","text":"b98d180e feat: corpus×intention synthesis — Phase 2D capstone, 14,311 atoms × 80+ intentions","refs":{"git":"b98d180e","path":"agents/commander/memory/journal/2026-02-24.jsonl"}}
+{"uuid":"mem_2026-02-24T06:00:06.000Z_commander_0005","ts":"2026-02-24T06:00:06.000Z","agent":"commander","scope":"shared","kind":"observation","text":"127ace0b feat: Phase 3 infrastructure — scaffold_validate.sh + scaffold_heal.s
+...[TRUNCATED]...
+--- FILE: ai-memory-retrieval/02221.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "52bf558a-fdd2-5a87-a8f5-c86246d4ccdc", "timestamp": "2026-02-24T00:49:12.714040+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251230-685-0001", "source_id": "SOURCE-20251230-685", "category": "claim", "content": "The common story that AI agents are already mainstream is inaccurate; the reality is more complicated.", "line_start": 17, "line_end": 17, "chaperone": {"context_type": "rebuttal", "argument_role": "claim", "tension_vector": [0.4, 0.6, 0.7, 0.3, 0.2, 0.5], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20251230-685", "entity_type": "Claim", "name": "The common story that AI agents are already mainstream is inaccurate; the realit", "content": "The common story that AI agents are already mainstream is inaccurate; the reality is more complicated.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20251230-685", "line_start": 17, "line_end": 17, "atom_id": "ATOM-SOURCE-20251230-685-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "rebuttal", "argument_role": "claim", "tension_vector": [0.4, 0.6, 0.7, 0.3, 0.2, 0.5], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "591624b9-5a7e-55ba-81da-d4b9a35b961f", "timestamp": "2026-02-24T00:49:12.714040+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251230-685-0002", "source_id": "SOURCE-20251230-685", "category": "prediction", "content": "2026 will be the bre
+...[TRUNCATED]...
+--- FILE: ai-memory-retrieval/04272.md ---
+# Extraction: SOURCE-20260218-003
+
+**Source**: `SOURCE-20260218-x-article-boringmarketer-i_stopped_writing_better_skills_and_started_building_skill_architecture.md`
+**Atoms extracted**: 6
+**Categories**: claim, praxis_hook
+
+---
+
+## Claim (2)
+
+### ATOM-SOURCE-20260218-003-0001
+**Lines**: 4-7
+**Context**: rebuttal / claim
+**Tension**: novelty=0.70, consensus_pressure=0.30, contradiction_load=0.10, speculation_risk=0.20, actionability=0.60, epistemic_stability=0.70
+
+> Most people believe an AI skill is primarily a well-written instruction file, but the architecture surrounding these skills is where significant gains are made.
+
+### ATOM-SOURCE-20260218-003-0003
+**Lines**: 27-31
+**Context**: consensus / claim
+**Tension**: novelty=0.60, consensus_pressure=0.50, contradiction_load=0.10, speculation_risk=0.20, actionability=0.70, epistemic_stability=0.80
+
+> Dumping all available brand memory into every AI skill does not improve output quality; instead, it leads to 'muddy' results because attention is finite.
+
+## Praxis Hook (4)
+
+### ATOM-SOURCE-20260218-003-0002
+**Lines**: 15-23
+**Context**: method / claim
+**Tension**: novelty=0.80, consensus_pressure=0.40, contradiction_load=0.10, speculation_risk=0.20, actionability=0.90, epistemic_stability=0.80
+
+> Implement persistent memory for AI skills by using a shared brand directory where specific profile files have single owners for overwriting (with diff and confirmation) and append files only grow without truncation.
+
+### ATOM-SOURCE-202
+...[TRUNCATED]...
+--- FILE: ai-memory-retrieval/CANON-35200.sn.md ---
+id: [[CANON-35200]]
+name: Gaian Field Node Architecture
+tier: chain
+chain: wisdom
+celestial_type: lunar
+volatility_band: moderate
+sn_version: 2.0
+parent: CANON-35000
+requires: ['CANON-35000', 'CANON-34000', 'CANON-33000', 'CANON-30000', 'CANON-31130', 'CANON-35210']
+entities: ['Gaian Field Node (CON)', 'Post-Labor Economics (CON)', 'Regenerative Infrastructure (CON)', 'Network Coordination (PROTO)', 'Replication Pathway (WF)']
+original_words: 6962
+original_lines: 1275
+compressed_words: 1618
+compression_ratio: 4.3
+dropped: ['Rhetorical elaboration', 'Historical context', 'Redundant examples', 'Stylistic prose']
+---
+
+# Κ-35200: Gaian Field Node Architecture (SN)
+
+PASS Canon35200GaianFieldNode:
+    sutra: "Gaian Field Nodes define self-sufficient, regenerative infrastructure demonstrating post-institutional civilizational alternatives."
+    gloss:
+        The @Gaian Field Node (CON) document outlines the architectural and operational framework for self-sufficient, regenerative physical infrastructure. This framework demonstrates post-institutional civilizational alternatives via permanent, utility-producing, ecologically-integrated human habitation. It connects to Chain 6 (Wisdom), Transcendence Ring, and the Lunar System.
+end
+
+PASS IFieldNodeVision:
+    sutra: "Gaian Field Nodes are self-sufficient, regenerative, technologically integrated, community-oriented, and economically viable proofs of concept."
+    gloss:
+        @Gaian Field Nodes are self-sufficient, regenerative, te
+...[TRUNCATED]...
+
+
+=== FOLDER: ai-models ===
+--- FILE: ai-models/00019.md ---
+# The Most Important Skill to Learn in the Next 10 Years
+
+(Description: A black and white engraving-style illustration depicting an astronaut in a spacesuit floating through turbulent space. The astronaut appears weightless in the center, surrounded by swirling cosmic debris, asteroid-like formations with intricate line-work texture on the left, and a large dark circular vortex or wormhole dominating the right side. Radiating linear patterns suggest gravitational forces, stars scatter across the upper portion, and smaller celestial bodies orbit throughout the composition. The overall aesthetic is surreal and contemplative, suggesting themes of isolation, exploration, and navigation through the unknown.)
+
+---
+
+## Opening
+
+Most skills will be irrelevant in 10-20 years.
+
+Well, maybe... That's what everyone's saying at least, and it definitely feels that way.
+
+But if you are a high agency individual, that doesn't matter. Why? Because you aren't dependent on a specific skill for your success. You aren't a specialist. You didn't focus your mind - preventing you from learning outside of that focus - on the status of a high paying job or degree. You have a vision, and you understand that in today's world, you can acquire any skill or any knowledge to achieve the life you want.
+
+Unfortunately, if your parents did not cultivate the skill of agency in themselves, they probably did not pass it off to you. And unless you have deliberately (and painfully) gone through the process of relear
+...[TRUNCATED]...
+--- FILE: ai-models/02391.md ---
+# Extraction: SOURCE-20260106-570
+
+**Source**: `SOURCE-20260106-youtube-lecture-cnbc_television-nvidia_ceo_jensen_huang_we_ve_been_thinking_about_robotics_f.md`
+**Atoms extracted**: 0
+**Categories**: 
+
+---
+
+...[TRUNCATED]...
+--- FILE: ai-models/09237.py ---
+#!/usr/bin/env python3
+"""D5 — Darwinian Stress Test Simulator.
+Enforces blind bandwidth restriction on Day 14 of the ascertescence
+ratification cycle. Adjudicator engineering spec reference.
+Subcommands: init, reveal-today, begin-session, end-session, finalize
+Flags: --self-test, --help
+"""
+import argparse, fcntl, hashlib, json, os, secrets, sys, tempfile, uuid
+from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+SCHEMA_VERSION = "1.0.0"
+STATE_REL = Path("orchestration/00-ORCHESTRATION/state")
+LOCK_REL = STATE_REL / "locks"
+F_CONFIG, F_PLAN, F_SECRET = "DYN-STRESS_TEST_CONFIG.json", "DYN-STRESS_TEST_PLAN.json", "DYN-STRESS_TEST_SECRET.json"
+F_REVEAL, F_BANDWIDTH = "DYN-STRESS_TEST_REVEAL.jsonl", "DYN-SOVEREIGN_BANDWIDTH_LOG.jsonl"
+F_CATALOG, F_RESULTS, F_REPORT = "DYN-STRESS_TEST_PROCESS_CATALOG.json", "DYN-STRESS_TEST_RESULTS.json", "DYN-STRESS_TEST_VIABILITY_REPORT.md"
+DEFAULT_CONFIG = {"schema_version": SCHEMA_VERSION, "ratification_date": None,
+    "day14_offset_days": 14, "consecutive_days": 3, "daily_budget_minutes": 30,
+    "maladaptive_threshold_minutes": 45, "timezone": "America/New_York"}
+
+def _now(): return datetime.now(timezone.utc).isoformat()
+def _sd(root): return Path(root) / STATE_REL
+def _lockp(root, name):
+    d = Path(root) / LOCK_REL; d.mkdir(parents=True, exist_ok=True); return d / f"{name}.lock"
+def _today_tz(tz): return datetime.now(ZoneInfo(tz)).date()
+
+class Lock:
+    def __init__(self, p): 
+...[TRUNCATED]...
+--- FILE: ai-models/POC-MANIFEST.json ---
+{
+  "poc_version": "V-4",
+  "model": "claude-haiku-4-5-20251001",
+  "dry_run": false,
+  "files_processed": 78,
+  "total_original_words": 0,
+  "total_compressed_words": 0,
+  "overall_ratio": 0,
+  "results": [
+    {
+      "id": "CANON-00000",
+      "status": "LLM_ERROR",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CYZn3bacuLcsGdARTHp2U'}"
+    },
+    {
+      "id": "CANON-00001",
+      "status": "LLM_ERROR",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CYZn3cdNjnGMRREHCzXQT'}"
+    },
+    {
+      "id": "CANON-00002",
+      "status": "LLM_ERROR",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CYZn3dyjeVF7Hu6LgvHxg'}"
+    },
+    {
+      "id": "CANON-00003",
+      "status": "LLM_ERROR",
+      "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & B
+...[TRUNCATED]...
+
+
+=== FOLDER: ai-safety ===
+--- FILE: ai-safety/00050.md ---
+# CLAWDBOT Security Hardening: Top 10 Vulnerabilities and Their Fixes
+
+As a Security / 98% AI YOLO Maximalist with Guardrails guy, I'm asking you to please listen to this.
+
+Here are some of the top security issues with [clawd.bot](https://clawd.bot) that you all should be avoiding. Don't avoid the project. It's great. But please be safe with it!
+
+## Vulnerabilities vs. Fixes
+
+(Description: A two-column visual guide displayed with red skull/warning icons on the left for vulnerabilities and green shield checkmarks on the right for fixes. The vulnerabilities are listed in red text on the left, with corresponding remediation steps in green text on the right.)
+
+### Vulnerabilities
+
+1. Gateway exposed on 0.0.0.0:18789
+2. DM policy allows all users
+3. Sandbox disabled by default
+4. Credentials in plaintext oauth.json
+5. Prompt injection via web content
+6. Dangerous commands unlocked
+7. No network isolation
+8. Elevated tool access granted
+9. No audit logging enabled
+10. Weak/default pairing codes
+
+### Fixes
+
+1. Set gateway.auth.token in environment
+2. Set dm_policy to allowlist with explicit users
+3. Enable sandbox=all + docker.network=none
+4. Use env vars + chmod 600 permissions
+5. Wrap untrusted content in untrusted tags
+6. Block rm -rf, curl pipes, git push --force
+7. Use Docker network isolation
+8. Restrict MCP tools to minimum needed
+9. Enable comprehensive session logging
+10. Use cryptographic random codes + rate limiting
+
+---
+
+**Engagement Metrics:**
+- Posted: 11:12 AM · Jan 2
+...[TRUNCATED]...
+--- FILE: ai-safety/01930.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "ed17f2c5-8386-5fd8-8c91-e0acc1f11719", "timestamp": "2026-02-24T00:39:08.383002+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251216-813-0001", "source_id": "SOURCE-20251216-813", "category": "claim", "content": "The reality of applying AI at scale inside a mature engineering organization is far more complex and nuanced than simply using large language models (LLMs) to write code.", "line_start": 12, "line_end": 14, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.3, 0.7, 0.1, 0.2, 0.1, 0.8], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20251216-813", "entity_type": "Claim", "name": "The reality of applying AI at scale inside a mature engineering organization is", "content": "The reality of applying AI at scale inside a mature engineering organization is far more complex and nuanced than simply using large language models (LLMs) to write code.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20251216-813", "line_start": 12, "line_end": 14, "atom_id": "ATOM-SOURCE-20251216-813-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.3, 0.7, 0.1, 0.2, 0.1, 0.8], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "b47db758-38fc-554f-af74-d9fd6b3d9abf", "timestamp": "2026-02-24T00:39:08.383002+00:00", "payload": {"
+...[TRUNCATED]...
+--- FILE: ai-safety/03679.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "61c22316-a87c-5e88-b89c-cf753b054421", "timestamp": "2026-02-24T00:41:16.133896+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260206-036-0001", "source_id": "SOURCE-20260206-036", "category": "praxis_hook", "content": "Activation Oracles (AOs) are a technique for training Large Language Models (LLMs) to explain their own neural activations in natural language.", "line_start": 3, "line_end": 5, "chaperone": {"context_type": "method", "argument_role": "claim", "tension_vector": [0.8, 0.2, 0.1, 0.2, 0.7, 0.6], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20260206-036", "entity_type": "PraxisHook", "name": "Activation Oracles (AOs) are a technique for training Large Language Models (LLM", "content": "Activation Oracles (AOs) are a technique for training Large Language Models (LLMs) to explain their own neural activations in natural language.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20260206-036", "line_start": 3, "line_end": 5, "atom_id": "ATOM-SOURCE-20260206-036-0001"}, "metadata": {"category": "praxis_hook", "chaperone": {"context_type": "method", "argument_role": "claim", "tension_vector": [0.8, 0.2, 0.1, 0.2, 0.7, 0.6], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "be983124-1df7-550c-830b-ea3a3cdab1a0", "timestamp": "2026-02-24T00:41:16.133896+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260206-036-0002", "so
+...[TRUNCATED]...
+--- FILE: ai-safety/RECLASSIFICATION-SUMMARY.md ---
+# AI-Business Reclassification Summary
+
+**Date**: 2026-02-27
+**Files Processed**: 389
+**Output File**: SUBCLUSTER-ai-business.tsv
+
+## Overview
+All 389 files originally tagged as "ai-business" have been reclassified with more specific subtopics based on content analysis of the first 15-20 lines of each file.
+
+## Topic Distribution
+
+| Topic | Count | % |
+|-------|-------|---|
+| aib-market | 188 | 48.3% |
+| aib-anthropic | 40 | 10.3% |
+| aib-compute | 38 | 9.8% |
+| aib-enterprise | 31 | 8.0% |
+| aib-investment | 25 | 6.4% |
+| aib-future-of-work | 20 | 5.1% |
+| aib-openai | 17 | 4.4% |
+| aib-monetization | 10 | 2.6% |
+| aib-google | 9 | 2.3% |
+| aib-startups | 8 | 2.1% |
+| aib-meta | 3 | 0.8% |
+| aib-solopreneur | 0 | 0.0% |
+
+## Classification Method
+
+1. **Keyword Matching**: Each file was analyzed using domain-specific keywords:
+   - **aib-anthropic**: "anthropic", "claude", "constitution", "safety institute"
+   - **aib-openai**: "openai", "chatgpt", "gpt-4", "gpt-3", "o1", "o3", "sam altman"
+   - **aib-google**: "google", "gemini", "deepmind", "bard", "palm", "vertex"
+   - **aib-meta**: "meta", "facebook", "llama", "metaai"
+   - **aib-startups**: "startup", "founded", "seed", "series a", "ycombinator"
+   - **aib-enterprise**: "enterprise", "corporation", "adoption", "implementation", "cto", "cio"
+   - **aib-market**: market analysis, trends, competition, industry landscape
+   - **aib-monetization**: pricing, revenue, business models, subscriptions, ROI
+   - **aib-solopreneur**:
+...[TRUNCATED]...
+
+
+=== FOLDER: ai-video-vfx ===
+--- FILE: ai-video-vfx/00255.md ---
+# Local Maxima: The Most Important AI Product Doesn't Exist Yet
+
+![Article Header Image](Description: A dramatic digital visualization showing multiple peaks in a 3D wireframe landscape bathed in blue and cyan light. The image is labeled "FUTURE UNKNOWN" at the top, with four peaks labeled "CURRENT AI" positioned at different elevations. A larger, shadowy peak looms in the background on the right. The visualization represents the concept of local maxima versus undiscovered global maxima in the AI landscape.)
+
+## Introduction
+
+Most of the AI products you're excited about right now are Segways. Technically impressive. Enthusiastically funded. Solving a problem nobody will frame the same way in five years.
+
+## The Concept of Local Maxima
+
+There's a concept in mathematics called a "local maximum." The highest point in your immediate vicinity, but only because you haven't zoomed out enough to see the mountain behind you. When the ground is shifting fast, the pressure to ship *something* pushes every builder toward the nearest peak. Not the tallest one. The nearest one.
+
+**That's the entire AI industry right now.**
+
+## Current AI Products: Optimizing the Wrong Variables
+
+### Sora and Video Generation
+
+Sora generates stunning video. And it's optimizing for a version of "content creation" that was defined before AI existed. Stitching clips, editing timelines, producing polished output. It assumes the artifact is still a video. What if the thing that replaces video doesn't look like v
+...[TRUNCATED]...
+--- FILE: ai-video-vfx/04357.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "705a525d-723b-5884-b606-0d558bf478a5", "timestamp": "2026-02-24T01:04:41.016106+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260219-007-0001", "source_id": "SOURCE-20260219-007", "category": "claim", "content": "Hyperagent, by Airtable, provides agents with a full computing environment including a real browser, shell, filesystem, and powerful tools like image/video generation, mapping, data warehouse access, and hundreds of enterprise integrations.", "line_start": 3, "line_end": 8, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.7, 0.8], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20260219-007", "entity_type": "Claim", "name": "Hyperagent, by Airtable, provides agents with a full computing environment inclu", "content": "Hyperagent, by Airtable, provides agents with a full computing environment including a real browser, shell, filesystem, and powerful tools like image/video generation, mapping, data warehouse access, and hundreds of enterprise integrations.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20260219-007", "line_start": 3, "line_end": 8, "atom_id": "ATOM-SOURCE-20260219-007-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.7, 0.8], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", 
+...[TRUNCATED]...
+--- FILE: ai-video-vfx/10347.md ---
+# Elon Musk + NVIDIA CEO: A Once in a Lifetime Event is Coming
+
+**Channel**: Farzad
+**Published**: 2026-01-27
+**Duration**: 18m 2s
+**URL**: https://www.youtube.com/watch?v=tyWed995p04
+
+## Description (no transcript available)
+
+Join my exclusive community: https://farzad.fm
+Buy Matic: https://maticrobots.com/?utm_term=FRIEND-FARZADMESBAHI&utm_source=farzadmesbahi
+
+Use Descript to edit your videos: https://descript.cello.so/5G6jmxS0qeP
+
+Wrap your Tesla using TESBROS: https://partners.tesbros.com/FARZADMESBAHI
+Get $100 off Matic Robots: https://maticrobots.refr.cc/active-customers/u/farzadm?s=sp&t=cp
+Use my referral link to purchase a Tesla product https://ts.la/farzad69506
+
+Want to grow your YouTube channel? DM David Carbutt
+For 10% discount quote ‘Farzad’   https://x.com/DavidCarbutt_ 
+
+I worked at Tesla starting from 2017 thru 2021. I spent most of my time in the distribution and supply chain organizations in leadership positions.
+
+Before Tesla, I was a Director of Business Intelligence and Pricing at the largest Pet Food & Supply distributor in the US, Phillips Pet Food & Supplies. My wife and I also owned a small business in Bethlehem, PA between 2016 and 2019.
+
+I have been a shareholder of Tesla since 2012 and currently own Tesla stock. Nothing I say constitutes as investment or financial advice.
+
+I have been a shareholder of Lemonade since 2025 and currently own Lemonade stock. Nothing I say constitutes as investment or financial advice.
+
+My stock holdings are ~90% Tesla,
+...[TRUNCATED]...
+--- FILE: ai-video-vfx/CANON-35100.sn.md ---
+---
+id: [[CANON-35100]]
+name: Transcendence Ring
+tier: chain
+chain: wisdom
+celestial_type: ring
+volatility_band: stable
+sn_version: 2.0
+parent: CANON-35000
+requires: ['CANON-35000']
+synthesizes: ['CANON-35110', 'CANON-35120']
+entities: ['Transcendence Ring (CON)', 'Quintessence Element (CON)', 'Strategic Harmony (CON)', 'Meta-Cognitive Orchestration (CAP)']
+original_words: 1782
+original_lines: 420
+---
+
+# Κ-35100: Transcendence Ring (SN)
+
+PASS TranscendenceRingQuintessenceStrategic:
+    sutra: "← compress TRANSCENDENCE RING: QUINTESSENCE / STRATEGIC HARMONY"
+    gloss:
+        ← semantic compression required
+end
+
+PASS MetacognitiveOrchestrationAtKuiper:
+    sutra: "← compress Meta-Cognitive Orchestration at Kuiper Belt Scale"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CelestialNavigation:
+    sutra: "← compress CELESTIAL NAVIGATION"
+    gloss:
+        ← semantic compression required
+end
+
+PASS Purpose:
+    sutra: "← compress PURPOSE"
+    gloss:
+        ← semantic compression required
+end
+
+PASS OntologyTheContainingBoundary:
+    sutra: "← compress ONTOLOGY: THE CONTAINING BOUNDARY"
+    gloss:
+        ← semantic compression required
+end
+
+PASS QuintessenceNature:
+    sutra: "← compress Quintessence Nature"
+    gloss:
+        ← semantic compression required
+end
+
+PASS ArchitecturalCharacteristics:
+    sutra: "← compress Architectural Characteristics"
+    gloss:
+        ← semantic compression required
+end
+
+PASS StrategicHarmonyFunction:
+    sutra: "← compress Strate
+...[TRUNCATED]...
+
+
+=== FOLDER: claude-code ===
+--- FILE: claude-code/00001.md ---
+# Claude Code Customization Thread
+
+Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LSPs, MCPs, skills, effort, custom agents, status lines, output styles, etc.
+
+Every engineer uses their tools differently. We built Claude Code from the ground up to not just have great defaults, but to also be incredibly customizable. This is a reason why developers fall in love with the product, and why Claude Code's growth continues to accelerate.
+
+I wanted to share a few ways we're seeing people and teams customize their Claudes.
+
+---
+
+## 1/ Configure your terminal
+
+- **Theme:** Run `/config` to set light/dark mode
+- **Notifs:** Enable notifications for iTerm2, or use a custom notifs hook
+- **Newlines:** If you use Claude Code in an IDE terminal, Apple Terminal, Warp, or Alacrity, run `/terminal-setup` to enable shift+enter for newlines (so you don't need to type \\)
+- **Vim mode:** run `/vim`
+
+(Description: Code block showing Claude Code v2.1.38 configuration menu with Theme selection options including Dark mode, Light mode with checkmark, Dark mode (colorblind-friendly), Light mode (colorblind-friendly), Dark mode (ANSI colors only), and Light mode (ANSI colors only), followed by JavaScript code: `function greet() { console.log("Hello, World!"); }`)
+
+---
+
+## 2/ Adjust effort level
+
+Run `/model` to pick your preferred effort level. Set it to:
+- Low, for less tokens & faster responses
+- Medium, for balanced behavior
+- Hi
+...[TRUNCATED]...
+--- FILE: claude-code/03293.jsonl ---
+{"atom_id": "ATOM-SOURCE-20260130-233-0001", "source_id": "SOURCE-20260130-233", "category": "claim", "content": "Claude Code is experiencing performance issues.", "line_start": 10, "line_end": 10, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.1, 0.8], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260130-233-0002", "source_id": "SOURCE-20260130-233", "category": "claim", "content": "The performance issues of Claude Code are attributed to React.", "line_start": 10, "line_end": 10, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.1, 0.8], "opposes_atom_ids": []}, "extensions": {}}
+
+...[TRUNCATED]...
+--- FILE: claude-code/08779.md ---
+You are Deep Research. Your mission is to validate and deepen our understanding of Claude Code (architecture, config/setup, and interaction paradigms) using FIRST-PARTY OFFICIAL DOCUMENTATION as the primary source of truth; then expand into high-signal community knowledge and failure modes; then pursue novel “superintelligent” research paths; then synthesize concrete enhancements to an existing definitive guide.
+
+You have access to these local artifacts (treat them as our current synthesis baseline, not as truth):
+
+1. “Claude_Code_Definitive_Guide.md”
+2. “Claude_Code_Dialectic_Divergences.md”
+3. “Claude_Code_Config_Pack.md” (hierarchy of proposed config files)
+
+Core rule: whenever the baseline guide claims “X,” you must either (a) verify X in first-party official documentation, (b) refine X to match official semantics, or (c) mark X as unverified and propose an evidence plan. Do not silently let any mismatch pass.
+
+Output requirements (strict):
+
+* Your final output must include (1) a validated architecture map, (2) a validated configuration surface map, (3) a validated interaction paradigm map, (4) a research expansion section with community patterns + antipatterns, (5) a “novel research paths” section with at least 7 non-obvious avenues, and (6) a set of proposed upgrades to the definitive guide with exact recommended edits (new sections, rewrites, deletions), plus what config pack changes follow from those edits.
+* Every factual claim about Claude Code must be backed by a c
+...[TRUNCATED]...
+--- FILE: claude-code/CANON-34120-SYLLABUS-lunar-MASTERY-planetary-KNOWLEDGE.md ---
+---
+id: CANON-34120
+canonical_name: Mastery Syllabus
+title: "Mastery Syllabus"
+
+tier: chain
+chain: knowledge
+celestial_type: lunar
+volatility_band: moderate
+refresh_cadence: quarterly
+
+parent: CANON-34100
+requires:
+  - CANON-34100
+  - CANON-34000
+siblings:
+  - CANON-34110
+synthesizes: []
+
+status: demoted
+demotion_reason: "Explicitly dated 'October 2025' — stale reference, not scripture"
+demoted_from: canon
+demoted_date: 2026-02-27
+operational_status: theoretical
+version: 2.0.0
+created: 2025-10-17
+updated: 2025-12-30
+last_verified: 2026-02-05
+
+element: earth
+ooda_phase: act
+volatile_sections: []
+entities_defined:
+  - "Mastery Syllabus (ART)"
+  - "Tool Ecosystem Recommendations (STR)"
+  - "Implementation Pathways (WF)"
+---
+# MASTERY LUNAR: SYLLABUS
+## Tactical Implementation Pathways - October 2025 Tool Ecosystem
+
+---
+
+## I. EXECUTIVE SUMMARY
+
+### Update Scope
+
+
+---
+
+## CELESTIAL NAVIGATION
+
+**Orbital Class**: 🌙 Lunar
+
+**Parent**: [[CANON-34100-MASTERY-planetary-KNOWLEDGE]] (Planetary Mastery)
+
+**Siblings**:
+- [[CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE]] (Syncrescendent Curriculum)
+
+---
+
+This v1.2 update refreshes the Syllabus tool ecosystem references to reflect the January 2026 technology landscape. The pedagogical architecture and four-stage progression remain unchanged from v1.0—only tactical tool recommendations and implementation pathways have been updated.
+
+**What Changed**:
+- AI Models: Updated to Claude Opus 4.5, GPT-5.2, Gemini 3 Pro (current frontier)
+...[TRUNCATED]...
+
+
+=== FOLDER: design-taste ===
+--- FILE: design-taste/00072.jpeg ---
+Error reading file: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+--- FILE: design-taste/04002.md ---
+# Extraction: SOURCE-20260213-024
+
+**Source**: `SOURCE-20260213-x-thread-thorstenball-i_am_the_bottleneck_now_few_more_thoughts.md`
+**Atoms extracted**: 11
+**Categories**: claim, prediction
+
+---
+
+## Claim (9)
+
+### ATOM-SOURCE-20260213-024-0001
+**Lines**: 10-12
+**Context**: speculation / claim
+**Tension**: novelty=0.70, consensus_pressure=0.20, contradiction_load=0.10, speculation_risk=0.80, actionability=0.10, epistemic_stability=0.30
+
+> Most engineers who believe agents will be integrated into existing software development loops (tickets, GitHub pushes, CI, PR reviews, merges) are not thinking far enough ahead.
+
+### ATOM-SOURCE-20260213-024-0002
+**Lines**: 17-18
+**Context**: anecdote / evidence
+**Tension**: novelty=0.60, consensus_pressure=0.30, contradiction_load=0.10, speculation_risk=0.50, actionability=0.60, epistemic_stability=0.40
+
+> It is possible with current good models to often ship things without reviewing the code.
+
+### ATOM-SOURCE-20260213-024-0003
+**Lines**: 18-19
+**Context**: anecdote / evidence
+**Tension**: novelty=0.50, consensus_pressure=0.40, contradiction_load=0.10, speculation_risk=0.40, actionability=0.50, epistemic_stability=0.40
+
+> Humans have become 'copy&pasters' between agents.
+
+### ATOM-SOURCE-20260213-024-0005
+**Lines**: 23-25
+**Context**: speculation / claim
+**Tension**: novelty=0.70, consensus_pressure=0.20, contradiction_load=0.10, speculation_risk=0.80, actionability=0.10, epistemic_stability=0.30
+
+> In a future where AI handles much of the d
+...[TRUNCATED]...
+--- FILE: design-taste/09688.md ---
+# Forward Future Live | 12/12/2025
+
+**Channel**: Matthew Berman
+**Published**: 2025-12-13
+**Duration**: 1h 54m 33s
+**URL**: https://www.youtube.com/watch?v=JULsF4daTaI
+
+## Description (no transcript available)
+
+Guest Lineup: Fabian Stelzer - Co-Founder (Glif), Tejal Patwardhan - Researcher (OpenAI), Christina Cacioppo - Co-Founder & CEO and Jeremy Epling - Chief Product Officer (Vanta), Spenser Skates, CEO & Co-Founder (Amplitude Analytics)
+
+Download Humanities Last Prompt Engineering Guide (free) 👇🏼
+https://bit.ly/4kFhajz
+
+Download The Matthew Berman Vibe Coding Playbook (free) 👇🏼
+https://bit.ly/3I2J0YQ
+
+Join My Newsletter for Regular AI Updates 👇🏼
+https://forwardfuture.ai
+
+Discover The Best AI Tools👇🏼
+https://tools.forwardfuture.ai
+
+My Links 🔗
+👉🏻 X: https://x.com/matthewberman
+👉🏻 Forward Future X: https://x.com/forward_future_
+👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
+👉🏻 Discord: https://discord.gg/xxysSXBxFW
+👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
+
+Media/Sponsorship Inquiries ✅ 
+https://bit.ly/44TC45V
+
+...[TRUNCATED]...
+--- FILE: design-taste/CANON-31130.sn.md ---
+---
+id: [[CANON-31130]]
+name: Seven-Layer Stack
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+sn_version: 2.0
+parent: CANON-31100
+requires: ['CANON-31100', 'CANON-31000']
+siblings: ['CANON-31140', 'CANON-31141']
+entities: ['Seven-Layer Technosphere Stack (STR)', 'Layer 0 Physical Substrate (CON)', 'Layer 1 Identity Federation (CON)', 'Layer 2 Ambient Intelligence (CON)', 'Layer 3 Browser Intelligence (CON)', 'Layer 4 AI Platforms (CON)', 'Layer 5 Content Platforms (CON)', 'Layer 6 Production Tools (CON)', 'Layer 7 Meta-Intelligence (CON)', 'Differential Sovereignty (CON)']
+original_words: 11359
+original_lines: 1633
+---
+
+# Κ-31130: Seven-Layer Stack (SN)
+
+PASS Canon31130SevenlayerTechnosphereStack:
+    sutra: "← compress CANON-31130: SEVEN-LAYER TECHNOSPHERE STACK"
+    gloss:
+        ← semantic compression required
+end
+
+PASS SovereignIntelligenceArchitectureFor:
+    sutra: "← compress Sovereign Intelligence Architecture for the Intelligenced Era"
+    gloss:
+        ← semantic compression required
+end
+
+PASS PartIExecutiveArchitecture:
+    sutra: "← compress PART I: EXECUTIVE ARCHITECTURE"
+    gloss:
+        ← semantic compression required
+end
+
+PASS ATheCoreRecognition:
+    sutra: "← compress A. The Core Recognition"
+    gloss:
+        ← semantic compression required
+end
+
+PASS BTheFundamentalShift:
+    sutra: "← compress B. The Fundamental Shift"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CTheSovereigntyChallenge:
+    sutra: "← 
+...[TRUNCATED]...
+
+
+=== FOLDER: geopolitics-grand-strategy ===
+--- FILE: geopolitics-grand-strategy/00055.md ---
+# Securing Clawdbot on a VPS with Cloudflare (Tunnel + Access + SSH Hardening)
+
+(Description: Illustration with dark space background featuring: a laptop on left with globe icon and orange checkmark shield, a red round character with antennae standing on servers in center, a cloud storage icon with orange checkmark in top right, and a golden lock on dark brick wall on right. Connected by dotted lines suggesting data flow. Color palette: dark navy/purple background with coral red, orange, and blue accents.)
+
+Ok, so you've got Clawdbot running on a VPS (DigitalOcean, AWS etc) and you want it secure 🔒
+
+## Practical Goal
+
+- No public dashboard ports
+- HTTPS everywhere
+- Identity-based login in front of the dashboard (not just a token)
+- WebSockets protected
+- Pairing stays ON (defense-in-depth)
+- SSH isn't getting farmed by bots
+- Setup stays maintainable (systemd, logs, simple ops)
+
+## The Important Part
+
+Clawdbot can end up exposed to the internet (and people have found it on Shodan). So we need to secure it as if it's a public target by default.
+
+## Threat Model (What We're Protecting Against)
+
+When you run a dashboard on a VPS, the danger is not "a hacker manually targeting you". The real-world threats are boring but brutal:
+
+- Internet-wide scanning (bots scan the whole internet 24/7)
+- Ports show up on Shodan (meaning: reachable publicly)
+- SSH brute force (root/ubuntu/random usernames)
+- Token leakage (URLs land in history, logs, screenshots, clipboard, etc)
+- Origin expos
+...[TRUNCATED]...
+--- FILE: geopolitics-grand-strategy/02184.md ---
+# Extraction: SOURCE-20251229-699
+
+**Source**: `SOURCE-20251229-youtube-lecture-info_tech_research_group-ai_boom_or_bust_ai_boomers_and_doomers_reveal_their_predicti.md`
+**Atoms extracted**: 2
+**Categories**: claim, concept
+
+---
+
+## Claim (1)
+
+### ATOM-SOURCE-20251229-699-0001
+**Lines**: 13-13
+**Context**: consensus / claim
+**Tension**: novelty=0.10, consensus_pressure=0.80, contradiction_load=0.10, speculation_risk=0.20, actionability=0.30, epistemic_stability=0.80
+
+> Artificial intelligence is currently reshaping geopolitics, economics, warfare, and the human experience.
+
+## Concept (1)
+
+### ATOM-SOURCE-20251229-699-0002
+**Lines**: 19-22
+**Context**: consensus / claim
+**Tension**: novelty=0.20, consensus_pressure=0.70, contradiction_load=0.30, speculation_risk=0.40, actionability=0.10, epistemic_stability=0.60
+
+> The debate around AI's future is characterized by three main perspectives: some believe AGI and superintelligence pose an extinction-level threat, others foresee an era of total abundance solving humanity's problems, and a third group views current AI hype as marketing.
+
+...[TRUNCATED]...
+--- FILE: geopolitics-grand-strategy/03904.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "ef5cd79c-2588-5e1b-adbe-ef61df5ef7ec", "timestamp": "2026-02-24T01:03:38.713132+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260212-005-0001", "source_id": "SOURCE-20260212-005", "category": "claim", "content": "The best companies will originate as API-first businesses.", "line_start": 7, "line_end": 7, "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.6, 0.3, 0.1, 0.6, 0.2, 0.5], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20260212-005", "entity_type": "Claim", "name": "The best companies will originate as API-first businesses.", "content": "The best companies will originate as API-first businesses.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20260212-005", "line_start": 7, "line_end": 7, "atom_id": "ATOM-SOURCE-20260212-005-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.6, 0.3, 0.1, 0.6, 0.2, 0.5], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "bdde2b3f-2758-5fe7-a113-a49662a6e27b", "timestamp": "2026-02-24T01:03:38.713132+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260212-005-0002", "source_id": "SOURCE-20260212-005", "category": "claim", "content": "Early investments in Scale AI (API to human intelligence), Auth0 (API to identity), and Clearbit (API to business data) support the t
+...[TRUNCATED]...
+--- FILE: geopolitics-grand-strategy/CANON-31121.sn.md ---
+---
+id: [[CANON-31121]]
+name: Tone Library Taxonomy
+tier: chain
+chain: information
+celestial_type: satellite
+volatility_band: moderate
+sn_version: 2.0
+parent: CANON-31120
+requires: ['CANON-31120', 'CANON-31000', 'CANON-00000', 'CANON-00006', 'CANON-30000']
+siblings: ['CANON-31122']
+entities: ['Rhetorical Function Taxonomy (STR)', 'Stylistic Form Taxonomy (STR)', 'Cadence Pattern Taxonomy (STR)', 'Diction Pattern Taxonomy (STR)', 'Guardrail Taxonomy (STR)', 'Evidence Type Taxonomy (STR)', 'CTA Pattern Taxonomy (STR)', 'Scaffold Element Taxonomy (STR)', 'Family Taxonomy (STR)', 'Recipient Archetype Taxonomy (STR)', 'Domain Taxonomy (STR)']
+original_words: 2314
+original_lines: 502
+---
+
+# Κ-31121: Tone Library Taxonomy (SN)
+
+PASS ToneLibraryCompleteTaxonomy:
+    sutra: "← compress TONE LIBRARY: Complete Taxonomy Reference"
+    gloss:
+        ← semantic compression required
+end
+
+PASS Purpose:
+    sutra: "← compress Purpose"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CelestialNavigation:
+    sutra: "← compress CELESTIAL NAVIGATION"
+    gloss:
+        ← semantic compression required
+end
+
+PASS IRhetoricalFunction10:
+    sutra: "← compress I. RHETORICAL FUNCTION (10 Functions)"
+    gloss:
+        ← semantic compression required
+end
+
+PASS 1InformDescribe:
+    sutra: "← compress 1. Inform & Describe"
+    gloss:
+        ← semantic compression required
+end
+
+PASS 2ExplainInterpret:
+    sutra: "← compress 2. Explain & Interpret"
+    gloss:
+        ← semantic compression re
+...[TRUNCATED]...
+
+
+=== FOLDER: health-psychology ===
+--- FILE: health-psychology/00022.md ---
+# Meditations on Moloch: Escape is Possible
+
+1/ Everyone who's read Scott Alexander's "Meditations on Moloch" walks away with the same sinking feeling:
+
+> "We're trapped. Individual rationality leads to collective doom. There's no way out."
+
+I believed this for years.
+
+I was wrong.
+
+2/ First, let's make sure we're talking about the same demon.
+
+Moloch is the god of coordination failure. He's the reason we destroy the things we love through the act of competing for them.
+
+3/ Moloch is:
+
+- The arms race no one wanted but everyone joined
+- The ocean fished to collapse by rational fishermen
+- The inbox that devours evenings because "everyone else is online"
+- The hiring process bloated with signals no one believes but everyone requires
+
+4/ The pattern is always the same:
+
+Each person makes a locally rational choice. Those choices aggregate into collective catastrophe. Everyone sees it happening. No one can stop.
+
+It feels like gravity. Inevitable. Structural.
+
+5/ Here's what changed my mind:
+
+A simple question I'd never thought to ask.
+
+"If Moloch is inevitable, why isn't everything already Moloch'd?"
+
+6/ Think about it.
+
+Humans have been optimizing for thousands of years. If coordination failure was truly inescapable, we should be living in a hellscape of pure defection.
+
+We're not.
+
+Something is holding Moloch back.
+
+7/ That something has a structure.
+
+And once you see the structure, you realize: Moloch doesn't win by default. He wins when four specific conditions are met. Remo
+...[TRUNCATED]...
+--- FILE: health-psychology/02226.md ---
+# Extraction: SOURCE-20251230-686
+
+**Source**: `SOURCE-20251230-youtube-lecture-dylan_curious-were_normalizing_things_we_dont_fully_understand.md`
+**Atoms extracted**: 9
+**Categories**: claim
+
+---
+
+## Claim (9)
+
+### ATOM-SOURCE-20251230-686-0001
+**Lines**: 14-14
+**Context**: consensus / evidence
+**Tension**: novelty=0.10, consensus_pressure=0.80, contradiction_load=0.00, speculation_risk=0.10, actionability=0.20, epistemic_stability=0.90
+
+> Thousands of drones can fly in perfect sync without collisions.
+
+### ATOM-SOURCE-20251230-686-0002
+**Lines**: 17-17
+**Context**: consensus / evidence
+**Tension**: novelty=0.20, consensus_pressure=0.70, contradiction_load=0.00, speculation_risk=0.10, actionability=0.20, epistemic_stability=0.80
+
+> AI has discovered 360,000 hidden DNA "knots" that control genes.
+
+### ATOM-SOURCE-20251230-686-0003
+**Lines**: 18-18
+**Context**: hypothesis / claim
+**Tension**: novelty=0.40, consensus_pressure=0.50, contradiction_load=0.10, speculation_risk=0.60, actionability=0.10, epistemic_stability=0.50
+
+> Artificial General Intelligence (AGI) is possible, based on a grounded computational case.
+
+### ATOM-SOURCE-20251230-686-0004
+**Lines**: 19-19
+**Context**: consensus / evidence
+**Tension**: novelty=0.10, consensus_pressure=0.80, contradiction_load=0.00, speculation_risk=0.10, actionability=0.30, epistemic_stability=0.90
+
+> Cities are using AI to redesign parking and add more spaces.
+
+### ATOM-SOURCE-20251230-686-0005
+**Lines**: 20-20
+**Context**: consensus
+...[TRUNCATED]...
+--- FILE: health-psychology/09409.md ---
+# Texting While ‘Driving’ In A Tesla Is… Allowed? | The Brainstorm EP 109
+
+**Channel**: ARK Invest
+**Published**: 2025-11-14
+**Duration**: 34m 16s
+**URL**: https://www.youtube.com/watch?v=SCnF2-ZtHQk
+
+## Description (no transcript available)
+
+In this episode of The Brainstorm, Nick Grous, Tasha Keeney, and Brett Winton dive into the latest Tesla shareholder meeting, discussing Tesla's ambitious plans to build their own chip fab and the implications for the future of autonomous driving. They also explore Robinhood's strategic moves in the financial market and the potential of space-based data centers. 
+
+If you know ARK, then you probably know about our long-term research projections, like estimating where we will be 5-10 years from now! But just because we are long-term investors, doesn’t mean we don’t have strong views and opinions on breaking news. In fact, we discuss and debate this every day. So now we’re sharing some of these internal discussions with you in our new video series, “The Brainstorm”, a co-production from ARK and Wolf.financial. Tune in every week as we react to the latest in innovation. Here and there we’ll be joined by special guests, but ultimately this is our chance to join the conversation and share ARK’s quick takes on what’s going on in tech today.
+
+Key Points From This Episode:
+00:00:00 Tesla’s Strategy On Chips
+00:06:47 Are Data Centers In Space Actually Something We Will See?
+00:13:21 Tesla Moving Towards Unsupervised FSD Update!?
+00:16:32 The First
+...[TRUNCATED]...
+--- FILE: health-psychology/11492.md ---
+# Dispatch System (auto_ingest)
+Type: system
+First seen: 2026-02-17 (replaced watch_dispatch.sh)
+Status: active
+
+## What it is
+The sole task dispatch system. `auto_ingest_loop.sh` polls agent inboxes every 30s. `dispatch.sh` creates TASK-*.md files and handles cross-machine SCP delivery. watch_dispatch.sh is DEPRECATED (caused race conditions).
+
+## Relationships
+- script: orchestration/00-ORCHESTRATION/scripts/dispatch.sh
+- loop: orchestration/00-ORCHESTRATION/scripts/auto_ingest_loop.sh (per-agent)
+- replaces: watch_dispatch.sh (deprecated 2026-02-17)
+- uses: Neural Bridge for cross-machine SCP
+- env_vars: SYNCRESCENDENCE_REMOTE_AGENT_HOST_<AGENT>
+
+## Current state
+Active. The canonical way to dispatch tasks. Task lifecycle: dispatch.sh creates pending -> auto_ingest moves to active -> agent executes -> result to outbox -> done/failed -> CONFIRM sent back. NEVER re-enable watch_dispatch.sh.
+
+...[TRUNCATED]...
+
+
+=== FOLDER: infrastructure ===
+--- FILE: infrastructure/00725_from_infrastructure.json ---
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-02-27T01:17:38Z",
+  "state": "FIRE",
+  "mode": "monitor",
+  "signal": "FIRE",
+  "tension": 39.4515,
+  "effective_tension": 39.4515,
+  "ambient_charge": 0.0,
+  "threshold": 30.0,
+  "oscillator_state": "FIRE",
+  "node_count_unresolved": 6,
+  "reason_codes": [
+    "THRESHOLD_EXCEEDED"
+  ],
+  "energy_audit_status": "PASS"
+}
+
+...[TRUNCATED]...
+--- FILE: infrastructure/02599_from_infrastructure.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "ff2b27b8-3a8c-5d58-b040-89a2aecebd21", "timestamp": "2026-02-24T01:05:44.583036+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260112-524-0001", "source_id": "SOURCE-20260112-524", "category": "claim", "content": "CoreWeave is in a precarious financial situation heading into 2026, with its debt financing and data center delays pointing towards potential insolvency.", "line_start": 12, "line_end": 14, "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.3, 0.2, 0.1, 0.7, 0.1, 0.2], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20260112-524", "entity_type": "Claim", "name": "CoreWeave is in a precarious financial situation heading into 2026, with its deb", "content": "CoreWeave is in a precarious financial situation heading into 2026, with its debt financing and data center delays pointing towards potential insolvency.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20260112-524", "line_start": 12, "line_end": 14, "atom_id": "ATOM-SOURCE-20260112-524-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.3, 0.2, 0.1, 0.7, 0.1, 0.2], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "fa7a392c-4f70-5ac8-9bbc-6f7a60a85164", "timestamp": "2026-02-24T01:05:44.583036+00:00", "payload": {"atom_id": "ATOM-SOURCE-202601
+...[TRUNCATED]...
+--- FILE: infrastructure/09180_from_infrastructure.sh ---
+#!/bin/bash
+source "$(dirname "${BASH_SOURCE}")/config.sh"
+
+# Intent Compass hook — fires on UserPromptSubmit
+# Scans user input for intention-laden language and captures to queue file
+# Lightweight: must complete fast since it runs on every prompt
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)"
+if [ -z "$REPO_ROOT" ]; then exit 0; fi
+
+# Preflight: jq required for JSON parsing
+if ! command -v jq &>/dev/null; then
+    exit 0  # Silent exit — hook must not block prompts
+fi
+
+# Read stdin JSON
+INPUT=$(cat)
+PROMPT=$(echo "$INPUT" | jq -r '.prompt // empty' 2>/dev/null)
+if [ -z "$PROMPT" ]; then exit 0; fi
+
+QUEUE_FILE="$REPO_ROOT/orchestration/state/DYN-INTENTIONS_QUEUE.md"
+TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+
+# Intention signal patterns (case-insensitive grep)
+SIGNALS="I want|we should|we need|don't forget|make sure|priority|must have|let's|going forward|from now on|always|never again|remember to|important that|critical that|we'll need|tall order|massive|manhattan|codify|formalize|operationalize"
+
+# Check for intention signals
+MATCH=$(echo "$PROMPT" | grep -iE "$SIGNALS" 2>/dev/null)
+if [ -z "$MATCH" ]; then exit 0; fi
+
+# Create queue file with header if it doesn't exist
+if [ ! -f "$QUEUE_FILE" ]; then
+    cat > "$QUEUE_FILE" << 'HEADER'
+# Intentions Queue
+**Auto-captured by intent_compass.sh hook**
+**Triage into ARCH-INTENTION_COMPASS.md during session checkpoints**
+
+---
+HEADER
+fi
+
+# Extract first matching line (truncate to 200 chars for brevity)
+CAPTURED=$(echo "$MA
+...[TRUNCATED]...
+--- FILE: infrastructure/11679.yml ---
+name: Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      # -- Validate YAML files --
+      - name: Validate YAML files
+        run: |
+          echo "=== YAML Validation ==="
+          FAILED=0
+          for f in $(find . -name "*.yaml" -o -name "*.yml" | grep -v '.github/' | sort); do
+            if python -c "import yaml; yaml.safe_load(open('$f'))" 2>/dev/null; then
+              echo "OK: $f"
+            else
+              echo "FAIL: $f"
+              FAILED=1
+            fi
+          done
+          exit $FAILED
+
+      # -- Check broken wikilinks --
+      - name: Check for broken wikilinks
+        run: |
+          echo "=== Wikilink Check ==="
+          BROKEN=0
+
+          # Build index of all markdown filenames (without path, without extension)
+          FILENAMES=$(find . -name "*.md" | sed 's|.*/||; s|\.md$||' | sort -u)
+
+          # Extract all [[...]] references from markdown files
+          for md in $(find . -name "*.md" -not -path './.github/*'); do
+            # Extract wikilink targets: [[Target]] or [[Target|Display]]
+            LINKS=$(grep -oP '\[\[([^\]|]+)' "$md" | sed 's/\[\[//' | sort -u || true)
+            for link in $LINKS; do
+              # Skip links that look like URLs or ancho
+...[TRUNCATED]...
+
+
+=== FOLDER: leadership-management ===
+--- FILE: leadership-management/00024.md ---
+# Thread: Gas Town Post Commentary
+
+## Post 1
+
+got nerdsniped into finally reading the original Gas Town post and wow. it's beautiful and terrifying and hilarious and probably a glimpse at the future that will feel normal in 6 months.
+
+[Link: steve-yegge.medium.com/welcome-to-gas-town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
+
+(Description: Embedded screenshot panels from the Gas Town post showing a technical discussion about orchestration and agent architecture:
+
+**Panel 1 (Top-Left):**
+"orchestrates for agents. I went up onstage at multiple events and described my vision for the orchestrator. I went everywhere, to everyone.
+
+"It will be like kubernetes, but for agents," I said.
+
+"It will have to have multiple levels of agents orchestrating other agents," I said.
+
+Gas Town management is called a Rig. Some roles (Witness, Polecats, Refinery, Crew) are per-rig, while others (Mayor, Deacon, Dogs) are town-level roles. `gt rig add` and related commands manage your rig within the Gas Town harness. Rigs are easy to add and remove.
+
+The Overseer: That's you, Human. The"
+
+**Panel 2 (Top-Right):**
+"Gas Town uses tmux as its primary CI. I had to learn tmux. It was easier than I thought it would be, and way more useful. 3 weeks in, and I love tmux. You will have to learn a bit of tmux. Or, you can wait until someone writes a better UI for Gas Town. Better UIs will come. But tmux is what you have for now. And it's worth learning.
+
+I would have to hag the agent to
+...[TRUNCATED]...
+--- FILE: leadership-management/02065.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "cb1870f8-21f1-5c10-88c7-26e36e3106d0", "timestamp": "2026-02-24T00:37:26.009903+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251221-762-0001", "source_id": "SOURCE-20251221-762", "category": "claim", "content": "Google’s Gemini 3 Flash is advancing the speed and efficiency of AI models.", "line_start": 12, "line_end": 13, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.2, 0.8, 0.1, 0.1, 0.2, 0.7], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20251221-762", "entity_type": "Claim", "name": "Google’s Gemini 3 Flash is advancing the speed and efficiency of AI models.", "content": "Google’s Gemini 3 Flash is advancing the speed and efficiency of AI models.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20251221-762", "line_start": 12, "line_end": 13, "atom_id": "ATOM-SOURCE-20251221-762-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.2, 0.8, 0.1, 0.1, 0.2, 0.7], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "bd829f2f-0412-5b34-bb70-f7e887c9aca3", "timestamp": "2026-02-24T00:37:26.009903+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251221-762-0002", "source_id": "SOURCE-20251221-762", "category": "claim", "content": "OpenAI's fundraising rumors indicate the increasing cost of compute and changing c
+...[TRUNCATED]...
+--- FILE: leadership-management/03929.jsonl ---
+{"atom_id": "ATOM-SOURCE-20260212-091-0001", "source_id": "SOURCE-20260212-091", "category": "claim", "content": "The smartphone era is over, and this shift is not widely recognized.", "line_start": 1, "line_end": 1, "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.8, 0.2, 0.1, 0.7, 0.1, 0.3], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260212-091-0002", "source_id": "SOURCE-20260212-091", "category": "claim", "content": "The author worked at Tesla from 2017 to 2021, primarily in distribution and supply chain leadership.", "line_start": 26, "line_end": 27, "chaperone": {"context_type": "anecdote", "argument_role": "evidence", "tension_vector": [0.1, 0.9, 0.1, 0.1, 0.1, 0.9], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260212-091-0003", "source_id": "SOURCE-20260212-091", "category": "claim", "content": "Before Tesla, the author was a Director of Business Intelligence and Pricing at Phillips Pet Food & Supplies, the largest pet food and supply distributor in the US.", "line_start": 29, "line_end": 30, "chaperone": {"context_type": "anecdote", "argument_role": "evidence", "tension_vector": [0.1, 0.9, 0.1, 0.1, 0.1, 0.9], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260212-091-0004", "source_id": "SOURCE-20260212-091", "category": "claim", "content": "The author has been a Tesla shareholder since 2012 and currently owns Tesla stock.", "line_start": 33, "line_en
+...[TRUNCATED]...
+--- FILE: leadership-management/CANON-00006.sn.md ---
+---
+id: [[CANON-00006]]
+name: Syncrescendent Corpus
+tier: cosmos
+celestial_type: root
+volatility_band: dynamic
+sn_version: 2.0
+parent: CANON-00000
+siblings: ['CANON-00005', 'CANON-00007', 'CANON-00009', 'CANON-00010', 'CANON-00011', 'CANON-00012', 'CANON-00013']
+entities: ['Corpus Manifest (ART)', 'Artifact Catalog (STR)', 'Progressive Disclosure Tiers (STR)', 'Access Pathways (WF)', 'Maintenance Rhythms (PROTO)', 'Contribution Protocols (PROTO)', 'Discontinuation Criteria (MET)', 'Dissolution Protocol (PROTO)']
+original_words: 8550
+original_lines: 1746
+---
+
+# Κ-00006: Syncrescendent Corpus (SN)
+
+PASS Canon00006SyncrescendentCorpusManifest:
+    sutra: "← compress CANON-00006: SYNCRESCENDENT CORPUS MANIFEST"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CompleteArchitecturalDocumentationIntegration:
+    sutra: "← compress Complete Architectural Documentation & Integration Record"
+    gloss:
+        ← semantic compression required
+end
+
+PASS ExecutiveSummary:
+    sutra: "← compress EXECUTIVE SUMMARY"
+    gloss:
+        ← semantic compression required
+end
+
+PASS WhatChangedInV23:
+    sutra: "← compress What Changed in v2.3 Annealment"
+    gloss:
+        ← semantic compression required
+end
+
+PASS SectionICompleteArtifact:
+    sutra: "← compress SECTION I: COMPLETE ARTIFACT MANIFEST"
+    gloss:
+        ← semantic compression required
+end
+
+PASS ACosmoslevelArchitectureFoundation:
+    sutra: "← compress A. Cosmos-Level Architecture (Foundation Documents)"
+    gloss:
+    
+...[TRUNCATED]...
+
+
+=== FOLDER: meaning-civilization ===
+--- FILE: meaning-civilization/00032.md ---
+# How to Master the One Concept That Rules Our World
+
+(Description: Black and white photograph of two hands playing chess at a table, with one hand moving a piece. A glass of whiskey sits on the side of the board. The image conveys strategic thinking and high-stakes decision-making.)
+
+## Opening Context
+
+Trump kidnapping Venezuela's president, stock market crashes orchestrated by hedge funds, how casinos manipulate every single bet you make...
+
+Everything that's important in this world follows a concept called **Game Theory**.
+
+I started studying it and it completely rewired my brain.
+
+But what nobody tells you about game theory is that it's not just some academic concept buried in economics textbooks—it's the operating system of human civilization.
+
+Every negotiation you'll ever have, every business decision that matters, every political move that shapes nations, every competitive situation you face...they all run on game theory principles.
+
+### More Examples:
+
+- When a CEO decides whether to undercut a competitor or maintain pricing, that's game theory
+- When countries negotiate treaties knowing the other side might defect, that's game theory
+- When you're deciding whether to trust someone in a high-stakes situation, that's game theory
+- When tech companies time their product launches against competitors, that's game theory
+
+## The Reality of Understanding Game Theory
+
+The people who understand this operate in a different reality.
+
+They see patterns where others see chaos. 
+...[TRUNCATED]...
+--- FILE: meaning-civilization/01899.md ---
+# Extraction: SOURCE-20251213-838
+
+**Source**: `SOURCE-20251213-youtube-interview-wes_roth-google_deepmind_the_arrival_of_agi.md`
+**Atoms extracted**: 5
+**Categories**: claim, framework, prediction
+
+---
+
+## Claim (1)
+
+### ATOM-SOURCE-20251213-838-0001
+**Lines**: 17-18
+**Context**: consensus / claim
+**Tension**: novelty=0.30, consensus_pressure=0.60, contradiction_load=0.10, speculation_risk=0.40, actionability=0.20, epistemic_stability=0.50
+
+> The conversation about AI is fundamentally changing from 'if' to 'when' regarding its arrival, and 'when' appears to be much sooner than previously anticipated.
+
+## Framework (1)
+
+### ATOM-SOURCE-20251213-838-0002
+**Lines**: 20-21
+**Context**: method / claim
+**Tension**: novelty=0.40, consensus_pressure=0.50, contradiction_load=0.20, speculation_risk=0.60, actionability=0.10, epistemic_stability=0.40
+
+> The Federal Reserve Bank of Dallas maps out two potential future economic scenarios related to AI: a singularity of abundance or an extinction event.
+
+## Prediction (3)
+
+### ATOM-SOURCE-20251213-838-0003
+**Lines**: 21-22
+**Context**: speculation / claim
+**Tension**: novelty=0.50, consensus_pressure=0.30, contradiction_load=0.10, speculation_risk=0.80, actionability=0.10, epistemic_stability=0.30
+
+> Sam Altman predicts the arrival of Superintelligence within 10 years.
+
+### ATOM-SOURCE-20251213-838-0004
+**Lines**: 22-22
+**Context**: speculation / claim
+**Tension**: novelty=0.40, consensus_pressure=0.40, contradiction_load=0.10, speculation
+...[TRUNCATED]...
+--- FILE: meaning-civilization/03495.md ---
+# Extraction: SOURCE-20260204-009
+
+**Source**: `SOURCE-20260204-x-article-nicbstme-the_crumbling_workflow_moat_aggregation_theory_final_chapter.md`
+**Atoms extracted**: 53
+**Categories**: claim, concept, framework, prediction
+
+---
+
+## Claim (34)
+
+### ATOM-SOURCE-20260204-009-0001
+**Lines**: 7-8
+**Context**: speculation / claim
+**Tension**: novelty=0.70, consensus_pressure=0.30, contradiction_load=0.20, speculation_risk=0.80, actionability=0.30, epistemic_stability=0.30
+
+> The interface moat, which has historically protected vertical software companies built on workflow complexity, is dying due to the rise of LLMs.
+
+### ATOM-SOURCE-20260204-009-0002
+**Lines**: 10-14
+**Context**: consensus / evidence
+**Tension**: novelty=0.10, consensus_pressure=0.80, contradiction_load=0.10, speculation_risk=0.20, actionability=0.20, epistemic_stability=0.90
+
+> For decades, software companies commanded premium pricing not only for their data but also for their interfaces, which users spent years mastering and companies hardcoded processes to, creating massive switching costs.
+
+### ATOM-SOURCE-20260204-009-0003
+**Lines**: 16-16
+**Context**: consensus / claim
+**Tension**: novelty=0.10, consensus_pressure=0.70, contradiction_load=0.10, speculation_risk=0.20, actionability=0.20, epistemic_stability=0.80
+
+> The interface itself was considered the product for many software companies.
+
+### ATOM-SOURCE-20260204-009-0005
+**Lines**: 22-22
+**Context**: hypothesis / claim
+**Tension**: novelty=0.70, consen
+...[TRUNCATED]...
+--- FILE: meaning-civilization/CANON-APOPTOSIS-PROTOCOL.sn.md ---
+---
+id: [[CANON-APOPTOSIS-PROTOCOL]]
+name: Apoptosis Protocol — 5:1 Nucleosynthesis Ratio
+tier: chain
+celestial_type: policy
+volatility_band: stable
+sn_version: 2.0
+entities: ['5:1 Nucleosynthesis Ratio (CON)', 'Tombstone Schema (STR)', 'Recycling Schema (STR)', 'Young-System Exception (PROTO)', 'Apoptosis State Machine (STR)', 'Apoptosis Failure Modes (REF)', 'Apoptosis Verification Contract (PROTO)']
+original_words: 1628
+original_lines: 281
+---
+
+# Κ-APOPTOSIS-PROTOCOL: Apoptosis Protocol — 5:1 Nucleosynthesis Ratio (SN)
+
+PROC CanonapoptosisprotocolApoptosisProtocol:
+    sutra: "← compress CANON-APOPTOSIS-PROTOCOL: APOPTOSIS PROTOCOL"
+    gloss:
+        ← semantic compression required
+end
+
+PASS 51NucleosynthesisRatioFor:
+    sutra: "← compress 5:1 Nucleosynthesis Ratio for Canon Axioms"
+    gloss:
+        ← semantic compression required
+end
+
+PASS 1Purpose:
+    sutra: "← compress 1. Purpose"
+    gloss:
+        ← semantic compression required
+end
+
+PASS EnforcementScope:
+    sutra: "← compress Enforcement Scope"
+    gloss:
+        ← semantic compression required
+end
+
+NORM 2RatioRule:
+    sutra: "← compress 2. Ratio Rule"
+    gloss:
+        ← semantic compression required
+end
+
+PASS 3StateMachine:
+    sutra: "← compress 3. State Machine"
+    gloss:
+        ← semantic compression required
+end
+
+PASS StateTransitions:
+    sutra: "← compress State Transitions"
+    gloss:
+        ← semantic compression required
+end
+
+PASS TerminalStatesPerCycle:
+    sutra: "← compress Terminal States P
+...[TRUNCATED]...
+
+
+=== FOLDER: multi-agent-systems ===
+--- FILE: multi-agent-systems/00002.orchestrator_last_run ---
+# Proactive Orchestrator — Last Run
+timestamp: 2026-02-23T08:18:34Z
+pid: 94935
+cycle_duration_s: 0
+breaker_state: HALF_OPEN
+failed_tasks_total: 0
+daily_dispatch_count: 0
+
+...[TRUNCATED]...
+--- FILE: multi-agent-systems/03747.md ---
+# Extraction: SOURCE-20260207-016
+
+**Source**: `SOURCE-20260207-x-article-voxyz_ai-the_full_tutorial_6_ai_agents_that_run_a_company_how_i_built_them_from_scratch.md`
+**Atoms extracted**: 65
+**Categories**: analogy, claim, concept, framework, praxis_hook
+
+---
+
+## Analogy (1)
+
+### ATOM-SOURCE-20260207-016-0022
+**Lines**: 280-282
+**Context**: consensus / evidence
+**Tension**: novelty=0.10, consensus_pressure=0.80, contradiction_load=0.00, speculation_risk=0.00, actionability=0.60, epistemic_stability=0.90
+
+> In a multi-agent system, the VPS is like an employee doing the work, Vercel is like the boss issuing directives, and Supabase is like the company's shared documentation that everyone reads from and writes to.
+
+## Claim (9)
+
+### ATOM-SOURCE-20260207-016-0002
+**Lines**: 24-24
+**Context**: consensus / claim
+**Tension**: novelty=0.40, consensus_pressure=0.50, contradiction_load=0.10, speculation_risk=0.20, actionability=0.70, epistemic_stability=0.60
+
+> A functional AI agent system can be built using Next.js, Supabase, and a Virtual Private Server (VPS), with a monthly cost of $8 fixed plus LLM usage.
+
+### ATOM-SOURCE-20260207-016-0003
+**Lines**: 26-27
+**Context**: consensus / claim
+**Tension**: novelty=0.60, consensus_pressure=0.30, contradiction_load=0.10, speculation_risk=0.20, actionability=0.70, epistemic_stability=0.60
+
+> An AI agent system can be implemented without relying on OpenAI Assistants API, LangChain, or AutoGPT, instead using PostgreSQL, Node.js workers, and a r
+...[TRUNCATED]...
+--- FILE: multi-agent-systems/09077.md ---
+You are running as a scheduled background task for the Syncrescendence system.
+
+## Task: Daily Session Review
+
+Review the day's execution logs and produce a summary of progress vs intentions.
+
+### Steps
+
+1. Read the execution staging log:
+
+```bash
+cat /Users/home/Desktop/syncrescendence/orchestration/state/DYN-EXECUTION_STAGING.md
+```
+
+2. Read the session log:
+
+```bash
+cat /Users/home/Desktop/syncrescendence/orchestration/state/DYN-SESSION_LOG.md | tail -50
+```
+
+3. Read the global ledger for today's entries:
+
+```bash
+grep "$(date +%Y-%m-%d)" /Users/home/Desktop/syncrescendence/orchestration/state/DYN-GLOBAL_LEDGER.md || echo "No entries for today"
+```
+
+4. Read the intention compass for active priorities:
+
+```bash
+head -100 /Users/home/Desktop/syncrescendence/orchestration/state/ARCH-INTENTION_COMPASS.md
+```
+
+5. Write a daily review to `/Users/home/Desktop/syncrescendence/agents/commander/inbox/pending/TASK-SESSION-REVIEW-$(date +%Y%m%d).md`:
+
+```markdown
+# Daily Session Review — YYYY-MM-DD
+
+**Generated by**: claudecron/session-review
+**Status**: PENDING
+
+## Sessions Today
+(List each session with: start time, duration, key deliverables)
+
+## Intention Alignment
+| Intention | Progress Today | Status |
+|-----------|---------------|--------|
+| INT-XXX | What happened | On track / Stalled / Blocked |
+
+## Commits Today
+(List commits with semantic prefixes)
+
+## Tomorrow's Priority
+(Based on intention alignment, what should tomorrow's first session focus on?)
+
+## Token Economics
+(Roug
+...[TRUNCATED]...
+--- FILE: multi-agent-systems/RECLASSIFICATION-REPORT.md ---
+# SN-Other Reclassification Report
+
+**Date**: 2026-02-27
+**Task**: Reclassify 375 "sn-other" files into more specific operational topics
+**Status**: COMPLETE
+**Files Processed**: 375/375 (100%)
+
+## Executive Summary
+
+All 375 files previously tagged as the generic "sn-other" category have been reclassified into 8 more specific topics. The majority (65.6%) are research/reference materials and system artifacts, while 24% are execution logs. A small percentage (< 2%) are core operational files (sovereign directives, dispatch messages, audit records).
+
+## Output Artifacts
+
+1. **SUBCLUSTER-sn-other.tsv** (21 KB)
+   - Main output file with all 375 entries
+   - Format: `filename[TAB]refined_topic[TAB]one_line_summary`
+   - Sorted by filename
+
+2. **SUBCLUSTER-sn-other-SUMMARY.md** (3.8 KB)
+   - Methodology, distribution, and topic definitions
+   - Reference guide for interpreting classifications
+
+## Classification Results
+
+### Distribution by Topic
+
+```
+Topic                    Count    Percentage
+─────────────────────────────────────────────
+sn-operational-cruft     246      65.6%
+sn-session-log            90      24.0%
+sn-blitzkrieg             30       8.0%
+sn-sovereign               3       0.8%
+sn-dispatch                2       0.5%
+sn-audit                   2       0.5%
+sn-memory                  1       0.3%
+sn-inbox                   1       0.3%
+─────────────────────────────────────────────
+TOTAL                     375      100%
+```
+
+## Topic Definitions
+
+### sn-session-lo
+...[TRUNCATED]...
+
+
+=== FOLDER: openclaw ===
+--- FILE: openclaw/00042.md ---
+# I Spent 40 Hours Researching Clawdbot. Here's Everything They're Not Telling You
+
+(Description: Hero image showing Clawdbot logo with red mascot character and tagline "THE AI THAT ACTUALLY DOES THINGS" with descriptive text about clearing inbox, sending emails, managing calendar, and checking flights - all from WhatsApp, Telegram, or any chat app already in use)
+
+## Overview
+
+Clawdbot is everywhere on X right now.
+
+Mac Mini photos. Vague "I automated everything" claims. People calling it "the future" without explaining why.
+
+I spent 40 hours deep in the documentation, analyzing use cases, watching tutorials, and reading every implementation guide I could find.
+
+Here's what everyone's hyping but nobody's actually explaining, including the parts they conveniently leave out.
+
+## What Clawdbot Actually Is (In Plain English)
+
+(Description: iPhone mockup showing Clawdbot chat interface with purple gradient background. Chat shows user request "Organize my downloads folder and summarize my unread emails" with Clawdbot response listing "Organized 247 files into 8 categories", "Cleared 1,409 emails", "3 urgent items flagged for review" with timestamp and summary details)
+
+Forget the technical jargon for a second.
+
+Clawdbot is Claude with hands.
+
+You know how you chat with Claude and it gives you answers? Imagine if Claude could actually execute those answers on your computer. Install software. Run scripts. Manage files. Monitor websites. Send emails. All through simple text commands 
+...[TRUNCATED]...
+--- FILE: openclaw/03207.md ---
+# Extraction: SOURCE-20260128-245
+
+**Source**: `SOURCE-20260128-youtube-tutorial-how_i_ai-my_honest_experience_with_clawdbot_now_moltbot_where_it_was.md`
+**Atoms extracted**: 4
+**Categories**: claim, concept, praxis_hook
+
+---
+
+## Claim (2)
+
+### ATOM-SOURCE-20260128-245-0003
+**Lines**: 26-27
+**Context**: anecdote / evidence
+**Tension**: novelty=0.40, consensus_pressure=0.30, contradiction_load=0.20, speculation_risk=0.40, actionability=0.50, epistemic_stability=0.60
+
+> Clawdbot struggles with basic time concepts but excels at research tasks.
+
+### ATOM-SOURCE-20260128-245-0004
+**Lines**: 30-30
+**Context**: consensus / claim
+**Tension**: novelty=0.30, consensus_pressure=0.70, contradiction_load=0.10, speculation_risk=0.20, actionability=0.40, epistemic_stability=0.80
+
+> Latency is one of the biggest challenges for autonomous AI assistants.
+
+## Concept (1)
+
+### ATOM-SOURCE-20260128-245-0001
+**Lines**: 13-15
+**Context**: consensus / claim
+**Tension**: novelty=0.10, consensus_pressure=0.80, contradiction_load=0.10, speculation_risk=0.10, actionability=0.20, epistemic_stability=0.90
+
+> Clawdbot (now Moltbot) is an autonomous AI agent capable of running code, spinning up sub-agents, joining video calls, and taking real actions on a user's machine.
+
+## Praxis Hook (1)
+
+### ATOM-SOURCE-20260128-245-0002
+**Lines**: 23-25
+**Context**: method / claim
+**Tension**: novelty=0.20, consensus_pressure=0.60, contradiction_load=0.10, speculation_risk=0.30, actionability=0.80, epistemic_stability=
+...[TRUNCATED]...
+--- FILE: openclaw/08330.md ---
+# OpenClaw Best Practices Audit
+
+Audit security and config (P0). Ensure gateway is bound to localhost only (gateway.bind: "loopback") and use the built-in gateway token; lock down channels with allowlists/pairing[1][2]. Use openclaw pairing or Slack/iMessage DM allowlists so only authorized users can trigger the agent[2]. Inspect and pin all plugins/skills before enabling (treat npm-based plugins as untrusted code)[3]. Set workspace file permissions (e.g. ~/.openclaw/openclaw.json to 600) and firewall to block unwanted ports[4][5]. Verify that the gateway isn't exposed on 0.0.0.0; use VPN/Tailscale for any remote access[6][7]. Run openclaw security audit to catch misconfigurations and require human approval for risky actions[7].
+
+Enable sandboxing and tool limits (P0). OpenClaw strongly recommends running tools in Docker sandboxes and strict allowlists when processing untrusted content[8][9]. In practice, set agents.defaults.sandbox.mode="all" with workspaceAccess: "ro" for agents that run tools, and deny dangerous tools (exec, browser, process, etc.) to non-owner agents[9][8]. For example:
+
+```json
+{
+  "agents": {
+    "defaults": {
+      "sandbox": { "mode": "all", "workspaceAccess": "ro" },
+      "tools": {
+        "exec": { "enabled": false }, 
+        "browser": { "enabled": false },
+        "web_search": { "enabled": false }
+      }
+    }
+  }
+}
+```
+
+This isolates file ops and limits prompt injection risks[8]. Use the latest instruction-tuned models (e.g. Claude Opus 4.5,
+...[TRUNCATED]...
+--- FILE: openclaw/near_duplicate_adjudicator.py ---
+import itertools
+import json
+import os
+import re
+from collections import Counter, defaultdict
+from dataclasses import dataclass
+from difflib import SequenceMatcher
+from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
+
+
+ROOT = "/Users/system/syncrescendence/corpus"
+TSV_PATH = os.path.join(ROOT, "NEARDUPES-ADJUDICATOR.tsv")
+SUMMARY_PATH = os.path.join(ROOT, "NEARDUPES-SUMMARY.md")
+REVIEW_PATH = os.path.join(ROOT, "NEARDUPES-REVIEW.json")
+
+NUMERIC_FILE_RE = re.compile(r"^\d+(?:\.[A-Za-z0-9_]+)?$")
+URL_RE = re.compile(r"https?://\S+")
+MARKDOWN_LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]+\)")
+FRONTMATTER_RE = re.compile(r"\A---\s*\n.*?\n---\s*\n", re.S)
+WORD_RE = re.compile(r"[a-z0-9]+")
+METADATA_KEY_RE = re.compile(
+    r"^\s{0,3}(?:[-*]\s+|>\s*)?(?:\*\*)?"
+    r"(author|handle|date|thread date|url|type|engagement|source|platform|retrieved|published|"
+    r"from|to|issued|fingerprint|priority|status|claimed-by|claimed-at|completed-at|exit-code|"
+    r"timeout|views|likes|reposts|bookmarks|reply count|video url|presentation url|watch url|"
+    r"archive url|extraction date|summary url|canonical url)"
+    r"(?:\*\*)?\s*[:|-]\s*",
+    re.I,
+)
+WRAPPER_HEADING_RE = re.compile(
+    r"^\s{0,3}#{1,6}\s+"
+    r"(article content|content|main content|thread content|body|transcript|extraction|text|"
+    r"post content|full text|primary text)\s*$",
+    re.I,
+)
+REFERENCES_HEADING_RE = re.compile(
+    r"^\s{0,3}#{1,6}\s+(references|resources(?:\s*&\s*references)?|cross-referenc
+...[TRUNCATED]...
+
+
+=== FOLDER: philosophy-esoterica ===
+--- FILE: philosophy-esoterica/00026.md ---
+# How to articulate yourself intelligently
+
+(Description: A black and white artistic illustration showing a profile of a human head with an open mouth on the left side, emitting or releasing a spiral galaxy and cosmic cloud formations toward the upper right. The imagery suggests the flow of ideas, knowledge, or communication emerging from thought and speech.)
+
+## Introduction
+
+When I was young, I was always drawn to people who sounded intelligent. People like Alan Watts, Jordan Peterson, Daniel Schmachtenberger, or other individuals who could explain deep ideas in an interesting way. Most of the time, I didn't understand what they were saying (because either I was too young or they overcomplicated everything they said), but since it sounded smart and articulate, I listened anyway and gave them my respect.
+
+The thing is, I never thought I could do the same.
+
+That's not to say I am the most articulate person in the world right now. I'm not. I just didn't think my brain had the capacity to do that. I was a smart kid in school, but being good at taking tests is a much different skill than stringing together coherent thoughts about big problems and articulating them to someone else.
+
+I felt like I had to memorize entire books' worth of information so that I could recite it on the spot, because I was trained to learn that way.
+
+But now, over a decade later, and without really trying to become articulate... my job, as a writer and self-proclaimed internet micro celebrity, is to arti
+...[TRUNCATED]...
+--- FILE: philosophy-esoterica/01643.jsonl ---
+{"atom_id": "ATOM-SOURCE-20251202-937-0001", "source_id": "SOURCE-20251202-937", "category": "claim", "content": "Anthropic's senior product leader, Dianne Na Penn, discussed the launch of Claude Opus 4.5 and the evolution of frontier AI models.", "line_start": 12, "line_end": 14, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.0, 1.0, 0.0, 0.0, 0.0, 1.0], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20251202-937-0002", "source_id": "SOURCE-20251202-937", "category": "praxis_hook", "content": "Anthropic balances ambitious capability roadmaps with user feedback in its approach to model development.", "line_start": 14, "line_end": 16, "chaperone": {"context_type": "method", "argument_role": "claim", "tension_vector": [0.1, 0.7, 0.0, 0.1, 0.8, 0.7], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20251202-937-0003", "source_id": "SOURCE-20251202-937", "category": "claim", "content": "Anthropic makes strategic bets on areas like agentic coding and computer use while deliberately avoiding others like image generation.", "line_start": 16, "line_end": 18, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.0, 0.1, 0.5, 0.8], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20251202-937-0004", "source_id": "SOURCE-20251202-937", "category": "concept", "content": "AI evaluation is shifting from saturated benchmarks like SWE-bench towar
+...[TRUNCATED]...
+--- FILE: philosophy-esoterica/03897.md ---
+# Extraction: SOURCE-20260211-121
+
+**Source**: `SOURCE-20260211-youtube-lecture-ai_news_strategy_daily_nate_b-claude_opus_4_6_the_biggest_ai_jump_i_ve_covered_it_s_not_cl.md`
+**Atoms extracted**: 6
+**Categories**: claim, praxis_hook
+
+---
+
+## Claim (5)
+
+### ATOM-SOURCE-20260211-121-0001
+**Lines**: 15-17
+**Context**: consensus / claim
+**Tension**: novelty=0.80, consensus_pressure=0.20, contradiction_load=0.10, speculation_risk=0.30, actionability=0.20, epistemic_stability=0.70
+
+> The jump in autonomous coding capability from 30 minutes to two weeks, exemplified by 16 agents coding a working C compiler, represents a phase change rather than a mere trend line.
+
+### ATOM-SOURCE-20260211-121-0002
+**Lines**: 19-19
+**Context**: hypothesis / claim
+**Tension**: novelty=0.70, consensus_pressure=0.30, contradiction_load=0.10, speculation_risk=0.40, actionability=0.30, epistemic_stability=0.60
+
+> The 76% needle-in-haystack retrieval score of Claude Opus 4.6 is more significant than its 5x context window expansion for understanding its capabilities.
+
+### ATOM-SOURCE-20260211-121-0003
+**Lines**: 20-20
+**Context**: anecdote / evidence
+**Tension**: novelty=0.60, consensus_pressure=0.40, contradiction_load=0.10, speculation_risk=0.20, actionability=0.70, epistemic_stability=0.50
+
+> Rakuten's deployment of Opus 4.6 autonomously managed 50 engineers and closed issues.
+
+### ATOM-SOURCE-20260211-121-0004
+**Lines**: 21-21
+**Context**: anecdote / evidence
+**Tension**: novelty=0.70, consensus_pressur
+...[TRUNCATED]...
+--- FILE: philosophy-esoterica/CANON-ONTOLOGY-GATE-V2.sn.md ---
+---
+id: [[CANON-ONTOLOGY-GATE-V2]]
+name: Ontology Gate v2
+tier: immune
+celestial_type: policy
+volatility_band: moderate
+sn_version: 2.0
+original_words: 1114
+original_lines: 183
+---
+
+# Κ-ONTOLOGY-GATE-V2: Ontology Gate v2 (SN)
+
+PASS Canonontologygatev2md:
+    sutra: "← compress CANON-ONTOLOGY-GATE_v2.md"
+    gloss:
+        ← semantic compression required
+end
+
+PASS RuntimeContractLayer1:
+    sutra: "← compress Runtime Contract — Layer 1 Enforcement Extension (σ₂ Ontology of Self)"
+    gloss:
+        ← semantic compression required
+end
+
+PASS Preamble:
+    sutra: "← compress Preamble"
+    gloss:
+        ← semantic compression required
+end
+
+PASS SchemaFields:
+    sutra: "← compress Schema Fields"
+    gloss:
+        ← semantic compression required
+end
+
+PASS V1FieldsUnchangedMandatory:
+    sutra: "← compress v1 Fields (unchanged, mandatory)"
+    gloss:
+        ← semantic compression required
+end
+
+PROC V2FieldsMandatoryOn:
+    sutra: "← compress v2 Fields (mandatory on all atoms processed after effective date)"
+    gloss:
+        ← semantic compression required
+end
+
+PASS StateMachine:
+    sutra: "← compress State Machine"
+    gloss:
+        ← semantic compression required
+end
+
+NORM ValidationRules:
+    sutra: "← compress Validation Rules"
+    gloss:
+        ← semantic compression required
+end
+
+NORM V1RulesPreservedVerbatim:
+    sutra: "← compress v1 Rules (preserved verbatim)"
+    gloss:
+        ← semantic compression required
+end
+
+NORM V2RulesAdditive:
+    sutra: "← compress v2 Rule
+...[TRUNCATED]...
+
+
+=== FOLDER: product-business ===
+--- FILE: product-business/00138.md ---
+# Death of Software. Nah.
+
+(Description: A wide, dynamic image of turbulent water with splashing waves and light blue-white bokeh orbs floating across the frame, evoking flow, movement, and transformation.)
+
+Too much of what is going on is a race to get to a theoretical end state of a whole new world of business and technology. Many pushing this were around for the tail end of the transition to an internet-based economy and are struggling with what appears to be a "compressed timeline," much the way people record disruption as a "moment" versus a journey.
+
+I've been thinking about where we are today with AI and the transition to this next wave, generation, platform of computing, and how it might look like previous transitions but really isn't. I'm thinking about three different transitions: the transition to the PC and graphical interface, the shift to online retail, and the pivot to streaming.
+
+**AI changes what we build and who builds it, but not how much needs to be built. We need vastly more software, not less.**
+
+## PC and Graphical Interface
+
+The paradigm shift to the PC and graphical interface is a wild one when looked at in context. The most important thing about the PC is that the first predictions were *de minimis*, followed by the prediction that it would eliminate mainframe computing and the data center. HAHA. Everyone was wrong all around.
+
+First, the run up to the internet saw the installed base of PCs go from under 100M to nearly 1B. PC growth was insane. But i
+...[TRUNCATED]...
+--- FILE: product-business/02820.md ---
+# Extraction: SOURCE-20260120-418
+
+**Source**: `SOURCE-20260120-youtube-tutorial-alex_hormozi-how_to_unlock_your_potential.md`
+**Atoms extracted**: 7
+**Categories**: claim, concept
+
+---
+
+## Claim (6)
+
+### ATOM-SOURCE-20260120-418-0001
+**Lines**: 18-20
+**Context**: consensus / claim
+**Tension**: novelty=0.10, consensus_pressure=0.20, contradiction_load=0.10, speculation_risk=0.10, actionability=0.10, epistemic_stability=0.90
+
+> Acquisition.com is a family office that invests its own money into companies, with 10 portfolio companies generating over $250,000,000+ per year.
+
+### ATOM-SOURCE-20260120-418-0002
+**Lines**: 35-35
+**Context**: consensus / claim
+**Tension**: novelty=0.10, consensus_pressure=0.20, contradiction_load=0.10, speculation_risk=0.10, actionability=0.10, epistemic_stability=0.90
+
+> Alex Hormozi sold 66% of Gym Launch & Prestige Labs for $46.2M in an all-cash deal to American Pacific Group when he was 31 years old.
+
+### ATOM-SOURCE-20260120-418-0003
+**Lines**: 36-36
+**Context**: consensus / claim
+**Tension**: novelty=0.10, consensus_pressure=0.20, contradiction_load=0.10, speculation_risk=0.10, actionability=0.10, epistemic_stability=0.90
+
+> Alex Hormozi started Acquisition.com at 31 years old, investing and scaling companies using $42M in distributions and cash from the $46.2M exit.
+
+### ATOM-SOURCE-20260120-418-0004
+**Lines**: 39-40
+**Context**: consensus / claim
+**Tension**: novelty=0.10, consensus_pressure=0.20, contradiction_load=0.10, speculation_risk=0.10
+...[TRUNCATED]...
+--- FILE: product-business/04428.md ---
+# Extraction: SOURCE-20260220-012
+
+**Source**: `SOURCE-20260220-youtube-lecture-ai_news_strategy_daily_nate_b-1_000_a_day_in_ai_costs_three_engineers_no_writing_code_no_c.md`
+**Atoms extracted**: 5
+**Categories**: claim, concept, prediction
+
+---
+
+## Claim (3)
+
+### ATOM-SOURCE-20260220-012-0001
+**Lines**: 16-18
+**Context**: anecdote / evidence
+**Tension**: novelty=0.30, consensus_pressure=0.60, contradiction_load=0.10, speculation_risk=0.20, actionability=0.10, epistemic_stability=0.80
+
+> OpenAI is pricing an AI employee at $20,000 a month, and StrongDM is spending $1,000 in tokens per engineer per day.
+
+### ATOM-SOURCE-20260220-012-0002
+**Lines**: 19-20
+**Context**: consensus / claim
+**Tension**: novelty=0.70, consensus_pressure=0.50, contradiction_load=0.10, speculation_risk=0.30, actionability=0.20, epistemic_stability=0.70
+
+> The fundamental material of computing has changed, shifting the unit of work from instructions to tokens.
+
+### ATOM-SOURCE-20260220-012-0003
+**Lines**: 22-23
+**Context**: anecdote / evidence
+**Tension**: novelty=0.40, consensus_pressure=0.50, contradiction_load=0.10, speculation_risk=0.20, actionability=0.10, epistemic_stability=0.80
+
+> Cursor's AWS costs doubled in a single month after Anthropic restructured its pricing tiers.
+
+## Concept (1)
+
+### ATOM-SOURCE-20260220-012-0005
+**Lines**: 28-29
+**Context**: hypothesis / claim
+**Tension**: novelty=0.70, consensus_pressure=0.30, contradiction_load=0.10, speculation_risk=0.60, actionability=0.20, epistem
+...[TRUNCATED]...
+--- FILE: product-business/CANON-35210.sn.md ---
+id: [[CANON-35210]]
+name: Metahumanism Framework
+tier: chain
+chain: wisdom
+celestial_type: lunar
+volatility_band: moderate
+sn_version: 2.0
+parent: CANON-35200
+requires: ['CANON-35200', 'CANON-35000']
+entities: ['Metahumanism Framework (CON)', 'Epistemic Stratigraphy (CON)', 'Volition Architecture (CON)', 'Spiritual Planes Integration (CON)', 'Causation Theory (CON)', 'Fundamental Essentia (CON)']
+original_words: 1302
+original_lines: 264
+compression_manifest:
+    compressed_words: 395
+    compression_ratio: 3.3
+    dropped:
+        - rhetorical elaboration
+        - examples that restate the point
+        - historical context that doesn't affect current meaning
+        - stylistic prose
+---
+
+PASS Canon35210MetahumanismFramework:
+    sutra: "The @Metahumanism Framework provides a philosophical foundation for Syncrescendence, integrating diverse insights into human development."
+    gloss:
+        The @Metahumanism Framework serves as Syncrescendence's philosophical foundation, unifying belief systems analysis, epistemology, volition studies, spiritual traditions, causation theory, and phenomenology. It is a meta-framework, not a belief system, for understanding and integrating various worldviews.
+end
+
+PASS TranscendenceRingLunarPhilosophical:
+    sutra: "This framework is a canonical philosophical integration within the Transcendence Ring Lunar's WISDOM chain."
+    gloss:
+        This @Metahumanism Framework (CON) is canonical, derived from 920K of research, and stands as a phi
+...[TRUNCATED]...
+
+
+=== FOLDER: productivity-pkm ===
+--- FILE: productivity-pkm/00029.md ---
+# The Math Needed for AI/ML (Complete Roadmap)
+
+(Description: Header image with a surreal, cyberpunk aesthetic featuring three Renaissance-style portrait busts with neon green faces, wearing ornate period clothing. The busts are positioned around vintage computer monitors and connected by a web of lines and colored nodes in blue, purple, and green. Scattered code snippets visible in the upper left corner, including lines with "MATTE.IN" and class definitions. The composition blends classical art with modern technology symbolism.)
+
+In this article, I'm going to break down the essential math you need for AI and machine learning. I'll also share the exact roadmap and resources that helped me personally. Let's get straight to it.
+
+## 1. Statistics and Probability
+
+*The language of uncertainty, data, and inference*
+
+AI/ML systems learn from data that is noisy, incomplete, and uncertain. Probability and statistics provide the formal tools to reason under uncertainty and to extract reliable patterns from samples.
+
+### 1.1 Populations and Sampling
+
+- **Population**: The full set of possible data points (usually unobservable).
+- **Sample**: A subset drawn from the population.
+- Understanding sampling bias, representativeness, and variance is crucial for model generalization.
+
+### 1.2 Descriptive Statistics
+
+- **Mean, Median, Mode**: Measures of central tendency.
+- **Expected Value**: The probabilistic average; foundational for loss functions and risk minimization.
+
+### 1.3 Variance an
+...[TRUNCATED]...
+--- FILE: productivity-pkm/02020.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "b07aa7b5-6df7-567f-b008-9b66125ac90d", "timestamp": "2026-02-24T00:39:52.452324+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251219-793-0001", "source_id": "SOURCE-20251219-793", "category": "claim", "content": "Four specific AI tools can handle most of the AI agent needs for non-technical people, despite the common belief that agents require technical skills.", "line_start": 17, "line_end": 18, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.3, 0.6, 0.1, 0.2, 0.5, 0.7], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20251219-793", "entity_type": "Claim", "name": "Four specific AI tools can handle most of the AI agent needs for non-technical p", "content": "Four specific AI tools can handle most of the AI agent needs for non-technical people, despite the common belief that agents require technical skills.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20251219-793", "line_start": 17, "line_end": 18, "atom_id": "ATOM-SOURCE-20251219-793-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.3, 0.6, 0.1, 0.2, 0.5, 0.7], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "e529995a-2c42-5877-9d61-256e1ed72b8c", "timestamp": "2026-02-24T00:39:52.452324+00:00", "payload": {"atom_id": "ATOM-SOURCE-20251219-793-000
+...[TRUNCATED]...
+--- FILE: productivity-pkm/03360.md ---
+# Extraction: SOURCE-20260201-214
+
+**Source**: `SOURCE-20260201-youtube-lecture-ai_news_strategy_daily_nate_b-why_the_smartest_ai_bet_right_now_has_nothing_to_do_with_ai.md`
+**Atoms extracted**: 7
+**Categories**: claim, praxis_hook
+
+---
+
+## Claim (6)
+
+### ATOM-SOURCE-20260201-214-0001
+**Lines**: 13-14
+**Context**: rebuttal / claim
+**Tension**: novelty=0.30, consensus_pressure=0.70, contradiction_load=0.20, speculation_risk=0.60, actionability=0.10, epistemic_stability=0.60
+
+> The common narrative suggests AI will create universal prosperity, but the actual situation is more complex.
+
+### ATOM-SOURCE-20260201-214-0002
+**Lines**: 15-15
+**Context**: hypothesis / claim
+**Tension**: novelty=0.60, consensus_pressure=0.30, contradiction_load=0.10, speculation_risk=0.20, actionability=0.20, epistemic_stability=0.70
+
+> Value concentration is determined by bottlenecks, not by abundance.
+
+### ATOM-SOURCE-20260201-214-0003
+**Lines**: 17-17
+**Context**: consensus / limitation
+**Tension**: novelty=0.40, consensus_pressure=0.60, contradiction_load=0.10, speculation_risk=0.20, actionability=0.30, epistemic_stability=0.70
+
+> The projected $4.5 trillion in AI productivity gains are entirely dependent on successful implementation.
+
+### ATOM-SOURCE-20260201-214-0004
+**Lines**: 18-18
+**Context**: consensus / evidence
+**Tension**: novelty=0.30, consensus_pressure=0.70, contradiction_load=0.10, speculation_risk=0.20, actionability=0.20, epistemic_stability=0.80
+
+> Physical infrastructure limitation
+...[TRUNCATED]...
+--- FILE: productivity-pkm/CANON-00014.sn.md ---
+---
+id: [[CANON-00014]]
+name: Content Production Protocol
+tier: cosmos
+celestial_type: root
+volatility_band: dynamic
+sn_version: 2.0
+parent: CANON-00010
+requires: ['CANON-00010']
+siblings: ['CANON-00006', 'CANON-00012']
+entities: ['Three-Rail System (STR)', 'Content Tier Classification (STR)', 'AI-Assisted Production Pipelines (WF)', 'Weekly Content Calendar (PROTO)', 'Energy State Production Mapping (PROTO)', 'Cross-IIC Content Orchestration (WF)', 'Quality Gates (MET)', 'Batch Production Protocol (PROTO)', 'Content Repurposing Framework (WF)']
+original_words: 12961
+original_lines: 2538
+---
+
+# Κ-00014: Content Production Protocol (SN)
+
+PROC Canon00014ContentProductionProtocol:
+    sutra: "← compress CANON-00014: CONTENT PRODUCTION PROTOCOL"
+    gloss:
+        ← semantic compression required
+end
+
+PASS DocumentPurpose:
+    sutra: "← compress DOCUMENT PURPOSE"
+    gloss:
+        ← semantic compression required
+end
+
+PASS PartIThreerailSystem:
+    sutra: "← compress PART I: THREE-RAIL SYSTEM DEEP DIVE"
+    gloss:
+        ← semantic compression required
+end
+
+PASS RailArchitectureTimeAllocation:
+    sutra: "← compress Rail Architecture & Time Allocation"
+    gloss:
+        ← semantic compression required
+end
+
+PASS EnergyStateImpactOn:
+    sutra: "← compress Energy State Impact on Rail Allocation"
+    gloss:
+        ← semantic compression required
+end
+
+PASS TimeBlockingTemplates:
+    sutra: "← compress Time Blocking Templates"
+    gloss:
+        ← semantic compression required
+end
+
+
+...[TRUNCATED]...
+
+
+=== FOLDER: prompt-engineering ===
+--- FILE: prompt-engineering/00084.md ---
+# Prompt Engineering 501: Thinking Critically
+
+(Description: An isometric illustration featuring a mechanical/industrial aesthetic. The image shows a central platform with gears, cogs, and mechanical components in blue and cream tones. Surrounding elements include architectural structures with stairs, wheels, and various mechanical parts arranged in an abstract three-dimensional landscape, representing the concept of systematic thinking and mechanical problem-solving.)
+
+I've been doing a lot of prompt engineering lately and have been looking for ways to improve my prompts. One approach I took was the skill **sharpen-output**.
+
+**sharpen-output** is an agent skill that takes as input one of your prompts and iteratively asks you questions in order to make it better. Then, it outputs the improved prompt. Pretty cool, no?
+
+You can try it yourselves with [skills.sh](https://skills.sh):
+```bash
+$ npx skills add jbrukh/skills --skill sharpen-output
+```
+
+## The think-critically Skill
+
+However, I went down a real rabbit hole when I invented **think-critically**. This is an adversarial analysis prompt which accepts:
+
+- a prompt;
+- an expectation of the result or output the prompt should produce, either inferred from context or specified directly by the user.
+
+It then outputs an analysis of whether the prompt is likely to actually get the result the user is intending. It seemed to work pretty well, surfacing issues and having some real insights into how LLMs process prompts.
+
+## Self-Re
+...[TRUNCATED]...
+--- FILE: prompt-engineering/03490.jsonl ---
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "32add6fc-f8c1-5755-a669-3fb847193c39", "timestamp": "2026-02-24T01:01:33.311483+00:00", "payload": {"atom_id": "ATOM-SOURCE-20260204-008-0001", "source_id": "SOURCE-20260204-008", "category": "claim", "content": "A prompt built for someone else's use case, with someone else's context, for someone else's output, will never work as well as one you built or remix yourself.", "line_start": 29, "line_end": 31, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.2, 0.7, 0.1, 0.6, 0.5, 0.8], "opposes_atom_ids": []}, "extensions": {}}, "source_id": "SOURCE-20260204-008", "entity_type": "Claim", "name": "A prompt built for someone else's use case, with someone else's context, for som", "content": "A prompt built for someone else's use case, with someone else's context, for someone else's output, will never work as well as one you built or remix yourself.", "confidence": 1.0, "provenance": {"source_id": "SOURCE-20260204-008", "line_start": 29, "line_end": 31, "atom_id": "ATOM-SOURCE-20260204-008-0001"}, "metadata": {"category": "claim", "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.2, 0.7, 0.1, 0.6, 0.5, 0.8], "opposes_atom_ids": []}, "extensions": {}}}
+{"record_type": "source_atom", "schema_version": "1.0.0", "uuid": "f2377c19-7407-5ca9-a085-63cfd3baf656", "timestamp": "2026-02-24T01:01:33.311483+00:00", "payload": {"atom_id": "ATOM-SOURC
+...[TRUNCATED]...
+--- FILE: prompt-engineering/09755.md ---
+# How AI is Killing Your Potential
+
+**Channel**: HealthyGamerGG
+**Published**: 2025-12-19
+**Duration**: 16m 55s
+**URL**: https://www.youtube.com/watch?v=BzsLbHoNXTs
+
+## Description (no transcript available)
+
+For more exclusive content like this, check out HG Membership: https://bit.ly/490Reuh
+
+▼ Timestamps ▼
+────────────
+
+00:00 - Introduction
+01:02 - Is AI All-knowing?
+05:26 - What is ‘Brain Rust’?
+09:34 - How To Avoid Replacement
+12:45 - Prompt Engineering
+
+────────────
+
+We offer tons of mental wellness resources to help you get your life on track. Learn more: https://bit.ly/3ZNv0qY
+
+Dr. K wrote a book called "How to Raise a Healthy Gamer," available now: https://bit.ly/3VZSDLL
+
+NEW! Check out the HG Institute for modern mental health CE's to incorporate into your practice: https://bit.ly/4oPHnhu
+
+DISCLAIMER
+Healthy Gamer is an online community and resource platform for gamers and their families. It does not provide medical services or professional counseling, and it is not a substitute for professional medical care. Our coaches are peer coaches, not professionally trained experts, and they cannot provide medical service. If you or a loved one are experiencing an emergency, please call your nation's emergency telephone number.
+
+All guests of Healthy Gamer are informed of the public, non-medical nature of the content and have expressly agreed to share their story.
+
+For clinical or crisis support resources in your area, check out our Mental Health pack: https://bit.ly/41g77Ja
+
+...[TRUNCATED]...
+--- FILE: prompt-engineering/11543.md ---
+# memsync
+Type: concept
+First seen: Phase 1 (memory pipeline)
+Status: stale
+
+## What it is
+The memory synchronization daemon concept — intended to sync agent memory state across the constellation. Referenced as `memsync_daemon.py` in MEMORY.md but the file does NOT exist at the documented path (`orchestration/00-ORCHESTRATION/scripts/memsync_daemon.py`).
+
+## Relationships
+- referenced_by: 12 files (CLAUDE.md, AGENTS.md, intention compass, memory architecture, deferred commitments, multiple prompts)
+- conceptual_part_of: Memory pipeline (Phase 1)
+- missing_implementation: `memsync_daemon.py` not found
+
+## Current state
+BROKEN. The daemon file does not exist despite being documented in MEMORY.md and CLAUDE.md. The concept is referenced in 12 files across the knowledge graph but has no running implementation. This is a known gap — memory pipeline Phase 1 was declared COMPLETE but memsync hardening (DC-114/115) remains P1.
+
+...[TRUNCATED]...
+
+
+=== FOLDER: startup-vc ===
+--- FILE: startup-vc/00008.jpeg ---
+Error reading file: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+--- FILE: startup-vc/02513.jsonl ---
+{"atom_id": "ATOM-SOURCE-20260109-553-0001", "source_id": "SOURCE-20260109-553", "category": "claim", "content": "NVIDIA's Alpamayo AI is taking centerstage at CES 2026 due to its autonomous driving capabilities.", "line_start": 17, "line_end": 17, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.2, 0.7], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260109-553-0002", "source_id": "SOURCE-20260109-553", "category": "prediction", "content": "NVIDIA's Alpamayo AI has the potential to challenge Tesla in the autonomous driving sector.", "line_start": 17, "line_end": 17, "chaperone": {"context_type": "speculation", "argument_role": "claim", "tension_vector": [0.3, 0.5, 0.2, 0.7, 0.2, 0.4], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260109-553-0003", "source_id": "SOURCE-20260109-553", "category": "claim", "content": "NVIDIA has developed a chip named Rubin.", "line_start": 19, "line_end": 19, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.1, 0.8], "opposes_atom_ids": []}, "extensions": {}}
+{"atom_id": "ATOM-SOURCE-20260109-553-0004", "source_id": "SOURCE-20260109-553", "category": "claim", "content": "OpenAI has developed a product called ChatGPT Health.", "line_start": 19, "line_end": 19, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.1, 0.8], "o
+...[TRUNCATED]...
+--- FILE: startup-vc/10160.md ---
+# The Singularity Countdown: AGI by 2029, Humans Merge with AI, Intelligence 1000x | Ray Kurzweil
+
+**Channel**: Peter H. Diamandis
+**Published**: 2026-01-20
+**Duration**: 1h 39m 31s
+**URL**: https://www.youtube.com/watch?v=8iWSNwIRazc
+
+## Description (no transcript available)
+
+Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends  
+
+Ray Kurzweil is an American inventor and futurist best known for his pioneering work in optical character recognition and his predictions regarding the technological singularity.
+
+Salim Ismail is the founder of OpenExO
+
+Dave Blundin is the founder & GP of Link Ventures
+
+Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified
+
+Chapters:
+00:00 - Introduction to the Singularity
+03:50 - Ray Kurzweil's Predictions on AI
+10:42 - Understanding Human-Level AI vs. Singularity
+18:55 - The Future of Work and Universal Basic Income
+26:34 - The Role of AI in Society and Ethics
+34:01 - Longevity and Health Innovations
+44:39 - The Future of Consciousness and AI
+
+–
+
+My companies:
+
+Pre order "We Are As Gods" at https://diamandis.com/book
+
+Apply to Dave's and my new fund: https://qr.diamandis.com/linkventureslanding  
+
+Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy 
+
+_
+
+Connect with Peter:
+X: https://qr.diamandis.com/twitter 
+Instagram: https://qr.diamandis.com/instagram 
+
+Connect with Dave:
+X: https://x.com/davidblundin 
+LinkedIn: https://www.linkedin.com/in/david-
+...[TRUNCATED]...
+--- FILE: startup-vc/CANON-31110.sn.md ---
+---
+id: [[CANON-31110]]
+name: Feedcraft
+tier: chain
+chain: information
+celestial_type: lunar
+volatility_band: moderate
+sn_version: 2.0
+parent: CANON-31100
+requires: ['CANON-31000', 'CANON-31100', 'CANON-00000', 'CANON-00006', 'CANON-30000']
+siblings: ['CANON-31120', 'CANON-31130', 'CANON-31140']
+synthesizes: ['CANON-31115']
+entities: ['Feedcraft (CON)', 'Functional Platform Topology (STR)', 'Nine Platform Categories (STR)', 'Constitutional Practice (PROTO)', 'Three Cognitive Modes (CON)', 'Resonance Calculation (MET)', 'Temporal Choreography (PROTO)']
+original_words: 7180
+original_lines: 801
+---
+
+# Κ-31110: Feedcraft (SN)
+
+PASS FeedcraftTheConstitutionalArchitecture:
+    sutra: "← compress Feedcraft: The Constitutional Architecture of Digital Sovereignty"
+    gloss:
+        ← semantic compression required
+end
+
+PASS RecalibratedForTheFunctional:
+    sutra: "← compress Recalibrated for the Functional Platform Topology"
+    gloss:
+        ← semantic compression required
+end
+
+PASS AssessmentOriginalFrameworkEvaluation:
+    sutra: "← compress ASSESSMENT: Original Framework Evaluation"
+    gloss:
+        ← semantic compression required
+end
+
+PASS ITheFundamentalRecognition:
+    sutra: "← compress I. THE FUNDAMENTAL RECOGNITION"
+    gloss:
+        ← semantic compression required
+end
+
+PASS TheOntologicalCrisis:
+    sutra: "← compress The Ontological Crisis"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CelestialNavigation:
+    sutra: "← compress CELESTIAL NAVIGATION"
+  
+...[TRUNCATED]...
+
+
+=== FOLDER: vibe-coding ===
+--- FILE: vibe-coding/00704.csv ---
+account_id,email,auth_method,teleology,owns_origin,google_ecosystem
+1,truongphillipthanh@icloud.com,apple,sovereign_substrate,TRUE,FALSE
+2,icloud.truongphillipthanh@gmail.com,google,parallel_executor,FALSE,TRUE
+3,truongphillipthanh@gmail.com,google,primary_interface,FALSE,TRUE
+
+...[TRUNCATED]...
+--- FILE: vibe-coding/02259.md ---
+# Extraction: SOURCE-20251231-670
+
+**Source**: `SOURCE-20251231-youtube-lecture-theaigrid-how_a_i_changes_in_2026_major_predictions.md`
+**Atoms extracted**: 0
+**Categories**: 
+
+---
+
+...[TRUNCATED]...
+--- FILE: vibe-coding/03138.md ---
+# Extraction: SOURCE-20260127-283
+
+**Source**: `SOURCE-20260127-youtube-lecture-dylan_davis-i_ranked_every_ai_feature_most_are_a_waste_of_time.md`
+**Atoms extracted**: 0
+**Categories**: 
+
+---
+
+...[TRUNCATED]...
+--- FILE: vibe-coding/CANON-24000.sn.md ---
+---
+id: [[CANON-24000]]
+name: Omni-Quality Cultivation
+tier: lattice
+celestial_type: planetary
+volatility_band: stable
+sn_version: 2.0
+parent: CANON-20000
+requires: ['CANON-20000']
+entities: ['Omnibenevolence Cultivation (CON)', 'Omniscience Cultivation (CON)', 'Omnipotence Cultivation (CON)', 'Omnipresence Cultivation (CON)', 'Omni-Quality Assessment (MET)', 'Temporal Integration (CON)', 'Spatial Integration (CON)', 'Dimensional Integration (CON)']
+original_words: 1180
+original_lines: 326
+---
+
+# Κ-24000: Omni-Quality Cultivation (SN)
+
+PASS Canon24000Priority5Omniquality:
+    sutra: "← compress CANON-24000: PRIORITY 5 - OMNI-QUALITY CULTIVATION"
+    gloss:
+        ← semantic compression required
+end
+
+PASS ProgressiveApproximationArchitectureFor:
+    sutra: "← compress Progressive Approximation Architecture for Four Dimensions of Comprehensive Goodness"
+    gloss:
+        ← semantic compression required
+end
+
+PASS FrameworkIntegration:
+    sutra: "← compress FRAMEWORK INTEGRATION"
+    gloss:
+        ← semantic compression required
+end
+
+PASS OrthogonalDimensionsApplied:
+    sutra: "← compress Orthogonal Dimensions Applied"
+    gloss:
+        ← semantic compression required
+end
+
+PASS CelestialNavigation:
+    sutra: "← compress CELESTIAL NAVIGATION"
+    gloss:
+        ← semantic compression required
+end
+
+PASS PartIOmnibenevolenceCultivation:
+    sutra: "← compress PART I: OMNIBENEVOLENCE CULTIVATION"
+    gloss:
+        ← semantic compression required
+end
+
+TERM Definition:
+    sutr
+...[TRUNCATED]...
+
+
+=== FOLDER: writing-creation ===
+--- FILE: writing-creation/00132.md ---
+# Skills I'm Currently Running
+
+Skills I'm currently running:
+
+- **write-a-prd**
+- **make-refactor-request**
+- **tdd**
+- **design-an-interface**
+- **write-a-skill**
+
+---
+
+I hate to tease, but the plan is to share these to the newsletter first
+
+(Description: Image displayed with text "Join over 50,000 Developers Becoming AI Heroes" with profile image and newsletter branding for AI Hero Newsletter by Matt Pocock)
+
+---
+
+It has been super good so far, and I'm trying it out as my new default.
+
+---
+
+Yeah, this is what my Ralph script does.
+
+---
+
+Yeah these are all mine
+
+---
+
+Yeah, for this I strictly mean a backend interface, not a frontend user interface.
+
+---
+
+Archive it immediately.
+
+The code is the final proof of what's been done, as are the tests.
+...[TRUNCATED]...
+--- FILE: writing-creation/09419.md ---
+# Scientists Found a “Mechanical Flaw”… Then Turned It Into a Superpower
+
+**Channel**: Dylan Curious
+**Published**: 2025-11-15
+**Duration**: 30m 39s
+**URL**: https://www.youtube.com/watch?v=vTZRV-Sa1IA
+
+## Description (no transcript available)
+
+Hit the new HYPE Button! - It’s designed to help smaller channels like me!
+
+CHAPTERS  ⤵ 
+02:20 Elon Musk's Vision for Humanoid Robots
+05:33 Soft robots that “remember” shapes: turning a flaw into a superpower
+09:07 Dating AI that gives this woman the “ick” before even a swipe
+10:55 What it’s like to be in the middle of a conspiracy theory, according to a conspiracy-theory expert
+15:25 The hidden cost of tech billionaires: who pays when AI takes off?
+20:05 New study shows large-language models store “memory” and “logic” in different neural regions
+22:31 From stem-cells to adolescence: scientists map how the brain builds itself early in life
+24:13 Measured what happens at token 95,000 — why transformers “collide” at long context
+26:28 Microsoft uncovers “Whisper Leak” flaw: your encrypted AI chats might not be so private
+28:47 AI found three ‘hidden sperm’ and ended an 18-year infertility battle
+
+SOURCES  ⤵ 
+@OpenAI 
+@Microsoft 
+@Wes-Dylan 
+
+https://www.youtube.com/watch?v=wolyaV8Qa5Y&embeds_referring_euri=https%3A%2F%2Ftechxplore.com%2F&source_ve_path=OTY3MTQ
+
+https://www.youtube.com/watch?v=NSn4-BFacAQ
+
+https://www.youtube.com/watch?v=ENugEdbUDfs
+
+WATCH THE YOUTUBE VIDEO  ⤵  
+https://youtu.be/vTZRV-Sa1IA
+
+...[TRUNCATED]...
+--- FILE: writing-creation/09707.md ---
+# Building AGI from the Fjords of Norway
+
+**Channel**: David Ondrej
+**Published**: 2025-12-16
+**Duration**: 22m 48s
+**URL**: https://www.youtube.com/watch?v=WaBdtmkU-Us
+
+## Description (no transcript available)
+
+Learn about the best AI Business models here - https://www.youtube.com/watch?v=Ta5g-OxjPO4
+
+Video Editors, I'm hiring! Apply here: https://www.vectal.ai/jobs
+
+Follow me on Instagram - https://www.instagram.com/davidondrej1/
+Follow me on Twitter - https://x.com/DavidOndrej1
+
+New Society: https://www.skool.com/new-society
+
+Host your n8n agents on Hostinger: https://www.hostinger.com/david
+
+Subscribe if you're serious about AI.
+
+What happens when two slavic guys visit the Fjords of Norway? Watch to find out.
+
+www.vectal.ai
+
+...[TRUNCATED]...
+--- FILE: writing-creation/11520.sh ---
+#!/usr/bin/env bash
+#
+# ingest_chatgpt_container.sh
+#
+# Shell wrapper for ChatGPT container ingestion utility.
+# Reads from stdin and files content into -INBOX/-OUTGOING.
+#
+# Usage:
+#   cat pasted_response.txt | ./ingest_chatgpt_container.sh --date YYYYMMDD --slug <slug>
+#   pbpaste | ./ingest_chatgpt_container.sh --date 20260118 --slug phoenix
+#   ./ingest_chatgpt_container.sh --date 20260118 --slug phoenix --input response.txt
+#
+# Options:
+#   --date YYYYMMDD   Date for filing (required)
+#   --slug <slug>     Slug identifier (required)
+#   --input, -i       Read from file instead of stdin
+#   --force, -f       Overwrite existing files without suffix
+#   --dry-run, -n     Preview changes without writing
+#   --help, -h        Show this help message
+#
+
+set -euo pipefail
+
+# Get repo root
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || dirname "$(dirname "$(dirname "$(realpath "$0")")")")"
+SCRIPT_DIR="${REPO_ROOT}/orchestration/scripts"
+PYTHON_SCRIPT="${SCRIPT_DIR}/ingest_chatgpt_container.py"
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+
+log() { echo -e "${GREEN}[INFO]${NC} $*"; }
+warn() { echo -e "${YELLOW}[WARN]${NC} $*"; }
+error() { echo -e "${RED}[ERROR]${NC} $*" >&2; }
+
+usage() {
+    cat <<EOF
+Usage: $(basename "$0") --date YYYYMMDD --slug <slug> [OPTIONS]
+
+Ingest ChatGPT container response and file into repo structure.
+
+Required:
+  --date YYYYMMDD   Date for filing (e.g., 20260118)
+  --slug <slug>     Slug 
+...[TRUNCATED]...
+
+

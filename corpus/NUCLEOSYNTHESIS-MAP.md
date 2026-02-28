@@ -41,7 +41,7 @@
 ## Section 2: Classification Lineage
 
 ### CC53 — Bottom-Up Clustering (2026-02-28)
-- 10 bottom-up reports synthesized (6 swarm agents + Cartographer + Adjudicator + 2 prior analyses)
+- 10 bottom-up reports synthesized (6 swarm agents + Cartographer + Adjudicator + 2 prior analyses) — BOTTOMUP-*.md files deleted CC56, content superseded by this document
 - 28 semantic clusters identified from 6,719 post-dedup files (SEMANTIC-CLUSTERS.md)
 - Clusters 1-19: knowledge/external content; Clusters 20-28: Syncrescendence internal/operational
 - Near-duplicate adjudication: 122 candidates identified (NEARDUPES-ADJUDICATOR.tsv)

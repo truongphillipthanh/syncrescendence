@@ -213,7 +213,7 @@ Every dispatch involving corpus or file classification MUST include this verbati
 1. **Pre-digested context IN the prompt.** Do NOT make Grok paginate GitHub. Give it representative filenames, file paths, folder census. It should spend tokens reading, not navigating.
 2. **Named anchor files.** "Start by opening THESE files" — specific, real paths that force Grok into content. Not prescriptive (don't say what to find), but directional (say where to look).
 3. **Content proof requirement.** "Quote one sentence from each file to prove you read it." Mechanical check against hallucination — fabricated filenames can't produce real quotes.
-4. **Output pressure.** "Exhaust your output tokens." "Maximum length." Grok defaults to conciseness when given autonomy — the opposite of what we need.
+4. **Output pressure.** "Exhaust your output tokens." "Maximum length." "Write your complete response as a markdown file." Grok defaults to conciseness when given autonomy — the opposite of what we need.
 5. **Constrained enumeration questions.** Not "What's in this pile?" → "Identify 8-12 distinct sub-themes with 3 real filenames and a content quote for each."
 6. **Positive mandates over negative framing.** "DO read content and quote it" > "Do NOT pattern-match filenames."
 7. **Avatar context.** Oracle performs exponentially better with constellation identity context. Include it or summarize it.
@@ -233,7 +233,8 @@ Every dispatch involving corpus or file classification MUST include this verbati
 4. **Survey comprehensively.** Cover ALL folders/clusters, not just the suspicious ones. Maximum resolution, conciseness. Score each.
 5. **Cross-folder connection mapping.** Explicit task: "For each folder, which OTHER folder has strongest thematic affinity? Evidence?"
 6. **Do NOT prescribe lenses.** Give launching pads and let Cartographer find its own spectrum. The launching pads ARE the prompt injection.
-7. **Always sync the repo and link specific repo paths.** Push first, then provide GitHub URL with specific folder paths.
+7. **Output pressure.** "Exhaust your output tokens." "Maximum length." "Write your complete response as a markdown file." Cartographer defaults to elegant brevity — force exhaustive coverage.
+8. **Always sync the repo and link specific repo paths.** Push first, then provide GitHub URL with specific folder paths.
 
 **Anti-patterns**: Stripping the formula / "simplifying" (= generic output every time). Prescribing what to find (= Commander projecting). Letting it list files instead of synthesize (= wasted capacity). Asking for depth without width (= incomplete survey).
 
@@ -249,7 +250,8 @@ Every dispatch involving corpus or file classification MUST include this verbati
 5. **Binary verdicts.** "CORRECT or MISPLACED (and where it should go)." No ambiguity, no "maybe."
 6. **Accuracy percentages.** Calculate per-section accuracy. Engineering metric.
 7. **No creative latitude.** Do not ask for synthesis, theories, or novel insights. Verification tasks only.
-8. **Always sync the repo and link specific repo paths.** Push first, provide GitHub URL, point to specific files.
+8. **Output pressure.** "Exhaust your output tokens." "Maximum length." "Write your complete response as a markdown file." Adjudicator can truncate tables when unpressured — force complete enumeration.
+9. **Always sync the repo and link specific repo paths.** Push first, provide GitHub URL, point to specific files.
 
 **Anti-patterns**: Asking for synthesis or creative work (= wrong tool). Depth without width (= incomplete audit). Vague instructions (= aspergerly interpretation). No row counts (= truncated output).
 
