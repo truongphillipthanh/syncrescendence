@@ -1,39 +1,40 @@
 # NUCLEOSYNTHESIS MAP — Corpus Classification Authority
 
-**Updated**: 2026-02-28 (CC57)
+**Updated**: 2026-02-28 (CC58)
 **Corpus**: 22 semantic topic folders, 5,954 files (49.3% reduction from 11,733 originals)
+**Subcategory Indexes**: 5 largest folders indexed (3,238 files across 30 sub-themes)
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
 ---
 
 ## Folder Census
 
-| Folder | Files | Description |
-|--------|------:|-------------|
-| ai-biotech | 10 | Biotechnology, synthetic biology, AI in life sciences |
-| ai-capability-futures | 448 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions |
-| ai-memory-retrieval | 393 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture |
-| ai-models | 880 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization |
-| ai-safety | 101 | Constitutional AI, RLHF, alignment, governance, existential risk |
-| ai-video-vfx | 126 | AI image/video generation, VFX workflows, creative AI tooling |
-| claude-code | 577 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions |
-| design-taste | 193 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" |
-| geopolitics-grand-strategy | 163 | US-China, grand strategy, civilizational analysis, defense, international relations |
-| health-psychology | 181 | Sleep, fitness, mental health, neuroscience, biohacking, psychology |
-| infrastructure | 90 | DevOps, cloud, servers, networking, compute economics |
-| leadership-management | 52 | Executive decision-making, org design, management frameworks |
-| meaning-civilization | 190 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism |
-| multi-agent-systems | 761 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files (classified by topic) |
-| openclaw | 572 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets |
-| philosophy-esoterica | 234 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah |
-| product-business | 242 | Business models, PMF, SaaS, AI product strategy, distribution |
-| productivity-pkm | 184 | Second Brain, PKM, Obsidian, habits, workflow automation, focus |
-| prompt-engineering | 41 | Prompt design, templates, optimization, few-shot patterns |
-| startup-vc | 81 | Founders, fundraising, startup culture, VC dynamics |
-| vibe-coding | 207 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines |
-| writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS |
+| Folder | Files | Description | Subcategories |
+|--------|------:|-------------|:---:|
+| ai-biotech | 10 | Biotechnology, synthetic biology, AI in life sciences | — |
+| ai-capability-futures | 448 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
+| ai-memory-retrieval | 393 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
+| ai-models | 880 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
+| ai-safety | 101 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
+| ai-video-vfx | 126 | AI image/video generation, VFX workflows, creative AI tooling | — |
+| claude-code | 577 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
+| design-taste | 193 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
+| geopolitics-grand-strategy | 163 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
+| health-psychology | 181 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
+| infrastructure | 90 | DevOps, cloud, servers, networking, compute economics | — |
+| leadership-management | 52 | Executive decision-making, org design, management frameworks | — |
+| meaning-civilization | 190 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
+| multi-agent-systems | 761 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
+| openclaw | 572 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
+| philosophy-esoterica | 234 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
+| product-business | 242 | Business models, PMF, SaaS, AI product strategy, distribution | — |
+| productivity-pkm | 184 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
+| prompt-engineering | 41 | Prompt design, templates, optimization, few-shot patterns | — |
+| startup-vc | 81 | Founders, fundraising, startup culture, VC dynamics | — |
+| vibe-coding | 207 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
+| writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS | — |
 
-**Total**: 5,954 files across 22 folders (+ 1 empty uncategorized). 49.3% reduction from 11,733 originals.
+**Total**: 5,954 files across 22 folders. 49.3% reduction from 11,733 originals. 5 folders subcategorized (3,238 files, 30 sub-themes).
 
 ---
 
@@ -113,6 +114,24 @@ The `cc_handoff.sh` PreCompact hook fired twice within one minute during rapid-f
 | Sequential compaction | ~2 | Versioned snapshots | Expected behavior |
 
 **Total removed (CC57)**: 889 files (773 JSONL + 116 near-dupes). Corpus: 11,733 → 5,954 (49.3% reduction).
+
+---
+
+## Subcategory Indexes (CC58)
+
+Subcategories are implemented as **Ranganathan faceted indexes** — semantic routing tables overlaid on flat space. Files do not move. Filenames do not change. Each indexed folder contains a `SUBCATEGORY-INDEX.md` that maps numeric file IDs to sub-themes. A file can be cross-referenced from multiple indexes.
+
+| Folder | Sub-themes |
+|--------|-----------|
+| **ai-models** (880) | Mathematical Foundations, Frontier Model Releases, Training & Scaling, Benchmarks & Evaluation, Architecture & Efficiency, Fine-Tuning & Adaptation |
+| **multi-agent-systems** (762) | External MAS Research, Syncrescendence Operations, Orchestration Patterns, MCP & Protocol Engineering, Sub-Agent Delegation, Architecture & Frameworks |
+| **claude-code** (576) | Core Architecture, Extended Thinking & Reasoning, MCP & Sub-Agent Integration, Customization & Skills, Community & Usage Patterns, Security & Isolation |
+| **openclaw** (572) | Installation & Configuration, Memory & Personality, Phone & Multi-Device Fleets, Security & Cost Optimization, Operational Tooling, Ecosystem & Comparative Analysis |
+| **ai-capability-futures** (448) | AGI Timelines & Predictions, Scaling Laws & Trajectories, Agent Evals & Capability Benchmarks, Market & Investment Analysis, Democratization & Open Models, Human-AI Symbiosis |
+
+**Architecture**: Ranganathan faceted classification. Physical files are immutable numeric IDs. Subcategories exist only as index entries. Reclassification = editing one line in an index file, zero file I/O. Poly-hierarchical: liminal files can appear in multiple indexes.
+
+**Formation principles**: Threshold of Distinction (sub-theme justified only if semantic distance from peers > internal variance), Asymmetric Density (follow Zipf's law, not forced equal distribution), no type-based sub-themes at any granularity level.
 
 ---
 

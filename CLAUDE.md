@@ -41,6 +41,7 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ```
 corpus/              Knowledge corpus (5,954 files across 22 semantic topic folders)
   NUCLEOSYNTHESIS-MAP.md   Classification authority
+  <topic>/SUBCATEGORY-INDEX.md   Ranganathan faceted indexes (5 largest folders)
 canon/               Verified canonical knowledge (PROTECTED, 164 files)
   sn/                Syncrescript notation
 engine/              Prompts for agent dispatch
