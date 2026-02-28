@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit configs
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit configs validate-canon migrate-canon
 
 # ──────────────────────────────────────────────────────────────
 # Config Generation — Single-source build from AGENTS.md master
@@ -140,6 +140,30 @@ clean:
 	@find . -name "*.bak.*" -mtime +7 -not -path './.git/*' -delete 2>/dev/null; true
 	@find . -name ".DS_Store" -not -path './.git/*' -delete 2>/dev/null; true
 	@echo "Clean complete."
+
+# ============================================
+# CANON S-1 IMMUNE SYSTEM (T-6)
+# ============================================
+
+# Validate canon frontmatter against S-1 schema (the immune system)
+validate-canon:
+	@python3 corpus/validate_canon.py
+
+# Validate canon (JSON output)
+validate-canon-json:
+	@python3 corpus/validate_canon.py --json
+
+# Migrate canon frontmatter to S-1 standard (dry-run by default)
+migrate-canon:
+	@python3 corpus/canon_frontmatter_migrate.py --dry-run
+
+# Execute canon migration (writes changes)
+migrate-canon-execute:
+	@python3 corpus/canon_frontmatter_migrate.py --execute
+
+# Show sovereign review queue for ambiguous dependencies
+migrate-canon-review:
+	@python3 corpus/canon_frontmatter_migrate.py --review
 
 # Comprehensive verification (scripts)
 verify-full:
