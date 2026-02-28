@@ -4,9 +4,9 @@
   "tranches": {
     "A": {"status": "blocked", "filesProcessed": ["02-ENGINE/REF-ROSETTA_STONE.md"], "entriesExtracted": 0, "reason": "02-ENGINE directory does not exist"},
     "B": {"status": "pending", "filesProcessed": [], "entriesExtracted": 0},
-    "C": {"status": "in-progress", "filesProcessed": ["CANON-00010-OPERATIONS-cosmos.md", "CANON-31130-SEVEN_LAYER-lunar-ACUMEN.md", "CANON-31140-IIC-lunar-ACUMEN.md", "CANON-30300-TECH_STACK-comet-INTELLIGENCE.md"], "entriesExtracted": 24},
+    "C": {"status": "in-progress", "filesProcessed": ["CANON-00010-OPERATIONS-cosmos.md", "CANON-31130-SEVEN_LAYER-lunar-ACUMEN.md", "CANON-31140-IIC-lunar-ACUMEN.md", "CANON-30300-TECH_STACK-comet-INTELLIGENCE.md", "CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN.md"], "entriesExtracted": 45},
     "D": {"status": "pending", "filesProcessed": [], "entriesExtracted": 0}
   },
-  "totalEntries": 24,
-  "nextAction": "Continue Tranche C extraction: CANON-31141-FIVE_ACCOUNT, CANON-30420-MULTI_AGENT_ORCHESTRATION, CANON-30430-MEMORY_SYSTEMS variants"
+  "totalEntries": 45,
+  "nextAction": "Continue Tranche C: Check for remaining canon files (CANON-30420*, MEMORY_SYSTEMS*, other satellites)"
 }

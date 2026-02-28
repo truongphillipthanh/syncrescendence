@@ -49,8 +49,39 @@ Prioritized backlog from Canon extraction.
 - [ ] **IMP-018**: Execute CSV Migration Protocol (447 apps, 42 models, 31 pricing)
 - [ ] **IMP-024**: Deploy IIC Activation Sequence Per Phase
 
+### P7: IIC Intelligence Systems
+- [ ] **IMP-025**: Daily Intelligence Brief Generation (automated overnight)
+- [ ] **IMP-026**: Automated Qualification System (1-10 scoring)
+- [ ] **IMP-027**: Multi-Layer Intelligence Architecture (4 layers)
+- [ ] **IMP-028**: Content Flow Architecture with queues
+- [ ] **IMP-043**: Serendipitous Encounters System
+- [ ] **IMP-044**: Strategic Notification System (Red/Amber/Green/Grey)
+- [ ] **IMP-045**: Cross-Chain Handoff Protocols
+
+### P8: Platform Grammar Configuration
+- [ ] **IMP-029**: YouTube Platform Grammar (abstraction/modality/cadence/fidelity)
+- [ ] **IMP-030**: X/Twitter Platform Grammar (Lists navigation)
+- [ ] **IMP-031**: Substack Platform Grammar (priority bands)
+
+### P9: Five IIC Deployment
+- [ ] **IMP-032**: Sequential IIC Activation Timeline (36-month)
+- [ ] **IMP-033**: Per-IIC Configuration Checklist (17-28hr each)
+- [ ] **IMP-034**: Coherence IIC - Synthesis Intelligence
+- [ ] **IMP-035**: Efficacy IIC - Operational Intelligence
+- [ ] **IMP-036**: Mastery IIC - Curriculum Intelligence
+- [ ] **IMP-037**: Transcendence IIC - Meta Intelligence
+- [ ] **IMP-042**: All Five IIC Accounts (Gmail provisioning)
+
+### P10: Maintenance & Quality
+- [ ] **IMP-038**: Daily IIC Maintenance Rhythms
+- [ ] **IMP-039**: Weekly/Monthly/Quarterly Maintenance
+- [ ] **IMP-040**: Quality Assurance Protocols
+- [ ] **IMP-041**: Anti-Pitfall Safeguards
+
 ## Tranche D: Tooling + Integration
 **Status**: PENDING — Await Tranche C completion
 
 ## Completed
-**None yet** — All 24 entries in `new` status awaiting dispatch
+- [x] Infrastructure bootstrap: 00-ORCHESTRATION/state/ created
+- [x] Git commit: `02586517` — Initial burndown infrastructure
+- [x] 45 entries extracted across 5 Canon files
