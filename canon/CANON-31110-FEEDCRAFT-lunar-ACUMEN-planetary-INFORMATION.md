@@ -20,7 +20,6 @@ siblings:
   - CANON-31120
   - CANON-31130
   - CANON-31140
-  - CANON-31150
 synthesizes:
   - CANON-31115
 

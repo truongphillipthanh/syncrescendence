@@ -15,11 +15,6 @@ parent: CANON-30400
 requires:
   - CANON-30400
 siblings:
-  - CANON-30410
-  - CANON-30420
-  - CANON-30430
-  - CANON-30440
-  - CANON-30450
 synthesizes: []
 
 status: canonical

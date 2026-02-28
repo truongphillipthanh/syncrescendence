@@ -15,7 +15,6 @@ requires:
 siblings: []
 synthesizes:
   - CANON-34110
-  - CANON-34120
 
 status: canonical
 operational_status: theoretical

@@ -14,7 +14,6 @@ requires:
   - CANON-34100
   - CANON-34000
 siblings:
-  - CANON-34120
 synthesizes: []
 
 status: canonical

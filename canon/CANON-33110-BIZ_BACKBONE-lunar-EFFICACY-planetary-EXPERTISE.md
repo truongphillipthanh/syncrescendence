@@ -15,7 +15,6 @@ requires:
   - CANON-33000
 siblings: []
 synthesizes:
-  - CANON-33111
   - CANON-33112
 
 status: canonical

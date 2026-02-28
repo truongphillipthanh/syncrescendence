@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit configs validate-canon migrate-canon
+.PHONY: verify verify-full lint triage sync update-ledgers tree clean help token token-json token-full sync-drive sync-all sync-checkpoint regenerate-canon model-db model-query model-cost model-routing search ecosystem-health memory-status ontology-build ontology-query ontology-stats ontology-dashboard ontology-surface ontology-verify ontology-refresh ontology-audit configs validate-canon migrate-canon compile-canon parse-canon
 
 # ──────────────────────────────────────────────────────────────
 # Config Generation — Single-source build from AGENTS.md master
@@ -148,6 +148,14 @@ clean:
 # Validate canon frontmatter against S-1 schema (the immune system)
 validate-canon:
 	@python3 corpus/validate_canon.py
+
+# Compile canon (stages 1+2, full pipeline)
+compile-canon:
+	@python3 corpus/canon_compiler.py compile
+
+# Parse canon to IR (stage 1 only)
+parse-canon:
+	@python3 corpus/canon_compiler.py parse --out corpus/canon_ir.json
 
 # Validate canon (JSON output)
 validate-canon-json:
