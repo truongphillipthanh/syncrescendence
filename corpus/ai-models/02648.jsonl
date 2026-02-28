@@ -1,1 +1,0 @@
-{"atom_id": "ATOM-SOURCE-20260114-484-0001", "source_id": "SOURCE-20260114-484", "category": "claim", "content": "Claude Cowork is a new tool whose code was written exclusively by AI.", "line_start": 1, "line_end": 50, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.1, 0.8, 0.1, 0.1, 0.1, 0.8], "opposes_atom_ids": []}, "extensions": {}}

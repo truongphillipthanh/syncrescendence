@@ -1,1 +1,0 @@
-{"atom_id": "ATOM-SOURCE-20260219-033-0001", "source_id": "SOURCE-20260219-033", "category": "claim", "content": "Claude Sonnet 4.6 is a model.", "line_start": 12, "line_end": 12, "chaperone": {"context_type": "consensus", "argument_role": "claim", "tension_vector": [0.0, 1.0, 0.0, 0.0, 0.0, 1.0], "opposes_atom_ids": []}, "extensions": {}}
