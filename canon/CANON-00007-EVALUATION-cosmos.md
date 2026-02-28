@@ -44,7 +44,6 @@ entities_defined:
 ### With Integrated Validation Architecture, Cultural Translation Protocols & Modal Sequence Integration
 
 > **Evaluation Date**: November 10, 2025
-> **Version**: 2.3 (Modal Sequence Integration + Six-Dimension Harmonization)
 > **Status**: Complete Assessment Foundation with Operational Protocols
 > **Methodology**: Brutal Honesty + Empirical Grounding + Philosophical Sophistication + Cultural Sensitivity
 > **Changes from v2.1**: Modal Sequence references integrated, terminology harmonized to six canonical dimensions
@@ -915,7 +914,6 @@ This v2.3 evaluation represents the framework's commitment to **brutal honesty a
 *Merged 2026-02-01 per CANON lean-out directive*
 
 > **Date**: November 10, 2025
-> **Version**: 2.3 (30 Total Irresolutions + Modal Sequence Integration)
 > **Approach**: Brutal Honesty + Architectural Precision + Technology Context
 
 ## PART I: ORIGINAL 15 IRRESOLUTIONS (Re-evaluated with Enhanced Rigor & Modal Context)

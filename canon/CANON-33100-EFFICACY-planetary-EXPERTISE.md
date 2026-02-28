@@ -38,7 +38,6 @@ entities_defined:
 > **Canonical Anchor**: Syncrescendence-complete.md (v1.0)  
 > **Component**: Planetary Efficacy (Fire/Intention-Formation)  
 > **Mode**: Hybrid  
-> **Version**: 1.0.0  
 > **Status**: Canonical  
 > **Date**: October 17, 2025  
 > **Maintainer**: Primary Architect

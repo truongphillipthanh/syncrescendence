@@ -39,7 +39,6 @@ entities_defined:
 
 > **Date**: February 26, 2026
 > **Status**: Canonical Policy
-> **Version**: 1.0.0
 > **Source**: Adjudicator Engineering Spec (Deliverable 3)
 
 ---

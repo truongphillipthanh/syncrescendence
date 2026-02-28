@@ -46,7 +46,6 @@ entities_defined:
 ## Atmospheric Awareness and Perceptual Sophistication
 
 > **Canonical Document**  
-> **Version**: 2.3 (IIC Integration & Technology Sovereignty Enhanced)  
 > **Date**: November 11, 2025  
 > **Classification**: Planetary System (Information Chain)  
 > **Cosmological Hierarchy**: [[CANON-31000-INFORMATION-chain]] (Information Chain) → CANON-31100 (Planetary Acumen)

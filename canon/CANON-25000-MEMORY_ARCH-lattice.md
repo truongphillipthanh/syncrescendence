@@ -51,7 +51,6 @@ entities_defined:
 ## Universal Protocol for Cognitive Persistence
 ### Lattice Tier | Navigation Infrastructure
 
-**Version**: 1.0  
 **Classification**: Lattice (Navigation Infrastructure)  
 **Status**: Canonical  
 **Created**: December 28, 2025  

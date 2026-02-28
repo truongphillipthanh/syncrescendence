@@ -384,5 +384,4 @@ integration_points:
 ---
 
 **Status**: Beta pending founder validation + production testing
-**Version**: v1.0 (October 2025)
 **Ready For**: P0-2 TONE LIBRARY integration

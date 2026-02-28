@@ -14,6 +14,9 @@ refresh_cadence: monthly
 parent: CANON-30000
 requires:
   - CANON-30000
+  - CANON-30310
+  - CANON-30320
+  - CANON-30340
 siblings: []
 synthesizes: []
 
@@ -41,7 +44,6 @@ entities_defined:
 ## ASA Implementation for Rational Tool Navigation
 
 **Status**: Beta - Schema Complete, Awaiting Data Migration  
-**Version**: 1.0  
 **Date**: October 19, 2025  
 **Dependencies**: ASA Model (Canonical), derived-taxonomy (Stable)  
 **Integration Points**: Enables P0-2 (TONE LIBRARY), P1-3 (TOOLCRAFT Consolidation)

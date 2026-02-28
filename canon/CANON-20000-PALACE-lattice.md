@@ -52,7 +52,6 @@ entities_defined:
 > **Canonical Anchor**: Syncrescendence-complete.md (v1.0)
 > **Component**: Dimensional Substrate
 > **Mode**: Hybrid (Operational focus with mythopoetic enrichment)
-> **Version**: 1.0.0
 > **Status**: Canonical
 > **Date**: October 17, 2025
 > **Maintainer**: Primary Architect

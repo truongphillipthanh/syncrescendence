@@ -42,7 +42,6 @@ entities_defined:
 > **Canonical Anchor**: Syncrescendence-complete.md (v1.0)  
 > **Component**: Transcendence Causal Chain (Wisdom)  
 > **Mode**: Operational  
-> **Version**: 1.0.0  
 > **Status**: Canonical  
 > **Date**: October 17, 2025  
 > **Maintainer**: Primary Architect

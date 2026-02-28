@@ -40,7 +40,6 @@ entities_defined:
 ---
 # CANON-00014: CONTENT PRODUCTION PROTOCOL
 **Classification**: Operational Supplement
-**Version**: 1.0
 **Date**: November 11, 2025
 **Status**: OPERATIONAL
 **Parent**: [[CANON-00010-OPERATIONS-cosmos]] Operations v2.3)
@@ -2572,7 +2571,6 @@ What remains is **execution**.
 
 *This supplement completes the Content Production Protocol for Syncrescendent practice. Integrate with [[CANON-00010-OPERATIONS-cosmos]] Operations), [[CANON-00012-MODAL_SEQUENCE-cosmos]] Modal Sequence), and [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]]-31143 (IIC Constellation) for comprehensive operational guidance.*
 
-**Version**: 1.0  
 **Status**: OPERATIONAL  
 **Authority**: Definitive Annealment Schema v2.3
 

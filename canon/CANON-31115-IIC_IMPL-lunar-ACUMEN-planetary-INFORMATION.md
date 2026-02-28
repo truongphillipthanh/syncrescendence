@@ -42,7 +42,6 @@ entities_defined:
 ## Complete Operational Specification with Worked Examples
 
 > **Classification**: Operational Supplement (Non-Canonical)  
-> **Version**: 1.0  
 > **Date**: November 11, 2025  
 > **Parent Document**: [[CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION]] (Feedcraft Lunar System)  
 > **Dependencies**: [[CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION]] (Seven-Layer Stack), [[CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION]]-31143 (IIC Constellation)  

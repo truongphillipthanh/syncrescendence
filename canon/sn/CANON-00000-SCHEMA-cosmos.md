@@ -26,7 +26,6 @@ last_verified: 2026-02-05
 > **Canonical Anchor**: Syncrescendence v2.3 + All Canonical Artifacts
 > **Component**: Meta-Systemic Navigation
 > **Mode**: Pedagogical (Teaching Document)
-> **Version**: 2.3 (Six Dimensions Canonicalized)
 > **Status**: Canonical
 > **Date**: November 10, 2025
 > **Maintainer**: Primary Architect

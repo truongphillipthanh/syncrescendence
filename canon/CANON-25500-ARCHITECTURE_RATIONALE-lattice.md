@@ -27,7 +27,6 @@ volatile_sections: []
 ---
 # CANON-25500: Architecture Rationale — Complete Reconstruction Guide
 ## How We Arrived Here and How to Rebuild from Scratch
-**Version**: 1.0.0
 **Date**: 2026-02-23
 **Authority**: Sovereign + Commander / Council 22
 **Status**: CANON (immutable verified knowledge)

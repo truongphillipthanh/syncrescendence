@@ -40,7 +40,6 @@ entities_defined:
 # CANON-00017-AGENTIC_CONSTITUTION-cosmos.md
 ## Constitution of the Antifragile Syncrescendent Intelligence Apparatus
 
-**Version**: 1.0
 **Status**: CANON
 **Chain**: Cosmos (Constitutional Foundation)
 **Source**: Synthesized from Gemini strategic dialogue, 2026-01-02

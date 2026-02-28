@@ -45,7 +45,6 @@ entities_defined:
 ## Macroscopic Resolution Strategy & Architectural Integration v2.3
 ### From Evaluation Tensions to Operational Architecture (Master Schema Orthogonality)
 
-> **Version**: 2.3 (Modal Sequence Integration Complete)
 > **Date**: November 10, 2025
 > **Status**: Six Dimensions Canonicalized
 > **Alignment**: Master Terminology Schema v2.0 (definitive)

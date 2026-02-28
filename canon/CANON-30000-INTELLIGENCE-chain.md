@@ -14,6 +14,8 @@ refresh_cadence: quarterly
 parent: CANON-00000
 requires:
   - CANON-00000
+  - CANON-30100
+  - CANON-30200
 siblings: []
 synthesizes: []
 
@@ -39,7 +41,6 @@ entities_defined:
 > **Canonical Anchor**: Syncrescendence-complete.md (v1.0)
 > **Component**: Technology Causal Chain (Intelligence)
 > **Mode**: Operational
-> **Version**: 1.0.0
 > **Status**: Canonical
 > **Date**: October 17, 2025
 > **Maintainer**: Primary Architect

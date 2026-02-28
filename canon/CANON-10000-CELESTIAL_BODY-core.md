@@ -40,7 +40,6 @@ entities_defined:
 > **Canonical Anchor**: Syncrescendence-complete.md (v1.0)  
 > **Component**: Central Energetic Core  
 > **Mode**: Hybrid (Mythopoetic foundations, Operational protocols)  
-> **Version**: 1.1.0  
 > **Status**: Canonical (Adds epistemic status markers + validation requirements)  
 > **Date**: October 20, 2025  
 > **Maintainer**: Primary Architect

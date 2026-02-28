@@ -10,7 +10,10 @@ volatility_band: moderate
 refresh_cadence: semi-annual
 
 parent: CANON-00000
-requires: []
+requires:
+  - CANON-00014
+  - CANON-00015
+
 siblings:
   - CANON-00005
   - CANON-00009
@@ -45,7 +48,6 @@ entities_defined:
 ## Operational Playbook & Implementation Protocols v2.3
 ### From Architecture to Daily Practice
 
-> **Version**: 2.3 (Modal Integration & Content Production Protocol)
 > **Date**: November 10, 2025
 > **Status**: Definitive Annealment Complete
 > **Alignment**: Master Terminology Schema v2.3 + Modal Sequence Architecture

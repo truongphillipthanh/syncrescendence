@@ -36,7 +36,6 @@ entities_defined:
 # CANON-25200: PLATFORM CONSTELLATION ARCHITECTURE
 ## Multi-Platform AI Orchestration Specification
 
-**Version**: 1.0.0
 **Classification**: Lattice (Navigation Infrastructure)
 **Status**: Canonical
 **Created**: 2026-01-11

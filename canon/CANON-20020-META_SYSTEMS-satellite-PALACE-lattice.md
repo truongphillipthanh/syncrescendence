@@ -38,7 +38,6 @@ entities_defined:
 > **Parent**: [[CANON-20000-PALACE-lattice]]-PALACE-lattice.md
 > **Source**: Coherence/2-CognitivePalace/*-70/71/72/73*.md (~30K distilled)
 > **Status**: Canonical
-> **Version**: 1.0.0
 
 ---
 

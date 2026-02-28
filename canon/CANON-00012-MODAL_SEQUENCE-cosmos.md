@@ -40,7 +40,6 @@ entities_defined:
 ## Temporal-Strategic Progression Framework
 
 **Classification**: Cosmos (Foundational Architecture)
-**Version**: 1.0 (Unified)
 **Date**: November 10, 2025
 **Status**: CANONICAL
 **Priority**: P0-CRITICAL

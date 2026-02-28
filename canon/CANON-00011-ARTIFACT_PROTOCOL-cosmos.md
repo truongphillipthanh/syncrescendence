@@ -45,7 +45,6 @@ entities_defined:
 
 > **Date**: October 19, 2025
 > **Status**: Canonical Foundation
-> **Version**: 1.0.0
 > **Phase**: Operational Activation
 
 ---

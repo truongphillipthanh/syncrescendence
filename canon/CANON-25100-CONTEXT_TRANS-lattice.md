@@ -39,7 +39,6 @@ entities_defined:
 # CANON-25100: CONTEXT TRANSITION PROTOCOL
 ## Unified Interface for Cognitive Continuity Across Sessions
 
-**Version**: 1.1  
 **Classification**: Lattice (Navigation Infrastructure)  
 **Status**: Canonical  
 **Created**: December 28, 2025  

@@ -39,7 +39,6 @@ entities_defined:
 ## Corporate & Platform Characterization for Technology Intelligence
 
 **Status**: Beta - Integration Complete  
-**Version**: 1.0  
 **Date**: October 19, 2025  
 **Dependencies**: Technology Stack Database (P0-3), ASA Model (Canonical), derived-taxonomy (Stable)  
 **Integration Points**: Enhances Intelligence Chain with strategic context, informs Feedcraft platform selection

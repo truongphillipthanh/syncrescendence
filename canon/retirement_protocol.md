@@ -27,7 +27,6 @@ volatile_sections: []
 ---
 # Retirement Protocol — Competitive Exclusion with Enforced Pruning
 
-**Version**: 1.0.0
 **Status**: canonical
 **Created**: 2026-02-26
 **Authority**: Sovereign directive

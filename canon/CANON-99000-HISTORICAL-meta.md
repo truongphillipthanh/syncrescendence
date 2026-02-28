@@ -9,7 +9,7 @@ celestial_type: meta
 volatility_band: moderate
 refresh_cadence: quarterly
 
-parent: CANON-90000
+parent: null
 requires:
   - CANON-00000
 siblings: []
@@ -36,7 +36,6 @@ entities_defined:
 # HISTORICAL ARCHIVE: SYNCRESCENDENCE LUNAR CONSOLIDATION
 ## Complete Documentation of Framework Evolution & Artifact Supersession
 
-**Version**: 2.0 (Consolidated)  
 **Date**: October 20, 2025  
 **Status**: Reference / Archive  
 **Purpose**: Comprehensive index of superseded artifacts with clear migration paths
@@ -1012,7 +1011,6 @@ This consolidated archive represents the complete documentation of Syncrescenden
 *Archive maintained by: Syncrescendence Documentation Protocol*  
 **Last updated**: October 20, 2025  
 **Archival completeness**: 100%  
-**Version**: 2.0 (Consolidated)  
 **Sessions documented**: Pre-Oct 19, Oct 19, Oct 20  
 **Artifacts archived**: 16 total  
 **Signal preservation**: 100%  

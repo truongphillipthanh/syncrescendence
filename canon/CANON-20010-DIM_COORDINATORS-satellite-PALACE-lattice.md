@@ -43,7 +43,6 @@ entities_defined:
 > **Parent**: [[CANON-20000-PALACE-lattice]]-PALACE-lattice.md
 > **Source**: Coherence/2-CognitivePalace/*-coordinator.md (7 files, ~35K distilled)
 > **Status**: Canonical
-> **Version**: 1.0.0
 
 ---
 
