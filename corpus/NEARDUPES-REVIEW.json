@@ -1,0 +1,2252 @@
+{
+  "total_files": 6689,
+  "analyzed_files": 6441,
+  "matches": [
+    {
+      "a": "00096",
+      "b": "00097.md",
+      "metrics": {
+        "prefix_ratio": 0.938,
+        "prefix_overlap": 0.8987,
+        "full_containment_ab": 0.9931,
+        "full_containment_ba": 0.9815,
+        "length_a": 6201,
+        "length_b": 6290
+      }
+    },
+    {
+      "a": "00111.md",
+      "b": "00137.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.9493,
+        "full_containment_ba": 0.9515,
+        "length_a": 2686,
+        "length_b": 2672
+      }
+    },
+    {
+      "a": "00123.md",
+      "b": "00124.md",
+      "metrics": {
+        "prefix_ratio": 0.976,
+        "prefix_overlap": 0.9167,
+        "full_containment_ab": 0.8627,
+        "full_containment_ba": 0.866,
+        "length_a": 19395,
+        "length_b": 11822
+      }
+    },
+    {
+      "a": "00136.md",
+      "b": "08827.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.9535,
+        "full_containment_ba": 0.5789,
+        "length_a": 3084,
+        "length_b": 5612
+      }
+    },
+    {
+      "a": "00143.md",
+      "b": "08829.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.9772,
+        "full_containment_ba": 0.6125,
+        "length_a": 2013,
+        "length_b": 3751
+      }
+    },
+    {
+      "a": "00180.md",
+      "b": "00181.md",
+      "metrics": {
+        "prefix_ratio": 0.976,
+        "prefix_overlap": 0.9103,
+        "full_containment_ab": 0.9442,
+        "full_containment_ba": 0.9549,
+        "length_a": 4174,
+        "length_b": 4118
+      }
+    },
+    {
+      "a": "00309.md",
+      "b": "11156.md",
+      "metrics": {
+        "prefix_ratio": 0.97,
+        "prefix_overlap": 0.9178,
+        "full_containment_ab": 0.971,
+        "full_containment_ba": 0.7945,
+        "length_a": 1440,
+        "length_b": 1771
+      }
+    },
+    {
+      "a": "00311.md",
+      "b": "00321.md",
+      "metrics": {
+        "prefix_ratio": 0.962,
+        "prefix_overlap": 0.8846,
+        "full_containment_ab": 0.8404,
+        "full_containment_ba": 0.8404,
+        "length_a": 588,
+        "length_b": 614
+      }
+    },
+    {
+      "a": "00311.md",
+      "b": "11191.md",
+      "metrics": {
+        "prefix_ratio": 0.964,
+        "prefix_overlap": 0.8846,
+        "full_containment_ab": 0.8404,
+        "full_containment_ba": 0.8404,
+        "length_a": 588,
+        "length_b": 596
+      }
+    },
+    {
+      "a": "00319.md",
+      "b": "08627.md",
+      "metrics": {
+        "prefix_ratio": 0.954,
+        "prefix_overlap": 0.8986,
+        "full_containment_ab": 0.9028,
+        "full_containment_ba": 0.9701,
+        "length_a": 1522,
+        "length_b": 1432
+      }
+    },
+    {
+      "a": "00320.md",
+      "b": "08630.md",
+      "metrics": {
+        "prefix_ratio": 0.974,
+        "prefix_overlap": 0.9,
+        "full_containment_ab": 0.9563,
+        "full_containment_ba": 0.9871,
+        "length_a": 3390,
+        "length_b": 3300
+      }
+    },
+    {
+      "a": "00321.md",
+      "b": "11191.md",
+      "metrics": {
+        "prefix_ratio": 0.974,
+        "prefix_overlap": 0.9359,
+        "full_containment_ab": 0.883,
+        "full_containment_ba": 0.883,
+        "length_a": 614,
+        "length_b": 596
+      }
+    },
+    {
+      "a": "00329.md",
+      "b": "11172.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.876,
+        "full_containment_ba": 1.0,
+        "length_a": 839,
+        "length_b": 750
+      }
+    },
+    {
+      "a": "00330.md",
+      "b": "11190.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.8295,
+        "full_containment_ba": 1.0,
+        "length_a": 626,
+        "length_b": 537
+      }
+    },
+    {
+      "a": "00331.md",
+      "b": "11205.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.8696,
+        "full_containment_ba": 1.0,
+        "length_a": 776,
+        "length_b": 687
+      }
+    },
+    {
+      "a": "00364.md",
+      "b": "11193.md",
+      "metrics": {
+        "prefix_ratio": 0.988,
+        "prefix_overlap": 0.942,
+        "full_containment_ab": 0.9472,
+        "full_containment_ba": 0.9884,
+        "length_a": 2393,
+        "length_b": 2304
+      }
+    },
+    {
+      "a": "00539.md",
+      "b": "00940.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 1.0,
+        "length_a": 109477,
+        "length_b": 110731
+      }
+    },
+    {
+      "a": "00704.csv",
+      "b": "00922.md",
+      "metrics": {
+        "prefix_ratio": 0.5097,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 0.0299,
+        "length_a": 277,
+        "length_b": 10400
+      }
+    },
+    {
+      "a": "00725.json",
+      "b": "00729.log",
+      "metrics": {
+        "prefix_ratio": 0.8158,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.6364,
+        "full_containment_ba": 1.0,
+        "length_a": 344,
+        "length_b": 237
+      }
+    },
+    {
+      "a": "00773.log",
+      "b": "00774.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 1.0,
+        "length_a": 1133,
+        "length_b": 1133
+      }
+    },
+    {
+      "a": "00907.md",
+      "b": "08566.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.9288,
+        "full_containment_ba": 0.9279,
+        "length_a": 10108,
+        "length_b": 9999
+      }
+    },
+    {
+      "a": "00908.md",
+      "b": "08567.md",
+      "metrics": {
+        "prefix_ratio": 0.91,
+        "prefix_overlap": 0.5873,
+        "full_containment_ab": 0.8936,
+        "full_containment_ba": 0.8927,
+        "length_a": 12008,
+        "length_b": 11907
+      }
+    },
+    {
+      "a": "01045.log",
+      "b": "09050.md",
+      "metrics": {
+        "prefix_ratio": 0.6712,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 0.4906,
+        "length_a": 197,
+        "length_b": 390
+      }
+    },
+    {
+      "a": "01045.log",
+      "b": "09052.md",
+      "metrics": {
+        "prefix_ratio": 0.6758,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 0.4906,
+        "length_a": 197,
+        "length_b": 386
+      }
+    },
+    {
+      "a": "01046.log",
+      "b": "09051.md",
+      "metrics": {
+        "prefix_ratio": 0.6781,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 0.5,
+        "length_a": 197,
+        "length_b": 384
+      }
+    },
+    {
+      "a": "01048.log",
+      "b": "09053.md",
+      "metrics": {
+        "prefix_ratio": 0.6828,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 0.5,
+        "length_a": 197,
+        "length_b": 380
+      }
+    },
+    {
+      "a": "01096.jsonl",
+      "b": "01097.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.646,
+        "prefix_overlap": 0.8974,
+        "full_containment_ab": 0.7765,
+        "full_containment_ba": 1.0,
+        "length_a": 2080,
+        "length_b": 878
+      }
+    },
+    {
+      "a": "01099.jsonl",
+      "b": "01100.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.536,
+        "prefix_overlap": 0.8889,
+        "full_containment_ab": 0.7769,
+        "full_containment_ba": 1.0,
+        "length_a": 1669,
+        "length_b": 713
+      }
+    },
+    {
+      "a": "01105.jsonl",
+      "b": "01106.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.59,
+        "prefix_overlap": 0.925,
+        "full_containment_ab": 0.7551,
+        "full_containment_ba": 1.0,
+        "length_a": 2555,
+        "length_b": 1075
+      }
+    },
+    {
+      "a": "01249.jsonl",
+      "b": "01250.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3047,
+        "prefix_overlap": 0.9091,
+        "full_containment_ab": 0.6875,
+        "full_containment_ba": 1.0,
+        "length_a": 725,
+        "length_b": 281
+      }
+    },
+    {
+      "a": "01264.jsonl",
+      "b": "01265.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.528,
+        "prefix_overlap": 0.9024,
+        "full_containment_ab": 0.7665,
+        "full_containment_ba": 1.0,
+        "length_a": 2122,
+        "length_b": 899
+      }
+    },
+    {
+      "a": "01267.jsonl",
+      "b": "01268.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6832,
+        "prefix_overlap": 0.9032,
+        "full_containment_ab": 0.7674,
+        "full_containment_ba": 1.0,
+        "length_a": 692,
+        "length_b": 305
+      }
+    },
+    {
+      "a": "01273.jsonl",
+      "b": "01274.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6053,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7568,
+        "full_containment_ba": 1.0,
+        "length_a": 516,
+        "length_b": 217
+      }
+    },
+    {
+      "a": "01297.jsonl",
+      "b": "01298.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.714,
+        "prefix_overlap": 0.9259,
+        "full_containment_ab": 0.8408,
+        "full_containment_ba": 1.0,
+        "length_a": 2012,
+        "length_b": 884
+      }
+    },
+    {
+      "a": "01336.jsonl",
+      "b": "01337.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.79,
+        "prefix_overlap": 0.9508,
+        "full_containment_ab": 0.748,
+        "full_containment_ba": 1.0,
+        "length_a": 3215,
+        "length_b": 1325
+      }
+    },
+    {
+      "a": "01360.jsonl",
+      "b": "01361.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6188,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.68,
+        "full_containment_ba": 1.0,
+        "length_a": 599,
+        "length_b": 224
+      }
+    },
+    {
+      "a": "01477.jsonl",
+      "b": "01478.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.552,
+        "prefix_overlap": 0.8837,
+        "full_containment_ab": 0.8824,
+        "full_containment_ba": 1.0,
+        "length_a": 2107,
+        "length_b": 972
+      }
+    },
+    {
+      "a": "01546.jsonl",
+      "b": "01547.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5485,
+        "prefix_overlap": 0.8974,
+        "full_containment_ab": 0.75,
+        "full_containment_ba": 1.0,
+        "length_a": 1081,
+        "length_b": 459
+      }
+    },
+    {
+      "a": "01549.jsonl",
+      "b": "01550.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.34,
+        "prefix_overlap": 0.881,
+        "full_containment_ab": 0.7545,
+        "full_containment_ba": 1.0,
+        "length_a": 1422,
+        "length_b": 563
+      }
+    },
+    {
+      "a": "01570.jsonl",
+      "b": "01571.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3371,
+        "prefix_overlap": 0.9048,
+        "full_containment_ab": 0.7241,
+        "full_containment_ba": 1.0,
+        "length_a": 745,
+        "length_b": 301
+      }
+    },
+    {
+      "a": "01582.jsonl",
+      "b": "01583.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5673,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7,
+        "full_containment_ba": 1.0,
+        "length_a": 536,
+        "length_b": 198
+      }
+    },
+    {
+      "a": "01621.jsonl",
+      "b": "01622.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.522,
+        "prefix_overlap": 0.8947,
+        "full_containment_ab": 0.745,
+        "full_containment_ba": 1.0,
+        "length_a": 1897,
+        "length_b": 786
+      }
+    },
+    {
+      "a": "01633.jsonl",
+      "b": "01634.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.172,
+        "prefix_overlap": 0.8889,
+        "full_containment_ab": 0.8069,
+        "full_containment_ba": 1.0,
+        "length_a": 1815,
+        "length_b": 807
+      }
+    },
+    {
+      "a": "01660.jsonl",
+      "b": "01661.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5673,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.6757,
+        "full_containment_ba": 1.0,
+        "length_a": 536,
+        "length_b": 198
+      }
+    },
+    {
+      "a": "01717.jsonl",
+      "b": "01718.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5903,
+        "prefix_overlap": 0.925,
+        "full_containment_ab": 0.7727,
+        "full_containment_ba": 1.0,
+        "length_a": 1101,
+        "length_b": 469
+      }
+    },
+    {
+      "a": "01738.jsonl",
+      "b": "01739.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.4428,
+        "prefix_overlap": 0.881,
+        "full_containment_ab": 0.6774,
+        "full_containment_ba": 1.0,
+        "length_a": 789,
+        "length_b": 313
+      }
+    },
+    {
+      "a": "01753.jsonl",
+      "b": "01754.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.7839,
+        "prefix_overlap": 0.9388,
+        "full_containment_ab": 0.85,
+        "full_containment_ba": 1.0,
+        "length_a": 822,
+        "length_b": 370
+      }
+    },
+    {
+      "a": "01774.jsonl",
+      "b": "01775.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.4204,
+        "prefix_overlap": 0.9091,
+        "full_containment_ab": 0.6984,
+        "full_containment_ba": 1.0,
+        "length_a": 770,
+        "length_b": 304
+      }
+    },
+    {
+      "a": "01798.jsonl",
+      "b": "01799.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.512,
+        "prefix_overlap": 0.9048,
+        "full_containment_ab": 0.7712,
+        "full_containment_ba": 1.0,
+        "length_a": 5572,
+        "length_b": 2291
+      }
+    },
+    {
+      "a": "01831.jsonl",
+      "b": "01832.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.4962,
+        "prefix_overlap": 0.9143,
+        "full_containment_ab": 0.7447,
+        "full_containment_ba": 1.0,
+        "length_a": 726,
+        "length_b": 282
+      }
+    },
+    {
+      "a": "01876.jsonl",
+      "b": "01877.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.596,
+        "prefix_overlap": 0.907,
+        "full_containment_ab": 0.7174,
+        "full_containment_ba": 1.0,
+        "length_a": 3950,
+        "length_b": 1555
+      }
+    },
+    {
+      "a": "01879.jsonl",
+      "b": "01880.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.484,
+        "prefix_overlap": 0.9268,
+        "full_containment_ab": 0.7778,
+        "full_containment_ba": 1.0,
+        "length_a": 1955,
+        "length_b": 815
+      }
+    },
+    {
+      "a": "01894.jsonl",
+      "b": "01895.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.2234,
+        "prefix_overlap": 0.8889,
+        "full_containment_ab": 0.6923,
+        "full_containment_ba": 1.0,
+        "length_a": 675,
+        "length_b": 270
+      }
+    },
+    {
+      "a": "01912.jsonl",
+      "b": "01913.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.1995,
+        "prefix_overlap": 0.9211,
+        "full_containment_ab": 0.7037,
+        "full_containment_ba": 1.0,
+        "length_a": 630,
+        "length_b": 252
+      }
+    },
+    {
+      "a": "02047.jsonl",
+      "b": "02048.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5865,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7568,
+        "full_containment_ba": 1.0,
+        "length_a": 482,
+        "length_b": 200
+      }
+    },
+    {
+      "a": "02050.jsonl",
+      "b": "02051.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5858,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7059,
+        "full_containment_ba": 1.0,
+        "length_a": 478,
+        "length_b": 198
+      }
+    },
+    {
+      "a": "02107.jsonl",
+      "b": "02108.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5651,
+        "prefix_overlap": 0.8919,
+        "full_containment_ab": 0.7564,
+        "full_containment_ba": 1.0,
+        "length_a": 975,
+        "length_b": 406
+      }
+    },
+    {
+      "a": "02113.jsonl",
+      "b": "02114.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.59,
+        "prefix_overlap": 0.9111,
+        "full_containment_ab": 0.7857,
+        "full_containment_ba": 1.0,
+        "length_a": 3996,
+        "length_b": 1714
+      }
+    },
+    {
+      "a": "02146.jsonl",
+      "b": "02147.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.518,
+        "prefix_overlap": 0.8947,
+        "full_containment_ab": 0.7636,
+        "full_containment_ba": 1.0,
+        "length_a": 2095,
+        "length_b": 885
+      }
+    },
+    {
+      "a": "02158.jsonl",
+      "b": "02159.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6938,
+        "prefix_overlap": 0.92,
+        "full_containment_ab": 0.7353,
+        "full_containment_ba": 1.0,
+        "length_a": 783,
+        "length_b": 310
+      }
+    },
+    {
+      "a": "02164.jsonl",
+      "b": "02165.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.4487,
+        "prefix_overlap": 0.931,
+        "full_containment_ab": 0.6444,
+        "full_containment_ba": 1.0,
+        "length_a": 611,
+        "length_b": 231
+      }
+    },
+    {
+      "a": "02188.jsonl",
+      "b": "02189.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.53,
+        "prefix_overlap": 0.8947,
+        "full_containment_ab": 0.7365,
+        "full_containment_ba": 1.0,
+        "length_a": 2040,
+        "length_b": 819
+      }
+    },
+    {
+      "a": "02197.jsonl",
+      "b": "02198.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6053,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7222,
+        "full_containment_ba": 1.0,
+        "length_a": 516,
+        "length_b": 217
+      }
+    },
+    {
+      "a": "02275.jsonl",
+      "b": "02276.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.308,
+        "prefix_overlap": 0.8868,
+        "full_containment_ab": 0.8138,
+        "full_containment_ba": 1.0,
+        "length_a": 4293,
+        "length_b": 1865
+      }
+    },
+    {
+      "a": "02296.jsonl",
+      "b": "02297.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.516,
+        "prefix_overlap": 0.8837,
+        "full_containment_ab": 0.711,
+        "full_containment_ba": 1.0,
+        "length_a": 4305,
+        "length_b": 1677
+      }
+    },
+    {
+      "a": "02356.jsonl",
+      "b": "02357.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.602,
+        "prefix_overlap": 0.9048,
+        "full_containment_ab": 0.8208,
+        "full_containment_ba": 1.0,
+        "length_a": 1344,
+        "length_b": 591
+      }
+    },
+    {
+      "a": "02368.jsonl",
+      "b": "02369.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.512,
+        "prefix_overlap": 0.8919,
+        "full_containment_ab": 0.75,
+        "full_containment_ba": 1.0,
+        "length_a": 2359,
+        "length_b": 955
+      }
+    },
+    {
+      "a": "02377.jsonl",
+      "b": "02378.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3625,
+        "prefix_overlap": 0.8919,
+        "full_containment_ab": 0.7115,
+        "full_containment_ba": 1.0,
+        "length_a": 685,
+        "length_b": 267
+      }
+    },
+    {
+      "a": "02449.jsonl",
+      "b": "02450.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.516,
+        "prefix_overlap": 0.9024,
+        "full_containment_ab": 0.7782,
+        "full_containment_ba": 1.0,
+        "length_a": 3078,
+        "length_b": 1296
+      }
+    },
+    {
+      "a": "02500.jsonl",
+      "b": "02501.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5,
+        "prefix_overlap": 0.881,
+        "full_containment_ab": 0.7564,
+        "full_containment_ba": 1.0,
+        "length_a": 1905,
+        "length_b": 790
+      }
+    },
+    {
+      "a": "02515.jsonl",
+      "b": "02516.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3614,
+        "prefix_overlap": 0.9111,
+        "full_containment_ab": 0.7031,
+        "full_containment_ba": 1.0,
+        "length_a": 757,
+        "length_b": 297
+      }
+    },
+    {
+      "a": "02527.jsonl",
+      "b": "02528.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3735,
+        "prefix_overlap": 0.8919,
+        "full_containment_ab": 0.6607,
+        "full_containment_ba": 1.0,
+        "length_a": 673,
+        "length_b": 255
+      }
+    },
+    {
+      "a": "02530.jsonl",
+      "b": "02531.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.413,
+        "prefix_overlap": 0.9143,
+        "full_containment_ab": 0.6364,
+        "full_containment_ba": 1.0,
+        "length_a": 635,
+        "length_b": 236
+      }
+    },
+    {
+      "a": "02554.jsonl",
+      "b": "02555.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3902,
+        "prefix_overlap": 0.8857,
+        "full_containment_ab": 0.6481,
+        "full_containment_ba": 1.0,
+        "length_a": 639,
+        "length_b": 238
+      }
+    },
+    {
+      "a": "02557.jsonl",
+      "b": "02558.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.54,
+        "prefix_overlap": 0.8857,
+        "full_containment_ab": 0.7706,
+        "full_containment_ba": 1.0,
+        "length_a": 5755,
+        "length_b": 2201
+      }
+    },
+    {
+      "a": "02596.jsonl",
+      "b": "02597.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.412,
+        "prefix_overlap": 0.9697,
+        "full_containment_ab": 0.6471,
+        "full_containment_ba": 1.0,
+        "length_a": 695,
+        "length_b": 267
+      }
+    },
+    {
+      "a": "02641.jsonl",
+      "b": "02642.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.7,
+        "prefix_overlap": 0.92,
+        "full_containment_ab": 0.755,
+        "full_containment_ba": 1.0,
+        "length_a": 2560,
+        "length_b": 1051
+      }
+    },
+    {
+      "a": "02725.jsonl",
+      "b": "02726.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.4026,
+        "prefix_overlap": 0.8857,
+        "full_containment_ab": 0.6364,
+        "full_containment_ba": 1.0,
+        "length_a": 683,
+        "length_b": 260
+      }
+    },
+    {
+      "a": "02731.jsonl",
+      "b": "02732.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3507,
+        "prefix_overlap": 0.9474,
+        "full_containment_ab": 0.717,
+        "full_containment_ba": 1.0,
+        "length_a": 617,
+        "length_b": 230
+      }
+    },
+    {
+      "a": "02782.jsonl",
+      "b": "02783.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.554,
+        "prefix_overlap": 0.8919,
+        "full_containment_ab": 0.7404,
+        "full_containment_ba": 1.0,
+        "length_a": 5313,
+        "length_b": 2172
+      }
+    },
+    {
+      "a": "02788.jsonl",
+      "b": "02789.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.4577,
+        "prefix_overlap": 0.8919,
+        "full_containment_ab": 0.6981,
+        "full_containment_ba": 1.0,
+        "length_a": 690,
+        "length_b": 269
+      }
+    },
+    {
+      "a": "02806.jsonl",
+      "b": "02807.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5879,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7561,
+        "full_containment_ba": 1.0,
+        "length_a": 490,
+        "length_b": 204
+      }
+    },
+    {
+      "a": "02815.jsonl",
+      "b": "02816.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.474,
+        "prefix_overlap": 0.9,
+        "full_containment_ab": 0.7377,
+        "full_containment_ba": 1.0,
+        "length_a": 3165,
+        "length_b": 1268
+      }
+    },
+    {
+      "a": "02911.jsonl",
+      "b": "02912.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6658,
+        "prefix_overlap": 0.9048,
+        "full_containment_ab": 0.6885,
+        "full_containment_ba": 1.0,
+        "length_a": 748,
+        "length_b": 293
+      }
+    },
+    {
+      "a": "02941.jsonl",
+      "b": "02942.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.484,
+        "prefix_overlap": 0.9348,
+        "full_containment_ab": 0.7107,
+        "full_containment_ba": 1.0,
+        "length_a": 7377,
+        "length_b": 2895
+      }
+    },
+    {
+      "a": "02989.jsonl",
+      "b": "02990.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.645,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7561,
+        "full_containment_ba": 1.0,
+        "length_a": 558,
+        "length_b": 238
+      }
+    },
+    {
+      "a": "03016.jsonl",
+      "b": "03017.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5843,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7143,
+        "full_containment_ba": 1.0,
+        "length_a": 470,
+        "length_b": 194
+      }
+    },
+    {
+      "a": "03028.jsonl",
+      "b": "03029.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.778,
+        "prefix_overlap": 0.9565,
+        "full_containment_ab": 0.8,
+        "full_containment_ba": 1.0,
+        "length_a": 3342,
+        "length_b": 1396
+      }
+    },
+    {
+      "a": "03073.jsonl",
+      "b": "03074.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.536,
+        "prefix_overlap": 0.8864,
+        "full_containment_ab": 0.767,
+        "full_containment_ba": 1.0,
+        "length_a": 2152,
+        "length_b": 889
+      }
+    },
+    {
+      "a": "03106.jsonl",
+      "b": "03107.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.424,
+        "prefix_overlap": 0.9024,
+        "full_containment_ab": 0.7756,
+        "full_containment_ba": 1.0,
+        "length_a": 6641,
+        "length_b": 2709
+      }
+    },
+    {
+      "a": "03109.jsonl",
+      "b": "03110.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.466,
+        "prefix_overlap": 0.913,
+        "full_containment_ab": 0.7816,
+        "full_containment_ba": 1.0,
+        "length_a": 6943,
+        "length_b": 2815
+      }
+    },
+    {
+      "a": "03142.jsonl",
+      "b": "03143.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.3929,
+        "prefix_overlap": 0.9412,
+        "full_containment_ab": 0.68,
+        "full_containment_ba": 1.0,
+        "length_a": 627,
+        "length_b": 233
+      }
+    },
+    {
+      "a": "03187.jsonl",
+      "b": "03188.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.634,
+        "prefix_overlap": 0.9318,
+        "full_containment_ab": 0.8014,
+        "full_containment_ba": 1.0,
+        "length_a": 7840,
+        "length_b": 3251
+      }
+    },
+    {
+      "a": "03199.jsonl",
+      "b": "03200.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6471,
+        "prefix_overlap": 0.9231,
+        "full_containment_ab": 0.82,
+        "full_containment_ba": 1.0,
+        "length_a": 645,
+        "length_b": 282
+      }
+    },
+    {
+      "a": "03223.jsonl",
+      "b": "03224.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.522,
+        "prefix_overlap": 0.9111,
+        "full_containment_ab": 0.802,
+        "full_containment_ba": 1.0,
+        "length_a": 1193,
+        "length_b": 515
+      }
+    },
+    {
+      "a": "03250.jsonl",
+      "b": "03251.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5882,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7826,
+        "full_containment_ba": 1.0,
+        "length_a": 492,
+        "length_b": 205
+      }
+    },
+    {
+      "a": "03331.jsonl",
+      "b": "03332.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.598,
+        "prefix_overlap": 0.9111,
+        "full_containment_ab": 0.7611,
+        "full_containment_ba": 1.0,
+        "length_a": 1394,
+        "length_b": 575
+      }
+    },
+    {
+      "a": "03385.jsonl",
+      "b": "03386.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.534,
+        "prefix_overlap": 0.9268,
+        "full_containment_ab": 0.7602,
+        "full_containment_ba": 1.0,
+        "length_a": 2657,
+        "length_b": 1086
+      }
+    },
+    {
+      "a": "03598.jsonl",
+      "b": "03599.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.534,
+        "prefix_overlap": 0.9302,
+        "full_containment_ab": 0.7581,
+        "full_containment_ba": 1.0,
+        "length_a": 1703,
+        "length_b": 689
+      }
+    },
+    {
+      "a": "03607.jsonl",
+      "b": "03608.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.506,
+        "prefix_overlap": 0.9231,
+        "full_containment_ab": 0.7772,
+        "full_containment_ba": 1.0,
+        "length_a": 6984,
+        "length_b": 2965
+      }
+    },
+    {
+      "a": "03703.jsonl",
+      "b": "03704.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.4288,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.6522,
+        "full_containment_ba": 1.0,
+        "length_a": 603,
+        "length_b": 223
+      }
+    },
+    {
+      "a": "03751.jsonl",
+      "b": "03752.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6542,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.8043,
+        "full_containment_ba": 1.0,
+        "length_a": 573,
+        "length_b": 246
+      }
+    },
+    {
+      "a": "03760.jsonl",
+      "b": "03761.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.596,
+        "prefix_overlap": 0.9,
+        "full_containment_ab": 0.7525,
+        "full_containment_ba": 1.0,
+        "length_a": 1351,
+        "length_b": 559
+      }
+    },
+    {
+      "a": "03775.jsonl",
+      "b": "03776.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.536,
+        "prefix_overlap": 0.8919,
+        "full_containment_ab": 0.7897,
+        "full_containment_ba": 1.0,
+        "length_a": 7138,
+        "length_b": 3043
+      }
+    },
+    {
+      "a": "03811.jsonl",
+      "b": "03812.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.754,
+        "prefix_overlap": 0.92,
+        "full_containment_ab": 0.7886,
+        "full_containment_ba": 1.0,
+        "length_a": 2185,
+        "length_b": 931
+      }
+    },
+    {
+      "a": "03838.jsonl",
+      "b": "03839.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.474,
+        "prefix_overlap": 0.907,
+        "full_containment_ab": 0.7721,
+        "full_containment_ba": 1.0,
+        "length_a": 6523,
+        "length_b": 2735
+      }
+    },
+    {
+      "a": "03871.jsonl",
+      "b": "03872.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.504,
+        "prefix_overlap": 0.8974,
+        "full_containment_ab": 0.7811,
+        "full_containment_ba": 1.0,
+        "length_a": 2143,
+        "length_b": 910
+      }
+    },
+    {
+      "a": "03901.jsonl",
+      "b": "03902.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.528,
+        "prefix_overlap": 0.9091,
+        "full_containment_ab": 0.8033,
+        "full_containment_ba": 1.0,
+        "length_a": 6013,
+        "length_b": 2603
+      }
+    },
+    {
+      "a": "03916.jsonl",
+      "b": "03917.jsonl",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.8677,
+        "full_containment_ba": 1.0,
+        "length_a": 2169,
+        "length_b": 969
+      }
+    },
+    {
+      "a": "03946.jsonl",
+      "b": "03947.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.472,
+        "prefix_overlap": 0.8958,
+        "full_containment_ab": 0.7456,
+        "full_containment_ba": 1.0,
+        "length_a": 2767,
+        "length_b": 1141
+      }
+    },
+    {
+      "a": "03997.jsonl",
+      "b": "03998.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.6207,
+        "prefix_overlap": 0.8947,
+        "full_containment_ab": 0.7719,
+        "full_containment_ba": 1.0,
+        "length_a": 757,
+        "length_b": 312
+      }
+    },
+    {
+      "a": "04003.jsonl",
+      "b": "04004.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.61,
+        "prefix_overlap": 0.9189,
+        "full_containment_ab": 0.7059,
+        "full_containment_ba": 1.0,
+        "length_a": 1394,
+        "length_b": 575
+      }
+    },
+    {
+      "a": "04015.jsonl",
+      "b": "04016.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.544,
+        "prefix_overlap": 0.9,
+        "full_containment_ab": 0.7759,
+        "full_containment_ba": 1.0,
+        "length_a": 3008,
+        "length_b": 1261
+      }
+    },
+    {
+      "a": "04108.jsonl",
+      "b": "04109.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.56,
+        "prefix_overlap": 0.9024,
+        "full_containment_ab": 0.7869,
+        "full_containment_ba": 1.0,
+        "length_a": 2411,
+        "length_b": 1043
+      }
+    },
+    {
+      "a": "04177.jsonl",
+      "b": "04178.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.5863,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.7692,
+        "full_containment_ba": 1.0,
+        "length_a": 475,
+        "length_b": 197
+      }
+    },
+    {
+      "a": "04258.jsonl",
+      "b": "04259.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.58,
+        "prefix_overlap": 0.9302,
+        "full_containment_ab": 0.7415,
+        "full_containment_ba": 1.0,
+        "length_a": 2912,
+        "length_b": 1175
+      }
+    },
+    {
+      "a": "04309.jsonl",
+      "b": "04310.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.528,
+        "prefix_overlap": 0.9111,
+        "full_containment_ab": 0.7929,
+        "full_containment_ba": 1.0,
+        "length_a": 1690,
+        "length_b": 723
+      }
+    },
+    {
+      "a": "04357.jsonl",
+      "b": "04358.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.518,
+        "prefix_overlap": 0.8857,
+        "full_containment_ab": 0.8021,
+        "full_containment_ba": 1.0,
+        "length_a": 2369,
+        "length_b": 1022
+      }
+    },
+    {
+      "a": "04387.jsonl",
+      "b": "04388.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.508,
+        "prefix_overlap": 0.8974,
+        "full_containment_ab": 0.7521,
+        "full_containment_ba": 1.0,
+        "length_a": 5584,
+        "length_b": 2261
+      }
+    },
+    {
+      "a": "04393.jsonl",
+      "b": "04394.jsonl",
+      "metrics": {
+        "prefix_ratio": 0.62,
+        "prefix_overlap": 0.9245,
+        "full_containment_ab": 0.7197,
+        "full_containment_ba": 1.0,
+        "length_a": 3010,
+        "length_b": 1222
+      }
+    },
+    {
+      "a": "04522.md",
+      "b": "04523.md",
+      "metrics": {
+        "prefix_ratio": 0.988,
+        "prefix_overlap": 0.9394,
+        "full_containment_ab": 0.9895,
+        "full_containment_ba": 0.9895,
+        "length_a": 2900,
+        "length_b": 2900
+      }
+    },
+    {
+      "a": "04591.md",
+      "b": "08807.md",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.5861,
+        "full_containment_ba": 0.992,
+        "length_a": 4768,
+        "length_b": 2893
+      }
+    },
+    {
+      "a": "08607.complete",
+      "b": "11109.complete",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 1.0,
+        "full_containment_ba": 1.0,
+        "length_a": 648,
+        "length_b": 648
+      }
+    },
+    {
+      "a": "09052.md",
+      "b": "09053.md",
+      "metrics": {
+        "prefix_ratio": 0.9817,
+        "prefix_overlap": 0.75,
+        "full_containment_ab": 0.7358,
+        "full_containment_ba": 0.75,
+        "length_a": 386,
+        "length_b": 380
+      }
+    },
+    {
+      "a": "09090.plist",
+      "b": "09120.plist",
+      "metrics": {
+        "prefix_ratio": 1.0,
+        "prefix_overlap": 1.0,
+        "full_containment_ab": 0.8582,
+        "full_containment_ba": 0.9829,
+        "length_a": 1029,
+        "length_b": 916
+      }
+    },
+    {
+      "a": "11174.md",
+      "b": "11196.md",
+      "metrics": {
+        "prefix_ratio": 0.934,
+        "prefix_overlap": 0.7971,
+        "full_containment_ab": 0.9606,
+        "full_containment_ba": 0.9677,
+        "length_a": 2786,
+        "length_b": 2777
+      }
+    }
+  ],
+  "adjudications": [
+    {
+      "keeper": "00097.md",
+      "merge": "00096",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00111.md",
+      "merge": "00137.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00123.md",
+      "merge": "00124.md",
+      "action": "delete_truncated",
+      "reason": "Merge file is a truncated cut of the keeper's content after wrapper normalization."
+    },
+    {
+      "keeper": "00180.md",
+      "merge": "00181.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00311.md",
+      "merge": "00321.md",
+      "action": "delete_subset",
+      "reason": "Same content with formatting-only differences; merge file adds no unique metadata."
+    },
+    {
+      "keeper": "00311.md",
+      "merge": "11191.md",
+      "action": "delete_subset",
+      "reason": "Same content with formatting-only differences; merge file adds no unique metadata."
+    },
+    {
+      "keeper": "00319.md",
+      "merge": "08627.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00320.md",
+      "merge": "08630.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00329.md",
+      "merge": "11172.md",
+      "action": "delete_truncated",
+      "reason": "Merge file is a truncated cut of the keeper's content after wrapper normalization."
+    },
+    {
+      "keeper": "00330.md",
+      "merge": "11190.md",
+      "action": "delete_truncated",
+      "reason": "Merge file is a truncated cut of the keeper's content after wrapper normalization."
+    },
+    {
+      "keeper": "00331.md",
+      "merge": "11205.md",
+      "action": "delete_truncated",
+      "reason": "Merge file is a truncated cut of the keeper's content after wrapper normalization."
+    },
+    {
+      "keeper": "00364.md",
+      "merge": "11193.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00539.md",
+      "merge": "00940.md",
+      "action": "delete_subset",
+      "reason": "Same content with formatting-only differences; merge file adds no unique metadata."
+    },
+    {
+      "keeper": "00725.json",
+      "merge": "00729.log",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00774.md",
+      "merge": "00773.log",
+      "action": "delete_subset",
+      "reason": "Same content with formatting-only differences; merge file adds no unique metadata."
+    },
+    {
+      "keeper": "00907.md",
+      "merge": "08566.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00908.md",
+      "merge": "08567.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "00922.md",
+      "merge": "00704.csv",
+      "action": "delete_truncated",
+      "reason": "Merge file is a truncated cut of the keeper's content after wrapper normalization."
+    },
+    {
+      "keeper": "01096.jsonl",
+      "merge": "01097.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01099.jsonl",
+      "merge": "01100.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01105.jsonl",
+      "merge": "01106.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01249.jsonl",
+      "merge": "01250.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01264.jsonl",
+      "merge": "01265.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01267.jsonl",
+      "merge": "01268.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01273.jsonl",
+      "merge": "01274.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01297.jsonl",
+      "merge": "01298.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01336.jsonl",
+      "merge": "01337.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01360.jsonl",
+      "merge": "01361.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01477.jsonl",
+      "merge": "01478.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01546.jsonl",
+      "merge": "01547.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01549.jsonl",
+      "merge": "01550.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01570.jsonl",
+      "merge": "01571.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01582.jsonl",
+      "merge": "01583.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01621.jsonl",
+      "merge": "01622.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01633.jsonl",
+      "merge": "01634.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01660.jsonl",
+      "merge": "01661.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01717.jsonl",
+      "merge": "01718.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01738.jsonl",
+      "merge": "01739.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01753.jsonl",
+      "merge": "01754.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01774.jsonl",
+      "merge": "01775.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01798.jsonl",
+      "merge": "01799.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01831.jsonl",
+      "merge": "01832.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01876.jsonl",
+      "merge": "01877.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01879.jsonl",
+      "merge": "01880.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01894.jsonl",
+      "merge": "01895.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "01912.jsonl",
+      "merge": "01913.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02047.jsonl",
+      "merge": "02048.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02050.jsonl",
+      "merge": "02051.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02107.jsonl",
+      "merge": "02108.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02113.jsonl",
+      "merge": "02114.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02146.jsonl",
+      "merge": "02147.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02158.jsonl",
+      "merge": "02159.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02164.jsonl",
+      "merge": "02165.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02188.jsonl",
+      "merge": "02189.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02197.jsonl",
+      "merge": "02198.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02275.jsonl",
+      "merge": "02276.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02296.jsonl",
+      "merge": "02297.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02356.jsonl",
+      "merge": "02357.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02368.jsonl",
+      "merge": "02369.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02377.jsonl",
+      "merge": "02378.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02449.jsonl",
+      "merge": "02450.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02500.jsonl",
+      "merge": "02501.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02515.jsonl",
+      "merge": "02516.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02527.jsonl",
+      "merge": "02528.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02530.jsonl",
+      "merge": "02531.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02554.jsonl",
+      "merge": "02555.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02557.jsonl",
+      "merge": "02558.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02596.jsonl",
+      "merge": "02597.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02641.jsonl",
+      "merge": "02642.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02725.jsonl",
+      "merge": "02726.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02731.jsonl",
+      "merge": "02732.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02782.jsonl",
+      "merge": "02783.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02788.jsonl",
+      "merge": "02789.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02806.jsonl",
+      "merge": "02807.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02815.jsonl",
+      "merge": "02816.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02911.jsonl",
+      "merge": "02912.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02941.jsonl",
+      "merge": "02942.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "02989.jsonl",
+      "merge": "02990.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03016.jsonl",
+      "merge": "03017.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03028.jsonl",
+      "merge": "03029.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03073.jsonl",
+      "merge": "03074.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03106.jsonl",
+      "merge": "03107.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03109.jsonl",
+      "merge": "03110.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03142.jsonl",
+      "merge": "03143.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03187.jsonl",
+      "merge": "03188.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03199.jsonl",
+      "merge": "03200.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03223.jsonl",
+      "merge": "03224.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03250.jsonl",
+      "merge": "03251.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03331.jsonl",
+      "merge": "03332.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03385.jsonl",
+      "merge": "03386.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03598.jsonl",
+      "merge": "03599.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03607.jsonl",
+      "merge": "03608.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03703.jsonl",
+      "merge": "03704.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03751.jsonl",
+      "merge": "03752.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03760.jsonl",
+      "merge": "03761.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03775.jsonl",
+      "merge": "03776.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03811.jsonl",
+      "merge": "03812.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03838.jsonl",
+      "merge": "03839.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03871.jsonl",
+      "merge": "03872.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03901.jsonl",
+      "merge": "03902.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03916.jsonl",
+      "merge": "03917.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03946.jsonl",
+      "merge": "03947.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "03997.jsonl",
+      "merge": "03998.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04003.jsonl",
+      "merge": "04004.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04015.jsonl",
+      "merge": "04016.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04108.jsonl",
+      "merge": "04109.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04177.jsonl",
+      "merge": "04178.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04258.jsonl",
+      "merge": "04259.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04309.jsonl",
+      "merge": "04310.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04357.jsonl",
+      "merge": "04358.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04387.jsonl",
+      "merge": "04388.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04393.jsonl",
+      "merge": "04394.jsonl",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "04522.md",
+      "merge": "04523.md",
+      "action": "delete_merge",
+      "reason": "Same core content after metadata stripping; keep richer version and merge unique date from 04523.md."
+    },
+    {
+      "keeper": "04591.md",
+      "merge": "08807.md",
+      "action": "delete_truncated",
+      "reason": "Merge file is a truncated cut of the keeper's content after wrapper normalization."
+    },
+    {
+      "keeper": "08607.complete",
+      "merge": "11109.complete",
+      "action": "delete_subset",
+      "reason": "Same content with formatting-only differences; merge file adds no unique metadata."
+    },
+    {
+      "keeper": "08827.md",
+      "merge": "00136.md",
+      "action": "delete_truncated",
+      "reason": "Merge file is a truncated cut of the keeper's content after wrapper normalization."
+    },
+    {
+      "keeper": "08829.md",
+      "merge": "00143.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "09050.md",
+      "merge": "01045.log",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "09051.md",
+      "merge": "01046.log",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "09090.plist",
+      "merge": "09120.plist",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "11156.md",
+      "merge": "00309.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    },
+    {
+      "keeper": "11174.md",
+      "merge": "11196.md",
+      "action": "delete_subset",
+      "reason": "Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata."
+    }
+  ]
+}

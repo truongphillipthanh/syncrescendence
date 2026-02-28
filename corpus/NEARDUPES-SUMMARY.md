@@ -1,0 +1,497 @@
+# Near-Duplicate Adjudication Summary
+
+- Numeric corpus files scanned: 6689
+- Files with sufficient textual content to analyze: 6441
+- High-confidence near-duplicate matches found: 126
+- Adjudicated delete candidates: 122
+- `delete_merge`: 1
+- `delete_subset`: 114
+- `delete_truncated`: 7
+
+## Keeper Clusters
+
+### 00097.md
+
+- `00096` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00111.md
+
+- `00137.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00123.md
+
+- `00124.md` -> `delete_truncated`: Merge file is a truncated cut of the keeper's content after wrapper normalization.
+
+### 00180.md
+
+- `00181.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00311.md
+
+- `00321.md` -> `delete_subset`: Same content with formatting-only differences; merge file adds no unique metadata.
+- `11191.md` -> `delete_subset`: Same content with formatting-only differences; merge file adds no unique metadata.
+
+### 00319.md
+
+- `08627.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00320.md
+
+- `08630.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00329.md
+
+- `11172.md` -> `delete_truncated`: Merge file is a truncated cut of the keeper's content after wrapper normalization.
+
+### 00330.md
+
+- `11190.md` -> `delete_truncated`: Merge file is a truncated cut of the keeper's content after wrapper normalization.
+
+### 00331.md
+
+- `11205.md` -> `delete_truncated`: Merge file is a truncated cut of the keeper's content after wrapper normalization.
+
+### 00364.md
+
+- `11193.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00539.md
+
+- `00940.md` -> `delete_subset`: Same content with formatting-only differences; merge file adds no unique metadata.
+
+### 00725.json
+
+- `00729.log` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00774.md
+
+- `00773.log` -> `delete_subset`: Same content with formatting-only differences; merge file adds no unique metadata.
+
+### 00907.md
+
+- `08566.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00908.md
+
+- `08567.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 00922.md
+
+- `00704.csv` -> `delete_truncated`: Merge file is a truncated cut of the keeper's content after wrapper normalization.
+
+### 01096.jsonl
+
+- `01097.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01099.jsonl
+
+- `01100.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01105.jsonl
+
+- `01106.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01249.jsonl
+
+- `01250.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01264.jsonl
+
+- `01265.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01267.jsonl
+
+- `01268.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01273.jsonl
+
+- `01274.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01297.jsonl
+
+- `01298.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01336.jsonl
+
+- `01337.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01360.jsonl
+
+- `01361.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01477.jsonl
+
+- `01478.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01546.jsonl
+
+- `01547.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01549.jsonl
+
+- `01550.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01570.jsonl
+
+- `01571.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01582.jsonl
+
+- `01583.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01621.jsonl
+
+- `01622.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01633.jsonl
+
+- `01634.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01660.jsonl
+
+- `01661.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01717.jsonl
+
+- `01718.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01738.jsonl
+
+- `01739.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01753.jsonl
+
+- `01754.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01774.jsonl
+
+- `01775.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01798.jsonl
+
+- `01799.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01831.jsonl
+
+- `01832.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01876.jsonl
+
+- `01877.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01879.jsonl
+
+- `01880.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01894.jsonl
+
+- `01895.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 01912.jsonl
+
+- `01913.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02047.jsonl
+
+- `02048.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02050.jsonl
+
+- `02051.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02107.jsonl
+
+- `02108.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02113.jsonl
+
+- `02114.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02146.jsonl
+
+- `02147.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02158.jsonl
+
+- `02159.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02164.jsonl
+
+- `02165.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02188.jsonl
+
+- `02189.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02197.jsonl
+
+- `02198.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02275.jsonl
+
+- `02276.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02296.jsonl
+
+- `02297.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02356.jsonl
+
+- `02357.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02368.jsonl
+
+- `02369.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02377.jsonl
+
+- `02378.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02449.jsonl
+
+- `02450.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02500.jsonl
+
+- `02501.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02515.jsonl
+
+- `02516.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02527.jsonl
+
+- `02528.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02530.jsonl
+
+- `02531.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02554.jsonl
+
+- `02555.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02557.jsonl
+
+- `02558.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02596.jsonl
+
+- `02597.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02641.jsonl
+
+- `02642.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02725.jsonl
+
+- `02726.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02731.jsonl
+
+- `02732.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02782.jsonl
+
+- `02783.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02788.jsonl
+
+- `02789.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02806.jsonl
+
+- `02807.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02815.jsonl
+
+- `02816.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02911.jsonl
+
+- `02912.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02941.jsonl
+
+- `02942.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 02989.jsonl
+
+- `02990.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03016.jsonl
+
+- `03017.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03028.jsonl
+
+- `03029.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03073.jsonl
+
+- `03074.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03106.jsonl
+
+- `03107.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03109.jsonl
+
+- `03110.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03142.jsonl
+
+- `03143.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03187.jsonl
+
+- `03188.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03199.jsonl
+
+- `03200.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03223.jsonl
+
+- `03224.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03250.jsonl
+
+- `03251.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03331.jsonl
+
+- `03332.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03385.jsonl
+
+- `03386.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03598.jsonl
+
+- `03599.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03607.jsonl
+
+- `03608.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03703.jsonl
+
+- `03704.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03751.jsonl
+
+- `03752.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03760.jsonl
+
+- `03761.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03775.jsonl
+
+- `03776.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03811.jsonl
+
+- `03812.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03838.jsonl
+
+- `03839.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03871.jsonl
+
+- `03872.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03901.jsonl
+
+- `03902.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03916.jsonl
+
+- `03917.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03946.jsonl
+
+- `03947.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 03997.jsonl
+
+- `03998.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04003.jsonl
+
+- `04004.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04015.jsonl
+
+- `04016.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04108.jsonl
+
+- `04109.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04177.jsonl
+
+- `04178.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04258.jsonl
+
+- `04259.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04309.jsonl
+
+- `04310.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04357.jsonl
+
+- `04358.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04387.jsonl
+
+- `04388.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04393.jsonl
+
+- `04394.jsonl` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 04522.md
+
+- `04523.md` -> `delete_merge`: Same core content after metadata stripping; keep richer version and merge unique date from 04523.md.
+
+### 04591.md
+
+- `08807.md` -> `delete_truncated`: Merge file is a truncated cut of the keeper's content after wrapper normalization.
+
+### 08607.complete
+
+- `11109.complete` -> `delete_subset`: Same content with formatting-only differences; merge file adds no unique metadata.
+
+### 08827.md
+
+- `00136.md` -> `delete_truncated`: Merge file is a truncated cut of the keeper's content after wrapper normalization.
+
+### 08829.md
+
+- `00143.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 09050.md
+
+- `01045.log` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 09051.md
+
+- `01046.log` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 09090.plist
+
+- `09120.plist` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 11156.md
+
+- `00309.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
+### 11174.md
+
+- `11196.md` -> `delete_subset`: Merge file is a subset of the keeper after wrapper normalization and adds no unique metadata.
+
