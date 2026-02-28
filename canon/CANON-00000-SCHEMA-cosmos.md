@@ -11,7 +11,6 @@ refresh_cadence: annual
 
 parent: CANON-00000
 requires:
-  - CANON-00004
 siblings: []
 synthesizes: []
 

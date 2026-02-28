@@ -14,7 +14,6 @@ requires:
   - CANON-00000
   - CANON-00003
   - CANON-00010
-  - CANON-25610
 siblings: []
 synthesizes: []
 

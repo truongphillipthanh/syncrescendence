@@ -14,7 +14,6 @@ refresh_cadence: quarterly
 parent: CANON-30000
 requires:
   - CANON-30000
-  - CANON-30460
 siblings: []
 synthesizes: []
 

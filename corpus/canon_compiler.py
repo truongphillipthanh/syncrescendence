@@ -5,7 +5,7 @@ Stage 1: PARSE    — Extract frontmatter + body structure → IR (JSON)
 Stage 2: VALIDATE — S-1 schema enforcement + cross-file coherence
 Stage 3: GRAPH    — Build dependency DAG, detect cycles, emit Mermaid
 Stage 4: COMPRESS — Generate Syncrescript v2 structural skeleton + metrics
-Stage 5: EMIT     — Render views: Scripture, Config, Graph, Ledger, Compiled (future)
+Stage 5: EMIT     — Render views: Scripture (human), Config (agent), Graph, Ledger
 
 The compiler IS the immune system (T-6 ratified).
 Validation = circulating antibodies. S-1 frontmatter = MHC.
@@ -852,6 +852,222 @@ def format_compress_text(compress_result):
 
 
 # ============================================================
+# STAGE 5: EMIT — Render views
+# ============================================================
+
+def emit_scripture_view(ir_collection, graph_result, output_path):
+    """Scripture View: Human-readable canon overview.
+
+    A single document that a human can read to understand the entire canon
+    at a glance — hierarchy, relationships, key entities, health status.
+    """
+    lines = []
+    lines.append("# Canon Scripture — Living Overview")
+    lines.append(f"> Generated {datetime.now().strftime('%Y-%m-%d %H:%M')} by Canon Compiler")
+    lines.append(f"> 78 files | {graph_result['node_count']} nodes | {graph_result['edge_count']} edges | Max depth {graph_result['max_depth']}")
+    lines.append("")
+
+    # Build id→ir lookup
+    id_lookup = {}
+    for file_ir in ir_collection["files"]:
+        fm = file_ir["frontmatter"]
+        if fm and "id" in fm:
+            id_lookup[str(fm["id"])] = (fm, file_ir)
+
+    # Organize by tier
+    tier_order = ["cosmos", "core", "lattice", "chain", "immune", "archive"]
+    tier_labels = {
+        "cosmos": "COSMOS — Universal Laws",
+        "core": "CORE — Structural Primitives",
+        "lattice": "LATTICE — Operational Architecture",
+        "chain": "CHAIN — Developmental Pathways",
+        "immune": "IMMUNE — System Integrity",
+        "archive": "ARCHIVE — Historical Record",
+    }
+
+    by_tier = {}
+    for fid, (fm, file_ir) in id_lookup.items():
+        tier = str(fm.get("tier", "")).lower()
+        by_tier.setdefault(tier, []).append((fid, fm, file_ir))
+
+    for tier in tier_order:
+        items = by_tier.get(tier, [])
+        if not items:
+            continue
+        lines.append(f"## {tier_labels.get(tier, tier.upper())}")
+        lines.append("")
+
+        # Sort by ID
+        for fid, fm, file_ir in sorted(items, key=lambda x: x[0]):
+            name = fm.get("canonical_name", fm.get("title", fid))
+            vb = fm.get("volatility_band", "")
+            ct = fm.get("celestial_type", "")
+            parent = fm.get("parent", "")
+            words = file_ir["body"].get("word_count", 0)
+            entities = fm.get("entities_defined", [])
+
+            # Volatility indicator
+            vb_icon = {"permanent": "●", "stable": "◐", "moderate": "◑", "dynamic": "○"}.get(vb, "?")
+
+            line = f"- **{fid}** — {name} `{ct}` {vb_icon}"
+            if parent and str(parent) != "null" and str(parent) != fid:
+                line += f" ← {parent}"
+            line += f" ({words:,} words)"
+            lines.append(line)
+
+            # Key entities
+            if entities:
+                ent_str = ", ".join(str(e) for e in entities[:5])
+                if len(entities) > 5:
+                    ent_str += f" +{len(entities)-5} more"
+                lines.append(f"  Entities: {ent_str}")
+
+        lines.append("")
+
+    # Legend
+    lines.append("---")
+    lines.append("**Volatility**: ● permanent | ◐ stable | ◑ moderate | ○ dynamic")
+    lines.append("")
+
+    text = "\n".join(lines)
+    Path(output_path).write_text(text, encoding="utf-8")
+    return len(lines)
+
+
+def emit_config_view(ir_collection, graph_result, output_path):
+    """Config View: Machine-readable canon manifest for agent consumption.
+
+    JSON document containing all structural data an agent needs to navigate
+    and reason about the canon without reading individual files.
+    """
+    config = {
+        "canon_config_version": "2.0",
+        "generated": datetime.now().isoformat(),
+        "stats": {
+            "file_count": ir_collection["file_count"],
+            "node_count": graph_result["node_count"],
+            "edge_count": graph_result["edge_count"],
+            "max_depth": graph_result["max_depth"],
+            "components": graph_result["connected_components"],
+            "has_cycles": graph_result["has_cycle"],
+        },
+        "tier_distribution": graph_result["tier_distribution"],
+        "roots": graph_result["roots"],
+        "leaves": graph_result["leaves"],
+        "topo_order": graph_result["topo_order"],
+        "files": {},
+    }
+
+    for file_ir in ir_collection["files"]:
+        fm = file_ir["frontmatter"]
+        if not fm or "id" not in fm:
+            continue
+        fid = str(fm["id"])
+        config["files"][fid] = {
+            "name": fm.get("canonical_name", fm.get("title", fid)),
+            "tier": fm.get("tier"),
+            "chain": fm.get("chain"),
+            "celestial_type": fm.get("celestial_type"),
+            "volatility_band": fm.get("volatility_band"),
+            "parent": fm.get("parent"),
+            "requires": fm.get("requires", []) or [],
+            "siblings": fm.get("siblings", []) or [],
+            "synthesizes": fm.get("synthesizes", []) or [],
+            "entities": fm.get("entities_defined", []) or [],
+            "status": fm.get("status"),
+            "operational_status": fm.get("operational_status"),
+            "word_count": file_ir["body"].get("word_count", 0),
+            "filename": file_ir["filename"],
+        }
+
+    text = json.dumps(config, indent=2, default=str)
+    Path(output_path).write_text(text, encoding="utf-8")
+    return len(config["files"])
+
+
+def emit_ledger_view(ir_collection, graph_result, output_path):
+    """Ledger View: Compact status tracking table."""
+    lines = []
+    lines.append("# Canon Ledger")
+    lines.append(f"> Generated {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    lines.append("")
+    lines.append("| ID | Name | Tier | Volatility | Status | Words | Entities |")
+    lines.append("|---|---|---|---|---|---|---|")
+
+    for file_ir in sorted(ir_collection["files"], key=lambda f: str(f.get("frontmatter", {}).get("id", ""))):
+        fm = file_ir["frontmatter"]
+        if not fm or "id" not in fm:
+            continue
+        fid = str(fm["id"])
+        name = str(fm.get("canonical_name", fm.get("title", "")))[:35]
+        tier = fm.get("tier", "")
+        vb = fm.get("volatility_band", "")
+        status = fm.get("operational_status", "")
+        words = file_ir["body"].get("word_count", 0)
+        ent_count = len(fm.get("entities_defined", []) or [])
+        lines.append(f"| {fid} | {name} | {tier} | {vb} | {status} | {words:,} | {ent_count} |")
+
+    lines.append("")
+    text = "\n".join(lines)
+    Path(output_path).write_text(text, encoding="utf-8")
+    return len(lines) - 4  # header lines
+
+
+def stage_emit(ir_collection, graph_result, output_dir):
+    """Stage 5: Emit all views."""
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    results = {
+        "stage": "emit",
+        "timestamp": datetime.now().isoformat(),
+        "views": {},
+    }
+
+    # Scripture view
+    scripture_path = output_dir / "CANON-SCRIPTURE.md"
+    scripture_lines = emit_scripture_view(ir_collection, graph_result, scripture_path)
+    results["views"]["scripture"] = {"path": str(scripture_path), "lines": scripture_lines}
+
+    # Config view
+    config_path = output_dir / "CANON-CONFIG.json"
+    config_files = emit_config_view(ir_collection, graph_result, config_path)
+    results["views"]["config"] = {"path": str(config_path), "files": config_files}
+
+    # Graph view (Mermaid — already generated by stage 3, copy to output)
+    graph_path = output_dir / "CANON-GRAPH.mmd"
+    if graph_result.get("mermaid"):
+        graph_path.write_text(graph_result["mermaid"], encoding="utf-8")
+        results["views"]["graph"] = {"path": str(graph_path)}
+
+    # Ledger view
+    ledger_path = output_dir / "CANON-LEDGER.md"
+    ledger_rows = emit_ledger_view(ir_collection, graph_result, ledger_path)
+    results["views"]["ledger"] = {"path": str(ledger_path), "rows": ledger_rows}
+
+    return results
+
+
+def format_emit_text(emit_result):
+    """Human-readable emit report."""
+    lines = []
+    lines.append("Canon Compiler — Emit Report (Stage 5)")
+    lines.append("=" * 60)
+    for view_name, info in emit_result["views"].items():
+        path = info.get("path", "")
+        detail = ""
+        if "lines" in info:
+            detail = f" ({info['lines']} lines)"
+        elif "files" in info:
+            detail = f" ({info['files']} files)"
+        elif "rows" in info:
+            detail = f" ({info['rows']} rows)"
+        lines.append(f"  {view_name:12s}: {path}{detail}")
+    lines.append(f"\n✓ {len(emit_result['views'])} views emitted.")
+    return "\n".join(lines)
+
+
+# ============================================================
 # MUTAGENIC ZONE (M-1 ratified CC49)
 # ============================================================
 
@@ -930,13 +1146,15 @@ def format_text(validation, ir_collection):
 def main():
     parser = argparse.ArgumentParser(description="Canon Compiler (5-stage pipeline)")
     parser.add_argument("stage", nargs="?", default="validate",
-                        choices=["parse", "validate", "graph", "compress", "compile"],
+                        choices=["parse", "validate", "graph", "compress", "emit", "compile"],
                         help="Which stage(s) to run")
     parser.add_argument("--out", help="Write IR/results to file")
     parser.add_argument("--json", action="store_true", help="JSON output")
     parser.add_argument("--strict", action="store_true", help="Warnings = errors")
     parser.add_argument("--mermaid", help="Write Mermaid diagram to file (graph/compile stage)")
     parser.add_argument("--sn-out", help="Write SN v2 skeleton files to directory (compress/compile stage)")
+    parser.add_argument("--emit-dir", help="Write emitted views to directory (emit/compile stage)",
+                        default="corpus/views")
     args = parser.parse_args()
 
     # Stage 1: Parse
@@ -1012,9 +1230,29 @@ def main():
             print(format_compress_text(compress_result))
         sys.exit(1 if validation["total_errors"] > 0 else 0)
 
+    # Stage 5: Emit
+    emit_result = stage_emit(ir, graph_result, args.emit_dir)
+
+    if args.stage == "emit":
+        if args.json:
+            output = json.dumps(emit_result, indent=2, default=str)
+            if args.out:
+                Path(args.out).write_text(output)
+                print(f"Emit results written to {args.out}")
+            else:
+                print(output)
+        else:
+            print(format_text(validation, ir))
+            print()
+            print(format_emit_text(emit_result))
+        sys.exit(1 if validation["total_errors"] > 0 else 0)
+
     # Stage "compile" — all stages
     if args.json:
-        combined = {"validation": validation, "graph": graph_result, "compress": compress_result}
+        combined = {
+            "validation": validation, "graph": graph_result,
+            "compress": compress_result, "emit": emit_result,
+        }
         output = json.dumps(combined, indent=2, default=str)
         if args.out:
             Path(args.out).write_text(output)
@@ -1027,6 +1265,8 @@ def main():
         print(format_graph_text(graph_result))
         print()
         print(format_compress_text(compress_result))
+        print()
+        print(format_emit_text(emit_result))
 
     sys.exit(1 if validation["total_errors"] > 0 else 0)
 

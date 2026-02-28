@@ -14,9 +14,6 @@ refresh_cadence: monthly
 parent: CANON-30000
 requires:
   - CANON-30000
-  - CANON-30310
-  - CANON-30320
-  - CANON-30340
 siblings: []
 synthesizes: []
 

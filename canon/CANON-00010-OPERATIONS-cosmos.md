@@ -11,8 +11,6 @@ refresh_cadence: semi-annual
 
 parent: CANON-00000
 requires:
-  - CANON-00014
-  - CANON-00015
 
 siblings:
   - CANON-00005

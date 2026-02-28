@@ -1,0 +1,2311 @@
+{
+  "canon_config_version": "2.0",
+  "generated": "2026-02-27T18:07:34.612695",
+  "stats": {
+    "file_count": 78,
+    "node_count": 78,
+    "edge_count": 278,
+    "max_depth": 7,
+    "components": 6,
+    "has_cycles": false
+  },
+  "tier_distribution": {
+    "cosmos": 17,
+    "core": 2,
+    "lattice": 24,
+    "chain": 31,
+    "archive": 1,
+    "immune": 3
+  },
+  "roots": [
+    "CANON-00000",
+    "CANON-25500",
+    "CANON-APOPTOSIS-PROTOCOL",
+    "CANON-ONTOLOGY-GATE-V1",
+    "CANON-ONTOLOGY-GATE-V2",
+    "CANON-RETIREMENT-PROTOCOL"
+  ],
+  "leaves": [
+    "CANON-00001",
+    "CANON-00002",
+    "CANON-00004",
+    "CANON-00007",
+    "CANON-00009",
+    "CANON-00011",
+    "CANON-00013",
+    "CANON-00014",
+    "CANON-00015",
+    "CANON-11000",
+    "CANON-20010",
+    "CANON-20020",
+    "CANON-21100",
+    "CANON-22000",
+    "CANON-23000",
+    "CANON-24000",
+    "CANON-25100",
+    "CANON-25200",
+    "CANON-25500",
+    "CANON-25610",
+    "CANON-30100",
+    "CANON-30200",
+    "CANON-30310",
+    "CANON-30320",
+    "CANON-30330",
+    "CANON-30340",
+    "CANON-30460",
+    "CANON-31115",
+    "CANON-31121",
+    "CANON-31122",
+    "CANON-31141",
+    "CANON-31142",
+    "CANON-31143",
+    "CANON-32110",
+    "CANON-32120",
+    "CANON-33112",
+    "CANON-34110",
+    "CANON-35110",
+    "CANON-35121",
+    "CANON-35210",
+    "CANON-99000",
+    "CANON-APOPTOSIS-PROTOCOL",
+    "CANON-ONTOLOGY-GATE-V1",
+    "CANON-ONTOLOGY-GATE-V2",
+    "CANON-RETIREMENT-PROTOCOL"
+  ],
+  "topo_order": [
+    "CANON-00000",
+    "CANON-25500",
+    "CANON-APOPTOSIS-PROTOCOL",
+    "CANON-ONTOLOGY-GATE-V1",
+    "CANON-ONTOLOGY-GATE-V2",
+    "CANON-RETIREMENT-PROTOCOL",
+    "CANON-00001",
+    "CANON-00002",
+    "CANON-00003",
+    "CANON-00004",
+    "CANON-00005",
+    "CANON-00006",
+    "CANON-00007",
+    "CANON-00009",
+    "CANON-00010",
+    "CANON-10000",
+    "CANON-20000",
+    "CANON-30000",
+    "CANON-99000",
+    "CANON-00011",
+    "CANON-00012",
+    "CANON-00013",
+    "CANON-00014",
+    "CANON-00015",
+    "CANON-00016",
+    "CANON-00017",
+    "CANON-11000",
+    "CANON-20010",
+    "CANON-20020",
+    "CANON-21000",
+    "CANON-22000",
+    "CANON-23000",
+    "CANON-24000",
+    "CANON-25000",
+    "CANON-30100",
+    "CANON-30200",
+    "CANON-30300",
+    "CANON-30400",
+    "CANON-31000",
+    "CANON-33000",
+    "CANON-21100",
+    "CANON-25100",
+    "CANON-25200",
+    "CANON-25600",
+    "CANON-30310",
+    "CANON-30320",
+    "CANON-30330",
+    "CANON-30340",
+    "CANON-30460",
+    "CANON-32000",
+    "CANON-33100",
+    "CANON-34000",
+    "CANON-25610",
+    "CANON-32100",
+    "CANON-33110",
+    "CANON-34100",
+    "CANON-35000",
+    "CANON-32110",
+    "CANON-32120",
+    "CANON-33112",
+    "CANON-34110",
+    "CANON-35100",
+    "CANON-35110",
+    "CANON-35120",
+    "CANON-31100",
+    "CANON-35121",
+    "CANON-31110",
+    "CANON-31120",
+    "CANON-31130",
+    "CANON-31140",
+    "CANON-31115",
+    "CANON-31121",
+    "CANON-31122",
+    "CANON-35200",
+    "CANON-31141",
+    "CANON-31142",
+    "CANON-31143",
+    "CANON-35210"
+  ],
+  "files": {
+    "CANON-00000": {
+      "name": "Syncrescendent Schema",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "permanent",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "CANON (STR)",
+        "Six Chains (CON)",
+        "tau notation (NOT)",
+        "Solar System Metaphor (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 8237,
+      "filename": "CANON-00000-SCHEMA-cosmos.md"
+    },
+    "CANON-00001": {
+      "name": "Founding Moment",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "permanent",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Convergence Crisis (CON)",
+        "Six Chains (STR)",
+        "Recursive Amplification (CON)",
+        "Cosmological Metaphor (NOT)",
+        "Gaian Field Node (CON)",
+        "Metahuman (CON)",
+        "Mythopoetic Mode (NOT)",
+        "Operational Mode (NOT)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1655,
+      "filename": "CANON-00001-ORIGIN-cosmos.md"
+    },
+    "CANON-00002": {
+      "name": "Intellectual Lineage",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "permanent",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Extended Mind Thesis (CON)",
+        "Strange Loops (CON)",
+        "Meaning Crisis (CON)",
+        "Adult Development Theory (CON)",
+        "Fourth Turning (CON)",
+        "Metamodernism (CON)",
+        "Integral Theory (CON)",
+        "Systems Thinking (CON)",
+        "Recurse Theory of Consciousness (CON)",
+        "Synthesis Principle (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1950,
+      "filename": "CANON-00002-LINEAGE-cosmos.md"
+    },
+    "CANON-00003": {
+      "name": "Principles",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "permanent",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [
+        "CANON-00001",
+        "CANON-00002"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Thirty Principles (CON)",
+        "Chain Sutras (NOT)",
+        "Layer Sutras (NOT)",
+        "Element Sutras (NOT)",
+        "Governing Principles (CON)",
+        "Paradox Teachings (CON)",
+        "Daily Sutras (PROTO)",
+        "Sovereignty (CON)",
+        "Recursion (CON)",
+        "Demonstration (CON)",
+        "Transmission (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1443,
+      "filename": "CANON-00003-PRINCIPLES-cosmos.md"
+    },
+    "CANON-00004": {
+      "name": "Evolution",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "moderate",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [
+        "CANON-00001",
+        "CANON-00002",
+        "CANON-00003"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Oracle Arc (WF)",
+        "Metabolic Defrag (WF)",
+        "Reconception (WF)",
+        "Kintsugi Principle (CON)",
+        "Two-Stream Architecture (STR)",
+        "Oracle 0-8 (WF)",
+        "Directive-017 (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1884,
+      "filename": "CANON-00004-EVOLUTION-cosmos.md"
+    },
+    "CANON-00005": {
+      "name": "Syncrescendence",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "permanent",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [
+        "CANON-00001",
+        "CANON-00002",
+        "CANON-00003"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Syncrescendence (CON)",
+        "Recursive Amplification Architecture (STR)",
+        "Six Developmental Chains (STR)",
+        "Cognitive Palace (STR)",
+        "Energy Coils (CON)",
+        "Transcendence Ring (STR)",
+        "Ontological Reckoning (CON)",
+        "North Star (ART)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 12787,
+      "filename": "CANON-00005-SYNCRESCENDENCE-cosmos.md"
+    },
+    "CANON-00006": {
+      "name": "Syncrescendent Corpus",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "dynamic",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00007",
+        "CANON-00009",
+        "CANON-00010",
+        "CANON-00011",
+        "CANON-00012",
+        "CANON-00013"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Corpus Manifest (ART)",
+        "Artifact Catalog (STR)",
+        "Progressive Disclosure Tiers (STR)",
+        "Access Pathways (WF)",
+        "Maintenance Rhythms (PROTO)",
+        "Contribution Protocols (PROTO)",
+        "Discontinuation Criteria (MET)",
+        "Dissolution Protocol (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 8550,
+      "filename": "CANON-00006-CORPUS-cosmos.md"
+    },
+    "CANON-00007": {
+      "name": "Syncrescendence Evaluation & Resolutions",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "moderate",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00009",
+        "CANON-00010",
+        "CANON-00012"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Omni-Quality Dimensions (MET)",
+        "Validation Architecture (STR)",
+        "Falsification Criteria (MET)",
+        "Beta Cohort Design (PROTO)",
+        "Founder Effect Detection (PROTO)",
+        "Cultural Translation Protocols (PROTO)",
+        "30 Irresolutions (CON)",
+        "Discontinuation Criteria (MET)",
+        "Modal-Specific Validation Thresholds (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 11376,
+      "filename": "CANON-00007-EVALUATION-cosmos.md"
+    },
+    "CANON-00009": {
+      "name": "Syncrescendent Strategy",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "moderate",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00007",
+        "CANON-00010",
+        "CANON-00012"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Six Canonical Dimensions (STR)",
+        "Progressive Disclosure Architecture (STR)",
+        "Dual-Track Developmental Pathways (WF)",
+        "Phase-Appropriate Engagement (PROTO)",
+        "Modal-Aware Content Strategy (STR)",
+        "Planetary Correspondence Architecture (STR)",
+        "Seven Pulses Framework (PROTO)",
+        "Omnibenevolence (CON)",
+        "Omniscience (CON)",
+        "Omnipotence (CON)",
+        "Omnipresence (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 4308,
+      "filename": "CANON-00009-STRATEGY-cosmos.md"
+    },
+    "CANON-00010": {
+      "name": "Syncrescendent Operations",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "moderate",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00009"
+      ],
+      "synthesizes": [
+        "CANON-00012",
+        "CANON-00013"
+      ],
+      "entities": [
+        "Seven Pulses Protocol (PROTO)",
+        "Energy State Management (PROTO)",
+        "Scope Domain Framework (STR)",
+        "Three-Rail System (STR)",
+        "Content Production Protocol (PROTO)",
+        "IIC Daily Practice (PROTO)",
+        "Burnout Prevention Protocol (PROTO)",
+        "Stage Development Rhythms (PROTO)",
+        "Modal-Aligned Content Strategy (STR)",
+        "AI-Assisted Production Workflows (WF)",
+        "Teaching Validation Criteria (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 6129,
+      "filename": "CANON-00010-OPERATIONS-cosmos.md"
+    },
+    "CANON-00011": {
+      "name": "Artifact Production Protocol",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "permanent",
+      "parent": "CANON-00010",
+      "requires": [
+        "CANON-00010"
+      ],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00007"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Artifact Taxonomy (STR)",
+        "Quality Tier System (STR)",
+        "Moon Creation Protocol (PROTO)",
+        "Satellite Creation Protocol (PROTO)",
+        "Asteroid Creation Protocol (PROTO)",
+        "Peer Review Process (PROTO)",
+        "Deprecation Protocol (PROTO)",
+        "Reconstructive Capacity (CON)",
+        "Cascade Congruence (CON)",
+        "Semantic Versioning (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 4210,
+      "filename": "CANON-00011-ARTIFACT_PROTOCOL-cosmos.md"
+    },
+    "CANON-00012": {
+      "name": "Modal Sequence Architecture",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "moderate",
+      "parent": "CANON-00010",
+      "requires": [],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00009"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Modal Sequence (STR)",
+        "Modal 1 Abstraction (CON)",
+        "Modal 2 Simulation (CON)",
+        "Modal 3 Embodiment (CON)",
+        "Modal 4 Transcendence (CON)",
+        "Technology Maturity Windows (CON)",
+        "Causal Dependencies (CON)",
+        "Modal Transition Criteria (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 12381,
+      "filename": "CANON-00012-MODAL_SEQUENCE-cosmos.md"
+    },
+    "CANON-00013": {
+      "name": "Syncrescendent Quickstart",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "moderate",
+      "parent": "CANON-00010",
+      "requires": [
+        "CANON-00010"
+      ],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00009",
+        "CANON-00012"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Six Dimensions Self-Assessment (TOOL)",
+        "Three Entry Pathways (WF)",
+        "Personal Practice Pathway (WF)",
+        "Teaching Pathway (WF)",
+        "Professional Consulting Pathway (WF)",
+        "Value Proposition (CON)",
+        "Cognitive Profile Assessment (TOOL)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 4067,
+      "filename": "CANON-00013-QUICKSTART-cosmos.md"
+    },
+    "CANON-00014": {
+      "name": "Content Production Protocol",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "dynamic",
+      "parent": "CANON-00010",
+      "requires": [
+        "CANON-00010"
+      ],
+      "siblings": [
+        "CANON-00006",
+        "CANON-00012"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Three-Rail System (STR)",
+        "Content Tier Classification (STR)",
+        "AI-Assisted Production Pipelines (WF)",
+        "Weekly Content Calendar (PROTO)",
+        "Energy State Production Mapping (PROTO)",
+        "Cross-IIC Content Orchestration (WF)",
+        "Quality Gates (MET)",
+        "Batch Production Protocol (PROTO)",
+        "Content Repurposing Framework (WF)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 12961,
+      "filename": "CANON-00014-CONTENT_PROTOCOL-cosmos.md"
+    },
+    "CANON-00015": {
+      "name": "Macroscopic Narratives",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-00010",
+      "requires": [],
+      "siblings": [
+        "CANON-00005",
+        "CANON-00007",
+        "CANON-00012"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Macroscopic Narratives (STR)",
+        "Reflexive Epoch (CON)",
+        "Integrative Interregnum (CON)",
+        "Civilizational Phase Transition (CON)",
+        "Application Protocol (PROTO)",
+        "Convergent Insights (CON)",
+        "Narrative Lens Families (STR)",
+        "Signal Qualification (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 4624,
+      "filename": "CANON-00015-MACROSCOPIC_NARRATIVES-cosmos.md"
+    },
+    "CANON-00016": {
+      "name": "Ontological Framework",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "permanent",
+      "parent": "CANON-00010",
+      "requires": [],
+      "siblings": [
+        "CANON-00003"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Sovereign Palace (CON)",
+        "Foundational Tetrad (CON)",
+        "Knowledge Mandala (CON)",
+        "Meaning Taxonomy (CON)",
+        "Experience Topology (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 1808,
+      "filename": "CANON-00016-ONTOLOGICAL_FRAMEWORK-cosmos.md"
+    },
+    "CANON-00017": {
+      "name": "Agentic Constitution",
+      "tier": "cosmos",
+      "chain": null,
+      "celestial_type": "root",
+      "volatility_band": "moderate",
+      "parent": "CANON-00010",
+      "requires": [
+        "CANON-00010"
+      ],
+      "siblings": [
+        "CANON-00006"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "ASIA Federation (STR)",
+        "Five States (STR)",
+        "DIKW Mandate (PROTO)",
+        "Antifragile Components (CON)",
+        "Fragile Components (CON)",
+        "Inter-Agent Protocol (PROTO)",
+        "Agentic Delegation (CON)",
+        "Point of Convergence (CON)",
+        "Bitter Lesson Alignment (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 758,
+      "filename": "CANON-00017-AGENTIC_CONSTITUTION-cosmos.md"
+    },
+    "CANON-10000": {
+      "name": "Syncrescendent Core - The Central Celestial Body",
+      "tier": "core",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-00000",
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-11000"
+      ],
+      "entities": [
+        "Syncrescendent Core (CON)",
+        "Seven Pulses Assessment (PROTO)",
+        "Energy State Adaptations (PROTO)",
+        "Morning Ignition (PROTO)",
+        "Evening Integration (PROTO)",
+        "Recursive Amplification Architecture (CON)",
+        "Expansion Indicators (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 2320,
+      "filename": "CANON-10000-CELESTIAL_BODY-core.md"
+    },
+    "CANON-11000": {
+      "name": "Syncrescendent Facets - ModusOperandi",
+      "tier": "core",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-10000",
+      "requires": [
+        "CANON-10000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "ModusOperandi (CON)",
+        "Sensing Face (CON)",
+        "Meaning-Making Face (CON)",
+        "Intention-Formation Face (CON)",
+        "Embodiment Face (CON)",
+        "Strategic Harmony Face (CON)",
+        "Perichoretic Integration (CON)",
+        "Face Fluency Assessment (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1731,
+      "filename": "CANON-11000-FACETS-core.md"
+    },
+    "CANON-20000": {
+      "name": "Cognitive Palace",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-00000",
+      "requires": [
+        "CANON-00000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-20010",
+        "CANON-20020",
+        "CANON-21000",
+        "CANON-22000",
+        "CANON-23000",
+        "CANON-24000",
+        "CANON-25000"
+      ],
+      "entities": [
+        "Cognitive Palace (STR)",
+        "Reality Layer (STR)",
+        "Imaginality Layer (STR)",
+        "Potentiality Layer (STR)",
+        "Temporality Layer (STR)",
+        "Practicality Layer (STR)",
+        "Actuality Layer (STR)",
+        "Consequentiality Layer (STR)",
+        "Vertical Integration Protocols (PROTO)",
+        "Daily Layer Check-In (PROTO)",
+        "Weekly Seven-Layer Audit (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 1960,
+      "filename": "CANON-20000-PALACE-lattice.md"
+    },
+    "CANON-20010": {
+      "name": "Dimensional Coordinators",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "satellite",
+      "volatility_band": "moderate",
+      "parent": "CANON-20000",
+      "requires": [
+        "CANON-20000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Reality Coordinator (AGT)",
+        "Imaginality Coordinator (AGT)",
+        "Potentiality Coordinator (AGT)",
+        "Temporality Coordinator (AGT)",
+        "Practicality Coordinator (AGT)",
+        "Actuality Coordinator (AGT)",
+        "Consequentiality Coordinator (AGT)",
+        "Meta-Governor (AGT)",
+        "Seven Pulses Dashboard (TOOL)",
+        "Cross-Layer Integration Matrices (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1238,
+      "filename": "CANON-20010-DIM_COORDINATORS-satellite-PALACE-lattice.md"
+    },
+    "CANON-20020": {
+      "name": "Meta-Systems",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "satellite",
+      "volatility_band": "moderate",
+      "parent": "CANON-20000",
+      "requires": [
+        "CANON-20000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Universal Resonance Field (STR)",
+        "Pattern Library System (TOOL)",
+        "Seven Pulses Dashboard (TOOL)",
+        "Adaptive Interface System (TOOL)",
+        "Pattern Mining Operations (WF)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1091,
+      "filename": "CANON-20020-META_SYSTEMS-satellite-PALACE-lattice.md"
+    },
+    "CANON-21000": {
+      "name": "Chain Interdependency Matrix",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "moderate",
+      "parent": "CANON-20000",
+      "requires": [
+        "CANON-00000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-21100"
+      ],
+      "entities": [
+        "Chain Interdependency Matrix (STR)",
+        "Hard Dependency (CON)",
+        "Soft Dependency (CON)",
+        "Intelligence Chain (CON)",
+        "Information Chain (CON)",
+        "Insight Chain (CON)",
+        "Expertise Chain (CON)",
+        "Knowledge Chain (CON)",
+        "Wisdom Chain (CON)",
+        "Synchronization Track (WF)",
+        "Specialization Track (WF)",
+        "Dual-Track System (STR)",
+        "Stage Readiness Checklist (PROTO)",
+        "Remediation Protocols (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 3868,
+      "filename": "CANON-21000-CHAIN_MATRIX-lattice.md"
+    },
+    "CANON-21100": {
+      "name": "Tri-Helical Timeline Visualization",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "moderate",
+      "parent": "CANON-21000",
+      "requires": [
+        "CANON-21000",
+        "CANON-00000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Tri-Helical Timeline (STR)",
+        "Technological Maturity Timeline (CON)",
+        "Business Development Timeline (CON)",
+        "Personal Capability Timeline (CON)",
+        "Synchronization Matrix (STR)",
+        "Decision Grounding Framework (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1943,
+      "filename": "CANON-21100-TRI_HELIX-lattice.md"
+    },
+    "CANON-22000": {
+      "name": "Interference Pattern & Synthesis Dynamics",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-20000",
+      "requires": [
+        "CANON-20000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Constructive Interference (CON)",
+        "Destructive Interference (CON)",
+        "Perception-Action Triad (STR)",
+        "Understanding Triad (STR)",
+        "Integration Triad (STR)",
+        "Synthesis Sequence (WF)",
+        "Resonance Phenomenon (CON)",
+        "Interference Detection Protocol (PROTO)",
+        "Correction Protocol (PROTO)",
+        "Six-Chain Assessment Matrix (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 2031,
+      "filename": "CANON-22000-INTERFERENCE-lattice.md"
+    },
+    "CANON-23000": {
+      "name": "Lunar Navigation",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-20000",
+      "requires": [
+        "CANON-20000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Lunar Navigation (STR)",
+        "Five Orthogonal Dimensions (STR)",
+        "Scale Dimension (NOT)",
+        "Level Dimension (NOT)",
+        "Degree Dimension (NOT)",
+        "Stage Dimension (NOT)",
+        "Phase Dimension (NOT)",
+        "Epistemology-Oriented Entry (WF)",
+        "Ontology-Oriented Entry (WF)",
+        "Integration-Oriented Entry (WF)",
+        "Degree Progression (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1011,
+      "filename": "CANON-23000-LUNAR_NAV-lattice.md"
+    },
+    "CANON-24000": {
+      "name": "Omni-Quality Cultivation",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-20000",
+      "requires": [
+        "CANON-20000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Omnibenevolence Cultivation (CON)",
+        "Omniscience Cultivation (CON)",
+        "Omnipotence Cultivation (CON)",
+        "Omnipresence Cultivation (CON)",
+        "Omni-Quality Assessment (MET)",
+        "Temporal Integration (CON)",
+        "Spatial Integration (CON)",
+        "Dimensional Integration (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1180,
+      "filename": "CANON-24000-OMNI_QUALITY-lattice.md"
+    },
+    "CANON-25000": {
+      "name": "Memory Architecture",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "moderate",
+      "parent": "CANON-20000",
+      "requires": [
+        "CANON-00000",
+        "CANON-00005"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-25100",
+        "CANON-25200"
+      ],
+      "entities": [
+        "Memory Architecture (STR)",
+        "Memory Sovereignty Principle (CON)",
+        "Seven Memory Strata (STR)",
+        "Constitutional Memory (CON)",
+        "Preference Memory (CON)",
+        "Accumulated Memory (CON)",
+        "Project/Space Memory (CON)",
+        "Canonical Knowledge RAG (CON)",
+        "Thread Context (CON)",
+        "Tool-Extended Memory (CON)",
+        "CLI-Foyer Architecture (STR)",
+        "CLAUDE.md Hierarchy (STR)",
+        "Distillation Protocol (PROTO)",
+        "Thread Culmination Protocol (PROTO)",
+        "Corpus Update Protocol (PROTO)",
+        "Forgetting Protocol (PROTO)",
+        "IIC Memory Configuration (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 7550,
+      "filename": "CANON-25000-MEMORY_ARCH-lattice.md"
+    },
+    "CANON-25100": {
+      "name": "Context Transition Protocol",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "moderate",
+      "parent": "CANON-25000",
+      "requires": [
+        "CANON-25000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Context Transition Protocol (PROTO)",
+        "Culmination Mode (PROTO)",
+        "Continuation Mode (PROTO)",
+        "Compression Mode (PROTO)",
+        "Transition Artifact (ART)",
+        "Context Analysis Framework (STR)",
+        "Distillation Interface (PROTO)",
+        "Oracle Pedigree Protocol (PROTO)",
+        "Cross-IIC Handoff (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 2450,
+      "filename": "CANON-25100-CONTEXT_TRANS-lattice.md"
+    },
+    "CANON-25200": {
+      "name": "Platform Constellation Architecture",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "dynamic",
+      "parent": "CANON-25000",
+      "requires": [
+        "CANON-25000",
+        "CANON-00017"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Constellation (STR)",
+        "Pantheon (STR)",
+        "Medley Mode (WF)",
+        "Characteristic Cognition (CON)",
+        "Three Accounts (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 6227,
+      "filename": "CANON-25200-CONSTELLATION_ARCH-lattice.md"
+    },
+    "CANON-25500": {
+      "name": "Architecture Rationale",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": null,
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 4326,
+      "filename": "CANON-25500-ARCHITECTURE_RATIONALE-lattice.md"
+    },
+    "CANON-25600": {
+      "name": "Ascertescence Cycle",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-25000",
+      "requires": [
+        "CANON-00000",
+        "CANON-00003",
+        "CANON-00010"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Ascertescence Cycle (PROTO)",
+        "Rendezvous Phase (PROTO)",
+        "Triangulation Phase (PROTO)",
+        "Construction Phase (PROTO)",
+        "Build Phase (PROTO)",
+        "Reviewtrospective Phase (PROTO)",
+        "Remediation Phase (PROTO)",
+        "Means-Ends Inversion Halt (PROTO)",
+        "Hub-and-Spoke Routing (STR)",
+        "Unification Artifact (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1681,
+      "filename": "CANON-25600-ASCERTESCENCE_CYCLE-lattice.md"
+    },
+    "CANON-25610": {
+      "name": "Diviner Prompting Formula",
+      "tier": "lattice",
+      "chain": null,
+      "celestial_type": "planetary",
+      "volatility_band": "moderate",
+      "parent": "CANON-25600",
+      "requires": [
+        "CANON-00016",
+        "CANON-25600"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Cognitive Launching Pads (PROTO)",
+        "Symmetry-Breaking Fields (CON)",
+        "Micro-Falsifiability Covenant (PROTO)",
+        "Negative Space Hardening (PROTO)",
+        "All-Sciences Palette (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1093,
+      "filename": "CANON-25610-DIVINER_PROMPTING_FORMULA-lattice.md"
+    },
+    "CANON-30000": {
+      "name": "Intelligence Chain",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-00000",
+      "requires": [
+        "CANON-00000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Intelligence Chain (CON)",
+        "AI Collaboration (CAP)",
+        "Tool Mastery (CAP)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 2338,
+      "filename": "CANON-30000-INTELLIGENCE-chain.md"
+    },
+    "CANON-30100": {
+      "name": "ASA Model",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "comet",
+      "volatility_band": "dynamic",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-30000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Anthromachina Symbiosis (CON)",
+        "Hybrid Cognitive Systems (CON)",
+        "Constitutional Stack (STR)",
+        "Orthogonal Planes (STR)",
+        "Coupling Topology (STR)",
+        "Object Ontology (STR)",
+        "Evolutionary Gradient (STR)",
+        "Phase Transition Dynamics (CON)",
+        "Capability Contracts (CON)",
+        "Platform Overlay Architecture (STR)",
+        "Resonance Index (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 9868,
+      "filename": "CANON-30100-ASA-comet-INTELLIGENCE.md"
+    },
+    "CANON-30200": {
+      "name": "Strategic Positioning",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "comet",
+      "volatility_band": "dynamic",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-30000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Institutional Personality Assessment (CON)",
+        "Lock-In Risk Assessment Framework (TOOL)",
+        "Enshittification Cycle (CON)",
+        "Tool Selection Decision Framework (WF)",
+        "Platform Presence Strategy (STR)",
+        "Corporate Risk Scoring (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 5276,
+      "filename": "CANON-30200-POSITIONING-comet-INTELLIGENCE.md"
+    },
+    "CANON-30300": {
+      "name": "Technology Stack Database",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "comet",
+      "volatility_band": "dynamic",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-30000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Technology Stack Database (TOOL)",
+        "Bedrock Tables (STR)",
+        "Settlement Tables (STR)",
+        "Primitive Tables (STR)",
+        "Intelligence Tables (STR)",
+        "Apparatus (CON)",
+        "Primitives (CON)",
+        "Navigation Specifications (WF)"
+      ],
+      "status": "canonical",
+      "operational_status": "pilot",
+      "word_count": 5298,
+      "filename": "CANON-30300-TECH_STACK-comet-INTELLIGENCE.md"
+    },
+    "CANON-30310": {
+      "name": "Tech Stack Migration",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "asteroid",
+      "volatility_band": "moderate",
+      "parent": "CANON-30300",
+      "requires": [
+        "CANON-30000",
+        "CANON-30300"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Migration Protocol (WF)",
+        "Bedrock Layer Schema (STR)",
+        "Settlement Layer Schema (STR)",
+        "Primitive Layer Schema (STR)",
+        "Intelligence Layer Schema (STR)",
+        "Navigation Interface (TOOL)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 3395,
+      "filename": "CANON-30310-MIGRATION-asteroid-TECH_STACK-comet-INTELLIGENCE.md"
+    },
+    "CANON-30320": {
+      "name": "Workflow Intelligence",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "asteroid",
+      "volatility_band": "dynamic",
+      "parent": "CANON-30300",
+      "requires": [
+        "CANON-30000",
+        "CANON-30300"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Work Typology Hierarchy (STR)",
+        "Delegation Philosophy (CON)",
+        "Apparatus Concept (CON)",
+        "Apparatus Detection Protocol (PROTO)",
+        "Workflow Modalities (CON)",
+        "Cognitive Offloading (CON)",
+        "Meta-Orchestration Layer (CAP)",
+        "Personal Ontology (CON)",
+        "Apparatus Crystallization Protocol (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 3218,
+      "filename": "CANON-30320-WORKFLOW_INTEL-asteroid-TECH_STACK-comet-INTELLIGENCE.md"
+    },
+    "CANON-30330": {
+      "name": "Research Protocols",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "asteroid",
+      "volatility_band": "dynamic",
+      "parent": "CANON-30300",
+      "requires": [
+        "CANON-30000",
+        "CANON-30300"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Source Triad Method (PROTO)",
+        "Verdicting Process (PROTO)",
+        "Decision-Bearing Questions (CON)",
+        "Frontier Tracking (WF)",
+        "Capability Contract Audit (PROTO)",
+        "Research Anti-Patterns (CON)",
+        "Confidence Levels (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1525,
+      "filename": "CANON-30330-RESEARCH_PROTOCOLS-asteroid-TECH_STACK-comet-INTELLIGENCE.md"
+    },
+    "CANON-30340": {
+      "name": "Implementation Patterns",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "asteroid",
+      "volatility_band": "moderate",
+      "parent": "CANON-30300",
+      "requires": [
+        "CANON-30000",
+        "CANON-30300"
+      ],
+      "siblings": [
+        "CANON-30330"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Over-Engineering Anti-Pattern (CON)",
+        "Memory System Bootstrapping (WF)",
+        "Orchestration Patterns (STR)",
+        "Context Engineering Economics (CON)",
+        "Security Defense Patterns (PROTO)",
+        "Bootstrap Roadmap (WF)",
+        "Maintenance Cadences (PROTO)",
+        "Success Metrics (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 1835,
+      "filename": "CANON-30340-IMPLEMENTATION_PATTERNS-asteroid-TECH_STACK-comet-INTELLIGENCE.md"
+    },
+    "CANON-30400": {
+      "name": "Agentic Architecture",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "comet",
+      "volatility_band": "moderate",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-30000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Agenticness Spectrum (CON)",
+        "Three-Layer Architecture (STR)",
+        "CoALA Framework (STR)",
+        "Human Agency Scale (MET)",
+        "Five Core Orchestration Patterns (STR)",
+        "Memory Taxonomy (STR)",
+        "Defense-in-Depth (PROTO)",
+        "CLASSic Evaluation Framework (MET)",
+        "Gen AI Paradox (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 2822,
+      "filename": "CANON-30400-AGENTIC_ARCHITECTURE-comet-INTELLIGENCE.md"
+    },
+    "CANON-30460": {
+      "name": "Interaction Dynamics",
+      "tier": "lattice",
+      "chain": "intelligence",
+      "celestial_type": "comet",
+      "volatility_band": "moderate",
+      "parent": "CANON-30400",
+      "requires": [
+        "CANON-30400"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Interaction State Machine (STR)",
+        "Convergent Refinement Pattern (PROTO)",
+        "Oscillating Refinement Pattern (PROTO)",
+        "Triangulated Synthesis Pattern (PROTO)",
+        "Sensing Loop Pattern (PROTO)",
+        "Tiered Specification (CON)",
+        "Platform Limitation Matrix (STR)",
+        "Cross-Platform Porting Protocols (PROTO)",
+        "Handoff Token (ART)",
+        "State Broadcast Automation (WF)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 5320,
+      "filename": "CANON-30460-INTERACTION_DYNAMICS-comet.md"
+    },
+    "CANON-31000": {
+      "name": "Information Chain",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-00000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Information Chain (CON)",
+        "Acumen (CON)",
+        "Feedcraft (CAP)",
+        "IIC (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 658,
+      "filename": "CANON-31000-INFORMATION-chain.md"
+    },
+    "CANON-31100": {
+      "name": "Acumen",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-31000",
+      "requires": [
+        "CANON-31000",
+        "CANON-35120",
+        "CANON-00012"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-31110",
+        "CANON-31120",
+        "CANON-31130",
+        "CANON-31140",
+        "CANON-31141",
+        "CANON-31142",
+        "CANON-31143"
+      ],
+      "entities": [
+        "Planetary Acumen (CON)",
+        "Acumen IIC (TOOL)",
+        "Priority Band (PROTO)",
+        "Dual-Stream Intelligence (PROTO)",
+        "Seven Archaeological Domains (STR)",
+        "Four-Stage Architecture (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 6470,
+      "filename": "CANON-31100-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31110": {
+      "name": "Feedcraft",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-31100",
+      "requires": [
+        "CANON-31000",
+        "CANON-31100",
+        "CANON-00000",
+        "CANON-00006",
+        "CANON-30000"
+      ],
+      "siblings": [
+        "CANON-31120",
+        "CANON-31130",
+        "CANON-31140"
+      ],
+      "synthesizes": [
+        "CANON-31115"
+      ],
+      "entities": [
+        "Feedcraft (CON)",
+        "Functional Platform Topology (STR)",
+        "Nine Platform Categories (STR)",
+        "Constitutional Practice (PROTO)",
+        "Three Cognitive Modes (CON)",
+        "Resonance Calculation (MET)",
+        "Temporal Choreography (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 7180,
+      "filename": "CANON-31110-FEEDCRAFT-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31115": {
+      "name": "Acumen IIC Implementation",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "lunar",
+      "volatility_band": "dynamic",
+      "parent": "CANON-31110",
+      "requires": [
+        "CANON-31100",
+        "CANON-31110"
+      ],
+      "siblings": [
+        "CANON-31130",
+        "CANON-31140",
+        "CANON-31143"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Acumen IIC Implementation (WF)",
+        "Daily Intelligence Cycle (PROTO)",
+        "Intelligence Brief Template (ART)",
+        "Recommendation Scoring System (MET)",
+        "Cross-IIC Handoff Protocol (PROTO)",
+        "Aggregation-of-Aggregators (PROTO)",
+        "Heat Mapping (TOOL)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 10147,
+      "filename": "CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31120": {
+      "name": "Tone Library",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-31100",
+      "requires": [
+        "CANON-31000",
+        "CANON-31100",
+        "CANON-00000",
+        "CANON-00006",
+        "CANON-30000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-31121",
+        "CANON-31122"
+      ],
+      "entities": [
+        "Tone Library (TOOL)",
+        "Recipe (ART)",
+        "Rhetorical Function Taxonomy (STR)",
+        "Stylistic Form Matrix (STR)",
+        "Evidence Type System (STR)",
+        "Cadence Pattern Library (STR)",
+        "Diction Rules (STR)",
+        "CTA Pattern Library (STR)",
+        "Guardrail System (PROTO)",
+        "Production Workflow (WF)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 9204,
+      "filename": "CANON-31120-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31121": {
+      "name": "Tone Library Taxonomy",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "satellite",
+      "volatility_band": "moderate",
+      "parent": "CANON-31120",
+      "requires": [
+        "CANON-31120",
+        "CANON-31000",
+        "CANON-00000",
+        "CANON-00006",
+        "CANON-30000"
+      ],
+      "siblings": [
+        "CANON-31122"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Rhetorical Function Taxonomy (STR)",
+        "Stylistic Form Taxonomy (STR)",
+        "Cadence Pattern Taxonomy (STR)",
+        "Diction Pattern Taxonomy (STR)",
+        "Guardrail Taxonomy (STR)",
+        "Evidence Type Taxonomy (STR)",
+        "CTA Pattern Taxonomy (STR)",
+        "Scaffold Element Taxonomy (STR)",
+        "Family Taxonomy (STR)",
+        "Recipient Archetype Taxonomy (STR)",
+        "Domain Taxonomy (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 2314,
+      "filename": "CANON-31121-TONE_TAXONOMY-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31122": {
+      "name": "Rhetorical Calibration",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "satellite",
+      "volatility_band": "moderate",
+      "parent": "CANON-31120",
+      "requires": [
+        "CANON-31120",
+        "CANON-31000",
+        "CANON-00000",
+        "CANON-00006",
+        "CANON-30000"
+      ],
+      "siblings": [
+        "CANON-31121"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Rhetorical Calibration (CON)",
+        "Voice Principles (PROTO)",
+        "Register Spectrum (STR)",
+        "Platform-Specific Registers (STR)",
+        "Anti-Patterns Catalog (STR)",
+        "Evolution Protocol (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 3223,
+      "filename": "CANON-31122-RHETORICAL-satellite-TONE_LIBRARY-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31130": {
+      "name": "Seven-Layer Stack",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-31100",
+      "requires": [
+        "CANON-31100",
+        "CANON-31000"
+      ],
+      "siblings": [
+        "CANON-31140",
+        "CANON-31141"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Seven-Layer Technosphere Stack (STR)",
+        "Layer 0 Physical Substrate (CON)",
+        "Layer 1 Identity Federation (CON)",
+        "Layer 2 Ambient Intelligence (CON)",
+        "Layer 3 Browser Intelligence (CON)",
+        "Layer 4 AI Platforms (CON)",
+        "Layer 5 Content Platforms (CON)",
+        "Layer 6 Production Tools (CON)",
+        "Layer 7 Meta-Intelligence (CON)",
+        "Differential Sovereignty (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 11359,
+      "filename": "CANON-31130-SEVEN_LAYER-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31140": {
+      "name": "IIC Constellation",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-31100",
+      "requires": [
+        "CANON-31100",
+        "CANON-31000"
+      ],
+      "siblings": [
+        "CANON-31130"
+      ],
+      "synthesizes": [
+        "CANON-31141",
+        "CANON-31142",
+        "CANON-31143"
+      ],
+      "entities": [
+        "IIC Constellation (STR)",
+        "Identity-Intelligence Complex (CON)",
+        "Multi-Account Intelligence Framework (STR)",
+        "Functional Compartmentalization (CON)",
+        "Progressive Activation Sequence (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 7355,
+      "filename": "CANON-31140-IIC-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31141": {
+      "name": "Five-Account Architecture",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "satellite",
+      "volatility_band": "dynamic",
+      "parent": "CANON-31140",
+      "requires": [
+        "CANON-31140",
+        "CANON-31100"
+      ],
+      "siblings": [
+        "CANON-31130",
+        "CANON-31110"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Acumen IIC (TOOL)",
+        "Coherence IIC (TOOL)",
+        "Efficacy IIC (TOOL)",
+        "Mastery IIC (TOOL)",
+        "Transcendence IIC (TOOL)",
+        "Five-Account Architecture (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 14992,
+      "filename": "CANON-31141-FIVE_ACCOUNT-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31142": {
+      "name": "Platform Grammar",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "satellite",
+      "volatility_band": "dynamic",
+      "parent": "CANON-31140",
+      "requires": [
+        "CANON-31140"
+      ],
+      "siblings": [
+        "CANON-31110",
+        "CANON-31130",
+        "CANON-31141"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Platform Grammar (PROTO)",
+        "Layer 3 Tactical Protocols (PROTO)",
+        "Per-Platform Interaction Rules (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 13242,
+      "filename": "CANON-31142-PLATFORM_GRAMMAR-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-31143": {
+      "name": "Feed Curation",
+      "tier": "chain",
+      "chain": "information",
+      "celestial_type": "satellite",
+      "volatility_band": "moderate",
+      "parent": "CANON-31140",
+      "requires": [
+        "CANON-31140",
+        "CANON-31100"
+      ],
+      "siblings": [
+        "CANON-31110",
+        "CANON-31130"
+      ],
+      "synthesizes": [],
+      "entities": [
+        "Feed Curation (PROTO)",
+        "Teleological Curation Practice (CON)",
+        "Chain-Aligned Feed Architecture (STR)",
+        "Qualification Criteria (MET)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 15094,
+      "filename": "CANON-31143-FEED_CURATION-satellite-IIC-lunar-ACUMEN-planetary-INFORMATION.md"
+    },
+    "CANON-32000": {
+      "name": "Insight Chain",
+      "tier": "chain",
+      "chain": "insight",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-00000",
+        "CANON-31000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Insight Chain (CON)",
+        "Coherence (CON)",
+        "Meta-Analysis (CAP)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 723,
+      "filename": "CANON-32000-INSIGHT-chain.md"
+    },
+    "CANON-32100": {
+      "name": "Coherence",
+      "tier": "chain",
+      "chain": "insight",
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-32000",
+      "requires": [
+        "CANON-32000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-32110",
+        "CANON-32120"
+      ],
+      "entities": [
+        "Planetary Coherence (CON)",
+        "Water Element Modality (CON)",
+        "Hermeneutic Sophistication (CAP)",
+        "Meaning-Making Modality (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1762,
+      "filename": "CANON-32100-COHERENCE-planetary-INSIGHT.md"
+    },
+    "CANON-32110": {
+      "name": "Coherence Synthesis System",
+      "tier": "chain",
+      "chain": "insight",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-32100",
+      "requires": [
+        "CANON-32100",
+        "CANON-32000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Coherence Synthesis System (STR)",
+        "Five Degrees of Meaning-Making (STR)",
+        "Recognition Degree (CON)",
+        "Exploration Degree (CON)",
+        "Commitment Degree (CON)",
+        "Integration Degree (CON)",
+        "Transmission Degree (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1905,
+      "filename": "CANON-32110-COHERENCE_SYS-lunar-COHERENCE-planetary-INSIGHT.md"
+    },
+    "CANON-32120": {
+      "name": "Meta-Analytical Framework",
+      "tier": "chain",
+      "chain": "insight",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-32100",
+      "requires": [
+        "CANON-32100",
+        "CANON-32000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Meta-Analytical Framework (STR)",
+        "Civilizational Sense-Making Taxonomy (STR)",
+        "Framework Proliferation (CON)",
+        "Phase Transition Navigation (CAP)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 5254,
+      "filename": "CANON-32120-META_ANALYSIS-lunar-COHERENCE-planetary-INSIGHT.md"
+    },
+    "CANON-33000": {
+      "name": "Expertise Chain",
+      "tier": "chain",
+      "chain": "expertise",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-00000",
+        "CANON-30000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Expertise Chain (CON)",
+        "Efficacy (CON)",
+        "Business Backbone (CON)",
+        "Revenue Model (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 896,
+      "filename": "CANON-33000-EXPERTISE-chain.md"
+    },
+    "CANON-33100": {
+      "name": "Efficacy",
+      "tier": "chain",
+      "chain": "expertise",
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-33000",
+      "requires": [
+        "CANON-33000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-33110"
+      ],
+      "entities": [
+        "Planetary Efficacy (CON)",
+        "Fire Element Modality (CON)",
+        "Intention-Formation Modality (CON)",
+        "Volitional Capacity (CAP)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1790,
+      "filename": "CANON-33100-EFFICACY-planetary-EXPERTISE.md"
+    },
+    "CANON-33110": {
+      "name": "Business Operations Backbone",
+      "tier": "chain",
+      "chain": "expertise",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-33100",
+      "requires": [
+        "CANON-33100",
+        "CANON-33000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-33112"
+      ],
+      "entities": [
+        "Business Operations Backbone (STR)",
+        "Economic Capability Development (CON)",
+        "Business Operation Phases (STR)",
+        "Revenue Model (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "partial",
+      "word_count": 1338,
+      "filename": "CANON-33110-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md"
+    },
+    "CANON-33112": {
+      "name": "Revenue Model Reconciliation",
+      "tier": "chain",
+      "chain": "expertise",
+      "celestial_type": "satellite",
+      "volatility_band": "moderate",
+      "parent": "CANON-33110",
+      "requires": [
+        "CANON-33110",
+        "CANON-33100",
+        "CANON-33000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Revenue Model Reconciliation (STR)",
+        "Convergence 4-Level Architecture (STR)",
+        "Operations 3-Phase Structure (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1267,
+      "filename": "CANON-33112-REVENUE_MODEL-satellite-BIZ_BACKBONE-lunar-EFFICACY-planetary-EXPERTISE.md"
+    },
+    "CANON-34000": {
+      "name": "Knowledge Chain",
+      "tier": "chain",
+      "chain": "knowledge",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-00000",
+        "CANON-33000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Knowledge Chain (CON)",
+        "Mastery (CON)",
+        "Curriculum (CON)",
+        "Syllabus (ART)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1052,
+      "filename": "CANON-34000-KNOWLEDGE-chain.md"
+    },
+    "CANON-34100": {
+      "name": "Mastery",
+      "tier": "chain",
+      "chain": "knowledge",
+      "celestial_type": "planetary",
+      "volatility_band": "stable",
+      "parent": "CANON-34000",
+      "requires": [
+        "CANON-34000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-34110"
+      ],
+      "entities": [
+        "Planetary Mastery (CON)",
+        "Earth Element Modality (CON)",
+        "Embodiment Modality (CON)",
+        "Embodied Capability (CAP)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1764,
+      "filename": "CANON-34100-MASTERY-planetary-KNOWLEDGE.md"
+    },
+    "CANON-34110": {
+      "name": "Syncrescendent Curriculum",
+      "tier": "chain",
+      "chain": "knowledge",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-34100",
+      "requires": [
+        "CANON-34100",
+        "CANON-34000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Syncrescendent Curriculum (STR)",
+        "Four-Stage Progression (STR)",
+        "Enablement Architecture (CON)",
+        "Human-AI Symbiosis Curriculum (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 6567,
+      "filename": "CANON-34110-CURRICULUM-lunar-MASTERY-planetary-KNOWLEDGE.md"
+    },
+    "CANON-35000": {
+      "name": "Wisdom Chain",
+      "tier": "chain",
+      "chain": "wisdom",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-30000",
+      "requires": [
+        "CANON-00000",
+        "CANON-30000",
+        "CANON-31000",
+        "CANON-32000",
+        "CANON-33000",
+        "CANON-34000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Wisdom Chain (CON)",
+        "Transcendence (CON)",
+        "Gaian Field Node (CON)",
+        "Metahumanism (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1230,
+      "filename": "CANON-35000-WISDOM-chain.md"
+    },
+    "CANON-35100": {
+      "name": "Transcendence Ring",
+      "tier": "chain",
+      "chain": "wisdom",
+      "celestial_type": "ring",
+      "volatility_band": "stable",
+      "parent": "CANON-35000",
+      "requires": [
+        "CANON-35000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-35110",
+        "CANON-35120"
+      ],
+      "entities": [
+        "Transcendence Ring (CON)",
+        "Quintessence Element (CON)",
+        "Strategic Harmony (CON)",
+        "Meta-Cognitive Orchestration (CAP)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1782,
+      "filename": "CANON-35100-TRANSCENDENCE-ring-WISDOM.md"
+    },
+    "CANON-35110": {
+      "name": "Transcendence Synthesis System",
+      "tier": "chain",
+      "chain": "wisdom",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-35100",
+      "requires": [
+        "CANON-35100",
+        "CANON-35000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Transcendence Synthesis System (STR)",
+        "Five Degrees of Meta-Cognitive Integration (STR)",
+        "Recognition Degree (CON)",
+        "Exploration Degree (CON)",
+        "Commitment Degree (CON)",
+        "Integration Degree (CON)",
+        "Transmission Degree (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 2197,
+      "filename": "CANON-35110-TRANS_SYSTEM-lunar-TRANSCENDENCE-ring-WISDOM.md"
+    },
+    "CANON-35120": {
+      "name": "Neurodivergent Practice Adaptations",
+      "tier": "chain",
+      "chain": "wisdom",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-35100",
+      "requires": [
+        "CANON-35100",
+        "CANON-35000"
+      ],
+      "siblings": [],
+      "synthesizes": [
+        "CANON-35121"
+      ],
+      "entities": [
+        "Neurodivergent Practice Adaptations (PROTO)",
+        "Energy-Aware Protocol Design (PROTO)",
+        "Universal Resistance Navigation (CON)",
+        "AuDHD Profile (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 7386,
+      "filename": "CANON-35120-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md"
+    },
+    "CANON-35121": {
+      "name": "Neurodivergent Patterns",
+      "tier": "chain",
+      "chain": "wisdom",
+      "celestial_type": "satellite",
+      "volatility_band": "moderate",
+      "parent": "CANON-35120",
+      "requires": [
+        "CANON-35120",
+        "CANON-35100",
+        "CANON-35000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Neurodivergent Patterns (STR)",
+        "AuDHD Implementation Patterns (PROTO)",
+        "Executive Function Protocols (PROTO)",
+        "Sensory Processing Adaptations (PROTO)",
+        "Energy Management Patterns (PROTO)",
+        "Double-Masking Dynamics (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1454,
+      "filename": "CANON-35121-NEURODIVERGENT_PATTERNS-satellite-NEURODIVERGENT-lunar-TRANSCENDENCE-ring-WISDOM.md"
+    },
+    "CANON-35200": {
+      "name": "Gaian Field Node Architecture",
+      "tier": "chain",
+      "chain": "wisdom",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-35000",
+      "requires": [
+        "CANON-35000",
+        "CANON-34000",
+        "CANON-33000",
+        "CANON-30000",
+        "CANON-31130"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Gaian Field Node (CON)",
+        "Post-Labor Economics (CON)",
+        "Regenerative Infrastructure (CON)",
+        "Network Coordination (PROTO)",
+        "Replication Pathway (WF)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 6962,
+      "filename": "CANON-35200-GAIAN_NODE-lunar-TRANSCENDENCE-ring-WISDOM.md"
+    },
+    "CANON-35210": {
+      "name": "Metahumanism Framework",
+      "tier": "chain",
+      "chain": "wisdom",
+      "celestial_type": "lunar",
+      "volatility_band": "moderate",
+      "parent": "CANON-35200",
+      "requires": [
+        "CANON-35200",
+        "CANON-35000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Metahumanism Framework (CON)",
+        "Epistemic Stratigraphy (CON)",
+        "Volition Architecture (CON)",
+        "Spiritual Planes Integration (CON)",
+        "Causation Theory (CON)",
+        "Fundamental Essentia (CON)"
+      ],
+      "status": "canonical",
+      "operational_status": "theoretical",
+      "word_count": 1302,
+      "filename": "CANON-35210-METAHUMANISM-lunar-TRANSCENDENCE-ring-WISDOM.md"
+    },
+    "CANON-99000": {
+      "name": "Historical Archive - Syncrescendence Lunar Consolidation",
+      "tier": "archive",
+      "chain": null,
+      "celestial_type": "meta",
+      "volatility_band": "moderate",
+      "parent": null,
+      "requires": [
+        "CANON-00000"
+      ],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "Historical Archive (ART)",
+        "Lunar Consolidation Record (ART)",
+        "Artifact Supersession Index (STR)",
+        "Migration Path Registry (STR)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 5330,
+      "filename": "CANON-99000-HISTORICAL-meta.md"
+    },
+    "CANON-ONTOLOGY-GATE-V1": {
+      "name": "Ontology Gate v1",
+      "tier": "immune",
+      "chain": null,
+      "celestial_type": "policy",
+      "volatility_band": "moderate",
+      "parent": null,
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 164,
+      "filename": "CANON-ONTOLOGY-GATE_v1.md"
+    },
+    "CANON-ONTOLOGY-GATE-V2": {
+      "name": "Ontology Gate v2",
+      "tier": "immune",
+      "chain": null,
+      "celestial_type": "policy",
+      "volatility_band": "moderate",
+      "parent": null,
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1114,
+      "filename": "CANON-ONTOLOGY-GATE_v2.md"
+    },
+    "CANON-APOPTOSIS-PROTOCOL": {
+      "name": "Apoptosis Protocol \u2014 5:1 Nucleosynthesis Ratio",
+      "tier": "chain",
+      "chain": null,
+      "celestial_type": "policy",
+      "volatility_band": "stable",
+      "parent": null,
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [
+        "5:1 Nucleosynthesis Ratio (CON)",
+        "Tombstone Schema (STR)",
+        "Recycling Schema (STR)",
+        "Young-System Exception (PROTO)",
+        "Apoptosis State Machine (STR)",
+        "Apoptosis Failure Modes (REF)",
+        "Apoptosis Verification Contract (PROTO)"
+      ],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1628,
+      "filename": "apoptosis_protocol.md"
+    },
+    "CANON-RETIREMENT-PROTOCOL": {
+      "name": "Retirement Protocol",
+      "tier": "immune",
+      "chain": null,
+      "celestial_type": "policy",
+      "volatility_band": "stable",
+      "parent": null,
+      "requires": [],
+      "siblings": [],
+      "synthesizes": [],
+      "entities": [],
+      "status": "canonical",
+      "operational_status": "operational",
+      "word_count": 1419,
+      "filename": "retirement_protocol.md"
+    }
+  }
+}
