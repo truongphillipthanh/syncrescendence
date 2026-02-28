@@ -3,8 +3,10 @@ id: CANON-30430
 canonical_name: Memory Systems
 title: "Memory Systems"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: asteroid
 volatility_band: dynamic
 refresh_cadence: monthly

@@ -3,8 +3,10 @@ id: CANON-30330
 canonical_name: Research Protocols
 title: "Research Protocols"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: asteroid
 volatility_band: dynamic
 refresh_cadence: monthly

@@ -3,8 +3,10 @@ id: CANON-30340
 canonical_name: Implementation Patterns
 title: "Implementation Patterns"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: asteroid
 volatility_band: dynamic
 refresh_cadence: monthly

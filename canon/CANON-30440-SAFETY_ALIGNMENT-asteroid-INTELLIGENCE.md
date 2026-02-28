@@ -3,8 +3,10 @@ id: CANON-30440
 canonical_name: Safety and Alignment
 title: "Safety and Alignment"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: asteroid
 volatility_band: dynamic
 refresh_cadence: monthly

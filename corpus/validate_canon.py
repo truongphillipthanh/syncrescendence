@@ -50,6 +50,11 @@ RECOMMENDED_FIELDS = [
     "volatile_sections", "title", "chain"
 ]
 
+# Valid layer values (D-1/D-2 ratified CC49)
+VALID_LAYERS = {None, "lattice", "chain", "cosmos"}
+# Valid developmental_status values (Diviner amendment CC49)
+VALID_DEV_STATUSES = {None, "active", "stable", "dormant"}
+
 # Legacy fields that should be migrated
 LEGACY_FIELDS = ["depends_on", "identity", "synopsis", "change_velocity"]
 
@@ -122,6 +127,19 @@ def validate_file(filepath, all_ids, strict=False):
     for field in RECOMMENDED_FIELDS:
         if field not in fm:
             issues.append(("WARN", f"Missing recommended field: {field}"))
+
+    # Layer validation (lattice files must declare layer)
+    layer = fm.get("layer")
+    if layer is not None and layer.lower() not in VALID_LAYERS:
+        issues.append(("ERROR", f"Invalid layer: {layer}"))
+    if fm.get("tier") and fm["tier"].lower() == "lattice" and fm.get("chain") == "intelligence":
+        if not layer:
+            issues.append(("WARN", f"Lattice-tier Intelligence file missing layer field"))
+
+    # Developmental status validation
+    dev_status = fm.get("developmental_status")
+    if dev_status is not None and dev_status.lower() not in VALID_DEV_STATUSES:
+        issues.append(("ERROR", f"Invalid developmental_status: {dev_status}"))
 
     # Legacy fields still present
     for field in LEGACY_FIELDS:

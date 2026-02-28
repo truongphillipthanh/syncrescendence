@@ -3,8 +3,10 @@ id: CANON-30000
 canonical_name: Intelligence Chain
 title: "Intelligence Chain"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: lunar
 volatility_band: moderate
 refresh_cadence: quarterly

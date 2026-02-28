@@ -3,8 +3,10 @@ id: CANON-30420
 canonical_name: Multi-Agent Orchestration
 title: "Multi-Agent Orchestration"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: asteroid
 volatility_band: dynamic
 refresh_cadence: monthly

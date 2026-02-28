@@ -3,8 +3,10 @@ id: CANON-30100
 canonical_name: ASA Model
 title: "ASA Model"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: comet
 volatility_band: dynamic
 refresh_cadence: monthly

@@ -3,8 +3,10 @@ id: CANON-30450
 canonical_name: Production Frameworks
 title: "Production Frameworks"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: asteroid
 volatility_band: dynamic
 refresh_cadence: monthly

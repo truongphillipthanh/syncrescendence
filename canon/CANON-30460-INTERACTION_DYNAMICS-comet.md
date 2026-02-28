@@ -3,8 +3,10 @@ id: CANON-30460
 canonical_name: Interaction Dynamics
 title: "Interaction Dynamics"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: comet
 volatility_band: dynamic
 refresh_cadence: monthly

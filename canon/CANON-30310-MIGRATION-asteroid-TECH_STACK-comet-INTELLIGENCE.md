@@ -3,8 +3,10 @@ id: CANON-30310
 canonical_name: Tech Stack Migration
 title: "Tech Stack Migration"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: asteroid
 volatility_band: dynamic
 refresh_cadence: monthly

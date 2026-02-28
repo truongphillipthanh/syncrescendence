@@ -3,8 +3,10 @@ id: CANON-30300
 canonical_name: Technology Stack Database
 title: "Technology Stack Database"
 
-tier: chain
+tier: lattice
 chain: intelligence
+layer: lattice
+developmental_status: active
 celestial_type: comet
 volatility_band: dynamic
 refresh_cadence: monthly
