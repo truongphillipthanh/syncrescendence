@@ -151,15 +151,16 @@ Every dispatch involving corpus or file classification MUST include this verbati
 **Formula**:
 1. Pre-digested context IN the prompt — filenames, folder census, representative content. Don't make Grok paginate GitHub.
 2. Named anchor files — specific, real paths that force content engagement.
-3. Content proof requirement — "Quote one sentence from each file to prove you read it."
+3. Content proof requirement (HARDENED — CC58): "Quote one sentence from each file to prove you read it." **The quote must be UGLY** — real file content has markdown headers, extraction metadata, timestamps, partial sentences. If every quote reads like a polished summary sentence, it is paraphrased, not verbatim. Instruct: "Copy-paste the exact characters. Include the markdown formatting, the typos, the metadata prefixes. A clean quote is a fabricated quote."
 4. Output pressure — "Exhaust your output tokens." "Write your complete response as a markdown file."
-5. Constrained enumeration — "Identify 8-12 distinct sub-themes with 3 real filenames and a content quote for each."
+5. Constrained enumeration — "Identify 5-8 distinct sub-themes with 3 real filenames and a content quote for each."
 6. Positive mandates over negative framing.
 7. Avatar context — Oracle performs exponentially better with constellation identity.
 8. High-fidelity context injection — the more context, the better. Tabula rasa = failure.
 9. Push repo first, then link specific GitHub paths.
+10. Constitutional reinforcement at the SUB-THEME level (CC58 SEARED): Restate the clustering principle explicitly for subcategory formation — "Sub-themes must be SEMANTIC TOPICS, not artifact types. A sub-theme called 'Extraction Artifacts' or 'Pipeline Outputs' or 'YouTube Interviews' is TYPE-BASED and constitutionally forbidden. The content of an extraction about training is ABOUT TRAINING. The content of a YouTube interview about benchmarks is ABOUT BENCHMARKS. Classify by what the content IS ABOUT, at every level of granularity."
 
-**Anti-patterns**: Stateless prompts (= hallucination). Vague questions (= generic answers). Trusting Grok to navigate thousands of files autonomously (= pagination failure + conciseness default).
+**Anti-patterns**: Stateless prompts (= hallucination). Vague questions (= generic answers). Trusting Grok to navigate thousands of files autonomously (= pagination failure + conciseness default). **Polished "verbatim" quotes** (= paraphrasing disguised as content proof; the dominant Oracle fabrication mode — CC58 SEARED). **Type-based sub-themes** (= Oracle will create subcategories like "Extraction Artifacts" or "Interview Summaries" unless explicitly prohibited at the sub-theme level, not just the folder level).
 
 ### Cartographer (Gemini Pro 3.1) — Hidden Connections + Survey & Map
 
