@@ -264,6 +264,7 @@ Every dispatch prompt MUST include ALL of the following. Missing any one is a pr
 5. **Absolute prohibitions** relevant to the task (type-based clustering, deletions, etc.)
 6. **Constellation context** — who they are, what the project is, who the other agents are
 7. **A "HOW TO ACCESS THE REPO" section** with clickable links to every directory and key file the agent will need. This is NOT optional — it is the difference between an agent that reads content and an agent that hallucinates filenames.
+8. **Local filesystem path**: `/Users/system/syncrescendence/` — include this for agents with filesystem access (Codex, Gemini CLI, OpenClaw). Both GitHub URLs AND local paths. Always both.
 
 ---
 

@@ -39,6 +39,8 @@ Key paths to navigate to:
 
 To read any specific file, use: `https://github.com/truongphillipthanh/syncrescendence/blob/main/corpus/<folder>/<filename>`
 
+**Local path** (if you have filesystem access): `/Users/system/syncrescendence/corpus/`
+
 This is your first and only context window for CC55. Begin by confirming you have read this entire prompt.
 
 ---
