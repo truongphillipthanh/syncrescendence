@@ -1,7 +1,7 @@
 # NUCLEOSYNTHESIS MAP — Corpus Classification Authority
 
-**Updated**: 2026-02-28 (CC56)
-**Corpus**: 22 semantic topic folders, 6,843 files
+**Updated**: 2026-02-28 (CC57)
+**Corpus**: 22 semantic topic folders, 5,954 files (49.3% reduction from 11,733 originals)
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
 ---
@@ -10,30 +10,30 @@
 
 | Folder | Files | Description |
 |--------|------:|-------------|
-| ai-biotech | 17 | Biotechnology, synthetic biology, AI in life sciences |
-| ai-capability-futures | 604 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions |
-| ai-memory-retrieval | 444 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture |
-| ai-models | 1,010 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization |
-| ai-safety | 122 | Constitutional AI, RLHF, alignment, governance, existential risk |
-| ai-video-vfx | 137 | AI image/video generation, VFX workflows, creative AI tooling |
-| claude-code | 640 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions |
-| design-taste | 207 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" |
-| geopolitics-grand-strategy | 198 | US-China, grand strategy, civilizational analysis, defense, international relations |
-| health-psychology | 208 | Sleep, fitness, mental health, neuroscience, biohacking, psychology |
-| infrastructure | 105 | DevOps, cloud, servers, networking, compute economics |
-| leadership-management | 57 | Executive decision-making, org design, management frameworks |
-| meaning-civilization | 206 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism |
-| multi-agent-systems | 822 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files (classified by topic) |
-| openclaw | 652 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets |
-| philosophy-esoterica | 282 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah |
-| product-business | 305 | Business models, PMF, SaaS, AI product strategy, distribution |
-| productivity-pkm | 201 | Second Brain, PKM, Obsidian, habits, workflow automation, focus |
-| prompt-engineering | 47 | Prompt design, templates, optimization, few-shot patterns |
-| startup-vc | 103 | Founders, fundraising, startup culture, VC dynamics |
-| vibe-coding | 246 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines |
-| writing-creation | 223 | Writing craft, rhetoric, content creation, voice/TTS |
+| ai-biotech | 10 | Biotechnology, synthetic biology, AI in life sciences |
+| ai-capability-futures | 448 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions |
+| ai-memory-retrieval | 393 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture |
+| ai-models | 880 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization |
+| ai-safety | 101 | Constitutional AI, RLHF, alignment, governance, existential risk |
+| ai-video-vfx | 126 | AI image/video generation, VFX workflows, creative AI tooling |
+| claude-code | 577 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions |
+| design-taste | 193 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" |
+| geopolitics-grand-strategy | 163 | US-China, grand strategy, civilizational analysis, defense, international relations |
+| health-psychology | 181 | Sleep, fitness, mental health, neuroscience, biohacking, psychology |
+| infrastructure | 90 | DevOps, cloud, servers, networking, compute economics |
+| leadership-management | 52 | Executive decision-making, org design, management frameworks |
+| meaning-civilization | 190 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism |
+| multi-agent-systems | 761 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files (classified by topic) |
+| openclaw | 572 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets |
+| philosophy-esoterica | 234 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah |
+| product-business | 242 | Business models, PMF, SaaS, AI product strategy, distribution |
+| productivity-pkm | 184 | Second Brain, PKM, Obsidian, habits, workflow automation, focus |
+| prompt-engineering | 41 | Prompt design, templates, optimization, few-shot patterns |
+| startup-vc | 81 | Founders, fundraising, startup culture, VC dynamics |
+| vibe-coding | 207 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines |
+| writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS |
 
-**Total**: 6,843 files across 22 folders (+ 1 empty uncategorized).
+**Total**: 5,954 files across 22 folders (+ 1 empty uncategorized). 49.3% reduction from 11,733 originals.
 
 ---
 
@@ -59,17 +59,11 @@
 
 ---
 
-## Near-Duplicate Registry
+## CRUSH Results (CC57)
 
-122 adjudicated candidates (114 delete_subset, 7 delete_truncated, 1 delete_merge). Status: pending CRUSH execution. Policy: MERGE (preserve unique content into keeper), not delete.
+**Near-Duplicate CRUSH**: 122 adjudicated candidates. 116 removed (6 already gone from prior waves). All confirmed subsets, truncated copies, or formatting-only variants. Registry in git history (`1a5eba0c`).
 
-Full registry preserved in git history (commit `1a5eba0c` and prior). Execute near-dupe merges as next CRUSH phase.
-
----
-
-## JSONL Redundancy
-
-~1,002 Flat JSONL files are byte-for-byte identical to the `payload` field of paired Graphiti JSONL files. Distributed across all folders. Removal requires content-aware sweep (identify the Flat variant, keep the Graphiti variant). Next CRUSH phase after near-dupe merges.
+**JSONL Redundancy CRUSH**: 773 Flat JSONL files removed. Each was byte-for-byte identical to the `payload` field of a paired Graphiti JSONL in the same folder. 146 Flat JSONL remain (no matching Graphiti pair — unique content). Graphiti variants preserve all data plus metadata (uuid, schema_version, provenance, timestamp, confidence, entity_type).
 
 ---
 
