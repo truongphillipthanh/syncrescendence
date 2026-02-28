@@ -1,1 +1,0 @@
-{"atom_id": "ATOM-SOURCE-20251218-802-0001", "source_id": "SOURCE-20251218-802", "category": "claim", "content": "Gemini 3 Flash is a highly effective model.", "line_start": 10, "line_end": 10, "chaperone": {"context_type": "anecdote", "argument_role": "claim", "tension_vector": [0.1, 0.2, 0.1, 0.1, 0.2, 0.3], "opposes_atom_ids": []}, "extensions": {}}

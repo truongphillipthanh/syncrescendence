@@ -1,1 +1,0 @@
-{"atom_id": "ATOM-SOURCE-20260212-103-0001", "source_id": "SOURCE-20260212-103", "category": "claim", "content": "GLM-5 is the best open-weight model ever seen.", "line_start": 10, "line_end": 10, "chaperone": {"context_type": "anecdote", "argument_role": "claim", "tension_vector": [0.7, 0.2, 0.1, 0.3, 0.1, 0.4], "opposes_atom_ids": []}, "extensions": {}}

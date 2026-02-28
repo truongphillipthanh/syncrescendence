@@ -1,0 +1,827 @@
+filename	topic	secondary_topic	summary
+09001.md	sn-system-prompt	openclaw	# RESULT — TASK-20260205-sync_outfitment (Ajna)
+09002.md	sn-script	sn-result	# RESULT-ajna-20260206-ghostty_spacing
+09003.md	sn-other	sn-script	# RESULT — TASK-20260206-inbox_self_triage_and_watchers (Ajna)
+09004.md	openclaw	sn-system-prompt	# RESULT-ajna-20260208-watcher_smoke_test
+09005.md	sn-result	design	# RESULT-ajna-20260209-discord_server_setup
+09006.md	sn-system-prompt	openclaw	# RESULT-ajna-20260209-mba-deployment-guide
+09007.md	sn-task	sn-result	# RESULT-ajna-20260211-install-hf-last-signal-skills
+09008.md	sn-task	sn-script	# RESULT-ajna-20260211-int1612_automation_audit
+09009.md	sn-task	codex	# RESULT-ajna-20260212-mba_codex_upgrade_and_adjudicator_recovery
+09010.md	sn-result	sn-task	# RESULT-ajna-20260212-mba_ssh_key_install
+09011.md	ai-agents	openclaw	# RESULT-ajna-20260212-skill_architecture_strategic_review
+09012.md	sn-architecture	software-engineering	# RESULT-ajna-20260212-skill_architecture_strategic_review_retry
+09013.md	sn-result	sn-pipeline	# RESULT-ajna-20260216-research_pipeline_coherence_audit
+09014.md	sn-result	sn-task	# RESULT-ajna-20260217-idle_health_report
+09015.md	sn-task	sn-other	# RESULT-cartographer-20260208-watcher_smoke_test
+09016.md	sn-other		Empty file
+09017.md	sn-other	gemini	# RESULT-cartographer-20260209-claresce3_pass1_corpus_survey
+09018.md	gemini	sn-other	# RESULT-cartographer-20260209-claresce3v2_pass1_scaffold_audit
+09019.md	gemini	sn-other	# RESULT-cartographer-20260209-claresce3v2_pass2_canon_coherence
+09020.md	sn-task	sn-other	# RESULT-cartographer-20260211-install-hf-last-signal-skills
+09021.md	gemini	sn-canon	# RESULT-cartographer-20260211-ontology_corpus_survey_+_gap_analysis
+09022.md	chatgpt	sn-script	# RESULT: MODEL-INDEX Refresh
+09023.md	ai-agents	sn-result	# RESULT-cartographer-20260215-research_corpus_analysis
+09024.md	ai-agents	sn-result	# RESULT-cartographer-20260215-research_corpus_analysis
+09025.md	gemini	sn-result	# RESULT-cartographer-20260216-gemini_headless_smoke
+09026.md	sn-other	sn-task	# RESULT-cartographer-20260216-research_corpus_deep_inspection
+09027.md	ai-agents	sn-task	# RESULT-cartographer-20260216-research_corpus_multipass_sensing
+09028.md	sn-result	gemini	# RESULT-cartographer-20260221-corpus_freshness
+09029.md	sn-other	sn-script	# RESULT: Plumbing Hardening (TASK-20260202)
+09030.md	sn-task	sn-other	# RESULT: Always-On Smoke Validation v2
+09031.md	sn-other	openclaw	# RESULT: Always-On Watchers Sweep
+09032.md	sn-script	sn-result	# RESULT-commander-20260205-kanbanize_dispatch_surfaces
+09033.md	sn-script	sn-certescence	# RESULT-commander-20260206-agendizer-clarescence2-blitzkrieg
+09034.md	sn-script	sn-other	# RESULT: Commander Inbox Execution — 2026-02-06
+09035.md	sn-other	sn-canon	# RESULT — Agendizer Clarescence^2 Blitzkrieg Launch
+09036.md	sn-script	sn-other	# RESULT-commander-20260207-highcommand-reflect-phase5-dailynotes
+09037.md	sn-result	sn-other	# RESULT-commander-20260207-highcommand-reflect-phase6-allnotes-table
+09038.md	sn-script	sn-other	# RESULT-commander-20260207-highcommand-reflect-phase7-slash-backlinks
+09039.md	sn-task	sn-script	# RESULT-commander-20260207-highcommand-reflect-phase8-entities-pinned-tasks
+09040.md	ai-agents	design	# RESULT — HighCommand Saner Swarm + Reflect Gap Analysis
+09041.md	openclaw	sn-system-prompt	# RESULT-commander-20260211-install-hf-last-signal-skills
+09042.md	sn-config	sn-other	# RESULT-mba-cascade-20260211
+09043.md	sn-other	sn-config	# RESULT-mba-commander-20260211
+09044.md	sn-task	sn-result	# RESULT-psyche-20260209-TASK-MBA-CASCADE
+09045.md	sn-result	openclaw	# RESULT-psyche-20260209-claresce3_pass1_infra_audit
+09046.md	sn-task	sn-config	# RESULT-psyche-20260209-slack-psyche-bot-config
+09047.md	sn-other	sn-config	# RESULT-psyche-20260209-slack_channel_setup
+09048.md	openclaw	sn-system-prompt	# RESULT-psyche-20260211-hf-signal-skill-fork-and-dispatch
+09049.md	openclaw	sn-system-prompt	# RESULT-psyche-20260211-last30days_openclaw_consequential_adoptions
+09050.md	sn-other	sn-task	# RESULT-psyche-20260212-TASK-ADJUDICATOR-MODEL-UPDATE-20260213-R1
+09051.md	sn-other	sn-task	# RESULT-psyche-20260212-TASK-ADJUDICATOR-MODEL-UPDATE-20260213
+09052.md	sn-other	sn-task	# RESULT-psyche-20260212-TASK-CARTOGRAPHER-PLIST-FIX-20260213-R1
+09053.md	sn-other	sn-task	# RESULT-psyche-20260212-TASK-CARTOGRAPHER-PLIST-FIX-20260213
+09054.md	sn-task	design	# RESULT-psyche-20260212-chroma_restart_loop_investigation
+09055.md	codex	sn-other	# RESULT-psyche-20260212-codex_upgrade_and_smoke_test
+09056.md	sn-result	sn-task	# RESULT-psyche-20260212-intelligence_refresh_lastweek
+09057.md	infrastructure	sn-other	# RESULT — CTO Recovery Architecture (Read-Only Assessment)
+09058.md	sn-result	sn-task	# RESULT-psyche-20260216-plist_env_vars
+09059.md	sn-result	sn-pipeline	# RESULT-psyche-20260216-research_pipeline_coherence_audit
+09060.md	sn-other	sn-certescence	# RETROSPECTIVE: Ascertescence CC26-CC29
+09061.md	sn-other	sn-handoff	# REVIEWTROSPECTIVE — CC38
+09062.md	sn-rosetta	sn-pipeline	# ROSETTA STONE v2.6.0 vs. CONVERGENCE DOCUMENTS: COMPREHENSIVE GAP ANALYSIS
+09063.md	sn-other	ai-agents	# RUNLOGS-DIGEST-A — MBA Commander Log (Primary)
+09064.md	sn-other	sn-script	# RUNLOGS-DIGEST-B — MBA Commander Log-2 + MM Commander Log
+09065.md	sn-other	ai-agents	# RUNLOGS-DIGEST-C — Request Logs (MBA Commander + MM Commander + MM Psyche)
+09066.md	sn-other	sn-script	# RUNLOGS-DIGEST-D — Adjudicator, Cartographer, Ajna, Psyche, Editor Logs
+09067.md	ai-models	chatgpt	# RUNLOGS-DIGEST-E — _sovereign.md
+09068.md	sn-script	sn-other	# RUNLOGS-MASTER-DIGEST — Unified Running Logs Synthesis
+09069.md	sn-script	sn-architecture	# SCAFFOLD-CONVERGENCE COVERAGE AUDIT
+09070.md	sn-script	sn-pipeline	# Source Frontmatter Schema
+09075.md	sn-other	sn-script	You are running as a scheduled background task for the Syncrescendence system.
+09076.md	sn-result	sn-task	You are running as a scheduled background task for the Syncrescendence system.
+09077.md	sn-script	sn-other	You are running as a scheduled background task for the Syncrescendence system.
+09078.md	design	sn-other	# Syncrescendence Multi-Agent Tmux Cockpit Design
+09125.md	sn-other	sn-script	# YouTube OAuth2 Setup (One-Time)
+09126.md	sn-result	sn-canon	# Semantic Notation Block Templates
+09127.md	sn-script	content-creation	# Watch Later Drain — Setup Guide
+09128.md	sn-script	content-creation	# YouTube Ingest Pipeline — Setup Guide
+09253.md	sn-canon	sn-other	I will start by creating the necessary directories and saving the prompt file as requested. Then, I
+09254.md	sn-result	sn-canon	# Semantic Notation Block Templates
+09255.md	design	philosophy-epistemology	# Taste for Makers
+09256.md	sn-script	content-creation	# How to Speak
+09257.md	history	content-creation	# What is the Emerald Tablet of Hermes Trismegistus - Origins of Alchemy and Hermetic Philosophy
+09258.md	content-creation	sn-script	# Initiates of the Flame (1922) by Manly P. Hall
+09259.md	history	content-creation	# Mysticism in Ancient Greece
+09260.md	design	sn-script	# David Pearce | How to End All Suffering
+09261.md	ai-coding	sn-script	# COMPUTER SCIENCE explained in 17 Minutes
+09262.md	sn-script	content-creation	# Masters vs. Slaves | Nietzsche's Genealogy of Morality Explained
+09263.md	sn-script	content-creation	# The Woman Who Helps NBA Stars To Sleep: Stop Having Showers Just Before Bed! Dr Cheri Mah
+09264.md	sn-script	content-creation	# What is Generative Art: TouchDesigner’s Role in Art, Algorithms, and Creative Systems Explained
+09265.md	biology-evolution	ai-safety	# Don't invent faster horses - Prof. Jeff Clune
+09266.md	biology-neuroscience	sn-script	# A Universal Theory of Brain Function
+09267.md	ai-agents	sn-prompt	# Writing a good CLAUDE.md
+09268.md	sn-prompt	ai-agents	# What Actually Is Claude Code's Plan Mode?
+09269.md	biology-neuroscience	biology-evolution	# Joseph Henrich: Cultural Evolution and the Collective Brain
+09270.md	biology-neuroscience	biology-evolution	has_transcript: yes
+09271.md	sn-pipeline	sn-canon	# Benjamin Bratton: A Philosophy of Planetary Computation
+09272.md	sn-canon	sn-pipeline	# Scott Alexander & Daniel Kokotajlo: AI 2027
+09273.md	sn-system-prompt	sn-script	# The 7 Hermetic Laws FINALLY Explained in a Way That Makes Sense - no bs
+09274.md	sn-script	content-creation	# When a President Was Forced to Survive in the Amazon Jungle
+09275.md	claude-code	sn-prompt	# Claude Code: Best Practices for Agile Coding
+09276.md	content-creation	sn-script	# Stephen Heintz & Kim Stanley Robinson | A Logic For The Future | Long Now Talks
+09277.md	philosophy-consciousness	sn-script	# The Mind-Body Problem - Thomas Nagel - C&R 04/30/2025
+09278.md	content-creation	sn-script	# What Happens When AI Is More Valuable Than Humans?
+09279.md	philosophy-consciousness	biology-neuroscience	# The Research That Rethinks Neuroscience & Biology | Dr. Bernardo Kastrup
+09280.md	sn-script	claude-code	# How to 'See' the 4th Dimension with Topology
+09281.md	sn-canon	ai-agents	# Sholto Douglas & Trenton Bricken: Is RL + LLMs Enough for AGI?
+09282.md	design	sn-config	# configure your tmux.
+09283.md	sn-pipeline	history	has_transcript: yes
+09284.md	sn-pipeline	history	# Sara Imari Walker: An Informational Theory of Life
+09285.md	philosophy-epistemology	design	has_transcript: yes
+09286.md	philosophy-epistemology	design	# SOURCE: Ethan Mollick - AI's Jagged Frontier and Organizational Transformation
+09287.md	ai-agents	sn-task	# Don't Build Multi-Agents
+09288.md	design	content-creation	# He Built a $1M Business in 12 Months - Every Step Explained (Case Study)
+09289.md	philosophy-consciousness	biology-neuroscience	# Five New Paradigms of Intelligence
+09290.md	philosophy-consciousness	biology-neuroscience	has_transcript: yes
+09291.md	design	philosophy-consciousness	# How Plants Think & What It Teaches us about Consciousness
+09292.md	design	ai-general	# #20 – Melanie Mitchell: The Science of Artificial Thinking
+09293.md	biology-neuroscience	design	# A Fundamental Unit Of Intelligence
+09294.md	sn-architecture	history	# How Modern Technology Is Reviving An Ancient Chinese Problem
+09295.md	biology-evolution	biology-neuroscience	# The Intelligence of Us: Rethinking Minds in the Age of AI
+09296.md	biology-evolution	biology-neuroscience	has_transcript: yes
+09297.md	design	content-creation	# The neuroscience of extremes: Ruthless psychopathy to extraordinary generosity | Abigail Marsh
+09298.md	biology-neuroscience	content-creation	# 3 Ways Mathematics Alters Your Brain
+09299.md	sn-script	content-creation	# The Psychology of a GENIUS | Schopenhauer
+09300.md	claude-code	design	https://dinanjana.medium.com/mastering-the-vibe-claude-code-best-practices-that-actually-work-823371
+09301.md	philosophy-epistemology	physics-cosmology	has_transcript: yes
+09302.md	philosophy-epistemology	physics-cosmology	# SOURCE: David Deutsch - AGI Theory, Quantum Computing, and Knowledge Creation
+09303.md	philosophy-consciousness	physics-cosmology	has_transcript: yes
+09304.md	physics-cosmology	ai-safety	# SOURCE: Max Tegmark - Physics, Consciousness, and AI Safety
+09305.md	sn-script	ai-agents	# No XP Waste
+09306.md	content-creation	geopolitics-iran	# Don't chase happiness. Become antifragile | Tal Ben-Shahar: Full Interview
+09307.md	design	sn-architecture	# Foundation Models for Physical Intelligence
+09308.md	sn-architecture	software-engineering	has_transcript: yes
+09309.md	content-creation	sn-script	# should i live inside a netcafe?
+09310.md	biology-evolution	design	# AGI Ontology and Conceptualization Thread
+09311.md	design	self-improvement	# The Ultimate Guide to Building a Lifestyle Business
+09312.md	sn-script	philosophy-epistemology	# "Non narrative thinking" is literally changing my life
+09313.md	sn-script	content-creation	# Why Your Cuts Are Off (How To Mark + Cut Like a Pro)
+09314.md	content-creation	sn-script	# So You're Having an Existential Crisis. What Now? - Sisyphus55
+09315.md	content-creation	sn-script	# But what is a Laplace Transform?
+09316.md	physics-cosmology	design	# Faith, Physics, and the Quantum Race: Matthew Kinsella on Commercializing Quantum
+09317.md	physics-cosmology	design	has_transcript: yes
+09318.md	design	physics-cosmology	# Interface Theory of Perception and Consciousness
+09319.md	design	biology-evolution	has_transcript: yes
+09320.md	content-creation	sn-script	# The Philosophy of Witchcraft
+09321.md	philosophy-consciousness	economics-investing	# Reid Hoffman on AI, Consciousness, and the Future of Labor
+09322.md	philosophy-consciousness	sn-script	has_transcript: yes
+09323.md	ai-agents	ai-models	has_transcript: yes
+09324.md	ai-agents	ai-models	# Ben Goertzel: AGI, Big Tech Innovation Limits, and Decentralized Future
+09325.md	biology-evolution	physics-cosmology	has_transcript: yes
+09326.md	biology-evolution	design	# The Universal Hierarchy of Life
+09327.md	sn-architecture	design	# Don't Die: Bryan Johnson on Living Forever, AI, and Blueprint's $60M Round
+09328.md	sn-architecture	ai-safety	has_transcript: yes
+09329.md	design	sn-script	# How to Be So Productive That It Makes You Dangerous
+09330.md	mcp	ai-agents	# Scale AI MCP Atlas Benchmark: Evaluating Agent Capabilities
+09331.md	mcp	ai-agents	has_transcript: yes
+09332.md	design	ai-models	has_transcript: yes
+09333.md	design	ai-models	# ARC-AGI v3 and Measuring Intelligence
+09334.md	biology-evolution	design	# Henrik von Scheel: Engineering in the Fourth Industrial Revolution
+09335.md	design	biology-evolution	has_transcript: yes
+09336.md	ai-models	biology-evolution	has_transcript: yes
+09337.md	biology-evolution	biology-neuroscience	# Life Emerges From Code
+09338.md	physics-cosmology	geopolitics-russia	has_transcript: yes
+09339.md	physics-cosmology	geopolitics-russia	# Macroscopic Quantum Tunneling to Quantum Computing
+09340.md	economics-investing	self-improvement	# Cathie Wood: Productivity-Driven Economic Boom Thesis
+09341.md	economics-investing	self-improvement	has_transcript: yes
+09342.md	geopolitics-russia	infrastructure	# The Next Phase of Accelerated Computing and AI
+09343.md	geopolitics-russia	physics-cosmology	has_transcript: yes
+09344.md	chatgpt	sn-task	has_transcript: yes
+09345.md	sn-task	chatgpt	# OpenAI Structure Change and AI Timelines
+09346.md	economics-investing	ai-agents	# Solana, Crypto-AI Convergence, and Machine-to-Machine Economics
+09347.md	economics-investing	ai-agents	has_transcript: yes
+09348.md	ai-agents	infrastructure	# The End of AI: Complete Integration into Society
+09349.md	ai-agents	infrastructure	# The End of AI: Complete Integration into Society
+09350.md	design	economics-investing	has_transcript: yes
+09351.md	design	biology-evolution	# Marc Andreessen and Ben Horowitz on the State of AI
+09352.md	design	sn-pipeline	# State of AI - Runtime Keynote
+09353.md	design	content-creation	has_transcript: yes
+09354.md	design	chatgpt	has_transcript: yes
+09355.md	design	chatgpt	# Elon Musk on 3 Years of X, OpenAI Lawsuit, and The Future of Everything
+09356.md	biology-evolution	sn-canon	# SOURCE: John Gaeta - Transmedia Storytelling and AI-Enabled Production
+09357.md	design	biology-evolution	has_transcript: yes
+09358.md	history	sn-canon	has_transcript: yes
+09359.md	history	sn-canon	# JRE #2404: Elon Musk on Civilization, Technology, and AI Future
+09360.md	design	sn-canon	# SOURCE: Trevor McCourt - Thermodynamic Computing and AI Energy Scaling
+09361.md	design	content-creation	has_transcript: yes
+09362.md	content-creation	physics-cosmology	has_transcript: yes
+09363.md	physics-cosmology	design	# The Post-Labor Enterprise
+09364.md	design	biology-evolution	has_transcript: yes
+09365.md	design	chatgpt	# No Priors: The Best of 2025 (So Far)
+09366.md	biology-neuroscience	sn-script	# How To Improve Your Focus Permanently
+09367.md	history	sn-canon	has_transcript: yes
+09368.md	history	sn-canon	# Renaissance 2.0: Open AI Models Signal Democratic Revolution
+09369.md	design	sn-script	# My Notion PPV Tour: the original Notion Life OS, reimagined for 2026
+09370.md	design	sn-script	# System Design Explained: APIs, Databases, Caching, CDNs, Load Balancing & Production Infra
+09371.md	content-creation	ai-general	# How AI Will Change Everything! w/ Dr. Fei-Fei Li
+09372.md	ai-agents	content-creation	# 🔴 DAY 1 Livestream - 5-Day AI Agents Intensive Course Google Ai - Agent What is AI Agent
+09373.md	sn-script	ai-general	# Will AI kill us all? | Chris Meah | TEDxAstonUniversity
+09374.md	content-creation	economics-investing	# The AI Bubble Narrative Is "Flat Wrong" | ARK Invest’s Brett Winton
+09375.md	sn-script	design	# n8n JUST Leveled Up AI Agents With Guardrails: Here's How It Works
+09376.md	claude-code	biology-neuroscience	# This neural interface writes code from my brain waves…
+09377.md	content-creation	design	# They Built an AGI Lab in 8 Months
+09378.md	design	sn-script	# Palantir Warp Speed Deep Dive
+09379.md	chatgpt	sn-confirm	# ChatGPT Atlas Drove Me Insane (it's not just Chrome)
+09380.md	content-creation	sn-script	# What Most People Miss in Marcus Aurelius' Meditations
+09381.md	sn-rosetta	geopolitics-us-china	# Jensen Huang & @NVIDIA | 2025 Hawking Fellow | Cambridge Union
+09382.md	content-creation	sn-result	# Lovable Boasts 8m Users: Long-Live Vibe Coding?
+09383.md	design	economics-investing	# How to Speak So Well People Give You Money
+09384.md	content-creation	ai-models	# Large Language Model Selection Masterclass - Nov 2025
+09385.md	biology-evolution	content-creation	# How evolution works | Sean B. Carroll
+09386.md	content-creation	gemini	# GEMINI 3.0 stealth release is blowing up (FULLY TESTED)
+09387.md	economics-investing	content-creation	# Palantir CEO Alex Karp talks AI and slams those who doubt his company's stock
+09388.md	sn-prompt	prompt-engineering	# How I Improved AI Output Quality 10X With One Prompting Shift
+09389.md	content-creation	sn-script	# Singapore Tried to Grow More of Its Own Food...
+09390.md	ai-general	sn-architecture	# World Model RAG: Generative Semantic Workspaces
+09391.md	content-creation	sn-script	# 90% of AI Jargon Is Useless — Here's What Actually Matters
+09392.md	ai-agents	content-creation	# Introducing SIMA 2, the next milestone in our research creating general and helpful AI agents.
+09393.md	design	sn-script	# Controllable World Models are HERE
+09394.md	design	history	# LIVESTREAM | Kate Crawford |  Mapping Empires
+09395.md	sn-confirm	sn-script	# GPT-5.1 is built for normies
+09396.md	content-creation	sn-script	# Are World Models AI's Next Big Thing?
+09397.md	design	sn-script	# How to Customize Tmux (20XX Edition) | Zero Plugins
+09398.md	content-creation	design	# Ecology of Mind: A Cybernetic Approach To Planetary Problems
+09399.md	content-creation	sn-script	# CEO of Microsoft AI:The Next 10 Years Will Change Humanity Forever
+09400.md	design	ai-agents	# Tavus: The AI Human Platform
+09401.md	content-creation	economics-investing	# The Brutal Truth About Biotech: Why $2B Per Drug Is Killing Innovation
+09402.md	chatgpt	sn-prompt	# ChatGPT 5.1 Is the First True AI Worker: Here's What Changed
+09403.md	content-creation	design	# Introducing the Upgraded ElevenLabs Mobile App
+09404.md	other-ai-tool	economics-investing	# Anthropic, Glean & OpenRouter: How AI Moats Are Built with Deedy Das of Menlo Ventures
+09405.md	content-creation	design	# The 4 Levels of Obsidian
+09406.md	chatgpt	ai-agents	# ChatGPT Atlas and the next era of web browsing — the OpenAI Podcast Ep. 9
+09407.md	design	sn-script	# Fireside Chat w Joshua Browder
+09408.md	mcp	other-ai-tool	# Anthropic admits that MCP sucks
+09409.md	biology-neuroscience	design	# Texting While ‘Driving’ In A Tesla Is… Allowed? | The Brainstorm EP 109
+09410.md	content-creation	sn-script	# 6 Things GPT-5.1 Does Better
+09411.md	content-creation	sn-script	# Apps vs Models: Who Wins AI?
+09412.md	chatgpt	gemini	# OpenAI Surprise Drops GPT-5.1 But Google Is Lurking
+09413.md	content-creation	sn-script	# ‘This Is the War Against Human Nature’ | Interesting Times with Ross Douthat
+09414.md	sn-script	content-creation	# How To Fine-Tune A Large Language Model (Step-By-Step)
+09415.md	design	economics-investing	# AI Bubble Anxiety On The Rise: Two AI CEOs Weigh In
+09416.md	sn-script	ai-agents	# Google Just Pulled a Power Move: VS Code, Colab, and Gemini 3.0
+09417.md	content-creation	sn-script	# Defense Tech: Palantir’s Mosley on AI, Warfare, and the End of US Unipolarity
+09418.md	sn-script	content-creation	# Figma Make
+09419.md	content-creation	sn-system-prompt	# Scientists Found a “Mechanical Flaw”… Then Turned It Into a Superpower
+09420.md	design	sn-script	# How to Not Get Fired (and be replaced by AI)
+09421.md	sn-script	ai-general	# DGX Spark: Powering EPRI’s AI Research
+09422.md	ai-models	design	# What a 100-year-old horse teaches us about AI
+09423.md	design	sn-script	# 6 Levels of Building PROFITABLE Software (beginner to god mode)
+09424.md	content-creation	biology-evolution	# The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li
+09425.md	chatgpt	design	# Gemini 3 Just Triggered The Biggest AI Reset Since 2022
+09426.md	content-creation	design	# GPT-5.1, AI plays any video game, robot army, AI marriage, new TTS, world models: AI NEWS
+09427.md	content-creation	sn-script	# TSMC Arizona: What About the Water?
+09428.md	sn-script	content-creation	# GPT 5 Prompt Secrets Unlock Better AI with 2 Tricks
+09429.md	content-creation	sn-script	# Why you'll never find the meaning of life
+09430.md	infrastructure	ai-models	# The biggest Mystery of LLMs have just been solved
+09431.md	design	sn-confirm	# AI Is Slowly Destroying Your Brain
+09432.md	content-creation	ai-general	# AGI Is Here: AI Legend Peter Norvig on Why it Doesn't Matter Anymore
+09433.md	economics-startups	content-creation	# AI Fund’s GP, Andrew Ng: LLMs as the Next Geopolitical Weapon & Do Margins Still Matter in AI?
+09434.md	ai-agents	sn-script	# I Summarized Google's 50 Page AI Agent Paper + Vercel's AI Agent Doc in 8 Minutes: Here's the TLDR
+09435.md	ai-agents	content-creation	# NotebookLM just got 10x better… let’s run it
+09436.md	content-creation	design	# Embodied General Intelligence: The Prediction No One’s Ready For
+09437.md	content-creation	sn-script	# David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy | Lex Fridman Podcast #485
+09438.md	sn-canon	sn-script	# Palantir Ontology Overview
+09439.md	design	content-creation	# AI Costs Plummeting 40x: Why Costs Are Collapsing & What It Really Means w/ Dave, Salim & AWG
+09440.md	sn-confirm	sn-script	# Is gpt-5.1 the best code model ever?
+09441.md	ai-agents	content-creation	# Anthropic's Monster Projections: Profitable by 2028?
+09442.md	mcp	design	# Building your own MCP server with ADK
+09443.md	content-creation	design	# How to Go From Beginner to Advanced with AI (Fast)
+09444.md	content-creation	ai-models	# xAI's new model is insane...
+09445.md	sn-script	content-creation	# What Industry Insiders Say Is Coming in 2026 (No Hype)
+09446.md	ai-agents	content-creation	# Welcome to Google Antigravity 🚀
+09447.md	gemini	content-creation	# A new era of intelligence with Gemini 3
+09448.md	design	gemini	# Gemini 3 is actually insane...
+09449.md	sn-script	content-creation	# Building a Startup in The Age of AI | Selecting The Right Market
+09450.md	sn-confirm	content-creation	# Google just dropped their Cursor killer (FREE Gemini 3 Pro???)
+09451.md	infrastructure	ai-models	# The $2B Company Cutting AI Costs By 60% | Tuhin Srivastava
+09452.md	content-creation	economics-investing	# Gemini 3 Anticipation Reaches Fever Pitch
+09453.md	content-creation	sn-prompt	# ChatGPT Has a Free Prompt Optimizer — Here's How to Use It
+09454.md	ai-agents	claude-code	# Learn the basics of Google Antigravity
+09455.md	design	gemini	# Google's Gemini 3.0: The Most Powerful LLM Ever
+09456.md	gemini	design	# Gemini 3 Pro - The Model You've Been Waiting For
+09457.md	design	economics-investing	# Ben Horowitz & Marc Andreessen: Why Silicon Valley Turned Against Defense (And How We're Fixing It
+09458.md	content-creation	sn-script	# Gemini 3 Pro: Breakdown
+09459.md	gemini	ai-models	# There Is No Wall: What Gemini 3 Really Means For Your Job
+09460.md	economics-investing	sn-script	# Tesla's Elon Musk and Nvidia's Jensen Huang talk AI at U.S.-Saudi Investment Forum — 11/19/25
+09461.md	gemini	sn-script	# Gemini 3 PRO in 127 seconds
+09462.md	design	gemini	# Gemini Enterprise and the New Way to Work
+09463.md	gemini	content-creation	# Gemini 3: Launch day reactions
+09464.md	design	sn-script	# Helping a Professional Learn Faster - Private Coaching Call
+09465.md	content-creation	sn-script	# The Three Evergreen Laws of Geopolitics - Prof. Jiang Xueqin
+09466.md	gemini	content-creation	# Gemini 3 Pro is the best model ever made
+09467.md	sn-script	content-creation	# Henry Farrell — AI as a Social Technology
+09468.md	gemini	ai-agents	# Build ANYTHING with Gemini 3 | The Agent Factory Podcast
+09469.md	gemini	design	# Gemini 3 for Developers
+09470.md	content-creation	design	# The Notion note-taking template you'll actually use (full build)
+09471.md	ai-agents	ai-models	# The Most Powerful AI Agent Ever Just Got Better: Full Autonomy
+09472.md	biology-evolution	content-creation	# Math Suggests We May Be the Only Intelligent Life in the Universe
+09473.md	content-creation	sn-script	# The Curious Database Powering America's Hospitals
+09474.md	content-creation	sn-system-prompt	# How two superpowers built fundamentally different futures | Dan Wang and Kmele Foster
+09475.md	design	sn-architecture	# How Did The Modern World Get So Ugly? - Sheehan Quirke
+09476.md	content-creation	design	# Most Companies Fail at AI Because They Skip This First Step
+09477.md	chatgpt	content-creation	# How AI is accelerating scientific discovery today and what's ahead — the OpenAI Podcast Ep. 10
+09478.md	gemini	sn-confirm	# Gemini Got Beat Already??? (GPT-5.1-Pro is insane)
+09479.md	sn-script	content-creation	# What the Luddites Can Teach Us About Societal Response to AI
+09480.md	ai-agents	gemini	# Build an AI Agent with Gemini 3
+09481.md	ai-agents	design	# Build a Research Agent with Deep Agents
+09482.md	ai-models	content-creation	# Google's UNREAL New Nano Banana Pro...
+09483.md	ai-agents	design	# AIE CODE Day 2: ft Google Deepmind, Anthropic, Cursor, Netflix, Cline, OpenAI, Meta, and METR
+09484.md	gemini	chatgpt	# Google's Nano Banana Pro & Gemini 3 Just Changed Everything!
+09485.md	ai-video	design	# Nano Banana Pro is Jaw Dropping: 18 Use-Cases That Were Impossible Before
+09486.md	design	ai-models	# Nano Banana Pro… wtf
+09487.md	sn-script	chatgpt	# How Nvidia GPUs Compare To Google’s And Amazon’s AI Chips
+09488.md	gemini	claude-code	# Did Google just kill OpenAI?
+09489.md	design	sn-script	# Forward Future Live | 11/21/25
+09490.md	sn-script	content-creation	# How I'm Building a 1-Person AI Business
+09491.md	design	gemini	# I Tested Gemini 3 as a Designer. It’s Terrifyingly Good.
+09492.md	ai-agents	chatgpt	# More New AI Models! OpenAI Drops 5.1 Pro and Codex Pro
+09493.md	chatgpt	content-creation	# Nvidia's Blowout Earnings Pops the AI Bubble Bubble
+09494.md	design	content-creation	# What Comes After AI? Some Believe It’s “Coherence Manipulation”
+09495.md	content-creation	design	# Emergent Complexity
+09496.md	design	sn-script	# How to Learn FASTER With AI - Google NotebookLM
+09497.md	design	gemini	# Gemini 3 is nuts...
+09498.md	design	content-creation	# AI Update: NVIDIA’s Record Revenue, Elon’s Data Centers in Space & Gemini 3’s Insane Performance
+09499.md	content-creation	design	# 25 Things Nano Banana Pro Does That AI Couldn't Before
+09500.md	design	sn-pipeline	# Here's the 90 Slide 'AI Eats the World' Talk in 15 Minutes—Plus My Top Takeaways
+09501.md	content-creation	codex	# New top AI video models, Google dominates, top 3D model generator, Grok 4.1, GPT-Codex-Max: AI NEW
+09502.md	content-creation	sn-script	# Can Superconductors Put an AI Data Center into a Shoebox?
+09503.md	ai-models	sn-rosetta	# He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]
+09504.md	sn-script	content-creation	# How to Learn And Grow Unbelievably Fast
+09505.md	physics-cosmology	content-creation	# Google's Quantum Computer Just Changed Everything!
+09506.md	content-creation	economics-investing	# The 2045 Superintelligence Timeline: Epoch AI’s Data-Driven Forecast
+09507.md	sn-prompt	prompt-engineering	# Prompting is the Wild West: Here's the Prompt Lifecycle Guide + 19 Tools + a Demo
+09508.md	other-ai-tool	sn-script	# Introducing Claude Opus 4.5
+09509.md	sn-script	ai-business	# Graphic Cards for AI
+09510.md	sn-script	claude-code	# The Thinking Game | Documentary trailer
+09511.md	design	other-ai-tool	# Anthropic just dropped Opus 4.5...
+09512.md	ai-general	sn-script	# Stanford AI Club: Jeff Dean on Important AI Trends
+09513.md	content-creation	design	# Create Anything with Nano Banana Pro, Here’s How
+09514.md	gemini	content-creation	# Sundar Pichai: Gemini 3, Vibe Coding and Google's Full Stack Strategy
+09515.md	gemini	content-creation	# Gemini 3, Nano Banana, and The Week That Changed AI
+09516.md	ai-agents	gemini	# Real World Testing: Opus 4.5 vs. Gemini 3 vs. ChatGPT 5.1
+09517.md	content-creation	sn-script	# The Most Important Tech of the Week Isn’t Robots or Disney—It’s Infinity Code
+09518.md	content-creation	sn-script	# Stop Feeding AI Context... Make It Research for You
+09519.md	sn-script	claude-code	# The Thinking Game | Full documentary | Tribeca Film Festival official selection
+09520.md	content-creation	design	# 11 FREE AI Tools That WILL Replace Your Paid Apps
+09521.md	design	sn-script	# Gemini 3 Shook OpenAI To Its Core
+09522.md	sn-confirm	sn-script	# Anthropic won. This is my new favorite model (sorry Gemini…)
+09523.md	content-creation	design	# Trees Are So Weird
+09524.md	content-creation	sn-script	# AI Executive Order Gets Paused
+09525.md	other-ai-tool	ai-agents	# Claude Opus 4.5
+09526.md	content-creation	sn-script	# Ilya Sutskever – We're moving from the age of scaling to the age of research
+09527.md	sn-rosetta	sn-script	# How to surf the AI wave without losing our brains | Roman Paeske | TEDxSomerset West
+09528.md	content-creation	design	# Claude turns chaotic evil
+09529.md	economics-investing	design	# The Secret Marketing Strategy That Built a16z: From Zero to Legendary VC Firm
+09530.md	design	sn-script	# AI Certifications Focus on Tools NOT Skills—Here's a Better Way
+09531.md	content-creation	design	# AI Safety Expert: Will AI Destroy Humanity?
+09532.md	economics-investing	sn-script	# Global Class Hierarchies Explained
+09533.md	ai-agents	content-creation	# Claude Agent Skills Explained
+09534.md	sn-confirm	sn-script	# Google won image generation (it's not even close) NANO BANANA PRO BREAKDOWN
+09535.md	economics-investing	biology-neuroscience	# The Gemini 3 Debate | The Brainstorm EP 111
+09536.md	ai-agents	sn-script	# Why Claude Opus 4.5 Changes What's Possible with Vibe Coding
+09537.md	ai-general	philosophy-epistemology	# AI Dual Manifold Cognitive Architecture (Experts only)
+09538.md	content-creation	self-improvement	# 5 Strange Habits You Pick Up as a Heavy AI User
+09539.md	sn-script	content-creation	# Black Friday GPT
+09540.md	content-creation	other-ai-tool	# Study Says AI Can Automate 57% of Current Human Work Hours
+09541.md	content-creation	chatgpt	# How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning
+09542.md	biology-evolution	physics-cosmology	# Denis Noble: "Neo-Darwinism Is Dead" | We Need A Biology Beyond Genes
+09543.md	ai-safety	content-creation	# You have TWO YEARS LEFT to prepare  - Dr. Roman Yampolskiy
+09544.md	biology-evolution	content-creation	# Scientists Are Calling It an “AI Species”—Here’s Why
+09545.md	claude-code	content-creation	# AlphaFold: Grand challenge to Nobel Prize | John Jumper
+09546.md	chatgpt	content-creation	# AI NEWS: Did Google Just Get DETHRONED?
+09547.md	content-creation	sn-script	# If you write code, please watch this.
+09548.md	content-creation	sn-script	# The Best Consumer Startup Ideas Were Impossible Until Now
+09549.md	ai-agents	content-creation	# Antigravity solves the invert pendulum
+09550.md	content-creation	design	# Elon Musk: A Different Conversation w/ Nikhil Kamath | Full Episode | People by WTF Ep. 16
+09551.md	design	ai-agents	# Agents Will Kill Your Ul by 2026--Unless You Build This Instead
+09552.md	design	economics-investing	# Watch This To Get Ahead In 2026
+09553.md	content-creation	sn-script	# Hey Vsauce, Does Anything Exist?
+09554.md	design	sn-script	# Medical Trainees: How to Learn FASTER as a Busy Doctor
+09555.md	content-creation	sn-script	# Michael Levin: Hidden Reality of Alien Intelligence & Biological Life | Lex Fridman Podcast #486
+09556.md	content-creation	design	# How Big a Deal is the USA's AI Genesis Mission?
+09557.md	content-creation	economics-investing	# The $700 Billion AI Productivity Problem No One's Talking About
+09558.md	chatgpt	content-creation	# How OpenAI Shapes Its Research And What's Next - EP 46 Mark Chen
+09559.md	design	sn-script	# China, Robotics, & Open-Source AI | Clem Delangue
+09560.md	content-creation	design	# China Just Popped America's AI Bubble: Cyrus Janssen Reveals What Happens Next!
+09561.md	sn-script	content-creation	# The US is behind Europe and China, GENESIS is just playing catch-up
+09562.md	sn-rosetta	ai-models	# Why are Transformers replacing CNNs?
+09563.md	content-creation	sn-script	# Runway Ups the Ante Against Google, OpenAI
+09564.md	content-creation	economics-investing	# Marc Andreessen Predicts AI’s Critical Turning Point
+09565.md	content-creation	sn-script	# AlphaFold - The Most Important AI Breakthrough Ever Made
+09566.md	ai-agents	design	# Defying Gravity - Kevin Hou, Google DeepMind
+09567.md	ai-agents	sn-script	# No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer
+09568.md	sn-script	content-creation	# Sam Altman declares CODE RED
+09569.md	content-creation	sn-prompt	# Stop Getting Purple Gradients From AI (The Prompting Altitude Fix)
+09570.md	other-ai-tool	design	# Deepseek did it again...
+09571.md	sn-script	content-creation	# Unfair Advantage | Highlights from AIPCon 8
+09572.md	other-ai-tool	mcp	# Anthropic is trying SO hard to fix MCP...
+09573.md	other-ai-tool	ai-agents	# Anthropic's First PM: Opus 4.5, Rethinking Model Scaffolding & Safety as a Competitive Advantage
+09574.md	ai-models	design	# S3 EP9 - Fluid Intelligence with Johannes Brandstetter and Siddhartha Mishra
+09575.md	design	content-creation	# She Built NotebookLM. Now She’s Creating The 'Spotify of AI'
+09576.md	other-ai-tool	sn-script	# DeepSeek V3.2
+09577.md	biology-neuroscience	content-creation	# We’re 96% to AGI—Google’s New “Nested Brain” Model Explains Why
+09578.md	ai-agents	infrastructure	# The agent evaluation revolution
+09579.md	chatgpt	gemini	# OpenAI’s Code Red Explained
+09580.md	chatgpt	content-creation	# OpenAI goes NUCLEAR (CODE RED)
+09581.md	sn-script	biology-neuroscience	# Neuralink Overview, Fall 2025
+09582.md	content-creation	sn-script	# Ex-Google Insider WARNS: "You Are Not Prepared For 2027"
+09583.md	infrastructure	sn-script	# NVIDIA’s Jensen Huang on Securing American Leadership on AI
+09584.md	sn-script	sn-confirm	# Why Some People Have DIVINE Aura
+09585.md	sn-prompt	sn-script	# The ONLY 7 Prompts You Need to Create Any AI Video
+09586.md	content-creation	ai-models	# this experiment could END the AI hype
+09587.md	ai-agents	other-ai-tool	# Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic
+09588.md	content-creation	sn-script	# A Quiet Chinese Mobile Giant in Africa
+09589.md	content-creation	design	# The World You Grew Up In Is About to Change Forever - Peter Zeihan
+09590.md	sn-script	content-creation	# Anthropic SELLS OUT to Wall Street!
+09591.md	design	content-creation	# New AGI Timeline, AI Could Automate 57% of US Jobs, and Claude Consciousness w/ Naveen, Salim & AW
+09592.md	chatgpt	sn-confirm	# OpenAI is in "CODE RED" (Did Gemini win that hard??)
+09593.md	economics-investing	content-creation	# IT'S OVER! I Can't Stay Quiet on GOOGLE vs NVIDIA Any Longer
+09594.md	other-ai-tool	chatgpt	# OpenAI Preps New "Garlic" Model
+09595.md	other-ai-tool	content-creation	# You Are Being Told Contradictory Things About AI
+09596.md	content-creation	ai-models	# BREAKING: Grok 4.20 might be *too* good...
+09597.md	chatgpt	gemini	# OpenAI's Code Red: Can New AI Models Hold Off Google Gemini?
+09598.md	sn-script	ai-general	# ARC Prize 2025 Paper Award 1st Place TRM
+09599.md	economics-investing	economics-macro	# AI, Tax Cuts & A New Bull Market?| ITK With Cathie Wood
+09600.md	sn-script	content-creation	# Google DeepMind’s Demis Hassabis with Axios’ Mike Allen
+09601.md	sn-script	ai-general	# AI Universal Income
+09602.md	other-ai-tool	sn-script	# Anthropic just bought your favorite JS runtime...
+09603.md	chatgpt	sn-script	# What's New with ChatGPT Voice
+09604.md	sn-script	content-creation	# Alex Karp Opening Remarks | Paragon 2025
+09605.md	sn-result	sn-script	# Customized Care When You Need it Most | Tampa General Hospital at Paragon 2025
+09606.md	sn-script	content-creation	# Paragon 2025
+09607.md	content-creation	sn-confirm	# How I code with AI right now
+09608.md	content-creation	sn-script	# Can Today's AI Replace 12% of Work?
+09609.md	economics-investing	chatgpt	# Want To ‘Invest' In OpenAI or SpaceX? What To Know About Tokenization
+09610.md	content-creation	design	# Charisma isn't learned (Dr. K, Charisma on Command & Joe)
+09611.md	design	economics-investing	# If I Started A Business in 2026, I'd Do This
+09612.md	chatgpt	content-creation	# OpenAI's Code Red, Sacks vs New York Times, New Poverty Line?
+09613.md	biology-neuroscience	content-creation	# How reading changes the way your brain works - BBC World Service
+09614.md	sn-script	content-creation	# Dwarkesh Patel is WRONG about AGI!
+09615.md	chatgpt	content-creation	# Did We Just Get the Nano Banana of Video?
+09616.md	sn-confirm	sn-script	# China is winning the AI race
+09617.md	ai-models	chatgpt	# Elon Reveals GROK 4.20... and it's getting scary good
+09618.md	content-creation	sn-script	# Microsoft Changing AI Targets?
+09619.md	content-creation	design	# Tensor Logic "Unifies" AI Paradigms [Pedro Domingos]
+09620.md	sn-result	content-creation	# What 1250 Professionals Said About Working With AI
+09621.md	content-creation	philosophy-consciousness	# Are We Alone in the Universe? - Hank Green
+09622.md	content-creation	design	# The Chip That Could Unlock AGI.
+09623.md	chatgpt	content-creation	# "Code Red" Over, OpenAI is about to blow...
+09624.md	ai-agents	design	# Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic
+09625.md	ai-agents	design	# Al Agents That Actually Work: The Pattern Anthropic Just Revealed
+09626.md	self-improvement	sn-prompt	# I Stopped Blaming Myself for Bad Days After Learning This Math
+09627.md	other-ai-tool	content-creation	# How Anthropic uses Claude in Legal
+09628.md	ai-agents	ai-general	# Grand Unified Theory of AI (Explained w/ Google ADK)
+09629.md	content-creation	sn-script	# The First Signs of ASI Economics Are Showing Up… In the Weirdest Places
+09630.md	chatgpt	content-creation	# Is GPT-5.2 "Garlic" Coming This Week?
+09631.md	content-creation	biology-evolution	# Bret Weinstein: Humanity Just Entered an Evolutionary Trap—and AI Might Finish the Job
+09632.md	content-creation	sn-script	# The AI Prompting Habit That Saves Me 10+ Hours a Week
+09633.md	chatgpt	other-ai-tool	# AI News: GPT-5.2, Devstral 2, Boom Superpower, MCP Nonprofit and more!
+09634.md	design	content-creation	# China's Rise, GPT-5.2, Anthropic IPO & the Battle for AI Trust w/ Emad, Salim, Dave & AWG | EP #21
+09635.md	sn-confirm	sn-script	# Software Sucks Now
+09636.md	content-creation	ai-coding	# Professor Answers Coding Questions | Tech Support | WIRED
+09637.md	sn-script	content-creation	# IRiS Alloy Discussion #22: "Is AI Reshaping Our Sense of Trust"
+09638.md	content-creation	sn-script	# What People Are Actually Using AI for Right Now
+09639.md	content-creation	economics-investing	# The Unicorn Founder Who Delegated Everything.
+09640.md	content-creation	design	# Pentagon "Four Months to Prepare for AGI"
+09641.md	sn-script	ai-general	# NeurIPS 2025 in 12 Minutes: The 6 Shifts Most People Will Miss Until It's Too Late
+09642.md	claude-code	sn-script	# Google DeepMind robotics lab tour with Hannah Fry
+09643.md	sn-prompt	content-creation	# Anthropic releases method to 10× Claude Code / Opus 4.5
+09644.md	design	sn-script	# Meta's SAM 3: AI Vision just got a HUGE UPGRADE (FREE)
+09645.md	sn-script	content-creation	# 10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5
+09646.md	ai-agents	content-creation	# The 5 Biggest AI Stories To Watch In December
+09647.md	sn-script	chatgpt	# OpenAI's Head of Product: How the Best Teams Build, Ship and Scale AI Products
+09648.md	content-creation	design	# 3 skills every early-career engineer needs
+09649.md	ai-agents	mcp	# A2A and MCP explained: with ADK
+09650.md	ai-agents	biology-neuroscience	# Junie The Anti-Vibe Coding IDE
+09651.md	content-creation	biology-evolution	# The Polymathic Poet Who Taught Himself "Impossible" Skills
+09652.md	mcp	design	# Why we built—and donated—the Model Context Protocol (MCP)
+09653.md	content-creation	sn-script	# The Brutal Truth About Female Attraction - Macken Murphy
+09654.md	chatgpt	content-creation	# NEW GPT 5.2: A Total Bloodbath
+09655.md	content-creation	sn-script	# I Fixed AI Document Formatting With One Claude Feature
+09656.md	content-creation	claude-code	# The arrival of AGI | Shane Legg (co-founder of DeepMind)
+09657.md	content-creation	design	# Kate Crawford | Mapping Empires
+09658.md	content-creation	history	# Rick Prelinger | Lost Landscapes 02025: YEAR 20!
+09659.md	other-ai-tool	ai-agents	# Anthropic gave MCP to the Linux Foundation
+09660.md	sn-script	content-creation	# Space Data Center Explained
+09661.md	ai-agents	chatgpt	# Anthropic Donates MCP to New Agentic AI Foundation
+09662.md	content-creation	sn-script	# The State of Enterprise AI The State of Enterprise AI
+09663.md	philosophy-consciousness	content-creation	# Francis Lucille: A Masterclass In Non-Duality
+09664.md	sn-script	content-creation	# Big ideas begin here: Sergey Brin at Stanford
+09665.md	gemini	chatgpt	# Gemini 3 Deep Think Reviewed & More AI Use Cases
+09666.md	chatgpt	content-creation	# GPT 5.2 is the first HUMAN LABOR replacement
+09667.md	content-creation	economics-investing	# AI Eats the World: Benedict Evans on the Next Platform Shift
+09668.md	chatgpt	ai-agents	# GPT-5.2 Finally Arrived, But The Disney Deal is Bigger
+09669.md	content-creation	sn-script	# GPT 5.2 is the first AI model I’d actually give my work to
+09670.md	content-creation	sn-script	# What You Need to Know Before AI Gets Too Smart
+09671.md	sn-script	content-creation	# AI Revise Existing Codebases & Add Features Faster
+09672.md	content-creation	history	# Deciphering Secrets of Ancient Civilizations, Noah's Ark, and Flood Myths | Lex Fridman Podcast #4
+09673.md	chatgpt	ai-agents	# AI NEWS: GPT-5.2 Is HERE! (Plus Runway 4.5 and the Next Image AI Leaks)
+09674.md	chatgpt	content-creation	# OpenAI just dropped GPT-5.2... (WOAH)
+09675.md	economics-macro	economics-investing	# The Bitcoin Standard and the Network State
+09676.md	ai-models	sn-script	# Do LLMs Understand? AI Pioneer Yann LeCun Spars with DeepMind’s Adam Brown.
+09677.md	sn-script	content-creation	# How Japan is Preparing for War With China
+09678.md	chatgpt	content-creation	# GPT-5.2 is Here
+09679.md	design	geopolitics-us-china	# Inside America’s Race To Build The Next Generation Of AI Chips
+09680.md	ai-models	sn-script	# The Mathematical Foundations of Intelligence [Professor Yi Ma]
+09681.md	content-creation	ai-models	# Google DeepMind: "The arrival of AGI"
+09682.md	sn-script	ai-agents	# Proactive Agents – Kath Korevec, Google Labs
+09683.md	ai-agents	chatgpt	# Trump Just Gutted State Al Laws, OpenAl Panicked, Al Agents Stole $4.6M--Your 10-Minute Breakdown
+09684.md	content-creation	sn-script	# AI Just Solved Landing Pages  Here's the Exact System I Use
+09685.md	sn-script	content-creation	# AI Vibe Coding vs  Structure Which is Better
+09686.md	design	sn-script	# Learn To Learn in 109 minutes
+09687.md	chatgpt	design	# AI News: Deepseek Controversy, GPT-5.2, OpenAI x Disney, Meta Closed-Source and more!
+09688.md	design	sn-script	# Forward Future Live | 12/12/2025
+09689.md	content-creation	design	# GPT 5.2 Release, Corporate Collapse in 2026, and 1.1M Job Loss | EP #215
+09690.md	biology-neuroscience	sn-script	# Every Brain Supplement That Actually Works Explained
+09691.md	claude-code	sn-confirm	# Claude Code's latest update is really cool (when it works...)
+09692.md	content-creation	economics-investing	# Why AI Advantage Compounds
+09693.md	philosophy-consciousness	biology-neuroscience	# Why Did Consciousness Evolve? Exciting Research on Bird Brains
+09694.md	chatgpt	design	# GPT-5.2, Why it matters
+09695.md	content-creation	sn-script	# The AI Race Gets a Massive Power Shift
+09696.md	claude-code	content-creation	# Boris Cherny (Creator of Claude Code) On What Grew His Career And Building at Anthropic
+09697.md	content-creation	economics-investing	# The Renaissance of the American Factory | a16z 2026 Big Ideas
+09698.md	content-creation	ai-safety	# The Most Powerful AI Shift Is Happening Without Anyone Noticing
+09699.md	content-creation	economics-investing	# Real World AI Evaluations
+09700.md	content-creation	economics-macro	# Trump's One Rule AI Order
+09701.md	ai-models	sn-script	# How to Process Documents at Scale with LLMs
+09702.md	sn-confirm	sn-script	# This Isn’t Anxiety, It’s ADHD
+09703.md	content-creation	design	# The future of intelligence | Demis Hassabis (Co-founder and CEO of DeepMind)
+09704.md	design	infrastructure	# What We Learned Deploying AI within Bloomberg’s Engineering Organization – Lei Zhang, Bloomberg
+09705.md	design	sn-script	# What I Tell Every CTO Before They Touch Claude Code or the Anthropic API
+09706.md	content-creation	design	# GPT-5.2 is a total monster
+09707.md	content-creation	sn-script	# Building AGI from the Fjords of Norway
+09708.md	sn-script	content-creation	# What happens when AGI nukes jobs?
+09709.md	content-creation	ai-agents	# Mustafa Suleyman: The AGI Race Is Fake, Building Safe Superintelligence & the Agentic Economy | #2
+09710.md	biology-evolution	history	# How Humans Became WHITE? History for Sleep
+09711.md	content-creation	physics-cosmology	# Are You REALLY Made Of Stars?
+09712.md	self-improvement	design	# 5 engineering anti-patterns that limit your career
+09713.md	design	gemini	# The Gemini Interactions API
+09714.md	content-creation	claude-code	# A Deepdive on my Personal AI Infrastructure (PAI v2.0, December 2025)
+09715.md	chatgpt	design	# OpenAI is "Is Hiding the Truth"
+09716.md	design	gemini	# Gemini 3 Flash: Creative UI in a spark
+09717.md	ai-models	biology-neuroscience	# Steering LLM Behavior Without Fine-Tuning
+09718.md	chatgpt	content-creation	# Did ChatGPT Just Kill Nano Banana?
+09719.md	physics-cosmology	sn-pipeline	# 2025's Biggest Breakthroughs in Physics
+09720.md	sn-script	ai-agents	# AI Kernel Generation: What's working, what's not, what's next – Natalie Serrino, Gimlet Labs
+09721.md	gemini	sn-pipeline	# Gemini Super Gems: Google's NEW AI Super Agent! Goodbye N8N! (FULLY FREE AI App Generator)
+09722.md	chatgpt	ai-agents	# Codex 5.2 Launch Revealed: How OpenAI Got Non-Engineers Shipping Real Code
+09723.md	content-creation	chatgpt	# Stop Asking ChatGPT-5.2 Questions (Do This Instead)
+09724.md	content-creation	physics-cosmology	# Ruliad + observer = physics ... also aliens
+09725.md	philosophy-consciousness	economics-macro	# Federico Faggin: Merging Science & Spirituality, Quantum Physics, Meaning, & Free Will
+09726.md	content-creation	sn-script	# Ternary Computing: Theoretically Better than Binary
+09727.md	sn-script	chatgpt	# Four reasons OpenAI is doomed
+09728.md	history	content-creation	# The Truth About Recovery: What You’re Missing with Dr. Mike Israetel
+09729.md	content-creation	ai-agents	# AI is Outsmarting Us
+09730.md	content-creation	sn-script	# Will It Ever Be Cool to Be Conservative?
+09731.md	content-creation	design	# 2025's Biggest Breakthroughs in Mathematics
+09732.md	sn-architecture	software-engineering	# LIVESTREAM | Indy Johar |  Civilizational Optioneering
+09733.md	design	content-creation	# The Device That Maps The Heavens
+09734.md	gemini	content-creation	# Gemini Flash 3 is my new favorite model (yes really)
+09735.md	chatgpt	content-creation	# AI Vibe Check: The Actual Bottleneck In Research, SSI’s Mystique, & Spicy 2026 Predictions
+09736.md	content-creation	design	# 4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro
+09737.md	ai-agents	chatgpt	# Will this Update from OpenAI Make AI Agents Work Better?
+09738.md	content-creation	sn-result	# 23 Lessons from 2025
+09739.md	design	content-creation	# The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year
+09740.md	sn-script	ai-safety	# Leadership in AI Assisted Engineering – Justin Reock, DX (acq. Atlassian)
+09741.md	physics-cosmology	content-creation	# Interview: Discovering Dark Energy and the Hubble Tension with Nobel Prize Winner Adam Riess
+09742.md	content-creation	other-ai-tool	# AI earns while you sleep
+09743.md	sn-script	content-creation	# The Easy Way To Be Seen As A High-Performer
+09744.md	chatgpt	content-creation	# OpenAI’s new ChatGPT Images is here! But…Will it top Nano Banana Pro?
+09745.md	sn-script	claude-code	# We Went To Intel’s Arizona Chip Fab To See If It Can Regain Its Edge
+09746.md	sn-script	ai-business	# This unique AI business model will make millionaires in 2026
+09747.md	content-creation	economics-macro	# Did China Just Drop The Ball On Global Dominance?
+09748.md	design	gemini	# Introducing FunctionGemma
+09749.md	chatgpt	design	# The Big Lie About Smarter AI Models
+09750.md	design	sn-script	# MtL Lecture Series Christmas Special: Guest Speaker Michael Levin (10 December 2025)
+09751.md	economics-startups	content-creation	# No Priors Ep. 144 | The 2026 AI Forecast with Sarah & Elad
+09752.md	content-creation	sn-confirm	# I think Firefox hates their users
+09753.md	content-creation	sn-result	# 82% of Companies Are Seeing Positive AI ROI
+09754.md	ai-agents	design	# The 4 AI Agents Non-Technical People Actually Need (And How to Use Them Today)
+09755.md	sn-confirm	sn-script	# How AI is Killing Your Potential
+09756.md	history	design	# Why The 2030s Will Be The New Renaissance
+09757.md	content-creation	design	# Avi Loeb reveals the truth about 3I/ATLAS
+09758.md	ai-agents	sn-prompt	# Amazon Fired Their AI Chief. Here's Why It Took So Long (Plus 5 Newsworthy Moments in AI This Week
+09759.md	content-creation	economics-investing	# Bizarre Plant Doesn't Photosynthesize and Pretends to Be a Mushroom
+09760.md	content-creation	sn-script	# Why people mistake feelings for moral insight | Alex O'Connor
+09761.md	history	sn-script	# The Entire History Of Math (Yes, all of it)
+09762.md	content-creation	design	# If I Started Learning AI Today for 2026, Here’s the Exact Skill Stack I’d Build
+09763.md	design	economics-investing	# The Market Goes Nuclear on Ford
+09764.md	content-creation	gemini	# AI News: 28 Headlines No One Expected
+09765.md	design	sn-script	# Forward Future Live | 12.19.25 | Guests from Google, Deepmind, SemiAnalysis, and Robinhood
+09766.md	sn-script	content-creation	# Introduction to Physical AI & Robotics at NVIDIA
+09767.md	content-creation	design	# Amazon will Aquire a Large AI Lab |  The Information's 2026 Predictions
+09768.md	content-creation	sn-confirm	# Cursor just started their war on GitHub
+09769.md	design	content-creation	# The most complex model we actually understand
+09770.md	design	ai-video	# Why AI Intelligence is Nothing Without Visual Memory | Shawn Shen on the Future of Embodied AI
+09771.md	design	content-creation	# Insane 3D models, realtime AI video, new #1 open model, realtime AI worlds, Gemini 3 Flash: AI NEW
+09772.md	design	content-creation	# David Friedberg on the Fractal Frontier
+09773.md	chatgpt	content-creation	# The Most Important AI Stories This Week
+09774.md	design	ai-models	# MLST: Categorical Deep Learning - From Alchemy to Science
+09775.md	design	ai-models	# MLST: Categorical Deep Learning - From Alchemy to Science
+09776.md	content-creation	sn-script	# This Will Power Everything
+09777.md	sn-script	ai-agents	# AI Trends 2026: Quantum, Agentic AI & Smarter Automation
+09778.md	sn-script	content-creation	# My 2026 AI Predictions (We're Accelerating)
+09779.md	history	content-creation	# The Missing 100,000 Years: What Humans Did BEFORE Civilization | History for Sleep
+09780.md	sn-confirm	sn-script	# Reflecting on AI in 2025
+09781.md	ai-agents	design	# a16z 2026 AI Agent Predictions
+09782.md	ai-agents	design	# a16z 2026 AI Agent Predictions
+09783.md	design	ai-agents	# Mike Krieger (Anthropic CPO): 2026 Enterprise AI Vision
+09784.md	design	ai-agents	# Mike Krieger (Anthropic CPO): 2026 Enterprise AI Vision
+09785.md	biology-neuroscience	sn-script	# You See Better Than AI: Vision Secrets Only Biology Knows
+09786.md	ai-models	sn-script	# If This Can Happen to an Ex-DeepMind Leader, It Can Happen to You
+09787.md	ai-agents	ai-models	# MiniMax M2.1, Why it matters
+09788.md	content-creation	sn-script	# Van Fraassen's Radical Claim About What You Are
+09789.md	sn-script	content-creation	# AI isn't a bubble
+09790.md	content-creation	other-ai-tool	# 99% Of Claude Users STILL Don't Know These 7 Official Prompting Rules
+09791.md	design	sn-script	# How To Learn Faster Than 99% of People At Work
+09792.md	physics-cosmology	content-creation	# No AI Has Impressed Me
+09793.md	content-creation	ai-general	# The AGI Debate That's Currently Dividing Google And Meta
+09794.md	sn-script	content-creation	# How to Make 2026 The Best Year of Your AI Entrepreneur Journey
+09795.md	design	philosophy-epistemology	# What Are We Scaling? The Continual Learning Bottleneck
+09796.md	design	philosophy-epistemology	# What Are We Scaling? The Continual Learning Bottleneck
+09797.md	design	philosophy-epistemology	# MLST: Dr. Mike Israetel on ASI Timelines, Embodiment, and Understanding
+09798.md	design	philosophy-epistemology	# MLST: Dr. Mike Israetel on ASI Timelines, Embodiment, and Understanding
+09799.md	ai-models	sn-prompt	# Why Flash Models, Not Frontier Models, Will Win in 2026
+09800.md	design	content-creation	# We have a new #1 open source AI
+09801.md	content-creation	sn-script	# ‘A Hard Time We Had of It’ | Interesting Times with Ross Douthat
+09802.md	content-creation	sn-script	# How a 15th-Century Cardinal Changed Philosophy Forever
+09803.md	content-creation	sn-script	# So close to Opus at 1/10th the price (GLM-4.7 and Minimax M2.1 showdown)
+09804.md	ai-agents	content-creation	# The 10 Biggest AI Stories of 2025
+09805.md	sn-pipeline	ai-agents	# Claude in Chrome: How To Teach AI To Do ALL Your Work 🤯
+09806.md	ai-agents	design	# I Tracked Every AI Win & Failure in 2025. Here's What Actually Worked (9 Surprises)
+09807.md	design	sn-script	# Breaking: NVIDIA just bought Groq for $20 Billion!
+09808.md	physics-cosmology	content-creation	# The Physicist Who Puts Penrose’s Quantum Ideas To The Test | Ivette Fuentes
+09809.md	ai-agents	content-creation	# Steve Yegge's Vibe Coding Manifesto: Why Claude Code Isn't It & What Comes After the IDE
+09810.md	ai-agents	sn-architecture	# How Claude Code Works - Jared Zoneraich, PromptLayer
+09811.md	content-creation	economics-investing	# Legendary Investor Outlines His AI Thesis in 14 Minutes — Bill Gurley
+09812.md	ai-agents	sn-canon	# The Scaling Paradox: Why AI Capabilities Accelerate Despite Diminishing Returns
+09813.md	ai-agents	sn-canon	# The Scaling Paradox: Why AI Capabilities Accelerate Despite Diminishing Returns
+09814.md	content-creation	ai-models	# this new benchmark is next-level insane
+09815.md	content-creation	sn-script	# I Stopped Using PowerPoint Once I Learned This Claude Method
+09816.md	sn-confirm	sn-script	# I think I'm addicted to Opus 4.5...
+09817.md	content-creation	sn-script	# Looking Back on 2025
+09818.md	sn-script	ai-agents	# The Most Important AI Lesson for Businesses From 2025
+09819.md	mcp	ai-agents	# One Year of MCP — with David Soria Parria and AAIF leads from OpenAI, Goose, Linux Foundation
+09820.md	design	ai-agents	Shipping at Inference-Speed
+09821.md	content-creation	economics-investing	# Where does consumer AI stand at the end of 2025?
+09822.md	ai-agents	sn-script	# Anthropic's New Benchmark Changes Everything—Most People Will Miss Why
+09823.md	sn-script	economics-investing	# ARK Robotics Research | 2025 Year-End Review
+09824.md	ai-general	ai-models	# NEW: Why AI In-Context Learning Works (Explained)
+09825.md	physics-cosmology	geopolitics-russia	# Cybersecurity Trends in 2026: Shadow AI, Quantum & Deepfakes
+09826.md	content-creation	ai-general	# AI Boom or Bust? AI Boomers and Doomers Reveal Their Predictions for Our Future
+09827.md	economics-investing	content-creation	# Ranking the Best and Worst AI Companies This Year (2025 AI Awards)
+09828.md	sn-pipeline	sn-script	# GPT-5.2 Codex is Insane (Here is My Workflow)
+09829.md	chatgpt	sn-confirm	# OpenAI: Trapped in 2nd place
+09830.md	design	content-creation	# Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika
+09831.md	philosophy-epistemology	ai-models	# Jack Morris: Stuffing Context is not Memory, Updating Weights is
+09832.md	content-creation	sn-script	# How to Stop Wasting Your Life - Connor Beaton
+09833.md	claude-code	sn-script	# How to Run Claude Code For Hours Autonomously
+09834.md	content-creation	sn-script	# Deep Implications of the Intelligence Explosion | Episode #118
+09835.md	content-creation	philosophy-epistemology	# Random Quality Of Life Improvements That Will Change Your Life
+09836.md	content-creation	ai-safety	# AI Safety Expert: Humanity’s Last Invention— 99.99% Chance of Extinction | Dr. Roman Yampolskiy
+09837.md	chatgpt	design	# [State of RL/Reasoning] IMO/IOI Gold, OpenAI o3/GPT-5, and Cursor Composer — Ashvin Nair, Cursor
+09838.md	biology-neuroscience	content-creation	# Your Brain Doesn't Command Your Body. It Predicts It. [Max Bennett]
+09839.md	chatgpt	claude-code	# the creator of Claude Code just revealed the truth
+09840.md	ai-agents	content-creation	# Agent Skills - Yet Another Tool Standard?
+09841.md	ai-agents	design	# The Skill Gap That Will Separate AI Winners from Everyone Else
+09842.md	content-creation	sn-script	# The crucial emotional skill most adults were never taught | Becky Kennedy
+09843.md	content-creation	physics-cosmology	# Terry Tao: "LLMs Are Simpler Than You Think – The Real Mystery Is Why They Work!"
+09844.md	content-creation	biology-neuroscience	# We’re Normalizing Things We Don’t Fully Understand
+09845.md	content-creation	sn-result	# The AI Comparison Framework No One Taught You (ChatGPT, Claude, Gemini, Grok)
+09846.md	biology-neuroscience	design	# What the actual science says about "brain rot"
+09847.md	sn-system-prompt	content-creation	# These Jobs Will Skyrocket in the AI Economy
+09848.md	design	sn-script	# How to Change Your Life in 2026 with Reverse Goal Setting
+09849.md	economics-startups	ai-agents	# [State of AI Startups] Memory/Learning, RL Envs & DBT-Fivetran — Sarah Catanzaro, Amplify
+09850.md	ai-agents	content-creation	# 50 AI Predictions for 2026 - Part 1
+09851.md	content-creation	sn-script	# How to crush 2026 in the AI field
+09852.md	biology-neuroscience	content-creation	# Adam Marblestone – AI is missing something fundamental about the brain
+09853.md	content-creation	design	# Dan Koe: How To Get Ahead Of 99% Of People in 2026
+09854.md	content-creation	sn-script	# Meta just did the thing
+09855.md	economics-startups	content-creation	# Matt Fitzpatrick: Who Wins the Data Labelling Race & Why Al Needs Forward-Deployed Engineers
+09856.md	economics-investing	content-creation	# AI in 2026: 3 Predictions For What’s To Come (a16z Big Ideas)
+09857.md	design	sn-architecture	# The $500K Mistake: 8 Engineers Doing Implementation, 0 Doing Governance
+09858.md	design	economics-investing	# If you want 2026 to be the best year of your life, please watch this video...
+09859.md	design	content-creation	# Best Of 2025
+09860.md	ai-safety	content-creation	# Dr Waku Christmas Special 2025
+09861.md	design	ai-agents	# Four Predictions for How AI Will Change Software in 2026
+09862.md	content-creation	sn-script	# Infinity, Paradoxes, Gödel Incompleteness & the Mathematical Multiverse | Lex Fridman Podcast #488
+09863.md	biology-neuroscience	design	# AutoGrad Changed Everything (Not Transformers) [Dr. Jeff Beck]
+09864.md	sn-script	ai-models	# What's going on with Claude Code?
+09865.md	content-creation	ai-general	# How A.I Changes In 2026 - Major Predictions
+09866.md	ai-agents	sn-prompt	# [State of Context Engineering] Agentic RAG, Context Rot, MCP, Subagents — Nina Lopatina, Contextua
+09867.md	design	content-creation	# Tmux Popups: The Secret to a Better Workflow
+09868.md	sn-task	design	# How I use Codex
+09869.md	ai-agents	design	# The Compounding Gap That Makes 2026 the Last Chance to Catch Up
+09870.md	ai-models	economics-investing	# Limits of LLMs
+09871.md	content-creation	gemini	# I Wish I Started Using "Projects" Sooner (ChatGPT, Gemini, Claude)
+09872.md	content-creation	sn-script	# The “Digital Segregation” Between Men and Women | Interesting Times with Ross Douthat
+09873.md	design	gemini	# Gemini 3 Flash: The "Budget" Model That's DESTROYING Premium AI (And It's Free)
+09874.md	design	sn-script	# AI New Year's: The 10 Week AI Resolution
+09875.md	claude-code	design	# How I Use Claude Code: My Setup and Workflow
+09876.md	ai-agents	content-creation	# AI year in review: Trends shaping 2026
+09877.md	content-creation	philosophy-consciousness	# AI Isn’t Just Getting Smarter—It’s Getting Coherent
+09878.md	content-creation	economics-investing	# Predicting the Future of AI: 2026 Is Going To Be Wild.
+09879.md	design	sn-script	# Make 3D models from ANYTHING (Free and Open Source)
+09880.md	philosophy-consciousness	sn-rosetta	# How Consciousness Emerged: From Single Cells to Complex Minds
+09881.md	content-creation	sn-confirm	# 2025: The year I stopped writing code
+09882.md	content-creation	economics-investing	# AI Investor Panel: Where Smart Money Is Actually Going in AI | EP 219
+09883.md	ai-agents	ai-models	# The AI Failure Mode Nobody Warned You About (And how to prevent it from happening)
+09884.md	claude-code	ai-agents	The creator of Claude Code literally dropped how he uses Claude Code
+09885.md	claude-code	sn-prompt	# Anthropic Just Released ALL the Claude Code Secrets
+09886.md	chatgpt	content-creation	# Google's "Infinite Learning" and OpenAI's leaked "AI Pen"
+09887.md	sn-prompt	sn-result	# The Fork Most Leaders Don’t See: Visibility vs. Execution
+09888.md	content-creation	economics-investing	# It Wasn't food! Human Farming Began For a Super Bizarre Reason: BEER!
+09889.md	history	design	# We Are the 7th Civilization | Sumerian Records Show 6 Advanced Societies Before Ours
+09890.md	other-ai-tool	sn-script	# Anthropic's Daniela Amodei on spending less than competitors, keeping AI safe and a possible IPO
+09891.md	other-ai-tool	ai-models	# DeepSeek built a New Topological Transformer (mHC)
+09892.md	content-creation	sn-script	# The Real Reason Your ChatGPT/Gemini Results Are Inconsistent
+09893.md	chatgpt	ai-general	# AI Just Got Infinite Memory Google DeepMind Breakthrough & OpenAI Device
+09894.md	content-creation	claude-code	# Claude Code is Now Writing Claude Code
+09895.md	sn-pipeline	sn-script	# Why Andrej Karpathy Feels "Behind" (And What It Means for Your Career)
+09896.md	other-ai-tool	ai-models	# mHC Explained: How DeepSeek Rewires LLMs for 2026
+09897.md	sn-script	content-creation	# Where AI is going in 2026
+09898.md	ai-models	ai-general	# Forget LLM: MIT's New RLM (Phase Shift in AI)
+09899.md	design	sn-system-prompt	# The Engineering State vs The Lawyerly State with Dan Wang
+09900.md	ai-agents	sn-script	# Dr Jamie Phillips shares how clear clinical governance enables health innovation
+09901.md	ai-agents	gemini	# Google Gemini New Computer Use AI Agent Is a Big Deal
+09902.md	other-ai-tool	content-creation	# What Manus and Groq Acquisitions Tell Us About AI Competition
+09903.md	sn-prompt	sn-script	# The NEW Way to Create Realistic Talking AI Avatars
+09904.md	content-creation	ai-agents	# AI Will End Human Jobs: Emad Mostaque on the Future of Human Work
+09905.md	content-creation	philosophy-consciousness	# Lee Cronin "Sam Altman Is Delusional, Hinton Needs Therapy, P(Doom) Is Nonsense"
+09906.md	ai-agents	design	# Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic
+09907.md	sn-script	ai-agents	# Welcome to AIE CODE - Jed Borovik, Google DeepMind
+09908.md	design	sn-prompt	# Most People Want Validation, Not Perspective (Why This Matters Now)
+09909.md	self-improvement	design	# BUDDHA vs New Year RESOLUTIONS | Why Your 2026 Goals Are Already Dead
+09910.md	sn-script	biology-evolution	# FULL CES 2026 EVENT: NVIDIA CEO Reveals Physical AI and Autonomous Robots Changing Industries | AI
+09911.md	chatgpt	design	# Forced to Rethink What’s Real
+09912.md	design	content-creation	# Gabe used UX Design to design his dream career | Google Career Certificates
+09913.md	sn-script	content-creation	# 2026: YOU'RE NOT THINKING BIG ENOUGH
+09914.md	chatgpt	sn-script	# BNY builds “AI for everyone, everywhere” with OpenAI
+09915.md	sn-script	content-creation	# LIVE: Nvidia's Jensen Huang speaks at CES in Las Vegas
+09916.md	content-creation	sn-confirm	# I can't believe he was right.
+09917.md	physics-cosmology	design	# Mathematician Edward Frenkel on finding meaning in the AI age.
+09918.md	content-creation	self-improvement	# How to Reclaim Your Brain in 2026 - Dr Andrew Huberman (4K)
+09919.md	claude-code	ai-models	# Self-Improving Skills in Claude Code
+09920.md	content-creation	sn-script	# What Happens If AI Takes All The Jobs? | Episode #119
+09921.md	ai-agents	design	# How to Build a Voice Agent with RAG and Safety Guardrails
+09922.md	biology-neuroscience	ai-models	# We Watched a Brain Emerge..." The AI That Might Kill Transformers (w/ Pathway's Zuzanna Stamirowsk
+09923.md	sn-script	content-creation	# Nvidia CEO Jensen Huang: We've been thinking about robotics for a long time
+09924.md	content-creation	sn-script	# Free Will Exists (But Not In Your Body)
+09925.md	sn-script	content-creation	# *Singularity Tingles Intensify*
+09926.md	sn-script	content-creation	# The Transcript Method That Changed My 2026 Workflow (ChatGPT Turns Meetings Into Assets)
+09927.md	design	content-creation	# The IT training that helped build Stacey’s confidence and career | Google Career Certificates
+09928.md	ai-agents	infrastructure	# Architecting multi-agent systems
+09929.md	content-creation	sn-pipeline	# Top 6 AI Trends That Will Define 2026 (backed by data)
+09930.md	content-creation	economics-investing	# AI Has a Memory Problem. But 3 Companies Can Solve It (And Profit)
+09931.md	content-creation	ai-general	# What Are the Best AI Certificates?
+09932.md	content-creation	sn-script	# Elon Musk on AGI Timeline, US vs China, Job Markets, Clean Energy & Humanoid Robots | 220
+09933.md	claude-code	sn-confirm	# I’m addicted to Claude Code (i get it now)
+09934.md	content-creation	economics-investing	# NVIDIA CEO Jensen Huang Leaves Everyone SPEECHLESS (CES Supercut)
+09935.md	sn-script	ai-agents	# Context Graphs: AI's Next Big Idea
+09936.md	ai-agents	content-creation	# n8n Tutorial for 2026: How To Build AI Agents for FREE (step by step)
+09937.md	infrastructure	sn-architecture	# BigQuery Migration Service: SQL and data transfer
+09938.md	gemini	content-creation	# Every Google Gemini 3.0 Pro Feature You'll NEED in 2026
+09939.md	design	claude-code	# How Claude Code Changed My Life Path
+09940.md	sn-script	ai-agents	# Specification
+09941.md	ai-agents	chatgpt	# AI in 2026: Reid Hoffman’s Predictions on Agents, Work, and Creation
+09942.md	content-creation	sn-script	# the "GOD" company is coming...
+09943.md	ai-agents	infrastructure	# Building AI agents that speak to each other
+09944.md	infrastructure	design	# What are Google Cloud Client Libraries?
+09945.md	biology-evolution	design	# The Industrial AI Revolution: Siemens Keynote at CES 2026
+09946.md	content-creation	ai-general	# Claude Opus 4.5 and the AGI Inflection Point
+09947.md	content-creation	economics-investing	# Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI
+09948.md	design	biology-neuroscience	# Major Shifts In The AI Landscape | The Brainstorm EP 115
+09949.md	content-creation	sn-script	# AI at CES is Not Just Cheesy Gadgets Anymore
+09950.md	ai-agents	philosophy-epistemology	# Why "Pretty Good on First Pass" Is Costing You Thousands--How To Fix It TODAY
+09951.md	ai-agents	sn-pipeline	# Coding Agents That Help Devs Ship Faster With CodeRabbit | Nemotron Labs
+09952.md	design	sn-prompt	# A Software Library with No Code
+09953.md	design	philosophy-epistemology	# The Most Important Skill to Learn in the Next 10 Years
+09954.md	claude-code	design	Claude Code with Opus 4.5 is so hot right now. The cool kids use it for everything.
+09955.md	economics-investing	content-creation	# Stablecoins, Regulation, Mining And 2026 Outlook
+09956.md	design	sn-script	# My Conversation with Shuo Wang, co-founder of deel
+09957.md	chatgpt	content-creation	# OpenAI's new killer app
+09958.md	economics-startups	economics-investing	# Groq’s $20BN NVIDIA Deal | Why Sam Altman Doesn’t Care About Dilution & Invisible Unemployment 202
+09959.md	sn-script	content-creation	# Simulated Biology is Here
+09960.md	ai-models	sn-pipeline	# Watch out for AI Phase Transitions (First Order Logic)
+09961.md	chatgpt	sn-task	# 4 Tasks I NEVER Automate With ChatGPT As An AI Consultant
+09962.md	chatgpt	content-creation	# AI News: NVIDIA Rubin, LTX-2 Open Source, ChatGPT Health, GPU Prices and More!
+09963.md	sn-script	content-creation	# Techno Capital Acceleration MUST Win
+09964.md	design	sn-script	# STOP Using n8n — Use Google's NEW Antigravity to Build Agentic Workflows Instead
+09965.md	sn-confirm	sn-script	# The Tailwind drama
+09966.md	chatgpt	ai-general	# NVIDIA’s Jensen Huang on Reasoning Models, Robotics, and Refuting the “AI Bubble” Narrative
+09967.md	design	sn-prompt	# DSPy: The End of Prompt Engineering - Kevin Madura, AlixPartners
+09968.md	content-creation	gemini	# Gemini 3 Already Destroyed Courses (You're Next)
+09969.md	ai-agents	ai-models	# How I See AI Evolving in 2026 (as an AI Engineer)
+09970.md	ai-agents	economics-startups	# "Ralph Wiggum" AI Agent will 10x Claude Code/Amp
+09971.md	ai-models	ai-coding	# Use Local LLMs Already!
+09972.md	ai-agents	sn-result	# Demystifying evals for AI agents
+09973.md	claude-code	design	# How to Set Up Claude Code in <15 Minutes (For Beginners)
+09974.md	design	ai-agents	# the 2026 ai engineer roadmap
+09975.md	content-creation	design	# The Company Taking On China And Trying To Restart Manufacturing In America
+09976.md	physics-cosmology	philosophy-epistemology	# Psychedelics, Quantum Mechanics and Hyper Reality | Christof Koch & Bernardo Kastrup
+09977.md	content-creation	ai-models	# Claude Code is about to break everything
+09978.md	content-creation	economics-macro	# Howard Lutnick: How America Can Hit 6% GDP Growth in 2026
+09979.md	economics-investing	economics-macro	# Mortgage Rates And Falling Oil Prices | ITK With Cathie Wood
+09980.md	content-creation	design	# AMA Part 1: Is Claude Code AGI?  Are we in a bubble?  Plus Live Player Analysis
+09981.md	design	sn-script	# How To Force Your Brain To Get Stuff Done (when you don’t feel like it)
+09982.md	chatgpt	content-creation	# Nvidia Dominates CES 2026: Tesla in Trouble, Rubin Secrets Revealed
+09983.md	design	sn-script	# It Looks Flat. It’s Not. (The 2027 Prediction)
+09984.md	sn-script	content-creation	# Palantir x Databricks | Partnership Overview
+09985.md	chatgpt	sn-script	# What You Absolutely NEED to Know About AI in 2026
+09986.md	content-creation	sn-script	# Nvidia's Jensen Huang on an AI Bubble, Trump, and the Arms Race with China
+09987.md	ai-agents	claude-code	# Claude Code 2.1 NEW Update IS HUGE! Sub Agents /skills, Claude Canvas, LSPs, & MORE!
+09988.md	sn-architecture	software-engineering	# A New Approach To AI Models
+09989.md	content-creation	design	# The 2026 Timeline: AGI Arrival, Safety Concerns, Robotaxi Fleets & Hyperscaler Timelines | 221
+09990.md	ai-agents	sn-script	# Why Everyone Is Obsessed with Claude Code
+09991.md	design	biology-neuroscience	# Why 2026 Is the Year to Build a Second Brain (And Why You NEED One)
+09992.md	content-creation	sn-script	# Google just destroyed all vibe-coding apps (Antigravity)
+09993.md	content-creation	economics-investing	# Pentagon Chief: 6 Weapons That Will Prevent WW3
+09994.md	ai-agents	design	> I rag all my AI/agent chat history and have conversations with it now, I actually got this advice
+09995.md	design	sn-prompt	I’ve been a SWE for 7 years, between Amazon, Disney, and Capital One. The code I’ve shipped touches
+09996.md	design		a quick opus 4.5 vibecoding tip
+09997.md	claude-code		Claude Code v2.1.3 has solved the compaction issue
+09998.md	design	sn-prompt	# Meditations on Moloch: Escape is Possible
+09999.md	chatgpt	other-ai-tool	# Anthropic Vs. OpenAI: How Safety Became The Advantage In AI
+10000.md	design	mcp	# OpenAI, Google, and Anthropic Agree on One Thing (Finally) - This Week's Biggest AI Stories
