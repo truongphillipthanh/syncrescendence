@@ -15,19 +15,17 @@ Files: 00002, 00004, 00009, 00011, 00015, 00017, 00018, 00089, 00109, 00303, 003
 ## Orchestration Patterns
 Fault-tolerant consensus, task decomposition, fleet dispatch patterns, parallel orchestration, swarm coordination principles.
 
-Files: 00401, 00402, 08816, 09928, 11041, 11084, CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE, CANON-30460.sn
-
+Files: 00401, 00402, 08816, 09928, 11041, 11084, CANON-30420-MULTI_AGENT_ORCHESTRATION-asteroid-INTELLIGENCE
 ## MCP & Protocol Engineering
 Model Context Protocol patterns, tool-calling interfaces, permission scoping, protocol standards, A2A.
 
-Files: 00130, 00164, 04513, 04587, 08430, 09408, 09442, 09572, 09624, 09649, 09652, 09659, 09661, 09819, 09822, 09840, 10198, 10831, CANON-25100.sn, CANON-25100.sn_from_sn_compressed, CANON-25600.sn, CANON-25600.sn_from_sn_compressed, CANON-25610.sn
-
+Files: 00130, 00164, 04513, 04587, 08430, 09408, 09442, 09572, 09624, 09649, 09652, 09659, 09661, 09819, 09822, 09840, 10198, 10831, CANON-25100.sn, CANON-25100.sn_from_sn_compressed, CANON-25600.sn, CANON-25600.sn_from_sn_compressed
 ## Sub-Agent Delegation
 Skills registries, delegation graphs, parent-child agent routing, compound task mechanics, agent identity and constitution.
 
-Files: 10872, CANON-00017.sn, CANON-31115.sn, CANON-31115.sn_from_sn_compressed, CANON-31140.sn, CANON-31140.sn_from_sn_compressed, CANON-31141.sn, CANON-31141.sn_from_sn_compressed, CANON-31142.sn, CANON-31143.sn, CANON-APOPTOSIS-PROTOCOL.sn
+Files: 10872, CANON-00017.sn, CANON-31140.sn, CANON-31140.sn_from_sn_compressed, CANON-APOPTOSIS-PROTOCOL.sn
 
 ## Architecture & Frameworks
 Production frameworks, scaffold design, state management patterns, canon architecture, ontology structure.
 
-Files: CANON-00006.sn, CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE, CANON-31120.sn
+Files: CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE
