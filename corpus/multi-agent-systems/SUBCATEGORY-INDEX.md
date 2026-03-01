@@ -29,3 +29,18 @@ Files: 10872, CANON-00017.sn, CANON-31140.sn, CANON-31140.sn_from_sn_compressed,
 Production frameworks, scaffold design, state management patterns, canon architecture, ontology structure.
 
 Files: CANON-30450-PRODUCTION_FRAMEWORKS-asteroid-INTELLIGENCE
+
+---
+
+## Cross-References
+
+| This Sub-Theme | Related Sub-Theme | Folder |
+|----------------|-------------------|--------|
+| MCP & Protocol Engineering | MCP & Sub-Agent Integration | claude-code |
+| Sub-Agent Delegation | MCP & Sub-Agent Integration | claude-code |
+| Sub-Agent Delegation | Customization & Skills | claude-code |
+| Orchestration Patterns | MCP & Sub-Agent Integration | claude-code |
+| Orchestration Patterns | Phone & Multi-Device Fleets | openclaw |
+| Architecture & Frameworks | Core Architecture | claude-code |
+| External MAS Research | Agent Evals & Capability Benchmarks | ai-capability-futures |
+| Syncrescendence Operations | Operational Tooling | openclaw |

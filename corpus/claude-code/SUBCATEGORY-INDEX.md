@@ -30,3 +30,21 @@ Files: 00008, 00033, 00185, 00199, 00204, 00238, 00913, 00954, 00972, 00974, 009
 Worktrees, sandboxing, permission enforcement, multi-user security.
 
 Files: 00939, 03410, 08603, 11167
+
+---
+
+## Cross-References
+
+| This Sub-Theme | Related Sub-Theme | Folder |
+|----------------|-------------------|--------|
+| MCP & Sub-Agent Integration | MCP & Protocol Engineering | multi-agent-systems |
+| MCP & Sub-Agent Integration | Sub-Agent Delegation | multi-agent-systems |
+| MCP & Sub-Agent Integration | Orchestration Patterns | multi-agent-systems |
+| Customization & Skills | Fine-Tuning & Adaptation | ai-models |
+| Customization & Skills | Installation & Configuration | openclaw |
+| Core Architecture | Architecture & Efficiency | ai-models |
+| Core Architecture | Architecture & Frameworks | multi-agent-systems |
+| Extended Thinking & Reasoning | Scaling Laws & Trajectories | ai-capability-futures |
+| Security & Isolation | Security & Cost Optimization | openclaw |
+| Community & Usage Patterns | Ecosystem & Comparative Analysis | openclaw |
+| Community & Usage Patterns | Human-AI Symbiosis | ai-capability-futures |

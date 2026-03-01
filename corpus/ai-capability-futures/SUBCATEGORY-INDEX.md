@@ -31,3 +31,19 @@ Files: 00140, 01235, 01294, 02109, 02131, 02464, 08474, 10273, 10341, 10422
 Second brains, extended mind, personal capability augmentation, daily AI integration.
 
 Files: 00078, 00101, 00196, 00218, 00234, 00379, 00388, 00398, 00682, 00840, 00842, 00862, 00863, 00926, 00953, 01279, 01546, 01573, 01575, 01588, 01627, 01791, 01812, 02122, 02188, 02284, 02355, 02359, 02442, 02448, 02536, 02538, 02604, 02617, 02791, 02794, 02796, 02884, 02890, 03185, 03199, 03244, 03246, 03310, 03345, 03354, 03436, 03460, 03492, 03502, 03775, 03777, 03828, 03835, 03877, 03879, 04015, 04120, 04225, 04248, 04390, 08073, 08084, 08087, 08481, 08581, 08868, 08992, 08993, 08994, 09081, 09155, 09164, 09165, 09178, 09225, 09249, 10396, 10789, 10792, 10891, 11010, 11319, 11381, 11485, 11500, 11552
+
+---
+
+## Cross-References
+
+| This Sub-Theme | Related Sub-Theme | Folder |
+|----------------|-------------------|--------|
+| Scaling Laws & Trajectories | Training & Scaling | ai-models |
+| Scaling Laws & Trajectories | Extended Thinking & Reasoning | claude-code |
+| Agent Evals & Capability Benchmarks | Benchmarks & Evaluation | ai-models |
+| Agent Evals & Capability Benchmarks | External MAS Research | multi-agent-systems |
+| AGI Timelines & Predictions | Frontier Model Releases | ai-models |
+| Democratization & Open Models | Frontier Model Releases | ai-models |
+| Human-AI Symbiosis | Community & Usage Patterns | claude-code |
+| Human-AI Symbiosis | Memory & Personality | openclaw |
+| Market & Investment Analysis | Ecosystem & Comparative Analysis | openclaw |
