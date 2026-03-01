@@ -49,7 +49,7 @@ canon/               Verified canonical knowledge (PROTECTED, 164 files)
 engine/              Prompts for agent dispatch
   02-ENGINE/         Subcategory/audit prompts
 agents/              Agent offices
-  commander/outbox/handoffs/   Session handoffs (HANDOFF-CC{N}.md)
+  commander/outbox/handoffs/   Session handoffs (HANDOFF-CC{N}a.md = CRUSH lane, CC{N}b.md = tool stack lane)
 00-ORCHESTRATION/    Strategic coordination
   state/             Implementation backlog + map
 ascertescence/       Triangulation session artifacts
@@ -117,7 +117,7 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 |------|-------|
 | Every prompt | `engine/PROMPT-<AGENT>-<TOPIC>.md` + `~/Desktop/` copy for Sovereign relay |
 | Every response | `-INBOX/commander/00-INBOX0/RESPONSE-<AGENT>-<TOPIC>.md` |
-| Session handoff | `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` |
+| Session handoff | `agents/commander/outbox/handoffs/HANDOFF-CC{N}{a\|b}.md` (a=CRUSH, b=tool stack) |
 
 ### Commander Council (CC) Sessions
 
@@ -316,9 +316,9 @@ Health check: `ssh -o ConnectTimeout=5 mini hostname` — NEVER use ping (blocke
 
 ## Session Protocol (ALL AGENTS)
 
-1. Every session continues from a prior handoff — read the latest `HANDOFF-CC*.md` in `agents/commander/outbox/handoffs/` FIRST.
+1. Every session continues from a prior handoff — read the latest `HANDOFF-CC*.md` in `agents/commander/outbox/handoffs/` FIRST. Two lanes: `a` = CRUSH/corpus, `b` = tool stack. Resume from the lane matching your directive.
 2. Run `git status` to verify working tree state.
 3. Commit frequently with semantic prefixes.
-4. Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md`
+4. Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}{a|b}.md`
 
 ---

@@ -49,7 +49,7 @@ canon/               Verified canonical knowledge (PROTECTED, 164 files)
 engine/              Prompts for agent dispatch
   02-ENGINE/         Subcategory/audit prompts
 agents/              Agent offices
-  commander/outbox/handoffs/   Session handoffs (HANDOFF-CC{N}.md)
+  commander/outbox/handoffs/   Session handoffs (HANDOFF-CC{N}a.md = CRUSH lane, CC{N}b.md = tool stack lane)
 00-ORCHESTRATION/    Strategic coordination
   state/             Implementation backlog + map
 ascertescence/       Triangulation session artifacts
@@ -117,7 +117,7 @@ Commander → Oracle → Sovereign relay → Commander → Diviner → Sovereign
 |------|-------|
 | Every prompt | `engine/PROMPT-<AGENT>-<TOPIC>.md` + `~/Desktop/` copy for Sovereign relay |
 | Every response | `-INBOX/commander/00-INBOX0/RESPONSE-<AGENT>-<TOPIC>.md` |
-| Session handoff | `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` |
+| Session handoff | `agents/commander/outbox/handoffs/HANDOFF-CC{N}{a\|b}.md` (a=CRUSH, b=tool stack) |
 
 ### Commander Council (CC) Sessions
 
@@ -316,10 +316,10 @@ Health check: `ssh -o ConnectTimeout=5 mini hostname` — NEVER use ping (blocke
 
 ## Session Protocol (ALL AGENTS)
 
-1. Every session continues from a prior handoff — read the latest `HANDOFF-CC*.md` in `agents/commander/outbox/handoffs/` FIRST.
+1. Every session continues from a prior handoff — read the latest `HANDOFF-CC*.md` in `agents/commander/outbox/handoffs/` FIRST. Two lanes: `a` = CRUSH/corpus, `b` = tool stack. Resume from the lane matching your directive.
 2. Run `git status` to verify working tree state.
 3. Commit frequently with semantic prefixes.
-4. Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md`
+4. Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}{a|b}.md`
 
 ---
 ---
@@ -367,10 +367,10 @@ Do NOT wait for compaction — monitor proactively.
 *Fires at the start of every session. Non-negotiable.*
 
 **Step 0 — Handoff Continuity Check** (FIRST THING):
-- Read the latest `HANDOFF-CC*.md` in `agents/commander/outbox/handoffs/` (highest CC number).
-- Extract: CC number, git HEAD, what was accomplished, what remains, Sovereign intent.
-- Report: "Resuming from CC{N}. Last session: {summary}. Git HEAD: {hash}."
-- This session is CC{N+1}.
+- Read the latest `HANDOFF-CC*{a|b}.md` in `agents/commander/outbox/handoffs/` for the relevant lane (`a` = CRUSH/corpus, `b` = tool stack). Two lanes run in parallel at the same CC number.
+- Extract: CC number, lane, git HEAD, what was accomplished, what remains, Sovereign intent.
+- Report: "Resuming from CC{N}{a|b}. Last session: {summary}. Git HEAD: {hash}."
+- This session is CC{N+1}{a|b} (same lane, next number).
 
 **Step 1 — Ground Truth Scan**:
 - Run `git status` — verify working tree state matches handoff expectations.
@@ -383,7 +383,7 @@ Do NOT wait for compaction — monitor proactively.
 
 ## Handoff Protocol (SINGULAR)
 
-**Location**: `agents/commander/outbox/handoffs/HANDOFF-CC{N}.md` — ONE file per session.
+**Location**: `agents/commander/outbox/handoffs/HANDOFF-CC{N}{a|b}.md` — two lanes per CC number. `a` = CRUSH/corpus lane, `b` = tool stack lane. A session works ONE lane and produces ONE handoff with the appropriate suffix.
 
 **When**: At session end, at <15% context remaining, or on explicit `/session-handoff`.
 
@@ -402,11 +402,11 @@ Do NOT wait for compaction — monitor proactively.
 3. **WRITE HANDOFF**:
 
 ```markdown
-# HANDOFF — Commander Council {N}
+# HANDOFF — Commander Council {N}{a|b} ({CRUSH|Tool Stack} Lane)
 
 **Date**: {date}
 **Agent**: Commander (Claude Opus 4.6)
-**Session**: CC{N}
+**Session**: CC{N}{a|b}
 **Git HEAD**: {short hash}
 **Trigger**: {Manual | Auto-<15% | PreCompact}
 
@@ -447,7 +447,7 @@ The Sovereign may grade any handoff 1-5 and flag what was missing. This feedback
 5. **PRINT REINITIALIZER** (last thing printed):
 
 ```
-Resume CC{N+1}. Read handoff: @agents/commander/outbox/handoffs/HANDOFF-CC{N}.md
+Resume CC{N+1}{a|b}. Read handoff: @agents/commander/outbox/handoffs/HANDOFF-CC{N}{a|b}.md
 ```
 
 ---
