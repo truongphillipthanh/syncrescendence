@@ -29,7 +29,7 @@
 | philosophy-esoterica | 235 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
 | product-business | 255 | Business models, PMF, SaaS, AI product strategy, distribution | — |
 | productivity-pkm | 191 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
-| prompt-engineering | 43 | Prompt design, templates, optimization, few-shot patterns | — |
+| prompt-engineering | 19 | Prompt design, templates, optimization, few-shot patterns (24 reclassified in CC67) | — |
 | startup-vc | 80 | Founders, fundraising, startup culture, VC dynamics | — |
 | vibe-coding | 220 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
 | writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS | — |
@@ -67,6 +67,17 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `openclaw-architecture-deep-research.md` | 08435, 08436, 08810, 00259, 03846, 03825, 03735, 00069, 00128, 03417 | Ecosystem & Comparative |
 
 **Totals**: 19 entries from ~116 source files across all 6 openclaw subcategories (Operational Tooling dissolved — 71 files reclassified to MAS in CC65). openclaw/ nucleosynthesis COMPLETE.
+
+### prompt-engineering/ (CC67)
+
+| Entry | Sources Fused | Concept |
+|-------|--------------|---------|
+| `prompt-architecture-structural-design.md` | 00118, 03490, 10325, 03184, 09308, 04449 | XML tag taxonomy, 5-layer anatomy, completeness contract |
+| `context-engineering-post-prompt-paradigm.md` | 03816, 03814, 04045, 04060, 10327 | System prompts as harnesses, context > prompts, Skills, model-specific adaptation |
+| `prompt-optimization-production-rigor.md` | 00084, 00087, 01288, 01513, 02101 | Adversarial analysis, caching, Goldilocks principle, lifecycle management |
+| `constellation-prompting-formulas.md` | CANON-25610, 00749, 00752 | Diviner formula (8 elements), model-specific consensus, constellation methodology |
+
+**Totals**: 4 entries from 19 source files. 24 files reclassified (13 misrouted to correct folders, 10 operational artifacts to MAS, 1 video stub). prompt-engineering/ nucleosynthesis COMPLETE.
 
 ---
 
