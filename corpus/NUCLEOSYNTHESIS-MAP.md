@@ -1,8 +1,8 @@
 # NUCLEOSYNTHESIS MAP — Corpus Classification Authority
 
 **Updated**: 2026-02-28 (CC59)
-**Corpus**: 22 semantic topic folders, 5,921 files (49.5% reduction from 11,733 originals)
-**Subcategory Indexes**: 5 largest folders indexed with cross-references (3,183 files across 30 sub-themes)
+**Corpus**: 22 semantic topic folders, 5,926 files (49.5% reduction from 11,733 originals)
+**Subcategory Indexes**: 5 largest folders indexed with cross-references
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
 ---
@@ -12,20 +12,20 @@
 | Folder | Files | Description | Subcategories |
 |--------|------:|-------------|:---:|
 | ai-biotech | 10 | Biotechnology, synthetic biology, AI in life sciences | — |
-| ai-capability-futures | 174 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
+| ai-capability-futures | 175 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
 | ai-memory-retrieval | 392 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
-| ai-models | 556 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
+| ai-models | 557 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
 | ai-safety | 96 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
 | ai-video-vfx | 123 | AI image/video generation, VFX workflows, creative AI tooling | — |
-| claude-code | 353 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
+| claude-code | 354 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
 | design-taste | 194 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
 | geopolitics-grand-strategy | 152 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
 | health-psychology | 175 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
 | infrastructure | 94 | DevOps, cloud, servers, networking, compute economics | — |
 | leadership-management | 50 | Executive decision-making, org design, management frameworks | — |
 | meaning-civilization | 209 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
-| multi-agent-systems | 1770 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
-| openclaw | 330 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
+| multi-agent-systems | 1771 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
+| openclaw | 331 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
 | philosophy-esoterica | 235 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
 | product-business | 254 | Business models, PMF, SaaS, AI product strategy, distribution | — |
 | productivity-pkm | 189 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
@@ -34,7 +34,7 @@
 | vibe-coding | 220 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
 | writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS | — |
 
-**Total**: 5,921 files across 22 folders (+ 3 uncategorized). 49.5% reduction from 11,733 originals. 5 folders subcategorized with cross-references. Operational Artifact Routing amendment (CC59) consolidated pipeline byproducts into multi-agent-systems.
+**Total**: 5,926 files across 22 folders (+ 3 uncategorized). 49.5% reduction from 11,733 originals. 5 folders subcategorized with cross-references. CC59: Operational Artifact Routing amendment consolidated ~1,008 pipeline byproducts into multi-agent-systems. Extraction files with topical content remain in semantic folders (format ≠ identity).
 
 ---
 
@@ -123,11 +123,11 @@ Subcategories are implemented as **Ranganathan faceted indexes** — semantic ro
 
 | Folder | Sub-themes |
 |--------|-----------|
-| **ai-models** (556) | Mathematical Foundations, Frontier Model Releases, Training & Scaling, Benchmarks & Evaluation, Architecture & Efficiency, Fine-Tuning & Adaptation |
-| **multi-agent-systems** (1770) | External MAS Research, Syncrescendence Operations, Orchestration Patterns, MCP & Protocol Engineering, Sub-Agent Delegation, Architecture & Frameworks |
-| **claude-code** (353) | Core Architecture, Extended Thinking & Reasoning, MCP & Sub-Agent Integration, Customization & Skills, Community & Usage Patterns, Security & Isolation |
-| **openclaw** (330) | Installation & Configuration, Memory & Personality, Phone & Multi-Device Fleets, Security & Cost Optimization, Operational Tooling, Ecosystem & Comparative Analysis |
-| **ai-capability-futures** (174) | AGI Timelines & Predictions, Scaling Laws & Trajectories, Agent Evals & Capability Benchmarks, Market & Investment Analysis, Democratization & Open Models, Human-AI Symbiosis |
+| **ai-models** (557) | Mathematical Foundations, Frontier Model Releases, Training & Scaling, Benchmarks & Evaluation, Architecture & Efficiency, Fine-Tuning & Adaptation |
+| **multi-agent-systems** (1771) | External MAS Research, Syncrescendence Operations, Orchestration Patterns, MCP & Protocol Engineering, Sub-Agent Delegation, Architecture & Frameworks |
+| **claude-code** (354) | Core Architecture, Extended Thinking & Reasoning, MCP & Sub-Agent Integration, Customization & Skills, Community & Usage Patterns, Security & Isolation |
+| **openclaw** (331) | Installation & Configuration, Memory & Personality, Phone & Multi-Device Fleets, Security & Cost Optimization, Operational Tooling, Ecosystem & Comparative Analysis |
+| **ai-capability-futures** (175) | AGI Timelines & Predictions, Scaling Laws & Trajectories, Agent Evals & Capability Benchmarks, Market & Investment Analysis, Democratization & Open Models, Human-AI Symbiosis |
 
 **Architecture**: Ranganathan faceted classification. Physical files are immutable numeric IDs. Subcategories exist only as index entries. Reclassification = editing one line in an index file, zero file I/O. Poly-hierarchical: liminal files can appear in multiple indexes.
 
