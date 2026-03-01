@@ -12,20 +12,20 @@
 | Folder | Files | Description | Subcategories |
 |--------|------:|-------------|:---:|
 | ai-biotech | 10 | Biotechnology, synthetic biology, AI in life sciences | — |
-| ai-capability-futures | 416 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
+| ai-capability-futures | 174 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
 | ai-memory-retrieval | 392 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
-| ai-models | 867 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
+| ai-models | 635 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
 | ai-safety | 96 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
 | ai-video-vfx | 123 | AI image/video generation, VFX workflows, creative AI tooling | — |
-| claude-code | 547 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
+| claude-code | 437 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
 | design-taste | 194 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
 | geopolitics-grand-strategy | 152 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
 | health-psychology | 174 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
 | infrastructure | 94 | DevOps, cloud, servers, networking, compute economics | — |
 | leadership-management | 50 | Executive decision-making, org design, management frameworks | — |
 | meaning-civilization | 209 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
-| multi-agent-systems | 785 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
-| openclaw | 579 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
+| multi-agent-systems | 1595 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
+| openclaw | 353 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
 | philosophy-esoterica | 234 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
 | product-business | 252 | Business models, PMF, SaaS, AI product strategy, distribution | — |
 | productivity-pkm | 189 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
@@ -34,7 +34,7 @@
 | vibe-coding | 218 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
 | writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS | — |
 
-**Total**: 5,926 files across 22 folders (+ 3 uncategorized). 49.5% reduction from 11,733 originals. 5 folders subcategorized with cross-references (3,202 files, 30 sub-themes).
+**Total**: 5,927 files across 22 folders (+ 3 uncategorized). 49.5% reduction from 11,733 originals. 5 folders subcategorized with cross-references. Operational Artifact Routing amendment (CC59) consolidated pipeline byproducts into multi-agent-systems.
 
 ---
 
