@@ -1,7 +1,7 @@
 # NUCLEOSYNTHESIS MAP — Corpus Classification Authority
 
-**Updated**: 2026-02-28 (CC60)
-**Corpus**: 22 semantic topic folders, 5,784 files (50.7% reduction from 11,733 originals)
+**Updated**: 2026-03-01 (CC68)
+**Corpus**: 22 semantic topic folders, ~5,784 files (50.7% reduction from 11,733 originals)
 **Subcategory Indexes**: 5 largest folders indexed with cross-references
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
@@ -22,7 +22,7 @@
 | geopolitics-grand-strategy | 152 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
 | health-psychology | 176 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
 | infrastructure | 96 | DevOps, cloud, servers, networking, compute economics | — |
-| leadership-management | 50 | Executive decision-making, org design, management frameworks | — |
+| leadership-management | 12 | Executive decision-making, org design, management frameworks, AI adoption (37 reclassified in CC68) | — |
 | meaning-civilization | 211 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
 | multi-agent-systems | 2117 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
 | openclaw | ~219 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets, ecosystem (74 reclassified to MAS/PE in CC65-66) | **5** (Operational Tooling dissolved) |
@@ -99,6 +99,16 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `ai-era-startup-strategy.md` | 09433, 09449, 09751, 09855, 10937, 10970, 11023, 04209 | Moats, enterprise adoption, High Ground strategy |
 
 **Totals**: 5 entries from 46 source files (1 metadata-only source absorbed contextually). 30 files reclassified. startup-vc/ nucleosynthesis COMPLETE.
+
+### leadership-management/ (CC68)
+
+| Entry | Sources Fused | Concept |
+|-------|--------------|---------|
+| `ai-adoption-organizational-design.md` | 10238, 03040, 10276, 10752, 00230, 02095 | 80% abandonment, judgment layer, leader/laggard gap, task expansion, attention atrophy, LLM psychosis |
+| `leverage-delegation-accountability.md` | 01801, 02365, 02367, 00200, 00250 | Delegation levels, documentation-execution loop, callable advisors, AI governance |
+| `remote-organizational-design.md` | 00226 | Deel playbook: agency hiring, 30-day impact window, OKRs, practitioner-managers |
+
+**Totals**: 3 entries from 12 source files. 37 files reclassified (18 → MAS, 4 → productivity-pkm, 3 → ai-capability-futures, 3 → claude-code, 3 → ai-models, 2 → infrastructure, 1 → ai-safety). 75% misclassification rate — highest observed. leadership-management/ nucleosynthesis COMPLETE.
 
 ---
 
