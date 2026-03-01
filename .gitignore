@@ -102,3 +102,4 @@ skills/
 orchestration/state/breakers/
 orchestration/state/budgets/
 
+agents/commander/outbox/openclaw-auth-backup-cc65.json
