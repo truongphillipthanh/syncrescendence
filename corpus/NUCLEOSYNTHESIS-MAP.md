@@ -1,7 +1,7 @@
 # NUCLEOSYNTHESIS MAP — Corpus Classification Authority
 
-**Updated**: 2026-02-28 (CC59)
-**Corpus**: 22 semantic topic folders, 5,926 files (49.5% reduction from 11,733 originals)
+**Updated**: 2026-02-28 (CC60)
+**Corpus**: 22 semantic topic folders, 5,784 files (50.7% reduction from 11,733 originals)
 **Subcategory Indexes**: 5 largest folders indexed with cross-references
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
@@ -12,29 +12,29 @@
 | Folder | Files | Description | Subcategories |
 |--------|------:|-------------|:---:|
 | ai-biotech | 10 | Biotechnology, synthetic biology, AI in life sciences | — |
-| ai-capability-futures | 175 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
-| ai-memory-retrieval | 392 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
-| ai-models | 557 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
-| ai-safety | 96 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
+| ai-capability-futures | 173 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
+| ai-memory-retrieval | 351 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
+| ai-models | 544 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
+| ai-safety | 89 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
 | ai-video-vfx | 123 | AI image/video generation, VFX workflows, creative AI tooling | — |
-| claude-code | 354 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
-| design-taste | 194 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
+| claude-code | 323 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
+| design-taste | 193 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
 | geopolitics-grand-strategy | 152 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
-| health-psychology | 175 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
-| infrastructure | 94 | DevOps, cloud, servers, networking, compute economics | — |
+| health-psychology | 176 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
+| infrastructure | 96 | DevOps, cloud, servers, networking, compute economics | — |
 | leadership-management | 50 | Executive decision-making, org design, management frameworks | — |
-| meaning-civilization | 209 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
-| multi-agent-systems | 1771 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
-| openclaw | 331 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
+| meaning-civilization | 211 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
+| multi-agent-systems | 1756 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
+| openclaw | 293 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
 | philosophy-esoterica | 235 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
-| product-business | 254 | Business models, PMF, SaaS, AI product strategy, distribution | — |
-| productivity-pkm | 189 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
-| prompt-engineering | 42 | Prompt design, templates, optimization, few-shot patterns | — |
+| product-business | 255 | Business models, PMF, SaaS, AI product strategy, distribution | — |
+| productivity-pkm | 191 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
+| prompt-engineering | 43 | Prompt design, templates, optimization, few-shot patterns | — |
 | startup-vc | 80 | Founders, fundraising, startup culture, VC dynamics | — |
 | vibe-coding | 220 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
 | writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS | — |
 
-**Total**: 5,926 files across 22 folders (+ 3 uncategorized). 49.5% reduction from 11,733 originals. 5 folders subcategorized with cross-references. CC59: Operational Artifact Routing amendment consolidated ~1,008 pipeline byproducts into multi-agent-systems. Extraction files with topical content remain in semantic folders (format ≠ identity).
+**Total**: 5,784 files across 22 folders (0 uncategorized). 50.7% reduction from 11,733 originals. 5 folders subcategorized with cross-references. CC59: Operational Artifact Routing amendment. CC60: CRUSH — 141 flat-atom pipeline duplicates deleted, 3 pipeline artifacts evicted, 11 misrouted Graphiti files corrected.
 
 ---
 
