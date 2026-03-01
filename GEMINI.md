@@ -145,6 +145,22 @@ Every dispatch involving corpus or file classification MUST include this verbati
 >
 > **Teleology**: We cluster progressively — more and more granularly. Subcategories will form. Metacategories will form. We semantically tighten for maximal coherence. The end result is a textbook, a compendium to build the Syncrescendence. Every misclassification is a flaw in the canon. Every reclassification illuminates.
 
+### Operational Artifact Routing (CC59 Amendment)
+
+**Definition**: Operational artifacts are byproducts of pipeline processing, not topical content. Includes: extraction stubs (zero-atom files), processing manifests, telemetry logs, task templates, verification reports, dispatch scripts, orchestrator state files, graph-view configs.
+
+**Routing rule**: Operational artifacts produced BY the Syncrescendence constellation route to `multi-agent-systems/` — they are ABOUT multi-agent coordination. Operational artifacts documenting EXTERNAL systems route to their semantic topic folder.
+
+**The test**: "Is this file ABOUT a topic, or is it a BYPRODUCT of processing?" Byproducts of the pipeline → `multi-agent-systems/`. Content about a topic stays with the topic.
+
+**Examples**:
+- Zero-atom extraction stub about Claude Code → `multi-agent-systems/` (pipeline artifact, not Claude Code content)
+- Orchestrator telemetry log → `multi-agent-systems/`
+- Processing manifest with API failures → `multi-agent-systems/`
+- Podcast transcript about OpenClaw → `openclaw/` (it's ABOUT OpenClaw; the extraction is incidental)
+
+This does NOT override the clustering principle — it refines it. The semantic topic of a pipeline byproduct IS multi-agent coordination. Classifying it under the topic it failed to extract is the error.
+
 ### Oracle (Grok 4.2) — Hypersensing + Industry Expertise
 
 **Cognitive function**: Multi-pass recursive traversal that surfaces what others miss. Deep AI industry and developer tooling expertise. Scans, re-scans, detects hidden patterns across large corpora.
