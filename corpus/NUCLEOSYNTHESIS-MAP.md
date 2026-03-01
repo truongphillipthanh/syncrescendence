@@ -30,7 +30,7 @@
 | product-business | 255 | Business models, PMF, SaaS, AI product strategy, distribution | — |
 | productivity-pkm | 191 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
 | prompt-engineering | 19 | Prompt design, templates, optimization, few-shot patterns (24 reclassified in CC67) | — |
-| startup-vc | 80 | Founders, fundraising, startup culture, VC dynamics | — |
+| startup-vc | 46 | Founders, fundraising, startup culture, VC dynamics (30 reclassified in CC67, 2 uncounted at census) | — |
 | vibe-coding | 220 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
 | writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS | — |
 
@@ -87,6 +87,18 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `brain-computer-interfaces.md` | 01672, 02233, 03958 | Neuralink N1, BCI bottleneck, neural decoding, cognitive augmentation |
 
 **Totals**: 2 entries from 8 source files. 2 files reclassified (agent memory → MAS, AI investing → ai-capability-futures). ai-biotech/ nucleosynthesis COMPLETE.
+
+### startup-vc/ (CC67)
+
+| Entry | Sources Fused | Concept |
+|-------|--------------|---------|
+| `vc-strategy-investor-frameworks.md` | 01174, 01581, 01732, 02143, 02145, 02433, 02434, 02767, 10141, 10397, 10404, 09849, 09958 | A16Z/Benchmark repositioning, mega-rounds, AI-era VC |
+| `founder-psychology-company-building.md` | 01117, 01579, 01615, 02242, 02632, 03058, 03060, 03175, 10267, 10321, 10764 | Hormozi model, Jobs intensity, efficiency vs optionality |
+| `japan-startup-revolution.md` | 02608, 02626, 02628, 10065 | MPower Partners, cultural shift, regional dynamics |
+| `saas-disruption-ai-native-business.md` | 10649, 11003, 11033, 11025, 04441, 11050, 11009, 11030, 11054 | SaaS collapse thesis, Skills replacing subscriptions |
+| `ai-era-startup-strategy.md` | 09433, 09449, 09751, 09855, 10937, 10970, 11023, 04209 | Moats, enterprise adoption, High Ground strategy |
+
+**Totals**: 5 entries from 46 source files (1 metadata-only source absorbed contextually). 30 files reclassified. startup-vc/ nucleosynthesis COMPLETE.
 
 ---
 
