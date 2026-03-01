@@ -17,7 +17,7 @@
 | ai-memory-retrieval | 305 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
 | ai-models | 546 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
 | ai-safety | 37 | Constitutional AI, RLHF, alignment, governance, existential risk (46 reclassified in CC69a) | — |
-| ai-video-vfx | 120 | AI image/video generation, VFX workflows, creative AI tooling | — |
+| ai-video-vfx | 15 | AI image/video generation, VFX workflows, creative AI tooling (102 reclassified in CC71a) | — |
 | claude-code | 327 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
 | design-taste | 190 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
 | geopolitics-grand-strategy | 137 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
@@ -133,6 +133,16 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `developer-tooling-workflow-homelab.md` | 00103, 11032, 09370, 03496, 08838, 02164, 01273 | Terminal workflows, AI coding tools, three-tier homelab, cybersecurity 2026 |
 
 **Totals**: 4 entries from 32 source files. 47 files reclassified (31 → MAS, 3 → ai-capability-futures, 2 → ai-models, 2 → productivity-pkm, 4 → meaning-civilization, 1 → openclaw, 1 → writing-creation, 1 → product-business, 1 → geopolitics-grand-strategy, 1 → claude-code). 58% misclassification rate. infrastructure/ nucleosynthesis COMPLETE.
+
+### ai-video-vfx/ (CC71a)
+
+| Entry | Sources Fused | Concept |
+|-------|--------------|---------|
+| `ai-image-generation-landscape.md` | 00910, 01221, 01489, 01495, 01497, 01582, 01975, 10337 | Multi-tool ecosystem, Nano Banana Pro reasoning-on-images, competitive dynamics |
+| `ai-video-generation-vfx-pipeline-collapse.md` | 00911, 00914, 04018, 04024, 01497, 01861 | Instruction-based editing, Seedance 2.0, temporal coherence, professional integration |
+| `transmedia-convergence-creator-sovereignty.md` | 01219, 10414 | Matrix legacy, Neo Cinema, Gaeta's living worlds, sovereign agents, dark mirror |
+
+Reclassification: 102 of 120 files (85%) misrouted. Largest destinations: MAS (18), meaning-civilization (9), ai-models (11), openclaw (8), vibe-coding (8), product-business (8), philosophy-esoterica (7), productivity-pkm (6), ai-capability-futures (9), infrastructure (5), health-psychology (4), geopolitics (3), claude-code (3), design-taste (2).
 
 ---
 
