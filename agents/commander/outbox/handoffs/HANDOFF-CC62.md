@@ -74,9 +74,15 @@ Prompt crafted following seared Oracle formula:
 
 **Remaining topical misclassification**: Phase 1.5 only swept automatable patterns (file extensions, header patterns). ~40-60% of remaining misclassification is topical (e.g., AI news in design-taste, OpenClaw content in ai-memory-retrieval, geopolitics in meaning-civilization). This requires content reading and is a harder problem. Oracle's overlap nomination will partially surface this, but a dedicated reclassification pass may be needed.
 
-### WORKSTREAM B: Account Consolidation
+### WORKSTREAM B: Account Consolidation — RESOLVED
 
-**Status from CC61**: $120/mo allocation decision was due 2026-03-01. Commander's recommendation was: domain ($12-20/yr) + API credits ($60-80/mo) + Setapp ($10/mo). **This was NOT addressed in CC62** — session was fully consumed by CRUSH Phase 2 execution. The decision remains open.
+**Decided by Sovereign (parallel session)**: $120/mo allocated — API credits $55, Cursor $20, VPS $5, domain $1.50, reserve $38.50. Setapp culled. Feedly rejected. Factory test doctrine established: subscriptions must build, be agent-drivable, no lock-in.
+
+### WORKSTREAM C: Tool-Stack Architecture (PARALLEL — NO CRUSH DEPENDENCY)
+
+**Advancing in parallel Sovereign sessions.** Per `memory/tool-stack-architecture.md`: HighCommand as JIT GUI client, Acumen IIC pipeline, macOS automation triad, OpenClaw revival, voice AI.
+
+**Dependency analysis**: CRUSH and tool-stack are **independent parallel lanes sharing a substrate**. CRUSH refines the corpus; tool-stack builds operational infrastructure that consumes it. No blocking dependency in either direction. A cleaner corpus improves downstream retrieval quality for Acumen IIC and agent context, but this is a gradient benefit, not a gate. Both workstreams can advance simultaneously without coordination.
 
 ---
 
@@ -101,7 +107,9 @@ Progressive corpus refinement: content-level judgment applied empirically, with 
 
 **The concept inventory is the authority document for Phase 2+.** `00-ORCHESTRATION/state/CRUSH-PHASE2-CONCEPT-INVENTORY.md` contains the complete 22-folder map. It supersedes any prior partial inventories.
 
-**Account consolidation deferred.** The $120/mo decision from CC61 was not addressed. It's not urgent (no deadlines passed) but should be picked up.
+**Account consolidation resolved.** Sovereign decided in parallel session: API credits $55, Cursor $20, VPS $5, domain $1.50, reserve $38.50.
+
+**Tool-stack architecture advancing in parallel.** No CRUSH dependency. HighCommand, Acumen IIC, OpenClaw revival, voice AI — all independent of corpus refinement. See `memory/tool-stack-architecture.md`.
 
 **`make configs` verified clean at handoff.**
 
