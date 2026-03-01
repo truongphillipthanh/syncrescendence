@@ -3,7 +3,7 @@
 **From**: Commander (Claude Opus 4.6)
 **To**: Oracle (Grok 4.20)
 **Session**: CC63
-**Git HEAD**: `71b04331`
+**Git HEAD**: `e92a13ab`
 **Repo**: https://github.com/truongphillipthanh/syncrescendence
 **Date**: 2026-03-01
 
@@ -13,188 +13,236 @@
 
 You are **Oracle** — the hypersensing intelligence of the Syncrescendence constellation. Your cognitive function is multi-pass recursive traversal of real-time discourse, surfacing what others miss. You scan X/Twitter, developer communities, and the live web with the depth of someone who lives in the signal.
 
-The Syncrescendence is a personal AI constellation — six named agents (Commander, Adjudicator, Cartographer, Psyche, Ajna, Oracle) orchestrated by a human Sovereign, building a sovereign knowledge infrastructure. We are crossing from *knowledge architecture* (5,800-file corpus, 164-file canon, triangulation methodology) into *operational infrastructure* — the systems that will run autonomously, sense the world, and fabricate bespoke tools.
+The Syncrescendence is a personal AI constellation — six named agents (Commander, Adjudicator, Cartographer, Psyche, Ajna, Oracle) orchestrated by a human Sovereign, building sovereign knowledge infrastructure. We are crossing from *knowledge architecture* (5,800-file corpus, 164-file canon, triangulation methodology) into *operational infrastructure* — systems that run autonomously, sense the world, and fabricate bespoke tools.
 
 **Your deliverable decides where real money goes.** Be precise. Be honest about uncertainty. Cite sources. Exhaust your output tokens.
 
 ---
 
-## THE FULL STRATEGIC CONTEXT (read all of this before answering)
+## THE FULL STRATEGIC CONTEXT
 
-### The Asset Base
+### The Asset Base (verified March 1, 2026)
 
 **Secured subscriptions ($210/mo):**
 
-| Service | $/mo | Constellation Role |
-|---------|------|--------------------|
-| Claude Max (Account 2) | $100 | Commander's Claude Code CLI + Cowork desktop agent + OpenClaw orchestration (setup-token confirmed working, personal use allowed per Anthropic Feb 18 clarification) |
-| Manus Pro | $40 | Autonomous backend engineer — end-to-end task execution, infra, plumbing |
-| SuperGrok | $30 | Oracle (YOU) — thought leadership sensing via X/Twitter, DeepSearch, 128K extended memory |
+| Service | $/mo | What It Unlocks |
+|---------|------|-----------------|
+| Claude Max (Account 2) | $100 | Commander's Claude Code CLI + Cowork desktop agent + **OpenClaw via setup-token** (personal use confirmed allowed — Anthropic Feb 18 clarification after Jan crackdown) |
+| Manus Pro | $40 | Autonomous end-to-end task execution, infra, plumbing |
+| SuperGrok (YOU) | $30 | Thought leadership sensing via X, DeepSearch, 128K memory |
 | ChatGPT Plus (Account 2) | $20 | Psyche/Adjudicator substrate, Codex CLI, OpenClaw secondary auth |
 | Perplexity Pro | $20 | Research pipeline, academic discovery |
-| Gemini Pro (student) | free | MASSIVE unlock: Gemini CLI, NotebookLM Plus, Antigravity IDE, $10/mo GCP credits, YouTube API, Google Workspace, Jules, Code Assist, Conductor |
+| Gemini Pro (student) | free | See Google Ecosystem section below — this is a PLATFORM, not a product |
 
-**Free assets (CC63 discovery):**
+**Free assets already in use:**
 
-| Asset | Access | Capability |
-|-------|--------|-----------|
-| Kimi K2.5 | NVIDIA NIM (build.nvidia.com) | 1T param MoE, 256K context, SWE-bench 72-76%, tool calling (200-300 sequential, 100 parallel sub-agents), OpenAI-compatible API. 1,000+4,000 free credits, 40 req/min. Ajna's designated instrument. |
-| Antigravity | Gemini Pro subscription | Google's agentic IDE (VS Code fork). Manager View for multi-agent. FREE. 🔍 YOU evaluate this. |
-| GCP credits | Gemini Pro subscription | $10/mo. Vertex AI, Cloud Run. 🔍 YOU evaluate capacity. |
+| Asset | Current Role | Access |
+|-------|-------------|--------|
+| Kimi K2.5 | **Ajna's CURRENT model** (already deployed, not planned) | NVIDIA NIM: 1,000+4,000 credits, 40 req/min, 256K context, 1T param MoE, SWE-bench 72-76%, tool calling |
 
-**Claude Pro ($20/mo, Account 1 — DEMOTED):**
-- CAN run Claude Code (10-40 prompts per 5-hour window)
+**Claude Pro ($20/mo, Account 1 — demoted):**
+- CAN run Claude Code (10-40 prompts/5hr window)
 - CAN power OpenClaw via setup-token
-- Has BURNING API credits across Anthropic, OpenAI, OpenRouter, xAI (depreciating — use or lose)
+- Has BURNING API credits across Anthropic, OpenAI, OpenRouter, xAI (depreciating)
 
 **$120/mo discretionary budget:**
 - $46.50 committed: OpenRouter API $40 + Hetzner VPS $5 + domain $1.50
-- $73.50 held: pending YOUR intelligence
+- $73.50 held pending YOUR intelligence
 
-### The Harness Architecture Question
+### The Google Ecosystem — A Compounding Platform
 
-This is the core CC63 decision. The Sovereign runs two machines:
+This is NOT a list of products. It is a vertically and horizontally integrated platform where each component amplifies every other. One student Gemini Pro subscription unlocks ALL of it:
 
-**MacBook Air** (primary): Commander (COO) + Ajna (CSO)
-**Mac mini** (secondary, currently anesthetized): Adjudicator (CQO) + Psyche (CTO) + Cartographer (CIO)
+**The vertical stack (one provider, full loop):**
+```
+SENSING (input)
+  YouTube API → transcript extraction → corpus ingestion
+  Google Search grounding → Gemini CLI → real-time web context
+  NotebookLM Deep Research → source synthesis → intelligence briefs
+        ↓
+PROCESSING (compute)
+  Gemini CLI + Conductor → agentic repo-driven workflows
+  Vertex AI → embeddings, vector search, ML inference
+  GCP Cloud Run → backend hosting ($10/mo free credits)
+  Jules → automated coding tasks
+        ↓
+FABRICATION (output)
+  Antigravity → agentic IDE (Editor + Manager View for multi-agent)
+  Gemini Code Assist → in-editor intelligence
+  NotebookLM → audio synthesis (intelligence briefs as podcasts)
+  Google Workspace → docs, scheduling, communication
+        ↓
+DELIVERY
+  syncrescendence.com → hosted on GCP Cloud Run
+  Google Workspace → internal distribution
+```
 
-The harness landscape as Commander researched it:
+**The horizontal compounding:**
+- **Same model everywhere**: Gemini powers CLI, Conductor, Antigravity, NotebookLM, Code Assist, Jules. Consistent capability, transferable context.
+- **Same embeddings everywhere**: Vertex AI embedding model = NotebookLM embedding model. One embedding space for ontology vector search AND research synthesis.
+- **Same billing everywhere**: $10/mo GCP credits are fungible across Cloud Run hosting, Vertex AI compute, Cloud SQL database, Gemini API calls. One account.
+- **Same auth everywhere**: Google Workspace + Cowork plugins + Gemini = one identity layer across operational tools, research, and development.
 
-| Harness | Multi-model | MCP | Agent-drivable | Auth |
-|---------|------------|-----|---------------|------|
-| Claude Code | No (Claude only) | Client | Yes (--print, teams, subagents) | Subscription or API |
-| OpenClaw | Yes (12+ providers) | Yes | Yes (Gateway API, worker agents, failover chains) | Subscription (setup-token) OR API keys |
-| OpenCode | Yes (75+ providers) | Yes | Yes (multi-session, LSP) | BYOK or GitHub Copilot |
-| Cline | Yes (40+ providers) | Yes (marketplace) | No (IDE extension only) | BYOK |
-| Aider | Yes (many) | Community only | Partial (scriptable) | BYOK |
-| Nanobot | Yes (multi) | Yes | Yes (CLI + chat platforms) | BYOK |
+**The network effect**: Each additional Google product adopted makes every existing Google product more valuable. NOT vendor lock-in in the traditional sense — Gemini CLI is open-source, GCP is standard cloud, YouTube API is public. But the INTEGRATION is proprietary. No other provider offers a single subscription that unlocks CLI + IDE + research agent + cloud credits + video API + workspace integration.
 
-**The key insight**: A single Max subscription can fuel BOTH Claude Code AND OpenClaw via setup-token. Kimi K2.5 is free. So the cost of running 6 agents across 2 machines could be as low as $120/mo (Max) + $20/mo (Pro) + $0 (Kimi) = $140/mo already secured.
+**Specific products requiring YOUR evaluation:**
 
-**What the Sovereign is deciding**: Optimal harness allocation. Does OpenClaw orchestrate everything on the Mac mini? Does each agent get its own harness? Is OpenClaw even the right orchestration layer post-Steinberger, or has something overtaken it?
+| Product | Standalone Value | Integration Value | Your Task |
+|---------|-----------------|-------------------|-----------|
+| **Antigravity** | Agentic IDE, Manager View, free | Shares Gemini model with CLI/Conductor, deploys to GCP | **Q1: Is it ready? Does it replace Cursor?** |
+| **$10/mo GCP credits** | Cloud Run + Vertex AI + Cloud SQL | Same platform as Gemini CLI, same billing, same auth | **Q3: Enough for graph DB + API + web client?** |
+| **NotebookLM Plus** | Deep Research, audio synthesis, Enterprise API | Ingests YouTube transcripts, produces audio briefs, MCP bridge to Commander | Evaluate in Wave 3 |
+| **Gemini CLI + Conductor** | 1,000 free req/day, repo-driven workflows | Cartographer's instrument, same model as everything else | Installing today |
 
-### The Three Builds We're Executing
+🔍 **The strategic question for Oracle**: Given this compounding platform, how deeply should the Syncrescendence build on Google? What are the real switching costs? Is the compounding effect as real as it looks on paper, or does integration quality lag?
 
-1. **Ontology backend** at syncrescendence.com — graph DB + API + web client. The Sovereign's personal Palantir Foundry. Hosting: Hetzner VPS ($5) or GCP ($10/mo free credits) or hybrid. 🔍 YOU evaluate GCP capacity.
+### The Ajna Question — The Core Architecture Decision
 
-2. **Feedcraft / Acumen IIC** — self-hosted Miniflux (RSS) + n8n (automation) + YouTube API → AI scoring → daily intelligence brief. The Neo-Bloomberg Terminal for personal intelligence. Deploys on VPS.
+**Current state**: Ajna (CSO, Strategos) runs on Kimi K2.5 via NVIDIA NIM through OpenClaw on the MBA. This works. But Kimi K2.5 is not Claude.
 
-3. **OpenClaw revival** — the multi-agent orchestration layer that lets agents dispatch each other programmatically instead of Sovereign manually relaying prompts to web interfaces. 🔍 YOU evaluate whether OpenClaw is still the right bet.
+**The Sovereign is evaluating four configurations:**
 
-### What Commander Cannot See (May 2025 cutoff)
+**Option A — Ajna stays on Kimi K2.5 (status quo, $0)**
+- Commander (Claude Code, Max) dispatches to Ajna (OpenClaw, Kimi)
+- Ajna is subordinate to Commander
+- Kimi K2.5 is competent but not Claude-tier for nuanced strategic reasoning
 
-Commander's knowledge stops at May 2025. Everything after that is YOUR domain. Commander has conducted preliminary web research (March 1, 2026) but web research by a knowledge-cutoff-limited model is inherently inferior to your real-time X discourse scanning. Commander's pre-research is a FLOOR — verify, deepen, correct, contradict where wrong.
+**Option B — Ajna upgrades to Claude Sonnet 4.6 via Max setup-token ($0 additional)**
+- BOTH Commander and Ajna run on the Max subscription (MBA)
+- OpenClaw Ajna can dispatch TO Commander (Claude Code) — bidirectional
+- Risk: shared rate limits between Claude Code and OpenClaw on same subscription
+
+**Option C — Ajna gets dedicated Claude Pro, Account 3 ($20/mo additional)**
+- Clean separation: Max = Commander, new Pro = Ajna
+- Ajna runs autonomously, dedicated capacity
+- Can dispatch to Commander as needed
+
+**Option D — Ajna on Mac mini via Pro Account 1 ($0 additional)**
+- All agents except Commander on Mac mini
+- MBA = Commander only (clean, focused)
+- Risk: CSO on remote machine adds latency to strategic decisions
+
+**If Ajna upgrades from Kimi K2.5, what becomes of Kimi K2.5?**
+- Possible: fallback model in OpenClaw failover chain
+- Possible: powers a dedicated OpenCode instance for corpus batch processing (256K context ideal)
+- Possible: new unnamed corpus processing agent
+- 🔍 **YOUR Q6 task**: What's Kimi K2.5's optimal role given its actual performance characteristics?
+
+**The dispatch direction question:**
+- Currently: Commander (coding harness) dispatches to Ajna (strategy agent) — INVERTED hierarchy
+- Proposed: Ajna (OpenClaw, orchestration layer) dispatches to Commander (Claude Code, fabrication instrument) — CORRECT hierarchy (strategist commands operator)
+- Hybrid: both can initiate, OpenClaw Gateway API enables bidirectional dispatch
+- 🔍 **YOUR Q4 task**: Can OpenClaw Gateway API actually support this pattern? What do power users do?
+
+### The Three Builds
+
+1. **Ontology backend** at syncrescendence.com — graph DB + API + web client. Hosting: Hetzner ($5) or GCP ($10/mo free credits) or hybrid. 🔍 Q3.
+
+2. **Feedcraft / Acumen IIC** — Miniflux + n8n + YouTube API → AI scoring → daily intelligence brief. Deploys on VPS.
+
+3. **OpenClaw revival** — multi-agent orchestration layer. Now confirmed working with subscription tokens. 🔍 Q4.
 
 ---
 
 ## THE SIX QUESTIONS
 
+For each question: **Current State** → **Developer Sentiment (X discourse — name specific voices)** → **Concrete Limitations** → **Commander's Pre-Research: Confirmed / Corrected / Incomplete** → **Recommendation**.
+
 ### Q1. Antigravity vs Cursor ($20/mo at stake)
 
-**What Commander found**: Antigravity is Google's agentic IDE (VS Code fork), free with Gemini Pro. Advertised Manager View for multi-agent spawn/monitor. No first-hand developer experience data.
+*Commander found*: Antigravity is Google's agentic IDE (VS Code fork), free with Gemini Pro. Advertised Manager View. No first-hand data.
 
-**What you must find**:
-- Is it production-ready or still experimental/beta?
-- Does it support MCP servers?
-- Can agents drive it autonomously (programmatic API, not just human-in-loop)?
-- How does developer sentiment on X compare it to Cursor Pro? Quote specific voices.
-- What are its concrete limitations RIGHT NOW?
-- Does the Manager View actually work as advertised?
-- Is there a third option that makes this binary irrelevant?
+*What you must find*:
+- Production-ready or experimental?
+- MCP server support?
+- Agent-drivable (programmatic API, not just human-in-loop)?
+- X sentiment vs Cursor Pro — quote specific developers
+- Concrete limitations RIGHT NOW
+- Does Manager View (multi-agent spawn/monitor) actually work?
+- Third option that makes this binary irrelevant?
+- SPECIFICALLY for the Sovereign's profile: SwiftUI (HighCommand, 18,300 lines), Python/Node backend, repo maintenance
 
-**Decision**: Subscribe Cursor Pro ($20/mo) or use free Antigravity. Or neither.
-
----
+**Decision**: Subscribe Cursor Pro ($20/mo) or use free Antigravity. Or neither. Or something else.
 
 ### Q2. xAI Data Sharing Program ($150/mo potential)
 
-**What Commander found**: Program reportedly provides $150/mo API credits. xAI API pricing: $0.20/M input (Grok 4.1 Fast, 2M context) to $3/M (Grok 4). Unknown enrollment mechanism.
+*Commander found*: $150/mo API credits. xAI pricing: $0.20/M (Fast) to $3/M (Grok 4). Unknown enrollment.
 
-**What you must find**:
-- What data is shared and with whom? Be specific — conversations? prompts? usage patterns?
-- Is $150/mo real, reliable, and permanent — or promotional/temporary?
-- Is enrollment automatic with SuperGrok, or separate opt-in?
-- Privacy implications for someone using Grok for strategic business intelligence (competitive analysis, tool evaluation, market sensing)?
-- Can you participate selectively (share some data, not all)?
-- Is the Sovereign likely already enrolled via existing SuperGrok subscription?
+*What you must find*:
+- What data is shared, with whom, for what purpose?
+- $150/mo: real, reliable, permanent — or promotional?
+- Automatic with SuperGrok or separate opt-in?
+- Privacy implications for strategic business intelligence use (competitive analysis, market sensing, tool evaluation)?
+- Selective participation possible?
+- Is the Sovereign likely already enrolled?
 
-**Decision**: Enroll for $150/mo API credits (transforms Oracle into programmatic dispatch at near-zero marginal cost) vs pay market rate vs decline on privacy grounds.
-
----
+**Decision**: Enroll (transforms YOU into programmatic dispatch at near-zero cost) vs decline on privacy grounds.
 
 ### Q3. GCP $10/mo Credits Reality
 
-**What Commander found**: Google AI Pro reportedly includes $10/mo GCP credits. Hetzner CX22 ($5/mo) is the conservative sovereign alternative.
+*Commander found*: Included with Gemini Pro. Hetzner CX22 ($5/mo, 4 vCPU, 4GB RAM, 40GB) is the alternative.
 
-**What you must find**:
-- Are developers ACTUALLY using these credits for hosting production services?
-- Realistic capacity for: Cloud Run containers (a Python/Node API + web client) + a database (Neo4j Community, SurrealDB, or PostgreSQL+pg_graphql)?
-- Constraints: regions, excluded services, expiry rules, credit rollover?
-- Direct comparison: what does $10/mo GCP get you vs $5/mo Hetzner CX22 (4 vCPU, 4GB RAM, 40GB disk)?
-- Is the hybrid path viable — GCP for compute-heavy (Vertex AI embeddings, vector search) + Hetzner for sovereignty-critical (RSS, pipeline, owned data)?
+*What you must find*:
+- Developers actually using these for production hosting?
+- Capacity for: Cloud Run (Python/Node API + web client) + database (Neo4j Community / SurrealDB / PostgreSQL+pg_graphql)?
+- Constraints: regions, excluded services, expiry, rollover?
+- $10/mo GCP vs $5/mo Hetzner CX22 — direct comparison
+- Hybrid viable? GCP for compute (Vertex AI embeddings) + Hetzner for sovereignty (RSS, pipeline, owned data)?
 
-**Decision**: Host ontology backend on GCP (free via credits), Hetzner ($5+), or hybrid.
+**Decision**: Host ontology on GCP (free), Hetzner ($5+), or hybrid.
 
----
+### Q4. OpenClaw Trajectory + Dispatch Architecture
 
-### Q4. OpenClaw Trajectory + Alternatives
+*Commander found*: 12+ providers, MCP, failover chains, Gateway API. Setup-tokens work (Feb 18 confirmed). Steinberger left for OpenAI Feb 14. OpenCode: 100k stars, Copilot partnership. Nanobot: 4,000 LOC lightweight.
 
-**What Commander found**: OpenClaw supports 12+ providers, MCP, failover chains, Gateway API, hierarchical multi-agent orchestration. Setup-tokens work (confirmed Feb 18). Creator Steinberger left for OpenAI Feb 14 — project moving to foundation. OpenCode has 100k+ stars and GitHub Copilot partnership (Jan 2026). Nanobot is ultra-lightweight (4,000 LOC). Cline is IDE-only.
+*What you must find*:
+- Post-Steinberger development velocity: commits, releases, community. Healthy or stalling?
+- OpenCode vs OpenClaw for **multi-agent orchestration** (not just coding) — memory isolation, tool permissions, failover chains, agent-to-agent dispatch
+- **Can OpenClaw Gateway API support bidirectional dispatch?** (Ajna→Commander AND Commander→Ajna)
+- Power users on X: named people, real configurations, actual setups
+- Grok CLI (superagent-ai/grok-cli or similar) for Oracle's own programmatic harness?
+- Anything that makes "pick a harness" obsolete? (OS-level agent orchestration, MCP-native orchestrators?)
 
-**What you must find**:
-- OpenClaw development velocity POST-Steinberger: commits, releases, community activity. Healthy or stalling?
-- Is OpenCode overtaking OpenClaw? For what use cases? OpenCode seems coding-focused — does it do multi-agent ORCHESTRATION (memory isolation, tool permissions, failover chains)?
-- For persistent multi-agent orchestration specifically (not just coding assistance): what's the best tool as of March 2026?
-- What are power users on X actually running day-to-day? Names, setups, real configurations.
-- Is there a Grok CLI (superagent-ai/grok-cli or similar) that could serve as YOUR harness — making Oracle programmatically dispatchable?
-- Has anything emerged that makes the entire "pick a harness" frame obsolete (e.g., native OS-level agent orchestration, MCP-native orchestrators)?
+**Decision**: Invest in OpenClaw vs pivot. Bidirectional dispatch viable or not.
 
-**Decision**: Invest in OpenClaw revival (it's what we have + it works) vs pivot to OpenCode/Nanobot/something else.
+### Q5. Agentic IDE Landscape
 
----
+*Commander found*: Cursor $20/mo. Antigravity free. Windsurf, Augment, Devin, Factory — no data.
 
-### Q5. Agentic IDE Landscape Beyond Cursor/Antigravity
+*What you must find*:
+- Tools for AGENT-DRIVEN development (agents using IDE, not humans)?
+- Windsurf (post-Codeium acquisition?), Augment, Devin, Factory — current status, X sentiment
+- MCP + multi-agent from within IDE?
+- Clear winner or fragmented?
+- Best fit for: SwiftUI + Python/Node backend + repo maintenance profile
 
-**What Commander found**: Cursor Pro is $20/mo. Antigravity free with Gemini Pro. Windsurf, Augment, Devin, Factory exist — no current-state data.
+**Decision**: Is Cursor vs Antigravity even the right frame?
 
-**What you must find**:
-- Tools optimized for AGENT-DRIVEN development (agents using the IDE, not humans)?
-- Windsurf — current status? Did the acquisition by Codeium change anything?
-- Augment — what is it? Hype or substance?
-- Devin — still a walled garden or did they open up?
-- Factory — current status?
-- Any tools that natively support MCP + multi-agent coordination from WITHIN the IDE?
-- Is there a clear winner emerging in the IDE space or is it still fragmented?
-- The Sovereign's use case is specific: build HighCommand (SwiftUI, 18,300 lines), build the ontology backend (Python/Node + graph DB), maintain the Syncrescendence repo. What's the best IDE for THIS profile?
+### Q6. Kimi K2.5 Reality + Optimal Role Post-Upgrade
 
-**Decision**: Whether the Cursor vs Antigravity binary is even the right frame.
+*Commander found*: Already deployed as Ajna's model. Free via NVIDIA NIM. 256K context, tool calling, SWE-bench 72-76%. The Sovereign is considering upgrading Ajna to Claude Sonnet 4.6, which frees Kimi K2.5 for redeployment.
 
----
+*What you must find*:
+- NVIDIA NIM reliability: uptime, latency, failure modes in real agent loops
+- Agentic performance: does tool calling hold up over 50+ sequential calls or degrade?
+- Credit permanence: developer program benefit (permanent) or promotional (burns down)?
+- Moonshot API vs NVIDIA NIM for production workloads
+- **Kimi K2.5's actual sweet spot**: what is it genuinely BETTER at than Claude Sonnet / GPT-4o? (Long-context analysis? Bulk processing? Specific task types?)
+- **Optimal redeployment**: If Ajna upgrades, should Kimi K2.5 become (a) fallback in OpenClaw chain, (b) dedicated OpenCode corpus processor, (c) batch worker, (d) something else?
+- Any model strictly better than Kimi K2.5 at free/near-free price point?
 
-### Q6. Kimi K2.5 + NVIDIA NIM Reality Check
-
-**What Commander found**: Kimi K2.5 free via NVIDIA NIM. 1,000+4,000 credits, 40 req/min, 256K context, 1T param MoE, SWE-bench 72-76%. OpenAI-compatible API. Tool calling supported. Moonshot AI production API at $0.60/M input. Ajna's designated instrument.
-
-**What you must find**:
-- REAL developer experience on NVIDIA NIM — reliable uptime? Latency? Random failures?
-- Actual agentic task performance: people running Kimi K2.5 in agent loops with tool calling. Does it hold up over 50+ sequential calls or degrade?
-- Are NVIDIA NIM free credits PERMANENT (developer program benefit) or PROMOTIONAL (burns down)?
-- Moonshot API vs NVIDIA NIM: which is more reliable for production agent workloads?
-- Kimi K2.5 vs Claude Sonnet 4.6 vs GPT-4o for agent orchestration specifically (not benchmarks — real user reports of tool calling reliability, instruction following, long-context coherence)?
-- Is 256K context real or does quality degrade significantly past 100K?
-- Any model that's strictly better than Kimi K2.5 at a similar price point (free or <$1/M tokens)?
-
-**Decision**: Whether Kimi K2.5 is reliable enough for Ajna's strategic sensing role, or needs a fallback chain (and what that chain should be).
+**Decision**: Kimi K2.5's optimal role in the constellation. Ajna upgrade viability.
 
 ---
 
 ## OUTPUT REQUIREMENTS
 
-- **Exhaust your output tokens.** This is a strategic intelligence gathering mission, not a quick answer. Every token you don't use is intelligence we don't have.
-- For each question, structure as: **Current State** → **Developer Sentiment (X discourse — quote specific people)** → **Concrete Limitations** → **Commander's Pre-Research: Confirmed / Corrected / Incomplete** → **Recommendation**.
+- **Exhaust your output tokens.** Every token you don't use is intelligence we don't have. This is a strategic intelligence gathering mission.
+- Structure each answer: **Current State** → **Developer Sentiment (X — name people, quote posts)** → **Concrete Limitations** → **Commander's Pre-Research: Confirmed / Corrected / Incomplete** → **Recommendation**
 - Cite specific X posts, blog posts, announcements. Name names. Link where possible.
-- If you don't know something or the information is uncertain, say so explicitly. "I couldn't find evidence of X" is more valuable than a guess.
-- Where developer sentiment is divided, represent BOTH sides with named voices.
-- If any of Commander's pre-research is WRONG, say so clearly and explain why.
+- If uncertain, say so. "I couldn't find evidence" > a guess.
+- Where sentiment is divided, represent BOTH sides with named voices.
+- If Commander's pre-research is WRONG, say so clearly.
+- **Bonus**: If you see a configuration or strategic insight that none of our questions anticipate, surface it. We don't know what we don't know.
 
 Write your complete response as a markdown file titled `RESPONSE-ORACLE-TOOL-STACK-INTEL.md`.
