@@ -3,8 +3,8 @@
 **Date**: 2026-03-01
 **Agent**: Commander (Claude Opus 4.6)
 **Session**: CC62
-**Git HEAD**: `e8802d12`
-**Trigger**: Manual (Sovereign directive — proceed to handoff after Oracle prompt staging)
+**Git HEAD**: `bb28f0dc`
+**Trigger**: Manual (Sovereign directive — tool stack strategy culmination + handoff)
 
 ---
 
@@ -74,15 +74,39 @@ Prompt crafted following seared Oracle formula:
 
 **Remaining topical misclassification**: Phase 1.5 only swept automatable patterns (file extensions, header patterns). ~40-60% of remaining misclassification is topical (e.g., AI news in design-taste, OpenClaw content in ai-memory-retrieval, geopolitics in meaning-civilization). This requires content reading and is a harder problem. Oracle's overlap nomination will partially surface this, but a dedicated reclassification pass may be needed.
 
-### WORKSTREAM B: Account Consolidation — RESOLVED
+### WORKSTREAM B: Account Consolidation + Tool Stack Strategy — DECIDED (CC62 continuation)
 
-**Decided by Sovereign (parallel session)**: $120/mo allocated — API credits $55, Cursor $20, VPS $5, domain $1.50, reserve $38.50. Setapp culled. Feedly rejected. Factory test doctrine established: subscriptions must build, be agent-drivable, no lock-in.
+**Full strategy brief**: `~/Desktop/CC62-TOOL-STACK-STRATEGY.md`
+**Memory**: `memory/account-consolidation.md` + `memory/tool-stack-architecture.md`
 
-### WORKSTREAM C: Tool-Stack Architecture (PARALLEL — NO CRUSH DEPENDENCY)
+**$120/mo allocation — Conservative Core + Investigative Reserve:**
 
-**Advancing in parallel Sovereign sessions.** Per `memory/tool-stack-architecture.md`: HighCommand as JIT GUI client, Acumen IIC pipeline, macOS automation triad, OpenClaw revival, voice AI.
+| Committed | $/mo | What |
+|-----------|------|------|
+| API credits (OpenRouter) | $40 | Programmatic dispatch, OpenClaw fuel, fine-tuning |
+| VPS (Hetzner CX22) | $5 | Miniflux + n8n + sovereign infrastructure |
+| syncrescendence.com | ~$1.50 | Ontology front door (FULL WEBSITE, not placeholder) |
+| **Subtotal committed** | **$46.50** | |
+| **Reserve (pending intel)** | **$73.50** | Cursor vs Antigravity, GCP credits, xAI data sharing |
 
-**Dependency analysis**: CRUSH and tool-stack are **independent parallel lanes sharing a substrate**. CRUSH refines the corpus; tool-stack builds operational infrastructure that consumes it. No blocking dependency in either direction. A cleaner corpus improves downstream retrieval quality for Acumen IIC and agent context, but this is a gradient benefit, not a gate. Both workstreams can advance simultaneously without coordination.
+**Key architectural decisions:**
+- **Ontology is a sovereign backend service** at syncrescendence.com, NOT a local app
+- **HighCommand is a JIT GUI client** consuming the ontology API, not the ontology itself
+- **syncrescendence.com is the primary universal interface** (web client + API)
+- **Google ecosystem is strategic** — Gemini Pro (student) unlocks: Gemini CLI (Cartographer instrument), NotebookLM Plus (new avatar), Antigravity (FREE agentic IDE — potential Cursor replacement, saves $20/mo), $10/mo GCP credits (potential ontology host), YouTube API (Feedcraft)
+- **Oracle (SuperGrok $30/mo) is the single biggest unlock** — thought leadership sensing via X. Grok 4.20 beta is LIVE (multi-agent, rapid learning). Full API expected March 2026 (this month). xAI data sharing program potentially provides $150/mo API credits (🔍 verify terms)
+- **Grok CLI** exists as community-built tool (superagent-ai/grok-cli). Monitor, don't commit yet.
+- **Factory test doctrine**: subscriptions must (1) build artifacts that compound, (2) be agent-drivable, (3) no vendor lock-in. Setapp CULLED. Feedly REJECTED.
+- **Expanded constellation**: Manus, NotebookLM, Cowork to be avatarized. Antigravity to evaluate.
+
+**Pending decisions (require Wave 1 agent intel):**
+- Antigravity vs Cursor ($20/mo at stake) → Oracle evaluates
+- GCP $10/mo credits capacity → Cartographer + Manus test
+- xAI data sharing acceptability → Oracle evaluates
+- Account 1 API credit balances → Sovereign checks dashboards
+- One-time purchases: BTT ~$24 + Hazel $32 (no urgency)
+
+**Dependency analysis**: CRUSH and tool-stack are **independent parallel lanes sharing a substrate**. CRUSH refines the corpus; tool-stack builds operational infrastructure that consumes it. No blocking dependency in either direction. HOWEVER, CRUSH Phase 1 should prioritize 5 tool-relevant corpus folders (`openclaw/`, `claude-code/`, `ai-models/`, `product-business/`, `multi-agent-systems/`) to mine latent tool stack intelligence.
 
 ---
 
@@ -107,9 +131,11 @@ Progressive corpus refinement: content-level judgment applied empirically, with 
 
 **The concept inventory is the authority document for Phase 2+.** `00-ORCHESTRATION/state/CRUSH-PHASE2-CONCEPT-INVENTORY.md` contains the complete 22-folder map. It supersedes any prior partial inventories.
 
-**Account consolidation resolved.** Sovereign decided in parallel session: API credits $55, Cursor $20, VPS $5, domain $1.50, reserve $38.50.
+**Tool stack strategy DECIDED.** Full brief at `~/Desktop/CC62-TOOL-STACK-STRATEGY.md`. Conservative core committed ($46.50/mo), reserve held ($73.50/mo) pending Oracle sensing on Antigravity, xAI data sharing, GCP credits. The Ontology is a backend service at syncrescendence.com. HighCommand is a JIT GUI client. Google ecosystem is strategic. Oracle is the biggest unlock — Grok 4.20 API drops this month.
 
-**Tool-stack architecture advancing in parallel.** No CRUSH dependency. HighCommand, Acumen IIC, OpenClaw revival, voice AI — all independent of corpus refinement. See `memory/tool-stack-architecture.md`.
+**Sovereign must execute today:** Register domain, revive OpenClaw, provision VPS, load OpenRouter, install Gemini CLI, cancel Setapp, check API balances + xAI data sharing enrollment. DO NOT subscribe Cursor yet (pending Antigravity evaluation).
+
+**Wave 1 agent dispatch ready:** Manus (VPS setup), Oracle (strategic intel — 5 investigative questions in strategy brief Section VI). Wave 2-4 sequenced in strategy brief Section VII.
 
 **`make configs` verified clean at handoff.**
 
@@ -121,6 +147,9 @@ Progressive corpus refinement: content-level judgment applied empirically, with 
 | `engine/PROMPT-ORACLE-CRUSH-PHASE2-OVERLAP-NOMINATION.md` | Oracle prompt for Phase 2 — awaiting Sovereign relay |
 | `~/Desktop/PROMPT-ORACLE-CRUSH-PHASE2-OVERLAP-NOMINATION.md` | Desktop copy for relay |
 | Memory: `crush-phase2-repetition.md` | Updated methodology + CC62 progress |
+| Memory: `tool-stack-architecture.md` | Ontology architecture, expanded constellation, Google ecosystem strategy |
+| Memory: `account-consolidation.md` | $120 allocation (conservative core + reserve), factory test doctrine |
+| `~/Desktop/CC62-TOOL-STACK-STRATEGY.md` | Full tool stack strategy brief — THE authority document |
 | `corpus/NUCLEOSYNTHESIS-MAP.md` | Classification authority (needs count update post-1.5) |
 
 ## Kaizen
