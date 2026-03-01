@@ -2,6 +2,7 @@
 
 **Updated**: 2026-03-01 (CC69a)
 **Corpus**: 22 semantic topic folders, 5,780 files (50.7% reduction from 11,733 originals)
+**Neocorpus**: 38 entries across 6 topic folders (6 COMPLETE)
 **Subcategory Indexes**: 5 largest folders indexed with cross-references
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
@@ -15,7 +16,7 @@
 | ai-capability-futures | 164 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
 | ai-memory-retrieval | 305 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
 | ai-models | 540 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
-| ai-safety | 83 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
+| ai-safety | 37 | Constitutional AI, RLHF, alignment, governance, existential risk (46 reclassified in CC69a) | — |
 | ai-video-vfx | 120 | AI image/video generation, VFX workflows, creative AI tooling | — |
 | claude-code | 324 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
 | design-taste | 190 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
@@ -109,6 +110,18 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `remote-organizational-design.md` | 00226 | Deel playbook: agency hiring, 30-day impact window, OKRs, practitioner-managers |
 
 **Totals**: 3 entries from 12 source files. 37 files reclassified (18 → MAS, 4 → productivity-pkm, 3 → ai-capability-futures, 3 → claude-code, 3 → ai-models, 2 → infrastructure, 1 → ai-safety). 75% misclassification rate — highest observed. leadership-management/ nucleosynthesis COMPLETE.
+
+### ai-safety/ (CC69a)
+
+| Entry | Sources Fused | Concept |
+|-------|--------------|---------|
+| `frontier-ai-risk-civilizational-stakes.md` | 10535, 03532, 10899, 10150, 10164, 10262, 00285, 01179, 02490, 03001, 03751, 02917, 02919, 03529, 03531, 10203 | Amodei five risk categories, AGI governance debate, pace/caution tensions, Hassabis natural guardrails, Zvi recursive self-improvement |
+| `existential-risk-ai-safety-fundamentals.md` | 01569, 01603, 01605, 01983, 08448, 09543, 02268 | Yampolskiy p(doom), Toby Ord existential risk, boxing superintelligence, AI safety community |
+| `ai-ethics-human-centering-justice.md` | 01240, 01297, 09860 | Fei-Fei Li human-centering, Kate Crawford political economy, privacy/digital rights |
+| `model-consciousness-alignment-verification.md` | 00172, 03670, 03672, 03679, 03681, 03966, 10775, 02238 | Opus 4.6 system card, Activation Oracles, interpretability, consciousness question |
+| `agentic-ai-safety-open-ended-systems.md` | 01077, 01953, 03643 | Clune Darwin Complete, agent network security, Tailscale Illusion, open-ended agent risks |
+
+**Totals**: 5 entries from 37 source files. 46 files reclassified (12 → MAS, 8 → ai-capability-futures, 5 → vibe-coding, 4 → philosophy-esoterica, 4 → infrastructure, 3 → ai-models, 2 → product-business, 2 → meaning-civilization, 2 → health-psychology, 2 → leadership-management, 1 → claude-code, 1 → geopolitics-grand-strategy, 1 → ai-biotech). 55% misclassification rate. ai-safety/ nucleosynthesis COMPLETE.
 
 ---
 
