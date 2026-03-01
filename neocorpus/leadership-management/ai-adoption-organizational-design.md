@@ -48,14 +48,7 @@ Companies with deep, structural AI integration are 3x more likely to achieve fin
 
 The AI training gap has a specific shape. Most organizations provide 101-level training: here's the tool, here's how to prompt it, here are some use cases. Very few provide 201-level training — the judgment layer that makes AI tools reliable.
 
-Six 201-level skills identified from the source material:
-
-1. **Frontier awareness**: Knowing where the AI's capability drops off unpredictably, task by task
-2. **Output verification**: Systematic methods for checking AI-generated work before relying on it
-3. **Context judgment**: Knowing when a task benefits from AI assistance and when it doesn't
-4. **Delegation calibration**: Matching the right level of AI autonomy to the right task (see Centaur vs. Cyborg below)
-5. **Failure mode recognition**: Identifying the specific ways AI outputs go wrong in your domain
-6. **Integration design**: Embedding AI into existing workflows rather than bolting it on top
+Source 10276 identifies six 201-level skills as the critical gap ("The Six 201 Skills That Actually Matter"), and source 03040 frames the same need as closing the "201 training gap." The sources establish that these skills exist and that they are management-grade judgment skills — not prompting skills — but the specific enumeration is not detailed in the available corpus. What is clear from the broader source set: these skills cluster around knowing the AI's capability frontier, verifying output, and calibrating when and how to delegate to AI.
 
 The apprentice model — learning by watching a senior practitioner — is collapsing. AI tools short-circuit the apprenticeship by giving junior workers senior-seeming output without the judgment that normally takes years to develop.
 
@@ -63,13 +56,9 @@ The apprentice model — learning by watching a senior practitioner — is colla
 
 ## 4. Two Work Patterns: Centaur vs. Cyborg
 
-BCG and Harvard research identified two distinct patterns for human-AI collaboration:
+BCG and Harvard research identified two distinct work patterns for AI integration: **Centaur** and **Cyborg**. Source 10276 frames the key question as "What separates Centaur and Cyborg work patterns for different contexts," and source 03040 establishes that the two patterns exist and are suitable for different contexts.
 
-**Centaur**: Clean division of labor. The human handles certain tasks entirely; the AI handles others entirely. No interleaving. The human decides which tasks go to which actor based on the jagged frontier — giving AI the tasks inside its frontier and keeping tasks outside it. This requires strong frontier awareness.
-
-**Cyborg**: Deep interleaving. The human and AI work on the same task simultaneously, with the human continuously steering, editing, and verifying AI output in real time. No clean division — the collaboration is granular and ongoing.
-
-Different contexts demand different patterns. Centaur works when tasks can be cleanly separated. Cyborg works when the task requires continuous human judgment throughout. Organizations that train workers in only one pattern underperform those that teach both and help workers choose appropriately.
+The sources establish that the distinction between the two patterns matters for organizational AI adoption — workers need to learn both and choose appropriately. The detailed procedural mechanics of each pattern are not elaborated in the available corpus beyond establishing that they represent two distinct approaches to human-AI collaboration suited to different task contexts.
 
 ---
 
@@ -115,7 +104,7 @@ The exemplar case: David Budden publicly claimed to have solved aspects of the N
 Predictions from the source:
 - Businesses will begin testing executives for undue AI influence — the equivalent of testing whether someone is making decisions based on their expertise or on AI outputs they can't independently verify
 - The ability to distinguish one's own expertise from AI-generated insight becomes a critical leadership competency
-- Mitigation tactics include adversarial prompting (deliberately challenging AI outputs), peer review (human verification by domain experts), and explicit limits on AI's role in high-stakes decisions
+- Mitigation tactics from the source: adversarial prompting (asking the LLM to challenge its own outputs), avoiding overstating one's domain expertise when using AI, and submitting AI-assisted work to peer review by domain experts
 
 This is the individual-level version of the organizational problem: AI adoption without judgment infrastructure doesn't just fail — it actively degrades decision quality.
 

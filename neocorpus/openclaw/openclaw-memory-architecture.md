@@ -152,47 +152,42 @@ This keeps messages from the last 6 hours and always preserves the 3 most recent
 
 ### Fix 3: Hybrid Search Configuration
 
-Enabling the sqlite-vec + FTS5 hybrid search requires telling OpenClaw where to store the index and how to weight the fusion:
+Enabling the sqlite-vec + FTS5 hybrid search is done through the `memorySearch` config block:
 
 ```json
 {
-  "memory": {
-    "hybridSearch": {
-      "enabled": true,
-      "vectorStore": "sqlite-vec",
-      "ftsEngine": "fts5",
-      "fusionWeights": {
-        "vector": 0.7,
-        "bm25": 0.3
-      },
-      "chunkSize": 512,
-      "chunkOverlap": 64,
-      "embeddingModel": "text-embedding-3-small"
+  "memorySearch": {
+    "enabled": true,
+    "sources": ["memory", "sessions"],
+    "query": {
+      "hybrid": {
+        "enabled": true,
+        "vectorWeight": 0.7,
+        "textWeight": 0.3
+      }
     }
   }
 }
 ```
 
-Chunk size and overlap deserve attention. Chunks that are too large lose retrieval precision (the relevant sentence is buried in a large chunk that also contains irrelevant content). Chunks that are too small lose context (the retrieved snippet doesn't contain enough surrounding information to be useful). 512 tokens with 64-token overlap is a reasonable default for mixed conversational and technical content.
+The 70/30 weighting favors vector similarity as the primary retrieval signal, with BM25 keyword matching as a secondary tiebreaker. BM25 catches exact matches (error codes, project names) that vector search misses. If you're not running hybrid search, you're leaving accuracy on the table.
 
 ### Fix 4: Session Indexing
 
-By default, daily logs are written but not indexed into the vector store. Session indexing changes this: at the end of each session, the session's log is chunked and embedded into the sqlite-vec store, making the full session history searchable via `memory_search`.
+By default, daily logs are written but not indexed into the vector store. Session indexing changes this: past conversations are chunked and embedded alongside memory files, making the full session history searchable via `memory_search`.
 
 ```json
 {
-  "memory": {
-    "sessionIndexing": {
-      "enabled": true,
-      "indexOnSessionEnd": true,
-      "includeToolCalls": false,
-      "includeAgentReasoning": true
-    }
+  "memorySearch": {
+    "sources": ["memory", "sessions"]
+  },
+  "experimental": {
+    "sessionMemory": true
   }
 }
 ```
 
-`includeToolCalls: false` is the recommended default — raw tool call/response pairs are voluminous and rarely what you want to retrieve semantically. The agent's reasoning about what to do and what it concluded is the valuable signal.
+With session indexing enabled, questions like "What did we decide about the content template last Tuesday?" become answerable. The `sessions` source in `memorySearch` tells the retrieval pipeline to include indexed session transcripts alongside the dedicated memory files.
 
 ---
 
@@ -278,29 +273,30 @@ The tiered retrieval pattern: load `summary.md` first for quick context; drill i
 
 ### Supersession Model (Not Deletion)
 
-When a fact changes, the old fact is not deleted. It is marked historical:
+When a fact changes, the old fact is not deleted. It is marked `superseded` in `items.json` with a pointer to the new fact:
 
-```markdown
----
-status: historical
-superseded_by: library-y-deprecated-v3.2.md
-superseded_date: 2025-11-14
----
-Library Y is actively maintained and compatible with Project X.
+```json
+{
+  "id": "sarah-003",
+  "fact": "Difficult manager, micromanages",
+  "timestamp": "2025-06-15",
+  "status": "superseded",
+  "supersededBy": "sarah-007"
+}
 ```
 
-The new fact file is created fresh:
+The new fact is added to the same `items.json` array:
 
-```markdown
----
-status: current
-supersedes: library-y-supported.md
-date: 2025-11-14
----
-Library Y was deprecated in version 3.2. Migration path is Library Z.
+```json
+{
+  "id": "sarah-007",
+  "fact": "Left company. New manager is supportive.",
+  "timestamp": "2025-12-01",
+  "status": "active"
+}
 ```
 
-This model preserves the history of how understanding evolved. Retrieval queries can filter by `status: current` to get present truth, or can traverse historical facts to understand the reasoning path. Nothing is destroyed; the record accumulates.
+This model preserves the history of how understanding evolved. Retrieval queries can filter by `status: active` to get present truth, or can traverse superseded facts via `supersededBy` pointers to understand the reasoning path. Nothing is destroyed; the record accumulates.
 
 ### Weekly Synthesis Cron
 
@@ -367,36 +363,11 @@ The solution is shared reference files — read-only (or carefully write-control
     architecture.md
 ```
 
-Agents are configured to include shared reference paths in their context initialization:
-
-```json
-{
-  "memory": {
-    "sharedReferencePaths": [
-      "/shared/reference/project-decisions.md",
-      "/shared/reference/architecture.md"
-    ]
-  }
-}
-```
+Agents are configured to include shared reference paths in their context. The source describes this as adding shared directories to the agent's config so that reference files are loaded alongside private memory.
 
 ### QMD Shared Paths
 
-When shared reference content is large enough that loading it wholesale into context is too expensive, QMD shared paths provide an alternative: a shared vector index covering the shared reference files, queried via `memory_search` with per-agent filtering.
-
-```json
-{
-  "memory": {
-    "qmd": {
-      "sharedIndexPath": "/shared/qmd_index",
-      "agentFilter": "agent-a",
-      "allowSharedRead": true
-    }
-  }
-}
-```
-
-The per-agent filter ensures that private memories written to the shared index path (if agents are permitted to write) are retrievable only by the originating agent, while shared reference content is retrievable by all.
+When shared reference content is large enough that loading it wholesale into context is too expensive, QMD shared paths provide an alternative: a shared vector index covering the shared reference files, queried via `memory_search` with per-agent filtering. The QMD config includes the shared directory, and per-agent filtering ensures that private memories are retrievable only by the originating agent while shared reference content is retrievable by all.
 
 ### Coordination Patterns
 

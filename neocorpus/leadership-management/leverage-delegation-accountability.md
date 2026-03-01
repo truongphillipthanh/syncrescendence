@@ -30,17 +30,9 @@ Many founders fail to master delegation not because they lack ambition, but beca
 
 ## 2. Levels of Delegation
 
-Delegation exists on a spectrum, not as a binary:
+Source 01801 frames delegation as a spectrum: "Delegation can be categorized into levels, ranging from simple tasks to algorithmic processes." The spectrum runs from basic task delegation (scheduling, data entry) through process delegation (documented workflows with defined steps) up to algorithmic delegation where the delegatee makes judgment calls within a defined framework.
 
-**Level 1: Task delegation.** "Do this specific thing." Scheduling, data entry, research lookup. Low trust required. High volume. The starting point for anyone building leverage.
-
-**Level 2: Process delegation.** "Follow this procedure." The delegatee executes a documented workflow with defined steps, inputs, and outputs. Requires understanding the process, not just the task. The "skills" model from source 00200 operates at this level.
-
-**Level 3: Outcome delegation.** "Achieve this result." The delegatee owns the method and the execution. You specify the destination, not the route. Requires high trust and competence. This is where human assistants and AI agents diverge — AI excels at Level 2 but struggles with Level 3's ambiguity.
-
-**Level 4: Algorithmic delegation.** "Here is the decision framework; apply it." The delegatee makes judgment calls within a defined framework. Closest to autonomous operation. Swanson describes this as designing your life around the few activities that truly require you, delegating everything else through frameworks that encode your judgment.
-
-The transition from Level 1 to Level 4 is not automatic. Each level requires progressively more documentation, trust-building, and willingness to accept imperfect execution. Most people stall at Level 1 because they cannot tolerate the quality gap during the transition.
+Swanson's insight is that founders should design their time around the few activities that matter most, delegating everything else — and that this delegation skill must be deliberately practiced. Most founders fail to master it not because they lack ambition, but because they cannot tolerate the quality gap during the transition from doing everything themselves to trusting others with increasing scope.
 
 ---
 
@@ -49,11 +41,11 @@ The transition from Level 1 to Level 4 is not automatic. Each level requires pro
 Source 00200 demonstrates the practical mechanism: converting recurring tasks into documented, AI-executable "skills" — reusable playbooks that run autonomously.
 
 Five demonstrated workflows:
-1. **X article creation** — given a topic, research → draft → format → schedule
-2. **YouTube promotion** — given a video, extract clips → write posts → distribute
-3. **Podcast research** — given an upcoming guest, compile background → generate questions
-4. **LinkedIn outreach** — given target criteria, identify prospects → personalize messages → send
-5. **Invoice management** — given incoming invoices, categorize → verify → process
+1. **X article creation** — research trending topics, create outline, write in the author's voice, generate headline options + thumbnail
+2. **YouTube video promotion** — pull key points from video, draft posts for LinkedIn, X, Instagram, and email newsletter
+3. **Podcast guest research** — pull email thread, research the guest's channel, find positioning, create prep brief with talking points
+4. **LinkedIn connection notes** — research profile, find shared context, draft personalized note using a proven template
+5. **Stripe invoices** — pull client info, draft invoice with correct line items, send for approval
 
 The compound effect: each skill documented is time reclaimed permanently. The source claims 20+ hours per week reclaimed through five skills. The math works because the documentation happens once but the execution repeats indefinitely.
 
@@ -90,17 +82,19 @@ This connects to Swanson's framework: assistants (human or AI) can serve as acco
 
 ---
 
-## 6. The Human-AI Delegation Partnership
+## 6. Broader Leverage Frameworks
 
-The sources collectively point to an emerging hybrid: neither pure human delegation nor pure AI delegation, but a partnership.
+Swanson's leverage philosophy extends beyond delegation. Source 01801 identifies frameworks for managing time, energy, and meetings — the three resources that founders most commonly waste. There is a distinction between the "efficient path" (doing things faster) and the "effect path" (doing the right things). Delegation is the primary lever, but only when combined with clarity about which activities actually matter.
 
-**What humans do better**: Outcome delegation (Level 3), judgment under ambiguity, relationship management, context that can't be documented, creative direction, accountability conversations that require emotional intelligence.
+Two forward-looking claims from source 01801:
+- **Machine-generated delegation**: The future of work will involve the rise of machine-generated delegation — AI systems that don't just execute delegated tasks but generate and assign them.
+- **Expanding chief of staff role**: The role of chiefs of staff is expanding, becoming the human node that coordinates between the founder's judgment and the delegation infrastructure (human and AI) that executes it.
 
-**What AI does better**: Process delegation (Level 2), infinite patience for repetitive execution, consistent application of documented frameworks, parallel execution of multiple workflows, 24/7 availability.
+---
 
-**The partnership model**: The human designs the systems, defines the frameworks, sets the goals, and handles the judgment calls. The AI executes the processes, maintains the knowledge library, runs the accountability checks, and handles the volume. The human provides direction; the AI provides throughput.
+## 7. The Human-AI Delegation Partnership
 
-Swanson's Athena vision and the marketing supercomputer model both point here: the future of leverage is not choosing between human and AI assistants, but combining them — human assistants for high-judgment delegation, AI assistants for high-volume process execution, and the founder freed to focus on the few activities where their personal judgment is irreplaceable.
+The sources collectively point to an emerging hybrid: neither pure human delegation nor pure AI delegation, but a partnership. Source 01801 predicts that the combination of human and AI assistants is poised to redefine personal productivity. Athena's vision and the marketing supercomputer model both point here: the future of leverage is not choosing between human and AI assistants, but combining them — human assistants for high-judgment work, AI assistants for documented process execution, and the founder freed to focus on the few activities where their personal judgment is irreplaceable.
 
 ---
 
