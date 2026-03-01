@@ -1,6 +1,6 @@
 # Subcategory Index — openclaw
 
-Total files: ~259 (71 reclassified to multi-agent-systems/ in CC65, ~30 deleted in prior passes)
+Total files: ~256 (74 reclassified to multi-agent-systems/ + philosophy-esoterica/ in CC65-66, ~30 deleted in prior passes)
 
 ## Installation & Configuration
 Setup guides, plist config, deployment procedures, initial hardening.
@@ -15,7 +15,7 @@ Files: 00051, 00057, 00122, 00179, 00246, 08837, 10865, 10883, 10904, 10927, 109
 ## Phone & Multi-Device Fleets
 SMS dispatch, fleet synchronization, marketplace, cross-device agent routing.
 
-Files: 00095, 00111, 00167, 00197, 00274, 00695, 10802, 10833, 10836, 10858, 10900, 10907
+Files: 00095, 00111, 00167, 00197, 00274, 10802, 10833, 10836, 10858, 10900, 10907 (00695 reclassified → multi-agent-systems/ CC66)
 
 ## Security & Cost Optimization
 Permission scoping, sandboxing, inference throttling, cost management.
@@ -27,7 +27,7 @@ Originally 102 files. Recon revealed ~95% were Syncrescendence internal ops arti
 71 files reclassified → multi-agent-systems/. ~30 were already deleted in prior passes.
 3 files remain in openclaw/ (genuinely about OpenClaw): 10242 (Agent Skills spec), 10955 (Mission Control), 08104 (model profiles).
 
-Remaining files: 10242, 10955, 08104
+Remaining files: 10242, 10955 (08104 reclassified → multi-agent-systems/ in CC66)
 
 ## Ecosystem & Comparative Analysis
 Deep research articles, MiniMax setups, competitive analysis, community discourse.

@@ -25,7 +25,7 @@
 | leadership-management | 50 | Executive decision-making, org design, management frameworks | — |
 | meaning-civilization | 211 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
 | multi-agent-systems | 2117 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
-| openclaw | ~222 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets (71 reclassified to MAS in CC65) | **5** (Operational Tooling dissolved) |
+| openclaw | ~219 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets, ecosystem (74 reclassified to MAS/PE in CC65-66) | **5** (Operational Tooling dissolved) |
 | philosophy-esoterica | 235 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
 | product-business | 255 | Business models, PMF, SaaS, AI product strategy, distribution | — |
 | productivity-pkm | 191 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
@@ -59,9 +59,14 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `openclaw-security-hardening.md` | 00050, 00055, 00080, 00092, 00198 | Security & Cost |
 | `openclaw-cost-optimization.md` | 00203, 00264, 10890, 10967, 00290 | Security & Cost |
 | `openclaw-threat-model-attack-surface.md` | 00044, 00045, 00059 | Security & Cost |
+| `openclaw-community-adoption-hype-reality.md` | 00042, 00043, 00046, 00053, 00281, 10351, 10988, 10990, 11053, 04215, 04329 | Ecosystem & Comparative |
+| `openclaw-competitive-landscape.md` | 10946, 10983, 10771, 10961, 10638, 04260, 04332, 00098, 00071, 03762 | Ecosystem & Comparative |
+| `openclaw-emergent-agent-behavior.md` | 10436, 10521, 10531, 03357, 03468, 00195 | Ecosystem & Comparative |
+| `openclaw-skills-platform-economics.md` | 08327, 08328, 10972, 10963, 10269, 10242, 03903, 10859 | Ecosystem & Comparative |
+| `openclaw-use-case-patterns.md` | 00056, 00064, 00081, 00251, 10748, 10783, 10877, 10919, 10950, 10401, 10861, 10934, 04050 | Ecosystem & Comparative |
+| `openclaw-architecture-deep-research.md` | 08435, 08436, 08810, 00259, 03846, 03825, 03735, 00069, 00128, 03417 | Ecosystem & Comparative |
 
-**Totals**: 13 entries from 46 source files across 4 of 6 openclaw subcategories.
-**Remaining**: Operational Tooling (102 files), Ecosystem & Comparative (136 files).
+**Totals**: 19 entries from ~116 source files across all 6 openclaw subcategories (Operational Tooling dissolved — 71 files reclassified to MAS in CC65). openclaw/ nucleosynthesis COMPLETE.
 
 ---
 
