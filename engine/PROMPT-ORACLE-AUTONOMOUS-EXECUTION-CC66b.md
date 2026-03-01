@@ -16,9 +16,16 @@ In CC65 you told us 4/6 Sovereign actions were automatable via Playwright MCP + 
 - Commander → Ajna dispatch works (`openclaw agent --agent main --message`)
 - Tool stack LOCKED per `engine/CC65-TOOL-STACK-FINAL.md`
 
-**What we discovered during the rebuild:**
-- Channel tokens (Slack bot, Discord bot) from the previous install are ALL stale — `invalid_auth` and `Failed to resolve Discord application id`
-- OpenClaw `setup-token` auth requires interactive browser OAuth — no headless path
+**What we discovered SINCE the rebuild (new intelligence):**
+- **Peekaboo 3.0** is installed — full macOS UI automation (click, type, scroll, capture, menus, dialogs, ANY app). This is potentially MORE powerful than Playwright for our use case because it controls the actual macOS desktop, not just a browser tab. Has `--profile human` for anti-bot organic mouse motion. Needs Screen Recording + Accessibility permissions (one-time).
+- **Slack bot token is ACTUALLY VALID** (`auth.test` returns ok=true, team=Syncrescendence, user=ajna). The socket mode app token is stale but bot API access works.
+- Discord bot token is genuinely stale (401 Unauthorized from `/users/@me`).
+- `gcloud` CLI is installed (v542) but has NO auth — needs one-time browser OAuth
+- `wrangler` CLI installed (v4.69) — needs one-time auth
+- `gh` CLI fully authenticated and operational
+- `clawhub` CLI installed globally
+- OpenClaw has 36/51 bundled skills ready including `peekaboo`, `slack`, `discord`, `github`, `coding-agent`, `tmux`, `gog` (Google Workspace), `gemini`
+- ClawHub browser skills (`agent-browser`, `browser-automation`) flagged suspicious by VirusTotal — not safe to install
 - Docker sandbox requires Docker Desktop (not installed on MBA) — sandbox mode is OFF
 - The workspace must NOT be the repo root (repo's AGENTS.md at 22K gets loaded as agent instructions)
 
@@ -34,30 +41,33 @@ In CC65 you told us 4/6 Sovereign actions were automatable via Playwright MCP + 
 
 ## What We Need You To Sense
 
-**Q1 — The Playwright MCP bridge: what's actually working in production?**
+**Q1 — Peekaboo vs Playwright vs Computer Use: what's the production winner?**
 
-Commander has `@playwright/mcp` installed in Claude Code. In theory this gives browser automation. In practice:
-- Are solo builders ACTUALLY using Playwright MCP from Claude Code to manage subscriptions, claim credits, regenerate API keys?
-- What are the specific failure modes? (2FA gates, CAPTCHA, session cookies, rate limiting on automated logins)
-- Is there a better MCP server or skill for browser automation than Playwright? (Computer use agents, OpenClaw browser skills, Cowork)
-- What's the authentication pattern — does the agent log in from scratch each time, or is there a persistent browser profile/cookie jar approach?
+We now have THREE browser automation options:
+1. **Peekaboo 3.0** (macOS UI automation) — controls the actual desktop, any app, menus, dialogs. Has `--profile human` anti-bot. OpenClaw bundled skill + CLI.
+2. **Playwright MCP** (browser automation) — Chromium-level DOM interaction from Claude Code.
+3. **Claude Computer Use / Cowork** — Anthropic's native approach.
 
-Quote real practitioner experiences. "Works great" is useless; I need "I use Playwright MCP to renew my API keys on console.anthropic.com every month — here's the flow: ..."
+Which are solo builders ACTUALLY using for: managing subscriptions, regenerating API keys, claiming credits, navigating dashboards? Is Peekaboo the winner for macOS-native deployments? What are the failure modes of each? (2FA gates, CAPTCHA, session cookies, rate limiting)
+
+What's the authentication pattern — does the agent log in from scratch each time, or is there a persistent browser profile/cookie jar approach? Peekaboo works at the OS level so it inherits the user's existing browser sessions — is this the practical advantage?
+
+Quote real practitioner experiences. "Works great" is useless; I need "I use Peekaboo to regenerate my Slack tokens monthly — here's the flow: ..."
 
 **Q2 — Service-specific automation paths (March 2026 reality)**
 
 For each of our 8 browser-gap items, what is the ACTUAL autonomous path as of March 2026?
 
-| # | Action | What We Know | What We Need |
-|---|--------|-------------|-------------|
-| 1 | Cancel Perplexity Pro | No known API | Is there a CLI, API, or Playwright-drivable cancellation flow? |
-| 2 | xAI data sharing enrollment | Dashboard-only (CC65) | Has this changed? Any API? Any community automation? |
-| 3 | syncrescendence.com registration | Cloudflare API for DNS, not registration | Has Cloudflare Registrar API launched? Any registrar with full API? |
-| 4 | GCP credits claim | Console-only (CC65) | `gcloud` CLI path? Any community automation? |
-| 5 | Slack bot token regeneration | api.slack.com dashboard | Slack API has programmatic token rotation — what's the exact endpoint? |
-| 6 | Discord bot token regeneration | Discord developer portal | Discord API for bot token reset — does it exist? |
-| 7 | Manus API auth | sk- key rejected | What is the correct auth format? JWT? Bearer token? Has the API documentation been published? |
-| 8 | OpenClaw OAuth refresh | Browser required | Any headless OAuth flow? `openclaw models auth` non-interactive path? |
+| # | Action | What We Now Know | What We Still Need |
+|---|--------|-----------------|-------------------|
+| 1 | Cancel Perplexity Pro | No known API | Peekaboo-drivable flow? What's the click path? |
+| 2 | xAI data sharing enrollment | Dashboard-only | Peekaboo-drivable? What's the click path on console.x.ai? |
+| 3 | syncrescendence.com registration | Cloudflare Wrangler v4.69 installed — DNS yes, registration unclear | Has Cloudflare Registrar API launched in 2026? `wrangler` domain registration? |
+| 4 | GCP credits claim | `gcloud` v542 installed, NO auth | After `gcloud auth login`, can credits be claimed via CLI? Or Peekaboo on console? |
+| 5 | Slack app token regen | **Bot token VALID** (ajna@Syncrescendence). App token stale (socket mode). | Slack `apps.connections.open` needs fresh app-level token — can this be rotated via Slack API? Or dashboard-only? |
+| 6 | Discord bot token regen | Token is 401 Unauthorized | Discord API for bot token reset — does it exist? Or developer portal only (Peekaboo)? |
+| 7 | Manus API auth | sk- key rejected as "malformed token" | Correct auth format? JWT? Has docs.manus.im published the API spec? |
+| 8 | OpenClaw token refresh | `openclaw onboard --auth-choice token --token KEY --token-provider anthropic` WORKS non-interactively | SOLVED — no browser needed if Sovereign provides the setup-token string |
 
 For EACH: (a) fully autonomous CLI/API path if it exists, (b) Playwright-drivable path if no API, (c) irreducible Sovereign gate if neither works.
 
@@ -96,9 +106,12 @@ Name specific ClawHub skills. "Install agent-dispatch" is useful; "install usefu
 ## Constraints
 
 - One Claude Max subscription (Commander) + OpenClaw on Anthropic token (Ajna = Sonnet)
-- No Docker Desktop on MBA currently
+- Peekaboo 3.0 installed but NEEDS Screen Recording + Accessibility permissions
+- Playwright MCP connected but untested in production
+- gcloud + wrangler installed but not yet authenticated
+- Slack bot token VALID; app token and Discord token STALE
+- No Docker Desktop on MBA
 - Mac mini ANESTHETIZED — MBA only
-- Playwright MCP installed in Claude Code but untested
 - Tool stack LOCKED — no new subscriptions until April retool
 - Factory test: must build artifacts, be agent-drivable, no vendor lock-in
 
