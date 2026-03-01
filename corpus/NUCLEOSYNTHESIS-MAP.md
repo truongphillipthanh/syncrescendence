@@ -1,7 +1,7 @@
 # NUCLEOSYNTHESIS MAP — Corpus Classification Authority
 
-**Updated**: 2026-03-01 (CC68)
-**Corpus**: 22 semantic topic folders, ~5,784 files (50.7% reduction from 11,733 originals)
+**Updated**: 2026-03-01 (CC69a)
+**Corpus**: 22 semantic topic folders, 5,780 files (50.7% reduction from 11,733 originals)
 **Subcategory Indexes**: 5 largest folders indexed with cross-references
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
@@ -11,30 +11,30 @@
 
 | Folder | Files | Description | Subcategories |
 |--------|------:|-------------|:---:|
-| ai-biotech | 8 | Biotechnology, BCI, AI in life sciences (2 reclassified in CC67) | — |
-| ai-capability-futures | 173 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
-| ai-memory-retrieval | 351 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
-| ai-models | 544 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
-| ai-safety | 89 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
-| ai-video-vfx | 123 | AI image/video generation, VFX workflows, creative AI tooling | — |
-| claude-code | 323 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
-| design-taste | 193 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
-| geopolitics-grand-strategy | 152 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
-| health-psychology | 176 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
-| infrastructure | 96 | DevOps, cloud, servers, networking, compute economics | — |
+| ai-biotech | 8 | Biotechnology, BCI, AI in life sciences | — |
+| ai-capability-futures | 164 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
+| ai-memory-retrieval | 305 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
+| ai-models | 540 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
+| ai-safety | 83 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
+| ai-video-vfx | 120 | AI image/video generation, VFX workflows, creative AI tooling | — |
+| claude-code | 324 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
+| design-taste | 190 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
+| geopolitics-grand-strategy | 135 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
+| health-psychology | 138 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
+| infrastructure | 75 | DevOps, cloud, servers, networking, compute economics | — |
 | leadership-management | 12 | Executive decision-making, org design, management frameworks, AI adoption (37 reclassified in CC68) | — |
-| meaning-civilization | 211 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
-| multi-agent-systems | 2117 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
-| openclaw | ~219 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets, ecosystem (74 reclassified to MAS/PE in CC65-66) | **5** (Operational Tooling dissolved) |
-| philosophy-esoterica | 235 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
-| product-business | 255 | Business models, PMF, SaaS, AI product strategy, distribution | — |
-| productivity-pkm | 191 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
+| meaning-civilization | 209 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
+| multi-agent-systems | 2169 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
+| openclaw | 213 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets, ecosystem (74 reclassified to MAS/PE in CC65-66) | **5** (Operational Tooling dissolved) |
+| philosophy-esoterica | 224 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
+| product-business | 252 | Business models, PMF, SaaS, AI product strategy, distribution | — |
+| productivity-pkm | 183 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
 | prompt-engineering | 19 | Prompt design, templates, optimization, few-shot patterns (24 reclassified in CC67) | — |
-| startup-vc | 46 | Founders, fundraising, startup culture, VC dynamics (30 reclassified in CC67, 2 uncounted at census) | — |
-| vibe-coding | 220 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
-| writing-creation | 221 | Writing craft, rhetoric, content creation, voice/TTS | — |
+| startup-vc | 46 | Founders, fundraising, startup culture, VC dynamics (30 reclassified in CC67) | — |
+| vibe-coding | 151 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines | — |
+| writing-creation | 220 | Writing craft, rhetoric, content creation, voice/TTS | — |
 
-**Total**: 5,784 files across 22 folders (0 uncategorized). 50.7% reduction from 11,733 originals. 5 folders subcategorized with cross-references. CC59: Operational Artifact Routing amendment. CC60: CRUSH — 141 flat-atom pipeline duplicates deleted, 3 pipeline artifacts evicted, 11 misrouted Graphiti files corrected.
+**Total**: 5,780 files across 22 folders (0 uncategorized). 50.7% reduction from 11,733 originals. 5 folders subcategorized with cross-references. CC69a: census corrected to ground truth — prior counts were stale from CC57 repetition removal + CC60-62 reclassifications never reflected in census. Major corrections: ai-memory-retrieval 351→305, health-psychology 176→138, vibe-coding 220→151, geopolitics 152→135, infrastructure 96→75, philosophy-esoterica 235→224.
 
 ---
 
