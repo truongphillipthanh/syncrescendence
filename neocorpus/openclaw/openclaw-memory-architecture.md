@@ -43,6 +43,10 @@ Out of the box, OpenClaw operates a two-layer memory architecture:
 
 Together, these two layers give you: fine-grained history (logs) and a living summary (MEMORY.md). They are complementary and neither substitutes for the other.
 
+### Surviving Reboots
+
+For deployments where agent uptime matters, source 10904 describes an S3 sync pattern: the `memory/` directory is synced to S3 every 5 minutes. On restart, files restore and the vector index rebuilds automatically. This is the production resilience layer — without it, a host restart loses all memory state that hasn't been backed up externally.
+
 ### The Always-On Tier
 
 SOUL.md and MEMORY.md operate as the always-on tier — loaded into every session's context without any retrieval step. This is their power and their constraint. They are immediately available but must be kept tight. As MEMORY.md grows, it consumes more context window on every session whether or not that information is relevant to the current task.
@@ -109,21 +113,22 @@ Signs: Long sessions where the agent "drifts" or loses track of specifics establ
 
 ### Fix 1: memoryFlush
 
-`memoryFlush` is a configuration directive that instructs OpenClaw to write accumulated memory to persistent storage before compaction fires, rather than after or never.
-
-The mechanism: when the context window reaches a configured threshold (e.g., 80% of the limit), memoryFlush triggers a write pass that commits the current MEMORY.md state and any pending log entries to disk. This ensures that even if compaction subsequently destroys in-context detail, the important state has already been flushed.
+`memoryFlush` is a compaction-level directive that triggers a silent turn before compaction, prompting the agent to write durable memories to disk. This ensures that even if compaction subsequently destroys in-context detail, the important state has already been flushed.
 
 ```json
 {
-  "memory": {
+  "compaction": {
     "memoryFlush": {
       "enabled": true,
-      "threshold": 0.8,
-      "targets": ["MEMORY.md", "daily_log"]
+      "softThresholdTokens": 40000,
+      "prompt": "Distill this session to memory/YYYY-MM-DD.md. Focus on decisions, state changes, lessons, blockers. If nothing: NO_FLUSH",
+      "systemPrompt": "Extract only what is worth remembering. No fluff."
     }
   }
 }
 ```
+
+The key insight: customize the `prompt` to tell the agent exactly what to capture — decisions, state changes, lessons, blockers. The default prompt is generic. Raising `softThresholdTokens` to 40000 triggers flushes earlier, before the good stuff gets compacted.
 
 This is the single highest-leverage configuration change for preventing Failure Mode 3. Deploy it first.
 
@@ -131,21 +136,19 @@ This is the single highest-leverage configuration change for preventing Failure 
 
 Left unchecked, MEMORY.md grows monotonically. Every session adds entries; nothing is removed. Eventually the file is large enough that loading it whole consumes a significant fraction of the context window, crowding out working memory.
 
-Context pruning TTL sets an expiration policy: memory entries older than N days are moved out of the always-on MEMORY.md and into the daily logs (where they remain searchable via hybrid retrieval but don't consume context on every session).
+Context pruning controls how old messages are removed before full compaction. TTL mode is the simplest fix:
 
 ```json
 {
-  "memory": {
-    "contextPruning": {
-      "enabled": true,
-      "ttlDays": 30,
-      "archiveTarget": "daily_log"
-    }
+  "contextPruning": {
+    "mode": "cache-ttl",
+    "ttl": "6h",
+    "keepLastAssistants": 3
   }
 }
 ```
 
-The correct TTL depends on project cadence. For fast-moving projects, 7-14 days keeps MEMORY.md lean. For slow-moving research projects, 60-90 days may be appropriate. The key insight: information that was written to MEMORY.md 45 days ago is not gone when pruned — it moves to the searchable archive, available on demand.
+This keeps messages from the last 6 hours and always preserves the 3 most recent assistant responses. This eliminates the situation where recent messages are lost following a context flush. The TTL and `keepLastAssistants` values can be tuned per use case — shorter TTLs for fast-moving sessions, longer for research work. Context pruning also reduces token costs by keeping the active window lean.
 
 ### Fix 3: Hybrid Search Configuration
 
@@ -251,12 +254,27 @@ MEMORY.md continues as the always-on distilled summary, but its role narrows: it
 
 ### Layer 3: Knowledge Graph — /life/areas/
 
-A directory structure (canonically at `/life/areas/` in the reference implementation) where each domain of knowledge has its own directory containing:
+A directory structure (canonically at `/life/areas/` in the reference implementation) where each domain of knowledge has its own entity folder:
 
-- **Atomic fact files**: One fact per file. Small, precise, single-claim. Example: `library-y-deprecated-v3.2.md` containing exactly: "Library Y was deprecated in version 3.2. Migration path is Library Z." No more, no less.
-- **Living summary files**: Domain-level synthesis. Example: `project-x-status.md` summarizing the current state of Project X by synthesizing the atomic facts relevant to it.
+```
+/life/areas/
+├── people/
+│   ├── sarah/
+│   │   ├── summary.md
+│   │   └── items.json
+│   ├── maria/
+│   └── emma/
+├── companies/
+│   ├── acme-corp/
+│   └── newco/
+```
 
-Atomic facts are the nodes. Cross-references between facts (via Markdown links or frontmatter) are the edges. The structure is a lightweight knowledge graph built from plain files.
+Each entity folder contains two files:
+
+- **items.json**: An array of atomic, timestamped facts. Each fact is a discrete unit with an ID, content, timestamp, category, and status (`active` or `superseded`). Facts are stored as JSON objects in a single array per entity — not one file per fact. Example: `{"id": "sarah-003", "fact": "Difficult manager, micromanages", "timestamp": "2025-06-15", "status": "active"}`.
+- **summary.md**: A living summary rewritten weekly from the active facts in `items.json`. The human-readable snapshot of what the agent currently knows about this entity.
+
+The tiered retrieval pattern: load `summary.md` first for quick context; drill into `items.json` only when atomic detail is needed. Rules from the source: "Save facts immediately to items.json. Weekly: rewrite summary.md from active facts."
 
 ### Supersession Model (Not Deletion)
 
@@ -382,15 +400,7 @@ The per-agent filter ensures that private memories written to the shared index p
 
 ### Coordination Patterns
 
-Multi-agent memory introduces coordination challenges around writes:
-
-**Pattern 1: Designated writer.** One agent is the sole writer to shared reference files. All others are readers. The writing agent has instructions to update shared files when project-wide decisions are made. Simple, no write conflicts.
-
-**Pattern 2: Inbox/outbox handoff.** Agents communicate via structured files in inbox/outbox directories. Rather than writing directly to shared reference files, Agent A writes a proposed update to its outbox. Agent B (the designated writer) reads the inbox, validates, and commits to shared reference. Human-in-the-loop option: the human reviews the outbox before Agent B commits.
-
-**Pattern 3: Event log merge.** All agents write to their private logs. A synthesis agent periodically merges selected entries from private logs into a shared knowledge base. The synthesis agent is responsible for deduplication and conflict resolution. Most complex but most flexible.
-
-The Syncrescendence constellation uses a variant of Pattern 2: Commander produces handoffs (outbox), and the reinitializer protocol gates what enters the next session's context (inbox), with the human controlling the gate.
+Multi-agent memory introduces coordination challenges around writes. The sources do not prescribe specific named patterns, but the principle is clear: private memory spaces prevent write conflicts by default, and any cross-agent information sharing must be explicitly designed — either through shared read-only reference files, shared QMD index paths with per-agent filtering, or structured handoff mechanisms that gate what enters each agent's context.
 
 ---
 
@@ -400,7 +410,7 @@ Source 00179 provides a paste-and-go setup template built on 8 config files. The
 
 ### AGENTS.md
 
-The constitutional document. Defines the agent's role, authority, behavioral constraints, and operating principles. The source of truth from which other configs are generated (via `make configs` or equivalent). **Never edit generated files directly — always edit AGENTS.md and regenerate.**
+The constitutional document. Defines the agent's role, authority, behavioral constraints, and operating principles — including subagent dispatch modes, memory system configuration, group chat behavior, security posture, heartbeat definitions, and tool references.
 
 Contains: agent name and role, what the agent is authorized to do, what it is prohibited from doing, how it should handle uncertainty, its relationship to other agents.
 

@@ -34,6 +34,8 @@ Note: the correct npm package name is `@honcho-ai/openclaw-honcho` (not `@honcho
 
 Self-host option available for full local deployment — open source, no vendor lock-in.
 
+**Automatic migration**: If the OpenClaw instance already has context in its memory files, the installer automatically migrates everything into Honcho. No extra steps required — existing memory content is preserved through the transition.
+
 ---
 
 ## Architecture
@@ -74,7 +76,7 @@ The pricing structure inverts the usual model: compute cost concentrates at inge
 The Honcho model mirrors what the Syncrescendence is building at the project layer: self-representation, memory consolidation, and contextual consciousness. The parallel is not superficial.
 
 - **Self-representation**: Honcho maintains a derived model of the user — a second-order artifact that doesn't exist in any single conversation but emerges across them. The Syncrescendence corpus has the same structure: no single file carries the full picture; the pattern lives in the aggregate.
-- **Memory consolidation**: Honcho's reasoning step is nucleosynthesis at the session level — raw exchanges compressed into stable inferences. CRUSH does the same across the corpus. Both are lossless in intent, lossy in practice.
+- **Memory consolidation**: Honcho's reasoning step compresses raw exchanges into stable inferences at the session level — a process analogous to any knowledge distillation pipeline. Lossless in intent, lossy in practice.
 - **Contextual consciousness**: Injecting inferences before generation rather than retrieving facts after is a different cognitive architecture. It shifts the agent from reactive (recall on demand) to constitutive (context already present). This is closer to how human working memory operates.
 - **Meta-cognition**: The background reasoning layer is an agent reasoning about its own reasoning history. This is the Syncrescendence aspiration made explicit at the tooling level.
 
@@ -98,13 +100,6 @@ The Syncrescendence position: the corpus IS the memory. Honcho-style inference i
 
 ## Evolution Context: Where Honcho Fits
 
-| Layer | Approach | Tradeoff |
-|-------|----------|----------|
-| QMD local | File-based, no inference, full autonomy | No cross-session synthesis |
-| Mem0 | Vector retrieval, no reasoning step | Retrieves utterances, not inferences |
-| Honcho | Reasoning model derives inferences, cloud-default | Richer, but dependency + opacity |
-| Native model context | In-context only, no persistence | Zero latency, zero memory |
-
-Honcho is the most cognitively ambitious option currently available as an OpenClaw plugin. Its reasoning-over-raw-conversation approach is architecturally sound. The self-host path makes it viable for the Syncrescendence without surrendering autonomy. The key integration question is not "does Honcho replace the corpus" — it does not — but "does Honcho's inference layer add value above what corpus-based retrieval already provides, and at what operational cost."
+Honcho's reasoning-over-raw-conversation approach is architecturally distinct from retrieval-based memory systems. The self-host path makes it viable for deployments that require full autonomy without surrendering to a cloud dependency. The key integration question is whether Honcho's inference layer adds value above what existing retrieval-based memory provides, and at what operational cost.
 
 ---

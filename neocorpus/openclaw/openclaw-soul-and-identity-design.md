@@ -135,7 +135,7 @@ Rule 8 is the calibration target. If the identity you've written would produce t
 
 ## 7. The Consolidation Pattern — 17→4 with Specialist Library
 
-tolibear_'s research found that large multi-agent systems with many top-level identities underperform systems organized as a small core with a specialist library.
+tolibear_ arrived at this architecture through 30 days of running 17 agents across multiple startups. The operational conclusion: large multi-agent systems with many top-level identities underperform systems organized as a small core with a specialist library. As tolibear_ put it: "The path to autonomy isn't more agents. It's fewer, sharper agents who spawn what they need."
 
 The effective architecture:
 
@@ -173,6 +173,16 @@ Examples:
 - Experiential: "I've learned that the best answer is usually shorter than my first draft — the extra sentences are almost always me justifying the answer rather than giving it."
 
 Apply this formula to every rule in a soul definition. The result is a character who has lived the lessons, not a policy document that lists them.
+
+---
+
+## 9. The Self-Improvement Loop
+
+An agent without a self-improvement loop is frozen on day one. The soul is a living document — it must evolve as the agent accumulates experience, encounters new failure modes, and refines its operating model.
+
+tolibear_'s takeaway #7 states this explicitly: "Build a feedback mechanism or your agents will never grow." The soul definition must include a mechanism by which the agent (or the human) can update the soul based on observed performance. Without this, every lesson learned in session N is lost by session N+1, and the agent never compounds its own experience into better behavior.
+
+This is the difference between an agent that performs and an agent that improves. Memory captures what happened. The soul captures who the agent becomes as a result.
 
 ---
 

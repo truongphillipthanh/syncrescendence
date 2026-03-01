@@ -107,9 +107,9 @@ Open source: `github.com/madrzak/vidclaw`
 
 ## Security
 
-Both Mission Control and VidClaw converge on the same access model: **localhost-only, SSH tunnel for remote**. This is not coincidence — it is the correct answer to the threat model. An agent management interface is a control plane for systems that have credentials, write access, and autonomous action capability. Exposing that to the internet via accounts and passwords is the wrong abstraction. SSH keys are the right abstraction.
+VidClaw implements a **localhost-only, SSH tunnel for remote** access model. As the source states: "No accounts. No cloud. No tracking. No auth to build. SSH is the auth layer. You can't mess it up." This is the correct security architecture for a tool that controls an AI agent with access to business infrastructure — the attack surface reduces to the SSH key.
 
-The VidClaw implementation makes this explicit: "No accounts. No cloud. No tracking. No auth to build. SSH is the auth layer. You can't mess it up."
+Mission Control takes a different approach: it is described as a private SaaS "built for one person: Bhanu." The source does not specify its network binding or access model. The two dashboards share the principle that agent management interfaces are control planes requiring careful access control, but their implementations differ.
 
 ---
 
