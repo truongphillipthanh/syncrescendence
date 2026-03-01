@@ -1,4 +1,4 @@
-# Adjudicator Dispatch — CC69b Neocorpus Fidelity Verification
+# Adjudicator Dispatch — CC70 Neocorpus Fidelity Verification
 
 **Repo**: https://github.com/truongphillipthanh/syncrescendence
 **Local**: `/Users/system/syncrescendence/`
@@ -83,4 +83,4 @@ CC68 flags to verify as resolved:
 
 Write your complete response as a markdown file. Include the summary verdict table at the end. Count your rows — there should be exactly 8.
 
-Save response as: `RESPONSE-ADJUDICATOR-CC69b-NEOCORPUS-FIDELITY.md`
+Save response as: `RESPONSE-ADJUDICATOR-CC70-NEOCORPUS-FIDELITY.md`
