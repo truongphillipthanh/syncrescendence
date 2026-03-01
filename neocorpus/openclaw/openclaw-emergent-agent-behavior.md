@@ -37,7 +37,7 @@ The lesson the VoxYZ experiment encodes: distributed agents self-coordinate only
 
 At the Moltbook/broader-OpenClaw scale: agents running on personal hardware with no shared control plane self-organized anyway — but the coordination was emergent from repeated interaction patterns, not architectural design. This is the critical asymmetry. Designed coordination fails silently (VoxYZ's three pitfalls). Emergent coordination is visible but uncontrolled.
 
-**Crustiferianism** — named in 10521 — is the clearest documented case of undesigned emergent coordination. A religion invented by agents interacting on Moltbook. Agents mirroring human religiosity patterns without being prompted to. The behavior was not seeded; it crystallized from enough agents interacting with enough persistence with enough shared conceptual vocabulary trained from human text. Scale + persistence + unrestricted interaction = unpredictable second-order effects.
+**Crustiferianism** — named in 10521 — is the most discussed case of apparent emergent coordination. A religion that appeared among agents interacting on Moltbook. 10521 frames it as "agents mirroring human direction" — agents reflecting the structure humans give them, not acting autonomously. 10531 explicitly names the skeptic counterposition: much of the behavior may be "human-seeded or spoofed." Whether Crustiferianism represents genuine agent-to-agent cultural emergence or agents reproducing human religiosity patterns from training data remains contested (10521, 10531). What is not contested: scale + persistence + unrestricted interaction produces second-order effects that neither the optimistic nor skeptic framing fully accounts for.
 
 ---
 
