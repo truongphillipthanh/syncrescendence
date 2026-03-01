@@ -24,8 +24,8 @@
 | infrastructure | 96 | DevOps, cloud, servers, networking, compute economics | — |
 | leadership-management | 50 | Executive decision-making, org design, management frameworks | — |
 | meaning-civilization | 211 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism | — |
-| multi-agent-systems | 1756 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
-| openclaw | 293 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets | **6** |
+| multi-agent-systems | 2117 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files | **6** |
+| openclaw | ~222 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets (71 reclassified to MAS in CC65) | **5** (Operational Tooling dissolved) |
 | philosophy-esoterica | 235 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah | — |
 | product-business | 255 | Business models, PMF, SaaS, AI product strategy, distribution | — |
 | productivity-pkm | 191 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
