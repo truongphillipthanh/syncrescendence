@@ -11,7 +11,7 @@
 
 | Folder | Files | Description | Subcategories |
 |--------|------:|-------------|:---:|
-| ai-biotech | 10 | Biotechnology, synthetic biology, AI in life sciences | — |
+| ai-biotech | 8 | Biotechnology, BCI, AI in life sciences (2 reclassified in CC67) | — |
 | ai-capability-futures | 173 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions | **6** |
 | ai-memory-retrieval | 351 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture | — |
 | ai-models | 544 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization | **6** |
@@ -78,6 +78,15 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `constellation-prompting-formulas.md` | CANON-25610, 00749, 00752 | Diviner formula (8 elements), model-specific consensus, constellation methodology |
 
 **Totals**: 4 entries from 19 source files. 24 files reclassified (13 misrouted to correct folders, 10 operational artifacts to MAS, 1 video stub). prompt-engineering/ nucleosynthesis COMPLETE.
+
+### ai-biotech/ (CC67)
+
+| Entry | Sources Fused | Concept |
+|-------|--------------|---------|
+| `ai-drug-discovery-protein-engineering.md` | 01315, 01600, 02689, 04375, 10741 | AlphaFold, Eroom's Law, FDA reform, Isomorphic Labs |
+| `brain-computer-interfaces.md` | 01672, 02233, 03958 | Neuralink N1, BCI bottleneck, neural decoding, cognitive augmentation |
+
+**Totals**: 2 entries from 8 source files. 2 files reclassified (agent memory → MAS, AI investing → ai-capability-futures). ai-biotech/ nucleosynthesis COMPLETE.
 
 ---
 
