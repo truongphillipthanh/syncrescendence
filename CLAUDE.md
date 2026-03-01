@@ -229,6 +229,50 @@ Every dispatch prompt MUST include:
 
 ---
 
+## CRUSH — Aggregative Nucleosynthesis (CONSTITUTIONAL — CC63 SEARED)
+
+### What CRUSH Is
+
+CRUSH (Candy Crush) is the process by which raw corpus material becomes the compendium — the definitive guide on everything the Syncrescendence cares about. The metaphor is stellar nucleosynthesis: hydrogen (raw files) fuses into heavier, more stable elements (crystallized wisdom). In AI terms: compact into wisdom. In human terms: narrative, mythopoeia, aphorism, proverb.
+
+The corpus is not an archive to be tidied. It is raw material to be fused into the densest, most stable knowledge form that preserves all the wisdom. The neocorpus is the compendium layer — each entry is the definitive treatment of a concept, losslessly expandable back to its source material in corpus/.
+
+### The Three-Tier Architecture
+
+| Layer | Contents | Function |
+|-------|----------|----------|
+| `corpus/` | ~5,800 raw files across 22 semantic folders | Thermodynamic reserve. Provenance. Never destroyed. |
+| `neocorpus/` | Definitive treatments, one per concept | The compendium. Progressive lossless abstraction. |
+| `canon/` | 164 Sovereign-ratified files | Final authority. |
+
+### The Nucleosynthesis Operation
+
+Three species of raw material, ONE fusion operation — diffusion into clarity:
+
+**Redundancy**: Multiple treatments of the same concept within a folder → fuse into the definitive treatment that carries all distinct reasoning paths. Not deletion — crystallization. The research paper abstract model: the neocorpus entry contains the full wisdom; the corpus files are the appendix.
+
+**Obsolescence**: Time-decayed knowledge → the lesson survives as wisdom even when the artifact is dead. "We used to do X because we assumed Y; Y was wrong" IS knowledge. Extract the lesson into the definitive treatment. The artifact may be discarded if the lesson is captured; archived if the evolution itself teaches.
+
+**Supersession**: Version chains where each transition encodes a design decision → the chain itself is a first-class artifact. Antipatterns only exist in supersession chains. The evolution narrative ("v1 assumed X, broke under Y, v2 corrected to Z") becomes part of the definitive treatment.
+
+All three reduce to: **compress into the densest form that preserves all the wisdom.** Not three strategies — one strategy applied holistically to each concept.
+
+### Critical Invariant: WITHIN-FOLDER (CC63 SEARED)
+
+Nucleosynthesis operates WITHIN folders. The 22 semantic folders are already the topic clusters. Redundancy, obsolescence, and supersession live within these clusters, not across them. Cross-folder overlap search is a category error — the classification architecture was designed to prevent it.
+
+Each folder undergoes nucleosynthesis independently:
+1. Identify within-folder concept clusters (sub-themes from concept inventory or SUBCATEGORY-INDEX)
+2. For each concept: find all files treating it, assess redundancy/obsolescence/supersession holistically
+3. Produce the definitive treatment in neocorpus/ that carries the full wisdom
+4. Originals remain in corpus/ as provenance
+
+### What the Compendium Is
+
+The compendium is a navigable knowledge architecture where any reader can look up any concept the Syncrescendence cares about and find the **crystallized wisdom** — not 15 scattered takes of varying quality, but the one entry that carries every distinct reasoning path, every hard-won lesson, every antipattern discovered through supersession. It is the textbook. It is what the Syncrescendence teaches.
+
+---
+
 ## Anti-Patterns (PROHIBITED — ALL AGENTS)
 
 - Skipping verification to "save time"
@@ -238,6 +282,8 @@ Every dispatch prompt MUST include:
 - Editing generated files (CLAUDE.md, GEMINI.md) instead of sources (AGENTS.md, *-EXT.md)
 - Baking temporal state into templates or constitutional documents
 - "Searing everywhere" via find-replace across generated + source + historical files (CC31 catastrophe)
+- **Cross-folder overlap search** — the folders ARE the semantic clusters; redundancy lives within them (CC63 SEARED)
+- **Treating redundancy/obsolescence/supersession as separate passes** — they are one holistic fusion operation per concept (CC63 SEARED)
 
 ---
 

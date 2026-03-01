@@ -142,13 +142,19 @@ Subcategories are implemented as **Ranganathan faceted indexes** — semantic ro
 3. **Nothing gets deleted** without Sovereign approval. Merge policy for near-dupes.
 4. **philosophy-esoterica and meaning-civilization remain SEPARATE** (Sovereign ruling CC56).
 
-## Teleology (Sovereign Directive CC56 — SEARED)
+## Teleology — CRUSH: Aggregative Nucleosynthesis (CC56 + CC63 SEARED)
 
-The corpus is becoming a textbook — a compendium to build the Syncrescendence.
+The corpus is raw material for the compendium — the definitive guide on everything the Syncrescendence cares about.
 
-We cluster progressively. Subcategories will form within folders. Metacategories will form across folders. We semantically tighten for maximal coherence. Every misclassification is a flaw in the canon. Every reclassification illuminates.
+**CRUSH** is stellar nucleosynthesis: hydrogen (raw files) fuses into heavier, more stable elements (crystallized wisdom). In AI terms: compact into wisdom. In human terms: narrative, mythopoeia, aphorism, proverb. The end state is not "fewer files" — it is the densest, most stable knowledge form that preserves all the wisdom.
 
-The end state is a navigable knowledge architecture where any reader can find any piece of the Syncrescendence vision by semantic topic, drill into subcategories for depth, and zoom out to metacategories for breadth.
+**Three-tier architecture**: `corpus/` (thermodynamic reserve, provenance, never destroyed) → `neocorpus/` (the compendium — definitive treatments, one per concept, losslessly expandable back to sources) → `canon/` (Sovereign-ratified final authority).
+
+**The fusion operation is holistic.** Redundancy (multiple treatments → one crystallized treatment), obsolescence (time-decayed knowledge → extracted lessons), and supersession (version chains → evolution narratives with antipatterns) are not separate passes. They are one operation applied to each concept within each folder. Diffusion into clarity.
+
+**Critical invariant (CC63 SEARED)**: Nucleosynthesis operates WITHIN folders. The 22 semantic folders are already the topic clusters. Cross-folder overlap search is a category error — the classification architecture was designed to prevent it. Each folder undergoes nucleosynthesis independently.
+
+We cluster progressively. Subcategories form within folders. Metacategories form across folders. We semantically tighten for maximal coherence. Every misclassification is a flaw in the canon. Every reclassification illuminates. The compendium is what the Syncrescendence teaches.
 
 ---
 
