@@ -25,8 +25,8 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural
-1. **FLAT PRINCIPLE**: Directories are flat. Sanctioned exceptions: `00-ORCHESTRATION/state/`, `engine/02-ENGINE/`, `corpus/<topic>/` (22 semantic folders), `canon/sn/`, `ascertescence/oracle/`, `ascertescence/canon-remediation/`, `agents/commander/outbox/handoffs/`, `-INBOX/commander/00-INBOX0/`.
-2. **SEMANTIC DIRECTORIES**: Top-level directories: `corpus`, `canon`, `engine`, `agents`, `00-ORCHESTRATION`, `ascertescence`, `memory`, `-INBOX`. Do not create new top-level directories without Sovereign approval.
+1. **FLAT PRINCIPLE**: Directories are flat. Sanctioned exceptions: `00-ORCHESTRATION/state/`, `engine/02-ENGINE/`, `corpus/<topic>/` (22 semantic folders), `neocorpus/<topic>/` (mirrors corpus/ structure), `canon/sn/`, `ascertescence/oracle/`, `ascertescence/canon-remediation/`, `agents/commander/outbox/handoffs/`, `-INBOX/commander/00-INBOX0/`.
+2. **SEMANTIC DIRECTORIES**: Top-level directories: `corpus`, `neocorpus`, `canon`, `engine`, `agents`, `00-ORCHESTRATION`, `ascertescence`, `memory`, `-INBOX`. Do not create new top-level directories without Sovereign approval.
 3. **PROTECTED ZONES**: `canon/` requires explicit Sovereign approval for deletions.
 
 ### Operational
@@ -42,6 +42,8 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 corpus/              Knowledge corpus (5,954 files across 22 semantic topic folders)
   NUCLEOSYNTHESIS-MAP.md   Classification authority
   <topic>/SUBCATEGORY-INDEX.md   Ranganathan faceted indexes (5 largest folders)
+neocorpus/           The compendium — definitive nucleosynthesis entries, one per concept
+  <topic>/           Mirrors corpus/ folder structure (currently: openclaw/)
 canon/               Verified canonical knowledge (PROTECTED, 164 files)
   sn/                Syncrescript notation
 engine/              Prompts for agent dispatch

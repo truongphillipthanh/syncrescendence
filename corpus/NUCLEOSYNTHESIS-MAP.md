@@ -38,6 +38,33 @@
 
 ---
 
+## Neocorpus — Nucleosynthesis Progress
+
+The compendium layer. Each entry is the definitive treatment of a concept, losslessly expandable back to source material in `corpus/`. Entries live in `neocorpus/<topic>/`.
+
+### openclaw/ (CC64-CC65)
+
+| Entry | Sources Fused | Subcategory |
+|-------|--------------|-------------|
+| `openclaw-setup-and-operations.md` | 00049, 00220, 00266, 10596, 10800, 11040 | Installation & Configuration |
+| `openclaw-model-configuration.md` | 00162, 08829, 08831, 10599, 10993 | Installation & Configuration |
+| `syncrescendence-openclaw-infrastructure.md` | 00443, 00787, 08382, 00931 | Installation & Configuration |
+| `openclaw-memory-architecture.md` | 00051, 00057, 10904, 10964, 00179 | Memory & Personality |
+| `openclaw-honcho-memory-integration.md` | 00122, 08837 | Memory & Personality |
+| `openclaw-soul-and-identity-design.md` | 00246, 10971 | Memory & Personality |
+| `openclaw-phone-voice-integration.md` | 00111, 00197 | Phone & Multi-Device |
+| `openclaw-multi-agent-fleet-operations.md` | 00095, 00274 | Phone & Multi-Device |
+| `openclaw-agent-management-dashboards.md` | 00167, 10900 | Phone & Multi-Device |
+| `openclaw-communication-channels.md` | 10802, 10833, 10907 | Phone & Multi-Device |
+| `openclaw-security-hardening.md` | 00050, 00055, 00080, 00092, 00198 | Security & Cost |
+| `openclaw-cost-optimization.md` | 00203, 00264, 10890, 10967, 00290 | Security & Cost |
+| `openclaw-threat-model-attack-surface.md` | 00044, 00045, 00059 | Security & Cost |
+
+**Totals**: 13 entries from 46 source files across 4 of 6 openclaw subcategories.
+**Remaining**: Operational Tooling (102 files), Ecosystem & Comparative (136 files).
+
+---
+
 ## Classification Patterns (Wisdom)
 
 ### What Works
