@@ -147,19 +147,20 @@ Every dispatch involving corpus or file classification MUST include this verbati
 
 ### Operational Artifact Routing (CC59 Amendment)
 
-**Definition**: Operational artifacts are byproducts of pipeline processing, not topical content. Includes: extraction stubs (zero-atom files), processing manifests, telemetry logs, task templates, verification reports, dispatch scripts, orchestrator state files, graph-view configs.
+**Definition**: Operational artifacts are byproducts of pipeline processing that carry NO topical content. Includes: zero-atom extraction stubs, processing manifests, telemetry logs, task directives (TASK/CONFIRM/RESULT/DISPATCH), verification reports, dispatch scripts, orchestrator state files, graph-view configs, circuit breakers, lock files.
 
-**Routing rule**: Operational artifacts produced BY the Syncrescendence constellation route to `multi-agent-systems/` — they are ABOUT multi-agent coordination. Operational artifacts documenting EXTERNAL systems route to their semantic topic folder.
+**Routing rule**: Operational artifacts produced BY the Syncrescendence constellation route to `multi-agent-systems/` — they are ABOUT multi-agent coordination.
 
-**The test**: "Is this file ABOUT a topic, or is it a BYPRODUCT of processing?" Byproducts of the pipeline → `multi-agent-systems/`. Content about a topic stays with the topic.
+**The test**: "Does this file contain substantive content ABOUT a topic?" If yes → route by topic. If it's empty metadata, failed extraction, or pure pipeline state → `multi-agent-systems/`.
+
+**Critical distinction — extraction files with content ARE topical**: An extraction `.md` with atoms about AI models IS about AI models. The `# Extraction: SOURCE-...` header is formatting, not identity. Routing extraction files to `multi-agent-systems/` because they have extraction headers IS type-based routing — constitutionally forbidden. Only ZERO-ATOM stubs (no content extracted) are pipeline byproducts.
 
 **Examples**:
-- Zero-atom extraction stub about Claude Code → `multi-agent-systems/` (pipeline artifact, not Claude Code content)
-- Orchestrator telemetry log → `multi-agent-systems/`
-- Processing manifest with API failures → `multi-agent-systems/`
-- Podcast transcript about OpenClaw → `openclaw/` (it's ABOUT OpenClaw; the extraction is incidental)
-
-This does NOT override the clustering principle — it refines it. The semantic topic of a pipeline byproduct IS multi-agent coordination. Classifying it under the topic it failed to extract is the error.
+- Zero-atom extraction stub → `multi-agent-systems/` (pipeline failure, no topical content)
+- Extraction with 5 atoms about OpenClaw → `openclaw/` (content is ABOUT OpenClaw)
+- TASK/CONFIRM/RESULT directive → `multi-agent-systems/` (operational, no topical content)
+- Telemetry log, processing manifest → `multi-agent-systems/`
+- Podcast transcript about AI models → `ai-models/` (extraction format is incidental)
 
 ### Oracle (Grok 4.2) — Hypersensing + Industry Expertise
 
