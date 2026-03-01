@@ -1,6 +1,6 @@
 # Subcategory Index — openclaw
 
-Total files: 330
+Total files: ~259 (71 reclassified to multi-agent-systems/ in CC65, ~30 deleted in prior passes)
 
 ## Installation & Configuration
 Setup guides, plist config, deployment procedures, initial hardening.
@@ -22,10 +22,12 @@ Permission scoping, sandboxing, inference throttling, cost management.
 
 Files: 00044, 00045, 00050, 00055, 00059, 00080, 00092, 00198, 00203, 00264, 00272, 00290, 00433, 10890, 10967
 
-## Operational Tooling
-Watchdog scripts, health monitoring, kanbanized dispatch, operational workflows.
+## Operational Tooling — DISSOLVED (CC65)
+Originally 102 files. Recon revealed ~95% were Syncrescendence internal ops artifacts, not content about OpenClaw.
+71 files reclassified → multi-agent-systems/. ~30 were already deleted in prior passes.
+3 files remain in openclaw/ (genuinely about OpenClaw): 10242 (Agent Skills spec), 10955 (Mission Control), 08104 (model profiles).
 
-Files: 00312, 00313, 00342, 00344, 00350, 00361, 00365, 00366, 00387, 00392, 00421, 00457, 00458, 00460, 00467, 00468, 00469, 00470, 00475, 00480, 00481, 00482, 00493, 00495, 00497, 00499, 00505, 00519, 00678, 00683, 00684, 00690, 00692, 00733, 00738, 00813, 00941, 04514, 04525, 04527, 04532, 04533, 04538, 04544, 04560, 08062, 08066, 08074, 08109, 08322, 08323, 08325, 08326, 08389, 08392, 08484, 08516, 08517, 08539, 08552, 08582, 08638, 08673, 08721, 08733, 08791, 08811, 08859, 08869, 08870, 08885, 08916, 08917, 09066, 10242, 11085, 11091, 11231, 11243, 11244, 11245, 11246, 11247, 11248, 11249, 11250, 11251, 11252, 11253, 11254, 11255, 11256, 11257, 11259, 11260, 11261, 11262, 11263, 11273, 11275, 11675, 11692, 08104, 10955
+Remaining files: 10242, 10955, 08104
 
 ## Ecosystem & Comparative Analysis
 Deep research articles, MiniMax setups, competitive analysis, community discourse.
@@ -42,7 +44,7 @@ Files: 00042, 00043, 00046, 00048, 00053, 00054, 00056, 00064, 00069, 00071, 000
 | Memory & Personality | Fine-Tuning & Adaptation | ai-models |
 | Memory & Personality | Human-AI Symbiosis | ai-capability-futures |
 | Security & Cost Optimization | Security & Isolation | claude-code |
-| Operational Tooling | Syncrescendence Operations | multi-agent-systems |
+| ~~Operational Tooling~~ | DISSOLVED — 71 files reclassified to multi-agent-systems/ (CC65) |
 | Phone & Multi-Device Fleets | Orchestration Patterns | multi-agent-systems |
 | Ecosystem & Comparative Analysis | Frontier Model Releases | ai-models |
 | Ecosystem & Comparative Analysis | Community & Usage Patterns | claude-code |
