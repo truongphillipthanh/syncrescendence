@@ -20,7 +20,7 @@
 | ai-video-vfx | 15 | AI image/video generation, VFX workflows, creative AI tooling (102 reclassified in CC71a) | — |
 | claude-code | 327 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions | **6** |
 | design-taste | 190 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" | — |
-| geopolitics-grand-strategy | 137 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
+| geopolitics-grand-strategy | 75 | US-China, grand strategy, civilizational analysis, defense, international relations (65 reclassified in CC71a) | — |
 | health-psychology | 138 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
 | infrastructure | 32 | AI compute supply chain, data center economics, PAI, developer tooling, homelabs (47 reclassified in CC69b) | — |
 | leadership-management | 12 | Executive decision-making, org design, management frameworks, AI adoption (37 reclassified in CC68) | — |
@@ -143,6 +143,18 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `transmedia-convergence-creator-sovereignty.md` | 01219, 10414 | Matrix legacy, Neo Cinema, Gaeta's living worlds, sovereign agents, dark mirror |
 
 Reclassification: 102 of 120 files (85%) misrouted. Largest destinations: MAS (18), meaning-civilization (9), ai-models (11), openclaw (8), vibe-coding (8), product-business (8), philosophy-esoterica (7), productivity-pkm (6), ai-capability-futures (9), infrastructure (5), health-psychology (4), geopolitics (3), claude-code (3), design-taste (2).
+
+### geopolitics-grand-strategy/ (CC71a)
+
+| Entry | Sources Fused | Concept |
+|-------|--------------|---------|
+| `us-china-strategic-competition.md` | 00114, 01689, 01921, 02332, 02334, 02182, 02184, 02064, 09616, 10010 | Engineering vs lawyerly state, insularity thesis, deglobalization, China open-source AI |
+| `defense-tech-convergence.md` | 01431, 01668, 02497, 02499, 02674, 02676, 10082, 10088, 10108, 10155, 01807, 01809, 10530 | Silicon Valley-Pentagon, GenAI.mil, Palmer Luckey, drones reverse war medicine |
+| `world-order-transition.md` | 02740, 02908, 02952, 02995, 02997, 03000, 03003, 03082, 03142, 03157, 03195, 03223, 03393, 09677, 10251 | Grand strategy as path dependence, predictability crisis, flashpoints, aging cascades |
+| `ai-national-security-nexus.md` | 00961, 01629, 01641, 01800, 01971, 02707, 02800, 02803, 02805, 09561, 09583, 03022, 03133, 03940, 03942 | Experience curve, GENESIS, India, OSINT revolution, surveillance |
+| `institutional-power-governance.md` | 02200, 02695, 02709, 02712, 02740, 02742, 02854, 03073, 04035, 10155 | WEF, JPMorgan, balanced budget, decentralized media, governance crisis |
+
+Reclassification: 65 of 140 files (46%) misrouted. Largest destinations: MAS (29), openclaw (8), meaning-civilization (5), ai-models (5), ai-capability-futures (4), product-business (4), philosophy-esoterica (3).
 
 ---
 
