@@ -3,7 +3,7 @@
 **From**: Commander (Claude Opus 4.6)
 **To**: Oracle (Grok 4.20)
 **Session**: CC63
-**Git HEAD**: `cfa07df9`
+**Git HEAD**: `1e7d71a0`
 **Repo**: https://github.com/truongphillipthanh/syncrescendence
 **Date**: 2026-03-01
 
@@ -13,13 +13,24 @@
 
 You are **Oracle** — the hypersensing intelligence of the Syncrescendence constellation. Your epithet is unassigned but your function is clear: multi-pass recursive traversal of real-time discourse, surfacing what others miss. You scan X/Twitter, developer communities, and the live web with the depth of someone who lives in the signal.
 
-The Sovereign is executing a phase transition from knowledge architecture into operational infrastructure. A $120/mo discretionary budget has been allocated. $46.50/mo is committed (OpenRouter API $40, Hetzner VPS $5, domain $1.50). The remaining $73.50/mo is held pending YOUR intelligence on five questions below.
+The Sovereign is executing a phase transition from knowledge architecture into operational infrastructure. A $120/mo discretionary budget has been allocated. $46.50/mo is committed (OpenRouter API $40, Hetzner VPS $5, domain $1.50). The remaining $73.50/mo is held pending YOUR intelligence on the questions below.
 
 **Your deliverable decides where real money goes.** Be precise. Be honest about uncertainty. Cite sources.
 
 ---
 
-## The Five Questions
+## What We Already Know (Commander pre-research, March 1, 2026)
+
+Before your dispatch, Commander conducted preliminary research. Use this as a FLOOR, not a ceiling — verify, deepen, and correct where wrong:
+
+- **OpenClaw**: Multi-model orchestration platform (12+ providers, MCP, failover chains, Gateway API). Max/Pro subscription tokens ARE allowed for personal use — Anthropic clarified Feb 18, 2026 after Jan crackdown panic. `claude setup-token` works. Creator (Peter Steinberger) left for OpenAI Feb 14 — project moving to open-source foundation.
+- **Kimi K2.5**: Free via NVIDIA NIM (1,000 credits + 4,000 on request, 40 req/min). 256K context, 1T param MoE. SWE-bench 72-76%. OpenAI-compatible API. Tool calling supported. This is Ajna's (CSO) designated instrument.
+- **Claude Pro ($20/mo)**: CAN run Claude Code (10-40 prompts/5hr window). Account 1 already has this.
+- **Harness landscape**: OpenCode (75+ providers, 100k stars, GitHub Copilot partnership), Cline (40+ providers, IDE extension only), Aider (many models, no native MCP), Nanobot (lightweight, multi-model, MCP).
+
+---
+
+## The Six Questions
 
 ### 1. Antigravity vs Cursor ($20/mo at stake)
 
@@ -61,18 +72,18 @@ Specifically:
 
 **Decision this informs**: Host ontology backend on GCP (free) or Hetzner VPS ($5+).
 
-### 4. OpenClaw Ecosystem March 2026
+### 4. OpenClaw Trajectory + Alternatives
 
-What is the current state of the open-source agentic CLI/orchestration landscape?
+We know OpenClaw works with Max/Pro setup-tokens and supports 12+ providers. But the founder left for OpenAI and it's moving to a foundation.
 
 Specifically:
-- OpenClaw (Claude Code fork) — current status after the February 2026 crackdown/clarification?
-- OpenCode, Cline, Aider, Nanobot — which tools are gaining real traction?
-- Has the landscape consolidated or fragmented?
-- Which tools support multi-model orchestration (not locked to one provider)?
-- What are power users on X actually using day-to-day for agent orchestration?
+- Is OpenClaw's development velocity healthy post-Steinberger, or is it stalling?
+- Which alternatives are gaining real traction on X? OpenCode (100k stars, Copilot partnership) looks strongest — confirm or deny.
+- For multi-agent orchestration specifically (not just coding): is OpenClaw still the best option, or has something overtaken it?
+- What are power users on X actually running day-to-day for persistent agent orchestration with memory and tool isolation?
+- Is there a Grok CLI that could serve as Oracle's harness? (superagent-ai/grok-cli — status?)
 
-**Decision this informs**: Whether to invest time reviving OpenClaw or pivot to an alternative.
+**Decision this informs**: Invest in OpenClaw revival vs pivot to alternative orchestration layer.
 
 ### 5. Agentic IDE Landscape Beyond Cursor/Antigravity
 
@@ -85,6 +96,19 @@ Specifically:
 - Is there a clear winner emerging or is it still fragmented?
 
 **Decision this informs**: Whether the Cursor vs Antigravity binary is even the right frame.
+
+### 6. Kimi K2.5 + NVIDIA NIM Reality Check (NEW)
+
+We're planning to use Kimi K2.5 via NVIDIA NIM as Ajna's (CSO) instrument — free, 256K context, tool calling.
+
+Specifically:
+- What is the real developer experience with Kimi K2.5 on NVIDIA NIM? Reliable or flaky?
+- How does it actually perform on agentic tasks (not just benchmarks)? Real X reports from people running it in production.
+- Are the NVIDIA NIM free credits a permanent offering or a promotional period that will end?
+- Does Moonshot AI's own API (platform.moonshot.ai) offer better reliability than NVIDIA NIM?
+- What's the consensus on Kimi K2.5 vs Claude Sonnet 4.6 vs GPT-4o for agent orchestration tasks specifically?
+
+**Decision this informs**: Whether Kimi K2.5 is reliable enough for Ajna's strategic sensing role, or needs a fallback chain.
 
 ---
 
