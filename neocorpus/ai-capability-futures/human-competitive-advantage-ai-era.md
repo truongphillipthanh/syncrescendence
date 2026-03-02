@@ -14,6 +14,7 @@
 - 02793.md — IBM: AI transforming classrooms, critical thinking, personalized learning
 - 09527.md — TEDx on AI wave navigation
 - 10002.md — Shapiro "Antidote to AI Brain Rot"
+- 03879.md — Peter Yang "5 Levels of AI Native": voice/meetings/projects, prototyping, apps, personal agents maturity model
 - 10014.md — Dylan Curious on smart toys and children
 
 ## The Talent Stack

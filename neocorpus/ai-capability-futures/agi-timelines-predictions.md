@@ -28,6 +28,7 @@
 - 02826.md — Hassabis: AI shift bigger than industrial age
 - 02424.md — Claude Opus 4.5 and the AGI inflection point
 - 00270.md — "21 actions if you believe in AI acceleration": investing, career, lifestyle implications
+- 03900.md — "21 actions" extraction atoms: AI takeoff probability, acceleration-driven lifestyle changes
 
 ## The Definition Problem
 
@@ -51,7 +52,7 @@ Multiple independent sources converge on a narrow window:
 | Israetel | 2028-2030 | 2035-2045 | 08479 |
 | Kurzweil | 2029 | 2045 | 10160 |
 | Epoch AI | — | ~2045 (data-driven) | 09506 |
-| Musk | ~2026-2027 | — | 02409, 09932 |
+| Musk (attributed in public statements) | ~2026-2027 | — | 02409, 09932 |
 | Shane Legg (DeepMind) | 2025-2030 range | — | 09656 |
 
 The convergence is striking. Disagreement concentrates on the definition and on ASI timelines, not on whether transformative AI arrives this decade.
@@ -89,7 +90,7 @@ This represents an emerging accelerationist lifestyle philosophy — rational be
 ## Antipatterns & Lessons
 - **Definition as weapon**: Using the absence of consensus AGI definition to dismiss capabilities that are clearly transformative (01365, 00023).
 - **Anchoring to outdated experience**: "I tried ChatGPT in 2023 and it wasn't that good" — the most dangerous form of dismissal because it was once true (00257).
-- **Confusing timeline uncertainty with timeline distance**: Uncertainty about whether AGI arrives in 2027 or 2029 does not mean it might not arrive until 2040. The distribution is narrow and near.
+- **Confusing timeline uncertainty with timeline distance**: Uncertainty about whether AGI arrives in 2027 or 2029 does not mean it might not arrive until 2040. On an accelerationist reading, the distribution is narrow and near — though this remains contested outside frontier lab circles.
 - **Treating predictions as independent**: When Amodei, Hassabis, Legg, Musk, Kurzweil, and Epoch AI converge, that is not six separate predictions — it is a convergent signal from people with the most information.
 - **Ignoring the METR exponential**: Individual predictions can be wrong; a trend line that has held for years across multiple model generations is structural evidence.
 - **Accelerationist lifestyle risk**: Restructuring your life around AGI assumptions (abandoning retirement savings, taking on debt) is rational only if the timeline holds. If AGI arrives in 2035 instead of 2027, the financial advice in 00270 is catastrophic.

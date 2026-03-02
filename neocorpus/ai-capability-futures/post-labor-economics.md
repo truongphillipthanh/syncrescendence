@@ -13,6 +13,7 @@
 - 10864.md — "Techno Homestead" vision: 5 acres, 2 humanoids, 3D printer, solar, local AGI
 - 10438.md — "The New Unemployable Class"
 - 09601.md — AI Universal Income: deflation vs redistribution, wealth gap dynamics
+- 10726.md — "AI agents now hiring humans": Moltbook AI-only social network, Rent a Human concept
 
 ## The Refactoring Thesis
 

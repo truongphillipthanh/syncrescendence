@@ -20,6 +20,8 @@
 - 09689.md — Diamandis: 1.1M job loss prediction, corporate collapse framing
 - 09847.md — Joe Lonsdale: jobs that will skyrocket, bullish on trades over white-collar
 - 10438.md — "The New Unemployable Class"
+- 00233.md — "How to be a 100x Engineer Using AI": GitClear defect rate analysis, AI-touched code quality crisis
+- 00142.md — "How to Win When Everyone Has AI": talent stack, task-not-job framing, AI as magnifier
 
 ## Bastiat's Razor: The Seen and the Unseen
 

@@ -69,7 +69,7 @@ Buehler's solution: Transformers as graph engines that discover their own relati
 
 ## The Coherence Thesis
 
-Multiple sources track a qualitative shift beyond raw capability: AI is "getting coherent" (09877), developing what feels like judgment and taste (00257), maintaining sustained reasoning across long horizons. This is distinct from benchmark improvements — it is the emergence of something like integrated cognition rather than isolated task performance.
+Multiple sources suggest a qualitative shift beyond raw capability: AI developing what feels like judgment and taste (00257), maintaining sustained reasoning across long horizons. The framing that AI is "getting coherent" (09877 — title-level framing from a description-only source, not a sustained argument) gestures at this but remains impressionistic rather than empirically grounded. If real, this would be distinct from benchmark improvements — something like integrated cognition rather than isolated task performance.
 
 ## Antipatterns & Lessons
 - **Assuming the loop is theoretical**: The recursive improvement loop is operational as of 2026, not hypothetical (00257).

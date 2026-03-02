@@ -19,6 +19,8 @@
 - 09910.md — NVIDIA CES 2026: Jensen Huang on physical AI, Cosmos, Isaac Sim, industrial automation
 - 10049.md — Dylan Curious/Boston Dynamics: Google-Boston Dynamics reunion on next-gen Atlas
 - 10372.md — Lisa LaBelle robotics episode description
+- 01284.md — Google DeepMind SIMA 2: embodied AI agents in 3D environments, spatial memory, general-purpose learning
+- 09332.md — ARC-AGI v3: intelligence measurement, goal discovery, temporal planning, interactive learning, brute-force prevention
 
 ## The Four Waves of AI
 

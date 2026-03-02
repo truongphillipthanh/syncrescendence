@@ -12,6 +12,7 @@
 - 01812.md — OpenAI Head of Product: GPT 5.1/Codex achieving automation in coding, pharma, support; engineers would "riot" if AI tools removed
 - 09620.md — Anthropic survey of 1,250 professionals: 86% report time savings, 65% satisfaction, concerns about creative identity
 - 10002.md — David Shapiro "Antidote to AI Brain Rot"
+- 03855.md — "How to Become AI-Proof": AI building/testing/shipping full applications, GPT-5.3 debugging its own training, golf cart vs Tesla analogy
 
 ## The Orchestration Paradigm
 

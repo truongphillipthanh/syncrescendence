@@ -45,6 +45,7 @@
 - 10153.md — "Craziest Experiment Humans Have Ever Built": frontier training scale
 - 10814.md — Gemini 3 Deep Think hands-on
 - 10902.md — Karpathy: LLMs as translation engines, rewriting all software
+- 09700.md — Trump AI executive order, Nvidia H200 exports, GPT-5.2 benchmark rankings
 
 ## Two Axes of AI Capability
 
