@@ -3,7 +3,7 @@
 > The esoteric traditions — Hermetic, Kabbalistic, alchemical, and occult — encode perennial philosophical insights about consciousness, reality, and transformation in symbolic language that both conceals and reveals.
 
 ## Sources
-09320.md, 01171.jsonl, 01173.md, 09672.md, 10101.md, 10122.md, 09802.md, 02116.jsonl, 02118.md, 01066.jsonl, 09258.md
+09320.md, 01171.jsonl, 01173.md, 09672.md, 10101.md, 10122.md, 09802.md, 02116.jsonl, 02118.md, 01066.jsonl, 09258.md, 09413.md
 
 ## Witchcraft and Early Modern Philosophy
 
@@ -13,7 +13,7 @@ The philosophical treatment of witchcraft thus reveals the birth of the modern w
 
 ## Hermetic-Kabbalistic Self-Programming
 
-A contemporary synthesis draws on Hermetic philosophy, Kabbalah, quantum physics, and neuroscience to articulate a framework for "reality programming." The core Hermetic principles invoked:
+As explored in a contemporary source (10122), a synthesis draws on Hermetic philosophy, Kabbalah, quantum physics, and neuroscience to articulate a framework for "reality programming." The core Hermetic principles invoked:
 
 - **Mentalism**: "All is Mind; The Universe is Mental" — consciousness precedes and generates material reality
 - **Correspondence**: "As above, so below; as within, so without" — internal states mirror external conditions

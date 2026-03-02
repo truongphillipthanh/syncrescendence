@@ -3,7 +3,7 @@
 > The biological substrate of suffering is not a necessary feature of sentient existence but an evolutionary artifact amenable to technological redesign.
 
 ## Sources
-09260.md, 01060.jsonl, 01069.jsonl, 01071.md
+09260.md, 01069.jsonl, 01071.md
 
 ## David Pearce and the Abolitionist Project
 
@@ -16,8 +16,8 @@ Pearce's vision encompasses four pillars: (1) overcoming aging, (2) achieving ra
 The argument rests on several premises:
 - Suffering serves evolutionary fitness functions (threat avoidance, social bonding through shared pain) that are no longer adaptive in technologically advanced civilizations
 - The neurochemical substrates of suffering (cortisol cascades, pain receptor activation, depressive neural patterns) are biochemically tractable
-- A "paradise engineering" approach can redesign the hedonic set-point upward without eliminating the informational content that negative states currently carry
-- There is no metaphysical necessity to suffering — it is a contingent feature of biological evolution, not an intrinsic property of consciousness
+- Pearce argues that a "paradise engineering" approach can redesign the hedonic set-point upward without eliminating the informational content that negative states currently carry
+- The framework proposes that there is no metaphysical necessity to suffering — that it is a contingent feature of biological evolution, not an intrinsic property of consciousness
 
 ## Tensions & Open Questions
 

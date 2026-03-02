@@ -3,7 +3,7 @@
 > Consciousness may not emerge from matter but may instead be the fundamental nature of reality itself — a position held by analytic idealism, Advaita Vedanta, and certain interpretations of quantum mechanics.
 
 ## Sources
-09279.md, 01107.md, 09663.md, 01828.jsonl, 01867.jsonl, 01869.md, 10225.md, 10911.md, 04177.jsonl, 04179.md, 09725.md, 10264.md
+09279.md, 01107.md, 09663.md, 01867.jsonl, 01869.md, 10225.md, 10911.md, 04177.jsonl, 04179.md, 09725.md, 10264.md
 
 ## Bernardo Kastrup and Analytic Idealism
 

@@ -3,7 +3,7 @@
 > Whether artificial systems can be conscious is not an engineering question but a philosophical one — and the answer depends entirely on which theory of consciousness is correct.
 
 ## Sources
-08452.md, 09322.md, 09310.md, 09296.md, 01134.md, 10524.md, 10860.md, 11065.md, 02953.jsonl, 02988.md, 04003.jsonl, 04005.md, 01152.md
+08452.md, 09322.md, 09310.md, 09296.md, 01134.md, 10524.md, 10860.md, 11065.md, 02953.jsonl, 02988.md, 04003.jsonl, 04005.md, 01152.md, 09279.md, 09808.md, 09290.md
 
 ## The Positions
 

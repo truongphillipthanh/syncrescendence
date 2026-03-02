@@ -14,7 +14,7 @@ Alex O'Connor and Michael Stevens (Vsauce) probe the most fundamental ontologica
 
 ## Van Fraassen and Constructive Empiricism
 
-Bas van Fraassen's "radical claim about what you are" extends constructive empiricism to the self. Science aims at empirical adequacy, not truth — our best theories are tools for saving the phenomena, not mirrors of reality. Applied to personal identity, this suggests that the self is a theoretical construct useful for organizing experience but not a metaphysical entity. (09788)
+As described in Van Fraassen's lecture, his "radical claim about what you are" extends constructive empiricism to the self. His broader framework holds that science aims at empirical adequacy, not truth — our best theories are tools for saving the phenomena, not mirrors of reality. Applied to personal identity, this suggests that the self is a theoretical construct useful for organizing experience but not a metaphysical entity. (09788)
 
 ## Wolfram's Computational Ontology
 
@@ -41,7 +41,7 @@ Edward Frenkel extends this through the Langlands programme — mathematics' "th
 
 ## Free Will and Process Philosophy
 
-Matt Segall ("Free Will Exists But Not In Your Body") articulates a process philosophy position: free will is real but does not reside in the physical body as traditionally conceived. Rather, it is a property of the process of becoming — the creative advance of reality. This draws on Whitehead's process philosophy where experience, not matter, is ontologically fundamental. Each moment of experience involves a "decision" — a cutting-off of alternatives — that constitutes genuine freedom. (09924)
+As described in Matt Segall's lecture "Free Will Exists But Not In Your Body," he articulates a process philosophy position: free will is real but does not reside in the physical body as traditionally conceived. Rather, it is a property of the process of becoming — the creative advance of reality. This draws on Whitehead's process philosophy where experience, not matter, is ontologically fundamental. (09924)
 
 ## Quantum Mechanics and Philosophy
 
