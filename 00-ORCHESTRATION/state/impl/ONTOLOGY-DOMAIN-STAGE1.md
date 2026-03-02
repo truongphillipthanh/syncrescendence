@@ -13,6 +13,8 @@ Current state:
 - local reverse proxy is healthy on `http://localhost:8080/health`
 - `dig` resolves `syncrescendence.com` to Cloudflare edge IPs
 - direct edge health checks succeed for `https://syncrescendence.com/health`
+- public ontology API routes now respond through the domain, including `GET /events` and `POST /ingest/event`
+- Manus-sourced checkpoints have been projected successfully through the public domain path
 - default `curl https://syncrescendence.com/health` on this machine may still fail until the local resolver catches up
 - repo-safe readiness checks are written by `make tooling-surface-status`
 
@@ -83,6 +85,7 @@ make ontology-domain-health
 5. Only after stable edge health:
    - point selected automation/event projectors at the domain URL instead of localhost
    - use `make reconcile-ajna-events-project-domain`
+   - Manus checkpoints can use `python3 manus_checkpoint_bridge.py --project-ontology --ontology-url domain ...`
 
 ## Non-Goals For Stage 1
 

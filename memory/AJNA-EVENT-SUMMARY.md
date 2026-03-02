@@ -1,8 +1,31 @@
-# Ajna Event Summary
+# Agent Event Summary
 
-**Updated**: 2026-03-02T04:01:48Z
+**Updated**: 2026-03-02T05:21:57Z
+
+## Source Counts
+
+- `ajna`: `5`
+- `manus`: `2`
 
 ## Recent Events
+
+### manus-20260302-052048-manus-queue-state
+- Emitted: `2026-03-02T05:20:48Z`
+- Type: `manus_queue_state`
+- Surface: `exocortex`
+- Artifact class: `manus_workflow`
+- Capture level: `summary`
+- Durable capture: `summary_and_typed_record`
+- Summary: Captured public ontology API route activation.
+
+### manus-20260302-051954-manus-queue-state
+- Emitted: `2026-03-02T05:19:54Z`
+- Type: `manus_queue_state`
+- Surface: `exocortex`
+- Artifact class: `manus_workflow`
+- Capture level: `summary`
+- Durable capture: `summary_and_typed_record`
+- Summary: Captured Cloudflare tunnel supervised cutover state.
 
 ### commander-20260302-wrangler-auth
 - Emitted: `2026-03-02T02:30:00Z`

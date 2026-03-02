@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
-"""Ingest Ajna event files from the OpenClaw workspace into repo state."""
+"""Ingest shared agent event files from the OpenClaw workspace into repo state."""
 
 from __future__ import annotations
 
 import argparse
 import json
 import shutil
+import subprocess
 import urllib.error
 import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
+from urllib.parse import urlparse
 
 
 REPO_ROOT = Path(__file__).resolve().parent
@@ -37,6 +39,7 @@ REQUIRED_FIELDS = {
     "payload",
 }
 VALID_CAPTURE_LEVELS = {"pointer", "summary", "full"}
+ALLOWED_SOURCES = {"ajna", "manus", "commander", "system"}
 
 
 def ensure_dirs() -> None:
@@ -84,8 +87,8 @@ def validate_event(event: dict, path: Path, policy: dict) -> list[str]:
     missing = REQUIRED_FIELDS - event.keys()
     if missing:
         errors.append(f"{path.name}: missing fields {sorted(missing)}")
-    if event.get("source") != "ajna":
-        errors.append(f"{path.name}: source must be 'ajna'")
+    if event.get("source") not in ALLOWED_SOURCES:
+        errors.append(f"{path.name}: source must be one of {sorted(ALLOWED_SOURCES)}")
     if event.get("capture_level") not in VALID_CAPTURE_LEVELS:
         errors.append(f"{path.name}: invalid capture_level {event.get('capture_level')!r}")
     if event.get("surface") not in set(policy.get("surfaces", [])):
@@ -126,16 +129,22 @@ def validate_event(event: dict, path: Path, policy: dict) -> list[str]:
 
 def write_summary(events: list[dict]) -> None:
     lines = [
-        "# Ajna Event Summary",
+        "# Agent Event Summary",
         "",
         f"**Updated**: {utc_now()}",
         "",
-        "## Recent Events",
-        "",
     ]
     if not events:
-        lines.append("- No Ajna events reconciled yet.")
+        lines.append("- No reconciled events yet.")
     else:
+        source_counts: dict[str, int] = {}
+        for event in events:
+            source = str(event.get("source", "unknown"))
+            source_counts[source] = source_counts.get(source, 0) + 1
+        lines.extend(["## Source Counts", ""])
+        for source, count in sorted(source_counts.items()):
+            lines.append(f"- `{source}`: `{count}`")
+        lines.extend(["", "## Recent Events", ""])
         for event in events[-10:][::-1]:
             lines.extend(
                 [
@@ -169,6 +178,10 @@ def load_recent_events() -> list[dict]:
 
 
 def write_state(processed: list[str], failed: list[str], skipped: list[str]) -> None:
+    source_counts: dict[str, int] = {}
+    for event in load_recent_events():
+        source = str(event.get("source", "unknown"))
+        source_counts[source] = source_counts.get(source, 0) + 1
     state = {
         "last_run_at": utc_now(),
         "processed_count": len(processed),
@@ -176,6 +189,7 @@ def write_state(processed: list[str], failed: list[str], skipped: list[str]) -> 
         "failed_count": len(failed),
         "failed_files": failed,
         "skipped_duplicates": skipped,
+        "source_counts": source_counts,
     }
     STATE_PATH.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
@@ -188,7 +202,8 @@ def archive_file(path: Path, destination_dir: Path) -> None:
 
 
 def project_event_to_ontology(event: dict, ontology_url: str, timeout_seconds: float) -> tuple[bool, str | None]:
-    payload = json.dumps(event).encode("utf-8")
+    payload_text = json.dumps(event)
+    payload = payload_text.encode("utf-8")
     request = urllib.request.Request(
         ontology_url,
         data=payload,
@@ -200,8 +215,76 @@ def project_event_to_ontology(event: dict, ontology_url: str, timeout_seconds: f
             response.read()
         return True, None
     except urllib.error.URLError as exc:
+        parsed = urlparse(ontology_url)
+        host = parsed.hostname
+        if host:
+            code, stdout, stderr = project_via_edge_resolve(
+                host=host,
+                ontology_url=ontology_url,
+                payload_text=payload_text,
+                timeout_seconds=timeout_seconds,
+            )
+            if code == 0:
+                return True, None
+            if stdout or stderr:
+                return False, (stderr or stdout).strip()
         reason = getattr(exc, "reason", exc)
         return False, str(reason)
+
+
+def dig_records(host: str, timeout_seconds: float) -> list[str]:
+    try:
+        result = subprocess.run(
+            ["dig", "+short", host],
+            capture_output=True,
+            text=True,
+            check=False,
+            timeout=timeout_seconds,
+        )
+    except Exception:
+        return []
+    if result.returncode != 0:
+        return []
+    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+
+
+def project_via_edge_resolve(
+    *,
+    host: str,
+    ontology_url: str,
+    payload_text: str,
+    timeout_seconds: float,
+) -> tuple[int, str, str]:
+    for address in dig_records(host, timeout_seconds):
+        result = subprocess.run(
+            [
+                "curl",
+                "--silent",
+                "--show-error",
+                "--output",
+                "/dev/null",
+                "--write-out",
+                "%{http_code}",
+                "--max-time",
+                str(int(timeout_seconds)),
+                "--resolve",
+                f"{host}:443:{address}",
+                "-H",
+                "Content-Type: application/json",
+                "--data",
+                payload_text,
+                ontology_url,
+            ],
+            capture_output=True,
+            text=True,
+            check=False,
+            timeout=timeout_seconds,
+        )
+        if result.returncode == 0 and result.stdout.strip().isdigit():
+            status = int(result.stdout.strip())
+            if 200 <= status < 300:
+                return 0, result.stdout, result.stderr
+    return 1, "", "Edge-resolved POST failed"
 
 
 def reconcile(project_ontology: bool, ontology_url: str, ontology_timeout_seconds: float) -> int:

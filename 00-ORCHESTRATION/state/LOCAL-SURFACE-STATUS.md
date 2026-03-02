@@ -1,6 +1,6 @@
 # Local Surface Status
 
-**Captured**: 2026-03-02T04:49:24Z
+**Captured**: 2026-03-02T05:21:49Z
 
 ## Auth Surfaces
 
@@ -18,10 +18,10 @@
 
 - Local API reachable: `True`
 - Local proxy reachable: `True`
-- macOS resolver sees domain: `False`
+- macOS resolver sees domain: `True`
 - `dig` sees public records: `True`
 - Direct public edge health reachable: `True`
-- Default local domain health reachable: `False`
+- Default local domain health reachable: `True`
 
 ## Tunnel
 

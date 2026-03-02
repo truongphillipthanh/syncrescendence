@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit boundary-compliant exocortex events into the current Ajna landing zone."""
+"""Emit boundary-compliant exocortex events into the shared agent event landing zone."""
 
 from __future__ import annotations
 
@@ -12,6 +12,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent
 WORKSPACE_EVENTS_INBOX = Path.home() / ".openclaw" / "workspace" / "events" / "inbox"
 CAPTURE_POLICY_PATH = REPO_ROOT / "00-ORCHESTRATION" / "state" / "EXOCORTEX-CAPTURE-POLICY.json"
+ALLOWED_SOURCES = {"ajna", "manus", "commander", "system"}
 
 
 def utc_now() -> str:
@@ -122,7 +123,7 @@ def emit_event(
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", default="ajna", help="Current landing zone accepts ajna events by default")
+    parser.add_argument("--source", default="ajna", choices=sorted(ALLOWED_SOURCES))
     parser.add_argument("--surface", required=True)
     parser.add_argument("--artifact-class", required=True)
     parser.add_argument("--event-type", required=True)
@@ -133,9 +134,6 @@ def main() -> int:
     parser.add_argument("--ontology-entities", nargs="*", default=[])
     parser.add_argument("--payload", default="{}")
     args = parser.parse_args()
-
-    if args.source != "ajna":
-        raise SystemExit("The current reconciliation pipeline only accepts source='ajna'.")
 
     policy = load_policy()
     payload = json.loads(args.payload)

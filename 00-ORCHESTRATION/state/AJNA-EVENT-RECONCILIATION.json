@@ -1,8 +1,12 @@
 {
   "failed_count": 0,
   "failed_files": [],
-  "last_run_at": "2026-03-02T04:01:48Z",
+  "last_run_at": "2026-03-02T05:21:57Z",
   "processed_count": 0,
   "processed_ids": [],
-  "skipped_duplicates": []
+  "skipped_duplicates": [],
+  "source_counts": {
+    "ajna": 5,
+    "manus": 2
+  }
 }

@@ -47,6 +47,7 @@ These are already complete:
 
 5. edge verification
    - direct edge health probes succeed even when the default macOS resolver is still stale
+   - public API routes are reachable through the tunnel-backed domain once the local Caddy origin matches the tunneled host header
 
 ## Remaining Local Hardening
 

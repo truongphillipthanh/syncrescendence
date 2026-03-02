@@ -77,14 +77,13 @@ When Commander relays Manus results back into Syncrescendence, capture them with
 Suggested bridge command:
 
 ```bash
-python3 exocortex_event_bridge.py \
-  --surface exocortex \
-  --artifact-class manus_workflow \
-  --event-type manus_queue_state \
+python3 manus_checkpoint_bridge.py \
+  --workflow ontology_domain_stage1 \
+  --status returned_from_manus \
   --summary "Captured Manus ontology deployment checkpoint." \
-  --durable-capture summary_and_typed_record \
   --repo-paths 00-ORCHESTRATION/state/impl/ONTOLOGY-DOMAIN-STAGE1.md \
-  --payload '{"workflow":"ontology_domain_stage1","status":"returned_from_manus"}'
+  --project-ontology \
+  --ontology-url domain
 ```
 
 ## Best First Manus Prompt
