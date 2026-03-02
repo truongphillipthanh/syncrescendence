@@ -91,6 +91,12 @@ Drive CRUSH forward. Commander is CRUSH-only. Lane b → Adjudicator.
 - **No new Adjudicator dispatch staged** — health-psychology remediation was the focus. productivity-pkm and writing-creation entries need verification prompts.
 - **writing-creation is a very small folder now** (12 files). It may warrant merging consideration in future, but for now it stands as COMPLETE.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Operated in Phase 2 (redundancy) — fused multiple treatments into 12 definitive neocorpus entries across productivity-pkm and writing-creation, plus remediated Adjudicator findings on prior entries. Phase 1 (deduplication) was handled implicitly via reclassification of 337 off-topic files. Phases 3 (obsolescence) and 4 (supersession) were not systematically audited.
+
 ## Key Files
 
 | File | Purpose |

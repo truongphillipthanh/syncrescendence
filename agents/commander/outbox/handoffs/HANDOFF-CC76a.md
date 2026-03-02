@@ -34,7 +34,7 @@
 - **22/22 folders COMPLETE**: ALL FOLDERS DONE
 - **182 neocorpus entries** across 22 topic folders
 - **NUCLEOSYNTHESIS-MAP updated** with all 4 new folder sections
-- **CRUSH IS FINISHED** — the compendium's first pass is complete
+- **CRUSH Phase 2 first pass FINISHED** — the compendium exists across all 22 folders. Phases 3-4 unaudited.
 
 ## What Remains
 
@@ -58,11 +58,17 @@ Complete CRUSH. The compendium's first pass is now done. The Syncrescendence has
 
 ## WHAT THE NEXT SESSION MUST KNOW
 
-- **CRUSH IS FINISHED.** 22/22 folders, 182 entries. This is a milestone — the first complete pass of aggregative nucleosynthesis across the entire corpus.
+- **CRUSH Phase 1 (deduplication) and Phase 2 (redundancy) first pass: COMPLETE.** 22/22 folders, 182 entries. This is a milestone — every folder has been inventoried, reclassified, and nucleosynthesized into definitive entries. **Phases 3 (obsolescence — time-decayed knowledge whose lesson must be extracted) and 4 (supersession — version chains whose evolution narrative is a first-class artifact) remain unaudited across all 22 folders.** The compendium exists but has not been stress-tested for temporal decay or design-decision lineage.
 - **The compendium exists but is unverified.** 56 entries written this session have not been Adjudicator-verified. The 126 prior entries have partial verification (3 batches staged, 2 responses received).
 - **Supplemental CRUSH is needed** for folders that absorbed reclassified files after their initial nucleosynthesis (ai-capability-futures is the biggest gap: 199 unprocessed files).
 - **The CRUSH lane's mission is accomplished.** Future a-lane work shifts to: quality verification, supplemental passes, cross-folder synthesis, and canon promotion of the strongest entries.
 - **3 Adjudicator prompts on ~/Desktop/** still awaiting relay (71 entries from CC75a).
+
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Completed Phase 2 (redundancy) first pass across the final 4 folders (ai-memory-retrieval, claude-code, ai-models, multi-agent-systems) — 56 entries. Phase 1 (deduplication) was addressed in prior sessions via reclassification. **Phases 3 (obsolescence) and 4 (supersession) remain unaudited across all 22 folders.** The "CRUSH COMPLETE" claim is accurate for Phase 1 and Phase 2 first pass only. No systematic audit has identified time-decayed knowledge needing wisdom extraction (Phase 3) or version chains whose evolution narratives should become first-class artifacts (Phase 4).
 
 ## Key Files
 

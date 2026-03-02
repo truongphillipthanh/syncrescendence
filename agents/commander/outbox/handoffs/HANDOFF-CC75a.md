@@ -81,6 +81,12 @@ Drive CRUSH forward. Commander is CRUSH-only. Lane b → Adjudicator/tool stack.
 - **3 Adjudicator prompts on ~/Desktop/** awaiting relay (71 entries total).
 - **Reclassification inflated several already-COMPLETE folders** (startup-vc +9, productivity-pkm +28, prompt-engineering +6, infrastructure +37, geopolitics +20, health-psychology +7). These newly arrived files are NOT covered by existing entries. Consider supplemental CRUSH passes.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Operated in Phase 2 (redundancy) at scale — fused 54 definitive entries across 5 folders (ai-capability-futures, philosophy-esoterica, vibe-coding, meaning-civilization, product-business) plus reclassified 497 files (Phase 1). No systematic audit of time-decayed knowledge (Phase 3) or version chains encoding design decisions (Phase 4).
+
 ## Key Files
 
 | File | Purpose |
