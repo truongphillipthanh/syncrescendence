@@ -26,7 +26,7 @@ The evolutionary and cultural dimensions of this thesis are equally consequentia
 
 ### 1. Predictive Processing (Bayesian Brain / Helmholtz Tradition)
 
-- The brain is "essentially running the scientific method on autopilot" — combining priors with sensory evidence to form posteriors through optimal Bayesian inference (09838.md, Dr. Jeff Beck)
+- The brain is "essentially running the scientific method on autopilot" — combining priors with sensory evidence to form posteriors through optimal Bayesian inference (09863.md, Dr. Jeff Beck)
 - Perception is not direct observation but a "simulation built by the brain, which is then checked against sensory input" (02232.md, Max Bennett)
 - Optical illusions demonstrate that the brain's prior model can overpower incoming sensory signal (09266.md, Artem Kirsanov)
 - The brain generates predictions top-down and uses bottom-up signals to update models — the inversion that makes predictive processing canonical
@@ -35,8 +35,8 @@ The evolutionary and cultural dimensions of this thesis are equally consequentia
 
 - Free Energy is a trade-off between accuracy and complexity in model-building (09266.md)
 - The generative model issues predictions; the recognition model performs approximate (variational) inference to match predicted with observed (09266.md)
-- Active Inference extends this to action: organisms act to bring the world into conformity with predictions, minimizing free energy through both perception and behavior (09838.md, 10274.md)
-- Karl Friston cited across multiple sources as central figure (09838.md, 09863.md, 10274.md)
+- Active Inference extends this to action: organisms act to bring the world into conformity with predictions, minimizing free energy through both perception and behavior (09863.md, 10274.md)
+- Karl Friston cited across multiple sources as central figure (09863.md, 10274.md)
 
 ### 3. Thousand Brains Theory (Jeff Hawkins)
 
@@ -54,10 +54,10 @@ The evolutionary and cultural dimensions of this thesis are equally consequentia
 
 ### 5. Bayesian Object Models and the Grounding Problem
 
-- Jeff Beck: the brain works not like a giant prediction engine over pixels/tokens but like a scientist working with objects that interact through forces (09838.md)
+- Jeff Beck: the brain works not like a giant prediction engine over pixels/tokens but like a scientist working with objects that interact through forces (09863.md)
 - Current LLMs cannot form hypotheses, test them, and update beliefs based on experiments (02232.md)
-- Beck's proposed architecture: thousands of small modular object models that can be combined, swapped, updated — "like a video game engine" (09838.md)
-- Grounding AI in language is "fundamentally misguided" because self-report is the least reliable data in psychology (09838.md)
+- Beck's proposed architecture: thousands of small modular object models that can be combined, swapped, updated — "like a video game engine" (09863.md)
+- Grounding AI in language is "fundamentally misguided" because self-report is the least reliable data in psychology (09863.md)
 - JEPA (LeCun) cited as step toward learning in latent space rather than predicting every pixel (10274.md)
 
 ### 6. Biological Vision

@@ -4,8 +4,8 @@
 
 - `corpus/health-psychology/00035.md` — The Dopamine Trap: Why You Can't Focus and the 8-Day Fix
 - `corpus/health-psychology/01158.md` — Extraction: Non-Narrative Thinking (Newel of Knowledge)
-- `corpus/health-psychology/09299.md` — Non-narrative thinking is literally changing my life (Newel of Knowledge, source)
-- `corpus/health-psychology/09312.md` — How To Improve Your Focus Permanently (Justin Sung)
+- `corpus/health-psychology/09312.md` — Non-narrative thinking is literally changing my life (Newel of Knowledge, source)
+- `corpus/health-psychology/09299.md` — On Genius and Originality (Schopenhauer) — *tangentially related, not a primary source for this entry*
 - `corpus/health-psychology/09755.md` — How AI is Killing Your Potential (HealthyGamerGG / Dr. K)
 - `corpus/health-psychology/09846.md` — What the actual science says about brain rot (Howtown)
 - `corpus/health-psychology/02196.md` — Extraction: Brain rot science (Howtown)
@@ -44,7 +44,7 @@ Up to 70% of people with ADHD experience significant emotional dysregulation —
 
 **Biological exacerbants**: Sleep deprivation, hunger, and sensory overload each worsen emotional dysregulation in predictable ways (02673).
 
-**ADHD-Anxiety Distinction** (09702): ADHD-driven emotional instability can present as anxiety but the mechanism differs — ADHD produces unreliability of one's own mental processes, generating hypervigilance rather than external threat anxiety.
+**ADHD-Anxiety Distinction** (09702): ADHD-driven emotional instability can present as anxiety but the mechanism differs. *(Note: source file contains timestamps/metadata only — this claim requires fuller source verification before treating as established.)*
 
 ### 4. Brain Rot: The Empirical Question (09846, 02196)
 
@@ -59,13 +59,13 @@ Epistemic stance: high consensus pressure (0.70-0.80), moderate epistemic stabil
 
 ### 5. AI and the Cognitive Outsourcing Problem (09755, 10125)
 
-**"Brain Rust" (09755 — HealthyGamerGG)**: Cognitive atrophy from unused capacities because AI performs them. The concern is not accuracy but development prevention.
+**"Brain Rust" (09755 — HealthyGamerGG)**: The concept of cognitive atrophy from AI-performed capacities. *(Note: source file contains timestamps/metadata only — the detailed explanation requires fuller source verification.)*
 
 **Strategic Outsourcing (10125 — Justin Sung)**: Using Bloom's Taxonomy — LLMs operate on probability, not conceptual understanding. Most useful for low-complexity tasks (memorization, basic comprehension). Higher-order thinking (analysis, evaluation, synthesis) is where human value concentrates and what gets atrophied by over-reliance. Two failure modes: (a) accuracy risk (hallucination, fluency-as-truth illusion), (b) non-productive over-reliance (outsourcing capacity-building tasks). Survey of 923 learners provided empirical grounding.
 
 Both converge: it is the pattern of use, not AI per se, that determines cognitive outcome.
 
-### 6. Narrative Thinking as Cognitive Constraint (09299, 01158)
+### 6. Narrative Thinking as Cognitive Constraint (09312, 01158)
 
 The brain creates autobiographical narratives as default cognitive mode. Three common "scripts" function as autopilot patterns. Corrective: "self-anthropology" — treating oneself as an object of observation rather than a story protagonist. Grounded in Karen Simecek and Sartre's Being and Nothingness.
 

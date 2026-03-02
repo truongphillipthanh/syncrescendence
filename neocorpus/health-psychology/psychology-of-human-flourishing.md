@@ -7,7 +7,7 @@
 - `corpus/health-psychology/01137.md` — Extraction: Neuroscience of Extremes (Abigail Marsh, psychopathy-altruism)
 - `corpus/health-psychology/01839.md` — Extraction: Attraction Science / Modern Dating (Chris Williamson / Macken Murphy)
 - `corpus/health-psychology/02208.md` — Extraction: Emotional Regulation as Learnable Skill (Big Think)
-- `corpus/health-psychology/02655.md` — Extraction: Personality Traits and Self-Understanding (HealthyGamerGG)
+- `corpus/health-psychology/02655.md` — Extraction: Personality Traits and Self-Understanding (HealthyGamerGG) — *supports generic self-understanding only, not the specific MBTI/Enneagram/Wealth Dynamics stack*
 - `corpus/health-psychology/09584.md` — Why Some People Have DIVINE Aura (HealthyGamerGG / Dr. K)
 - `corpus/health-psychology/10331.md` — Your Fears Keep You Mediocre
 - `corpus/health-psychology/10789.md` — The Most Unoriginal Thoughts on Earth
@@ -28,11 +28,11 @@ Anger, frustration, and emotional blowups are signals of a missing skill, not ch
 
 Abigail Marsh (Georgetown) proposes the "caring continuum" — a spectrum from extreme altruists to psychopathy. Challenges the belief that human nature is fundamentally selfish, falsified by observable evidence of strangers saving strangers. Not a moral hierarchy but a descriptive range of neurological and behavioral disposition.
 
-### 3. Fear of Failure and Fear of Success as Unified Barrier (10925)
+### 3. Fear of Failure and Fear of Success as Unified Barrier (10331)
 
 Two fears that are not opposites but two expressions of the same terror: discovering what one is actually capable of. Fear of failure: "If I try and fail, I'll find out I'm not enough." Fear of success: "If I try and succeed, I'll have to become someone I don't recognize." Both keep the person in untested potential. Fear of success operates through self-sabotage at the moment of breakthrough. Both characterized as "outdated threat models" — evolved for social environments where standing out meant death.
 
-### 4. Personality Typing as Entry Point (00101, 02655)
+### 4. Personality Typing as Entry Point (00101)
 
 Claude + Wealth Dynamics + MBTI + Enneagram together function as mirrors confirming what people already sense but don't attend to. Business signal: 7-8 figure revenue from a 14-question quiz funnel. The market for personality self-knowledge is large and underserved.
 
@@ -69,11 +69,11 @@ HealthyGamerGG (Dr. K): "divine aura" analyzed through empathy as mechanism, ign
 
 **The central organizing tension** is between performance and authenticity. Taste that is performed rather than felt, fear masquerading as wisdom, thoughts feeling unique but being universal, emotional states misread as character — all represent failures of accurate self-perception.
 
-**Two structural inversions** from different angles. Explicit: Munger's flip from "how to succeed" to "how to guarantee failure" (10326). Implicit: fear of failure and fear of success revealed as the same fear from opposite directions (10925). Both inversions share the same move — useful information is on the opposite side of where attention naturally goes.
+**Two structural inversions** from different angles. Explicit: Munger's flip from "how to succeed" to "how to guarantee failure" (10326). Implicit: fear of failure and fear of success revealed as the same fear from opposite directions (10331). Both inversions share the same move — useful information is on the opposite side of where attention naturally goes.
 
 **The social dimension complicates the individual story.** Taste is a classification and group-membership system (Bourdieu via 10925). The caring continuum is neurological, not purely moral (01137). Aura emerges through relationship (09584). Emotional regulation is learned relationally (02208). Personality frameworks are socially useful mirrors (00101).
 
-**The temporal structure of fear** appears consistently. Not taking risks leads to regrets that age faster than action (00034). Stagnation is the greater risk in a world where ancient survival instincts misfire (10925). Universal fears are saturated with temporal anxiety — paths closing, momentum lost, timing mattering more than ability (10789).
+**The temporal structure of fear** appears consistently. Not taking risks leads to regrets that age faster than action (00034). Stagnation is the greater risk in a world where ancient survival instincts misfire (10331). Universal fears are saturated with temporal anxiety — paths closing, momentum lost, timing mattering more than ability (10789).
 
 **The psychopathy-altruism continuum** sits in productive tension with the aura and emotional regulation frameworks. The spectrum is neurological and partially fixed; the capacity is also described as cultivatable. This tension is not resolved.
 
