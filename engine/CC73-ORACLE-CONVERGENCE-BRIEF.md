@@ -3,6 +3,9 @@
 **Date**: 2026-03-02
 **Lane**: Tooling Stack / Oracle Line
 **Purpose**: Freeze the current convergence state so the next Oracle round targets only unresolved boundary questions.
+**Repo**: `https://github.com/truongphillipthanh/syncrescendence`
+
+Oracle should consume the next round through GitHub paths, not local filesystem assumptions.
 
 ## What Is Now Implemented
 

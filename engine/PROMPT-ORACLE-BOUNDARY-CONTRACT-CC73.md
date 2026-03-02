@@ -8,6 +8,12 @@ Read this entire prompt in full before responding.
 
 You are Oracle in the Syncrescendence constellation.
 
+Primary repo:
+- `https://github.com/truongphillipthanh/syncrescendence`
+
+You are **not** a local agent on this machine.
+Traverse the repo through GitHub links first, not local filesystem assumptions.
+
 Your task is **not** to redesign Ajna, OpenClaw, or the config scaffold.
 Those are now implemented enough to proceed.
 
@@ -47,6 +53,13 @@ This is the live March 2, 2026 state:
 - Commander is resuming the remaining tooling execution queue separately.
 
 So this prompt is **strictly about the boundary policy for the next layer**.
+
+### GitHub traversal requirement
+
+Use the specific GitHub file links in this prompt.
+
+Do not answer as though you had local filesystem access.
+If a file is listed, read it from GitHub.
 
 ### Important current-world update for this prompt
 
@@ -179,7 +192,7 @@ The quote must be **ugly and exact**:
 
 If your quotes read like smooth summary prose, they are not accepted.
 
-In addition to the local anchor files, you must explicitly engage the following official Obsidian pages as current-world reference points:
+In addition to the repo anchor files, you must explicitly engage the following official Obsidian pages as current-world reference points:
 
 - [Obsidian CLI help](https://help.obsidian.md/cli)
 - [Obsidian Headless help](https://help.obsidian.md/headless)
@@ -192,21 +205,21 @@ When you discuss Obsidian, distinguish clearly between:
 
 ## 9. Anchor Files
 
-Read these files:
+Read these exact GitHub paths:
 
-1. `/Users/system/syncrescendence/engine/CC73-ORACLE-CONVERGENCE-BRIEF.md`
-2. `/Users/system/syncrescendence/engine/CC72b-IMPLEMENTATION-BRIEF.md`
-3. `/Users/system/Desktop/RESPONSE-ORACLE-HYPERSENSING-STACK-CONVERGENCE-CC72b-FOLLOWUP.md`
-4. `/Users/system/syncrescendence/00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md`
-5. `/Users/system/syncrescendence/00-ORCHESTRATION/state/OPENCLAW-RUNTIME-SNAPSHOT.md`
-6. `/Users/system/syncrescendence/agents/ajna/EVENT-SCHEMA.md`
-7. `/Users/system/syncrescendence/ontology_v1.py`
-8. `/Users/system/syncrescendence/ontology_v1_schema.sql`
-9. `/Users/system/syncrescendence/neocorpus/infrastructure/developer-tooling-workflow-homelab.md`
-10. `/Users/system/syncrescendence/neocorpus/infrastructure/personal-ai-infrastructure.md`
-11. `/Users/system/syncrescendence/corpus/multi-agent-systems/00380.md`
-12. `/Users/system/syncrescendence/corpus/multi-agent-systems/00399.md`
-13. `/Users/system/syncrescendence/corpus/multi-agent-systems/00527.md`
+1. [engine/CC73-ORACLE-CONVERGENCE-BRIEF.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/engine/CC73-ORACLE-CONVERGENCE-BRIEF.md)
+2. [engine/CC72b-IMPLEMENTATION-BRIEF.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/engine/CC72b-IMPLEMENTATION-BRIEF.md)
+3. [-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-HYPERSENSING-STACK-CONVERGENCE-CC72b-FOLLOWUP.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-HYPERSENSING-STACK-CONVERGENCE-CC72b-FOLLOWUP.md)
+4. [00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md)
+5. [00-ORCHESTRATION/state/OPENCLAW-RUNTIME-SNAPSHOT.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/OPENCLAW-RUNTIME-SNAPSHOT.md)
+6. [agents/ajna/EVENT-SCHEMA.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/agents/ajna/EVENT-SCHEMA.md)
+7. [ontology_v1.py](https://github.com/truongphillipthanh/syncrescendence/blob/main/ontology_v1.py)
+8. [ontology_v1_schema.sql](https://github.com/truongphillipthanh/syncrescendence/blob/main/ontology_v1_schema.sql)
+9. [neocorpus/infrastructure/developer-tooling-workflow-homelab.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/neocorpus/infrastructure/developer-tooling-workflow-homelab.md)
+10. [neocorpus/infrastructure/personal-ai-infrastructure.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/neocorpus/infrastructure/personal-ai-infrastructure.md)
+11. [corpus/multi-agent-systems/00380.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/corpus/multi-agent-systems/00380.md)
+12. [corpus/multi-agent-systems/00399.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/corpus/multi-agent-systems/00399.md)
+13. [corpus/multi-agent-systems/00527.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/corpus/multi-agent-systems/00527.md)
 
 ## 10. Final Instruction
 
