@@ -1,9 +1,13 @@
 # Local Surface Status
 
-**Captured**: 2026-03-02T05:40:41Z
+**Captured**: 2026-03-02T18:30:19Z
 
 ## Auth Surfaces
 
+- `claude` authenticated: `True`
+- `claude` email: `icloud.truongphillipthanh@gmail.com`
+- `claude` organization: `icloud.truongphillipthanh@gmail.com's Organization`
+- `claude` billing type: `stripe_subscription`
 - `gcloud` authenticated: `True`
 - `gcloud` active account: `icloud.truongphillipthanh@gmail.com`
 - `gcloud` keychain pointer present: `True`

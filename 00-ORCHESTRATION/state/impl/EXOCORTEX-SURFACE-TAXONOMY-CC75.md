@@ -39,7 +39,7 @@ It does **not** assume that future IIC routing, Oracle-central control, or new c
 | `cloudflare_dns_domain_surface` | Cloudflare / tunnel / DNS | `implemented` | domain + edge infrastructure | CLI/API | Commander local | bridge already exists |
 | `slack_discord_runtime_surface` | Slack + Discord runtime state | `implemented` | channel runtime state | runtime | OpenClaw + Commander local | provider/runtime bridge exists; end-to-end dispatch still downstream-blocked |
 | `obsidian_repo_surface` | repo-backed Obsidian notes | `implemented` | local exocortex writing surface | local CLI | Commander local | repo-backed bridge exists; `.obsidian/` remains non-authoritative |
-| `google_model_surface` | Gemini API / AI Studio / Vertex model calls | `planned` | model execution | API | Commander local or future wrappers | must be separated from GCP infra and NotebookLM |
+| `google_model_surface` | Gemini API / AI Studio / Vertex model calls | `implemented` | model execution | API | Commander local or future wrappers | model checkpoint bridge now exists; remains separate from GCP infra and NotebookLM |
 | `gcloud_resource_surface` | GCP projects / services / infra | `implemented` | cloud infrastructure | CLI/API | Commander local | readiness/status path exists; richer wrappers still planned |
 | `notebooklm_surface` | NotebookLM personal / enterprise | `packetized` | source-bounded synthesis | web | Commander relay initially | packet + response bridge exist; treat personal as browser-only until official API reality changes |
 | `youtube_feed_surface` | YouTube Data API | `implemented` | feed/media ingestion | API | Commander local or future wrapper | feed checkpoint bridge now exists; likely Feedcraft backbone |
@@ -81,9 +81,8 @@ This is intentionally less ambitious than the Oracle ownership matrix.
 
 The next wrappers should likely be:
 
-1. `google_model_surface`
-2. `feedcraft_surface`
-3. `iic_line_surface`
+1. `feedcraft_surface`
+2. `iic_line_surface`
 
 NotebookLM, YouTube, xAI, and Claude Cowork now have their first repo-native wrapper layer:
 
@@ -91,5 +90,6 @@ NotebookLM, YouTube, xAI, and Claude Cowork now have their first repo-native wra
 - YouTube uses an API/checkpoint bridge with pointer-first capture and transcript-avoidance rules.
 - Claude Cowork uses the same packet -> returned markdown -> bridge event loop as NotebookLM.
 - xAI uses a model-execution checkpoint bridge with prompt/response raw capture explicitly disallowed.
+- Google model surfaces use the same model-execution checkpoint bridge pattern with provider separation between Gemini API, AI Studio, and Vertex.
 
 Only after those begin to exist should Feedcraft and IIC move from conceptual overlays into tooling artifacts.

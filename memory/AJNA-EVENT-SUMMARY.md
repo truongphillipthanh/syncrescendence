@@ -1,15 +1,24 @@
 # Agent Event Summary
 
-**Updated**: 2026-03-02T18:19:23Z
+**Updated**: 2026-03-02T18:30:18Z
 
 ## Source Counts
 
 - `ajna`: `3`
-- `commander`: `5`
+- `commander`: `6`
 - `manus`: `2`
 - `system`: `17`
 
 ## Recent Events
+
+### commander-20260302-183018-332001-google-model-checkpoint
+- Emitted: `2026-03-02T18:30:18Z`
+- Type: `google_model_checkpoint`
+- Surface: `exocortex`
+- Artifact class: `model_execution_record`
+- Capture level: `summary`
+- Durable capture: `summary_and_typed_record`
+- Summary: Smoke-check Google model bridge event emission.
 
 ### commander-20260302-181923-219248-youtube-feed-checkpoint
 - Emitted: `2026-03-02T18:19:23Z`
@@ -91,12 +100,3 @@
 - Capture level: `summary`
 - Durable capture: `summary_and_typed_record`
 - Summary: Concurrent Discord channel probe after reconciler lock.
-
-### system-20260302-054056-240680-slack-channel-state
-- Emitted: `2026-03-02T05:40:56Z`
-- Type: `slack_channel_state`
-- Surface: `runtime`
-- Artifact class: `slack_discord_comms`
-- Capture level: `summary`
-- Durable capture: `summary_and_typed_record`
-- Summary: Captured Slack runtime health state: provider healthy, no traffic observed yet.

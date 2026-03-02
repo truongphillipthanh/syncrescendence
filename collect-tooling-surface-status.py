@@ -18,6 +18,7 @@ REPO_ROOT = Path(__file__).resolve().parent
 STATE_DIR = REPO_ROOT / "00-ORCHESTRATION" / "state"
 JSON_PATH = STATE_DIR / "LOCAL-SURFACE-STATUS.json"
 MD_PATH = STATE_DIR / "LOCAL-SURFACE-STATUS.md"
+CLAUDE_CONFIG_PATH = Path.home() / ".claude.json"
 
 KEYCHAIN_CANDIDATES = {
     "gcloud_account": [("syncrescendence", "gcloud-account")],
@@ -360,6 +361,26 @@ def manus_status(keychain_status: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
+def claude_code_status() -> dict[str, Any]:
+    if not CLAUDE_CONFIG_PATH.exists():
+        return {"available": False, "reason": "config_missing"}
+    try:
+        payload = json.loads(CLAUDE_CONFIG_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return {"available": False, "reason": "config_unreadable", "error": str(exc)}
+
+    account = payload.get("oauthAccount") or {}
+    return {
+        "available": True,
+        "authenticated": bool(account),
+        "email": account.get("emailAddress"),
+        "display_name": account.get("displayName"),
+        "organization_name": account.get("organizationName"),
+        "organization_uuid": account.get("organizationUuid"),
+        "billing_type": account.get("billingType"),
+    }
+
+
 def collect() -> dict[str, Any]:
     gcloud_keychain = resolve_candidate_group("gcloud_account")
     cloudflare_keychain = resolve_candidate_group("cloudflare_account_id")
@@ -382,6 +403,7 @@ def collect() -> dict[str, Any]:
 
     return {
         "captured_at": utc_now(),
+        "claude_code": claude_code_status(),
         "openclaw_channels": openclaw_channel_status(),
         "gcloud": {
             "cli": gcloud_status(),
@@ -414,6 +436,7 @@ def write_report(report: dict[str, Any]) -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     JSON_PATH.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
+    claude_code = report["claude_code"]
     gcloud_cli = report["gcloud"]["cli"]
     wrangler_cli = report["wrangler"]["cli"]
     manus = report["manus"]
@@ -427,6 +450,10 @@ def write_report(report: dict[str, Any]) -> None:
         "",
         "## Auth Surfaces",
         "",
+        f"- `claude` authenticated: `{claude_code.get('authenticated')}`",
+        f"- `claude` email: `{claude_code.get('email')}`",
+        f"- `claude` organization: `{claude_code.get('organization_name')}`",
+        f"- `claude` billing type: `{claude_code.get('billing_type')}`",
         f"- `gcloud` authenticated: `{gcloud_cli.get('authenticated')}`",
         f"- `gcloud` active account: `{gcloud_cli.get('active_account')}`",
         f"- `gcloud` keychain pointer present: `{report['gcloud']['keychain'].get('present')}`",

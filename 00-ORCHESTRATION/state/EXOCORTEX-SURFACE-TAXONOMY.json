@@ -59,7 +59,7 @@
     {
       "slug": "google_model_surface",
       "service": "Gemini API / AI Studio / Vertex model calls",
-      "status": "planned",
+      "status": "implemented",
       "category": "model_execution",
       "access_model": "api",
       "owning_harness": "commander_local_or_future_wrapper"

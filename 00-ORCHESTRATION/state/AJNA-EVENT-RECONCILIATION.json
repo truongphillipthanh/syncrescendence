@@ -1,15 +1,15 @@
 {
   "failed_count": 0,
   "failed_files": [],
-  "last_run_at": "2026-03-02T18:19:23Z",
+  "last_run_at": "2026-03-02T18:30:18Z",
   "processed_count": 1,
   "processed_ids": [
-    "commander-20260302-181923-219248-youtube-feed-checkpoint"
+    "commander-20260302-183018-332001-google-model-checkpoint"
   ],
   "skipped_duplicates": [],
   "source_counts": {
     "ajna": 3,
-    "commander": 5,
+    "commander": 6,
     "manus": 2,
     "system": 17
   }
