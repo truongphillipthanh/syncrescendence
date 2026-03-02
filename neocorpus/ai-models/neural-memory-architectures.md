@@ -49,5 +49,28 @@ Agent memory in the constellation currently lives in external systems: project f
 
 ---
 
+## Temporal Framing
+
+### What the Sources Support (Platform Convergence Only)
+
+The mid-January 2026 platform survey (08814.md) establishes a verifiable temporal signal: all three major frontier platforms — Gemini, ChatGPT, Claude — rolled out or upgraded persistent memory features within a two-day window in January 2026 (Gemini Personal Intelligence: January 14; ChatGPT memory: January 15; Claude project memory: ongoing). Simultaneous rollout by competitors indicates a convergence point — memory has crossed the threshold from differentiator to table stakes.
+
+The direction of travel is clear from the source: platforms are moving from stateless (each conversation begins fresh) toward persistent (context accumulates across sessions). The mechanism differs by platform — Claude isolates per project, Gemini connects across apps, ChatGPT maintains a single memory store — but the direction is uniform.
+
+### Obsolescence: The Stateless Session Assumption
+
+Before persistent memory became standard, AI deployment assumed stateless sessions. Each conversation was independent. Users who wanted continuity had to manually re-inject context at the start of each session. Workflow designs built around this assumption include: preamble templates, "remind me what we were working on" prompts, and external note-keeping systems to bridge session gaps.
+
+These workarounds are not yet obsolete — Claude's project memory is project-scoped and does not persist arbitrary cross-session context — but they are being progressively displaced. The obsolescence is in progress, not complete.
+
+### Phase 3-4 Audit Note
+
+Source material for this entry is severely limited. The Titans and MIRAS architectural papers are mentioned only in a brief video description (09623.md) with no transcript. No corpus file provides the technical depth needed to write a supersession chain for neural memory architectures at the model-weights level. The temporal framing above is drawn exclusively from the platform-level convergence documented in 08814.md — which concerns external/session memory features, not architectural changes to how models store information in weights.
+
+A complete Phase 3-4 treatment of neural memory architectures (LSTM→attention→neural memory as weight update) requires corpus sources with transcript-level content on Titans, MIRAS, or comparable architectures. This entry cannot provide that without fabrication.
+
+---
+
 *Compendium entry 8 of 21 -- ai-models*
 *Remediated: 2026-03-02 — stripped fabricated claims; entry reflects only source-supported content*
+*Phase 3-4 enrichment: 2026-03-02 — platform convergence temporal framing added; architectural supersession flagged as requiring richer sources*

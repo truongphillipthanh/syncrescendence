@@ -92,6 +92,30 @@ For practitioners: learn the mathematics well enough to derive the algorithms yo
 
 ---
 
+## Temporal Framing
+
+### Obsolescence: The Prediction Paradigm
+
+For the first decade of modern deep learning (roughly 2012-2022), the dominant evaluative criterion was predictive accuracy on held-out test sets. The assumption embedded in this criterion was that a model which predicts well has learned the underlying structure. This assumption was not stated but acted upon: loss functions were defined as prediction errors, benchmarks measured prediction accuracy, and leaderboard position on test sets became the proxy for intelligence.
+
+Yi Ma's parsimony-and-self-consistency framework — as of its articulation in the cited sources — makes the obsolescence of this criterion explicit: prediction accuracy is a necessary but insufficient condition for understanding. A model can achieve state-of-the-art prediction by memorizing compressed statistical regularities in the training distribution without discovering the generative structure. The criterion was wrong, not because prediction is unimportant, but because it was used as a proxy for something it does not reliably indicate.
+
+The lesson is not that we stopped caring about prediction — it is that we added a second criterion (structural comprehension) that the existing benchmarks did not measure and that prediction accuracy alone cannot establish.
+
+### Supersession: Math Prerequisites as a Moving Target
+
+The autodidact pathway described in the sources (Goodfellow/Bengio/Courville, 3Blue1Brown, Karpathy) represents the 2020-era consensus on which mathematics was necessary. This consensus was shaped by the dominant paradigm at the time: supervised deep learning with gradient descent on fixed datasets. The prerequisites were statistics (for understanding data), linear algebra (for understanding networks), and calculus (for understanding optimization).
+
+The emergence of reinforcement learning for reasoning (RLHF, RLVR), agentic architectures, and Ma's compression framework each expand the required mathematical surface. RL requires understanding Markov decision processes and reward shaping. Compression-first approaches require information-theoretic grounding (Kolmogorov complexity, minimum description length). The canonical 2020 prereq list is not wrong — it is incomplete relative to the 2025-2026 research frontier.
+
+The supersession chain: *statistics + linear algebra + calculus* (sufficient for supervised DL, 2015-2022) → *+ RL theory* (necessary for reasoning models, 2022+) → *+ information theory* (necessary for compression-as-intelligence frameworks, 2024+).
+
+### Phase 3-4 Audit Note
+
+Source material (00029, 09680, 10896) supports the static mathematical toolkit and Yi Ma's framework. It does not supply a historical narrative of how the prerequisite consensus evolved or what was discarded. The supersession chain above is reasoned inference from the content of the sources and the research context they represent — it is not directly stated in the cited material.
+
+---
+
 ## Source Provenance
 
 | Source | Corpus ID | Content |

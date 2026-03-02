@@ -44,6 +44,30 @@ ARK Invest's Brett Winton argued the AI investment build-out is not a bubble. Hi
 
 ---
 
+## Temporal Framing
+
+### Obsolescence: "Is Scaling Dead?" as a Diagnostic
+
+The question "Is scaling dead?" — which Mark Chen addressed directly in the December 2025 episode — is itself a temporal artifact. The question only becomes askable after a period during which scaling was treated as an unquestioned primary strategy. It arose because several inflection points suggested diminishing returns: GPT-4 to GPT-4.5 showed smaller capability leaps than GPT-3 to GPT-4, and the compute cost of each subsequent generation escalated faster than the capability gain.
+
+Chen's answer ("pre-training scale remains a live engineering priority") and Tworek's answer ("the current recipe has limits; new methods are needed") are not contradictory. They describe two different questions: Chen is answering whether pre-training is still worth doing; Tworek is answering whether pre-training alone is sufficient. Both can be true.
+
+The obsolescence lesson: the assumption that a single scaling recipe — more data, more compute, same architecture — would compound indefinitely was not stated explicitly, but it was acted upon. Investment decisions, team structures, and research roadmaps were built around it. Tworek's "sad homogeneity" observation is the obituary for that assumption: when every lab converges on the same recipe, it signals that the recipe is no longer a differentiator — either because it works for everyone or because everyone has hit the same ceiling.
+
+### Supersession: Scaling Strategies
+
+**v1 (2020-2023)**: Pre-training scale as the primary lever. Chinchilla scaling laws (Hoffmann et al., 2022) provided the governing formula: given a compute budget, allocate between model size and training tokens at a specific ratio. Labs built roadmaps around this. The assumption was that the Chinchilla recipe was approximately optimal and that capability gains would follow predictably from compute investment.
+
+**v2 (2024-2026)**: Pre-training scale as one of several levers. Reinforcement learning for reasoning (RLHF → RLVR → test-time compute) emerged as a complementary scaling axis. GPT-4o, o1, and the GPT-5.x reasoning models demonstrate that scaling inference compute (chain-of-thought, multi-attempt reasoning) produces capability gains on specific task classes that pre-training scale alone does not. Tworek's "new architectures and continual learning" chapter signals that labs are searching for v3 — scaling axes that pre-training and RL-for-reasoning do not cover.
+
+**What broke v1**: The reasoning model breakthrough (o1-class models) demonstrated that test-time compute was a scalable capability axis, not just an architectural trick. This was not predicted by the Chinchilla scaling laws, which measured training-time compute only. The lesson: scaling laws are predictive only within the paradigm they were derived from. Paradigm shifts produce new scaling axes that old laws do not capture.
+
+### Phase 3-4 Audit Note
+
+Both cited sources (09558, 10201) are description-only YouTube videos with no transcripts. The temporal framing above is derived from chapter titles, the episode framing ("Is Scaling Dead?"), and Tworek's "sad homogeneity" comment as represented in the entry. The Chinchilla reference is sourced from external knowledge, not from the cited corpus files. The supersession chain is reasoned inference, not direct citation.
+
+---
+
 ## Source Provenance
 
 | Source | Corpus ID | Content |

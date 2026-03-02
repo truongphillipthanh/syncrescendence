@@ -80,6 +80,28 @@ Token efficiency and inference speed have moved from engineering details to stra
 
 ---
 
+## Temporal Framing
+
+### Obsolescence: Accuracy as the Primary Evaluation Metric
+
+Until approximately 2024, frontier model evaluation centered almost exclusively on accuracy metrics: MMLU, HumanEval, BenchmarkX scores. The implicit assumption was that the primary competition was capability — which model can do the task at all, or do it most correctly. Cost and speed were engineering concerns, not competitive metrics.
+
+This assumption reflects the reality of an early market where the question was "can AI do this?" rather than "can AI do this at a viable cost?" Once the answer to the first question became broadly "yes" for a wide class of tasks, the question shifted. Token efficiency emerged as a competitive metric precisely because capability was no longer the differentiator — multiple models could solve the problem; the question was which one costs less to run at scale.
+
+The obsolescence lesson: evaluation frameworks that measure only accuracy become systematically misleading once capability is no longer scarce. A team that chose the "most accurate" model in 2023 without regard to inference cost may have built production systems whose economics become untenable as usage scales. The ARC-AGI-2 scatter plot format (score vs. cost-per-task) is the v2 evaluation artifact — it makes the full tradeoff surface explicit rather than collapsing it to a single accuracy number.
+
+### Supersession: Context Window Assumptions
+
+**v1 (2020-2023)**: Context windows of 4K-8K tokens were the baseline. Practitioners designed workflows around this constraint: chunking strategies, sliding window approaches, retrieval-augmented generation to fetch relevant passages. The fundamental assumption was that context was a scarce resource requiring explicit management.
+
+**v2 (2024-2025)**: Context windows extended to 128K-200K tokens. The chunking strategies became partially obsolete for many use cases. But new failure modes emerged: context degradation (the "60% Rule" mentioned in source 10111), where models perform worse on material near the middle or edges of long contexts. The v2 assumption — that filling the context window was straightforwardly good — broke under empirical observation of degradation.
+
+**v3 (2026)**: Opus 4.6's 1M token context window, combined with Anthropic's explicit framing of context length as enabling "sustained agentic tasks," signals a qualitative shift. The constraint is no longer primarily about fitting content into the window but about maintaining reasoning coherence across it. The open question (not addressed in cited sources) is whether 1M tokens of coherent reasoning is achievable or whether degradation scales with window size in ways that neutralize the nominal capacity expansion.
+
+The supersession chain: *chunking and retrieval* (sufficient for 4K-8K context, 2020-2023) → *direct in-context* (enabled by 128K-200K, but degradation discovered) → *agentic sustained context* (1M token target, 2026 — degradation management still an open problem).
+
+---
+
 ## Source Provenance
 
 | Source | Corpus ID | Content |

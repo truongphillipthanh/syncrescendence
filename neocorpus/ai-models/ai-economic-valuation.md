@@ -86,6 +86,30 @@ For operators and practitioners, the actionable implication is: focus on demonst
 
 ---
 
+## Temporal Framing
+
+### Obsolescence: The Dot-Com Bubble Analogy
+
+The dominant skeptical frame for AI investment in 2023-2024 was the dot-com bubble analogy: massive capital expenditure, speculative demand, eventual write-down. This analogy was applied specifically to data center CapEx — the argument that fiber optic overbuilding in the late 1990s destroyed billions in capital, and AI infrastructure was on the same trajectory.
+
+Brett Winton's November 2025 rebuttal (the cited source) identifies why this analogy fails: fiber optic demand in the late 1990s was genuinely speculative (betting on future internet adoption that had not yet materialized), while AI compute demand is demonstrated (inference volume is measurably growing). The distinction is between supply built ahead of demand (fiber optics) and supply built in response to observed demand (AI data centers).
+
+The obsolescence lesson: the bubble analogy was not wrong because bubbles don't happen — they do. It was wrong because it applied a pattern from a speculative demand context to a demonstrated demand context. The diagnostic question should have been "is the demand real?" rather than "does the investment pattern resemble a prior bubble?"
+
+### Supersession: Valuation Framework for Transformative Technologies
+
+**v1 (pre-AI era)**: Standard SaaS valuation. ARR, NRR, churn, growth rate multiplied by a revenue multiple. This framework was calibrated on recurring revenue businesses where value accrues continuously through ongoing subscription relationships.
+
+**v2 (Winton's critique, November 2025)**: The "cures vs. subscriptions" reframe. One-time transformative events (automating a job category permanently, solving a disease) generate enormous economic value but non-recurring revenue. Traditional SaaS metrics miss this because they are designed for recurring revenue patterns. A business that eliminates an entire cost category for a customer once generates enormous value but looks poor on ARR metrics.
+
+The supersession is incomplete — there is no established v2 framework that Wall Street has adopted. Winton's critique identifies the failure mode of v1 without proposing a replacement valuation methodology. The Anthropic Economic Index's "economic primitives" approach (task complexity, autonomy, success rates) is a measurement framework, not a valuation framework. The gap between identifying the right measurement unit and building a valuation model on top of it remains open.
+
+### Phase 3-4 Audit Note
+
+The ARK Invest source (01248) was published November 2025. Winton's 40-50x compound productivity prediction is time-bounded — it references "this year" (2025-2026). The prediction is either being validated or falsified in the period between the source's publication and the current date. The entry cannot assess the prediction's accuracy without additional sourced material on AI revenue growth trajectories.
+
+---
+
 ## Source Provenance
 
 | Source | File | Content |
@@ -98,3 +122,4 @@ For operators and practitioners, the actionable implication is: focus on demonst
 *Compendium entry 14 of 21 -- ai-models*
 *Crystallized: 2026-03-02*
 *Remediated: 2026-03-02 — removed fabricated 09903 citation (talking-avatar tutorial, not economics), stripped unsupported global-inequality claims, stripped fabricated pricing numbers, added 08814 for task-primitives provenance*
+*Phase 3-4 enrichment: 2026-03-02 — dot-com analogy obsolescence, SaaS valuation supersession added*

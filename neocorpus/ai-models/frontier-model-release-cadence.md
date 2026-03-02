@@ -95,6 +95,28 @@ The deeper question is whether interval compression with per-release capability 
 
 ---
 
+## Temporal Framing
+
+### Obsolescence: The "Major Version" Mental Model
+
+Before the 2025-2026 compression, the dominant mental model for AI model releases was the major-version cycle: GPT-3 → GPT-4, a generational leap requiring one to two years of work. Under this model, releases were events, not pulses. The practical implication was that practitioners could safely ignore a model for a year after evaluation — the next significant change would be far away, and the competitive landscape would be stable between releases.
+
+This mental model is obsolete. The compressed cadence (2-3 months, significant capability gains per interval) means the "evaluate once, deploy, revisit in a year" workflow produces dangerously stale routing decisions within a quarter. Model recommendations now have a shelf life measurable in weeks.
+
+The lesson: cadence governs maintenance burden. Slow cadence permitted passive governance; fast cadence requires active governance. Teams that built AI tooling under the major-version assumption now face an operational debt — their model selection and integration processes were not designed for the current pace.
+
+### Supersession: Benchmark Narrative Strategy
+
+**v1 (2023-2024)**: Labs released single-benchmark narratives. "Best on MMLU." "Best on HumanEval." The assumption was that one benchmark could function as a credible proxy for overall capability. Users and press treated benchmark leadership as a clean ordering relation.
+
+**v2 (2025-2026)**: The proliferation of benchmarks (ARC-AGI-2, SWE-Bench Pro, LM Arena, Arena Hard) broke the single-benchmark ordering. Every lab can now claim benchmark leadership — ARC-AGI-2 for Anthropic, SWE-Bench Pro for OpenAI, LM Arena for Google. The v1 assumption (one benchmark ≈ overall capability) broke under the reality that capability is multidimensional and labs can select benchmarks that favor their architecture.
+
+**What broke v1**: Gemini 3.0 Pro's LM Arena dominance in late 2025, followed by OpenAI's "Code Red" and counter-releases, demonstrated that benchmark leadership does not translate to competitive security — a competitor can reach parity on a different benchmark within weeks. The ordering relation was not stable; it was a snapshot.
+
+**The corrective (v2)**: "Best model" is now always qualified by "at what, under what conditions, at what cost." The ARC-AGI-2 cost-performance scatter plot is the canonical v2 artifact: it makes explicit that no single number suffices and that the relevant comparison space is a frontier, not a ranking.
+
+---
+
 ## Source Provenance
 
 | Source | Corpus ID | Content |

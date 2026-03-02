@@ -84,6 +84,24 @@ These anti-patterns reflect practitioner common sense consistent with the demons
 
 ---
 
+## Temporal Framing
+
+### What the Sources Support
+
+The sources establish one temporal signal with Phase 3-4 value: GPT-OSS 20B running locally via LM Studio (demonstrated in 10361, published January 2026) represents a data point in the long-running displacement of the assumption that local AI was inherently limited to toy use cases. A practitioner in 2026 is demonstrating autonomous browser control and log analysis with a 20B parameter local model — tasks that would have required hosted frontier APIs two years earlier.
+
+The sourced GPT-5.1 material (01332) documents hosted-model capability dimensions (adaptive compute allocation, Thinking mode, planning improvements) that represent infrastructure choices local models cannot replicate at equivalent scale on consumer hardware. This establishes the persistent capability gap for compute-intensive tasks even as local capability has expanded.
+
+### Obsolescence: "Local AI is a Research Toy"
+
+The assumption that local models were inherently unsuitable for production-adjacent tasks has been progressively invalidated by the open-weight model ecosystem (Llama, Mistral, GPT-OSS). The Clawdbot + GPT-OSS 20B demonstration in 10361 is evidence from the practitioner layer: the tooling exists, the setup is demonstrated, and the tasks (browser automation, log analysis) are substantive. The question has shifted from "can local models do useful work?" to "what are the remaining capability and security tradeoffs?"
+
+### Phase 3-4 Audit Note
+
+Source material for this entry is insufficient for a full temporal framing treatment. The three sources (10361, 10270, 01332) provide: one hands-on demo with no quantitative capability claims, one general AI news video with no extractable content, and one 4-atom extraction covering GPT-5.1 features. No source establishes the historical trajectory of local vs. hosted capability gaps, the economics of crossover points, or the design decisions that made one preferable to the other at different points in time. The supersession chain (from "local is a toy" to "local handles substantive tasks with tradeoffs") is directionally supportable from the sources but cannot be quantified or detailed without additional corpus material. This entry's enrichment path (listed below) remains the honest characterization of its state.
+
+---
+
 ## Enrichment Path
 
 This entry requires additional corpus material to become a full compendium treatment. Needed:
@@ -110,3 +128,4 @@ Until richer sources are incorporated, this entry serves as a source-accurate st
 *Compendium entry 10 of 21 -- ai-models*
 *Crystallized: 2026-03-02*
 *Remediated: 2026-03-02 — stripped unsupported claims per Adjudicator audit (8/8 issues)*
+*Phase 3-4 enrichment: 2026-03-02 — "local is a toy" obsolescence noted; full supersession flagged as requiring richer sources*

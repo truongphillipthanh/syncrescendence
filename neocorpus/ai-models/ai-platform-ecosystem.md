@@ -92,6 +92,26 @@ The practical implication for sophisticated multi-platform operators is that the
 
 ---
 
+## Temporal Framing
+
+### Obsolescence: Duet AI and the Rebranding Signal
+
+The Google ecosystem audit (08800.md) explicitly notes that "Duet AI branding has been replaced by Gemini nomenclature." This is a minor detail with a diagnostic value beyond its surface meaning: product rebranding at the speed of AI development is a signal that the underlying strategic thesis changed. Google launched Duet AI as a Workspace copilot product — a specific positioning (AI as assistant within existing workflows). The migration to Gemini branding reflects a strategic shift toward a unified AI identity that spans consumer, developer, and infrastructure layers rather than being scoped to a single product category.
+
+The obsolescence lesson: product branding in AI changes faster than enterprise procurement cycles. Organizations that built internal documentation, training materials, or integration architectures around "Duet AI" had to revise them as the brand disappeared. The rate of strategic repositioning (and associated rebranding) at AI labs is structurally faster than what enterprise IT departments are accustomed to managing.
+
+### Supersession: Platform Integration Topology
+
+**v1 (2023)**: AI platforms as point solutions. An organization evaluated each AI tool independently — a coding assistant, an image generator, a chatbot — and each had its own authentication, pricing, and integration surface. The assumption was that these tools would remain largely separate.
+
+**v2 (2024-2025)**: Ecosystem integration as a competitive dimension. Google's Labs portfolio graduating tools to production, Firebase Genkit enabling one-click deployment from prototype to cloud function, and Gemini Personal Intelligence connecting Gmail/Photos/YouTube/Search into a single memory context — these represent a shift from point solutions to integrated ecosystem layers. The strategic question changed from "which tool?" to "which ecosystem?"
+
+**v3 (2026, in progress)**: Protocol-layer competition. Anthropic's MCP as an open protocol that any tool can implement and any model can consume represents a counter-strategy to ecosystem lock-in: rather than compete at the ecosystem layer (where Google has structural advantages), establish the integration standard. If MCP becomes the default, Anthropic wins developer mindshare without needing to own the full stack. This is a supersession of the v2 pattern — instead of building a bigger ecosystem, you build the grammar that all ecosystems must speak.
+
+**What broke v1**: The rapid maturation of cloud infrastructure (Vertex AI, Firebase Genkit) combined with Gemini's cross-app integration made ecosystem-native development significantly more efficient than stitching together independent point solutions. The tooling for v2 was not available in 2023; by 2025-2026 it was the default path for new AI-native development.
+
+---
+
 ## Source Provenance
 
 | Source | File | Content |
@@ -103,3 +123,4 @@ The practical implication for sophisticated multi-platform operators is that the
 
 *Compendium entry 12 of 21 -- ai-models*
 *Crystallized: 2026-03-02*
+*Phase 3-4 enrichment: 2026-03-02 — Duet AI obsolescence, platform topology supersession chain added*
