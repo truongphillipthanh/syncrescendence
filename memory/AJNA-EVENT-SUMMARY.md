@@ -1,15 +1,33 @@
 # Agent Event Summary
 
-**Updated**: 2026-03-02T05:56:26Z
+**Updated**: 2026-03-02T06:23:19Z
 
 ## Source Counts
 
 - `ajna`: `3`
-- `commander`: `2`
+- `commander`: `4`
 - `manus`: `2`
 - `system`: `17`
 
 ## Recent Events
+
+### commander-20260302-062318-497297-perplexity-response-landed
+- Emitted: `2026-03-02T06:23:18Z`
+- Type: `perplexity_response_landed`
+- Surface: `exocortex`
+- Artifact class: `repo_markdown_change`
+- Capture level: `summary`
+- Durable capture: `summary_and_typed_record`
+- Summary: Perplexity verification landed for Google, YouTube, and xAI surface separation.
+
+### commander-20260302-062318-482132-oracle-response-landed
+- Emitted: `2026-03-02T06:23:18Z`
+- Type: `oracle_response_landed`
+- Surface: `exocortex`
+- Artifact class: `repo_markdown_change`
+- Capture level: `summary`
+- Durable capture: `summary_and_typed_record`
+- Summary: Oracle surface-taxonomy response landed; requires adjudication against CC73 boundary contract before canonizing ownership assumptions.
 
 ### system-20260302-055626-371957-mini-constellation-launchagent-state
 - Emitted: `2026-03-02T05:56:26Z`
@@ -76,24 +94,6 @@
 
 ### system-20260302-054056-019963-discord-channel-state
 - Emitted: `2026-03-02T05:40:56Z`
-- Type: `discord_channel_state`
-- Surface: `runtime`
-- Artifact class: `slack_discord_comms`
-- Capture level: `summary`
-- Durable capture: `summary_and_typed_record`
-- Summary: Captured Discord runtime health state: provider healthy, no traffic observed yet.
-
-### system-20260302-053951-728794-slack-channel-state
-- Emitted: `2026-03-02T05:39:51Z`
-- Type: `slack_channel_state`
-- Surface: `runtime`
-- Artifact class: `slack_discord_comms`
-- Capture level: `summary`
-- Durable capture: `summary_and_typed_record`
-- Summary: Captured Slack runtime health state: provider healthy, no traffic observed yet.
-
-### system-20260302-053950-845369-discord-channel-state
-- Emitted: `2026-03-02T05:39:50Z`
 - Type: `discord_channel_state`
 - Surface: `runtime`
 - Artifact class: `slack_discord_comms`

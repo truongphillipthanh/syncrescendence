@@ -1,0 +1,131 @@
+{
+  "surfaces": [
+    {
+      "slug": "oracle_web_surface",
+      "service": "Grok / Oracle web",
+      "status": "packetized",
+      "category": "strategic_hypersensing",
+      "access_model": "web",
+      "owning_harness": "commander_relay"
+    },
+    {
+      "slug": "perplexity_web_surface",
+      "service": "Perplexity web",
+      "status": "packetized",
+      "category": "external_verification",
+      "access_model": "web",
+      "owning_harness": "commander_relay"
+    },
+    {
+      "slug": "manus_workflow_surface",
+      "service": "Manus API / runs",
+      "status": "implemented",
+      "category": "autonomous_backend_execution",
+      "access_model": "api",
+      "owning_harness": "manus"
+    },
+    {
+      "slug": "github_issue_pr_surface",
+      "service": "GitHub issues / PRs / CI",
+      "status": "implemented",
+      "category": "coordination_verification",
+      "access_model": "api_web",
+      "owning_harness": "commander_local"
+    },
+    {
+      "slug": "cloudflare_dns_domain_surface",
+      "service": "Cloudflare / tunnel / DNS",
+      "status": "implemented",
+      "category": "domain_edge_infrastructure",
+      "access_model": "cli_api",
+      "owning_harness": "commander_local"
+    },
+    {
+      "slug": "slack_discord_runtime_surface",
+      "service": "Slack + Discord runtime state",
+      "status": "implemented",
+      "category": "channel_runtime_state",
+      "access_model": "runtime",
+      "owning_harness": "openclaw_and_commander_local"
+    },
+    {
+      "slug": "obsidian_repo_surface",
+      "service": "repo-backed Obsidian notes",
+      "status": "implemented",
+      "category": "local_exocortex_writing",
+      "access_model": "local_cli",
+      "owning_harness": "commander_local"
+    },
+    {
+      "slug": "google_model_surface",
+      "service": "Gemini API / AI Studio / Vertex model calls",
+      "status": "planned",
+      "category": "model_execution",
+      "access_model": "api",
+      "owning_harness": "commander_local_or_future_wrapper"
+    },
+    {
+      "slug": "gcloud_resource_surface",
+      "service": "GCP projects / services / infra",
+      "status": "implemented",
+      "category": "cloud_infrastructure",
+      "access_model": "cli_api",
+      "owning_harness": "commander_local"
+    },
+    {
+      "slug": "notebooklm_surface",
+      "service": "NotebookLM personal / enterprise",
+      "status": "planned",
+      "category": "source_bounded_synthesis",
+      "access_model": "web",
+      "owning_harness": "commander_relay_initially"
+    },
+    {
+      "slug": "youtube_feed_surface",
+      "service": "YouTube Data API",
+      "status": "planned",
+      "category": "feed_media_ingestion",
+      "access_model": "api",
+      "owning_harness": "commander_local_or_future_wrapper"
+    },
+    {
+      "slug": "xai_model_surface",
+      "service": "xAI API",
+      "status": "planned",
+      "category": "model_execution",
+      "access_model": "api",
+      "owning_harness": "commander_local_or_future_wrapper"
+    },
+    {
+      "slug": "claude_cowork_surface",
+      "service": "Claude Cowork",
+      "status": "planned",
+      "category": "collaborative_external_execution",
+      "access_model": "web_api",
+      "owning_harness": "commander_relay_initially"
+    },
+    {
+      "slug": "feedcraft_surface",
+      "service": "Feedcraft subsystem",
+      "status": "planned",
+      "category": "feed_conditioning_publication_logic",
+      "access_model": "hybrid",
+      "owning_harness": "future_dedicated_wrapper"
+    },
+    {
+      "slug": "iic_line_surface",
+      "service": "IIC governance layer",
+      "status": "planned",
+      "category": "identity_governance_overlay",
+      "access_model": "internal",
+      "owning_harness": "future_stage"
+    }
+  ],
+  "allowed_capture_modes": [
+    "none",
+    "pointer",
+    "summary_markdown",
+    "typed_record",
+    "summary_and_typed_record"
+  ]
+}

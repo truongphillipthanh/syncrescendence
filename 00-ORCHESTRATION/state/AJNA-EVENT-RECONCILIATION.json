@@ -1,15 +1,13 @@
 {
   "failed_count": 0,
   "failed_files": [],
-  "last_run_at": "2026-03-02T05:56:26Z",
-  "processed_count": 1,
-  "processed_ids": [
-    "system-20260302-055626-371957-mini-constellation-launchagent-state"
-  ],
+  "last_run_at": "2026-03-02T06:23:19Z",
+  "processed_count": 0,
+  "processed_ids": [],
   "skipped_duplicates": [],
   "source_counts": {
     "ajna": 3,
-    "commander": 2,
+    "commander": 4,
     "manus": 2,
     "system": 17
   }
