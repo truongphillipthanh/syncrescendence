@@ -2,7 +2,7 @@
 
 Memory for AI agents is not a feature to bolt on — it is infrastructure that determines whether an agent can operate across sessions, resolve contradictions in its own history, and maintain a coherent model of the world over time. The naive approach (stuff conversation history into the context window, or embed everything into a vector database and retrieve by similarity) fails predictably at scale. What works is a layered architecture where each tier has distinct authority, persistence characteristics, and failure modes — and where the ground truth is always recoverable from a canonical substrate.
 
-The field reached a consensus inflection point in early 2026: multiple independent implementations (the Syncrescendence Sovereign Temporal Hybrid, Mem0's neutral memory layer, Supermemory's always-on injection, OpenAI's internal Dash agent) converged on the same fundamental architecture without coordination. Three-layer memory, file or structured storage as ground truth, graph for relationships, vector as optional, always-on injection rather than tool-gated access. This convergence is the signal that the architecture is approaching maturity. What remains is not architectural innovation but operational hardening: making these systems reliable across months of continuous production use, handling the edge cases that architecture diagrams elide, and establishing standards for memory portability across implementations.
+The Dash reference in this synthesis lacks a corresponding source in the declared provenance [Source needed — Dash material not in declared provenance]. The field reached a consensus inflection point in early 2026: multiple independent implementations (the Syncrescendence Sovereign Temporal Hybrid, Mem0's neutral memory layer, Supermemory's always-on injection, OpenAI's internal Dash agent) converged on the same fundamental architecture without coordination. Three-layer memory, file or structured storage as ground truth, graph for relationships, vector as optional, always-on injection rather than tool-gated access. This convergence is the signal that the architecture is approaching maturity. What remains is not architectural innovation but operational hardening: making these systems reliable across months of continuous production use, handling the edge cases that architecture diagrams elide, and establishing standards for memory portability across implementations.
 
 ---
 
@@ -22,7 +22,7 @@ This principle — file-first as constitutional law — emerged from hard operat
 
 The ephemeral layer. What the agent can see right now. Dies with the session. The discipline here is **curation, not accumulation** — only what is needed to decide the next action safely. Per-agent tuning matters: a lateral-thinking agent (Commander/Claude) benefits from wide context with high fact retrieval from the graph; a precision-engineering agent (Adjudicator/GPT) needs narrow, schema-matched context; a strategic agent (Ajna) needs only strategic signal, no tactical noise.
 
-The key insight from the Ralph/loop-coding discourse: models degrade as context fills. A context window is not a bucket to fill but a whiteboard to keep clean. The canonical approach wipes context between tasks rather than compacting, because compaction requires the model to judge what matters — and it judges wrong often enough to be dangerous.
+The key insight from the Ralph/loop-coding discourse: models degrade as context fills. A context window is not a bucket to fill but a whiteboard to keep clean. This recommendation aligns with Ralph/10197 material, though 10197 is not cited in this entry's provenance [Source needed — 10197 not in declared provenance]. The canonical approach wipes context between tasks rather than compacting, because compaction requires the model to judge what matters — and it judges wrong often enough to be dangerous.
 
 ### Layer 2: Session Memory (File-Based, Git-Tracked)
 
@@ -93,7 +93,7 @@ When context fills, many systems "compact" by asking the model to summarize what
 
 ### Unbounded Accumulation
 
-Growing instruction files on every loop iteration (the "agents.md bloat" pattern from loop-coding systems) fills the context window with meta-instructions before the actual task begins. Memory must have a decay or curation mechanism. In the Syncrescendence architecture, this is currently timestamp-based staleness detection, with Hebbian edge-weight decay captured as a long-term vision.
+These anti-patterns are consistent with 10197-style analysis, though 10197 is not in this entry's declared provenance. Growing instruction files on every loop iteration (the "agents.md bloat" pattern from loop-coding systems) fills the context window with meta-instructions before the actual task begins. Memory must have a decay or curation mechanism. In the Syncrescendence architecture, this is currently timestamp-based staleness detection, with Hebbian edge-weight decay captured as a long-term vision.
 
 ### Single-Layer Architectures
 

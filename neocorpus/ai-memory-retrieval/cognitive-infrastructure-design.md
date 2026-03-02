@@ -81,7 +81,7 @@ Git hygiene for cognitive infrastructure requires specific discipline. The Oracl
 
 ### The Three-Layer Architecture
 
-The triangulated memory architecture (00404) defines three layers that are now the reference model:
+00404 describes a "three-layer architecture" while also treating git as a foundational Layer 0; this entry's Layer 0-3 taxonomy synthesizes that ambiguity into a cleaner structure than the source provides. The triangulated memory architecture (00404) defines three layers that are now the reference model:
 
 **Layer 0 — Constitutional Truth (Git)**
 Git-tracked markdown files. Absolute authority. If git works, Layer 0 works. All agents read and write. This is the filesystem-as-memory pattern at its most deliberate.
@@ -105,7 +105,7 @@ The corpus documents specific failure modes through lived experience:
 
 **Growing instruction files**: The Ralph analysis (10197) documents what happens when agents modify their own instruction files each iteration. Models are verbose by default. Each loop adds tokens. Within ten iterations, the context window is consumed by instructions before the actual task begins. Self-modifying memory is a trap unless strictly bounded.
 
-**Stale memory without decay**: Facts stored without timestamps accumulate contradictions. A user changed jobs but the memory still contains both "loves their job" and "hates their job" with no temporal resolution. The STH architecture defers autopoietic decay (Hebbian learning on edge weights) as a long-term vision, using timestamp-based staleness detection as the current practical solution.
+**Stale memory without decay**: Facts stored without timestamps accumulate contradictions. This example illustrates temporal contradiction patterns consistent with 10120-style analysis, though 10120 is not in this entry's declared provenance. A user changed jobs but the memory still contains both "loves their job" and "hates their job" with no temporal resolution. The STH architecture defers autopoietic decay (Hebbian learning on edge weights) as a long-term vision, using timestamp-based staleness detection as the current practical solution.
 
 **Divergent caches**: When multiple agents or tools maintain their own state outside the canonical filesystem, truth diverges. The Syncrescendence rule — "repo sovereignty" — means no agent may create a second authority surface. GitHub, dashboards, and runtime tool state are operational surfaces, never constitutional truth.
 
@@ -139,6 +139,11 @@ The filesystem-first, git-tracked, single-source-of-truth pattern has emerged as
 The deepest lesson from the corpus: cognitive infrastructure is not a technical project. It is an epistemic commitment. The choice of directory structure, memory schema, and truth hierarchy determines what the agents can know, how they can learn, and what they will forget. Every structural decision is a knowledge decision. Build accordingly.
 
 ---
+
+## Syncrescendence Operational Context
+
+The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:
+- The 16-session phantom-path drift incident derives from the constellation's operational history (CC52-CC57 era), not from the cited corpus sources
 
 ## Source Provenance
 

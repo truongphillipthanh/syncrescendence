@@ -26,14 +26,14 @@ This is a structurally different claim from "LLMs are useless" or "LLMs are AGI.
 
 The ARC-AGI benchmark has evolved through three versions:
 - **v1**: Pattern completion tasks requiring novel spatial reasoning. Models must infer transformation rules from 2-3 examples.
-- **v2**: Harder variants with more complex rules and less obvious patterns. Cost-performance frontier becomes the metric — both accuracy and inference cost matter.
+- **v2**: Harder variants with more complex rules and less obvious patterns. Both accuracy and inference cost are tracked — the evaluation surface expands beyond raw accuracy alone.
 - **v3**: Adds goal discovery, temporal planning, and interactive learning. The model must not only solve puzzles but figure out what the puzzle IS and adapt its strategy over time.
 
 Each version raises the bar on what counts as "general" by adding cognitive capabilities that pure memorization cannot fake. v3 in particular targets the learning-to-learn capability that Chollet argues is the essence of intelligence.
 
 ### 4. The Self-Improving Model Complication
 
-OpenAI's announcement that GPT-5.3-Codex was "instrumental in creating itself" — and the broader trend of models contributing to their own development — complicates Chollet's framework. If a model can debug its own training, diagnose evaluation failures, and accelerate its own development, is it "merely memorizing"? The ARC-AGI definition says yes — the model is applying memorized programming knowledge, not learning a fundamentally new skill. But the practical impact of self-improving models may render the theoretical distinction moot if capability growth accelerates regardless of mechanism.
+OpenAI's announcement that GPT-5.3-Codex was "instrumental in creating itself" — and the broader trend of models contributing to their own development — complicates Chollet's framework (source: `corpus/ai-models/00157.md`). If a model can debug its own training, diagnose evaluation failures, and accelerate its own development, is it "merely memorizing"? The ARC-AGI definition says yes — the model is applying memorized programming knowledge, not learning a fundamentally new skill. But the practical impact of self-improving models may render the theoretical distinction moot if capability growth accelerates regardless of mechanism.
 
 ---
 
@@ -41,7 +41,7 @@ OpenAI's announcement that GPT-5.3-Codex was "instrumental in creating itself" �
 
 ### The Benchmark Paradox
 
-Every AGI benchmark eventually gets solved by systems that are not AGI by anyone's definition. ARC-AGI v1 scores have climbed from single digits to 94% (Opus 4.6, high effort). This does not mean Opus 4.6 is AGI — it means the benchmark has been partially reduced to a compute-scaling problem. v2 and v3 attempt to stay ahead of this curve, but the arms race between benchmark designers and model trainers has no natural endpoint.
+Every AGI benchmark eventually gets solved by systems that are not AGI by anyone's definition. ARC-AGI v1 scores have climbed from single digits to high levels with frontier models at high effort (source: `corpus/ai-models/00157.md`). This does not mean those models are AGI — it means the benchmark has been partially reduced to a compute-scaling problem. v2 and v3 attempt to stay ahead of this curve, but the arms race between benchmark designers and model trainers has no natural endpoint.
 
 The paradox: if a benchmark can be solved, it was not measuring AGI. If it cannot be solved, it is not useful as a benchmark. Chollet's response is that the cost-performance frontier (accuracy per dollar) is the real metric, not raw accuracy alone.
 
@@ -59,7 +59,7 @@ This claim is testable: if future systems achieve human-level sample efficiency 
 
 ### The Operational Irrelevance of the Definition
 
-For practitioners, the AGI definition debate may be operationally irrelevant. Whether Opus 4.6 is "truly intelligent" or "merely memorizing very well" does not change its utility for coding, analysis, orchestration, and creative work. The capability is real regardless of the philosophical classification. The AGI debate matters for research direction (where to invest), regulation (what to control), and existential risk assessment (what to fear) — but not for the daily work of deploying AI systems.
+For practitioners, the AGI definition debate may be operationally irrelevant. Whether Opus 4.6 is "truly intelligent" or "merely memorizing very well" does not change its utility for coding, analysis, orchestration, and creative work. The capability is real regardless of the philosophical classification. The AGI debate matters for research direction (where to invest), regulation (what to control), and existential risk assessment (what to fear) — but not for the daily work of deploying AI systems. [synthesis beyond cited sources — the "operationally irrelevant" framing and incentive-driven-timelines interpretation are the entry's synthesis, not stated explicitly in the source set]
 
 ---
 
@@ -83,7 +83,7 @@ AGI timeline claims are made by people and organizations with financial interest
 
 The AGI definition debate will not be resolved by argument — it will be resolved by capability. As models become more capable, the definition of AGI will either stretch to include them (rendering the term meaningless) or narrow to exclude them (rendering the term perpetually aspirational). Either way, the practical work of deploying AI systems continues regardless.
 
-For the Syncrescendence, the relevant takeaway is architectural: if Chollet is right that LLMs are memory-not-intelligence, then the constellation's orchestration layer (Commander's coordination, handoff protocols, triangulation cycles) is doing the work that the models cannot — providing the learning, adaptation, and strategic continuity that no single model possesses. The constellation is not AGI, but it may be a sketch of how AGI-level capability emerges from the composition of specialized components.
+The architectural takeaway from Chollet's framework is that multi-model orchestration systems — where an outer coordination layer provides learning, adaptation, and strategic continuity across context windows — may point toward how AGI-level capability could emerge from composition of specialized components, rather than from any single model. Whether such compositions constitute a meaningful step toward AGI depends entirely on which definition of AGI one adopts. [synthesis beyond cited sources]
 
 ---
 
@@ -94,6 +94,7 @@ For the Syncrescendence, the relevant takeaway is architectural: if Chollet is r
 | ARC-AGI v3 discussion — Chollet + Knoop | `corpus/ai-models/01191.md` | Sample efficiency argument, LLMs as memory, gradient descent critique, v3 benchmark design |
 | Mark Chen (OpenAI CRO) — Core Memory podcast | `corpus/ai-models/09558.md` | AGI timelines, research prioritization, self-improving models, compute allocation |
 | Jerry Tworek (ex-OpenAI) — Core Memory podcast | `corpus/ai-models/10201.md` | Lab homogeneity critique, new architectures, continual learning, skeptical timeline |
+| GPT-5.3 Codex and Opus 4.6 release analysis | `corpus/ai-models/00157.md` | Self-improving model claims; ARC-AGI v1 high-effort frontier scores |
 
 ---
 

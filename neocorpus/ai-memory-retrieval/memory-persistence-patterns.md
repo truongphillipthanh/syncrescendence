@@ -15,7 +15,7 @@
 | 10197 | `corpus/ai-memory-retrieval/10197.md` | Ralph loop — context wiping vs. compaction, self-modifying instruction failure |
 | 00082 | `corpus/ai-memory-retrieval/00082.md` | Supermemory integration — tool-based memory failure, always-on injection |
 | 10120 | `corpus/ai-memory-retrieval/10120.md` | Agent That Never Forgets — memory as infrastructure, temporal contradiction, structured memory layers |
-| 10448 | `corpus/ai-memory-retrieval/10448.md` | Dash self-learning — continuous learning without retraining, static + discovered knowledge |
+| 10448 | `corpus/ai-memory-retrieval/10448.md` | "The Smartest AI Bet Has Nothing to Do With AI" (Nate B. Jones) — bottleneck and strategy analysis |
 
 ---
 
@@ -68,7 +68,7 @@ memory/
 
 **Why it is constitutionally preferred**: The file is the source of truth. Everything else — graph databases, vector stores, API caches — is a projection of the file layer. If projections fail, the files remain. If files fail, git history remains. The failure hierarchy is explicit and recoverable.
 
-**The JSONL journal pattern**: Each session appends structured events to a `.jsonl` file — one JSON object per line, each with a timestamp, event type, and payload. This creates a machine-parseable event stream that can be replayed, queried, or projected into other stores. The memsync daemon (documented in 00730) watches these journals and posts entities to a graph database, bridging file-first persistence with graph-queryable retrieval.
+**The JSONL journal pattern**: Each session appends structured events to a `.jsonl` file — one JSON object per line, each with a timestamp, event type, and payload. This creates a machine-parseable event stream that can be replayed, queried, or projected into other stores. The memsync daemon (00730) watches these journals and posts entities to a graph database, bridging file-first persistence with graph-queryable retrieval.
 
 ### Pattern 4: Database-Backed Memory (Vector + Graph)
 
@@ -95,7 +95,7 @@ The "Agent That Never Forgets" article (10120) arrives at this pattern through f
 
 **The temporal contradiction problem**: When a user's preferences change over time, naive retrieval returns all historical states with equal weight. The agent hallucinates a synthesis of contradictory facts. Resolution requires: (a) timestamps on every memory fact, (b) supersession rules (newer statements override older ones on the same topic), and (c) explicit conflict detection at retrieval time.
 
-**Structured categories**: Rather than storing all memories in one flat space, production systems separate:
+10120 supports structured temporal memory architecture; the specific four-category taxonomy (user profile, episodic, semantic, working) synthesizes from but is not explicitly enumerated in the source. **Structured categories**: Rather than storing all memories in one flat space, production systems separate:
 - **User profile**: Stable facts (name, preferences, constraints) — low update frequency, high retrieval frequency
 - **Episodic memory**: What happened in specific sessions — timestamped, append-only
 - **Semantic memory**: What the agent has learned about the domain — curated, updateable
@@ -155,4 +155,5 @@ The filesystem-as-memory pattern has emerged as the constitutional preference no
 - `corpus/ai-memory-retrieval/10197.md` — Ralph loop context management
 - `corpus/ai-memory-retrieval/00082.md` — Supermemory integration (tool-based memory failure)
 - `corpus/ai-memory-retrieval/10120.md` — Agent That Never Forgets (temporal contradiction)
-- `corpus/ai-memory-retrieval/10448.md` — Dash self-learning data agent
+- `corpus/ai-memory-retrieval/00730.md` — Deferred Commitments Register (Graphiti commitments/architecture, memsync daemon)
+- `corpus/ai-memory-retrieval/10448.md` — Bottleneck analysis (Nate B. Jones)

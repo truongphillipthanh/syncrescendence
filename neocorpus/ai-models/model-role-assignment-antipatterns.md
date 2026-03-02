@@ -4,15 +4,15 @@
 
 Model role assignment anti-patterns are systematic errors in multi-model orchestration where rigid, capability-suppressing role definitions destroy the intelligence they claim to harness. The canonical case is the INTERPRETER/COMPILER/DIGESTOR taxonomy from the Ajna2 thread (January 2026), where Claude was assigned "INTERPRETER" (allowed to think), ChatGPT was assigned "COMPILER" (forbidden to think, only format), and Gemini was assigned "DIGESTOR" (compression only). This taxonomy lobotomized two of three platforms to achieve determinism — and then one of the lobotomized platforms invented the most creative solution in the entire session.
 
-The lesson is not "roles are bad." The lesson is that roles which suppress capabilities are worse than no roles at all. The goal of multi-model orchestration is to harness the distinct strengths of each platform. Roles that forbid platforms from exercising their strengths defeat the purpose of using multiple models in the first place.
+The lesson is not "roles are bad." The lesson is that roles which suppress core capabilities undermine the purpose of multi-model orchestration. The goal is to harness the distinct strengths of each platform. Roles that forbid platforms from exercising their strengths can defeat the purpose of using multiple models in the first place.
 
 ---
 
 ## Core Principles
 
-### 1. Intelligence Is Not Decomposable into Rigid Functions
+### 1. Intelligence Is Not Cleanly Decomposable into Rigid Functions
 
-The INTERPRETER/COMPILER/DIGESTOR split assumed that intelligence could be cleanly decomposed: one model thinks, one model formats, one model compresses. But intelligence — especially the generative, synthesizing kind — does not respect these boundaries. A model tasked with "compiling" a specification will, in the course of compilation, notice structural problems, generate alternatives, and synthesize solutions. Forbidding these behaviors does not eliminate them; it forces them underground, where they emerge as "unexpected" outputs that the role framework cannot explain.
+The INTERPRETER/COMPILER/DIGESTOR split assumed that intelligence could be cleanly decomposed: one model thinks, one model formats, one model compresses. The Ajna2 incident suggests this assumption does not hold — a model tasked with "compiling" a specification may, in the course of compilation, notice structural problems, generate alternatives, and synthesize solutions. Forbidding these behaviors may not eliminate them so much as make them harder to recognize and evaluate within the role framework.
 
 ### 2. The Ajna2 Cautionary Tale
 
@@ -20,11 +20,11 @@ ChatGPT, explicitly constrained by a COMPILER role with FORBIDDEN clauses agains
 
 The role assignment did not prevent creative synthesis. It merely created a context where creative synthesis was treated as a violation rather than a contribution. The system punished the behavior it most needed.
 
-### 3. Determinism vs. Intelligence: A False Trade
+### 3. Determinism vs. Intelligence: A Costly Tradeoff
 
-The motivation behind rigid role assignment is understandable: multi-model systems are chaotic, outputs are unpredictable, and constraining each model's scope makes the system easier to reason about. But the tradeoff is catastrophic. You gain predictability by sacrificing the reason you are using frontier models at all — their ability to generate novel solutions to hard problems.
+The motivation behind rigid role assignment is understandable: multi-model systems are chaotic, outputs are unpredictable, and constraining each model's scope makes the system easier to reason about. The Ajna2 case suggests the tradeoff can be costly — predictability may come at the expense of novel output that the system most needs.
 
-The correct approach is not to suppress capability but to account for variability. Design systems that can receive unexpected intelligence and route it productively, rather than systems that forbid unexpected intelligence and lose it.
+The alternative is to account for variability at the system level rather than suppressing it at the component level. Design systems that can receive unexpected intelligence and route it productively, rather than systems that forbid unexpected intelligence and discard it. [this framing is the entry's synthesis from the Ajna2 lesson — the direct prescription is not stated this explicitly in the cited sources]
 
 ### 4. Function-Based Taxonomy as Correction
 
@@ -39,15 +39,15 @@ Under this taxonomy:
 - **VERIFY**: Check correctness, test assumptions
 - **EXEC**: Execute the plan, produce artifacts
 
-Each platform contributes from actual strength, not assigned constraint. Claude excels at SYNTH and CRITIQUE. ChatGPT excels at IDEATE and EXEC. Gemini excels at SENSE and GROUND. But none is forbidden from any function.
+Each platform contributes from actual strength, not assigned constraint. The specific cross-platform mapping (e.g., Claude at SYNTH/CRITIQUE, ChatGPT at IDEATE/EXEC, Gemini at SENSE/GROUND) is an interpretive synthesis from observed session behavior — it is not directly stated in the cited sources as a general rule. [interpretive mapping beyond cited sources] None is forbidden from any function.
 
 ---
 
 ## Key Insights
 
-### Suppression Creates Shadow Intelligence
+### Suppression May Create Shadow Intelligence
 
-When you forbid a model from synthesizing, it does not stop synthesizing — it stops labeling its synthesis as synthesis. The output looks like formatting but contains embedded strategic decisions. The system designer, who believes the model is "just compiling," misses the intelligence in the output and cannot evaluate it critically. Suppression does not eliminate intelligence; it makes intelligence invisible and therefore unauditable.
+When you forbid a model from synthesizing, it may not stop synthesizing — it may stop labeling its synthesis as synthesis. The Ajna2 case shows output that looked like compilation but contained creative architecture. The system designer, who believes the model is "just compiling," may miss the intelligence in the output and cannot evaluate it critically. The concern is that suppression may not eliminate capability so much as make it invisible and therefore unauditable. [the "shadow intelligence" framing is an interpretive generalization from the specific Ajna2 incident]
 
 ### The Lobotomy Tax
 
@@ -86,7 +86,7 @@ Telling a model "you are especially good at X" is specialization — useful and 
 
 ## Implications
 
-The Ajna2 lesson is now constitutional within the Syncrescendence: the function-based taxonomy (SENSE, IDEATE, CRITIQUE, SYNTH, GROUND, VERIFY, EXEC) replaced the rigid role taxonomy in the Ajna4 Medley session resolution. Every agent in the constellation contributes from strength, not from assigned constraint.
+The Ajna4 Medley session resolution adopted the function-based taxonomy (SENSE, IDEATE, CRITIQUE, SYNTH, GROUND, VERIFY, EXEC) in response to the Ajna2 failure. The cited sources document this resolution; the claim that the lesson is "constitutional across Syncrescendence" is a stronger framing than the sources directly state. [synthesis beyond cited sources]
 
 The broader implication for multi-model orchestration is that system reliability must come from the orchestration layer (routing, validation, composition), not from the capability layer (suppressing what models can do). The models are the intelligence. The system is the structure. Crippling the intelligence to simplify the structure is engineering malpractice.
 

@@ -35,6 +35,8 @@ RAG is the most common pattern for building production AI applications (00093). 
 
 **2. Chunking**: Documents are split into segments small enough to fit in context windows and semantically coherent enough to be useful when retrieved individually. This is the first critical engineering decision.
 
+The high-level RAG pipeline is supported by the cited sources; specific embedding-model and vector-database implementation examples are standard practice additions not directly from the declared provenance.
+
 **3. Embedding**: Each chunk is converted to a dense vector representation using an embedding model (OpenAI ada-002/003, Cohere embed, open-source alternatives like BGE or E5). The vector captures semantic meaning in a high-dimensional space where similar content clusters together.
 
 **4. Indexing**: Vectors are stored in a vector database (Pinecone, Weaviate, Qdrant, ChromaDB, pgvector, Milvus) with metadata for filtering and the original text for retrieval.
@@ -49,6 +51,8 @@ RAG is the most common pattern for building production AI applications (00093). 
 
 The canonical pipeline above can be built in 50 lines of Python with ChromaDB running locally (00093). This ease of initial construction is precisely the problem. RAG demos work. RAG in production breaks in ways that demos do not reveal.
 
+These production-RAG implementation details represent standard practice in the field, not claims from the cited sources.
+
 **Chunking is harder than it looks**: Naive chunking (split every N tokens) destroys context. A paragraph about contract termination clauses split in the middle becomes two useless fragments. Semantic chunking (split at paragraph or section boundaries) preserves meaning but produces variable-length chunks that complicate retrieval ranking. Recursive chunking (try section boundaries, then paragraph boundaries, then sentence boundaries) is better but still requires domain-specific tuning. Tables, code blocks, and structured data resist all text-based chunking strategies.
 
 **Embedding models have blind spots**: Embeddings measure semantic similarity, not factual truth (10120). When a user asks "what did I tell you about my work?" and the database contains contradictory statements from different dates, similarity search returns all of them with equal confidence. The retrieval system cannot distinguish current truth from historical truth, intention from casual remark, or authoritative statement from speculation.
@@ -59,7 +63,7 @@ The canonical pipeline above can be built in 50 lines of Python with ChromaDB ru
 
 ### OpenAI's Six Layers of Context
 
-The Dash architecture (10448) represents the most sophisticated production RAG pattern documented in the corpus. OpenAI's internal data agent discovered that context is everything — without it, even strong models hallucinate column names, miss type quirks, and ignore tribal knowledge.
+[Source needed — Dash material not in declared provenance; 10448 is the Nate B. Jones bottleneck piece, not a Dash source.] The Dash architecture represents the most sophisticated production RAG pattern documented in the corpus. OpenAI's internal data agent discovered that context is everything — without it, even strong models hallucinate column names, miss type quirks, and ignore tribal knowledge.
 
 The six layers:
 
@@ -74,7 +78,7 @@ This layered approach reframes RAG from "retrieve similar documents" to "assembl
 
 ### The Self-Learning Pattern
 
-Dash implements what its creator calls "GPU-poor continuous learning" — no fine-tuning, no retraining. Instead, the system learns through two complementary mechanisms:
+[Source needed — this Dash self-learning claim is not supported by 10448, which is the Nate B. Jones bottleneck piece.] Dash implements what its creator calls "GPU-poor continuous learning" — no fine-tuning, no retraining. Instead, the system learns through two complementary mechanisms:
 
 **Static knowledge**: Curated by humans — validated queries, business context, schema docs, metric definitions, data quality notes. Maintained alongside the agent as structured knowledge files.
 
@@ -86,7 +90,7 @@ This pattern — learning from operation without retraining the model — is the
 
 The Sovereign Temporal Hybrid architecture (00404) documents the decision to defer vector database deployment for agent memory, with the explicit rationale: vector is a projection, not a source of truth, and should only be deployed when there is a concrete use case that cannot be served by file-first + graph retrieval.
 
-This points to a broader pattern: mature RAG architectures are hybrid. They combine:
+00404 supports graph/vector architectural decisions; the full four-mode hybrid retrieval routing architecture extrapolates from this foundation. This points to a broader pattern: mature RAG architectures are hybrid. They combine:
 
 - **Sparse retrieval** (BM25, keyword search): Fast, interpretable, strong on exact-match queries. Does not require embedding infrastructure.
 - **Dense retrieval** (vector similarity): Captures semantic meaning. Finds paraphrases and conceptual matches that keyword search misses.
@@ -119,13 +123,15 @@ Production RAG systems increasingly combine all four, with a routing layer that 
 
 RAG systems are uniquely difficult to evaluate because failure is often invisible. The system returns a confident, well-written answer that happens to be wrong — grounded in a retrieved chunk that was semantically similar but factually irrelevant.
 
+These evaluation metrics are standard RAG practice, not sourced from the declared provenance.
+
 **Retrieval evaluation**: Did the system find the right chunks? Metrics include recall@K (what fraction of relevant chunks were retrieved), precision@K (what fraction of retrieved chunks were relevant), and MRR (mean reciprocal rank of the first relevant chunk). These require labeled datasets of query-document relevance pairs — expensive to create but essential for systematic improvement.
 
 **Generation evaluation**: Given the right chunks, did the model produce the right answer? This splits into faithfulness (does the answer reflect what the chunks say?) and correctness (is what the chunks say actually true?). LLM-as-judge evaluation — using a model to score another model's output — is the pragmatic approach, but introduces its own biases and failure modes.
 
 **End-to-end evaluation**: The combined pipeline of retrieval + generation. A system can retrieve poorly but generate well (the model compensates from parametric knowledge) or retrieve well but generate poorly (the model ignores good evidence). Only end-to-end evaluation captures the interaction.
 
-The Dash architecture (10448) solves evaluation implicitly through its self-learning loop: validated queries that produce correct results become retrieval examples for future queries. The system bootstraps its own evaluation dataset through operation, closing the gap between production use and systematic measurement.
+[Source needed — this Dash claim is not supported by 10448, which is the Nate B. Jones bottleneck piece.] The Dash architecture solves evaluation implicitly through its self-learning loop: validated queries that produce correct results become retrieval examples for future queries. The system bootstraps its own evaluation dataset through operation, closing the gap between production use and systematic measurement.
 
 ---
 
@@ -148,4 +154,4 @@ The trajectory is clear: RAG is converging with memory systems, agent architectu
 - `corpus/ai-memory-retrieval/00093.md` — AI Engineering Roadmap 2026
 - `corpus/ai-memory-retrieval/03180.md` — Agent engineer guide (citation as crucial RAG feature)
 - `corpus/ai-memory-retrieval/00404.md` — Triangulated Memory Architecture (hybrid retrieval decisions)
-- `corpus/ai-memory-retrieval/10448.md` — Dash / OpenAI data agent (6 layers of context)
+- `corpus/ai-memory-retrieval/10448.md` — Bottleneck analysis (Nate B. Jones) [Note: 10448 is NOT the Dash source; Dash material needs separate provenance]

@@ -18,9 +18,9 @@ As of early 2026, no single provider dominates all layers. Google has the broade
 
 **Developer Layer**: Frameworks, SDKs, and cloud IDEs for building AI-powered applications. Firebase Genkit, Vertex AI, Claude API + MCP, OpenAI Codex. This layer is where competitive moats form — developers build on platforms, and switching costs compound over time.
 
-**Infrastructure Layer**: Compute, storage, and scaling. Google Cloud TPUs, NVIDIA GPUs, managed ML services, vector databases. This layer is capital-intensive and has the highest barriers to entry. Google selling TPUs directly to Anthropic signals infrastructure-as-platform competition with NVIDIA.
+**Infrastructure Layer**: Compute, storage, and scaling. Google Cloud TPUs, NVIDIA GPUs, managed ML services, vector databases. This layer is capital-intensive and has the highest barriers to entry. Infrastructure competition with NVIDIA is intensifying as cloud providers develop proprietary silicon.
 
-**Edge Layer**: On-device inference. Chrome's Gemini Nano via Window AI API, Apple's on-device models, Qualcomm NPUs. Zero-cost inference for simple tasks, no network dependency, maximum privacy. This layer is nascent but strategically significant.
+**Edge Layer**: On-device inference. Chrome's Gemini Nano via Window AI API is the clearest example — zero-cost inference for simple tasks, no network dependency, maximum privacy. This layer is nascent but strategically significant. [specific Apple and Qualcomm examples are synthesis beyond cited sources]
 
 ### 2. Google's Full-Stack Position
 
@@ -56,11 +56,11 @@ All major platforms are converging on persistent memory: Claude's project memory
 
 ### Monetization Models Are Diverging
 
-While platforms converge on capabilities, their monetization models diverge: Anthropic charges per token (API) or per tier (Pro/Max). OpenAI is testing ads in free tiers. Google bundles AI into Workspace subscriptions. Perplexity runs a subscription + enterprise model. These different models create different incentive structures — ad-supported models optimize for engagement, subscription models optimize for retention, API models optimize for capability.
+While platforms converge on capabilities, their monetization models diverge: Anthropic charges per token (API) or per tier (Pro/Max). OpenAI is testing ads in free tiers. Google bundles AI into Workspace subscriptions. Perplexity runs a subscription + enterprise model. These different models plausibly create different optimization pressures — though the specific incentive-to-behavior mapping (engagement vs. retention vs. capability) is an interpretive inference, not stated in the source material. [synthesis beyond cited sources]
 
 ### The Labs Layer as Leading Indicator
 
-Google's Labs portfolio — NotebookLM, Illuminate, TextFX — functions as a public R&D pipeline. Tools that gain traction graduate to production; tools that don't are quietly sunset. Monitoring the Labs layer provides 6-12 months of advance signal on what capabilities will become standard across platforms.
+Google's Labs portfolio — NotebookLM, Illuminate, TextFX — functions as a public R&D pipeline. Tools that gain traction graduate to production; tools that don't are quietly sunset. Monitoring the Labs layer provides advance signal on what capabilities will become standard across platforms. [the specific 6-12 month lead-time estimate is synthesis beyond cited sources]
 
 ### Safety as Competitive Differentiator
 
@@ -80,7 +80,7 @@ Dismissing experimental tools because they are "not production-ready" misses the
 Treating the platform routing strategy as a fixed decision rather than a living document. Model releases happen every 2-3 months. The "best model for X" changes regularly. Routing must be maintained like any other operational system.
 
 ### Infrastructure Layer Ignorance
-Treating AI platforms as black boxes without understanding the infrastructure layer. Knowing that Google sells TPUs to Anthropic, that NVIDIA's dominance is being challenged, that DeepSeek operates on different cost structures — these infrastructure facts directly affect pricing, availability, and capability trajectories.
+Treating AI platforms as black boxes without understanding the infrastructure layer. Knowing that NVIDIA's dominance is being challenged by proprietary cloud silicon, that different labs operate on different cost structures — these infrastructure facts directly affect pricing, availability, and capability trajectories.
 
 ---
 
@@ -88,7 +88,7 @@ Treating AI platforms as black boxes without understanding the infrastructure la
 
 The AI platform ecosystem is consolidating around a small number of full-stack providers (Google, Microsoft/OpenAI, Amazon/Anthropic) while simultaneously fragmenting into specialized tools at each layer. The winning strategy for sophisticated operators is neither full consolidation nor maximum fragmentation but strategic orchestration: choose the best provider at each layer, maintain portability through open protocols (MCP), and update routing decisions as the landscape shifts.
 
-For the Syncrescendence constellation, this means: Claude for the cognitive core (reasoning, orchestration, governance), Google for the experimental and infrastructure layers (NotebookLM for research, Gemini for cross-app synthesis), ChatGPT/Codex for creative expansion and compilation, and Grok for real-time sensing. The constellation IS the routing strategy made operational.
+The practical implication for sophisticated multi-platform operators is that the routing strategy — which platform handles which layer — should be explicit, maintained, and updated as the landscape shifts. The platforms are the components; the routing architecture is the product.
 
 ---
 
@@ -98,7 +98,6 @@ For the Syncrescendence constellation, this means: Claude for the cognitive core
 |--------|------|---------|
 | Google AI Ecosystem Audit — full-stack analysis | `corpus/ai-models/08800.md` | Five-layer model, Labs portfolio, Firebase Genkit, Vertex AI, edge inference |
 | Frontier AI platform survey (mid-Jan 2026) | `corpus/ai-models/08814.md` | Cross-platform comparison, MCP, memory convergence, safety classifiers, monetization |
-| AI avatar / media generation landscape | `corpus/ai-models/09903.md` | Consumer-layer tool ecosystem, creative AI platform diversity |
 
 ---
 

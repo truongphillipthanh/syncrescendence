@@ -20,7 +20,7 @@ This is why the Ralph pattern (wipe context completely between tasks) outperform
 
 ### The Six Layers of Context (OpenAI Dash Architecture)
 
-OpenAI's internal data agent (Dash) formalized context into six distinct layers, each serving a different cognitive function:
+The Dash/OpenAI six-layer context model is referenced here without a corresponding source in this entry's declared provenance [Source needed — Dash material not in declared provenance]. OpenAI's internal data agent (Dash) formalized context into six distinct layers, each serving a different cognitive function:
 
 1. **Table Usage**: Schema, columns, relationships — the structural ground truth
 2. **Human Annotations**: Metrics, definitions, gotchas — tribal knowledge
@@ -76,7 +76,7 @@ The Rakuten deployment (Opus 4.6 managing 50 engineers) demonstrates the same pr
 
 ### The Clarescence Pattern
 
-The Syncrescendence constellation uses "clarescence-style passes" — structured multi-pass processing that progressively clarifies and compresses context. Rather than a single retrieval step (find relevant documents, inject them), clarescence applies successive refinement: retrieve broadly, filter for relevance, extract key claims, resolve contradictions, compress into the densest useful form. Each pass reduces volume while preserving signal. The result is context that is smaller and more useful than the raw retrieval.
+00745 references "clarescence-style passes proven" but does not detail the full multi-pass workflow described here; the expanded retrieve/filter/extract/resolve/compress pipeline extrapolates from this reference. The Syncrescendence constellation uses "clarescence-style passes" — structured multi-pass processing that progressively clarifies and compresses context. Rather than a single retrieval step (find relevant documents, inject them), clarescence applies successive refinement: retrieve broadly, filter for relevance, extract key claims, resolve contradictions, compress into the densest useful form. Each pass reduces volume while preserving signal. The result is context that is smaller and more useful than the raw retrieval.
 
 This pattern works because it treats context preparation as a first-class cognitive task, not as a preprocessing step. The quality of context engineering determines the quality ceiling that no amount of model capability can exceed.
 
@@ -131,6 +131,12 @@ In multi-agent systems, context engineering is coordination engineering. Each ag
 Context engineering as a discipline implies context engineers as practitioners. Just as database engineering, network engineering, and DevOps emerged as specialized roles when their respective infrastructure layers became critical, context engineering will likely produce specialists who understand context degradation curves, retrieval optimization, per-agent tuning, and the interaction between context composition and model behavior. The field is nascent — the term itself is barely established — but the underlying problems are already production-critical.
 
 ---
+
+## Syncrescendence Operational Context
+
+The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:
+- The 30% remaining alert threshold and 15% emergency handoff threshold are Syncrescendence operational protocol, not from the cited corpus sources
+- Per-agent context tuning for Commander/Adjudicator/Cartographer/Ajna derives from the constellation's constitutional documents and architecture decisions
 
 ## Source Provenance
 

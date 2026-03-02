@@ -34,11 +34,11 @@ LM Arena uses pairwise human preference judgments: two models answer the same pr
 
 ### MMLU (Massive Multitask Language Understanding)
 
-MMLU tests knowledge and reasoning across 57 academic subjects. It was the canonical benchmark for early frontier model comparisons but has been increasingly criticized as models approach saturation (90%+) and as its multiple-choice format fails to distinguish genuine understanding from pattern matching.
+MMLU tests knowledge and reasoning across 57 academic subjects. It was the canonical benchmark for early frontier model comparisons but has been increasingly criticized as models approach high performance levels and as its multiple-choice format may fail to distinguish genuine understanding from pattern matching. [MMLU saturation characterization and methodological critique are synthesis beyond cited sources]
 
 ### Arena Hard
 
-Arena Hard is a derivative of LM Arena that uses a fixed set of challenging prompts evaluated by a strong model judge rather than human evaluators. It provides faster, cheaper evaluation at the cost of being one step removed from actual human preferences.
+Arena Hard is a derivative of LM Arena that uses a fixed set of challenging prompts evaluated by a strong model judge rather than human evaluators. It provides faster, cheaper evaluation at the cost of being one step removed from actual human preferences. [Arena Hard methodology detail is synthesis beyond cited sources]
 
 ---
 
@@ -68,7 +68,7 @@ The aspiration embedded in this framing: that AI models will not merely match hu
 
 ### Benchmark Saturation and Successor Design
 
-As frontier models approach ceiling performance on existing benchmarks, the benchmark community must design harder tasks. This creates an arms race: MMLU saturated, yielding MMLU-Pro. ARC-AGI-1 became tractable, yielding ARC-AGI-2 and the planned ARC-AGI-3. Each successor benchmark must resist the specific strategies that cracked its predecessor while remaining valid as a measure of the capability it claims to test.
+As frontier models approach ceiling performance on existing benchmarks, the benchmark community must design harder tasks. ARC-AGI-1 became tractable, yielding ARC-AGI-2 and the planned ARC-AGI-3. Each successor benchmark must resist the specific strategies that cracked its predecessor while remaining valid as a measure of the capability it claims to test. The broader pattern — where saturation on one benchmark drives successor design (e.g., MMLU yielding MMLU-Pro) — is a widely observed dynamic, though specific successor examples beyond the ARC series are synthesis beyond cited sources. [synthesis beyond cited sources]
 
 ### The Sample Efficiency Critique
 

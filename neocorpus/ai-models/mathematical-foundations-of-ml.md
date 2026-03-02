@@ -32,8 +32,8 @@ Training a model is solving an optimization problem. Calculus provides the local
 
 - **Gradient descent**: The fundamental algorithm. Compute the gradient of the loss with respect to parameters, step in the negative gradient direction. Stochastic gradient descent (SGD) samples mini-batches, trading accuracy for speed.
 - **Convexity and saddle points**: Real loss landscapes are non-convex, riddled with saddle points that dominate over local minima in high dimensions. This is why optimization works at all — saddle points have escape directions.
-- **Adam, RMSProp, and adaptive methods**: Adjust learning rates per-parameter based on gradient history. These are engineering solutions to the problem that different parameters live on different scales.
-- **Learning rate schedules**: Warmup, cosine decay, cyclical rates. The learning rate is arguably the most important hyperparameter, and its schedule encodes assumptions about the loss landscape's geometry.
+- **Adam, RMSProp, and adaptive methods**: Adjust learning rates per-parameter based on gradient history. These are engineering solutions to the problem that different parameters live on different scales. [synthesis beyond cited sources — specific optimizers not detailed in 00029]
+- **Learning rate schedules**: Warmup, cosine decay, cyclical rates. The learning rate is arguably the most important hyperparameter, and its schedule encodes assumptions about the loss landscape's geometry. [synthesis beyond cited sources]
 
 ---
 

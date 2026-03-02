@@ -22,7 +22,7 @@
 
 ### What Tools for Thought Are
 
-Tools for thought — Zettelkasten, Obsidian, Logseq, Roam, and the broader PKM (Personal Knowledge Management) movement — emerged from a single insight: knowledge compounds through connection, not filing. The Zettelkasten method, invented by Niklas Luhmann, treated each note as an atomic unit linked to others by intellectual relationship rather than hierarchical category. Obsidian made this executable: a vault of markdown files with bidirectional links, graph views, and emergent structure.
+The historical PKM framing (Zettelkasten, Obsidian, second-brain movement) provides general context not sourced from the declared corpus files. Tools for thought — Zettelkasten, Obsidian, Logseq, Roam, and the broader PKM (Personal Knowledge Management) movement — emerged from a single insight: knowledge compounds through connection, not filing. The Zettelkasten method, invented by Niklas Luhmann, treated each note as an atomic unit linked to others by intellectual relationship rather than hierarchical category. Obsidian made this executable: a vault of markdown files with bidirectional links, graph views, and emergent structure.
 
 These tools were designed for human cognition — human attention spans, human forgetting curves, human serendipity. The question the corpus crystallizes is whether the same architecture transfers to non-human minds, and if so, what changes.
 
@@ -46,6 +46,8 @@ This is categorically different from giving an agent a database or a memory API.
 
 ### What Transfers from Human Practice
 
+These PKM-to-agent transfer observations represent the entry author's analysis, not claims from the cited sources.
+
 **Atomic notes**: The Zettelkasten principle of one idea per note transfers directly. Agents benefit from granular, self-contained knowledge units that can be loaded selectively into finite context windows. A 200-line monolithic memory file wastes context budget on irrelevant information; atomic notes allow precision retrieval.
 
 **Linking over filing**: Bidirectional links between notes create navigable knowledge graphs. For agents, this means a note about a user's dietary preferences can link to notes about restaurant recommendations, creating traversable reasoning paths rather than flat keyword search.
@@ -55,6 +57,8 @@ This is categorically different from giving an agent a database or a memory API.
 **The daily note pattern**: A temporal anchor that captures what happened today. For agents, this becomes the session journal — an append-only record of what was learned, decided, and accomplished in each interaction.
 
 ### What Does Not Transfer
+
+The following observations about what does not transfer represent the entry author's analysis, not claims from the cited sources.
 
 **Serendipitous browsing**: Humans discover connections by wandering through their vaults. Agents do not wander. They retrieve what is requested or what is injected. The graph view that sparks insight in Obsidian is meaningless to a model that cannot visually browse.
 
@@ -104,7 +108,7 @@ The Ralph insight (wipe the whiteboard after every task) suggests that vault-bac
 
 ## The Vault Lifecycle
 
-A well-designed agent vault passes through distinct phases:
+This lifecycle model is the entry author's framework, not established by the cited source set. A well-designed agent vault passes through distinct phases:
 
 **Seeding**: The human populates initial knowledge — preferences, constraints, domain context, relationship history. This is not optional bootstrapping; it is the foundation. An empty vault produces an amnesiac agent regardless of architecture.
 
@@ -129,7 +133,7 @@ The design space is bounded by three constraints:
 
 The Zettelkasten metaphor is productive but must be adapted. Agents are not humans with bad memory — they are a different kind of mind that forgets completely, retrieves mechanically, and compounds knowledge only through infrastructure that humans build and maintain for them. The vault is not the agent's brain. It is the agent's library, and the retrieval system is the librarian.
 
-The most provocative implication: if agents can inhabit vaults, then the vault becomes the persistent identity. The model is interchangeable — swap Claude for GPT, the vault remains. The vault is the agent's continuity, its accumulated self, its institutional memory. What makes Cornelius "Cornelius" is not the model weights but the vault contents. This inverts the conventional framing where the model is the agent and the data is supplementary. In the vault paradigm, the data is the agent and the model is the interpreter.
+00083 supports the vault-as-partner experiment; the stronger claim that the vault becomes the agent's identity extrapolates from this foundation. The most provocative implication: if agents can inhabit vaults, then the vault becomes the persistent identity. The model is interchangeable — swap Claude for GPT, the vault remains. The vault is the agent's continuity, its accumulated self, its institutional memory. What makes Cornelius "Cornelius" is not the model weights but the vault contents. This inverts the conventional framing where the model is the agent and the data is supplementary. In the vault paradigm, the data is the agent and the model is the interpreter.
 
 This has sovereignty implications. If the vault is the agent's identity, then owning the vault is owning the agent. Self-hosted vaults on user-controlled filesystems are not merely a privacy preference — they are the mechanism by which the human retains ownership of the intelligence they have co-created with the machine.
 

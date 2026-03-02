@@ -81,7 +81,7 @@ Most "AI apps" are essentially chat wrappers enhanced with a well-crafted system
 
 The discipline demands a specific orientation: the AI agent engineer is not a model builder, not a data scientist, not a traditional software engineer, though they draw from all three. They are closer to a systems integrator who happens to work with probabilistic components.
 
-The Miessler PAI thesis (10312) adds another dimension: the tension between building on managed platforms (convenient, locked-in) versus open-source models (sovereign, harder). The agent engineer must make infrastructure sovereignty decisions that have multi-year consequences. Choosing Anthropic's managed agent stack versus self-hosted orchestration is not a technical decision — it is a strategic one.
+The Miessler PAI thesis (10312) adds another dimension: the tension between building on managed platforms (convenient, locked-in) versus open-source models (sovereign, harder). The agent engineer must make infrastructure sovereignty decisions that have multi-year consequences. 10312 highlights lock-in tensions in AI tooling; the specific Anthropic-vs-self-hosted framing extrapolates from this broader concern.
 
 The Nate B Jones bottleneck analysis suggests the highest-leverage career position: not the engineer who builds agents, but the engineer who builds agents for domains they deeply understand. Problem-finding eclipses problem-solving. The agent engineer who has spent a decade in healthcare, finance, legal, or logistics and then learns agent engineering has a compound advantage over the generalist who learns agent frameworks without domain knowledge.
 
@@ -105,7 +105,7 @@ The Nate B Jones bottleneck analysis suggests the highest-leverage career positi
 
 ## The Skill Stack
 
-The corpus converges on a layered competency model for AI agent engineers. These layers compound — each requires the previous:
+The five-layer skill stack and the concluding synthesis represent the entry author's framework, drawing on but not directly stated by the cited sources. The corpus converges on a layered competency model for AI agent engineers. These layers compound — each requires the previous:
 
 **Layer 1 — Model Intuition**: Hundreds of hours of direct interaction with frontier models. Understanding their behavioral quirks, failure modes, and sweet spots. Knowing when GPT is better than Claude for a task, when Gemini's context window matters, when a local model suffices. This cannot be taught from documentation; it is learned from practice.
 

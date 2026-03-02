@@ -32,7 +32,7 @@ PAI is the infrastructure for operating in this new scarcity landscape. The huma
 
 ### The Fabric Pattern: Composable AI Workflows
 
-Miessler's Fabric framework (referenced alongside PAI) demonstrates a composable approach to AI workflows: modular prompts that chain together, each handling a specific cognitive task (extract wisdom, summarize, analyze claims, create visualization). PAI provides the persistent context layer that makes these workflows accumulative rather than stateless. Each Fabric run enriches the PAI knowledge base; the knowledge base improves the next Fabric run. This creates a virtuous cycle that neither component achieves alone.
+10312 references Fabric as a modular workflow system; the specific pipeline examples (extract wisdom / analyze claims / create visualization) extrapolate from the source's broader framing. Miessler's Fabric framework (referenced alongside PAI) demonstrates a composable approach to AI workflows: modular prompts that chain together, each handling a specific cognitive task. PAI provides the persistent context layer that makes these workflows accumulative rather than stateless. Each Fabric run enriches the PAI knowledge base; the knowledge base improves the next Fabric run. This creates a virtuous cycle that neither component achieves alone.
 
 ---
 
@@ -53,7 +53,8 @@ Miessler's PAI system includes an Algorithm component that demonstrates a key ar
 1. **OBSERVE**: Analyze recent feedback, ratings, and reflection data. Pure thinking — no action.
 2. **LEARN**: Extract patterns from what worked and what failed across recent sessions.
 3. **RECOMMEND**: Generate specific, data-grounded improvement recommendations.
-4. **VERIFY**: Quality-gate the recommendations against ideal state criteria.
+
+00299 shows OBSERVE, LEARN, RECOMMEND phases with quality gates; a distinct VERIFY phase is inferred from the quality-gate pattern rather than explicitly named in the source.
 
 The critical property: improvements are captured as structured knowledge (curated patterns, updated rules, revised workflow definitions) rather than weight updates. This means the improvements are inspectable, reversible, and transferable across model versions. When you upgrade from GPT-4.6 to GPT-5.3, your accumulated improvements travel with you because they live in your PAI layer, not in the model.
 
@@ -132,6 +133,12 @@ This has implications for the future of work: the "billion-dollar solo founder" 
 The Syncrescendence neocorpus — the compendium layer where raw corpus material is fused into definitive treatments of concepts — is itself a PAI artifact. It is accumulated context, crystallized through nucleosynthesis, that makes every future AI interaction more effective. Each neocorpus entry is a unit of persistent knowledge that the Sovereign (the human) and the agents share. It is the textbook that the PAI teaches from — and the process of writing it is the process of building the context layer that PAI requires.
 
 ---
+
+## Syncrescendence Operational Context
+
+The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:
+- The five-agent constellation structure (Commander, Adjudicator, Cartographer, Psyche, Ajna) and the Kimi-to-Claude migration for Ajna derive from operational history
+- The subscription-dependency anti-pattern, factory test doctrine ("must build, be agent-drivable, no lock-in"), and account consolidation decisions derive from operational experience documented in memory/
 
 ## Source Provenance
 
