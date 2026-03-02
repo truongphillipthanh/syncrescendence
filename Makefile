@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: configs validate reconcile deploy-ajna sync-openclaw hydrate-openclaw-channels tooling-surface-status cloudflared-version ontology-domain-health-edge reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events normalize-event-ledger ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help manus-checkpoint-help cloudflare-domain-bridge-help github-issue-bridge-help channel-surface-bridge-help bootstrap-mini revive-mini-constellation constellation-mini-status mini-constellation-snapshot sync clean sync-checkpoint tree help
+.PHONY: configs validate reconcile deploy-ajna sync-openclaw hydrate-openclaw-channels tooling-surface-status cloudflared-version ontology-domain-health-edge reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events normalize-event-ledger ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help manus-checkpoint-help cloudflare-domain-bridge-help github-issue-bridge-help channel-surface-bridge-help bootstrap-mini revive-mini-constellation constellation-mini-status mini-constellation-snapshot install-mini-constellation-launchagent sync clean sync-checkpoint tree help
 
 PYTHON ?= python3
 HOSTNAME := $(shell hostname -s)
@@ -125,6 +125,10 @@ mini-constellation-snapshot:
 	@$(PYTHON) collect-mini-constellation-status.py
 	@echo "✓ Mac mini constellation status snapshot refreshed"
 
+install-mini-constellation-launchagent:
+	@bash install-mini-constellation-launchagent.sh
+	@echo "✓ Mac mini constellation LaunchAgent installed and kickstarted"
+
 # Default target
 help:
 	@echo "Syncrescendence Repository Commands"
@@ -158,6 +162,7 @@ help:
 	@echo "  make revive-mini-constellation - Create the stage-1 tmux constellation session on the Mac mini"
 	@echo "  make constellation-mini-status - Report Mac mini repo/tmux constellation status"
 	@echo "  make mini-constellation-snapshot - Write repo-safe Mac mini constellation status artifacts"
+	@echo "  make install-mini-constellation-launchagent - Install the stage-1 mini LaunchAgent that recreates the tmux session"
 	@echo "  make sync             - Pull, rebase, push"
 	@echo "  make sync-checkpoint  - Quick sync checkpoint (git state)"
 	@echo "  make tree             - Generate current directory tree"

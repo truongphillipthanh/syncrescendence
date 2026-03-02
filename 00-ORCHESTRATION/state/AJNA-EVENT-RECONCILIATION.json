@@ -1,16 +1,16 @@
 {
   "failed_count": 0,
   "failed_files": [],
-  "last_run_at": "2026-03-02T05:50:43Z",
+  "last_run_at": "2026-03-02T05:56:26Z",
   "processed_count": 1,
   "processed_ids": [
-    "system-20260302-055042-793609-tmux-constellation-stage1"
+    "system-20260302-055626-371957-mini-constellation-launchagent-state"
   ],
   "skipped_duplicates": [],
   "source_counts": {
     "ajna": 3,
     "commander": 2,
     "manus": 2,
-    "system": 14
+    "system": 17
   }
 }

@@ -14,6 +14,8 @@ STATE_DIR = REPO_ROOT / "00-ORCHESTRATION" / "state"
 REMOTE = "mini"
 REMOTE_REPO = "/Users/home/syncrescendence"
 REMOTE_WORKSPACE = "/Users/home/.openclaw/workspace/AGENTS.md"
+REMOTE_GIT = "/opt/homebrew/bin/git"
+LAUNCH_AGENT_LABEL = "com.syncrescendence.constellation-stage1"
 
 
 def utc_now() -> str:
@@ -49,8 +51,15 @@ def main() -> int:
     workspace_bytes = remote_text(f"wc -c < {REMOTE_WORKSPACE}")
     windows_text = remote_text("PATH=/opt/homebrew/bin:$PATH; tmux has-session -t constellation 2>/dev/null && tmux list-windows -t constellation || true")
     windows = [line.strip() for line in windows_text.splitlines() if line.strip()]
+    launch_agent_probe = run_remote(
+        f"launchctl print gui/$(id -u)/{LAUNCH_AGENT_LABEL}"
+    )
+    launch_agent_present = launch_agent_probe.returncode == 0
+    launch_agent_running = "state = running" in (launch_agent_probe.stdout or "")
 
-    git_probe = run_remote("cd /Users/home/.syncrescendence 2>/dev/null && git status --short --branch")
+    git_probe = run_remote(
+        f"PATH=/opt/homebrew/bin:$PATH; {REMOTE_GIT} -C {REMOTE_REPO} status --short --branch"
+    )
     git_native_ready = git_probe.returncode == 0
     git_probe_error = (git_probe.stderr or git_probe.stdout).strip() if not git_native_ready else ""
     xcode_license_blocked = "xcode license" in git_probe_error.lower()
@@ -72,6 +81,11 @@ def main() -> int:
         },
         "constellation_session_present": bool(windows),
         "constellation_windows": windows,
+        "launch_agent": {
+            "label": LAUNCH_AGENT_LABEL,
+            "present": launch_agent_present,
+            "running": launch_agent_running,
+        },
         "git_native_ready": git_native_ready,
         "xcode_license_blocked": xcode_license_blocked,
         "git_probe_error": git_probe_error or None,
@@ -95,6 +109,8 @@ def main() -> int:
         f"- Codex path: `{payload['binaries']['codex']}`",
         f"- Gemini path: `{payload['binaries']['gemini']}`",
         f"- Constellation session present: `{payload['constellation_session_present']}`",
+        f"- LaunchAgent present: `{payload['launch_agent']['present']}`",
+        f"- LaunchAgent running: `{payload['launch_agent']['running']}`",
         f"- Git-native ready: `{payload['git_native_ready']}`",
         f"- Xcode license blocked: `{payload['xcode_license_blocked']}`",
         "",

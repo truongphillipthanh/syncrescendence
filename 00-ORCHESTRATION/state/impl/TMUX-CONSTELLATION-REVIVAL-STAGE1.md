@@ -12,8 +12,9 @@
   - `/opt/homebrew/bin/codex`
   - `/opt/homebrew/bin/gemini`
 - OpenClaw exists on the Mac mini and still has a workspace under `/Users/home/.openclaw/workspace`
-- The canonical repo checkout is missing at `/Users/home/syncrescendence`
-- A legacy hidden repo path exists at `/Users/home/.syncrescendence`, but Git operations there are blocked by the remote Xcode license gate
+- The canonical repo checkout now exists at `/Users/home/syncrescendence`
+- That canonical checkout now tracks `origin/main` via Homebrew `git`
+- A legacy hidden repo path exists at `/Users/home/.syncrescendence`, but Apple-toolchain Git operations there are still blocked by the remote Xcode license gate
 
 ## Why Stage 1 Exists
 
@@ -29,7 +30,7 @@ The point is to re-establish the Mac mini as a deterministic, repo-driven execut
 This avoids two bad shortcuts:
 
 - reviving tmux before repo truth is present on the mini
-- relying on remote Git before the Xcode license issue is resolved
+- relying on stale hidden-path state instead of the canonical repo checkout
 
 ## Stage 1 Commands
 
@@ -61,6 +62,12 @@ make constellation-mini-status
 
 Each window opens at the canonical repo path and drops into an interactive login shell with a role-specific banner.
 
+### `make install-mini-constellation-launchagent`
+
+- installs `com.syncrescendence.constellation-stage1.plist` into the mini user's LaunchAgents directory
+- bootstraps and kickstarts the job
+- ensures the detached stage-1 `constellation` session can be reasserted on login without manual recreation
+
 ### `make constellation-mini-status`
 
 - reports remote repo path presence
@@ -73,16 +80,16 @@ Each window opens at the canonical repo path and drops into an interactive login
 - Slack/Discord dispatch is not validated end-to-end
 - Ajna reset is not solved here
 - no cron or always-on automation fabric is restarted
-- no remote Git workflow is assumed
+- no higher-order agent automation fabric is assumed
 
-## Known Human Blocker
+## Git Note
 
-Remote Git-native work on the mini is still blocked by the Xcode license gate.
+The canonical checkout at `/Users/home/syncrescendence` is already Git-native and tracks `origin/main` through Homebrew `git`.
 
-When Git-based local worktrees or local commits are needed on the mini, the required human action is:
+Apple's default developer-toolchain Git still triggers the Xcode license gate on this machine. If that Apple path must be used later, the required human action is:
 
 ```bash
 sudo xcodebuild -license
 ```
 
-Until then, repo hydration proceeds by rsync from the authoritative local checkout.
+That is no longer a blocker for the canonical repo path or for the stage-1 tmux surface.

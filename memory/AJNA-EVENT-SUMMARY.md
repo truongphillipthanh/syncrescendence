@@ -1,15 +1,42 @@
 # Agent Event Summary
 
-**Updated**: 2026-03-02T05:50:43Z
+**Updated**: 2026-03-02T05:56:26Z
 
 ## Source Counts
 
 - `ajna`: `3`
 - `commander`: `2`
 - `manus`: `2`
-- `system`: `14`
+- `system`: `17`
 
 ## Recent Events
+
+### system-20260302-055626-371957-mini-constellation-launchagent-state
+- Emitted: `2026-03-02T05:56:26Z`
+- Type: `mini_constellation_launchagent_state`
+- Surface: `runtime`
+- Artifact class: `runtime_state`
+- Capture level: `summary`
+- Durable capture: `summary_markdown`
+- Summary: Mac mini stage-1 constellation LaunchAgent is installed as a one-shot bootstrap agent; tmux session is present and the agent is not expected to remain running.
+
+### system-20260302-055604-766042-mini-constellation-launchagent-installed
+- Emitted: `2026-03-02T05:56:04Z`
+- Type: `mini_constellation_launchagent_installed`
+- Surface: `runtime`
+- Artifact class: `runtime_state`
+- Capture level: `summary`
+- Durable capture: `summary_markdown`
+- Summary: Mac mini stage-1 constellation LaunchAgent is installed and running; detached tmux session can be reasserted on login.
+
+### system-20260302-055435-829577-mini-git-checkout-normalized
+- Emitted: `2026-03-02T05:54:35Z`
+- Type: `mini_git_checkout_normalized`
+- Surface: `runtime`
+- Artifact class: `runtime_state`
+- Capture level: `summary`
+- Durable capture: `summary_markdown`
+- Summary: Mac mini canonical repo path is now a real Git checkout tracking origin/main; detached constellation session remains present.
 
 ### system-20260302-055042-793609-tmux-constellation-stage1
 - Emitted: `2026-03-02T05:50:42Z`
@@ -73,30 +100,3 @@
 - Capture level: `summary`
 - Durable capture: `summary_and_typed_record`
 - Summary: Captured Discord runtime health state: provider healthy, no traffic observed yet.
-
-### system-20260302-052917-666405-github-issue-state
-- Emitted: `2026-03-02T05:29:17Z`
-- Type: `github_issue_state`
-- Surface: `github`
-- Artifact class: `github_issue_pr`
-- Capture level: `pointer`
-- Durable capture: `pointer`
-- Summary: Captured closed GitHub issue state for completed exocortex wrapper expansion work.
-
-### system-20260302-052841-431917-github-issue-state
-- Emitted: `2026-03-02T05:28:41Z`
-- Type: `github_issue_state`
-- Surface: `github`
-- Artifact class: `github_issue_pr`
-- Capture level: `pointer`
-- Durable capture: `pointer`
-- Summary: Captured closed GitHub issue state for completed Manus integration checkpoint work.
-
-### system-20260302-052834-918307-github-issue-state
-- Emitted: `2026-03-02T05:28:34Z`
-- Type: `github_issue_state`
-- Surface: `github`
-- Artifact class: `github_issue_pr`
-- Capture level: `pointer`
-- Durable capture: `pointer`
-- Summary: Captured closed GitHub issue state for completed secret cleanup and rotation work.
