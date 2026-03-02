@@ -4,7 +4,7 @@
 
 ## Sources
 
-04216.jsonl, 04218.md, 10930.md, 03565.jsonl, 03567.md, 03766.jsonl, 03768.md, 10844.md, 10745.md, 10529.md, 10914.md, 10431.md, 02320.jsonl, 02322.md, 01366.jsonl, 01368.md, 01482.md, 02467.jsonl, 02469.md, 03076.jsonl, 03078.md, 03088.jsonl, 03090.md, 03091.jsonl, 04249.jsonl, 04360.jsonl, 04393.jsonl, 09387.md, 09827.md, 02041.jsonl, 02043.md, 09763.md, 10318.md, 10393.md, 02212.jsonl, 02920.jsonl, 04006.jsonl
+00144.md, 02086.jsonl, 02769.md, 04072.jsonl, 04216.jsonl, 04218.md, 10674.md, 10930.md, 03565.jsonl, 03567.md, 03766.jsonl, 03768.md, 10844.md, 10745.md, 10529.md, 10914.md, 10431.md, 02320.jsonl, 02322.md, 01366.jsonl, 01368.md, 01482.md, 02467.jsonl, 02469.md, 03076.jsonl, 03078.md, 03088.jsonl, 03090.md, 03091.jsonl, 04249.jsonl, 04360.jsonl, 04393.jsonl, 09387.md, 09827.md, 02041.jsonl, 02043.md, 09763.md, 10318.md, 10393.md, 02212.jsonl, 02920.jsonl, 04006.jsonl
 
 ## The Cournot Equilibrium in AI
 
@@ -26,11 +26,11 @@ Half of global VC flows into AI (04249.jsonl). AI companies stay private longer;
 
 The market volatility from the SaaSpocalypse is partially algorithmic — driven more by algorithmic selling than fundamental economic factors (04072.jsonl, 03766.jsonl). Cathie Wood argues SaaSpocalypse fears and Bitcoin volatility are creating mispriced opportunities (03768.md, 10844.md, 10674.md).
 
-Five AI CEOs converge on the 2025-2027 timeline as transformative (03088.jsonl, 03387.md). The convergent outlook: 2026 is the most consequential year for business paradigm shift (10914.md, 10529.md).
+Five AI CEOs have made similar predictions about an upcoming technological shift, converging on the 2025-2027 period as significant (03088.jsonl, 03090.md). Multiple analyst sources point to 2026 as a potentially consequential year for business paradigm shift (10914.md, 10529.md).
 
 ## Vertical AI Market Dynamics
 
-**Legal AI**: Legora reached $7M ARR in a single day, 750 law firm customers, $200M raised. Harvey vs Legora competitive dynamics emerging (03078.md). Harvey at $9.2B valuation with $980M raised (02769.md).
+**Legal AI**: Legora scaled rapidly to 750 law firm customers and over $200M raised, with Harvey vs Legora competitive dynamics emerging (03078.md). Harvey at $9.2B valuation with $980M raised (02769.md).
 
 **AI company rankings**: Competitive market analysis distinguishing genuine capability from hype (09827.md).
 

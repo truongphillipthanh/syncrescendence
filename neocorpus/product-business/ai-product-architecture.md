@@ -4,7 +4,7 @@
 
 ## Sources
 
-11006.md, 03517.jsonl, 03721.jsonl, 10712.md, 10879.md, 03999.md, 02449.jsonl, 09575.md, 10644.md, 09856.md
+10849.md, 11001.md, 11006.md, 03517.jsonl, 03721.jsonl, 10712.md, 10879.md, 03999.md, 02449.jsonl, 09575.md, 10644.md, 09856.md
 
 ## Prompt Caching as Core Architecture
 
@@ -28,7 +28,7 @@ Prompt caching is not a performance optimization — it is a foundational archit
 
 **Multi-agent architectures** (10879.md): Building teams of specialized agents where each agent has a defined role, tools, and scope. The orchestration pattern — how agents hand off work, share context, and resolve conflicts — is the product architecture.
 
-**Skills-based product design** (03721.jsonl, 03999.md): OpenClaw and similar platforms structure capabilities as modular skills that can be composed, shared, and marketplace-distributed. This mirrors the app store model but for agent capabilities.
+**Skills-based product design** (03721.jsonl, 03999.md): Platforms like OpenClaw enable AI agents to manage structured workflows — such as productivity systems built on shared databases — where the agent proactively handles tasks, reviews, and check-ins. This points toward a pattern of composable agent capabilities, though marketplace distribution remains nascent.
 
 **Agentic product workflow** (02449.jsonl): "Ralph Wiggum" style — AI agents that build product features from PRDs directly, representing a new category of agentic development workflow.
 
