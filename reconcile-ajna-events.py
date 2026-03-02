@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import json
 import shutil
+import urllib.error
+import urllib.request
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -185,13 +187,32 @@ def archive_file(path: Path, destination_dir: Path) -> None:
     shutil.move(str(path), str(destination))
 
 
-def reconcile() -> int:
+def project_event_to_ontology(event: dict, ontology_url: str, timeout_seconds: float) -> tuple[bool, str | None]:
+    payload = json.dumps(event).encode("utf-8")
+    request = urllib.request.Request(
+        ontology_url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
+            response.read()
+        return True, None
+    except urllib.error.URLError as exc:
+        reason = getattr(exc, "reason", exc)
+        return False, str(reason)
+
+
+def reconcile(project_ontology: bool, ontology_url: str, ontology_timeout_seconds: float) -> int:
     ensure_dirs()
     policy = load_capture_policy()
     existing_ids = load_existing_ids()
     processed: list[str] = []
     failed: list[str] = []
     skipped: list[str] = []
+    projected_to_ontology: list[str] = []
+    ontology_failures: list[str] = []
 
     for path in sorted(INBOX_DIR.glob("*.json")):
         try:
@@ -230,6 +251,16 @@ def reconcile() -> int:
         with LEDGER_PATH.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(normalized, sort_keys=True) + "\n")
         processed.append(event["id"])
+        if project_ontology:
+            success, error = project_event_to_ontology(
+                normalized,
+                ontology_url=ontology_url,
+                timeout_seconds=ontology_timeout_seconds,
+            )
+            if success:
+                projected_to_ontology.append(event["id"])
+            else:
+                ontology_failures.append(f"{event['id']}: {error}")
         existing_ids.add(event["id"])
         archive_file(path, ARCHIVE_DIR)
 
@@ -239,18 +270,31 @@ def reconcile() -> int:
     print(f"Processed: {len(processed)}")
     print(f"Failed: {len(failed)}")
     print(f"Skipped duplicates: {len(skipped)}")
+    if project_ontology:
+        print(f"Projected to ontology: {len(projected_to_ontology)}")
+        if ontology_failures:
+            print("Ontology projection failures:")
+            for failure in ontology_failures:
+                print(f"- {failure}")
     return 0
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--ensure-dirs", action="store_true")
+    parser.add_argument("--project-ontology", action="store_true")
+    parser.add_argument("--ontology-url", default="http://127.0.0.1:8787/ingest/event")
+    parser.add_argument("--ontology-timeout-seconds", type=float, default=2.0)
     args = parser.parse_args()
     ensure_dirs()
     if args.ensure_dirs:
         print(f"Ensured event directories under {EVENTS_ROOT}")
         return 0
-    return reconcile()
+    return reconcile(
+        project_ontology=args.project_ontology,
+        ontology_url=args.ontology_url,
+        ontology_timeout_seconds=args.ontology_timeout_seconds,
+    )
 
 
 if __name__ == "__main__":

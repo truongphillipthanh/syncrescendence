@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: configs validate reconcile deploy-ajna sync-openclaw reconcile-ajna-events ontology-init ontology-project ontology-run ontology-smoke sync clean sync-checkpoint tree help
+.PHONY: configs validate reconcile deploy-ajna sync-openclaw reconcile-ajna-events reconcile-ajna-events-project ontology-init ontology-project ontology-run ontology-smoke obsidian-bridge-help sync clean sync-checkpoint tree help
 
 PYTHON ?= python3
 HOSTNAME := $(shell hostname -s)
@@ -37,6 +37,10 @@ reconcile-ajna-events:
 	@$(PYTHON) reconcile-ajna-events.py
 	@echo "✓ Ajna event landing zone reconciled into repo memory/state"
 
+reconcile-ajna-events-project:
+	@$(PYTHON) reconcile-ajna-events.py --project-ontology
+	@echo "✓ Ajna event landing zone reconciled and projected to ontology"
+
 ontology-init:
 	@$(PYTHON) ontology_v1.py init
 	@echo "✓ Ontology v1 schema initialized"
@@ -52,6 +56,9 @@ ontology-smoke:
 	@$(PYTHON) ontology_v1.py smoke
 	@echo "✓ Ontology v1 smoke test passed"
 
+obsidian-bridge-help:
+	@$(PYTHON) obsidian_repo_bridge.py --help
+
 # Default target
 help:
 	@echo "Syncrescendence Repository Commands"
@@ -62,10 +69,12 @@ help:
 	@echo "  make deploy-ajna      - Deploy generated Ajna config to the live OpenClaw workspace"
 	@echo "  make sync-openclaw    - Snapshot live OpenClaw runtime back into repo state"
 	@echo "  make reconcile-ajna-events - Ingest Ajna event files from OpenClaw workspace"
+	@echo "  make reconcile-ajna-events-project - Reconcile Ajna events and POST them to ontology"
 	@echo "  make ontology-init    - Initialize the local ontology v1 SQLite schema"
 	@echo "  make ontology-project - Project repo-normalized state into ontology v1"
 	@echo "  make ontology-run     - Run the ontology v1 FastAPI service on 127.0.0.1:8787"
 	@echo "  make ontology-smoke   - Verify ontology v1 projection and API wiring"
+	@echo "  make obsidian-bridge-help - Show repo-backed Obsidian bridge usage"
 	@echo "  make sync             - Pull, rebase, push"
 	@echo "  make sync-checkpoint  - Quick sync checkpoint (git state)"
 	@echo "  make tree             - Generate current directory tree"

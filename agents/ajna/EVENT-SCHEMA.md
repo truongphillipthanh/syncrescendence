@@ -55,6 +55,13 @@ Commander ingests those events into repo state with:
 - `manus_workflow`
 - `browser_action`
 
+## Common Event Types
+
+- `obsidian_note_create`
+- `obsidian_note_append`
+- `browser_auth_state`
+- `browser_state_check`
+
 ## Capture Levels
 
 - `pointer`: external pointer only, minimal durable trace
