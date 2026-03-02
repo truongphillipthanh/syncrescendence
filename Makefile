@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: configs validate reconcile deploy-ajna sync-openclaw reconcile-ajna-events sync clean sync-checkpoint tree help
+.PHONY: configs validate reconcile deploy-ajna sync-openclaw reconcile-ajna-events ontology-init ontology-project ontology-run ontology-smoke sync clean sync-checkpoint tree help
 
 PYTHON ?= python3
 HOSTNAME := $(shell hostname -s)
@@ -37,6 +37,21 @@ reconcile-ajna-events:
 	@$(PYTHON) reconcile-ajna-events.py
 	@echo "✓ Ajna event landing zone reconciled into repo memory/state"
 
+ontology-init:
+	@$(PYTHON) ontology_v1.py init
+	@echo "✓ Ontology v1 schema initialized"
+
+ontology-project:
+	@$(PYTHON) ontology_v1.py project-repo
+	@echo "✓ Repo state projected into ontology v1"
+
+ontology-run:
+	@$(PYTHON) ontology_v1.py serve --host 127.0.0.1 --port 8787
+
+ontology-smoke:
+	@$(PYTHON) ontology_v1.py smoke
+	@echo "✓ Ontology v1 smoke test passed"
+
 # Default target
 help:
 	@echo "Syncrescendence Repository Commands"
@@ -47,6 +62,10 @@ help:
 	@echo "  make deploy-ajna      - Deploy generated Ajna config to the live OpenClaw workspace"
 	@echo "  make sync-openclaw    - Snapshot live OpenClaw runtime back into repo state"
 	@echo "  make reconcile-ajna-events - Ingest Ajna event files from OpenClaw workspace"
+	@echo "  make ontology-init    - Initialize the local ontology v1 SQLite schema"
+	@echo "  make ontology-project - Project repo-normalized state into ontology v1"
+	@echo "  make ontology-run     - Run the ontology v1 FastAPI service on 127.0.0.1:8787"
+	@echo "  make ontology-smoke   - Verify ontology v1 projection and API wiring"
 	@echo "  make sync             - Pull, rebase, push"
 	@echo "  make sync-checkpoint  - Quick sync checkpoint (git state)"
 	@echo "  make tree             - Generate current directory tree"

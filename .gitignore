@@ -79,6 +79,7 @@ __pycache__/
 
 # SQLite databases (regenerated from scripts)
 *.db
+*.sqlite3
 
 # Manifests (regenerated)
 /tmp/*.tsv
