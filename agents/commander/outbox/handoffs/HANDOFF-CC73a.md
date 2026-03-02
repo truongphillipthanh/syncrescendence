@@ -98,6 +98,12 @@ Drive CRUSH forward folder by folder. Lane b closed — Adjudicator inherits too
 - **CLAUDE.md was updated** by Adjudicator in CC74b — Execution Surface Routing doctrine added. Do NOT overwrite.
 - **Next CRUSH target**: productivity-pkm (212 files) or writing-creation (221 files) — Sovereign's call.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Operated in Phase 1 (Deduplication) for design-taste/ — reclassified 157 of 193 files (80% misclassification rate, worst yet) to 18 folders — then Phase 2 (Redundancy) — fused 34 on-topic files into 5 definitive neocorpus entries. Also staged Adjudicator fidelity dispatch for prior session's health-psychology entries.
+
 ## Key Files
 
 | File | Purpose |

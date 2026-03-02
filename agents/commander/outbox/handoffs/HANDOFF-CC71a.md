@@ -102,6 +102,12 @@ Drive CRUSH forward folder by folder. Process ALL pending Adjudicator responses.
 - **Dominant failure patterns across 6 responses**: (1) undeclared source leakage (geopolitics), (2) interpretive inflation (video), (3) fabricated config schemas (openclaw — seared). All remediated.
 - b-lane dirty files exist (Makefile, configs/, harness/, etc.) — do NOT commit in a-lane sessions.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Operated across Phases 1-2 for ai-video-vfx/ (120 files → 3 entries) and geopolitics-grand-strategy/ (137 files → 5 entries), then remediated 10 entries across multiple folders where Adjudicator flagged undeclared source leakage and interpretive inflation — a Phase 2 fidelity correction ensuring fusion products trace cleanly to source material.
+
 ## Key Files
 
 | File | Purpose |

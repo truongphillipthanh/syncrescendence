@@ -82,6 +82,12 @@ Drive CRUSH forward folder by folder. Maintain fidelity discipline.
 - **No new Adjudicator prompt staged for CC72a entries** — Sovereign may want to batch with next CRUSH session.
 - b-lane dirty files may exist from CC72b work (ontology_v1.py, etc.) — do NOT touch in a-lane sessions.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Operated in Phase 1 (Deduplication) for health-psychology/ — reclassified 78 of 146 files (53% misclassification rate) to 15 correct folders — then Phase 2 (Redundancy) — fused 65 on-topic files into 5 definitive neocorpus entries covering computational neuroscience, attention/cognition, flourishing, longevity, and consciousness.
+
 ## Key Files
 
 | File | Purpose |

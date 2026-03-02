@@ -83,6 +83,12 @@ Sovereign wants the CRUSH initiative driven forward: reclassify misrouted files,
 - The fabricated-config-schema pattern is SEARED. Never invent JSON config structures. Use verbatim source configs or describe capabilities in prose.
 - infrastructure/ is COMPLETE. Pick the next smallest folder for CRUSH.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Operated in Phase 1 (Deduplication) for infrastructure/ — reclassified 47 of 79 files to correct folders — and Phase 2 (Redundancy) — fused 32 on-topic files into 4 definitive neocorpus entries. Also remediated 4 previously nucleosynthesized entries flagged by Adjudicator for fabrication.
+
 ## Key Files
 
 | File | Purpose |
