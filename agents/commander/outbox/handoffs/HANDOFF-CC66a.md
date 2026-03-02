@@ -89,6 +89,12 @@ Complete CRUSH across all 22 corpus folders, building the compendium. openclaw/ 
 5. **The Layer 3 files** (Syncrephoenix, metabolism thesis) reclassified from openclaw to MAS in CC65 are the highest-wisdom nucleosynthesis targets for multi-agent-systems/.
 6. **All pushed** — repo is clean, HEAD is `8e84b302`.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Completed holistic Phase 2-4 fusion for openclaw/ — final subcategory Ecosystem & Comparative (~70 files → 6 neocorpus entries). First folder fully nucleosynthesized: 19 entries from ~116 source files across all 6 subcategories.
+
 ## Key Files
 
 | File | Purpose |

@@ -85,6 +85,12 @@ Scale CRUSH across all 22 corpus folders. Five folders complete. Quality gate op
 5. **75% misclassification in leadership-management** — worst rate observed. Budget for similar or worse in remaining unchecked folders.
 6. **Fidelity lesson from CC65**: The dominant failure modes are (a) fabricated config schemas (invented JSON that resembles but doesn't match sources), (b) unsourced comparative claims, (c) overstating operational conclusions as research findings. Watch for these in future nucleosynthesis.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Holistic Phase 2-4 fusion for leadership-management/ (12 files → 3 entries, 75% reclassification rate) plus quality gate closure — remediated 4 openclaw entries per Adjudicator CC65 fidelity feedback (60% pass rate, dominant failures: fabricated configs, unsourced claims).
+
 ## Key Files
 
 | File | Purpose |

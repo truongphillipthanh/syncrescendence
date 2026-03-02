@@ -82,6 +82,12 @@ Scale CRUSH across all 22 corpus folders, building the compendium. Four folders 
 5. **leadership-management** is flagged as "highest misclassification rate" — expect 50%+ reclassification. Quick win because it's only ~52 files.
 6. **All pushed** — repo is clean, HEAD is `d1f1beab`.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Holistic Phase 2-4 fusion at scale — 3 folders nucleosynthesized (prompt-engineering, ai-biotech, startup-vc) producing 11 entries from 73 source files, with 56 files reclassified as prerequisite cleanup. Velocity proven: 3 folders in one session.
+
 ## Key Files
 
 | File | Purpose |

@@ -96,6 +96,12 @@ The compendium. The definitive guide on everything the Syncrescendence cares abo
 - Apply all three species (redundancy, obsolescence, supersession) holistically per concept cluster.
 - Produce definitive treatments in `neocorpus/` and compare against originals.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Operated in Phase 1 (Deduplication) — empirically falsified cross-folder overlap hypothesis via 7-agent content verification swarm, then seared the corrected CRUSH doctrine (within-folder nucleosynthesis, holistic fusion) into the constitution.
+
 ## Key Files
 
 | File | Purpose |

@@ -81,6 +81,12 @@ Execute CRUSH nucleosynthesis on openclaw/ as the proving ground for the compend
 4. **The reclassified Layer 3 files** (constellation diagnostics, Syncrephoenix, metabolism thesis) are the highest-wisdom content now in multi-agent-systems/. When MAS nucleosynthesis begins, these are priority targets.
 5. **Push needed** — commits are local only. Push before any agent dispatch that references GitHub.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Scaled holistic Phase 2-4 fusion across 3 openclaw subcategories (31 files → 10 neocorpus entries), plus dissolved Operational Tooling via reclassification (71 files → MAS). Staged Adjudicator fidelity verification as quality gate.
+
 ## Key Files
 
 | File | Purpose |

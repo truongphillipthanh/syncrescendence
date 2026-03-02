@@ -88,6 +88,12 @@ The pilot is done. The process template is validated. Three neocorpus entries ex
 
 **Do NOT re-pilot.** The template works. Scale it.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: First holistic Phase 2-4 fusion pilot — nucleosynthesized openclaw/Installation & Configuration (15 files → 3 neocorpus entries), exercising redundancy, obsolescence, and supersession simultaneously per concept cluster. Validated the process template.
+
 ## Key Files
 
 | File | Purpose |
