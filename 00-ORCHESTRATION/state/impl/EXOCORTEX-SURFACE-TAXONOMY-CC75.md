@@ -41,10 +41,10 @@ It does **not** assume that future IIC routing, Oracle-central control, or new c
 | `obsidian_repo_surface` | repo-backed Obsidian notes | `implemented` | local exocortex writing surface | local CLI | Commander local | repo-backed bridge exists; `.obsidian/` remains non-authoritative |
 | `google_model_surface` | Gemini API / AI Studio / Vertex model calls | `planned` | model execution | API | Commander local or future wrappers | must be separated from GCP infra and NotebookLM |
 | `gcloud_resource_surface` | GCP projects / services / infra | `implemented` | cloud infrastructure | CLI/API | Commander local | readiness/status path exists; richer wrappers still planned |
-| `notebooklm_surface` | NotebookLM personal / enterprise | `planned` | source-bounded synthesis | web | Commander relay initially | treat personal as browser-only until official API reality changes |
-| `youtube_feed_surface` | YouTube Data API | `planned` | feed/media ingestion | API | Commander local or future wrapper | likely Feedcraft backbone |
-| `xai_model_surface` | xAI API | `planned` | model execution | API | Commander local or future wrapper | must remain distinct from Grok web Oracle |
-| `claude_cowork_surface` | Claude Cowork | `planned` | collaborative external execution | web/API | Commander relay initially | should follow same packet/landing contract |
+| `notebooklm_surface` | NotebookLM personal / enterprise | `packetized` | source-bounded synthesis | web | Commander relay initially | packet + response bridge exist; treat personal as browser-only until official API reality changes |
+| `youtube_feed_surface` | YouTube Data API | `implemented` | feed/media ingestion | API | Commander local or future wrapper | feed checkpoint bridge now exists; likely Feedcraft backbone |
+| `xai_model_surface` | xAI API | `implemented` | model execution | API | Commander local or future wrapper | model checkpoint bridge now exists; remains distinct from Grok web Oracle |
+| `claude_cowork_surface` | Claude Cowork | `packetized` | collaborative external execution | web/API | Commander relay initially | packet + response bridge now exist |
 | `feedcraft_surface` | Feedcraft subsystem | `planned` | feed conditioning + publication logic | hybrid | future dedicated wrapper | higher-order subsystem over multiple exocortex surfaces |
 | `iic_line_surface` | IIC governance layer | `planned` | identity/governance overlay | internal | future stage | not a raw tool surface; governs surface ownership and flow later |
 
@@ -81,9 +81,15 @@ This is intentionally less ambitious than the Oracle ownership matrix.
 
 The next wrappers should likely be:
 
-1. `notebooklm_surface`
-2. `youtube_feed_surface`
-3. `xai_model_surface`
-4. `claude_cowork_surface`
+1. `google_model_surface`
+2. `feedcraft_surface`
+3. `iic_line_surface`
+
+NotebookLM, YouTube, xAI, and Claude Cowork now have their first repo-native wrapper layer:
+
+- NotebookLM uses the same packet -> returned markdown -> bridge event loop as Oracle and Perplexity.
+- YouTube uses an API/checkpoint bridge with pointer-first capture and transcript-avoidance rules.
+- Claude Cowork uses the same packet -> returned markdown -> bridge event loop as NotebookLM.
+- xAI uses a model-execution checkpoint bridge with prompt/response raw capture explicitly disallowed.
 
 Only after those begin to exist should Feedcraft and IIC move from conceptual overlays into tooling artifacts.

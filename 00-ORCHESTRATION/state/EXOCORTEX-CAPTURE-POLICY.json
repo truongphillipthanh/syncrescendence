@@ -112,6 +112,35 @@
         "dom_dump",
         "session_dump"
       ]
+    },
+    "youtube_feed_metadata": {
+      "allowed_durable_capture": [
+        "pointer",
+        "typed_record",
+        "summary_and_typed_record"
+      ],
+      "forbidden_payload_keys": [
+        "transcript",
+        "transcript_text",
+        "captions",
+        "caption_text",
+        "full_description"
+      ]
+    },
+    "model_execution_record": {
+      "allowed_durable_capture": [
+        "pointer",
+        "typed_record",
+        "summary_and_typed_record"
+      ],
+      "forbidden_payload_keys": [
+        "prompt",
+        "messages",
+        "completion",
+        "response_text",
+        "chain_of_thought",
+        "raw_output"
+      ]
     }
   },
   "forbidden_repo_path_substrings": [

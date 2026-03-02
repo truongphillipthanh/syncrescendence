@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: configs validate reconcile deploy-ajna sync-openclaw hydrate-openclaw-channels tooling-surface-status cloudflared-version ontology-domain-health-edge reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events normalize-event-ledger ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help manus-checkpoint-help cloudflare-domain-bridge-help github-issue-bridge-help channel-surface-bridge-help oracle-packet-help perplexity-packet-help oracle-response-bridge-help perplexity-response-bridge-help bootstrap-mini revive-mini-constellation constellation-mini-status mini-constellation-snapshot install-mini-constellation-launchagent sync clean sync-checkpoint tree help
+.PHONY: configs validate reconcile deploy-ajna sync-openclaw hydrate-openclaw-channels tooling-surface-status cloudflared-version ontology-domain-health-edge reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events normalize-event-ledger ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help manus-checkpoint-help cloudflare-domain-bridge-help github-issue-bridge-help channel-surface-bridge-help oracle-packet-help perplexity-packet-help notebooklm-packet-help claude-cowork-packet-help oracle-response-bridge-help perplexity-response-bridge-help notebooklm-response-bridge-help claude-cowork-response-bridge-help youtube-feed-bridge-help xai-model-bridge-help bootstrap-mini revive-mini-constellation constellation-mini-status mini-constellation-snapshot install-mini-constellation-launchagent sync clean sync-checkpoint tree help
 
 PYTHON ?= python3
 HOSTNAME := $(shell hostname -s)
@@ -115,11 +115,29 @@ oracle-packet-help:
 perplexity-packet-help:
 	@$(PYTHON) stage_perplexity_packet.py --help
 
+notebooklm-packet-help:
+	@$(PYTHON) stage_notebooklm_packet.py --help
+
+claude-cowork-packet-help:
+	@$(PYTHON) stage_claude_cowork_packet.py --help
+
 oracle-response-bridge-help:
 	@$(PYTHON) oracle_response_bridge.py --help
 
 perplexity-response-bridge-help:
 	@$(PYTHON) perplexity_response_bridge.py --help
+
+notebooklm-response-bridge-help:
+	@$(PYTHON) notebooklm_response_bridge.py --help
+
+claude-cowork-response-bridge-help:
+	@$(PYTHON) claude_cowork_response_bridge.py --help
+
+youtube-feed-bridge-help:
+	@$(PYTHON) youtube_feed_bridge.py --help
+
+xai-model-bridge-help:
+	@$(PYTHON) xai_model_bridge.py --help
 
 bootstrap-mini:
 	@bash bootstrap-mac-mini.sh all
@@ -172,8 +190,14 @@ help:
 	@echo "  make channel-surface-bridge-help - Show Slack/Discord runtime checkpoint bridge usage"
 	@echo "  make oracle-packet-help - Show Oracle web dispatch packet generator usage"
 	@echo "  make perplexity-packet-help - Show Perplexity verification packet generator usage"
+	@echo "  make notebooklm-packet-help - Show NotebookLM synthesis packet generator usage"
+	@echo "  make claude-cowork-packet-help - Show Claude Cowork collaboration packet generator usage"
 	@echo "  make oracle-response-bridge-help - Show Oracle response landing bridge usage"
 	@echo "  make perplexity-response-bridge-help - Show Perplexity response landing bridge usage"
+	@echo "  make notebooklm-response-bridge-help - Show NotebookLM response landing bridge usage"
+	@echo "  make claude-cowork-response-bridge-help - Show Claude Cowork response landing bridge usage"
+	@echo "  make youtube-feed-bridge-help - Show YouTube feed/media checkpoint bridge usage"
+	@echo "  make xai-model-bridge-help - Show xAI model checkpoint bridge usage"
 	@echo "  make bootstrap-mini  - Render mini configs, rsync repo to the Mac mini, and deploy Psyche surface"
 	@echo "  make revive-mini-constellation - Create the stage-1 tmux constellation session on the Mac mini"
 	@echo "  make constellation-mini-status - Report Mac mini repo/tmux constellation status"

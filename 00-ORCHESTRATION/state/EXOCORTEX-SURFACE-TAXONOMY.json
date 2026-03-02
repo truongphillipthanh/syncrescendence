@@ -75,7 +75,7 @@
     {
       "slug": "notebooklm_surface",
       "service": "NotebookLM personal / enterprise",
-      "status": "planned",
+      "status": "packetized",
       "category": "source_bounded_synthesis",
       "access_model": "web",
       "owning_harness": "commander_relay_initially"
@@ -83,7 +83,7 @@
     {
       "slug": "youtube_feed_surface",
       "service": "YouTube Data API",
-      "status": "planned",
+      "status": "implemented",
       "category": "feed_media_ingestion",
       "access_model": "api",
       "owning_harness": "commander_local_or_future_wrapper"
@@ -91,7 +91,7 @@
     {
       "slug": "xai_model_surface",
       "service": "xAI API",
-      "status": "planned",
+      "status": "implemented",
       "category": "model_execution",
       "access_model": "api",
       "owning_harness": "commander_local_or_future_wrapper"
@@ -99,7 +99,7 @@
     {
       "slug": "claude_cowork_surface",
       "service": "Claude Cowork",
-      "status": "planned",
+      "status": "packetized",
       "category": "collaborative_external_execution",
       "access_model": "web_api",
       "owning_harness": "commander_relay_initially"

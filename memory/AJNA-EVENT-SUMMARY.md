@@ -1,15 +1,24 @@
 # Agent Event Summary
 
-**Updated**: 2026-03-02T06:23:19Z
+**Updated**: 2026-03-02T18:19:23Z
 
 ## Source Counts
 
 - `ajna`: `3`
-- `commander`: `4`
+- `commander`: `5`
 - `manus`: `2`
 - `system`: `17`
 
 ## Recent Events
+
+### commander-20260302-181923-219248-youtube-feed-checkpoint
+- Emitted: `2026-03-02T18:19:23Z`
+- Type: `youtube_feed_checkpoint`
+- Surface: `exocortex`
+- Artifact class: `youtube_feed_metadata`
+- Capture level: `summary`
+- Durable capture: `summary_and_typed_record`
+- Summary: Smoke-check YouTube bridge event emission.
 
 ### commander-20260302-062318-497297-perplexity-response-landed
 - Emitted: `2026-03-02T06:23:18Z`
@@ -91,12 +100,3 @@
 - Capture level: `summary`
 - Durable capture: `summary_and_typed_record`
 - Summary: Captured Slack runtime health state: provider healthy, no traffic observed yet.
-
-### system-20260302-054056-019963-discord-channel-state
-- Emitted: `2026-03-02T05:40:56Z`
-- Type: `discord_channel_state`
-- Surface: `runtime`
-- Artifact class: `slack_discord_comms`
-- Capture level: `summary`
-- Durable capture: `summary_and_typed_record`
-- Summary: Captured Discord runtime health state: provider healthy, no traffic observed yet.

@@ -62,6 +62,46 @@ Default return path:
 
 - `-INBOX/commander/00-INBOX0/RESPONSE-PERPLEXITY-<slug>.md`
 
+## 3. NotebookLM Synthesis Packet
+
+**Surface**: `notebooklm_surface`  
+**Role**: source-bounded synthesis, notebook-mediated retrieval, research digestion  
+**Repo home**: `engine/PACKET-NOTEBOOKLM-*.md`
+
+Required sections:
+
+- objective
+- source set
+- source anchors
+- focus questions
+- required output contract
+- return path
+- bridge command
+
+Default return path:
+
+- `-INBOX/commander/00-INBOX0/RESPONSE-NOTEBOOKLM-<slug>.md`
+
+## 4. Claude Cowork Collaboration Packet
+
+**Surface**: `claude_cowork_surface`  
+**Role**: collaborative external execution, bounded parallel implementation or synthesis  
+**Repo home**: `engine/PACKET-CLAUDE-COWORK-*.md`
+
+Required sections:
+
+- objective
+- work scope
+- anchors
+- requested deliverables
+- required output contract
+- return path
+- bridge command
+
+Default return path:
+
+- `-INBOX/commander/00-INBOX0/RESPONSE-CLAUDE-COWORK-<slug>.md`
+
 ---
 
 ## Landing Convention
@@ -77,6 +117,8 @@ Wrapper scripts:
 
 - [oracle_response_bridge.py](/Users/system/syncrescendence/oracle_response_bridge.py)
 - [perplexity_response_bridge.py](/Users/system/syncrescendence/perplexity_response_bridge.py)
+- [notebooklm_response_bridge.py](/Users/system/syncrescendence/notebooklm_response_bridge.py)
+- [claude_cowork_response_bridge.py](/Users/system/syncrescendence/claude_cowork_response_bridge.py)
 
 These wrappers emit:
 
@@ -92,9 +134,12 @@ The emitted event provides the machine-readable bridge into memory and ontology.
 ## Packet Generation Helpers
 
 Generation helpers exist for the two initial packet classes:
+Generation helpers exist for the first four packet classes:
 
 - [stage_oracle_packet.py](/Users/system/syncrescendence/stage_oracle_packet.py)
 - [stage_perplexity_packet.py](/Users/system/syncrescendence/stage_perplexity_packet.py)
+- [stage_notebooklm_packet.py](/Users/system/syncrescendence/stage_notebooklm_packet.py)
+- [stage_claude_cowork_packet.py](/Users/system/syncrescendence/stage_claude_cowork_packet.py)
 
 These create repo-native dispatch packets with:
 
