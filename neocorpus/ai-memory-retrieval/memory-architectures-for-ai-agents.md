@@ -129,6 +129,28 @@ The convergence of Mem0, Supermemory, OpenAI Dash, and the Syncrescendence STH o
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: The Context-Window-as-Memory Era
+
+The dominant approach circa 2022-2023 was conversation history stuffing — save all chat history, reload it all. This was deprecated not gradually but through accumulation failure: context windows filled, truncation was required, foundational context from session 1 was lost exactly when it became most valuable. The assumption "more context is better memory" was wrong. Context window size and memory quality are orthogonal. The deprecation lesson: memory is infrastructure, not context volume.
+
+### Obsolescence: Tool-Gated Memory
+
+Memory systems that required agents to voluntarily invoke memory tools were deployed throughout 2024-2025. These failed systematically — not because of engineering errors but because models were not trained to proactively use memory tools. The Supermemory diagnosis (00060, 00082) is precise: "the models aren't trained to use them all the time." If memory requires the model to choose it, the model will frequently choose not to. Tool-gated memory is now understood as architecturally broken for persistent agents. Always-on injection is the replacement.
+
+### Supersession: The Three-Layer Architecture
+
+**v1 (Pre-triangulation):** Flat memory — chat logs, or a single vector store, or an ad-hoc file. No authority hierarchy. No failure mode awareness. Each team invented its own approach.
+
+**v2 (February 2026 triangulation — STH):** The Oracle/Vanguard/Diviner convergence on the three-layer model (00404) established the reference architecture: Layer 0 (git-tracked files) as constitutional truth, Layer 1 (context window) as ephemeral working memory, Layer 2 (agent memory directories + JSONL journals), Layer 3 (graph + optional vector) as query projections. The critical innovation was not the layers themselves but the authority hierarchy: files win over graph, always. This eliminated the "database as source of truth" failure mode.
+
+**v3 (Current — convergence validated):** The architecture is no longer a single constellation's design choice. Mem0 (YC 2026), Supermemory, and OpenAI's Dash independently converged on the same principles — layered memory, file/structured storage as ground truth, always-on injection, vector as optional. This convergence validates the architecture approaching consensus. What was previously an internal design decision is now an industry pattern.
+
+The Dash material cited in this entry lacks a corresponding source in declared provenance — this is flagged in the entry body and represents an unresolved provenance gap.
+
+---
+
 ## Source Provenance
 
 | File | Content |

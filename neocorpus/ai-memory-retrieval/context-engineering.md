@@ -132,6 +132,26 @@ Context engineering as a discipline implies context engineers as practitioners. 
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: Bigger Context Window Solves Memory
+
+The intuition "just use a larger context window" was common through 2024. The release of models with 200K, 1M, and larger context windows seemed to make retrieval architecture less urgent. This assumption was partially correct (long-context is winning for many use cases) but missed the quality-vs-utilization curve: context degrades continuously, not at capacity. A 1M-token window used at 80% capacity exhibits worse reasoning than a 100K-token window used at 20% capacity. Bigger windows reduce the pressure but do not change the fundamental degradation dynamic. The discipline of context engineering — what to include, how to structure it, what to exclude — remains necessary regardless of window size.
+
+### Obsolescence: Many RAG Pipelines
+
+Teams spent significant engineering effort in 2023-2025 building RAG infrastructure for codebases and document sets that fit comfortably inside 2026 context windows. By the February 2026 consensus (00745), "long-context winning for most; RAG only where cost or precision demands." Many of these pipelines are now over-engineering for their actual context volumes. RAG remains essential for enterprise-scale corpora (legal archives, medical literature, multi-terabyte knowledge bases), but the threshold at which RAG becomes necessary has risen dramatically with each model generation.
+
+### Supersession: Context Strategy
+
+**v1 (2022-2024 — Context stuffing):** Default strategy was to include everything potentially relevant. The assumption: more context = better output. This worked impressively in demos (the model appears well-informed) and failed in production (noise degrades signal, degradation begins well below capacity).
+
+**v2 (2024-2025 — Compaction):** When context filled, systems asked the model to summarize what happened and carry the summary forward. This addressed the capacity problem but introduced the compaction failure: the model's judgment about what to retain was unreliable. Critical configuration details vanished; verbose explanations survived. The Ralph critique (10197) crystallized this: compaction is the model guessing what matters, and it guesses wrong.
+
+**v3 (Current — Clean-slate + selective retrieval):** Wipe context between tasks; retrieve only what the specific task requires from the persistent memory layer. This requires a functioning Layer 0/2/3 memory architecture beneath the context layer — the context window is the ephemeral tip of a persistent iceberg. Per-agent tuning (different `max_facts` and `group_ids` for different cognitive functions) is the implementation of this at the multi-agent level. The Clarescence pattern (successive refinement passes) is the implementation for large retrieval sets.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:

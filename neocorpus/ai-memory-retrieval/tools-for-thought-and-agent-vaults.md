@@ -139,6 +139,26 @@ This has sovereignty implications. If the vault is the agent's identity, then ow
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: Human PKM Patterns Applied Directly
+
+The early enthusiasm for Zettelkasten-style agent memory (2023-2024) assumed that patterns which worked for human knowledge management would transfer to agent systems. This assumption broke on three fronts documented by the corpus: agents do not browse or wander (serendipitous discovery does not transfer), agents have no emotional weighting (personal significance cannot guide retrieval), and agents reading notes written for human self-consumption lack the tacit context humans supply implicitly. The lesson: agent vaults require more explicit, more self-contained, more context-rich notes than human personal knowledge management. The format is similar; the design requirements are different.
+
+### Obsolescence: Memory as Optional Feature
+
+The tool-based memory failure (00082) established that treating vault access as an optional tool call was architecturally broken. "Models aren't trained to use them all the time." Vault systems that gate memory retrieval behind voluntary tool invocation are now understood as non-functional for persistent agents — they have memory available but it remains unused. This deprecates any vault design that does not include automatic injection at session initialization.
+
+### Supersession: The Agent Vault Concept
+
+**Phase 1 (Theoretical — pre-2025):** Agent vaults were a philosophical concept: what if an agent had its own persistent notes? Implementations were ad-hoc, often just a MEMORY.md file with unstructured text appended each session.
+
+**Phase 2 (Experiment — 2025, 00083):** The heinrich/Cornelius experiment demonstrated a vault as a cognitive infrastructure: the agent gets its own directory, develops its own perspective as a research partner, co-inhabits the knowledge space with the human. The key advance: treating the agent as a vault inhabitant rather than a stateless responder. But the experiment remained small-scale.
+
+**Phase 3 (Current — Structured vault lifecycle):** The mature vault architecture has a defined lifecycle: Seeding (human-populated initial knowledge), Accumulation (append-only JSONL journals), Consolidation (periodic distillation into entity files and MEMORY.md), Pruning (temporal supersession of outdated facts), and Forking (per-context divergence via git branching). This lifecycle corresponds directly to the nucleosynthesis metaphor: raw events (corpus/journal) → crystallized wisdom (neocorpus/entity files). The vault is not just a storage system; it is a knowledge-refinement pipeline.
+
+---
+
 ## Source Provenance
 
 - `corpus/ai-memory-retrieval/00083.md` — Second Brains for Agents (heinrich, Feb 2026)

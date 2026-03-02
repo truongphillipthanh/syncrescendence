@@ -131,6 +131,24 @@ The most durable career position is not "AI agent engineer" as a generic title, 
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: ML Engineering as the Prerequisite
+
+Until approximately 2025, job postings for "AI engineer" required ML engineering prerequisites — model training experience, CUDA knowledge, familiarity with training pipelines. This assumption became obsolete as foundation models matured. The discipline that crystallized circa 2025-2026 explicitly separates AI agent engineering from ML engineering: the raw material is a pre-trained model, not data and GPUs. Teams that continue gatekeeping AI agent roles behind ML training credentials are screening for the wrong skills.
+
+### Supersession: The Vibe Coder Phase
+
+**Phase 1 (2023-2024 — Prompt-and-hope):** The earliest agents were sophisticated chat wrappers. The dominant workflow was prompt engineering alone — write a better system prompt, get better output. Evaluation was vibes-based: "it seems good." This produced impressive demos.
+
+**Phase 2 (2024-2025 — Framework-first):** LangChain, CrewAI, and AutoGen proliferated. Developers learned frameworks before understanding model behavior. This produced complex pipelines that were brittle, expensive, and difficult to debug — because framework complexity masked the underlying unpredictability. The anti-pattern from this phase: framework expertise without model intuition.
+
+**Phase 3 (2025-2026 — Systems engineering):** The production gap (00073, Clawdbot architecture) made the discipline explicit: lane-based serialization over async parallelism, model resolver with fallback chains, dynamic system prompt assembly, context window guards. AI agent engineering is now understood as a systems discipline, not a prompting discipline. The skill stack (model intuition → prompt craft → system design → evaluation infrastructure → domain integration) is the current canonical progression.
+
+The 25% of YC W2025 startups with 95%-AI-generated codebases is a data point from this third phase — it measures the leverage that Phase 3 engineering enables, not the quality achieved in Phase 1 or 2.
+
+---
+
 ## Source Provenance
 
 - `corpus/ai-memory-retrieval/03180.md` — AI Agent Engineer guide extraction (Hezarkhani, Jan 2026)

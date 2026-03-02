@@ -133,6 +133,26 @@ The long-term vision — autopoietic decay with Hebbian edge weights — would m
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: The Pure Vector Era
+
+Early memory systems (2023-2024) treated vector databases as the primary or sole memory layer. Teams assumed that embedding every interaction and retrieving by cosine similarity was sufficient for persistent agent memory. This assumption broke in production when agents accumulating weeks of history returned contradictory fragments with no mechanism to determine currency — the "I love my job" / "I hate my job" failure (10120). The lesson: we deployed vector-primary memory assuming similarity implied recency. It does not. Vector databases are now understood as tools for fuzzy discovery, not temporal memory. They are relegated to optional, subordinate status in mature architectures.
+
+### Supersession: Graph Memory Tool Selection
+
+**v1 (Pre-2025 — Graph-as-optional):** Knowledge graphs were considered advanced, high-complexity infrastructure. Teams used flat document stores, chat logs, or vector databases, treating graphs as overkill for most agent use cases.
+
+**v2 (2025 — Graph-as-recommended):** Graphiti and similar tools made graph memory deployable as a Docker container. The STH architecture (00404) established graph memory as the recommended Layer 3. But early production use revealed operational fragility: Graphiti's background worker crashes, UUID-triggered NodeNotFoundError crashes, unsecured endpoints (Council 25), queue stalls that require container restarts. The lesson from v2: the architecture diagram was right; the operational hardening was absent.
+
+**v3 (Current — Graph-as-projection):** The critical conceptual correction is not about the graph itself but about its authority. v1-v2 users sometimes treated graph databases as primary stores. v3 explicitly designates graph as a projection — derived from, and rebuildable from, the file substrate. If graph and files disagree, files win. This designation survived operational failures intact: no matter how many times Graphiti crashed, the JSONL journals preserved the full event history for replay. The graph is a convenience index; the JSONL is constitutional.
+
+### Not Yet Resolved
+
+The autopoietic decay vision (Hebbian learning on edge weights) remains deferred — speculative architecture captured but not implemented. Timestamp-based staleness is the current production approach. The evolution from timestamp-decay to Hebbian-decay, if it occurs, will be the next supersession chain in this entry.
+
+---
+
 ## Source Provenance
 
 | File | Content |

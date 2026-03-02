@@ -141,6 +141,28 @@ Self-learning agents that improve through interaction create a fundamentally dif
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: Fine-Tuning as the Primary Improvement Mechanism
+
+Until 2024-2025, the dominant assumption was that agent improvement required fine-tuning — modifying model weights through additional training runs. This approach was expensive (GPU-intensive), opaque (learned behaviors are not inspectable), and non-specific (fine-tuning affects behavior across all inputs, not just the deployment-specific cases you care about). GPU-poor continuous learning renders fine-tuning unnecessary for most deployment-specific improvement tasks: "literally 5 lines of code" producing improvements that are inspectable, reversible, and transfer across model upgrades. The lesson: we assumed improvement required gradient descent because that was the only mechanism available. Context-layer learning is cheaper, more controllable, and sufficient for most production improvement needs.
+
+### Obsolescence: Stateless Agents as Acceptable Production Pattern
+
+Stateless agents — identical system prompt, identical blank slate every session — were the default deployment pattern through 2024. The Dash team documented the specific failure: stateless data agents "make mistakes, you fix them, then they make the same mistake again." This was accepted as a model limitation. The Dash architecture reframed it as an infrastructure choice: statefulness is achievable without fine-tuning, and the absence of state in production agents is a design decision (or oversight), not an inherent constraint.
+
+### Supersession: The Learning Loop
+
+**v1 (Implicit learning via prompting):** Users provided corrections in context, and the agent incorporated them within the session. Learning evaporated when the context window ended. No persistence, no compounding.
+
+**v2 (Manual knowledge curation):** Humans maintained documents of known errors, preferences, and conventions that were injected into agent prompts. Effective but labor-intensive; the human was doing the learning, not the agent.
+
+**v3 (Current — GPU-poor continuous learning):** Agents observe their own outputs against ground truth or human feedback, extract patterns, and persist them as structured knowledge that is retrieved in future sessions. The OBSERVE-LEARN-RECOMMEND cycle (PAI Algorithm, 00299) and the Dash six-layer architecture (00082) are two implementations of this same principle. The key evolution: the agent actively contributes to its own knowledge base, subject to human validation gates. The human reviews and approves; the agent surfaces and patterns. This is the correct division of labor.
+
+**Deferred v4:** Collective intelligence via graph-partition sharing — Agent A's discovery becoming available to Agent B via `group_id` scoped memory — is the architecture's long-term vision. This would make the learning loop multi-agent: discoveries compound across the constellation, not just within individual agents. Operational implementation is deferred pending full memsync-to-graph pipeline deployment.
+
+---
+
 ## Source Provenance
 
 | File | Content |

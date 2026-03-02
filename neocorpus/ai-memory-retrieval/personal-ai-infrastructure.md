@@ -134,6 +134,26 @@ The Syncrescendence neocorpus — the compendium layer where raw corpus material
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: Platform-Native Memory as Sufficient
+
+The assumption that platform-provided memory (Claude's project knowledge, ChatGPT's memory feature, Gemini's conversation history) was adequate for serious personal AI use was demonstrated false by mid-2025. These systems are non-portable, non-version-controlled, and hostage to platform policy changes. More practically: they cannot be inspected, cannot be diffed, and cannot be shared across agents. The lesson: every year of context accumulated on a managed platform deepens lock-in. PAI emerged specifically as the response to this demonstrated failure.
+
+### Obsolescence: Single-Model PAI
+
+Early PAI implementations (2024-2025) were tightly coupled to one model. Workflows were Claude-specific or ChatGPT-specific, with context stored in ways the model's ecosystem expected. When capabilities shifted, pricing changed, or policy terms changed, the PAI had to be rebuilt from scratch. The Syncrescendence migration of Ajna from Kimi to Claude Sonnet demonstrated the correct answer: because context lived in git-tracked files rather than any model's infrastructure, migration cost was near-zero. The lesson: model neutrality is not future-proofing — it is operational insurance against demonstrated volatility.
+
+### Supersession: PAI Maturity Model
+
+**Phase 1 (2023-2024 — Chat-centric PAI):** PAI as a concept existed but was implemented as enhanced chat interfaces with better prompts. The persistent context layer was chat history, occasionally supplemented by manually maintained notes. The agent was the model; the infrastructure was the model provider.
+
+**Phase 2 (2025 — File-first PAI):** Miessler's PAI v2.0 (December 2025, 10312) crystallized the architectural shift: the user is the center, models are interchangeable execution surfaces, and persistent context is owned infrastructure. This phase introduced structured memory directories, composable workflows (Fabric), and the Algorithm self-improvement loop. The innovation was treating PAI as software to be versioned and improved.
+
+**Phase 3 (Current — Multi-model PAI):** The constellation architecture (Syncrescendence) demonstrates PAI at scale: five agents, four model families, shared git-tracked context layer. This phase establishes the CQRS-on-git pattern as the operational implementation of model neutrality. The compendium itself (this neocorpus) is a PAI artifact — accumulated context that compounds with each nucleosynthesis operation.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:

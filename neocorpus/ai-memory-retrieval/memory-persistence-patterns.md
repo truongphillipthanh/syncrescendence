@@ -148,6 +148,26 @@ The filesystem-as-memory pattern has emerged as the constitutional preference no
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: Pattern 1 and 2 as Production Memory
+
+Conversation history stuffing (Pattern 1) and conversation summarization (Pattern 2) were the dominant production approaches through 2024. Both are now understood as temporary measures appropriate only for low-scale, short-duration use cases — not as memory architectures for persistent agents. Pattern 1 breaks at scale (context overflow), Pattern 2 breaks at fidelity (compaction loses critical detail). Neither handles temporal contradiction (Week 1 vs. Week 2 state) or multi-session continuity at any depth. These patterns are not deprecated for simple use cases, but their scope has been sharply bounded: they are adequate where memory volume is small and session count is low. For everything else, Patterns 3-6 are required.
+
+### Supersession: The Filesystem-as-Memory Pattern
+
+**Phase 1 (Pre-2025):** Files were considered an interim or fallback memory mechanism — something to use when "real" infrastructure (database, API) wasn't available. The assumption was that file-based memory was too slow, too manual, and too unstructured for production use.
+
+**Phase 2 (2025 — Git as constitutional substrate):** The STH architecture (00404) elevated the filesystem from fallback to constitutional: git-tracked files are Layer 0, the primary source of truth. This reframing was non-obvious — it required recognizing that files' apparent weaknesses (not queryable at scale, requires tooling to search) are offset by their unique strengths (version-controlled, human-readable, model-agnostic, survives any platform transition). The memsync daemon / JSONL journal pattern made files machine-parseable without sacrificing human inspectability.
+
+**Phase 3 (Current — File + graph projection):** The mature architecture treats files and graph as complementary, not competing. Files are the write model; graph is the read model. The JSONL bridge makes the file substrate queryable at graph speed without the graph becoming authoritative. This is CQRS applied to agent memory — a software architecture pattern applied to epistemology.
+
+### Not Yet Resolved
+
+Pattern 6 (automatic always-on injection) is architecturally established but operationally deferred in the Syncrescendence implementation — memsync bridges file-to-graph, but graph-to-context injection at every invocation is not yet production-deployed. This represents the next supersession in this chain: when Phase 4 injection is implemented, the architecture will close the loop from file substrate to ambient context enrichment.
+
+---
+
 ## Source Provenance
 
 - `corpus/ai-memory-retrieval/00060.md` — Supermemory cross-platform sync (Jan 2026)

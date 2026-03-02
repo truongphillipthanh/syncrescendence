@@ -140,6 +140,26 @@ The deepest lesson from the corpus: cognitive infrastructure is not a technical 
 
 ---
 
+## Obsolescence & Supersession
+
+### Obsolescence: Deep Directory Hierarchies
+
+Early agent systems (2022-2024) inherited software engineering conventions: deep nested directories, per-feature subdirectories, role-based file organization. Applied to cognitive infrastructure, this created navigation overhead that exceeded the human-review budget. The Oracle triangulation (11092) explicitly diagnosed this: five top-level directories maximum, organized by lifecycle stage. Deep nesting is now understood as a cognitive infrastructure anti-pattern — not a technical failure but a human-readability failure. The agent system is only as useful as its human oversight permits.
+
+### Obsolescence: Generated Files as Sources
+
+The catastrophic failure mode documented by the Syncrescendence CC31 incident: "sear everywhere" applied as find-replace across generated + source + historical files simultaneously. The assumption that all files with similar content should be updated together ignored the distinction between sources (AGENTS.md) and projections (CLAUDE.md, GEMINI.md). This is a cognitive infrastructure version of the graph-as-source-of-truth anti-pattern: when you edit a projection instead of a source, the edit survives until the next regeneration, then silently vanishes. 16 consecutive sessions of phantom path drift (CC52-CC57) resulted from this misunderstanding applied at the config level.
+
+### Supersession: The Single-Source-of-Truth Pattern
+
+**v1 (Ad-hoc configuration):** Agent configs were written independently per tool. CLAUDE.md and GEMINI.md were edited directly. Divergence was inevitable — the files said different things because they were maintained separately.
+
+**v2 (Template consolidation):** A shared template or common document, manually maintained. Better, but still required manual synchronization.
+
+**v3 (Current — AGENTS.md + Makefile):** A single source (AGENTS.md) generates all per-harness outputs via `make configs`. Validation (`make validate`) checks that all referenced paths exist. No generated file is ever edited directly. The Oracle session (pre-CC22, PROMPT-ORACLE-CONFIG-CONSENSUS-ARCHITECTURE.md) declared this "the most advanced implementation seen." The key lesson from the supersession chain: the cost of divergent truth in multi-agent systems scales non-linearly with agent count. What works for one agent fails for five.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:
