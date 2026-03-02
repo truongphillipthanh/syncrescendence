@@ -3,6 +3,12 @@
 **Date**: 2026-03-02  
 **Purpose**: First domain-facing deployment shape for `syncrescendence.com`
 
+## Current Status
+
+As of **March 2, 2026**, `syncrescendence.com` is not yet resolving publicly from this machine.
+
+That means the repo should be **domain-ready** but should not yet switch default event projection away from localhost.
+
 ## Role
 
 Stage 1 keeps the domain narrow:
@@ -51,6 +57,7 @@ curl https://syncrescendence.com/health
 
 4. Only after stable health:
    - point selected automation/event projectors at the domain URL instead of localhost
+   - use `make reconcile-ajna-events-project-domain`
 
 ## Non-Goals For Stage 1
 
