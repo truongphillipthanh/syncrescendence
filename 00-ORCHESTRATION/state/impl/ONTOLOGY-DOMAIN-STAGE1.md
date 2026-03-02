@@ -23,6 +23,7 @@ Stage 1 keeps the domain narrow:
 - `syncrescendence.com` serves the ontology API first
 - the API is a thin reverse proxy to local FastAPI on `127.0.0.1:8787`
 - dashboards or docs are downstream and should not become a second truth surface yet
+- `cloudflared` is the preferred cutover path if direct inbound edge routing is not yet in place
 
 ## Shape
 
@@ -55,6 +56,11 @@ It avoids premature UI drift while still making the ontology reachable.
 ```
 
 2. Put a reverse proxy in front of it using the example Caddyfile in this folder.
+
+Alternative edge path:
+
+- use `cloudflared` with `CLOUDFLARED-ONTOLOGY-STAGE1.md`
+- route `syncrescendence.com` and `www.syncrescendence.com` to the local Caddy proxy on `127.0.0.1:8080`
 
 3. Refresh the local readiness artifact:
 

@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: configs validate reconcile deploy-ajna sync-openclaw hydrate-openclaw-channels tooling-surface-status reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help sync clean sync-checkpoint tree help
+.PHONY: configs validate reconcile deploy-ajna sync-openclaw hydrate-openclaw-channels tooling-surface-status cloudflared-version reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help sync clean sync-checkpoint tree help
 
 PYTHON ?= python3
 HOSTNAME := $(shell hostname -s)
@@ -43,6 +43,9 @@ hydrate-openclaw-channels:
 tooling-surface-status:
 	@$(PYTHON) collect-tooling-surface-status.py
 	@echo "✓ Local tooling/auth/domain status report refreshed"
+
+cloudflared-version:
+	@cloudflared --version
 
 reconcile-ajna-events:
 	@$(PYTHON) reconcile-ajna-events.py
@@ -97,6 +100,7 @@ help:
 	@echo "  make sync-openclaw    - Snapshot live OpenClaw runtime back into repo state"
 	@echo "  make hydrate-openclaw-channels - Hydrate local OpenClaw Slack/Discord tokens from Keychain"
 	@echo "  make tooling-surface-status - Write repo-safe local auth/domain readiness status"
+	@echo "  make cloudflared-version - Verify local Cloudflare Tunnel client is installed"
 	@echo "  make reconcile-ajna-events - Ingest Ajna event files from OpenClaw workspace"
 	@echo "  make reconcile-ajna-events-project - Reconcile Ajna events and POST them to local ontology"
 	@echo "  make reconcile-ajna-events-project-domain - Reconcile Ajna events and POST them to ontology domain"
