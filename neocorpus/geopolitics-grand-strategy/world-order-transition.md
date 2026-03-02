@@ -1,6 +1,6 @@
 # World Order Transition
 
-**Sources**: 02740, 02908, 02952, 02995, 02997, 03000, 03003, 03082, 03142, 03157, 03195, 03223, 03393, 09677, 10251
+**Sources**: 02740, 02908, 02952, 02995, 02997, 03000, 03003, 03022, 03073, 03082, 03142, 03157, 03195, 03223, 03393, 03940, 03942, 09677, 10251
 
 ## Grand Strategy as Path Dependence
 
@@ -12,15 +12,14 @@ Grand strategy is built on accumulated choices, inherited assumptions, and histo
 
 US policy oscillation forces allies to hedge and prepare for an unreliable partner. The rules-based order is sustained by consistent behavior, not declarations. Evidence-based assessment replaced by optimism and improvisation drains alliance confidence. Strategic echo effect: US actions ripple through alliance structures, institutional trust, and global expectations. Restoration of trust is harder than preservation.
 
-Latin American case study: US short-term interventions created enduring trust erosion, regional backlash, and anti-American organizing. The lesson scales globally.
-
+Latin American case study: US short-term interventions created enduring trust erosion, regional backlash, and anti-American organizing. 
 ## Regional Flashpoints
 
-**Iran**: Analysts predict imminent US Navy strike. Trump's Iran goals involve regime change pressure. The Iranian regime is at a "breaking point" with regime change potential. Iran's likely response and escalation scenarios are actively analyzed.
+**Iran**: Analysts predict imminent US Navy strike. The Iranian regime is at a "breaking point" with regime change potential. Iran's likely response and escalation scenarios are actively analyzed.
 
-**Taiwan/China**: China's most powerful general Zhang Youxia vanished in a shocking military purge — upheaval that could reshape Taiwan security dynamics. Japan is actively preparing for war with China, modernizing its military in response to Taiwan Strait tensions.
+**Taiwan/China**: China's most powerful general Zhang Youxia vanished in a shocking military purge — upheaval that could reshape Taiwan security dynamics. Japan is actively preparing for war with China.
 
-**Global**: Venezuela regime change, Iran protests, Greenland strategic acquisition, Ukraine war ongoing, Russian oil export blocking, US Mexico cartel strikes, NATO Pacific assistance debates, WWIII likelihood assessments. The old world order is over. A new global order is emerging — but its shape is contested.
+**Global**: Venezuela regime change, Iran protests, Greenland strategic acquisition, Ukraine war ongoing, Russian oil export blocking, US Mexico cartel strikes, NATO Pacific assistance debates, WWIII likelihood assessments. The old world order is over. A new global order is emerging.
 
 ## AI as Geopolitical Multipolarizer
 
@@ -30,9 +29,7 @@ At Davos 2026, the WEF initiated what observers called an "AI turf war." 50+ Neu
 
 ## Nuclear and Existential Frameworks
 
-The "Letter of Last Resort": a pre-written directive for British submarine commanders, opened only if the UK is destroyed in a nuclear attack, instructing whether to launch retaliatory nuclear missiles. Army War College exercises now have students write their own letters — exploring the psychology of extreme decision-making under civilizational collapse. The nuclear framework persists beneath the AI conversation.
-
-America reframed as "nation-game" rather than "nation-state" — a conceptual shift from fixed territorial entity to dynamic competitive system. The implications for governance, strategy, and identity remain unresolved.
+The "Letter of Last Resort": a pre-written directive for British submarine commanders, opened only if the UK is destroyed in a nuclear attack, instructing whether to launch retaliatory nuclear missiles. Army War College exercises now have students write their own letters — exploring the psychology of extreme decision-making under civilizational collapse. America reframed as "nation-game" rather than "nation-state."
 
 ## The Aging Economy Cascade
 

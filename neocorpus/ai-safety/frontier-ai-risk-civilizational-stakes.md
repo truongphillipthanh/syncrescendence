@@ -125,7 +125,7 @@ The oligopoly prediction (10899): Amodei expects a small number of relevant firm
 
 ### The Suleyman Dissent: "The AGI Race is Fake"
 
-File 02490 contains what appears to be Mustafa Suleyman's (Microsoft AI CEO) position that the framing of an "AGI race" is itself misleading or false. The source file header and atoms reference this claim but the detailed content of his argument is contained in the source. **Epistemic status: present as a title/claim but full argument not available in extracted content. Do not fabricate his specific arguments.**
+**Epistemic note**: File 02490 was originally attributed as containing Suleyman's "AGI race is fake" position. Adjudicator verification (CC69a) found 02490 is actually an AI agent evaluation article ("demystifying evals for AI agents"), not Suleyman content. The Suleyman claim lacks a verified source in the current corpus.
 
 ### Tom Lue / DeepMind Governance Framework
 
@@ -197,16 +197,16 @@ The civilizational-scale question that Zvi identifies as what Amodei's essay is 
 | 10535.md | PRIMARY: Amodei "Adolescence of Technology" — full five-category risk framework, powerful AI definition, Constitutional AI/interpretability defenses, principles for discussing risk (avoid doomerism, acknowledge uncertainty, intervene surgically), experimental evidence of misalignment, governance recommendations |
 | 03532.jsonl | Amodei "Machines of Loving Grace" atoms — the upside vision, entente strategy, biology acceleration thesis, equity/access concerns, democracy vs. authoritarianism stakes, underestimation of both upside and risk |
 | 10899.md | Zvi Mowshowitz breakdown of Dwarkesh/Amodei 2026 podcast — pace vs. caution dissonance, revenue trajectory, oligopoly prediction, export controls, China concerns, the silence on alignment (dog not barking), "geniuses in a datacenter" 90% within 10 years |
-| 10150.md | File header indicates Hassabis/Amodei WEF Davos 2026 "Day After AGI" debate — no transcript available in corpus, metadata only |
-| 10164.md | File header indicates Hassabis Semafor "natural guardrails" interview — no transcript available in corpus, metadata only |
+| 10150.md | Signal's Meredith Whittaker on Privacy — metadata only, not substantive to this entry's thesis |
+| 10164.md | Hassabis/Amodei WEF Davos 2026 "Day After AGI" debate — full video source |
 | 10262.md | Tom Lue DeepMind VP profile and show notes — his biography, role scope (legal/policy/frontier AI safety), podcast topics including "who decides when an AI model is safe enough," liability loopholes, Global South influence, "we might not be ready for AGI" |
 | 00285.md | Zvi weekly digest "Welcome to Recursive Self-Improvement" — recursive self-improvement declared real and happening (week of Opus 4.6), goalpost-moving pattern accelerating, continual learning debate, safety team disbanding at OpenAI (Mission Alignment team), labor displacement dynamics |
 | 01179.md | AGI governance interview (Info Tech Research Group) — Yellowstone analogy, Churchill/democracy analogy, centralized ownership imposes narrow value functions, AGI-to-superintelligence transition speed problem, Big Tech organizational conservatism, AI tools speeding research 20–50x |
-| 02490.md | Suleyman "AGI race is fake" — title/claim present; full argument not available in extracted atoms (content was AI agent evaluation article) |
+| 02490.md | AI agent evaluation article ("demystifying evals for AI agents") — NOT Suleyman; source ID was misattributed |
 | 03001.jsonl | Tom Lue and Ayesha Khanna biographies only — no substantive AI governance content extracted |
 | 03751.jsonl | Daniela Amodei ABC interview — single-sentence summary: responsible AI, risks for children, Super Bowl ad, leaving OpenAI, race to lead AI's future |
-| 02917.jsonl | Hassabis/Semafor atoms — pipeline duplicate pair with 02919; content subsumed by 10164 (same source interview) |
-| 02919.md | Hassabis/Semafor extraction — pipeline duplicate pair with 02917; content subsumed by 10164 |
+| 02917.jsonl | Hassabis/Semafor atoms — pipeline duplicate pair with 02919; contains "natural guardrails" material |
+| 02919.md | Hassabis/Semafor "natural guardrails" extraction — contains: "might serve as natural guardrails" |
 | 03529.jsonl | Amodei atoms — pipeline duplicate pair with 03531; content subsumed by 10535 (same essay, fuller extraction) |
 | 03531.md | Amodei extraction — pipeline duplicate pair with 03529; content subsumed by 10535 |
 | 10203.md | Hassabis/Semafor interview — pipeline duplicate of 02917/02919 content, subsumed by 10164 |
