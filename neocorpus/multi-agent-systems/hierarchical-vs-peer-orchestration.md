@@ -91,6 +91,30 @@ The key observation is that Gas Town uses tmux as its primary CI surface, with a
 
 ---
 
+## Obsolescence and Supersession
+
+### Pure Hierarchy as the First-Generation Default
+
+The first generation of production multi-agent systems — AutoGPT, early LangChain agents, BabyAGI — adopted pure hierarchical orchestration by default. A single orchestrator agent managed all subtasks, held all context, and produced all synthesis. This was appropriate as a starting point: the orchestrator's single point of coherence simplified reasoning about correctness, debugging, and accountability.
+
+The limitations became visible at scale. As the Syncrescendence's own experience demonstrates — 74 sessions of hierarchical orchestration through Commander — the orchestrator becomes the critical path for everything. Commander's context window fills with all prior work; Commander's rate limits constrain all downstream dispatch. The handoff protocol exists precisely to manage orchestrator exhaustion. The assumption "one orchestrator can manage all coordination" is correct for small teams and short tasks; it breaks for large teams and extended work.
+
+The hybrid position described in this entry — hierarchical at the macro level, peer-like at the micro level — represents the second-generation understanding that emerged from watching pure hierarchies fail at scale.
+
+### The AjnaPsyche Archon as a Peer-Pattern Introduction
+
+The Syncrescendence's evolution is itself a case study in supersession. For the first 74 sessions, coordination was purely hierarchical through Commander. The introduction of the AjnaPsyche Archon — where Ajna (steering) and Psyche (navigation) operate as a fused peer pair — represents the first peer-pattern introduction into what had been a pure hierarchy.
+
+This supersession is instructive in its triggering condition: peer dynamics were introduced not because hierarchical was wrong but because two agents had a well-defined, stable interface and the cost of routing every interaction through Commander exceeded the cost of letting them coordinate directly. The condition for safely introducing peer dynamics is a stable, well-understood interface between the peer agents. Without that stability, peer coordination drifts toward inconsistency.
+
+### From Agent-Count Scaling to Topology-Adaptive Scaling
+
+Early scaling intuition: "more agents = more capacity." Add agents to handle more work. This conflated two distinct scaling dimensions: throughput (how much work can be processed in parallel) and complexity (how intricate the coordination must be).
+
+The topology-adaptive approach supersedes agent-count-as-scaling with a richer model: scale by topology when the task structure changes, scale by agent count when throughput is the constraint. A system with optimal topology for five agents may actually lose performance by adding a sixth agent who creates a bottleneck in the coordination graph.
+
+---
+
 ## Anti-Patterns
 
 ### The God Orchestrator

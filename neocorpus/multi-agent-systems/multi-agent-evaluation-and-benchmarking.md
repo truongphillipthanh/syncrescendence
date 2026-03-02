@@ -118,6 +118,26 @@ Binary evaluation (correct/incorrect) is maximally lossy. Tiered evaluation pres
 
 ---
 
+### Obsolescence and Supersession
+
+#### Single-Agent Benchmarks Applied to Multi-Agent Systems
+
+The first-generation approach to evaluating multi-agent systems was to benchmark the individual agents within them using standard single-agent metrics: MMLU, HumanEval, SWE-bench, GPQA. The implicit assumption: if the components are good, the system will be good. The system-level evaluation was treated as an afterthought — "the parts work, so the whole should work."
+
+The Berkeley 1,642-trace analysis supersedes this with a direct refutation: 41-86.7% of multi-agent systems fail in production regardless of the component models' benchmark scores. The failure modes identified — cascading context loss, coordination breakdown, tool auth failure, rate limit saturation, sandbox collision — are not measurable by any single-agent benchmark. They emerge from coordination, and they require coordination-level evaluation to detect.
+
+The supersession is clear: single-agent benchmarks are necessary but not sufficient for multi-agent evaluation. They tell you the floor of system performance (a low-scoring component will degrade the system); they tell you nothing about the ceiling (a high-scoring component may still fail catastrophically in the coordination layer).
+
+#### Pass@1 as the Evaluation Standard
+
+A specific supersession: the field's reliance on pass@1 as the canonical evaluation metric. Pass@1 measures whether the system ever produces a correct answer on a given task. It dominated early agent evaluation because it was easy to measure and correlated with useful properties in single-agent systems.
+
+The consistency gap — 60% pass@1 / 25% consistency across trials — reveals that pass@1 measures something orthogonal to reliability. A system that produces a correct answer 60% of the time but an incorrect answer 75% of the time is not reliable; it is unpredictable. For production deployments where users depend on consistent behavior, consistency is more important than peak accuracy.
+
+The multi-agent evaluation framework prescribed here — measuring consistency distributions, cost per success, failure mode distribution, and execution trace quality — represents the successor standard to pass@1-dominated evaluation.
+
+---
+
 ### Anti-Patterns
 
 **Extrapolating from single-agent benchmarks.** A model that scores 90% on SWE-bench solo tells you nothing about its performance as one node in a five-agent pipeline. Coordination overhead, message formatting sensitivity, and role adherence are invisible to single-agent evaluation.

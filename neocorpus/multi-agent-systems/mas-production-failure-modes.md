@@ -82,6 +82,26 @@ The Berkeley finding that most failures are "system design and coordination issu
 
 ---
 
+## Obsolescence and Supersession
+
+### The "It Works in the Demo" Era
+
+The 41-86.7% production failure rate represents the gap between an assumption and its refutation. The assumption — held implicitly by most teams deploying agents in 2023-2025 — was that a system that worked in controlled demonstrations would work in production with approximately the same reliability. This assumption was imported from traditional software development, where demo environments are reasonable approximations of production.
+
+The Berkeley finding supersedes this assumption with a specific explanation: demos do not exercise rate limits, token expiry, concurrent access, network partitions, or environmental contamination — the conditions that produce the failure families documented here. Production introduces all of them simultaneously. The 41-86.7% range is not a warning about the future; it is a measurement of the current state of the art.
+
+The practical supersession: production readiness for multi-agent systems requires explicitly engineering for all five failure families (cascading context loss, coordination breakdown, tool auth failure, rate limit saturation, sandbox collision) before deployment, not after the first production failure.
+
+### Silent Degradation as the Default and Its Detection
+
+The default assumption in LLM-based agent systems was that failures would be visible: the system would crash, return an error, or produce obviously wrong output. This assumption descends from traditional software where errors raise exceptions and propagate to the surface.
+
+Multi-agent LLM failures do not propagate cleanly. An agent that starts without its Notion and Linear MCP tools proceeds to produce output that looks complete but is missing the data those tools would have provided. No exception is raised. No error flag is set. The output passes syntactic validation. Only the execution log reveals the failure.
+
+This is the dominant mode of MAS failure that the Berkeley taxonomy cataloged, and it is the mode that the observability architecture prescribed in this entry is designed to counter. The supersession: exit codes, execution log artifacts, and CONFIRM/RESULT protocols are not debugging conveniences — they are the primary mechanism for surfacing failures that would otherwise be silent.
+
+---
+
 ## Anti-Patterns
 
 ### Demo-Driven Architecture

@@ -92,6 +92,26 @@ The agent has 18.5% of its advertised window available for actual reasoning at f
 
 ---
 
+## Obsolescence and Supersession
+
+### Larger Windows as the Presumed Solution
+
+Through 2023-2024, the dominant response to context window limitations was "wait for larger context windows." GPT-4 had 8K tokens; GPT-4-Turbo extended to 128K; Gemini 1.5 reached 1M tokens. The trajectory seemed to suggest that context limitations would be engineered away. The assumption: "context window is a temporary hardware constraint that will be resolved by model improvements."
+
+This assumption is obsoleted by the degradation finding. A 1M-token context window with severe degradation at 200K is not five times more capable than a 200K-token window with graceful degradation. The limit is not the window size — it is the attention quality that degrades as utilization increases. A larger bucket does not help if the water at the bottom is murky. The constraint is intrinsic to attention mechanisms, not to engineering scale.
+
+The architectural response — phase-based subagent spawning, context budgeting, fresh agents per task rather than long-running agents — is correct regardless of what window sizes become available. Even at 10M tokens, the principle holds: a focused context outperforms a saturated one.
+
+### Chat History as Memory
+
+An assumption that accumulated from chat-based interfaces: conversation history was treated as agent memory. Keep all prior turns in the context; the agent "remembers" everything by having it in the window. This was appropriate for short conversations and a reasonable approximation at medium lengths.
+
+At long multi-session agent work, the assumption breaks. Conversation history grows monotonically, consumes context without selectivity, and eventually crowds out the content the agent actually needs for the current task. CLAUDE.md injection, MEMORY.md, and handoff documents represent the supersession: structured selective memory replaces comprehensive chat history. The agent has access to the distilled state it needs, not the raw history of how it got there.
+
+This supersession is visible in the Syncrescendence handoff protocol: rather than resuming from the full prior conversation, each session initializes from a structured handoff document that captures what matters (git HEAD, accomplishments, remaining work, key decisions) and discards what doesn't (the specific conversational turns that produced those outcomes).
+
+---
+
 ## Anti-Patterns
 
 ### Context Stuffing

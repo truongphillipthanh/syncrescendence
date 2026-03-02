@@ -129,6 +129,24 @@ The Sovereign Interaction Protocol encodes this principle: "Present the Sovereig
 
 ---
 
+### Obsolescence and Supersession
+
+#### The Stateless Invocation Model and Its Limits
+
+Early agent frameworks treated agents as stateless functions: instantiate, invoke with a prompt, receive output, discard. This model descends from serverless computing patterns — each invocation is independent, side-effect-free, and short-lived. It works when agents are wrappers around a single API call.
+
+It fails when agents are long-running processes that interact with rate-limited APIs, expire credentials, fill context windows, and claim leases on shared work queues. The lifecycle taxonomy in this entry — initialization, execution under constraints, degradation, termination — represents the design knowledge that accumulates when the stateless invocation model fails in production. The old assumption: "agents are calls." The replacement: "agents are processes with lifespans."
+
+The Syncrescendence dispatch artifacts (exit codes, lease IDs, retry counts, escalation delays) are evidence that the stateless model was already superseded operationally before it was superseded conceptually. The system needed structured exit codes because invocations were failing for reasons that mattered — not just "success" or "failure" but "rate-limited" vs. "auth-expired" vs. "task invalid."
+
+#### OAuth Token Lifecycle: From Ignored to First-Class Concern
+
+Before agents operated unattended, OAuth tokens were managed by humans who re-authenticated when prompted. The token lifecycle (issuance, expiry, refresh, rotation) was a user-interface concern, not an infrastructure concern.
+
+Unattended agent operation supersedes this assumption. An agent that needs to refresh an OAuth token at 3 AM cannot prompt a browser dialog. The cascade failure documented in the Adjudicator execution log (00574) — `AuthRequired` -> transport closure -> MCP client failure — is what happens when token lifecycle is treated as the prior paradigm assumed. The architectural response (dedicated credential management service, agent draws from token store rather than managing lifecycle itself) has not yet been standardized but is the direction the field is moving.
+
+---
+
 ### Anti-Patterns
 
 **Treating rate limits as failures.** A rate-limited agent is not a failed agent. It is a throttled agent. The orchestrator must distinguish between "cannot do" (failure) and "cannot do yet" (throttle) to avoid abandoning recoverable work.

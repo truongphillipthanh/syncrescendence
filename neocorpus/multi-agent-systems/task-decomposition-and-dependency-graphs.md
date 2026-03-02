@@ -88,6 +88,26 @@ The solution is **interface-first decomposition**: define the interfaces between
 
 ---
 
+## Obsolescence and Supersession
+
+### Chain-of-Thought as Implicit Sequential Decomposition
+
+Before multi-agent systems, the dominant task decomposition technique was chain-of-thought prompting: decompose within a single context window using explicit reasoning steps. "First, let me understand X. Then, I will address Y. Finally, I will synthesize Z." This internal sequential decomposition was appropriate when all work fit within a single context window and a single agent.
+
+Chain-of-thought as a decomposition strategy is not obsolete — it is superseded as the appropriate choice for complex multi-step tasks that exceed a single agent's context or capability. The explicit DAG replaces implicit CoT sequential reasoning when: the task is long enough to exhaust a context window, subtasks can be parallelized for efficiency, different subtasks benefit from different agent specializations, or failure recovery requires re-dispatching specific nodes without rerunning the entire chain.
+
+The supersession is task-dependent. Short tasks: CoT in a single agent. Tasks with parallelizable subtasks, context-window pressure, or heterogeneous cognitive requirements: explicit dependency graph with multi-agent dispatch.
+
+### Design-Time Topology as Superseded Default
+
+The default assumption in early orchestration frameworks was that topology was specified at design time and was fixed. You selected "sequential pipeline" or "hierarchical coordinator-workers" when building the system; the topology was baked into the code.
+
+AdaptOrch supersedes this with runtime topology selection. The O(|V| + |E|) routing algorithm maps each incoming task's dependency graph to the optimal topology at dispatch time. The assumption being replaced: "topology is a property of the system." The replacement: "topology is a property of the task."
+
+This supersession has a practical implication for how systems are built: rather than implementing a specific coordination pattern, systems should expose agents as composable components with standardized interfaces, and implement a topology router that selects the pattern based on the dependency structure of each incoming task. The design-time topology decision becomes a set of runtime routing rules.
+
+---
+
 ## Anti-Patterns
 
 ### The Monolith Decomposition

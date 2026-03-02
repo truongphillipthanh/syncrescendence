@@ -78,6 +78,26 @@ Multi-agent systems fail 41-86.7% of the time in production. Most failures are s
 
 ---
 
+## Obsolescence and Supersession
+
+### Walled Gardens as Security Through Isolation
+
+The pre-agent security model relied on platform isolation as a structural security property. Each service (email, messaging, banking, social media) was an island; an attacker who compromised one island did not automatically gain access to others. Users understood this implicitly: a phishing attack against your email account did not expose your bank account.
+
+Agent-based aggregation supersedes this structural property. An agent that mediates all digital interactions becomes a single compromise point for everything it mediates. The walled gardens still exist technically — the APIs are still separate — but the agent aggregates across them. The security threat model must update accordingly: the new boundary is not between services but between the agent and what it has access to.
+
+The encryption dissolution problem is the sharpest form of this supersession. End-to-end encryption was designed for the walled-garden world where privacy was maintained by keeping plaintext on the user's device. When an agent reads encrypted messages on the user's behalf, the plaintext is necessarily exposed to whatever runs the agent. The assumption that E2E encryption is a privacy guarantee is superseded the moment an agent is granted message access.
+
+### API Keys in Configuration Files as the First-Generation Credential Pattern
+
+The earliest deployed agents stored credentials in configuration files: JSON files, environment variables, `.env` files checked into repositories. This was expedient — it worked — and it was appropriate for single-developer experimentation where the configuration file was on a personal machine.
+
+It became a liability in multi-agent systems where configuration files are readable by any process with filesystem access, where agents may execute with broad system permissions, and where the attack surface for prompt injection grows as agent capability grows. The Syncrescendence's plaintext keys in `openclaw.json` (NVIDIA, OpenAI, Slack, Discord) represent this first-generation pattern in production use.
+
+The supersession: OS-level credential stores (macOS Keychain, system keyring) centralize credential access behind access control mechanisms that operate independently of the application layer. Agents retrieve credentials at runtime through authenticated keychain calls; they never store them in files that any process can read. This supersession is partially implemented in the Syncrescendence (Keychain remediation in CC73b) but not yet complete for all credentials.
+
+---
+
 ## Anti-Patterns
 
 ### The Omniscient Mediator

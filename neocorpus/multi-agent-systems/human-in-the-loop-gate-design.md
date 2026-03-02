@@ -65,6 +65,26 @@ A gate is not just a checkpoint — it is an audit trail. Every human approval s
 
 ---
 
+## Obsolescence and Supersession
+
+### Human-in-the-Loop as Safety Theater
+
+The earliest wave of production agent deployments (2023-2024) defaulted to human-in-the-loop gates at nearly every step. The motivating assumption was "AI is unpredictable, human oversight at each step prevents catastrophic errors." This was a reasonable posture given the novelty of deployed agents and the genuine unpredictability of early systems.
+
+Operational experience superseded this with the approval fatigue finding: when every action requires a click, the click becomes reflexive. Dense gating does not produce careful oversight — it produces desensitized rubber-stamping. The security research parallel is exact: users who face too many prompts stop reading them.
+
+The supersession is from "gate early and often" to "gate at irreducibility boundaries." The discipline is not adding gates — it is identifying and removing the gates that theater has accumulated. The irreducibility test (credential custody, legal commitment, irreversibility, policy ambiguity) is the filter that separates meaningful gates from theatrical ones.
+
+### Credential Management as Gate Trigger
+
+A specific obsolescence: treating credential management as a normal gate trigger — something that happens in the ordinary flow of agent operation. Early agent systems required human re-authentication whenever tokens expired, treating it as routine rather than exceptional.
+
+The architectural supersession separates credential lifecycle from task execution entirely. A dedicated credential management layer maintains valid tokens; agents draw from a token store; they never manage token lifecycle. If this is properly implemented, token expiry is no longer a gate trigger in the task pipeline — it is handled upstream, invisible to task execution.
+
+The Syncrescendence has not fully implemented this supersession: the OAuth cascade failure in the Adjudicator execution log (00574) demonstrates that credential expiry still triggers pipeline failures. The macOS Keychain remediation (moving credentials from `openclaw.json` to centralized storage) is a partial step toward the dedicated credential management pattern.
+
+---
+
 ## Anti-Patterns
 
 ### The Approval Cascade

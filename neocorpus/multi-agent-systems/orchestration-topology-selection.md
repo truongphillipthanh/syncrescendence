@@ -79,6 +79,30 @@ Parallel maximizes throughput at the cost of coherence. Sequential maximizes coh
 
 ---
 
+## Obsolescence and Supersession
+
+### The Model-Selection Era and Its Supersession
+
+Until approximately 2024-2025, the primary optimization question for multi-agent systems was "which model?" — choosing between providers based on benchmark scores, pricing, and capability gaps. This was rational when frontier models differed substantially in capability. The advice "use GPT-4 for reasoning tasks, use a cheaper model for retrieval" reflected real performance gaps.
+
+The convergence documented in AdaptOrch (Yu, 2026) supersedes this framing. When frontier models from Anthropic, OpenAI, Google, and Meta achieve comparable scores on MMLU, HumanEval, SWE-bench, and GPQA, the optimization surface shifts. Picking the best model yields single-digit percentage differences. Picking the right orchestration topology yields 12-23% differences. The instruction that was correct in 2023 ("optimize model selection") is now suboptimal — the leverage has moved to the architectural layer.
+
+This is not permanent. If models diverge again — if a new capability discontinuity opens significant gaps — model selection becomes the primary lever again. The orchestration-first principle applies specifically in the convergence regime.
+
+### Static Topology Assignment as a Superseded Default
+
+The default assumption in early agent framework design was that topology was a design-time decision: you picked hierarchical, sequential, or parallel when building the system and ran that topology for all tasks. LangGraph, AutoGen, and similar frameworks exposed topology as a configuration choice but treated it as fixed once chosen.
+
+AdaptOrch supersedes this with dynamic topology routing: analyze the dependency graph at dispatch time, select the topology at runtime. The assumption being replaced was "topology is an architectural property of the system." The replacement: "topology is a runtime property of the task." This shift requires that agents be composable — capable of operating in any topology — rather than hardcoded into a specific coordination pattern. The 12-23% improvement is the measured cost of the old assumption.
+
+### From Topology as Engineering to Topology as Configuration
+
+A deeper supersession: before protocol standards (A2A, MCP), changing the orchestration topology of a multi-agent system required rewriting integration code. Agents communicated through custom APIs; rewiring them meant changing how each pair communicated. This made topology selection a high-cost, low-frequency decision.
+
+With standardized inter-agent protocols, topology becomes a configuration parameter. Agents expose standardized interfaces; the orchestrator specifies the wiring. The assumption "topology change = engineering project" is being superseded by "topology change = configuration update." This supersession is in progress rather than complete as of early 2026 — A2A is a recent standard and adoption is nascent.
+
+---
+
 ## Anti-Patterns
 
 ### Static Topology Dogma

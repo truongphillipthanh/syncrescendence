@@ -93,6 +93,26 @@ The critical insight is that the choice is not binary per system but **per knowl
 
 ---
 
+### Obsolescence and Supersession
+
+#### The RAG-First Assumption and Its Limits
+
+When retrieval-augmented generation became popular (approximately 2023-2024), the default assumption shifted to: "tool discovery via vector retrieval is the correct architecture for knowledge-intensive agents." The RAG pattern became the first recommendation in agent design guides — embed your documents, retrieve by similarity, stuff retrieved chunks into context, generate.
+
+Operational experience has exposed the limits of this assumption. The Syncrescendence's Oracle prompting formula exists precisely because RAG-style autonomous retrieval failed in production: models asked to "browse" thousands of files without pre-digested context defaulted to pagination failure, conciseness bias, and fabricated familiarity. The assumption being challenged: "models are good at navigating information spaces." The finding: "models are good at reasoning over pre-selected information spaces."
+
+This does not obsolete RAG. It supersedes RAG as the default recommendation with a more nuanced framing: RAG works when the retrieval quality is high and the chunk boundaries are semantic. It fails when retrieval is approximate, when boundary artifacts corrupt semantic coherence, or when the relevant context is distributed across many chunks in ways that similarity search misses. The hybrid architecture — injection for bounded corpora, tool discovery for live state — is the mature successor to the RAG-first default.
+
+#### Autonomous Navigation vs. Orchestrator-Curated Injection
+
+A specific assumption that the Oracle formula supersedes: "the model can navigate the corpus autonomously if given enough context about its structure." This was the basis for early agent designs that provided a file listing and asked the model to decide what to read.
+
+The Oracle formula replaces this with orchestrator-curated injection: Commander reads the relevant files, selects the salient content, compresses it into the prompt, and hands the model a pre-processed knowledge surface. The model never navigates autonomously. The orchestrator does all the retrieval work; the model does all the reasoning work.
+
+The old assumption encoded a belief that retrieval and reasoning could be unified in a single agent. The supersession separates them: the orchestrator retrieves, the specialist reasons. This is a form of role specialization applied to the injection vs. discovery question itself.
+
+---
+
 ### Anti-Patterns
 
 **Trusting autonomous navigation of large corpora.** Frontier models asked to "browse" thousands of files without pre-digested context default to pagination failure, conciseness bias, and fabricated familiarity. The Oracle formula exists because autonomous browsing failed catastrophically in production.

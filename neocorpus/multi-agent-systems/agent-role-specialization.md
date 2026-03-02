@@ -93,6 +93,26 @@ The matrix demonstrates that role specialization is not a loose guideline but a 
 
 ---
 
+## Obsolescence and Supersession
+
+### The Monolith Agent as Superseded Default
+
+The original default for deploying AI agents was a single, general-purpose agent prompted to do everything: research, synthesize, verify, and execute. This was appropriate when agent infrastructure was experimental and the overhead of managing multiple agents was not justified by the capability gains. The monolith agent is still the correct starting point for simple tasks.
+
+Google's ADK framing captures the supersession explicitly: "Stop building a single, stressed out monolith agent and hire a specialized squad." The condition that triggers this supersession is task complexity. When a task requires antagonistic cognitive modes — systematic exhaustive verification and novel creative synthesis are fundamentally antagonistic — the monolith agent must switch modes in ways that degrade both. A single agent optimized for enumeration will produce worse synthesis than a dedicated synthesis agent; a single agent optimized for creative reasoning will produce worse verification than a dedicated verification agent.
+
+The supersession is not "monolith agents are always wrong." It is "monolith agents break under cognitive-mode antagonism." The switch to specialization is triggered by the discovery that one agent is asked to do two things that fight each other. The Syncrescendence triangulation cycle emerged from exactly this discovery — early sessions where a single agent was asked to both hypothesize and verify produced output that was neither committed enough to be useful as a thesis nor rigorous enough to be useful as verification.
+
+### Prompting Formulas as Accumulated Corrections
+
+The Oracle, Cartographer, and Adjudicator prompting formulas documented in this entry are not initial designs — they are the product of accumulated corrections from failure modes encountered in production. Each element of each formula exists because of something that went wrong without it.
+
+The Oracle "ugly verbatim quote" requirement (CC58) exists because earlier Oracle prompts accepted polished quotes that were later found to be paraphrases. The Cartographer triple-layer negative space hardening exists because each layer was added after Cartographer violated the constraint in a session where only two layers were present. The Adjudicator WIDTH mandate exists because early sessions produced deep audits of 5 files when all 200 needed to be scanned.
+
+This is the supersession pattern in prompting: each version of the formula supersedes a prior version that had a specific failure mode. The history is not preserved in the formulas themselves (they read as positive prescriptions, not as accumulated patches) but the shape of the correction is visible — every "must not" clause marks a boundary that was previously crossed.
+
+---
+
 ## Anti-Patterns
 
 ### Role Homogenization

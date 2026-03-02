@@ -128,6 +128,28 @@ Production constellations must handle partial availability as a normal operating
 
 ---
 
+### Obsolescence and Supersession
+
+#### From Single-Machine to Multi-Machine: The Scaling Transition
+
+Early multi-agent systems — including the Syncrescendence constellation's first design — assumed all agents ran on the same machine and communicated through a shared process or filesystem. This worked at small scale but broke when agent count exceeded what a single machine could support in parallel, when credential domains needed isolation, and when model providers imposed per-machine rate limits.
+
+The constellation architecture superseded the single-machine assumption with explicit machine assignment. The design principle that replaced it: agents are assigned to machines by constraint (model access, credential scope, failure domain), not by convenience. This shift required accepting new failure modes — network partitions, machine sleep, cross-machine authentication — that the single-machine model had precluded.
+
+#### The Watchdog and Orchestrator Pattern as a Superseded Approach
+
+The corpus contains `00002.orchestrator_last_run` and `00004.watchdog_state` files in the multi-agent-systems folder — operational artifacts of an automatic dispatch and monitoring system that was active and then taken offline. These files document the prior state: an orchestrator that ran scheduled tasks and a watchdog that monitored agent health. The Syncrescendence's CC27 anesthesia of the Mac mini tmux session corresponds to this system going dormant.
+
+The supersession was operational, not architectural: the automatic orchestrator was replaced by Commander-mediated manual dispatch not because the design was wrong but because the Mac mini's anesthesia removed the execution surface it depended on. The lesson captured: an automatic orchestrator is only as reliable as the infrastructure it runs on. When infrastructure becomes unreliable (mac mini offline, tmux anesthetized), the orchestrator's automation becomes a liability rather than an asset — it fails silently rather than failing in a human-observable way.
+
+#### Socket-Mode Connections: Evolution from Persistent to Best-Effort
+
+The constellation originally treated socket-mode connections (Slack, Discord) as persistent channels — background processes that would always be available for notification and relay. Operational experience superseded this assumption: launchd-managed background daemons proved brittle, tokens expired, and socket connections dropped without clean error signals.
+
+The architectural position evolved from "socket channels are always available" to "socket channels are best-effort, the repo is the last-resort coordination surface." This is a supersession of the reliability assumption, not the capability. Socket channels are still used; they are simply no longer trusted as reliable.
+
+---
+
 ### Anti-Patterns
 
 **Assuming all agents are always available.** Partial constellation operation is normal. An orchestrator that blocks on unavailable agents instead of rerouting or deferring creates a system-wide bottleneck from a single-agent failure.

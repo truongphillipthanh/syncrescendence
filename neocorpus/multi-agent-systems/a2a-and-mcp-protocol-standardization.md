@@ -74,6 +74,30 @@ The best MCP servers treat their tool schemas with the same rigor as public API 
 
 ---
 
+## Obsolescence and Supersession
+
+### What MCP Superseded
+
+Before MCP, tool integration for AI agents was bespoke. Every agent framework implemented its own plugin API: LangChain had tools, AutoGPT had commands, OpenAI had function-calling. Each integration was a one-to-one relationship — a tool built for LangChain did not work in AutoGPT. The market was a collection of incompatible adapter layers, each locked to a single framework.
+
+MCP superseded this by proposing a many-to-many standard: any MCP server works with any MCP client. The USB-C parallel is structurally apt — USB-C did not invent the connector but unified a fragmented market where each device had its own cable. MCP similarly unified a fragmented market where each agent framework had its own plugin format. The assumption MCP challenged was that tool integration was an application-layer concern; MCP treats it as a protocol-layer concern.
+
+The Syncrescendence constellation's own evolution reflects this: early sessions used direct shell invocations and custom API calls where MCP now provides standardized access. The move to MCP was not aesthetic — it was the recognition that one-off integrations carry a maintenance burden that scales with the number of integrations, while a protocol-based approach scales the burden sublinearly.
+
+### What A2A Superseded
+
+Before A2A, inter-agent communication was implemented as filesystem exchange, database polling, or direct API calls — all proprietary. The Syncrescendence's own TASK/CONFIRM/RESULT dispatch system, where Commander writes task files to agent inboxes and agents write results to their outboxes, is a pre-A2A coordination pattern. It works but requires every participant to share the same filesystem and understand the same ad hoc message format.
+
+A2A proposes to supersede this by providing standardized agent discovery and task delegation over HTTP and JSON. The assumption it challenges is that multi-agent coordination requires shared infrastructure (shared filesystem, shared database). A2A claims that web standards are sufficient substrate, enabling agents on entirely different machines and networks to coordinate without a shared coordination surface.
+
+The Syncrescendence acknowledges A2A has not yet been adopted: "A2A is not yet adopted but would replace the custom dispatch system if the constellation scaled beyond its current five-agent architecture." This documents the supersession trajectory without claiming it is complete.
+
+### The Authentication Gap as an Unresolved Supersession
+
+MCP resolved tool discovery and invocation, but the auth lifecycle question it inherited from the pre-MCP era remains unresolved. The cascade failure pattern (`AuthRequired` -> `Transport channel closed` -> `MCP client failed to start`) first appeared in pre-MCP ad hoc integrations and has been faithfully inherited by MCP. The protocol standardized the happy path without standardizing the failure path. This is the next supersession waiting to happen: MCP v1 handles what to call; the next iteration must handle how to stay authenticated calling it.
+
+---
+
 ## Anti-Patterns
 
 ### The Tool Explosion
