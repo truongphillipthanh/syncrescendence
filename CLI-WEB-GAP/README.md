@@ -14,6 +14,7 @@ Relevant live runtime folder:
 
 Relevant current docs:
 
+- [INTENT-AND-OPERATING-MODEL-CC76.md](/Users/system/syncrescendence/CLI-WEB-GAP/INTENT-AND-OPERATING-MODEL-CC76.md)
 - [CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md)
 - [CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md)
 - [WEB-SURFACE-PACKET-STANDARD-CC75.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/WEB-SURFACE-PACKET-STANDARD-CC75.md)
