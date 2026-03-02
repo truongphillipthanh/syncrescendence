@@ -156,3 +156,25 @@ In 2026: that question is unresolved.
 *Nucleosynthesis date: 2026-03-01*
 *Sources fused: 10 corpus files (10946, 04260, 10771, 10983, 10638, 10961, 03762, 04332, 00098, 00071)*
 *Tensions preserved: open-source moat vs model dependency; full autonomy vs enterprise governance; community ownership vs lab platform capture; OpenClaw-as-execution vs LobeHub-as-brain*
+
+---
+
+## Temporal Dimensions
+
+### Supersession: OpenClaw's Default Model Layer
+
+**v1 — Claude-primary (launch through early 2026):** OpenClaw shipped with Claude as its default model, specifically Claude Opus chosen for prompt injection resistance. The assumption: the best reasoning model for agents was also the best choice for the most important agent platform. OpenClaw's design and the model choice were coupled.
+
+**v2 — Model-agnostic (post-Anthropic ban, February 2026):** Anthropic banned OpenClaw from its API when Claude CoWork launched. The ban forced a decoupling that the design had not anticipated. OpenClaw became model-agnostic by necessity, not by choice. The assumption that ran the platform for its first year — "Claude is our model" — was invalidated by a single competitive decision made by the model provider.
+
+The supersession lesson: "We used to assume the execution layer and the model layer were stable partners. The ban revealed that a platform's model dependency is its most fragile infrastructure dependency. The open-source code moat was real; the model dependency was not noticed as a moat-breaker until it broke."
+
+### Supersession: The Platform War Resolution Arc
+
+**Phase 1 — Multi-lab competition for platform ownership (2025–early 2026):** Meta, OpenAI, and Anthropic all engaged with OpenClaw independently. The competitive landscape appeared open. The assumption was that OpenClaw could remain model-agnostic and neutral while labs competed for its user base.
+
+**Phase 2 — Lab convergence on exclusion (February 2026):** Anthropic shipped CoWork and banned OpenClaw. OpenAI acquired Steinberger. Meta lost the recruitment competition. The neutral platform assumption broke: two of the three major labs had taken explicit positions that made OpenClaw's neutrality untenable.
+
+**Phase 3 — Open-source community as residual (unresolved):** The 160K+ developer community retains the codebase and the skills ecosystem. The question of whether this is enough to sustain a meaningful platform is unresolved at corpus date. The assumption that open-source moats protect against lab platform capture has been stress-tested and not yet resolved either way.
+
+**Phase 3-4 audit (CC78a)**: Model layer supersession (Claude-primary → model-agnostic) and platform war resolution arc both present in sources 10983, 10638, 10946. Sources contain explicit temporal markers (February 2026 ban date, Steinberger acquisition timing) that encode the supersession chain.

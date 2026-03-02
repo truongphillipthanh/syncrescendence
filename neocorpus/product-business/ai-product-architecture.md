@@ -49,6 +49,14 @@ The best AI-native startups spend thousands per month on token costs instead of 
 - **Ignoring cache cost of model switching**: The math is unintuitive — switching to a cheaper model mid-conversation can cost more than staying on the expensive one (11006.md).
 - **Building agent systems without context accumulation**: Agent systems that do not capture decision traces lose their competitive advantage with every session (03517.jsonl).
 
+## Obsolescence & Supersession
+
+**The "stateless API call" assumption (superseded by session architecture)**: Early LLM product architecture treated the model as a stateless function: input prompt → output response. This is how the first generation of LLM wrappers were built — each API call independent, no state accumulated, the "session" existing only in the application layer. This assumption made prompt caching impossible to reason about, because caching only makes sense when calls have shared prefixes that recur across invocations. The session-aware architecture (static system prompt → project context → session context → messages) represents a complete structural replacement, not an enhancement. The earlier stateless frame produced architectures that were expensive, slow, and architecturally incoherent for anything beyond simple chatbots (11006.md).
+
+**Prompt-as-string versus prompt-as-structure**: The first generation of LLM applications treated prompts as strings to be concatenated at runtime — system prompt + conversation history + current message assembled fresh each call. This was natural given the API design and the one-shot use case. The caching-optimized architecture treats prompts as structured objects with immutable prefixes and mutable suffixes, where the ordering of elements is a primary architectural decision. These are not the same paradigm: one assembles strings, the other manages cache-aware state trees. Teams that built on the string-concatenation model encounter systematic cache misses, non-deterministic cost profiles, and unexplained latency spikes when scaling — all consequences of the prior paradigm leaking into the new one.
+
+**Context windows as scarce resource (partially obsolete)**: Early agentic product design treated context window size as the primary architectural constraint — designing entire systems around the assumption that context was the binding limit. Extended context and prompt caching together shift the binding constraint: for many use cases, cost-per-token and cache miss rate now bind before raw context window size does. Architectures designed around context scarcity (aggressive summarization, early truncation, priority-based dropping) may be solving for the wrong limit if they do not account for what those decisions cost in cache coherence (11006.md).
+
 ## Cross-References
 
 - [AI Product Design Failures](ai-product-design-failures.md) — why most products fail before architecture matters

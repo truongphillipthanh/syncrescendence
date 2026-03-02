@@ -65,6 +65,14 @@ Forward-deployed engineers are crucial for enterprises to adopt AI effectively (
 - **Treating AI deployment as a technology problem**: It is an organizational design problem. Best practices, cultural shifts, and guardrails matter more than model selection (01932.md).
 - **Hiring a Chief AI Officer to avoid organizational change**: Same instinct as "VP of Innovation" a decade ago — creating a role so the rest of the org stays exactly as it is (11001.md).
 
+## Obsolescence & Supersession
+
+**The "plug-and-play AI" assumption (falsified at scale)**: The first wave of enterprise AI marketing (2022-2024) was organized around frictionless adoption — "just connect your data, get insights." The Bloomberg case study (9,000 engineers, 01932.md) and the Invisible Technologies forward-deployed engineer model both document the falsification: AI at scale inside mature engineering organizations is categorically more complex than the "plug-and-play" frame predicted. The complexity lives not in the models but in the organizational, institutional, and data infrastructure that surrounds them. The vendors who sold "frictionless AI deployment" found customers who invested heavily and measured almost nothing, because the measurement infrastructure assumed by the frictionless frame also did not exist.
+
+**Seat-based license as measurement unit (superseded)**: Enterprise software pricing from 2005-2023 used seat-based licensing as the canonical unit: ROI = (value per seat) × (number of seats). This metric assumed that software value was uniform across users and that adoption (number of seats activated) was a reasonable proxy for value delivered. The hiding problem — productive employees concealing AI usage from management — is the direct consequence of applying the seat-based mental model to AI tools: management measures adoption (a seat-proxy), employees optimize actual productivity (a different axis entirely), and the two never connect. The $700B measurement problem is the seat-based era's final bill (01636.jsonl, 01638.md).
+
+**Chief AI Officer as organizational change avoidance (recognized antipattern)**: The "we hired a Chief AI Officer" response was, for roughly two years (2023-2024), the dominant enterprise response to AI urgency. The structural function of this move was identical to the "VP of Innovation" pattern a decade earlier: create a visible role that signals organizational commitment while insulating the rest of the org from having to change. The sources explicitly recognize this as a documented antipattern now (11001.md) — evidence that the pattern ran long enough to generate its own backlash literature. The supersession: meaningful AI adoption requires organizational redesign, not role creation. The Chief AI Officer era is a documented phase that produced a specific failure mode legible in hindsight.
+
 ## Cross-References
 
 - [Enterprise AI Transformation](enterprise-ai-transformation.md) — how org structures change

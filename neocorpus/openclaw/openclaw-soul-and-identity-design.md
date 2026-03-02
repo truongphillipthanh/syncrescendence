@@ -191,3 +191,7 @@ This is the difference between an agent that performs and an agent that improves
 - `tool-stack-architecture.md` — OpenClaw revival context, HighCommand as JIT GUI client
 - `sovereign-pushback-cc37.md` — Hypergiant principle: fusion not fission (related soul design philosophy)
 - `crush-phase2-repetition.md` — Three-tier architecture and agent specialization methodology
+
+---
+
+**Phase 3-4 audit (CC78a)**: Source material (00246, 10971) presents design principles and research findings as current best practice. The sources do not contain version chains or explicit "used to do X" patterns about soul design itself. The 17→4 consolidation (tolibear_) is a practitioner evolution from 30 days of operation, but is framed as a conclusion rather than a version chain with documented failure modes at each stage. Entry is redundancy-complete.

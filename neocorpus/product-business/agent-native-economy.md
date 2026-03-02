@@ -67,6 +67,16 @@ The mobile web analogy breaks down: the new client is not a smaller screen — i
 - **Ignoring adversarial agent environments**: Agents operating in the open internet encounter hostile endpoints. Trust and verification infrastructure is a prerequisite (04146.md).
 - **Building closed platforms in an open-discovery world**: If agents cannot discover your service programmatically, you are invisible to the fastest-growing buyer segment (04146.md).
 
+## Obsolescence & Supersession
+
+**The human-first internet assumption (now obsolete)**: Every internet infrastructure layer — DNS, HTTP headers, HTML, SEO, ad tracking, analytics — was built assuming the client is a human. Search engines ranked by human engagement signals. Pricing pages assumed human comparison-shopping. Email marketing assumed human attention. These assumptions were so foundational that the question "what if the client has no attention span?" was never asked. It did not need to be asked.
+
+The agent-native web is the first phase where that assumption fails in practice, not just in theory. Coinbase launching agent wallets (13,000 registrations in 24 hours), Stripe retraining fraud detection because agent traffic moves no mouse, Cloudflare shipping agent-specific infrastructure — these are infrastructure providers discovering mid-deployment that their entire request-analysis stack was tuned to a client that no longer represents the dominant traffic type (11056.md).
+
+**v1 → v2: from human-facing SEO to machine-readable capability registries**: The v1 pattern for getting discovered was search engine optimization — content structured for human attention and search engine indexing heuristics. The v2 pattern for getting discovered by agents is machine-readable capability registries: structured data at a URL describing functionality, cost, payment methods, and uptime. These are not adjacent strategies; they are competing standards optimized for incompatible clients. The companies that built v1 distribution moats (brand recognition, Google ranking, email lists) find those moats irrelevant to the fastest-growing buyer segment (04146.md).
+
+**What the supersession chain reveals**: The Coase boundary itself has a version history. v1 (1937): transaction costs are high, so firms internalize functions they could otherwise outsource. v2 (2010s SaaS era): cloud infrastructure reduced search costs, so make-vs-buy moved toward buy for software. v3 (agent era): AI agents reduce search and evaluation costs to near zero for any API-accessible service, completing the Coase reversal for the entire services market. Each version assumed the prior version's transaction cost floor was fixed. Each time, the floor dropped further than the prior model predicted.
+
 ## Cross-References
 
 - [Interface Moat Collapse](interface-moat-collapse.md) — why human interfaces lose value

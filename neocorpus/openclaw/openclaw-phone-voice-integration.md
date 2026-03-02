@@ -226,3 +226,7 @@ The ElevenLabs Agent is the constant: it owns voice (TTS, STT, turn-taking, tele
 Session continuity (`x-openclaw-session-key`) applies to both directions — any call, regardless of who initiated it, can share a single agent instance if the header is present in the Custom LLM config.
 
 The only asymmetry is initiation: inbound calls are initiated by the human dialing Twilio; outbound calls are initiated by OpenClaw via the `elevenlabs/skills` skill, triggered manually or by cron.
+
+---
+
+**Phase 3-4 audit (CC78a)**: Source material (00111, 00197) documents the phone/voice integration architecture as a complete two-layer system. Sources do not contain version chains or deprecated approaches — they describe the current integration pattern (ElevenLabs + Twilio + `/chat/completions`) without documenting prior approaches it replaced. The one temporal signal present (BlueBubbles documented as an alternative to iMessage CLI, with the longer-term default unsettled) is covered in the companion entry `openclaw-communication-channels.md`. Entry is redundancy-complete.

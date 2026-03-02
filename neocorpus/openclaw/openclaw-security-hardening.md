@@ -690,3 +690,25 @@ Consequence: every file you ask the agent to summarize, every code review, every
 ### The invariant
 
 Security is a practice, not a product. All hardening is pointless if you paste passwords into chat, read malicious documents without review, ignore SHIELD warnings, or never rotate credentials. The human is always the weakest link and the most important control.
+
+---
+
+## Temporal Dimensions
+
+### Supersession: SHIELD.md Version Chain
+
+Source `00198.md` explicitly names the policy-as-code standard as **SHIELD v0** and documents its limitations: "Does not provide hard enforcement. Prompt injection can attempt to override policy instructions. Threat logic may be summarized or leaked by the model. Compliance is non-deterministic across runs and models." The v0 designation is not cosmetic — it is an explicit acknowledgment that the standard is early-stage and its known failure modes are structural, not fixable within the current version.
+
+The supersession this encodes: "SHIELD v0 assumed policy-as-code in the system prompt would be respected by the model consistently. That assumption was wrong — compliance is non-deterministic. v1 or later versions of the standard will need enforcement mechanisms outside the model's context (sandboxing, capability restrictions, external policy enforcement) rather than relying on model compliance." The v0 limitations section is a roadmap written as a disclaimer.
+
+### Obsolescence: The Default-Insecure Assumption
+
+The entire entry documents what the OpenClaw security posture looked like before the January 2026 viral adoption wave forced reckoning:
+
+**Pre-mass-adoption assumption (implicit):** OpenClaw was a developer tool. Developers understood that default configurations require hardening. The assumption was that users would read the security guide.
+
+**Post-viral-adoption reality:** 180,000 installs in a week. Most installers were not developers who understood server administration. The defaults — gateway on `0.0.0.0`, no auth, no DM allowlist, prompt injection unsolved, no audit logging — were exposed as harmful defaults, not developer-friendly shortcuts. The security posture required explicit hardening that most users did not perform because they did not know it was necessary.
+
+The obsolescence lesson: "We used to assume default configurations were acceptable for the deployment population. The deployment population changed in a week. The security architecture did not. Any tool expecting default-insecure configurations to be manually hardened by non-expert deployers has an unacceptable gap between the assumed user and the actual user."
+
+**Phase 3-4 audit (CC78a)**: SHIELD v0 version chain and default-insecure obsolescence both present in sources 00198 and 00050. The version signal is explicit (v0 designation + listed limitations). The obsolescence signal is derivable from the 1,800+ exposed instances documented in the companion entry and the Top 10 vulnerabilities being default-configuration failures.

@@ -228,3 +228,7 @@ Defense is covered in the companion entry: **`openclaw-security-hardening.md`**.
 That entry covers: authentication configuration, reverse proxy setup (the `gateway.trustedProxies` fix), network binding, Docker containment, user ID allowlists, credential isolation, conversation history protection, and monitoring for perception attacks.
 
 If you are running OpenClaw in any configuration, read that entry before continuing.
+
+---
+
+**Phase 3-4 audit (CC78a)**: Source material (00045, 00059, 00044) was published within a two-day window in late January 2026 — contemporaneous documentation of the initial exploitation wave. The sources do not contain version chains or "we used to think X" patterns about the threat model itself; they are the first written record of this attack surface at the moment it became visible. The temporal signal is in the companion entry (`openclaw-security-hardening.md`): SHIELD v0 version chain and default-insecure obsolescence. This entry is redundancy-complete for offense; temporal evolution belongs to the defense entry.

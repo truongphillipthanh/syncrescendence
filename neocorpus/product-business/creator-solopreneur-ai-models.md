@@ -32,6 +32,16 @@ Hormozi's 2026 advice (01734.md): if starting a business today, leverage AI from
 - **Treating AI content as equivalent to human insight**: AI can produce the sensation of anything. The meaning economy values authentic perspective, not polished production (03922.jsonl).
 - **Scaling breadth without depth**: The multiple-interests model works only when unified by a coherent identity. Scattered attention without integration produces noise.
 
+## Obsolescence & Supersession
+
+**The "creator economy" frame (superseded by meaning economy)**: The creator economy concept (2015-2023) was built around platform-mediated distribution: YouTube, Instagram, TikTok, Substack as the infrastructure layer, with creators as content producers competing for platform-allocated attention. The key variables were production quality, posting frequency, algorithm optimization, and audience accumulation on rented platforms. This frame assumed production difficulty as the moat — only skilled creators could produce quality content at the cadence platforms rewarded.
+
+AI collapses production quality and volume into a commodity. If production is easy, the prior frame's competitive variables become irrelevant. The superseding frame — meaning economy — shifts the axis from production skill to identity specificity. What AI cannot replicate is not technical production skill but the particular lived experience, perspective, and accumulated relationships that make a specific person worth following. The transition is not gradual; it is structural. The creator who built their advantage on production quality discovers that the advantage has been extracted from beneath them (03922.jsonl).
+
+**Solopreneur automation: the false twin problem**: Early AI-powered solopreneur content systems automated production (writing, design, scheduling) while retaining a human identity at the front. This is the ClawdBot pattern: "I replaced myself with ClawdBot." The implicit assumption was that audiences could not distinguish AI-produced content from human-produced content, and therefore volume automation would scale the creator's reach without degrading the audience relationship. As AI content proliferates and audiences develop pattern-recognition for AI-generated material, the false twin problem emerges: the automated version undermines the identity specificity that the meaning economy rewards. The automation that scales production competes with the authenticity that scales audience trust (10316.md).
+
+*Note: Supersession chains here are partially inferred from structural logic against the corpus's explicit "meaning economy" thesis, which itself encodes the displacement of the prior creator economy frame.*
+
 ## Cross-References
 
 - [AI Product Design Failures](ai-product-design-failures.md) — the tool-shaped objects problem in content creation

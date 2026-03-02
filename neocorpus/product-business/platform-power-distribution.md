@@ -51,6 +51,14 @@ Detroit as "American Shenzhen" — Atomic Industries reviving AI-powered tool-an
 - **Underwriting AI companies with SaaS metrics**: Underwriting opportunities in diverse industries is harder than SaaS because of the lack of standardized metrics and homogeneity (04302.md).
 - **Hardware as automatic safe haven**: Hardware is not necessarily a strong moat even if less susceptible to AI — other technologies improve rapidly too (04302.md).
 
+## Obsolescence & Supersession
+
+**The moat-first strategy (now insufficient)**: The standard competitive strategy framework from Porter (Five Forces) through Hamilton Helmer (7 Powers) placed moat analysis at the center of strategy. The question "what is your moat?" was treated as the foundational strategic question — asked at seed rounds, board meetings, and analyst briefings. The High Ground framework does not reject moat analysis; it reveals a prior step that the moat-first frame assumed away: you must first own something worth defending. The SaaSpocalypse is, among other things, evidence that many software businesses spent a decade optimizing moats around positions that did not constitute High Ground — point-solution software that AI now trivially replicates. The moat was real; the underlying position was not (04302.md).
+
+**The "software abundance as threat" reframe**: Pre-AI platform strategy assumed that software scarcity created moats — the difficulty of building quality software meant that existing software had inherent defensive value. The AI era inverts this: software abundance is now a threat to software businesses and a tool for High Ground owners. Carnegie and Rockefeller did not defend scarcity; they attacked constraints that competitors accepted as fixed, then used that attack as the basis for integration. The reframe from "protect against abundant code" to "who benefits most from newly abundant inputs?" is a complete reversal of the prior strategic question, not an amendment to it (04302.md).
+
+**App Store distribution model under pressure**: The skills-stores-as-new-App-Stores thesis represents a v2 displacement of the iOS/Android App Store distribution layer. v1 assumed that app discovery required human browsing, human search, human social recommendation. The App Store's 30% tax was sustainable because there was no credible alternative distribution channel for reaching human users. v2 assumes agent-mediated discovery: the platform controlling which skills an agent can access controls distribution without requiring human browsing. Whether the App Store tax survives into the agent era depends entirely on whether Apple and Google can extend their runtime control to agent capability registries — a live strategic contest as of 2026 (04306.jsonl).
+
 ## Cross-References
 
 - [Software Survival Framework](software-survival-framework.md) — what software properties constitute High Ground

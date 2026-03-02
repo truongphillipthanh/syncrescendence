@@ -336,3 +336,29 @@ The first version of any agent is mediocre. The tenth is good. The thirtieth is 
 The real value is not any single day's output. It is consistency over weeks and months. An agent running research every day for 30 days builds a corpus of tracked signals, trend trajectories, and pattern recognition that no single session could produce. Memory files accumulate signal. Daily logs get distilled into MEMORY.md. Each session starts richer than the last.
 
 The moat is not the model — everyone has access to the same frontier models. The moat is the system: the SOUL.md files, the memory files, the coordination patterns, the weeks of corrective feedback stored on disk. That system is unique to its operator. It compounds every day.
+
+---
+
+## Temporal Dimensions
+
+### Supersession: OS-Level vs Directory-Level Isolation
+
+Both sources encode the same fleet pattern from different points on an architectural decision spectrum, and the decision point itself is knowledge:
+
+**OS-level isolation (00095, 3-agent model):** Separate macOS user accounts per agent. Chosen when agents have significant infrastructure autonomy — the primary manages gateway lifecycles, handles supply chain audits, writes subordinate workspace files. The assumption: when agents control each other's execution environment, OS-level separation is the correct isolation boundary.
+
+**Directory-level isolation (00274, 6-agent model):** Single macOS user, isolated by directory structure. Chosen when the primary use case is content and knowledge production rather than infrastructure management. The assumption: when agents coordinate through shared intel files rather than process management, directory-level isolation is sufficient and enables faster iteration on agent personalities.
+
+This is not a supersession in the sense that one replaced the other — both approaches were live deployments as of the corpus date. But it encodes an architectural decision tree: "We used to assume one isolation model fit all fleet configurations. The two-case evidence shows the isolation model should be determined by whether agents manage each other's execution environment (→ OS-level) or only read each other's outputs (→ directory-level)."
+
+### Supersession: The Sequential Rollout Doctrine
+
+The "Sequential Rollout" section encodes a supersession derived from both deployments' direct experience:
+
+**Pre-doctrine assumption (implied):** Build the full fleet on day one. Configure all agents, establish all coordination paths, then operate. This is the intuitive approach — design the whole system before running it.
+
+**Post-doctrine practice (from both deployments):** One agent, one job, one week. Then memory. Then a second agent when the first creates an actual bottleneck. Each addition resolves a problem that emerged from operating, not a problem anticipated in advance.
+
+The obsolescence lesson: "We used to assume fleet architecture should be designed before deployment. Both deployments found the correct fleet size and role definition only by running a smaller fleet first and observing what was missing. Pre-designed multi-agent systems over-specify roles before the bottlenecks that justify specialization have been observed."
+
+**Phase 3-4 audit (CC78a)**: Isolation model decision tree and sequential rollout supersession both derivable from direct comparison of sources 00095 and 00274. Sources are contemporaneous deployments (not a version chain from a single deployment), but their architectural differences encode the temporal lesson of why different choices were made.

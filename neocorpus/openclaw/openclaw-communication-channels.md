@@ -95,3 +95,19 @@ iMessage integration targets personal and mobile use cases where Slack and Disco
 | iMessage | Personal assistant, mobile, native Apple ecosystem |
 
 The unifying principle: the agent adapts to the human's communication context. The human does not migrate to a new tool.
+
+---
+
+## Temporal Dimensions
+
+### Supersession: iMessage CLI Version Chain
+
+Source `10907.md` documents iMessage CLI at **v0.5.0** with a specific capability set added in that version: typing indicators (via `typing indicator` command and RPC methods with stricter validation), reactions support (`--reactions` flag on the `watch` command), and events support. The version number and the feature-level description of what v0.5.0 added implies a prior version without those capabilities — a version chain where v0.4.x or earlier had the core watch/send primitives but lacked real-time presence signals.
+
+The lesson this encodes: native messaging integration began as pure request-response (send message, receive reply) and grew presence semantics — typing indicators, reactions — as operators demanded more natural conversational feel. The direction of travel is toward indistinguishability from a human messaging contact.
+
+### Obsolescence: The Unsettled Default
+
+Source `10907.md` explicitly notes the longer-term default between imsg and BlueBubbles was unsettled at time of writing. This is an obsolescence signal about a design decision: the iMessage CLI integration was the current solution, but it was not declared final. The assumption was that one integration would emerge as canonical; which one was unknown. Any downstream documentation treating either as the definitive iMessage path may have been superseded by subsequent resolution of this choice.
+
+**Phase 3-4 audit (CC78a)**: iMessage CLI version chain (v0.5.0 capability additions) and unsettled-default obsolescence signal both present in source 10907. Slack and Discord sources (10802, 10833) do not contain version chains or temporal evolution signals.

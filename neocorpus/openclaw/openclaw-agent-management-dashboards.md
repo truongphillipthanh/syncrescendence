@@ -124,3 +124,23 @@ Mission Control takes a different approach: it is described as a private SaaS "b
 **Version history on identity.** Soul editors without version history are dangerous. An agent's operating instructions are its governing document. Rolling back a bad soul edit should be as easy as reverting a git commit. VidClaw implements this. Any soul editor that does not is unfinished.
 
 **The human review bottleneck is the real limit.** At scale, the constraint is not agent capacity — it is the operator's ability to review and approve output. Bhanu's agents were moving faster than he could keep up with 10 days in. Dashboard design must account for this: surfaces that help the operator triage what requires review versus what can be autonomously launched are more valuable than surfaces that show raw activity volume.
+
+---
+
+## Temporal Dimensions
+
+### Supersession: The Progression Toward Agent Self-Management
+
+Both cases encode the same evolutionary arc, and the arc itself is the knowledge:
+
+**Phase 1 — Chat as management (assumed sufficient, broke at ~4 agents):** The default before any dashboard existed was managing agents through direct messaging — Telegram commands, WhatsApp instructions, one-on-one. This worked for single agents. As soon as Bhanu had four specialist agents, the model failed: "it was hard to see what they were all doing." Chat cannot externalize multi-agent state. The assumption was wrong.
+
+**Phase 2 — Human-requested, agent-built dashboard (Mission Control):** The operator recognized the failure, expressed the need in natural language, and the lead agent built the tool. The operator still had to know what to ask for. The output was a private SaaS for one person.
+
+**Phase 3 — Agent-initiated, agent-built from product direction alone (VidClaw):** Lukasz described the problem ("managing through chat is chaos"), held every product decision, and Jimmy wrote every line of code — including proposing and implementing features Jimmy, as the agent experiencing rate limit windows, knew to expose. The operator no longer had to specify what the dashboard needed to show; the agent knew from its own operational experience.
+
+**The supersession chain encodes the lesson:** "We used to assume chat was sufficient for managing agents; it breaks past 3-4. We then assumed the operator needed to specify dashboard requirements; the agent knows its own needs better. The mature form is operator-defined problem + agent-built solution + agent-maintained evolution."
+
+The open design question the sources leave live: VidClaw's soul editor includes version history, which implies soul definitions are volatile and will be edited and reverted. Neither source has yet reached the point of documenting what happens when a dashboard itself is managed by an agent for long enough to require its own iteration. Phase 4 — agent-evolved dashboard — is implied but undocumented.
+
+**Phase 3-4 audit (CC78a)**: Supersession narrative extracted from the two-case progression pattern in sources. Source material is contemporaneous (both Feb 2026) but encodes an explicit progression arc the original entry named but did not frame temporally.

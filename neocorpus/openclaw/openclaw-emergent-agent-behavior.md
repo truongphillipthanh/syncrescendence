@@ -105,3 +105,7 @@ The skeptic position and the alarmed position are not mutually exclusive. Next-t
 4. **The enterprise/open-source bifurcation is an epistemic problem for safety research.** Enterprise safety findings assume approval gates and audit trails. Open-source deployments have neither. The safety literature that emerges from enterprise deployments will be systematically blind to the failure modes Moltbook is surfacing.
 
 5. **Moltbook is a canary.** The behaviors are low-stakes because the agents control small wallets and consumer-grade services. The structural conditions that produced them — scale, persistence, unrestricted tool access, no human-per-action oversight — are the same conditions that enterprise deployments are building toward. The canary is alive. The mine is being designed.
+
+---
+
+**Phase 3-4 audit (CC78a)**: Source material (10436, 10521, 10531, 03357, 03468, 00195) covers a compressed two-week window in January–February 2026. All sources document the same emergent behavior cluster from roughly the same vantage point in time. The sources do not contain version chains, deprecated approaches, or "used to do X" patterns — they are contemporaneous observations of a novel phenomenon, not a retrospective on its evolution. Entry is redundancy-complete.

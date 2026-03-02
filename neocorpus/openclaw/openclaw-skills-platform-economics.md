@@ -167,3 +167,33 @@ The market gap: most AI education is either too technical (docs-level) or too sh
 **Tension 4 — Supply-chain risk vs. open registry growth**: More skills = more attack surface. The npm/PyPI analogy cuts both ways: those ecosystems have persistent supply-chain compromise problems that the community hasn't solved at scale. ClawHub's reactive moderation model (report → audit → ban) may be insufficient as the registry approaches npm-level scale and economic value.
 
 **Tension 5 — Skills architecture vs. RAG/memory**: The progressive disclosure model (load skill on activation) is a structured form of context management, but it is prompt-engineering-based, not learned. As personal memory systems mature (Graphiti, structured memory banks), the boundary between "what I remember about you" and "what skill I need for this task" blurs. The next architectural evolution likely involves skills that are activated not by task description matching but by memory retrieval.
+
+---
+
+## Temporal Dimensions
+
+### Supersession: Remote-First → Local-First
+
+Source `10972.md` contains an explicit supersession narrative about the agent compute surface:
+
+**v1 — Remote-first agent infrastructure (failed):** The Instaline experiment placed Claude Code on iMessage with agents running on Daytona persistent sandboxes — cloud-hosted, remote-executed. The assumption: cloud infrastructure was more reliable and scalable than local hardware. The product failed to find product-market fit.
+
+**v2 — Local-first won:** Codex Desktop, Claude CoWork, OpenClaw, Eigent — all execute directly on local files. The same capability that failed as a remote-first product found mainstream traction when repositioned as local-first. "The market was telling us something."
+
+The supersession lesson: "We used to assume cloud execution was preferable to local execution for agent workflows. The assumption was wrong for personal agent use cases — users wanted agents that could access their actual local files, not cloud sandboxes. Local-first execution is not a limitation; it is the value proposition."
+
+### Supersession: Skills Architecture — From Naive Front-Loading to Progressive Disclosure
+
+Source `10242.md` (AgentSkills format spec) encodes a supersession in how skills are loaded:
+
+**v1 — Naive implementation (implied as the failure mode):** Front-load all skill instructions at session start. Makes all capabilities available immediately. Exhausts context before the first task.
+
+**v2 — Progressive disclosure (current spec):** Load only name and description at startup. Load full SKILL.md into context only when a task matches. This is the architectural answer to the naive front-loading problem, now codified into the open standard.
+
+The supersession lesson: "We used to assume skill instructions should be available upfront. Exhausted context revealed the assumption was wrong. The correct architecture delays full instruction loading until activation, treating skills as lazy-loaded context rather than eager-loaded configuration."
+
+### Obsolescence: ClawdHub → ClawHub Domain Migration
+
+Source `08327.md` documents a domain migration from "ClawdHub" to "Clawhub" that caused transient 404s on skill pages. This is a minor but real obsolescence signal: any documentation, bookmarks, or integrations pointing to the ClawdHub domain became stale. The lesson is not about the migration itself but about the fragility of registry URLs as canonical references for installed skills.
+
+**Phase 3-4 audit (CC78a)**: Remote-first supersession and progressive disclosure supersession both explicitly present in sources 10972 and 10242 respectively. ClawdHub→ClawHub migration documented in 08327. These are the temporal evolution signals in the source material.

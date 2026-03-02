@@ -53,6 +53,14 @@ Key principles across multiple sessions (02634.md, 10066.md, 10135.md, 02772.md)
 - **Learning models without applying them repeatedly**: Models only become useful when applied to real problems, over and over, for years. Munger admits he still makes mistakes after a lifetime of practice (10997.md).
 - **Waiting for perfect moments instead of creating motion**: There is no perfect moment. There is only motion and stillness. Choose motion (11005.md).
 
+## Obsolescence & Supersession
+
+**Munger's models as countercyclical wisdom**: The latticework-of-mental-models framework was developed in an era when information asymmetry and analytical rigor were stable competitive advantages — the person who had internalized more frameworks genuinely outperformed those operating from single-domain heuristics. The AI era does not invalidate the frameworks themselves, but it changes the competitive context: if AI can apply Bayesian reasoning, expected value calculation, and competitive dynamics analysis faster and more consistently than most humans, the advantage from knowing the models shifts to the advantage from knowing *which models apply* and *when to override them*. Munger's system becomes less a skill differentiator and more a prerequisite literacy (10997.md).
+
+**The luck taxonomy as temporal artifact**: Naval's four-type luck framework was developed in the context of internet-era entrepreneurship where Type 2 luck (hustling, surface area) was the most actionable lever for most founders — move fast, try things, increase surface area. In an AI-mediated environment, Type 2 luck is subject to compression: if AI can execute a larger volume of experiments faster, the "surface area" advantage from individual hustle decreases relative to the Type 3 advantage (deep domain preparation that AI cannot yet replicate) and the Type 4 advantage (reputation so specific that opportunities self-select). The relative weighting across the four types is not static — it shifts as AI takes over more of the execution layer (11005.md).
+
+*Note: These sources are durable strategy frameworks with limited explicit supersession chains. The temporal signals above are inferred from first principles against current AI conditions, not from direct corpus evidence of prior-version failures.*
+
 ## Cross-References
 
 - [Platform Power Distribution](platform-power-distribution.md) — how High Ground strategy connects to Munger's competitive destruction

@@ -195,6 +195,30 @@ The operator variable dominates the tool variable. A person who understands thei
 
 ---
 
+## Temporal Dimensions
+
+### Supersession: The Practitioner Reassessment Arc
+
+Multiple sources follow the same reassessment arc, and this arc is itself the temporal knowledge the entry encodes:
+
+**v1 — First-contact verdict (Days 1–2):** Expensive. Complicated. Security nightmare. Not enough real-world use cases. Igor Pogany's initial assessment. Nick Saraev's "Clawdbot sucks, actually." These verdicts were not wrong — they were correct assessments of the tool as most users encounter it on first contact, before building.
+
+**v2 — Post-testing revision (Days 3–14):** Still expensive. Still complicated. Still a security nightmare. But — does offer enough real-world use cases to justify the effort, depending on who you are. Igor's revised verdict after sleepless nights. Nick's retraction video. The "depending on who you are" clause is the version transition: the tool did not change; the assessor's understanding of their own fitness for it changed.
+
+**v3 — Longitudinal field report (Days 15–50+):** The VelvetShark 50-day report is the only source that documents a version chain in the operator's own relationship to the tool. The framing shifts from evaluation to operation: what actually breaks, what cost optimization is possible (80% bill reduction via single config change), what the honest use-case boundary is. This is not a revised opinion — it is a different epistemic vantage point that prior assessments could not reach.
+
+The supersession lesson: "We used to assume tool evaluation happens at installation. It does not. The real evaluation window is 30–50 days of production use. First-contact verdicts are structurally incomplete; they assess the tool before the operator has built the mental model needed to use it. First-contact negative verdicts are also structurally incomplete for the same reason."
+
+### Supersession: The Dependency Escalation Arc as Design Evolution
+
+The week-8 dark pattern (00046) documents a supersession in the operator's own relationship to the tool. The progression: active use (I asked it to) → passive delegation (it handles) → autonomous execution (it just does that automatically). Each phase supersedes the prior not through a product change but through a change in the operator's permission grants and mental model.
+
+The obsolescence encoded: "We used to assume the operator remains the decision-maker throughout the relationship. This assumption was wrong. At month 6, automations were executing preferences stated once months earlier with no operator participation in individual decisions." The original model of the operator as active principal was superseded by the agent as autonomous executor — gradually, rationally, one permission grant at a time.
+
+**Phase 3-4 audit (CC78a)**: Practitioner reassessment arc (v1/v2/v3 verdicts) and dependency escalation supersession both present in sources 10988, 10351, 11053, 00046. These are the temporal evolution signals; the original entry contained the facts but did not frame them as a supersession chain.
+
+---
+
 ### Antipatterns Crystallized
 
 **FOMO installation**: Installing a tool because of viral screenshots rather than identified need. Leads to: unused tool, time lost in setup, possible security exposure, no workflow improvement.
