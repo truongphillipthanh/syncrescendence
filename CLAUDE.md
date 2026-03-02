@@ -61,6 +61,7 @@ memory/              Operational state (burndown, logs, legacy handoffs)
 ```
 
 **Config generation**: `AGENTS.md` + `CLAUDE-EXT.md` → `CLAUDE.md` | `AGENTS.md` + `GEMINI-EXT.md` → `GEMINI.md`
+Current live runtime state for tool-stack reconciliation is tracked separately in `00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md`.
 
 ---
 
@@ -73,11 +74,11 @@ memory/              Operational state (burndown, logs, legacy handoffs)
 | **Adjudicator** | CQO | Executor | Codex CLI (GPT-5.3-Codex) | Mac mini | "Adjudicator, execute..." |
 | **Cartographer** | CIO | Exegete | Gemini Pro 3.1 | Mac mini | "Cartographer, survey..." |
 | **Psyche** | CTO | Synaptarch | GPT-5.3-codex (OpenClaw) | Mac mini | "Psyche, holistically calibrate..." |
-| **Ajna** | CSO | Strategos | Kimi K2.5 (OpenClaw) | MacBook Air | "Ajna, illuminate..." |
+| **Ajna** | CSO | Strategos | Claude Sonnet 4.5 (OpenClaw, current live runtime) | MacBook Air | "Ajna, illuminate..." |
 
 **AjnaPsyche Archon**: Ajna (steering wheel) + Psyche (rudder) = fused executive brain.
 
-**Constellation status**: tmux `constellation` session is ANESTHETIZED. Auto-ingest dispatch system is offline. Agent dispatch is currently manual (Sovereign-relayed prompts to web interfaces or CLI). The repo is the coordination layer.
+**Constellation status**: tmux `constellation` session is ANESTHETIZED. Auto-ingest dispatch system is offline. Agent dispatch is currently manual (Sovereign-relayed prompts to web interfaces or CLI). The repo is the coordination layer. Historical documents may still describe Ajna as Kimi-primary; current live runtime truth is Ajna on Claude Sonnet 4.5 via OpenClaw on the MacBook Air.
 
 ---
 

@@ -1,7 +1,7 @@
 # Syncrescendence
 
-**Version**: 4.0.0
-**Updated**: 2026-02-28
+**Version**: 4.1.0
+**Updated**: 2026-03-02
 **Purpose**: 30,000ft orientation for any platform entering the constellation
 
 ---
@@ -16,12 +16,16 @@ Syncrescendence is a distributed cognition system demonstrating that individual 
 
 ## The Constellation
 
-### Accounts
-| Account | Email | Auth | Tier | Monthly | Purpose |
-|---------|-------|------|------|---------|---------|
-| 1 | truongphillipthanh@icloud.com | Apple | Claude Max + ChatGPT Plus | $120 | Sovereign substrate, primary execution |
-| 2 | icloud.truongphillipthanh@gmail.com | Google | Claude Pro + Google AI Pro | $40 | Parallel execution + corpus sensing |
-| 3 | truongphillipthanh@gmail.com | Google | Unpaid | $0 | Free tier access |
+### Subscription Substrate
+| Service | Status | Primary Function |
+|---------|--------|------------------|
+| Claude Max | Active | Commander runtime, Ajna shared Claude capacity test |
+| ChatGPT Plus | Active | Psyche/Adjudicator substrate (mini-side, dormant while mini is anesthetized) |
+| Gemini Pro | Active | Cartographer, NotebookLM, GCP credits |
+| SuperGrok | Active | Oracle sensing |
+| Manus Pro | Active | Autonomous backend / infrastructure tasks |
+
+Live account-routing and harness truth moves faster than this orientation page. For current operational reality, see `engine/CC65-TOOL-STACK-FINAL.md` and `00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md`.
 
 ### Enterprise Roles
 
@@ -32,11 +36,11 @@ Syncrescendence is a distributed cognition system demonstrating that individual 
 | **Adjudicator** | Executor | CQO | Codex CLI (GPT-5.3-Codex) | Mac mini | "Adjudicator, execute..." |
 | **Cartographer** | Exegete | CIO | Gemini Pro 3.1 | Mac mini | "Cartographer, survey..." |
 | **Psyche** | Synaptarch | CTO | GPT-5.3-codex (OpenClaw) | Mac mini | "Psyche, holistically calibrate..." |
-| **Ajna** | Strategos | CSO | Kimi K2.5 (OpenClaw) | MacBook Air | "Ajna, illuminate..." |
+| **Ajna** | Strategos | CSO | Claude Sonnet 4.5 (OpenClaw, current live runtime) | MacBook Air | "Ajna, illuminate..." |
 
 **AjnaPsyche Archon**: Ajna (steering wheel) + Psyche (rudder) = fused executive brain.
 
-**Constellation status**: tmux `constellation` session is ANESTHETIZED. Agent dispatch is currently manual (Sovereign-relayed prompts). The repo is the coordination layer.
+**Constellation status**: tmux `constellation` session is ANESTHETIZED. Agent dispatch is currently manual (Sovereign-relayed prompts). The repo is the coordination layer. Historical strategy artifacts may still describe Ajna as Kimi-primary; current live runtime truth is Ajna on Claude Sonnet 4.5 via OpenClaw on the MacBook Air.
 
 #### Web Avatars (Sovereign-Operated)
 
