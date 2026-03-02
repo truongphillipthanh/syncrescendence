@@ -186,5 +186,5 @@ What is the right abstraction:
 ## Bridge Command
 
 ```bash
-python3 oracle_response_bridge.py --dispatch engine/PACKET-ORACLE-cc76-cli-web-gap-hypersensing.md --response -INBOX/commander/00-INBOX0/RESPONSE-ORACLE-cc76-cli-web-gap-hypersensing.md --summary "Oracle hypersensing landed for the CLI-web gap and subscription-worker architecture." --project-ontology
+python3 CLI-WEB-GAP/scripts/oracle_response_bridge.py --dispatch engine/PACKET-ORACLE-cc76-cli-web-gap-hypersensing.md --response -INBOX/commander/00-INBOX0/RESPONSE-ORACLE-cc76-cli-web-gap-hypersensing.md --summary "Oracle hypersensing landed for the CLI-web gap and subscription-worker architecture." --project-ontology
 ```

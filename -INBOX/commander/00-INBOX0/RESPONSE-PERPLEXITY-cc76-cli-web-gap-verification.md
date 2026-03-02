@@ -123,4 +123,4 @@ Based only on currently verified official capabilities:
 
 ***
 
-*Note on return artifact: I cannot execute filesystem operations, run shell commands, or relay files to local paths. The `python3 perplexity_response_bridge.py` command in your packet must be executed in your local environment. This response contains the full verification content intended for that artifact.*
+*Note on return artifact: I cannot execute filesystem operations, run shell commands, or relay files to local paths. The `python3 CLI-WEB-GAP/scripts/perplexity_response_bridge.py` command in your packet must be executed in your local environment. This response contains the full verification content intended for that artifact.*

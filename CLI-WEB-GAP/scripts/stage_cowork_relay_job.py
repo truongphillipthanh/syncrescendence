@@ -11,7 +11,7 @@ import re
 import shutil
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 RELAY_ROOT = REPO_ROOT / "00-ORCHESTRATION" / "relay" / "cowork-v1"
 INBOX_DIR = RELAY_ROOT / "jobs" / "inbox"
 RUNNING_DIR = RELAY_ROOT / "jobs" / "running"

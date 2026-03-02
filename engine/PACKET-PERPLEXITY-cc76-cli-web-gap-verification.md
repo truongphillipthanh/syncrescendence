@@ -108,5 +108,5 @@ Based only on currently official capabilities, which of these now has the strong
 ## Bridge Command
 
 ```bash
-python3 perplexity_response_bridge.py --dispatch engine/PACKET-PERPLEXITY-cc76-cli-web-gap-verification.md --response -INBOX/commander/00-INBOX0/RESPONSE-PERPLEXITY-cc76-cli-web-gap-verification.md --summary "Perplexity verification landed for current official capabilities around the CLI-web gap." --project-ontology
+python3 CLI-WEB-GAP/scripts/perplexity_response_bridge.py --dispatch engine/PACKET-PERPLEXITY-cc76-cli-web-gap-verification.md --response -INBOX/commander/00-INBOX0/RESPONSE-PERPLEXITY-cc76-cli-web-gap-verification.md --summary "Perplexity verification landed for current official capabilities around the CLI-web gap." --project-ontology
 ```

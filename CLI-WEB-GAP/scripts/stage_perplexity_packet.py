@@ -9,7 +9,7 @@ from pathlib import Path
 import re
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 ENGINE_DIR = REPO_ROOT / "engine"
 INBOX_DIR = REPO_ROOT / "-INBOX" / "commander" / "00-INBOX0"
 
@@ -99,7 +99,7 @@ def main() -> int:
             "## Bridge Command",
             "",
             "```bash",
-            f"python3 perplexity_response_bridge.py --dispatch {repo_rel(packet_path)} --response {repo_rel(response_path)} --summary \"<one-line landing summary>\" --project-ontology",
+            f"python3 CLI-WEB-GAP/scripts/perplexity_response_bridge.py --dispatch {repo_rel(packet_path)} --response {repo_rel(response_path)} --summary \"<one-line landing summary>\" --project-ontology",
             "```",
             "",
         ]

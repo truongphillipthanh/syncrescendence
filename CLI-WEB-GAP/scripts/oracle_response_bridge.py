@@ -7,9 +7,14 @@ import argparse
 import json
 from pathlib import Path
 import subprocess
+import sys
+
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from exocortex_event_bridge import (
-    REPO_ROOT,
     emit_event,
     load_policy,
     normalize_repo_paths,

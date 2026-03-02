@@ -73,7 +73,7 @@ Next dispatch (cc76) will generate the concrete harness stubs and IIC binding sc
 **Bridge ready.**  
 Run the provided command to ingest:
 ```bash
-python3 oracle_response_bridge.py --dispatch engine/PACKET-ORACLE-cc75-surface-taxonomy.md --response -INBOX/commander/00-INBOX0/RESPONSE-ORACLE-cc75-surface-taxonomy.md --summary "Surface taxonomy + ownership matrix bounded; constellation ready" --project-ontology
+python3 CLI-WEB-GAP/scripts/oracle_response_bridge.py --dispatch engine/PACKET-ORACLE-cc75-surface-taxonomy.md --response -INBOX/commander/00-INBOX0/RESPONSE-ORACLE-cc75-surface-taxonomy.md --summary "Surface taxonomy + ownership matrix bounded; constellation ready" --project-ontology
 ```
 
 This artifact closes the CC75 gap with zero architectural redesign—only precise, policy-compliant extension.

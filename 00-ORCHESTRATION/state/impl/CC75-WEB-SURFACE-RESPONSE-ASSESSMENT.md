@@ -12,8 +12,8 @@
 
 Both responses were bridged into the event ledger and ontology via:
 
-- [oracle_response_bridge.py](/Users/system/syncrescendence/oracle_response_bridge.py)
-- [perplexity_response_bridge.py](/Users/system/syncrescendence/perplexity_response_bridge.py)
+- [oracle_response_bridge.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/oracle_response_bridge.py)
+- [perplexity_response_bridge.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/perplexity_response_bridge.py)
 
 ---
 

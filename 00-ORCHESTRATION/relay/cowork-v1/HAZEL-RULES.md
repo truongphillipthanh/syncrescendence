@@ -24,7 +24,7 @@ Its job is simple:
 **Run shell script**
 
 ```bash
-/usr/bin/env python3 /Users/system/syncrescendence/finalize_cowork_relay_job.py --status-file "$1" --project-ontology
+/usr/bin/env python3 /Users/system/syncrescendence/CLI-WEB-GAP/scripts/finalize_cowork_relay_job.py --status-file "$1" --project-ontology
 ```
 
 **What this does**

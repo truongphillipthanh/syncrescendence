@@ -110,28 +110,28 @@ channel-surface-bridge-help:
 	@$(PYTHON) channel_surface_bridge.py --help
 
 oracle-packet-help:
-	@$(PYTHON) stage_oracle_packet.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/stage_oracle_packet.py --help
 
 perplexity-packet-help:
-	@$(PYTHON) stage_perplexity_packet.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/stage_perplexity_packet.py --help
 
 notebooklm-packet-help:
-	@$(PYTHON) stage_notebooklm_packet.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/stage_notebooklm_packet.py --help
 
 claude-cowork-packet-help:
-	@$(PYTHON) stage_claude_cowork_packet.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/stage_claude_cowork_packet.py --help
 
 oracle-response-bridge-help:
-	@$(PYTHON) oracle_response_bridge.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/oracle_response_bridge.py --help
 
 perplexity-response-bridge-help:
-	@$(PYTHON) perplexity_response_bridge.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/perplexity_response_bridge.py --help
 
 notebooklm-response-bridge-help:
-	@$(PYTHON) notebooklm_response_bridge.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/notebooklm_response_bridge.py --help
 
 claude-cowork-response-bridge-help:
-	@$(PYTHON) claude_cowork_response_bridge.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/claude_cowork_response_bridge.py --help
 
 youtube-feed-bridge-help:
 	@$(PYTHON) youtube_feed_bridge.py --help
@@ -143,10 +143,10 @@ google-model-bridge-help:
 	@$(PYTHON) google_model_bridge.py --help
 
 cowork-relay-stage-help:
-	@$(PYTHON) stage_cowork_relay_job.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/stage_cowork_relay_job.py --help
 
 cowork-relay-finalize-help:
-	@$(PYTHON) finalize_cowork_relay_job.py --help
+	@$(PYTHON) CLI-WEB-GAP/scripts/finalize_cowork_relay_job.py --help
 
 bootstrap-mini:
 	@bash bootstrap-mac-mini.sh all

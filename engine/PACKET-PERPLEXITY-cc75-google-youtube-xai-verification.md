@@ -40,5 +40,5 @@ Tooling decisions for NotebookLM, Feedcraft, YouTube API, GCP, and xAI depend on
 ## Bridge Command
 
 ```bash
-python3 perplexity_response_bridge.py --dispatch engine/PACKET-PERPLEXITY-cc75-google-youtube-xai-verification.md --response -INBOX/commander/00-INBOX0/RESPONSE-PERPLEXITY-cc75-google-youtube-xai-verification.md --summary "<one-line landing summary>" --project-ontology
+python3 CLI-WEB-GAP/scripts/perplexity_response_bridge.py --dispatch engine/PACKET-PERPLEXITY-cc75-google-youtube-xai-verification.md --response -INBOX/commander/00-INBOX0/RESPONSE-PERPLEXITY-cc75-google-youtube-xai-verification.md --summary "<one-line landing summary>" --project-ontology
 ```

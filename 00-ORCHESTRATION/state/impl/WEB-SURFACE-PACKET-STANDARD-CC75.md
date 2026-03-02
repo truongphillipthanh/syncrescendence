@@ -115,10 +115,10 @@ When a response returns from Oracle or Perplexity:
 
 Wrapper scripts:
 
-- [oracle_response_bridge.py](/Users/system/syncrescendence/oracle_response_bridge.py)
-- [perplexity_response_bridge.py](/Users/system/syncrescendence/perplexity_response_bridge.py)
-- [notebooklm_response_bridge.py](/Users/system/syncrescendence/notebooklm_response_bridge.py)
-- [claude_cowork_response_bridge.py](/Users/system/syncrescendence/claude_cowork_response_bridge.py)
+- [oracle_response_bridge.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/oracle_response_bridge.py)
+- [perplexity_response_bridge.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/perplexity_response_bridge.py)
+- [notebooklm_response_bridge.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/notebooklm_response_bridge.py)
+- [claude_cowork_response_bridge.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/claude_cowork_response_bridge.py)
 
 These wrappers emit:
 
@@ -136,10 +136,10 @@ The emitted event provides the machine-readable bridge into memory and ontology.
 Generation helpers exist for the two initial packet classes:
 Generation helpers exist for the first four packet classes:
 
-- [stage_oracle_packet.py](/Users/system/syncrescendence/stage_oracle_packet.py)
-- [stage_perplexity_packet.py](/Users/system/syncrescendence/stage_perplexity_packet.py)
-- [stage_notebooklm_packet.py](/Users/system/syncrescendence/stage_notebooklm_packet.py)
-- [stage_claude_cowork_packet.py](/Users/system/syncrescendence/stage_claude_cowork_packet.py)
+- [stage_oracle_packet.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/stage_oracle_packet.py)
+- [stage_perplexity_packet.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/stage_perplexity_packet.py)
+- [stage_notebooklm_packet.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/stage_notebooklm_packet.py)
+- [stage_claude_cowork_packet.py](/Users/system/syncrescendence/CLI-WEB-GAP/scripts/stage_claude_cowork_packet.py)
 
 These create repo-native dispatch packets with:
 

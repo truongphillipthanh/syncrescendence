@@ -94,5 +94,5 @@ Based only on current official capabilities:
 ## Bridge Command
 
 ```bash
-python3 perplexity_response_bridge.py --dispatch engine/PACKET-PERPLEXITY-cc76-cli-web-gap-followup.md --response ./-INBOX/commander/00-INBOX0/RESPONSE-PERPLEXITY-cc76-cli-web-gap-followup.md --summary "Perplexity follow-up landed for current official Cowork and Claude in Chrome capabilities." --project-ontology
+python3 CLI-WEB-GAP/scripts/perplexity_response_bridge.py --dispatch engine/PACKET-PERPLEXITY-cc76-cli-web-gap-followup.md --response ./-INBOX/commander/00-INBOX0/RESPONSE-PERPLEXITY-cc76-cli-web-gap-followup.md --summary "Perplexity follow-up landed for current official Cowork and Claude in Chrome capabilities." --project-ontology
 ```

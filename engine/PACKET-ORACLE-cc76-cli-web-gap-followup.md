@@ -125,5 +125,5 @@ Distinguish control UX from truth plane.
 ## Bridge Command
 
 ```bash
-python3 oracle_response_bridge.py --dispatch engine/PACKET-ORACLE-cc76-cli-web-gap-followup.md --response ./-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-cc76-cli-web-gap-followup.md --summary "Oracle follow-up landed for Cowork/Chrome versus custom browser-worker strategy." --project-ontology
+python3 CLI-WEB-GAP/scripts/oracle_response_bridge.py --dispatch engine/PACKET-ORACLE-cc76-cli-web-gap-followup.md --response ./-INBOX/commander/00-INBOX0/RESPONSE-ORACLE-cc76-cli-web-gap-followup.md --summary "Oracle follow-up landed for Cowork/Chrome versus custom browser-worker strategy." --project-ontology
 ```
