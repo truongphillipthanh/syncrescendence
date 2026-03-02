@@ -1,0 +1,148 @@
+# Sub-Agent Architecture
+
+A sub-agent in Claude Code is a genuine agent instance with its own independent context window, agent loop, and tool access — not a function call, not a prompt template, but a separate execution thread that reads files, runs commands, and produces output without consuming tokens in the parent context. This architecture is the primary mechanism by which Claude Code transcends the single-context-window bottleneck. The parent agent delegates a scoped task, the sub-agent executes it in isolation, and only a compact summary returns to the parent thread. Understanding when and how to delegate is the difference between a session that exhausts its context halfway through and one that completes a full feature build with capacity to spare.
+
+---
+
+## Core Architecture
+
+### What Sub-Agents Are
+
+Each sub-agent is a full agent loop: it receives a task description, plans its approach, uses tools (file read/write, bash, grep, glob), iterates on its output, and returns a result. The critical architectural property is **context isolation** — tokens consumed by the sub-agent do not count against the parent's 200K context window. A sub-agent that reads 30 files and produces 50,000 tokens of intermediate reasoning returns perhaps 2,000 tokens of summary to the parent.
+
+This isolation is not merely an optimization. It is an architectural boundary that changes the fundamental economics of agent work. Without sub-agents, every file read, every tool call, every intermediate thought consumes irreplaceable parent context. With sub-agents, these costs are externalized to disposable context windows.
+
+### Built-In Agent Roster
+
+Claude Code ships with several pre-configured sub-agents, each optimized for a specific class of work:
+
+| Agent | Model | Capability | Use Case |
+|-------|-------|------------|----------|
+| **Bash** | Same as parent | Shell command execution | Git operations, terminal tasks, build commands |
+| **General-purpose** | Same as parent | Full tool access (read, write, bash) | Multi-step tasks, complex implementations |
+| **Explore** | Haiku (fast, cheap) | Read-only (search, read) | Codebase analysis, pattern finding, tech stack surveys |
+| **Planning** | Same as parent | Read-only with structured output | Requirements investigation, architectural analysis |
+| **Claude Code Guide** | Same as parent | Documentation access | Feature questions, capability queries |
+
+The model selection is significant: the Explore agent runs on Haiku, making it dramatically cheaper and faster for read-only reconnaissance. Using a full Opus-class agent for codebase scanning is wasteful when Haiku can identify patterns and summarize findings at a fraction of the cost.
+
+### Invocation Patterns
+
+Sub-agents can be invoked through multiple paths:
+
+- **Explicit invocation**: The `@agent-name` syntax directly summons a specific agent
+- **Implicit delegation**: The parent agent decides autonomously to delegate based on task characteristics
+- **Background execution**: `Ctrl+B` launches a sub-agent in the background, freeing the main thread for continued interaction
+- **Parallel dispatch**: Multiple sub-agents launched simultaneously for independent tasks
+
+Background execution deserves emphasis. A background sub-agent runs asynchronously — the operator can continue conversing with the main agent while the background agent works. Results appear when the background agent completes. This transforms the interaction model from sequential (do one thing, wait, do the next) to concurrent (do many things, review results as they arrive).
+
+### The Nesting Constraint
+
+Sub-agents cannot spawn additional sub-agents. This is a deliberate architectural constraint that prevents infinite recursion, unbounded resource consumption, and coordination complexity that would exceed the system's ability to manage. The execution graph is always exactly two levels deep: parent and child. Never parent, child, and grandchild.
+
+This constraint shapes delegation strategy. A sub-agent must be self-sufficient for its assigned task — it cannot further decompose work into sub-sub-tasks. If a task requires hierarchical decomposition, the parent must perform the decomposition and dispatch multiple sub-agents, not delegate the decomposition itself.
+
+---
+
+## Key Insights
+
+### The Decision Tree
+
+Not every task should be delegated. The decision tree for delegation balances context conservation against coordination overhead:
+
+```
+Is the task independent of current conversation state?
++-- NO --> Execute inline (delegation would require re-establishing context)
++-- YES -->
+    Does it require writing/editing files?
+    +-- NO --> Use Explore agent (cheapest, fastest, read-only)
+    +-- YES -->
+        Is it > 5 minutes of estimated work?
+        +-- NO --> Execute inline (coordination overhead exceeds savings)
+        +-- YES -->
+            Can multiple tasks run in parallel?
+            +-- YES --> Fork multiple sub-agents simultaneously
+            +-- NO --> Fork single general-purpose agent
+```
+
+The key branching criterion is **independence from current conversation state**. A task that requires understanding the nuanced discussion that led to the current approach is poorly suited for delegation — the sub-agent would need the full context transferred, defeating the purpose. A task that can be specified by its inputs and expected outputs alone is ideal for delegation.
+
+### Context Economics
+
+The economic case for sub-agents becomes stark in real projects. Consider a feature implementation that requires:
+- Analyzing the existing codebase (30,000 tokens of file reads)
+- Planning the approach (10,000 tokens of reasoning)
+- Implementing the changes (40,000 tokens of writes and iteration)
+- Reviewing the result (15,000 tokens of verification)
+
+Without sub-agents, this consumes 95,000 tokens of parent context — nearly half the nominal limit, well past the effective quality threshold. With sub-agents handling analysis, implementation, and review, the parent might consume 15,000 tokens total (task descriptions + returned summaries), preserving context for subsequent work.
+
+In one documented example, sub-agents consumed 80,000 tokens collectively while the main thread's usage increased by only a few percentage points. The parent retained enough context for extensive follow-up work, bug fixes, and refinements.
+
+### The Coordinator Pattern
+
+The most powerful sub-agent usage pattern positions the parent as a pure coordinator. The parent:
+
+1. Reads the implementation plan
+2. Identifies tasks that can run in parallel
+3. Dispatches Coder sub-agents for each parallel track
+4. Reviews results via Code Reviewer sub-agents
+5. Synthesizes findings and dispatches the next wave
+
+The parent never reads source files directly, never writes code directly, never runs tests directly. Every concrete action is delegated. The parent's context contains only plans, summaries, and coordination decisions — the highest-value, lowest-token information.
+
+This pattern enabled a documented build of a full-featured application (authentication, database integration, UI) while consuming only 58% of the main context window. Without the coordinator pattern, the same build would have exceeded context capacity partway through.
+
+### Custom Agents
+
+Beyond the built-in roster, operators can create custom sub-agents by placing `.md` files in `.claude/agents/`. Each custom agent has:
+- A custom system prompt defining its persona and expertise
+- A specified tool access set (which tools it can use)
+- A model selection (Opus, Sonnet, or Haiku)
+
+This enables domain-specific delegation: a "UI Expert" agent that enforces design system compliance, a "Security Reviewer" that audits for vulnerabilities, a "Database Specialist" that optimizes queries. The custom agent's system prompt acts as a behavioral contract scoped to its domain, analogous to CLAUDE.md but for a single agent persona.
+
+---
+
+## Anti-Patterns and Failure Modes
+
+### Over-Delegation
+
+Delegating tasks that are faster to execute inline than to describe, dispatch, and review. A simple file read or a single command execution has lower overhead when done directly. The coordination cost of sub-agent dispatch (task description, context establishment, summary parsing) creates a minimum viable task size below which delegation is counterproductive.
+
+### Under-Specification
+
+Dispatching a sub-agent with vague instructions ("fix the authentication") and expecting it to infer the parent's full context. Sub-agents start with empty context. Every relevant constraint, file path, convention, and expected outcome must be explicitly stated in the task description. The sub-agent has access to CLAUDE.md (loaded automatically) but not to the parent's conversation history.
+
+### Ignoring the Nesting Constraint
+
+Designing workflows that assume sub-agents can delegate further. This manifests as assigning tasks to sub-agents that are too large for a single agent to complete without decomposition. The parent must decompose such tasks into sub-agent-sized units before dispatching.
+
+### Model Mismatching
+
+Using an Opus-class sub-agent for tasks that Haiku handles well (codebase scanning, pattern matching, simple reviews), or using Haiku for tasks that require deep reasoning (architectural decisions, complex refactoring). The Explore agent exists specifically to provide fast, cheap read-only analysis; using the general-purpose agent for the same task wastes resources and time.
+
+### Serial Where Parallel Is Possible
+
+Dispatching sub-agents one at a time, waiting for each to complete before dispatching the next, when the tasks are independent. The primary throughput advantage of sub-agents is parallelism — three agents working simultaneously complete in the time of one. Sequential dispatch squanders this advantage.
+
+---
+
+## Implications
+
+Sub-agents transform Claude Code from a single-threaded tool into a multi-threaded development environment. The architectural significance extends beyond token conservation: sub-agents enable specialization (different agents for different tasks), parallelism (concurrent execution of independent work), and quality preservation (keeping the main context clean and focused).
+
+For the Syncrescendence constellation, sub-agents are the mechanism by which Commander maintains operational coherence across long sessions. By delegating exploration, implementation, and verification to sub-agents, Commander preserves its context for what only the coordinator can do: hold the strategic thread, maintain the Sovereign's intent, and make routing decisions that require the full conversational history.
+
+The deeper pattern is that sub-agents implement a form of cognitive architecture — a division of mental labor between a supervisory executive (the parent) and specialized workers (the sub-agents). This mirrors the structure of effective human teams and, not coincidentally, the structure of the Syncrescendence constellation itself.
+
+---
+
+## Source Provenance
+
+| Corpus File | Content |
+|-------------|---------|
+| `corpus/claude-code/00025.md` | Sub-agents and background agents — built-in roster, invocation patterns, context economics, coordinator pattern |
+| `corpus/claude-code/08403.md` | Sub-agent delegation guide — decision tree, context annotation, fork/inline/parallel routing |
+| `corpus/claude-code/00212.md` | Agent teams — sub-agent context isolation, CLAUDE.md automatic loading, teammate coordination |
