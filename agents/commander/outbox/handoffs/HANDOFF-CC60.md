@@ -73,6 +73,12 @@ Progressive corpus refinement shifting from structural cleanup to content-level 
 
 **`make configs` verified clean at handoff.**
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Phase 1 (Deduplication) completion — executed the final deduplication layer (141 flat-atom and cross-folder pipeline duplicates removed), declared 22 categories STABLE, and framed the transition to Phases 2-4 (redundancy/obsolescence/supersession as content-level judgment work). Phase 1 mechanical deduplication is complete at this handoff; all subsequent CRUSH work is the holistic fusion operation.
+
 ## Key Files
 
 | File | Purpose |

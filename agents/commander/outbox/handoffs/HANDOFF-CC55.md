@@ -108,6 +108,12 @@ The Sovereign is driving toward VALIDATED clustering before the CRUSH phase. The
 
 6. **NUCLEOSYNTHESIS-MAP.md is the single classification authority.** All pre-clustering files are deleted. The map contains: census, lineage, 122 near-dupe candidates, 5 validation questions, JSONL redundancy status, constitutional constraints.
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Pre-Phase 1 infrastructure — unified 23 scattered classification artifacts into NUCLEOSYNTHESIS-MAP.md (the authority document that Phase 1 deduplication would operate against), validated the 22-folder structure via 3-agent triangulation, and seared agent prompting formulas into constitutional law.
+
 ## Key Files
 
 | File | Purpose |

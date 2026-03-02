@@ -65,6 +65,12 @@ Build a navigable knowledge architecture — a textbook to build the Syncrescend
 
 **SAFE BUILD POINT**: `b7dc773d` (2026-02-28, CC56).
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Pre-Phase 1 completion — synthesized 3-agent validation, executed 961 reclassifications to ensure files were in correct semantic folders, and constitutionally hardened the clustering principle. This was prerequisite cleanup so that Phase 1 deduplication would operate on a correctly classified corpus.
+
 ## Key Files
 
 | File | Purpose |

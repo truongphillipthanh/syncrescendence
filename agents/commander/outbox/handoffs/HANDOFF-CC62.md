@@ -139,6 +139,12 @@ Progressive corpus refinement: content-level judgment applied empirically, with 
 
 **`make configs` verified clean at handoff.**
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Phase 2-4 execution (concept inventory complete) — deployed 12 subagents to scan all 22 folders, producing the complete concept-level map required for holistic fusion. Executed Phase 1.5 (291 operational artifact reclassifications) as discovered prerequisite. Staged Oracle prompt for overlap nomination (the next step toward identifying fusion candidates for Phases 2-4).
+
 ## Key Files
 
 | File | Purpose |

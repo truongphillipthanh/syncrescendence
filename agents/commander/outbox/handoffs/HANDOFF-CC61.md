@@ -130,6 +130,12 @@ Two parallel threads: (1) progressive corpus refinement shifting from structural
 
 **`make configs` verified clean at handoff.**
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Phase 2-4 preparation (methodology) — triangulated Oracle/Cartographer/Sovereign theses on content-level fusion, ran 3 empirical pilots that discovered the "three species of overlap" pattern, and designed the 4-phase scan architecture (concept inventory → overlap nomination → verification → coalescence). This session forged the methodology that Phases 2-4 execution will follow.
+
 ## Key Files
 
 | File | Purpose |

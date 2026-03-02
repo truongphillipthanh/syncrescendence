@@ -75,6 +75,12 @@ Progressive semantic tightening toward a navigable textbook/compendium. The corp
 
 **SAFE BUILD POINT**: `f67c1ddc` (2026-02-28, CC58).
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Prerequisite infrastructure for Phases 2-4 — built Ranganathan faceted subcategory indexes for the 5 largest folders (3,207 files across 30 sub-themes), which provide the concept-level map that holistic fusion requires. Without subcategory indexes, there is no way to identify which files treat the same concept and therefore no way to execute redundancy/obsolescence/supersession fusion.
+
 ## Key Files
 
 | File | Purpose |

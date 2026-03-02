@@ -49,6 +49,12 @@ Complete the CRUSH phases to achieve ~50% corpus reduction. Forensically underst
 
 **SAFE BUILD POINT**: `5efb1d5b` (2026-02-28, CC57).
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Phase 1 (Deduplication) — executed the core deduplication pass: 116 near-duplicate files removed (subset/truncated/formatting-only variants) and 773 redundant Flat JSONL files removed (byte-for-byte identical to Graphiti payload fields). Total 889 files eliminated. This is the mechanical deduplication that precedes the holistic fusion of Phases 2-4.
+
 ## Key Files
 
 | File | Purpose |

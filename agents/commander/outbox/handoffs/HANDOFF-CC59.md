@@ -64,6 +64,12 @@ Progressive semantic tightening. The corpus is now operationally clean (pipeline
 
 **SAFE BUILD POINT**: `498b76f0` (2026-02-28, CC59).
 
+## Doctrine Anchor
+**CRUSH Doctrine**: `AGENTS.md:255` | **Authority Map**: `corpus/NUCLEOSYNTHESIS-MAP.md`
+**Four Phases**: (1) Deduplication → (2) Redundancy → (3) Obsolescence → (4) Supersession
+**Rules**: Phases 2-4 are one holistic fusion operation per concept, not separate passes.
+**This session**: Prerequisite cleanup — reclassified 838 operational artifacts and 170 TASK/CONFIRM/RESULT files to their correct semantic homes, and established the Operational Artifact Routing constitutional amendment. Clean folder contents are a prerequisite for accurate concept-level fusion in Phases 2-4; files in the wrong folder corrupt the within-folder redundancy detection.
+
 ## Key Files
 
 | File | Purpose |
