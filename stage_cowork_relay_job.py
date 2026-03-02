@@ -8,6 +8,7 @@ import json
 from datetime import UTC, datetime
 from pathlib import Path
 import re
+import shutil
 
 
 REPO_ROOT = Path(__file__).resolve().parent
@@ -18,6 +19,8 @@ COMPLETED_DIR = RELAY_ROOT / "jobs" / "completed"
 FAILED_DIR = RELAY_ROOT / "jobs" / "failed"
 ARTIFACTS_IN_DIR = RELAY_ROOT / "artifacts" / "incoming"
 ARTIFACTS_OUT_DIR = RELAY_ROOT / "artifacts" / "outgoing"
+PACKETS_DIR = RELAY_ROOT / "packets"
+ATTACHMENTS_DIR = RELAY_ROOT / "attachments"
 
 
 def utc_now() -> str:
@@ -44,7 +47,7 @@ def normalize_repo_path(value: str) -> str:
 
 
 def ensure_runtime_dirs() -> None:
-    for path in [INBOX_DIR, RUNNING_DIR, COMPLETED_DIR, FAILED_DIR, ARTIFACTS_IN_DIR, ARTIFACTS_OUT_DIR]:
+    for path in [INBOX_DIR, RUNNING_DIR, COMPLETED_DIR, FAILED_DIR, ARTIFACTS_IN_DIR, ARTIFACTS_OUT_DIR, PACKETS_DIR, ATTACHMENTS_DIR]:
         path.mkdir(parents=True, exist_ok=True)
 
 
@@ -74,8 +77,8 @@ def main() -> int:
     if not isinstance(metadata, dict):
         raise SystemExit("--metadata must decode to a JSON object.")
 
-    attachments = [normalize_repo_path(item) for item in args.attachment]
-    for attachment in attachments:
+    attachment_rels = [normalize_repo_path(item) for item in args.attachment]
+    for attachment in attachment_rels:
         attachment_path = REPO_ROOT / attachment
         if not attachment_path.exists():
             raise SystemExit(f"Attachment does not exist: {attachment_path}")
@@ -85,6 +88,20 @@ def main() -> int:
     job_path = INBOX_DIR / f"{job_id}.json"
     if job_path.exists() and not args.force:
         raise SystemExit(f"Job already exists: {job_path}")
+
+    packet_stage_name = f"{job_id}-{packet_path.name}"
+    packet_stage_path = PACKETS_DIR / packet_stage_name
+    shutil.copy2(packet_path, packet_stage_path)
+
+    staged_attachments: list[str] = []
+    if attachment_rels:
+        attachment_stage_dir = ATTACHMENTS_DIR / job_id
+        attachment_stage_dir.mkdir(parents=True, exist_ok=True)
+        for attachment_rel in attachment_rels:
+            source_path = REPO_ROOT / attachment_rel
+            staged_path = attachment_stage_dir / source_path.name
+            shutil.copy2(source_path, staged_path)
+            staged_attachments.append(repo_rel(staged_path))
 
     response_name = Path(response_rel).name
     artifact_path = ARTIFACTS_OUT_DIR / response_name
@@ -97,11 +114,13 @@ def main() -> int:
         "job_type": args.job_type,
         "title": args.title,
         "packet": packet_rel,
+        "packet_staging_path": repo_rel(packet_stage_path),
         "response_artifact": response_rel,
         "response_staging_path": repo_rel(artifact_path),
         "status_path": repo_rel(status_path),
         "summary_for_bridge": args.summary,
-        "attachments": attachments,
+        "attachments": attachment_rels,
+        "attachment_staging_paths": staged_attachments,
         "instructions": args.instruction,
         "metadata": metadata,
     }

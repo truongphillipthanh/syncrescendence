@@ -23,6 +23,8 @@ Runtime queue folders live under:
 - `jobs/running/`
 - `jobs/completed/`
 - `jobs/failed/`
+- `packets/`
+- `attachments/`
 - `artifacts/outgoing/`
 
 These runtime files are intentionally gitignored by a local ignore file in this directory.

@@ -12,7 +12,7 @@ Each job asks you to use the browser to complete a specific web task, then save 
 
 1. Treat the job JSON as authority for the task.
 2. Move the job file from `jobs/inbox/` to `jobs/running/` when you begin.
-3. Read the `packet` file referenced in the job.
+3. Read the `packet_staging_path` file referenced in the job.
 4. Use Claude in Chrome only for the web interaction required by the job.
 5. Save the returned result as markdown to the exact `response_staging_path` from the job.
 6. Do not overwrite unrelated files.
@@ -64,6 +64,7 @@ Hazel can watch this file and trigger finalization automatically.
 - one job per file
 - one response artifact per job
 - one status file per job
+- packet and attachments are already staged locally inside this folder
 
 Do not use a shared document for multiple jobs.
 
