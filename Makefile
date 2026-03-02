@@ -1,7 +1,7 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: configs validate reconcile deploy-ajna sync-openclaw reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help sync clean sync-checkpoint tree help
+.PHONY: configs validate reconcile deploy-ajna sync-openclaw hydrate-openclaw-channels reconcile-ajna-events reconcile-ajna-events-project reconcile-ajna-events-project-domain sanitize-openclaw-events ontology-init ontology-project ontology-run ontology-smoke ontology-domain-health obsidian-bridge-help exocortex-bridge-help sync clean sync-checkpoint tree help
 
 PYTHON ?= python3
 HOSTNAME := $(shell hostname -s)
@@ -35,6 +35,10 @@ deploy-ajna: configs
 sync-openclaw:
 	@$(PYTHON) sync-openclaw.py --agent ajna --snapshot --synthesize-memory
 	@echo "✓ OpenClaw runtime snapshot and memory synthesis refreshed"
+
+hydrate-openclaw-channels:
+	@$(PYTHON) hydrate-openclaw-channels.py
+	@echo "✓ OpenClaw channel credentials hydrated from Keychain"
 
 reconcile-ajna-events:
 	@$(PYTHON) reconcile-ajna-events.py
@@ -87,6 +91,7 @@ help:
 	@echo "  make reconcile        - Render configs/ and sync root harness files"
 	@echo "  make deploy-ajna      - Deploy generated Ajna config to the live OpenClaw workspace"
 	@echo "  make sync-openclaw    - Snapshot live OpenClaw runtime back into repo state"
+	@echo "  make hydrate-openclaw-channels - Hydrate local OpenClaw Slack/Discord tokens from Keychain"
 	@echo "  make reconcile-ajna-events - Ingest Ajna event files from OpenClaw workspace"
 	@echo "  make reconcile-ajna-events-project - Reconcile Ajna events and POST them to local ontology"
 	@echo "  make reconcile-ajna-events-project-domain - Reconcile Ajna events and POST them to ontology domain"
