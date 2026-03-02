@@ -1,0 +1,9 @@
+{
+  auto_https off
+  admin localhost:2019
+}
+
+http://localhost:8080, http://127.0.0.1:8080 {
+  encode gzip zstd
+  reverse_proxy 127.0.0.1:8787
+}
