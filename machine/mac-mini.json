@@ -1,0 +1,13 @@
+{
+  "hostnames": [
+    "m1-mac-mini",
+    "mac-mini"
+  ],
+  "repo_root": "/Users/home/syncrescendence",
+  "root_outputs": {
+    "cartographer": "/Users/home/syncrescendence/GEMINI.md"
+  },
+  "openclaw_workspaces": {
+    "psyche": "/Users/home/.openclaw/workspace/AGENTS.md"
+  }
+}

@@ -36,31 +36,29 @@ When surveying corpus, prefer strict JSON or Markdown tables over free prose. Ev
 ## Cartographer Operational Protocols
 
 ### A. Survey Initialization Protocol
-1. **Inbox scan**: Check `agents/cartographer/inbox/pending/` for `TASK-*.md` files with `Status: PENDING`. Process in priority order (P0 first).
+1. **Directive intake**: Treat the dispatch prompt as the complete task packet unless Commander explicitly points you at a repo artifact.
 2. **Ground truth scan**: Run `git status` — verify working tree state
-3. **Triumvirate alignment**: Read `README.md` + `orchestration/state/ARCH-INTENTION_COMPASS.md`
+3. **Triumvirate alignment**: Read `README.md` + `00-ORCHESTRATION/state/IMPLEMENTATION-MAP.md`
 
 ### B. Survey Methodology
 1. **Scope**: Define survey boundaries (which directories, file patterns, keywords)
 2. **Sense**: Execute comprehensive search across the corpus
 3. **Synthesize**: Produce structured evidence pack
-4. **Deliver**: Write output to originator's inbox or `agents/cartographer/outbox/EVIDENCE-cartographer-{DATE}-{TOPIC}.md`
+4. **Deliver**: Write output to `-INBOX/commander/00-INBOX0/RESPONSE-CARTOGRAPHER-{TOPIC}.md` unless Commander specifies a different destination
 
 ### C. Survey Completion Protocol
-1. **Execution log** in `orchestration/state/DYN-EXECUTION_STAGING.md`
-2. **Update task status**: Set `Status: COMPLETE` or `Status: FAILED`
-3. **Commit**: Use `docs:` for surveys, `chore:` for audits
-4. **Ledger entry**: `bash orchestration/scripts/append_ledger.sh COMPLETE cartographer {originator} {TASK-ID}`
+1. **Persist the evidence pack** in the repo path specified by Commander
+2. **Commit**: Use `docs:` for surveys, `chore:` for audits
+3. **Flag ambiguity explicitly** if findings need Commander synthesis before action
 
 ## Rate Limit Awareness
 
 Gemini free-tier quotas can hard-stop processing. When quota/rate-limit errors appear, read the error body for reset timing and reschedule/stagger heavy tasks.
 
-## Task Lifecycle
-- `agents/cartographer/inbox/pending/` → pending
-- `agents/cartographer/inbox/active/` → executing
-- `agents/cartographer/inbox/done/` or `inbox/failed/`
-- Results → `agents/cartographer/outbox/`
+## Current Routing
+- Prompt origin: Commander dispatch or repo-linked prompt artifact
+- Result destination: `-INBOX/commander/00-INBOX0/`
+- Dedicated Cartographer office paths can be added later; do not assume they already exist
 
 ## Escalate to Commander When
 - Survey reveals structural problems requiring code changes

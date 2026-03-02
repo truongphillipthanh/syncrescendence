@@ -323,3 +323,9 @@ Health check: `ssh -o ConnectTimeout=5 mini hostname` — NEVER use ping (blocke
 4. Handoffs live in ONE place: `agents/commander/outbox/handoffs/HANDOFF-CC{N}{a|b}.md`
 
 ---
+
+---
+# OpenClaw Extensions (Psyche/Ajna)
+
+This section is appended to AGENTS.md via `make configs` to produce platform-specific configs.
+OpenClaw agents (Psyche, Ajna) inherit all AGENTS.md operational law.

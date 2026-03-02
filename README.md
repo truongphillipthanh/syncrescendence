@@ -145,6 +145,6 @@ Health check: `ssh -o ConnectTimeout=5 mini hostname` — NEVER use ping (ICMP b
 | Constitutional law | `AGENTS.md` |
 | Classification authority | `corpus/NUCLEOSYNTHESIS-MAP.md` |
 | Session handoffs | `agents/commander/outbox/handoffs/` |
-| Config generation | `make configs` |
+| Config generation | `make validate`, `make configs`, `make reconcile` |
 
 *This document provides orientation. For operational law, see AGENTS.md.*

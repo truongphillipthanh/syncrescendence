@@ -1,0 +1,22 @@
+[
+  {
+    "agent": "commander",
+    "harness": "claude"
+  },
+  {
+    "agent": "adjudicator",
+    "harness": "codex"
+  },
+  {
+    "agent": "cartographer",
+    "harness": "gemini"
+  },
+  {
+    "agent": "ajna",
+    "harness": "openclaw"
+  },
+  {
+    "agent": "psyche",
+    "harness": "openclaw"
+  }
+]

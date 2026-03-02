@@ -1,28 +1,37 @@
 # Syncrescendence Makefile
 # Standard targets for repository operations
 
-.PHONY: configs sync clean sync-checkpoint tree help
+.PHONY: configs validate reconcile sync clean sync-checkpoint tree help
+
+PYTHON ?= python3
+HOSTNAME := $(shell hostname -s)
 
 # ──────────────────────────────────────────────────────────────
-# Config Generation — Single-source build from AGENTS.md master
+# Config Generation — Rendered + validated from AGENTS.md master
 # ──────────────────────────────────────────────────────────────
 # AGENTS.md is the single source of truth for all operational law.
-# Platform-specific extensions (*-EXT.md) add only platform-native deltas.
-# Generated files (CLAUDE.md, GEMINI.md) are what each CLI auto-loads.
-# Edit AGENTS.md or *-EXT.md, then run: make configs
+# Harness manifests define the thin platform extensions.
+# Machine manifests define where generated configs can safely land.
 
-configs: AGENTS.md CLAUDE-EXT.md GEMINI-EXT.md OPENCLAW-EXT.md
-	@cat AGENTS.md CLAUDE-EXT.md > CLAUDE.md
-	@cat AGENTS.md GEMINI-EXT.md > GEMINI.md
-	@echo "✓ CLAUDE.md generated (AGENTS.md + CLAUDE-EXT.md)"
-	@echo "✓ GEMINI.md generated (AGENTS.md + GEMINI-EXT.md)"
-	@echo "✓ Configs regenerated from single source"
+validate:
+	@$(PYTHON) validate-configs.py --source AGENTS.md --harness-dir harness --machine-dir machine
+
+configs: validate
+	@$(PYTHON) render-configs.py --source AGENTS.md --harness-dir harness --machine-dir machine --output-dir configs --machine "$(HOSTNAME)"
+	@echo "✓ Rendered config tree in configs/"
+
+reconcile: validate
+	@$(PYTHON) render-configs.py --source AGENTS.md --harness-dir harness --machine-dir machine --output-dir configs --machine "$(HOSTNAME)" --sync-root
+	@echo "✓ Root harness files reconciled for $(HOSTNAME)"
+	@echo "i OpenClaw workspace deployment remains manual until repo↔runtime sync lands"
 
 # Default target
 help:
 	@echo "Syncrescendence Repository Commands"
 	@echo ""
-	@echo "  make configs          - Regenerate CLAUDE.md + GEMINI.md from sources"
+	@echo "  make validate         - Validate config sources, manifests, and referenced paths"
+	@echo "  make configs          - Render configs/ from AGENTS.md + harness manifests"
+	@echo "  make reconcile        - Render configs/ and sync root harness files"
 	@echo "  make sync             - Pull, rebase, push"
 	@echo "  make sync-checkpoint  - Quick sync checkpoint (git state)"
 	@echo "  make tree             - Generate current directory tree"
