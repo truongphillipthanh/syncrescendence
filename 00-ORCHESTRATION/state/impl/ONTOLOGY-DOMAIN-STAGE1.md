@@ -9,6 +9,13 @@ As of **March 2, 2026**, `syncrescendence.com` is not yet resolving publicly fro
 
 That means the repo should be **domain-ready** but should not yet switch default event projection away from localhost.
 
+Current local readiness is stronger than the public cutover state:
+
+- local ontology API is healthy on `127.0.0.1:8787`
+- local reverse proxy is healthy on `http://localhost:8080/health`
+- public DNS still does not resolve
+- repo-safe readiness checks are written by `make tooling-surface-status`
+
 ## Role
 
 Stage 1 keeps the domain narrow:
@@ -49,13 +56,19 @@ It avoids premature UI drift while still making the ontology reachable.
 
 2. Put a reverse proxy in front of it using the example Caddyfile in this folder.
 
-3. Confirm:
+3. Refresh the local readiness artifact:
+
+```bash
+make tooling-surface-status
+```
+
+4. Confirm:
 
 ```bash
 curl https://syncrescendence.com/health
 ```
 
-4. Only after stable health:
+5. Only after stable health:
    - point selected automation/event projectors at the domain URL instead of localhost
    - use `make reconcile-ajna-events-project-domain`
 

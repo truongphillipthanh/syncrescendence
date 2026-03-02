@@ -1,0 +1,158 @@
+{
+  "captured_at": "2026-03-02T04:22:55Z",
+  "gcloud": {
+    "cli": {
+      "accounts": [
+        {
+          "account": "icloud.truongphillipthanh@gmail.com",
+          "status": "ACTIVE"
+        }
+      ],
+      "active_account": "icloud.truongphillipthanh@gmail.com",
+      "authenticated": true,
+      "available": true
+    },
+    "keychain": {
+      "attempts": [
+        {
+          "account": "gcloud-account",
+          "created_at": "20260302033740Z",
+          "modified_at": "20260302033740Z",
+          "present": true,
+          "service": "syncrescendence"
+        }
+      ],
+      "name": "gcloud_account",
+      "present": true,
+      "selected": {
+        "account": "gcloud-account",
+        "created_at": "20260302033740Z",
+        "modified_at": "20260302033740Z",
+        "present": true,
+        "service": "syncrescendence"
+      }
+    }
+  },
+  "manus": {
+    "keychain": {
+      "attempts": [
+        {
+          "account": "syncrescendence",
+          "created_at": "20260302040715Z",
+          "modified_at": "20260302040715Z",
+          "present": true,
+          "service": "manus-api-key"
+        }
+      ],
+      "name": "manus_api_key",
+      "present": true,
+      "selected": {
+        "account": "syncrescendence",
+        "created_at": "20260302040715Z",
+        "modified_at": "20260302040715Z",
+        "present": true,
+        "service": "manus-api-key"
+      }
+    },
+    "reachable": true,
+    "response_shape": "dict",
+    "status_code": 200
+  },
+  "ontology": {
+    "domain_dns": {
+      "error": "[Errno 8] nodename nor servname provided, or not known",
+      "resolves": false
+    },
+    "domain_health": {
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "reachable": false
+    },
+    "local_api": {
+      "payload": {
+        "config_snapshot_count": 2,
+        "db_path": "/Users/system/syncrescendence/00-ORCHESTRATION/state/ontology-v1.sqlite3",
+        "entity_count": 4,
+        "event_count": 2,
+        "status": "ok"
+      },
+      "reachable": true,
+      "status_code": 200
+    },
+    "local_proxy": {
+      "payload": {
+        "config_snapshot_count": 2,
+        "db_path": "/Users/system/syncrescendence/00-ORCHESTRATION/state/ontology-v1.sqlite3",
+        "entity_count": 4,
+        "event_count": 2,
+        "status": "ok"
+      },
+      "reachable": true,
+      "status_code": 200
+    }
+  },
+  "wrangler": {
+    "cli": {
+      "account_id": "b76f644c19db95eb0dfc2b6db1e7186d",
+      "account_name": "Icloud.truongphillipthanh@gmail.com's Account",
+      "auth_type": "OAuth Token",
+      "authenticated": true,
+      "available": true,
+      "email": "icloud.truongphillipthanh@gmail.com",
+      "token_permissions": [
+        "account:read",
+        "user:read",
+        "workers:write",
+        "workers_kv:write",
+        "workers_routes:write",
+        "workers_scripts:write",
+        "workers_tail:read",
+        "d1:write",
+        "pages:write",
+        "zone:read",
+        "ssl_certs:write",
+        "ai:write",
+        "ai-search:write",
+        "ai-search:run",
+        "queues:write",
+        "pipelines:write",
+        "secrets_store:write",
+        "containers:write",
+        "cloudchamber:write",
+        "connectivity:admin",
+        "offline_access"
+      ]
+    },
+    "keychain": {
+      "cloudflare_account_id": {
+        "attempts": [
+          {
+            "account": "cloudflare-account-id",
+            "created_at": "20260302033740Z",
+            "modified_at": "20260302033740Z",
+            "present": true,
+            "service": "syncrescendence"
+          }
+        ],
+        "name": "cloudflare_account_id",
+        "present": true,
+        "selected": {
+          "account": "cloudflare-account-id",
+          "created_at": "20260302033740Z",
+          "modified_at": "20260302033740Z",
+          "present": true,
+          "service": "syncrescendence"
+        }
+      },
+      "wrangler_account": {
+        "attempts": [
+          {
+            "error": "security: SecKeychainSearchCopyNext: The specified item could not be found in the keychain.",
+            "present": false
+          }
+        ],
+        "name": "wrangler_account",
+        "present": false
+      }
+    }
+  }
+}
