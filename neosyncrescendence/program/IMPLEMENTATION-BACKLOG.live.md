@@ -70,6 +70,6 @@
 ### Tranche G — Worker-Proof Lineage
 
 1. absorb the first live Cowork/Claude-in-Chrome success run as its own communications and validated-pattern tranche  
-   Status: active
+   Status: completed tranche 04
 2. bind the successful run more tightly to operator and playbook compaction so it becomes a true reusable worker primitive  
    Vocabulary: `validated pattern`, `operator`, `playbook`
