@@ -16,6 +16,7 @@
 - 09598.md — ARC Prize 2025 TRM presentation
 - 10863.md — Mario Zechner thread: agent innovation stagnation, "lethal trifecta"
 - 10918.md — Codex 5.3 vs Opus 4.6 benchmark comparison
+- 01806.md — NeurIPS 2025: signal-to-noise crisis at 20K papers, frontier model convergence, shift from scale to reasoning/efficiency
 
 ## The Structure of Agent Evaluation
 
@@ -76,6 +77,12 @@ Counter-evidence: the Codex vs. Opus comparison (10918) reveals two genuinely di
 SIMA 2 (Google DeepMind) represents evaluation expanding into embodied domains (01284). It demonstrates generalization transfer (applying "mining" from one game to "harvesting" in another), self-improvement through trial-and-error, and reasoning in 3D environments. This aligns with ARC v3's shift toward interactive, environment-based evaluation and represents a pathway toward AGI evaluation in the physical world.
 
 The AlphaFold trajectory (09510, 09519, 09545) provides a reference case: a benchmark problem (protein structure prediction) that was considered a 50-year grand challenge, solved by AI, validated by a Nobel Prize, and now enabling unexpected applications. This arc from benchmark to real-world impact is the aspiration for agent evaluation.
+
+## The Research Methodology Shift (NeurIPS 2025)
+
+NeurIPS 2025 surfaces six shifts most practitioners will miss (01806): (1) New attention mechanisms are making LLMs and agents both cheaper and smarter. (2) Frontier models are converging toward identical responses — a homogenization problem for evaluation diversity. (3) Breakthroughs in reinforcement learning have significant implications for robotics and automation evaluation. (4) Major labs are shifting focus from increasing model size to improving reasoning and efficiency — the scaling-to-reasoning pivot. (5) The conference itself faces a signal-to-noise crisis at 20,000 submissions with corporate trade-show noise burying genuine breakthroughs (01806). (6) Operators should develop their own filters for identifying real advances rather than trusting conference brands.
+
+The model convergence finding is particularly relevant for evaluation: if frontier models produce increasingly identical outputs, benchmarks that compare models against each other lose discriminative power. Evaluation must shift toward measuring what models do differently — creative solutions, edge-case handling, and failure modes — rather than average performance on common tasks.
 
 ## Practical Eval Development Roadmap
 
