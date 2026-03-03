@@ -1,0 +1,8 @@
+{
+  "label": "before-full-sigma-oracle-executor-handoff",
+  "source": "/Users/system/Desktop/syncrescendence-before-full/05-SIGMA/practice/PRAC-oracle_to_executor_handoff.md",
+  "destination": "/Users/system/syncrescendence/pedigree/rehoused/before-full/05-SIGMA/practice/PRAC-oracle_to_executor_handoff.md",
+  "dest_rel": "pedigree/rehoused/before-full/05-SIGMA/practice/PRAC-oracle_to_executor_handoff.md",
+  "reason": "preserve original sigma oracle handoff source before compaction into live validated pattern",
+  "timestamp_utc": "20260303T062200Z"
+}

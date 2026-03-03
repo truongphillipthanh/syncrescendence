@@ -1,0 +1,8 @@
+{
+  "label": "before-full-frontmatter-template",
+  "source": "/Users/system/Desktop/syncrescendence-before-full/04-SOURCES/FRONTMATTER_TEMPLATE.md",
+  "destination": "/Users/system/syncrescendence/knowledge/feedstock/protocols/legacy-sources/FRONTMATTER-TEMPLATE.from-before-full.md",
+  "dest_rel": "knowledge/feedstock/protocols/legacy-sources/FRONTMATTER-TEMPLATE.from-before-full.md",
+  "reason": "preserve source frontmatter contract as feedstock protocol seed",
+  "timestamp_utc": "20260303T062200Z"
+}

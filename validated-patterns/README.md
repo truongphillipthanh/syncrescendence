@@ -9,6 +9,7 @@ Current contents emphasize:
 - office work rhythms
 - routing doctrine
 - quality evaluation
+- automation lifecycle discipline
 - orientation surfaces
 
 These are staging precedents, not immutable law.

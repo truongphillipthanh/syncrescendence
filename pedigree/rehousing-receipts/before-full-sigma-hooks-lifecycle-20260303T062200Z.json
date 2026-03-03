@@ -1,0 +1,8 @@
+{
+  "label": "before-full-sigma-hooks-lifecycle",
+  "source": "/Users/system/Desktop/syncrescendence-before-full/05-SIGMA/mechanics/MECH-hooks_lifecycle_automation.md",
+  "destination": "/Users/system/syncrescendence/pedigree/rehoused/before-full/05-SIGMA/mechanics/MECH-hooks_lifecycle_automation.md",
+  "dest_rel": "pedigree/rehoused/before-full/05-SIGMA/mechanics/MECH-hooks_lifecycle_automation.md",
+  "reason": "preserve original sigma hooks source before compaction into live validated pattern",
+  "timestamp_utc": "20260303T062200Z"
+}

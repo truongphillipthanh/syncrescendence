@@ -145,3 +145,14 @@
    Status: completed tranche 01
 4. derive future intake and compaction rules so new research enters `knowledge/feedstock/` lawfully  
    Vocabulary: `knowledge lane`, `feedstock`, `reference substrate`, `compaction`
+
+### Tranche O — Sources and Sigma Retrofit
+
+1. split predecessor `sources` from `05-SIGMA` instead of forcing both into one lane  
+   Status: tranche 02 completed
+2. preserve source-ingestion protocol specimens inside `knowledge/feedstock/`  
+   Status: tranche 02 completed
+3. preserve high-value Sigma originals in pedigree, then compact the strongest seeds into live validated patterns  
+   Status: tranche 02 active
+4. continue deciding which Sigma material should promote into `validated-patterns/` versus `playbooks/`  
+   Vocabulary: `validated pattern`, `feedstock`, `playbook`, `pedigree`

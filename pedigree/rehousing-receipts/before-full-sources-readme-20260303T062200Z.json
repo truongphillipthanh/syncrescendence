@@ -1,0 +1,8 @@
+{
+  "label": "before-full-sources-readme",
+  "source": "/Users/system/Desktop/syncrescendence-before-full/04-SOURCES/README.md",
+  "destination": "/Users/system/syncrescendence/knowledge/feedstock/protocols/legacy-sources/README.from-before-full.md",
+  "dest_rel": "knowledge/feedstock/protocols/legacy-sources/README.from-before-full.md",
+  "reason": "preserve legacy source-ingestion protocol scaffold inside live feedstock lane",
+  "timestamp_utc": "20260303T062200Z"
+}
