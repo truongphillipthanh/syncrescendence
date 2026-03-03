@@ -8,6 +8,7 @@
 - `corpus/productivity-pkm/09848.md` — How to Change Your Life in 2026 with Reverse Goal Setting
 - `corpus/productivity-pkm/09909.md` — BUDDHA vs New Year RESOLUTIONS: Why Your 2026 Goals Are Already Dead
 - `corpus/productivity-pkm/03808.jsonl` — Atom: Herbert Simon 1971 on information scarcity predicting attention economy
+- `corpus/productivity-pkm/04143.md` — "Scar tissue" as operational knowledge: reality as moat, experience that cannot be compressed
 
 ## Core Thesis
 Focus is an engineering problem, not a willpower problem (00076, 10067). The dominant cultural model treats focus as a moral virtue — disciplined people focus, undisciplined people scroll. The engineering model reframes focus as the output of a system: environment design, energy management, cognitive load management, and task architecture. The key insight from 09626/01770 is that daily output variance is mathematically normal — bad days are not failures but expected values in a distribution. Blaming yourself for statistical noise is a category error that degrades the system by adding guilt overhead.
@@ -29,7 +30,10 @@ The Buddhist critique of New Year's resolutions: goal-setting that depends on fu
 ### 5. Attention Scarcity (03808)
 Herbert Simon in 1971: "A wealth of information creates a poverty of attention." This predicted the entire attention economy. In 2026, the information wealth has compounded by orders of magnitude. The bottleneck has shifted from "not enough information" to "not enough attention to process the information available." Focus engineering is the response to Simon's prediction.
 
-### 6. Stop Trying To Work Harder (10067)
+### 6. Scar Tissue as Operational Knowledge (04143)
+"Scar tissue" is knowledge that can only be acquired by operating within a constantly changing system — learning from unexpected problems and adaptations in a coupled, shifting environment where the current state is not self-explanatory. This knowledge cannot be studied or rushed; it is earned through operation. In a world where building software becomes essentially free, traditional moats (scale advantages, proprietary datasets, integration complexity, network effects) dissolve. What persists as competitive advantage is scar tissue — operational knowledge earned by running real systems under real conditions. The corollary "to simulate is to operate" suggests that a simulation accurate enough to surface new failure modes effectively becomes the system itself. This connects directly to the focus engineering thesis: scar tissue accumulates through sustained deep engagement with real systems, not through passive consumption or AI-mediated shortcuts. It is the experiential residue that no amount of information can substitute.
+
+### 7. Stop Trying To Work Harder (10067)
 The direct challenge to effort-based productivity. Working harder within a broken system produces marginal gains with diminishing returns. Working smarter — redesigning the system — produces step-function improvements. The claim is that most productivity advice is effort-optimization when it should be system-optimization.
 
 ## Synthesis
