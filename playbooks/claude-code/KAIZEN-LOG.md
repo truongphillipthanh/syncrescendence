@@ -55,3 +55,25 @@ Use this file to record compacted lessons that improve the Claude Code playbook.
   - Delegate bounded, independent exploration and return compact summaries.
 - **Promotion target**
   - playbook doctrine
+
+### 2026-03-02 — The harness is the product
+
+- **Source lineage**
+  - [20260303-20260301-x-article-agent-harness-is-the-real-product-hxlfed14.md](/Users/system/syncrescendence/knowledge/feedstock/inbox/20260303-20260301-x-article-agent-harness-is-the-real-product-hxlfed14.md)
+- **Observed pattern or failure**
+  - Model identity gets overemphasized while the real performance deltas come from loop design, tool choice, and context shaping.
+- **Compacted lesson**
+  - Claude Code should be tuned and judged as a harness, not just as a model endpoint.
+- **Promotion target**
+  - playbook doctrine
+
+### 2026-03-02 — Context engineering beats bigger context windows
+
+- **Source lineage**
+  - [20260303-20260215-x-article-how-top-ai-companies-handle-context-engineering-hxlfed14.md](/Users/system/syncrescendence/knowledge/feedstock/inbox/20260303-20260215-x-article-how-top-ai-companies-handle-context-engineering-hxlfed14.md)
+- **Observed pattern or failure**
+  - Bigger windows tempt indiscriminate loading, but production systems improve more from better staging than from more tokens.
+- **Compacted lesson**
+  - Progressive disclosure, file-backed state, and bounded retrieval should remain default shell doctrine even as context limits expand.
+- **Promotion target**
+  - playbook doctrine

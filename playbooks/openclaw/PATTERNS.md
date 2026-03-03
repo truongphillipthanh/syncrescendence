@@ -73,3 +73,17 @@ Why it works:
 - preserves useful continuity
 - avoids always-on context bloat
 - keeps the workspace from becoming a second canon
+
+### 9. Runtime harness quality matters more than provider prestige
+
+Treat OpenClaw’s value as a function of:
+- runtime health
+- tool curation
+- browser/channel fit
+- memory discipline
+- event reconciliation
+
+Why it works:
+- keeps repair work focused on the actual control surfaces
+- prevents account/provider churn from masquerading as architecture
+- aligns runtime effort with harness reality

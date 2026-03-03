@@ -55,3 +55,14 @@ Use this file to record compacted lessons that improve the OpenClaw playbook.
   - Durable state changes should emit structured events that reconcile into repo memory and ontology.
 - **Promotion target**
   - operator
+
+### 2026-03-02 — Harness quality dominates runtime quality
+
+- **Source lineage**
+  - [20260303-20260301-x-article-agent-harness-is-the-real-product-hxlfed14.md](/Users/system/syncrescendence/knowledge/feedstock/inbox/20260303-20260301-x-article-agent-harness-is-the-real-product-hxlfed14.md)
+- **Observed pattern or failure**
+  - It is easy to over-attribute success or failure to the provider/model when the runtime harness is the more important variable.
+- **Compacted lesson**
+  - Improve OpenClaw by tightening runtime scaffolding, state discipline, and operator fit before reaching for new model/provider swaps.
+- **Promotion target**
+  - playbook doctrine

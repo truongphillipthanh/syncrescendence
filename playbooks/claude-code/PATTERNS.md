@@ -98,3 +98,26 @@ Compact them into:
 Why it works:
 - converts repeated effort into institutional capability
 - keeps the shell antifragile under capability shifts
+
+### 11. The harness is the product
+
+Treat model choice as subordinate to harness quality:
+- execution loop
+- tool surface
+- context staging
+- error handling
+- trust boundary
+
+Why it works:
+- avoids model-shopping as false progress
+- focuses design on the real throughput and quality levers
+- aligns shell investment with what production evidence actually shows
+
+### 12. Smarter context beats larger context
+
+Prefer progressive disclosure, pointer-rich files, and staged retrieval over stuffing more into the thread up front.
+
+Why it works:
+- lowers context rot
+- preserves high-attention tokens for what matters now
+- keeps the harness usable as capability ceilings keep shifting

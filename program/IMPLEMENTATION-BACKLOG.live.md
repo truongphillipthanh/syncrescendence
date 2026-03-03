@@ -166,4 +166,6 @@
 3. prove intake with real shell-relevant artifacts rather than empty scaffolding  
    Status: tranche 01 completed
 4. compact future feedstock into references, canon, playbooks, or patterns with explicit lineage  
-   Vocabulary: `feedstock`, `receipt`, `compaction`, `reference substrate`
+   Status: tranche 01 active
+5. prove feedstock-to-playbook compaction with the Hxlfed harness/context-engineering line  
+   Status: tranche 01 completed
