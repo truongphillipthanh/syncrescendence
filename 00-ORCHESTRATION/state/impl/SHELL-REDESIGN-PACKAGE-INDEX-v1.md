@@ -59,6 +59,9 @@
 17. [PLAYBOOK-COMPACTION-CANDIDATES-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PLAYBOOK-COMPACTION-CANDIDATES-v1.md)  
    Ranking of the first harness and surface playbooks that should be institutionalized.
 
+18. [NOOSPHERIC-DESIGN-LENSES-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/NOOSPHERIC-DESIGN-LENSES-v1.md)  
+   Macroscopic and metascopic design invariants drawn from broader theory and engineering lenses.
+
 ---
 
 ## Current Status
@@ -83,10 +86,10 @@ The first executable derivative now exists:
 
 ## Next Logical Derivations
 
-1. target physical lane charters / README files
-2. first migration tranche implementation beyond inventory mode
-3. first playbook compaction pass
-4. first lane-charter physicalization
+1. first migration tranche implementation beyond inventory mode
+2. first playbook compaction pass
+3. first write redirections into successor lanes
+4. first warn-only validator pass
 
 ---
 

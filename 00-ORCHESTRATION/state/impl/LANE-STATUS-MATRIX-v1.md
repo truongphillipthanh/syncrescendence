@@ -112,6 +112,16 @@
   - implementation outputs
   - shell redesign package
 
+## Successor charter lanes
+
+- [communications](/Users/system/syncrescendence/communications): `live-transitional`
+- [playbooks](/Users/system/syncrescendence/playbooks): `live-transitional`
+- [operators](/Users/system/syncrescendence/operators): `live-transitional`
+- [executive](/Users/system/syncrescendence/executive): `live-transitional`
+- [program](/Users/system/syncrescendence/program): `live-transitional`
+
+These now exist physically as tranche-01 charter lanes, but they are not yet the dominant write surfaces for most live workflows.
+
 ## `canon/`
 
 **Status**
