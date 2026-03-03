@@ -45,6 +45,16 @@
 - 03321.md — Meta +10%, Microsoft -10%, Tesla dynamics
 - 03133.jsonl, 03769.jsonl, 01246.jsonl, 01918.jsonl, 01951.jsonl, 02959.jsonl — Various market/investment atoms
 - 09633.md, 09700.md, 09807.md, 10081.md — GPT-5.2, Groq acquisition, CES tech
+- 01206.md — Solana/crypto-AI convergence: machine-to-machine payments, stablecoin legislation ($1-10T)
+- 01263.md — Inclusion AI: trillion-parameter models in 8 months, DeepSeek catalyzing China lab formation wave
+- 01875.md — Benedict Evans: AI platform shift tension between potential and everyday adoption gap
+- 02004.md — Intel Arizona 18A fab: US chip repatriation, no external customers yet, govt 10% stake
+- 02532.md — Howard Lutnick: 6% GDP growth forecast, CHIPS Act revamp with Nvidia deal
+- 03360.md — Value concentration at bottlenecks not abundance, $4.5T implementation-dependent, trust deficit
+- 03516.md — SpaceX/xAI merge: AI infrastructure in space, corporate consolidation blueprint
+- 01204.jsonl — Stablecoin legislation enabling $1-10T digital dollars, Solana execution layer
+- 01216.jsonl — X replacing legacy heuristics with Grok-driven recommendations
+- 01705.jsonl — ARK major liquidity turn thesis, potential strongest bull market
 
 ## The Compute Arms Race
 
@@ -99,6 +109,30 @@ Current AI talent shortage is temporary — China's Deepseek/Qwen teams suggest 
 Anthropic: 85% enterprise revenue, safety as competitive advantage, 10x annual revenue growth for three straight years (09999). OpenAI: consumer-heavy model, moving toward enterprise. The enterprise bet requires different trust architecture than consumer products.
 
 Insurers seeking to exclude AI risk from coverage amid growing litigation (09524). This signals that the insurance industry — which prices risk professionally — sees AI as creating systemic, correlated loss scenarios that current models cannot price.
+
+## Crypto-AI Convergence and Machine-to-Machine Payments
+
+Stablecoin legislation is projected to enable $1-10 trillion in digital dollars over the next 5 years (01204). This intersects with AI economics directly: as AI agents become autonomous economic actors, they need payment rails. Solana positions itself as the "execution" layer (real-time, cheap, composable) vs Bitcoin's "store of value" and Ethereum's "settlement" (01206). The thesis: as intelligence costs drop, more markets become viable because markets require intelligence — leading to an exponential explosion of market-based decision-making (01206). Machine-to-machine payments on permissionless blockchains are the financial infrastructure for the agentic economy.
+
+## New Lab Formation Dynamics
+
+Inclusion AI developed and released trillion-parameter models in eight months (01263), demonstrating that the barrier to frontier AI lab formation has collapsed. The "DeepSeek moment" catalyzed a wave of new research labs across China (01263). Richard Bian's "model as product" vision treats foundation models like OS kernels enabling new application categories (01263). This accelerates the competitive dynamics: more labs means more compute demand, faster capability advancement, and less concentration of AI power in the original frontier labs.
+
+## Semiconductor Manufacturing Repatriation
+
+Intel's Arizona fab is in high-volume production of its 18A node, aiming to compete with TSMC and repatriate advanced chip manufacturing to the US (02004). However, no major external customers are utilizing the node yet — Intel faces significant trust deficits from past delays (02004). Intel has received billions from Nvidia, SoftBank, and the US government, with the latter taking a 10% stake (02004). The CHIPS Act was revamped under the Trump administration with a deal involving Nvidia (02532). This represents the supply-side counterpart to the compute arms race: even with massive investment, building foundry trust takes years, and TSMC's dominance persists as the AI boom brake (10449).
+
+## The Bottleneck Thesis
+
+Value concentration is determined by bottlenecks, not by abundance (03360). The projected $4.5 trillion in AI productivity gains are entirely dependent on successful implementation — physical infrastructure limitations are restricting hyperscaler expansion (03360). A "trust deficit" impacts coordination in an environment increasingly filled with synthetic content (03360). Individual bottlenecks are shifting from traditional skills to taste and judgment (03360). For builders and operators, the strategic focus should be on identifying and solving scarce resource bottlenecks rather than anticipating abundance.
+
+## Corporate Consolidation: The SpaceX/xAI Merger
+
+The SpaceX/xAI merger represents a blueprint for the next decade's tech race — combining satellite infrastructure with AI capabilities (03516). Musk's vision of AI infrastructure in space could dwarf terrestrial data centers (03516). This is vertical integration at civilizational scale: compute + connectivity + launch capacity under one entity.
+
+## Macro Liquidity and Bull Market Thesis
+
+ARK believes a major liquidity turn from both fiscal and monetary policy is imminent, projecting lower inflation and potentially one of the strongest bull markets to date (01705). Commerce Secretary Lutnick has forecast 5-6% US GDP growth in 2026 (02532). These macro conditions, if realized, would amplify the AI infrastructure investment cycle rather than constrain it.
 
 ## Antipatterns & Lessons
 - **Treating compute as utility**: When compute is 15-30% of OpEx, it is a strategic weapon, not an IT cost (00199).
