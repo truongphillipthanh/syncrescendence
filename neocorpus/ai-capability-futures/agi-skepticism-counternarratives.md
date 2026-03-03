@@ -14,6 +14,7 @@
 - 01968.md — "Actual Bottleneck in Research": SSIs, mystique
 - 09729.md — "AI is Outsmarting Us"
 - 02124.md — Ross Douthat: "A Hard Time We Had of It"
+- 02211.md — Terry Tao: LLM mechanics are simple but performance prediction is hard, verification/proof assistants essential, AI useful for idea generation and literature recall
 
 ## The Tool-Shaped Objects Thesis
 
@@ -46,6 +47,16 @@ Israetel (08479) provides the strongest counter to embodiment requirements: "If 
 On the Chinese Room: "The system as a whole — the person plus the rules plus the room — does understand Chinese in a functional sense." On knowledge vs experience: "Most physicists have never directly detected a neutrino either. They learn about them through theoretical frameworks." A psychologist who has never experienced depression can still effectively treat patients.
 
 Cronin (09905) represents the opposite pole: a working chemist who argues current AI is fundamentally different from intelligence, that P(doom) is nonsense, and that AI leaders are delusional about timelines. The chemist's critique carries weight precisely because it comes from someone working at the interface of digital and physical — where the gap between AI capability and real-world impact is most visible.
+
+## The Mathematician's Skepticism
+
+Terry Tao (02211) — the world's most prominent living mathematician — offers a distinctive skeptic position that is neither dismissal nor alarm. His key observations:
+
+- **Simplicity-performance gap**: "The mechanics of Large Language Models are simple, but predicting their performance is difficult" (02211). This is a precise epistemological claim: we understand the architecture but cannot predict what it will and will not do. The gap between mechanistic understanding and behavioral prediction is itself the unsolved problem.
+- **Verification as the binding constraint**: LLMs "can sound convincing even when their output is unreliable" (02211). For mathematics — and by extension any domain where correctness matters more than plausibility — verification and proof assistants are essential for AI to contribute real progress. The failure mode is not that AI is wrong but that it is wrong while sounding right.
+- **AI as cognitive tool, not cognitive replacement**: Tao endorses AI for "idea generation and literature recall" (02211) — the grunt work of creative research. Teaching in the AI era requires focusing on verification and critical evaluation, not generation. This positions AI as a powerful instrument that amplifies human judgment rather than replacing it.
+
+Tao's position converges with Buehler's discovery limitation (00147) from a different angle: both identify the gap between fluent output and reliable reasoning as the structural bottleneck, but where Buehler frames it as a paradigm-shift limitation, Tao frames it as a verification problem that proof assistants may eventually solve.
 
 ## The Normalization Critique
 
