@@ -15,7 +15,7 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parent
-STATE_DIR = REPO_ROOT / "00-ORCHESTRATION" / "state"
+STATE_DIR = REPO_ROOT / "orchestration" / "state"
 DB_PATH = STATE_DIR / "ontology-v1.sqlite3"
 SCHEMA_PATH = REPO_ROOT / "ontology_v1_schema.sql"
 LEDGER_PATH = REPO_ROOT / "memory" / "AJNA-EVENT-LEDGER.jsonl"

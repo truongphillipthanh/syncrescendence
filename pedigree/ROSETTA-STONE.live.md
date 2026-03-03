@@ -85,7 +85,7 @@
 - **definition**: the artifact-class rules that separate prompts, responses, handoffs, logs, retros, and assessments
 - **status**: live
 - **aliases**: dispatch lineage law
-- **operational use**: held in [COMMUNICATIONS-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/COMMUNICATIONS-LAW-v1.md)
+- **operational use**: held in [COMMUNICATIONS-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/COMMUNICATIONS-LAW-v1.md)
 
 ### repo sovereignty
 

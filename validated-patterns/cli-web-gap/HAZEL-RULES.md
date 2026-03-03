@@ -14,7 +14,7 @@ Its job is simple:
 
 **Folder watched**
 
-- `00-ORCHESTRATION/relay/cowork-v1/artifacts/outgoing/`
+- `orchestration/relay/cowork-v1/artifacts/outgoing/`
 
 **Match**
 
@@ -67,7 +67,7 @@ So this rule is optional and low priority.
 
 **Folder watched**
 
-- `00-ORCHESTRATION/relay/cowork-v1/jobs/inbox/`
+- `orchestration/relay/cowork-v1/jobs/inbox/`
 
 **Match**
 

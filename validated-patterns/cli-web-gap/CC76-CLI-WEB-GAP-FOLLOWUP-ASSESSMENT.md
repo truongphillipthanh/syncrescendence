@@ -142,7 +142,7 @@ That is now a falsifiable build sequence rather than a conceptual discussion.
 
 On 2026-03-02, the first live Perplexity round-trip succeeded through the v1 relay:
 
-- Cowork was grounded to `00-ORCHESTRATION/relay/cowork-v1`
+- Cowork was grounded to `orchestration/relay/cowork-v1`
 - Claude in Chrome submitted the staged Perplexity packet
 - Cowork wrote the returned markdown and status JSON into the relay folder
 - Hazel detected the status file and ran the finalization script

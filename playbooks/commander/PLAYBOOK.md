@@ -4,8 +4,8 @@
 **Class**: office playbook  
 **Authority chain**: constitution -> executive -> program -> office law -> commander office  
 **Primary sources**:
-- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/OFFICE-LAW-v1.md)
-- [OFFICES-LAYOUT-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/OFFICES-LAYOUT-v1.md)
+- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICE-LAW-v1.md)
+- [OFFICES-LAYOUT-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICES-LAYOUT-v1.md)
 - [offices/commander](/Users/system/syncrescendence/offices/commander)
 
 ## What This Office Is For

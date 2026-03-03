@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent
-STATE_DIR = REPO_ROOT / "00-ORCHESTRATION" / "state"
+STATE_DIR = REPO_ROOT / "orchestration" / "state"
 REMOTE = "mini"
 REMOTE_REPO = "/Users/home/syncrescendence"
 REMOTE_WORKSPACE = "/Users/home/.openclaw/workspace/AGENTS.md"

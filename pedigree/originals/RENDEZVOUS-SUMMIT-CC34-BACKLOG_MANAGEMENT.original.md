@@ -19,42 +19,42 @@ Syncrescendence maintains **9 distinct backlog systems** across 4 directories, c
 ## II. THE 9 BACKLOG SYSTEMS
 
 ### System 1: Intention Archaeology Compass
-- **File**: `orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md`
+- **File**: `orchestration/orchestration/state/ARCH-INTENTION_COMPASS.md`
 - **Items**: ~80 active intentions + 62 archived
 - **Last updated**: 2026-02-24 (2 days stale)
 - **Granularity**: Strategic — Sovereign wants, not engineering tasks
 - **Assessment**: See RENDEZVOUS-SUMMIT-CC34-INTENT_COMPASS_MANAGEMENT.md
 
 ### System 2: Deferred Commitments Register
-- **File**: `orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md`
+- **File**: `orchestration/orchestration/state/DYN-DEFERRED_COMMITMENTS.md`
 - **Items**: 79 (46 DONE, 2 READY, 2 OPEN, 23 PARKED, 6 SUPERSEDED)
 - **Last updated**: ~2026-02-24
 - **Granularity**: Operational — phased work packages mapped to agents
 - **Assessment**: The most functional backlog. Phase-gated, agent-assigned, status-tracked. 58% delivery rate. But 23 PARKED items are a graveyard of good ideas with no reactivation criteria.
 
 ### System 3: Implementation Backlog
-- **File**: `orchestration/00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md`
+- **File**: `orchestration/orchestration/state/IMPLEMENTATION-BACKLOG.md`
 - **Items**: **441 lines, ~157 IMPL-IDs** across Tranches A-Q
 - **Last updated**: 2026-02-16 (9 days stale)
 - **Granularity**: Tactical — specific engineering tasks with P0-P3 priority
 - **Assessment**: **The largest and most neglected backlog.** Created during Sessions 14-17 (the research/audit phase), it represents the complete universe of engineering work identified during deep inspections. Approximately **0 IMPL items have been formally completed** — work was done but tracked through DCs instead. The IMPL backlog was never reconciled with DCs. Many IMPL items are now superseded by DC work (e.g., IMPL-Q-0029 auto_ingest_loop matches DC-208-4), but neither system knows this.
 
 ### System 4: Operational Backlog
-- **File**: `orchestration/00-ORCHESTRATION/state/DYN-BACKLOG.md`
+- **File**: `orchestration/orchestration/state/DYN-BACKLOG.md`
 - **Items**: 23 projects, 7 Sovereign personal items, research pipeline, desktop queue, scope expansion horizon
 - **Last updated**: 2026-02-10 (15 days stale)
 - **Granularity**: Mixed — projects, personal items, content queues
 - **Assessment**: **The original backlog, now a time capsule.** Last refreshed Feb 10. Contains stale project statuses (PROJ-006b at "60%" — unclear if still accurate), a Sovereign personal queue (IEETC interview was Feb 10), and a dependency graph that hasn't been updated through the CC22-CC34 transformation. Useful as archaeology; dangerous as operational guidance.
 
 ### System 5: Projects CSV
-- **File**: `orchestration/00-ORCHESTRATION/state/DYN-PROJECTS.csv`
+- **File**: `orchestration/orchestration/state/DYN-PROJECTS.csv`
 - **Items**: 31 projects (17 complete, 5 active/in-progress, 4 not_started, 3 blocked)
 - **Last updated**: 2026-02-10
 - **Granularity**: Project-level — initiative tracking
 - **Assessment**: Reasonable historical record. But statuses are 15 days stale. PROJ-LINEAR says "75%" — it may be higher or abandoned by now. No project exists for the CC28-CC34 work (atom pipeline, protease, certescence vault, handoff protocol).
 
 ### System 6: Tasks CSV
-- **File**: `orchestration/00-ORCHESTRATION/state/DYN-TASKS.csv`
+- **File**: `orchestration/orchestration/state/DYN-TASKS.csv`
 - **Items**: 62+ tasks (all Oracle 8-11 era, Jan 2-8 2026)
 - **Last updated**: 2026-01-08 (~48 days stale)
 - **Granularity**: Task-level — individual work items
@@ -68,7 +68,7 @@ Syncrescendence maintains **9 distinct backlog systems** across 4 directories, c
 - **Assessment**: Commander's active inbox has **74 unprocessed items** — TASK files, RESULT files, CONFIRM files, BRIEFING files dating back to Feb 9. These were bulk-moved from pending to active during CC24's inbox cleanup (DA-4: "move ALL to done/") but evidently 74 items were moved to active instead. They represent unacknowledged work: results from adjudicator, cartographer, and oracle that were never formally processed.
 
 ### System 8: Content Processing Queues
-- **Location**: `orchestration/00-ORCHESTRATION/state/queues/QUEUE-*.md` (6 files) + duplicates in `engine/02-ENGINE/` (7 files) + `sources/04-SOURCES/` (12 files)
+- **Location**: `orchestration/orchestration/state/queues/QUEUE-*.md` (6 files) + duplicates in `engine/02-ENGINE/` (7 files) + `sources/04-SOURCES/` (12 files)
 - **Items**: 100+ YouTube channels across 4 tiers, plus 5 topic-specific queues
 - **Last updated**: 2025-12-29 (58 days stale)
 - **Granularity**: Content items — channels, topics, processing targets
@@ -307,7 +307,7 @@ The `IMPLEMENTATION-BACKLOG.md` deserves special attention as the largest and mo
 
 **Plus**: `QUEUE-QUEUE-36200-SCREENPLAY_ORCHESTRATION.md` in engine/ (malformed double-prefix name).
 
-**Flat principle violation**: 14 duplicate QUEUE files across 3 directories. The canonical location is `orchestration/00-ORCHESTRATION/state/queues/`. The engine/ and sources/ copies are stale duplicates that should be deleted.
+**Flat principle violation**: 14 duplicate QUEUE files across 3 directories. The canonical location is `orchestration/orchestration/state/queues/`. The engine/ and sources/ copies are stale duplicates that should be deleted.
 
 **Relationship to atom pipeline**: The YouTube processing backlog was the original content queue. The atom pipeline (1,152 sources → 14,311 atoms) effectively processes the same content at scale. But the two systems are unconnected — the QUEUE files don't know about atoms, and the atom pipeline doesn't reference the QUEUE tiers.
 

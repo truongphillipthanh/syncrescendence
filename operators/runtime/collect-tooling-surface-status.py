@@ -15,7 +15,7 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parent
-STATE_DIR = REPO_ROOT / "00-ORCHESTRATION" / "state"
+STATE_DIR = REPO_ROOT / "orchestration" / "state"
 JSON_PATH = STATE_DIR / "LOCAL-SURFACE-STATUS.json"
 MD_PATH = STATE_DIR / "LOCAL-SURFACE-STATUS.md"
 CLAUDE_CONFIG_PATH = Path.home() / ".claude.json"

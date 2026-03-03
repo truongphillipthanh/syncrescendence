@@ -1,0 +1,346 @@
+{
+  "captured_at": "2026-03-02T18:30:19Z",
+  "claude_code": {
+    "authenticated": true,
+    "available": true,
+    "billing_type": "stripe_subscription",
+    "display_name": "sir",
+    "email": "icloud.truongphillipthanh@gmail.com",
+    "organization_name": "icloud.truongphillipthanh@gmail.com's Organization",
+    "organization_uuid": "c7101e21-5ce2-4002-8a6f-2ff2a751ff29"
+  },
+  "cloudflared": {
+    "cert_present": true,
+    "config_present": true,
+    "connections": [],
+    "installed": true,
+    "launch_agent": {
+      "loaded": true,
+      "pid": "5249",
+      "state": "active"
+    },
+    "tunnel_id": "d3a8d735-a776-46ab-9dbf-ab7b87ec4cf2",
+    "tunnel_name": "syncrescendence-ontology",
+    "tunnel_present": true,
+    "version": "cloudflared version 2026.2.0 (built 2026-02-06T14:21:32Z)"
+  },
+  "gcloud": {
+    "cli": {
+      "accounts": [
+        {
+          "account": "icloud.truongphillipthanh@gmail.com",
+          "status": "ACTIVE"
+        }
+      ],
+      "active_account": "icloud.truongphillipthanh@gmail.com",
+      "authenticated": true,
+      "available": true
+    },
+    "keychain": {
+      "attempts": [
+        {
+          "account": "gcloud-account",
+          "created_at": "20260302033740Z",
+          "modified_at": "20260302033740Z",
+          "present": true,
+          "service": "syncrescendence"
+        }
+      ],
+      "name": "gcloud_account",
+      "present": true,
+      "selected": {
+        "account": "gcloud-account",
+        "created_at": "20260302033740Z",
+        "modified_at": "20260302033740Z",
+        "present": true,
+        "service": "syncrescendence"
+      }
+    }
+  },
+  "manus": {
+    "keychain": {
+      "attempts": [
+        {
+          "account": "syncrescendence",
+          "created_at": "20260302040715Z",
+          "modified_at": "20260302040715Z",
+          "present": true,
+          "service": "manus-api-key"
+        }
+      ],
+      "name": "manus_api_key",
+      "present": true,
+      "selected": {
+        "account": "syncrescendence",
+        "created_at": "20260302040715Z",
+        "modified_at": "20260302040715Z",
+        "present": true,
+        "service": "manus-api-key"
+      }
+    },
+    "reachable": true,
+    "response_shape": "dict",
+    "status_code": 200
+  },
+  "ontology": {
+    "domain_dig": {
+      "records": [
+        "172.67.214.249",
+        "104.21.75.60"
+      ],
+      "resolves": true
+    },
+    "domain_dns": {
+      "addresses": [
+        "104.21.75.60",
+        "172.67.214.249"
+      ],
+      "aliases": [],
+      "host": "syncrescendence.com",
+      "resolves": true
+    },
+    "domain_health": {
+      "payload": {
+        "config_snapshot_count": 2,
+        "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
+        "entity_count": 32,
+        "event_count": 27,
+        "status": "ok"
+      },
+      "reachable": true,
+      "status_code": 200
+    },
+    "domain_health_edge": {
+      "address": "172.67.214.249",
+      "reachable": true,
+      "status_code": 200
+    },
+    "local_api": {
+      "payload": {
+        "config_snapshot_count": 2,
+        "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
+        "entity_count": 32,
+        "event_count": 27,
+        "status": "ok"
+      },
+      "reachable": true,
+      "status_code": 200
+    },
+    "local_proxy": {
+      "payload": {
+        "config_snapshot_count": 2,
+        "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
+        "entity_count": 32,
+        "event_count": 27,
+        "status": "ok"
+      },
+      "reachable": true,
+      "status_code": 200
+    }
+  },
+  "openclaw_channels": {
+    "available": true,
+    "captured_at_ms": 1772476224135,
+    "channel_accounts": {
+      "discord": [
+        {
+          "accountId": "default",
+          "application": {
+            "flags": 8953856,
+            "id": "1469043297174421618",
+            "intents": {
+              "guildMembers": "limited",
+              "messageContent": "limited",
+              "presence": "limited"
+            }
+          },
+          "bot": {
+            "id": "1469043297174421618",
+            "username": "Ajna"
+          },
+          "configured": true,
+          "connected": true,
+          "enabled": true,
+          "lastConnectedAt": 1772475884192,
+          "lastDisconnect": null,
+          "lastError": null,
+          "lastEventAt": 1772475884192,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "lastProbeAt": 1772476224538,
+          "lastStartAt": 1772475288999,
+          "lastStopAt": 1772475288999,
+          "probe": {
+            "application": {
+              "flags": 8953856,
+              "id": "1469043297174421618",
+              "intents": {
+                "guildMembers": "limited",
+                "messageContent": "limited",
+                "presence": "limited"
+              }
+            },
+            "bot": {
+              "id": "1469043297174421618",
+              "username": "Ajna"
+            },
+            "elapsedMs": 403,
+            "error": null,
+            "ok": true,
+            "status": null
+          },
+          "reconnectAttempts": 0,
+          "running": true,
+          "tokenSource": "config"
+        }
+      ],
+      "slack": [
+        {
+          "accountId": "default",
+          "appTokenSource": "config",
+          "botTokenSource": "config",
+          "configured": true,
+          "enabled": true,
+          "lastError": null,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "lastProbeAt": 1772476224741,
+          "lastStartAt": 1772475588997,
+          "lastStopAt": 1772475588997,
+          "probe": {
+            "bot": {
+              "id": "U0AC8TU837E",
+              "name": "ajna"
+            },
+            "elapsedMs": 200,
+            "ok": true,
+            "status": 200,
+            "team": {
+              "id": "T0AB6TCRZGF",
+              "name": "Syncrescendence"
+            }
+          },
+          "running": true
+        }
+      ]
+    },
+    "channels": {
+      "discord": {
+        "configured": true,
+        "lastError": null,
+        "lastProbeAt": 1772476224538,
+        "lastStartAt": 1772475288999,
+        "lastStopAt": 1772475288999,
+        "probe": {
+          "application": {
+            "flags": 8953856,
+            "id": "1469043297174421618",
+            "intents": {
+              "guildMembers": "limited",
+              "messageContent": "limited",
+              "presence": "limited"
+            }
+          },
+          "bot": {
+            "id": "1469043297174421618",
+            "username": "Ajna"
+          },
+          "elapsedMs": 403,
+          "error": null,
+          "ok": true,
+          "status": null
+        },
+        "running": true,
+        "tokenSource": "config"
+      },
+      "slack": {
+        "appTokenSource": "config",
+        "botTokenSource": "config",
+        "configured": true,
+        "lastError": null,
+        "lastProbeAt": 1772476224741,
+        "lastStartAt": 1772475588997,
+        "lastStopAt": 1772475588997,
+        "probe": {
+          "bot": {
+            "id": "U0AC8TU837E",
+            "name": "ajna"
+          },
+          "elapsedMs": 200,
+          "ok": true,
+          "status": 200,
+          "team": {
+            "id": "T0AB6TCRZGF",
+            "name": "Syncrescendence"
+          }
+        },
+        "running": true
+      }
+    }
+  },
+  "wrangler": {
+    "cli": {
+      "account_id": "b76f644c19db95eb0dfc2b6db1e7186d",
+      "account_name": "Icloud.truongphillipthanh@gmail.com's Account",
+      "auth_type": "OAuth Token",
+      "authenticated": true,
+      "available": true,
+      "email": "icloud.truongphillipthanh@gmail.com",
+      "token_permissions": [
+        "account:read",
+        "user:read",
+        "workers:write",
+        "workers_kv:write",
+        "workers_routes:write",
+        "workers_scripts:write",
+        "workers_tail:read",
+        "d1:write",
+        "pages:write",
+        "zone:read",
+        "ssl_certs:write",
+        "ai:write",
+        "ai-search:write",
+        "ai-search:run",
+        "queues:write",
+        "pipelines:write",
+        "secrets_store:write",
+        "containers:write",
+        "cloudchamber:write",
+        "connectivity:admin",
+        "offline_access"
+      ]
+    },
+    "keychain": {
+      "cloudflare_account_id": {
+        "attempts": [
+          {
+            "account": "cloudflare-account-id",
+            "created_at": "20260302033740Z",
+            "modified_at": "20260302033740Z",
+            "present": true,
+            "service": "syncrescendence"
+          }
+        ],
+        "name": "cloudflare_account_id",
+        "present": true,
+        "selected": {
+          "account": "cloudflare-account-id",
+          "created_at": "20260302033740Z",
+          "modified_at": "20260302033740Z",
+          "present": true,
+          "service": "syncrescendence"
+        }
+      },
+      "wrangler_account": {
+        "attempts": [
+          {
+            "error": "security: SecKeychainSearchCopyNext: The specified item could not be found in the keychain.",
+            "present": false
+          }
+        ],
+        "name": "wrangler_account",
+        "present": false
+      }
+    }
+  }
+}

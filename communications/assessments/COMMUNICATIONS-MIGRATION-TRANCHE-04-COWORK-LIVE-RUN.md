@@ -17,4 +17,4 @@
 
 ## Note
 
-This tranche captures the first successful live Cowork plus Claude-in-Chrome relay run. Runtime evidence remains in the legacy relay substrate: completed job JSON, staged packet copy, failed prototype JSON, and status JSON under 00-ORCHESTRATION/relay/cowork-v1.
+This tranche captures the first successful live Cowork plus Claude-in-Chrome relay run. Runtime evidence remains in the legacy relay substrate: completed job JSON, staged packet copy, failed prototype JSON, and status JSON under orchestration/relay/cowork-v1.

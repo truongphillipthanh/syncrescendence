@@ -76,7 +76,7 @@
 
 ## DESKTOP METABOLIZATION QUEUE
 
-See `00-ORCHESTRATION/state/REF-DESKTOP_CAPTURE_INVENTORY.md` for full inventory.
+See `orchestration/state/REF-DESKTOP_CAPTURE_INVENTORY.md` for full inventory.
 
 | Priority | Source | Destination | Status |
 |----------|--------|-------------|--------|

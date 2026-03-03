@@ -3,7 +3,8 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .mypy_cache/
+.obsidian/
 
-00-ORCHESTRATION/state/ARTIFACT-LAW-INVENTORY.json
-00-ORCHESTRATION/state/ARTIFACT-LAW-INVENTORY.md
-00-ORCHESTRATION/state/SANDBOX-EVENT-LEDGER.jsonl
+orchestration/state/ARTIFACT-LAW-INVENTORY.json
+orchestration/state/ARTIFACT-LAW-INVENTORY.md
+orchestration/state/SANDBOX-EVENT-LEDGER.jsonl

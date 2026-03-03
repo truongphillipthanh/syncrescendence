@@ -4,9 +4,9 @@
 **Class**: office playbook  
 **Authority chain**: constitution -> executive -> program -> office law -> ajna office  
 **Primary sources**:
-- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/OFFICE-LAW-v1.md)
-- [OFFICES-LAYOUT-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/OFFICES-LAYOUT-v1.md)
-- [OFFICE-TOPOLOGY-REFINEMENT-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/OFFICE-TOPOLOGY-REFINEMENT-v1.md)
+- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICE-LAW-v1.md)
+- [OFFICES-LAYOUT-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICES-LAYOUT-v1.md)
+- [OFFICE-TOPOLOGY-REFINEMENT-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICE-TOPOLOGY-REFINEMENT-v1.md)
 - [offices/ajna](/Users/system/syncrescendence/offices/ajna)
 - [openclaw/PLAYBOOK.md](/Users/system/syncrescendence/playbooks/openclaw/PLAYBOOK.md)
 - [pre-syncrephoenix Ajna INIT](/Users/system/syncrescendence/pedigree/rehoused/pre-syncrephoenix/agents/ajna/INIT.md)

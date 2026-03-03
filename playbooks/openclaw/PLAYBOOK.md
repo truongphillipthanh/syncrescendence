@@ -5,9 +5,9 @@
 **Authority chain**: constitution -> executive intention -> program -> playbook -> runtime surface / events / operators  
 **Primary sources**:
 - [AGENTS.md](/Users/system/syncrescendence/AGENTS.md)
-- [TOOL-STACK-LIVE-STATE.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md)
-- [OPENCLAW-RUNTIME-SNAPSHOT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/OPENCLAW-RUNTIME-SNAPSHOT.md)
-- [AGENT-RUNTIME-IDENTITIES-CC75.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/AGENT-RUNTIME-IDENTITIES-CC75.md)
+- [TOOL-STACK-LIVE-STATE.md](/Users/system/syncrescendence/orchestration/state/TOOL-STACK-LIVE-STATE.md)
+- [OPENCLAW-RUNTIME-SNAPSHOT.md](/Users/system/syncrescendence/orchestration/state/OPENCLAW-RUNTIME-SNAPSHOT.md)
+- [AGENT-RUNTIME-IDENTITIES-CC75.md](/Users/system/syncrescendence/orchestration/state/impl/AGENT-RUNTIME-IDENTITIES-CC75.md)
 - [OPENCLAW-ROLE.md](/Users/system/syncrescendence/playbooks/openclaw/references/OPENCLAW-ROLE.md)
 - [EVENT-SCHEMA.md](/Users/system/syncrescendence/playbooks/openclaw/references/EVENT-SCHEMA.md)
 - [openclaw-memory-architecture.md](/Users/system/syncrescendence/playbooks/openclaw/references/openclaw-memory-architecture.md)

@@ -66,7 +66,7 @@ Minimum schema:
   "capture_level": "summary",
   "durable_capture": "summary_markdown",
   "repo_paths": [
-    "/Users/system/syncrescendence/00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md"
+    "/Users/system/syncrescendence/orchestration/state/TOOL-STACK-LIVE-STATE.md"
   ],
   "payload": {
     "services_checked": [

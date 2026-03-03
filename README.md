@@ -38,7 +38,14 @@ The predecessor shell has been offloaded to Desktop archival lanes such as:
 
 - [AGENTS.md](/Users/system/syncrescendence/AGENTS.md): constitutional source for the successor shell
 - [CLAUDE.md](/Users/system/syncrescendence/CLAUDE.md): compiled harness-facing surface
+- [GEMINI.md](/Users/system/syncrescendence/GEMINI.md): Gemini-facing harness surface
+- [BOOT.md](/Users/system/syncrescendence/BOOT.md): session-start operator surface
+- [WORK-LOOP.md](/Users/system/syncrescendence/WORK-LOOP.md): root work-cycle surface
+- [INTER-OFFICE.md](/Users/system/syncrescendence/INTER-OFFICE.md): root routing surface
+- [CONTINUOUS-IMPROVEMENT.md](/Users/system/syncrescendence/CONTINUOUS-IMPROVEMENT.md): root improvement surface
 - [.claude/CLAUDE.md](/Users/system/syncrescendence/.claude/CLAUDE.md): local Claude Code staging instructions
+- [.gemini/GEMINI.md](/Users/system/syncrescendence/.gemini/GEMINI.md): local Gemini adapter surface
+- `.obsidian/`: optional local vault-interface state, never canonical
 - [communications](/Users/system/syncrescendence/communications): prompts, responses, handoffs, logs, assessments
 - [executive](/Users/system/syncrescendence/executive): live executive steering lane
 - [program](/Users/system/syncrescendence/program): backlog and tranche lane
@@ -48,8 +55,10 @@ The predecessor shell has been offloaded to Desktop archival lanes such as:
 - [runtime](/Users/system/syncrescendence/runtime): copied runtime evidence from what already worked
 - [pedigree](/Users/system/syncrescendence/pedigree): Rosetta/Intent/Backlog lineage anchors
 - [validated-patterns](/Users/system/syncrescendence/validated-patterns): known-good working patterns staged from the old shell
-- [00-ORCHESTRATION/state/impl](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl): redesign package and shell law
-- [00-ORCHESTRATION/relay/cowork-v1](/Users/system/syncrescendence/00-ORCHESTRATION/relay/cowork-v1): successor-shell relay substrate
+- [orchestration/state/impl](/Users/system/syncrescendence/orchestration/state/impl): redesign package and shell law
+- [orchestration/state/impl/ROOT-SURFACES-RATIONALE-v1.md](/Users/system/syncrescendence/orchestration/state/impl/ROOT-SURFACES-RATIONALE-v1.md): why the root contains a compact operator cockpit
+- [orchestration/state/impl/ROOT-INTERFACE-SURFACES-RATIONALE-v1.md](/Users/system/syncrescendence/orchestration/state/impl/ROOT-INTERFACE-SURFACES-RATIONALE-v1.md): why certain root dotfiles and harness adapters remain lawful
+- [orchestration/relay/cowork-v1](/Users/system/syncrescendence/orchestration/relay/cowork-v1): successor-shell relay substrate
 - [pedigree/ROSETTA-HERMENEUTIC-ASSESSMENT-v1.md](/Users/system/syncrescendence/pedigree/ROSETTA-HERMENEUTIC-ASSESSMENT-v1.md): semantic reading of the original Rosetta
 - [pedigree/INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md](/Users/system/syncrescendence/pedigree/INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md): executive reading of the original intent instrument
 - [pedigree/BACKLOG-HYDRA-ASSESSMENT-v1.md](/Users/system/syncrescendence/pedigree/BACKLOG-HYDRA-ASSESSMENT-v1.md): queue-authority reading of the old backlog systems
@@ -61,8 +70,8 @@ The successor shell is not built from abstractions alone.
 It also mines the strongest structures from the pre-nuclear shell and forbids the topology mistakes that made that shell decay.
 
 Primary archaeology artifact:
-- [PRE-SYNCREPHOENIX-ARCHAEOLOGY-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PRE-SYNCREPHOENIX-ARCHAEOLOGY-v1.md)
-- [SOVEREIGN-AND-NUMBERED-SHELL-ARCHAEOLOGY-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/SOVEREIGN-AND-NUMBERED-SHELL-ARCHAEOLOGY-v1.md)
+- [PRE-SYNCREPHOENIX-ARCHAEOLOGY-v1.md](/Users/system/syncrescendence/orchestration/state/impl/PRE-SYNCREPHOENIX-ARCHAEOLOGY-v1.md)
+- [SOVEREIGN-AND-NUMBERED-SHELL-ARCHAEOLOGY-v1.md](/Users/system/syncrescendence/orchestration/state/impl/SOVEREIGN-AND-NUMBERED-SHELL-ARCHAEOLOGY-v1.md)
 - [ROSETTA-TERM-DISPOSITION-MATRIX-v1.md](/Users/system/syncrescendence/pedigree/ROSETTA-TERM-DISPOSITION-MATRIX-v1.md)
 
 ## Design Principle

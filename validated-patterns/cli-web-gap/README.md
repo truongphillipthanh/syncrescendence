@@ -12,10 +12,10 @@ It is intentionally simple:
 
 See:
 
-- [COWORK-FOLDER-INSTRUCTIONS.md](/Users/system/syncrescendence/00-ORCHESTRATION/relay/cowork-v1/COWORK-FOLDER-INSTRUCTIONS.md)
-- [JOB-SCHEMA.md](/Users/system/syncrescendence/00-ORCHESTRATION/relay/cowork-v1/JOB-SCHEMA.md)
-- [HAZEL-RULES.md](/Users/system/syncrescendence/00-ORCHESTRATION/relay/cowork-v1/HAZEL-RULES.md)
-- [CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md)
+- [COWORK-FOLDER-INSTRUCTIONS.md](/Users/system/syncrescendence/orchestration/relay/cowork-v1/COWORK-FOLDER-INSTRUCTIONS.md)
+- [JOB-SCHEMA.md](/Users/system/syncrescendence/orchestration/relay/cowork-v1/JOB-SCHEMA.md)
+- [HAZEL-RULES.md](/Users/system/syncrescendence/orchestration/relay/cowork-v1/HAZEL-RULES.md)
+- [CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md](/Users/system/syncrescendence/orchestration/state/impl/CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md)
 
 Runtime queue folders live under:
 

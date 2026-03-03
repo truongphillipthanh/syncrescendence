@@ -11,19 +11,27 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-STATE_DIR = REPO_ROOT / "00-ORCHESTRATION" / "state"
+STATE_DIR = REPO_ROOT / "orchestration" / "state"
 JSON_OUT = STATE_DIR / "ARTIFACT-LAW-INVENTORY.json"
 MD_OUT = STATE_DIR / "ARTIFACT-LAW-INVENTORY.md"
 
 ALLOWED_TOP_LEVEL = {
     ".claude",
+    ".gemini",
+    ".obsidian",
     ".gitattributes",
     ".github",
-    "00-ORCHESTRATION",
+    ".gitignore",
+    "orchestration",
     "AGENTS.md",
+    "BOOT.md",
     "CLAUDE.md",
+    "CONTINUOUS-IMPROVEMENT.md",
+    "GEMINI.md",
+    "INTER-OFFICE.md",
     "Makefile",
     "README.md",
+    "WORK-LOOP.md",
     "communications",
     "executive",
     "offices",
@@ -33,7 +41,6 @@ ALLOWED_TOP_LEVEL = {
     "program",
     "runtime",
     "validated-patterns",
-    ".gitignore",
 }
 
 TRANSITIONAL_ROOT_OPERATORS = {
@@ -49,7 +56,7 @@ ALLOWED_RESPONSE_DIRS = (
     Path("communications") / "responses",
 )
 TRANSIENT_RESPONSE_DIRS = (
-    Path("00-ORCHESTRATION") / "relay" / "cowork-v1" / "artifacts" / "outgoing",
+    Path("orchestration") / "relay" / "cowork-v1" / "artifacts" / "outgoing",
 )
 ALLOWED_HANDOFF_DIRS = (
     Path("communications") / "handoffs",

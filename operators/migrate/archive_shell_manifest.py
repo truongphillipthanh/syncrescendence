@@ -28,7 +28,7 @@ DISPOSITION_RULES = {
     },
     "program": {
         "program": "live-program",
-        "00-ORCHESTRATION": "program-or-runtime-pedigree",
+        "orchestration": "program-or-runtime-pedigree",
         "orchestration": "program-or-runtime-pedigree",
     },
     "office-playbook": {

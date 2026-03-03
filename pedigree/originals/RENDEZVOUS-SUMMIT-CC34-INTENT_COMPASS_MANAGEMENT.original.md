@@ -22,7 +22,7 @@ The Intention Archaeology Compass (`ARCH-INTENTION_COMPASS.md`) is a 733-line in
 
 | Attribute | Value |
 |-----------|-------|
-| **File** | `orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` |
+| **File** | `orchestration/orchestration/state/ARCH-INTENTION_COMPASS.md` |
 | **Lines** | 733 |
 | **Version** | 4.0.0 |
 | **Last Updated** | 2026-02-24 (2 days stale) |
@@ -34,9 +34,9 @@ The Intention Archaeology Compass (`ARCH-INTENTION_COMPASS.md`) is a 733-line in
 | Document | Location | Relationship |
 |----------|----------|-------------|
 | `DYN-INTENTIONS_QUEUE.md` | `orchestration/state/` | **Feeder** — `intent_compass.sh` hook captures raw Sovereign utterances on every UserPromptSubmit |
-| `DYN-DEFERRED_COMMITMENTS.md` | `orchestration/00-ORCHESTRATION/state/` | **Execution engine** — 79 items translating intentions into phased work |
+| `DYN-DEFERRED_COMMITMENTS.md` | `orchestration/orchestration/state/` | **Execution engine** — 79 items translating intentions into phased work |
 | `DECISION_ATOMS-PHASE2-CORPUS_INTENTION_SYNTHESIS-2026-02-23.md` | `agents/commander/outbox/` | **Enrichment** — 14,311 atoms × 80+ intentions cross-reference |
-| `intent_compass.sh` | `orchestration/00-ORCHESTRATION/scripts/` | **Hook** — UserPromptSubmit automation that captures intention signals |
+| `intent_compass.sh` | `orchestration/orchestration/scripts/` | **Hook** — UserPromptSubmit automation that captures intention signals |
 | `PROTOCOL-ASCERTESCENCE.md` | `engine/02-ENGINE/certescence/` | **Consumer** — 13-question DAG draws from intention priorities |
 | `CANON-31115-IIC_IMPL-lunar-ACUMEN-planetary-INFORMATION.md` | `canon/01-CANON/` | **Referenced by** — INT-2101 dual-stream architecture |
 | `CANON-25200-CONSTELLATION_ARCH-lattice.md` | `canon/01-CANON/` | **Referenced by** — INT-1203 constellation design |

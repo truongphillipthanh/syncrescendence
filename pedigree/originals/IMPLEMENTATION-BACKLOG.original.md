@@ -374,7 +374,7 @@
 - IMPL-Q-0009 — Memory Decay Engine: Hot/Warm/Cold tiering for entity summaries with weekly synthesis cron, access tracking, frequency resistance
 - IMPL-Q-0010 — Enable Agent Teams on MBA: Set `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`, test peer-to-peer coordination alongside tmux cockpit
 - IMPL-Q-0011 — PreToolUse Hooks: Intercept `git commit` to enforce clarescence-format messages, prevent commits to protected paths, auto-lint
-- IMPL-Q-0012 — Path-Scoped Rules: Migrate per-domain instructions into `.claude/rules/` with path scoping (orchestration.md → 00-ORCHESTRATION/**)
+- IMPL-Q-0012 — Path-Scoped Rules: Migrate per-domain instructions into `.claude/rules/` with path scoping (orchestration.md → orchestration/**)
 - IMPL-Q-0013 — Tailscale ACL Tags: Separate MBA (Ajna) from Mac mini (Psyche), directional restrictions, workers cannot initiate to orchestrator (INT-1712)
 
 ### P2

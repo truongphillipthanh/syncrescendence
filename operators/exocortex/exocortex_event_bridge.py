@@ -11,7 +11,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent
 WORKSPACE_EVENTS_INBOX = Path.home() / ".openclaw" / "workspace" / "events" / "inbox"
-CAPTURE_POLICY_PATH = REPO_ROOT / "00-ORCHESTRATION" / "state" / "EXOCORTEX-CAPTURE-POLICY.json"
+CAPTURE_POLICY_PATH = REPO_ROOT / "orchestration" / "state" / "EXOCORTEX-CAPTURE-POLICY.json"
 ALLOWED_SOURCES = {"ajna", "manus", "commander", "system"}
 
 

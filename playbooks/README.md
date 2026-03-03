@@ -1,6 +1,6 @@
 # Playbooks
 
-This lane holds the sandbox’s harness and surface doctrine.
+This lane holds the successor shell’s harness and surface doctrine.
 
 Current live playbooks:
 - [claude-code/PLAYBOOK.md](/Users/system/syncrescendence/playbooks/claude-code/PLAYBOOK.md)
@@ -25,6 +25,6 @@ Recent compaction inputs now flowing toward this lane:
 
 ## Authority
 
-- [PLAYBOOK-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PLAYBOOK-LAW-v1.md)
-- [PLAYBOOK-COMPACTION-CANDIDATES-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PLAYBOOK-COMPACTION-CANDIDATES-v1.md)
-- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/OFFICE-LAW-v1.md)
+- [PLAYBOOK-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/PLAYBOOK-LAW-v1.md)
+- [PLAYBOOK-COMPACTION-CANDIDATES-v1.md](/Users/system/syncrescendence/orchestration/state/impl/PLAYBOOK-COMPACTION-CANDIDATES-v1.md)
+- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICE-LAW-v1.md)

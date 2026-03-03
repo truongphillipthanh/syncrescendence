@@ -40,5 +40,5 @@ It is the intended home for new communications artifacts produced by the redesig
 
 ## Authority
 
-- [COMMUNICATIONS-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/COMMUNICATIONS-LAW-v1.md)
+- [COMMUNICATIONS-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/COMMUNICATIONS-LAW-v1.md)
 - [AGENTS.md](/Users/system/syncrescendence/AGENTS.md)

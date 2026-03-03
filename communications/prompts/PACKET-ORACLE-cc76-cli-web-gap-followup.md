@@ -38,12 +38,12 @@ The open decision is whether the best first execution layer is:
 
 ## Anchor Links
 
-- [CLI/web gap assessment](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md)
-- [Packet standard](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/WEB-SURFACE-PACKET-STANDARD-CC75.md)
-- [Surface taxonomy](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/EXOCORTEX-SURFACE-TAXONOMY-CC75.md)
-- [Account/auth matrix](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md)
-- [Feedcraft stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/FEEDCRAFT-SURFACE-STAGE0-CC76.md)
-- [IIC governance stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/IIC-GOVERNANCE-STAGE0-CC76.md)
+- [CLI/web gap assessment](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md)
+- [Packet standard](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/WEB-SURFACE-PACKET-STANDARD-CC75.md)
+- [Surface taxonomy](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/EXOCORTEX-SURFACE-TAXONOMY-CC75.md)
+- [Account/auth matrix](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md)
+- [Feedcraft stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/FEEDCRAFT-SURFACE-STAGE0-CC76.md)
+- [IIC governance stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/IIC-GOVERNANCE-STAGE0-CC76.md)
 - [Cowork getting started](https://support.claude.com/en/articles/13345190-get-started-with-cowork)
 - [Claude in Chrome getting started](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome)
 - [Claude in Chrome release notes](https://support.claude.com/en/articles/12306336-claude-in-chrome-release-notes)

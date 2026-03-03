@@ -193,11 +193,11 @@ Adjudicate:
 ### Live Architecture / Current Policy
 
 - [AGENTS.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/AGENTS.md)
-- [BOUNDARY-CONTRACT-POLICY-CC73.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/BOUNDARY-CONTRACT-POLICY-CC73.md)
-- [IMPLEMENTATION-BACKLOG.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/IMPLEMENTATION-BACKLOG.md)
-- [IMPLEMENTATION-MAP.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/IMPLEMENTATION-MAP.md)
+- [BOUNDARY-CONTRACT-POLICY-CC73.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/BOUNDARY-CONTRACT-POLICY-CC73.md)
+- [IMPLEMENTATION-BACKLOG.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/IMPLEMENTATION-BACKLOG.md)
+- [IMPLEMENTATION-MAP.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/IMPLEMENTATION-MAP.md)
 - [INTENT-AND-OPERATING-MODEL-CC76.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/CLI-WEB-GAP/INTENT-AND-OPERATING-MODEL-CC76.md)
-- [EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md)
+- [EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md)
 - [CANON-25500-ARCHITECTURE_RATIONALE-lattice.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/canon/CANON-25500-ARCHITECTURE_RATIONALE-lattice.md)
 - [CANON-25600-ASCERTESCENCE_CYCLE-lattice.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/canon/CANON-25600-ASCERTESCENCE_CYCLE-lattice.md)
 - [CANON-ONTOLOGY-GATE_v2.md](https://github.com/truongphillipthanh/syncrescendence/blob/main/canon/CANON-ONTOLOGY-GATE_v2.md)

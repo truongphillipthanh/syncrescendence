@@ -30,7 +30,7 @@ def main() -> int:
     parser.add_argument("--summary")
     parser.add_argument("--project-ontology", action="store_true")
     parser.add_argument("--ontology-url", choices=["local", "domain"], default="domain")
-    parser.add_argument("--repo-paths", nargs="*", default=["00-ORCHESTRATION/state/LOCAL-SURFACE-STATUS.md"])
+    parser.add_argument("--repo-paths", nargs="*", default=["orchestration/state/LOCAL-SURFACE-STATUS.md"])
     args = parser.parse_args()
 
     exocortex = load_module(REPO_ROOT / "exocortex_event_bridge.py", "exocortex_event_bridge")

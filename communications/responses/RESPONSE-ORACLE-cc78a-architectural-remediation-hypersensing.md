@@ -6,8 +6,8 @@ The interpretation is partially correct and supplies the right spine. Sharpen it
 
 - NUCLEOSYNTHESIS-MAP.md (CC75a, updated 2026-03-02): "889 files removed in CC57" (773 pipeline-handshake dups of EXTRACT-SOURCE-*.jsonl vs memsync_bridge pairs, plus multi-stage ingestion copies, double-scrapes, race conditions); "Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN." Yet root tree still shows -INBOX/ directory and engine/02-ENGINE/ subdir.  
 - CANON-ONTOLOGY-GATE_v2.md: every atom demands "matched_intention from INT-XXXX in ARCH-INTENTION_COMPASS.md" + "Rosetta term similarity (>0.85)" + origin_hash + drift_score < 0.10; explicit risk note that ontology must never self-repair v1 failures or accumulate veto power.  
-- Direct blob checks: https://github.com/truongphillipthanh/syncrescendence/blob/main/engine/REF-ROSETTA_STONE.md and https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md both 404.  
-- AGENTS.md: handoffs strictly at agents/commander/outbox/handoffs/HANDOFF-CC{N}{a|b}.md with fixed sections (accomplished, remains, sovereign intent, kaizen); "No agent may create a second authority surface"; "repo root is the coordination layer"; yet backlog in 00-ORCHESTRATION/state/ shows Canon-derived tranches with zero upward INT- or Rosetta binding visible.  
+- Direct blob checks: https://github.com/truongphillipthanh/syncrescendence/blob/main/engine/REF-ROSETTA_STONE.md and https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/ARCH-INTENTION_COMPASS.md both 404.  
+- AGENTS.md: handoffs strictly at agents/commander/outbox/handoffs/HANDOFF-CC{N}{a|b}.md with fixed sections (accomplished, remains, sovereign intent, kaizen); "No agent may create a second authority surface"; "repo root is the coordination layer"; yet backlog in orchestration/state/ shows Canon-derived tranches with zero upward INT- or Rosetta binding visible.  
 - Root inventory: render-configs.py, reconcile-ajna-events.py, validate-configs.py, ontology_v1.py all live and wired; -INBOX/, .claude/, .openclaw/ still present; no Rosetta or Intent Compass file anywhere in canon/, neocorpus/, or state/.  
 - context-engineering-post-prompt-paradigm.md (neocorpus): "prompt portability is a myth; the harness is the product"; progressive disclosure via per-harness YAML.  
 - session-state-continuity-and-handoffs.md (neocorpus): "Never allow context death without committed handoff"; anti-lineage rule (condense narrative to patterns, delete originals).  
@@ -40,7 +40,7 @@ The sharpened cascade above is the required federal architecture. Rosetta suppli
 │   └── ontology-gate/ (v2 + extensions)
 ├── neocorpus/ (unchanged, semantic compendium)
 ├── corpus/ (cold provenance, immutable)
-├── 00-ORCHESTRATION/
+├── orchestration/
 │   ├── state/
 │   │   ├── INTENT-TRIAD-BINDING.md             ← new upward links
 │   │   ├── IMPLEMENTATION-BACKLOG.md           ← every item tagged with INT-XXXX

@@ -14,4 +14,4 @@ Executive sublanes:
 Pedigree and design context:
 - [LIVE-INTENT-COMPASS-DESIGN-v1.md](/Users/system/syncrescendence/pedigree/LIVE-INTENT-COMPASS-DESIGN-v1.md)
 - [ROSETTA-INTENT-BACKLOG-TRIAD-v1.md](/Users/system/syncrescendence/pedigree/ROSETTA-INTENT-BACKLOG-TRIAD-v1.md)
-- [EXECUTIVE-LANE-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/EXECUTIVE-LANE-LAW-v1.md)
+- [EXECUTIVE-LANE-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/EXECUTIVE-LANE-LAW-v1.md)

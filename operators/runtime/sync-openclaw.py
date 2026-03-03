@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent
-STATE_DIR = REPO_ROOT / "00-ORCHESTRATION" / "state"
+STATE_DIR = REPO_ROOT / "orchestration" / "state"
 MEMORY_DIR = REPO_ROOT / "memory"
 CONFIG_MANIFEST = REPO_ROOT / "configs" / "manifest.json"
 OPENCLAW_CONFIG = Path.home() / ".openclaw" / "openclaw.json"
@@ -271,14 +271,14 @@ def write_tool_stack_live_state(runtime: dict) -> Path:
         "  - `make deploy-ajna`",
         "  - `make sync-openclaw`",
         "  - `sync-openclaw.py`",
-        "  - `00-ORCHESTRATION/state/OPENCLAW-RUNTIME-SNAPSHOT.md`",
+        "  - `orchestration/state/OPENCLAW-RUNTIME-SNAPSHOT.md`",
         "  - `memory/AJNA-RUNTIME-SYNTHESIS.md`",
         "- Ajna event reconciliation now exists locally:",
         "  - `make reconcile-ajna-events`",
         "  - `reconcile-ajna-events.py`",
         "  - `memory/AJNA-EVENT-LEDGER.jsonl`",
         "  - `memory/AJNA-EVENT-SUMMARY.md`",
-        "  - `00-ORCHESTRATION/state/AJNA-EVENT-RECONCILIATION.json`",
+        "  - `orchestration/state/AJNA-EVENT-RECONCILIATION.json`",
         "- Ajna's OpenClaw workspace instruction surface has been compacted below the 20k bootstrap ceiling",
         "",
         "## Current Truth Split",

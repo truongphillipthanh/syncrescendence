@@ -6,7 +6,7 @@
 **Primary sources**:
 - [AGENTS.md](/Users/system/syncrescendence/AGENTS.md)
 - [CLAUDE.md](/Users/system/syncrescendence/CLAUDE.md)
-- [PLAYBOOK-LAW-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/PLAYBOOK-LAW-v1.md)
+- [PLAYBOOK-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/PLAYBOOK-LAW-v1.md)
 - [claude-md-configuration-system.md](/Users/system/syncrescendence/playbooks/claude-code/references/claude-md-configuration-system.md)
 - [context-window-management-and-compaction.md](/Users/system/syncrescendence/playbooks/claude-code/references/context-window-management-and-compaction.md)
 - [skills-and-progressive-disclosure.md](/Users/system/syncrescendence/playbooks/claude-code/references/skills-and-progressive-disclosure.md)

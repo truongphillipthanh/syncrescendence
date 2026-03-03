@@ -6,7 +6,7 @@
 
 - **Executive source**: [INTENT-COMPASS.live.md](/Users/system/syncrescendence/executive/INTENT-COMPASS.live.md)
 - **Vocabulary source**: [ROSETTA-STONE.live.md](/Users/system/syncrescendence/pedigree/ROSETTA-STONE.live.md)
-- **Governance law**: [INTENT-PROGRAM-GOVERNANCE-v1.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/INTENT-PROGRAM-GOVERNANCE-v1.md)
+- **Governance law**: [INTENT-PROGRAM-GOVERNANCE-v1.md](/Users/system/syncrescendence/orchestration/state/impl/INTENT-PROGRAM-GOVERNANCE-v1.md)
 
 ## Active Tranche
 
@@ -79,7 +79,7 @@
 
 1. preserve the executive meaning of `-SOVEREIGN` without preserving its topological form  
    Status: completed pedigree pass
-2. preserve the semantic hierarchy encoded by `00-ORCHESTRATION`, `01-CANON`, `02-ENGINE`, `04-SOURCES`, `05-SIGMA`  
+2. preserve the legacy semantic hierarchy encoded by `00-ORCHESTRATION`, `01-CANON`, `02-ENGINE`, `04-SOURCES`, `05-SIGMA` while translating its surviving functions into the successor shell  
    Status: completed pedigree pass
 3. use that recovered hierarchy to guide future physicalization of successor-shell lanes rather than flattening by taste alone  
    Status: active

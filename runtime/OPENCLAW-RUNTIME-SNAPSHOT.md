@@ -45,8 +45,8 @@ These are non-negotiable axioms. They cannot be suspended, overridden, or traded
 ## Constitutional Rules
 
 ### Structural
-1. **FLAT PRINCIPLE**: Directories are flat. Sanctioned exceptions: `00-ORCHESTRATION/state/`, `engine/02-ENGINE/`, `corpus/<topic>/` (22 semantic folders), `neocorpus/<topic>/` (mirrors corpus/ structure), `canon/sn/`, `ascertescence/oracle/`, `ascertescence/canon-remediation/`, `agents/commander/outbox/handoffs/`, `-INBOX/commander/00-INBOX0/`.
-2. **SEMANTIC DIRECTORIES**: Top-level directories: `corpus`, `neocorpus`, `canon`, `engine`, `agents`, `00-ORCHESTRATION`, `ascertescence`, `memory`, `-INBOX`. Do not create new top-level directories without Sovereign approval.
+1. **FLAT PRINCIPLE**: Directories are flat. Sanctioned exceptions: `orchestration/state/`, `engine/02-ENGINE/`, `corpus/<topic>/` (22 semantic folders), `neocorpus/<topic>/` (mirrors corpus/ structure), `canon/sn/`, `ascertescence/oracle/`, `ascertescence/canon-remediation/`, `agents/commander/outbox/handoffs/`, `-INBOX/commander/00-INBOX0/`.
+2. **SEMANTIC DIRECTORIES**: Top-level directories in the successor shell are `orchestration`, `communications`, `executive`, `program`, `offices`, `playbooks`, `operators`, `runtime`, `pedigree`, and `validated-patterns`. Predecessor directories survive only as pedigree or archive context.
 3. **PROTECTED ZONES**: `canon/` requires explicit Sovereign approval for deletions.
 
 ### Operational
@@ -68,20 +68,20 @@ canon/               Verified canonical knowledge (PROTECTED, 164 files)
   sn/                Syncrescript notation
 engine/              Prompts for agent dispatch
   02-ENGINE/         Subcategory/audit prompts
-agents/              Agent offices
-  commander/outbox/handoffs/   Session handoffs (HANDOFF-CC{N}a.md = CRUSH lane, CC{N}b.md = tool stack lane)
-00-ORCHESTRATION/    Strategic coordination
-  state/             Implementation backlog + map
-ascertescence/       Triangulation session artifacts
-  oracle/            Oracle prompts + responses
-  canon-remediation/ Canon remediation passes
-memory/              Operational state (burndown, logs, legacy handoffs)
--INBOX/              Commander inbox for triangulation responses
-  commander/00-INBOX0/
+communications/      Prompts, responses, handoffs, logs, assessments
+executive/           Live intention and steering surfaces
+program/             Live backlog and tranche sequencing
+offices/             Lawful local offices
+playbooks/           Harness and surface doctrine
+operators/           Executable shell operators
+runtime/             Runtime evidence and snapshots
+pedigree/            Constitutional and historical ancestry
+validated-patterns/  Proven patterns staged for compaction
+orchestration/       Strategic coordination, shell law, relay substrate, and state
 ```
 
 **Config generation**: `make validate` checks source/manifests/path coherence. `make configs` renders harness-specific outputs into `configs/`. `make reconcile` refreshes `CLAUDE.md` and `GEMINI.md` from the rendered tree on the current machine.
-Current live runtime state for tool-stack reconciliation is tracked separately in `00-ORCHESTRATION/state/TOOL-STACK-LIVE-STATE.md`.
+Current live runtime state for tool-stack reconciliation is tracked separately in `orchestration/state/TOOL-STACK-LIVE-STATE.md`.
 ```
 
 ### MEMORY.md

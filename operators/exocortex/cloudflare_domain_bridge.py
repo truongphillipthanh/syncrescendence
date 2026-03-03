@@ -36,8 +36,8 @@ def main() -> int:
         "--repo-paths",
         nargs="*",
         default=[
-            "00-ORCHESTRATION/state/impl/CLOUDFLARED-ONTOLOGY-STAGE1.md",
-            "00-ORCHESTRATION/state/impl/ONTOLOGY-DOMAIN-STAGE1.md",
+            "orchestration/state/impl/CLOUDFLARED-ONTOLOGY-STAGE1.md",
+            "orchestration/state/impl/ONTOLOGY-DOMAIN-STAGE1.md",
         ],
     )
     args = parser.parse_args()

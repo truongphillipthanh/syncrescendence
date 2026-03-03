@@ -61,7 +61,7 @@ Sovereign trust in Commander is at zero. Two disasters in two days (2026-02-22 a
 - **Scaffold**: `scaffold_validate.sh` passes with 0 violations
 - **Memory layout**: All 5 agents have `memory/{MEMORY.md, entities/, journal/, cache/, sync/}` — but MEMORY.md files are EMPTY (this was one of them)
 - **Extraction pipeline**: 14,311 atoms in `sources/04-SOURCES/_meta/EXTRACT-*.jsonl` from 1,152 sources
-- **Knowledge graph**: SQLite at `orchestration/00-ORCHESTRATION/state/knowledge_graph.db` (1,406 entities, 6,075 edges)
+- **Knowledge graph**: SQLite at `orchestration/orchestration/state/knowledge_graph.db` (1,406 entities, 6,075 edges)
 - **Infrastructure**: Docker, Neo4j 5.26.0, Graphiti 0.22.0, Qdrant all healthy on Mac mini
 - **SSH bridge**: MBA (`ssh mini`) <-> Mac mini (`ssh macbook-air`) verified
 - **Phase 0-2**: DONE. Phase 3: DONE (except DC-122 Sovereign decision). Phase 4: 3/6.
@@ -130,7 +130,7 @@ BUILD from Adjudicator's CC26 specs. Not new tooling. Not more analysis. BUILDIN
 - For each: read, extract wisdom not already captured, archive original, delete from inbox
 
 ### Priority 3: Act on Audit Verdicts
-- 24 STALE files: archive to `orchestration/00-ORCHESTRATION/archive/`
+- 24 STALE files: archive to `orchestration/orchestration/archive/`
 - 25 ORPHANED files: wire into something or archive
 - Source: DC-204 coherence synthesis in commander outbox
 
@@ -140,7 +140,7 @@ BUILD from Adjudicator's CC26 specs. Not new tooling. Not more analysis. BUILDIN
 
 ## Sovereign's Active Priorities (from Intention Compass)
 
-The Intention Compass (`orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md`) tracks 80+ intentions. Key active ones:
+The Intention Compass (`orchestration/orchestration/state/ARCH-INTENTION_COMPASS.md`) tracks 80+ intentions. Key active ones:
 
 - **Security is Phase 0, not Phase 5**: 230+ malicious skills discovered (Jan-Feb 2026), credential exfil in 2min, 6 prompt injection vectors, Graphiti endpoint unsecured. DC-140 done (38 skills audited, 2 CRITICAL, 4 HIGH). DC-141 (key rotation) needs Sovereign action.
 - **Content transformation over infrastructure**: The entire Phase 2 audit exists to enable Phase 3+ content work. Tools are means, not ends.
@@ -155,11 +155,11 @@ The Intention Compass (`orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMP
 | What | Where |
 |------|-------|
 | Constitutional law | `AGENTS.md` (v6.0.0) -> `make configs` -> `CLAUDE.md` |
-| Intention compass | `orchestration/00-ORCHESTRATION/state/ARCH-INTENTION_COMPASS.md` (v3.4.0) |
-| Deferred commitments | `orchestration/00-ORCHESTRATION/state/DYN-DEFERRED_COMMITMENTS.md` |
+| Intention compass | `orchestration/orchestration/state/ARCH-INTENTION_COMPASS.md` (v3.4.0) |
+| Deferred commitments | `orchestration/orchestration/state/DYN-DEFERRED_COMMITMENTS.md` |
 | Architecture rationale | `canon/CANON-25500-ARCHITECTURE_RATIONALE-lattice.md` |
 | Rosetta Stone | `engine/REF-ROSETTA_STONE.md` |
-| Knowledge graph | `orchestration/00-ORCHESTRATION/state/knowledge_graph.db` |
+| Knowledge graph | `orchestration/orchestration/state/knowledge_graph.db` |
 | Extracted atoms | `sources/04-SOURCES/_meta/EXTRACT-*.jsonl` (14,311 atoms) |
 | Corpus x intention synthesis | `agents/commander/outbox/DECISION_ATOMS-PHASE2-CORPUS_INTENTION_SYNTHESIS-2026-02-23.md` |
 | Latest handoff | `agents/commander/outbox/HANDOFF-PHASE3-5-TOOLING_COMPLETE-SESSION_TERMINAL.md` |

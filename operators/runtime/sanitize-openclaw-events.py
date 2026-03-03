@@ -14,7 +14,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent
 WORKSPACE_ROOT = Path.home() / ".openclaw" / "workspace"
 EVENTS_ROOT = WORKSPACE_ROOT / "events"
-REPORT_PATH = REPO_ROOT / "00-ORCHESTRATION" / "state" / "OPENCLAW-EVENT-SANITIZATION.json"
+REPORT_PATH = REPO_ROOT / "orchestration" / "state" / "OPENCLAW-EVENT-SANITIZATION.json"
 
 SENSITIVE_KEYS = {
     "access_token",

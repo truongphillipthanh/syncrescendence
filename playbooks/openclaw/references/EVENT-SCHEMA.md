@@ -80,7 +80,7 @@ Commander ingests those events into repo state with:
 
 - `surface` identifies where the event originated; it is not the final authority.
 - `artifact_class` identifies which exocortex or repo policy applies.
-- `durable_capture` must match the policy in `00-ORCHESTRATION/state/EXOCORTEX-CAPTURE-POLICY.json`.
+- `durable_capture` must match the policy in `orchestration/state/EXOCORTEX-CAPTURE-POLICY.json`.
 - Obsidian-authored durable markdown belongs in tracked repo directories, never `.obsidian/`.
 - Communication events must never include full third-party bodies even if they are important.
 

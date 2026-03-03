@@ -36,7 +36,7 @@ sync_repo_to_mini() {
     --exclude ".DS_Store" \
     --exclude "__pycache__/" \
     --exclude "*.pyc" \
-    --exclude "00-ORCHESTRATION/state/*.lock" \
+    --exclude "orchestration/state/*.lock" \
     "$REPO_ROOT/" \
     "${REMOTE_HOST}:${REMOTE_REPO}/"
 }

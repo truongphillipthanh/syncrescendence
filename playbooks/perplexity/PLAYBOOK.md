@@ -4,11 +4,11 @@
 **Class**: external cognition playbook  
 **Authority chain**: constitution -> executive intention -> program -> playbook -> verification packets / responses / assessments  
 **Primary sources**:
-- [WEB-SURFACE-PACKET-STANDARD-CC75.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/WEB-SURFACE-PACKET-STANDARD-CC75.md)
-- [CC75-WEB-SURFACE-RESPONSE-ASSESSMENT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CC75-WEB-SURFACE-RESPONSE-ASSESSMENT.md)
-- [CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md)
-- [CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md)
-- [CC78a-ARCHITECTURAL-REMEDIATION-RESPONSE-ASSESSMENT.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/CC78a-ARCHITECTURAL-REMEDIATION-RESPONSE-ASSESSMENT.md)
+- [WEB-SURFACE-PACKET-STANDARD-CC75.md](/Users/system/syncrescendence/orchestration/state/impl/WEB-SURFACE-PACKET-STANDARD-CC75.md)
+- [CC75-WEB-SURFACE-RESPONSE-ASSESSMENT.md](/Users/system/syncrescendence/orchestration/state/impl/CC75-WEB-SURFACE-RESPONSE-ASSESSMENT.md)
+- [CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md](/Users/system/syncrescendence/orchestration/state/impl/CC76-CLI-WEB-GAP-RESPONSE-ASSESSMENT.md)
+- [CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md](/Users/system/syncrescendence/orchestration/state/impl/CC76-CLI-WEB-GAP-FOLLOWUP-ASSESSMENT.md)
+- [CC78a-ARCHITECTURAL-REMEDIATION-RESPONSE-ASSESSMENT.md](/Users/system/syncrescendence/orchestration/state/impl/CC78a-ARCHITECTURAL-REMEDIATION-RESPONSE-ASSESSMENT.md)
 - [INTENT-AND-OPERATING-MODEL-CC76.md](/Users/system/syncrescendence/validated-patterns/cli-web-gap/INTENT-AND-OPERATING-MODEL-CC76.md)
 
 ## 0. What This Surface Is For

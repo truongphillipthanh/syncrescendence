@@ -9,7 +9,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent
 LEDGER_PATH = REPO_ROOT / "memory" / "AJNA-EVENT-LEDGER.jsonl"
-REPORT_PATH = REPO_ROOT / "00-ORCHESTRATION" / "state" / "EVENT-LEDGER-NORMALIZATION.json"
+REPORT_PATH = REPO_ROOT / "orchestration" / "state" / "EVENT-LEDGER-NORMALIZATION.json"
 
 
 def normalize(event: dict) -> tuple[dict, list[str]]:

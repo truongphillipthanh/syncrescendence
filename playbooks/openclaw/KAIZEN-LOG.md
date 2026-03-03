@@ -24,7 +24,7 @@ Use this file to record compacted lessons that improve the OpenClaw playbook.
 
 - **Source lineage**
   - live Ajna/Psyche repair work
-  - [AGENT-RUNTIME-IDENTITIES-CC75.md](/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/AGENT-RUNTIME-IDENTITIES-CC75.md)
+  - [AGENT-RUNTIME-IDENTITIES-CC75.md](/Users/system/syncrescendence/orchestration/state/impl/AGENT-RUNTIME-IDENTITIES-CC75.md)
 - **Observed pattern or failure**
   - It is easy to accidentally conflate provider, account, and agent identity when repairing local runtime state.
 - **Compacted lesson**

@@ -50,12 +50,12 @@ The working intuition is:
 
 ### Repo / GitHub Anchors
 
-- [Surface taxonomy](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/EXOCORTEX-SURFACE-TAXONOMY-CC75.md)
-- [Packet standard](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/WEB-SURFACE-PACKET-STANDARD-CC75.md)
-- [Account and identity matrix](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md)
-- [Feedcraft stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/FEEDCRAFT-SURFACE-STAGE0-CC76.md)
-- [IIC governance stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/impl/IIC-GOVERNANCE-STAGE0-CC76.md)
-- [Live local surface status](https://github.com/truongphillipthanh/syncrescendence/blob/main/00-ORCHESTRATION/state/LOCAL-SURFACE-STATUS.md)
+- [Surface taxonomy](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/EXOCORTEX-SURFACE-TAXONOMY-CC75.md)
+- [Packet standard](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/WEB-SURFACE-PACKET-STANDARD-CC75.md)
+- [Account and identity matrix](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md)
+- [Feedcraft stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/FEEDCRAFT-SURFACE-STAGE0-CC76.md)
+- [IIC governance stage 0](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/impl/IIC-GOVERNANCE-STAGE0-CC76.md)
+- [Live local surface status](https://github.com/truongphillipthanh/syncrescendence/blob/main/orchestration/state/LOCAL-SURFACE-STATUS.md)
 
 ### Official Current-World Anchors
 

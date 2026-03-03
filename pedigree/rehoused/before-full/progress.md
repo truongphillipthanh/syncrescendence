@@ -11,7 +11,7 @@
 - Executed high-fidelity web search for frontier AI models (Anthropic, OpenAI, Google, DeepSeek).
 - Verified OpenAI retirement wave (Feb 13), Claude 4.6/Sonnet 5 launch (Feb 5).
 - Updated `02-ENGINE/MODEL-INDEX.md` and `02-ENGINE/SURVEY-AI_ECOSYSTEM_SURVEY.md`.
-- Created `00-ORCHESTRATION/scripts/trigger-model-refresh.sh` for cron-based dispatch.
+- Created `orchestration/scripts/trigger-model-refresh.sh` for cron-based dispatch.
 
 ## Next Steps
 - Produce execution log in `DYN-EXECUTION_STAGING.md`.
