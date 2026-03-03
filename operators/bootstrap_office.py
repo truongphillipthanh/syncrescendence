@@ -50,6 +50,9 @@ def bootstrap(name: str) -> Path:
     write(office / "outbox" / "receipts" / "README.md", lane_readme(f"{title} Outbox Receipts", "Local receipts before they are promoted into federal communications or runtime evidence."))
     write(office / "outbox" / "results" / "README.md", lane_readme(f"{title} Outbox Results", "Result artifacts awaiting promotion, compaction, or archival classification."))
     write(office / "platform" / "README.md", lane_readme(f"{title} Platform", "Harness- or platform-local notes."))
+    write(office / "platform" / "contracts" / "README.md", lane_readme(f"{title} Platform Contracts", "Local artifact-shape contracts, envelopes, and office-specific operating law."))
+    write(office / "platform" / "templates" / "README.md", lane_readme(f"{title} Platform Templates", "Reusable local templates for lawful office artifacts."))
+    write(office / "platform" / "logs" / "README.md", lane_readme(f"{title} Platform Logs", "Mechanical traces and raw local logs that should not masquerade as promoted results."))
     return office
 
 

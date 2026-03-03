@@ -67,6 +67,9 @@ The first refinement layer now also recognizes these lawful sublanes:
 - `memory/journal/`
 - `memory/cache/`
 - `memory/sync/`
+- `platform/contracts/`
+- `platform/templates/`
+- `platform/logs/`
 
 This preserves the old strengths:
 
@@ -74,6 +77,7 @@ This preserves the old strengths:
 - local resumability
 - harness/platform specificity
 - clear local working state
+- artifact-shape literacy inside the office itself
 
 ---
 
@@ -114,6 +118,7 @@ Forbidden:
 3. office-local backlogs that shadow the live implementation backlog
 4. using `memory/` as a secret second canon
 5. using `outbox/` as a response graveyard
+6. using `platform/logs/` as the only durable evidence of completion
 
 ---
 

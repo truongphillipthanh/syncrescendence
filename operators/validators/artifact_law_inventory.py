@@ -55,6 +55,10 @@ ALLOWED_PROMPT_DIRS = (
 ALLOWED_RESPONSE_DIRS = (
     Path("communications") / "responses",
 )
+PEDIGREE_COMMUNICATION_DIRS = (
+    Path("pedigree") / "rehoused",
+    Path("pedigree") / "originals",
+)
 TRANSIENT_RESPONSE_DIRS = (
     Path("orchestration") / "relay" / "cowork-v1" / "artifacts" / "outgoing",
 )
@@ -84,7 +88,10 @@ def path_in_dir(path: Path, candidate: Path) -> bool:
 def classify_prompt(path: Path) -> Finding:
     if any(path_in_dir(path, allowed) for allowed in ALLOWED_PROMPT_DIRS):
         status = "live"
-        note = "prompt-like artifact in the sandbox prompt lane"
+        note = "prompt-like artifact in the successor-shell prompt lane"
+    elif any(path_in_dir(path, allowed) for allowed in PEDIGREE_COMMUNICATION_DIRS):
+        status = "pedigree-specimen"
+        note = "prompt-like artifact preserved as pedigree rather than live communications"
     else:
         status = "misfiled"
         note = "prompt-like artifact outside approved prompt lanes"
@@ -94,10 +101,13 @@ def classify_prompt(path: Path) -> Finding:
 def classify_response(path: Path) -> Finding:
     if any(path_in_dir(path, allowed) for allowed in ALLOWED_RESPONSE_DIRS):
         status = "live"
-        note = "response-like artifact in the sandbox response lane"
+        note = "response-like artifact in the successor-shell response lane"
     elif any(path_in_dir(path, allowed) for allowed in TRANSIENT_RESPONSE_DIRS):
         status = "transient-runtime"
         note = "response-like artifact in an approved relay staging lane"
+    elif any(path_in_dir(path, allowed) for allowed in PEDIGREE_COMMUNICATION_DIRS):
+        status = "pedigree-specimen"
+        note = "response-like artifact preserved as pedigree rather than live communications"
     else:
         status = "misfiled"
         note = "response-like artifact outside approved response lanes"
@@ -107,7 +117,10 @@ def classify_response(path: Path) -> Finding:
 def classify_handoff(path: Path) -> Finding:
     if any(path_in_dir(path, allowed) for allowed in ALLOWED_HANDOFF_DIRS):
         status = "live"
-        note = "handoff in the sandbox handoff lane"
+        note = "handoff in the successor-shell handoff lane"
+    elif any(path_in_dir(path, allowed) for allowed in PEDIGREE_COMMUNICATION_DIRS):
+        status = "pedigree-specimen"
+        note = "handoff preserved as pedigree rather than live communications"
     else:
         status = "misfiled"
         note = "handoff outside approved handoff lanes"

@@ -15,3 +15,6 @@ Federal promotion rules still apply:
 - responses go to [communications/responses](/Users/system/syncrescendence/communications/responses)
 - handoffs go to [communications/handoffs](/Users/system/syncrescendence/communications/handoffs)
 - executive or program artifacts go to their federal lanes
+
+Local artifact-shape doctrine:
+- [platform/contracts/ARTIFACT-SHAPES-v1.md](/Users/system/syncrescendence/offices/commander/platform/contracts/ARTIFACT-SHAPES-v1.md)

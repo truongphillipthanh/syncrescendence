@@ -32,6 +32,8 @@ An office may contain:
 - scratch space
 - outgoing work
 - runtime-local state
+- local contracts and templates
+- raw platform logs
 
 An office is not the constitution, the executive, the backlog, or the registry.
 It is a state/local execution surface inside the federal shell.
@@ -98,11 +100,32 @@ Minimal lawful office shape:
 - `scratchpad/`
 - `outbox/`
 - `platform/` or equivalent harness-local control surface
+- `platform/contracts/`
+- `platform/templates/`
+- `platform/logs/`
 
 Optional:
 
 - `blocked/`, `done/`, `failed/`, `pending/` subdivisions under `inbox/`
 - local runtime cache
+- additional office-specific sublanes as long as they do not shadow federal classes
+
+## 4.1 Local Artifact Classes
+
+The predecessor commander office proved that offices need lawful local artifact classes, not just folders.
+
+The key office-local classes are:
+
+- `TASK` / dispatch envelope
+- `RECEIPT`
+- `RESULT`
+- `CONFIRM`
+- `ALERT`
+- `BRIEFING`
+- `EXECLOG`
+
+These are local operating forms.
+They may later promote into federal communications, executive, program, runtime, or validated-pattern lanes depending on lineage value.
 
 ---
 
@@ -129,6 +152,7 @@ Forbidden:
 3. letting office memory become the only copy of reasoning or state
 4. using offices as silent archives
 5. duplicating federal prompts/responses in multiple offices without lineage
+6. treating raw logs as equivalent to receipts or results
 
 ---
 

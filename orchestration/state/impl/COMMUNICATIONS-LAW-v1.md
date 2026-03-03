@@ -169,6 +169,15 @@ The next shell should eventually separate these physically:
 
 Derived outputs may remain in output/program/implementation lanes, but should point back into communications lineage.
 
+### Pedigree exception
+
+Historical prompts, responses, and handoffs may also exist under:
+
+- `pedigree/originals/`
+- `pedigree/rehoused/`
+
+when they are being preserved as evidence or retrofit specimens rather than treated as live communications lanes.
+
 ---
 
 ## 5. Pairing and Lineage Rules

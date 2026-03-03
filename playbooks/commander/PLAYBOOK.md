@@ -6,6 +6,7 @@
 **Primary sources**:
 - [OFFICE-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICE-LAW-v1.md)
 - [OFFICES-LAYOUT-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICES-LAYOUT-v1.md)
+- [OFFICE-ARTIFACT-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICE-ARTIFACT-LAW-v1.md)
 - [offices/commander](/Users/system/syncrescendence/offices/commander)
 
 ## What This Office Is For
@@ -24,6 +25,7 @@ Commander is strongest when:
 - coordinating federal lanes
 - turning local ambiguity into clear filing decisions
 - promoting office-local state into lawful communications, executive, or program artifacts
+- enforcing receipt/result/confirm discipline across office boundaries
 
 ## Validated Operating Inputs
 

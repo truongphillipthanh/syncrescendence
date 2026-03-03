@@ -70,6 +70,18 @@ def refine_office(office: Path) -> None:
         office / "memory" / "sync" / "README.md",
         lane(f"{title} Memory Sync", "Cross-office or cross-machine sync notes that have not yet been promoted."),
     )
+    write_if_missing(
+        office / "platform" / "contracts" / "README.md",
+        lane(f"{title} Platform Contracts", "Local artifact-shape contracts, envelopes, and office-specific operating law."),
+    )
+    write_if_missing(
+        office / "platform" / "templates" / "README.md",
+        lane(f"{title} Platform Templates", "Reusable local templates for lawful office artifacts."),
+    )
+    write_if_missing(
+        office / "platform" / "logs" / "README.md",
+        lane(f"{title} Platform Logs", "Mechanical traces and raw local logs that should not masquerade as promoted results."),
+    )
 
 
 def main() -> int:
