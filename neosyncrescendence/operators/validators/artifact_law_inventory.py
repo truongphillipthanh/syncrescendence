@@ -24,6 +24,7 @@ ALLOWED_TOP_LEVEL = {
     "README.md",
     "communications",
     "executive",
+    "offices",
     "operators",
     "pedigree",
     "playbooks",

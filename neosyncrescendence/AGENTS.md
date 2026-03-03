@@ -30,6 +30,7 @@ Allowed root entries are:
 - `00-ORCHESTRATION/`
 - `communications/`
 - `executive/`
+- `offices/`
 - `operators/`
 - `pedigree/`
 - `playbooks/`
@@ -42,6 +43,7 @@ Allowed root entries are:
 - `communications/`: prompts, responses, handoffs, logs, retros, assessments
 - `executive/`: live intention and steering surfaces
 - `program/`: backlog, tranches, implementation sequencing
+- `offices/`: agent- and harness-local offices under federal law
 - `playbooks/`: harness- and surface-specific doctrine
 - `operators/`: validators, packet/bridge operators, staging tools
 - `runtime/`: copied runtime truth from working systems

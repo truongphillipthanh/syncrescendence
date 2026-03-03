@@ -10,6 +10,7 @@ Operate with these rules:
    - `communications/`
    - `executive/`
    - `program/`
+   - `offices/`
    - `playbooks/`
    - `operators/`
    - `runtime/`

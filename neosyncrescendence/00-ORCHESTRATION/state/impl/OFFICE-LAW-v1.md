@@ -134,11 +134,16 @@ Forbidden:
 
 ## 7. Successor-Shell Implication
 
-The successor shell should eventually have explicit office surfaces again.
-But they should appear only after:
+The successor shell now has an explicit office lane at:
 
-- communications law is stable
-- federal lane law is stable
-- office promotion rules are validator-enforceable
+- [offices](/Users/system/syncrescendence/neosyncrescendence/offices)
 
-Until then, office law is live constitutional doctrine and a migration target, not yet universal physicalization.
+That physicalization preserves the old `agents/` strength while keeping federal truth elsewhere.
+
+The operating rule is:
+
+- office-local work may live in `offices/`
+- anything with federal lineage value must still be promoted into communications, executive, program, pedigree, or runtime
+
+Office law is therefore no longer only a migration target.
+It is live constitutional doctrine and a physically instantiated local layer.

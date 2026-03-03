@@ -7,6 +7,11 @@ Current live playbooks:
 - [openclaw/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/openclaw/PLAYBOOK.md)
 - [oracle/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/oracle/PLAYBOOK.md)
 - [perplexity/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/perplexity/PLAYBOOK.md)
+- [commander/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/commander/PLAYBOOK.md)
+- [adjudicator/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/adjudicator/PLAYBOOK.md)
+- [ajna/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/ajna/PLAYBOOK.md)
+- [cartographer/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/cartographer/PLAYBOOK.md)
+- [psyche/PLAYBOOK.md](/Users/system/syncrescendence/neosyncrescendence/playbooks/psyche/PLAYBOOK.md)
 
 This lane is where repeated successful behavior should continue to compact.
 

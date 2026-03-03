@@ -6,12 +6,14 @@ Current staged classes:
 - validators
 - CLI↔web-gap packet/bridge operators
 - communications migration operators
+- office bootstrap operators
 
 ## Key surfaces
 
 - [validators/artifact_law_inventory.py](/Users/system/syncrescendence/neosyncrescendence/operators/validators/artifact_law_inventory.py)
 - [cli-web-gap](/Users/system/syncrescendence/neosyncrescendence/operators/cli-web-gap)
 - [migrate_communications_chain.py](/Users/system/syncrescendence/neosyncrescendence/operators/migrate_communications_chain.py)
+- [bootstrap_office.py](/Users/system/syncrescendence/neosyncrescendence/operators/bootstrap_office.py)
 
 ## Rule
 

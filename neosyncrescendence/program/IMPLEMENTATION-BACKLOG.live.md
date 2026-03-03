@@ -82,3 +82,14 @@
    Status: completed pedigree pass
 3. use that recovered hierarchy to guide future physicalization of successor-shell lanes rather than flattening by taste alone  
    Status: active
+
+### Tranche I — Office Physicalization
+
+1. instantiate a lawful `offices/` lane derived from the old `agents/` pedigree without reviving dashed logistics  
+   Status: active
+2. create first office roots for commander, adjudicator, ajna, cartographer, and psyche with clear promotion rules  
+   Vocabulary: `office`, `receipt`, `decision envelope`
+3. add executive sublanes for briefings, escalations, and summits so `-SOVEREIGN` meaning survives without its broken topology  
+   Status: active
+4. make office creation reproducible through an operator rather than hand-crafted drift  
+   Vocabulary: `operator`, `office`

@@ -7,6 +7,7 @@ These charters physicalize the federal shell inside `neosyncrescendence`.
 - `communications/`: communications law and lineage
 - `executive/`: live executive steering
 - `program/`: implementation program and sequencing
+- `offices/`: agent- and harness-local offices under federal law
 - `playbooks/`: harness- and surface-specific state doctrine
 - `operators/`: executable operators and enforcement
 - `runtime/`: observational live-state evidence

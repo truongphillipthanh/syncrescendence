@@ -41,6 +41,7 @@ The intended end state is inversion:
 - [communications](/Users/system/syncrescendence/neosyncrescendence/communications): prompts, responses, handoffs, logs, assessments
 - [executive](/Users/system/syncrescendence/neosyncrescendence/executive): live executive steering lane
 - [program](/Users/system/syncrescendence/neosyncrescendence/program): backlog and tranche lane
+- [offices](/Users/system/syncrescendence/neosyncrescendence/offices): lawful local offices for agents and harnesses
 - [playbooks](/Users/system/syncrescendence/neosyncrescendence/playbooks): harness and surface doctrine
 - [operators](/Users/system/syncrescendence/neosyncrescendence/operators): validators and proven execution operators
 - [runtime](/Users/system/syncrescendence/neosyncrescendence/runtime): copied runtime evidence from what already worked
