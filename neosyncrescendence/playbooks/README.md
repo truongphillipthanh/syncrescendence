@@ -10,7 +10,10 @@ Current live playbooks:
 
 This lane is where repeated successful behavior should continue to compact.
 
+It is also where office-local doctrine should eventually bind to specific harnesses once office law is physically instantiated.
+
 ## Authority
 
 - [PLAYBOOK-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/PLAYBOOK-LAW-v1.md)
 - [PLAYBOOK-COMPACTION-CANDIDATES-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/PLAYBOOK-COMPACTION-CANDIDATES-v1.md)
+- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/OFFICE-LAW-v1.md)

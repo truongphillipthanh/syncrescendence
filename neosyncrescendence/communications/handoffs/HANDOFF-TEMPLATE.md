@@ -1,8 +1,18 @@
 # Handoff Template
 
+**Handoff ID**: `<HO-YYYYMMDD-<slug>>`
 **Date**: `<YYYY-MM-DD>`
 **Lane**: `<lane>`
 **Status**: `<active | blocked | handed off>`
+**Prior lineage**: `<packet/response/handoff or none>`
+
+## Decision Envelope
+
+- **Why this handoff exists**: `<reason>`
+- **Assumptions still in force**:
+  - `<assumption>`
+- **Constraints inherited**:
+  - `<constraint>`
 
 ## What Was Done
 
@@ -22,3 +32,8 @@
 ## Blockers
 
 - `<blocker or none>`
+
+## Receipts
+
+- `<artifact proving current state>`
+- `<artifact proving current state>`

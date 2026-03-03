@@ -13,6 +13,7 @@ This index exists so the sandbox can be navigated without depending on legacy-re
 - [SYNCRESCENDENT-SCHEMATIC-DESIGN-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/SYNCRESCENDENT-SCHEMATIC-DESIGN-v1.md)
 - [SYNCRESCENDENT-ARTIFACT-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/SYNCRESCENDENT-ARTIFACT-LAW-v1.md)
 - [PLAYBOOK-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/PLAYBOOK-LAW-v1.md)
+- [OFFICE-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/OFFICE-LAW-v1.md)
 - [COMMUNICATIONS-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/COMMUNICATIONS-LAW-v1.md)
 - [SCRIPT-OPERATOR-TAXONOMY-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/SCRIPT-OPERATOR-TAXONOMY-v1.md)
 - [LANE-CHARTERS-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/LANE-CHARTERS-v1.md)

@@ -52,8 +52,8 @@
 ### Tranche E — Office Law and Communications Metadata
 
 1. derive successor-shell office law from the old `agents/` structure  
-   Vocabulary: `office`, `continuation/deletability`
+   Status: completed v1
 2. promote decision-envelope and receipt doctrine into sandbox templates and validators  
-   Vocabulary: `decision envelope`, `receipt`, `translation layer`
+   Status: active
 3. distinguish federal lanes from office-local lanes before broader migration continues  
    Intent: `INT-SHELL-003`
