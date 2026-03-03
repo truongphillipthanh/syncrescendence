@@ -1,0 +1,404 @@
+{
+  "label": "pre-schematic-design",
+  "root": "/Users/system/Desktop/syncrescendence_pre_schematic_design",
+  "entry_count": 62,
+  "summary": {
+    "archive-snapshot": 1,
+    "archive-tranche": 1,
+    "communications-pedigree": 3,
+    "constitution-pedigree": 3,
+    "knowledge-archive": 1,
+    "knowledge-reference": 1,
+    "live-communications": 1,
+    "live-executive": 1,
+    "live-operator": 1,
+    "live-playbook": 1,
+    "live-program": 1,
+    "office-or-playbook-pedigree": 1,
+    "operator-or-playbook-pedigree": 1,
+    "operator-or-runtime-pedigree": 1,
+    "operator-pedigree": 2,
+    "operator-review": 25,
+    "pedigree-or-knowledge-archive": 1,
+    "pedigree-review": 9,
+    "program-or-runtime-pedigree": 1,
+    "root-explanation": 1,
+    "runtime-local-state": 3,
+    "runtime-pedigree": 1,
+    "validated-patterns-or-operator-pedigree": 1
+  },
+  "entries": [
+    {
+      "name": "-INBOX",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": ".claude",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".env.graphiti",
+      "kind": "file",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".openclaw",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "00-ORCHESTRATION",
+      "kind": "directory",
+      "disposition": "program-or-runtime-pedigree",
+      "rationale": "program family mapping"
+    },
+    {
+      "name": "agents",
+      "kind": "directory",
+      "disposition": "office-or-playbook-pedigree",
+      "rationale": "office-playbook family mapping"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "artifact_law_inventory.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "ascertescence",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "bootstrap-mac-mini.sh",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "canon",
+      "kind": "directory",
+      "disposition": "pedigree-or-knowledge-archive",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "channel_surface_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "CLAUDE-EXT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "CLAUDE.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "CLI-WEB-GAP",
+      "kind": "directory",
+      "disposition": "validated-patterns-or-operator-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "cloudflare_domain_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "collect-mini-constellation-status.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "collect-tooling-surface-status.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "communications",
+      "kind": "directory",
+      "disposition": "live-communications",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "configs",
+      "kind": "directory",
+      "disposition": "operator-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "constellation-mini-stage1.sh",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "corpus",
+      "kind": "directory",
+      "disposition": "knowledge-archive",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "engine",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "executive",
+      "kind": "directory",
+      "disposition": "live-executive",
+      "rationale": "executive family mapping"
+    },
+    {
+      "name": "exocortex_event_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "finalize_cowork_relay_job.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "GEMINI-EXT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "GEMINI.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "github_issue_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "google_model_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "harness",
+      "kind": "directory",
+      "disposition": "operator-or-playbook-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "HEARTBEAT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "hydrate-openclaw-channels.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "IDENTITY.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "install-mini-constellation-launchagent.sh",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "machine",
+      "kind": "directory",
+      "disposition": "operator-or-runtime-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "Makefile",
+      "kind": "file",
+      "disposition": "operator-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "manus_checkpoint_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "memory",
+      "kind": "directory",
+      "disposition": "runtime-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "neocorpus",
+      "kind": "directory",
+      "disposition": "knowledge-reference",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "neosyncrescendence_root_cutover_snapshot_20260302-211958",
+      "kind": "directory",
+      "disposition": "archive-snapshot",
+      "rationale": "successor-shell snapshot preserved as cutover provenance"
+    },
+    {
+      "name": "normalize_event_ledger.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "obsidian_repo_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "ontology_v1.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "ontology_v1_schema.sql",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "OPENCLAW-EXT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "operators",
+      "kind": "directory",
+      "disposition": "live-operator",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "playbooks",
+      "kind": "directory",
+      "disposition": "live-playbook",
+      "rationale": "office-playbook family mapping"
+    },
+    {
+      "name": "program",
+      "kind": "directory",
+      "disposition": "live-program",
+      "rationale": "program family mapping"
+    },
+    {
+      "name": "README.md",
+      "kind": "file",
+      "disposition": "root-explanation",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "reconcile-ajna-events.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "render-configs.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "requirements-ontology.txt",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "root_offload_tranche_01_20260302-212029",
+      "kind": "directory",
+      "disposition": "archive-tranche",
+      "rationale": "offloaded predecessor payload preserved as tranche archive"
+    },
+    {
+      "name": "sanitize-openclaw-events.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "SOUL.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "sync-openclaw.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "TOOLS.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "USER.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "validate-configs.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "xai_model_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "youtube_feed_bridge.py",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    }
+  ]
+}

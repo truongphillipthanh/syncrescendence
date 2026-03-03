@@ -24,6 +24,7 @@ Current staged classes:
 - [exocortex](/Users/system/syncrescendence/operators/exocortex)
 - [ontology](/Users/system/syncrescendence/operators/ontology)
 - [machines](/Users/system/syncrescendence/operators/machines)
+- [migrate](/Users/system/syncrescendence/operators/migrate)
 
 ## Rule
 

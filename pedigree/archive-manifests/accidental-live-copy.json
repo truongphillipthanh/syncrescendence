@@ -1,0 +1,113 @@
+{
+  "label": "accidental-live-copy",
+  "root": "/Users/system/Desktop/syncrescendence_accidental_live_copy_20260302-211659",
+  "entry_count": 15,
+  "summary": {
+    "constitution-pedigree": 2,
+    "live-communications": 1,
+    "live-executive": 1,
+    "live-office": 1,
+    "live-operator": 1,
+    "live-pedigree": 1,
+    "live-playbook": 1,
+    "live-program": 1,
+    "live-runtime": 1,
+    "live-validated-patterns": 1,
+    "operator-pedigree": 1,
+    "program-or-runtime-pedigree": 1,
+    "root-explanation": 1,
+    "runtime-local-state": 1
+  },
+  "entries": [
+    {
+      "name": ".claude",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "00-ORCHESTRATION",
+      "kind": "directory",
+      "disposition": "program-or-runtime-pedigree",
+      "rationale": "program family mapping"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "CLAUDE.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "communications",
+      "kind": "directory",
+      "disposition": "live-communications",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "executive",
+      "kind": "directory",
+      "disposition": "live-executive",
+      "rationale": "executive family mapping"
+    },
+    {
+      "name": "Makefile",
+      "kind": "file",
+      "disposition": "operator-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "offices",
+      "kind": "directory",
+      "disposition": "live-office",
+      "rationale": "office-playbook family mapping"
+    },
+    {
+      "name": "operators",
+      "kind": "directory",
+      "disposition": "live-operator",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "pedigree",
+      "kind": "directory",
+      "disposition": "live-pedigree",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "playbooks",
+      "kind": "directory",
+      "disposition": "live-playbook",
+      "rationale": "office-playbook family mapping"
+    },
+    {
+      "name": "program",
+      "kind": "directory",
+      "disposition": "live-program",
+      "rationale": "program family mapping"
+    },
+    {
+      "name": "README.md",
+      "kind": "file",
+      "disposition": "root-explanation",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "runtime",
+      "kind": "directory",
+      "disposition": "live-runtime",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "validated-patterns",
+      "kind": "directory",
+      "disposition": "live-validated-patterns",
+      "rationale": "operator-runtime family mapping"
+    }
+  ]
+}

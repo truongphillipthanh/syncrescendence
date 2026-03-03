@@ -1,0 +1,228 @@
+{
+  "label": "pre-syncrephoenix",
+  "root": "/Users/system/Desktop/syncrescendence-pre-syncrephoenix",
+  "entry_count": 34,
+  "summary": {
+    "communications-pedigree": 4,
+    "constitution-pedigree": 3,
+    "executive-pedigree": 1,
+    "knowledge-feedstock": 1,
+    "office-or-playbook-pedigree": 1,
+    "operator-pedigree": 2,
+    "operator-review": 1,
+    "pedigree-or-knowledge-archive": 1,
+    "pedigree-review": 9,
+    "playbook-or-runtime-pedigree": 1,
+    "playbook-pedigree": 1,
+    "program-or-runtime-pedigree": 2,
+    "root-explanation": 1,
+    "runtime-local-state": 5,
+    "runtime-pedigree": 1
+  },
+  "entries": [
+    {
+      "name": "-INBOX",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "-OUTBOX",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "-SOVEREIGN",
+      "kind": "directory",
+      "disposition": "executive-pedigree",
+      "rationale": "executive family mapping"
+    },
+    {
+      "name": ".claude",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".constellation",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".env.graphiti",
+      "kind": "file",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".gemini",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".obsidian",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "00-ORCHESTRATION",
+      "kind": "directory",
+      "disposition": "program-or-runtime-pedigree",
+      "rationale": "program family mapping"
+    },
+    {
+      "name": "ACTIVE-TASKS.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "agents",
+      "kind": "directory",
+      "disposition": "office-or-playbook-pedigree",
+      "rationale": "office-playbook family mapping"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "BOOT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "canon",
+      "kind": "directory",
+      "disposition": "pedigree-or-knowledge-archive",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "CLAUDE-EXT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "CLAUDE.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "collab",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "CONTINUOUS-IMPROVEMENT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "engine",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "GEMINI-EXT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "GEMINI.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "GROK-EXT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "INTER-AGENT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "Makefile",
+      "kind": "file",
+      "disposition": "operator-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "memory",
+      "kind": "directory",
+      "disposition": "runtime-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "migrate.sh",
+      "kind": "file",
+      "disposition": "operator-review",
+      "rationale": "top-level executable or config requires operator-law review"
+    },
+    {
+      "name": "openclaw",
+      "kind": "directory",
+      "disposition": "playbook-or-runtime-pedigree",
+      "rationale": "office-playbook family mapping"
+    },
+    {
+      "name": "OPENCLAW-EXT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "orchestration",
+      "kind": "directory",
+      "disposition": "program-or-runtime-pedigree",
+      "rationale": "program family mapping"
+    },
+    {
+      "name": "praxis",
+      "kind": "directory",
+      "disposition": "playbook-pedigree",
+      "rationale": "office-playbook family mapping"
+    },
+    {
+      "name": "README.md",
+      "kind": "file",
+      "disposition": "root-explanation",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "scripts",
+      "kind": "directory",
+      "disposition": "operator-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "sources",
+      "kind": "directory",
+      "disposition": "knowledge-feedstock",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "WORK-LOOP.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    }
+  ]
+}

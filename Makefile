@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain operator-tree
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact operator-tree
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -18,3 +18,15 @@ migrate-communications-chain:
 
 operator-tree:
 	@find operators -maxdepth 2 -type f | sort
+
+archive-shell-manifest:
+	@test -n "$(ROOT)" || (echo "usage: make archive-shell-manifest ROOT=/abs/path LABEL=name" && exit 1)
+	@test -n "$(LABEL)" || (echo "usage: make archive-shell-manifest ROOT=/abs/path LABEL=name" && exit 1)
+	python3 operators/migrate/archive_shell_manifest.py --root "$(ROOT)" --label "$(LABEL)"
+
+rehouse-archived-artifact:
+	@test -n "$(SOURCE)" || (echo "usage: make rehouse-archived-artifact SOURCE=/abs/path DEST_REL=pedigree/rehoused/foo.md LABEL=slug REASON='why'" && exit 1)
+	@test -n "$(DEST_REL)" || (echo "usage: make rehouse-archived-artifact SOURCE=/abs/path DEST_REL=pedigree/rehoused/foo.md LABEL=slug REASON='why'" && exit 1)
+	@test -n "$(LABEL)" || (echo "usage: make rehouse-archived-artifact SOURCE=/abs/path DEST_REL=pedigree/rehoused/foo.md LABEL=slug REASON='why'" && exit 1)
+	@test -n "$(REASON)" || (echo "usage: make rehouse-archived-artifact SOURCE=/abs/path DEST_REL=pedigree/rehoused/foo.md LABEL=slug REASON='why'" && exit 1)
+	python3 operators/migrate/rehouse_archived_artifact.py --source "$(SOURCE)" --dest-rel "$(DEST_REL)" --label "$(LABEL)" --reason "$(REASON)"

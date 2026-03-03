@@ -1,0 +1,147 @@
+{
+  "label": "before-full",
+  "root": "/Users/system/Desktop/syncrescendence-before-full",
+  "entry_count": 21,
+  "summary": {
+    "communications-pedigree": 4,
+    "constitution-pedigree": 2,
+    "executive-pedigree": 1,
+    "knowledge-feedstock": 1,
+    "operator-pedigree": 1,
+    "pedigree-or-knowledge-archive": 1,
+    "pedigree-review": 4,
+    "playbook-or-knowledge-pedigree": 1,
+    "program-or-runtime-pedigree": 1,
+    "runtime-local-state": 3,
+    "runtime-pedigree": 1,
+    "unclassified": 1
+  },
+  "entries": [
+    {
+      "name": "-INBOX",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "-OUTBOX",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "-OUTGOING",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "communications family mapping"
+    },
+    {
+      "name": "-SOVEREIGN",
+      "kind": "directory",
+      "disposition": "executive-pedigree",
+      "rationale": "executive family mapping"
+    },
+    {
+      "name": ".constellation",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".gemini",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": ".obsidian",
+      "kind": "directory",
+      "disposition": "runtime-local-state",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "00-ORCHESTRATION",
+      "kind": "directory",
+      "disposition": "program-or-runtime-pedigree",
+      "rationale": "program family mapping"
+    },
+    {
+      "name": "01-CANON",
+      "kind": "directory",
+      "disposition": "pedigree-or-knowledge-archive",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "02-ENGINE",
+      "kind": "directory",
+      "disposition": "communications-pedigree",
+      "rationale": "engine treated as prompt/spec/response lineage pedigree"
+    },
+    {
+      "name": "04-SOURCES",
+      "kind": "directory",
+      "disposition": "knowledge-feedstock",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "05-SIGMA",
+      "kind": "directory",
+      "disposition": "playbook-or-knowledge-pedigree",
+      "rationale": "knowledge-pedigree family mapping"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "COCKPIT.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "findings.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "GEMINI.md",
+      "kind": "file",
+      "disposition": "constitution-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "Makefile",
+      "kind": "file",
+      "disposition": "operator-pedigree",
+      "rationale": "directly mapped by name"
+    },
+    {
+      "name": "Makefile 2",
+      "kind": "file",
+      "disposition": "unclassified",
+      "rationale": "no rule yet"
+    },
+    {
+      "name": "memory",
+      "kind": "directory",
+      "disposition": "runtime-pedigree",
+      "rationale": "operator-runtime family mapping"
+    },
+    {
+      "name": "progress.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    },
+    {
+      "name": "task_plan.md",
+      "kind": "file",
+      "disposition": "pedigree-review",
+      "rationale": "top-level document requires hermeneutic review before promotion"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "label": "before-full-cockpit",
+  "source": "/Users/system/Desktop/syncrescendence-before-full/COCKPIT.md",
+  "destination": "/Users/system/syncrescendence/pedigree/rehoused/before-full/COCKPIT.md",
+  "dest_rel": "pedigree/rehoused/before-full/COCKPIT.md",
+  "reason": "Preserve the numbered-shell orientation document as explicit predecessor-shell pedigree for later playbook and shell-governance compaction.",
+  "timestamp_utc": "20260303T053733Z"
+}

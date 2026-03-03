@@ -1,0 +1,95 @@
+# Archive Shell Manifest: pre-schematic-design
+
+- root: [/Users/system/Desktop/syncrescendence_pre_schematic_design](/Users/system/Desktop/syncrescendence_pre_schematic_design)
+- top-level entries: 62
+
+## Disposition Summary
+
+- `archive-snapshot`: 1
+- `archive-tranche`: 1
+- `communications-pedigree`: 3
+- `constitution-pedigree`: 3
+- `knowledge-archive`: 1
+- `knowledge-reference`: 1
+- `live-communications`: 1
+- `live-executive`: 1
+- `live-operator`: 1
+- `live-playbook`: 1
+- `live-program`: 1
+- `office-or-playbook-pedigree`: 1
+- `operator-or-playbook-pedigree`: 1
+- `operator-or-runtime-pedigree`: 1
+- `operator-pedigree`: 2
+- `operator-review`: 25
+- `pedigree-or-knowledge-archive`: 1
+- `pedigree-review`: 9
+- `program-or-runtime-pedigree`: 1
+- `root-explanation`: 1
+- `runtime-local-state`: 3
+- `runtime-pedigree`: 1
+- `validated-patterns-or-operator-pedigree`: 1
+
+## Top-Level Entry Classification
+
+- `-INBOX` (directory): `communications-pedigree` — communications family mapping
+- `.claude` (directory): `runtime-local-state` — operator-runtime family mapping
+- `.env.graphiti` (file): `runtime-local-state` — operator-runtime family mapping
+- `.openclaw` (directory): `runtime-local-state` — operator-runtime family mapping
+- `00-ORCHESTRATION` (directory): `program-or-runtime-pedigree` — program family mapping
+- `agents` (directory): `office-or-playbook-pedigree` — office-playbook family mapping
+- `AGENTS.md` (file): `constitution-pedigree` — directly mapped by name
+- `artifact_law_inventory.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `ascertescence` (directory): `communications-pedigree` — communications family mapping
+- `bootstrap-mac-mini.sh` (file): `operator-review` — top-level executable or config requires operator-law review
+- `canon` (directory): `pedigree-or-knowledge-archive` — knowledge-pedigree family mapping
+- `channel_surface_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `CLAUDE-EXT.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `CLAUDE.md` (file): `constitution-pedigree` — directly mapped by name
+- `CLI-WEB-GAP` (directory): `validated-patterns-or-operator-pedigree` — operator-runtime family mapping
+- `cloudflare_domain_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `collect-mini-constellation-status.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `collect-tooling-surface-status.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `communications` (directory): `live-communications` — communications family mapping
+- `configs` (directory): `operator-pedigree` — operator-runtime family mapping
+- `constellation-mini-stage1.sh` (file): `operator-review` — top-level executable or config requires operator-law review
+- `corpus` (directory): `knowledge-archive` — knowledge-pedigree family mapping
+- `engine` (directory): `communications-pedigree` — communications family mapping
+- `executive` (directory): `live-executive` — executive family mapping
+- `exocortex_event_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `finalize_cowork_relay_job.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `GEMINI-EXT.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `GEMINI.md` (file): `constitution-pedigree` — directly mapped by name
+- `github_issue_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `google_model_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `harness` (directory): `operator-or-playbook-pedigree` — operator-runtime family mapping
+- `HEARTBEAT.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `hydrate-openclaw-channels.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `IDENTITY.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `install-mini-constellation-launchagent.sh` (file): `operator-review` — top-level executable or config requires operator-law review
+- `machine` (directory): `operator-or-runtime-pedigree` — operator-runtime family mapping
+- `Makefile` (file): `operator-pedigree` — directly mapped by name
+- `manus_checkpoint_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `memory` (directory): `runtime-pedigree` — operator-runtime family mapping
+- `neocorpus` (directory): `knowledge-reference` — knowledge-pedigree family mapping
+- `neosyncrescendence_root_cutover_snapshot_20260302-211958` (directory): `archive-snapshot` — successor-shell snapshot preserved as cutover provenance
+- `normalize_event_ledger.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `obsidian_repo_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `ontology_v1.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `ontology_v1_schema.sql` (file): `operator-review` — top-level executable or config requires operator-law review
+- `OPENCLAW-EXT.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `operators` (directory): `live-operator` — operator-runtime family mapping
+- `playbooks` (directory): `live-playbook` — office-playbook family mapping
+- `program` (directory): `live-program` — program family mapping
+- `README.md` (file): `root-explanation` — directly mapped by name
+- `reconcile-ajna-events.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `render-configs.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `requirements-ontology.txt` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `root_offload_tranche_01_20260302-212029` (directory): `archive-tranche` — offloaded predecessor payload preserved as tranche archive
+- `sanitize-openclaw-events.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `SOUL.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `sync-openclaw.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `TOOLS.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `USER.md` (file): `pedigree-review` — top-level document requires hermeneutic review before promotion
+- `validate-configs.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `xai_model_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
+- `youtube_feed_bridge.py` (file): `operator-review` — top-level executable or config requires operator-law review
