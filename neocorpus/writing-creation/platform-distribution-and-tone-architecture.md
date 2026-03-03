@@ -85,10 +85,20 @@ The Three-Rail system (Editorial, Instrumentation, Stewardship) provides the qua
 
 Feedcraft (CANON-31110) and the extended Taxonomy (CANON-31121) are in Syncrescript notation with substantive content — including platform ontology, constitutional architecture, and the full dimensional taxonomy reference. Their content will further enrich this entry once fully integrated into the synthesis.
 
-## Open Questions
+## Obsolescence and Supersession
 
-- CANON-31110 (Feedcraft) and CANON-31121 (Taxonomy) are uncompressed stubs. What additional frameworks emerge once their full content is available?
-- The Tone Library assumes a single authorial voice being adapted. How does it handle collaborative or multi-author content?
-- The platform architecture describes ~15 platforms. What is the minimum viable platform set for a solo practitioner at each stage (Consumer through Compounder)?
-- Guardrail 5 (No Philosophical Maximalism) creates tension with the project's broader cosmological framing. Where is the line between necessary ambition and unsupported cosmic claims?
-- The 10 Recipient Archetypes in CANON-31121 suggest audience segmentation — how do these map to platform selection decisions?
+**"Reformat the same content for each platform" was superseded by independent-dimension tuning.** The early multi-platform content strategy treated platform adaptation as reformatting — take the essay, cut it for Twitter, cut it shorter for Instagram. The Tone Library dimensional system (CANON-31120) represents a structural correction: platform adaptation is not reformatting but tuning seven independent dimensions (rhetorical function, stylistic form, evidence type, cadence, diction, CTA, guardrails) that can be varied independently. The same conceptual claim can be EXPLAINED via THREAD with STACCATO cadence and PLAIN diction on X, or SYNTHESIZED via ESSAY with FLOWING cadence and ELEVATED diction on Substack. These are not shorter/longer versions of the same thing; they are different cognitive operations on the same underlying idea.
+
+**"Publish everywhere simultaneously" as distribution strategy was superseded by sequenced platform topology.** The naive multi-platform strategy (publish to all platforms at once, maximize reach) ignores the feed physics of different platforms and creates coordination overhead that degrades quality uniformly. The 00932.md architecture supersedes this with a sequenced topology: "No platform added until upstream hand-off reliable. Every post ends with exactly one invitation. Three channels executed excellently before fourth exists." The sequencing principle (X threads graduate to Medium essays, Medium anchors Substack, Substack fuels Discord) creates a compounding architecture where each platform feeds the next rather than competing with it for production resources.
+
+**"Intuitive voice adaptation" as the production model was superseded by parameterized tone architecture.** Before the Tone Library pattern, multi-platform voice consistency was treated as a craft judgment — the author "knew" how to sound on each platform through developed intuition. This does not scale: intuition is founder-dependent, not teachable or systematizable. The dimensional parameterization (CANON-31120, CANON-31121) represents the supersession: encoding taste into a machine-readable system where every piece derives from proven patterns. The shift is from "the author adapts the voice" to "the system produces voice-consistent outputs the author validates." The Compounder insight applied directly: the Tone Library is a compounding asset — it encodes voice so the system works without the founder's presence.
+
+**"Content production as isolated creative acts" was superseded by a nine-phase production workflow with feedback integration.** The pre-systematic creative approach treated each piece as an independent creative event — inspiration, draft, publish. The CANON-31120 nine-phase protocol (select concept, identify audience/platform, select/compose Recipe, draft, assess readability, revise for guardrails, format/publish, track engagement, analyze patterns and update Tone Library) closes the loop by making engagement data an input to the Tone Library update. The ninth phase is the structural supersession: the system learns from outcomes and updates its own patterns. This is not "publish and see what happens" but "publish, measure, and refine the production system."
+
+## Audit Note
+CANON-31110 (Feedcraft) and CANON-31121 (Taxonomy) are in Syncrescript notation; their full content includes additional frameworks around platform ontology and extended taxonomy that are noted but not yet fully integrated into this entry. O&S above is grounded in 00932.md and CANON-31120 where content is accessible in prose form.
+
+## Cross-References
+- neocorpus/writing-creation/creative-leverage-and-production-systems.md (the Compounder model this distribution system serves)
+- neocorpus/writing-creation/writing-craft-and-articulation.md (the craft that the Tone Library encodes)
+- neocorpus/productivity-pkm/second-brain-para-notion-notebooklm.md (organizational architecture that stores the compounding knowledge)

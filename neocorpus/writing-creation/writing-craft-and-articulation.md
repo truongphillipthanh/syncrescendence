@@ -35,8 +35,18 @@ The three frameworks form a genuine progression: Micro Story teaches the atomic 
 
 The deeper insight is that articulation and writing are the same skill. Writing is "the foundation of media" and therefore the foundation of all professional persuasion — "video scripts, posts, sales copywriting, post captions, and anywhere else that someone is reading a written post or spoken script, which is nearly everything" (00026.md). Public posting adds a feedback loop (engagement metrics) that accelerates refinement of the Greatest Hits album.
 
-## Open Questions
+## Obsolescence and Supersession
 
-- How does AI-assisted writing interact with this skill-building? If the bottleneck is thinking-through-writing, does LLM drafting short-circuit the cognitive benefit?
-- The Greatest Hits model assumes a personal brand context. How does this translate to institutional or anonymous writing?
-- Cross-Domain Synthesis requires genuine polymathy. What is the minimum viable breadth of interests for this framework to work?
+**"Always say something new" as the excellence standard for communicators was corrected by the Greatest Hits model.** The dominant cultural frame for intellectual communicators — writers, speakers, teachers — rewards novelty. Repeating yourself is considered a failure of creativity or a sign of limited range. The Dan Koe correction (00026.md) inverts this specifically: repetition is a feature, not a bug. Your best ideas deserve to be repeated because each repetition refines them. The musician analogy is the supersession argument: audiences follow you for a specific sound, and "greatest hits" are the most recognizable expression of that sound. The failure mode that was superseded is the constant-novelty trap — cycling through shallow treatments of many ideas instead of developing deep treatments of a few.
+
+**"Withholding the conclusion as narrative tension" was superseded by answer-first communication for professional contexts.** The traditional narrative structure (hook, build, payoff) withholds the main conclusion until the end, using anticipation as the retention mechanism. The Pyramid Principle (00026.md) represents a structural supersession for professional and intellectual content: lead with the main conclusion, support with 3-5 key arguments, then evidence. The claim is that professional readers are not consuming for narrative pleasure but for information and judgment — they benefit from knowing where the argument lands before deciding whether to invest in the support. Answer-first is native to the medium (threads, newsletters, professional essays) in a way that traditional narrative withholding is not.
+
+**"Domain expertise as the prerequisite for differentiation" was superseded by cross-domain transfer as the differentiator.** The pre-internet assumption was that differentiation came from knowing a domain more deeply than competitors. Cross-Domain Synthesis (00026.md) documents the supersession: borrowing concepts from other disciplines ("if I'm talking about deep work, I can use the concept of entropy from physics to illustrate how distraction works") produces differentiation that depth alone cannot. The mechanism is that novel analogical transfer teaches the audience something unavailable from any single-domain expert. The prerequisite shifts from depth-in-one-domain to breadth-across-domains plus the cognitive skill of recognizing transferable structure.
+
+## Audit Note
+This entry draws from a single source (00026.md, Dan Koe's "How to Articulate Yourself Intelligently"). O&S sections are grounded directly in that source. The single-source limitation means O&S reflects the evolution documented within one framework rather than cross-source temporal comparison. Additional sources would allow richer supersession chains.
+
+## Cross-References
+- neocorpus/writing-creation/creative-leverage-and-production-systems.md (the production system that writing craft feeds)
+- neocorpus/writing-creation/platform-distribution-and-tone-architecture.md (platform adaptation of these frameworks)
+- neocorpus/productivity-pkm/skill-stacking-agency-polymathic-learning.md (cross-domain polymathy enabling synthesis)

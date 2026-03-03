@@ -91,9 +91,18 @@ The fundamental tension is between the Compounder ideal (build systems that work
 
 The Buckminster Fuller principle runs through everything: "If you want to teach people a new way of thinking, don't bother trying to teach them. Instead, give them a tool, the use of which will lead to new ways of thinking" (00223.md). The Compounder builds the tool. The production system ensures the Compounder can sustain the effort of building it.
 
-## Open Questions
+## Obsolescence and Supersession
 
-- How does the Compounder model apply to domains where the knowledge itself is the product (e.g., consulting, therapy) rather than a packagable framework?
-- CANON-00014 assumes full-time commitment (55-70 productive hours weekly). What does a viable part-time production protocol look like?
-- The tool-shaped objects critique implies most AI agent systems are self-referential. How do you test whether your own production system has become a tool-shaped object?
-- Voice synthesis is maturing fast (Voicebox, ElevenLabs). When does voice cloning become a standard part of the content production pipeline rather than a specialty tool?
+**"Who knows more" as the dominant creative competitive axis was superseded by "who built something useful with what they know."** The pre-AI creative economy rewarded deep domain expertise — years of accumulated craft knowledge, relationships with gatekeepers, and access to expensive production equipment. The Buckminster Fuller framing in 00223.md captures the supersession precisely: the event that made this click was a group of hobbyist developers shipping a cinematic-techniques tool in a weekend that outperformed years of methodological work by industry veterans. They didn't explain why a Dutch angle works; they gave people the angle, named it, coded it, shipped it. The competitive axis moved from "depth of knowledge" to "what you built with the knowledge." Explanation as the primary product is being superseded by tools that instantiate the explanation.
+
+**"Execution skill as creative value proposition" was structurally undermined.** Branding agencies, design studios, architects — all had businesses built on execution difficulty. The client needed you because they couldn't execute at professional quality without you. AI compressed the execution layer toward near-zero cost. The 00223.md diagnosis is structural: the four-stage hierarchy (Consumer, Curator, Creator, Compounder) is not a talent hierarchy but a leverage hierarchy. Creators who were at Stage 3 — producing original work with recognizable style — found that AI made each project faster but did not change the fundamental equation: one unit of effort still produces one unit of output. The supersession requires moving from "I can do this for you" to "I built this for me — here's what I learned, now you can use it too." Value migrates from execution to system.
+
+**"AI consumption disguised as AI production" was named as the dominant failure mode.** The early AI creative discourse treated high AI usage as evidence of creative productivity. The tool-shaped objects critique (03451.jsonl) documents the correction: an LLM is uniquely effective as a tool-shaped object because its verbal fluency produces "the sensation of anything." The test that emerged is behavioral: is the primary product the experience of using the tool, or something external the tool helped create? GPU spending and tool subscription counts measure the former. The supersession of measurement methodology: track external outputs that outlast the session, not session activity.
+
+**Energy-state-aware scheduling superseded "work harder on your worst days."** The pre-CANON-00014 productivity default was effort-based: if output was low, apply more effort. The energy-state-production mapping (CANON-00014) falsifies this specifically for creative production: attempting complex synthesis at Baseline (40-50%) degrades quality below acceptable standards, and production at Depletion creates "technical debt and brand damage." The supersession is energy-state selection rather than effort escalation: choose what to produce based on energy state, not importance of topic. Important insights can be delivered at any tier.
+
+## Cross-References
+
+- neocorpus/writing-creation/writing-craft-and-articulation.md (the craft layer within systems)
+- neocorpus/writing-creation/platform-distribution-and-tone-architecture.md (the distribution layer)
+- neocorpus/productivity-pkm/ai-workflow-adoption-bottlenecks.md (AI amplifier vs. leveler dynamic)
