@@ -18,6 +18,8 @@
 - 09582.md — "You Are Not Prepared For 2027"
 - 03465.md — Carnegie Mellon: what you must know before AGI arrives
 - 09670.md — "What You Need to Know Before AI Gets Too Smart"
+- 01623.md — USA Genesis Mission: DOE supercomputers for scientific foundation models, closed-loop AI experimentation, Amazon $50B AWS commitment
+- 03133.jsonl — Davos 2026 governance atoms: US-China AI race, GPU diplomacy, patents in AI-driven world
 
 ## Two Governance Failure Modes
 
@@ -43,11 +45,13 @@ The Pentagon directive (09640): the US defense apparatus is being ordered to pre
 
 Trump's AI executive order (09700) establishes federal preemption of state AI laws — centralizing regulation at the federal level. Insurers are seeking to exclude AI risk from coverage (09524), signaling that the insurance industry sees AI creating systemic, correlated loss scenarios that existing models cannot price.
 
+The USA's **Genesis Mission** (01623) represents a distinct institutional response: a national AI science program designed to centralize federal datasets, train scientific foundation models, and build a closed-loop AI experimentation platform using Department of Energy supercomputers. Amazon committed up to $50 billion to expand AWS supercomputing capacity for both classified and unclassified government AI work (01623). This is not governance in the regulatory sense but governance through infrastructure — whoever controls the compute substrate shapes what AI can do. The GPU diplomacy framing at Davos 2026 (03133) — where chip access becomes a geopolitical lever comparable to oil — reinforces this structural dimension.
+
 ## The Skeptic Position
 
 Not everyone agrees the governance challenge is real:
 - Lee Cronin: "Sam Altman Is Delusional, Hinton Needs Therapy, P(Doom) Is Nonsense" (09905) — chemist's perspective that current AI is fundamentally different from genuine intelligence
-- Kyle Hill: "Artificial Superintelligence Must Be Illegal" (03129, 10349) — precautionary prohibition argument
+- Kyle Hill: "Artificial Superintelligence Must Be Illegal" (03129, 10349) — precautionary prohibition argument, grounded in Yudkowsky and Soares's thesis "If Anyone Builds It, Everyone Dies" — the claim that ASI represents a categorically uncontrollable risk warranting legal prohibition (03129)
 - The P(doom) debate reveals deep disagreement about whether current trajectories are actually dangerous or merely impressive
 
 ## Antipatterns & Lessons
