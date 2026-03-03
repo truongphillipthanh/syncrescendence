@@ -13,14 +13,15 @@
 - `corpus/productivity-pkm/03540.md` — Extraction: How to Win When Everyone Has AI (16 atoms: amplification thesis)
 - `corpus/productivity-pkm/03051.md` — Extraction: AI interpretability and thinking (9 atoms)
 - `corpus/productivity-pkm/00951.md` — Essential AI Tools for Academic Research
+- `corpus/productivity-pkm/02970.md` — Bottleneck shifted to cognitive architecture: engineering manager mindset, kill the contribution badge, systems thinking over tool optimization
 
 ## Core Thesis
 AI tools are widely available but inconsistently effective. The bottleneck has shifted from AI capability to human cognitive architecture (02968, 02700). The $700 billion productivity problem (09557) is not that AI does not work but that organizations cannot measure whether it works, cannot train employees to use it effectively, and cannot distinguish between genuine productivity gains and the illusion of productivity. 80% of workers abandon AI tools within three weeks (03042). The differentiator is not the tool but the user's capacity for judgment, delegation, and quality assessment — management skills, not prompting skills.
 
 ## Key Frameworks
 
-### 1. The Bottleneck Shift Model (02700, 02968)
-Execution capacity is no longer the scarce resource. When AI can build features faster than meetings can discuss them ("Anthropic shipped Cowork in 10 days with four people"), the bottleneck moves downstream to clarity, ambition, and distribution (02700). "The meeting to discuss a feature now takes longer than building it." When a bottleneck is eliminated, it moves downstream — eliminating execution bottlenecks exposes decision and distribution bottlenecks. "Distribution is the moat when everyone can build."
+### 1. The Bottleneck Shift Model (02700, 02968, 02970)
+Execution capacity is no longer the scarce resource. When AI can build features faster than meetings can discuss them ("Anthropic shipped Cowork in 10 days with four people"), the bottleneck moves downstream to clarity, ambition, and distribution (02700). "The meeting to discuss a feature now takes longer than building it." When a bottleneck is eliminated, it moves downstream — eliminating execution bottlenecks exposes decision and distribution bottlenecks. "Distribution is the moat when everyone can build." Source 02970 extends this with three concrete prescriptions: adopt an engineering manager mindset (supervise AI work rather than doing it yourself), kill the contribution badge (stop measuring personal code output and start measuring system output), and develop strategic deep diving across both technical and non-technical work. The key claim: "experience cannot be compressed at the speed one can build" — building is now cheap, but the judgment to know what to build still requires lived operational experience. What separates high-performers is systems thinking and fluid movement between altitudes of abstraction, not access to better tools.
 
 ### 2. Amplifier vs Diminisher Effect (10724, 03540)
 Same AI, same task, divergent outcomes. 10724 documents the phenomenon: half the users got measurably worse. The BCG/Harvard research (cited in 03042) found that AI users performed worse on tasks outside the AI's capability frontier. The 03540 extraction provides the macro frame: AI amplifies differences — "good people become better and great people become unusually effective" — but it also amplifies weaknesses. AI is not a leveler; it is an amplifier.
