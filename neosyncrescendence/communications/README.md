@@ -26,6 +26,10 @@ Use it for:
 - [assessments/ASSESSMENT-TEMPLATE.md](/Users/system/syncrescendence/neosyncrescendence/communications/assessments/ASSESSMENT-TEMPLATE.md)
 - [handoffs/HANDOFF-TEMPLATE.md](/Users/system/syncrescendence/neosyncrescendence/communications/handoffs/HANDOFF-TEMPLATE.md)
 
+## First Absorbed Live Chain
+
+- [COMMUNICATIONS-MIGRATION-TRANCHE-01.md](/Users/system/syncrescendence/neosyncrescendence/communications/assessments/COMMUNICATIONS-MIGRATION-TRANCHE-01.md)
+
 ## Rule
 
 Inside the sandbox, this lane is no longer merely “future-lane.”
