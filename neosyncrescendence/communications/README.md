@@ -29,6 +29,7 @@ Use it for:
 ## First Absorbed Live Chain
 
 - [COMMUNICATIONS-MIGRATION-TRANCHE-01.md](/Users/system/syncrescendence/neosyncrescendence/communications/assessments/COMMUNICATIONS-MIGRATION-TRANCHE-01.md)
+- [COMMUNICATIONS-MIGRATION-TRANCHE-02-GOLD-MINE.md](/Users/system/syncrescendence/neosyncrescendence/communications/assessments/COMMUNICATIONS-MIGRATION-TRANCHE-02-GOLD-MINE.md)
 
 ## Rule
 

@@ -57,3 +57,12 @@
    Status: active
 3. distinguish federal lanes from office-local lanes before broader migration continues  
    Intent: `INT-SHELL-003`
+
+### Tranche F — Constitutional Lineage Absorption
+
+1. absorb the original gold-mine Oracle scaffold/config/memory line into successor-shell communications  
+   Status: completed tranche 02
+2. preserve missing-response gaps as explicit debt rather than implicit summary lore  
+   Vocabulary: `communications law`, `pedigree`
+3. absorb the CLI↔web-gap proof chain after the constitutional chain  
+   Status: active
