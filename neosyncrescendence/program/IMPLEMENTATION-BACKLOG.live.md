@@ -6,6 +6,7 @@
 
 - **Executive source**: [INTENT-COMPASS.live.md](/Users/system/syncrescendence/neosyncrescendence/executive/INTENT-COMPASS.live.md)
 - **Vocabulary source**: [ROSETTA-STONE.live.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/ROSETTA-STONE.live.md)
+- **Governance law**: [INTENT-PROGRAM-GOVERNANCE-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/INTENT-PROGRAM-GOVERNANCE-v1.md)
 
 ## Active Tranche
 
@@ -102,3 +103,12 @@
    Status: active
 3. revise the live Rosetta so it is derived from pedigree without collapsing back into a mega-glossary  
    Vocabulary: `pedigree`, `semantic debt`, `inversion`
+
+### Tranche K — Intent and Program Rebind
+
+1. reconstitute the live intent compass from the old intention archaeology instrument without restoring its sprawl  
+   Status: active
+2. explicitly define one live program authority and demote backlog hydra remnants to pedigree or local queue status  
+   Status: active
+3. preserve queue-type distinctions without preserving competing authorities  
+   Vocabulary: `program`, `office`, `receipt`, `protected zone`

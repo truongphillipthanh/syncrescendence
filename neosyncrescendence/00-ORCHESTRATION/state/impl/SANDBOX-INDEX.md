@@ -16,6 +16,7 @@ This index exists so the sandbox can be navigated without depending on legacy-re
 - [OFFICE-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/OFFICE-LAW-v1.md)
 - [COMMUNICATIONS-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/COMMUNICATIONS-LAW-v1.md)
 - [EXECUTIVE-LANE-LAW-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/EXECUTIVE-LANE-LAW-v1.md)
+- [INTENT-PROGRAM-GOVERNANCE-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/INTENT-PROGRAM-GOVERNANCE-v1.md)
 - [SCRIPT-OPERATOR-TAXONOMY-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/SCRIPT-OPERATOR-TAXONOMY-v1.md)
 - [LANE-CHARTERS-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/LANE-CHARTERS-v1.md)
 - [PRE-SYNCREPHOENIX-ARCHAEOLOGY-v1.md](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl/PRE-SYNCREPHOENIX-ARCHAEOLOGY-v1.md)
@@ -42,6 +43,8 @@ This index exists so the sandbox can be navigated without depending on legacy-re
 - [ROSETTA-STONE-EXEGESIS-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/ROSETTA-STONE-EXEGESIS-v1.md)
 - [ROSETTA-HERMENEUTIC-ASSESSMENT-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/ROSETTA-HERMENEUTIC-ASSESSMENT-v1.md)
 - [ROSETTA-TERM-DISPOSITION-MATRIX-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/ROSETTA-TERM-DISPOSITION-MATRIX-v1.md)
+- [INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md)
+- [BACKLOG-HYDRA-ASSESSMENT-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/BACKLOG-HYDRA-ASSESSMENT-v1.md)
 - [INTENT-COMPASS.live.md](/Users/system/syncrescendence/neosyncrescendence/executive/INTENT-COMPASS.live.md)
 - [IMPLEMENTATION-BACKLOG.live.md](/Users/system/syncrescendence/neosyncrescendence/program/IMPLEMENTATION-BACKLOG.live.md)
 

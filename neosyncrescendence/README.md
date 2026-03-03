@@ -50,6 +50,8 @@ The intended end state is inversion:
 - [00-ORCHESTRATION/state/impl](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/state/impl): redesign package and shell law
 - [00-ORCHESTRATION/relay/cowork-v1](/Users/system/syncrescendence/neosyncrescendence/00-ORCHESTRATION/relay/cowork-v1): sandbox-native relay substrate
 - [pedigree/ROSETTA-HERMENEUTIC-ASSESSMENT-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/ROSETTA-HERMENEUTIC-ASSESSMENT-v1.md): semantic reading of the original Rosetta
+- [pedigree/INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md): executive reading of the original intent instrument
+- [pedigree/BACKLOG-HYDRA-ASSESSMENT-v1.md](/Users/system/syncrescendence/neosyncrescendence/pedigree/BACKLOG-HYDRA-ASSESSMENT-v1.md): queue-authority reading of the old backlog systems
 
 ## Pedigree Recovery
 
