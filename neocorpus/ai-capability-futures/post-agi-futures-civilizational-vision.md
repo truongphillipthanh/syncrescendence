@@ -66,6 +66,24 @@ Shapiro argues the singularity could be "boring" (10134) — not a dramatic over
 - **The meaning gap**: Material abundance without purpose creates existential crisis. Post-AGI economics must address Maslow's upper hierarchy (cross-ref post-labor-economics).
 - **Building for humans when agents are the user**: If the economy shifts to agent-to-agent coordination, products built for human UX become obsolete (10891).
 
+## Obsolescence and Supersession
+
+### Obsolescence: Post-AGI as Narrative Fantasy
+
+For most of the period 2015-2022, post-AGI futures were treated as speculative fiction territory — the domain of science fiction, LessWrong thought experiments, and futurist conference talks disconnected from near-term engineering reality. The implicit assumption: post-AGI scenarios were interesting to think about but irrelevant to near-term planning because AGI was far enough away that intermediate developments would reshape the landscape before arrival. The convergence of frontier lab leaders on 1-5 year timelines (08441, 02823, 00257) has rendered this dismissal obsolete. Post-AGI planning is now a live operational concern: the Pentagon has a directive to prepare for AGI within months (09640); Hassabis and Amodei are discussing "The Day After AGI" at Davos (02823); Paul Klein IV is analyzing which company types survive post-AGI (10906). The shift is from "interesting speculation" to "operational planning horizon."
+
+### Obsolescence: The Capability-as-Bottleneck Assumption
+
+Early post-AGI thinking assumed that capability was the primary bottleneck: once intelligence surpassed human levels, benefits would follow automatically. Amodei's "Machines of Loving Grace" (03534) is a careful refutation of this assumption: deployment bottlenecks are distinct from capability bottlenecks. "Eradicating a disease globally is distinct from developing a cure." The five domains (biology, neuroscience, poverty, peace, meaning) each have different bottleneck profiles — biology is relatively capability-gated; peace and governance are coordination-gated; meaning is not gatable at all by intelligence. The post-AGI future is not a single arrival but a set of domain-specific transitions with different timescales and different limiting factors.
+
+### Supersession: What "Post-AGI" Means to Plan For
+
+**Phase 1 (2015-2022 — Post-AGI as speculative scenario planning):** AI safety organizations (MIRI, early Anthropic/OpenAI safety teams) did scenario planning for post-AGI futures as a risk management exercise, not as operational planning. The timescales were long enough that specific predictions about economic structure or governance were explicitly provisional.
+
+**Phase 2 (2022-2024 — Post-AGI as investment thesis):** The Paul Klein IV framework (10906) — post-AGI reduces company types to four (labs, infrastructure, systems of record, services) — represents the translation of post-AGI scenarios into investment and business strategy. The agent-to-agent economy framing (10891) — "if your product cannot be accessed via API, it effectively doesn't exist" — represents the architectural reorientation for builders rather than speculators.
+
+**Phase 3 (Current — Post-AGI as adjacent reality):** The Syncrescendent Convergence framing (08087) represents one vision: a literal phase transition (ABSTRACTION → SIMULATION → EMBODIMENT → TRANSCENDENCE) where the current moment is already inside the transition, not approaching it. The boring singularity (10134) is the competing frame: no dramatic threshold, just steady normalization. Both frames agree that the question "what does post-AGI look like?" has become a near-term planning question, not a long-horizon speculation. The live structural tension: the hardest problems remain human coordination, meaning, and governance — domains where higher intelligence does not automatically produce better outcomes because AI assists both cooperators and defectors equally (03534).
+
 ## Cross-References
 - neocorpus/ai-capability-futures/agi-timelines-predictions (when these futures arrive)
 - neocorpus/ai-capability-futures/intelligence-explosion-recursive-improvement (the mechanism)

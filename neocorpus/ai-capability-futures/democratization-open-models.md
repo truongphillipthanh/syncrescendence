@@ -40,6 +40,22 @@ Every major inflection point is painful. The Renaissance and Enlightenment were 
 - **Underestimating speed**: Each technology democratization cycle runs faster. Planning on multi-year adoption timelines for AI capabilities is likely to be wrong by an order of magnitude.
 - **Ignoring the dark timeline**: The fact that the dark timeline (state-monopolized AI) did not happen is not a permanent guarantee. It requires continued openness.
 
+## Obsolescence and Supersession
+
+### Obsolescence: The Proprietary Moat Assumption
+
+The dominant commercial AI strategy through 2022-2023 assumed that closed-source models would maintain durable competitive moats through data and compute advantages. The OpenAI position — powerful models behind an API, with the training process proprietary — was premised on this. The Shapiro thesis (08474) identifies the structural refutation: once a capability is demonstrated to be possible, reproduction is cheaper than original development. The gap between open-source and closed-source models has collapsed from 6-18 months to approximately 3 months. DeepSeek's demonstration that competitive models could be trained at dramatically lower cost (not in the corpus but consistent with the moatlessness thesis) amplified this empirically. The moat assumption persisted because it was correct in the early period (2020-2022) when the capability gap was large enough that reproduction was genuinely difficult. It became false as the knowledge of what is possible diffused faster than new capabilities could be developed.
+
+### Supersession: What "Open" Means
+
+**Phase 1 (2020-2022 — Closed API as the only serious option):** GPT-3 was closed. The API model was standard. Open models (GPT-2-era) were too weak for serious deployment. "Open" meant research-grade.
+
+**Phase 2 (2022-2024 — Open models as capability challengers):** Meta's LLaMA releases changed the economics. Open weights meant that capability could be reproduced, fine-tuned, and deployed without API costs. The parity gap began shrinking from 6-18 months toward 3 months (08474). Mixtral, Mistral, Qwen, and other open releases demonstrated that the frontier was not uniquely accessible to organizations with Google/OpenAI-scale resources.
+
+**Phase 3 (Current — Intrinsic moatlessness as settled fact):** The Shapiro thesis (08474) presents this as a structural property, not a temporary market condition: AI is "naturally moatless once the principle is understood," analogous to electricity. The LTX-2 open video generation model (02464) confirms the thesis extends to modalities beyond language. The counterfactual dark timeline — AI so arcane only a Manhattan 2.0 project could crack it — did not materialize. The remaining open question is whether the dark timeline could be reimposed through export controls, compute restrictions, or other policy mechanisms — or whether the moatlessness is now too distributed to reverse.
+
+*Audit note: This entry has only two corpus sources (08474, 02464). The supersession phases are well-grounded in 08474; the Phase 2 historical detail (LLaMA, Mixtral) is partially inferred from general knowledge of the open-source AI record rather than from specific corpus files. Treat Phase 2 as contextual scaffolding pending additional corpus material on open-model releases.*
+
 ## Cross-References
 - neocorpus/ai-capability-futures/scaling-laws-trajectories (scaling dynamics that enable rapid open-source catch-up)
 - neocorpus/ai-capability-futures/agi-timelines-predictions (timeline projections)

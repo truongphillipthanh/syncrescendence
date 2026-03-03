@@ -87,6 +87,24 @@ A measurable human "comfort zone" dictates appropriate proximity for delivery ro
 - **Brute-force approaches**: ARC v3 explicitly prevents brute-force solutions. Future robot evaluation will measure efficiency, not just completion (09332 cross-ref).
 - **Assuming linear scaling**: Zipline's ramp from 110 days to 2 days per site shows exponential operational learning curves in physical AI deployment (02916).
 
+## Obsolescence and Supersession
+
+### Obsolescence: Rule-Based Robot Programming
+
+For decades, industrial robotics was defined by explicit human-coded rules: if sensor reads X, execute motion Y. This architecture produced reliable automation in controlled factory environments but was fragile outside narrow parameter envelopes. The Rivian trajectory illustrates the transition: abandoning the original technology platform to build a vertically integrated data stack, moving from human-coded rules to neural networks and custom chips (03939). The assumption that underpinned rule-based robotics — that all meaningful situations could be enumerated and pre-programmed — broke when the real world's variance exceeded the enumeration budget. Neural networks trained on massive sensor data trade rule brittleness for generalization capacity. This transition is not complete but is unambiguously directional: software-defined vehicle architecture enabling monthly feature updates has already replaced function-based architecture at the leading manufacturers (03939).
+
+### Obsolescence: The Embodiment Debate as Philosophical Binary
+
+The earlier framing — "does AI need a body to be intelligent?" — treated embodiment as a binary philosophical question. The Israetel position (08479) dissolves the binary: embodiment is a data acquisition mechanism, not a fundamental cognitive requirement. Processing power substitutes for physical experience when sufficient observational data is available. The question is not "does AI need a body?" but "what information requires physical interaction to acquire, and can that information be captured with sufficient sensor data and simulation?" This reframe makes the debate empirical rather than philosophical. The relevant question is domain-specific: cooking may require physical feedback loops that simulation captures poorly; chess requires none. The Zipline case (02916) — 2 million autonomous deliveries, 125 million miles, zero safety incidents — demonstrates that specific physical domains can be mastered through operational learning curves without general embodied intelligence.
+
+### Supersession: Robot Capability Framing
+
+**Phase 1 (pre-2022 — Rule-based industrial robotics):** Robots operate in controlled environments, perform repetitive fixed tasks, require human-coded motion sequences. The dominant paradigm: Fanuc arms on assembly lines. Physical AI was not a recognized category.
+
+**Phase 2 (2022-2024 — Foundation model transfer to robotics):** LLM and vision model breakthroughs prompted attempts to transfer the training-on-internet-scale-data paradigm to physical systems. The data bottleneck immediately became apparent: real-world robot data is expensive to capture and label, unlike text. Simulation emerged as the answer — 432,000x real-time acceleration in NVIDIA's Omniverse enables robots to learn in hours what would take years in physical space (00912). Jensen Huang's four-wave framework (perception → generative → agentic → physical) formalized the progression.
+
+**Phase 3 (Current — Operational deployment with learning systems):** The milestone cluster visible in the corpus — Figure running in formation (03201), Boston Dynamics Atlas with Google (10049), SkildAI learning breakthroughs (03201), SIMA 2 generalizing across 3D environments (01374, 01284), Zipline at 2M deliveries — represents the transition from lab-scale demonstrations to early production deployment. The capability progression mirrors the LLM coding assistant arc: starting with narrow tasks (coffee making), gradually increasing in scope as common sense develops (01146). Initial gains come from augmenting experts, not replacing workers. The next phase — broad deployment at scale — is bounded by the robot deployment timeline gap: AI agents will be incredibly competent by ~2027, but as few as one million humanoid robots may be deployed by that date (cross-ref post-labor-economics/00151). The physical AI opportunity is real but its labor displacement is temporally gated by manufacturing and deployment velocity, not by capability.
+
 ## Cross-References
 - neocorpus/ai-capability-futures/agent-evals-capability-benchmarks (SIMA 2, ARC v3 interactive evaluation)
 - neocorpus/ai-capability-futures/scaling-laws-trajectories (simulation scaling, data requirements)

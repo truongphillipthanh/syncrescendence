@@ -78,6 +78,24 @@ Multiple sources suggest a qualitative shift beyond raw capability: AI developin
 - **Ignoring the "boring singularity" scenario**: The most likely outcome may be steady, compounding acceleration — transformative but undramatic enough to be normalized in real time (10134).
 - **Underestimating category-theoretic reasoning**: Cross-domain structural analogies (Buehler's approach) may be more important than raw scaling for genuine scientific discovery (00147, 03501).
 
+## Obsolescence and Supersession
+
+### Obsolescence: The "Intelligence Explosion Is Theoretical" Frame
+
+For most of the period 2014-2024, the intelligence explosion was treated as a philosophical thought experiment — the territory of Bostrom's "Superintelligence" and Yudkowsky's LessWrong posts, not of engineering roadmaps. The implicit assumption was that recursive self-improvement required a qualitative leap that had not occurred and whose preconditions were unknown. This frame was superseded by the operational confirmation in GPT-5.3 Codex (00257): OpenAI explicitly acknowledged that GPT-5.3 "was instrumental in creating itself" — debugging its own training, managing its own deployment, diagnosing its own evaluations. Amodei confirmed AI is writing "much of the code" at Anthropic and estimated the current generation will autonomously build the next "only 1-2 years away" (00257). The explosion is no longer hypothetical; it is a measured, tracked phenomenon with a quantified R&D progress multiplier (08441).
+
+### Obsolescence: Software-Only Singularity as Attractor
+
+A related assumption — that intelligence improvements would compound indefinitely without physical-world bottlenecks — had significant purchase in singularitarian thinking through roughly 2023. Epoch AI's data-driven analysis (09506) produced a clear refutation: hardware, energy, and real-world feedback loops impose hard time constants. Amodei's five complementary limiting factors (speed of the world, need for data, intrinsic complexity, human constraints, physical laws) formalized this (03534). The "software-only singularity" frame collapsed not because the intelligence explosion is wrong but because the explosion is bounded by atoms and time, not just by algorithms.
+
+### Supersession: The Recursion Framing
+
+**Phase 1 (2014-2022 — Theoretical recursion):** Intelligence explosion as philosophical argument (Bostrom, Yudkowsky). No operational evidence. Dismissed by mainstream ML researchers as speculative.
+
+**Phase 2 (2023-2025 — Empirical acceleration):** Model capability doubling cycles became measurable. METR's task-horizon exponential (doubling every ~7 months) provided a tracked proxy for recursive improvement without requiring an explicit recursive loop to be identified (00023). The feedback loop was real but diffuse — each model generation helped train the next through human researchers using better tools.
+
+**Phase 3 (Current — Operational recursion):** The explicit recursive threshold was crossed at GPT-5.3 Codex (00257). AI is now "instrumental in creating itself" — not as a diffuse background effect but as a named, acknowledged engineering workflow. The R&D progress multiplier framework (08441) provides the tracking metric: 1x in 2025, ~2x in 2026, ~5x projected for early 2027. Discovery vs. optimization remains the live structural debate (00147): recursive improvement accelerates optimization within known frameworks; whether it can produce the compositional world-model building required for paradigm-breaking discovery remains unresolved.
+
 ## Cross-References
 - neocorpus/ai-capability-futures/agi-timelines-predictions (when the explosion reaches thresholds)
 - neocorpus/ai-capability-futures/scaling-laws-trajectories (the mechanics enabling acceleration)

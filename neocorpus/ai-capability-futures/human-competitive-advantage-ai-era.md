@@ -90,6 +90,24 @@ The shift from apprehension to empowerment is the core psychological transition 
 - **Delegating wisdom**: AI can provide information and analysis but cannot replace the character-building struggle with difficult material (04038).
 - **One-dimensional adaptation**: "Becoming AI-proof" is not about learning AI tools — it's about building a talent stack where AI amplifies your unique combination of skills (00142).
 
+## Obsolescence and Supersession
+
+### Obsolescence: The Single-Skill Specialization Doctrine
+
+The dominant career advice through approximately 2022 was deep specialization: become the world expert in one domain, and the market will reward it. This model was coherent when cognitive tasks were segmented — a lawyer needed to know law, a programmer needed to know code, a designer needed to know design — and switching costs between domains were high. AI collapsed the switching cost. Coding is now accessible to designers; design is accessible to engineers; legal analysis is accessible to non-lawyers. The specialization doctrine assumed that domain mastery created durable scarcity. When AI democratizes domain access, the scarce resource shifts from knowledge to judgment-across-domains. The single-skill specialist's moat is specifically what AI is best at eroding.
+
+### Obsolescence: Credentials as Proxy for Capability
+
+The credential-as-signal model (degrees, certifications, institutional affiliations) was functional when human knowledge verification was costly. Credentials solved a real problem: how does an employer know you know something without re-teaching it? AI changes the cost structure: capability can now be demonstrated directly and evaluated inexpensively. Value in the AI era comes from value creation, not credentials (01104). Credentials retain value as signals of discipline and social legitimacy, but their role as primary competence proxy is weakening.
+
+### Supersession: What It Means to Be Human-Competitive
+
+**Phase 1 (pre-2022 — Domain expertise as differentiator):** Human competitive advantage resided in accumulated domain expertise. Years of experience in a field produced pattern recognition that took more years to replicate. AI had not materially affected this equation.
+
+**Phase 2 (2022-2024 — Augmented specialist):** "Learn to use AI tools in your domain" became the dominant adaptation advice. The competitive advantage frame was individual + tool: a lawyer who uses AI is better than a lawyer who doesn't. This is still the dominant public advice.
+
+**Phase 3 (Current — Talent stack + orchestration):** The winning frame has shifted from domain expertise to talent stack (multiple top-25% skills creating rare combinations) plus commercialization capacity. The corpus frames this as the Scott Adams model: not the best artist, not the funniest writer, not the sharpest business thinker, but rare at the intersection (00142). AI lowered the cost of stacking adjacent skills — coding, writing, design, analysis — making the stack strategy viable for a much wider population than before. The parallel shift: AI amplifies differences rather than flattening them (00142). Access equality does not produce outcome equality when judgment, taste, and integration capacity are the differentiating variables.
+
 ## Cross-References
 - neocorpus/ai-capability-futures/human-ai-productivity-augmentation (operational productivity patterns)
 - neocorpus/ai-capability-futures/ai-economic-impact-labor (macro labor market effects)

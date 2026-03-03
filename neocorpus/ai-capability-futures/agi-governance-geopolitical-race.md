@@ -57,6 +57,22 @@ Not everyone agrees the governance challenge is real:
 - **Ignoring the insurance signal**: When insurers refuse to cover a risk category, they are making a professional judgment about systemic correlation that should not be dismissed (09524).
 - **Regulatory speed mismatch**: Regulatory timelines measured in years cannot govern technology timelines measured in months.
 
+## Obsolescence and Supersession
+
+### Obsolescence: Governance as Regulatory Text
+
+The default policy assumption through approximately 2023 was that AI governance meant regulatory text: define prohibited uses, set liability rules, require disclosures. The EU AI Act was the canonical expression. This model assumed governance-capability mismatch was manageable — that regulators could write rules faster than capabilities arrived, or that rules could be made general enough to cover future capabilities. The corpus entries from 08441 and 09640 document the collapse of this assumption: the Pentagon received a directive to prepare for AGI within months, not years; the "futures steering committee" with human override protocols for superintelligent systems signals that the national security apparatus has concluded that regulatory text timelines cannot match capability timelines. The assumption being superseded: governance is an ex-post activity (write rules after capabilities emerge). The emerging assumption: governance is an ex-ante structural problem (who controls the infrastructure before capabilities arrive determines what rules are enforceable at all).
+
+### Supersession: Geopolitical AI Framing
+
+**Phase 1 (2019-2022 — AI policy as trade and export control):** US-China AI competition was framed through chip export controls, talent visa restrictions, and IP theft concerns. Huawei restrictions, NVIDIA export controls. The assumption: controlling inputs (chips, data, talent) could slow adversarial capability development.
+
+**Phase 2 (2022-2024 — AI safety as governance priority):** The emergence of safety-focused organizations (Anthropic, UK AI Safety Institute) and the Bletchley Declaration represented a shift toward capability-level governance. The question moved from "how do we slow adversaries?" to "how do we ensure safe development for everyone?" These frames coexisted in tension: safety logic favors openness and coordination; competitive logic favors restriction and speed.
+
+**Phase 3 (Current — Structural governance race):** The Amodei entente strategy (03534) represents the current leading framework: democratic coalition secures AI supply chain, maintains capability lead through speed (not slowdown), then leverages the lead to create the carrot/stick dynamic for a pro-democracy global bargain. Trump's federal preemption of state AI laws (09700) centralizes the US regulatory surface. The governance race is now not just about who develops AGI first but who structures the institutional context in which AGI operates — and the two leading failure modes (nationalization, private anarchy) remain live as of early 2026.
+
+*Audit note: The corpus sources for this entry (08441, 03534, 09640, 09524, 09700) provide sufficient grounding for Phase 3 supersession framing. The two governance failure modes are well-sourced. Historical Phase 1 periodization is inferred from general knowledge of the policy record, not from specific corpus files — treat as contextual scaffolding, not corpus-derived claim.*
+
 ## Cross-References
 - neocorpus/ai-capability-futures/agi-timelines-predictions (what is being governed)
 - neocorpus/ai-capability-futures/ai-market-investment-dynamics (US-China competitive dynamics)

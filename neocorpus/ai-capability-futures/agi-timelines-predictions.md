@@ -95,6 +95,24 @@ This represents an emerging accelerationist lifestyle philosophy — rational be
 - **Ignoring the METR exponential**: Individual predictions can be wrong; a trend line that has held for years across multiple model generations is structural evidence.
 - **Accelerationist lifestyle risk**: Restructuring your life around AGI assumptions (abandoning retirement savings, taking on debt) is rational only if the timeline holds. If AGI arrives in 2035 instead of 2027, the financial advice in 00270 is catastrophic.
 
+## Obsolescence and Supersession
+
+### Obsolescence: "Decades Away" as Default Expert Position
+
+Through approximately 2020, the default position among mainstream AI researchers was that AGI was decades away — a horizon used to dismiss near-term concern. This position was not arbitrary; it was grounded in the genuine difficulties of scaling pre-transformer architectures and the absence of clear path to general reasoning. The transformer revolution (2017-2022), the GPT-3 moment (2020), and the ChatGPT inflection (2022) eroded the "decades" framing faster than the research community could revise its public positions. By 2025-2026, the corpus captures a striking reversal: "AGI is here and it doesn't matter anymore" (Norvig, 01365); Grady/Huang declaring functional AGI present in long-horizon agents (00023); frontier lab CEOs converging on 1-3 year timelines (08441, 02823). The "decades away" frame was not entirely wrong — it accurately described the state of pre-transformer AI — but it was applied as a permanent position rather than as a conditional forecast, causing it to lag the evidence by several years.
+
+### Obsolescence: The Definitional Confidence Problem
+
+Early AGI discourse operated with a tacit assumption that AGI had a clear definition that researchers agreed on, even if they were reluctant to share it. The Grady/Huang vignette (00023) exposes this: senior researchers, asked directly, offered "we'll know it when we see it." The goalposts shift as capabilities arrive — what seemed sufficient in 2020 is now baseline. This is not failure of definition but evidence that AGI is better understood as a gradual developmental process than as a binary threshold event. The definitional confidence assumption (that AGI is one thing with one arrival date) has been superseded by the multi-dimensional framework (functional/economic/cognitive/spectrum definitions coexisting without resolution).
+
+### Supersession: The Prediction Methodology
+
+**Phase 1 (pre-2022 — Vibes-based expert opinion):** AGI timelines were primarily expert surveys (e.g., AI Impacts) and informal predictions. Median expert opinion was bimodal: "near-term optimists" vs "long-term skeptics," with the latter dominant. No robust empirical proxy for capability trajectory.
+
+**Phase 2 (2022-2024 — Benchmark-driven prediction):** Benchmark saturation became the primary evidence base: MMLU, HumanEval, MATH. Predictions anchored to "when will AI hit human-expert level on benchmark X?" The limitation: benchmarks were saturated faster than expected, requiring constant replacement and undermining prediction stability.
+
+**Phase 3 (Current — Trajectory-based prediction):** METR's task-horizon exponential (doubling every ~7 months) provides a more robust prediction method than benchmark saturation: it measures what AI can do in continuous real-world time rather than whether it can pass a fixed test (00023, 00257). The Kokotajlo scenario (08441) builds on this with a month-by-month model grounded in the R&D progress multiplier rather than capability benchmarks. The convergence of frontier lab insiders on narrow, near-term windows (2026-2030) reflects access to internal metrics that have not yet been published — the gap between public benchmarks and internal capability assessments is itself a structural feature of the current moment (00257: "the gap between what I've been saying and what is actually happening has gotten far too big").
+
 ## Cross-References
 - neocorpus/ai-capability-futures/scaling-laws-trajectories (capability trajectory mechanics)
 - neocorpus/ai-capability-futures/intelligence-explosion-recursive-improvement (the feedback loop driving timelines)

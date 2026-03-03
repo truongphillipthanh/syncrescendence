@@ -80,6 +80,26 @@ A viral vision of post-labor life (10864): 5 acres, two humanoid robots, 3D prin
 - **Binary thinking (utopia vs dystopia)**: The likely outcome is a messy, uneven transition with both K-shaped divergence and new forms of abundance — not clean resolution in either direction.
 - **Undervaluing meaning**: Post-labor economics must address not just material needs but Maslow's upper hierarchy — belonging, esteem, self-actualization — which AI cannot provide (01716, 09904).
 
+## Obsolescence and Supersession
+
+### Obsolescence: The Four-Factor Labor-Capital Equilibrium
+
+Classical economics taught a stable four-factor model — Land, Labor, Capital, Entrepreneurship — where labor's share of production was a durable economic constant. This model assumed that technological improvement would increase labor productivity but not eliminate labor's role. The Shapiro refactoring thesis (08472) identifies the specific mechanism of obsolescence: as AI and robots mature, labor declines not as a share of output but as a factor of production entirely. The economy descends toward Land + Capital as the persistent scarcity factors. This is not new — prior automation waves reduced the fraction of agricultural and industrial labor — but the projected scope is qualitatively different: cognitive work, not just manual work, is subject to the substitution.
+
+The complementary obsolescence: the assumption that firms exist primarily to coordinate labor. Shapiro (08472) identifies the more fundamental firm functions — capital risk management and economies of scale — which persist independent of labor. The "firms dissolve when labor becomes unnecessary" intuition was always wrong; it confused the proximate function (coordinating workers) with the structural function (distributing capital risk across multiple clients).
+
+### Obsolescence: UBI as the Primary Policy Lever
+
+UBI emerged as the canonical post-labor policy proposal through approximately 2023-2024, premised on the assumption that AI's deflationary effects would reduce costs while eliminating wages, requiring a redistribution mechanism. The corpus reflects growing skepticism about this framing. The deeper issue: post-labor economics must address Maslow's upper hierarchy — belonging, esteem, self-actualization — that AI cannot provide (01716, 09904). Emad Mostaque's thesis reframes the question entirely: intelligence becomes "too cheap to measure," meaning comes from community and networks, not work titles (09904). The UBI debate addresses income redistribution but not meaning redistribution. This does not make UBI wrong; it makes it insufficient as a complete policy response.
+
+### Supersession: The Post-Labor Narrative Frame
+
+**Phase 1 (2021-2023 — Automation anxiety as job-category analysis):** The dominant frame: which job categories will AI automate? McKinsey-style task decomposition studies. The implicit assumption was that some categories were safe and others vulnerable, and that individuals could navigate by moving toward safe categories.
+
+**Phase 2 (2023-2025 — Systemic disruption framing):** The frame shifted from job categories to economic systems. "SaaSpocalypse" as a label (03606) captures the sudden recognition that entire sectors could reprice overnight. The $285B market crash triggered by Claude Cowork plugins was a demonstration effect, not an edge case. The post-labor economics entry deepens this: the question is not which job categories survive but how the four factors of production rebalance as labor's role contracts.
+
+**Phase 3 (Current — Dual-track transition):** The corpus now holds two concurrent scenarios that are not mutually exclusive. Track A: AI agents create businesses needing human physical labor, soaking up employment through the early 2030s while robot deployment scales too slowly to dent overall employment numbers (00151). Track B: Autonomous AI businesses (Andon Labs benchmarks, AI radio stations) demonstrate that AI agents can now perform economically meaningful work without human direction (09742). The transition is uneven across domains and timescales — the robot deployment gap means software-first displacement precedes physical-world displacement by a significant margin. The techno-homestead vision (10864) — 5 acres, two humanoid robots, local AGI, Starlink — represents one attractor state for the long-term equilibrium, even if it is culturally resonant rather than economically prescriptive.
+
 ## Cross-References
 - neocorpus/ai-capability-futures/ai-labor-displacement-historical-pattern (the historical evidence)
 - neocorpus/ai-capability-futures/human-competitive-advantage-ai-era (what stays human)
