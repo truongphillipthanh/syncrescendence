@@ -16,6 +16,10 @@
 - 10002.md — Shapiro "Antidote to AI Brain Rot"
 - 03879.md — Peter Yang "5 Levels of AI Native": voice/meetings/projects, prototyping, apps, personal agents maturity model
 - 10014.md — Dylan Curious on smart toys and children
+- 00270.md — 21 acceleration strategies: invest AI proliferation, pull forward cash flows, avoid long training programs, build distribution not credentials, compress time horizons
+- 02286.md — Compounding gap: memory breakthroughs mid-2026, long-running agents, fast vs slow company gap widening, workforce retraining exceeding 25 years combined
+- 02056.jsonl — 2026 skill stack: AI Sense, Prompt Clarity, AI Loop, Building an AI Team, Voice First, Vibe Coding
+- 02598.md — Contrarian: people are not actually falling behind despite rapid pace of change (thin — rebuttal only)
 
 ## The Talent Stack
 
@@ -66,6 +70,12 @@ Seligman's dog experiment: dogs exposed to unavoidable shocks later failed to es
 
 Games allow recording of agency (like painting records sights, music records sounds, stories record narratives) — a framework for understanding how AI can extend rather than replace human agency (02442).
 
+**Agency as the durable skill**: The most important skill to learn — relevant now, in 10 years, and permanently — is agency itself. Not a trait but an art form, best developed through games (02442). High-agency people are "scientists of their own lives" — setting goals, forming hypotheses, testing, expecting failure as part of the experimental process. They will outpace everyone else by 10x because they act without permission, and barriers to action are now nearly non-existent (02442).
+
+**Creators as "context creators"**: AI output lacks throughline, personality, vision, or context. 99% of AI-generated content goes to the bottom of the barrel without human orchestration and personal context. Creators are "context creators," not merely "content creators" — content is meaningless without the vision provided by the human (02442).
+
+**Five fundamental human capabilities**: Computation (mental), Transformation (physical), Variation, Selection, and Attention. Even AGI cannot bypass the time required for physical transformation — time acts as a compression algorithm preventing all events from occurring simultaneously (02442).
+
 ## AI and Children/Education
 
 AI is transforming classrooms by fostering critical thinking, personalized learning, and future-ready skills (02793). However, concerns arise: Lego's Smart Bricks cause unease among play experts (02574). A provocative thesis: AI development needs more game designers than engineers (02574), suggesting the human-AI interface for children should prioritize play, creativity, and exploration over structured instruction.
@@ -82,6 +92,33 @@ Five levels of AI nativeness (03879):
 5. AI as personal agent
 
 The shift from apprehension to empowerment is the core psychological transition (01548). Those who adapt early compound advantages; those who adapt late face the "tidal wave" problem (03855).
+
+## The Compounding Gap and Urgency
+
+The common story that AI will gradually make everyone more productive is an oversimplification (02286). The reality: the gap between fast-adopting companies and slow-moving companies will widen dramatically, creating significant advantages for disruptors and existential risks for slow movers. The workforce retraining challenge in 2026 will exceed the previous twenty-five years combined (02286).
+
+Near-term predictions: memory breakthroughs and agent UI surfaces arrive by mid-2026, long-running AI agents emerge making humans the bottleneck, work AI and personal AI split into completely different experiences, and continual learning with recursive self-improvement reshapes LLMs (02286).
+
+A contrarian view exists: the sentiment that people are "falling behind" may itself be overstated (02598). But even this position acknowledges the rapid pace of change.
+
+## The 21-Action Acceleration Playbook
+
+If the world looks unrecognizable in 10 years, present behavior should reflect that (00270). Concrete adaptations across domains:
+
+- **Investing**: Invest directly in AI proliferation (Tesla, Nvidia, Palantir, Google, Anthropic, OpenAI). Invest in adjacent exponential industries: robotics, biotech, crypto, space. Invest in supply chain: compute, energy, materials. Avoid locking capital into 30-40 year retirement vehicles (401k, Roth IRA if under 50) — prefer liquidity over multi-decade tax optimization in a world that may be unrecognizable before they mature (00270).
+- **Finance**: Pull forward future cash flows. Lock in fixed-rate debt. Perceive debt 10+ years into the future as likely nonexistent. Avoid annuities and long-duration products dependent on stability (00270).
+- **Career**: Plan for most knowledge work and physical labor to be heavily automated within 5 years. Do not start law school, medical school, or other very long training programs expecting financial ROI. Build distribution (audience, leverage, brand) instead of collecting credentials. Work where exponential change is visible up close (00270).
+- **Time horizon**: Stop planning with a 30-40 year horizon. Generally do not plan beyond 5-10 years. Check off bucket list items now (00270).
+
+## The 2026 Skill Stack
+
+A proposed skill stack for navigating the AI landscape in 2026 (02056.jsonl):
+1. **AI Sense** — intuition for what AI can and cannot do, when to deploy it
+2. **Prompt Clarity** — precision in communicating intent to AI systems
+3. **The AI Loop** — understanding iterative human-AI workflows
+4. **Building an AI Team** — orchestrating multiple AI agents as collaborators
+5. **Voice First** — voice as primary interface for AI interaction
+6. **Vibe Coding** (bonus) — rapid prototyping via AI-assisted code generation
 
 ## Antipatterns & Lessons
 - **Defending specialization**: Pure specialization is increasingly automatable. The premium is on integration across domains (02850, 00142).
