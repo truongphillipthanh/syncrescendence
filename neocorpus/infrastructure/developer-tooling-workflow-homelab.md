@@ -15,7 +15,11 @@
 | Source 03496/08838 | Hardware homelab guide by Mustafa (@oprydai): three-tier equipment progression, principles-first purchasing |
 | Source 02164 | 2026 cybersecurity trends: Shadow AI, polymorphic malware, post-quantum cryptography |
 | Source 01273 | Vertical farming energy comparison: 3,000x energy premium over conventional agriculture |
-| Fusion type | Nucleosynthesis — six sources fused covering developer workflow, AI coding tools, hardware labs, and infrastructure security |
+| Source 00091 | YouTube ingestion pipeline: 4-stage architecture (export→transcribe→process→knowledge base), yt-dlp + Gemini Flash-Lite batch |
+| Source 00161 | Tony Stark homelab: 6-layer model (thinking→electronics→fabrication→motion→integration→reflection), compression as superpower |
+| Source 00244 | Forward/reverse proxy deep dive: modern reverse proxies as Zero Trust enforcement points |
+| Source 04173 | Software dependency reduction: AI-driven return of monoliths, formal verification as essential |
+| Fusion type | Nucleosynthesis — ten sources fused covering developer workflow, AI coding tools, hardware labs, ingestion pipelines, networking, and infrastructure security |
 
 ---
 
@@ -85,7 +89,67 @@ Culminating claim: "This is not about comfort. It is about leverage. Build the l
 
 ---
 
-## 4. Cybersecurity Landscape 2026
+## 4. YouTube Ingestion Pipeline Architecture (00091)
+
+Source 00091 maps a 4-stage pipeline for batch-ingesting YouTube content into a knowledge system:
+
+**Stage 1 — Export**: YouTube Data API v3 or yt-dlp `--flat-playlist` to extract metadata (video ID, title, channel, duration, description). Free.
+
+**Stage 2 — Transcribe**: yt-dlp with `--write-auto-sub --sub-lang en --skip-download` extracts auto-generated captions for ~95% of English videos at ~10 videos/second. No audio download needed. Fallback for the ~5% without captions: download audio then Whisper transcription.
+
+**Stage 3 — Process**: Gemini 2.0 Flash-Lite API for knowledge extraction at ~$0.0013/video (~$5-10 for 942 videos). Extracts core thesis, key concepts, notable quotes, actionable insights, theme connections, and quality rating. Alternative: Gemini native YouTube URL support (~$14) captures visual information.
+
+**Stage 4 — Knowledge Base**: Structured markdown per video with YAML frontmatter (source, video_id, title, channel, duration, quality, themes, processed date) for Obsidian integration.
+
+The architecture principle: component tools over monolithic products. Cost comparison ranges from $5-10 (yt-dlp + Flash-Lite) to $30-50 (yt-dlp + Claude API) depending on extraction quality requirements.
+
+---
+
+## 5. Tony Stark Homelab: The Compression Model (00161)
+
+Source 00161 provides an alternative framing to the three-tier equipment progression: a 6-layer functional model organized by cognitive phase rather than equipment tier.
+
+**Layer 1 — Thinking + Simulation**: CAD/CAM, physics simulation, version control for designs (not just code). "Model, predict, then build to validate." CPU + RAM priority over GPU at first.
+
+**Layer 2 — Electronics Nucleus**: The heart of rapid iteration. Clean soldering/desoldering, signal inspection, power delivery, microcontroller + SBC bring-up. "Where ideas become alive."
+
+**Layer 3 — Mechanical + Fabrication**: CAD-driven fabrication, tolerance awareness, 3D printing for functional parts. "Geometry is physics frozen in space."
+
+**Layer 4 — Motion, Control, and Power**: Motors, encoders, feedback, closed-loop control. Key sequencing: kinematics before AI, PID before reinforcement learning, stability before performance.
+
+**Layer 5 — Integration Space**: The most ignored part. Large always-available build surface, space to leave half-built systems intact. Where wiring mistakes, mechanical tolerances, and software timing constraints collide.
+
+**Layer 6 — Data, Logging, and Reflection**: Log experiments, version hardware revisions, document failures, annotate why things broke. "No memory = repeated mistakes."
+
+The culminating insight: Tony Stark's real superpower was compression — theory into prototypes, prototypes into data, data into better theory. The lab is a system that enables that compression cycle. This complements the three-tier equipment list (00117) with a cognitive workflow overlay.
+
+---
+
+## 6. Forward and Reverse Proxies (00244)
+
+Source 00244 provides a DevOps networking primer:
+
+**Forward proxy**: Sits between client and internet. Client is hidden (server sees proxy's IP). Use cases: VPNs, corporate network access control, bypassing geographic restrictions.
+
+**Reverse proxy**: Sits between internet and backend servers. Servers are hidden (client sees only the proxy). Use cases: load balancing, DDoS protection, SSL termination.
+
+**Modern evolution**: Traditional reverse proxies (Nginx, HAProxy) focused on load balancing. Modern reverse proxies (Envoy, Cloudflare) have evolved into Zero Trust enforcement points — continuously verifying user identity and device health, providing granular encrypted access to specific resources, operating as an identity-aware security mesh. The shift: from "hide and distribute" to "verify and enforce."
+
+---
+
+## 7. Software Dependency Reduction and Formal Verification (04173)
+
+Source 04173 argues that AI will collapse the incentive to maintain deep dependency trees. When AI makes rewriting code and understanding large foreign codebases cheap, the economic logic of importing dependencies reverses — it becomes cheaper to rewrite than to manage transitive dependency chains.
+
+**Benefits of reduced dependencies**: Smaller attack surface for supply chain threats, smaller packaged software, improved performance, faster boot times.
+
+**The Lindy effect weakens**: The heuristic that long-standing software persists for good reason loses force when AI agents can develop from first principles and understand codebases effortlessly. Dependencies that persisted because replacement was expensive may not survive when replacement becomes cheap.
+
+**Formal verification becomes essential**: In an AI-dominated software world where code is generated at scale, formal verification is no longer optional. Unknown unknowns persist regardless of code origin. The prediction: a return of software monoliths, not because modularity is wrong but because the economic case for dependency management (cheaper than reimplementation) inverts.
+
+---
+
+## 8. Cybersecurity Landscape 2026
 
 Source 02164 identifies three defining cybersecurity trends for 2026:
 
@@ -97,7 +161,7 @@ These are trend labels from the source, not deep treatments. The common thread: 
 
 ---
 
-## 5. Singular Data Points
+## 9. Singular Data Points
 
 **Vertical farming energy premium** (source 01273): Vertically grown strawberries require 1,404 kWh of energy versus 0.45 kWh for conventionally grown strawberries in Chile — a 3,000x difference. This single number crystallizes the fundamental energy economics challenge of controlled environment agriculture. The epistemic status is high (consensus/evidence, epistemic_stability 0.80).
 
@@ -119,4 +183,4 @@ The architectural difference that defines the current generation — plan mode, 
 
 **The hardware homelab as prerequisite for AI/robotics work.** The three-tier progression (03496/08838) represents a supersession of the assumption that AI experimentation is primarily a software concern — a GPU and a Python environment. The entry of embodied AI, robotics, and edge inference into the practitioner space creates hardware prerequisites that software-only development environments cannot satisfy. The tier structure (foundation → systems → research) mirrors the supersession: you can start with software, but the ceiling of what you can build without hardware infrastructure drops as the problems become embodied. The assumption that "you can build anything in the cloud" is obsoleted for the specific domain of physical AI systems.
 
-*This entry is the definitive treatment of developer tooling, workflow, hardware homelabs, and infrastructure security as of 2026-03-01. All distinct reasoning paths from sources 00103, 11032, 09370, 03496/08838, 02164, and 01273 are carried forward. Subsequent discoveries should be fused into this entry, not appended alongside it.*
+*This entry is the definitive treatment of developer tooling, workflow, hardware homelabs, and infrastructure security as of 2026-03-02. All distinct reasoning paths from sources 00103, 11032, 09370, 03496/08838, 02164, 01273, 00091, 00161, 00244, and 04173 are carried forward. Subsequent discoveries should be fused into this entry, not appended alongside it.*
