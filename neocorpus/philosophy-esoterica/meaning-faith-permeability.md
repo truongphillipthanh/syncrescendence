@@ -32,6 +32,17 @@ Paul Kingsnorth warns that "there's something very spiritually dark about the in
 - **Faith vs. credulity**: "Calibrated openness" sounds reasonable; but how does one calibrate? Without criteria for distinguishing genuine meaning signals from self-deception, the framework risks licensing irrationality.
 - **The technology question**: Does technology enhance or destroy our capacity for meaning? Kingsnorth says destroy; the transhumanists say enhance; the metacognitive gradient theory suggests it depends on whether technology increases or decreases our coupling with larger systems.
 
+## Obsolescence and Supersession
+
+### The Secular Sufficiency Assumption — Obsolete
+The dominant modern framing assumed that secular rationalism was sufficient for meaning-generation: if religion and metaphysics could be discarded, the gap would be filled by science, progress, democratic participation, and material improvement. This assumption is falsified by the meaning crisis itself. Laukkonen's framework diagnoses the failure precisely: secular rationalism removes the channel between part and whole without replacing it. The superseding view is that permeability to larger systems is not optional for human flourishing — it is a structural requirement of embedded cognition. The Kingsnorth/Douthat critique arrives from a different direction but reaches the same conclusion: modernity's gains come at a spiritual cost that secular frameworks cannot account for. (10264, 09413)
+
+### Faith as Irrationality vs. Faith as Optimal Epistemic Posture — Superseded
+The prior framing treated faith and rationality as opposites: faith was what you exercised when evidence ran out, a cognitive failure mode to be overcome by better information. The metacognitive gradient framework inverts this completely: faith — calibrated openness to higher-order constraints — is the *only* rational posture available to a bounded agent embedded in systems whose complexity exceeds its modeling capacity. The argument is not theological but mathematical (Kolmogorov complexity: K(S) > R(A)). The superseding view is that faith-as-irrationality was itself a category error, confusing specific theological propositions with structural epistemic posture. This does not validate any particular religion; it reframes the legitimacy of the orientation from defect to necessity. (10264)
+
+### Audit Note
+Two sources (10264, 09413), both substantive and transcript-rich. Supersession claims grounded directly in Laukkonen's formal framework (10264). No fabrication.
+
 ## Cross-References
 - neocorpus/philosophy-esoterica/panpsychism-idealism.md (consciousness as ground, Advaita Vedanta)
 - neocorpus/philosophy-esoterica/stoicism-ethics-meaning.md (existentialism, meaning of life)

@@ -27,6 +27,14 @@ The argument rests on several premises:
 - **The naturalistic objection**: Critics argue that "paradise engineering" is hubris — that redesigning the emotional architecture of consciousness courts catastrophic unintended consequences.
 - **Substrate independence**: If consciousness is substrate-independent (as many in the AI consciousness debate argue), then suffering might be a property of certain computational patterns, not just biological chemistry — making the abolition project harder but also more universal in scope.
 
+## Obsolescence and Supersession
+
+### Suffering as Fixed Hardware — Under Revision
+The pre-transhumanist consensus treated suffering as biologically immutable: an intrinsic feature of nervous systems that could be managed pharmacologically but not fundamentally redesigned. Pearce's abolitionist project challenges this directly, proposing that the hedonic set-point is a programmable parameter, not a fixed constant. Whether this constitutes a supersession or remains a speculative proposal depends on evidence that the sources here cannot yet supply (no transcript available for 09260). The direction of revision is clear; the empirical completion is pending. (01071)
+
+### Audit Note
+The primary sources for this entry (09260, 01069.jsonl, 01071) are description-only without transcripts — 01071 confirms the four-pillar framework and Pearce's identity but carries low atom-density content. The philosophical architecture in the entry is grounded in Pearce's documented positions (the HEDONISTIC IMPERATIVE, the abolitionist project), which are well-established in the wider literature, but cannot be verified in detail against these specific corpus files. A richer supersession account — e.g., the shift from Stoic/Buddhist acceptance of suffering as constitutive, to hedonic recalibration as engineering project — is implied by the entry's Tensions section but would require source-verified transcript material. No fabrication introduced.
+
 ## Cross-References
 - neocorpus/philosophy-esoterica/consciousness-hard-problem.md (consciousness and qualia)
 - neocorpus/philosophy-esoterica/ai-consciousness-debate.md (substrate independence of suffering)
