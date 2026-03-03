@@ -156,3 +156,14 @@
    Status: tranche 02 active
 4. continue deciding which Sigma material should promote into `validated-patterns/` versus `playbooks/`  
    Vocabulary: `validated pattern`, `feedstock`, `playbook`, `pedigree`
+
+### Tranche P — Live Knowledge Intake
+
+1. create a lawful operator-backed intake path for new research  
+   Status: tranche 01 completed
+2. back that path with a feedstock inbox and receipts lane  
+   Status: tranche 01 completed
+3. prove intake with real shell-relevant artifacts rather than empty scaffolding  
+   Status: tranche 01 completed
+4. compact future feedstock into references, canon, playbooks, or patterns with explicit lineage  
+   Vocabulary: `feedstock`, `receipt`, `compaction`, `reference substrate`

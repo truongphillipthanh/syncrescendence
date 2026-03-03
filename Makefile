@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree operator-tree
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -37,3 +37,9 @@ sync-reference-tree:
 	@test -n "$(LABEL)" || (echo "usage: make sync-reference-tree SOURCE_ROOT=/abs/path DEST_REL=knowledge/references/foo LABEL=slug REASON='why' [REPLACE=1]" && exit 1)
 	@test -n "$(REASON)" || (echo "usage: make sync-reference-tree SOURCE_ROOT=/abs/path DEST_REL=knowledge/references/foo LABEL=slug REASON='why' [REPLACE=1]" && exit 1)
 	python3 operators/migrate/sync_reference_tree.py --source-root "$(SOURCE_ROOT)" --dest-rel "$(DEST_REL)" --label "$(LABEL)" --reason "$(REASON)" $(if $(REPLACE),--replace,)
+
+stage-feedstock:
+	@test -n "$(SOURCE)" || (echo "usage: make stage-feedstock SOURCE=/abs/path/file.md LABEL=slug REASON='why'" && exit 1)
+	@test -n "$(LABEL)" || (echo "usage: make stage-feedstock SOURCE=/abs/path/file.md LABEL=slug REASON='why'" && exit 1)
+	@test -n "$(REASON)" || (echo "usage: make stage-feedstock SOURCE=/abs/path/file.md LABEL=slug REASON='why'" && exit 1)
+	python3 operators/knowledge/stage_feedstock_artifact.py --source "$(SOURCE)" --label "$(LABEL)" --reason "$(REASON)"
