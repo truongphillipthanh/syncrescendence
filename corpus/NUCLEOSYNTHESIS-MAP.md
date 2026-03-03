@@ -1,9 +1,9 @@
 # NUCLEOSYNTHESIS MAP — Corpus Classification Authority
 
-**Updated**: 2026-03-02 (CC78a)
-**Corpus**: 22 semantic topic folders, 5,794 files (50.6% reduction from 11,733 originals)
-**Neocorpus**: 187 entries across 22 topic folders (22/22 Phase 2 first pass COMPLETE — Phases 3-4 UNAUDITED)
-**Note**: 5 MANIFEST-CC75a.md production manifests exist in neocorpus folders (not entries). 306 supplemental corpus files arrived post-nucleosynthesis via reclassification — triage in progress.
+**Updated**: 2026-03-02 (CC79a)
+**Corpus**: 22 semantic topic folders, 5,797 files (50.6% reduction from 11,733 originals)
+**Neocorpus**: 195 entries across 22 topic folders (ALL 4 PHASES AUDITED+ENRICHED — CC78a). 8 new entries added CC79a.
+**Note**: 5 MANIFEST-CC75a.md production manifests exist in neocorpus folders (not entries). Supplemental corpus triage COMPLETE (CC78a-CC79a): 371 files triaged across ai-capability-futures, infrastructure, productivity-pkm + 53 post-reclassification files across 6 folders. 46 files reclassified to correct folders. No untriaged supplemental arrivals remain.
 **Subcategory Indexes**: 10 folders indexed with cross-references
 **Constitutional Law**: Classification by SEMANTIC TOPIC only. Type-based clustering FORBIDDEN.
 
@@ -14,29 +14,29 @@
 | Folder | Files | Description | Subcategories |
 |--------|------:|-------------|:---:|
 | ai-biotech | 21 | Biotechnology, BCI, AI in life sciences | — |
-| ai-capability-futures | 484 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions (CC75a COMPLETE) | **8** |
+| ai-capability-futures | 467 | Frontier AI capabilities, scaling laws, AGI timelines, capability predictions (CC75a COMPLETE) | **8** |
 | ai-memory-retrieval | 319 | Long-term memory, RAG, vector databases, knowledge graphs, Graphiti, agent memory architecture (CC76a COMPLETE) | — |
-| ai-models | 644 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization (CC76a COMPLETE) | **6** |
+| ai-models | 648 | Model releases, benchmarks, LLM architecture, training, fine-tuning, tokenization (CC76a COMPLETE) | **6** |
 | ai-safety | 42 | Constitutional AI, RLHF, alignment, governance, existential risk | — |
 | ai-video-vfx | 22 | AI image/video generation, VFX workflows, creative AI tooling | — |
-| claude-code | 347 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions (CC76a COMPLETE) | **6** |
+| claude-code | 348 | Claude Code CLI: architecture, hooks, Plan Mode, MCP, skills, worktrees, permissions (CC76a COMPLETE) | **6** |
 | design-taste | 34 | Design philosophy, aesthetics, craft, UI/UX, "Taste for Makers" (CC73a COMPLETE) | — |
 | geopolitics-grand-strategy | 122 | US-China, grand strategy, civilizational analysis, defense, international relations | — |
 | health-psychology | 88 | Sleep, fitness, mental health, neuroscience, biohacking, psychology | — |
-| infrastructure | 121 | AI compute supply chain, data center economics, PAI, developer tooling, homelabs | — |
+| infrastructure | 99 | AI compute supply chain, data center economics, PAI, developer tooling, homelabs | — |
 | leadership-management | 26 | Executive decision-making, org design, management frameworks, AI adoption | — |
 | meaning-civilization | 128 | Meaning crisis (Vervaeke), civilizational inflection, cultural criticism (CC75a COMPLETE) | **11** |
-| multi-agent-systems | 2404 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files (CC76a COMPLETE) | **6** |
+| multi-agent-systems | 2419 | Multi-agent coordination, swarms, orchestration, MCP patterns, harness engineering, Syncrescendence operational files (CC76a COMPLETE) | **6** |
 | openclaw | 245 | OpenClaw/ClawdBot/Moltbot: installation, security, memory, SOUL.md, phone, fleets, ecosystem | **5** (Operational Tooling dissolved) |
-| philosophy-esoterica | 171 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah (CC75a COMPLETE) | **8** |
-| product-business | 214 | Business models, PMF, SaaS, AI product strategy, distribution (CC75a COMPLETE) | **9** |
-| productivity-pkm | 116 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
-| prompt-engineering | 46 | Prompt design, templates, optimization, few-shot patterns | — |
+| philosophy-esoterica | 179 | Consciousness, transhumanism, qualia, panpsychism, Hermetic tradition, alchemy, Kabbalah (CC75a COMPLETE) | **8** |
+| product-business | 218 | Business models, PMF, SaaS, AI product strategy, distribution (CC75a COMPLETE) | **9** |
+| productivity-pkm | 120 | Second Brain, PKM, Obsidian, habits, workflow automation, focus | — |
+| prompt-engineering | 49 | Prompt design, templates, optimization, few-shot patterns | — |
 | startup-vc | 80 | Founders, fundraising, startup culture, VC dynamics | — |
 | vibe-coding | 111 | AI-assisted coding practice, prompt-to-product, Karpathy guidelines (CC75a COMPLETE) | **7** |
 | writing-creation | 12 | Writing craft, rhetoric, content creation, voice/TTS (213 reclassified in CC74a, 96%) | — |
 
-**Total**: 5,794 files across 22 folders (0 uncategorized). 50.7% reduction from 11,733 originals. 7 folders subcategorized with cross-references. CC75a: CRUSH completed ai-capability-futures (14 entries) and philosophy-esoterica (10 entries). Major reclassification: philosophy-esoterica lost 152 files (54%), ai-capability-futures lost 55 files (25%). Cross-reclassification between the two folders (61 philo→ai-cap, 12 ai-cap→philo).
+**Total**: 5,797 files across 22 folders (0 uncategorized). 50.6% reduction from 11,733 originals. 7 folders subcategorized with cross-references. CC75a: CRUSH completed ai-capability-futures (14 entries) and philosophy-esoterica (10 entries). Major reclassification: philosophy-esoterica lost 152 files (54%), ai-capability-futures lost 55 files (25%). Cross-reclassification between the two folders (61 philo→ai-cap, 12 ai-cap→philo).
 
 ---
 
@@ -133,7 +133,9 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `personal-ai-infrastructure.md` | 01942, 02755, 03079, 02782 | PAI framework, TELOS, four builder principles, sovereignty argument |
 | `developer-tooling-workflow-homelab.md` | 00103, 11032, 09370, 03496, 08838, 02164, 01273 | Terminal workflows, AI coding tools, three-tier homelab, cybersecurity 2026 |
 
-**Totals**: 4 entries from 32 source files. 47 files reclassified (31 → MAS, 3 → ai-capability-futures, 2 → ai-models, 2 → productivity-pkm, 4 → meaning-civilization, 1 → openclaw, 1 → writing-creation, 1 → product-business, 1 → geopolitics-grand-strategy, 1 → claude-code). 58% misclassification rate. infrastructure/ nucleosynthesis COMPLETE.
+| `palantir-ontology-enterprise-semantic-layer.md` | 00351-00357, 00515 | Palantir 4 primitives, 3-layer architecture, competitor landscape, prosumer analogues |
+
+**Totals**: 5 entries from 32+ source files. CC79a: 1 new entry, 2 entries enriched, 23 files reclassified to correct folders, 65 files triaged (all accounted for). infrastructure/ nucleosynthesis COMPLETE + ENRICHED.
 
 ### ai-video-vfx/ (CC71a)
 
@@ -195,7 +197,10 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `productivity-systems-gtd-automation.md` | 00948, 09940, 04581, 04590, 03234, 10158 | GTD-to-agent evolution, Agent Skills format, anneal pipeline |
 | `skill-stacking-agency-polymathic-learning.md` | 00019, 02220, 02218, 02931, 02929, 02850, 03117, 01816, 09791, 09848, 10846, 09686, 09554, 09464, 09329, 00030 | Agency as master skill, skill stacking, 5D thinking, mental models over information |
 
-**Totals**: 9 entries from 88 on-topic source files. 124 of 212 files (57%) reclassified to 17 folders. productivity-pkm/ nucleosynthesis COMPLETE.
+| `agent-native-tools-for-thought.md` | 02980, 04155, 04356 | Agent-adapted PKM, Ars Contexta, skill graphs, self-engineering loops |
+| `inversion-thinking-via-negativa.md` | 03183 | Munger inversion, pre-mortem, regret minimization, via negativa |
+
+**Totals**: 11 entries from 88+ on-topic source files. CC79a: 2 new entries, 7 entries enriched from 15+ supplemental sources. productivity-pkm/ nucleosynthesis COMPLETE + ENRICHED.
 
 ### writing-creation/ (CC74a)
 
@@ -226,7 +231,13 @@ The compendium layer. Each entry is the definitive treatment of a concept, lossl
 | `agent-evals-capability-benchmarks.md` | 13 files | Anthropic 3-layer framework, ARC-AGI v3, measurement crisis, non-determinism |
 | `democratization-open-models.md` | 2 files | Moatlessness thesis, printing press cascade, Renaissance 2.0 vision |
 
-**Totals**: 14 entries from 282 on-topic source files. 55 files reclassified (25%). 8 subcategories (2 new: AI Economic Impact & Labor, Physical AI & Robotics). ai-capability-futures/ nucleosynthesis COMPLETE.
+| `asi-economics-early-signals.md` | 01761 | ASI economic precursors, distinct from post-AGI futures |
+| `ai-cybersecurity-threats.md` | 02166 | Shadow AI, quantum threats, deepfakes (IBM 2026) |
+| `probabilistic-computing-hardware.md` | 01227 | Extropic thermodynamic computing, TSU architecture, 10000x efficiency |
+| `consciousness-theory-computing.md` | 01963 | Faggin hardware pioneer's consciousness thesis |
+| `context-graphs-knowledge-architecture.md` | 03519 | Context graphs for AI knowledge representation |
+
+**Totals**: 19 entries from 282+ on-topic source files. CC79a: 5 new entries, 14 entries enriched from 80+ supplemental sources. 78 files reclassified total. ai-capability-futures/ nucleosynthesis COMPLETE + ENRICHED.
 
 ### philosophy-esoterica/ (CC75a)
 
