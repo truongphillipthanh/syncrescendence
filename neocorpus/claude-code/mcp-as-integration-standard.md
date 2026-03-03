@@ -119,6 +119,30 @@ The broader trajectory is clear: MCP is to AI agent tooling what REST was to web
 
 ---
 
+## Obsolescence and Supersession
+
+### Pre-MCP: Bespoke Integration for Every Tool
+
+The entry's own Implications section names the supersession explicitly: "Before MCP, every new tool integration required custom code, custom protocols, and custom maintenance. After MCP, integration is configuration."
+
+The pre-MCP model assumed that tool integrations were inherently one-off engineering projects. Each new capability — connecting Claude Code to a database, a deployment system, an IDE feature — required writing a custom integration, maintaining a custom protocol, and updating the integration whenever either side changed. This produced integration debt that scaled linearly with the number of tools.
+
+The assumption was that there was no universal interface for tool connectivity because tools are too diverse to share one. MCP disproved this: a simple client-server protocol with tool discovery, structured invocation, and JSON-over-stdio transport covers the vast majority of integration needs at a fraction of the bespoke cost.
+
+### Supersession Within MCP: From stdio to Streamable HTTP to Desktop Extensions
+
+MCP itself has undergone internal supersession since its introduction. The `08764.md` synthesis documents multiple transport types (stdio, HTTP, SSE, SDK/in-process), with different transports appropriate for different deployment scenarios. The progression from stdio-only (simplest, local-only) to HTTP with authentication (shareable, remote-capable) represents an evolution from "developer tool" to "organizational infrastructure."
+
+Desktop Extensions (DXT) represent a further supersession: packaging MCP servers for user-facing installation, removing the requirement that users understand JSON configuration files or process management. This mirrors the historical progression of software distribution (compile from source → install from package manager → one-click app store install), applied to MCP server distribution.
+
+### The Standardization Window
+
+The Apple Xcode MCP bridge adoption (`corpus/claude-code/10513.md`) signals that MCP crossed a standardization threshold where platform vendors made an institutional commitment. Before this, MCP was Anthropic's protocol. After major IDE and platform vendors adopt it, it becomes the industry standard — a qualitative shift in the cost/benefit of building MCP servers (now serves multiple platforms, not just one).
+
+The `10313.md` source (January 2026) documents this in the context of "vibe coding" tools: MCP adoption by competing tools (Cursor, Windsurf) is listed as a characteristic of the 2026 vibe coding landscape, not as a future expectation. The standardization is observed, not forecast.
+
+---
+
 ## Source Provenance
 
 | Corpus File | Content |

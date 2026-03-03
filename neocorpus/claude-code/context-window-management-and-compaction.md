@@ -108,6 +108,28 @@ For multi-agent constellations like the Syncrescendence, context management beco
 
 ---
 
+## Obsolescence and Supersession
+
+### The "Just Let It Run" Assumption
+
+Early agentic coding practice operated on the assumption that the context window was a generous buffer — 200K tokens felt limitless compared to earlier AI systems, and the natural impulse was to let sessions run until natural completion. The assumption: a larger context window means the agent can handle more work per session without degradation.
+
+This assumption was wrong in a specific way: it conflated *capacity* with *fidelity*. The "Lost in the Middle" phenomenon (Liu et al., 2023) established that attention is not uniform across the context window. A session at 60% capacity does not perform 40% worse than a fresh session — it performs unpredictably, with middle-positioned information receiving systematically less attention. The degradation is not at the boundary; it is distributed and invisible.
+
+### Supersession: From Reactive to Proactive Context Management
+
+The initial response to context pressure was reactive: let compaction fire when the threshold was crossed, trust the summary, continue. This approach assumed compaction was approximately lossless — that the summarized session was functionally equivalent to the full session.
+
+The supersession is the recognition that compaction is lossy by definition. A system that compresses cannot preserve everything. The practical correction: pre-empt compaction rather than react to it. Structure the session to avoid reaching the compaction threshold through sub-agent delegation, progressive loading, and structured handoffs. The handoff-and-fresh-session pattern is the lossless alternative to lossy compaction.
+
+### The Threshold Uncertainty Problem
+
+The corpus source (`08764.md`) documents a genuine disagreement across multiple research iterations about the compaction trigger threshold — some sources cite 64-75%, others cite a ~95% default with an override variable. This disagreement reflects a period of rapid Claude Code version evolution where compaction behavior changed between releases. The current entry preserves this uncertainty honestly rather than resolving it to a false consensus.
+
+The practical lesson from this uncertainty: do not build workflows that depend on a specific compaction threshold. Build workflows that tolerate any threshold by proactively managing context below where any known threshold sits.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:

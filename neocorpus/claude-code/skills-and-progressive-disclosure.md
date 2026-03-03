@@ -127,6 +127,28 @@ The progressive disclosure pattern extends beyond skills to a broader architectu
 
 ---
 
+## Obsolescence and Supersession
+
+### Pre-Skills: The Kitchen Sink Session
+
+Before skills and progressive disclosure, the standard approach to giving an agent extensive behavioral guidance was to load all instructions at session start — a single large CLAUDE.md or equivalent system prompt injection. This approach assumed that more context is always better, and that the overhead of loading unused instructions was acceptable.
+
+The assumption broke under two conditions: (1) the context window filled before the work began, and (2) irrelevant instructions increased noise and reduced the agent's focus on the current task. The anti-pattern now called "Kitchen Sink" (documented in the CLAUDE.md Configuration System entry) was not originally recognized as an anti-pattern — it was the default approach before progressive disclosure existed as an alternative.
+
+### The Skill Graveyard as a Phase-One Phenomenon
+
+The Syncrescendence constellation's experience — a skill registry growing to 264 entries, requiring consolidation to ~196 with a formal anti-shelfware rule — documents a supersession arc that other teams will follow. Phase one: skills are created enthusiastically for every conceivable task. Phase two: most skills go unused. Phase three: the graveyard problem forces an audit and a maintenance protocol.
+
+The anti-shelfware rule (every active skill must have a documented invocation path) is the institutionalized lesson from phase-two failure. Teams that understand this arc can skip phase two by building the rule in from the start.
+
+### Progressive Disclosure as Correction to Monolithic Loading
+
+The skills mechanism emerged as a correction to the monolith problem in the same way subdirectory CLAUDE.md files corrected the monolithic root CLAUDE.md. Both represent the same insight applied twice: front-loading all context is wasteful when only a fraction is relevant to the current task. The progressive disclosure principle was discovered through failure (sessions exhausting context before completing tasks) and encoded into the architecture (on-demand loading, selective skill invocation) as the correction.
+
+This is the standard supersession form for Claude Code architectural patterns: a naive approach that works for small cases, a failure mode that appears at scale, a structural correction that encodes the lesson.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's operational history and skill registry (`corpus/claude-code/00419.md`), not from generalizable external sources about Claude Code:

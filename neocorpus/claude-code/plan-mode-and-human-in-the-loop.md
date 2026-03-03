@@ -122,6 +122,30 @@ Plan Mode exists on a spectrum. At one end, every change requires human approval
 
 ---
 
+## Obsolescence and Supersession
+
+### The Dive-First Default
+
+Before Plan Mode, the default agent behavior was immediate execution: receive a task, begin reading and writing files, iterate toward completion. The assumption: starting implementation immediately is efficient because exploration and implementation naturally interleave.
+
+This assumption held for small, well-specified tasks. It broke for large multi-file changes where the wrong implementation approach — chosen before understanding the full dependency graph — required backtracking that consumed more total context and time than upfront planning would have. The `corpus/claude-code/10825.md` source documents the cultural supersession of this assumption: "For twenty years, engineering culture has been about maximizing time spent writing code." The agent-first team described there explicitly inverted this: "no coding before 10am," with the morning dedicated to prompting, aligning, and planning before any agent writes code.
+
+Plan Mode is the architectural expression of this cultural inversion.
+
+### The Code Review Culture Supersession
+
+The same source (`10825.md`) documents a related supersession: "Review the output, not the code. Don't read every line an agent writes. Test code against the objective. If it passes, ship it. If it doesn't, reset the objectives & constraints. Code review as we knew it is overhead the system no longer needs."
+
+This is the inversion of the human code review model, where reviewers read every line. The human-in-the-loop gate in Plan Mode is not a code review gate — it is an objective alignment gate. The human reviews the plan (intent + approach) rather than the implementation (line-by-line code). This is a qualitatively different kind of review, appropriate for a workflow where agents write the code but humans set the objectives.
+
+### Plan Mode as First-Class Feature vs. Prompt Convention
+
+Plan Mode evolved from a prompt convention ("please think before acting") into a first-class mode with dedicated triggering mechanisms. The progression: early users discovered that including planning language in prompts improved outcomes, which led to community-standardized prompt templates, which led to formal Plan Mode as a feature. The current automatic engagement rule (activates for directives touching >3 files or spanning multiple domains) encodes the community-discovered threshold as a system-level default.
+
+This is the standard trajectory for Claude Code capabilities: community discovers a valuable pattern through experimentation, documents it as a best practice, and the system eventually incorporates it as a built-in behavior.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's constitutional documents (AGENTS.md, CLAUDE.md), not from external corpus sources:

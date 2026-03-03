@@ -125,6 +125,28 @@ The claim that AI "democratizes" software creation is testable through Cowork ad
 
 ---
 
+## Obsolescence and Supersession
+
+### The Terminal Barrier as Default
+
+Claude Code launched as a terminal-native tool. The original assumption: the primary users of an AI coding agent are developers, and developers are comfortable with terminal interfaces. This assumption was correct for the initial target population but created a structural exclusion of all non-terminal users — knowledge workers, product managers, marketers, non-engineering founders — who had exactly the kinds of high-value knowledge management tasks that agents could accelerate.
+
+The terminal barrier was not a deliberate design choice against non-technical users — it was the natural default of building a developer tool. Cowork is the correction: a recognition that the underlying capability (filesystem access + natural language + agentic execution) is valuable far beyond the developer population, and that the interface barrier is artificial.
+
+### The Chat Window as the Prior Non-Technical Model
+
+Before Cowork, non-technical users who wanted AI assistance had two options: standard chat interfaces (Claude.ai, ChatGPT) or copy-pasting file contents manually into those interfaces. The chat window model assumed that all context the AI needed would be explicitly provided in the conversation. This assumption failed at scale for knowledge workers: their work context is distributed across hundreds of files, and providing it through copy-paste is impractical.
+
+Cowork supersedes this model by making the filesystem the context layer rather than the conversation. The user no longer needs to know which files are relevant — the agent reads what it needs. The prior model put context-curation burden on the user; Cowork transfers it to the agent.
+
+### The Anthropic-Internal Slack Pattern as Parallel Evidence
+
+The `corpus/claude-code/10411.md` source (published January 30, 2026) documents a parallel supersession at Anthropic itself: team members who previously sent memos and made mockups now kick off Claude Code prototypes from Slack. "I don't really send memos or make mockups anymore, I just make CC prototypes." This is non-technical access through a different channel (Slack bot rather than desktop app), but the same underlying pattern: filesystem-connected natural language interface making agent capabilities available to non-engineers.
+
+Both Cowork and Slack-based access represent the same correction to the same prior model: AI assistance was gated by terminal proficiency, which excluded the majority of knowledge workers.
+
+---
+
 ## Source Provenance
 
 | Source | Key Contribution |

@@ -136,6 +136,28 @@ The most efficient agent-human interaction is not a conversation but a pointer. 
 
 ---
 
+## Obsolescence and Supersession
+
+### The Default Agent Search Model
+
+The prior approach to codebase navigation was full reliance on the agent's own search capability: give the agent a natural language description, let it grep and read until it finds the target. The `corpus/claude-code/00116.md` source documents this approach explicitly — its "Without React Grab" side shows the agent issuing multiple file reads and grep operations with high variance in completion time.
+
+The assumption embedded in agent-search-by-default: the agent's non-deterministic search is good enough, and the cost of injecting precise context exceeds the search overhead. This assumption is wrong at scale. The benchmark result (16.8 seconds average without React Grab, 5.8 seconds with — 3x speedup) quantifies the cost of the assumption.
+
+### The React Grab Supersession Pattern
+
+React Grab represents a category of tooling that supersedes pure agent search: instrumented runtimes that embed source provenance in the artifact. The rendered DOM becomes an index of the source tree. An agent that can query this index gets O(1) access to "which file produced this element" rather than O(n) search through the codebase.
+
+This pattern will generalize. Every framework that maintains a mapping from rendered output to source — Vue DevTools, Svelte source maps, Angular's component tree, server-side template debugging — is a candidate for the same treatment. The supersession is from "agent searches the source" to "runtime knows the source and exposes it."
+
+### The Two Optimization Surfaces and Their Trajectories
+
+The entry identifies two optimization surfaces: improving agent search capability (provider-side) and reducing search requirements (user-side). As of early 2026, these remain complementary. However, the trajectory differs: agent search capability improves with each model generation as models become better at code navigation tasks. Context injection tools like React Grab are available today and degrade gracefully with better models (they still help, just provide less proportional benefit).
+
+Teams that invest in context injection infrastructure now get the full 3x benefit today. As model-native code navigation improves, the marginal value of explicit injection will decrease — but the infrastructure will remain useful, providing smaller improvements from a higher baseline.
+
+---
+
 ## Source Provenance
 
 | Source | Key Contribution |

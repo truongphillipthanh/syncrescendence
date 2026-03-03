@@ -114,6 +114,26 @@ The experimental flag signals that this architecture is still evolving. Current 
 
 ---
 
+## Obsolescence and Supersession
+
+### Pre-Teams Era: Sequential Single-Agent Bottleneck
+
+Before agent teams, the standard Claude Code workflow was single-threaded: one agent, one context window, tasks executed sequentially. Parallelism required entirely separate Claude Code sessions that could not coordinate — there was no shared task list, no message protocol, no team lead abstraction. Multi-agent work meant the human acted as the coordination layer, manually shuttling context and results between isolated sessions.
+
+The assumption underpinning the single-agent model was that the context window was the natural unit of coherent work. If a task was too large for one context, you broke it into independent sequential phases or you simply could not do it in one session. This assumption held until agent teams introduced structure-based coordination as an alternative to shared context.
+
+### Supersession: From Human Coordinator to Agent Coordinator
+
+The workflow superseded by teams was human-relayed multi-agent work: the Sovereign (human) dispatching separate sessions, relaying results manually, synthesizing outputs by hand. This is visible in the Syncrescendence constellation's own operational history — the Commander + Adjudicator + Cartographer + Psyche pipeline required the Sovereign to relay between agents because no programmatic coordination channel existed. Agent teams replace the human relay function with a machine-readable task list and message protocol.
+
+The transition encodes a design decision: coordination overhead should be paid by the agent system, not by the human. The pre-teams pattern pushed coordination cost onto humans because it was the only option. Agent teams make coordination a first-class agent responsibility.
+
+### What Remains Unresolved (as of early 2026)
+
+The `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` flag marks this architecture as incomplete. Known limitations: no persistence of team state across sessions (teams dissolve when the session ends), no resource-aware scheduling (the system cannot throttle spawning based on API quota pressure), no automatic conflict detection when file ownership partitioning fails. These are the open problems whose solutions will define the next supersession.
+
+---
+
 ## Source Provenance
 
 | Corpus File | Content |

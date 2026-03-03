@@ -112,6 +112,32 @@ The deeper implication is architectural: CLAUDE.md is the interface between huma
 
 ---
 
+## Obsolescence and Supersession
+
+### Pre-CLAUDE.md: Agents Operating on Defaults
+
+Before the CLAUDE.md hierarchy, AI coding agents operated on model-default behavior — whatever the training data and system prompt established. Project-specific instructions existed only if explicitly included in each prompt. This meant that every session started fresh, with no accumulated project knowledge, no persistent coding standards, and no sense of the repository's particular architecture.
+
+The assumption embedded in that model: contextual information belongs in the prompt, not in the filesystem. The human (or a templating system) was responsible for injecting project context with each invocation.
+
+### Supersession: From Per-Prompt Injection to Persistent Configuration
+
+CLAUDE.md replaced per-prompt context injection with persistent filesystem-based configuration. The shift encoded a different assumption: project context is stable enough across sessions to warrant a dedicated configuration file, and the overhead of maintaining that file is less than the overhead of re-injecting context every time.
+
+This is a version of the classic "configuration vs. convention" design decision. The pre-CLAUDE.md model used convention (the developer knows to include the right context). The CLAUDE.md model uses configuration (the file is always there, always loaded, always operative).
+
+### The Monolith-to-Hierarchy Supersession Within CLAUDE.md
+
+A secondary supersession happened within CLAUDE.md itself: from a single monolithic file to a multi-scope hierarchy with on-demand loading. Early CLAUDE.md usage loaded everything at session start — a flat approach that scaled poorly to large repositories. The introduction of subdirectory CLAUDE.md files with lazy loading, the `.claude/rules/*.md` pattern, and scope-based precedence represent a successive correction: the original monolith assumption (one file is sufficient) was wrong under monorepo conditions, and the hierarchy is the correction.
+
+The Syncrescendence's own evolution follows this pattern: the system moved from a single AGENTS.md to a generated CLAUDE.md via `make configs`, then to a multi-extension system with `*-EXT.md` files providing per-agent subsets. Each transition addressed a failure mode in the previous approach.
+
+### Version-Sensitivity Note
+
+The `08764.md` synthesis explicitly flags CLAUDE.md behavior as release-sensitive: "many behaviors are release-sensitive." Configuration behaviors described here (specific precedence rules, import depth limits, scope file locations) should be verified against current Claude Code version documentation. The gap between community-documented and officially-documented hierarchies (noted in the Core Architecture section) reflects a period of rapid evolution where the official documentation lagged community-discovered behavior.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:

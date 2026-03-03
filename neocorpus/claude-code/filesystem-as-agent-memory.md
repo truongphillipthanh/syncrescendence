@@ -149,6 +149,28 @@ The neocorpus itself is an instance of filesystem-as-memory. Each entry is a nod
 
 ---
 
+## Obsolescence and Supersession
+
+### The Vector Database Assumption
+
+The standard approach to AI persistent memory before filesystem-as-memory became established was vector embedding: store knowledge as numerical vectors in a dedicated vector store (Pinecone, Weaviate, Chroma), retrieve semantically similar passages at query time. This approach had strong theoretical backing — semantic similarity retrieval should find relevant context regardless of how it is named or structured.
+
+The assumption embedded in the vector model: the primary access pattern is "find information similar to this query." The failure mode: this assumption is wrong for project-specific, structured, human-maintainable knowledge. The filesystem stores information that humans already know how to organize and navigate. Making it navigable by index position (a file at `corpus/claude-code/`) rather than by embedding distance preserves the human's mental model alongside the agent's access pattern.
+
+### Supersession: From Infrastructure to Files
+
+The practical supersession was the recognition that maintaining a vector database — running a local embedding server, managing index updates, dealing with embedding drift, debugging opaque retrieval failures — is infrastructure overhead that produces no capability advantage for the class of knowledge agents most need: project-specific, human-maintained, hierarchically organized context.
+
+The `corpus/claude-code/00289.md` source documents the non-technical version of this supersession clearly: a user who builds a compounding AI operating system as a folder structure, using Claude Code as the interface, gets all the benefits of persistent agent memory without any vector database infrastructure. The simpler system is also the better system for this use case.
+
+### The Lineage From Zettelkasten to Agent Memory
+
+The filesystem-as-memory pattern has a lineage in knowledge management practice: the Zettelkasten method (Niklas Luhmann's note-card system), wiki-style linked knowledge bases, and tools-for-thought systems like Obsidian. The `corpus/claude-code/00041.md` source makes this lineage explicit — it frames the agent's filesystem as a "tools-for-thought" system where markdown files are nodes and wiki-style links are edges.
+
+The supersession is that these human knowledge management patterns, developed for individual human thinkers, transfer directly to agent memory architectures. The AI agent and the human knowledge worker share the same constraint (limited working memory) and benefit from the same solution (externalized structured storage). The difference is that the agent navigates the graph programmatically while the human navigates it manually — but the graph itself is the same.
+
+---
+
 ## Syncrescendence Operational Context
 
 The following claims derive from the constellation's operational history and constitutional documents (AGENTS.md, CLAUDE.md, memory/), not from external corpus sources:

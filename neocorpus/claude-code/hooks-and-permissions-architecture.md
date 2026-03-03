@@ -143,6 +143,30 @@ The deeper implication is philosophical: the permission system embodies a theory
 
 ---
 
+## Obsolescence and Supersession
+
+### Pre-Hooks: Purely Declarative Permissions
+
+Before hooks, the permission system was purely declarative: deny/allow/ask rules evaluated against tool invocations. This system expressed what was permitted but had no mechanism to express how permissions should be enforced, under what conditions, or with what validation logic. The assumption: declarative rules are sufficient to govern agent behavior.
+
+This assumption held for simple use cases. It broke under organizational requirements: "commits must include a ticket reference" cannot be expressed as a deny/allow/ask pattern. "No secrets in staged files" requires reading file content, not just matching a tool name. "Deployments only during maintenance windows" requires checking external system state. These policy-level requirements have irreducible conditional logic that pattern-matching rules cannot encode.
+
+Hooks are the correction: an interception layer that fires before declarative rules, enabling executable policy alongside declarative policy. The combination covers the full space of organizational requirements that neither alone could address.
+
+### The Sandbox Runtime Addition
+
+The `corpus/claude-code/00001.md` source documents an opt-in sandbox runtime (`github.com/anthropic-experimental/sandbox-runtime`) introduced via the `/sandbox` command. This represents a further supersession within the permission system: from permission rules governing what the agent requests, to a sandbox layer governing what the underlying execution environment allows.
+
+The sandbox approach embodies a different security assumption: rather than trusting that the permission evaluation correctly identifies all dangerous actions, the sandbox restricts the execution environment so that even unpermitted actions cannot cause damage. Defense-in-depth rather than defense-by-rules.
+
+### The Audit Maturation Curve
+
+The `00001.md` source describes a progression in how operators use the permission system: from manual approval of every novel action (early use, high friction), to targeted allow rules for safe patterns (reduced friction), to hooks encoding organizational policy (institutional maturity). This is not just a workflow pattern — it is a maturation arc that reflects changing assumptions about what the agent can be trusted to do.
+
+Early Claude Code deployment assumed zero trust: approve everything. Mature deployment assumes calibrated trust: a permission configuration that reflects months of observed agent behavior. The system was designed to support both ends of this arc, but the path from one to the other requires deliberate configuration investment.
+
+---
+
 ## Source Provenance
 
 | Corpus File | Content |

@@ -136,6 +136,34 @@ The most profound implication is existential rather than practical. When the dis
 
 ---
 
+## Obsolescence and Supersession
+
+### The Pre-Autonomous-Agent Research Pipeline
+
+The source is explicit about the prior workflow it supersedes: "Before this, the way I'd explore a new idea is to either clumsily put something together myself or ask a student to run something short for signal, and if it's there, we'd go deeper." (`corpus/claude-code/10857.md`)
+
+This names two prior models precisely:
+1. **Self-execution**: The researcher does the engineering work themselves. Cost: their own days to weeks.
+2. **Student delegation**: The researcher offloads to a junior researcher. Cost: the student's days to weeks, plus the institutional cost of training time that may not produce the research value intended.
+
+Both prior models shared the same bottleneck assumption: engineering work is a human bottleneck, and its cost sets the activation energy for exploring a question. Questions below a certain expected-value threshold were simply not explored.
+
+### What the Workflow Assumption Was, and Why It Was Wrong
+
+The underlying assumption of the old model: research signal-detection (finding out if a question has any meat) is expensive because it requires engineering infrastructure, and engineering infrastructure requires human time to build. This was true before agents could do infrastructure work reliably. It became wrong when Claude Code demonstrated the ability to SSH into GPU instances, write and deploy experiment code, manage parallel jobs, and pull results — tasks previously requiring a dedicated engineering effort.
+
+The source frames the transition crisply: "That quick signal step, i.e., finding out if a question has any meat to it, is what I can now do without taking up anyone else's time."
+
+### Supersession of the Student-as-First-Experiment Model
+
+The student side-project pipeline served a dual purpose: it produced early signal on research questions AND trained junior researchers. Autonomous research workflows disrupt the first purpose entirely. The second purpose — training through hands-on infrastructure work — is more ambiguous. The corpus identifies this tension explicitly: if agents do the engineering, what does junior researcher training become? The answer is not yet settled, but the direction is clear: training shifts toward hypothesis formation, experimental design, and result interpretation, away from infrastructure execution.
+
+### The December 2024 Timestamp
+
+The corpus source (`10857.md`) references a "December 2024 patch" for an Anthropic infrastructure bug that inspired the research question. This places the autonomous research workflow narrative in late 2024 / early 2025 — still the early era of production-grade agentic coding. The pattern documented here was novel at the time of writing; by 2026 it has become an established workflow category.
+
+---
+
 ## Source Provenance
 
 | Source | Key Contribution |

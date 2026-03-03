@@ -131,6 +131,28 @@ The deeper pattern is that sub-agents implement a form of cognitive architecture
 
 ---
 
+## Obsolescence and Supersession
+
+### The Single-Agent Marathon
+
+Before sub-agents, Claude Code sessions were single-threaded: one agent, one context window, tasks executed sequentially with all context accumulating in one place. The assumption underpinning this model: the context window is large enough (200K tokens) to handle complex multi-step projects without delegation. This assumption was correct for single-file tasks and quickly wrong for projects requiring broad codebase exploration before targeted implementation.
+
+The corpus source (`corpus/claude-code/00025.md`) documents the key failure mode: "If I ask the main agent to summarize the tech stack without sub-agents, all tool responses and the final response contribute to the context usage." In a complex project, the agent exhausts significant context on exploration that could be externalized.
+
+### The Haiku Optimization as Economic Supersession
+
+The Explore agent's use of Haiku (fast, cheap, read-only) represents a targeted supersession of a prior assumption: that all sub-tasks require the same model capability as the main task. Before model-differentiated delegation, the choice was binary: use the primary (expensive) model for everything, or manually manage separate sessions with different models.
+
+The built-in Explore agent makes asymmetric model allocation automatic: reconnaissance tasks (codebase scanning, pattern finding, tech stack surveys) run on Haiku; implementation tasks run on Sonnet or Opus. The source states this contrast explicitly: "even the Haiku model does a surprisingly good job at identifying glaring issues." The supersession is from "same model for everything" to "model matched to task complexity and cost."
+
+### From Background Agents as Workaround to First-Class Feature
+
+The `Ctrl+B` background execution pattern represents a supersession from a synchronous interaction model to an asynchronous one. The prior model required the operator to wait for every agent operation to complete before issuing the next instruction. Background agents were initially available but underused because the synchronous mental model dominated.
+
+As practitioners discovered that background agents allowed continued interaction while compute ran asynchronously, background execution shifted from a workaround for impatient users to a recommended pattern for all substantial sub-tasks. The transformation of the interaction model — from sequential command-and-wait to concurrent command-and-continue — is the substantive architectural shift that background agents enable.
+
+---
+
 ## Source Provenance
 
 | Corpus File | Content |

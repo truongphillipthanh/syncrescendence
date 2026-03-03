@@ -98,6 +98,28 @@ The disagreement between API-level budget allocation and behavioral compliance m
 
 ---
 
+## Obsolescence and Supersession
+
+### Uniform Effort as the Original Default
+
+Before extended thinking existed as an explicit control, AI coding agents applied uniform computational effort to all tasks — the same reasoning depth for "rename this variable" and "redesign this authentication system." The assumption: the model's default reasoning depth is appropriate for all tasks, and the user manages complexity by prompt design rather than effort allocation.
+
+This assumption was economically wrong in both directions: expensive for simple tasks (unnecessary computation) and insufficient for complex ones (under-reasoning on high-stakes decisions). Effort control addresses both by making reasoning depth a first-class parameter rather than a model constant.
+
+### The Keyword-as-API Assumption and Its Correction
+
+The `corpus/claude-code/08764.md` synthesis documents a supersession in how practitioners understand the `think` / `think hard` / `ultrathink` keywords. Early documentation and community discussion treated these as direct API switches — each keyword mechanically allocated a specific token budget. Source-code analysis (referenced in `08764.md`) appeared to confirm specific values: 4,000 / 10,000 / 31,999 tokens.
+
+This assumption was challenged by official documentation (ChatGPT's research iteration) and confirmed by Claude Code's own CLAUDE.md: "Keywords are cosmetic intent signals — useful as session markers but they do not allocate specific token budgets." The supersession is from "mechanical API switch" to "behavioral signal." The practical effect is the same (more deliberate reasoning), but systems built on exact token count expectations will behave unpredictably because the underlying model is behavioral compliance, not mechanical budget allocation.
+
+### The Auto-Enable Assumption
+
+Claude Code auto-enables extended thinking at the API level. This is a design decision that superseded an earlier expectation that extended thinking would be opt-in and explicitly configured per session. The implication: users receive the benefit without explicit configuration, but they may not know the feature is active unless they read the documentation or observe the reasoning trace.
+
+This auto-enable pattern is consistent with Claude Code's broader philosophy: configure-by-default rather than require-configuration. The cost is reduced operator visibility into what is happening; the benefit is reduced configuration overhead for the majority who want the feature but would not explicitly enable it.
+
+---
+
 ## Source Provenance
 
 | Source | Key Contribution |
