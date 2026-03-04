@@ -6,7 +6,7 @@
 **Primary sources**:
 - [AGENTS.md](/Users/system/syncrescendence/AGENTS.md)
 - [CODEX-COMMAND-ATOMS-CC79.md](/Users/system/syncrescendence/playbooks/codex/references/CODEX-COMMAND-ATOMS-CC79.md)
-- [HARNESS-CAPABILITY-REGISTRY-CC79.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79.md)
+- [HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md)
 - [CC79-HARNESS-INGEST-AND-GRADING.md](/Users/system/syncrescendence/communications/assessments/CC79-HARNESS-INGEST-AND-GRADING.md)
 
 ## 0. What This Surface Is For

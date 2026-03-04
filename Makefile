@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -46,3 +46,6 @@ stage-feedstock:
 
 harness-tranche-ab:
 	python3 operators/validators/harness_tranche_ab.py --source-dir "$(or $(SOURCE_DIR),/Users/system/Desktop/harnesses)" --cc-tag "$(or $(CC_TAG),cc79)"
+
+harness-registry-effective:
+	python3 operators/validators/render_harness_effective_registry.py

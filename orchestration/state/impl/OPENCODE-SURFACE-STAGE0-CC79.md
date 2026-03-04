@@ -16,8 +16,8 @@ Stage OpenCode as a federated harness surface without prematurely promoting spec
 
 - treat OpenCode as **experimental harness surface**
 - promote only `T0/T1` claims from:
-  - [HARNESS-CAPABILITY-REGISTRY-CC79.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79.md)
-  - [HARNESS-PROMOTION-CANDIDATES-CC79.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79.md)
+  - [HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md)
+  - [HARNESS-PROMOTION-CANDIDATES-CC79-EFFECTIVE.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79-EFFECTIVE.md)
 
 ## Deferred Work
 
