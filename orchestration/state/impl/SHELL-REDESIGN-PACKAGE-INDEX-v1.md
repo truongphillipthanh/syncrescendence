@@ -71,6 +71,9 @@
 21. [PLAYBOOK-COMPACTION-PASS-03-ORACLE-PERPLEXITY.md](/Users/system/syncrescendence/orchestration/state/impl/PLAYBOOK-COMPACTION-PASS-03-ORACLE-PERPLEXITY.md)  
    Records the third live playbook compaction for the synthesis/verification external cognition pair.
 
+22. [DISSERTATION-SYNCRESCENDENCE-v1.md](/Users/system/syncrescendence/orchestration/state/impl/DISSERTATION-SYNCRESCENDENCE-v1.md)  
+   Canonical synthesis of thesis, teleology, architecture, built reality, latent capacity, risks, and agent habitation.
+
 ---
 
 ## Current Status

@@ -1,0 +1,157 @@
+# Dissertation Chapter 3 — Built Reality
+
+## 1. What Has Already Been Built
+
+This is not just a design shell. It already contains real working machinery.
+
+## 2. Config Architecture
+
+Built:
+
+- one constitutional source
+- rendered harness-facing surfaces
+- config validation
+- source-vs-generated discipline
+
+What this proved:
+
+- the “gold mine” config line was correct
+- manual multi-surface drift can be reduced
+- harness differentiation can coexist with one source of truth
+
+## 3. Runtime and Agent Reality
+
+Built:
+
+- live Ajna on the laptop
+- live Psyche on the mini
+- repaired OpenClaw stacks
+- stage-1 tmux constellation revival
+- runtime snapshots and status surfaces
+
+What this proved:
+
+- the shell is not merely documentary
+- office identities can correspond to real execution surfaces
+- cross-machine substrate coherence is possible
+
+## 4. Office Layer
+
+Built:
+
+- lawful `offices/` lane
+- inbox / outbox / memory substructure
+- office READMEs
+- office playbooks
+- office identities and burdens
+- commander office envelope templates
+
+What this proved:
+
+- the predecessor `agents/` model was worth preserving
+- local matter can be stored without pretending it is federal truth
+- office burden can be made explicit enough to improve routing
+
+## 5. Communications Law and Lineage
+
+Built:
+
+- communications lane
+- packet standards
+- response bridges
+- migration operator for communications chains
+- absorbed constitutional lineages
+- absorbed CLI↔web-gap lineages
+- assessments and tranches recording those migrations
+
+What this proved:
+
+- communication can be treated as legal artifact classes
+- prompts and responses do not have to remain ambient lore
+
+## 6. Knowledge Lane
+
+Built:
+
+- `knowledge/` as first-class lane
+- feedstock intake path
+- receipts for intake
+- internalized neocorpus as live reference substrate
+- first real compaction from feedstock into playbooks
+
+What this proved:
+
+- research and incoming insight no longer have to leak into pedigree or ad hoc folders
+- compaction can be operationalized rather than only theorized
+
+## 7. Exocortex Governance
+
+Built:
+
+- exocortex taxonomy
+- account and identity matrix
+- bridge scripts
+- packetized external surfaces
+- current chat-bus design law
+
+What this proved:
+
+- the exocortex can be governed instead of merely tolerated
+- external surfaces can participate without becoming the canon
+
+## 8. CLI↔Web Gap Closure
+
+Built:
+
+- packetized web relay model
+- Cowork relay scaffold
+- Hazel finalization
+- first successful Perplexity run via Cowork + Claude in Chrome
+
+What this proved:
+
+- subscription surfaces can be brought into the shell without API-first assumptions
+- the shell can already close at least one real browser-mediated loop
+
+## 9. Ontology and Domain
+
+Built:
+
+- ontology v1
+- domain scaffold
+- reverse proxy path
+- Cloudflare tunnel cutover
+- public health path
+
+What this proved:
+
+- ontology can function as typed projection
+- the shell can expose a queryable surface without confusing that with law
+
+## 10. Why This Matters
+
+The shell is already beyond concept stage.
+
+Its most important proofs are:
+
+- law can generate config
+- runtime can be reconciled
+- communications can be classed
+- offices can be physicalized
+- exocortex can be governed
+- browser-mediated loops can close
+- ontology can stay downstream
+
+This is why the redesign has credibility.
+
+## 11. What the Shell Has Not Yet Built
+
+It has not yet fully built:
+
+- automatic full compaction from all lineages into playbooks/operators
+- the final live Rosetta/Intent program bind at full maturity
+- complete bridge/operator coverage for all chat and exocortical surfaces
+- full office habitation and agent-native routines across all offices
+- a hardened worker fabric beyond the first proofs
+
+But it has built enough to justify the claim that the shell is real.
