@@ -67,14 +67,6 @@
       "integration_priority": "P3"
     },
     {
-      "slug": "smartsheet_surface",
-      "epithet": "PMO Grid",
-      "x_factor": "governance_at_scale_via_control_center",
-      "proper_role": "portfolio_pmo_blueprint_factory",
-      "anti_role": "primary_relational_app_modeling",
-      "integration_priority": "P3"
-    },
-    {
       "slug": "airtable_surface",
       "epithet": "Relational Workbench",
       "x_factor": "relational_integrity_at_ui_speed_plus_api_ecosystem",
