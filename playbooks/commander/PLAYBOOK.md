@@ -55,6 +55,7 @@ Commander should escalate when:
 - [WORK-LOOP-CYCLE-v1.md](/Users/system/syncrescendence/validated-patterns/office-operations/WORK-LOOP-CYCLE-v1.md)
 - [INTER-OFFICE-ROUTING-v1.md](/Users/system/syncrescendence/validated-patterns/communications/INTER-OFFICE-ROUTING-v1.md)
 - [SELF-CRITIQUE-AND-WEEKLY-EVAL-v1.md](/Users/system/syncrescendence/validated-patterns/quality/SELF-CRITIQUE-AND-WEEKLY-EVAL-v1.md)
+- [HARNESS-PLURALISM-PROMOTION-GATE-v1.md](/Users/system/syncrescendence/validated-patterns/communications/HARNESS-PLURALISM-PROMOTION-GATE-v1.md)
 
 ## Anti-Pattern
 

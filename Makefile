@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -43,3 +43,6 @@ stage-feedstock:
 	@test -n "$(LABEL)" || (echo "usage: make stage-feedstock SOURCE=/abs/path/file.md LABEL=slug REASON='why'" && exit 1)
 	@test -n "$(REASON)" || (echo "usage: make stage-feedstock SOURCE=/abs/path/file.md LABEL=slug REASON='why'" && exit 1)
 	python3 operators/knowledge/stage_feedstock_artifact.py --source "$(SOURCE)" --label "$(LABEL)" --reason "$(REASON)"
+
+harness-tranche-ab:
+	python3 operators/validators/harness_tranche_ab.py --source-dir "$(or $(SOURCE_DIR),/Users/system/Desktop/harnesses)" --cc-tag "$(or $(CC_TAG),cc79)"

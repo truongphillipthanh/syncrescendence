@@ -180,3 +180,14 @@
    Vocabulary: `operator`, `chat bus`, `promotion`
 4. use Slack as federal work bus, Discord as mesh/community bus, and Telegram as mobile/edge bus unless live evidence justifies a different split  
    Status: active
+
+### Tranche R — Harness Pluralism Remediation
+
+1. absorb the full Grok harness directive/response corpus into lawful communications lineage with contamination quarantine and tier grading  
+   Status: tranche A+B completed (CC79)
+2. build and maintain a command capability registry so cross-harness claims are validated before playbook/operator promotion  
+   Status: tranche A+B completed (CC79)
+3. promote only `T0/T1` claims into harness playbooks/operators while preserving native harness grain and federal doctrine boundaries  
+   Status: active
+4. resolve avatarization for remaining surfaces (Manus, Google AI Studio, NotebookLM, OpenCode, OpenHands, Aider) without collapsing existing certified identities  
+   Status: active
