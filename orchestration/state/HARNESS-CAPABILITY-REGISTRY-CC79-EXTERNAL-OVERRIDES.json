@@ -1,0 +1,74 @@
+[
+  {
+    "source": "RESPONSE-COMMANDER-cc79-openclaw-command-verification.md",
+    "harness": "openclaw",
+    "command": "openclaw test-skill --help",
+    "status": "binary_present_subcommand_unverified",
+    "tier": "T2",
+    "detail": "top-level help returned; subcommand not confirmed"
+  },
+  {
+    "source": "RESPONSE-COMMANDER-cc79-openclaw-command-verification.md",
+    "harness": "openclaw",
+    "command": "openclaw skills purge --untrusted --help",
+    "status": "binary_present_subcommand_unverified",
+    "tier": "T2",
+    "detail": "skills purge not present in observed command tree"
+  },
+  {
+    "source": "RESPONSE-COMMANDER-cc79-openclaw-command-verification.md",
+    "harness": "openclaw",
+    "command": "openclaw telemetry export --prom --help",
+    "status": "binary_present_subcommand_unverified",
+    "tier": "T2",
+    "detail": "telemetry command not present in observed command tree"
+  },
+  {
+    "source": "RESPONSE-COMMANDER-cc79-openclaw-command-verification.md",
+    "harness": "openclaw",
+    "command": "openclaw doctor --restore --help",
+    "status": "binary_present_subcommand_unverified",
+    "tier": "T2",
+    "detail": "doctor command exists but --restore flag absent"
+  },
+  {
+    "source": "RESPONSE-MANUS-cc79-harness-command-verification.md",
+    "harness": "aider",
+    "command": "aider --help",
+    "status": "binary_missing",
+    "tier": "T3",
+    "detail": "command not found in Manus sandbox"
+  },
+  {
+    "source": "RESPONSE-MANUS-cc79-harness-command-verification.md",
+    "harness": "aider",
+    "command": "aider --yes --message \"noop verification\"",
+    "status": "binary_missing",
+    "tier": "T3",
+    "detail": "command not found in Manus sandbox"
+  },
+  {
+    "source": "RESPONSE-MANUS-cc79-harness-command-verification.md",
+    "harness": "openhands",
+    "command": "python3 -m openhands.sdk --help",
+    "status": "module_missing",
+    "tier": "T3",
+    "detail": "No module named 'openhands' in Manus sandbox"
+  },
+  {
+    "source": "RESPONSE-MANUS-cc79-harness-command-verification.md",
+    "harness": "openhands",
+    "command": "python3 -m openhands.sdk --condenser llm --max-size 80 --keep-first 3 --help",
+    "status": "module_missing",
+    "tier": "T3",
+    "detail": "No module named 'openhands' in Manus sandbox"
+  },
+  {
+    "source": "RESPONSE-MANUS-cc79-harness-command-verification.md",
+    "harness": "openhands",
+    "command": "python3 -m openhands.sdk --workspace docker --security-level high --inject-failure trace.json --help",
+    "status": "module_missing",
+    "tier": "T3",
+    "detail": "No module named 'openhands' in Manus sandbox"
+  }
+]

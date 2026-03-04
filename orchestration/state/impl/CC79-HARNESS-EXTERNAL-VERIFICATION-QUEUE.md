@@ -1,7 +1,7 @@
 # CC79 Harness External Verification Queue
 
 **Date**: 2026-03-04  
-**Status**: active  
+**Status**: partially-completed  
 **Class**: verification queue
 
 ## Purpose
@@ -15,28 +15,37 @@ Dispatch packets prepared:
 - `/Users/system/syncrescendence/communications/prompts/DISPATCH-AJNA-cc79-openclaw-command-verification.md`
 - `/Users/system/syncrescendence/communications/prompts/DISPATCH-MANUS-cc79-harness-command-verification.md`
 
+Receipts landed:
+
+- `/Users/system/syncrescendence/communications/responses/RESPONSE-AJNA-cc79-openclaw-command-verification.md`
+- `/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc79-harness-command-verification.md`
+- `/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-openclaw-command-verification.md`
+
 ## OpenClaw (Ajna/Psyche host)
 
-- verify slow/help-timeout commands with interactive runtime:
-  - `openclaw test-skill`
-  - `openclaw skills purge --untrusted`
-  - `openclaw telemetry export --prom`
-  - `openclaw doctor --restore`
+- Ajna route returned execution-surface constraint (no direct shell capability for this verification packet)
+- local shell completed command verification and found command-surface mismatch on requested subcommands/flags
 
 ## Aider (host with aider binary)
 
-- verify CLI availability and baseline command semantics:
-  - `aider --yes --message "..."`
-  - `aider --message "..."`
+- Manus sandbox verification completed:
+  - `aider` binary missing in Manus environment
 
 ## OpenHands (host with openhands sdk/runtime)
 
-- verify runtime commands with local python entrypoint:
-  - `python3 -m openhands.sdk --condenser ...`
-  - `python3 -m openhands.sdk --workspace docker ...`
+- Manus sandbox verification completed:
+  - `openhands` python module missing in Manus environment
+
+## Remaining
+
+- verify Aider in an environment where `aider` is actually installed
+- verify OpenHands in an environment where `openhands.sdk` is installed
+- reconcile OpenClaw command claims against latest first-party CLI docs and update dispatch templates
 
 ## Notes
 
 - queue items remain non-promotable until evidence is recorded in:
   - [HARNESS-CAPABILITY-REGISTRY-CC79.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79.md)
+- effective post-receipt updates are recorded in:
+  - [HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.md)
 - any external execution receipt must be absorbed into communications lineage first

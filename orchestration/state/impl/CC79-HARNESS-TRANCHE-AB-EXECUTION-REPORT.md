@@ -30,6 +30,13 @@ Execute Tranche A+B for the harness corpus:
    - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79.md`
 6. Added validated federal pattern:
    - `/Users/system/syncrescendence/validated-patterns/communications/HARNESS-PLURALISM-PROMOTION-GATE-v1.md`
+7. Integrated external verification receipts:
+   - `/Users/system/syncrescendence/communications/responses/RESPONSE-AJNA-cc79-openclaw-command-verification.md`
+   - `/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc79-harness-command-verification.md`
+   - `/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-openclaw-command-verification.md`
+8. Added effective override layer for post-registry evidence:
+   - `/Users/system/syncrescendence/orchestration/state/HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.json`
+   - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.md`
 
 ## Metrics Snapshot
 
@@ -48,6 +55,12 @@ Pluralism is preserved while convergence is enforced:
 - harness-native claims remain in harness lineage
 - contaminated claims are quarantined, not erased
 - promotion to shared doctrine is verification-gated
+
+## External Verification Effect
+
+- Ajna receipt established execution-surface constraints for that specific runtime context.
+- Manus receipt established missing Aider/OpenHands runtime in Manus sandbox.
+- Local shell receipt resolved OpenClaw timeout ambiguity into concrete command-surface mismatch findings.
 
 ## Next Move
 
