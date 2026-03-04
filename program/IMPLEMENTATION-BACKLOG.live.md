@@ -169,3 +169,14 @@
    Status: tranche 01 active
 5. prove feedstock-to-playbook compaction with the Hxlfed harness/context-engineering line  
    Status: tranche 01 completed
+
+### Tranche Q — Chat Bus Reconstitution
+
+1. define Slack, Discord, and Telegram as differentiated coordination surfaces instead of interchangeable chat sinks  
+   Status: active
+2. bind those surfaces to disposition and promotion law so chat does not become hidden canon  
+   Vocabulary: `receipt`, `communications law`, `repo sovereignty`, `translation layer`
+3. design bridge operators for dispatch, receipt, result, confirm, alert, and thread-to-repo sync  
+   Vocabulary: `operator`, `chat bus`, `promotion`
+4. use Slack as federal work bus, Discord as mesh/community bus, and Telegram as mobile/edge bus unless live evidence justifies a different split  
+   Status: active
