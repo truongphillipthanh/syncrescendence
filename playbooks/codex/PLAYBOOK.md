@@ -33,3 +33,9 @@ New codex capabilities require:
 1. command probe evidence in the capability registry
 2. provenance link to source response segment
 3. explicit playbook or operator delta commit
+
+## 4. Runtime Verification Operator
+
+- smoke verification for promoted atoms is executable via:
+  - `make harness-promoted-atoms-smoke`
+  - [HARNESS-PROMOTED-ATOMS-SMOKE.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTED-ATOMS-SMOKE.md)

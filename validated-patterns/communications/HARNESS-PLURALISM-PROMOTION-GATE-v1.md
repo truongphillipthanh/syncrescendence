@@ -33,5 +33,6 @@
 ## Receipts
 
 - `/Users/system/syncrescendence/communications/assessments/CC79-HARNESS-INGEST-AND-GRADING.md`
-- `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79.md`
-- `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79-EFFECTIVE.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTED-ATOMS-SMOKE.md`

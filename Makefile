@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -49,3 +49,6 @@ harness-tranche-ab:
 
 harness-registry-effective:
 	python3 operators/validators/render_harness_effective_registry.py
+
+harness-promoted-atoms-smoke:
+	python3 operators/validators/harness_promoted_atoms_smoke.py

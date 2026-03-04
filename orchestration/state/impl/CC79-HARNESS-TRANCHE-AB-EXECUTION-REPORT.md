@@ -45,6 +45,9 @@ Execute Tranche A+B for the harness corpus:
    - `/Users/system/syncrescendence/orchestration/state/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.json`
    - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md`
    - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79-EFFECTIVE.md`
+11. Promoted deterministic smoke operator for currently promoted atoms:
+   - `/Users/system/syncrescendence/operators/validators/harness_promoted_atoms_smoke.py`
+   - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTED-ATOMS-SMOKE.md`
 
 ## Metrics Snapshot
 

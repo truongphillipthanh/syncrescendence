@@ -21,3 +21,12 @@ OpenCode is a candidate terminal harness surface under federal pluralism evaluat
 - no operator promotion for OpenCode beyond this atom until additional `T0/T1` evidence lands
 - keep OpenCode routing as optional/experimental, not constitutional default
 - preserve lineage in communications + registry before doctrine changes
+
+## 3. Runtime Verification Operator
+
+- promoted-atom smoke includes a safe-form OpenCode probe:
+  - claim: `opencode serve`
+  - probe form: `opencode serve --help`
+- run through:
+  - `make harness-promoted-atoms-smoke`
+  - [HARNESS-PROMOTED-ATOMS-SMOKE.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTED-ATOMS-SMOKE.md)

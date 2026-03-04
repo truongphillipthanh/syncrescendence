@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-03-04T21:34:13Z",
+  "probe_count": 3,
+  "pass_count": 3,
+  "fail_count": 0,
+  "results": [
+    {
+      "harness": "codex",
+      "claim_command": "codex --help",
+      "probe_command": "codex --help",
+      "exit_code": 0,
+      "timed_out": false,
+      "pass_status": true,
+      "expected_substring": "Codex CLI",
+      "observed_excerpt": "Codex CLI\n\nIf no subcommand is specified, options will be forwarded to the interactive CLI.\n\nUsage: codex [OPTIONS] [PROMPT]\n       codex [OPTIONS] <COMMAND> [ARGS]\n\nCommands:\n  exec        Run Codex non-interactively [aliases: e]\n  review      Run a code review non-interactively\n  login       Manage login\n  logout      Remove stored authentication credentials",
+      "note": "direct promoted atom"
+    },
+    {
+      "harness": "codex",
+      "claim_command": "codex apply --help",
+      "probe_command": "codex apply --help",
+      "exit_code": 0,
+      "timed_out": false,
+      "pass_status": true,
+      "expected_substring": "Usage: codex apply",
+      "observed_excerpt": "Apply the latest diff produced by Codex agent as a `git apply` to your local working tree\n\nUsage: codex apply [OPTIONS] <TASK_ID>\n\nArguments:\n  <TASK_ID>\n          \n\nOptions:\n  -c, --config <key=value>\n          Override a configuration value that would otherwise be loaded from `~/.codex/config.toml`.\n          Use a dotted path (`foo.bar.baz`) to override nested values. The `value` portion is parsed",
+      "note": "direct promoted atom"
+    },
+    {
+      "harness": "opencode",
+      "claim_command": "opencode serve",
+      "probe_command": "opencode serve --help",
+      "exit_code": 0,
+      "timed_out": false,
+      "pass_status": true,
+      "expected_substring": "opencode serve",
+      "observed_excerpt": "opencode serve\n\nstarts a headless opencode server\n\nOptions:\n  -h, --help         show help                                                             [boolean]\n  -v, --version      show version number                                                   [boolean]\n      --print-logs   print logs to stderr                                                  [boolean]\n      --log-level    log level                  [string] [choices: \"DEBUG\", \"INFO\", \"WARN\", \"ERROR\"]\n      --port         port to listen on                                         [number] [default: 0]\n      --hostname     hostname to listen on                           [string] [default: \"127.0.0.1\"]\n      --mdns         enable mDNS service discovery (defaults hostname to 0.0.0.0)",
+      "note": "safe help-form probe for long-running serve command"
+    }
+  ]
+}
