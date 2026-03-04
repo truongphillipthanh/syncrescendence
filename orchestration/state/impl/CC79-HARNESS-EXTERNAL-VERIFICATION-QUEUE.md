@@ -10,6 +10,11 @@ Capture capability checks that cannot be completed locally and must be executed 
 
 ## Queue
 
+Dispatch packets prepared:
+
+- `/Users/system/syncrescendence/communications/prompts/DISPATCH-AJNA-cc79-openclaw-command-verification.md`
+- `/Users/system/syncrescendence/communications/prompts/DISPATCH-MANUS-cc79-harness-command-verification.md`
+
 ## OpenClaw (Ajna/Psyche host)
 
 - verify slow/help-timeout commands with interactive runtime:
