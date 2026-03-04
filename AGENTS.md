@@ -78,6 +78,36 @@ These offices are federal surfaces, not isolated personalities.
 - offices hold local matter before lawful promotion
 - runtime and communications lanes preserve only what survives normalization
 
+## Avatarization Registry
+
+Avatar labels are operational handles for routing clarity.  
+They do not create new constitutional authority.
+
+Certified chat avatars:
+
+- `chatgpt` -> `Vanguard`
+- `claude` -> `Vizier`
+- `gemini` -> `Diviner`
+- `grok` -> `Oracle`
+- `perplexity` -> `Augur`
+
+Certified harness avatars:
+
+- `codex` -> `Adjudicator`
+- `claude_code` -> `Commander`
+- `gemini_cli` -> `Cartographer`
+- `openclaw_mac_mini` -> `Psyche`
+- `openclaw_macbook_air` -> `Ajna`
+
+Stage0 provisional surface avatars:
+
+- `manus_workflow_surface` -> `Fabricator`
+- `google_ai_studio` -> `Alchemist`
+- `notebooklm_surface` -> `Archivist`
+- `opencode` -> `Outrider`
+- `openhands` -> `Automator`
+- `aider` -> `Pairwright`
+
 ## Harness Differentiation Rule
 
 Harnesses are not interchangeable. The shell keeps one constitutional source while allowing each office and harness to retain the operating style that empirically fits its grain.

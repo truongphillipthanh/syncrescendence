@@ -15,8 +15,8 @@
 
 ### Candidate Claims
 
-- `codex --telemetry`
-- `codex apply --patch harness.md.patch`
+- `codex --help`
+- `codex apply --help`
 
 ### Promotion Rule
 

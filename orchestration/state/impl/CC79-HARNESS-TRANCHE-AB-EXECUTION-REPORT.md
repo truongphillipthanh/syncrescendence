@@ -34,9 +34,17 @@ Execute Tranche A+B for the harness corpus:
    - `/Users/system/syncrescendence/communications/responses/RESPONSE-AJNA-cc79-openclaw-command-verification.md`
    - `/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc79-harness-command-verification.md`
    - `/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-openclaw-command-verification.md`
+   - `/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-codex-command-verification.md`
 8. Added effective override layer for post-registry evidence:
    - `/Users/system/syncrescendence/orchestration/state/HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.json`
    - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.md`
+9. Added reproducible effective-registry renderer:
+   - `/Users/system/syncrescendence/operators/validators/render_harness_effective_registry.py`
+   - Make target: `make harness-registry-effective`
+10. Produced effective registry and promotion queue:
+   - `/Users/system/syncrescendence/orchestration/state/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.json`
+   - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md`
+   - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79-EFFECTIVE.md`
 
 ## Metrics Snapshot
 
@@ -61,6 +69,7 @@ Pluralism is preserved while convergence is enforced:
 - Ajna receipt established execution-surface constraints for that specific runtime context.
 - Manus receipt established missing Aider/OpenHands runtime in Manus sandbox.
 - Local shell receipt resolved OpenClaw timeout ambiguity into concrete command-surface mismatch findings.
+- Local shell receipt corrected previously promoted Codex claims that do not match live CLI behavior.
 
 ## Next Move
 
@@ -68,4 +77,4 @@ Proceed with Tranche C:
 
 1. promote candidate claims into playbooks/operators
 2. leave `T2/T3` in research backlog until upgraded by verification
-3. complete avatarization contract for unassigned surfaces
+3. continue promotion only from effective registry while expanding runtime verification surfaces for Aider/OpenHands

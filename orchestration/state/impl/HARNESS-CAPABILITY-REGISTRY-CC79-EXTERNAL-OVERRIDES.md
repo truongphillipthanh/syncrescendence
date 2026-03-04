@@ -17,6 +17,7 @@ the override layer is authoritative because it is derived from later runtime rec
 - [RESPONSE-AJNA-cc79-openclaw-command-verification.md](/Users/system/syncrescendence/communications/responses/RESPONSE-AJNA-cc79-openclaw-command-verification.md)
 - [RESPONSE-MANUS-cc79-harness-command-verification.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc79-harness-command-verification.md)
 - [RESPONSE-COMMANDER-cc79-openclaw-command-verification.md](/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-openclaw-command-verification.md)
+- [RESPONSE-COMMANDER-cc79-codex-command-verification.md](/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-codex-command-verification.md)
 - [HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.json](/Users/system/syncrescendence/orchestration/state/HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.json)
 
 ## Effective Updates
@@ -38,3 +39,10 @@ the override layer is authoritative because it is derived from later runtime rec
 - `python3 -m openhands.sdk --help` -> `module_missing` (`T3`)
 - `python3 -m openhands.sdk --condenser ... --help` -> `module_missing` (`T3`)
 - `python3 -m openhands.sdk --workspace docker ... --help` -> `module_missing` (`T3`)
+
+### Codex (local shell)
+
+- `codex --telemetry` -> `command_claim_mismatch` (`T3`)
+- `codex apply --patch harness.md.patch` -> `command_claim_mismatch` (`T3`)
+- `codex --help` -> `probe_pass` (`T1`)
+- `codex apply --help` -> `probe_pass` (`T1`)

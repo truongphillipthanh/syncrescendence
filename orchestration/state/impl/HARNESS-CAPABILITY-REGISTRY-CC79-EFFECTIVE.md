@@ -5,18 +5,19 @@
 
 ## Counts
 
-- records: 136
-- overrides applied: 9
-- T0: 7
-- T1: 0
+- records: 138
+- overrides applied: 13
+- T0: 5
+- T1: 2
 - T2: 110
-- T3: 19
+- T3: 21
 
 ## Status Distribution
 
 - `binary_alias_missing_use_python3`: 2
 - `binary_missing`: 8
 - `binary_present_subcommand_unverified`: 20
+- `command_claim_mismatch`: 2
 - `module_missing`: 3
 - `probe_pass`: 7
 - `probe_timeout`: 27
@@ -27,6 +28,10 @@
 
 - `aider` | `aider --help` -> `binary_missing` `T3`
 - `aider` | `aider --yes --message "noop verification"` -> `binary_missing` `T3`
+- `codex` | `codex --help` -> `probe_pass` `T1`
+- `codex` | `codex --telemetry` -> `command_claim_mismatch` `T3`
+- `codex` | `codex apply --help` -> `probe_pass` `T1`
+- `codex` | `codex apply --patch harness.md.patch` -> `command_claim_mismatch` `T3`
 - `openclaw` | `openclaw doctor --restore --help` -> `binary_present_subcommand_unverified` `T2`
 - `openclaw` | `openclaw skills purge --untrusted --help` -> `binary_present_subcommand_unverified` `T2`
 - `openclaw` | `openclaw telemetry export --prom --help` -> `binary_present_subcommand_unverified` `T2`
@@ -56,8 +61,8 @@
 | aider | T3 | binary_missing | `aider --message "implement the attached design" --image design.png --yes` | `report-grok-aider.md` | binary not present on this machine |
 | aider | T3 | binary_missing | `aider --yes --message "execute plan"` | `report-grok-aider.md` | binary not present on this machine |
 | aider | T3 | binary_missing | `aider --yes --message "noop verification"` | `RESPONSE-MANUS-cc79-harness-command-verification.md` | command not found in Manus sandbox |
-| codex | T0 | probe_pass | `codex --telemetry` | `report-grok-codex.md` | Codex CLI |
-| codex | T0 | probe_pass | `codex apply --patch harness.md.patch` | `report-grok-codex.md` | Apply the latest diff produced by Codex agent as a `git apply` to your local working tree |
+| codex | T1 | probe_pass | `codex --help` | `RESPONSE-COMMANDER-cc79-codex-command-verification.md` | top-level help command verified locally |
+| codex | T1 | probe_pass | `codex apply --help` | `RESPONSE-COMMANDER-cc79-codex-command-verification.md` | subcommand help verified locally |
 | codex | T2 | binary_present_subcommand_unverified | `codex fine-tune --base gpt-5.3-codex --dataset telemetry-skill.jsonl --private` | `report-grok-codex.md` | Codex CLI |
 | codex | T2 | binary_present_subcommand_unverified | `codex fork-thread --role=reviewer` | `report-grok-codex.md` | Codex CLI |
 | codex | T2 | binary_present_subcommand_unverified | `codex pr create` | `report-grok-codex.md` | Codex CLI |
@@ -81,6 +86,8 @@
 | codex | T2 | runtime_or_complex_shell_command_unprobed | `jq '.[] \| select(.error_type=="logic")' dashboard.jsonl \| wc -l` | `report-grok-codex.md` | slash-command or complex shell syntax; kept as operational pattern only |
 | codex | T3 | binary_missing | `skills.sh export telemetry-skill --format dataset` | `report-grok-codex.md` | binary not present on this machine |
 | codex | T3 | binary_missing | `skills.sh publish --registry public` | `report-grok-codex.md` | binary not present on this machine |
+| codex | T3 | command_claim_mismatch | `codex --telemetry` | `RESPONSE-COMMANDER-cc79-codex-command-verification.md` | unexpected argument '--telemetry' on live codex CLI |
+| codex | T3 | command_claim_mismatch | `codex apply --patch harness.md.patch` | `RESPONSE-COMMANDER-cc79-codex-command-verification.md` | unexpected argument '--patch'; codex apply expects TASK_ID |
 | openclaw | T2 | binary_present_subcommand_unverified | `git rollback` | `report-grok-openclaw.md` | git: 'rollback' is not a git command. See 'git --help'. |
 | openclaw | T2 | binary_present_subcommand_unverified | `openclaw doctor --restore --help` | `RESPONSE-COMMANDER-cc79-openclaw-command-verification.md` | doctor command exists but --restore flag absent |
 | openclaw | T2 | binary_present_subcommand_unverified | `openclaw skills purge --untrusted --help` | `RESPONSE-COMMANDER-cc79-openclaw-command-verification.md` | skills purge not present in observed command tree |

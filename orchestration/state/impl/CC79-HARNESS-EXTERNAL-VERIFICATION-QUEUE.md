@@ -20,6 +20,7 @@ Receipts landed:
 - `/Users/system/syncrescendence/communications/responses/RESPONSE-AJNA-cc79-openclaw-command-verification.md`
 - `/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc79-harness-command-verification.md`
 - `/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-openclaw-command-verification.md`
+- `/Users/system/syncrescendence/communications/responses/RESPONSE-COMMANDER-cc79-codex-command-verification.md`
 
 ## OpenClaw (Ajna/Psyche host)
 
@@ -36,6 +37,13 @@ Receipts landed:
 - Manus sandbox verification completed:
   - `openhands` python module missing in Manus environment
 
+## Codex (local shell)
+
+- local verification completed:
+  - `codex --telemetry` claim does not match live CLI
+  - `codex apply --patch harness.md.patch` claim does not match live CLI
+  - `codex --help` and `codex apply --help` verified as reproducible command atoms
+
 ## Remaining
 
 - verify Aider in an environment where `aider` is actually installed
@@ -45,7 +53,7 @@ Receipts landed:
 ## Notes
 
 - queue items remain non-promotable until evidence is recorded in:
-  - [HARNESS-CAPABILITY-REGISTRY-CC79.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79.md)
+  - [HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md)
 - effective post-receipt updates are recorded in:
   - [HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.md](/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EXTERNAL-OVERRIDES.md)
 - any external execution receipt must be absorbed into communications lineage first

@@ -41,4 +41,8 @@ Integrate the harness packet corpus into lawful lineage, preserve native harness
 - `/Users/system/syncrescendence/orchestration/state/HARNESS-CAPABILITY-REGISTRY-CC79.json`
 - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79.md`
 - `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-CAPABILITY-REGISTRY-CC79-EFFECTIVE.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/HARNESS-PROMOTION-CANDIDATES-CC79-EFFECTIVE.md`
+- `/Users/system/syncrescendence/orchestration/state/impl/CC79-AVATARIZATION-CONTRACT-REMAINING-SURFACES.md`
 - `/Users/system/syncrescendence/operators/validators/harness_tranche_ab.py`
+- `/Users/system/syncrescendence/operators/validators/render_harness_effective_registry.py`

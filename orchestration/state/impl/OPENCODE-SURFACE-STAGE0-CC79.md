@@ -22,5 +22,5 @@ Stage OpenCode as a federated harness surface without prematurely promoting spec
 ## Deferred Work
 
 1. verify subcommand-level behavior beyond `serve`
-2. decide avatar + office binding
-3. derive OpenCode playbook once command surface is at least `T1` on core workflows
+2. promote `Outrider` avatar from provisional to ratified only after stronger runtime evidence
+3. evolve playbook from stage0 to production once command surface is at least `T1` on core workflows

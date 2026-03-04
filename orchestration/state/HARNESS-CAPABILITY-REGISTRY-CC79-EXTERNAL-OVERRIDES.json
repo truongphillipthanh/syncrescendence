@@ -70,5 +70,37 @@
     "status": "module_missing",
     "tier": "T3",
     "detail": "No module named 'openhands' in Manus sandbox"
+  },
+  {
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md",
+    "harness": "codex",
+    "command": "codex --telemetry",
+    "status": "command_claim_mismatch",
+    "tier": "T3",
+    "detail": "unexpected argument '--telemetry' on live codex CLI"
+  },
+  {
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md",
+    "harness": "codex",
+    "command": "codex apply --patch harness.md.patch",
+    "status": "command_claim_mismatch",
+    "tier": "T3",
+    "detail": "unexpected argument '--patch'; codex apply expects TASK_ID"
+  },
+  {
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md",
+    "harness": "codex",
+    "command": "codex --help",
+    "status": "probe_pass",
+    "tier": "T1",
+    "detail": "top-level help command verified locally"
+  },
+  {
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md",
+    "harness": "codex",
+    "command": "codex apply --help",
+    "status": "probe_pass",
+    "tier": "T1",
+    "detail": "subcommand help verified locally"
   }
 ]

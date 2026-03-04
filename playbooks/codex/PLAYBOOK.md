@@ -15,10 +15,10 @@ Codex is the terminal coding harness bound to the Adjudicator lane and used for 
 
 ## 1. Verified Command Atoms (CC79 Local)
 
-- `codex --telemetry`
-- `codex apply --patch <file>`
+- `codex --help`
+- `codex apply --help`
 
-These are the only command atoms currently promoted from the CC79 registry as `T0/probe_pass`.
+These are the only command atoms currently promoted from the effective CC79 registry as `T1/probe_pass`.
 
 ## 2. Guardrails
 

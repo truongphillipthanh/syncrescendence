@@ -188,6 +188,6 @@
 2. build and maintain a command capability registry so cross-harness claims are validated before playbook/operator promotion  
    Status: tranche A+B completed (CC79)
 3. promote only `T0/T1` claims into harness playbooks/operators while preserving native harness grain and federal doctrine boundaries  
-   Status: active
+   Status: active (effective-registry gate + stage0 promotions in place)
 4. resolve avatarization for remaining surfaces (Manus, Google AI Studio, NotebookLM, OpenCode, OpenHands, Aider) without collapsing existing certified identities  
-   Status: active
+   Status: completed stage0 (CC79 avatarization contract)

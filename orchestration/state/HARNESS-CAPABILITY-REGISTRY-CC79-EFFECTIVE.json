@@ -339,17 +339,33 @@
   },
   {
     "harness": "codex",
+    "command": "codex --help",
+    "status": "probe_pass",
+    "tier": "T1",
+    "detail": "top-level help command verified locally",
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md"
+  },
+  {
+    "harness": "codex",
     "source_file": "report-grok-codex.md",
     "segment_index": 2,
     "segment_accepted": true,
     "segment_tier": "T1",
     "command": "codex --telemetry",
     "binary": "codex",
-    "status": "probe_pass",
-    "tier": "T0",
+    "status": "command_claim_mismatch",
+    "tier": "T3",
     "probe_cmd": "codex --help",
-    "detail": "Codex CLI",
-    "source": "report-grok-codex.md"
+    "detail": "unexpected argument '--telemetry' on live codex CLI",
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md"
+  },
+  {
+    "harness": "codex",
+    "command": "codex apply --help",
+    "status": "probe_pass",
+    "tier": "T1",
+    "detail": "subcommand help verified locally",
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md"
   },
   {
     "harness": "codex",
@@ -359,11 +375,11 @@
     "segment_tier": "T1",
     "command": "codex apply --patch harness.md.patch",
     "binary": "codex",
-    "status": "probe_pass",
-    "tier": "T0",
+    "status": "command_claim_mismatch",
+    "tier": "T3",
     "probe_cmd": "codex apply --help",
-    "detail": "Apply the latest diff produced by Codex agent as a `git apply` to your local working tree",
-    "source": "report-grok-codex.md"
+    "detail": "unexpected argument '--patch'; codex apply expects TASK_ID",
+    "source": "RESPONSE-COMMANDER-cc79-codex-command-verification.md"
   },
   {
     "harness": "codex",
