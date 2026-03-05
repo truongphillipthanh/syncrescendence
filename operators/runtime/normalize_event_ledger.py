@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 LEDGER_PATH = REPO_ROOT / "memory" / "AJNA-EVENT-LEDGER.jsonl"
 REPORT_PATH = REPO_ROOT / "orchestration" / "state" / "EVENT-LEDGER-NORMALIZATION.json"
 

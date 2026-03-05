@@ -12,10 +12,11 @@ from pathlib import Path
 from exocortex_event_bridge import emit_event, load_policy, normalize_repo_paths, validate_request
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent.parent
 ONTOLOGY_LOCAL_URL = "http://127.0.0.1:8787/ingest/event"
 ONTOLOGY_DOMAIN_URL = "https://syncrescendence.com/ingest/event"
-RECONCILER_PATH = REPO_ROOT / "reconcile-ajna-events.py"
+RECONCILER_PATH = REPO_ROOT / "operators" / "runtime" / "reconcile-ajna-events.py"
 
 
 def load_module(path: Path, name: str):

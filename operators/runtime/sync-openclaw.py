@@ -11,7 +11,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 STATE_DIR = REPO_ROOT / "orchestration" / "state"
 MEMORY_DIR = REPO_ROOT / "memory"
 CONFIG_MANIFEST = REPO_ROOT / "configs" / "manifest.json"

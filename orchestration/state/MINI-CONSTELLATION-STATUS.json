@@ -5,7 +5,7 @@
     "openclaw": "/opt/homebrew/bin/openclaw",
     "tmux": "/opt/homebrew/bin/tmux"
   },
-  "captured_at": "2026-03-05T04:39:46Z",
+  "captured_at": "2026-03-05T07:24:43Z",
   "constellation_session_present": true,
   "constellation_windows": [
     "1: psyche* (1 panes) [80x24] [layout b25d,80x24,0,0,0] @0 (active)",
@@ -21,11 +21,12 @@
     "present": true,
     "running": false
   },
-  "psyche_workspace_bytes": 10251,
+  "psyche_workspace_bytes": 5823,
   "psyche_workspace_path": "/Users/home/.openclaw/workspace/AGENTS.md",
   "psyche_workspace_present": true,
   "remote_alias": "mini",
   "repo_path": "/Users/home/syncrescendence",
   "repo_present": true,
+  "tmux_socket": "/tmp/tmux-syncrescendence-mini.sock",
   "xcode_license_blocked": false
 }

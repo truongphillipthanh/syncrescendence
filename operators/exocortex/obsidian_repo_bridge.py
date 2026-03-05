@@ -10,7 +10,8 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent.parent
 WORKSPACE_EVENTS_INBOX = Path.home() / ".openclaw" / "workspace" / "events" / "inbox"
 FORBIDDEN_SUBPATHS = [REPO_ROOT / ".obsidian"]
 

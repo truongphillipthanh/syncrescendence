@@ -8,9 +8,10 @@ import importlib.util
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parent
-RECONCILER_PATH = REPO_ROOT / "reconcile-ajna-events.py"
-STATUS_COLLECTOR_PATH = REPO_ROOT / "collect-tooling-surface-status.py"
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent.parent
+RECONCILER_PATH = REPO_ROOT / "operators" / "runtime" / "reconcile-ajna-events.py"
+STATUS_COLLECTOR_PATH = REPO_ROOT / "operators" / "runtime" / "collect-tooling-surface-status.py"
 ONTOLOGY_LOCAL_URL = "http://127.0.0.1:8787/ingest/event"
 ONTOLOGY_DOMAIN_URL = "https://syncrescendence.com/ingest/event"
 
@@ -33,7 +34,7 @@ def main() -> int:
     parser.add_argument("--repo-paths", nargs="*", default=["orchestration/state/LOCAL-SURFACE-STATUS.md"])
     args = parser.parse_args()
 
-    exocortex = load_module(REPO_ROOT / "exocortex_event_bridge.py", "exocortex_event_bridge")
+    exocortex = load_module(SCRIPT_DIR / "exocortex_event_bridge.py", "exocortex_event_bridge")
     collector = load_module(STATUS_COLLECTOR_PATH, "collect_tooling_surface_status")
     report = collector.collect()
     channel_status = ((report.get("openclaw_channels") or {}).get("channels") or {}).get(args.channel, {})

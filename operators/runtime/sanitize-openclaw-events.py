@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 WORKSPACE_ROOT = Path.home() / ".openclaw" / "workspace"
 EVENTS_ROOT = WORKSPACE_ROOT / "events"
 REPORT_PATH = REPO_ROOT / "orchestration" / "state" / "OPENCLAW-EVENT-SANITIZATION.json"

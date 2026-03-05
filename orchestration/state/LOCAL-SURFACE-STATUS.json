@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-03-02T18:30:19Z",
+  "captured_at": "2026-03-05T07:24:41Z",
   "claude_code": {
     "authenticated": true,
     "available": true,
@@ -103,8 +103,8 @@
       "payload": {
         "config_snapshot_count": 2,
         "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
-        "entity_count": 32,
-        "event_count": 27,
+        "entity_count": 36,
+        "event_count": 31,
         "status": "ok"
       },
       "reachable": true,
@@ -119,8 +119,8 @@
       "payload": {
         "config_snapshot_count": 2,
         "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
-        "entity_count": 32,
-        "event_count": 27,
+        "entity_count": 36,
+        "event_count": 31,
         "status": "ok"
       },
       "reachable": true,
@@ -130,8 +130,8 @@
       "payload": {
         "config_snapshot_count": 2,
         "db_path": "/Users/system/syncrescendence/orchestration/state/ontology-v1.sqlite3",
-        "entity_count": 32,
-        "event_count": 27,
+        "entity_count": 36,
+        "event_count": 31,
         "status": "ok"
       },
       "reachable": true,
@@ -140,7 +140,7 @@
   },
   "openclaw_channels": {
     "available": true,
-    "captured_at_ms": 1772476224135,
+    "captured_at_ms": 1772695485420,
     "channel_accounts": {
       "discord": [
         {
@@ -159,17 +159,17 @@
             "username": "Ajna"
           },
           "configured": true,
-          "connected": true,
+          "connected": false,
           "enabled": true,
-          "lastConnectedAt": 1772475884192,
+          "lastConnectedAt": null,
           "lastDisconnect": null,
           "lastError": null,
-          "lastEventAt": 1772475884192,
+          "lastEventAt": 1772695184393,
           "lastInboundAt": null,
           "lastOutboundAt": null,
-          "lastProbeAt": 1772476224538,
-          "lastStartAt": 1772475288999,
-          "lastStopAt": 1772475288999,
+          "lastProbeAt": 1772695485791,
+          "lastStartAt": 1772695184395,
+          "lastStopAt": 1772695184394,
           "probe": {
             "application": {
               "flags": 8953856,
@@ -184,7 +184,7 @@
               "id": "1469043297174421618",
               "username": "Ajna"
             },
-            "elapsedMs": 403,
+            "elapsedMs": 371,
             "error": null,
             "ok": true,
             "status": null
@@ -204,15 +204,15 @@
           "lastError": null,
           "lastInboundAt": null,
           "lastOutboundAt": null,
-          "lastProbeAt": 1772476224741,
-          "lastStartAt": 1772475588997,
-          "lastStopAt": 1772475588997,
+          "lastProbeAt": 1772695485906,
+          "lastStartAt": 1772693684384,
+          "lastStopAt": 1772693684384,
           "probe": {
             "bot": {
               "id": "U0AC8TU837E",
               "name": "ajna"
             },
-            "elapsedMs": 200,
+            "elapsedMs": 114,
             "ok": true,
             "status": 200,
             "team": {
@@ -228,9 +228,9 @@
       "discord": {
         "configured": true,
         "lastError": null,
-        "lastProbeAt": 1772476224538,
-        "lastStartAt": 1772475288999,
-        "lastStopAt": 1772475288999,
+        "lastProbeAt": 1772695485791,
+        "lastStartAt": 1772695184395,
+        "lastStopAt": 1772695184394,
         "probe": {
           "application": {
             "flags": 8953856,
@@ -245,7 +245,7 @@
             "id": "1469043297174421618",
             "username": "Ajna"
           },
-          "elapsedMs": 403,
+          "elapsedMs": 371,
           "error": null,
           "ok": true,
           "status": null
@@ -258,15 +258,15 @@
         "botTokenSource": "config",
         "configured": true,
         "lastError": null,
-        "lastProbeAt": 1772476224741,
-        "lastStartAt": 1772475588997,
-        "lastStopAt": 1772475588997,
+        "lastProbeAt": 1772695485906,
+        "lastStartAt": 1772693684384,
+        "lastStopAt": 1772693684384,
         "probe": {
           "bot": {
             "id": "U0AC8TU837E",
             "name": "ajna"
           },
-          "elapsedMs": 200,
+          "elapsedMs": 114,
           "ok": true,
           "status": 200,
           "team": {

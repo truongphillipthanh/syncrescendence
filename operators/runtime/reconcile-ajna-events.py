@@ -16,7 +16,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 WORKSPACE_ROOT = Path.home() / ".openclaw" / "workspace"
 EVENTS_ROOT = WORKSPACE_ROOT / "events"
 INBOX_DIR = EVENTS_ROOT / "inbox"

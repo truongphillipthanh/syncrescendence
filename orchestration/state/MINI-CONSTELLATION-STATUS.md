@@ -1,11 +1,11 @@
 # Mini Constellation Status
 
-- Captured: `2026-03-05T04:39:46Z`
+- Captured: `2026-03-05T07:24:43Z`
 - Remote alias: `mini`
 - Hostname: `M1-Mac-mini.local`
 - Repo present: `True` at `/Users/home/syncrescendence`
 - Psyche workspace present: `True` at `/Users/home/.openclaw/workspace/AGENTS.md`
-- Psyche workspace bytes: `10251`
+- Psyche workspace bytes: `5823`
 - tmux path: `/opt/homebrew/bin/tmux`
 - OpenClaw path: `/opt/homebrew/bin/openclaw`
 - Codex path: `/opt/homebrew/bin/codex`
