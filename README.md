@@ -82,6 +82,7 @@ The predecessor shell has been offloaded to Desktop archival lanes such as:
 - [offices](/Users/system/syncrescendence/offices): lawful local offices for agents and harnesses
 - [playbooks](/Users/system/syncrescendence/playbooks): harness and surface doctrine
 - [operators](/Users/system/syncrescendence/operators): validators and proven execution operators
+- [operators/webshell](/Users/system/syncrescendence/operators/webshell): development-only operational website shell (`/health`, `/status`, `/docs`, `/ontology`, callback intake)
 - [runtime](/Users/system/syncrescendence/runtime): copied runtime evidence from what already worked
 - [pedigree](/Users/system/syncrescendence/pedigree): Rosetta/Intent/Backlog lineage anchors
 - [validated-patterns](/Users/system/syncrescendence/validated-patterns): known-good working patterns staged from the old shell

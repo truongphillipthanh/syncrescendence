@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke office-watch-once dispatch-office-task manus-create manus-wait bootstrap-mini revive-mini-constellation constellation-mini-status install-mini-constellation-launchagent
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke office-watch-once dispatch-office-task manus-create manus-wait bootstrap-mini revive-mini-constellation constellation-mini-status install-mini-constellation-launchagent webshell-dev webshell-smoke
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -82,3 +82,13 @@ constellation-mini-status:
 
 install-mini-constellation-launchagent:
 	./operators/machines/install-mini-constellation-launchagent.sh
+
+webshell-dev:
+	python3 operators/webshell/syncrescendence_dev_shell.py --repo-root "$(or $(REPO_ROOT),$(CURDIR))" --host "$(or $(HOST),127.0.0.1)" --port "$(or $(PORT),8890)" $(if $(CALLBACK_TOKEN),--callback-token "$(CALLBACK_TOKEN)",)
+
+webshell-smoke:
+	@test -n "$(PORT)" || (echo "usage: make webshell-smoke PORT=8890" && exit 1)
+	curl -fsS "http://127.0.0.1:$(PORT)/health" > /dev/null
+	curl -fsS "http://127.0.0.1:$(PORT)/status" > /dev/null
+	curl -fsS "http://127.0.0.1:$(PORT)/docs" > /dev/null
+	echo "webshell smoke passed on :$(PORT)"

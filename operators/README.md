@@ -13,6 +13,7 @@ Current staged classes:
 - exocortex bridge operators
 - ontology operators
 - machine/bootstrap operators
+- development webshell operators
 
 ## Key surfaces
 
@@ -26,6 +27,7 @@ Current staged classes:
 - [exocortex](/Users/system/syncrescendence/operators/exocortex)
 - [ontology](/Users/system/syncrescendence/operators/ontology)
 - [machines](/Users/system/syncrescendence/operators/machines)
+- [webshell](/Users/system/syncrescendence/operators/webshell)
 - [migrate](/Users/system/syncrescendence/operators/migrate)
 
 ## Rule
