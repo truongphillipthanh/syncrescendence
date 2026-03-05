@@ -94,3 +94,13 @@ This preserves office-law routing and wake-on-inbox semantics.
 3. verified behavior:
    - no token configured: callback returns `503 callback_auth_not_configured`
    - token configured: callback accepted with `X-Sync-Token`
+4. added provider signature support:
+   - GitHub `X-Hub-Signature-256` verification when `--github-webhook-secret` is set
+   - Slack signature/timestamp verification when `--slack-signing-secret` is set
+5. added `/ops/*` path routing model in Caddy configs for controlled external stage.
+6. added external-stage operator runbook:
+   - [WEBSHELL-EXTERNAL-STAGE1-RUNBOOK-CC84.md](/Users/system/syncrescendence/orchestration/state/impl/WEBSHELL-EXTERNAL-STAGE1-RUNBOOK-CC84.md)
+7. validated Caddy configs with `--adapter caddyfile`.
+8. smoke-validated provider signatures:
+   - GitHub callback rejected without signature and accepted with valid HMAC
+   - Slack callback accepted with valid signature and fresh timestamp

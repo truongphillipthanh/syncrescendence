@@ -1,23 +1,29 @@
 {
-  auto_https off
-  admin localhost:2019
+	auto_https off
+	admin localhost:2019
 }
 
 :8080 {
-  encode gzip zstd
+	encode gzip zstd
 
-  @health path /health
-  @api path /entities* /events* /ingest/event /project/repo
+	@health path /health
+	@api path /entities* /events* /ingest/event /project/repo
+	@ops path /ops /ops/*
 
-  handle @health {
-    reverse_proxy 127.0.0.1:8787
-  }
+	handle @health {
+		reverse_proxy 127.0.0.1:8787
+	}
 
-  handle @api {
-    reverse_proxy 127.0.0.1:8787
-  }
+	handle @api {
+		reverse_proxy 127.0.0.1:8787
+	}
 
-  handle {
-    respond "Syncrescendence ontology API surface" 200
-  }
+	handle @ops {
+		uri strip_prefix /ops
+		reverse_proxy 127.0.0.1:8890
+	}
+
+	handle {
+		respond "Syncrescendence ontology API surface" 200
+	}
 }

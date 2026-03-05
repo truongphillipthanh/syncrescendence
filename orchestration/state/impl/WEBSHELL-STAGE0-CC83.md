@@ -74,3 +74,7 @@ When ready for controlled external callbacks:
 2. terminate at Cloudflare/Caddy with explicit path routing (`/ops/*`)
 3. enforce token/signature verification per provider
 4. map each callback to a dedicated bridge operator before auto-promotion
+
+Stage1 runbook:
+
+- [WEBSHELL-EXTERNAL-STAGE1-RUNBOOK-CC84.md](/Users/system/syncrescendence/orchestration/state/impl/WEBSHELL-EXTERNAL-STAGE1-RUNBOOK-CC84.md)

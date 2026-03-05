@@ -84,7 +84,7 @@ install-mini-constellation-launchagent:
 	./operators/machines/install-mini-constellation-launchagent.sh
 
 webshell-dev:
-	python3 operators/webshell/syncrescendence_dev_shell.py --repo-root "$(or $(REPO_ROOT),$(CURDIR))" --host "$(or $(HOST),127.0.0.1)" --port "$(or $(PORT),8890)" $(if $(CALLBACK_TOKEN),--callback-token "$(CALLBACK_TOKEN)",)
+	python3 operators/webshell/syncrescendence_dev_shell.py --repo-root "$(or $(REPO_ROOT),$(CURDIR))" --host "$(or $(HOST),127.0.0.1)" --port "$(or $(PORT),8890)" $(if $(CALLBACK_TOKEN),--callback-token "$(CALLBACK_TOKEN)",) $(if $(GITHUB_WEBHOOK_SECRET),--github-webhook-secret "$(GITHUB_WEBHOOK_SECRET)",) $(if $(SLACK_SIGNING_SECRET),--slack-signing-secret "$(SLACK_SIGNING_SECRET)",) $(if $(ENFORCE_PROVIDER_SIGNATURES),--enforce-provider-signatures,)
 
 webshell-smoke:
 	@test -n "$(PORT)" || (echo "usage: make webshell-smoke PORT=8890" && exit 1)
@@ -101,3 +101,6 @@ webshell-callback-smoke:
 	  -H "X-Sync-Token: $(CALLBACK_TOKEN)" \
 	  -d '{"event":"callback-smoke","source":"make"}' > /dev/null
 	echo "webshell callback smoke passed on :$(PORT)"
+
+webshell-generate-token:
+	python3 -c "import secrets; print(secrets.token_urlsafe(32))"

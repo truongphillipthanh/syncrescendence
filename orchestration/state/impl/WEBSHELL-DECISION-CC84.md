@@ -13,6 +13,11 @@ Use a **private-first webshell**:
 3. callback write endpoints disabled by default
 4. callback write endpoints enabled only when explicit token is configured
 
+Current implementation additions:
+
+1. `/ops/*` path routing model in Caddy configs (`uri strip_prefix /ops` -> `127.0.0.1:8890`)
+2. optional GitHub and Slack signature verification hooks in webshell
+
 ## Why this is best now
 
 1. You are still in account/ownership migration windows and do not need public write ingress yet.

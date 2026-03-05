@@ -1,17 +1,18 @@
 {
-  auto_https off
-  admin localhost:2019
+	auto_https off
+	admin localhost:2019
 }
 
 :8081 {
-  encode gzip zstd
+	encode gzip zstd
 
-  @webshell path /health /status /docs /ontology /callbacks/* /artifacts/*
-  handle @webshell {
-    reverse_proxy 127.0.0.1:8890
-  }
+	@webshell path /ops /ops/*
+	handle @webshell {
+		uri strip_prefix /ops
+		reverse_proxy 127.0.0.1:8890
+	}
 
-  handle {
-    respond "syncrescendence dev webshell gateway" 200
-  }
+	handle {
+		respond "syncrescendence dev webshell gateway" 200
+	}
 }

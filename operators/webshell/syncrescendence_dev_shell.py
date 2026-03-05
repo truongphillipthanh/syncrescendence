@@ -4,9 +4,12 @@
 from __future__ import annotations
 
 import argparse
+import hmac
+import hashlib
 import json
 import mimetypes
 import re
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -289,6 +292,11 @@ class DevShellHandler(BaseHTTPRequestHandler):
             content_length = 0
         raw_body = self.rfile.read(content_length) if content_length > 0 else b""
 
+        signature_ok, signature_error = self._verify_provider_signature(surface, raw_body)
+        if not signature_ok:
+            self._send_json({"status": "error", "error": signature_error}, status=401)
+            return
+
         body_json = None
         body_text = None
         try:
@@ -340,6 +348,58 @@ class DevShellHandler(BaseHTTPRequestHandler):
             status=HTTPStatus.ACCEPTED,
         )
 
+    def _verify_provider_signature(self, surface: str, raw_body: bytes) -> tuple[bool, str]:
+        # token-only mode for all surfaces unless provider signature rules are configured.
+        github_secret = self.server.github_webhook_secret
+        slack_secret = self.server.slack_signing_secret
+        enforce = self.server.enforce_provider_signatures
+
+        if surface == "github":
+            if github_secret:
+                return self._verify_github_signature(raw_body, github_secret)
+            if enforce:
+                return False, "github_signature_secret_missing"
+            return True, "ok"
+
+        if surface == "slack":
+            if slack_secret:
+                return self._verify_slack_signature(raw_body, slack_secret)
+            if enforce:
+                return False, "slack_signature_secret_missing"
+            return True, "ok"
+
+        # Discord/Cloudflare/generic currently rely on token gate only.
+        return True, "ok"
+
+    def _verify_github_signature(self, raw_body: bytes, secret: str) -> tuple[bool, str]:
+        provided = self.headers.get("X-Hub-Signature-256", "")
+        if not provided.startswith("sha256="):
+            return False, "github_signature_missing"
+        digest = hmac.new(secret.encode("utf-8"), raw_body, hashlib.sha256).hexdigest()
+        expected = f"sha256={digest}"
+        if not hmac.compare_digest(provided, expected):
+            return False, "github_signature_invalid"
+        return True, "ok"
+
+    def _verify_slack_signature(self, raw_body: bytes, secret: str) -> tuple[bool, str]:
+        provided = self.headers.get("X-Slack-Signature", "")
+        ts = self.headers.get("X-Slack-Request-Timestamp", "")
+        if not provided or not ts:
+            return False, "slack_signature_missing"
+        try:
+            ts_int = int(ts)
+        except ValueError:
+            return False, "slack_signature_timestamp_invalid"
+        # replay-window protection (5 minutes)
+        if abs(int(time.time()) - ts_int) > 300:
+            return False, "slack_signature_timestamp_stale"
+        base = f"v0:{ts}:{raw_body.decode('utf-8', errors='replace')}".encode("utf-8")
+        digest = hmac.new(secret.encode("utf-8"), base, hashlib.sha256).hexdigest()
+        expected = f"v0={digest}"
+        if not hmac.compare_digest(provided, expected):
+            return False, "slack_signature_invalid"
+        return True, "ok"
+
 
 class DevShellServer(ThreadingHTTPServer):
     def __init__(
@@ -348,11 +408,17 @@ class DevShellServer(ThreadingHTTPServer):
         repo_root: Path,
         ontology_health_url: str,
         callback_token: str | None,
+        github_webhook_secret: str | None,
+        slack_signing_secret: str | None,
+        enforce_provider_signatures: bool,
     ) -> None:
         super().__init__(server_address, DevShellHandler)
         self.repo_root = repo_root
         self.ontology_health_url = ontology_health_url
         self.callback_token = callback_token
+        self.github_webhook_secret = github_webhook_secret
+        self.slack_signing_secret = slack_signing_secret
+        self.enforce_provider_signatures = enforce_provider_signatures
 
 
 def parse_args() -> argparse.Namespace:
@@ -366,6 +432,13 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Optional shared token required via X-Sync-Token header for callback POST routes",
     )
+    parser.add_argument("--github-webhook-secret", default=None)
+    parser.add_argument("--slack-signing-secret", default=None)
+    parser.add_argument(
+        "--enforce-provider-signatures",
+        action="store_true",
+        help="Require provider signatures for supported surfaces (currently github/slack).",
+    )
     return parser.parse_args()
 
 
@@ -377,6 +450,9 @@ def main() -> int:
         repo_root=repo_root,
         ontology_health_url=args.ontology_health_url,
         callback_token=args.callback_token,
+        github_webhook_secret=args.github_webhook_secret,
+        slack_signing_secret=args.slack_signing_secret,
+        enforce_provider_signatures=args.enforce_provider_signatures,
     )
     print(
         f"[{utc_now()}] webshell listening on http://{args.host}:{args.port} repo_root={repo_root}",
