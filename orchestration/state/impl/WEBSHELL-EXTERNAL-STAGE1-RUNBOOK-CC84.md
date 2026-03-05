@@ -14,6 +14,8 @@ Expose a narrow `/ops/*` surface through existing Cloudflare tunnel + Caddy whil
 2. Caddy is using:
    - [ontology-api.Caddyfile.local](/Users/system/syncrescendence/orchestration/state/impl/ontology-api.Caddyfile.local)
 3. webshell is running locally on `127.0.0.1:8890`.
+4. for persistent local runtime, use:
+   - [WEBSHELL-LOCAL-RUNTIME-CC85.md](/Users/system/syncrescendence/orchestration/state/impl/WEBSHELL-LOCAL-RUNTIME-CC85.md)
 
 ## Step 1: Start webshell in secure mode
 
@@ -27,6 +29,14 @@ Run webshell:
 
 ```bash
 make webshell-dev PORT=8890 CALLBACK_TOKEN="<token>"
+```
+
+Or install persistent local launchagent runtime:
+
+```bash
+make webshell-keychain-init-callback
+make webshell-launchagent-install
+make webshell-launchagent-status
 ```
 
 Optional provider signature secrets:

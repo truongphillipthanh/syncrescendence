@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.syncrescendence.webshell-ops</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/system/syncrescendence/operators/webshell/webshell_launchagent_runner.sh</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>WorkingDirectory</key>
+  <string>/Users/system/syncrescendence</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>PYTHON_BIN</key>
+    <string>/Users/system/.venvs/syncrescendence-ontology/bin/python</string>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/system/Library/Logs/syncrescendence/webshell-ops.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/system/Library/Logs/syncrescendence/webshell-ops.err.log</string>
+</dict>
+</plist>

@@ -25,6 +25,16 @@ python3 operators/webshell/syncrescendence_dev_shell.py \
   --callback-token "set-a-strong-random-token"
 ```
 
+Equivalent via environment variable:
+
+```bash
+SYNC_WEBSHELL_CALLBACK_TOKEN="set-a-strong-random-token" \
+python3 operators/webshell/syncrescendence_dev_shell.py \
+  --repo-root /Users/system/syncrescendence \
+  --host 127.0.0.1 \
+  --port 8890
+```
+
 Optional provider signature checks:
 
 ```bash
@@ -36,6 +46,44 @@ python3 operators/webshell/syncrescendence_dev_shell.py \
   --github-webhook-secret "github-secret" \
   --slack-signing-secret "slack-secret"
 ```
+
+## Local always-on runtime (Keychain + LaunchAgent)
+
+Initialize callback token in Keychain:
+
+```bash
+make webshell-keychain-init-callback
+make webshell-keychain-status
+```
+
+Optional provider secrets:
+
+```bash
+./operators/webshell/webshell_keychain.sh set-github-secret "<github-webhook-secret>"
+./operators/webshell/webshell_keychain.sh set-slack-secret "<slack-signing-secret>"
+```
+
+Install and start local LaunchAgent:
+
+```bash
+make webshell-launchagent-install
+make webshell-launchagent-status
+```
+
+LaunchAgent label:
+
+- `com.syncrescendence.webshell-ops`
+
+Plist source:
+
+- `orchestration/state/impl/com.syncrescendence.webshell-ops.plist`
+
+The LaunchAgent runner reads secrets from Keychain and exports:
+
+- `SYNC_WEBSHELL_CALLBACK_TOKEN`
+- `SYNC_WEBSHELL_GITHUB_WEBHOOK_SECRET` (if present)
+- `SYNC_WEBSHELL_SLACK_SIGNING_SECRET` (if present)
+- `SYNC_WEBSHELL_ENFORCE_PROVIDER_SIGNATURES` (defaults to `0`)
 
 ## Routes
 

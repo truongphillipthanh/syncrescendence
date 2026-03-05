@@ -8,6 +8,7 @@ import hmac
 import hashlib
 import json
 import mimetypes
+import os
 import re
 import time
 import urllib.error
@@ -442,17 +443,29 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def env_truthy(value: str | None) -> bool:
+    if value is None:
+        return False
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
 def main() -> int:
     args = parse_args()
     repo_root = Path(args.repo_root).resolve()
+    callback_token = args.callback_token or os.getenv("SYNC_WEBSHELL_CALLBACK_TOKEN")
+    github_secret = args.github_webhook_secret or os.getenv("SYNC_WEBSHELL_GITHUB_WEBHOOK_SECRET")
+    slack_secret = args.slack_signing_secret or os.getenv("SYNC_WEBSHELL_SLACK_SIGNING_SECRET")
+    enforce_provider_signatures = args.enforce_provider_signatures or env_truthy(
+        os.getenv("SYNC_WEBSHELL_ENFORCE_PROVIDER_SIGNATURES")
+    )
     server = DevShellServer(
         (args.host, args.port),
         repo_root=repo_root,
         ontology_health_url=args.ontology_health_url,
-        callback_token=args.callback_token,
-        github_webhook_secret=args.github_webhook_secret,
-        slack_signing_secret=args.slack_signing_secret,
-        enforce_provider_signatures=args.enforce_provider_signatures,
+        callback_token=callback_token,
+        github_webhook_secret=github_secret,
+        slack_signing_secret=slack_secret,
+        enforce_provider_signatures=enforce_provider_signatures,
     )
     print(
         f"[{utc_now()}] webshell listening on http://{args.host}:{args.port} repo_root={repo_root}",

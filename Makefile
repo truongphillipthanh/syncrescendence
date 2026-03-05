@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke office-watch-once dispatch-office-task manus-create manus-wait bootstrap-mini revive-mini-constellation constellation-mini-status install-mini-constellation-launchagent webshell-dev webshell-smoke
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke office-watch-once dispatch-office-task manus-create manus-wait bootstrap-mini revive-mini-constellation constellation-mini-status install-mini-constellation-launchagent webshell-dev webshell-smoke webshell-callback-smoke webshell-generate-token webshell-keychain-status webshell-keychain-init-callback webshell-launchagent-install webshell-launchagent-status webshell-launchagent-restart
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -96,11 +96,26 @@ webshell-smoke:
 webshell-callback-smoke:
 	@test -n "$(PORT)" || (echo "usage: make webshell-callback-smoke PORT=8890 CALLBACK_TOKEN=token" && exit 1)
 	@test -n "$(CALLBACK_TOKEN)" || (echo "usage: make webshell-callback-smoke PORT=8890 CALLBACK_TOKEN=token" && exit 1)
-	curl -fsS -X POST "http://127.0.0.1:$(PORT)/callbacks/generic" \
+	@curl -fsS -X POST "http://127.0.0.1:$(PORT)/callbacks/generic" \
 	  -H "Content-Type: application/json" \
 	  -H "X-Sync-Token: $(CALLBACK_TOKEN)" \
 	  -d '{"event":"callback-smoke","source":"make"}' > /dev/null
-	echo "webshell callback smoke passed on :$(PORT)"
+	@echo "webshell callback smoke passed on :$(PORT)"
 
 webshell-generate-token:
 	python3 -c "import secrets; print(secrets.token_urlsafe(32))"
+
+webshell-keychain-status:
+	./operators/webshell/webshell_keychain.sh status
+
+webshell-keychain-init-callback:
+	./operators/webshell/webshell_keychain.sh init-callback-token
+
+webshell-launchagent-install:
+	./operators/webshell/install_local_webshell_launchagent.sh
+
+webshell-launchagent-status:
+	./operators/webshell/webshell_launchagent_status.sh
+
+webshell-launchagent-restart:
+	launchctl kickstart -k "gui/$$(id -u)/com.syncrescendence.webshell-ops"
