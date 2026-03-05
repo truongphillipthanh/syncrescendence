@@ -1,0 +1,20 @@
+{
+  "binding_file": "/Users/system/syncrescendence/orchestration/state/ACUMEN-IDENTITY-BINDING-CC87.json",
+  "canonical_identity": "syncrescendence@gmail.com",
+  "captured_at": "2026-03-05T08:05:57Z",
+  "gcloud": {
+    "accounts": [
+      "icloud.truongphillipthanh@gmail.com"
+    ],
+    "active_account": "icloud.truongphillipthanh@gmail.com",
+    "available": true
+  },
+  "keychain": {
+    "matches_canonical": true,
+    "present": true
+  },
+  "mismatches": [
+    "gcloud active account mismatch: icloud.truongphillipthanh@gmail.com != syncrescendence@gmail.com"
+  ],
+  "ok": false
+}

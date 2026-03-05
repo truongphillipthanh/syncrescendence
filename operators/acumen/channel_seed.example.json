@@ -1,0 +1,22 @@
+[
+  {
+    "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+    "name": "Google DeepMind",
+    "genre": "Institutional",
+    "cadence": "irregular",
+    "domain_tags": ["AI", "AGI", "Research"],
+    "chain_alignment": "Intelligence",
+    "priority_band": "Tier 1",
+    "resolution_vocabulary": ["Demis Hassabis", "AlphaFold", "Gemini", "TPUv5e"]
+  },
+  {
+    "channel_id": "UCv83tO5cePwHMt1952IVVHw",
+    "name": "Andrej Karpathy",
+    "genre": "Tutorial",
+    "cadence": "irregular",
+    "domain_tags": ["AI", "Engineering"],
+    "chain_alignment": "Expertise",
+    "priority_band": "Tier 1",
+    "resolution_vocabulary": ["Tokenizer", "LLM", "PyTorch", "backpropagation"]
+  }
+]

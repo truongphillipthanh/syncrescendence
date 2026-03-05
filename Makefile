@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke office-watch-once dispatch-office-task manus-create manus-wait bootstrap-mini revive-mini-constellation constellation-mini-status install-mini-constellation-launchagent tooling-surface-status mini-constellation-collect-status webshell-dev webshell-smoke webshell-callback-smoke webshell-generate-token webshell-keychain-status webshell-keychain-init-callback webshell-launchagent-install webshell-launchagent-status webshell-launchagent-restart
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke office-watch-once dispatch-office-task manus-create manus-wait bootstrap-mini revive-mini-constellation constellation-mini-status install-mini-constellation-launchagent tooling-surface-status mini-constellation-collect-status acumen-init-registry acumen-validate-registry acumen-identity-probe acumen-build-triage-packet acumen-deterministic-track acumen-build-dawn-brief acumen-pipeline-run webshell-dev webshell-smoke webshell-callback-smoke webshell-generate-token webshell-keychain-status webshell-keychain-init-callback webshell-launchagent-install webshell-launchagent-status webshell-launchagent-restart
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -88,6 +88,36 @@ tooling-surface-status:
 
 mini-constellation-collect-status:
 	python3 operators/runtime/collect-mini-constellation-status.py --host "$(or $(REMOTE_HOST),mini)"
+
+acumen-init-registry:
+	python3 operators/acumen/init_registry.py --seed "$(or $(SEED),operators/acumen/channel_seed.example.json)" --output "$(or $(OUTPUT),runtime/acumen/registry.json)" $(if $(MERGE),--merge,)
+
+acumen-validate-registry:
+	python3 operators/acumen/validate_registry.py --registry "$(or $(REGISTRY),runtime/acumen/registry.json)" $(if $(filter 1 true yes,$(STRICT)),--strict,)
+
+acumen-identity-probe:
+	python3 operators/acumen/identity_binding_probe.py --binding "$(or $(BINDING),orchestration/state/ACUMEN-IDENTITY-BINDING-CC87.json)" --output "$(or $(OUTPUT),orchestration/state/ACUMEN-IDENTITY-STATUS.json)" $(if $(filter 1 true yes,$(STRICT)),--strict,)
+
+acumen-build-triage-packet:
+	@test -n "$(CHANNEL_ID)" || (echo "usage: make acumen-build-triage-packet CHANNEL_ID=<youtube channel id> VIDEO_JSON=/abs/path/video.json [REGISTRY=runtime/acumen/registry.json] OUTPUT=/abs/path/out.md" && exit 1)
+	@test -n "$(VIDEO_JSON)" || (echo "usage: make acumen-build-triage-packet CHANNEL_ID=<youtube channel id> VIDEO_JSON=/abs/path/video.json [REGISTRY=runtime/acumen/registry.json] OUTPUT=/abs/path/out.md" && exit 1)
+	@test -n "$(OUTPUT)" || (echo "usage: make acumen-build-triage-packet CHANNEL_ID=<youtube channel id> VIDEO_JSON=/abs/path/video.json [REGISTRY=runtime/acumen/registry.json] OUTPUT=/abs/path/out.md" && exit 1)
+	python3 operators/acumen/build_triage_packet.py --registry "$(or $(REGISTRY),runtime/acumen/registry.json)" --channel-id "$(CHANNEL_ID)" --video "$(VIDEO_JSON)" --output "$(OUTPUT)"
+
+acumen-deterministic-track:
+	@test -n "$(OUTPUT)" || (echo "usage: make acumen-deterministic-track OUTPUT=/abs/path/out.md [INPUT_TEXT=/abs/path/file.txt|INPUT_CAPTIONS=/abs/path/captions.json] [GENRE=Commentary] [DEPTH=Precis] [POLISH=clean_verbatim]" && exit 1)
+	@test -n "$(INPUT_TEXT)$(INPUT_CAPTIONS)" || (echo "usage: make acumen-deterministic-track OUTPUT=/abs/path/out.md [INPUT_TEXT=/abs/path/file.txt|INPUT_CAPTIONS=/abs/path/captions.json] [GENRE=Commentary] [DEPTH=Precis] [POLISH=clean_verbatim]" && exit 1)
+	python3 operators/acumen/deterministic_track.py $(if $(INPUT_TEXT),--input-text "$(INPUT_TEXT)",) $(if $(INPUT_CAPTIONS),--input-captions "$(INPUT_CAPTIONS)",) --genre "$(or $(GENRE),Commentary)" --target-depth "$(or $(DEPTH),Precis)" --target-polish "$(or $(POLISH),clean_verbatim)" $(if $(RESOLUTION_JSON),--resolution-json "$(RESOLUTION_JSON)",) $(if $(DEBUG_JSON),--debug-json "$(DEBUG_JSON)",) --output "$(OUTPUT)"
+
+acumen-build-dawn-brief:
+	@test -n "$(INPUT_JSONL)" || (echo "usage: make acumen-build-dawn-brief INPUT_JSONL=/abs/path/decisions.jsonl OUTPUT=/abs/path/DAWN-BRIEF.md" && exit 1)
+	@test -n "$(OUTPUT)" || (echo "usage: make acumen-build-dawn-brief INPUT_JSONL=/abs/path/decisions.jsonl OUTPUT=/abs/path/DAWN-BRIEF.md" && exit 1)
+	python3 operators/acumen/build_dawn_brief.py --input-jsonl "$(INPUT_JSONL)" --output "$(OUTPUT)"
+
+acumen-pipeline-run:
+	@test -n "$(QUEUE)" || (echo "usage: make acumen-pipeline-run QUEUE=/abs/path/triage-decisions.jsonl OUT=/abs/path/output-dir [REGISTRY=runtime/acumen/registry.json]" && exit 1)
+	@test -n "$(OUT)" || (echo "usage: make acumen-pipeline-run QUEUE=/abs/path/triage-decisions.jsonl OUT=/abs/path/output-dir [REGISTRY=runtime/acumen/registry.json]" && exit 1)
+	python3 operators/acumen/pipeline_flow.py --registry "$(or $(REGISTRY),runtime/acumen/registry.json)" --queue "$(QUEUE)" --out "$(OUT)" --status-json "$(or $(STATUS_JSON),orchestration/state/ACUMEN-PIPELINE-STATUS.json)"
 
 webshell-dev:
 	python3 operators/webshell/syncrescendence_dev_shell.py --repo-root "$(or $(REPO_ROOT),$(CURDIR))" --host "$(or $(HOST),127.0.0.1)" --port "$(or $(PORT),8890)" $(if $(CALLBACK_TOKEN),--callback-token "$(CALLBACK_TOKEN)",) $(if $(GITHUB_WEBHOOK_SECRET),--github-webhook-secret "$(GITHUB_WEBHOOK_SECRET)",) $(if $(SLACK_SIGNING_SECRET),--slack-signing-secret "$(SLACK_SIGNING_SECRET)",) $(if $(ENFORCE_PROVIDER_SIGNATURES),--enforce-provider-signatures,)

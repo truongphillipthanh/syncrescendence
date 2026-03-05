@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-03-04",
+  "status": "active",
+  "pipeline": "acumen_intelligence_pipeline",
+  "google_surfaces": {
+    "canonical_identity": "syncrescendence@gmail.com",
+    "youtube_data_api_owner": "syncrescendence@gmail.com",
+    "gemini_invocation_identity": "syncrescendence@gmail.com",
+    "gcp_control_plane_owner": "syncrescendence@gmail.com"
+  },
+  "break_glass_identity": "truongphillipthanh@icloud.com",
+  "billing_anchor_identity": "icloud.truongphillipthanh@gmail.com",
+  "rules": [
+    "no_acumen_google_surface_execution_on_non_canonical_identity",
+    "identity_drift_must_be_reported_in_state_before_run",
+    "no_secrets_stored_in_repo_artifacts"
+  ]
+}

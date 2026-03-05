@@ -11,6 +11,7 @@ Current staged classes:
 - config operators
 - runtime/reconciliation operators
 - exocortex bridge operators
+- acumen intelligence pipeline operators
 - ontology operators
 - machine/bootstrap operators
 - development webshell operators
@@ -25,6 +26,7 @@ Current staged classes:
 - [config](/Users/system/syncrescendence/operators/config)
 - [runtime](/Users/system/syncrescendence/operators/runtime)
 - [exocortex](/Users/system/syncrescendence/operators/exocortex)
+- [acumen](/Users/system/syncrescendence/operators/acumen)
 - [ontology](/Users/system/syncrescendence/operators/ontology)
 - [machines](/Users/system/syncrescendence/operators/machines)
 - [webshell](/Users/system/syncrescendence/operators/webshell)

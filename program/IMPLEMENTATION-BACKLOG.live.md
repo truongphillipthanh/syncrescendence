@@ -191,3 +191,22 @@
    Status: active (effective-registry gate + stage0 promotions in place)
 4. resolve avatarization for remaining surfaces (Manus, Google AI Studio, NotebookLM, OpenCode, OpenHands, Aider) without collapsing existing certified identities  
    Status: completed stage0 (CC79 avatarization contract)
+
+### Tranche S — Acumen Intelligence Pipeline Bootstrap
+
+1. intake Acumen PRD as lawful feedstock with receipt lineage  
+   Status: completed wave0 intake (CC87)
+2. implement feed-registry contract, initialization, and validation operators  
+   Status: completed wave0 (CC87)
+3. implement deterministic processing track scaffold (resolution key, disfluency pass, timing punctuation, depth templating)  
+   Status: completed wave0 (CC87)
+4. implement Dawn Brief compiler and triage packet renderer  
+   Status: completed wave0 (CC87)
+5. bind Acumen Google surfaces to canonical identity `syncrescendence@gmail.com` with strict drift probe  
+   Status: completed wave0 (CC87)
+6. implement ingestion + Gemini Flash/Pro adapters with cost guardrails and training-corpus logging  
+   Status: active next wave (CC88)
+7. implement local voice synthesis routing and playlist compiler  
+   Status: queued (post-CC88)
+8. implement specialist distillation loop and shadow-mode swap criteria  
+   Status: queued (post-CC88)
