@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-03-04",
+  "status": "active",
+  "target_primary_identity": "syncrescendence@gmail.com",
+  "legacy_break_glass_identity": "truongphillipthanh@icloud.com",
+  "global_rules": [
+    "no_owner_mutation_without_pre_cutover_snapshot",
+    "no_secrets_in_repo_artifacts",
+    "one_platform_cutover_at_a_time",
+    "explicit_rollback_owner_and_window_required"
+  ],
+  "automation_constraints": {
+    "manus_api_reachable": true,
+    "psyche_nodes_paired": false,
+    "psyche_blocker": "openclaw_nodes_list_reports_zero_paired_nodes"
+  },
+  "platforms": [
+    {
+      "platform": "github",
+      "role": "code_sovereignty_control_plane",
+      "owner_target": "syncrescendence@gmail.com",
+      "state": "not_started",
+      "automation_mode": "hybrid",
+      "requires_human_owner_action": true
+    },
+    {
+      "platform": "cloudflare_domain",
+      "role": "edge_and_domain_authority",
+      "owner_target": "syncrescendence@gmail.com",
+      "state": "not_started",
+      "automation_mode": "hybrid",
+      "requires_human_owner_action": true
+    },
+    {
+      "platform": "google_cloud_workspace",
+      "role": "upstream_identity_and_project_control",
+      "owner_target": "syncrescendence@gmail.com",
+      "state": "not_started",
+      "automation_mode": "hybrid",
+      "requires_human_owner_action": true
+    },
+    {
+      "platform": "slack",
+      "role": "operator_bus",
+      "owner_target": "syncrescendence@gmail.com",
+      "state": "not_started",
+      "automation_mode": "agentified",
+      "requires_human_owner_action": true
+    },
+    {
+      "platform": "discord",
+      "role": "runtime_channel_surface",
+      "owner_target": "syncrescendence@gmail.com",
+      "state": "not_started",
+      "automation_mode": "agentified",
+      "requires_human_owner_action": true
+    },
+    {
+      "platform": "exocortex_suite",
+      "role": "knowledge_and_execution_surfaces",
+      "owner_target": "syncrescendence@gmail.com",
+      "state": "not_started",
+      "automation_mode": "mixed",
+      "requires_human_owner_action": true
+    }
+  ]
+}

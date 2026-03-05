@@ -7,6 +7,7 @@
 - [MANUS-FIRST-DISPATCH-CC73.md](/Users/system/syncrescendence/orchestration/state/impl/MANUS-FIRST-DISPATCH-CC73.md)
 - [EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md](/Users/system/syncrescendence/orchestration/state/impl/EXOCORTEX-ACCOUNT-IDENTITY-MATRIX-CC76.md)
 - [operators/exocortex/manus_checkpoint_bridge.py](/Users/system/syncrescendence/operators/exocortex/manus_checkpoint_bridge.py)
+- [operators/exocortex/manus_task_api.py](/Users/system/syncrescendence/operators/exocortex/manus_task_api.py)
 
 ## 0. What This Surface Is For
 
@@ -46,6 +47,27 @@ python3 operators/exocortex/manus_checkpoint_bridge.py \
   --project-ontology \
   --ontology-url domain
 ```
+
+## 3.1 Task API Dispatch Path (CLI)
+
+Use the local API helper for reliable dispatch and polling:
+
+```bash
+python3 operators/exocortex/manus_task_api.py create \
+  --prompt-file communications/prompts/PACKET-MANUS-<id>.md
+```
+
+```bash
+python3 operators/exocortex/manus_task_api.py wait \
+  --task-id <task_id> \
+  --extract-text
+```
+
+Rules:
+- key resolution stays local via Keychain; never write API keys into repo artifacts
+- dispatch prompts belong in `communications/prompts/`
+- returned output belongs in `communications/responses/`
+- then normalize durable state via `manus_checkpoint_bridge.py`
 
 ## 4. Promotion Rule
 

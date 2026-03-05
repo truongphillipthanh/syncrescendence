@@ -14,7 +14,8 @@ from pathlib import Path
 from typing import Any
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+# operators/runtime/collect-tooling-surface-status.py -> repo root is parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 STATE_DIR = REPO_ROOT / "orchestration" / "state"
 JSON_PATH = STATE_DIR / "LOCAL-SURFACE-STATUS.json"
 MD_PATH = STATE_DIR / "LOCAL-SURFACE-STATUS.md"
