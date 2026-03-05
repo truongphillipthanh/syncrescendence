@@ -32,6 +32,20 @@ This avoids two bad shortcuts:
 - reviving tmux before repo truth is present on the mini
 - relying on stale hidden-path state instead of the canonical repo checkout
 
+## Collision Rule
+
+The collision risk is real only when multiple LaunchAgents/scripts target the same tmux state without isolation.
+
+- Same LaunchAgent `Label`: launchd treats this as one job namespace and later loads can override/rebind unexpectedly.
+- Same tmux server/session/socket: competing scripts can kill/recreate each other's sessions.
+
+Stage-1 now mitigates this by:
+
+1. fixed label (`com.syncrescendence.constellation-stage1`) for one canonical job
+2. dedicated tmux socket (`/tmp/tmux-syncrescendence-mini.sock`)
+3. idempotent bootstrap behavior (existing session is kept unless `FORCE_REBUILD=1`)
+4. lock directory guard to avoid concurrent bootstraps
+
 ## Stage 1 Commands
 
 From the MacBook Air repo:

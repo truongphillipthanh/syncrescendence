@@ -37,11 +37,17 @@ python3 operators/exocortex/manus_task_api.py wait --task-id RLFc4aVWZfz7UjXGRZa
 
 - task id: `jp95fXq3QLuiDzA9NMq42D`
 - task url: [manus task](https://manus.im/app/jp95fXq3QLuiDzA9NMq42D)
-- status at capture: `running`
+- status: `completed`
 - prompt:
   - [PACKET-MANUS-cc81-phase0-phase1-implementation.md](/Users/system/syncrescendence/communications/prompts/PACKET-MANUS-cc81-phase0-phase1-implementation.md)
 - response target:
   - [RESPONSE-MANUS-cc81-phase0-phase1-implementation.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-phase0-phase1-implementation.md)
+- raw landed files:
+  - [RESPONSE-MANUS-cc81-phase0-gate-checklist-raw.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-phase0-gate-checklist-raw.md)
+  - [RESPONSE-MANUS-cc81-phase1-snapshot-schema-raw.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-phase1-snapshot-schema-raw.md)
+  - [RESPONSE-MANUS-cc81-platform-snapshot-command-recipes-raw.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-platform-snapshot-command-recipes-raw.md)
+  - [RESPONSE-MANUS-cc81-evidence-receipt-template-raw.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-evidence-receipt-template-raw.md)
+  - [RESPONSE-MANUS-cc81-risks-phase0-phase1-raw.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-risks-phase0-phase1-raw.md)
 
 ### Psyche
 
@@ -59,6 +65,11 @@ openclaw nodes list --json
 
 - runbook:
   - [CC81-IDENTITY-CUTOVER-RUNBOOK-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CC81-IDENTITY-CUTOVER-RUNBOOK-v1.md)
+- phase gates:
+  - [CC81-PHASE0-GATE-CHECKLIST.md](/Users/system/syncrescendence/orchestration/state/impl/CC81-PHASE0-GATE-CHECKLIST.md)
+  - [CC81-PHASE1-SNAPSHOT-SCHEMA.md](/Users/system/syncrescendence/orchestration/state/impl/CC81-PHASE1-SNAPSHOT-SCHEMA.md)
+- receipt template:
+  - [IDENTITY-CUTOVER-EVIDENCE-RECEIPT-TEMPLATE-CC81.json](/Users/system/syncrescendence/orchestration/state/IDENTITY-CUTOVER-EVIDENCE-RECEIPT-TEMPLATE-CC81.json)
 - tracker state machine:
   - [IDENTITY-CUTOVER-TRACKER-CC81.json](/Users/system/syncrescendence/orchestration/state/IDENTITY-CUTOVER-TRACKER-CC81.json)
 

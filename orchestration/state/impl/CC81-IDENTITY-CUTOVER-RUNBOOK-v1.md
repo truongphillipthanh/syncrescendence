@@ -51,6 +51,8 @@ Support: Commander, Manus
 
 Gate to proceed:
 - `phase0_ready = true` in tracker.
+- checklist:
+  - [CC81-PHASE0-GATE-CHECKLIST.md](/Users/system/syncrescendence/orchestration/state/impl/CC81-PHASE0-GATE-CHECKLIST.md)
 
 ### Phase 1 — Snapshot Capture
 
@@ -64,6 +66,9 @@ Support: Manus
 
 Gate to proceed:
 - per-platform `snapshot_done` state.
+- schema:
+  - [CC81-PHASE1-SNAPSHOT-SCHEMA.md](/Users/system/syncrescendence/orchestration/state/impl/CC81-PHASE1-SNAPSHOT-SCHEMA.md)
+  - [IDENTITY-CUTOVER-EVIDENCE-RECEIPT-TEMPLATE-CC81.json](/Users/system/syncrescendence/orchestration/state/IDENTITY-CUTOVER-EVIDENCE-RECEIPT-TEMPLATE-CC81.json)
 
 ### Phase 2 — Low-Blast-Radius Ownership Moves
 

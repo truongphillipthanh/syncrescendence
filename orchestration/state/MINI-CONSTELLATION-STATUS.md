@@ -1,6 +1,6 @@
 # Mini Constellation Status
 
-- Captured: `2026-03-02T18:04:00Z`
+- Captured: `2026-03-05T04:39:46Z`
 - Remote alias: `mini`
 - Hostname: `M1-Mac-mini.local`
 - Repo present: `True` at `/Users/home/syncrescendence`
@@ -12,14 +12,9 @@
 - Gemini path: `/opt/homebrew/bin/gemini`
 - Constellation session present: `True`
 - LaunchAgent present: `True`
-- LaunchAgent running: `True`
+- LaunchAgent running: `False`
 - Git-native ready: `True`
 - Xcode license blocked: `False`
-- OpenClaw version: `2026.3.1`
-- Psyche provider: `openai-codex`
-- Psyche model: `gpt-5.3-codex`
-- Psyche account: `truongphillipthanh@icloud.com` (ChatGPT Plus)
-- Channels configured: `False`
 
 ## tmux Windows
 

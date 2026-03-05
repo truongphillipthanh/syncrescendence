@@ -5,7 +5,7 @@
     "openclaw": "/opt/homebrew/bin/openclaw",
     "tmux": "/opt/homebrew/bin/tmux"
   },
-  "captured_at": "2026-03-02T05:56:07Z",
+  "captured_at": "2026-03-05T04:39:46Z",
   "constellation_session_present": true,
   "constellation_windows": [
     "1: psyche* (1 panes) [80x24] [layout b25d,80x24,0,0,0] @0 (active)",

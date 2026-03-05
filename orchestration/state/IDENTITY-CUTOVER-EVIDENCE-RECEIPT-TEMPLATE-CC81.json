@@ -1,0 +1,50 @@
+{
+  "cutover_id": "cc81-identity-cutover",
+  "platform": "github",
+  "captured_at": "2026-03-04T00:00:00Z",
+  "captured_by": "commander",
+  "target_identity": "syncrescendence@gmail.com",
+  "legacy_identity": "truongphillipthanh@icloud.com",
+  "baseline": {
+    "membership_roles": {
+      "summary": "Platform member-role snapshot completed",
+      "source": "api_or_ui_export",
+      "artifact_pointer": "path/or/url"
+    },
+    "ownership_billing": {
+      "summary": "Owner and billing contact baseline captured",
+      "source": "ui_capture_or_api",
+      "artifact_pointer": "path/or/url"
+    },
+    "integrations": {
+      "summary": "App/token/integration inventory captured (pointer-only)",
+      "source": "inventory_script_or_ui",
+      "artifact_pointer": "path/or/url"
+    },
+    "access_validation": {
+      "target_access_ok": false,
+      "legacy_access_ok": true,
+      "notes": "set booleans after validation checks"
+    }
+  },
+  "rollback": {
+    "rollback_owner_identity": "truongphillipthanh@icloud.com",
+    "rollback_window_hours": 72,
+    "rollback_mechanism_summary": "describe ownership restoration path"
+  },
+  "evidence_links": [
+    {
+      "label": "members_export",
+      "value": "path/or/url"
+    },
+    {
+      "label": "billing_snapshot",
+      "value": "path/or/url"
+    }
+  ],
+  "signoff": {
+    "human_approved": false,
+    "approved_by": "",
+    "approved_at": ""
+  }
+}

@@ -9,7 +9,8 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+# operators/runtime/collect-mini-constellation-status.py -> repo root is parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 STATE_DIR = REPO_ROOT / "orchestration" / "state"
 REMOTE = "mini"
 REMOTE_REPO = "/Users/home/syncrescendence"
