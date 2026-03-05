@@ -14,11 +14,12 @@ from pathlib import Path
 from typing import Any
 
 
-REPO_ROOT = Path(__file__).resolve().parent
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parents[1]
 STATE_DIR = REPO_ROOT / "orchestration" / "state"
 DB_PATH = STATE_DIR / "ontology-v1.sqlite3"
-SCHEMA_PATH = REPO_ROOT / "ontology_v1_schema.sql"
-LEDGER_PATH = REPO_ROOT / "memory" / "AJNA-EVENT-LEDGER.jsonl"
+SCHEMA_PATH = SCRIPT_DIR / "ontology_v1_schema.sql"
+LEDGER_PATH = STATE_DIR / "AJNA-EVENT-LEDGER.jsonl"
 RUNTIME_SNAPSHOT_PATH = STATE_DIR / "OPENCLAW-RUNTIME-SNAPSHOT.json"
 CONFIG_MANIFEST_PATH = REPO_ROOT / "configs" / "manifest.json"
 
