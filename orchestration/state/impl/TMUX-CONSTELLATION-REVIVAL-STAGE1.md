@@ -25,7 +25,8 @@ The point is to re-establish the Mac mini as a deterministic, repo-driven execut
 1. hydrate the repo onto the mini from the authoritative local checkout
 2. deploy Psyche's repo-generated OpenClaw surface
 3. create a reproducible `tmux` session skeleton called `constellation`
-4. leave each window in a prepared shell instead of auto-running opaque agent loops
+4. run explicit office inbox watchers in each agent window (`psyche`, `adjudicator`, `cartographer`) so dispatch files in `offices/<office>/inbox/pending/` trigger claim/wake behavior
+5. keep `ops` as the manual control shell
 
 This avoids two bad shortcuts:
 
@@ -56,6 +57,12 @@ make revive-mini-constellation
 make constellation-mini-status
 ```
 
+Dispatch a wake file into an office inbox:
+
+```bash
+make dispatch-office-task OFFICE=psyche TITLE="runtime-check" PAYLOAD_FILE=/abs/path/payload.md
+```
+
 ## What These Commands Do
 
 ### `make bootstrap-mini`
@@ -73,8 +80,9 @@ make constellation-mini-status
   - `adjudicator`
   - `cartographer`
   - `ops`
-
-Each window opens at the canonical repo path and drops into an interactive login shell with a role-specific banner.
+- `psyche`, `adjudicator`, and `cartographer` run `operators/runtime/office_inbox_watch.py` in restart loops
+- watchers claim tasks from `inbox/pending` into `inbox/active` and emit receipts into `outbox/receipts`
+- `ops` remains an interactive login shell for manual intervention
 
 ### `make install-mini-constellation-launchagent`
 
@@ -95,6 +103,30 @@ Each window opens at the canonical repo path and drops into an interactive login
 - Ajna reset is not solved here
 - no cron or always-on automation fabric is restarted
 - no higher-order agent automation fabric is assumed
+
+## Wake-on-Inbox Semantics
+
+Wake is file-system dispatch:
+
+1. place a task envelope into `offices/<office>/inbox/pending/`
+2. office watcher claims it into `inbox/active/`
+3. watcher emits a receipt into `outbox/receipts/`
+4. pane logs become the immediate wake trace
+
+This yields deterministic wake-on-dispatch without hidden background daemons.
+
+Mini runtime note:
+
+- use Homebrew Python for remote operator calls (`/opt/homebrew/bin/python3`) to avoid Apple toolchain/Xcode-license path issues on `/usr/bin/python3`.
+
+Inspection note:
+
+- stage1 uses tmux socket `/tmp/tmux-syncrescendence-mini.sock`
+- inspect with:
+
+```bash
+tmux -S /tmp/tmux-syncrescendence-mini.sock list-windows -t constellation
+```
 
 ## Git Note
 

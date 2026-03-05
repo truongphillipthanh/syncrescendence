@@ -6,10 +6,12 @@ REMOTE_USER="${REMOTE_USER:-home}"
 REMOTE_ROOT="${REMOTE_ROOT:-/Users/home}"
 REMOTE_REPO="${REMOTE_REPO:-$REMOTE_ROOT/syncrescendence}"
 REMOTE_OPENCLAW_WORKSPACE="${REMOTE_OPENCLAW_WORKSPACE:-$REMOTE_ROOT/.openclaw/workspace/AGENTS.md}"
+REMOTE_TMUX_SOCKET="${REMOTE_TMUX_SOCKET:-/tmp/tmux-syncrescendence-mini.sock}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_ROOT="$SCRIPT_DIR"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 PYTHON_BIN="${PYTHON_BIN:-python3}"
+RENDER_SCRIPT="${RENDER_SCRIPT:-$REPO_ROOT/operators/config/render-configs.py}"
 RENDER_DIR=""
 
 cleanup() {
@@ -22,12 +24,19 @@ trap cleanup EXIT
 
 render_mac_mini_configs() {
   RENDER_DIR="$(mktemp -d "${TMPDIR:-/tmp}/syncrescendence-mini-render.XXXXXX")"
-  "$PYTHON_BIN" "$REPO_ROOT/render-configs.py" \
-    --source "$REPO_ROOT/AGENTS.md" \
-    --harness-dir "$REPO_ROOT/harness" \
-    --machine-dir "$REPO_ROOT/machine" \
-    --output-dir "$RENDER_DIR" \
-    --machine "mac-mini"
+  if [ -f "$RENDER_SCRIPT" ] && [ -f "$REPO_ROOT/harness/targets.json" ] && [ -d "$REPO_ROOT/machine" ]; then
+    "$PYTHON_BIN" "$RENDER_SCRIPT" \
+      --source "$REPO_ROOT/AGENTS.md" \
+      --harness-dir "harness" \
+      --machine-dir "machine" \
+      --output-dir "$RENDER_DIR" \
+      --machine "mac-mini"
+    return 0
+  fi
+
+  mkdir -p "$RENDER_DIR/psyche"
+  cp "$REPO_ROOT/AGENTS.md" "$RENDER_DIR/psyche/AGENTS.md"
+  echo "render-config prerequisites missing; deployed root AGENTS.md as psyche surface fallback"
 }
 
 sync_repo_to_mini() {
@@ -56,7 +65,7 @@ remote_status() {
     [ -d \"$REMOTE_REPO\" ] && echo repo_present=true || echo repo_present=false; \
     [ -f \"$REMOTE_OPENCLAW_WORKSPACE\" ] && echo psyche_workspace_present=true || echo psyche_workspace_present=false; \
     command -v tmux >/dev/null 2>&1 && echo tmux_path=\"\$(command -v tmux)\" || echo tmux_path=missing; \
-    tmux has-session -t constellation 2>/dev/null && echo constellation_session=present || echo constellation_session=absent"
+    tmux -S \"$REMOTE_TMUX_SOCKET\" has-session -t constellation 2>/dev/null && echo constellation_session=present || echo constellation_session=absent"
 }
 
 usage() {

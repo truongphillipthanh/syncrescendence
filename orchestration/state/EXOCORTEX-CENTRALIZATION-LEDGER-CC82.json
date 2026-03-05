@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-03-04",
+  "status": "active",
+  "primary_target_identity": "syncrescendence@gmail.com",
+  "legacy_identity": "truongphillipthanh@icloud.com",
+  "wave_order": [
+    "wave0_security_snapshot",
+    "wave1_code_edge_control_plane",
+    "wave2_operator_bus",
+    "wave3_exocortex_saas",
+    "wave4_legacy_primacy_decommission"
+  ],
+  "surfaces": [
+    {
+      "platform": "github",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave1_code_edge_control_plane",
+      "state": "queued",
+      "risk": "low",
+      "next_action": "grant_target_owner_and_validate_owner_only_action",
+      "human_owner_required": true,
+      "api_automatable": "partial",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "cloudflare",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave1_code_edge_control_plane",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "grant_super_admin_and_verify_zone_billing_authority",
+      "human_owner_required": true,
+      "api_automatable": "low",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "gcp",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave1_code_edge_control_plane",
+      "state": "queued",
+      "risk": "low",
+      "next_action": "bind_target_identity_to_owner_iam_roles_and_verify",
+      "human_owner_required": true,
+      "api_automatable": "high",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "slack",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave2_operator_bus",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "promote_target_owner_transfer_app_ownership_rotate_tokens",
+      "human_owner_required": true,
+      "api_automatable": "conditional",
+      "blocking_unknowns": [
+        "workspace_plan_capabilities_for_primary_owner_transfer"
+      ]
+    },
+    {
+      "platform": "discord",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave2_operator_bus",
+      "state": "queued",
+      "risk": "low",
+      "next_action": "transfer_server_and_developer_team_ownership_rotate_bot_token",
+      "human_owner_required": true,
+      "api_automatable": "low",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "notion",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "grant_workspace_owner_and_verify_admin_access",
+      "human_owner_required": true,
+      "api_automatable": "low",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "coda",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "grant_workspace_owner_and_rebind_automation_tokens",
+      "human_owner_required": true,
+      "api_automatable": "low",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "confluence",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "grant_org_admin_and_validate_space_permissions",
+      "human_owner_required": true,
+      "api_automatable": "partial",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "jira",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "grant_org_admin_and_validate_project_admin_scope",
+      "human_owner_required": true,
+      "api_automatable": "partial",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "linear",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "promote_target_workspace_admin_and_rekey_integrations",
+      "human_owner_required": true,
+      "api_automatable": "low",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "clickup",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "promote_owner_and_verify_space_permissions",
+      "human_owner_required": true,
+      "api_automatable": "low",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "basecamp",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "low",
+      "next_action": "grant_admin_and_verify_project_room_control",
+      "human_owner_required": true,
+      "api_automatable": "low",
+      "blocking_unknowns": []
+    },
+    {
+      "platform": "airtable",
+      "current_owner_surface": "legacy_account_1",
+      "target_owner_surface": "syncrescendence@gmail.com",
+      "wave": "wave3_exocortex_saas",
+      "state": "queued",
+      "risk": "medium",
+      "next_action": "promote_workspace_admin_reassign_ownership_rekey_tokens",
+      "human_owner_required": true,
+      "api_automatable": "partial",
+      "blocking_unknowns": []
+    }
+  ]
+}

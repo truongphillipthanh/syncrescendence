@@ -11,9 +11,11 @@ Centralize service ownership toward `syncrescendence@gmail.com` while preserving
 ## Inputs
 
 - [CC81-IDENTITY-CENTRALIZATION-PROGRAM.md](/Users/system/syncrescendence/orchestration/state/impl/CC81-IDENTITY-CENTRALIZATION-PROGRAM.md)
+- [CC82-EXOCORTEX-CENTRALIZATION-EXECUTION-PLAN-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CC82-EXOCORTEX-CENTRALIZATION-EXECUTION-PLAN-v1.md)
 - [RESPONSE-MANUS-cc81-identity-cutover-capability-development.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-identity-cutover-capability-development.md)
 - [RESPONSE-MANUS-cc81-identity-cutover-capability-development-raw.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-identity-cutover-capability-development-raw.md)
 - [IDENTITY-CUTOVER-TRACKER-CC81.json](/Users/system/syncrescendence/orchestration/state/IDENTITY-CUTOVER-TRACKER-CC81.json)
+- [EXOCORTEX-CENTRALIZATION-LEDGER-CC82.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-CENTRALIZATION-LEDGER-CC82.json)
 
 ## Execution Law
 

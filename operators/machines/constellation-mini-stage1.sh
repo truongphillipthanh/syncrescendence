@@ -36,6 +36,17 @@ shell_cmd() {
     "$role shell ready in $REPO_ROOT\n"
 }
 
+watch_cmd() {
+  local office="$1"
+  printf 'cd %q && printf %q && while true; do python3 operators/runtime/office_inbox_watch.py --office %q --repo-root %q --claimed-by %q; rc=$?; printf %q "$rc"; sleep 2; done' \
+    "$REPO_ROOT" \
+    "$office watcher online in $REPO_ROOT\n" \
+    "$office" \
+    "$REPO_ROOT" \
+    "$office-watcher" \
+    "$office watcher exited with rc=%s; restarting in 2s\n"
+}
+
 if tmx has-session -t "$SESSION_NAME" 2>/dev/null; then
   if [ "$FORCE_REBUILD" = "1" ]; then
     tmx kill-session -t "$SESSION_NAME"
@@ -46,9 +57,9 @@ if tmx has-session -t "$SESSION_NAME" 2>/dev/null; then
   fi
 fi
 
-tmx new-session -d -s "$SESSION_NAME" -n psyche "$(shell_cmd 'Psyche')"
-tmx new-window -t "$SESSION_NAME" -n adjudicator "$(shell_cmd 'Adjudicator')"
-tmx new-window -t "$SESSION_NAME" -n cartographer "$(shell_cmd 'Cartographer')"
+tmx new-session -d -s "$SESSION_NAME" -n psyche "$(watch_cmd 'psyche')"
+tmx new-window -t "$SESSION_NAME" -n adjudicator "$(watch_cmd 'adjudicator')"
+tmx new-window -t "$SESSION_NAME" -n cartographer "$(watch_cmd 'cartographer')"
 tmx new-window -t "$SESSION_NAME" -n ops "cd \"$REPO_ROOT\" && printf 'Ops shell ready in %s\n' \"$REPO_ROOT\" && printf 'Suggested checks: make tooling-surface-status ; openclaw channels status --probe --json ; tmux -S %s list-windows -t %s\n' \"$TMUX_SOCKET\" \"$SESSION_NAME\" && exec zsh -l"
 
 tmx set-option -t "$SESSION_NAME" remain-on-exit on

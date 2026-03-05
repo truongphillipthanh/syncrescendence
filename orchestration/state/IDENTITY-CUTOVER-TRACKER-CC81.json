@@ -10,7 +10,15 @@
     "manus_raw_artifact": "communications/responses/RESPONSE-MANUS-cc81-identity-cutover-capability-development-raw.md",
     "manus_phase01_task_id": "jp95fXq3QLuiDzA9NMq42D",
     "manus_phase01_task_status": "completed",
-    "manus_phase01_response_artifact": "communications/responses/RESPONSE-MANUS-cc81-phase0-phase1-implementation.md"
+    "manus_phase01_response_artifact": "communications/responses/RESPONSE-MANUS-cc81-phase0-phase1-implementation.md",
+    "manus_cc82_task_id": "GX7XJ9imu3mYDHBvyxGkff",
+    "manus_cc82_task_status": "completed",
+    "manus_cc82_response_artifact": "communications/responses/RESPONSE-MANUS-cc82-exocortex-account-centralization-execution.md",
+    "manus_cc82b_task_id": "KmqLNi25LK6ovtAeN6dT9X",
+    "manus_cc82b_task_status": "completed",
+    "manus_cc82b_response_artifact": "communications/responses/RESPONSE-MANUS-cc82b-github-slack-discord-cutover-runbook.md",
+    "cc82_execution_plan_artifact": "orchestration/state/impl/CC82-EXOCORTEX-CENTRALIZATION-EXECUTION-PLAN-v1.md",
+    "cc82_ledger_artifact": "orchestration/state/EXOCORTEX-CENTRALIZATION-LEDGER-CC82.json"
   },
   "global_rules": [
     "no_owner_mutation_without_pre_cutover_snapshot",
@@ -32,6 +40,12 @@
     "phase4_control_plane_surfaces": "pending",
     "phase5_terminal_actions": "pending"
   },
+  "active_blockers": [
+    "slack_app_inventory_incomplete",
+    "discord_developer_team_ownership_transfer_lead_time",
+    "cloudflare_registrar_flow_unconfirmed",
+    "cross_surface_secret_rotation_scope_incomplete"
+  ],
   "platforms": [
     {
       "platform": "github",

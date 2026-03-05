@@ -111,7 +111,8 @@ Do **not** start full product-site implementation during cutover. It does not re
 
 ## Immediate Execution Next Steps
 
-1. Dispatch Manus capability probe for migration automation envelope and rollback recipe.
-2. Stage Psyche dispatch packet for node pairing + runtime audit development.
-3. Open `IDENTITY-CUTOVER-TRACKER` with per-platform status (`not_started`, `snapshot_done`, `transferred`, `verified`, `rollback_ready`).
-4. Perform Wave 0 and require explicit receipt before Wave 1.
+1. Run Wave 0 gating and lock per-platform snapshot evidence.
+2. Track CC82 comprehensive and fallback Manus tasks from the tracker intel section.
+3. Execute Wave 1 (`GitHub`, `Cloudflare`, `GCP`) in isolated change windows.
+4. Execute Wave 2 (`Slack`, `Discord`) with explicit token-rotation verification.
+5. Keep `IDENTITY-CUTOVER-TRACKER` and `EXOCORTEX-CENTRALIZATION-LEDGER` synchronized after each mutation.

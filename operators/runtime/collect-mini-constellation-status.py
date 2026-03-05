@@ -16,6 +16,7 @@ REMOTE = "mini"
 REMOTE_REPO = "/Users/home/syncrescendence"
 REMOTE_WORKSPACE = "/Users/home/.openclaw/workspace/AGENTS.md"
 REMOTE_GIT = "/opt/homebrew/bin/git"
+REMOTE_TMUX_SOCKET = "/tmp/tmux-syncrescendence-mini.sock"
 LAUNCH_AGENT_LABEL = "com.syncrescendence.constellation-stage1"
 
 
@@ -50,7 +51,11 @@ def main() -> int:
     repo_present = run_remote(f"test -d {REMOTE_REPO!s}").returncode == 0
     workspace_present = run_remote(f"test -f {REMOTE_WORKSPACE!s}").returncode == 0
     workspace_bytes = remote_text(f"wc -c < {REMOTE_WORKSPACE}")
-    windows_text = remote_text("PATH=/opt/homebrew/bin:$PATH; tmux has-session -t constellation 2>/dev/null && tmux list-windows -t constellation || true")
+    windows_text = remote_text(
+        "PATH=/opt/homebrew/bin:$PATH; "
+        f"tmux -S {REMOTE_TMUX_SOCKET} has-session -t constellation 2>/dev/null && "
+        f"tmux -S {REMOTE_TMUX_SOCKET} list-windows -t constellation || true"
+    )
     windows = [line.strip() for line in windows_text.splitlines() if line.strip()]
     launch_agent_probe = run_remote(
         f"launchctl print gui/$(id -u)/{LAUNCH_AGENT_LABEL}"
@@ -80,6 +85,7 @@ def main() -> int:
             "codex": codex_path or None,
             "gemini": gemini_path or None,
         },
+        "tmux_socket": REMOTE_TMUX_SOCKET,
         "constellation_session_present": bool(windows),
         "constellation_windows": windows,
         "launch_agent": {

@@ -1,4 +1,4 @@
-.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke
+.PHONY: inventory check-artifact-law bootstrap-office migrate-communications-chain archive-shell-manifest rehouse-archived-artifact sync-reference-tree stage-feedstock operator-tree harness-tranche-ab harness-registry-effective harness-promoted-atoms-smoke office-watch-once dispatch-office-task manus-create manus-wait bootstrap-mini revive-mini-constellation constellation-mini-status install-mini-constellation-launchagent
 
 inventory:
 	python3 operators/validators/artifact_law_inventory.py --format both
@@ -52,3 +52,33 @@ harness-registry-effective:
 
 harness-promoted-atoms-smoke:
 	python3 operators/validators/harness_promoted_atoms_smoke.py
+
+office-watch-once:
+	@test -n "$(OFFICE)" || (echo "usage: make office-watch-once OFFICE=psyche [REPO_ROOT=/abs/path]" && exit 1)
+	python3 operators/runtime/office_inbox_watch.py --office "$(OFFICE)" --repo-root "$(or $(REPO_ROOT),$(CURDIR))" --once
+
+dispatch-office-task:
+	@test -n "$(OFFICE)" || (echo "usage: make dispatch-office-task OFFICE=psyche TITLE='task title' PAYLOAD_FILE=/abs/path/payload.md" && exit 1)
+	@test -n "$(TITLE)" || (echo "usage: make dispatch-office-task OFFICE=psyche TITLE='task title' PAYLOAD_FILE=/abs/path/payload.md" && exit 1)
+	@test -n "$(PAYLOAD_FILE)" || (echo "usage: make dispatch-office-task OFFICE=psyche TITLE='task title' PAYLOAD_FILE=/abs/path/payload.md" && exit 1)
+	python3 operators/runtime/dispatch_office_task.py --office "$(OFFICE)" --repo-root "$(or $(REPO_ROOT),$(CURDIR))" --title "$(TITLE)" --payload-file "$(PAYLOAD_FILE)" --sender "$(or $(SENDER),commander)"
+
+manus-create:
+	@test -n "$(PROMPT_FILE)" || (echo "usage: make manus-create PROMPT_FILE=communications/prompts/PACKET-....md" && exit 1)
+	python3 operators/exocortex/manus_task_api.py create --prompt-file "$(PROMPT_FILE)"
+
+manus-wait:
+	@test -n "$(TASK_ID)" || (echo "usage: make manus-wait TASK_ID=taskid [EXTRACT=1] [TIMEOUT=900] [INTERVAL=15]" && exit 1)
+	python3 operators/exocortex/manus_task_api.py wait --task-id "$(TASK_ID)" --timeout-seconds "$(or $(TIMEOUT),900)" --interval-seconds "$(or $(INTERVAL),15)" $(if $(EXTRACT),--extract-text,)
+
+bootstrap-mini:
+	./operators/machines/bootstrap-mac-mini.sh all
+
+revive-mini-constellation:
+	./operators/machines/revive-mini-constellation.sh
+
+constellation-mini-status:
+	./operators/machines/constellation-mini-status.sh
+
+install-mini-constellation-launchagent:
+	./operators/machines/install-mini-constellation-launchagent.sh
