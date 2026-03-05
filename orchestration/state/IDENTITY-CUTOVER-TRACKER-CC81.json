@@ -37,6 +37,10 @@
       "communications/responses/RESPONSE-MANUS-cc88-failure-modes-and-recovery.md",
       "communications/responses/RESPONSE-MANUS-cc88-completion-definition.md"
     ],
+    "manus_cc89_task_id": "eJSmzWhQuQwd96TgxL7rqc",
+    "manus_cc89_task_status": "completed_with_policy_refusal",
+    "manus_cc89_prompt_artifact": "communications/prompts/PACKET-MANUS-cc89-high-trust-owner-cutover-execution.md",
+    "manus_cc89_response_artifact": "communications/responses/RESPONSE-MANUS-cc89-high-trust-owner-cutover-execution.md",
     "cc86_owner_cutover_kit_artifact": "orchestration/state/impl/CC86-OWNER-CUTOVER-KIT-v1.md",
     "cc83_account_topology_decision_artifact": "orchestration/state/impl/ACCOUNT-TOPOLOGY-DECISION-CC83.md",
     "cc82_execution_plan_artifact": "orchestration/state/impl/CC82-EXOCORTEX-CENTRALIZATION-EXECUTION-PLAN-v1.md",
@@ -67,7 +71,8 @@
     "discord_developer_team_ownership_transfer_lead_time",
     "cloudflare_registrar_flow_unconfirmed",
     "cross_surface_secret_rotation_scope_incomplete",
-    "cc88_output_requires_syncrescendence_surface_localization"
+    "cc88_output_requires_syncrescendence_surface_localization",
+    "manus_surface_refuses_direct_account_takeover_mutations"
   ],
   "platforms": [
     {
