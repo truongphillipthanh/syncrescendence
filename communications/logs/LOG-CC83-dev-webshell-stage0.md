@@ -104,3 +104,13 @@ This preserves office-law routing and wake-on-inbox semantics.
 8. smoke-validated provider signatures:
    - GitHub callback rejected without signature and accepted with valid HMAC
    - Slack callback accepted with valid signature and fresh timestamp
+
+## Runtime environment fix (host-local)
+
+1. corrected Homebrew Caddy import path:
+   - `/opt/homebrew/etc/Caddyfile`
+   - from: `/Users/system/syncrescendence/00-ORCHESTRATION/state/impl/ontology-api.Caddyfile.local`
+   - to: `/Users/system/syncrescendence/orchestration/state/impl/ontology-api.Caddyfile.local`
+2. restarted caddy service:
+   - `brew services restart caddy`
+3. confirmed local `/ops/*` path routing through caddy to webshell when webshell is running.
