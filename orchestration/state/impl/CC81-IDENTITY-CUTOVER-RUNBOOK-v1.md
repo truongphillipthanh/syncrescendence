@@ -14,6 +14,9 @@ Centralize service ownership toward `syncrescendence@gmail.com` while preserving
 - [CC82-EXOCORTEX-CENTRALIZATION-EXECUTION-PLAN-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CC82-EXOCORTEX-CENTRALIZATION-EXECUTION-PLAN-v1.md)
 - [RESPONSE-MANUS-cc81-identity-cutover-capability-development.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-identity-cutover-capability-development.md)
 - [RESPONSE-MANUS-cc81-identity-cutover-capability-development-raw.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc81-identity-cutover-capability-development-raw.md)
+- [RESPONSE-MANUS-cc86-owner-cutover-execution-kits.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc86-owner-cutover-execution-kits.md)
+- [RESPONSE-MANUS-cc86b-owner-cutover-kits-inline.md](/Users/system/syncrescendence/communications/responses/RESPONSE-MANUS-cc86b-owner-cutover-kits-inline.md)
+- [CC86-OWNER-CUTOVER-KIT-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CC86-OWNER-CUTOVER-KIT-v1.md)
 - [IDENTITY-CUTOVER-TRACKER-CC81.json](/Users/system/syncrescendence/orchestration/state/IDENTITY-CUTOVER-TRACKER-CC81.json)
 - [EXOCORTEX-CENTRALIZATION-LEDGER-CC82.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-CENTRALIZATION-LEDGER-CC82.json)
 

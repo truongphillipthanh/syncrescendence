@@ -20,6 +20,13 @@
     "manus_cc83_task_id": "kD8SxUjH6FyVv7hYFNQVT4",
     "manus_cc83_task_status": "completed",
     "manus_cc83_response_artifact": "communications/responses/RESPONSE-MANUS-cc83-account-topology-and-cutover.md",
+    "manus_cc86_task_id": "caKua2ydBuL35PEC2Mig68",
+    "manus_cc86_task_status": "running_no_final_output",
+    "manus_cc86_response_artifact": "communications/responses/RESPONSE-MANUS-cc86-owner-cutover-execution-kits.md",
+    "manus_cc86b_task_id": "dEYdxFCtvDArA3pKkfFouv",
+    "manus_cc86b_task_status": "running_no_final_output",
+    "manus_cc86b_response_artifact": "communications/responses/RESPONSE-MANUS-cc86b-owner-cutover-kits-inline.md",
+    "cc86_owner_cutover_kit_artifact": "orchestration/state/impl/CC86-OWNER-CUTOVER-KIT-v1.md",
     "cc83_account_topology_decision_artifact": "orchestration/state/impl/ACCOUNT-TOPOLOGY-DECISION-CC83.md",
     "cc82_execution_plan_artifact": "orchestration/state/impl/CC82-EXOCORTEX-CENTRALIZATION-EXECUTION-PLAN-v1.md",
     "cc82_ledger_artifact": "orchestration/state/EXOCORTEX-CENTRALIZATION-LEDGER-CC82.json"
@@ -48,7 +55,8 @@
     "slack_app_inventory_incomplete",
     "discord_developer_team_ownership_transfer_lead_time",
     "cloudflare_registrar_flow_unconfirmed",
-    "cross_surface_secret_rotation_scope_incomplete"
+    "cross_surface_secret_rotation_scope_incomplete",
+    "manus_long_form_task_api_stalling"
   ],
   "platforms": [
     {
