@@ -57,19 +57,19 @@ Packet:
 
 - [PACKET-CODEX-SWARM-BATCH-02-LANE-01-DISPOSITION-REGISTRY.md](/Users/system/syncrescendence/communications/prompts/PACKET-CODEX-SWARM-BATCH-02-LANE-01-DISPOSITION-REGISTRY.md)
 
-### Lane 02 — Canon Versus Reference Split
+### Lane 02 — Canon / Sigma / Reference Stratification
 
 Goal:
 
-- define how `knowledge/canon/` and `knowledge/references/` remain distinct under live migration pressure
+- define how canon, the Sigma-like secondary knowledge tier, and the current `references/` placeholder should relate under live migration pressure
 
 Recommended reasoning:
 
-- `high`
+- `extra high`
 
 Packet:
 
-- [PACKET-CODEX-SWARM-BATCH-02-LANE-02-CANON-VS-REFERENCE.md](/Users/system/syncrescendence/communications/prompts/PACKET-CODEX-SWARM-BATCH-02-LANE-02-CANON-VS-REFERENCE.md)
+- [PACKET-CODEX-SWARM-BATCH-02-LANE-02-CANON-SIGMA-REFERENCE.md](/Users/system/syncrescendence/communications/prompts/PACKET-CODEX-SWARM-BATCH-02-LANE-02-CANON-SIGMA-REFERENCE.md)
 
 ### Lane 03 — Pedigree, Archive Manifests, and Rehousing Receipts
 
@@ -89,11 +89,11 @@ Packet:
 
 Goal:
 
-- define when artifacts promote across those three authority surfaces
+- define when artifacts promote across those three authority surfaces and whether `offices/` should remain the physical lane name versus a return to `agents/`
 
 Recommended reasoning:
 
-- `high`
+- `extra high`
 
 Packet:
 

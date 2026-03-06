@@ -15,9 +15,9 @@ This tranche is the bridge between:
 ## Tasks
 
 1. define one canonical disposition registry and migration ledger
-2. harden the split between `knowledge/canon/` and `knowledge/references/`
+2. harden the canon / Sigma / lower-tier-knowledge stratification instead of assuming `knowledge/references/` is the right permanent framing
 3. define the physical and semantic contract for `pedigree/originals/`, `pedigree/archive-manifests/`, and rehousing receipts
-4. define promotion thresholds between `offices/`, `communications/`, and `executive/`
+4. define promotion thresholds and physical naming contract between `offices/` or `agents/`, `communications/`, and `executive/`
 5. codify duplicate-doctrine merge law across live-shell, `old`, and `pre_schematic_design` witnesses
 6. define source/log externalization law so compaction, manifesting, externalization, and culling remain provenance-safe
 7. codify repo / exocortex / ontology non-duplication so projection and coordination do not silently become authority

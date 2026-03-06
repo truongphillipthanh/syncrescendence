@@ -230,11 +230,11 @@
    Status: completed v1
 2. define one canonical disposition registry and migration ledger before bulk promotion proceeds
    Status: active
-3. harden the split between `knowledge/canon/` and `knowledge/references/` so the knowledge lane does not re-inflate
+3. harden the canon / Sigma / lower-tier-knowledge stratification so the knowledge lane does not re-inflate around the wrong abstraction
    Status: active
 4. define the contract for `pedigree/`, archive manifests, and rehousing receipts so preserved ancestry remains legible
    Status: active
-5. codify promotion thresholds across `offices/`, `communications/`, and `executive/` to prevent hidden authority drift
+5. codify promotion thresholds and the `offices/` versus `agents/` naming contract across agent-local surfaces, `communications/`, and `executive/`
    Status: active
 6. codify duplicate-doctrine merge law and repo / exocortex / ontology non-duplication before higher-volume migration continues
    Status: active

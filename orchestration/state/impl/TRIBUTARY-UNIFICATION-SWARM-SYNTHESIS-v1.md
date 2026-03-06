@@ -26,7 +26,7 @@ That implies:
 
 - migrate by authority class, not by folder nostalgia
 - preserve pedigree as a first-class destination
-- keep doctrine, reference, operator, office memory, and archive receipts distinct
+- keep doctrine, the secondary knowledge substrate, operator, agent-local memory, and archive receipts distinct
 - externalize large raw source mass once compacted or manifested
 - keep exocortex as coordination field, ontology as projection field, and repo as ratification field
 
@@ -42,7 +42,7 @@ The strongest receiving lanes are:
 
 - `communications/`
 - `knowledge/`
-- `offices/`
+- `offices/` as current agent-local physicalization
 - `playbooks/`
 - `operators/`
 - `validated-patterns/`
@@ -50,9 +50,10 @@ The strongest receiving lanes are:
 
 The weakest receiving surfaces are:
 
-- the split between `knowledge/canon/` and `knowledge/references/`
+- the split between `knowledge/canon/` and the lower-than-canon knowledge substrate currently named `knowledge/references/`
 - `pedigree/archive-manifests/`
 - migration accounting and disposition registry surfaces
+- the long-term naming contract for `offices/` versus `agents/`, and harness labels versus avatar labels
 - executive sublanes for briefings/escalations/summits as actual promotion targets
 - the contract between repo authority, exocortex state, and ontology projection
 
@@ -60,7 +61,7 @@ The weakest receiving surfaces are:
 
 The strongest live-law seeds come primarily from `neocanon`, with selective reinforcement from old canon where compression removed important burden-bearing texture.
 
-The strongest live-reference seeds come primarily from `neocorpus` and `neosyncrescendence`.
+The strongest lower-tier knowledge seeds come primarily from `neocorpus` and `neosyncrescendence`.
 
 The old canon should not be restored as shell topology or total front-door authority. It should be mined as a reserve of authentic doctrine, especially where it preserves:
 
@@ -152,25 +153,32 @@ Allowed dispositions remain:
 - `externalize_to_exocortex`
 - `cull_with_receipt`
 
-### 3.2 Canon versus reference
+### 3.2 Canon / Sigma / Reference stratification
 
-`knowledge/canon/` must remain small and constitutional.
+Batch 01 treated `knowledge/references/` as the current placeholder for the secondary knowledge tier below canon and above feedstock.
 
-It is for:
+User clarification changes the framing:
 
-- durable doctrine
-- shell law seeds
-- stable epistemic primitives
-- methods that govern other artifacts
+- canon is closer to the whole-shell `CLAUDE.md` / `AGENTS.md` for Syncrescendence
+- Syncrescript is the intended compression layer, not the replacement for canon
+- `Sigma` was historically intended to inhabit the rung below canon
+- the present name `references/` may therefore be only a temporary shell convenience
 
-`knowledge/references/` is for:
+The current adjudication is therefore provisional:
 
-- distilled bodies of knowledge
-- compendia
-- explanatory synthesis
-- research-derived substrate that informs but does not govern
+- `knowledge/canon/` should hold the durable, consult-on-every-pass operative scripture of the shell
+- the current lower tier should be re-evaluated in Batch 02 as one of:
+  - a true `sigma/` lane
+  - a retained `references/` lane with Sigma as the semantic class it houses
+  - another name that better captures living harness-memory substrate without flattening it into generic reference
+- `knowledge/feedstock/` remains the lawful intake floor
 
-If an artifact helps thinking but should not command routing, promotion, or legitimacy, it is not canon.
+What is already clear:
+
+- raw research and bulky source matter are not canon
+- per-harness local memory is not canon
+- the lower-than-canon tier is real even if its final name is not yet settled
+- Batch 02 must decide the naming and promotion contract explicitly instead of assuming `references/` is correct
 
 ### 3.3 Pedigree is not a dumping ground
 
@@ -184,15 +192,23 @@ If an artifact helps thinking but should not command routing, promotion, or legi
 
 Anything retained for ancestry without present authority should be legible there, not hidden in live lanes.
 
-### 3.4 Offices, executive, and communications
+### 3.4 Agents / offices, executive, and communications
 
 The burden split is:
 
-- `offices/` = local working state, bounded queues, journals, scratch, local memory
+- `offices/` in the current shell, potentially `agents/` in the future = local working state, bounded queues, journals, scratch, local memory
 - `communications/` = inter-office prompts, dispatches, receipts, results, confirms, returned lineage
 - `executive/` = direction-changing narratives, escalations, summit outcomes, live steering surfaces
 
 An artifact does not become executive merely because it is important. It becomes executive when it changes sovereign steering, priority, or legitimacy.
+
+What remains open after user clarification:
+
+- whether the physical directory should revert from `offices/` to `agents/`
+- whether agent-local directories should be named by harness to reduce schizophrenia
+- whether avatarization should remain conceptual/discursive rather than physical-directory primary
+
+Batch 02 must therefore treat physical naming as an explicit design question, not an already-settled one.
 
 ### 3.5 Duplicate doctrine merge rule
 
@@ -239,9 +255,9 @@ The highest-value doctrinal insight is that the most important inheritance is me
 
 The main remaining risks are:
 
-1. `knowledge/canon/` inflates into a second archive
+1. canon stratification remains semantically confused because the Sigma tier is missing or misnamed
 2. `pedigree/` stays under-specified and becomes a burial mound
-3. office-local doctrine quietly becomes hidden law
+3. agent-local doctrine quietly becomes hidden law
 4. source shedding happens ad hoc without manifest discipline
 5. ontology/exocortex convenience outruns repo ratification
 6. duplicate doctrine is merged by stylistic preference instead of witness discipline
@@ -250,7 +266,7 @@ The main remaining risks are:
 
 The first doctrinal spine to recover should be compact and methodological.
 
-Priority live-law / live-reference bundle:
+Priority live-law / lower-tier-knowledge bundle:
 
 1. `syncrescendence_pre_schematic_design/neocanon/CANON-1006-CONSTELLATION_OPERATING_LAWS.md`
 2. `syncrescendence_pre_schematic_design/neocanon/CANON-1003-ARTIFACT_PROTOCOL.md`
@@ -277,9 +293,9 @@ The next swarm wave should not repeat archaeology.
 It should harden contracts in the exact places the first wave identified as under-specified:
 
 1. the disposition registry and migration ledger
-2. canon versus reference split
+2. canon / sigma / reference stratification
 3. pedigree and archive-manifest law
-4. executive / communications / office promotion thresholds
+4. executive / communications / agent-local promotion and naming thresholds
 5. duplicate-doctrine merge law
 6. source and log externalization contract
 7. repo / exocortex / ontology non-duplication contract

@@ -4,14 +4,14 @@
 **Surface**: `codex_parallel_session`  
 **Role**: `analysis`  
 **Date**: `2026-03-06`  
-**Objective**: define promotion thresholds between `offices/`, `communications/`, and `executive/` so authority does not silently drift  
+**Objective**: define promotion thresholds between agent-local surfaces, `communications/`, and `executive/`, and evaluate whether the physical lane should remain `offices/` or revert to `agents/`
 **Origin lane**: `communications/prompts`  
 **Expected response**: `communications/responses/RESPONSE-CODEX-SWARM-BATCH-02-LANE-04-PROMOTION-THRESHOLDS.md`
 
 ## Decision Envelope
 
-- **Trigger**: Batch 01 established the broad burden split but left promotion thresholds under-specified
-- **Selected approach**: define the smallest possible decision rules for cross-lane promotion
+- **Trigger**: Batch 01 established the broad burden split but left promotion thresholds under-specified, and user clarification reopened the `offices/` versus `agents/` naming question
+- **Selected approach**: define the smallest possible decision rules for cross-lane promotion and the naming criteria for the agent-local physical lane
 - **Alternatives considered**:
   - case-by-case taste adjudication — rejected because it recreates hidden sovereign memory
 - **Assumptions**:
@@ -34,11 +34,12 @@
 
 ## Required Output
 
-1. explicit promotion thresholds for office-local -> communications
+1. explicit promotion thresholds for agent-local -> communications
 2. explicit promotion thresholds for communications -> executive
 3. explicit non-promotion rules for artifacts that must remain local or communications-only
-4. example classification of TASK / RECEIPT / RESULT / CONFIRM / ALERT / BRIEFING / EXECLOG
-5. top hidden-authority failure modes if the thresholds are vague
+4. a naming recommendation for `offices/` versus `agents/`, plus whether physical directories should be harness-named while avatarization remains conceptual
+5. example classification of TASK / RECEIPT / RESULT / CONFIRM / ALERT / BRIEFING / EXECLOG
+6. top hidden-authority failure modes if the thresholds or naming contract remain vague
 
 ## Constraints
 
