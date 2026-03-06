@@ -168,6 +168,9 @@ It now has:
 - capture policy
 - packet standards
 - bridge surfaces
+- connector control-plane manifest
+- receipt-driven verification state transitions
+- control-plane readiness states (`bounded_unverified`, `verification_in_progress`, `verified`)
 
 That is what makes it governable.
 

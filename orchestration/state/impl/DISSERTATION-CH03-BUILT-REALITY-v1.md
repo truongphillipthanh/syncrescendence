@@ -99,7 +99,25 @@ What this proved:
 - the exocortex can be governed instead of merely tolerated
 - external surfaces can participate without becoming the canon
 
-## 8. CLI↔Web Gap Closure
+## 8. Exocortex Control Plane and Verification
+
+Built:
+
+- connector manifest import from live integration guides
+- control-plane audit with explicit readiness states
+- receipt-driven connector state transitions
+- verification tracker with batch lineage
+- replayable pipeline for apply -> audit -> bridge -> ontology projection
+- live tranche dispatch path for Ajna and Manus
+
+What this proved:
+
+- claim-state and evidence-state are now institutionally distinct
+- blocked verification outcomes can be captured as typed state instead of hidden failure
+- re-import can preserve prior verification state/history
+- ontology can track control-plane progression (`bounded_unverified` -> `verification_in_progress`)
+
+## 9. CLI↔Web Gap Closure
 
 Built:
 
@@ -113,7 +131,7 @@ What this proved:
 - subscription surfaces can be brought into the shell without API-first assumptions
 - the shell can already close at least one real browser-mediated loop
 
-## 9. Ontology and Domain
+## 10. Ontology and Domain
 
 Built:
 
@@ -128,7 +146,7 @@ What this proved:
 - ontology can function as typed projection
 - the shell can expose a queryable surface without confusing that with law
 
-## 10. Why This Matters
+## 11. Why This Matters
 
 The shell is already beyond concept stage.
 
@@ -139,12 +157,13 @@ Its most important proofs are:
 - communications can be classed
 - offices can be physicalized
 - exocortex can be governed
+- exocortex connectors can move through a durable verification state machine
 - browser-mediated loops can close
 - ontology can stay downstream
 
 This is why the redesign has credibility.
 
-## 11. What the Shell Has Not Yet Built
+## 12. What the Shell Has Not Yet Built
 
 It has not yet fully built:
 
@@ -153,5 +172,6 @@ It has not yet fully built:
 - complete bridge/operator coverage for all chat and exocortical surfaces
 - full office habitation and agent-native routines across all offices
 - a hardened worker fabric beyond the first proofs
+- auth-backed connector verification completion across high-fanout exocortex hubs
 
 But it has built enough to justify the claim that the shell is real.

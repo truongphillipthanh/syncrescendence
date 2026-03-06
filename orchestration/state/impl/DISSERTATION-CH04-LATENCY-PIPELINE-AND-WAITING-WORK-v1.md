@@ -14,6 +14,7 @@ Major latent zones:
 - richer exocortex bridge coverage
 - worker-fabric hardening
 - ontology enrichment
+- auth-backed connector verification closure across the exocortex control plane
 
 ## 2. What Is in the Pipeline
 
@@ -27,6 +28,7 @@ The most consequential active lines are:
 - archive retrofit and pattern compaction
 - live knowledge intake and compaction
 - chat bus reconstitution
+- connector verification tranches (high-fanout hubs first)
 
 These are not side quests.
 Together they answer the question:
@@ -48,6 +50,24 @@ What remains is operatorization:
 - confirm operator
 - alert operator
 - thread-to-repo sync operator
+
+### Exocortex connector verification
+
+Control-plane mapping is now active, but full verification is staged by tranche.
+This line has concrete machinery and still needs authenticated execution windows on live surfaces.
+
+Already built:
+
+- manifest import
+- receipt application
+- verification tracker
+- ontology projection bridge
+
+Waiting work:
+
+- complete Ajna auth-backed tranche for high-fanout connectors
+- advance from blocked/claimed states into verified connected/not-connected states
+- iterate through subsequent tranches until profile gaps close
 
 ### Full office-local artifact law
 
@@ -107,6 +127,8 @@ Cowork and browser-mediated proof runs are valuable, but the future equilibrium 
 - local vs mini vs cloud execution
 
 still needs further evidence.
+
+The latest tranche result reinforces this: sandbox-only workers can classify auth-gated blockers, but cannot replace authenticated browser agents for final verification at the edge.
 
 ## 5. Why Waiting Work Matters
 

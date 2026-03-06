@@ -24,6 +24,11 @@ Too much and they become hidden state silos.
 Too little and handoff friction remains unnecessarily high.
 Too much and Slack/Discord/Telegram become pseudo-canons.
 
+### How should connector verification authority be partitioned?
+
+Too centralized and verification becomes a human bottleneck.
+Too distributed and connector state quality degrades into untrusted claims.
+
 ### What is the endgame of worker fabric?
 
 Is the dominant future:
@@ -60,6 +65,10 @@ The predecessor Rosetta proved that originality without sufficient tiering can b
 
 The old shell’s bad topology is attractive because it is convenient.
 Duplicate logistics, mixed artifact classes, and ad hoc root lanes can quietly return.
+
+### Risk 6 — verification theater
+
+If connector verification stays at narrative level rather than receipt-backed state transitions, the shell can appear governed while remaining operationally blind at the exact integration edges where failures happen.
 
 ## 3. What Agents Need in Order to Move In
 
@@ -162,5 +171,6 @@ The right stance now is:
 - compact aggressively
 - preserve pedigree
 - refuse topology relapse
+- require evidence-backed verification transitions on high-risk integration surfaces
 
 If that discipline holds, this shell can become the first genuinely durable Syncrescendent form rather than just the latest reorganization.

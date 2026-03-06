@@ -24,6 +24,17 @@ The core claim of this shell is that the problem is not simply “AI tooling,”
 
 This dissertation states the thesis, records the current proof points, names what remains unfinished, and defines the horizon toward which the shell is being built.
 
+## Current Checkpoint (CC91)
+
+The dissertation remains aligned, with one major new proof line now added:
+
+- exocortex connector topology has been promoted into a tractable control plane
+- connector claims can now be converted into evidence-backed state by receipt application, not narrative updates
+- ontology projection now includes connector-manifest and control-plane-status snapshots as typed entities
+- readiness has moved from `bounded_unverified` to `verification_in_progress` through a live tranche execution path
+
+This matters because the shell now demonstrates not only mapping, but controlled transition from claim-state to verification-state under policy constraints.
+
 ## Reading Order
 
 1. [DISSERTATION-CH01-THESIS-AND-TELEOLOGY-v1.md](/Users/system/syncrescendence/orchestration/state/impl/DISSERTATION-CH01-THESIS-AND-TELEOLOGY-v1.md)
@@ -71,6 +82,9 @@ This package synthesizes, among others:
 - [OFFICE-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/OFFICE-LAW-v1.md)
 - [PLAYBOOK-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/PLAYBOOK-LAW-v1.md)
 - [COMMUNICATIONS-LAW-v1.md](/Users/system/syncrescendence/orchestration/state/impl/COMMUNICATIONS-LAW-v1.md)
+- [EXOCORTEX-CONTROL-PLANE-CC91.md](/Users/system/syncrescendence/orchestration/state/impl/EXOCORTEX-CONTROL-PLANE-CC91.md)
+- [EXOCORTEX-CONTROL-PLANE-STATUS-CC91.md](/Users/system/syncrescendence/orchestration/state/impl/EXOCORTEX-CONTROL-PLANE-STATUS-CC91.md)
+- [CC91-CONNECTOR-VERIFICATION-QUEUE.md](/Users/system/syncrescendence/orchestration/state/impl/CC91-CONNECTOR-VERIFICATION-QUEUE.md)
 
 ## Net Claim
 
