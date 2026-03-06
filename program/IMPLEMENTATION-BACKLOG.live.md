@@ -210,3 +210,16 @@
    Status: queued (post-CC88)
 8. implement specialist distillation loop and shadow-mode swap criteria  
    Status: queued (post-CC88)
+
+### Tranche T — Tributary Unification and Compaction
+
+1. ratify the authority split across the live shell, `syncrescendence.old`, and `syncrescendence_pre_schematic_design`  
+   Status: active
+2. define one lawful disposition registry for migration candidates so semantic mass enters the shell by class rather than by folder restoration  
+   Vocabulary: `pedigree`, `program`, `inversion`, `compaction`
+3. map predecessor roots (`01-CANON`, `05-SIGMA`, `00-ORCHESTRATION`, `-SOVEREIGN`, `agents`, `04-SOURCES`) into successor-shell lanes  
+   Status: active
+4. define source/log shedding law so stale volume can be compacted or culled without sacrificing provenance  
+   Vocabulary: `receipt`, `pedigree`, `compaction`, `knowledge lane`
+5. bind exocortex and ontology into the migration program so the repo becomes control plane and registry rather than undifferentiated warehouse  
+   Vocabulary: `exocortex`, `ontology`, `repo sovereignty`, `projection`

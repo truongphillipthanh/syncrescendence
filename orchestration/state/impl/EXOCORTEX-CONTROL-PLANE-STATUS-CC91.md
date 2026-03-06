@@ -1,6 +1,6 @@
 # Exocortex Control Plane Status — CC91
 
-- Generated: `2026-03-06T06:52:43Z`
+- Generated: `2026-03-06T16:13:32Z`
 - Control plane readiness: `verification_in_progress`
 - Surface profile coverage: `35.9%`
 - Teleology coverage: `100.0%`
