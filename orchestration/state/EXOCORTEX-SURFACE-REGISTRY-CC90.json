@@ -5,6 +5,8 @@
   "canonical_identity": "syncrescendence@gmail.com",
   "canonical_workspace_domain": "syncrescendence",
   "canonical_github_repo": "https://github.com/syncrescendence/syncrescendence",
+  "teleology_registry_ref": "orchestration/state/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json",
+  "teleology_doctrine_ref": "orchestration/state/impl/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.md",
   "source_of_truth_note": "User-confirmed exocortex ownership migrated to canonical identity with workspace namespace aligned to syncrescendence.",
   "counts": {
     "surface_count": 37,

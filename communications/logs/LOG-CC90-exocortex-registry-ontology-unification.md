@@ -18,15 +18,18 @@ User-confirmed facts:
 
 1. canonical registry:
    - [EXOCORTEX-SURFACE-REGISTRY-CC90.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-SURFACE-REGISTRY-CC90.json)
-2. registry doctrine:
+2. canonical teleology registry:
+   - [EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json)
+   - [EXOCORTEX-TELEOLOGY-REGISTRY-CC90.md](/Users/system/syncrescendence/orchestration/state/impl/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.md)
+3. registry doctrine:
    - [EXOCORTEX-SURFACE-REGISTRY-CC90.md](/Users/system/syncrescendence/orchestration/state/impl/EXOCORTEX-SURFACE-REGISTRY-CC90.md)
-3. capture-policy extension for registry snapshots:
+4. capture-policy extension for registry snapshots:
    - [EXOCORTEX-CAPTURE-POLICY.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-CAPTURE-POLICY.json)
-4. bridge operator:
+5. bridge operator:
    - [exocortex_surface_registry_bridge.py](/Users/system/syncrescendence/operators/exocortex/exocortex_surface_registry_bridge.py)
-5. ontology projection support:
+6. ontology projection support:
    - [ontology_v1.py](/Users/system/syncrescendence/operators/ontology/ontology_v1.py)
-6. automation targets:
+7. automation targets:
    - [Makefile](/Users/system/syncrescendence/Makefile)
      - `exocortex-sync-surface-registry`
      - `ontology-project-repo`
@@ -38,3 +41,5 @@ User-confirmed facts:
 3. CC82 ledger is marked as historical superseded migration provenance.
 4. Local git `origin` was repointed to:
    - `git@github.com:syncrescendence/syncrescendence.git`
+5. Teleology coverage check from bridge payload:
+   - `teleology_missing_slugs = []`

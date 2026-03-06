@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-03-05",
+  "status": "active",
+  "version": "cc90",
+  "canonical_identity": "syncrescendence@gmail.com",
+  "canonical_workspace_domain": "syncrescendence",
+  "surfaces": [
+    {
+      "slug": "airtable_surface",
+      "epithet": "Metaconnector",
+      "proper_role": "relational wiring layer between exocortex systems, ontology entities, and repo artifacts",
+      "anti_role": "long-form narrative decision canon",
+      "default_modality": "headless",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "basecamp_surface",
+      "epithet": "Breakout Rooms",
+      "proper_role": "bounded project rooms for scoped coordination windows",
+      "anti_role": "cross-org master system-of-record",
+      "default_modality": "agentified",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "canva_surface",
+      "epithet": "Studio Forge",
+      "proper_role": "rapid design and visual asset staging for outbound communication surfaces",
+      "anti_role": "design-source constitutional archive",
+      "default_modality": "hybrid",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "chatgpt_openai_surface",
+      "epithet": "Vanguard Lens",
+      "proper_role": "general intelligence partner for synthesis, coding support, and strategic framing",
+      "anti_role": "unreviewed canonical authority",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "claude_anthropic_surface",
+      "epithet": "Vizier Lens",
+      "proper_role": "deliberate reasoning and long-form architectural analysis",
+      "anti_role": "hidden policy engine outside repo truth",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "clickup_surface",
+      "epithet": "Program Canopy",
+      "proper_role": "multi-project non-technical program aggregation above technical execution rails",
+      "anti_role": "repo-internal issue-of-record for engineering",
+      "default_modality": "agentified",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "cloudflare_surface",
+      "epithet": "Edge Bastion",
+      "proper_role": "domain, DNS, and edge routing authority for external ingress",
+      "anti_role": "application business logic execution core",
+      "default_modality": "headless",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "coda_surface",
+      "epithet": "Mutability Engine",
+      "proper_role": "controlled transformation workflow from candidate source to ratified canon",
+      "anti_role": "static storage without transition logic",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "confluence_surface",
+      "epithet": "Know-How Atlas",
+      "proper_role": "technical know-how and runbook corpus for teams and systems",
+      "anti_role": "real-time dispatch bus",
+      "default_modality": "hybrid",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "discord_surface",
+      "epithet": "Runtime Agora",
+      "proper_role": "community and runtime channel surface for distributed interaction threads",
+      "anti_role": "durable policy archive",
+      "default_modality": "agentified",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "dropbox_surface",
+      "epithet": "Coldline Vault",
+      "proper_role": "binary artifact holding lane and external file exchange buffer",
+      "anti_role": "active decision graph",
+      "default_modality": "headless",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "github_surface",
+      "epithet": "Sovereign Forge",
+      "proper_role": "code sovereignty, review workflow, CI surface, and repository governance",
+      "anti_role": "chat-first coordination layer",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "supabase_surface",
+      "epithet": "Data Substrate",
+      "proper_role": "database, auth, and backend state substrate for product workloads",
+      "anti_role": "front-door identity authority independent of parent auth chain",
+      "default_modality": "headless",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "grok_surface",
+      "epithet": "Oracle Lens",
+      "proper_role": "live sensing and hypothesis generation under citation pressure",
+      "anti_role": "self-ratifying strategic authority",
+      "default_modality": "hybrid",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "huggingface_surface",
+      "epithet": "Model Foundry",
+      "proper_role": "model and dataset discovery, distribution, and deployment ingress",
+      "anti_role": "private secrets management system",
+      "default_modality": "hybrid",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "jira_surface",
+      "epithet": "Outer Scaffold",
+      "proper_role": "external technical work scaffold for large cross-team execution",
+      "anti_role": "lightweight inner-loop dev task rail",
+      "default_modality": "hybrid",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "linear_surface",
+      "epithet": "Inner Scaffold",
+      "proper_role": "high-velocity technical execution rail for repo-adjacent work",
+      "anti_role": "enterprise portfolio bureaucracy layer",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "loveable_surface",
+      "epithet": "Rapid Fabricator",
+      "proper_role": "accelerated app prototyping and UI generation for concept validation",
+      "anti_role": "final production architecture authority",
+      "default_modality": "hybrid",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "make_surface",
+      "epithet": "Flow Router",
+      "proper_role": "cross-system workflow automation and event choreography",
+      "anti_role": "long-term state store",
+      "default_modality": "headless",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "miro_surface",
+      "epithet": "Map Canvas",
+      "proper_role": "visual mapping and shared conceptual layout surface",
+      "anti_role": "governed execution ledger",
+      "default_modality": "hybrid",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "notion_surface",
+      "epithet": "Lakehouse",
+      "proper_role": "context lakehouse and operational data-center layer for knowledge objects",
+      "anti_role": "source-code constitutional archive",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "openrouter_surface",
+      "epithet": "Model Exchange",
+      "proper_role": "model-routing broker for multi-provider inference dispatch",
+      "anti_role": "single-vendor policy lock-in surface",
+      "default_modality": "headless",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "oracle_cloud_surface",
+      "epithet": "Compute Bastion",
+      "proper_role": "cloud compute and infrastructure option lane for workload diversification",
+      "anti_role": "primary collaboration interface",
+      "default_modality": "headless",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "perplexity_surface",
+      "epithet": "Augur Lens",
+      "proper_role": "citation-backed verification and retrieval sanity-check lane",
+      "anti_role": "opaque oracle authority",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "atlassian_projects_surface",
+      "epithet": "Portfolio Spine",
+      "proper_role": "portfolio-level project container above individual ticket rails",
+      "anti_role": "engineering sprint execution micro-loop",
+      "default_modality": "hybrid",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "reddit_surface",
+      "epithet": "Signal Commons",
+      "proper_role": "public discourse and community signal mining surface",
+      "anti_role": "trusted canonical fact source without triangulation",
+      "default_modality": "manual_only",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "replit_surface",
+      "epithet": "Cloud Workbench",
+      "proper_role": "browser-native sandbox for fast external experiments and runnable prototypes",
+      "anti_role": "primary governed production deploy lane",
+      "default_modality": "hybrid",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "slack_surface",
+      "epithet": "Operator Bus",
+      "proper_role": "event-driven operator communication spine with channelized teleology",
+      "anti_role": "long-term knowledge canon",
+      "default_modality": "agentified",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "incident_surface",
+      "epithet": "Incident Nerve",
+      "proper_role": "structured incident command and response protocol on top of Slack identity",
+      "anti_role": "independent identity root separate from parent Slack workspace",
+      "default_modality": "agentified",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "ticktick_surface",
+      "epithet": "Procedure Codex",
+      "proper_role": "procedural checklist execution and recurring operator discipline",
+      "anti_role": "multi-team technical issue tracker",
+      "default_modality": "agentified",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "tiktok_surface",
+      "epithet": "Attention Channel",
+      "proper_role": "short-form attention distribution lane for narrative and experiments",
+      "anti_role": "internal planning governance plane",
+      "default_modality": "manual_only",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "todoist_surface",
+      "epithet": "GTD Rail",
+      "proper_role": "project-based GTD execution rail for actionable next steps",
+      "anti_role": "procedural knowledge canon",
+      "default_modality": "agentified",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "trello_surface",
+      "epithet": "Kanban Rail",
+      "proper_role": "visual board execution lane for lightweight cross-function flow",
+      "anti_role": "high-rigor dependency graph authority",
+      "default_modality": "hybrid",
+      "integration_priority": "P3"
+    },
+    {
+      "slug": "twitch_surface",
+      "epithet": "Live Relay",
+      "proper_role": "live broadcast and synchronous audience interaction surface",
+      "anti_role": "asynchronous durable planning archive",
+      "default_modality": "manual_only",
+      "integration_priority": "P4"
+    },
+    {
+      "slug": "youtube_surface",
+      "epithet": "Feedcraft Source",
+      "proper_role": "long-form media distribution and feed-intelligence source lane",
+      "anti_role": "private operational coordination bus",
+      "default_modality": "hybrid",
+      "integration_priority": "P1"
+    },
+    {
+      "slug": "zapier_surface",
+      "epithet": "Automation Mesh",
+      "proper_role": "broad trigger-action integration fabric across SaaS surfaces",
+      "anti_role": "authoritative business logic store",
+      "default_modality": "headless",
+      "integration_priority": "P2"
+    },
+    {
+      "slug": "x_surface",
+      "epithet": "Distribution Rail",
+      "proper_role": "real-time public narrative and update distribution lane",
+      "anti_role": "primary verification source",
+      "default_modality": "manual_only",
+      "integration_priority": "P2"
+    }
+  ],
+  "rail_contract": {
+    "code_sovereignty_and_ci": "github_surface",
+    "operator_bus_and_incident_command": "slack_surface",
+    "context_lakehouse": "notion_surface",
+    "source_to_canon_mutation": "coda_surface",
+    "metaconnection_wiring": "airtable_surface",
+    "internal_technical_execution": "linear_surface",
+    "external_technical_execution": "jira_surface",
+    "workflow_automation_backbone": "make_surface",
+    "model_brokerage": "openrouter_surface",
+    "public_distribution_long_form": "youtube_surface",
+    "public_distribution_short_form": "x_surface"
+  },
+  "hard_constraints": [
+    "repo_remains_constitutional_authority",
+    "no_exocortex_surface_is_self_ratifying_policy_authority",
+    "all_direction_changing_outputs_promote_to_repo_artifacts",
+    "auth_dependency_children_cannot_become_parent_identity_roots"
+  ]
+}

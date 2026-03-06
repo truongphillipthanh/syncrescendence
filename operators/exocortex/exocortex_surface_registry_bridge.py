@@ -26,7 +26,7 @@ def load_module(path: Path, name: str):
     return module
 
 
-def build_payload(registry: dict) -> dict:
+def build_payload(registry: dict, teleology: dict | None) -> dict:
     surfaces = registry.get("surfaces", [])
     if not isinstance(surfaces, list):
         raise SystemExit("Registry file must contain a list at key 'surfaces'.")
@@ -44,7 +44,7 @@ def build_payload(registry: dict) -> dict:
         access_counts[str(item.get("access_model", "unknown"))] += 1
         statuses[str(item.get("status", "unknown"))] += 1
 
-    return {
+    payload = {
         "registry_version": registry.get("version"),
         "canonical_identity": registry.get("canonical_identity"),
         "canonical_workspace_domain": registry.get("canonical_workspace_domain"),
@@ -56,6 +56,25 @@ def build_payload(registry: dict) -> dict:
         "status_counts": dict(sorted(statuses.items())),
         "auth_dependencies": auth_deps,
     }
+    if isinstance(teleology, dict):
+        teleology_surfaces = teleology.get("surfaces", [])
+        teleology_slugs = set()
+        if isinstance(teleology_surfaces, list):
+            for row in teleology_surfaces:
+                if isinstance(row, dict):
+                    slug = row.get("slug")
+                    if isinstance(slug, str):
+                        teleology_slugs.add(slug)
+        registry_slugs = {
+            str(row.get("slug"))
+            for row in surfaces
+            if isinstance(row, dict) and isinstance(row.get("slug"), str)
+        }
+        missing = sorted(registry_slugs - teleology_slugs)
+        payload["teleology_version"] = teleology.get("version")
+        payload["teleology_surface_count"] = len(teleology_slugs)
+        payload["teleology_missing_slugs"] = missing
+    return payload
 
 
 def main() -> int:
@@ -69,8 +88,14 @@ def main() -> int:
         nargs="*",
         default=[
             "orchestration/state/EXOCORTEX-SURFACE-REGISTRY-CC90.json",
+            "orchestration/state/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json",
             "orchestration/state/impl/EXOCORTEX-SURFACE-REGISTRY-CC90.md",
+            "orchestration/state/impl/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.md",
         ],
+    )
+    parser.add_argument(
+        "--teleology",
+        default="orchestration/state/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json",
     )
     parser.add_argument(
         "--summary",
@@ -83,7 +108,11 @@ def main() -> int:
     exocortex = load_module(SCRIPT_DIR / "exocortex_event_bridge.py", "exocortex_event_bridge")
     registry_path = (REPO_ROOT / args.registry).resolve()
     registry = json.loads(registry_path.read_text(encoding="utf-8"))
-    payload = build_payload(registry)
+    teleology = None
+    teleology_path = (REPO_ROOT / args.teleology).resolve()
+    if teleology_path.exists():
+        teleology = json.loads(teleology_path.read_text(encoding="utf-8"))
+    payload = build_payload(registry, teleology)
 
     policy = exocortex.load_policy()
     repo_paths = exocortex.normalize_repo_paths(args.repo_paths)

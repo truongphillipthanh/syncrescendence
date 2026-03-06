@@ -23,6 +23,7 @@ LEDGER_PATH = REPO_ROOT / "memory" / "AJNA-EVENT-LEDGER.jsonl"
 RUNTIME_SNAPSHOT_PATH = STATE_DIR / "OPENCLAW-RUNTIME-SNAPSHOT.json"
 CONFIG_MANIFEST_PATH = REPO_ROOT / "configs" / "manifest.json"
 EXOCORTEX_REGISTRY_PATH = STATE_DIR / "EXOCORTEX-SURFACE-REGISTRY-CC90.json"
+EXOCORTEX_TELEOLOGY_PATH = STATE_DIR / "EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json"
 
 
 def utc_now() -> str:
@@ -406,6 +407,44 @@ def project_exocortex_registry(connection: sqlite3.Connection, commit_sha: str |
     return 1
 
 
+def project_exocortex_teleology(connection: sqlite3.Connection, commit_sha: str | None) -> int:
+    if not EXOCORTEX_TELEOLOGY_PATH.exists():
+        return 0
+    teleology = load_json(EXOCORTEX_TELEOLOGY_PATH)
+    surfaces = teleology.get("surfaces", [])
+    version = teleology.get("version", "unknown")
+    snapshot_id = f"config-snapshot:exocortex-teleology:{version}"
+    upsert_config_snapshot(
+        connection,
+        snapshot_id=snapshot_id,
+        snapshot_kind="exocortex_teleology_registry",
+        source="repo-exocortex-teleology",
+        summary=f"Canonical exocortex teleology registry ({version})",
+        payload=teleology,
+        captured_at=teleology.get("generated_at", utc_now()),
+        provenance_commit=commit_sha,
+        provenance_path=str(EXOCORTEX_TELEOLOGY_PATH.relative_to(REPO_ROOT)),
+    )
+    upsert_entity(
+        connection,
+        entity_id=snapshot_id,
+        kind="ExocortexTeleology",
+        slug=slugify(f"exocortex-teleology-{version}"),
+        title=f"Exocortex teleology registry ({version})",
+        state=teleology.get("status", "active"),
+        payload={
+            "canonical_identity": teleology.get("canonical_identity"),
+            "canonical_workspace_domain": teleology.get("canonical_workspace_domain"),
+            "surface_count": len(surfaces) if isinstance(surfaces, list) else 0,
+        },
+        source="repo-exocortex-teleology",
+        captured_at=teleology.get("generated_at", utc_now()),
+        provenance_type="repo-path",
+        provenance_ref=str(EXOCORTEX_TELEOLOGY_PATH.relative_to(REPO_ROOT)),
+    )
+    return 1
+
+
 def project_event_entities(connection: sqlite3.Connection, event: dict[str, Any], commit_sha: str | None) -> int:
     count = 0
     event_entity_id = f"exo-event:{event['id']}"
@@ -545,7 +584,10 @@ def project_repo_state(db_path: Path = DB_PATH) -> dict[str, int]:
         projected["entities"] += project_runtime_snapshot(connection, commit_sha)
         projected["snapshots"] += project_config_manifest(connection, commit_sha)
         projected["snapshots"] += project_exocortex_registry(connection, commit_sha)
+        projected["snapshots"] += project_exocortex_teleology(connection, commit_sha)
         if EXOCORTEX_REGISTRY_PATH.exists():
+            projected["entities"] += 1
+        if EXOCORTEX_TELEOLOGY_PATH.exists():
             projected["entities"] += 1
 
         for event in events:

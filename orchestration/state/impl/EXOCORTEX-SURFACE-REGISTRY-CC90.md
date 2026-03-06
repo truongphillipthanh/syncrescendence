@@ -19,6 +19,7 @@ It expands prior CC75/CC76 surface notes into a full inventory with auth-depende
 ## Source Snapshot
 
 - [EXOCORTEX-SURFACE-REGISTRY-CC90.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-SURFACE-REGISTRY-CC90.json)
+- [EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json)
 
 ## Included Scope
 
@@ -28,6 +29,7 @@ It expands prior CC75/CC76 surface notes into a full inventory with auth-depende
    - `slack_surface -> incident_surface` (Sign in with Slack)
 3. canonical repo path:
    - `https://github.com/syncrescendence/syncrescendence`
+4. complete teleology coverage for all listed surfaces
 
 ## Ontology Binding Contract
 

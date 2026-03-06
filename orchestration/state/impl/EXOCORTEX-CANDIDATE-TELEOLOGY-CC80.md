@@ -4,6 +4,15 @@
 **Status**: stage0 strategic mapping  
 **Class**: surface teleology contract
 
+## CC90 Update
+
+This CC80 artifact remains a valid stage0 subset, but full teleology coverage now lives in:
+
+- [EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json](/Users/system/syncrescendence/orchestration/state/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.json)
+- [EXOCORTEX-TELEOLOGY-REGISTRY-CC90.md](/Users/system/syncrescendence/orchestration/state/impl/EXOCORTEX-TELEOLOGY-REGISTRY-CC90.md)
+
+Use CC90 for complete app-surface teleology.
+
 ## Purpose
 
 Teleologize the remaining productivity/knowledge candidates from the deep-dive packet set in `/Users/system/Desktop/exocortex`, excluding Slack/Discord/Telegram (already covered by [CHAT-BUS-ARCHITECTURE-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CHAT-BUS-ARCHITECTURE-v1.md)).
