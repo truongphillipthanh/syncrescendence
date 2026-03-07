@@ -259,12 +259,27 @@
 1. preserve the macro strategic endeavor as a formal canon artifact so future handoffs retain the larger telos
    Status: completed v1
 2. draft the minimal live-facing doc updates required by Sigma ratification and dispatch-lane physicalization
-   Status: active
+   Status: completed synthesis
 3. normalize the first migration seed set to the ratified registry schema
-   Status: active
+   Status: completed draft
 4. draft the first manifests and receipts under pedigree custody law
-   Status: active
+   Status: completed draft, requires row-aligned execution
 5. draft a bounded first Sigma subtree sync tranche with compatibility-safe sequencing
-   Status: active
+   Status: completed draft
 6. normalize the optional validator/template pack to current schema vocabulary and decide what should be enforced immediately
+   Status: completed draft
+
+### Tranche X — Direct-Write Compatibility And Custody Execution
+
+1. directly patch the live-facing front doors so Sigma, dispatches, and the macro split are taught correctly
+   Status: active
+2. optionally patch `BOOT.md` and `executive/README.md` so stateless rehydration carries the macro frame at entry
+   Status: active
+3. align the first custody manifests, receipts, and preserved witness copies to the normalized seed rows
+   Status: active
+4. execute the bounded Sigma subtree sync tranche under manifest and receipt discipline while preserving the source tree as compatibility housing
+   Status: active
+5. ratify the exact `source_relpath_hash` serialization before live registry population begins
+   Status: active
+6. keep live registry population and validator hardening sequenced into the next wave rather than collapsing them into this pass
    Status: active
