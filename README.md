@@ -4,13 +4,16 @@ This repository is now the shell-reconstitution substrate for Syncrescendence an
 
 The earlier nested `neosyncrescendence` microcosm proved the design. The canonical root is now the live successor-shell locus.
 
+The macro doctrine anchor for the successor shell is [SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md](/Users/system/syncrescendence/knowledge/canon/SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md).
+The governing macro split is: repo ratifies, exocortex coordinates, ontology projects.
+
 ## Purpose
 
 This root is where the next shell is staged:
 
 - constitutional law is kept compact
 - playbooks are first-class
-- communications, executive, program, and operators have explicit lanes
+- communications, knowledge, executive, program, and operators have explicit lanes
 - proven working patterns are preserved as curated staging artifacts
 - condemned legacy structure is preserved as pedigree and provenance, not the immediate write surface for redesign work
 
@@ -41,6 +44,7 @@ The root files exist because each one carries one of those burdens:
 - [WORK-LOOP.md](/Users/system/syncrescendence/WORK-LOOP.md): the basic metabolism of work
 - [INTER-OFFICE.md](/Users/system/syncrescendence/INTER-OFFICE.md): office modalities and routing
 - [CONTINUOUS-IMPROVEMENT.md](/Users/system/syncrescendence/CONTINUOUS-IMPROVEMENT.md): compaction, quality management, and antifragile iteration
+- [knowledge/canon/SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md](/Users/system/syncrescendence/knowledge/canon/SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md): macro doctrine anchor for the shell's strategic telos
 - [CLAUDE.md](/Users/system/syncrescendence/CLAUDE.md) and [GEMINI.md](/Users/system/syncrescendence/GEMINI.md): harness-facing veneers that preserve office grain without becoming second constitutions
 
 ## Operating Rule
@@ -75,9 +79,13 @@ The predecessor shell has been offloaded to Desktop archival lanes such as:
 - [.claude/CLAUDE.md](/Users/system/syncrescendence/.claude/CLAUDE.md): local Claude Code staging instructions
 - [.gemini/GEMINI.md](/Users/system/syncrescendence/.gemini/GEMINI.md): local Gemini adapter surface
 - `.obsidian/`: optional local vault-interface state, never canonical
-- [communications](/Users/system/syncrescendence/communications): prompts, responses, handoffs, logs, assessments
+- [communications](/Users/system/syncrescendence/communications): prompts, responses, dispatches, handoffs, logs, retros, assessments
+- [communications/dispatches](/Users/system/syncrescendence/communications/dispatches): durable routing, receipt, retry, and failure lineage
+- [communications/retros](/Users/system/syncrescendence/communications/retros): retrospective learning and post-action review
 - [executive](/Users/system/syncrescendence/executive): live executive steering lane
-- [knowledge](/Users/system/syncrescendence/knowledge): distilled references, domain canon, and incoming feedstock
+- [knowledge](/Users/system/syncrescendence/knowledge): Sigma-tier doctrine, compatibility-housed references, domain canon, and incoming feedstock
+- [knowledge/sigma](/Users/system/syncrescendence/knowledge/sigma): live secondary doctrine tier below canon
+- [knowledge/references](/Users/system/syncrescendence/knowledge/references): compatibility housing for `knowledge/sigma/references/`
 - [program](/Users/system/syncrescendence/program): backlog and tranche lane
 - [offices](/Users/system/syncrescendence/offices): lawful local offices for agents and harnesses
 - [playbooks](/Users/system/syncrescendence/playbooks): harness and surface doctrine
@@ -95,7 +103,7 @@ The predecessor shell has been offloaded to Desktop archival lanes such as:
 - [pedigree/INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md](/Users/system/syncrescendence/pedigree/INTENT-COMPASS-HERMENEUTIC-ASSESSMENT-v1.md): executive reading of the original intent instrument
 - [pedigree/BACKLOG-HYDRA-ASSESSMENT-v1.md](/Users/system/syncrescendence/pedigree/BACKLOG-HYDRA-ASSESSMENT-v1.md): queue-authority reading of the old backlog systems
 - [pedigree/originals](/Users/system/syncrescendence/pedigree/originals): local copies of key legacy pedigree artifacts
-- [knowledge/references/neocorpus](/Users/system/syncrescendence/knowledge/references/neocorpus): internalized distilled research substrate from the predecessor shell
+- [knowledge/references/neocorpus](/Users/system/syncrescendence/knowledge/references/neocorpus): compatibility-housed `neocorpus` Sigma-reference substrate from the predecessor shell
 
 ## Pedigree Recovery
 

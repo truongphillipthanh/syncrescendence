@@ -4,10 +4,11 @@ Use this at session start before deep work:
 
 1. read [README.md](/Users/system/syncrescendence/README.md) for current shell orientation
 2. read [AGENTS.md](/Users/system/syncrescendence/AGENTS.md) for constitutional law
-3. check [executive/INTENT-COMPASS.live.md](/Users/system/syncrescendence/executive/INTENT-COMPASS.live.md)
-4. check [program/IMPLEMENTATION-BACKLOG.live.md](/Users/system/syncrescendence/program/IMPLEMENTATION-BACKLOG.live.md)
-5. run `git status`
-6. triage the relevant office inbox before claiming new work
+3. read [SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md](/Users/system/syncrescendence/knowledge/canon/SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md) for the macro doctrine anchor
+4. check [executive/INTENT-COMPASS.live.md](/Users/system/syncrescendence/executive/INTENT-COMPASS.live.md)
+5. check [program/IMPLEMENTATION-BACKLOG.live.md](/Users/system/syncrescendence/program/IMPLEMENTATION-BACKLOG.live.md)
+6. run `git status`
+7. triage the relevant office inbox before claiming new work
 
 ## Why This Exists
 
@@ -16,6 +17,7 @@ Boot is not just a checklist. It is the shell’s anti-drift entry ritual.
 Its job is to make sure every session begins from:
 
 - current constitutional law
+- current macro doctrine
 - current executive intention
 - current program pressure
 - current office-local reality

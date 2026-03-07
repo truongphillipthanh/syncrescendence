@@ -1,6 +1,10 @@
 # Executive
 
-This lane holds live executive steering for the sandbox shell.
+This lane holds live executive steering for the successor shell.
+
+Read it in continuity with [SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md](/Users/system/syncrescendence/knowledge/canon/SYNCRESCENDENCE-HOLISTIC-STRATEGIC-ENDEAVOR-v1.md), the macro doctrine anchor for stateless rehydration.
+
+Executive steering should stay legible against the governing split: repo ratifies, exocortex coordinates, ontology projects.
 
 Start here:
 - [INTENT-COMPASS.live.md](/Users/system/syncrescendence/executive/INTENT-COMPASS.live.md)

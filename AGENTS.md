@@ -13,7 +13,7 @@ It is not the historical repo in miniature by accident. It is the deliberate she
 
 1. **Successor Shell First** — redesign work lands here unless a migration step explicitly targets pedigree or archive.
 2. **Pedigree Preserved** — the legacy repo remains provenance and evidence; nothing is treated as “obsolete” until lineage is captured.
-3. **One Artifact, One Class** — prompts, responses, handoffs, playbooks, operators, executive artifacts, program artifacts, and assessments must stay in their lanes.
+3. **One Artifact, One Class** — prompts, responses, dispatches, handoffs, playbooks, operators, executive artifacts, program artifacts, and assessments must stay in their lanes.
 4. **Root Cleanliness** — only constitutional root surfaces, root config, and explicit lane roots belong at the root.
 5. **Compile the Win** — repeated successful work should compact into playbooks, operators, or law instead of remaining as scattered threads or one-off artifacts.
 
@@ -50,7 +50,7 @@ Allowed root entries are:
 
 ## Lane Roles
 
-- `communications/`: prompts, responses, handoffs, logs, retros, assessments
+- `communications/`: prompts, responses, dispatches, handoffs, logs, retros, assessments
 - `executive/`: live intention and steering surfaces
 - `knowledge/`: distilled references, domain canon, and incoming feedstock under explicit knowledge law
 - `program/`: backlog, tranches, implementation sequencing

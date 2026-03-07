@@ -31,7 +31,8 @@ The loop therefore has two obligations:
 Not everything should survive in the same way.
 
 - transient local reasoning belongs in offices while it is still volatile
-- prompts, responses, and handoffs belong in communications lineage
+- prompts, responses, dispatches, and handoffs belong in communications lineage
+- dispatch artifacts preserve durable routing and receipt state, not generic chronology
 - stable decisions belong in executive or program lanes
 - repeated success belongs in playbooks, operators, or validated patterns
 - raw traces belong in runtime or logs, not in constitutions

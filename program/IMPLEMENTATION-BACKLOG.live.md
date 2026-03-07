@@ -272,14 +272,27 @@
 ### Tranche X — Direct-Write Compatibility And Custody Execution
 
 1. directly patch the live-facing front doors so Sigma, dispatches, and the macro split are taught correctly
-   Status: active
+   Status: completed wave 1
 2. optionally patch `BOOT.md` and `executive/README.md` so stateless rehydration carries the macro frame at entry
-   Status: active
+   Status: completed wave 1
 3. align the first custody manifests, receipts, and preserved witness copies to the normalized seed rows
-   Status: active
+   Status: completed wave 1
 4. execute the bounded Sigma subtree sync tranche under manifest and receipt discipline while preserving the source tree as compatibility housing
-   Status: active
+   Status: active, lane 06 missing
 5. ratify the exact `source_relpath_hash` serialization before live registry population begins
-   Status: active
+   Status: completed wave 1
 6. keep live registry population and validator hardening sequenced into the next wave rather than collapsing them into this pass
+   Status: completed sequencing
+
+### Tranche Y — Live Registry Population And Sigma Completion
+
+1. execute the missing tranche-01 Sigma mirror and its bounded manifest plus subtree receipts
+   Status: active
+2. populate the first 10 tributary families into the live registry CSV using the normalized Wave 2 rows and real Wave 3 custody joins
+   Status: active
+3. populate the minimum lawful JSONL history for those 10 rows through `executed`
+   Status: active
+4. keep `verified` state and `dest_artifact_hash` out of scope until a later verification wave
+   Status: active
+5. optionally materialize a thin report-only validator for schema, joins, and ledger parity
    Status: active

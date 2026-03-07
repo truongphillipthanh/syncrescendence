@@ -27,6 +27,7 @@ Canonical artifacts:
 - Repo-relative paths must not begin with `/`.
 - The literal token `none` is the only null sentinel for optional string and path fields.
 - Timestamps must be ISO-8601 UTC with a trailing `Z`.
+- `source_relpath_hash` must be serialized as `sha256:` plus the lowercase hex digest of the UTF-8 bytes of `<source_tributary>|<source_path>`, where `|` is the literal delimiter and both fields are taken exactly from the CSV row with no extra whitespace or path rewriting.
 
 ## Current-state CSV contract
 
@@ -42,7 +43,7 @@ Field contract:
 | `schema_version` | string | Must be `v1` |
 | `source_tributary` | enum | `live_shell`, `syncrescendence_old`, `syncrescendence_pre_schematic_design` |
 | `source_path` | path | Repo-relative source artifact path |
-| `source_relpath_hash` | string | Deterministic `sha256:` hash over normalized tributary plus source path |
+| `source_relpath_hash` | string | Must equal `sha256:` plus the lowercase hex digest of the UTF-8 bytes of `<source_tributary>|<source_path>` using the exact row values and the literal `|` delimiter |
 | `artifact_class` | enum | `law`, `reference`, `playbook`, `operator`, `executive`, `office_state`, `manifest`, `source`, `log`, `other` |
 | `artifact_format` | enum | `md`, `json`, `yaml`, `py`, `sh`, `directory_manifest`, `binary`, `mixed`, `other` |
 | `lineage_witness` | string | Witness family or source note. Use `none` if not needed |

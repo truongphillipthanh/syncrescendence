@@ -1,10 +1,11 @@
 # Communications
 
-This lane is the live communications surface for `neosyncrescendence`.
+This lane is the live communications lineage surface for Syncrescendence.
 
 Use it for:
-- dispatch packets and prompts
-- returned responses
+- prompts and packets
+- responses
+- dispatch records
 - handoffs
 - logs
 - retros
@@ -14,6 +15,7 @@ Use it for:
 
 - [prompts](/Users/system/syncrescendence/communications/prompts)
 - [responses](/Users/system/syncrescendence/communications/responses)
+- [dispatches](/Users/system/syncrescendence/communications/dispatches)
 - [handoffs](/Users/system/syncrescendence/communications/handoffs)
 - [logs](/Users/system/syncrescendence/communications/logs)
 - [retros](/Users/system/syncrescendence/communications/retros)
@@ -35,8 +37,9 @@ Use it for:
 
 ## Rule
 
-Inside the sandbox, this lane is no longer merely “future-lane.”
-It is the intended home for new communications artifacts produced by the redesign effort.
+This is the active live lane for communications artifacts in the successor shell.
+Do not use older `future-lane` or `neosyncrescendence` framing for new filing decisions.
+`dispatches/` is the durable routing and receipt lane when a communication event itself must survive as lineage.
 
 ## Authority
 
