@@ -136,6 +136,37 @@ Models, interfaces, and best practices will continue changing rapidly.
 The answer is not to wait for stability.
 The answer is to build a structure that can absorb capability shifts without losing continuity, provenance, or command.
 
+### 4.8 Render And Enforcement Discipline
+
+The shell must increasingly replace hand-maintained drift with deterministic render and validation discipline.
+
+This includes:
+
+- rendered harness veneers derived from canonical source surfaces
+- report-first validators for constitutional, communications, artifact-law, and migration-control-plane integrity
+- gradual promotion from report-only visibility into lawful enforcement only after compliant paths are real
+
+The purpose is not bureaucratic ceremony.
+It is to keep the shell honest as semantic and operational mass increases.
+
+### 4.9 Witness Hierarchy And Trust Boundaries
+
+Not every intelligent witness is equally trustworthy for every task.
+
+The system must distinguish:
+
+- structural synthesis
+- repo-reading reliability
+- external market or capability sensing
+
+External convergence is useful, but local constitutional claims require repo-grounded witnesses or repo-grounded verification.
+
+The shell must therefore prefer:
+
+- repo-native evidence for local state
+- convergent external synthesis for architecture pressure-testing
+- explicit downgrading of surfaces that speak plausibly but misread the actual repo
+
 ## 5. System Boundary
 
 The project currently recognizes three major macro layers:
@@ -188,16 +219,26 @@ The project has already completed:
 - tributary archaeology
 - contract hardening
 - the first ratified control-plane pass for migration
+- the first bounded direct-write custody and front-door correction wave
+- the first bounded Sigma reference mirror
+- the first live tributary current-state and ledger population through `executed`
+- report-first validator instrumentation for constitutional integrity, communications naming, artifact-law inventory, and tributary control-plane state
+- render discipline for root harness veneers
+- external convergence sensing that reaffirmed the shell while clarifying witness trust boundaries
 
 It is now entering the next phase:
 
-- compatibility cleanup
-- lawful registry population
-- bounded Sigma subtree rehousing
-- manifest and receipt-based custody activation
-- validator normalization
+- verified-state promotion for the first live tributary tranche
+- destination-hash proof for already-executed custody and promotion rows
+- validator hardening for legal state transitions and verified-state obligations
+- communications naming-debt classification and selective remediation
+- transitional root-operator internalization or explicit bounded retirement planning
+- later Sigma expansion only after the first verified-state proof is stable
 
-This is the phase where the system stops merely describing its future and begins metabolizing its archives under live law.
+This is the phase where the system has crossed from shell design into shell enforcement and controlled proof.
+
+The main danger is no longer conceptual vagueness.
+It is false completion, silent drift, and expansion before the existing control plane survives verification.
 
 ## 9. Permanent Working Rule
 

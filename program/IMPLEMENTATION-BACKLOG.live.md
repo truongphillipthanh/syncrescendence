@@ -287,12 +287,25 @@
 ### Tranche Y — Live Registry Population And Sigma Completion
 
 1. execute the missing tranche-01 Sigma mirror and its bounded manifest plus subtree receipts
-   Status: active
+   Status: completed wave 4
 2. populate the first 10 tributary families into the live registry CSV using the normalized Wave 2 rows and real Wave 3 custody joins
-   Status: active
+   Status: completed wave 4
 3. populate the minimum lawful JSONL history for those 10 rows through `executed`
-   Status: active
+   Status: completed wave 4
 4. keep `verified` state and `dest_artifact_hash` out of scope until a later verification wave
-   Status: active
+   Status: completed wave 4 sequencing
 5. optionally materialize a thin report-only validator for schema, joins, and ledger parity
-   Status: active
+   Status: completed wave 4
+
+### Tranche Z — Verified-State Advancement And Enforcement Hardening
+
+1. advance the existing 10 live tributary rows from `executed` to `verified` with real `dest_artifact_hash` values
+   Status: staged
+2. append the matching `row_verified` ledger events and keep CSV/ledger parity exact
+   Status: staged
+3. harden and wire the tributary validator so verified-state obligations and transition legality are checked under report-first discipline
+   Status: staged
+4. classify current communications naming drift into actionable remediation buckets without widening into bulk renames
+   Status: staged
+5. internalize or explicitly bound the remaining transitional root-operator debt before constitution enforcement tightens further
+   Status: staged

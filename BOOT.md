@@ -9,6 +9,10 @@ Use this at session start before deep work:
 5. check [program/IMPLEMENTATION-BACKLOG.live.md](/Users/system/syncrescendence/program/IMPLEMENTATION-BACKLOG.live.md)
 6. run `git status`
 7. triage the relevant office inbox before claiming new work
+8. if doing shell-law, migration, or filing work, run:
+   - `make validate-constitution`
+   - `make validate-metadata-naming`
+   - `make check-artifact-law`
 
 ## Why This Exists
 

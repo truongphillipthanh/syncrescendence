@@ -19,6 +19,7 @@ Current staged classes:
 ## Key surfaces
 
 - [validators/artifact_law_inventory.py](/Users/system/syncrescendence/operators/validators/artifact_law_inventory.py)
+- [validators/validate_tributary_disposition.py](/Users/system/syncrescendence/operators/validators/validate_tributary_disposition.py)
 - [cli-web-gap](/Users/system/syncrescendence/operators/cli-web-gap)
 - [migrate_communications_chain.py](/Users/system/syncrescendence/operators/migrate_communications_chain.py)
 - [bootstrap_office.py](/Users/system/syncrescendence/operators/bootstrap_office.py)
@@ -42,3 +43,7 @@ Legacy root operators are being internalized here in tranches; top-level copies 
 
 - [SCRIPT-OPERATOR-TAXONOMY-v1.md](/Users/system/syncrescendence/orchestration/state/impl/SCRIPT-OPERATOR-TAXONOMY-v1.md)
 - [ARTIFACT-LAW-VALIDATOR-SPEC-v1.md](/Users/system/syncrescendence/orchestration/state/impl/ARTIFACT-LAW-VALIDATOR-SPEC-v1.md)
+
+## Tributary Validator
+
+`validate_tributary_disposition.py` is a deterministic, report-only validator for the tributary disposition CSV and ledger. It checks structural legality and custody joins without mutating registry state or acting as an adjudication engine.

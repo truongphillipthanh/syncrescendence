@@ -147,3 +147,6 @@ If a new artifact is created for redesign work:
 
 - `make inventory`: write the current artifact-law inventory
 - `make check-artifact-law`: fail if prompt/response/handoff/root placement drifts outside the shell law
+- `make render-adapters`: regenerate the live successor-shell harness veneers
+- `make validate-constitution`: validate required constitutional surfaces and adapter deferral anchors
+- `make validate-metadata-naming`: report on communications naming/metadata drift

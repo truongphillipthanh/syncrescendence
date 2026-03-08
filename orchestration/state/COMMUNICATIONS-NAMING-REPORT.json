@@ -1,0 +1,146 @@
+[
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/COWORK-PERPLEXITY-PROTOTYPE-PROMPT.md",
+    "note": "filename does not match lane naming convention"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/COWORK-PERPLEXITY-PROTOTYPE-PROMPT.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/DISPATCH-AJNA-cc79-openclaw-command-verification.md",
+    "note": "filename does not match lane naming convention"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/DISPATCH-AJNA-cc91-connector-verification-tranche-01.md",
+    "note": "filename does not match lane naming convention"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/DISPATCH-MANUS-cc79-harness-command-verification.md",
+    "note": "filename does not match lane naming convention"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/DISPATCH-PSYCHE-cc81-node-pairing-and-runtime-audit.md",
+    "note": "filename does not match lane naming convention"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-GROK-cc79-harness-aider.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-GROK-cc79-harness-claude_code.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-GROK-cc79-harness-codex.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-GROK-cc79-harness-gemini_cli.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-GROK-cc79-harness-openclaw.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-GROK-cc79-harness-opencode.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-GROK-cc79-harness-openhands.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-MANUS-cc86-owner-cutover-execution-kits.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "prompts",
+    "path": "communications/prompts/PACKET-MANUS-cc86b-owner-cutover-kits-inline.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-GROK-cc79-harness-aider-raw.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-GROK-cc79-harness-claude_code-raw.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-GROK-cc79-harness-openhands-raw.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-ORACLE-CONFIG-CONSENSUS-ARCHITECTURE-CC92.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-ORACLE-MEMORY-ARCHITECTURE-SENSING-CC92.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-ORACLE-SCAFFOLD-CONSENSUS-CC92.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-ORACLE-SYNTHESIS-RECONCILIATION-CC92.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "responses",
+    "path": "communications/responses/RESPONSE-ORACLE-cc78a-architectural-remediation-hypersensing.md",
+    "note": "file lacks expected lane metadata markers"
+  },
+  {
+    "level": "warning",
+    "lane": "assessments",
+    "path": "communications/assessments/CC79-HARNESS-INGEST-AND-GRADING.md",
+    "note": "filename does not match lane naming convention"
+  }
+]
