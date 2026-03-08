@@ -1,5 +1,8 @@
 # PACKET-MANUS-cc86-owner-cutover-execution-kits
 
+**Priority**: `high`
+**Target**: `owner cutover execution kits`
+
 Produce a deterministic owner-cutover execution kit for this environment.
 
 Context:

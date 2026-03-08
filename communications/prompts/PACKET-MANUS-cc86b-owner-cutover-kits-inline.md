@@ -1,5 +1,8 @@
 # PACKET-MANUS-cc86b-owner-cutover-kits-inline
 
+**Priority**: `high`
+**Target**: `owner cutover kits inline`
+
 Generate a deterministic, human-executable owner cutover kit.
 
 Hard context:

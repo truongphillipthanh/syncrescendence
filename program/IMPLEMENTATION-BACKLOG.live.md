@@ -313,10 +313,21 @@
 ### Tranche AA — Strict-Ready Naming And Edge Audit
 
 1. normalize the strict-ready communications metadata subset without renaming or reclassifying historical lineage
-   Status: staged
+   Status: completed wave 6
 2. codify intentional naming exceptions and false positives so report-first enforcement distinguishes raw-lineage tolerances from real debt
-   Status: staged
+   Status: completed wave 6
 3. audit local edge callers for the remaining transitional root wrapper and repoint any discovered usage to the operator path
-   Status: staged
+   Status: audit completed wave 6, repoint pending
 4. retire the root wrapper only if the caller audit closes cleanly and regenerate constitution, naming, artifact-law, and tributary validation reports afterward
+   Status: blocked by confirmed Hazel caller
+
+### Tranche AB — Hazel Cutover And Conditional Wrapper Retirement
+
+1. cut over the confirmed live Hazel rule from the root wrapper path to the operator path and remove unsupported `--project-ontology`
+   Status: staged
+2. capture repo-native evidence that the live Hazel caller has been repointed successfully
+   Status: staged
+3. prepare or execute the repo-side wrapper retirement patch only after the Hazel cutover is confirmed
+   Status: staged
+4. leave broader naming strictness and bulk rename debt out of scope while the wrapper path remains the dominant live blocker
    Status: staged

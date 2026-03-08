@@ -226,13 +226,14 @@ The project has already completed:
 - render discipline for root harness veneers
 - external convergence sensing that reaffirmed the shell while clarifying witness trust boundaries
 - naming-debt classification and root-wrapper internalization planning around the newly proven surface
+- strict-ready communications metadata normalization and explicit naming-tolerance codification around that same proven surface
 
 It is now entering the next phase:
 
-- strict-ready metadata normalization for the small communications subset that can be cleaned safely now
-- codification of intentional naming tolerances so raw-lineage residue stops appearing as generic debt
-- external caller audit for the remaining transitional root wrapper
-- conditional wrapper retirement only if the runtime edge audit closes cleanly
+- external Hazel caller cutover for the remaining transitional root wrapper
+- conditional wrapper retirement only after that live edge cutover is verified
+- repo-side retirement patch preparation so the wrapper can disappear quickly once the cutover is real
+- later mapping of the `7` remaining communications warnings into rename or permanent report-only debt only after the wrapper path is no longer the dominant cleanup blocker
 - later Sigma or tributary expansion only after strict-ready debt retirement stabilizes
 
 This is the phase where the system has crossed from shell design into shell enforcement and controlled proof.

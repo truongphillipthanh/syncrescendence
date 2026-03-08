@@ -1,3 +1,9 @@
+# RESPONSE-ORACLE-SCAFFOLD-CONSENSUS-CC92
+
+**Response ID**: `RESPONSE-ORACLE-SCAFFOLD-CONSENSUS-CC92`
+**Date**: `2026-03-08`
+**Observed**: `Metadata normalization frame added for validator compatibility; substantive response body preserved.`
+
 **1. Institutional Verdict**
 
 Fundamentally correct. The successor-shell institutional topology implements the deliberate redesign required after the predecessor's "scaffolding Babel" failure mode (README.md: "too many overlapping directories, unclear artifact classes, bad prompt/response lineage, stale or orphaned notes, runtime truth/research/policy all mixed"). Observed reality (GitHub tree listings for root, communications/, offices/, operators/, validated-patterns/): root contains exactly the constitutional surfaces listed in AGENTS.md ("Allowed root entries are: AGENTS.md, BOOT.md, … communications/, executive/, … validated-patterns/"); communications/ has the exact subdirs (prompts/, responses/, assessments/, handoffs/, logs/, retros/) plus CHARTER.md and templates; offices/ has subdirs for each of the five federal offices plus README.md; operators/ has validators/, migrate/, exocortex/, office/ and concrete scripts (migrate_communications_chain.py, bootstrap_office.py). No observed root clutter or lane mixing. CH03-BUILT-REALITY-v1.md confirms: "the shell is already beyond concept stage… law can generate config, communications can be classed, offices can be physicalized, exocortex can be governed." Synthesis (beyond direct evidence): the cascade (Rosetta → Intent → Program → Execution → Reconciliation → Ontology) in ROSETTA-INTENT-BACKLOG-TRIAD-RECONSTITUTION-v1.md + federal office modalities in INTER-OFFICE.md now prevents recurrence of the old pathologies while preserving harness grain.

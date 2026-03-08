@@ -14,6 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 STATE_DIR = REPO_ROOT / "orchestration" / "state"
 JSON_OUT = STATE_DIR / "COMMUNICATIONS-NAMING-REPORT.json"
 MD_OUT = STATE_DIR / "COMMUNICATIONS-NAMING-REPORT.md"
+TOLERANCE_DOC = STATE_DIR / "COMMUNICATIONS-NAMING-TOLERANCES-v1.md"
 
 RULES = {
     "prompts": {
@@ -55,6 +56,85 @@ class Finding:
     note: str
 
 
+@dataclass(frozen=True)
+class Tolerance:
+    lane: str
+    path: str
+    note: str
+    rationale: str
+
+
+TOLERANCES = [
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/COWORK-PERPLEXITY-PROTOTYPE-PROMPT.md",
+        note="filename does not match lane naming convention",
+        rationale="intentional cowork lineage artifact name",
+    ),
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/PACKET-GROK-cc79-harness-aider.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw-lineage harness packet",
+    ),
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/PACKET-GROK-cc79-harness-claude_code.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw-lineage harness packet",
+    ),
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/PACKET-GROK-cc79-harness-codex.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw-lineage harness packet",
+    ),
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/PACKET-GROK-cc79-harness-gemini_cli.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw-lineage harness packet",
+    ),
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/PACKET-GROK-cc79-harness-openclaw.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw-lineage harness packet",
+    ),
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/PACKET-GROK-cc79-harness-opencode.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw-lineage harness packet",
+    ),
+    Tolerance(
+        lane="prompts",
+        path="communications/prompts/PACKET-GROK-cc79-harness-openhands.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw-lineage harness packet",
+    ),
+    Tolerance(
+        lane="responses",
+        path="communications/responses/RESPONSE-GROK-cc79-harness-aider-raw.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw response artifact",
+    ),
+    Tolerance(
+        lane="responses",
+        path="communications/responses/RESPONSE-GROK-cc79-harness-claude_code-raw.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw response artifact",
+    ),
+    Tolerance(
+        lane="responses",
+        path="communications/responses/RESPONSE-GROK-cc79-harness-openhands-raw.md",
+        note="file lacks expected lane metadata markers",
+        rationale="preserved raw response artifact",
+    ),
+]
+TOLERANCE_LOOKUP = {(item.path, item.note): item for item in TOLERANCES}
+
+
 def scan_lane(lane: str, config: dict[str, object]) -> list[Finding]:
     findings: list[Finding] = []
     lane_dir = REPO_ROOT / "communications" / lane
@@ -72,11 +152,29 @@ def scan_lane(lane: str, config: dict[str, object]) -> list[Finding]:
     return findings
 
 
-def render_markdown(findings: list[Finding]) -> str:
+def split_tolerated(findings: list[Finding]) -> tuple[list[Finding], list[Tolerance]]:
+    active: list[Finding] = []
+    tolerated: list[Tolerance] = []
+    for finding in findings:
+        tolerance = TOLERANCE_LOOKUP.get((finding.path, finding.note))
+        if tolerance:
+            tolerated.append(tolerance)
+        else:
+            active.append(finding)
+    return active, tolerated
+
+
+def render_markdown(findings: list[Finding], tolerated: list[Tolerance]) -> str:
     lines = [
         "# Communications Naming Report",
         "",
         "Report-only scan for successor-shell communications naming and metadata drift.",
+        "",
+        "Active debt remains visible below; bounded naming tolerances are listed separately.",
+        "",
+        f"- active findings: `{len(findings)}`",
+        f"- explicit tolerances: `{len(tolerated)}`",
+        f"- tolerance source: [{TOLERANCE_DOC.name}]({TOLERANCE_DOC})",
         "",
     ]
     by_lane: dict[str, list[Finding]] = {}
@@ -93,6 +191,22 @@ def render_markdown(findings: list[Finding]) -> str:
         for item in items:
             lines.append(f"- `{item.level}` `{item.path}`: {item.note}")
         lines.append("")
+    lines.append("## explicit tolerances")
+    lines.append("")
+    if not tolerated:
+        lines.append("- none")
+        lines.append("")
+        return "\n".join(lines)
+
+    tolerated_by_lane: dict[str, list[Tolerance]] = {}
+    for item in tolerated:
+        tolerated_by_lane.setdefault(item.lane, []).append(item)
+    for lane in sorted(tolerated_by_lane):
+        lines.append(f"### {lane}")
+        lines.append("")
+        for item in tolerated_by_lane[lane]:
+            lines.append(f"- `{item.path}`: {item.note} ({item.rationale})")
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -105,11 +219,13 @@ def main() -> int:
     for lane, config in RULES.items():
         findings.extend(scan_lane(lane, config))
 
-    JSON_OUT.write_text(json.dumps([asdict(item) for item in findings], indent=2) + "\n", encoding="utf-8")
-    MD_OUT.write_text(render_markdown(findings), encoding="utf-8")
+    active_findings, tolerated_findings = split_tolerated(findings)
 
-    errors = [item for item in findings if item.level == "error"]
-    warnings = [item for item in findings if item.level == "warning"]
+    JSON_OUT.write_text(json.dumps([asdict(item) for item in active_findings], indent=2) + "\n", encoding="utf-8")
+    MD_OUT.write_text(render_markdown(active_findings, tolerated_findings), encoding="utf-8")
+
+    errors = [item for item in active_findings if item.level == "error"]
+    warnings = [item for item in active_findings if item.level == "warning"]
 
     if errors:
         for item in errors:
@@ -120,7 +236,10 @@ def main() -> int:
             print(f"WARNING: {item.path}: {item.note}")
         return 1
 
-    print(f"Communications naming scan completed with {len(warnings)} warning(s).")
+    print(
+        "Communications naming scan completed with "
+        f"{len(warnings)} active warning(s) and {len(tolerated_findings)} tolerated finding(s)."
+    )
     return 0
 
 
