@@ -42,3 +42,4 @@ Artifacts may also exit laterally to `playbooks/`, `operators/`, `validated-patt
 ## Current Anchors
 
 - [CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md](/Users/system/syncrescendence/knowledge/sigma/CHAT-APP-CUSTOM-INSTRUCTION-ARCHITECTURE-v1.md)
+- [LIVE-LEDGER-STRATEGIC-AND-TAXONOMIC-ARCHITECTURE-v1.md](/Users/system/syncrescendence/knowledge/sigma/LIVE-LEDGER-STRATEGIC-AND-TAXONOMIC-ARCHITECTURE-v1.md)

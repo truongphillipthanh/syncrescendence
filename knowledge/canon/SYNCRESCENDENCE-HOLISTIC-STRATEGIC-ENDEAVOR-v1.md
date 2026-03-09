@@ -205,6 +205,23 @@ This matters because:
 - exact surface renderings still matter operationally and therefore need preserved provenance
 - future re-renders should start from stable doctrine plus rationale, not from memory or copy-pasted drift
 
+### 4.12 Append-Only Ledgers And Progressive Disclosure
+
+Volatile intelligence should not live only in static prose documents or chat residue.
+
+The shell should increasingly prefer ledger-shaped memory organs that make:
+
+- entry provenance explicit
+- mutation history inspectable
+- freshness and decay visible
+- substrate, synthesis, and dashboard resolutions distinct
+
+The repo should hold ledger constitutions, schemas, validators, compacted snapshots, and ratified synthesis.
+The exocortex should increasingly hold live operational substrate state where queryability, views, and higher churn matter.
+
+This is not a departure from repo sovereignty.
+It is the lawful expansion of repo sovereignty into a broader memory architecture.
+
 ## 5. System Boundary
 
 The project currently recognizes three major macro layers:
@@ -272,6 +289,7 @@ The project has already completed:
 - proof that a single-agent closed loop is the right operating mode for tightly coupled runtime blockers
 - first post-wrapper macro campaign mapping across doctrine promotion, triad rebind, office federalism, exocortex convergence, and source/log shedding
 - internalization of the canonical cross-platform chat-app custom-instruction family as exact Sigma reference substrate plus live Sigma doctrine
+- internalization of the strategic-vision and operational-taxonomy pair as live Sigma guidance for append-only ledgers, freshness logic, and progressive-disclosure memory organs
 
 It is now entering the next phase:
 

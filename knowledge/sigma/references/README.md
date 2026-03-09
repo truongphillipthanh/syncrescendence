@@ -10,5 +10,6 @@ Current occupant:
 - [NEOCORPUS-CATEGORY-INDEX-v1.md](/Users/system/syncrescendence/knowledge/references/NEOCORPUS-CATEGORY-INDEX-v1.md)
 - [NEOCORPUS-INTERNALIZATION-v1.md](/Users/system/syncrescendence/knowledge/references/NEOCORPUS-INTERNALIZATION-v1.md)
 - [chat-app-custom-instructions](/Users/system/syncrescendence/knowledge/sigma/references/chat-app-custom-instructions)
+- [live-ledger-architecture](/Users/system/syncrescendence/knowledge/sigma/references/live-ledger-architecture)
 
 New documentation and classification decisions should name `knowledge/sigma/references/` as the enduring semantic destination while this compatibility path remains in place.
