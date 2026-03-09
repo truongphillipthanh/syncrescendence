@@ -452,12 +452,33 @@ First normalized set:
 - **lineage_or_origin**: Campaign 03 synthesis and coordinator-ordered direct-write set
 
 1. land the constitutional config source-of-truth architecture as live Sigma law
-   Status: staged
+   Status: completed
 2. land the behavior-atom and surface-profile layer for future config distillation
-   Status: staged
+   Status: completed
 3. land the office-harness binding contract and first typed `commander` specimen
-   Status: staged
+   Status: completed
 4. land the generic live-ledger family contract without widening dashboard or ontology scope prematurely
-   Status: staged
+   Status: completed
 5. land the non-breaking ratification-pointer rollout law while preserving the live tributary proof
+   Status: completed
+
+### Tranche AJ — Typed Middle Layer Operationalization
+
+- **program_id**: `TRANCHE-AJ`
+- **intent_refs**: `INT-SHELL-001`, `INT-SHELL-003`, `INT-SHELL-005`
+- **rosetta_refs**: `constitution`, `operator`, `office`, `repo sovereignty`, `exocortex`, `ontology`, `compaction`
+- **execution_surface**: [IMPLEMENTATION-TRANCHE-AJ-TYPED-MIDDLE-LAYER-OPERATIONALIZATION.md](/Users/system/syncrescendence/program/IMPLEMENTATION-TRANCHE-AJ-TYPED-MIDDLE-LAYER-OPERATIONALIZATION.md)
+- **lineage_or_origin**: Campaign 04 direct writes and its synthesis
+
+1. create the office-harness coherence validator, effective registry, and first coherence reports
+   Status: staged
+2. promote `commander` from first specimen into a validated operative binding record
+   Status: staged
+3. add the next office-harness metadata specimens for `ajna`, `psyche`, `adjudicator`, and `cartographer`
+   Status: staged
+4. create the first tributary compatibility receipt and validator upgrade for `authority_bound` versus `informative_only`
+   Status: staged
+5. create the first config-surface registry seed and projection matrix for the new config kernel
+   Status: staged
+6. create the first live-ledger widening register and rollout-gate artifacts
    Status: staged

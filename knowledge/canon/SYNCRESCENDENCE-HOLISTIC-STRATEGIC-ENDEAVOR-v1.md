@@ -329,6 +329,8 @@ The project has already completed:
 - emergence of configuration mereology as the next macro layer after authority-spine restoration
 - convergence on the shell's next real bottleneck: the missing typed middle layer between doctrine and projections
 - convergence on one ordered direct-write set for that typed middle layer across config kernel law, behavior atoms, office-harness binding law, ledger-family law, and ratification-pointer rollout law
+- landing of that first typed middle layer as live Sigma and implementation law rather than only campaign intent
+- correction of the first office-harness specimen so it now points to binding law rather than to prior response lineage
 
 It is now entering the next phase:
 
@@ -339,6 +341,7 @@ It is now entering the next phase:
 - continued source and log compaction so raw volume stops dominating live cognition
 - aggressive swarm amplification for broad semantic work, with single-agent closed loops reserved for tightly coupled runtime fronts
 - direct ratification of the typed middle layer so configuration, ledger growth, and office-harness binding stop relying on implicit doctrine
+- operationalization of that typed middle layer through validators, subordinate registries, compatibility receipts, multi-office metadata, and first widening artifacts
 
 This is the phase where the system has crossed from shell design into shell enforcement and controlled proof.
 

@@ -42,3 +42,4 @@ This tranche turns Campaign 03's design convergence into durable repo law by wri
 
 - [CAMPAIGN-03-CONSTITUTIONAL-CONFIG-AND-LEDGER-MEREOLOGY-SYNTHESIS-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CAMPAIGN-03-CONSTITUTIONAL-CONFIG-AND-LEDGER-MEREOLOGY-SYNTHESIS-v1.md)
 - [CONTROL-PLANE-SOVEREIGNTY-CONTRACT-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CONTROL-PLANE-SOVEREIGNTY-CONTRACT-v1.md)
+- [CAMPAIGN-04-TYPED-MIDDLE-LAYER-DIRECT-WRITES-SYNTHESIS-v1.md](/Users/system/syncrescendence/orchestration/state/impl/CAMPAIGN-04-TYPED-MIDDLE-LAYER-DIRECT-WRITES-SYNTHESIS-v1.md)
