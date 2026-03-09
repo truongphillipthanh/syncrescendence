@@ -45,7 +45,7 @@
     "validator_state": "clean",
     "authority_state": "operative",
     "finding_count": 0,
-    "generated_at": "2026-03-09T23:14:25Z"
+    "generated_at": "2026-03-09T23:23:09Z"
   },
   {
     "office_id": "adjudicator",
@@ -93,7 +93,7 @@
     "validator_state": "clean",
     "authority_state": "informative_only",
     "finding_count": 0,
-    "generated_at": "2026-03-09T23:14:25Z"
+    "generated_at": "2026-03-09T23:23:09Z"
   },
   {
     "office_id": "ajna",
@@ -145,7 +145,7 @@
     "validator_state": "clean",
     "authority_state": "informative_only",
     "finding_count": 0,
-    "generated_at": "2026-03-09T23:14:25Z"
+    "generated_at": "2026-03-09T23:23:09Z"
   },
   {
     "office_id": "cartographer",
@@ -193,7 +193,7 @@
     "validator_state": "clean",
     "authority_state": "informative_only",
     "finding_count": 0,
-    "generated_at": "2026-03-09T23:14:25Z"
+    "generated_at": "2026-03-09T23:23:09Z"
   },
   {
     "office_id": "psyche",
@@ -245,6 +245,6 @@
     "validator_state": "clean",
     "authority_state": "informative_only",
     "finding_count": 0,
-    "generated_at": "2026-03-09T23:14:25Z"
+    "generated_at": "2026-03-09T23:23:09Z"
   }
 ]

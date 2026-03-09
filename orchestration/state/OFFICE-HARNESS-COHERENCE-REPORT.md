@@ -1,7 +1,7 @@
 # Office-Harness Coherence Report
 
 - mode: `report-first`
-- generated_at: `2026-03-09T23:14:25Z`
+- generated_at: `2026-03-09T23:23:09Z`
 - federal offices expected: `5`
 - metadata contracts found: `5`
 - operative bindings rendered: `1`
